@@ -1,0 +1,349 @@
+[
+  {
+    "url": "https://eric.ed.gov/?id=EJ883421",
+    "status": null,
+    "error": "<urlopen error timed out>",
+    "seconds": 27.17
+  },
+  {
+    "url": "https://learninglab.psych.purdue.edu/downloads/2008/2008_Karpicke_Roediger_Science.pdf",
+    "status": 200,
+    "final": "https://learninglab.psych.purdue.edu/downloads/2008/2008_Karpicke_Roediger_Science.pdf",
+    "content_type": "application/pdf",
+    "seconds": 1.06
+  },
+  {
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16719566/",
+    "status": 203,
+    "final": "https://pubmed.ncbi.nlm.nih.gov/16719566/",
+    "content_type": "text/html; charset=utf-8",
+    "seconds": 0.48
+  },
+  {
+    "url": "https://apps.ankiweb.net/",
+    "status": 200,
+    "final": "https://apps.ankiweb.net/",
+    "content_type": "text/html; charset=utf-8",
+    "seconds": 0.45
+  },
+  {
+    "url": "https://ask-books.com/book-details/?slug=9784866397214",
+    "status": 200,
+    "final": "https://ask-books.com/book-details/?slug=9784866397214",
+    "content_type": "text/html; charset=UTF-8",
+    "seconds": 0.23
+  },
+  {
+    "url": "https://docs.ankiweb.net/syncing.html",
+    "status": 200,
+    "final": "https://docs.ankiweb.net/manual/syncing",
+    "content_type": "text/html; charset=utf-8",
+    "seconds": 0.48
+  },
+  {
+    "url": "https://gemini.google.com/",
+    "status": 200,
+    "final": "https://gemini.google.com/",
+    "content_type": "text/html; charset=utf-8",
+    "seconds": 0.38
+  },
+  {
+    "url": "https://hn.jpf.go.jp/irodori",
+    "status": 200,
+    "final": "https://hn.jpf.go.jp/irodori",
+    "content_type": "text/html; charset=UTF-8",
+    "seconds": 0.3
+  },
+  {
+    "url": "https://hn.jpf.go.jp/irodori/nhap-mon",
+    "status": 200,
+    "final": "https://hn.jpf.go.jp/irodori/nhap-mon",
+    "content_type": "text/html; charset=UTF-8",
+    "seconds": 0.31
+  },
+  {
+    "url": "https://hn.jpf.go.jp/irodori/so-cap-1",
+    "status": 200,
+    "final": "https://hn.jpf.go.jp/irodori/so-cap-1",
+    "content_type": "text/html; charset=UTF-8",
+    "seconds": 0.27
+  },
+  {
+    "url": "https://jf.xcms.online/wp-content/uploads/2022/06/X_00-01_kyoshitsu1.mp3",
+    "status": 200,
+    "final": "https://jf.xcms.online/wp-content/uploads/2022/06/X_00-01_kyoshitsu1.mp3",
+    "content_type": "audio/mpeg",
+    "seconds": 0.22
+  },
+  {
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27530500/",
+    "status": 203,
+    "final": "https://pubmed.ncbi.nlm.nih.gov/27530500/",
+    "content_type": "text/html; charset=utf-8",
+    "seconds": 0.41
+  },
+  {
+    "url": "https://support.google.com/gemini/answer/13575153",
+    "status": 200,
+    "method": "GET after HEAD 404",
+    "final": "https://support.google.com/gemini/answer/13575153",
+    "content_type": "text/html; charset=UTF-8",
+    "sample_length": 4096,
+    "seconds": 2.2
+  },
+  {
+    "url": "https://support.google.com/gemini/answer/14903178?co=GENIE.Platform%3DDesktop&hl=en",
+    "status": 200,
+    "method": "GET after HEAD 404",
+    "final": "https://support.google.com/gemini/answer/14903178?co=GENIE.Platform%3DDesktop&hl=en",
+    "content_type": "text/html; charset=UTF-8",
+    "sample_length": 4096,
+    "seconds": 1.12
+  },
+  {
+    "url": "https://support.google.com/gemini/answer/15274899?co=GENIE.Platform%3DiOS&hl=en",
+    "status": 200,
+    "method": "GET after HEAD 404",
+    "final": "https://support.google.com/gemini/answer/15274899?co=GENIE.Platform%3DiOS&hl=en",
+    "content_type": "text/html; charset=UTF-8",
+    "sample_length": 4096,
+    "seconds": 2.31
+  },
+  {
+    "url": "https://support.google.com/gemini/answer/16448384",
+    "status": 200,
+    "method": "GET after HEAD 404",
+    "final": "https://support.google.com/gemini/answer/16448384",
+    "content_type": "text/html; charset=UTF-8",
+    "sample_length": 4096,
+    "seconds": 1.09
+  },
+  {
+    "url": "https://support.google.com/notebooklm/answer/16164461?hl=en&co=GENIE.Platform%3DiOS",
+    "status": 200,
+    "final": "https://support.google.com/gemininotebook/answer/16164461?hl=en&co=GENIE.Platform%3DiOS",
+    "content_type": "text/html; charset=UTF-8",
+    "seconds": 1.14
+  },
+  {
+    "url": "https://support.google.com/notebooklm/answer/16215270?hl=en",
+    "status": 200,
+    "final": "https://support.google.com/gemininotebook/answer/16215270?hl=en",
+    "content_type": "text/html; charset=UTF-8",
+    "seconds": 1.16
+  },
+  {
+    "url": "https://tadoku.org/japanese/en/free-books-en/",
+    "status": 200,
+    "final": "https://tadoku.org/japanese/en/free-books-en/",
+    "content_type": "text/html; charset=UTF-8",
+    "seconds": 4.33
+  },
+  {
+    "url": "https://www.aasm.org/resources/pdf/adultsleepdurationconsensus.pdf",
+    "status": 200,
+    "final": "https://www.aasm.org/resources/pdf/adultsleepdurationconsensus.pdf",
+    "content_type": "application/pdf",
+    "seconds": 0.5
+  },
+  {
+    "url": "https://www.irodori.jpf.go.jp/en/about.html",
+    "status": 200,
+    "final": "https://www.irodori.jpf.go.jp/en/about.html",
+    "content_type": "text/html",
+    "seconds": 0.75
+  },
+  {
+    "url": "https://www.irodori.jpf.go.jp/en/faq.html",
+    "status": 200,
+    "final": "https://www.irodori.jpf.go.jp/en/faq.html",
+    "content_type": "text/html",
+    "seconds": 0.67
+  },
+  {
+    "url": "https://www.jlpt.jp/e/about/cefr_reference.html",
+    "status": 200,
+    "final": "https://www.jlpt.jp/e/about/cefr_reference.html",
+    "content_type": "text/html",
+    "seconds": 2.19
+  },
+  {
+    "url": "https://www.jlpt.jp/e/guideline/results.html",
+    "status": 200,
+    "final": "https://www.jlpt.jp/e/guideline/results.html",
+    "content_type": "text/html",
+    "seconds": 2.36
+  },
+  {
+    "url": "https://www.jlpt.jp/e/guideline/testsections.html",
+    "status": 200,
+    "final": "https://www.jlpt.jp/e/guideline/testsections.html",
+    "content_type": "text/html",
+    "seconds": 2.33
+  },
+  {
+    "url": "https://www.jlpt.jp/e/samples/sampleindex.html",
+    "status": 200,
+    "final": "https://www.jlpt.jp/e/samples/sampleindex.html",
+    "content_type": "text/html",
+    "seconds": 3.27
+  },
+  {
+    "url": "https://www.jlpt.jp/reference/pdf/guide_2026.pdf",
+    "status": 200,
+    "final": "https://www.jlpt.jp/reference/pdf/guide_2026.pdf",
+    "content_type": "application/pdf",
+    "seconds": 3.3
+  },
+  {
+    "url": "https://www.jlpt.jp/samples/sample2018/mp3/N3Q1.mp3",
+    "status": 200,
+    "final": "https://www.jlpt.jp/samples/sample2018/mp3/N3Q1.mp3",
+    "content_type": "audio/mpeg",
+    "seconds": 2.39
+  },
+  {
+    "url": "https://www.jlpt.jp/samples/sample2018/mp3/N3Q2.mp3",
+    "status": 200,
+    "final": "https://www.jlpt.jp/samples/sample2018/mp3/N3Q2.mp3",
+    "content_type": "audio/mpeg",
+    "seconds": 2.5
+  },
+  {
+    "url": "https://www.jlpt.jp/samples/sample2018/mp3/N3Q3.mp3",
+    "status": 200,
+    "final": "https://www.jlpt.jp/samples/sample2018/mp3/N3Q3.mp3",
+    "content_type": "audio/mpeg",
+    "seconds": 2.5
+  },
+  {
+    "url": "https://www.jlpt.jp/samples/sample2018/mp3/N3Q4.mp3",
+    "status": 200,
+    "final": "https://www.jlpt.jp/samples/sample2018/mp3/N3Q4.mp3",
+    "content_type": "audio/mpeg",
+    "seconds": 3.36
+  },
+  {
+    "url": "https://www.jlpt.jp/samples/sample2018/mp3/N3Q5.mp3",
+    "status": 200,
+    "final": "https://www.jlpt.jp/samples/sample2018/mp3/N3Q5.mp3",
+    "content_type": "audio/mpeg",
+    "seconds": 3.3
+  },
+  {
+    "url": "https://www.jlpt.jp/samples/sample2018/mp3/N4Q1.mp3",
+    "status": 200,
+    "final": "https://www.jlpt.jp/samples/sample2018/mp3/N4Q1.mp3",
+    "content_type": "audio/mpeg",
+    "seconds": 5.09
+  },
+  {
+    "url": "https://www.jlpt.jp/samples/sample2018/mp3/N4Q2.mp3",
+    "status": 200,
+    "final": "https://www.jlpt.jp/samples/sample2018/mp3/N4Q2.mp3",
+    "content_type": "audio/mpeg",
+    "seconds": 3.5
+  },
+  {
+    "url": "https://www.jlpt.jp/samples/sample2018/mp3/N4Q3.mp3",
+    "status": 200,
+    "final": "https://www.jlpt.jp/samples/sample2018/mp3/N4Q3.mp3",
+    "content_type": "audio/mpeg",
+    "seconds": 3.33
+  },
+  {
+    "url": "https://www.jlpt.jp/samples/sample2018/mp3/N4Q4.mp3",
+    "status": 200,
+    "final": "https://www.jlpt.jp/samples/sample2018/mp3/N4Q4.mp3",
+    "content_type": "audio/mpeg",
+    "seconds": 3.31
+  },
+  {
+    "url": "https://www.jlpt.jp/samples/sample2018/pdf/N3G.pdf",
+    "status": 200,
+    "final": "https://www.jlpt.jp/samples/sample2018/pdf/N3G.pdf",
+    "content_type": "application/pdf",
+    "seconds": 1.97
+  },
+  {
+    "url": "https://www.jlpt.jp/samples/sample2018/pdf/N3L.pdf",
+    "status": 200,
+    "final": "https://www.jlpt.jp/samples/sample2018/pdf/N3L.pdf",
+    "content_type": "application/pdf",
+    "seconds": 8.56
+  },
+  {
+    "url": "https://www.jlpt.jp/samples/sample2018/pdf/N3R.pdf",
+    "status": 200,
+    "final": "https://www.jlpt.jp/samples/sample2018/pdf/N3R.pdf",
+    "content_type": "application/pdf",
+    "seconds": 4.52
+  },
+  {
+    "url": "https://www.jlpt.jp/samples/sample2018/pdf/N3V.pdf",
+    "status": 200,
+    "final": "https://www.jlpt.jp/samples/sample2018/pdf/N3V.pdf",
+    "content_type": "application/pdf",
+    "seconds": 5.53
+  },
+  {
+    "url": "https://www.jlpt.jp/samples/sample2018/pdf/N3answer.pdf",
+    "status": 206,
+    "method": "GET after timeout",
+    "final": "https://www.jlpt.jp/samples/sample2018/pdf/N3answer.pdf",
+    "content_type": "application/pdf",
+    "sample_length": 4096,
+    "seconds": 15.52
+  },
+  {
+    "url": "https://www.jlpt.jp/samples/sample2018/pdf/N3script.pdf",
+    "status": 200,
+    "final": "https://www.jlpt.jp/samples/sample2018/pdf/N3script.pdf",
+    "content_type": "application/pdf",
+    "seconds": 5.22
+  },
+  {
+    "url": "https://www.jlpt.jp/samples/sample2018/pdf/N4G.pdf",
+    "status": 200,
+    "final": "https://www.jlpt.jp/samples/sample2018/pdf/N4G.pdf",
+    "content_type": "application/pdf",
+    "seconds": 1.34
+  },
+  {
+    "url": "https://www.jlpt.jp/samples/sample2018/pdf/N4L.pdf",
+    "status": 200,
+    "final": "https://www.jlpt.jp/samples/sample2018/pdf/N4L.pdf",
+    "content_type": "application/pdf",
+    "seconds": 4.45
+  },
+  {
+    "url": "https://www.jlpt.jp/samples/sample2018/pdf/N4R.pdf",
+    "status": 206,
+    "method": "GET after timeout",
+    "final": "https://www.jlpt.jp/samples/sample2018/pdf/N4R.pdf",
+    "content_type": "application/pdf",
+    "sample_length": 4096,
+    "seconds": 22.16
+  },
+  {
+    "url": "https://www.jlpt.jp/samples/sample2018/pdf/N4V.pdf",
+    "status": 200,
+    "final": "https://www.jlpt.jp/samples/sample2018/pdf/N4V.pdf",
+    "content_type": "application/pdf",
+    "seconds": 1.48
+  },
+  {
+    "url": "https://www.jlpt.jp/samples/sample2018/pdf/N4answer.pdf",
+    "status": 200,
+    "final": "https://www.jlpt.jp/samples/sample2018/pdf/N4answer.pdf",
+    "content_type": "application/pdf",
+    "seconds": 1.53
+  },
+  {
+    "url": "https://www.jlpt.jp/samples/sample2018/pdf/N4script.pdf",
+    "status": 200,
+    "final": "https://www.jlpt.jp/samples/sample2018/pdf/N4script.pdf",
+    "content_type": "application/pdf",
+    "seconds": 2.5
+  }
+]

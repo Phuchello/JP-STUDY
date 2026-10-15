@@ -1,0 +1,12 @@
+import fs from 'node:fs/promises';
+import {SpreadsheetFile,FileBlob} from '@oai/artifact-tool';
+const root='<user>/Music/JP';
+const w=await SpreadsheetFile.importXlsx(await FileBlob.load(root+'/FINAL/JLPT_PROGRESS_TRACKER_v2.xlsx'));
+w.recalculate();
+const d=w.worksheets.getItem('Tổng hợp tuần');
+if(d.getRange('E19').values[0][0]!==''||d.getRange('E27').values[0][0]!=='')throw new Error('Unknown outcomes did not stay blank');
+const x=w.worksheets.getItem('Chẩn đoán');
+if(x.getRange('F8').values[0][0]!==null||x.getRange('E8').values[0][0]!=='Mở đề')throw new Error('Final input or hyperlink label changed');
+const scan=await w.inspect({kind:'match',searchTerm:'#REF!|#DIV/0!|#VALUE!|#NAME\\?|#N/A|#NUM!|#NULL!|#SPILL!|#CALC!|HYPERLINK is not implemented',options:{useRegex:true,maxResults:100},summary:'Reopen final workbook scan'});
+await fs.writeFile(root+'/tmp/jlpt-v2/reopen_scan.ndjson',scan.ndjson);
+console.log(scan.ndjson);console.log('Reopened final workbook without authoring or export');

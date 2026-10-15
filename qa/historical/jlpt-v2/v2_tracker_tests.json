@@ -1,0 +1,360 @@
+[
+  {
+    "name": "Initial unknown accuracy",
+    "actual": "",
+    "expected": "",
+    "ok": true
+  },
+  {
+    "name": "No initial measured outcomes",
+    "actual": "",
+    "expected": "",
+    "ok": true
+  },
+  {
+    "name": "N4 diagnostic starts with six optional windows",
+    "actual": "0/6 khối",
+    "expected": "0/6 khối",
+    "ok": true
+  },
+  {
+    "name": "N3 remains a separate optional probe",
+    "actual": "0/5 khối",
+    "expected": "0/5 khối",
+    "ok": true
+  },
+  {
+    "name": "Diary valid",
+    "actual": "Hợp lệ",
+    "expected": "Hợp lệ",
+    "ok": true
+  },
+  {
+    "name": "Week study minutes",
+    "actual": 25,
+    "expected": 25,
+    "ok": true
+  },
+  {
+    "name": "Sleep mean preserves fractions",
+    "actual": 7.5,
+    "expected": 7.5,
+    "ok": true
+  },
+  {
+    "name": "Speaking minutes",
+    "actual": 3,
+    "expected": 3,
+    "ok": true
+  },
+  {
+    "name": "Weekly error category",
+    "actual": 1,
+    "expected": 1,
+    "ok": true
+  },
+  {
+    "name": "Text fatigue is actionable without formula error",
+    "actual": "Lỗi ngủ/mệt",
+    "expected": "Lỗi ngủ/mệt",
+    "ok": true
+  },
+  {
+    "name": "Zero is not a blank error code",
+    "actual": "Lỗi mã",
+    "expected": "Lỗi mã",
+    "ok": true
+  },
+  {
+    "name": "Real zero sleep counted",
+    "actual": 2,
+    "expected": 2,
+    "ok": true
+  },
+  {
+    "name": "Sleep mean with real zero",
+    "actual": 3.75,
+    "expected": 3.75,
+    "ok": true
+  },
+  {
+    "name": "Zero-minute rest counted",
+    "actual": 2,
+    "expected": 2,
+    "ok": true
+  },
+  {
+    "name": "Blank listening is not zero observation",
+    "actual": 2,
+    "expected": 2,
+    "ok": true
+  },
+  {
+    "name": "Study includes row with unknown listening",
+    "actual": 45,
+    "expected": 45,
+    "ok": true
+  },
+  {
+    "name": "Overlapping minutes flagged",
+    "actual": "Nghe+nói vượt tổng",
+    "expected": "Nghe+nói vượt tổng",
+    "ok": true
+  },
+  {
+    "name": "Invalid activity excluded",
+    "actual": 25,
+    "expected": 25,
+    "ok": true
+  },
+  {
+    "name": "Impossible sleep flagged",
+    "actual": "Lỗi ngủ/mệt",
+    "expected": "Lỗi ngủ/mệt",
+    "ok": true
+  },
+  {
+    "name": "Zero correct preserved",
+    "actual": 0,
+    "expected": 0,
+    "ok": true
+  },
+  {
+    "name": "N4 separate",
+    "actual": 0,
+    "expected": 0,
+    "ok": true
+  },
+  {
+    "name": "N3 separate",
+    "actual": 0.8,
+    "expected": 0.8,
+    "ok": true
+  },
+  {
+    "name": "N2 separate",
+    "actual": 0.5,
+    "expected": 0.5,
+    "ok": true
+  },
+  {
+    "name": "Old and outside-week excluded",
+    "actual": 10,
+    "expected": 10,
+    "ok": true
+  },
+  {
+    "name": "Week selector changes included records",
+    "actual": 1,
+    "expected": 1,
+    "ok": true
+  },
+  {
+    "name": "Other levels do not carry to next week",
+    "actual": "",
+    "expected": "",
+    "ok": true
+  },
+  {
+    "name": "Last day of week included",
+    "actual": 20,
+    "expected": 20,
+    "ok": true
+  },
+  {
+    "name": "Unsupported level flagged",
+    "actual": "Sai cấp/kỹ năng",
+    "expected": "Sai cấp/kỹ năng",
+    "ok": true
+  },
+  {
+    "name": "Fractional correct-answer count rejected",
+    "actual": "Lỗi/thiếu số đúng-tổng",
+    "expected": "Lỗi/thiếu số đúng-tổng",
+    "ok": true
+  },
+  {
+    "name": "Text answer count is flagged without arithmetic error",
+    "actual": "Lỗi/thiếu số đúng-tổng",
+    "expected": "Lỗi/thiếu số đúng-tổng",
+    "ok": true
+  },
+  {
+    "name": "Zero denominator error",
+    "actual": "Lỗi nhập",
+    "expected": "Lỗi nhập",
+    "ok": true
+  },
+  {
+    "name": "Invalid measure excluded",
+    "actual": "",
+    "expected": "",
+    "ok": true
+  },
+  {
+    "name": "Correct above denominator error",
+    "actual": "Lỗi nhập",
+    "expected": "Lỗi nhập",
+    "ok": true
+  },
+  {
+    "name": "Missing timing remains visible",
+    "actual": "Thiếu phút",
+    "expected": "Thiếu phút",
+    "ok": true
+  },
+  {
+    "name": "Missing date remains actionable",
+    "actual": "Thiếu ngày đo",
+    "expected": "Thiếu ngày đo",
+    "ok": true
+  },
+  {
+    "name": "Missing-date warning does not disappear",
+    "actual": 1,
+    "expected": 1,
+    "ok": true
+  },
+  {
+    "name": "Duplicate new set flagged",
+    "actual": "Trùng câu mới",
+    "expected": "Trùng câu mới",
+    "ok": true
+  },
+  {
+    "name": "Duplicate does not inflate dashboard",
+    "actual": "",
+    "expected": "",
+    "ok": true
+  },
+  {
+    "name": "Six selected, omitted counted in denominator",
+    "actual": 0.5,
+    "expected": 0.5,
+    "ok": true
+  },
+  {
+    "name": "One grammar block cannot complete combined result",
+    "actual": "",
+    "expected": "",
+    "ok": true
+  },
+  {
+    "name": "Diagnostic task counter reacts to completed N4 block",
+    "actual": "1/6 khối",
+    "expected": "1/6 khối",
+    "ok": true
+  },
+  {
+    "name": "Cannot mark omitted answer correct",
+    "actual": "Kiểm tra bỏ trống",
+    "expected": "Kiểm tra bỏ trống",
+    "ok": true
+  },
+  {
+    "name": "Contradictory grading blocks completion",
+    "actual": "",
+    "expected": "",
+    "ok": true
+  },
+  {
+    "name": "Out-of-range answer caught",
+    "actual": "Lỗi đáp án",
+    "expected": "Lỗi đáp án",
+    "ok": true
+  },
+  {
+    "name": "Text answer is flagged without arithmetic error",
+    "actual": "Lỗi đáp án",
+    "expected": "Lỗi đáp án",
+    "ok": true
+  },
+  {
+    "name": "Freshness cannot be assumed",
+    "actual": "Chọn loại câu",
+    "expected": "Chọn loại câu",
+    "ok": true
+  },
+  {
+    "name": "Date zero does not complete a block",
+    "actual": "Thiếu ngày",
+    "expected": "Thiếu ngày",
+    "ok": true
+  },
+  {
+    "name": "Three-choice listening rejects answer four",
+    "actual": "Lỗi đáp án",
+    "expected": "Lỗi đáp án",
+    "ok": true
+  },
+  {
+    "name": "Complete grammar automatic score",
+    "actual": 13,
+    "expected": 13,
+    "ok": true
+  },
+  {
+    "name": "Mixed freshness becomes review",
+    "actual": "Ôn lại",
+    "expected": "Ôn lại",
+    "ok": true
+  },
+  {
+    "name": "Review diagnostic excluded from fresh dashboard",
+    "actual": "",
+    "expected": "",
+    "ok": true
+  },
+  {
+    "name": "Fresh diagnostic enters dashboard",
+    "actual": 1,
+    "expected": 1,
+    "ok": true
+  },
+  {
+    "name": "Completion date is last block date",
+    "actual": 46311,
+    "expected": 46311,
+    "ok": true
+  },
+  {
+    "name": "All omitted listening is measured zero",
+    "actual": 0,
+    "expected": 0,
+    "ok": true
+  },
+  {
+    "name": "Listening denominator is all selected items",
+    "actual": 8,
+    "expected": 8,
+    "ok": true
+  },
+  {
+    "name": "Measured zero listening reaches weekly dashboard",
+    "actual": 0,
+    "expected": 0,
+    "ok": true
+  },
+  {
+    "name": "No diagnostic answers left from tests",
+    "actual": null,
+    "expected": null,
+    "ok": true
+  },
+  {
+    "name": "No fabricated N2 results",
+    "actual": "",
+    "expected": "",
+    "ok": true
+  },
+  {
+    "name": "No fabricated diagnostic results",
+    "actual": "",
+    "expected": "",
+    "ok": true
+  },
+  {
+    "name": "Original data and formulas preserved",
+    "ok": true
+  }
+]

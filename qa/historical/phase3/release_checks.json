@@ -1,0 +1,140 @@
+{
+  "checks": [
+    {
+      "name": "All13 Phase1/2/2.1 sources unchanged",
+      "ok": true
+    },
+    {
+      "name": "80+4 pilot count",
+      "ok": true
+    },
+    {
+      "name": "31+37 instructional count",
+      "ok": true
+    },
+    {
+      "name": "30 reusable recipes",
+      "ok": true
+    },
+    {
+      "name": "Required metadata + estimated difficulty + evidence",
+      "ok": true
+    },
+    {
+      "name": "Pattern and template references valid or null",
+      "ok": true
+    },
+    {
+      "name": "Key digest matches recomputation",
+      "ok": true
+    },
+    {
+      "name": "Key view equals all bank keys and rationales",
+      "ok": true
+    },
+    {
+      "name": "bank JS resource identical to JSON",
+      "ok": true
+    },
+    {
+      "name": "patterns JS resource identical to JSON",
+      "ok": true
+    },
+    {
+      "name": "Entry includes exact current scripts and CSS",
+      "ok": true
+    },
+    {
+      "name": "All library practice keys in range",
+      "ok": true
+    },
+    {
+      "name": "All objective questions marked reviewed",
+      "ok": true
+    },
+    {
+      "name": "Independent final content PASS",
+      "ok": true
+    },
+    {
+      "name": "Independent final bank fingerprint matches release",
+      "ok": true
+    },
+    {
+      "name": "Teaching projection unchanged after independent approval",
+      "ok": true
+    },
+    {
+      "name": "Independent final library fingerprint matches release",
+      "ok": true
+    },
+    {
+      "name": "80 option text/key/distractor remaps preserved",
+      "ok": true
+    },
+    {
+      "name": "Engine final test run passes",
+      "ok": true
+    },
+    {
+      "name": "Browser final test run passes",
+      "ok": true
+    },
+    {
+      "name": "Edge flow final test run passes",
+      "ok": true
+    },
+    {
+      "name": "Excel native checks pass",
+      "ok": true
+    },
+    {
+      "name": "Spreadsheet author checks pass",
+      "ok": true
+    },
+    {
+      "name": "PDF page limits 3/5/5/6",
+      "ok": true
+    },
+    {
+      "name": "PDF text margins and glyph extraction clean",
+      "ok": true
+    },
+    {
+      "name": "Original five worksheet XML/relationship parts exact",
+      "ok": true
+    },
+    {
+      "name": "No learner data in import area",
+      "ok": true
+    },
+    {
+      "name": "Native links and validation retained",
+      "ok": true
+    }
+  ],
+  "nativeFeatures": {
+    "hyperlinks": 123,
+    "validations": 142,
+    "formulasOld": 1026,
+    "formulasNew": 1531
+  },
+  "coverage": {
+    "VOC": 8,
+    "PART": 10,
+    "CONJ": 10,
+    "GRAM": 12,
+    "ORDER": 8,
+    "INTERP": 6,
+    "SHORT": 8,
+    "MED": 6,
+    "LISTEN": 8,
+    "COMM": 4
+  },
+  "keys": {
+    "D": 23,
+    "B": 22,
+    "C": 16,
+    "A": 19
+  }
+}

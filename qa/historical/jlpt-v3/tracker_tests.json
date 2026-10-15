@@ -1,0 +1,602 @@
+[
+  {
+    "name": "Blank quick answers remain unknown",
+    "actual": "Chưa làm",
+    "expected": "Chưa làm",
+    "ok": true
+  },
+  {
+    "name": "Missing start date gives insufficient D7",
+    "actual": "Chưa đủ dữ liệu",
+    "expected": "Chưa đủ dữ liệu",
+    "ok": true
+  },
+  {
+    "name": "Partial first block retained",
+    "actual": "Còn 4 câu",
+    "expected": "Còn 4 câu",
+    "ok": true
+  },
+  {
+    "name": "Partial result not leaked",
+    "actual": "Chỉ hiện sau khi làm xong",
+    "expected": "Chỉ hiện sau khi làm xong",
+    "ok": true
+  },
+  {
+    "name": "Completed unsubmitted block has no feedback",
+    "actual": "Chọn Xong để chấm",
+    "expected": "Chọn Xong để chấm",
+    "ok": true
+  },
+  {
+    "name": "Grading before date still shows correct total",
+    "actual": "6/6 đúng; 0 vẫn tính bỏ câu",
+    "expected": "6/6 đúng; 0 vẫn tính bỏ câu",
+    "ok": true
+  },
+  {
+    "name": "Missing date blocked",
+    "actual": "Thiếu/sai ngày",
+    "expected": "Thiếu/sai ngày",
+    "ok": true
+  },
+  {
+    "name": "Completed block",
+    "actual": "Đã chấm",
+    "expected": "Đã chấm",
+    "ok": true
+  },
+  {
+    "name": "First grammar block alone cannot create aggregate",
+    "actual": "",
+    "expected": "",
+    "ok": true
+  },
+  {
+    "name": "Missing minutes blocked",
+    "actual": "Thiếu/sai phút",
+    "expected": "Thiếu/sai phút",
+    "ok": true
+  },
+  {
+    "name": "Missing new/review type blocked",
+    "actual": "Chọn Mới/Ôn lại",
+    "expected": "Chọn Mới/Ôn lại",
+    "ok": true
+  },
+  {
+    "name": "Invalid answer 5",
+    "actual": "Sửa đáp án",
+    "expected": "Sửa đáp án",
+    "ok": true
+  },
+  {
+    "name": "Invalid answer -1",
+    "actual": "Sửa đáp án",
+    "expected": "Sửa đáp án",
+    "ok": true
+  },
+  {
+    "name": "Invalid answer 1.5",
+    "actual": "Sửa đáp án",
+    "expected": "Sửa đáp án",
+    "ok": true
+  },
+  {
+    "name": "Invalid answer abc",
+    "actual": "Sửa đáp án",
+    "expected": "Sửa đáp án",
+    "ok": true
+  },
+  {
+    "name": "Text date is not coerced silently",
+    "actual": "Thiếu/sai ngày",
+    "expected": "Thiếu/sai ngày",
+    "ok": true
+  },
+  {
+    "name": "Explicit skips are real zero",
+    "actual": "0/6 đúng; 0 vẫn tính bỏ câu",
+    "expected": "0/6 đúng; 0 vẫn tính bỏ câu",
+    "ok": true
+  },
+  {
+    "name": "Skipped question in review list",
+    "actual": "1, 2, 3, 4, 5, 6, ",
+    "expected": "1, 2, 3, 4, 5, 6, ",
+    "ok": true
+  },
+  {
+    "name": "Blank differs from explicit skip",
+    "actual": "Còn 1 câu",
+    "expected": "Còn 1 câu",
+    "ok": true
+  },
+  {
+    "name": "Wrong item list",
+    "actual": "6, ",
+    "expected": "6, ",
+    "ok": true
+  },
+  {
+    "name": "Five of six arithmetic",
+    "actual": "5/6 đúng; 0 vẫn tính bỏ câu",
+    "expected": "5/6 đúng; 0 vẫn tính bỏ câu",
+    "ok": true
+  },
+  {
+    "name": "Two modes cannot double count",
+    "actual": "Trùng hai chế độ",
+    "expected": "Trùng hai chế độ",
+    "ok": true
+  },
+  {
+    "name": "Two complete grammar blocks aggregate",
+    "actual": 12,
+    "expected": 12,
+    "ok": true
+  },
+  {
+    "name": "Grammar denominator",
+    "actual": 13,
+    "expected": 13,
+    "ok": true
+  },
+  {
+    "name": "Weekly quick data used",
+    "actual": 13,
+    "expected": 13,
+    "ok": true
+  },
+  {
+    "name": "Weekly quick accuracy",
+    "actual": 0.9230769230769231,
+    "expected": 0.9230769230769231,
+    "ok": true
+  },
+  {
+    "name": "Mixed review/new becomes review",
+    "actual": "Ôn lại",
+    "expected": "Ôn lại",
+    "ok": true
+  },
+  {
+    "name": "Review excluded from new weekly score",
+    "actual": "",
+    "expected": "",
+    "ok": true
+  },
+  {
+    "name": "D7 dynamic",
+    "actual": 46322,
+    "expected": 46322,
+    "ok": true
+  },
+  {
+    "name": "D14 dynamic",
+    "actual": 46329,
+    "expected": 46329,
+    "ok": true
+  },
+  {
+    "name": "Not enough learning evidence still insufficient",
+    "actual": "Chưa đủ dữ liệu",
+    "expected": "Chưa đủ dữ liệu",
+    "ok": true
+  },
+  {
+    "name": "Invalid actual start 0",
+    "actual": "Chưa đủ dữ liệu",
+    "expected": "Chưa đủ dữ liệu",
+    "ok": true
+  },
+  {
+    "name": "Invalid start does not enable checkpoint 0",
+    "actual": "Chưa đủ dữ liệu",
+    "expected": "Chưa đủ dữ liệu",
+    "ok": true
+  },
+  {
+    "name": "Invalid actual start -1",
+    "actual": "Chưa đủ dữ liệu",
+    "expected": "Chưa đủ dữ liệu",
+    "ok": true
+  },
+  {
+    "name": "Invalid start does not enable checkpoint -1",
+    "actual": "Chưa đủ dữ liệu",
+    "expected": "Chưa đủ dữ liệu",
+    "ok": true
+  },
+  {
+    "name": "Invalid actual start 1.5",
+    "actual": "Chưa đủ dữ liệu",
+    "expected": "Chưa đủ dữ liệu",
+    "ok": true
+  },
+  {
+    "name": "Invalid start does not enable checkpoint 1.5",
+    "actual": "Chưa đủ dữ liệu",
+    "expected": "Chưa đủ dữ liệu",
+    "ok": true
+  },
+  {
+    "name": "Invalid actual start abc",
+    "actual": "Chưa đủ dữ liệu",
+    "expected": "Chưa đủ dữ liệu",
+    "ok": true
+  },
+  {
+    "name": "Invalid start does not enable checkpoint abc",
+    "actual": "Chưa đủ dữ liệu",
+    "expected": "Chưa đủ dữ liệu",
+    "ok": true
+  },
+  {
+    "name": "Invalid actual start 2958465",
+    "actual": "Chưa đủ dữ liệu",
+    "expected": "Chưa đủ dữ liệu",
+    "ok": true
+  },
+  {
+    "name": "Invalid start does not enable checkpoint 2958465",
+    "actual": "Chưa đủ dữ liệu",
+    "expected": "Chưa đủ dữ liệu",
+    "ok": true
+  },
+  {
+    "name": "Quick G1 and detailed G2 combine without duplicate",
+    "actual": 12,
+    "expected": 12,
+    "ok": true
+  },
+  {
+    "name": "N4-G1 all verified keys correct",
+    "actual": 6,
+    "expected": 6,
+    "ok": true
+  },
+  {
+    "name": "N4-G1 submitted",
+    "actual": "Đã chấm",
+    "expected": "Đã chấm",
+    "ok": true
+  },
+  {
+    "name": "N4-G1 one incorrect",
+    "actual": 5,
+    "expected": 5,
+    "ok": true
+  },
+  {
+    "name": "N4-G1 all skips valid",
+    "actual": "Đã chấm",
+    "expected": "Đã chấm",
+    "ok": true
+  },
+  {
+    "name": "N4-G1 all skips zero",
+    "actual": 0,
+    "expected": 0,
+    "ok": true
+  },
+  {
+    "name": "N4-G2 all verified keys correct",
+    "actual": 7,
+    "expected": 7,
+    "ok": true
+  },
+  {
+    "name": "N4-G2 submitted",
+    "actual": "Đã chấm",
+    "expected": "Đã chấm",
+    "ok": true
+  },
+  {
+    "name": "N4-G2 one incorrect",
+    "actual": 6,
+    "expected": 6,
+    "ok": true
+  },
+  {
+    "name": "N4-G2 all skips valid",
+    "actual": "Đã chấm",
+    "expected": "Đã chấm",
+    "ok": true
+  },
+  {
+    "name": "N4-G2 all skips zero",
+    "actual": 0,
+    "expected": 0,
+    "ok": true
+  },
+  {
+    "name": "N4-V all verified keys correct",
+    "actual": 10,
+    "expected": 10,
+    "ok": true
+  },
+  {
+    "name": "N4-V submitted",
+    "actual": "Đã chấm",
+    "expected": "Đã chấm",
+    "ok": true
+  },
+  {
+    "name": "N4-V one incorrect",
+    "actual": 9,
+    "expected": 9,
+    "ok": true
+  },
+  {
+    "name": "N4-V all skips valid",
+    "actual": "Đã chấm",
+    "expected": "Đã chấm",
+    "ok": true
+  },
+  {
+    "name": "N4-V all skips zero",
+    "actual": 0,
+    "expected": 0,
+    "ok": true
+  },
+  {
+    "name": "N4-R all verified keys correct",
+    "actual": 5,
+    "expected": 5,
+    "ok": true
+  },
+  {
+    "name": "N4-R submitted",
+    "actual": "Đã chấm",
+    "expected": "Đã chấm",
+    "ok": true
+  },
+  {
+    "name": "N4-R one incorrect",
+    "actual": 4,
+    "expected": 4,
+    "ok": true
+  },
+  {
+    "name": "N4-R all skips valid",
+    "actual": "Đã chấm",
+    "expected": "Đã chấm",
+    "ok": true
+  },
+  {
+    "name": "N4-R all skips zero",
+    "actual": 0,
+    "expected": 0,
+    "ok": true
+  },
+  {
+    "name": "N4-L1 all verified keys correct",
+    "actual": 4,
+    "expected": 4,
+    "ok": true
+  },
+  {
+    "name": "N4-L1 submitted",
+    "actual": "Đã chấm",
+    "expected": "Đã chấm",
+    "ok": true
+  },
+  {
+    "name": "N4-L1 one incorrect",
+    "actual": 3,
+    "expected": 3,
+    "ok": true
+  },
+  {
+    "name": "N4-L1 all skips valid",
+    "actual": "Đã chấm",
+    "expected": "Đã chấm",
+    "ok": true
+  },
+  {
+    "name": "N4-L1 all skips zero",
+    "actual": 0,
+    "expected": 0,
+    "ok": true
+  },
+  {
+    "name": "N4-L2 all verified keys correct",
+    "actual": 4,
+    "expected": 4,
+    "ok": true
+  },
+  {
+    "name": "N4-L2 submitted",
+    "actual": "Đã chấm",
+    "expected": "Đã chấm",
+    "ok": true
+  },
+  {
+    "name": "N4-L2 one incorrect",
+    "actual": 3,
+    "expected": 3,
+    "ok": true
+  },
+  {
+    "name": "N4-L2 all skips valid",
+    "actual": "Đã chấm",
+    "expected": "Đã chấm",
+    "ok": true
+  },
+  {
+    "name": "N4-L2 all skips zero",
+    "actual": 0,
+    "expected": 0,
+    "ok": true
+  },
+  {
+    "name": "N3-G all verified keys correct",
+    "actual": 6,
+    "expected": 6,
+    "ok": true
+  },
+  {
+    "name": "N3-G submitted",
+    "actual": "Đã chấm",
+    "expected": "Đã chấm",
+    "ok": true
+  },
+  {
+    "name": "N3-G one incorrect",
+    "actual": 5,
+    "expected": 5,
+    "ok": true
+  },
+  {
+    "name": "N3-G all skips valid",
+    "actual": "Đã chấm",
+    "expected": "Đã chấm",
+    "ok": true
+  },
+  {
+    "name": "N3-G all skips zero",
+    "actual": 0,
+    "expected": 0,
+    "ok": true
+  },
+  {
+    "name": "N3-V all verified keys correct",
+    "actual": 10,
+    "expected": 10,
+    "ok": true
+  },
+  {
+    "name": "N3-V submitted",
+    "actual": "Đã chấm",
+    "expected": "Đã chấm",
+    "ok": true
+  },
+  {
+    "name": "N3-V one incorrect",
+    "actual": 9,
+    "expected": 9,
+    "ok": true
+  },
+  {
+    "name": "N3-V all skips valid",
+    "actual": "Đã chấm",
+    "expected": "Đã chấm",
+    "ok": true
+  },
+  {
+    "name": "N3-V all skips zero",
+    "actual": 0,
+    "expected": 0,
+    "ok": true
+  },
+  {
+    "name": "N3-R all verified keys correct",
+    "actual": 4,
+    "expected": 4,
+    "ok": true
+  },
+  {
+    "name": "N3-R submitted",
+    "actual": "Đã chấm",
+    "expected": "Đã chấm",
+    "ok": true
+  },
+  {
+    "name": "N3-R one incorrect",
+    "actual": 3,
+    "expected": 3,
+    "ok": true
+  },
+  {
+    "name": "N3-R all skips valid",
+    "actual": "Đã chấm",
+    "expected": "Đã chấm",
+    "ok": true
+  },
+  {
+    "name": "N3-R all skips zero",
+    "actual": 0,
+    "expected": 0,
+    "ok": true
+  },
+  {
+    "name": "N3-L1 all verified keys correct",
+    "actual": 4,
+    "expected": 4,
+    "ok": true
+  },
+  {
+    "name": "N3-L1 submitted",
+    "actual": "Đã chấm",
+    "expected": "Đã chấm",
+    "ok": true
+  },
+  {
+    "name": "N3-L1 one incorrect",
+    "actual": 3,
+    "expected": 3,
+    "ok": true
+  },
+  {
+    "name": "N3-L1 all skips valid",
+    "actual": "Đã chấm",
+    "expected": "Đã chấm",
+    "ok": true
+  },
+  {
+    "name": "N3-L1 all skips zero",
+    "actual": 0,
+    "expected": 0,
+    "ok": true
+  },
+  {
+    "name": "N3-L2 all verified keys correct",
+    "actual": 6,
+    "expected": 6,
+    "ok": true
+  },
+  {
+    "name": "N3-L2 submitted",
+    "actual": "Đã chấm",
+    "expected": "Đã chấm",
+    "ok": true
+  },
+  {
+    "name": "N3-L2 one incorrect",
+    "actual": 5,
+    "expected": 5,
+    "ok": true
+  },
+  {
+    "name": "N3-L2 all skips valid",
+    "actual": "Đã chấm",
+    "expected": "Đã chấm",
+    "ok": true
+  },
+  {
+    "name": "N3-L2 all skips zero",
+    "actual": 0,
+    "expected": 0,
+    "ok": true
+  },
+  {
+    "name": "Three-choice audio rejects 4",
+    "actual": "Sửa đáp án",
+    "expected": "Sửa đáp án",
+    "ok": true
+  },
+  {
+    "name": "Fixtures cleared",
+    "actual": "Chưa làm",
+    "expected": "Chưa làm",
+    "ok": true
+  },
+  {
+    "name": "No fabricated final grammar score",
+    "actual": "",
+    "expected": "",
+    "ok": true
+  }
+]

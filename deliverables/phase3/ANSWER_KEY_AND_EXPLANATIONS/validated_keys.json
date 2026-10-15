@@ -1,0 +1,1527 @@
+{
+  "bankVersion": "pilot-n4-2026.10.15-v1",
+  "answerKeyDigest": "e8b9530f41f020d084fb7dc4101e20026abfddd327e42392b3629ec4f5982a8f",
+  "validationNote": "Independent AI content QA: blind 80/80 then full keys/distractors; repairs and targeted reaudits passed 15/10/2026, 4 roles and 80 mappings checked. No native-human calibration or acoustic TTS audit. Expansion deferred.",
+  "questions": [
+    {
+      "id": "N4-VOC-001",
+      "correctAnswer": "D",
+      "explanationVi": "受付 đọc là うけつけ, nơi tiếp nhận/đăng ký; nhận ra kanji rồi nói lại cả từ.",
+      "distractorExplanations": {
+        "A": "うけとり là cách đọc của 受け取り, một từ khác.",
+        "B": "Từ này không có âm đục づ ở phần つけ.",
+        "C": "Âm ち không có trong cách đọc 受付."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": null
+    },
+    {
+      "id": "N4-VOC-002",
+      "correctAnswer": "D",
+      "explanationVi": "予定 đọc là よてい; câu nói về kế hoạch tuần tới.",
+      "distractorExplanations": {
+        "A": "予定 không kéo dài âm よ thành よう.",
+        "B": "予定 không có âm ngắt っ.",
+        "C": "Thiếu âm い ở cuối てい."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": null
+    },
+    {
+      "id": "N4-VOC-003",
+      "correctAnswer": "B",
+      "explanationVi": "住所 đọc là じゅうしょ, địa chỉ. Chú ý âm dài, không chỉ nhận mặt chữ.",
+      "distractorExplanations": {
+        "A": "住所 có âm dài じゅう.",
+        "C": "Âm cuối là しょ, không phải しょう.",
+        "D": "Âm đầu là じゅう, không phải じょう."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": null
+    },
+    {
+      "id": "N4-VOC-004",
+      "correctAnswer": "D",
+      "explanationVi": "間に合う đọc là まにあう: kịp giờ. Câu cho biết đã kịp chuyến tàu.",
+      "distractorExplanations": {
+        "A": "かん là cách đọc khác của 間, không dùng trong từ này.",
+        "B": "Trong từ cố định 間に合う, 間 đọc là ま.",
+        "C": "合う ở đây đọc là あう, không phải ごう."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": null
+    },
+    {
+      "id": "N4-VOC-005",
+      "correctAnswer": "C",
+      "explanationVi": "雨が強い là mưa to; đồ phù hợp cần mang là かさ, chiếc ô.",
+      "distractorExplanations": {
+        "A": "Ví không giúp che mưa trong tình huống này.",
+        "B": "Vé dùng để đi phương tiện/sự kiện, không che mưa.",
+        "D": "Găng tay không đáp ứng mục đích che mưa."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": null
+    },
+    {
+      "id": "N4-VOC-006",
+      "correctAnswer": "B",
+      "explanationVi": "まだ来ていません cho biết bạn chưa đến; 待っています là đang chờ.",
+      "distractorExplanations": {
+        "A": "送る là tiễn/gửi; bạn chưa đến nên ở đây đang chờ.",
+        "C": "直す là sửa; không phù hợp với 友だち và câu sau.",
+        "D": "借りる là mượn, không dùng cho việc đợi một người."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": null
+    },
+    {
+      "id": "N4-VOC-007",
+      "correctAnswer": "A",
+      "explanationVi": "乗り遅れる là lỡ chuyến. 出発した後で駅に着いた xác nhận đã tới ga sau khi tàu chạy.",
+      "distractorExplanations": {
+        "B": "休む là nghỉ, không kết hợp 電車に để nói lỡ chuyến.",
+        "C": "Tàu đã xuất phát trước khi người đó tới ga, nên không thể nói kịp chuyến.",
+        "D": "集まる là tập hợp, không có nghĩa lỡ tàu."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": null
+    },
+    {
+      "id": "N4-VOC-008",
+      "correctAnswer": "A",
+      "explanationVi": "店長に連絡する là liên lạc/báo với quản lý. 先に yêu cầu báo trước.",
+      "distractorExplanations": {
+        "B": "練習 là luyện tập; không diễn đạt việc báo cho quản lý.",
+        "C": "運転 là lái xe; không diễn đạt việc báo nghỉ.",
+        "D": "旅行 là đi du lịch; không phù hợp với 店長に."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": null
+    },
+    {
+      "id": "N4-PART-001",
+      "correctAnswer": "C",
+      "explanationVi": "で đánh dấu địa điểm diễn ra 話しました: đã nói chuyện ở lớp.",
+      "distractorExplanations": {
+        "A": "に không đánh dấu nơi diễn ra hành động 話す trong câu này.",
+        "B": "から đánh dấu điểm bắt đầu, không phải nơi hành động diễn ra.",
+        "D": "を thường đánh dấu đối tượng/đường đi, không phải nơi nói chuyện."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J01",
+          "title": "TUFS: 格助詞",
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/053.html"
+        }
+      ],
+      "patternId": "G02"
+    },
+    {
+      "id": "N4-PART-002",
+      "correctAnswer": "B",
+      "explanationVi": "場所に物があります: chìa khóa tồn tại ở trên bàn; dùng に.",
+      "distractorExplanations": {
+        "A": "を không đánh dấu vị trí tồn tại của 鍵.",
+        "C": "へ diễn tả hướng đi, không dùng cho vị trí với あります.",
+        "D": "Với あります để chỉ tồn tại, vị trí được đánh dấu bằng に."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J01",
+          "title": "TUFS: 格助詞",
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/053.html"
+        }
+      ],
+      "patternId": "G02"
+    },
+    {
+      "id": "N4-PART-003",
+      "correctAnswer": "B",
+      "explanationVi": "食堂で食べました: đã ăn ở nhà ăn. Tìm động từ 食べました rồi xác định vai trò địa điểm.",
+      "distractorExplanations": {
+        "A": "食べる là hành động diễn ra ở một nơi; không dùng に cho vai trò này.",
+        "C": "へ chỉ hướng, không phải nơi diễn ra 食べる.",
+        "D": "食堂 không phải thứ được ăn, nên không dùng を."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J01",
+          "title": "TUFS: 格助詞",
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/053.html"
+        }
+      ],
+      "patternId": "G02"
+    },
+    {
+      "id": "N4-PART-004",
+      "correctAnswer": "C",
+      "explanationVi": "入口の前に人がいます: có người trước cửa vào. に đi với vị trí của います.",
+      "distractorExplanations": {
+        "A": "Câu không nói di chuyển về hướng cửa vào.",
+        "B": "います chỉ người đang tồn tại ở đâu, dùng に.",
+        "D": "入口の前 không phải đối tượng tác động của います."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J01",
+          "title": "TUFS: 格助詞",
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/053.html"
+        }
+      ],
+      "patternId": "G02"
+    },
+    {
+      "id": "N4-PART-005",
+      "correctAnswer": "A",
+      "explanationVi": "までに là chậm nhất trước/đến mốc hạn; nộp đơn là hành động hoàn tất, không phải kéo dài tới 5 giờ.",
+      "distractorExplanations": {
+        "B": "まで nhấn sự kéo dài tới mốc; một lần nộp trước hạn cần までに.",
+        "C": "ながら nối hai hành động đồng thời, không gắn sau mốc giờ như vậy.",
+        "D": "から là bắt đầu từ 5 giờ, trái với hạn chót."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "JF-DEADLINE",
+          "title": "JF 日本語教育通信: まで・までに",
+          "url": "https://www.jpf.go.jp/j/project/japanese/teach/tsushin/grammar/200911.html"
+        }
+      ],
+      "patternId": "G04"
+    },
+    {
+      "id": "N4-PART-006",
+      "correctAnswer": "A",
+      "explanationVi": "から…まで nêu khoảng thời gian: đã học từ 1 giờ đến 4 giờ.",
+      "distractorExplanations": {
+        "B": "から ở mốc cuối sẽ không diễn đạt khoảng từ 1 đến 4.",
+        "C": "に không hoàn thành cặp khoảng thời gian 1時から4時まで.",
+        "D": "を không đánh dấu điểm kết thúc khoảng giờ trong cấu trúc này."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J01",
+          "title": "TUFS: 格助詞",
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/053.html"
+        }
+      ],
+      "patternId": "G04"
+    },
+    {
+      "id": "N4-PART-007",
+      "correctAnswer": "C",
+      "explanationVi": "時刻に始まる: bắt đầu lúc 10 giờ; đây là một mốc cụ thể.",
+      "distractorExplanations": {
+        "A": "で không đánh dấu mốc 10 giờ của 始まる trong câu này.",
+        "B": "を không đánh dấu thời điểm bắt đầu với 始まる.",
+        "D": "まで là giới hạn kéo dài, không phải mốc bắt đầu."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J01",
+          "title": "TUFS: 格助詞",
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/053.html"
+        }
+      ],
+      "patternId": null
+    },
+    {
+      "id": "N4-PART-008",
+      "correctAnswer": "D",
+      "explanationVi": "何を聞く: nghe cái gì. Ở đây ラジオ là thứ được nghe nên dùng を.",
+      "distractorExplanations": {
+        "A": "から có thể chỉ nguồn thông tin trong cấu trúc khác; câu này yêu cầu đối tượng của 聞く.",
+        "B": "に không đánh dấu đối tượng được nghe với 聞く trong câu này.",
+        "C": "で có thể chỉ phương tiện, nhưng ラジオ ở đây là nội dung/chương trình được nghe."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J01",
+          "title": "TUFS: 格助詞",
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/053.html"
+        }
+      ],
+      "patternId": null
+    },
+    {
+      "id": "N4-PART-009",
+      "correctAnswer": "A",
+      "explanationVi": "人といっしょに: cùng với ai. Ở đây là đi mua sắm cùng em gái.",
+      "distractorExplanations": {
+        "B": "で không biểu thị người cùng đi trong 妹…いっしょに.",
+        "C": "妹 không phải đối tượng của 行く.",
+        "D": "から biểu thị xuất phát/nguồn, không phải người đi cùng."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J01",
+          "title": "TUFS: 格助詞",
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/053.html"
+        }
+      ],
+      "patternId": null
+    },
+    {
+      "id": "N4-PART-010",
+      "correctAnswer": "A",
+      "explanationVi": "家から駅まで là từ nhà đến ga. から đánh dấu điểm đầu, まで là điểm cuối.",
+      "distractorExplanations": {
+        "B": "を có thể chỉ nơi đi qua, nhưng câu yêu cầu điểm xuất phát.",
+        "C": "と nối cùng với/đối tượng so sánh, không tạo cặp điểm đầu–cuối.",
+        "D": "に không đánh dấu nơi xuất phát của khoảng 家…駅まで."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J01",
+          "title": "TUFS: 格助詞",
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/053.html"
+        }
+      ],
+      "patternId": null
+    },
+    {
+      "id": "N4-CONJ-001",
+      "correctAnswer": "B",
+      "explanationVi": "急ぐ → 急いで. Với động từ nhóm 1 đuôi ぐ, thể て thường là いで.",
+      "distractorExplanations": {
+        "A": "急ぐ kết thúc ぐ, không đổi thành って.",
+        "C": "Đuôi んで thuộc các mẫu む/ぶ/ぬ, không phải ぐ.",
+        "D": "Không ghép gốc ます là 急ぎ với て trực tiếp."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J02",
+          "title": "TUFS: 普通形の体系",
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/038.html"
+        }
+      ],
+      "patternId": "G08"
+    },
+    {
+      "id": "N4-CONJ-002",
+      "correctAnswer": "C",
+      "explanationVi": "書く → 書いて. Đuôi く thường đổi thành いて; 行く là ngoại lệ cần nhớ riêng.",
+      "distractorExplanations": {
+        "A": "書く không thuộc nhóm う/つ/る đổi thành って.",
+        "B": "Không ghép 書き với て trực tiếp.",
+        "D": "書く không đổi thành んで."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J02",
+          "title": "TUFS: 普通形の体系",
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/038.html"
+        }
+      ],
+      "patternId": "G08"
+    },
+    {
+      "id": "N4-CONJ-003",
+      "correctAnswer": "A",
+      "explanationVi": "待つ → 待って. Nhóm 1 đuôi つ đổi thành って.",
+      "distractorExplanations": {
+        "B": "つ không đổi thành いて.",
+        "C": "Không ghép 待ち với て trực tiếp.",
+        "D": "つ không đổi thành んで."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J02",
+          "title": "TUFS: 普通形の体系",
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/038.html"
+        }
+      ],
+      "patternId": "G08"
+    },
+    {
+      "id": "N4-CONJ-004",
+      "correctAnswer": "C",
+      "explanationVi": "行く → 行って là ngoại lệ; sau đó 切符を買いました cho biết việc tiếp theo.",
+      "distractorExplanations": {
+        "A": "行く là ngoại lệ của nhóm く: 行って.",
+        "B": "Không ghép 行き với て trực tiếp.",
+        "D": "行く không đổi thành んで."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J02",
+          "title": "TUFS: 普通形の体系",
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/038.html"
+        }
+      ],
+      "patternId": "G08"
+    },
+    {
+      "id": "N4-CONJ-005",
+      "correctAnswer": "B",
+      "explanationVi": "行く → 行かない: không đi. く đổi thành か trước ない.",
+      "distractorExplanations": {
+        "A": "Không gắn ない trực tiếp sau 行く.",
+        "C": "Với nhóm 1, đổi âm cuối sang hàng a trước ない, không dùng 行きない.",
+        "D": "行う → 行わない là một động từ khác, không phải 行く."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J02",
+          "title": "TUFS: 普通形の体系",
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/038.html"
+        }
+      ],
+      "patternId": "G08"
+    },
+    {
+      "id": "N4-CONJ-006",
+      "correctAnswer": "B",
+      "explanationVi": "飲む → 飲まない: không uống. Phân biệt với 飲めない là không thể uống.",
+      "distractorExplanations": {
+        "A": "Không gắn ない trực tiếp sau 飲む.",
+        "C": "む đổi sang ま trước ない, không phải み.",
+        "D": "飲めない là không thể uống, không phải phủ định thường của 飲む."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J02",
+          "title": "TUFS: 普通形の体系",
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/038.html"
+        }
+      ],
+      "patternId": "G08"
+    },
+    {
+      "id": "N4-CONJ-007",
+      "correctAnswer": "C",
+      "explanationVi": "食べる → 食べない. Nhóm 2 bỏ る rồi thêm ない; câu hỏi đang yêu cầu đúng thể này.",
+      "distractorExplanations": {
+        "A": "Không giữ る trước ない.",
+        "B": "Đây là phủ định quá khứ lịch sự, không phải thể ない được hỏi.",
+        "D": "食べる thuộc nhóm 2, bỏ る rồi thêm ない."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J02",
+          "title": "TUFS: 普通形の体系",
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/038.html"
+        }
+      ],
+      "patternId": "G08"
+    },
+    {
+      "id": "N4-CONJ-008",
+      "correctAnswer": "B",
+      "explanationVi": "読む → 読んだ. む/ぶ/ぬ thường đổi thành んだ ở thể た.",
+      "distractorExplanations": {
+        "A": "読んで là thể て, không phải た.",
+        "C": "Không gắn た sau thể từ điển.",
+        "D": "Không ghép 読み với た trực tiếp."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J02",
+          "title": "TUFS: 普通形の体系",
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/038.html"
+        }
+      ],
+      "patternId": "G08"
+    },
+    {
+      "id": "N4-CONJ-009",
+      "correctAnswer": "C",
+      "explanationVi": "買う → 買った. Đuôi う của nhóm 1 thường đổi thành った.",
+      "distractorExplanations": {
+        "A": "Mẫu chuẩn được học ở đây là 買った, không phải 買うた.",
+        "B": "買って là thể て, chưa phải thể た.",
+        "D": "う không đổi thành いた trong mẫu này."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J02",
+          "title": "TUFS: 普通形の体系",
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/038.html"
+        }
+      ],
+      "patternId": "G08"
+    },
+    {
+      "id": "N4-CONJ-010",
+      "correctAnswer": "A",
+      "explanationVi": "来る → 来た（きた）. Nhớ cả hình chữ và cách đọc của động từ bất quy tắc.",
+      "distractorExplanations": {
+        "B": "来る không chia như động từ nhóm 1 đuôi る.",
+        "C": "来て là thể て, không phải た.",
+        "D": "来る là bất quy tắc; không gắn た sau くる."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J02",
+          "title": "TUFS: 普通形の体系",
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/038.html"
+        }
+      ],
+      "patternId": "G08"
+    },
+    {
+      "id": "N4-GRAM-001",
+      "correctAnswer": "D",
+      "explanationVi": "Vてはいけません diễn đạt cấm. 吸わなくてもいい chỉ nói không cần làm, không mang nghĩa cấm.",
+      "distractorExplanations": {
+        "A": "Đây là cho phép hút, trái với 禁煙.",
+        "B": "Đây là mong muốn của người nói, không phải cấm.",
+        "C": "Đây là không cần hút, không diễn đạt lệnh cấm."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": "G09"
+    },
+    {
+      "id": "N4-GRAM-002",
+      "correctAnswer": "B",
+      "explanationVi": "Vてもいいですか là xin phép làm việc gì. Muốn xin phép ngồi dùng 座ってもいいですか.",
+      "distractorExplanations": {
+        "A": "Câu này hỏi có bắt buộc ngồi không, không phải xin phép.",
+        "C": "Câu này hỏi kinh nghiệm đã từng ngồi.",
+        "D": "Câu này hỏi tình trạng đang ngồi, không xin phép."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": "G09"
+    },
+    {
+      "id": "N4-GRAM-003",
+      "correctAnswer": "C",
+      "explanationVi": "Phân biệt phạm vi: 写真を撮れます cho phép chụp; フラッシュは禁止 cấm dùng flash.",
+      "distractorExplanations": {
+        "A": "Cho phép chụp không có nghĩa là bắt buộc chụp.",
+        "B": "Quy định cho phép chụp ảnh; chỉ cấm đèn flash.",
+        "D": "Trái với フラッシュは禁止です."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": "G09"
+    },
+    {
+      "id": "N4-GRAM-004",
+      "correctAnswer": "B",
+      "explanationVi": "Vてはいけません là không được làm; Vなくてもいい chỉ là không cần làm, không tương đương.",
+      "distractorExplanations": {
+        "A": "Đây là cho phép mang về, trái với câu gốc.",
+        "C": "Mong muốn mang về không truyền đạt quy định cấm.",
+        "D": "Không cần mang về khác với bị cấm mang về."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": "G09"
+    },
+    {
+      "id": "N4-GRAM-005",
+      "correctAnswer": "D",
+      "explanationVi": "Vなくてもいい là không cần làm. Không cần đi học không đồng nghĩa bị cấm đi.",
+      "distractorExplanations": {
+        "A": "Đây là phải đi, trái với không cần.",
+        "B": "Đây là kinh nghiệm, không phù hợp với 明日 và ý cần nói.",
+        "C": "Đây là cấm đi, mạnh hơn và khác nghĩa không cần đi."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": "G09"
+    },
+    {
+      "id": "N4-GRAM-006",
+      "correctAnswer": "D",
+      "explanationVi": "必要があります nói có yêu cầu phải làm; Vなければなりません diễn đạt phải làm việc đó.",
+      "distractorExplanations": {
+        "A": "Cấm đưa thẻ trái với yêu cầu.",
+        "B": "Không cần đưa thẻ trái với 必要があります.",
+        "C": "Chưa từng đưa thẻ không diễn đạt nghĩa vụ."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": "G09"
+    },
+    {
+      "id": "N4-GRAM-007",
+      "correctAnswer": "A",
+      "explanationVi": "必要はありません tương đương Vなくてもいい: không bắt buộc nộp bản gốc.",
+      "distractorExplanations": {
+        "B": "Không cần nộp không có nghĩa bị cấm nộp.",
+        "C": "Đây là bắt buộc nộp bản gốc, trái với câu gốc.",
+        "D": "Đây là đã nộp xong/mang sắc thái tiếc, không nói về yêu cầu."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": "G09"
+    },
+    {
+      "id": "N4-GRAM-008",
+      "correctAnswer": "D",
+      "explanationVi": "Vなければなりません diễn đạt điều phải làm; tìm 必要があります để kiểm nghĩa.",
+      "distractorExplanations": {
+        "A": "Mong muốn không diễn đạt quy định phải trả.",
+        "B": "Đây là cấm tự trả đĩa, ngược quy định.",
+        "C": "Câu này bỏ nghĩa vụ, trái với 必要があります."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": "G09"
+    },
+    {
+      "id": "N4-GRAM-009",
+      "correctAnswer": "D",
+      "explanationVi": "Vたことがある diễn đạt đã từng có kinh nghiệm làm việc gì; した là thể た của する.",
+      "distractorExplanations": {
+        "A": "Đây là nghĩa vụ, không nói kinh nghiệm.",
+        "B": "Đây là làm trước để chuẩn bị, không phải đã từng.",
+        "C": "Câu này thường nói đang làm/thường làm, không nêu kinh nghiệm đã từng."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": "G08"
+    },
+    {
+      "id": "N4-GRAM-010",
+      "correctAnswer": "B",
+      "explanationVi": "住んでいます diễn tả trạng thái cư trú đang tiếp tục; から đánh dấu điểm bắt đầu.",
+      "distractorExplanations": {
+        "A": "Đã từng sống không xác nhận hiện vẫn tiếp tục.",
+        "C": "Đây là sẽ bắt đầu sau hai năm, khác thời điểm.",
+        "D": "Câu này nói nghĩa vụ, không phải mô tả trạng thái thực tế."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": "G08"
+    },
+    {
+      "id": "N4-GRAM-011",
+      "correctAnswer": "A",
+      "explanationVi": "Vておく là làm trước để dùng về sau. Đây là câu nói về chủ động chuẩn bị tài liệu.",
+      "distractorExplanations": {
+        "B": "Đây là cấm photo, trái với mục đích chuẩn bị.",
+        "C": "Đây là nghĩa vụ trong quá khứ, không nêu ý làm trước để chuẩn bị.",
+        "D": "Đây là kinh nghiệm từng photo, không phải chuẩn bị trước."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "TARGET",
+          "title": "TUFS Vておきます",
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/088.html"
+        }
+      ],
+      "patternId": "G08"
+    },
+    {
+      "id": "N4-GRAM-012",
+      "correctAnswer": "B",
+      "explanationVi": "Vたことがありません là chưa từng làm; khác với Vないことがあります là có lúc không làm.",
+      "distractorExplanations": {
+        "A": "Đây là lời khuyên nên đi tàu, không nói chưa từng.",
+        "C": "Câu này nói có khi không đi tàu, không nói chưa từng đi.",
+        "D": "Đây là cấm lên tàu, không phải kinh nghiệm."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": "G08"
+    },
+    {
+      "id": "N4-ORDER-001",
+      "correctAnswer": "B",
+      "explanationVi": "Mệnh đề 先週買った bổ nghĩa cho くつ, nên đứng trước danh từ: 先週買ったくつです。",
+      "distractorExplanations": {
+        "A": "買ったです sai cấu trúc, và danh từ bị bỏ sau kết câu.",
+        "C": "です không đứng giữa mệnh đề rồi để 買った ở cuối như vậy.",
+        "D": "買ったです không phải cách nối chuẩn; mệnh đề 買った phải đứng trước danh từ くつ."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "TARGET",
+          "title": "TUFS V＋N",
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/079.html"
+        }
+      ],
+      "patternId": "R04"
+    },
+    {
+      "id": "N4-ORDER-002",
+      "correctAnswer": "C",
+      "explanationVi": "駅で会った mô tả 人: người đã gặp ở ga. Không dùng 会ったです。",
+      "distractorExplanations": {
+        "A": "です không chèn giữa địa điểm và động từ như vậy.",
+        "B": "会ったです không đúng; 人 cần đứng sau mệnh đề 会った.",
+        "D": "Mệnh đề bổ nghĩa bị kết bằng です trước khi có danh từ."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "TARGET",
+          "title": "TUFS V＋N",
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/079.html"
+        }
+      ],
+      "patternId": "R04"
+    },
+    {
+      "id": "N4-ORDER-003",
+      "correctAnswer": "A",
+      "explanationVi": "友だちが作った bổ nghĩa cho お菓子. Cả cụm danh từ kết bằng です。",
+      "distractorExplanations": {
+        "B": "がです không kết câu danh từ theo cách này.",
+        "C": "がです và vị trí お菓子 đều không tạo câu hoàn chỉnh.",
+        "D": "Không đặt です giữa mệnh đề và danh từ được bổ nghĩa."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "TARGET",
+          "title": "TUFS V＋N",
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/079.html"
+        }
+      ],
+      "patternId": "R04"
+    },
+    {
+      "id": "N4-ORDER-004",
+      "correctAnswer": "C",
+      "explanationVi": "日本語を教えている bổ nghĩa cho 先生; 先生を là đối tượng của 知っています。",
+      "distractorExplanations": {
+        "A": "Mệnh đề 教えている bị đặt sau câu đã kết, không bổ nghĩa cho 先生.",
+        "B": "Hai を liên tiếp không cứu được việc thiếu danh từ sau mệnh đề 教えている.",
+        "D": "Hai vị ngữ bị đặt liền nhau, không có danh từ nối mệnh đề."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "TARGET",
+          "title": "TUFS V＋N",
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/079.html"
+        }
+      ],
+      "patternId": "R04"
+    },
+    {
+      "id": "N4-ORDER-005",
+      "correctAnswer": "D",
+      "explanationVi": "Mẫu liền nhau là Vたことがありません. 富士山に bổ nghĩa cho 登った。",
+      "distractorExplanations": {
+        "A": "登ったありません không phải mẫu diễn đạt kinh nghiệm.",
+        "B": "ことが phải theo ngay động từ thể た trong mẫu kinh nghiệm.",
+        "C": "Đảo phần ありません và 登った làm vỡ mẫu Vたことがありません."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": "G08"
+    },
+    {
+      "id": "N4-ORDER-006",
+      "correctAnswer": "B",
+      "explanationVi": "VてからV diễn tả làm xong việc trước rồi việc sau: đánh răng rồi ngủ.",
+      "distractorExplanations": {
+        "A": "歯を寝ます không đúng quan hệ với 寝る.",
+        "C": "から bị tách khỏi động từ thể て và câu không hoàn chỉnh.",
+        "D": "から chỉ thứ tự phải đứng sau thể て, không đứng sau 歯を."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": "G05"
+    },
+    {
+      "id": "N4-ORDER-007",
+      "correctAnswer": "B",
+      "explanationVi": "Vたほうがいい đưa lời khuyên nên làm; 早く gắn với 寝る. Đây là câu luyện ngôn ngữ, không suy đoán lịch ngủ của bạn.",
+      "distractorExplanations": {
+        "A": "寝たいいです không tạo mẫu lời khuyên chuẩn.",
+        "C": "ほうが bị tách khỏi động từ thể た, phần 寝た bị bỏ cuối.",
+        "D": "ほうが phải đứng sau 寝た trong mẫu lời khuyên."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": null
+    },
+    {
+      "id": "N4-ORDER-008",
+      "correctAnswer": "D",
+      "explanationVi": "脱ぐ → 脱がない → 脱がなければなりません: phải cởi giày trước khi vào.",
+      "distractorExplanations": {
+        "A": "脱が phải đứng trước なければ; không tách giữa mẫu.",
+        "B": "なりません phải kết thúc mẫu, không đặt đầu mệnh đề.",
+        "C": "Thứ tự làm vỡ cả cụm 脱がなければなりません."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": "G09"
+    },
+    {
+      "id": "N4-INTERP-001",
+      "correctAnswer": "A",
+      "explanationVi": "日曜日以外 loại Chủ nhật ra; các ngày còn lại mở. Bằng chứng là 日曜日以外。",
+      "distractorExplanations": {
+        "B": "Thứ bảy thuộc các ngày mở theo câu gốc.",
+        "C": "以外 là ngoài/trừ, không phải chỉ riêng Chủ nhật.",
+        "D": "毎日開いています nói mở, chỉ loại trừ Chủ nhật."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "TARGET",
+          "title": "Japan Foundation Irodori từ vựng: 〜以外",
+          "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf"
+        }
+      ],
+      "patternId": "R03"
+    },
+    {
+      "id": "N4-INTERP-002",
+      "correctAnswer": "D",
+      "explanationVi": "千円しかありません nghĩa là chỉ có 1000 yên. Phủ định không xóa số tiền đứng trước しか。",
+      "distractorExplanations": {
+        "A": "Câu gốc giới hạn chỉ 1000 yên, không nói có nhiều hơn.",
+        "B": "Câu gốc có 1000 yên; phủ định phần ngoài lượng đó.",
+        "C": "しか…ない vẫn khẳng định có đúng lượng nêu trước しか."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "TARGET",
+          "title": "TUFS 副助詞: しか",
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/095.html"
+        }
+      ],
+      "patternId": null
+    },
+    {
+      "id": "N4-INTERP-003",
+      "correctAnswer": "B",
+      "explanationVi": "なくてもいい bỏ nghĩa vụ làm hết; không cấm và cũng không xác nhận đã hoàn thành.",
+      "distractorExplanations": {
+        "A": "Không cần làm hết khác với bị cấm làm.",
+        "C": "Câu gốc nói yêu cầu, không cho biết người học đã làm xong.",
+        "D": "Đây là nghĩa vụ làm hết, ngược với câu gốc."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "JF-WAIVER",
+          "title": "JF Irodori Grammar_all: 初中級L8-23 Vなくてもいい, PDF p209",
+          "url": "https://www.irodori.jpf.go.jp/assets/data/Grammar_all.pdf#page=209"
+        }
+      ],
+      "patternId": "G09"
+    },
+    {
+      "id": "N4-INTERP-004",
+      "correctAnswer": "B",
+      "explanationVi": "たら đặt điều kiện có mưa; phần sau cho biết địa điểm khi điều kiện đó xảy ra.",
+      "distractorExplanations": {
+        "A": "Không có thông tin tổ chức ở ga.",
+        "C": "Câu gốc không nói hủy; vẫn tổ chức ở 体育館.",
+        "D": "Khi có mưa, câu gốc chỉ định 体育館."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J03",
+          "title": "TUFS: 接続助詞",
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/094.html"
+        }
+      ],
+      "patternId": "G07"
+    },
+    {
+      "id": "N4-INTERP-005",
+      "correctAnswer": "A",
+      "explanationVi": "Vる前に đặt việc chưa diễn ra làm mốc; メールを送ります diễn ra trước.",
+      "distractorExplanations": {
+        "B": "前に cho biết gửi mail trước khi đi thư viện.",
+        "C": "Không có thông tin gọi điện từ thư viện.",
+        "D": "送る là gửi, không phải nhận từ giáo viên."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "TARGET",
+          "title": "JF Irodori Sơ cấp 1 L15-22: 前に",
+          "url": "https://jf.xcms.online/wp-content/uploads/2021/12/v1Grammar_SC1_VN.pdf#page=48"
+        }
+      ],
+      "patternId": "G05"
+    },
+    {
+      "id": "N4-INTERP-006",
+      "correctAnswer": "C",
+      "explanationVi": "と nối thao tác với kết quả thường lệ: bấm nút thì cửa mở.",
+      "distractorExplanations": {
+        "A": "Câu gốc có điều kiện là bấm nút.",
+        "B": "押す là bấm, không chỉ nhìn.",
+        "D": "Đóng cửa không phải thao tác được nêu để mở cửa."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J03",
+          "title": "TUFS: 接続助詞",
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/094.html"
+        }
+      ],
+      "patternId": "G07"
+    },
+    {
+      "id": "N4-SHORT-001",
+      "correctAnswer": "C",
+      "explanationVi": "変更後の時間は「午前10時から」。まず 変更しました rồi lấy thông tin mới.",
+      "distractorExplanations": {
+        "A": "9時 là thời gian cũ, đã đổi.",
+        "B": "Câu gốc ghi 午前, không phải 午後.",
+        "D": "3 là số phòng, không phải giờ."
+      },
+      "evidence": "午前10時からに変更しました。",
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": "L01"
+    },
+    {
+      "id": "N4-SHORT-002",
+      "correctAnswer": "B",
+      "explanationVi": "ただし đưa ngoại lệ: 土曜日は午後4時まで, nên thứ bảy đóng lúc 4 giờ.",
+      "distractorExplanations": {
+        "A": "8時 không có trong thông báo.",
+        "C": "6時 là giờ đóng các ngày thường.",
+        "D": "10時 là giờ mở cửa."
+      },
+      "evidence": "土曜日は午後4時までです。",
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": "R03"
+    },
+    {
+      "id": "N4-SHORT-003",
+      "correctAnswer": "A",
+      "explanationVi": "金曜日への変更 và 時間は同じ nối lại thành thứ sáu 2 giờ chiều.",
+      "distractorExplanations": {
+        "B": "Không có 3 giờ và cũng không phải thứ năm nữa.",
+        "C": "Thông báo ghi 午後, không phải 午前.",
+        "D": "Thứ năm là lịch cũ đã đổi."
+      },
+      "evidence": "金曜日に変更しました。時間は同じです。",
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": "L01"
+    },
+    {
+      "id": "N4-SHORT-004",
+      "correctAnswer": "D",
+      "explanationVi": "までに chỉ hạn chót hoàn thành việc trả sách: ngày 10/6.",
+      "distractorExplanations": {
+        "A": "20日 không được nêu làm hạn trả.",
+        "B": "1日は ngày mượn, không phải hạn trả.",
+        "C": "11日 đã qua hạn 10日までに."
+      },
+      "evidence": "6月10日までに返してください。",
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": "G04"
+    },
+    {
+      "id": "N4-SHORT-005",
+      "correctAnswer": "A",
+      "explanationVi": "雨のため là bằng chứng trực tiếp về lý do đổi địa điểm.",
+      "distractorExplanations": {
+        "B": "Đoạn không nêu khoảng cách làm lý do đổi.",
+        "C": "Đoạn không nói lớp học chật.",
+        "D": "Đoạn không nói giáo viên nghỉ."
+      },
+      "evidence": "雨のため、午後の授業は教室でします。",
+      "references": [
+        {
+          "id": "J03",
+          "title": "TUFS: 接続助詞",
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/094.html"
+        }
+      ],
+      "patternId": "R02"
+    },
+    {
+      "id": "N4-SHORT-006",
+      "correctAnswer": "D",
+      "explanationVi": "遅れそうなとき kết hợp với 店に電話してください: nếu có vẻ sắp trễ thì gọi cửa hàng.",
+      "distractorExplanations": {
+        "A": "Không có chỉ dẫn chờ ở nhà.",
+        "B": "Người cần gọi là cửa hàng, không phải viết thư cho tài xế.",
+        "C": "必ず電話してください yêu cầu liên lạc."
+      },
+      "evidence": "仕事に遅れそうなときは、必ず店に電話してください。",
+      "references": [
+        {
+          "id": "J03",
+          "title": "TUFS: 接続助詞",
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/094.html"
+        }
+      ],
+      "patternId": "L02"
+    },
+    {
+      "id": "N4-SHORT-007",
+      "correctAnswer": "D",
+      "explanationVi": "Ví không có; có thể đã để ở ga nên quay lại hỏi tìm. かもしれない là phỏng đoán, chưa xác nhận đã bỏ quên.",
+      "distractorExplanations": {
+        "A": "Không có hẹn gặp bạn ở ga.",
+        "B": "Không có thông tin công ty nghỉ.",
+        "C": "Không có ý muốn mua vé; người viết quay lại hỏi tìm ví vì có thể đã để ví ở ga."
+      },
+      "evidence": "財布がないことに気づきました。駅のベンチに置いたかもしれません。",
+      "references": [
+        {
+          "id": "J03",
+          "title": "TUFS: 接続助詞",
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/094.html"
+        }
+      ],
+      "patternId": "R02"
+    },
+    {
+      "id": "N4-SHORT-008",
+      "correctAnswer": "C",
+      "explanationVi": "買わなくてもいい không bắt buộc mua; lời nhờ mua パン vẫn giữ nguyên.",
+      "distractorExplanations": {
+        "A": "二本あるので買う必要がない; không phải mua thêm hai chai.",
+        "B": "Câu gốc yêu cầu bánh mì và nói không cần sữa.",
+        "D": "Món cần mua là bánh mì; không có chỉ dẫn thay bằng sữa."
+      },
+      "evidence": "牛乳は冷蔵庫に二本あるので、買わなくてもいいです。",
+      "references": [
+        {
+          "id": "J03",
+          "title": "TUFS: 接続助詞",
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/094.html"
+        }
+      ],
+      "patternId": "G09"
+    },
+    {
+      "id": "N4-MED-001",
+      "correctAnswer": "C",
+      "explanationVi": "Tìm câu giới hạn だけ: người đổi giờ là 佐藤さん, từ 4 giờ sang 5 giờ.",
+      "distractorExplanations": {
+        "A": "変更するのは佐藤さんだけです nói rõ chỉ một người.",
+        "B": "Không có thông tin quản lý đổi giờ bắt đầu.",
+        "D": "田中さんは木曜日に片づけを手伝う; không phải người đổi giờ thứ sáu."
+      },
+      "evidence": "佐藤さんは…午後5時からにします。変更するのは佐藤さんだけです。",
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": "L01"
+    },
+    {
+      "id": "N4-MED-002",
+      "correctAnswer": "D",
+      "explanationVi": "雨の場合 tạo nhánh riêng; 直接 chỉ đến thẳng nơi đó, không qua ga.",
+      "distractorExplanations": {
+        "A": "Trường học không được nêu làm điểm đến.",
+        "B": "Đoạn nói không tập trung ở ga.",
+        "C": "公園の入口 là chỗ tập trung khi trời nắng."
+      },
+      "evidence": "雨の場合は、市民センターで行います。…市民センターの入口へ直接来てください。",
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": "R03"
+    },
+    {
+      "id": "N4-MED-003",
+      "correctAnswer": "B",
+      "explanationVi": "Muốn đổi ngày phải tìm điều kiện trong ただし: liên lạc trước hạn tối thứ hai.",
+      "distractorExplanations": {
+        "A": "Thứ tư là lịch gốc, không phải thủ tục đổi sang thứ ba.",
+        "C": "Đoạn yêu cầu liên lạc, không yêu cầu gửi hàng lúc 6 giờ sáng.",
+        "D": "Lịch nhận thứ ba cần liên lạc trước; đến thẳng lúc đó không đáp ứng điều kiện."
+      },
+      "evidence": "火曜日に受け取りたい場合は、月曜日の午後6時までに電話かメールで連絡してください。",
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": "R03"
+    },
+    {
+      "id": "N4-MED-004",
+      "correctAnswer": "D",
+      "explanationVi": "いちばんはゆっくり食べたいからです cho biết lý do chính là muốn ăn thong thả; tiết kiệm chỉ là lợi ích thêm.",
+      "distractorExplanations": {
+        "A": "Đoạn có nói công ty có nhà ăn.",
+        "B": "Tác giả nói 食べ物はおいしい, không chê đồ ăn.",
+        "C": "Tác giả vẫn ăn cơm hộp, không bỏ bữa."
+      },
+      "evidence": "いちばんはゆっくり食べたいからです。",
+      "references": [
+        {
+          "id": "J03",
+          "title": "TUFS: 接続助詞",
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/094.html"
+        }
+      ],
+      "patternId": "R02"
+    },
+    {
+      "id": "N4-MED-005",
+      "correctAnswer": "A",
+      "explanationVi": "前は/今は đánh dấu thay đổi; tìm cả nghe lẫn nói, không suy ra chỉ thuộc nghĩa từ.",
+      "distractorExplanations": {
+        "B": "Tác giả nói tự tạo câu và nói, không ngừng nói.",
+        "C": "Không có thông tin nghe tin dài một lần.",
+        "D": "今は nghe hội thoại và tự nói; không chỉ học danh sách từ."
+      },
+      "evidence": "今は、短い会話を一つ聞き、その中の表現を使って自分の文を言っています。",
+      "references": [
+        {
+          "id": "J03",
+          "title": "TUFS: 接続助詞",
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/094.html"
+        }
+      ],
+      "patternId": "R02"
+    },
+    {
+      "id": "N4-MED-006",
+      "correctAnswer": "B",
+      "explanationVi": "Lối vào còn có người dùng xe lăn và người mang hàng đi qua; xe đạp gây cản trở.",
+      "distractorExplanations": {
+        "A": "建物の後ろ chính là nơi bãi xe, không phải nơi bị cấm đi qua.",
+        "C": "Có bãi đỗ phía sau; không cấm đến bằng xe đạp.",
+        "D": "Đoạn không cấm mang ô."
+      },
+      "evidence": "入口の前には置かないでください。",
+      "references": [
+        {
+          "id": "J03",
+          "title": "TUFS: 接続助詞",
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/094.html"
+        }
+      ],
+      "patternId": "R01"
+    },
+    {
+      "id": "N4-LISTEN-001",
+      "correctAnswer": "A",
+      "explanationVi": "Lượt nghe đầu cần giữ giờ mới sau 変更. Nghe lại để kiểm số và 午後, không sửa điểm đầu.",
+      "distractorExplanations": {
+        "B": "2時 là giờ cũ, đã đổi.",
+        "C": "4時 không được nêu làm giờ mới.",
+        "D": "Âm thanh nêu 午後, không phải 午前."
+      },
+      "evidence": "午後三時からに変更します。",
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": "L01"
+    },
+    {
+      "id": "N4-LISTEN-002",
+      "correctAnswer": "D",
+      "explanationVi": "使えません chỉ nơi không dùng; người nghe phải giữ địa điểm thay thế ở câu sau.",
+      "distractorExplanations": {
+        "A": "Không có chỉ dẫn tới thư viện.",
+        "B": "Tầng 1 là chỗ cũ, hôm nay không dùng.",
+        "C": "Cửa vào bên ngoài không được nêu làm phòng học."
+      },
+      "evidence": "二階の教室へ来てください。",
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": "L01"
+    },
+    {
+      "id": "N4-LISTEN-003",
+      "correctAnswer": "D",
+      "explanationVi": "Phân biệt giờ bắt đầu với hạn có mặt ở quầy. 九時半 là 9:30.",
+      "distractorExplanations": {
+        "A": "10時 là giờ bắt đầu; phải đến quầy trước 9:30.",
+        "B": "Âm thanh nói 九時半, không phải 九時.",
+        "C": "Đây là buổi sáng 午前, không phải tối."
+      },
+      "evidence": "午前九時半までに受付へ来てください。",
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": "L02"
+    },
+    {
+      "id": "N4-LISTEN-004",
+      "correctAnswer": "D",
+      "explanationVi": "Nghe đủ cả ngày và buổi, không chỉ một từ khóa đầu đoạn.",
+      "distractorExplanations": {
+        "A": "Đó là lịch cũ đã đổi.",
+        "B": "Không có đổi sang thứ bảy.",
+        "C": "Ngày đúng nhưng buổi sai; âm thanh nói 午後."
+      },
+      "evidence": "金曜日の午後になります。",
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": "L01"
+    },
+    {
+      "id": "N4-LISTEN-005",
+      "correctAnswer": "D",
+      "explanationVi": "Đối chiếu động từ đóng cửa sổ và ngoại lệ 電気は消さないで để không chọn việc quen thuộc theo thói quen.",
+      "distractorExplanations": {
+        "A": "閉める là đóng, không phải mở.",
+        "B": "Không có yêu cầu gọi cho bạn.",
+        "C": "Người nói dặn đừng tắt điện lúc này."
+      },
+      "evidence": "窓を閉めてください。…電気は…消さないでください。",
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": "L02"
+    },
+    {
+      "id": "N4-LISTEN-006",
+      "correctAnswer": "B",
+      "explanationVi": "たら tạo điều kiện; không được bỏ mất nhánh 店が閉まっていたら.",
+      "distractorExplanations": {
+        "A": "Không có lời nhờ mua sữa.",
+        "C": "Người nói dặn về luôn, không tìm cửa hàng khác.",
+        "D": "Không có yêu cầu chờ đến sáng."
+      },
+      "evidence": "店がもう閉まっていたら、買わなくてもいいです。そのまま帰ってきてください。",
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": "L02"
+    },
+    {
+      "id": "N4-LISTEN-007",
+      "correctAnswer": "A",
+      "explanationVi": "だけ giới hạn trang cần làm; ba trang gốc không có nghĩa photo cả ba.",
+      "distractorExplanations": {
+        "B": "Trang 2 vẫn cần photo.",
+        "C": "Trang 1 nằm trong hai trang cần photo.",
+        "D": "Vẫn phải photo trang 1 và 2, không phải bỏ toàn bộ."
+      },
+      "evidence": "三ページ目は…今日はコピーしなくてもいいです。",
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": "L02"
+    },
+    {
+      "id": "N4-LISTEN-008",
+      "correctAnswer": "C",
+      "explanationVi": "Kịch bản yêu cầu 必ず店に電話してください trước giờ làm; メールだけではなく nhấn mạnh cần gọi điện, nên chọn C. Chỉ từ đáp án chưa biết lỗi do âm, từ, cấu trúc hay giữ thông tin; sau chấm mới đọc bản chữ để kiểm tra.",
+      "distractorExplanations": {
+        "A": "Trái với 必ず店に電話してください.",
+        "B": "Không có chỉ dẫn về nhà.",
+        "D": "Người nói yêu cầu gọi trước khi bắt đầu ca, không đợi làm xong."
+      },
+      "evidence": "仕事が始まる前に、必ず店に電話してください。",
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": "L02"
+    },
+    {
+      "id": "N4-COMM-001",
+      "correctAnswer": "D",
+      "explanationVi": "Vていただけませんか là cách nhờ lịch sự; 5時から chỉ giờ bắt đầu. Mẫu này được luyện như biểu thức đời sống, chưa chứng nhận trình độ.",
+      "distractorExplanations": {
+        "A": "Đây là kinh nghiệm đã từng đổi, không phải nhờ đổi cho ngày mai.",
+        "B": "Đây là cấm làm tới 5 giờ, không xin đổi giờ bắt đầu.",
+        "C": "Đây là yêu cầu đừng đổi, trái ý muốn."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": "T03"
+    },
+    {
+      "id": "N4-COMM-002",
+      "correctAnswer": "D",
+      "explanationVi": "もう一度 + 言っていただけますか xin người nghe nói lại, giúp làm rõ điều chưa nghe kịp.",
+      "distractorExplanations": {
+        "A": "Đây là xin phép về, không xác nhận giờ.",
+        "B": "Đây là nói đã tự quyết giờ, không xin nhắc lại.",
+        "C": "Đây là nhờ đừng nói giờ nữa, trái ý muốn nghe lại."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": "T01"
+    },
+    {
+      "id": "N4-COMM-003",
+      "correctAnswer": "A",
+      "explanationVi": "行きますか hỏi điểm đến; から来ました nói đã đến từ đâu. Phân biệt hướng thông tin cần hỏi.",
+      "distractorExplanations": {
+        "B": "Đây là nhờ ai đó đừng đi, không hỏi tuyến tàu.",
+        "C": "Đây là hỏi đã mua gì ở ga, khác mục tiêu xác nhận tuyến.",
+        "D": "Đây là khẳng định điểm xuất phát, không hỏi có tới Tokyo không."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": null
+    },
+    {
+      "id": "N4-COMM-004",
+      "correctAnswer": "B",
+      "explanationVi": "Vてもいい？ là xin phép thân mật; giữ đúng 来週の月曜日 và động từ 返す。",
+      "distractorExplanations": {
+        "A": "Đây là nhờ đừng trả vào thứ hai, trái với xin phép trả.",
+        "C": "Đây là hỏi quá khứ, không xin phép cho tuần tới.",
+        "D": "Đây là hỏi kinh nghiệm và ghép thời gian không phù hợp với ý cần nói."
+      },
+      "evidence": null,
+      "references": [
+        {
+          "id": "J04",
+          "title": "Japan Foundation: Irodori Sơ cấp 1, tình huống và chú thích ngữ pháp",
+          "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+        }
+      ],
+      "patternId": "G09"
+    }
+  ]
+}

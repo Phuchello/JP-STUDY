@@ -1,0 +1,49 @@
+{
+  "tests": [
+    {
+      "name": "Assessment blocks pattern preview",
+      "ok": true
+    },
+    {
+      "name": "Navigation pause marked interruption",
+      "ok": true
+    },
+    {
+      "name": "Offline text flow completes",
+      "ok": true
+    },
+    {
+      "name": "No external request during local core flow",
+      "ok": true
+    },
+    {
+      "name": "CSV UTF-8 headers + 12 fields",
+      "ok": true
+    },
+    {
+      "name": "Unavailable storage reported visibly",
+      "ok": true
+    },
+    {
+      "name": "Memory-only limitation still visible",
+      "ok": true
+    },
+    {
+      "name": "Memory-only export preserves answers",
+      "ok": true
+    },
+    {
+      "name": "Listening choices disabled until playback ends",
+      "ok": true
+    },
+    {
+      "name": "First-listen answer snapshot preserved",
+      "ok": true
+    },
+    {
+      "name": "Transcript review scored assisted",
+      "ok": true
+    }
+  ],
+  "audioTest": "Stubbed browser callbacks only; no claim of acoustic playback verification"
+}

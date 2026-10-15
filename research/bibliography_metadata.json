@@ -1,0 +1,553 @@
+[
+  {
+    "query": "10.1111/lang.12479",
+    "DOI": "10.1111/lang.12479",
+    "title": [
+      "The Effects of Spaced Practice on Second Language Learning: A Meta‐Analysis"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-6056-7760",
+        "authenticated-orcid": false,
+        "given": "Su Kyung",
+        "family": "Kim",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of Western Ontario"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8297-4997",
+        "authenticated-orcid": false,
+        "given": "Stuart",
+        "family": "Webb",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Western Ontario"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          6
+        ]
+      ]
+    }
+  },
+  {
+    "query": "10.1111/modl.12581",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "query": "10.3102/0034654307313795",
+    "DOI": "10.3102/0034654307313795",
+    "title": [
+      "Focus on Formative Feedback"
+    ],
+    "authors": [
+      {
+        "given": "Valerie J.",
+        "family": "Shute",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Florida State University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2008,
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "query": "10.1207/S15326985EP3801_3",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "query": "10.1111/lang.12001",
+    "DOI": "10.1111/lang.12001",
+    "title": [
+      "Comprehension‐Based Versus Production‐Based Grammar Instruction: A Meta‐Analysis of Comparative Studies"
+    ],
+    "authors": [
+      {
+        "given": "Natsuko",
+        "family": "Shintani",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "National Institute of Education Nanyang Technological University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shaofeng",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The University of Auckland"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Rod",
+        "family": "Ellis",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The University of Auckland"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2013,
+          3,
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "query": "10.1002/tesq.157",
+    "DOI": "10.1002/tesq.157",
+    "title": [
+      "A Meta-Analysis of Extensive Reading Research"
+    ],
+    "authors": [
+      {
+        "given": "Takayuki",
+        "family": "Nakanishi",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Tokiwa University ; Ibaraki Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2014,
+          3,
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "query": "10.1177/1362168815597504",
+    "DOI": "10.1177/1362168815597504",
+    "title": [
+      "Shadowing: Who benefits and how? Uncovering a booming EFL teaching technique for listening comprehension"
+    ],
+    "authors": [
+      {
+        "given": "Yo",
+        "family": "Hamada",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Akita University, Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2015,
+          8,
+          17
+        ]
+      ]
+    }
+  },
+  {
+    "query": "10.1111/j.1467-9922.2010.00620.x",
+    "DOI": "10.1111/j.1467-9922.2010.00620.x",
+    "title": [
+      "Fluency Training in the ESL Classroom: An Experimental Study of Fluency Development and Proceduralization"
+    ],
+    "authors": [
+      {
+        "given": "Nel",
+        "family": "de Jong",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Charles A.",
+        "family": "Perfetti",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2011,
+          1,
+          20
+        ]
+      ]
+    }
+  },
+  {
+    "query": "10.1111/j.1467-9922.2007.00398.x",
+    "DOI": "10.1111/j.1467-9922.2007.00398.x",
+    "title": [
+      "Effects of Opportunities for Word Retrieval During Second Language Vocabulary Learning"
+    ],
+    "authors": [
+      {
+        "given": "Joe",
+        "family": "Barcroft",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2007,
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "query": "10.1111/lang.12285",
+    "DOI": "10.1111/lang.12285",
+    "title": [
+      "Contextual Richness and Word Learning: Context Enhances Comprehension but Retrieval Enhances Retention"
+    ],
+    "authors": [
+      {
+        "given": "Gesa S. E.",
+        "family": "van den Broek",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Behavioural Science Institute Radboud University"
+          },
+          {
+            "name": "Department of Education Utrecht University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Atsuko",
+        "family": "Takashima",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Behavioural Science Institute Radboud University"
+          },
+          {
+            "name": "Max Planck Institute for Psycholinguistics"
+          },
+          {
+            "name": "Donders Institute for Brain, Cognition, and Behaviour Radboud University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Eliane",
+        "family": "Segers",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Behavioural Science Institute Radboud University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ludo",
+        "family": "Verhoeven",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Behavioural Science Institute Radboud University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2018,
+          3,
+          15
+        ]
+      ]
+    }
+  },
+  {
+    "query": "10.1111/flan.12272",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "query": "10.30191/ets.202401_27(1).sp02",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "query": "10.1017/S0272263109990520",
+    "DOI": "10.1017/s0272263109990520",
+    "title": [
+      "ORAL FEEDBACK IN CLASSROOM SLA"
+    ],
+    "authors": [
+      {
+        "given": "Roy",
+        "family": "Lyster",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kazuya",
+        "family": "Saito",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2010,
+          4,
+          23
+        ]
+      ]
+    }
+  },
+  {
+    "query": "10.1016/j.system.2013.07.013",
+    "DOI": "10.1016/j.system.2013.07.013",
+    "title": [
+      "Captioned video for L2 listening and vocabulary learning: A meta-analysis"
+    ],
+    "authors": [
+      {
+        "given": "Maribel",
+        "family": "Montero Perez",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wim",
+        "family": "Van Den Noortgate",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Piet",
+        "family": "Desmet",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2013,
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "query": "Sleep Deprivation and Memory Meta-Analytic Reviews of Studies on Sleep Deprivation Before and After Learning",
+    "DOI": "10.1037/bul0000348.supp",
+    "title": [
+      "Supplemental Material for Sleep Deprivation and Memory: Meta-Analytic Reviews of Studies on Sleep Deprivation Before and After Learning"
+    ],
+    "authors": null,
+    "published": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    }
+  },
+  {
+    "query": "Classroom Interventions and Foreign Language Anxiety A Systematic Review With Narrative Approach",
+    "DOI": "10.3389/fpsyg.2021.614184",
+    "title": [
+      "Classroom Interventions and Foreign Language Anxiety: A Systematic Review With Narrative Approach"
+    ],
+    "authors": [
+      {
+        "given": "Michiko",
+        "family": "Toyama",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yoshitaka",
+        "family": "Yamazaki",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          9
+        ]
+      ]
+    }
+  }
+]

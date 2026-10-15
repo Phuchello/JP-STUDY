@@ -1,0 +1,2716 @@
+{
+  "reportVersion": "pilot-content-audit-v1",
+  "bankVersion": "pilot-n4-2026.10.15-v1",
+  "auditDate": "2026-10-15",
+  "status": "needs_revision",
+  "scope": {
+    "questionsRead": 80,
+    "questionsSolvedBlind": 80,
+    "keysCompared": 80,
+    "distractorsReviewed": 240,
+    "roleplaysReviewed": 4,
+    "all80Plus4Reviewed": true,
+    "blindSavedBeforeKey": true
+  },
+  "summary": {
+    "blindKeyMatches": 80,
+    "blindKeyDisagreements": 0,
+    "multipleValidOptionItemsFound": 0,
+    "findingsCount": 16,
+    "findingsBySeverity": {
+      "block": 1,
+      "major": 5,
+      "minor": 10
+    },
+    "releaseDecision": "Chưa chấp thuận lượt đầu. Sửa F01/F02 và làm rõ thẻ người đối thoại cho bốn vai trước khi coi bộ thí điểm tự đủ dữ kiện."
+  },
+  "method": [
+    "Bước 1 chỉ đọc pilot_blind_audit.txt, giải từng câu và lưu content_audit_blind.json trước khi mở pilot_draft.json.",
+    "Bước 2 đọc và đối chiếu toàn bộ khóa, 80 giải thích, 240 lời giải nhiễu, 22 evidence đọc/nghe, prerequisite, nguồn, mức khó, và 4 vai nói. Đã kiểm chính nội dung, không dùng schema thay QA ngôn ngữ.",
+    "Đã mở cả 5 URL nguồn được khai báo; mở thêm đích TUFS/JPF liên quan khi thấy gán nguồn quá rộng hoặc sai mục tiêu.",
+    "Tám câu nghe chỉ đối chiếu kịch bản chữ và khóa; không nghe file, không xác nhận phát âm/tốc độ/ngữ điệu/khả năng nghe của TTS."
+  ],
+  "findings": [
+    {
+      "findingId": "F01",
+      "ids": [
+        "N4-MED-003"
+      ],
+      "severity": "block",
+      "area": "timeline",
+      "reason": "Hàng được mô tả đến cửa hàng vào thứ Tư nhưng lại nhận thứ Ba, không có cơ chế nhận sớm. Khóa A đọc được từ câu điều kiện nhưng bối cảnh tự mâu thuẫn.",
+      "fix": "Sửa câu đầu thành 注文した品物は月曜日に店へ届きます。 Giữ lịch nhận thường từ thứ Tư và nhận sớm thứ Ba có liên lạc trước tối thứ Hai. Giữ khóa A; rà lại evidence và giải thích.",
+      "sourceEvidence": [],
+      "answers": [
+        {
+          "id": "N4-MED-003",
+          "blindAnswer": "A",
+          "suppliedAnswer": "A"
+        }
+      ]
+    },
+    {
+      "findingId": "F02",
+      "ids": [
+        "N4-SHORT-003"
+      ],
+      "severity": "major",
+      "area": "evidence",
+      "reason": "金曜日に変更できますか là lời đề nghị/chưa xác nhận. Câu hỏi いつ受付へ行けばいい và lời giải “lịch cũ đã đổi” biến lời đề nghị thành lịch đã chốt.",
+      "fix": "Cách ít thay đổi: đổi 金曜日に変更できますか thành 金曜日に変更しました。 Giữ 時間は同じです và khóa A; sửa evidence thành 金曜日に変更しました。時間は同じです。",
+      "sourceEvidence": [],
+      "answers": [
+        {
+          "id": "N4-SHORT-003",
+          "blindAnswer": "A",
+          "suppliedAnswer": "A"
+        }
+      ]
+    },
+    {
+      "findingId": "F03",
+      "ids": [
+        "N4-SHORT-007"
+      ],
+      "severity": "minor",
+      "area": "evidence",
+      "reason": "Đoạn chỉ biết ví không có và có thể để ở ghế ga. A 財布を忘れたことに気づいたから nói việc để quên đã chắc chắn; giải thích nhiễu C cũng khẳng định bỏ quên.",
+      "fix": "Đổi A thành 駅に財布を置いたかもしれないからです。 Sửa explanationVi: 'Ví không có; có thể đã để ở ga nên quay lại hỏi tìm.' Giữ khóa A.",
+      "sourceEvidence": [],
+      "answers": [
+        {
+          "id": "N4-SHORT-007",
+          "blindAnswer": "A",
+          "suppliedAnswer": "A"
+        }
+      ]
+    },
+    {
+      "findingId": "F04",
+      "ids": [
+        "N4-SHORT-001"
+      ],
+      "severity": "minor",
+      "area": "distractor_explanation",
+      "reason": "Lời giải nhiễu A ghi 3 là số phòng mới, trong bài chỉ nêu phòng số 3 và chỉ đổi giờ.",
+      "fix": "Sửa nhiễu A thành '3 là số phòng, không phải giờ.'",
+      "sourceEvidence": [],
+      "answers": [
+        {
+          "id": "N4-SHORT-001",
+          "blindAnswer": "C",
+          "suppliedAnswer": "C"
+        }
+      ]
+    },
+    {
+      "findingId": "F05",
+      "ids": [
+        "N4-MED-004"
+      ],
+      "severity": "minor",
+      "area": "explanation",
+      "reason": "Lời giải dẫn 食べる時間が短く...ゆっくり食べたくて không phải chuỗi bằng chứng có trong đoạn; có thể khiến học viên tìm nhầm.",
+      "fix": "Dùng nguyên văn bằng chứng ngắn có sẵn trong evidence: いちばんはゆっくり食べたいからです。 Giải thích 'Lý do chính là muốn ăn thong thả; tiết kiệm chỉ là lợi ích thêm.'",
+      "sourceEvidence": [],
+      "answers": [
+        {
+          "id": "N4-MED-004",
+          "blindAnswer": "D",
+          "suppliedAnswer": "D"
+        }
+      ]
+    },
+    {
+      "findingId": "F06",
+      "ids": [
+        "N4-MED-006"
+      ],
+      "severity": "minor",
+      "area": "explanation",
+      "reason": "Lời giải thêm người đẩy xe; đoạn ghi người dùng xe lăn và người mang/vận chuyển hàng.",
+      "fix": "Sửa thành 'Lối vào còn có người dùng xe lăn và người mang hàng đi qua; xe đạp gây cản trở.'",
+      "sourceEvidence": [],
+      "answers": [
+        {
+          "id": "N4-MED-006",
+          "blindAnswer": "B",
+          "suppliedAnswer": "B"
+        }
+      ]
+    },
+    {
+      "findingId": "F07",
+      "ids": [
+        "N4-LISTEN-008"
+      ],
+      "severity": "minor",
+      "area": "explanation",
+      "reason": "explanationVi chỉ hướng dẫn tìm nguyên nhân lỗi sau chấm, chưa giải thích vì sao B đúng.",
+      "fix": "Thêm 'Kịch bản yêu cầu 必ず店に電話してください trước giờ làm; メールだけではなく yêu cầu gọi điện, nên chọn B.' Có thể giữ lời nhắc chẩn đoán lỗi phía sau.",
+      "sourceEvidence": [],
+      "answers": [
+        {
+          "id": "N4-LISTEN-008",
+          "blindAnswer": "B",
+          "suppliedAnswer": "B"
+        }
+      ]
+    },
+    {
+      "findingId": "F08",
+      "ids": [
+        "N4-INTERP-001",
+        "N4-INTERP-002",
+        "N4-INTERP-003",
+        "N4-INTERP-005"
+      ],
+      "severity": "minor",
+      "area": "source_target",
+      "reason": "Trang TUFS094 nói trợ từ nối, có ので/から/と/たら/ても, không giải thích trực tiếp N以外, Nしか…ない, なくてもいい hay Vる前に đang kiểm ở bốn câu.",
+      "fix": "Gán nguồn theo mục tiêu: INTERP001 → mục 〜以外 trong JPF wordlist_Z.pdf; INTERP002 → TUFS095 phần しか; INTERP003 → nguồn JPF giải thích rõ なくてもいい (chưa chốt đích trong lượt này, không gán nhầm TUFS094); INTERP005 → Irodori SC1 chú thích L15-22, PDF trang 48 (số trang người đọc).",
+      "sourceEvidence": [
+        {
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/094.html",
+          "supports": "Xác định phạm vi thực tế của nguồn hiện tại."
+        },
+        {
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/095.html",
+          "supports": "Có giải thích しか và vị ngữ phủ định."
+        },
+        {
+          "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+          "supports": "Có mục 〜以外, nghĩa except; không suy diễn cấp JLPT."
+        },
+        {
+          "url": "https://jf.xcms.online/wp-content/uploads/2021/12/v1Grammar_SC1_VN.pdf#page=48",
+          "supports": "L15-22: Vる前に và Vたあと."
+        }
+      ],
+      "answers": [
+        {
+          "id": "N4-INTERP-001",
+          "blindAnswer": "A",
+          "suppliedAnswer": "A"
+        },
+        {
+          "id": "N4-INTERP-002",
+          "blindAnswer": "D",
+          "suppliedAnswer": "D"
+        },
+        {
+          "id": "N4-INTERP-003",
+          "blindAnswer": "C",
+          "suppliedAnswer": "C"
+        },
+        {
+          "id": "N4-INTERP-005",
+          "blindAnswer": "A",
+          "suppliedAnswer": "A"
+        }
+      ]
+    },
+    {
+      "findingId": "F09",
+      "ids": [
+        "N4-ORDER-001",
+        "N4-ORDER-002",
+        "N4-ORDER-003",
+        "N4-ORDER-004"
+      ],
+      "severity": "minor",
+      "area": "source_target",
+      "reason": "J05 chỉ trỏ trang giới thiệu mô-đun, không mở đúng bài mệnh đề bổ nghĩa danh từ.",
+      "fix": "Đổi references sang TUFS V＋N, explanation/079.html; giữ nguồn gốc AI-created riêng.",
+      "sourceEvidence": [
+        {
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/079.html",
+          "supports": "V thể thường + N; cả cụm làm thành phần câu."
+        }
+      ],
+      "answers": [
+        {
+          "id": "N4-ORDER-001",
+          "blindAnswer": "A",
+          "suppliedAnswer": "A"
+        },
+        {
+          "id": "N4-ORDER-002",
+          "blindAnswer": "D",
+          "suppliedAnswer": "D"
+        },
+        {
+          "id": "N4-ORDER-003",
+          "blindAnswer": "C",
+          "suppliedAnswer": "C"
+        },
+        {
+          "id": "N4-ORDER-004",
+          "blindAnswer": "B",
+          "suppliedAnswer": "B"
+        }
+      ]
+    },
+    {
+      "findingId": "F10",
+      "ids": [
+        "N4-GRAM-011"
+      ],
+      "severity": "minor",
+      "area": "source_target",
+      "reason": "J04 là trang tải Irodori SC1, chưa chỉ ra chỗ giải thích mẫu ておく. Có nguồn TUFS đích đã xác minh.",
+      "fix": "Thay hoặc bổ sung TUFS088 Vておきます／Vてみます, phần làm trước để chuẩn bị.",
+      "sourceEvidence": [
+        {
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/088.html",
+          "supports": "Mẫu ておく được giải thích trực tiếp."
+        }
+      ],
+      "answers": [
+        {
+          "id": "N4-GRAM-011",
+          "blindAnswer": "C",
+          "suppliedAnswer": "C"
+        }
+      ]
+    },
+    {
+      "findingId": "F11",
+      "ids": [
+        "N4-INTERP-006"
+      ],
+      "severity": "minor",
+      "area": "prerequisite",
+      "reason": "Prerequisite liệt kê たら/前に/てから nhưng câu này kiểm thao tác-kết quả với と.",
+      "fix": "Thêm 'V từ điển + と: thao tác và kết quả thường lệ' vào prerequisite riêng của câu; giữ prerequisite điều kiện khác tại concept nếu cần.",
+      "sourceEvidence": [],
+      "answers": [
+        {
+          "id": "N4-INTERP-006",
+          "blindAnswer": "D",
+          "suppliedAnswer": "D"
+        }
+      ]
+    },
+    {
+      "findingId": "F12",
+      "ids": [
+        "N4-GRAM-006",
+        "N4-GRAM-007",
+        "N4-SHORT-005",
+        "N4-MED-002",
+        "N4-MED-006"
+      ],
+      "severity": "minor",
+      "area": "difficulty_scaffolding",
+      "reason": "Từ ngoài mục tiêu như 会員証, 原本, 絵の具, 市民センター, 車いす/ご協力 có thể làm học viên nền yếu sai vì đọc từ thay vì mẫu cần kiểm. Metadata prerequisite hiện quá rộng; chưa có bằng chứng thực nghiệm rằng mức 1/2 phù hợp người học này.",
+      "fix": "Giữ câu và mức ước lượng, bổ sung từ hỗ trợ hoặc liên kết ôn từ trước câu (không giải hộ cấu trúc đích): 会員証=thẻ hội viên, 原本=bản gốc, 絵の具=màu vẽ, 市民センター=trung tâm sinh hoạt cộng đồng, 車いす=xe lăn. Với câu holdout, ghi có/không dùng hỗ trợ; đừng so điểm hỗ trợ và không hỗ trợ như cùng điều kiện.",
+      "sourceEvidence": [],
+      "answers": [
+        {
+          "id": "N4-GRAM-006",
+          "blindAnswer": "D",
+          "suppliedAnswer": "D"
+        },
+        {
+          "id": "N4-GRAM-007",
+          "blindAnswer": "C",
+          "suppliedAnswer": "C"
+        },
+        {
+          "id": "N4-SHORT-005",
+          "blindAnswer": "C",
+          "suppliedAnswer": "C"
+        },
+        {
+          "id": "N4-MED-002",
+          "blindAnswer": "B",
+          "suppliedAnswer": "B"
+        },
+        {
+          "id": "N4-MED-006",
+          "blindAnswer": "B",
+          "suppliedAnswer": "B"
+        }
+      ]
+    },
+    {
+      "findingId": "F13",
+      "ids": [
+        "N4-SPK-001"
+      ],
+      "severity": "major",
+      "area": "roleplay_information_gap",
+      "reason": "Yêu cầu xác nhận giờ đã thống nhất nhưng thiếu phản hồi của quản lý để tạo thông tin mới.",
+      "fix": "Thêm thẻ đối thoại ẩn: quản lý hỏi 何時からにしたいですか。 rồi どうしてですか。; sau lời đề nghị, đáp '明日は午後5時からで大丈夫です。' Người học tự xác nhận 5 giờ. Cho phép nhiều cách nhờ lịch sự, không buộc đúng いただけませんか.",
+      "sourceEvidence": [],
+      "answers": [
+        {
+          "id": "N4-SPK-001",
+          "blindAnswer": null,
+          "suppliedAnswer": null
+        }
+      ]
+    },
+    {
+      "findingId": "F14",
+      "ids": [
+        "N4-SPK-002"
+      ],
+      "severity": "major",
+      "area": "roleplay_information_gap",
+      "reason": "Yêu cầu nhắc lại hạn vừa nghe và xác nhận cách nộp nhưng chưa cung cấp hạn/cách nộp hay lượt nói của giáo viên.",
+      "fix": "Thêm thẻ giáo viên ẩn: '金曜日の午後5時までに出してください。' Sau khi học viên hỏi cách nộp: 'メールで送ってください。' Rubric chấm người học giữ đúng thứ Sáu 17 giờ và email. Không hiện những dữ kiện ẩn trên thẻ học viên trước khi nghe.",
+      "sourceEvidence": [],
+      "answers": [
+        {
+          "id": "N4-SPK-002",
+          "blindAnswer": null,
+          "suppliedAnswer": null
+        }
+      ]
+    },
+    {
+      "findingId": "F15",
+      "ids": [
+        "N4-SPK-003"
+      ],
+      "severity": "major",
+      "area": "roleplay_information_gap",
+      "reason": "Yêu cầu xác nhận có đổi tàu và ở đâu nhưng không có tuyến/ga đổi hoặc thẻ người hỗ trợ; không thể đánh giá có giữ đúng thông tin mới không.",
+      "fix": "Dùng ga hư cấu để không cần kiến thức tuyến thật: học viên ởA muốn tớiC; thẻ nhân viên đáp 'この電車でB駅まで行って、そこでC駅行きに乗り換えてください。' Học viên xác nhận ởB. Hoặc nhánh không đổi tàu riêng; chỉ chấm câu khớp thẻ đang dùng.",
+      "sourceEvidence": [],
+      "answers": [
+        {
+          "id": "N4-SPK-003",
+          "blindAnswer": null,
+          "suppliedAnswer": null
+        }
+      ]
+    },
+    {
+      "findingId": "F16",
+      "ids": [
+        "N4-SPK-004"
+      ],
+      "severity": "major",
+      "area": "roleplay_information_gap",
+      "reason": "Yêu cầu nhắc lại việc tiếp theo đã thống nhất nhưng thiếu chỉ dẫn từ người phụ trách.",
+      "fix": "Thêm thẻ phụ trách: sau lời báo trễ, hỏi đến dự kiến lúc nào; chấp nhận まだ分かりません nếu chưa biết. Sau đó đáp '駅に着いたら、もう一度電話してください。' Chấm việc học viên xác nhận sẽ gọi khi tới ga.",
+      "sourceEvidence": [],
+      "answers": [
+        {
+          "id": "N4-SPK-004",
+          "blindAnswer": null,
+          "suppliedAnswer": null
+        }
+      ]
+    }
+  ],
+  "sourceSummary": {
+    "J01": {
+      "opened": true,
+      "judgment": "Trang cụ thể phù hợp với で/に/を/と/から/まで; までに ở PART005 cần đích giải thích hạn hoàn tất rõ hơn, không chỉ trang tổng hợp.",
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/053.html"
+    },
+    "J02": {
+      "opened": true,
+      "judgment": "Có quy tắc ない/た, て từ た và ngoại lệ 行く; phù hợp nội dung 10 câu chia thể.",
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/038.html"
+    },
+    "J03": {
+      "opened": true,
+      "judgment": "Hỗ trợ nhóm nối điều kiện/lý do; gán sai đích cho bốn INTERP đã nêu. Các bài đọc gốc lấy bằng chứng từ chính passage, không từ TUFS.",
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/094.html"
+    },
+    "J04": {
+      "opened": true,
+      "judgment": "Nguồn JPF hợp lệ nhưng là trang tải cả khóa, chưa truy xuất được đích mỗi từ/mẫu từ metadata. Đã mở thêm PDF chú thích ngữ pháp 58 trang và bảng tương ứng; xác nhận các chủ đề kinh nghiệm L8, nhờ hỗ trợ L9, liên lạc công việc L13–14, 前に L15. Nên ghi bài/mục/trang cho từng concept; chưa chứng nhận mọi từ ở 43 câu +4 vai hiện có nguồn đúng trang.",
+      "url": "https://hn.jpf.go.jp/irodori/so-cap-1"
+    },
+    "J05": {
+      "opened": true,
+      "judgment": "Trang giới thiệu; thay bằng TUFS079 cho bốn câu bổ nghĩa danh từ.",
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/"
+    }
+  },
+  "itemReviews": [
+    {
+      "id": "N4-VOC-001",
+      "reviewed": true,
+      "blindAnswer": "A",
+      "suppliedAnswer": "A",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "受付 đọc là うけつけ.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "B",
+          "C",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-VOC-002",
+      "reviewed": true,
+      "blindAnswer": "D",
+      "suppliedAnswer": "D",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "予定 đọc là よてい.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "B",
+          "C"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-VOC-003",
+      "reviewed": true,
+      "blindAnswer": "C",
+      "suppliedAnswer": "C",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "住所 đọc là じゅうしょ.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "B",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-VOC-004",
+      "reviewed": true,
+      "blindAnswer": "B",
+      "suppliedAnswer": "B",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "間に合う đọc là まにあう.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "C",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-VOC-005",
+      "reviewed": true,
+      "blindAnswer": "A",
+      "suppliedAnswer": "A",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "Mưa mạnh nên mang ô.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "B",
+          "C",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-VOC-006",
+      "reviewed": true,
+      "blindAnswer": "D",
+      "suppliedAnswer": "D",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "Bạn chưa tới nên đang chờ bạn.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "B",
+          "C"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-VOC-007",
+      "reviewed": true,
+      "blindAnswer": "C",
+      "suppliedAnswer": "C",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "Tới sau khi tàu chạy: 乗り遅れる.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "B",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-VOC-008",
+      "reviewed": true,
+      "blindAnswer": "B",
+      "suppliedAnswer": "B",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "Xin nghỉ cần liên lạc quản lý.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "C",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-PART-001",
+      "reviewed": true,
+      "blindAnswer": "A",
+      "suppliedAnswer": "A",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "で đánh dấu nơi nói chuyện.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "B",
+          "C",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J01",
+      "sourceReview": "Đã đối chiếu phạm vi nguồn TUFS.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-PART-002",
+      "reviewed": true,
+      "blindAnswer": "D",
+      "suppliedAnswer": "D",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "に đánh dấu vị trí tồn tại của chìa khóa.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "B",
+          "C"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J01",
+      "sourceReview": "Đã đối chiếu phạm vi nguồn TUFS.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-PART-003",
+      "reviewed": true,
+      "blindAnswer": "C",
+      "suppliedAnswer": "C",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "で đánh dấu nơi ăn.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "B",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J01",
+      "sourceReview": "Đã đối chiếu phạm vi nguồn TUFS.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-PART-004",
+      "reviewed": true,
+      "blindAnswer": "B",
+      "suppliedAnswer": "B",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "人がいます dùng に cho vị trí tồn tại.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "C",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J01",
+      "sourceReview": "Đã đối chiếu phạm vi nguồn TUFS.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-PART-005",
+      "reviewed": true,
+      "blindAnswer": "A",
+      "suppliedAnswer": "A",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "Hành động nộp một lần trước hạn: までに.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "B",
+          "C",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J01",
+      "sourceReview": "Đã đối chiếu phạm vi nguồn TUFS.",
+      "difficultyEstimate": 2,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-PART-006",
+      "reviewed": true,
+      "blindAnswer": "D",
+      "suppliedAnswer": "D",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "Khoảng học kéo dài từ 1 đến 4 giờ: から…まで.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "B",
+          "C"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J01",
+      "sourceReview": "Đã đối chiếu phạm vi nguồn TUFS.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-PART-007",
+      "reviewed": true,
+      "blindAnswer": "C",
+      "suppliedAnswer": "C",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "Giờ bắt đầu dùng に.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "B",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J01",
+      "sourceReview": "Đã đối chiếu phạm vi nguồn TUFS.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-PART-008",
+      "reviewed": true,
+      "blindAnswer": "B",
+      "suppliedAnswer": "B",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "Đối tượng nghe dùng を.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "C",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J01",
+      "sourceReview": "Đã đối chiếu phạm vi nguồn TUFS.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-PART-009",
+      "reviewed": true,
+      "blindAnswer": "A",
+      "suppliedAnswer": "A",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "Đi cùng em gái: といっしょに.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "B",
+          "C",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J01",
+      "sourceReview": "Đã đối chiếu phạm vi nguồn TUFS.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-PART-010",
+      "reviewed": true,
+      "blindAnswer": "D",
+      "suppliedAnswer": "D",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "Điểm xuất phát: 家から.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "B",
+          "C"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J01",
+      "sourceReview": "Đã đối chiếu phạm vi nguồn TUFS.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-CONJ-001",
+      "reviewed": true,
+      "blindAnswer": "C",
+      "suppliedAnswer": "C",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "急ぐ → 急いで.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "B",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã xét đúng thể được yêu cầu, không gọi mọi nhiễu là câu Nhật vô nghĩa: 行わない là động từ khác; 飲めない là thể khả năng; 食べませんでした là phủ định quá khứ lịch sự; 買うた khác chuẩn đang luyện."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J02",
+      "sourceReview": "Đã đối chiếu phạm vi nguồn TUFS.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-CONJ-002",
+      "reviewed": true,
+      "blindAnswer": "B",
+      "suppliedAnswer": "B",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "書く → 書いて.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "C",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã xét đúng thể được yêu cầu, không gọi mọi nhiễu là câu Nhật vô nghĩa: 行わない là động từ khác; 飲めない là thể khả năng; 食べませんでした là phủ định quá khứ lịch sự; 買うた khác chuẩn đang luyện."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J02",
+      "sourceReview": "Đã đối chiếu phạm vi nguồn TUFS.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-CONJ-003",
+      "reviewed": true,
+      "blindAnswer": "A",
+      "suppliedAnswer": "A",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "待つ → 待って.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "B",
+          "C",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã xét đúng thể được yêu cầu, không gọi mọi nhiễu là câu Nhật vô nghĩa: 行わない là động từ khác; 飲めない là thể khả năng; 食べませんでした là phủ định quá khứ lịch sự; 買うた khác chuẩn đang luyện."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J02",
+      "sourceReview": "Đã đối chiếu phạm vi nguồn TUFS.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-CONJ-004",
+      "reviewed": true,
+      "blindAnswer": "D",
+      "suppliedAnswer": "D",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "行く → 行って là ngoại lệ.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "B",
+          "C"
+        ],
+        "count": 3,
+        "note": "Đã xét đúng thể được yêu cầu, không gọi mọi nhiễu là câu Nhật vô nghĩa: 行わない là động từ khác; 飲めない là thể khả năng; 食べませんでした là phủ định quá khứ lịch sự; 買うた khác chuẩn đang luyện."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J02",
+      "sourceReview": "Đã đối chiếu phạm vi nguồn TUFS.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-CONJ-005",
+      "reviewed": true,
+      "blindAnswer": "C",
+      "suppliedAnswer": "C",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "行く → 行かない.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "B",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã xét đúng thể được yêu cầu, không gọi mọi nhiễu là câu Nhật vô nghĩa: 行わない là động từ khác; 飲めない là thể khả năng; 食べませんでした là phủ định quá khứ lịch sự; 買うた khác chuẩn đang luyện."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J02",
+      "sourceReview": "Đã đối chiếu phạm vi nguồn TUFS.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-CONJ-006",
+      "reviewed": true,
+      "blindAnswer": "B",
+      "suppliedAnswer": "B",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "飲む → 飲まない theo yêu cầu thể ない.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "C",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã xét đúng thể được yêu cầu, không gọi mọi nhiễu là câu Nhật vô nghĩa: 行わない là động từ khác; 飲めない là thể khả năng; 食べませんでした là phủ định quá khứ lịch sự; 買うた khác chuẩn đang luyện."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J02",
+      "sourceReview": "Đã đối chiếu phạm vi nguồn TUFS.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-CONJ-007",
+      "reviewed": true,
+      "blindAnswer": "A",
+      "suppliedAnswer": "A",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "食べる → 食べない theo yêu cầu thể ない.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "B",
+          "C",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã xét đúng thể được yêu cầu, không gọi mọi nhiễu là câu Nhật vô nghĩa: 行わない là động từ khác; 飲めない là thể khả năng; 食べませんでした là phủ định quá khứ lịch sự; 買うた khác chuẩn đang luyện."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J02",
+      "sourceReview": "Đã đối chiếu phạm vi nguồn TUFS.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-CONJ-008",
+      "reviewed": true,
+      "blindAnswer": "D",
+      "suppliedAnswer": "D",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "読む → 読んだ.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "B",
+          "C"
+        ],
+        "count": 3,
+        "note": "Đã xét đúng thể được yêu cầu, không gọi mọi nhiễu là câu Nhật vô nghĩa: 行わない là động từ khác; 飲めない là thể khả năng; 食べませんでした là phủ định quá khứ lịch sự; 買うた khác chuẩn đang luyện."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J02",
+      "sourceReview": "Đã đối chiếu phạm vi nguồn TUFS.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-CONJ-009",
+      "reviewed": true,
+      "blindAnswer": "C",
+      "suppliedAnswer": "C",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "買う → 買った.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "B",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã xét đúng thể được yêu cầu, không gọi mọi nhiễu là câu Nhật vô nghĩa: 行わない là động từ khác; 飲めない là thể khả năng; 食べませんでした là phủ định quá khứ lịch sự; 買うた khác chuẩn đang luyện."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J02",
+      "sourceReview": "Đã đối chiếu phạm vi nguồn TUFS.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-CONJ-010",
+      "reviewed": true,
+      "blindAnswer": "B",
+      "suppliedAnswer": "B",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "来る → 来た（きた）.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "C",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã xét đúng thể được yêu cầu, không gọi mọi nhiễu là câu Nhật vô nghĩa: 行わない là động từ khác; 飲めない là thể khả năng; 食べませんでした là phủ định quá khứ lịch sự; 買うた khác chuẩn đang luyện."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J02",
+      "sourceReview": "Đã đối chiếu phạm vi nguồn TUFS.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-GRAM-001",
+      "reviewed": true,
+      "blindAnswer": "A",
+      "suppliedAnswer": "A",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "禁煙 là cấm hút thuốc.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "B",
+          "C",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-GRAM-002",
+      "reviewed": true,
+      "blindAnswer": "D",
+      "suppliedAnswer": "D",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "Xin phép dùng てもいいですか.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "B",
+          "C"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-GRAM-003",
+      "reviewed": true,
+      "blindAnswer": "C",
+      "suppliedAnswer": "C",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "Được chụp nhưng cấm flash.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "B",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-GRAM-004",
+      "reviewed": true,
+      "blindAnswer": "B",
+      "suppliedAnswer": "B",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "Cấm mang sách về nhà.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "C",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-GRAM-005",
+      "reviewed": true,
+      "blindAnswer": "A",
+      "suppliedAnswer": "A",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "Không cần tới trường: なくてもいい.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "B",
+          "C",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-GRAM-006",
+      "reviewed": true,
+      "blindAnswer": "D",
+      "suppliedAnswer": "D",
+      "keyMatchesBlind": true,
+      "highestSeverity": "minor",
+      "findingIds": [
+        "F12"
+      ],
+      "answerReason": "Bắt buộc trình thẻ: なければなりません.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "B",
+          "C"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Cần cụ thể hóa theo phát hiện.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-GRAM-007",
+      "reviewed": true,
+      "blindAnswer": "C",
+      "suppliedAnswer": "C",
+      "keyMatchesBlind": true,
+      "highestSeverity": "minor",
+      "findingIds": [
+        "F12"
+      ],
+      "answerReason": "Không cần nộp bản gốc.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "B",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Cần cụ thể hóa theo phát hiện.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 2,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-GRAM-008",
+      "reviewed": true,
+      "blindAnswer": "B",
+      "suppliedAnswer": "B",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "Phải tự trả bát đĩa.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "C",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-GRAM-009",
+      "reviewed": true,
+      "blindAnswer": "A",
+      "suppliedAnswer": "A",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "Kinh nghiệm đã trượt tuyết: たことがある.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "B",
+          "C",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-GRAM-010",
+      "reviewed": true,
+      "blindAnswer": "D",
+      "suppliedAnswer": "D",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "Bắt đầu hai năm trước và còn sống ở Tokyo: 二年前から…住んでいます.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "B",
+          "C"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-GRAM-011",
+      "reviewed": true,
+      "blindAnswer": "C",
+      "suppliedAnswer": "C",
+      "keyMatchesBlind": true,
+      "highestSeverity": "minor",
+      "findingIds": [
+        "F10"
+      ],
+      "answerReason": "Chuẩn bị trước: コピーしておきます.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "B",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J04",
+      "sourceReview": "Cần sửa đích nguồn.",
+      "difficultyEstimate": 2,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-GRAM-012",
+      "reviewed": true,
+      "blindAnswer": "B",
+      "suppliedAnswer": "B",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "Chưa từng đi tàu thủy: 乗ったことがありません.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "C",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 2,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-ORDER-001",
+      "reviewed": true,
+      "blindAnswer": "A",
+      "suppliedAnswer": "A",
+      "keyMatchesBlind": true,
+      "highestSeverity": "minor",
+      "findingIds": [
+        "F09"
+      ],
+      "answerReason": "先週買った bổ nghĩa cho くつ.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "B",
+          "C",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã xét phạm vi mệnh đề, danh từ, です và chuỗi mẫu cố định; không loại đáp án chỉ vì tiếng Nhật cho phép trạng từ/trợ từ đổi vị trí."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J05",
+      "sourceReview": "Cần sửa đích nguồn.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-ORDER-002",
+      "reviewed": true,
+      "blindAnswer": "D",
+      "suppliedAnswer": "D",
+      "keyMatchesBlind": true,
+      "highestSeverity": "minor",
+      "findingIds": [
+        "F09"
+      ],
+      "answerReason": "駅で会った bổ nghĩa cho 人.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "B",
+          "C"
+        ],
+        "count": 3,
+        "note": "Đã xét phạm vi mệnh đề, danh từ, です và chuỗi mẫu cố định; không loại đáp án chỉ vì tiếng Nhật cho phép trạng từ/trợ từ đổi vị trí."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J05",
+      "sourceReview": "Cần sửa đích nguồn.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-ORDER-003",
+      "reviewed": true,
+      "blindAnswer": "C",
+      "suppliedAnswer": "C",
+      "keyMatchesBlind": true,
+      "highestSeverity": "minor",
+      "findingIds": [
+        "F09"
+      ],
+      "answerReason": "友だちが作った bổ nghĩa cho お菓子.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "B",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã xét phạm vi mệnh đề, danh từ, です và chuỗi mẫu cố định; không loại đáp án chỉ vì tiếng Nhật cho phép trạng từ/trợ từ đổi vị trí."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J05",
+      "sourceReview": "Cần sửa đích nguồn.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-ORDER-004",
+      "reviewed": true,
+      "blindAnswer": "B",
+      "suppliedAnswer": "B",
+      "keyMatchesBlind": true,
+      "highestSeverity": "minor",
+      "findingIds": [
+        "F09"
+      ],
+      "answerReason": "日本語を教えている bổ nghĩa cho 先生.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "C",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã xét phạm vi mệnh đề, danh từ, です và chuỗi mẫu cố định; không loại đáp án chỉ vì tiếng Nhật cho phép trạng từ/trợ từ đổi vị trí."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J05",
+      "sourceReview": "Cần sửa đích nguồn.",
+      "difficultyEstimate": 2,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-ORDER-005",
+      "reviewed": true,
+      "blindAnswer": "A",
+      "suppliedAnswer": "A",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "富士山に登ったことがありません.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "B",
+          "C",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã xét phạm vi mệnh đề, danh từ, です và chuỗi mẫu cố định; không loại đáp án chỉ vì tiếng Nhật cho phép trạng từ/trợ từ đổi vị trí."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-ORDER-006",
+      "reviewed": true,
+      "blindAnswer": "D",
+      "suppliedAnswer": "D",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "歯を磨いてから寝ます.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "B",
+          "C"
+        ],
+        "count": 3,
+        "note": "Đã xét phạm vi mệnh đề, danh từ, です và chuỗi mẫu cố định; không loại đáp án chỉ vì tiếng Nhật cho phép trạng từ/trợ từ đổi vị trí."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-ORDER-007",
+      "reviewed": true,
+      "blindAnswer": "C",
+      "suppliedAnswer": "C",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "早く寝たほうがいいです.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "B",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã xét phạm vi mệnh đề, danh từ, です và chuỗi mẫu cố định; không loại đáp án chỉ vì tiếng Nhật cho phép trạng từ/trợ từ đổi vị trí."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-ORDER-008",
+      "reviewed": true,
+      "blindAnswer": "B",
+      "suppliedAnswer": "B",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "靴を脱がなければなりません.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "C",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã xét phạm vi mệnh đề, danh từ, です và chuỗi mẫu cố định; không loại đáp án chỉ vì tiếng Nhật cho phép trạng từ/trợ từ đổi vị trí."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 2,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-INTERP-001",
+      "reviewed": true,
+      "blindAnswer": "A",
+      "suppliedAnswer": "A",
+      "keyMatchesBlind": true,
+      "highestSeverity": "minor",
+      "findingIds": [
+        "F08"
+      ],
+      "answerReason": "Mở mọi ngày trừ Chủ nhật.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "B",
+          "C",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J03",
+      "sourceReview": "Cần sửa đích nguồn.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-INTERP-002",
+      "reviewed": true,
+      "blindAnswer": "D",
+      "suppliedAnswer": "D",
+      "keyMatchesBlind": true,
+      "highestSeverity": "minor",
+      "findingIds": [
+        "F08"
+      ],
+      "answerReason": "しか…ない tương ứng chỉ có 1000 yên.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "B",
+          "C"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J03",
+      "sourceReview": "Cần sửa đích nguồn.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-INTERP-003",
+      "reviewed": true,
+      "blindAnswer": "C",
+      "suppliedAnswer": "C",
+      "keyMatchesBlind": true,
+      "highestSeverity": "minor",
+      "findingIds": [
+        "F08"
+      ],
+      "answerReason": "Không cần làm toàn bộ.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "B",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J03",
+      "sourceReview": "Cần sửa đích nguồn.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-INTERP-004",
+      "reviewed": true,
+      "blindAnswer": "B",
+      "suppliedAnswer": "B",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "Nếu mưa, tổ chức trong nhà thể chất.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "C",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J03",
+      "sourceReview": "Đã đối chiếu phạm vi nguồn TUFS.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-INTERP-005",
+      "reviewed": true,
+      "blindAnswer": "A",
+      "suppliedAnswer": "A",
+      "keyMatchesBlind": true,
+      "highestSeverity": "minor",
+      "findingIds": [
+        "F08"
+      ],
+      "answerReason": "Gửi email trước khi tới thư viện.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "B",
+          "C",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J03",
+      "sourceReview": "Cần sửa đích nguồn.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-INTERP-006",
+      "reviewed": true,
+      "blindAnswer": "D",
+      "suppliedAnswer": "D",
+      "keyMatchesBlind": true,
+      "highestSeverity": "minor",
+      "findingIds": [
+        "F11"
+      ],
+      "answerReason": "Nhấn nút thì cửa mở.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "B",
+          "C"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Cần cụ thể hóa theo phát hiện.",
+      "sourceId": "J03",
+      "sourceReview": "Đã đối chiếu phạm vi nguồn TUFS.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-SHORT-001",
+      "reviewed": true,
+      "blindAnswer": "C",
+      "suppliedAnswer": "C",
+      "keyMatchesBlind": true,
+      "highestSeverity": "minor",
+      "findingIds": [
+        "F04"
+      ],
+      "answerReason": "Đã đổi 9 giờ sáng thành 10 giờ sáng.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "B",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Có phát hiện theo findingIds.",
+      "evidenceReview": "Đối chiếu với passage; xem findingIds nếu có.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-SHORT-002",
+      "reviewed": true,
+      "blindAnswer": "B",
+      "suppliedAnswer": "B",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "Thứ Bảy đóng lúc 4 giờ chiều.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "C",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Đối chiếu với passage; xem findingIds nếu có.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-SHORT-003",
+      "reviewed": true,
+      "blindAnswer": "A",
+      "suppliedAnswer": "A",
+      "keyMatchesBlind": true,
+      "highestSeverity": "major",
+      "findingIds": [
+        "F02"
+      ],
+      "answerReason": "Đáp án dự kiến là thứ Sáu 14 giờ; thư chỉ hỏi đổi lịch, chưa xác nhận việc đổi.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "B",
+          "C",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Có phát hiện theo findingIds.",
+      "evidenceReview": "Đối chiếu với passage; xem findingIds nếu có.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-SHORT-004",
+      "reviewed": true,
+      "blindAnswer": "D",
+      "suppliedAnswer": "D",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "Hạn trả là ngày 10/6.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "B",
+          "C"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Đối chiếu với passage; xem findingIds nếu có.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-SHORT-005",
+      "reviewed": true,
+      "blindAnswer": "C",
+      "suppliedAnswer": "C",
+      "keyMatchesBlind": true,
+      "highestSeverity": "minor",
+      "findingIds": [
+        "F12"
+      ],
+      "answerReason": "Do mưa nên học trong lớp.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "B",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Đối chiếu với passage; xem findingIds nếu có.",
+      "prerequisiteReview": "Cần cụ thể hóa theo phát hiện.",
+      "sourceId": "J03",
+      "sourceReview": "Đã đối chiếu phạm vi nguồn TUFS.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-SHORT-006",
+      "reviewed": true,
+      "blindAnswer": "B",
+      "suppliedAnswer": "B",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "Sắp muộn phải gọi điện cho cửa hàng.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "C",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Đối chiếu với passage; xem findingIds nếu có.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J03",
+      "sourceReview": "Đã đối chiếu phạm vi nguồn TUFS.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-SHORT-007",
+      "reviewed": true,
+      "blindAnswer": "A",
+      "suppliedAnswer": "A",
+      "keyMatchesBlind": true,
+      "highestSeverity": "minor",
+      "findingIds": [
+        "F03"
+      ],
+      "answerReason": "Mất/để quên ví là lý do quay lại ga; đáp án A diễn đạt chắc hơn thông tin gốc.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "B",
+          "C",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Có phát hiện theo findingIds.",
+      "evidenceReview": "Đối chiếu với passage; xem findingIds nếu có.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J03",
+      "sourceReview": "Đã đối chiếu phạm vi nguồn TUFS.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-SHORT-008",
+      "reviewed": true,
+      "blindAnswer": "D",
+      "suppliedAnswer": "D",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "Đã có hai chai sữa nên không cần mua.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "B",
+          "C"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Đối chiếu với passage; xem findingIds nếu có.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J03",
+      "sourceReview": "Đã đối chiếu phạm vi nguồn TUFS.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-MED-001",
+      "reviewed": true,
+      "blindAnswer": "C",
+      "suppliedAnswer": "C",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "Chỉ Sato đổi giờ bắt đầu từ 16 sang 17 giờ.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "B",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Đối chiếu với passage; xem findingIds nếu có.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 2,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-MED-002",
+      "reviewed": true,
+      "blindAnswer": "B",
+      "suppliedAnswer": "B",
+      "keyMatchesBlind": true,
+      "highestSeverity": "minor",
+      "findingIds": [
+        "F12"
+      ],
+      "answerReason": "Nếu mưa tới thẳng lối vào trung tâm công dân.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "C",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Đối chiếu với passage; xem findingIds nếu có.",
+      "prerequisiteReview": "Cần cụ thể hóa theo phát hiện.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 2,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-MED-003",
+      "reviewed": true,
+      "blindAnswer": "A",
+      "suppliedAnswer": "A",
+      "keyMatchesBlind": true,
+      "highestSeverity": "block",
+      "findingIds": [
+        "F01"
+      ],
+      "answerReason": "Yêu cầu liên lạc trước 18 giờ thứ Hai, nhưng mâu thuẫn hàng tới thứ Tư mà nhận thứ Ba.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "B",
+          "C",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Đối chiếu với passage; xem findingIds nếu có.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 3,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-MED-004",
+      "reviewed": true,
+      "blindAnswer": "D",
+      "suppliedAnswer": "D",
+      "keyMatchesBlind": true,
+      "highestSeverity": "minor",
+      "findingIds": [
+        "F05"
+      ],
+      "answerReason": "Lý do lớn nhất là muốn ăn thong thả.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "B",
+          "C"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Có phát hiện theo findingIds.",
+      "evidenceReview": "Đối chiếu với passage; xem findingIds nếu có.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J03",
+      "sourceReview": "Đã đối chiếu phạm vi nguồn TUFS.",
+      "difficultyEstimate": 2,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-MED-005",
+      "reviewed": true,
+      "blindAnswer": "C",
+      "suppliedAnswer": "C",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "Chuyển sang nghe hội thoại ngắn rồi tự nói.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "B",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Đối chiếu với passage; xem findingIds nếu có.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J03",
+      "sourceReview": "Đã đối chiếu phạm vi nguồn TUFS.",
+      "difficultyEstimate": 2,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-MED-006",
+      "reviewed": true,
+      "blindAnswer": "B",
+      "suppliedAnswer": "B",
+      "keyMatchesBlind": true,
+      "highestSeverity": "minor",
+      "findingIds": [
+        "F06",
+        "F12"
+      ],
+      "answerReason": "Đề nghị không để xe gần lối vào.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "C",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Có phát hiện theo findingIds.",
+      "evidenceReview": "Đối chiếu với passage; xem findingIds nếu có.",
+      "prerequisiteReview": "Cần cụ thể hóa theo phát hiện.",
+      "sourceId": "J03",
+      "sourceReview": "Đã đối chiếu phạm vi nguồn TUFS.",
+      "difficultyEstimate": 2,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-LISTEN-001",
+      "reviewed": true,
+      "blindAnswer": "A",
+      "suppliedAnswer": "A",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "Kịch bản đổi giờ họp 14 thành 15 giờ.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "B",
+          "C",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Đối chiếu với kịch bản chữ; chưa nghe âm thanh.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-LISTEN-002",
+      "reviewed": true,
+      "blindAnswer": "D",
+      "suppliedAnswer": "D",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "Chuyển sang lớp ở tầng 2.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "B",
+          "C"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Đối chiếu với kịch bản chữ; chưa nghe âm thanh.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-LISTEN-003",
+      "reviewed": true,
+      "blindAnswer": "C",
+      "suppliedAnswer": "C",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "Đến quầy trước 9 giờ 30 sáng.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "B",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Đối chiếu với kịch bản chữ; chưa nghe âm thanh.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-LISTEN-004",
+      "reviewed": true,
+      "blindAnswer": "B",
+      "suppliedAnswer": "B",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "Chuyển giao hàng sang chiều thứ Sáu.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "C",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Đối chiếu với kịch bản chữ; chưa nghe âm thanh.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-LISTEN-005",
+      "reviewed": true,
+      "blindAnswer": "A",
+      "suppliedAnswer": "A",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "Đóng cửa sổ, không tắt điện.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "B",
+          "C",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Đối chiếu với kịch bản chữ; chưa nghe âm thanh.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-LISTEN-006",
+      "reviewed": true,
+      "blindAnswer": "D",
+      "suppliedAnswer": "D",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "Nếu cửa hàng đóng thì về thẳng không mua bánh.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "B",
+          "C"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Đối chiếu với kịch bản chữ; chưa nghe âm thanh.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-LISTEN-007",
+      "reviewed": true,
+      "blindAnswer": "C",
+      "suppliedAnswer": "C",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "Trang 3 không cần sao hôm nay.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "B",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Đối chiếu với kịch bản chữ; chưa nghe âm thanh.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-LISTEN-008",
+      "reviewed": true,
+      "blindAnswer": "B",
+      "suppliedAnswer": "B",
+      "keyMatchesBlind": true,
+      "highestSeverity": "minor",
+      "findingIds": [
+        "F07"
+      ],
+      "answerReason": "Phải gọi cửa hàng trước giờ bắt đầu việc.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "C",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Có phát hiện theo findingIds.",
+      "evidenceReview": "Đối chiếu với kịch bản chữ; chưa nghe âm thanh.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-COMM-001",
+      "reviewed": true,
+      "blindAnswer": "A",
+      "suppliedAnswer": "A",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "Nhờ quản lý đổi giờ bắt đầu sang 17 giờ.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "B",
+          "C",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 2,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-COMM-002",
+      "reviewed": true,
+      "blindAnswer": "D",
+      "suppliedAnswer": "D",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "Nhờ giáo viên nói lại giờ.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "B",
+          "C"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-COMM-003",
+      "reviewed": true,
+      "blindAnswer": "C",
+      "suppliedAnswer": "C",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "Hỏi tàu này có đến ga Tokyo không.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "B",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-COMM-004",
+      "reviewed": true,
+      "blindAnswer": "B",
+      "suppliedAnswer": "B",
+      "keyMatchesBlind": true,
+      "highestSeverity": null,
+      "findingIds": [],
+      "answerReason": "Xin phép bạn trả sách thứ Hai tới.",
+      "languageReview": "Đã đọc thủ công bằng suy luận ngôn ngữ; không dùng kiểm schema để thay rà câu.",
+      "distractorReview": {
+        "ids": [
+          "A",
+          "C",
+          "D"
+        ],
+        "count": 3,
+        "note": "Đã đọc từng nhiễu và lời giải tương ứng; không thấy nhiễu thứ hai đúng theo yêu cầu trong đề."
+      },
+      "explanationReview": "Không thấy lỗi nội dung trong giải thích tiếng Việt.",
+      "evidenceReview": "Không áp dụng cho câu riêng.",
+      "prerequisiteReview": "Prerequisite cơ bản tương thích, còn rộng; không phải bằng chứng đã học.",
+      "sourceId": "J04",
+      "sourceReview": "Đã kiểm nguồn JPF cấp khóa; metadata thiếu bài/mục/trang đích.",
+      "difficultyEstimate": 1,
+      "difficultyReview": "Chỉ ước lượng nội dung; chưa hiệu chuẩn với người học thật."
+    },
+    {
+      "id": "N4-SPK-001",
+      "reviewed": true,
+      "blindAnswer": null,
+      "suppliedAnswer": null,
+      "highestSeverity": "major",
+      "findingIds": [
+        "F13"
+      ],
+      "languageReview": "Đã kiểm taskVi, requiredIntents, prerequisite, rubric và giới hạn chấm phát âm.",
+      "judgment": "Mục tiêu phù hợp đời sống; chấp nhận nhiều cách nói và tách khỏi MCQ là đúng. Thiếu thẻ người đối thoại/dữ kiện đáp lại để xác nhận thông tin mới.",
+      "sourceId": "J04",
+      "difficultyEstimate": 2,
+      "difficultyReview": "180 giây là ước lượng; nên cho lựa chọn 1 vai/lượt và rút còn 2 ý khi rất mệt, không ép thời gian."
+    },
+    {
+      "id": "N4-SPK-002",
+      "reviewed": true,
+      "blindAnswer": null,
+      "suppliedAnswer": null,
+      "highestSeverity": "major",
+      "findingIds": [
+        "F14"
+      ],
+      "languageReview": "Đã kiểm taskVi, requiredIntents, prerequisite, rubric và giới hạn chấm phát âm.",
+      "judgment": "Mục tiêu phù hợp đời sống; chấp nhận nhiều cách nói và tách khỏi MCQ là đúng. Thiếu thẻ người đối thoại/dữ kiện đáp lại để xác nhận thông tin mới.",
+      "sourceId": "J04",
+      "difficultyEstimate": 2,
+      "difficultyReview": "180 giây là ước lượng; nên cho lựa chọn 1 vai/lượt và rút còn 2 ý khi rất mệt, không ép thời gian."
+    },
+    {
+      "id": "N4-SPK-003",
+      "reviewed": true,
+      "blindAnswer": null,
+      "suppliedAnswer": null,
+      "highestSeverity": "major",
+      "findingIds": [
+        "F15"
+      ],
+      "languageReview": "Đã kiểm taskVi, requiredIntents, prerequisite, rubric và giới hạn chấm phát âm.",
+      "judgment": "Mục tiêu phù hợp đời sống; chấp nhận nhiều cách nói và tách khỏi MCQ là đúng. Thiếu thẻ người đối thoại/dữ kiện đáp lại để xác nhận thông tin mới.",
+      "sourceId": "J04",
+      "difficultyEstimate": 2,
+      "difficultyReview": "180 giây là ước lượng; nên cho lựa chọn 1 vai/lượt và rút còn 2 ý khi rất mệt, không ép thời gian."
+    },
+    {
+      "id": "N4-SPK-004",
+      "reviewed": true,
+      "blindAnswer": null,
+      "suppliedAnswer": null,
+      "highestSeverity": "major",
+      "findingIds": [
+        "F16"
+      ],
+      "languageReview": "Đã kiểm taskVi, requiredIntents, prerequisite, rubric và giới hạn chấm phát âm.",
+      "judgment": "Mục tiêu phù hợp đời sống; chấp nhận nhiều cách nói và tách khỏi MCQ là đúng. Thiếu thẻ người đối thoại/dữ kiện đáp lại để xác nhận thông tin mới.",
+      "sourceId": "J04",
+      "difficultyEstimate": 2,
+      "difficultyReview": "180 giây là ước lượng; nên cho lựa chọn 1 vai/lượt và rút còn 2 ý khi rất mệt, không ép thời gian."
+    }
+  ],
+  "pedagogicalNotes": [
+    "Nền N4 là ước lượng sư phạm gồm nhiều kiến thức sơ cấp; bộ này không phải đề JLPT chính thức và không dùng điểm để kết luận đỗ/trượt N4.",
+    "Các nhiễu ORDER sai hình thái/cấu trúc khá lộ; phù hợp chẩn đoán nền thấp, chưa cho thấy độ phân biệt của câu thi thật. Không cần tăng độ khó chỉ để giống thi.",
+    "Các mẫu ていただけませんか/いただけますか có thể nặng về sản xuất lời nói; cho phép cách nhờ lịch sự đơn giản truyền đạt đúng ý trong vai nói.",
+    "Tránh giao cả 80 +4 thành một lượt cho người rất mệt. Dùng vài câu cùng mục tiêu và một vai tùy sức; ước lượng thời gian không phải đồng hồ ép làm.",
+    "Giữ độ đúng của câu, mức trợ giúp, mức chắc chắn và khả năng tự nói riêng biệt; đáp án chọn không đủ chứng minh hiểu hoặc nói được."
+  ],
+  "limitations": [
+    "Đây là QA do mô hình thực hiện, không phải thẩm định của giáo viên bản ngữ.",
+    "Chưa thử trên người học thực; độ khó, thời gian làm và độ phân biệt chưa được hiệu chuẩn.",
+    "Chưa đánh giá âm thanh TTS, phát âm hay chất lượng thu âm.",
+    "Nguồn cấp khóa J04 chưa được gắn đích trang cho từng câu, nên không khẳng định mọi dẫn nguồn đã đạt độ chính xác ở cấp câu."
+  ],
+  "nextStep": "Chờ phiên bản sửa từ tác giả; kiểm lại các ID đã sửa và mọi trường phụ thuộc, không mở rộng ngân hàng."
+}

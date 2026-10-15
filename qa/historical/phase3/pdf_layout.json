@@ -1,0 +1,105 @@
+{
+  "START_HERE.pdf": [
+    {
+      "page": 1,
+      "estimatedHeight": 431.8,
+      "available": 746.8897637795277
+    },
+    {
+      "page": 2,
+      "estimatedHeight": 473.0,
+      "available": 746.8897637795277
+    },
+    {
+      "page": 3,
+      "estimatedHeight": 478.3,
+      "available": 746.8897637795277
+    }
+  ],
+  "LEARNING_METHODS.pdf": [
+    {
+      "page": 1,
+      "estimatedHeight": 484.9,
+      "available": 746.8897637795277
+    },
+    {
+      "page": 2,
+      "estimatedHeight": 487.7,
+      "available": 746.8897637795277
+    },
+    {
+      "page": 3,
+      "estimatedHeight": 298.6,
+      "available": 746.8897637795277
+    },
+    {
+      "page": 4,
+      "estimatedHeight": 502.5,
+      "available": 746.8897637795277
+    },
+    {
+      "page": 5,
+      "estimatedHeight": 515.9,
+      "available": 746.8897637795277
+    }
+  ],
+  "LISTENING_READING_CHEATSHEETS.pdf": [
+    {
+      "page": 1,
+      "estimatedHeight": 439.8,
+      "available": 746.8897637795277
+    },
+    {
+      "page": 2,
+      "estimatedHeight": 438.2,
+      "available": 746.8897637795277
+    },
+    {
+      "page": 3,
+      "estimatedHeight": 466.5,
+      "available": 746.8897637795277
+    },
+    {
+      "page": 4,
+      "estimatedHeight": 453.0,
+      "available": 746.8897637795277
+    },
+    {
+      "page": 5,
+      "estimatedHeight": 583.6,
+      "available": 746.8897637795277
+    }
+  ],
+  "JAPANESE_WRITING_SPEAKING_TEMPLATES.pdf": [
+    {
+      "page": 1,
+      "estimatedHeight": 665.3,
+      "available": 746.8897637795277
+    },
+    {
+      "page": 2,
+      "estimatedHeight": 694.9,
+      "available": 746.8897637795277
+    },
+    {
+      "page": 3,
+      "estimatedHeight": 666.6,
+      "available": 746.8897637795277
+    },
+    {
+      "page": 4,
+      "estimatedHeight": 665.3,
+      "available": 746.8897637795277
+    },
+    {
+      "page": 5,
+      "estimatedHeight": 696.2,
+      "available": 746.8897637795277
+    },
+    {
+      "page": 6,
+      "estimatedHeight": 723.2,
+      "available": 746.8897637795277
+    }
+  ]
+}

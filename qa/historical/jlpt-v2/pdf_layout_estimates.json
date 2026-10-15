@@ -1,0 +1,38 @@
+[
+  {
+    "file": "JLPT_START_HERE.pdf",
+    "page": 1,
+    "estimated_height": 710.3,
+    "available": 745.9
+  },
+  {
+    "file": "JLPT_START_HERE.pdf",
+    "page": 2,
+    "estimated_height": 599.0,
+    "available": 745.9
+  },
+  {
+    "file": "JLPT_DIAGNOSTIC_GUIDE.pdf",
+    "page": 1,
+    "estimated_height": 663.8,
+    "available": 745.9
+  },
+  {
+    "file": "JLPT_DIAGNOSTIC_GUIDE.pdf",
+    "page": 2,
+    "estimated_height": 608.1,
+    "available": 745.9
+  },
+  {
+    "file": "JLPT_DIAGNOSTIC_GUIDE.pdf",
+    "page": 3,
+    "estimated_height": 579.9,
+    "available": 745.9
+  },
+  {
+    "file": "JLPT_DIAGNOSTIC_GUIDE.pdf",
+    "page": 4,
+    "estimated_height": 704.4,
+    "available": 745.9
+  }
+]

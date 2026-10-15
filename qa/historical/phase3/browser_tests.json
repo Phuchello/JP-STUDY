@@ -1,0 +1,172 @@
+{
+  "browser": "155.0.8059.40",
+  "surface": "Headless Chrome Windows; local file; simulated viewports, not physical iPad",
+  "tests": [
+    {
+      "name": "Local file opens Vietnamese home",
+      "ok": true
+    },
+    {
+      "name": "Fatigue required",
+      "ok": true
+    },
+    {
+      "name": "Exhausted first session rests",
+      "ok": true
+    },
+    {
+      "name": "Test no hints",
+      "ok": true
+    },
+    {
+      "name": "New test begins unread",
+      "ok": true
+    },
+    {
+      "name": "Keyboard answer selected",
+      "ok": true
+    },
+    {
+      "name": "Answer survives reload",
+      "ok": true
+    },
+    {
+      "name": "Reload recorded interruption",
+      "ok": true
+    },
+    {
+      "name": "Partial result not inflated",
+      "ok": true
+    },
+    {
+      "name": "Clipboard or manual fallback",
+      "ok": true
+    },
+    {
+      "name": "JSON export contains real preserved choices",
+      "ok": true
+    },
+    {
+      "name": "JSON import succeeds no duplicate",
+      "ok": true
+    },
+    {
+      "name": "QUICK immediate-feedback control",
+      "ok": true
+    },
+    {
+      "name": "Hint content present",
+      "ok": true
+    },
+    {
+      "name": "Locked answer after feedback",
+      "ok": true
+    },
+    {
+      "name": "Targeted feedback shown",
+      "ok": true
+    },
+    {
+      "name": "Relevant pattern view",
+      "ok": true
+    },
+    {
+      "name": "Three contrast exercises",
+      "ok": true
+    },
+    {
+      "name": "Search filters patterns",
+      "ok": true
+    },
+    {
+      "name": "Key exposure stored",
+      "ok": true
+    },
+    {
+      "name": "Role has partner turns",
+      "ok": true
+    },
+    {
+      "name": "Speaking stored separately",
+      "ok": true
+    },
+    {
+      "name": "No horizontal overflow 1280",
+      "ok": true
+    },
+    {
+      "name": "Touch target height 1280",
+      "ok": true
+    },
+    {
+      "name": "Pattern no overflow 1280",
+      "ok": true
+    },
+    {
+      "name": "No horizontal overflow 768",
+      "ok": true
+    },
+    {
+      "name": "Touch target height 768",
+      "ok": true
+    },
+    {
+      "name": "Pattern no overflow 768",
+      "ok": true
+    },
+    {
+      "name": "No horizontal overflow 1024",
+      "ok": true
+    },
+    {
+      "name": "Touch target height 1024",
+      "ok": true
+    },
+    {
+      "name": "Pattern no overflow 1024",
+      "ok": true
+    },
+    {
+      "name": "No horizontal overflow 390",
+      "ok": true
+    },
+    {
+      "name": "Touch target height 390",
+      "ok": true
+    },
+    {
+      "name": "Pattern no overflow 390",
+      "ok": true
+    },
+    {
+      "name": "Actual voice probe (not acoustic audit)",
+      "ok": true,
+      "extra": {
+        "supported": true,
+        "voices": [
+          {
+            "name": "Microsoft David - English (United States)",
+            "lang": "en-US",
+            "localService": true
+          },
+          {
+            "name": "Microsoft Mark - English (United States)",
+            "lang": "en-US",
+            "localService": true
+          },
+          {
+            "name": "Microsoft Zira - English (United States)",
+            "lang": "en-US",
+            "localService": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "No JS errors",
+      "ok": true,
+      "extra": []
+    }
+  ],
+  "errors": []
+}

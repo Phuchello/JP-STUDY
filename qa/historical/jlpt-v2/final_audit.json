@@ -1,0 +1,33 @@
+{
+  "original_hashes_unchanged": 3,
+  "original_formulas_preserved": 68,
+  "flow_tests": 60,
+  "flow_tests_passed": true,
+  "pdfs": {
+    "JLPT_START_HERE.pdf": {
+      "pages": 2,
+      "links": 7,
+      "body_bottom_points": [
+        733.1,
+        633.8
+      ]
+    },
+    "JLPT_DIAGNOSTIC_GUIDE.pdf": {
+      "pages": 4,
+      "links": 24,
+      "body_bottom_points": [
+        692.6,
+        630.9,
+        614.7,
+        733.2
+      ]
+    }
+  },
+  "native_hyperlinks": 79,
+  "internal_links": 13,
+  "validation_rules": 20,
+  "formula_cells": 692,
+  "questions": 66,
+  "diagnostic_blocks": 11,
+  "source_entries": 21
+}

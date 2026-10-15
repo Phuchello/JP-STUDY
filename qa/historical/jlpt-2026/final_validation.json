@@ -1,0 +1,55 @@
+{
+  "pdf_pages": 10,
+  "prompts": 7,
+  "source_entries": 20,
+  "pdf_links": 67,
+  "unique_pdf_links": 29,
+  "tracker_checks": 12,
+  "page_bounds": [
+    {
+      "page": 1,
+      "body_bottom": 601.9
+    },
+    {
+      "page": 2,
+      "body_bottom": 687.3
+    },
+    {
+      "page": 3,
+      "body_bottom": 717.8
+    },
+    {
+      "page": 4,
+      "body_bottom": 787.8
+    },
+    {
+      "page": 5,
+      "body_bottom": 727.8
+    },
+    {
+      "page": 6,
+      "body_bottom": 747.5
+    },
+    {
+      "page": 7,
+      "body_bottom": 728.8
+    },
+    {
+      "page": 8,
+      "body_bottom": 766.1
+    },
+    {
+      "page": 9,
+      "body_bottom": 661.8
+    },
+    {
+      "page": 10,
+      "body_bottom": 771.0
+    }
+  ],
+  "files": {
+    "Ke_hoach_JLPT_tam_thoi.md": 42936,
+    "Ke_hoach_JLPT_tam_thoi.pdf": 153304,
+    "Theo_doi_tien_bo_JLPT.xlsx": 12363
+  }
+}

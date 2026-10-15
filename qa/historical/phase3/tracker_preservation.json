@@ -1,0 +1,13 @@
+{
+  "all_original_worksheet_parts_byte_identical": true,
+  "parts": [
+    "xl/worksheets/sheet1.xml",
+    "xl/worksheets/sheet2.xml",
+    "xl/worksheets/sheet3.xml",
+    "xl/worksheets/sheet4.xml",
+    "xl/worksheets/sheet5.xml",
+    "xl/worksheets/_rels/sheet4.xml.rels",
+    "xl/worksheets/_rels/sheet5.xml.rels"
+  ],
+  "method": "ArtifactTool authored new sheet; OOXML merge preserves original sheet XML, relations, formulas, hyperlinks and validation."
+}

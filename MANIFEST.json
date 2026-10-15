@@ -1,0 +1,986 @@
+{
+  "snapshotDate": "2026-10-15",
+  "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
+  "fileCountExcludingManifest": 163,
+  "totalBytesExcludingManifest": 3364710,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 288,
+      "sha256": "e1e83a8a98f4ac7fd16c757a6fb9080167751df1189ab66f39f33f91454d87f2",
+      "status": "VERIFIED"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 229,
+      "sha256": "940224cd4fbe3e36afddfaf2f62b7980c56200f16f6eea9d6a08ca21fc463829",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 1789,
+      "sha256": "cb0dea64dfd2d26caf8e533dee231c64fbb51b60aadf6fb2922fb453811cc904",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "archive/phase1/Ke_hoach_JLPT_tam_thoi.public.md",
+      "bytes": 42860,
+      "sha256": "a21f98400cfc1f04a2b47c45c815759544b86ac9744d39b8e41a3bef64ac319b",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "archive/phase1/Theo_doi_tien_bo_JLPT.xlsx",
+      "bytes": 12363,
+      "sha256": "5efe4e5baef13229ce4be2ae5f0eb117b0de90daf27757908348d3856b023216",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "archive/phase2/GEMINI_MASTER_TUTOR.md",
+      "bytes": 7684,
+      "sha256": "2014cf58755e02c7596dbbcb895449268b3f98f41249af0fc1e3add1851877b4",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "archive/phase2/JLPT_DIAGNOSTIC_GUIDE.pdf",
+      "bytes": 116564,
+      "sha256": "fd03282d92550bb7b0d36ffea86f05a35626f3f9b381383f1fd4c9f6e52d47ee",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "archive/phase2/JLPT_PROGRESS_TRACKER_v2.xlsx",
+      "bytes": 44748,
+      "sha256": "2af9af925526ab938ffb3edab61d71ba6165beea04aede0da90dfd5006885252",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "archive/phase2/JLPT_RESEARCH_PLAN_v2.md",
+      "bytes": 14733,
+      "sha256": "d70d5c57f5c3e836d62a9865fd9520c27932269c9a49b026affd9dbee659d7bb",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "archive/phase2/JLPT_START_HERE.pdf",
+      "bytes": 104236,
+      "sha256": "28900e17196c742451f3e775361fd9fd6ae63b0ef1ee0fbd1b308ce9c77982c3",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "archive/phase2/QA_REPORT.md",
+      "bytes": 5504,
+      "sha256": "33caec522dde47ba40ddfef91b6f628626b7cc70b30f7f6f8cfbfdeafeaaf5f3",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "archive/phase2.1/GEMINI_MASTER_TUTOR_FINAL.md",
+      "bytes": 7696,
+      "sha256": "10887e090147bf164b2455f58eb60886c99351697e2bba73c41941b10ae23285",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "archive/phase2.1/JLPT_PROGRESS_TRACKER_FINAL.xlsx",
+      "bytes": 70767,
+      "sha256": "3f7477b2cd24e5c8918a2bdd494a5582151a9052552c9c86ee7ec2dc91796199",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "archive/phase2.1/JLPT_STUDY_SYSTEM_FINAL.public.md",
+      "bytes": 39691,
+      "sha256": "23db51bad703de71bb67299f8de8c39b835c8347a288111774a2135897b0f6d4",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "archive/phase2.1/QA_FINAL.md",
+      "bytes": 12071,
+      "sha256": "aeb600bcfe346dc5bdb77cae998407e567c18e6a9054eeb610ae8eeec1659c50",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "archive/README.md",
+      "bytes": 1448,
+      "sha256": "d994dba87370c213360f25d2f15febe98ad1cc297aa5f4ca99596a1c1b9e3c5f",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-2026/build_report.py",
+      "bytes": 8595,
+      "sha256": "ad2da768ba8ce8905d247acc15fc19a7abd568186c8011508858140111254f6f",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-2026/build_tracker.mjs",
+      "bytes": 9964,
+      "sha256": "693d6587069cf5bc41d112fa1153cd23befd7d23a3ea43e393c99483dfda9da8",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-2026/check_outputs.py",
+      "bytes": 2825,
+      "sha256": "f32802138d0933ea8cccb21979c727ebdc50975501dfe0db108fec87d6981854",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-phase3/apply_reaudit_fixes.py",
+      "bytes": 9739,
+      "sha256": "971e653600c66d0107e908b053d9bf9e7cf7fc0c58d4a4ce1d4de3512e6087bb",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-phase3/audit_release.py",
+      "bytes": 14902,
+      "sha256": "1b49a71047c5927490268f9e7f6e760bb8c9c9dce48661acbd7a2a9438cd9fdd",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-phase3/build_bank.py",
+      "bytes": 62875,
+      "sha256": "288d8ac52eedd9a6a9634e5800ff0107fb038d2818ee91721f695ee2a0c79297",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-phase3/build_patterns.py",
+      "bytes": 34159,
+      "sha256": "70a814ad4a7cf8dc38304e670b264a7e7a44a1939a2057a67daeb6e583760b5b",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-phase3/build_pdfs.py",
+      "bytes": 14029,
+      "sha256": "7b591e1123a3fe10ea94aa43f3ef9fd72b42641afce1bd36e245d98f462607b7",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-phase3/build_tracker.mjs",
+      "bytes": 4629,
+      "sha256": "58df4ae47758a8e4116f898e961ba4d53f4f34e996a7e341be00029470912831",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-phase3/debug_csv.py",
+      "bytes": 444,
+      "sha256": "0c9180a23b52212b28a07cf779a3d674ca48b46e3021235555f65854c618608d",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-phase3/final_content_fixes.py",
+      "bytes": 3515,
+      "sha256": "fe24bda89f785840c68444f161ef9631075f1d4b5430c52cec54365bb3e7befa",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-phase3/final_usability.py",
+      "bytes": 3886,
+      "sha256": "54966ef6c88d6a14d768e6c391e9a8b759d542bd97baaf850cb3d0a62da5816d",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-phase3/finalize_app.py",
+      "bytes": 2558,
+      "sha256": "bfc6471fa3167ad410de93c70ffd843e7a8efe0491abfc33f6cde2dd73d60380",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-phase3/finish_patches.py",
+      "bytes": 1496,
+      "sha256": "8317da5e50120c166f124a4c377ee5d80734dca67b35c42cd5dee1d3b4634c56",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-phase3/fix_audio_fixture.py",
+      "bytes": 1182,
+      "sha256": "ddd32dbd86a653f75dd28790971274052c62e64010efd421df5e289aaff6f287",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-phase3/fix_csv_locale.py",
+      "bytes": 1204,
+      "sha256": "89dda036ef29b91dcc90051d77c97056c6030c7f94ed370de9f4c0303428ee30",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-phase3/fix_debug_csv.py",
+      "bytes": 260,
+      "sha256": "e35cb0c3f92d4dec4231008ee9ddbef36ae9640abbbad9634468211b8523be51",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-phase3/fix_edge_test.py",
+      "bytes": 234,
+      "sha256": "4f9b67440b837ca61e9d35c82920f0e3a01d29175d6f741d5934b8017108de53",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-phase3/fix_ui_tests.py",
+      "bytes": 406,
+      "sha256": "35f39c4e4591ded7c5180e0b85f3d00a89133b80e4a9b9b5ff7c77d123194e9f",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-phase3/harden_engine.py",
+      "bytes": 5692,
+      "sha256": "10b85fd28d7dda8f175fcaac1de16617559d1b1ea16d35aa36e5ecf3925c4c63",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-phase3/init_project.py",
+      "bytes": 1278,
+      "sha256": "4b955a3e14aef133ea4a920ea301ab8340a8390d4b04c2eb5a52cd7d88ef3bd6",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-phase3/last_ui_hardening.py",
+      "bytes": 1244,
+      "sha256": "f226e12f8fa518b758fd62345637838c75a208415ccd8f620eda7624c7a561e4",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-phase3/merge_tracker.py",
+      "bytes": 3793,
+      "sha256": "54b0ead9e8a0d9022ea738419f9c4edb74292ffa872daebdc46939c24ddfd6fa",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-phase3/package_release.py",
+      "bytes": 3071,
+      "sha256": "ca0398b94705a76490ee1655b555b1a97ead21a498356acee245d0222bc17252",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-phase3/polish_qa.py",
+      "bytes": 1682,
+      "sha256": "023d5a65d38b7026a56d844e34974a885fcc2d84bfae3c1534ad9d94a451bd68",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-phase3/prepare_native_qa.py",
+      "bytes": 2117,
+      "sha256": "693740604e22745c364895ad3ade6fd0f327ca6a8defe088aea7ee276ff4a1ed",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-phase3/quality_finish.py",
+      "bytes": 8035,
+      "sha256": "e49315ac25a2aa0308200ffe0e9387d35cc0eb6bdf1a25c2048b5baca1b8e6c3",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-phase3/refine_selection.py",
+      "bytes": 3565,
+      "sha256": "d91c1b4eff1035a2eb488dbdc6c994f3e36e24dc9b7df9e15602fa0ceba5fc98",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-phase3/release_bank.py",
+      "bytes": 7881,
+      "sha256": "8220614d4ff39da8c912f28f90f6d99e3f278a185add2a6f1dd5ace160ce8f58",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-phase3/render_qa.py",
+      "bytes": 1534,
+      "sha256": "063eb2ab1e59ff503914fb1fec1d66253ec7f8aff7491d45ab783eb23a71d2e6",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-phase3/repair_csv_and_layout.py",
+      "bytes": 483,
+      "sha256": "063375b53138a6f90e8a7d159b36d58b11ab8deab54cc3d72bf08d359fec70de",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-phase3/repair_native_fixture.py",
+      "bytes": 627,
+      "sha256": "aeedf1cd3d4a91314462e22aaec325507533b9b6d145e80f4bab3c858a89626b",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-phase3/short007_detail.py",
+      "bytes": 958,
+      "sha256": "412c0875ab02663f49a800455049dbfa050dee815e86250de59d1a044171668c",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-phase3/stamp_release.py",
+      "bytes": 6004,
+      "sha256": "f8d129998c8def20d8493f21b0b4e75221e321832f5069e8607e913bcfc6e370",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-phase3/sync_final_fields.py",
+      "bytes": 2165,
+      "sha256": "ba5b9cb381e940acc0883007e3a99ebf769bff190d06cd93bc411a4a62cee9f2",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-phase3/verify_metadata.py",
+      "bytes": 1807,
+      "sha256": "1f96a467e15f25c8c8bbc9175261fbbadea2642d950e655e33dfa5788bd038ac",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-v2/add_native_hyperlinks.py",
+      "bytes": 3548,
+      "sha256": "685c7d06ff69b75af50986fc9741830af3ed70dbb74dca14b282a99484f5f39d",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-v2/audit_outputs.py",
+      "bytes": 5662,
+      "sha256": "da734667a3220792f6993712717401e59734722cf0fcae3031c15ec049e23bf3",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-v2/build_pdfs_v2.py",
+      "bytes": 5112,
+      "sha256": "2bad1fe90e473ec79e5b1605bf1da744e252b72560e2e7f7a6f82dfba25e95f1",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-v2/build_tracker_v2.mjs",
+      "bytes": 27140,
+      "sha256": "35c501c16a75d32fa7473a87e8ebad5fd1e325b7eb5f8455be313ba78aabb028",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-v2/check_hyperlink_api.mjs",
+      "bytes": 201,
+      "sha256": "6e41c26f1786c43f1ed32fc7db0ed91bc8fcb407c37d3487fd903d1520c00434",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-v2/check_urls.py",
+      "bytes": 3629,
+      "sha256": "a4bfc2be4c1b0bdce76ea353dff290810b55680e3616ca4e43f832f42d151085",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-v2/discover_links.py",
+      "bytes": 1441,
+      "sha256": "ecf53374b48894838ee9fcd4ba94008bdc13921e8093e8c0be03f08d86f34774",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-v2/inspect_baseline.mjs",
+      "bytes": 1206,
+      "sha256": "3ec7973236570344537e2193205bd8c0a2cb1e2e9c1ba28dc2ca11157e1c82a8",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-v2/make_manifest.py",
+      "bytes": 2376,
+      "sha256": "13541dbd7aed4b687ef886fde9cb81b7ea626405720ce12bbab015f69000749c",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-v2/reopen_tracker.mjs",
+      "bytes": 1019,
+      "sha256": "27460ab11343885b31ae6209a4ef8f3171a7a6ad92eb6642ae3578d6a66970bd",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-v3/audit_final.py",
+      "bytes": 6983,
+      "sha256": "2aa09202f7f60595436d62e6d13ad6372a9949392f7c920b61b81d498de00970",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-v3/build_handbook.py",
+      "bytes": 4717,
+      "sha256": "a48c04b37ce493fcd827ba94845ce83f84d926bf04e4ec8e63307c0ae2975bc8",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-v3/build_tracker_final.mjs",
+      "bytes": 19314,
+      "sha256": "1d614c133eb2d1db8670fa5337382a40d90bd7b5c0b234f72794d2aed2db8e83",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-v3/inspect_inputs.py",
+      "bytes": 2142,
+      "sha256": "d73d646efba7a030f0337c546059204c6bd2c52752d2d5d99965fc1d8bc61c86",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-v3/isolate_native.py",
+      "bytes": 1224,
+      "sha256": "49845118537070dd432a6baadf4b5d75baa6a8e12af544cf023a4e7a9e509c61",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-v3/patch_native.py",
+      "bytes": 4585,
+      "sha256": "6cba20738b03a124d0b8868bfe9aaa5fec2adfe1c92ffc98942ed5f389f517f1",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-v3/prepare_tutor.py",
+      "bytes": 2660,
+      "sha256": "7705fc491daf192212c72568a1e28e991cd068164edf8134e4c343fb058c4746",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-v3/probe_excel.ps1",
+      "bytes": 1183,
+      "sha256": "3c1b50d9ee68cc808a5d104695ffdb88d75593c07397c1dceb1f64e5d3c041c7",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-v3/reopen_final.mjs",
+      "bytes": 1226,
+      "sha256": "6512aab35ec395b89421885a82716935ae4cd58cf7256130ce7b8be66daa38cf",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-v3/verify_official_keys.py",
+      "bytes": 2593,
+      "sha256": "89d191494a27af732ec71308d3d2a4a4c538801fa185b04e94decc948845345a",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/jlpt-v3/write_final_qa.py",
+      "bytes": 12577,
+      "sha256": "52a1bff50ed5a4fb408ef21ad624f09ecda5f2bc211975059cf1314bee238ceb",
+      "status": "DRAFT"
+    },
+    {
+      "path": "archive/source-scripts/README.md",
+      "bytes": 489,
+      "sha256": "7b8fd24b979608294085bf39df9bfd6ce37ceaaf87fe43a553caaabdd0aff6fd",
+      "status": "DRAFT"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 894,
+      "sha256": "663335e7da686c2786bf6a8e2049537b9cb989e89c61ecf120c555a4fc637c17",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "deliverables/phase3/ANSWER_KEY_AND_EXPLANATIONS/content_final_reaudit.json",
+      "bytes": 28555,
+      "sha256": "f9b8d4bddc9f0e82f20b0c9f03df357db34345a335363e367a6a0bc0be4652ed",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "deliverables/phase3/ANSWER_KEY_AND_EXPLANATIONS/content_final_reaudit.md",
+      "bytes": 6177,
+      "sha256": "254a27c2ebf41e2ad8acd19bc1ffa3da047a4db0b8c7f0cd029d062eadea2199",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "deliverables/phase3/ANSWER_KEY_AND_EXPLANATIONS/index.html",
+      "bytes": 347,
+      "sha256": "685d1d3b4ee99137d6f9c887acbc0d27a94865c7d28edc25274c35edc2b606ff",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "deliverables/phase3/ANSWER_KEY_AND_EXPLANATIONS/validated_keys.json",
+      "bytes": 63338,
+      "sha256": "4e18e57537d3124410432922c5e2a9bf0bfd5b3d76dce3654367cf76111c610d",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "deliverables/phase3/GEMINI_ERROR_TUTOR.md",
+      "bytes": 3169,
+      "sha256": "489cb1cf573615ffc54920cc16649c1a3b106601b795a9dd89526f9192d3fef1",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "deliverables/phase3/JAPANESE_PATTERN_LIBRARY/patterns.json",
+      "bytes": 98380,
+      "sha256": "d041f271066e59b3ffc458e0dae7f1d1ba4b93296a6b6d2fec4909fe9ea2e9b4",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "deliverables/phase3/JAPANESE_PATTERN_LIBRARY/README.md",
+      "bytes": 939,
+      "sha256": "09a95b3178aaae4a10085eb6d0e24ef13ba8d525f59f921efd690c62f4626f0d",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "deliverables/phase3/JAPANESE_WRITING_SPEAKING_TEMPLATES.pdf",
+      "bytes": 151671,
+      "sha256": "f3814e8e02a49c8028426c32240699ba90dfd56e295b5df2baf751a9ca80ff23",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "deliverables/phase3/JLPT_PRACTICE/app.js",
+      "bytes": 31374,
+      "sha256": "0e92347b842ad9ceacac4f1d01daa58ae20059c41bb9d357ba5e359bbe4ee052",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "deliverables/phase3/JLPT_PRACTICE/bank.js",
+      "bytes": 237069,
+      "sha256": "01014dd31e58d3e5b54ad51962fa49ff0b04415fd47b41abc84770bb699ea233",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "deliverables/phase3/JLPT_PRACTICE/DATA_CONTRACT.md",
+      "bytes": 6567,
+      "sha256": "230c8882c8b5f8668aed3419348734817edb59b41e8c19fd82e703ea0682e9ce",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "deliverables/phase3/JLPT_PRACTICE/engine.js",
+      "bytes": 26660,
+      "sha256": "4870876ccd7275c27a392fa244f22b0ae9727a66e1a794d4ed4dbe825ee3bfaa",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "deliverables/phase3/JLPT_PRACTICE/index.html",
+      "bytes": 380559,
+      "sha256": "e76c9ce228ee0478e9900dc18b57a8e02e5b8ea843f341b8f911fb8e9a3aaf1e",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "deliverables/phase3/JLPT_PRACTICE/patterns.js",
+      "bytes": 81552,
+      "sha256": "c8135ad280244be43c386fafdff97d12694c77bbf38735514e9601cf89420a98",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "deliverables/phase3/JLPT_PRACTICE/question.schema.json",
+      "bytes": 1626,
+      "sha256": "b71a66f21fbef3874c483b0a6660e10bcbb0e60ad42a9d517c916f14dfd3941e",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "deliverables/phase3/JLPT_PRACTICE/question_bank.json",
+      "bytes": 303534,
+      "sha256": "41643716454835d1a8f78a8f7626ebe74ac2dca9f68b55ef3194cacbd3c2e3f0",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "deliverables/phase3/JLPT_PRACTICE/styles.css",
+      "bytes": 3147,
+      "sha256": "4cf9f4569f7f74149e95260c1a721bd24f64cd66d8faf4d1e3f27a8fb70189aa",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "deliverables/phase3/JLPT_PROGRESS_TRACKER.xlsx",
+      "bytes": 136165,
+      "sha256": "ec99c8d3d277cc743450db0aee170319f8cf199542b6b6e53f729ce7ff0756d6",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "deliverables/phase3/LEARNING_METHODS.pdf",
+      "bytes": 108366,
+      "sha256": "5b77b4d3c66fb391fa2d17520d91078169772f1a49af9fef4d6ac052a35be6fd",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "deliverables/phase3/LISTENING_READING_CHEATSHEETS.pdf",
+      "bytes": 135991,
+      "sha256": "4c5276aa50963e6add2c7026bb7564327779eac7fc2fb32d09cdc68921217d03",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "deliverables/phase3/QA_REPORT.md",
+      "bytes": 7898,
+      "sha256": "11a2c7f0001dc1cf348561cefb5c3159f8830f299cc547a6c6f38668d23347cd",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "deliverables/phase3/README.md",
+      "bytes": 3786,
+      "sha256": "053b2fadc634214970c3003d18c8668e00e3312cfec897c1067805a2bb41e08f",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "deliverables/phase3/RESEARCH_EVIDENCE_LEDGER.md",
+      "bytes": 31397,
+      "sha256": "d3d9a2ac1aaf324f6d347e07a2e55db8f6182203101dcc07d44b30c5dfda1050",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "deliverables/phase3/START_HERE.pdf",
+      "bytes": 90480,
+      "sha256": "11005788a9a2136322fcda18b23bcf07a04b946fdc4ab77b0451c47f784a8a6d",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "diagnostic/README.md",
+      "bytes": 1075,
+      "sha256": "0ed01dda3ffe3fa4fd7964f91bf3315ac00eec67d3fa72eeeadd5979de7c4fb7",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "FILE_INDEX.md",
+      "bytes": 16893,
+      "sha256": "248664ce9bd1d7afadf80ca1e5393c2a031ff8bb6bc2dd64f6442f4d3bcc84c9",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "gemini-prompts/README.md",
+      "bytes": 960,
+      "sha256": "b064ede73433c4142245cfc19d02bf4c76eba5ad0b69de5b53a6c82154edb782",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "grammar-patterns/README.md",
+      "bytes": 814,
+      "sha256": "9fd89a0f9adaca8a40b81c084ffc932bc50777d4ab79d4dacb2f7cbb3b3eb8e4",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "PROJECT_STATUS.md",
+      "bytes": 3383,
+      "sha256": "13997ec09334a28af6ba5d2018ac48885329275fc07bd9a174e6013a2bffe1f7",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "PUBLICATION_POLICY.md",
+      "bytes": 2580,
+      "sha256": "46a66ff32f9907fb1b29a19abf03d74db1e347d4c855763a42ad95f25612137c",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/current/browser_tests.json",
+      "bytes": 3341,
+      "sha256": "fa0dc99a9e191cd7184f4259a9e910063b46f031e99113f312e872731f864d42",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/current/edge_flow_tests.json",
+      "bytes": 1033,
+      "sha256": "a99470fa28ade56e6cb2039a7b8ad7b5dac4a5a4a059cf5b89bb0f55de746405",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/current/engine_tests.json",
+      "bytes": 26845,
+      "sha256": "b45b01a4958da5e712d08b33e5ac380a48fb6ee5f357147cba4c275890627643",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/current/preview_test.json",
+      "bytes": 88,
+      "sha256": "996182477a75707fa5fc5b62acffa73aa08fe42a3def5efed2cbf8d0d229a18e",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/file_status.json",
+      "bytes": 9524,
+      "sha256": "c41a96ed4d00051b33f972c333db8dfc7db91ff2b68709e21bc657deaaed40a5",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/historical/jlpt-2026/final_validation.json",
+      "bytes": 865,
+      "sha256": "99247a49d791036f4c1436e99970f7bbe14e90f2022e882f216c8c7ba3a47877",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/historical/jlpt-2026/tracker_validation.json",
+      "bytes": 1170,
+      "sha256": "14b5935af4176810c576454feda5355d4ee1ff839423ff05f7a97af6f4718f3d",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/historical/jlpt-v2/final_audit.json",
+      "bytes": 625,
+      "sha256": "389c64c88673a81256bbec96c7f0262894d62ace2c0b8328fba78ebf33bb370d",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/historical/jlpt-v2/pdf_layout_estimates.json",
+      "bytes": 705,
+      "sha256": "4ffe522c9f720e4e5c053cae405219f1834d83bc5b05918579b8c8e54dfe14cb",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/historical/jlpt-v2/url_checks.json",
+      "bytes": 10960,
+      "sha256": "7ed42c60cf5ed6f10061dfa7e79264e351fb69bd1217419b330fab371a839a8c",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/historical/jlpt-v2/v2_tracker_tests.json",
+      "bytes": 7287,
+      "sha256": "0a387f4e278c290c1450a2ad406f566fc66d423e19a8e0a2e9fb29e6c4450f54",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/historical/jlpt-v3/excel_native_tests.json",
+      "bytes": 6602,
+      "sha256": "2b62e1dc5798c9245c4b5383156c346219ad1d04c5cc8c52b35c004f4c75a7bb",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/historical/jlpt-v3/final_audit.json",
+      "bytes": 656,
+      "sha256": "bc2357717cde14bd4365f66c9375277eff0c74f0e314e9f542caded85a9eb811",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/historical/jlpt-v3/key_verification.json",
+      "bytes": 8107,
+      "sha256": "dc84f4867b2b2df7f7e674f85641a8f5c5904a0a58fba082e285a37cbff8c682",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/historical/jlpt-v3/native_features.json",
+      "bytes": 128,
+      "sha256": "ef77e9fb6b5e513a16c7edb9f45be6f6ca41e26f2e742968a7aee1af2074bf53",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/historical/jlpt-v3/tracker_tests.json",
+      "bytes": 12102,
+      "sha256": "8780510c6760136f1097f9d87780cb64c526305f490db4453521454fd714ab04",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/historical/jlpt-v3/verified_keys.json",
+      "bytes": 647,
+      "sha256": "48614b5b69a3c7aea2edf5b9a973741bcd639452077c82fbeaed006bbb0e8127",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/historical/phase3/browser_tests.json",
+      "bytes": 3341,
+      "sha256": "fa0dc99a9e191cd7184f4259a9e910063b46f031e99113f312e872731f864d42",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/historical/phase3/content_audit_blind.json",
+      "bytes": 13027,
+      "sha256": "ffbe1f9ef9acb7fa64c9cce64539a8f0a24e447bfbf8f0ad09d98790e6078ded",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/historical/phase3/content_audit_findings.json",
+      "bytes": 122189,
+      "sha256": "aa0912aa0b3657e0f12f7c30d10184bad3f780ef0c8b7ff19c01a3338832891b",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/historical/phase3/content_audit_report.md",
+      "bytes": 18692,
+      "sha256": "3b2e9209dc1fa7c8916d6ba13def97878f7e0fb9bd216bf274e47127d69ba909",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/historical/phase3/content_reaudit.md",
+      "bytes": 13255,
+      "sha256": "fa60fa6b05034fc3c19dca9c3d47c989e490e7f66eb4f6d4ba6add157f7775b8",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/historical/phase3/content_reaudit_findings.json",
+      "bytes": 29433,
+      "sha256": "3c5967450af97971a1fef09d98860edd0aed91e29551688b19eadc8a1df5dcaf",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/historical/phase3/edge_flow_tests.json",
+      "bytes": 1033,
+      "sha256": "a99470fa28ade56e6cb2039a7b8ad7b5dac4a5a4a059cf5b89bb0f55de746405",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/historical/phase3/engine_tests.json",
+      "bytes": 26845,
+      "sha256": "b45b01a4958da5e712d08b33e5ac380a48fb6ee5f357147cba4c275890627643",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/historical/phase3/excel_native_tests.json",
+      "bytes": 10167,
+      "sha256": "879ad1fc3eaf8fbaf77995dfbff9b429732c4afa2e464de57c8d940f66d242f0",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/historical/phase3/INSTRUCTIONAL_DESIGN.md",
+      "bytes": 5584,
+      "sha256": "8fe64872186cbb3d40fda437d2c17e57458a40e19e9b4ee6693f7f2a1ac44178",
+      "status": "DRAFT"
+    },
+    {
+      "path": "qa/historical/phase3/option_mapping_tests.json",
+      "bytes": 10513,
+      "sha256": "f82997a1c0c5dd501e3ff07391282abb864b0d56e7c081d8dcd6f44400e99490",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/historical/phase3/pdf_layout.json",
+      "bytes": 2038,
+      "sha256": "22ac8bc5b68be0732ac6351fb2bbbfb5383da3279f54973cf4b79b80ed95a6ab",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/historical/phase3/pdf_qa.json",
+      "bytes": 2749,
+      "sha256": "ce3954cae5b69a8efc703de2430bf64211d6feb286a5b0311240abd234e40cdf",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/historical/phase3/preview_test.json",
+      "bytes": 89,
+      "sha256": "1f53f9617e29506dddc008108e88cedd76d904cbd7d58ef38d7f9a401b3b84ad",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/historical/phase3/release_checks.json",
+      "bytes": 2751,
+      "sha256": "924e6e88f0e35a6f6b4443a423c9cdc610aa48d0f33f604c3dfee6bb9d17310b",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/historical/phase3/release_stamp.json",
+      "bytes": 395,
+      "sha256": "b28fb9e0517e18fd90ef4d20c7c69fd412a3afec834113b746d0d1b9c1e9e5c9",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/historical/phase3/source_hashes.json",
+      "bytes": 1413,
+      "sha256": "2252d1a66e4c6771125ef5b9e46f995ae3adc90b268b999788503e8a42df32ce",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/historical/phase3/tracker_preservation.json",
+      "bytes": 459,
+      "sha256": "7807410084c7ce0c23ab0db8acbeb7683c083ffec2d59861ef7aab906b682f80",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/historical/phase3/tracker_tests.json",
+      "bytes": 1365,
+      "sha256": "de9a7acdfbe6764ac76201795eecb87c69ee289b4715cf7df69a66b47f4e0132",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/PUBLICATION_QA.md",
+      "bytes": 3653,
+      "sha256": "2e216cb242f0d07128783ee8f02663b9e4ac867b0c157fc67de57941ae23fe1e",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/README.md",
+      "bytes": 1130,
+      "sha256": "1dccb025de874abab260b811879c31764cd69ae2208178bd2a6c8687e220b78a",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/source_inventory.json",
+      "bytes": 124988,
+      "sha256": "d320435f5956678406985f6a85efde2b9cb381fdfcb157ad3005a697c4508209",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "question-bank/answer-keys/README.md",
+      "bytes": 1083,
+      "sha256": "7e0cb0764c604b0cabe1f2d4a7fb8391e7337d31b48ed146ce6b0b6d5814ec80",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "question-bank/n4/README.md",
+      "bytes": 859,
+      "sha256": "0c9d60a3558c2bf827a9f91b6c0f3e2f99dfcdbb511ff92fa16253c38110f253",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "question-bank/schemas/README.md",
+      "bytes": 710,
+      "sha256": "2aa147b0f6f8223c8e24c7f85fd1c22c6ef91259e1f72a6754d3c189c59f3564",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4707,
+      "sha256": "ae6b6a820107733425e67cda99be18f70573ef7a7f71e7d2104b02dd91a7ca1f",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "research/bibliography_metadata.json",
+      "bytes": 11701,
+      "sha256": "3cbde6ed8f56ff50621920bb39e055ccb340bc558ca2ecda2a9fa23807ab06db",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "research/methods.json",
+      "bytes": 7501,
+      "sha256": "4b1c02c64a7efd5d689635433c5955f8e4e82268b2f7a7012b7407b15d17a280",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "research/README.md",
+      "bytes": 1332,
+      "sha256": "6a8f0da0d2749f92f719998e320b258e325453233347d76a4e174512f4dcdacf",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "research/search_coverage.json",
+      "bytes": 16197,
+      "sha256": "99e6983b590e8e125d58d8bd63a648941cf7ae9ce63310b1371911a2da12cf9d",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "scripts/build_start_here.py",
+      "bytes": 8480,
+      "sha256": "7307680c60be6cd233c5b098ed315588b3c19bcc297c93e99a965b93f3ee970a",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "scripts/README.md",
+      "bytes": 1458,
+      "sha256": "e1bf8a40b138ba5049409827cd1bdd96089c025333eef9d220959a5d7689f992",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "scripts/tests/test_browser.cjs",
+      "bytes": 6429,
+      "sha256": "d917fa5baebe5650c850835a8f3ff40c4c4e0f872c3a92de656544db273558dc",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "scripts/tests/test_edge_flows.cjs",
+      "bytes": 4743,
+      "sha256": "fecb15ab0f5a18672380536db68d9dda68a6c9c8e8bbead13ced8e6ded6f9ac9",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "scripts/tests/test_engine.cjs",
+      "bytes": 9664,
+      "sha256": "c8bdf19389574e04dc2ea890eb696dd69fd99cfa0c69ccc944cba1e2d3c330c4",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "scripts/tests/test_preview.cjs",
+      "bytes": 961,
+      "sha256": "69b875c323316a4abf6b211ddf8fb0a2a93a11b1df77cea0b2c25624aa1fc3f1",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "scripts/update_manifest.py",
+      "bytes": 2378,
+      "sha256": "abacaa98c9c79e7102d1b837a709b96492e1265ea53ca2649d358d96086ec5bd",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "scripts/validate_release.py",
+      "bytes": 7276,
+      "sha256": "a804688a59bf5e9018a5513deac62114642497c11d5b7e131967e17029cc78cc",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "speaking/README.md",
+      "bytes": 854,
+      "sha256": "4d9c86237ad8f0002d44676b2f344c4dd24a4f6854bce11b9c27a2a794245723",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "study-plans/START_TODAY.md",
+      "bytes": 3402,
+      "sha256": "0b15ff4f53fab5f971ae5e368887622a8021df44857801f732f5376c97b41e45",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "tracking/README.md",
+      "bytes": 1299,
+      "sha256": "49fe028406072d7d89811c0e30fc3eaf816058beee794d061a6854707a5838d7",
+      "status": "VERIFIED"
+    }
+  ]
+}

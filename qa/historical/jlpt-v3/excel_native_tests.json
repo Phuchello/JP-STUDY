@@ -1,0 +1,290 @@
+{
+  "status": "passed",
+  "engine": "Microsoft Excel desktop COM",
+  "tests": [
+    {
+      "name": "Opening sheet is quick mode",
+      "actual": "Làm nhanh",
+      "expected": "Làm nhanh",
+      "passed": true
+    },
+    {
+      "name": "Blank block",
+      "actual": "Chưa làm",
+      "expected": "Chưa làm",
+      "passed": true
+    },
+    {
+      "name": "Blank D7",
+      "actual": "Chưa đủ dữ liệu",
+      "expected": "Chưa đủ dữ liệu",
+      "passed": true
+    },
+    {
+      "name": "No fabricated score",
+      "actual": "",
+      "expected": "",
+      "passed": true
+    },
+    {
+      "name": "Answer-key columns hidden",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "Answer validation is whole number",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "name": "Internal quick link exists",
+      "actual": "'Làm nhanh'!A10",
+      "expected": "'Làm nhanh'!A10",
+      "passed": true
+    },
+    {
+      "name": "Official question link",
+      "actual": "https://www.jlpt.jp/samples/sample2018/pdf/N4G.pdf",
+      "expected": "https://www.jlpt.jp/samples/sample2018/pdf/N4G.pdf",
+      "passed": true
+    },
+    {
+      "name": "No feedback before submit",
+      "actual": "Chọn Xong để chấm",
+      "expected": "Chọn Xong để chấm",
+      "passed": true
+    },
+    {
+      "name": "Score before metadata",
+      "actual": "6/6 đúng; 0 vẫn tính bỏ câu",
+      "expected": "6/6 đúng; 0 vẫn tính bỏ câu",
+      "passed": true
+    },
+    {
+      "name": "Missing date visible",
+      "actual": "Thiếu/sai ngày",
+      "expected": "Thiếu/sai ngày",
+      "passed": true
+    },
+    {
+      "name": "First block complete",
+      "actual": "Đã chấm",
+      "expected": "Đã chấm",
+      "passed": true
+    },
+    {
+      "name": "Partial grammar aggregate unavailable",
+      "actual": "",
+      "expected": "",
+      "passed": true
+    },
+    {
+      "name": "Omission counted wrong",
+      "actual": "5/6 đúng; 0 vẫn tính bỏ câu",
+      "expected": "5/6 đúng; 0 vẫn tính bỏ câu",
+      "passed": true
+    },
+    {
+      "name": "Blank is unfinished",
+      "actual": "Còn 1 câu",
+      "expected": "Còn 1 câu",
+      "passed": true
+    },
+    {
+      "name": "Invalid pasted input",
+      "actual": "Sửa đáp án",
+      "expected": "Sửa đáp án",
+      "passed": true
+    },
+    {
+      "name": "N4-G1 official key scores fully",
+      "actual": 6.0,
+      "expected": 6,
+      "passed": true
+    },
+    {
+      "name": "N4-G1 complete",
+      "actual": "Đã chấm",
+      "expected": "Đã chấm",
+      "passed": true
+    },
+    {
+      "name": "N4-G2 official key scores fully",
+      "actual": 7.0,
+      "expected": 7,
+      "passed": true
+    },
+    {
+      "name": "N4-G2 complete",
+      "actual": "Đã chấm",
+      "expected": "Đã chấm",
+      "passed": true
+    },
+    {
+      "name": "N4-V official key scores fully",
+      "actual": 10.0,
+      "expected": 10,
+      "passed": true
+    },
+    {
+      "name": "N4-V complete",
+      "actual": "Đã chấm",
+      "expected": "Đã chấm",
+      "passed": true
+    },
+    {
+      "name": "N4-R official key scores fully",
+      "actual": 5.0,
+      "expected": 5,
+      "passed": true
+    },
+    {
+      "name": "N4-R complete",
+      "actual": "Đã chấm",
+      "expected": "Đã chấm",
+      "passed": true
+    },
+    {
+      "name": "N4-L1 official key scores fully",
+      "actual": 4.0,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "name": "N4-L1 complete",
+      "actual": "Đã chấm",
+      "expected": "Đã chấm",
+      "passed": true
+    },
+    {
+      "name": "N4-L2 official key scores fully",
+      "actual": 4.0,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "name": "N4-L2 complete",
+      "actual": "Đã chấm",
+      "expected": "Đã chấm",
+      "passed": true
+    },
+    {
+      "name": "N3-G official key scores fully",
+      "actual": 6.0,
+      "expected": 6,
+      "passed": true
+    },
+    {
+      "name": "N3-G complete",
+      "actual": "Đã chấm",
+      "expected": "Đã chấm",
+      "passed": true
+    },
+    {
+      "name": "N3-V official key scores fully",
+      "actual": 10.0,
+      "expected": 10,
+      "passed": true
+    },
+    {
+      "name": "N3-V complete",
+      "actual": "Đã chấm",
+      "expected": "Đã chấm",
+      "passed": true
+    },
+    {
+      "name": "N3-R official key scores fully",
+      "actual": 4.0,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "name": "N3-R complete",
+      "actual": "Đã chấm",
+      "expected": "Đã chấm",
+      "passed": true
+    },
+    {
+      "name": "N3-L1 official key scores fully",
+      "actual": 4.0,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "name": "N3-L1 complete",
+      "actual": "Đã chấm",
+      "expected": "Đã chấm",
+      "passed": true
+    },
+    {
+      "name": "N3-L2 official key scores fully",
+      "actual": 6.0,
+      "expected": 6,
+      "passed": true
+    },
+    {
+      "name": "N3-L2 complete",
+      "actual": "Đã chấm",
+      "expected": "Đã chấm",
+      "passed": true
+    },
+    {
+      "name": "Native aggregate grammar numerator",
+      "actual": 13.0,
+      "expected": 13,
+      "passed": true
+    },
+    {
+      "name": "Native weekly grammar accuracy",
+      "actual": 1.0,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "name": "Native D7 relative to actual start",
+      "actual": 46322.0,
+      "expected": 46322.0,
+      "passed": true
+    },
+    {
+      "name": "Native D14 relative to actual start",
+      "actual": 46329.0,
+      "expected": 46329.0,
+      "passed": true
+    },
+    {
+      "name": "Invalid pasted start date",
+      "actual": "Chưa đủ dữ liệu",
+      "expected": "Chưa đủ dữ liệu",
+      "passed": true
+    },
+    {
+      "name": "Review excluded from new results",
+      "actual": "",
+      "expected": "",
+      "passed": true
+    },
+    {
+      "name": "Saved and reopened review distinction",
+      "actual": "Ôn lại",
+      "expected": "Ôn lại",
+      "passed": true
+    },
+    {
+      "name": "Saved and reopened D7",
+      "actual": 46322.0,
+      "expected": 46322.0,
+      "passed": true
+    },
+    {
+      "name": "No native Excel formula error cells after recalc/reopen",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    }
+  ],
+  "version": "16.0",
+  "limitation": "COM verifies Excel engine, not human UI clicks or iPad/web."
+}

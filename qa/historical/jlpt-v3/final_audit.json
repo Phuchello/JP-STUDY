@@ -1,0 +1,33 @@
+{
+  "phase2_inputs_unchanged": 6,
+  "phase1_inputs_unchanged": 3,
+  "artifact_tests": 100,
+  "native_excel_tests": 47,
+  "native_excel_version": "16.0",
+  "verified_answer_keys": 66,
+  "v2_formulas_unchanged": 643,
+  "v2_formulas_changed_for_scope": 49,
+  "hyperlinks": 123,
+  "internal_links": 35,
+  "validation_rules": 142,
+  "pdf_pages": 12,
+  "pdf_external_or_local_links": 45,
+  "pdf_internal_links": 24,
+  "mp3_links_unchanged": 10,
+  "pdf_body_bounds": [
+    663.4,
+    754.9,
+    700.4,
+    588.6,
+    643.7,
+    594.1,
+    701.6,
+    702.6,
+    617.8,
+    679.4,
+    688.9,
+    767.3
+  ],
+  "checkpoint_lines": 8,
+  "prompt_rules_preserved": 13
+}

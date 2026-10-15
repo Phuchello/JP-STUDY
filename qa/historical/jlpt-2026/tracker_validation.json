@@ -1,0 +1,73 @@
+[
+  {
+    "case": "Chưa đo giữ trống",
+    "actual": "",
+    "ok": true
+  },
+  {
+    "case": "8/10 ở dòng 8",
+    "actual": 0.8,
+    "ok": true
+  },
+  {
+    "case": "8/10 ở dòng 39",
+    "actual": 0.8,
+    "ok": true
+  },
+  {
+    "case": "8/10 ở dòng 71",
+    "actual": 0.8,
+    "ok": true
+  },
+  {
+    "case": "0 đúng là 0 phần trăm",
+    "actual": 0,
+    "ok": true
+  },
+  {
+    "case": "Số đúng vượt tổng hiện lỗi",
+    "actual": "Lỗi nhập",
+    "ok": true
+  },
+  {
+    "case": "Tổng câu bằng 0 hiện lỗi",
+    "actual": "Lỗi nhập",
+    "ok": true
+  },
+  {
+    "case": "Số đúng âm hiện lỗi",
+    "actual": "Lỗi nhập",
+    "ok": true
+  },
+  {
+    "case": "Chữ trong ô số hiện lỗi",
+    "actual": "Lỗi nhập",
+    "ok": true
+  },
+  {
+    "case": "Tổng phút từ nhật ký",
+    "actual": [
+      1,
+      25,
+      10,
+      3
+    ],
+    "ok": true
+  },
+  {
+    "case": "Ngày nghỉ nhập 0 vẫn là một ngày ghi",
+    "actual": [
+      1,
+      0
+    ],
+    "ok": true
+  },
+  {
+    "case": "Khôi phục bảng trống",
+    "actual": [
+      0,
+      ""
+    ],
+    "ok": true
+  }
+]

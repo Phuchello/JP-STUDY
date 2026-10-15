@@ -1,0 +1,311 @@
+{
+  "queries": 19,
+  "requested_results": 170,
+  "returned_results": 170,
+  "unique_urls": 166,
+  "rows": [
+    {
+      "workstream": "A1-memory",
+      "requested": 10,
+      "returned_urls": 10,
+      "urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1111/lang.12479",
+        "https://cir.nii.ac.jp/crid/1360861711976723456",
+        "https://www.researchgate.net/publication/358406370_The_Effects_of_Spaced_Practice_on_Second_Language_Learning_A_Meta-Analysis",
+        "https://onlinelibrary.wiley.com/doi/abs/10.1111/lang.12479",
+        "https://doi.org/10.1111/modl.12879",
+        "https://uwo.scholaris.ca/items/f431513b-1582-423d-998a-7073b78bd87b",
+        "https://files.eric.ed.gov/fulltext/EJ1365275.pdf",
+        "https://link.springer.com/article/10.1007/s10648-020-09572-8?code=1ff9668d-fb75-4e10-b890-dea36bab1ddb&error=cookies_not_supported",
+        "https://exa.ai/library/publication/52mhy5vxf3y",
+        "https://colab.ws/articles/10.1111%2Flang.12479"
+      ]
+    },
+    {
+      "workstream": "A1-interleaving",
+      "requested": 10,
+      "returned_urls": 10,
+      "urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1111/modl.12581",
+        "https://sc-pan.github.io/pdf/PLPR_2019.pdf",
+        "https://onlinelibrary.wiley.com/doi/10.1111/lang.12659",
+        "https://www.cambridge.org/core/journals/studies-in-second-language-acquisition/article/dynamic-interplay-between-practice-type-and-practice-schedule-in-a-second-language/C01D682D82EDBD00AF29965FCA57BAF3",
+        "http://www.gsfl.kanagawa-u.ac.jp/research/publications/img/vol_25/vol25_02.pdf",
+        "https://doi.org/10.1177/1362168820913985",
+        "https://yuichisuzuki.net/wp-content/uploads/2023/04/Nakata-Suzuki-2019-MLJ.pdf",
+        "https://journals.sagepub.com/doi/10.1177/1362168820913985",
+        "https://yuichisuzuki.net/wp-content/uploads/2023/04/Suzuki-2021-LL.pdf",
+        "https://yuichisuzuki.net/wp-content/uploads/2023/04/Suzuk-Sunada-2019-SSLA.pdf"
+      ]
+    },
+    {
+      "workstream": "A1-guidance",
+      "requested": 10,
+      "returned_urls": 10,
+      "urls": [
+        "https://andymatuschak.org/files/papers/Shute%20-%202008%20-%20Focus%20on%20Formative%20Feedback.pdf",
+        "https://eric.ed.gov/?id=EJ678596",
+        "https://escholarship.org/content/qt81b9j9hs/qt81b9j9hs_noSplash_ef3e30a960524adc5157ece2d6fa3130.pdf",
+        "https://www.tandfonline.com/doi/abs/10.1080/00220970209599510",
+        "https://www.tandfonline.com/doi/abs/10.1207/S15326985EP3801_3",
+        "https://psycnet.apa.org/doiLanding?doi=10.1037%2F0022-0663.95.4.774",
+        "https://eric.ed.gov/?id=EJ732331",
+        "https://link.springer.com/article/10.1007/s11251-009-9107-8?code=ecdf47b6-f3c6-498e-95e3-60f2d3b15f0d&error=cookies_not_supported",
+        "https://onlinelibrary.wiley.com/doi/10.1111/cogs.12086",
+        "https://escholarship.org/content/qt1z46b6cx/qt1z46b6cx_noSplash_8c6fadcd3f530d5a5745651da97d6ab3.pdf?t=op2jio"
+      ]
+    },
+    {
+      "workstream": "A1-sleep",
+      "requested": 10,
+      "returned_urls": 10,
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8893218/",
+        "https://doi.org/10.1037/bul0000348",
+        "https://pure.royalholloway.ac.uk/ws/portalfiles/portal/44724556/Sleep_deprivation.pdf",
+        "https://pubmed.ncbi.nlm.nih.gov/35238586/",
+        "https://pure.royalholloway.ac.uk/en/publications/sleep-deprivation-and-memory-meta-analytic-reviews-of-studies-on-/",
+        "https://psycnet.apa.org/fulltext/2022-40433-004.pdf",
+        "https://psycnet.apa.org/doi/10.1037/bul0000348",
+        "https://psycnet.apa.org/record/2022-40433-004",
+        "https://www.rastlelab.com/post/sleep-deprivation-impairs-learning-and-memory-but-now-is-the-time-for-replication-science",
+        "https://www.omicsdi.org/dataset/biostudies-literature/S-EPMC8893218"
+      ]
+    },
+    {
+      "workstream": "A2-japanese",
+      "requested": 10,
+      "returned_urls": 10,
+      "urls": [
+        "https://www.coelang.tufs.ac.jp/modules/ja/gmod/steplist.html",
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/courses/c02/",
+        "https://www.coelang.tufs.ac.jp/mt/ja/",
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/",
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/courses/c02/lesson28/step1/explanation/095.html",
+        "https://www.coelang.tufs.ac.jp/modules/ja/gmod/",
+        "https://www.coelang.tufs.ac.jp/ja/th/gmod/how_to.html",
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/096.html",
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/courses/c01/lesson14/step3/exercises/094.html",
+        "https://www.coelang.tufs.ac.jp/mt/index_g.html"
+      ]
+    },
+    {
+      "workstream": "A3-listening",
+      "requested": 10,
+      "returned_urls": 10,
+      "urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1111/j.1467-9922.2009.00559.x",
+        "https://eric.ed.gov/?id=EJ883421",
+        "https://journals.sagepub.com/doi/10.1177/0033688218754942",
+        "https://doi.org/10.7939/r3-tbh8-ek23",
+        "https://doi.org/10.4995/eurocall.2014.3636",
+        "https://journals.lib.unb.ca/index.php/CJAL/article/view/19810",
+        "https://www.macrothink.org/journal/index.php/ijl/article/download/1707/1559",
+        "https://academic.oup.com/eltj/article-abstract/65/4/408/360309?redirectedFrom=fulltext",
+        "https://www.cambridge.org/core/journals/annual-review-of-applied-linguistics/article/abs/1-listening-to-learn-or-learning-to-listen/97B2D8AA89FC0FB421B532BA5A3CF697",
+        "https://doi.org/10.1017/s026144481500004x"
+      ]
+    },
+    {
+      "workstream": "A3-shadowing",
+      "requested": 10,
+      "returned_urls": 10,
+      "urls": [
+        "https://journals.sagepub.com/doi/10.1177/1362168815597504",
+        "https://multiolelo.com/wp-content/uploads/2022/05/kanehira-hamada-2016.pdf",
+        "https://eric.ed.gov/?id=EJ1084744",
+        "https://jalt-publications.org/sites/default/files/pdf-article/40.1_tlt-art3.pdf",
+        "https://jalt-publications.org/tlt/articles/4964-wait-it-really-shadowing",
+        "https://www.routledge.com/Teaching-EFL-Learners-Shadowing-for-Listening-Developing-learners-bottom-up-skills/Hamada/p/book/9780815360902",
+        "https://api.pageplace.de/preview/DT0400.9781317387206_A27137046/preview-9781317387206_A27137046.pdf",
+        "https://multiolelo.com/2022/05/05/who-benefits-from-shadowing-and-how/",
+        "https://https-sage-cnpereading-com-443.webvpn1.xju.edu.cn/doi/10.1177/1362168815597504",
+        "https://exa.ai/library/publication/tnwyyzlz142"
+      ]
+    },
+    {
+      "workstream": "A4-speaking",
+      "requested": 10,
+      "returned_urls": 10,
+      "urls": [
+        "https://www.cambridge.org/core/journals/studies-in-second-language-acquisition/article/abs/oral-feedback-in-classroom-sla/4999EE1C8379B2BF026B148EAF373CA1",
+        "http://kazuyasaito.net/SSLA2010.pdf",
+        "https://escholarship.mcgill.ca/concern/articles/6682x769r",
+        "https://onlinelibrary.wiley.com/doi/10.1111/j.1467-9922.2010.00620.x",
+        "https://eric.ed.gov/?id=EJ928532",
+        "https://sites.pitt.edu/~perfetti/PDF/de%20Jong%20Language%20Learning.pdf",
+        "https://research.vu.nl/ws/files/18460570/DeJong_Perfetti_LL_2011_preprint.pdf",
+        "https://mcgill.scholaris.ca/items/ed432145-d3b2-40ee-ad97-a4a8d7c3d5e9/full",
+        "https://onlinelibrary.wiley.com/doi/full/10.1111/j.1467-9922.2010.00561.x",
+        "https://ouci.dntb.gov.ua/en/works/9Jg8kNE7/"
+      ]
+    },
+    {
+      "workstream": "A4-anxiety",
+      "requested": 10,
+      "returned_urls": 10,
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7900487/",
+        "https://journals.sagepub.com/doi/10.1177/0261927X241291258",
+        "https://jurnal.unissula.ac.id/index.php/edulite/article/download/46431/15430",
+        "https://www.tandfonline.com/doi/full/10.1080/0305764X.2025.2480579",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11153228/",
+        "https://files.eric.ed.gov/fulltext/EJ1478455.pdf",
+        "https://sinergiaacademica.com/index.php/sa/article/view/829",
+        "https://bibliotecadigital.udea.edu.co/entities/publication/d74c9e1e-e29b-412a-a3e6-e15cfa2befa5",
+        "https://exa.ai/library/publication/n5f0zc7lh09",
+        "https://theusajournals.com/index.php/ijp/article/download/7131/6594/9660"
+      ]
+    },
+    {
+      "workstream": "A5-reading",
+      "requested": 10,
+      "returned_urls": 10,
+      "urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/tesq.157",
+        "https://eric.ed.gov/?id=EJ1052150",
+        "https://exa.ai/library/publication/cq3zdysg222",
+        "https://files.eric.ed.gov/fulltext/EJ1117026.pdf",
+        "https://eric.ed.gov/?id=EJ1078389",
+        "https://scholarshare.temple.edu/handle/20.500.12613/3325",
+        "https://scholarshare.temple.edu/items/6a42a9ee-8c17-408d-b27f-aaa73550db1c",
+        "https://scholarshare.temple.edu/server/api/core/bitstreams/3ae5fd71-46fd-4ced-bfc0-1e8aa60b1dac/content",
+        "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24720267/",
+        "https://scholarspace.manoa.hawaii.edu/server/api/core/bitstreams/27bc3bc6-8377-4b79-b63c-0e8d52d915a8/content"
+      ]
+    },
+    {
+      "workstream": "A5-vocabulary",
+      "requested": 10,
+      "returned_urls": 10,
+      "urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1111/j.0023-8333.2006.00343.x",
+        "https://www.jstage.jst.go.jp/article/helesje/15/0/15_2/_pdf/-char/ja",
+        "https://journals.sagepub.com/doi/10.1177/1362168806072463",
+        "https://files.eric.ed.gov/fulltext/ED406656.pdf",
+        "https://journals.sagepub.com/doi/10.1177/0267658320927764",
+        "https://onlinelibrary.wiley.com/doi/10.1111/lang.12285",
+        "https://exa.ai/library/publication/rjdxg6wd6dv",
+        "https://www.jstage.jst.go.jp/article/arele/32/0/32_113/_pdf/-char/en",
+        "https://www2.hawaii.edu/~readfl/rfl/October2008/webb/webb.pdf",
+        "https://www.jstage.jst.go.jp/article/imt/4/4/4_4_1104/_pdf"
+      ]
+    },
+    {
+      "workstream": "A6-short-session",
+      "requested": 10,
+      "returned_urls": 10,
+      "urls": [
+        "https://doi.org/10.30191/ets.202401_27(1).sp02",
+        "https://www.ijlter.org/index.php/ijlter/article/view/10006",
+        "https://dl.acm.org/doi/10.1504/ijmlo.2024.141801",
+        "https://weberdo.com/publications/2017-Language-Learning-On-the-Go-Opportune-Moments-and-Design-of-Mobile-Microlearning-Sessions.pdf",
+        "https://doi.org/10.24127/pj.v12i3.8421",
+        "https://www.cell.com/heliyon/fulltext/S2405-8440(24)17444-0",
+        "https://doi.org/10.16986/hunefd.1755298",
+        "https://www.cambridge.org/core/journals/recall/article/narrative-review-and-metaanalysis-of-mall-research-on-l2-skills/3BA7284F81B541986A531F8AEC2AA5A2",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9479751/",
+        "https://exa.ai/library/publication/z3wyvb45w0w"
+      ]
+    },
+    {
+      "workstream": "A2-input",
+      "requested": 10,
+      "returned_urls": 10,
+      "urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1111/flan.12272",
+        "https://gala.gre.ac.uk/id/eprint/13243/15/13243_BENATI_iral-2015-0007_%285%29_%28IRAL_Final_published_version%29.pdf",
+        "https://academic.oup.com/applij/article-abstract/36/3/306/2422461?redirectedFrom=fulltext",
+        "https://onlinelibrary.wiley.com/doi/10.1111/lang.12001",
+        "https://exa.ai/library/publication/q3x78ltqx7h",
+        "https://gala.gre.ac.uk/id/eprint/14781/1/14781_Benati_Input_manipulation_%28AAM%29_2016.pdf",
+        "https://www.cambridge.org/core/journals/language-teaching/article/classroomoriented-research-processing-instruction-findings-and-implications/10BF71AE109E988B31D8852701D52659",
+        "https://www.mdpi.com/2226-471X/8/2/135",
+        "https://academic.oup.com/applij/article-abstract/36/3/290/2422464",
+        "https://www.cambridge.org/core/journals/studies-in-second-language-acquisition/article/abs/explanation-versus-structured-input-in-processing-instruction/CADC0357472A2FF7A8195A3A58A8E602"
+      ]
+    },
+    {
+      "workstream": "community",
+      "requested": 10,
+      "returned_urls": 10,
+      "urls": [
+        "https://community.wanikani.com/t/any-tips-on-how-to-study-japanese-effectively/72745",
+        "https://community.wanikani.com/t/understanding-spoken-japanese/71969",
+        "https://community.wanikani.com/t/looking-for-listening-materials/34279",
+        "https://community.wanikani.com/t/think-im-giving-wk-up/74468",
+        "https://community.wanikani.com/t/what-learning-apps-are-we-using-nowadays/71426",
+        "https://community.wanikani.com/t/listening-training-challenge/58497",
+        "https://community.wanikani.com/t/wanikani-to-comprehension/63113",
+        "https://community.wanikani.com/t/matskyes-sporadic-log-of-durtling-and-language-learning/49286?page=4",
+        "https://community.wanikani.com/t/best-way-to-learnpractice-japanese-grammar/64383",
+        "https://community.wanikani.com/t/im-at-a-loss-for-immersing/68625"
+      ]
+    },
+    {
+      "workstream": "grammar-cards",
+      "requested": 5,
+      "returned_urls": 5,
+      "urls": [
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/053.html",
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/094.html",
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/052.html",
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/038.html",
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/043.html"
+      ]
+    },
+    {
+      "workstream": "worked-primary",
+      "requested": 5,
+      "returned_urls": 5,
+      "urls": [
+        "https://www.tandfonline.com/doi/abs/10.1207/S15326985EP3801_3",
+        "https://psycnet.apa.org/record/2003-04803-003",
+        "https://psycnet.apa.org/doiLanding?doi=10.1037%2F0022-0663.95.4.774",
+        "https://eric.ed.gov/?id=EJ678596",
+        "https://mrbartonmaths.com/resourcesnew/8.%20Research/Explicit%20Instruction/Structuring%20the%20Transition%20From%20Example%20Study%20to%20Problem%20Solving.pdf"
+      ]
+    },
+    {
+      "workstream": "feedback-primary",
+      "requested": 5,
+      "returned_urls": 5,
+      "urls": [
+        "https://myweb.fsu.edu/vshute/pdf/shute%202008_b.pdf",
+        "https://journals.sagepub.com/doi/10.3102/0034654307313795",
+        "https://andymatuschak.org/files/papers/Shute%20-%202008%20-%20Focus%20on%20Formative%20Feedback.pdf",
+        "https://www.ets.org/research/policy_research_reports/publications/report/2007/hslv.html",
+        "https://myweb.fsu.edu/vshute/publications.html"
+      ]
+    },
+    {
+      "workstream": "dictation",
+      "requested": 10,
+      "returned_urls": 10,
+      "urls": [
+        "https://exa.ai/library/publication/3mvb4hhsphg",
+        "https://eric.ed.gov/?id=EJ1102123",
+        "https://kulak.kuleuven.be/~u0006844/publications/2013%2C%20monteroperez_vandennoortgate_desmet_system.pdf",
+        "https://www.cambridge.org/core/journals/recall/article/abs/is-less-more-effectiveness-and-perceived-usefulness-of-keyword-and-full-captioned-video-for-l2-listening-comprehension/9AD29F86C1752148FDBB500921922223",
+        "https://files.eric.ed.gov/fulltext/EJ1042054.pdf",
+        "https://exa.ai/library/publication/tvcg1rhwyf4",
+        "https://doi.org/10.64152/10125/44088",
+        "https://dl.acm.org/doi/10.4018/IJCALLT.291534",
+        "https://scholarspace.manoa.hawaii.edu/items/aa27d68a-5647-4d9f-abc2-41ed953f654e/full",
+        "https://files.eric.ed.gov/fulltext/EJ1127672.pdf"
+      ]
+    },
+    {
+      "workstream": "recall",
+      "requested": 5,
+      "returned_urls": 5,
+      "urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1111/j.1467-9922.2007.00398.x",
+        "https://eric.ed.gov/?id=EJ751544",
+        "https://profiles.wustl.edu/en/publications/effects-of-opportunities-for-word-retrieval-during-second-languag/",
+        "https://www.academia.edu/125068624/Effects_of_Opportunities_for_Word_Retrieval_During_Second_Language_Vocabulary_Learning",
+        "https://exa.ai/library/publication/yjly7txrblr"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1135 @@
+{
+  "scope": {
+    "selectedQuestionsRechecked": 22,
+    "previouslyFlaggedQuestions": 21,
+    "extraDeadlineQuestion": "N4-PART-005",
+    "roleplaysRechecked": 4,
+    "all80PatternMappingsRead": true,
+    "patternCardsRead": 30,
+    "unscoredPracticeRead": 34,
+    "all80AfterShuffleLanguageReread": false
+  },
+  "result": "Các block/major ngôn ngữ cũ đã giải quyết; còn RA01 minor và mapping RA02 major. Phụ lục 30 thẻ có các góp ý minor; G09 chưa có trong snapshot đã kiểm.",
+  "questionReviews": [
+    {
+      "id": "N4-GRAM-006",
+      "chosenAfterReadingContent": "D",
+      "suppliedAnswer": "D",
+      "matches": true,
+      "correctText": "見せなければなりません",
+      "oldIssueStatus": "pass_for_old_issue"
+    },
+    {
+      "id": "N4-GRAM-007",
+      "chosenAfterReadingContent": "A",
+      "suppliedAnswer": "A",
+      "matches": true,
+      "correctText": "原本を出さなくてもいいです。",
+      "oldIssueStatus": "pass_for_old_issue"
+    },
+    {
+      "id": "N4-GRAM-011",
+      "chosenAfterReadingContent": "A",
+      "suppliedAnswer": "A",
+      "matches": true,
+      "correctText": "しておきます",
+      "oldIssueStatus": "pass_for_old_issue"
+    },
+    {
+      "id": "N4-ORDER-001",
+      "chosenAfterReadingContent": "B",
+      "suppliedAnswer": "B",
+      "matches": true,
+      "correctText": "先週買ったくつです。",
+      "oldIssueStatus": "pass_for_old_issue"
+    },
+    {
+      "id": "N4-ORDER-002",
+      "chosenAfterReadingContent": "C",
+      "suppliedAnswer": "C",
+      "matches": true,
+      "correctText": "駅で会った人です。",
+      "oldIssueStatus": "pass_for_old_issue"
+    },
+    {
+      "id": "N4-ORDER-003",
+      "chosenAfterReadingContent": "A",
+      "suppliedAnswer": "A",
+      "matches": true,
+      "correctText": "友だちが作ったお菓子です。",
+      "oldIssueStatus": "pass_for_old_issue"
+    },
+    {
+      "id": "N4-ORDER-004",
+      "chosenAfterReadingContent": "C",
+      "suppliedAnswer": "C",
+      "matches": true,
+      "correctText": "日本語を教えている先生を知っています。",
+      "oldIssueStatus": "pass_for_old_issue"
+    },
+    {
+      "id": "N4-INTERP-001",
+      "chosenAfterReadingContent": "A",
+      "suppliedAnswer": "A",
+      "matches": true,
+      "correctText": "日曜日は休みです。",
+      "oldIssueStatus": "pass_for_old_issue"
+    },
+    {
+      "id": "N4-INTERP-002",
+      "chosenAfterReadingContent": "D",
+      "suppliedAnswer": "D",
+      "matches": true,
+      "correctText": "財布にあるお金は千円だけです。",
+      "oldIssueStatus": "pass_for_old_issue"
+    },
+    {
+      "id": "N4-INTERP-003",
+      "chosenAfterReadingContent": "B",
+      "suppliedAnswer": "B",
+      "matches": true,
+      "correctText": "今日は全部する必要はありません。",
+      "oldIssueStatus": "pass_for_old_issue"
+    },
+    {
+      "id": "N4-INTERP-005",
+      "chosenAfterReadingContent": "A",
+      "suppliedAnswer": "A",
+      "matches": true,
+      "correctText": "先生にメールを送ります。",
+      "oldIssueStatus": "pass_for_old_issue"
+    },
+    {
+      "id": "N4-INTERP-006",
+      "chosenAfterReadingContent": "C",
+      "suppliedAnswer": "C",
+      "matches": true,
+      "correctText": "このボタンを押します。",
+      "oldIssueStatus": "pass_for_old_issue"
+    },
+    {
+      "id": "N4-SHORT-001",
+      "chosenAfterReadingContent": "C",
+      "suppliedAnswer": "C",
+      "matches": true,
+      "correctText": "午前10時からです。",
+      "oldIssueStatus": "pass_for_old_issue"
+    },
+    {
+      "id": "N4-SHORT-003",
+      "chosenAfterReadingContent": "A",
+      "suppliedAnswer": "A",
+      "matches": true,
+      "correctText": "金曜日の午後2時です。",
+      "oldIssueStatus": "pass_for_old_issue"
+    },
+    {
+      "id": "N4-SHORT-005",
+      "chosenAfterReadingContent": "A",
+      "suppliedAnswer": "A",
+      "matches": true,
+      "correctText": "雨が降っているからです。",
+      "oldIssueStatus": "pass_for_old_issue"
+    },
+    {
+      "id": "N4-SHORT-007",
+      "chosenAfterReadingContent": "D",
+      "suppliedAnswer": "D",
+      "matches": true,
+      "correctText": "駅に財布を置いたかもしれないからです。",
+      "oldIssueStatus": "partial_minor_remains"
+    },
+    {
+      "id": "N4-MED-002",
+      "chosenAfterReadingContent": "D",
+      "suppliedAnswer": "D",
+      "matches": true,
+      "correctText": "市民センターの入口です。",
+      "oldIssueStatus": "pass_for_old_issue"
+    },
+    {
+      "id": "N4-MED-003",
+      "chosenAfterReadingContent": "B",
+      "suppliedAnswer": "B",
+      "matches": true,
+      "correctText": "月曜日の午後6時までに連絡します。",
+      "oldIssueStatus": "pass_for_old_issue"
+    },
+    {
+      "id": "N4-MED-004",
+      "chosenAfterReadingContent": "D",
+      "suppliedAnswer": "D",
+      "matches": true,
+      "correctText": "昼休みにゆっくり食べたいからです。",
+      "oldIssueStatus": "pass_for_old_issue"
+    },
+    {
+      "id": "N4-MED-006",
+      "chosenAfterReadingContent": "B",
+      "suppliedAnswer": "B",
+      "matches": true,
+      "correctText": "入口の近くに自転車を置かないでほしいということです。",
+      "oldIssueStatus": "pass_for_old_issue"
+    },
+    {
+      "id": "N4-LISTEN-008",
+      "chosenAfterReadingContent": "C",
+      "suppliedAnswer": "C",
+      "matches": true,
+      "correctText": "店に電話します。",
+      "oldIssueStatus": "pass_for_old_issue"
+    },
+    {
+      "id": "N4-PART-005",
+      "chosenAfterReadingContent": "A",
+      "suppliedAnswer": "A",
+      "matches": true,
+      "correctText": "までに",
+      "oldIssueStatus": "pass_for_old_issue"
+    }
+  ],
+  "roleReviews": [
+    {
+      "id": "N4-SPK-001",
+      "status": "pass_content",
+      "note": "Có lượt đối thoại và dữ kiện mới để xác nhận; chấp nhận nhiều câu nói. Chưa kiểm UI có che thông tin hay âm thanh."
+    },
+    {
+      "id": "N4-SPK-002",
+      "status": "pass_content",
+      "note": "Có lượt đối thoại và dữ kiện mới để xác nhận; chấp nhận nhiều câu nói. Chưa kiểm UI có che thông tin hay âm thanh."
+    },
+    {
+      "id": "N4-SPK-003",
+      "status": "pass_content",
+      "note": "Có lượt đối thoại và dữ kiện mới để xác nhận; chấp nhận nhiều câu nói. Chưa kiểm UI có che thông tin hay âm thanh."
+    },
+    {
+      "id": "N4-SPK-004",
+      "status": "pass_content",
+      "note": "Có lượt đối thoại và dữ kiện mới để xác nhận; chấp nhận nhiều câu nói. Chưa kiểm UI có che thông tin hay âm thanh."
+    }
+  ],
+  "cardReviews": [
+    {
+      "id": "G01",
+      "read": true,
+      "practiceCount": 3,
+      "practice": [
+        {
+          "item": 1,
+          "chosenIndex": 0,
+          "suppliedIndex": 0,
+          "matches": true
+        },
+        {
+          "item": 2,
+          "chosenIndex": 1,
+          "suppliedIndex": 1,
+          "matches": true
+        },
+        {
+          "item": 3,
+          "chosenIndex": 0,
+          "suppliedIndex": 0,
+          "matches": true
+        }
+      ],
+      "findingIds": []
+    },
+    {
+      "id": "G02",
+      "read": true,
+      "practiceCount": 3,
+      "practice": [
+        {
+          "item": 1,
+          "chosenIndex": 0,
+          "suppliedIndex": 0,
+          "matches": true
+        },
+        {
+          "item": 2,
+          "chosenIndex": 1,
+          "suppliedIndex": 1,
+          "matches": true
+        },
+        {
+          "item": 3,
+          "chosenIndex": 0,
+          "suppliedIndex": 0,
+          "matches": true
+        }
+      ],
+      "findingIds": []
+    },
+    {
+      "id": "G03",
+      "read": true,
+      "practiceCount": 3,
+      "practice": [
+        {
+          "item": 1,
+          "chosenIndex": 0,
+          "suppliedIndex": 0,
+          "matches": true
+        },
+        {
+          "item": 2,
+          "chosenIndex": 1,
+          "suppliedIndex": 1,
+          "matches": true
+        },
+        {
+          "item": 3,
+          "chosenIndex": 0,
+          "suppliedIndex": 0,
+          "matches": true
+        }
+      ],
+      "findingIds": []
+    },
+    {
+      "id": "G04",
+      "read": true,
+      "practiceCount": 3,
+      "practice": [
+        {
+          "item": 1,
+          "chosenIndex": 0,
+          "suppliedIndex": 0,
+          "matches": true
+        },
+        {
+          "item": 2,
+          "chosenIndex": 1,
+          "suppliedIndex": 1,
+          "matches": true
+        },
+        {
+          "item": 3,
+          "chosenIndex": 0,
+          "suppliedIndex": 0,
+          "matches": true
+        }
+      ],
+      "findingIds": [
+        "RA05"
+      ]
+    },
+    {
+      "id": "G05",
+      "read": true,
+      "practiceCount": 3,
+      "practice": [
+        {
+          "item": 1,
+          "chosenIndex": 0,
+          "suppliedIndex": 0,
+          "matches": true
+        },
+        {
+          "item": 2,
+          "chosenIndex": 1,
+          "suppliedIndex": 1,
+          "matches": true
+        },
+        {
+          "item": 3,
+          "chosenIndex": 0,
+          "suppliedIndex": 0,
+          "matches": true
+        }
+      ],
+      "findingIds": []
+    },
+    {
+      "id": "G06",
+      "read": true,
+      "practiceCount": 3,
+      "practice": [
+        {
+          "item": 1,
+          "chosenIndex": 0,
+          "suppliedIndex": 0,
+          "matches": true
+        },
+        {
+          "item": 2,
+          "chosenIndex": 1,
+          "suppliedIndex": 1,
+          "matches": true
+        },
+        {
+          "item": 3,
+          "chosenIndex": 0,
+          "suppliedIndex": 0,
+          "matches": true
+        }
+      ],
+      "findingIds": [
+        "RA08"
+      ]
+    },
+    {
+      "id": "G07",
+      "read": true,
+      "practiceCount": 3,
+      "practice": [
+        {
+          "item": 1,
+          "chosenIndex": 0,
+          "suppliedIndex": 0,
+          "matches": true
+        },
+        {
+          "item": 2,
+          "chosenIndex": 1,
+          "suppliedIndex": 1,
+          "matches": true
+        },
+        {
+          "item": 3,
+          "chosenIndex": 0,
+          "suppliedIndex": 0,
+          "matches": true
+        }
+      ],
+      "findingIds": [
+        "RA04"
+      ]
+    },
+    {
+      "id": "L01",
+      "read": true,
+      "practiceCount": 1,
+      "practice": [
+        {
+          "item": 1,
+          "chosenIndex": 1,
+          "suppliedIndex": 1,
+          "matches": true
+        }
+      ],
+      "findingIds": []
+    },
+    {
+      "id": "L02",
+      "read": true,
+      "practiceCount": 1,
+      "practice": [
+        {
+          "item": 1,
+          "chosenIndex": 2,
+          "suppliedIndex": 2,
+          "matches": true
+        }
+      ],
+      "findingIds": []
+    },
+    {
+      "id": "L03",
+      "read": true,
+      "practiceCount": 1,
+      "practice": [
+        {
+          "item": 1,
+          "chosenIndex": 0,
+          "suppliedIndex": 0,
+          "matches": true
+        }
+      ],
+      "findingIds": []
+    },
+    {
+      "id": "L04",
+      "read": true,
+      "practiceCount": 1,
+      "practice": [
+        {
+          "item": 1,
+          "chosenIndex": 1,
+          "suppliedIndex": 1,
+          "matches": true
+        }
+      ],
+      "findingIds": []
+    },
+    {
+      "id": "L05",
+      "read": true,
+      "practiceCount": 1,
+      "practice": [
+        {
+          "item": 1,
+          "chosenIndex": 0,
+          "suppliedIndex": 0,
+          "matches": true
+        }
+      ],
+      "findingIds": []
+    },
+    {
+      "id": "L06",
+      "read": true,
+      "practiceCount": 1,
+      "practice": [
+        {
+          "item": 1,
+          "chosenIndex": 1,
+          "suppliedIndex": 1,
+          "matches": true
+        }
+      ],
+      "findingIds": []
+    },
+    {
+      "id": "R01",
+      "read": true,
+      "practiceCount": 1,
+      "practice": [
+        {
+          "item": 1,
+          "chosenIndex": 0,
+          "suppliedIndex": 0,
+          "matches": true
+        }
+      ],
+      "findingIds": []
+    },
+    {
+      "id": "R02",
+      "read": true,
+      "practiceCount": 1,
+      "practice": [
+        {
+          "item": 1,
+          "chosenIndex": 1,
+          "suppliedIndex": 1,
+          "matches": true
+        }
+      ],
+      "findingIds": []
+    },
+    {
+      "id": "R03",
+      "read": true,
+      "practiceCount": 1,
+      "practice": [
+        {
+          "item": 1,
+          "chosenIndex": 1,
+          "suppliedIndex": 1,
+          "matches": true
+        }
+      ],
+      "findingIds": [
+        "RA06"
+      ]
+    },
+    {
+      "id": "R04",
+      "read": true,
+      "practiceCount": 1,
+      "practice": [
+        {
+          "item": 1,
+          "chosenIndex": 1,
+          "suppliedIndex": 1,
+          "matches": true
+        }
+      ],
+      "findingIds": []
+    },
+    {
+      "id": "T01",
+      "read": true,
+      "practiceCount": 0,
+      "practice": [],
+      "findingIds": []
+    },
+    {
+      "id": "T02",
+      "read": true,
+      "practiceCount": 0,
+      "practice": [],
+      "findingIds": []
+    },
+    {
+      "id": "T03",
+      "read": true,
+      "practiceCount": 0,
+      "practice": [],
+      "findingIds": [
+        "RA03"
+      ]
+    },
+    {
+      "id": "T04",
+      "read": true,
+      "practiceCount": 0,
+      "practice": [],
+      "findingIds": [
+        "RA03"
+      ]
+    },
+    {
+      "id": "T05",
+      "read": true,
+      "practiceCount": 0,
+      "practice": [],
+      "findingIds": [
+        "RA03"
+      ]
+    },
+    {
+      "id": "T06",
+      "read": true,
+      "practiceCount": 0,
+      "practice": [],
+      "findingIds": []
+    },
+    {
+      "id": "T07",
+      "read": true,
+      "practiceCount": 0,
+      "practice": [],
+      "findingIds": []
+    },
+    {
+      "id": "T08",
+      "read": true,
+      "practiceCount": 0,
+      "practice": [],
+      "findingIds": [
+        "RA03"
+      ]
+    },
+    {
+      "id": "T09",
+      "read": true,
+      "practiceCount": 0,
+      "practice": [],
+      "findingIds": []
+    },
+    {
+      "id": "T10",
+      "read": true,
+      "practiceCount": 0,
+      "practice": [],
+      "findingIds": [
+        "RA03"
+      ]
+    },
+    {
+      "id": "T11",
+      "read": true,
+      "practiceCount": 0,
+      "practice": [],
+      "findingIds": [
+        "RA03",
+        "RA07"
+      ]
+    },
+    {
+      "id": "T12",
+      "read": true,
+      "practiceCount": 0,
+      "practice": [],
+      "findingIds": []
+    },
+    {
+      "id": "G08",
+      "read": true,
+      "practiceCount": 3,
+      "practice": [
+        {
+          "item": 1,
+          "chosenIndex": 0,
+          "suppliedIndex": 0,
+          "matches": true
+        },
+        {
+          "item": 2,
+          "chosenIndex": 1,
+          "suppliedIndex": 1,
+          "matches": true
+        },
+        {
+          "item": 3,
+          "chosenIndex": 0,
+          "suppliedIndex": 0,
+          "matches": true
+        }
+      ],
+      "findingIds": []
+    }
+  ],
+  "oldFindingResolution": [
+    {
+      "id": "F01",
+      "status": "pass",
+      "ids": [
+        "N4-MED-003"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "pass",
+      "ids": [
+        "N4-SHORT-003"
+      ]
+    },
+    {
+      "id": "F03",
+      "status": "partial_minor_remains",
+      "ids": [
+        "N4-SHORT-007"
+      ]
+    },
+    {
+      "id": "F04",
+      "status": "pass",
+      "ids": [
+        "N4-SHORT-001"
+      ]
+    },
+    {
+      "id": "F05",
+      "status": "pass",
+      "ids": [
+        "N4-MED-004"
+      ]
+    },
+    {
+      "id": "F06",
+      "status": "pass",
+      "ids": [
+        "N4-MED-006"
+      ]
+    },
+    {
+      "id": "F07",
+      "status": "pass",
+      "ids": [
+        "N4-LISTEN-008"
+      ]
+    },
+    {
+      "id": "F08",
+      "status": "pass",
+      "ids": [
+        "N4-INTERP-001",
+        "N4-INTERP-002",
+        "N4-INTERP-003",
+        "N4-INTERP-005"
+      ]
+    },
+    {
+      "id": "F09",
+      "status": "pass",
+      "ids": [
+        "N4-ORDER-001",
+        "N4-ORDER-002",
+        "N4-ORDER-003",
+        "N4-ORDER-004"
+      ]
+    },
+    {
+      "id": "F10",
+      "status": "pass",
+      "ids": [
+        "N4-GRAM-011"
+      ]
+    },
+    {
+      "id": "F11",
+      "status": "pass",
+      "ids": [
+        "N4-INTERP-006"
+      ]
+    },
+    {
+      "id": "F12",
+      "status": "pass",
+      "ids": [
+        "N4-GRAM-006",
+        "N4-GRAM-007",
+        "N4-SHORT-005",
+        "N4-MED-002",
+        "N4-MED-006"
+      ]
+    },
+    {
+      "id": "F13",
+      "status": "pass",
+      "ids": [
+        "N4-SPK-001"
+      ]
+    },
+    {
+      "id": "F14",
+      "status": "pass",
+      "ids": [
+        "N4-SPK-002"
+      ]
+    },
+    {
+      "id": "F15",
+      "status": "pass",
+      "ids": [
+        "N4-SPK-003"
+      ]
+    },
+    {
+      "id": "F16",
+      "status": "pass",
+      "ids": [
+        "N4-SPK-004"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "RA01",
+      "severity": "minor",
+      "ids": [
+        "N4-SHORT-007"
+      ],
+      "reason": "Đã sửa đáp án và explanationVi; distractorExplanations C và commonMistakes vẫn khẳng định 'bỏ quên ví'.",
+      "fix": "Sửa thành 'Đoạn nói có thể để ví ở ga nên quay lại tìm, không phải muốn mua vé.' và đồng bộ commonMistakes."
+    },
+    {
+      "id": "RA02",
+      "severity": "major",
+      "ids": [
+        "N4-PART-007",
+        "N4-PART-008",
+        "N4-PART-009",
+        "N4-PART-010",
+        "N4-GRAM-001",
+        "N4-GRAM-002",
+        "N4-GRAM-003",
+        "N4-GRAM-004",
+        "N4-GRAM-005",
+        "N4-GRAM-006",
+        "N4-GRAM-007",
+        "N4-GRAM-008",
+        "N4-ORDER-005",
+        "N4-ORDER-007",
+        "N4-ORDER-008",
+        "N4-INTERP-002",
+        "N4-INTERP-003",
+        "N4-INTERP-005",
+        "N4-SHORT-002",
+        "N4-SHORT-004",
+        "N4-SHORT-006",
+        "N4-SHORT-008",
+        "N4-MED-002",
+        "N4-MED-003",
+        "N4-MED-006",
+        "N4-LISTEN-001",
+        "N4-LISTEN-002",
+        "N4-LISTEN-003",
+        "N4-LISTEN-004",
+        "N4-LISTEN-005",
+        "N4-LISTEN-006",
+        "N4-LISTEN-007",
+        "N4-LISTEN-008",
+        "N4-COMM-002",
+        "N4-COMM-003",
+        "N4-COMM-004"
+      ],
+      "reason": "Nhiều liên kết ôn gán theo concept rộng nên đưa người học sang thẻ không dạy mục tiêu của câu. Khóa câu hỏi vẫn đúng.",
+      "fix": "Đổi từng ID theo mappingRecommendations; khi chưa có thẻ đúng, để null thay vì gán ép. G09 chờ tác giả bổ sung và QA riêng."
+    },
+    {
+      "id": "RA03",
+      "severity": "minor",
+      "ids": [
+        "T03",
+        "T04",
+        "T05",
+        "T08",
+        "T10",
+        "T11"
+      ],
+      "reason": "Các ví dụ Nhật đang đúng nhưng loại từ trong ô thay chưa rõ; việc điền lý do/mốc giờ theo đúng khung có thể tạo câu sai.",
+      "fix": "T03: V thường+ため/Nのため; T04: Nのため hoặc V thường+ため; T05: Nで/Vて・ので (ví dụ hiện dùng 遅れていて); T08: tách 時刻に/場所で; T10: V・イA thườngと思う, N・ナAだと思う; T11: N・ナAだからです."
+    },
+    {
+      "id": "RA04",
+      "severity": "minor",
+      "ids": [
+        "G07"
+      ],
+      "reason": "Công thức 普通形なら thiếu ngoại lệ danh từ/ナ形容詞, dễ sinh 学生だなら.",
+      "fix": "Ghi V/イA普通形なら; N/ナAなら (学生なら、静かなら; bỏ だ phi quá khứ khẳng định)."
+    },
+    {
+      "id": "RA05",
+      "severity": "minor",
+      "ids": [
+        "G04"
+      ],
+      "reason": "Lời giải practice thứ ba nói 'hạn hoàn tất cuộc gọi' có thể bị hiểu phải kết thúc cuộc nói chuyện trước 5 giờ. 電話してください thường yêu cầu thực hiện cuộc gọi/liên lạc trước hạn.",
+      "fix": "Đổi thành '5 giờ là hạn thực hiện việc gọi/liên lạc; không phải thời gian phải gọi liên tục.'"
+    },
+    {
+      "id": "RA06",
+      "severity": "minor",
+      "ids": [
+        "R03"
+      ],
+      "reason": "dialogueVi dùng 'Ngày thường10 giờ' cho 毎日10時; dễ lẫn với 平日 và không bao gồm thứ Bảy/Chủ nhật.",
+      "fix": "Đổi thành 'Thông thường mở lúc10 giờ; riêng thứ Hai từ12 giờ.'"
+    },
+    {
+      "id": "RA07",
+      "severity": "minor",
+      "ids": [
+        "T11"
+      ],
+      "reason": "commonMistake/typicalMisunderstanding trình bày không kết からです sau なぜなら như lỗi tuyệt đối, dù đây là cặp được chọn trong bài tập.",
+      "fix": "Giới hạn: 'Trong mẫu bài tập này, dùng cặp なぜなら…からです và nói đủ lý do'; không dạy rằng mọi cách kết khác đều sai."
+    },
+    {
+      "id": "RA08",
+      "severity": "minor",
+      "ids": [
+        "G06"
+      ],
+      "reason": "Đang dạy cặp 開く（あく）/開ける nhưng không ghi cách đọc khi nêu ghép 開いてある là lỗi; phạm vi có thể bị hiểu thành cấm mọi chuỗi chữ 開いてある.",
+      "fix": "Ghi rõ 'Trong cặp 開く（あく）/開ける đang học: あいている vs あけてある' trong commonMistake/typicalMisunderstanding, giữ ví dụ cửa hiện tại."
+    }
+  ],
+  "mappingRecommendations": {
+    "N4-PART-007": {
+      "patternId": null,
+      "relatedTemplate": null,
+      "priority": "minor",
+      "why": "G04 dạy まで/までに, chưa dạy mốc に."
+    },
+    "N4-PART-008": {
+      "patternId": null,
+      "relatedTemplate": null,
+      "priority": "minor",
+      "why": "G02 không dạy đối tượng を."
+    },
+    "N4-PART-009": {
+      "patternId": null,
+      "relatedTemplate": null,
+      "priority": "minor",
+      "why": "G02 không dạy người cùng làm と."
+    },
+    "N4-PART-010": {
+      "patternId": null,
+      "relatedTemplate": null,
+      "priority": "minor",
+      "why": "G02 không dạy xuất phát から."
+    },
+    "N4-GRAM-001": {
+      "patternId": "G09",
+      "relatedTemplate": null,
+      "priority": "major",
+      "why": "T07/T08 không phải thẻ đối chiếu phép/cấm/nghĩa vụ/miễn nghĩa vụ; G09 đang được tác giả bổ sung."
+    },
+    "N4-GRAM-002": {
+      "patternId": "G09",
+      "relatedTemplate": null,
+      "priority": "major",
+      "why": "T07/T08 không phải thẻ đối chiếu phép/cấm/nghĩa vụ/miễn nghĩa vụ; G09 đang được tác giả bổ sung."
+    },
+    "N4-GRAM-003": {
+      "patternId": "G09",
+      "relatedTemplate": null,
+      "priority": "major",
+      "why": "T07/T08 không phải thẻ đối chiếu phép/cấm/nghĩa vụ/miễn nghĩa vụ; G09 đang được tác giả bổ sung."
+    },
+    "N4-GRAM-004": {
+      "patternId": "G09",
+      "relatedTemplate": null,
+      "priority": "major",
+      "why": "T07/T08 không phải thẻ đối chiếu phép/cấm/nghĩa vụ/miễn nghĩa vụ; G09 đang được tác giả bổ sung."
+    },
+    "N4-GRAM-005": {
+      "patternId": "G09",
+      "relatedTemplate": null,
+      "priority": "major",
+      "why": "T07/T08 không phải thẻ đối chiếu phép/cấm/nghĩa vụ/miễn nghĩa vụ; G09 đang được tác giả bổ sung."
+    },
+    "N4-GRAM-006": {
+      "patternId": "G09",
+      "relatedTemplate": null,
+      "priority": "major",
+      "why": "T07/T08 không phải thẻ đối chiếu phép/cấm/nghĩa vụ/miễn nghĩa vụ; G09 đang được tác giả bổ sung."
+    },
+    "N4-GRAM-007": {
+      "patternId": "G09",
+      "relatedTemplate": null,
+      "priority": "major",
+      "why": "T07/T08 không phải thẻ đối chiếu phép/cấm/nghĩa vụ/miễn nghĩa vụ; G09 đang được tác giả bổ sung."
+    },
+    "N4-GRAM-008": {
+      "patternId": "G09",
+      "relatedTemplate": null,
+      "priority": "major",
+      "why": "T07/T08 không phải thẻ đối chiếu phép/cấm/nghĩa vụ/miễn nghĩa vụ; G09 đang được tác giả bổ sung."
+    },
+    "N4-ORDER-005": {
+      "patternId": "G08",
+      "relatedTemplate": null,
+      "priority": "major",
+      "why": "Mẫu kinh nghiệm たことがない, không phải trước/sau."
+    },
+    "N4-ORDER-007": {
+      "patternId": null,
+      "relatedTemplate": null,
+      "priority": "minor",
+      "why": "Lời khuyên たほうがいい chưa có thẻ đúng; G05 trước/sau không dạy mẫu này."
+    },
+    "N4-ORDER-008": {
+      "patternId": "G09",
+      "relatedTemplate": null,
+      "priority": "minor",
+      "why": "Trật tự của mẫu bắt buộc, không phải trật tự sự việc trước/sau."
+    },
+    "N4-INTERP-002": {
+      "patternId": null,
+      "relatedTemplate": null,
+      "priority": "minor",
+      "why": "R03 là tìm điều kiện/ngoại lệ theo tình huống, chưa dạy しか."
+    },
+    "N4-INTERP-003": {
+      "patternId": "G09",
+      "relatedTemplate": null,
+      "priority": "minor",
+      "why": "Đích chính là なくてもいい."
+    },
+    "N4-INTERP-005": {
+      "patternId": "G05",
+      "relatedTemplate": null,
+      "priority": "major",
+      "why": "Đích là Vる前に; G07 là các mẫu điều kiện."
+    },
+    "N4-SHORT-002": {
+      "patternId": "R03",
+      "relatedTemplate": null,
+      "priority": "minor",
+      "why": "Tra giờ theo ngoại lệ thứ Bảy."
+    },
+    "N4-SHORT-004": {
+      "patternId": "G04",
+      "relatedTemplate": null,
+      "priority": "minor",
+      "why": "Hạn trả までに."
+    },
+    "N4-SHORT-006": {
+      "patternId": "L02",
+      "relatedTemplate": null,
+      "priority": "minor",
+      "why": "Việc phải làm khi sắp trễ, không hỏi lý do."
+    },
+    "N4-SHORT-008": {
+      "patternId": "G09",
+      "relatedTemplate": null,
+      "priority": "minor",
+      "why": "Không cần mua sữa."
+    },
+    "N4-MED-002": {
+      "patternId": "R03",
+      "relatedTemplate": null,
+      "priority": "minor",
+      "why": "Nhánh nếu mưa và nơi đi thẳng."
+    },
+    "N4-MED-003": {
+      "patternId": "R03",
+      "relatedTemplate": null,
+      "priority": "minor",
+      "why": "Điều kiện nhận hàng sớm và hạn liên lạc."
+    },
+    "N4-MED-006": {
+      "patternId": "R01",
+      "relatedTemplate": null,
+      "priority": "minor",
+      "why": "Ý chính của thông báo."
+    },
+    "N4-LISTEN-001": {
+      "patternId": "L01",
+      "relatedTemplate": "T06",
+      "priority": "minor",
+      "why": "Xác nhận lịch, không xin đổi ca."
+    },
+    "N4-LISTEN-002": {
+      "patternId": "L01",
+      "relatedTemplate": "T06",
+      "priority": "minor",
+      "why": "Xác nhận địa điểm đã đổi."
+    },
+    "N4-LISTEN-003": {
+      "patternId": "L02",
+      "relatedTemplate": "T06",
+      "priority": "minor",
+      "why": "Chỉ dẫn đến trước hạn, không có đổi giờ."
+    },
+    "N4-LISTEN-004": {
+      "patternId": "L01",
+      "relatedTemplate": "T06",
+      "priority": "minor",
+      "why": "Xác nhận lịch giao đã đổi."
+    },
+    "N4-LISTEN-005": {
+      "patternId": "L02",
+      "relatedTemplate": "T07",
+      "priority": "minor",
+      "why": "Làm rõ chỉ dẫn cửa sổ/điện."
+    },
+    "N4-LISTEN-006": {
+      "patternId": "L02",
+      "relatedTemplate": "T07",
+      "priority": "minor",
+      "why": "Chỉ dẫn có điều kiện."
+    },
+    "N4-LISTEN-007": {
+      "patternId": "L02",
+      "relatedTemplate": "T07",
+      "priority": "minor",
+      "why": "Chỉ dẫn sao giấy trùng T07."
+    },
+    "N4-LISTEN-008": {
+      "patternId": "L02",
+      "relatedTemplate": "T05",
+      "priority": "major",
+      "why": "Báo trễ, không xin đổi ca."
+    },
+    "N4-COMM-002": {
+      "patternId": "T01",
+      "relatedTemplate": "T01",
+      "priority": "major",
+      "why": "Xin nhắc lại lời giáo viên, không xin đổi ca."
+    },
+    "N4-COMM-003": {
+      "patternId": null,
+      "relatedTemplate": null,
+      "priority": "minor",
+      "why": "Chưa có thẻ hỏi tuyến tàu đúng mục tiêu."
+    },
+    "N4-COMM-004": {
+      "patternId": "G09",
+      "relatedTemplate": null,
+      "priority": "minor",
+      "why": "Xin phép trả sách, không đổi ca."
+    }
+  },
+  "sourceRecheck": {
+    "deadline": "Đã mở JF200911: trực tiếp phân biệt まで/までに và ví dụ nộp; đích phù hợp.",
+    "waiver": "Đã đọc Grammar_all.pdf trang PDF209 (=P208 zero-based), 初中級L8-23: なくてもいい/だいじょうぶ; đích phù hợp. Cấp chương nguồn không chuẩn hóa cấp JLPT của câu."
+  },
+  "limitations": [
+    "Không phải giáo viên bản ngữ; chưa thử người học thật.",
+    "Chỉ kiểm kịch bản chữ; không nghe hoặc xác nhận TTS.",
+    "Lượt này kiểm ngôn ngữ 22 câu chọn +4 vai; chỉ đọc mapping của toàn80, không tuyên bố giải mù lần hai80 câu sau xáo.",
+    "34 câu của phụ lục chỉ để học; không cộng vào ngân hàng80.",
+    "G09 đang do tác giả soạn, chưa được đọc ở snapshot này."
+  ]
+}

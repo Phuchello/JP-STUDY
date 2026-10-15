@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Blank no invented score",
+    "actual": "Chưa có dữ liệu",
+    "expected": "Chưa có dữ liệu",
+    "ok": true
+  },
+  {
+    "name": "Valid independent row",
+    "actual": "Hợp lệ",
+    "expected": "Hợp lệ",
+    "ok": true
+  },
+  {
+    "name": "Numerator",
+    "actual": 3,
+    "expected": 3,
+    "ok": true
+  },
+  {
+    "name": "Seconds converted to minutes",
+    "actual": 2,
+    "expected": 2,
+    "ok": true
+  },
+  {
+    "name": "Answered denominator not skips",
+    "actual": 4,
+    "expected": 4,
+    "ok": true
+  },
+  {
+    "name": "Accuracy",
+    "actual": 0.75,
+    "expected": 0.75,
+    "ok": true
+  },
+  {
+    "name": "Duplicate excluded",
+    "actual": "Kiểm tra/trùng",
+    "expected": "Kiểm tra/trùng",
+    "ok": true
+  },
+  {
+    "name": "Duplicate no inflation",
+    "actual": 3,
+    "expected": 3,
+    "ok": true
+  },
+  {
+    "name": "Distinct type allowed",
+    "actual": "Hợp lệ",
+    "expected": "Hợp lệ",
+    "ok": true
+  },
+  {
+    "name": "Assisted excluded",
+    "actual": 3,
+    "expected": 3,
+    "ok": true
+  },
+  {
+    "name": "Invalid correct > attempted",
+    "actual": "Kiểm tra/trùng",
+    "expected": "Kiểm tra/trùng",
+    "ok": true
+  },
+  {
+    "name": "Fixtures removed",
+    "actual": "Chưa có dữ liệu",
+    "expected": "Chưa có dữ liệu",
+    "ok": true
+  }
+]

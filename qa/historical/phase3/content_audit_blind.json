@@ -1,0 +1,450 @@
+{
+  "phase": "blind_before_key",
+  "scope": {
+    "questions": 80,
+    "speakingRoles": 0,
+    "onlyInput": "tmp/jlpt-phase3/pilot_blind_audit.txt",
+    "keyRead": false
+  },
+  "method": "Đã đọc và giải từng câu bằng nội dung Nhật. Câu nghe được kiểm qua kịch bản chữ, chưa nghe âm thanh.",
+  "answers": [
+    {
+      "id": "N4-VOC-001",
+      "blindAnswer": "A",
+      "reason": "受付 đọc là うけつけ."
+    },
+    {
+      "id": "N4-VOC-002",
+      "blindAnswer": "D",
+      "reason": "予定 đọc là よてい."
+    },
+    {
+      "id": "N4-VOC-003",
+      "blindAnswer": "C",
+      "reason": "住所 đọc là じゅうしょ."
+    },
+    {
+      "id": "N4-VOC-004",
+      "blindAnswer": "B",
+      "reason": "間に合う đọc là まにあう."
+    },
+    {
+      "id": "N4-VOC-005",
+      "blindAnswer": "A",
+      "reason": "Mưa mạnh nên mang ô."
+    },
+    {
+      "id": "N4-VOC-006",
+      "blindAnswer": "D",
+      "reason": "Bạn chưa tới nên đang chờ bạn."
+    },
+    {
+      "id": "N4-VOC-007",
+      "blindAnswer": "C",
+      "reason": "Tới sau khi tàu chạy: 乗り遅れる."
+    },
+    {
+      "id": "N4-VOC-008",
+      "blindAnswer": "B",
+      "reason": "Xin nghỉ cần liên lạc quản lý."
+    },
+    {
+      "id": "N4-PART-001",
+      "blindAnswer": "A",
+      "reason": "で đánh dấu nơi nói chuyện."
+    },
+    {
+      "id": "N4-PART-002",
+      "blindAnswer": "D",
+      "reason": "に đánh dấu vị trí tồn tại của chìa khóa."
+    },
+    {
+      "id": "N4-PART-003",
+      "blindAnswer": "C",
+      "reason": "で đánh dấu nơi ăn."
+    },
+    {
+      "id": "N4-PART-004",
+      "blindAnswer": "B",
+      "reason": "人がいます dùng に cho vị trí tồn tại."
+    },
+    {
+      "id": "N4-PART-005",
+      "blindAnswer": "A",
+      "reason": "Hành động nộp một lần trước hạn: までに."
+    },
+    {
+      "id": "N4-PART-006",
+      "blindAnswer": "D",
+      "reason": "Khoảng học kéo dài từ 1 đến 4 giờ: から…まで."
+    },
+    {
+      "id": "N4-PART-007",
+      "blindAnswer": "C",
+      "reason": "Giờ bắt đầu dùng に."
+    },
+    {
+      "id": "N4-PART-008",
+      "blindAnswer": "B",
+      "reason": "Đối tượng nghe dùng を."
+    },
+    {
+      "id": "N4-PART-009",
+      "blindAnswer": "A",
+      "reason": "Đi cùng em gái: といっしょに."
+    },
+    {
+      "id": "N4-PART-010",
+      "blindAnswer": "D",
+      "reason": "Điểm xuất phát: 家から."
+    },
+    {
+      "id": "N4-CONJ-001",
+      "blindAnswer": "C",
+      "reason": "急ぐ → 急いで."
+    },
+    {
+      "id": "N4-CONJ-002",
+      "blindAnswer": "B",
+      "reason": "書く → 書いて."
+    },
+    {
+      "id": "N4-CONJ-003",
+      "blindAnswer": "A",
+      "reason": "待つ → 待って."
+    },
+    {
+      "id": "N4-CONJ-004",
+      "blindAnswer": "D",
+      "reason": "行く → 行って là ngoại lệ."
+    },
+    {
+      "id": "N4-CONJ-005",
+      "blindAnswer": "C",
+      "reason": "行く → 行かない."
+    },
+    {
+      "id": "N4-CONJ-006",
+      "blindAnswer": "B",
+      "reason": "飲む → 飲まない theo yêu cầu thể ない."
+    },
+    {
+      "id": "N4-CONJ-007",
+      "blindAnswer": "A",
+      "reason": "食べる → 食べない theo yêu cầu thể ない."
+    },
+    {
+      "id": "N4-CONJ-008",
+      "blindAnswer": "D",
+      "reason": "読む → 読んだ."
+    },
+    {
+      "id": "N4-CONJ-009",
+      "blindAnswer": "C",
+      "reason": "買う → 買った."
+    },
+    {
+      "id": "N4-CONJ-010",
+      "blindAnswer": "B",
+      "reason": "来る → 来た（きた）."
+    },
+    {
+      "id": "N4-GRAM-001",
+      "blindAnswer": "A",
+      "reason": "禁煙 là cấm hút thuốc."
+    },
+    {
+      "id": "N4-GRAM-002",
+      "blindAnswer": "D",
+      "reason": "Xin phép dùng てもいいですか."
+    },
+    {
+      "id": "N4-GRAM-003",
+      "blindAnswer": "C",
+      "reason": "Được chụp nhưng cấm flash."
+    },
+    {
+      "id": "N4-GRAM-004",
+      "blindAnswer": "B",
+      "reason": "Cấm mang sách về nhà."
+    },
+    {
+      "id": "N4-GRAM-005",
+      "blindAnswer": "A",
+      "reason": "Không cần tới trường: なくてもいい."
+    },
+    {
+      "id": "N4-GRAM-006",
+      "blindAnswer": "D",
+      "reason": "Bắt buộc trình thẻ: なければなりません."
+    },
+    {
+      "id": "N4-GRAM-007",
+      "blindAnswer": "C",
+      "reason": "Không cần nộp bản gốc."
+    },
+    {
+      "id": "N4-GRAM-008",
+      "blindAnswer": "B",
+      "reason": "Phải tự trả bát đĩa."
+    },
+    {
+      "id": "N4-GRAM-009",
+      "blindAnswer": "A",
+      "reason": "Kinh nghiệm đã trượt tuyết: たことがある."
+    },
+    {
+      "id": "N4-GRAM-010",
+      "blindAnswer": "D",
+      "reason": "Bắt đầu hai năm trước và còn sống ở Tokyo: 二年前から…住んでいます."
+    },
+    {
+      "id": "N4-GRAM-011",
+      "blindAnswer": "C",
+      "reason": "Chuẩn bị trước: コピーしておきます."
+    },
+    {
+      "id": "N4-GRAM-012",
+      "blindAnswer": "B",
+      "reason": "Chưa từng đi tàu thủy: 乗ったことがありません."
+    },
+    {
+      "id": "N4-ORDER-001",
+      "blindAnswer": "A",
+      "reason": "先週買った bổ nghĩa cho くつ."
+    },
+    {
+      "id": "N4-ORDER-002",
+      "blindAnswer": "D",
+      "reason": "駅で会った bổ nghĩa cho 人."
+    },
+    {
+      "id": "N4-ORDER-003",
+      "blindAnswer": "C",
+      "reason": "友だちが作った bổ nghĩa cho お菓子."
+    },
+    {
+      "id": "N4-ORDER-004",
+      "blindAnswer": "B",
+      "reason": "日本語を教えている bổ nghĩa cho 先生."
+    },
+    {
+      "id": "N4-ORDER-005",
+      "blindAnswer": "A",
+      "reason": "富士山に登ったことがありません."
+    },
+    {
+      "id": "N4-ORDER-006",
+      "blindAnswer": "D",
+      "reason": "歯を磨いてから寝ます."
+    },
+    {
+      "id": "N4-ORDER-007",
+      "blindAnswer": "C",
+      "reason": "早く寝たほうがいいです."
+    },
+    {
+      "id": "N4-ORDER-008",
+      "blindAnswer": "B",
+      "reason": "靴を脱がなければなりません."
+    },
+    {
+      "id": "N4-INTERP-001",
+      "blindAnswer": "A",
+      "reason": "Mở mọi ngày trừ Chủ nhật."
+    },
+    {
+      "id": "N4-INTERP-002",
+      "blindAnswer": "D",
+      "reason": "しか…ない tương ứng chỉ có 1000 yên."
+    },
+    {
+      "id": "N4-INTERP-003",
+      "blindAnswer": "C",
+      "reason": "Không cần làm toàn bộ."
+    },
+    {
+      "id": "N4-INTERP-004",
+      "blindAnswer": "B",
+      "reason": "Nếu mưa, tổ chức trong nhà thể chất."
+    },
+    {
+      "id": "N4-INTERP-005",
+      "blindAnswer": "A",
+      "reason": "Gửi email trước khi tới thư viện."
+    },
+    {
+      "id": "N4-INTERP-006",
+      "blindAnswer": "D",
+      "reason": "Nhấn nút thì cửa mở."
+    },
+    {
+      "id": "N4-SHORT-001",
+      "blindAnswer": "C",
+      "reason": "Đã đổi 9 giờ sáng thành 10 giờ sáng."
+    },
+    {
+      "id": "N4-SHORT-002",
+      "blindAnswer": "B",
+      "reason": "Thứ Bảy đóng lúc 4 giờ chiều."
+    },
+    {
+      "id": "N4-SHORT-003",
+      "blindAnswer": "A",
+      "reason": "Đáp án dự kiến là thứ Sáu 14 giờ; thư chỉ hỏi đổi lịch, chưa xác nhận việc đổi."
+    },
+    {
+      "id": "N4-SHORT-004",
+      "blindAnswer": "D",
+      "reason": "Hạn trả là ngày 10/6."
+    },
+    {
+      "id": "N4-SHORT-005",
+      "blindAnswer": "C",
+      "reason": "Do mưa nên học trong lớp."
+    },
+    {
+      "id": "N4-SHORT-006",
+      "blindAnswer": "B",
+      "reason": "Sắp muộn phải gọi điện cho cửa hàng."
+    },
+    {
+      "id": "N4-SHORT-007",
+      "blindAnswer": "A",
+      "reason": "Mất/để quên ví là lý do quay lại ga; đáp án A diễn đạt chắc hơn thông tin gốc."
+    },
+    {
+      "id": "N4-SHORT-008",
+      "blindAnswer": "D",
+      "reason": "Đã có hai chai sữa nên không cần mua."
+    },
+    {
+      "id": "N4-MED-001",
+      "blindAnswer": "C",
+      "reason": "Chỉ Sato đổi giờ bắt đầu từ 16 sang 17 giờ."
+    },
+    {
+      "id": "N4-MED-002",
+      "blindAnswer": "B",
+      "reason": "Nếu mưa tới thẳng lối vào trung tâm công dân."
+    },
+    {
+      "id": "N4-MED-003",
+      "blindAnswer": "A",
+      "reason": "Yêu cầu liên lạc trước 18 giờ thứ Hai, nhưng mâu thuẫn hàng tới thứ Tư mà nhận thứ Ba."
+    },
+    {
+      "id": "N4-MED-004",
+      "blindAnswer": "D",
+      "reason": "Lý do lớn nhất là muốn ăn thong thả."
+    },
+    {
+      "id": "N4-MED-005",
+      "blindAnswer": "C",
+      "reason": "Chuyển sang nghe hội thoại ngắn rồi tự nói."
+    },
+    {
+      "id": "N4-MED-006",
+      "blindAnswer": "B",
+      "reason": "Đề nghị không để xe gần lối vào."
+    },
+    {
+      "id": "N4-LISTEN-001",
+      "blindAnswer": "A",
+      "reason": "Kịch bản đổi giờ họp 14 thành 15 giờ."
+    },
+    {
+      "id": "N4-LISTEN-002",
+      "blindAnswer": "D",
+      "reason": "Chuyển sang lớp ở tầng 2."
+    },
+    {
+      "id": "N4-LISTEN-003",
+      "blindAnswer": "C",
+      "reason": "Đến quầy trước 9 giờ 30 sáng."
+    },
+    {
+      "id": "N4-LISTEN-004",
+      "blindAnswer": "B",
+      "reason": "Chuyển giao hàng sang chiều thứ Sáu."
+    },
+    {
+      "id": "N4-LISTEN-005",
+      "blindAnswer": "A",
+      "reason": "Đóng cửa sổ, không tắt điện."
+    },
+    {
+      "id": "N4-LISTEN-006",
+      "blindAnswer": "D",
+      "reason": "Nếu cửa hàng đóng thì về thẳng không mua bánh."
+    },
+    {
+      "id": "N4-LISTEN-007",
+      "blindAnswer": "C",
+      "reason": "Trang 3 không cần sao hôm nay."
+    },
+    {
+      "id": "N4-LISTEN-008",
+      "blindAnswer": "B",
+      "reason": "Phải gọi cửa hàng trước giờ bắt đầu việc."
+    },
+    {
+      "id": "N4-COMM-001",
+      "blindAnswer": "A",
+      "reason": "Nhờ quản lý đổi giờ bắt đầu sang 17 giờ."
+    },
+    {
+      "id": "N4-COMM-002",
+      "blindAnswer": "D",
+      "reason": "Nhờ giáo viên nói lại giờ."
+    },
+    {
+      "id": "N4-COMM-003",
+      "blindAnswer": "C",
+      "reason": "Hỏi tàu này có đến ga Tokyo không."
+    },
+    {
+      "id": "N4-COMM-004",
+      "blindAnswer": "B",
+      "reason": "Xin phép bạn trả sách thứ Hai tới."
+    }
+  ],
+  "issues": [
+    {
+      "id": "N4-SHORT-003",
+      "severity": "major",
+      "type": "unconfirmed_plan",
+      "blindAnswer": "A",
+      "multipleValidAnswers": false,
+      "insufficientEvidence": true,
+      "reason": "金曜日に変更できますか là lời đề nghị đổi ngày, chưa có chấp thuận hay xác nhận; câu hỏi lại coi lịch mới là chắc chắn.",
+      "fix": "Đổi thành 金曜日の午後2時に変更しました。来たら、受付で名前を言ってください。 Hoặc hỏi thư muốn đổi sang lúc nào."
+    },
+    {
+      "id": "N4-MED-003",
+      "severity": "block",
+      "type": "chronological_contradiction",
+      "blindAnswer": "A",
+      "multipleValidAnswers": false,
+      "insufficientEvidence": false,
+      "reason": "Hàng tới cửa hàng thứ Tư nhưng thông báo cho nhận thứ Ba mà không nói có hàng trước đó hay cơ chế nhận sớm.",
+      "fix": "Đổi ngày nhận ngoại lệ 火曜日 thành 木曜日 trong toàn đoạn và câu hỏi; đổi hạn liên lạc tương ứng thành 水曜日の午後6時; hoặc nói rõ hàng tới thứ Hai, nhận thường từ thứ Tư."
+    },
+    {
+      "id": "N4-SHORT-007",
+      "severity": "minor",
+      "type": "evidence_overstatement",
+      "blindAnswer": "A",
+      "multipleValidAnswers": false,
+      "insufficientEvidence": false,
+      "reason": "Chỉ biết ví không có và có thể để trên ghế; chưa biết chắc đã quên. A gần đúng nhưng gán việc quên là điều đã biết.",
+      "fix": "Đổi A thành 財布を探したいからです。 hoặc 駅に財布を置いたかもしれないからです。"
+    }
+  ],
+  "generalNotes": [
+    "Không phát hiện hai lựa chọn cùng hợp lệ theo đúng yêu cầu nêu trong đề.",
+    "Nhiều lựa chọn là dạng ghép sai rất rõ; mức phân biệt thấp, phù hợp kiểm nền ban đầu hơn luyện mô phỏng đề thi.",
+    "Nội dung từ vựng 書類・原本・会員証・資料・市民センター・協力 và câu đọc dài có thể nặng với học viên nền yếu; cần xem hỗ trợ và prerequisite ở bước hai.",
+    "Chưa đọc khóa, giải thích, prerequisite, nguồn hay bốn vai nói tại thời điểm lưu tệp này."
+  ]
+}

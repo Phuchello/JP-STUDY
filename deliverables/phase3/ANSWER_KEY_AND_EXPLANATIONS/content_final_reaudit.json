@@ -1,0 +1,1061 @@
+{
+  "reportVersion": "content-final-reaudit-2026.10.15",
+  "decision": "PASS_FOR_LIMITED_PILOT",
+  "decisionVi": "Có thể phát hành thí điểm 80 câu và 4 vai nói trong phạm vi QA nội dung đã thực hiện; không còn phát hiện block/major/minor cụ thể đang mở từ các lượt kiểm.",
+  "verifiedFiles": [
+    {
+      "Path": "deliverables/phase3/JLPT_PRACTICE\\question_bank.json",
+      "Hash": "41643716454835D1A8F78A8F7626EBE74AC2DCA9F68B55EF3194CACBD3C2E3F0"
+    },
+    {
+      "Path": "deliverables/phase3/JAPANESE_PATTERN_LIBRARY\\patterns.json",
+      "Hash": "D041F271066E59B3FFC458E0DAE7F1D1BA4B93296A6B6D2FEC4909FE9EA2E9B4"
+    }
+  ],
+  "scopeThisFinalTurn": {
+    "bankQuestionsFullyReread": 1,
+    "bankQuestionIds": [
+      "N4-SHORT-007"
+    ],
+    "allBankMappingsReadAndCompared": 80,
+    "mappingMatches": 80,
+    "mappingChangesRequested": 36,
+    "changedOrNewPatternCardsFullyRead": 11,
+    "patternIds": [
+      "G04",
+      "G06",
+      "G07",
+      "R03",
+      "T03",
+      "T04",
+      "T05",
+      "T08",
+      "T10",
+      "T11",
+      "G09"
+    ],
+    "practiceExamplesReadWithinThoseCards": 13,
+    "newPracticeExamplesRead": 3,
+    "newPracticeCard": "G09",
+    "finalFollowupFieldsReread": 8,
+    "note": "Tám trường cuối là formula của T03/T04/T05/T08/T10/T11 và typicalMisunderstanding của G06/T11. Không tuyên bố đã giải mù lại toàn80 trong lượt cuối."
+  },
+  "cumulativeScope": {
+    "originalBankQuestionsBlindSolvedBeforeKey": 80,
+    "bankKeysAndLanguageReviewed": 80,
+    "bankDistractorsReviewed": 240,
+    "speakingRolesReviewed": 4,
+    "previousReauditSelectedMCQ": 22,
+    "patternCardsReviewed": 31,
+    "grammarCards": 9,
+    "listeningCards": 6,
+    "readingCards": 4,
+    "templateCards": 12,
+    "unscoredInstructionalPracticeReviewed": 37,
+    "instructionalExamplesAddedToBank": 0,
+    "audioAcousticReview": false,
+    "nativeTeacherReview": false,
+    "realLearnerCalibration": false
+  },
+  "currentCounts": {
+    "bankQuestions": 80,
+    "speakingRoles": 4,
+    "patternCards": 31,
+    "unscoredPractice": 37
+  },
+  "originalFindingResolutions": [
+    {
+      "findingId": "F01",
+      "status": "resolved",
+      "ids": [
+        "N4-MED-003"
+      ]
+    },
+    {
+      "findingId": "F02",
+      "status": "resolved",
+      "ids": [
+        "N4-SHORT-003"
+      ]
+    },
+    {
+      "findingId": "F03",
+      "status": "resolved",
+      "ids": [
+        "N4-SHORT-007"
+      ]
+    },
+    {
+      "findingId": "F04",
+      "status": "resolved",
+      "ids": [
+        "N4-SHORT-001"
+      ]
+    },
+    {
+      "findingId": "F05",
+      "status": "resolved",
+      "ids": [
+        "N4-MED-004"
+      ]
+    },
+    {
+      "findingId": "F06",
+      "status": "resolved",
+      "ids": [
+        "N4-MED-006"
+      ]
+    },
+    {
+      "findingId": "F07",
+      "status": "resolved",
+      "ids": [
+        "N4-LISTEN-008"
+      ]
+    },
+    {
+      "findingId": "F08",
+      "status": "resolved",
+      "ids": [
+        "N4-INTERP-001",
+        "N4-INTERP-002",
+        "N4-INTERP-003",
+        "N4-INTERP-005"
+      ]
+    },
+    {
+      "findingId": "F09",
+      "status": "resolved",
+      "ids": [
+        "N4-ORDER-001",
+        "N4-ORDER-002",
+        "N4-ORDER-003",
+        "N4-ORDER-004"
+      ]
+    },
+    {
+      "findingId": "F10",
+      "status": "resolved",
+      "ids": [
+        "N4-GRAM-011"
+      ]
+    },
+    {
+      "findingId": "F11",
+      "status": "resolved",
+      "ids": [
+        "N4-INTERP-006"
+      ]
+    },
+    {
+      "findingId": "F12",
+      "status": "resolved",
+      "ids": [
+        "N4-GRAM-006",
+        "N4-GRAM-007",
+        "N4-SHORT-005",
+        "N4-MED-002",
+        "N4-MED-006"
+      ]
+    },
+    {
+      "findingId": "F13",
+      "status": "resolved",
+      "ids": [
+        "N4-SPK-001"
+      ]
+    },
+    {
+      "findingId": "F14",
+      "status": "resolved",
+      "ids": [
+        "N4-SPK-002"
+      ]
+    },
+    {
+      "findingId": "F15",
+      "status": "resolved",
+      "ids": [
+        "N4-SPK-003"
+      ]
+    },
+    {
+      "findingId": "F16",
+      "status": "resolved",
+      "ids": [
+        "N4-SPK-004"
+      ]
+    }
+  ],
+  "reAuditFindingResolutions": [
+    {
+      "findingId": "RA01",
+      "status": "resolved",
+      "ids": [
+        "N4-SHORT-007"
+      ],
+      "verification": "Đã đọc lại đủ câu SHORT007; đáp án D, explanationVi, nhiễu C và commonMistakes đều giữ mức có thể."
+    },
+    {
+      "findingId": "RA02",
+      "status": "resolved",
+      "ids": [
+        "N4-PART-007",
+        "N4-PART-008",
+        "N4-PART-009",
+        "N4-PART-010",
+        "N4-GRAM-001",
+        "N4-GRAM-002",
+        "N4-GRAM-003",
+        "N4-GRAM-004",
+        "N4-GRAM-005",
+        "N4-GRAM-006",
+        "N4-GRAM-007",
+        "N4-GRAM-008",
+        "N4-ORDER-005",
+        "N4-ORDER-007",
+        "N4-ORDER-008",
+        "N4-INTERP-002",
+        "N4-INTERP-003",
+        "N4-INTERP-005",
+        "N4-SHORT-002",
+        "N4-SHORT-004",
+        "N4-SHORT-006",
+        "N4-SHORT-008",
+        "N4-MED-002",
+        "N4-MED-003",
+        "N4-MED-006",
+        "N4-LISTEN-001",
+        "N4-LISTEN-002",
+        "N4-LISTEN-003",
+        "N4-LISTEN-004",
+        "N4-LISTEN-005",
+        "N4-LISTEN-006",
+        "N4-LISTEN-007",
+        "N4-LISTEN-008",
+        "N4-COMM-002",
+        "N4-COMM-003",
+        "N4-COMM-004"
+      ],
+      "verification": "80/80 mapping khớp quyết định từng ID; G09 đã được đọc và hỗ trợ các mục tiêu nhận mapping mới."
+    },
+    {
+      "findingId": "RA03",
+      "status": "resolved",
+      "ids": [
+        "T03",
+        "T04",
+        "T05",
+        "T08",
+        "T10",
+        "T11"
+      ],
+      "verification": "Đã đọc khung loại từ và ví dụ; sáu formula đã được đồng bộ với template."
+    },
+    {
+      "findingId": "RA04",
+      "status": "resolved",
+      "ids": [
+        "G07"
+      ],
+      "verification": "G07 đã ghi V/イA普通形なら và N/ナA bỏだ; 学生なら/静かなら."
+    },
+    {
+      "findingId": "RA05",
+      "status": "resolved",
+      "ids": [
+        "G04"
+      ],
+      "verification": "G04 không còn buộc kết thúc cuộc gọi lúc5."
+    },
+    {
+      "findingId": "RA06",
+      "status": "resolved",
+      "ids": [
+        "R03"
+      ],
+      "verification": "R03 dịch thông thường và ngoại lệ thứHai."
+    },
+    {
+      "findingId": "RA07",
+      "status": "resolved",
+      "ids": [
+        "T11"
+      ],
+      "verification": "T11 commonMistake và typicalMisunderstanding đều giới hạn cặpなぜなら trong khung bài tập."
+    },
+    {
+      "findingId": "RA08",
+      "status": "resolved",
+      "ids": [
+        "G06"
+      ],
+      "verification": "G06 có cách đọcあく/あける và cả trường nhắc lỗi đều giới hạn cặp đang học."
+    }
+  ],
+  "g09": {
+    "status": "pass",
+    "grammarReview": "Bốn nghĩa và cách tạo hình thái đều đúng trong phạm vi cơ bản; なくてもいい không bị đồng nhất với cấm; なければならない diễn tả nghĩa vụ/sự cần thiết.",
+    "sourceReview": "Đã mở trực tiếp cả hai nguồn JF mới; TUFS058/059 đã được đọc ở lượt trước. Nguồn hỗ trợ đúng mục tiêu.",
+    "sources": [
+      {
+        "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/058.html",
+        "supports": "Cho phép và xin phép vớiてもいい."
+      },
+      {
+        "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/059.html",
+        "supports": "Cấm vớiてはいけません."
+      },
+      {
+        "url": "https://www.jpf.go.jp/j/urawa/j_rsorcs/textbook/setsumei_pdf/setsumei14_2.pdf",
+        "supports": "Sự cần thiết/nghĩa vụ vớiなければなりません."
+      },
+      {
+        "url": "https://ba.jpf.go.jp/wp-content/uploads/2022/03/Akiko5_bunpoo382002.pdf",
+        "supports": "Đối chiếu quy định, nghĩa vụ, miễn nghĩa vụ và xin phép ở trang1–3."
+      }
+    ],
+    "practice": [
+      {
+        "item": 1,
+        "chosenIndex": 0,
+        "suppliedIndex": 0,
+        "correctText": "この紙を出す必要はありません。",
+        "reasonVi": "Không cần nộp, không phải cấm nộp.",
+        "unique": true
+      },
+      {
+        "item": 2,
+        "chosenIndex": 1,
+        "suppliedIndex": 1,
+        "correctText": "写真を撮ってはいけません。",
+        "reasonVi": "禁止 tương ứng lệnh cấm, không phải cho phép.",
+        "unique": true
+      },
+      {
+        "item": 3,
+        "chosenIndex": 0,
+        "suppliedIndex": 0,
+        "correctText": "名前を書かなければなりません。",
+        "reasonVi": "必ず yêu cầu ghi tên; không thể thay bằng miễn nghĩa vụ.",
+        "unique": true
+      }
+    ],
+    "blind": false,
+    "note": "Phụ lục được đọc cùng khóa, không gọi là lượt giải mù."
+  },
+  "mappingChecks": [
+    {
+      "id": "N4-VOC-001",
+      "expectedPatternId": null,
+      "actualPatternId": null,
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-VOC-002",
+      "expectedPatternId": null,
+      "actualPatternId": null,
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-VOC-003",
+      "expectedPatternId": null,
+      "actualPatternId": null,
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-VOC-004",
+      "expectedPatternId": null,
+      "actualPatternId": null,
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-VOC-005",
+      "expectedPatternId": null,
+      "actualPatternId": null,
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-VOC-006",
+      "expectedPatternId": null,
+      "actualPatternId": null,
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-VOC-007",
+      "expectedPatternId": null,
+      "actualPatternId": null,
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-VOC-008",
+      "expectedPatternId": null,
+      "actualPatternId": null,
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-PART-001",
+      "expectedPatternId": "G02",
+      "actualPatternId": "G02",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-PART-002",
+      "expectedPatternId": "G02",
+      "actualPatternId": "G02",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-PART-003",
+      "expectedPatternId": "G02",
+      "actualPatternId": "G02",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-PART-004",
+      "expectedPatternId": "G02",
+      "actualPatternId": "G02",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-PART-005",
+      "expectedPatternId": "G04",
+      "actualPatternId": "G04",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-PART-006",
+      "expectedPatternId": "G04",
+      "actualPatternId": "G04",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-PART-007",
+      "expectedPatternId": null,
+      "actualPatternId": null,
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-PART-008",
+      "expectedPatternId": null,
+      "actualPatternId": null,
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-PART-009",
+      "expectedPatternId": null,
+      "actualPatternId": null,
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-PART-010",
+      "expectedPatternId": null,
+      "actualPatternId": null,
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-CONJ-001",
+      "expectedPatternId": "G08",
+      "actualPatternId": "G08",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-CONJ-002",
+      "expectedPatternId": "G08",
+      "actualPatternId": "G08",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-CONJ-003",
+      "expectedPatternId": "G08",
+      "actualPatternId": "G08",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-CONJ-004",
+      "expectedPatternId": "G08",
+      "actualPatternId": "G08",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-CONJ-005",
+      "expectedPatternId": "G08",
+      "actualPatternId": "G08",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-CONJ-006",
+      "expectedPatternId": "G08",
+      "actualPatternId": "G08",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-CONJ-007",
+      "expectedPatternId": "G08",
+      "actualPatternId": "G08",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-CONJ-008",
+      "expectedPatternId": "G08",
+      "actualPatternId": "G08",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-CONJ-009",
+      "expectedPatternId": "G08",
+      "actualPatternId": "G08",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-CONJ-010",
+      "expectedPatternId": "G08",
+      "actualPatternId": "G08",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-GRAM-001",
+      "expectedPatternId": "G09",
+      "actualPatternId": "G09",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-GRAM-002",
+      "expectedPatternId": "G09",
+      "actualPatternId": "G09",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-GRAM-003",
+      "expectedPatternId": "G09",
+      "actualPatternId": "G09",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-GRAM-004",
+      "expectedPatternId": "G09",
+      "actualPatternId": "G09",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-GRAM-005",
+      "expectedPatternId": "G09",
+      "actualPatternId": "G09",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-GRAM-006",
+      "expectedPatternId": "G09",
+      "actualPatternId": "G09",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-GRAM-007",
+      "expectedPatternId": "G09",
+      "actualPatternId": "G09",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-GRAM-008",
+      "expectedPatternId": "G09",
+      "actualPatternId": "G09",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-GRAM-009",
+      "expectedPatternId": "G08",
+      "actualPatternId": "G08",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-GRAM-010",
+      "expectedPatternId": "G08",
+      "actualPatternId": "G08",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-GRAM-011",
+      "expectedPatternId": "G08",
+      "actualPatternId": "G08",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-GRAM-012",
+      "expectedPatternId": "G08",
+      "actualPatternId": "G08",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-ORDER-001",
+      "expectedPatternId": "R04",
+      "actualPatternId": "R04",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-ORDER-002",
+      "expectedPatternId": "R04",
+      "actualPatternId": "R04",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-ORDER-003",
+      "expectedPatternId": "R04",
+      "actualPatternId": "R04",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-ORDER-004",
+      "expectedPatternId": "R04",
+      "actualPatternId": "R04",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-ORDER-005",
+      "expectedPatternId": "G08",
+      "actualPatternId": "G08",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-ORDER-006",
+      "expectedPatternId": "G05",
+      "actualPatternId": "G05",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-ORDER-007",
+      "expectedPatternId": null,
+      "actualPatternId": null,
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-ORDER-008",
+      "expectedPatternId": "G09",
+      "actualPatternId": "G09",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-INTERP-001",
+      "expectedPatternId": "R03",
+      "actualPatternId": "R03",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-INTERP-002",
+      "expectedPatternId": null,
+      "actualPatternId": null,
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-INTERP-003",
+      "expectedPatternId": "G09",
+      "actualPatternId": "G09",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-INTERP-004",
+      "expectedPatternId": "G07",
+      "actualPatternId": "G07",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-INTERP-005",
+      "expectedPatternId": "G05",
+      "actualPatternId": "G05",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-INTERP-006",
+      "expectedPatternId": "G07",
+      "actualPatternId": "G07",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-SHORT-001",
+      "expectedPatternId": "L01",
+      "actualPatternId": "L01",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-SHORT-002",
+      "expectedPatternId": "R03",
+      "actualPatternId": "R03",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-SHORT-003",
+      "expectedPatternId": "L01",
+      "actualPatternId": "L01",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-SHORT-004",
+      "expectedPatternId": "G04",
+      "actualPatternId": "G04",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-SHORT-005",
+      "expectedPatternId": "R02",
+      "actualPatternId": "R02",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-SHORT-006",
+      "expectedPatternId": "L02",
+      "actualPatternId": "L02",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-SHORT-007",
+      "expectedPatternId": "R02",
+      "actualPatternId": "R02",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-SHORT-008",
+      "expectedPatternId": "G09",
+      "actualPatternId": "G09",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-MED-001",
+      "expectedPatternId": "L01",
+      "actualPatternId": "L01",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-MED-002",
+      "expectedPatternId": "R03",
+      "actualPatternId": "R03",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-MED-003",
+      "expectedPatternId": "R03",
+      "actualPatternId": "R03",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-MED-004",
+      "expectedPatternId": "R02",
+      "actualPatternId": "R02",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-MED-005",
+      "expectedPatternId": "R02",
+      "actualPatternId": "R02",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-MED-006",
+      "expectedPatternId": "R01",
+      "actualPatternId": "R01",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-LISTEN-001",
+      "expectedPatternId": "L01",
+      "actualPatternId": "L01",
+      "expectedRelatedTemplate": "T06",
+      "actualRelatedTemplate": "T06",
+      "pass": true
+    },
+    {
+      "id": "N4-LISTEN-002",
+      "expectedPatternId": "L01",
+      "actualPatternId": "L01",
+      "expectedRelatedTemplate": "T06",
+      "actualRelatedTemplate": "T06",
+      "pass": true
+    },
+    {
+      "id": "N4-LISTEN-003",
+      "expectedPatternId": "L02",
+      "actualPatternId": "L02",
+      "expectedRelatedTemplate": "T06",
+      "actualRelatedTemplate": "T06",
+      "pass": true
+    },
+    {
+      "id": "N4-LISTEN-004",
+      "expectedPatternId": "L01",
+      "actualPatternId": "L01",
+      "expectedRelatedTemplate": "T06",
+      "actualRelatedTemplate": "T06",
+      "pass": true
+    },
+    {
+      "id": "N4-LISTEN-005",
+      "expectedPatternId": "L02",
+      "actualPatternId": "L02",
+      "expectedRelatedTemplate": "T07",
+      "actualRelatedTemplate": "T07",
+      "pass": true
+    },
+    {
+      "id": "N4-LISTEN-006",
+      "expectedPatternId": "L02",
+      "actualPatternId": "L02",
+      "expectedRelatedTemplate": "T07",
+      "actualRelatedTemplate": "T07",
+      "pass": true
+    },
+    {
+      "id": "N4-LISTEN-007",
+      "expectedPatternId": "L02",
+      "actualPatternId": "L02",
+      "expectedRelatedTemplate": "T07",
+      "actualRelatedTemplate": "T07",
+      "pass": true
+    },
+    {
+      "id": "N4-LISTEN-008",
+      "expectedPatternId": "L02",
+      "actualPatternId": "L02",
+      "expectedRelatedTemplate": "T05",
+      "actualRelatedTemplate": "T05",
+      "pass": true
+    },
+    {
+      "id": "N4-COMM-001",
+      "expectedPatternId": "T03",
+      "actualPatternId": "T03",
+      "expectedRelatedTemplate": "T03",
+      "actualRelatedTemplate": "T03",
+      "pass": true
+    },
+    {
+      "id": "N4-COMM-002",
+      "expectedPatternId": "T01",
+      "actualPatternId": "T01",
+      "expectedRelatedTemplate": "T01",
+      "actualRelatedTemplate": "T01",
+      "pass": true
+    },
+    {
+      "id": "N4-COMM-003",
+      "expectedPatternId": null,
+      "actualPatternId": null,
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    },
+    {
+      "id": "N4-COMM-004",
+      "expectedPatternId": "G09",
+      "actualPatternId": "G09",
+      "expectedRelatedTemplate": null,
+      "actualRelatedTemplate": null,
+      "pass": true
+    }
+  ],
+  "finalSyncedFieldChecks": [
+    {
+      "id": "T03",
+      "field": "formula",
+      "pass": true,
+      "note": "Đã đọc nội dung; loại từ/khung đã thống nhất với template."
+    },
+    {
+      "id": "T04",
+      "field": "formula",
+      "pass": true,
+      "note": "Đã đọc nội dung; loại từ/khung đã thống nhất với template."
+    },
+    {
+      "id": "T05",
+      "field": "formula",
+      "pass": true,
+      "note": "Đã đọc nội dung; loại từ/khung đã thống nhất với template."
+    },
+    {
+      "id": "T08",
+      "field": "formula",
+      "pass": true,
+      "note": "Đã đọc nội dung; loại từ/khung đã thống nhất với template."
+    },
+    {
+      "id": "T10",
+      "field": "formula",
+      "pass": true,
+      "note": "Đã đọc nội dung; loại từ/khung đã thống nhất với template."
+    },
+    {
+      "id": "T11",
+      "field": "formula",
+      "pass": true,
+      "note": "Đã đọc nội dung; loại từ/khung đã thống nhất với template."
+    },
+    {
+      "id": "G06",
+      "field": "typicalMisunderstanding",
+      "pass": true,
+      "note": "Đã đọc nội dung; phạm vi giải thích đã được giới hạn."
+    },
+    {
+      "id": "T11",
+      "field": "typicalMisunderstanding",
+      "pass": true,
+      "note": "Đã đọc nội dung; phạm vi giải thích đã được giới hạn."
+    }
+  ],
+  "openFindings": [],
+  "limits": [
+    "QA do mô hình thực hiện, không phải xác nhận của giáo viên bản ngữ.",
+    "Chưa thử trên người học thực; mức nềnN4, độ khó, thời gian và độ phân biệt chưa được hiệu chuẩn.",
+    "Không phải đề JLPT chính thức; không dùng điểm bộ này làm kết luận đỗ/trượt hay chứng nhận trình độ.",
+    "Chỉ kiểm kịch bản chữ và khóa câu nghe; không nghe hay xác nhận phát âm, nhịp, ngữ điệu, tốc độ hoặc thiết bịTTS.",
+    "Một số nguồnJ04 vẫn ở cấp khóa; không khẳng định mọi từ/mẫu đã có dẫn đúng trang.",
+    "Không kiểm lại giao diện che thẻ người đối thoại, cơ chế chấm hoặc bảo toàn dữ liệu người học trong nhiệm vụ QA nội dung này.",
+    "Kết luận dựa trên lượt đầu đủ80+4 và các lượt kiểm thay đổi nối tiếp, không phải một lượt giải mù mới của toàn bộ80 sauxáo."
+  ],
+  "reviewerActions": "Chỉ đọc tệp nguồn và ghi báo cáo trongtmp; không sửa ngân hàng, không tạo thêm tác tử, không mở rộng ngân hàng.",
+  "postPassMetadataClosure": {
+    "date": "2026-10-15",
+    "phase": "post-pass-metadata-closure",
+    "finalEightFieldsReread": 8,
+    "finalEightFieldsPassed": 8,
+    "questionQaStamped": 80,
+    "roleQaStamped": 4,
+    "cardQaStamped": 31,
+    "bankStatus": "reviewed-pilot-release",
+    "note": "Metadata QA được đóng sau kết luận PASS. Đã đọc lại đúng tám trường đồng bộ và trạng thái QA hiện tại, rồi tính lại SHA256 của cả hai tệp FINAL. Đây là chốt dấu vết sau PASS, không phải giải lại 80 câu. Các hash trong verifiedFiles hiện tại thay thế hash snapshot trước stamp."
+  }
+}

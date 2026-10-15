@@ -1,0 +1,140 @@
+[
+  {
+    "file": "JAPANESE_WRITING_SPEAKING_TEMPLATES.pdf",
+    "pages": 6,
+    "checks": [
+      {
+        "page": 1,
+        "characters": 1768,
+        "outOfMargins": [],
+        "replacementGlyph": false
+      },
+      {
+        "page": 2,
+        "characters": 1788,
+        "outOfMargins": [],
+        "replacementGlyph": false
+      },
+      {
+        "page": 3,
+        "characters": 1754,
+        "outOfMargins": [],
+        "replacementGlyph": false
+      },
+      {
+        "page": 4,
+        "characters": 1705,
+        "outOfMargins": [],
+        "replacementGlyph": false
+      },
+      {
+        "page": 5,
+        "characters": 1789,
+        "outOfMargins": [],
+        "replacementGlyph": false
+      },
+      {
+        "page": 6,
+        "characters": 1984,
+        "outOfMargins": [],
+        "replacementGlyph": false
+      }
+    ]
+  },
+  {
+    "file": "LEARNING_METHODS.pdf",
+    "pages": 5,
+    "checks": [
+      {
+        "page": 1,
+        "characters": 1350,
+        "outOfMargins": [],
+        "replacementGlyph": false
+      },
+      {
+        "page": 2,
+        "characters": 1305,
+        "outOfMargins": [],
+        "replacementGlyph": false
+      },
+      {
+        "page": 3,
+        "characters": 930,
+        "outOfMargins": [],
+        "replacementGlyph": false
+      },
+      {
+        "page": 4,
+        "characters": 1522,
+        "outOfMargins": [],
+        "replacementGlyph": false
+      },
+      {
+        "page": 5,
+        "characters": 1565,
+        "outOfMargins": [],
+        "replacementGlyph": false
+      }
+    ]
+  },
+  {
+    "file": "LISTENING_READING_CHEATSHEETS.pdf",
+    "pages": 5,
+    "checks": [
+      {
+        "page": 1,
+        "characters": 1173,
+        "outOfMargins": [],
+        "replacementGlyph": false
+      },
+      {
+        "page": 2,
+        "characters": 994,
+        "outOfMargins": [],
+        "replacementGlyph": false
+      },
+      {
+        "page": 3,
+        "characters": 1090,
+        "outOfMargins": [],
+        "replacementGlyph": false
+      },
+      {
+        "page": 4,
+        "characters": 1069,
+        "outOfMargins": [],
+        "replacementGlyph": false
+      },
+      {
+        "page": 5,
+        "characters": 1460,
+        "outOfMargins": [],
+        "replacementGlyph": false
+      }
+    ]
+  },
+  {
+    "file": "START_HERE.pdf",
+    "pages": 3,
+    "checks": [
+      {
+        "page": 1,
+        "characters": 1120,
+        "outOfMargins": [],
+        "replacementGlyph": false
+      },
+      {
+        "page": 2,
+        "characters": 1469,
+        "outOfMargins": [],
+        "replacementGlyph": false
+      },
+      {
+        "page": 3,
+        "characters": 1597,
+        "outOfMargins": [],
+        "replacementGlyph": false
+      }
+    ]
+  }
+]

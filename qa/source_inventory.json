@@ -1,0 +1,2705 @@
+{
+  "snapshotDate": "2026-10-15",
+  "scope": "Relative source paths and source SHA-256; no private payload. Originals remain local. Runtime junctions not followed. This file inventories source workspace before synchronization, not its own publication checkout.",
+  "sourceFileCount": 299,
+  "summary": {
+    "LOCAL_ONLY": 165,
+    "PUBLISHED_OR_PUBLIC_COUNTERPART": 134
+  },
+  "excludedDirectories": [
+    {
+      "path": "JP-STUDY",
+      "status": "EXCLUDED_DIRECTORY",
+      "reason": "checkout, runtime dependency, cache, or sync working files"
+    },
+    {
+      "path": "tmp/jp-sync",
+      "status": "EXCLUDED_DIRECTORY",
+      "reason": "checkout, runtime dependency, cache, or sync working files"
+    },
+    {
+      "path": "tmp/jlpt-2026/node_modules",
+      "status": "EXCLUDED_DIRECTORY",
+      "reason": "checkout, runtime dependency, cache, or sync working files"
+    },
+    {
+      "path": "tmp/jlpt-phase3/node_modules",
+      "status": "EXCLUDED_DIRECTORY",
+      "reason": "checkout, runtime dependency, cache, or sync working files"
+    },
+    {
+      "path": "tmp/jlpt-v2/node_modules",
+      "status": "EXCLUDED_DIRECTORY",
+      "reason": "checkout, runtime dependency, cache, or sync working files"
+    },
+    {
+      "path": "tmp/jlpt-v3/node_modules",
+      "status": "EXCLUDED_DIRECTORY",
+      "reason": "checkout, runtime dependency, cache, or sync working files"
+    }
+  ],
+  "files": [
+    {
+      "path": "Buoi1.cpp",
+      "bytes": 260,
+      "sha256": "bbda0fb9cd61b7ddd3814906ac42f68fda94f33aa4f61ad2fa8221cf2bd80ff1",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Unrelated programming/editor material, outside JP-STUDY learning artifacts."
+    },
+    {
+      "path": "Buoi1.exe",
+      "bytes": 76985,
+      "sha256": "6021fac91e1ca2c5ebfdc76c35f431cb98a55e8c1d736bbd4a964bfc122790e6",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Unrelated programming/editor material, outside JP-STUDY learning artifacts."
+    },
+    {
+      "path": "Code.docx",
+      "bytes": 53778,
+      "sha256": "1c7c63d768e87271dbe85ab8d0b07b362792550494b421ed5d01515870693b69",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Unrelated programming/editor material, outside JP-STUDY learning artifacts."
+    },
+    {
+      "path": "JLPT_PHASE3_PILOT.zip",
+      "bytes": 755320,
+      "sha256": "cf7b312c70f6fb37ade5716056dad7cf496edc68b4ee94c1764176446d07801a",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Redundant release archive; approved artifacts are published individually."
+    },
+    {
+      "path": ".cph/.Buoi1.cpp_74744012c347aad16753ffb1cc3f9dd9.prob",
+      "bytes": 349,
+      "sha256": "507f7bc97fefbddb28a05d834c227c741a56e79edfaeee1493fcfa548d3de123",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Unrelated programming/editor material, outside JP-STUDY learning artifacts."
+    },
+    {
+      "path": ".cph/.Buoi1.cpp_b9aa4f4e4fb1a46e75938f31d4493358.prob",
+      "bytes": 281,
+      "sha256": "c92af699aa7f4cd06cfa5c1f5909694e0436d85dfe3f5e54d36782bc145648ac",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Unrelated programming/editor material, outside JP-STUDY learning artifacts."
+    },
+    {
+      "path": ".vscode/tasks.json",
+      "bytes": 735,
+      "sha256": "fb4d429b42a6f24ee825bf7678215e4aa31c7f3381cb9d9971cb78d92eecbf47",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Unrelated programming/editor material, outside JP-STUDY learning artifacts."
+    },
+    {
+      "path": "FINAL/GEMINI_MASTER_TUTOR.md",
+      "bytes": 7667,
+      "sha256": "98864e101a953591612cb97d6dd356595f50b04625ecd22e628d0dd9eead8858",
+      "status": "VERIFIED",
+      "publishedPath": "archive/phase2/GEMINI_MASTER_TUTOR.md",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "2014cf58755e02c7596dbbcb895449268b3f98f41249af0fc1e3add1851877b4"
+    },
+    {
+      "path": "FINAL/JLPT_DIAGNOSTIC_GUIDE.pdf",
+      "bytes": 116564,
+      "sha256": "fd03282d92550bb7b0d36ffea86f05a35626f3f9b381383f1fd4c9f6e52d47ee",
+      "status": "VERIFIED",
+      "publishedPath": "archive/phase2/JLPT_DIAGNOSTIC_GUIDE.pdf",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "fd03282d92550bb7b0d36ffea86f05a35626f3f9b381383f1fd4c9f6e52d47ee"
+    },
+    {
+      "path": "FINAL/JLPT_PROGRESS_TRACKER_v2.xlsx",
+      "bytes": 44748,
+      "sha256": "2af9af925526ab938ffb3edab61d71ba6165beea04aede0da90dfd5006885252",
+      "status": "VERIFIED",
+      "publishedPath": "archive/phase2/JLPT_PROGRESS_TRACKER_v2.xlsx",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "2af9af925526ab938ffb3edab61d71ba6165beea04aede0da90dfd5006885252"
+    },
+    {
+      "path": "FINAL/JLPT_RESEARCH_PLAN_v2.md",
+      "bytes": 15200,
+      "sha256": "b27dc4afc8417fd1f3b44f0c53691159d78b0789fc767d8f078e670de03f4035",
+      "status": "VERIFIED",
+      "publishedPath": "archive/phase2/JLPT_RESEARCH_PLAN_v2.md",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "d70d5c57f5c3e836d62a9865fd9520c27932269c9a49b026affd9dbee659d7bb"
+    },
+    {
+      "path": "FINAL/JLPT_START_HERE.pdf",
+      "bytes": 104236,
+      "sha256": "28900e17196c742451f3e775361fd9fd6ae63b0ef1ee0fbd1b308ce9c77982c3",
+      "status": "VERIFIED",
+      "publishedPath": "archive/phase2/JLPT_START_HERE.pdf",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "28900e17196c742451f3e775361fd9fd6ae63b0ef1ee0fbd1b308ce9c77982c3"
+    },
+    {
+      "path": "FINAL/QA_REPORT.md",
+      "bytes": 5370,
+      "sha256": "0a9cb1b1f8ae86cae9523b06e3c563e52dfac325c225009c82f46e1c0cbeb8d5",
+      "status": "VERIFIED",
+      "publishedPath": "archive/phase2/QA_REPORT.md",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "33caec522dde47ba40ddfef91b6f628626b7cc70b30f7f6f8cfbfdeafeaaf5f3"
+    },
+    {
+      "path": "FINAL_PHASE3/GEMINI_ERROR_TUTOR.md",
+      "bytes": 3194,
+      "sha256": "01744e9ce16360e7b387f955608ee0daf20d3c39d9960a331ddca165857811f3",
+      "status": "VERIFIED",
+      "publishedPath": "deliverables/phase3/GEMINI_ERROR_TUTOR.md",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "489cb1cf573615ffc54920cc16649c1a3b106601b795a9dd89526f9192d3fef1"
+    },
+    {
+      "path": "FINAL_PHASE3/JAPANESE_WRITING_SPEAKING_TEMPLATES.pdf",
+      "bytes": 151671,
+      "sha256": "f3814e8e02a49c8028426c32240699ba90dfd56e295b5df2baf751a9ca80ff23",
+      "status": "VERIFIED",
+      "publishedPath": "deliverables/phase3/JAPANESE_WRITING_SPEAKING_TEMPLATES.pdf",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "f3814e8e02a49c8028426c32240699ba90dfd56e295b5df2baf751a9ca80ff23"
+    },
+    {
+      "path": "FINAL_PHASE3/JLPT_PROGRESS_TRACKER.xlsx",
+      "bytes": 136165,
+      "sha256": "ec99c8d3d277cc743450db0aee170319f8cf199542b6b6e53f729ce7ff0756d6",
+      "status": "VERIFIED",
+      "publishedPath": "deliverables/phase3/JLPT_PROGRESS_TRACKER.xlsx",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "ec99c8d3d277cc743450db0aee170319f8cf199542b6b6e53f729ce7ff0756d6"
+    },
+    {
+      "path": "FINAL_PHASE3/LEARNING_METHODS.pdf",
+      "bytes": 108366,
+      "sha256": "5b77b4d3c66fb391fa2d17520d91078169772f1a49af9fef4d6ac052a35be6fd",
+      "status": "VERIFIED",
+      "publishedPath": "deliverables/phase3/LEARNING_METHODS.pdf",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "5b77b4d3c66fb391fa2d17520d91078169772f1a49af9fef4d6ac052a35be6fd"
+    },
+    {
+      "path": "FINAL_PHASE3/LISTENING_READING_CHEATSHEETS.pdf",
+      "bytes": 135991,
+      "sha256": "4c5276aa50963e6add2c7026bb7564327779eac7fc2fb32d09cdc68921217d03",
+      "status": "VERIFIED",
+      "publishedPath": "deliverables/phase3/LISTENING_READING_CHEATSHEETS.pdf",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "4c5276aa50963e6add2c7026bb7564327779eac7fc2fb32d09cdc68921217d03"
+    },
+    {
+      "path": "FINAL_PHASE3/MANIFEST.json",
+      "bytes": 4256,
+      "sha256": "4b1c0023a59bde796f49111e9f22450680d9627af1e025ced6719a5161d2efe4",
+      "status": "VERIFIED",
+      "publishedPath": "MANIFEST.json",
+      "publication": "REPLACED_BY_PUBLIC_MANIFEST",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART"
+    },
+    {
+      "path": "FINAL_PHASE3/QA_REPORT.md",
+      "bytes": 7952,
+      "sha256": "d8e33fb213a001ea6207034030fbe145fdb33db4b5004175b2ed73923059c547",
+      "status": "VERIFIED",
+      "publishedPath": "deliverables/phase3/QA_REPORT.md",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "11a2c7f0001dc1cf348561cefb5c3159f8830f299cc547a6c6f38668d23347cd"
+    },
+    {
+      "path": "FINAL_PHASE3/README.md",
+      "bytes": 3786,
+      "sha256": "053b2fadc634214970c3003d18c8668e00e3312cfec897c1067805a2bb41e08f",
+      "status": "VERIFIED",
+      "publishedPath": "deliverables/phase3/README.md",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "053b2fadc634214970c3003d18c8668e00e3312cfec897c1067805a2bb41e08f"
+    },
+    {
+      "path": "FINAL_PHASE3/RESEARCH_EVIDENCE_LEDGER.md",
+      "bytes": 32016,
+      "sha256": "7a0b908964046285b2203120a66c5f50e902aaab53ff3774a661ccd5b4d9a18b",
+      "status": "VERIFIED",
+      "publishedPath": "deliverables/phase3/RESEARCH_EVIDENCE_LEDGER.md",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "d3d9a2ac1aaf324f6d347e07a2e55db8f6182203101dcc07d44b30c5dfda1050"
+    },
+    {
+      "path": "FINAL_PHASE3/START_HERE.pdf",
+      "bytes": 90429,
+      "sha256": "9a14074826d3cc964d4057d952396631effd0bf171f23b9f759c1f761c097b06",
+      "status": "VERIFIED",
+      "publishedPath": "deliverables/phase3/START_HERE.pdf",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "11005788a9a2136322fcda18b23bcf07a04b946fdc4ab77b0451c47f784a8a6d",
+      "reason": "Original with private learner profile retained locally; public counterpart removes the profile."
+    },
+    {
+      "path": "FINAL_PHASE3/ANSWER_KEY_AND_EXPLANATIONS/content_final_reaudit.json",
+      "bytes": 29662,
+      "sha256": "023ced65d715c6d4a8645e03fe050e6dd106f99a8a9e6df6cfb91b7a039887f2",
+      "status": "VERIFIED",
+      "publishedPath": "deliverables/phase3/ANSWER_KEY_AND_EXPLANATIONS/content_final_reaudit.json",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "f9b8d4bddc9f0e82f20b0c9f03df357db34345a335363e367a6a0bc0be4652ed"
+    },
+    {
+      "path": "FINAL_PHASE3/ANSWER_KEY_AND_EXPLANATIONS/content_final_reaudit.md",
+      "bytes": 6211,
+      "sha256": "e879c1d1aba1ae58f3182fddee1faca7a0ac9539e3af00d4716defabb9d269c6",
+      "status": "VERIFIED",
+      "publishedPath": "deliverables/phase3/ANSWER_KEY_AND_EXPLANATIONS/content_final_reaudit.md",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "254a27c2ebf41e2ad8acd19bc1ffa3da047a4db0b8c7f0cd029d062eadea2199"
+    },
+    {
+      "path": "FINAL_PHASE3/ANSWER_KEY_AND_EXPLANATIONS/index.html",
+      "bytes": 346,
+      "sha256": "f0c56684c6714c1d828929e76e0ceaca26b13cd18116b704139596ba7ca3f0ba",
+      "status": "VERIFIED",
+      "publishedPath": "deliverables/phase3/ANSWER_KEY_AND_EXPLANATIONS/index.html",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "685d1d3b4ee99137d6f9c887acbc0d27a94865c7d28edc25274c35edc2b606ff"
+    },
+    {
+      "path": "FINAL_PHASE3/ANSWER_KEY_AND_EXPLANATIONS/validated_keys.json",
+      "bytes": 63338,
+      "sha256": "4e18e57537d3124410432922c5e2a9bf0bfd5b3d76dce3654367cf76111c610d",
+      "status": "VERIFIED",
+      "publishedPath": "deliverables/phase3/ANSWER_KEY_AND_EXPLANATIONS/validated_keys.json",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "4e18e57537d3124410432922c5e2a9bf0bfd5b3d76dce3654367cf76111c610d"
+    },
+    {
+      "path": "FINAL_PHASE3/JAPANESE_PATTERN_LIBRARY/patterns.json",
+      "bytes": 98380,
+      "sha256": "d041f271066e59b3ffc458e0dae7f1d1ba4b93296a6b6d2fec4909fe9ea2e9b4",
+      "status": "VERIFIED",
+      "publishedPath": "deliverables/phase3/JAPANESE_PATTERN_LIBRARY/patterns.json",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "d041f271066e59b3ffc458e0dae7f1d1ba4b93296a6b6d2fec4909fe9ea2e9b4"
+    },
+    {
+      "path": "FINAL_PHASE3/JAPANESE_PATTERN_LIBRARY/README.md",
+      "bytes": 946,
+      "sha256": "79e4b8f1a38a0bbd7a59a0c57c5bf28ba8ca0b2fdc6030e9ce16478933cfc768",
+      "status": "VERIFIED",
+      "publishedPath": "deliverables/phase3/JAPANESE_PATTERN_LIBRARY/README.md",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "09a95b3178aaae4a10085eb6d0e24ef13ba8d525f59f921efd690c62f4626f0d"
+    },
+    {
+      "path": "FINAL_PHASE3/JLPT_PRACTICE/app.js",
+      "bytes": 31374,
+      "sha256": "0e92347b842ad9ceacac4f1d01daa58ae20059c41bb9d357ba5e359bbe4ee052",
+      "status": "VERIFIED",
+      "publishedPath": "deliverables/phase3/JLPT_PRACTICE/app.js",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "0e92347b842ad9ceacac4f1d01daa58ae20059c41bb9d357ba5e359bbe4ee052"
+    },
+    {
+      "path": "FINAL_PHASE3/JLPT_PRACTICE/bank.js",
+      "bytes": 237069,
+      "sha256": "01014dd31e58d3e5b54ad51962fa49ff0b04415fd47b41abc84770bb699ea233",
+      "status": "VERIFIED",
+      "publishedPath": "deliverables/phase3/JLPT_PRACTICE/bank.js",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "01014dd31e58d3e5b54ad51962fa49ff0b04415fd47b41abc84770bb699ea233"
+    },
+    {
+      "path": "FINAL_PHASE3/JLPT_PRACTICE/DATA_CONTRACT.md",
+      "bytes": 6567,
+      "sha256": "230c8882c8b5f8668aed3419348734817edb59b41e8c19fd82e703ea0682e9ce",
+      "status": "VERIFIED",
+      "publishedPath": "deliverables/phase3/JLPT_PRACTICE/DATA_CONTRACT.md",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "230c8882c8b5f8668aed3419348734817edb59b41e8c19fd82e703ea0682e9ce"
+    },
+    {
+      "path": "FINAL_PHASE3/JLPT_PRACTICE/engine.js",
+      "bytes": 26660,
+      "sha256": "4870876ccd7275c27a392fa244f22b0ae9727a66e1a794d4ed4dbe825ee3bfaa",
+      "status": "VERIFIED",
+      "publishedPath": "deliverables/phase3/JLPT_PRACTICE/engine.js",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "4870876ccd7275c27a392fa244f22b0ae9727a66e1a794d4ed4dbe825ee3bfaa"
+    },
+    {
+      "path": "FINAL_PHASE3/JLPT_PRACTICE/index.html",
+      "bytes": 380559,
+      "sha256": "e76c9ce228ee0478e9900dc18b57a8e02e5b8ea843f341b8f911fb8e9a3aaf1e",
+      "status": "VERIFIED",
+      "publishedPath": "deliverables/phase3/JLPT_PRACTICE/index.html",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "e76c9ce228ee0478e9900dc18b57a8e02e5b8ea843f341b8f911fb8e9a3aaf1e"
+    },
+    {
+      "path": "FINAL_PHASE3/JLPT_PRACTICE/patterns.js",
+      "bytes": 81552,
+      "sha256": "c8135ad280244be43c386fafdff97d12694c77bbf38735514e9601cf89420a98",
+      "status": "VERIFIED",
+      "publishedPath": "deliverables/phase3/JLPT_PRACTICE/patterns.js",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "c8135ad280244be43c386fafdff97d12694c77bbf38735514e9601cf89420a98"
+    },
+    {
+      "path": "FINAL_PHASE3/JLPT_PRACTICE/question.schema.json",
+      "bytes": 1626,
+      "sha256": "b71a66f21fbef3874c483b0a6660e10bcbb0e60ad42a9d517c916f14dfd3941e",
+      "status": "VERIFIED",
+      "publishedPath": "deliverables/phase3/JLPT_PRACTICE/question.schema.json",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "b71a66f21fbef3874c483b0a6660e10bcbb0e60ad42a9d517c916f14dfd3941e"
+    },
+    {
+      "path": "FINAL_PHASE3/JLPT_PRACTICE/question_bank.json",
+      "bytes": 303534,
+      "sha256": "41643716454835d1a8f78a8f7626ebe74ac2dca9f68b55ef3194cacbd3c2e3f0",
+      "status": "VERIFIED",
+      "publishedPath": "deliverables/phase3/JLPT_PRACTICE/question_bank.json",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "41643716454835d1a8f78a8f7626ebe74ac2dca9f68b55ef3194cacbd3c2e3f0"
+    },
+    {
+      "path": "FINAL_PHASE3/JLPT_PRACTICE/styles.css",
+      "bytes": 3147,
+      "sha256": "4cf9f4569f7f74149e95260c1a721bd24f64cd66d8faf4d1e3f27a8fb70189aa",
+      "status": "VERIFIED",
+      "publishedPath": "deliverables/phase3/JLPT_PRACTICE/styles.css",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "4cf9f4569f7f74149e95260c1a721bd24f64cd66d8faf4d1e3f27a8fb70189aa"
+    },
+    {
+      "path": "FINAL_V3/GEMINI_MASTER_TUTOR_FINAL.md",
+      "bytes": 7744,
+      "sha256": "05e44c88c6171a64e22541bf9544ba1924aec2c73cc442b34c73092a6764b732",
+      "status": "VERIFIED",
+      "publishedPath": "archive/phase2.1/GEMINI_MASTER_TUTOR_FINAL.md",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "10887e090147bf164b2455f58eb60886c99351697e2bba73c41941b10ae23285"
+    },
+    {
+      "path": "FINAL_V3/JLPT_PROGRESS_TRACKER_FINAL.xlsx",
+      "bytes": 70767,
+      "sha256": "3f7477b2cd24e5c8918a2bdd494a5582151a9052552c9c86ee7ec2dc91796199",
+      "status": "VERIFIED",
+      "publishedPath": "archive/phase2.1/JLPT_PROGRESS_TRACKER_FINAL.xlsx",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "3f7477b2cd24e5c8918a2bdd494a5582151a9052552c9c86ee7ec2dc91796199"
+    },
+    {
+      "path": "FINAL_V3/JLPT_STUDY_SYSTEM_FINAL.pdf",
+      "bytes": 162836,
+      "sha256": "a94bfc3573be969ae270103ef97aaf1c9a47bb92662e6d2104995faea5008aef",
+      "status": "VERIFIED",
+      "publishedPath": "archive/phase2.1/JLPT_STUDY_SYSTEM_FINAL.public.md",
+      "publication": "PUBLIC_MARKDOWN_COUNTERPART",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "23db51bad703de71bb67299f8de8c39b835c8347a288111774a2135897b0f6d4",
+      "reason": "Original with private learner profile retained locally; public counterpart removes the profile."
+    },
+    {
+      "path": "FINAL_V3/QA_FINAL.md",
+      "bytes": 11918,
+      "sha256": "15aa7ebe111cbfdca1e8e184efe58cc6f2119919872bee15bdce425a68068e07",
+      "status": "VERIFIED",
+      "publishedPath": "archive/phase2.1/QA_FINAL.md",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "aeb600bcfe346dc5bdb77cae998407e567c18e6a9054eeb610ae8eeec1659c50"
+    },
+    {
+      "path": "outputs/jlpt-2026/Ke_hoach_JLPT_tam_thoi.md",
+      "bytes": 42936,
+      "sha256": "1c4d8293be1dee000803a1f1fcf5c9c90311681041ddf3b1b8c423119981506b",
+      "status": "VERIFIED",
+      "publishedPath": "archive/phase1/Ke_hoach_JLPT_tam_thoi.public.md",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "a21f98400cfc1f04a2b47c45c815759544b86ac9744d39b8e41a3bef64ac319b"
+    },
+    {
+      "path": "outputs/jlpt-2026/Ke_hoach_JLPT_tam_thoi.pdf",
+      "bytes": 153304,
+      "sha256": "296994bd72e7cab9f00f52d6cb47126475fb84546b28d74833354343d2850868",
+      "status": "VERIFIED",
+      "publishedPath": "archive/phase1/Ke_hoach_JLPT_tam_thoi.public.md",
+      "publication": "PUBLIC_MARKDOWN_COUNTERPART",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "a21f98400cfc1f04a2b47c45c815759544b86ac9744d39b8e41a3bef64ac319b",
+      "reason": "Original with private learner profile retained locally; public counterpart removes the profile."
+    },
+    {
+      "path": "outputs/jlpt-2026/Theo_doi_tien_bo_JLPT.xlsx",
+      "bytes": 12363,
+      "sha256": "5efe4e5baef13229ce4be2ae5f0eb117b0de90daf27757908348d3856b023216",
+      "status": "VERIFIED",
+      "publishedPath": "archive/phase1/Theo_doi_tien_bo_JLPT.xlsx",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "5efe4e5baef13229ce4be2ae5f0eb117b0de90daf27757908348d3856b023216"
+    },
+    {
+      "path": "tmp/jlpt-2026/bao_cao-01.png",
+      "bytes": 311958,
+      "sha256": "6307fc5b751339a727a872575b0aeb071045eee36fb41f21e8234941c99c58ae",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-2026/bao_cao-02.png",
+      "bytes": 317520,
+      "sha256": "ad4a169926a3b5a34955e53e7be2903d2c6b537d86a91467a182d43bb2df6c8b",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-2026/bao_cao-03.png",
+      "bytes": 360789,
+      "sha256": "61e7be47d1df02df7ca70928acdaf662f55ca070b4562f6083ef4305214deb0f",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-2026/bao_cao-04.png",
+      "bytes": 394386,
+      "sha256": "98500aef13e23348c70a5c6c57793f07fd4a6b87e270818e0d67deffed7ef528",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-2026/bao_cao-05.png",
+      "bytes": 431231,
+      "sha256": "e51cf80afbcd662e888ea07aaf0d6de4518379c95da9517ce47e867f53669a54",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-2026/bao_cao-06.png",
+      "bytes": 386203,
+      "sha256": "addd62806f5b1b6429b1bd715ddfa763c6b8a9f66cc7a831d473edf5e4ac95bd",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-2026/bao_cao-07.png",
+      "bytes": 321335,
+      "sha256": "f36eae3053ca820ecbb0de1e5df2bba1d1afca1075b05f75e2ebc721dcc0df44",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-2026/bao_cao-08.png",
+      "bytes": 361404,
+      "sha256": "a7268e072d94d57530111523001b9aed1f142c3134f6c6b0674733611ac7a06d",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-2026/bao_cao-09.png",
+      "bytes": 339582,
+      "sha256": "6c146620791f520ef7e23c794642c8e52093eab8e753353f50a159491e57124a",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-2026/bao_cao-10.png",
+      "bytes": 373505,
+      "sha256": "ea58d64cd2d2d202a6bd05f48ceaaff0ff9822e6ad6c4c75abd5b3c16db231d3",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-2026/build_report.py",
+      "bytes": 8595,
+      "sha256": "ad2da768ba8ce8905d247acc15fc19a7abd568186c8011508858140111254f6f",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-2026/build_report.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "ad2da768ba8ce8905d247acc15fc19a7abd568186c8011508858140111254f6f"
+    },
+    {
+      "path": "tmp/jlpt-2026/build_tracker.mjs",
+      "bytes": 9964,
+      "sha256": "693d6587069cf5bc41d112fa1153cd23befd7d23a3ea43e393c99483dfda9da8",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-2026/build_tracker.mjs",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "693d6587069cf5bc41d112fa1153cd23befd7d23a3ea43e393c99483dfda9da8"
+    },
+    {
+      "path": "tmp/jlpt-2026/check_outputs.py",
+      "bytes": 2825,
+      "sha256": "f32802138d0933ea8cccb21979c727ebdc50975501dfe0db108fec87d6981854",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-2026/check_outputs.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "f32802138d0933ea8cccb21979c727ebdc50975501dfe0db108fec87d6981854"
+    },
+    {
+      "path": "tmp/jlpt-2026/do_nang_luc.png",
+      "bytes": 109347,
+      "sha256": "98df53edbc7177dd69dfd5eb97c52e9911244531a4f628d720a30a4fc4d7bdb8",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-2026/final_validation.json",
+      "bytes": 918,
+      "sha256": "158b7618fe19dd80bc0f5ab93add54350c17e724ef880054097e3bef4384e740",
+      "status": "VERIFIED",
+      "publishedPath": "qa/historical/jlpt-2026/final_validation.json",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "99247a49d791036f4c1436e99970f7bbe14e90f2022e882f216c8c7ba3a47877"
+    },
+    {
+      "path": "tmp/jlpt-2026/layout_estimates.json",
+      "bytes": 1024,
+      "sha256": "c8d567ec8fa7283bc6cb1c7e16705bf33d2baa65375d70c8efd9bbae80db2eba",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Superseded draft, local fixture, extracted source text, or build intermediate; final counterpart/provenance retained in published checkpoint."
+    },
+    {
+      "path": "tmp/jlpt-2026/nhat_ky.png",
+      "bytes": 82698,
+      "sha256": "9751aeb8e0b9411d302142fd4cde63700611983d88f46a0734301a23cdb700ce",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-2026/Theo_doi_tien_bo_JLPT.xlsx.inspect.ndjson",
+      "bytes": 130498,
+      "sha256": "978e2fa108984b4039d2279a87c69d654a39b2178b1a5e07141de79d81db9dea",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-2026/tracker_validation.json",
+      "bytes": 1169,
+      "sha256": "1b1aed704b6b79e642eb1a308f5a713256828af4213d3f4b35441676b1e6bc45",
+      "status": "VERIFIED",
+      "publishedPath": "qa/historical/jlpt-2026/tracker_validation.json",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "14b5935af4176810c576454feda5355d4ee1ff839423ff05f7a97af6f4718f3d"
+    },
+    {
+      "path": "tmp/jlpt-phase3/apply_reaudit_fixes.py",
+      "bytes": 9739,
+      "sha256": "971e653600c66d0107e908b053d9bf9e7cf7fc0c58d4a4ce1d4de3512e6087bb",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-phase3/apply_reaudit_fixes.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "971e653600c66d0107e908b053d9bf9e7cf7fc0c58d4a4ce1d4de3512e6087bb"
+    },
+    {
+      "path": "tmp/jlpt-phase3/app_home_1024.png",
+      "bytes": 75900,
+      "sha256": "8d477b77dba87f4bb99639a63e8e7c75d350593d46075e29eb31ec17a8f0322e",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-phase3/app_home_1280.png",
+      "bytes": 77810,
+      "sha256": "a13b1e2069ebd0787b97b123405b1455a8b62e9eaa65f6bc428f045d8a944ffe",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-phase3/app_home_390.png",
+      "bytes": 75815,
+      "sha256": "73e006eefb9b7f74cfc74c37a023e4d012b3cd4ea49533c88e0d32610d4747b9",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-phase3/app_home_768.png",
+      "bytes": 78146,
+      "sha256": "ba0ec5588c8c1f2431219c0d165874cf3720e16784738abc15a8ebf0e6165e0d",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-phase3/app_progress.png",
+      "bytes": 95052,
+      "sha256": "5ec8466637f63b2a066b4e026a9587fe58adfc94f1904528fea0bc1ffe20d2a7",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-phase3/audio_mock_review.png",
+      "bytes": 115782,
+      "sha256": "d48fae5ccc6d1e4484fc07b5b50ea87c15cfdba19398cf89f8e8f4b15789ef84",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-phase3/audit_release.py",
+      "bytes": 14902,
+      "sha256": "1b49a71047c5927490268f9e7f6e760bb8c9c9dce48661acbd7a2a9438cd9fdd",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-phase3/audit_release.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "1b49a71047c5927490268f9e7f6e760bb8c9c9dce48661acbd7a2a9438cd9fdd"
+    },
+    {
+      "path": "tmp/jlpt-phase3/browser_export.csv",
+      "bytes": 337,
+      "sha256": "2601e4470812fe26d49bec50f4b3444d0de7252a974ea71ac844dd4ad70611e5",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Superseded draft, local fixture, extracted source text, or build intermediate; final counterpart/provenance retained in published checkpoint."
+    },
+    {
+      "path": "tmp/jlpt-phase3/browser_export.json",
+      "bytes": 8045,
+      "sha256": "f14353d59b123f126159a6b122848ed68f85edb09b242bb6581f042294171006",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Superseded draft, local fixture, extracted source text, or build intermediate; final counterpart/provenance retained in published checkpoint."
+    },
+    {
+      "path": "tmp/jlpt-phase3/browser_tests.json",
+      "bytes": 3340,
+      "sha256": "8945e7227f38088b61d0d6e7ad125d1dec4edee2dca941f24ba6e31015621283",
+      "status": "VERIFIED",
+      "publishedPath": "qa/historical/phase3/browser_tests.json",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "fa0dc99a9e191cd7184f4259a9e910063b46f031e99113f312e872731f864d42"
+    },
+    {
+      "path": "tmp/jlpt-phase3/build_bank.py",
+      "bytes": 62875,
+      "sha256": "288d8ac52eedd9a6a9634e5800ff0107fb038d2818ee91721f695ee2a0c79297",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-phase3/build_bank.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "288d8ac52eedd9a6a9634e5800ff0107fb038d2818ee91721f695ee2a0c79297"
+    },
+    {
+      "path": "tmp/jlpt-phase3/build_patterns.py",
+      "bytes": 34159,
+      "sha256": "70a814ad4a7cf8dc38304e670b264a7e7a44a1939a2057a67daeb6e583760b5b",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-phase3/build_patterns.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "70a814ad4a7cf8dc38304e670b264a7e7a44a1939a2057a67daeb6e583760b5b"
+    },
+    {
+      "path": "tmp/jlpt-phase3/build_pdfs.py",
+      "bytes": 14095,
+      "sha256": "540d96e064dc12bab98420812cf5d6024583d3b266d6c14453deac1e1ed58e0d",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-phase3/build_pdfs.py",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "7b591e1123a3fe10ea94aa43f3ef9fd72b42641afce1bd36e245d98f462607b7"
+    },
+    {
+      "path": "tmp/jlpt-phase3/build_research_docs.py",
+      "bytes": 28786,
+      "sha256": "6ec16f7182e0c58d2a9c30e936a8d42cc9c6e7da22082cd2686e0f3771a120d2",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Raw search/fetch response can contain copyrighted excerpts; original synthesis, URLs and bibliographic metadata published separately."
+    },
+    {
+      "path": "tmp/jlpt-phase3/build_tracker.mjs",
+      "bytes": 4648,
+      "sha256": "5c433b63da275c4cdd8d2ea6dc9bb2fe3e0a8a1fd62620701b4fad6af093dccf",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-phase3/build_tracker.mjs",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "58df4ae47758a8e4116f898e961ba4d53f4f34e996a7e341be00029470912831"
+    },
+    {
+      "path": "tmp/jlpt-phase3/content_audit_blind.json",
+      "bytes": 13027,
+      "sha256": "ffbe1f9ef9acb7fa64c9cce64539a8f0a24e447bfbf8f0ad09d98790e6078ded",
+      "status": "VERIFIED",
+      "publishedPath": "qa/historical/phase3/content_audit_blind.json",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "ffbe1f9ef9acb7fa64c9cce64539a8f0a24e447bfbf8f0ad09d98790e6078ded"
+    },
+    {
+      "path": "tmp/jlpt-phase3/content_audit_findings.json",
+      "bytes": 122189,
+      "sha256": "aa0912aa0b3657e0f12f7c30d10184bad3f780ef0c8b7ff19c01a3338832891b",
+      "status": "VERIFIED",
+      "publishedPath": "qa/historical/phase3/content_audit_findings.json",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "aa0912aa0b3657e0f12f7c30d10184bad3f780ef0c8b7ff19c01a3338832891b"
+    },
+    {
+      "path": "tmp/jlpt-phase3/content_audit_report.md",
+      "bytes": 18692,
+      "sha256": "3b2e9209dc1fa7c8916d6ba13def97878f7e0fb9bd216bf274e47127d69ba909",
+      "status": "VERIFIED",
+      "publishedPath": "qa/historical/phase3/content_audit_report.md",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "3b2e9209dc1fa7c8916d6ba13def97878f7e0fb9bd216bf274e47127d69ba909"
+    },
+    {
+      "path": "tmp/jlpt-phase3/content_final_reaudit.json",
+      "bytes": 29662,
+      "sha256": "023ced65d715c6d4a8645e03fe050e6dd106f99a8a9e6df6cfb91b7a039887f2",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Superseded draft, local fixture, extracted source text, or build intermediate; final counterpart/provenance retained in published checkpoint."
+    },
+    {
+      "path": "tmp/jlpt-phase3/content_final_reaudit.md",
+      "bytes": 6211,
+      "sha256": "e879c1d1aba1ae58f3182fddee1faca7a0ac9539e3af00d4716defabb9d269c6",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Superseded draft, local fixture, extracted source text, or build intermediate; final counterpart/provenance retained in published checkpoint."
+    },
+    {
+      "path": "tmp/jlpt-phase3/content_reaudit.md",
+      "bytes": 13255,
+      "sha256": "fa60fa6b05034fc3c19dca9c3d47c989e490e7f66eb4f6d4ba6add157f7775b8",
+      "status": "VERIFIED",
+      "publishedPath": "qa/historical/phase3/content_reaudit.md",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "fa60fa6b05034fc3c19dca9c3d47c989e490e7f66eb4f6d4ba6add157f7775b8"
+    },
+    {
+      "path": "tmp/jlpt-phase3/content_reaudit_findings.json",
+      "bytes": 29433,
+      "sha256": "3c5967450af97971a1fef09d98860edd0aed91e29551688b19eadc8a1df5dcaf",
+      "status": "VERIFIED",
+      "publishedPath": "qa/historical/phase3/content_reaudit_findings.json",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "3c5967450af97971a1fef09d98860edd0aed91e29551688b19eadc8a1df5dcaf"
+    },
+    {
+      "path": "tmp/jlpt-phase3/debug_csv.py",
+      "bytes": 444,
+      "sha256": "0c9180a23b52212b28a07cf779a3d674ca48b46e3021235555f65854c618608d",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-phase3/debug_csv.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "0c9180a23b52212b28a07cf779a3d674ca48b46e3021235555f65854c618608d"
+    },
+    {
+      "path": "tmp/jlpt-phase3/edge_flow_tests.json",
+      "bytes": 1032,
+      "sha256": "48d65ecf5ed117ff8d10d2cd4f6754571d5e4d2aef076f66b00fef9586469e61",
+      "status": "VERIFIED",
+      "publishedPath": "qa/historical/phase3/edge_flow_tests.json",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "a99470fa28ade56e6cb2039a7b8ad7b5dac4a5a4a059cf5b89bb0f55de746405"
+    },
+    {
+      "path": "tmp/jlpt-phase3/engine_tests.json",
+      "bytes": 26844,
+      "sha256": "7060bcade0a5801c240e51e26ff54a913cbd03c78e552f0c03a062f3d456f3bc",
+      "status": "VERIFIED",
+      "publishedPath": "qa/historical/phase3/engine_tests.json",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "b45b01a4958da5e712d08b33e5ac380a48fb6ee5f357147cba4c275890627643"
+    },
+    {
+      "path": "tmp/jlpt-phase3/excel_native_fixture.xlsx",
+      "bytes": 142206,
+      "sha256": "2f9d6cbf3930525b46bfa58aa6245d43c6133a4ef2d8f2c2959b34fdb26efa48",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-phase3/excel_native_tests.json",
+      "bytes": 10621,
+      "sha256": "56c2e1bad5674c92fa8eef6eb01d9872626a944b0fd230493874c3a5e91fe494",
+      "status": "VERIFIED",
+      "publishedPath": "qa/historical/phase3/excel_native_tests.json",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "879ad1fc3eaf8fbaf77995dfbff9b429732c4afa2e464de57c8d940f66d242f0"
+    },
+    {
+      "path": "tmp/jlpt-phase3/finalize_app.py",
+      "bytes": 2558,
+      "sha256": "bfc6471fa3167ad410de93c70ffd843e7a8efe0491abfc33f6cde2dd73d60380",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-phase3/finalize_app.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "bfc6471fa3167ad410de93c70ffd843e7a8efe0491abfc33f6cde2dd73d60380"
+    },
+    {
+      "path": "tmp/jlpt-phase3/final_content_fixes.py",
+      "bytes": 3515,
+      "sha256": "fe24bda89f785840c68444f161ef9631075f1d4b5430c52cec54365bb3e7befa",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-phase3/final_content_fixes.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "fe24bda89f785840c68444f161ef9631075f1d4b5430c52cec54365bb3e7befa"
+    },
+    {
+      "path": "tmp/jlpt-phase3/final_usability.py",
+      "bytes": 3886,
+      "sha256": "54966ef6c88d6a14d768e6c391e9a8b759d542bd97baaf850cb3d0a62da5816d",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-phase3/final_usability.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "54966ef6c88d6a14d768e6c391e9a8b759d542bd97baaf850cb3d0a62da5816d"
+    },
+    {
+      "path": "tmp/jlpt-phase3/finish_patches.py",
+      "bytes": 1496,
+      "sha256": "8317da5e50120c166f124a4c377ee5d80734dca67b35c42cd5dee1d3b4634c56",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-phase3/finish_patches.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "8317da5e50120c166f124a4c377ee5d80734dca67b35c42cd5dee1d3b4634c56"
+    },
+    {
+      "path": "tmp/jlpt-phase3/fix_audio_fixture.py",
+      "bytes": 1182,
+      "sha256": "ddd32dbd86a653f75dd28790971274052c62e64010efd421df5e289aaff6f287",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-phase3/fix_audio_fixture.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "ddd32dbd86a653f75dd28790971274052c62e64010efd421df5e289aaff6f287"
+    },
+    {
+      "path": "tmp/jlpt-phase3/fix_csv_locale.py",
+      "bytes": 1204,
+      "sha256": "89dda036ef29b91dcc90051d77c97056c6030c7f94ed370de9f4c0303428ee30",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-phase3/fix_csv_locale.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "89dda036ef29b91dcc90051d77c97056c6030c7f94ed370de9f4c0303428ee30"
+    },
+    {
+      "path": "tmp/jlpt-phase3/fix_debug_csv.py",
+      "bytes": 260,
+      "sha256": "e35cb0c3f92d4dec4231008ee9ddbef36ae9640abbbad9634468211b8523be51",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-phase3/fix_debug_csv.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "e35cb0c3f92d4dec4231008ee9ddbef36ae9640abbbad9634468211b8523be51"
+    },
+    {
+      "path": "tmp/jlpt-phase3/fix_edge_test.py",
+      "bytes": 234,
+      "sha256": "4f9b67440b837ca61e9d35c82920f0e3a01d29175d6f741d5934b8017108de53",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-phase3/fix_edge_test.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "4f9b67440b837ca61e9d35c82920f0e3a01d29175d6f741d5934b8017108de53"
+    },
+    {
+      "path": "tmp/jlpt-phase3/fix_ui_tests.py",
+      "bytes": 406,
+      "sha256": "35f39c4e4591ded7c5180e0b85f3d00a89133b80e4a9b9b5ff7c77d123194e9f",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-phase3/fix_ui_tests.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "35f39c4e4591ded7c5180e0b85f3d00a89133b80e4a9b9b5ff7c77d123194e9f"
+    },
+    {
+      "path": "tmp/jlpt-phase3/harden_engine.py",
+      "bytes": 5692,
+      "sha256": "10b85fd28d7dda8f175fcaac1de16617559d1b1ea16d35aa36e5ecf3925c4c63",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-phase3/harden_engine.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "10b85fd28d7dda8f175fcaac1de16617559d1b1ea16d35aa36e5ecf3925c4c63"
+    },
+    {
+      "path": "tmp/jlpt-phase3/import_sheet.xlsx",
+      "bytes": 66950,
+      "sha256": "2f9f92ef6448cdae21f04047a36f0c9d5dcf811ac0f56fad1ab5aeb4edf67b23",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-phase3/import_sheet.xlsx.inspect.ndjson",
+      "bytes": 11189,
+      "sha256": "8cd7b70b983db88a863c3e8905373d74c34c4fbada3845b348f279496e4b0bde",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-phase3/index_template.html",
+      "bytes": 843,
+      "sha256": "58746f52985f3a29f1afdc357906f4a2428016b963c47c89273b03862487655d",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Downloaded third-party source/exam material; link to official resource instead of redistributing."
+    },
+    {
+      "path": "tmp/jlpt-phase3/init_project.py",
+      "bytes": 1278,
+      "sha256": "4b955a3e14aef133ea4a920ea301ab8340a8390d4b04c2eb5a52cd7d88ef3bd6",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-phase3/init_project.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "4b955a3e14aef133ea4a920ea301ab8340a8390d4b04c2eb5a52cd7d88ef3bd6"
+    },
+    {
+      "path": "tmp/jlpt-phase3/INSTRUCTIONAL_DESIGN.md",
+      "bytes": 5584,
+      "sha256": "8fe64872186cbb3d40fda437d2c17e57458a40e19e9b4ee6693f7f2a1ac44178",
+      "status": "DRAFT",
+      "publishedPath": "qa/historical/phase3/INSTRUCTIONAL_DESIGN.md",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "8fe64872186cbb3d40fda437d2c17e57458a40e19e9b4ee6693f7f2a1ac44178"
+    },
+    {
+      "path": "tmp/jlpt-phase3/JAPANESE_WRITING_SPEAKING_TEMPLATES_contact.png",
+      "bytes": 1108643,
+      "sha256": "5b5fb7ab30b68a933f60b56dfecc1437f8a3a47f3fda7dced3d72cf6a29d597a",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-phase3/last_ui_hardening.py",
+      "bytes": 1244,
+      "sha256": "f226e12f8fa518b758fd62345637838c75a208415ccd8f620eda7624c7a561e4",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-phase3/last_ui_hardening.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "f226e12f8fa518b758fd62345637838c75a208415ccd8f620eda7624c7a561e4"
+    },
+    {
+      "path": "tmp/jlpt-phase3/LEARNING_METHODS_contact.png",
+      "bytes": 658950,
+      "sha256": "6d87f9d9743c79ce7f27aa34372042f9ee5cde926191a6be5910dd6ac528e631",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-phase3/LISTENING_READING_CHEATSHEETS_contact.png",
+      "bytes": 645335,
+      "sha256": "b14c788d0ef89243cbb2f2b4184cfb5ee85a47db5b252a395a0fe29533d8cc34",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-phase3/memory_only_export.json",
+      "bytes": 3842,
+      "sha256": "95996d7d09219a4c77b9588986d6d3e1e98d0621b107220cdd7e964a45ec9fa8",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Superseded draft, local fixture, extracted source text, or build intermediate; final counterpart/provenance retained in published checkpoint."
+    },
+    {
+      "path": "tmp/jlpt-phase3/merge_tracker.py",
+      "bytes": 3793,
+      "sha256": "54b0ead9e8a0d9022ea738419f9c4edb74292ffa872daebdc46939c24ddfd6fa",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-phase3/merge_tracker.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "54b0ead9e8a0d9022ea738419f9c4edb74292ffa872daebdc46939c24ddfd6fa"
+    },
+    {
+      "path": "tmp/jlpt-phase3/methods.json",
+      "bytes": 7626,
+      "sha256": "8552a94fe295894e0ba3c7634ac7bf5a836ef5e6aab1b5401886a18bdb055306",
+      "status": "VERIFIED",
+      "publishedPath": "research/methods.json",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "4b1c02c64a7efd5d689635433c5955f8e4e82268b2f7a7012b7407b15d17a280"
+    },
+    {
+      "path": "tmp/jlpt-phase3/option_mapping_tests.json",
+      "bytes": 11073,
+      "sha256": "f3f25ee62017439951815a07c16f3807081f11ff730d0c3b97306cbd5d7fc8f1",
+      "status": "VERIFIED",
+      "publishedPath": "qa/historical/phase3/option_mapping_tests.json",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "f82997a1c0c5dd501e3ff07391282abb864b0d56e7c081d8dcd6f44400e99490"
+    },
+    {
+      "path": "tmp/jlpt-phase3/package_release.py",
+      "bytes": 3071,
+      "sha256": "ca0398b94705a76490ee1655b555b1a97ead21a498356acee245d0222bc17252",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-phase3/package_release.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "ca0398b94705a76490ee1655b555b1a97ead21a498356acee245d0222bc17252"
+    },
+    {
+      "path": "tmp/jlpt-phase3/pdf_layout.json",
+      "bytes": 2141,
+      "sha256": "a594fa33e89c8d2f440a4ab3384713434272543d6e9cda857747ef24f7e8c918",
+      "status": "VERIFIED",
+      "publishedPath": "qa/historical/phase3/pdf_layout.json",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "22ac8bc5b68be0732ac6351fb2bbbfb5383da3279f54973cf4b79b80ed95a6ab"
+    },
+    {
+      "path": "tmp/jlpt-phase3/pdf_qa.json",
+      "bytes": 2887,
+      "sha256": "3d3f479850e13ac8cb29365fb3d6a2bcc0ee67d1cec27b772f02489d6e58aa06",
+      "status": "VERIFIED",
+      "publishedPath": "qa/historical/phase3/pdf_qa.json",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "ce3954cae5b69a8efc703de2430bf64211d6feb286a5b0311240abd234e40cdf"
+    },
+    {
+      "path": "tmp/jlpt-phase3/pilot_blind_audit.txt",
+      "bytes": 28143,
+      "sha256": "46db45fcb4ae8431bac5960bbe5f00e160d2161595d82637bef5788aa5ae9219",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Superseded draft, local fixture, extracted source text, or build intermediate; final counterpart/provenance retained in published checkpoint."
+    },
+    {
+      "path": "tmp/jlpt-phase3/pilot_corrected.json",
+      "bytes": 298742,
+      "sha256": "d6b4219fdfc8e1adf18d994665a80174ac0661f2d314a510075ff0841ffe7576",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Superseded draft, local fixture, extracted source text, or build intermediate; final counterpart/provenance retained in published checkpoint."
+    },
+    {
+      "path": "tmp/jlpt-phase3/pilot_draft.json",
+      "bytes": 246004,
+      "sha256": "cfe6b05a5074df496025c0f781a9db0d3cd96b7ee37f9b94476500fcb60a6d80",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Superseded draft, local fixture, extracted source text, or build intermediate; final counterpart/provenance retained in published checkpoint."
+    },
+    {
+      "path": "tmp/jlpt-phase3/polish_qa.py",
+      "bytes": 1682,
+      "sha256": "023d5a65d38b7026a56d844e34974a885fcc2d84bfae3c1534ad9d94a451bd68",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-phase3/polish_qa.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "023d5a65d38b7026a56d844e34974a885fcc2d84bfae3c1534ad9d94a451bd68"
+    },
+    {
+      "path": "tmp/jlpt-phase3/prepare_native_qa.py",
+      "bytes": 2117,
+      "sha256": "693740604e22745c364895ad3ade6fd0f327ca6a8defe088aea7ee276ff4a1ed",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-phase3/prepare_native_qa.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "693740604e22745c364895ad3ade6fd0f327ca6a8defe088aea7ee276ff4a1ed"
+    },
+    {
+      "path": "tmp/jlpt-phase3/preview_test.json",
+      "bytes": 88,
+      "sha256": "996182477a75707fa5fc5b62acffa73aa08fe42a3def5efed2cbf8d0d229a18e",
+      "status": "VERIFIED",
+      "publishedPath": "qa/historical/phase3/preview_test.json",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "1f53f9617e29506dddc008108e88cedd76d904cbd7d58ef38d7f9a401b3b84ad"
+    },
+    {
+      "path": "tmp/jlpt-phase3/quality_finish.py",
+      "bytes": 8035,
+      "sha256": "e49315ac25a2aa0308200ffe0e9387d35cc0eb6bdf1a25c2048b5baca1b8e6c3",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-phase3/quality_finish.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "e49315ac25a2aa0308200ffe0e9387d35cc0eb6bdf1a25c2048b5baca1b8e6c3"
+    },
+    {
+      "path": "tmp/jlpt-phase3/refine_selection.py",
+      "bytes": 3565,
+      "sha256": "d91c1b4eff1035a2eb488dbdc6c994f3e36e24dc9b7df9e15602fa0ceba5fc98",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-phase3/refine_selection.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "d91c1b4eff1035a2eb488dbdc6c994f3e36e24dc9b7df9e15602fa0ceba5fc98"
+    },
+    {
+      "path": "tmp/jlpt-phase3/release_bank.py",
+      "bytes": 7881,
+      "sha256": "8220614d4ff39da8c912f28f90f6d99e3f278a185add2a6f1dd5ace160ce8f58",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-phase3/release_bank.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "8220614d4ff39da8c912f28f90f6d99e3f278a185add2a6f1dd5ace160ce8f58"
+    },
+    {
+      "path": "tmp/jlpt-phase3/release_checks.json",
+      "bytes": 2889,
+      "sha256": "4e9dffd075665950bc92bd54a379ef9f3c0df1b629444d6954c7a1da43c32b63",
+      "status": "VERIFIED",
+      "publishedPath": "qa/historical/phase3/release_checks.json",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "924e6e88f0e35a6f6b4443a423c9cdc610aa48d0f33f604c3dfee6bb9d17310b"
+    },
+    {
+      "path": "tmp/jlpt-phase3/release_stamp.json",
+      "bytes": 400,
+      "sha256": "e5c3ff4abb75b01e54c96e723716e221afa7d575787e93cfcf82137dbdb94907",
+      "status": "VERIFIED",
+      "publishedPath": "qa/historical/phase3/release_stamp.json",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "b28fb9e0517e18fd90ef4d20c7c69fd412a3afec834113b746d0d1b9c1e9e5c9"
+    },
+    {
+      "path": "tmp/jlpt-phase3/render_qa.py",
+      "bytes": 1542,
+      "sha256": "b908f6eda1555e2585784a4e527ea7e02d4b8451bbeffe29f2dd8557c2d1ab9a",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-phase3/render_qa.py",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "063eb2ab1e59ff503914fb1fec1d66253ec7f8aff7491d45ab783eb23a71d2e6"
+    },
+    {
+      "path": "tmp/jlpt-phase3/repair_csv_and_layout.py",
+      "bytes": 483,
+      "sha256": "063375b53138a6f90e8a7d159b36d58b11ab8deab54cc3d72bf08d359fec70de",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-phase3/repair_csv_and_layout.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "063375b53138a6f90e8a7d159b36d58b11ab8deab54cc3d72bf08d359fec70de"
+    },
+    {
+      "path": "tmp/jlpt-phase3/repair_native_fixture.py",
+      "bytes": 627,
+      "sha256": "aeedf1cd3d4a91314462e22aaec325507533b9b6d145e80f4bab3c858a89626b",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-phase3/repair_native_fixture.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "aeedf1cd3d4a91314462e22aaec325507533b9b6d145e80f4bab3c858a89626b"
+    },
+    {
+      "path": "tmp/jlpt-phase3/research_addendum_fetch.json",
+      "bytes": 53871,
+      "sha256": "2b3f65b873c5f9d13b612751ed3d9aba8fbe15e6797aba6ee0f337b601672b7d",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Raw search/fetch response can contain copyrighted excerpts; original synthesis, URLs and bibliographic metadata published separately."
+    },
+    {
+      "path": "tmp/jlpt-phase3/research_addendum_fetch2.json",
+      "bytes": 62350,
+      "sha256": "a0534e1a63b242e0b3aa952854db0835dbdb3a38fc4d8b848cb6ddd6eb913ad3",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Raw search/fetch response can contain copyrighted excerpts; original synthesis, URLs and bibliographic metadata published separately."
+    },
+    {
+      "path": "tmp/jlpt-phase3/research_addendum_search.json",
+      "bytes": 22364,
+      "sha256": "ae129366b443200a9b326ac7211dc50b3a2c6f4c1ff666f8c5e1eee086428059",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Raw search/fetch response can contain copyrighted excerpts; original synthesis, URLs and bibliographic metadata published separately."
+    },
+    {
+      "path": "tmp/jlpt-phase3/research_deadline_search.json",
+      "bytes": 13651,
+      "sha256": "c18f2d4dfe453819f5bd7fa372eb7bcab27850652d6826dd31554ed8f725a278",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Raw search/fetch response can contain copyrighted excerpts; original synthesis, URLs and bibliographic metadata published separately."
+    },
+    {
+      "path": "tmp/jlpt-phase3/research_fetch1.json",
+      "bytes": 48853,
+      "sha256": "2e006dd35af1c892b93d8879a1240e98783e9f9ceb62f234571bb0c9a85941f2",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Raw search/fetch response can contain copyrighted excerpts; original synthesis, URLs and bibliographic metadata published separately."
+    },
+    {
+      "path": "tmp/jlpt-phase3/research_fetch2.json",
+      "bytes": 49323,
+      "sha256": "bc4aa6c0cc79d3e75fce77509b20568b70b1fdd70dc7629160e142a0a08de6ed",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Raw search/fetch response can contain copyrighted excerpts; original synthesis, URLs and bibliographic metadata published separately."
+    },
+    {
+      "path": "tmp/jlpt-phase3/research_fetch3.json",
+      "bytes": 46659,
+      "sha256": "db299949d85df8d55519fa7a06e2a529ccf81ca29706ad2f26ee3e969f8b690a",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Raw search/fetch response can contain copyrighted excerpts; original synthesis, URLs and bibliographic metadata published separately."
+    },
+    {
+      "path": "tmp/jlpt-phase3/research_fetch4.json",
+      "bytes": 32927,
+      "sha256": "dc3926558875d1b541853032c53a222e46c04156ba2830710a4efb1c492c33f3",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Raw search/fetch response can contain copyrighted excerpts; original synthesis, URLs and bibliographic metadata published separately."
+    },
+    {
+      "path": "tmp/jlpt-phase3/research_final_fetch.json",
+      "bytes": 18427,
+      "sha256": "d059d33a99536abada049c51635e70707f71c0f4b7602b2fb41dfe3f7d8d9588",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Raw search/fetch response can contain copyrighted excerpts; original synthesis, URLs and bibliographic metadata published separately."
+    },
+    {
+      "path": "tmp/jlpt-phase3/research_g09_search.json",
+      "bytes": 14021,
+      "sha256": "a84921ac4fccb9a93cdbb6c28b685d91839515a129bfb8c1be9a372195594228",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Raw search/fetch response can contain copyrighted excerpts; original synthesis, URLs and bibliographic metadata published separately."
+    },
+    {
+      "path": "tmp/jlpt-phase3/research_pass1.json",
+      "bytes": 239224,
+      "sha256": "699513c57593aa14527fc742586493fd72874651b692378723068975ae9608ed",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Raw search/fetch response can contain copyrighted excerpts; original synthesis, URLs and bibliographic metadata published separately."
+    },
+    {
+      "path": "tmp/jlpt-phase3/research_pass2.json",
+      "bytes": 421965,
+      "sha256": "cf496a8e1548e80e2cbfac9285d2b2d8577d5065c64228385b3ad32a8d4af910",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Raw search/fetch response can contain copyrighted excerpts; original synthesis, URLs and bibliographic metadata published separately."
+    },
+    {
+      "path": "tmp/jlpt-phase3/research_pass3.json",
+      "bytes": 100366,
+      "sha256": "de6afc007d24b1c877d19501f511a2dafe2aa0caf2fc85c93b291c570a6aa48a",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Raw search/fetch response can contain copyrighted excerpts; original synthesis, URLs and bibliographic metadata published separately."
+    },
+    {
+      "path": "tmp/jlpt-phase3/research_source_gap_search.json",
+      "bytes": 13257,
+      "sha256": "bb7e393e1333e7f8e563f16c84862c48ab9361a0e33449f5226f8ef01bea9d15",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Raw search/fetch response can contain copyrighted excerpts; original synthesis, URLs and bibliographic metadata published separately."
+    },
+    {
+      "path": "tmp/jlpt-phase3/search_coverage.json",
+      "bytes": 16506,
+      "sha256": "1f777115705abcc15fe9eef1c9297e8a3d537ef99a46594085df681e27cb3d6c",
+      "status": "VERIFIED",
+      "publishedPath": "research/search_coverage.json",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "99e6983b590e8e125d58d8bd63a648941cf7ae9ce63310b1371911a2da12cf9d"
+    },
+    {
+      "path": "tmp/jlpt-phase3/short007_detail.py",
+      "bytes": 958,
+      "sha256": "412c0875ab02663f49a800455049dbfa050dee815e86250de59d1a044171668c",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-phase3/short007_detail.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "412c0875ab02663f49a800455049dbfa050dee815e86250de59d1a044171668c"
+    },
+    {
+      "path": "tmp/jlpt-phase3/source_hashes.json",
+      "bytes": 1426,
+      "sha256": "19b06a0c92993b5ab2c2f566a675ce6036eb8a72a8e9f413b1da04f043ee0613",
+      "status": "VERIFIED",
+      "publishedPath": "qa/historical/phase3/source_hashes.json",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "2252d1a66e4c6771125ef5b9e46f995ae3adc90b268b999788503e8a42df32ce"
+    },
+    {
+      "path": "tmp/jlpt-phase3/stamp_release.py",
+      "bytes": 6004,
+      "sha256": "f8d129998c8def20d8493f21b0b4e75221e321832f5069e8607e913bcfc6e370",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-phase3/stamp_release.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "f8d129998c8def20d8493f21b0b4e75221e321832f5069e8607e913bcfc6e370"
+    },
+    {
+      "path": "tmp/jlpt-phase3/START_HERE_contact.png",
+      "bytes": 434433,
+      "sha256": "c4ce3531caeb19fc3afea37f33e65035c980dfddb8169036cea7ca5e8dbfa570",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-phase3/sync_final_fields.py",
+      "bytes": 2165,
+      "sha256": "ba5b9cb381e940acc0883007e3a99ebf769bff190d06cd93bc411a4a62cee9f2",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-phase3/sync_final_fields.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "ba5b9cb381e940acc0883007e3a99ebf769bff190d06cd93bc411a4a62cee9f2"
+    },
+    {
+      "path": "tmp/jlpt-phase3/test_browser.cjs",
+      "bytes": 6338,
+      "sha256": "0cc96c2c2be01489b1e8a135bf4b414f97cab066d26a77944b8b1701844eb37e",
+      "status": "VERIFIED",
+      "publishedPath": "scripts/tests/test_browser.cjs",
+      "publication": "PORTABLE_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "d917fa5baebe5650c850835a8f3ff40c4c4e0f872c3a92de656544db273558dc"
+    },
+    {
+      "path": "tmp/jlpt-phase3/test_edge_flows.cjs",
+      "bytes": 4649,
+      "sha256": "220be05b8c5ae6212e6c0cf3abc3ef85df066e1a54ba21030bc75f99e17412f9",
+      "status": "VERIFIED",
+      "publishedPath": "scripts/tests/test_edge_flows.cjs",
+      "publication": "PORTABLE_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "fecb15ab0f5a18672380536db68d9dda68a6c9c8e8bbead13ced8e6ded6f9ac9"
+    },
+    {
+      "path": "tmp/jlpt-phase3/test_engine.cjs",
+      "bytes": 9569,
+      "sha256": "1de9442c4fcb1613335323415d3e4b59dbdd4cf83f99d85595fd6765f48f4fb9",
+      "status": "VERIFIED",
+      "publishedPath": "scripts/tests/test_engine.cjs",
+      "publication": "PORTABLE_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "c8bdf19389574e04dc2ea890eb696dd69fd99cfa0c69ccc944cba1e2d3c330c4"
+    },
+    {
+      "path": "tmp/jlpt-phase3/test_excel.ps1",
+      "bytes": 9222,
+      "sha256": "2429be9769799106ff04db28d7de66760d2a1df299e7e818d39937a923d59bd7",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Historical authoring/patch or test source may embed private profile or depend on local intermediates; current app/source and supported portable tests are published."
+    },
+    {
+      "path": "tmp/jlpt-phase3/test_preview.cjs",
+      "bytes": 811,
+      "sha256": "1f278e7cc9f2b2d53c76d7336a1f24e70be6c386d4583240720a83f83bb95fcc",
+      "status": "VERIFIED",
+      "publishedPath": "scripts/tests/test_preview.cjs",
+      "publication": "PORTABLE_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "69b875c323316a4abf6b211ddf8fb0a2a93a11b1df77cea0b2c25624aa1fc3f1"
+    },
+    {
+      "path": "tmp/jlpt-phase3/tracker_import_preview.png",
+      "bytes": 105264,
+      "sha256": "5767b32a59362b1c28fb4836fb9eb48d7cf108f7ed55fd9a7cbbbf0b115cd416",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-phase3/tracker_preservation.json",
+      "bytes": 470,
+      "sha256": "3e0018f269a386e5bcc490d6c955db63ce539375c01216b786cf926831b4a1f0",
+      "status": "VERIFIED",
+      "publishedPath": "qa/historical/phase3/tracker_preservation.json",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "7807410084c7ce0c23ab0db8acbeb7683c083ffec2d59861ef7aab906b682f80"
+    },
+    {
+      "path": "tmp/jlpt-phase3/tracker_tests.json",
+      "bytes": 1364,
+      "sha256": "6f853fb5dee35f44a7525c27ccf3de57a0724d79e9d56ed3085228c8667120c6",
+      "status": "VERIFIED",
+      "publishedPath": "qa/historical/phase3/tracker_tests.json",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "de9a7acdfbe6764ac76201795eecb87c69ee289b4715cf7df69a66b47f4e0132"
+    },
+    {
+      "path": "tmp/jlpt-phase3/verified_metadata.json",
+      "bytes": 16330,
+      "sha256": "eab51c1dae78a5d2bc5d6801ddeadcc31638a701e5af04b5deba0b0440b188f4",
+      "status": "VERIFIED",
+      "publishedPath": "research/bibliography_metadata.json",
+      "publication": "METADATA_ONLY",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "3cbde6ed8f56ff50621920bb39e055ccb340bc558ca2ecda2a9fa23807ab06db"
+    },
+    {
+      "path": "tmp/jlpt-phase3/verify_metadata.py",
+      "bytes": 1807,
+      "sha256": "1f96a467e15f25c8c8bbc9175261fbbadea2642d950e655e33dfa5788bd038ac",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-phase3/verify_metadata.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "1f96a467e15f25c8c8bbc9175261fbbadea2642d950e655e33dfa5788bd038ac"
+    },
+    {
+      "path": "tmp/jlpt-phase3/pdf_render/JAPANESE_WRITING_SPEAKING_TEMPLATES-1.png",
+      "bytes": 226484,
+      "sha256": "46eef91e768983160c9f3a4238ebc9140f403469e4006db85d53a4b15fc6c53e",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-phase3/pdf_render/JAPANESE_WRITING_SPEAKING_TEMPLATES-2.png",
+      "bytes": 243962,
+      "sha256": "c39dc0d1f6487d8e4d3757b456764fe205b031011bc8f1e68d8819244db9d8f1",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-phase3/pdf_render/JAPANESE_WRITING_SPEAKING_TEMPLATES-3.png",
+      "bytes": 228343,
+      "sha256": "94dd0f1eb375b3c33bf414e672ec0eb466dbad87fe500d40d89e515d0b645bef",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-phase3/pdf_render/JAPANESE_WRITING_SPEAKING_TEMPLATES-4.png",
+      "bytes": 211303,
+      "sha256": "aa9ae12d4361734eac1920ec4667672a2060514791580fd811866d2a2c554e27",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-phase3/pdf_render/JAPANESE_WRITING_SPEAKING_TEMPLATES-5.png",
+      "bytes": 227771,
+      "sha256": "d4f5a43fcddfc5ec3c2e14900e62e370af2ad1c420ef724fad2d5b6af4d2b23f",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-phase3/pdf_render/JAPANESE_WRITING_SPEAKING_TEMPLATES-6.png",
+      "bytes": 252177,
+      "sha256": "de2607498c83e4bf6b42bbe8bd5b06f4cb68b0a205fa9aca53c386b744324776",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-phase3/pdf_render/LEARNING_METHODS-1.png",
+      "bytes": 142143,
+      "sha256": "cbef7387ea6abb95a1e4ba763f0434afe8b7333636d8f87e9c1a2bd32d29ac68",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-phase3/pdf_render/LEARNING_METHODS-2.png",
+      "bytes": 147589,
+      "sha256": "720fa820249a4c871e5c063ffb42b34440732272e4cdb3860c09e96ac7dd30bb",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-phase3/pdf_render/LEARNING_METHODS-3.png",
+      "bytes": 100693,
+      "sha256": "9cd42253fa650a9d9ad16b3446ca351fadd39571dc37b450d2acb7249fbc1a1d",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-phase3/pdf_render/LEARNING_METHODS-4.png",
+      "bytes": 159423,
+      "sha256": "5c07aaca7b947e2b7b3ef586883a7c38e24c43e209c9d29407f6d04af48d62e7",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-phase3/pdf_render/LEARNING_METHODS-5.png",
+      "bytes": 163047,
+      "sha256": "c2d801c4962a2d44e9be8ab9b47611e67b41fcfbf5594f73b06dcbe18a51579e",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-phase3/pdf_render/LISTENING_READING_CHEATSHEETS-1.png",
+      "bytes": 139690,
+      "sha256": "dbfbad3e7695b66ef938ec2fef676d4a37f043d3be0d046f5018dde8dd1e26fd",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-phase3/pdf_render/LISTENING_READING_CHEATSHEETS-2.png",
+      "bytes": 132523,
+      "sha256": "1118fc621d8322762618a54a46371a4fcd29193557775726cea74ddd490714e5",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-phase3/pdf_render/LISTENING_READING_CHEATSHEETS-3.png",
+      "bytes": 148577,
+      "sha256": "0d49a60bfb5a7f9cdaac958d494189a5ddb0b5d2ac4448f5461041e89fdc31e4",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-phase3/pdf_render/LISTENING_READING_CHEATSHEETS-4.png",
+      "bytes": 150558,
+      "sha256": "a22337f931268cbfbf509b82c50f5cb9871131cb159fab5476a8d56bd814fe6c",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-phase3/pdf_render/LISTENING_READING_CHEATSHEETS-5.png",
+      "bytes": 201870,
+      "sha256": "14c475bdfe79cd446bb5184d00b53be1d6fa894b288998d5675069661a674558",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-phase3/pdf_render/START_HERE-1.png",
+      "bytes": 129254,
+      "sha256": "d95c471d47a7662e8e256c3239c6b486152db77901cfcbc60bdd360f6992409a",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-phase3/pdf_render/START_HERE-2.png",
+      "bytes": 161102,
+      "sha256": "f8563bf999452338377cdf184608178755712aa357703882ccb24ac7aff04b35",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-phase3/pdf_render/START_HERE-3.png",
+      "bytes": 178853,
+      "sha256": "62bc4cee3ecaf5cdf848c63ec8ba9855021f4fa4cd7b32cea7a52c83fbcf2e40",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v2/add_native_hyperlinks.py",
+      "bytes": 3548,
+      "sha256": "685c7d06ff69b75af50986fc9741830af3ed70dbb74dca14b282a99484f5f39d",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-v2/add_native_hyperlinks.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "685c7d06ff69b75af50986fc9741830af3ed70dbb74dca14b282a99484f5f39d"
+    },
+    {
+      "path": "tmp/jlpt-v2/audit_outputs.py",
+      "bytes": 5662,
+      "sha256": "da734667a3220792f6993712717401e59734722cf0fcae3031c15ec049e23bf3",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-v2/audit_outputs.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "da734667a3220792f6993712717401e59734722cf0fcae3031c15ec049e23bf3"
+    },
+    {
+      "path": "tmp/jlpt-v2/baseline_daily.png",
+      "bytes": 68387,
+      "sha256": "4b136b9cbf13f4d12b3a0909a98933769e1f852a13eba48fbb54b6abea6e3740",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v2/baseline_scores.png",
+      "bytes": 93132,
+      "sha256": "f9f5d2fa6ffb07204d423e377201f5b064bb640fa2b238051cc5115a7eb1ae64",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v2/baseline_workbook.json",
+      "bytes": 21575,
+      "sha256": "ff3153c949cf4a614bdb05267e2c1d9694f8793050c3f32d4627ff6b3bb57def",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Superseded draft, local fixture, extracted source text, or build intermediate; final counterpart/provenance retained in published checkpoint."
+    },
+    {
+      "path": "tmp/jlpt-v2/build_pdfs_v2.py",
+      "bytes": 5112,
+      "sha256": "2bad1fe90e473ec79e5b1605bf1da744e252b72560e2e7f7a6f82dfba25e95f1",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-v2/build_pdfs_v2.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "2bad1fe90e473ec79e5b1605bf1da744e252b72560e2e7f7a6f82dfba25e95f1"
+    },
+    {
+      "path": "tmp/jlpt-v2/build_tracker_v2.mjs",
+      "bytes": 27140,
+      "sha256": "35c501c16a75d32fa7473a87e8ebad5fd1e325b7eb5f8455be313ba78aabb028",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-v2/build_tracker_v2.mjs",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "35c501c16a75d32fa7473a87e8ebad5fd1e325b7eb5f8455be313ba78aabb028"
+    },
+    {
+      "path": "tmp/jlpt-v2/check_hyperlink_api.mjs",
+      "bytes": 201,
+      "sha256": "6e41c26f1786c43f1ed32fc7db0ed91bc8fcb407c37d3487fd903d1520c00434",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-v2/check_hyperlink_api.mjs",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "6e41c26f1786c43f1ed32fc7db0ed91bc8fcb407c37d3487fd903d1520c00434"
+    },
+    {
+      "path": "tmp/jlpt-v2/check_urls.py",
+      "bytes": 3629,
+      "sha256": "a4bfc2be4c1b0bdce76ea353dff290810b55680e3616ca4e43f832f42d151085",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-v2/check_urls.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "a4bfc2be4c1b0bdce76ea353dff290810b55680e3616ca4e43f832f42d151085"
+    },
+    {
+      "path": "tmp/jlpt-v2/daily_final.png",
+      "bytes": 73361,
+      "sha256": "478ce569daeae869323e3eaf0434f71552d522d06a0d9308620ecb3934a7b72e",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v2/dashboard_final.png",
+      "bytes": 135679,
+      "sha256": "b6908287174212080938f7ecd319e0bcdfea4217f3c492679017cfab0a346ce5",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v2/dashboard_test_fixture.png",
+      "bytes": 142353,
+      "sha256": "9d8148bb61e850eebcd1c8cd194a00ca9f4bf5bc717066bcbeadf5d27d974ee1",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v2/diagnostic-1.png",
+      "bytes": 295721,
+      "sha256": "36e54c1afa506567d3d8800d62b1f6a98d8a90a25eeead40a829099c365f7c81",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v2/diagnostic-2.png",
+      "bytes": 308945,
+      "sha256": "0a93e2fc81bf80062f9534e18e210dc14422962b8b9d22ec2817f08aed6f129b",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v2/diagnostic-3.png",
+      "bytes": 250896,
+      "sha256": "fe79e8eca95742f549e95a58bd52db8fa8f6ea5721a630fa270175f103f49776",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v2/diagnostic-4.png",
+      "bytes": 357410,
+      "sha256": "f73d77481a7873fcb80df52205df6930ca31035cce56b9dfd77f18fff282e5e7",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v2/diagnostic_content.md",
+      "bytes": 14487,
+      "sha256": "a90d2412cba1733504ba5296d00d8301fcde1400ca9376bc082aa09b95ea478f",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Superseded draft, local fixture, extracted source text, or build intermediate; final counterpart/provenance retained in published checkpoint."
+    },
+    {
+      "path": "tmp/jlpt-v2/diagnostic_final.png",
+      "bytes": 106406,
+      "sha256": "8fb6b3d44728c40ff8d6143b3465a337ce626fbf00d39d46ca5ebecd0c1ef3c7",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v2/diagnostic_summary_final.png",
+      "bytes": 84745,
+      "sha256": "0ba24d341e97f5a22d33bdf76b4ef56307ab981fbd43a01e485435f1bf55898d",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v2/discovered_links.json",
+      "bytes": 18834,
+      "sha256": "5def98f035959f1d50e1e8c8439223f76f2876f1f6a1525132019c8bf1d34bbf",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Superseded draft, local fixture, extracted source text, or build intermediate; final counterpart/provenance retained in published checkpoint."
+    },
+    {
+      "path": "tmp/jlpt-v2/discover_links.py",
+      "bytes": 1441,
+      "sha256": "ecf53374b48894838ee9fcd4ba94008bdc13921e8093e8c0be03f08d86f34774",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-v2/discover_links.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "ecf53374b48894838ee9fcd4ba94008bdc13921e8093e8c0be03f08d86f34774"
+    },
+    {
+      "path": "tmp/jlpt-v2/final_audit.json",
+      "bytes": 656,
+      "sha256": "843ed568b8d633d8953c9ada78be6eb7ec522df04b7a21f519657baf1a6e7cd6",
+      "status": "VERIFIED",
+      "publishedPath": "qa/historical/jlpt-v2/final_audit.json",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "389c64c88673a81256bbec96c7f0262894d62ace2c0b8328fba78ebf33bb370d"
+    },
+    {
+      "path": "tmp/jlpt-v2/final_export_inspect.ndjson",
+      "bytes": 710505,
+      "sha256": "c96bc475cd7858471194077f67f41e1607918d62751b5771eed6a1281d7edf31",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v2/formula_scan.ndjson",
+      "bytes": 60,
+      "sha256": "acc0111e19cf44d2753fc9ecd164bf1b27fbd65597463a25cf48bd1c65e90146",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v2/inspect_baseline.mjs",
+      "bytes": 1214,
+      "sha256": "fa475f19a401767f3aac61b7ba515e4210eac092a93f5b356a5a0c39e28f91e4",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-v2/inspect_baseline.mjs",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "3ec7973236570344537e2193205bd8c0a2cb1e2e9c1ba28dc2ca11157e1c82a8"
+    },
+    {
+      "path": "tmp/jlpt-v2/irodori_vi.html",
+      "bytes": 81488,
+      "sha256": "edebd7ea1140dd31419859143c8fc78c8f8aa729228c16bfe6c181b9ebe8894d",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Downloaded third-party source/exam material; link to official resource instead of redistributing."
+    },
+    {
+      "path": "tmp/jlpt-v2/make_manifest.py",
+      "bytes": 2376,
+      "sha256": "13541dbd7aed4b687ef886fde9cb81b7ea626405720ce12bbab015f69000749c",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-v2/make_manifest.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "13541dbd7aed4b687ef886fde9cb81b7ea626405720ce12bbab015f69000749c"
+    },
+    {
+      "path": "tmp/jlpt-v2/make_reference_plan.py",
+      "bytes": 11541,
+      "sha256": "523c5016c8d089af1b26b5055c79f16241b64e5236ff0358c17b685783b2b750",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Historical authoring/patch or test source may embed private profile or depend on local intermediates; current app/source and supported portable tests are published."
+    },
+    {
+      "path": "tmp/jlpt-v2/manifest.json",
+      "bytes": 6660,
+      "sha256": "2219018bebd983c15349ab27037774e7ed5f70186e63b8c38851fed4193a6263",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Superseded draft, local fixture, extracted source text, or build intermediate; final counterpart/provenance retained in published checkpoint."
+    },
+    {
+      "path": "tmp/jlpt-v2/native_links.json",
+      "bytes": 11702,
+      "sha256": "901426a3d9114d10f118b522362a20b2fed974a9b1a54bf4130d4dc931accdf1",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Superseded draft, local fixture, extracted source text, or build intermediate; final counterpart/provenance retained in published checkpoint."
+    },
+    {
+      "path": "tmp/jlpt-v2/nhap-mon.html",
+      "bytes": 130126,
+      "sha256": "80fdd2791a3f2086a319b66b008e37dc1a271f19bc7a37bbfe5826c7f10711f7",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Downloaded third-party source/exam material; link to official resource instead of redistributing."
+    },
+    {
+      "path": "tmp/jlpt-v2/original_hashes.json",
+      "bytes": 293,
+      "sha256": "d3723a3e00d131fe6f9351d2499033087a5a43f1ae8deb69072ae3514aedb026",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Superseded draft, local fixture, extracted source text, or build intermediate; final counterpart/provenance retained in published checkpoint."
+    },
+    {
+      "path": "tmp/jlpt-v2/pdf_layout_estimates.json",
+      "bytes": 741,
+      "sha256": "fce70680590c6e4e44a551b54dacd8cb32660442a7e7a0c7bbcb62a5c3d3968f",
+      "status": "VERIFIED",
+      "publishedPath": "qa/historical/jlpt-v2/pdf_layout_estimates.json",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "4ffe522c9f720e4e5c053cae405219f1834d83bc5b05918579b8c8e54dfe14cb"
+    },
+    {
+      "path": "tmp/jlpt-v2/reopen_scan.ndjson",
+      "bytes": 60,
+      "sha256": "acc0111e19cf44d2753fc9ecd164bf1b27fbd65597463a25cf48bd1c65e90146",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v2/reopen_tracker.mjs",
+      "bytes": 1027,
+      "sha256": "fb15ea9846da15620e9bf29342c4fcfeb47cdacdc8e74e9708ae85a5f6372b87",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-v2/reopen_tracker.mjs",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "27460ab11343885b31ae6209a4ef8f3171a7a6ad92eb6642ae3578d6a66970bd"
+    },
+    {
+      "path": "tmp/jlpt-v2/scores_final.png",
+      "bytes": 82001,
+      "sha256": "85f8d535f1c5830bf01d63b5c10a0bfd990c509302f55ca1a1fad22de0758c91",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v2/so-cap-1.html",
+      "bytes": 121905,
+      "sha256": "26759ec84db1c33e3e745b6934d82e9090292190132d685191fffd49b1e5e4a3",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Downloaded third-party source/exam material; link to official resource instead of redistributing."
+    },
+    {
+      "path": "tmp/jlpt-v2/start-1.png",
+      "bytes": 370986,
+      "sha256": "146c2bb1cb93143e121c1bac54401ed03f10d8fa39210a0f5367757c89262618",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v2/start-2.png",
+      "bytes": 332131,
+      "sha256": "13fe659c9205e38d448ab30c60eb8db3717558583f2b46f33076217e264b38bc",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v2/start_content.md",
+      "bytes": 7894,
+      "sha256": "822cfac5079eff9ad279237975aaf9a4b39addc22e764c78f214253f2db39f06",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Superseded draft, local fixture, extracted source text, or build intermediate; final counterpart/provenance retained in published checkpoint."
+    },
+    {
+      "path": "tmp/jlpt-v2/url_checks.json",
+      "bytes": 11307,
+      "sha256": "768cbb01e66878e35aa7b19c5455f6e184b8a741f14c6110f2a646e58d3b2c7e",
+      "status": "VERIFIED",
+      "publishedPath": "qa/historical/jlpt-v2/url_checks.json",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "7ed42c60cf5ed6f10061dfa7e79264e351fb69bd1217419b330fab371a839a8c"
+    },
+    {
+      "path": "tmp/jlpt-v2/url_checks_before_repair.json",
+      "bytes": 11273,
+      "sha256": "de8be729a581fddc6f6b2916613c4f2b2c1a623cd814947accfe6bead74cb658",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Superseded draft, local fixture, extracted source text, or build intermediate; final counterpart/provenance retained in published checkpoint."
+    },
+    {
+      "path": "tmp/jlpt-v2/v2_tracker_tests.json",
+      "bytes": 7286,
+      "sha256": "c640f23a1664ec8e048fd13b0c57fb1e2c7487421acf5cb8d8c7306a3e76b1d4",
+      "status": "VERIFIED",
+      "publishedPath": "qa/historical/jlpt-v2/v2_tracker_tests.json",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "0a387f4e278c290c1450a2ad406f566fc66d423e19a8e0a2e9fb29e6c4450f54"
+    },
+    {
+      "path": "tmp/jlpt-v2/write_qa.py",
+      "bytes": 6113,
+      "sha256": "4220f18f7dfa095800219f126149e5452705c8e81907addd159def4d5bdb55c0",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Historical authoring/patch or test source may embed private profile or depend on local intermediates; current app/source and supported portable tests are published."
+    },
+    {
+      "path": "tmp/jlpt-v3/audit_final.py",
+      "bytes": 6983,
+      "sha256": "2aa09202f7f60595436d62e6d13ad6372a9949392f7c920b61b81d498de00970",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-v3/audit_final.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "2aa09202f7f60595436d62e6d13ad6372a9949392f7c920b61b81d498de00970"
+    },
+    {
+      "path": "tmp/jlpt-v3/authoring_export.xlsx",
+      "bytes": 69715,
+      "sha256": "d7b65ffdcb5d86d920a8e2cf85d0cac2ec6757e9a707941ff3134988270e7d68",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v3/build_handbook.py",
+      "bytes": 4717,
+      "sha256": "a48c04b37ce493fcd827ba94845ce83f84d926bf04e4ec8e63307c0ae2975bc8",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-v3/build_handbook.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "a48c04b37ce493fcd827ba94845ce83f84d926bf04e4ec8e63307c0ae2975bc8"
+    },
+    {
+      "path": "tmp/jlpt-v3/build_tracker_final.mjs",
+      "bytes": 19314,
+      "sha256": "1d614c133eb2d1db8670fa5337382a40d90bd7b5c0b234f72794d2aed2db8e83",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-v3/build_tracker_final.mjs",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "1d614c133eb2d1db8670fa5337382a40d90bd7b5c0b234f72794d2aed2db8e83"
+    },
+    {
+      "path": "tmp/jlpt-v3/checkpoint_roundtrip_fixture.txt",
+      "bytes": 420,
+      "sha256": "8c8054c821d7d12afa572d82fd3810b4ff70f5f39aee6be2c514ecbc50319fe7",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Superseded draft, local fixture, extracted source text, or build intermediate; final counterpart/provenance retained in published checkpoint."
+    },
+    {
+      "path": "tmp/jlpt-v3/dynamic_dates.png",
+      "bytes": 74488,
+      "sha256": "5f6ccb96acd1902af4c022e28f0178e77840da77d4a7acfb10505efe32496307",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v3/excel_environment_probe.json",
+      "bytes": 914,
+      "sha256": "fb37b490d54b8198b1d934849ac00bcc27aff4466c0f712cd60ce47afff082e2",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Superseded draft, local fixture, extracted source text, or build intermediate; final counterpart/provenance retained in published checkpoint."
+    },
+    {
+      "path": "tmp/jlpt-v3/excel_native_fixture.xlsx",
+      "bytes": 70421,
+      "sha256": "3e41d77916c2edc8b7466a1c81c565e81909e21cdee745a557b63268d35fda1c",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v3/excel_native_tests.json",
+      "bytes": 6892,
+      "sha256": "ce924c58af81eec0947e954887a09d5d873dd472ed4cb930b3f9091dd4778804",
+      "status": "VERIFIED",
+      "publishedPath": "qa/historical/jlpt-v3/excel_native_tests.json",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "2b62e1dc5798c9245c4b5383156c346219ad1d04c5cc8c52b35c004f4c75a7bb"
+    },
+    {
+      "path": "tmp/jlpt-v3/final_audit.json",
+      "bytes": 687,
+      "sha256": "fefc77ea38f68473c50011700d2fae35d6aff3679cc9a0cfe31ea137f465f3bc",
+      "status": "VERIFIED",
+      "publishedPath": "qa/historical/jlpt-v3/final_audit.json",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "bc2357717cde14bd4365f66c9375277eff0c74f0e314e9f542caded85a9eb811"
+    },
+    {
+      "path": "tmp/jlpt-v3/final_export_inspect.ndjson",
+      "bytes": 1066896,
+      "sha256": "6be54626f81b993ddb47d267fa4d64fc00d8fd1aff1551907d8af7a9d3cdb3c8",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v3/first-question-2.png",
+      "bytes": 2463492,
+      "sha256": "47df226f39ac3415052a7548a69dd0fcc4704d4ba69b9ca938e923736ea0dd68",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v3/first-question-3.png",
+      "bytes": 145287,
+      "sha256": "50bd7b1a4c945ac05991e6269d651978936c30cf6ca4c11db60189a0b057c6ab",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v3/first-question-4.png",
+      "bytes": 176047,
+      "sha256": "90053f909e8f0f5ad27e5f031d6f136b9c23203fcd69d3cff99f977e3188cd18",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v3/first_question_link.json",
+      "bytes": 155,
+      "sha256": "c97aa486957a33d0171940da4cbde671143d29b81cdbeec0515c4cf643e7103d",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Superseded draft, local fixture, extracted source text, or build intermediate; final counterpart/provenance retained in published checkpoint."
+    },
+    {
+      "path": "tmp/jlpt-v3/formula_scan.ndjson",
+      "bytes": 60,
+      "sha256": "acc0111e19cf44d2753fc9ecd164bf1b27fbd65597463a25cf48bd1c65e90146",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v3/handbook-01.png",
+      "bytes": 240649,
+      "sha256": "9ae273f9d05c98632e67fc967ccafdc9b573e8aefbc45cd31f0a8a42ee7b82e5",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v3/handbook-02.png",
+      "bytes": 317102,
+      "sha256": "02b25e723ed465f21ada6d153dced0cf6d08a58bbdd04ba9f07f84aa27d12de0",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v3/handbook-03.png",
+      "bytes": 258612,
+      "sha256": "350b77b3c34f33ae1caa875556a821e9b2b5440de7b9c8df71e0cfef3eaf8b95",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v3/handbook-04.png",
+      "bytes": 245235,
+      "sha256": "e67013dbff7ba853aa691307339f03f51c5c2bcbb006d09834abcc7361604e29",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v3/handbook-05.png",
+      "bytes": 263115,
+      "sha256": "01686daf5cfe2d848b1fabaaeff8337040c5976558ac8cf1e0b8ceaacf8964a7",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v3/handbook-06.png",
+      "bytes": 260931,
+      "sha256": "fd1a632ddb9a5588ff2067dd6b24344cc400afe28310379abd1204ffd4c4aef5",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v3/handbook-07.png",
+      "bytes": 293753,
+      "sha256": "bc119e8c3d8a97690dea9d89dbba2e89d1cab70301c5d798b16f7821fa19e8c0",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v3/handbook-08.png",
+      "bytes": 260146,
+      "sha256": "1f760ed1db7cedc8c9dd98d2473013952cecf60daa5aa0d2bff783454b71ff95",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v3/handbook-09.png",
+      "bytes": 282831,
+      "sha256": "04962a0d461b28319786b279e41092b1570f1651b6a056abe01ae4395b737977",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v3/handbook-10.png",
+      "bytes": 272980,
+      "sha256": "f7e9d4d916a54b1f6140e5561a4b7351229412a10239f42d80f32ba4be122b0b",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v3/handbook-11.png",
+      "bytes": 339533,
+      "sha256": "f65bb5df7986dca6cb464ee8aa98929eac5fdb93af02e4726c5fc1bc63e1ff47",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v3/handbook-12.png",
+      "bytes": 330371,
+      "sha256": "28a895ef267f4667106128aac873f5c7b6dd0c71c8e74ac17ab8c9184c5f68f2",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v3/handbook-final-01.png",
+      "bytes": 245378,
+      "sha256": "c7a9fb41ea771e1cc83ee952abffb3ca10a8fae51323dec00107c516a045b65f",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v3/handbook-final-03.png",
+      "bytes": 260697,
+      "sha256": "98f04a7f161fc2e4c7e848eb1744c33c1b0c8ebbf5190513f7cd56984ce92e5d",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v3/handbook-latest-07.png",
+      "bytes": 293963,
+      "sha256": "3cc494268c6ce2a82d58d0b150b7830c066544bd16fd9b358a95d58934177371",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v3/handbook-latest-12.png",
+      "bytes": 333193,
+      "sha256": "ee8d284b067f3d583117d527bdf20970f444af76502d99db7c0d5d7453b6160d",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v3/handbook_content.md",
+      "bytes": 32871,
+      "sha256": "509994c71063e274679cb12510d53fb0f77244d0eb580f8dd0e23d5ce4f966ba",
+      "status": "VERIFIED",
+      "publishedPath": "archive/phase2.1/JLPT_STUDY_SYSTEM_FINAL.public.md",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "23db51bad703de71bb67299f8de8c39b835c8347a288111774a2135897b0f6d4"
+    },
+    {
+      "path": "tmp/jlpt-v3/handbook_layout.json",
+      "bytes": 882,
+      "sha256": "aefdb06522bc3e5b6c986a9b6b9ef059d20a6413bd50f86fc1eb7f231614317b",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Superseded draft, local fixture, extracted source text, or build intermediate; final counterpart/provenance retained in published checkpoint."
+    },
+    {
+      "path": "tmp/jlpt-v3/input_hashes.json",
+      "bytes": 584,
+      "sha256": "9ae93eb1d6976d3d649b27d84908a55ca3dc797eacafc53fbaeaecf7b0a631ea",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Superseded draft, local fixture, extracted source text, or build intermediate; final counterpart/provenance retained in published checkpoint."
+    },
+    {
+      "path": "tmp/jlpt-v3/input_workbook.json",
+      "bytes": 505360,
+      "sha256": "931d1dc9f52a41b2d5b3b59af33ed667605f7f68c6f417c93626a26fcac38647",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Superseded draft, local fixture, extracted source text, or build intermediate; final counterpart/provenance retained in published checkpoint."
+    },
+    {
+      "path": "tmp/jlpt-v3/inspect_inputs.py",
+      "bytes": 2142,
+      "sha256": "d73d646efba7a030f0337c546059204c6bd2c52752d2d5d99965fc1d8bc61c86",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-v3/inspect_inputs.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "d73d646efba7a030f0337c546059204c6bd2c52752d2d5d99965fc1d8bc61c86"
+    },
+    {
+      "path": "tmp/jlpt-v3/isolate_native.py",
+      "bytes": 1224,
+      "sha256": "49845118537070dd432a6baadf4b5d75baa6a8e12af544cf023a4e7a9e509c61",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-v3/isolate_native.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "49845118537070dd432a6baadf4b5d75baa6a8e12af544cf023a4e7a9e509c61"
+    },
+    {
+      "path": "tmp/jlpt-v3/JLPT_DIAGNOSTIC_GUIDE.txt",
+      "bytes": 12882,
+      "sha256": "bcd9a33f7ab0226fa4f798d55e1b7082c57a78f94d83047a6c4a64ad72217fee",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Superseded draft, local fixture, extracted source text, or build intermediate; final counterpart/provenance retained in published checkpoint."
+    },
+    {
+      "path": "tmp/jlpt-v3/JLPT_START_HERE.txt",
+      "bytes": 7447,
+      "sha256": "bce0ce769c8c32cbff52fed0d0b5f474d0cf747019e15347f70686c069835f6a",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Superseded draft, local fixture, extracted source text, or build intermediate; final counterpart/provenance retained in published checkpoint."
+    },
+    {
+      "path": "tmp/jlpt-v3/keyN3-1.png",
+      "bytes": 88378,
+      "sha256": "e0603fd1c974658f1f97a9755793041839f055816ce42cbe6af26098c02228a1",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v3/keyN3-2.png",
+      "bytes": 63196,
+      "sha256": "090baf6f5829ac1f9f9303f57640d777c6482102ef565a25be2b149e7446710f",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v3/keyN4-1.png",
+      "bytes": 90202,
+      "sha256": "a36d1672cf435270ce9476a77c14181252c74cda3387334aba3316b87cd167ad",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v3/keyN4-2.png",
+      "bytes": 54860,
+      "sha256": "f6bea2ae37fe3566993cb690e26408ac8903ecb76ee7046f1ad006f4b472d238",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v3/key_verification.json",
+      "bytes": 8577,
+      "sha256": "2db7d191bbdd6114163db349c35f23589192ce1c9ae54f47a4a9c6188d84db34",
+      "status": "VERIFIED",
+      "publishedPath": "qa/historical/jlpt-v3/key_verification.json",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "dc84f4867b2b2df7f7e674f85641a8f5c5904a0a58fba082e285a37cbff8c682"
+    },
+    {
+      "path": "tmp/jlpt-v3/links_only.xlsx",
+      "bytes": 71386,
+      "sha256": "b88317a41a33126a2e2a495f806dc6ea20de2408a98004a1c7a7ebfbf48d22d7",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v3/manifest_final.json",
+      "bytes": 10831,
+      "sha256": "52f63e6018751910daeaa4856e604fbac27c09116c1eab39ef6288b30237a1d4",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Superseded draft, local fixture, extracted source text, or build intermediate; final counterpart/provenance retained in published checkpoint."
+    },
+    {
+      "path": "tmp/jlpt-v3/N3answer.pdf",
+      "bytes": 83452,
+      "sha256": "c4f1acc6b53add298bb28f8f4759e96242516b96546625c49c75d090d0913d2b",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Downloaded third-party source/exam material; link to official resource instead of redistributing."
+    },
+    {
+      "path": "tmp/jlpt-v3/N4answer.pdf",
+      "bytes": 78736,
+      "sha256": "72b4e72cab02780f82653a3e1f08766f11ce698f77df8557d7971a2f48f452c1",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Downloaded third-party source/exam material; link to official resource instead of redistributing."
+    },
+    {
+      "path": "tmp/jlpt-v3/N4G.pdf",
+      "bytes": 1193596,
+      "sha256": "da3bec0d70fef11aa9291b12d56a964b99064c77d1bac4dbe9f17d01c92f08a7",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Downloaded third-party source/exam material; link to official resource instead of redistributing."
+    },
+    {
+      "path": "tmp/jlpt-v3/native_features.json",
+      "bytes": 133,
+      "sha256": "3f16336b3501d91eeb59009cfa553d1d5a814998a9e90a37a67bd35083a9027b",
+      "status": "VERIFIED",
+      "publishedPath": "qa/historical/jlpt-v3/native_features.json",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "ef77e9fb6b5e513a16c7edb9f45be6f6ca41e26f2e742968a7aee1af2074bf53"
+    },
+    {
+      "path": "tmp/jlpt-v3/new_links.json",
+      "bytes": 6139,
+      "sha256": "bb4e7ae33cff233dda8ef409aec72d02e3bc339faad1f5dee29fac26c5e4bc93",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Superseded draft, local fixture, extracted source text, or build intermediate; final counterpart/provenance retained in published checkpoint."
+    },
+    {
+      "path": "tmp/jlpt-v3/nobook.xlsx",
+      "bytes": 71489,
+      "sha256": "0a8b87289cd68c1218f95a838cb3807f40593d37ee8bdcee26633d0302c6b495",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v3/nocols.xlsx",
+      "bytes": 71529,
+      "sha256": "712b1bcca54e2d90dcf77f4ed56f964a2733a9844d636be8c4028a9c60937684",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v3/noviews.xlsx",
+      "bytes": 71466,
+      "sha256": "d06e4cd49d9d4127bde30c3b336b628d600b4cdadfcd0a64a504e36fcf8b067d",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v3/patch_native.py",
+      "bytes": 4585,
+      "sha256": "6cba20738b03a124d0b8868bfe9aaa5fec2adfe1c92ffc98942ed5f389f517f1",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-v3/patch_native.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "6cba20738b03a124d0b8868bfe9aaa5fec2adfe1c92ffc98942ed5f389f517f1"
+    },
+    {
+      "path": "tmp/jlpt-v3/prepare_tutor.py",
+      "bytes": 2660,
+      "sha256": "7705fc491daf192212c72568a1e28e991cd068164edf8134e4c343fb058c4746",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-v3/prepare_tutor.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "7705fc491daf192212c72568a1e28e991cd068164edf8134e4c343fb058c4746"
+    },
+    {
+      "path": "tmp/jlpt-v3/preserved_daily.png",
+      "bytes": 58990,
+      "sha256": "eac52aed412bb692eb1a4bc089a4cfba5aec1c0c30e84a646c160d94e7b136c9",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v3/preserved_detail.png",
+      "bytes": 66697,
+      "sha256": "4403197aef081f20d7dcdb2f39a41313767c0e1610856d397ce9375e8c40a658",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v3/probe_excel.ps1",
+      "bytes": 1191,
+      "sha256": "1b7b94c7a83142c19ea263d97587abfab7ad08010cf45d38e531bed4d48782ce",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-v3/probe_excel.ps1",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "3c1b50d9ee68cc808a5d104695ffdb88d75593c07397c1dceb1f64e5d3c041c7"
+    },
+    {
+      "path": "tmp/jlpt-v3/quick_blank.png",
+      "bytes": 112528,
+      "sha256": "59a4cea590a53476e300c5e575105b1540c16d21939a2e34eb2c4693f17570c7",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v3/quick_complete_fixture.png",
+      "bytes": 71865,
+      "sha256": "c67f04375b3ac858c421ac1edbf0a822399a2de55f11587737a841547c10ac40",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v3/reopen_final.mjs",
+      "bytes": 1234,
+      "sha256": "fe2c9163f650eb31c13ccb6dfb03738307437a0b4821f993cf92f1cf85ccda35",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-v3/reopen_final.mjs",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "6512aab35ec395b89421885a82716935ae4cd58cf7256130ce7b8be66daa38cf"
+    },
+    {
+      "path": "tmp/jlpt-v3/reopen_scan.ndjson",
+      "bytes": 60,
+      "sha256": "acc0111e19cf44d2753fc9ecd164bf1b27fbd65597463a25cf48bd1c65e90146",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v3/resolved_scores.png",
+      "bytes": 46979,
+      "sha256": "8d12153abb71e9a6875dd58fbf9182816d0b288495d039e99f17bec8553d4a3d",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v3/tablet-view-02.png",
+      "bytes": 239162,
+      "sha256": "f9431039e9e3ccb14ab3a8af5252337df0bd21eebebcbf1e8025d745ec056409",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v3/tablet-view-10.png",
+      "bytes": 208027,
+      "sha256": "08cdf74974b1cb50b6acac43d9dd41e0ade02081eda6ec24a9770598e8635b7c",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v3/test_excel.ps1",
+      "bytes": 5822,
+      "sha256": "20f8c6ab310b434c2208f9a48a1065c84a755ec6a2f02467387dae75654a0451",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Historical authoring/patch or test source may embed private profile or depend on local intermediates; current app/source and supported portable tests are published."
+    },
+    {
+      "path": "tmp/jlpt-v3/tracker_tests.json",
+      "bytes": 12101,
+      "sha256": "2f5a7ef76a371fbdbe2910dfb633b513b765241ae11af2e3feab0e185ad50cf2",
+      "status": "VERIFIED",
+      "publishedPath": "qa/historical/jlpt-v3/tracker_tests.json",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "8780510c6760136f1097f9d87780cb64c526305f490db4453521454fd714ab04"
+    },
+    {
+      "path": "tmp/jlpt-v3/tutor_prompt.txt",
+      "bytes": 6697,
+      "sha256": "dc2c8439d463940c954858052becefe0eaa106bc70f714c92c30f81009f5472b",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Superseded draft, local fixture, extracted source text, or build intermediate; final counterpart/provenance retained in published checkpoint."
+    },
+    {
+      "path": "tmp/jlpt-v3/verified_keys.json",
+      "bytes": 646,
+      "sha256": "e6e8c62553f5a5e56d5ecf7c5319888d41b5a33ce5aade52c54153f27faa44ee",
+      "status": "VERIFIED",
+      "publishedPath": "qa/historical/jlpt-v3/verified_keys.json",
+      "publication": "PUBLIC_DERIVATIVE",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "48614b5b69a3c7aea2edf5b9a973741bcd639452077c82fbeaed006bbb0e8127"
+    },
+    {
+      "path": "tmp/jlpt-v3/verify_official_keys.py",
+      "bytes": 2593,
+      "sha256": "89d191494a27af732ec71308d3d2a4a4c538801fa185b04e94decc948845345a",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-v3/verify_official_keys.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "89d191494a27af732ec71308d3d2a4a4c538801fa185b04e94decc948845345a"
+    },
+    {
+      "path": "tmp/jlpt-v3/weekly_final.png",
+      "bytes": 111450,
+      "sha256": "e87ecc9d286589c5937baec7f5391a5dcf9d7780a979e8328444286a631e5c0d",
+      "status": "DRAFT",
+      "disposition": "LOCAL_ONLY",
+      "reason": "Reproducible preview, intermediate inspection, scratch workbook or test fixture; final artifact and QA outcome published."
+    },
+    {
+      "path": "tmp/jlpt-v3/write_final_qa.py",
+      "bytes": 12577,
+      "sha256": "52a1bff50ed5a4fb408ef21ad624f09ecda5f2bc211975059cf1314bee238ceb",
+      "status": "DRAFT",
+      "publishedPath": "archive/source-scripts/jlpt-v3/write_final_qa.py",
+      "publication": "BYTE_IDENTICAL",
+      "disposition": "PUBLISHED_OR_PUBLIC_COUNTERPART",
+      "publishedSha256": "52a1bff50ed5a4fb408ef21ad624f09ecda5f2bc211975059cf1314bee238ceb"
+    }
+  ]
+}

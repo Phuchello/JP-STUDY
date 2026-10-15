@@ -1,0 +1,2 @@
+from pathlib import Path
+t=Path(__file__).resolve().parent;p=t/'test_browser.cjs';s=p.read_text(encoding='utf-8');s=s.replace("await page.locator('#copy-errors').click();check", "await page.locator('#copy-errors').click();await page.waitForFunction(()=>document.querySelector('#copy-text')||document.querySelector('#notice').textContent.includes('Đã sao chép'));check");p.write_text(s,encoding='utf-8')

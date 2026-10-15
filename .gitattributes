@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.pdf binary
+*.xlsx binary
+# Audited data/offline payloads retain their original bytes on checkout.
+deliverables/phase3/JLPT_PRACTICE/* -text
+deliverables/phase3/JAPANESE_PATTERN_LIBRARY/* -text
+deliverables/phase3/ANSWER_KEY_AND_EXPLANATIONS/validated_keys.json -text

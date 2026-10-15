@@ -1,0 +1,562 @@
+[
+  {
+    "id": "N4-VOC-001",
+    "oldKey": "A",
+    "newKey": "D",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-VOC-002",
+    "oldKey": "D",
+    "newKey": "D",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-VOC-003",
+    "oldKey": "C",
+    "newKey": "B",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-VOC-004",
+    "oldKey": "B",
+    "newKey": "D",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-VOC-005",
+    "oldKey": "A",
+    "newKey": "C",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-VOC-006",
+    "oldKey": "D",
+    "newKey": "B",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-VOC-007",
+    "oldKey": "C",
+    "newKey": "A",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-VOC-008",
+    "oldKey": "B",
+    "newKey": "A",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-PART-001",
+    "oldKey": "A",
+    "newKey": "C",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-PART-002",
+    "oldKey": "D",
+    "newKey": "B",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-PART-003",
+    "oldKey": "C",
+    "newKey": "B",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-PART-004",
+    "oldKey": "B",
+    "newKey": "C",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-PART-005",
+    "oldKey": "A",
+    "newKey": "A",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-PART-006",
+    "oldKey": "D",
+    "newKey": "A",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-PART-007",
+    "oldKey": "C",
+    "newKey": "C",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-PART-008",
+    "oldKey": "B",
+    "newKey": "D",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-PART-009",
+    "oldKey": "A",
+    "newKey": "A",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-PART-010",
+    "oldKey": "D",
+    "newKey": "A",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-CONJ-001",
+    "oldKey": "C",
+    "newKey": "B",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-CONJ-002",
+    "oldKey": "B",
+    "newKey": "C",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-CONJ-003",
+    "oldKey": "A",
+    "newKey": "A",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-CONJ-004",
+    "oldKey": "D",
+    "newKey": "C",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-CONJ-005",
+    "oldKey": "C",
+    "newKey": "B",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-CONJ-006",
+    "oldKey": "B",
+    "newKey": "B",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-CONJ-007",
+    "oldKey": "A",
+    "newKey": "C",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-CONJ-008",
+    "oldKey": "D",
+    "newKey": "B",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-CONJ-009",
+    "oldKey": "C",
+    "newKey": "C",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-CONJ-010",
+    "oldKey": "B",
+    "newKey": "A",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-GRAM-001",
+    "oldKey": "A",
+    "newKey": "D",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-GRAM-002",
+    "oldKey": "D",
+    "newKey": "B",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-GRAM-003",
+    "oldKey": "C",
+    "newKey": "C",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-GRAM-004",
+    "oldKey": "B",
+    "newKey": "B",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-GRAM-005",
+    "oldKey": "A",
+    "newKey": "D",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-GRAM-006",
+    "oldKey": "D",
+    "newKey": "D",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-GRAM-007",
+    "oldKey": "C",
+    "newKey": "A",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-GRAM-008",
+    "oldKey": "B",
+    "newKey": "D",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-GRAM-009",
+    "oldKey": "A",
+    "newKey": "D",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-GRAM-010",
+    "oldKey": "D",
+    "newKey": "B",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-GRAM-011",
+    "oldKey": "C",
+    "newKey": "A",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-GRAM-012",
+    "oldKey": "B",
+    "newKey": "B",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-ORDER-001",
+    "oldKey": "A",
+    "newKey": "B",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-ORDER-002",
+    "oldKey": "D",
+    "newKey": "C",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-ORDER-003",
+    "oldKey": "C",
+    "newKey": "A",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-ORDER-004",
+    "oldKey": "B",
+    "newKey": "C",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-ORDER-005",
+    "oldKey": "A",
+    "newKey": "D",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-ORDER-006",
+    "oldKey": "D",
+    "newKey": "B",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-ORDER-007",
+    "oldKey": "C",
+    "newKey": "B",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-ORDER-008",
+    "oldKey": "B",
+    "newKey": "D",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-INTERP-001",
+    "oldKey": "A",
+    "newKey": "A",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-INTERP-002",
+    "oldKey": "D",
+    "newKey": "D",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-INTERP-003",
+    "oldKey": "C",
+    "newKey": "B",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-INTERP-004",
+    "oldKey": "B",
+    "newKey": "B",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-INTERP-005",
+    "oldKey": "A",
+    "newKey": "A",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-INTERP-006",
+    "oldKey": "D",
+    "newKey": "C",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-SHORT-001",
+    "oldKey": "C",
+    "newKey": "C",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-SHORT-002",
+    "oldKey": "B",
+    "newKey": "B",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-SHORT-003",
+    "oldKey": "A",
+    "newKey": "A",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-SHORT-004",
+    "oldKey": "D",
+    "newKey": "D",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-SHORT-005",
+    "oldKey": "C",
+    "newKey": "A",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-SHORT-006",
+    "oldKey": "B",
+    "newKey": "D",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-SHORT-007",
+    "oldKey": "A",
+    "newKey": "D",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-SHORT-008",
+    "oldKey": "D",
+    "newKey": "C",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-MED-001",
+    "oldKey": "C",
+    "newKey": "C",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-MED-002",
+    "oldKey": "B",
+    "newKey": "D",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-MED-003",
+    "oldKey": "A",
+    "newKey": "B",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-MED-004",
+    "oldKey": "D",
+    "newKey": "D",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-MED-005",
+    "oldKey": "C",
+    "newKey": "A",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-MED-006",
+    "oldKey": "B",
+    "newKey": "B",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-LISTEN-001",
+    "oldKey": "A",
+    "newKey": "A",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-LISTEN-002",
+    "oldKey": "D",
+    "newKey": "D",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-LISTEN-003",
+    "oldKey": "C",
+    "newKey": "D",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-LISTEN-004",
+    "oldKey": "B",
+    "newKey": "D",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-LISTEN-005",
+    "oldKey": "A",
+    "newKey": "D",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-LISTEN-006",
+    "oldKey": "D",
+    "newKey": "B",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-LISTEN-007",
+    "oldKey": "C",
+    "newKey": "A",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-LISTEN-008",
+    "oldKey": "B",
+    "newKey": "C",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-COMM-001",
+    "oldKey": "A",
+    "newKey": "D",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-COMM-002",
+    "oldKey": "D",
+    "newKey": "D",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-COMM-003",
+    "oldKey": "C",
+    "newKey": "A",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  },
+  {
+    "id": "N4-COMM-004",
+    "oldKey": "B",
+    "newKey": "B",
+    "sameCorrectText": true,
+    "distractorsMapped": true
+  }
+]
