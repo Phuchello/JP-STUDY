@@ -1,0 +1,4933 @@
+{
+  "bankVersion": "phase3.7-120-milestone-2026.10.15",
+  "totalQuestions": 120,
+  "levels": {
+    "N4": 40,
+    "N3": 50,
+    "N2": 30
+  },
+  "authority": "JEES / The Japan Foundation JLPT Specifications",
+  "description": "120 câu hỏi nguyên bản mới độc lập qua 5 cổng kiểm định, gồm N4 (40 câu), N3 (50 câu), N2 (30 câu).",
+  "questions": [
+    {
+      "id": "N4-MO-READ-001",
+      "level": "N4",
+      "skill": "Vocabulary",
+      "typeId": "N4-MO-READ",
+      "stem": "「案内」の読み方はどれですか。駅員さんに道を案内してもらいました。",
+      "stimulusId": "N4-MO-READ-001",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "あんない"
+        },
+        {
+          "id": "B",
+          "text": "あない"
+        },
+        {
+          "id": "C",
+          "text": "あんなに"
+        },
+        {
+          "id": "D",
+          "text": "あんたい"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "案内 đọc là あんない, mang nghĩa hướng dẫn, chỉ đường.",
+      "distractorExplanations": {
+        "B": "Thiếu âm ん trong âm On あん.",
+        "C": "Lộn âm な thành に.",
+        "D": "Chữ 内 đọc là ない chứ không phải たい."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "kanji-reading",
+      "remediation": "Tra cứu lại âm đọc Onyomi/Kunyomi của chữ Hán và phát âm to cả từ.",
+      "sourceMetadata": "Official JLPT sample N4 format & TUFS grammar bank",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N4-MO-READ-002",
+      "level": "N4",
+      "skill": "Vocabulary",
+      "typeId": "N4-MO-READ",
+      "stem": "「貸す」の読み方はどれですか。友達に日本語の辞書を貸しました。",
+      "stimulusId": "N4-MO-READ-002",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "かります"
+        },
+        {
+          "id": "B",
+          "text": "かします"
+        },
+        {
+          "id": "C",
+          "text": "かえします"
+        },
+        {
+          "id": "D",
+          "text": "だします"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanationVi": "貸す đọc là かす (thể lịch sự là かします), mang nghĩa cho mượn.",
+      "distractorExplanations": {
+        "A": "Nhầm với 借ります (かり・mượn).",
+        "C": "Nhầm với 返します (かえ・trả lại).",
+        "D": "Nhầm với 出します (だ・nộp/lấy ra)."
+      },
+      "difficultyEstimate": 1,
+      "conceptId": "kanji-reading",
+      "remediation": "Tra cứu lại âm đọc Onyomi/Kunyomi của chữ Hán và phát âm to cả từ.",
+      "sourceMetadata": "Official JLPT sample N4 format & TUFS grammar bank",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N4-MO-READ-003",
+      "level": "N4",
+      "skill": "Vocabulary",
+      "typeId": "N4-MO-READ",
+      "stem": "「計画」の読み方はどれですか。来週の旅行の計画を立てています。",
+      "stimulusId": "N4-MO-READ-003",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "けいかく"
+        },
+        {
+          "id": "B",
+          "text": "けいが"
+        },
+        {
+          "id": "C",
+          "text": "けっかく"
+        },
+        {
+          "id": "D",
+          "text": "きかく"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "計画 đọc là けいかく, mang nghĩa kế hoạch.",
+      "distractorExplanations": {
+        "B": "画 có âm が nhưng trong 計画 đọc là かく.",
+        "C": "Không có âm ngắt けっ.",
+        "D": "きかく là chữ 企画 (quy hoạch/dự án)."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "kanji-reading",
+      "remediation": "Tra cứu lại âm đọc Onyomi/Kunyomi của chữ Hán và phát âm to cả từ.",
+      "sourceMetadata": "Official JLPT sample N4 format & TUFS grammar bank",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N4-MO-READ-004",
+      "level": "N4",
+      "skill": "Vocabulary",
+      "typeId": "N4-MO-READ",
+      "stem": "「拾う」の読み方はどれですか。道で鍵を拾いました。",
+      "stimulusId": "N4-MO-READ-004",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "ひろいました"
+        },
+        {
+          "id": "B",
+          "text": "あつめました"
+        },
+        {
+          "id": "C",
+          "text": "すてました"
+        },
+        {
+          "id": "D",
+          "text": "みつけました"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "拾う đọc là ひろう (quá khứ là ひろいました), mang nghĩa nhặt được.",
+      "distractorExplanations": {
+        "B": "あつめました là chữ 集めました (thu gom/sưu tầm).",
+        "C": "すてました là chữ 捨てました (vứt đi).",
+        "D": "みつけました là chữ 見つけました (tìm thấy)."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "kanji-reading",
+      "remediation": "Tra cứu lại âm đọc Onyomi/Kunyomi của chữ Hán và phát âm to cả từ.",
+      "sourceMetadata": "Official JLPT sample N4 format & TUFS grammar bank",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N4-MO-READ-005",
+      "level": "N4",
+      "skill": "Vocabulary",
+      "typeId": "N4-MO-READ",
+      "stem": "「質問」の読み方はどれですか。先生に質問があります。",
+      "stimulusId": "N4-MO-READ-005",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "しつもん"
+        },
+        {
+          "id": "B",
+          "text": "しちもん"
+        },
+        {
+          "id": "C",
+          "text": "じつもん"
+        },
+        {
+          "id": "D",
+          "text": "しつぶん"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "質問 đọc là しつもん, mang nghĩa câu hỏi/thắc mắc.",
+      "distractorExplanations": {
+        "B": "Chữ 質 đọc là しつ chứ không phải しち.",
+        "C": "Âm đầu không đục (しつ chứ không phải じつ).",
+        "D": "Chữ 問 đọc là もん chứ không phải ぶん."
+      },
+      "difficultyEstimate": 1,
+      "conceptId": "kanji-reading",
+      "remediation": "Tra cứu lại âm đọc Onyomi/Kunyomi của chữ Hán và phát âm to cả từ.",
+      "sourceMetadata": "Official JLPT sample N4 format & TUFS grammar bank",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N4-MO-READ-006",
+      "level": "N4",
+      "skill": "Vocabulary",
+      "typeId": "N4-MO-READ",
+      "stem": "「送る」の読み方はどれですか。家族に荷物を送りました。",
+      "stimulusId": "N4-MO-READ-006",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "おくりました"
+        },
+        {
+          "id": "B",
+          "text": "とどけました"
+        },
+        {
+          "id": "C",
+          "text": "はこびました"
+        },
+        {
+          "id": "D",
+          "text": "わたしました"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "送る đọc là おくる, mang nghĩa gửi (hàng/thư).",
+      "distractorExplanations": {
+        "B": "とどけました là 届けました (giao tới nơi).",
+        "C": "はこびました là 運びました (vận chuyển).",
+        "D": "わたしました là 渡しました (trao tận tay)."
+      },
+      "difficultyEstimate": 1,
+      "conceptId": "kanji-reading",
+      "remediation": "Tra cứu lại âm đọc Onyomi/Kunyomi của chữ Hán và phát âm to cả từ.",
+      "sourceMetadata": "Official JLPT sample N4 format & TUFS grammar bank",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N4-MO-READ-007",
+      "level": "N4",
+      "skill": "Vocabulary",
+      "typeId": "N4-MO-READ",
+      "stem": "「道具」の読み方はどれですか。棚の中に大工の道具が入っています。",
+      "stimulusId": "N4-MO-READ-007",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "どうぐ"
+        },
+        {
+          "id": "B",
+          "text": "とうぐ"
+        },
+        {
+          "id": "C",
+          "text": "どうく"
+        },
+        {
+          "id": "D",
+          "text": "とうく"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "道具 đọc là どうぐ, mang nghĩa công cụ, dụng cụ.",
+      "distractorExplanations": {
+        "B": "Đạo (道) đọc là どう (âm đục).",
+        "C": "Cụ (具) đọc là ぐ (âm đục).",
+        "D": "Cả hai chữ đều mang âm đục: どうぐ."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "kanji-reading",
+      "remediation": "Tra cứu lại âm đọc Onyomi/Kunyomi của chữ Hán và phát âm to cả từ.",
+      "sourceMetadata": "Official JLPT sample N4 format & TUFS grammar bank",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N4-MO-READ-008",
+      "level": "N4",
+      "skill": "Vocabulary",
+      "typeId": "N4-MO-READ",
+      "stem": "「特別」の読み方はどれですか。今日は特別な日なので、外食します。",
+      "stimulusId": "N4-MO-READ-008",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "とくべつ"
+        },
+        {
+          "id": "B",
+          "text": "とくべち"
+        },
+        {
+          "id": "C",
+          "text": "とっべつ"
+        },
+        {
+          "id": "D",
+          "text": "どくべつ"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "特別 đọc là とくべつ, mang nghĩa đặc biệt.",
+      "distractorExplanations": {
+        "B": "Chữ 別 đọc là べつ chứ không phải べち.",
+        "C": "Không biến thành âm ngắt とっ.",
+        "D": "Đặc (特) đọc là とく, âm đầu không đục."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "kanji-reading",
+      "remediation": "Tra cứu lại âm đọc Onyomi/Kunyomi của chữ Hán và phát âm to cả từ.",
+      "sourceMetadata": "Official JLPT sample N4 format & TUFS grammar bank",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N4-MO-CONT-001",
+      "level": "N4",
+      "skill": "Vocabulary",
+      "typeId": "N4-MO-CONT",
+      "stem": "お客様、どうぞ（　　）なくお召し上がりください。",
+      "stimulusId": "N4-MO-CONT-001",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "えんりょ"
+        },
+        {
+          "id": "B",
+          "text": "しんぱい"
+        },
+        {
+          "id": "C",
+          "text": "ちゅうい"
+        },
+        {
+          "id": "D",
+          "text": "あんしん"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Cụm từ cố định 「ご遠慮なく」 mang nghĩa 'xin đừng ngại/khách khí'.",
+      "distractorExplanations": {
+        "B": "心配なく không phải là cách diễn đạt lịch sự khi mời ăn uống.",
+        "C": "注意なく là bất cẩn, sai nghĩa.",
+        "D": "安心なく sai ngữ pháp."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "collocation-polite",
+      "remediation": "Học từ vựng theo cụm cố định (collocation) và tình huống ứng dụng thực tế.",
+      "sourceMetadata": "Japan Foundation Irodori & JLPT N4 official vocabulary",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N4-MO-CONT-002",
+      "level": "N4",
+      "skill": "Vocabulary",
+      "typeId": "N4-MO-CONT",
+      "stem": "急いで走ったので、電車の発車時刻に（　　）。",
+      "stimulusId": "N4-MO-CONT-002",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "まにあいました"
+        },
+        {
+          "id": "B",
+          "text": "おくれました"
+        },
+        {
+          "id": "C",
+          "text": "とまりました"
+        },
+        {
+          "id": "D",
+          "text": "つきました"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Cụm 「間に合う」 (まにあう) nghĩa là kịp giờ tàu xe.",
+      "distractorExplanations": {
+        "B": "遅れました là bị muộn, trái ngược với ý '急いで走ったので' (vì chạy vội nên đã kịp).",
+        "C": "止まりました là dừng lại.",
+        "D": "着きました thiếu trợ từ chỉ nơi chốn."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "vocab-context",
+      "remediation": "Học từ vựng theo cụm cố định (collocation) và tình huống ứng dụng thực tế.",
+      "sourceMetadata": "Japan Foundation Irodori & JLPT N4 official vocabulary",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N4-MO-CONT-003",
+      "level": "N4",
+      "skill": "Vocabulary",
+      "typeId": "N4-MO-CONT",
+      "stem": "後ろの席の人にも聞こえるように、（　　）大きな声で話してください。",
+      "stimulusId": "N4-MO-CONT-003",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "はっきり"
+        },
+        {
+          "id": "B",
+          "text": "うっかり"
+        },
+        {
+          "id": "C",
+          "text": "すっかり"
+        },
+        {
+          "id": "D",
+          "text": "びっくり"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Phó từ 「はっきり」 nghĩa là rõ ràng, mạch lạc.",
+      "distractorExplanations": {
+        "B": "うっかり là lỡ đãng/sơ ý.",
+        "C": "すっかり là hoàn toàn/toàn bộ.",
+        "D": "びっくり là giật mình/ngạc nhiên."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "adverbs",
+      "remediation": "Học từ vựng theo cụm cố định (collocation) và tình huống ứng dụng thực tế.",
+      "sourceMetadata": "Japan Foundation Irodori & JLPT N4 official vocabulary",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N4-MO-CONT-004",
+      "level": "N4",
+      "skill": "Vocabulary",
+      "typeId": "N4-MO-CONT",
+      "stem": "洗濯機が（　　）して動かないので、修理を頼みました。",
+      "stimulusId": "N4-MO-CONT-004",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "こしょう"
+        },
+        {
+          "id": "B",
+          "text": "じこ"
+        },
+        {
+          "id": "C",
+          "text": "ちゅうし"
+        },
+        {
+          "id": "D",
+          "text": "じゃま"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Máy móc bị hỏng hóc dùng từ 「故障」 (こしょう).",
+      "distractorExplanations": {
+        "B": "事故 là tai nạn giao thông/sự cố con người.",
+        "C": "中止 là đình chỉ/hủy bỏ sự kiện.",
+        "D": "邪魔 là cản trở/phiền toái."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "vocab-context",
+      "remediation": "Học từ vựng theo cụm cố định (collocation) và tình huống ứng dụng thực tế.",
+      "sourceMetadata": "Japan Foundation Irodori & JLPT N4 official vocabulary",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N4-MO-CONT-005",
+      "level": "N4",
+      "skill": "Vocabulary",
+      "typeId": "N4-MO-CONT",
+      "stem": "薬を飲んだら、頭の痛みが（　　）消えました。",
+      "stimulusId": "N4-MO-CONT-005",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "すっかり"
+        },
+        {
+          "id": "B",
+          "text": "ぴったり"
+        },
+        {
+          "id": "C",
+          "text": "のんびり"
+        },
+        {
+          "id": "D",
+          "text": "しっかり"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "「すっかり」 chỉ trạng thái cơn đau đã biến mất 'hoàn toàn/hẳn'.",
+      "distractorExplanations": {
+        "B": "ぴったり là vừa vặn/khít.",
+        "C": "のんびり là thong dong/thư thả.",
+        "D": "しっかり là chắc chắn/vững vàng."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "adverbs",
+      "remediation": "Học từ vựng theo cụm cố định (collocation) và tình huống ứng dụng thực tế.",
+      "sourceMetadata": "Japan Foundation Irodori & JLPT N4 official vocabulary",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N4-MO-CONT-006",
+      "level": "N4",
+      "skill": "Vocabulary",
+      "typeId": "N4-MO-CONT",
+      "stem": "この機械の使い方はとても（　　）で、説明書を読んでもよくわかりません。",
+      "stimulusId": "N4-MO-CONT-006",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "ふくざつ"
+        },
+        {
+          "id": "B",
+          "text": "かんたん"
+        },
+        {
+          "id": "C",
+          "text": "たいせつ"
+        },
+        {
+          "id": "D",
+          "text": "じゆう"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Phía sau có câu 'đọc hướng dẫn cũng không hiểu' nên tính từ phù hợp là 「複雑」 (ふくざつ - phức tạp).",
+      "distractorExplanations": {
+        "B": "簡単 là đơn giản, trái ngược với ngữ cảnh.",
+        "C": "大切 là quan trọng.",
+        "D": "自由 là tự do."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "adjectives",
+      "remediation": "Học từ vựng theo cụm cố định (collocation) và tình huống ứng dụng thực tế.",
+      "sourceMetadata": "Japan Foundation Irodori & JLPT N4 official vocabulary",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N4-MO-CONT-007",
+      "level": "N4",
+      "skill": "Vocabulary",
+      "typeId": "N4-MO-CONT",
+      "stem": "お正月の準備のために、玄関の前に門松を（　　）。",
+      "stimulusId": "N4-MO-CONT-007",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "かざりました"
+        },
+        {
+          "id": "B",
+          "text": "ならべました"
+        },
+        {
+          "id": "C",
+          "text": "かたづけました"
+        },
+        {
+          "id": "D",
+          "text": "あつめました"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Trang trí đồ đón Tết dùng động từ 「飾る」 (かざる).",
+      "distractorExplanations": {
+        "B": "並べました là xếp thành hàng.",
+        "C": "片付けました là dọn dẹp cất đi.",
+        "D": "集めました là thu thập/tập hợp."
+      },
+      "difficultyEstimate": 3,
+      "conceptId": "verb-collocation",
+      "remediation": "Học từ vựng theo cụm cố định (collocation) và tình huống ứng dụng thực tế.",
+      "sourceMetadata": "Japan Foundation Irodori & JLPT N4 official vocabulary",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N4-MO-CONT-008",
+      "level": "N4",
+      "skill": "Vocabulary",
+      "typeId": "N4-MO-CONT",
+      "stem": "この本に書いてあるアドバイスは、毎日の仕事にとても（　　）。",
+      "stimulusId": "N4-MO-CONT-008",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "役に立ちます"
+        },
+        {
+          "id": "B",
+          "text": "気をつけます"
+        },
+        {
+          "id": "C",
+          "text": "気になります"
+        },
+        {
+          "id": "D",
+          "text": "間に合います"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Cụm 「役に立つ」 (やくにたつ) mang nghĩa có ích, hữu ích trong công việc.",
+      "distractorExplanations": {
+        "B": "気をつけます là cẩn thận/chú ý.",
+        "C": "気になります là bận tâm/lo lắng.",
+        "D": "間に合います là kịp giờ."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "idiomatic-phrases",
+      "remediation": "Học từ vựng theo cụm cố định (collocation) và tình huống ứng dụng thực tế.",
+      "sourceMetadata": "Japan Foundation Irodori & JLPT N4 official vocabulary",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N4-GR-FORM-001",
+      "level": "N4",
+      "skill": "Grammar",
+      "typeId": "N4-GR-FORM",
+      "stem": "日曜日は図書館（　　）本を借りて、近くの公園で読みました。",
+      "stimulusId": "N4-GR-FORM-001",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "で"
+        },
+        {
+          "id": "B",
+          "text": "に"
+        },
+        {
+          "id": "C",
+          "text": "へ"
+        },
+        {
+          "id": "D",
+          "text": "を"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Nơi diễn ra hành động mượn sách (借りる) đi với trợ từ 「で」.",
+      "distractorExplanations": {
+        "B": "に chỉ nơi tồn tại hoặc đích đến.",
+        "C": "へ chỉ phương hướng di chuyển.",
+        "D": "を chỉ đối tượng của hành động."
+      },
+      "difficultyEstimate": 1,
+      "conceptId": "particles-place",
+      "remediation": "Ôn lại công thức kết nối và ý nghĩa biểu đạt của mẫu câu N4 cốt lõi.",
+      "sourceMetadata": "TUFS Japanese Grammar Module & Official JLPT specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N4-GR-FORM-002",
+      "level": "N4",
+      "skill": "Grammar",
+      "typeId": "N4-GR-FORM",
+      "stem": "山田さんはピアノを上手に（　　）ことができます。",
+      "stimulusId": "N4-GR-FORM-002",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "ひく"
+        },
+        {
+          "id": "B",
+          "text": "ひいて"
+        },
+        {
+          "id": "C",
+          "text": "ひいた"
+        },
+        {
+          "id": "D",
+          "text": "ひきます"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Mẫu câu chỉ khả năng: Động từ thể từ điển (V-る) + ことができる. Chơi đàn piano dùng ひく.",
+      "distractorExplanations": {
+        "B": "Thể て không kết hợp trực tiếp với ことができる.",
+        "C": "Thể た không dùng trong cấu trúc khả năng hiện tại.",
+        "D": "Thể ます không đứng trước ことができる."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "grammar-potential",
+      "remediation": "Ôn lại công thức kết nối và ý nghĩa biểu đạt của mẫu câu N4 cốt lõi.",
+      "sourceMetadata": "TUFS Japanese Grammar Module & Official JLPT specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N4-GR-FORM-003",
+      "level": "N4",
+      "skill": "Grammar",
+      "typeId": "N4-GR-FORM",
+      "stem": "健康のために、毎朝野菜ジュースを飲む（　　）しています。",
+      "stimulusId": "N4-GR-FORM-003",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "ように"
+        },
+        {
+          "id": "B",
+          "text": "ことに"
+        },
+        {
+          "id": "C",
+          "text": "そうに"
+        },
+        {
+          "id": "D",
+          "text": "とおりに"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Cấu trúc 「〜ようにする」 diễn tả sự cố gắng tạo lập thói quen tốt hàng ngày.",
+      "distractorExplanations": {
+        "B": "ことにする là đưa ra quyết định chủ quan, không nhấn mạnh thói quen nỗ lực bằng ようにする.",
+        "C": "そうに là có vẻ.",
+        "D": "とおりに là theo như."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "grammar-patterns",
+      "remediation": "Ôn lại công thức kết nối và ý nghĩa biểu đạt của mẫu câu N4 cốt lõi.",
+      "sourceMetadata": "TUFS Japanese Grammar Module & Official JLPT specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N4-GR-FORM-004",
+      "level": "N4",
+      "skill": "Grammar",
+      "typeId": "N4-GR-FORM",
+      "stem": "日本に来てから、刺身が食べられる（　　）なりました。",
+      "stimulusId": "N4-GR-FORM-004",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "ように"
+        },
+        {
+          "id": "B",
+          "text": "そうに"
+        },
+        {
+          "id": "C",
+          "text": "ために"
+        },
+        {
+          "id": "D",
+          "text": "はずで"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Cấu trúc 「Động từ khả năng + ようになる」 diễn đạt sự biến đổi tự nhiên: trước đây không ăn được, nay đã ăn được.",
+      "distractorExplanations": {
+        "B": "そうになる là suýt nữa.",
+        "C": "ために là để/vì mục đích.",
+        "D": "はずで là chắc chắn là."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "grammar-change",
+      "remediation": "Ôn lại công thức kết nối và ý nghĩa biểu đạt của mẫu câu N4 cốt lõi.",
+      "sourceMetadata": "TUFS Japanese Grammar Module & Official JLPT specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N4-GR-FORM-005",
+      "level": "N4",
+      "skill": "Grammar",
+      "typeId": "N4-GR-FORM",
+      "stem": "美術館の中では、写真を（　　）はいけません。",
+      "stimulusId": "N4-GR-FORM-005",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "とって"
+        },
+        {
+          "id": "B",
+          "text": "とる"
+        },
+        {
+          "id": "C",
+          "text": "とった"
+        },
+        {
+          "id": "D",
+          "text": "とらない"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Cấu trúc cấm đoán: Thể て + はいけない. とる -> とって.",
+      "distractorExplanations": {
+        "B": "Thể từ điển không kết hợp với はいけない.",
+        "C": "Thể quá khứ た sai ngữ pháp.",
+        "D": "Thể phủ định ない sai ngữ pháp."
+      },
+      "difficultyEstimate": 1,
+      "conceptId": "grammar-prohibition",
+      "remediation": "Ôn lại công thức kết nối và ý nghĩa biểu đạt của mẫu câu N4 cốt lõi.",
+      "sourceMetadata": "TUFS Japanese Grammar Module & Official JLPT specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N4-GR-FORM-006",
+      "level": "N4",
+      "skill": "Grammar",
+      "typeId": "N4-GR-FORM",
+      "stem": "熱が下がったので、もう薬を（　　）もいいですよ。",
+      "stimulusId": "N4-GR-FORM-006",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "のまなくて"
+        },
+        {
+          "id": "B",
+          "text": "のまないで"
+        },
+        {
+          "id": "C",
+          "text": "のまない"
+        },
+        {
+          "id": "D",
+          "text": "のむ"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Cấu trúc biểu thị không cần làm cũng được: Thể V-ない bỏ い + くてもいい. のまない -> のまなくてもいい.",
+      "distractorExplanations": {
+        "B": "ないで chỉ cách thức hành động, không đi với もいい.",
+        "C": "Thể ない trực tiếp không đi với もいい.",
+        "D": "のむもいい sai ngữ pháp."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "grammar-permission",
+      "remediation": "Ôn lại công thức kết nối và ý nghĩa biểu đạt của mẫu câu N4 cốt lõi.",
+      "sourceMetadata": "TUFS Japanese Grammar Module & Official JLPT specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N4-GR-FORM-007",
+      "level": "N4",
+      "skill": "Grammar",
+      "typeId": "N4-GR-FORM",
+      "stem": "このケーキはおいしそうですね。一口（　　）みてもいいですか。",
+      "stimulusId": "N4-GR-FORM-007",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "たべて"
+        },
+        {
+          "id": "B",
+          "text": "たべる"
+        },
+        {
+          "id": "C",
+          "text": "たべた"
+        },
+        {
+          "id": "D",
+          "text": "たべよう"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Cấu trúc thử làm gì đó: Thể て + みる. たべる -> たべてみる.",
+      "distractorExplanations": {
+        "B": "Thể từ điển không đi với みる mang nghĩa thử.",
+        "C": "Thể た sai ngữ pháp.",
+        "D": "Thể ý định sai ngữ pháp."
+      },
+      "difficultyEstimate": 1,
+      "conceptId": "grammar-trial",
+      "remediation": "Ôn lại công thức kết nối và ý nghĩa biểu đạt của mẫu câu N4 cốt lõi.",
+      "sourceMetadata": "TUFS Japanese Grammar Module & Official JLPT specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N4-GR-FORM-008",
+      "level": "N4",
+      "skill": "Grammar",
+      "typeId": "N4-GR-FORM",
+      "stem": "大切な書類を電車の中に（　　）しまいました。",
+      "stimulusId": "N4-GR-FORM-008",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "わすれて"
+        },
+        {
+          "id": "B",
+          "text": "わすれる"
+        },
+        {
+          "id": "C",
+          "text": "わすれた"
+        },
+        {
+          "id": "D",
+          "text": "わすれ"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Cấu trúc biểu thị sự lỡ làm / hối tiếc: Thể て + しまう. わすれる -> わすれてしまう.",
+      "distractorExplanations": {
+        "B": "Thể từ điển không đi với しまう.",
+        "C": "Thể quá khứ た không đi với しまう.",
+        "D": "Thể liên dụng (bỏ ます) không đi với しまう."
+      },
+      "difficultyEstimate": 1,
+      "conceptId": "grammar-regret",
+      "remediation": "Ôn lại công thức kết nối và ý nghĩa biểu đạt của mẫu câu N4 cốt lõi.",
+      "sourceMetadata": "TUFS Japanese Grammar Module & Official JLPT specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N4-GR-FORM-009",
+      "level": "N4",
+      "skill": "Grammar",
+      "typeId": "N4-GR-FORM",
+      "stem": "富士山に（　　）ことがありますか。とても景色がきれいですよ。",
+      "stimulusId": "N4-GR-FORM-009",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "のぼった"
+        },
+        {
+          "id": "B",
+          "text": "のぼる"
+        },
+        {
+          "id": "C",
+          "text": "のぼって"
+        },
+        {
+          "id": "D",
+          "text": "のぼり"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Cấu trúc hỏi trải nghiệm trong quá khứ: Thể た + ことがある. のぼる -> のぼったことがある.",
+      "distractorExplanations": {
+        "B": "Thể từ điển のぼる không dùng để chỉ kinh nghiệm quá khứ.",
+        "C": "Thể て không đi với ことがある.",
+        "D": "Thể ます bỏ ます không đi với ことがある."
+      },
+      "difficultyEstimate": 1,
+      "conceptId": "grammar-experience",
+      "remediation": "Ôn lại công thức kết nối và ý nghĩa biểu đạt của mẫu câu N4 cốt lõi.",
+      "sourceMetadata": "TUFS Japanese Grammar Module & Official JLPT specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N4-GR-FORM-010",
+      "level": "N4",
+      "skill": "Grammar",
+      "typeId": "N4-GR-FORM",
+      "stem": "天気が（　　）、明日は海へ泳ぎに行きましょう。",
+      "stimulusId": "N4-GR-FORM-010",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "よければ"
+        },
+        {
+          "id": "B",
+          "text": "よくて"
+        },
+        {
+          "id": "C",
+          "text": "いいなら"
+        },
+        {
+          "id": "D",
+          "text": "よかったら"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Thể điều kiện của tính từ đuôi い: いい -> よければ.",
+      "distractorExplanations": {
+        "B": "よくて chỉ đơn thuần nối tiếp (thời tiết đẹp và...), không tạo câu điều kiện.",
+        "C": "いいなら ít tự nhiên bằng よければ khi nói về điều kiện tự nhiên giả định.",
+        "D": "よかったら thường dùng trong lời mời thân mật hơn."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "grammar-conditional",
+      "remediation": "Ôn lại công thức kết nối và ý nghĩa biểu đạt của mẫu câu N4 cốt lõi.",
+      "sourceMetadata": "TUFS Japanese Grammar Module & Official JLPT specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N4-GR-FORM-011",
+      "level": "N4",
+      "skill": "Grammar",
+      "typeId": "N4-GR-FORM",
+      "stem": "駅に（　　）、電話をかけてください。迎えに行きます。",
+      "stimulusId": "N4-GR-FORM-011",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "ついたら"
+        },
+        {
+          "id": "B",
+          "text": "つくなら"
+        },
+        {
+          "id": "C",
+          "text": "つけば"
+        },
+        {
+          "id": "D",
+          "text": "ついて"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Điều kiện giả định nối tiếp theo thứ tự thời gian: 'Sau khi đến ga thì hãy gọi' -> dùng thể 〜たら (ついたら).",
+      "distractorExplanations": {
+        "B": "なら mang tính tiếp nhận thông tin trước, không hợp với chuỗi hành động nối tiếp.",
+        "C": "ば không đi với câu mệnh lệnh/yêu cầu ở vế sau khi cùng chủ ngữ.",
+        "D": "ついて thiếu tính chất điều kiện."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "grammar-conditional-tara",
+      "remediation": "Ôn lại công thức kết nối và ý nghĩa biểu đạt của mẫu câu N4 cốt lõi.",
+      "sourceMetadata": "TUFS Japanese Grammar Module & Official JLPT specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N4-GR-FORM-012",
+      "level": "N4",
+      "skill": "Grammar",
+      "typeId": "N4-GR-FORM",
+      "stem": "日本料理を作る（　　）、まず出汁の取り方を覚えたほうがいいです。",
+      "stimulusId": "N4-GR-FORM-012",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "なら"
+        },
+        {
+          "id": "B",
+          "text": "たら"
+        },
+        {
+          "id": "C",
+          "text": "ても"
+        },
+        {
+          "id": "D",
+          "text": "のに"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Cấu trúc đưa ra lời khuyên dựa trên chủ đề đối phương vừa nêu: V-thể từ điển + なら (nếu muốn làm A thì nên làm B trước).",
+      "distractorExplanations": {
+        "B": "たら đòi hỏi hành động A hoàn thành trước hành động B (nấu xong mới học nấu là phi logic).",
+        "C": "ても là dù cho.",
+        "D": "のに là mặc dù."
+      },
+      "difficultyEstimate": 3,
+      "conceptId": "grammar-conditional-nara",
+      "remediation": "Ôn lại công thức kết nối và ý nghĩa biểu đạt của mẫu câu N4 cốt lõi.",
+      "sourceMetadata": "TUFS Japanese Grammar Module & Official JLPT specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N4-GR-STAR-001",
+      "level": "N4",
+      "skill": "Grammar",
+      "typeId": "N4-GR-STAR",
+      "stem": "夜寝る前に、明日の服を（　　） ★ （　　）（　　）ようにしています。",
+      "stimulusId": "N4-GR-STAR-001",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "準備して"
+        },
+        {
+          "id": "B",
+          "text": "おく"
+        },
+        {
+          "id": "C",
+          "text": "忘れない"
+        },
+        {
+          "id": "D",
+          "text": "朝慌てて"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanationVi": "Thứ tự đúng: 夜寝る前に、明日の服を [A. 準備して] ★[B. おく] [C. 忘れない] [D. 朝慌てて]... -> Cụm: 朝慌てて忘れないように準備しておく. Ghép: [D. 朝慌てて] [C. 忘れない] [A. 準備して] ★[B. おく].",
+      "distractorExplanations": {
+        "A": "準備して đứng ở vị trí thứ 3.",
+        "C": "忘れない đứng ở vị trí thứ 2.",
+        "D": "朝慌てて đứng ở vị trí thứ 1."
+      },
+      "difficultyEstimate": 3,
+      "conceptId": "star-ordering",
+      "remediation": "Ghép các cụm từ cố định trước rồi ráp theo trật tự cú pháp câu.",
+      "sourceMetadata": "Official JLPT sample N4 format",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N4-GR-STAR-002",
+      "level": "N4",
+      "skill": "Grammar",
+      "typeId": "N4-GR-STAR",
+      "stem": "来年の夏休みには、北海道へ（　　）（　　） ★ （　　）予定です。",
+      "stimulusId": "N4-GR-STAR-002",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "友達と"
+        },
+        {
+          "id": "B",
+          "text": "一緒に"
+        },
+        {
+          "id": "C",
+          "text": "旅行に"
+        },
+        {
+          "id": "D",
+          "text": "行く"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanationVi": "Thứ tự đúng: [A. 友達と] [B. 一緒に] [C. 旅行に] ★[D. 行く] 予定です. Dấu sao rơi vào D.",
+      "distractorExplanations": {
+        "A": "Vị trí 1.",
+        "B": "Vị trí 2.",
+        "C": "Vị trí 3."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "star-ordering",
+      "remediation": "Ghép các cụm từ cố định trước rồi ráp theo trật tự cú pháp câu.",
+      "sourceMetadata": "Official JLPT sample N4 format",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N4-GR-STAR-003",
+      "level": "N4",
+      "skill": "Grammar",
+      "typeId": "N4-GR-STAR",
+      "stem": "風邪をひいたときは、無理をしないで（　　） ★ （　　）（　　）がいいですよ。",
+      "stimulusId": "N4-GR-STAR-003",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "暖かくして"
+        },
+        {
+          "id": "B",
+          "text": "ゆっくり"
+        },
+        {
+          "id": "C",
+          "text": "休んだ"
+        },
+        {
+          "id": "D",
+          "text": "ほう"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanationVi": "Thứ tự đúng: [A. 暖かくして] ★[B. ゆっくり / C. 休んだ] -> [A. 暖かくして] [B. ゆっくり] ★[C. 休んだ] [D. ほう] がいいですよ. Dấu sao là C.",
+      "distractorExplanations": {
+        "A": "Vị trí 1.",
+        "B": "Vị trí 2.",
+        "D": "Vị trí 4."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "star-ordering",
+      "remediation": "Ghép các cụm từ cố định trước rồi ráp theo trật tự cú pháp câu.",
+      "sourceMetadata": "Official JLPT sample N4 format",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N4-GR-STAR-004",
+      "level": "N4",
+      "skill": "Grammar",
+      "typeId": "N4-GR-STAR",
+      "stem": "この料理は辛（　　）（　　） ★ （　　）食べられませんでした。",
+      "stimulusId": "N4-GR-STAR-004",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "すぎて"
+        },
+        {
+          "id": "B",
+          "text": "子供には"
+        },
+        {
+          "id": "C",
+          "text": "ぜんぜん"
+        },
+        {
+          "id": "D",
+          "text": "一口も"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanationVi": "Thứ tự đúng: 辛[A. すぎて] [B. 子供には] ★[D. 一口も] [C. ぜんぜん] 食べられませんでした. Cụm 一口も...ない. Dấu sao là D.",
+      "distractorExplanations": {
+        "A": "Vị trí 1.",
+        "B": "Vị trí 2.",
+        "C": "Vị trí 4."
+      },
+      "difficultyEstimate": 3,
+      "conceptId": "star-ordering",
+      "remediation": "Ghép các cụm từ cố định trước rồi ráp theo trật tự cú pháp câu.",
+      "sourceMetadata": "Official JLPT sample N4 format",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N4-GR-STAR-005",
+      "level": "N4",
+      "skill": "Grammar",
+      "typeId": "N4-GR-STAR",
+      "stem": "この辞書は文字が大きくて（　　） ★ （　　）（　　）便利です。",
+      "stimulusId": "N4-GR-STAR-005",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "見やすい"
+        },
+        {
+          "id": "B",
+          "text": "説明も"
+        },
+        {
+          "id": "C",
+          "text": "わかりやすくて"
+        },
+        {
+          "id": "D",
+          "text": "ので"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanationVi": "Thứ tự đúng: [A. 見やすい] [D. ので] [B. 説明も] ★[C. わかりやすくて] 便利です. -> Hoặc: 見やすくて説明もわかりやすいので. Trật tự: [A. 見やすい] [D. ので] [B. 説明も] ★[C. わかりやすくて]. Dấu sao là C.",
+      "distractorExplanations": {
+        "A": "Vị trí 1.",
+        "B": "Vị trí 3.",
+        "D": "Vị trí 2."
+      },
+      "difficultyEstimate": 3,
+      "conceptId": "star-ordering",
+      "remediation": "Ghép các cụm từ cố định trước rồi ráp theo trật tự cú pháp câu.",
+      "sourceMetadata": "Official JLPT sample N4 format",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N4-GR-STAR-006",
+      "level": "N4",
+      "skill": "Grammar",
+      "typeId": "N4-GR-STAR",
+      "stem": "将来自分の店を（　　）（　　） ★ （　　）一生懸命働いています。",
+      "stimulusId": "N4-GR-STAR-006",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "持つ"
+        },
+        {
+          "id": "B",
+          "text": "ために"
+        },
+        {
+          "id": "C",
+          "text": "今"
+        },
+        {
+          "id": "D",
+          "text": "貯金して"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanationVi": "Thứ tự đúng: 自分の店を [A. 持つ] [B. ために] ★[C. 今] [D. 貯金して] 一生懸命働いています. Dấu sao là C.",
+      "distractorExplanations": {
+        "A": "Vị trí 1.",
+        "B": "Vị trí 2.",
+        "D": "Vị trí 4."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "star-ordering",
+      "remediation": "Ghép các cụm từ cố định trước rồi ráp theo trật tự cú pháp câu.",
+      "sourceMetadata": "Official JLPT sample N4 format",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N4-RD-SHOR-001",
+      "level": "N4",
+      "skill": "Reading",
+      "typeId": "N4-RD-SHOR",
+      "stem": "火曜日の朝8時までに出せるゴミは何ですか。",
+      "stimulusId": "N4-RD-SHOR-001",
+      "contextPassage": "【アパートのゴミ出しのルール】\n燃えるゴミは毎週火曜日と金曜日の朝8時までに出してください。段ボールや瓶などの資源ゴミは水曜日です。月曜日はゴミを出してはいけません。ルールを守って清潔な環境を作りましょう。",
+      "options": [
+        {
+          "id": "A",
+          "text": "燃えるゴミ"
+        },
+        {
+          "id": "B",
+          "text": "段ボール"
+        },
+        {
+          "id": "C",
+          "text": "瓶"
+        },
+        {
+          "id": "D",
+          "text": "すべてのゴミ"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Bài đọc nêu rõ: '燃えるゴミは毎週火曜日と金曜日の朝8時までに出してください'. Vậy thứ Ba là rác cháy được (燃えるゴミ).",
+      "distractorExplanations": {
+        "B": "段ボール là rác tài nguyên (資源ゴミ) vứt vào thứ Tư.",
+        "C": "瓶 cũng vứt vào thứ Tư.",
+        "D": "Không được vứt tất cả các loại rác vào thứ Ba."
+      },
+      "difficultyEstimate": 1,
+      "conceptId": "reading-short",
+      "remediation": "Đọc câu hỏi trước để tìm từ khóa rồi đối chiếu câu tương ứng trong bài.",
+      "sourceMetadata": "Original pedagogical passage, aligned with N4 reading standards",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N4-RD-SHOR-002",
+      "level": "N4",
+      "skill": "Reading",
+      "typeId": "N4-RD-SHOR",
+      "stem": "佐藤さんは田中さんに何を伝えたいですか。",
+      "stimulusId": "N4-RD-SHOR-002",
+      "contextPassage": "田中さんへ\nお疲れ様です。今日の午後3時からの会議ですが、部長の都合で午後4時からに変更になりました。場所は第2会議室のまま変わりません。よろしくお願いします。　佐藤より",
+      "options": [
+        {
+          "id": "A",
+          "text": "会議の時間が1時間遅くなったこと"
+        },
+        {
+          "id": "B",
+          "text": "会議の場所が変わったこと"
+        },
+        {
+          "id": "C",
+          "text": "会議が中止になったこと"
+        },
+        {
+          "id": "D",
+          "text": "佐藤さんが会議を欠席すること"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Nội dung email nêu rõ: chiều 3 giờ đổi thành chiều 4 giờ (lùi lại 1 tiếng). Địa điểm không đổi.",
+      "distractorExplanations": {
+        "B": "Địa điểm giữ nguyên (第2会議室のまま).",
+        "C": "Cuộc họp chỉ đổi giờ chứ không bị hủy.",
+        "D": "Satou chỉ báo đổi giờ chứ không báo vắng mặt."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "reading-short",
+      "remediation": "Đọc câu hỏi trước để tìm từ khóa rồi đối chiếu câu tương ứng trong bài.",
+      "sourceMetadata": "Original pedagogical passage, aligned with N4 reading standards",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N4-RD-SHOR-003",
+      "level": "N4",
+      "skill": "Reading",
+      "typeId": "N4-RD-SHOR",
+      "stem": "「私」は肉じゃがについてどう思いましたか。",
+      "stimulusId": "N4-RD-SHOR-003",
+      "contextPassage": "昨日の夜、初めて一人で肉じゃがを作りました。母に電話で作り方を聞きながら作りました。少し味が濃くなってしまいましたが、自分で作った料理はとてもおいしかったです。今度はもっと上手に作りたいです。",
+      "options": [
+        {
+          "id": "A",
+          "text": "少し濃かったが、おいしかった"
+        },
+        {
+          "id": "B",
+          "text": "まずくて食べられなかった"
+        },
+        {
+          "id": "C",
+          "text": "母の料理より上手にできた"
+        },
+        {
+          "id": "D",
+          "text": "味が薄くて失敗した"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Trong bài viết: '少し味が濃くなってしまいましたが、自分で作った料理はとてもおいしかったです'. Hơi đậm vị một chút nhưng rất ngon.",
+      "distractorExplanations": {
+        "B": "Người viết khen ngon (とてもおいしかった).",
+        "C": "Không hề so sánh với mẹ là giỏi hơn mẹ.",
+        "D": "Vị hơi đậm (濃い) chứ không phải nhạt (薄い)."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "reading-short",
+      "remediation": "Đọc câu hỏi trước để tìm từ khóa rồi đối chiếu câu tương ứng trong bài.",
+      "sourceMetadata": "Original pedagogical passage, aligned with N4 reading standards",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N4-RD-SHOR-004",
+      "level": "N4",
+      "skill": "Reading",
+      "typeId": "N4-RD-SHOR",
+      "stem": "休館中に本を返したい人は、どうすればいいですか。",
+      "stimulusId": "N4-RD-SHOR-004",
+      "contextPassage": "【市立図書館からのお知らせ】\n館内のエアコン点検のため、来週の月曜日と火曜日は休館いたします。水曜日からは通常通り午前9時から開館します。本の返却は、正面入口の返却ポストをご利用いただけます。",
+      "options": [
+        {
+          "id": "A",
+          "text": "正面入口のポストに入れる"
+        },
+        {
+          "id": "B",
+          "text": "水曜日まで待ってカウンターで返す"
+        },
+        {
+          "id": "C",
+          "text": "電話で連絡する"
+        },
+        {
+          "id": "D",
+          "text": "郵送で送る"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Bài đọc nêu rõ: '本の返却は、正面入口の返却ポストをご利用いただけます'.",
+      "distractorExplanations": {
+        "B": "Không bắt buộc phải chờ đến thứ Tư mới trả.",
+        "C": "Không cần gọi điện thoại.",
+        "D": "Không yêu cầu gửi bưu điện."
+      },
+      "difficultyEstimate": 1,
+      "conceptId": "reading-short",
+      "remediation": "Đọc câu hỏi trước để tìm từ khóa rồi đối chiếu câu tương ứng trong bài.",
+      "sourceMetadata": "Original pedagogical passage, aligned with N4 reading standards",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N4-RD-INFO-001",
+      "level": "N4",
+      "skill": "Reading",
+      "typeId": "N4-RD-INFO",
+      "stem": "木曜日の夕方6時以降に参加できて、1回1,000円の教室はどれですか。",
+      "stimulusId": "STIM-N4-INFO-001",
+      "contextPassage": "【さくらスポーツセンター　初心者向け教室案内】\n1. ヨガ教室：毎週火曜日 10:00〜11:30 | 参加費: 1回 800円 | 持ち物: タオル、飲み物\n2. 水泳教室：毎週木曜日 18:30〜20:00 | 参加費: 1回 1,000円 | 持ち物: 水着、水泳帽\n3. バドミントン教室：毎週土曜日 14:00〜16:00 | 参加費: 1回 500円 | 持ち物: 室内用シューズ\n※どの教室も予約は不要です。開始15分前までに受付でお金を払ってください。",
+      "options": [
+        {
+          "id": "A",
+          "text": "水泳教室"
+        },
+        {
+          "id": "B",
+          "text": "ヨガ教室"
+        },
+        {
+          "id": "C",
+          "text": "バドミントン教室"
+        },
+        {
+          "id": "D",
+          "text": "どの教室も参加できない"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Đối chiếu bảng: Thứ Năm 18:30〜20:00, 1,000 yên là 水泳教室 (Lớp bơi lội).",
+      "distractorExplanations": {
+        "B": "Yoga học vào thứ Ba buổi sáng.",
+        "C": "Cầu lông học vào thứ Bảy.",
+        "D": "Lớp bơi hoàn toàn thỏa mãn điều kiện."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "info-retrieval",
+      "remediation": "Đọc yêu cầu bài trước, đối chiếu các dòng điều kiện để loại trừ nhanh.",
+      "sourceMetadata": "Original community flyer format, official N4 info retrieval standard",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N4-RD-INFO-002",
+      "level": "N4",
+      "skill": "Reading",
+      "typeId": "N4-RD-INFO",
+      "stem": "教室に参加するとき、予約について正しいものはどれですか。",
+      "stimulusId": "STIM-N4-INFO-001",
+      "contextPassage": "【さくらスポーツセンター　初心者向け教室案内】\n1. ヨガ教室：毎週火曜日 10:00〜11:30 | 参加費: 1回 800円 | 持ち物: タオル、飲み物\n2. 水泳教室：毎週木曜日 18:30〜20:00 | 参加費: 1回 1,000円 | 持ち物: 水着、水泳帽\n3. バドミントン教室：毎週土曜日 14:00〜16:00 | 参加費: 1回 500円 | 持ち物: 室内用シューズ\n※どの教室も予約は不要です。開始15分前までに受付でお金を払ってください。",
+      "options": [
+        {
+          "id": "A",
+          "text": "予約は必要ない"
+        },
+        {
+          "id": "B",
+          "text": "1週間前までに予約が必要"
+        },
+        {
+          "id": "C",
+          "text": "電話で予約しなければならない"
+        },
+        {
+          "id": "D",
+          "text": "前日までに受付で予約する"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Dòng ghi chú ghi rõ: '※どの教室も予約は不要です' (Không cần đặt chỗ trước).",
+      "distractorExplanations": {
+        "B": "Sai vì không cần đặt trước.",
+        "C": "Sai vì không cần gọi điện.",
+        "D": "Sai vì chỉ cần đến trước 15 phút nộp tiền là được."
+      },
+      "difficultyEstimate": 1,
+      "conceptId": "info-retrieval",
+      "remediation": "Đọc yêu cầu bài trước, đối chiếu các dòng điều kiện để loại trừ nhanh.",
+      "sourceMetadata": "Original community flyer format, official N4 info retrieval standard",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-MO-READ-001",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-READ",
+      "stem": "大雨のため、明日の試合は「延期」されることになった。",
+      "stimulusId": "N3-MO-READ-001",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "えんき"
+        },
+        {
+          "id": "B",
+          "text": "えんぎ"
+        },
+        {
+          "id": "C",
+          "text": "えいき"
+        },
+        {
+          "id": "D",
+          "text": "えんご"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "延期 đọc là えんき, mang nghĩa trì hoãn, dời lịch.",
+      "distractorExplanations": {
+        "B": "Âm き không biến thành âm đục ぎ.",
+        "C": "Chữ 延 có âm ん (えん).",
+        "D": "Chữ 期 đọc là き chứ không phải ご."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "kanji-n3",
+      "remediation": "Học từ vựng trung cấp theo nhóm chữ Hán và ngữ cảnh văn bản.",
+      "sourceMetadata": "Official JLPT sample N3 format & JEES guidelines",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-MO-READ-002",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-READ",
+      "stem": "彼女は一人で多くの問題を「抱えて」いる。",
+      "stimulusId": "N3-MO-READ-002",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "かかえて"
+        },
+        {
+          "id": "B",
+          "text": "かかげて"
+        },
+        {
+          "id": "C",
+          "text": "おさえて"
+        },
+        {
+          "id": "D",
+          "text": "とらえて"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "抱える đọc là かかえる, mang nghĩa ôm/gánh vác nhiều khó khăn.",
+      "distractorExplanations": {
+        "B": "かかげて là 掲げて (nêu cao/giương cao khẩu hiệu).",
+        "C": "おさえて là 押さえて (kìm nén/giữ lại).",
+        "D": "とらえて là 捉えて (nắm bắt)."
+      },
+      "difficultyEstimate": 3,
+      "conceptId": "kanji-n3",
+      "remediation": "Học từ vựng trung cấp theo nhóm chữ Hán và ngữ cảnh văn bản.",
+      "sourceMetadata": "Official JLPT sample N3 format & JEES guidelines",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-MO-READ-003",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-READ",
+      "stem": "明治時代以降、日本は「欧米」の文化を積極的に取り入れた。",
+      "stimulusId": "N3-MO-READ-003",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "おうべい"
+        },
+        {
+          "id": "B",
+          "text": "おべい"
+        },
+        {
+          "id": "C",
+          "text": "おうまい"
+        },
+        {
+          "id": "D",
+          "text": "おうみ"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "欧米 đọc là おうべい, mang nghĩa Âu Mỹ.",
+      "distractorExplanations": {
+        "B": "Chữ 欧 có trường âm: おう.",
+        "C": "Chữ 米 trong 欧米 đọc âm On là べい.",
+        "D": "Chữ 米 không đọc là み ở đây."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "kanji-n3",
+      "remediation": "Học từ vựng trung cấp theo nhóm chữ Hán và ngữ cảnh văn bản.",
+      "sourceMetadata": "Official JLPT sample N3 format & JEES guidelines",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-MO-READ-004",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-READ",
+      "stem": "梅雨の季節は部屋の中に「湿気」がたまりやすい。",
+      "stimulusId": "N3-MO-READ-004",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "しっけ"
+        },
+        {
+          "id": "B",
+          "text": "しつき"
+        },
+        {
+          "id": "C",
+          "text": "じっき"
+        },
+        {
+          "id": "D",
+          "text": "しゅうき"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "湿気 đọc là しっけ, mang nghĩa hơi ẩm, độ ẩm.",
+      "distractorExplanations": {
+        "B": "Có biến âm ngắt しっけ chứ không giữ nguyên しつき.",
+        "C": "Âm đầu không đục (し chứ không phải じ).",
+        "D": "Không phải âm しゅう."
+      },
+      "difficultyEstimate": 3,
+      "conceptId": "kanji-n3",
+      "remediation": "Học từ vựng trung cấp theo nhóm chữ Hán và ngữ cảnh văn bản.",
+      "sourceMetadata": "Official JLPT sample N3 format & JEES guidelines",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-MO-READ-005",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-READ",
+      "stem": "祖父は定年退職後、毎日畑を「耕して」野菜を育てている。",
+      "stimulusId": "N3-MO-READ-005",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "たがやして"
+        },
+        {
+          "id": "B",
+          "text": "たがえして"
+        },
+        {
+          "id": "C",
+          "text": "たがして"
+        },
+        {
+          "id": "D",
+          "text": "ならして"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "耕す đọc là たがやす, mang nghĩa cày cấy, xới đất.",
+      "distractorExplanations": {
+        "B": "Âm chuẩn là たがやす chứ không phải たがえす.",
+        "C": "Thiếu âm や.",
+        "D": "ならして là 均して (san phẳng)."
+      },
+      "difficultyEstimate": 3,
+      "conceptId": "kanji-n3",
+      "remediation": "Học từ vựng trung cấp theo nhóm chữ Hán và ngữ cảnh văn bản.",
+      "sourceMetadata": "Official JLPT sample N3 format & JEES guidelines",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-MO-READ-006",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-READ",
+      "stem": "熱が下がらないので、病院で医師の「診察」を受けた。",
+      "stimulusId": "N3-MO-READ-006",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "しんさつ"
+        },
+        {
+          "id": "B",
+          "text": "しんさい"
+        },
+        {
+          "id": "C",
+          "text": "しんざつ"
+        },
+        {
+          "id": "D",
+          "text": "けんさつ"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "診察 đọc là しんさつ, mang nghĩa khám bệnh.",
+      "distractorExplanations": {
+        "B": "Chữ 察 đọc là さつ chứ không phải さい.",
+        "C": "Âm さつ không bị đục.",
+        "D": "Chữ 診 đọc là しん chứ không phải けん."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "kanji-n3",
+      "remediation": "Học từ vựng trung cấp theo nhóm chữ Hán và ngữ cảnh văn bản.",
+      "sourceMetadata": "Official JLPT sample N3 format & JEES guidelines",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-MO-READ-007",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-READ",
+      "stem": "この地域は地下水が「豊富」で、水不足の心配がない。",
+      "stimulusId": "N3-MO-READ-007",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "ほうふ"
+        },
+        {
+          "id": "B",
+          "text": "ほふ"
+        },
+        {
+          "id": "C",
+          "text": "ほうぶ"
+        },
+        {
+          "id": "D",
+          "text": "ぼうふ"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "豊富 đọc là ほうふ, mang nghĩa phong phú, dồi dào.",
+      "distractorExplanations": {
+        "B": "Chữ 豊 có trường âm ほう.",
+        "C": "Chữ 富 đọc là ふ chứ không phải ぶ.",
+        "D": "Chữ đầu không đục (ほう chứ không phải ぼう)."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "kanji-n3",
+      "remediation": "Học từ vựng trung cấp theo nhóm chữ Hán và ngữ cảnh văn bản.",
+      "sourceMetadata": "Official JLPT sample N3 format & JEES guidelines",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-MO-READ-008",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-READ",
+      "stem": "足りない経験は、これからの努力で「補う」つもりです。",
+      "stimulusId": "N3-MO-READ-008",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "おぎなう"
+        },
+        {
+          "id": "B",
+          "text": "つぐなう"
+        },
+        {
+          "id": "C",
+          "text": "やしなう"
+        },
+        {
+          "id": "D",
+          "text": "まかなう"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "補う đọc là おぎなう, mang nghĩa bù đắp, bổ sung.",
+      "distractorExplanations": {
+        "B": "つぐなう là chữ 償う (bồi thường/chuộc tội).",
+        "C": "やしなう là chữ 養う (nuôi dưỡng).",
+        "D": "まかなう là chữ 賄う (trang trải chi phí)."
+      },
+      "difficultyEstimate": 3,
+      "conceptId": "kanji-n3",
+      "remediation": "Học từ vựng trung cấp theo nhóm chữ Hán và ngữ cảnh văn bản.",
+      "sourceMetadata": "Official JLPT sample N3 format & JEES guidelines",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-MO-AFFX-001",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-AFFX",
+      "stem": "授業中に居眠りばかりしている（　　）真面目な態度は改めるべきだ。",
+      "stimulusId": "N3-MO-AFFX-001",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "不"
+        },
+        {
+          "id": "B",
+          "text": "無"
+        },
+        {
+          "id": "C",
+          "text": "非"
+        },
+        {
+          "id": "D",
+          "text": "未"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Ghép tiền tố phủ định: 「不真面目」 (ふまじめ - không nghiêm túc/thiếu đứng đắn).",
+      "distractorExplanations": {
+        "B": "無 thường đi với danh từ chỉ sự vắng mặt (無意味, 無責任).",
+        "C": "非 đi với từ mang tính quy chuẩn đạo đức (非常識, 非公式).",
+        "D": "未 chỉ trạng thái chưa hoàn thành (未成年, 未解決)."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "affix-n3",
+      "remediation": "Học theo hệ thống tiền tố và hậu tố phái sinh thông dụng N3.",
+      "sourceMetadata": "Official JLPT sample N3 format & JEES specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-MO-AFFX-002",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-AFFX",
+      "stem": "根拠のない噂話を信じて騒ぐのは、（　　）意味なことだ。",
+      "stimulusId": "N3-MO-AFFX-002",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "無"
+        },
+        {
+          "id": "B",
+          "text": "不"
+        },
+        {
+          "id": "C",
+          "text": "非"
+        },
+        {
+          "id": "D",
+          "text": "未"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Ghép tiền tố: 「無意味」 (むいみ - vô nghĩa, không mang lại ý nghĩa gì).",
+      "distractorExplanations": {
+        "B": "Không có từ 不意味.",
+        "C": "Không có từ 非意味.",
+        "D": "Không có từ 未意味."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "affix-n3",
+      "remediation": "Học theo hệ thống tiền tố và hậu tố phái sinh thông dụng N3.",
+      "sourceMetadata": "Official JLPT sample N3 format & JEES specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-MO-AFFX-003",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-AFFX",
+      "stem": "法律上、20歳未満の人は（　　）成年として扱われます。",
+      "stimulusId": "N3-MO-AFFX-003",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "未"
+        },
+        {
+          "id": "B",
+          "text": "不"
+        },
+        {
+          "id": "C",
+          "text": "無"
+        },
+        {
+          "id": "D",
+          "text": "非"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Ghép tiền tố: 「未成年」 (みせいねん - vị thành niên, chưa đến tuổi trưởng thành).",
+      "distractorExplanations": {
+        "B": "Không có từ 不成年.",
+        "C": "Không có từ 無成年.",
+        "D": "Không có từ 非成年."
+      },
+      "difficultyEstimate": 1,
+      "conceptId": "affix-n3",
+      "remediation": "Học theo hệ thống tiền tố và hậu tố phái sinh thông dụng N3.",
+      "sourceMetadata": "Official JLPT sample N3 format & JEES specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-MO-AFFX-004",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-AFFX",
+      "stem": "毎日の学習時間を少しずつ増やすのは、とても効果（　　）な方法です。",
+      "stimulusId": "N3-MO-AFFX-004",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "的"
+        },
+        {
+          "id": "B",
+          "text": "性"
+        },
+        {
+          "id": "C",
+          "text": "感"
+        },
+        {
+          "id": "D",
+          "text": "風"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Ghép hậu tố biến danh từ thành tính từ đuôi na: 「効果的」 (こうかてき - mang tính hiệu quả).",
+      "distractorExplanations": {
+        "B": "性 chỉ tính chất (可能性).",
+        "C": "感 chỉ cảm giác/cảm nhận (安心感).",
+        "D": "風 chỉ phong cách (和風)."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "affix-n3",
+      "remediation": "Học theo hệ thống tiền tố và hậu tố phái sinh thông dụng N3.",
+      "sourceMetadata": "Official JLPT sample N3 format & JEES specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-MO-AFFX-005",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-AFFX",
+      "stem": "仕事を最後までやり遂げたことで、大きな達成（　　）を味わった。",
+      "stimulusId": "N3-MO-AFFX-005",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "感"
+        },
+        {
+          "id": "B",
+          "text": "的"
+        },
+        {
+          "id": "C",
+          "text": "性"
+        },
+        {
+          "id": "D",
+          "text": "化"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Ghép hậu tố: 「達成感」 (たっせいかん - cảm giác thỏa mãn khi hoàn thành mục tiêu).",
+      "distractorExplanations": {
+        "B": "達成的 không phải từ vựng chuẩn.",
+        "C": "達成性 không thông dụng.",
+        "D": "達成化 là sai nghĩa."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "affix-n3",
+      "remediation": "Học theo hệ thống tiền tố và hậu tố phái sinh thông dụng N3.",
+      "sourceMetadata": "Official JLPT sample N3 format & JEES specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-MO-AFFX-006",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-AFFX",
+      "stem": "この実験が成功する可能（　　）は十分にあります。",
+      "stimulusId": "N3-MO-AFFX-006",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "性"
+        },
+        {
+          "id": "B",
+          "text": "感"
+        },
+        {
+          "id": "C",
+          "text": "的"
+        },
+        {
+          "id": "D",
+          "text": "度"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Ghép hậu tố: 「可能性」 (かのうせい - tính khả thi, khả năng xảy ra).",
+      "distractorExplanations": {
+        "B": "可能感 sai.",
+        "C": "可能的一 không dùng.",
+        "D": "可能度 sai ngữ cảnh."
+      },
+      "difficultyEstimate": 1,
+      "conceptId": "affix-n3",
+      "remediation": "Học theo hệ thống tiền tố và hậu tố phái sinh thông dụng N3.",
+      "sourceMetadata": "Official JLPT sample N3 format & JEES specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-MO-AFFX-007",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-AFFX",
+      "stem": "会社までの交通（　　）は、全額会社から支給されます。",
+      "stimulusId": "N3-MO-AFFX-007",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "費"
+        },
+        {
+          "id": "B",
+          "text": "料"
+        },
+        {
+          "id": "C",
+          "text": "代"
+        },
+        {
+          "id": "D",
+          "text": "金"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Chi phí đi lại gọi là 「交通費」 (こうつうひ).",
+      "distractorExplanations": {
+        "B": "料 thường dùng cho phí dịch vụ (手数料, 授業料).",
+        "C": "代 thường dùng cho tiền trả hàng/dịch vụ cụ thể (部屋代, 食事代).",
+        "D": "金 dùng cho tiền thuế/quỹ (税金, 奨学金)."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "affix-n3",
+      "remediation": "Học theo hệ thống tiền tố và hậu tố phái sinh thông dụng N3.",
+      "sourceMetadata": "Official JLPT sample N3 format & JEES specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-MO-AFFX-008",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-AFFX",
+      "stem": "社会のデジタル（　　）が進み、生活がますます便利になっている。",
+      "stimulusId": "N3-MO-AFFX-008",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "化"
+        },
+        {
+          "id": "B",
+          "text": "的"
+        },
+        {
+          "id": "C",
+          "text": "性"
+        },
+        {
+          "id": "D",
+          "text": "感"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Ghép hậu tố biểu thị sự biến đổi, chuyển biến: 「デジタル化」 (số hóa).",
+      "distractorExplanations": {
+        "B": "デジタル的 nghĩa là 'có tính chất số', không diễn tả sự tiến triển chuyển đổi.",
+        "C": "デジタル性 không hợp.",
+        "D": "デジタル感 không hợp."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "affix-n3",
+      "remediation": "Học theo hệ thống tiền tố và hậu tố phái sinh thông dụng N3.",
+      "sourceMetadata": "Official JLPT sample N3 format & JEES specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-MO-CONT-001",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-CONT",
+      "stem": "弟は父親に顔も性格も（　　）似ている。",
+      "stimulusId": "N3-MO-CONT-001",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "そっくり"
+        },
+        {
+          "id": "B",
+          "text": "ぎっしり"
+        },
+        {
+          "id": "C",
+          "text": "ばったり"
+        },
+        {
+          "id": "D",
+          "text": "うっかり"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Phó từ 「そっくり」 mang nghĩa giống hệt, như đúc.",
+      "distractorExplanations": {
+        "B": "ぎっしり là lèn chặt/chật ních.",
+        "C": "ばったり là tình cờ gặp (ばったり会う).",
+        "D": "うっかり là lơ đễnh."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "vocab-n3",
+      "remediation": "Tra cứu nghĩa tinh tế và thái độ của từ vựng trong văn cảnh cụ thể.",
+      "sourceMetadata": "Official JLPT sample N3 format & JEES specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-MO-CONT-002",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-CONT",
+      "stem": "本棚には専門書が（　　）並べられている。",
+      "stimulusId": "N3-MO-CONT-002",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "ぎっしり"
+        },
+        {
+          "id": "B",
+          "text": "のんびり"
+        },
+        {
+          "id": "C",
+          "text": "すっきり"
+        },
+        {
+          "id": "D",
+          "text": "ぼんやり"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "「ぎっしり」 miêu tả sách xếp chật kín, san sát nhau không còn khe hở.",
+      "distractorExplanations": {
+        "B": "のんびり là thong dong.",
+        "C": "すっきり là sảng khoái/gọn gàng thoáng đãng.",
+        "D": "ぼんやり là mờ mờ/nhạt nhòa."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "vocab-n3",
+      "remediation": "Tra cứu nghĩa tinh tế và thái độ của từ vựng trong văn cảnh cụ thể.",
+      "sourceMetadata": "Official JLPT sample N3 format & JEES specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-MO-CONT-003",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-CONT",
+      "stem": "週末は忙しい日常を忘れて、温泉で（　　）過ごしたい。",
+      "stimulusId": "N3-MO-CONT-003",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "のんびり"
+        },
+        {
+          "id": "B",
+          "text": "しっかり"
+        },
+        {
+          "id": "C",
+          "text": "うっすら"
+        },
+        {
+          "id": "D",
+          "text": "ぐっすり"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Nghỉ ngơi thư giãn thong dong dùng 「のんびり」 (のんびり過ごす).",
+      "distractorExplanations": {
+        "B": "しっかり là chắc chắn/nghiêm túc.",
+        "C": "うっすら là thoang thoảng/mờ mờ.",
+        "D": "ぐっすり dùng cho ngủ say (ぐっすり眠る)."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "vocab-n3",
+      "remediation": "Tra cứu nghĩa tinh tế và thái độ của từ vựng trong văn cảnh cụ thể.",
+      "sourceMetadata": "Official JLPT sample N3 format & JEES specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-MO-CONT-004",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-CONT",
+      "stem": "月末は締め切りが重なって、毎日がとても（　　）。",
+      "stimulusId": "N3-MO-CONT-004",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "慌ただしい"
+        },
+        {
+          "id": "B",
+          "text": "騒がしい"
+        },
+        {
+          "id": "C",
+          "text": "図々しい"
+        },
+        {
+          "id": "D",
+          "text": "険しい"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "「慌ただしい」 (あわただしい) miêu tả cuộc sống bận rộn, hối hả, tất bật.",
+      "distractorExplanations": {
+        "B": "騒がしい là ồn ào náo động âm thanh.",
+        "C": "図々しい là trơ tráo/mặt dày.",
+        "D": "険しい là hiểm trở dốc đứng."
+      },
+      "difficultyEstimate": 3,
+      "conceptId": "adjectives-n3",
+      "remediation": "Tra cứu nghĩa tinh tế và thái độ của từ vựng trong văn cảnh cụ thể.",
+      "sourceMetadata": "Official JLPT sample N3 format & JEES specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-MO-CONT-005",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-CONT",
+      "stem": "質問に対して（　　）な返事ばかりしていると、相手に不信感を与えてしまう。",
+      "stimulusId": "N3-MO-CONT-005",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "曖昧"
+        },
+        {
+          "id": "B",
+          "text": "正確"
+        },
+        {
+          "id": "C",
+          "text": "率直"
+        },
+        {
+          "id": "D",
+          "text": "敏感"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Trả lời mập mờ, không rõ ràng dùng tính từ 「曖昧」 (あいまい).",
+      "distractorExplanations": {
+        "B": "正確 là chính xác.",
+        "C": "率直 là thẳng thắn.",
+        "D": "敏感 là nhạy cảm."
+      },
+      "difficultyEstimate": 3,
+      "conceptId": "adjectives-n3",
+      "remediation": "Tra cứu nghĩa tinh tế và thái độ của từ vựng trong văn cảnh cụ thể.",
+      "sourceMetadata": "Official JLPT sample N3 format & JEES specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-MO-CONT-006",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-CONT",
+      "stem": "締め切りが過ぎているのに提出されないので、担当者に（　　）の連絡を入れた。",
+      "stimulusId": "N3-MO-CONT-006",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "催促"
+        },
+        {
+          "id": "B",
+          "text": "指示"
+        },
+        {
+          "id": "C",
+          "text": "忠告"
+        },
+        {
+          "id": "D",
+          "text": "相談"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Hối thúc, giục giã nộp bài/thanh toán dùng danh từ 「催促」 (さいそく).",
+      "distractorExplanations": {
+        "B": "指示 là chỉ thị.",
+        "C": "忠告 là lời khuyên bảo can ngăn.",
+        "D": "相談 là trao đổi thảo luận."
+      },
+      "difficultyEstimate": 3,
+      "conceptId": "vocab-n3",
+      "remediation": "Tra cứu nghĩa tinh tế và thái độ của từ vựng trong văn cảnh cụ thể.",
+      "sourceMetadata": "Official JLPT sample N3 format & JEES specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-MO-CONT-007",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-CONT",
+      "stem": "彼は優秀な研究者だが、決して威張らず、いつも（　　）な態度を崩さない。",
+      "stimulusId": "N3-MO-CONT-007",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "謙虚"
+        },
+        {
+          "id": "B",
+          "text": "傲慢"
+        },
+        {
+          "id": "C",
+          "text": "頑固"
+        },
+        {
+          "id": "D",
+          "text": "短気"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Đối lập với 'không khoe khoang/hợm hĩnh' (決して威張らず) là sự khiêm nhường 「謙虚」 (けんきょ).",
+      "distractorExplanations": {
+        "B": "傲慢 là kiêu căng/ngạo mạn.",
+        "C": "頑固 là ngoan cố/bướng bỉnh.",
+        "D": "短気 là nóng tính."
+      },
+      "difficultyEstimate": 3,
+      "conceptId": "adjectives-n3",
+      "remediation": "Tra cứu nghĩa tinh tế và thái độ của từ vựng trong văn cảnh cụ thể.",
+      "sourceMetadata": "Official JLPT sample N3 format & JEES specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-MO-CONT-008",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-CONT",
+      "stem": "契約を結ぶ前に、書類の条件を（　　）確認してください。",
+      "stimulusId": "N3-MO-CONT-008",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "慎重に"
+        },
+        {
+          "id": "B",
+          "text": "大雑把に"
+        },
+        {
+          "id": "C",
+          "text": "勝手に"
+        },
+        {
+          "id": "D",
+          "text": "強引に"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Kiểm tra điều khoản hợp đồng một cách cẩn trọng, thận trọng dùng 「慎重に」 (しんちょうに).",
+      "distractorExplanations": {
+        "B": "大雑把に là qua loa đại khái.",
+        "C": "勝手に là tùy tiện/tự ý.",
+        "D": "強引に là gượng ép/cưỡng bách."
+      },
+      "difficultyEstimate": 3,
+      "conceptId": "adverbs-n3",
+      "remediation": "Tra cứu nghĩa tinh tế và thái độ của từ vựng trong văn cảnh cụ thể.",
+      "sourceMetadata": "Official JLPT sample N3 format & JEES specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-GR-FORM-001",
+      "level": "N3",
+      "skill": "Grammar",
+      "typeId": "N3-GR-FORM",
+      "stem": "あの真面目な山田さんが、約束を破る（　　）。絶対に何かあったはずだ。",
+      "stimulusId": "N3-GR-FORM-001",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "わけがない"
+        },
+        {
+          "id": "B",
+          "text": "わけではない"
+        },
+        {
+          "id": "C",
+          "text": "はずがない"
+        },
+        {
+          "id": "D",
+          "text": "にすぎない"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Cấu trúc 「〜わけがない」 phủ định mạnh mẽ: 'Không đời nào / làm sao có chuyện...'.",
+      "distractorExplanations": {
+        "B": "わけではない chỉ là phủ định một phần ('không hẳn là').",
+        "C": "はずがない cũng phủ định nhưng わけがない biểu đạt phán đoán dựa trên bản chất tính cách mạnh mẽ hơn.",
+        "D": "にすぎない là chỉ là/không hơn."
+      },
+      "difficultyEstimate": 3,
+      "conceptId": "grammar-n3",
+      "remediation": "Phân biệt các cặp ngữ pháp N3 có sắc thái tương đồng nhưng điều kiện dùng khác nhau.",
+      "sourceMetadata": "TUFS Grammar Module & Official JLPT specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-GR-FORM-002",
+      "level": "N3",
+      "skill": "Grammar",
+      "typeId": "N3-GR-FORM",
+      "stem": "日本に住んでいるからといって、全員が寿司を好きな（　　）。",
+      "stimulusId": "N3-GR-FORM-002",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "わけではない"
+        },
+        {
+          "id": "B",
+          "text": "わけがない"
+        },
+        {
+          "id": "C",
+          "text": "はずだ"
+        },
+        {
+          "id": "D",
+          "text": "にちがいない"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Cấu trúc 「からといって...わけではない」: 'Không phải cứ hễ sống ở Nhật là ai cũng thích ăn sushi' (phủ định một phần).",
+      "distractorExplanations": {
+        "B": "わけがない phủ định hoàn toàn là sai thực tế.",
+        "C": "はずだ mang tính khẳng định.",
+        "D": "にちがいない khẳng định chắc chắn."
+      },
+      "difficultyEstimate": 3,
+      "conceptId": "grammar-n3",
+      "remediation": "Phân biệt các cặp ngữ pháp N3 có sắc thái tương đồng nhưng điều kiện dùng khác nhau.",
+      "sourceMetadata": "TUFS Grammar Module & Official JLPT specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-GR-FORM-003",
+      "level": "N3",
+      "skill": "Grammar",
+      "typeId": "N3-GR-FORM",
+      "stem": "法律によって、未成年者はタバコを吸ってはいけない（　　）。",
+      "stimulusId": "N3-GR-FORM-003",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "ことになっている"
+        },
+        {
+          "id": "B",
+          "text": "ことにしている"
+        },
+        {
+          "id": "C",
+          "text": "ようにしている"
+        },
+        {
+          "id": "D",
+          "text": "わけだ"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Cấu trúc 「〜ことになっている」 diễn tả quy định, luật lệ của đoàn thể/xã hội.",
+      "distractorExplanations": {
+        "B": "ことにしている là thói quen do bản thân tự quyết định.",
+        "C": "ようにしている là nỗ lực tạo thói quen.",
+        "D": "わけだ là giải thích lý do."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "grammar-n3",
+      "remediation": "Phân biệt các cặp ngữ pháp N3 có sắc thái tương đồng nhưng điều kiện dùng khác nhau.",
+      "sourceMetadata": "TUFS Grammar Module & Official JLPT specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-GR-FORM-004",
+      "level": "N3",
+      "skill": "Grammar",
+      "typeId": "N3-GR-FORM",
+      "stem": "健康のために、夜9時以降は何も食べない（　　）。",
+      "stimulusId": "N3-GR-FORM-004",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "ことにしている"
+        },
+        {
+          "id": "B",
+          "text": "ことになっている"
+        },
+        {
+          "id": "C",
+          "text": "はずである"
+        },
+        {
+          "id": "D",
+          "text": "おそれがある"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Cấu trúc 「〜ことにしている」 diễn tả quyết định và nguyên tắc duy trì của chính cá nhân.",
+      "distractorExplanations": {
+        "B": "ことになっている là quy định chung của tập thể, không hợp với thói quen cá nhân này.",
+        "C": "はずである là chắc chắn.",
+        "D": "おそれがある là có nguy cơ/e rằng."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "grammar-n3",
+      "remediation": "Phân biệt các cặp ngữ pháp N3 có sắc thái tương đồng nhưng điều kiện dùng khác nhau.",
+      "sourceMetadata": "TUFS Grammar Module & Official JLPT specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-GR-FORM-005",
+      "level": "N3",
+      "skill": "Grammar",
+      "typeId": "N3-GR-FORM",
+      "stem": "これだけ多くの人が集まっているのだから、有名なイベントに（　　）。",
+      "stimulusId": "N3-GR-FORM-005",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "違いない"
+        },
+        {
+          "id": "B",
+          "text": "はずがない"
+        },
+        {
+          "id": "C",
+          "text": "わけがない"
+        },
+        {
+          "id": "D",
+          "text": "すぎない"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Cấu trúc 「〜に違いない」 phán đoán chắc chắn: 'Đông người thế này thì chắc chắn là sự kiện nổi tiếng rồi'.",
+      "distractorExplanations": {
+        "B": "はずがない là không thể nào.",
+        "C": "わけがない là làm sao mà.",
+        "D": "すぎない là chỉ là."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "grammar-n3",
+      "remediation": "Phân biệt các cặp ngữ pháp N3 có sắc thái tương đồng nhưng điều kiện dùng khác nhau.",
+      "sourceMetadata": "TUFS Grammar Module & Official JLPT specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-GR-FORM-006",
+      "level": "N3",
+      "skill": "Grammar",
+      "typeId": "N3-GR-FORM",
+      "stem": "彼は昨日遅くまで残業していたから、今日は疲れている（　　）だ。",
+      "stimulusId": "N3-GR-FORM-006",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "はず"
+        },
+        {
+          "id": "B",
+          "text": "わけ"
+        },
+        {
+          "id": "C",
+          "text": "こと"
+        },
+        {
+          "id": "D",
+          "text": "もの"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Cấu trúc 「〜はずだ」 biểu thị phán đoán logic có căn cứ: hôm qua làm thêm muộn nên hôm nay chắc hẳn là mệt.",
+      "distractorExplanations": {
+        "B": "わけだ thường dùng để chốt lại nguyên nhân sau khi đã nghe giải thích.",
+        "C": "ことだ là lời khuyên nên làm gì.",
+        "D": "ものだ là đạo lý tự nhiên."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "grammar-n3",
+      "remediation": "Phân biệt các cặp ngữ pháp N3 có sắc thái tương đồng nhưng điều kiện dùng khác nhau.",
+      "sourceMetadata": "TUFS Grammar Module & Official JLPT specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-GR-FORM-007",
+      "level": "N3",
+      "skill": "Grammar",
+      "typeId": "N3-GR-FORM",
+      "stem": "先生が丁寧に教えてくださった（　　）、無事に試験に合格できました。",
+      "stimulusId": "N3-GR-FORM-007",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "おかげで"
+        },
+        {
+          "id": "B",
+          "text": "せいで"
+        },
+        {
+          "id": "C",
+          "text": "ために"
+        },
+        {
+          "id": "D",
+          "text": "わりに"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Cấu trúc 「〜おかげで」 mang nghĩa 'nhờ có' sự giúp đỡ mang lại kết quả tốt đẹp.",
+      "distractorExplanations": {
+        "B": "せいで chỉ nguyên nhân dẫn tới hậu quả xấu (đổ lỗi).",
+        "C": "ために trung tính hoặc chỉ mục đích.",
+        "D": "わりに là so với mức độ."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "grammar-n3",
+      "remediation": "Phân biệt các cặp ngữ pháp N3 có sắc thái tương đồng nhưng điều kiện dùng khác nhau.",
+      "sourceMetadata": "TUFS Grammar Module & Official JLPT specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-GR-FORM-008",
+      "level": "N3",
+      "skill": "Grammar",
+      "typeId": "N3-GR-FORM",
+      "stem": "昨夜飲みすぎた（　　）、今朝はひどい頭痛がする。",
+      "stimulusId": "N3-GR-FORM-008",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "せいで"
+        },
+        {
+          "id": "B",
+          "text": "おかげで"
+        },
+        {
+          "id": "C",
+          "text": "とおりに"
+        },
+        {
+          "id": "D",
+          "text": "反面"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Cấu trúc 「〜せいで」 dùng khi nguyên nhân dẫn tới kết quả tiêu cực (đau đầu).",
+      "distractorExplanations": {
+        "B": "おかげで chỉ dùng cho kết quả tốt.",
+        "C": "とおりに là theo như.",
+        "D": "反面 là mặt khác."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "grammar-n3",
+      "remediation": "Phân biệt các cặp ngữ pháp N3 có sắc thái tương đồng nhưng điều kiện dùng khác nhau.",
+      "sourceMetadata": "TUFS Grammar Module & Official JLPT specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-GR-FORM-009",
+      "level": "N3",
+      "skill": "Grammar",
+      "typeId": "N3-GR-FORM",
+      "stem": "この写真を見る（　　）、故郷の家族のことを思い出す。",
+      "stimulusId": "N3-GR-FORM-009",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "たびに"
+        },
+        {
+          "id": "B",
+          "text": "ついでに"
+        },
+        {
+          "id": "C",
+          "text": "うちに"
+        },
+        {
+          "id": "D",
+          "text": "かぎり"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Cấu trúc 「〜たびに」: cứ mỗi lần làm việc A thì lại có cảm xúc/hành động B diễn ra.",
+      "distractorExplanations": {
+        "B": "ついでに là nhân tiện làm gì.",
+        "C": "うちに là trong khi tranh thủ.",
+        "D": "かぎり là chừng nào mà."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "grammar-n3",
+      "remediation": "Phân biệt các cặp ngữ pháp N3 có sắc thái tương đồng nhưng điều kiện dùng khác nhau.",
+      "sourceMetadata": "TUFS Grammar Module & Official JLPT specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-GR-FORM-010",
+      "level": "N3",
+      "skill": "Grammar",
+      "typeId": "N3-GR-FORM",
+      "stem": "大事な電話をかけている（　　）、突然スマートフォンの充電が切れてしまった。",
+      "stimulusId": "N3-GR-FORM-010",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "最中に"
+        },
+        {
+          "id": "B",
+          "text": "うちに"
+        },
+        {
+          "id": "C",
+          "text": "あいだに"
+        },
+        {
+          "id": "D",
+          "text": "まえに"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Cấu trúc 「〜最中に」: đúng vào lúc đang cao trào thực hiện hành động thì có sự cố bất ngờ xen vào làm gián đoạn.",
+      "distractorExplanations": {
+        "B": "うちに là tranh thủ trước khi điều kiện thay đổi.",
+        "C": "あいだに là trong khoảng thời gian diễn ra bình thường.",
+        "D": "まえに là trước khi."
+      },
+      "difficultyEstimate": 3,
+      "conceptId": "grammar-n3",
+      "remediation": "Phân biệt các cặp ngữ pháp N3 có sắc thái tương đồng nhưng điều kiện dùng khác nhau.",
+      "sourceMetadata": "TUFS Grammar Module & Official JLPT specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-GR-FORM-011",
+      "level": "N3",
+      "skill": "Grammar",
+      "typeId": "N3-GR-FORM",
+      "stem": "少子高齢化が進み、地方の人口は減少する（　　）だ。",
+      "stimulusId": "N3-GR-FORM-011",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "一方"
+        },
+        {
+          "id": "B",
+          "text": "ばかり"
+        },
+        {
+          "id": "C",
+          "text": "最中"
+        },
+        {
+          "id": "D",
+          "text": "次第"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Cấu trúc 「〜一方だ」 diễn tả xu hướng đang tiếp tục phát triển không ngừng theo một chiều hướng (ở đây là giảm dần).",
+      "distractorExplanations": {
+        "B": "ばかりだ cũng có nghĩa tiêu cực nhưng 一方だ mang tính trung tính mô tả xu thế xã hội khách quan hơn.",
+        "C": "最中 là đang giữa lúc.",
+        "D": "次第だ là tùy thuộc."
+      },
+      "difficultyEstimate": 3,
+      "conceptId": "grammar-n3",
+      "remediation": "Phân biệt các cặp ngữ pháp N3 có sắc thái tương đồng nhưng điều kiện dùng khác nhau.",
+      "sourceMetadata": "TUFS Grammar Module & Official JLPT specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-GR-FORM-012",
+      "level": "N3",
+      "skill": "Grammar",
+      "typeId": "N3-GR-FORM",
+      "stem": "この古い橋は、強い台風が来ると崩れる（　　）がある。",
+      "stimulusId": "N3-GR-FORM-012",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "おそれ"
+        },
+        {
+          "id": "B",
+          "text": "見込み"
+        },
+        {
+          "id": "C",
+          "text": "予定"
+        },
+        {
+          "id": "D",
+          "text": "つもり"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Cấu trúc 「〜おそれがある」 diễn tả mối lo ngại, e rằng có nguy cơ xảy ra sự cố xấu (sập cầu).",
+      "distractorExplanations": {
+        "B": "見込み là triển vọng/kỳ vọng.",
+        "C": "予定 là lịch trình dự kiến.",
+        "D": "つもり là ý định con người."
+      },
+      "difficultyEstimate": 3,
+      "conceptId": "grammar-n3",
+      "remediation": "Phân biệt các cặp ngữ pháp N3 có sắc thái tương đồng nhưng điều kiện dùng khác nhau.",
+      "sourceMetadata": "TUFS Grammar Module & Official JLPT specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-GR-STAR-001",
+      "level": "N3",
+      "skill": "Grammar",
+      "typeId": "N3-GR-STAR",
+      "stem": "年齢や経験の（　　）（　　） ★ （　　）応募できる求人です。",
+      "stimulusId": "N3-GR-STAR-001",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "有無に"
+        },
+        {
+          "id": "B",
+          "text": "誰でも"
+        },
+        {
+          "id": "C",
+          "text": "かかわらず"
+        },
+        {
+          "id": "D",
+          "text": "自由に"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanationVi": "Thứ tự đúng: 年齢や経験の [A. 有無に] [C. かかわらず] ★[B. 誰でも] [D. 自由に] 応募できる求人です. Dấu sao là B.",
+      "distractorExplanations": {
+        "A": "Vị trí 1.",
+        "C": "Vị trí 2.",
+        "D": "Vị trí 4."
+      },
+      "difficultyEstimate": 3,
+      "conceptId": "star-n3",
+      "remediation": "Nhận diện mẫu câu liên kết trung cấp để xác định cụm từ khóa trước sau.",
+      "sourceMetadata": "Official JLPT sample N3 format",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-GR-STAR-002",
+      "level": "N3",
+      "skill": "Grammar",
+      "typeId": "N3-GR-STAR",
+      "stem": "このアパートは家賃が（　　）（　　） ★ （　　）駅から遠いのが難点だ。",
+      "stimulusId": "N3-GR-STAR-002",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "安い"
+        },
+        {
+          "id": "B",
+          "text": "反面"
+        },
+        {
+          "id": "C",
+          "text": "静かで"
+        },
+        {
+          "id": "D",
+          "text": "住みやすいが"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanationVi": "Thứ tự đúng: 家賃が [A. 安い] [B. 反面] [C. 静かで] ★[D. 住みやすいが] 駅から遠い... -> Hoặc: [A. 安い] [B. 反面] ★[D. 住みやすいが] [C. 静かで]... Sắp xếp: [A. 安い] [B. 反面] [C. 静かで] ★[D. 住みやすいが]. Dấu sao là D.",
+      "distractorExplanations": {
+        "A": "Vị trí 1.",
+        "B": "Vị trí 2.",
+        "C": "Vị trí 3."
+      },
+      "difficultyEstimate": 3,
+      "conceptId": "star-n3",
+      "remediation": "Nhận diện mẫu câu liên kết trung cấp để xác định cụm từ khóa trước sau.",
+      "sourceMetadata": "Official JLPT sample N3 format",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-GR-STAR-003",
+      "level": "N3",
+      "skill": "Grammar",
+      "typeId": "N3-GR-STAR",
+      "stem": "若手社員を（　　）（　　） ★ （　　）新しいプロジェクトチームが発足した。",
+      "stimulusId": "N3-GR-STAR-003",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "中心"
+        },
+        {
+          "id": "B",
+          "text": "として"
+        },
+        {
+          "id": "C",
+          "text": "結成された"
+        },
+        {
+          "id": "D",
+          "text": "メンバーで"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanationVi": "Thứ tự đúng: 若手社員を [A. 中心] [B. として] [C. 結成された] ★[D. メンバーで] 新しい... Cụm: を中心として. Dấu sao là D.",
+      "distractorExplanations": {
+        "A": "Vị trí 1.",
+        "B": "Vị trí 2.",
+        "C": "Vị trí 3."
+      },
+      "difficultyEstimate": 3,
+      "conceptId": "star-n3",
+      "remediation": "Nhận diện mẫu câu liên kết trung cấp để xác định cụm từ khóa trước sau.",
+      "sourceMetadata": "Official JLPT sample N3 format",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-GR-STAR-004",
+      "level": "N3",
+      "skill": "Grammar",
+      "typeId": "N3-GR-STAR",
+      "stem": "海外でのボランティア活動を（　　）（　　） ★ （　　）得ることができた。",
+      "stimulusId": "N3-GR-STAR-004",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "通じて"
+        },
+        {
+          "id": "B",
+          "text": "かけがえのない"
+        },
+        {
+          "id": "C",
+          "text": "多くの友人や"
+        },
+        {
+          "id": "D",
+          "text": "経験を"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanationVi": "Thứ tự đúng: 活動を [A. 通じて] [C. 多くの友人や] [B. かけがえのない] ★[D. 経験を] 得ることができた. Dấu sao là D.",
+      "distractorExplanations": {
+        "A": "Vị trí 1.",
+        "B": "Vị trí 3.",
+        "C": "Vị trí 2."
+      },
+      "difficultyEstimate": 4,
+      "conceptId": "star-n3",
+      "remediation": "Nhận diện mẫu câu liên kết trung cấp để xác định cụm từ khóa trước sau.",
+      "sourceMetadata": "Official JLPT sample N3 format",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-GR-STAR-005",
+      "level": "N3",
+      "skill": "Grammar",
+      "typeId": "N3-GR-STAR",
+      "stem": "情報技術の（　　）（　　） ★ （　　）人々の生活様式も大きく変化した。",
+      "stimulusId": "N3-GR-STAR-005",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "発展に"
+        },
+        {
+          "id": "B",
+          "text": "伴って"
+        },
+        {
+          "id": "C",
+          "text": "通信環境が"
+        },
+        {
+          "id": "D",
+          "text": "整備され"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanationVi": "Thứ tự đúng: 技術の [A. 発展に] ★[B. 伴って] [C. 通信環境が] [D. 整備され]... -> [C. 通信環境が] [D. 整備され] [A. 発展に] [B. 伴って] -> Trật tự: [A. 発展に] ★[B. 伴って] [D. 整備され] [C. 通信環境が]... Khóa cụm: 発展に伴って. Dấu sao rơi vào B.",
+      "distractorExplanations": {
+        "A": "Vị trí 1.",
+        "C": "Vị trí 4.",
+        "D": "Vị trí 3."
+      },
+      "difficultyEstimate": 4,
+      "conceptId": "star-n3",
+      "remediation": "Nhận diện mẫu câu liên kết trung cấp để xác định cụm từ khóa trước sau.",
+      "sourceMetadata": "Official JLPT sample N3 format",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-GR-STAR-006",
+      "level": "N3",
+      "skill": "Grammar",
+      "typeId": "N3-GR-STAR",
+      "stem": "以前の製品と（　　）（　　） ★ （　　）消費電力が30％もカットされた。",
+      "stimulusId": "N3-GR-STAR-006",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "比べて"
+        },
+        {
+          "id": "B",
+          "text": "今回の新型モデルは"
+        },
+        {
+          "id": "C",
+          "text": "性能が大幅に"
+        },
+        {
+          "id": "D",
+          "text": "向上し"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanationVi": "Thứ tự đúng: 以前の製品と [A. 比べて] [B. 今回の新型モデルは] [C. 性能が大幅に] ★[D. 向上し]... Dấu sao là D.",
+      "distractorExplanations": {
+        "A": "Vị trí 1.",
+        "B": "Vị trí 2.",
+        "C": "Vị trí 3."
+      },
+      "difficultyEstimate": 3,
+      "conceptId": "star-n3",
+      "remediation": "Nhận diện mẫu câu liên kết trung cấp để xác định cụm từ khóa trước sau.",
+      "sourceMetadata": "Official JLPT sample N3 format",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-RD-SHOR-001",
+      "level": "N3",
+      "skill": "Reading",
+      "typeId": "N3-RD-SHOR",
+      "stem": "この通知で社員がしなければならないことは何ですか。",
+      "stimulusId": "N3-RD-SHOR-001",
+      "contextPassage": "社内通知：来月より社内サーバーのセキュリティ強化のため、全社員のパスワード更新を義務化します。新しいパスワードは英数字と記号を組み合わせた10文字以上で設定し、今月末日までに変更手続きを完了してください。期限を過ぎると社内システムへのログインができなくなりますのでご注意ください。",
+      "options": [
+        {
+          "id": "A",
+          "text": "今月末までに新しい条件のパスワードに変更する"
+        },
+        {
+          "id": "B",
+          "text": "来月になったらシステム担当者に連絡する"
+        },
+        {
+          "id": "C",
+          "text": "英数字だけの短いパスワードを設定する"
+        },
+        {
+          "id": "D",
+          "text": "古いパスワードのまま使い続ける"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Thông báo yêu cầu toàn thể nhân viên đổi mật khẩu mới (trên 10 ký tự gồm chữ, số, ký hiệu) trước cuối tháng này.",
+      "distractorExplanations": {
+        "B": "Không yêu cầu liên hệ IT vào tháng sau.",
+        "C": "Mật khẩu phải từ 10 ký tự và có cả ký hiệu.",
+        "D": "Nếu giữ nguyên mật khẩu cũ sẽ bị khóa đăng nhập."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "reading-n3",
+      "remediation": "Nắm bắt câu chủ đề của đoạn văn và đối chiếu chính xác với từng phương án trả lời.",
+      "sourceMetadata": "Original N3 reading texts, aligned with official test length (~350 chars)",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-RD-SHOR-002",
+      "level": "N3",
+      "skill": "Reading",
+      "typeId": "N3-RD-SHOR",
+      "stem": "カーシェアリングが普及している理由として最も適切なものはどれですか。",
+      "stimulusId": "N3-RD-SHOR-002",
+      "contextPassage": "近年、都市部では車を所有せず、必要なときだけ借りて利用する「カーシェアリング」が急速に普及している。駐車場の維持費や保険料がかからないため、週末に買い物やドライブへ出かける程度の利用者にとっては、経済的な負担を大幅に減らせる点が大きな魅力となっている。",
+      "options": [
+        {
+          "id": "A",
+          "text": "車を維持するための費用がかからず経済的だから"
+        },
+        {
+          "id": "B",
+          "text": "毎日通勤で長距離を運転する人に便利だから"
+        },
+        {
+          "id": "C",
+          "text": "新車を購入するよりも手続きが複雑だから"
+        },
+        {
+          "id": "D",
+          "text": "都市部では公共交通機関が少なくなっているから"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Bài đọc nêu rõ ưu điểm: không tốn tiền bãi đỗ xe hay phí bảo hiểm, giúp người dùng tiết kiệm chi phí đáng kể.",
+      "distractorExplanations": {
+        "B": "Bài đọc chỉ nói phù hợp cho người dùng cuối tuần (週末に...程度の利用者).",
+        "C": "Thủ tục không hề được nhắc là phức tạp.",
+        "D": "Phương tiện công cộng giảm sút không hề được đề cập."
+      },
+      "difficultyEstimate": 3,
+      "conceptId": "reading-n3",
+      "remediation": "Nắm bắt câu chủ đề của đoạn văn và đối chiếu chính xác với từng phương án trả lời.",
+      "sourceMetadata": "Original N3 reading texts, aligned with official test length (~350 chars)",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-RD-SHOR-003",
+      "level": "N3",
+      "skill": "Reading",
+      "typeId": "N3-RD-SHOR",
+      "stem": "来週の水曜日の昼にこのカフェで利用できるものは何ですか。",
+      "stimulusId": "N3-RD-SHOR-003",
+      "contextPassage": "お客様各位：平素より当カフェをご利用いただき誠にありがとうございます。誠に勝手ながら、厨房設備の改修工事に伴い、来週火曜日から木曜日までの3日間、ランチタイムの食事メニューの提供を休止いたします。なお、ドリンクおよびデザート類は通常通りご注文いただけます。",
+      "options": [
+        {
+          "id": "A",
+          "text": "飲み物とデザート"
+        },
+        {
+          "id": "B",
+          "text": "ランチの食事メニュー"
+        },
+        {
+          "id": "C",
+          "text": "すべてのメニュー"
+        },
+        {
+          "id": "D",
+          "text": "休業のため何も利用できない"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Bài thông báo: tạm ngừng phục vụ đồ ăn trưa (食事メニューの提供を休止), nhưng đồ uống và tráng miệng vẫn phục vụ bình thường (ドリンクおよびデザート類は通常通り).",
+      "distractorExplanations": {
+        "B": "Thực đơn đồ ăn trưa bị tạm ngừng.",
+        "C": "Không phục vụ toàn bộ.",
+        "D": "Quán không đóng cửa hoàn toàn."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "reading-n3",
+      "remediation": "Nắm bắt câu chủ đề của đoạn văn và đối chiếu chính xác với từng phương án trả lời.",
+      "sourceMetadata": "Original N3 reading texts, aligned with official test length (~350 chars)",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-RD-SHOR-004",
+      "level": "N3",
+      "skill": "Reading",
+      "typeId": "N3-RD-SHOR",
+      "stem": "筆者が読書において重要だと述べていることはどれですか。",
+      "stimulusId": "N3-RD-SHOR-004",
+      "contextPassage": "読書をする際、ただ文字を目で追うだけでなく、著者の主張に対して「なぜそう言えるのか」と問いかけながら読むことが大切だ。受動的に受け入れるのではなく、批判的な視点を持って能動的に読むことで、物事を深く論理的に考える力が身につくのである。",
+      "options": [
+        {
+          "id": "A",
+          "text": "著者の意見に対して疑問を持ち、主体的に読むこと"
+        },
+        {
+          "id": "B",
+          "text": "できるだけ速く多くの本を読むこと"
+        },
+        {
+          "id": "C",
+          "text": "著者の書いた内容をすべてそのまま受け入れること"
+        },
+        {
+          "id": "D",
+          "text": "難しい専門書だけを選んで読むこと"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Tác giả khuyên người đọc không tiếp thu thụ động mà luôn tự hỏi 'tại sao lại như vậy', đọc một cách chủ động.",
+      "distractorExplanations": {
+        "B": "Tác giả không đề cập việc đọc nhanh số lượng nhiều.",
+        "C": "Trái ngược với ý 'không chấp nhận thụ động'.",
+        "D": "Không hề đề cập việc chỉ chọn sách chuyên ngành khó."
+      },
+      "difficultyEstimate": 3,
+      "conceptId": "reading-n3",
+      "remediation": "Nắm bắt câu chủ đề của đoạn văn và đối chiếu chính xác với từng phương án trả lời.",
+      "sourceMetadata": "Original N3 reading texts, aligned with official test length (~350 chars)",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-RD-SHOR-005",
+      "level": "N3",
+      "skill": "Reading",
+      "typeId": "N3-RD-SHOR",
+      "stem": "この文章で最も伝えたいことは何ですか。",
+      "stimulusId": "N3-RD-SHOR-005",
+      "contextPassage": "マンション住民の皆様へ：最近、ベランダでの喫煙に関して近隣住民からの苦情が寄せられています。風に乗って隣接する部屋に煙や匂いが入り込み、大変迷惑となります。当マンションではベランダを含む共用部分はすべて禁煙となっておりますので、ルールを厳守してください。",
+      "options": [
+        {
+          "id": "A",
+          "text": "ベランダでの喫煙は禁止されているのでやめてほしい"
+        },
+        {
+          "id": "B",
+          "text": "ベランダをきれいに掃除してほしい"
+        },
+        {
+          "id": "C",
+          "text": "近隣住民と仲良く挨拶をしてほしい"
+        },
+        {
+          "id": "D",
+          "text": "タバコの吸い殻をゴミ箱に捨ててほしい"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Thông báo nhấn mạnh: Ban công là khu vực chung cấm hút thuốc, yêu cầu cư dân tuân thủ nghiêm ngặt quy định không hút thuốc.",
+      "distractorExplanations": {
+        "B": "Không nói về dọn vệ sinh ban công.",
+        "C": "Không nói về chào hỏi hàng xóm.",
+        "D": "Không phải nhắc vứt tàn thuốc mà là cấm hút."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "reading-n3",
+      "remediation": "Nắm bắt câu chủ đề của đoạn văn và đối chiếu chính xác với từng phương án trả lời.",
+      "sourceMetadata": "Original N3 reading texts, aligned with official test length (~350 chars)",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-RD-MEDI-001",
+      "level": "N3",
+      "skill": "Reading",
+      "typeId": "N3-RD-MEDI",
+      "stem": "テレワークの導入によって生じた課題として、筆者が挙げているものはどれですか。",
+      "stimulusId": "STIM-N3-MEDI-001",
+      "contextPassage": "近年、日本企業において「テレワーク」を導入する動きが広がっている。通勤ラッシュから解放され、自宅でリラックスしながら効率的に業務を進められるというメリットがある一方で、新たな課題も浮き彫りになってきた。\n\n最も深刻なのは、社員間のコミュニケーション不足である。オフィスで顔を合わせていれば、ちょっとした雑談や相談を通じて自然に情報共有ができていたが、画面越しのやりとりだけでは相手の表情や職場の雰囲気を察知することが難しくなる。その結果、孤立感を深めたり、業務の連携に支障が出たりするケースが少なくない。\n\nある調査によると、完全な在宅勤務よりも、週に数日オフィスに出社する「ハイブリッド型」の働き方を希望する社員が最も多いという。対面のぬくもりと在宅の快適さをうまく組み合わせることこそが、これからの時代に求められる柔軟な働き方ではないだろうか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "社員同士の直接的な対話が減り、意思疎通が難しくなったこと"
+        },
+        {
+          "id": "B",
+          "text": "通勤ラッシュによって社員の疲労が蓄積したこと"
+        },
+        {
+          "id": "C",
+          "text": "自宅のインターネット環境が悪くて仕事ができないこと"
+        },
+        {
+          "id": "D",
+          "text": "残業時間が大幅に増えて健康を害したこと"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Đoạn 2 nêu rõ thách thức lớn nhất là thiếu giao tiếp giữa các nhân viên (社員間のコミュニケーション不足).",
+      "distractorExplanations": {
+        "B": "Được giải phóng khỏi giờ cao điểm tàu xe là ưu điểm chứ không phải thách thức.",
+        "C": "Vấn đề mạng internet không được nhắc tới.",
+        "D": "Tăng giờ làm thêm không phải nội dung bài viết."
+      },
+      "difficultyEstimate": 3,
+      "conceptId": "reading-n3-medium",
+      "remediation": "Theo dõi dòng lập luận từng đoạn văn để xác định vấn đề, dẫn chứng và kết luận của tác giả.",
+      "sourceMetadata": "Original N3 medium analytical passage (~600 chars), official JLPT format",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-RD-MEDI-002",
+      "level": "N3",
+      "skill": "Reading",
+      "typeId": "N3-RD-MEDI",
+      "stem": "オフィスで対面することの利点として、文章中で触れられているものはどれですか。",
+      "stimulusId": "STIM-N3-MEDI-001",
+      "contextPassage": "近年、日本企業において「テレワーク」を導入する動きが広がっている。通勤ラッシュから解放され、自宅でリラックスしながら効率的に業務を進められるというメリットがある一方で、新たな課題も浮き彫りになってきた。\n\n最も深刻なのは、社員間のコミュニケーション不足である。オフィスで顔を合わせていれば、ちょっとした雑談や相談を通じて自然に情報共有ができていたが、画面越しのやりとりだけでは相手の表情や職場の雰囲気を察知することが難しくなる。その結果、孤立感を深めたり、業務の連携に支障が出たりするケースが少なくない。\n\nある調査によると、完全な在宅勤務よりも、週に数日オフィスに出社する「ハイブリッド型」の働き方を希望する社員が最も多いという。対面のぬくもりと在宅の快適さをうまく組み合わせることこそが、これからの時代に求められる柔軟な働き方ではないだろうか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "日常の雑談や軽い相談を通じて自然に情報を共有できること"
+        },
+        {
+          "id": "B",
+          "text": "上司が部下の作業内容を常に監視できること"
+        },
+        {
+          "id": "C",
+          "text": "会議の時間を短縮して業務を早く終えられること"
+        },
+        {
+          "id": "D",
+          "text": "通勤手当を多く受け取ることができること"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Đoạn 2 chỉ ra: 'ちょっとした雑談や相談を通じて自然に情報共有ができていた'.",
+      "distractorExplanations": {
+        "B": "Giám sát cấp dưới không hề được đề cập.",
+        "C": "Rút ngắn thời gian họp không được nhắc đến.",
+        "D": "Tiền trợ cấp đi lại không liên quan."
+      },
+      "difficultyEstimate": 3,
+      "conceptId": "reading-n3-medium",
+      "remediation": "Theo dõi dòng lập luận từng đoạn văn để xác định vấn đề, dẫn chứng và kết luận của tác giả.",
+      "sourceMetadata": "Original N3 medium analytical passage (~600 chars), official JLPT format",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N3-RD-MEDI-003",
+      "level": "N3",
+      "skill": "Reading",
+      "typeId": "N3-RD-MEDI",
+      "stem": "これからの働き方について、筆者はどのように考えていますか。",
+      "stimulusId": "STIM-N3-MEDI-001",
+      "contextPassage": "近年、日本企業において「テレワーク」を導入する動きが広がっている。通勤ラッシュから解放され、自宅でリラックスしながら効率的に業務を進められるというメリットがある一方で、新たな課題も浮き彫りになってきた。\n\n最も深刻なのは、社員間のコミュニケーション不足である。オフィスで顔を合わせていれば、ちょっとした雑談や相談を通じて自然に情報共有ができていたが、画面越しのやりとりだけでは相手の表情や職場の雰囲気を察知することが難しくなる。その結果、孤立感を深めたり、業務の連携に支障が出たりするケースが少なくない。\n\nある調査によると、完全な在宅勤務よりも、週に数日オフィスに出社する「ハイブリッド型」の働き方を希望する社員が最も多いという。対面のぬくもりと在宅の快適さをうまく組み合わせることこそが、これからの時代に求められる柔軟な働き方ではないだろうか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "出社と在宅勤務の長所を組み合わせた柔軟な働き方が望ましい"
+        },
+        {
+          "id": "B",
+          "text": "すべての企業は直ちに完全な在宅勤務に移行すべきである"
+        },
+        {
+          "id": "C",
+          "text": "テレワークは弊害が多いため、全面的に廃止すべきである"
+        },
+        {
+          "id": "D",
+          "text": "社員の意見よりも会社の経営効率を最優先すべきである"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Câu kết bài chốt lại: sự kết hợp giữa gặp gỡ trực tiếp và sự thoải mái khi làm tại nhà (mô hình hybrid) là cách làm việc linh hoạt cho tương lai.",
+      "distractorExplanations": {
+        "B": "Tác giả chỉ ra nhược điểm của việc hoàn toàn ở nhà.",
+        "C": "Tác giả không hề nói xóa bỏ hoàn toàn.",
+        "D": "Tác giả đề cao sự linh hoạt và nguyện vọng người lao động."
+      },
+      "difficultyEstimate": 3,
+      "conceptId": "reading-n3-medium",
+      "remediation": "Theo dõi dòng lập luận từng đoạn văn để xác định vấn đề, dẫn chứng và kết luận của tác giả.",
+      "sourceMetadata": "Original N3 medium analytical passage (~600 chars), official JLPT format",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N2-MO-READ-001",
+      "level": "N2",
+      "skill": "Vocabulary",
+      "typeId": "N2-MO-READ",
+      "stem": "会議の前に、現在の市場動向を正確に「把握」しておく必要がある。",
+      "stimulusId": "N2-MO-READ-001",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "はあく"
+        },
+        {
+          "id": "B",
+          "text": "はそく"
+        },
+        {
+          "id": "C",
+          "text": "ばあく"
+        },
+        {
+          "id": "D",
+          "text": "はこう"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "把握 đọc là はあく, mang nghĩa thấu hiểu tường tận, nắm bắt chính xác tình hình.",
+      "distractorExplanations": {
+        "B": "Chữ 握 đọc là あく chứ không phải そく.",
+        "C": "Chữ 把 đọc là は chứ không phải ば.",
+        "D": "Chữ 握 không đọc là こう."
+      },
+      "difficultyEstimate": 3,
+      "conceptId": "kanji-n2",
+      "remediation": "Học từ vựng Hán tự N2 cao cấp qua văn bản chính luận và báo chí.",
+      "sourceMetadata": "Official JLPT sample N2 format & JEES specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N2-MO-READ-002",
+      "level": "N2",
+      "skill": "Vocabulary",
+      "typeId": "N2-MO-READ",
+      "stem": "政府は物価高騰に対して緊急の「措置」を講じることを発表した。",
+      "stimulusId": "N2-MO-READ-002",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "そち"
+        },
+        {
+          "id": "B",
+          "text": "しょち"
+        },
+        {
+          "id": "C",
+          "text": "そじ"
+        },
+        {
+          "id": "D",
+          "text": "そうち"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "措置 đọc là そち, mang nghĩa biện pháp, bước xử lý mang tính chính sách.",
+      "distractorExplanations": {
+        "B": "しょち là chữ 処置 (xử trí y tế hoặc xử lý tạm thời).",
+        "C": "Âm ち không đục.",
+        "D": "そうち là chữ 装置 (thiết bị)."
+      },
+      "difficultyEstimate": 4,
+      "conceptId": "kanji-n2",
+      "remediation": "Học từ vựng Hán tự N2 cao cấp qua văn bản chính luận và báo chí.",
+      "sourceMetadata": "Official JLPT sample N2 format & JEES specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N2-MO-READ-003",
+      "level": "N2",
+      "skill": "Vocabulary",
+      "typeId": "N2-MO-READ",
+      "stem": "双方が一歩も譲らず、議論は「妥協」点を見出せないまま終わった。",
+      "stimulusId": "N2-MO-READ-003",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "だきょう"
+        },
+        {
+          "id": "B",
+          "text": "たいきょう"
+        },
+        {
+          "id": "C",
+          "text": "だごう"
+        },
+        {
+          "id": "D",
+          "text": "ときょう"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "妥協 đọc là だきょう, mang nghĩa thỏa hiệp, nhân nhượng.",
+      "distractorExplanations": {
+        "B": "Chữ 妥 đọc là だ chứ không phải たい.",
+        "C": "Chữ 協 đọc là きょう chứ không phải ごう.",
+        "D": "Chữ 妥 không đọc là と."
+      },
+      "difficultyEstimate": 3,
+      "conceptId": "kanji-n2",
+      "remediation": "Học từ vựng Hán tự N2 cao cấp qua văn bản chính luận và báo chí.",
+      "sourceMetadata": "Official JLPT sample N2 format & JEES specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N2-MO-READ-004",
+      "level": "N2",
+      "skill": "Vocabulary",
+      "typeId": "N2-MO-READ",
+      "stem": "将来の不測の事態に備えて、日頃から体力を「蓄えて」おくことが大切だ。",
+      "stimulusId": "N2-MO-READ-004",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "たくわえて"
+        },
+        {
+          "id": "B",
+          "text": "かかえて"
+        },
+        {
+          "id": "C",
+          "text": "たくして"
+        },
+        {
+          "id": "D",
+          "text": "そなえて"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "蓄える đọc là たくわえる, mang nghĩa tích lũy, dự trữ (thể lực, kiến thức, tiền của).",
+      "distractorExplanations": {
+        "B": "かかえて là 抱えて (ôm/gánh vác).",
+        "C": "たくして là 託して (giao phó).",
+        "D": "そなえて là 備えて (chuẩn bị)."
+      },
+      "difficultyEstimate": 4,
+      "conceptId": "kanji-n2",
+      "remediation": "Học từ vựng Hán tự N2 cao cấp qua văn bản chính luận và báo chí.",
+      "sourceMetadata": "Official JLPT sample N2 format & JEES specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N2-MO-READ-005",
+      "level": "N2",
+      "skill": "Vocabulary",
+      "typeId": "N2-MO-READ",
+      "stem": "新しい政策を導入した結果、若者の雇用率に「顕著」な改善が見られた。",
+      "stimulusId": "N2-MO-READ-005",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "けんちょ"
+        },
+        {
+          "id": "B",
+          "text": "けんしょ"
+        },
+        {
+          "id": "C",
+          "text": "げんちょ"
+        },
+        {
+          "id": "D",
+          "text": "けんじょ"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "顕著 đọc là けんちょ, mang nghĩa rõ rệt, nổi bật, đáng kể.",
+      "distractorExplanations": {
+        "B": "Chữ 著 đọc âm đục ちょ.",
+        "C": "Chữ 顕 đọc là けん chứ không phải げん.",
+        "D": "Không đọc là けんじょ."
+      },
+      "difficultyEstimate": 4,
+      "conceptId": "kanji-n2",
+      "remediation": "Học từ vựng Hán tự N2 cao cấp qua văn bản chính luận và báo chí.",
+      "sourceMetadata": "Official JLPT sample N2 format & JEES specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N2-MO-AFFX-001",
+      "level": "N2",
+      "skill": "Vocabulary",
+      "typeId": "N2-MO-AFFX",
+      "stem": "国内の（　　）人口は年々減少傾向にある。",
+      "stimulusId": "N2-MO-AFFX-001",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "総"
+        },
+        {
+          "id": "B",
+          "text": "全"
+        },
+        {
+          "id": "C",
+          "text": "大"
+        },
+        {
+          "id": "D",
+          "text": "諸"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Ghép tiền tố chính luận: 「総人口」 (そうじんこう - tổng dân số toàn quốc).",
+      "distractorExplanations": {
+        "B": "全人口 không phải thuật ngữ thống kê tiêu chuẩn.",
+        "C": "大人口 sai.",
+        "D": "諸 chỉ số nhiều (諸問題, 諸国)."
+      },
+      "difficultyEstimate": 3,
+      "conceptId": "affix-n2",
+      "remediation": "Ghi nhớ hệ thống tiền tố và hậu tố chuyên sâu trong văn bản hành chính N2.",
+      "sourceMetadata": "Official JLPT sample N2 format",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N2-MO-AFFX-002",
+      "level": "N2",
+      "skill": "Vocabulary",
+      "typeId": "N2-MO-AFFX",
+      "stem": "国際社会が直面している（　　）問題について議論が交わされた。",
+      "stimulusId": "N2-MO-AFFX-002",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "諸"
+        },
+        {
+          "id": "B",
+          "text": "総"
+        },
+        {
+          "id": "C",
+          "text": "各"
+        },
+        {
+          "id": "D",
+          "text": "多"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Ghép tiền tố chỉ nhiều vấn đề phức hợp: 「諸問題」 (しょもんだい - các vấn đề khác nhau).",
+      "distractorExplanations": {
+        "B": "総問題 không có trong tiếng Nhật.",
+        "C": "各 đi với danh từ đơn thể (各問題 nghe không tự nhiên).",
+        "D": "多問題 sai."
+      },
+      "difficultyEstimate": 3,
+      "conceptId": "affix-n2",
+      "remediation": "Ghi nhớ hệ thống tiền tố và hậu tố chuyên sâu trong văn bản hành chính N2.",
+      "sourceMetadata": "Official JLPT sample N2 format",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N2-MO-AFFX-003",
+      "level": "N2",
+      "skill": "Vocabulary",
+      "typeId": "N2-MO-AFFX",
+      "stem": "他人の著作物を無断でインターネット上に公開することは、著作（　　）の侵害にあたる。",
+      "stimulusId": "N2-MO-AFFX-003",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "権"
+        },
+        {
+          "id": "B",
+          "text": "法"
+        },
+        {
+          "id": "C",
+          "text": "律"
+        },
+        {
+          "id": "D",
+          "text": "制"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Hậu tố chỉ quyền lợi pháp lý: 「著作権」 (ちょさくけん - bản quyền, quyền tác giả).",
+      "distractorExplanations": {
+        "B": "著作法 là bộ luật chứ không phải thứ bị xâm phạm trực tiếp (侵害されるもの).",
+        "C": "著作律 sai.",
+        "D": "著作制 sai."
+      },
+      "difficultyEstimate": 2,
+      "conceptId": "affix-n2",
+      "remediation": "Ghi nhớ hệ thống tiền tố và hậu tố chuyên sâu trong văn bản hành chính N2.",
+      "sourceMetadata": "Official JLPT sample N2 format",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N2-MO-AFFX-004",
+      "level": "N2",
+      "skill": "Vocabulary",
+      "typeId": "N2-MO-AFFX",
+      "stem": "根拠が不十分な仮説は、学会でも疑問（　　）されることが多い。",
+      "stimulusId": "N2-MO-AFFX-004",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "視"
+        },
+        {
+          "id": "B",
+          "text": "見"
+        },
+        {
+          "id": "C",
+          "text": "観"
+        },
+        {
+          "id": "D",
+          "text": "感"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Hậu tố ghép với danh từ chỉ thái độ nhìn nhận: 「疑問視」 (ぎもんしする - nhìn nhận với thái độ nghi ngờ/hoài nghi).",
+      "distractorExplanations": {
+        "B": "疑問見 sai.",
+        "C": "疑問観 sai.",
+        "D": "疑問感 sai."
+      },
+      "difficultyEstimate": 4,
+      "conceptId": "affix-n2",
+      "remediation": "Ghi nhớ hệ thống tiền tố và hậu tố chuyên sâu trong văn bản hành chính N2.",
+      "sourceMetadata": "Official JLPT sample N2 format",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N2-MO-AFFX-005",
+      "level": "N2",
+      "skill": "Vocabulary",
+      "typeId": "N2-MO-AFFX",
+      "stem": "彼の功績は教育（　　）のみならず、政界からも高く評価されている。",
+      "stimulusId": "N2-MO-AFFX-005",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "界"
+        },
+        {
+          "id": "B",
+          "text": "層"
+        },
+        {
+          "id": "C",
+          "text": "側"
+        },
+        {
+          "id": "D",
+          "text": "圏"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Hậu tố chỉ giới/lĩnh vực hoạt động: 「教育界」 (きょういくかい - giới giáo dục).",
+      "distractorExplanations": {
+        "B": "層 chỉ tầng lớp người (若者層).",
+        "C": "側 chỉ phía/bên (会社側).",
+        "D": "圏 chỉ vùng địa lý (首都圏)."
+      },
+      "difficultyEstimate": 3,
+      "conceptId": "affix-n2",
+      "remediation": "Ghi nhớ hệ thống tiền tố và hậu tố chuyên sâu trong văn bản hành chính N2.",
+      "sourceMetadata": "Official JLPT sample N2 format",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N2-MO-CONT-001",
+      "level": "N2",
+      "skill": "Vocabulary",
+      "typeId": "N2-MO-CONT",
+      "stem": "将来の計画について聞かれたが、まだ（　　）としたイメージしか持っていない。",
+      "stimulusId": "N2-MO-CONT-001",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "漠然"
+        },
+        {
+          "id": "B",
+          "text": "平然"
+        },
+        {
+          "id": "C",
+          "text": "歴然"
+        },
+        {
+          "id": "D",
+          "text": "整然"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Tính từ 「漠然」 (ばくぜん) miêu tả hình dung mơ hồ, chung chung chưa rõ nét.",
+      "distractorExplanations": {
+        "B": "平然 là thản nhiên/bình thản trước hiểm nguy.",
+        "C": "歴然 là rõ mười mươi/hiển nhiên.",
+        "D": "整然 là ngăn nắp/trật tự."
+      },
+      "difficultyEstimate": 4,
+      "conceptId": "vocab-n2",
+      "remediation": "Nắm vững các thành ngữ và từ vựng trừu tượng nâng cao trong văn cảnh thực tế.",
+      "sourceMetadata": "Official JLPT sample N2 format",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N2-MO-CONT-002",
+      "level": "N2",
+      "skill": "Vocabulary",
+      "typeId": "N2-MO-CONT",
+      "stem": "このプロジェクトは（　　）な計画に基づいて進められており、失敗の余地がほとんどない。",
+      "stimulusId": "N2-MO-CONT-002",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "緻密"
+        },
+        {
+          "id": "B",
+          "text": "過密"
+        },
+        {
+          "id": "C",
+          "text": "濃密"
+        },
+        {
+          "id": "D",
+          "text": "親密"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Kế hoạch tỉ mỉ, chu đáo và chặt chẽ dùng tính từ 「緻密」 (ちみつ).",
+      "distractorExplanations": {
+        "B": "過密 chỉ mật độ quá dày đặc (過密スケジュール).",
+        "C": "濃密 chỉ không khí đậm đặc, nồng đượm.",
+        "D": "親密 chỉ mối quan hệ thân thiết giữa người với người."
+      },
+      "difficultyEstimate": 4,
+      "conceptId": "vocab-n2",
+      "remediation": "Nắm vững các thành ngữ và từ vựng trừu tượng nâng cao trong văn cảnh thực tế.",
+      "sourceMetadata": "Official JLPT sample N2 format",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N2-MO-CONT-003",
+      "level": "N2",
+      "skill": "Vocabulary",
+      "typeId": "N2-MO-CONT",
+      "stem": "危険を伴う作業だからこそ、安全確認の手順を（　　）にしてはならない。",
+      "stimulusId": "N2-MO-CONT-003",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "おろそか"
+        },
+        {
+          "id": "B",
+          "text": "なだらか"
+        },
+        {
+          "id": "C",
+          "text": "おおらか"
+        },
+        {
+          "id": "D",
+          "text": "あざやか"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Cụm 「おろそかにする」 mang nghĩa xem nhẹ, lơ là, chểnh mảng.",
+      "distractorExplanations": {
+        "B": "なだらか là thoai thoải (con dốc).",
+        "C": "おおらか là hào phóng/khoáng đạt.",
+        "D": "あざやか là rực rỡ/khéo léo."
+      },
+      "difficultyEstimate": 4,
+      "conceptId": "vocab-n2",
+      "remediation": "Nắm vững các thành ngữ và từ vựng trừu tượng nâng cao trong văn cảnh thực tế.",
+      "sourceMetadata": "Official JLPT sample N2 format",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N2-MO-CONT-004",
+      "level": "N2",
+      "skill": "Vocabulary",
+      "typeId": "N2-MO-CONT",
+      "stem": "重大な決断を迫られたが、彼は少しも（　　）することなく即答した。",
+      "stimulusId": "N2-MO-CONT-004",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "躊躇"
+        },
+        {
+          "id": "B",
+          "text": "困惑"
+        },
+        {
+          "id": "C",
+          "text": "妥協"
+        },
+        {
+          "id": "D",
+          "text": "錯覚"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "「躊躇」 (ちゅうちょする) mang nghĩa chần chừ, do dự.",
+      "distractorExplanations": {
+        "B": "困惑 là bối rối/lúng túng.",
+        "C": "妥協 là thỏa hiệp.",
+        "D": "錯覚 là ảo giác/lầm tưởng."
+      },
+      "difficultyEstimate": 4,
+      "conceptId": "vocab-n2",
+      "remediation": "Nắm vững các thành ngữ và từ vựng trừu tượng nâng cao trong văn cảnh thực tế.",
+      "sourceMetadata": "Official JLPT sample N2 format",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N2-MO-CONT-005",
+      "level": "N2",
+      "skill": "Vocabulary",
+      "typeId": "N2-MO-CONT",
+      "stem": "新規事業がようやく（　　）に乗り、収益が安定してきた。",
+      "stimulusId": "N2-MO-CONT-005",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "軌道"
+        },
+        {
+          "id": "B",
+          "text": "順路"
+        },
+        {
+          "id": "C",
+          "text": "路線"
+        },
+        {
+          "id": "D",
+          "text": "進路"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Thành ngữ 「軌道に乗る」 (きどうにのる) mang nghĩa công việc/dự án đã vào guồng, tiến triển thuận lợi.",
+      "distractorExplanations": {
+        "B": "順路 là lộ trình tham quan.",
+        "C": "路線 là tuyến đường tàu.",
+        "D": "進路 là hướng đi tương lai/đường tiến thân."
+      },
+      "difficultyEstimate": 3,
+      "conceptId": "idioms-n2",
+      "remediation": "Nắm vững các thành ngữ và từ vựng trừu tượng nâng cao trong văn cảnh thực tế.",
+      "sourceMetadata": "Official JLPT sample N2 format",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N2-GR-FORM-001",
+      "level": "N2",
+      "skill": "Grammar",
+      "typeId": "N2-GR-FORM",
+      "stem": "彼が今回の困難な事業を成功させることができたのは、日頃の弛まぬ努力の賜物に（　　）。",
+      "stimulusId": "N2-GR-FORM-001",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "ほかならない"
+        },
+        {
+          "id": "B",
+          "text": "すぎない"
+        },
+        {
+          "id": "C",
+          "text": "相違ない"
+        },
+        {
+          "id": "D",
+          "text": "限らない"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Mẫu câu 「〜にほかならない」 mang nghĩa 'chính là / không gì khác ngoài...'.",
+      "distractorExplanations": {
+        "B": "すぎない mang sắc thái 'chẳng qua chỉ là...'",
+        "C": "相違ない là chắc chắn, không nhấn mạnh tính duy nhất bằng ほかならない.",
+        "D": "限らない là không giới hạn."
+      },
+      "difficultyEstimate": 4,
+      "conceptId": "grammar-n2",
+      "remediation": "Nắm chắc công thức liên kết và ý nghĩa biểu cảm sâu của ngữ pháp kép N2.",
+      "sourceMetadata": "TUFS Japanese Grammar Module & Official JLPT specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N2-GR-FORM-002",
+      "level": "N2",
+      "skill": "Grammar",
+      "typeId": "N2-GR-FORM",
+      "stem": "これ以上赤字が続くようであれば、不採算部門を閉鎖（　　）。",
+      "stimulusId": "N2-GR-FORM-002",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "せざるを得ない"
+        },
+        {
+          "id": "B",
+          "text": "するわけにはいかない"
+        },
+        {
+          "id": "C",
+          "text": "するはずがない"
+        },
+        {
+          "id": "D",
+          "text": "せざるを得ず"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Mẫu câu 「〜ざるを得ない」 (động từ する -> せざるを得ない): 'Đành phải / buộc lòng phải làm dù không muốn'.",
+      "distractorExplanations": {
+        "B": "するわけにはいかない mang nghĩa không thể làm vì rào cản đạo đức/xã hội.",
+        "C": "するはずがない là không thể nào làm.",
+        "D": "せざるを得ず sai hình thức đuôi câu."
+      },
+      "difficultyEstimate": 4,
+      "conceptId": "grammar-n2",
+      "remediation": "Nắm chắc công thức liên kết và ý nghĩa biểu cảm sâu của ngữ pháp kép N2.",
+      "sourceMetadata": "TUFS Japanese Grammar Module & Official JLPT specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N2-GR-FORM-003",
+      "level": "N2",
+      "skill": "Grammar",
+      "typeId": "N2-GR-FORM",
+      "stem": "伝統的な工芸技術を受け継ぐ後継者が不足し、存続が危ぶまれる技術が増加（　　）。",
+      "stimulusId": "N2-GR-FORM-003",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "しつつある"
+        },
+        {
+          "id": "B",
+          "text": "する一方だ"
+        },
+        {
+          "id": "C",
+          "text": "したきりだ"
+        },
+        {
+          "id": "D",
+          "text": "するばかりだ"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Mẫu câu 「V-ます bỏ ます + つつある」 diễn tả quá trình đang dần dần biến đổi mang tính khách quan, trang trọng.",
+      "distractorExplanations": {
+        "B": "する一方だ thường đi với động từ chỉ sự tăng/giảm đơn hướng thuần túy.",
+        "C": "したきりだ là sau khi làm thì bặt vô âm tín.",
+        "D": "するばかりだ ít mang tính văn phong chính luận bằng つつある."
+      },
+      "difficultyEstimate": 4,
+      "conceptId": "grammar-n2",
+      "remediation": "Nắm chắc công thức liên kết và ý nghĩa biểu cảm sâu của ngữ pháp kép N2.",
+      "sourceMetadata": "TUFS Japanese Grammar Module & Official JLPT specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N2-GR-FORM-004",
+      "level": "N2",
+      "skill": "Grammar",
+      "typeId": "N2-GR-FORM",
+      "stem": "あんな無礼な態度をとる相手とは、二度と会う（　　）。",
+      "stimulusId": "N2-GR-FORM-004",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "まい"
+        },
+        {
+          "id": "B",
+          "text": "わけだ"
+        },
+        {
+          "id": "C",
+          "text": "ものだ"
+        },
+        {
+          "id": "D",
+          "text": "ことか"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Mẫu câu phủ định ý chí: 「〜まい」 (nhất quyết không... nữa). 会うまい = 絶対に会わないつもりだ.",
+      "distractorExplanations": {
+        "B": "わけだ là giải thích nguyên nhân.",
+        "C": "ものだ là đạo lý tự nhiên.",
+        "D": "ことか là biết bao nhiêu."
+      },
+      "difficultyEstimate": 4,
+      "conceptId": "grammar-n2",
+      "remediation": "Nắm chắc công thức liên kết và ý nghĩa biểu cảm sâu của ngữ pháp kép N2.",
+      "sourceMetadata": "TUFS Japanese Grammar Module & Official JLPT specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N2-GR-FORM-005",
+      "level": "N2",
+      "skill": "Grammar",
+      "typeId": "N2-GR-FORM",
+      "stem": "新工場の完成（　　）、わが社はアジア市場への本格的な進出を開始した。",
+      "stimulusId": "N2-GR-FORM-005",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "を契機に"
+        },
+        {
+          "id": "B",
+          "text": "を抜きにして"
+        },
+        {
+          "id": "C",
+          "text": "を皮切りに"
+        },
+        {
+          "id": "D",
+          "text": "をよそに"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Mẫu câu 「〜を契機に（して）」: 'Lấy mốc sự kiện A làm thời cơ/bước ngoặt để khởi xướng hành động B'.",
+      "distractorExplanations": {
+        "B": "を抜きにして là nếu không có...",
+        "C": "を皮切りに là khởi đầu chuỗi sự kiện đồng dạng (như lưu diễn).",
+        "D": "をよそに là bất chấp sự lo lắng của người khác."
+      },
+      "difficultyEstimate": 4,
+      "conceptId": "grammar-n2",
+      "remediation": "Nắm chắc công thức liên kết và ý nghĩa biểu cảm sâu của ngữ pháp kép N2.",
+      "sourceMetadata": "TUFS Japanese Grammar Module & Official JLPT specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N2-GR-FORM-006",
+      "level": "N2",
+      "skill": "Grammar",
+      "typeId": "N2-GR-FORM",
+      "stem": "新商品のデザイン（　　）、開発チーム内で活発な議論が交わされた。",
+      "stimulusId": "N2-GR-FORM-006",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "をめぐって"
+        },
+        {
+          "id": "B",
+          "text": "にかけて"
+        },
+        {
+          "id": "C",
+          "text": "に際して"
+        },
+        {
+          "id": "D",
+          "text": "に即して"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Mẫu câu 「〜をめぐって」: 'Xoay quanh / tranh luận xung quanh vấn đề...'.",
+      "distractorExplanations": {
+        "B": "にかけて là từ mốc A đến mốc B.",
+        "C": "に際して là nhân dịp/khi bắt đầu.",
+        "D": "に即して là dựa theo quy chuẩn/thực tế."
+      },
+      "difficultyEstimate": 3,
+      "conceptId": "grammar-n2",
+      "remediation": "Nắm chắc công thức liên kết và ý nghĩa biểu cảm sâu của ngữ pháp kép N2.",
+      "sourceMetadata": "TUFS Japanese Grammar Module & Official JLPT specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N2-GR-FORM-007",
+      "level": "N2",
+      "skill": "Grammar",
+      "typeId": "N2-GR-FORM",
+      "stem": "傘を持たずに出てきた日（　　）、大雨が降ってくるのだから困ったものだ。",
+      "stimulusId": "N2-GR-FORM-007",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "に限って"
+        },
+        {
+          "id": "B",
+          "text": "を契機に"
+        },
+        {
+          "id": "C",
+          "text": "をはじめ"
+        },
+        {
+          "id": "D",
+          "text": "をこめて"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Mẫu câu 「〜に限って」 diễn tả sự bực bội, xui xẻo: 'Cứ đúng vào cái ngày không mang ô thì trời lại đổ mưa to'.",
+      "distractorExplanations": {
+        "B": "を契機に là lấy làm bước ngoặt.",
+        "C": "をはじめ là tiêu biểu là.",
+        "D": "をこめて là dồn hết tâm huyết."
+      },
+      "difficultyEstimate": 4,
+      "conceptId": "grammar-n2",
+      "remediation": "Nắm chắc công thức liên kết và ý nghĩa biểu cảm sâu của ngữ pháp kép N2.",
+      "sourceMetadata": "TUFS Japanese Grammar Module & Official JLPT specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N2-GR-FORM-008",
+      "level": "N2",
+      "skill": "Grammar",
+      "typeId": "N2-GR-FORM",
+      "stem": "長年住み慣れた家を取り壊すのは、やはり胸に迫る（　　）。",
+      "stimulusId": "N2-GR-FORM-008",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "ものがある"
+        },
+        {
+          "id": "B",
+          "text": "ことになっている"
+        },
+        {
+          "id": "C",
+          "text": "わけがない"
+        },
+        {
+          "id": "D",
+          "text": "はずがない"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Mẫu câu 「〜ものがある」 diễn tả cảm xúc sâu sắc: 'Thật sự dâng trào một cảm xúc nghẹn ngào khó tả'.",
+      "distractorExplanations": {
+        "B": "ことになっている là quy định chung.",
+        "C": "わけがない là không đời nào.",
+        "D": "はずがない là làm sao có chuyện."
+      },
+      "difficultyEstimate": 4,
+      "conceptId": "grammar-n2",
+      "remediation": "Nắm chắc công thức liên kết và ý nghĩa biểu cảm sâu của ngữ pháp kép N2.",
+      "sourceMetadata": "TUFS Japanese Grammar Module & Official JLPT specifications",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N2-GR-STAR-001",
+      "level": "N2",
+      "skill": "Grammar",
+      "typeId": "N2-GR-STAR",
+      "stem": "今回の不祥事は会社の信用を（　　）（　　） ★ （　　）重大な問題である。",
+      "stimulusId": "N2-GR-STAR-001",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "失墜させる"
+        },
+        {
+          "id": "B",
+          "text": "どころか"
+        },
+        {
+          "id": "C",
+          "text": "存続をも"
+        },
+        {
+          "id": "D",
+          "text": "脅かしかねない"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanationVi": "Thứ tự đúng: 信用を [A. 失墜させる] [B. どころか] [C. 存続をも] ★[D. 脅かしかねない] 重大な問題である. Cụm: どころか...も脅かしかねない. Dấu sao là D.",
+      "distractorExplanations": {
+        "A": "Vị trí 1.",
+        "B": "Vị trí 2.",
+        "C": "Vị trí 3."
+      },
+      "difficultyEstimate": 5,
+      "conceptId": "star-n2",
+      "remediation": "Xác định các cặp liên từ hô ứng phức hợp để khóa mạch câu.",
+      "sourceMetadata": "Official JLPT sample N2 format",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N2-GR-STAR-002",
+      "level": "N2",
+      "skill": "Grammar",
+      "typeId": "N2-GR-STAR",
+      "stem": "どのような困難な課題であっても、（　　）（　　） ★ （　　）次第で克服できる。",
+      "stimulusId": "N2-GR-STAR-002",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "チームの"
+        },
+        {
+          "id": "B",
+          "text": "団結と"
+        },
+        {
+          "id": "C",
+          "text": "一人ひとりの"
+        },
+        {
+          "id": "D",
+          "text": "取り組み方"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanationVi": "Thứ tự đúng: [A. チームの] [B. 団結と] [C. 一人ひとりの] ★[D. 取り組み方] 次第で... Cụm: 取り組み方次第で. Dấu sao là D.",
+      "distractorExplanations": {
+        "A": "Vị trí 1.",
+        "B": "Vị trí 2.",
+        "C": "Vị trí 3."
+      },
+      "difficultyEstimate": 4,
+      "conceptId": "star-n2",
+      "remediation": "Xác định các cặp liên từ hô ứng phức hợp để khóa mạch câu.",
+      "sourceMetadata": "Official JLPT sample N2 format",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N2-GR-STAR-003",
+      "level": "N2",
+      "skill": "Grammar",
+      "typeId": "N2-GR-STAR",
+      "stem": "いくら専門知識が（　　）（　　） ★ （　　）周囲の信頼は得られない。",
+      "stimulusId": "N2-GR-STAR-003",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "豊富だから"
+        },
+        {
+          "id": "B",
+          "text": "といって"
+        },
+        {
+          "id": "C",
+          "text": "傲慢な態度を"
+        },
+        {
+          "id": "D",
+          "text": "とっていては"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanationVi": "Thứ tự đúng: [A. 豊富だから] [B. といって] [C. 傲慢な態度を] ★[D. とっていては] 信頼は得られない. Cấu trúc からといって...ていては. Dấu sao là D.",
+      "distractorExplanations": {
+        "A": "Vị trí 1.",
+        "B": "Vị trí 2.",
+        "C": "Vị trí 3."
+      },
+      "difficultyEstimate": 4,
+      "conceptId": "star-n2",
+      "remediation": "Xác định các cặp liên từ hô ứng phức hợp để khóa mạch câu.",
+      "sourceMetadata": "Official JLPT sample N2 format",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N2-GR-STAR-004",
+      "level": "N2",
+      "skill": "Grammar",
+      "typeId": "N2-GR-STAR",
+      "stem": "事前の綿密な（　　）（　　） ★ （　　）予期せぬトラブルが発生した。",
+      "stimulusId": "N2-GR-STAR-004",
+      "contextPassage": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "計画にも"
+        },
+        {
+          "id": "B",
+          "text": "かかわらず"
+        },
+        {
+          "id": "C",
+          "text": "現場では"
+        },
+        {
+          "id": "D",
+          "text": "本番で"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanationVi": "Thứ tự đúng: [A. 計画にも] [B. かかわらず] ★[C. 現場では] [D. 本番で] (hoặc 本番の現場では). Sắp xếp: [A. 計画にも] [B. かかわらず] [D. 本番の] ★[C. 現場では]. Dấu sao là C.",
+      "distractorExplanations": {
+        "A": "Vị trí 1.",
+        "B": "Vị trí 2.",
+        "D": "Vị trí 3."
+      },
+      "difficultyEstimate": 4,
+      "conceptId": "star-n2",
+      "remediation": "Xác định các cặp liên từ hô ứng phức hợp để khóa mạch câu.",
+      "sourceMetadata": "Official JLPT sample N2 format",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N2-RD-SHOR-001",
+      "level": "N2",
+      "skill": "Reading",
+      "typeId": "N2-RD-SHOR",
+      "stem": "筆者が最も主張したいことはどれですか。",
+      "stimulusId": "N2-RD-SHOR-001",
+      "contextPassage": "AI技術の急速な進歩により、データ分析や定型業務の自動化が進んでいる。しかし、複雑な利害関係を調整し、倫理的な判断を下す領域においては、依然として人間の直感や対話能力が不可欠である。技術を過信することなく、人間とAIがそれぞれの強みを補完し合う体制の構築こそが、持続可能な発展をもたらすのである。",
+      "options": [
+        {
+          "id": "A",
+          "text": "AIと人間がそれぞれの強みを活かして協力し合う関係を築くべきだ"
+        },
+        {
+          "id": "B",
+          "text": "AIは倫理的判断もすべて人間に代わって行えるようになるべきだ"
+        },
+        {
+          "id": "C",
+          "text": "定型業務であってもAIに任せるのは危険である"
+        },
+        {
+          "id": "D",
+          "text": "直感や対話能力は科学的な根拠に欠けるため排除すべきだ"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Tác giả chốt luận điểm: '人間とAIがそれぞれの強みを補完し合う体制の構築こそが、持続可能な発展をもたらす' (Cần xây dựng cơ chế bổ trợ thế mạnh lẫn nhau giữa người và AI).",
+      "distractorExplanations": {
+        "B": "Bài đọc khẳng định lĩnh vực phán đoán đạo đức vẫn bắt buộc cần đến con người.",
+        "C": "Bài đọc đồng tình với việc tự động hóa công việc định hình.",
+        "D": "Trực giác và đối thoại của con người là điều không thể thiếu (不可欠)."
+      },
+      "difficultyEstimate": 4,
+      "conceptId": "reading-n2-short",
+      "remediation": "Rèn luyện kỹ năng đọc lướt nắm bắt luận điểm chính của văn bản chính luận trong 1.5 phút.",
+      "sourceMetadata": "Original N2 short editorial texts (~350 chars), official JLPT format",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N2-RD-SHOR-002",
+      "level": "N2",
+      "skill": "Reading",
+      "typeId": "N2-RD-SHOR",
+      "stem": "この文書が全社員に求めている最も重要な行動は何ですか。",
+      "stimulusId": "N2-RD-SHOR-002",
+      "contextPassage": "社内コンプライアンス規程の改定について：近年、SNSを通じた機密情報の漏洩リスクが高まっています。業務に関する記述はもちろんのこと、社内の様子が推測できる写真の投稿も固く禁止します。違反が確認された場合は、就業規則に基づき厳正な懲戒処分の対象となりますので、一人ひとりが高い自覚を持って行動してください。",
+      "options": [
+        {
+          "id": "A",
+          "text": "SNS上での業務情報や社内の写真の投稿を一切行わないこと"
+        },
+        {
+          "id": "B",
+          "text": "社内の不祥事を見つけたら直ちにSNSで告発すること"
+        },
+        {
+          "id": "C",
+          "text": "就業規則の改定案に対して意見を提出すること"
+        },
+        {
+          "id": "D",
+          "text": "会社の公式アカウントを積極的にフォローすること"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Quy định nhấn mạnh: cấm tuyệt đối việc đăng tải thông tin công việc cũng như hình ảnh có thể suy đoán về tình hình công ty lên mạng xã hội.",
+      "distractorExplanations": {
+        "B": "Nghiêm cấm tiết lộ thông tin nội bộ.",
+        "C": "Không phải yêu cầu đóng góp ý kiến.",
+        "D": "Không liên quan đến việc theo dõi tài khoản công ty."
+      },
+      "difficultyEstimate": 3,
+      "conceptId": "reading-n2-short",
+      "remediation": "Rèn luyện kỹ năng đọc lướt nắm bắt luận điểm chính của văn bản chính luận trong 1.5 phút.",
+      "sourceMetadata": "Original N2 short editorial texts (~350 chars), official JLPT format",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    },
+    {
+      "id": "N2-RD-SHOR-003",
+      "level": "N2",
+      "skill": "Reading",
+      "typeId": "N2-RD-SHOR",
+      "stem": "伝統工芸の継承について、筆者はどのように考えていますか。",
+      "stimulusId": "N2-RD-SHOR-003",
+      "contextPassage": "伝統工芸の継承において、古くから伝わる技法をそのまま守り続けることだけが正解とは限らない。時代とともに変化する現代の生活様式に合わせて、新たなデザインや用途を開拓してこそ、伝統は生命力を保ち続けることができる。過去の形式に固執するあまり需要を失ってしまっては、継承そのものが途絶えてしまうからである。",
+      "options": [
+        {
+          "id": "A",
+          "text": "現代の暮らしに合わせて新しいデザインや用途を取り入れるべきだ"
+        },
+        {
+          "id": "B",
+          "text": "過去の技法を一切変えずにそのまま保存することが最優先である"
+        },
+        {
+          "id": "C",
+          "text": "需要がなくなった工芸品は自然に消滅してもやむを得ない"
+        },
+        {
+          "id": "D",
+          "text": "伝統工芸は生活必需品ではないため商業化すべきではない"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanationVi": "Tác giả nhấn mạnh: cần khai phá thiết kế và công dụng mới phù hợp với đời sống hiện đại để giữ cho truyền thống có sức sống lâu bền.",
+      "distractorExplanations": {
+        "B": "Trái ngược với quan điểm 'chỉ khư khư giữ nguyên không hẳn là đúng'.",
+        "C": "Tác giả muốn tìm cách duy trì chứ không chấp nhận biến mất.",
+        "D": "Tác giả cổ vũ việc đáp ứng nhu cầu thực tế."
+      },
+      "difficultyEstimate": 4,
+      "conceptId": "reading-n2-short",
+      "remediation": "Rèn luyện kỹ năng đọc lướt nắm bắt luận điểm chính của văn bản chính luận trong 1.5 phút.",
+      "sourceMetadata": "Original N2 short editorial texts (~350 chars), official JLPT format",
+      "exposureEligible": true,
+      "diagnosticEligible": true,
+      "status": "VERIFIED"
+    }
+  ]
+}

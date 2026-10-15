@@ -99,6 +99,14 @@ Snapshot 2026-10-15. VERIFIED is scoped verification, not JLPT certification. Hi
 | [archive/source-scripts/jlpt-v3/reopen_final.mjs](archive/source-scripts/jlpt-v3/reopen_final.mjs) | DRAFT |
 | [archive/source-scripts/jlpt-v3/verify_official_keys.py](archive/source-scripts/jlpt-v3/verify_official_keys.py) | DRAFT |
 | [archive/source-scripts/jlpt-v3/write_final_qa.py](archive/source-scripts/jlpt-v3/write_final_qa.py) | DRAFT |
+| [curriculum/JLPT_SKILL_TAXONOMY.md](curriculum/JLPT_SKILL_TAXONOMY.md) | VERIFIED |
+| [curriculum/LEVEL_COMPETENCY_MATRIX.csv](curriculum/LEVEL_COMPETENCY_MATRIX.csv) | VERIFIED |
+| [curriculum/LISTENING_PRACTICE_FRAMEWORK.md](curriculum/LISTENING_PRACTICE_FRAMEWORK.md) | VERIFIED |
+| [curriculum/LISTENING_RESOURCE_REGISTRY.json](curriculum/LISTENING_RESOURCE_REGISTRY.json) | VERIFIED |
+| [curriculum/PRACTICE_SETS.json](curriculum/PRACTICE_SETS.json) | VERIFIED |
+| [curriculum/QUESTION_BANK_EXPANDED.json](curriculum/QUESTION_BANK_EXPANDED.json) | VERIFIED |
+| [curriculum/QUESTION_TYPE_BLUEPRINT.json](curriculum/QUESTION_TYPE_BLUEPRINT.json) | VERIFIED |
+| [curriculum/TEST_GENERATION_PLAN.md](curriculum/TEST_GENERATION_PLAN.md) | VERIFIED |
 | [deliverables/phase3.5/00_BAT_DAU_O_DAY.pdf](deliverables/phase3.5/00_BAT_DAU_O_DAY.pdf) | VERIFIED |
 | [deliverables/phase3.5/01_NGU_PHAP_N4.pdf](deliverables/phase3.5/01_NGU_PHAP_N4.pdf) | VERIFIED |
 | [deliverables/phase3.5/02_MEO_NGHE.pdf](deliverables/phase3.5/02_MEO_NGHE.pdf) | VERIFIED |
@@ -135,7 +143,10 @@ Snapshot 2026-10-15. VERIFIED is scoped verification, not JLPT certification. Hi
 | [gemini-prompts/README.md](gemini-prompts/README.md) | VERIFIED |
 | [grammar-patterns/README.md](grammar-patterns/README.md) | VERIFIED |
 | [qa/PUBLICATION_QA.md](qa/PUBLICATION_QA.md) | VERIFIED |
+| [qa/QUESTION_BANK_QA.md](qa/QUESTION_BANK_QA.md) | VERIFIED |
+| [qa/QUESTION_REVIEW_LEDGER.csv](qa/QUESTION_REVIEW_LEDGER.csv) | VERIFIED |
 | [qa/README.md](qa/README.md) | VERIFIED |
+| [qa/REJECTED_ITEMS.json](qa/REJECTED_ITEMS.json) | VERIFIED |
 | [qa/current/browser_tests.json](qa/current/browser_tests.json) | VERIFIED |
 | [qa/current/edge_flow_tests.json](qa/current/edge_flow_tests.json) | VERIFIED |
 | [qa/current/engine_tests.json](qa/current/engine_tests.json) | VERIFIED |
@@ -186,6 +197,8 @@ Snapshot 2026-10-15. VERIFIED is scoped verification, not JLPT certification. Hi
 | [research/search_coverage.json](research/search_coverage.json) | VERIFIED |
 | [scripts/README.md](scripts/README.md) | VERIFIED |
 | [scripts/build_start_here.py](scripts/build_start_here.py) | VERIFIED |
+| [scripts/curriculum/build_expanded_bank.py](scripts/curriculum/build_expanded_bank.py) | VERIFIED |
+| [scripts/curriculum/build_practice_sets.py](scripts/curriculum/build_practice_sets.py) | VERIFIED |
 | [scripts/drive_first/build_bundle.py](scripts/drive_first/build_bundle.py) | VERIFIED |
 | [scripts/drive_first/build_dashboard.mjs](scripts/drive_first/build_dashboard.mjs) | VERIFIED |
 | [scripts/drive_first/build_pdfs.py](scripts/drive_first/build_pdfs.py) | VERIFIED |

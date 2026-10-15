@@ -1,0 +1,506 @@
+{
+  "version": "2026.10.15-v1",
+  "title": "Canonical JLPT Question-Type Blueprint (N4, N3, N2)",
+  "authority": "JEES / The Japan Foundation Official JLPT Specifications",
+  "types": [
+    {
+      "typeId": "N4-MO-READ",
+      "level": "N4",
+      "section": "Language_Knowledge_Vocab",
+      "mondai": 1,
+      "skill": "Vocabulary",
+      "subskill": "Kanji Reading (漢字読み)",
+      "learningObjective": "Đọc đúng âm On/Kun của chữ Hán N4 cơ bản xuất hiện trong câu văn đời sống.",
+      "prerequisites": ["Bảng chữ cái Hiragana", "300 chữ Hán N5-N4 căn bản"],
+      "difficultyEstimate": 2,
+      "typicalMistakes": ["Nhầm lẫn âm ngắt っ với âm thường", "Nhầm trường âm お/う", "Nhầm âm đục và âm bán đục"],
+      "practiceStrategy": "Luyện đọc to cả câu chứa từ vựng, nhận diện bộ thủ và quy tắc chuyển âm.",
+      "explanationTemplate": "{word} có cách đọc chuẩn là 「{reading}」. Các phương án sai do nhầm {distractorNotes}.",
+      "validationRules": {
+        "requiredChoices": 4,
+        "singleTargetInStem": true,
+        "kanaOnlyChoices": true
+      },
+      "sourceClassification": "OFFICIAL_JLPT_SPECIFICATION"
+    },
+    {
+      "typeId": "N4-MO-ORTH",
+      "level": "N4",
+      "section": "Language_Knowledge_Vocab",
+      "mondai": 2,
+      "skill": "Vocabulary",
+      "subskill": "Kanji Orthography (表記)",
+      "learningObjective": "Chọn chữ Hán chính xác tương ứng với từ Hiragana gạch chân trong câu.",
+      "prerequisites": ["Nhận diện mặt chữ Hán", "Hiểu nghĩa từ vựng trong văn cảnh"],
+      "difficultyEstimate": 2,
+      "typicalMistakes": ["Nhầm các chữ Hán có bộ thủ giống nhau", "Nhầm chữ Hán đồng âm khác nghĩa"],
+      "practiceStrategy": "Học chữ Hán theo bộ thủ và đối chiếu các cặp từ đồng âm dị nghĩa.",
+      "explanationTemplate": "Từ 「{hiragana}」 trong văn cảnh này mang nghĩa '{meaning}', viết bằng chữ Hán là 「{kanji}」.",
+      "validationRules": {
+        "requiredChoices": 4,
+        "singleTargetInStem": true,
+        "kanjiOnlyChoices": true
+      },
+      "sourceClassification": "OFFICIAL_JLPT_SPECIFICATION"
+    },
+    {
+      "typeId": "N4-MO-CONT",
+      "level": "N4",
+      "section": "Language_Knowledge_Vocab",
+      "mondai": 3,
+      "skill": "Vocabulary",
+      "subskill": "Contextual Definition (文脈規定)",
+      "learningObjective": "Chọn từ vựng hoặc phó từ phù hợp nhất với logic ngữ nghĩa của câu.",
+      "prerequisites": ["Vốn từ vựng 1500 từ cơ bản", "Cấu trúc ngữ nghĩa câu đơn"],
+      "difficultyEstimate": 2,
+      "typicalMistakes": ["Dịch thô từng từ sang tiếng Việt dẫn đến kết hợp từ phi tự nhiên"],
+      "practiceStrategy": "Ghi nhớ từ vựng theo cụm (Collocation) và tình huống đời sống cụ thể.",
+      "explanationTemplate": "Ngữ cảnh câu yêu cầu từ mang nghĩa '{contextMeaning}', do đó chọn 「{word}」.",
+      "validationRules": {
+        "requiredChoices": 4,
+        "singleBlankInStem": true
+      },
+      "sourceClassification": "OFFICIAL_JLPT_SPECIFICATION"
+    },
+    {
+      "typeId": "N4-MO-PARA",
+      "level": "N4",
+      "section": "Language_Knowledge_Vocab",
+      "mondai": 4,
+      "skill": "Vocabulary",
+      "subskill": "Paraphrases / Synonyms (言い換え類義)",
+      "learningObjective": "Tìm câu có cách diễn đạt đồng nghĩa hoặc tương đương với câu gốc.",
+      "prerequisites": ["Nhận diện từ đồng nghĩa", "Chuyển đổi thể khẳng định/phủ định tương đương"],
+      "difficultyEstimate": 3,
+      "typicalMistakes": ["Bỏ sót sắc thái phủ định ngầm", "Hiểu sai phạm vi ý nghĩa của từ tương đương"],
+      "practiceStrategy": "Tập diễn đạt lại một ý bằng nhiều cấu trúc câu khác nhau.",
+      "explanationTemplate": "Cụm 「{sourceExpr}」 có nghĩa tương đương với 「{targetExpr}」 trong câu {correctChoice}.",
+      "validationRules": {
+        "requiredChoices": 4,
+        "fullSentenceChoices": true
+      },
+      "sourceClassification": "OFFICIAL_JLPT_SPECIFICATION"
+    },
+    {
+      "typeId": "N4-MO-USAG",
+      "level": "N4",
+      "section": "Language_Knowledge_Vocab",
+      "mondai": 5,
+      "skill": "Vocabulary",
+      "subskill": "Usage (用法)",
+      "learningObjective": "Xác định câu văn duy nhất sử dụng từ vựng cho trước một cách tự nhiên và chính xác.",
+      "prerequisites": ["Từ loại (Danh từ, Động từ, Tính từ)", "Ngữ cảnh ứng dụng của từ"],
+      "difficultyEstimate": 3,
+      "typicalMistakes": ["Dùng từ chỉ cảm xúc cho chủ ngữ ngôi thứ 3 mà không có biểu hiện gián tiếp"],
+      "practiceStrategy": "Học từ đi kèm câu ví dụ mẫu chuẩn xác, phân tích các lỗi dùng sai điển hình.",
+      "explanationTemplate": "Từ 「{word}」 dùng đúng trong câu {correctChoice} với nghĩa '{meaning}'. Các câu còn lại sai vì: {wrongReason}.",
+      "validationRules": {
+        "requiredChoices": 4,
+        "keywordGiven": true,
+        "fullSentenceChoices": true
+      },
+      "sourceClassification": "OFFICIAL_JLPT_SPECIFICATION"
+    },
+    {
+      "typeId": "N4-GR-FORM",
+      "level": "N4",
+      "section": "Language_Knowledge_Grammar_Reading",
+      "mondai": 1,
+      "skill": "Grammar",
+      "subskill": "Sentential Grammar Form (文法形式の判断)",
+      "learningObjective": "Chọn trợ từ, dạng chia động từ hoặc mẫu câu liên kết phù hợp nhất vào chỗ trống.",
+      "prerequisites": ["Hệ thống trợ từ cơ bản (に, で, を, が, は, へ, と, から, まで)", "Các thể động từ (て, た, ない, khả năng, ý định)"],
+      "difficultyEstimate": 2,
+      "typicalMistakes": ["Nhầm lẫn nơi diễn ra hành động (で) với nơi tồn tại (に)", "Nhầm trợ từ chỉ đích đến (に/へ) với đối tượng chịu tác động (を)"],
+      "practiceStrategy": "Phân tích vị ngữ chính của câu để xác định trợ từ và thể liên kết tương ứng.",
+      "explanationTemplate": "Vị ngữ là 「{predicate}」 đòi hỏi trợ từ/mẫu câu 「{pattern}」 để biểu thị '{function}'.",
+      "validationRules": {
+        "requiredChoices": 4,
+        "singleBlankInStem": true
+      },
+      "sourceClassification": "OFFICIAL_JLPT_SPECIFICATION"
+    },
+    {
+      "typeId": "N4-GR-STAR",
+      "level": "N4",
+      "section": "Language_Knowledge_Grammar_Reading",
+      "mondai": 2,
+      "skill": "Grammar",
+      "subskill": "Sentence Composition (文の組み立て・★)",
+      "learningObjective": "Sắp xếp 4 cụm từ theo đúng trật tự ngữ pháp tiếng Nhật để tìm cụm từ ở vị trí dấu sao.",
+      "prerequisites": ["Cấu trúc mệnh đề bổ nghĩa cho danh từ", "Trật tự chủ - vị - trạng trong câu tiếng Nhật"],
+      "difficultyEstimate": 3,
+      "typicalMistakes": ["Sắp xếp theo trật tự cú pháp tiếng Việt", "Tách rời các cụm trợ từ cố định"],
+      "practiceStrategy": "Nhóm 4 phương án thành 2 cặp cố định trước, sau đó ghép nối với đầu và đuôi câu cho sẵn.",
+      "explanationTemplate": "Thứ tự sắp xếp đúng là: {orderSequence}. Vị trí dấu sao (★) rơi vào phương án {correctAnswer}.",
+      "validationRules": {
+        "requiredChoices": 4,
+        "starPositionSpecified": true
+      },
+      "sourceClassification": "OFFICIAL_JLPT_SPECIFICATION"
+    },
+    {
+      "typeId": "N4-GR-CLOZ",
+      "level": "N4",
+      "section": "Language_Knowledge_Grammar_Reading",
+      "mondai": 3,
+      "skill": "Grammar",
+      "subskill": "Text Grammar (文章の文法)",
+      "learningObjective": "Chọn liên từ, đại từ chỉ định hoặc biểu đạt đuôi câu phù hợp với mạch lạc của đoạn văn.",
+      "prerequisites": ["Kỹ năng đọc hiểu văn bản ngắn", "Các liên từ đối lập, nguyên nhân, chuyển tiếp"],
+      "difficultyEstimate": 3,
+      "typicalMistakes": ["Chỉ nhìn câu chứa chỗ trống mà không đọc câu trước và câu sau"],
+      "practiceStrategy": "Đọc lướt cả đoạn để nắm dòng chảy ý nghĩa, chú ý mối quan hệ nhân quả giữa các câu.",
+      "explanationTemplate": "Câu trước nêu '{premise}', câu sau nêu '{conclusion}', do đó cần liên từ 「{connector}」 để nối mạch logic.",
+      "validationRules": {
+        "passageRequired": true,
+        "numberedBlanks": true
+      },
+      "sourceClassification": "OFFICIAL_JLPT_SPECIFICATION"
+    },
+    {
+      "typeId": "N4-RD-SHOR",
+      "level": "N4",
+      "section": "Language_Knowledge_Grammar_Reading",
+      "mondai": 4,
+      "skill": "Reading",
+      "subskill": "Short Passage Reading (短文読解)",
+      "learningObjective": "Nắm bắt thông điệp chính hoặc câu trả lời cho câu hỏi cụ thể trong đoạn văn ngắn 150-200 chữ.",
+      "prerequisites": ["Đọc hiểu câu ghép N4", "Nhận diện từ khóa câu hỏi"],
+      "difficultyEstimate": 2,
+      "typicalMistakes": ["Bị phân tâm bởi các thông tin chi tiết không được hỏi trong đề"],
+      "practiceStrategy": "Đọc câu hỏi trước để xác định mục tiêu tìm kiếm, sau đó quét đoạn văn tìm từ khóa tương đương.",
+      "explanationTemplate": "Trong bài viết có câu 「{quote}」, chứng minh rằng {reasoning}. Do đó phương án đúng là {correctAnswer}.",
+      "validationRules": {
+        "passageLengthChars": [100, 250],
+        "singleQuestionPerPassage": true
+      },
+      "sourceClassification": "OFFICIAL_JLPT_SPECIFICATION"
+    },
+    {
+      "typeId": "N4-RD-INFO",
+      "level": "N4",
+      "section": "Language_Knowledge_Grammar_Reading",
+      "mondai": 6,
+      "skill": "Reading",
+      "subskill": "Information Retrieval (情報検索)",
+      "learningObjective": "Quét nhanh thông báo, bảng giá, giờ tàu hoặc áp phích để lọc thông tin đáp ứng đúng điều kiện đề bài.",
+      "prerequisites": ["Kỹ năng đọc quét (Scanning)", "Đọc hiểu bảng biểu và điều kiện ngày giờ/chi phí"],
+      "difficultyEstimate": 2,
+      "typicalMistakes": ["Đọc toàn bộ văn bản từ đầu đến cuối gây thiếu thời gian", "Bỏ qua dòng ghi chú điều kiện đặc biệt"],
+      "practiceStrategy": "Đọc kỹ yêu cầu và đối tượng của câu hỏi (ai, điều kiện gì, ngân sách bao nhiêu), đối chiếu thẳng vào bảng tra cứu.",
+      "explanationTemplate": "Theo bảng thông báo, điều kiện gồm: {conditions}. Đối chiếu vào bảng ta thấy chỉ có {targetInfo} thỏa mãn.",
+      "validationRules": {
+        "stimulusType": "notice_or_flyer",
+        "multipleConditions": true
+      },
+      "sourceClassification": "OFFICIAL_JLPT_SPECIFICATION"
+    },
+    {
+      "typeId": "N3-MO-READ",
+      "level": "N3",
+      "section": "Language_Knowledge_Vocab",
+      "mondai": 1,
+      "skill": "Vocabulary",
+      "subskill": "Kanji Reading (漢字読み)",
+      "learningObjective": "Đọc đúng âm On/Kun của chữ Hán N3 trung cấp trong các văn bản giao tiếp xã hội.",
+      "prerequisites": ["650 chữ Hán căn bản", "Quy tắc biến âm âm On"],
+      "difficultyEstimate": 3,
+      "typicalMistakes": ["Nhầm lẫn giữa các âm On gần giống nhau (như しょう vs じょう, こう vs ごう)"],
+      "practiceStrategy": "Học chữ Hán theo bộ thủ chung và quy tắc chuyển âm tương ứng trong tiếng Hán Việt.",
+      "explanationTemplate": "Chữ 「{kanji}」 trong từ 「{word}」 có cách đọc chuẩn là 「{reading}」.",
+      "validationRules": {
+        "requiredChoices": 4,
+        "singleTargetInStem": true,
+        "kanaOnlyChoices": true
+      },
+      "sourceClassification": "OFFICIAL_JLPT_SPECIFICATION"
+    },
+    {
+      "typeId": "N3-MO-AFFX",
+      "level": "N3",
+      "section": "Language_Knowledge_Vocab",
+      "mondai": 3,
+      "skill": "Vocabulary",
+      "subskill": "Word Formation (語形成)",
+      "learningObjective": "Ghép tiền tố, hậu tố hoặc tạo động từ ghép N3 phù hợp với cấu tạo từ ngữ pháp chuẩn.",
+      "prerequisites": ["Hệ thống tiền tố phủ định (不, 無, 非, 未)", "Hậu tố danh từ hóa (感, 性, 的, 費)"],
+      "difficultyEstimate": 3,
+      "typicalMistakes": ["Ghép tiền tố tùy tiện theo thói quen dịch nghĩa tiếng Việt"],
+      "practiceStrategy": "Học theo cụm từ mẫu chuẩn xuất hiện trong đời sống và văn bản báo chí.",
+      "explanationTemplate": "Từ gốc 「{baseWord}」 kết hợp với tiền/hậu tố 「{affix}」 tạo thành cụm từ mang ý nghĩa '{meaning}'.",
+      "validationRules": {
+        "requiredChoices": 4,
+        "affixBlank": true
+      },
+      "sourceClassification": "OFFICIAL_JLPT_SPECIFICATION"
+    },
+    {
+      "typeId": "N3-MO-CONT",
+      "level": "N3",
+      "section": "Language_Knowledge_Vocab",
+      "mondai": 4,
+      "skill": "Vocabulary",
+      "subskill": "Contextual Definition (文脈規定)",
+      "learningObjective": "Lựa chọn từ vựng trung cấp hoặc phó từ chỉ mức độ/thái độ phù hợp nhất với ngữ cảnh câu văn.",
+      "prerequisites": ["Vốn từ vựng 3500 từ trung cấp", "Phân biệt phó từ chỉ tần suất và mức độ"],
+      "difficultyEstimate": 3,
+      "typicalMistakes": ["Không phân biệt được mức độ trang trọng của các từ đồng nghĩa"],
+      "practiceStrategy": "Tra từ điển giải nghĩa Nhật-Nhật đơn giản để nắm trọn sắc thái biểu cảm của từ.",
+      "explanationTemplate": "Ngữ cảnh miêu tả '{context}', từ phù hợp nhất là 「{word}」 mang nghĩa '{definition}'.",
+      "validationRules": {
+        "requiredChoices": 4,
+        "singleBlankInStem": true
+      },
+      "sourceClassification": "OFFICIAL_JLPT_SPECIFICATION"
+    },
+    {
+      "typeId": "N3-MO-USAG",
+      "level": "N3",
+      "section": "Language_Knowledge_Vocab",
+      "mondai": 6,
+      "skill": "Vocabulary",
+      "subskill": "Usage (用法)",
+      "learningObjective": "Chọn câu văn sử dụng từ vựng N3 đúng ngữ cảnh, đúng kết hợp từ và chuẩn văn phong.",
+      "prerequisites": ["Hiểu sâu phạm vi sử dụng của từ vựng N3", "Khả năng phân tích 4 câu văn độc lập"],
+      "difficultyEstimate": 4,
+      "typicalMistakes": ["Dùng từ mang sắc thái khen ngợi vào tình huống than phiền/tiêu cực"],
+      "practiceStrategy": "Ghi chú sắc thái ngữ cảnh (tích cực/tiêu cực, người hay vật, văn viết hay văn nói) cho từng từ vựng.",
+      "explanationTemplate": "Từ 「{word}」 dùng đúng trong câu {correctChoice}. Ở các câu khác sai do: {reasons}.",
+      "validationRules": {
+        "requiredChoices": 4,
+        "fullSentenceChoices": true
+      },
+      "sourceClassification": "OFFICIAL_JLPT_SPECIFICATION"
+    },
+    {
+      "typeId": "N3-GR-FORM",
+      "level": "N3",
+      "section": "Language_Knowledge_Grammar_Reading",
+      "mondai": 1,
+      "skill": "Grammar",
+      "subskill": "Sentential Grammar Form (文法形式の判断)",
+      "learningObjective": "Lựa chọn cấu trúc ngữ pháp N3 biểu thị điều kiện, nhượng bộ, lý do hoặc cảm xúc phù hợp với câu.",
+      "prerequisites": ["100 mẫu ngữ pháp N3 căn bản", "Quy tắc kết nối của các thể động từ/danh từ"],
+      "difficultyEstimate": 3,
+      "typicalMistakes": ["Nhầm lẫn điều kiện đi kèm (như thể từ điển vs thể quá khứ vs thể て)"],
+      "practiceStrategy": "Học mẫu câu luôn gắn liền với công thức kết nối đứng trước và sắc thái ý nghĩa ở vế sau.",
+      "explanationTemplate": "Mẫu câu 「{pattern}」 diễn tả '{meaning}', đi kèm với thể {connectionType} ở vế trước.",
+      "validationRules": {
+        "requiredChoices": 4,
+        "singleBlankInStem": true
+      },
+      "sourceClassification": "OFFICIAL_JLPT_SPECIFICATION"
+    },
+    {
+      "typeId": "N3-GR-STAR",
+      "level": "N3",
+      "section": "Language_Knowledge_Grammar_Reading",
+      "mondai": 2,
+      "skill": "Grammar",
+      "subskill": "Sentence Composition (文の組み立て・★)",
+      "learningObjective": "Xác định vị trí dấu sao trong câu ghép phức tạp chứa nhiều mệnh đề quan hệ và ngữ pháp N3.",
+      "prerequisites": ["Cấu trúc ngữ pháp N3", "Khả năng xác định khung xương ngữ pháp chính của câu"],
+      "difficultyEstimate": 4,
+      "typicalMistakes": ["Ghép nối rời rạc từng từ dẫn đến câu phi logic"],
+      "practiceStrategy": "Xác định vị ngữ chốt ở cuối câu, tìm điểm tựa ngữ pháp bắt buộc đi kèm để khóa 2 cụm liền kề.",
+      "explanationTemplate": "Chuỗi trật tự hoàn chỉnh: {fullOrder}. Vị trí dấu sao tương ứng với phương án {correctAnswer}.",
+      "validationRules": {
+        "requiredChoices": 4,
+        "starPositionSpecified": true
+      },
+      "sourceClassification": "OFFICIAL_JLPT_SPECIFICATION"
+    },
+    {
+      "typeId": "N3-RD-SHOR",
+      "level": "N3",
+      "section": "Language_Knowledge_Grammar_Reading",
+      "mondai": 4,
+      "skill": "Reading",
+      "subskill": "Short Passage Reading (短文読解)",
+      "learningObjective": "Hiểu nội dung cốt lõi và ý đồ của người viết trong văn bản ngắn ~350 chữ (chỉ thị công việc, email, thư từ).",
+      "prerequisites": ["Đọc hiểu câu văn phức N3", "Nhận diện đại từ xưng hô và quan hệ người gửi - người nhận"],
+      "difficultyEstimate": 3,
+      "typicalMistakes": ["Bỏ sót phần ngoại lệ hoặc chú thích bổ sung ở cuối email"],
+      "practiceStrategy": "Xác định ngay ai viết cho ai và mục đích viết email/chỉ thị là gì trong 30 giây đầu.",
+      "explanationTemplate": "Người viết nhấn mạnh quan điểm tại đoạn: 「{quote}」. Vì vậy phương án đúng là {correctAnswer}.",
+      "validationRules": {
+        "passageLengthChars": [250, 450],
+        "singleQuestionPerPassage": true
+      },
+      "sourceClassification": "OFFICIAL_JLPT_SPECIFICATION"
+    },
+    {
+      "typeId": "N3-RD-MEDI",
+      "level": "N3",
+      "section": "Language_Knowledge_Grammar_Reading",
+      "mondai": 5,
+      "skill": "Reading",
+      "subskill": "Medium Passage Reading (中文読解)",
+      "learningObjective": "Phân tích mối quan hệ nhân quả, diễn biến tâm lý hoặc lập luận trong bài văn ~600 chữ.",
+      "prerequisites": ["Khả năng đọc đoạn văn dài vừa", "Nhận diện từ nối chuyển ý (しかし, つまり, なぜなら)"],
+      "difficultyEstimate": 4,
+      "typicalMistakes": ["Suy diễn theo ý kiến chủ quan của bản thân thay vì bám vào câu chữ của tác giả"],
+      "practiceStrategy": "Gạch chân câu chốt đoạn và các từ nối quan trọng, đối chiếu sát với từng phương án trả lời.",
+      "explanationTemplate": "Tác giả giải thích lý do tại phần: 「{evidence}」. Đối chiếu 4 phương án, chỉ có {correctAnswer} nêu đúng nội dung này.",
+      "validationRules": {
+        "passageLengthChars": [500, 750],
+        "questionsPerPassage": [2, 3]
+      },
+      "sourceClassification": "OFFICIAL_JLPT_SPECIFICATION"
+    },
+    {
+      "typeId": "N2-MO-READ",
+      "level": "N2",
+      "section": "Language_Knowledge_Reading",
+      "mondai": 1,
+      "skill": "Vocabulary",
+      "subskill": "Kanji Reading (漢字読み)",
+      "learningObjective": "Đọc chính xác chữ Hán cao cấp và từ ghép 2-3 chữ Hán dùng trong đời sống xã hội và công việc.",
+      "prerequisites": ["1000 chữ Hán thường dụng", "Quy tắc âm On âm Kun nâng cao"],
+      "difficultyEstimate": 4,
+      "typicalMistakes": ["Nhầm lẫn giữa các âm On có phụ âm đầu tương tự trong từ ghép chuyên ngành"],
+      "practiceStrategy": "Luyện đọc theo nhóm từ đồng nghĩa hoặc các từ xuất hiện trong bài đọc hiểu N2.",
+      "explanationTemplate": "Từ 「{kanji}」 đọc là 「{reading}」. Nghĩa là '{meaning}'.",
+      "validationRules": {
+        "requiredChoices": 4,
+        "singleTargetInStem": true,
+        "kanaOnlyChoices": true
+      },
+      "sourceClassification": "OFFICIAL_JLPT_SPECIFICATION"
+    },
+    {
+      "typeId": "N2-MO-AFFX",
+      "level": "N2",
+      "section": "Language_Knowledge_Reading",
+      "mondai": 3,
+      "skill": "Vocabulary",
+      "subskill": "Word Formation (語形成)",
+      "learningObjective": "Chọn tiền tố hoặc hậu tố hành chính, học thuật kết hợp chính xác với từ gốc N2.",
+      "prerequisites": ["Tiền tố chính luận (総, 諸, 再, 未, 現)", "Hậu tố thể chế (界, 権, 視, 状, 費)"],
+      "difficultyEstimate": 4,
+      "typicalMistakes": ["Áp đặt thói quen dùng chữ Hán trong tiếng Việt vào tiếng Nhật"],
+      "practiceStrategy": "Ghi nhớ các cụm từ cố định trên văn bản báo chí và tài liệu công vụ Nhật Bản.",
+      "explanationTemplate": "Đi với 「{baseWord}」 để biểu đạt ý '{meaning}' chỉ có tiền/hậu tố 「{affix}」.",
+      "validationRules": {
+        "requiredChoices": 4,
+        "affixBlank": true
+      },
+      "sourceClassification": "OFFICIAL_JLPT_SPECIFICATION"
+    },
+    {
+      "typeId": "N2-MO-CONT",
+      "level": "N2",
+      "section": "Language_Knowledge_Reading",
+      "mondai": 4,
+      "skill": "Vocabulary",
+      "subskill": "Contextual Definition (文脈規定)",
+      "learningObjective": "Chọn từ vựng trừu tượng, phó từ nâng cao hoặc thành ngữ tượng hình phù hợp nhất với mạch văn N2.",
+      "prerequisites": ["Vốn từ vựng 6000 từ N2", "Khả năng phân biệt sắc thái trừu tượng"],
+      "difficultyEstimate": 4,
+      "typicalMistakes": ["Bị đánh lừa bởi từ có nét nghĩa chung chung nhưng không đi kèm kết hợp từ này"],
+      "practiceStrategy": "Học từ vựng trong văn cảnh cụ thể và luôn kiểm tra động từ/danh từ đi kèm.",
+      "explanationTemplate": "Văn cảnh câu: '{context}'. Cụm từ chuẩn xác là 「{collocation}」, do đó chọn 「{word}」.",
+      "validationRules": {
+        "requiredChoices": 4,
+        "singleBlankInStem": true
+      },
+      "sourceClassification": "OFFICIAL_JLPT_SPECIFICATION"
+    },
+    {
+      "typeId": "N2-MO-USAG",
+      "level": "N2",
+      "section": "Language_Knowledge_Reading",
+      "mondai": 6,
+      "skill": "Vocabulary",
+      "subskill": "Usage (用法)",
+      "learningObjective": "Chọn câu văn duy nhất sử dụng từ vựng N2 đúng ngữ cảnh trang trọng, tự nhiên và chuẩn văn phong.",
+      "prerequisites": ["Phân biệt rạch ròi văn nói (Khẩu ngữ) và văn viết (Trang trọng)", "Sắc thái ứng dụng N2"],
+      "difficultyEstimate": 5,
+      "typicalMistakes": ["Dùng từ văn phong trang trọng cho tình huống thường nhật xuề xòa hoặc ngược lại"],
+      "practiceStrategy": "Phân tích kỹ 3 câu sai để chỉ ra chính xác từ nào nên được thay thế cho phù hợp hơn.",
+      "explanationTemplate": "「{word}」 chỉ dùng cho ngữ cảnh '{appropriateContext}', xuất hiện đúng trong câu {correctChoice}.",
+      "validationRules": {
+        "requiredChoices": 4,
+        "fullSentenceChoices": true
+      },
+      "sourceClassification": "OFFICIAL_JLPT_SPECIFICATION"
+    },
+    {
+      "typeId": "N2-GR-FORM",
+      "level": "N2",
+      "section": "Language_Knowledge_Reading",
+      "mondai": 7,
+      "skill": "Grammar",
+      "subskill": "Sentential Grammar Form (文法形式の判断)",
+      "learningObjective": "Lựa chọn mẫu ngữ pháp N2 phức hợp biểu thị thái độ khách quan, phán đoán hoặc lập luận của người viết.",
+      "prerequisites": ["120 mẫu ngữ pháp N2 cốt lõi", "Quy tắc biến đổi thể tiếp diễn, bị động và khả năng"],
+      "difficultyEstimate": 4,
+      "typicalMistakes": ["Nhầm lẫn giữa các mẫu có cùng từ khóa (ví dụ: 〜にほかならない vs 〜にすぎない)"],
+      "practiceStrategy": "Học theo cặp ngữ pháp tương phản và công thức kết nối bắt buộc ở vế trước.",
+      "explanationTemplate": "Mẫu câu 「{pattern}」 mang ý nghĩa '{meaning}', hoàn toàn phù hợp với lập luận ở vế sau.",
+      "validationRules": {
+        "requiredChoices": 4,
+        "singleBlankInStem": true
+      },
+      "sourceClassification": "OFFICIAL_JLPT_SPECIFICATION"
+    },
+    {
+      "typeId": "N2-GR-STAR",
+      "level": "N2",
+      "section": "Language_Knowledge_Reading",
+      "mondai": 8,
+      "skill": "Grammar",
+      "subskill": "Sentence Composition (文の組み立て・★)",
+      "learningObjective": "Sắp xếp 4 thành phần trong câu văn nghị luận dài nhiều tầng bậc để xác định vị trí dấu sao.",
+      "prerequisites": ["Cú pháp câu đa mệnh đề", "Ngữ pháp đảo ngữ và phó từ đi kèm cấu trúc ngữ pháp tương ứng"],
+      "difficultyEstimate": 5,
+      "typicalMistakes": ["Mất bình tĩnh trước độ dài của câu văn nghị luận N2"],
+      "practiceStrategy": "Tìm cặp hô ứng (như 決して...ない, たとえ...ても) để khóa vị trí đầu và cuối trước.",
+      "explanationTemplate": "Trật tự hoàn chỉnh của câu: {fullSentence}. Dấu sao (★) nằm ở vị trí của cụm từ {correctAnswer}.",
+      "validationRules": {
+        "requiredChoices": 4,
+        "starPositionSpecified": true
+      },
+      "sourceClassification": "OFFICIAL_JLPT_SPECIFICATION"
+    },
+    {
+      "typeId": "N2-RD-SHOR",
+      "level": "N2",
+      "section": "Language_Knowledge_Reading",
+      "mondai": 10,
+      "skill": "Reading",
+      "subskill": "Short Passage Reading (短文読解)",
+      "learningObjective": "Nắm bắt nhanh lập trường hoặc thông điệp cốt lõi của bài văn ngắn ~350 chữ trong thời gian áp lực (1.5 phút).",
+      "prerequisites": ["Kỹ năng đọc quét nhanh (Skimming)", "Từ vựng và ngữ pháp N2"],
+      "difficultyEstimate": 4,
+      "typicalMistakes": ["Đọc chậm từng chữ dẫn đến thiếu thời gian cho phần trung văn và trường văn"],
+      "practiceStrategy": "Chú ý câu cuối cùng của bài đọc nơi tác giả thường chốt quan điểm cá nhân.",
+      "explanationTemplate": "Tác giả thể hiện quan điểm cốt lõi tại câu: 「{quote}」, tương đương với phương án {correctAnswer}.",
+      "validationRules": {
+        "passageLengthChars": [300, 450],
+        "singleQuestionPerPassage": true
+      },
+      "sourceClassification": "OFFICIAL_JLPT_SPECIFICATION"
+    },
+    {
+      "typeId": "N2-RD-INFO",
+      "level": "N2",
+      "section": "Language_Knowledge_Reading",
+      "mondai": 14,
+      "skill": "Reading",
+      "subskill": "Information Retrieval (情報検索)",
+      "learningObjective": "Xử lý văn bản quy định tuyển dụng, hợp đồng hoặc thông cáo chính thức ~700 chữ với nhiều điều khoản loại trừ.",
+      "prerequisites": ["Đọc hiểu bảng biểu phức tạp", "Xử lý đồng thời 2-3 điều kiện ràng buộc"],
+      "difficultyEstimate": 4,
+      "typicalMistakes": ["Bị đánh lừa bởi điều kiện loại trừ in chữ nhỏ ở phần ghi chú chân trang"],
+      "practiceStrategy": "Đọc câu hỏi trước, lập danh sách điều kiện cần lọc (ngày, tuổi, kinh nghiệm, lệ phí), quét thẳng vào cột tương ứng.",
+      "explanationTemplate": "Theo mục '{sectionName}', đối tượng cần thỏa mãn đồng thời: {rules}. Chỉ có phương án {correctAnswer} đáp ứng đủ.",
+      "validationRules": {
+        "stimulusType": "official_notice_or_rules",
+        "multipleConditions": true
+      },
+      "sourceClassification": "OFFICIAL_JLPT_SPECIFICATION"
+    }
+  ]
+}

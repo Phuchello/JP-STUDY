@@ -1,0 +1,118 @@
+{
+  "version": "phase-3.7-2026.10.15",
+  "policy": {
+    "authenticityPrinciple": "Listening must require genuine audio processing. Written transcripts must not be shown prior to the first attempt. Generic browser TTS must never be labeled as authentic JLPT exam audio.",
+    "copyrightPrinciple": "No redistribution of copyrighted commercial JLPT prep CDs or proprietary test audio without explicit publisher licensing. Use only Creative Commons, public broadcaster educational programming, and Japan Foundation open resources."
+  },
+  "audioProvenanceClassifications": [
+    {
+      "code": "OFFICIAL_EXTERNAL",
+      "definition": "Official public educational broadcast or open foundation materials with clear licensing (e.g., NHK World, Japan Foundation Irodori)."
+    },
+    {
+      "code": "ORIGINAL_RECORDED",
+      "definition": "Locally recorded audio with native Japanese speakers under explicit project release consent."
+    },
+    {
+      "code": "SYNTHETIC_PEDAGOGICAL_TTS",
+      "definition": "High-fidelity neural text-to-speech used solely for micro-pronunciation drills and clearly labeled as synthetic; NEVER presented as authentic JLPT audio."
+    },
+    {
+      "code": "EXAM_SIMULATION_AUDIO",
+      "definition": "Multi-speaker dialogue following exact JLPT timing, chime cues, and acoustic environment standards."
+    }
+  ],
+  "resources": [
+    {
+      "id": "LIS-EXT-IRODORI-A2",
+      "title": "Irodori: Tiếng Nhật trong đời sống - Sơ cấp A2 (Tương đương N4)",
+      "publisher": "The Japan Foundation (Trung tâm Giao lưu Văn hóa Nhật Bản)",
+      "license": "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)",
+      "provenanceCode": "OFFICIAL_EXTERNAL",
+      "level": "N4",
+      "focus": "Hội thoại thực tế tại nơi làm việc, siêu thị, nhà ga, bệnh viện Nhật Bản",
+      "audioFormat": "MP3 (Native Japanese Voice Actors)",
+      "transcriptPolicy": "Giấu kịch bản khi làm bài lần đầu; chỉ xem sau khi chọn đáp án và nộp bài",
+      "accessUrl": "https://www.irodori.jpf.go.jp/",
+      "status": "APPROVED_FOR_CURRICULUM"
+    },
+    {
+      "id": "LIS-EXT-IRODORI-B1",
+      "title": "Irodori: Tiếng Nhật trong đời sống - Trung cấp B1 (Tương đương N3)",
+      "publisher": "The Japan Foundation (Trung tâm Giao lưu Văn hóa Nhật Bản)",
+      "license": "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)",
+      "provenanceCode": "OFFICIAL_EXTERNAL",
+      "level": "N3",
+      "focus": "Giao tiếp công sở, trao đổi công việc phức tạp, phản xạ xã hội",
+      "audioFormat": "MP3 (Native Japanese Voice Actors)",
+      "transcriptPolicy": "Giấu kịch bản khi làm bài lần đầu; chỉ xem sau khi chọn đáp án và nộp bài",
+      "accessUrl": "https://www.irodori.jpf.go.jp/",
+      "status": "APPROVED_FOR_CURRICULUM"
+    },
+    {
+      "id": "LIS-EXT-NHK-EASY",
+      "title": "NHK World-Japan: Easy Japanese (Cùng nói tiếng Nhật & Tin tức dễ hiểu)",
+      "publisher": "NHK (Tập đoàn Truyền thông Công cộng Nhật Bản)",
+      "license": "Public Educational Access / Fair Educational Use (Không tái phân phối tệp gốc thương mại)",
+      "provenanceCode": "OFFICIAL_EXTERNAL",
+      "level": "N4-N3",
+      "focus": "Nghe tin tức thời sự hàng ngày, từ vựng đời sống, ngữ điệu chuẩn Tokyo",
+      "audioFormat": "Streaming Audio / Podcast",
+      "transcriptPolicy": "Luyện nghe bắt từ khóa (shadowing); kiểm tra script sau bài nghe",
+      "accessUrl": "https://www3.nhk.or.jp/nhkworld/en/learnjapanese/",
+      "status": "APPROVED_FOR_CURRICULUM"
+    },
+    {
+      "id": "LIS-EXT-JLPT-OFFICIAL-SAMPLE",
+      "title": "Official JLPT Sample Test Audio (N4, N3, N2)",
+      "publisher": "Japan Educational Exchanges and Services (JEES) & The Japan Foundation",
+      "license": "Official Public Sample (Dành cho thí sinh làm quen định dạng đề thi; không khai thác thương mại)",
+      "provenanceCode": "OFFICIAL_EXTERNAL",
+      "level": "N4, N3, N2",
+      "focus": "Cấu trúc Mondai nghe chính thức: Mondai 1 (Task), Mondai 2 (Point), Mondai 3 (Summary/Utterance), Mondai 4 (Quick Response)",
+      "audioFormat": "Official Web Audio Stream",
+      "transcriptPolicy": "Làm bài theo thời gian thực (real-time test mode); không tua lại trước khi hoàn thành",
+      "accessUrl": "https://www.jlpt.jp/e/samples/sampleindex.html",
+      "status": "APPROVED_FOR_CURRICULUM"
+    },
+    {
+      "id": "LIS-SIM-N4-EXAM-SET1",
+      "title": "N4 Đề nghe mô phỏng độc lập Set 1",
+      "publisher": "JP-STUDY In-House Assessment",
+      "license": "Proprietary JP-STUDY Curated",
+      "provenanceCode": "EXAM_SIMULATION_AUDIO",
+      "level": "N4",
+      "focus": "Mô phỏng kỳ thi đầy đủ",
+      "audioFormat": "TBD",
+      "transcriptPolicy": "Khóa kịch bản tuyệt đối đến khi nộp bài",
+      "status": "UNRELEASED_PENDING_AUDIO_CLEARANCE",
+      "unreleasedNotice": "Chưa phát hành do đang trong quá trình ghi âm chuẩn với diễn viên bản xứ; không sử dụng TTS thay thế đề thi thật."
+    },
+    {
+      "id": "LIS-SIM-N3-EXAM-SET1",
+      "title": "N3 Đề nghe mô phỏng độc lập Set 1",
+      "publisher": "JP-STUDY In-House Assessment",
+      "license": "Proprietary JP-STUDY Curated",
+      "provenanceCode": "EXAM_SIMULATION_AUDIO",
+      "level": "N3",
+      "focus": "Mô phỏng kỳ thi đầy đủ",
+      "audioFormat": "TBD",
+      "transcriptPolicy": "Khóa kịch bản tuyệt đối đến khi nộp bài",
+      "status": "UNRELEASED_PENDING_AUDIO_CLEARANCE",
+      "unreleasedNotice": "Chưa phát hành; tuân thủ nguyên tắc không đưa văn bản giả lập làm đề nghe."
+    },
+    {
+      "id": "LIS-SIM-N2-EXAM-SET1",
+      "title": "N2 Đề nghe mô phỏng độc lập Set 1",
+      "publisher": "JP-STUDY In-House Assessment",
+      "license": "Proprietary JP-STUDY Curated",
+      "provenanceCode": "EXAM_SIMULATION_AUDIO",
+      "level": "N2",
+      "focus": "Mô phỏng kỳ thi đầy đủ",
+      "audioFormat": "TBD",
+      "transcriptPolicy": "Khóa kịch bản tuyệt đối đến khi nộp bài",
+      "status": "UNRELEASED_PENDING_AUDIO_CLEARANCE",
+      "unreleasedNotice": "Chưa phát hành; chỉ công bố khi hệ thống audio đạt chuẩn chất lượng phòng thi."
+    }
+  ]
+}

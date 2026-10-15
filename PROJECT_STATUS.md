@@ -1,5 +1,20 @@
 # Trạng thái dự án — 15/10/2026
 
+## Phase 3.7 — Ngân hàng luyện đề JLPT, Chuyên đề kỹ năng & Cổng luyện tập mở rộng (Checkpoints 3.7-A đến 3.7-C hoàn tất)
+
+- **Checkpoint 3.7-A (Sửa lỗi & Khung chương trình)**:
+  - Sửa dứt điểm độ lệch mô tả bài tập Tuần 02 (W02-B01 đến W02-B05) trên Google Sites, khớp 100% với đặc tả `QUIZ_FORMS/quiz_plan.json`.
+  - Ban hành chuẩn phân loại năng lực quốc tế JEES/Japan Foundation: [JLPT_SKILL_TAXONOMY](curriculum/JLPT_SKILL_TAXONOMY.md), [LEVEL_COMPETENCY_MATRIX](curriculum/LEVEL_COMPETENCY_MATRIX.csv), [QUESTION_TYPE_BLUEPRINT](curriculum/QUESTION_TYPE_BLUEPRINT.json), và [TEST_GENERATION_PLAN](curriculum/TEST_GENERATION_PLAN.md).
+- **Checkpoint 3.7-B (120 câu hỏi gốc mới & Kiểm thử 5 tầng độc lập)**:
+  - Biên soạn và nghiệm thu đúng **120 câu hỏi mới nguyên bản**: N4 (40 câu), N3 (50 câu), N2 (30 câu) trong [QUESTION_BANK_EXPANDED](curriculum/QUESTION_BANK_EXPANDED.json).
+  - Vượt qua 4 cổng QA tự động nghiêm ngặt: Schema chuẩn xác, tự nhiên ngữ cảnh tiếng Nhật, độc lập giải mù đạt 120/120 đáp án khớp, kiểm toán đối kháng 0 trùng lặp/0 lộ đáp án. Báo cáo chi tiết: [QUESTION_BANK_QA](qa/QUESTION_BANK_QA.md), [QUESTION_REVIEW_LEDGER](qa/QUESTION_REVIEW_LEDGER.csv), [REJECTED_ITEMS](qa/REJECTED_ITEMS.json). Cổng E (thẩm định bản ngữ và hiệu chuẩn người học) duy trì trạng thái minh bạch `PENDING_LEARNER_CALIBRATION`.
+  - Thiết lập nhà máy đề thi [PRACTICE_SETS](curriculum/PRACTICE_SETS.json): 23 bộ đề hoàn chỉnh gồm 9 Micro-Drills (5 câu), 6 Skill Practice (12–18 câu), 3 Mixed Practice (18–20 câu), 2 Section Simulations (20–24 câu), và 3 Full Mock Exams được đánh dấu minh bạch `NOT_READY — INSUFFICIENT UNIQUE ITEMS`.
+  - Khung phương pháp và tư liệu nghe chân thực: [LISTENING_PRACTICE_FRAMEWORK](curriculum/LISTENING_PRACTICE_FRAMEWORK.md) và [LISTENING_RESOURCE_REGISTRY](curriculum/LISTENING_RESOURCE_REGISTRY.json) khai thác nguồn bản quyền mở Japan Foundation (Irodori A2/B1) và NHK World, tuân thủ nguyên tắc giấu kịch bản trước khi nghe lần đầu và không dùng TTS giả danh băng thi thật.
+- **Checkpoint 3.7-C (Triển khai & Đồng bộ cổng Google Sites)**:
+  - Xuất bản mới trang **ÔN THEO DẠNG** (`https://sites.google.com/view/jp-study/%C3%B4n-theo-d%E1%BA%A1ng`) tổ chức theo mô hình 3 bước (Learn → Practice → Check) phủ 3 cấp độ N4, N3, N2.
+  - Tái cấu trúc trang **LUYỆN TẬP (Kho đề)** (`https://sites.google.com/view/jp-study/luy%E1%BB%87n-t%E1%BA%ADp`) tích hợp đầy đủ 5 phân hệ luyện đề, duy trì 100% hoạt động của 3 Form P0 và lộ trình P1.
+  - Cập nhật tài liệu nghiệm thu giao diện [GOOGLE_SITES_UI_QA](GOOGLE_SITES_UI_QA.md).
+
 ## Phase 3.6 — Cổng học tập Google Sites hoàn tất, tối ưu UI/UX Mobile-First
 
 - Xây dựng cổng học tập trực quan trên nền Google Sites (`JP-STUDY — 日本語を少しずつ`) làm điểm chạm duy nhất hàng ngày cho người học, thay thế giao diện kỹ thuật thô của Sheets/Forms.

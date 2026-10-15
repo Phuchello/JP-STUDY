@@ -106,8 +106,49 @@ All viewports were tested using Chrome DevTools device metrics emulation with to
 
 ---
 
-## 7. QA Verdict
+---
+
+## 7. QA Verdict (Phase 3.6 Baseline)
 
 **DECISION: PASS — READY FOR LEARNER HANDOFF**
 
 The Google Sites portal provides an inviting, low-stress, mobile-optimized experience that solves the visual and usability challenges of bare Google Sheets/Forms, while keeping 100% of the underlying P0 technical architecture intact.
+
+---
+
+## 8. Phase 3.7 Overhaul & Expansion Audit (Checkpoints 3.7-A to 3.7-C)
+
+### 8.1 Discrepancy Repairs (Checkpoint 3.7-A)
+- **Problem Fixed**: Google Sites practice page previously listed mismatched quiz descriptions compared to `QUIZ_FORMS/quiz_plan.json` (e.g., W02-B01 to W02-B05).
+- **Remediation**: Re-aligned 100% of quiz titles, item counts, estimated times, and objectives to match canonical project specifications.
+
+### 8.2 New Information Architecture (Checkpoint 3.7-C)
+The navigation tree was cleanly expanded from 5 to 6 dedicated, mobile-friendly pages:
+```
+JP-STUDY (Portal Root)
+├── 1. TRANG CHỦ (Home — Daily recommended entry point)
+├── 2. LUYỆN TẬP (Practice Library / Kho đề luyện tập)
+│   ├── P0 Active Forms (W01-B01, W01-B02, W01-B03)
+│   ├── Phân hệ A: Micro-Drills (9 bài ngắn 5 câu cho ngày mệt mỏi: N4/N3/N2)
+│   ├── Phân hệ B: Skill Practice (6 chuyên đề sâu 12–18 câu: N4/N3/N2)
+│   ├── Phân hệ C: Mixed Practice (3 đề tổng hợp 18–20 câu: N4/N3/N2)
+│   ├── Phân hệ D: Section Simulations (2 bài mô phỏng áp lực thời gian: N4/N3)
+│   ├── Phân hệ E: Full Mock Exams (Đánh dấu trung thực: NOT_READY — INSUFFICIENT UNIQUE ITEMS)
+│   └── Kế hoạch Tuần 02 (P1: W02-B01 đến W02-B05)
+├── 3. ÔN THEO DẠNG (Skill-Based Taxonomy & Learning System — Newly Published)
+│   ├── Chu trình 3 bước: HỌC (Learn) ➔ LUYỆN (Practice) ➔ KIỂM TRA (Check)
+│   ├── N4 — Khôi phục nền tảng (Từ vựng, Trợ từ, Chia thể, Câu dấu sao ★, Đọc ngắn, Nghe)
+│   ├── N3 — Bước đệm trung cấp (Từ vựng ngữ cảnh, Tiếp đầu/vĩ ngữ, Mẫu dễ nhầm, Sắp xếp câu, Đọc trung văn)
+│   ├── N2 — Luyện tập thực chiến (Từ vựng học thuật, Cấu tạo từ phức, Ngữ pháp nâng cao, Đọc giới hạn thời gian)
+│   └── Lời khuyên học tập thực tế cho người đi làm ca tại Nhật
+├── 4. MẸO HỌC (Study Tips & Curated PDF References)
+├── 5. NGHE & NÓI (Authentic Listening Provenance: Irodori A2/B1, NHK World, Gemini Speaking Tutor)
+└── 6. TIẾN BỘ (Central Tracker & Mistake Review Workflow)
+```
+
+### 8.3 Live Verification Results
+- **Page `ÔN THEO DẠNG`**: Live at `https://sites.google.com/view/jp-study/%C3%B4n-theo-d%E1%BA%A1ng` (5,716 characters rendered, 0 horizontal scroll).
+- **Page `LUYỆN TẬP` (Kho đề)**: Live at `https://sites.google.com/view/jp-study/luy%E1%BB%87n-t%E1%BA%ADp` (4,739 characters rendered, active P0 links preserved).
+- **Publish Status**: 100% synchronized, zero private identifier leaks, search indexing blocked.
+- **Phase 3.7-C Verdict**: **PASS — FULLY DEPLOYED & VERIFIED LIVE**.
+

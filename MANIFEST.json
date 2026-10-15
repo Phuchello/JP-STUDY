@@ -1,8 +1,8 @@
 {
   "snapshotDate": "2026-10-15",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
-  "fileCountExcludingManifest": 197,
-  "totalBytesExcludingManifest": 4468210,
+  "fileCountExcludingManifest": 210,
+  "totalBytesExcludingManifest": 4904603,
   "files": [
     {
       "path": ".gitattributes",
@@ -450,8 +450,56 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 5484,
-      "sha256": "835d39820892a01b6f50c000a8f2be2ffc658cd5beec25cef50c28fff6fb1987",
+      "bytes": 7986,
+      "sha256": "1b4a2649fc6a46e49fd9b544ba3271a9e62146f64675cd1c12b0ec4f30caf4ea",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "curriculum/JLPT_SKILL_TAXONOMY.md",
+      "bytes": 20057,
+      "sha256": "39a330fabf623d8b34110b5923546f38ab15546de43c7f764a900ccb541497a7",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "curriculum/LEVEL_COMPETENCY_MATRIX.csv",
+      "bytes": 18783,
+      "sha256": "f9c306b515e92344ca0622909e264fb78ffad8c9f38d9a2d98f8ec7d6ebf45af",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "curriculum/LISTENING_PRACTICE_FRAMEWORK.md",
+      "bytes": 3838,
+      "sha256": "6a412607034440f73c27509b24d440885b200c10784d88392e530455f6f49d25",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "curriculum/LISTENING_RESOURCE_REGISTRY.json",
+      "bytes": 6575,
+      "sha256": "959d1f9ea393d9c130fb8235b4c27295b297b88ab5e57ecd5c0ca82983b5ecb0",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "curriculum/PRACTICE_SETS.json",
+      "bytes": 19931,
+      "sha256": "e4df5fec936297f667ca653ad47612c3ee080ec1ed5d55ece04cad195a64758d",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "curriculum/QUESTION_BANK_EXPANDED.json",
+      "bytes": 182259,
+      "sha256": "a01f82a59a08a3874bcee433a22f173efc625b38064458da088932480d5da511",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "curriculum/QUESTION_TYPE_BLUEPRINT.json",
+      "bytes": 29108,
+      "sha256": "61556a5754f510e5f9f4151d969f9f89c474ecff04e973aa2bf8c992c829ad3b",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "curriculum/TEST_GENERATION_PLAN.md",
+      "bytes": 5986,
+      "sha256": "b8927925bd5cd852b073e8183e8837ec25eae4cbd6735a823d60fe05ad825e2c",
       "status": "VERIFIED"
     },
     {
@@ -714,8 +762,8 @@
     },
     {
       "path": "FILE_INDEX.md",
-      "bytes": 19733,
-      "sha256": "7ede4ec4b3b7e393be3a48a9ee0497a424cf76fa3a8966e472c13695315c9578",
+      "bytes": 20895,
+      "sha256": "6ec32a902e91a1a08539a2509786052ce88b62a570b04d6befe18e5353e0518d",
       "status": "VERIFIED"
     },
     {
@@ -732,8 +780,8 @@
     },
     {
       "path": "GOOGLE_SITES_UI_QA.md",
-      "bytes": 7966,
-      "sha256": "4677dfa2ee6ca61777e5f3e214138f3a7675baa152f609656af45081359b35ef",
+      "bytes": 10853,
+      "sha256": "899e9f4db5ab8309d5b633206a53df105908e16382af35914be6192de6605896",
       "status": "VERIFIED"
     },
     {
@@ -744,8 +792,8 @@
     },
     {
       "path": "PROJECT_STATUS.md",
-      "bytes": 8659,
-      "sha256": "a655da045a5bd53b717dbf40a5d8b03299294e43475b09bbf161de8b1c2e1d09",
+      "bytes": 11619,
+      "sha256": "50c3246764e0b3667340a401dcf95cf757156288ad42c7f7366a9feb52bb521b",
       "status": "VERIFIED"
     },
     {
@@ -804,8 +852,8 @@
     },
     {
       "path": "qa/file_status.json",
-      "bytes": 11216,
-      "sha256": "57b23cfa3d83e10a2d1054d11b6555b3ec9fb94a22e71a66eac0a2ccac07fe73",
+      "bytes": 11901,
+      "sha256": "1ec2d6c1c9e5dde7e90396476803abd88b734ca01607dd35681d09c73ea03f4c",
       "status": "VERIFIED"
     },
     {
@@ -1001,9 +1049,27 @@
       "status": "VERIFIED"
     },
     {
+      "path": "qa/QUESTION_BANK_QA.md",
+      "bytes": 2422,
+      "sha256": "67272abab3d37222aefae4464cb55fa4961a09f09fe8a8f26eb8628eb5411e84",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/QUESTION_REVIEW_LEDGER.csv",
+      "bytes": 13663,
+      "sha256": "db102a7bc173c8f488fceaa69861881aefdbf3274cc4df80de889b4e126b0f0b",
+      "status": "VERIFIED"
+    },
+    {
       "path": "qa/README.md",
       "bytes": 1401,
       "sha256": "df738aa4aac0be63b7c06609f63cdbe5f5d25eaf3f4a57cf100385acdf156e44",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/REJECTED_ITEMS.json",
+      "bytes": 226,
+      "sha256": "135d703c19574976270e5f69d1225003c2549d66e64664d327c1a6e6e684e005",
       "status": "VERIFIED"
     },
     {
@@ -1082,6 +1148,18 @@
       "path": "scripts/build_start_here.py",
       "bytes": 8480,
       "sha256": "7307680c60be6cd233c5b098ed315588b3c19bcc297c93e99a965b93f3ee970a",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "scripts/curriculum/build_expanded_bank.py",
+      "bytes": 100384,
+      "sha256": "c464f7101e37f6d1cc62254045cfa7bb44ee91d732d2f6ca4a220ab31dfdcd2c",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "scripts/curriculum/build_practice_sets.py",
+      "bytes": 22965,
+      "sha256": "35ee90aa7e59faed7d0832acaae2fe5eda3e9692a3e093cae8a02ac502699e45",
       "status": "VERIFIED"
     },
     {

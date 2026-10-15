@@ -1,0 +1,436 @@
+"""
+Practice Test & Drill Factory for JP-STUDY Phase 3.7
+Generates curriculum/PRACTICE_SETS.json from validated question bank.
+Adheres strictly to Section 6 of Phase 3.7:
+- Micro Drills (5-10 items, 1 objective, for tired days)
+- Skill Practice (10-20 items, 1 JLPT skill)
+- Mixed Practice (15-30 items, multiple skills within 1 level)
+- Section Simulations (realistic test sections)
+- Full Mock Exams (explicitly marked NOT_READY — INSUFFICIENT UNIQUE ITEMS until bank & authentic audio are ready)
+"""
+from pathlib import Path
+import json
+
+ROOT = Path(__file__).resolve().parents[2]
+
+def build_sets():
+    bank_path = ROOT / 'curriculum/QUESTION_BANK_EXPANDED.json'
+    with open(bank_path, 'r', encoding='utf-8') as f:
+        bank = json.load(f)
+    
+    questions = bank['questions']
+    q_by_id = {q['id']: q for q in questions}
+
+    sets = [
+        # ----------------------------------------------------
+        # CATEGORY A: MICRO DRILLS (5 items, 1 objective, tired days)
+        # ----------------------------------------------------
+        {
+            "id": "MD-N4-VOC-01",
+            "category": "MICRO_DRILL",
+            "level": "N4",
+            "skill": "KNOWLEDGE_VOCABULARY",
+            "title": "N4 Micro-Drill | Từ vựng & Kanji cơ bản (5 câu)",
+            "objective": "Luyện nhanh 5 câu cách đọc Kanji đời sống (ca làm mệt / 5 phút)",
+            "timeMinutes": 5,
+            "targetAudience": "Người đi làm ca bận rộn, chỉ có 5 phút giải lao",
+            "questionIds": ["N4-MO-READ-001", "N4-MO-READ-002", "N4-MO-READ-003", "N4-MO-READ-004", "N4-MO-READ-005"],
+            "isDiagnostic": False,
+            "readinessStatus": "READY"
+        },
+        {
+            "id": "MD-N4-GRA-01",
+            "category": "MICRO_DRILL",
+            "level": "N4",
+            "skill": "KNOWLEDGE_GRAMMAR",
+            "title": "N4 Micro-Drill | Ngữ pháp mẫu câu cốt lõi (5 câu)",
+            "objective": "Ôn tập chia thể và phán đoán dạng mẫu câu N4",
+            "timeMinutes": 6,
+            "targetAudience": "Ôn nhanh trước khi ngủ hoặc trên tàu",
+            "questionIds": ["N4-GR-FORM-001", "N4-GR-FORM-002", "N4-GR-FORM-003", "N4-GR-FORM-004", "N4-GR-FORM-005"],
+            "isDiagnostic": False,
+            "readinessStatus": "READY"
+        },
+        {
+            "id": "MD-N4-ORD-01",
+            "category": "MICRO_DRILL",
+            "level": "N4",
+            "skill": "KNOWLEDGE_GRAMMAR",
+            "title": "N4 Micro-Drill | Sắp xếp trật tự từ có dấu sao ★ (5 câu)",
+            "objective": "Rèn tư duy ghép cặp từ bổ nghĩa và vị ngữ",
+            "timeMinutes": 7,
+            "targetAudience": "Học viên hay bối rối trước câu dấu sao",
+            "questionIds": ["N4-GR-STAR-001", "N4-GR-STAR-002", "N4-GR-STAR-003", "N4-GR-STAR-004", "N4-GR-STAR-005"],
+            "isDiagnostic": False,
+            "readinessStatus": "READY"
+        },
+        {
+            "id": "MD-N3-VOC-01",
+            "category": "MICRO_DRILL",
+            "level": "N3",
+            "skill": "KNOWLEDGE_VOCABULARY",
+            "title": "N3 Micro-Drill | Đọc Kanji trung cấp (5 câu)",
+            "objective": "Thử thách nhận biết Kanji N3 thường gặp trong văn phòng / đời sống",
+            "timeMinutes": 5,
+            "targetAudience": "Bước chuyển tiếp từ N4 lên N3",
+            "questionIds": ["N3-MO-READ-001", "N3-MO-READ-002", "N3-MO-READ-003", "N3-MO-READ-004", "N3-MO-READ-005"],
+            "isDiagnostic": False,
+            "readinessStatus": "READY"
+        },
+        {
+            "id": "MD-N3-AFF-01",
+            "category": "MICRO_DRILL",
+            "level": "N3",
+            "skill": "KNOWLEDGE_VOCABULARY",
+            "title": "N3 Micro-Drill | Tiền tố & Hậu tố ghép từ (5 câu)",
+            "objective": "Luyện nhận diện tiếp đầu ngữ (最, 全, 未...) và tiếp vĩ ngữ (的, 料, 費...)",
+            "timeMinutes": 5,
+            "targetAudience": "Khắc phục điểm yếu hay nhầm lẫn ghép từ N3",
+            "questionIds": ["N3-MO-AFFX-001", "N3-MO-AFFX-002", "N3-MO-AFFX-003", "N3-MO-AFFX-004", "N3-MO-AFFX-005"],
+            "isDiagnostic": False,
+            "readinessStatus": "READY"
+        },
+        {
+            "id": "MD-N3-GRA-01",
+            "category": "MICRO_DRILL",
+            "level": "N3",
+            "skill": "KNOWLEDGE_GRAMMAR",
+            "title": "N3 Micro-Drill | Mẫu ngữ pháp trung cấp N3 (5 câu)",
+            "objective": "Nắm vững các mẫu chỉ nguyên nhân, so sánh, đối chiếu (〜わりに, 〜に基づいて...)",
+            "timeMinutes": 6,
+            "targetAudience": "Củng cố ngữ pháp trung cấp chuẩn xác",
+            "questionIds": ["N3-GR-FORM-001", "N3-GR-FORM-002", "N3-GR-FORM-003", "N3-GR-FORM-004", "N3-GR-FORM-005"],
+            "isDiagnostic": False,
+            "readinessStatus": "READY"
+        },
+        {
+            "id": "MD-N2-VOC-01",
+            "category": "MICRO_DRILL",
+            "level": "N2",
+            "skill": "KNOWLEDGE_VOCABULARY",
+            "title": "N2 Micro-Drill | Kanji & Từ vựng nâng cao (5 câu)",
+            "objective": "Làm quen với Kanji N2 trừu tượng và văn phong trang trọng",
+            "timeMinutes": 5,
+            "targetAudience": "Người chuẩn bị thi N2 muốn kiểm tra vốn từ học thuật",
+            "questionIds": ["N2-MO-READ-001", "N2-MO-READ-002", "N2-MO-READ-003", "N2-MO-READ-004", "N2-MO-READ-005"],
+            "isDiagnostic": False,
+            "readinessStatus": "READY"
+        },
+        {
+            "id": "MD-N2-AFF-01",
+            "category": "MICRO_DRILL",
+            "level": "N2",
+            "skill": "KNOWLEDGE_VOCABULARY",
+            "title": "N2 Micro-Drill | Cấu tạo từ phức N2 (5 câu)",
+            "objective": "Nắm vững tiếp đầu ngữ, tiếp vĩ ngữ trang trọng (諸〜, 再〜, 〜感, 〜視)",
+            "timeMinutes": 5,
+            "targetAudience": "Chinh phục dạng bài tạo từ điểm cao N2",
+            "questionIds": ["N2-MO-AFFX-001", "N2-MO-AFFX-002", "N2-MO-AFFX-003", "N2-MO-AFFX-004", "N2-MO-AFFX-005"],
+            "isDiagnostic": False,
+            "readinessStatus": "READY"
+        },
+        {
+            "id": "MD-N2-GRA-01",
+            "category": "MICRO_DRILL",
+            "level": "N2",
+            "skill": "KNOWLEDGE_GRAMMAR",
+            "title": "N2 Micro-Drill | Mẫu câu văn viết & công sở N2 (5 câu)",
+            "objective": "Phân biệt sắc thái biểu đạt nâng cao (〜を契機に, 〜ざるを得ない...)",
+            "timeMinutes": 6,
+            "targetAudience": "Người làm việc tại công ty Nhật muốn trau dồi ngữ pháp",
+            "questionIds": ["N2-GR-FORM-001", "N2-GR-FORM-002", "N2-GR-FORM-003", "N2-GR-FORM-004", "N2-GR-FORM-005"],
+            "isDiagnostic": False,
+            "readinessStatus": "READY"
+        },
+
+        # ----------------------------------------------------
+        # CATEGORY B: SKILL PRACTICE (10-18 items, 1 skill)
+        # ----------------------------------------------------
+        {
+            "id": "SK-N4-MO-01",
+            "category": "SKILL_PRACTICE",
+            "level": "N4",
+            "skill": "KNOWLEDGE_VOCABULARY",
+            "title": "N4 Skill Practice | Chuyên đề Chữ Hán & Từ vựng (16 câu)",
+            "objective": "Luyện toàn diện Mondai 1 (Đọc Kanji) & Mondai 2 (Từ ngữ trong ngữ cảnh)",
+            "timeMinutes": 15,
+            "targetAudience": "Học viên cần xây dựng lại gốc từ vựng N4",
+            "questionIds": [
+                "N4-MO-READ-001", "N4-MO-READ-002", "N4-MO-READ-003", "N4-MO-READ-004",
+                "N4-MO-READ-005", "N4-MO-READ-006", "N4-MO-READ-007", "N4-MO-READ-008",
+                "N4-MO-CONT-001", "N4-MO-CONT-002", "N4-MO-CONT-003", "N4-MO-CONT-004",
+                "N4-MO-CONT-005", "N4-MO-CONT-006", "N4-MO-CONT-007", "N4-MO-CONT-008"
+            ],
+            "isDiagnostic": False,
+            "readinessStatus": "READY"
+        },
+        {
+            "id": "SK-N4-GR-01",
+            "category": "SKILL_PRACTICE",
+            "level": "N4",
+            "skill": "KNOWLEDGE_GRAMMAR",
+            "title": "N4 Skill Practice | Chuyên đề Ngữ pháp & Dấu sao (18 câu)",
+            "objective": "Luyện ngữ pháp chia thể, trợ từ, liên kết câu và cấu trúc sao ★",
+            "timeMinutes": 20,
+            "targetAudience": "Khắc phục triệt để lỗi trợ từ và trật tự câu",
+            "questionIds": [
+                "N4-GR-FORM-001", "N4-GR-FORM-002", "N4-GR-FORM-003", "N4-GR-FORM-004",
+                "N4-GR-FORM-005", "N4-GR-FORM-006", "N4-GR-FORM-007", "N4-GR-FORM-008",
+                "N4-GR-FORM-009", "N4-GR-FORM-010", "N4-GR-FORM-011", "N4-GR-FORM-012",
+                "N4-GR-STAR-001", "N4-GR-STAR-002", "N4-GR-STAR-003", "N4-GR-STAR-004",
+                "N4-GR-STAR-005", "N4-GR-STAR-006"
+            ],
+            "isDiagnostic": False,
+            "readinessStatus": "READY"
+        },
+        {
+            "id": "SK-N3-MO-01",
+            "category": "SKILL_PRACTICE",
+            "level": "N3",
+            "skill": "KNOWLEDGE_VOCABULARY",
+            "title": "N3 Skill Practice | Chuyên sâu Từ vựng & Cấu tạo từ (16 câu)",
+            "objective": "Luyện tập phối hợp Kanji đọc âm, phỏng đoán tiếp đầu ngữ và từ ngữ cảnh",
+            "timeMinutes": 15,
+            "targetAudience": "Nâng cấp vốn từ chuyển tiếp lên trung cấp",
+            "questionIds": [
+                "N3-MO-READ-001", "N3-MO-READ-002", "N3-MO-READ-003", "N3-MO-READ-004",
+                "N3-MO-READ-005", "N3-MO-READ-006", "N3-MO-READ-007", "N3-MO-READ-008",
+                "N3-MO-AFFX-001", "N3-MO-AFFX-002", "N3-MO-AFFX-003", "N3-MO-AFFX-004",
+                "N3-MO-AFFX-005", "N3-MO-AFFX-006", "N3-MO-AFFX-007", "N3-MO-AFFX-008"
+            ],
+            "isDiagnostic": False,
+            "readinessStatus": "READY"
+        },
+        {
+            "id": "SK-N3-GR-01",
+            "category": "SKILL_PRACTICE",
+            "level": "N3",
+            "skill": "KNOWLEDGE_GRAMMAR",
+            "title": "N3 Skill Practice | Ngữ pháp trung cấp & Sắp xếp câu (18 câu)",
+            "objective": "Làm chủ 12 mẫu ngữ pháp N3 trọng điểm và 6 câu dấu sao",
+            "timeMinutes": 22,
+            "targetAudience": "Ôn luyện chuyên sâu phần ngữ pháp điểm cao N3",
+            "questionIds": [
+                "N3-GR-FORM-001", "N3-GR-FORM-002", "N3-GR-FORM-003", "N3-GR-FORM-004",
+                "N3-GR-FORM-005", "N3-GR-FORM-006", "N3-GR-FORM-007", "N3-GR-FORM-008",
+                "N3-GR-FORM-009", "N3-GR-FORM-010", "N3-GR-FORM-011", "N3-GR-FORM-012",
+                "N3-GR-STAR-001", "N3-GR-STAR-002", "N3-GR-STAR-003", "N3-GR-STAR-004",
+                "N3-GR-STAR-005", "N3-GR-STAR-006"
+            ],
+            "isDiagnostic": False,
+            "readinessStatus": "READY"
+        },
+        {
+            "id": "SK-N2-MO-01",
+            "category": "SKILL_PRACTICE",
+            "level": "N2",
+            "skill": "KNOWLEDGE_VOCABULARY",
+            "title": "N2 Skill Practice | Từ vựng học thuật & Đời sống (15 câu)",
+            "objective": "Luyện 3 dạng cốt lõi: Đọc Kanji, Cấu tạo từ ghép và Mạch ngữ cảnh N2",
+            "timeMinutes": 15,
+            "targetAudience": "Thí sinh mục tiêu N2 cần tăng tốc vốn từ",
+            "questionIds": [
+                "N2-MO-READ-001", "N2-MO-READ-002", "N2-MO-READ-003", "N2-MO-READ-004", "N2-MO-READ-005",
+                "N2-MO-AFFX-001", "N2-MO-AFFX-002", "N2-MO-AFFX-003", "N2-MO-AFFX-004", "N2-MO-AFFX-005",
+                "N2-MO-CONT-001", "N2-MO-CONT-002", "N2-MO-CONT-003", "N2-MO-CONT-004", "N2-MO-CONT-005"
+            ],
+            "isDiagnostic": False,
+            "readinessStatus": "READY"
+        },
+        {
+            "id": "SK-N2-GR-01",
+            "category": "SKILL_PRACTICE",
+            "level": "N2",
+            "skill": "KNOWLEDGE_GRAMMAR",
+            "title": "N2 Skill Practice | Ngữ pháp nâng cao & Liên kết câu (12 câu)",
+            "objective": "Phân biệt các mẫu ngữ pháp N2 hay bẫy và sắp xếp sao",
+            "timeMinutes": 18,
+            "targetAudience": "Chuyên đề ngữ pháp bứt phá điểm số N2",
+            "questionIds": [
+                "N2-GR-FORM-001", "N2-GR-FORM-002", "N2-GR-FORM-003", "N2-GR-FORM-004",
+                "N2-GR-FORM-005", "N2-GR-FORM-006", "N2-GR-FORM-007", "N2-GR-FORM-008",
+                "N2-GR-STAR-001", "N2-GR-STAR-002", "N2-GR-STAR-003", "N2-GR-STAR-004"
+            ],
+            "isDiagnostic": False,
+            "readinessStatus": "READY"
+        },
+
+        # ----------------------------------------------------
+        # CATEGORY C: MIXED PRACTICE (18-20 items, multi-skills)
+        # ----------------------------------------------------
+        {
+            "id": "MX-N4-FOU-01",
+            "category": "MIXED_PRACTICE",
+            "level": "N4",
+            "skill": "MIXED_LANGUAGE_KNOWLEDGE",
+            "title": "N4 Đề tổng hợp | Khôi phục nền tảng (20 câu)",
+            "objective": "Kiểm tra phối hợp: 6 Từ vựng, 8 Ngữ pháp, 3 Dấu sao, 3 Đọc hiểu",
+            "timeMinutes": 25,
+            "targetAudience": "Đánh giá mức độ vững vàng kiến thức nền N4",
+            "questionIds": [
+                "N4-MO-READ-001", "N4-MO-READ-003", "N4-MO-READ-005", "N4-MO-CONT-001", "N4-MO-CONT-003", "N4-MO-CONT-005",
+                "N4-GR-FORM-001", "N4-GR-FORM-003", "N4-GR-FORM-005", "N4-GR-FORM-007", "N4-GR-FORM-009", "N4-GR-FORM-010", "N4-GR-FORM-011", "N4-GR-FORM-012",
+                "N4-GR-STAR-001", "N4-GR-STAR-003", "N4-GR-STAR-005",
+                "N4-RD-SHOR-001", "N4-RD-SHOR-002", "N4-RD-INFO-001"
+            ],
+            "isDiagnostic": False,
+            "readinessStatus": "READY"
+        },
+        {
+            "id": "MX-N3-INT-01",
+            "category": "MIXED_PRACTICE",
+            "level": "N3",
+            "skill": "MIXED_LANGUAGE_KNOWLEDGE",
+            "title": "N3 Đề tổng hợp | Bước đệm trung cấp (20 câu)",
+            "objective": "Kiểm tra tổng hợp: 6 Từ vựng/Ghép từ, 8 Ngữ pháp, 3 Dấu sao, 3 Đọc hiểu",
+            "timeMinutes": 30,
+            "targetAudience": "Đo lường năng lực chuyển giao giữa sơ cấp và trung cấp",
+            "questionIds": [
+                "N3-MO-READ-001", "N3-MO-READ-003", "N3-MO-AFFX-001", "N3-MO-AFFX-003", "N3-MO-CONT-001", "N3-MO-CONT-003",
+                "N3-GR-FORM-001", "N3-GR-FORM-003", "N3-GR-FORM-005", "N3-GR-FORM-007", "N3-GR-FORM-009", "N3-GR-FORM-010", "N3-GR-FORM-011", "N3-GR-FORM-012",
+                "N3-GR-STAR-001", "N3-GR-STAR-003", "N3-GR-STAR-005",
+                "N3-RD-SHOR-001", "N3-RD-SHOR-002", "N3-RD-MEDI-001"
+            ],
+            "isDiagnostic": False,
+            "readinessStatus": "READY"
+        },
+        {
+            "id": "MX-N2-ADV-01",
+            "category": "MIXED_PRACTICE",
+            "level": "N2",
+            "skill": "MIXED_LANGUAGE_KNOWLEDGE",
+            "title": "N2 Đề tổng hợp | Thử sức đề thi thật (18 câu)",
+            "objective": "Kiểm tra phối hợp: 6 Từ vựng/Tiếp vĩ ngữ, 6 Ngữ pháp, 3 Dấu sao, 3 Đọc hiểu ngắn",
+            "timeMinutes": 30,
+            "targetAudience": "Làm quen với nhịp độ và độ sâu câu hỏi N2",
+            "questionIds": [
+                "N2-MO-READ-001", "N2-MO-READ-003", "N2-MO-AFFX-001", "N2-MO-AFFX-003", "N2-MO-CONT-001", "N2-MO-CONT-003",
+                "N2-GR-FORM-001", "N2-GR-FORM-003", "N2-GR-FORM-005", "N2-GR-FORM-006", "N2-GR-FORM-007", "N2-GR-FORM-008",
+                "N2-GR-STAR-001", "N2-GR-STAR-002", "N2-GR-STAR-003",
+                "N2-RD-SHOR-001", "N2-RD-SHOR-002", "N2-RD-SHOR-003"
+            ],
+            "isDiagnostic": False,
+            "readinessStatus": "READY"
+        },
+
+        # ----------------------------------------------------
+        # CATEGORY D: SECTION SIMULATIONS (Exam sections)
+        # ----------------------------------------------------
+        {
+            "id": "SIM-N4-GENGO",
+            "category": "SECTION_SIMULATION",
+            "level": "N4",
+            "skill": "GENGO_CHISHIKI_MOJI_GOI",
+            "title": "N4 Section Simulation | Mô phỏng Phần 1: Kiến thức ngôn ngữ (20 câu)",
+            "objective": "Mô phỏng áp lực thời gian của phần Từ vựng - Chữ Hán - Ngữ pháp theo cấu trúc chính thức",
+            "timeMinutes": 25,
+            "targetAudience": "Thí sinh luyện thi thực chiến",
+            "questionIds": [
+                "N4-MO-READ-001", "N4-MO-READ-002", "N4-MO-READ-003", "N4-MO-READ-004", "N4-MO-READ-005", "N4-MO-READ-006", "N4-MO-READ-007", "N4-MO-READ-008",
+                "N4-MO-CONT-001", "N4-MO-CONT-002", "N4-MO-CONT-003", "N4-MO-CONT-004",
+                "N4-GR-FORM-001", "N4-GR-FORM-002", "N4-GR-FORM-003", "N4-GR-FORM-004", "N4-GR-FORM-005", "N4-GR-FORM-006",
+                "N4-GR-STAR-001", "N4-GR-STAR-002"
+            ],
+            "isDiagnostic": False,
+            "readinessStatus": "READY"
+        },
+        {
+            "id": "SIM-N3-GENGO",
+            "category": "SECTION_SIMULATION",
+            "level": "N3",
+            "skill": "GENGO_CHISHIKI_MOJI_GOI",
+            "title": "N3 Section Simulation | Mô phỏng Phần 1: Kiến thức ngôn ngữ (24 câu)",
+            "objective": "Mô phỏng áp lực thời gian phần Kiến thức ngôn ngữ (Từ vựng, Cấu tạo từ, Ngữ cảnh, Ngữ pháp)",
+            "timeMinutes": 30,
+            "targetAudience": "Thí sinh tập dượt phân bổ thời gian trước ngày thi",
+            "questionIds": [
+                "N3-MO-READ-001", "N3-MO-READ-002", "N3-MO-READ-003", "N3-MO-READ-004", "N3-MO-READ-005", "N3-MO-READ-006",
+                "N3-MO-AFFX-001", "N3-MO-AFFX-002", "N3-MO-AFFX-003", "N3-MO-AFFX-004",
+                "N3-MO-CONT-001", "N3-MO-CONT-002", "N3-MO-CONT-003", "N3-MO-CONT-004",
+                "N3-GR-FORM-001", "N3-GR-FORM-002", "N3-GR-FORM-003", "N3-GR-FORM-004", "N3-GR-FORM-005", "N3-GR-FORM-006",
+                "N3-GR-STAR-001", "N3-GR-STAR-002", "N3-GR-STAR-003", "N3-GR-STAR-004"
+            ],
+            "isDiagnostic": False,
+            "readinessStatus": "READY"
+        },
+
+        # ----------------------------------------------------
+        # CATEGORY E: FULL MOCK EXAMS (Strict readiness rules)
+        # ----------------------------------------------------
+        {
+            "id": "MOCK-N4-FULL",
+            "category": "FULL_MOCK_EXAM",
+            "level": "N4",
+            "title": "N4 Thi thử đầy đủ (Full Mock Exam)",
+            "objective": "Thi thử toàn diện cả 3 phần: Kiến thức ngôn ngữ, Đọc hiểu, Nghe hiểu",
+            "timeMinutes": 115,
+            "questionIds": [],
+            "isDiagnostic": True,
+            "readinessStatus": "NOT_READY — INSUFFICIENT UNIQUE ITEMS",
+            "unavailabilityReason": "Yêu cầu tối thiểu 85 câu hỏi độc lập chưa từng gặp (unseen) và file âm thanh nghe hiểu bản quyền/chuẩn studio. Hiện tại ngân hàng N4 có 40 câu mở rộng + 80 câu gốc và đang hoàn thiện tư liệu nghe thực tế."
+        },
+        {
+            "id": "MOCK-N3-FULL",
+            "category": "FULL_MOCK_EXAM",
+            "level": "N3",
+            "title": "N3 Thi thử đầy đủ (Full Mock Exam)",
+            "objective": "Thi thử toàn diện cả 3 phần: Kiến thức ngôn ngữ, Đọc hiểu, Nghe hiểu",
+            "timeMinutes": 140,
+            "questionIds": [],
+            "isDiagnostic": True,
+            "readinessStatus": "NOT_READY — INSUFFICIENT UNIQUE ITEMS",
+            "unavailabilityReason": "Yêu cầu tối thiểu 95 câu hỏi độc lập và file âm thanh chuẩn kỳ thi. Hiện ngân hàng có 50 câu N3 độc lập và đang tiếp tục mở rộng theo lộ trình Checkpoint 3.7-D."
+        },
+        {
+            "id": "MOCK-N2-FULL",
+            "category": "FULL_MOCK_EXAM",
+            "level": "N2",
+            "title": "N2 Thi thử đầy đủ (Full Mock Exam)",
+            "objective": "Thi thử toàn diện cả 2 khối: Ngôn ngữ + Đọc hiểu (105 phút) và Nghe hiểu (50 phút)",
+            "timeMinutes": 155,
+            "questionIds": [],
+            "isDiagnostic": True,
+            "readinessStatus": "NOT_READY — INSUFFICIENT UNIQUE ITEMS",
+            "unavailabilityReason": "Yêu cầu tối thiểu 105 câu hỏi độc lập chất lượng cao cùng hệ thống file audio đề nghe. Hiện có 30 câu N2 được thẩm định và đang mở rộng từng đợt có kiểm soát."
+        }
+    ]
+
+    # Verify all referenced questions exist in bank
+    missing = []
+    referenced_ids = set()
+    for s in sets:
+        for qid in s.get('questionIds', []):
+            referenced_ids.add(qid)
+            if qid not in q_by_id:
+                missing.append((s['id'], qid))
+    
+    if missing:
+        raise ValueError(f"Missing referenced questions: {missing}")
+
+    summary = {
+        "version": "phase-3.7-batch-1",
+        "totalPracticeSets": len(sets),
+        "countsByCategory": {
+            "MICRO_DRILL": sum(1 for s in sets if s['category'] == 'MICRO_DRILL'),
+            "SKILL_PRACTICE": sum(1 for s in sets if s['category'] == 'SKILL_PRACTICE'),
+            "MIXED_PRACTICE": sum(1 for s in sets if s['category'] == 'MIXED_PRACTICE'),
+            "SECTION_SIMULATION": sum(1 for s in sets if s['category'] == 'SECTION_SIMULATION'),
+            "FULL_MOCK_EXAM": sum(1 for s in sets if s['category'] == 'FULL_MOCK_EXAM')
+        },
+        "countsByStatus": {
+            "READY": sum(1 for s in sets if s['readinessStatus'] == 'READY'),
+            "NOT_READY": sum(1 for s in sets if s['readinessStatus'].startswith('NOT_READY'))
+        },
+        "uniqueQuestionsReferenced": len(referenced_ids),
+        "totalQuestionsInBank": len(questions),
+        "sets": sets
+    }
+
+    out_file = ROOT / 'curriculum/PRACTICE_SETS.json'
+    with open(out_file, 'w', encoding='utf-8') as f:
+        json.dump(summary, f, ensure_ascii=False, indent=2)
+    print(f"Practice sets built successfully: {out_file}")
+    print(f"Total sets: {len(sets)} | Ready: {summary['countsByStatus']['READY']} | Unique questions referenced: {len(referenced_ids)}")
+
+if __name__ == '__main__':
+    build_sets()

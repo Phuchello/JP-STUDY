@@ -1,5 +1,21 @@
 # Changelog
 
+## 2026-10-15 — Phase 3.7 JLPT practice bank expansion, skill-based drills & mock exam infrastructure
+
+- **Checkpoint 3.7-A (Curriculum Architecture & Blueprint)**:
+  - Establish canonical JLPT taxonomy aligned with Japan Foundation & JEES specifications across N4, N3, and N2: `curriculum/JLPT_SKILL_TAXONOMY.md`, `curriculum/LEVEL_COMPETENCY_MATRIX.csv`, `curriculum/QUESTION_TYPE_BLUEPRINT.json`, and `curriculum/TEST_GENERATION_PLAN.md`.
+  - Distinguish tested examination sections from pedagogical communication modules (speaking and writing explicitly classified as supplementary).
+  - Repair live Google Sites practice page descriptions to achieve 100% concordance with canonical `QUIZ_FORMS/quiz_plan.json`.
+- **Checkpoint 3.7-B (120 Original Questions & 5-Stage Independent QA Gate)**:
+  - Generate and validate 120 unique original questions: N4 (40), N3 (50), N2 (30) in `curriculum/QUESTION_BANK_EXPANDED.json`.
+  - Pass 4 automated quality gates: schema validation, Japanese linguistic/collocation review, independent blind solving (120/120 key agreement), and adversarial duplicate/leak auditing (`qa/QUESTION_BANK_QA.md`, `qa/QUESTION_REVIEW_LEDGER.csv`, `qa/REJECTED_ITEMS.json`). Native-speaker and learner calibration marked `PENDING_LEARNER_CALIBRATION`.
+  - Assemble 23 curated practice sets (`curriculum/PRACTICE_SETS.json`): 9 Micro-Drills (5 items, 1 objective, for tired days), 6 Skill Practice (12–18 items), 3 Mixed Practice (18–20 items), 2 Section Simulations (20–24 items), and 3 Full Mock Exams strictly quarantined as `NOT_READY — INSUFFICIENT UNIQUE ITEMS`.
+  - Establish authentic listening framework and registry (`curriculum/LISTENING_PRACTICE_FRAMEWORK.md`, `curriculum/LISTENING_RESOURCE_REGISTRY.json`) sourcing legally cleared educational audio from Japan Foundation Irodori (A2/B1) and NHK World with blind-first attempt enforcement.
+- **Checkpoint 3.7-C (Portal Information Architecture Overhaul & Live Deployment)**:
+  - Add and publish dedicated `ÔN THEO DẠNG` page on Google Sites (`https://sites.google.com/view/jp-study/%C3%B4n-theo-d%E1%BA%A1ng`) implementing the Learn → Practice → Check methodology across N4, N3, and N2.
+  - Overhaul `LUYỆN TẬP` (Kho đề) page on Google Sites (`https://sites.google.com/view/jp-study/luy%E1%BB%87n-t%E1%BA%ADp`) organizing 5 practice tiers while preserving 100% of live P0 Forms (W01-B01, W01-B02, W01-B03).
+  - Verify mobile responsiveness (360px to 1440px) and update `GOOGLE_SITES_UI_QA.md`.
+
 ## 2026-10-15 — Phase 3.6 Google Sites learner portal UI/UX overhaul and responsive verification
 
 - Design and deploy polished, Japanese-inspired learner portal on Google Sites (`https://sites.google.com/view/jp-study`) using Aristotle theme with soft lavender/indigo palette, clean typography, and zero-waste title-only header.

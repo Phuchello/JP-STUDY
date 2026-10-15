@@ -196,5 +196,18 @@
   "DRIVE_SETUP/appsscript.json": "VERIFIED",
   "QUIZ_FORMS/quiz_plan.json": "VERIFIED",
   "DRIVE_SETUP/live_qa.js": "VERIFIED",
-  "qa/drive_first_deployment.json": "VERIFIED"
+  "qa/drive_first_deployment.json": "VERIFIED",
+  "curriculum/JLPT_SKILL_TAXONOMY.md": "VERIFIED",
+  "curriculum/LEVEL_COMPETENCY_MATRIX.csv": "VERIFIED",
+  "curriculum/QUESTION_TYPE_BLUEPRINT.json": "VERIFIED",
+  "curriculum/TEST_GENERATION_PLAN.md": "VERIFIED",
+  "curriculum/QUESTION_BANK_EXPANDED.json": "VERIFIED",
+  "curriculum/PRACTICE_SETS.json": "VERIFIED",
+  "curriculum/LISTENING_RESOURCE_REGISTRY.json": "VERIFIED",
+  "curriculum/LISTENING_PRACTICE_FRAMEWORK.md": "VERIFIED",
+  "scripts/curriculum/build_expanded_bank.py": "VERIFIED",
+  "scripts/curriculum/build_practice_sets.py": "VERIFIED",
+  "qa/QUESTION_BANK_QA.md": "VERIFIED",
+  "qa/QUESTION_REVIEW_LEDGER.csv": "VERIFIED",
+  "qa/REJECTED_ITEMS.json": "VERIFIED"
 }
