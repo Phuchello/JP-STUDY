@@ -1,5 +1,19 @@
 # Trạng thái dự án — 15/10/2026
 
+## Phase 3.6 — Cổng học tập Google Sites hoàn tất, tối ưu UI/UX Mobile-First
+
+- Xây dựng cổng học tập trực quan trên nền Google Sites (`JP-STUDY — 日本語を少しずつ`) làm điểm chạm duy nhất hàng ngày cho người học, thay thế giao diện kỹ thuật thô của Sheets/Forms.
+- Giao diện thiết kế theo phong cách tối giản Nhật Bản, theme Aristotle (khói tím / lavender), phông chữ Hiện đại, tiêu đề gọn không chiếm diện tích màn hình điện thoại.
+- Hoàn thiện 5 phân hệ người học:
+  1. **Trang chủ**: Thẻ bài học hôm nay (N4 Trợ từ trong câu, 5–8 phút), nút bấm nổi bật `BẮT ĐẦU HỌC` liên kết trực tiếp Form W01-B01, tổng quan hoạt động và lời nhắc nghỉ ngơi ("Không khỏe thì nghỉ. Ngày mai học tiếp cũng được.").
+  2. **Luyện tập**: Danh mục 3 bài tập Tuần 01 đã sẵn sàng (`W01-B01`, `W01-B02`, `W01-B03`), bài Tuần 02 đánh dấu "Chờ kích hoạt", kèm lời khuyên nhẹ nhàng.
+  3. **Mẹo học**: Tóm lược 6 tài liệu PDF cốt lõi (31 mẫu ngữ pháp N4, mẹo nghe, mẹo đọc, cặp ngữ pháp dễ nhầm, giao tiếp đời sống, khung viết/nói).
+  4. **Nghe & Nói**: Tuyển chọn nguồn chuẩn NHK World Easy Japanese và Japan Foundation Irodori, 4 tình huống hội thoại đời sống, prompt luyện nói phản xạ 1-1 cùng gia sư AI Gemini.
+  5. **Tiến bộ**: Hướng dẫn quy trình 4 bước Gemini Error Tutor ("Chữa MỘT lỗi sau mỗi lần nộp rồi dừng lại"), giải thích cấu trúc 5 tab bảng tính trung tâm và link mở bảng an toàn.
+- Kiểm thử responsive hoàn tất trên 6 khung nhìn: 360x800, 390x844, 430x932, 768x1024, 1280x800, 1440x900; 100% không vỡ khung, không cuộn ngang, touch target >= 48px.
+- Cài đặt xuất bản bảo mật: Bật tùy chọn chặn công cụ tìm kiếm lập chỉ mục ("Yêu cầu công cụ tìm kiếm công khai không hiển thị trang web của tôi").
+- Giữ nguyên 100% kiến trúc backend gốc (Google Sheets, Forms, Apps Script trigger, Drive). Nghiệm thu UI/UX: [GOOGLE_SITES_UI_QA](GOOGLE_SITES_UI_QA.md).
+
 ## Phase 3.5 — nghiệm thu P0 hoàn tất, kích hoạt Forms thành công
 
 - Đã tạo Drive riêng tư đúng cấu trúc, một Google Sheet native 5 tab, 7 PDF ngắn (9 trang), vai nói và hai prompt. Link thật bàn giao riêng, không đưa lên GitHub.

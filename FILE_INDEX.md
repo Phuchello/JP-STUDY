@@ -20,6 +20,7 @@ Snapshot 2026-10-15. VERIFIED is scoped verification, not JLPT certification. Hi
 | [DRIVE_SETUP/workspace_adapter.js](DRIVE_SETUP/workspace_adapter.js) | VERIFIED |
 | [FILE_INDEX.md](FILE_INDEX.md) | VERIFIED |
 | [GEMINI_CHUA_LOI.md](GEMINI_CHUA_LOI.md) | VERIFIED |
+| [GOOGLE_SITES_UI_QA.md](GOOGLE_SITES_UI_QA.md) | VERIFIED |
 | [MANIFEST.json](MANIFEST.json) | VERIFIED |
 | [PROJECT_STATUS.md](PROJECT_STATUS.md) | VERIFIED |
 | [PUBLICATION_POLICY.md](PUBLICATION_POLICY.md) | VERIFIED |

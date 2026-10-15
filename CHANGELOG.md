@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-10-15 — Phase 3.6 Google Sites learner portal UI/UX overhaul and responsive verification
+
+- Design and deploy polished, Japanese-inspired learner portal on Google Sites (`https://sites.google.com/view/jp-study`) using Aristotle theme with soft lavender/indigo palette, clean typography, and zero-waste title-only header.
+- Implement structured 5-page learner architecture: Trang chủ (Today's Card, CTA button, rest reminder), Luyện tập (3 active P0 forms, Week 2 placeholders), Mẹo học (6 core PDF guides summarized), Nghe & Nói (NHK, Irodori, 4 roleplays, Gemini prompt), and Tiến bộ (Gemini Error Tutor workflow, Sheets overview).
+- Verify responsive mobile-first layouts and touch targets across 6 viewports: Mobile Small (360x800), Mobile Standard (390x844), Mobile Large (430x932), Tablet (768x1024), Desktop Standard (1280x800), and Desktop Large (1440x900) with zero horizontal scroll.
+- Configure Google Sites publication settings with search engine indexing blocked ("Yêu cầu công cụ tìm kiếm công khai không hiển thị trang web của tôi").
+- Preserve 100% of underlying backend architecture: Google Sheets source of truth, 3 P0 Google Forms, Apps Script triggers, QA synthetic isolation, and Drive exports remain intact.
+
 ## 2026-10-15 — Live P0 acceptance, synthetic QA verification and dashboard activation
 
 - Configure Google Forms grade release settings to immediate post-submission release with missed questions, correct answers, point values, and detailed explanations.
