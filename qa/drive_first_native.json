@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-15",
+  "scope": "Live Google Drive/Sheets API readback; exported XLSX renders inspected; NOT Forms execution or native/mobile UI",
+  "checks": [
+    {
+      "name": "Native spreadsheet has required five tabs and Asia/Tokyo timezone",
+      "ok": true
+    },
+    {
+      "name": "HOME has only two grid columns",
+      "ok": true
+    },
+    {
+      "name": "HOME shows Forms pending, no invented quiz URL",
+      "ok": true
+    },
+    {
+      "name": "HOME A1:B22 link readback has no formula errors",
+      "ok": true
+    },
+    {
+      "name": "Four HOME links retain labels and correct target categories",
+      "ok": true
+    },
+    {
+      "name": "Weekly headers are exact and five recommended activities only",
+      "ok": true
+    },
+    {
+      "name": "Home cell validation and weekly native table dropdown are present",
+      "ok": true
+    },
+    {
+      "name": "Native history A4:N8 has no learner records",
+      "ok": true
+    },
+    {
+      "name": "Root owner-only; all 13 native/uploaded files owner-only and shared false",
+      "ok": true
+    }
+  ],
+  "passed": 9,
+  "failed": 0,
+  "nativeSheetCount": 1,
+  "tabCount": 5,
+  "uploadedFileCount": 12,
+  "formsStatus": "QA_PENDING",
+  "nativeUiStatus": "QA_PENDING",
+  "privacy": "No private IDs, URLs, account details or learner records in this report."
+}

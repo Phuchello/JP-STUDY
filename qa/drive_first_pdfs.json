@@ -1,0 +1,111 @@
+{
+  "scope": "Public seven PDFs only; Poppler rendering, glyph/margin/link checks and visual inspection; private intermediate omitted",
+  "date": "2026-10-15",
+  "files": [
+    {
+      "file": "00_BAT_DAU_O_DAY.pdf",
+      "pages": 2,
+      "checks": [
+        {
+          "page": 1,
+          "characters": 1000,
+          "marginOrGlyphErrors": 0,
+          "links": 0
+        },
+        {
+          "page": 2,
+          "characters": 858,
+          "marginOrGlyphErrors": 0,
+          "links": 2
+        }
+      ],
+      "sha256": "b216b329885cd7fc1b53e4a9e37ff53f795071de7ebde19bb7691c0efb86dd2a"
+    },
+    {
+      "file": "01_NGU_PHAP_N4.pdf",
+      "pages": 2,
+      "checks": [
+        {
+          "page": 1,
+          "characters": 654,
+          "marginOrGlyphErrors": 0,
+          "links": 2
+        },
+        {
+          "page": 2,
+          "characters": 841,
+          "marginOrGlyphErrors": 0,
+          "links": 2
+        }
+      ],
+      "sha256": "427838126d4301d7358b8d9876bdf0034ee79ea706e0621745934a9939350c63"
+    },
+    {
+      "file": "02_MEO_NGHE.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "characters": 705,
+          "marginOrGlyphErrors": 0,
+          "links": 2
+        }
+      ],
+      "sha256": "00ba6acfe90272e3d5936d95585ab4e2fbfa2a9a3d46fdce76dada4b8ef4f49c"
+    },
+    {
+      "file": "03_MEO_DOC.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "characters": 721,
+          "marginOrGlyphErrors": 0,
+          "links": 2
+        }
+      ],
+      "sha256": "4a5d82acd1ccbc8760c39ac00b74f6a13183fa606ce1091c73018fd9154776c7"
+    },
+    {
+      "file": "04_NGU_PHAP_DE_NHAM.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "characters": 876,
+          "marginOrGlyphErrors": 0,
+          "links": 2
+        }
+      ],
+      "sha256": "7970f985009750c10cd796f9cb228889cc88a02474f18574cc914d8b19c8995b"
+    },
+    {
+      "file": "05_GIAO_TIEP_DOI_SONG.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "characters": 665,
+          "marginOrGlyphErrors": 0,
+          "links": 2
+        }
+      ],
+      "sha256": "71ec2f99d7daf53caec2e99723c014c88d5266bd3626b5d90720d8dd4df11a54"
+    },
+    {
+      "file": "06_KHUNG_VIET_NOI.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "characters": 755,
+          "marginOrGlyphErrors": 0,
+          "links": 2
+        }
+      ],
+      "sha256": "2c0b5afd2c9c65b7717ef71b7b1a33250f35d004d097ffb5356d6bf3cf2af33a"
+    }
+  ],
+  "pages": 9,
+  "visualInspection": "All nine pages inspected; no clipping, overlap or missing glyph observed."
+}

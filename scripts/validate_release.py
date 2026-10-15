@@ -51,7 +51,8 @@ def main():
             wb=ET.fromstring(z.read('xl/workbook.xml'));raw='\n'.join(z.read(n).decode('utf-8') for n in z.namelist() if n.endswith('.xml'))
             wb_stats.append({'path':p.relative_to(ROOT).as_posix(),'sheets':len(wb.findall('s:sheets/s:sheet',ns)),'bytes':p.stat().st_size})
             ck('Workbook package privacy '+p.name,not any(re.search(x,raw) for x in patterns))
-    ck('Four distinct workbook checkpoints',len(wb_stats)==4)
+    ck('Original four tracker checkpoints retained',len([x for x in wb_stats if x['path'].startswith('archive/') or x['path'].startswith('deliverables/phase3/')])==4)
+    if (ROOT/'DRIVE_SETUP/JP_STUDY_HOC_HOM_NAY.xlsx').exists():ck('Drive-first template has five tabs',any(x['path']=='DRIVE_SETUP/JP_STUDY_HOC_HOM_NAY.xlsx' and x['sheets']==5 for x in wb_stats))
     with zipfile.ZipFile(D/'JLPT_PROGRESS_TRACKER.xlsx') as z:
         sh=ET.fromstring(z.read('xl/worksheets/phase3_practice.xml'));cells=[c for c in sh.findall('.//s:c',ns) if re.match(r'^[A-L](?:[8-9]|[1-9]\d|[1-4]\d\d|50[0-7])$',c.get('r',''))]
         ck('Current tracker import area has no learner rows',all(c.find('s:v',ns) is None and c.find('s:is',ns) is None for c in cells))

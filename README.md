@@ -1,40 +1,38 @@
 # JP-STUDY
 
-Hệ thống học tiếng Nhật dành cho người lớn vừa học vừa làm, ít thời gian và sức lực thay đổi. Ưu tiên nghe, nói và phục hồi nền N4; N3/N2 chỉ tăng theo dữ liệu mới. Hồ sơ công khai là **ví dụ tổng hợp**, không phải hồ sơ hay điểm của một người thật.
+Học tiếng Nhật qua **một Google Sheet**: chọn một việc ngắn, làm bài, chữa một lỗi rồi dừng. Mệt thì nghỉ. Ưu tiên nghe/nói đời sống và phục hồi nền N4; không áp lịch cố định hoặc cam kết đỗ JLPT.
 
-**Hiện tại: thí điểm Phase 3 đã kiểm trong phạm vi 80 câu N4 và 4 vai nói.** Mốc hoàn thành liền mạch: Checkpoint 3. Checkpoint 4 mới xong tích hợp Excel; phần mở rộng 300–500 câu và ngân hàng N3/N2 chưa làm. Không cam kết đỗ JLPT.
+**Phase 3.5 đang triển khai:** đã tạo Drive riêng tư, bảng 5 tab, 7 PDF ngắn và prompt. **Forms còn QA_PENDING**: đã chuẩn bị 10 quiz và kiểm logic bằng API mô phỏng; chưa chạy trực tiếp trên Google. Không coi bộ cài là 10 Form đã hoạt động.
 
-## Bắt đầu trong vài phút
+## Bắt đầu
 
-1. Chọn **Code → Download ZIP** trên GitHub, giải nén. Mở `deliverables/phase3/JLPT_PRACTICE/index.html` bằng Chrome/Edge trên laptop. Đây là một tệp HTML tự chứa; xem trang mã trên GitHub chưa chạy ứng dụng. Không cần cài đặt hay API key.
-2. Chọn mức mệt. Có thể nghỉ; nếu học, chọn QUICK ngắn hoặc STANDARD khi đủ sức. Làm trước, chữa một lỗi sau, rồi dừng. [Kế hoạch một trang](study-plans/START_TODAY.md) và [hướng dẫn PDF](deliverables/phase3/START_HERE.pdf).
-3. Muốn dùng Gemini: mở [prompt chữa lỗi](deliverables/phase3/GEMINI_ERROR_TUTOR.md), sao chép và tự dán vào Gemini. Không có kết nối tự động với tài khoản, Excel hay lịch sử chat.
-4. Tiến độ chỉ lưu trong trình duyệt đang dùng. Xuất JSON trước khi đổi thiết bị/xóa dữ liệu. **Giữ JSON/CSV cá nhân ở máy, không đưa lên kho này.** Excel là tùy chọn; [hướng dẫn nhập CSV](tracking/README.md).
+- **Người học:** mở link `JP_STUDY_HOC_HOM_NAY` được chủ sở hữu bàn giao riêng. HOME chỉ có bài ngắn, nghe một đoạn và một vai nói. Quiz ghi rõ chờ kích hoạt; có thể nghe/nói ngay khi tài khoản được cấp quyền tài liệu.
+- **Người quản lý:** làm theo [cài một lần](DRIVE_SETUP/README.md), tạo và nghiệm thu 3 quiz P0 trước, rồi mới mở 7 quiz còn lại. Không cần API key hoặc thiết bị mới.
+- **Bảo trì:** đọc [hiện trạng](PROJECT_STATUS.md), [QA Drive-first](DRIVE_FIRST_QA.md), [AGENTS](AGENTS.md). Giữ dữ liệu cá nhân và link tài khoản ngoài repo công khai.
 
-Văn bản cốt lõi chạy offline. Nghe tổng hợp chỉ dùng khi có giọng Nhật; không có thì bỏ phần nghe tự chọn. Nguồn MP3 chính thức được liên kết riêng. iPad mới được mô phỏng bố cục, chưa thử thiết bị thật; nếu Files chỉ hiện xem trước, dùng laptop.
+## Mở đúng tài liệu
 
-## Tìm đúng tài liệu
-
-| Nội dung | Nơi mở | Trạng thái |
+| Cần dùng | Tài liệu | Phạm vi |
 |---|---|---|
-| Kế hoạch hiện hành, mốc 7/14 ngày | [START_TODAY](study-plans/START_TODAY.md) | VERIFIED |
-| 80 câu N4 và schema | [Ngân hàng N4](question-bank/n4/README.md) | VERIFIED trong pilot AI QA |
-| Khóa, giải thích và kiểm nội dung độc lập | [Khóa và QA](question-bank/answer-keys/README.md) | VERIFIED trong phạm vi ghi rõ |
-| 4 vai nói | [Speaking](speaking/README.md) | VERIFIED trong pilot AI QA |
-| 31 thẻ mẫu, 37 ví dụ học | [Thư viện mẫu](grammar-patterns/README.md) | VERIFIED; không tính là 37 câu đo mới |
-| Nguồn, 14 kỹ thuật, giới hạn nghiên cứu | [Research](research/README.md) | VERIFIED theo mức đọc từng nguồn |
-| Gemini, checkpoint mang theo | [Prompts](gemini-prompts/README.md) | VERIFIED về quy trình; tính năng tài khoản tự kiểm |
-| Tracker hiện hành và các bản cũ | [Tracking](tracking/README.md) | VERIFIED; bản trống, không có nhật ký thật |
-| PDF và bộ dùng hiện hành | [Deliverables](deliverables/phase3/README.md) | VERIFIED trong phạm vi pilot |
-| Phase 1 / 2 / 2.1 | [Archive](archive/README.md) | Checkpoint lịch sử; có bản công khai đã lược hồ sơ |
-| Kiểm định bản công khai và QA cũ | [QA](qa/README.md) | Xem phạm vi từng lượt |
+| Bảng trống để nhập Sheets | [Mẫu 5 tab](DRIVE_SETUP/JP_STUDY_HOC_HOM_NAY.xlsx) | VERIFIED về nội dung/bản nhập; chưa thử thiết bị thật |
+| Tạo quiz và tự thu phản hồi | [Bộ cài Workspace](DRIVE_SETUP/README.md) | QA_PENDING chạy thật |
+| 10 quiz ngắn, 5–9 câu | [Quiz plan](QUIZ_FORMS/README.md) | Dùng lại 68 câu N4; không sinh mới |
+| Hướng dẫn và 6 thẻ tham khảo | [PDF ngắn](deliverables/phase3.5/) | 7 PDF, tổng 9 trang |
+| Chữa một lỗi sau nộp | [Gemini](GEMINI_CHUA_LOI.md) | Sao chép/dán thủ công |
+| Bốn vai nói | [Vai nói](deliverables/phase3.5/VAI_NOI.md) | Luyện có hướng dẫn, không phải điểm nói JLPT |
+| Phân tích dữ liệu thực | [AI analysis prompt](DAILY_AI_ANALYSIS_PROMPT.md) | Phân biệt mới/ôn/hỗ trợ/trống/không rõ |
+| CSV xuất hằng ngày | [Mẫu header](DRIVE_SETUP/templates/DAILY_LEARNING_REPORT.csv) | Trống; xuất thật sau cài script |
 
-**VERIFIED** nghĩa là đã kiểm theo phạm vi và giới hạn được ghi; không có nghĩa được JLPT công nhận, hiệu chuẩn người học hoặc duyệt bởi giáo viên bản ngữ. **QA_PENDING** chưa đủ kiểm; **DRAFT** là bản nháp/lịch sử không được coi là bản phát hành.
+## Nguồn cũ được giữ nguyên
 
-Chi tiết hiện trạng: [PROJECT_STATUS](PROJECT_STATUS.md). Danh sách mọi tệp: [FILE_INDEX](FILE_INDEX.md). Hash/kích thước: [MANIFEST](MANIFEST.json). [Kiểm kê nguồn và phần giữ local](qa/source_inventory.json), [chính sách công khai](PUBLICATION_POLICY.md).
+[80 câu và schema](question-bank/n4/README.md) · [khóa/giải thích/QA](question-bank/answer-keys/README.md) · [31 thẻ, 37 ví dụ học](grammar-patterns/README.md) · [nghiên cứu và giới hạn bằng chứng](research/README.md) · [mốc 7/14 ngày](study-plans/START_TODAY.md) · [Phase 1/2/2.1](archive/README.md).
 
-## Kiểm tra cho người bảo trì
+Ứng dụng HTML và tracker Excel Phase 3 vẫn nằm ở [checkpoint cũ](deliverables/phase3/README.md); không phải lối vào chính của Phase 3.5. 30 recipe cũ ghép lại cùng 80 câu, không phải 30 đề độc lập. Chưa có ngân hàng N3/N2 hoặc mở rộng 300–500 câu. AI QA không thay thế thẩm định bản ngữ/hiệu chuẩn người học.
 
-Chạy `python scripts/validate_release.py`. Node không cần thêm thư viện để chạy `node scripts/tests/test_engine.cjs`. Kiểm giao diện cần Playwright; xem [scripts](scripts/README.md). Tệp kết quả mới nằm trong `tmp/`, bị Git bỏ qua. Đọc [AGENTS.md](AGENTS.md) trước khi tạo checkpoint tiếp theo.
+## Dữ liệu và kiểm định
 
-Không tải lại sách, PDF hoặc âm thanh đề JLPT vào repo. Các đường dẫn ngoài là nguồn gốc, có thể thay đổi sau ngày kiểm 15/10/2026. Nội dung do dự án soạn không được gọi là đề thi thật; xem [nguồn và quyền sử dụng](PUBLICATION_POLICY.md).
+Drive hiện chỉ chủ sở hữu truy cập. Không chia sẻ thư mục gốc/bảng raw; nếu người quản lý và người học cần mức bí mật khác nhau, dùng file riêng với quyền riêng. Ẩn tab không phải kiểm soát truy cập. Không đưa CSV/JSON thật, ID tài khoản, link riêng, token hoặc bản xuất cá nhân lên GitHub.
+
+`VERIFIED` chỉ đúng phạm vi đã kiểm; `QA_PENDING` chưa đủ nghiệm thu; `DRAFT` là nháp/lịch sử. [FILE_INDEX](FILE_INDEX.md) và [MANIFEST](MANIFEST.json) ghi trạng thái/hash từng tệp; [PUBLICATION_POLICY](PUBLICATION_POLICY.md) quy định bản công khai.
+
+Chạy `python scripts/drive_first/build_bundle.py`, `node scripts/drive_first/test_drive_first.cjs`, rồi `python scripts/update_manifest.py` và `python scripts/validate_release.py`. Build bảng/PDF cần runtime ghi trong [setup](DRIVE_SETUP/README.md). Kết quả thử nằm trong `tmp/`, bị Git bỏ qua. Không tái phân phối sách, đề/audio bên thứ ba; chỉ liên kết nguồn chính thức.

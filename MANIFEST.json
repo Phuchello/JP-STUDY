@@ -1,8 +1,8 @@
 {
   "snapshotDate": "2026-10-15",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
-  "fileCountExcludingManifest": 163,
-  "totalBytesExcludingManifest": 3364710,
+  "fileCountExcludingManifest": 194,
+  "totalBytesExcludingManifest": 4426386,
   "files": [
     {
       "path": ".gitattributes",
@@ -12,14 +12,14 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 229,
-      "sha256": "940224cd4fbe3e36afddfaf2f62b7980c56200f16f6eea9d6a08ca21fc463829",
+      "bytes": 331,
+      "sha256": "a12fde23a8c83445dcdceda85881f9b36d0b3dde7590003968b78ab1d2cf0e61",
       "status": "VERIFIED"
     },
     {
       "path": "AGENTS.md",
-      "bytes": 1789,
-      "sha256": "cb0dea64dfd2d26caf8e533dee231c64fbb51b60aadf6fb2922fb453811cc904",
+      "bytes": 2623,
+      "sha256": "c7d7f21d30a225e4ed685ba1662a7d85661b41d55e12ac58cb73e8999d294636",
       "status": "VERIFIED"
     },
     {
@@ -450,8 +450,14 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 894,
-      "sha256": "663335e7da686c2786bf6a8e2049537b9cb989e89c61ecf120c555a4fc637c17",
+      "bytes": 1841,
+      "sha256": "4d4236e82623e26d7bbc716076ccb4f125297e0542e7fc4beddc197bf0c6205a",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "DAILY_AI_ANALYSIS_PROMPT.md",
+      "bytes": 2613,
+      "sha256": "3d417c4ce0e9ab52ec48182478564fc48f8ec961120e1cba069b50d56fe230db",
       "status": "VERIFIED"
     },
     {
@@ -599,21 +605,123 @@
       "status": "VERIFIED"
     },
     {
+      "path": "deliverables/phase3.5/00_BAT_DAU_O_DAY.pdf",
+      "bytes": 85468,
+      "sha256": "b216b329885cd7fc1b53e4a9e37ff53f795071de7ebde19bb7691c0efb86dd2a",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "deliverables/phase3.5/01_NGU_PHAP_N4.pdf",
+      "bytes": 103095,
+      "sha256": "427838126d4301d7358b8d9876bdf0034ee79ea706e0621745934a9939350c63",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "deliverables/phase3.5/02_MEO_NGHE.pdf",
+      "bytes": 95739,
+      "sha256": "00ba6acfe90272e3d5936d95585ab4e2fbfa2a9a3d46fdce76dada4b8ef4f49c",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "deliverables/phase3.5/03_MEO_DOC.pdf",
+      "bytes": 96680,
+      "sha256": "4a5d82acd1ccbc8760c39ac00b74f6a13183fa606ce1091c73018fd9154776c7",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "deliverables/phase3.5/04_NGU_PHAP_DE_NHAM.pdf",
+      "bytes": 98993,
+      "sha256": "7970f985009750c10cd796f9cb228889cc88a02474f18574cc914d8b19c8995b",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "deliverables/phase3.5/05_GIAO_TIEP_DOI_SONG.pdf",
+      "bytes": 96844,
+      "sha256": "71ec2f99d7daf53caec2e99723c014c88d5266bd3626b5d90720d8dd4df11a54",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "deliverables/phase3.5/06_KHUNG_VIET_NOI.pdf",
+      "bytes": 99851,
+      "sha256": "2c0b5afd2c9c65b7717ef71b7b1a33250f35d004d097ffb5356d6bf3cf2af33a",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "deliverables/phase3.5/VAI_NOI.md",
+      "bytes": 4346,
+      "sha256": "3e38f593ece345ad0b3685057db34076ad44256644298c8a9b247111ca4a4f0c",
+      "status": "VERIFIED"
+    },
+    {
       "path": "diagnostic/README.md",
       "bytes": 1075,
       "sha256": "0ed01dda3ffe3fa4fd7964f91bf3315ac00eec67d3fa72eeeadd5979de7c4fb7",
       "status": "VERIFIED"
     },
     {
+      "path": "DRIVE_FIRST_QA.md",
+      "bytes": 5978,
+      "sha256": "f52ed4c8f0260733f71c337776a561dde9fef4665ddd29b713155fb6e233b730",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "DRIVE_SETUP/appsscript.json",
+      "bytes": 374,
+      "sha256": "137c88587581481ddfede1c582216e2c35db6194f4c20cb9fb9481e11f02e4f2",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "DRIVE_SETUP/folder_structure.json",
+      "bytes": 1003,
+      "sha256": "948c23a4c6820b4d8a15bb5adaa02786ca5e89f198c8f0ab4ae21be02749d63b",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "DRIVE_SETUP/JP_STUDY_HOC_HOM_NAY.xlsx",
+      "bytes": 16606,
+      "sha256": "27150432909bd115c7b8f7a9ddf5d82cf4a15eed8ed800ce644ff046669f6f6a",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "DRIVE_SETUP/JP_STUDY_SETUP.gs",
+      "bytes": 218083,
+      "sha256": "9febebc716ccf0cd7d5070556775a0db99098a7f5ae8866f2517c2b3be4b6275",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "DRIVE_SETUP/README.md",
+      "bytes": 8870,
+      "sha256": "d9f533e8345edaa40cf64fc2bf833de16e0a352f14042809cb1458789824de02",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "DRIVE_SETUP/templates/DAILY_LEARNING_REPORT.csv",
+      "bytes": 232,
+      "sha256": "688cbe624aba7a736421b666cf8796ad9d6709de2054d22e7dd2cf3fff6d3afb",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "DRIVE_SETUP/workspace_adapter.js",
+      "bytes": 16643,
+      "sha256": "1bf9aeef7e0ab07801a51b8a81d148b9acfa331946f54f0eb9b09240ff02734d",
+      "status": "QA_PENDING"
+    },
+    {
       "path": "FILE_INDEX.md",
-      "bytes": 16893,
-      "sha256": "248664ce9bd1d7afadf80ca1e5393c2a031ff8bb6bc2dd64f6442f4d3bcc84c9",
+      "bytes": 19535,
+      "sha256": "d7270fe4d99d372ec0029e95e62060799a5aa38fa4104dcd5b5ef921dce3f0d2",
       "status": "VERIFIED"
     },
     {
       "path": "gemini-prompts/README.md",
       "bytes": 960,
       "sha256": "b064ede73433c4142245cfc19d02bf4c76eba5ad0b69de5b53a6c82154edb782",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "GEMINI_CHUA_LOI.md",
+      "bytes": 1800,
+      "sha256": "5512364baa8949a8ac8f56f1ff351f2231b2c6c0d81e194b8eff2a3db0c73f79",
       "status": "VERIFIED"
     },
     {
@@ -624,8 +732,8 @@
     },
     {
       "path": "PROJECT_STATUS.md",
-      "bytes": 3383,
-      "sha256": "13997ec09334a28af6ba5d2018ac48885329275fc07bd9a174e6013a2bffe1f7",
+      "bytes": 5312,
+      "sha256": "edb11e73de02c37fe082076b412078e674b9da52a6f9f68118be0f1972abf655",
       "status": "VERIFIED"
     },
     {
@@ -659,9 +767,27 @@
       "status": "VERIFIED"
     },
     {
+      "path": "qa/drive_first_native.json",
+      "bytes": 1345,
+      "sha256": "3a25e43195038b23b9436cecdbdf4765e1a9383c48dc767aca3ed1753b48a959",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/drive_first_pdfs.json",
+      "bytes": 2686,
+      "sha256": "8c2830242e4d328b344ea44ddcf8d9c695a018eabd4b79e3410b68598bf6bfcd",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/drive_first_tests.json",
+      "bytes": 32885,
+      "sha256": "6d628c959bc784fc0d8f88f378535a261d777a69f90bb5cb78168e86075f3427",
+      "status": "VERIFIED"
+    },
+    {
       "path": "qa/file_status.json",
-      "bytes": 9524,
-      "sha256": "c41a96ed4d00051b33f972c333db8dfc7db91ff2b68709e21bc657deaaed40a5",
+      "bytes": 11097,
+      "sha256": "26ffd370e0a405f93c256262690cc9a8e0791e0325e3121ed71be53f78034405",
       "status": "VERIFIED"
     },
     {
@@ -858,8 +984,8 @@
     },
     {
       "path": "qa/README.md",
-      "bytes": 1130,
-      "sha256": "1dccb025de874abab260b811879c31764cd69ae2208178bd2a6c8687e220b78a",
+      "bytes": 1401,
+      "sha256": "df738aa4aac0be63b7c06609f63cdbe5f5d25eaf3f4a57cf100385acdf156e44",
       "status": "VERIFIED"
     },
     {
@@ -887,9 +1013,27 @@
       "status": "VERIFIED"
     },
     {
+      "path": "QUIZ_FORMS/answer_mapping.csv",
+      "bytes": 5431,
+      "sha256": "8e99135ad119206baa961d661669383c8c0cdfcb3504470776eb6fe7d78071ac",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "QUIZ_FORMS/quiz_plan.json",
+      "bytes": 5444,
+      "sha256": "bc4d79c8fb951f24dc9a3e7b32b5bb97dbac9b7faf153ba76cb3bcf33791e3f3",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "QUIZ_FORMS/README.md",
+      "bytes": 1843,
+      "sha256": "cdd57c0c62d1b4758b7249873138b7d5aad22877087a83bfbd0179dc8cf4c6b6",
+      "status": "VERIFIED"
+    },
+    {
       "path": "README.md",
-      "bytes": 4707,
-      "sha256": "ae6b6a820107733425e67cda99be18f70573ef7a7f71e7d2104b02dd91a7ca1f",
+      "bytes": 4210,
+      "sha256": "09de2a1d3bfd2e49b524bd2f297f78556940ab1ef3ca900a6f94efaa39a06ba9",
       "status": "VERIFIED"
     },
     {
@@ -923,9 +1067,51 @@
       "status": "VERIFIED"
     },
     {
+      "path": "scripts/drive_first/build_bundle.py",
+      "bytes": 4797,
+      "sha256": "ab8410bc6d22bf3767a917a7d1518d9f038094e74b1619e67604049869ad7d60",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "scripts/drive_first/build_dashboard.mjs",
+      "bytes": 8840,
+      "sha256": "030519364bbf81af2ed068bb3bc8df5138ae6bf44b2075574db4c4673fc5c883",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "scripts/drive_first/build_pdfs.py",
+      "bytes": 7079,
+      "sha256": "5d36bce23d740132152b66cf297883c05c7fc2c2f63a909a675ba935e1649ee0",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "scripts/drive_first/cache_link_labels.py",
+      "bytes": 1244,
+      "sha256": "d95b216cb77f09c9cc3ba201da9a7c121e3f100eb9b991e16e33acb83bbe6309",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "scripts/drive_first/core.js",
+      "bytes": 7324,
+      "sha256": "19068097277109bb75b21f33fb0deff23ce31ed8bf271428c4d0961a500e1928",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "scripts/drive_first/test_drive_first.cjs",
+      "bytes": 18870,
+      "sha256": "f2d0ebd93fe0e208381806355c218c4d837b7b717cd181eecde0886c8e6bcb00",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "scripts/drive_first/verify_pdfs.py",
+      "bytes": 1863,
+      "sha256": "00e6f9e66fd1c3b61d4b70d872c5f86c45851a5a9b1c3cb07e11158718d455c8",
+      "status": "VERIFIED"
+    },
+    {
       "path": "scripts/README.md",
-      "bytes": 1458,
-      "sha256": "e1bf8a40b138ba5049409827cd1bdd96089c025333eef9d220959a5d7689f992",
+      "bytes": 1901,
+      "sha256": "f4192b39f9ef6f155f734bda5636eff7e22deda29b4b21dd1941b2a3a469b7dd",
       "status": "VERIFIED"
     },
     {
@@ -960,8 +1146,8 @@
     },
     {
       "path": "scripts/validate_release.py",
-      "bytes": 7276,
-      "sha256": "a804688a59bf5e9018a5513deac62114642497c11d5b7e131967e17029cc78cc",
+      "bytes": 7578,
+      "sha256": "8373895f199ff0eccd43295a4f4cd29694cbcfa6ee3fa42369c4f96199045b75",
       "status": "VERIFIED"
     },
     {
@@ -978,8 +1164,8 @@
     },
     {
       "path": "tracking/README.md",
-      "bytes": 1299,
-      "sha256": "49fe028406072d7d89811c0e30fc3eaf816058beee794d061a6854707a5838d7",
+      "bytes": 1560,
+      "sha256": "26813ba44f27c50160dc25b9e29cfa41e996aa035eba98b279ecfd09e16e6e5e",
       "status": "VERIFIED"
     }
   ]

@@ -1,0 +1,1555 @@
+{
+  "scope": "Node pure logic + Workspace mocks; NOT real Google Forms grading, triggers or mobile UI verification",
+  "tests": [
+    {
+      "name": "10 quizzes / 68 distinct reused IDs / 12 reserved",
+      "ok": true
+    },
+    {
+      "name": "W01-B01 size and non-listening classification",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-001 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-001 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-001 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-001 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-001 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-002 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-002 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-002 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-002 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-002 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-003 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-003 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-003 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-003 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-003 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-004 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-004 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-004 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-004 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-004 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-005 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-005 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-005 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-005 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-005 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "W01-B02 size and non-listening classification",
+      "ok": true
+    },
+    {
+      "name": "N4-VOC-001 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-VOC-001 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-VOC-001 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-VOC-001 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-VOC-001 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-VOC-002 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-VOC-002 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-VOC-002 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-VOC-002 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-VOC-002 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-VOC-003 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-VOC-003 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-VOC-003 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-VOC-003 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-VOC-003 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-VOC-004 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-VOC-004 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-VOC-004 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-VOC-004 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-VOC-004 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-VOC-005 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-VOC-005 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-VOC-005 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-VOC-005 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-VOC-005 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-VOC-006 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-VOC-006 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-VOC-006 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-VOC-006 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-VOC-006 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-VOC-007 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-VOC-007 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-VOC-007 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-VOC-007 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-VOC-007 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-VOC-008 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-VOC-008 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-VOC-008 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-VOC-008 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-VOC-008 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "W01-B03 size and non-listening classification",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-001 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-001 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-001 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-001 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-001 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-002 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-002 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-002 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-002 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-002 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-003 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-003 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-003 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-003 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-003 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-004 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-004 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-004 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-004 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-004 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-005 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-005 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-005 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-005 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-005 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "W01-B04 size and non-listening classification",
+      "ok": true
+    },
+    {
+      "name": "N4-SHORT-001 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-SHORT-001 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-SHORT-001 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-SHORT-001 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-SHORT-001 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-SHORT-002 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-SHORT-002 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-SHORT-002 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-SHORT-002 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-SHORT-002 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-SHORT-003 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-SHORT-003 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-SHORT-003 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-SHORT-003 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-SHORT-003 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-SHORT-004 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-SHORT-004 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-SHORT-004 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-SHORT-004 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-SHORT-004 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-SHORT-005 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-SHORT-005 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-SHORT-005 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-SHORT-005 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-SHORT-005 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "W01-B05 size and non-listening classification",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-001 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-001 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-001 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-001 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-001 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-002 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-002 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-002 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-002 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-002 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-003 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-003 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-003 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-003 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-003 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-004 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-004 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-004 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-004 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-004 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-005 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-005 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-005 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-005 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-005 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-006 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-006 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-006 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-006 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-006 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "W02-B01 size and non-listening classification",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-006 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-006 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-006 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-006 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-006 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-007 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-007 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-007 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-007 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-007 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-008 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-008 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-008 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-008 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-008 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-009 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-009 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-009 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-009 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-009 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-010 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-010 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-010 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-010 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-PART-010 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "W02-B02 size and non-listening classification",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-006 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-006 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-006 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-006 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-006 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-007 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-007 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-007 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-007 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-007 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-008 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-008 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-008 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-008 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-008 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-009 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-009 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-009 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-009 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-009 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-010 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-010 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-010 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-010 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-CONJ-010 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-009 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-009 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-009 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-009 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-009 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-010 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-010 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-010 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-010 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-010 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-011 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-011 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-011 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-011 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-011 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-012 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-012 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-012 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-012 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-012 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "W02-B03 size and non-listening classification",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-007 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-007 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-007 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-007 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-007 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-008 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-008 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-008 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-008 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-GRAM-008 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-INTERP-001 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-INTERP-001 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-INTERP-001 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-INTERP-001 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-INTERP-001 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-INTERP-002 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-INTERP-002 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-INTERP-002 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-INTERP-002 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-INTERP-002 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-INTERP-003 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-INTERP-003 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-INTERP-003 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-INTERP-003 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-INTERP-003 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-INTERP-004 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-INTERP-004 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-INTERP-004 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-INTERP-004 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-INTERP-004 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-INTERP-005 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-INTERP-005 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-INTERP-005 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-INTERP-005 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-INTERP-005 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-INTERP-006 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-INTERP-006 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-INTERP-006 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-INTERP-006 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-INTERP-006 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "W02-B04 size and non-listening classification",
+      "ok": true
+    },
+    {
+      "name": "N4-ORDER-001 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-ORDER-001 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-ORDER-001 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-ORDER-001 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-ORDER-001 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-ORDER-002 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-ORDER-002 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-ORDER-002 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-ORDER-002 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-ORDER-002 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-ORDER-003 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-ORDER-003 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-ORDER-003 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-ORDER-003 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-ORDER-003 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-ORDER-004 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-ORDER-004 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-ORDER-004 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-ORDER-004 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-ORDER-004 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-ORDER-005 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-ORDER-005 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-ORDER-005 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-ORDER-005 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-ORDER-005 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-ORDER-006 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-ORDER-006 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-ORDER-006 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-ORDER-006 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-ORDER-006 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-ORDER-007 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-ORDER-007 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-ORDER-007 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-ORDER-007 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-ORDER-007 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-ORDER-008 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-ORDER-008 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-ORDER-008 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-ORDER-008 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-ORDER-008 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "W02-B05 size and non-listening classification",
+      "ok": true
+    },
+    {
+      "name": "N4-SHORT-006 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-SHORT-006 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-SHORT-006 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-SHORT-006 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-SHORT-006 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-SHORT-007 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-SHORT-007 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-SHORT-007 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-SHORT-007 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-SHORT-007 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-SHORT-008 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-SHORT-008 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-SHORT-008 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-SHORT-008 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-SHORT-008 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-MED-001 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-MED-001 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-MED-001 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-MED-001 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-MED-001 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-MED-002 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-MED-002 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-MED-002 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-MED-002 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-MED-002 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-MED-003 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-MED-003 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-MED-003 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-MED-003 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-MED-003 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-MED-004 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-MED-004 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-MED-004 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-MED-004 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-MED-004 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-MED-005 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-MED-005 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-MED-005 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-MED-005 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-MED-005 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-MED-006 exactly retained from audited source",
+      "ok": true
+    },
+    {
+      "name": "N4-MED-006 label A scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-MED-006 label B scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-MED-006 label C scoring map",
+      "ok": true
+    },
+    {
+      "name": "N4-MED-006 label D scoring map",
+      "ok": true
+    },
+    {
+      "name": "Omitted MCQ item is unanswered, not shifted to next question",
+      "ok": true
+    },
+    {
+      "name": "2 correct / 2 wrong / 1 blank and partial, no fake fatigue",
+      "ok": true
+    },
+    {
+      "name": "Duplicate event is idempotent",
+      "ok": true
+    },
+    {
+      "name": "Conflicting duplicate rejected",
+      "ok": true
+    },
+    {
+      "name": "Synthetic submissions never become learning rows",
+      "ok": true
+    },
+    {
+      "name": "Unknown answer and missing map fail closed",
+      "ok": true
+    },
+    {
+      "name": "Retake self-report cannot reset seen ID to new",
+      "ok": true
+    },
+    {
+      "name": "Latest correction removes stale error candidates",
+      "ok": true
+    },
+    {
+      "name": "Prior attempt dates retained",
+      "ok": true
+    },
+    {
+      "name": "Assistance and unknown are not new",
+      "ok": true
+    },
+    {
+      "name": "Same stimulus different question is review",
+      "ok": true
+    },
+    {
+      "name": "Unanswered submitted item remains exposed after feedback",
+      "ok": true
+    },
+    {
+      "name": "Same-submission shared stimulus uses pre-submission snapshot",
+      "ok": true
+    },
+    {
+      "name": "Report uses requested timezone / local date boundary",
+      "ok": true
+    },
+    {
+      "name": "No-activity report is neutral and not fabricated failure",
+      "ok": true
+    },
+    {
+      "name": "CSV has BOM, quoted fields, injection guard and no inferred duration",
+      "ok": true
+    },
+    {
+      "name": "Gemini package contains exact ID, choice, key and original explanation",
+      "ok": true
+    },
+    {
+      "name": "Partial submission is submitted, not completed in daily JSON",
+      "ok": true
+    },
+    {
+      "name": "Fully answered retake is completed, without becoming new",
+      "ok": true
+    },
+    {
+      "name": "Unrecognized declared mode remains unknown, never review/new",
+      "ok": true
+    },
+    {
+      "name": "Bound bootstrap rejects absent active spreadsheet before persistence",
+      "ok": true
+    },
+    {
+      "name": "Bound bootstrap rejects wrong spreadsheet title",
+      "ok": true
+    },
+    {
+      "name": "Bound bootstrap detects and persists only its own dashboard",
+      "ok": true
+    },
+    {
+      "name": "Bound bootstrap rejects ambiguous folder parents",
+      "ok": true
+    },
+    {
+      "name": "Bound bootstrap rejects wrong project folder",
+      "ok": true
+    },
+    {
+      "name": "Bound bootstrap detects unique project root without hardcoded IDs",
+      "ok": true
+    },
+    {
+      "name": "P0 builds 3 unpublished Forms, 1 raw workbook and 3 triggers",
+      "ok": true
+    },
+    {
+      "name": "P0 repeated setup is idempotent",
+      "ok": true
+    },
+    {
+      "name": "P1 builds remaining 7 / keys remain authoritative",
+      "ok": true
+    },
+    {
+      "name": "Adapter submission → raw store → history → error package",
+      "ok": true
+    },
+    {
+      "name": "Adapter duplicate trigger does not append duplicate raw/history",
+      "ok": true
+    },
+    {
+      "name": "Synthetic live QA quarantined outside learner history",
+      "ok": true
+    },
+    {
+      "name": "Unpublished forms cannot become learner links",
+      "ok": true
+    },
+    {
+      "name": "Published audited forms become links only after explicit owner acknowledgement",
+      "ok": true
+    },
+    {
+      "name": "Export CSV/JSON and archived rerun preserve earlier exports",
+      "ok": true
+    },
+    {
+      "name": "Audit catches changed correct-choice mapping",
+      "ok": true
+    }
+  ],
+  "passed": 387,
+  "failed": 0
+}

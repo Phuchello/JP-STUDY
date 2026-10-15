@@ -22,3 +22,6 @@ learner-data/
 browser_export.*
 memory_only_export.*
 *.zip
+DAILY_LEARNING_REPORT.csv
+DAILY_LEARNING_REPORT.json
+!DRIVE_SETUP/templates/DAILY_LEARNING_REPORT.csv

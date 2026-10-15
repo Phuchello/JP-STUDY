@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-10-15 — Drive-first templates and private Sheets checkpoint
+
+- Create owner-only Drive folders and a native five-tab dashboard; upload seven concise PDFs and tutor/report prompts. No private IDs, records or URLs are published here.
+- Reuse 68 of the original 80 N4 questions across ten short quiz specifications. Preserve original bank, keys, patterns and previous checkpoints.
+- Add an idempotent Workspace installer, raw response retention, QA quarantine, item-ID scoring mapping, new/review/assisted/unknown separation and daily CSV/JSON export.
+- Pass 387 pure-logic/Workspace mock checks. Read back native Sheets and permissions; repair Vietnamese-locale link errors with rich-text links. Verify PDFs and exported-sheet layouts within documented limits.
+- Keep Forms deployment, Google grading/triggers and real-device usability QA_PENDING until authenticated live acceptance; this checkpoint does not claim Phase 3.5 completion.
+
+
 ## 2026-10-15 — Initial public synchronization
 
 - Preserve Phase 1, Phase 2, Phase 2.1 and Phase 3 pilot checkpoints in a reviewable repository.

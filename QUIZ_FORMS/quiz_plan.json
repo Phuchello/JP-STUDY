@@ -1,0 +1,226 @@
+{
+  "version": "drive-first-2026.10.15",
+  "sourceBankSha256": "41643716454835d1a8f78a8f7626ebe74ac2dca9f68b55ef3194cacbd3c2e3f0",
+  "answerKeyDigest": "e8b9530f41f020d084fb7dc4101e20026abfddd327e42392b3629ec4f5982a8f",
+  "timezone": "Asia/Tokyo",
+  "quizzes": [
+    {
+      "id": "W01-B01",
+      "title": "W01-B01 | N4 Trợ từ trong câu | 5 câu",
+      "objective": "Trợ từ trong câu",
+      "questionIds": [
+        "N4-PART-001",
+        "N4-PART-002",
+        "N4-PART-003",
+        "N4-PART-004",
+        "N4-PART-005"
+      ],
+      "minutes": [
+        5,
+        8
+      ],
+      "releaseGroup": "P0",
+      "week": 1,
+      "mode": "self_reported_unaided_or_review",
+      "status": "QA_PENDING_LIVE_FORMS"
+    },
+    {
+      "id": "W01-B02",
+      "title": "W01-B02 | N4 Từ và kanji | 8 câu",
+      "objective": "Từ và kanji",
+      "questionIds": [
+        "N4-VOC-001",
+        "N4-VOC-002",
+        "N4-VOC-003",
+        "N4-VOC-004",
+        "N4-VOC-005",
+        "N4-VOC-006",
+        "N4-VOC-007",
+        "N4-VOC-008"
+      ],
+      "minutes": [
+        5,
+        10
+      ],
+      "releaseGroup": "P0",
+      "week": 1,
+      "mode": "self_reported_unaided_or_review",
+      "status": "QA_PENDING_LIVE_FORMS"
+    },
+    {
+      "id": "W01-B03",
+      "title": "W01-B03 | N4 Chia thể cơ bản | 5 câu",
+      "objective": "Chia thể cơ bản",
+      "questionIds": [
+        "N4-CONJ-001",
+        "N4-CONJ-002",
+        "N4-CONJ-003",
+        "N4-CONJ-004",
+        "N4-CONJ-005"
+      ],
+      "minutes": [
+        5,
+        8
+      ],
+      "releaseGroup": "P0",
+      "week": 1,
+      "mode": "self_reported_unaided_or_review",
+      "status": "QA_PENDING_LIVE_FORMS"
+    },
+    {
+      "id": "W01-B04",
+      "title": "W01-B04 | N4 Đọc thông báo ngắn | 5 câu",
+      "objective": "Đọc thông báo ngắn",
+      "questionIds": [
+        "N4-SHORT-001",
+        "N4-SHORT-002",
+        "N4-SHORT-003",
+        "N4-SHORT-004",
+        "N4-SHORT-005"
+      ],
+      "minutes": [
+        8,
+        12
+      ],
+      "releaseGroup": "P1",
+      "week": 1,
+      "mode": "self_reported_unaided_or_review",
+      "status": "QA_PENDING_LIVE_FORMS"
+    },
+    {
+      "id": "W01-B05",
+      "title": "W01-B05 | N4 Hiểu mẫu câu | 6 câu",
+      "objective": "Hiểu mẫu câu",
+      "questionIds": [
+        "N4-GRAM-001",
+        "N4-GRAM-002",
+        "N4-GRAM-003",
+        "N4-GRAM-004",
+        "N4-GRAM-005",
+        "N4-GRAM-006"
+      ],
+      "minutes": [
+        5,
+        10
+      ],
+      "releaseGroup": "P1",
+      "week": 1,
+      "mode": "self_reported_unaided_or_review",
+      "status": "QA_PENDING_LIVE_FORMS"
+    },
+    {
+      "id": "W02-B01",
+      "title": "W02-B01 | N4 Trợ từ trong ngữ cảnh | 5 câu",
+      "objective": "Trợ từ trong ngữ cảnh",
+      "questionIds": [
+        "N4-PART-006",
+        "N4-PART-007",
+        "N4-PART-008",
+        "N4-PART-009",
+        "N4-PART-010"
+      ],
+      "minutes": [
+        5,
+        8
+      ],
+      "releaseGroup": "P1",
+      "week": 2,
+      "mode": "self_reported_unaided_or_review",
+      "status": "QA_PENDING_LIVE_FORMS"
+    },
+    {
+      "id": "W02-B02",
+      "title": "W02-B02 | N4 Thể động từ và tính từ | 9 câu",
+      "objective": "Thể động từ và tính từ",
+      "questionIds": [
+        "N4-CONJ-006",
+        "N4-CONJ-007",
+        "N4-CONJ-008",
+        "N4-CONJ-009",
+        "N4-CONJ-010",
+        "N4-GRAM-009",
+        "N4-GRAM-010",
+        "N4-GRAM-011",
+        "N4-GRAM-012"
+      ],
+      "minutes": [
+        8,
+        12
+      ],
+      "releaseGroup": "P1",
+      "week": 2,
+      "mode": "self_reported_unaided_or_review",
+      "status": "QA_PENDING_LIVE_FORMS"
+    },
+    {
+      "id": "W02-B03",
+      "title": "W02-B03 | N4 Nối ý và ý câu | 8 câu",
+      "objective": "Nối ý và ý câu",
+      "questionIds": [
+        "N4-GRAM-007",
+        "N4-GRAM-008",
+        "N4-INTERP-001",
+        "N4-INTERP-002",
+        "N4-INTERP-003",
+        "N4-INTERP-004",
+        "N4-INTERP-005",
+        "N4-INTERP-006"
+      ],
+      "minutes": [
+        8,
+        12
+      ],
+      "releaseGroup": "P1",
+      "week": 2,
+      "mode": "self_reported_unaided_or_review",
+      "status": "QA_PENDING_LIVE_FORMS"
+    },
+    {
+      "id": "W02-B04",
+      "title": "W02-B04 | N4 Sắp xếp câu | 8 câu",
+      "objective": "Sắp xếp câu",
+      "questionIds": [
+        "N4-ORDER-001",
+        "N4-ORDER-002",
+        "N4-ORDER-003",
+        "N4-ORDER-004",
+        "N4-ORDER-005",
+        "N4-ORDER-006",
+        "N4-ORDER-007",
+        "N4-ORDER-008"
+      ],
+      "minutes": [
+        8,
+        12
+      ],
+      "releaseGroup": "P1",
+      "week": 2,
+      "mode": "self_reported_unaided_or_review",
+      "status": "QA_PENDING_LIVE_FORMS"
+    },
+    {
+      "id": "W02-B05",
+      "title": "W02-B05 | N4 Đọc và tìm bằng chứng | 9 câu",
+      "objective": "Đọc và tìm bằng chứng",
+      "questionIds": [
+        "N4-SHORT-006",
+        "N4-SHORT-007",
+        "N4-SHORT-008",
+        "N4-MED-001",
+        "N4-MED-002",
+        "N4-MED-003",
+        "N4-MED-004",
+        "N4-MED-005",
+        "N4-MED-006"
+      ],
+      "minutes": [
+        10,
+        15
+      ],
+      "releaseGroup": "P1",
+      "week": 2,
+      "mode": "self_reported_unaided_or_review",
+      "status": "QA_PENDING_LIVE_FORMS"
+    }
+  ]
+}

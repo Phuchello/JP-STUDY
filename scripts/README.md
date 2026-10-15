@@ -1,5 +1,9 @@
 # Các lệnh kiểm hỗ trợ
 
+Phase 3.5 dùng [Drive-first](../DRIVE_SETUP/README.md). Chạy `python scripts/drive_first/build_bundle.py` và `node scripts/drive_first/test_drive_first.cjs` để tái tạo payload và kiểm logic/API mô phỏng; xem [DRIVE_FIRST_QA](../DRIVE_FIRST_QA.md) cho nghiệm thu Google còn chờ. Không cần chạy máy chủ web cho hệ thống Drive.
+
+Các lệnh dưới đây giữ cho checkpoint ứng dụng Phase 3 trước đó.
+
 Từ thư mục gốc repo:
 
 ```sh

@@ -10,3 +10,10 @@ Before each checkpoint:
 5. Make a descriptive commit, push `origin main`, fetch and compare local/remote SHA; verify important files remotely. Report commit SHA and GitHub URL. If push fails, retain changes and give the exact error; do not claim sync success.
 
 Batch milestones. Do not commit each generated item, private exports, test fixtures, caches, previews, dependency directories, repeated binary artifacts or giant archives. Do not overwrite source originals outside this checkout. `scripts/update_manifest.py` regenerates the file index and manifest; then run `scripts/validate_release.py` and affected tests before commit.
+
+## Drive-first continuation
+
+- Use the existing native Drive/Sheets workflow as the primary learner entrypoint. Preserve the old app and research; do not build another website or regenerate the bank.
+- Keep actual Drive IDs/URLs, raw responses, private exports and deployment state in ignored local `tmp/` only. Public templates must be blank.
+- Mock tests verify local behavior only. Keep Workspace deployment/quiz status QA_PENDING until direct Google acceptance proves submit → grade → feedback → raw/history/error → export and responder privacy. Complete three P0 quizzes before enabling the seven P1 quizzes.
+- Do not infer study minutes, fatigue, absence reasons or learning trends from missing observations. Scope reports to captured quiz submissions; do not count guided practice as an unseen independent assessment.

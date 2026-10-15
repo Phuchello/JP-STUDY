@@ -1,0 +1,13 @@
+{
+  "root": "JP-STUDY — HỌC TIẾNG NHẬT",
+  "children": {
+    "00_BẮT_ĐẦU_Ở_ĐÂY.pdf": "Two-page public-profile-free start guide; no private URL in public copy",
+    "01_HỌC_HÔM_NAY": ["JP_STUDY_HOC_HOM_NAY"],
+    "02_BÀI_HỌC_VÀ_ĐỀ_LUYỆN": {"TUẦN_01": [], "TUẦN_02": [], "KHO_ĐỀ_CHƯA_GIAO": []},
+    "03_MẸO_VÀ_MẪU_CÂU": ["01_NGỮ_PHÁP_N4.pdf", "02_MẸO_NGHE.pdf", "03_MẸO_ĐỌC.pdf", "04_NGỮ_PHÁP_DỄ_NHẦM.pdf", "05_GIAO_TIẾP_ĐỜI_SỐNG.pdf", "06_KHUNG_VIẾT_NÓI.pdf"],
+    "04_GEMINI_GIA_SƯ": ["GEMINI_CHUA_LOI.md"],
+    "05_THEO_DÕI_TIẾN_BỘ": ["DAILY_AI_ANALYSIS_PROMPT.md", "JP_STUDY_DU_LIEU_GOC (created by setup only)", "BAO_CAO_XUAT (created when exporting)"],
+    "99_KHO_NGHIÊN_CỨU": ["JP_STUDY_SETUP.gs", "README_SETUP.md"]
+  },
+  "privacy": "Owner-only by default. No actual account IDs, private file URLs, records or tokens in this specification. Forms and raw response workbook are created only after Workspace setup."
+}

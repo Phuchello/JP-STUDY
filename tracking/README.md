@@ -1,5 +1,7 @@
 # Theo dõi tiến bộ — bản trống
 
+Phase 3.5 chuyển lối vào chính sang [Drive/Sheets](../DRIVE_SETUP/README.md), xuất CSV 19 cột/JSON sau khi kích hoạt script. Phần dưới là tracker 12 cột của ứng dụng Phase 3 cũ; không dán CSV 19 cột mới vào vùng nhập cũ.
+
 Hiện hành: [JLPT_PROGRESS_TRACKER.xlsx](../deliverables/phase3/JLPT_PROGRESS_TRACKER.xlsx). Bản này giữ nguyên byte từ workbook pilot đã kiểm Excel native. Không điền dữ liệu cá nhân trước; ngày mẫu/mốc kế hoạch không phải nhật ký học thật.
 
 1. Xuất CSV ở ứng dụng → Sao lưu; JSON mới là bản sao đầy đủ.

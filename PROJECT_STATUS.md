@@ -1,6 +1,17 @@
 # Trạng thái dự án — 15/10/2026
 
-## Đã hoàn thành
+## Phase 3.5 — checkpoint Drive-first, chưa nghiệm thu Forms
+
+- Đã tạo Drive riêng tư đúng cấu trúc, một Google Sheet native 5 tab, 7 PDF ngắn (9 trang), vai nói và hai prompt. Link thật bàn giao riêng, không đưa lên GitHub.
+- Đã đọc lại ô/validation/quyền bằng API: HOME 2 cột, trạng thái chờ Forms rõ ràng, lịch sử trống, chỉ chủ sở hữu truy cập. Sửa ba lỗi liên kết do dấu phân cách công thức tiếng Việt; liên kết động trong bộ cài dùng rich text.
+- Đã xuất từ chính native Sheets để rà 5 tab; đây là bản render từ XLSX xuất, không phải kiểm giao diện Google hoặc điện thoại thật. Có khác biệt kiểu bảng khi chuyển qua XLSX; chưa xác nhận native UI.
+- Bộ cài tự nhận bảng được gắn, tạo quiz chưa publish, giữ raw responses, cách ly QA, chống trùng và xuất CSV/JSON. 10 quiz dùng lại 68 câu đã QA; 12 câu nguồn còn dự trữ, không tăng ngân hàng.
+- **387/387 kiểm logic/Workspace mock đạt.** Chưa chứng minh chấm điểm, trigger hoặc quyền responder trên Google thật. Forms, pipeline live và mobile vẫn **QA_PENDING**. Trình duyệt quan sát cuối vẫn ở đăng nhập Google; kết nối hiện không có API tạo Forms/chạy Apps Script.
+- Báo cáo chỉ phản ánh lượt quiz đã nộp. Nghe/nói/học ngoài hệ thống chưa ghi; không suy ra không học, không suy phút học từ timestamp, không coi điểm ôn tăng là tiến bộ độc lập.
+
+Nghiệm thu và giới hạn: [DRIVE_FIRST_QA](DRIVE_FIRST_QA.md). Cài/kích hoạt: [DRIVE_SETUP](DRIVE_SETUP/README.md).
+
+## Các checkpoint trước đã hoàn thành
 
 - Phase 1: nghiên cứu, kế hoạch tạm thời, tracker; bản gốc giữ local, bản Markdown công khai thay hồ sơ thật bằng ví dụ tổng hợp.
 - Phase 2: hướng dẫn bắt đầu/chẩn đoán, prompt gia sư, tracker v2, nguồn và QA.
@@ -32,4 +43,4 @@ QA lịch sử: engine 421 nhóm, browser 36 mục, luồng bổ sung 11, Excel 
 
 ## Checkpoint tiếp theo
 
-Thu dữ liệu tự nguyện ngày 7/14 và thử người học trên thiết bị thực; kiểm giọng Nhật hoặc chọn MP3 chính thức. Sửa vấn đề được quan sát rồi mới duyệt mở rộng từng lô. Mỗi lô phải giữ ID/khóa/schema đồng bộ, QA độc lập theo phạm vi, cập nhật manifest/docs, commit và push. Không sinh thêm câu chỉ để đủ số lượng.
+Đăng nhập Google, chạy bộ cài và nghiệm thu trực tiếp 3 Form P0 từ làm → nộp → điểm → lỗi → Gemini → lịch sử → CSV; sau đó mới mở 7 Form P1. Thu dữ liệu tự nguyện ngày 7/14 và thử người học trên thiết bị thực; kiểm giọng Nhật hoặc chọn MP3 chính thức. Sửa vấn đề được quan sát rồi mới duyệt mở rộng từng lô. Mỗi lô phải giữ ID/khóa/schema đồng bộ, QA độc lập theo phạm vi, cập nhật manifest/docs, commit và push. Không sinh thêm câu chỉ để đủ số lượng.
