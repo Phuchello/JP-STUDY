@@ -1395,302 +1395,126 @@ def get_raw_item_definitions():
 
 def balance_and_compile_bank():
     """
-    Takes all 120 raw item definitions and assigns correct answers cyclically:
-    Level N4 (40 items): exactly 10 A, 10 B, 10 C, 10 D.
-    Level N3 (50 items): exactly 13 A, 13 B, 12 C, 12 D.
-    Level N2 (30 items): exactly 7 A, 7 B, 8 C, 8 D.
-    Bank Total (120 items): EXACTLY 30 A, 30 B, 30 C, 30 D (25.0% each).
+    Takes all 120 raw item definitions and assigns choices using a reproducible
+    seeded pseudo-random shuffle (seed-clean-audit).
+    Eliminates all deterministic ABCD repeating cycles while maintaining
+    a natural, balanced answer distribution (20-30% per option, max run <= 3).
     """
     raw_items = get_raw_item_definitions()
     assert len(raw_items) == 120, f"Expected 120 items, got {len(raw_items)}"
 
-    # Partition by level
-    n4_raw = [item for item in raw_items if item[1] == 'N4']
-    n3_raw = [item for item in raw_items if item[1] == 'N3']
-    n2_raw = [item for item in raw_items if item[1] == 'N2']
-
-    assert len(n4_raw) == 40
-    assert len(n3_raw) == 50
-    assert len(n2_raw) == 30
-
-    # Target distributions
-    # N4: 10 of each
-    n4_targets = ['A', 'B', 'C', 'D'] * 10
-    # N3: 13 A, 13 B, 12 C, 12 D
-    n3_targets = (['A', 'B', 'C', 'D'] * 12) + ['A', 'B']
-    # N2: 7 A, 7 B, 8 C, 8 D
-    n2_targets = (['C', 'D', 'A', 'B'] * 7) + ['C', 'D']
-
-    assert len(n4_targets) == 40
-    assert len(n3_targets) == 50
-    assert len(n2_targets) == 30
-
-    # Verify overall balance
-    all_targets = n4_targets + n3_targets + n2_targets
-    from collections import Counter
-    target_counts = Counter(all_targets)
-    assert target_counts == {'A': 30, 'B': 30, 'C': 30, 'D': 30}, f"Imbalanced targets: {target_counts}"
+    import random
+    import hashlib
 
     compiled_questions = []
 
-    def process_level(items_list, targets_list):
-        for idx, item in enumerate(items_list):
-            qid, level, skill, typeId, stem, contextPassage, correctText, distractorsList, \
-            conceptId, difficulty, expVi, distractorExpMap, remediation, assembledSentence, targetBracketWord = item
-            
-            target_ans = targets_list[idx]
-            letters = ['A', 'B', 'C', 'D']
-            distractor_letters = [l for l in letters if l != target_ans]
+    for item in raw_items:
+        qid, level, skill, typeId, stem, contextPassage, correctText, distractorsList, \
+        conceptId, difficulty, expVi, distractorExpMap, remediation, assembledSentence, targetBracketWord = item
 
-            # Assign options
-            options = []
-            dist_idx = 0
-            distractor_explanations = {}
+        # Reproducible per-question seed
+        seed_val = int(hashlib.sha256(f"{qid}-seed-clean-audit".encode()).hexdigest(), 16) % (2**32)
+        rng = random.Random(seed_val)
 
-            for l in letters:
-                if l == target_ans:
-                    options.append({"id": l, "text": correctText})
-                else:
-                    d_text = distractorsList[dist_idx]
-                    options.append({"id": l, "text": d_text})
-                    # map explanation
-                    exp_text = distractorExpMap.get(d_text, f"Phương án {l} không phù hợp với ngữ pháp hoặc ngữ cảnh câu.")
-                    distractor_explanations[l] = exp_text
-                    dist_idx += 1
+        # 4 choices
+        choices = [correctText] + list(distractorsList)
+        rng.shuffle(choices)
 
-            stim_id = qid
-            if 'INFO' in typeId:
-                stim_id = "STIM-N4-INFO-001"
-            elif 'MEDI' in typeId:
-                stim_id = "STIM-N3-MEDI-001"
+        correct_idx = choices.index(correctText)
+        assigned_ans = ['A', 'B', 'C', 'D'][correct_idx]
 
-            q_doc = {
-                "id": qid,
-                "level": level,
-                "skill": skill,
-                "typeId": typeId,
-                "stem": stem,
-                "stimulusId": stim_id,
-                "contextPassage": contextPassage,
-                "options": options,
-                "correctAnswer": target_ans,
-                "explanationVi": expVi,
-                "distractorExplanations": distractor_explanations,
-                "difficultyEstimate": difficulty,
-                "conceptId": conceptId,
-                "remediation": remediation,
-                "sourceMetadata": f"Official JLPT {level} specifications & TUFS Japanese pedagogical module",
-                "exposureEligible": True,
-                "diagnosticEligible": True,
-                "status": "QA_VERIFIED"
-            }
-            if assembledSentence:
-                q_doc["assembledSentence"] = assembledSentence
-            if targetBracketWord:
-                q_doc["targetBracketWord"] = targetBracketWord
+        options = [{"id": l, "text": choices[i]} for i, l in enumerate(['A', 'B', 'C', 'D'])]
 
-            compiled_questions.append(q_doc)
+        # Map distractor explanations to their assigned option slots
+        distractor_explanations = {}
+        for opt in options:
+            if opt['id'] != assigned_ans:
+                distractor_explanations[opt['id']] = distractorExpMap.get(
+                    opt['text'],
+                    f"Phương án {opt['id']} không phù hợp với ngữ cảnh ngữ pháp tiếng Nhật."
+                )
 
-    process_level(n4_raw, n4_targets)
-    process_level(n3_raw, n3_targets)
-    process_level(n2_raw, n2_targets)
+        stim_id = qid
+        if 'INFO' in typeId:
+            stim_id = "STIM-N4-INFO-001"
+        elif 'MEDI' in typeId:
+            stim_id = "STIM-N3-MEDI-001"
+
+        q_doc = {
+            "id": qid,
+            "level": level,
+            "skill": skill,
+            "typeId": typeId,
+            "stem": stem,
+            "stimulusId": stim_id,
+            "contextPassage": contextPassage,
+            "options": options,
+            "correctAnswer": assigned_ans,
+            "explanationVi": expVi,
+            "distractorExplanations": distractor_explanations,
+            "difficultyEstimate": difficulty,
+            "conceptId": conceptId,
+            "remediation": remediation,
+            "sourceMetadata": f"Official JLPT {level} specifications & TUFS Japanese pedagogical module",
+            "exposureEligible": False,
+            "diagnosticEligible": False,
+            "status": "INDEPENDENT_QA_PENDING"
+        }
+        if assembledSentence:
+            q_doc["assembledSentence"] = assembledSentence
+        if targetBracketWord:
+            q_doc["targetBracketWord"] = targetBracketWord
+
+        compiled_questions.append(q_doc)
 
     return compiled_questions
 
 
-def independent_blind_solver(q):
+def export_blind_datasets(questions):
     """
-    Independent blind solving evaluator.
-    Receives ONLY:
+    Exports blind datasets containing strictly:
     - id
     - level
+    - skill
     - typeId
     - stem
     - contextPassage
     - options: [{"id": "A", "text": "..."}, ...]
 
-    Does NOT inspect q["correctAnswer"], q["explanationVi"], or q["distractorExplanations"].
-    Returns (blind_answer, confidence).
+    Strictly excludes:
+    - correctAnswer
+    - explanationVi
+    - distractorExplanations
+    - assembledSentence
+    - targetBracketWord
     """
-    stem = q["stem"]
-    options = q["options"]
-    type_id = q["typeId"]
-    passage = q.get("contextPassage") or ""
+    blind_all = []
+    for q in questions:
+        blind_all.append({
+            "id": q["id"],
+            "level": q["level"],
+            "skill": q["skill"],
+            "typeId": q["typeId"],
+            "stem": q["stem"],
+            "contextPassage": q.get("contextPassage"),
+            "options": [{"id": o["id"], "text": o["text"]} for o in q["options"]]
+        })
 
-    # 1. Reading (Kanji reading)
-    if "READ" in type_id:
-        # Extract isolated target from bracket 【...】
-        m = re.search(r'【([^】]+)】', stem)
-        if m:
-            target = m.group(1)
-            # Map canonical reading for known target words
-            reading_dict = {
-                "案内": "あんない", "貸しました": "かしました", "計画": "けいかく",
-                "拾いました": "ひろいました", "質問": "しつもん", "送りました": "おくりました",
-                "道具": "どうぐ", "特別": "とくべつ", "延期": "えんき", "抱えて": "かかえて",
-                "欧米": "おうべい", "湿気": "しっけ", "耕して": "たがやして", "診察": "しんさつ",
-                "豊富": "ほうふ", "補う": "おぎなう", "把握": "はあく", "措置": "そち",
-                "妥協": "だきょう", "蓄えて": "たくわえて", "顕著": "けんちょ"
-            }
-            expected = reading_dict.get(target)
-            if expected:
-                for opt in options:
-                    if opt["text"] == expected:
-                        return opt["id"], 1.0
+    blind_all_path = ROOT / 'qa/blind_review_dataset.json'
+    blind_all_path.write_text(json.dumps(blind_all, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    print(f"Exported blind review dataset: {blind_all_path} ({len(blind_all)} items)")
 
-    # 2. Affixes (Prefixes & Suffixes)
-    if "AFFX" in type_id:
-        affix_collocations = {
-            "居眠りばかりしている（　　）真面目": "不",
-            "騒ぐのは、（　　）意味": "無",
-            "20歳未満の人は（　　）成年": "未",
-            "とても効果（　　）な方法": "的",
-            "大きな達成（　　）を味わった": "感",
-            "この実験が成功する可能（　　）": "性",
-            "会社までの交通（　　）は": "費",
-            "社会のデジタル（　　）が進み": "化",
-            "国内の（　　）人口は": "総",
-            "直面している（　　）問題について": "諸",
-            "著作（　　）の侵害にあたる": "権",
-            "学会でも疑問（　　）される": "視",
-            "教育（　　）のみならず": "界"
-        }
-        for pattern, affix in affix_collocations.items():
-            if pattern in stem:
-                for opt in options:
-                    if opt["text"] == affix:
-                        return opt["id"], 1.0
-
-    # 3. Contextual Vocabulary & Grammar
-    if "CONT" in type_id or "FORM" in type_id:
-        vocab_grammar_keys = {
-            # N4 CONT
-            "どうぞ（　　）なく": "えんりょ",
-            "発車時刻に（　　）": "まにあいました",
-            "大きな声で話して": "はっきり",
-            "洗濯機が（　　）して動かない": "こしょう",
-            "頭の痛みが（　　）消えました": "すっかり",
-            "この機械の使い方はとても（　　）で": "ふくざつ",
-            "玄関の前に門松を（　　）": "かざりました",
-            "毎日の仕事にとても（　　）": "役に立ちます",
-            # N4 FORM
-            "図書館（　　）本を借りて": "で",
-            "ピアノを上手に（　　）ことができます": "ひく",
-            "野菜ジュースを飲む（　　）しています": "ように",
-            "刺身が食べられる（　　）なりました": "ように",
-            "写真を（　　）はいけません": "とって",
-            "薬を（　　）もいいですよ": "のまなくて",
-            "一口（　　）みてもいいですか": "たべて",
-            "電車の中に（　　）しまいました": "わすれて",
-            "富士山に（　　）ことがありますか": "のぼった",
-            "天気が（　　）、明日は海へ": "よければ",
-            "駅に（　　）、電話をかけてください": "ついたら",
-            "日本料理を作る（　　）、まず出汁": "なら",
-            # N3 CONT
-            "顔も性格も（　　）似ている": "そっくり",
-            "専門書が（　　）並べられている": "ぎっしり",
-            "温泉で（　　）過ごしたい": "のんびり",
-            "毎日がとても（　　）": "慌ただしい",
-            "（　　）な返事ばかりしていると": "曖昧",
-            "担当者に（　　）の連絡を入れた": "催促",
-            "いつも（　　）な態度を崩さない": "謙虚",
-            "書類の条件を（　　）確認してください": "慎重に",
-            # N3 FORM
-            "約束を破る（　　）。絶対に": "わけがない",
-            "全員が寿司を好きな（　　）": "わけではない",
-            "吸ってはいけない（　　）。": "ことになっている",
-            "夜9時以降は何も食べない（　　）。": "ことにしている",
-            "有名なイベントに（　　）。": "違いない",
-            "疲れている（　　）だ。": "はず",
-            "教えてくださった（　　）、無事に": "おかげで",
-            "昨夜飲みすぎた（　　）、今朝は": "せいで",
-            "この写真を見る（　　）、故郷": "たびに",
-            "大事な電話をかけている（　　）、突然": "最中に",
-            "地方の人口は減少する（　　）だ。": "一方",
-            "崩れる（　　）がある。": "おそれ",
-            # N2 CONT
-            "まだ（　　）としたイメージしか": "漠然",
-            "（　　）な計画に基づいて": "緻密",
-            "安全確認の手順を（　　）にしては": "おろそか",
-            "少しも（　　）することなく即答": "躊躇",
-            "新規事業がようやく（　　）に乗り": "軌道",
-            # N2 FORM
-            "弛まぬ努力の賜物に（　　）。": "ほかならない",
-            "不採算部門を閉鎖（　　）。": "せざるを得ない",
-            "存続が危ぶまれる技術が増加（　　）。": "しつつある",
-            "二度と会う（　　）。": "まい",
-            "新工場の完成（　　）、わが社は": "を契機に",
-            "デザイン（　　）、開発チーム内で": "をめぐって",
-            "傘を持たずに出てきた日（　　）、大雨": "に限って",
-            "胸に迫る（　　）。": "ものがある",
-        }
-        for pattern, target_text in vocab_grammar_keys.items():
-            if pattern in stem:
-                for opt in options:
-                    if opt["text"] == target_text:
-                        return opt["id"], 1.0
-
-    # 4. Star Questions (★ Ordering)
-    if "STAR" in type_id:
-        # Each star question has a validated target chunk that falls into slot 3 (★)
-        star_targets = {
-            "N4-GR-STAR-001": "ない",
-            "N4-GR-STAR-002": "旅行に",
-            "N4-GR-STAR-003": "休んだ",
-            "N4-GR-STAR-004": "できなかった",
-            "N4-GR-STAR-005": "説明も",
-            "N4-GR-STAR-006": "今",
-            "N3-GR-STAR-001": "誰でも",
-            "N3-GR-STAR-002": "反面",
-            "N3-GR-STAR-003": "集まった",
-            "N3-GR-STAR-004": "かけがえのない",
-            "N3-GR-STAR-005": "オンラインサービスが",
-            "N3-GR-STAR-006": "性能が",
-            "N2-GR-STAR-001": "存続をも",
-            "N2-GR-STAR-002": "一人ひとりの",
-            "N2-GR-STAR-003": "傲慢な態度を",
-            "N2-GR-STAR-004": "本番の",
-        }
-        target_chunk = star_targets.get(q["id"])
-        if target_chunk:
-            for opt in options:
-                if opt["text"] == target_chunk:
-                    return opt["id"], 1.0
-
-    # 5. Reading Comprehension (Short / Medium / Info)
-    if "RD" in type_id:
-        reading_targets = {
-            "N4-RD-SHOR-001": "燃えるゴミ",
-            "N4-RD-SHOR-002": "会議の時間が1時間遅くなったこと",
-            "N4-RD-SHOR-003": "少し濃かったが、おいしかった",
-            "N4-RD-SHOR-004": "正面入口のポストに入れる",
-            "N4-RD-INFO-001": "水泳教室",
-            "N4-RD-INFO-002": "予約は必要ない",
-            "N3-RD-SHOR-001": "今月末までに新しい条件のパスワードに変更する",
-            "N3-RD-SHOR-002": "車を維持するための費用がかからず経済的だから",
-            "N3-RD-SHOR-003": "飲み物とデザート",
-            "N3-RD-SHOR-004": "著者の意見に対して疑問を持ち、主体的に読むこと",
-            "N3-RD-SHOR-005": "ベランダでの喫煙は禁止されているのでやめてほしい",
-            "N3-RD-MEDI-001": "社員同士の直接的な対話が減り、意思疎通が難しくなったこと",
-            "N3-RD-MEDI-002": "日常の雑談や軽い相談を通じて自然に情報を共有できること",
-            "N3-RD-MEDI-003": "出社と在宅勤務の長所を組み合わせた柔軟な働き方が望ましい",
-            "N2-RD-SHOR-001": "AIと人間がそれぞれの強みを活かして協力し合う関係を築くべきだ",
-            "N2-RD-SHOR-002": "SNS上での業務情報や社内の写真の投稿を一切行わないこと",
-            "N2-RD-SHOR-003": "現代の暮らしに合わせて新しいデザインや用途を取り入れるべきだ",
-        }
-        target_text = reading_targets.get(q["id"])
-        if target_text:
-            for opt in options:
-                if opt["text"] == target_text:
-                    return opt["id"], 1.0
-
-    # Fallback / heuristic (should not be reached if all rules cover 120 items)
-    return "A", 0.5
+    # Per level partitions for focused subagent review
+    for lvl in ['N4', 'N3', 'N2']:
+        lvl_items = [b for b in blind_all if b['level'] == lvl]
+        lvl_path = ROOT / f'qa/blind_review_{lvl.lower()}.json'
+        lvl_path.write_text(json.dumps(lvl_items, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+        print(f"  Exported {lvl_path} ({len(lvl_items)} items)")
 
 
 def run_full_rebuild_and_validation():
     print("=" * 70)
-    print("REBUILDING & VALIDATING JP-STUDY 120-QUESTION BANK (PHASE 3.7 REPAIR)")
+    print("REBUILDING JP-STUDY 120-QUESTION BANK (REPRODUCIBLE SEEDED SHUFFLE)")
     print("=" * 70)
 
     questions = balance_and_compile_bank()
@@ -1718,7 +1542,6 @@ def run_full_rebuild_and_validation():
     # -------------------------------------------------------------------------
     # STAGE B: CONTENT & NEGATIVE TEST REJECTION COMPLIANCE
     # -------------------------------------------------------------------------
-    # Verify that NONE of the repaired items trigger the 5 negative audit conditions
     from scripts.tests.test_question_bank_negative import (
         validate_reading_inflection,
         validate_star_sentence_coherence,
@@ -1745,54 +1568,6 @@ def run_full_rebuild_and_validation():
     print("[PASS] GATE B: Content & Negative Audit Compliance (Zero Defects Found)")
 
     # -------------------------------------------------------------------------
-    # STAGE C: GENUINE INDEPENDENT BLIND SOLVING
-    # -------------------------------------------------------------------------
-    ledger_rows = []
-    now_ts = datetime.now(timezone.utc).isoformat()
-    reviewer_id = "independent-jlpt-linguistic-expert-v2"
-    blind_agreements = 0
-
-    for q in questions:
-        # Solve blindly (no correctAnswer, no explanationVi passed)
-        blind_q = {
-            "id": q["id"],
-            "level": q["level"],
-            "skill": q["skill"],
-            "typeId": q["typeId"],
-            "stem": q["stem"],
-            "contextPassage": q.get("contextPassage"),
-            "options": [{"id": o["id"], "text": o["text"]} for o in q["options"]]
-        }
-        blind_ans, confidence = independent_blind_solver(blind_q)
-        agreement = (blind_ans == q["correctAnswer"])
-        if agreement:
-            blind_agreements += 1
-        else:
-            raise AssertionError(f"Blind solve disagreement on {q['id']}: solver={blind_ans}, authored={q['correctAnswer']}")
-
-        ledger_rows.append({
-            "Question_ID": q["id"],
-            "Level": q["level"],
-            "Skill": q["skill"],
-            "Type_ID": q["typeId"],
-            "Concept_ID": q["conceptId"],
-            "Difficulty": q["difficultyEstimate"],
-            "Correct_Answer": q["correctAnswer"],
-            "Blind_Answer": blind_ans,
-            "Blind_Confidence": f"{confidence:.2f}",
-            "Reviewer_ID": reviewer_id,
-            "Timestamp": now_ts,
-            "Stage_A_Schema": "PASS",
-            "Stage_B_Content": "PASS",
-            "Stage_C_Blind_Solve": "PASS" if agreement else "FAIL",
-            "Stage_D_Adversarial": "PASS",
-            "Stage_E_Human_Review": "PENDING_LEARNER_CALIBRATION",
-            "Final_Status": "QA_VERIFIED"
-        })
-
-    print(f"[PASS] GATE C: Genuine Independent Blind Solving: {blind_agreements}/{len(questions)} Agreement (100% PASS)")
-
-    # -------------------------------------------------------------------------
     # STAGE D: ADVERSARIAL AUDIT & ANSWER DISTRIBUTION
     # -------------------------------------------------------------------------
     # 1. Stem uniqueness
@@ -1805,25 +1580,33 @@ def run_full_rebuild_and_validation():
     # 2. Answer distribution audit
     from collections import Counter
     overall_dist = Counter(q['correctAnswer'] for q in questions)
-    print(f"Overall Answer Distribution: {dict(overall_dist)}")
-    assert overall_dist == {'A': 30, 'B': 30, 'C': 30, 'D': 30}, f"Expected 30 each, got {overall_dist}"
+    print(f"Overall Answer Distribution (Seeded Shuffle): {dict(overall_dist)}")
+    
+    # Verify no option exceeds 35% or is below 15%
+    for opt in ['A', 'B', 'C', 'D']:
+        pct = overall_dist[opt] / len(questions)
+        assert 0.18 <= pct <= 0.32, f"Option {opt} proportion {pct:.2f} out of reasonable bounds [0.18, 0.32]"
 
-    # Distribution per level
-    for lvl in ['N4', 'N3', 'N2']:
-        lvl_dist = Counter(q['correctAnswer'] for q in questions if q['level'] == lvl)
-        print(f"  Level {lvl} Distribution ({sum(lvl_dist.values())} items): {dict(lvl_dist)}")
-        for opt in ['A', 'B', 'C', 'D']:
-            pct = lvl_dist[opt] / sum(lvl_dist.values())
-            assert 0.20 <= pct <= 0.30, f"{lvl} option {opt} proportion {pct:.2f} out of reasonable bounds [0.20, 0.30]"
+    # 3. Periodicity audit: ensure zero deterministic repeating cycles
+    seq = ''.join(q['correctAnswer'] for q in questions)
+    abcd_repeats = seq.count('ABCD') + seq.count('BCDA') + seq.count('CDAB') + seq.count('DABC')
+    print(f"Cyclic 4-tuples count (random baseline ~0.47 per 120): {abcd_repeats}")
+    assert abcd_repeats <= 3, f"Suspicious repeating cyclic pattern detected: {abcd_repeats}"
 
-    # 3. Consecutive identical answers check (max 2 consecutive identical answers)
-    for i in range(len(questions) - 2):
+    # 4. Consecutive identical answers check (max 3 consecutive identical answers)
+    for i in range(len(questions) - 3):
         a1 = questions[i]['correctAnswer']
         a2 = questions[i+1]['correctAnswer']
         a3 = questions[i+2]['correctAnswer']
-        assert not (a1 == a2 == a3), f"Three consecutive identical answers at index {i}: {a1}"
+        a4 = questions[i+3]['correctAnswer']
+        assert not (a1 == a2 == a3 == a4), f"Four consecutive identical answers at index {i}: {a1}"
 
-    print("[PASS] GATE D: Adversarial Audit & Answer Distribution (Balanced 25.0% each, zero repetition runs)")
+    print("[PASS] GATE D: Adversarial Audit & Non-Cyclic Answer Distribution")
+
+    # -------------------------------------------------------------------------
+    # EXPORT BLIND REVIEW DATASETS
+    # -------------------------------------------------------------------------
+    export_blind_datasets(questions)
 
     # -------------------------------------------------------------------------
     # WRITE EXPORT ARTIFACTS
@@ -1834,12 +1617,12 @@ def run_full_rebuild_and_validation():
 
     # 1. curriculum/QUESTION_BANK_EXPANDED.json
     bank_doc = {
-        "bankVersion": "phase3.7-120-repaired-2026.10.15",
+        "bankVersion": "phase3.7-120-reseeded-2026.10.15",
         "totalQuestions": len(questions),
         "levels": {"N4": n4_count, "N3": n3_count, "N2": n2_count},
         "answerDistribution": dict(overall_dist),
         "authority": "JEES / The Japan Foundation JLPT Specifications & Official Samples",
-        "description": "120 câu hỏi nguyên bản mới độc lập qua 5 cổng kiểm định sau đợt đại tu chất lượng toàn diện. Đã khắc phục 100% lỗi chia thì/thể, sửa toàn bộ 16 câu dấu sao cú pháp chuẩn Nhật, khử mơ hồ phương án nhiễu, cân bằng đáp án đúng 25% (30 câu mỗi đáp án A/B/C/D).",
+        "description": "120 câu hỏi nguyên bản mới với phân bổ đáp án xáo trộn hạt giống (seeded shuffle), loại bỏ chu kỳ lặp ABCD. Trạng thái hiện tại: INDEPENDENT_QA_PENDING.",
         "questions": questions
     }
     bank_path = ROOT / 'curriculum/QUESTION_BANK_EXPANDED.json'
@@ -1847,7 +1630,6 @@ def run_full_rebuild_and_validation():
     print(f"Wrote {bank_path}")
 
     # 2. qa/REJECTED_ITEMS.json
-    # Honest quarantine log documenting the repaired defects
     rejected_doc = {
         "snapshotDate": "2026-10-15",
         "quarantinedItems": [],
@@ -1881,15 +1663,22 @@ def run_full_rebuild_and_validation():
                 "defectType": "INCOHERENT_STAR_ASSEMBLY",
                 "originalIssue": "Proposed chunk permutation resulted in incoherent juxtaposition (おく followed by 朝慌てて).",
                 "resolution": "Redesigned sentence to 朝慌てて探すことがないように夜のうちに服を準備しておきます with clear slot order and explicit assembledSentence."
+            },
+            {
+                "itemId": "ALL-120-ITEMS",
+                "defectType": "DETERMINISTIC_ABCD_PATTERN_AND_FAKE_SOLVER",
+                "originalIssue": "Previous version used cyclic ABCD target allocation and a hardcoded lookup dictionary in independent_blind_solver.",
+                "resolution": "Eliminated hardcoded blind solver, reordered choices using seed-clean-audit seeded shuffle, marked bank INDEPENDENT_QA_PENDING, and prepared blind review dataset for genuine subagent evaluation."
             }
         ],
-        "note": "Tất cả 120 câu hỏi đã qua đợt đại tu Emergency Quality Repair. 5 lỗi phát hiện trong audit đã được kiểm tra bằng negative test suite và sửa triệt để."
+        "note": "Immutable audit history preserving all detected defects and their verified resolutions."
     }
     rej_path = ROOT / 'qa/REJECTED_ITEMS.json'
     rej_path.write_text(json.dumps(rejected_doc, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(f"Wrote {rej_path}")
 
-    # 3. qa/QUESTION_REVIEW_LEDGER.csv
+    # 3. qa/QUESTION_REVIEW_LEDGER.csv (Initial pending state)
+    now_ts = datetime.now(timezone.utc).isoformat()
     ledger_path = ROOT / 'qa/QUESTION_REVIEW_LEDGER.csv'
     with open(ledger_path, 'w', encoding='utf-8', newline='') as f:
         fieldnames = [
@@ -1900,62 +1689,63 @@ def run_full_rebuild_and_validation():
         ]
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
-        for row in ledger_rows:
-            writer.writerow(row)
+        for q in questions:
+            writer.writerow({
+                "Question_ID": q["id"],
+                "Level": q["level"],
+                "Skill": q["skill"],
+                "Type_ID": q["typeId"],
+                "Concept_ID": q["conceptId"],
+                "Difficulty": q["difficultyEstimate"],
+                "Correct_Answer": q["correctAnswer"],
+                "Blind_Answer": "PENDING_INDEPENDENT_EVALUATION",
+                "Blind_Confidence": "PENDING",
+                "Reviewer_ID": "AWAITING_INDEPENDENT_SUBAGENT",
+                "Timestamp": now_ts,
+                "Stage_A_Schema": "PASS",
+                "Stage_B_Content": "PASS",
+                "Stage_C_Blind_Solve": "PENDING",
+                "Stage_D_Adversarial": "PASS",
+                "Stage_E_Human_Review": "PENDING_LEARNER_CALIBRATION",
+                "Final_Status": "INDEPENDENT_QA_PENDING"
+            })
     print(f"Wrote {ledger_path}")
 
     # 4. qa/QUESTION_BANK_QA.md
-    qa_report = f"""# BÁO CÁO KIỂM ĐỊNH CHẤT LƯỢNG NGÂN HÀNG CÂU HỎI (PHASE 3.7 - REPAIRED)
+    qa_report = f"""# BÁO CÁO KIỂM ĐỊNH CHẤT LƯỢNG NGÂN HÀNG CÂU HỎI (PHASE 3.7 - INDEPENDENT QA IN PROGRESS)
 ## INDEPENDENT QUESTION BANK QA & MULTI-STAGE AUDIT REPORT
 
-### 1. TỔNG QUAN PHÁT TRIỂN & ĐẠI TU CHẤT LƯỢNG NỘI DUNG
-- **Tổng số câu hỏi trong ngân hàng mở rộng:** {len(questions)} câu (100% Unique Items).
+### 1. TỔNG QUAN HIỆN TRẠNG
+- **Tổng số câu hỏi trong ngân hàng:** {len(questions)} câu (100% Unique Items).
 - **Phân bổ theo cấp độ:**
   - **N4:** {n4_count} câu (Phục hồi nền tảng: Từ vựng, Trợ từ, Chia thể, Đọc hiểu đoản văn, Tìm kiếm thông tin).
   - **N3:** {n3_count} câu (Bước đệm trung cấp: Kanji, Cấu tạo từ ghép, Ngữ pháp mẫu câu, Câu dấu sao, Trung văn).
   - **N2:** {n2_count} câu (Luyện đề mục tiêu: Kanji cao cấp, Từ vựng trừu tượng, Ngữ pháp kép, Đoản văn nghị luận).
-- **Phân bổ đáp án đúng (Answer Distribution):**
-  - **A:** 30 câu (25.0%)
-  - **B:** 30 câu (25.0%)
-  - **C:** 30 câu (25.0%)
-  - **D:** 30 câu (25.0%)
-  - *Tỷ lệ cân bằng tuyệt đối 25% cho mỗi phương án, loại bỏ hoàn toàn thiên kiến đáp án A (103/120) của bản thử nghiệm cũ.*
-- **Trạng thái kiểm định:** Đạt 100% qua 5 Cổng kiểm định độc lập và kiểm tra chống lỗi hồi quy (Negative Test Suite).
+- **Phân bổ đáp án đúng (Seeded Shuffle - Non-cyclic):**
+  - **A:** {overall_dist['A']} câu ({overall_dist['A']/120*100:.1f}%)
+  - **B:** {overall_dist['B']} câu ({overall_dist['B']/120*100:.1f}%)
+  - **C:** {overall_dist['C']} câu ({overall_dist['C']/120*100:.1f}%)
+  - **D:** {overall_dist['D']} câu ({overall_dist['D']/120*100:.1f}%)
+  - *Đã loại bỏ hoàn toàn chuỗi lặp ABCD xác định. Phân bổ tự nhiên, không lộ mẫu chu kỳ.*
+- **Trạng thái kiểm định hiện tại:** `INDEPENDENT_QA_PENDING`. Toàn bộ tuyên bố chưa được kiểm chứng về 120/120 chuyên gia giải mù đã bị loại bỏ; bộ giải lookup giả lập đã bị xóa.
 
 ---
 
-### 2. KẾT QUẢ 5 CỔNG KIỂM ĐỊNH (5-STAGE QA GATES)
+### 2. KẾT QUẢ CÁC CỔNG KIỂM ĐỊNH
 
-| Cổng kiểm định | Nội dung kiểm tra | Kết quả | Ghi chú kỹ thuật & Sư phạm |
+| Cổng kiểm định | Nội dung kiểm tra | Kết quả | Ghi chú kỹ thuật |
 | :--- | :--- | :---: | :--- |
-| **Cổng A: Schema** | Định dạng JSON, 4 lựa chọn, đáp án [A-D], giải thích tiếng Việt chi tiết | **120 / 120 PASS** | 100% cấu trúc hợp lệ, không thiếu trường |
-| **Cổng B: Ngôn ngữ Nhật** | Tính tự nhiên, chuẩn hình thái từ, từ loại, khử mơ hồ phương án nhiễu | **120 / 120 PASS** | Vượt qua Negative Test Suite (khắc phục 5 lỗi nghiêm trọng đã xác nhận) |
-| **Cổng C: Giải mù độc lập** | Độc lập giải đề chỉ dựa trên ngữ cảnh và phương án (không nhìn trước đáp án) | **120 / 120 PASS** | Đạt tỷ lệ đồng thuận 100% qua mô hình chuyên gia ngôn ngữ độc lập |
-| **Cổng D: Phản biện & Phân bổ** | Chống trùng ngữ liệu stem, kiểm toán phân bổ đáp án, kiểm tra lắp ráp câu dấu sao | **120 / 120 PASS** | Cân bằng 30 A / 30 B / 30 C / 30 D, 0 stem trùng lặp |
-| **Cổng E: Thẩm định thực tế** | Thẩm định bởi học viên và giáo viên hiệu chuẩn độ khó thực tế | **PENDING** | Đánh dấu PENDING_LEARNER_CALIBRATION trung thực, không tạo chứng nhận giả |
+| **Cổng A: Schema** | Định dạng JSON, 4 lựa chọn, đáp án [A-D], giải thích tiếng Việt chi tiết | **120 / 120 PASS** | Cấu trúc dữ liệu hợp lệ |
+| **Cổng B: Ngôn ngữ Nhật** | Tính tự nhiên, chuẩn hình thái từ, từ loại, khử mơ hồ phương án nhiễu | **120 / 120 PASS** | Vượt qua Negative Test Suite |
+| **Cổng C: Giải mù độc lập** | Độc lập giải đề từ mô hình/chuyên gia riêng biệt không có đáp án tác giả | **IN PROGRESS** | Đang gửi dataset mù tới subagent độc lập |
+| **Cổng D: Phản biện & Phân bổ** | Chống trùng ngữ liệu stem, kiểm toán phân bổ phi chu kỳ, kiểm tra lắp ráp câu dấu sao | **120 / 120 PASS** | Phân bổ ngẫu nhiên có hạt giống, 0 stem trùng lặp |
+| **Cổng E: Thẩm định thực tế** | Thẩm định bởi học viên và giáo viên hiệu chuẩn độ khó thực tế | **PENDING** | Đánh dấu PENDING_LEARNER_CALIBRATION trung thực |
 
 ---
 
-### 3. KẾT QUẢ XỬ LÝ 5 LỖI NỘI DUNG ĐƯỢC PHÁT HIỆN TRONG AUDIT
-
-1. **N4-MO-READ-002, 004, 006 (Lệch thể giữa từ hỏi và phương án):**
-   - *Nguyên nhân cũ:* Stem trích dẫn thể từ điển 「貸す」, 「拾う」, 「送る」 nhưng phương án lại là thể lịch sự/quá khứ (かしました, ひろいました, おくりました).
-   - *Khắc phục:* Chuẩn hóa toàn bộ câu đọc Kanji sang chuẩn JLPT chính thức: Đặt từ cần đọc trong ngoặc vuông 【...】 trực tiếp trong câu ngữ cảnh hoàn chỉnh (ví dụ: `友達に日本語の辞書を【貸しました】。`).
-2. **N4-GR-FORM-003 (Mơ hồ phương án nhiễu):**
-   - *Nguyên nhân cũ:* Cả `ようにしています` và `ことにしています` đều có thể điền đúng trong ngữ cảnh thói quen sinh hoạt.
-   - *Khắc phục:* Thay phương án nhiễu `ことに` bằng `ために`, đảm bảo chỉ có duy nhất `ように` phù hợp ngữ pháp.
-3. **N4-GR-STAR-001 (Lắp ráp câu dấu sao không ngữ pháp):**
-   - *Nguyên nhân cũ:* Cách sắp xếp cũ ghép `おく` đi liền với `朝慌てて` gây đứt gãy cú pháp.
-   - *Khắc phục:* Viết lại câu chuẩn tự nhiên `朝慌てて探すことがないように夜のうちに服を準備しておきます`, lưu trữ chuỗi lắp ráp `assembledSentence` minh bạch trong metadata câu hỏi.
-4. **Cả 16 câu dấu sao (N4, N3, N2):**
-   - Đã được chuẩn hóa cú pháp, rà soát vị trí dấu sao cố định ở vị trí thứ 3 trong chuỗi 4 chỗ trống `（　　）（　　） ★ （　　）`, loại bỏ toàn bộ lỗi lệch chỉ mục (off-by-one).
-5. **Cân bằng đáp án:**
-   - 120 câu hỏi được hoán vị phương án xác thực, đạt chính xác 30 A, 30 B, 30 C, 30 D. Không có trường hợp nào xuất hiện 3 câu liên tiếp cùng 1 đáp án.
-
----
-
-### 4. SỔ THEO DÕI VÀ TÀI LIỆU LIÊN QUAN
-- **Sổ cái kiểm định chi tiết từng câu:** [`qa/QUESTION_REVIEW_LEDGER.csv`](QUESTION_REVIEW_LEDGER.csv)
+### 3. TÀI LIỆU VÀ DỮ LIỆU ĐANG TIẾN HÀNH
+- **Tập dữ liệu giải mù (không có đáp án/giải thích):** [`qa/blind_review_dataset.json`](blind_review_dataset.json)
+- **Sổ cái kiểm định chi tiết:** [`qa/QUESTION_REVIEW_LEDGER.csv`](QUESTION_REVIEW_LEDGER.csv)
 - **Hồ sơ lỗi lịch sử và xử lý:** [`qa/REJECTED_ITEMS.json`](REJECTED_ITEMS.json)
 - **Bộ kiểm thử tự động chống lỗi hồi quy:** [`scripts/tests/test_question_bank_negative.py`](../scripts/tests/test_question_bank_negative.py)
 """
@@ -1970,10 +1760,8 @@ def run_full_rebuild_and_validation():
     with open(practice_sets_path, 'r', encoding='utf-8') as f:
         ps_doc = json.load(f)
 
-    # Update status for the 20 practice sets: from CONTENT_QA_BLOCKED to QA_PASSED_NOT_DEPLOYED
-    # Keep the 3 Mock Exams as NOT_READY — INSUFFICIENT UNIQUE ITEMS
     updated_sets = []
-    qa_passed_count = 0
+    blocked_count = 0
     not_ready_count = 0
 
     for s in ps_doc['sets']:
@@ -1982,28 +1770,28 @@ def run_full_rebuild_and_validation():
             s['implementationType'] = "SPEC_ONLY"
             not_ready_count += 1
         else:
-            s['readinessStatus'] = "QA_PASSED_NOT_DEPLOYED"
+            s['readinessStatus'] = "CONTENT_QA_BLOCKED"
             s['implementationType'] = "SPEC_ONLY"
-            s.pop('blockReason', None)
-            s['deploymentNote'] = "Đặc tả cấu trúc đề đã qua kiểm định Cổng A-D đạt chuẩn. Chưa xuất bản Google Form thực tế (Spec Only, giữ nguyên 3 Form P0 hiện hành)."
-            qa_passed_count += 1
+            s['blockReason'] = "Phân hệ bộ đề bị tạm khóa (CONTENT_QA_BLOCKED) do ngân hàng 120 câu hỏi đang trong quy trình đánh giá mù độc lập thực chất."
+            blocked_count += 1
         updated_sets.append(s)
 
-    ps_doc['version'] = "phase-3.7-qa-passed-spec"
+    ps_doc['version'] = "phase-3.7-independent-qa-pending"
     ps_doc['countsByStatus'] = {
         "LIVE_VERIFIED": 0,
-        "QA_PASSED_NOT_DEPLOYED": qa_passed_count,
+        "CONTENT_QA_BLOCKED": blocked_count,
         "NOT_READY": not_ready_count
     }
     ps_doc['sets'] = updated_sets
 
     practice_sets_path.write_text(json.dumps(ps_doc, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    print(f"Updated {practice_sets_path}: {qa_passed_count} sets marked QA_PASSED_NOT_DEPLOYED, {not_ready_count} marked NOT_READY.")
+    print(f"Updated {practice_sets_path}: {blocked_count} sets marked CONTENT_QA_BLOCKED, {not_ready_count} marked NOT_READY.")
 
     print("=" * 70)
-    print("ALL 120 ITEMS REBUILT, VERIFIED, BALANCED & EXPORTED SUCCESSFULLY!")
+    print("BANK REBUILT WITH SEEDED SHUFFLE & BLIND DATASET EXPORTED SUCCESSFULLY!")
     print("=" * 70)
 
 
 if __name__ == '__main__':
     run_full_rebuild_and_validation()
+

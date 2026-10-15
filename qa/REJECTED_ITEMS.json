@@ -31,7 +31,13 @@
       "defectType": "INCOHERENT_STAR_ASSEMBLY",
       "originalIssue": "Proposed chunk permutation resulted in incoherent juxtaposition (おく followed by 朝慌てて).",
       "resolution": "Redesigned sentence to 朝慌てて探すことがないように夜のうちに服を準備しておきます with clear slot order and explicit assembledSentence."
+    },
+    {
+      "itemId": "ALL-120-ITEMS",
+      "defectType": "DETERMINISTIC_ABCD_PATTERN_AND_FAKE_SOLVER",
+      "originalIssue": "Previous version used cyclic ABCD target allocation and a hardcoded lookup dictionary in independent_blind_solver.",
+      "resolution": "Eliminated hardcoded blind solver, reordered choices using seed-clean-audit seeded shuffle, marked bank INDEPENDENT_QA_PENDING, and prepared blind review dataset for genuine subagent evaluation."
     }
   ],
-  "note": "Tất cả 120 câu hỏi đã qua đợt đại tu Emergency Quality Repair. 5 lỗi phát hiện trong audit đã được kiểm tra bằng negative test suite và sửa triệt để."
+  "note": "Immutable audit history preserving all detected defects and their verified resolutions."
 }

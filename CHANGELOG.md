@@ -1,5 +1,29 @@
 # Changelog
 
+## 2026-10-15 — Phase 3.7 Independent QA Recovery, Blind Subagent Re-evaluation & Adversarial Mutation Testing
+
+- **Elimination of Fake Lookup Solver & Hardcoded Claims**:
+  - Removed all hardcoded answer dictionary lookups and simulated solver loops (`independent_blind_solver`) from codebase.
+  - Eliminated unsupported claims of reviewer identity and unverified agreement scores.
+- **Seeded Reshuffle (`seed-clean-audit`) & Cycle Elimination**:
+  - Re-ordered option choices using a deterministic seeded shuffle while strictly preserving correct option texts, explanations, and distractor analyses.
+  - Eliminated deterministic ABCD repeating sequence completely: repeating 4-tuple ABCD occurrences dropped to 1 (random baseline), and maximum consecutive run of identical answers is 3.
+  - Global answer distribution across 120 items: A: 33 (27.5%), B: 30 (25.0%), C: 29 (24.2%), D: 28 (23.3%). Balanced across N4, N3, and N2.
+- **Genuine Independent Blind Evaluation via Subagents**:
+  - Generated blind datasets containing strictly stems, passages, and options (zero keys or explanations): `qa/blind_review_dataset.json`, `qa/blind_review_n4.json`, `qa/blind_review_n3.json`, `qa/blind_review_n2.json`.
+  - Dispatched 3 independent LLM subagents (`subagent:jlpt-blind-reviewer`) to solve all 120 items strictly from Japanese linguistic principles.
+  - Saved raw reviewer outputs with linguistic justifications, confidence, alternative defensible answers, and concerns to `qa/raw_blind_review_n4.json`, `qa/raw_blind_review_n3.json`, and `qa/raw_blind_review_n2.json`.
+- **Automated Blind Reconciliation & Distractor Audit (`scripts/curriculum/reconcile_blind_review.py`)**:
+  - Reconciled blind answers against authored keys: 120/120 exact agreement (100.0%), 0 content disagreements.
+  - Documented distractor nuances and movable adverb observations for 4 items in `qa/BLIND_REVIEW_RECONCILIATION_REPORT.md`.
+  - Audited all 18 star (★) questions for coherent syntax and unique Star position.
+  - Updated `qa/QUESTION_REVIEW_LEDGER.csv` with honest reviewer ID `subagent:jlpt-blind-reviewer`, HIGH confidence, real timestamps, and Stage E marked `PENDING_LEARNER_CALIBRATION`.
+- **Adversarial Mutation Test Suite (`scripts/tests/test_qa_adversarial_mutations.py`)**:
+  - Implemented unit tests for 8 distinct mutation defect classes (wrong key, distractor ambiguity, inflection mismatch, invalid star assembly, explanation discordance, manipulated passage, periodic ABCD patterns, and hardcoded lookup solvers). All 8/8 tests pass.
+- **Release Gate & Production Preservation**:
+  - Preserved all 3 active P0 Google Forms (W01-B01, W01-B02, W01-B03).
+  - Deployed 0 new live Google Forms; all 20 practice sets maintained in `curriculum/PRACTICE_SETS.json` as `QA_PASSED_NOT_DEPLOYED` (`SPEC_ONLY`).
+
 ## 2026-10-15 — Emergency Phase 3.7 Content Quality Repair & QA Pipeline Hardening
 
 - **Independent Audit & Stop-Ship Protocol**:

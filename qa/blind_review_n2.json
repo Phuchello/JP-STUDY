@@ -1,0 +1,782 @@
+[
+  {
+    "id": "N2-MO-READ-001",
+    "level": "N2",
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-READ",
+    "stem": "会議の前に、現在の市場動向を正確に【把握】しておく必要がある。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "はそく"
+      },
+      {
+        "id": "B",
+        "text": "はこう"
+      },
+      {
+        "id": "C",
+        "text": "ばあく"
+      },
+      {
+        "id": "D",
+        "text": "はあく"
+      }
+    ]
+  },
+  {
+    "id": "N2-MO-READ-002",
+    "level": "N2",
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-READ",
+    "stem": "政府は物価高騰に対して緊急の【措置】を講じることを発表した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "そじ"
+      },
+      {
+        "id": "B",
+        "text": "しょち"
+      },
+      {
+        "id": "C",
+        "text": "そち"
+      },
+      {
+        "id": "D",
+        "text": "そうち"
+      }
+    ]
+  },
+  {
+    "id": "N2-MO-READ-003",
+    "level": "N2",
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-READ",
+    "stem": "双方が一歩も譲らず、議論は【妥協】点を見出せないまま終わった。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "ときょう"
+      },
+      {
+        "id": "B",
+        "text": "だきょう"
+      },
+      {
+        "id": "C",
+        "text": "だごう"
+      },
+      {
+        "id": "D",
+        "text": "たいきょう"
+      }
+    ]
+  },
+  {
+    "id": "N2-MO-READ-004",
+    "level": "N2",
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-READ",
+    "stem": "将来の不測の事態に備えて、日頃から体力を【蓄えて】おくことが大切だ。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "かかえて"
+      },
+      {
+        "id": "B",
+        "text": "たくわえて"
+      },
+      {
+        "id": "C",
+        "text": "たくして"
+      },
+      {
+        "id": "D",
+        "text": "そなえて"
+      }
+    ]
+  },
+  {
+    "id": "N2-MO-READ-005",
+    "level": "N2",
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-READ",
+    "stem": "新しい政策を導入した結果、若者の雇用率に【顕著】な改善が見られた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "げんちょ"
+      },
+      {
+        "id": "B",
+        "text": "けんしょ"
+      },
+      {
+        "id": "C",
+        "text": "けんちょ"
+      },
+      {
+        "id": "D",
+        "text": "けんじょ"
+      }
+    ]
+  },
+  {
+    "id": "N2-MO-AFFX-001",
+    "level": "N2",
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-AFFX",
+    "stem": "国内の（　　）人口は年々減少傾向にある。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "総"
+      },
+      {
+        "id": "B",
+        "text": "諸"
+      },
+      {
+        "id": "C",
+        "text": "大"
+      },
+      {
+        "id": "D",
+        "text": "全"
+      }
+    ]
+  },
+  {
+    "id": "N2-MO-AFFX-002",
+    "level": "N2",
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-AFFX",
+    "stem": "国際社会が直面している（　　）問題について議論が交わされた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "総"
+      },
+      {
+        "id": "B",
+        "text": "諸"
+      },
+      {
+        "id": "C",
+        "text": "多"
+      },
+      {
+        "id": "D",
+        "text": "各"
+      }
+    ]
+  },
+  {
+    "id": "N2-MO-AFFX-003",
+    "level": "N2",
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-AFFX",
+    "stem": "他人の著作物を無断でインターネット上に公開することは、著作（　　）の侵害にあたる。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "律"
+      },
+      {
+        "id": "B",
+        "text": "法"
+      },
+      {
+        "id": "C",
+        "text": "制"
+      },
+      {
+        "id": "D",
+        "text": "権"
+      }
+    ]
+  },
+  {
+    "id": "N2-MO-AFFX-004",
+    "level": "N2",
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-AFFX",
+    "stem": "根拠が不十分な仮説は、学会でも疑問（　　）されることが多い。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "見"
+      },
+      {
+        "id": "B",
+        "text": "観"
+      },
+      {
+        "id": "C",
+        "text": "感"
+      },
+      {
+        "id": "D",
+        "text": "視"
+      }
+    ]
+  },
+  {
+    "id": "N2-MO-AFFX-005",
+    "level": "N2",
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-AFFX",
+    "stem": "彼の功績は教育（　　）のみならず、政界からも高く評価されている。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "側"
+      },
+      {
+        "id": "B",
+        "text": "界"
+      },
+      {
+        "id": "C",
+        "text": "層"
+      },
+      {
+        "id": "D",
+        "text": "圏"
+      }
+    ]
+  },
+  {
+    "id": "N2-MO-CONT-001",
+    "level": "N2",
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-CONT",
+    "stem": "将来の計画について聞かれたが、まだ（　　）としたイメージしか持っていない。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "平然"
+      },
+      {
+        "id": "B",
+        "text": "漠然"
+      },
+      {
+        "id": "C",
+        "text": "整然"
+      },
+      {
+        "id": "D",
+        "text": "歴然"
+      }
+    ]
+  },
+  {
+    "id": "N2-MO-CONT-002",
+    "level": "N2",
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-CONT",
+    "stem": "このプロジェクトは（　　）な計画に基づいて進められており、失敗の余地がほとんどない。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "緻密"
+      },
+      {
+        "id": "B",
+        "text": "過密"
+      },
+      {
+        "id": "C",
+        "text": "親密"
+      },
+      {
+        "id": "D",
+        "text": "濃密"
+      }
+    ]
+  },
+  {
+    "id": "N2-MO-CONT-003",
+    "level": "N2",
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-CONT",
+    "stem": "危険を伴う作業だからこそ、安全確認の手順を（　　）にしてはならない。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "おおらか"
+      },
+      {
+        "id": "B",
+        "text": "おろそか"
+      },
+      {
+        "id": "C",
+        "text": "あざやか"
+      },
+      {
+        "id": "D",
+        "text": "なだらか"
+      }
+    ]
+  },
+  {
+    "id": "N2-MO-CONT-004",
+    "level": "N2",
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-CONT",
+    "stem": "重大な決断を迫られたが、彼は少しも（　　）することなく即答した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "妥協"
+      },
+      {
+        "id": "B",
+        "text": "錯覚"
+      },
+      {
+        "id": "C",
+        "text": "躊躇"
+      },
+      {
+        "id": "D",
+        "text": "困惑"
+      }
+    ]
+  },
+  {
+    "id": "N2-MO-CONT-005",
+    "level": "N2",
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-CONT",
+    "stem": "新規事業がようやく（　　）に乗り、収益が安定してきた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "進路"
+      },
+      {
+        "id": "B",
+        "text": "順路"
+      },
+      {
+        "id": "C",
+        "text": "路線"
+      },
+      {
+        "id": "D",
+        "text": "軌道"
+      }
+    ]
+  },
+  {
+    "id": "N2-GR-FORM-001",
+    "level": "N2",
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "stem": "彼が今回の困難な事業を成功させることができたのは、日頃の弛まぬ努力の賜物に（　　）。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "すぎない"
+      },
+      {
+        "id": "B",
+        "text": "限らない"
+      },
+      {
+        "id": "C",
+        "text": "ほかならない"
+      },
+      {
+        "id": "D",
+        "text": "相違ない"
+      }
+    ]
+  },
+  {
+    "id": "N2-GR-FORM-002",
+    "level": "N2",
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "stem": "これ以上赤字が続くようであれば、不採算部門を閉鎖（　　）。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "せざるを得ない"
+      },
+      {
+        "id": "B",
+        "text": "するわけにはいかない"
+      },
+      {
+        "id": "C",
+        "text": "せざるを得ず"
+      },
+      {
+        "id": "D",
+        "text": "するはずがない"
+      }
+    ]
+  },
+  {
+    "id": "N2-GR-FORM-003",
+    "level": "N2",
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "stem": "伝統的な工芸技術を受け継ぐ後継者が不足し、存続が危ぶまれる技術が増加（　　）。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "しつつある"
+      },
+      {
+        "id": "B",
+        "text": "したきりだ"
+      },
+      {
+        "id": "C",
+        "text": "するばかりだ"
+      },
+      {
+        "id": "D",
+        "text": "する一方だ"
+      }
+    ]
+  },
+  {
+    "id": "N2-GR-FORM-004",
+    "level": "N2",
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "stem": "あんな無礼な態度をとる相手とは、二度と会う（　　）。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "ことか"
+      },
+      {
+        "id": "B",
+        "text": "わけだ"
+      },
+      {
+        "id": "C",
+        "text": "ものだ"
+      },
+      {
+        "id": "D",
+        "text": "まい"
+      }
+    ]
+  },
+  {
+    "id": "N2-GR-FORM-005",
+    "level": "N2",
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "stem": "新工場の完成（　　）、わが社はアジア市場への本格的な進出を開始した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "を抜きにして"
+      },
+      {
+        "id": "B",
+        "text": "を皮切りに"
+      },
+      {
+        "id": "C",
+        "text": "をよそに"
+      },
+      {
+        "id": "D",
+        "text": "を契機に"
+      }
+    ]
+  },
+  {
+    "id": "N2-GR-FORM-006",
+    "level": "N2",
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "stem": "新商品のデザイン（　　）、開発チーム内で活発な議論が交わされた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "に際して"
+      },
+      {
+        "id": "B",
+        "text": "にかけて"
+      },
+      {
+        "id": "C",
+        "text": "に即して"
+      },
+      {
+        "id": "D",
+        "text": "をめぐって"
+      }
+    ]
+  },
+  {
+    "id": "N2-GR-FORM-007",
+    "level": "N2",
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "stem": "傘を持たずに出てきた日（　　）、大雨が降ってくるのだから困ったものだ。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "に限って"
+      },
+      {
+        "id": "B",
+        "text": "をはじめ"
+      },
+      {
+        "id": "C",
+        "text": "をこめて"
+      },
+      {
+        "id": "D",
+        "text": "を契機に"
+      }
+    ]
+  },
+  {
+    "id": "N2-GR-FORM-008",
+    "level": "N2",
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "stem": "長年住み慣れた家を取り壊すのは、やはり胸に迫る（　　）。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "ものがある"
+      },
+      {
+        "id": "B",
+        "text": "わけがない"
+      },
+      {
+        "id": "C",
+        "text": "ことになっている"
+      },
+      {
+        "id": "D",
+        "text": "はずがない"
+      }
+    ]
+  },
+  {
+    "id": "N2-GR-STAR-001",
+    "level": "N2",
+    "skill": "Grammar",
+    "typeId": "N2-GR-STAR",
+    "stem": "今回の不祥事は会社の信用を（　　）（　　） ★ （　　）重大な問題である。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "失墜させる"
+      },
+      {
+        "id": "B",
+        "text": "存続をも"
+      },
+      {
+        "id": "C",
+        "text": "脅かしかねない"
+      },
+      {
+        "id": "D",
+        "text": "どころか"
+      }
+    ]
+  },
+  {
+    "id": "N2-GR-STAR-002",
+    "level": "N2",
+    "skill": "Grammar",
+    "typeId": "N2-GR-STAR",
+    "stem": "どのような困難な課題であっても、（　　）（　　） ★ （　　）次第で克服できる。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "取り組み方"
+      },
+      {
+        "id": "B",
+        "text": "一人ひとりの"
+      },
+      {
+        "id": "C",
+        "text": "団結と"
+      },
+      {
+        "id": "D",
+        "text": "チームの"
+      }
+    ]
+  },
+  {
+    "id": "N2-GR-STAR-003",
+    "level": "N2",
+    "skill": "Grammar",
+    "typeId": "N2-GR-STAR",
+    "stem": "いくら専門知識が（　　）（　　） ★ （　　）周囲の信頼は得られない。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "豊富だから"
+      },
+      {
+        "id": "B",
+        "text": "とっていては"
+      },
+      {
+        "id": "C",
+        "text": "といって"
+      },
+      {
+        "id": "D",
+        "text": "傲慢な態度を"
+      }
+    ]
+  },
+  {
+    "id": "N2-GR-STAR-004",
+    "level": "N2",
+    "skill": "Grammar",
+    "typeId": "N2-GR-STAR",
+    "stem": "事前の綿密な（　　）（　　） ★ （　　）予期せぬトラブルが発生した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "かかわらず"
+      },
+      {
+        "id": "B",
+        "text": "計画にも"
+      },
+      {
+        "id": "C",
+        "text": "本番の"
+      },
+      {
+        "id": "D",
+        "text": "現場では"
+      }
+    ]
+  },
+  {
+    "id": "N2-RD-SHOR-001",
+    "level": "N2",
+    "skill": "Reading",
+    "typeId": "N2-RD-SHOR",
+    "stem": "筆者が最も主張したいことはどれですか。",
+    "contextPassage": "AI技術の急速な進歩により、データ分析や定型業務の自動化が進んでいる。しかし、複雑な利害関係を調整し、倫理的な判断を下す領域においては、依然として人間の直感や対話能力が不可欠である。技術を過信することなく、人間とAIがそれぞれの強みを補完し合う体制の構築こそが、持続可能な発展をもたらすのである。",
+    "options": [
+      {
+        "id": "A",
+        "text": "AIは倫理的判断もすべて人間に代わって行えるようになるべきだ"
+      },
+      {
+        "id": "B",
+        "text": "直感や対話能力は科学的な根拠に欠けるため排除すべきだ"
+      },
+      {
+        "id": "C",
+        "text": "AIと人間がそれぞれの強みを活かして協力し合う関係を築くべきだ"
+      },
+      {
+        "id": "D",
+        "text": "定型業務であってもAIに任せるのは危険である"
+      }
+    ]
+  },
+  {
+    "id": "N2-RD-SHOR-002",
+    "level": "N2",
+    "skill": "Reading",
+    "typeId": "N2-RD-SHOR",
+    "stem": "この文書が全社員に求めている最も重要な行動は何ですか。",
+    "contextPassage": "社内コンプライアンス規程の改定について：近年、SNSを通じた機密情報の漏洩リスクが高まっています。業務に関する記述はもちろんのこと、社内の様子が推測できる写真の投稿も固く禁止します。違反が確認された場合は、就業規則に基づき厳正な懲戒処分の対象となりますので、一人ひとりが高い自覚を持って行動してください。",
+    "options": [
+      {
+        "id": "A",
+        "text": "社内の不祥事を見つけたら直ちにSNSで告発すること"
+      },
+      {
+        "id": "B",
+        "text": "会社の公式アカウントを積極的にフォローすること"
+      },
+      {
+        "id": "C",
+        "text": "就業規則の改定案に対して意見を提出すること"
+      },
+      {
+        "id": "D",
+        "text": "SNS上での業務情報や社内の写真の投稿を一切行わないこと"
+      }
+    ]
+  },
+  {
+    "id": "N2-RD-SHOR-003",
+    "level": "N2",
+    "skill": "Reading",
+    "typeId": "N2-RD-SHOR",
+    "stem": "伝統工芸の継承について、筆者はどのように考えていますか。",
+    "contextPassage": "伝統工芸の継承において、古くから伝わる技法をそのまま守り続けることだけが正解とは限らない。時代とともに変化する現代の生活様式に合わせて、新たなデザインや用途を開拓してこそ、伝統は生命力を保ち続けることができる。過去の形式に固執するあまり需要を失ってしまっては、継承そのものが途絶えてしまうからである。",
+    "options": [
+      {
+        "id": "A",
+        "text": "伝統工芸は生活必需品ではないため商業化すべきではない"
+      },
+      {
+        "id": "B",
+        "text": "需要がなくなった工芸品は自然に消滅してもやむを得ない"
+      },
+      {
+        "id": "C",
+        "text": "過去の技法を一切変えずにそのまま保存することが最優先である"
+      },
+      {
+        "id": "D",
+        "text": "現代の暮らしに合わせて新しいデザインや用途を取り入れるべきだ"
+      }
+    ]
+  }
+]

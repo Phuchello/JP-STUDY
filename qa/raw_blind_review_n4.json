@@ -1,0 +1,328 @@
+[
+  {
+    "id": "N4-MO-READ-001",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The kanji compound 『案内』 consists of 案 (あん) and 内 (ない), pronounced 『あんない』 (guidance, showing around). Option C represents the exact correct reading.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N4-MO-READ-002",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "The verb 『貸す』 (to lend) conjugated into the polite past form 『貸しました』 is read 『かしました』. Option D is the exact correct phonetic reading.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N4-MO-READ-003",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The noun 『計画』 (plan/planning) is composed of 計 (けい) and 画 (かく), pronounced 『けいかく』. Option B is the standard on'yomi reading.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N4-MO-READ-004",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The verb 『拾う』 (to pick up, find) in polite past form 『拾いました』 is read 『ひろいました』. Option C is the correct reading.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N4-MO-READ-005",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The noun 『質問』 (question) is composed of 質 (しつ) and 問 (もん), pronounced 『しつもん』. Option C is the correct reading.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N4-MO-READ-006",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The verb 『送る』 (to send) in polite past form 『送りました』 is read 『おくりました』. Option B is the correct reading.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N4-MO-READ-007",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The noun 『道具』 (tool, instrument) consists of 道 (どう) and 具 (ぐ), both voiced (dakuon), read 『どうぐ』. Option A is the correct reading.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N4-MO-READ-008",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The na-adjective/noun 『特別』 (special) consists of 特 (とく) and 別 (べつ), read 『とくべつ』. Option A is the correct reading.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N4-MO-CONT-001",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The fixed polite set phrase 『どうぞ遠慮なくお召し上がりください』 uses 『遠慮なく』 (えんりょなく) meaning 'without hesitation / without standing on ceremony / please help yourself'. None of the other options collocate with 『〜なくお召し上がりください』.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N4-MO-CONT-002",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The collocation 『〜に間に合う』 means to be in time for something. Paired with the cause 『急いで走ったので』 (because I ran fast), the natural outcome is making the train's departure: 『電車の発車時刻に間に合いました』 (Option B).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N4-MO-CONT-003",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "The adverb 『はっきり』 means 'clearly / distinctly'. In the context of speaking so that people in the back rows can hear, 『はっきり大きな声で話してください』 (Option D) is the appropriate adverbial modifier for clarity of speech.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N4-MO-CONT-004",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "The noun 『故障』 (こしょう) refers to mechanical breakdown/malfunction. Combined with the verb phrase 『〜して動かないので、修理を頼みました』 (broke down and does not run, so I requested a repair), 『故障して』 (Option D) is the exact technical and semantic fit.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N4-MO-CONT-005",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The onomatopoeic adverb 『すっかり』 signifies 'completely / entirely' when modifying the disappearance of illness or pain: 『頭の痛みがすっかり消えました』 (the headache completely disappeared). None of the other adverbs collocate with pain relief.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N4-MO-CONT-006",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The clause 『説明書を読んでもよくわかりません』 (even after reading the manual, I don't understand well) semantically necessitates an adjective meaning complicated or intricate: 『複雑』 (ふくざつ, Option C).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N4-MO-CONT-007",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The verb 『飾る』 (かざる) means to display or decorate. Displaying kadomatsu (New Year pine ornaments) at the entrance is idiomatic Japanese: 『門松を飾りました』 (Option B).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N4-MO-CONT-008",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The idiomatic phrase 『〜の役に立つ』 / 『〜に役に立つ』 means to be useful / helpful for something: 『毎日の仕事にとても役に立ちます』 (is very useful for everyday work). Option A is the correct verb phrase.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N4-GR-FORM-001",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The particle 『で』 marks the physical location where an active event takes place: 『図書館で本を借りて』 (borrowing books at the library). This is further balanced by the parallel action clause 『近くの公園で読みました』.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N4-GR-FORM-002",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The potential construction for expressing ability is [Verb Dictionary Form] + ことができる: 『ピアノを上手にひくことができます』. Option B provides the dictionary form 『ひく』.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N4-GR-FORM-003",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "The construction [Verb Dictionary Form] + ようにする / ようにしている expresses making a conscious effort or maintaining a regular habit: 『野菜ジュースを飲むようにしています』 (I make it a habit to drink vegetable juice). Option D is correct.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N4-GR-FORM-004",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The construction [Potential Verb] + ようになる indicates a change in state or developing an ability over time: 『食べられるようになりました』 (became able to eat). Option B is correct.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N4-GR-FORM-005",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "Prohibition in Japanese is expressed by [Verb て-form] + はいけません: 『写真を撮ってはいけません』 (You must not take photographs). The て-form of とる is とって (Option D).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N4-GR-FORM-006",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "Permission to not perform an action ('do not need to') is expressed by [Verb negative て-form] + もいい: 『薬を飲まなくてもいいですよ』 (You do not have to take medicine anymore). The negative て-form of のむ is のまなくて (Option B).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N4-GR-FORM-007",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The trial construction 'try doing something and see' is [Verb て-form] + みる. Combined with asking for permission: 『一口食べてみてもいいですか』 (May I try taking a bite?). Option A is the て-form 『たべて』.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N4-GR-FORM-008",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "Expressing an unintentional, regrettable action is formulated with [Verb て-form] + しまいました: 『電車の中に忘れてしまいました』 (I accidentally left/forgot [documents] on the train). Option C is the て-form 『わすれて』.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N4-GR-FORM-009",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "Expressing past personal experience is structured as [Verb た-form] + ことがある: 『富士山に登ったことがありますか』 (Have you ever climbed Mt. Fuji?). The past plain form of のぼる is のぼった (Option D).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N4-GR-FORM-010",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "Tests the irregular conditional ば-form of the i-adjective いい (いい → よければ). When the condition is an adjective or stative predicate (天気がいい), the ば-conditional can be followed by volitional/invitational expressions such as 〜ましょう: 『天気がよければ、明日は海へ泳ぎに行きましょう』.",
+    "alternativeDefensibleAnswers": [
+      "B"
+    ],
+    "concerns": "Distractor overlap: In modern colloquial Japanese, 『天気がよかったら、〜行きましょう』 is widely used and completely natural with invitational endings. While 『よければ』 is the canonical textbook target for adjective conditional morphology, 『よかったら』 is defensible."
+  },
+  {
+    "id": "N4-GR-FORM-011",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "When the main clause expresses a request or instruction (〜てください), an action verb condition requiring chronological completion must take the 〜たら conditional: 『駅についたら、電話をかけてください』 (Once you arrive at the station, please call me). The ば-form (つけば) is ungrammatical before volitional/request endings when the subordinate predicate is a dynamic action.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N4-GR-FORM-012",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The conditional particle 『なら』 is used to introduce a topical condition or stated intention ('if it is the case that you intend to...'), often preceding advice/recommendations (〜ほうがいい): 『日本料理を作るなら、まず出汁の取り方を覚えたほうがいいです』. Using たら (作ったら) would imply advice given after the cooking has already occurred.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N4-GR-STAR-001",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "The syntactic order is: 朝慌てて [探す (C)] [ことが (A)] ★ [ない (D)] [ように (B)] 夜のうちに服を準備しておきます ('So that I don't have to search frantically in the morning, I prepare my clothes at night'). Pattern: 〜ことがないように. The item in the star position (slot 3) is D (ない).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N4-GR-STAR-002",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "The canonical sentence order is: 来年の夏休みには、北海道へ [友達と (C)] [一緒に (B)] ★ [旅行に (D)] [行く (A)] 予定です ('During next summer vacation, I plan to go on a trip to Hokkaido together with my friend'). The verb phrase 旅行に行く connects to 予定です, preceded by the accompaniment adverbial 友達と一緒に. The 3rd position (★) is D (旅行に).",
+    "alternativeDefensibleAnswers": [
+      "B"
+    ],
+    "concerns": "The alternative ordering '北海道へ旅行に(D) 友達と(C) 一緒に(B) 行く(A) 予定です' is syntactically decipherable, though '友達と一緒に旅行に行く' is the much more natural constituent grouping."
+  },
+  {
+    "id": "N4-GR-STAR-003",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The advice construction is 〜たほうがいい. The adverbials connect as: 無理をしないで [暖かくして (D)] [ゆっくり (B)] ★ [休んだ (A)] [ほう (C)] がいいですよ (or ゆっくり -> 暖かくして -> 休んだ -> ほう). In both permutations, slot 3 (★) is unambiguously A (休んだ) and slot 4 is C (ほう).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N4-GR-STAR-004",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The cause-and-effect sentence is assembled as: 昨日は熱が [高くて (C)] [起き上がることが (D)] ★ [できなかった (A)] [ので (B)] 学校を休みました ('Yesterday my fever was high and I couldn't get up, so I was absent from school'). The reason particle ので (B) requires the plain form できなかった (A). The 3rd position (★) is A (できなかった).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N4-GR-STAR-005",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "Two positive attributes of the dictionary are listed in parallel: この辞書は [文字が (C)] [大きくて (A)] ★ [説明も (B)] [わかりやすいので (D)] とても便利です ('This dictionary is very convenient because the font is large and the explanations are also easy to understand'). The 3rd position (★) is B (説明も).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N4-GR-STAR-006",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The sentence structure features a temporal contrast between future purpose and present action: 将来自分の店を [持つ (B)] [ために (D)] ★ [今 (A)] [貯金しようと (C)] 一生懸命働いています ('In order to have my own shop in the future, I am now working hard trying to save money'). In this canonical order, slot 3 (★) is A (今).",
+    "alternativeDefensibleAnswers": [
+      "C"
+    ],
+    "concerns": "Movable temporal adverb: The order '...店を持つ(B) ために(D) 貯金しようと(C) 今(A) 一生懸命働いています' is also grammatically acceptable, placing '今' right before the verb phrase instead of at the head of the main clause, which would put C in the star position."
+  },
+  {
+    "id": "N4-RD-SHOR-001",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The notice explicitly specifies: 『燃えるゴミは毎週火曜日と金曜日の朝8時までに出してください』 (Please take out burnable trash by 8:00 AM every Tuesday and Friday). Therefore, the trash that can be put out on Tuesday morning is 燃えるゴミ (Option A).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N4-RD-SHOR-002",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "The message states: 『今日の午後3時からの会議ですが、部長の都合で午後4時からに変更になりました』 (Regarding today's meeting from 3:00 PM, due to the director's schedule it has been changed to 4:00 PM). Moving from 3:00 to 4:00 is a delay of one hour: 会議の時間が1時間遅くなったこと (Option D).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N4-RD-SHOR-003",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "The author writes: 『少し味が濃くなってしまいましたが、自分で作った料理はとてもおいしかったです』 (The flavor ended up a little strong/salty, but the food I cooked myself was very delicious). Option D directly summarizes this sentiment: 『少し濃かったが、おいしかった』.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N4-RD-SHOR-004",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The announcement states: 『本の返却は、正面入口の返却ポストをご利用いただけます』 (For book returns, you may use the return post box at the front entrance). Option A accurately conveys: 『正面入口のポストに入れる』.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N4-RD-INFO-001",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "Matching the three criteria: (1) Thursday (木曜日), (2) after 18:00 (夕方6時以降), (3) 1,000 yen: Swimming class (水泳教室) is held 『毎週木曜日 18:30〜20:00 | 参加費: 1回 1,000円』. This satisfies all conditions. Option C is correct.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N4-RD-INFO-002",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The footnote clearly states: 『※どの教室も予約は不要です』 (Reservations are not needed for any class). 『予約は不要』 is synonymous with 『予約は必要ない』 (Option B).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  }
+]

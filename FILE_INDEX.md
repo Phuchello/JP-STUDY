@@ -142,11 +142,16 @@ Snapshot 2026-10-15. VERIFIED is scoped verification, not JLPT certification. Hi
 | [diagnostic/README.md](diagnostic/README.md) | VERIFIED |
 | [gemini-prompts/README.md](gemini-prompts/README.md) | VERIFIED |
 | [grammar-patterns/README.md](grammar-patterns/README.md) | VERIFIED |
+| [qa/BLIND_REVIEW_RECONCILIATION_REPORT.md](qa/BLIND_REVIEW_RECONCILIATION_REPORT.md) | VERIFIED |
 | [qa/PUBLICATION_QA.md](qa/PUBLICATION_QA.md) | VERIFIED |
 | [qa/QUESTION_BANK_QA.md](qa/QUESTION_BANK_QA.md) | VERIFIED |
 | [qa/QUESTION_REVIEW_LEDGER.csv](qa/QUESTION_REVIEW_LEDGER.csv) | VERIFIED |
 | [qa/README.md](qa/README.md) | VERIFIED |
 | [qa/REJECTED_ITEMS.json](qa/REJECTED_ITEMS.json) | VERIFIED |
+| [qa/blind_review_dataset.json](qa/blind_review_dataset.json) | VERIFIED |
+| [qa/blind_review_n2.json](qa/blind_review_n2.json) | VERIFIED |
+| [qa/blind_review_n3.json](qa/blind_review_n3.json) | VERIFIED |
+| [qa/blind_review_n4.json](qa/blind_review_n4.json) | VERIFIED |
 | [qa/current/browser_tests.json](qa/current/browser_tests.json) | VERIFIED |
 | [qa/current/edge_flow_tests.json](qa/current/edge_flow_tests.json) | VERIFIED |
 | [qa/current/engine_tests.json](qa/current/engine_tests.json) | VERIFIED |
@@ -187,6 +192,9 @@ Snapshot 2026-10-15. VERIFIED is scoped verification, not JLPT certification. Hi
 | [qa/historical/phase3/source_hashes.json](qa/historical/phase3/source_hashes.json) | VERIFIED |
 | [qa/historical/phase3/tracker_preservation.json](qa/historical/phase3/tracker_preservation.json) | VERIFIED |
 | [qa/historical/phase3/tracker_tests.json](qa/historical/phase3/tracker_tests.json) | VERIFIED |
+| [qa/raw_blind_review_n2.json](qa/raw_blind_review_n2.json) | VERIFIED |
+| [qa/raw_blind_review_n3.json](qa/raw_blind_review_n3.json) | VERIFIED |
+| [qa/raw_blind_review_n4.json](qa/raw_blind_review_n4.json) | VERIFIED |
 | [qa/source_inventory.json](qa/source_inventory.json) | VERIFIED |
 | [question-bank/answer-keys/README.md](question-bank/answer-keys/README.md) | VERIFIED |
 | [question-bank/n4/README.md](question-bank/n4/README.md) | VERIFIED |
@@ -203,6 +211,7 @@ Snapshot 2026-10-15. VERIFIED is scoped verification, not JLPT certification. Hi
 | [scripts/curriculum/build_practice_sets.py](scripts/curriculum/build_practice_sets.py) | VERIFIED |
 | [scripts/curriculum/inspect_category.py](scripts/curriculum/inspect_category.py) | VERIFIED |
 | [scripts/curriculum/rebuild_and_repair_bank.py](scripts/curriculum/rebuild_and_repair_bank.py) | VERIFIED |
+| [scripts/curriculum/reconcile_blind_review.py](scripts/curriculum/reconcile_blind_review.py) | VERIFIED |
 | [scripts/curriculum/show_stars.py](scripts/curriculum/show_stars.py) | VERIFIED |
 | [scripts/drive_first/build_bundle.py](scripts/drive_first/build_bundle.py) | VERIFIED |
 | [scripts/drive_first/build_dashboard.mjs](scripts/drive_first/build_dashboard.mjs) | VERIFIED |
@@ -215,6 +224,7 @@ Snapshot 2026-10-15. VERIFIED is scoped verification, not JLPT certification. Hi
 | [scripts/tests/test_edge_flows.cjs](scripts/tests/test_edge_flows.cjs) | VERIFIED |
 | [scripts/tests/test_engine.cjs](scripts/tests/test_engine.cjs) | VERIFIED |
 | [scripts/tests/test_preview.cjs](scripts/tests/test_preview.cjs) | VERIFIED |
+| [scripts/tests/test_qa_adversarial_mutations.py](scripts/tests/test_qa_adversarial_mutations.py) | VERIFIED |
 | [scripts/tests/test_question_bank_negative.py](scripts/tests/test_question_bank_negative.py) | VERIFIED |
 | [scripts/update_manifest.py](scripts/update_manifest.py) | VERIFIED |
 | [scripts/validate_release.py](scripts/validate_release.py) | VERIFIED |

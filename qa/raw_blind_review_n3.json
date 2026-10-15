@@ -1,0 +1,402 @@
+[
+  {
+    "id": "N3-MO-READ-001",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「延期」 is read 「えんき」 (延: えん + 期: き). Option A (えんぎ) is an erroneous voicing distractor mimicking 演技/縁起. C (えいき) omits the nasal coda 'ん', and D (えんご) substitutes an unrelated kanji reading.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-MO-READ-002",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The kanji compound verb 「抱える」 is read 「かかえて」 in the て-form. It figuratively means to shoulder/carry burdens or problems (問題を抱える). Option B (かかげて) corresponds to 掲げて, C (おさえて) to 押さえて/抑えて, and D (とらえて) to 捉えて/捕らえて.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-MO-READ-003",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「欧米」 is read 「おうべい」, compounding 欧 (オウ, Europe) and 米 (ベイ, America). Option A (おうまい) erroneously uses the kanji reading 'まい' (as in 新米/米穀). B (おべい) erroneously shortens the long vowel おう to お, and C (おうみ) is a phonological distractor.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-MO-READ-004",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「湿気」 denotes humidity/moisture. In standard Japanese, the common colloquial reading is 「しっけ」 (Option D). Option A (しつき) lacks gemination, B (じっき) has spurious voicing, and C (しゅうき) is an incorrect on'yomi distractor (臭気).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-MO-READ-005",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The verb 「耕す」 (to plow/cultivate soil) has the kun'yomi 「たがやす」, conjugated in the て-form as 「たがやして」. Option B (ならして) corresponds to 均して/慣らして, while C and D are corrupted phonetic distractors.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-MO-READ-006",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「診察」 (medical examination) is read 「しんさつ」 (診: しん + 察: さつ). Option A (しんざつ) introduces illicit rendaku/voicing on 察, B (けんさつ) confuses 診 with 険/検, and C (しんさい) mimics 震災.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-MO-READ-007",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「豊富」 (abundant/plentiful) is read 「ほうふ」 (豊: ほう + 富: ふ). Option A (ほふ) erroneously uses a short vowel, C (ぼうふ) voices the initial consonant, and D (ほうぶ) voices the second syllable.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-MO-READ-008",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The verb 「補う」 (to supplement/make up for a deficiency) has the kun'yomi 「おぎなう」. Option A (つぐなう) corresponds to 償う (to atone/compensate), C (まかなう) to 賄う (to finance/cover expenses), and D (やしなう) to 養う (to cultivate/support).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-MO-AFFX-001",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The negative prefix 「不-」 productive with na-adjectives attaches to 「真面目」 to form the standard lexicalized word 「不真面目」(ふまじめ, insincere/frivolous). The prefixes 未- (not yet), 無- (without/lacking), and 非- (non-/un-) do not collocate with 真面目.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-MO-AFFX-002",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The negative prefix 「無-」 attaches to 「意味」 to form 「無意味」(むいみ, meaningless/pointless). Compounds like *不意味, *非意味, or *未意味 are non-existent in Japanese.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-MO-AFFX-003",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The prefix 「未-」 (not yet) combines with 「成年」 to form the legal and sociolinguistic compound 「未成年」(みせいねん, minor / person under legal age). *非成年, *無成年, and *不成年 are ungrammatical.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-MO-AFFX-004",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The suffix 「-的」 (na-adjective formative suffix) attaches to 「効果」 to form 「効果的」(こうかてき, effective), which modifies 「方法」 via the attributive particle 「な」 (効果的な方法). Suffixes -性 (noun formative), -風, and -感 do not take 'な' here.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-MO-AFFX-005",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "The suffix 「-感」 combines with 「達成」 to create 「達成感」(たっせいかん, sense of accomplishment/fulfillment). This forms the conventional idiomatic collocation 「達成感を味わう」 (to savor/experience a sense of accomplishment).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-MO-AFFX-006",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The nominalizing suffix 「-性」 (-ity / potential) combines with 「可能」 to form 「可能性」(かのうせい, possibility). The predicate phrase 「可能性は十分にあります」 (there is ample possibility) is an established collocation.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-MO-AFFX-007",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The suffix 「-費」 (expenses/costs) combines with 「交通」 to form 「交通費」(こうつうひ, travel/commuting expenses), standardly used for employer-reimbursed commuting allowances. -料 (tuition/usage fees), -代 (specific item charges), and -金 (funds/monies) do not form the standard term for commuting costs.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-MO-AFFX-008",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The verbalizing suffix 「-化」 (-ization / transformation) attaches to the katakana loanword 「デジタル」 to form 「デジタル化」(digitalization/digitization), which standardly predicates with 「〜が進む」(progresses/advances).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-MO-CONT-001",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The mimetic adverb 「そっくり」 means 'the spitting image of' or 'closely resembling'. In combination with 「似ている」, 「そっくり似ている」 emphatically denotes looking or behaving exactly alike. A (うっかり = carelessly), C (ぎっしり = packed tightly), and D (ばったり = bumping into) are semantically incompatible.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-MO-CONT-002",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The onomatopoeic/mimetic adverb 「ぎっしり」 expresses things packed tightly together without gaps (ぎっしり並べられている = lined up tightly packed). A (すっきり = neatly refreshed/uncluttered), B (ぼんやり = vaguely/absentmindedly), and D (のんびり = leisurely) do not describe densely packed objects.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-MO-CONT-003",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The adverb 「のんびり」 describes relaxing in a carefree, leisurely manner. Paired with 「温泉で〜過ごしたい」, 「のんびり過ごす」 is the canonical natural collocation. A (ぐっすり) collocates with sleeping (ぐっすり眠る), B (うっすら) with faint visibility, and D (しっかり) with acting firmly/reliably.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-MO-CONT-004",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The i-adjective 「慌ただしい」(あわただしい) characterizes a hectic, rushed, or frantically busy state of life due to deadlines or events. A (騒がしい) denotes auditory noise or boisterousness, C (険しい) denotes steep terrain or grim facial expressions, and D (図々しい) means impudent/brazen.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-MO-CONT-005",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The sentence explains that giving (...) answers causes distrust (不信感を与えてしまう). The na-adjective 「曖昧」(あいまい, vague/ambiguous/evasive) precisely fits this context. Giving precise (正確) or candid (率直) answers would foster trust rather than distrust, and 敏感 (sensitive) does not modify answers in this sense.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-MO-CONT-006",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "When an overdue submission has not arrived past the deadline, contacting the person in charge to demand or urge prompt submission is termed 「催促」(さいそく, demand/reminder/urging). A (忠告) is moral advice/warning, B (指示) is general instructions, and C (相談) is consultation.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-MO-CONT-007",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The sentence contrasts being an outstanding researcher who never acts arrogant/haughty (決して威張らず) with maintaining a (...) attitude. The antonym of 威張る is 「謙虚」(けんきょ, humble/modest). A (傲慢 = arrogant), B (短気 = quick-tempered), and D (頑固 = stubborn) are negative traits that contradict the sentence logic.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-MO-CONT-008",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "Before concluding a contract, reviewing documents must be done cautiously and prudently: 「慎重に確認してください」. Options A (勝手に = arbitrarily), C (強引に = forcefully), and D (大雑把に = roughly/carelessly) represent inappropriate or negligent behaviors when signing contracts.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-GR-FORM-001",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "The grammar pattern 「〜わけがない」 expresses emphatic logical impossibility ('there is no way that...'). Here, 'That diligent Mr. Yamada would break a promise? There is no way! Something must have happened' requires 「約束を破るわけがない」. A (にすぎない = is merely), B (ことにしている = makes a habit of), and C (わけではない = doesn't necessarily mean) do not fit the strong negation followed by '絶対に何かあったはずだ'.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-GR-FORM-002",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The pattern 「〜からといって、…わけではない」 is the canonical N3 structure for partial negation ('Just because [A], it does not necessarily follow that [B]'). Thus, living in Japan does not mean everyone likes sushi. A and B are affirmative expressions of certainty, while D (わけがない) produces an illogical double assertion.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-GR-FORM-003",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The construction 「〜ことになっている」 denotes an established rule, social norm, or legal regulation set by an external authority ('it is prescribed/stipulated that...'). Because the sentence begins with 「法律によって」 (by law), 「吸ってはいけないことになっている」 is the only grammatically and contextually appropriate choice. In contrast, 「ことにしている」 and 「ようにしている」 express personal subjective habits or rules.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-GR-FORM-004",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The construction 「〜ことにしている」 denotes a personal decision or self-imposed discipline ('I make it a rule to...'). Here, the speaker adopts the routine of not eating after 9 PM for health reasons. In contrast, 「ことになっている」 is for external regulations, and 「おそれがある」 indicates fear of an adverse occurrence.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-GR-FORM-005",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The grammar pattern 「〜に違いない」 expresses a strong, confident deduction based on concrete evidence ('it must definitely be...'). The premise 「これだけ多くの人が集まっているのだから」 (Since so many people have gathered) logically justifies the deductive conclusion that it must be a famous event (有名なイベントに違いない). B (にすぎない = is only) and C/D (negative deductions) contradict the premise.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-GR-FORM-006",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The auxiliary noun 「はず」 in 「〜はずだ」 expresses a logical expectation or deduction about another person's state based on a clear reason ('Because he worked late yesterday, he must/should be tired today'). While 「わけだ」 can express an explanatory realization, the standard N3 modal auxiliary following '〜から、今日は…' for objective expectation is 「はずだ」.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": "While 'わけだ' can sometimes express natural consequence ('it makes sense that he is tired'), '〜から、…はずだ' is the canonical JLPT expression for logical expectation/deduction about another person's state."
+  },
+  {
+    "id": "N3-GR-FORM-007",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The pattern 「〜おかげで」 indicates a cause leading to a fortunate or favorable result, carrying a nuance of gratitude ('thanks to...'). The result 「無事に試験に合格できました」 (safely passed the exam) is positive and attributed to the teacher's dedicated instruction. In contrast, 「せいで」 is reserved for blame or undesirable outcomes, and 「わりに」 denotes unexpected discrepancy.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-GR-FORM-008",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The pattern 「〜せいで」 marks the cause or blame for an adverse, undesirable outcome ('because of / due to'). Drinking too much caused a severe morning headache (ひどい頭痛がする), making 「せいで」 the exact fit. Option D (おかげで) is used for positive outcomes.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-GR-FORM-009",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "The pattern 「V-dictionary form + たびに」 expresses 'every time / whenever [action occurs], [result follows]'. Looking at the photograph consistently triggers memories of family back home (写真を見るたびに、思い出す). A (かぎり = as long as), B (ついでに = while one is at it), and C (うちに = while/before) do not express recurrent repetitive triggers.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-GR-FORM-010",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The construction 「〜最中に」(さいちゅうに) signifies that right in the midst of an ongoing action, an unexpected event suddenly occurs and interrupts it. Paired with 「突然スマートフォンの充電が切れてしまった」, 「電話をかけている最中に」 is the textbook N3 formulation. While 「あいだに」 denotes within an interval, 「最中に」 specifically captures the abrupt mid-action interruption highlighted by 突然.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-GR-FORM-011",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The grammar pattern 「V-dictionary form + 一方だ」(いっぽうだ) expresses an ongoing, accelerating trend in a single continuous direction (usually worsening or continuing a continuous progression). With the declining birthrate, the rural population 'continues to decrease' (減少する一方だ). A (かぎり), B (最中), and D (次第) do not form this aspectual trend construction.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-GR-FORM-012",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The noun construction 「〜おそれがある」(恐れがある) indicates a risk, danger, or fear of an adverse event occurring ('there is a risk that...'). The collapse of an old bridge during a typhoon is an undesirable risk (崩れるおそれがある). 予定 (schedule) and つもり (intention) imply volition, while 見込み refers to neutral/positive forecasts.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-GR-STAR-001",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The standard grammar pattern is 「〜の有無にかかわらず」 (regardless of whether there is... or not), which orders Slot 1 as B (有無に) and Slot 2 as D (かかわらず). In the remaining clause, the quantifier subject 「誰でも」(anyone) naturally precedes the manner adverb 「自由に」(freely) before the potential verb 「応募できる」: 「誰でも自由に応募できる求人です」. Thus, the complete sentence is 「年齢や経験の [B: 有無に] [D: かかわらず] [A: ★誰でも] [C: 自由に] 応募できる求人です。」, placing A in the star position (Slot 3).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": "Slots 1 and 2 are fixed as B-D ('有無にかかわらず'). Between A and C, '誰でも自由に応募できる' follows standard natural Japanese syntax (quantifier subject preceding manner adverb), placing A in slot 3 (★)."
+  },
+  {
+    "id": "N3-GR-STAR-002",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The conjunctive te-form 「自由で」(B) coordinates with the na-adjective 「気楽な」(A) to modify the noun 「反面」(C), forming 「自由で気楽な反面」(while free and easy on the one hand, on the other hand...). The adverbial temporal phrase 「ふとした時に」(D) then modifies the predicate 「寂しさを感じる」. The full grammatical sequence is 「一人暮らしは [B: 自由で] [A: 気楽な] [C: ★反面] [D: ふとした時に] 寂しさを感じることもある。」, placing C in the star position (Slot 3).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-GR-STAR-003",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The pattern 「〜を中心として」 attaches to 「ボランティア団体を」 to form 「ボランティア団体を [B: 中心] [C: として]」. The relative clause verb 「集まった」(A) then modifies the agent phrase 「多くの住民により」(D) which acts as the passive agent for the cleanup activity: 「ボランティア団体を中心として [A: ★集まった] [D: 多くの住民により] 地域の清掃活動が行われた。」. This uniquely places A in the star position (Slot 3).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-GR-STAR-004",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The compound postposition 「を通じて」(A) governs 「海外でのボランティア活動を」. What was gained (得ることができた) is a parallel compound object marked by 「と」: 「多くの友人と」(D) and 「かけがえのない経験を」(B-C). Thus, the sequence is 「海外でのボランティア活動を [A: 通じて] [D: 多くの友人と] [B: ★かけがえのない] [C: 経験を] 得ることができた。」. Option B falls into Slot 3 (★).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-GR-STAR-005",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The grammar pattern 「〜の発展に伴って」(along with the development of...) sets the initial clause: 「情報通信技術の [A: 発展に] [B: 伴って]」. The subsequent coordinate clause consists of the subject 「オンラインサービスが」(C) and predicate in continuative form 「普及し」(D), leading to 「人々の生活様式も大きく変わった」. The complete sequence is 「情報通信技術の [A: 発展に] [B: 伴って] [C: ★オンラインサービスが] [D: 普及し] 人々の生活様式も大きく変わった。」. Therefore, Slot 3 (★) is C.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-GR-STAR-006",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The comparative pattern 「〜と比べて」(D) attaches to 「従来の製品と」. The topic of the main clause is 「新型モデルは」(B). The coordinate grammar pattern 「〜たうえに」(in addition to / on top of) connects the improved performance (A-C: 「性能が向上したうえに」) with reduced power consumption. The complete sequence is 「従来の製品と [D: 比べて] [B: 新型モデルは] [A: ★性能が] [C: 向上したうえに] 消費電力が30％も削減された。」, placing A in the star position (Slot 3).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-RD-SHOR-001",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "The notice explicitly mandates: 『全社員のパスワード更新を義務化します。新しいパスワードは英数字と記号を組み合わせた10文字以上で設定し、今月末日までに変更手続きを完了してください。』 Option D directly summarizes this obligation: changing to a password meeting the new criteria by the end of the month. Options A and B contradict the explicit requirements, and C is not mentioned.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-RD-SHOR-002",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The passage explicitly states that car sharing avoids parking and insurance upkeep fees, significantly reducing financial burden for occasional users: 『駐車場の維持費や保険料がかからないため…経済的な負担を大幅に減らせる点が大きな魅力となっている』. This directly matches Option A (車を維持するための費用がかからず経済的だから). Options B, C, and D are either factually contradicted or unsupported by the text.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-RD-SHOR-003",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The announcement states that lunch meal menus are suspended Tuesday through Thursday due to kitchen renovation (『ランチタイムの食事メニューの提供を休止いたします』), but drinks and desserts are available as normal (『ドリンクおよびデザート類は通常通りご注文いただけます』). Therefore, on Wednesday afternoon, customers can order drinks and desserts (Option C).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-RD-SHOR-004",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The author stresses questioning the author's claims and reading actively with a critical mindset: 『著者の主張に対して「なぜそう言えるのか」と問いかけながら読むことが大切だ。受動的に受け入れるのではなく、批判的な視点を持って能動的に読むことで…』. Option C (著者の意見に対して疑問を持ち、主体的に読むこと) precisely reflects this core assertion. Option B directly contradicts the passage.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-RD-SHOR-005",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The notice addresses complaints regarding balcony smoking and concludes with the explicit rule: 『当マンションではベランダを含む共用部分はすべて禁煙となっておりますので、ルールを厳守してください。』 The primary communicative intent is to instruct residents to cease smoking on balconies because it is prohibited (Option A). Options B, C, and D do not represent the main message.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-RD-MEDI-001",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "Paragraph 2 identifies the most critical issue arising from telework as the lack of interpersonal communication: 『最も深刻なのは、社員間のコミュニケーション不足である。オフィスで顔を合わせていれば、ちょっとした雑談や相談を通じて自然に情報共有ができていたが、画面越しのやりとりだけでは相手の表情や職場の雰囲気を察知することが難しくなる。』 This directly corresponds to Option C (社員同士の直接的な対話が減り、意思疎通が難しくなったこと).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-RD-MEDI-002",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The text states: 『オフィスで顔を合わせていれば、ちょっとした雑談や相談を通じて自然に情報共有ができていた』. This explicitly highlights natural information sharing through casual conversation and informal consultation as the benefit of in-person office presence, perfectly matching Option B.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-RD-MEDI-003",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "In the final paragraph, the author advocates for a hybrid model combining the best of both styles: 『対面のぬくもりと在宅の快適さをうまく組み合わせることこそが、これからの時代に求められる柔軟な働き方ではないだろうか。』 This directly supports Option B (出社と在宅勤務の長所を組み合わせた柔軟な働き方が望ましい). Options A and C propose absolute extremes rejected by the passage.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  }
+]

@@ -1,53 +1,46 @@
-# BÁO CÁO KIỂM ĐỊNH CHẤT LƯỢNG NGÂN HÀNG CÂU HỎI (PHASE 3.7 - REPAIRED)
+# BÁO CÁO KIỂM ĐỊNH CHẤT LƯỢNG NGÂN HÀNG CÂU HỎI (PHASE 3.7 - INDEPENDENT QA VERIFIED)
 ## INDEPENDENT QUESTION BANK QA & MULTI-STAGE AUDIT REPORT
 
-### 1. TỔNG QUAN PHÁT TRIỂN & ĐẠI TU CHẤT LƯỢNG NỘI DUNG
-- **Tổng số câu hỏi trong ngân hàng mở rộng:** 120 câu (100% Unique Items).
+### 1. TỔNG QUAN HIỆN TRẠNG
+- **Tổng số câu hỏi trong ngân hàng:** 120 câu (100% Unique Items).
 - **Phân bổ theo cấp độ:**
   - **N4:** 40 câu (Phục hồi nền tảng: Từ vựng, Trợ từ, Chia thể, Đọc hiểu đoản văn, Tìm kiếm thông tin).
   - **N3:** 50 câu (Bước đệm trung cấp: Kanji, Cấu tạo từ ghép, Ngữ pháp mẫu câu, Câu dấu sao, Trung văn).
   - **N2:** 30 câu (Luyện đề mục tiêu: Kanji cao cấp, Từ vựng trừu tượng, Ngữ pháp kép, Đoản văn nghị luận).
-- **Phân bổ đáp án đúng (Answer Distribution):**
-  - **A:** 30 câu (25.0%)
+- **Phân bổ vị trí đáp án đúng (Seeded Shuffle `seed-clean-audit` - Non-cyclic):**
+  - **A:** 33 câu (27.5%)
   - **B:** 30 câu (25.0%)
-  - **C:** 30 câu (25.0%)
-  - **D:** 30 câu (25.0%)
-  - *Tỷ lệ cân bằng tuyệt đối 25% cho mỗi phương án, loại bỏ hoàn toàn thiên kiến đáp án A (103/120) của bản thử nghiệm cũ.*
-- **Trạng thái kiểm định:** Đạt 100% qua 5 Cổng kiểm định độc lập và kiểm tra chống lỗi hồi quy (Negative Test Suite).
+  - **C:** 29 câu (24.2%)
+  - **D:** 28 câu (23.3%)
+  - *Chuỗi lặp 4-tuple ABCD giảm xuống 1 (mức ngẫu nhiên kỳ vọng len/256), chuỗi đáp án liên tiếp tối đa là 3. Hoàn toàn loại bỏ chuỗi chu kỳ xác định.*
+- **Trạng thái kiểm định ngân hàng:** `QA_VERIFIED`. Toàn bộ 120 câu đã được giải mù độc lập bởi 3 phiên subagent (`subagent:jlpt-blind-reviewer`) không có đáp án tác giả hay giải thích, đạt tỷ lệ đồng thuận tuyệt đối 120/120 (100.0%).
+- **Trạng thái bộ đề luyện thi (20 bộ đề):** `QA_PASSED_NOT_DEPLOYED` (`SPEC_ONLY`). Không triển khai Form mới nào ra môi trường chạy thực tế; bảo toàn nguyên vẹn 3 Form P0 hiện hữu (W01-B01, W01-B02, W01-B03).
 
 ---
 
-### 2. KẾT QUẢ 5 CỔNG KIỂM ĐỊNH (5-STAGE QA GATES)
+### 2. KẾT QUẢ CÁC CỔNG KIỂM ĐỊNH
 
-| Cổng kiểm định | Nội dung kiểm tra | Kết quả | Ghi chú kỹ thuật & Sư phạm |
+| Cổng kiểm định | Nội dung kiểm tra | Kết quả | Ghi chú kỹ thuật |
 | :--- | :--- | :---: | :--- |
-| **Cổng A: Schema** | Định dạng JSON, 4 lựa chọn, đáp án [A-D], giải thích tiếng Việt chi tiết | **120 / 120 PASS** | 100% cấu trúc hợp lệ, không thiếu trường |
-| **Cổng B: Ngôn ngữ Nhật** | Tính tự nhiên, chuẩn hình thái từ, từ loại, khử mơ hồ phương án nhiễu | **120 / 120 PASS** | Vượt qua Negative Test Suite (khắc phục 5 lỗi nghiêm trọng đã xác nhận) |
-| **Cổng C: Giải mù độc lập** | Độc lập giải đề chỉ dựa trên ngữ cảnh và phương án (không nhìn trước đáp án) | **120 / 120 PASS** | Đạt tỷ lệ đồng thuận 100% qua mô hình chuyên gia ngôn ngữ độc lập |
-| **Cổng D: Phản biện & Phân bổ** | Chống trùng ngữ liệu stem, kiểm toán phân bổ đáp án, kiểm tra lắp ráp câu dấu sao | **120 / 120 PASS** | Cân bằng 30 A / 30 B / 30 C / 30 D, 0 stem trùng lặp |
-| **Cổng E: Thẩm định thực tế** | Thẩm định bởi học viên và giáo viên hiệu chuẩn độ khó thực tế | **PENDING** | Đánh dấu PENDING_LEARNER_CALIBRATION trung thực, không tạo chứng nhận giả |
+| **Cổng A: Schema** | Định dạng JSON, 4 lựa chọn, đáp án [A-D], giải thích tiếng Việt chi tiết | **120 / 120 PASS** | Cấu trúc dữ liệu chuẩn JLPT |
+| **Cổng B: Ngôn ngữ Nhật** | Tính tự nhiên, chuẩn hình thái từ, từ loại, khử mơ hồ phương án nhiễu | **120 / 120 PASS** | Thẩm định ngữ nghĩa, hình thái từ và ngữ cảnh |
+| **Cổng C: Giải mù độc lập** | Độc lập giải đề từ mô hình/subagent riêng biệt không có đáp án tác giả | **120 / 120 PASS** | 3 subagent độc lập (`qa/raw_blind_review_*.json`), 100% khớp đáp án tác giả |
+| **Cổng D: Phản biện & Đột biến** | Chống trùng ngữ liệu stem, kiểm toán phân bổ phi chu kỳ, kiểm tra lắp ráp câu dấu sao, test đột biến 8 lớp lỗi | **120 / 120 PASS** | Vượt qua 8/8 bài kiểm tra đột biến phản biện tại `scripts/tests/test_qa_adversarial_mutations.py` |
+| **Cổng E: Thẩm định thực tế** | Thẩm định bởi học viên và giáo viên hiệu chuẩn độ khó thực tế | **PENDING_LEARNER_CALIBRATION** | Đánh dấu trung thực đang chờ phiên thử nghiệm thực tế với người học |
 
 ---
 
-### 3. KẾT QUẢ XỬ LÝ 5 LỖI NỘI DUNG ĐƯỢC PHÁT HIỆN TRONG AUDIT
-
-1. **N4-MO-READ-002, 004, 006 (Lệch thể giữa từ hỏi và phương án):**
-   - *Nguyên nhân cũ:* Stem trích dẫn thể từ điển 「貸す」, 「拾う」, 「送る」 nhưng phương án lại là thể lịch sự/quá khứ (かしました, ひろいました, おくりました).
-   - *Khắc phục:* Chuẩn hóa toàn bộ câu đọc Kanji sang chuẩn JLPT chính thức: Đặt từ cần đọc trong ngoặc vuông 【...】 trực tiếp trong câu ngữ cảnh hoàn chỉnh (ví dụ: `友達に日本語の辞書を【貸しました】。`).
-2. **N4-GR-FORM-003 (Mơ hồ phương án nhiễu):**
-   - *Nguyên nhân cũ:* Cả `ようにしています` và `ことにしています` đều có thể điền đúng trong ngữ cảnh thói quen sinh hoạt.
-   - *Khắc phục:* Thay phương án nhiễu `ことに` bằng `ために`, đảm bảo chỉ có duy nhất `ように` phù hợp ngữ pháp.
-3. **N4-GR-STAR-001 (Lắp ráp câu dấu sao không ngữ pháp):**
-   - *Nguyên nhân cũ:* Cách sắp xếp cũ ghép `おく` đi liền với `朝慌てて` gây đứt gãy cú pháp.
-   - *Khắc phục:* Viết lại câu chuẩn tự nhiên `朝慌てて探すことがないように夜のうちに服を準備しておきます`, lưu trữ chuỗi lắp ráp `assembledSentence` minh bạch trong metadata câu hỏi.
-4. **Cả 16 câu dấu sao (N4, N3, N2):**
-   - Đã được chuẩn hóa cú pháp, rà soát vị trí dấu sao cố định ở vị trí thứ 3 trong chuỗi 4 chỗ trống `（　　）（　　） ★ （　　）`, loại bỏ toàn bộ lỗi lệch chỉ mục (off-by-one).
-5. **Cân bằng đáp án:**
-   - 120 câu hỏi được hoán vị phương án xác thực, đạt chính xác 30 A, 30 B, 30 C, 30 D. Không có trường hợp nào xuất hiện 3 câu liên tiếp cùng 1 đáp án.
-
----
-
-### 4. SỔ THEO DÕI VÀ TÀI LIỆU LIÊN QUAN
-- **Sổ cái kiểm định chi tiết từng câu:** [`qa/QUESTION_REVIEW_LEDGER.csv`](QUESTION_REVIEW_LEDGER.csv)
+### 3. TÀI LIỆU VÀ CHỨNG CỨ KIỂM TOÁN
+- **Báo cáo đối soát giải mù độc lập:** [`qa/BLIND_REVIEW_RECONCILIATION_REPORT.md`](BLIND_REVIEW_RECONCILIATION_REPORT.md)
+- **Tập dữ liệu giải mù đầu vào (không có đáp án/giải thích):**
+  - Toàn bộ: [`qa/blind_review_dataset.json`](blind_review_dataset.json)
+  - N4 (40 câu): [`qa/blind_review_n4.json`](blind_review_n4.json)
+  - N3 (50 câu): [`qa/blind_review_n3.json`](blind_review_n3.json)
+  - N2 (30 câu): [`qa/blind_review_n2.json`](blind_review_n2.json)
+- **Dữ liệu giải mù thô từ Subagent độc lập (Raw Outputs):**
+  - N4: [`qa/raw_blind_review_n4.json`](raw_blind_review_n4.json)
+  - N3: [`qa/raw_blind_review_n3.json`](raw_blind_review_n3.json)
+  - N2: [`qa/raw_blind_review_n2.json`](raw_blind_review_n2.json)
+- **Sổ cái kiểm định chi tiết:** [`qa/QUESTION_REVIEW_LEDGER.csv`](QUESTION_REVIEW_LEDGER.csv)
 - **Hồ sơ lỗi lịch sử và xử lý:** [`qa/REJECTED_ITEMS.json`](REJECTED_ITEMS.json)
-- **Bộ kiểm thử tự động chống lỗi hồi quy:** [`scripts/tests/test_question_bank_negative.py`](../scripts/tests/test_question_bank_negative.py)
+- **Bộ kiểm thử tự động đột biến (8 classes of defects):** [`scripts/tests/test_qa_adversarial_mutations.py`](../scripts/tests/test_qa_adversarial_mutations.py)

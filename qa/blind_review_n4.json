@@ -1,0 +1,1042 @@
+[
+  {
+    "id": "N4-MO-READ-001",
+    "level": "N4",
+    "skill": "Vocabulary",
+    "typeId": "N4-MO-READ",
+    "stem": "駅員さんに道を【案内】してもらいました。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "あない"
+      },
+      {
+        "id": "B",
+        "text": "あんなに"
+      },
+      {
+        "id": "C",
+        "text": "あんない"
+      },
+      {
+        "id": "D",
+        "text": "あんたい"
+      }
+    ]
+  },
+  {
+    "id": "N4-MO-READ-002",
+    "level": "N4",
+    "skill": "Vocabulary",
+    "typeId": "N4-MO-READ",
+    "stem": "友達に日本語の辞書を【貸しました】。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "かえしました"
+      },
+      {
+        "id": "B",
+        "text": "かりました"
+      },
+      {
+        "id": "C",
+        "text": "だしました"
+      },
+      {
+        "id": "D",
+        "text": "かしました"
+      }
+    ]
+  },
+  {
+    "id": "N4-MO-READ-003",
+    "level": "N4",
+    "skill": "Vocabulary",
+    "typeId": "N4-MO-READ",
+    "stem": "来週の旅行の【計画】を立てています。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "けいが"
+      },
+      {
+        "id": "B",
+        "text": "けいかく"
+      },
+      {
+        "id": "C",
+        "text": "けっかく"
+      },
+      {
+        "id": "D",
+        "text": "きかく"
+      }
+    ]
+  },
+  {
+    "id": "N4-MO-READ-004",
+    "level": "N4",
+    "skill": "Vocabulary",
+    "typeId": "N4-MO-READ",
+    "stem": "道で鍵を【拾いました】。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "すてました"
+      },
+      {
+        "id": "B",
+        "text": "みつけました"
+      },
+      {
+        "id": "C",
+        "text": "ひろいました"
+      },
+      {
+        "id": "D",
+        "text": "あつめました"
+      }
+    ]
+  },
+  {
+    "id": "N4-MO-READ-005",
+    "level": "N4",
+    "skill": "Vocabulary",
+    "typeId": "N4-MO-READ",
+    "stem": "先生に【質問】があります。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "じつもん"
+      },
+      {
+        "id": "B",
+        "text": "しちもん"
+      },
+      {
+        "id": "C",
+        "text": "しつもん"
+      },
+      {
+        "id": "D",
+        "text": "しつぶん"
+      }
+    ]
+  },
+  {
+    "id": "N4-MO-READ-006",
+    "level": "N4",
+    "skill": "Vocabulary",
+    "typeId": "N4-MO-READ",
+    "stem": "家族に荷物を【送りました】。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "わたしました"
+      },
+      {
+        "id": "B",
+        "text": "おくりました"
+      },
+      {
+        "id": "C",
+        "text": "とどけました"
+      },
+      {
+        "id": "D",
+        "text": "はこびました"
+      }
+    ]
+  },
+  {
+    "id": "N4-MO-READ-007",
+    "level": "N4",
+    "skill": "Vocabulary",
+    "typeId": "N4-MO-READ",
+    "stem": "棚の中に大工の【道具】が入っています。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "どうぐ"
+      },
+      {
+        "id": "B",
+        "text": "とうく"
+      },
+      {
+        "id": "C",
+        "text": "どうく"
+      },
+      {
+        "id": "D",
+        "text": "とうぐ"
+      }
+    ]
+  },
+  {
+    "id": "N4-MO-READ-008",
+    "level": "N4",
+    "skill": "Vocabulary",
+    "typeId": "N4-MO-READ",
+    "stem": "今日は【特別】な日なので、外食します。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "とくべつ"
+      },
+      {
+        "id": "B",
+        "text": "どくべつ"
+      },
+      {
+        "id": "C",
+        "text": "とっべつ"
+      },
+      {
+        "id": "D",
+        "text": "とくべち"
+      }
+    ]
+  },
+  {
+    "id": "N4-MO-CONT-001",
+    "level": "N4",
+    "skill": "Vocabulary",
+    "typeId": "N4-MO-CONT",
+    "stem": "お客様、どうぞ（　　）なくお召し上がりください。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "ちゅうい"
+      },
+      {
+        "id": "B",
+        "text": "しんぱい"
+      },
+      {
+        "id": "C",
+        "text": "えんりょ"
+      },
+      {
+        "id": "D",
+        "text": "あんしん"
+      }
+    ]
+  },
+  {
+    "id": "N4-MO-CONT-002",
+    "level": "N4",
+    "skill": "Vocabulary",
+    "typeId": "N4-MO-CONT",
+    "stem": "急いで走ったので、電車の発車時刻に（　　）。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "おくれました"
+      },
+      {
+        "id": "B",
+        "text": "まにあいました"
+      },
+      {
+        "id": "C",
+        "text": "とまりました"
+      },
+      {
+        "id": "D",
+        "text": "つきました"
+      }
+    ]
+  },
+  {
+    "id": "N4-MO-CONT-003",
+    "level": "N4",
+    "skill": "Vocabulary",
+    "typeId": "N4-MO-CONT",
+    "stem": "後ろの席の人にも聞こえるように、（　　）大きな声で話してください。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "すっかり"
+      },
+      {
+        "id": "B",
+        "text": "びっくり"
+      },
+      {
+        "id": "C",
+        "text": "うっかり"
+      },
+      {
+        "id": "D",
+        "text": "はっきり"
+      }
+    ]
+  },
+  {
+    "id": "N4-MO-CONT-004",
+    "level": "N4",
+    "skill": "Vocabulary",
+    "typeId": "N4-MO-CONT",
+    "stem": "洗濯機が（　　）して動かないので、修理を頼みました。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "じこ"
+      },
+      {
+        "id": "B",
+        "text": "ちゅうし"
+      },
+      {
+        "id": "C",
+        "text": "じゃま"
+      },
+      {
+        "id": "D",
+        "text": "こしょう"
+      }
+    ]
+  },
+  {
+    "id": "N4-MO-CONT-005",
+    "level": "N4",
+    "skill": "Vocabulary",
+    "typeId": "N4-MO-CONT",
+    "stem": "薬を飲んだら、頭の痛みが（　　）消えました。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "すっかり"
+      },
+      {
+        "id": "B",
+        "text": "のんびり"
+      },
+      {
+        "id": "C",
+        "text": "しっかり"
+      },
+      {
+        "id": "D",
+        "text": "ぴったり"
+      }
+    ]
+  },
+  {
+    "id": "N4-MO-CONT-006",
+    "level": "N4",
+    "skill": "Vocabulary",
+    "typeId": "N4-MO-CONT",
+    "stem": "この機械の使い方はとても（　　）で、説明書を読んでもよくわかりません。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "たいせつ"
+      },
+      {
+        "id": "B",
+        "text": "かんたん"
+      },
+      {
+        "id": "C",
+        "text": "ふくざつ"
+      },
+      {
+        "id": "D",
+        "text": "じゆう"
+      }
+    ]
+  },
+  {
+    "id": "N4-MO-CONT-007",
+    "level": "N4",
+    "skill": "Vocabulary",
+    "typeId": "N4-MO-CONT",
+    "stem": "お正月の準備のために、玄関の前に門松を（　　）。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "ならべました"
+      },
+      {
+        "id": "B",
+        "text": "かざりました"
+      },
+      {
+        "id": "C",
+        "text": "かたづけました"
+      },
+      {
+        "id": "D",
+        "text": "あつめました"
+      }
+    ]
+  },
+  {
+    "id": "N4-MO-CONT-008",
+    "level": "N4",
+    "skill": "Vocabulary",
+    "typeId": "N4-MO-CONT",
+    "stem": "この本に書いてあるアドバイスは、毎日の仕事にとても（　　）。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "役に立ちます"
+      },
+      {
+        "id": "B",
+        "text": "気をつけます"
+      },
+      {
+        "id": "C",
+        "text": "間に合います"
+      },
+      {
+        "id": "D",
+        "text": "気になります"
+      }
+    ]
+  },
+  {
+    "id": "N4-GR-FORM-001",
+    "level": "N4",
+    "skill": "Grammar",
+    "typeId": "N4-GR-FORM",
+    "stem": "日曜日は図書館（　　）本を借りて、近くの公園で読みました。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "を"
+      },
+      {
+        "id": "B",
+        "text": "で"
+      },
+      {
+        "id": "C",
+        "text": "に"
+      },
+      {
+        "id": "D",
+        "text": "へ"
+      }
+    ]
+  },
+  {
+    "id": "N4-GR-FORM-002",
+    "level": "N4",
+    "skill": "Grammar",
+    "typeId": "N4-GR-FORM",
+    "stem": "山田さんはピアノを上手に（　　）ことができます。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "ひいた"
+      },
+      {
+        "id": "B",
+        "text": "ひく"
+      },
+      {
+        "id": "C",
+        "text": "ひきます"
+      },
+      {
+        "id": "D",
+        "text": "ひいて"
+      }
+    ]
+  },
+  {
+    "id": "N4-GR-FORM-003",
+    "level": "N4",
+    "skill": "Grammar",
+    "typeId": "N4-GR-FORM",
+    "stem": "健康のために、毎朝野菜ジュースを飲む（　　）しています。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "ために"
+      },
+      {
+        "id": "B",
+        "text": "そうに"
+      },
+      {
+        "id": "C",
+        "text": "ついでに"
+      },
+      {
+        "id": "D",
+        "text": "ように"
+      }
+    ]
+  },
+  {
+    "id": "N4-GR-FORM-004",
+    "level": "N4",
+    "skill": "Grammar",
+    "typeId": "N4-GR-FORM",
+    "stem": "日本に来てから、刺身が食べられる（　　）なりました。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "はずで"
+      },
+      {
+        "id": "B",
+        "text": "ように"
+      },
+      {
+        "id": "C",
+        "text": "そうに"
+      },
+      {
+        "id": "D",
+        "text": "ために"
+      }
+    ]
+  },
+  {
+    "id": "N4-GR-FORM-005",
+    "level": "N4",
+    "skill": "Grammar",
+    "typeId": "N4-GR-FORM",
+    "stem": "美術館の中では、写真を（　　）はいけません。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "とらない"
+      },
+      {
+        "id": "B",
+        "text": "とる"
+      },
+      {
+        "id": "C",
+        "text": "とった"
+      },
+      {
+        "id": "D",
+        "text": "とって"
+      }
+    ]
+  },
+  {
+    "id": "N4-GR-FORM-006",
+    "level": "N4",
+    "skill": "Grammar",
+    "typeId": "N4-GR-FORM",
+    "stem": "熱が下がったので、もう薬を（　　）もいいですよ。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "のまないで"
+      },
+      {
+        "id": "B",
+        "text": "のまなくて"
+      },
+      {
+        "id": "C",
+        "text": "のまない"
+      },
+      {
+        "id": "D",
+        "text": "のむ"
+      }
+    ]
+  },
+  {
+    "id": "N4-GR-FORM-007",
+    "level": "N4",
+    "skill": "Grammar",
+    "typeId": "N4-GR-FORM",
+    "stem": "このケーキはおいしそうですね。一口（　　）みてもいいですか。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "たべて"
+      },
+      {
+        "id": "B",
+        "text": "たべた"
+      },
+      {
+        "id": "C",
+        "text": "たべよう"
+      },
+      {
+        "id": "D",
+        "text": "たべる"
+      }
+    ]
+  },
+  {
+    "id": "N4-GR-FORM-008",
+    "level": "N4",
+    "skill": "Grammar",
+    "typeId": "N4-GR-FORM",
+    "stem": "大切な書類を電車の中に（　　）しまいました。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "わすれ"
+      },
+      {
+        "id": "B",
+        "text": "わすれた"
+      },
+      {
+        "id": "C",
+        "text": "わすれて"
+      },
+      {
+        "id": "D",
+        "text": "わすれる"
+      }
+    ]
+  },
+  {
+    "id": "N4-GR-FORM-009",
+    "level": "N4",
+    "skill": "Grammar",
+    "typeId": "N4-GR-FORM",
+    "stem": "富士山に（　　）ことがありますか。とても景色がきれいですよ。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "のぼって"
+      },
+      {
+        "id": "B",
+        "text": "のぼり"
+      },
+      {
+        "id": "C",
+        "text": "のぼる"
+      },
+      {
+        "id": "D",
+        "text": "のぼった"
+      }
+    ]
+  },
+  {
+    "id": "N4-GR-FORM-010",
+    "level": "N4",
+    "skill": "Grammar",
+    "typeId": "N4-GR-FORM",
+    "stem": "天気が（　　）、明日は海へ泳ぎに行きましょう。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "よければ"
+      },
+      {
+        "id": "B",
+        "text": "よかったら"
+      },
+      {
+        "id": "C",
+        "text": "よくて"
+      },
+      {
+        "id": "D",
+        "text": "いいなら"
+      }
+    ]
+  },
+  {
+    "id": "N4-GR-FORM-011",
+    "level": "N4",
+    "skill": "Grammar",
+    "typeId": "N4-GR-FORM",
+    "stem": "駅に（　　）、電話をかけてください。迎えに行きます。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "ついたら"
+      },
+      {
+        "id": "B",
+        "text": "ついて"
+      },
+      {
+        "id": "C",
+        "text": "つくなら"
+      },
+      {
+        "id": "D",
+        "text": "つけば"
+      }
+    ]
+  },
+  {
+    "id": "N4-GR-FORM-012",
+    "level": "N4",
+    "skill": "Grammar",
+    "typeId": "N4-GR-FORM",
+    "stem": "日本料理を作る（　　）、まず出汁の取り方を覚えたほうがいいです。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "のに"
+      },
+      {
+        "id": "B",
+        "text": "たら"
+      },
+      {
+        "id": "C",
+        "text": "なら"
+      },
+      {
+        "id": "D",
+        "text": "ても"
+      }
+    ]
+  },
+  {
+    "id": "N4-GR-STAR-001",
+    "level": "N4",
+    "skill": "Grammar",
+    "typeId": "N4-GR-STAR",
+    "stem": "朝慌てて（　　）（　　） ★ （　　）夜のうちに服を準備しておきます。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "ことが"
+      },
+      {
+        "id": "B",
+        "text": "ように"
+      },
+      {
+        "id": "C",
+        "text": "探す"
+      },
+      {
+        "id": "D",
+        "text": "ない"
+      }
+    ]
+  },
+  {
+    "id": "N4-GR-STAR-002",
+    "level": "N4",
+    "skill": "Grammar",
+    "typeId": "N4-GR-STAR",
+    "stem": "来年の夏休みには、北海道へ（　　）（　　） ★ （　　）予定です。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "行く"
+      },
+      {
+        "id": "B",
+        "text": "一緒に"
+      },
+      {
+        "id": "C",
+        "text": "友達と"
+      },
+      {
+        "id": "D",
+        "text": "旅行に"
+      }
+    ]
+  },
+  {
+    "id": "N4-GR-STAR-003",
+    "level": "N4",
+    "skill": "Grammar",
+    "typeId": "N4-GR-STAR",
+    "stem": "風邪をひいたときは、無理をしないで（　　）（　　） ★ （　　）がいいですよ。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "休んだ"
+      },
+      {
+        "id": "B",
+        "text": "ゆっくり"
+      },
+      {
+        "id": "C",
+        "text": "ほう"
+      },
+      {
+        "id": "D",
+        "text": "暖かくして"
+      }
+    ]
+  },
+  {
+    "id": "N4-GR-STAR-004",
+    "level": "N4",
+    "skill": "Grammar",
+    "typeId": "N4-GR-STAR",
+    "stem": "昨日は熱が（　　）（　　） ★ （　　）学校を休みました。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "できなかった"
+      },
+      {
+        "id": "B",
+        "text": "ので"
+      },
+      {
+        "id": "C",
+        "text": "高くて"
+      },
+      {
+        "id": "D",
+        "text": "起き上がることが"
+      }
+    ]
+  },
+  {
+    "id": "N4-GR-STAR-005",
+    "level": "N4",
+    "skill": "Grammar",
+    "typeId": "N4-GR-STAR",
+    "stem": "この辞書は（　　）（　　） ★ （　　）とても便利です。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "大きくて"
+      },
+      {
+        "id": "B",
+        "text": "説明も"
+      },
+      {
+        "id": "C",
+        "text": "文字が"
+      },
+      {
+        "id": "D",
+        "text": "わかりやすいので"
+      }
+    ]
+  },
+  {
+    "id": "N4-GR-STAR-006",
+    "level": "N4",
+    "skill": "Grammar",
+    "typeId": "N4-GR-STAR",
+    "stem": "将来自分の店を（　　）（　　） ★ （　　）一生懸命働いています。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "今"
+      },
+      {
+        "id": "B",
+        "text": "持つ"
+      },
+      {
+        "id": "C",
+        "text": "貯金しようと"
+      },
+      {
+        "id": "D",
+        "text": "ために"
+      }
+    ]
+  },
+  {
+    "id": "N4-RD-SHOR-001",
+    "level": "N4",
+    "skill": "Reading",
+    "typeId": "N4-RD-SHOR",
+    "stem": "火曜日の朝8時までに出せるゴミは何ですか。",
+    "contextPassage": "【アパートのゴミ出しのルール】\n燃えるゴミは毎週火曜日と金曜日の朝8時までに出してください。段ボールや瓶などの資源ゴミは水曜日です。月曜日はゴミを出してはいけません。ルールを守って清潔な環境を作りましょう。",
+    "options": [
+      {
+        "id": "A",
+        "text": "燃えるゴミ"
+      },
+      {
+        "id": "B",
+        "text": "瓶"
+      },
+      {
+        "id": "C",
+        "text": "段ボール"
+      },
+      {
+        "id": "D",
+        "text": "すべてのゴミ"
+      }
+    ]
+  },
+  {
+    "id": "N4-RD-SHOR-002",
+    "level": "N4",
+    "skill": "Reading",
+    "typeId": "N4-RD-SHOR",
+    "stem": "佐藤さんは田中さんに何を伝えたいですか。",
+    "contextPassage": "田中さんへ\nお疲れ様です。今日の午後3時からの会議ですが、部長の都合で午後4時からに変更になりました。場所は第2会議室のまま変わりません。よろしくお願いします。　佐藤より",
+    "options": [
+      {
+        "id": "A",
+        "text": "会議の場所が変わったこと"
+      },
+      {
+        "id": "B",
+        "text": "佐藤さんが会議を欠席すること"
+      },
+      {
+        "id": "C",
+        "text": "会議が中止になったこと"
+      },
+      {
+        "id": "D",
+        "text": "会議の時間が1時間遅くなったこと"
+      }
+    ]
+  },
+  {
+    "id": "N4-RD-SHOR-003",
+    "level": "N4",
+    "skill": "Reading",
+    "typeId": "N4-RD-SHOR",
+    "stem": "「私」は肉じゃがについてどう思いましたか。",
+    "contextPassage": "昨日の夜、初めて一人で肉じゃがを作りました。母に電話で作り方を聞きながら作りました。少し味が濃くなってしまいましたが、自分で作った料理はとてもおいしかったです。今度はもっと上手に作りたいです。",
+    "options": [
+      {
+        "id": "A",
+        "text": "味が薄くて失敗した"
+      },
+      {
+        "id": "B",
+        "text": "母の料理より上手にできた"
+      },
+      {
+        "id": "C",
+        "text": "まずくて食べられなかった"
+      },
+      {
+        "id": "D",
+        "text": "少し濃かったが、おいしかった"
+      }
+    ]
+  },
+  {
+    "id": "N4-RD-SHOR-004",
+    "level": "N4",
+    "skill": "Reading",
+    "typeId": "N4-RD-SHOR",
+    "stem": "休館中に本を返したい人は、どうすればいいですか。",
+    "contextPassage": "【市立図書館からのお知らせ】\n館内のエアコン点検のため、来週の月曜日と火曜日は休館いたします。水曜日からは通常通り午前9時から開館します。本の返却は、正面入口の返却ポストをご利用いただけます。",
+    "options": [
+      {
+        "id": "A",
+        "text": "正面入口のポストに入れる"
+      },
+      {
+        "id": "B",
+        "text": "水曜日まで待ってカウンターで返す"
+      },
+      {
+        "id": "C",
+        "text": "電話で連絡する"
+      },
+      {
+        "id": "D",
+        "text": "郵送で送る"
+      }
+    ]
+  },
+  {
+    "id": "N4-RD-INFO-001",
+    "level": "N4",
+    "skill": "Reading",
+    "typeId": "N4-RD-INFO",
+    "stem": "木曜日の夕方6時以降に参加できて、1回1,000円の教室はどれですか。",
+    "contextPassage": "【さくらスポーツセンター　初心者向け教室案内】\n1. ヨガ教室：毎週火曜日 10:00〜11:30 | 参加費: 1回 800円 | 持ち物: タオル、飲み物\n2. 水泳教室：毎週木曜日 18:30〜20:00 | 参加費: 1回 1,000円 | 持ち物: 水着、水泳帽\n3. バドミントン教室：毎週土曜日 14:00〜16:00 | 参加費: 1回 500円 | 持ち物: 室内用シューズ\n※どの教室も予約は不要です。開始15分前までに受付でお金を払ってください。",
+    "options": [
+      {
+        "id": "A",
+        "text": "どの教室も参加できない"
+      },
+      {
+        "id": "B",
+        "text": "ヨガ教室"
+      },
+      {
+        "id": "C",
+        "text": "水泳教室"
+      },
+      {
+        "id": "D",
+        "text": "バドミントン教室"
+      }
+    ]
+  },
+  {
+    "id": "N4-RD-INFO-002",
+    "level": "N4",
+    "skill": "Reading",
+    "typeId": "N4-RD-INFO",
+    "stem": "教室に参加するとき、予約について正しいものはどれですか。",
+    "contextPassage": "【さくらスポーツセンター　初心者向け教室案内】\n1. ヨガ教室：毎週火曜日 10:00〜11:30 | 参加費: 1回 800円 | 持ち物: タオル、飲み物\n2. 水泳教室：毎週木曜日 18:30〜20:00 | 参加費: 1回 1,000円 | 持ち物: 水着、水泳帽\n3. バドミントン教室：毎週土曜日 14:00〜16:00 | 参加費: 1回 500円 | 持ち物: 室内用シューズ\n※どの教室も予約は不要です。開始15分前までに受付でお金を払ってください。",
+    "options": [
+      {
+        "id": "A",
+        "text": "1週間前までに予約が必要"
+      },
+      {
+        "id": "B",
+        "text": "予約は必要ない"
+      },
+      {
+        "id": "C",
+        "text": "前日までに受付で予約する"
+      },
+      {
+        "id": "D",
+        "text": "電話で予約しなければならない"
+      }
+    ]
+  }
+]

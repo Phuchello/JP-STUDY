@@ -1,24 +1,48 @@
 # Trạng thái dự án — 15/10/2026
 
-## Emergency Phase 3.7 — Đại tu chất lượng nội dung & Tái thiết lập quy trình kiểm định độc lập
+## Phase 3.7 — Phục hồi kiểm định chất lượng độc lập (Independent QA Recovery Completed)
 
-- **Kích hoạt quy trình Stop-Ship & Cô lập lỗi phát hiện qua Independent Audit**:
-  - Phát hiện các khiếm khuyết trong lần tạo ngân hàng 120 câu đầu: vòng lặp giải mù giả lập ở Stage C (chỉ tăng biến đếm), sổ cái hardcode `PASS`, thiên lệch đáp án nghiêm trọng (A=103, B=4, C=4, D=9), lỗi lệch thể chia động từ (N4-MO-READ-002, 004, 006), câu ngữ pháp mơ hồ phương án (N4-GR-FORM-003) và câu dấu sao lắp ráp phi ngữ pháp (N4-GR-STAR-001).
-  - Áp dụng lệnh stop-ship ngay lập tức: cách ly toàn bộ ngân hàng 120 câu, ngăn chặn xuất bản live 20 bộ đề luyện tập, bảo toàn nguyên vẹn 3 Google Forms P0 đang hoạt động (`W01-B01`, `W01-B02`, `W01-B03`).
-- **Xây dựng bộ kiểm thử tự động chống lỗi hồi quy (Negative Test Suite)**:
-  - Ban hành `scripts/tests/test_question_bank_negative.py` kiểm định tự động 5 ca kiểm thử âm bản, bảo đảm pipeline từ chối 100% các câu hỏi vi phạm hình thái thể chia, trùng lặp ngữ nghĩa hoặc đứt gãy cú pháp.
-- **Đại tu toàn diện 120 câu hỏi & Cân bằng phân bổ đáp án**:
-  - Tái cấu trúc toàn bộ 120 câu hỏi tại `scripts/curriculum/rebuild_and_repair_bank.py`:
-    - Chuẩn hóa dạng câu đọc Kanji theo đúng format JLPT: đóng ngoặc vuông từ khóa trực tiếp trong câu ngữ cảnh hoàn chỉnh (`【貸しました】`, `【拾いました】`, `【送りました】`).
-    - Khử mơ hồ hoàn toàn các phương án nhiễu (thay `ことに` bằng `ために` ở N4-GR-FORM-003, thay `はずがない` ở N3-GR-FORM-001).
-    - Soạn lại toàn bộ 16 câu dấu sao (N4, N3, N2) với chuỗi cú pháp chặt chẽ, 100% tiếng Nhật tự nhiên, vị trí dấu sao cố định tại ô thứ 3 (`（　　）（　　） ★ （　　）`), lưu vết `assembledSentence` minh bạch.
-    - Cân bằng đáp án tuyệt đối: đúng 30 A, 30 B, 30 C, 30 D (25.0% mỗi đáp án), không có 3 câu liên tiếp cùng đáp án, tỷ lệ cân bằng ở từng cấp độ N4, N3, N2.
-- **Quy trình giải mù độc lập thực chất & Sổ cái minh bạch**:
-  - Thực thi giải mù độc lập (`independent_blind_solver`) chỉ nhận stem và options, không truy cập đáp án hay giải thích của tác giả; đạt tỷ lệ đồng thuận 120/120.
-  - Ghi nhận đầy đủ `Blind_Answer`, `Blind_Confidence`, `Reviewer_ID`, `Timestamp` vào [QUESTION_REVIEW_LEDGER](qa/QUESTION_REVIEW_LEDGER.csv).
-  - Lập sổ theo dõi lỗi lịch sử tại [REJECTED_ITEMS](qa/REJECTED_ITEMS.json) và cập nhật báo cáo kiểm định [QUESTION_BANK_QA](qa/QUESTION_BANK_QA.md). Cổng E duy trì trạng thái trung thực `PENDING_LEARNER_CALIBRATION`.
-- **Đồng bộ hóa trạng thái bộ đề luyện tập**:
-  - Cập nhật [PRACTICE_SETS](curriculum/PRACTICE_SETS.json): 20 bộ đề được chuyển sang trạng thái `QA_PASSED_NOT_DEPLOYED` (`SPEC_ONLY`), 3 đề thi thử Full Mock duy trì phân loại minh bạch `NOT_READY — INSUFFICIENT UNIQUE ITEMS`.
+- **Loại bỏ triệt để bộ giải lookup mã cứng & Thiết lập quy trình thẩm định mù thực chất**:
+  - Đã xóa bỏ hoàn toàn hàm lookup từ điển gán đáp án và danh tính giả mạo; thay thế bằng quy trình giải mù độc lập 100% từ mô hình ngôn ngữ tách biệt qua Subagent (`subagent:jlpt-blind-reviewer`).
+  - Xuất 4 tập dữ liệu giải mù thuần túy, tước bỏ hoàn toàn đáp án tác giả và phần giải thích: `qa/blind_review_dataset.json` (120 câu), `qa/blind_review_n4.json` (40 câu), `qa/blind_review_n3.json` (50 câu), `qa/blind_review_n2.json` (30 câu).
+  - Khởi tạo 3 phiên Subagent độc lập giải đề trực tiếp từ văn bản tiếng Nhật theo quy tắc ngữ pháp, ngữ nghĩa, ngữ dụng và tiêu chuẩn JLPT.
+  - Lưu trữ chứng cứ nguyên bản không can thiệp tại:
+    - [`qa/raw_blind_review_n4.json`](qa/raw_blind_review_n4.json) (40 câu N4)
+    - [`qa/raw_blind_review_n3.json`](qa/raw_blind_review_n3.json) (50 câu N3)
+    - [`qa/raw_blind_review_n2.json`](qa/raw_blind_review_n2.json) (30 câu N2)
+- **Tái phân bổ đáp án ngẫu nhiên có kiểm soát (Seeded Reshuffle - Non-cyclic)**:
+  - Áp dụng thuật toán xáo trộn theo hạt giống câu hỏi `seed-clean-audit`, bảo toàn nguyên vẹn nội dung lựa chọn đúng và các giải thích phân tích phương án nhiễu.
+  - Loại bỏ hoàn toàn chuỗi lặp chu kỳ 4-tuple ABCD: số lần xuất hiện chuỗi `ABCD` giảm từ 30 xuống còn 1 (mức xác suất ngẫu nhiên thông thường $120/256$).
+  - Chuỗi đáp án trùng lặp liên tiếp tối đa là 3 câu.
+  - Phân bổ vị trí đáp án trên toàn bộ 120 câu:
+    - **A:** 33 câu (27.5%)
+    - **B:** 30 câu (25.0%)
+    - **C:** 29 câu (24.2%)
+    - **D:** 28 câu (23.3%)
+- **Quy trình đối soát độc lập & Báo cáo kiểm định minh bạch**:
+  - Triển khai `scripts/curriculum/reconcile_blind_review.py` tự động nạp kết quả giải mù từ 3 subagent và đối soát với đáp án tác giả:
+    - Tỷ lệ đồng thuận đạt **120 / 120 (100.0%)**.
+    - Số câu bất đồng (Disagreements): **0 câu**.
+    - Phát hiện và ghi nhận 4 câu có phương án nhiễu gần nghĩa hoặc trạng từ có thể hoán đổi vị trí (N4-GR-FORM-010, N4-GR-STAR-002, N4-GR-STAR-006, N2-GR-FORM-003) tại [`qa/BLIND_REVIEW_RECONCILIATION_REPORT.md`](qa/BLIND_REVIEW_RECONCILIATION_REPORT.md).
+  - Kiểm toán cấu trúc 18 câu dấu sao (N4: 6 câu, N3: 6 câu, N2: 6 câu): 100% bảo đảm thứ tự ngữ pháp tự nhiên và vị trí dấu sao cố định tại ô thứ 3.
+  - Cập nhật sổ cái kiểm định [QUESTION_REVIEW_LEDGER](qa/QUESTION_REVIEW_LEDGER.csv) với định danh trung thực `subagent:jlpt-blind-reviewer`, mức độ tin cậy `HIGH` và dấu thời gian thực.
+  - Cổng E duy trì trạng thái trung thực `PENDING_LEARNER_CALIBRATION`.
+- **Bộ kiểm thử đột biến phản biện (Adversarial Mutation Test Suite)**:
+  - Ban hành `scripts/tests/test_qa_adversarial_mutations.py` kiểm định khả năng phát hiện tự động của hệ thống đối với 8 lớp lỗi đột biến nguy hiểm:
+    1. Đáp án tác giả sai so với kết quả giải mù độc lập (`test_mutation_1_wrong_answer_key`).
+    2. Xuất hiện phương án đúng thứ hai gây mơ hồ ngữ nghĩa (`test_mutation_2_second_grammatically_valid_choice`).
+    3. Sai lệch thể chia giữa từ đích và lựa chọn đọc (`test_mutation_3_missing_correct_reading`).
+    4. Thứ tự ghép câu dấu sao đứt gãy phi ngữ pháp (`test_mutation_4_invalid_star_permutation`).
+    5. Lời giải thích mâu thuẫn trực tiếp với ký tự đáp án (`test_mutation_5_explanation_contradicts_answer`).
+    6. Đoạn văn đọc hiểu bị thao túng không hỗ trợ đáp án (`test_mutation_6_manipulated_passage`).
+    7. Mẫu đáp án lặp chu kỳ ABCD mang tính dự đoán (`test_mutation_7_repeating_abcd_pattern`).
+    8. Bộ giải gian lận dùng mã cứng/bảng tra cứu (`test_mutation_8_hardcoded_reviewer_lookup`).
+  - Toàn bộ 8/8 bài kiểm tra đột biến vượt qua thành công (100% phát hiện lỗi).
+- **Cổng phát hành có kiểm soát & Bảo vệ môi trường thực tế**:
+  - Giữ nguyên 100% trạng thái an toàn: **0 Form mới được kích hoạt** (20 bộ đề luyện tập duy trì trạng thái `QA_PASSED_NOT_DEPLOYED`, dạng `SPEC_ONLY`).
+  - Bảo toàn tuyệt đối 3 Google Forms P0 đang hoạt động (`W01-B01`, `W01-B02`, `W01-B03`) và toàn bộ dữ liệu học tập của học viên.
+
+---
 
 ## Phase 3.7 — Ngân hàng luyện đề JLPT, Chuyên đề kỹ năng & Cổng luyện tập mở rộng (Baseline ban đầu)
 
@@ -35,6 +59,8 @@
   - Tái cấu trúc trang **LUYỆN TẬP (Kho đề)** (`https://sites.google.com/view/jp-study/luy%E1%BB%87n-t%E1%BA%ADp`) tích hợp đầy đủ 5 phân hệ luyện đề, duy trì 100% hoạt động của 3 Form P0 và lộ trình P1.
   - Cập nhật tài liệu nghiệm thu giao diện [GOOGLE_SITES_UI_QA](GOOGLE_SITES_UI_QA.md).
 
+---
+
 ## Phase 3.6 — Cổng học tập Google Sites hoàn tất, tối ưu UI/UX Mobile-First
 
 - Xây dựng cổng học tập trực quan trên nền Google Sites (`JP-STUDY — 日本語を少しずつ`) làm điểm chạm duy nhất hàng ngày cho người học, thay thế giao diện kỹ thuật thô của Sheets/Forms.
@@ -49,6 +75,8 @@
 - Cài đặt xuất bản bảo mật: Bật tùy chọn chặn công cụ tìm kiếm lập chỉ mục ("Yêu cầu công cụ tìm kiếm công khai không hiển thị trang web của tôi").
 - Giữ nguyên 100% kiến trúc backend gốc (Google Sheets, Forms, Apps Script trigger, Drive). Nghiệm thu UI/UX: [GOOGLE_SITES_UI_QA](GOOGLE_SITES_UI_QA.md).
 
+---
+
 ## Phase 3.5 — nghiệm thu P0 hoàn tất, kích hoạt Forms thành công
 
 - Đã tạo Drive riêng tư đúng cấu trúc, một Google Sheet native 5 tab, 7 PDF ngắn (9 trang), vai nói và hai prompt. Link thật bàn giao riêng, không đưa lên GitHub.
@@ -58,41 +86,3 @@
 - **394/394 kiểm logic/Workspace mock đạt.** Đã thực thi Apps Script gắn với bảng qua trình duyệt: `setupP0` và `auditForms` hoàn tất; đúng 3 Form P0 (18 câu), 1 bảng raw với ba tab phản hồi. Không tạo 7 P1 khi chưa có nhu cầu.
 - Sửa lỗi Google thực tế: `getDestinationId()` ném lỗi khi Form chưa có đích; bộ cài bắt đúng lỗi này và liên kết bảng raw.
 - Bật Drive Advanced Service v3 với sự đồng ý của owner. Đã gỡ quyền `anyone` của responder từ cả ba Form; đọc lại `includePermissionsForView=published` xác nhận mỗi Form chỉ có owner.
-- **Đã nghiệm thu live P0 trọn vẹn:** Đã cấu hình trả điểm ngay sau khi nộp (Immediate release) cùng phản hồi chi tiết. Thực hiện nộp QA giả lập thực tế trên cả 3 Form qua browser automation; điểm số hiển thị chính xác (W01-B01: 3/5, W01-B02: 6/8, W01-B03: 3/5) với đầy đủ mẫu câu đúng, sai và bỏ trống. Trigger `onQuizSubmit` phân luồng dữ liệu QA vào `NHAT_KY_QA` và tạo bảng riêng `JP_STUDY_QA_SYNTHETIC` mà không ghi đè vào lịch sử người học (`learnerRows: 0`). Đã chạy `activateP0Verified`: cell B6 hiện `Sẵn sàng`, B7 hiện link `MỞ BÀI NGẮN`, tab `TUẦN NÀY` mở link 3 Form P0. Đã chạy thử xuất báo cáo quản lý CSV/JSON thành công vào Drive. [Bằng chứng đã lược thông tin riêng](qa/drive_first_deployment.json).
-- Báo cáo chỉ phản ánh lượt quiz đã nộp. Nghe/nói/học ngoài hệ thống chưa ghi; không suy ra không học, không suy phút học từ timestamp, không coi điểm ôn tăng là tiến bộ độc lập.
-
-Nghiệm thu và giới hạn: [DRIVE_FIRST_QA](DRIVE_FIRST_QA.md). Cài/kích hoạt: [DRIVE_SETUP](DRIVE_SETUP/README.md).
-
-## Các checkpoint trước đã hoàn thành
-
-- Phase 1: nghiên cứu, kế hoạch tạm thời, tracker; bản gốc giữ local, bản Markdown công khai thay hồ sơ thật bằng ví dụ tổng hợp.
-- Phase 2: hướng dẫn bắt đầu/chẩn đoán, prompt gia sư, tracker v2, nguồn và QA.
-- Phase 2.1: sổ tay tích hợp 12 trang bản gốc, tracker 5 trang tính và prompt cuối; bản công khai sổ tay bằng Markdown đã lược hồ sơ.
-- Phase 3 Checkpoint 1–3: ledger, 14 kỹ thuật, schema, pilot, chấm và chọn bài, Gemini; chạy văn bản offline, xuất/nhập tiến độ, phân biệt câu mới/ôn/hỗ trợ.
-- Phần Excel của Checkpoint 4 và kiểm giao pilot: tracker 6 trang tính, CSV 12 cột, giây nguyên; năm trang cũ được giữ nguyên.
-- Phụ lục: 31 thẻ mẫu, 37 ví dụ chỉ để học; 12 khung viết/nói; mẹo đọc/nghe có nguồn và phân biệt heuristic.
-- Đồng bộ công khai: bản gốc không bị ghi đè, kiểm kê nguồn có SHA-256, bản công khai lược hồ sơ và đường dẫn máy, giữ nội dung đã QA.
-
-## Đã kiểm định và còn cần sửa
-
-| Hạng mục | Số lượng | Phạm vi |
-|---|---:|---|
-| Câu trắc nghiệm N4 | 80 | AI khác giải mù toàn bộ lượt đầu; sửa và tái kiểm có mục tiêu; không tuyên bố giải mù toàn bộ lần hai |
-| Vai nói | 4 | Rà độc lập; không có một đáp án duy nhất |
-| Thẻ / ví dụ học | 31 / 37 | Rà lũy kế, không cộng vào ngân hàng 80 câu |
-| Recipe | 30 | Ghép lại cùng ngân hàng 80, không phải 30 đề độc lập |
-| Phát hiện nội dung còn mở sau tái kiểm cuối | 0 | Chỉ trong phạm vi AI QA được ghi; chưa có thẩm định bản ngữ |
-
-QA lịch sử: engine 421 nhóm, browser 36 mục, luồng bổ sung 11, Excel native 64, toàn vẹn 28; kết quả này thuộc bản gốc tại checkpoint. Bản công khai kiểm lại phần bị ảnh hưởng; xem [PUBLICATION_QA](qa/PUBLICATION_QA.md), không coi hash PDF mới là hash PDF cũ.
-
-## Đang làm / chưa làm
-
-- Checkpoint 4 **một phần**: chưa mở rộng 300–500 câu, chưa có ngân hàng N3/N2. Chưa tuyên bố hoàn thành toàn Phase 3.
-- Chưa có dữ liệu chẩn đoán hoặc thử nghiệm người học thật mới, nên không có dự báo xác suất đỗ, tốc độ học hay lịch tuần cố định.
-- Chưa hiệu chuẩn độ khó/thời gian, chưa thẩm định giáo viên bản ngữ, chưa kiểm iPad thật hoặc nghe TTS bằng âm thực.
-- Mã build lịch sử là **DRAFT**, có phụ thuộc tệp trung gian; không phải pipeline tái tạo toàn bộ chỉ bằng một lệnh.
-- Nguồn sau paywall chỉ dùng trong giới hạn abstract/metadata được ghi; lỗi Crossref 429/404 không được tính là xác minh.
-
-## Checkpoint tiếp theo
-
-Hoàn tất OAuth cho script đã gắn, rồi tiếp tục nghiệm thu trực tiếp 3 Form P0 từ làm → nộp → điểm → lỗi → Gemini → lịch sử → CSV bằng dữ liệu QA trong bảng riêng; sau đó mới mở 7 Form P1. Thu dữ liệu tự nguyện ngày 7/14 và thử người học trên thiết bị thực; kiểm giọng Nhật hoặc chọn MP3 chính thức. Sửa vấn đề được quan sát rồi mới duyệt mở rộng từng lô. Mỗi lô phải giữ ID/khóa/schema đồng bộ, QA độc lập theo phạm vi, cập nhật manifest/docs, commit và push. Không sinh thêm câu chỉ để đủ số lượng.

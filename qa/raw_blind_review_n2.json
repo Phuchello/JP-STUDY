@@ -1,0 +1,244 @@
+[
+  {
+    "id": "N2-MO-READ-001",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「把握」の正しい音読みは「はあく」。「把（ハ）」＋「握（アク）」。意味はしっかりと理解・把握すること。他の選択肢「はそく」「はこう」「ばあく」はいずれも誤読。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-MO-READ-002",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "「措置」の正しい音読みは「そち」。「措（ソ）」＋「置（チ）」。「措置を講じる」は頻出のコロケーション。Bの「しょち」は「処置」、Dの「そうち」は「装置」の読みであり、典型的な引っかけ選択肢。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-MO-READ-003",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「妥協」の正しい音読みは「だきょう」。「妥（ダ）」＋「協（キョウ）」。「妥協点を見出す」は定型的な共起表現。A「ときょう」、C「だごう」、D「たいきょう」は誤読。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-MO-READ-004",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "動詞「蓄える（たくわえる）」のて形は「たくわえて」。Aは「抱えて」、Cは「託して」、Dは「備えて」の訓読みであり誤り。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-MO-READ-005",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "「顕著」の正しい音読みは「けんちょ」。「顕（ケン）」＋「著（チョ）」。頭音は清音「けん」、第二拍も清音「ちょ」であり、濁音を含む選択肢（げんちょ、けんじょ）や拗音の違い（けんしょ）は誤り。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-MO-AFFX-001",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "統計や社会人口学において国全体の人口を表す接頭辞は「総」であり、「総人口（そうじんこう）」が定着した複合語。「全人口」も文脈により意味は通じうるが、語形成およびJLPTの接頭辞コロケーションとして「総人口」が唯一の正解。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-MO-AFFX-002",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「様々な・多くの」という意味を名詞の前に付加する接頭辞は「諸（しょ）」であり、「諸問題（しょもんだい）」が確立した語形成。「総問題」「多問題」などの語は日本語に存在しない。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-MO-AFFX-003",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「侵害にあたる」と結びつく法的権利を表す接尾辞は「権（けん）」であり、「著作権（ちょさくけん）の侵害」が正確。法律名は「著作権法」であり「著作法」ではない。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-MO-AFFX-004",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「〜とみなす・見る」という意味を添えてサ変動詞化する接尾辞は「視（し）」。「疑問視される」は「問題視する」「重要視する」などと並ぶJLPT N2頻出の接尾語表現。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-MO-AFFX-005",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "社会的な特定分野・社会集団の範囲を表す接尾辞は「界（かい）」。「教育界」は後続の「政界」との意味的・構造的対比（〜界のみならず…界からも）からも明確に一致する。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-MO-CONT-001",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「漠然（ばくぜん）とした」は「ぼんやりとしてはっきりしないさま」を表し、「漠然としたイメージ」「漠然とした不安」のように用いる。文脈（まだ〜しか持っていない）に完全に合致する。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-MO-CONT-002",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「緻密（ちみつ）」は「細部まで行き届いてすきまがないさま」を表し、「緻密な計画」という定型的な共起関係を持つ。後続の「失敗の余地がほとんどない」という論理展開にも完璧に適合する。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-MO-CONT-003",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「おろそか（疎か）にする」は「いい加減に扱う、なおざりにする」を意味する慣用連語であり、「〜をおろそかにしてはならない」の形で強い戒めとして多用される。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-MO-CONT-004",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "「躊躇（ちゅうちょ）する」は「ためらう・迷う」の意。「少しも躊躇することなく即答した」は、即座に決断・回答した動作と直接対比を成す最も自然かつ典型的なコロケーションである。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-MO-CONT-005",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「軌道（きどう）に乗る」は「計画や事業が順調に滑り出し、予定通りに進むようになる」を意味する慣用句。後半の「収益が安定してきた」と意味的に呼応する。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-GR-FORM-001",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "文型「〜のは、…にほかならない」は「まさに…である、それ以外のものではない」と理由や原因を強く肯定・特定するN2重要文型。称賛の文脈において「努力の賜物にほかならない」と呼応する。A「にすぎない」は価値を過小評価する表現のため文脈に反する。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-GR-FORM-002",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「〜ざるを得ない」は「他に方法がなく、そうしなければならない（やむを得ず〜する）」という義務・必然性を表す（する→せざるを得ない）。赤字継続という仮定条件に対する帰結として論理的・統語的にAが唯一適切。C「せざるを得ず」は文末を終止できない連用中止形。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-GR-FORM-003",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "文型「動詞マス形＋つつある（増加しつつある）」は客観的な変化の進行を表す表現であり、後継者不足による技術存続の危機が現在進行形で拡大している社会現象の報告文脈に最適である。",
+    "alternativeDefensibleAnswers": [
+      "D"
+    ],
+    "concerns": "選択肢Dの「増加する一方だ」も一方向への歯止めの利かない進行を表す文型として一定の妥当性を持つため、受験者によっては迷いを生じさせる選択肢重複・近接性の懸念がある。"
+  },
+  {
+    "id": "N2-GR-FORM-004",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「二度と〜まい」は話者の強い否定の意志（二度と〜しないぞ）を表すN2文型。動詞辞書形「会う」に直接接続して「会うまい」となる。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-GR-FORM-005",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「〜を契機に（して）」は「〜をきっかけ・好機として、新しい展開が始まる」ことを表す。工場の完成を機に市場進出を開始するという文脈に最も合致する。Bの「〜を皮切りに」は「同種の一連の行動が次々に広がる発端」に用いるため不適。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-GR-FORM-006",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「〜をめぐって」は「〜を中心・争点として（議論・対立・争いなどが生じる）」を表すN2代表文型。「議論が交わされた」という後続節と密接に呼応する。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-GR-FORM-007",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「〜に限って」は「運悪くその時に限って普段と違う不都合な事態が重なる」という皮肉・不満のニュアンスを表す。「傘を持たずに出てきた日に限って雨が降る」は本項目の代表的な例文。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-GR-FORM-008",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "文型「〜ものがある」は「話者が心からそう感じられる要素がある、感慨深い」という心情・感慨を表す表現。「胸に迫る（深く心に感じる）」と結びついて「胸に迫るものがある」として極めて自然に用いられる。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-GR-STAR-001",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「〜どころか…も」は「〜だけでなく、さらにそれ以上の…」を表す構文。「信用を【失墜させる】（A）【どころか】（D）【存続をも】（B ★）【脅かしかねない】（C）重大な問題である」という語順が唯一成立する。したがって★に入るのはB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-GR-STAR-002",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「次第で」に接続できる名詞は「取り組み方（A）」のみ（「団結と（C）」は並列助詞「と」があるため文末に置けない）。また意味的に「団結」の修飾語は集団を表す「チームの（D）」でなければならず（×一人ひとりの団結）、「一人ひとりの（B）」は「取り組み方（A）」を修飾する。したがって語順は「【チームの】（D）【団結と】（C）【一人ひとりの】（B ★）【取り組み方】（A）次第で」となり、★はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-GR-STAR-003",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「いくら〜からといって（いくら専門知識が豊富だからといって）」＋「〜ていては…ない（傲慢な態度をとっていては周囲の信頼は得られない）」という構文の組み合わせ。語順は「【豊富だから】（A）【といって】（C）【傲慢な態度を】（D ★）【とっていては】（B）」となり、★の位置はD。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-GR-STAR-004",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "「綿密な」に続く名詞は「計画にも（B）」のみ。続いて逆接文型「〜にもかかわらず（A）」が成立する。後半は場所を示す「現場では（D）」を「本番の（C）」が修飾して「本番の現場では」となる。完全な語順は「【計画にも】（B）【かかわらず】（A）【本番の】（C ★）【現場では】（D）」となり、★はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-RD-SHOR-001",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "本文末尾の「技術を過信することなく、人間とAIがそれぞれの強みを補完し合う体制の構築こそが、持続可能な発展をもたらすのである」が筆者の明確な主張であり、選択肢Cの「AIと人間がそれぞれの強みを活かして協力し合う関係を築くべきだ」と論旨が完全に一致する。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-RD-SHOR-002",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "本文中に「業務に関する記述はもちろんのこと、社内の様子が推測できる写真の投稿も固く禁止します」と明記されており、全社員に求めている具体的行動はSNSでの情報・写真投稿の禁止であるDが客観的に正解。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-RD-SHOR-003",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "本文の「時代とともに変化する現代の生活様式に合わせて、新たなデザインや用途を開拓してこそ、伝統は生命力を保ち続けることができる」という記述と、選択肢D「現代の暮らしに合わせて新しいデザインや用途を取り入れるべきだ」が完全に合致する。Cは第1文の否定内容と矛盾する。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  }
+]
