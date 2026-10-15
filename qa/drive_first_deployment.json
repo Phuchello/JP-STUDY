@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-15",
+  "status": "VERIFIED",
+  "scope": "Google Workspace live P0 end-to-end acceptance: 3 Forms audited, synthetic QA verified, installable triggers isolated, dashboard activated and daily report exported",
+  "observations": [
+    {"name": "Existing Completed executions were onOpen, not setupP0", "status": "VERIFIED"},
+    {"name": "Initial native setup failed because unlinked Form.getDestinationId throws", "status": "VERIFIED"},
+    {"name": "Repair applied to existing bound project; retry setupP0 completed, reused interrupted Form", "status": "VERIFIED"},
+    {"name": "Exactly three P0 Forms exist, with 5 / 8 / 5 source questions; seven P1 Forms not created", "status": "VERIFIED"},
+    {"name": "Native auditForms completed against all built P0 items and validated keys", "status": "VERIFIED"},
+    {"name": "One raw native Sheet exists, with three linked Form-response tabs plus CHI_TIET and NHAT_KY_QA", "status": "VERIFIED"},
+    {"name": "Default published-view anyone responder permission removed from each P0; independent published-view metadata returns owner only", "status": "VERIFIED"},
+    {"name": "Bound manifest saved and read back with explicit approved scopes, Drive Advanced v3 and Asia/Tokyo", "status": "VERIFIED"},
+    {"name": "Release grades configured to immediate release with missed questions, correct answers, points, and explanations visible after submission", "status": "VERIFIED"},
+    {"name": "Real synthetic QA submissions submitted to all 3 P0 Forms via authenticated browser with correct, incorrect, and blank items", "status": "VERIFIED"},
+    {"name": "Native submit triggers verified and quarantined QA submissions into NHAT_KY_QA; zero learner rows in CHI_TIET", "status": "VERIFIED"},
+    {"name": "Native verifySyntheticQa verified scores (W01-B01: 3/5, W01-B02: 6/8, W01-B03: 3/5) in isolated QA spreadsheet and Drive exports", "status": "VERIFIED"},
+    {"name": "Native activateP0Verified executed; dashboard cell B6 displays 'Sẵn sàng', B7 provides verified 'MỞ BÀI NGẮN' link, and week checklist links are active", "status": "VERIFIED"},
+    {"name": "Native exportDailyReport executed successfully; neutral report generated and exported to Drive", "status": "VERIFIED"},
+    {"name": "Responsive testing verified at mobile width (390x844) and laptop viewport (1280x800); clean typography, no answer leakage", "status": "VERIFIED"}
+  ],
+  "p0Created": 3,
+  "p0QuestionCount": 18,
+  "p1Created": 0,
+  "localMockChecksPassed": 394,
+  "publicationAttempted": true,
+  "activateReadyRun": true,
+  "realQaSubmissionsVerified": 3,
+  "learnerSharingPerformed": false,
+  "privacy": "No private account details, Google resource IDs, URLs, native execution screenshots or learner records are published in this evidence file."
+}

@@ -2,7 +2,7 @@
 
 Học tiếng Nhật qua **một Google Sheet**: chọn một việc ngắn, làm bài, chữa một lỗi rồi dừng. Mệt thì nghỉ. Ưu tiên nghe/nói đời sống và phục hồi nền N4; không áp lịch cố định hoặc cam kết đỗ JLPT.
 
-**Phase 3.5 đang triển khai:** đã tạo Drive riêng tư, bảng 5 tab, 7 PDF ngắn và prompt. **Forms còn QA_PENDING**: đã chuẩn bị 10 quiz và kiểm logic bằng API mô phỏng; chưa chạy trực tiếp trên Google. Không coi bộ cài là 10 Form đã hoạt động.
+**Phase 3.5 đang triển khai:** Đã nghiệm thu live và kích hoạt thành công 3 Form P0 (18 câu) trên Google Workspace (`activateP0Verified`). Bảng **JP_STUDY_HOC_HOM_NAY** hiển thị `Sẵn sàng` với link làm bài trực tiếp; dữ liệu QA được cách ly an toàn (0 learner rows). Báo cáo quản lý xuất tự động đạt. Phân quyền hiện chỉ mở cho owner, sẵn sàng chia sẻ khi có email người học. Xem [bằng chứng triển khai đã lược dữ liệu riêng](qa/drive_first_deployment.json).
 
 ## Bắt đầu
 

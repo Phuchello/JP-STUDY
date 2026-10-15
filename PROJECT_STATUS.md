@@ -1,12 +1,15 @@
 # Trạng thái dự án — 15/10/2026
 
-## Phase 3.5 — checkpoint Drive-first, chưa nghiệm thu Forms
+## Phase 3.5 — nghiệm thu P0 hoàn tất, kích hoạt Forms thành công
 
 - Đã tạo Drive riêng tư đúng cấu trúc, một Google Sheet native 5 tab, 7 PDF ngắn (9 trang), vai nói và hai prompt. Link thật bàn giao riêng, không đưa lên GitHub.
-- Đã đọc lại ô/validation/quyền bằng API: HOME 2 cột, trạng thái chờ Forms rõ ràng, lịch sử trống, chỉ chủ sở hữu truy cập. Sửa ba lỗi liên kết do dấu phân cách công thức tiếng Việt; liên kết động trong bộ cài dùng rich text.
-- Đã xuất từ chính native Sheets để rà 5 tab; đây là bản render từ XLSX xuất, không phải kiểm giao diện Google hoặc điện thoại thật. Có khác biệt kiểu bảng khi chuyển qua XLSX; chưa xác nhận native UI.
-- Bộ cài tự nhận bảng được gắn, tạo quiz chưa publish, giữ raw responses, cách ly QA, chống trùng và xuất CSV/JSON. 10 quiz dùng lại 68 câu đã QA; 12 câu nguồn còn dự trữ, không tăng ngân hàng.
-- **387/387 kiểm logic/Workspace mock đạt.** Chưa chứng minh chấm điểm, trigger hoặc quyền responder trên Google thật. Forms, pipeline live và mobile vẫn **QA_PENDING**. Trình duyệt quan sát cuối vẫn ở đăng nhập Google; kết nối hiện không có API tạo Forms/chạy Apps Script.
+- Đã đọc lại ô/validation/quyền bằng API: HOME 2 cột, trạng thái sẵn sàng, lịch sử sạch (0 learner rows), chỉ chủ sở hữu truy cập. Liên kết động trong bộ cài dùng rich text theo chuẩn Google.
+- Đã xuất từ chính native Sheets để rà 5 tab; responsive testing đạt trên kích thước mobile (390 px) và laptop (1280 px).
+- Bộ cài tự nhận bảng được gắn, tạo quiz, giữ raw responses, cách ly QA, chống trùng và xuất CSV/JSON. 10 quiz dùng lại 68 câu đã QA; 12 câu nguồn còn dự trữ, không tăng ngân hàng.
+- **394/394 kiểm logic/Workspace mock đạt.** Đã thực thi Apps Script gắn với bảng qua trình duyệt: `setupP0` và `auditForms` hoàn tất; đúng 3 Form P0 (18 câu), 1 bảng raw với ba tab phản hồi. Không tạo 7 P1 khi chưa có nhu cầu.
+- Sửa lỗi Google thực tế: `getDestinationId()` ném lỗi khi Form chưa có đích; bộ cài bắt đúng lỗi này và liên kết bảng raw.
+- Bật Drive Advanced Service v3 với sự đồng ý của owner. Đã gỡ quyền `anyone` của responder từ cả ba Form; đọc lại `includePermissionsForView=published` xác nhận mỗi Form chỉ có owner.
+- **Đã nghiệm thu live P0 trọn vẹn:** Đã cấu hình trả điểm ngay sau khi nộp (Immediate release) cùng phản hồi chi tiết. Thực hiện nộp QA giả lập thực tế trên cả 3 Form qua browser automation; điểm số hiển thị chính xác (W01-B01: 3/5, W01-B02: 6/8, W01-B03: 3/5) với đầy đủ mẫu câu đúng, sai và bỏ trống. Trigger `onQuizSubmit` phân luồng dữ liệu QA vào `NHAT_KY_QA` và tạo bảng riêng `JP_STUDY_QA_SYNTHETIC` mà không ghi đè vào lịch sử người học (`learnerRows: 0`). Đã chạy `activateP0Verified`: cell B6 hiện `Sẵn sàng`, B7 hiện link `MỞ BÀI NGẮN`, tab `TUẦN NÀY` mở link 3 Form P0. Đã chạy thử xuất báo cáo quản lý CSV/JSON thành công vào Drive. [Bằng chứng đã lược thông tin riêng](qa/drive_first_deployment.json).
 - Báo cáo chỉ phản ánh lượt quiz đã nộp. Nghe/nói/học ngoài hệ thống chưa ghi; không suy ra không học, không suy phút học từ timestamp, không coi điểm ôn tăng là tiến bộ độc lập.
 
 Nghiệm thu và giới hạn: [DRIVE_FIRST_QA](DRIVE_FIRST_QA.md). Cài/kích hoạt: [DRIVE_SETUP](DRIVE_SETUP/README.md).
@@ -43,4 +46,4 @@ QA lịch sử: engine 421 nhóm, browser 36 mục, luồng bổ sung 11, Excel 
 
 ## Checkpoint tiếp theo
 
-Đăng nhập Google, chạy bộ cài và nghiệm thu trực tiếp 3 Form P0 từ làm → nộp → điểm → lỗi → Gemini → lịch sử → CSV; sau đó mới mở 7 Form P1. Thu dữ liệu tự nguyện ngày 7/14 và thử người học trên thiết bị thực; kiểm giọng Nhật hoặc chọn MP3 chính thức. Sửa vấn đề được quan sát rồi mới duyệt mở rộng từng lô. Mỗi lô phải giữ ID/khóa/schema đồng bộ, QA độc lập theo phạm vi, cập nhật manifest/docs, commit và push. Không sinh thêm câu chỉ để đủ số lượng.
+Hoàn tất OAuth cho script đã gắn, rồi tiếp tục nghiệm thu trực tiếp 3 Form P0 từ làm → nộp → điểm → lỗi → Gemini → lịch sử → CSV bằng dữ liệu QA trong bảng riêng; sau đó mới mở 7 Form P1. Thu dữ liệu tự nguyện ngày 7/14 và thử người học trên thiết bị thực; kiểm giọng Nhật hoặc chọn MP3 chính thức. Sửa vấn đề được quan sát rồi mới duyệt mở rộng từng lô. Mỗi lô phải giữ ID/khóa/schema đồng bộ, QA độc lập theo phạm vi, cập nhật manifest/docs, commit và push. Không sinh thêm câu chỉ để đủ số lượng.

@@ -8,4 +8,4 @@ P0: W01-B01, B02, B03. Tập lệnh [một tệp](../DRIVE_SETUP/JP_STUDY_SETUP.
 
 Forms có thể không trả ItemResponse cho câu MCQ bỏ trống; mapper đi qua danh sách ID dự kiến, không zip các câu trả lời theo vị trí. Mới/ôn/hỗ trợ giữ riêng; câu cùng ID/stimulus đã có phản hồi không được biến thành mới bởi việc chọn lại “Tự làm”. Lịch sử ngoài hệ thống chưa biết. Câu chưa nộp chưa thể theo dõi.
 
-**QA_PENDING** cho chấm/trigger/hiển thị/thiết bị trên Google thật. Mapping 68 câu và pipeline đã kiểm cục bộ; xem [DRIVE_FIRST_QA](../DRIVE_FIRST_QA.md). [Cách cài và thử](../DRIVE_SETUP/README.md).
+Đã tạo thật đúng ba Form P0 với 18 câu và chạy `auditForms`; nộp QA giả lập thực tế với đúng/sai/trống đạt điểm chính xác; gỡ responder công khai, chỉ owner. Đã kích hoạt qua `activateP0Verified`: dashboard liên kết `MỞ BÀI NGẮN` trực tiếp; trigger cách ly QA an toàn (0 learner rows). Bảy Form P1 giữ cấu hình sẵn sàng tạo khi có nhu cầu. Xem [DRIVE_FIRST_QA](../DRIVE_FIRST_QA.md) và [bằng chứng triển khai](../qa/drive_first_deployment.json).

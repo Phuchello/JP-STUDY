@@ -11,12 +11,13 @@ Snapshot 2026-10-15. VERIFIED is scoped verification, not JLPT certification. Hi
 | [DAILY_AI_ANALYSIS_PROMPT.md](DAILY_AI_ANALYSIS_PROMPT.md) | VERIFIED |
 | [DRIVE_FIRST_QA.md](DRIVE_FIRST_QA.md) | VERIFIED |
 | [DRIVE_SETUP/JP_STUDY_HOC_HOM_NAY.xlsx](DRIVE_SETUP/JP_STUDY_HOC_HOM_NAY.xlsx) | VERIFIED |
-| [DRIVE_SETUP/JP_STUDY_SETUP.gs](DRIVE_SETUP/JP_STUDY_SETUP.gs) | QA_PENDING |
+| [DRIVE_SETUP/JP_STUDY_SETUP.gs](DRIVE_SETUP/JP_STUDY_SETUP.gs) | VERIFIED |
 | [DRIVE_SETUP/README.md](DRIVE_SETUP/README.md) | VERIFIED |
-| [DRIVE_SETUP/appsscript.json](DRIVE_SETUP/appsscript.json) | QA_PENDING |
+| [DRIVE_SETUP/appsscript.json](DRIVE_SETUP/appsscript.json) | VERIFIED |
 | [DRIVE_SETUP/folder_structure.json](DRIVE_SETUP/folder_structure.json) | VERIFIED |
+| [DRIVE_SETUP/live_qa.js](DRIVE_SETUP/live_qa.js) | VERIFIED |
 | [DRIVE_SETUP/templates/DAILY_LEARNING_REPORT.csv](DRIVE_SETUP/templates/DAILY_LEARNING_REPORT.csv) | VERIFIED |
-| [DRIVE_SETUP/workspace_adapter.js](DRIVE_SETUP/workspace_adapter.js) | QA_PENDING |
+| [DRIVE_SETUP/workspace_adapter.js](DRIVE_SETUP/workspace_adapter.js) | VERIFIED |
 | [FILE_INDEX.md](FILE_INDEX.md) | VERIFIED |
 | [GEMINI_CHUA_LOI.md](GEMINI_CHUA_LOI.md) | VERIFIED |
 | [MANIFEST.json](MANIFEST.json) | VERIFIED |
@@ -24,7 +25,7 @@ Snapshot 2026-10-15. VERIFIED is scoped verification, not JLPT certification. Hi
 | [PUBLICATION_POLICY.md](PUBLICATION_POLICY.md) | VERIFIED |
 | [QUIZ_FORMS/README.md](QUIZ_FORMS/README.md) | VERIFIED |
 | [QUIZ_FORMS/answer_mapping.csv](QUIZ_FORMS/answer_mapping.csv) | VERIFIED |
-| [QUIZ_FORMS/quiz_plan.json](QUIZ_FORMS/quiz_plan.json) | QA_PENDING |
+| [QUIZ_FORMS/quiz_plan.json](QUIZ_FORMS/quiz_plan.json) | VERIFIED |
 | [README.md](README.md) | VERIFIED |
 | [archive/README.md](archive/README.md) | VERIFIED |
 | [archive/phase1/Ke_hoach_JLPT_tam_thoi.public.md](archive/phase1/Ke_hoach_JLPT_tam_thoi.public.md) | VERIFIED |
@@ -138,6 +139,7 @@ Snapshot 2026-10-15. VERIFIED is scoped verification, not JLPT certification. Hi
 | [qa/current/edge_flow_tests.json](qa/current/edge_flow_tests.json) | VERIFIED |
 | [qa/current/engine_tests.json](qa/current/engine_tests.json) | VERIFIED |
 | [qa/current/preview_test.json](qa/current/preview_test.json) | VERIFIED |
+| [qa/drive_first_deployment.json](qa/drive_first_deployment.json) | VERIFIED |
 | [qa/drive_first_native.json](qa/drive_first_native.json) | VERIFIED |
 | [qa/drive_first_pdfs.json](qa/drive_first_pdfs.json) | VERIFIED |
 | [qa/drive_first_tests.json](qa/drive_first_tests.json) | VERIFIED |

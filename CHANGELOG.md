@@ -1,5 +1,22 @@
 # Changelog
 
+## 2026-10-15 — Live P0 acceptance, synthetic QA verification and dashboard activation
+
+- Configure Google Forms grade release settings to immediate post-submission release with missed questions, correct answers, point values, and detailed explanations.
+- Execute authentic browser synthetic QA submissions across all three P0 Forms (W01-B01: 3/5, W01-B02: 6/8, W01-B03: 3/5) containing correct, incorrect, and blank items via authenticated browser session.
+- Verify installable submit triggers and QA quarantine in Google Apps Script via `verifySyntheticQa()`; confirm zero learner rows in `CHI_TIET` and isolated records in `JP_STUDY_QA_SYNTHETIC` spreadsheet and Drive CSV/JSON reports.
+- Execute `activateP0Verified()` to activate all three P0 Forms; verify learner dashboard `HỌC HÔM NAY` status is `Sẵn sàng` with working `MỞ BÀI NGẮN` link and active week checklist.
+- Verify automatic export of management report `DAILY_LEARNING_REPORT.csv` and `DAILY_LEARNING_REPORT.json` to Google Drive.
+- Verify responsive layout at mobile width (390x844) and laptop viewport (1280x800); confirm owner-only access gating until learner account is assigned.
+
+## 2026-10-15 — Native P0 creation and restricted responder checkpoint
+
+- Execute the existing bound Apps Script. Prior Completed executions were only `onOpen`; they had not deployed quizzes. Create exactly three unpublished P0 Forms, reusing the interrupted first Form, with no changes to source question IDs or keys.
+- Repair the native unlinked-Form destination exception without masking unrelated errors or replacing an unexpected destination. Native `setupP0` and `auditForms` then complete.
+- Enable Drive Advanced v3 with owner consent and remove default published-view `anyone` responder permissions. Confirm owner-only ACLs on all three Forms via native execution and independent Drive metadata readback.
+- Add owner-only deployment inspection and isolated synthetic QA helpers. Pass 394 local logic/Workspace mock checks; helper E2E remains unverified until actual browser submissions and native trigger records exist.
+- Synchronize the bound manifest with explicit approved scopes and Asia/Tokyo. Google still gates Sheets access behind OAuth. No publication, activation, learner sharing or live grading/export success is claimed. See [deployment evidence](qa/drive_first_deployment.json).
+
 ## 2026-10-15 — Drive-first templates and private Sheets checkpoint
 
 - Create owner-only Drive folders and a native five-tab dashboard; upload seven concise PDFs and tutor/report prompts. No private IDs, records or URLs are published here.

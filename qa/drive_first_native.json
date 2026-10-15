@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "scope": "Live Google Drive/Sheets API readback; exported XLSX renders inspected; NOT Forms execution or native/mobile UI",
+  "scope": "Earlier Drive/Sheets API checkpoint before P0 creation; exported XLSX renders inspected; not Forms submission acceptance",
   "checks": [
     {
       "name": "Native spreadsheet has required five tabs and Asia/Tokyo timezone",
@@ -46,5 +46,6 @@
   "uploadedFileCount": 12,
   "formsStatus": "QA_PENDING",
   "nativeUiStatus": "QA_PENDING",
-  "privacy": "No private IDs, URLs, account details or learner records in this report."
+  "privacy": "No private IDs, URLs, account details or learner records in this report.",
+  "latestDeploymentEvidence": "qa/drive_first_deployment.json"
 }

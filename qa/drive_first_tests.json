@@ -1510,6 +1510,14 @@
       "ok": true
     },
     {
+      "name": "Unlinked native destination exception is handled without masking unrelated errors",
+      "ok": true
+    },
+    {
+      "name": "Existing unexpected destination is never silently replaced",
+      "ok": true
+    },
+    {
       "name": "P0 builds 3 unpublished Forms, 1 raw workbook and 3 triggers",
       "ok": true
     },
@@ -1548,8 +1556,28 @@
     {
       "name": "Audit catches changed correct-choice mapping",
       "ok": true
+    },
+    {
+      "name": "P0 ACL cleanup removes only public published responders, not P1",
+      "ok": true
+    },
+    {
+      "name": "Unexpected named participant prevents owner-only publication",
+      "ok": true
+    },
+    {
+      "name": "QA refresh refuses production target and unlabelled rows",
+      "ok": true
+    },
+    {
+      "name": "QA history/error views are rendered in isolated sheet without learner writes",
+      "ok": true
+    },
+    {
+      "name": "Live QA refuses to copy a dashboard that already has learner rows",
+      "ok": true
     }
   ],
-  "passed": 387,
+  "passed": 394,
   "failed": 0
 }

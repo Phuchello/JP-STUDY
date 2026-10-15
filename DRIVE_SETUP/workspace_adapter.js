@@ -28,13 +28,14 @@ function jpSetup(quizzes){
     item.setFeedbackForIncorrect(FormApp.createFeedback().setText(q.explanationVi+'\n'+Object.entries(q.distractorExplanations).map(([k,v])=>k+': '+v).join('\n')).build());
     info.items[String(item.getId())]=id;jpSave(s);
    }
-   if(!form.getDestinationId())form.setDestination(FormApp.DestinationType.SPREADSHEET,raw.getId());
+   jpEnsureDestination(form,raw.getId());
    if(!ScriptApp.getProjectTriggers().some(t=>t.getHandlerFunction()==='onQuizSubmit'&&t.getTriggerSourceId()===info.id))ScriptApp.newTrigger('onQuizSubmit').forForm(form).onFormSubmit().create();
    info.built=true;info.editUrl=form.getEditUrl();info.responderUrl=form.getPublishedUrl();jpSave(s);jpAuditOne(quiz,info);
   }
   jpRefresh(s);ss.toast('Đã tạo quiz CHƯA MỞ. Kiểm Release grades, quyền người trả lời và nộp thử trước khi activateReady.');
  }finally{lock.releaseLock();}
 }
+function jpEnsureDestination(form,rawId){let destination='';try{destination=form.getDestinationId();}catch(e){if(!/no response destination|không có đích trả lời/i.test(String(e)))throw e;}if(destination&&destination!==rawId)throw Error('Đích phản hồi khác dự kiến; giữ nguyên, cần kiểm tra.');if(!destination)form.setDestination(FormApp.DestinationType.SPREADSHEET,rawId);}
 function jpAuditOne(quiz,info){const f=FormApp.openById(info.id);if(!f.isQuiz()||f.collectsEmail()||f.isPublishingSummary()||f.getItems(FormApp.ItemType.MULTIPLE_CHOICE).length!==quiz.questionIds.length)throw Error('Sai cấu hình '+quiz.id);for(const id of quiz.questionIds){const q=JP_DATA.questions[id],key=Object.keys(info.items).find(k=>info.items[k]===id);if(!key)throw Error('Thiếu item ID '+id);const it=f.getItemById(Number(key)).asMultipleChoiceItem(),cs=it.getChoices();if(it.getPoints()!==1||cs.length!==q.options.length||!cs.every((c,j)=>c.getValue()===JPStudy.option(q,q.options[j])&&c.isCorrectAnswer()===(q.options[j].id===q.correctAnswer)))throw Error('Khóa/nhiễu lệch '+id);}return true;}
 function auditForms(){const s=jpState();const a=Object.keys(s.forms).filter(k=>s.forms[k].built);a.forEach(k=>jpAuditOne(JP_DATA.quizzes.find(q=>q.id===k),s.forms[k]));jpSheet().toast('Khóa/item mapping đạt '+a.length+' quiz. Chưa thay kiểm Release grades, quyền responder hoặc thử nộp thật.');return a.length;}
 function activateReady(){const ui=SpreadsheetApp.getUi();if(ui.alert('Xác nhận trước khi đưa link cho người học','Bạn đã nộp thử QA với đúng/sai/trống, thấy điểm và lời giải SAU nộp, kiểm lịch sử/export và chỉ cấp quyền cho người học dự kiến? Không bấm Có nếu chưa thử.',ui.ButtonSet.YES_NO)!==ui.Button.YES)return;const s=jpState();for(const q of JP_DATA.quizzes){const inf=s.forms[q.id];if(!inf||!inf.built)continue;jpAuditOne(q,inf);const f=FormApp.openById(inf.id);if(!f.supportsAdvancedResponderPermissions()||!f.isPublished())throw Error('Chưa publish với đối tượng giới hạn: '+q.id);inf.active=true;}jpSave(s);jpRefresh(s);}
@@ -45,8 +46,9 @@ function onQuizSubmit(e){const lock=LockService.getScriptLock();lock.waitLock(15
 function syncResponses(){const lock=LockService.getScriptLock();lock.waitLock(15000);try{const s=jpState();for(const q of JP_DATA.quizzes){const info=s.forms[q.id];if(info&&info.built)for(const r of FormApp.openById(info.id).getResponses())jpCapture(s,q,info,r);}jpRefresh(s);}finally{lock.releaseLock();}}
 function jpPutLink(range,url,label){range.setRichTextValue(SpreadsheetApp.newRichTextValue().setText(label).setLinkUrl(url).build());}
 function jpReplace(sh,start,cols,rows){const count=Math.max(0,sh.getLastRow()-start+1);if(count)sh.getRange(start,1,count,cols).clearContent();if(rows.length)sh.getRange(start,1,rows.length,cols).setValues(rows);}
-function jpRefresh(s){
- const ss=jpSheet(),rows=JPStudy.enrich(jpGetRows(s)),a=JPStudy.summarize(rows),hist=ss.getSheetByName('LỊCH SỬ'),err=ss.getSheetByName('LỖI CẦN ÔN'),week=ss.getSheetByName('TUẦN NÀY'),home=ss.getSheetByName('HỌC HÔM NAY'),mgr=ss.getSheetByName('BÁO CÁO QUẢN LÝ');
+function jpRefresh(s,qa){
+ if(qa&&(qa.sheet.getId()===jpSheet().getId()||!qa.rows.every(r=>r.synthetic===true)))throw Error('QA chỉ được ghi vào bảng riêng với dữ liệu giả có nhãn.');
+ const ss=qa?qa.sheet:jpSheet(),rows=qa?qa.rows:JPStudy.enrich(jpGetRows(s)),a=JPStudy.summarize(rows),hist=ss.getSheetByName('LỊCH SỬ'),err=ss.getSheetByName('LỖI CẦN ÔN'),week=ss.getSheetByName('TUẦN NÀY'),home=ss.getSheetByName('HỌC HÔM NAY'),mgr=ss.getSheetByName('BÁO CÁO QUẢN LÝ');
  jpReplace(hist,4,14,a.history.map(h=>[h.timestamp,h.quizId,'N4',JP_DATA.quizzes.find(q=>q.id===h.quizId).objective,h.correct,h.total,h.unanswered,h.newCount,h.reviewCount,h.assistedCount,h.unanswered?'Đã nộp một phần':'Đã nộp đủ',h.mistakeIds.join(', '),h.fatigue??'',h.id]));
  const old=err.getLastRow()>=18?err.getRange(18,1,err.getLastRow()-17,10).getValues():[],statuses=new Map(old.map(r=>[r[0]+'|'+r[7],r[8]]));
  jpReplace(err,18,10,a.errors.map(r=>{const q=JP_DATA.questions[r.id];return [r.id,JP_DATA.patternNames[q.patternId]||q.learningObjective,r.answer||'Bỏ trống',q.correctAnswer,q.explanationVi,q.references[0]?.url||'',JPStudy.review(q,r),r.timestamp,statuses.get(r.id+'|'+r.timestamp)||'Chưa ôn',r.repeatedErrors];}));

@@ -190,8 +190,10 @@
   "scripts/drive_first/core.js": "VERIFIED",
   "scripts/drive_first/test_drive_first.cjs": "VERIFIED",
   "scripts/drive_first/verify_pdfs.py": "VERIFIED",
-  "DRIVE_SETUP/JP_STUDY_SETUP.gs": "QA_PENDING",
-  "DRIVE_SETUP/workspace_adapter.js": "QA_PENDING",
-  "DRIVE_SETUP/appsscript.json": "QA_PENDING",
-  "QUIZ_FORMS/quiz_plan.json": "QA_PENDING"
+  "DRIVE_SETUP/JP_STUDY_SETUP.gs": "VERIFIED",
+  "DRIVE_SETUP/workspace_adapter.js": "VERIFIED",
+  "DRIVE_SETUP/appsscript.json": "VERIFIED",
+  "QUIZ_FORMS/quiz_plan.json": "VERIFIED",
+  "DRIVE_SETUP/live_qa.js": "VERIFIED",
+  "qa/drive_first_deployment.json": "VERIFIED"
 }

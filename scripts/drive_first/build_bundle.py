@@ -20,6 +20,6 @@ with (R/'QUIZ_FORMS/answer_mapping.csv').open('w',encoding='utf-8-sig',newline='
   for pos,i in enumerate(quiz['questionIds'],1):
    q=lookup[i];w.writerow([quiz['id'],pos,i,q['correctAnswer'],next(o['text'] for o in q['options'] if o['id']==q['correctAnswer']),1,q['stimulusId'],q['conceptId']])
 (R/'tmp/drive-first/data.json').write_text(json.dumps(data,ensure_ascii=False),encoding='utf-8')
-core=(R/'scripts/drive_first/core.js').read_text(encoding='utf-8');adapter=(R/'DRIVE_SETUP/workspace_adapter.js').read_text(encoding='utf-8')
-(R/'DRIVE_SETUP/JP_STUDY_SETUP.gs').write_text('// Generated from audited payload + core.js + workspace_adapter.js. No credentials.\nconst JP_DATA='+json.dumps(data,ensure_ascii=False,separators=(',',':'))+';\n'+core+'\n'+adapter,encoding='utf-8',newline='\n')
+core=(R/'scripts/drive_first/core.js').read_text(encoding='utf-8');adapter=(R/'DRIVE_SETUP/workspace_adapter.js').read_text(encoding='utf-8');liveqa=(R/'DRIVE_SETUP/live_qa.js').read_text(encoding='utf-8')
+(R/'DRIVE_SETUP/JP_STUDY_SETUP.gs').write_text('// Generated from audited payload + core.js + workspace_adapter.js. No credentials.\nconst JP_DATA='+json.dumps(data,ensure_ascii=False,separators=(',',':'))+';\n'+core+'\n'+adapter+liveqa,encoding='utf-8',newline='\n')
 print(json.dumps({'quizzes':len(quizzes),'uniqueReusedQuestions':len(allids),'unassignedOriginalQuestions':len(b['questions'])-len(allids),'regeneratedQuestions':0}))

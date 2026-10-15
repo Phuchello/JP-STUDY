@@ -1,8 +1,8 @@
 {
   "snapshotDate": "2026-10-15",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
-  "fileCountExcludingManifest": 194,
-  "totalBytesExcludingManifest": 4426386,
+  "fileCountExcludingManifest": 196,
+  "totalBytesExcludingManifest": 4456607,
   "files": [
     {
       "path": ".gitattributes",
@@ -450,8 +450,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 1841,
-      "sha256": "4d4236e82623e26d7bbc716076ccb4f125297e0542e7fc4beddc197bf0c6205a",
+      "bytes": 4211,
+      "sha256": "6a453aa8f89017e6175f91afbd63fa2520ffc3263c9cdafa821c3332572ec49a",
       "status": "VERIFIED"
     },
     {
@@ -660,15 +660,15 @@
     },
     {
       "path": "DRIVE_FIRST_QA.md",
-      "bytes": 5978,
-      "sha256": "f52ed4c8f0260733f71c337776a561dde9fef4665ddd29b713155fb6e233b730",
+      "bytes": 7248,
+      "sha256": "618504f63b3fb2f9a58ae8dc5b84f5e356f94323003e6fed69867efe13bdeb70",
       "status": "VERIFIED"
     },
     {
       "path": "DRIVE_SETUP/appsscript.json",
-      "bytes": 374,
-      "sha256": "137c88587581481ddfede1c582216e2c35db6194f4c20cb9fb9481e11f02e4f2",
-      "status": "QA_PENDING"
+      "bytes": 539,
+      "sha256": "abd2deea69cc9d7cc0ed2b8961abb5671458dbef4bccb7376452ca90b3b352e2",
+      "status": "VERIFIED"
     },
     {
       "path": "DRIVE_SETUP/folder_structure.json",
@@ -684,14 +684,20 @@
     },
     {
       "path": "DRIVE_SETUP/JP_STUDY_SETUP.gs",
-      "bytes": 218083,
-      "sha256": "9febebc716ccf0cd7d5070556775a0db99098a7f5ae8866f2517c2b3be4b6275",
-      "status": "QA_PENDING"
+      "bytes": 225995,
+      "sha256": "cd4776675a72474a7619c34d3eef423c72323f1c8943709842ab3c701cbfdc8b",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "DRIVE_SETUP/live_qa.js",
+      "bytes": 7367,
+      "sha256": "d0a2c98233f2b4663cf6b1755c188ce524ae4793a7553c88652e0f3671edc19d",
+      "status": "VERIFIED"
     },
     {
       "path": "DRIVE_SETUP/README.md",
-      "bytes": 8870,
-      "sha256": "d9f533e8345edaa40cf64fc2bf833de16e0a352f14042809cb1458789824de02",
+      "bytes": 10912,
+      "sha256": "bbd8c883c5030f08c9b261d487fad9206ae5f69ffe356d12a53cb2130cf945e5",
       "status": "VERIFIED"
     },
     {
@@ -702,14 +708,14 @@
     },
     {
       "path": "DRIVE_SETUP/workspace_adapter.js",
-      "bytes": 16643,
-      "sha256": "1bf9aeef7e0ab07801a51b8a81d148b9acfa331946f54f0eb9b09240ff02734d",
-      "status": "QA_PENDING"
+      "bytes": 17188,
+      "sha256": "94b9edbbd4d8e0120d7150ba10f5f06a3543bcc884d2aec67e0516234f826e2d",
+      "status": "VERIFIED"
     },
     {
       "path": "FILE_INDEX.md",
-      "bytes": 19535,
-      "sha256": "d7270fe4d99d372ec0029e95e62060799a5aa38fa4104dcd5b5ef921dce3f0d2",
+      "bytes": 19671,
+      "sha256": "522f3b9358aa124d18aad5b9bfe5d977db014a9a0615670967745577432e0d81",
       "status": "VERIFIED"
     },
     {
@@ -732,8 +738,8 @@
     },
     {
       "path": "PROJECT_STATUS.md",
-      "bytes": 5312,
-      "sha256": "edb11e73de02c37fe082076b412078e674b9da52a6f9f68118be0f1972abf655",
+      "bytes": 6396,
+      "sha256": "70153b1225f82dac54aa7688516c8067ab6db0644b7e1ea807940818a22829cd",
       "status": "VERIFIED"
     },
     {
@@ -767,9 +773,15 @@
       "status": "VERIFIED"
     },
     {
+      "path": "qa/drive_first_deployment.json",
+      "bytes": 2802,
+      "sha256": "f8d7c2bf941c31340b9f7b132fdcd9a9ea5adb0310f9df9982eb6b066332a173",
+      "status": "VERIFIED"
+    },
+    {
       "path": "qa/drive_first_native.json",
-      "bytes": 1345,
-      "sha256": "3a25e43195038b23b9436cecdbdf4765e1a9383c48dc767aca3ed1753b48a959",
+      "bytes": 1418,
+      "sha256": "48c5da12651994238a9b8aecce673bfc963d8e34fed7d74958b2b543a752e3ec",
       "status": "VERIFIED"
     },
     {
@@ -780,14 +792,14 @@
     },
     {
       "path": "qa/drive_first_tests.json",
-      "bytes": 32885,
-      "sha256": "6d628c959bc784fc0d8f88f378535a261d777a69f90bb5cb78168e86075f3427",
+      "bytes": 33680,
+      "sha256": "db1919d570d5e9ff26a94adc388c1b91d5ba2007041de5dfdb957140b26434cb",
       "status": "VERIFIED"
     },
     {
       "path": "qa/file_status.json",
-      "bytes": 11097,
-      "sha256": "26ffd370e0a405f93c256262690cc9a8e0791e0325e3121ed71be53f78034405",
+      "bytes": 11177,
+      "sha256": "e74d0183599b880c789cfeed1b693e20b5786fed25404715eb9dc28ad78f38b9",
       "status": "VERIFIED"
     },
     {
@@ -1022,18 +1034,18 @@
       "path": "QUIZ_FORMS/quiz_plan.json",
       "bytes": 5444,
       "sha256": "bc4d79c8fb951f24dc9a3e7b32b5bb97dbac9b7faf153ba76cb3bcf33791e3f3",
-      "status": "QA_PENDING"
+      "status": "VERIFIED"
     },
     {
       "path": "QUIZ_FORMS/README.md",
-      "bytes": 1843,
-      "sha256": "cdd57c0c62d1b4758b7249873138b7d5aad22877087a83bfbd0179dc8cf4c6b6",
+      "bytes": 2145,
+      "sha256": "93bbb038e749abf4b7e7c9b0433c4d45af02e949ef48ff3a94a01de20a32cf78",
       "status": "VERIFIED"
     },
     {
       "path": "README.md",
-      "bytes": 4210,
-      "sha256": "09de2a1d3bfd2e49b524bd2f297f78556940ab1ef3ca900a6f94efaa39a06ba9",
+      "bytes": 4471,
+      "sha256": "f9d789f7bd8cf1daf7590065aae42c56f9c383347f077ca82e8d17dd3812e6a7",
       "status": "VERIFIED"
     },
     {
@@ -1068,8 +1080,8 @@
     },
     {
       "path": "scripts/drive_first/build_bundle.py",
-      "bytes": 4797,
-      "sha256": "ab8410bc6d22bf3767a917a7d1518d9f038094e74b1619e67604049869ad7d60",
+      "bytes": 4868,
+      "sha256": "c19c329cb4e27201779484a39a913bc47ac04f549dbdf74eee19c61305609974",
       "status": "VERIFIED"
     },
     {
@@ -1098,8 +1110,8 @@
     },
     {
       "path": "scripts/drive_first/test_drive_first.cjs",
-      "bytes": 18870,
-      "sha256": "f2d0ebd93fe0e208381806355c218c4d837b7b717cd181eecde0886c8e6bcb00",
+      "bytes": 21816,
+      "sha256": "a14df150d2d15a77e355319db10cf0fae0f7a12b925267cbe396dad1a0a2d3fd",
       "status": "VERIFIED"
     },
     {
