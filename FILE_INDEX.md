@@ -197,8 +197,13 @@ Snapshot 2026-10-15. VERIFIED is scoped verification, not JLPT certification. Hi
 | [research/search_coverage.json](research/search_coverage.json) | VERIFIED |
 | [scripts/README.md](scripts/README.md) | VERIFIED |
 | [scripts/build_start_here.py](scripts/build_start_here.py) | VERIFIED |
+| [scripts/curriculum/apply_stop_ship.py](scripts/curriculum/apply_stop_ship.py) | VERIFIED |
+| [scripts/curriculum/audit_all_items.py](scripts/curriculum/audit_all_items.py) | VERIFIED |
 | [scripts/curriculum/build_expanded_bank.py](scripts/curriculum/build_expanded_bank.py) | VERIFIED |
 | [scripts/curriculum/build_practice_sets.py](scripts/curriculum/build_practice_sets.py) | VERIFIED |
+| [scripts/curriculum/inspect_category.py](scripts/curriculum/inspect_category.py) | VERIFIED |
+| [scripts/curriculum/rebuild_and_repair_bank.py](scripts/curriculum/rebuild_and_repair_bank.py) | VERIFIED |
+| [scripts/curriculum/show_stars.py](scripts/curriculum/show_stars.py) | VERIFIED |
 | [scripts/drive_first/build_bundle.py](scripts/drive_first/build_bundle.py) | VERIFIED |
 | [scripts/drive_first/build_dashboard.mjs](scripts/drive_first/build_dashboard.mjs) | VERIFIED |
 | [scripts/drive_first/build_pdfs.py](scripts/drive_first/build_pdfs.py) | VERIFIED |
@@ -210,6 +215,7 @@ Snapshot 2026-10-15. VERIFIED is scoped verification, not JLPT certification. Hi
 | [scripts/tests/test_edge_flows.cjs](scripts/tests/test_edge_flows.cjs) | VERIFIED |
 | [scripts/tests/test_engine.cjs](scripts/tests/test_engine.cjs) | VERIFIED |
 | [scripts/tests/test_preview.cjs](scripts/tests/test_preview.cjs) | VERIFIED |
+| [scripts/tests/test_question_bank_negative.py](scripts/tests/test_question_bank_negative.py) | VERIFIED |
 | [scripts/update_manifest.py](scripts/update_manifest.py) | VERIFIED |
 | [scripts/validate_release.py](scripts/validate_release.py) | VERIFIED |
 | [speaking/README.md](speaking/README.md) | VERIFIED |

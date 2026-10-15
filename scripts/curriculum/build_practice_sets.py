@@ -407,8 +407,17 @@ def build_sets():
     if missing:
         raise ValueError(f"Missing referenced questions: {missing}")
 
+    for s in sets:
+        if s.get('category') == 'FULL_MOCK_EXAM':
+            s['readinessStatus'] = "NOT_READY — INSUFFICIENT UNIQUE ITEMS"
+            s['implementationType'] = "SPEC_ONLY"
+        else:
+            s['readinessStatus'] = "QA_PASSED_NOT_DEPLOYED"
+            s['implementationType'] = "SPEC_ONLY"
+            s['deploymentNote'] = "Đặc tả cấu trúc đề đã qua kiểm định Cổng A-D đạt chuẩn. Chưa xuất bản Google Form thực tế (Spec Only, giữ nguyên 3 Form P0 hiện hành)."
+
     summary = {
-        "version": "phase-3.7-batch-1",
+        "version": "phase-3.7-qa-passed-spec",
         "totalPracticeSets": len(sets),
         "countsByCategory": {
             "MICRO_DRILL": sum(1 for s in sets if s['category'] == 'MICRO_DRILL'),
@@ -418,7 +427,8 @@ def build_sets():
             "FULL_MOCK_EXAM": sum(1 for s in sets if s['category'] == 'FULL_MOCK_EXAM')
         },
         "countsByStatus": {
-            "READY": sum(1 for s in sets if s['readinessStatus'] == 'READY'),
+            "LIVE_VERIFIED": 0,
+            "QA_PASSED_NOT_DEPLOYED": sum(1 for s in sets if s['readinessStatus'] == 'QA_PASSED_NOT_DEPLOYED'),
             "NOT_READY": sum(1 for s in sets if s['readinessStatus'].startswith('NOT_READY'))
         },
         "uniqueQuestionsReferenced": len(referenced_ids),
@@ -430,7 +440,7 @@ def build_sets():
     with open(out_file, 'w', encoding='utf-8') as f:
         json.dump(summary, f, ensure_ascii=False, indent=2)
     print(f"Practice sets built successfully: {out_file}")
-    print(f"Total sets: {len(sets)} | Ready: {summary['countsByStatus']['READY']} | Unique questions referenced: {len(referenced_ids)}")
+    print(f"Total sets: {len(sets)} | QA_PASSED_NOT_DEPLOYED: {summary['countsByStatus']['QA_PASSED_NOT_DEPLOYED']} | Unique questions referenced: {len(referenced_ids)}")
 
 if __name__ == '__main__':
     build_sets()

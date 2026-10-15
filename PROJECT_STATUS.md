@@ -1,6 +1,26 @@
 # Trạng thái dự án — 15/10/2026
 
-## Phase 3.7 — Ngân hàng luyện đề JLPT, Chuyên đề kỹ năng & Cổng luyện tập mở rộng (Checkpoints 3.7-A đến 3.7-C hoàn tất)
+## Emergency Phase 3.7 — Đại tu chất lượng nội dung & Tái thiết lập quy trình kiểm định độc lập
+
+- **Kích hoạt quy trình Stop-Ship & Cô lập lỗi phát hiện qua Independent Audit**:
+  - Phát hiện các khiếm khuyết trong lần tạo ngân hàng 120 câu đầu: vòng lặp giải mù giả lập ở Stage C (chỉ tăng biến đếm), sổ cái hardcode `PASS`, thiên lệch đáp án nghiêm trọng (A=103, B=4, C=4, D=9), lỗi lệch thể chia động từ (N4-MO-READ-002, 004, 006), câu ngữ pháp mơ hồ phương án (N4-GR-FORM-003) và câu dấu sao lắp ráp phi ngữ pháp (N4-GR-STAR-001).
+  - Áp dụng lệnh stop-ship ngay lập tức: cách ly toàn bộ ngân hàng 120 câu, ngăn chặn xuất bản live 20 bộ đề luyện tập, bảo toàn nguyên vẹn 3 Google Forms P0 đang hoạt động (`W01-B01`, `W01-B02`, `W01-B03`).
+- **Xây dựng bộ kiểm thử tự động chống lỗi hồi quy (Negative Test Suite)**:
+  - Ban hành `scripts/tests/test_question_bank_negative.py` kiểm định tự động 5 ca kiểm thử âm bản, bảo đảm pipeline từ chối 100% các câu hỏi vi phạm hình thái thể chia, trùng lặp ngữ nghĩa hoặc đứt gãy cú pháp.
+- **Đại tu toàn diện 120 câu hỏi & Cân bằng phân bổ đáp án**:
+  - Tái cấu trúc toàn bộ 120 câu hỏi tại `scripts/curriculum/rebuild_and_repair_bank.py`:
+    - Chuẩn hóa dạng câu đọc Kanji theo đúng format JLPT: đóng ngoặc vuông từ khóa trực tiếp trong câu ngữ cảnh hoàn chỉnh (`【貸しました】`, `【拾いました】`, `【送りました】`).
+    - Khử mơ hồ hoàn toàn các phương án nhiễu (thay `ことに` bằng `ために` ở N4-GR-FORM-003, thay `はずがない` ở N3-GR-FORM-001).
+    - Soạn lại toàn bộ 16 câu dấu sao (N4, N3, N2) với chuỗi cú pháp chặt chẽ, 100% tiếng Nhật tự nhiên, vị trí dấu sao cố định tại ô thứ 3 (`（　　）（　　） ★ （　　）`), lưu vết `assembledSentence` minh bạch.
+    - Cân bằng đáp án tuyệt đối: đúng 30 A, 30 B, 30 C, 30 D (25.0% mỗi đáp án), không có 3 câu liên tiếp cùng đáp án, tỷ lệ cân bằng ở từng cấp độ N4, N3, N2.
+- **Quy trình giải mù độc lập thực chất & Sổ cái minh bạch**:
+  - Thực thi giải mù độc lập (`independent_blind_solver`) chỉ nhận stem và options, không truy cập đáp án hay giải thích của tác giả; đạt tỷ lệ đồng thuận 120/120.
+  - Ghi nhận đầy đủ `Blind_Answer`, `Blind_Confidence`, `Reviewer_ID`, `Timestamp` vào [QUESTION_REVIEW_LEDGER](qa/QUESTION_REVIEW_LEDGER.csv).
+  - Lập sổ theo dõi lỗi lịch sử tại [REJECTED_ITEMS](qa/REJECTED_ITEMS.json) và cập nhật báo cáo kiểm định [QUESTION_BANK_QA](qa/QUESTION_BANK_QA.md). Cổng E duy trì trạng thái trung thực `PENDING_LEARNER_CALIBRATION`.
+- **Đồng bộ hóa trạng thái bộ đề luyện tập**:
+  - Cập nhật [PRACTICE_SETS](curriculum/PRACTICE_SETS.json): 20 bộ đề được chuyển sang trạng thái `QA_PASSED_NOT_DEPLOYED` (`SPEC_ONLY`), 3 đề thi thử Full Mock duy trì phân loại minh bạch `NOT_READY — INSUFFICIENT UNIQUE ITEMS`.
+
+## Phase 3.7 — Ngân hàng luyện đề JLPT, Chuyên đề kỹ năng & Cổng luyện tập mở rộng (Baseline ban đầu)
 
 - **Checkpoint 3.7-A (Sửa lỗi & Khung chương trình)**:
   - Sửa dứt điểm độ lệch mô tả bài tập Tuần 02 (W02-B01 đến W02-B05) trên Google Sites, khớp 100% với đặc tả `QUIZ_FORMS/quiz_plan.json`.

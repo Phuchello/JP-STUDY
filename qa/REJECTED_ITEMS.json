@@ -1,5 +1,37 @@
 {
   "snapshotDate": "2026-10-15",
   "quarantinedItems": [],
-  "note": "Tất cả 120 câu hỏi đợt 1 đã qua kiểm định Cổng A-D đạt chuẩn. Không có câu hỏi nào bị cô lập trong đợt này."
+  "historicalDefectLedger": [
+    {
+      "itemId": "N4-MO-READ-002",
+      "defectType": "INFLECTION_MISMATCH",
+      "originalIssue": "Stem asked for reading of dictionary form 貸す but options offered polite past かしました.",
+      "resolution": "Adopted standard JLPT bracketed format 友達に日本語の辞書を【貸しました】 with options かしました, かりました, etc."
+    },
+    {
+      "itemId": "N4-MO-READ-004",
+      "defectType": "INFLECTION_MISMATCH",
+      "originalIssue": "Stem asked for reading of dictionary form 拾う but key was past polite ひろいました.",
+      "resolution": "Adopted standard JLPT bracketed format 道で鍵を【拾いました】 with options ひろいました, あつめました, etc."
+    },
+    {
+      "itemId": "N4-MO-READ-006",
+      "defectType": "INFLECTION_MISMATCH",
+      "originalIssue": "Stem asked for reading of dictionary form 送る but key was past polite おくりました.",
+      "resolution": "Adopted standard JLPT bracketed format 家族に荷物を【送りました】 with options おくりました, とどけました, etc."
+    },
+    {
+      "itemId": "N4-GR-FORM-003",
+      "defectType": "SEMANTIC_AMBIGUITY",
+      "originalIssue": "Both ようにしています and ことにしています were defensible in context.",
+      "resolution": "Replaced distractor ことに with ために, ensuring unique grammatical fit for ように."
+    },
+    {
+      "itemId": "N4-GR-STAR-001",
+      "defectType": "INCOHERENT_STAR_ASSEMBLY",
+      "originalIssue": "Proposed chunk permutation resulted in incoherent juxtaposition (おく followed by 朝慌てて).",
+      "resolution": "Redesigned sentence to 朝慌てて探すことがないように夜のうちに服を準備しておきます with clear slot order and explicit assembledSentence."
+    }
+  ],
+  "note": "Tất cả 120 câu hỏi đã qua đợt đại tu Emergency Quality Repair. 5 lỗi phát hiện trong audit đã được kiểm tra bằng negative test suite và sửa triệt để."
 }

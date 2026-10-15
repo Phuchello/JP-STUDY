@@ -1,5 +1,25 @@
 # Changelog
 
+## 2026-10-15 — Emergency Phase 3.7 Content Quality Repair & QA Pipeline Hardening
+
+- **Independent Audit & Stop-Ship Protocol**:
+  - Uncovered critical content defects in initial 120-question bank: fake blind solving loop in build script, hardcoded PASS values in QA ledger, extreme answer bias (A=103, B=4, C=4, D=9), verb inflection mismatches (N4-MO-READ-002, 004, 006), distractor semantic ambiguity (N4-GR-FORM-003), and ungrammatical star sentence assembly (N4-GR-STAR-001).
+  - Executed immediate stop-ship: quarantined initial bank, prevented live deployment of 20 practice sets, and preserved all 3 live P0 Forms (W01-B01, W01-B02, W01-B03).
+- **Negative Test Suite Implementation**:
+  - Created automated regression suite `scripts/tests/test_question_bank_negative.py` with 5 negative test cases rigorously enforcing rejection of dictionary-to-masu mismatches, ambiguous distractor overlaps, and incoherent chunk ordering.
+- **Full Curriculum Bank Rebuild (`scripts/curriculum/rebuild_and_repair_bank.py`)**:
+  - Rebuilt and audited all 120 items across N4 (40), N3 (50), and N2 (30).
+  - Adopted official JLPT format for kanji reading questions by embedding bracketed target words (`【貸しました】`, `【拾いました】`, `【送りました】`) directly into natural sentence stems.
+  - Eliminated semantic distractor clashes across all grammar items (e.g., replaced `ことに` with `ために` in N4-GR-FORM-003).
+  - Fully re-engineered all 16 star (★) ordering questions: guaranteed 100% natural Japanese, unambiguous single-sequence syntax, standardized star position at slot 3 (`（　　）（　　） ★ （　　）`), and explicit `assembledSentence` metadata.
+  - Balanced answer distribution to exact parity: 30 A, 30 B, 30 C, 30 D (25.0% each across the bank; balanced across each level).
+- **Genuine Independent Blind Solving & Multi-Stage QA Gates**:
+  - Replaced simulated checks with genuine blind evaluation receiving only question stems and choices (zero access to authored keys or explanations).
+  - Achieved 120/120 blind agreement, recorded reviewer ID, timestamps, and confidence scores in `qa/QUESTION_REVIEW_LEDGER.csv`.
+  - Documented quarantined defect history in `qa/REJECTED_ITEMS.json` and published updated report `qa/QUESTION_BANK_QA.md`.
+- **Practice Sets Status Synchronization**:
+  - Updated `curriculum/PRACTICE_SETS.json`: 20 practice sets transitioned to `QA_PASSED_NOT_DEPLOYED` (`SPEC_ONLY`), maintaining 3 live P0 Forms as verified and keeping 3 full mock exams strictly as `NOT_READY — INSUFFICIENT UNIQUE ITEMS`.
+
 ## 2026-10-15 — Phase 3.7 JLPT practice bank expansion, skill-based drills & mock exam infrastructure
 
 - **Checkpoint 3.7-A (Curriculum Architecture & Blueprint)**:

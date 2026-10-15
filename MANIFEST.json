@@ -1,8 +1,8 @@
 {
   "snapshotDate": "2026-10-15",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
-  "fileCountExcludingManifest": 210,
-  "totalBytesExcludingManifest": 4904603,
+  "fileCountExcludingManifest": 216,
+  "totalBytesExcludingManifest": 5012342,
   "files": [
     {
       "path": ".gitattributes",
@@ -450,8 +450,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 7986,
-      "sha256": "1b4a2649fc6a46e49fd9b544ba3271a9e62146f64675cd1c12b0ec4f30caf4ea",
+      "bytes": 10575,
+      "sha256": "ea1edb6cf70af2c20c2774f25816dc3b5e02cf0307d955f2a43dac9a7ee4dff7",
       "status": "VERIFIED"
     },
     {
@@ -480,14 +480,14 @@
     },
     {
       "path": "curriculum/PRACTICE_SETS.json",
-      "bytes": 19931,
-      "sha256": "e4df5fec936297f667ca653ad47612c3ee080ec1ed5d55ece04cad195a64758d",
+      "bytes": 25346,
+      "sha256": "a57f02a7f50d7086c2110c0754020c0e238c6f222addcc2829aac290862aed6d",
       "status": "VERIFIED"
     },
     {
       "path": "curriculum/QUESTION_BANK_EXPANDED.json",
-      "bytes": 182259,
-      "sha256": "a01f82a59a08a3874bcee433a22f173efc625b38064458da088932480d5da511",
+      "bytes": 199146,
+      "sha256": "7d3fff54e077d9664af250f841ec8f10c12875d04debe39701c522e730f14949",
       "status": "VERIFIED"
     },
     {
@@ -762,8 +762,8 @@
     },
     {
       "path": "FILE_INDEX.md",
-      "bytes": 20895,
-      "sha256": "6ec32a902e91a1a08539a2509786052ce88b62a570b04d6befe18e5353e0518d",
+      "bytes": 21481,
+      "sha256": "0604c45e1d1b19d335f35602e9644a254fe1aa658da4eb140aaeeeac51ee9734",
       "status": "VERIFIED"
     },
     {
@@ -792,8 +792,8 @@
     },
     {
       "path": "PROJECT_STATUS.md",
-      "bytes": 11619,
-      "sha256": "50c3246764e0b3667340a401dcf95cf757156288ad42c7f7366a9feb52bb521b",
+      "bytes": 14930,
+      "sha256": "c514e0bb95102b5ed2c10d8697d670118940cce066d81c9fe4feca52ef82402b",
       "status": "VERIFIED"
     },
     {
@@ -852,8 +852,8 @@
     },
     {
       "path": "qa/file_status.json",
-      "bytes": 11901,
-      "sha256": "1ec2d6c1c9e5dde7e90396476803abd88b734ca01607dd35681d09c73ea03f4c",
+      "bytes": 12242,
+      "sha256": "620b016b1eab6e581f9e7c4abce8d7bc2f9651f1abddd59a3fc58f5bd8aae692",
       "status": "VERIFIED"
     },
     {
@@ -1050,14 +1050,14 @@
     },
     {
       "path": "qa/QUESTION_BANK_QA.md",
-      "bytes": 2422,
-      "sha256": "67272abab3d37222aefae4464cb55fa4961a09f09fe8a8f26eb8628eb5411e84",
+      "bytes": 5082,
+      "sha256": "b5ef1d7d4efa6cd38430106f362ddb3e60714dd16491a7b0060ef8d108537f26",
       "status": "VERIFIED"
     },
     {
       "path": "qa/QUESTION_REVIEW_LEDGER.csv",
-      "bytes": 13663,
-      "sha256": "db102a7bc173c8f488fceaa69861881aefdbf3274cc4df80de889b4e126b0f0b",
+      "bytes": 23435,
+      "sha256": "acc3df3e9663527ce220e7ac5da110e7aac5e8f2c724cca8702d681c001acd38",
       "status": "VERIFIED"
     },
     {
@@ -1068,8 +1068,8 @@
     },
     {
       "path": "qa/REJECTED_ITEMS.json",
-      "bytes": 226,
-      "sha256": "135d703c19574976270e5f69d1225003c2549d66e64664d327c1a6e6e684e005",
+      "bytes": 2166,
+      "sha256": "79b1fadb1fe8cca28393245f726c71c7eb3388f46b77bc65eab90290a9d5c745",
       "status": "VERIFIED"
     },
     {
@@ -1151,15 +1151,45 @@
       "status": "VERIFIED"
     },
     {
+      "path": "scripts/curriculum/apply_stop_ship.py",
+      "bytes": 2045,
+      "sha256": "bf1d64413f7973ca9b7339a0a9669a28e9f25a840aca8278f35027fbe890d825",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "scripts/curriculum/audit_all_items.py",
+      "bytes": 1417,
+      "sha256": "4bca5271edeae8e536de83081eea922925d14f2509bfe6b1415a7009f76300f0",
+      "status": "VERIFIED"
+    },
+    {
       "path": "scripts/curriculum/build_expanded_bank.py",
-      "bytes": 100384,
-      "sha256": "c464f7101e37f6d1cc62254045cfa7bb44ee91d732d2f6ca4a220ab31dfdcd2c",
+      "bytes": 560,
+      "sha256": "7ba1363abffd212b81fc0b965ddcd1c7457ead4349f661457fc3d15b170390e9",
       "status": "VERIFIED"
     },
     {
       "path": "scripts/curriculum/build_practice_sets.py",
-      "bytes": 22965,
-      "sha256": "35ee90aa7e59faed7d0832acaae2fe5eda3e9692a3e093cae8a02ac502699e45",
+      "bytes": 23604,
+      "sha256": "02e6a5755f246e150dfa9e4f80bb2d1cc861ae980654027787678af9df13491d",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "scripts/curriculum/inspect_category.py",
+      "bytes": 812,
+      "sha256": "07e98e94e8417dc8d4b951bf9f65d00ebac5e64bacfd74bcdeb2ae673b077e68",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "scripts/curriculum/rebuild_and_repair_bank.py",
+      "bytes": 150770,
+      "sha256": "60a5b41550e508c29a715722243c6aca060ca1b7bc20ec889aa6ba4da630f26c",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "scripts/curriculum/show_stars.py",
+      "bytes": 481,
+      "sha256": "c66147d396d408eea8ce7abe3883a755008c153facb1c93b053d7de3ef145a52",
       "status": "VERIFIED"
     },
     {
@@ -1232,6 +1262,12 @@
       "path": "scripts/tests/test_preview.cjs",
       "bytes": 961,
       "sha256": "69b875c323316a4abf6b211ddf8fb0a2a93a11b1df77cea0b2c25624aa1fc3f1",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "scripts/tests/test_question_bank_negative.py",
+      "bytes": 7898,
+      "sha256": "ee0202f0c5e9ec3fa058573e73d7d682ef8897b96b0c5e082a1b041aa8218db1",
       "status": "VERIFIED"
     },
     {
