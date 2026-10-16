@@ -1,5 +1,5 @@
 {
-  "version": "phase-3.7-independent-qa-verified",
+  "version": "phase-3.7-canonical-release",
   "totalPracticeSets": 23,
   "countsByCategory": {
     "MICRO_DRILL": 9,
@@ -9,9 +9,8 @@
     "FULL_MOCK_EXAM": 3
   },
   "countsByStatus": {
-    "LIVE_VERIFIED": 0,
-    "QA_PASSED_NOT_DEPLOYED": 23,
-    "NOT_READY": 0
+    "QA_PASSED_NOT_DEPLOYED": 20,
+    "NOT_READY": 3
   },
   "uniqueQuestionsReferenced": 108,
   "totalQuestionsInBank": 120,
@@ -33,12 +32,20 @@
         "N4-MO-READ-005"
       ],
       "isDiagnostic": false,
-      "readinessStatus": "CONTENT_QA_BLOCKED",
+      "readinessStatus": "QA_PASSED_NOT_DEPLOYED",
       "implementationType": "SPEC_ONLY",
       "deploymentNote": "Đặc tả cấu trúc đề đã qua kiểm định Cổng A-D đạt chuẩn. Chưa xuất bản Google Form thực tế (Spec Only, giữ nguyên 3 Form P0 hiện hành).",
       "blockReason": "Phân hệ bộ đề bị tạm khóa (CONTENT_QA_BLOCKED) do ngân hàng 120 câu hỏi đang trong quy trình đánh giá mù độc lập thực chất.",
       "status": "QA_PASSED_NOT_DEPLOYED",
-      "activeFormsDeployed": 0
+      "activeFormsDeployed": 0,
+      "readinessReason": "All questions QA_VERIFIED, specification validated, awaiting controlled deployment",
+      "deployment": {
+        "isDeployed": false,
+        "formId": null,
+        "responderUrl": null,
+        "lastLiveQaTimestamp": null,
+        "qaResult": null
+      }
     },
     {
       "id": "MD-N4-GRA-01",
@@ -57,12 +64,20 @@
         "N4-GR-FORM-005"
       ],
       "isDiagnostic": false,
-      "readinessStatus": "CONTENT_QA_BLOCKED",
+      "readinessStatus": "QA_PASSED_NOT_DEPLOYED",
       "implementationType": "SPEC_ONLY",
       "deploymentNote": "Đặc tả cấu trúc đề đã qua kiểm định Cổng A-D đạt chuẩn. Chưa xuất bản Google Form thực tế (Spec Only, giữ nguyên 3 Form P0 hiện hành).",
       "blockReason": "Phân hệ bộ đề bị tạm khóa (CONTENT_QA_BLOCKED) do ngân hàng 120 câu hỏi đang trong quy trình đánh giá mù độc lập thực chất.",
       "status": "QA_PASSED_NOT_DEPLOYED",
-      "activeFormsDeployed": 0
+      "activeFormsDeployed": 0,
+      "readinessReason": "All questions QA_VERIFIED, specification validated, awaiting controlled deployment",
+      "deployment": {
+        "isDeployed": false,
+        "formId": null,
+        "responderUrl": null,
+        "lastLiveQaTimestamp": null,
+        "qaResult": null
+      }
     },
     {
       "id": "MD-N4-ORD-01",
@@ -81,12 +96,20 @@
         "N4-GR-STAR-005"
       ],
       "isDiagnostic": false,
-      "readinessStatus": "CONTENT_QA_BLOCKED",
+      "readinessStatus": "QA_PASSED_NOT_DEPLOYED",
       "implementationType": "SPEC_ONLY",
       "deploymentNote": "Đặc tả cấu trúc đề đã qua kiểm định Cổng A-D đạt chuẩn. Chưa xuất bản Google Form thực tế (Spec Only, giữ nguyên 3 Form P0 hiện hành).",
       "blockReason": "Phân hệ bộ đề bị tạm khóa (CONTENT_QA_BLOCKED) do ngân hàng 120 câu hỏi đang trong quy trình đánh giá mù độc lập thực chất.",
       "status": "QA_PASSED_NOT_DEPLOYED",
-      "activeFormsDeployed": 0
+      "activeFormsDeployed": 0,
+      "readinessReason": "All questions QA_VERIFIED, specification validated, awaiting controlled deployment",
+      "deployment": {
+        "isDeployed": false,
+        "formId": null,
+        "responderUrl": null,
+        "lastLiveQaTimestamp": null,
+        "qaResult": null
+      }
     },
     {
       "id": "MD-N3-VOC-01",
@@ -105,12 +128,20 @@
         "N3-MO-READ-005"
       ],
       "isDiagnostic": false,
-      "readinessStatus": "CONTENT_QA_BLOCKED",
+      "readinessStatus": "QA_PASSED_NOT_DEPLOYED",
       "implementationType": "SPEC_ONLY",
       "deploymentNote": "Đặc tả cấu trúc đề đã qua kiểm định Cổng A-D đạt chuẩn. Chưa xuất bản Google Form thực tế (Spec Only, giữ nguyên 3 Form P0 hiện hành).",
       "blockReason": "Phân hệ bộ đề bị tạm khóa (CONTENT_QA_BLOCKED) do ngân hàng 120 câu hỏi đang trong quy trình đánh giá mù độc lập thực chất.",
       "status": "QA_PASSED_NOT_DEPLOYED",
-      "activeFormsDeployed": 0
+      "activeFormsDeployed": 0,
+      "readinessReason": "All questions QA_VERIFIED, specification validated, awaiting controlled deployment",
+      "deployment": {
+        "isDeployed": false,
+        "formId": null,
+        "responderUrl": null,
+        "lastLiveQaTimestamp": null,
+        "qaResult": null
+      }
     },
     {
       "id": "MD-N3-AFF-01",
@@ -129,12 +160,20 @@
         "N3-MO-AFFX-005"
       ],
       "isDiagnostic": false,
-      "readinessStatus": "CONTENT_QA_BLOCKED",
+      "readinessStatus": "QA_PASSED_NOT_DEPLOYED",
       "implementationType": "SPEC_ONLY",
       "deploymentNote": "Đặc tả cấu trúc đề đã qua kiểm định Cổng A-D đạt chuẩn. Chưa xuất bản Google Form thực tế (Spec Only, giữ nguyên 3 Form P0 hiện hành).",
       "blockReason": "Phân hệ bộ đề bị tạm khóa (CONTENT_QA_BLOCKED) do ngân hàng 120 câu hỏi đang trong quy trình đánh giá mù độc lập thực chất.",
       "status": "QA_PASSED_NOT_DEPLOYED",
-      "activeFormsDeployed": 0
+      "activeFormsDeployed": 0,
+      "readinessReason": "All questions QA_VERIFIED, specification validated, awaiting controlled deployment",
+      "deployment": {
+        "isDeployed": false,
+        "formId": null,
+        "responderUrl": null,
+        "lastLiveQaTimestamp": null,
+        "qaResult": null
+      }
     },
     {
       "id": "MD-N3-GRA-01",
@@ -153,12 +192,20 @@
         "N3-GR-FORM-005"
       ],
       "isDiagnostic": false,
-      "readinessStatus": "CONTENT_QA_BLOCKED",
+      "readinessStatus": "QA_PASSED_NOT_DEPLOYED",
       "implementationType": "SPEC_ONLY",
       "deploymentNote": "Đặc tả cấu trúc đề đã qua kiểm định Cổng A-D đạt chuẩn. Chưa xuất bản Google Form thực tế (Spec Only, giữ nguyên 3 Form P0 hiện hành).",
       "blockReason": "Phân hệ bộ đề bị tạm khóa (CONTENT_QA_BLOCKED) do ngân hàng 120 câu hỏi đang trong quy trình đánh giá mù độc lập thực chất.",
       "status": "QA_PASSED_NOT_DEPLOYED",
-      "activeFormsDeployed": 0
+      "activeFormsDeployed": 0,
+      "readinessReason": "All questions QA_VERIFIED, specification validated, awaiting controlled deployment",
+      "deployment": {
+        "isDeployed": false,
+        "formId": null,
+        "responderUrl": null,
+        "lastLiveQaTimestamp": null,
+        "qaResult": null
+      }
     },
     {
       "id": "MD-N2-VOC-01",
@@ -177,12 +224,20 @@
         "N2-MO-READ-005"
       ],
       "isDiagnostic": false,
-      "readinessStatus": "CONTENT_QA_BLOCKED",
+      "readinessStatus": "QA_PASSED_NOT_DEPLOYED",
       "implementationType": "SPEC_ONLY",
       "deploymentNote": "Đặc tả cấu trúc đề đã qua kiểm định Cổng A-D đạt chuẩn. Chưa xuất bản Google Form thực tế (Spec Only, giữ nguyên 3 Form P0 hiện hành).",
       "blockReason": "Phân hệ bộ đề bị tạm khóa (CONTENT_QA_BLOCKED) do ngân hàng 120 câu hỏi đang trong quy trình đánh giá mù độc lập thực chất.",
       "status": "QA_PASSED_NOT_DEPLOYED",
-      "activeFormsDeployed": 0
+      "activeFormsDeployed": 0,
+      "readinessReason": "All questions QA_VERIFIED, specification validated, awaiting controlled deployment",
+      "deployment": {
+        "isDeployed": false,
+        "formId": null,
+        "responderUrl": null,
+        "lastLiveQaTimestamp": null,
+        "qaResult": null
+      }
     },
     {
       "id": "MD-N2-AFF-01",
@@ -201,12 +256,20 @@
         "N2-MO-AFFX-005"
       ],
       "isDiagnostic": false,
-      "readinessStatus": "CONTENT_QA_BLOCKED",
+      "readinessStatus": "QA_PASSED_NOT_DEPLOYED",
       "implementationType": "SPEC_ONLY",
       "deploymentNote": "Đặc tả cấu trúc đề đã qua kiểm định Cổng A-D đạt chuẩn. Chưa xuất bản Google Form thực tế (Spec Only, giữ nguyên 3 Form P0 hiện hành).",
       "blockReason": "Phân hệ bộ đề bị tạm khóa (CONTENT_QA_BLOCKED) do ngân hàng 120 câu hỏi đang trong quy trình đánh giá mù độc lập thực chất.",
       "status": "QA_PASSED_NOT_DEPLOYED",
-      "activeFormsDeployed": 0
+      "activeFormsDeployed": 0,
+      "readinessReason": "All questions QA_VERIFIED, specification validated, awaiting controlled deployment",
+      "deployment": {
+        "isDeployed": false,
+        "formId": null,
+        "responderUrl": null,
+        "lastLiveQaTimestamp": null,
+        "qaResult": null
+      }
     },
     {
       "id": "MD-N2-GRA-01",
@@ -225,12 +288,20 @@
         "N2-GR-FORM-005"
       ],
       "isDiagnostic": false,
-      "readinessStatus": "CONTENT_QA_BLOCKED",
+      "readinessStatus": "QA_PASSED_NOT_DEPLOYED",
       "implementationType": "SPEC_ONLY",
       "deploymentNote": "Đặc tả cấu trúc đề đã qua kiểm định Cổng A-D đạt chuẩn. Chưa xuất bản Google Form thực tế (Spec Only, giữ nguyên 3 Form P0 hiện hành).",
       "blockReason": "Phân hệ bộ đề bị tạm khóa (CONTENT_QA_BLOCKED) do ngân hàng 120 câu hỏi đang trong quy trình đánh giá mù độc lập thực chất.",
       "status": "QA_PASSED_NOT_DEPLOYED",
-      "activeFormsDeployed": 0
+      "activeFormsDeployed": 0,
+      "readinessReason": "All questions QA_VERIFIED, specification validated, awaiting controlled deployment",
+      "deployment": {
+        "isDeployed": false,
+        "formId": null,
+        "responderUrl": null,
+        "lastLiveQaTimestamp": null,
+        "qaResult": null
+      }
     },
     {
       "id": "SK-N4-MO-01",
@@ -260,12 +331,20 @@
         "N4-MO-CONT-008"
       ],
       "isDiagnostic": false,
-      "readinessStatus": "CONTENT_QA_BLOCKED",
+      "readinessStatus": "QA_PASSED_NOT_DEPLOYED",
       "implementationType": "SPEC_ONLY",
       "deploymentNote": "Đặc tả cấu trúc đề đã qua kiểm định Cổng A-D đạt chuẩn. Chưa xuất bản Google Form thực tế (Spec Only, giữ nguyên 3 Form P0 hiện hành).",
       "blockReason": "Phân hệ bộ đề bị tạm khóa (CONTENT_QA_BLOCKED) do ngân hàng 120 câu hỏi đang trong quy trình đánh giá mù độc lập thực chất.",
       "status": "QA_PASSED_NOT_DEPLOYED",
-      "activeFormsDeployed": 0
+      "activeFormsDeployed": 0,
+      "readinessReason": "All questions QA_VERIFIED, specification validated, awaiting controlled deployment",
+      "deployment": {
+        "isDeployed": false,
+        "formId": null,
+        "responderUrl": null,
+        "lastLiveQaTimestamp": null,
+        "qaResult": null
+      }
     },
     {
       "id": "SK-N4-GR-01",
@@ -297,12 +376,20 @@
         "N4-GR-STAR-006"
       ],
       "isDiagnostic": false,
-      "readinessStatus": "CONTENT_QA_BLOCKED",
+      "readinessStatus": "QA_PASSED_NOT_DEPLOYED",
       "implementationType": "SPEC_ONLY",
       "deploymentNote": "Đặc tả cấu trúc đề đã qua kiểm định Cổng A-D đạt chuẩn. Chưa xuất bản Google Form thực tế (Spec Only, giữ nguyên 3 Form P0 hiện hành).",
       "blockReason": "Phân hệ bộ đề bị tạm khóa (CONTENT_QA_BLOCKED) do ngân hàng 120 câu hỏi đang trong quy trình đánh giá mù độc lập thực chất.",
       "status": "QA_PASSED_NOT_DEPLOYED",
-      "activeFormsDeployed": 0
+      "activeFormsDeployed": 0,
+      "readinessReason": "All questions QA_VERIFIED, specification validated, awaiting controlled deployment",
+      "deployment": {
+        "isDeployed": false,
+        "formId": null,
+        "responderUrl": null,
+        "lastLiveQaTimestamp": null,
+        "qaResult": null
+      }
     },
     {
       "id": "SK-N3-MO-01",
@@ -332,12 +419,20 @@
         "N3-MO-AFFX-008"
       ],
       "isDiagnostic": false,
-      "readinessStatus": "CONTENT_QA_BLOCKED",
+      "readinessStatus": "QA_PASSED_NOT_DEPLOYED",
       "implementationType": "SPEC_ONLY",
       "deploymentNote": "Đặc tả cấu trúc đề đã qua kiểm định Cổng A-D đạt chuẩn. Chưa xuất bản Google Form thực tế (Spec Only, giữ nguyên 3 Form P0 hiện hành).",
       "blockReason": "Phân hệ bộ đề bị tạm khóa (CONTENT_QA_BLOCKED) do ngân hàng 120 câu hỏi đang trong quy trình đánh giá mù độc lập thực chất.",
       "status": "QA_PASSED_NOT_DEPLOYED",
-      "activeFormsDeployed": 0
+      "activeFormsDeployed": 0,
+      "readinessReason": "All questions QA_VERIFIED, specification validated, awaiting controlled deployment",
+      "deployment": {
+        "isDeployed": false,
+        "formId": null,
+        "responderUrl": null,
+        "lastLiveQaTimestamp": null,
+        "qaResult": null
+      }
     },
     {
       "id": "SK-N3-GR-01",
@@ -369,12 +464,20 @@
         "N3-GR-STAR-006"
       ],
       "isDiagnostic": false,
-      "readinessStatus": "CONTENT_QA_BLOCKED",
+      "readinessStatus": "QA_PASSED_NOT_DEPLOYED",
       "implementationType": "SPEC_ONLY",
       "deploymentNote": "Đặc tả cấu trúc đề đã qua kiểm định Cổng A-D đạt chuẩn. Chưa xuất bản Google Form thực tế (Spec Only, giữ nguyên 3 Form P0 hiện hành).",
       "blockReason": "Phân hệ bộ đề bị tạm khóa (CONTENT_QA_BLOCKED) do ngân hàng 120 câu hỏi đang trong quy trình đánh giá mù độc lập thực chất.",
       "status": "QA_PASSED_NOT_DEPLOYED",
-      "activeFormsDeployed": 0
+      "activeFormsDeployed": 0,
+      "readinessReason": "All questions QA_VERIFIED, specification validated, awaiting controlled deployment",
+      "deployment": {
+        "isDeployed": false,
+        "formId": null,
+        "responderUrl": null,
+        "lastLiveQaTimestamp": null,
+        "qaResult": null
+      }
     },
     {
       "id": "SK-N2-MO-01",
@@ -403,12 +506,20 @@
         "N2-MO-CONT-005"
       ],
       "isDiagnostic": false,
-      "readinessStatus": "CONTENT_QA_BLOCKED",
+      "readinessStatus": "QA_PASSED_NOT_DEPLOYED",
       "implementationType": "SPEC_ONLY",
       "deploymentNote": "Đặc tả cấu trúc đề đã qua kiểm định Cổng A-D đạt chuẩn. Chưa xuất bản Google Form thực tế (Spec Only, giữ nguyên 3 Form P0 hiện hành).",
       "blockReason": "Phân hệ bộ đề bị tạm khóa (CONTENT_QA_BLOCKED) do ngân hàng 120 câu hỏi đang trong quy trình đánh giá mù độc lập thực chất.",
       "status": "QA_PASSED_NOT_DEPLOYED",
-      "activeFormsDeployed": 0
+      "activeFormsDeployed": 0,
+      "readinessReason": "All questions QA_VERIFIED, specification validated, awaiting controlled deployment",
+      "deployment": {
+        "isDeployed": false,
+        "formId": null,
+        "responderUrl": null,
+        "lastLiveQaTimestamp": null,
+        "qaResult": null
+      }
     },
     {
       "id": "SK-N2-GR-01",
@@ -434,12 +545,20 @@
         "N2-GR-STAR-004"
       ],
       "isDiagnostic": false,
-      "readinessStatus": "CONTENT_QA_BLOCKED",
+      "readinessStatus": "QA_PASSED_NOT_DEPLOYED",
       "implementationType": "SPEC_ONLY",
       "deploymentNote": "Đặc tả cấu trúc đề đã qua kiểm định Cổng A-D đạt chuẩn. Chưa xuất bản Google Form thực tế (Spec Only, giữ nguyên 3 Form P0 hiện hành).",
       "blockReason": "Phân hệ bộ đề bị tạm khóa (CONTENT_QA_BLOCKED) do ngân hàng 120 câu hỏi đang trong quy trình đánh giá mù độc lập thực chất.",
       "status": "QA_PASSED_NOT_DEPLOYED",
-      "activeFormsDeployed": 0
+      "activeFormsDeployed": 0,
+      "readinessReason": "All questions QA_VERIFIED, specification validated, awaiting controlled deployment",
+      "deployment": {
+        "isDeployed": false,
+        "formId": null,
+        "responderUrl": null,
+        "lastLiveQaTimestamp": null,
+        "qaResult": null
+      }
     },
     {
       "id": "MX-N4-FOU-01",
@@ -473,12 +592,20 @@
         "N4-RD-INFO-001"
       ],
       "isDiagnostic": false,
-      "readinessStatus": "CONTENT_QA_BLOCKED",
+      "readinessStatus": "QA_PASSED_NOT_DEPLOYED",
       "implementationType": "SPEC_ONLY",
       "deploymentNote": "Đặc tả cấu trúc đề đã qua kiểm định Cổng A-D đạt chuẩn. Chưa xuất bản Google Form thực tế (Spec Only, giữ nguyên 3 Form P0 hiện hành).",
       "blockReason": "Phân hệ bộ đề bị tạm khóa (CONTENT_QA_BLOCKED) do ngân hàng 120 câu hỏi đang trong quy trình đánh giá mù độc lập thực chất.",
       "status": "QA_PASSED_NOT_DEPLOYED",
-      "activeFormsDeployed": 0
+      "activeFormsDeployed": 0,
+      "readinessReason": "All questions QA_VERIFIED, specification validated, awaiting controlled deployment",
+      "deployment": {
+        "isDeployed": false,
+        "formId": null,
+        "responderUrl": null,
+        "lastLiveQaTimestamp": null,
+        "qaResult": null
+      }
     },
     {
       "id": "MX-N3-INT-01",
@@ -512,12 +639,20 @@
         "N3-RD-MEDI-001"
       ],
       "isDiagnostic": false,
-      "readinessStatus": "CONTENT_QA_BLOCKED",
+      "readinessStatus": "QA_PASSED_NOT_DEPLOYED",
       "implementationType": "SPEC_ONLY",
       "deploymentNote": "Đặc tả cấu trúc đề đã qua kiểm định Cổng A-D đạt chuẩn. Chưa xuất bản Google Form thực tế (Spec Only, giữ nguyên 3 Form P0 hiện hành).",
       "blockReason": "Phân hệ bộ đề bị tạm khóa (CONTENT_QA_BLOCKED) do ngân hàng 120 câu hỏi đang trong quy trình đánh giá mù độc lập thực chất.",
       "status": "QA_PASSED_NOT_DEPLOYED",
-      "activeFormsDeployed": 0
+      "activeFormsDeployed": 0,
+      "readinessReason": "All questions QA_VERIFIED, specification validated, awaiting controlled deployment",
+      "deployment": {
+        "isDeployed": false,
+        "formId": null,
+        "responderUrl": null,
+        "lastLiveQaTimestamp": null,
+        "qaResult": null
+      }
     },
     {
       "id": "MX-N2-ADV-01",
@@ -549,12 +684,20 @@
         "N2-RD-SHOR-003"
       ],
       "isDiagnostic": false,
-      "readinessStatus": "CONTENT_QA_BLOCKED",
+      "readinessStatus": "QA_PASSED_NOT_DEPLOYED",
       "implementationType": "SPEC_ONLY",
       "deploymentNote": "Đặc tả cấu trúc đề đã qua kiểm định Cổng A-D đạt chuẩn. Chưa xuất bản Google Form thực tế (Spec Only, giữ nguyên 3 Form P0 hiện hành).",
       "blockReason": "Phân hệ bộ đề bị tạm khóa (CONTENT_QA_BLOCKED) do ngân hàng 120 câu hỏi đang trong quy trình đánh giá mù độc lập thực chất.",
       "status": "QA_PASSED_NOT_DEPLOYED",
-      "activeFormsDeployed": 0
+      "activeFormsDeployed": 0,
+      "readinessReason": "All questions QA_VERIFIED, specification validated, awaiting controlled deployment",
+      "deployment": {
+        "isDeployed": false,
+        "formId": null,
+        "responderUrl": null,
+        "lastLiveQaTimestamp": null,
+        "qaResult": null
+      }
     },
     {
       "id": "SIM-N4-GENGO",
@@ -588,12 +731,20 @@
         "N4-GR-STAR-002"
       ],
       "isDiagnostic": false,
-      "readinessStatus": "CONTENT_QA_BLOCKED",
+      "readinessStatus": "QA_PASSED_NOT_DEPLOYED",
       "implementationType": "SPEC_ONLY",
       "deploymentNote": "Đặc tả cấu trúc đề đã qua kiểm định Cổng A-D đạt chuẩn. Chưa xuất bản Google Form thực tế (Spec Only, giữ nguyên 3 Form P0 hiện hành).",
       "blockReason": "Phân hệ bộ đề bị tạm khóa (CONTENT_QA_BLOCKED) do ngân hàng 120 câu hỏi đang trong quy trình đánh giá mù độc lập thực chất.",
       "status": "QA_PASSED_NOT_DEPLOYED",
-      "activeFormsDeployed": 0
+      "activeFormsDeployed": 0,
+      "readinessReason": "All questions QA_VERIFIED, specification validated, awaiting controlled deployment",
+      "deployment": {
+        "isDeployed": false,
+        "formId": null,
+        "responderUrl": null,
+        "lastLiveQaTimestamp": null,
+        "qaResult": null
+      }
     },
     {
       "id": "SIM-N3-GENGO",
@@ -631,12 +782,20 @@
         "N3-GR-STAR-004"
       ],
       "isDiagnostic": false,
-      "readinessStatus": "CONTENT_QA_BLOCKED",
+      "readinessStatus": "QA_PASSED_NOT_DEPLOYED",
       "implementationType": "SPEC_ONLY",
       "deploymentNote": "Đặc tả cấu trúc đề đã qua kiểm định Cổng A-D đạt chuẩn. Chưa xuất bản Google Form thực tế (Spec Only, giữ nguyên 3 Form P0 hiện hành).",
       "blockReason": "Phân hệ bộ đề bị tạm khóa (CONTENT_QA_BLOCKED) do ngân hàng 120 câu hỏi đang trong quy trình đánh giá mù độc lập thực chất.",
       "status": "QA_PASSED_NOT_DEPLOYED",
-      "activeFormsDeployed": 0
+      "activeFormsDeployed": 0,
+      "readinessReason": "All questions QA_VERIFIED, specification validated, awaiting controlled deployment",
+      "deployment": {
+        "isDeployed": false,
+        "formId": null,
+        "responderUrl": null,
+        "lastLiveQaTimestamp": null,
+        "qaResult": null
+      }
     },
     {
       "id": "MOCK-N4-FULL",
@@ -647,11 +806,19 @@
       "timeMinutes": 115,
       "questionIds": [],
       "isDiagnostic": true,
-      "readinessStatus": "NOT_READY — INSUFFICIENT UNIQUE ITEMS",
+      "readinessStatus": "NOT_READY",
       "unavailabilityReason": "Yêu cầu tối thiểu 85 câu hỏi độc lập chưa từng gặp (unseen) và file âm thanh nghe hiểu bản quyền/chuẩn studio. Hiện tại ngân hàng N4 có 40 câu mở rộng + 80 câu gốc và đang hoàn thiện tư liệu nghe thực tế.",
       "implementationType": "SPEC_ONLY",
-      "status": "QA_PASSED_NOT_DEPLOYED",
-      "activeFormsDeployed": 0
+      "status": "NOT_READY",
+      "activeFormsDeployed": 0,
+      "readinessReason": "INSUFFICIENT_UNIQUE_ITEMS",
+      "deployment": {
+        "isDeployed": false,
+        "formId": null,
+        "responderUrl": null,
+        "lastLiveQaTimestamp": null,
+        "qaResult": null
+      }
     },
     {
       "id": "MOCK-N3-FULL",
@@ -662,11 +829,19 @@
       "timeMinutes": 140,
       "questionIds": [],
       "isDiagnostic": true,
-      "readinessStatus": "NOT_READY — INSUFFICIENT UNIQUE ITEMS",
+      "readinessStatus": "NOT_READY",
       "unavailabilityReason": "Yêu cầu tối thiểu 95 câu hỏi độc lập và file âm thanh chuẩn kỳ thi. Hiện ngân hàng có 50 câu N3 độc lập và đang tiếp tục mở rộng theo lộ trình Checkpoint 3.7-D.",
       "implementationType": "SPEC_ONLY",
-      "status": "QA_PASSED_NOT_DEPLOYED",
-      "activeFormsDeployed": 0
+      "status": "NOT_READY",
+      "activeFormsDeployed": 0,
+      "readinessReason": "INSUFFICIENT_UNIQUE_ITEMS",
+      "deployment": {
+        "isDeployed": false,
+        "formId": null,
+        "responderUrl": null,
+        "lastLiveQaTimestamp": null,
+        "qaResult": null
+      }
     },
     {
       "id": "MOCK-N2-FULL",
@@ -677,12 +852,21 @@
       "timeMinutes": 155,
       "questionIds": [],
       "isDiagnostic": true,
-      "readinessStatus": "NOT_READY — INSUFFICIENT UNIQUE ITEMS",
+      "readinessStatus": "NOT_READY",
       "unavailabilityReason": "Yêu cầu tối thiểu 105 câu hỏi độc lập chất lượng cao cùng hệ thống file audio đề nghe. Hiện có 30 câu N2 được thẩm định và đang mở rộng từng đợt có kiểm soát.",
       "implementationType": "SPEC_ONLY",
-      "status": "QA_PASSED_NOT_DEPLOYED",
-      "activeFormsDeployed": 0
+      "status": "NOT_READY",
+      "activeFormsDeployed": 0,
+      "readinessReason": "INSUFFICIENT_UNIQUE_ITEMS",
+      "deployment": {
+        "isDeployed": false,
+        "formId": null,
+        "responderUrl": null,
+        "lastLiveQaTimestamp": null,
+        "qaResult": null
+      }
     }
   ],
-  "lastAudit": "2026-10-15T15:18:13.369030+00:00"
+  "lastAudit": "2026-10-15T15:18:13.369030+00:00",
+  "lastReconciliationTimestamp": "2026-10-16T07:42:37.369956+00:00"
 }

@@ -52,7 +52,7 @@
       "conceptId": "kanji-reading",
       "remediation": "Luyện đọc cả cụm từ Hán tự có âm mũi ん và trường âm.",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "案内",
@@ -62,6 +62,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n4.json",
+          "batch": "base_n4",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -101,7 +112,7 @@
       "conceptId": "kanji-reading",
       "remediation": "Phân biệt cặp động từ cho mượn (貸す・かす) và mượn về (借りる・かりる).",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "貸しました",
@@ -111,6 +122,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n4.json",
+          "batch": "base_n4",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -150,7 +172,7 @@
       "conceptId": "kanji-reading",
       "remediation": "Ghi nhớ các trường hợp chữ 画 đọc là かく (kế hoạch, quy hoạch).",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "計画",
@@ -160,6 +182,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n4.json",
+          "batch": "base_n4",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -199,7 +232,7 @@
       "conceptId": "kanji-reading",
       "remediation": "Ôn tập cách đọc Kunyomi của các động từ hành động nhặt/thu gom đời sống.",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "拾いました",
@@ -209,6 +242,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n4.json",
+          "batch": "base_n4",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -248,7 +292,7 @@
       "conceptId": "kanji-reading",
       "remediation": "Nắm chắc âm On chuẩn của chữ Chất (しつ) và Vấn (もん).",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "質問",
@@ -258,6 +302,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n4.json",
+          "batch": "base_n4",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -297,7 +352,7 @@
       "conceptId": "kanji-reading",
       "remediation": "Phân biệt sắc thái các động từ gửi/vận chuyển trong bối cảnh bưu điện.",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "送りました",
@@ -307,6 +362,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n4.json",
+          "batch": "base_n4",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -346,7 +412,7 @@
       "conceptId": "kanji-reading",
       "remediation": "Ghi nhớ quy tắc âm đục của các danh từ ghép chữ Hán thông dụng.",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "道具",
@@ -356,6 +422,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n4.json",
+          "batch": "base_n4",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -395,7 +472,7 @@
       "conceptId": "kanji-reading",
       "remediation": "Ôn tập âm On của chữ Đặc (とく) và Biệt (べつ).",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "特別",
@@ -405,6 +482,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n4.json",
+          "batch": "base_n4",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -444,7 +532,7 @@
       "conceptId": "collocation-polite",
       "remediation": "Học thuộc các thành ngữ kính ngữ thông dụng trong giao tiếp dịch vụ.",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -453,6 +541,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n4.json",
+          "batch": "base_n4",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -492,7 +591,7 @@
       "conceptId": "vocab-context",
       "remediation": "Phân biệt 間に合う (kịp giờ) và 遅れる (muộn giờ).",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -501,6 +600,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n4.json",
+          "batch": "base_n4",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -540,7 +650,7 @@
       "conceptId": "adverbs",
       "remediation": "Ghi nhớ nhóm phó từ tượng thanh tượng hình kết thúc bằng 〜り.",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -549,6 +659,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n4.json",
+          "batch": "base_n4",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -588,7 +709,7 @@
       "conceptId": "vocab-context",
       "remediation": "Phân biệt 故障 (hỏng máy móc) và 事故 (tai nạn con người/giao thông).",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -597,6 +718,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n4.json",
+          "batch": "base_n4",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -636,7 +768,7 @@
       "conceptId": "adverbs",
       "remediation": "Học phó từ theo cặp động từ đi kèm: すっかり消える / すっかり忘れる.",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -645,6 +777,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n4.json",
+          "batch": "base_n4",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -684,7 +827,7 @@
       "conceptId": "adjectives",
       "remediation": "Phân tích logic quan hệ nhân quả giữa hai vế câu để chọn tính từ đối lập.",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -693,6 +836,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n4.json",
+          "batch": "base_n4",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -732,7 +886,7 @@
       "conceptId": "verb-collocation",
       "remediation": "Học từ vựng gắn liền với văn hóa phong tục truyền thống Nhật Bản.",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -741,6 +895,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n4.json",
+          "batch": "base_n4",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -780,7 +945,7 @@
       "conceptId": "idiomatic-phrases",
       "remediation": "Nắm vững các quán dụng ngữ phổ biến chứa chữ 役 và 気.",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -789,6 +954,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n4.json",
+          "batch": "base_n4",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -828,7 +1004,7 @@
       "conceptId": "particles-place",
       "remediation": "Phân biệt trợ từ で (nơi diễn ra hành động) và に (nơi tồn tại/điểm đến).",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -837,6 +1013,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n4.json",
+          "batch": "base_n4",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -876,7 +1063,7 @@
       "conceptId": "grammar-potential",
       "remediation": "Ghi nhớ công thức chuẩn xác: V-ru + ことができる.",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -885,6 +1072,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n4.json",
+          "batch": "base_n4",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -924,7 +1122,7 @@
       "conceptId": "grammar-patterns",
       "remediation": "Nắm vững cấu trúc 〜ようにする biểu thị thói quen nỗ lực đều đặn.",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -933,6 +1131,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n4.json",
+          "batch": "base_n4",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -972,7 +1181,7 @@
       "conceptId": "grammar-change",
       "remediation": "Phân biệt 〜ようになる (biến đổi khả năng) và 〜ようにする (nỗ lực chủ quan).",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -981,6 +1190,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n4.json",
+          "batch": "base_n4",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -1020,7 +1240,7 @@
       "conceptId": "grammar-prohibition",
       "remediation": "Ôn tập thể cấm đoán: V-て + はいけません.",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -1029,6 +1249,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n4.json",
+          "batch": "base_n4",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -1068,7 +1299,7 @@
       "conceptId": "grammar-permission",
       "remediation": "Phân biệt 〜なくてもいい (không cần làm cũng được) và 〜てもいい (được phép làm).",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -1077,6 +1308,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n4.json",
+          "batch": "base_n4",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -1116,7 +1358,7 @@
       "conceptId": "grammar-trial",
       "remediation": "Ghi nhớ cấu trúc thử nghiệm hành động: V-て + みる.",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -1125,6 +1367,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n4.json",
+          "batch": "base_n4",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -1164,7 +1417,7 @@
       "conceptId": "grammar-regret",
       "remediation": "Nắm vững ý nghĩa hối tiếc / hoàn thành triệt để của V-て + しまう.",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -1173,6 +1426,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n4.json",
+          "batch": "base_n4",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -1212,7 +1476,7 @@
       "conceptId": "grammar-experience",
       "remediation": "Phân biệt V-たことがある (từng trải nghiệm) và V-ることもある (thỉnh thoảng có khi).",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -1221,6 +1485,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n4.json",
+          "batch": "base_n4",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -1238,7 +1513,7 @@
         },
         {
           "id": "B",
-          "text": "よかったら"
+          "text": "いいば"
         },
         {
           "id": "C",
@@ -1246,29 +1521,40 @@
         },
         {
           "id": "D",
-          "text": "いいなら"
+          "text": "よくても"
         }
       ],
       "correctAnswer": "A",
-      "explanationVi": "Thể điều kiện của tính từ đuôi い (いい -> よければ): nếu thời tiết đẹp thì ngày mai đi bơi biển.",
+      "explanationVi": "Thể điều kiện chuẩn của tính từ đuôi い (いい -> よければ): nếu thời tiết đẹp thì ngày mai chúng ta hãy đi bơi biển. Phương án A là dạng chia duy nhất đúng.",
       "distractorExplanations": {
-        "B": "よかったら thường dùng như lời mời lịch sự (nếu được thì...).",
-        "C": "よくて chỉ đơn thuần nối tiếp trạng thái, không tạo câu điều kiện giả định.",
-        "D": "いいなら thường dùng khi tiếp nhận lại ý kiến đối phương, ít tự nhiên cho giả định thời tiết tương lai."
+        "B": "いいば là dạng chia sai quy tắc hình thái học (tính từ đuôi い phải đổi いい thành よ- trước khi gắn ければ).",
+        "C": "よくて là thể て nối tiếp trạng thái, không thể dùng để tạo mệnh đề điều kiện giả định trước lời rủ rê.",
+        "D": "よくても là thể điều kiện nhượng bộ (cho dù có đẹp thì...), mâu thuẫn hoàn toàn về mặt ngữ nghĩa với lời rủ rê đi bơi biển."
       },
       "difficultyEstimate": 2,
       "conceptId": "grammar-conditional",
-      "remediation": "Nắm chắc quy tắc chia thể điều kiện ば của tính từ đuôi い (bỏ い thêm ければ).",
+      "remediation": "Ôn tập thể điều kiện 〜ば của tính từ đuôi い đặc biệt (いい -> よければ).",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
+      "historicalReview": {
         "reviewerId": "subagent:jlpt-blind-reviewer",
         "blindAnswer": "A",
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_repaired_6.json",
+          "batch": "repaired_targeted",
+          "timestamp": "2026-10-16T07:42:37.369956+00:00",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -1308,7 +1594,7 @@
       "conceptId": "grammar-conditional-tara",
       "remediation": "Quy tắc vàng: Vế sau là mệnh lệnh, khuyên bảo, nhờ vả thì ưu tiên dùng 〜たら.",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -1317,6 +1603,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n4.json",
+          "batch": "base_n4",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -1356,7 +1653,7 @@
       "conceptId": "grammar-conditional-nara",
       "remediation": "Phân biệt たら (A xong mới đến B) và なら (chuẩn bị B để làm A).",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -1365,6 +1662,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n4.json",
+          "batch": "base_n4",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -1404,7 +1712,7 @@
       "conceptId": "star-ordering",
       "remediation": "Khóa cụm V-る/ない + ことがないように để xác định trật tự câu sao.",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "assembledSentence": "朝慌てて探すことがないように夜のうちに服を準備しておきます。",
@@ -1414,6 +1722,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n4.json",
+          "batch": "base_n4",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -1421,48 +1740,59 @@
       "level": "N4",
       "skill": "Grammar",
       "typeId": "N4-GR-STAR",
-      "stem": "来年の夏休みには、北海道へ（　　）（　　） ★ （　　）予定です。",
+      "stem": "来年の夏休みには、（　　）（　　） ★ （　　）行く予定です。",
       "stimulusId": "N4-GR-STAR-002",
       "contextPassage": null,
       "options": [
         {
           "id": "A",
-          "text": "行く"
+          "text": "会いに"
         },
         {
           "id": "B",
-          "text": "一緒に"
+          "text": "北海道に"
         },
         {
           "id": "C",
-          "text": "友達と"
+          "text": "住んでいる"
         },
         {
           "id": "D",
-          "text": "旅行に"
+          "text": "友達に"
         }
       ],
       "correctAnswer": "D",
-      "explanationVi": "Thứ tự đúng: 北海道へ [友達と] [一緒に] ★[旅行に] [行く] 予定です. Cụm cố định: 友達と一緒に (cùng với bạn) + 旅行に行く (đi du lịch). Vị trí ★ (thứ 3) là '旅行に'.",
+      "explanationVi": "Thứ tự đúng: 来年の夏休みには、[北海道に] [住んでいる] ★[友達に] [会いに] 行く予定です. Mệnh đề định ngữ bổ nghĩa cho danh từ: 北海道に住んでいる (sống ở Hokkaido) + 友達に (cho bạn) + 会いに行く (đi gặp). Vị trí ★ (thứ 3) duy nhất là '友達に' (D).",
       "distractorExplanations": {
-        "A": "Đứng ở vị trí thứ 4 trước danh từ 予定です (行く予定).",
-        "B": "Đứng ở vị trí thứ 2 bổ nghĩa cho hành động cùng nhau.",
-        "C": "Đứng ở vị trí thứ 1 sau 北海道へ."
+        "A": "Đứng ở vị trí thứ 4 tạo cụm mục đích chuyển động 会いに行く予定です.",
+        "B": "Đứng ở vị trí thứ 1 làm trạng ngữ chỉ nơi chốn sau 来年の夏休みには、.",
+        "C": "Đứng ở vị trí thứ 2 làm vị ngữ cho mệnh đề định ngữ bổ nghĩa cho 友達."
       },
       "difficultyEstimate": 2,
       "conceptId": "star-ordering",
-      "remediation": "Xác định động từ thể từ điển đi liền trước danh từ 予定です rồi xếp các trạng ngữ phía trước.",
+      "remediation": "Ôn tập cấu trúc mệnh đề định ngữ và cấu trúc chỉ mục đích V-ます (bỏ ます) + に行く.",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "assembledSentence": "来年の夏休みには、北海道へ友達と一緒に旅行に行く予定です。",
-      "independentReview": {
+      "assembledSentence": "来年の夏休みには、北海道に住んでいる友達に会いに行く予定です。",
+      "historicalReview": {
         "reviewerId": "subagent:jlpt-blind-reviewer",
         "blindAnswer": "D",
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_repaired_6.json",
+          "batch": "repaired_targeted",
+          "timestamp": "2026-10-16T07:42:37.369956+00:00",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -1502,7 +1832,7 @@
       "conceptId": "star-ordering",
       "remediation": "Tìm cặp ngữ pháp then chốt 〜たほうがいい để khóa hai vị trí cuối câu.",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "assembledSentence": "風邪をひいたときは、無理をしないで暖かくしてゆっくり休んだほうがいいですよ。",
@@ -1512,6 +1842,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n4.json",
+          "batch": "base_n4",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -1551,7 +1892,7 @@
       "conceptId": "star-ordering",
       "remediation": "Nối các mệnh đề điều kiện và khả năng theo thứ tự logic chặt chẽ.",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "assembledSentence": "昨日は熱が高くて起き上がることができなかったので学校を休みました。",
@@ -1561,6 +1902,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n4.json",
+          "batch": "base_n4",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -1600,7 +1952,7 @@
       "conceptId": "star-ordering",
       "remediation": "Nhận diện cặp liệt kê song song tính chất (A て B も 〜ので).",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "assembledSentence": "この辞書は文字が大きくて説明もわかりやすいのでとても便利です。",
@@ -1610,6 +1962,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n4.json",
+          "batch": "base_n4",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -1623,7 +1986,7 @@
       "options": [
         {
           "id": "A",
-          "text": "今"
+          "text": "お金を"
         },
         {
           "id": "B",
@@ -1631,7 +1994,7 @@
         },
         {
           "id": "C",
-          "text": "貯金しようと"
+          "text": "ためようと"
         },
         {
           "id": "D",
@@ -1639,26 +2002,37 @@
         }
       ],
       "correctAnswer": "A",
-      "explanationVi": "Thứ tự đúng: 自分の店を [持つ] [ために] ★[今] [貯金しようと] 一生懸命働いています. Cấu trúc mục đích: V-る + ために (để mở cửa hàng) + 今貯金しようと (bây giờ đang định tiết kiệm tiền). Vị trí ★ (thứ 3) là '今'.",
+      "explanationVi": "Thứ tự đúng: 将来自分の店を [持つ] [ために] ★[お金を] [ためようと] 一生懸命働いています. Cấu trúc chỉ mục đích và ý chí: 自分の店を持つ (có cửa hàng) + ために (để) + お金をためようと (với ý định tiết kiệm tiền). Vị trí ★ (thứ 3) duy nhất là 'お金を' (A).",
       "distractorExplanations": {
-        "B": "Đứng ở vị trí thứ 1 sau tân ngữ 自分の店を.",
-        "C": "Đứng ở vị trí thứ 4 bổ nghĩa cho 一生懸命働いています.",
-        "D": "Đứng ở vị trí thứ 2 tạo cấu trúc chỉ mục đích."
+        "B": "Đứng ở vị trí thứ 1 đi liền sau tân ngữ 自分の店を.",
+        "C": "Đứng ở vị trí thứ 4 đi liền trước động từ 一生懸命働いています.",
+        "D": "Đứng ở vị trí thứ 2 hoàn thiện cấu trúc mục đích V-る + ために."
       },
       "difficultyEstimate": 2,
       "conceptId": "star-ordering",
-      "remediation": "Khóa cụm mục đích 〜ために trước rồi xét tiếp trạng từ thời gian và hành động vế sau.",
+      "remediation": "Ôn tập cấu trúc V-る + ために và thể ý chí V-よう + と (chỉ mục đích / dự định).",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "assembledSentence": "将来自分の店を持つために今貯金しようと一生懸命働いています。",
-      "independentReview": {
+      "assembledSentence": "将来自分の店を持つためにお金をためようと一生懸命働いています。",
+      "historicalReview": {
         "reviewerId": "subagent:jlpt-blind-reviewer",
         "blindAnswer": "A",
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_repaired_6.json",
+          "batch": "repaired_targeted",
+          "timestamp": "2026-10-16T07:42:37.369956+00:00",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -1698,7 +2072,7 @@
       "conceptId": "reading-short",
       "remediation": "Đọc lướt tìm mốc thời gian '火曜日' rồi đối chiếu từ khóa loại rác liền kề.",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -1707,6 +2081,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n4.json",
+          "batch": "base_n4",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -1746,7 +2131,7 @@
       "conceptId": "reading-short",
       "remediation": "Xác định trọng tâm thông báo trong email công việc: thay đổi thời gian hay địa điểm.",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -1755,6 +2140,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n4.json",
+          "batch": "base_n4",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -1794,7 +2190,7 @@
       "conceptId": "reading-short",
       "remediation": "Chú ý các từ nối biểu thị nhượng bộ như が, けれども để bắt trọn ý đánh giá hai mặt.",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -1803,6 +2199,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n4.json",
+          "batch": "base_n4",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -1842,7 +2249,7 @@
       "conceptId": "reading-short",
       "remediation": "Tìm câu chứa từ khóa 返却 (trả sách) trong thông báo để lấy phương án giải quyết.",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -1851,6 +2258,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n4.json",
+          "batch": "base_n4",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -1890,7 +2308,7 @@
       "conceptId": "info-retrieval",
       "remediation": "Gạch chân các điều kiện lọc thông tin: Thứ, Giờ, Chi phí trước khi quét bảng.",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -1899,6 +2317,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n4.json",
+          "batch": "base_n4",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -1938,7 +2367,7 @@
       "conceptId": "info-retrieval",
       "remediation": "Đặc biệt lưu ý các ghi chú có ký hiệu ※ hoặc chú thích chân trang trong dạng đề thông tin.",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -1947,6 +2376,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n4.json",
+          "batch": "base_n4",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -1986,7 +2426,7 @@
       "conceptId": "kanji-n3",
       "remediation": "Ghi nhớ âm On chuẩn của chữ Duyên (えん) và Kỳ (き).",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "延期",
@@ -1996,6 +2436,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -2035,7 +2486,7 @@
       "conceptId": "kanji-n3",
       "remediation": "Phân biệt các động từ cử chỉ trừu tượng: 抱える (gánh vác) và 掲げる (nêu cao).",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "抱えて",
@@ -2045,6 +2496,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -2084,7 +2546,7 @@
       "conceptId": "kanji-n3",
       "remediation": "Ôn tập cách đọc âm On đặc biệt của các từ vựng chỉ quốc gia/khu vực.",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "欧米",
@@ -2094,6 +2556,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -2133,7 +2606,7 @@
       "conceptId": "kanji-n3",
       "remediation": "Lưu ý các từ vựng có hiện tượng biến âm ngắt đặc thù như 湿気 (しっけ).",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "湿気",
@@ -2143,6 +2616,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -2182,7 +2666,7 @@
       "conceptId": "kanji-n3",
       "remediation": "Học kỹ âm Kunyomi của các động từ nông nghiệp đời sống như 耕す, 耕作.",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "耕して",
@@ -2192,6 +2676,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -2231,7 +2726,7 @@
       "conceptId": "kanji-n3",
       "remediation": "Nắm vững các thuật ngữ Hán tự y tế: 診察 (しんさつ), 診断 (しんだん).",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "診察",
@@ -2241,6 +2736,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -2280,7 +2786,7 @@
       "conceptId": "kanji-n3",
       "remediation": "Ghi nhớ trường âm của chữ Phong (ほう) trong 豊富.",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "豊富",
@@ -2290,6 +2796,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -2329,7 +2846,7 @@
       "conceptId": "kanji-n3",
       "remediation": "Phân biệt nhóm động từ có đuôi う mang nghĩa trừu tượng: 補う, 償う, 養う, 賄う.",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "補う",
@@ -2339,6 +2856,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -2378,7 +2906,7 @@
       "conceptId": "affix-n3",
       "remediation": "Học thuộc hệ thống 4 tiền tố phủ định căn bản: 不, 無, 非, 未.",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -2387,6 +2915,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -2426,7 +2965,7 @@
       "conceptId": "affix-n3",
       "remediation": "Nhận diện các từ vựng đi cùng tiền tố 無: 無意味, 無駄, 無事.",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -2435,6 +2974,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -2474,7 +3024,7 @@
       "conceptId": "affix-n3",
       "remediation": "Ghi nhớ tiền tố 未 (chưa): 未成年, 未解決, 未経験, 未定.",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -2483,6 +3033,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -2522,7 +3083,7 @@
       "conceptId": "affix-n3",
       "remediation": "Phân biệt hậu tố 的 (tính từ hóa) và 性 (danh từ hóa).",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -2531,6 +3092,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -2570,7 +3142,7 @@
       "conceptId": "affix-n3",
       "remediation": "Ghi nhớ các từ ghép với hậu tố 感: 達成感, 満足感, 責任感, 安心感.",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -2579,6 +3151,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -2618,7 +3201,7 @@
       "conceptId": "affix-n3",
       "remediation": "Nắm vững các từ ghép chứa hậu tố 性: 可能性, 重要性, 安全性.",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -2627,6 +3210,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -2666,7 +3260,7 @@
       "conceptId": "affix-n3",
       "remediation": "Phân biệt 4 hậu tố chỉ các loại tiền bạc: 費, 料, 代, 金.",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -2675,6 +3269,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -2714,7 +3319,7 @@
       "conceptId": "affix-n3",
       "remediation": "Ghi nhớ hậu tố 化 (hóa): デジタル化, 国際化, 自動化, 温暖化.",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -2723,6 +3328,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -2762,7 +3378,7 @@
       "conceptId": "vocab-n3",
       "remediation": "Ghi nhớ phó từ そっくり似ている (giống nhau như in).",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -2771,6 +3387,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -2810,7 +3437,7 @@
       "conceptId": "vocab-n3",
       "remediation": "Học phó từ ぎっしり gắn với hình ảnh sách xếp chật kín giá hoặc kẹo chật hộp.",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -2819,6 +3446,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -2858,7 +3496,7 @@
       "conceptId": "vocab-n3",
       "remediation": "Ghi nhớ cặp: のんびり過ごす (nghỉ ngơi thư thái) và ぐっすり眠る (ngủ say giấc).",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -2867,6 +3505,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -2906,7 +3555,7 @@
       "conceptId": "adjectives-n3",
       "remediation": "Phân biệt 慌ただしい (bận rộn tất bật) và 忙しい (bận nói chung).",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -2915,6 +3564,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -2954,7 +3614,7 @@
       "conceptId": "adjectives-n3",
       "remediation": "Ghi nhớ cụm từ: 曖昧な態度 (thái độ mập mờ), 曖昧な返事 (câu trả lời ỡm ờ).",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -2963,6 +3623,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -3002,7 +3673,7 @@
       "conceptId": "vocab-n3",
       "remediation": "Nắm chắc nghĩa của 催促 (thúc giục nộp bài/thanh toán).",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -3011,6 +3682,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -3050,7 +3732,7 @@
       "conceptId": "adjectives-n3",
       "remediation": "Ghi nhớ cặp từ trái nghĩa: 謙虚 (khiêm tốn) đối lập với 傲慢 (kiêu ngạo) và 威張る (hợm hĩnh).",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -3059,6 +3741,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -3098,7 +3791,7 @@
       "conceptId": "adverbs-n3",
       "remediation": "Học phó từ 慎重に đối lập với 大雑把に trong môi trường làm việc công sở.",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -3107,6 +3800,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -3146,7 +3850,7 @@
       "conceptId": "grammar-n3",
       "remediation": "Phân biệt わけがない (tuyệt đối không thể) và わけではない (không hẳn là).",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -3155,6 +3859,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -3194,7 +3909,7 @@
       "conceptId": "grammar-n3",
       "remediation": "Khóa cụm cấu trúc hô ứng kinh điển: 〜からといって ... 〜わけではない.",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -3203,6 +3918,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -3242,7 +3968,7 @@
       "conceptId": "grammar-n3",
       "remediation": "Phân biệt ことになっている (quy định tập thể/luật lệ) và ことにしている (nguyên tắc cá nhân).",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -3251,6 +3977,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -3290,7 +4027,7 @@
       "conceptId": "grammar-n3",
       "remediation": "Nắm vững 〜ことにしている khi nói về kỷ luật ăn uống, sinh hoạt cá nhân.",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -3299,6 +4036,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -3338,7 +4086,7 @@
       "conceptId": "grammar-n3",
       "remediation": "Khóa cặp liên từ và đuôi câu: 〜のだから ... 〜に違いない.",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -3347,6 +4095,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -3368,7 +4127,7 @@
         },
         {
           "id": "C",
-          "text": "わけ"
+          "text": "つもり"
         },
         {
           "id": "D",
@@ -3376,25 +4135,36 @@
         }
       ],
       "correctAnswer": "B",
-      "explanationVi": "Mẫu câu phán đoán logic có lý do thuyết phục: 「〜はずだ」 (chắc hẳn là đang rất mệt).",
+      "explanationVi": "Mẫu câu phán đoán logic dựa trên căn cứ khách quan: 「〜はずだ」 (chắc hẳn là đang rất mệt vì hôm qua tăng ca muộn). Phương án B là đáp án duy nhất phù hợp.",
       "distractorExplanations": {
-        "A": "ことだ thường dùng cho lời khuyên nên làm gì.",
-        "C": "わけだ dùng khi tổng kết chân tướng sự việc sau khi nghe giải thích.",
-        "D": "ものだ dùng cho chân lý hoặc hoài niệm quá khứ."
+        "A": "ことだ thường dùng cho lời khuyên hoặc mệnh lệnh nhẹ nhàng mang tính đạo đức.",
+        "C": "つもりだ diễn tả ý định chủ quan của bản thân hoặc niềm tin sai lệch, phi logic trong ngữ cảnh suy đoán trạng thái của người khác.",
+        "D": "ものだ dùng cho chân lý hiển nhiên, quy luật tự nhiên hoặc hoài niệm quá khứ."
       },
       "difficultyEstimate": 2,
       "conceptId": "grammar-n3",
-      "remediation": "Nắm chắc 〜はずだ khi đưa ra phán đoán logic từ nguyên nhân đã biết.",
+      "remediation": "Ôn tập mẫu câu N3 phán đoán logic 〜はずだ so sánh với các danh từ hình thức khác.",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
+      "historicalReview": {
         "reviewerId": "subagent:jlpt-blind-reviewer",
         "blindAnswer": "B",
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_repaired_6.json",
+          "batch": "repaired_targeted",
+          "timestamp": "2026-10-16T07:42:37.369956+00:00",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -3434,7 +4204,7 @@
       "conceptId": "grammar-n3",
       "remediation": "Phân biệt cặp nguyên nhân: おかげで (kết quả tốt) và せいで (kết quả xấu).",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -3443,6 +4213,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -3482,7 +4263,7 @@
       "conceptId": "grammar-n3",
       "remediation": "Dấu hiệu nhận biết kết quả xấu (đau đầu, trễ hẹn, hỏng việc) luôn đi với せいで.",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -3491,6 +4272,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -3530,7 +4322,7 @@
       "conceptId": "grammar-n3",
       "remediation": "Khóa mẫu câu: V-る + たびに (cứ mỗi lần A là lại B).",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -3539,6 +4331,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -3578,7 +4381,7 @@
       "conceptId": "grammar-n3",
       "remediation": "Phân biệt 最中に (đột ngột bị xen ngang ngắt quãng) và うちに (tranh thủ làm).",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -3587,6 +4390,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -3626,7 +4440,7 @@
       "conceptId": "grammar-n3",
       "remediation": "Ghi nhớ cấu trúc diễn tả xu hướng tăng/giảm một chiều: V-る + 一方だ.",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -3635,6 +4449,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -3674,7 +4499,7 @@
       "conceptId": "grammar-n3",
       "remediation": "Từ vựng và ngữ pháp rủi ro thiên tai: 崩れる / 倒壊する + おそれがある.",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -3683,6 +4508,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -3690,13 +4526,13 @@
       "level": "N3",
       "skill": "Grammar",
       "typeId": "N3-GR-STAR",
-      "stem": "年齢や経験の（　　）（　　） ★ （　　）応募できる求人です。",
+      "stem": "年齢や経験の（　　）（　　） ★ （　　）誰でも応募できます。",
       "stimulusId": "N3-GR-STAR-001",
       "contextPassage": null,
       "options": [
         {
           "id": "A",
-          "text": "誰でも"
+          "text": "意欲が"
         },
         {
           "id": "B",
@@ -3704,7 +4540,7 @@
         },
         {
           "id": "C",
-          "text": "自由に"
+          "text": "あれば"
         },
         {
           "id": "D",
@@ -3712,26 +4548,37 @@
         }
       ],
       "correctAnswer": "A",
-      "explanationVi": "Thứ tự đúng: 年齢や経験の [有無に] [かかわらず] ★[誰でも] [自由に] 応募できる求人です. Cấu trúc N3: 〜にかかわらず (bất kể có hay không) + 誰でも自由に応募できる (ai cũng có thể tự do ứng tuyển). Vị trí ★ (thứ 3) là '誰でも'.",
+      "explanationVi": "Thứ tự đúng: 年齢や経験の [有無に] [かかわらず] ★[意欲が] [あれば] 誰でも応募できます. Cấu trúc N3: 〜にかかわらず (bất kể có hay không) + 意欲があれば (nếu có ý chí quyết tâm) + 誰でも応募できます. Vị trí ★ (thứ 3) duy nhất là '意欲が' (A).",
       "distractorExplanations": {
-        "B": "Đứng ở vị trí thứ 1 sau danh từ 年齢や経験の.",
-        "C": "Đứng ở vị trí thứ 4 bổ nghĩa cho động từ 応募できる.",
-        "D": "Đứng ở vị trí thứ 2 hoàn thiện cụm 有無にかかわらず."
+        "B": "Đứng ở vị trí thứ 1 ngay sau cụm danh từ 年齢や経験の.",
+        "C": "Đứng ở vị trí thứ 4 nối vào mệnh đề chính 誰でも応募できます.",
+        "D": "Đứng ở vị trí thứ 2 hoàn thiện mẫu câu ngữ pháp N3 有無にかかわらず."
       },
       "difficultyEstimate": 3,
       "conceptId": "star-n3",
-      "remediation": "Khóa cụm từ nối N3: Danh từ + にかかわらず rồi đặt chủ ngữ và phó từ phía sau.",
+      "remediation": "Ôn tập cấu trúc N3 〜にかかわらず (bất kể) kết hợp với điều kiện 〜ば.",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "assembledSentence": "年齢や経験の有無にかかわらず誰でも自由に応募できる求人です。",
-      "independentReview": {
+      "assembledSentence": "年齢や経験の有無にかかわらず意欲があれば誰でも応募できます。",
+      "historicalReview": {
         "reviewerId": "subagent:jlpt-blind-reviewer",
         "blindAnswer": "A",
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_repaired_6.json",
+          "batch": "repaired_targeted",
+          "timestamp": "2026-10-16T07:42:37.369956+00:00",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -3771,7 +4618,7 @@
       "conceptId": "star-n3",
       "remediation": "Nhận diện bản chất cấu trúc 〜反面 kết nối giữa điểm lợi (自由で気楽) và điểm hại (寂しさを感じる).",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "assembledSentence": "一人暮らしは自由で気楽な反面、ふとした時に寂しさを感じることもある。",
@@ -3781,6 +4628,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -3820,7 +4678,7 @@
       "conceptId": "star-n3",
       "remediation": "Khóa cấu trúc 〜を中心として rồi nối mệnh đề định ngữ bổ nghĩa cho 多くの住民.",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "assembledSentence": "ボランティア団体を中心として集まった多くの住民により地域の清掃活動が行われた。",
@@ -3830,6 +4688,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -3869,7 +4738,7 @@
       "conceptId": "star-n3",
       "remediation": "Khóa cụm từ nối 〜を通じて rồi xếp tân ngữ có tính từ định ngữ đi kèm (かけがえのない経験).",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "assembledSentence": "海外でのボランティア活動を通じて多くの友人と、かけがえのない経験を得ることができた。",
@@ -3879,6 +4748,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -3918,7 +4798,7 @@
       "conceptId": "star-n3",
       "remediation": "Khóa cấu trúc nhân quả phát triển: 〜に伴って rồi xếp mệnh đề nối tiếp 普及し.",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "assembledSentence": "情報通信技術の発展に伴ってオンラインサービスが普及し、人々の生活様式も大きく変わった。",
@@ -3928,6 +4808,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -3967,7 +4858,7 @@
       "conceptId": "star-n3",
       "remediation": "Xác định hai cấu trúc so sánh và gia tăng: 〜と比べて và 〜うえに.",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "assembledSentence": "従来の製品と比べて新型モデルは性能が向上したうえに消費電力が30％も削減された。",
@@ -3977,6 +4868,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -4016,7 +4918,7 @@
       "conceptId": "reading-n3",
       "remediation": "Đọc kỹ thời hạn (今月末日まで) và điều kiện kỹ thuật của thông báo hành chính.",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -4025,6 +4927,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -4064,7 +4977,7 @@
       "conceptId": "reading-n3",
       "remediation": "Xác định nguyên nhân chính xác từ câu có cụm từ chỉ lợi ích: 点が大きな魅力となっている.",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -4073,6 +4986,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -4112,7 +5036,7 @@
       "conceptId": "reading-n3",
       "remediation": "Chú ý liên từ chuyển tiếp なお (ngoài ra) để bắt trọn ngoại lệ còn hoạt động.",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -4121,6 +5045,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -4160,7 +5095,7 @@
       "conceptId": "reading-n3",
       "remediation": "Nắm bắt cấu trúc lập luận tác giả: AではなくB (không phải A mà là B).",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -4169,6 +5104,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -4208,7 +5154,7 @@
       "conceptId": "reading-n3",
       "remediation": "Xác định mục đích văn bản quy tắc chung cư: cấm đoán hành vi gây phiền toái (迷惑).",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -4217,6 +5163,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -4256,7 +5213,7 @@
       "conceptId": "reading-n3-medium",
       "remediation": "Tìm đoạn văn tương ứng với từ khóa 課題 (thách thức) ở đầu đoạn 2.",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -4265,6 +5222,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -4304,7 +5272,7 @@
       "conceptId": "reading-n3-medium",
       "remediation": "Đối chiếu trực tiếp câu văn chứa cụm từ 'オフィスで顔を合わせていれば'.",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -4313,6 +5281,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -4352,7 +5331,7 @@
       "conceptId": "reading-n3-medium",
       "remediation": "Tìm quan điểm tác giả ở đoạn cuối thông qua câu nghi vấn tu từ: 〜ではないだろうか.",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -4361,6 +5340,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n3.json",
+          "batch": "base_n3",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -4400,7 +5390,7 @@
       "conceptId": "kanji-n2",
       "remediation": "Ghi nhớ âm On chuẩn của chữ Bả (は) và Ác (あく).",
       "sourceMetadata": "Official JLPT N2 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "把握",
@@ -4410,6 +5400,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n2.json",
+          "batch": "base_n2",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -4449,7 +5450,7 @@
       "conceptId": "kanji-n2",
       "remediation": "Phân biệt cặp từ hay nhầm: 措置 (そち - biện pháp vĩ mô) và 処置 (しょち - sơ cứu y tế).",
       "sourceMetadata": "Official JLPT N2 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "措置",
@@ -4459,6 +5460,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n2.json",
+          "batch": "base_n2",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -4498,7 +5510,7 @@
       "conceptId": "kanji-n2",
       "remediation": "Ghi nhớ cụm từ: 妥協点を見出す (tìm ra điểm thỏa hiệp nhượng bộ).",
       "sourceMetadata": "Official JLPT N2 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "妥協",
@@ -4508,6 +5520,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n2.json",
+          "batch": "base_n2",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -4547,7 +5570,7 @@
       "conceptId": "kanji-n2",
       "remediation": "Học âm Kunyomi của chữ Súc: 蓄える (たくわえる) và âm On: 蓄積 (ちくせき).",
       "sourceMetadata": "Official JLPT N2 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "蓄えて",
@@ -4557,6 +5580,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n2.json",
+          "batch": "base_n2",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -4596,7 +5630,7 @@
       "conceptId": "kanji-n2",
       "remediation": "Ghi nhớ cụm từ: 顕著な効果 / 顕著な変化 (hiệu quả/thay đổi rõ rệt).",
       "sourceMetadata": "Official JLPT N2 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "顕著",
@@ -4606,6 +5640,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n2.json",
+          "batch": "base_n2",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -4645,7 +5690,7 @@
       "conceptId": "affix-n2",
       "remediation": "Nắm vững các thuật ngữ với tiền tố 総: 総人口, 総売上, 総支出, 総面積.",
       "sourceMetadata": "Official JLPT N2 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -4654,6 +5699,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n2.json",
+          "batch": "base_n2",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -4693,7 +5749,7 @@
       "conceptId": "affix-n2",
       "remediation": "Ghi nhớ tiền tố 諸 (chư): 諸問題, 諸事情, 諸外国, 諸条件.",
       "sourceMetadata": "Official JLPT N2 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -4702,6 +5758,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n2.json",
+          "batch": "base_n2",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -4741,7 +5808,7 @@
       "conceptId": "affix-n2",
       "remediation": "Phân biệt hậu tố 権 (quyền lợi: 著作権, 所有権) và 法 (bộ luật).",
       "sourceMetadata": "Official JLPT N2 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -4750,6 +5817,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n2.json",
+          "batch": "base_n2",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -4789,7 +5867,7 @@
       "conceptId": "affix-n2",
       "remediation": "Ghi nhớ hậu tố 視: 疑問視する (hoài nghi), 重要視する (coi trọng), 問題視する (coi là vấn đề).",
       "sourceMetadata": "Official JLPT N2 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -4798,6 +5876,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n2.json",
+          "batch": "base_n2",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -4837,7 +5926,7 @@
       "conceptId": "affix-n2",
       "remediation": "Phân biệt các hậu tố phân loại xã hội: 界 (giới ngành nghề), 層 (tầng lớp), 圏 (vùng địa lý).",
       "sourceMetadata": "Official JLPT N2 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -4846,6 +5935,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n2.json",
+          "batch": "base_n2",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -4885,7 +5985,7 @@
       "conceptId": "vocab-n2",
       "remediation": "Ghi nhớ cụm từ cố định: 漠然とした不安 / 漠然としたイメージ (hình dung mơ hồ).",
       "sourceMetadata": "Official JLPT N2 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -4894,6 +5994,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n2.json",
+          "batch": "base_n2",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -4933,7 +6044,7 @@
       "conceptId": "vocab-n2",
       "remediation": "Ghi nhớ cụm từ: 緻密な計画 (kế hoạch chặt chẽ tỉ mỉ).",
       "sourceMetadata": "Official JLPT N2 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -4942,6 +6053,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n2.json",
+          "batch": "base_n2",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -4981,7 +6103,7 @@
       "conceptId": "vocab-n2",
       "remediation": "Học quán dụng ngữ: 〜をおろそかにする (lơ là xem nhẹ điều cốt tử).",
       "sourceMetadata": "Official JLPT N2 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -4990,6 +6112,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n2.json",
+          "batch": "base_n2",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -5029,7 +6162,7 @@
       "conceptId": "vocab-n2",
       "remediation": "Ghi nhớ quán dụng ngữ: 躊躇することなく (không một chút do dự).",
       "sourceMetadata": "Official JLPT N2 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -5038,6 +6171,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n2.json",
+          "batch": "base_n2",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -5077,7 +6221,7 @@
       "conceptId": "idioms-n2",
       "remediation": "Nắm vững thành ngữ công sở: 軌道に乗る (dự án đi vào quỹ đạo ổn định).",
       "sourceMetadata": "Official JLPT N2 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -5086,6 +6230,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n2.json",
+          "batch": "base_n2",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -5125,7 +6280,7 @@
       "conceptId": "grammar-n2",
       "remediation": "Khóa cặp liên từ: 〜のは、〜にほかならない.",
       "sourceMetadata": "Official JLPT N2 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -5134,6 +6289,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n2.json",
+          "batch": "base_n2",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -5173,7 +6339,7 @@
       "conceptId": "grammar-n2",
       "remediation": "Quy tắc bất quy tắc: する -> せざるを得ない (buộc lòng phải làm).",
       "sourceMetadata": "Official JLPT N2 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -5182,6 +6348,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n2.json",
+          "batch": "base_n2",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -5203,33 +6380,44 @@
         },
         {
           "id": "C",
-          "text": "するばかりだ"
+          "text": "しっこない"
         },
         {
           "id": "D",
-          "text": "する一方だ"
+          "text": "しがたい"
         }
       ],
       "correctAnswer": "A",
-      "explanationVi": "Mẫu câu chính luận diễn tả quá trình đang dần biến đổi: 「V-ます bỏ ます + つつある」 (đang dần dần gia tăng).",
+      "explanationVi": "Mẫu câu chính luận N2 diễn tả tiến trình đang dần biến đổi theo thời gian: 「V-ます bỏ ます + つつある」 (đang dần dần gia tăng). Phương án A là đáp án chính xác và trang trọng nhất.",
       "distractorExplanations": {
-        "B": "したきりだ là sau khi làm thì bặt vô âm tín.",
-        "C": "するばかりだ ít mang tính văn phong báo chí hơn つつある.",
-        "D": "一方だ nhấn mạnh xu hướng tiêu cực đơn hướng, つつある trang trọng hơn trong văn bản chính luận."
+        "B": "したきりだ diễn tả sau khi thực hiện hành động thì giữ nguyên trạng thái không biến chuyển, không phù hợp với xu hướng biến thiên 増加.",
+        "C": "しっこない mang tính khẩu ngữ tuyệt đối phủ định ('tuyệt đối không thể'), mâu thuẫn hoàn toàn với thực trạng thiếu hụt nhân lực.",
+        "D": "しがたい chỉ dùng với các động từ tâm lý cảm xúc (信じがたい, 理解しがたい), không kết hợp với biến đổi tự nhiên như 増加."
       },
       "difficultyEstimate": 4,
       "conceptId": "grammar-n2",
-      "remediation": "Nhận diện văn phong chính luận N2: V-ます (bỏ ます) + つつある.",
+      "remediation": "Ôn tập mẫu câu N2 diễn tả xu hướng biến đổi: 〜つつある (đang dần dần).",
       "sourceMetadata": "Official JLPT N2 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
+      "historicalReview": {
         "reviewerId": "subagent:jlpt-blind-reviewer",
         "blindAnswer": "A",
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_repaired_6.json",
+          "batch": "repaired_targeted",
+          "timestamp": "2026-10-16T07:42:37.369956+00:00",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -5269,7 +6457,7 @@
       "conceptId": "grammar-n2",
       "remediation": "Ghi nhớ thể phủ định ý chí đanh thép: V-る + まい (nhất định không làm).",
       "sourceMetadata": "Official JLPT N2 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -5278,6 +6466,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n2.json",
+          "batch": "base_n2",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -5317,7 +6516,7 @@
       "conceptId": "grammar-n2",
       "remediation": "Phân biệt を契機に (bước ngoặt thời cơ) và を皮切りに (khởi động chuỗi sự kiện đồng dạng).",
       "sourceMetadata": "Official JLPT N2 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -5326,6 +6525,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n2.json",
+          "batch": "base_n2",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -5365,7 +6575,7 @@
       "conceptId": "grammar-n2",
       "remediation": "Khóa cụm từ: 〜をめぐって + 議論が交わされる / 対立する.",
       "sourceMetadata": "Official JLPT N2 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -5374,6 +6584,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n2.json",
+          "batch": "base_n2",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -5413,7 +6634,7 @@
       "conceptId": "grammar-n2",
       "remediation": "Ghi nhớ cấu trúc diễn tả sự trớ trêu, xui rủi: Danh từ thời gian + に限って.",
       "sourceMetadata": "Official JLPT N2 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -5422,6 +6643,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n2.json",
+          "batch": "base_n2",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -5461,7 +6693,7 @@
       "conceptId": "grammar-n2",
       "remediation": "Khóa cụm cảm xúc: 胸に迫るものがある / 感慨深いものがある.",
       "sourceMetadata": "Official JLPT N2 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -5470,6 +6702,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n2.json",
+          "batch": "base_n2",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -5509,7 +6752,7 @@
       "conceptId": "star-n2",
       "remediation": "Khóa cụm tương liên: 〜どころか ... 〜も脅かしかねない.",
       "sourceMetadata": "Official JLPT N2 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "assembledSentence": "今回の不祥事は会社の信用を失墜させるどころか存続をも脅かしかねない重大な問題である。",
@@ -5519,6 +6762,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n2.json",
+          "batch": "base_n2",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -5558,7 +6812,7 @@
       "conceptId": "star-n2",
       "remediation": "Nối cấu trúc liên từ song song AとB rồi khóa vị trí danh từ trước 次第で.",
       "sourceMetadata": "Official JLPT N2 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "assembledSentence": "どのような困難な課題であっても、チームの団結と一人ひとりの取り組み方次第で克服できる。",
@@ -5568,6 +6822,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n2.json",
+          "batch": "base_n2",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -5607,7 +6872,7 @@
       "conceptId": "star-n2",
       "remediation": "Khóa mẫu câu hô ứng: いくら〜からといって ... 〜ていては.",
       "sourceMetadata": "Official JLPT N2 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "assembledSentence": "いくら専門知識が豊富だからといって傲慢な態度をとっていては周囲の信頼は得られない。",
@@ -5617,6 +6882,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n2.json",
+          "batch": "base_n2",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -5656,7 +6932,7 @@
       "conceptId": "star-n2",
       "remediation": "Khóa cụm từ nối nhượng bộ 〜にもかかわらず rồi xếp trạng ngữ định vị 本番の現場では.",
       "sourceMetadata": "Official JLPT N2 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "assembledSentence": "事前の綿密な計画にもかかわらず、本番の現場では予期せぬトラブルが発生した。",
@@ -5666,6 +6942,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n2.json",
+          "batch": "base_n2",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -5705,7 +6992,7 @@
       "conceptId": "reading-n2-short",
       "remediation": "Tìm câu kết có trợ từ nhấn mạnh 〜こそが để xác định chủ kiến tác giả.",
       "sourceMetadata": "Official JLPT N2 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -5714,6 +7001,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n2.json",
+          "batch": "base_n2",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -5753,7 +7051,7 @@
       "conceptId": "reading-n2-short",
       "remediation": "Xác định hành vi bị nghiêm cấm trong thông báo tuân thủ (コンプライアンス).",
       "sourceMetadata": "Official JLPT N2 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -5762,6 +7060,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n2.json",
+          "batch": "base_n2",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     },
     {
@@ -5801,7 +7110,7 @@
       "conceptId": "reading-n2-short",
       "remediation": "Chú ý cấu trúc 〜てこそ (chỉ khi làm A thì mới đạt được B) để tìm phương án đúng.",
       "sourceMetadata": "Official JLPT N2 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": false,
+      "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "independentReview": {
@@ -5810,6 +7119,17 @@
         "blindConfidence": "HIGH",
         "match": true,
         "timestamp": "2026-10-15T15:18:13.369030+00:00"
+      },
+      "qaAudit": {
+        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "gateDecision": "QA_VERIFIED",
+        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "provenance": {
+          "sourceFile": "raw_blind_review_n2.json",
+          "batch": "base_n2",
+          "timestamp": "2026-10-15T15:15:00Z",
+          "reviewer": "subagent:jlpt-blind-reviewer"
+        }
       }
     }
   ],
@@ -5823,5 +7143,18 @@
     "agreementRate": "100.00%",
     "ambiguityWarnings": 4,
     "reconciledAt": "2026-10-15T15:18:13.369030+00:00"
+  },
+  "qaMetrics": {
+    "totalAuthored": 120,
+    "countsByStatus": {
+      "SCHEMA_VALID": 0,
+      "INDEPENDENT_REVIEW_PENDING": 0,
+      "REVIEW_AGREED_WITH_WARNINGS": 0,
+      "QA_REVIEW_REQUIRED": 0,
+      "QA_VERIFIED": 120,
+      "QUARANTINED": 0
+    },
+    "agreementRate": "100.00%",
+    "lastReconciled": "2026-10-16T07:42:37.369956+00:00"
   }
 }

@@ -1,0 +1,158 @@
+[
+  {
+    "id": "N4-GR-FORM-010",
+    "level": "N4",
+    "skill": "Grammar",
+    "typeId": "N4-GR-FORM",
+    "stem": "天気が（　　）、明日は海へ泳ぎに行きましょう。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "よければ"
+      },
+      {
+        "id": "B",
+        "text": "いいば"
+      },
+      {
+        "id": "C",
+        "text": "よくて"
+      },
+      {
+        "id": "D",
+        "text": "よくても"
+      }
+    ]
+  },
+  {
+    "id": "N4-GR-STAR-002",
+    "level": "N4",
+    "skill": "Grammar",
+    "typeId": "N4-GR-STAR",
+    "stem": "来年の夏休みには、（　　）（　　） ★ （　　）行く予定です。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "会いに"
+      },
+      {
+        "id": "B",
+        "text": "北海道に"
+      },
+      {
+        "id": "C",
+        "text": "住んでいる"
+      },
+      {
+        "id": "D",
+        "text": "友達に"
+      }
+    ]
+  },
+  {
+    "id": "N4-GR-STAR-006",
+    "level": "N4",
+    "skill": "Grammar",
+    "typeId": "N4-GR-STAR",
+    "stem": "将来自分の店を（　　）（　　） ★ （　　）一生懸命働いています。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "お金を"
+      },
+      {
+        "id": "B",
+        "text": "持つ"
+      },
+      {
+        "id": "C",
+        "text": "ためようと"
+      },
+      {
+        "id": "D",
+        "text": "ために"
+      }
+    ]
+  },
+  {
+    "id": "N3-GR-FORM-006",
+    "level": "N3",
+    "skill": "Grammar",
+    "typeId": "N3-GR-FORM",
+    "stem": "彼は昨日遅くまで残業していたから、今日は疲れている（　　）だ。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "こと"
+      },
+      {
+        "id": "B",
+        "text": "はず"
+      },
+      {
+        "id": "C",
+        "text": "つもり"
+      },
+      {
+        "id": "D",
+        "text": "もの"
+      }
+    ]
+  },
+  {
+    "id": "N3-GR-STAR-001",
+    "level": "N3",
+    "skill": "Grammar",
+    "typeId": "N3-GR-STAR",
+    "stem": "年齢や経験の（　　）（　　） ★ （　　）誰でも応募できます。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "意欲が"
+      },
+      {
+        "id": "B",
+        "text": "有無に"
+      },
+      {
+        "id": "C",
+        "text": "あれば"
+      },
+      {
+        "id": "D",
+        "text": "かかわらず"
+      }
+    ]
+  },
+  {
+    "id": "N2-GR-FORM-003",
+    "level": "N2",
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "stem": "伝統的な工芸技術を受け継ぐ後継者が不足し、存続が危ぶまれる技術が増加（　　）。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "しつつある"
+      },
+      {
+        "id": "B",
+        "text": "したきりだ"
+      },
+      {
+        "id": "C",
+        "text": "しっこない"
+      },
+      {
+        "id": "D",
+        "text": "しがたい"
+      }
+    ]
+  }
+]

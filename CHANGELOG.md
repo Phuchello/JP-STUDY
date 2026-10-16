@@ -1,5 +1,26 @@
 # Changelog
 
+## 2026-10-16 — Phase 3.7 Final QA Reconciliation, Ambiguity Repair & Controlled Pilot
+
+- **Resolution of All 6 Flagged Items & Ambiguity Elimination**:
+  - Re-engineered 6 questions flagged for distractor overlap, prepositional phrase scrambling, or movable adverbs: `N4-GR-FORM-010` (replaced ambiguous `よかったら` with morphological distractor `いいば` and concessive `よくても`), `N4-GR-STAR-002` (relative clause locking `友達に会いに`, eliminating PP scrambling), `N4-GR-STAR-006` (replaced floating adverb with locked object `お金を`), `N2-GR-FORM-003` (replaced near-synonym with explicit distractors `しっこない`/`しがたい`), `N3-GR-FORM-006` (replaced causal overlap `わけ` with subjective modal `つもり`), and `N3-GR-STAR-001` (replaced floating quantifier with prerequisite clause `意欲があれば`).
+  - Saved full item mutation before/after snapshots in `qa/flagged_questions_diff.json`.
+- **Independent Blind Review of Repaired Items**:
+  - Generated keyless, explanation-free blind test file `qa/blind_review_repaired_6.json`.
+  - Dispatched independent subagent `subagent:jlpt-blind-reviewer` (`cbfb8289-5e9d-4efa-84e7-d2710a0d4843`) to solve the 6 repaired items.
+  - Achieved 100% agreement (6/6) with HIGH confidence, 0 alternative defensible answers (`[]`), and 0 concerns (`null`). Raw output saved in `qa/raw_blind_review_repaired_6.json`.
+- **Dynamic Star (★) Question Verification**:
+  - Replaced hardcoded star counts with dynamic source-of-truth scanner verifying exactly 16 star questions in bank (N4: 6, N3: 6, N2: 4).
+  - Verified 100% compliance: 4 choices, star at slot 3, coherent assembled sentence, exactly 1 syntactically valid permutation. Regenerated `qa/BLIND_REVIEW_RECONCILIATION_REPORT.md`.
+- **Canonical Release States & Controlled Pilot Protocol**:
+  - Standardized practice set lifecycle in `curriculum/PRACTICE_SETS.json`: 20 sets set to canonical `readinessStatus: QA_PASSED_NOT_DEPLOYED` (`SPEC_ONLY`), 3 full mocks set to `NOT_READY`.
+  - Controlled pilot audit confirmed no active Google Workspace / Apps Script browser session; halted safely at verified code/data checkpoint.
+  - Honestly reported 0 new live Forms deployed and 0 fabricated links. 100% preservation of all 3 live P0 Forms (`W01-B01`, `W01-B02`, `W01-B03`).
+- **Integration Test Hardening (12 Mutation Test Cases)**:
+  - Upgraded `scripts/tests/test_qa_adversarial_mutations.py` to 12 integration tests directly calling production QA gate functions (schema, cyclic ABCD, answer balance, invalid star syntax, alternative defensible answers, low reviewer confidence, stem duplicates, empty explanation, duplicate option texts, answer key out of bounds, missing star field, non-unique star permutations). All 12/12 pass.
+- **Answer Key Distribution Preserved**:
+  - Global balance preserved across 120 items: A: 33 (27.5%), B: 30 (25.0%), C: 29 (24.2%), D: 28 (23.3%). 0 periodic patterns, max consecutive identical key run of 3.
+
 ## 2026-10-15 — Phase 3.7 Independent QA Recovery, Blind Subagent Re-evaluation & Adversarial Mutation Testing
 
 - **Elimination of Fake Lookup Solver & Hardcoded Claims**:

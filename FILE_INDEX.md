@@ -152,6 +152,7 @@ Snapshot 2026-10-15. VERIFIED is scoped verification, not JLPT certification. Hi
 | [qa/blind_review_n2.json](qa/blind_review_n2.json) | VERIFIED |
 | [qa/blind_review_n3.json](qa/blind_review_n3.json) | VERIFIED |
 | [qa/blind_review_n4.json](qa/blind_review_n4.json) | VERIFIED |
+| [qa/blind_review_repaired_6.json](qa/blind_review_repaired_6.json) | VERIFIED |
 | [qa/current/browser_tests.json](qa/current/browser_tests.json) | VERIFIED |
 | [qa/current/edge_flow_tests.json](qa/current/edge_flow_tests.json) | VERIFIED |
 | [qa/current/engine_tests.json](qa/current/engine_tests.json) | VERIFIED |
@@ -161,6 +162,7 @@ Snapshot 2026-10-15. VERIFIED is scoped verification, not JLPT certification. Hi
 | [qa/drive_first_pdfs.json](qa/drive_first_pdfs.json) | VERIFIED |
 | [qa/drive_first_tests.json](qa/drive_first_tests.json) | VERIFIED |
 | [qa/file_status.json](qa/file_status.json) | VERIFIED |
+| [qa/flagged_questions_diff.json](qa/flagged_questions_diff.json) | VERIFIED |
 | [qa/historical/jlpt-2026/final_validation.json](qa/historical/jlpt-2026/final_validation.json) | VERIFIED |
 | [qa/historical/jlpt-2026/tracker_validation.json](qa/historical/jlpt-2026/tracker_validation.json) | VERIFIED |
 | [qa/historical/jlpt-v2/final_audit.json](qa/historical/jlpt-v2/final_audit.json) | VERIFIED |
@@ -195,6 +197,7 @@ Snapshot 2026-10-15. VERIFIED is scoped verification, not JLPT certification. Hi
 | [qa/raw_blind_review_n2.json](qa/raw_blind_review_n2.json) | VERIFIED |
 | [qa/raw_blind_review_n3.json](qa/raw_blind_review_n3.json) | VERIFIED |
 | [qa/raw_blind_review_n4.json](qa/raw_blind_review_n4.json) | VERIFIED |
+| [qa/raw_blind_review_repaired_6.json](qa/raw_blind_review_repaired_6.json) | VERIFIED |
 | [qa/source_inventory.json](qa/source_inventory.json) | VERIFIED |
 | [question-bank/answer-keys/README.md](question-bank/answer-keys/README.md) | VERIFIED |
 | [question-bank/n4/README.md](question-bank/n4/README.md) | VERIFIED |
@@ -205,6 +208,7 @@ Snapshot 2026-10-15. VERIFIED is scoped verification, not JLPT certification. Hi
 | [research/search_coverage.json](research/search_coverage.json) | VERIFIED |
 | [scripts/README.md](scripts/README.md) | VERIFIED |
 | [scripts/build_start_here.py](scripts/build_start_here.py) | VERIFIED |
+| [scripts/curriculum/apply_six_repairs.py](scripts/curriculum/apply_six_repairs.py) | VERIFIED |
 | [scripts/curriculum/apply_stop_ship.py](scripts/curriculum/apply_stop_ship.py) | VERIFIED |
 | [scripts/curriculum/audit_all_items.py](scripts/curriculum/audit_all_items.py) | VERIFIED |
 | [scripts/curriculum/build_expanded_bank.py](scripts/curriculum/build_expanded_bank.py) | VERIFIED |

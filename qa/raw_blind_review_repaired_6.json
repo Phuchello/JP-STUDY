@@ -1,0 +1,50 @@
+[
+  {
+    "id": "N4-GR-FORM-010",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "In Japanese conditional constructions, the i-adjective 「いい」 conjugates conditionally from the root 「よ-」 as 「よければ」 ('if it is good'). Distractor B (「いいば」) is an ungrammatical, non-existent morphological form. Option C (「よくて」) expresses cause or sequential connection and cannot be used before a volitional invitation like 「〜ましょう」, especially referring to a future condition (「明日は」). Option D (「よくても」) expresses concession ('even if it is good'), which makes no sense before inviting someone to go swimming.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N4-GR-STAR-002",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "The correct syntactic ordering is: 「来年の夏休みには、北海道に (B) 住んでいる (C) ★友達に (D) 会いに (A) 行く予定です。」 The relative clause 「北海道に住んでいる」 modifies the noun 「友達」, which takes the particle 「に」 indicating the person to meet (「友達に会いに」), followed by the motion-purpose construction 「会いにいく」. Thus, the third position (★) is occupied by option D (「友達に」).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N4-GR-STAR-006",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The coherent grammatical sentence is: 「将来自分の店を 持つ (B) ために (D) ★お金を (A) ためようと (C) 一生懸命働いています。」 The clause 「店を持つために」 expresses the long-term objective ('in order to own one's shop'), while 「お金をためようと」 expresses the speaker's volitional intention ('aiming to save money') modifying the action 「一生懸命働いています」. Thus, the third position (★) is occupied by option A (「お金を」).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-GR-FORM-006",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「〜はずだ」 expresses reasoned expectation or logical deduction ('must be / should be') based on objective premise or known evidence (「昨日遅くまで残業していたから」). In contrast, 「ことだ」 expresses indirect advice/rules or emotional exclamation; 「つもりだ」 expresses subjective personal intention or belief, which cannot logically describe another person's involuntary physical exhaustion based on past overtime; and 「ものだ」 expresses universal truths, inherent characteristics, or nostalgic reflection.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N3-GR-STAR-001",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The coherent grammatical sentence is: 「年齢や経験の 有無に (B) かかわらず (D) ★意欲が (A) あれば (C) 誰でも応募できます。」 The established formal compound pattern 「〜の有無にかかわらず」 ('regardless of whether one has ~') naturally connects with the prerequisite conditional clause 「意欲があれば」 ('as long as one has motivation'). Therefore, the third position (★) is occupied by option A (「意欲が」).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-GR-FORM-003",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The formal N2 pattern 「〜つつある」 attaches to verb masu-stems (「増加し」) to signify an ongoing process of change ('is in the process of increasing / is increasing'). It is standard in formal expository writing describing social and statistical trends. Distractor B (「したきりだ」) indicates a single completed occurrence with no subsequent change; C (「しっこない」) is an informal colloquial pattern denoting strong subjective impossibility; D (「しがたい」) denotes psychological difficulty ('hard to do') and does not collocate with impersonal statistical trends like 「増加」.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  }
+]
