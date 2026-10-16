@@ -1,8 +1,8 @@
 {
   "snapshotDate": "2026-10-15",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
-  "fileCountExcludingManifest": 230,
-  "totalBytesExcludingManifest": 5396666,
+  "fileCountExcludingManifest": 240,
+  "totalBytesExcludingManifest": 5809415,
   "files": [
     {
       "path": ".gitattributes",
@@ -450,8 +450,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 16372,
-      "sha256": "22055178c3ba9aaa307af2fb3993c57aa9bbaf1954c136c0fcbdbc643f7ca20b",
+      "bytes": 19281,
+      "sha256": "63e5be243cb05070142b09c4db3aa26dbce8250e883fba605a78635478d1c70f",
       "status": "VERIFIED"
     },
     {
@@ -480,14 +480,14 @@
     },
     {
       "path": "curriculum/PRACTICE_SETS.json",
-      "bytes": 37319,
-      "sha256": "d7910c64930c44100c33993e3e7952a92f9483b5811028ac75b7a2d2f428d7a4",
+      "bytes": 33679,
+      "sha256": "dc8bfb42b30924c057fd2c87631a9cfb58953083eb25db9b12ccdd7a900ef2b3",
       "status": "VERIFIED"
     },
     {
       "path": "curriculum/QUESTION_BANK_EXPANDED.json",
-      "bytes": 282325,
-      "sha256": "8d47e12c736e29766686c61a08534d1fad1d0fec069ee712771313f8e6fea1a5",
+      "bytes": 265211,
+      "sha256": "e4ac8ff162230103cd79f7a4c2b65c9f3fe80c9c3bf9ff9a83bda06e97a52b72",
       "status": "VERIFIED"
     },
     {
@@ -762,8 +762,8 @@
     },
     {
       "path": "FILE_INDEX.md",
-      "bytes": 22647,
-      "sha256": "7f7054035461d9e56bfdaf1df5591e118f85ce805954994bad415fcdb84f0fb1",
+      "bytes": 23605,
+      "sha256": "383ad8fd3d3cf5214c1e8d003b910f3da49480dddfa3ad4fbbf70c11b803b257",
       "status": "VERIFIED"
     },
     {
@@ -792,8 +792,8 @@
     },
     {
       "path": "PROJECT_STATUS.md",
-      "bytes": 10116,
-      "sha256": "e1a68b721607eb7882202477a78ca7a56d2dd020ecfa7e5446ba07384f515080",
+      "bytes": 12083,
+      "sha256": "7d6d004b2c8c47fb7751f022c46744b2b8319c929cf4370330f4a1d88a0cd647",
       "status": "VERIFIED"
     },
     {
@@ -805,37 +805,43 @@
     {
       "path": "qa/blind_review_dataset.json",
       "bytes": 77334,
-      "sha256": "c9ea80b05d36210eea8b4a3c3ba001618487eed29a48d67e6625b8ae6d6e23c0",
+      "sha256": "b4147f959a48bf405ee365b9d984d598af8ec4ffac867cfaa51a77a977c3b990",
       "status": "VERIFIED"
     },
     {
       "path": "qa/blind_review_n2.json",
-      "bytes": 18908,
-      "sha256": "08f30a9e487e684cf3864fdc9423818e49278f42162c014fc195709a29d76ad7",
+      "bytes": 18126,
+      "sha256": "9797fb4af47bc0e6c1f3ee7fa5e7af5c3db8ff343bf37613c0c9735e3d3ec18d",
       "status": "VERIFIED"
     },
     {
       "path": "qa/blind_review_n3.json",
-      "bytes": 34194,
-      "sha256": "d655c63e25ff1e16950016c56a27f76514459622e83415e05db81a00b5617d7b",
+      "bytes": 32892,
+      "sha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
       "status": "VERIFIED"
     },
     {
       "path": "qa/blind_review_n4.json",
-      "bytes": 24242,
-      "sha256": "602119275e8b4a47fbf1c705d8ac6d9b8ff3ca2144363ab7f27214b4cd386dc2",
+      "bytes": 23200,
+      "sha256": "45edd284a70fa52217b38c0196a4f44da5b745b7cce29654e909887a5d26867d",
       "status": "VERIFIED"
     },
     {
       "path": "qa/BLIND_REVIEW_RECONCILIATION_REPORT.md",
       "bytes": 7543,
-      "sha256": "d7e21100d39a8db880880fc019d4fb26eff31fa3867ba7c7a4ac4d587a8f04fa",
+      "sha256": "186a43311867f602f08d266dc1279f3f77d9e154ede9c18d29118149b64376ed",
       "status": "VERIFIED"
     },
     {
       "path": "qa/blind_review_repaired_6.json",
       "bytes": 3327,
       "sha256": "0df362a545946ed353d53e3878a2143a08ec74db9a81a4ed69193057c0a4c809",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/CONTENT_FINGERPRINT_MANIFEST.json",
+      "bytes": 185515,
+      "sha256": "cdf24e3bd715e90d7f52fd10a7125970786a018480553d4398e929a654121697",
       "status": "VERIFIED"
     },
     {
@@ -888,8 +894,8 @@
     },
     {
       "path": "qa/file_status.json",
-      "bytes": 12937,
-      "sha256": "b76b1d321776f8f89d246ed0b3f0a2269e5d258a4bee74bcd109621941d16582",
+      "bytes": 13737,
+      "sha256": "967f4df98da317e6366edcaaa99858855b51f5641738672ae269c581d8f90ebd",
       "status": "VERIFIED"
     },
     {
@@ -1085,6 +1091,12 @@
       "status": "VERIFIED"
     },
     {
+      "path": "qa/PRACTICE_RELEASE_GATE.md",
+      "bytes": 7137,
+      "sha256": "84f742fd0ee985683c95acc6ac87a9b3eef4a5fe26cd1074f8b0d26563dd54a9",
+      "status": "VERIFIED"
+    },
+    {
       "path": "qa/PUBLICATION_QA.md",
       "bytes": 3653,
       "sha256": "2e216cb242f0d07128783ee8f02663b9e4ac867b0c157fc67de57941ae23fe1e",
@@ -1092,14 +1104,14 @@
     },
     {
       "path": "qa/QUESTION_BANK_QA.md",
-      "bytes": 6175,
-      "sha256": "33381e12017f7bec3b10638ba1c163ea48023aa67ef900ee44e4ac407a56a777",
+      "bytes": 6874,
+      "sha256": "fd55b18609274e401c3823a21320c4b0809ed5ae887f74bb359096ec124a901f",
       "status": "VERIFIED"
     },
     {
       "path": "qa/QUESTION_REVIEW_LEDGER.csv",
       "bytes": 22355,
-      "sha256": "615f542a69ca8f683183d81c855c9603e762417472c3574f3e0e0a57fe6029ee",
+      "sha256": "8761f6bb48162b27827066cc0ab678d60090f32ca5582c0567f457382d97cce5",
       "status": "VERIFIED"
     },
     {
@@ -1139,9 +1151,27 @@
       "status": "VERIFIED"
     },
     {
+      "path": "qa/REPRODUCIBILITY_AUDIT.md",
+      "bytes": 5210,
+      "sha256": "13aa99ba03ff547543bb9b850c55940e30490e3dd4684774f24fd589af412c67",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/REVIEW_PROVENANCE_AUDIT.md",
+      "bytes": 8707,
+      "sha256": "8582d9f8a346af8e1db95416b6efe307c8b631045504ccb0cf8fedb0f512d359",
+      "status": "VERIFIED"
+    },
+    {
       "path": "qa/source_inventory.json",
       "bytes": 124988,
       "sha256": "d320435f5956678406985f6a85efde2b9cb381fdfcb157ad3005a697c4508209",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/STAR_PERMUTATION_AUDIT.md",
+      "bytes": 167430,
+      "sha256": "b7e691421ea8d8b4a6e8545ed5413ce011925fc8a71a9247687d5c545213ccc1",
       "status": "VERIFIED"
     },
     {
@@ -1235,6 +1265,12 @@
       "status": "VERIFIED"
     },
     {
+      "path": "scripts/curriculum/audit_star_permutations.py",
+      "bytes": 16557,
+      "sha256": "df8167fb843558c6ddbca97a96e3526db8b4f52ad7cdcefb61d71f98060dad7e",
+      "status": "VERIFIED"
+    },
+    {
       "path": "scripts/curriculum/build_expanded_bank.py",
       "bytes": 560,
       "sha256": "7ba1363abffd212b81fc0b965ddcd1c7457ead4349f661457fc3d15b170390e9",
@@ -1247,6 +1283,24 @@
       "status": "VERIFIED"
     },
     {
+      "path": "scripts/curriculum/build_provenance_manifest.py",
+      "bytes": 13174,
+      "sha256": "63b965eca499af5de7fd1b1dc94c3c2392353fcb22b500d12902464abe4aa45f",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "scripts/curriculum/content_fingerprint.py",
+      "bytes": 2070,
+      "sha256": "ddc6bdc123f5c65f3ab6ebdd300752dc8d0e0637fc9225917b9d3377e88b56d0",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "scripts/curriculum/generate_practice_release_gate.py",
+      "bytes": 7024,
+      "sha256": "7c823a25e7001fff2a6060366ed892c71ffda8d016cf8fb768fc1b77c6ff226d",
+      "status": "VERIFIED"
+    },
+    {
       "path": "scripts/curriculum/inspect_category.py",
       "bytes": 812,
       "sha256": "07e98e94e8417dc8d4b951bf9f65d00ebac5e64bacfd74bcdeb2ae673b077e68",
@@ -1254,20 +1308,26 @@
     },
     {
       "path": "scripts/curriculum/rebuild_and_repair_bank.py",
-      "bytes": 138016,
-      "sha256": "eb654fa4f0a21225719609b1bb0903ae59ddf3678dba3edbd2c3dc3f1216d83c",
+      "bytes": 131053,
+      "sha256": "9d7675120302a65129ad41656f6bde8c8ca67e8bb9e9ae9a2a1941dddd02fd13",
       "status": "VERIFIED"
     },
     {
       "path": "scripts/curriculum/reconcile_blind_review.py",
-      "bytes": 27920,
-      "sha256": "c0bd63317f1e1fd7c9cf82f6b0aa1381160fbfa37c3a18aa55318e1a09e4ede9",
+      "bytes": 31477,
+      "sha256": "3ba5f9bcab0e822fdc9c25614ec295219ddc03ec830b59ee01e2b21126640d68",
       "status": "VERIFIED"
     },
     {
       "path": "scripts/curriculum/show_stars.py",
       "bytes": 481,
       "sha256": "c66147d396d408eea8ce7abe3883a755008c153facb1c93b053d7de3ef145a52",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "scripts/curriculum/verify_rebuild_invariance.py",
+      "bytes": 14589,
+      "sha256": "80ccfd4424605e8be44cbb7450655877401ed38a69d6e762d5969c845c457e85",
       "status": "VERIFIED"
     },
     {
@@ -1344,8 +1404,8 @@
     },
     {
       "path": "scripts/tests/test_qa_adversarial_mutations.py",
-      "bytes": 10587,
-      "sha256": "63ddc8bed98b8e0e724c7c19a5ec3ae1d3d63a029c4ce79be0bc8fa858ac5039",
+      "bytes": 15876,
+      "sha256": "f02a0edbb2242b471721f1c897b30e59b4030e7579bfdb67e9c1f0671cdca8ec",
       "status": "VERIFIED"
     },
     {

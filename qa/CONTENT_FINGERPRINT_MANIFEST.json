@@ -1,0 +1,3523 @@
+{
+  "manifestVersion": "phase3.7-cryptographic-provenance-v1",
+  "snapshotTimestamp": "2026-10-16T08:04:32.330215+00:00",
+  "totalQuestions": 120,
+  "cryptographicallyVerifiedCount": 120,
+  "fingerprintMismatchCount": 0,
+  "executionBatches": {
+    "N4": {
+      "batchId": "batch-20261015-n4",
+      "conversationId": "5a240741-f93f-4017-9630-8489f8d96fce",
+      "inputFile": "qa/blind_review_n4.json",
+      "outputFile": "qa/raw_blind_review_n4.json",
+      "reviewer": "subagent:jlpt-blind-reviewer",
+      "promptScope": "40 N4 items blind solved purely from Japanese syntax, semantics, and context"
+    },
+    "N3": {
+      "batchId": "batch-20261015-n3",
+      "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+      "inputFile": "qa/blind_review_n3.json",
+      "outputFile": "qa/raw_blind_review_n3.json",
+      "reviewer": "subagent:jlpt-blind-reviewer",
+      "promptScope": "50 N3 items blind solved purely from Japanese syntax, semantics, and context"
+    },
+    "N2": {
+      "batchId": "batch-20261015-n2",
+      "conversationId": "cacea4de-bfec-4b55-8f7c-7b2ac7296430",
+      "inputFile": "qa/blind_review_n2.json",
+      "outputFile": "qa/raw_blind_review_n2.json",
+      "reviewer": "subagent:jlpt-blind-reviewer",
+      "promptScope": "30 N2 items blind solved purely from Japanese syntax, semantics, and context"
+    },
+    "REPAIRED_6": {
+      "batchId": "batch-20261016-repaired-6",
+      "conversationId": "cbfb8289-5e9d-4efa-84e7-d2710a0d4843",
+      "inputFile": "qa/blind_review_repaired_6.json",
+      "outputFile": "qa/raw_blind_review_repaired_6.json",
+      "reviewer": "subagent:jlpt-blind-reviewer",
+      "promptScope": "6 repaired items blind solved following ambiguity remediation without author keys"
+    }
+  },
+  "items": [
+    {
+      "id": "N4-MO-READ-001",
+      "level": "N4",
+      "skill": "Vocabulary",
+      "typeId": "N4-MO-READ",
+      "contentFingerprint": "cc881c5550597e05365b661f866694e296f6f88f497cce4a1ce6a38e8cd916d8",
+      "authorAnswer": "C",
+      "blindAnswer": "C",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n4.json",
+        "fileSha256": "45edd284a70fa52217b38c0196a4f44da5b745b7cce29654e909887a5d26867d",
+        "itemFingerprintInDataset": "cc881c5550597e05365b661f866694e296f6f88f497cce4a1ce6a38e8cd916d8",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n4",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "5a240741-f93f-4017-9630-8489f8d96fce",
+        "rawOutputFile": "qa/raw_blind_review_n4.json",
+        "outputFileSha256": "bec76912b721b1a3fb52912c639613e5e071e75616d6d98efa6676016e36214d",
+        "linguisticJustification": "The kanji compound 『案内』 consists of 案 (あん) and 内 (ない), pronounced 『あんない』 (guidance, showing around). Option C represents the exact correct reading."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N4-MO-READ-002",
+      "level": "N4",
+      "skill": "Vocabulary",
+      "typeId": "N4-MO-READ",
+      "contentFingerprint": "26a6f1927299da5095ec653e4678f05bbd377c9d03e5fc79be18888789cdf084",
+      "authorAnswer": "D",
+      "blindAnswer": "D",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n4.json",
+        "fileSha256": "45edd284a70fa52217b38c0196a4f44da5b745b7cce29654e909887a5d26867d",
+        "itemFingerprintInDataset": "26a6f1927299da5095ec653e4678f05bbd377c9d03e5fc79be18888789cdf084",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n4",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "5a240741-f93f-4017-9630-8489f8d96fce",
+        "rawOutputFile": "qa/raw_blind_review_n4.json",
+        "outputFileSha256": "bec76912b721b1a3fb52912c639613e5e071e75616d6d98efa6676016e36214d",
+        "linguisticJustification": "The verb 『貸す』 (to lend) conjugated into the polite past form 『貸しました』 is read 『かしました』. Option D is the exact correct phonetic reading."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N4-MO-READ-003",
+      "level": "N4",
+      "skill": "Vocabulary",
+      "typeId": "N4-MO-READ",
+      "contentFingerprint": "2500a86b47bebec9d66654171dd3ac42962b0d65b23728197fa74fb3bd237d41",
+      "authorAnswer": "B",
+      "blindAnswer": "B",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n4.json",
+        "fileSha256": "45edd284a70fa52217b38c0196a4f44da5b745b7cce29654e909887a5d26867d",
+        "itemFingerprintInDataset": "2500a86b47bebec9d66654171dd3ac42962b0d65b23728197fa74fb3bd237d41",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n4",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "5a240741-f93f-4017-9630-8489f8d96fce",
+        "rawOutputFile": "qa/raw_blind_review_n4.json",
+        "outputFileSha256": "bec76912b721b1a3fb52912c639613e5e071e75616d6d98efa6676016e36214d",
+        "linguisticJustification": "The noun 『計画』 (plan/planning) is composed of 計 (けい) and 画 (かく), pronounced 『けいかく』. Option B is the standard on'yomi reading."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N4-MO-READ-004",
+      "level": "N4",
+      "skill": "Vocabulary",
+      "typeId": "N4-MO-READ",
+      "contentFingerprint": "8e3132414d3b2d1956fe77322f1c8f020bad2653e91003bb9bd90461a3932f95",
+      "authorAnswer": "C",
+      "blindAnswer": "C",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n4.json",
+        "fileSha256": "45edd284a70fa52217b38c0196a4f44da5b745b7cce29654e909887a5d26867d",
+        "itemFingerprintInDataset": "8e3132414d3b2d1956fe77322f1c8f020bad2653e91003bb9bd90461a3932f95",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n4",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "5a240741-f93f-4017-9630-8489f8d96fce",
+        "rawOutputFile": "qa/raw_blind_review_n4.json",
+        "outputFileSha256": "bec76912b721b1a3fb52912c639613e5e071e75616d6d98efa6676016e36214d",
+        "linguisticJustification": "The verb 『拾う』 (to pick up, find) in polite past form 『拾いました』 is read 『ひろいました』. Option C is the correct reading."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N4-MO-READ-005",
+      "level": "N4",
+      "skill": "Vocabulary",
+      "typeId": "N4-MO-READ",
+      "contentFingerprint": "b7987ff4723b9eb8beed067aad6c21cce33a0ee408346735e8a51aa9c43fe10d",
+      "authorAnswer": "C",
+      "blindAnswer": "C",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n4.json",
+        "fileSha256": "45edd284a70fa52217b38c0196a4f44da5b745b7cce29654e909887a5d26867d",
+        "itemFingerprintInDataset": "b7987ff4723b9eb8beed067aad6c21cce33a0ee408346735e8a51aa9c43fe10d",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n4",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "5a240741-f93f-4017-9630-8489f8d96fce",
+        "rawOutputFile": "qa/raw_blind_review_n4.json",
+        "outputFileSha256": "bec76912b721b1a3fb52912c639613e5e071e75616d6d98efa6676016e36214d",
+        "linguisticJustification": "The noun 『質問』 (question) is composed of 質 (しつ) and 問 (もん), pronounced 『しつもん』. Option C is the correct reading."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N4-MO-READ-006",
+      "level": "N4",
+      "skill": "Vocabulary",
+      "typeId": "N4-MO-READ",
+      "contentFingerprint": "4d1a5e6e60a64b009352b02e7223ca1fd9c147848031e3c4cf3dead729b31177",
+      "authorAnswer": "B",
+      "blindAnswer": "B",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n4.json",
+        "fileSha256": "45edd284a70fa52217b38c0196a4f44da5b745b7cce29654e909887a5d26867d",
+        "itemFingerprintInDataset": "4d1a5e6e60a64b009352b02e7223ca1fd9c147848031e3c4cf3dead729b31177",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n4",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "5a240741-f93f-4017-9630-8489f8d96fce",
+        "rawOutputFile": "qa/raw_blind_review_n4.json",
+        "outputFileSha256": "bec76912b721b1a3fb52912c639613e5e071e75616d6d98efa6676016e36214d",
+        "linguisticJustification": "The verb 『送る』 (to send) in polite past form 『送りました』 is read 『おくりました』. Option B is the correct reading."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N4-MO-READ-007",
+      "level": "N4",
+      "skill": "Vocabulary",
+      "typeId": "N4-MO-READ",
+      "contentFingerprint": "972c714737b34fd3bf75bc11dd46f3022f0cc3fc7223064ebd0911a8025040a9",
+      "authorAnswer": "A",
+      "blindAnswer": "A",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n4.json",
+        "fileSha256": "45edd284a70fa52217b38c0196a4f44da5b745b7cce29654e909887a5d26867d",
+        "itemFingerprintInDataset": "972c714737b34fd3bf75bc11dd46f3022f0cc3fc7223064ebd0911a8025040a9",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n4",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "5a240741-f93f-4017-9630-8489f8d96fce",
+        "rawOutputFile": "qa/raw_blind_review_n4.json",
+        "outputFileSha256": "bec76912b721b1a3fb52912c639613e5e071e75616d6d98efa6676016e36214d",
+        "linguisticJustification": "The noun 『道具』 (tool, instrument) consists of 道 (どう) and 具 (ぐ), both voiced (dakuon), read 『どうぐ』. Option A is the correct reading."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N4-MO-READ-008",
+      "level": "N4",
+      "skill": "Vocabulary",
+      "typeId": "N4-MO-READ",
+      "contentFingerprint": "9724aef1b96eb8f3812150e192dafae0c22585a502b7b7daba1561d100ad42d3",
+      "authorAnswer": "A",
+      "blindAnswer": "A",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n4.json",
+        "fileSha256": "45edd284a70fa52217b38c0196a4f44da5b745b7cce29654e909887a5d26867d",
+        "itemFingerprintInDataset": "9724aef1b96eb8f3812150e192dafae0c22585a502b7b7daba1561d100ad42d3",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n4",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "5a240741-f93f-4017-9630-8489f8d96fce",
+        "rawOutputFile": "qa/raw_blind_review_n4.json",
+        "outputFileSha256": "bec76912b721b1a3fb52912c639613e5e071e75616d6d98efa6676016e36214d",
+        "linguisticJustification": "The na-adjective/noun 『特別』 (special) consists of 特 (とく) and 別 (べつ), read 『とくべつ』. Option A is the correct reading."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N4-MO-CONT-001",
+      "level": "N4",
+      "skill": "Vocabulary",
+      "typeId": "N4-MO-CONT",
+      "contentFingerprint": "c43a76e1f177952c36110fec04233c700b88f3a6b6670f19f8804cc7b782cd57",
+      "authorAnswer": "C",
+      "blindAnswer": "C",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n4.json",
+        "fileSha256": "45edd284a70fa52217b38c0196a4f44da5b745b7cce29654e909887a5d26867d",
+        "itemFingerprintInDataset": "c43a76e1f177952c36110fec04233c700b88f3a6b6670f19f8804cc7b782cd57",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n4",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "5a240741-f93f-4017-9630-8489f8d96fce",
+        "rawOutputFile": "qa/raw_blind_review_n4.json",
+        "outputFileSha256": "bec76912b721b1a3fb52912c639613e5e071e75616d6d98efa6676016e36214d",
+        "linguisticJustification": "The fixed polite set phrase 『どうぞ遠慮なくお召し上がりください』 uses 『遠慮なく』 (えんりょなく) meaning 'without hesitation / without standing on ceremony / please help yourself'. None of the other options collocate with 『〜なくお召し上がりください』."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N4-MO-CONT-002",
+      "level": "N4",
+      "skill": "Vocabulary",
+      "typeId": "N4-MO-CONT",
+      "contentFingerprint": "e7e272cc8ce7899a702a6980e305514d00ae103c95bffbbf36f0911cd7c23fa2",
+      "authorAnswer": "B",
+      "blindAnswer": "B",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n4.json",
+        "fileSha256": "45edd284a70fa52217b38c0196a4f44da5b745b7cce29654e909887a5d26867d",
+        "itemFingerprintInDataset": "e7e272cc8ce7899a702a6980e305514d00ae103c95bffbbf36f0911cd7c23fa2",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n4",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "5a240741-f93f-4017-9630-8489f8d96fce",
+        "rawOutputFile": "qa/raw_blind_review_n4.json",
+        "outputFileSha256": "bec76912b721b1a3fb52912c639613e5e071e75616d6d98efa6676016e36214d",
+        "linguisticJustification": "The collocation 『〜に間に合う』 means to be in time for something. Paired with the cause 『急いで走ったので』 (because I ran fast), the natural outcome is making the train's departure: 『電車の発車時刻に間に合いました』 (Option B)."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N4-MO-CONT-003",
+      "level": "N4",
+      "skill": "Vocabulary",
+      "typeId": "N4-MO-CONT",
+      "contentFingerprint": "981d0a8c04bf8ad6869abba5ee12090daa630f4843307f585ca0451f8cda4ba1",
+      "authorAnswer": "D",
+      "blindAnswer": "D",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n4.json",
+        "fileSha256": "45edd284a70fa52217b38c0196a4f44da5b745b7cce29654e909887a5d26867d",
+        "itemFingerprintInDataset": "981d0a8c04bf8ad6869abba5ee12090daa630f4843307f585ca0451f8cda4ba1",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n4",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "5a240741-f93f-4017-9630-8489f8d96fce",
+        "rawOutputFile": "qa/raw_blind_review_n4.json",
+        "outputFileSha256": "bec76912b721b1a3fb52912c639613e5e071e75616d6d98efa6676016e36214d",
+        "linguisticJustification": "The adverb 『はっきり』 means 'clearly / distinctly'. In the context of speaking so that people in the back rows can hear, 『はっきり大きな声で話してください』 (Option D) is the appropriate adverbial modifier for clarity of speech."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N4-MO-CONT-004",
+      "level": "N4",
+      "skill": "Vocabulary",
+      "typeId": "N4-MO-CONT",
+      "contentFingerprint": "27130de8433791110a08e8a8ff24e657db2237145bc1a51473214f353274b8fd",
+      "authorAnswer": "D",
+      "blindAnswer": "D",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n4.json",
+        "fileSha256": "45edd284a70fa52217b38c0196a4f44da5b745b7cce29654e909887a5d26867d",
+        "itemFingerprintInDataset": "27130de8433791110a08e8a8ff24e657db2237145bc1a51473214f353274b8fd",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n4",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "5a240741-f93f-4017-9630-8489f8d96fce",
+        "rawOutputFile": "qa/raw_blind_review_n4.json",
+        "outputFileSha256": "bec76912b721b1a3fb52912c639613e5e071e75616d6d98efa6676016e36214d",
+        "linguisticJustification": "The noun 『故障』 (こしょう) refers to mechanical breakdown/malfunction. Combined with the verb phrase 『〜して動かないので、修理を頼みました』 (broke down and does not run, so I requested a repair), 『故障して』 (Option D) is the exact technical and semantic fit."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N4-MO-CONT-005",
+      "level": "N4",
+      "skill": "Vocabulary",
+      "typeId": "N4-MO-CONT",
+      "contentFingerprint": "2cfc38b798dce220a936c9535197b6f920352ef0e3b9eff19e1a7781671272f2",
+      "authorAnswer": "A",
+      "blindAnswer": "A",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n4.json",
+        "fileSha256": "45edd284a70fa52217b38c0196a4f44da5b745b7cce29654e909887a5d26867d",
+        "itemFingerprintInDataset": "2cfc38b798dce220a936c9535197b6f920352ef0e3b9eff19e1a7781671272f2",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n4",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "5a240741-f93f-4017-9630-8489f8d96fce",
+        "rawOutputFile": "qa/raw_blind_review_n4.json",
+        "outputFileSha256": "bec76912b721b1a3fb52912c639613e5e071e75616d6d98efa6676016e36214d",
+        "linguisticJustification": "The onomatopoeic adverb 『すっかり』 signifies 'completely / entirely' when modifying the disappearance of illness or pain: 『頭の痛みがすっかり消えました』 (the headache completely disappeared). None of the other adverbs collocate with pain relief."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N4-MO-CONT-006",
+      "level": "N4",
+      "skill": "Vocabulary",
+      "typeId": "N4-MO-CONT",
+      "contentFingerprint": "02c367b786a12d652dd28bb8fc9b9f2bc4b3e2b6503d96a78363590d49df24f3",
+      "authorAnswer": "C",
+      "blindAnswer": "C",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n4.json",
+        "fileSha256": "45edd284a70fa52217b38c0196a4f44da5b745b7cce29654e909887a5d26867d",
+        "itemFingerprintInDataset": "02c367b786a12d652dd28bb8fc9b9f2bc4b3e2b6503d96a78363590d49df24f3",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n4",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "5a240741-f93f-4017-9630-8489f8d96fce",
+        "rawOutputFile": "qa/raw_blind_review_n4.json",
+        "outputFileSha256": "bec76912b721b1a3fb52912c639613e5e071e75616d6d98efa6676016e36214d",
+        "linguisticJustification": "The clause 『説明書を読んでもよくわかりません』 (even after reading the manual, I don't understand well) semantically necessitates an adjective meaning complicated or intricate: 『複雑』 (ふくざつ, Option C)."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N4-MO-CONT-007",
+      "level": "N4",
+      "skill": "Vocabulary",
+      "typeId": "N4-MO-CONT",
+      "contentFingerprint": "4af2a921a55deee8aa5c94c1b8c451ffcd4d547c03d742e52d271447aa42abf6",
+      "authorAnswer": "B",
+      "blindAnswer": "B",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n4.json",
+        "fileSha256": "45edd284a70fa52217b38c0196a4f44da5b745b7cce29654e909887a5d26867d",
+        "itemFingerprintInDataset": "4af2a921a55deee8aa5c94c1b8c451ffcd4d547c03d742e52d271447aa42abf6",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n4",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "5a240741-f93f-4017-9630-8489f8d96fce",
+        "rawOutputFile": "qa/raw_blind_review_n4.json",
+        "outputFileSha256": "bec76912b721b1a3fb52912c639613e5e071e75616d6d98efa6676016e36214d",
+        "linguisticJustification": "The verb 『飾る』 (かざる) means to display or decorate. Displaying kadomatsu (New Year pine ornaments) at the entrance is idiomatic Japanese: 『門松を飾りました』 (Option B)."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N4-MO-CONT-008",
+      "level": "N4",
+      "skill": "Vocabulary",
+      "typeId": "N4-MO-CONT",
+      "contentFingerprint": "8b3e186d717fb028aef3405c71305764856d59d52b9692ec0c2367e102bba03c",
+      "authorAnswer": "A",
+      "blindAnswer": "A",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n4.json",
+        "fileSha256": "45edd284a70fa52217b38c0196a4f44da5b745b7cce29654e909887a5d26867d",
+        "itemFingerprintInDataset": "8b3e186d717fb028aef3405c71305764856d59d52b9692ec0c2367e102bba03c",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n4",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "5a240741-f93f-4017-9630-8489f8d96fce",
+        "rawOutputFile": "qa/raw_blind_review_n4.json",
+        "outputFileSha256": "bec76912b721b1a3fb52912c639613e5e071e75616d6d98efa6676016e36214d",
+        "linguisticJustification": "The idiomatic phrase 『〜の役に立つ』 / 『〜に役に立つ』 means to be useful / helpful for something: 『毎日の仕事にとても役に立ちます』 (is very useful for everyday work). Option A is the correct verb phrase."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N4-GR-FORM-001",
+      "level": "N4",
+      "skill": "Grammar",
+      "typeId": "N4-GR-FORM",
+      "contentFingerprint": "fa3b0c854f4c5133c0130d9341a26bc7b97b85139d468965316b51fc014a78e3",
+      "authorAnswer": "B",
+      "blindAnswer": "B",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n4.json",
+        "fileSha256": "45edd284a70fa52217b38c0196a4f44da5b745b7cce29654e909887a5d26867d",
+        "itemFingerprintInDataset": "fa3b0c854f4c5133c0130d9341a26bc7b97b85139d468965316b51fc014a78e3",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n4",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "5a240741-f93f-4017-9630-8489f8d96fce",
+        "rawOutputFile": "qa/raw_blind_review_n4.json",
+        "outputFileSha256": "bec76912b721b1a3fb52912c639613e5e071e75616d6d98efa6676016e36214d",
+        "linguisticJustification": "The particle 『で』 marks the physical location where an active event takes place: 『図書館で本を借りて』 (borrowing books at the library). This is further balanced by the parallel action clause 『近くの公園で読みました』."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N4-GR-FORM-002",
+      "level": "N4",
+      "skill": "Grammar",
+      "typeId": "N4-GR-FORM",
+      "contentFingerprint": "893f0795ab79cc5d8059a7bb3902bf0f13287c21237157513aae78129eda1eca",
+      "authorAnswer": "B",
+      "blindAnswer": "B",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n4.json",
+        "fileSha256": "45edd284a70fa52217b38c0196a4f44da5b745b7cce29654e909887a5d26867d",
+        "itemFingerprintInDataset": "893f0795ab79cc5d8059a7bb3902bf0f13287c21237157513aae78129eda1eca",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n4",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "5a240741-f93f-4017-9630-8489f8d96fce",
+        "rawOutputFile": "qa/raw_blind_review_n4.json",
+        "outputFileSha256": "bec76912b721b1a3fb52912c639613e5e071e75616d6d98efa6676016e36214d",
+        "linguisticJustification": "The potential construction for expressing ability is [Verb Dictionary Form] + ことができる: 『ピアノを上手にひくことができます』. Option B provides the dictionary form 『ひく』."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N4-GR-FORM-003",
+      "level": "N4",
+      "skill": "Grammar",
+      "typeId": "N4-GR-FORM",
+      "contentFingerprint": "4db34cd431e3cff7664a878108d18535fa4ec91df4a4b0ec04d76e29228b2c1c",
+      "authorAnswer": "D",
+      "blindAnswer": "D",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n4.json",
+        "fileSha256": "45edd284a70fa52217b38c0196a4f44da5b745b7cce29654e909887a5d26867d",
+        "itemFingerprintInDataset": "4db34cd431e3cff7664a878108d18535fa4ec91df4a4b0ec04d76e29228b2c1c",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n4",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "5a240741-f93f-4017-9630-8489f8d96fce",
+        "rawOutputFile": "qa/raw_blind_review_n4.json",
+        "outputFileSha256": "bec76912b721b1a3fb52912c639613e5e071e75616d6d98efa6676016e36214d",
+        "linguisticJustification": "The construction [Verb Dictionary Form] + ようにする / ようにしている expresses making a conscious effort or maintaining a regular habit: 『野菜ジュースを飲むようにしています』 (I make it a habit to drink vegetable juice). Option D is correct."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N4-GR-FORM-004",
+      "level": "N4",
+      "skill": "Grammar",
+      "typeId": "N4-GR-FORM",
+      "contentFingerprint": "9632a3c4a4ec0e3c575d34ee3c1950d93ff74acef64beb61cb9f414c71d67e2d",
+      "authorAnswer": "B",
+      "blindAnswer": "B",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n4.json",
+        "fileSha256": "45edd284a70fa52217b38c0196a4f44da5b745b7cce29654e909887a5d26867d",
+        "itemFingerprintInDataset": "9632a3c4a4ec0e3c575d34ee3c1950d93ff74acef64beb61cb9f414c71d67e2d",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n4",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "5a240741-f93f-4017-9630-8489f8d96fce",
+        "rawOutputFile": "qa/raw_blind_review_n4.json",
+        "outputFileSha256": "bec76912b721b1a3fb52912c639613e5e071e75616d6d98efa6676016e36214d",
+        "linguisticJustification": "The construction [Potential Verb] + ようになる indicates a change in state or developing an ability over time: 『食べられるようになりました』 (became able to eat). Option B is correct."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N4-GR-FORM-005",
+      "level": "N4",
+      "skill": "Grammar",
+      "typeId": "N4-GR-FORM",
+      "contentFingerprint": "43236466c9cdb092f093a3d00b03573863802c77f506677b2ab224a4c04eb58a",
+      "authorAnswer": "D",
+      "blindAnswer": "D",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n4.json",
+        "fileSha256": "45edd284a70fa52217b38c0196a4f44da5b745b7cce29654e909887a5d26867d",
+        "itemFingerprintInDataset": "43236466c9cdb092f093a3d00b03573863802c77f506677b2ab224a4c04eb58a",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n4",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "5a240741-f93f-4017-9630-8489f8d96fce",
+        "rawOutputFile": "qa/raw_blind_review_n4.json",
+        "outputFileSha256": "bec76912b721b1a3fb52912c639613e5e071e75616d6d98efa6676016e36214d",
+        "linguisticJustification": "Prohibition in Japanese is expressed by [Verb て-form] + はいけません: 『写真を撮ってはいけません』 (You must not take photographs). The て-form of とる is とって (Option D)."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N4-GR-FORM-006",
+      "level": "N4",
+      "skill": "Grammar",
+      "typeId": "N4-GR-FORM",
+      "contentFingerprint": "791e7b4a07bd247f899b680c3a0e2ac1ca0321747c940c1debfc94eb9332612a",
+      "authorAnswer": "B",
+      "blindAnswer": "B",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n4.json",
+        "fileSha256": "45edd284a70fa52217b38c0196a4f44da5b745b7cce29654e909887a5d26867d",
+        "itemFingerprintInDataset": "791e7b4a07bd247f899b680c3a0e2ac1ca0321747c940c1debfc94eb9332612a",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n4",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "5a240741-f93f-4017-9630-8489f8d96fce",
+        "rawOutputFile": "qa/raw_blind_review_n4.json",
+        "outputFileSha256": "bec76912b721b1a3fb52912c639613e5e071e75616d6d98efa6676016e36214d",
+        "linguisticJustification": "Permission to not perform an action ('do not need to') is expressed by [Verb negative て-form] + もいい: 『薬を飲まなくてもいいですよ』 (You do not have to take medicine anymore). The negative て-form of のむ is のまなくて (Option B)."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N4-GR-FORM-007",
+      "level": "N4",
+      "skill": "Grammar",
+      "typeId": "N4-GR-FORM",
+      "contentFingerprint": "464ee729dfa3da85a10bec27446fc0dba8feba567b4153bc4689913a401b91cf",
+      "authorAnswer": "A",
+      "blindAnswer": "A",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n4.json",
+        "fileSha256": "45edd284a70fa52217b38c0196a4f44da5b745b7cce29654e909887a5d26867d",
+        "itemFingerprintInDataset": "464ee729dfa3da85a10bec27446fc0dba8feba567b4153bc4689913a401b91cf",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n4",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "5a240741-f93f-4017-9630-8489f8d96fce",
+        "rawOutputFile": "qa/raw_blind_review_n4.json",
+        "outputFileSha256": "bec76912b721b1a3fb52912c639613e5e071e75616d6d98efa6676016e36214d",
+        "linguisticJustification": "The trial construction 'try doing something and see' is [Verb て-form] + みる. Combined with asking for permission: 『一口食べてみてもいいですか』 (May I try taking a bite?). Option A is the て-form 『たべて』."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N4-GR-FORM-008",
+      "level": "N4",
+      "skill": "Grammar",
+      "typeId": "N4-GR-FORM",
+      "contentFingerprint": "b651986e92aad3dfab8a41175a742caa3ea695885922d2e09cfac87f1f9ab3d7",
+      "authorAnswer": "C",
+      "blindAnswer": "C",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n4.json",
+        "fileSha256": "45edd284a70fa52217b38c0196a4f44da5b745b7cce29654e909887a5d26867d",
+        "itemFingerprintInDataset": "b651986e92aad3dfab8a41175a742caa3ea695885922d2e09cfac87f1f9ab3d7",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n4",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "5a240741-f93f-4017-9630-8489f8d96fce",
+        "rawOutputFile": "qa/raw_blind_review_n4.json",
+        "outputFileSha256": "bec76912b721b1a3fb52912c639613e5e071e75616d6d98efa6676016e36214d",
+        "linguisticJustification": "Expressing an unintentional, regrettable action is formulated with [Verb て-form] + しまいました: 『電車の中に忘れてしまいました』 (I accidentally left/forgot [documents] on the train). Option C is the て-form 『わすれて』."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N4-GR-FORM-009",
+      "level": "N4",
+      "skill": "Grammar",
+      "typeId": "N4-GR-FORM",
+      "contentFingerprint": "d16f7869a12348b01dd58a438f42db67359a22721b746829bb568f4c8bfeb1d8",
+      "authorAnswer": "D",
+      "blindAnswer": "D",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n4.json",
+        "fileSha256": "45edd284a70fa52217b38c0196a4f44da5b745b7cce29654e909887a5d26867d",
+        "itemFingerprintInDataset": "d16f7869a12348b01dd58a438f42db67359a22721b746829bb568f4c8bfeb1d8",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n4",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "5a240741-f93f-4017-9630-8489f8d96fce",
+        "rawOutputFile": "qa/raw_blind_review_n4.json",
+        "outputFileSha256": "bec76912b721b1a3fb52912c639613e5e071e75616d6d98efa6676016e36214d",
+        "linguisticJustification": "Expressing past personal experience is structured as [Verb た-form] + ことがある: 『富士山に登ったことがありますか』 (Have you ever climbed Mt. Fuji?). The past plain form of のぼる is のぼった (Option D)."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N4-GR-FORM-010",
+      "level": "N4",
+      "skill": "Grammar",
+      "typeId": "N4-GR-FORM",
+      "contentFingerprint": "7eeec32b9584542df043199aee4aac046f5e410c6db55da5dbf1a09ee230f80c",
+      "authorAnswer": "A",
+      "blindAnswer": "A",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_repaired_6.json",
+        "fileSha256": "0df362a545946ed353d53e3878a2143a08ec74db9a81a4ed69193057c0a4c809",
+        "itemFingerprintInDataset": "7eeec32b9584542df043199aee4aac046f5e410c6db55da5dbf1a09ee230f80c",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261016-repaired-6",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "cbfb8289-5e9d-4efa-84e7-d2710a0d4843",
+        "rawOutputFile": "qa/raw_blind_review_repaired_6.json",
+        "outputFileSha256": "0ca90b7ddec2a90393526cc1eeb5384694fee91a8ab7079054560222637199ea",
+        "linguisticJustification": "In Japanese conditional constructions, the i-adjective 「いい」 conjugates conditionally from the root 「よ-」 as 「よければ」 ('if it is good'). Distractor B (「いいば」) is an ungrammatical, non-existent morphological form. Option C (「よくて」) expresses cause or sequential connection and cannot be used before a volitional invitation like 「〜ましょう」, especially referring to a future condition (「明日は」). Option D (「よくても」) expresses concession ('even if it is good'), which makes no sense before inviting someone to go swimming."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N4-GR-FORM-011",
+      "level": "N4",
+      "skill": "Grammar",
+      "typeId": "N4-GR-FORM",
+      "contentFingerprint": "b941544dfd183a968330ef8edeb663118dae1d2cf89d9119ef32fdb6d68c7b13",
+      "authorAnswer": "A",
+      "blindAnswer": "A",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n4.json",
+        "fileSha256": "45edd284a70fa52217b38c0196a4f44da5b745b7cce29654e909887a5d26867d",
+        "itemFingerprintInDataset": "b941544dfd183a968330ef8edeb663118dae1d2cf89d9119ef32fdb6d68c7b13",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n4",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "5a240741-f93f-4017-9630-8489f8d96fce",
+        "rawOutputFile": "qa/raw_blind_review_n4.json",
+        "outputFileSha256": "bec76912b721b1a3fb52912c639613e5e071e75616d6d98efa6676016e36214d",
+        "linguisticJustification": "When the main clause expresses a request or instruction (〜てください), an action verb condition requiring chronological completion must take the 〜たら conditional: 『駅についたら、電話をかけてください』 (Once you arrive at the station, please call me). The ば-form (つけば) is ungrammatical before volitional/request endings when the subordinate predicate is a dynamic action."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N4-GR-FORM-012",
+      "level": "N4",
+      "skill": "Grammar",
+      "typeId": "N4-GR-FORM",
+      "contentFingerprint": "9a0809dd80c817abcc74e557a0ce1791073b311cb219d8182b161cd01f4a09d1",
+      "authorAnswer": "C",
+      "blindAnswer": "C",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n4.json",
+        "fileSha256": "45edd284a70fa52217b38c0196a4f44da5b745b7cce29654e909887a5d26867d",
+        "itemFingerprintInDataset": "9a0809dd80c817abcc74e557a0ce1791073b311cb219d8182b161cd01f4a09d1",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n4",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "5a240741-f93f-4017-9630-8489f8d96fce",
+        "rawOutputFile": "qa/raw_blind_review_n4.json",
+        "outputFileSha256": "bec76912b721b1a3fb52912c639613e5e071e75616d6d98efa6676016e36214d",
+        "linguisticJustification": "The conditional particle 『なら』 is used to introduce a topical condition or stated intention ('if it is the case that you intend to...'), often preceding advice/recommendations (〜ほうがいい): 『日本料理を作るなら、まず出汁の取り方を覚えたほうがいいです』. Using たら (作ったら) would imply advice given after the cooking has already occurred."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N4-GR-STAR-001",
+      "level": "N4",
+      "skill": "Grammar",
+      "typeId": "N4-GR-STAR",
+      "contentFingerprint": "98aecc2bf11f582ccbe1b0633b21acc6fe3a56397e80ed75fbd3bd23f7764822",
+      "authorAnswer": "D",
+      "blindAnswer": "D",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n4.json",
+        "fileSha256": "45edd284a70fa52217b38c0196a4f44da5b745b7cce29654e909887a5d26867d",
+        "itemFingerprintInDataset": "98aecc2bf11f582ccbe1b0633b21acc6fe3a56397e80ed75fbd3bd23f7764822",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n4",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "5a240741-f93f-4017-9630-8489f8d96fce",
+        "rawOutputFile": "qa/raw_blind_review_n4.json",
+        "outputFileSha256": "bec76912b721b1a3fb52912c639613e5e071e75616d6d98efa6676016e36214d",
+        "linguisticJustification": "The syntactic order is: 朝慌てて [探す (C)] [ことが (A)] ★ [ない (D)] [ように (B)] 夜のうちに服を準備しておきます ('So that I don't have to search frantically in the morning, I prepare my clothes at night'). Pattern: 〜ことがないように. The item in the star position (slot 3) is D (ない)."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N4-GR-STAR-002",
+      "level": "N4",
+      "skill": "Grammar",
+      "typeId": "N4-GR-STAR",
+      "contentFingerprint": "a7de6f437d0ba643a5e3097e5c3ac5a0e91d8bdce7813e09d7ac8acdf7206650",
+      "authorAnswer": "D",
+      "blindAnswer": "D",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_repaired_6.json",
+        "fileSha256": "0df362a545946ed353d53e3878a2143a08ec74db9a81a4ed69193057c0a4c809",
+        "itemFingerprintInDataset": "a7de6f437d0ba643a5e3097e5c3ac5a0e91d8bdce7813e09d7ac8acdf7206650",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261016-repaired-6",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "cbfb8289-5e9d-4efa-84e7-d2710a0d4843",
+        "rawOutputFile": "qa/raw_blind_review_repaired_6.json",
+        "outputFileSha256": "0ca90b7ddec2a90393526cc1eeb5384694fee91a8ab7079054560222637199ea",
+        "linguisticJustification": "The correct syntactic ordering is: 「来年の夏休みには、北海道に (B) 住んでいる (C) ★友達に (D) 会いに (A) 行く予定です。」 The relative clause 「北海道に住んでいる」 modifies the noun 「友達」, which takes the particle 「に」 indicating the person to meet (「友達に会いに」), followed by the motion-purpose construction 「会いにいく」. Thus, the third position (★) is occupied by option D (「友達に」)."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N4-GR-STAR-003",
+      "level": "N4",
+      "skill": "Grammar",
+      "typeId": "N4-GR-STAR",
+      "contentFingerprint": "dd4d9cfff1e734771e373f88e503832cfcd08462f6153fe13ced350189ff19f7",
+      "authorAnswer": "A",
+      "blindAnswer": "A",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n4.json",
+        "fileSha256": "45edd284a70fa52217b38c0196a4f44da5b745b7cce29654e909887a5d26867d",
+        "itemFingerprintInDataset": "dd4d9cfff1e734771e373f88e503832cfcd08462f6153fe13ced350189ff19f7",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n4",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "5a240741-f93f-4017-9630-8489f8d96fce",
+        "rawOutputFile": "qa/raw_blind_review_n4.json",
+        "outputFileSha256": "bec76912b721b1a3fb52912c639613e5e071e75616d6d98efa6676016e36214d",
+        "linguisticJustification": "The advice construction is 〜たほうがいい. The adverbials connect as: 無理をしないで [暖かくして (D)] [ゆっくり (B)] ★ [休んだ (A)] [ほう (C)] がいいですよ (or ゆっくり -> 暖かくして -> 休んだ -> ほう). In both permutations, slot 3 (★) is unambiguously A (休んだ) and slot 4 is C (ほう)."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N4-GR-STAR-004",
+      "level": "N4",
+      "skill": "Grammar",
+      "typeId": "N4-GR-STAR",
+      "contentFingerprint": "f553f19a9315cba7c11e47ed21c132147496bc1cfdeeb7b1f716c0a8825ae866",
+      "authorAnswer": "A",
+      "blindAnswer": "A",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n4.json",
+        "fileSha256": "45edd284a70fa52217b38c0196a4f44da5b745b7cce29654e909887a5d26867d",
+        "itemFingerprintInDataset": "f553f19a9315cba7c11e47ed21c132147496bc1cfdeeb7b1f716c0a8825ae866",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n4",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "5a240741-f93f-4017-9630-8489f8d96fce",
+        "rawOutputFile": "qa/raw_blind_review_n4.json",
+        "outputFileSha256": "bec76912b721b1a3fb52912c639613e5e071e75616d6d98efa6676016e36214d",
+        "linguisticJustification": "The cause-and-effect sentence is assembled as: 昨日は熱が [高くて (C)] [起き上がることが (D)] ★ [できなかった (A)] [ので (B)] 学校を休みました ('Yesterday my fever was high and I couldn't get up, so I was absent from school'). The reason particle ので (B) requires the plain form できなかった (A). The 3rd position (★) is A (できなかった)."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N4-GR-STAR-005",
+      "level": "N4",
+      "skill": "Grammar",
+      "typeId": "N4-GR-STAR",
+      "contentFingerprint": "ec025cab61c2f73aa3fe4174d6053dd422445514ec507db38b0ce1edac617eb1",
+      "authorAnswer": "B",
+      "blindAnswer": "B",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n4.json",
+        "fileSha256": "45edd284a70fa52217b38c0196a4f44da5b745b7cce29654e909887a5d26867d",
+        "itemFingerprintInDataset": "ec025cab61c2f73aa3fe4174d6053dd422445514ec507db38b0ce1edac617eb1",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n4",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "5a240741-f93f-4017-9630-8489f8d96fce",
+        "rawOutputFile": "qa/raw_blind_review_n4.json",
+        "outputFileSha256": "bec76912b721b1a3fb52912c639613e5e071e75616d6d98efa6676016e36214d",
+        "linguisticJustification": "Two positive attributes of the dictionary are listed in parallel: この辞書は [文字が (C)] [大きくて (A)] ★ [説明も (B)] [わかりやすいので (D)] とても便利です ('This dictionary is very convenient because the font is large and the explanations are also easy to understand'). The 3rd position (★) is B (説明も)."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N4-GR-STAR-006",
+      "level": "N4",
+      "skill": "Grammar",
+      "typeId": "N4-GR-STAR",
+      "contentFingerprint": "8effaa221d34a72565130aef62d591ede07201c53705da950975f51591b8cb82",
+      "authorAnswer": "A",
+      "blindAnswer": "A",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_repaired_6.json",
+        "fileSha256": "0df362a545946ed353d53e3878a2143a08ec74db9a81a4ed69193057c0a4c809",
+        "itemFingerprintInDataset": "8effaa221d34a72565130aef62d591ede07201c53705da950975f51591b8cb82",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261016-repaired-6",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "cbfb8289-5e9d-4efa-84e7-d2710a0d4843",
+        "rawOutputFile": "qa/raw_blind_review_repaired_6.json",
+        "outputFileSha256": "0ca90b7ddec2a90393526cc1eeb5384694fee91a8ab7079054560222637199ea",
+        "linguisticJustification": "The coherent grammatical sentence is: 「将来自分の店を 持つ (B) ために (D) ★お金を (A) ためようと (C) 一生懸命働いています。」 The clause 「店を持つために」 expresses the long-term objective ('in order to own one's shop'), while 「お金をためようと」 expresses the speaker's volitional intention ('aiming to save money') modifying the action 「一生懸命働いています」. Thus, the third position (★) is occupied by option A (「お金を」)."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N4-RD-SHOR-001",
+      "level": "N4",
+      "skill": "Reading",
+      "typeId": "N4-RD-SHOR",
+      "contentFingerprint": "385c462240863970cacd3a45a292746883a200f3ea9e8121d4c9c7f447de087d",
+      "authorAnswer": "A",
+      "blindAnswer": "A",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n4.json",
+        "fileSha256": "45edd284a70fa52217b38c0196a4f44da5b745b7cce29654e909887a5d26867d",
+        "itemFingerprintInDataset": "385c462240863970cacd3a45a292746883a200f3ea9e8121d4c9c7f447de087d",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n4",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "5a240741-f93f-4017-9630-8489f8d96fce",
+        "rawOutputFile": "qa/raw_blind_review_n4.json",
+        "outputFileSha256": "bec76912b721b1a3fb52912c639613e5e071e75616d6d98efa6676016e36214d",
+        "linguisticJustification": "The notice explicitly specifies: 『燃えるゴミは毎週火曜日と金曜日の朝8時までに出してください』 (Please take out burnable trash by 8:00 AM every Tuesday and Friday). Therefore, the trash that can be put out on Tuesday morning is 燃えるゴミ (Option A)."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N4-RD-SHOR-002",
+      "level": "N4",
+      "skill": "Reading",
+      "typeId": "N4-RD-SHOR",
+      "contentFingerprint": "136480c4d5a34a596e401eb9e28806b633c14c34f15c3466a2c11653841995ef",
+      "authorAnswer": "D",
+      "blindAnswer": "D",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n4.json",
+        "fileSha256": "45edd284a70fa52217b38c0196a4f44da5b745b7cce29654e909887a5d26867d",
+        "itemFingerprintInDataset": "136480c4d5a34a596e401eb9e28806b633c14c34f15c3466a2c11653841995ef",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n4",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "5a240741-f93f-4017-9630-8489f8d96fce",
+        "rawOutputFile": "qa/raw_blind_review_n4.json",
+        "outputFileSha256": "bec76912b721b1a3fb52912c639613e5e071e75616d6d98efa6676016e36214d",
+        "linguisticJustification": "The message states: 『今日の午後3時からの会議ですが、部長の都合で午後4時からに変更になりました』 (Regarding today's meeting from 3:00 PM, due to the director's schedule it has been changed to 4:00 PM). Moving from 3:00 to 4:00 is a delay of one hour: 会議の時間が1時間遅くなったこと (Option D)."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N4-RD-SHOR-003",
+      "level": "N4",
+      "skill": "Reading",
+      "typeId": "N4-RD-SHOR",
+      "contentFingerprint": "7ee6baa4b1750b66a67c59e4dbec3fdd42026c4763b60a9c1cd02db4d4e61490",
+      "authorAnswer": "D",
+      "blindAnswer": "D",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n4.json",
+        "fileSha256": "45edd284a70fa52217b38c0196a4f44da5b745b7cce29654e909887a5d26867d",
+        "itemFingerprintInDataset": "7ee6baa4b1750b66a67c59e4dbec3fdd42026c4763b60a9c1cd02db4d4e61490",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n4",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "5a240741-f93f-4017-9630-8489f8d96fce",
+        "rawOutputFile": "qa/raw_blind_review_n4.json",
+        "outputFileSha256": "bec76912b721b1a3fb52912c639613e5e071e75616d6d98efa6676016e36214d",
+        "linguisticJustification": "The author writes: 『少し味が濃くなってしまいましたが、自分で作った料理はとてもおいしかったです』 (The flavor ended up a little strong/salty, but the food I cooked myself was very delicious). Option D directly summarizes this sentiment: 『少し濃かったが、おいしかった』."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N4-RD-SHOR-004",
+      "level": "N4",
+      "skill": "Reading",
+      "typeId": "N4-RD-SHOR",
+      "contentFingerprint": "35048318a45225c36692a30e8211b1f43686c69703e1c50443f1992e7a9db8d6",
+      "authorAnswer": "A",
+      "blindAnswer": "A",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n4.json",
+        "fileSha256": "45edd284a70fa52217b38c0196a4f44da5b745b7cce29654e909887a5d26867d",
+        "itemFingerprintInDataset": "35048318a45225c36692a30e8211b1f43686c69703e1c50443f1992e7a9db8d6",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n4",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "5a240741-f93f-4017-9630-8489f8d96fce",
+        "rawOutputFile": "qa/raw_blind_review_n4.json",
+        "outputFileSha256": "bec76912b721b1a3fb52912c639613e5e071e75616d6d98efa6676016e36214d",
+        "linguisticJustification": "The announcement states: 『本の返却は、正面入口の返却ポストをご利用いただけます』 (For book returns, you may use the return post box at the front entrance). Option A accurately conveys: 『正面入口のポストに入れる』."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N4-RD-INFO-001",
+      "level": "N4",
+      "skill": "Reading",
+      "typeId": "N4-RD-INFO",
+      "contentFingerprint": "8c2910faa9164db143faa1be346793f6e350563f7d67fea44f78557824526069",
+      "authorAnswer": "C",
+      "blindAnswer": "C",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n4.json",
+        "fileSha256": "45edd284a70fa52217b38c0196a4f44da5b745b7cce29654e909887a5d26867d",
+        "itemFingerprintInDataset": "8c2910faa9164db143faa1be346793f6e350563f7d67fea44f78557824526069",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n4",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "5a240741-f93f-4017-9630-8489f8d96fce",
+        "rawOutputFile": "qa/raw_blind_review_n4.json",
+        "outputFileSha256": "bec76912b721b1a3fb52912c639613e5e071e75616d6d98efa6676016e36214d",
+        "linguisticJustification": "Matching the three criteria: (1) Thursday (木曜日), (2) after 18:00 (夕方6時以降), (3) 1,000 yen: Swimming class (水泳教室) is held 『毎週木曜日 18:30〜20:00 | 参加費: 1回 1,000円』. This satisfies all conditions. Option C is correct."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N4-RD-INFO-002",
+      "level": "N4",
+      "skill": "Reading",
+      "typeId": "N4-RD-INFO",
+      "contentFingerprint": "c2722339361be4ad54efba5d21811e2ebc27899ad3fd8294ee56b52bbddcdabb",
+      "authorAnswer": "B",
+      "blindAnswer": "B",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n4.json",
+        "fileSha256": "45edd284a70fa52217b38c0196a4f44da5b745b7cce29654e909887a5d26867d",
+        "itemFingerprintInDataset": "c2722339361be4ad54efba5d21811e2ebc27899ad3fd8294ee56b52bbddcdabb",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n4",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "5a240741-f93f-4017-9630-8489f8d96fce",
+        "rawOutputFile": "qa/raw_blind_review_n4.json",
+        "outputFileSha256": "bec76912b721b1a3fb52912c639613e5e071e75616d6d98efa6676016e36214d",
+        "linguisticJustification": "The footnote clearly states: 『※どの教室も予約は不要です』 (Reservations are not needed for any class). 『予約は不要』 is synonymous with 『予約は必要ない』 (Option B)."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-MO-READ-001",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-READ",
+      "contentFingerprint": "802650aa9e805f8ec0bbcc74133a9d838411b2828557a3824a5a73233c97ae2c",
+      "authorAnswer": "B",
+      "blindAnswer": "B",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "802650aa9e805f8ec0bbcc74133a9d838411b2828557a3824a5a73233c97ae2c",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "「延期」 is read 「えんき」 (延: えん + 期: き). Option A (えんぎ) is an erroneous voicing distractor mimicking 演技/縁起. C (えいき) omits the nasal coda 'ん', and D (えんご) substitutes an unrelated kanji reading."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-MO-READ-002",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-READ",
+      "contentFingerprint": "326fc80c960418f1a4a8074bbe80fe779f3dc65b684fb8c3beea6ac996700b02",
+      "authorAnswer": "A",
+      "blindAnswer": "A",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "326fc80c960418f1a4a8074bbe80fe779f3dc65b684fb8c3beea6ac996700b02",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "The kanji compound verb 「抱える」 is read 「かかえて」 in the て-form. It figuratively means to shoulder/carry burdens or problems (問題を抱える). Option B (かかげて) corresponds to 掲げて, C (おさえて) to 押さえて/抑えて, and D (とらえて) to 捉えて/捕らえて."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-MO-READ-003",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-READ",
+      "contentFingerprint": "b331f30a2082f3ce3e129297dc6e0640e592201f5555687457199bbb5691aa90",
+      "authorAnswer": "D",
+      "blindAnswer": "D",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "b331f30a2082f3ce3e129297dc6e0640e592201f5555687457199bbb5691aa90",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "「欧米」 is read 「おうべい」, compounding 欧 (オウ, Europe) and 米 (ベイ, America). Option A (おうまい) erroneously uses the kanji reading 'まい' (as in 新米/米穀). B (おべい) erroneously shortens the long vowel おう to お, and C (おうみ) is a phonological distractor."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-MO-READ-004",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-READ",
+      "contentFingerprint": "2132cc41fbe8fc84d2b0642c673006785a0c43a70e913b3019e485d9561dc604",
+      "authorAnswer": "D",
+      "blindAnswer": "D",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "2132cc41fbe8fc84d2b0642c673006785a0c43a70e913b3019e485d9561dc604",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "「湿気」 denotes humidity/moisture. In standard Japanese, the common colloquial reading is 「しっけ」 (Option D). Option A (しつき) lacks gemination, B (じっき) has spurious voicing, and C (しゅうき) is an incorrect on'yomi distractor (臭気)."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-MO-READ-005",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-READ",
+      "contentFingerprint": "3dfca4318e7db6929b12fba8b296cb4332bfdd571a99e940c2dccae9d461f90f",
+      "authorAnswer": "A",
+      "blindAnswer": "A",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "3dfca4318e7db6929b12fba8b296cb4332bfdd571a99e940c2dccae9d461f90f",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "The verb 「耕す」 (to plow/cultivate soil) has the kun'yomi 「たがやす」, conjugated in the て-form as 「たがやして」. Option B (ならして) corresponds to 均して/慣らして, while C and D are corrupted phonetic distractors."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-MO-READ-006",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-READ",
+      "contentFingerprint": "25532914fc495c95d3f0ffc3b15c5955c035173066c14976ade0dac634e5c630",
+      "authorAnswer": "D",
+      "blindAnswer": "D",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "25532914fc495c95d3f0ffc3b15c5955c035173066c14976ade0dac634e5c630",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "「診察」 (medical examination) is read 「しんさつ」 (診: しん + 察: さつ). Option A (しんざつ) introduces illicit rendaku/voicing on 察, B (けんさつ) confuses 診 with 険/検, and C (しんさい) mimics 震災."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-MO-READ-007",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-READ",
+      "contentFingerprint": "aa493d5bd68402bf69050a24b3e16c5ff1205392a3bf373e293cbecb209b5f14",
+      "authorAnswer": "B",
+      "blindAnswer": "B",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "aa493d5bd68402bf69050a24b3e16c5ff1205392a3bf373e293cbecb209b5f14",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "「豊富」 (abundant/plentiful) is read 「ほうふ」 (豊: ほう + 富: ふ). Option A (ほふ) erroneously uses a short vowel, C (ぼうふ) voices the initial consonant, and D (ほうぶ) voices the second syllable."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-MO-READ-008",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-READ",
+      "contentFingerprint": "08a55c50097220c17c0613982f0587a4738cbd2ea7cbacee5bd51d2eaaad6909",
+      "authorAnswer": "B",
+      "blindAnswer": "B",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "08a55c50097220c17c0613982f0587a4738cbd2ea7cbacee5bd51d2eaaad6909",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "The verb 「補う」 (to supplement/make up for a deficiency) has the kun'yomi 「おぎなう」. Option A (つぐなう) corresponds to 償う (to atone/compensate), C (まかなう) to 賄う (to finance/cover expenses), and D (やしなう) to 養う (to cultivate/support)."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-MO-AFFX-001",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-AFFX",
+      "contentFingerprint": "2bb1fed8c0bce1ddc9cc701143871550e9b078aa08669a77ac4afb8edd291b65",
+      "authorAnswer": "C",
+      "blindAnswer": "C",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "2bb1fed8c0bce1ddc9cc701143871550e9b078aa08669a77ac4afb8edd291b65",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "The negative prefix 「不-」 productive with na-adjectives attaches to 「真面目」 to form the standard lexicalized word 「不真面目」(ふまじめ, insincere/frivolous). The prefixes 未- (not yet), 無- (without/lacking), and 非- (non-/un-) do not collocate with 真面目."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-MO-AFFX-002",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-AFFX",
+      "contentFingerprint": "754022785908bb62168901ba07aae1ac1dbb999f83698149d42ca108110e1bdf",
+      "authorAnswer": "A",
+      "blindAnswer": "A",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "754022785908bb62168901ba07aae1ac1dbb999f83698149d42ca108110e1bdf",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "The negative prefix 「無-」 attaches to 「意味」 to form 「無意味」(むいみ, meaningless/pointless). Compounds like *不意味, *非意味, or *未意味 are non-existent in Japanese."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-MO-AFFX-003",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-AFFX",
+      "contentFingerprint": "c6a235d60530dd703c2e165d70178cb5027e85d04166445254391d890ba6dc80",
+      "authorAnswer": "A",
+      "blindAnswer": "A",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "c6a235d60530dd703c2e165d70178cb5027e85d04166445254391d890ba6dc80",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "The prefix 「未-」 (not yet) combines with 「成年」 to form the legal and sociolinguistic compound 「未成年」(みせいねん, minor / person under legal age). *非成年, *無成年, and *不成年 are ungrammatical."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-MO-AFFX-004",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-AFFX",
+      "contentFingerprint": "3424d9743c71138ebcc2ceec713bcf2c5b00a78681a637f933539f9b27a34169",
+      "authorAnswer": "A",
+      "blindAnswer": "A",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "3424d9743c71138ebcc2ceec713bcf2c5b00a78681a637f933539f9b27a34169",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "The suffix 「-的」 (na-adjective formative suffix) attaches to 「効果」 to form 「効果的」(こうかてき, effective), which modifies 「方法」 via the attributive particle 「な」 (効果的な方法). Suffixes -性 (noun formative), -風, and -感 do not take 'な' here."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-MO-AFFX-005",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-AFFX",
+      "contentFingerprint": "8abee1c62c37d19a3c78c6e218aed8ba888900a7fc5211fa8067af57472c1503",
+      "authorAnswer": "D",
+      "blindAnswer": "D",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "8abee1c62c37d19a3c78c6e218aed8ba888900a7fc5211fa8067af57472c1503",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "The suffix 「-感」 combines with 「達成」 to create 「達成感」(たっせいかん, sense of accomplishment/fulfillment). This forms the conventional idiomatic collocation 「達成感を味わう」 (to savor/experience a sense of accomplishment)."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-MO-AFFX-006",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-AFFX",
+      "contentFingerprint": "6d169a87b427b268a829f359b9a893d43814cd21264123ccb25ce90e18c21e9d",
+      "authorAnswer": "C",
+      "blindAnswer": "C",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "6d169a87b427b268a829f359b9a893d43814cd21264123ccb25ce90e18c21e9d",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "The nominalizing suffix 「-性」 (-ity / potential) combines with 「可能」 to form 「可能性」(かのうせい, possibility). The predicate phrase 「可能性は十分にあります」 (there is ample possibility) is an established collocation."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-MO-AFFX-007",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-AFFX",
+      "contentFingerprint": "db49d3ac8fc8b8ab3a2a4b3f82ce1e62a76dbc234e6436444cd1f0f9cf359f9f",
+      "authorAnswer": "A",
+      "blindAnswer": "A",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "db49d3ac8fc8b8ab3a2a4b3f82ce1e62a76dbc234e6436444cd1f0f9cf359f9f",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "The suffix 「-費」 (expenses/costs) combines with 「交通」 to form 「交通費」(こうつうひ, travel/commuting expenses), standardly used for employer-reimbursed commuting allowances. -料 (tuition/usage fees), -代 (specific item charges), and -金 (funds/monies) do not form the standard term for commuting costs."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-MO-AFFX-008",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-AFFX",
+      "contentFingerprint": "57e5fb916b98295c76575af901fad893d9aec929dc5817e88093abb5242ad2b3",
+      "authorAnswer": "A",
+      "blindAnswer": "A",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "57e5fb916b98295c76575af901fad893d9aec929dc5817e88093abb5242ad2b3",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "The verbalizing suffix 「-化」 (-ization / transformation) attaches to the katakana loanword 「デジタル」 to form 「デジタル化」(digitalization/digitization), which standardly predicates with 「〜が進む」(progresses/advances)."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-MO-CONT-001",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-CONT",
+      "contentFingerprint": "cc4e59f80dd5a84eeda529c04176d96253638389cf012bb972fa2878e7ec4b4d",
+      "authorAnswer": "B",
+      "blindAnswer": "B",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "cc4e59f80dd5a84eeda529c04176d96253638389cf012bb972fa2878e7ec4b4d",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "The mimetic adverb 「そっくり」 means 'the spitting image of' or 'closely resembling'. In combination with 「似ている」, 「そっくり似ている」 emphatically denotes looking or behaving exactly alike. A (うっかり = carelessly), C (ぎっしり = packed tightly), and D (ばったり = bumping into) are semantically incompatible."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-MO-CONT-002",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-CONT",
+      "contentFingerprint": "7d38a866cfbdcab2eed6b7c21ab0d5823de9cdf563086fd26061316c794b8a17",
+      "authorAnswer": "C",
+      "blindAnswer": "C",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "7d38a866cfbdcab2eed6b7c21ab0d5823de9cdf563086fd26061316c794b8a17",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "The onomatopoeic/mimetic adverb 「ぎっしり」 expresses things packed tightly together without gaps (ぎっしり並べられている = lined up tightly packed). A (すっきり = neatly refreshed/uncluttered), B (ぼんやり = vaguely/absentmindedly), and D (のんびり = leisurely) do not describe densely packed objects."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-MO-CONT-003",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-CONT",
+      "contentFingerprint": "ae5ae755fdd4ddbb2d9395835ee8cf5f2b833b622f23bba0f99519d4be3e7378",
+      "authorAnswer": "C",
+      "blindAnswer": "C",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "ae5ae755fdd4ddbb2d9395835ee8cf5f2b833b622f23bba0f99519d4be3e7378",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "The adverb 「のんびり」 describes relaxing in a carefree, leisurely manner. Paired with 「温泉で〜過ごしたい」, 「のんびり過ごす」 is the canonical natural collocation. A (ぐっすり) collocates with sleeping (ぐっすり眠る), B (うっすら) with faint visibility, and D (しっかり) with acting firmly/reliably."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-MO-CONT-004",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-CONT",
+      "contentFingerprint": "25cce2432feffb84458ea89a53967e657590fbd74b3c20b3c7656c6207a176e6",
+      "authorAnswer": "B",
+      "blindAnswer": "B",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "25cce2432feffb84458ea89a53967e657590fbd74b3c20b3c7656c6207a176e6",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "The i-adjective 「慌ただしい」(あわただしい) characterizes a hectic, rushed, or frantically busy state of life due to deadlines or events. A (騒がしい) denotes auditory noise or boisterousness, C (険しい) denotes steep terrain or grim facial expressions, and D (図々しい) means impudent/brazen."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-MO-CONT-005",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-CONT",
+      "contentFingerprint": "3ee414cb2043f86bb1a1e277280f50657275e06ec28838fc6ef25a53467be31d",
+      "authorAnswer": "B",
+      "blindAnswer": "B",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "3ee414cb2043f86bb1a1e277280f50657275e06ec28838fc6ef25a53467be31d",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "The sentence explains that giving (...) answers causes distrust (不信感を与えてしまう). The na-adjective 「曖昧」(あいまい, vague/ambiguous/evasive) precisely fits this context. Giving precise (正確) or candid (率直) answers would foster trust rather than distrust, and 敏感 (sensitive) does not modify answers in this sense."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-MO-CONT-006",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-CONT",
+      "contentFingerprint": "5336ac958c1658d62980fa9eec9c97ac1eb3a4374e1bda02d6c584754df1a376",
+      "authorAnswer": "D",
+      "blindAnswer": "D",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "5336ac958c1658d62980fa9eec9c97ac1eb3a4374e1bda02d6c584754df1a376",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "When an overdue submission has not arrived past the deadline, contacting the person in charge to demand or urge prompt submission is termed 「催促」(さいそく, demand/reminder/urging). A (忠告) is moral advice/warning, B (指示) is general instructions, and C (相談) is consultation."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-MO-CONT-007",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-CONT",
+      "contentFingerprint": "f5e473cf17f9958a21ce8b57796f78248dc3f828b04d8a4ff3787d5c621d0a91",
+      "authorAnswer": "C",
+      "blindAnswer": "C",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "f5e473cf17f9958a21ce8b57796f78248dc3f828b04d8a4ff3787d5c621d0a91",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "The sentence contrasts being an outstanding researcher who never acts arrogant/haughty (決して威張らず) with maintaining a (...) attitude. The antonym of 威張る is 「謙虚」(けんきょ, humble/modest). A (傲慢 = arrogant), B (短気 = quick-tempered), and D (頑固 = stubborn) are negative traits that contradict the sentence logic."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-MO-CONT-008",
+      "level": "N3",
+      "skill": "Vocabulary",
+      "typeId": "N3-MO-CONT",
+      "contentFingerprint": "50e64b5e966a3e3f7d8e07ce8f4836f593fed9acefdc4b3aa8be19a46e4e2748",
+      "authorAnswer": "B",
+      "blindAnswer": "B",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "50e64b5e966a3e3f7d8e07ce8f4836f593fed9acefdc4b3aa8be19a46e4e2748",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "Before concluding a contract, reviewing documents must be done cautiously and prudently: 「慎重に確認してください」. Options A (勝手に = arbitrarily), C (強引に = forcefully), and D (大雑把に = roughly/carelessly) represent inappropriate or negligent behaviors when signing contracts."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-GR-FORM-001",
+      "level": "N3",
+      "skill": "Grammar",
+      "typeId": "N3-GR-FORM",
+      "contentFingerprint": "e8e6b5d5854276c432f5a3c1c02533dfedf20c0b4b7db5b567ad653130020d12",
+      "authorAnswer": "D",
+      "blindAnswer": "D",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "e8e6b5d5854276c432f5a3c1c02533dfedf20c0b4b7db5b567ad653130020d12",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "The grammar pattern 「〜わけがない」 expresses emphatic logical impossibility ('there is no way that...'). Here, 'That diligent Mr. Yamada would break a promise? There is no way! Something must have happened' requires 「約束を破るわけがない」. A (にすぎない = is merely), B (ことにしている = makes a habit of), and C (わけではない = doesn't necessarily mean) do not fit the strong negation followed by '絶対に何かあったはずだ'."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-GR-FORM-002",
+      "level": "N3",
+      "skill": "Grammar",
+      "typeId": "N3-GR-FORM",
+      "contentFingerprint": "ee3ca02ec5f6fe30c040ff707aa7aac39e3b3b3bd3636573a635524ad3f17f50",
+      "authorAnswer": "C",
+      "blindAnswer": "C",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "ee3ca02ec5f6fe30c040ff707aa7aac39e3b3b3bd3636573a635524ad3f17f50",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "The pattern 「〜からといって、…わけではない」 is the canonical N3 structure for partial negation ('Just because [A], it does not necessarily follow that [B]'). Thus, living in Japan does not mean everyone likes sushi. A and B are affirmative expressions of certainty, while D (わけがない) produces an illogical double assertion."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-GR-FORM-003",
+      "level": "N3",
+      "skill": "Grammar",
+      "typeId": "N3-GR-FORM",
+      "contentFingerprint": "4e5e96a7bd99b992e7aabeb3af5e2b4ef033d36545ace60bc9ac4538eb3cd870",
+      "authorAnswer": "A",
+      "blindAnswer": "A",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "4e5e96a7bd99b992e7aabeb3af5e2b4ef033d36545ace60bc9ac4538eb3cd870",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "The construction 「〜ことになっている」 denotes an established rule, social norm, or legal regulation set by an external authority ('it is prescribed/stipulated that...'). Because the sentence begins with 「法律によって」 (by law), 「吸ってはいけないことになっている」 is the only grammatically and contextually appropriate choice. In contrast, 「ことにしている」 and 「ようにしている」 express personal subjective habits or rules."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-GR-FORM-004",
+      "level": "N3",
+      "skill": "Grammar",
+      "typeId": "N3-GR-FORM",
+      "contentFingerprint": "419cd72efa24802cc330cef7d6ce6191aca2cb96e94a2be87dc93f8ee2f5b937",
+      "authorAnswer": "C",
+      "blindAnswer": "C",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "419cd72efa24802cc330cef7d6ce6191aca2cb96e94a2be87dc93f8ee2f5b937",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "The construction 「〜ことにしている」 denotes a personal decision or self-imposed discipline ('I make it a rule to...'). Here, the speaker adopts the routine of not eating after 9 PM for health reasons. In contrast, 「ことになっている」 is for external regulations, and 「おそれがある」 indicates fear of an adverse occurrence."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-GR-FORM-005",
+      "level": "N3",
+      "skill": "Grammar",
+      "typeId": "N3-GR-FORM",
+      "contentFingerprint": "43a9cf648687e3b99e9dfa162bb8bb08ad7346b1d42dd777a7e323f1489f0cba",
+      "authorAnswer": "A",
+      "blindAnswer": "A",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "43a9cf648687e3b99e9dfa162bb8bb08ad7346b1d42dd777a7e323f1489f0cba",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "The grammar pattern 「〜に違いない」 expresses a strong, confident deduction based on concrete evidence ('it must definitely be...'). The premise 「これだけ多くの人が集まっているのだから」 (Since so many people have gathered) logically justifies the deductive conclusion that it must be a famous event (有名なイベントに違いない). B (にすぎない = is only) and C/D (negative deductions) contradict the premise."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-GR-FORM-006",
+      "level": "N3",
+      "skill": "Grammar",
+      "typeId": "N3-GR-FORM",
+      "contentFingerprint": "1b1c6582253c5acdeafefd25cf5dea1c79ad222382895121c5f43497ddafcdc1",
+      "authorAnswer": "B",
+      "blindAnswer": "B",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_repaired_6.json",
+        "fileSha256": "0df362a545946ed353d53e3878a2143a08ec74db9a81a4ed69193057c0a4c809",
+        "itemFingerprintInDataset": "1b1c6582253c5acdeafefd25cf5dea1c79ad222382895121c5f43497ddafcdc1",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261016-repaired-6",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "cbfb8289-5e9d-4efa-84e7-d2710a0d4843",
+        "rawOutputFile": "qa/raw_blind_review_repaired_6.json",
+        "outputFileSha256": "0ca90b7ddec2a90393526cc1eeb5384694fee91a8ab7079054560222637199ea",
+        "linguisticJustification": "「〜はずだ」 expresses reasoned expectation or logical deduction ('must be / should be') based on objective premise or known evidence (「昨日遅くまで残業していたから」). In contrast, 「ことだ」 expresses indirect advice/rules or emotional exclamation; 「つもりだ」 expresses subjective personal intention or belief, which cannot logically describe another person's involuntary physical exhaustion based on past overtime; and 「ものだ」 expresses universal truths, inherent characteristics, or nostalgic reflection."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-GR-FORM-007",
+      "level": "N3",
+      "skill": "Grammar",
+      "typeId": "N3-GR-FORM",
+      "contentFingerprint": "0ac94be628290d81cca8d488c637f2275338494bd792d9209c48c97119e95753",
+      "authorAnswer": "C",
+      "blindAnswer": "C",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "0ac94be628290d81cca8d488c637f2275338494bd792d9209c48c97119e95753",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "The pattern 「〜おかげで」 indicates a cause leading to a fortunate or favorable result, carrying a nuance of gratitude ('thanks to...'). The result 「無事に試験に合格できました」 (safely passed the exam) is positive and attributed to the teacher's dedicated instruction. In contrast, 「せいで」 is reserved for blame or undesirable outcomes, and 「わりに」 denotes unexpected discrepancy."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-GR-FORM-008",
+      "level": "N3",
+      "skill": "Grammar",
+      "typeId": "N3-GR-FORM",
+      "contentFingerprint": "3a12209efaa315483e438af61ef6e0b9d937e6bc6b840c6ebd003e406c021bf0",
+      "authorAnswer": "C",
+      "blindAnswer": "C",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "3a12209efaa315483e438af61ef6e0b9d937e6bc6b840c6ebd003e406c021bf0",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "The pattern 「〜せいで」 marks the cause or blame for an adverse, undesirable outcome ('because of / due to'). Drinking too much caused a severe morning headache (ひどい頭痛がする), making 「せいで」 the exact fit. Option D (おかげで) is used for positive outcomes."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-GR-FORM-009",
+      "level": "N3",
+      "skill": "Grammar",
+      "typeId": "N3-GR-FORM",
+      "contentFingerprint": "24aadc7d4812306f404ab3cd2e5d7a6e65ec945e9b55ac43a0aec509007668a9",
+      "authorAnswer": "D",
+      "blindAnswer": "D",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "24aadc7d4812306f404ab3cd2e5d7a6e65ec945e9b55ac43a0aec509007668a9",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "The pattern 「V-dictionary form + たびに」 expresses 'every time / whenever [action occurs], [result follows]'. Looking at the photograph consistently triggers memories of family back home (写真を見るたびに、思い出す). A (かぎり = as long as), B (ついでに = while one is at it), and C (うちに = while/before) do not express recurrent repetitive triggers."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-GR-FORM-010",
+      "level": "N3",
+      "skill": "Grammar",
+      "typeId": "N3-GR-FORM",
+      "contentFingerprint": "4302e920b29bf168c434dc60d2f36a5fd89062ddc71dd94710b2b68920fca125",
+      "authorAnswer": "A",
+      "blindAnswer": "A",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "4302e920b29bf168c434dc60d2f36a5fd89062ddc71dd94710b2b68920fca125",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "The construction 「〜最中に」(さいちゅうに) signifies that right in the midst of an ongoing action, an unexpected event suddenly occurs and interrupts it. Paired with 「突然スマートフォンの充電が切れてしまった」, 「電話をかけている最中に」 is the textbook N3 formulation. While 「あいだに」 denotes within an interval, 「最中に」 specifically captures the abrupt mid-action interruption highlighted by 突然."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-GR-FORM-011",
+      "level": "N3",
+      "skill": "Grammar",
+      "typeId": "N3-GR-FORM",
+      "contentFingerprint": "c75ec77d5fac9973e2bfb823bb388aa57bba1cb34d740b37bc853095cdeb12fd",
+      "authorAnswer": "C",
+      "blindAnswer": "C",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "c75ec77d5fac9973e2bfb823bb388aa57bba1cb34d740b37bc853095cdeb12fd",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "The grammar pattern 「V-dictionary form + 一方だ」(いっぽうだ) expresses an ongoing, accelerating trend in a single continuous direction (usually worsening or continuing a continuous progression). With the declining birthrate, the rural population 'continues to decrease' (減少する一方だ). A (かぎり), B (最中), and D (次第) do not form this aspectual trend construction."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-GR-FORM-012",
+      "level": "N3",
+      "skill": "Grammar",
+      "typeId": "N3-GR-FORM",
+      "contentFingerprint": "12a4531927b5c635b8671a06b4d1642e36aab0e16ab49fd74176a825381ba639",
+      "authorAnswer": "B",
+      "blindAnswer": "B",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "12a4531927b5c635b8671a06b4d1642e36aab0e16ab49fd74176a825381ba639",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "The noun construction 「〜おそれがある」(恐れがある) indicates a risk, danger, or fear of an adverse event occurring ('there is a risk that...'). The collapse of an old bridge during a typhoon is an undesirable risk (崩れるおそれがある). 予定 (schedule) and つもり (intention) imply volition, while 見込み refers to neutral/positive forecasts."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-GR-STAR-001",
+      "level": "N3",
+      "skill": "Grammar",
+      "typeId": "N3-GR-STAR",
+      "contentFingerprint": "1a78d433d822942c5e284e52e801edce0db162e55f07e2228070eb0c48c17312",
+      "authorAnswer": "A",
+      "blindAnswer": "A",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_repaired_6.json",
+        "fileSha256": "0df362a545946ed353d53e3878a2143a08ec74db9a81a4ed69193057c0a4c809",
+        "itemFingerprintInDataset": "1a78d433d822942c5e284e52e801edce0db162e55f07e2228070eb0c48c17312",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261016-repaired-6",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "cbfb8289-5e9d-4efa-84e7-d2710a0d4843",
+        "rawOutputFile": "qa/raw_blind_review_repaired_6.json",
+        "outputFileSha256": "0ca90b7ddec2a90393526cc1eeb5384694fee91a8ab7079054560222637199ea",
+        "linguisticJustification": "The coherent grammatical sentence is: 「年齢や経験の 有無に (B) かかわらず (D) ★意欲が (A) あれば (C) 誰でも応募できます。」 The established formal compound pattern 「〜の有無にかかわらず」 ('regardless of whether one has ~') naturally connects with the prerequisite conditional clause 「意欲があれば」 ('as long as one has motivation'). Therefore, the third position (★) is occupied by option A (「意欲が」)."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-GR-STAR-002",
+      "level": "N3",
+      "skill": "Grammar",
+      "typeId": "N3-GR-STAR",
+      "contentFingerprint": "9a8ced2cb9991ce9fd4441c7432202c9d3f1e9de40453dba2b86d93a97dec9b5",
+      "authorAnswer": "C",
+      "blindAnswer": "C",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "9a8ced2cb9991ce9fd4441c7432202c9d3f1e9de40453dba2b86d93a97dec9b5",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "The conjunctive te-form 「自由で」(B) coordinates with the na-adjective 「気楽な」(A) to modify the noun 「反面」(C), forming 「自由で気楽な反面」(while free and easy on the one hand, on the other hand...). The adverbial temporal phrase 「ふとした時に」(D) then modifies the predicate 「寂しさを感じる」. The full grammatical sequence is 「一人暮らしは [B: 自由で] [A: 気楽な] [C: ★反面] [D: ふとした時に] 寂しさを感じることもある。」, placing C in the star position (Slot 3)."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-GR-STAR-003",
+      "level": "N3",
+      "skill": "Grammar",
+      "typeId": "N3-GR-STAR",
+      "contentFingerprint": "02a0850bf13bb2becb878ca040c4da08d640d44b3afb51c6dbf02a16eaa3a21d",
+      "authorAnswer": "A",
+      "blindAnswer": "A",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "02a0850bf13bb2becb878ca040c4da08d640d44b3afb51c6dbf02a16eaa3a21d",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "The pattern 「〜を中心として」 attaches to 「ボランティア団体を」 to form 「ボランティア団体を [B: 中心] [C: として]」. The relative clause verb 「集まった」(A) then modifies the agent phrase 「多くの住民により」(D) which acts as the passive agent for the cleanup activity: 「ボランティア団体を中心として [A: ★集まった] [D: 多くの住民により] 地域の清掃活動が行われた。」. This uniquely places A in the star position (Slot 3)."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-GR-STAR-004",
+      "level": "N3",
+      "skill": "Grammar",
+      "typeId": "N3-GR-STAR",
+      "contentFingerprint": "583a4c76840ea747dc7d59dcef4e06a89281d6016bed03d50d0dc09773b73fe7",
+      "authorAnswer": "B",
+      "blindAnswer": "B",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "583a4c76840ea747dc7d59dcef4e06a89281d6016bed03d50d0dc09773b73fe7",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "The compound postposition 「を通じて」(A) governs 「海外でのボランティア活動を」. What was gained (得ることができた) is a parallel compound object marked by 「と」: 「多くの友人と」(D) and 「かけがえのない経験を」(B-C). Thus, the sequence is 「海外でのボランティア活動を [A: 通じて] [D: 多くの友人と] [B: ★かけがえのない] [C: 経験を] 得ることができた。」. Option B falls into Slot 3 (★)."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-GR-STAR-005",
+      "level": "N3",
+      "skill": "Grammar",
+      "typeId": "N3-GR-STAR",
+      "contentFingerprint": "04de636cf6a062ae457dd72d7ccbfb653f20990a5aa69ccdff8f22d9f19a5817",
+      "authorAnswer": "C",
+      "blindAnswer": "C",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "04de636cf6a062ae457dd72d7ccbfb653f20990a5aa69ccdff8f22d9f19a5817",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "The grammar pattern 「〜の発展に伴って」(along with the development of...) sets the initial clause: 「情報通信技術の [A: 発展に] [B: 伴って]」. The subsequent coordinate clause consists of the subject 「オンラインサービスが」(C) and predicate in continuative form 「普及し」(D), leading to 「人々の生活様式も大きく変わった」. The complete sequence is 「情報通信技術の [A: 発展に] [B: 伴って] [C: ★オンラインサービスが] [D: 普及し] 人々の生活様式も大きく変わった。」. Therefore, Slot 3 (★) is C."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-GR-STAR-006",
+      "level": "N3",
+      "skill": "Grammar",
+      "typeId": "N3-GR-STAR",
+      "contentFingerprint": "2311917699d9a907597b1cd88ce1c5beed3c3990091e031a955ecf0e9849b06c",
+      "authorAnswer": "A",
+      "blindAnswer": "A",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "2311917699d9a907597b1cd88ce1c5beed3c3990091e031a955ecf0e9849b06c",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "The comparative pattern 「〜と比べて」(D) attaches to 「従来の製品と」. The topic of the main clause is 「新型モデルは」(B). The coordinate grammar pattern 「〜たうえに」(in addition to / on top of) connects the improved performance (A-C: 「性能が向上したうえに」) with reduced power consumption. The complete sequence is 「従来の製品と [D: 比べて] [B: 新型モデルは] [A: ★性能が] [C: 向上したうえに] 消費電力が30％も削減された。」, placing A in the star position (Slot 3)."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-RD-SHOR-001",
+      "level": "N3",
+      "skill": "Reading",
+      "typeId": "N3-RD-SHOR",
+      "contentFingerprint": "b82e2296561419f97cfc964cc385b6851b2199cd0afb423726e426380d608340",
+      "authorAnswer": "D",
+      "blindAnswer": "D",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "b82e2296561419f97cfc964cc385b6851b2199cd0afb423726e426380d608340",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "The notice explicitly mandates: 『全社員のパスワード更新を義務化します。新しいパスワードは英数字と記号を組み合わせた10文字以上で設定し、今月末日までに変更手続きを完了してください。』 Option D directly summarizes this obligation: changing to a password meeting the new criteria by the end of the month. Options A and B contradict the explicit requirements, and C is not mentioned."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-RD-SHOR-002",
+      "level": "N3",
+      "skill": "Reading",
+      "typeId": "N3-RD-SHOR",
+      "contentFingerprint": "8c081f40cc65057990ae05e19ef2e74aa9162c051b0c11f516f9901d090193c9",
+      "authorAnswer": "A",
+      "blindAnswer": "A",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "8c081f40cc65057990ae05e19ef2e74aa9162c051b0c11f516f9901d090193c9",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "The passage explicitly states that car sharing avoids parking and insurance upkeep fees, significantly reducing financial burden for occasional users: 『駐車場の維持費や保険料がかからないため…経済的な負担を大幅に減らせる点が大きな魅力となっている』. This directly matches Option A (車を維持するための費用がかからず経済的だから). Options B, C, and D are either factually contradicted or unsupported by the text."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-RD-SHOR-003",
+      "level": "N3",
+      "skill": "Reading",
+      "typeId": "N3-RD-SHOR",
+      "contentFingerprint": "3f267d5c755d662d58bf7f16b95316e78ef98457d998340cfeae52bf6ebce00f",
+      "authorAnswer": "C",
+      "blindAnswer": "C",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "3f267d5c755d662d58bf7f16b95316e78ef98457d998340cfeae52bf6ebce00f",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "The announcement states that lunch meal menus are suspended Tuesday through Thursday due to kitchen renovation (『ランチタイムの食事メニューの提供を休止いたします』), but drinks and desserts are available as normal (『ドリンクおよびデザート類は通常通りご注文いただけます』). Therefore, on Wednesday afternoon, customers can order drinks and desserts (Option C)."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-RD-SHOR-004",
+      "level": "N3",
+      "skill": "Reading",
+      "typeId": "N3-RD-SHOR",
+      "contentFingerprint": "2a7114b583e3ed5e5d73b6362a797dce5272498ce2044c52b9c75c46a9979aca",
+      "authorAnswer": "C",
+      "blindAnswer": "C",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "2a7114b583e3ed5e5d73b6362a797dce5272498ce2044c52b9c75c46a9979aca",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "The author stresses questioning the author's claims and reading actively with a critical mindset: 『著者の主張に対して「なぜそう言えるのか」と問いかけながら読むことが大切だ。受動的に受け入れるのではなく、批判的な視点を持って能動的に読むことで…』. Option C (著者の意見に対して疑問を持ち、主体的に読むこと) precisely reflects this core assertion. Option B directly contradicts the passage."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-RD-SHOR-005",
+      "level": "N3",
+      "skill": "Reading",
+      "typeId": "N3-RD-SHOR",
+      "contentFingerprint": "55c7c294f87c5cdb08570c21ced045b4825e87575abfb9d69e4ef9357a0f60e0",
+      "authorAnswer": "A",
+      "blindAnswer": "A",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "55c7c294f87c5cdb08570c21ced045b4825e87575abfb9d69e4ef9357a0f60e0",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "The notice addresses complaints regarding balcony smoking and concludes with the explicit rule: 『当マンションではベランダを含む共用部分はすべて禁煙となっておりますので、ルールを厳守してください。』 The primary communicative intent is to instruct residents to cease smoking on balconies because it is prohibited (Option A). Options B, C, and D do not represent the main message."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-RD-MEDI-001",
+      "level": "N3",
+      "skill": "Reading",
+      "typeId": "N3-RD-MEDI",
+      "contentFingerprint": "a5358b13d21cd12b318e7bd9dc58d9588c4ca64b75629f1664c5568e15f88f2a",
+      "authorAnswer": "C",
+      "blindAnswer": "C",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "a5358b13d21cd12b318e7bd9dc58d9588c4ca64b75629f1664c5568e15f88f2a",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "Paragraph 2 identifies the most critical issue arising from telework as the lack of interpersonal communication: 『最も深刻なのは、社員間のコミュニケーション不足である。オフィスで顔を合わせていれば、ちょっとした雑談や相談を通じて自然に情報共有ができていたが、画面越しのやりとりだけでは相手の表情や職場の雰囲気を察知することが難しくなる。』 This directly corresponds to Option C (社員同士の直接的な対話が減り、意思疎通が難しくなったこと)."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-RD-MEDI-002",
+      "level": "N3",
+      "skill": "Reading",
+      "typeId": "N3-RD-MEDI",
+      "contentFingerprint": "a4031de95c04d940ea3615d50bac6907690d175443ce20c624ac40b9e028a0f7",
+      "authorAnswer": "B",
+      "blindAnswer": "B",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "a4031de95c04d940ea3615d50bac6907690d175443ce20c624ac40b9e028a0f7",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "The text states: 『オフィスで顔を合わせていれば、ちょっとした雑談や相談を通じて自然に情報共有ができていた』. This explicitly highlights natural information sharing through casual conversation and informal consultation as the benefit of in-person office presence, perfectly matching Option B."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N3-RD-MEDI-003",
+      "level": "N3",
+      "skill": "Reading",
+      "typeId": "N3-RD-MEDI",
+      "contentFingerprint": "a703a86483262803460ef36571532779b15e5d226d7c4f81478d0c46391e63f0",
+      "authorAnswer": "B",
+      "blindAnswer": "B",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n3.json",
+        "fileSha256": "c6920aaf8d236aa255d347f3362b555c651fc1b6c079139eeaf7e0976ca20fe7",
+        "itemFingerprintInDataset": "a703a86483262803460ef36571532779b15e5d226d7c4f81478d0c46391e63f0",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n3",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "d0ff9896-0e2e-49d7-a72a-d779a370c7cf",
+        "rawOutputFile": "qa/raw_blind_review_n3.json",
+        "outputFileSha256": "69dc6a89876faf54389d71f195f8c0d232301b64e9b770b0804222055edad248",
+        "linguisticJustification": "In the final paragraph, the author advocates for a hybrid model combining the best of both styles: 『対面のぬくもりと在宅の快適さをうまく組み合わせることこそが、これからの時代に求められる柔軟な働き方ではないだろうか。』 This directly supports Option B (出社と在宅勤務の長所を組み合わせた柔軟な働き方が望ましい). Options A and C propose absolute extremes rejected by the passage."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N2-MO-READ-001",
+      "level": "N2",
+      "skill": "Vocabulary",
+      "typeId": "N2-MO-READ",
+      "contentFingerprint": "0b22ebdd70c0fef4fee0ac36a885b87fe1895c1c8158d9540717232f2a779a82",
+      "authorAnswer": "D",
+      "blindAnswer": "D",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n2.json",
+        "fileSha256": "9797fb4af47bc0e6c1f3ee7fa5e7af5c3db8ff343bf37613c0c9735e3d3ec18d",
+        "itemFingerprintInDataset": "0b22ebdd70c0fef4fee0ac36a885b87fe1895c1c8158d9540717232f2a779a82",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n2",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "cacea4de-bfec-4b55-8f7c-7b2ac7296430",
+        "rawOutputFile": "qa/raw_blind_review_n2.json",
+        "outputFileSha256": "98e979716eb04d67a69707240b0b074b02e64580190a15841d483a24ea419135",
+        "linguisticJustification": "「把握」の正しい音読みは「はあく」。「把（ハ）」＋「握（アク）」。意味はしっかりと理解・把握すること。他の選択肢「はそく」「はこう」「ばあく」はいずれも誤読。"
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N2-MO-READ-002",
+      "level": "N2",
+      "skill": "Vocabulary",
+      "typeId": "N2-MO-READ",
+      "contentFingerprint": "c29829f3b7ce37847b0a8515e4c4689fbc004a1a5e8d991d8101f57a1871afbb",
+      "authorAnswer": "C",
+      "blindAnswer": "C",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n2.json",
+        "fileSha256": "9797fb4af47bc0e6c1f3ee7fa5e7af5c3db8ff343bf37613c0c9735e3d3ec18d",
+        "itemFingerprintInDataset": "c29829f3b7ce37847b0a8515e4c4689fbc004a1a5e8d991d8101f57a1871afbb",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n2",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "cacea4de-bfec-4b55-8f7c-7b2ac7296430",
+        "rawOutputFile": "qa/raw_blind_review_n2.json",
+        "outputFileSha256": "98e979716eb04d67a69707240b0b074b02e64580190a15841d483a24ea419135",
+        "linguisticJustification": "「措置」の正しい音読みは「そち」。「措（ソ）」＋「置（チ）」。「措置を講じる」は頻出のコロケーション。Bの「しょち」は「処置」、Dの「そうち」は「装置」の読みであり、典型的な引っかけ選択肢。"
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N2-MO-READ-003",
+      "level": "N2",
+      "skill": "Vocabulary",
+      "typeId": "N2-MO-READ",
+      "contentFingerprint": "61cb40c848f144f10a78f7e43a1113938238021f127c65a70f2cfe846ed954be",
+      "authorAnswer": "B",
+      "blindAnswer": "B",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n2.json",
+        "fileSha256": "9797fb4af47bc0e6c1f3ee7fa5e7af5c3db8ff343bf37613c0c9735e3d3ec18d",
+        "itemFingerprintInDataset": "61cb40c848f144f10a78f7e43a1113938238021f127c65a70f2cfe846ed954be",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n2",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "cacea4de-bfec-4b55-8f7c-7b2ac7296430",
+        "rawOutputFile": "qa/raw_blind_review_n2.json",
+        "outputFileSha256": "98e979716eb04d67a69707240b0b074b02e64580190a15841d483a24ea419135",
+        "linguisticJustification": "「妥協」の正しい音読みは「だきょう」。「妥（ダ）」＋「協（キョウ）」。「妥協点を見出す」は定型的な共起表現。A「ときょう」、C「だごう」、D「たいきょう」は誤読。"
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N2-MO-READ-004",
+      "level": "N2",
+      "skill": "Vocabulary",
+      "typeId": "N2-MO-READ",
+      "contentFingerprint": "9a10c92130ef6f25775f4ad73e15339d2e6cce1bfa9caf3dc2fe9d5a86b60788",
+      "authorAnswer": "B",
+      "blindAnswer": "B",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n2.json",
+        "fileSha256": "9797fb4af47bc0e6c1f3ee7fa5e7af5c3db8ff343bf37613c0c9735e3d3ec18d",
+        "itemFingerprintInDataset": "9a10c92130ef6f25775f4ad73e15339d2e6cce1bfa9caf3dc2fe9d5a86b60788",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n2",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "cacea4de-bfec-4b55-8f7c-7b2ac7296430",
+        "rawOutputFile": "qa/raw_blind_review_n2.json",
+        "outputFileSha256": "98e979716eb04d67a69707240b0b074b02e64580190a15841d483a24ea419135",
+        "linguisticJustification": "動詞「蓄える（たくわえる）」のて形は「たくわえて」。Aは「抱えて」、Cは「託して」、Dは「備えて」の訓読みであり誤り。"
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N2-MO-READ-005",
+      "level": "N2",
+      "skill": "Vocabulary",
+      "typeId": "N2-MO-READ",
+      "contentFingerprint": "aec3a75899ae56482f6d4a90c1ca72ab6c976440bea9cc9b6aedc16cdeac0e3b",
+      "authorAnswer": "C",
+      "blindAnswer": "C",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n2.json",
+        "fileSha256": "9797fb4af47bc0e6c1f3ee7fa5e7af5c3db8ff343bf37613c0c9735e3d3ec18d",
+        "itemFingerprintInDataset": "aec3a75899ae56482f6d4a90c1ca72ab6c976440bea9cc9b6aedc16cdeac0e3b",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n2",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "cacea4de-bfec-4b55-8f7c-7b2ac7296430",
+        "rawOutputFile": "qa/raw_blind_review_n2.json",
+        "outputFileSha256": "98e979716eb04d67a69707240b0b074b02e64580190a15841d483a24ea419135",
+        "linguisticJustification": "「顕著」の正しい音読みは「けんちょ」。「顕（ケン）」＋「著（チョ）」。頭音は清音「けん」、第二拍も清音「ちょ」であり、濁音を含む選択肢（げんちょ、けんじょ）や拗音の違い（けんしょ）は誤り。"
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N2-MO-AFFX-001",
+      "level": "N2",
+      "skill": "Vocabulary",
+      "typeId": "N2-MO-AFFX",
+      "contentFingerprint": "8574087f2213d0d964ce1e129e3673c241cfc22edaf95b4c30433e37c91478a6",
+      "authorAnswer": "A",
+      "blindAnswer": "A",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n2.json",
+        "fileSha256": "9797fb4af47bc0e6c1f3ee7fa5e7af5c3db8ff343bf37613c0c9735e3d3ec18d",
+        "itemFingerprintInDataset": "8574087f2213d0d964ce1e129e3673c241cfc22edaf95b4c30433e37c91478a6",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n2",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "cacea4de-bfec-4b55-8f7c-7b2ac7296430",
+        "rawOutputFile": "qa/raw_blind_review_n2.json",
+        "outputFileSha256": "98e979716eb04d67a69707240b0b074b02e64580190a15841d483a24ea419135",
+        "linguisticJustification": "統計や社会人口学において国全体の人口を表す接頭辞は「総」であり、「総人口（そうじんこう）」が定着した複合語。「全人口」も文脈により意味は通じうるが、語形成およびJLPTの接頭辞コロケーションとして「総人口」が唯一の正解。"
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N2-MO-AFFX-002",
+      "level": "N2",
+      "skill": "Vocabulary",
+      "typeId": "N2-MO-AFFX",
+      "contentFingerprint": "b1a48b2d3bd725d48fef6b332b1dd70c9527186bf9c5efb4140caa6f72b5a0e8",
+      "authorAnswer": "B",
+      "blindAnswer": "B",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n2.json",
+        "fileSha256": "9797fb4af47bc0e6c1f3ee7fa5e7af5c3db8ff343bf37613c0c9735e3d3ec18d",
+        "itemFingerprintInDataset": "b1a48b2d3bd725d48fef6b332b1dd70c9527186bf9c5efb4140caa6f72b5a0e8",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n2",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "cacea4de-bfec-4b55-8f7c-7b2ac7296430",
+        "rawOutputFile": "qa/raw_blind_review_n2.json",
+        "outputFileSha256": "98e979716eb04d67a69707240b0b074b02e64580190a15841d483a24ea419135",
+        "linguisticJustification": "「様々な・多くの」という意味を名詞の前に付加する接頭辞は「諸（しょ）」であり、「諸問題（しょもんだい）」が確立した語形成。「総問題」「多問題」などの語は日本語に存在しない。"
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N2-MO-AFFX-003",
+      "level": "N2",
+      "skill": "Vocabulary",
+      "typeId": "N2-MO-AFFX",
+      "contentFingerprint": "5feaf6c2dd904d91646dc34550e2a6a90d42e8e08bceae279906f796a150cd42",
+      "authorAnswer": "D",
+      "blindAnswer": "D",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n2.json",
+        "fileSha256": "9797fb4af47bc0e6c1f3ee7fa5e7af5c3db8ff343bf37613c0c9735e3d3ec18d",
+        "itemFingerprintInDataset": "5feaf6c2dd904d91646dc34550e2a6a90d42e8e08bceae279906f796a150cd42",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n2",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "cacea4de-bfec-4b55-8f7c-7b2ac7296430",
+        "rawOutputFile": "qa/raw_blind_review_n2.json",
+        "outputFileSha256": "98e979716eb04d67a69707240b0b074b02e64580190a15841d483a24ea419135",
+        "linguisticJustification": "「侵害にあたる」と結びつく法的権利を表す接尾辞は「権（けん）」であり、「著作権（ちょさくけん）の侵害」が正確。法律名は「著作権法」であり「著作法」ではない。"
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N2-MO-AFFX-004",
+      "level": "N2",
+      "skill": "Vocabulary",
+      "typeId": "N2-MO-AFFX",
+      "contentFingerprint": "f7acd3fc04a6cde5049435bbc33175c08cd9e2f4a29aa7126880cb9c4c4e3104",
+      "authorAnswer": "D",
+      "blindAnswer": "D",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n2.json",
+        "fileSha256": "9797fb4af47bc0e6c1f3ee7fa5e7af5c3db8ff343bf37613c0c9735e3d3ec18d",
+        "itemFingerprintInDataset": "f7acd3fc04a6cde5049435bbc33175c08cd9e2f4a29aa7126880cb9c4c4e3104",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n2",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "cacea4de-bfec-4b55-8f7c-7b2ac7296430",
+        "rawOutputFile": "qa/raw_blind_review_n2.json",
+        "outputFileSha256": "98e979716eb04d67a69707240b0b074b02e64580190a15841d483a24ea419135",
+        "linguisticJustification": "「〜とみなす・見る」という意味を添えてサ変動詞化する接尾辞は「視（し）」。「疑問視される」は「問題視する」「重要視する」などと並ぶJLPT N2頻出の接尾語表現。"
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N2-MO-AFFX-005",
+      "level": "N2",
+      "skill": "Vocabulary",
+      "typeId": "N2-MO-AFFX",
+      "contentFingerprint": "9b85a40c552e40f4b777bf5ff5d76c7d0b66c327c208b51311b1414eaf18cd15",
+      "authorAnswer": "B",
+      "blindAnswer": "B",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n2.json",
+        "fileSha256": "9797fb4af47bc0e6c1f3ee7fa5e7af5c3db8ff343bf37613c0c9735e3d3ec18d",
+        "itemFingerprintInDataset": "9b85a40c552e40f4b777bf5ff5d76c7d0b66c327c208b51311b1414eaf18cd15",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n2",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "cacea4de-bfec-4b55-8f7c-7b2ac7296430",
+        "rawOutputFile": "qa/raw_blind_review_n2.json",
+        "outputFileSha256": "98e979716eb04d67a69707240b0b074b02e64580190a15841d483a24ea419135",
+        "linguisticJustification": "社会的な特定分野・社会集団の範囲を表す接尾辞は「界（かい）」。「教育界」は後続の「政界」との意味的・構造的対比（〜界のみならず…界からも）からも明確に一致する。"
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N2-MO-CONT-001",
+      "level": "N2",
+      "skill": "Vocabulary",
+      "typeId": "N2-MO-CONT",
+      "contentFingerprint": "bbae73d4ec2e29544d6939a16278d1a9ccaf86838c141855c123c983d4550dce",
+      "authorAnswer": "B",
+      "blindAnswer": "B",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n2.json",
+        "fileSha256": "9797fb4af47bc0e6c1f3ee7fa5e7af5c3db8ff343bf37613c0c9735e3d3ec18d",
+        "itemFingerprintInDataset": "bbae73d4ec2e29544d6939a16278d1a9ccaf86838c141855c123c983d4550dce",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n2",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "cacea4de-bfec-4b55-8f7c-7b2ac7296430",
+        "rawOutputFile": "qa/raw_blind_review_n2.json",
+        "outputFileSha256": "98e979716eb04d67a69707240b0b074b02e64580190a15841d483a24ea419135",
+        "linguisticJustification": "「漠然（ばくぜん）とした」は「ぼんやりとしてはっきりしないさま」を表し、「漠然としたイメージ」「漠然とした不安」のように用いる。文脈（まだ〜しか持っていない）に完全に合致する。"
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N2-MO-CONT-002",
+      "level": "N2",
+      "skill": "Vocabulary",
+      "typeId": "N2-MO-CONT",
+      "contentFingerprint": "1d9774b87ee4ac738897e248422a32c6a6acad884e37683d63430dbec9ca784d",
+      "authorAnswer": "A",
+      "blindAnswer": "A",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n2.json",
+        "fileSha256": "9797fb4af47bc0e6c1f3ee7fa5e7af5c3db8ff343bf37613c0c9735e3d3ec18d",
+        "itemFingerprintInDataset": "1d9774b87ee4ac738897e248422a32c6a6acad884e37683d63430dbec9ca784d",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n2",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "cacea4de-bfec-4b55-8f7c-7b2ac7296430",
+        "rawOutputFile": "qa/raw_blind_review_n2.json",
+        "outputFileSha256": "98e979716eb04d67a69707240b0b074b02e64580190a15841d483a24ea419135",
+        "linguisticJustification": "「緻密（ちみつ）」は「細部まで行き届いてすきまがないさま」を表し、「緻密な計画」という定型的な共起関係を持つ。後続の「失敗の余地がほとんどない」という論理展開にも完璧に適合する。"
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N2-MO-CONT-003",
+      "level": "N2",
+      "skill": "Vocabulary",
+      "typeId": "N2-MO-CONT",
+      "contentFingerprint": "13368c420a3ad6e86ea555fff8ff5f2046102660adf23ef1d2e47802cc1ce2a2",
+      "authorAnswer": "B",
+      "blindAnswer": "B",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n2.json",
+        "fileSha256": "9797fb4af47bc0e6c1f3ee7fa5e7af5c3db8ff343bf37613c0c9735e3d3ec18d",
+        "itemFingerprintInDataset": "13368c420a3ad6e86ea555fff8ff5f2046102660adf23ef1d2e47802cc1ce2a2",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n2",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "cacea4de-bfec-4b55-8f7c-7b2ac7296430",
+        "rawOutputFile": "qa/raw_blind_review_n2.json",
+        "outputFileSha256": "98e979716eb04d67a69707240b0b074b02e64580190a15841d483a24ea419135",
+        "linguisticJustification": "「おろそか（疎か）にする」は「いい加減に扱う、なおざりにする」を意味する慣用連語であり、「〜をおろそかにしてはならない」の形で強い戒めとして多用される。"
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N2-MO-CONT-004",
+      "level": "N2",
+      "skill": "Vocabulary",
+      "typeId": "N2-MO-CONT",
+      "contentFingerprint": "e962b8f279d856efd9122f6a1238b6a2e1f57ea1222fa38d3afe9f1a59033b87",
+      "authorAnswer": "C",
+      "blindAnswer": "C",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n2.json",
+        "fileSha256": "9797fb4af47bc0e6c1f3ee7fa5e7af5c3db8ff343bf37613c0c9735e3d3ec18d",
+        "itemFingerprintInDataset": "e962b8f279d856efd9122f6a1238b6a2e1f57ea1222fa38d3afe9f1a59033b87",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n2",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "cacea4de-bfec-4b55-8f7c-7b2ac7296430",
+        "rawOutputFile": "qa/raw_blind_review_n2.json",
+        "outputFileSha256": "98e979716eb04d67a69707240b0b074b02e64580190a15841d483a24ea419135",
+        "linguisticJustification": "「躊躇（ちゅうちょ）する」は「ためらう・迷う」の意。「少しも躊躇することなく即答した」は、即座に決断・回答した動作と直接対比を成す最も自然かつ典型的なコロケーションである。"
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N2-MO-CONT-005",
+      "level": "N2",
+      "skill": "Vocabulary",
+      "typeId": "N2-MO-CONT",
+      "contentFingerprint": "18a39d99a9d6022ba271c815fca06ceed64501583952e7a12664d0b14cd70dda",
+      "authorAnswer": "D",
+      "blindAnswer": "D",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n2.json",
+        "fileSha256": "9797fb4af47bc0e6c1f3ee7fa5e7af5c3db8ff343bf37613c0c9735e3d3ec18d",
+        "itemFingerprintInDataset": "18a39d99a9d6022ba271c815fca06ceed64501583952e7a12664d0b14cd70dda",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n2",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "cacea4de-bfec-4b55-8f7c-7b2ac7296430",
+        "rawOutputFile": "qa/raw_blind_review_n2.json",
+        "outputFileSha256": "98e979716eb04d67a69707240b0b074b02e64580190a15841d483a24ea419135",
+        "linguisticJustification": "「軌道（きどう）に乗る」は「計画や事業が順調に滑り出し、予定通りに進むようになる」を意味する慣用句。後半の「収益が安定してきた」と意味的に呼応する。"
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N2-GR-FORM-001",
+      "level": "N2",
+      "skill": "Grammar",
+      "typeId": "N2-GR-FORM",
+      "contentFingerprint": "623496595fdf4b39dbc759a5205abeb76a5ce1c69b15e025aa600437ed5f30f2",
+      "authorAnswer": "C",
+      "blindAnswer": "C",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n2.json",
+        "fileSha256": "9797fb4af47bc0e6c1f3ee7fa5e7af5c3db8ff343bf37613c0c9735e3d3ec18d",
+        "itemFingerprintInDataset": "623496595fdf4b39dbc759a5205abeb76a5ce1c69b15e025aa600437ed5f30f2",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n2",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "cacea4de-bfec-4b55-8f7c-7b2ac7296430",
+        "rawOutputFile": "qa/raw_blind_review_n2.json",
+        "outputFileSha256": "98e979716eb04d67a69707240b0b074b02e64580190a15841d483a24ea419135",
+        "linguisticJustification": "文型「〜のは、…にほかならない」は「まさに…である、それ以外のものではない」と理由や原因を強く肯定・特定するN2重要文型。称賛の文脈において「努力の賜物にほかならない」と呼応する。A「にすぎない」は価値を過小評価する表現のため文脈に反する。"
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N2-GR-FORM-002",
+      "level": "N2",
+      "skill": "Grammar",
+      "typeId": "N2-GR-FORM",
+      "contentFingerprint": "df809915ffe88fa3d62c1fb0f672135a228524acd4e0b399912dda92101efbdc",
+      "authorAnswer": "A",
+      "blindAnswer": "A",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n2.json",
+        "fileSha256": "9797fb4af47bc0e6c1f3ee7fa5e7af5c3db8ff343bf37613c0c9735e3d3ec18d",
+        "itemFingerprintInDataset": "df809915ffe88fa3d62c1fb0f672135a228524acd4e0b399912dda92101efbdc",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n2",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "cacea4de-bfec-4b55-8f7c-7b2ac7296430",
+        "rawOutputFile": "qa/raw_blind_review_n2.json",
+        "outputFileSha256": "98e979716eb04d67a69707240b0b074b02e64580190a15841d483a24ea419135",
+        "linguisticJustification": "「〜ざるを得ない」は「他に方法がなく、そうしなければならない（やむを得ず〜する）」という義務・必然性を表す（する→せざるを得ない）。赤字継続という仮定条件に対する帰結として論理的・統語的にAが唯一適切。C「せざるを得ず」は文末を終止できない連用中止形。"
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N2-GR-FORM-003",
+      "level": "N2",
+      "skill": "Grammar",
+      "typeId": "N2-GR-FORM",
+      "contentFingerprint": "d968908774862c242062ee7f399cae4f66d32d3514bf8a86aef2290be09ec53b",
+      "authorAnswer": "A",
+      "blindAnswer": "A",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_repaired_6.json",
+        "fileSha256": "0df362a545946ed353d53e3878a2143a08ec74db9a81a4ed69193057c0a4c809",
+        "itemFingerprintInDataset": "d968908774862c242062ee7f399cae4f66d32d3514bf8a86aef2290be09ec53b",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261016-repaired-6",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "cbfb8289-5e9d-4efa-84e7-d2710a0d4843",
+        "rawOutputFile": "qa/raw_blind_review_repaired_6.json",
+        "outputFileSha256": "0ca90b7ddec2a90393526cc1eeb5384694fee91a8ab7079054560222637199ea",
+        "linguisticJustification": "The formal N2 pattern 「〜つつある」 attaches to verb masu-stems (「増加し」) to signify an ongoing process of change ('is in the process of increasing / is increasing'). It is standard in formal expository writing describing social and statistical trends. Distractor B (「したきりだ」) indicates a single completed occurrence with no subsequent change; C (「しっこない」) is an informal colloquial pattern denoting strong subjective impossibility; D (「しがたい」) denotes psychological difficulty ('hard to do') and does not collocate with impersonal statistical trends like 「増加」."
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N2-GR-FORM-004",
+      "level": "N2",
+      "skill": "Grammar",
+      "typeId": "N2-GR-FORM",
+      "contentFingerprint": "1aa1906ce284485d8ddb6446148b693dcc8c828d04433e37b1adb450dfee6b8a",
+      "authorAnswer": "D",
+      "blindAnswer": "D",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n2.json",
+        "fileSha256": "9797fb4af47bc0e6c1f3ee7fa5e7af5c3db8ff343bf37613c0c9735e3d3ec18d",
+        "itemFingerprintInDataset": "1aa1906ce284485d8ddb6446148b693dcc8c828d04433e37b1adb450dfee6b8a",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n2",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "cacea4de-bfec-4b55-8f7c-7b2ac7296430",
+        "rawOutputFile": "qa/raw_blind_review_n2.json",
+        "outputFileSha256": "98e979716eb04d67a69707240b0b074b02e64580190a15841d483a24ea419135",
+        "linguisticJustification": "「二度と〜まい」は話者の強い否定の意志（二度と〜しないぞ）を表すN2文型。動詞辞書形「会う」に直接接続して「会うまい」となる。"
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N2-GR-FORM-005",
+      "level": "N2",
+      "skill": "Grammar",
+      "typeId": "N2-GR-FORM",
+      "contentFingerprint": "af90e1ef937d6be56d1d5760ded23a2ca6b721ca6eea6e609c7cb3ea2cc29b77",
+      "authorAnswer": "D",
+      "blindAnswer": "D",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n2.json",
+        "fileSha256": "9797fb4af47bc0e6c1f3ee7fa5e7af5c3db8ff343bf37613c0c9735e3d3ec18d",
+        "itemFingerprintInDataset": "af90e1ef937d6be56d1d5760ded23a2ca6b721ca6eea6e609c7cb3ea2cc29b77",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n2",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "cacea4de-bfec-4b55-8f7c-7b2ac7296430",
+        "rawOutputFile": "qa/raw_blind_review_n2.json",
+        "outputFileSha256": "98e979716eb04d67a69707240b0b074b02e64580190a15841d483a24ea419135",
+        "linguisticJustification": "「〜を契機に（して）」は「〜をきっかけ・好機として、新しい展開が始まる」ことを表す。工場の完成を機に市場進出を開始するという文脈に最も合致する。Bの「〜を皮切りに」は「同種の一連の行動が次々に広がる発端」に用いるため不適。"
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N2-GR-FORM-006",
+      "level": "N2",
+      "skill": "Grammar",
+      "typeId": "N2-GR-FORM",
+      "contentFingerprint": "fd69100a9032090f11445920c2b4ba3c3ac24178baab01a48266b9353c45d7e6",
+      "authorAnswer": "D",
+      "blindAnswer": "D",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n2.json",
+        "fileSha256": "9797fb4af47bc0e6c1f3ee7fa5e7af5c3db8ff343bf37613c0c9735e3d3ec18d",
+        "itemFingerprintInDataset": "fd69100a9032090f11445920c2b4ba3c3ac24178baab01a48266b9353c45d7e6",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n2",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "cacea4de-bfec-4b55-8f7c-7b2ac7296430",
+        "rawOutputFile": "qa/raw_blind_review_n2.json",
+        "outputFileSha256": "98e979716eb04d67a69707240b0b074b02e64580190a15841d483a24ea419135",
+        "linguisticJustification": "「〜をめぐって」は「〜を中心・争点として（議論・対立・争いなどが生じる）」を表すN2代表文型。「議論が交わされた」という後続節と密接に呼応する。"
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N2-GR-FORM-007",
+      "level": "N2",
+      "skill": "Grammar",
+      "typeId": "N2-GR-FORM",
+      "contentFingerprint": "4d97b061a2cb7185355613a1bca4ead81dc68daa4ee7d711edcf67e4842097be",
+      "authorAnswer": "A",
+      "blindAnswer": "A",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n2.json",
+        "fileSha256": "9797fb4af47bc0e6c1f3ee7fa5e7af5c3db8ff343bf37613c0c9735e3d3ec18d",
+        "itemFingerprintInDataset": "4d97b061a2cb7185355613a1bca4ead81dc68daa4ee7d711edcf67e4842097be",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n2",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "cacea4de-bfec-4b55-8f7c-7b2ac7296430",
+        "rawOutputFile": "qa/raw_blind_review_n2.json",
+        "outputFileSha256": "98e979716eb04d67a69707240b0b074b02e64580190a15841d483a24ea419135",
+        "linguisticJustification": "「〜に限って」は「運悪くその時に限って普段と違う不都合な事態が重なる」という皮肉・不満のニュアンスを表す。「傘を持たずに出てきた日に限って雨が降る」は本項目の代表的な例文。"
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N2-GR-FORM-008",
+      "level": "N2",
+      "skill": "Grammar",
+      "typeId": "N2-GR-FORM",
+      "contentFingerprint": "4a2f5d105b4b9e0568d4bb6b04fc521af898ca9e033ec166fa968c7a70468b61",
+      "authorAnswer": "A",
+      "blindAnswer": "A",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n2.json",
+        "fileSha256": "9797fb4af47bc0e6c1f3ee7fa5e7af5c3db8ff343bf37613c0c9735e3d3ec18d",
+        "itemFingerprintInDataset": "4a2f5d105b4b9e0568d4bb6b04fc521af898ca9e033ec166fa968c7a70468b61",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n2",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "cacea4de-bfec-4b55-8f7c-7b2ac7296430",
+        "rawOutputFile": "qa/raw_blind_review_n2.json",
+        "outputFileSha256": "98e979716eb04d67a69707240b0b074b02e64580190a15841d483a24ea419135",
+        "linguisticJustification": "文型「〜ものがある」は「話者が心からそう感じられる要素がある、感慨深い」という心情・感慨を表す表現。「胸に迫る（深く心に感じる）」と結びついて「胸に迫るものがある」として極めて自然に用いられる。"
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N2-GR-STAR-001",
+      "level": "N2",
+      "skill": "Grammar",
+      "typeId": "N2-GR-STAR",
+      "contentFingerprint": "024a3eacaf566b8e62e858bcd7d552f60f1c344a2d67445bd9002a526ff0345b",
+      "authorAnswer": "B",
+      "blindAnswer": "B",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n2.json",
+        "fileSha256": "9797fb4af47bc0e6c1f3ee7fa5e7af5c3db8ff343bf37613c0c9735e3d3ec18d",
+        "itemFingerprintInDataset": "024a3eacaf566b8e62e858bcd7d552f60f1c344a2d67445bd9002a526ff0345b",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n2",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "cacea4de-bfec-4b55-8f7c-7b2ac7296430",
+        "rawOutputFile": "qa/raw_blind_review_n2.json",
+        "outputFileSha256": "98e979716eb04d67a69707240b0b074b02e64580190a15841d483a24ea419135",
+        "linguisticJustification": "「〜どころか…も」は「〜だけでなく、さらにそれ以上の…」を表す構文。「信用を【失墜させる】（A）【どころか】（D）【存続をも】（B ★）【脅かしかねない】（C）重大な問題である」という語順が唯一成立する。したがって★に入るのはB。"
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N2-GR-STAR-002",
+      "level": "N2",
+      "skill": "Grammar",
+      "typeId": "N2-GR-STAR",
+      "contentFingerprint": "1a47d52b88b2e3569f5c41fa10360f1ae6031b84eba87476bebd6f9bcab32b81",
+      "authorAnswer": "B",
+      "blindAnswer": "B",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n2.json",
+        "fileSha256": "9797fb4af47bc0e6c1f3ee7fa5e7af5c3db8ff343bf37613c0c9735e3d3ec18d",
+        "itemFingerprintInDataset": "1a47d52b88b2e3569f5c41fa10360f1ae6031b84eba87476bebd6f9bcab32b81",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n2",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "cacea4de-bfec-4b55-8f7c-7b2ac7296430",
+        "rawOutputFile": "qa/raw_blind_review_n2.json",
+        "outputFileSha256": "98e979716eb04d67a69707240b0b074b02e64580190a15841d483a24ea419135",
+        "linguisticJustification": "「次第で」に接続できる名詞は「取り組み方（A）」のみ（「団結と（C）」は並列助詞「と」があるため文末に置けない）。また意味的に「団結」の修飾語は集団を表す「チームの（D）」でなければならず（×一人ひとりの団結）、「一人ひとりの（B）」は「取り組み方（A）」を修飾する。したがって語順は「【チームの】（D）【団結と】（C）【一人ひとりの】（B ★）【取り組み方】（A）次第で」となり、★はB。"
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N2-GR-STAR-003",
+      "level": "N2",
+      "skill": "Grammar",
+      "typeId": "N2-GR-STAR",
+      "contentFingerprint": "97c5fad2de7faa952be04dfdd2cf10af75a5ad560848a2e49a44b34cb00af46a",
+      "authorAnswer": "D",
+      "blindAnswer": "D",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n2.json",
+        "fileSha256": "9797fb4af47bc0e6c1f3ee7fa5e7af5c3db8ff343bf37613c0c9735e3d3ec18d",
+        "itemFingerprintInDataset": "97c5fad2de7faa952be04dfdd2cf10af75a5ad560848a2e49a44b34cb00af46a",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n2",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "cacea4de-bfec-4b55-8f7c-7b2ac7296430",
+        "rawOutputFile": "qa/raw_blind_review_n2.json",
+        "outputFileSha256": "98e979716eb04d67a69707240b0b074b02e64580190a15841d483a24ea419135",
+        "linguisticJustification": "「いくら〜からといって（いくら専門知識が豊富だからといって）」＋「〜ていては…ない（傲慢な態度をとっていては周囲の信頼は得られない）」という構文の組み合わせ。語順は「【豊富だから】（A）【といって】（C）【傲慢な態度を】（D ★）【とっていては】（B）」となり、★の位置はD。"
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N2-GR-STAR-004",
+      "level": "N2",
+      "skill": "Grammar",
+      "typeId": "N2-GR-STAR",
+      "contentFingerprint": "0c03536565803d30854b2f81c0e89994ac727b1a97dab3b591384b372ab5bd95",
+      "authorAnswer": "C",
+      "blindAnswer": "C",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n2.json",
+        "fileSha256": "9797fb4af47bc0e6c1f3ee7fa5e7af5c3db8ff343bf37613c0c9735e3d3ec18d",
+        "itemFingerprintInDataset": "0c03536565803d30854b2f81c0e89994ac727b1a97dab3b591384b372ab5bd95",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n2",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "cacea4de-bfec-4b55-8f7c-7b2ac7296430",
+        "rawOutputFile": "qa/raw_blind_review_n2.json",
+        "outputFileSha256": "98e979716eb04d67a69707240b0b074b02e64580190a15841d483a24ea419135",
+        "linguisticJustification": "「綿密な」に続く名詞は「計画にも（B）」のみ。続いて逆接文型「〜にもかかわらず（A）」が成立する。後半は場所を示す「現場では（D）」を「本番の（C）」が修飾して「本番の現場では」となる。完全な語順は「【計画にも】（B）【かかわらず】（A）【本番の】（C ★）【現場では】（D）」となり、★はC。"
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N2-RD-SHOR-001",
+      "level": "N2",
+      "skill": "Reading",
+      "typeId": "N2-RD-SHOR",
+      "contentFingerprint": "46256ad403fea6c599a4b5824422502f12c2db42bf3c7fd0c6d4280e48407361",
+      "authorAnswer": "C",
+      "blindAnswer": "C",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n2.json",
+        "fileSha256": "9797fb4af47bc0e6c1f3ee7fa5e7af5c3db8ff343bf37613c0c9735e3d3ec18d",
+        "itemFingerprintInDataset": "46256ad403fea6c599a4b5824422502f12c2db42bf3c7fd0c6d4280e48407361",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n2",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "cacea4de-bfec-4b55-8f7c-7b2ac7296430",
+        "rawOutputFile": "qa/raw_blind_review_n2.json",
+        "outputFileSha256": "98e979716eb04d67a69707240b0b074b02e64580190a15841d483a24ea419135",
+        "linguisticJustification": "本文末尾の「技術を過信することなく、人間とAIがそれぞれの強みを補完し合う体制の構築こそが、持続可能な発展をもたらすのである」が筆者の明確な主張であり、選択肢Cの「AIと人間がそれぞれの強みを活かして協力し合う関係を築くべきだ」と論旨が完全に一致する。"
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N2-RD-SHOR-002",
+      "level": "N2",
+      "skill": "Reading",
+      "typeId": "N2-RD-SHOR",
+      "contentFingerprint": "829e4663049229c65d2d3707680d19b253f8278fdd3590a32fd9e3f9b4e5f1fb",
+      "authorAnswer": "D",
+      "blindAnswer": "D",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n2.json",
+        "fileSha256": "9797fb4af47bc0e6c1f3ee7fa5e7af5c3db8ff343bf37613c0c9735e3d3ec18d",
+        "itemFingerprintInDataset": "829e4663049229c65d2d3707680d19b253f8278fdd3590a32fd9e3f9b4e5f1fb",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n2",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "cacea4de-bfec-4b55-8f7c-7b2ac7296430",
+        "rawOutputFile": "qa/raw_blind_review_n2.json",
+        "outputFileSha256": "98e979716eb04d67a69707240b0b074b02e64580190a15841d483a24ea419135",
+        "linguisticJustification": "本文中に「業務に関する記述はもちろんのこと、社内の様子が推測できる写真の投稿も固く禁止します」と明記されており、全社員に求めている具体的行動はSNSでの情報・写真投稿の禁止であるDが客観的に正解。"
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    },
+    {
+      "id": "N2-RD-SHOR-003",
+      "level": "N2",
+      "skill": "Reading",
+      "typeId": "N2-RD-SHOR",
+      "contentFingerprint": "7260d95f6e3eadc6adbf0a3ce6786d03decf6f0c292c8fcdda32352acb2fba9f",
+      "authorAnswer": "D",
+      "blindAnswer": "D",
+      "keyAgreement": true,
+      "confidence": "HIGH",
+      "alternativeAnswers": [],
+      "reviewerConcerns": null,
+      "inputDataset": {
+        "file": "qa/blind_review_n2.json",
+        "fileSha256": "9797fb4af47bc0e6c1f3ee7fa5e7af5c3db8ff343bf37613c0c9735e3d3ec18d",
+        "itemFingerprintInDataset": "7260d95f6e3eadc6adbf0a3ce6786d03decf6f0c292c8fcdda32352acb2fba9f",
+        "matchesBankFingerprint": true
+      },
+      "reviewExecution": {
+        "batchId": "batch-20261015-n2",
+        "reviewer": "subagent:jlpt-blind-reviewer",
+        "conversationId": "cacea4de-bfec-4b55-8f7c-7b2ac7296430",
+        "rawOutputFile": "qa/raw_blind_review_n2.json",
+        "outputFileSha256": "98e979716eb04d67a69707240b0b074b02e64580190a15841d483a24ea419135",
+        "linguisticJustification": "本文の「時代とともに変化する現代の生活様式に合わせて、新たなデザインや用途を開拓してこそ、伝統は生命力を保ち続けることができる」という記述と、選択肢D「現代の暮らしに合わせて新しいデザインや用途を取り入れるべきだ」が完全に合致する。Cは第1文の否定内容と矛盾する。"
+      },
+      "provenanceStatus": "CRYPTOGRAPHICALLY_VERIFIED",
+      "contentValidity": "QA_VERIFIED"
+    }
+  ]
+}

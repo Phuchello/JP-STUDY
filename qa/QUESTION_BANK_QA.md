@@ -39,6 +39,11 @@
 
 ### 3. TÀI LIỆU VÀ CHỨNG CỨ KIỂM TOÁN
 - **Báo cáo đối soát giải mù độc lập:** [`qa/BLIND_REVIEW_RECONCILIATION_REPORT.md`](BLIND_REVIEW_RECONCILIATION_REPORT.md)
+- **Báo cáo kiểm toán tái lập P0 (Reproducibility & Invariance):** [`qa/REPRODUCIBILITY_AUDIT.md`](REPRODUCIBILITY_AUDIT.md)
+- **Manifest chứng thực vân tay mật mã (Canonical SHA-256 NFC):** [`qa/CONTENT_FINGERPRINT_MANIFEST.json`](CONTENT_FINGERPRINT_MANIFEST.json)
+- **Báo cáo kiểm toán nguồn gốc thẩm định (Provenance Audit):** [`qa/REVIEW_PROVENANCE_AUDIT.md`](REVIEW_PROVENANCE_AUDIT.md)
+- **Báo cáo kiểm toán hoán vị câu hỏi dấu sao (Star Permutation 24!):** [`qa/STAR_PERMUTATION_AUDIT.md`](STAR_PERMUTATION_AUDIT.md)
+- **Cổng kiểm soát phát hành bộ đề (7 Release Dimensions):** [`qa/PRACTICE_RELEASE_GATE.md`](PRACTICE_RELEASE_GATE.md)
 - **Tập dữ liệu giải mù đầu vào (không có đáp án/giải thích):**
   - Toàn bộ 120 câu: [`qa/blind_review_dataset.json`](blind_review_dataset.json)
   - N4 (40 câu): [`qa/blind_review_n4.json`](blind_review_n4.json)

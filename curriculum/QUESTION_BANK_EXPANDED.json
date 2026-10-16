@@ -1,5 +1,5 @@
 {
-  "bankVersion": "phase3.7-120-reseeded-2026.10.15",
+  "bankVersion": "phase3.7-120-reseeded-2026.10.16",
   "totalQuestions": 120,
   "levels": {
     "N4": 40,
@@ -13,7 +13,8 @@
     "A": 33
   },
   "authority": "JEES / The Japan Foundation JLPT Specifications & Official Samples",
-  "description": "120 câu hỏi nguyên bản mới với phân bổ đáp án xáo trộn hạt giống (seeded shuffle), loại bỏ chu kỳ lặp ABCD. Trạng thái hiện tại: INDEPENDENT_QA_PENDING.",
+  "description": "120 câu hỏi nguyên bản mới với phân bổ đáp án xáo trộn hạt giống (seeded shuffle), loại bỏ chu kỳ lặp ABCD. Trạng thái kiểm định: QA_VERIFIED.",
+  "status": "QA_VERIFIED",
   "questions": [
     {
       "id": "N4-MO-READ-001",
@@ -56,22 +57,16 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "案内",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "C",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n4.json",
           "batch": "base_n4",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "cc881c5550597e05365b661f866694e296f6f88f497cce4a1ce6a38e8cd916d8"
         }
       }
     },
@@ -116,22 +111,16 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "貸しました",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "D",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n4.json",
           "batch": "base_n4",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "26a6f1927299da5095ec653e4678f05bbd377c9d03e5fc79be18888789cdf084"
         }
       }
     },
@@ -176,22 +165,16 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "計画",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "B",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n4.json",
           "batch": "base_n4",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "2500a86b47bebec9d66654171dd3ac42962b0d65b23728197fa74fb3bd237d41"
         }
       }
     },
@@ -236,22 +219,16 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "拾いました",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "C",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n4.json",
           "batch": "base_n4",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "8e3132414d3b2d1956fe77322f1c8f020bad2653e91003bb9bd90461a3932f95"
         }
       }
     },
@@ -296,22 +273,16 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "質問",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "C",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n4.json",
           "batch": "base_n4",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "b7987ff4723b9eb8beed067aad6c21cce33a0ee408346735e8a51aa9c43fe10d"
         }
       }
     },
@@ -356,22 +327,16 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "送りました",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "B",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n4.json",
           "batch": "base_n4",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "4d1a5e6e60a64b009352b02e7223ca1fd9c147848031e3c4cf3dead729b31177"
         }
       }
     },
@@ -416,22 +381,16 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "道具",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "A",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n4.json",
           "batch": "base_n4",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "972c714737b34fd3bf75bc11dd46f3022f0cc3fc7223064ebd0911a8025040a9"
         }
       }
     },
@@ -476,22 +435,16 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "特別",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "A",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n4.json",
           "batch": "base_n4",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "9724aef1b96eb8f3812150e192dafae0c22585a502b7b7daba1561d100ad42d3"
         }
       }
     },
@@ -535,22 +488,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "C",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n4.json",
           "batch": "base_n4",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "c43a76e1f177952c36110fec04233c700b88f3a6b6670f19f8804cc7b782cd57"
         }
       }
     },
@@ -594,22 +541,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "B",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n4.json",
           "batch": "base_n4",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "e7e272cc8ce7899a702a6980e305514d00ae103c95bffbbf36f0911cd7c23fa2"
         }
       }
     },
@@ -653,22 +594,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "D",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n4.json",
           "batch": "base_n4",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "981d0a8c04bf8ad6869abba5ee12090daa630f4843307f585ca0451f8cda4ba1"
         }
       }
     },
@@ -712,22 +647,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "D",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n4.json",
           "batch": "base_n4",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "27130de8433791110a08e8a8ff24e657db2237145bc1a51473214f353274b8fd"
         }
       }
     },
@@ -771,22 +700,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "A",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n4.json",
           "batch": "base_n4",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "2cfc38b798dce220a936c9535197b6f920352ef0e3b9eff19e1a7781671272f2"
         }
       }
     },
@@ -830,22 +753,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "C",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n4.json",
           "batch": "base_n4",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "02c367b786a12d652dd28bb8fc9b9f2bc4b3e2b6503d96a78363590d49df24f3"
         }
       }
     },
@@ -889,22 +806,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "B",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n4.json",
           "batch": "base_n4",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "4af2a921a55deee8aa5c94c1b8c451ffcd4d547c03d742e52d271447aa42abf6"
         }
       }
     },
@@ -948,22 +859,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "A",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n4.json",
           "batch": "base_n4",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "8b3e186d717fb028aef3405c71305764856d59d52b9692ec0c2367e102bba03c"
         }
       }
     },
@@ -1007,22 +912,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "B",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n4.json",
           "batch": "base_n4",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "fa3b0c854f4c5133c0130d9341a26bc7b97b85139d468965316b51fc014a78e3"
         }
       }
     },
@@ -1066,22 +965,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "B",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n4.json",
           "batch": "base_n4",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "893f0795ab79cc5d8059a7bb3902bf0f13287c21237157513aae78129eda1eca"
         }
       }
     },
@@ -1125,22 +1018,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "D",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n4.json",
           "batch": "base_n4",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "4db34cd431e3cff7664a878108d18535fa4ec91df4a4b0ec04d76e29228b2c1c"
         }
       }
     },
@@ -1184,22 +1071,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "B",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n4.json",
           "batch": "base_n4",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "9632a3c4a4ec0e3c575d34ee3c1950d93ff74acef64beb61cb9f414c71d67e2d"
         }
       }
     },
@@ -1243,22 +1124,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "D",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n4.json",
           "batch": "base_n4",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "43236466c9cdb092f093a3d00b03573863802c77f506677b2ab224a4c04eb58a"
         }
       }
     },
@@ -1302,22 +1177,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "B",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n4.json",
           "batch": "base_n4",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "791e7b4a07bd247f899b680c3a0e2ac1ca0321747c940c1debfc94eb9332612a"
         }
       }
     },
@@ -1361,22 +1230,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "A",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n4.json",
           "batch": "base_n4",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "464ee729dfa3da85a10bec27446fc0dba8feba567b4153bc4689913a401b91cf"
         }
       }
     },
@@ -1420,22 +1283,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "C",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n4.json",
           "batch": "base_n4",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "b651986e92aad3dfab8a41175a742caa3ea695885922d2e09cfac87f1f9ab3d7"
         }
       }
     },
@@ -1479,22 +1336,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "D",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n4.json",
           "batch": "base_n4",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "d16f7869a12348b01dd58a438f42db67359a22721b746829bb568f4c8bfeb1d8"
         }
       }
     },
@@ -1538,22 +1389,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "historicalReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "A",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_repaired_6.json",
           "batch": "repaired_targeted",
-          "timestamp": "2026-10-16T07:42:37.369956+00:00",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "timestamp": "2026-10-16T08:08:27.358219+00:00",
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "7eeec32b9584542df043199aee4aac046f5e410c6db55da5dbf1a09ee230f80c"
         }
       }
     },
@@ -1597,22 +1442,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "A",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n4.json",
           "batch": "base_n4",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "b941544dfd183a968330ef8edeb663118dae1d2cf89d9119ef32fdb6d68c7b13"
         }
       }
     },
@@ -1656,22 +1495,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "C",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n4.json",
           "batch": "base_n4",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "9a0809dd80c817abcc74e557a0ce1791073b311cb219d8182b161cd01f4a09d1"
         }
       }
     },
@@ -1716,22 +1549,16 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "assembledSentence": "朝慌てて探すことがないように夜のうちに服を準備しておきます。",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "D",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n4.json",
           "batch": "base_n4",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "98aecc2bf11f582ccbe1b0633b21acc6fe3a56397e80ed75fbd3bd23f7764822"
         }
       }
     },
@@ -1776,22 +1603,16 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "assembledSentence": "来年の夏休みには、北海道に住んでいる友達に会いに行く予定です。",
-      "historicalReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "D",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_repaired_6.json",
           "batch": "repaired_targeted",
-          "timestamp": "2026-10-16T07:42:37.369956+00:00",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "timestamp": "2026-10-16T08:08:27.358219+00:00",
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "a7de6f437d0ba643a5e3097e5c3ac5a0e91d8bdce7813e09d7ac8acdf7206650"
         }
       }
     },
@@ -1836,22 +1657,16 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "assembledSentence": "風邪をひいたときは、無理をしないで暖かくしてゆっくり休んだほうがいいですよ。",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "A",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n4.json",
           "batch": "base_n4",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "dd4d9cfff1e734771e373f88e503832cfcd08462f6153fe13ced350189ff19f7"
         }
       }
     },
@@ -1896,22 +1711,16 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "assembledSentence": "昨日は熱が高くて起き上がることができなかったので学校を休みました。",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "A",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n4.json",
           "batch": "base_n4",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "f553f19a9315cba7c11e47ed21c132147496bc1cfdeeb7b1f716c0a8825ae866"
         }
       }
     },
@@ -1956,22 +1765,16 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "assembledSentence": "この辞書は文字が大きくて説明もわかりやすいのでとても便利です。",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "B",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n4.json",
           "batch": "base_n4",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "ec025cab61c2f73aa3fe4174d6053dd422445514ec507db38b0ce1edac617eb1"
         }
       }
     },
@@ -2016,22 +1819,16 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "assembledSentence": "将来自分の店を持つためにお金をためようと一生懸命働いています。",
-      "historicalReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "A",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_repaired_6.json",
           "batch": "repaired_targeted",
-          "timestamp": "2026-10-16T07:42:37.369956+00:00",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "timestamp": "2026-10-16T08:08:27.358219+00:00",
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "8effaa221d34a72565130aef62d591ede07201c53705da950975f51591b8cb82"
         }
       }
     },
@@ -2075,22 +1872,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "A",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n4.json",
           "batch": "base_n4",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "385c462240863970cacd3a45a292746883a200f3ea9e8121d4c9c7f447de087d"
         }
       }
     },
@@ -2134,22 +1925,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "D",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n4.json",
           "batch": "base_n4",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "136480c4d5a34a596e401eb9e28806b633c14c34f15c3466a2c11653841995ef"
         }
       }
     },
@@ -2193,22 +1978,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "D",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n4.json",
           "batch": "base_n4",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "7ee6baa4b1750b66a67c59e4dbec3fdd42026c4763b60a9c1cd02db4d4e61490"
         }
       }
     },
@@ -2252,22 +2031,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "A",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n4.json",
           "batch": "base_n4",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "35048318a45225c36692a30e8211b1f43686c69703e1c50443f1992e7a9db8d6"
         }
       }
     },
@@ -2311,22 +2084,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "C",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n4.json",
           "batch": "base_n4",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "8c2910faa9164db143faa1be346793f6e350563f7d67fea44f78557824526069"
         }
       }
     },
@@ -2370,22 +2137,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "B",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n4.json",
           "batch": "base_n4",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "c2722339361be4ad54efba5d21811e2ebc27899ad3fd8294ee56b52bbddcdabb"
         }
       }
     },
@@ -2430,22 +2191,16 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "延期",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "B",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "802650aa9e805f8ec0bbcc74133a9d838411b2828557a3824a5a73233c97ae2c"
         }
       }
     },
@@ -2490,22 +2245,16 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "抱えて",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "A",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "326fc80c960418f1a4a8074bbe80fe779f3dc65b684fb8c3beea6ac996700b02"
         }
       }
     },
@@ -2550,22 +2299,16 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "欧米",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "D",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "b331f30a2082f3ce3e129297dc6e0640e592201f5555687457199bbb5691aa90"
         }
       }
     },
@@ -2610,22 +2353,16 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "湿気",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "D",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "2132cc41fbe8fc84d2b0642c673006785a0c43a70e913b3019e485d9561dc604"
         }
       }
     },
@@ -2670,22 +2407,16 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "耕して",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "A",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "3dfca4318e7db6929b12fba8b296cb4332bfdd571a99e940c2dccae9d461f90f"
         }
       }
     },
@@ -2730,22 +2461,16 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "診察",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "D",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "25532914fc495c95d3f0ffc3b15c5955c035173066c14976ade0dac634e5c630"
         }
       }
     },
@@ -2790,22 +2515,16 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "豊富",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "B",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "aa493d5bd68402bf69050a24b3e16c5ff1205392a3bf373e293cbecb209b5f14"
         }
       }
     },
@@ -2850,22 +2569,16 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "補う",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "B",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "08a55c50097220c17c0613982f0587a4738cbd2ea7cbacee5bd51d2eaaad6909"
         }
       }
     },
@@ -2909,22 +2622,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "C",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "2bb1fed8c0bce1ddc9cc701143871550e9b078aa08669a77ac4afb8edd291b65"
         }
       }
     },
@@ -2968,22 +2675,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "A",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "754022785908bb62168901ba07aae1ac1dbb999f83698149d42ca108110e1bdf"
         }
       }
     },
@@ -3027,22 +2728,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "A",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "c6a235d60530dd703c2e165d70178cb5027e85d04166445254391d890ba6dc80"
         }
       }
     },
@@ -3086,22 +2781,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "A",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "3424d9743c71138ebcc2ceec713bcf2c5b00a78681a637f933539f9b27a34169"
         }
       }
     },
@@ -3145,22 +2834,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "D",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "8abee1c62c37d19a3c78c6e218aed8ba888900a7fc5211fa8067af57472c1503"
         }
       }
     },
@@ -3204,22 +2887,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "C",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "6d169a87b427b268a829f359b9a893d43814cd21264123ccb25ce90e18c21e9d"
         }
       }
     },
@@ -3263,22 +2940,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "A",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "db49d3ac8fc8b8ab3a2a4b3f82ce1e62a76dbc234e6436444cd1f0f9cf359f9f"
         }
       }
     },
@@ -3322,22 +2993,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "A",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "57e5fb916b98295c76575af901fad893d9aec929dc5817e88093abb5242ad2b3"
         }
       }
     },
@@ -3381,22 +3046,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "B",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "cc4e59f80dd5a84eeda529c04176d96253638389cf012bb972fa2878e7ec4b4d"
         }
       }
     },
@@ -3440,22 +3099,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "C",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "7d38a866cfbdcab2eed6b7c21ab0d5823de9cdf563086fd26061316c794b8a17"
         }
       }
     },
@@ -3499,22 +3152,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "C",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "ae5ae755fdd4ddbb2d9395835ee8cf5f2b833b622f23bba0f99519d4be3e7378"
         }
       }
     },
@@ -3558,22 +3205,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "B",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "25cce2432feffb84458ea89a53967e657590fbd74b3c20b3c7656c6207a176e6"
         }
       }
     },
@@ -3617,22 +3258,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "B",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "3ee414cb2043f86bb1a1e277280f50657275e06ec28838fc6ef25a53467be31d"
         }
       }
     },
@@ -3676,22 +3311,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "D",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "5336ac958c1658d62980fa9eec9c97ac1eb3a4374e1bda02d6c584754df1a376"
         }
       }
     },
@@ -3735,22 +3364,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "C",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "f5e473cf17f9958a21ce8b57796f78248dc3f828b04d8a4ff3787d5c621d0a91"
         }
       }
     },
@@ -3794,22 +3417,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "B",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "50e64b5e966a3e3f7d8e07ce8f4836f593fed9acefdc4b3aa8be19a46e4e2748"
         }
       }
     },
@@ -3853,22 +3470,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "D",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "e8e6b5d5854276c432f5a3c1c02533dfedf20c0b4b7db5b567ad653130020d12"
         }
       }
     },
@@ -3912,22 +3523,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "C",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "ee3ca02ec5f6fe30c040ff707aa7aac39e3b3b3bd3636573a635524ad3f17f50"
         }
       }
     },
@@ -3971,22 +3576,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "A",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "4e5e96a7bd99b992e7aabeb3af5e2b4ef033d36545ace60bc9ac4538eb3cd870"
         }
       }
     },
@@ -4030,22 +3629,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "C",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "419cd72efa24802cc330cef7d6ce6191aca2cb96e94a2be87dc93f8ee2f5b937"
         }
       }
     },
@@ -4089,22 +3682,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "A",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "43a9cf648687e3b99e9dfa162bb8bb08ad7346b1d42dd777a7e323f1489f0cba"
         }
       }
     },
@@ -4148,22 +3735,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "historicalReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "B",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_repaired_6.json",
           "batch": "repaired_targeted",
-          "timestamp": "2026-10-16T07:42:37.369956+00:00",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "timestamp": "2026-10-16T08:08:27.358219+00:00",
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "1b1c6582253c5acdeafefd25cf5dea1c79ad222382895121c5f43497ddafcdc1"
         }
       }
     },
@@ -4207,22 +3788,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "C",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "0ac94be628290d81cca8d488c637f2275338494bd792d9209c48c97119e95753"
         }
       }
     },
@@ -4266,22 +3841,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "C",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "3a12209efaa315483e438af61ef6e0b9d937e6bc6b840c6ebd003e406c021bf0"
         }
       }
     },
@@ -4325,22 +3894,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "D",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "24aadc7d4812306f404ab3cd2e5d7a6e65ec945e9b55ac43a0aec509007668a9"
         }
       }
     },
@@ -4384,22 +3947,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "A",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "4302e920b29bf168c434dc60d2f36a5fd89062ddc71dd94710b2b68920fca125"
         }
       }
     },
@@ -4443,22 +4000,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "C",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "c75ec77d5fac9973e2bfb823bb388aa57bba1cb34d740b37bc853095cdeb12fd"
         }
       }
     },
@@ -4502,22 +4053,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "B",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "12a4531927b5c635b8671a06b4d1642e36aab0e16ab49fd74176a825381ba639"
         }
       }
     },
@@ -4562,22 +4107,16 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "assembledSentence": "年齢や経験の有無にかかわらず意欲があれば誰でも応募できます。",
-      "historicalReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "A",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_repaired_6.json",
           "batch": "repaired_targeted",
-          "timestamp": "2026-10-16T07:42:37.369956+00:00",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "timestamp": "2026-10-16T08:08:27.358219+00:00",
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "1a78d433d822942c5e284e52e801edce0db162e55f07e2228070eb0c48c17312"
         }
       }
     },
@@ -4622,22 +4161,16 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "assembledSentence": "一人暮らしは自由で気楽な反面、ふとした時に寂しさを感じることもある。",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "C",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "9a8ced2cb9991ce9fd4441c7432202c9d3f1e9de40453dba2b86d93a97dec9b5"
         }
       }
     },
@@ -4682,22 +4215,16 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "assembledSentence": "ボランティア団体を中心として集まった多くの住民により地域の清掃活動が行われた。",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "A",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "02a0850bf13bb2becb878ca040c4da08d640d44b3afb51c6dbf02a16eaa3a21d"
         }
       }
     },
@@ -4742,22 +4269,16 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "assembledSentence": "海外でのボランティア活動を通じて多くの友人と、かけがえのない経験を得ることができた。",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "B",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "583a4c76840ea747dc7d59dcef4e06a89281d6016bed03d50d0dc09773b73fe7"
         }
       }
     },
@@ -4802,22 +4323,16 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "assembledSentence": "情報通信技術の発展に伴ってオンラインサービスが普及し、人々の生活様式も大きく変わった。",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "C",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "04de636cf6a062ae457dd72d7ccbfb653f20990a5aa69ccdff8f22d9f19a5817"
         }
       }
     },
@@ -4862,22 +4377,16 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "assembledSentence": "従来の製品と比べて新型モデルは性能が向上したうえに消費電力が30％も削減された。",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "A",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "2311917699d9a907597b1cd88ce1c5beed3c3990091e031a955ecf0e9849b06c"
         }
       }
     },
@@ -4921,22 +4430,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "D",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "b82e2296561419f97cfc964cc385b6851b2199cd0afb423726e426380d608340"
         }
       }
     },
@@ -4980,22 +4483,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "A",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "8c081f40cc65057990ae05e19ef2e74aa9162c051b0c11f516f9901d090193c9"
         }
       }
     },
@@ -5039,22 +4536,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "C",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "3f267d5c755d662d58bf7f16b95316e78ef98457d998340cfeae52bf6ebce00f"
         }
       }
     },
@@ -5098,22 +4589,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "C",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "2a7114b583e3ed5e5d73b6362a797dce5272498ce2044c52b9c75c46a9979aca"
         }
       }
     },
@@ -5157,22 +4642,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "A",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "55c7c294f87c5cdb08570c21ced045b4825e87575abfb9d69e4ef9357a0f60e0"
         }
       }
     },
@@ -5216,22 +4695,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "C",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "a5358b13d21cd12b318e7bd9dc58d9588c4ca64b75629f1664c5568e15f88f2a"
         }
       }
     },
@@ -5275,22 +4748,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "B",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "a4031de95c04d940ea3615d50bac6907690d175443ce20c624ac40b9e028a0f7"
         }
       }
     },
@@ -5334,22 +4801,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "B",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "a703a86483262803460ef36571532779b15e5d226d7c4f81478d0c46391e63f0"
         }
       }
     },
@@ -5394,22 +4855,16 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "把握",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "D",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n2.json",
           "batch": "base_n2",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "0b22ebdd70c0fef4fee0ac36a885b87fe1895c1c8158d9540717232f2a779a82"
         }
       }
     },
@@ -5454,22 +4909,16 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "措置",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "C",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n2.json",
           "batch": "base_n2",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "c29829f3b7ce37847b0a8515e4c4689fbc004a1a5e8d991d8101f57a1871afbb"
         }
       }
     },
@@ -5514,22 +4963,16 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "妥協",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "B",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n2.json",
           "batch": "base_n2",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "61cb40c848f144f10a78f7e43a1113938238021f127c65a70f2cfe846ed954be"
         }
       }
     },
@@ -5574,22 +5017,16 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "蓄えて",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "B",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n2.json",
           "batch": "base_n2",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "9a10c92130ef6f25775f4ad73e15339d2e6cce1bfa9caf3dc2fe9d5a86b60788"
         }
       }
     },
@@ -5634,22 +5071,16 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "targetBracketWord": "顕著",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "C",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n2.json",
           "batch": "base_n2",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "aec3a75899ae56482f6d4a90c1ca72ab6c976440bea9cc9b6aedc16cdeac0e3b"
         }
       }
     },
@@ -5693,22 +5124,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "A",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n2.json",
           "batch": "base_n2",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "8574087f2213d0d964ce1e129e3673c241cfc22edaf95b4c30433e37c91478a6"
         }
       }
     },
@@ -5752,22 +5177,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "B",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n2.json",
           "batch": "base_n2",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "b1a48b2d3bd725d48fef6b332b1dd70c9527186bf9c5efb4140caa6f72b5a0e8"
         }
       }
     },
@@ -5811,22 +5230,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "D",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n2.json",
           "batch": "base_n2",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "5feaf6c2dd904d91646dc34550e2a6a90d42e8e08bceae279906f796a150cd42"
         }
       }
     },
@@ -5870,22 +5283,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "D",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n2.json",
           "batch": "base_n2",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "f7acd3fc04a6cde5049435bbc33175c08cd9e2f4a29aa7126880cb9c4c4e3104"
         }
       }
     },
@@ -5929,22 +5336,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "B",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n2.json",
           "batch": "base_n2",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "9b85a40c552e40f4b777bf5ff5d76c7d0b66c327c208b51311b1414eaf18cd15"
         }
       }
     },
@@ -5988,22 +5389,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "B",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n2.json",
           "batch": "base_n2",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "bbae73d4ec2e29544d6939a16278d1a9ccaf86838c141855c123c983d4550dce"
         }
       }
     },
@@ -6047,22 +5442,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "A",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n2.json",
           "batch": "base_n2",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "1d9774b87ee4ac738897e248422a32c6a6acad884e37683d63430dbec9ca784d"
         }
       }
     },
@@ -6106,22 +5495,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "B",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n2.json",
           "batch": "base_n2",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "13368c420a3ad6e86ea555fff8ff5f2046102660adf23ef1d2e47802cc1ce2a2"
         }
       }
     },
@@ -6165,22 +5548,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "C",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n2.json",
           "batch": "base_n2",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "e962b8f279d856efd9122f6a1238b6a2e1f57ea1222fa38d3afe9f1a59033b87"
         }
       }
     },
@@ -6224,22 +5601,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "D",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n2.json",
           "batch": "base_n2",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "18a39d99a9d6022ba271c815fca06ceed64501583952e7a12664d0b14cd70dda"
         }
       }
     },
@@ -6283,22 +5654,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "C",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n2.json",
           "batch": "base_n2",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "623496595fdf4b39dbc759a5205abeb76a5ce1c69b15e025aa600437ed5f30f2"
         }
       }
     },
@@ -6342,22 +5707,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "A",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n2.json",
           "batch": "base_n2",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "df809915ffe88fa3d62c1fb0f672135a228524acd4e0b399912dda92101efbdc"
         }
       }
     },
@@ -6401,22 +5760,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "historicalReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "A",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_repaired_6.json",
           "batch": "repaired_targeted",
-          "timestamp": "2026-10-16T07:42:37.369956+00:00",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "timestamp": "2026-10-16T08:08:27.358219+00:00",
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "d968908774862c242062ee7f399cae4f66d32d3514bf8a86aef2290be09ec53b"
         }
       }
     },
@@ -6460,22 +5813,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "D",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n2.json",
           "batch": "base_n2",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "1aa1906ce284485d8ddb6446148b693dcc8c828d04433e37b1adb450dfee6b8a"
         }
       }
     },
@@ -6519,22 +5866,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "D",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n2.json",
           "batch": "base_n2",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "af90e1ef937d6be56d1d5760ded23a2ca6b721ca6eea6e609c7cb3ea2cc29b77"
         }
       }
     },
@@ -6578,22 +5919,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "D",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n2.json",
           "batch": "base_n2",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "fd69100a9032090f11445920c2b4ba3c3ac24178baab01a48266b9353c45d7e6"
         }
       }
     },
@@ -6637,22 +5972,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "A",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n2.json",
           "batch": "base_n2",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "4d97b061a2cb7185355613a1bca4ead81dc68daa4ee7d711edcf67e4842097be"
         }
       }
     },
@@ -6696,22 +6025,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "A",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n2.json",
           "batch": "base_n2",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "4a2f5d105b4b9e0568d4bb6b04fc521af898ca9e033ec166fa968c7a70468b61"
         }
       }
     },
@@ -6756,22 +6079,16 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "assembledSentence": "今回の不祥事は会社の信用を失墜させるどころか存続をも脅かしかねない重大な問題である。",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "B",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n2.json",
           "batch": "base_n2",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "024a3eacaf566b8e62e858bcd7d552f60f1c344a2d67445bd9002a526ff0345b"
         }
       }
     },
@@ -6816,22 +6133,16 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "assembledSentence": "どのような困難な課題であっても、チームの団結と一人ひとりの取り組み方次第で克服できる。",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "B",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n2.json",
           "batch": "base_n2",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "1a47d52b88b2e3569f5c41fa10360f1ae6031b84eba87476bebd6f9bcab32b81"
         }
       }
     },
@@ -6876,22 +6187,16 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "assembledSentence": "いくら専門知識が豊富だからといって傲慢な態度をとっていては周囲の信頼は得られない。",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "D",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n2.json",
           "batch": "base_n2",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "97c5fad2de7faa952be04dfdd2cf10af75a5ad560848a2e49a44b34cb00af46a"
         }
       }
     },
@@ -6936,22 +6241,16 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "assembledSentence": "事前の綿密な計画にもかかわらず、本番の現場では予期せぬトラブルが発生した。",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "C",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n2.json",
           "batch": "base_n2",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "0c03536565803d30854b2f81c0e89994ac727b1a97dab3b591384b372ab5bd95"
         }
       }
     },
@@ -6995,22 +6294,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "C",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n2.json",
           "batch": "base_n2",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "46256ad403fea6c599a4b5824422502f12c2db42bf3c7fd0c6d4280e48407361"
         }
       }
     },
@@ -7054,22 +6347,16 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "D",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n2.json",
           "batch": "base_n2",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "829e4663049229c65d2d3707680d19b253f8278fdd3590a32fd9e3f9b4e5f1fb"
         }
       }
     },
@@ -7113,37 +6400,20 @@
       "exposureEligible": true,
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
-      "independentReview": {
-        "reviewerId": "subagent:jlpt-blind-reviewer",
-        "blindAnswer": "D",
-        "blindConfidence": "HIGH",
-        "match": true,
-        "timestamp": "2026-10-15T15:18:13.369030+00:00"
-      },
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T07:42:37.369956+00:00",
+        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_n2.json",
           "batch": "base_n2",
           "timestamp": "2026-10-15T15:15:00Z",
-          "reviewer": "subagent:jlpt-blind-reviewer"
+          "reviewer": "subagent:jlpt-blind-reviewer",
+          "contentFingerprint": "7260d95f6e3eadc6adbf0a3ce6786d03decf6f0c292c8fcdda32352acb2fba9f"
         }
       }
     }
   ],
-  "status": "QA_VERIFIED",
-  "independentQAMetrics": {
-    "reviewerType": "subagent:jlpt-blind-reviewer",
-    "totalAuthored": 120,
-    "totalReviewed": 120,
-    "exactMatches": 120,
-    "disagreements": 0,
-    "agreementRate": "100.00%",
-    "ambiguityWarnings": 4,
-    "reconciledAt": "2026-10-15T15:18:13.369030+00:00"
-  },
   "qaMetrics": {
     "totalAuthored": 120,
     "countsByStatus": {
@@ -7155,6 +6425,6 @@
       "QUARANTINED": 0
     },
     "agreementRate": "100.00%",
-    "lastReconciled": "2026-10-16T07:42:37.369956+00:00"
+    "lastReconciled": "2026-10-16T08:08:27.359219+00:00"
   }
 }

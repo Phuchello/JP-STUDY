@@ -10,10 +10,17 @@ import json
 import csv
 import re
 import sys
+import itertools
 from pathlib import Path
 from datetime import datetime, timezone
 
 ROOT = Path(__file__).resolve().parents[2]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+from scripts.curriculum.content_fingerprint import canonical_question_fingerprint, compute_file_sha256
+from scripts.curriculum.audit_star_permutations import extract_stem_boundary, evaluate_permutation_syntax
+
 QA_DIR = ROOT / "qa"
 CURRICULUM_DIR = ROOT / "curriculum"
 
@@ -143,7 +150,21 @@ def audit_star_question(q: dict) -> tuple[bool, str, dict]:
     
     if slot_3_opt_id != correct_ans:
         return False, f"Slot 3 chunk is '{slot_3_opt_id}' ({opt_map[slot_3_opt_id]}), but correctAnswer is '{correct_ans}' ({opt_map[correct_ans]}) in {qid}", {}
-        
+
+    # 5. Dynamic 24-permutation syntactic uniqueness audit
+    prefix, suffix = extract_stem_boundary(stem)
+    defensible_alts = []
+    for perm in itertools.permutations(["A", "B", "C", "D"]):
+        slot3_id = perm[2]
+        if slot3_id != correct_ans:
+            p_sentence = prefix + "".join([opt_map[pid] for pid in perm]) + suffix
+            classification, rationale = evaluate_permutation_syntax(qid, list(perm), opt_map, prefix, suffix, p_sentence)
+            if classification == "DEFENSIBLE_ALTERNATIVE":
+                defensible_alts.append({"order": list(perm), "slot3": slot3_id, "rationale": rationale})
+
+    if defensible_alts:
+        return False, f"Star question has ambiguous alternative permutation changing answer key in {qid}: {defensible_alts}", {}
+
     audit_data = {
         "id": qid,
         "level": q["level"],
@@ -161,49 +182,82 @@ def audit_star_question(q: dict) -> tuple[bool, str, dict]:
 def load_all_blind_reviews():
     """
     Loads base review files (N4, N3, N2) and overlays fresh repaired reviews if present.
+    Cryptographically binds each review to the canonical question content fingerprint of its input item.
     Strictly preserves historical records and timestamps.
     """
     reviews = {}
     provenance = {}
-    
+
+    # 1. Load input dataset item fingerprints
+    input_item_fps = {}
+    base_input_files = {
+        "N4": QA_DIR / "blind_review_n4.json",
+        "N3": QA_DIR / "blind_review_n3.json",
+        "N2": QA_DIR / "blind_review_n2.json",
+    }
+    for level, in_path in base_input_files.items():
+        if in_path.exists():
+            with open(in_path, "r", encoding="utf-8") as f:
+                for it in json.load(f):
+                    input_item_fps[it["id"]] = canonical_question_fingerprint(it)
+
+    rep_input_path = QA_DIR / "blind_review_repaired_6.json"
+    rep_item_fps = {}
+    if rep_input_path.exists():
+        with open(rep_input_path, "r", encoding="utf-8") as f:
+            for it in json.load(f):
+                rep_item_fps[it["id"]] = canonical_question_fingerprint(it)
+
     base_files = {
         "N4": QA_DIR / "raw_blind_review_n4.json",
         "N3": QA_DIR / "raw_blind_review_n3.json",
         "N2": QA_DIR / "raw_blind_review_n2.json",
     }
-    
+
     for level, bf in base_files.items():
         if bf.exists():
             with open(bf, "r", encoding="utf-8") as f:
                 items = json.load(f)
+                seen_in_batch = set()
                 for it in items:
                     qid = it["id"]
+                    if qid in seen_in_batch:
+                        raise ValueError(f"Duplicate review record detected in {bf.name} for question {qid}")
+                    seen_in_batch.add(qid)
+                    it["questionContentFingerprint"] = input_item_fps.get(qid)
                     reviews[qid] = it
                     provenance[qid] = {
                         "sourceFile": bf.name,
                         "batch": f"base_{level.lower()}",
                         "timestamp": it.get("timestamp", "2026-10-15T15:15:00Z"),
-                        "reviewer": "subagent:jlpt-blind-reviewer"
+                        "reviewer": "subagent:jlpt-blind-reviewer",
+                        "contentFingerprint": input_item_fps.get(qid)
                     }
-                    
+
     # Overlay fresh reviews for repaired questions if present
     repaired_file = QA_DIR / "raw_blind_review_repaired_6.json"
     if repaired_file.exists():
         with open(repaired_file, "r", encoding="utf-8") as f:
             rep_items = json.load(f)
+            seen_in_batch = set()
             for it in rep_items:
                 qid = it["id"]
+                if qid in seen_in_batch:
+                    raise ValueError(f"Duplicate review record detected in {repaired_file.name} for question {qid}")
+                seen_in_batch.add(qid)
                 # Store historical record in review object
                 if qid in reviews:
                     it["historicalBaseReview"] = reviews[qid]
+                it["questionContentFingerprint"] = rep_item_fps.get(qid)
                 reviews[qid] = it
                 provenance[qid] = {
                     "sourceFile": repaired_file.name,
                     "batch": "repaired_targeted",
                     "timestamp": it.get("timestamp", datetime.now(timezone.utc).isoformat()),
-                    "reviewer": "subagent:jlpt-blind-reviewer"
+                    "reviewer": "subagent:jlpt-blind-reviewer",
+                    "contentFingerprint": rep_item_fps.get(qid)
                 }
-                
+
     return reviews, provenance
 
 
@@ -213,10 +267,10 @@ def check_review_integrity(reviews: dict, questions: list) -> tuple[bool, str, l
     for q in questions:
         if q["id"] not in reviews:
             missing.append(q["id"])
-            
+
     if missing:
         return False, f"Missing review records for {len(missing)} items: {missing[:5]}", missing
-        
+
     return True, "OK", []
 
 
@@ -230,15 +284,29 @@ def evaluate_question_qa_gate(q: dict, review: dict, star_audit_result: dict = N
     ok_schema, schema_msg = verify_question_schema(q)
     if not ok_schema:
         return "QUARANTINED", f"Schema failure: {schema_msg}", {}
-        
+
     if not review:
         return "INDEPENDENT_REVIEW_PENDING", "Awaiting independent blind solve", {}
-        
+
+    # Check 0: Cryptographic Content Fingerprint Binding
+    q_fp = canonical_question_fingerprint(q)
+    rev_fp = review.get("questionContentFingerprint")
+    if not rev_fp:
+        return "QA_REVIEW_REQUIRED", "Review record lacks cryptographic content fingerprint binding (REVIEW_PROVENANCE_UNVERIFIED)", {
+            "fingerprintMissing": True
+        }
+    if rev_fp != q_fp:
+        return "QA_REVIEW_REQUIRED", f"Content fingerprint mismatch (FINGERPRINT_MISMATCH): question content changed since review. Expected {rev_fp[:12]}..., actual {q_fp[:12]}...", {
+            "fingerprintMismatch": True,
+            "expectedFingerprint": rev_fp,
+            "actualFingerprint": q_fp
+        }
+
     blind_ans = review.get("blindAnswer", "").strip().upper()
     authored_ans = q["correctAnswer"].strip().upper()
     alts = review.get("alternativeDefensibleAnswers", [])
     concerns = review.get("concerns")
-    
+
     # Check 1: Exact Answer Agreement
     if blind_ans != authored_ans:
         return "QUARANTINED", f"Disagreement: authored={authored_ans}, blind={blind_ans}", {
@@ -247,32 +315,38 @@ def evaluate_question_qa_gate(q: dict, review: dict, star_audit_result: dict = N
             "authoredAnswer": authored_ans,
             "justification": review.get("linguisticJustification", "")
         }
-        
-    # Check 2: Alternative Defensible Answers (Ambiguity Gate)
+
+    # Check 2: Confidence Check
+    confidence = review.get("confidence", "HIGH")
+    if confidence != "HIGH":
+        return "QA_REVIEW_REQUIRED", f"Reviewer confidence is below HIGH: {confidence}", {
+            "confidence": confidence
+        }
+
+    # Check 3: Alternative Defensible Answers (Ambiguity Gate)
     if alts and len(alts) > 0:
-        # Check if explicitly marked resolved with justification
         if not q.get("ambiguityResolved", False):
             return "QA_REVIEW_REQUIRED", f"Reviewer identified alternative defensible answer(s): {alts}", {
                 "alternatives": alts,
                 "concerns": concerns
             }
-            
-    # Check 3: Substantive Unresolved Reviewer Concerns
+
+    # Check 4: Substantive Unresolved Reviewer Concerns
     if concerns and str(concerns).strip() and str(concerns).strip().lower() != "null":
         if not q.get("concernResolved", False) and not q.get("repairNotes", False):
-            # If there's an unaddressed concern
             return "QA_REVIEW_REQUIRED", f"Unresolved reviewer concern: {concerns}", {
                 "concerns": concerns
             }
-            
-    # Check 4: Star Question Coherence (if applicable)
+
+    # Check 5: Star Question Coherence (if applicable)
     if "STAR" in q["typeId"] and star_audit_result:
         if star_audit_result.get("status") != "VERIFIED_COHERENT":
             return "QA_REVIEW_REQUIRED", f"Star coherence audit failed: {star_audit_result.get('error')}", {}
-            
+
     return "QA_VERIFIED", "All QA gates passed cleanly with zero unresolved ambiguities", {
         "blindAnswer": blind_ans,
-        "confidence": review.get("confidence", "HIGH"),
+        "confidence": confidence,
+        "contentFingerprint": q_fp,
         "reconciled": True
     }
 
@@ -298,11 +372,12 @@ def reconcile_practice_set_status(practice_set: dict, bank_questions_map: dict) 
         "lastLiveQaTimestamp": None,
         "qaResult": None
     })
-    
+
     # 1. Check Full Mock status
-    if category == "FULL_MOCK_EXAM" or len(q_ids) < 30 and "FULL" in ps_id:
+    if category == "FULL_MOCK_EXAM" or (len(q_ids) < 30 and "FULL" in ps_id):
         readiness = "NOT_READY"
         reason = "INSUFFICIENT_UNIQUE_ITEMS"
+        practice_set.pop("blockReason", None)
     else:
         # 2. Check question QA statuses
         unverified_qs = []
@@ -310,24 +385,27 @@ def reconcile_practice_set_status(practice_set: dict, bank_questions_map: dict) 
             q = bank_questions_map.get(qid)
             if not q or q.get("status") != "QA_VERIFIED":
                 unverified_qs.append((qid, q.get("status") if q else "MISSING"))
-                
+
         if unverified_qs:
             readiness = "CONTENT_QA_BLOCKED"
             reason = f"Referenced questions unverified: {unverified_qs[:3]}"
+            practice_set["blockReason"] = reason
         else:
             # 3. Check deployment status
+            practice_set.pop("blockReason", None)
             if deployment.get("isDeployed") is True and deployment.get("responderUrl") and deployment.get("qaResult") == "PASS":
                 readiness = "LIVE_VERIFIED"
                 reason = "Verified live Google Form with successful end-to-end QA"
             else:
                 readiness = "QA_PASSED_NOT_DEPLOYED"
                 reason = "All questions QA_VERIFIED, specification validated, awaiting controlled deployment"
-                
+
     practice_set["readinessStatus"] = readiness
     practice_set["status"] = readiness  # Enforce consistency between legacy and canonical fields
     practice_set["readinessReason"] = reason
     practice_set["deployment"] = deployment
     return practice_set
+
 
 
 def audit_answer_distribution(questions: list) -> dict:

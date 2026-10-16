@@ -1,5 +1,26 @@
 # Changelog
 
+## 2026-10-16 — Phase 3.7 P0 Reproducibility Recovery & Evidence-Integrity Audit
+
+- **P0 Non-Destructive Rebuild Guarantee & Sandbox Invariance**:
+  - Integrated 6 repaired items (`N4-GR-FORM-010`, `N4-GR-STAR-002`, `N4-GR-STAR-006`, `N3-GR-FORM-006`, `N3-GR-STAR-001`, `N2-GR-FORM-003`) into the canonical generator source in `scripts/curriculum/rebuild_and_repair_bank.py` with deterministic shuffle seed `seed-clean-audit`.
+  - Executed automated sandbox reproducibility audit (`scripts/curriculum/verify_rebuild_invariance.py`): two successive rebuild runs produced 120/120 identical canonical SHA-256 question fingerprints (0 content drift, 0 repaired item mutations, 0 historical file mutations). Documented in `qa/REPRODUCIBILITY_AUDIT.md`.
+- **P0 Cryptographic Review-to-Content Binding**:
+  - Created canonical Unicode NFC SHA-256 content fingerprinting utility (`scripts/curriculum/content_fingerprint.py`).
+  - Generated `qa/CONTENT_FINGERPRINT_MANIFEST.json` and `qa/REVIEW_PROVENANCE_AUDIT.md`, cryptographically binding every question to its reviewed content, input dataset hash, batch ID, reviewer identity, and raw artifact digest.
+  - Enforced strict gate rejection on `FINGERPRINT_MISMATCH` in `evaluate_question_qa_gate()`.
+- **P1 Dynamic Star (★) Permutation Structural Audit (24 Permutations)**:
+  - Created dynamic scanner `scripts/curriculum/audit_star_permutations.py` to identify all 16 star questions in the bank.
+  - Enumerated all 24 permutations ($4! = 24$) per star question (384 total sentence permutations) with slot 3 chunk comparison and linguistic syntax/semantics classification.
+  - Proved 0 defensible alternative permutations changing the star answer across all 16 items. Documented in `qa/STAR_PERMUTATION_AUDIT.md`.
+- **P1 Seven-Dimension Practice Release Gate**:
+  - Produced `qa/PRACTICE_RELEASE_GATE.md` strictly separating: Content Validity (`QA_VERIFIED`), Review Provenance (`CRYPTOGRAPHICALLY_VERIFIED`), Learner Calibration (`PENDING_LEARNER_CALIBRATION`), Exposure Eligibility (`false`), Diagnostic Eligibility (`false`), Forms Deployment (`NOT_DEPLOYED`), and Live Verification (`UNVERIFIED`).
+  - Purged all obsolete `blockReason` fields from `curriculum/PRACTICE_SETS.json`.
+- **P1 Production Mutation Integration Test Suite (12/12 PASS)**:
+  - Replaced simulated tests in `scripts/tests/test_qa_adversarial_mutations.py` with 12 real production integration scenarios exercising cryptographic fingerprint mismatches, batch loader duplicate detection, missing reviewer integrity, answer quarantining, star key corruptions, practice set references, and report regeneration. All 12/12 tests pass.
+- **Controlled Pilot & P0 Preservation**:
+  - Verified no active authenticated Google Workspace browser session; stopped cleanly at verified code/data checkpoint. 0 fabricated Form URLs. All 3 live P0 Forms (`W01-B01`, `W01-B02`, `W01-B03`) 100% preserved.
+
 ## 2026-10-16 — Phase 3.7 Final QA Reconciliation, Ambiguity Repair & Controlled Pilot
 
 - **Resolution of All 6 Flagged Items & Ambiguity Elimination**:

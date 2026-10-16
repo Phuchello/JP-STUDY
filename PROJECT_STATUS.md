@@ -21,32 +21,41 @@
     - Độ tin cậy (Confidence): 100% `HIGH`.
   - Lưu chứng cứ phản biện gốc tại [`qa/raw_blind_review_repaired_6.json`](qa/raw_blind_review_repaired_6.json).
 
-- **Kiểm toán động câu hỏi dấu sao (Dynamic Star Question Audit)**:
-  - Loại bỏ hoàn toàn số liệu giả định 18 câu; bộ tạo báo cáo tự động rà quét trực tiếp từ ngân hàng câu hỏi nguồn và xác nhận có đúng **16 câu dấu sao** (N4: 6 câu, N3: 6 câu, N2: 4 câu; không tự sáng tác thêm 2 câu N2 ngoài ngân hàng).
-  - Kiểm toán động 100% câu hỏi dấu sao: cấu trúc đúng 4 ô, vị trí ★ cố định ở ô số 3, câu ghép hoàn chỉnh tự nhiên, và tồn tại duy nhất 1 hoán vị cú pháp hợp lệ. Báo cáo tự động cập nhật tại [`qa/BLIND_REVIEW_RECONCILIATION_REPORT.md`](qa/BLIND_REVIEW_RECONCILIATION_REPORT.md).
+- **Kiểm toán tái lập P0 & Bảo toàn tính bất biến (P0 Reproducibility & Content Invariance)**:
+  - Tích hợp 6 câu hỏi sửa đổi trực tiếp vào định nghĩa nguồn chuẩn tắc trong `scripts/curriculum/rebuild_and_repair_bank.py` với hạt giống xáo trộn xác định `seed-clean-audit`.
+  - Thực thi kiểm toán trong môi trường sandbox cô lập dùng một lần (`scripts/curriculum/verify_rebuild_invariance.py`): chạy tái tạo 2 lần liên tiếp, đối chiếu băm SHA-256 chuẩn tắc của 120/120 câu hỏi đối với checkpoint được nghiệm thu.
+  - Kết quả: **0 câu lệch dữ liệu (120/120 identical)**, 6 câu sửa đổi được bảo toàn tuyệt đối, các tập tin chứng cứ lịch sử (`qa/blind_review_n*.json`, `qa/raw_blind_review_*.json`) hoàn toàn bất biến. Báo cáo chi tiết: [`qa/REPRODUCIBILITY_AUDIT.md`](qa/REPRODUCIBILITY_AUDIT.md).
 
-- **Chuẩn hóa trạng thái phát hành bộ đề & Thử nghiệm kiểm soát (Controlled Pilot Protocol)**:
-  - Thống nhất một trạng thái phát hành chuẩn `readinessStatus` và đồng bộ trường `status` trong [`curriculum/PRACTICE_SETS.json`](curriculum/PRACTICE_SETS.json):
-    - 20 bộ đề luyện tập (Micro-drills, Skill practice, Mixed practice, Section simulations): `QA_PASSED_NOT_DEPLOYED` (`SPEC_ONLY`).
-    - 3 bài thi thử hoàn chỉnh (Full Mock Exams): `NOT_READY` (`INSUFFICIENT_UNIQUE_ITEMS`).
-  - Thử nghiệm kiểm soát (Controlled Pilot): Đã kiểm tra phiên làm việc trong môi trường trình duyệt. Do chưa có phiên ủy quyền Google Workspace / Apps Script sẵn sàng để triển khai Form tự động, hệ thống dừng lại an toàn tại điểm kiểm soát mã nguồn và dữ liệu đã được nghiệm thu.
-  - **Báo cáo trung thực**: 0 Form mới được tạo hoặc xuất bản; tuyệt đối không tạo URL Forms giả lập. Bảo toàn nguyên vẹn 3 Form P0 hiện hữu (`W01-B01`, `W01-B02`, `W01-B03`) và toàn bộ bảng dữ liệu phản hồi của học viên.
+- **Chứng thực vân tay mật mã & Khóa liên kết thẩm định (P0 Cryptographic Evidence Binding)**:
+  - Xây dựng mô-đun sinh vân tay nội dung chuẩn tắc `canonical_question_fingerprint` (Unicode NFC, sắp xếp thuộc tính và danh sách lựa chọn, mã hóa SHA-256) tại `scripts/curriculum/content_fingerprint.py`.
+  - Tạo manifest chứng thực [`qa/CONTENT_FINGERPRINT_MANIFEST.json`](qa/CONTENT_FINGERPRINT_MANIFEST.json) liên kết từng kết quả giải mù với mã băm câu hỏi, mã băm tập dữ liệu, mã đợt (batch ID), reviewer ID, conversation ID và digest của tệp thô.
+  - Cập nhật hàm cổng kiểm soát `evaluate_question_qa_gate`: từ chối thẳng thừng các kết quả giải mù có vân tay sai lệch (`FINGERPRINT_MISMATCH`) hoặc thiếu liên kết mật mã (`REVIEW_PROVENANCE_UNVERIFIED`). Báo cáo nguồn gốc chi tiết: [`qa/REVIEW_PROVENANCE_AUDIT.md`](qa/REVIEW_PROVENANCE_AUDIT.md).
 
-- **Bộ kiểm thử tích hợp đột biến phản biện mở rộng (12 Integration Tests)**:
-  - Cập nhật [`scripts/tests/test_qa_adversarial_mutations.py`](scripts/tests/test_qa_adversarial_mutations.py) với 12 ca kiểm thử tích hợp thực thi trực tiếp các hàm kiểm định trong quy trình sản xuất:
-    1. Phát hiện lỗi schema (thiếu trường, sai định dạng).
-    2. Phát hiện chuỗi đáp án lặp chu kỳ 4-tuple ABCD.
-    3. Phát hiện phân bổ đáp án bị thiên lệch vượt ngưỡng.
-    4. Phát hiện câu ghép dấu sao sai ngữ pháp.
-    5. Phát hiện phương án đúng thứ hai gây mơ hồ ngữ nghĩa.
-    6. Phát hiện độ tin cậy của reviewer dưới mức HIGH.
-    7. Phát hiện trùng lặp thân câu hỏi (stem).
-    8. Phát hiện thiếu giải thích chi tiết tiếng Việt.
-    9. Phát hiện văn bản các lựa chọn trùng nhau.
-    10. Phát hiện ký tự đáp án ngoài khoảng A-D.
-    11. Phát hiện câu dấu sao thiếu trường assembledSentence.
-    12. Phát hiện câu dấu sao tồn tại nhiều hơn 1 hoán vị ngữ pháp hợp lệ.
-  - Toàn bộ **12 / 12 bài kiểm thử tích hợp vượt qua thành công** (0.004s).
+- **Kiểm toán hoán vị câu hỏi dấu sao 24! (Dynamic 24-Permutation Star Audit)**:
+  - Rà quét động toàn bộ ngân hàng: xác nhận chính xác **16 câu dấu sao** (N4: 6 câu, N3: 6 câu, N2: 4 câu; không giả định hoặc mã cứng).
+  - Tách 4 ngữ đoạn và chạy thử nghiệm toàn bộ 24 hoán vị ($4! = 24$) cho mỗi câu (tổng cộng 384 hoán vị câu ghép), kiểm tra ngữ đoạn tại vị trí ★ (ô số 3) so với đáp án tác giả.
+  - Thẩm định ngôn ngữ học: phân loại chính xác các hoán vị thành `CANONICAL_CORRECT`, `GRAMMATICALLY_INVALID`, `PRAGMATICALLY_UNNATURAL`.
+  - Kết quả: **0 hoán vị thay thế hợp lệ làm thay đổi đáp án vị trí dấu sao** trên toàn bộ 16 câu. Báo cáo tự động: [`qa/STAR_PERMUTATION_AUDIT.md`](qa/STAR_PERMUTATION_AUDIT.md).
+
+- **Cổng kiểm soát phát hành bộ đề & 7 chiều chất lượng (P1 Practice Release Gate)**:
+  - Phân tách rạch ròi 7 chiều chất lượng trong [`qa/PRACTICE_RELEASE_GATE.md`](qa/PRACTICE_RELEASE_GATE.md): (1) Content Validity (`QA_VERIFIED`), (2) Review Provenance (`CRYPTOGRAPHICALLY_VERIFIED`), (3) Learner Calibration (`PENDING_LEARNER_CALIBRATION`), (4) Exposure Eligibility (`false`), (5) Diagnostic Eligibility (`false`), (6) Google Forms Deployment (`NOT_DEPLOYED`), (7) Live Integration (`UNVERIFIED`).
+  - Thanh lọc triệt để các trường `blockReason` lỗi thời khỏi `curriculum/PRACTICE_SETS.json`: 20 bộ đề mang trạng thái sạch `QA_PASSED_NOT_DEPLOYED`, 3 bài thi thử mang trạng thái `NOT_READY`.
+
+- **Bộ kiểm thử tích hợp đột biến phản biện mở rộng (12 Production Integration Tests)**:
+  - Cập nhật [`scripts/tests/test_qa_adversarial_mutations.py`](scripts/tests/test_qa_adversarial_mutations.py) với 12 ca kiểm thử gọi trực tiếp các hàm kiểm định thật của hệ thống:
+    1. Đột biến 1 ký tự stem -> `FINGERPRINT_MISMATCH` / `QA_REVIEW_REQUIRED`.
+    2. Đột biến 1 nội dung lựa chọn giữ nguyên ID -> `FINGERPRINT_MISMATCH` / `QA_REVIEW_REQUIRED`.
+    3. Trùng lặp bản ghi reviewer trong batch đầu vào -> ném lỗi `ValueError`.
+    4. Xóa bản ghi reviewer -> `check_review_integrity` thất bại / chặn QA.
+    5. Tiêm đáp án xung đột -> `QUARANTINED`.
+    6. Bổ sung đáp án thay thế hợp lệ -> `QA_REVIEW_REQUIRED`.
+    7. Làm hỏng khóa đáp án câu dấu sao -> `audit_star_question` thất bại.
+    8. Đưa ID câu dấu sao không tồn tại vào báo cáo -> phát hiện không khớp ngân hàng thật.
+    9. Tham chiếu câu hỏi bị hỏng trong bộ đề -> `reconcile_practice_set_status` gắn cờ `CONTENT_QA_BLOCKED`.
+    10. Đánh dấu Form không tồn tại là `LIVE_VERIFIED` -> bị từ chối, ép về `QA_PASSED_NOT_DEPLOYED`.
+    11. Tái tạo ngân hàng 2 lần -> bất biến vân tay mật mã 120/120 câu.
+    12. Tái tạo báo cáo từ nguồn -> kiểm chứng tính nhất quán về số lượng, ID và đáp án.
+  - Toàn bộ **12 / 12 bài kiểm thử tích hợp vượt qua thành công** (0.014s).
 
 - **Phân bổ đáp án & Trạng thái toàn ngân hàng**:
   - Tổng số: 120 câu hỏi độc lập (N4: 40, N3: 50, N2: 30).
