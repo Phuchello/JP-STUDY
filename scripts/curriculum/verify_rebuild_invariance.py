@@ -116,15 +116,24 @@ def run_reproducibility_audit():
         sb_root = sandbox_dir / "JP-STUDY"
         sb_root.mkdir(parents=True, exist_ok=True)
 
+        commit_sha = "UNKNOWN"
+        try:
+            commit_sha = subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=str(ROOT)).decode().strip()
+        except Exception:
+            pass
+
+        tree_sha = "UNKNOWN"
         try:
             # Use git write-tree / archive to ensure only tracked files are extracted
             tree_sha = subprocess.check_output(["git", "write-tree"], cwd=str(ROOT)).decode().strip()
             archive_proc = subprocess.run(["git", "archive", tree_sha], cwd=str(ROOT), capture_output=True, check=True)
             with tarfile.open(fileobj=io.BytesIO(archive_proc.stdout)) as tar:
                 tar.extractall(path=sb_root)
-            print("Extracted clean checkout from git tree archive.")
+            checkout_mode = f"CLEAN_GIT_ARCHIVE (tree: {tree_sha[:12]}, commit: {commit_sha[:8]})"
+            print(f"Extracted clean checkout from git tree archive ({checkout_mode}).")
         except Exception as e:
-            print(f"Fallback to filtered directory copy: {e}")
+            checkout_mode = f"WEAKER_FILTERED_COPY_FALLBACK ({e})"
+            print(f"[WARNING] Fallback to filtered directory copy: {e}")
             def ignore_patterns(path, names):
                 ignored = {'.git', 'node_modules', 'tmp', '__pycache__'}
                 return ignored.intersection(names)
@@ -278,7 +287,9 @@ def run_reproducibility_audit():
             f"- **Pedagogical Content SHA-256 Stability**: **{'PASS (100% Invariant)' if len(pedagogical_hash_mismatches) == 0 else 'FAIL'}**",
             f"- **Six Repaired Items Invariance**: **{'100% PRESERVED & INVARIANT' if p0_repaired_preserved else 'MUTATIONS DETECTED'}**",
             f"- **Historical Evidence Files Invariance**: **{'100% IMMUTABLE & PRESERVED' if p0_evidence_intact else 'MUTATIONS DETECTED'}**",
-            "- **Checkout Isolation**: Verified from clean Git tree archive in temporary sandbox",
+            f"- **Sandbox Isolation Mode**: `{checkout_mode}`",
+            f"- **Source Git Commit**: `{commit_sha}`",
+            f"- **Source Tree SHA**: `{tree_sha}`",
             "",
             "---",
             "",

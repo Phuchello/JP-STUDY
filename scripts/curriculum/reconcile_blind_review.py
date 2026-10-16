@@ -283,14 +283,90 @@ def evaluate_question_qa_gate(q: dict, review: dict, star_audit_result: dict = N
 
 
 # --- Task D: Practice Sets Canonical Readiness State ---
-def reconcile_practice_set_status(practice_set: dict, bank_questions_map: dict) -> dict:
+def verify_deployment_evidence(practice_set: dict, workspace_verifier=None) -> tuple[str, bool, str, dict]:
     """
-    Determines canonical readinessStatus for a practice set based on referenced questions.
+    Independently evaluates Google Workspace deployment evidence for a practice set.
+    Separates 6 progressive verification stages:
+      1. DEPLOYMENT_METADATA_PRESENT: Locally editable JSON has URL and form ID.
+      2. FORM_EXISTS_VERIFIED: Real provider confirms Google Form resource exists in Drive/Forms.
+      3. RESPONDER_ACCESS_VERIFIED: Real provider confirms responder permissions (no unintended exposure).
+      4. GRADING_VERIFIED: Real provider confirms quiz mode and feedback settings.
+      5. SHEET_SYNC_VERIFIED: Synthetic submission verified syncing to target Google Sheet with question-ID mapping.
+      6. LIVE_VERIFIED: All stages verified by an authenticated workspace verification receipt.
+
+    Rejects locally editable user claims (e.g. liveVerified=true, fake URLs) without provider attestation.
+    Returns: (stage_name, is_live_verified, reason, verification_details)
+    """
+    deployment = practice_set.get("deployment", {})
+    url = str(deployment.get("responderUrl") or "").strip()
+    form_id = str(deployment.get("formId") or "").strip()
+    is_deployed = deployment.get("isDeployed") is True
+
+    # Stage 1: Check if deployment metadata is present
+    if not is_deployed or not url or not form_id:
+        return "NOT_DEPLOYED", False, "No deployment metadata present in practice set definition.", {}
+
+    if not url.startswith("https://docs.google.com/forms/"):
+        return "DEPLOYMENT_METADATA_INVALID", False, "REJECTED: responderUrl is not a valid Google Forms URL.", {}
+
+    # If an external or injected workspace verifier is provided:
+    if workspace_verifier is not None:
+        try:
+            ver_result = workspace_verifier(practice_set)
+            if not isinstance(ver_result, dict):
+                return "VERIFICATION_PROVIDER_ERROR", False, "Workspace verification provider returned invalid result format.", {}
+
+            form_exists = ver_result.get("formExists", False)
+            if not form_exists:
+                return "FORM_EXISTS_FAILED", False, f"Google Workspace provider confirms Form '{form_id}' does not exist on Drive.", {}
+
+            responder_access = ver_result.get("responderAccess", False)
+            if not responder_access:
+                return "RESPONDER_ACCESS_FAILED", False, "Google Workspace provider failed responder permission audit.", {}
+
+            grading_verified = ver_result.get("gradingVerified", False)
+            if not grading_verified:
+                return "GRADING_VERIFICATION_FAILED", False, "Google Workspace provider failed quiz grading and answer key verification.", {}
+
+            sheet_sync = ver_result.get("sheetSync", False)
+            if not sheet_sync:
+                return "SHEET_SYNC_FAILED", False, "Google Workspace provider failed sheet response sync and question-ID mapping.", {}
+
+            receipt = ver_result.get("receiptId")
+            if not receipt:
+                return "MISSING_SUBMISSION_RECEIPT", False, "Google Workspace provider lacks verified synthetic quiz submission receipt.", {}
+
+            return "LIVE_VERIFIED", True, f"Verified live Google Form with provider receipt '{receipt}'", ver_result
+
+        except Exception as e:
+            return "PROVIDER_EXCEPTION", False, f"Workspace verifier failed with error: {e}", {}
+
+    # Check verified deployment records file if present (e.g. qa/drive_first_deployment.json)
+    deployment_record_path = ROOT / "qa/drive_first_deployment.json"
+    if deployment_record_path.exists():
+        try:
+            with open(deployment_record_path, "r", encoding="utf-8") as f:
+                dep_data = json.load(f)
+            if practice_set.get("id") in dep_data.get("verifiedSets", []):
+                return "LIVE_VERIFIED", True, "Verified in historical Google Workspace acceptance audit.", dep_data
+        except Exception:
+            pass
+
+    # Locally declared metadata without authorized verification cannot achieve LIVE_VERIFIED
+    return "DEPLOYMENT_METADATA_PRESENT_UNVERIFIED", False, (
+        "UNVERIFIED_DEPLOYMENT: Declared Google Form deployment metadata lacks authorized "
+        "Google Workspace provider verification receipt. Cannot be self-attested."
+    ), {}
+
+
+def reconcile_practice_set_status(practice_set: dict, bank_questions_map: dict, workspace_verifier=None) -> dict:
+    """
+    Determines canonical readinessStatus for a practice set based on referenced questions and verified deployment.
     Rules:
     - If set category is FULL_MOCK_EXAM or questionCount insufficient -> NOT_READY.
     - If ANY referenced question is NOT QA_VERIFIED -> CONTENT_QA_BLOCKED.
     - If ALL referenced questions are QA_VERIFIED:
-        - If deployment.isDeployed == True and live QA passed -> LIVE_VERIFIED.
+        - If verified by Google Workspace provider -> LIVE_VERIFIED.
         - Otherwise -> QA_PASSED_NOT_DEPLOYED.
     """
     ps_id = practice_set["id"]
@@ -322,23 +398,22 @@ def reconcile_practice_set_status(practice_set: dict, bank_questions_map: dict) 
             reason = f"Referenced questions unverified: {unverified_qs[:3]}"
             practice_set["blockReason"] = reason
         else:
-            # 3. Check deployment status
+            # 3. Check deployment status with 6-stage verification
             practice_set.pop("blockReason", None)
-            url = str(deployment.get("responderUrl") or "").strip()
-            form_id = str(deployment.get("formId") or "").strip()
-            is_valid_google_form = (
-                url.startswith("https://docs.google.com/forms/") and
-                len(form_id) >= 15 and
-                deployment.get("isDeployed") is True and
-                deployment.get("qaResult") == "PASS" and
-                deployment.get("liveVerified") is True
-            )
-            if is_valid_google_form:
+            stage, is_live, dep_reason, dep_details = verify_deployment_evidence(practice_set, workspace_verifier)
+
+            if is_live:
                 readiness = "LIVE_VERIFIED"
-                reason = "Verified live Google Form with successful end-to-end QA"
+                reason = dep_reason
+                practice_set["deployment"]["verificationStage"] = stage
+                practice_set["deployment"]["liveVerified"] = True
             else:
                 readiness = "QA_PASSED_NOT_DEPLOYED"
                 reason = "All questions QA_VERIFIED, specification validated, awaiting controlled deployment"
+                if stage == "DEPLOYMENT_METADATA_PRESENT_UNVERIFIED":
+                    reason = dep_reason
+                practice_set["deployment"]["verificationStage"] = stage
+                practice_set["deployment"]["liveVerified"] = False
 
     practice_set["readinessStatus"] = readiness
     practice_set["status"] = readiness  # Enforce consistency between legacy and canonical fields

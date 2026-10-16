@@ -1,5 +1,32 @@
 # Trạng thái dự án — 16/10/2026
 
+## Phase 3.7 — Kiểm toán lỗ hổng Cổng phát hành & Sẵn sàng thử nghiệm học viên có kiểm soát (Release-Gate Bypass Audit & Controlled Pilot Readiness)
+
+- **P0-A Bộ phân tích cú pháp nghiêm ngặt đề thi dấu sao (`parse_strict_star_stem`)**:
+  - Triển khai bộ phân tích cú pháp chuyên dụng kiểm tra bố cục chuẩn tắc JLPT: `tiền tố + （　　） + （　　） + ★ + （　　） + hậu tố`.
+  - Khóa chặt: đúng 3 ô trống thông thường, 1 ký tự ★ tại vị trí số 3, tổng 4 vị trí, ngoặc toàn giác cân bằng, không có ký tự phân cách thừa hoặc văn bản xen giữa.
+  - Vượt qua 10 đột biến đối chứng tiêu cực cấu trúc trong `test_qa_adversarial_mutations.py` (thừa ô trống, thiếu ô trống, ★ sai vị trí, ★ trùng lặp, ngoặc lỗi, v.v.).
+- **P0-B Ngăn chặn triệt để sổ cái thẩm định giả mạo (`validate_semantic_review_evidence`)**:
+  - Thực thi lược đồ xác thực chứng cứ thẩm định với 12 trường bắt buộc (`id`, `questionVersion`, `blindInputSha256`, `scoringSha256`, `canonicalPermutation`, `reviewedPermutations`, `reviewerId`, `reviewMethod`, `evidenceArtifact`, `evidenceIntegrityHash`, `perPermutationJudgments`, `finalDecision`).
+  - Đẩy lùi 7 kịch bản tấn công giả mạo (độ phủ rỗng, sai mã băm nội dung, định danh người thẩm định không có chứng thực, phiên bản cũ, phát hiện hoán vị thay thế hợp lệ đổi đáp án lập tức cách ly `QUARANTINED`, tệp chứng cứ giả mạo, và tự ý khai báo hoàn tất khi chưa đủ độ phủ). Tuyệt đối không cho phép sổ cái chưa xác thực đạt `QA_VERIFIED`.
+- **P1-A Phân tách 6 giai đoạn xác thực triển khai Google Forms & Từ chối Forms giả mạo**:
+  - Tách bạch 6 tầng xác thực triển khai (`DEPLOYMENT_METADATA_PRESENT`, `FORM_EXISTS_VERIFIED`, `RESPONDER_ACCESS_VERIFIED`, `GRADING_VERIFIED`, `SHEET_SYNC_VERIFIED`, `LIVE_VERIFIED`).
+  - Từ chối các ID/URL Google Form giả mạo 20 ký tự khi thiếu biên nhận từ nhà cung cấp ủy quyền; tự động hạ cấp siêu dữ liệu khai báo cục bộ về `QA_PASSED_NOT_DEPLOYED` (`DEPLOYMENT_METADATA_PRESENT_UNVERIFIED`).
+- **P1-B Sửa lỗi báo cáo 100% cho đề thi thử 0 câu hỏi**:
+  - Khắc phục `generate_practice_release_gate.py` để ghi nhận các đề thi thử rỗng (`questionIds: []`) là `NO_ITEMS — NOT_EVALUABLE` thay vì nhầm lẫn thành `100% VERIFIED`.
+- **P1-C Nâng cao chất lượng bằng chứng tái lập**:
+  - Ghi nhận chính xác `commit_sha` và `tree_sha` thông qua `git archive` (`CLEAN_GIT_ARCHIVE`) trong `verify_rebuild_invariance.py`, bảo toàn độ ổn định 120/120 câu hỏi không drift.
+- **Bàn giao vận hành bộ đề thử nghiệm `MD-N4-VOC-01`**:
+  - Xác thực 5 câu hỏi N4 Từ vựng (`N4-MO-READ-001` đến `005`), 0 câu hỏi dấu sao, 100% `QA_VERIFIED`.
+  - Kiểm toán trạng thái phiên Google Workspace (chưa có phiên đăng nhập trên trình duyệt hoặc token OAuth trong repo). Chuẩn bị quy trình bàn giao triển khai chuẩn hóa cho chủ sở hữu dự án.
+- **Bảo toàn 100% Forms P0**:
+  - 3 Forms P0 (`W01-B01`, `W01-B02`, `W01-B03`) tiếp tục hoạt động ổn định. Tuyệt đối không có URL giả mạo.
+- **Chỉ số kiểm thử đạt chuẩn tuyệt đối**:
+  - 33 / 33 adversarial mutation tests PASS (`scripts/tests/test_qa_adversarial_mutations.py`).
+  - 28 / 28 release verification checks PASS (`scripts/validate_release.py`).
+  - 394 / 394 drive-first test suite PASS (`scripts/drive_first/test_drive_first.cjs`).
+  - 5 / 5 negative question tests PASS (`scripts/tests/test_question_bank_negative.py`).
+
 ## Phase 3.7 — Gia cố cổng kiểm định phản biện (Adversarial QA Hardening, Two-Gate STAR Auditor & Provenance Integrity)
 
 - **Xóa bỏ hoàn toàn mã cứng kết luận ngữ nghĩa câu hỏi dấu sao (Two-Gate STAR Architecture)**:

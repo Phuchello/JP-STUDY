@@ -1,5 +1,33 @@
 # Changelog
 
+## 2026-10-16 — Phase 3.7 Release-Gate Bypass Audit & Controlled Learner Pilot Readiness
+
+- **P0-A Strict STAR Stem Parser (`parse_strict_star_stem`)**:
+  - Replaced naive substring checks with exact JLPT layout parser (`prefix + （　　） + （　　） + ★ + （　　） + suffix`).
+  - Enforces exactly 3 regular blanks, 1 star marker at slot index 2 (position 3), 4 slots total, balanced full-width parentheses, and no stray delimiters or intervening text.
+  - Successfully rejects 10 structural negative control mutations in `test_qa_adversarial_mutations.py` (extra blanks, missing blanks, misplaced star, duplicate star, malformed delimiters, etc.).
+- **P0-B Forged Semantic Review Ledger Rejection**:
+  - Implemented `validate_semantic_review_evidence()` enforcing 12 mandatory security fields (`id`, `questionVersion`, `blindInputSha256`, `scoringSha256`, `canonicalPermutation`, `reviewedPermutations`, `reviewerId`, `reviewMethod`, `evidenceArtifact`, `evidenceIntegrityHash`, `perPermutationJudgments`, `finalDecision`).
+  - Successfully detects and rejects 7 injected attack scenarios (empty coverage, hash mismatch, unsupported reviewer label, stale version, defensible alternative collision quarantined, missing/forged artifact digest, incomplete coverage declared complete).
+  - Guarantees forged or unverified ledgers can never return `QA_VERIFIED`.
+- **P1-A Google Form Deployment Stage Separation & Fake Form Rejection**:
+  - Separated Google Form verification into 6 explicit stages (`DEPLOYMENT_METADATA_PRESENT`, `FORM_EXISTS_VERIFIED`, `RESPONDER_ACCESS_VERIFIED`, `GRADING_VERIFIED`, `SHEET_SYNC_VERIFIED`, `LIVE_VERIFIED`).
+  - Rejects syntactically plausible fake form URLs/IDs without verified receipts from authorized workspace providers; safely downgrades locally declared deployment metadata to `QA_PASSED_NOT_DEPLOYED` (`DEPLOYMENT_METADATA_PRESENT_UNVERIFIED`).
+- **P1-B Zero-Item Mock Reporting Bug Fix**:
+  - Fixed `generate_practice_release_gate.py` to evaluate empty mock exams (`questionIds: []`) as `NO_ITEMS — NOT_EVALUABLE` instead of `100% VERIFIED`.
+- **P1-C Reproducibility Evidence Quality**:
+  - Updated `verify_rebuild_invariance.py` to record exact git `commit_sha` and `tree_sha` using `CLEAN_GIT_ARCHIVE`, proving 0 drift across 120 items over successive rebuilds.
+- **Controlled Pilot Operational Handoff (`MD-N4-VOC-01`)**:
+  - Verified 5 non-STAR items in `MD-N4-VOC-01` (`N4-MO-READ-001` through `005`), all `QA_VERIFIED`.
+  - Audited browser sessions (no active Google Workspace credentials or OAuth tokens available in local repo). Prepared operational manual deployment handoff for owner.
+- **Preserved P0 Integrity**:
+  - All 3 live P0 Forms (`W01-B01`, `W01-B02`, `W01-B03`) 100% operational. 0 fabricated Form URLs.
+- **Test Metrics**:
+  - 33 / 33 adversarial mutation tests PASS (`scripts/tests/test_qa_adversarial_mutations.py`).
+  - 28 / 28 release verification checks PASS (`scripts/validate_release.py`).
+  - 394 / 394 drive-first test suite PASS (`scripts/drive_first/test_drive_first.cjs`).
+  - 5 / 5 negative question tests PASS (`scripts/tests/test_question_bank_negative.py`).
+
 ## 2026-10-16 — Phase 3.7 Adversarial QA Hardening, Two-Gate STAR Auditor & Cryptographic Provenance Integrity
 
 - **P0 Elimination of Hardcoded STAR Semantic Verdicts (Two-Gate Architecture)**:

@@ -44,7 +44,9 @@
         "formId": null,
         "responderUrl": null,
         "lastLiveQaTimestamp": null,
-        "qaResult": null
+        "qaResult": null,
+        "verificationStage": "NOT_DEPLOYED",
+        "liveVerified": false
       }
     },
     {
@@ -75,7 +77,9 @@
         "formId": null,
         "responderUrl": null,
         "lastLiveQaTimestamp": null,
-        "qaResult": null
+        "qaResult": null,
+        "verificationStage": "NOT_DEPLOYED",
+        "liveVerified": false
       }
     },
     {
@@ -138,7 +142,9 @@
         "formId": null,
         "responderUrl": null,
         "lastLiveQaTimestamp": null,
-        "qaResult": null
+        "qaResult": null,
+        "verificationStage": "NOT_DEPLOYED",
+        "liveVerified": false
       }
     },
     {
@@ -169,7 +175,9 @@
         "formId": null,
         "responderUrl": null,
         "lastLiveQaTimestamp": null,
-        "qaResult": null
+        "qaResult": null,
+        "verificationStage": "NOT_DEPLOYED",
+        "liveVerified": false
       }
     },
     {
@@ -200,7 +208,9 @@
         "formId": null,
         "responderUrl": null,
         "lastLiveQaTimestamp": null,
-        "qaResult": null
+        "qaResult": null,
+        "verificationStage": "NOT_DEPLOYED",
+        "liveVerified": false
       }
     },
     {
@@ -231,7 +241,9 @@
         "formId": null,
         "responderUrl": null,
         "lastLiveQaTimestamp": null,
-        "qaResult": null
+        "qaResult": null,
+        "verificationStage": "NOT_DEPLOYED",
+        "liveVerified": false
       }
     },
     {
@@ -262,7 +274,9 @@
         "formId": null,
         "responderUrl": null,
         "lastLiveQaTimestamp": null,
-        "qaResult": null
+        "qaResult": null,
+        "verificationStage": "NOT_DEPLOYED",
+        "liveVerified": false
       }
     },
     {
@@ -293,7 +307,9 @@
         "formId": null,
         "responderUrl": null,
         "lastLiveQaTimestamp": null,
-        "qaResult": null
+        "qaResult": null,
+        "verificationStage": "NOT_DEPLOYED",
+        "liveVerified": false
       }
     },
     {
@@ -335,7 +351,9 @@
         "formId": null,
         "responderUrl": null,
         "lastLiveQaTimestamp": null,
-        "qaResult": null
+        "qaResult": null,
+        "verificationStage": "NOT_DEPLOYED",
+        "liveVerified": false
       }
     },
     {
@@ -422,7 +440,9 @@
         "formId": null,
         "responderUrl": null,
         "lastLiveQaTimestamp": null,
-        "qaResult": null
+        "qaResult": null,
+        "verificationStage": "NOT_DEPLOYED",
+        "liveVerified": false
       }
     },
     {
@@ -508,7 +528,9 @@
         "formId": null,
         "responderUrl": null,
         "lastLiveQaTimestamp": null,
-        "qaResult": null
+        "qaResult": null,
+        "verificationStage": "NOT_DEPLOYED",
+        "liveVerified": false
       }
     },
     {
@@ -858,5 +880,5 @@
     }
   ],
   "lastAudit": "2026-10-15T15:18:13.369030+00:00",
-  "lastReconciliationTimestamp": "2026-10-16T08:37:09.524434+00:00"
+  "lastReconciliationTimestamp": "2026-10-16T09:07:57.559234+00:00"
 }

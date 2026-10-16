@@ -11,7 +11,9 @@
 - **Pedagogical Content SHA-256 Stability**: **PASS (100% Invariant)**
 - **Six Repaired Items Invariance**: **100% PRESERVED & INVARIANT**
 - **Historical Evidence Files Invariance**: **100% IMMUTABLE & PRESERVED**
-- **Checkout Isolation**: Verified from clean Git tree archive in temporary sandbox
+- **Sandbox Isolation Mode**: `CLEAN_GIT_ARCHIVE (tree: 7b193f940fbd, commit: 8a0f3348)`
+- **Source Git Commit**: `8a0f3348aab95cddf659282c93c09d5ac63cb72a`
+- **Source Tree SHA**: `7b193f940fbd13fbca04d4b02d389ad5e64a70aa`
 
 ---
 

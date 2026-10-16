@@ -5,7 +5,7 @@
 - **Total Practice Sets Audited**: 23
 - **Content QA Passed Sets (Awaiting Deployment)**: 11 (Sets with 100% QA_VERIFIED non-STAR items)
 - **Content Blocked Sets**: 9 (Sets referencing STAR questions with Gate 2 pending)
-- **Capacity Gated Sets**: 3 (3 Full Mocks requiring bank expansion)
+- **Capacity Gated Sets**: 3 (3 Full Mocks: NO_ITEMS — NOT_EVALUABLE, requiring bank expansion)
 - **Live Deployed Sets (Phase 3.7 Expanded)**: 0 (0 new forms deployed; exactly 3 P0 pilot forms preserved)
 - **Review Provenance Status**: 100% Content Hash Matched; Reviewer Execution Attestation: PARTIAL
 - **Learner Calibration Status**: PENDING_LEARNER_CALIBRATION (0 synthetic items exposed to learner)
@@ -52,9 +52,9 @@ To prevent conflation between authoring correctness, independent audit, statisti
 | `MX-N2-ADV-01` | MIXED_PRACTICE | N2 | 18 | `STAR_PENDING (3)` | `false` | `BLOCKED_CONTENT` | `NOT_DEPLOYED` | `UNAVAILABLE` | `CONTENT_QA_BLOCKED` |
 | `SIM-N4-GENGO` | SECTION_SIMULATION | N4 | 20 | `STAR_PENDING (2)` | `false` | `BLOCKED_CONTENT` | `NOT_DEPLOYED` | `UNAVAILABLE` | `CONTENT_QA_BLOCKED` |
 | `SIM-N3-GENGO` | SECTION_SIMULATION | N3 | 24 | `STAR_PENDING (4)` | `false` | `BLOCKED_CONTENT` | `NOT_DEPLOYED` | `UNAVAILABLE` | `CONTENT_QA_BLOCKED` |
-| `MOCK-N4-FULL` | FULL_MOCK_EXAM | N4 | 0 | `100% VERIFIED` | `true` | `GATED_CAPACITY` | `NOT_DEPLOYED` | `UNAVAILABLE` | `NOT_READY` |
-| `MOCK-N3-FULL` | FULL_MOCK_EXAM | N3 | 0 | `100% VERIFIED` | `true` | `GATED_CAPACITY` | `NOT_DEPLOYED` | `UNAVAILABLE` | `NOT_READY` |
-| `MOCK-N2-FULL` | FULL_MOCK_EXAM | N2 | 0 | `100% VERIFIED` | `true` | `GATED_CAPACITY` | `NOT_DEPLOYED` | `UNAVAILABLE` | `NOT_READY` |
+| `MOCK-N4-FULL` | FULL_MOCK_EXAM | N4 | 0 | `NO_ITEMS — NOT_EVALUABLE` | `false (NO_ITEMS)` | `GATED_CAPACITY` | `NOT_DEPLOYED` | `UNAVAILABLE` | `NOT_READY` |
+| `MOCK-N3-FULL` | FULL_MOCK_EXAM | N3 | 0 | `NO_ITEMS — NOT_EVALUABLE` | `false (NO_ITEMS)` | `GATED_CAPACITY` | `NOT_DEPLOYED` | `UNAVAILABLE` | `NOT_READY` |
+| `MOCK-N2-FULL` | FULL_MOCK_EXAM | N2 | 0 | `NO_ITEMS — NOT_EVALUABLE` | `false (NO_ITEMS)` | `GATED_CAPACITY` | `NOT_DEPLOYED` | `UNAVAILABLE` | `NOT_READY` |
 
 ---
 

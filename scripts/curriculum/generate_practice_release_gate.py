@@ -43,7 +43,7 @@ def generate_practice_release_gate_report():
         f"- **Total Practice Sets Audited**: {len(sets)}",
         f"- **Content QA Passed Sets (Awaiting Deployment)**: {ready_count} (Sets with 100% QA_VERIFIED non-STAR items)",
         f"- **Content Blocked Sets**: {blocked_count} (Sets referencing STAR questions with Gate 2 pending)",
-        f"- **Capacity Gated Sets**: {not_ready_count} (3 Full Mocks requiring bank expansion)",
+        f"- **Capacity Gated Sets**: {not_ready_count} (3 Full Mocks: NO_ITEMS — NOT_EVALUABLE, requiring bank expansion)",
         f"- **Live Deployed Sets (Phase 3.7 Expanded)**: {live_count} (0 new forms deployed; exactly 3 P0 pilot forms preserved)",
         "- **Review Provenance Status**: 100% Content Hash Matched; Reviewer Execution Attestation: PARTIAL",
         "- **Learner Calibration Status**: PENDING_LEARNER_CALIBRATION (0 synthetic items exposed to learner)",
@@ -86,7 +86,9 @@ def generate_practice_release_gate_report():
         star_pending_count = sum(1 for q in q_objs if q.get("status") == "STAR_SEMANTIC_REVIEW_PENDING")
         quarantined_count = sum(1 for q in q_objs if q.get("status") == "QUARANTINED")
 
-        if verified_count_set == q_count:
+        if q_count == 0:
+            validity_str = "NO_ITEMS — NOT_EVALUABLE"
+        elif verified_count_set == q_count:
             validity_str = "100% VERIFIED"
         elif star_pending_count > 0:
             validity_str = f"STAR_PENDING ({star_pending_count})"
@@ -96,8 +98,11 @@ def generate_practice_release_gate_report():
             validity_str = "UNVERIFIED"
 
         # 2. Exposure allowed (derived from q.exposureEligible)
-        all_exposure_eligible = all(q.get("exposureEligible", False) for q in q_objs)
-        exposure_str = "true" if all_exposure_eligible else "false"
+        if q_count == 0:
+            exposure_str = "false (NO_ITEMS)"
+        else:
+            all_exposure_eligible = all(q.get("exposureEligible", False) for q in q_objs)
+            exposure_str = "true" if all_exposure_eligible else "false"
 
         # 3. Set deploy permission
         readiness = s["readinessStatus"]

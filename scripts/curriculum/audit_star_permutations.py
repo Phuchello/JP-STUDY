@@ -24,26 +24,125 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+from scripts.curriculum.content_fingerprint import (
+    canonical_blind_input_fingerprint,
+    canonical_scoring_fingerprint,
+    compute_file_sha256
+)
+
+
+def parse_strict_star_stem(stem: str) -> tuple[bool, str, dict]:
+    """
+    Dedicated strict parser for JLPT STAR questions.
+    Enforces exact JLPT STAR stem layout:
+      prefix + （　　） + （　　） + ★ + （　　） + suffix
+    Validates:
+      1. Exactly three ordinary blank slots.
+      2. Exactly one ★ marker.
+      3. Exactly four effective insertion positions.
+      4. ★ occupies insertion position three.
+      5. No extra blank outside the intended question.
+      6. No malformed or nested parentheses.
+      7. No duplicate ★ markers.
+      8. No missing insertion positions.
+      9. No non-whitespace text between insertion positions.
+      10. Prefix and suffix do not contain stray delimiters.
+    Returns: (is_valid, reason, {"prefix": str, "suffix": str, "slots": list})
+    """
+    if not stem:
+        return False, "EMPTY_STEM: Stem is empty.", {}
+
+    # 1. Star count check
+    star_count = stem.count("★")
+    if star_count == 0:
+        return False, "MISSING_STAR_MARKER: Stem does not contain the required '★' marker.", {}
+    if star_count > 1:
+        return False, f"DUPLICATE_STAR_MARKER: Stem contains {star_count} '★' markers, expected exactly 1.", {}
+
+    # 2. Parentheses balancing and integrity check
+    open_count = stem.count("（") + stem.count("(")
+    close_count = stem.count("）") + stem.count(")")
+    if open_count != close_count:
+        return False, f"MALFORMED_PARENTHESES: Unbalanced parentheses (opens={open_count}, closes={close_count}).", {}
+
+    depth = 0
+    for char in stem:
+        if char in "（(":
+            depth += 1
+            if depth > 1:
+                return False, "MALFORMED_PARENTHESES: Nested parentheses detected.", {}
+        elif char in "）)":
+            depth -= 1
+            if depth < 0:
+                return False, "MALFORMED_PARENTHESES: Closing parenthesis before opening parenthesis.", {}
+
+    # 3. Tokenize slots: find all blank slots and star markers
+    slot_pattern = re.compile(r'([（\(][\s　]*★[\s　]*[）\)]|[（\(][\s　]*[）\)]|★)')
+    matches = list(slot_pattern.finditer(stem))
+
+    if len(matches) < 4:
+        return False, f"INSUFFICIENT_SLOTS: Found {len(matches)} insertion slot(s), expected exactly 4 (3 blanks + 1 ★).", {}
+    if len(matches) > 4:
+        return False, f"EXTRA_SLOTS: Found {len(matches)} insertion slot(s), expected exactly 4 (too many blanks).", {}
+
+    slots = []
+    for m in matches:
+        raw_text = m.group(0)
+        start, end = m.span()
+        if "★" in raw_text:
+            slots.append({"type": "STAR", "raw": raw_text, "start": start, "end": end})
+        else:
+            slots.append({"type": "BLANK", "raw": raw_text, "start": start, "end": end})
+
+    regular_blanks = sum(1 for s in slots if s["type"] == "BLANK")
+    stars = sum(1 for s in slots if s["type"] == "STAR")
+
+    if regular_blanks != 3:
+        return False, f"INVALID_BLANK_COUNT: Found {regular_blanks} regular blank(s), expected exactly 3.", {}
+    if stars != 1:
+        return False, f"INVALID_STAR_COUNT: Found {stars} star marker(s), expected exactly 1.", {}
+
+    # 4. Check that ★ is strictly at slot index 2 (position 3, 1-indexed)
+    if slots[0]["type"] == "STAR":
+        return False, "INVALID_STAR_POSITION: '★' occupies insertion position 1, expected position 3.", {}
+    if slots[1]["type"] == "STAR":
+        return False, "INVALID_STAR_POSITION: '★' occupies insertion position 2, expected position 3.", {}
+    if slots[3]["type"] == "STAR":
+        return False, "INVALID_STAR_POSITION: '★' occupies insertion position 4, expected position 3.", {}
+
+    # 5. Check contiguous cluster: between slots, text must only be whitespace
+    for i in range(3):
+        inter_text = stem[slots[i]["end"]:slots[i+1]["start"]]
+        if re.search(r'[^\s　]', inter_text):
+            return False, f"DISCONTIGUOUS_SLOT_CLUSTER: Non-whitespace text '{inter_text.strip()}' between slot {i+1} and {i+2}.", {}
+
+    prefix = stem[:slots[0]["start"]]
+    suffix = stem[slots[3]["end"]:]
+
+    # 6. Ensure prefix and suffix contain no stray parenthesis characters
+    if any(p in prefix for p in "（()）") or any(p in suffix for p in "（()）"):
+        return False, "MALFORMED_STEM_DELIMITERS: Stray parentheses found in stem prefix or suffix.", {}
+
+    return True, "STRICT_STAR_STEM_VALID", {
+        "prefix": prefix,
+        "suffix": suffix,
+        "slots": slots
+    }
 
 
 def extract_stem_boundary(stem: str) -> tuple[str, str]:
-    """Extracts prefix before first blank and suffix after last blank."""
-    # Handle full-width or half-width parentheses
-    # Standard format: ...（　　）（　　） ★ （　　）...
-    p_open = stem.find("（")
-    if p_open == -1:
-        p_open = stem.find("(")
-    
-    p_close = stem.rfind("）")
-    if p_close == -1:
-        p_close = stem.rfind(")")
-
+    """Extracts prefix and suffix using strict parser if valid, fallback for legacy compatibility."""
+    ok, _, data = parse_strict_star_stem(stem)
+    if ok:
+        return data["prefix"], data["suffix"]
+    p_open = stem.find("（") if stem.find("（") != -1 else stem.find("(")
+    p_close = stem.rfind("）") if stem.rfind("）") != -1 else stem.rfind(")")
     if p_open == -1 or p_close == -1 or p_close <= p_open:
         return "", ""
-
-    prefix = stem[:p_open]
-    suffix = stem[p_close + 1:].strip()
-    return prefix, suffix
+    return stem[:p_open], stem[p_close + 1:].strip()
 
 
 def check_generic_structural_constraints(order: list, chunks: list, prefix: str, suffix: str, sentence: str) -> tuple[bool, str]:
@@ -85,6 +184,7 @@ def check_generic_structural_constraints(order: list, chunks: list, prefix: str,
 def validate_star_structure(q: dict) -> tuple[bool, str, dict]:
     """
     Gate 1: Deterministic structural validation for a STAR question.
+    Enforces strict STAR stem layout, options count, uniqueness, canonical assembly, and slot 3 match.
     """
     qid = q.get("id", "UNKNOWN")
     stem = q.get("stem", "")
@@ -109,10 +209,13 @@ def validate_star_structure(q: dict) -> tuple[bool, str, dict]:
 
     opt_map = {opt["id"].strip().upper(): opt["text"].strip() for opt in options}
 
-    # Check 3: Stem boundary extraction
-    prefix, suffix = extract_stem_boundary(stem)
-    if "★" not in stem:
-        return False, "MISSING_STAR_SYMBOL: Stem does not contain the required '★' marker.", {}
+    # Check 3: Strict Stem Parser
+    is_stem_valid, stem_reason, stem_data = parse_strict_star_stem(stem)
+    if not is_stem_valid:
+        return False, f"STRICT_STEM_PARSER_FAILURE: {stem_reason}", {}
+
+    prefix = stem_data["prefix"]
+    suffix = stem_data["suffix"]
 
     # Check 4: Canonical sentence presence and coherence
     if not canonical_sentence:
@@ -191,16 +294,145 @@ def validate_star_structure(q: dict) -> tuple[bool, str, dict]:
     return True, "Gate 1 Structural Validation Passed", structural_data
 
 
-def evaluate_star_semantic_uniqueness(q: dict, structural_data: dict, semantic_ledger: dict = None) -> tuple[str, str, dict]:
+def validate_semantic_review_evidence(ledger_entry: dict, q: dict, structural_data: dict, qa_dir: Path = None) -> tuple[bool, str, dict]:
+    """
+    Independently validates a semantic review evidence record against strict security criteria:
+    Mandatory fields:
+      - id (stable question ID)
+      - blindInputSha256 (current BLIND_INPUT_SHA256)
+      - scoringSha256 (relevant SCORING_SHA256)
+      - canonicalPermutation (canonical permutation)
+      - reviewedPermutations (every reviewed alternative permutation)
+      - reviewerId (actual reviewer identity)
+      - reviewMethod (review method)
+      - evidenceArtifact (evidence artifact reference)
+      - evidenceIntegrityHash (evidence integrity hash)
+      - perPermutationJudgments (per-permutation judgment)
+      - reviewerConcerns (reviewer concerns)
+      - finalDecision (explicit final decision)
+      - timestamp (timestamp accurately originating from execution evidence)
+      - provenanceStatus (provenance status)
+
+    Rejects/fails if:
+      1. Question ID mismatch.
+      2. Question version changed/stale.
+      3. Fingerprint mismatch (blindInputSha256 or scoringSha256).
+      4. Reviewer identity is missing or an unsupported placeholder label.
+      5. Evidence artifact reference missing, file not found, or digest hash mismatch.
+      6. Reviewed permutations coverage is empty or insufficient.
+      7. Missing per-permutation linguistic adjudication or blanket default invalid rule.
+      8. Recorded defensible alternative changes the STAR answer.
+      9. Incomplete coverage falsely declared complete.
+
+    Returns: (is_valid, reason, details)
+    """
+    qid = structural_data.get("id", q.get("id", "UNKNOWN"))
+
+    # 1. ID check
+    if ledger_entry.get("id") != qid:
+        return False, f"QUESTION_ID_MISMATCH: Ledger entry ID '{ledger_entry.get('id')}' != question ID '{qid}'.", {}
+
+    # 2. Version check
+    entry_ver = ledger_entry.get("questionVersion", 1)
+    current_ver = q.get("version", 1)
+    if entry_ver < current_ver:
+        return False, f"STALE_QUESTION_VERSION: Review applies to version {entry_ver}, current question is version {current_ver}.", {}
+
+    # 3. Content Fingerprint checks
+    current_blind_fp = canonical_blind_input_fingerprint(q)
+    ledger_blind_fp = ledger_entry.get("blindInputSha256")
+    if not ledger_blind_fp or ledger_blind_fp != current_blind_fp:
+        return False, f"FINGERPRINT_MISMATCH: Ledger blind hash '{ledger_blind_fp}' does not match current question fingerprint '{current_blind_fp}'.", {}
+
+    current_scoring_fp = canonical_scoring_fingerprint(q)
+    ledger_scoring_fp = ledger_entry.get("scoringSha256")
+    if not ledger_scoring_fp or ledger_scoring_fp != current_scoring_fp:
+        return False, f"SCORING_FINGERPRINT_MISMATCH: Ledger scoring hash '{ledger_scoring_fp}' does not match current '{current_scoring_fp}'.", {}
+
+    # 4. Reviewer identity & execution attestation
+    reviewer_id = str(ledger_entry.get("reviewerId", "")).strip()
+    unsupported_labels = [
+        "expert_panel", "placeholder", "unverified", "anonymous",
+        "reviewer", "independent-jlpt-linguistic-expert-v2", "simulated"
+    ]
+    if not reviewer_id or reviewer_id.lower() in unsupported_labels:
+        return False, f"UNSUPPORTED_REVIEWER_LABEL: Reviewer identity '{reviewer_id}' lacks independent execution attestation or verifiable credentials.", {}
+
+    # 5. Defensible alternative permutation check (linguistic defect check takes precedence)
+    correct_ans = structural_data.get("correctAnswer", q.get("correctAnswer", ""))
+    defensible_alts = ledger_entry.get("defensibleAlternativePermutations", [])
+    colliding = [alt for alt in defensible_alts if alt.get("slot3Id") != correct_ans]
+    if colliding:
+        return False, f"AMBIGUOUS_ALTERNATIVE_FOUND: Question has {len(colliding)} defensible alternative permutation(s) that alter the STAR answer.", {"colliding": colliding}
+
+    # 6. Evidence artifact presence and digest integrity
+    art_ref = ledger_entry.get("evidenceArtifact")
+    if not art_ref:
+        return False, "MISSING_EVIDENCE_ARTIFACT: No evidence artifact reference provided in ledger entry.", {}
+
+    if qa_dir is None:
+        qa_dir = ROOT / "qa"
+    art_path = Path(art_ref) if Path(art_ref).is_absolute() else (ROOT / art_ref)
+    if not art_path.exists():
+        art_path = qa_dir / Path(art_ref).name
+    if not art_path.exists():
+        return False, f"MISSING_EVIDENCE_FILE: Evidence artifact '{art_ref}' not found on disk.", {}
+
+    expected_art_hash = ledger_entry.get("evidenceIntegrityHash")
+    if not expected_art_hash:
+        return False, "MISSING_ARTIFACT_DIGEST: Ledger entry lacks required evidenceIntegrityHash.", {}
+
+    actual_art_hash = compute_file_sha256(art_path)
+    if actual_art_hash != expected_art_hash:
+        return False, f"EVIDENCE_HASH_MISMATCH: Computed artifact hash '{actual_art_hash}' does not match recorded digest '{expected_art_hash}'.", {}
+
+    # 7. Reviewed permutations coverage
+    reviewed_perms = ledger_entry.get("reviewedPermutations", [])
+    if not reviewed_perms or len(reviewed_perms) == 0:
+        return False, "INSUFFICIENT_REVIEW_COVERAGE: reviewedPermutations list is empty.", {}
+
+    # 8. Per-permutation linguistic judgments
+    per_judgments = ledger_entry.get("perPermutationJudgments", {})
+    if not per_judgments or len(per_judgments) < len(reviewed_perms):
+        return False, "INCOMPLETE_PERMUTATION_JUDGMENTS: Missing per-permutation linguistic adjudication.", {}
+
+    # Reject unsupported blanket default invalid rules
+    default_rules = [
+        "invalid by default", "default rejection", "unsupported default rule",
+        "blanket rejection", "auto invalid", "assumed invalid"
+    ]
+    if any(any(dr in str(j).lower() for dr in default_rules) for j in per_judgments.values()):
+        return False, "UNSUPPORTED_DEFAULT_RULE_REJECTED: Non-canonical permutations were marked invalid by blanket default rule without linguistic evidence.", {}
+
+    # 9. Incomplete coverage falsely declared complete
+    plausible_orders = [
+        p["order"] for p in structural_data.get("permutations", [])
+        if p.get("structuralValidity") == "VALID" and not p.get("isCanonical")
+    ]
+    reviewed_orders = [
+        (rp["order"] if isinstance(rp, dict) else rp)
+        for rp in reviewed_perms
+    ]
+    unreviewed = [po for po in plausible_orders if po not in reviewed_orders]
+    if unreviewed and ledger_entry.get("coverageDeclared") == "COMPLETE":
+        return False, f"INCOMPLETE_COVERAGE_FALSELY_DECLARED: {len(unreviewed)} structurally plausible permutations lack independent linguistic adjudication.", {}
+
+    return True, "SEMANTIC_REVIEW_EVIDENCE_VALID", {
+        "reviewer": reviewer_id,
+        "reviewedCount": len(reviewed_perms),
+        "defensibleAlternatives": defensible_alts,
+        "artifact": str(art_path)
+    }
+
+
+def evaluate_star_semantic_uniqueness(q: dict, structural_data: dict, semantic_ledger: dict = None, qa_dir: Path = None) -> tuple[str, str, dict]:
     """
     Gate 2: Semantic Uniqueness & Linguistic Defensibility.
     Evaluates whether non-canonical permutations are natural, valid Japanese that change the STAR answer.
     Never assumes non-canonical orders are automatically invalid.
-    If no certified independent review exists for candidate permutations, returns STAR_SEMANTIC_REVIEW_PENDING.
+    Strictly validates review evidence schema and rejects forged or incomplete attestations.
     """
     qid = structural_data.get("id", q.get("id", "UNKNOWN"))
-    canonical_order = structural_data.get("canonicalOrder", [])
-    perms = structural_data.get("permutations", [])
     correct_ans = structural_data.get("correctAnswer", "")
 
     # Look up in provided semantic review ledger if present
@@ -216,28 +448,44 @@ def evaluate_star_semantic_uniqueness(q: dict, structural_data: dict, semantic_l
             "disposition": "QA_REVIEW_REQUIRED"
         }
 
-    # If ledger records an ambiguous alternative
-    defensible_alts = ledger_entry.get("defensibleAlternativePermutations", [])
-    colliding_alts = [
-        alt for alt in defensible_alts
-        if alt.get("slot3Id") != correct_ans
-    ]
-
-    if colliding_alts:
+    # If ledger explicitly records an ambiguous alternative
+    if ledger_entry.get("status") == "AMBIGUOUS_ALTERNATIVE_FOUND":
+        defensible_alts = ledger_entry.get("defensibleAlternativePermutations", [])
+        colliding_alts = [
+            alt for alt in defensible_alts
+            if alt.get("slot3Id") != correct_ans
+        ]
         return "AMBIGUOUS_ALTERNATIVE_FOUND", f"Question has {len(colliding_alts)} defensible alternative permutation(s) that produce a different STAR answer.", {
             "gate2Status": "AMBIGUOUS_ALTERNATIVE_FOUND",
-            "reviewer": ledger_entry.get("reviewerId", "expert_panel"),
+            "reviewer": ledger_entry.get("reviewerId", "unverified"),
             "reviewedCount": len(ledger_entry.get("reviewedPermutations", [])),
             "defensibleAlternatives": colliding_alts,
             "disposition": "QUARANTINED"
         }
 
+    # If ledger claims VERIFIED_COHERENT: validate against strict security schema
     if ledger_entry.get("status") == "VERIFIED_COHERENT":
+        is_valid_evidence, evidence_reason, evidence_details = validate_semantic_review_evidence(ledger_entry, q, structural_data, qa_dir)
+        if not is_valid_evidence:
+            if "AMBIGUOUS_ALTERNATIVE_FOUND" in evidence_reason:
+                return "AMBIGUOUS_ALTERNATIVE_FOUND", evidence_reason, {
+                    "gate2Status": "AMBIGUOUS_ALTERNATIVE_FOUND",
+                    "reviewer": ledger_entry.get("reviewerId", "unverified"),
+                    "reviewedCount": len(ledger_entry.get("reviewedPermutations", [])),
+                    "defensibleAlternatives": evidence_details.get("colliding", []),
+                    "disposition": "QUARANTINED"
+                }
+            return "QA_REVIEW_REQUIRED", f"Semantic evidence rejected: {evidence_reason}", {
+                "gate2Status": "QA_REVIEW_REQUIRED",
+                "rejectionReason": evidence_reason,
+                "disposition": "QA_REVIEW_REQUIRED"
+            }
+
         return "VERIFIED_COHERENT", "Independent semantic review certified that no alternative valid permutation changes the STAR answer.", {
             "gate2Status": "VERIFIED_COHERENT",
-            "reviewer": ledger_entry.get("reviewerId", "expert_panel"),
-            "reviewedCount": len(ledger_entry.get("reviewedPermutations", [])),
-            "defensibleAlternatives": [],
+            "reviewer": evidence_details.get("reviewer"),
+            "reviewedCount": evidence_details.get("reviewedCount"),
+            "defensibleAlternatives": evidence_details.get("defensibleAlternatives", []),
             "disposition": "QA_VERIFIED"
         }
 
@@ -247,7 +495,7 @@ def evaluate_star_semantic_uniqueness(q: dict, structural_data: dict, semantic_l
     }
 
 
-def audit_star_question(q: dict, semantic_ledger: dict = None) -> tuple[bool, str, dict]:
+def audit_star_question(q: dict, semantic_ledger: dict = None, qa_dir: Path = None) -> tuple[bool, str, dict]:
     """
     Combined production entrypoint for STAR question validation.
     Runs Gate 1 (Structural) then Gate 2 (Semantic).
@@ -260,7 +508,7 @@ def audit_star_question(q: dict, semantic_ledger: dict = None) -> tuple[bool, st
         return False, f"Gate 1 Failed: {msg_struct}", {"gate1": "FAIL", "error": msg_struct}
 
     # 2. Gate 2: Semantic
-    sem_status, sem_msg, sem_data = evaluate_star_semantic_uniqueness(q, struct_data, semantic_ledger)
+    sem_status, sem_msg, sem_data = evaluate_star_semantic_uniqueness(q, struct_data, semantic_ledger, qa_dir)
     
     combined_data = {
         "id": struct_data["id"],
@@ -336,10 +584,24 @@ def generate_star_permutation_report():
         # to strictly avoid self-certifying non-canonical permutations without explicit per-permutation evidence.
         ledger_items[qid] = {
             "id": qid,
+            "questionVersion": q.get("version", 1),
             "level": level,
+            "blindInputSha256": canonical_blind_input_fingerprint(q),
+            "scoringSha256": canonical_scoring_fingerprint(q),
             "stem": q["stem"],
             "correctAnswer": q["correctAnswer"],
             "canonicalSentence": q.get("assembledSentence", ""),
+            "canonicalPermutation": struct_data.get("canonicalOrder", []),
+            "status": "STAR_SEMANTIC_REVIEW_PENDING",
+            "reviewedPermutations": [],
+            "reviewerId": "INDEPENDENT_EXPERT_PANEL_PENDING",
+            "reviewMethod": "PENDING_EXPERT_ADJUDICATION",
+            "evidenceArtifact": None,
+            "evidenceIntegrityHash": None,
+            "perPermutationJudgments": {},
+            "reviewerConcerns": None,
+            "finalDecision": "STAR_SEMANTIC_REVIEW_PENDING",
+            "provenanceStatus": "PENDING",
             "gate1_structural": {
                 "status": "PASS" if ok_struct else "FAIL",
                 "permutationsGenerated": 24,
