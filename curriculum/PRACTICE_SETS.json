@@ -9,7 +9,8 @@
     "FULL_MOCK_EXAM": 3
   },
   "countsByStatus": {
-    "QA_PASSED_NOT_DEPLOYED": 20,
+    "QA_PASSED_NOT_DEPLOYED": 11,
+    "CONTENT_QA_BLOCKED": 9,
     "NOT_READY": 3
   },
   "uniqueQuestionsReferenced": 108,
@@ -94,19 +95,20 @@
         "N4-GR-STAR-005"
       ],
       "isDiagnostic": false,
-      "readinessStatus": "QA_PASSED_NOT_DEPLOYED",
+      "readinessStatus": "CONTENT_QA_BLOCKED",
       "implementationType": "SPEC_ONLY",
       "deploymentNote": "Đặc tả cấu trúc đề đã qua kiểm định Cổng A-D đạt chuẩn. Chưa xuất bản Google Form thực tế (Spec Only, giữ nguyên 3 Form P0 hiện hành).",
-      "status": "QA_PASSED_NOT_DEPLOYED",
+      "status": "CONTENT_QA_BLOCKED",
       "activeFormsDeployed": 0,
-      "readinessReason": "All questions QA_VERIFIED, specification validated, awaiting controlled deployment",
+      "readinessReason": "Referenced questions unverified: [('N4-GR-STAR-001', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N4-GR-STAR-002', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N4-GR-STAR-003', 'STAR_SEMANTIC_REVIEW_PENDING')]",
       "deployment": {
         "isDeployed": false,
         "formId": null,
         "responderUrl": null,
         "lastLiveQaTimestamp": null,
         "qaResult": null
-      }
+      },
+      "blockReason": "Referenced questions unverified: [('N4-GR-STAR-001', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N4-GR-STAR-002', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N4-GR-STAR-003', 'STAR_SEMANTIC_REVIEW_PENDING')]"
     },
     {
       "id": "MD-N3-VOC-01",
@@ -366,19 +368,20 @@
         "N4-GR-STAR-006"
       ],
       "isDiagnostic": false,
-      "readinessStatus": "QA_PASSED_NOT_DEPLOYED",
+      "readinessStatus": "CONTENT_QA_BLOCKED",
       "implementationType": "SPEC_ONLY",
       "deploymentNote": "Đặc tả cấu trúc đề đã qua kiểm định Cổng A-D đạt chuẩn. Chưa xuất bản Google Form thực tế (Spec Only, giữ nguyên 3 Form P0 hiện hành).",
-      "status": "QA_PASSED_NOT_DEPLOYED",
+      "status": "CONTENT_QA_BLOCKED",
       "activeFormsDeployed": 0,
-      "readinessReason": "All questions QA_VERIFIED, specification validated, awaiting controlled deployment",
+      "readinessReason": "Referenced questions unverified: [('N4-GR-STAR-001', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N4-GR-STAR-002', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N4-GR-STAR-003', 'STAR_SEMANTIC_REVIEW_PENDING')]",
       "deployment": {
         "isDeployed": false,
         "formId": null,
         "responderUrl": null,
         "lastLiveQaTimestamp": null,
         "qaResult": null
-      }
+      },
+      "blockReason": "Referenced questions unverified: [('N4-GR-STAR-001', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N4-GR-STAR-002', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N4-GR-STAR-003', 'STAR_SEMANTIC_REVIEW_PENDING')]"
     },
     {
       "id": "SK-N3-MO-01",
@@ -452,19 +455,20 @@
         "N3-GR-STAR-006"
       ],
       "isDiagnostic": false,
-      "readinessStatus": "QA_PASSED_NOT_DEPLOYED",
+      "readinessStatus": "CONTENT_QA_BLOCKED",
       "implementationType": "SPEC_ONLY",
       "deploymentNote": "Đặc tả cấu trúc đề đã qua kiểm định Cổng A-D đạt chuẩn. Chưa xuất bản Google Form thực tế (Spec Only, giữ nguyên 3 Form P0 hiện hành).",
-      "status": "QA_PASSED_NOT_DEPLOYED",
+      "status": "CONTENT_QA_BLOCKED",
       "activeFormsDeployed": 0,
-      "readinessReason": "All questions QA_VERIFIED, specification validated, awaiting controlled deployment",
+      "readinessReason": "Referenced questions unverified: [('N3-GR-STAR-001', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N3-GR-STAR-002', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N3-GR-STAR-003', 'STAR_SEMANTIC_REVIEW_PENDING')]",
       "deployment": {
         "isDeployed": false,
         "formId": null,
         "responderUrl": null,
         "lastLiveQaTimestamp": null,
         "qaResult": null
-      }
+      },
+      "blockReason": "Referenced questions unverified: [('N3-GR-STAR-001', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N3-GR-STAR-002', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N3-GR-STAR-003', 'STAR_SEMANTIC_REVIEW_PENDING')]"
     },
     {
       "id": "SK-N2-MO-01",
@@ -531,19 +535,20 @@
         "N2-GR-STAR-004"
       ],
       "isDiagnostic": false,
-      "readinessStatus": "QA_PASSED_NOT_DEPLOYED",
+      "readinessStatus": "CONTENT_QA_BLOCKED",
       "implementationType": "SPEC_ONLY",
       "deploymentNote": "Đặc tả cấu trúc đề đã qua kiểm định Cổng A-D đạt chuẩn. Chưa xuất bản Google Form thực tế (Spec Only, giữ nguyên 3 Form P0 hiện hành).",
-      "status": "QA_PASSED_NOT_DEPLOYED",
+      "status": "CONTENT_QA_BLOCKED",
       "activeFormsDeployed": 0,
-      "readinessReason": "All questions QA_VERIFIED, specification validated, awaiting controlled deployment",
+      "readinessReason": "Referenced questions unverified: [('N2-GR-STAR-001', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N2-GR-STAR-002', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N2-GR-STAR-003', 'STAR_SEMANTIC_REVIEW_PENDING')]",
       "deployment": {
         "isDeployed": false,
         "formId": null,
         "responderUrl": null,
         "lastLiveQaTimestamp": null,
         "qaResult": null
-      }
+      },
+      "blockReason": "Referenced questions unverified: [('N2-GR-STAR-001', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N2-GR-STAR-002', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N2-GR-STAR-003', 'STAR_SEMANTIC_REVIEW_PENDING')]"
     },
     {
       "id": "MX-N4-FOU-01",
@@ -577,19 +582,20 @@
         "N4-RD-INFO-001"
       ],
       "isDiagnostic": false,
-      "readinessStatus": "QA_PASSED_NOT_DEPLOYED",
+      "readinessStatus": "CONTENT_QA_BLOCKED",
       "implementationType": "SPEC_ONLY",
       "deploymentNote": "Đặc tả cấu trúc đề đã qua kiểm định Cổng A-D đạt chuẩn. Chưa xuất bản Google Form thực tế (Spec Only, giữ nguyên 3 Form P0 hiện hành).",
-      "status": "QA_PASSED_NOT_DEPLOYED",
+      "status": "CONTENT_QA_BLOCKED",
       "activeFormsDeployed": 0,
-      "readinessReason": "All questions QA_VERIFIED, specification validated, awaiting controlled deployment",
+      "readinessReason": "Referenced questions unverified: [('N4-GR-STAR-001', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N4-GR-STAR-003', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N4-GR-STAR-005', 'STAR_SEMANTIC_REVIEW_PENDING')]",
       "deployment": {
         "isDeployed": false,
         "formId": null,
         "responderUrl": null,
         "lastLiveQaTimestamp": null,
         "qaResult": null
-      }
+      },
+      "blockReason": "Referenced questions unverified: [('N4-GR-STAR-001', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N4-GR-STAR-003', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N4-GR-STAR-005', 'STAR_SEMANTIC_REVIEW_PENDING')]"
     },
     {
       "id": "MX-N3-INT-01",
@@ -623,19 +629,20 @@
         "N3-RD-MEDI-001"
       ],
       "isDiagnostic": false,
-      "readinessStatus": "QA_PASSED_NOT_DEPLOYED",
+      "readinessStatus": "CONTENT_QA_BLOCKED",
       "implementationType": "SPEC_ONLY",
       "deploymentNote": "Đặc tả cấu trúc đề đã qua kiểm định Cổng A-D đạt chuẩn. Chưa xuất bản Google Form thực tế (Spec Only, giữ nguyên 3 Form P0 hiện hành).",
-      "status": "QA_PASSED_NOT_DEPLOYED",
+      "status": "CONTENT_QA_BLOCKED",
       "activeFormsDeployed": 0,
-      "readinessReason": "All questions QA_VERIFIED, specification validated, awaiting controlled deployment",
+      "readinessReason": "Referenced questions unverified: [('N3-GR-STAR-001', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N3-GR-STAR-003', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N3-GR-STAR-005', 'STAR_SEMANTIC_REVIEW_PENDING')]",
       "deployment": {
         "isDeployed": false,
         "formId": null,
         "responderUrl": null,
         "lastLiveQaTimestamp": null,
         "qaResult": null
-      }
+      },
+      "blockReason": "Referenced questions unverified: [('N3-GR-STAR-001', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N3-GR-STAR-003', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N3-GR-STAR-005', 'STAR_SEMANTIC_REVIEW_PENDING')]"
     },
     {
       "id": "MX-N2-ADV-01",
@@ -667,19 +674,20 @@
         "N2-RD-SHOR-003"
       ],
       "isDiagnostic": false,
-      "readinessStatus": "QA_PASSED_NOT_DEPLOYED",
+      "readinessStatus": "CONTENT_QA_BLOCKED",
       "implementationType": "SPEC_ONLY",
       "deploymentNote": "Đặc tả cấu trúc đề đã qua kiểm định Cổng A-D đạt chuẩn. Chưa xuất bản Google Form thực tế (Spec Only, giữ nguyên 3 Form P0 hiện hành).",
-      "status": "QA_PASSED_NOT_DEPLOYED",
+      "status": "CONTENT_QA_BLOCKED",
       "activeFormsDeployed": 0,
-      "readinessReason": "All questions QA_VERIFIED, specification validated, awaiting controlled deployment",
+      "readinessReason": "Referenced questions unverified: [('N2-GR-STAR-001', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N2-GR-STAR-002', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N2-GR-STAR-003', 'STAR_SEMANTIC_REVIEW_PENDING')]",
       "deployment": {
         "isDeployed": false,
         "formId": null,
         "responderUrl": null,
         "lastLiveQaTimestamp": null,
         "qaResult": null
-      }
+      },
+      "blockReason": "Referenced questions unverified: [('N2-GR-STAR-001', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N2-GR-STAR-002', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N2-GR-STAR-003', 'STAR_SEMANTIC_REVIEW_PENDING')]"
     },
     {
       "id": "SIM-N4-GENGO",
@@ -713,19 +721,20 @@
         "N4-GR-STAR-002"
       ],
       "isDiagnostic": false,
-      "readinessStatus": "QA_PASSED_NOT_DEPLOYED",
+      "readinessStatus": "CONTENT_QA_BLOCKED",
       "implementationType": "SPEC_ONLY",
       "deploymentNote": "Đặc tả cấu trúc đề đã qua kiểm định Cổng A-D đạt chuẩn. Chưa xuất bản Google Form thực tế (Spec Only, giữ nguyên 3 Form P0 hiện hành).",
-      "status": "QA_PASSED_NOT_DEPLOYED",
+      "status": "CONTENT_QA_BLOCKED",
       "activeFormsDeployed": 0,
-      "readinessReason": "All questions QA_VERIFIED, specification validated, awaiting controlled deployment",
+      "readinessReason": "Referenced questions unverified: [('N4-GR-STAR-001', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N4-GR-STAR-002', 'STAR_SEMANTIC_REVIEW_PENDING')]",
       "deployment": {
         "isDeployed": false,
         "formId": null,
         "responderUrl": null,
         "lastLiveQaTimestamp": null,
         "qaResult": null
-      }
+      },
+      "blockReason": "Referenced questions unverified: [('N4-GR-STAR-001', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N4-GR-STAR-002', 'STAR_SEMANTIC_REVIEW_PENDING')]"
     },
     {
       "id": "SIM-N3-GENGO",
@@ -763,19 +772,20 @@
         "N3-GR-STAR-004"
       ],
       "isDiagnostic": false,
-      "readinessStatus": "QA_PASSED_NOT_DEPLOYED",
+      "readinessStatus": "CONTENT_QA_BLOCKED",
       "implementationType": "SPEC_ONLY",
       "deploymentNote": "Đặc tả cấu trúc đề đã qua kiểm định Cổng A-D đạt chuẩn. Chưa xuất bản Google Form thực tế (Spec Only, giữ nguyên 3 Form P0 hiện hành).",
-      "status": "QA_PASSED_NOT_DEPLOYED",
+      "status": "CONTENT_QA_BLOCKED",
       "activeFormsDeployed": 0,
-      "readinessReason": "All questions QA_VERIFIED, specification validated, awaiting controlled deployment",
+      "readinessReason": "Referenced questions unverified: [('N3-GR-STAR-001', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N3-GR-STAR-002', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N3-GR-STAR-003', 'STAR_SEMANTIC_REVIEW_PENDING')]",
       "deployment": {
         "isDeployed": false,
         "formId": null,
         "responderUrl": null,
         "lastLiveQaTimestamp": null,
         "qaResult": null
-      }
+      },
+      "blockReason": "Referenced questions unverified: [('N3-GR-STAR-001', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N3-GR-STAR-002', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N3-GR-STAR-003', 'STAR_SEMANTIC_REVIEW_PENDING')]"
     },
     {
       "id": "MOCK-N4-FULL",
@@ -848,5 +858,5 @@
     }
   ],
   "lastAudit": "2026-10-15T15:18:13.369030+00:00",
-  "lastReconciliationTimestamp": "2026-10-16T08:08:27.359219+00:00"
+  "lastReconciliationTimestamp": "2026-10-16T08:37:09.524434+00:00"
 }

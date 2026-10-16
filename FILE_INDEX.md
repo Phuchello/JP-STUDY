@@ -142,6 +142,7 @@ Snapshot 2026-10-15. VERIFIED is scoped verification, not JLPT certification. Hi
 | [diagnostic/README.md](diagnostic/README.md) | VERIFIED |
 | [gemini-prompts/README.md](gemini-prompts/README.md) | VERIFIED |
 | [grammar-patterns/README.md](grammar-patterns/README.md) | VERIFIED |
+| [qa/ADVERSARIAL_TEST_RESULTS.md](qa/ADVERSARIAL_TEST_RESULTS.md) | VERIFIED |
 | [qa/BLIND_REVIEW_RECONCILIATION_REPORT.md](qa/BLIND_REVIEW_RECONCILIATION_REPORT.md) | VERIFIED |
 | [qa/CONTENT_FINGERPRINT_MANIFEST.json](qa/CONTENT_FINGERPRINT_MANIFEST.json) | VERIFIED |
 | [qa/PRACTICE_RELEASE_GATE.md](qa/PRACTICE_RELEASE_GATE.md) | VERIFIED |
@@ -153,6 +154,7 @@ Snapshot 2026-10-15. VERIFIED is scoped verification, not JLPT certification. Hi
 | [qa/REPRODUCIBILITY_AUDIT.md](qa/REPRODUCIBILITY_AUDIT.md) | VERIFIED |
 | [qa/REVIEW_PROVENANCE_AUDIT.md](qa/REVIEW_PROVENANCE_AUDIT.md) | VERIFIED |
 | [qa/STAR_PERMUTATION_AUDIT.md](qa/STAR_PERMUTATION_AUDIT.md) | VERIFIED |
+| [qa/STAR_SEMANTIC_REVIEW_LEDGER.json](qa/STAR_SEMANTIC_REVIEW_LEDGER.json) | VERIFIED |
 | [qa/blind_review_dataset.json](qa/blind_review_dataset.json) | VERIFIED |
 | [qa/blind_review_n2.json](qa/blind_review_n2.json) | VERIFIED |
 | [qa/blind_review_n3.json](qa/blind_review_n3.json) | VERIFIED |

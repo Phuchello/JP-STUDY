@@ -1,0 +1,458 @@
+{
+  "version": "phase3.7-star-two-gate-v1",
+  "description": "Two-Gate STAR Review Ledger separating Gate 1 Structural Validation from Gate 2 Semantic Uniqueness.",
+  "totalStarQuestions": 16,
+  "gate1PassedCount": 16,
+  "gate2VerifiedCount": 0,
+  "gate2PendingCount": 16,
+  "items": {
+    "N4-GR-STAR-001": {
+      "id": "N4-GR-STAR-001",
+      "level": "N4",
+      "stem": "朝慌てて（　　）（　　） ★ （　　）夜のうちに服を準備しておきます。",
+      "correctAnswer": "D",
+      "canonicalSentence": "朝慌てて探すことがないように夜のうちに服を準備しておきます。",
+      "gate1_structural": {
+        "status": "PASS",
+        "permutationsGenerated": 24,
+        "provablyStructurallyRejected": 0,
+        "structurallyPlausibleCount": 24,
+        "canonicalOrder": [
+          "C",
+          "A",
+          "D",
+          "B"
+        ]
+      },
+      "gate2_semantic": {
+        "status": "STAR_SEMANTIC_REVIEW_PENDING",
+        "reviewerId": "INDEPENDENT_EXPERT_PANEL_PENDING",
+        "reviewedPermutationsCount": 0,
+        "defensibleAlternativePermutations": [],
+        "unresolvedCases": 23,
+        "disposition": "STAR_SEMANTIC_REVIEW_PENDING",
+        "dispositionReason": "Gate 1 structural checks passed; independent semantic review of non-canonical candidate arrangements pending."
+      }
+    },
+    "N4-GR-STAR-002": {
+      "id": "N4-GR-STAR-002",
+      "level": "N4",
+      "stem": "来年の夏休みには、（　　）（　　） ★ （　　）行く予定です。",
+      "correctAnswer": "D",
+      "canonicalSentence": "来年の夏休みには、北海道に住んでいる友達に会いに行く予定です。",
+      "gate1_structural": {
+        "status": "PASS",
+        "permutationsGenerated": 24,
+        "provablyStructurallyRejected": 0,
+        "structurallyPlausibleCount": 24,
+        "canonicalOrder": [
+          "B",
+          "C",
+          "D",
+          "A"
+        ]
+      },
+      "gate2_semantic": {
+        "status": "STAR_SEMANTIC_REVIEW_PENDING",
+        "reviewerId": "INDEPENDENT_EXPERT_PANEL_PENDING",
+        "reviewedPermutationsCount": 0,
+        "defensibleAlternativePermutations": [],
+        "unresolvedCases": 23,
+        "disposition": "STAR_SEMANTIC_REVIEW_PENDING",
+        "dispositionReason": "Gate 1 structural checks passed; independent semantic review of non-canonical candidate arrangements pending."
+      }
+    },
+    "N4-GR-STAR-003": {
+      "id": "N4-GR-STAR-003",
+      "level": "N4",
+      "stem": "風邪をひいたときは、無理をしないで（　　）（　　） ★ （　　）がいいですよ。",
+      "correctAnswer": "A",
+      "canonicalSentence": "風邪をひいたときは、無理をしないで暖かくしてゆっくり休んだほうがいいですよ。",
+      "gate1_structural": {
+        "status": "PASS",
+        "permutationsGenerated": 24,
+        "provablyStructurallyRejected": 0,
+        "structurallyPlausibleCount": 24,
+        "canonicalOrder": [
+          "D",
+          "B",
+          "A",
+          "C"
+        ]
+      },
+      "gate2_semantic": {
+        "status": "STAR_SEMANTIC_REVIEW_PENDING",
+        "reviewerId": "INDEPENDENT_EXPERT_PANEL_PENDING",
+        "reviewedPermutationsCount": 0,
+        "defensibleAlternativePermutations": [],
+        "unresolvedCases": 23,
+        "disposition": "STAR_SEMANTIC_REVIEW_PENDING",
+        "dispositionReason": "Gate 1 structural checks passed; independent semantic review of non-canonical candidate arrangements pending."
+      }
+    },
+    "N4-GR-STAR-004": {
+      "id": "N4-GR-STAR-004",
+      "level": "N4",
+      "stem": "昨日は熱が（　　）（　　） ★ （　　）学校を休みました。",
+      "correctAnswer": "A",
+      "canonicalSentence": "昨日は熱が高くて起き上がることができなかったので学校を休みました。",
+      "gate1_structural": {
+        "status": "PASS",
+        "permutationsGenerated": 24,
+        "provablyStructurallyRejected": 18,
+        "structurallyPlausibleCount": 6,
+        "canonicalOrder": [
+          "C",
+          "D",
+          "A",
+          "B"
+        ]
+      },
+      "gate2_semantic": {
+        "status": "STAR_SEMANTIC_REVIEW_PENDING",
+        "reviewerId": "INDEPENDENT_EXPERT_PANEL_PENDING",
+        "reviewedPermutationsCount": 0,
+        "defensibleAlternativePermutations": [],
+        "unresolvedCases": 5,
+        "disposition": "STAR_SEMANTIC_REVIEW_PENDING",
+        "dispositionReason": "Gate 1 structural checks passed; independent semantic review of non-canonical candidate arrangements pending."
+      }
+    },
+    "N4-GR-STAR-005": {
+      "id": "N4-GR-STAR-005",
+      "level": "N4",
+      "stem": "この辞書は（　　）（　　） ★ （　　）とても便利です。",
+      "correctAnswer": "B",
+      "canonicalSentence": "この辞書は文字が大きくて説明もわかりやすいのでとても便利です。",
+      "gate1_structural": {
+        "status": "PASS",
+        "permutationsGenerated": 24,
+        "provablyStructurallyRejected": 0,
+        "structurallyPlausibleCount": 24,
+        "canonicalOrder": [
+          "C",
+          "A",
+          "B",
+          "D"
+        ]
+      },
+      "gate2_semantic": {
+        "status": "STAR_SEMANTIC_REVIEW_PENDING",
+        "reviewerId": "INDEPENDENT_EXPERT_PANEL_PENDING",
+        "reviewedPermutationsCount": 0,
+        "defensibleAlternativePermutations": [],
+        "unresolvedCases": 23,
+        "disposition": "STAR_SEMANTIC_REVIEW_PENDING",
+        "dispositionReason": "Gate 1 structural checks passed; independent semantic review of non-canonical candidate arrangements pending."
+      }
+    },
+    "N4-GR-STAR-006": {
+      "id": "N4-GR-STAR-006",
+      "level": "N4",
+      "stem": "将来自分の店を（　　）（　　） ★ （　　）一生懸命働いています。",
+      "correctAnswer": "A",
+      "canonicalSentence": "将来自分の店を持つためにお金をためようと一生懸命働いています。",
+      "gate1_structural": {
+        "status": "PASS",
+        "permutationsGenerated": 24,
+        "provablyStructurallyRejected": 0,
+        "structurallyPlausibleCount": 24,
+        "canonicalOrder": [
+          "B",
+          "D",
+          "A",
+          "C"
+        ]
+      },
+      "gate2_semantic": {
+        "status": "STAR_SEMANTIC_REVIEW_PENDING",
+        "reviewerId": "INDEPENDENT_EXPERT_PANEL_PENDING",
+        "reviewedPermutationsCount": 0,
+        "defensibleAlternativePermutations": [],
+        "unresolvedCases": 23,
+        "disposition": "STAR_SEMANTIC_REVIEW_PENDING",
+        "dispositionReason": "Gate 1 structural checks passed; independent semantic review of non-canonical candidate arrangements pending."
+      }
+    },
+    "N3-GR-STAR-001": {
+      "id": "N3-GR-STAR-001",
+      "level": "N3",
+      "stem": "年齢や経験の（　　）（　　） ★ （　　）誰でも応募できます。",
+      "correctAnswer": "A",
+      "canonicalSentence": "年齢や経験の有無にかかわらず意欲があれば誰でも応募できます。",
+      "gate1_structural": {
+        "status": "PASS",
+        "permutationsGenerated": 24,
+        "provablyStructurallyRejected": 0,
+        "structurallyPlausibleCount": 24,
+        "canonicalOrder": [
+          "B",
+          "D",
+          "A",
+          "C"
+        ]
+      },
+      "gate2_semantic": {
+        "status": "STAR_SEMANTIC_REVIEW_PENDING",
+        "reviewerId": "INDEPENDENT_EXPERT_PANEL_PENDING",
+        "reviewedPermutationsCount": 0,
+        "defensibleAlternativePermutations": [],
+        "unresolvedCases": 23,
+        "disposition": "STAR_SEMANTIC_REVIEW_PENDING",
+        "dispositionReason": "Gate 1 structural checks passed; independent semantic review of non-canonical candidate arrangements pending."
+      }
+    },
+    "N3-GR-STAR-002": {
+      "id": "N3-GR-STAR-002",
+      "level": "N3",
+      "stem": "一人暮らしは（　　）（　　） ★ （　　）寂しさを感じることもある。",
+      "correctAnswer": "C",
+      "canonicalSentence": "一人暮らしは自由で気楽な反面、ふとした時に寂しさを感じることもある。",
+      "gate1_structural": {
+        "status": "PASS",
+        "permutationsGenerated": 24,
+        "provablyStructurallyRejected": 0,
+        "structurallyPlausibleCount": 24,
+        "canonicalOrder": [
+          "B",
+          "A",
+          "C",
+          "D"
+        ]
+      },
+      "gate2_semantic": {
+        "status": "STAR_SEMANTIC_REVIEW_PENDING",
+        "reviewerId": "INDEPENDENT_EXPERT_PANEL_PENDING",
+        "reviewedPermutationsCount": 0,
+        "defensibleAlternativePermutations": [],
+        "unresolvedCases": 23,
+        "disposition": "STAR_SEMANTIC_REVIEW_PENDING",
+        "dispositionReason": "Gate 1 structural checks passed; independent semantic review of non-canonical candidate arrangements pending."
+      }
+    },
+    "N3-GR-STAR-003": {
+      "id": "N3-GR-STAR-003",
+      "level": "N3",
+      "stem": "ボランティア団体を（　　）（　　） ★ （　　）地域の清掃活動が行われた。",
+      "correctAnswer": "A",
+      "canonicalSentence": "ボランティア団体を中心として集まった多くの住民により地域の清掃活動が行われた。",
+      "gate1_structural": {
+        "status": "PASS",
+        "permutationsGenerated": 24,
+        "provablyStructurallyRejected": 0,
+        "structurallyPlausibleCount": 24,
+        "canonicalOrder": [
+          "B",
+          "C",
+          "A",
+          "D"
+        ]
+      },
+      "gate2_semantic": {
+        "status": "STAR_SEMANTIC_REVIEW_PENDING",
+        "reviewerId": "INDEPENDENT_EXPERT_PANEL_PENDING",
+        "reviewedPermutationsCount": 0,
+        "defensibleAlternativePermutations": [],
+        "unresolvedCases": 23,
+        "disposition": "STAR_SEMANTIC_REVIEW_PENDING",
+        "dispositionReason": "Gate 1 structural checks passed; independent semantic review of non-canonical candidate arrangements pending."
+      }
+    },
+    "N3-GR-STAR-004": {
+      "id": "N3-GR-STAR-004",
+      "level": "N3",
+      "stem": "海外でのボランティア活動を（　　）（　　） ★ （　　）得ることができた。",
+      "correctAnswer": "B",
+      "canonicalSentence": "海外でのボランティア活動を通じて多くの友人と、かけがえのない経験を得ることができた。",
+      "gate1_structural": {
+        "status": "PASS",
+        "permutationsGenerated": 24,
+        "provablyStructurallyRejected": 24,
+        "structurallyPlausibleCount": 0,
+        "canonicalOrder": [
+          "A",
+          "D",
+          "B",
+          "C"
+        ]
+      },
+      "gate2_semantic": {
+        "status": "STAR_SEMANTIC_REVIEW_PENDING",
+        "reviewerId": "INDEPENDENT_EXPERT_PANEL_PENDING",
+        "reviewedPermutationsCount": 0,
+        "defensibleAlternativePermutations": [],
+        "unresolvedCases": -1,
+        "disposition": "STAR_SEMANTIC_REVIEW_PENDING",
+        "dispositionReason": "Gate 1 structural checks passed; independent semantic review of non-canonical candidate arrangements pending."
+      }
+    },
+    "N3-GR-STAR-005": {
+      "id": "N3-GR-STAR-005",
+      "level": "N3",
+      "stem": "情報通信技術の（　　）（　　） ★ （　　）人々の生活様式も大きく変わった。",
+      "correctAnswer": "C",
+      "canonicalSentence": "情報通信技術の発展に伴ってオンラインサービスが普及し、人々の生活様式も大きく変わった。",
+      "gate1_structural": {
+        "status": "PASS",
+        "permutationsGenerated": 24,
+        "provablyStructurallyRejected": 0,
+        "structurallyPlausibleCount": 24,
+        "canonicalOrder": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "gate2_semantic": {
+        "status": "STAR_SEMANTIC_REVIEW_PENDING",
+        "reviewerId": "INDEPENDENT_EXPERT_PANEL_PENDING",
+        "reviewedPermutationsCount": 0,
+        "defensibleAlternativePermutations": [],
+        "unresolvedCases": 23,
+        "disposition": "STAR_SEMANTIC_REVIEW_PENDING",
+        "dispositionReason": "Gate 1 structural checks passed; independent semantic review of non-canonical candidate arrangements pending."
+      }
+    },
+    "N3-GR-STAR-006": {
+      "id": "N3-GR-STAR-006",
+      "level": "N3",
+      "stem": "従来の製品と（　　）（　　） ★ （　　）消費電力が30％も削減された。",
+      "correctAnswer": "A",
+      "canonicalSentence": "従来の製品と比べて新型モデルは性能が向上したうえに消費電力が30％も削減された。",
+      "gate1_structural": {
+        "status": "PASS",
+        "permutationsGenerated": 24,
+        "provablyStructurallyRejected": 0,
+        "structurallyPlausibleCount": 24,
+        "canonicalOrder": [
+          "D",
+          "B",
+          "A",
+          "C"
+        ]
+      },
+      "gate2_semantic": {
+        "status": "STAR_SEMANTIC_REVIEW_PENDING",
+        "reviewerId": "INDEPENDENT_EXPERT_PANEL_PENDING",
+        "reviewedPermutationsCount": 0,
+        "defensibleAlternativePermutations": [],
+        "unresolvedCases": 23,
+        "disposition": "STAR_SEMANTIC_REVIEW_PENDING",
+        "dispositionReason": "Gate 1 structural checks passed; independent semantic review of non-canonical candidate arrangements pending."
+      }
+    },
+    "N2-GR-STAR-001": {
+      "id": "N2-GR-STAR-001",
+      "level": "N2",
+      "stem": "今回の不祥事は会社の信用を（　　）（　　） ★ （　　）重大な問題である。",
+      "correctAnswer": "B",
+      "canonicalSentence": "今回の不祥事は会社の信用を失墜させるどころか存続をも脅かしかねない重大な問題である。",
+      "gate1_structural": {
+        "status": "PASS",
+        "permutationsGenerated": 24,
+        "provablyStructurallyRejected": 0,
+        "structurallyPlausibleCount": 24,
+        "canonicalOrder": [
+          "A",
+          "D",
+          "B",
+          "C"
+        ]
+      },
+      "gate2_semantic": {
+        "status": "STAR_SEMANTIC_REVIEW_PENDING",
+        "reviewerId": "INDEPENDENT_EXPERT_PANEL_PENDING",
+        "reviewedPermutationsCount": 0,
+        "defensibleAlternativePermutations": [],
+        "unresolvedCases": 23,
+        "disposition": "STAR_SEMANTIC_REVIEW_PENDING",
+        "dispositionReason": "Gate 1 structural checks passed; independent semantic review of non-canonical candidate arrangements pending."
+      }
+    },
+    "N2-GR-STAR-002": {
+      "id": "N2-GR-STAR-002",
+      "level": "N2",
+      "stem": "どのような困難な課題であっても、（　　）（　　） ★ （　　）次第で克服できる。",
+      "correctAnswer": "B",
+      "canonicalSentence": "どのような困難な課題であっても、チームの団結と一人ひとりの取り組み方次第で克服できる。",
+      "gate1_structural": {
+        "status": "PASS",
+        "permutationsGenerated": 24,
+        "provablyStructurallyRejected": 0,
+        "structurallyPlausibleCount": 24,
+        "canonicalOrder": [
+          "D",
+          "C",
+          "B",
+          "A"
+        ]
+      },
+      "gate2_semantic": {
+        "status": "STAR_SEMANTIC_REVIEW_PENDING",
+        "reviewerId": "INDEPENDENT_EXPERT_PANEL_PENDING",
+        "reviewedPermutationsCount": 0,
+        "defensibleAlternativePermutations": [],
+        "unresolvedCases": 23,
+        "disposition": "STAR_SEMANTIC_REVIEW_PENDING",
+        "dispositionReason": "Gate 1 structural checks passed; independent semantic review of non-canonical candidate arrangements pending."
+      }
+    },
+    "N2-GR-STAR-003": {
+      "id": "N2-GR-STAR-003",
+      "level": "N2",
+      "stem": "いくら専門知識が（　　）（　　） ★ （　　）周囲の信頼は得られない。",
+      "correctAnswer": "D",
+      "canonicalSentence": "いくら専門知識が豊富だからといって傲慢な態度をとっていては周囲の信頼は得られない。",
+      "gate1_structural": {
+        "status": "PASS",
+        "permutationsGenerated": 24,
+        "provablyStructurallyRejected": 0,
+        "structurallyPlausibleCount": 24,
+        "canonicalOrder": [
+          "A",
+          "C",
+          "D",
+          "B"
+        ]
+      },
+      "gate2_semantic": {
+        "status": "STAR_SEMANTIC_REVIEW_PENDING",
+        "reviewerId": "INDEPENDENT_EXPERT_PANEL_PENDING",
+        "reviewedPermutationsCount": 0,
+        "defensibleAlternativePermutations": [],
+        "unresolvedCases": 23,
+        "disposition": "STAR_SEMANTIC_REVIEW_PENDING",
+        "dispositionReason": "Gate 1 structural checks passed; independent semantic review of non-canonical candidate arrangements pending."
+      }
+    },
+    "N2-GR-STAR-004": {
+      "id": "N2-GR-STAR-004",
+      "level": "N2",
+      "stem": "事前の綿密な（　　）（　　） ★ （　　）予期せぬトラブルが発生した。",
+      "correctAnswer": "C",
+      "canonicalSentence": "事前の綿密な計画にもかかわらず、本番の現場では予期せぬトラブルが発生した。",
+      "gate1_structural": {
+        "status": "PASS",
+        "permutationsGenerated": 24,
+        "provablyStructurallyRejected": 0,
+        "structurallyPlausibleCount": 24,
+        "canonicalOrder": [
+          "B",
+          "A",
+          "C",
+          "D"
+        ]
+      },
+      "gate2_semantic": {
+        "status": "STAR_SEMANTIC_REVIEW_PENDING",
+        "reviewerId": "INDEPENDENT_EXPERT_PANEL_PENDING",
+        "reviewedPermutationsCount": 0,
+        "defensibleAlternativePermutations": [],
+        "unresolvedCases": 23,
+        "disposition": "STAR_SEMANTIC_REVIEW_PENDING",
+        "dispositionReason": "Gate 1 structural checks passed; independent semantic review of non-canonical candidate arrangements pending."
+      }
+    }
+  }
+}

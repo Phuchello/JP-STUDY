@@ -1627,7 +1627,7 @@ def run_full_rebuild_and_validation():
         star_res = None
         if "STAR" in q.get("typeId", ""):
             ok_s, msg_s, s_data = audit_star_question(q)
-            star_res = s_data if ok_s else {"status": "FAILED", "error": msg_s}
+            star_res = s_data
 
         status, reason, meta = evaluate_question_qa_gate(q, rev, star_res)
         q["status"] = status

@@ -3,83 +3,80 @@
 ## 1. EXECUTIVE SUMMARY & RELEASE METRICS
 
 - **Total Practice Sets Audited**: 23
-- **Content QA Passed Sets (Not Deployed)**: 20 (20 sets: 9 Micro-Drills + 11 Skill-Tests)
-- **Not Ready Sets (Capacity Gated)**: 3 (3 sets: Full Mocks awaiting bank expansion to 300+ items)
-- **Content Blocked Sets**: 0
-- **Live Deployed Sets (Expanded Phase 3.7)**: 0 (0 new forms deployed; exactly 3 P0 pilot forms preserved)
-- **Stale / Contradictory `blockReason` Fields**: 0 (all obsolete block reasons purged)
-- **Review Provenance Status**: 100% Cryptographically Bound (Unicode NFC SHA-256)
+- **Content QA Passed Sets (Awaiting Deployment)**: 11 (Sets with 100% QA_VERIFIED non-STAR items)
+- **Content Blocked Sets**: 9 (Sets referencing STAR questions with Gate 2 pending)
+- **Capacity Gated Sets**: 3 (3 Full Mocks requiring bank expansion)
+- **Live Deployed Sets (Phase 3.7 Expanded)**: 0 (0 new forms deployed; exactly 3 P0 pilot forms preserved)
+- **Review Provenance Status**: 100% Content Hash Matched; Reviewer Execution Attestation: PARTIAL
 - **Learner Calibration Status**: PENDING_LEARNER_CALIBRATION (0 synthetic items exposed to learner)
 
 ---
 
-## 2. THE SEVEN RELEASE DIMENSIONS (STRICT QUALITY SEPARATION)
+## 2. THE SEVEN RELEASE DIMENSIONS (DYNAMIC DERIVATION)
 
 To prevent conflation between authoring correctness, independent audit, statistical calibration, and real Google Workspace deployment, the JP-STUDY release gate strictly separates 7 dimensions:
 
-| Dimension | Scope | Current Phase 3.7 State | Criteria for Advancement |
+| Dimension | Scope | Derivation Rule | Current Phase 3.7 State |
 | :--- | :--- | :--- | :--- |
-| **1. Content Validity** | Linguistic correctness, single clear key, distractor validity | `QA_VERIFIED` (120/120 items) | Full independent blind agreement + NFC SHA-256 binding |
-| **2. Review Provenance** | Cryptographic hash binding to reviewer batch & timestamp | `CRYPTOGRAPHICALLY_VERIFIED` | Canonical question fingerprint matches raw review batch |
-| **3. Learner Calibration** | Classical Test Theory (CTT) item difficulty, discrimination index | `PENDING_LEARNER_CALIBRATION` | Requires N >= 30 real learner submissions to calibrate |
-| **4. Exposure Eligibility** | Safe for scheduled learner daily drill queue | `false` (Hold until Pilot) | Set requires verified Form deployment + learner consent |
-| **5. Diagnostic Eligibility** | Valid for automated proficiency/level diagnosis | `false` (Gated) | Item Response Theory (IRT) parameter validation required |
-| **6. Google Forms Deployment**| Production Google Form created with grading & feedback | `NOT_DEPLOYED` (20 sets) | Owner or authorized workspace agent creates Form |
-| **7. Live Verification** | End-to-end synthetic probe submitted and verified in Sheet | `UNVERIFIED` (20 sets) | Live probe executes with 100% trigger isolation |
+| **1. Content Validity** | Linguistic correctness & answer key agreement | Derived from item `status` in bank | 104 `QA_VERIFIED`, 16 `STAR_SEMANTIC_REVIEW_PENDING` |
+| **2. Review Provenance** | Cryptographic hash binding to reviewer batch | Derived from `CONTENT_FINGERPRINT_MANIFEST.json` | 100% `CONTENT_HASH_MATCHED`; `REVIEW_OUTPUT_RECORDED` |
+| **3. Learner Calibration** | CTT difficulty & distractor discrimination | Requires N >= 30 real learner submissions | `PENDING_LEARNER_CALIBRATION` |
+| **4. Question Exposure Permission**| Safe for scheduled learner daily drill queue | Derived from `q.exposureEligible` (true for QA_VERIFIED, false otherwise) | `true` for 104 items, `false` for 16 items |
+| **5. Diagnostic Eligibility** | Valid for automated proficiency/level diagnosis | Derived from `q.diagnosticEligible` (requires IRT validation) | `false` across all 120 items |
+| **6. Set Deployment Permission** | Set is authorized for Google Forms creation | Set has 0 blocked items and sufficient item count | `PERMITTED` for 11 sets, `BLOCKED_CONTENT` for 9 sets |
+| **7. Real Learner Availability** | Active Form responder URL verified on Google Sites | Derived from `deployment.isDeployed` & `qaResult` | `AVAILABLE` for 3 P0 Forms; `NOT_DEPLOYED` for 23 sets |
 
 ---
 
 ## 3. COMPREHENSIVE PRACTICE SET AUDIT (23 SETS)
 
-| Set ID | Category | Level | Items | Content Validity | Provenance | Calibration | Exposure | Diagnostic | Deployment | Readiness Status |
-| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
-| `MD-N4-VOC-01` | MICRO_DRILL | N4 | 5 | QA_VERIFIED | VERIFIED | PENDING | false | false | NOT_DEPLOYED | `QA_PASSED_NOT_DEPLOYED` |
-| `MD-N4-GRA-01` | MICRO_DRILL | N4 | 5 | QA_VERIFIED | VERIFIED | PENDING | false | false | NOT_DEPLOYED | `QA_PASSED_NOT_DEPLOYED` |
-| `MD-N4-ORD-01` | MICRO_DRILL | N4 | 5 | QA_VERIFIED | VERIFIED | PENDING | false | false | NOT_DEPLOYED | `QA_PASSED_NOT_DEPLOYED` |
-| `MD-N3-VOC-01` | MICRO_DRILL | N3 | 5 | QA_VERIFIED | VERIFIED | PENDING | false | false | NOT_DEPLOYED | `QA_PASSED_NOT_DEPLOYED` |
-| `MD-N3-AFF-01` | MICRO_DRILL | N3 | 5 | QA_VERIFIED | VERIFIED | PENDING | false | false | NOT_DEPLOYED | `QA_PASSED_NOT_DEPLOYED` |
-| `MD-N3-GRA-01` | MICRO_DRILL | N3 | 5 | QA_VERIFIED | VERIFIED | PENDING | false | false | NOT_DEPLOYED | `QA_PASSED_NOT_DEPLOYED` |
-| `MD-N2-VOC-01` | MICRO_DRILL | N2 | 5 | QA_VERIFIED | VERIFIED | PENDING | false | false | NOT_DEPLOYED | `QA_PASSED_NOT_DEPLOYED` |
-| `MD-N2-AFF-01` | MICRO_DRILL | N2 | 5 | QA_VERIFIED | VERIFIED | PENDING | false | false | NOT_DEPLOYED | `QA_PASSED_NOT_DEPLOYED` |
-| `MD-N2-GRA-01` | MICRO_DRILL | N2 | 5 | QA_VERIFIED | VERIFIED | PENDING | false | false | NOT_DEPLOYED | `QA_PASSED_NOT_DEPLOYED` |
-| `SK-N4-MO-01` | SKILL_PRACTICE | N4 | 16 | QA_VERIFIED | VERIFIED | PENDING | false | false | NOT_DEPLOYED | `QA_PASSED_NOT_DEPLOYED` |
-| `SK-N4-GR-01` | SKILL_PRACTICE | N4 | 18 | QA_VERIFIED | VERIFIED | PENDING | false | false | NOT_DEPLOYED | `QA_PASSED_NOT_DEPLOYED` |
-| `SK-N3-MO-01` | SKILL_PRACTICE | N3 | 16 | QA_VERIFIED | VERIFIED | PENDING | false | false | NOT_DEPLOYED | `QA_PASSED_NOT_DEPLOYED` |
-| `SK-N3-GR-01` | SKILL_PRACTICE | N3 | 18 | QA_VERIFIED | VERIFIED | PENDING | false | false | NOT_DEPLOYED | `QA_PASSED_NOT_DEPLOYED` |
-| `SK-N2-MO-01` | SKILL_PRACTICE | N2 | 15 | QA_VERIFIED | VERIFIED | PENDING | false | false | NOT_DEPLOYED | `QA_PASSED_NOT_DEPLOYED` |
-| `SK-N2-GR-01` | SKILL_PRACTICE | N2 | 12 | QA_VERIFIED | VERIFIED | PENDING | false | false | NOT_DEPLOYED | `QA_PASSED_NOT_DEPLOYED` |
-| `MX-N4-FOU-01` | MIXED_PRACTICE | N4 | 20 | QA_VERIFIED | VERIFIED | PENDING | false | false | NOT_DEPLOYED | `QA_PASSED_NOT_DEPLOYED` |
-| `MX-N3-INT-01` | MIXED_PRACTICE | N3 | 20 | QA_VERIFIED | VERIFIED | PENDING | false | false | NOT_DEPLOYED | `QA_PASSED_NOT_DEPLOYED` |
-| `MX-N2-ADV-01` | MIXED_PRACTICE | N2 | 18 | QA_VERIFIED | VERIFIED | PENDING | false | false | NOT_DEPLOYED | `QA_PASSED_NOT_DEPLOYED` |
-| `SIM-N4-GENGO` | SECTION_SIMULATION | N4 | 20 | QA_VERIFIED | VERIFIED | PENDING | false | false | NOT_DEPLOYED | `QA_PASSED_NOT_DEPLOYED` |
-| `SIM-N3-GENGO` | SECTION_SIMULATION | N3 | 24 | QA_VERIFIED | VERIFIED | PENDING | false | false | NOT_DEPLOYED | `QA_PASSED_NOT_DEPLOYED` |
-| `MOCK-N4-FULL` | FULL_MOCK_EXAM | N4 | 0 | QA_VERIFIED | VERIFIED | PENDING | false | false | NOT_DEPLOYED | `NOT_READY` |
-| `MOCK-N3-FULL` | FULL_MOCK_EXAM | N3 | 0 | QA_VERIFIED | VERIFIED | PENDING | false | false | NOT_DEPLOYED | `NOT_READY` |
-| `MOCK-N2-FULL` | FULL_MOCK_EXAM | N2 | 0 | QA_VERIFIED | VERIFIED | PENDING | false | false | NOT_DEPLOYED | `NOT_READY` |
+| Set ID | Category | Level | Items | Question Validity | Exposure Allowed | Set Deploy Perm | Forms Status | Learner Availability | Readiness Status |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
+| `MD-N4-VOC-01` | MICRO_DRILL | N4 | 5 | `100% VERIFIED` | `true` | `PERMITTED` | `NOT_DEPLOYED` | `UNAVAILABLE` | `QA_PASSED_NOT_DEPLOYED` |
+| `MD-N4-GRA-01` | MICRO_DRILL | N4 | 5 | `100% VERIFIED` | `true` | `PERMITTED` | `NOT_DEPLOYED` | `UNAVAILABLE` | `QA_PASSED_NOT_DEPLOYED` |
+| `MD-N4-ORD-01` | MICRO_DRILL | N4 | 5 | `STAR_PENDING (5)` | `false` | `BLOCKED_CONTENT` | `NOT_DEPLOYED` | `UNAVAILABLE` | `CONTENT_QA_BLOCKED` |
+| `MD-N3-VOC-01` | MICRO_DRILL | N3 | 5 | `100% VERIFIED` | `true` | `PERMITTED` | `NOT_DEPLOYED` | `UNAVAILABLE` | `QA_PASSED_NOT_DEPLOYED` |
+| `MD-N3-AFF-01` | MICRO_DRILL | N3 | 5 | `100% VERIFIED` | `true` | `PERMITTED` | `NOT_DEPLOYED` | `UNAVAILABLE` | `QA_PASSED_NOT_DEPLOYED` |
+| `MD-N3-GRA-01` | MICRO_DRILL | N3 | 5 | `100% VERIFIED` | `true` | `PERMITTED` | `NOT_DEPLOYED` | `UNAVAILABLE` | `QA_PASSED_NOT_DEPLOYED` |
+| `MD-N2-VOC-01` | MICRO_DRILL | N2 | 5 | `100% VERIFIED` | `true` | `PERMITTED` | `NOT_DEPLOYED` | `UNAVAILABLE` | `QA_PASSED_NOT_DEPLOYED` |
+| `MD-N2-AFF-01` | MICRO_DRILL | N2 | 5 | `100% VERIFIED` | `true` | `PERMITTED` | `NOT_DEPLOYED` | `UNAVAILABLE` | `QA_PASSED_NOT_DEPLOYED` |
+| `MD-N2-GRA-01` | MICRO_DRILL | N2 | 5 | `100% VERIFIED` | `true` | `PERMITTED` | `NOT_DEPLOYED` | `UNAVAILABLE` | `QA_PASSED_NOT_DEPLOYED` |
+| `SK-N4-MO-01` | SKILL_PRACTICE | N4 | 16 | `100% VERIFIED` | `true` | `PERMITTED` | `NOT_DEPLOYED` | `UNAVAILABLE` | `QA_PASSED_NOT_DEPLOYED` |
+| `SK-N4-GR-01` | SKILL_PRACTICE | N4 | 18 | `STAR_PENDING (6)` | `false` | `BLOCKED_CONTENT` | `NOT_DEPLOYED` | `UNAVAILABLE` | `CONTENT_QA_BLOCKED` |
+| `SK-N3-MO-01` | SKILL_PRACTICE | N3 | 16 | `100% VERIFIED` | `true` | `PERMITTED` | `NOT_DEPLOYED` | `UNAVAILABLE` | `QA_PASSED_NOT_DEPLOYED` |
+| `SK-N3-GR-01` | SKILL_PRACTICE | N3 | 18 | `STAR_PENDING (6)` | `false` | `BLOCKED_CONTENT` | `NOT_DEPLOYED` | `UNAVAILABLE` | `CONTENT_QA_BLOCKED` |
+| `SK-N2-MO-01` | SKILL_PRACTICE | N2 | 15 | `100% VERIFIED` | `true` | `PERMITTED` | `NOT_DEPLOYED` | `UNAVAILABLE` | `QA_PASSED_NOT_DEPLOYED` |
+| `SK-N2-GR-01` | SKILL_PRACTICE | N2 | 12 | `STAR_PENDING (4)` | `false` | `BLOCKED_CONTENT` | `NOT_DEPLOYED` | `UNAVAILABLE` | `CONTENT_QA_BLOCKED` |
+| `MX-N4-FOU-01` | MIXED_PRACTICE | N4 | 20 | `STAR_PENDING (3)` | `false` | `BLOCKED_CONTENT` | `NOT_DEPLOYED` | `UNAVAILABLE` | `CONTENT_QA_BLOCKED` |
+| `MX-N3-INT-01` | MIXED_PRACTICE | N3 | 20 | `STAR_PENDING (3)` | `false` | `BLOCKED_CONTENT` | `NOT_DEPLOYED` | `UNAVAILABLE` | `CONTENT_QA_BLOCKED` |
+| `MX-N2-ADV-01` | MIXED_PRACTICE | N2 | 18 | `STAR_PENDING (3)` | `false` | `BLOCKED_CONTENT` | `NOT_DEPLOYED` | `UNAVAILABLE` | `CONTENT_QA_BLOCKED` |
+| `SIM-N4-GENGO` | SECTION_SIMULATION | N4 | 20 | `STAR_PENDING (2)` | `false` | `BLOCKED_CONTENT` | `NOT_DEPLOYED` | `UNAVAILABLE` | `CONTENT_QA_BLOCKED` |
+| `SIM-N3-GENGO` | SECTION_SIMULATION | N3 | 24 | `STAR_PENDING (4)` | `false` | `BLOCKED_CONTENT` | `NOT_DEPLOYED` | `UNAVAILABLE` | `CONTENT_QA_BLOCKED` |
+| `MOCK-N4-FULL` | FULL_MOCK_EXAM | N4 | 0 | `100% VERIFIED` | `true` | `GATED_CAPACITY` | `NOT_DEPLOYED` | `UNAVAILABLE` | `NOT_READY` |
+| `MOCK-N3-FULL` | FULL_MOCK_EXAM | N3 | 0 | `100% VERIFIED` | `true` | `GATED_CAPACITY` | `NOT_DEPLOYED` | `UNAVAILABLE` | `NOT_READY` |
+| `MOCK-N2-FULL` | FULL_MOCK_EXAM | N2 | 0 | `100% VERIFIED` | `true` | `GATED_CAPACITY` | `NOT_DEPLOYED` | `UNAVAILABLE` | `NOT_READY` |
 
 ---
 
 ## 4. CONTROLLED PILOT CANDIDATE SPECIFICATION
 
-Only one practice set is nominated as the initial candidate for controlled Google Forms pilot deployment:
+Practice set `MD-N4-VOC-01` is nominated as the primary candidate for controlled Google Forms pilot deployment:
 
 ### Candidate: `MD-N4-VOC-01` (N4 Kanji & Vocabulary Micro-Drill)
 - **Target Level**: N4 (Foundational Japanese)
 - **Item Count**: 5 items
-- **Questions**: `N4-MO-READ-001`, `N4-MO-READ-002`, `N4-MO-READ-003`, `N4-MO-READ-004`, `N4-MO-READ-005`
-- **Content Validity**: 5/5 `QA_VERIFIED`
-- **Independent Provenance**: All 5 items audited with HIGH confidence and 0 alternative defensible answers
-- **Answer Keys**: `['A', 'A', 'C', 'D', 'B']` (Balanced distribution, no monotonic cycle)
-- **Prerequisites for Controlled Live Release**:
-  1. Live interactive Google Workspace authentication (Drive / Forms API).
-  2. Non-destructive Google Form creation under `1n3zZJDHNpCo6BeQ2oIm9mxyZ_Vvctpi2/TUẦN_01` or dedicated pilot folder.
-  3. Verification that existing 3 P0 Forms (`W01-B01`, `W01-B02`, `W01-B03`) remain 100% untouched.
-  4. Execution of single synthetic probe to verify sheet trigger isolation.
+- **Referenced Questions**: `N4-MO-READ-001`, `N4-MO-READ-002`, `N4-MO-READ-003`, `N4-MO-READ-004`, `N4-MO-READ-005`
+- **Question Validity**: 5/5 `QA_VERIFIED` (100% blind solve agreement with subagent:jlpt-blind-reviewer)
+- **STAR Dependency**: **NONE** (0 Star questions referenced; immune to Gate 2 semantic pending status)
+- **Answer Keys**: `['A', 'A', 'C', 'D', 'B']` (Non-cyclic, balanced distribution)
+- **Exposure Allowed**: `true` across all 5 items
+- **Diagnostic Eligibility**: `false` (gated pending CTT/IRT learner calibration)
+- **Deployment Prerequisite**: Requires owner authorization in Google Workspace to deploy Google Form non-destructively.
 
 ---
 
-## 5. GATE DECISION & NEXT ACTIONS
+## 5. REPRODUCIBILITY COMMAND
 
-- **Phase 3.7 Local Data & Code Quality Gate**: **PASS**
-- **Deployment Readiness Gate**: **AWAITING_OWNER_WORKSPACE_AUTHORIZATION**
-- **Preservation of P0 Assets**: Guaranteed (3 live Forms operational in Google Drive).
+```powershell
+python scripts/curriculum/generate_practice_release_gate.py
+```

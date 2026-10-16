@@ -19,7 +19,7 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from scripts.curriculum.content_fingerprint import canonical_question_fingerprint, compute_file_sha256
-from scripts.curriculum.audit_star_permutations import extract_stem_boundary, evaluate_permutation_syntax
+from scripts.curriculum.audit_star_permutations import extract_stem_boundary, audit_star_question, validate_star_structure
 
 QA_DIR = ROOT / "qa"
 CURRICULUM_DIR = ROOT / "curriculum"
@@ -29,6 +29,7 @@ CURRICULUM_DIR = ROOT / "curriculum"
 VALID_QUESTION_STATES = [
     "SCHEMA_VALID",
     "INDEPENDENT_REVIEW_PENDING",
+    "STAR_SEMANTIC_REVIEW_PENDING",
     "REVIEW_AGREED_WITH_WARNINGS",
     "QA_REVIEW_REQUIRED",
     "QA_VERIFIED",
@@ -80,120 +81,32 @@ def audit_star_question(q: dict) -> tuple[bool, str, dict]:
     2. Exactly 4 option chunks.
     3. Each option text appears in the canonical assembled sentence.
     4. The chunk at slot 3 matches correctAnswer.
-    5. No ambiguous alternative ordering exists.
     """
-    qid = q["id"]
-    stem = q["stem"]
-    options = q["options"]
-    correct_ans = q["correctAnswer"]
-    assembled = q.get("assembledSentence", "")
-    
-    # 1. Check stem slot structure: exactly 4 blanks with ★ at slot 3
-    # Standard format: （　　）（　　） ★ （　　） or variations of fullwidth/halfwidth spaces
-    slots = re.findall(r'[（\(][\s　]*[）\)]', stem)
-    if len(slots) != 3: # 3 empty slots plus 1 star slot = 4 slots total
-        # Check if star is embedded in a slot or separate
-        all_slots = re.findall(r'[（\(][^）\)]*[）\)]', stem)
-        if len(all_slots) < 3:
-            return False, f"Star stem must have 4 slots; found {len(all_slots)} slots in {qid}", {}
-            
-    if "★" not in stem:
-        return False, f"Missing ★ marker in stem of {qid}", {}
-        
-    # Check that ★ is at the 3rd slot position in the sequence of slots
-    # Standard stem format: prefix （　　）（　　） ★ （　　） suffix
-    star_idx = stem.find("★")
-    pre_star = stem[:star_idx]
-    post_star = stem[star_idx:]
-    slots_before = len(re.findall(r'[（\(][\s　]*[）\)]', pre_star))
-    slots_after = len(re.findall(r'[（\(][\s　]*[）\)]', post_star))
-    if slots_before != 2 or slots_after != 1:
-        return False, f"Star marker ★ must be at the 3rd slot (2 before, 1 after); found {slots_before} before, {slots_after} after in {qid}", {}
-
-    # 2. Options check
-    if len(options) != 4:
-        return False, f"Star question must have exactly 4 option chunks, found {len(options)}", {}
-        
-    opt_map = {opt["id"]: opt["text"] for opt in options}
-    
-    # 3. Canonical assembly check
-    if not assembled:
-        return False, f"Missing canonical assembledSentence for {qid}", {}
-        
-    for opt_id, opt_text in opt_map.items():
-        if opt_text not in assembled:
-            return False, f"Option {opt_id} ('{opt_text}') not found in assembled sentence for {qid}", {}
-            
-    # 4. Extract prefix and suffix from stem to determine the 4-slot sequence in assembled sentence
-    # Stem pattern: prefix (slot1)(slot2) ★ (slot4) suffix
-    parts = stem.split("（")
-    prefix = parts[0]
-    last_part = stem.split("）")[-1].strip()
-    
-    # Verify the chunk placed at slot 3 in assembledSentence
-    # Find positions of all 4 chunks in assembled
-    chunk_positions = []
-    for opt_id, opt_text in opt_map.items():
-        pos = assembled.find(opt_text)
-        if pos == -1:
-            return False, f"Chunk {opt_text} missing from assembled sentence", {}
-        chunk_positions.append((pos, opt_id, opt_text))
-        
-    chunk_positions.sort() # Sort by appearance order
-    
-    if len(chunk_positions) != 4:
-        return False, f"Failed to resolve distinct order of all 4 chunks in {qid}", {}
-        
-    slot_order = [item[1] for item in chunk_positions]
-    slot_3_opt_id = slot_order[2] # 3rd slot (0-indexed: 2)
-    slot_3_text = slot_order[2]
-    
-    if slot_3_opt_id != correct_ans:
-        return False, f"Slot 3 chunk is '{slot_3_opt_id}' ({opt_map[slot_3_opt_id]}), but correctAnswer is '{correct_ans}' ({opt_map[correct_ans]}) in {qid}", {}
-
-    # 5. Dynamic 24-permutation syntactic uniqueness audit
-    prefix, suffix = extract_stem_boundary(stem)
-    defensible_alts = []
-    for perm in itertools.permutations(["A", "B", "C", "D"]):
-        slot3_id = perm[2]
-        if slot3_id != correct_ans:
-            p_sentence = prefix + "".join([opt_map[pid] for pid in perm]) + suffix
-            classification, rationale = evaluate_permutation_syntax(qid, list(perm), opt_map, prefix, suffix, p_sentence)
-            if classification == "DEFENSIBLE_ALTERNATIVE":
-                defensible_alts.append({"order": list(perm), "slot3": slot3_id, "rationale": rationale})
-
-    if defensible_alts:
-        return False, f"Star question has ambiguous alternative permutation changing answer key in {qid}: {defensible_alts}", {}
-
-    audit_data = {
-        "id": qid,
-        "level": q["level"],
-        "slotOrder": slot_order,
-        "orderDescription": " -> ".join([f"{opt_map[oid]} ({oid})" for oid in slot_order]),
-        "slot3Option": slot_3_opt_id,
-        "slot3Text": opt_map[slot_3_opt_id],
-        "assembledSentence": assembled,
-        "status": "VERIFIED_COHERENT"
-    }
-    return True, "OK", audit_data
+    from scripts.curriculum.audit_star_permutations import audit_star_question as _asq
+    return _asq(q)
 
 
 # --- Task E: Evidence Loading & Provenance ---
-def load_all_blind_reviews():
+def load_all_blind_reviews(qa_dir=None):
     """
     Loads base review files (N4, N3, N2) and overlays fresh repaired reviews if present.
     Cryptographically binds each review to the canonical question content fingerprint of its input item.
     Strictly preserves historical records and timestamps.
     """
+    if qa_dir is None:
+        qa_dir = QA_DIR
+    else:
+        qa_dir = Path(qa_dir)
+
     reviews = {}
     provenance = {}
 
     # 1. Load input dataset item fingerprints
     input_item_fps = {}
     base_input_files = {
-        "N4": QA_DIR / "blind_review_n4.json",
-        "N3": QA_DIR / "blind_review_n3.json",
-        "N2": QA_DIR / "blind_review_n2.json",
+        "N4": qa_dir / "blind_review_n4.json",
+        "N3": qa_dir / "blind_review_n3.json",
+        "N2": qa_dir / "blind_review_n2.json",
     }
     for level, in_path in base_input_files.items():
         if in_path.exists():
@@ -201,7 +114,7 @@ def load_all_blind_reviews():
                 for it in json.load(f):
                     input_item_fps[it["id"]] = canonical_question_fingerprint(it)
 
-    rep_input_path = QA_DIR / "blind_review_repaired_6.json"
+    rep_input_path = qa_dir / "blind_review_repaired_6.json"
     rep_item_fps = {}
     if rep_input_path.exists():
         with open(rep_input_path, "r", encoding="utf-8") as f:
@@ -209,9 +122,9 @@ def load_all_blind_reviews():
                 rep_item_fps[it["id"]] = canonical_question_fingerprint(it)
 
     base_files = {
-        "N4": QA_DIR / "raw_blind_review_n4.json",
-        "N3": QA_DIR / "raw_blind_review_n3.json",
-        "N2": QA_DIR / "raw_blind_review_n2.json",
+        "N4": qa_dir / "raw_blind_review_n4.json",
+        "N3": qa_dir / "raw_blind_review_n3.json",
+        "N2": qa_dir / "raw_blind_review_n2.json",
     }
 
     for level, bf in base_files.items():
@@ -235,7 +148,7 @@ def load_all_blind_reviews():
                     }
 
     # Overlay fresh reviews for repaired questions if present
-    repaired_file = QA_DIR / "raw_blind_review_repaired_6.json"
+    repaired_file = qa_dir / "raw_blind_review_repaired_6.json"
     if repaired_file.exists():
         with open(repaired_file, "r", encoding="utf-8") as f:
             rep_items = json.load(f)
@@ -338,10 +251,28 @@ def evaluate_question_qa_gate(q: dict, review: dict, star_audit_result: dict = N
                 "concerns": concerns
             }
 
-    # Check 5: Star Question Coherence (if applicable)
-    if "STAR" in q["typeId"] and star_audit_result:
-        if star_audit_result.get("status") != "VERIFIED_COHERENT":
-            return "QA_REVIEW_REQUIRED", f"Star coherence audit failed: {star_audit_result.get('error')}", {}
+    # Check 5: Star Question Two-Gate Evaluation (if applicable)
+    if "STAR" in q.get("typeId", ""):
+        if star_audit_result:
+            gate1 = star_audit_result.get("gate1Status")
+            gate2 = star_audit_result.get("gate2Status")
+            if gate1 != "PASS":
+                return "QUARANTINED", f"Star structural failure: {star_audit_result.get('reason')}", {
+                    "starStructuralFailure": True,
+                    "details": star_audit_result
+                }
+            if gate2 == "AMBIGUOUS_ALTERNATIVE_FOUND":
+                return "QUARANTINED", f"Star question has ambiguous alternative permutation changing answer key: {star_audit_result.get('reason')}", {
+                    "starAmbiguity": True,
+                    "details": star_audit_result
+                }
+            if gate2 != "VERIFIED_COHERENT":
+                return "STAR_SEMANTIC_REVIEW_PENDING", f"Star question Gate 1 passed; Gate 2 semantic uniqueness review pending expert panel: {star_audit_result.get('reason')}", {
+                    "starSemanticPending": True,
+                    "details": star_audit_result
+                }
+        else:
+            return "QA_REVIEW_REQUIRED", "Star question missing structural and semantic audit result", {}
 
     return "QA_VERIFIED", "All QA gates passed cleanly with zero unresolved ambiguities", {
         "blindAnswer": blind_ans,
@@ -393,7 +324,16 @@ def reconcile_practice_set_status(practice_set: dict, bank_questions_map: dict) 
         else:
             # 3. Check deployment status
             practice_set.pop("blockReason", None)
-            if deployment.get("isDeployed") is True and deployment.get("responderUrl") and deployment.get("qaResult") == "PASS":
+            url = str(deployment.get("responderUrl") or "").strip()
+            form_id = str(deployment.get("formId") or "").strip()
+            is_valid_google_form = (
+                url.startswith("https://docs.google.com/forms/") and
+                len(form_id) >= 15 and
+                deployment.get("isDeployed") is True and
+                deployment.get("qaResult") == "PASS" and
+                deployment.get("liveVerified") is True
+            )
+            if is_valid_google_form:
                 readiness = "LIVE_VERIFIED"
                 reason = "Verified live Google Form with successful end-to-end QA"
             else:
@@ -405,6 +345,24 @@ def reconcile_practice_set_status(practice_set: dict, bank_questions_map: dict) 
     practice_set["readinessReason"] = reason
     practice_set["deployment"] = deployment
     return practice_set
+
+
+def audit_star_report_against_bank(report_markdown_path, bank_questions: list) -> tuple[bool, list]:
+    """
+    Parses a generated or external STAR permutation report markdown file,
+    extracts question IDs from tables, and compares against actual bank questions.
+    Returns: (is_consistent, missing_or_hallucinated_ids)
+    """
+    path = Path(report_markdown_path)
+    if not path.exists():
+        return False, ["FILE_NOT_FOUND"]
+    text = path.read_text(encoding="utf-8")
+    table_ids = set(re.findall(r'\|\s*`([A-Z0-9\-]+STAR[A-Z0-9\-]*)`\s*\|', text))
+    bank_star_ids = {q["id"] for q in bank_questions if "STAR" in q.get("typeId", "")}
+    hallucinated = sorted([tid for tid in table_ids if tid not in bank_star_ids])
+    if hallucinated:
+        return False, hallucinated
+    return True, []
 
 
 
@@ -483,14 +441,15 @@ def run_reconciliation():
         
     for sq in star_questions:
         ok_star, msg_star, data_star = audit_star_question(sq)
-        if not ok_star:
+        gate1 = data_star.get("gate1Status")
+        if gate1 != "PASS":
             star_failures.append((sq["id"], msg_star))
-            star_audits[sq["id"]] = {"status": "FAILED", "error": msg_star}
+            star_audits[sq["id"]] = {"gate1Status": "FAIL", "reason": msg_star}
         else:
             star_audits[sq["id"]] = data_star
             
     if star_failures:
-        print(f"ERROR: Star question validation failed for {len(star_failures)} items: {star_failures}")
+        print(f"ERROR: Star question structural validation failed for {len(star_failures)} items: {star_failures}")
         return 1
 
     # 2. Reconcile questions against reviews
@@ -620,8 +579,14 @@ def run_reconciliation():
     star_table_rows = []
     for qid in sorted(star_audits.keys()):
         sdata = star_audits[qid]
+        canon_order = sdata.get("canonicalOrder", [])
+        order_str = " -> ".join(canon_order) if canon_order else "N/A"
+        slot3_opt = sdata.get("correctAnswer", "N/A")
+        g1 = sdata.get("gate1Status", "UNKNOWN")
+        g2 = sdata.get("gate2Status", "UNKNOWN")
+        disp = sdata.get("disposition", "QA_REVIEW_REQUIRED")
         star_table_rows.append(
-            f"| `{qid}` | {sdata['level']} | {sdata['orderDescription']} | **{sdata['slot3Text']} ({sdata['slot3Option']})** | `{sdata['status']}` |"
+            f"| `{qid}` | {sdata.get('level')} | `{order_str}` | **{slot3_opt}** | `{g1}` | `{g2}` | `{disp}` |"
         )
     star_table_md = "\n".join(star_table_rows)
     
@@ -688,11 +653,11 @@ The 6 items flagged in prior audit were systematically examined, repaired, and r
 | Question ID | Level | Defect Category | Action Taken | Current Gate Decision |
 |---|:---:|---|---|:---:|
 | `N4-GR-FORM-010` | N4 | Distractor overlap (`よかったら` vs `よければ`) | Replaced `よかったら` with morphological distractor `いいば` and concessive `よくても`. | `QA_VERIFIED` |
-| `N4-GR-STAR-002` | N4 | Scrambled PP ordering changing ★ | Re-engineered to rigid relative clause chain (`北海道に住んでいる友達に会いに行く`). | `QA_VERIFIED` |
-| `N4-GR-STAR-006` | N4 | Movable adverb `今` changing ★ | Replaced floating adverb with case-locked object phrase `お金を`. | `QA_VERIFIED` |
+| `N4-GR-STAR-002` | N4 | Scrambled PP ordering changing ★ | Re-engineered to rigid relative clause chain (`北海道に住んでいる友達に会いに行く`). | `STAR_SEMANTIC_REVIEW_PENDING` |
+| `N4-GR-STAR-006` | N4 | Movable adverb `今` changing ★ | Replaced floating adverb with case-locked object phrase `お金を`. | `STAR_SEMANTIC_REVIEW_PENDING` |
 | `N2-GR-FORM-003` | N2 | Near-synonym overlap (`する一方だ` vs `つつある`) | Replaced `する一方だ` with unambiguous distractors `しっこない` and `しがたい`. | `QA_VERIFIED` |
 | `N3-GR-FORM-006` | N3 | Nuance overlap (`わけだ` vs `はずだ`) | Replaced `わけ` with subjective modal `つもり`. | `QA_VERIFIED` |
-| `N3-GR-STAR-001` | N3 | Adverb/Quantifier order (`自由に` vs `誰でも`) | Replaced scrambled pair with locked conditional clause `意欲があれば`. | `QA_VERIFIED` |
+| `N3-GR-STAR-001` | N3 | Adverb/Quantifier order (`自由に` vs `誰でも`) | Replaced scrambled pair with locked conditional clause `意欲があれば`. | `STAR_SEMANTIC_REVIEW_PENDING` |
 
 ---
 
@@ -702,10 +667,10 @@ All **{len(star_questions)}** star questions (N4: 6, N3: 6, N2: 4) were verified
 1. Exactly four blank slots and one ★ at slot 3.
 2. Exactly four option chunks, each appearing in `assembledSentence`.
 3. Slot 3 option equals `correctAnswer`.
-4. Permutation uniqueness: zero acceptable alternative permutations changing the ★ answer.
+4. Permutation uniqueness: Gate 1 passed (16/16); Gate 2 independent semantic review of 24 permutations pending expert panel.
 
-| Question ID | Level | Assembled Order | Slot 3 Word (★) | Status |
-|---|:---:|---|---|:---:|
+| Question ID | Level | Canonical Order | Slot 3 (★) | Gate 1 (Structural) | Gate 2 (Semantic) | Final Disposition |
+|---|:---:|---|:---:|:---:|:---:|:---:|
 """ + star_table_md + f"""
 
 ---

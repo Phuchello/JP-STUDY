@@ -1,8 +1,8 @@
 {
   "snapshotDate": "2026-10-15",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
-  "fileCountExcludingManifest": 240,
-  "totalBytesExcludingManifest": 5809415,
+  "fileCountExcludingManifest": 242,
+  "totalBytesExcludingManifest": 5798447,
   "files": [
     {
       "path": ".gitattributes",
@@ -450,8 +450,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 19281,
-      "sha256": "63e5be243cb05070142b09c4db3aa26dbce8250e883fba605a78635478d1c70f",
+      "bytes": 22255,
+      "sha256": "14635044058b031d3e3d705ca15402c51c486bc6e2f58124770968053fca5007",
       "status": "VERIFIED"
     },
     {
@@ -480,14 +480,14 @@
     },
     {
       "path": "curriculum/PRACTICE_SETS.json",
-      "bytes": 33679,
-      "sha256": "dc8bfb42b30924c057fd2c87631a9cfb58953083eb25db9b12ccdd7a900ef2b3",
+      "bytes": 36431,
+      "sha256": "4ad17b2d4b1d3474512c2eab5ec9b4c22fe2f585160f28341c2be0a2dda61883",
       "status": "VERIFIED"
     },
     {
       "path": "curriculum/QUESTION_BANK_EXPANDED.json",
-      "bytes": 265211,
-      "sha256": "e4ac8ff162230103cd79f7a4c2b65c9f3fe80c9c3bf9ff9a83bda06e97a52b72",
+      "bytes": 267701,
+      "sha256": "ceed932e4884570e25fb0d234737a01a90ee1aa8c1535ed54aea822f0d399804",
       "status": "VERIFIED"
     },
     {
@@ -762,8 +762,8 @@
     },
     {
       "path": "FILE_INDEX.md",
-      "bytes": 23605,
-      "sha256": "383ad8fd3d3cf5214c1e8d003b910f3da49480dddfa3ad4fbbf70c11b803b257",
+      "bytes": 23775,
+      "sha256": "ddefdc156fb3d69976b570f37850478af09eb2ff4fc306fc360ae33ccbf632d6",
       "status": "VERIFIED"
     },
     {
@@ -792,14 +792,20 @@
     },
     {
       "path": "PROJECT_STATUS.md",
-      "bytes": 12083,
-      "sha256": "7d6d004b2c8c47fb7751f022c46744b2b8319c929cf4370330f4a1d88a0cd647",
+      "bytes": 17964,
+      "sha256": "2d9094cf78783ff91d055f9c5c95930ce9f9a917d7187764ec9511ee02d0dd6b",
       "status": "VERIFIED"
     },
     {
       "path": "PUBLICATION_POLICY.md",
       "bytes": 2580,
       "sha256": "46a66ff32f9907fb1b29a19abf03d74db1e347d4c855763a42ad95f25612137c",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/ADVERSARIAL_TEST_RESULTS.md",
+      "bytes": 6326,
+      "sha256": "060e18810ac3e571a1adaad9c200f9d66226594ba6bc7030a7328441ee8f1cde",
       "status": "VERIFIED"
     },
     {
@@ -828,8 +834,8 @@
     },
     {
       "path": "qa/BLIND_REVIEW_RECONCILIATION_REPORT.md",
-      "bytes": 7543,
-      "sha256": "186a43311867f602f08d266dc1279f3f77d9e154ede9c18d29118149b64376ed",
+      "bytes": 7227,
+      "sha256": "ed7717fb149ccf6c98c3e891b23a492840a1d50c6280e6992220dc285b182c86",
       "status": "VERIFIED"
     },
     {
@@ -840,8 +846,8 @@
     },
     {
       "path": "qa/CONTENT_FINGERPRINT_MANIFEST.json",
-      "bytes": 185515,
-      "sha256": "cdf24e3bd715e90d7f52fd10a7125970786a018480553d4398e929a654121697",
+      "bytes": 276164,
+      "sha256": "f5e7f5108aea4248a7016f3c39559b0a194f3d7eb139ad27fa7b7bbd77c6476b",
       "status": "VERIFIED"
     },
     {
@@ -894,8 +900,8 @@
     },
     {
       "path": "qa/file_status.json",
-      "bytes": 13737,
-      "sha256": "967f4df98da317e6366edcaaa99858855b51f5641738672ae269c581d8f90ebd",
+      "bytes": 13840,
+      "sha256": "d11a6bb939871814df747f877b67ce69a3a789da87a982768981d85f30ff03e1",
       "status": "VERIFIED"
     },
     {
@@ -1092,8 +1098,8 @@
     },
     {
       "path": "qa/PRACTICE_RELEASE_GATE.md",
-      "bytes": 7137,
-      "sha256": "84f742fd0ee985683c95acc6ac87a9b3eef4a5fe26cd1074f8b0d26563dd54a9",
+      "bytes": 7159,
+      "sha256": "152581c31e9802e589ff23d2f2c30990f9447baa4e96f50952a6d47f9d4d6e34",
       "status": "VERIFIED"
     },
     {
@@ -1110,8 +1116,8 @@
     },
     {
       "path": "qa/QUESTION_REVIEW_LEDGER.csv",
-      "bytes": 22355,
-      "sha256": "8761f6bb48162b27827066cc0ab678d60090f32ca5582c0567f457382d97cce5",
+      "bytes": 22627,
+      "sha256": "eb5faa24cde0587f7cb978bf793ec206c21e94ce6bfa301c3a0e876375182517",
       "status": "VERIFIED"
     },
     {
@@ -1152,14 +1158,14 @@
     },
     {
       "path": "qa/REPRODUCIBILITY_AUDIT.md",
-      "bytes": 5210,
-      "sha256": "13aa99ba03ff547543bb9b850c55940e30490e3dd4684774f24fd589af412c67",
+      "bytes": 3618,
+      "sha256": "be2d63ac49e3ef0cb9d5f13c6e10c858ae5eb8be50415a88f078a303aa2ab22e",
       "status": "VERIFIED"
     },
     {
       "path": "qa/REVIEW_PROVENANCE_AUDIT.md",
-      "bytes": 8707,
-      "sha256": "8582d9f8a346af8e1db95416b6efe307c8b631045504ccb0cf8fedb0f512d359",
+      "bytes": 4223,
+      "sha256": "79e3fafa5ad9d759f73b523b2445885091332bfa42a54269fe5386c365921e46",
       "status": "VERIFIED"
     },
     {
@@ -1170,8 +1176,14 @@
     },
     {
       "path": "qa/STAR_PERMUTATION_AUDIT.md",
-      "bytes": 167430,
-      "sha256": "b7e691421ea8d8b4a6e8545ed5413ce011925fc8a71a9247687d5c545213ccc1",
+      "bytes": 5191,
+      "sha256": "23cc9ca5de9da2f20c14f326bf42b1bd2e8435132bf32a4b46ac7d700c7ee5db",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/STAR_SEMANTIC_REVIEW_LEDGER.json",
+      "bytes": 18480,
+      "sha256": "25d625712523d12b462f27b2e54130bae1ad0468c23e4a072a29fe679d294211",
       "status": "VERIFIED"
     },
     {
@@ -1266,8 +1278,8 @@
     },
     {
       "path": "scripts/curriculum/audit_star_permutations.py",
-      "bytes": 16557,
-      "sha256": "df8167fb843558c6ddbca97a96e3526db8b4f52ad7cdcefb61d71f98060dad7e",
+      "bytes": 20909,
+      "sha256": "ecaf55f3a70d8c8776856b9955966eea5b91b173077869654b634362ebc821b2",
       "status": "VERIFIED"
     },
     {
@@ -1284,20 +1296,20 @@
     },
     {
       "path": "scripts/curriculum/build_provenance_manifest.py",
-      "bytes": 13174,
-      "sha256": "63b965eca499af5de7fd1b1dc94c3c2392353fcb22b500d12902464abe4aa45f",
+      "bytes": 16167,
+      "sha256": "9b232e674891a36cd49d586dca5e8266bf5aceddd59adb1eae563a63a80f765b",
       "status": "VERIFIED"
     },
     {
       "path": "scripts/curriculum/content_fingerprint.py",
-      "bytes": 2070,
-      "sha256": "ddc6bdc123f5c65f3ab6ebdd300752dc8d0e0637fc9225917b9d3377e88b56d0",
+      "bytes": 6469,
+      "sha256": "e66642c3739f724de3ea9ce8c83ab896f337bc67798b6af31fdf7a3e2c2b4512",
       "status": "VERIFIED"
     },
     {
       "path": "scripts/curriculum/generate_practice_release_gate.py",
-      "bytes": 7024,
-      "sha256": "7c823a25e7001fff2a6060366ed892c71ffda8d016cf8fb768fc1b77c6ff226d",
+      "bytes": 8155,
+      "sha256": "62fa7ca4bc3cafab92c6ccc3e306ff7b7f5525d6a194b983f5af4c86de9183e8",
       "status": "VERIFIED"
     },
     {
@@ -1308,14 +1320,14 @@
     },
     {
       "path": "scripts/curriculum/rebuild_and_repair_bank.py",
-      "bytes": 131053,
-      "sha256": "9d7675120302a65129ad41656f6bde8c8ca67e8bb9e9ae9a2a1941dddd02fd13",
+      "bytes": 131003,
+      "sha256": "4021187bac0660fbc42592fe77c805fdbde93f4ef2d3f55017fa5ebe8b4a776f",
       "status": "VERIFIED"
     },
     {
       "path": "scripts/curriculum/reconcile_blind_review.py",
-      "bytes": 31477,
-      "sha256": "3ba5f9bcab0e822fdc9c25614ec295219ddc03ec830b59ee01e2b21126640d68",
+      "bytes": 30017,
+      "sha256": "d1100ab49f732ffcd081dbe19d9cd6e5464f781f78b3d2ec92ebe56c63cfa4a8",
       "status": "VERIFIED"
     },
     {
@@ -1326,8 +1338,8 @@
     },
     {
       "path": "scripts/curriculum/verify_rebuild_invariance.py",
-      "bytes": 14589,
-      "sha256": "80ccfd4424605e8be44cbb7450655877401ed38a69d6e762d5969c845c457e85",
+      "bytes": 16386,
+      "sha256": "4f7313dd2d73a9a6062bbc187dee7e337287de3049e2979ab04b30d7a6bce3b3",
       "status": "VERIFIED"
     },
     {
@@ -1404,8 +1416,8 @@
     },
     {
       "path": "scripts/tests/test_qa_adversarial_mutations.py",
-      "bytes": 15876,
-      "sha256": "f02a0edbb2242b471721f1c897b30e59b4030e7579bfdb67e9c1f0671cdca8ec",
+      "bytes": 30258,
+      "sha256": "7feace2e4281889e348fe85d42c56b9a78f184f020f7758730bda759f455e378",
       "status": "VERIFIED"
     },
     {

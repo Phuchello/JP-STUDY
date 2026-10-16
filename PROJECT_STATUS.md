@@ -1,5 +1,40 @@
 # Trạng thái dự án — 16/10/2026
 
+## Phase 3.7 — Gia cố cổng kiểm định phản biện (Adversarial QA Hardening, Two-Gate STAR Auditor & Provenance Integrity)
+
+- **Xóa bỏ hoàn toàn mã cứng kết luận ngữ nghĩa câu hỏi dấu sao (Two-Gate STAR Architecture)**:
+  - Loại bỏ triệt để việc gán kết luận ngữ nghĩa theo ID câu hỏi (`evaluate_permutation_syntax`) trong `scripts/curriculum/audit_star_permutations.py`.
+  - Thiết lập kiến trúc kiểm định hai cổng độc lập (Two-Gate Architecture):
+    - **Cổng 1 (Kiểm định cấu trúc - Structural Validation)**: Kiểm tra 4 ngữ đoạn riêng biệt, duyệt toàn bộ 24 hoán vị ($4! = 24$), tiền tố/hậu tố tái tạo, khớp câu chuẩn tắc, khớp ô số 3 và phát hiện xung đột trợ từ đồng vị qua ranh giới ngữ đoạn (`check_generic_structural_constraints`). Kết quả: **16 / 16 câu đạt Cổng 1 (PASS)**.
+    - **Cổng 2 (Thẩm định độc lập tính duy nhất về ngữ nghĩa - Semantic Uniqueness)**: Không bao giờ tự động suy diễn các hoán vị phi chuẩn tắc là sai ngữ pháp khi chưa có hội đồng chuyên gia độc lập xác nhận. Trạng thái phản ánh trung thực: **`STAR_SEMANTIC_REVIEW_PENDING`**, yêu cầu rà soát bổ sung (`QA_REVIEW_REQUIRED`).
+    - Tuyệt đối không tuyên bố tự động "384/384 semantic PASS". Xuất sổ cái độc lập [`qa/STAR_SEMANTIC_REVIEW_LEDGER.json`](qa/STAR_SEMANTIC_REVIEW_LEDGER.json) và báo cáo [`qa/STAR_PERMUTATION_AUDIT.md`](qa/STAR_PERMUTATION_AUDIT.md).
+- **Bộ đối chứng tiêu cực thực chất cho câu dấu sao (Real Negative-Control Tests)**:
+  - Xây dựng bài kiểm thử mẫu câu dấu sao mơ hồ tự nhiên bằng tiếng Nhật với cấu trúc trạng ngữ di động tự do trước vị ngữ (nghiệm thức Tanaka-san: `昨日` / `会議で` / `その計画について` / `熱心に`), chứng minh hệ thống kiểm định từ chối xác nhận `VERIFIED_COHERENT`, trả về đúng `STAR_SEMANTIC_REVIEW_PENDING`.
+  - Bổ sung 6 ca đối chứng tiêu cực: thiếu câu chuẩn tắc, sai khóa đáp án ô số 3, trùng lặp ngữ đoạn, số lượng ô sai quy cách, xung đột trợ từ cách (double case-particle collision), và ID không xác định. Toàn bộ 7 bài kiểm thử đối chứng tiêu cực đều PASS.
+- **Mở rộng hệ thống băm mật mã 4 tầng (4-Tier Cryptographic Fingerprints)**:
+  - Nâng cấp `scripts/curriculum/content_fingerprint.py` với 4 mã băm SHA-256 riêng biệt:
+    1. `BLIND_INPUT_SHA256`: ID, level, typeId, stem, contextPassage, sorted options.
+    2. `SCORING_SHA256`: ID, level, typeId, correctAnswer, option ID-to-text bindings.
+    3. `PEDAGOGICAL_CONTENT_SHA256`: explanationVi, distractorExplanations, remediation, assembledSentence.
+    4. `FULL_ITEM_SHA256`: Tổng thể toàn bộ dữ liệu phát hành của câu hỏi.
+  - Kiểm toán tái tạo từ sandbox cô lập (`scripts/curriculum/verify_rebuild_invariance.py`): đạt độ ổn định tuyệt đối **120 / 120 câu** qua 2 lượt build liên tiếp (0 content drift, 0 repaired item drift, 0 historical file drift). Báo cáo chi tiết: [`qa/REPRODUCIBILITY_AUDIT.md`](qa/REPRODUCIBILITY_AUDIT.md).
+- **Minh bạch hóa nguồn gốc thẩm định 3 tầng (Honest 3-Tier Review Provenance)**:
+  - Phân tách rạch ròi giữa việc khớp băm nội dung (`CONTENT_HASH_MATCHED: True`), lưu trữ đầu ra thẩm định (`REVIEW_OUTPUT_RECORDED: True`), và chứng thực thực thi (`EXECUTION_PROVENANCE_REPORTED_NOT_ATTESTED`).
+  - Phân loại trung thực trạng thái chứng thực nguồn gốc là `PARTIAL` thay vì tuyên bố tuyệt đối do thiếu chữ ký mật mã khóa công khai ngoài repository. Ghi nhận chi tiết tại [`qa/CONTENT_FINGERPRINT_MANIFEST.json`](qa/CONTENT_FINGERPRINT_MANIFEST.json) và [`qa/REVIEW_PROVENANCE_AUDIT.md`](qa/REVIEW_PROVENANCE_AUDIT.md).
+- **Cổng phát hành bộ đề động & Ranh giới phát hành an toàn (Dynamic Practice Release Gate)**:
+  - Chuyển đổi toàn bộ việc tính toán 7 chiều chất lượng sang logic động dựa trên ngân hàng câu hỏi và bộ đề thực tế tại `scripts/curriculum/generate_practice_release_gate.py`.
+  - Phân loại rõ ràng:
+    - **11 bộ đề `QA_PASSED_NOT_DEPLOYED`**: Chứa 100% câu hỏi đã qua giải mù và thẩm định (`QA_VERIFIED`), hoàn toàn không chứa câu hỏi dấu sao, đủ điều kiện kỹ thuật để chạy thử nghiệm có kiểm soát.
+    - **9 bộ đề `CONTENT_QA_BLOCKED`**: Bị chặn tự động và an toàn do chứa câu hỏi dấu sao đang chờ hội đồng thẩm định ngữ nghĩa (`STAR_SEMANTIC_REVIEW_PENDING`).
+    - **3 bộ đề thi thử `NOT_READY`**: Chờ mở rộng ngân hàng câu hỏi.
+  - Bộ đề sẵn sàng chạy thử nghiệm có kiểm soát (Controlled Pilot): `MD-N4-VOC-01` (5 câu N4 Từ vựng, 0 câu dấu sao, 100% `QA_VERIFIED`).
+- **Bộ kiểm thử đột biến phản biện hoàn chỉnh (19 Production Integration Tests)**:
+  - [`scripts/tests/test_qa_adversarial_mutations.py`](scripts/tests/test_qa_adversarial_mutations.py) đạt kết quả tuyệt đối **19 / 19 tests PASS** (12 kịch bản đột biến hệ thống + 7 kịch bản đối chứng tiêu cực câu dấu sao), xuất báo cáo nghiệm thu [`qa/ADVERSARIAL_TEST_RESULTS.md`](qa/ADVERSARIAL_TEST_RESULTS.md).
+- **Bảo toàn 100% Forms P0 & Báo cáo rào cản tài khoản Google Workspace**:
+  - Bảo toàn trọn vẹn 3 Forms P0 đang hoạt động (`W01-B01`, `W01-B02`, `W01-B03`). Không tự tạo Forms giả mạo trên Google Drive khi chưa có phiên đăng nhập xác thực.
+
+---
+
 ## Phase 3.7 — Đối soát kiểm định cuối cùng, xử lý dứt điểm mơ hồ ngữ nghĩa & Thử nghiệm kiểm soát (Final QA Reconciliation & Ambiguity Repair)
 
 - **Xử lý triệt để 6 câu hỏi bị cảnh báo/mơ hồ ngữ nghĩa (Checkpoint Remediation)**:

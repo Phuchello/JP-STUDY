@@ -14,7 +14,7 @@
   },
   "authority": "JEES / The Japan Foundation JLPT Specifications & Official Samples",
   "description": "120 câu hỏi nguyên bản mới với phân bổ đáp án xáo trộn hạt giống (seeded shuffle), loại bỏ chu kỳ lặp ABCD. Trạng thái kiểm định: QA_VERIFIED.",
-  "status": "QA_VERIFIED",
+  "status": "QA_PARTIAL",
   "questions": [
     {
       "id": "N4-MO-READ-001",
@@ -58,7 +58,7 @@
       "status": "QA_VERIFIED",
       "targetBracketWord": "案内",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -112,7 +112,7 @@
       "status": "QA_VERIFIED",
       "targetBracketWord": "貸しました",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -166,7 +166,7 @@
       "status": "QA_VERIFIED",
       "targetBracketWord": "計画",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -220,7 +220,7 @@
       "status": "QA_VERIFIED",
       "targetBracketWord": "拾いました",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -274,7 +274,7 @@
       "status": "QA_VERIFIED",
       "targetBracketWord": "質問",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -328,7 +328,7 @@
       "status": "QA_VERIFIED",
       "targetBracketWord": "送りました",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -382,7 +382,7 @@
       "status": "QA_VERIFIED",
       "targetBracketWord": "道具",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -436,7 +436,7 @@
       "status": "QA_VERIFIED",
       "targetBracketWord": "特別",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -489,7 +489,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -542,7 +542,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -595,7 +595,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -648,7 +648,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -701,7 +701,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -754,7 +754,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -807,7 +807,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -860,7 +860,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -913,7 +913,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -966,7 +966,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -1019,7 +1019,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -1072,7 +1072,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -1125,7 +1125,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -1178,7 +1178,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -1231,7 +1231,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -1284,7 +1284,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -1337,7 +1337,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -1390,13 +1390,13 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_repaired_6.json",
           "batch": "repaired_targeted",
-          "timestamp": "2026-10-16T08:08:27.358219+00:00",
+          "timestamp": "2026-10-16T08:37:09.522434+00:00",
           "reviewer": "subagent:jlpt-blind-reviewer",
           "contentFingerprint": "7eeec32b9584542df043199aee4aac046f5e410c6db55da5dbf1a09ee230f80c"
         }
@@ -1443,7 +1443,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -1496,7 +1496,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -1545,14 +1545,14 @@
       "conceptId": "star-ordering",
       "remediation": "Khóa cụm V-る/ない + ことがないように để xác định trật tự câu sao.",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": true,
+      "exposureEligible": false,
       "diagnosticEligible": false,
-      "status": "QA_VERIFIED",
+      "status": "STAR_SEMANTIC_REVIEW_PENDING",
       "assembledSentence": "朝慌てて探すことがないように夜のうちに服を準備しておきます。",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
-        "gateDecision": "QA_VERIFIED",
-        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
+        "gateDecision": "STAR_SEMANTIC_REVIEW_PENDING",
+        "reason": "Star question Gate 1 passed; Gate 2 semantic uniqueness review pending expert panel: Independent semantic review of non-canonical candidate permutations is pending expert review.",
         "provenance": {
           "sourceFile": "raw_blind_review_n4.json",
           "batch": "base_n4",
@@ -1599,18 +1599,18 @@
       "conceptId": "star-ordering",
       "remediation": "Ôn tập cấu trúc mệnh đề định ngữ và cấu trúc chỉ mục đích V-ます (bỏ ます) + に行く.",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": true,
+      "exposureEligible": false,
       "diagnosticEligible": false,
-      "status": "QA_VERIFIED",
+      "status": "STAR_SEMANTIC_REVIEW_PENDING",
       "assembledSentence": "来年の夏休みには、北海道に住んでいる友達に会いに行く予定です。",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
-        "gateDecision": "QA_VERIFIED",
-        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
+        "gateDecision": "STAR_SEMANTIC_REVIEW_PENDING",
+        "reason": "Star question Gate 1 passed; Gate 2 semantic uniqueness review pending expert panel: Independent semantic review of non-canonical candidate permutations is pending expert review.",
         "provenance": {
           "sourceFile": "raw_blind_review_repaired_6.json",
           "batch": "repaired_targeted",
-          "timestamp": "2026-10-16T08:08:27.358219+00:00",
+          "timestamp": "2026-10-16T08:37:09.522434+00:00",
           "reviewer": "subagent:jlpt-blind-reviewer",
           "contentFingerprint": "a7de6f437d0ba643a5e3097e5c3ac5a0e91d8bdce7813e09d7ac8acdf7206650"
         }
@@ -1653,14 +1653,14 @@
       "conceptId": "star-ordering",
       "remediation": "Tìm cặp ngữ pháp then chốt 〜たほうがいい để khóa hai vị trí cuối câu.",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": true,
+      "exposureEligible": false,
       "diagnosticEligible": false,
-      "status": "QA_VERIFIED",
+      "status": "STAR_SEMANTIC_REVIEW_PENDING",
       "assembledSentence": "風邪をひいたときは、無理をしないで暖かくしてゆっくり休んだほうがいいですよ。",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
-        "gateDecision": "QA_VERIFIED",
-        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
+        "gateDecision": "STAR_SEMANTIC_REVIEW_PENDING",
+        "reason": "Star question Gate 1 passed; Gate 2 semantic uniqueness review pending expert panel: Independent semantic review of non-canonical candidate permutations is pending expert review.",
         "provenance": {
           "sourceFile": "raw_blind_review_n4.json",
           "batch": "base_n4",
@@ -1707,14 +1707,14 @@
       "conceptId": "star-ordering",
       "remediation": "Nối các mệnh đề điều kiện và khả năng theo thứ tự logic chặt chẽ.",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": true,
+      "exposureEligible": false,
       "diagnosticEligible": false,
-      "status": "QA_VERIFIED",
+      "status": "STAR_SEMANTIC_REVIEW_PENDING",
       "assembledSentence": "昨日は熱が高くて起き上がることができなかったので学校を休みました。",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
-        "gateDecision": "QA_VERIFIED",
-        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
+        "gateDecision": "STAR_SEMANTIC_REVIEW_PENDING",
+        "reason": "Star question Gate 1 passed; Gate 2 semantic uniqueness review pending expert panel: Independent semantic review of non-canonical candidate permutations is pending expert review.",
         "provenance": {
           "sourceFile": "raw_blind_review_n4.json",
           "batch": "base_n4",
@@ -1761,14 +1761,14 @@
       "conceptId": "star-ordering",
       "remediation": "Nhận diện cặp liệt kê song song tính chất (A て B も 〜ので).",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": true,
+      "exposureEligible": false,
       "diagnosticEligible": false,
-      "status": "QA_VERIFIED",
+      "status": "STAR_SEMANTIC_REVIEW_PENDING",
       "assembledSentence": "この辞書は文字が大きくて説明もわかりやすいのでとても便利です。",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
-        "gateDecision": "QA_VERIFIED",
-        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
+        "gateDecision": "STAR_SEMANTIC_REVIEW_PENDING",
+        "reason": "Star question Gate 1 passed; Gate 2 semantic uniqueness review pending expert panel: Independent semantic review of non-canonical candidate permutations is pending expert review.",
         "provenance": {
           "sourceFile": "raw_blind_review_n4.json",
           "batch": "base_n4",
@@ -1815,18 +1815,18 @@
       "conceptId": "star-ordering",
       "remediation": "Ôn tập cấu trúc V-る + ために và thể ý chí V-よう + と (chỉ mục đích / dự định).",
       "sourceMetadata": "Official JLPT N4 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": true,
+      "exposureEligible": false,
       "diagnosticEligible": false,
-      "status": "QA_VERIFIED",
+      "status": "STAR_SEMANTIC_REVIEW_PENDING",
       "assembledSentence": "将来自分の店を持つためにお金をためようと一生懸命働いています。",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
-        "gateDecision": "QA_VERIFIED",
-        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
+        "gateDecision": "STAR_SEMANTIC_REVIEW_PENDING",
+        "reason": "Star question Gate 1 passed; Gate 2 semantic uniqueness review pending expert panel: Independent semantic review of non-canonical candidate permutations is pending expert review.",
         "provenance": {
           "sourceFile": "raw_blind_review_repaired_6.json",
           "batch": "repaired_targeted",
-          "timestamp": "2026-10-16T08:08:27.358219+00:00",
+          "timestamp": "2026-10-16T08:37:09.522434+00:00",
           "reviewer": "subagent:jlpt-blind-reviewer",
           "contentFingerprint": "8effaa221d34a72565130aef62d591ede07201c53705da950975f51591b8cb82"
         }
@@ -1873,7 +1873,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -1926,7 +1926,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -1979,7 +1979,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -2032,7 +2032,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -2085,7 +2085,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -2138,7 +2138,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -2192,7 +2192,7 @@
       "status": "QA_VERIFIED",
       "targetBracketWord": "延期",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -2246,7 +2246,7 @@
       "status": "QA_VERIFIED",
       "targetBracketWord": "抱えて",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -2300,7 +2300,7 @@
       "status": "QA_VERIFIED",
       "targetBracketWord": "欧米",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -2354,7 +2354,7 @@
       "status": "QA_VERIFIED",
       "targetBracketWord": "湿気",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -2408,7 +2408,7 @@
       "status": "QA_VERIFIED",
       "targetBracketWord": "耕して",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -2462,7 +2462,7 @@
       "status": "QA_VERIFIED",
       "targetBracketWord": "診察",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -2516,7 +2516,7 @@
       "status": "QA_VERIFIED",
       "targetBracketWord": "豊富",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -2570,7 +2570,7 @@
       "status": "QA_VERIFIED",
       "targetBracketWord": "補う",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -2623,7 +2623,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -2676,7 +2676,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -2729,7 +2729,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -2782,7 +2782,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -2835,7 +2835,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -2888,7 +2888,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -2941,7 +2941,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -2994,7 +2994,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -3047,7 +3047,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -3100,7 +3100,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -3153,7 +3153,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -3206,7 +3206,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -3259,7 +3259,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -3312,7 +3312,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -3365,7 +3365,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -3418,7 +3418,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -3471,7 +3471,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -3524,7 +3524,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -3577,7 +3577,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -3630,7 +3630,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -3683,7 +3683,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -3736,13 +3736,13 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_repaired_6.json",
           "batch": "repaired_targeted",
-          "timestamp": "2026-10-16T08:08:27.358219+00:00",
+          "timestamp": "2026-10-16T08:37:09.522434+00:00",
           "reviewer": "subagent:jlpt-blind-reviewer",
           "contentFingerprint": "1b1c6582253c5acdeafefd25cf5dea1c79ad222382895121c5f43497ddafcdc1"
         }
@@ -3789,7 +3789,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -3842,7 +3842,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -3895,7 +3895,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -3948,7 +3948,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -4001,7 +4001,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -4054,7 +4054,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -4103,18 +4103,18 @@
       "conceptId": "star-n3",
       "remediation": "Ôn tập cấu trúc N3 〜にかかわらず (bất kể) kết hợp với điều kiện 〜ば.",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": true,
+      "exposureEligible": false,
       "diagnosticEligible": false,
-      "status": "QA_VERIFIED",
+      "status": "STAR_SEMANTIC_REVIEW_PENDING",
       "assembledSentence": "年齢や経験の有無にかかわらず意欲があれば誰でも応募できます。",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
-        "gateDecision": "QA_VERIFIED",
-        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
+        "gateDecision": "STAR_SEMANTIC_REVIEW_PENDING",
+        "reason": "Star question Gate 1 passed; Gate 2 semantic uniqueness review pending expert panel: Independent semantic review of non-canonical candidate permutations is pending expert review.",
         "provenance": {
           "sourceFile": "raw_blind_review_repaired_6.json",
           "batch": "repaired_targeted",
-          "timestamp": "2026-10-16T08:08:27.358219+00:00",
+          "timestamp": "2026-10-16T08:37:09.522434+00:00",
           "reviewer": "subagent:jlpt-blind-reviewer",
           "contentFingerprint": "1a78d433d822942c5e284e52e801edce0db162e55f07e2228070eb0c48c17312"
         }
@@ -4157,14 +4157,14 @@
       "conceptId": "star-n3",
       "remediation": "Nhận diện bản chất cấu trúc 〜反面 kết nối giữa điểm lợi (自由で気楽) và điểm hại (寂しさを感じる).",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": true,
+      "exposureEligible": false,
       "diagnosticEligible": false,
-      "status": "QA_VERIFIED",
+      "status": "STAR_SEMANTIC_REVIEW_PENDING",
       "assembledSentence": "一人暮らしは自由で気楽な反面、ふとした時に寂しさを感じることもある。",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
-        "gateDecision": "QA_VERIFIED",
-        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
+        "gateDecision": "STAR_SEMANTIC_REVIEW_PENDING",
+        "reason": "Star question Gate 1 passed; Gate 2 semantic uniqueness review pending expert panel: Independent semantic review of non-canonical candidate permutations is pending expert review.",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
@@ -4211,14 +4211,14 @@
       "conceptId": "star-n3",
       "remediation": "Khóa cấu trúc 〜を中心として rồi nối mệnh đề định ngữ bổ nghĩa cho 多くの住民.",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": true,
+      "exposureEligible": false,
       "diagnosticEligible": false,
-      "status": "QA_VERIFIED",
+      "status": "STAR_SEMANTIC_REVIEW_PENDING",
       "assembledSentence": "ボランティア団体を中心として集まった多くの住民により地域の清掃活動が行われた。",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
-        "gateDecision": "QA_VERIFIED",
-        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
+        "gateDecision": "STAR_SEMANTIC_REVIEW_PENDING",
+        "reason": "Star question Gate 1 passed; Gate 2 semantic uniqueness review pending expert panel: Independent semantic review of non-canonical candidate permutations is pending expert review.",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
@@ -4265,14 +4265,14 @@
       "conceptId": "star-n3",
       "remediation": "Khóa cụm từ nối 〜を通じて rồi xếp tân ngữ có tính từ định ngữ đi kèm (かけがえのない経験).",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": true,
+      "exposureEligible": false,
       "diagnosticEligible": false,
-      "status": "QA_VERIFIED",
+      "status": "STAR_SEMANTIC_REVIEW_PENDING",
       "assembledSentence": "海外でのボランティア活動を通じて多くの友人と、かけがえのない経験を得ることができた。",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
-        "gateDecision": "QA_VERIFIED",
-        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
+        "gateDecision": "STAR_SEMANTIC_REVIEW_PENDING",
+        "reason": "Star question Gate 1 passed; Gate 2 semantic uniqueness review pending expert panel: Independent semantic review of non-canonical candidate permutations is pending expert review.",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
@@ -4319,14 +4319,14 @@
       "conceptId": "star-n3",
       "remediation": "Khóa cấu trúc nhân quả phát triển: 〜に伴って rồi xếp mệnh đề nối tiếp 普及し.",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": true,
+      "exposureEligible": false,
       "diagnosticEligible": false,
-      "status": "QA_VERIFIED",
+      "status": "STAR_SEMANTIC_REVIEW_PENDING",
       "assembledSentence": "情報通信技術の発展に伴ってオンラインサービスが普及し、人々の生活様式も大きく変わった。",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
-        "gateDecision": "QA_VERIFIED",
-        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
+        "gateDecision": "STAR_SEMANTIC_REVIEW_PENDING",
+        "reason": "Star question Gate 1 passed; Gate 2 semantic uniqueness review pending expert panel: Independent semantic review of non-canonical candidate permutations is pending expert review.",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
@@ -4373,14 +4373,14 @@
       "conceptId": "star-n3",
       "remediation": "Xác định hai cấu trúc so sánh và gia tăng: 〜と比べて và 〜うえに.",
       "sourceMetadata": "Official JLPT N3 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": true,
+      "exposureEligible": false,
       "diagnosticEligible": false,
-      "status": "QA_VERIFIED",
+      "status": "STAR_SEMANTIC_REVIEW_PENDING",
       "assembledSentence": "従来の製品と比べて新型モデルは性能が向上したうえに消費電力が30％も削減された。",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
-        "gateDecision": "QA_VERIFIED",
-        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
+        "gateDecision": "STAR_SEMANTIC_REVIEW_PENDING",
+        "reason": "Star question Gate 1 passed; Gate 2 semantic uniqueness review pending expert panel: Independent semantic review of non-canonical candidate permutations is pending expert review.",
         "provenance": {
           "sourceFile": "raw_blind_review_n3.json",
           "batch": "base_n3",
@@ -4431,7 +4431,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -4484,7 +4484,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -4537,7 +4537,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -4590,7 +4590,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -4643,7 +4643,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -4696,7 +4696,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -4749,7 +4749,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -4802,7 +4802,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -4856,7 +4856,7 @@
       "status": "QA_VERIFIED",
       "targetBracketWord": "把握",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -4910,7 +4910,7 @@
       "status": "QA_VERIFIED",
       "targetBracketWord": "措置",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -4964,7 +4964,7 @@
       "status": "QA_VERIFIED",
       "targetBracketWord": "妥協",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -5018,7 +5018,7 @@
       "status": "QA_VERIFIED",
       "targetBracketWord": "蓄えて",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -5072,7 +5072,7 @@
       "status": "QA_VERIFIED",
       "targetBracketWord": "顕著",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -5125,7 +5125,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -5178,7 +5178,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -5231,7 +5231,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -5284,7 +5284,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -5337,7 +5337,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -5390,7 +5390,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -5443,7 +5443,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -5496,7 +5496,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -5549,7 +5549,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -5602,7 +5602,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -5655,7 +5655,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -5708,7 +5708,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -5761,13 +5761,13 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
           "sourceFile": "raw_blind_review_repaired_6.json",
           "batch": "repaired_targeted",
-          "timestamp": "2026-10-16T08:08:27.358219+00:00",
+          "timestamp": "2026-10-16T08:37:09.522434+00:00",
           "reviewer": "subagent:jlpt-blind-reviewer",
           "contentFingerprint": "d968908774862c242062ee7f399cae4f66d32d3514bf8a86aef2290be09ec53b"
         }
@@ -5814,7 +5814,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -5867,7 +5867,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -5920,7 +5920,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -5973,7 +5973,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -6026,7 +6026,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -6075,14 +6075,14 @@
       "conceptId": "star-n2",
       "remediation": "Khóa cụm tương liên: 〜どころか ... 〜も脅かしかねない.",
       "sourceMetadata": "Official JLPT N2 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": true,
+      "exposureEligible": false,
       "diagnosticEligible": false,
-      "status": "QA_VERIFIED",
+      "status": "STAR_SEMANTIC_REVIEW_PENDING",
       "assembledSentence": "今回の不祥事は会社の信用を失墜させるどころか存続をも脅かしかねない重大な問題である。",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
-        "gateDecision": "QA_VERIFIED",
-        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
+        "gateDecision": "STAR_SEMANTIC_REVIEW_PENDING",
+        "reason": "Star question Gate 1 passed; Gate 2 semantic uniqueness review pending expert panel: Independent semantic review of non-canonical candidate permutations is pending expert review.",
         "provenance": {
           "sourceFile": "raw_blind_review_n2.json",
           "batch": "base_n2",
@@ -6129,14 +6129,14 @@
       "conceptId": "star-n2",
       "remediation": "Nối cấu trúc liên từ song song AとB rồi khóa vị trí danh từ trước 次第で.",
       "sourceMetadata": "Official JLPT N2 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": true,
+      "exposureEligible": false,
       "diagnosticEligible": false,
-      "status": "QA_VERIFIED",
+      "status": "STAR_SEMANTIC_REVIEW_PENDING",
       "assembledSentence": "どのような困難な課題であっても、チームの団結と一人ひとりの取り組み方次第で克服できる。",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
-        "gateDecision": "QA_VERIFIED",
-        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
+        "gateDecision": "STAR_SEMANTIC_REVIEW_PENDING",
+        "reason": "Star question Gate 1 passed; Gate 2 semantic uniqueness review pending expert panel: Independent semantic review of non-canonical candidate permutations is pending expert review.",
         "provenance": {
           "sourceFile": "raw_blind_review_n2.json",
           "batch": "base_n2",
@@ -6183,14 +6183,14 @@
       "conceptId": "star-n2",
       "remediation": "Khóa mẫu câu hô ứng: いくら〜からといって ... 〜ていては.",
       "sourceMetadata": "Official JLPT N2 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": true,
+      "exposureEligible": false,
       "diagnosticEligible": false,
-      "status": "QA_VERIFIED",
+      "status": "STAR_SEMANTIC_REVIEW_PENDING",
       "assembledSentence": "いくら専門知識が豊富だからといって傲慢な態度をとっていては周囲の信頼は得られない。",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
-        "gateDecision": "QA_VERIFIED",
-        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
+        "gateDecision": "STAR_SEMANTIC_REVIEW_PENDING",
+        "reason": "Star question Gate 1 passed; Gate 2 semantic uniqueness review pending expert panel: Independent semantic review of non-canonical candidate permutations is pending expert review.",
         "provenance": {
           "sourceFile": "raw_blind_review_n2.json",
           "batch": "base_n2",
@@ -6237,14 +6237,14 @@
       "conceptId": "star-n2",
       "remediation": "Khóa cụm từ nối nhượng bộ 〜にもかかわらず rồi xếp trạng ngữ định vị 本番の現場では.",
       "sourceMetadata": "Official JLPT N2 specifications & TUFS Japanese pedagogical module",
-      "exposureEligible": true,
+      "exposureEligible": false,
       "diagnosticEligible": false,
-      "status": "QA_VERIFIED",
+      "status": "STAR_SEMANTIC_REVIEW_PENDING",
       "assembledSentence": "事前の綿密な計画にもかかわらず、本番の現場では予期せぬトラブルが発生した。",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
-        "gateDecision": "QA_VERIFIED",
-        "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
+        "gateDecision": "STAR_SEMANTIC_REVIEW_PENDING",
+        "reason": "Star question Gate 1 passed; Gate 2 semantic uniqueness review pending expert panel: Independent semantic review of non-canonical candidate permutations is pending expert review.",
         "provenance": {
           "sourceFile": "raw_blind_review_n2.json",
           "batch": "base_n2",
@@ -6295,7 +6295,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -6348,7 +6348,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -6401,7 +6401,7 @@
       "diagnosticEligible": false,
       "status": "QA_VERIFIED",
       "qaAudit": {
-        "evaluatedAt": "2026-10-16T08:08:27.359219+00:00",
+        "evaluatedAt": "2026-10-16T08:37:09.524434+00:00",
         "gateDecision": "QA_VERIFIED",
         "reason": "All QA gates passed cleanly with zero unresolved ambiguities",
         "provenance": {
@@ -6419,12 +6419,13 @@
     "countsByStatus": {
       "SCHEMA_VALID": 0,
       "INDEPENDENT_REVIEW_PENDING": 0,
+      "STAR_SEMANTIC_REVIEW_PENDING": 16,
       "REVIEW_AGREED_WITH_WARNINGS": 0,
       "QA_REVIEW_REQUIRED": 0,
-      "QA_VERIFIED": 120,
+      "QA_VERIFIED": 104,
       "QUARANTINED": 0
     },
     "agreementRate": "100.00%",
-    "lastReconciled": "2026-10-16T08:08:27.359219+00:00"
+    "lastReconciled": "2026-10-16T08:37:09.524434+00:00"
   }
 }

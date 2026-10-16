@@ -1,5 +1,28 @@
 # Changelog
 
+## 2026-10-16 — Phase 3.7 Adversarial QA Hardening, Two-Gate STAR Auditor & Cryptographic Provenance Integrity
+
+- **P0 Elimination of Hardcoded STAR Semantic Verdicts (Two-Gate Architecture)**:
+  - Eliminated all question-ID hardcoded semantic verdicts in `scripts/curriculum/audit_star_permutations.py`.
+  - Implemented Gate 1 Structural Validation (4 distinct chunks, 24 permutations, prefix/suffix reconstruction, canonical sentence match, slot 3 match, and generic particle collision detection). All 16 STAR questions passed Gate 1.
+  - Implemented Gate 2 Semantic Uniqueness: refuses to self-certify non-canonical permutations without item-specific proof; honestly reports `STAR_SEMANTIC_REVIEW_PENDING` / `QA_REVIEW_REQUIRED`. Output independent review ledger `qa/STAR_SEMANTIC_REVIEW_LEDGER.json` and audit report `qa/STAR_PERMUTATION_AUDIT.md`.
+- **P0 Real Negative-Control Tests for STAR Auditor**:
+  - Implemented synthetic ambiguous STAR question in natural Japanese with free adverbial adjunct scrambling (Tanaka-san case: `昨日` / `会議で` / `その計画について` / `熱心に`), proving the auditor returns `STAR_SEMANTIC_REVIEW_PENDING` and never `VERIFIED_COHERENT`.
+  - Implemented 6 additional negative controls: missing canonical sentence, wrong slot 3 key, duplicate chunks, invalid slot count, particle collisions, and unknown ID. All pass in `scripts/tests/test_qa_adversarial_mutations.py`.
+- **P1 Multi-Tier Cryptographic Fingerprint System**:
+  - Upgraded `scripts/curriculum/content_fingerprint.py` with 4 independent SHA-256 digests: `BLIND_INPUT_SHA256`, `SCORING_SHA256`, `PEDAGOGICAL_CONTENT_SHA256`, and `FULL_ITEM_SHA256`.
+  - Verified 120/120 full-item bit-for-bit invariance across Run 1 and Run 2 from clean Git archive in disposable sandbox (`qa/REPRODUCIBILITY_AUDIT.md`).
+- **P1 Honest Review Provenance Framework**:
+  - Separated `CONTENT_HASH_MATCHED` (120/120 True), `REVIEW_OUTPUT_RECORDED` (120/120 True), and `EXECUTION_PROVENANCE_REPORTED_NOT_ATTESTED` / `PARTIAL` (honest attestation without external PKI signatures).
+  - Updated `qa/CONTENT_FINGERPRINT_MANIFEST.json` and `qa/REVIEW_PROVENANCE_AUDIT.md`.
+- **P1 Dynamic Practice Release Gate & Safe Partial Release**:
+  - Dynamically derived 7 release dimensions in `scripts/curriculum/generate_practice_release_gate.py`: 11 sets `QA_PASSED_NOT_DEPLOYED`, 9 sets `CONTENT_QA_BLOCKED` (holding all STAR-dependent sets), 3 sets `NOT_READY`.
+  - Cleared non-STAR vocabulary drill `MD-N4-VOC-01` (5 items, 0 STAR questions, 100% `QA_VERIFIED`) for controlled pilot.
+- **P1 Expanded Adversarial Test Suite (19/19 PASS)**:
+  - Upgraded `scripts/tests/test_qa_adversarial_mutations.py` to 19 real production tests (12 system mutation integration scenarios + 7 STAR negative controls), generating `qa/ADVERSARIAL_TEST_RESULTS.md`.
+- **Controlled Pilot & P0 Preservation**:
+  - Preserved all 3 live P0 Forms (`W01-B01`, `W01-B02`, `W01-B03`). 0 fabricated deployment URLs.
+
 ## 2026-10-16 — Phase 3.7 P0 Reproducibility Recovery & Evidence-Integrity Audit
 
 - **P0 Non-Destructive Rebuild Guarantee & Sandbox Invariance**:
