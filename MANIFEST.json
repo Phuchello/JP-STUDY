@@ -1,8 +1,8 @@
 {
   "snapshotDate": "2026-10-15",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
-  "fileCountExcludingManifest": 251,
-  "totalBytesExcludingManifest": 6130951,
+  "fileCountExcludingManifest": 255,
+  "totalBytesExcludingManifest": 6182818,
   "files": [
     {
       "path": ".gitattributes",
@@ -720,8 +720,14 @@
     },
     {
       "path": "docs/widgets/home_quick_actions.html",
-      "bytes": 5348,
-      "sha256": "307ffb9a8d7a2b3c487c10ebb47b7a551fd37da895b15d70d3a44f978a43f021",
+      "bytes": 5819,
+      "sha256": "0b29342a59898c1946cfe2e730f977ac7ed4857b9ab232602f80b5bfb13fa60c",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "docs/widgets/home_quick_actions_ncr.html",
+      "bytes": 6422,
+      "sha256": "58ef7803c856c78e910a3ce62c892b5ddea597b08f91f9ed6e341f5dd9f25ea5",
       "status": "QA_PENDING"
     },
     {
@@ -731,15 +737,33 @@
       "status": "QA_PENDING"
     },
     {
+      "path": "docs/widgets/jlpt_exam_catalog_ncr.html",
+      "bytes": 21585,
+      "sha256": "966dce5be7b03c213c9c66d74e1c7387fa40b4a2dd093f5f48cecce41c88b967",
+      "status": "QA_PENDING"
+    },
+    {
       "path": "docs/widgets/listening_room.html",
       "bytes": 11293,
       "sha256": "21183ff1326f8d28c557d57293935276cc0e30666b92ec0ed061417bc432cc0f",
       "status": "QA_PENDING"
     },
     {
+      "path": "docs/widgets/listening_room_ncr.html",
+      "bytes": 13274,
+      "sha256": "436468072b3cd172ca4e6c93742528e2d99faad173c05979469cf0856ea088b6",
+      "status": "QA_PENDING"
+    },
+    {
       "path": "docs/widgets/progress_dashboard.html",
       "bytes": 8266,
       "sha256": "070f564b78a74855cd5d3807cfea0c7d25fe5146b420087ef9ca8cfc5df53c4e",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "docs/widgets/progress_dashboard_ncr.html",
+      "bytes": 9717,
+      "sha256": "a9e6cf77d97d4ab5602bb65db17e2100d1badbb1782a3401db9ca111adeddc52",
       "status": "QA_PENDING"
     },
     {
@@ -804,8 +828,8 @@
     },
     {
       "path": "FILE_INDEX.md",
-      "bytes": 24635,
-      "sha256": "2e106b4b37551bbc348c0519be046dc09ac6761b54628fcd847597986e2e1d62",
+      "bytes": 25033,
+      "sha256": "44c5319be25fb4eaa6f0e4f09d95c612e8adac892c4a87fa5c2c86c402256cf1",
       "status": "VERIFIED"
     },
     {

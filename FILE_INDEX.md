@@ -144,9 +144,13 @@ Snapshot 2026-10-15. VERIFIED is scoped verification, not JLPT certification. Hi
 | [deliverables/phase3/START_HERE.pdf](deliverables/phase3/START_HERE.pdf) | VERIFIED |
 | [diagnostic/README.md](diagnostic/README.md) | VERIFIED |
 | [docs/widgets/home_quick_actions.html](docs/widgets/home_quick_actions.html) | QA_PENDING |
+| [docs/widgets/home_quick_actions_ncr.html](docs/widgets/home_quick_actions_ncr.html) | QA_PENDING |
 | [docs/widgets/jlpt_exam_catalog.html](docs/widgets/jlpt_exam_catalog.html) | QA_PENDING |
+| [docs/widgets/jlpt_exam_catalog_ncr.html](docs/widgets/jlpt_exam_catalog_ncr.html) | QA_PENDING |
 | [docs/widgets/listening_room.html](docs/widgets/listening_room.html) | QA_PENDING |
+| [docs/widgets/listening_room_ncr.html](docs/widgets/listening_room_ncr.html) | QA_PENDING |
 | [docs/widgets/progress_dashboard.html](docs/widgets/progress_dashboard.html) | QA_PENDING |
+| [docs/widgets/progress_dashboard_ncr.html](docs/widgets/progress_dashboard_ncr.html) | QA_PENDING |
 | [gemini-prompts/README.md](gemini-prompts/README.md) | VERIFIED |
 | [grammar-patterns/README.md](grammar-patterns/README.md) | VERIFIED |
 | [qa/ADVERSARIAL_TEST_RESULTS.md](qa/ADVERSARIAL_TEST_RESULTS.md) | VERIFIED |

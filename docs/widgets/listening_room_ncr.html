@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ph&#242;ng Luy&#7879;n Nghe JP-STUDY</title>
+<style>
+  :root {
+    --primary: #c0392b;
+    --n2-color: #1e40af;
+    --n3-color: #065f46;
+    --n4-color: #6b21a8;
+    --bg-light: #fdfaf6;
+    --card-bg: #ffffff;
+    --border: #e2e8f0;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: var(--bg-light);
+    color: #1e293b;
+    padding: 16px;
+    line-height: 1.5;
+  }
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 14px;
+    border-bottom: 2px solid #ecd9c6;
+  }
+  .header h1 {
+    font-size: 1.35rem;
+    color: #8b0000;
+    margin-bottom: 6px;
+    font-weight: 700;
+  }
+  .header p {
+    font-size: 0.85rem;
+    color: #64748b;
+  }
+  .tabs {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+  .tab-btn {
+    background: #fff;
+    border: 1px solid #cbd5e1;
+    color: #475569;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .tab-btn.active, .tab-btn:hover {
+    background: #8b0000;
+    color: #fff;
+    border-color: #8b0000;
+  }
+  .section-container {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .track-card {
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    padding: 14px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+  }
+  .track-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  .track-title {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #0f172a;
+  }
+  .track-tag {
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+    background: #e2e8f0;
+    color: #334155;
+  }
+  .track-desc {
+    font-size: 0.8rem;
+    color: #64748b;
+    margin-bottom: 10px;
+  }
+  audio {
+    width: 100%;
+    height: 34px;
+  }
+  .method-box {
+    margin-top: 24px;
+    background: #fff;
+    border: 1px solid #cbd5e1;
+    border-left: 4px solid #8b0000;
+    border-radius: 8px;
+    padding: 14px;
+  }
+  .method-box h3 {
+    font-size: 0.95rem;
+    color: #8b0000;
+    margin-bottom: 8px;
+  }
+  .method-box ol {
+    margin-left: 18px;
+    font-size: 0.82rem;
+    color: #334155;
+    line-height: 1.6;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>&#127911; PH&#210;NG LUY&#7878;N NGHE JLPT CH&#205;NH TH&#7912;C</h1>
+  <p>Tr&#236;nh ph&#225;t tr&#7921;c ti&#7871;p audio t&#7915; Japan Foundation & JEES (&#272;&#7873; Official Practice Workbook 2018)</p>
+</div>
+
+<div class="tabs">
+  <button type="button" class="tab-btn active" onclick="switchLevel(this, 'n2')">JLPT N2 (Tr&#7885;ng t&#226;m)</button>
+  <button type="button" class="tab-btn" onclick="switchLevel(this, 'n3')">JLPT N3 (N&#7873;n t&#7843;ng)</button>
+  <button type="button" class="tab-btn" onclick="switchLevel(this, 'n4')">JLPT N4 (B&#7893; tr&#7907;)</button>
+</div>
+
+<!-- N2 TRACKS -->
+<div id="level-n2" class="section-container">
+  <div class="track-card">
+    <div class="track-header">
+      <span class="track-title">Mondai 1: &#35506;&#38988;&#29702;&#35299; (Task-based Comprehension)</span>
+      <span class="track-tag">N2 &#183; 2018</span>
+    </div>
+    <div class="track-desc">Nhi&#7879;m v&#7909;: Nghe t&#236;nh hu&#7889;ng v&#224; x&#225;c &#273;&#7883;nh h&#224;nh &#273;&#7897;ng ti&#7871;p theo c&#7911;a nh&#226;n v&#7853;t. &#272;&#7885;c tr&#432;&#7899;c c&#226;u h&#7887;i v&#224; 4 ph&#432;&#417;ng &#225;n!</div>
+    <audio controls preload="none">
+      <source src="https://www.jlpt.jp/samples/sample2018/mp3/N2Q1.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="track-card">
+    <div class="track-header">
+      <span class="track-title">Mondai 2: &#12509;&#12452;&#12531;&#12488;&#29702;&#35299; (Key Points Comprehension)</span>
+      <span class="track-tag">N2 &#183; 2018</span>
+    </div>
+    <div class="track-desc">Nhi&#7879;m v&#7909;: N&#7855;m b&#7855;t chi ti&#7871;t c&#7889;t l&#245;i v&#224; nguy&#234;n nh&#226;n / l&#253; do. &#272;&#7873; c&#243; th&#7901;i gian &#273;&#7885;c tr&#432;&#7899;c c&#226;u h&#7887;i.</div>
+    <audio controls preload="none">
+      <source src="https://www.jlpt.jp/samples/sample2018/mp3/N2Q2.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="track-card">
+    <div class="track-header">
+      <span class="track-title">Mondai 3: &#27010;&#35201;&#29702;&#35299; (General Outline)</span>
+      <span class="track-tag">N2 &#183; 2018</span>
+    </div>
+    <div class="track-desc">Nhi&#7879;m v&#7909;: T&#243;m t&#7855;t quan &#273;i&#7875;m c&#7911;a ng&#432;&#7901;i n&#243;i. &#272;&#7873; KH&#212;NG in s&#7861;n c&#226;u h&#7887;i hay ph&#432;&#417;ng &#225;n tr&#234;n gi&#7845;y!</div>
+    <audio controls preload="none">
+      <source src="https://www.jlpt.jp/samples/sample2018/mp3/N2Q3.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="track-card">
+    <div class="track-header">
+      <span class="track-title">Mondai 4: &#21363;&#26178;&#24540;&#31572; (Quick Response)</span>
+      <span class="track-tag">N2 &#183; 2018</span>
+    </div>
+    <div class="track-desc">Nhi&#7879;m v&#7909;: Ph&#7843;n x&#7841; &#273;&#225;p l&#7901;i ngay l&#7853;p t&#7913;c trong 3 gi&#226;y. R&#7845;t d&#7877; m&#7845;t &#273;i&#7875;m do nh&#7847;m l&#7851;n k&#237;nh ng&#7919;/th&#7875; r&#250;t g&#7885;n!</div>
+    <audio controls preload="none">
+      <source src="https://www.jlpt.jp/samples/sample2018/mp3/N2Q4.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="track-card">
+    <div class="track-header">
+      <span class="track-title">Mondai 5: &#32113;&#21512;&#29702;&#35299; (Integrated Comprehension)</span>
+      <span class="track-tag">N2 &#183; 2018</span>
+    </div>
+    <div class="track-desc">Nhi&#7879;m v&#7909;: &#272;o&#7841;n v&#259;n d&#224;i &#273;&#7889;i chi&#7871;u 2 &#253; ki&#7871;n ho&#7863;c so s&#225;nh 4 l&#7921;a ch&#7885;n &#273;&#7875; ra quy&#7871;t &#273;&#7883;nh.</div>
+    <audio controls preload="none">
+      <source src="https://www.jlpt.jp/samples/sample2018/mp3/N2Q5.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+</div>
+
+<!-- N3 TRACKS -->
+<div id="level-n3" class="section-container" style="display:none;">
+  <div class="track-card">
+    <div class="track-header">
+      <span class="track-title">Mondai 1: &#35506;&#38988;&#29702;&#35299; (Task-based)</span>
+      <span class="track-tag">N3 &#183; 2018</span>
+    </div>
+    <div class="track-desc">T&#236;nh hu&#7889;ng &#273;&#7901;i s&#7889;ng h&#224;ng ng&#224;y: vi&#7879;c c&#7847;n l&#224;m tr&#432;&#7899;c ti&#234;n, ng&#432;&#7901;i c&#7847;n g&#7863;p.</div>
+    <audio controls preload="none">
+      <source src="https://www.jlpt.jp/samples/sample2018/mp3/N3Q1.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="track-card">
+    <div class="track-header">
+      <span class="track-title">Mondai 2: &#12509;&#12452;&#12531;&#12488;&#29702;&#35299; (Key Points)</span>
+      <span class="track-tag">N3 &#183; 2018</span>
+    </div>
+    <div class="track-desc">N&#7855;m l&#253; do, m&#7909;c &#273;&#237;ch chuy&#7875;n ph&#225;t ho&#7863;c &#273;&#7863;t h&#7865;n.</div>
+    <audio controls preload="none">
+      <source src="https://www.jlpt.jp/samples/sample2018/mp3/N3Q2.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="track-card">
+    <div class="track-header">
+      <span class="track-title">Mondai 3: &#27010;&#35201;&#29702;&#35299; (General Outline)</span>
+      <span class="track-tag">N3 &#183; 2018</span>
+    </div>
+    <div class="track-desc">&#221; ch&#237;nh b&#224;i thuy&#7871;t minh ho&#7863;c ph&#225;t bi&#7875;u ng&#7855;n.</div>
+    <audio controls preload="none">
+      <source src="https://www.jlpt.jp/samples/sample2018/mp3/N3Q3.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="track-card">
+    <div class="track-header">
+      <span class="track-title">Mondai 4: &#30330;&#35441;&#34920;&#29694; (Utterance Expressions)</span>
+      <span class="track-tag">N3 &#183; 2018</span>
+    </div>
+    <div class="track-desc">Nh&#236;n tranh v&#224; ch&#7885;n c&#226;u n&#243;i ph&#249; h&#7907;p v&#7899;i h&#432;&#7899;ng m&#361;i t&#234;n ch&#7881; ng&#432;&#7901;i.</div>
+    <audio controls preload="none">
+      <source src="https://www.jlpt.jp/samples/sample2018/mp3/N3Q4.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="track-card">
+    <div class="track-header">
+      <span class="track-title">Mondai 5: &#21363;&#26178;&#24540;&#31572; (Quick Response)</span>
+      <span class="track-tag">N3 &#183; 2018</span>
+    </div>
+    <div class="track-desc">C&#226;u &#273;&#7889;i &#273;&#225;p ng&#7855;n ph&#7843;n x&#7841; t&#7921; nhi&#234;n.</div>
+    <audio controls preload="none">
+      <source src="https://www.jlpt.jp/samples/sample2018/mp3/N3Q5.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+</div>
+
+<!-- N4 TRACKS -->
+<div id="level-n4" class="section-container" style="display:none;">
+  <div class="track-card">
+    <div class="track-header">
+      <span class="track-title">Mondai 1: &#35506;&#38988;&#29702;&#35299; (Task-based)</span>
+      <span class="track-tag">N4 &#183; 2018</span>
+    </div>
+    <div class="track-desc">N4 nghe h&#7897;i tho&#7841;i c&#417; b&#7843;n: mua &#273;&#7891;, m&#432;&#7907;n s&#225;ch, h&#7865;n gi&#7901;.</div>
+    <audio controls preload="none">
+      <source src="https://www.jlpt.jp/samples/sample2018/mp3/N4Q1.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="track-card">
+    <div class="track-header">
+      <span class="track-title">Mondai 2: &#12509;&#12452;&#12531;&#12488;&#29702;&#35299; (Key Points)</span>
+      <span class="track-tag">N4 &#183; 2018</span>
+    </div>
+    <div class="track-desc">Nghe b&#7855;t t&#7915; kh&#243;a chi ti&#7871;t v&#7873; n&#417;i ch&#7889;n, s&#7889; l&#432;&#7907;ng, m&#224;u s&#7855;c.</div>
+    <audio controls preload="none">
+      <source src="https://www.jlpt.jp/samples/sample2018/mp3/N4Q2.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="track-card">
+    <div class="track-header">
+      <span class="track-title">Mondai 3: &#30330;&#35441;&#34920;&#29694; (Utterance Expressions)</span>
+      <span class="track-tag">N4 &#183; 2018</span>
+    </div>
+    <div class="track-desc">Nh&#236;n tranh ch&#7885;n c&#226;u ch&#224;o h&#7887;i ho&#7863;c xin ph&#233;p chu&#7849;n.</div>
+    <audio controls preload="none">
+      <source src="https://www.jlpt.jp/samples/sample2018/mp3/N4Q3.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="track-card">
+    <div class="track-header">
+      <span class="track-title">Mondai 4: &#21363;&#26178;&#24540;&#31572; (Quick Response)</span>
+      <span class="track-tag">N4 &#183; 2018</span>
+    </div>
+    <div class="track-desc">Ph&#7843;n x&#7841; &#273;&#225;p l&#7901;i c&#417; b&#7843;n th&#432;&#7901;ng ng&#224;y.</div>
+    <audio controls preload="none">
+      <source src="https://www.jlpt.jp/samples/sample2018/mp3/N4Q4.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+</div>
+
+<div class="method-box">
+  <h3>&#128161; PH&#431;&#416;NG PH&#193;P LUY&#7878;N NGHE &#272;&#7896;T PH&#193; CHO JLPT N2:</h3>
+  <ol>
+    <li><strong>L&#7847;n 1 (B&#7845;m gi&#7901; l&#224;m b&#224;i):</strong> Nghe kh&#244;ng d&#7915;ng, l&#224;m b&#224;i v&#224; ch&#7885;n &#273;&#225;p &#225;n nh&#432; trong ph&#242;ng thi th&#7853;t.</li>
+    <li><strong>L&#7847;n 2 (Nghe ch&#233;p ch&#237;nh t&#7843; - Dictation):</strong> B&#7853;t t&#7915;ng c&#226;u, d&#7915;ng l&#7841;i v&#224; ch&#233;p ra gi&#7845;y &#273;&#7875; ph&#225;t hi&#7879;n t&#7915; b&#7883; nu&#7889;t &#226;m, bi&#7871;n &#226;m, tr&#7907; t&#7915; n&#243;i nhanh.</li>
+    <li><strong>L&#7847;n 3 (&#272;&#7889;i chi&#7871;u Script):</strong> M&#7903; file <code>N2script.pdf</code> t&#7841;i Kho &#273;&#7873; &#273;&#7875; ki&#7875;m tra nh&#7919;ng &#273;o&#7841;n kh&#244;ng nghe &#273;&#432;&#7907;c.</li>
+    <li><strong>L&#7847;n 4 (Shadowing):</strong> V&#7915;a nghe v&#7915;a l&#7863;p l&#7841;i &#273;&#7891;ng th&#7901;i theo t&#7889;c &#273;&#7897; v&#224; ng&#7919; &#273;i&#7879;u c&#7911;a ng&#432;&#7901;i b&#7843;n x&#7913; (3&#8211;5 l&#7847;n/b&#224;i).</li>
+  </ol>
+</div>
+
+<script>
+function switchLevel(btn, lvl) {
+  document.getElementById('level-n2').style.display = (lvl === 'n2') ? 'flex' : 'none';
+  document.getElementById('level-n3').style.display = (lvl === 'n3') ? 'flex' : 'none';
+  document.getElementById('level-n4').style.display = (lvl === 'n4') ? 'flex' : 'none';
+  
+  const btns = document.querySelectorAll('.tab-btn');
+  btns.forEach(b => b.classList.remove('active'));
+  if (btn) {
+    btn.classList.add('active');
+  }
+}
+</script>
+
+</body>
+</html>

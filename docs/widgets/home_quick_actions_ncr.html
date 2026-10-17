@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thao T&#225;c Nhanh JP-STUDY</title>
+<style>
+  :root {
+    --n2-color: #1e3a8a;
+    --n2-accent: #2563eb;
+    --n3-color: #065f46;
+    --n3-accent: #059669;
+    --listen-color: #7c2d12;
+    --listen-accent: #ea580c;
+    --exam-color: #831843;
+    --exam-accent: #db2777;
+    --bg-light: #f8fafc;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background: transparent;
+    padding: 10px 4px;
+    color: #1e293b;
+  }
+  .countdown-banner {
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    color: #fff;
+    padding: 16px 20px;
+    border-radius: 14px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.15);
+  }
+  .countdown-left h2 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #f8fafc;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .countdown-left p {
+    font-size: 0.85rem;
+    color: #94a3b8;
+  }
+  .countdown-badge {
+    background: #e11d48;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(225, 29, 72, 0.3);
+  }
+  .countdown-badge small {
+    display: block;
+    font-size: 0.65rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    opacity: 0.9;
+  }
+  .actions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 12px;
+  }
+  .action-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #fff;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+  }
+  .action-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+  }
+  .btn-n2 {
+    background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
+  }
+  .btn-n3 {
+    background: linear-gradient(135deg, #065f46 0%, #059669 100%);
+  }
+  .btn-listen {
+    background: linear-gradient(135deg, #9a3412 0%, #ea580c 100%);
+  }
+  .btn-exam {
+    background: linear-gradient(135deg, #831843 0%, #db2777 100%);
+  }
+  .btn-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+  .btn-tag {
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.2);
+    text-transform: uppercase;
+  }
+  .btn-icon {
+    font-size: 1.4rem;
+  }
+  .btn-title {
+    font-size: 1.15rem;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+  }
+  .btn-desc {
+    font-size: 0.78rem;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.4;
+  }
+</style>
+</head>
+<body>
+
+<div class="countdown-banner">
+  <div class="countdown-left">
+    <h2>&#127919; &#272;&#205;CH &#272;&#7870;N: JLPT N2 &#8212; K&#7922; THI TH&#193;NG 12/2026</h2>
+    <p>Chi&#7871;n l&#432;&#7907;c n&#259;ng l&#432;&#7907;ng: <strong>50% N2</strong> (Tr&#7885;ng t&#226;m) &#183; <strong>40% N3</strong> (C&#7911;ng c&#7889;) &#183; <strong>10% N4</strong> (Kh&#7855;c ph&#7909;c)</p>
+  </div>
+  <div class="countdown-badge" id="countdownBadge">
+    <span id="countdownDays">50</span> NG&#192;Y
+    <small>K&#7923; thi: 06/12/2026</small>
+  </div>
+</div>
+
+<div class="actions-grid">
+  <!-- N&#250;t H&#7884;C N2 -->
+  <a class="action-btn btn-n2" href="https://sites.google.com/view/jp-study/jlpt-n2" target="_top">
+    <div class="btn-top">
+      <span class="btn-tag">50% &#431;U TI&#202;N</span>
+      <span class="btn-icon">&#128216;</span>
+    </div>
+    <div class="btn-title">H&#7884;C N2</div>
+    <div class="btn-desc">T&#7915; v&#7921;ng, Ti&#7871;p v&#297; ng&#7919;, Ng&#7919; ph&#225;p trung cao c&#7845;p & &#272;&#7885;c hi&#7875;u &#273;o&#7843;n v&#259;n</div>
+  </a>
+
+  <!-- N&#250;t &#212;N N3 -->
+  <a class="action-btn btn-n3" href="https://sites.google.com/view/jp-study/jlpt-n3" target="_top">
+    <div class="btn-top">
+      <span class="btn-tag">40% N&#7872;N T&#7842;NG</span>
+      <span class="btn-icon">&#128215;</span>
+    </div>
+    <div class="btn-title">&#212;N N3</div>
+    <div class="btn-desc">B&#224;i &#273;&#225;nh gi&#225; ch&#7849;n &#273;o&#225;n, 15 ch&#7911; &#273;i&#7875;m ng&#7919; ph&#225;p c&#7889;t l&#245;i & b&#224;i t&#7853;p ph&#226;n t&#237;ch</div>
+  </a>
+
+  <!-- N&#250;t LUY&#7878;N NGHE -->
+  <a class="action-btn btn-listen" href="https://sites.google.com/view/jp-study/ph%C3%B2ng-luy%E1%BB%87n-nghe" target="_top">
+    <div class="btn-top">
+      <span class="btn-tag">PH&#7842;N X&#7840;</span>
+      <span class="btn-icon">&#127911;</span>
+    </div>
+    <div class="btn-title">LUY&#7878;N NGHE</div>
+    <div class="btn-desc">Tr&#236;nh ph&#225;t audio chu&#7849;n, Task-based Mondai 1 & h&#7897;i tho&#7841;i &#273;&#7901;i s&#7889;ng</div>
+  </a>
+
+  <!-- N&#250;t THI TH&#7916; -->
+  <a class="action-btn btn-exam" href="https://sites.google.com/view/jp-study/kho-%C4%91%E1%BB%81-thi-th%E1%BB%AD" target="_top">
+    <div class="btn-top">
+      <span class="btn-tag">&#272;&#7872; CH&#205;NH TH&#7912;C</span>
+      <span class="btn-icon">&#128218;</span>
+    </div>
+    <div class="btn-title">THI TH&#7916;</div>
+    <div class="btn-desc">T&#7843;i Official Practice Workbooks (2012 & 2018) tr&#7885;n b&#7897; &#273;&#7873;, &#273;&#225;p &#225;n & script</div>
+</div>
+
+<script>
+  (function() {
+    try {
+      const examDate = new Date('2026-12-06T00:00:00+09:00');
+      const now = new Date();
+      const diffTime = examDate - now;
+      const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+      const el = document.getElementById('countdownDays');
+      if (el && !isNaN(diffDays)) {
+        el.textContent = diffDays > 0 ? diffDays : 0;
+      }
+    } catch (e) {}
+  })();
+</script>
+
+</body>
+</html>

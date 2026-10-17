@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kho &#272;&#7873; Thi Th&#7917; JLPT</title>
+<style>
+  :root {
+    --primary: #c0392b;
+    --primary-light: #e74c3c;
+    --n2-color: #2980b9;
+    --n3-color: #27ae60;
+    --n4-color: #8e44ad;
+    --bg-light: #fdfaf6;
+    --card-bg: #ffffff;
+    --text-main: #2c3e50;
+    --text-muted: #7f8c8d;
+    --border: #e2e8f0;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: var(--bg-light);
+    color: var(--text-main);
+    padding: 16px;
+    line-height: 1.5;
+  }
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 14px;
+    border-bottom: 2px solid #ecd9c6;
+  }
+  .header h1 {
+    font-size: 1.4rem;
+    color: #8b0000;
+    margin-bottom: 6px;
+    font-weight: 700;
+  }
+  .header p {
+    font-size: 0.88rem;
+    color: var(--text-muted);
+  }
+  .filter-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 24px;
+    background: #fff;
+    padding: 14px 18px;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+  }
+  .filter-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+  }
+  .filter-label {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #475569;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-right: 4px;
+  }
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+  }
+  .btn-filter {
+    background: #f8fafc;
+    border: 1px solid #cbd5e1;
+    color: #475569;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .btn-filter.active, .btn-filter:hover {
+    background: #8b0000;
+    color: #fff;
+    border-color: #8b0000;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 16px;
+  }
+  .card {
+    background: var(--card-bg);
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    padding: 16px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .card-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .badge {
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 3px 8px;
+    border-radius: 6px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .badge-n2 { background-color: var(--n2-color); }
+  .badge-n3 { background-color: var(--n3-color); }
+  .badge-n4 { background-color: var(--n4-color); }
+  .source-tag {
+    font-size: 0.72rem;
+    color: #64748b;
+    background: #f1f5f9;
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+  .card-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 8px;
+  }
+  .card-meta {
+    font-size: 0.8rem;
+    color: #64748b;
+    margin-bottom: 12px;
+  }
+  .materials-title {
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: #475569;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+  }
+  .btn-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 12px;
+  }
+  .btn-mat {
+    background: #f8fafc;
+    border: 1px solid #cbd5e1;
+    color: #1e293b;
+    padding: 5px 9px;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    transition: background 0.15s;
+  }
+  .btn-mat:hover {
+    background: #e2e8f0;
+  }
+  .audio-box {
+    margin-top: 10px;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 8px 10px;
+    border-radius: 8px;
+  }
+  .audio-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #475569;
+    margin-bottom: 6px;
+    display: flex;
+    justify-content: space-between;
+  }
+  audio {
+    width: 100%;
+    height: 32px;
+  }
+  .notice {
+    font-size: 0.75rem;
+    color: #64748b;
+    margin-top: 10px;
+    font-style: italic;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>&#128218; KHO &#272;&#7872; THI TH&#7916; & T&#192;I LI&#7878;U CH&#205;NH TH&#7912;C JLPT</h1>
+  <p>T&#7893;ng h&#7907;p b&#7897; &#273;&#7873; Official Practice Workbook chu&#7849;n t&#7915; Japan Foundation & JEES (N2 &#183; N3 &#183; N4)</p>
+</div>
+
+<div class="filter-section">
+  <div class="filter-group">
+    <span class="filter-label">C&#7845;p &#273;&#7897;:</span>
+    <div class="filters" id="levelFilters">
+      <button type="button" class="btn-filter active" onclick="setLevelFilter(this, 'ALL')">T&#7845;t c&#7843; c&#7845;p &#273;&#7897;</button>
+      <button type="button" class="btn-filter" onclick="setLevelFilter(this, 'N2')">JLPT N2 (Tr&#7885;ng t&#226;m 2026)</button>
+      <button type="button" class="btn-filter" onclick="setLevelFilter(this, 'N3')">JLPT N3 (C&#7911;ng c&#7889;)</button>
+      <button type="button" class="btn-filter" onclick="setLevelFilter(this, 'N4')">JLPT N4 (N&#7873;n t&#7843;ng)</button>
+    </div>
+  </div>
+  <div class="filter-group">
+    <span class="filter-label">B&#7897; &#273;&#7873;:</span>
+    <div class="filters" id="yearFilters">
+      <button type="button" class="btn-filter active" onclick="setYearFilter(this, 'ALL')">T&#7845;t c&#7843; n&#259;m</button>
+      <button type="button" class="btn-filter" onclick="setYearFilter(this, '2018')">Vol. 2 (2018)</button>
+      <button type="button" class="btn-filter" onclick="setYearFilter(this, '2012')">Vol. 1 (2012)</button>
+    </div>
+  </div>
+</div>
+
+<div class="grid" id="examGrid">
+  <!-- Card N2 2018 -->
+  <div class="card" data-level="N2" data-year="2018">
+    <div>
+      <div class="card-top">
+        <span class="badge badge-n2">JLPT N2</span>
+        <span class="source-tag">Official Workbook Vol. 2</span>
+      </div>
+      <div class="card-title">JLPT N2 | Official Practice Workbook (2018)</div>
+      <div class="card-meta">&#272;&#7897; d&#224;i: ~155 ph&#250;t &#183; 105 c&#226;u h&#7887;i &#183; Ngu&#7891;n: Japan Foundation & JEES</div>
+      
+      <div class="materials-title">&#272;&#7873; thi PDF ch&#237;nh th&#7913;c:</div>
+      <div class="btn-group">
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N2V.pdf" target="_blank">&#128214; T&#7915; v&#7921;ng</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N2G.pdf" target="_blank">&#128220; Ng&#7919; ph&#225;p</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N2R.pdf" target="_blank">&#128209; &#272;&#7885;c hi&#7875;u</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N2L.pdf" target="_blank">&#127911; &#272;&#7873; nghe</a>
+      </div>
+
+      <div class="materials-title">&#272;&#225;p &#225;n & Script nghe:</div>
+      <div class="btn-group">
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N2sheet.pdf" target="_blank">&#128221; Phi&#7871;u tr&#7843; l&#7901;i</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N2answer.pdf" target="_blank">&#9989; &#272;&#225;p &#225;n</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N2script.pdf" target="_blank">&#128172; Script nghe</a>
+      </div>
+    </div>
+
+    <div class="audio-box">
+      <div class="audio-label">
+        <span>&#127911; Nghe th&#7917; Mondai 1 (Task-based):</span>
+        <a href="https://www.jlpt.jp/e/samples/sampleindex.html" target="_blank" style="color:#2980b9; font-size:0.7rem; text-decoration:none;">Xem t&#7841;i ngu&#7891;n</a>
+      </div>
+      <audio controls preload="none">
+        <source src="https://www.jlpt.jp/samples/sample2018/mp3/N2Q1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+  </div>
+
+  <!-- Card N2 2012 -->
+  <div class="card" data-level="N2" data-year="2012">
+    <div>
+      <div class="card-top">
+        <span class="badge badge-n2">JLPT N2</span>
+        <span class="source-tag">Official Workbook Vol. 1</span>
+      </div>
+      <div class="card-title">JLPT N2 | Official Practice Workbook (2012)</div>
+      <div class="card-meta">&#272;&#7897; d&#224;i: ~155 ph&#250;t &#183; 105 c&#226;u h&#7887;i &#183; Ngu&#7891;n: Japan Foundation & JEES</div>
+      
+      <div class="materials-title">&#272;&#7873; thi PDF ch&#237;nh th&#7913;c:</div>
+      <div class="btn-group">
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N2V.pdf" target="_blank">&#128214; T&#7915; v&#7921;ng</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N2G.pdf" target="_blank">&#128220; Ng&#7919; ph&#225;p</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N2R.pdf" target="_blank">&#128209; &#272;&#7885;c hi&#7875;u</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N2L.pdf" target="_blank">&#127911; &#272;&#7873; nghe</a>
+      </div>
+
+      <div class="materials-title">&#272;&#225;p &#225;n & Script nghe:</div>
+      <div class="btn-group">
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N2sheet.pdf" target="_blank">&#128221; Phi&#7871;u tr&#7843; l&#7901;i</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N2answer.pdf" target="_blank">&#9989; &#272;&#225;p &#225;n</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N2script.pdf" target="_blank">&#128172; Script nghe</a>
+      </div>
+    </div>
+
+    <div class="audio-box">
+      <div class="audio-label">
+        <span>&#127911; Nghe th&#7917; Mondai 1 (Task-based):</span>
+        <a href="https://www.jlpt.jp/e/samples/sampleindex.html" target="_blank" style="color:#2980b9; font-size:0.7rem; text-decoration:none;">Xem t&#7841;i ngu&#7891;n</a>
+      </div>
+      <audio controls preload="none">
+        <source src="https://www.jlpt.jp/samples/sample2012/mp3/N2Q1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+  </div>
+
+  <!-- Card N3 2018 -->
+  <div class="card" data-level="N3" data-year="2018">
+    <div>
+      <div class="card-top">
+        <span class="badge badge-n3">JLPT N3</span>
+        <span class="source-tag">Official Workbook Vol. 2</span>
+      </div>
+      <div class="card-title">JLPT N3 | Official Practice Workbook (2018)</div>
+      <div class="card-meta">&#272;&#7897; d&#224;i: ~140 ph&#250;t &#183; 95 c&#226;u h&#7887;i &#183; Ngu&#7891;n: Japan Foundation & JEES</div>
+      
+      <div class="materials-title">&#272;&#7873; thi PDF ch&#237;nh th&#7913;c:</div>
+      <div class="btn-group">
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N3V.pdf" target="_blank">&#128214; T&#7915; v&#7921;ng</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N3G.pdf" target="_blank">&#128220; Ng&#7919; ph&#225;p</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N3R.pdf" target="_blank">&#128209; &#272;&#7885;c hi&#7875;u</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N3L.pdf" target="_blank">&#127911; &#272;&#7873; nghe</a>
+      </div>
+
+      <div class="materials-title">&#272;&#225;p &#225;n & Script nghe:</div>
+      <div class="btn-group">
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N3sheet.pdf" target="_blank">&#128221; Phi&#7871;u tr&#7843; l&#7901;i</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N3answer.pdf" target="_blank">&#9989; &#272;&#225;p &#225;n</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N3script.pdf" target="_blank">&#128172; Script nghe</a>
+      </div>
+    </div>
+
+    <div class="audio-box">
+      <div class="audio-label">
+        <span>&#127911; Nghe th&#7917; Mondai 1 (Task-based):</span>
+        <a href="https://www.jlpt.jp/e/samples/sampleindex.html" target="_blank" style="color:#27ae60; font-size:0.7rem; text-decoration:none;">Xem t&#7841;i ngu&#7891;n</a>
+      </div>
+      <audio controls preload="none">
+        <source src="https://www.jlpt.jp/samples/sample2018/mp3/N3Q1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+  </div>
+
+  <!-- Card N3 2012 -->
+  <div class="card" data-level="N3" data-year="2012">
+    <div>
+      <div class="card-top">
+        <span class="badge badge-n3">JLPT N3</span>
+        <span class="source-tag">Official Workbook Vol. 1</span>
+      </div>
+      <div class="card-title">JLPT N3 | Official Practice Workbook (2012)</div>
+      <div class="card-meta">&#272;&#7897; d&#224;i: ~140 ph&#250;t &#183; 95 c&#226;u h&#7887;i &#183; Ngu&#7891;n: Japan Foundation & JEES</div>
+      
+      <div class="materials-title">&#272;&#7873; thi PDF ch&#237;nh th&#7913;c:</div>
+      <div class="btn-group">
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N3V.pdf" target="_blank">&#128214; T&#7915; v&#7921;ng</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N3G.pdf" target="_blank">&#128220; Ng&#7919; ph&#225;p</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N3R.pdf" target="_blank">&#128209; &#272;&#7885;c hi&#7875;u</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N3L.pdf" target="_blank">&#127911; &#272;&#7873; nghe</a>
+      </div>
+
+      <div class="materials-title">&#272;&#225;p &#225;n & Script nghe:</div>
+      <div class="btn-group">
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N3sheet.pdf" target="_blank">&#128221; Phi&#7871;u tr&#7843; l&#7901;i</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N3answer.pdf" target="_blank">&#9989; &#272;&#225;p &#225;n</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N3script.pdf" target="_blank">&#128172; Script nghe</a>
+      </div>
+    </div>
+
+    <div class="audio-box">
+      <div class="audio-label">
+        <span>&#127911; Nghe th&#7917; Mondai 1 (Task-based):</span>
+        <a href="https://www.jlpt.jp/e/samples/sampleindex.html" target="_blank" style="color:#27ae60; font-size:0.7rem; text-decoration:none;">Xem t&#7841;i ngu&#7891;n</a>
+      </div>
+      <audio controls preload="none">
+        <source src="https://www.jlpt.jp/samples/sample2012/mp3/N3Q1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+  </div>
+
+  <!-- Card N4 2018 -->
+  <div class="card" data-level="N4" data-year="2018">
+    <div>
+      <div class="card-top">
+        <span class="badge badge-n4">JLPT N4</span>
+        <span class="source-tag">Official Workbook Vol. 2</span>
+      </div>
+      <div class="card-title">JLPT N4 | Official Practice Workbook (2018)</div>
+      <div class="card-meta">&#272;&#7897; d&#224;i: ~125 ph&#250;t &#183; 85 c&#226;u h&#7887;i &#183; Ngu&#7891;n: Japan Foundation & JEES</div>
+      
+      <div class="materials-title">&#272;&#7873; thi PDF ch&#237;nh th&#7913;c:</div>
+      <div class="btn-group">
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N4V.pdf" target="_blank">&#128214; T&#7915; v&#7921;ng</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N4G.pdf" target="_blank">&#128220; Ng&#7919; ph&#225;p</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N4R.pdf" target="_blank">&#128209; &#272;&#7885;c hi&#7875;u</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N4L.pdf" target="_blank">&#127911; &#272;&#7873; nghe</a>
+      </div>
+
+      <div class="materials-title">&#272;&#225;p &#225;n & Script nghe:</div>
+      <div class="btn-group">
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N4sheet.pdf" target="_blank">&#128221; Phi&#7871;u tr&#7843; l&#7901;i</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N4answer.pdf" target="_blank">&#9989; &#272;&#225;p &#225;n</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N4script.pdf" target="_blank">&#128172; Script nghe</a>
+      </div>
+    </div>
+
+    <div class="audio-box">
+      <div class="audio-label">
+        <span>&#127911; Nghe th&#7917; Mondai 1 (Task-based):</span>
+        <a href="https://www.jlpt.jp/e/samples/sampleindex.html" target="_blank" style="color:#8e44ad; font-size:0.7rem; text-decoration:none;">Xem t&#7841;i ngu&#7891;n</a>
+      </div>
+      <audio controls preload="none">
+        <source src="https://www.jlpt.jp/samples/sample2018/mp3/N4Q1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+  </div>
+
+  <!-- Card N4 2012 -->
+  <div class="card" data-level="N4" data-year="2012">
+    <div>
+      <div class="card-top">
+        <span class="badge badge-n4">JLPT N4</span>
+        <span class="source-tag">Official Workbook Vol. 1</span>
+      </div>
+      <div class="card-title">JLPT N4 | Official Practice Workbook (2012)</div>
+      <div class="card-meta">&#272;&#7897; d&#224;i: ~125 ph&#250;t &#183; 85 c&#226;u h&#7887;i &#183; Ngu&#7891;n: Japan Foundation & JEES</div>
+      
+      <div class="materials-title">&#272;&#7873; thi PDF ch&#237;nh th&#7913;c:</div>
+      <div class="btn-group">
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N4V.pdf" target="_blank">&#128214; T&#7915; v&#7921;ng</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N4G.pdf" target="_blank">&#128220; Ng&#7919; ph&#225;p</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N4R.pdf" target="_blank">&#128209; &#272;&#7885;c hi&#7875;u</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N4L.pdf" target="_blank">&#127911; &#272;&#7873; nghe</a>
+      </div>
+
+      <div class="materials-title">&#272;&#225;p &#225;n & Script nghe:</div>
+      <div class="btn-group">
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N4sheet.pdf" target="_blank">&#128221; Phi&#7871;u tr&#7843; l&#7901;i</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N4answer.pdf" target="_blank">&#9989; &#272;&#225;p &#225;n</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N4script.pdf" target="_blank">&#128172; Script nghe</a>
+      </div>
+    </div>
+
+    <div class="audio-box">
+      <div class="audio-label">
+        <span>&#127911; Nghe th&#7917; Mondai 1 (Task-based):</span>
+        <a href="https://www.jlpt.jp/e/samples/sampleindex.html" target="_blank" style="color:#8e44ad; font-size:0.7rem; text-decoration:none;">Xem t&#7841;i ngu&#7891;n</a>
+      </div>
+      <audio controls preload="none">
+        <source src="https://www.jlpt.jp/samples/sample2012/mp3/N4Q1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+  </div>
+</div>
+
+<p class="notice">
+  &#128204; <strong>Ghi ch&#250; h&#7885;c thu&#7853;t:</strong> C&#225;c b&#7897; t&#224;i li&#7879;u tr&#234;n l&#224; c&#225;c t&#7853;p &#273;&#7873; th&#7921;c h&#224;nh ch&#237;nh th&#7913;c (Official Practice Workbooks) do Hi&#7879;p h&#7897;i H&#7895; tr&#7907; Gi&#225;o d&#7909;c Qu&#7889;c t&#7871; Nh&#7853;t B&#7843;n (JEES) v&#224; Japan Foundation ph&#225;t h&#224;nh (Vol. 1 n&#259;m 2012, Vol. 2 n&#259;m 2018). M&#7895;i b&#7897; ch&#7913;a s&#7889; l&#432;&#7907;ng c&#226;u h&#7887;i t&#432;&#417;ng &#273;&#432;&#417;ng m&#7897;t &#273;&#7873; thi th&#7853;t &#273;&#432;&#7907;c tuy&#7875;n ch&#7885;n t&#7915; c&#225;c k&#7923; thi sau c&#7843;i c&#225;ch n&#259;m 2010. Kh&#244;ng ph&#7843;i &#273;&#7873; thi c&#7911;a m&#7897;t n&#259;m c&#7909; th&#7875;.
+</p>
+
+<script>
+let currentLevel = 'ALL';
+let currentYear = 'ALL';
+
+function applyFilters() {
+  const cards = document.querySelectorAll('.card');
+  cards.forEach(card => {
+    const cardLevel = card.getAttribute('data-level');
+    const cardYear = card.getAttribute('data-year');
+    const matchLevel = (currentLevel === 'ALL' || cardLevel === currentLevel);
+    const matchYear = (currentYear === 'ALL' || cardYear === currentYear);
+    card.style.display = (matchLevel && matchYear) ? 'flex' : 'none';
+  });
+}
+
+function setLevelFilter(btn, level) {
+  currentLevel = level;
+  const container = document.getElementById('levelFilters');
+  if (container) {
+    container.querySelectorAll('.btn-filter').forEach(b => b.classList.remove('active'));
+  }
+  if (btn) btn.classList.add('active');
+  applyFilters();
+}
+
+function setYearFilter(btn, year) {
+  currentYear = year;
+  const container = document.getElementById('yearFilters');
+  if (container) {
+    container.querySelectorAll('.btn-filter').forEach(b => b.classList.remove('active'));
+  }
+  if (btn) btn.classList.add('active');
+  applyFilters();
+}
+
+// Fallback compatibility
+function filterLevel(level) {
+  setLevelFilter(null, level);
+}
+</script>
+
+</body>
+</html>

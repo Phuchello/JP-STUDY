@@ -136,9 +136,9 @@
     <h2>🎯 ĐÍCH ĐẾN: JLPT N2 — KỲ THI THÁNG 12/2026</h2>
     <p>Chiến lược năng lượng: <strong>50% N2</strong> (Trọng tâm) · <strong>40% N3</strong> (Củng cố) · <strong>10% N4</strong> (Khắc phục)</p>
   </div>
-  <div class="countdown-badge">
-    50 NGÀY
-    <small>Đến ngày 06/12/2026</small>
+  <div class="countdown-badge" id="countdownBadge">
+    <span id="countdownDays">50</span> NGÀY
+    <small>Kỳ thi: 06/12/2026</small>
   </div>
 </div>
 
@@ -181,8 +181,22 @@
     </div>
     <div class="btn-title">THI THỬ</div>
     <div class="btn-desc">Tải Official Practice Workbooks (2012 & 2018) trọn bộ đề, đáp án & script</div>
-  </a>
 </div>
+
+<script>
+  (function() {
+    try {
+      const examDate = new Date('2026-12-06T00:00:00+09:00');
+      const now = new Date();
+      const diffTime = examDate - now;
+      const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+      const el = document.getElementById('countdownDays');
+      if (el && !isNaN(diffDays)) {
+        el.textContent = diffDays > 0 ? diffDays : 0;
+      }
+    } catch (e) {}
+  })();
+</script>
 
 </body>
 </html>

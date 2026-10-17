@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ti&#7871;n &#272;&#7897; H&#7885;c T&#7853;p & Ch&#7919;a L&#7895;i JP-STUDY</title>
+<style>
+  :root {
+    --primary: #c0392b;
+    --n2-color: #1e40af;
+    --n3-color: #065f46;
+    --n4-color: #6b21a8;
+    --bg-light: #fdfaf6;
+    --card-bg: #ffffff;
+    --border: #e2e8f0;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: var(--bg-light);
+    color: #1e293b;
+    padding: 16px;
+    line-height: 1.5;
+  }
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 14px;
+    border-bottom: 2px solid #ecd9c6;
+  }
+  .header h1 {
+    font-size: 1.35rem;
+    color: #8b0000;
+    margin-bottom: 6px;
+    font-weight: 700;
+  }
+  .header p {
+    font-size: 0.85rem;
+    color: #64748b;
+  }
+  .grid-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+  .card {
+    background: #fff;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    padding: 16px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+  }
+  .card-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .progress-item {
+    margin-bottom: 12px;
+  }
+  .progress-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.82rem;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  .progress-bar-bg {
+    background: #e2e8f0;
+    border-radius: 8px;
+    height: 10px;
+    overflow: hidden;
+  }
+  .progress-fill {
+    height: 100%;
+    border-radius: 8px;
+    transition: width 0.3s ease;
+  }
+  .fill-n2 { background: #2563eb; }
+  .fill-n3 { background: #059669; }
+  .fill-n4 { background: #9333ea; }
+  .table-custom {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.8rem;
+    margin-top: 8px;
+  }
+  .table-custom th, .table-custom td {
+    padding: 8px 10px;
+    text-align: left;
+    border-bottom: 1px solid #f1f5f9;
+  }
+  .table-custom th {
+    background: #f8fafc;
+    color: #475569;
+    font-weight: 700;
+  }
+  .badge {
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    font-weight: 700;
+  }
+  .badge-success { background: #dcfce7; color: #15803d; }
+  .badge-info { background: #e0f2fe; color: #0369a1; }
+  .sheet-btn-box {
+    margin-top: 20px;
+    text-align: center;
+    padding: 16px;
+    background: #fff;
+    border: 1px solid #cbd5e1;
+    border-radius: 12px;
+  }
+  .sheet-btn-box p {
+    font-size: 0.82rem;
+    color: #64748b;
+    margin-bottom: 12px;
+  }
+  .btn-sheet {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #0f766e;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    transition: background 0.2s;
+  }
+  .btn-sheet:hover {
+    background: #115e59;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>&#128200; KHUNG L&#7896; TR&#204;NH M&#7908;C TI&#202;U & QUY TR&#204;NH CH&#7918;A L&#7894;I</h1>
+  <p>M&#7851;u k&#7871; ho&#7841;ch ph&#226;n b&#7893; n&#259;ng l&#432;&#7907;ng &#244;n t&#7853;p theo &#273;&#237;ch &#273;&#7871;n JLPT N2 (Th&#225;ng 12/2026). D&#7919; li&#7879;u &#273;i&#7875;m th&#7921;c t&#7871; &#273;&#432;&#7907;c b&#7843;o m&#7853;t trong b&#7843;ng t&#237;nh ri&#234;ng.</p>
+</div>
+
+<div class="grid-2">
+  <!-- C&#7897;t 1: Ph&#226;n b&#7893; chi&#7871;n l&#432;&#7907;c -->
+  <div class="card">
+    <div class="card-title">&#127919; Khung Ph&#226;n b&#7893; N&#259;ng l&#432;&#7907;ng D&#7921; ki&#7871;n (Chi&#7871;n l&#432;&#7907;c 2026)</div>
+    
+    <div class="progress-item">
+      <div class="progress-header">
+        <span>JLPT N2 (Tr&#7885;ng t&#226;m c&#7889;t l&#245;i)</span>
+        <span>50% Th&#7901;i l&#432;&#7907;ng</span>
+      </div>
+      <div class="progress-bar-bg">
+        <div class="progress-fill fill-n2" style="width: 50%;"></div>
+      </div>
+    </div>
+
+    <div class="progress-item">
+      <div class="progress-header">
+        <span>JLPT N3 (Kh&#244;i ph&#7909;c & C&#7911;ng c&#7889;)</span>
+        <span>40% Th&#7901;i l&#432;&#7907;ng</span>
+      </div>
+      <div class="progress-bar-bg">
+        <div class="progress-fill fill-n3" style="width: 40%;"></div>
+      </div>
+    </div>
+
+    <div class="progress-item">
+      <div class="progress-header">
+        <span>JLPT N4 (Kh&#7855;c ph&#7909;c l&#7895; h&#7893;ng)</span>
+        <span>10% Th&#7901;i l&#432;&#7907;ng</span>
+      </div>
+      <div class="progress-bar-bg">
+        <div class="progress-fill fill-n4" style="width: 10%;"></div>
+      </div>
+    </div>
+
+    <p style="font-size:0.75rem; color:#64748b; margin-top:12px;">
+      * T&#7927; l&#7879; ph&#226;n b&#7893; &#273;&#432;&#7907;c c&#7853;p nh&#7853;t linh ho&#7841;t d&#7921;a tr&#234;n k&#7871;t qu&#7843; b&#224;i ch&#7849;n &#273;o&#225;n v&#224; &#273;i&#7875;m thi th&#7917; &#273;&#7883;nh k&#7923;.
+    </p>
+  </div>
+
+  <!-- C&#7897;t 2: Tr&#7841;ng th&#225;i &#273;&#7873; luy&#7879;n t&#7853;p -->
+  <div class="card">
+    <div class="card-title">&#128221; Tr&#7841;ng th&#225;i B&#7897; &#273;&#7873; Th&#7921;c h&#224;nh</div>
+    <table class="table-custom">
+      <thead>
+        <tr>
+          <th>M&#227; b&#7897; &#273;&#7873;</th>
+          <th>C&#7845;p &#273;&#7897;</th>
+          <th>S&#7889; c&#226;u</th>
+          <th>Tr&#7841;ng th&#225;i</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>MD-N4-VOC-01</strong></td>
+          <td>N4 Pilot</td>
+          <td>5 c&#226;u</td>
+          <td><span class="badge badge-success">&#272;&#195; K&#205;CH HO&#7840;T</span></td>
+        </tr>
+        <tr>
+          <td><strong>W01-B01</strong></td>
+          <td>N4 Tr&#7907; t&#7915;</td>
+          <td>5 c&#226;u</td>
+          <td><span class="badge badge-info">S&#7860;N S&#192;NG</span></td>
+        </tr>
+        <tr>
+          <td><strong>W01-B02</strong></td>
+          <td>N4 T&#7915; v&#7921;ng</td>
+          <td>8 c&#226;u</td>
+          <td><span class="badge badge-info">S&#7860;N S&#192;NG</span></td>
+        </tr>
+        <tr>
+          <td><strong>W01-B03</strong></td>
+          <td>N4 Chia th&#7875;</td>
+          <td>5 c&#226;u</td>
+          <td><span class="badge badge-info">S&#7860;N S&#192;NG</span></td>
+        </tr>
+        <tr>
+          <td><strong>N2-2018-VOL2</strong></td>
+          <td>N2 Mock</td>
+          <td>105 c&#226;u</td>
+          <td><span class="badge badge-success">CH&#205;NH TH&#7912;C</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- Kh&#7889;i Quy tr&#236;nh Ch&#7919;a l&#7895;i 3 b&#432;&#7899;c -->
+<div class="card" style="margin-bottom:20px;">
+  <div class="card-title">&#128269; Quy tr&#236;nh Ch&#7919;a m&#7897;t L&#7895;i sai (Deep Error Review)</div>
+  <div style="font-size:0.83rem; color:#334155; display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:12px;">
+    <div style="background:#f8fafc; padding:12px; border-radius:8px; border:1px solid #e2e8f0;">
+      <strong style="color:#1e40af;">B&#432;&#7899;c 1: Nh&#7853;n di&#7879;n b&#7851;y</strong>
+      <p style="margin-top:4px; font-size:0.78rem; color:#64748b;">Ghi nh&#7853;n c&#226;u sai, so s&#225;nh &#273;&#225;p &#225;n b&#7841;n ch&#7885;n v&#224; &#273;&#225;p &#225;n &#273;&#250;ng. X&#225;c &#273;&#7883;nh nguy&#234;n nh&#226;n: nh&#7847;m &#226;m &#273;&#7909;c, thi&#7871;u tr&#432;&#7901;ng &#226;m hay hi&#7875;u nh&#7847;m s&#7855;c th&#225;i?</p>
+    </div>
+    <div style="background:#f8fafc; padding:12px; border-radius:8px; border:1px solid #e2e8f0;">
+      <strong style="color:#065f46;">B&#432;&#7899;c 2: Ph&#226;n t&#237;ch ng&#7919; c&#7843;nh</strong>
+      <p style="margin-top:4px; font-size:0.78rem; color:#64748b;">Tra c&#7913;u l&#7901;i gi&#7843;i chi ti&#7871;t &#273;&#432;&#7907;c h&#7879; th&#7889;ng g&#7917;i ngay sau khi n&#7897;p b&#224;i. &#272;&#7885;c l&#7841;i m&#7851;u c&#226;u v&#224; ng&#7919; c&#7843;nh xu&#7845;t hi&#7879;n.</p>
+    </div>
+    <div style="background:#f8fafc; padding:12px; border-radius:8px; border:1px solid #e2e8f0;">
+      <strong style="color:#9333ea;">B&#432;&#7899;c 3: &#272;&#7863;t c&#226;u ph&#7843;n x&#7841;</strong>
+      <p style="margin-top:4px; font-size:0.78rem; color:#64748b;">T&#7921; &#273;&#7863;t 2 c&#226;u v&#237; d&#7909; m&#7899;i g&#7855;n li&#7873;n v&#7899;i ho&#7841;t &#273;&#7897;ng th&#432;&#7901;ng ng&#224;y c&#7911;a b&#7841;n &#273;&#7875; k&#237;ch ho&#7841;t tr&#237; nh&#7899; d&#224;i h&#7841;n.</p>
+    </div>
+  </div>
+</div>
+
+<!-- N&#250;t m&#7903; Google Sheet -->
+<div class="sheet-btn-box">
+  <p>&#128274; <strong>B&#7843;o m&#7853;t th&#244;ng tin:</strong> Chi ti&#7871;t t&#7915;ng b&#224;i l&#224;m, th&#7901;i gian n&#7897;p v&#224; &#273;i&#7875;m s&#7889; c&#225; nh&#226;n &#273;&#432;&#7907;c l&#432;u tr&#7919; an to&#224;n trong Google Trang t&#237;nh ri&#234;ng c&#7911;a b&#7841;n.</p>
+  <a class="btn-sheet" href="https://docs.google.com/spreadsheets/d/13RwK_Wvf22cms2beOyLsjMsG77JIrVKFDGZ5vAS4ZPs/edit" target="_blank">
+    <span>&#128202; M&#7903; B&#7843;ng t&#237;nh JP_STUDY_HOC_HOM_NAY</span>
+  </a>
+</div>
+
+</body>
+</html>
