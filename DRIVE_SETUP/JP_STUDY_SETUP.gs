@@ -54,7 +54,7 @@ if(typeof module!=='undefined')module.exports=JPStudy;
 /* Google Workspace only. No external fetch, email sending, public sharing or deletion. */
 const JP_CONFIG={dashboardId:'',rootFolderId:''}; // optional overrides; bound setup detects its own Sheet and project folder
 const JP_MODES=['Tự làm, chưa xem câu/khóa','Đã xem/ôn lại','Có tra/gợi ý','QA - Dữ liệu giả'];
-function onOpen(){SpreadsheetApp.getUi().createMenu('JP-STUDY').addItem('1. Tạo 3 quiz đầu (chưa mở)','setupP0').addItem('2. Kiểm cấu hình quiz','auditForms').addItem('3. Xác nhận đã thử và mở liên kết','activateReady').addItem('Đồng bộ lại kết quả','syncResponses').addItem('Xuất báo cáo hôm nay','exportDailyReport').addItem('Tạo 7 quiz còn lại (P1)','setupRemaining').addToUi();}
+function onOpen(){SpreadsheetApp.getUi().createMenu('JP-STUDY').addItem('1. Tạo 3 quiz đầu (chưa mở)','setupP0').addItem('2. Kiểm cấu hình quiz','auditForms').addItem('3. Xác nhận đã thử và mở liên kết','activateReady').addItem('Đồng bộ lại kết quả','syncResponses').addItem('Xuất báo cáo hôm nay','exportDailyReport').addItem('Tạo 7 quiz còn lại (P1)','setupRemaining').addItem('4. Triển khai bài Pilot (MD-N4-VOC-01)','deployPilotMdN4Voc01').addToUi();}
 function jpSheet(){const p=PropertiesService.getScriptProperties(),id=JP_CONFIG.dashboardId||p.getProperty('JP_DASHBOARD_ID');if(id)return SpreadsheetApp.openById(id);const active=SpreadsheetApp.getActiveSpreadsheet();if(!active)throw Error('Mở đúng bảng → Tiện ích mở rộng → Apps Script, rồi chạy setupP0.');if(active.getName()!=='JP_STUDY_HOC_HOM_NAY')throw Error('Không đúng bảng học; chưa thay đổi dữ liệu.');p.setProperty('JP_DASHBOARD_ID',active.getId());return active;}
 function jpState(){const s=JSON.parse(PropertiesService.getScriptProperties().getProperty('JP_STATE')||'null')||{version:JP_DATA.version,sourceSha:JP_DATA.sourceBankSha256,forms:{}};if(s.sourceSha!==JP_DATA.sourceBankSha256)throw Error('Nguồn thay đổi; cần checkpoint migration, không sửa bản đang dùng.');return s;}
 function jpSave(s){PropertiesService.getScriptProperties().setProperty('JP_STATE',JSON.stringify(s));}
@@ -198,4 +198,184 @@ function verifyLearnerDashboard(){
  console.log(JSON.stringify(result));
  return result;
 }
+
+/**
+ * Idempotently deploys the first Phase 3.7 practice set: MD-N4-VOC-01.
+ * Target: 5 QA_VERIFIED N4 Vocabulary questions (N4-MO-READ-001 to N4-MO-READ-005).
+ * Idempotent: If form already exists in state, verifies configuration rather than duplicating.
+ */
+function deployPilotMdN4Voc01() {
+  const PILOT_QUIZ = {
+    id: "MD-N4-VOC-01",
+    title: "MD-N4-VOC-01 | N4 Micro-Drill | Từ vựng & Kanji cơ bản (5 câu)",
+    objective: "Luyện nhanh 5 câu cách đọc Kanji đời sống (ca làm mệt / 5 phút)",
+    minutes: [5, 8],
+    questionIds: [
+      "N4-MO-READ-001",
+      "N4-MO-READ-002",
+      "N4-MO-READ-003",
+      "N4-MO-READ-004",
+      "N4-MO-READ-005"
+    ]
+  };
+
+  const PILOT_QUESTIONS = {
+    "N4-MO-READ-001": {
+      id: "N4-MO-READ-001",
+      stem: "【毎週】月曜日に会議があります。",
+      options: [
+        {id: "A", text: "まいしゅう"},
+        {id: "B", text: "まいしゅ"},
+        {id: "C", text: "まいじゅう"},
+        {id: "D", text: "まえしゅう"}
+      ],
+      correctAnswer: "A",
+      explanationVi: "「毎週」 đọc là まいしゅう (mỗi tuần). Âm Hán Việt: MỖI CHU.",
+      distractorExplanations: {
+        "B": "Thiếu âm kéo dài ゅう ở chữ 週 (chu).",
+        "C": "Chữ 週 không đọc âm đục じゅう.",
+        "D": "Chữ 毎 đọc là まい, không phải まえ (tiền/trước)."
+      }
+    },
+    "N4-MO-READ-002": {
+      id: "N4-MO-READ-002",
+      stem: "友達に日本語の辞書を【貸しました】。",
+      options: [
+        {id: "A", text: "かえしました"},
+        {id: "B", text: "かりました"},
+        {id: "C", text: "だしました"},
+        {id: "D", text: "かしました"}
+      ],
+      correctAnswer: "D",
+      explanationVi: "「貸しました」 là thể quá khứ lịch sự của động từ 貸す (かす - cho mượn). Âm đọc: かしました.",
+      distractorExplanations: {
+        "A": "かえしました là chữ 返しました (trả lại đồ đã mượn).",
+        "B": "かりました là chữ 借りました (mượn về, đối lập nghĩa với cho mượn).",
+        "C": "だしました là chữ 出しました (lấy ra, nộp bài)."
+      }
+    },
+    "N4-MO-READ-003": {
+      id: "N4-MO-READ-003",
+      stem: "来週の旅行の【計画】を立てています。",
+      options: [
+        {id: "A", text: "けいが"},
+        {id: "B", text: "けいかく"},
+        {id: "C", text: "けっかく"},
+        {id: "D", text: "きかく"}
+      ],
+      correctAnswer: "B",
+      explanationVi: "「計画」 đọc là けいかく (kế hoạch). Âm Hán Việt: KẾ HOẠCH.",
+      distractorExplanations: {
+        "A": "Chữ 画 có âm が (như 映画 - えいが) nhưng trong 計画 đọc là かく.",
+        "C": "Không phát sinh âm ngắt けっ.",
+        "D": "きかく là chữ 企画 (quy hoạch, dự án kinh doanh)."
+      }
+    },
+    "N4-MO-READ-004": {
+      id: "N4-MO-READ-004",
+      stem: "道で鍵を【拾いました】。",
+      options: [
+        {id: "A", text: "すてました"},
+        {id: "B", text: "みつけました"},
+        {id: "C", text: "ひろいました"},
+        {id: "D", text: "あつめました"}
+      ],
+      correctAnswer: "C",
+      explanationVi: "「拾いました」 là thể quá khứ lịch sự của động từ 拾う (ひろう - nhặt được). Âm đọc: ひろいました.",
+      distractorExplanations: {
+        "A": "すてました là chữ 捨てました (vứt bỏ).",
+        "B": "みつけました là chữ 見つけました (tìm thấy).",
+        "D": "あつめました là chữ 集めました (thu gom, sưu tầm)."
+      }
+    },
+    "N4-MO-READ-005": {
+      id: "N4-MO-READ-005",
+      stem: "先生に【質問】があります。",
+      options: [
+        {id: "A", text: "じつもん"},
+        {id: "B", text: "しちもん"},
+        {id: "C", text: "しつもん"},
+        {id: "D", text: "しつぶん"}
+      ],
+      correctAnswer: "C",
+      explanationVi: "「質問」 đọc là しつもん (câu hỏi, thắc mắc). Âm Hán Việt: CHẤT VẤN.",
+      distractorExplanations: {
+        "A": "Âm đầu là âm thanh しつ, không hóa đục thành じつ.",
+        "B": "Chữ 質 đọc âm On là しつ, không phải しち (số 7).",
+        "D": "Chữ 問 đọc là もん, không đọc là ぶん (văn/phần)."
+      }
+    }
+  };
+
+  const lock = LockService.getScriptLock();
+  lock.waitLock(15000);
+  try {
+    const s = jpState();
+    const raw = jpRaw(s);
+    const base = jpFolder(jpRoot(), '02_BÀI_HỌC_VÀ_ĐỀ_LUYỆN');
+    const targetFolder = jpFolder(base, 'PILOT_PHASE_3.7');
+    let info = s.forms[PILOT_QUIZ.id];
+    let form;
+
+    if (info && info.built) {
+      form = FormApp.openById(info.id);
+    } else {
+      if (info) {
+        form = FormApp.openById(info.id);
+      } else {
+        form = FormApp.create(PILOT_QUIZ.title, false);
+        info = { id: form.getId(), items: {}, built: false, active: false };
+        s.forms[PILOT_QUIZ.id] = info;
+        jpSave(s);
+        DriveApp.getFileById(info.id).moveTo(targetFolder);
+      }
+
+      form.setIsQuiz(true)
+          .setCollectEmail(false)
+          .setPublishingSummary(false)
+          .setAllowResponseEdits(false)
+          .setShowLinkToRespondAgain(false)
+          .setShuffleQuestions(false)
+          .setProgressBar(true)
+          .setLimitOneResponsePerUser(false);
+
+      form.setDescription('N4 Micro-Drill (Pilot Phase 3.7). 5 câu cách đọc Kanji đời sống (5–8 phút). Tự làm trước, xem giải thích sau khi nộp.');
+      form.setConfirmationMessage('Đã nộp bài Pilot. Bấm Xem điểm để xem chi tiết lời giải tiếng Việt.');
+
+      for (const qid of PILOT_QUIZ.questionIds) {
+        const q = PILOT_QUESTIONS[qid];
+        let item = form.addMultipleChoiceItem();
+        item.setTitle('[' + qid + '] ' + q.stem)
+            .setChoices(q.options.map(o => item.createChoice(o.id + '. ' + o.text, o.id === q.correctAnswer)))
+            .setPoints(1)
+            .setRequired(true);
+        item.setFeedbackForCorrect(FormApp.createFeedback().setText(q.explanationVi).build());
+        const distractorText = Object.entries(q.distractorExplanations).map(([k, v]) => k + ': ' + v).join('\n');
+        item.setFeedbackForIncorrect(FormApp.createFeedback().setText(q.explanationVi + '\n' + distractorText).build());
+        info.items[String(item.getId())] = qid;
+      }
+
+      jpEnsureDestination(form, raw.getId());
+      info.built = true;
+      info.editUrl = form.getEditUrl();
+      info.responderUrl = form.getPublishedUrl();
+      jpSave(s);
+    }
+
+    const deployResult = {
+      practiceSetId: PILOT_QUIZ.id,
+      formId: info.id,
+      responderUrl: info.responderUrl,
+      editUrl: info.editUrl,
+      sheetId: raw.getId(),
+      questionCount: PILOT_QUIZ.questionIds.length,
+      status: "DEPLOYED_READY_FOR_VALIDATION"
+    };
+    console.log(JSON.stringify(deployResult));
+    return deployResult;
+  } finally {
+    lock.releaseLock();
+  }
+}
+
 

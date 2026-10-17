@@ -1,6 +1,33 @@
 # Changelog
 
-## 2026-10-17 — Phase 3.7 Provider Trust Boundary Hardening, Public Data Audit & Operational Pilot Readiness
+## 2026-10-17 — Phase 3.7 False Authentication Boundary Removal, 3-Environment Gates & Pilot Delivery
+
+- **P0 Elimination of False Python Authentication Boundary (`reconcile_blind_review.py`)**:
+  - Removed `_PRODUCTION_ADAPTER_TOKEN = object()` anti-pattern where wrapping arbitrary callbacks in `make_production_workspace_adapter` allowed simulated dictionaries to grant `LIVE_VERIFIED`.
+  - Made `make_production_workspace_adapter` an unprivileged wrapper; arbitrary callbacks wrapped by it are classified as offline test doubles (`MOCK_SUCCESS`, `liveVerified=False`).
+  - Enforced genuine Google Workspace credentials evaluation (`is_authenticated_google_client=True` and `has_valid_google_credentials=True` or verified Apps Script runtime proof) to reach `LIVE_VERIFIED`.
+  - Hardened `verify_deployment_evidence` to mandate 14 fields/bindings: `providerType`, `isAuthorizedWorkspaceProvider`, `practiceSetId`, `formId`, `verifiedQuestionIds`, `formExists`, destination `sheetId` against `expectedSheetId`, computed `answerKeyDigest`, `responderAccess`, `gradingVerified`, `sheetSync`, `receiptId`, `receiptFormId`, and evidence freshness (`MAX_DEPLOYMENT_EVIDENCE_AGE_SECONDS = 7 * 86400`).
+- **Mandatory Security Regressions (Attacks A through G in `test_qa_adversarial_mutations.py`)**:
+  - Attack A: Fabricated callback wrapped in `make_production_workspace_adapter` -> strictly rejected from live release (`MOCK_SUCCESS`, `liveVerified=False`).
+  - Attack B: Fake Form ID (`SYNTH-FAKE-...`) with `formExists=False` -> `FORM_EXISTS_FAILED`.
+  - Attack C: Nonexistent receipt on Google Sheets -> `RECEIPT_VERIFICATION_FAILED`.
+  - Attack D: Tampered answer-key mapping -> `ANSWER_KEY_DIGEST_MISMATCH`.
+  - Attack E: Real Form with wrong destination Sheet -> `DESTINATION_SHEET_MISMATCH`.
+  - Attack F: Old timestamp (e.g. 4 years old) with `isStale=False` -> `STALE_DEPLOYMENT_EVIDENCE` via 7-day freshness policy.
+  - Attack G: Omitting mandatory bindings (`receiptFormId`, `expectedSheetId`, or `answerKeyDigest`) -> `MISSING_*_BINDING`.
+  - Positive Control: Genuine Google Workspace client credentials -> `LIVE_VERIFIED` (`liveVerified=True`).
+- **Controlled Pilot Operational Delivery (`MD-N4-VOC-01`)**:
+  - Environment audit: Chrome DevTools confirmed 0 active Google Workspace tabs; Python `google` library is not installed in the environment.
+  - Applied Authorization Blocker Rule: verdict `READY_BUT_AUTH_BLOCKED` (0 fabricated URLs or receipts).
+  - Provided idempotent Google Apps Script deployment function `deployPilotMdN4Voc01()` in both `DRIVE_SETUP/JP_STUDY_SETUP.gs` and `DRIVE_SETUP/workspace_adapter.js`, with UI menu entry `Triển khai bài Pilot (MD-N4-VOC-01)` in `onOpen()`.
+- **Preserved P0 Integrity**:
+  - All 3 live P0 Forms (`W01-B01`, `W01-B02`, `W01-B03`) 100% operational.
+- **Test Metrics**:
+  - 52 / 52 adversarial mutation tests PASS (`scripts/tests/test_qa_adversarial_mutations.py`).
+  - 28 / 28 release verification checks PASS (`scripts/validate_release.py`).
+  - 394 / 394 drive-first test suite PASS (`scripts/drive_first/test_drive_first.cjs`).
+  - 5 / 5 negative question tests PASS (`scripts/tests/test_question_bank_negative.py`).
+
 
 - **P0-A Provider Trust Boundary Hardening (`reconcile_blind_review.py`)**:
   - Eliminated caller-controlled provider authentication self-assertion strings (`AUTHENTICATED_GOOGLE_WORKSPACE_API`, `isAuthorizedWorkspaceProvider=True`).

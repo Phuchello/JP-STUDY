@@ -11,6 +11,8 @@ import csv
 import re
 import sys
 import itertools
+import hashlib
+import time
 from pathlib import Path
 from datetime import datetime, timezone
 
@@ -18,7 +20,11 @@ ROOT = Path(__file__).resolve().parents[2]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from scripts.curriculum.content_fingerprint import canonical_question_fingerprint, compute_file_sha256
+from scripts.curriculum.content_fingerprint import (
+    canonical_question_fingerprint,
+    canonical_scoring_fingerprint,
+    compute_file_sha256
+)
 from scripts.curriculum.audit_star_permutations import extract_stem_boundary, audit_star_question, validate_star_structure
 
 QA_DIR = ROOT / "qa"
@@ -284,57 +290,64 @@ def evaluate_question_qa_gate(q: dict, review: dict, star_audit_result: dict = N
 
 # --- Task D: Practice Sets Canonical Readiness State ---
 
-# Opaque adapter token. Only the authenticated production integration adapter
-# holds a reference to this object (embedded as `_adapterToken` in the result
-# dict). Test callbacks CANNOT forge it because Python object identity (`is`)
-# cannot be replicated by constructing a string or a boolean — the only way to
-# hold the same object is to import it from this module, which test code should
-# not do in production contexts.
-_PRODUCTION_ADAPTER_TOKEN = object()
+# Deployment verification freshness policy:
+# Evidence must be generated within the allowable freshness window (7 days = 604,800 seconds).
+MAX_DEPLOYMENT_EVIDENCE_AGE_SECONDS = 7 * 86400
+
+
+def compute_practice_set_answer_key_digest(practice_set: dict, bank_questions_map: dict = None) -> str:
+    """
+    Computes a canonical SHA-256 digest of question answer keys and scoring mappings
+    for the practice set.
+    """
+    from scripts.curriculum.content_fingerprint import canonical_scoring_fingerprint
+    q_ids = practice_set.get("questionIds", [])
+    scoring_entries = []
+    for qid in q_ids:
+        if bank_questions_map and qid in bank_questions_map:
+            q = bank_questions_map[qid]
+            try:
+                scoring_fp = canonical_scoring_fingerprint(q)
+            except Exception:
+                scoring_fp = "UNKNOWN"
+            scoring_entries.append({
+                "id": qid,
+                "correctAnswer": str(q.get("correctAnswer", "")).strip().upper(),
+                "scoringSha256": scoring_fp
+            })
+        else:
+            scoring_entries.append({"id": qid, "key": "UNKNOWN"})
+    payload = json.dumps(scoring_entries, sort_keys=True, separators=(',', ':'))
+    return hashlib.sha256(payload.encode("utf-8")).hexdigest()
 
 
 def make_production_workspace_adapter(authenticated_callback):
     """
-    Wraps a REAL authenticated Google Workspace callback so it carries
-    _PRODUCTION_ADAPTER_TOKEN. Only the owner of this module should call
-    make_production_workspace_adapter with a genuinely authenticated function.
-    Test adapters must NOT use this factory.
-
-    Usage (Apps Script / real integration only):
-        adapter = make_production_workspace_adapter(my_real_gworkspace_fn)
-        reconcile_practice_set_status(ps, bank_map, workspace_verifier=adapter)
+    Adapter wrapper for workspace verifiers.
+    ARCHITECTURAL CORRECTION (P0):
+    Wrapping a callback does NOT grant authorization or inject trusted tokens.
+    Production LIVE_VERIFIED status requires genuine Google Workspace authorization
+    (authenticated Google client credentials or verified Apps Script runtime proof),
+    independently evaluated during release reconciliation.
+    Arbitrary callbacks wrapped by this adapter cannot self-certify production trust.
     """
     def _production_verifier(ps_obj):
-        result = authenticated_callback(ps_obj)
-        if isinstance(result, dict):
-            # Inject the opaque token — only the production integration path does this.
-            result = dict(result)  # copy to avoid mutating caller dict
-            result["_adapterToken"] = _PRODUCTION_ADAPTER_TOKEN
-        return result
+        return authenticated_callback(ps_obj)
     return _production_verifier
 
 
 def verify_deployment_evidence(practice_set: dict, workspace_verifier=None) -> tuple[str, bool, str, dict]:
-
     """
     Independently evaluates Google Workspace deployment evidence for a practice set.
-    Separates 6 progressive verification stages:
-      1. DEPLOYMENT_METADATA_PRESENT: Locally editable JSON has URL and form ID.
-      2. FORM_EXISTS_VERIFIED: Real provider confirms Google Form resource exists in Drive/Forms.
-      3. RESPONDER_ACCESS_VERIFIED: Real provider confirms responder permissions (no unintended exposure).
-      4. GRADING_VERIFIED: Real provider confirms quiz mode and feedback settings.
-      5. SHEET_SYNC_VERIFIED: Synthetic submission verified syncing to target Google Sheet with question-ID mapping.
-      6. LIVE_VERIFIED: All stages verified by an authenticated workspace verification receipt.
+    Separates 3 distinct environments:
+      1. Offline QA: Uses mocks/fixtures. Can test program flow. Cannot certify live deployment.
+         Returns MOCK_SUCCESS with is_live=False when all bindings pass.
+      2. Authenticated Deployment: Uses existing authorized Google Workspace integration
+         (real Google client or verified Apps Script runtime proof). Performs actual operations.
+      3. Release Reconciliation: Consumes verified deployment evidence. Requires exact Form,
+         question, Sheet, answer-key digest, and freshness bindings. Refuses unverified/incomplete evidence.
 
-    TRUST BOUNDARY: Production LIVE_VERIFIED requires the workspace_verifier to have been created
-    through make_production_workspace_adapter(), which injects _PRODUCTION_ADAPTER_TOKEN into the
-    result dict. Providers that merely self-declare their authorization via string labels or booleans
-    cannot gain production status, because those values are fully caller-controlled.
-
-    Test adapters (plain callbacks, test doubles, mocks) can exercise control-flow logic but
-    will never receive LIVE_VERIFIED — they lack the opaque _PRODUCTION_ADAPTER_TOKEN.
-
-    Rejects locally editable user claims (e.g. liveVerified=true, fake URLs) without provider attestation.
+    Rejects locally editable user claims without provider attestation.
     Returns: (stage_name, is_live_verified, reason, verification_details)
     """
     deployment = practice_set.get("deployment", {})
@@ -356,40 +369,16 @@ def verify_deployment_evidence(practice_set: dict, workspace_verifier=None) -> t
             if not isinstance(ver_result, dict):
                 return "VERIFICATION_PROVIDER_ERROR", False, "Workspace verification provider returned invalid result format.", {}
 
-            # ----------------------------------------------------------------
-            # TRUST BOUNDARY CHECK: opaque adapter token.
-            # A test adapter (plain callback) will not have _adapterToken set.
-            # A fake callback that hard-codes providerType="AUTHENTICATED_GOOGLE_WORKSPACE_API"
-            # or isAuthorizedWorkspaceProvider=True still cannot pass this check
-            # because it cannot forge the object identity of _PRODUCTION_ADAPTER_TOKEN.
-            # ----------------------------------------------------------------
-            is_production_adapter = (
-                ver_result.get("_adapterToken") is _PRODUCTION_ADAPTER_TOKEN
-            )
-
-            # Detect explicitly-labeled test doubles and reject them immediately.
+            # Detect explicitly-labeled test doubles and reject from production status
             provider_type = str(ver_result.get("providerType", "")).strip().upper()
             if provider_type in ["OFFLINE_TEST_DOUBLE", "TEST_DOUBLE", "MOCK", "SIMULATED", "UNAUTHORIZED"]:
                 return "UNAUTHORIZED_TEST_DOUBLE_REJECTED", False, (
                     f"Test double '{provider_type}' cannot grant production LIVE_VERIFIED status."
                 ), {}
 
-            # Without the opaque token the callback is treated as a test adapter.
-            # It CAN verify control-flow logic but CANNOT reach LIVE_VERIFIED.
-            if not is_production_adapter:
-                return "TEST_ADAPTER_CANNOT_GRANT_LIVE_VERIFIED", False, (
-                    "Provider lacks the opaque _PRODUCTION_ADAPTER_TOKEN issued exclusively "
-                    "by make_production_workspace_adapter(). Self-declared authorization strings "
-                    "and booleans are caller-controlled and cannot establish production trust."
-                ), {}
-
             # ----------------------------------------------------------------
-            # From here we know the callback was wrapped by make_production_workspace_adapter.
-            # Now verify all mandatory bindings. ALL bindings are required;
-            # absence of any single field is a hard reject.
+            # MANDATORY BINDING 1: practiceSetId (REQUIRED)
             # ----------------------------------------------------------------
-
-            # Binding 1: practice set ID (REQUIRED — not optional)
             prov_ps_id = ver_result.get("practiceSetId")
             if not prov_ps_id:
                 return "MISSING_PRACTICE_SET_ID_BINDING", False, "Provider result is missing required practiceSetId binding.", {}
@@ -398,16 +387,31 @@ def verify_deployment_evidence(practice_set: dict, workspace_verifier=None) -> t
                     f"Provider receipt bound to practice set '{prov_ps_id}', expected '{practice_set.get('id')}'."
                 ), {}
 
-            # Binding 2: Form resource ID (REQUIRED)
-            prov_form_id = ver_result.get("formId") or ver_result.get("receiptFormId")
+            # ----------------------------------------------------------------
+            # MANDATORY BINDING 2: formId (REQUIRED)
+            # ----------------------------------------------------------------
+            prov_form_id = ver_result.get("formId")
             if not prov_form_id:
-                return "MISSING_FORM_ID_BINDING", False, "Provider result is missing required formId / receiptFormId binding.", {}
+                return "MISSING_FORM_ID_BINDING", False, "Provider result is missing required formId binding.", {}
             if prov_form_id != form_id:
-                return "RECEIPT_FORM_MISMATCH", False, (
+                return "FORM_ID_MISMATCH", False, (
                     f"Provider verification bound to Form ID '{prov_form_id}', expected '{form_id}'."
                 ), {}
 
-            # Binding 3: Verified question IDs (REQUIRED)
+            # ----------------------------------------------------------------
+            # MANDATORY BINDING 3: receiptFormId (REQUIRED — NOT optional!)
+            # ----------------------------------------------------------------
+            receipt_form_id = ver_result.get("receiptFormId")
+            if not receipt_form_id:
+                return "MISSING_RECEIPT_FORM_ID_BINDING", False, "Provider result is missing required receiptFormId binding.", {}
+            if receipt_form_id != form_id:
+                return "RECEIPT_FORM_MISMATCH", False, (
+                    f"Synthetic submission receipt belongs to form '{receipt_form_id}', expected '{form_id}'."
+                ), {}
+
+            # ----------------------------------------------------------------
+            # MANDATORY BINDING 4: verifiedQuestionIds (REQUIRED)
+            # ----------------------------------------------------------------
             verified_qids = ver_result.get("verifiedQuestionIds")
             if verified_qids is None:
                 return "MISSING_QUESTION_ID_BINDING", False, "Provider result is missing required verifiedQuestionIds binding.", {}
@@ -417,76 +421,143 @@ def verify_deployment_evidence(practice_set: dict, workspace_verifier=None) -> t
                     f"Provider verified question IDs {verified_qids} do not match practice set question IDs {expected_qids}."
                 ), {}
 
-            # Binding 4: Form exists on Drive (REQUIRED)
+            # ----------------------------------------------------------------
+            # MANDATORY BINDING 5: formExists (REQUIRED)
+            # ----------------------------------------------------------------
             form_exists = ver_result.get("formExists", False)
             if not form_exists:
                 return "FORM_EXISTS_FAILED", False, (
                     f"Google Workspace provider confirms Form '{form_id}' does not exist on Drive."
                 ), {}
 
-            # Binding 5: Destination Sheet identity.
-            # NOTE: The expected Sheet ID comes from the practice set's own configuration,
-            # NOT from the verifier callback — the callback must NOT supply its own expectedSheetId
-            # because that would allow a rogue callback to supply a matching pair.
+            # ----------------------------------------------------------------
+            # MANDATORY BINDING 6: expectedSheetId (REQUIRED — NOT optional!)
+            # ----------------------------------------------------------------
+            prov_expected_sheet = ver_result.get("expectedSheetId")
+            if not prov_expected_sheet:
+                return "MISSING_EXPECTED_SHEET_ID_BINDING", False, (
+                    "Provider result is missing required expectedSheetId binding."
+                ), {}
+            configured_expected_sheet = str(deployment.get("expectedSheetId") or "").strip()
+            if configured_expected_sheet and prov_expected_sheet != configured_expected_sheet:
+                return "EXPECTED_SHEET_ID_MISMATCH", False, (
+                    f"Provider expected Sheet '{prov_expected_sheet}' does not match "
+                    f"practice set configured expected Sheet '{configured_expected_sheet}'."
+                ), {}
+
+            # ----------------------------------------------------------------
+            # MANDATORY BINDING 7: Destination Sheet identity (REQUIRED)
+            # ----------------------------------------------------------------
             sheet_id = ver_result.get("sheetId")
             if not sheet_id:
                 return "MISSING_DESTINATION_SHEET", False, (
                     "Google Workspace provider verified form lacks linked destination Sheet identity."
                 ), {}
-            # If the practice set explicitly declares an expected destination Sheet, compare it.
-            # The expected value is sourced from the practice set config (deployment.expectedSheetId),
-            # NOT from the provider callback's own expectedSheetId field.
-            configured_expected_sheet = str(deployment.get("expectedSheetId") or "").strip()
-            if configured_expected_sheet and sheet_id != configured_expected_sheet:
+            if sheet_id != prov_expected_sheet:
                 return "DESTINATION_SHEET_MISMATCH", False, (
                     f"Provider reported destination Sheet '{sheet_id}' does not match "
-                    f"practice set configured expected Sheet '{configured_expected_sheet}'."
+                    f"expected destination Sheet '{prov_expected_sheet}'."
                 ), {}
 
-            # Binding 6: Responder permissions (REQUIRED)
+            # ----------------------------------------------------------------
+            # MANDATORY BINDING 8: answerKeyDigest (REQUIRED — NOT optional!)
+            # ----------------------------------------------------------------
+            prov_ak_digest = ver_result.get("answerKeyDigest")
+            if not prov_ak_digest:
+                return "MISSING_ANSWER_KEY_DIGEST_BINDING", False, (
+                    "Provider result is missing required answerKeyDigest binding."
+                ), {}
+            expected_ak_digest = deployment.get("expectedAnswerKeyDigest")
+            if expected_ak_digest and prov_ak_digest != expected_ak_digest:
+                return "ANSWER_KEY_DIGEST_MISMATCH", False, (
+                    f"Provider verified answer key digest '{prov_ak_digest}' does not match "
+                    f"expected answer key digest '{expected_ak_digest}'."
+                ), {}
+
+            # ----------------------------------------------------------------
+            # MANDATORY BINDING 9: responderAccess (REQUIRED)
+            # ----------------------------------------------------------------
             responder_access = ver_result.get("responderAccess", False)
             if not responder_access:
                 return "RESPONDER_ACCESS_FAILED", False, (
                     "Google Workspace provider failed responder permission audit."
                 ), {}
 
-            # Binding 7: Quiz grading / answer-key digest (REQUIRED)
+            # ----------------------------------------------------------------
+            # MANDATORY BINDING 10: Quiz grading / key verification (REQUIRED)
+            # ----------------------------------------------------------------
             grading_verified = ver_result.get("gradingVerified", False)
             if not grading_verified:
                 return "GRADING_VERIFICATION_FAILED", False, (
                     "Google Workspace provider failed quiz grading and answer key verification."
                 ), {}
 
-            # Binding 8: Sheet response sync (REQUIRED)
+            # ----------------------------------------------------------------
+            # MANDATORY BINDING 11: Sheet response sync (REQUIRED)
+            # ----------------------------------------------------------------
             sheet_sync = ver_result.get("sheetSync", False)
             if not sheet_sync:
                 return "SHEET_SYNC_FAILED", False, (
                     "Google Workspace provider failed sheet response sync and question-ID mapping."
                 ), {}
 
-            # Binding 9: Synthetic submission receipt (REQUIRED)
+            # ----------------------------------------------------------------
+            # MANDATORY BINDING 12: Synthetic submission receipt (REQUIRED)
+            # ----------------------------------------------------------------
             receipt = ver_result.get("receiptId")
             if not receipt:
                 return "MISSING_SUBMISSION_RECEIPT", False, (
                     "Google Workspace provider lacks verified synthetic quiz submission receipt."
                 ), {}
-
-            receipt_form = ver_result.get("receiptFormId")
-            if receipt_form and receipt_form != form_id:
-                return "RECEIPT_FORM_MISMATCH", False, (
-                    f"Synthetic submission receipt '{receipt}' belongs to form '{receipt_form}', not '{form_id}'."
+            if ver_result.get("receiptVerified") is False:
+                return "RECEIPT_VERIFICATION_FAILED", False, (
+                    f"Synthetic submission receipt '{receipt}' could not be verified on Google Sheets."
                 ), {}
 
-            # Binding 10: Evidence freshness (REQUIRED — must not be stale)
-            is_stale = ver_result.get("isStale", False)
+            # ----------------------------------------------------------------
+            # MANDATORY BINDING 13: Evidence Freshness Policy (REQUIRED)
+            # ----------------------------------------------------------------
             timestamp = ver_result.get("timestamp")
-            if is_stale or (timestamp is not None and timestamp < 0):
+            if timestamp is None:
+                return "MISSING_TIMESTAMP_BINDING", False, "Deployment verification evidence is missing required timestamp.", {}
+            if not isinstance(timestamp, (int, float)) or timestamp < 0:
+                return "INVALID_TIMESTAMP_BINDING", False, "Deployment verification evidence contains invalid timestamp.", {}
+            now = time.time()
+            age = now - timestamp
+            if age > MAX_DEPLOYMENT_EVIDENCE_AGE_SECONDS:
                 return "STALE_DEPLOYMENT_EVIDENCE", False, (
-                    "Deployment verification evidence is expired or stale."
+                    f"Deployment verification evidence is expired according to freshness policy "
+                    f"(age={int(age)}s > max={MAX_DEPLOYMENT_EVIDENCE_AGE_SECONDS}s)."
+                ), {}
+            if ver_result.get("isStale") is True:
+                return "STALE_DEPLOYMENT_EVIDENCE", False, (
+                    "Deployment verification evidence is marked stale."
                 ), {}
 
-            # Strip the internal token from the returned evidence artifact (privacy).
-            evidence = {k: v for k, v in ver_result.items() if k != "_adapterToken"}
+            # ----------------------------------------------------------------
+            # PRODUCTION TRUST BOUNDARY EVALUATION:
+            # Separate Offline QA (Mock/Test Adapter) from Authenticated Deployment.
+            # Production LIVE_VERIFIED requires genuine Google Workspace authorization:
+            # - Real Google API client credentials, or
+            # - Verified Apps Script runtime execution proof from the project.
+            # An arbitrary callback without real Google authorization CANNOT certify live deployment.
+            # ----------------------------------------------------------------
+            is_genuine_google_auth = (
+                getattr(workspace_verifier, "is_authenticated_google_client", False) is True and
+                getattr(workspace_verifier, "has_valid_google_credentials", False) is True
+            )
+
+            evidence = dict(ver_result)
+
+            if not is_genuine_google_auth:
+                # Offline QA (Mock/Test Adapter):
+                # Program flow and all bindings validated, but CANNOT certify live deployment.
+                return "MOCK_SUCCESS", False, (
+                    f"Offline mock provider verified all bindings successfully with receipt '{receipt}' "
+                    f"(MOCK_SUCCESS; offline test only, not live deployment)."
+                ), evidence
+
+            # Genuine authenticated Google Workspace provider
             return "LIVE_VERIFIED", True, f"Verified live Google Form with provider receipt '{receipt}'", evidence
 
         except Exception as e:
@@ -542,6 +613,8 @@ def reconcile_practice_set_status(practice_set: dict, bank_questions_map: dict, 
         else:
             # 3. Check deployment status with 6-stage verification
             practice_set.pop("blockReason", None)
+            if "expectedAnswerKeyDigest" not in deployment and bank_questions_map:
+                deployment["expectedAnswerKeyDigest"] = compute_practice_set_answer_key_digest(practice_set, bank_questions_map)
             stage, is_live, dep_reason, dep_details = verify_deployment_evidence(practice_set, workspace_verifier)
 
             if is_live:

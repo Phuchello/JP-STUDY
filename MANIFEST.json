@@ -2,7 +2,7 @@
   "snapshotDate": "2026-10-15",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
   "fileCountExcludingManifest": 243,
-  "totalBytesExcludingManifest": 5927235,
+  "totalBytesExcludingManifest": 5963421,
   "files": [
     {
       "path": ".gitattributes",
@@ -450,8 +450,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 31873,
-      "sha256": "f8694fc2ec11ac4b9c7c86a622b52712f1d5246ea0dd70500ddb616a0b1201e3",
+      "bytes": 34952,
+      "sha256": "d98df3cec3777dc2917cb1427faf0e5abbd9bff6026620c8ca90a6cf8062dbff",
       "status": "VERIFIED"
     },
     {
@@ -732,8 +732,8 @@
     },
     {
       "path": "DRIVE_SETUP/JP_STUDY_SETUP.gs",
-      "bytes": 225995,
-      "sha256": "cd4776675a72474a7619c34d3eef423c72323f1c8943709842ab3c701cbfdc8b",
+      "bytes": 233269,
+      "sha256": "b343ce315236c2a2dc06a19781e859930ccc5cdad840fe77a9afad1847f8c374",
       "status": "VERIFIED"
     },
     {
@@ -756,8 +756,8 @@
     },
     {
       "path": "DRIVE_SETUP/workspace_adapter.js",
-      "bytes": 17188,
-      "sha256": "94b9edbbd4d8e0120d7150ba10f5f06a3543bcc884d2aec67e0516234f826e2d",
+      "bytes": 24461,
+      "sha256": "e079fda601e4b4f833f8cce86df82bc2f55620eb796999e29779bae5c8a0225b",
       "status": "VERIFIED"
     },
     {
@@ -792,8 +792,8 @@
     },
     {
       "path": "PROJECT_STATUS.md",
-      "bytes": 30845,
-      "sha256": "8c12122c335b210ac53d9f491d07b4ed561d113eeec9f40ab4f8866910eece0b",
+      "bytes": 34906,
+      "sha256": "2b44d9c0fe3638c89a3c0eb1f4e92d829c07cd59602848f50a5b98497585e482",
       "status": "VERIFIED"
     },
     {
@@ -804,8 +804,8 @@
     },
     {
       "path": "qa/ADVERSARIAL_TEST_RESULTS.md",
-      "bytes": 16787,
-      "sha256": "ae0fc6903835b8cf1451d0a87883c2dac575bbc81201eb07fe351b657688a0fc",
+      "bytes": 19248,
+      "sha256": "619127e2b35ef947adecbd8ac95971e4e5220da3c4e7bb28d18835e04137c687",
       "status": "VERIFIED"
     },
     {
@@ -1332,8 +1332,8 @@
     },
     {
       "path": "scripts/curriculum/reconcile_blind_review.py",
-      "bytes": 42344,
-      "sha256": "aafd98cb86b4e7e11f63f96fa9a8bd4557747a7a95be1f5c954540bcfba53053",
+      "bytes": 46167,
+      "sha256": "8c67bc74776f1f0de738b3df726b64680766056423fae2a60ce1cfac7fc21523",
       "status": "VERIFIED"
     },
     {
@@ -1422,8 +1422,8 @@
     },
     {
       "path": "scripts/tests/test_qa_adversarial_mutations.py",
-      "bytes": 74607,
-      "sha256": "9855a435694ce916ab5b3cb22f080b2106307f2ccab2e15ebf27e5702b2a3398",
+      "bytes": 82822,
+      "sha256": "c84d2f6c787ec97207863fef50cf75196f6d699bf8ba76b3024a6aa5c5daf579",
       "status": "VERIFIED"
     },
     {

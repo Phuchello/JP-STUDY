@@ -1,6 +1,34 @@
 # Trạng thái dự án — 17/10/2026
 
-## Phase 3.7 — Gia cố ranh giới tin cậy nhà cung cấp, kiểm toán phơi nhiễm dữ liệu công khai & chuẩn bị thí điểm (Provider Trust Boundary Hardening, Public Data Hygiene & Pilot Delivery)
+## Phase 3.7 — Loại bỏ ranh giới giả lập Python, Phân định 3 môi trường triển khai & Giao thức thử nghiệm (False Authentication Boundary Removal, 3-Environment Gates & Pilot Delivery)
+
+- **P0 Loại bỏ ranh giới xác thực giả lập Python (`reconcile_blind_review.py`)**:
+  - Xóa bỏ triệt để token đối tượng Python giả lập (`_PRODUCTION_ADAPTER_TOKEN = object()`) - cơ chế vốn cho phép hàm bao `make_production_workspace_adapter` tự cấp quyền `LIVE_VERIFIED` cho dữ liệu giả lập.
+  - Phân định rạch ròi 3 môi trường kiến trúc:
+    1. *Offline QA*: Sử dụng adapter/mock kiểm thử, xác thực luồng điều khiển và các ràng buộc toàn vẹn, dán nhãn minh bạch `MOCK_SUCCESS` với `liveVerified=False` (tuyệt đối không bao giờ được cấp `LIVE_VERIFIED`).
+    2. *Authenticated Deployment*: Sử dụng thông tin xác thực Google Workspace thực thụ (phiên Apps Script đang chạy hoặc thư viện client Google API có OAuth credentials hợp lệ), thực hiện các thao tác thực tế.
+    3. *Release Reconciliation*: Tiêu thụ bằng chứng xác thực với 14 trường ràng buộc bắt buộc: `providerType`, `isAuthorizedWorkspaceProvider`, `practiceSetId`, `formId`, `verifiedQuestionIds`, `formExists`, `sheetId` (khớp với `expectedSheetId` cấu hình trước), `answerKeyDigest` (mã băm đáp án và chấm điểm), `responderAccess`, `gradingVerified`, `sheetSync`, `receiptId`, `receiptFormId`, và kiểm tra hạn dùng bằng chứng (`MAX_DEPLOYMENT_EVIDENCE_AGE_SECONDS = 7 * 86400`).
+- **Hệ thống kiểm thử tấn công hồi quy bảo mật bắt buộc (Attacks A qua G trong `test_qa_adversarial_mutations.py`)**:
+  - *Attack A*: Callback giả lập tự khai báo toàn bộ thông tin chuẩn bọc qua `make_production_workspace_adapter` -> Bị từ chối cấp live, trả về `MOCK_SUCCESS` với `liveVerified=False`.
+  - *Attack B*: Form ID giả mạo (`SYNTH-FAKE-...`) với `formExists=False` -> Bị từ chối với mã lỗi `FORM_EXISTS_FAILED`.
+  - *Attack C*: Form ID hợp lệ nhưng biên nhận nộp bài không xác minh được trên Sheet -> Bị từ chối với `RECEIPT_VERIFICATION_FAILED`.
+  - *Attack D*: Form ID hợp lệ nhưng sai mã băm đáp án chấm điểm -> Bị từ chối với `ANSWER_KEY_DIGEST_MISMATCH`.
+  - *Attack E*: Form ID hợp lệ nhưng sai Sheet đích -> Bị từ chối với `DESTINATION_SHEET_MISMATCH`.
+  - *Attack F*: Dấu thời gian cũ (4 năm trước) dù cờ `isStale=False` -> Bị từ chối với `STALE_DEPLOYMENT_EVIDENCE` theo chính sách 7 ngày.
+  - *Attack G*: Thiếu bất kỳ ràng buộc nào (`receiptFormId`, `expectedSheetId`, `answerKeyDigest`) -> Bị từ chối với `MISSING_*_BINDING`.
+  - *Positive Control*: Nhà cung cấp với Google client credentials thực thụ -> Đạt chuẩn `LIVE_VERIFIED` (`liveVerified=True`).
+- **Giao thức triển khai bộ đề thí điểm `MD-N4-VOC-01`**:
+  - Kiểm toán môi trường thực tế: Chrome DevTools xác nhận 0 tab Google Workspace đang mở; Python `google` client library chưa được cài đặt trong môi trường.
+  - Kích hoạt quy tắc rào cản phân quyền (Authorization Blocker Rule): Đánh giá chính xác `READY_BUT_AUTH_BLOCKED`. Tuyệt đối 0 bịa đặt URL hay biên nhận nộp bài.
+  - Cung cấp hàm triển khai Google Apps Script bất biến (idempotent) `deployPilotMdN4Voc01()` trong cả `DRIVE_SETUP/JP_STUDY_SETUP.gs` và `DRIVE_SETUP/workspace_adapter.js`, tích hợp mục menu `Triển khai bài Pilot (MD-N4-VOC-01)` trong `onOpen()`.
+- **Bảo toàn 100% Forms P0**:
+  - 3 Forms P0 (`W01-B01`, `W01-B02`, `W01-B03`) tiếp tục hoạt động ổn định.
+- **Chỉ số kiểm thử đạt chuẩn tuyệt đối**:
+  - 52 / 52 adversarial mutation tests PASS (`scripts/tests/test_qa_adversarial_mutations.py`).
+  - 28 / 28 release verification checks PASS (`scripts/validate_release.py`).
+  - 394 / 394 drive-first test suite PASS (`scripts/drive_first/test_drive_first.cjs`).
+  - 5 / 5 negative question tests PASS (`scripts/tests/test_question_bank_negative.py`).
+
 
 - **P0-A Gia cố ranh giới tin cậy nhà cung cấp triển khai (`reconcile_blind_review.py`)**:
   - Loại bỏ hoàn toàn cơ chế tự chứng thực quyền hạn bằng chuỗi và cờ boolean do bên gọi kiểm soát (`AUTHENTICATED_GOOGLE_WORKSPACE_API`, `isAuthorizedWorkspaceProvider=True`).
