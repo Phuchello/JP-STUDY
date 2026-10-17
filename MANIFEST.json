@@ -2,7 +2,7 @@
   "snapshotDate": "2026-10-15",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
   "fileCountExcludingManifest": 245,
-  "totalBytesExcludingManifest": 6059129,
+  "totalBytesExcludingManifest": 6059543,
   "files": [
     {
       "path": ".gitattributes",
@@ -12,8 +12,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 331,
-      "sha256": "a12fde23a8c83445dcdceda85881f9b36d0b3dde7590003968b78ab1d2cf0e61",
+      "bytes": 346,
+      "sha256": "fdc5dd04e6e36d25ec35450647c4e182d9ff2da05a0e6e30dfcc843c5444abf6",
       "status": "VERIFIED"
     },
     {
@@ -480,8 +480,8 @@
     },
     {
       "path": "curriculum/PRACTICE_SETS.json",
-      "bytes": 38433,
-      "sha256": "6cfcbf9a3a700b9256fc7a7f89803c2a9ac49716a1ffd2171a27a300b0717049",
+      "bytes": 38817,
+      "sha256": "706aecb5d1048c189f1acaf44efa4984317bb369c8eb8e6adec0efef4da49a94",
       "status": "VERIFIED"
     },
     {
@@ -1104,8 +1104,8 @@
     },
     {
       "path": "qa/PRACTICE_RELEASE_GATE.md",
-      "bytes": 7263,
-      "sha256": "757d05f4204b1234dd95e110274948c50a405c0ffd4f426687c84740e1a08251",
+      "bytes": 7262,
+      "sha256": "4628728077fc081dcb599b294c092a3c94ffda69617810a4001de245ca0e20f1",
       "status": "VERIFIED"
     },
     {
@@ -1446,8 +1446,8 @@
     },
     {
       "path": "scripts/update_manifest.py",
-      "bytes": 2378,
-      "sha256": "abacaa98c9c79e7102d1b837a709b96492e1265ea53ca2649d358d96086ec5bd",
+      "bytes": 2394,
+      "sha256": "482ac42e4fc80455ba243b7a69cf66bb9b37e6bce2905a5be024f163e4e7bc55",
       "status": "VERIFIED"
     },
     {

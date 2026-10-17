@@ -3,7 +3,7 @@ from pathlib import Path
 import json,hashlib,os
 from urllib.parse import quote
 ROOT=Path(__file__).resolve().parents[1]
-SKIP={'.git','node_modules','tmp','__pycache__'}
+SKIP={'.git','node_modules','tmp','__pycache__','.pytest_cache'}
 def files():
     out=[]
     for base,dirs,names in os.walk(ROOT,followlinks=False):

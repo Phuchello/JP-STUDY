@@ -32,7 +32,7 @@ To prevent conflation between authoring correctness, independent audit, statisti
 
 | Set ID | Category | Level | Items | Question Validity | Exposure Allowed | Set Deploy Perm | Forms Status | Learner Availability | Readiness Status |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
-| `MD-N4-VOC-01` | MICRO_DRILL | N4 | 5 | `100% VERIFIED` | `true` | `PERMITTED` | `NOT_DEPLOYED` | `UNAVAILABLE` | `QA_PASSED_NOT_DEPLOYED` |
+| `MD-N4-VOC-01` | MICRO_DRILL | N4 | 5 | `100% VERIFIED` | `true` | `PERMITTED` | `DEPLOYED` | `LIVE_IN_PORTAL` | `QA_PASSED_NOT_DEPLOYED` |
 | `MD-N4-GRA-01` | MICRO_DRILL | N4 | 5 | `100% VERIFIED` | `true` | `PERMITTED` | `NOT_DEPLOYED` | `UNAVAILABLE` | `QA_PASSED_NOT_DEPLOYED` |
 | `MD-N4-ORD-01` | MICRO_DRILL | N4 | 5 | `STAR_PENDING (5)` | `false` | `BLOCKED_CONTENT` | `NOT_DEPLOYED` | `UNAVAILABLE` | `CONTENT_QA_BLOCKED` |
 | `MD-N3-VOC-01` | MICRO_DRILL | N3 | 5 | `100% VERIFIED` | `true` | `PERMITTED` | `NOT_DEPLOYED` | `UNAVAILABLE` | `QA_PASSED_NOT_DEPLOYED` |
