@@ -41,20 +41,47 @@
     font-size: 0.88rem;
     color: var(--text-muted);
   }
+  .filter-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 24px;
+    background: #fff;
+    padding: 14px 18px;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+  }
+  .filter-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+  }
+  .filter-label {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #475569;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-right: 4px;
+  }
   .filters {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
     justify-content: center;
-    margin-bottom: 20px;
   }
   .btn-filter {
-    background: #fff;
+    background: #f8fafc;
     border: 1px solid #cbd5e1;
     color: #475569;
     padding: 6px 14px;
     border-radius: 20px;
-    font-size: 0.85rem;
+    font-size: 0.82rem;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.2s;
@@ -179,16 +206,29 @@
   <p>Tổng hợp bộ đề Official Practice Workbook chuẩn từ Japan Foundation & JEES (N2 · N3 · N4)</p>
 </div>
 
-<div class="filters">
-  <button class="btn-filter active" onclick="filterLevel('ALL')">Tất cả</button>
-  <button class="btn-filter" onclick="filterLevel('N2')">JLPT N2 (Mục tiêu 2026)</button>
-  <button class="btn-filter" onclick="filterLevel('N3')">JLPT N3 (Củng cố)</button>
-  <button class="btn-filter" onclick="filterLevel('N4')">JLPT N4 (Nền tảng)</button>
+<div class="filter-section">
+  <div class="filter-group">
+    <span class="filter-label">Cấp độ:</span>
+    <div class="filters" id="levelFilters">
+      <button type="button" class="btn-filter active" onclick="setLevelFilter(this, 'ALL')">Tất cả cấp độ</button>
+      <button type="button" class="btn-filter" onclick="setLevelFilter(this, 'N2')">JLPT N2 (Trọng tâm 2026)</button>
+      <button type="button" class="btn-filter" onclick="setLevelFilter(this, 'N3')">JLPT N3 (Củng cố)</button>
+      <button type="button" class="btn-filter" onclick="setLevelFilter(this, 'N4')">JLPT N4 (Nền tảng)</button>
+    </div>
+  </div>
+  <div class="filter-group">
+    <span class="filter-label">Bộ đề:</span>
+    <div class="filters" id="yearFilters">
+      <button type="button" class="btn-filter active" onclick="setYearFilter(this, 'ALL')">Tất cả năm</button>
+      <button type="button" class="btn-filter" onclick="setYearFilter(this, '2018')">Vol. 2 (2018)</button>
+      <button type="button" class="btn-filter" onclick="setYearFilter(this, '2012')">Vol. 1 (2012)</button>
+    </div>
+  </div>
 </div>
 
 <div class="grid" id="examGrid">
   <!-- Card N2 2018 -->
-  <div class="card" data-level="N2">
+  <div class="card" data-level="N2" data-year="2018">
     <div>
       <div class="card-top">
         <span class="badge badge-n2">JLPT N2</span>
@@ -225,7 +265,7 @@
   </div>
 
   <!-- Card N2 2012 -->
-  <div class="card" data-level="N2">
+  <div class="card" data-level="N2" data-year="2012">
     <div>
       <div class="card-top">
         <span class="badge badge-n2">JLPT N2</span>
@@ -262,7 +302,7 @@
   </div>
 
   <!-- Card N3 2018 -->
-  <div class="card" data-level="N3">
+  <div class="card" data-level="N3" data-year="2018">
     <div>
       <div class="card-top">
         <span class="badge badge-n3">JLPT N3</span>
@@ -299,7 +339,7 @@
   </div>
 
   <!-- Card N3 2012 -->
-  <div class="card" data-level="N3">
+  <div class="card" data-level="N3" data-year="2012">
     <div>
       <div class="card-top">
         <span class="badge badge-n3">JLPT N3</span>
@@ -336,7 +376,7 @@
   </div>
 
   <!-- Card N4 2018 -->
-  <div class="card" data-level="N4">
+  <div class="card" data-level="N4" data-year="2018">
     <div>
       <div class="card-top">
         <span class="badge badge-n4">JLPT N4</span>
@@ -373,7 +413,7 @@
   </div>
 
   <!-- Card N4 2012 -->
-  <div class="card" data-level="N4">
+  <div class="card" data-level="N4" data-year="2012">
     <div>
       <div class="card-top">
         <span class="badge badge-n4">JLPT N4</span>
@@ -415,19 +455,43 @@
 </p>
 
 <script>
-function filterLevel(level) {
-  const cards = document.querySelectorAll('.card');
-  const buttons = document.querySelectorAll('.btn-filter');
-  buttons.forEach(btn => btn.classList.remove('active'));
-  event.target.classList.add('active');
+let currentLevel = 'ALL';
+let currentYear = 'ALL';
 
+function applyFilters() {
+  const cards = document.querySelectorAll('.card');
   cards.forEach(card => {
-    if (level === 'ALL' || card.getAttribute('data-level') === level) {
-      card.style.display = 'flex';
-    } else {
-      card.style.display = 'none';
-    }
+    const cardLevel = card.getAttribute('data-level');
+    const cardYear = card.getAttribute('data-year');
+    const matchLevel = (currentLevel === 'ALL' || cardLevel === currentLevel);
+    const matchYear = (currentYear === 'ALL' || cardYear === currentYear);
+    card.style.display = (matchLevel && matchYear) ? 'flex' : 'none';
   });
+}
+
+function setLevelFilter(btn, level) {
+  currentLevel = level;
+  const container = document.getElementById('levelFilters');
+  if (container) {
+    container.querySelectorAll('.btn-filter').forEach(b => b.classList.remove('active'));
+  }
+  if (btn) btn.classList.add('active');
+  applyFilters();
+}
+
+function setYearFilter(btn, year) {
+  currentYear = year;
+  const container = document.getElementById('yearFilters');
+  if (container) {
+    container.querySelectorAll('.btn-filter').forEach(b => b.classList.remove('active'));
+  }
+  if (btn) btn.classList.add('active');
+  applyFilters();
+}
+
+// Fallback compatibility
+function filterLevel(level) {
+  setLevelFilter(null, level);
 }
 </script>
 

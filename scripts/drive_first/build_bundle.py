@@ -48,8 +48,8 @@ def validate_practice_set_eligibility(sets_path=PRACTICE_SETS, bank_path=BANK_EX
         raise ValueError(f"CANONICAL_BUILD_FAILED: Pilot set {PILOT_PRACTICE_SET_ID} not found in {sets_path}")
 
     status = pilot_set.get('readinessStatus') or pilot_set.get('status')
-    if status not in ['QA_PASSED_NOT_DEPLOYED', 'QA_PASSED_READY_FOR_DEPLOYMENT']:
-        raise ValueError(f"CANONICAL_BUILD_FAILED: Pilot set {PILOT_PRACTICE_SET_ID} has status '{status}', must be QA_PASSED_NOT_DEPLOYED")
+    if status not in ['QA_PASSED_NOT_DEPLOYED', 'QA_PASSED_READY_FOR_DEPLOYMENT', 'LIVE_VERIFIED']:
+        raise ValueError(f"CANONICAL_BUILD_FAILED: Pilot set {PILOT_PRACTICE_SET_ID} has status '{status}', must be QA_PASSED_NOT_DEPLOYED or LIVE_VERIFIED")
 
     qids = pilot_set.get('questionIds', [])
     if qids != PILOT_QUESTION_IDS:

@@ -9,7 +9,8 @@
     "FULL_MOCK_EXAM": 3
   },
   "countsByStatus": {
-    "QA_PASSED_NOT_DEPLOYED": 11,
+    "LIVE_VERIFIED": 1,
+    "QA_PASSED_NOT_DEPLOYED": 10,
     "CONTENT_QA_BLOCKED": 9,
     "NOT_READY": 3
   },
@@ -33,17 +34,17 @@
         "N4-MO-READ-005"
       ],
       "isDiagnostic": false,
-      "readinessStatus": "QA_PASSED_NOT_DEPLOYED",
+      "readinessStatus": "LIVE_VERIFIED",
       "implementationType": "LIVE_VERIFIED_PILOT",
       "deploymentNote": "Đã triển khai và xác thực thành công trên Google Workspace (Form ID: 1Quwea0s8m_7ehwoynxaLhq23h-wZ8k3tktfkXIRLong). Native QA passed, Google score 2/5, trigger and destination sync verified.",
-      "status": "QA_PASSED_NOT_DEPLOYED",
+      "status": "LIVE_VERIFIED",
       "activeFormsDeployed": 1,
       "readinessReason": "Verified live deployment on Google Workspace with native Apps Script verification receipt",
       "deployment": {
         "isDeployed": true,
         "formId": "1Quwea0s8m_7ehwoynxaLhq23h-wZ8k3tktfkXIRLong",
         "responderUrl": "https://docs.google.com/forms/d/e/1FAIpQLScIn703a91QGGMW9YRS4f_sJbXRpwhlRdyVKxyRz6Ur_3JbgA/viewform",
-        "lastLiveQaTimestamp": 1729163000,
+        "lastLiveQaTimestamp": 1792235000,
         "qaResult": "PASS",
         "verificationStage": "LIVE_VERIFIED",
         "liveVerified": true,
@@ -498,7 +499,9 @@
         "formId": null,
         "responderUrl": null,
         "lastLiveQaTimestamp": null,
-        "qaResult": null
+        "qaResult": null,
+        "liveVerified": false,
+        "verificationStage": "NOT_DEPLOYED"
       },
       "blockReason": "Referenced questions unverified: [('N3-GR-STAR-001', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N3-GR-STAR-002', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N3-GR-STAR-003', 'STAR_SEMANTIC_REVIEW_PENDING')]"
     },
@@ -581,7 +584,9 @@
         "formId": null,
         "responderUrl": null,
         "lastLiveQaTimestamp": null,
-        "qaResult": null
+        "qaResult": null,
+        "liveVerified": false,
+        "verificationStage": "NOT_DEPLOYED"
       },
       "blockReason": "Referenced questions unverified: [('N2-GR-STAR-001', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N2-GR-STAR-002', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N2-GR-STAR-003', 'STAR_SEMANTIC_REVIEW_PENDING')]"
     },
@@ -675,7 +680,9 @@
         "formId": null,
         "responderUrl": null,
         "lastLiveQaTimestamp": null,
-        "qaResult": null
+        "qaResult": null,
+        "liveVerified": false,
+        "verificationStage": "NOT_DEPLOYED"
       },
       "blockReason": "Referenced questions unverified: [('N3-GR-STAR-001', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N3-GR-STAR-003', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N3-GR-STAR-005', 'STAR_SEMANTIC_REVIEW_PENDING')]"
     },
@@ -720,7 +727,9 @@
         "formId": null,
         "responderUrl": null,
         "lastLiveQaTimestamp": null,
-        "qaResult": null
+        "qaResult": null,
+        "liveVerified": false,
+        "verificationStage": "NOT_DEPLOYED"
       },
       "blockReason": "Referenced questions unverified: [('N2-GR-STAR-001', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N2-GR-STAR-002', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N2-GR-STAR-003', 'STAR_SEMANTIC_REVIEW_PENDING')]"
     },
@@ -818,7 +827,9 @@
         "formId": null,
         "responderUrl": null,
         "lastLiveQaTimestamp": null,
-        "qaResult": null
+        "qaResult": null,
+        "liveVerified": false,
+        "verificationStage": "NOT_DEPLOYED"
       },
       "blockReason": "Referenced questions unverified: [('N3-GR-STAR-001', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N3-GR-STAR-002', 'STAR_SEMANTIC_REVIEW_PENDING'), ('N3-GR-STAR-003', 'STAR_SEMANTIC_REVIEW_PENDING')]"
     },
@@ -865,7 +876,9 @@
         "formId": null,
         "responderUrl": null,
         "lastLiveQaTimestamp": null,
-        "qaResult": null
+        "qaResult": null,
+        "liveVerified": false,
+        "verificationStage": "NOT_DEPLOYED"
       }
     },
     {
@@ -888,7 +901,9 @@
         "formId": null,
         "responderUrl": null,
         "lastLiveQaTimestamp": null,
-        "qaResult": null
+        "qaResult": null,
+        "liveVerified": false,
+        "verificationStage": "NOT_DEPLOYED"
       }
     }
   ],

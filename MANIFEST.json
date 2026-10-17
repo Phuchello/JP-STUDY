@@ -2,7 +2,7 @@
   "snapshotDate": "2026-10-15",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
   "fileCountExcludingManifest": 251,
-  "totalBytesExcludingManifest": 6127671,
+  "totalBytesExcludingManifest": 6130951,
   "files": [
     {
       "path": ".gitattributes",
@@ -492,8 +492,8 @@
     },
     {
       "path": "curriculum/PRACTICE_SETS.json",
-      "bytes": 38817,
-      "sha256": "706aecb5d1048c189f1acaf44efa4984317bb369c8eb8e6adec0efef4da49a94",
+      "bytes": 39372,
+      "sha256": "79e0c9a038f5698c2f66bc7166952e6025d41f8a9d17a189f552ea08e1c43237",
       "status": "VERIFIED"
     },
     {
@@ -720,26 +720,26 @@
     },
     {
       "path": "docs/widgets/home_quick_actions.html",
-      "bytes": 5162,
-      "sha256": "73aa6a28880616d16178d0d1cfb9e0838e2c62b6c9813c6c9caf28baed0fd3ca",
+      "bytes": 5348,
+      "sha256": "307ffb9a8d7a2b3c487c10ebb47b7a551fd37da895b15d70d3a44f978a43f021",
       "status": "QA_PENDING"
     },
     {
       "path": "docs/widgets/jlpt_exam_catalog.html",
-      "bytes": 17426,
-      "sha256": "69e8e00348e11345baa0974f77c0c553de9ae78df38a6569278b354e377cd12d",
+      "bytes": 19594,
+      "sha256": "c41f54f5c6258eb7974b21734ecd868b043490aad5377b1769c766b278d15cc4",
       "status": "QA_PENDING"
     },
     {
       "path": "docs/widgets/listening_room.html",
-      "bytes": 11218,
-      "sha256": "ea22d49d0867f942f0b2507297046a3a9dfc5b6eae7d366a1b0643dc9095bb52",
+      "bytes": 11293,
+      "sha256": "21183ff1326f8d28c557d57293935276cc0e30666b92ec0ed061417bc432cc0f",
       "status": "QA_PENDING"
     },
     {
       "path": "docs/widgets/progress_dashboard.html",
-      "bytes": 8194,
-      "sha256": "8a51341d8d153251c57b5ff4b645c4870d2e9df65eced91cacb1d5ae6f859c97",
+      "bytes": 8266,
+      "sha256": "070f564b78a74855cd5d3807cfea0c7d25fe5146b420087ef9ca8cfc5df53c4e",
       "status": "QA_PENDING"
     },
     {
@@ -1140,8 +1140,8 @@
     },
     {
       "path": "qa/PRACTICE_RELEASE_GATE.md",
-      "bytes": 7262,
-      "sha256": "4628728077fc081dcb599b294c092a3c94ffda69617810a4001de245ca0e20f1",
+      "bytes": 7261,
+      "sha256": "c4be8bba17f33b02e296d1b8b60997bae0b8f3cfa87b46f503fbf28c4aacdf09",
       "status": "VERIFIED"
     },
     {
@@ -1356,14 +1356,14 @@
     },
     {
       "path": "scripts/curriculum/export_pilot_payload.py",
-      "bytes": 11660,
-      "sha256": "384f64c2e4524df8dd36ba7c60eccfcf6f287f5b457783453357465d34d3acf3",
+      "bytes": 11677,
+      "sha256": "f37cf053cfb0b0b0c41e9cef4c47917ca2508f8e4d39196e170f757800977f2e",
       "status": "QA_PENDING"
     },
     {
       "path": "scripts/curriculum/generate_practice_release_gate.py",
-      "bytes": 8360,
-      "sha256": "0704547838a9b85164943583023ae279cd9f2b1cf29e3833893e9a34cde66550",
+      "bytes": 8450,
+      "sha256": "a1793d901772e3d8e99e8999649c7f13f55bdb251098b4caedba3b16e9d16cc6",
       "status": "VERIFIED"
     },
     {
@@ -1398,8 +1398,8 @@
     },
     {
       "path": "scripts/drive_first/build_bundle.py",
-      "bytes": 11805,
-      "sha256": "e8a68183ec2224999c2af575b87df1874248a9ef5fa3f9de191cdf986fd177ff",
+      "bytes": 11839,
+      "sha256": "9cf798f09458450f0a9f65343775133be5a0c9a8e0ddbc7a402345f7e5f36aec",
       "status": "VERIFIED"
     },
     {
@@ -1470,8 +1470,8 @@
     },
     {
       "path": "scripts/tests/test_qa_adversarial_mutations.py",
-      "bytes": 95446,
-      "sha256": "d649c9b84a01eed2d78892f9d4b83bc972a21f1cfe06f20438e18ff467338503",
+      "bytes": 95530,
+      "sha256": "5aa3e674981d058ddd393fa1e94caa81cf6938fe44a151d598f5fcc84fdc14b9",
       "status": "VERIFIED"
     },
     {

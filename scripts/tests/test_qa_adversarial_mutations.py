@@ -355,12 +355,12 @@ class TestAdversarialQAMutations(unittest.TestCase):
         qa_verified_count = sum(1 for q in bank["questions"] if q["status"] == "QA_VERIFIED")
         star_pending_count = sum(1 for q in bank["questions"] if q["status"] == "STAR_SEMANTIC_REVIEW_PENDING")
         total_sets = ps_data["totalPracticeSets"]
-        ready_sets = ps_data["countsByStatus"].get("QA_PASSED_NOT_DEPLOYED", 0)
+        ready_sets = ps_data["countsByStatus"].get("QA_PASSED_NOT_DEPLOYED", 0) + ps_data["countsByStatus"].get("LIVE_VERIFIED", 0)
         blocked_sets = ps_data["countsByStatus"].get("CONTENT_QA_BLOCKED", 0)
         not_ready_sets = ps_data["countsByStatus"].get("NOT_READY", 0)
 
         passed = (total_qs == 120 and qa_verified_count == 104 and star_pending_count == 16 and total_sets == 23 and ready_sets == 11 and blocked_sets == 9 and not_ready_sets == 3)
-        record_result("Scenario 12: Pipeline consistency", "run_reconciliation", "Verifying bank and practice sets counts", "104 verified, 16 star pending, 11 ready sets, 9 blocked sets, 3 mock", f"{qa_verified_count} verified, {star_pending_count} pending, {ready_sets} ready, {blocked_sets} blocked, {not_ready_sets} mock", passed)
+        record_result("Scenario 12: Pipeline consistency", "run_reconciliation", "Verifying bank and practice sets counts", "104 verified, 16 star pending, 11 ready sets (including live verified pilot), 9 blocked sets, 3 mock", f"{qa_verified_count} verified, {star_pending_count} pending, {ready_sets} ready, {blocked_sets} blocked, {not_ready_sets} mock", passed)
         self.assertTrue(passed)
 
     # =========================================================================

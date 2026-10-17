@@ -104,10 +104,11 @@ def generate_practice_release_gate_report():
             all_exposure_eligible = all(q.get("exposureEligible", False) for q in q_objs)
             exposure_str = "true" if all_exposure_eligible else "false"
 
-        # 3. Set deploy permission
         readiness = s["readinessStatus"]
-        if readiness == "QA_PASSED_NOT_DEPLOYED":
+        if readiness in ["QA_PASSED_NOT_DEPLOYED", "QA_PASSED_READY_FOR_DEPLOYMENT"]:
             deploy_perm = "PERMITTED"
+        elif readiness == "LIVE_VERIFIED":
+            deploy_perm = "DEPLOYED_VERIFIED"
         elif readiness == "CONTENT_QA_BLOCKED":
             deploy_perm = "BLOCKED_CONTENT"
         elif readiness == "NOT_READY":

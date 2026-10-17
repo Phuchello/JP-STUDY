@@ -51,7 +51,7 @@ def load_canonical_practice_set(sets_path=PRACTICE_SETS_PATH, set_id=PILOT_PRACT
 def derive_pilot_quiz_spec(pset):
     """Derives complete pilotQuiz specification from canonical practice set entry."""
     status = pset.get("readinessStatus") or pset.get("status")
-    if status not in ["QA_PASSED_NOT_DEPLOYED", "QA_PASSED_READY_FOR_DEPLOYMENT"]:
+    if status not in ["QA_PASSED_NOT_DEPLOYED", "QA_PASSED_READY_FOR_DEPLOYMENT", "LIVE_VERIFIED"]:
         raise ValueError(f"CANONICAL_PILOT_SPEC_MISMATCH: Invalid practice set readinessStatus: '{status}'")
     qids = pset.get("questionIds", [])
     if qids != PILOT_QUESTION_IDS:

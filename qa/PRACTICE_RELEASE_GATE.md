@@ -3,10 +3,10 @@
 ## 1. EXECUTIVE SUMMARY & RELEASE METRICS
 
 - **Total Practice Sets Audited**: 23
-- **Content QA Passed Sets (Awaiting Deployment)**: 11 (Sets with 100% QA_VERIFIED non-STAR items)
+- **Content QA Passed Sets (Awaiting Deployment)**: 10 (Sets with 100% QA_VERIFIED non-STAR items)
 - **Content Blocked Sets**: 9 (Sets referencing STAR questions with Gate 2 pending)
 - **Capacity Gated Sets**: 3 (3 Full Mocks: NO_ITEMS — NOT_EVALUABLE, requiring bank expansion)
-- **Live Deployed Sets (Phase 3.7 Expanded)**: 0 (0 new forms deployed; exactly 3 P0 pilot forms preserved)
+- **Live Deployed Sets (Phase 3.7 Expanded)**: 1 (0 new forms deployed; exactly 3 P0 pilot forms preserved)
 - **Review Provenance Status**: 100% Content Hash Matched; Reviewer Execution Attestation: PARTIAL
 - **Learner Calibration Status**: PENDING_LEARNER_CALIBRATION (0 synthetic items exposed to learner)
 
@@ -32,7 +32,7 @@ To prevent conflation between authoring correctness, independent audit, statisti
 
 | Set ID | Category | Level | Items | Question Validity | Exposure Allowed | Set Deploy Perm | Forms Status | Learner Availability | Readiness Status |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
-| `MD-N4-VOC-01` | MICRO_DRILL | N4 | 5 | `100% VERIFIED` | `true` | `PERMITTED` | `DEPLOYED` | `LIVE_IN_PORTAL` | `QA_PASSED_NOT_DEPLOYED` |
+| `MD-N4-VOC-01` | MICRO_DRILL | N4 | 5 | `100% VERIFIED` | `true` | `DEPLOYED_VERIFIED` | `DEPLOYED` | `LIVE_IN_PORTAL` | `LIVE_VERIFIED` |
 | `MD-N4-GRA-01` | MICRO_DRILL | N4 | 5 | `100% VERIFIED` | `true` | `PERMITTED` | `NOT_DEPLOYED` | `UNAVAILABLE` | `QA_PASSED_NOT_DEPLOYED` |
 | `MD-N4-ORD-01` | MICRO_DRILL | N4 | 5 | `STAR_PENDING (5)` | `false` | `BLOCKED_CONTENT` | `NOT_DEPLOYED` | `UNAVAILABLE` | `CONTENT_QA_BLOCKED` |
 | `MD-N3-VOC-01` | MICRO_DRILL | N3 | 5 | `100% VERIFIED` | `true` | `PERMITTED` | `NOT_DEPLOYED` | `UNAVAILABLE` | `QA_PASSED_NOT_DEPLOYED` |
