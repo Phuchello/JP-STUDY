@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tiến Độ Học Tập & Chữa Lỗi JP-STUDY</title>
+<style>
+  :root {
+    --primary: #c0392b;
+    --n2-color: #1e40af;
+    --n3-color: #065f46;
+    --n4-color: #6b21a8;
+    --bg-light: #fdfaf6;
+    --card-bg: #ffffff;
+    --border: #e2e8f0;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: var(--bg-light);
+    color: #1e293b;
+    padding: 16px;
+    line-height: 1.5;
+  }
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 14px;
+    border-bottom: 2px solid #ecd9c6;
+  }
+  .header h1 {
+    font-size: 1.35rem;
+    color: #8b0000;
+    margin-bottom: 6px;
+    font-weight: 700;
+  }
+  .header p {
+    font-size: 0.85rem;
+    color: #64748b;
+  }
+  .grid-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+  .card {
+    background: #fff;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    padding: 16px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+  }
+  .card-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .progress-item {
+    margin-bottom: 12px;
+  }
+  .progress-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.82rem;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  .progress-bar-bg {
+    background: #e2e8f0;
+    border-radius: 8px;
+    height: 10px;
+    overflow: hidden;
+  }
+  .progress-fill {
+    height: 100%;
+    border-radius: 8px;
+    transition: width 0.3s ease;
+  }
+  .fill-n2 { background: #2563eb; }
+  .fill-n3 { background: #059669; }
+  .fill-n4 { background: #9333ea; }
+  .table-custom {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.8rem;
+    margin-top: 8px;
+  }
+  .table-custom th, .table-custom td {
+    padding: 8px 10px;
+    text-align: left;
+    border-bottom: 1px solid #f1f5f9;
+  }
+  .table-custom th {
+    background: #f8fafc;
+    color: #475569;
+    font-weight: 700;
+  }
+  .badge {
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    font-weight: 700;
+  }
+  .badge-success { background: #dcfce7; color: #15803d; }
+  .badge-info { background: #e0f2fe; color: #0369a1; }
+  .sheet-btn-box {
+    margin-top: 20px;
+    text-align: center;
+    padding: 16px;
+    background: #fff;
+    border: 1px solid #cbd5e1;
+    border-radius: 12px;
+  }
+  .sheet-btn-box p {
+    font-size: 0.82rem;
+    color: #64748b;
+    margin-bottom: 12px;
+  }
+  .btn-sheet {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #0f766e;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    transition: background 0.2s;
+  }
+  .btn-sheet:hover {
+    background: #115e59;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>📈 BẢNG TIẾN ĐỘ HỌC TẬP & NHẬT KÝ CHỮA LỖI</h1>
+  <p>Hệ thống tự động đồng bộ kết quả làm bài qua Google Workspace Sheets an toàn & bảo mật</p>
+</div>
+
+<div class="grid-2">
+  <!-- Cột 1: Phân bổ chiến lược -->
+  <div class="card">
+    <div class="card-title">🎯 Phân bổ Năng lượng Học tập (Chiến lược 2026)</div>
+    
+    <div class="progress-item">
+      <div class="progress-header">
+        <span>JLPT N2 (Trọng tâm cốt lõi)</span>
+        <span>50% Thời lượng</span>
+      </div>
+      <div class="progress-bar-bg">
+        <div class="progress-fill fill-n2" style="width: 50%;"></div>
+      </div>
+    </div>
+
+    <div class="progress-item">
+      <div class="progress-header">
+        <span>JLPT N3 (Khôi phục & Củng cố)</span>
+        <span>40% Thời lượng</span>
+      </div>
+      <div class="progress-bar-bg">
+        <div class="progress-fill fill-n3" style="width: 40%;"></div>
+      </div>
+    </div>
+
+    <div class="progress-item">
+      <div class="progress-header">
+        <span>JLPT N4 (Khắc phục lỗ hổng)</span>
+        <span>10% Thời lượng</span>
+      </div>
+      <div class="progress-bar-bg">
+        <div class="progress-fill fill-n4" style="width: 10%;"></div>
+      </div>
+    </div>
+
+    <p style="font-size:0.75rem; color:#64748b; margin-top:12px;">
+      * Tỷ lệ phân bổ được cập nhật linh hoạt dựa trên kết quả bài chẩn đoán và điểm thi thử định kỳ.
+    </p>
+  </div>
+
+  <!-- Cột 2: Trạng thái đề luyện tập -->
+  <div class="card">
+    <div class="card-title">📝 Trạng thái Bộ đề Thực hành</div>
+    <table class="table-custom">
+      <thead>
+        <tr>
+          <th>Mã bộ đề</th>
+          <th>Cấp độ</th>
+          <th>Số câu</th>
+          <th>Trạng thái</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>MD-N4-VOC-01</strong></td>
+          <td>N4 Pilot</td>
+          <td>5 câu</td>
+          <td><span class="badge badge-success">ĐÃ KÍCH HOẠT</span></td>
+        </tr>
+        <tr>
+          <td><strong>W01-B01</strong></td>
+          <td>N4 Trợ từ</td>
+          <td>5 câu</td>
+          <td><span class="badge badge-info">SẴN SÀNG</span></td>
+        </tr>
+        <tr>
+          <td><strong>W01-B02</strong></td>
+          <td>N4 Từ vựng</td>
+          <td>8 câu</td>
+          <td><span class="badge badge-info">SẴN SÀNG</span></td>
+        </tr>
+        <tr>
+          <td><strong>W01-B03</strong></td>
+          <td>N4 Chia thể</td>
+          <td>5 câu</td>
+          <td><span class="badge badge-info">SẴN SÀNG</span></td>
+        </tr>
+        <tr>
+          <td><strong>N2-2018-VOL2</strong></td>
+          <td>N2 Mock</td>
+          <td>105 câu</td>
+          <td><span class="badge badge-success">CHÍNH THỨC</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- Khối Quy trình Chữa lỗi 3 bước -->
+<div class="card" style="margin-bottom:20px;">
+  <div class="card-title">🔍 Quy trình Chữa một Lỗi sai (Deep Error Review)</div>
+  <div style="font-size:0.83rem; color:#334155; display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:12px;">
+    <div style="background:#f8fafc; padding:12px; border-radius:8px; border:1px solid #e2e8f0;">
+      <strong style="color:#1e40af;">Bước 1: Nhận diện bẫy</strong>
+      <p style="margin-top:4px; font-size:0.78rem; color:#64748b;">Ghi nhận câu sai, so sánh đáp án bạn chọn và đáp án đúng. Xác định nguyên nhân: nhầm âm đục, thiếu trường âm hay hiểu nhầm sắc thái?</p>
+    </div>
+    <div style="background:#f8fafc; padding:12px; border-radius:8px; border:1px solid #e2e8f0;">
+      <strong style="color:#065f46;">Bước 2: Phân tích ngữ cảnh</strong>
+      <p style="margin-top:4px; font-size:0.78rem; color:#64748b;">Tra cứu lời giải chi tiết được hệ thống gửi ngay sau khi nộp bài. Đọc lại mẫu câu và ngữ cảnh xuất hiện.</p>
+    </div>
+    <div style="background:#f8fafc; padding:12px; border-radius:8px; border:1px solid #e2e8f0;">
+      <strong style="color:#9333ea;">Bước 3: Đặt câu phản xạ</strong>
+      <p style="margin-top:4px; font-size:0.78rem; color:#64748b;">Tự đặt 2 câu ví dụ mới gắn liền với hoạt động thường ngày của bạn để kích hoạt trí nhớ dài hạn.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Nút mở Google Sheet -->
+<div class="sheet-btn-box">
+  <p>🔒 <strong>Bảo mật thông tin:</strong> Chi tiết từng bài làm, thời gian nộp và điểm số cá nhân được lưu trữ an toàn trong Google Trang tính riêng của bạn.</p>
+  <a class="btn-sheet" href="https://docs.google.com/spreadsheets/d/13RwK_Wvf22cms2beOyLsjMsG77JIrVKFDGZ5vAS4ZPs/edit" target="_blank">
+    <span>📊 Mở Bảng tính JP_STUDY_HOC_HOM_NAY</span>
+  </a>
+</div>
+
+</body>
+</html>

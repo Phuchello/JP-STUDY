@@ -1,8 +1,8 @@
 {
   "snapshotDate": "2026-10-15",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
-  "fileCountExcludingManifest": 246,
-  "totalBytesExcludingManifest": 6071349,
+  "fileCountExcludingManifest": 251,
+  "totalBytesExcludingManifest": 6127671,
   "files": [
     {
       "path": ".gitattributes",
@@ -455,6 +455,12 @@
       "status": "VERIFIED"
     },
     {
+      "path": "curriculum/JLPT_EXAM_CATALOG_REGISTRY.json",
+      "bytes": 13850,
+      "sha256": "947865f5872ffcc7959a2b30050f857f7a5ddb99004ee5b348d96f9eb3690796",
+      "status": "QA_PENDING"
+    },
+    {
       "path": "curriculum/JLPT_SKILL_TAXONOMY.md",
       "bytes": 20057,
       "sha256": "39a330fabf623d8b34110b5923546f38ab15546de43c7f764a900ccb541497a7",
@@ -713,6 +719,30 @@
       "status": "VERIFIED"
     },
     {
+      "path": "docs/widgets/home_quick_actions.html",
+      "bytes": 5162,
+      "sha256": "73aa6a28880616d16178d0d1cfb9e0838e2c62b6c9813c6c9caf28baed0fd3ca",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "docs/widgets/jlpt_exam_catalog.html",
+      "bytes": 17426,
+      "sha256": "69e8e00348e11345baa0974f77c0c553de9ae78df38a6569278b354e377cd12d",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "docs/widgets/listening_room.html",
+      "bytes": 11218,
+      "sha256": "ea22d49d0867f942f0b2507297046a3a9dfc5b6eae7d366a1b0643dc9095bb52",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "docs/widgets/progress_dashboard.html",
+      "bytes": 8194,
+      "sha256": "8a51341d8d153251c57b5ff4b645c4870d2e9df65eced91cacb1d5ae6f859c97",
+      "status": "QA_PENDING"
+    },
+    {
       "path": "DRIVE_FIRST_QA.md",
       "bytes": 7248,
       "sha256": "618504f63b3fb2f9a58ae8dc5b84f5e356f94323003e6fed69867efe13bdeb70",
@@ -774,8 +804,8 @@
     },
     {
       "path": "FILE_INDEX.md",
-      "bytes": 24163,
-      "sha256": "04686c8f17180c4e2894ef692446008100037db08ca7f1a309f611362de3bcff",
+      "bytes": 24635,
+      "sha256": "2e106b4b37551bbc348c0519be046dc09ac6761b54628fcd847597986e2e1d62",
       "status": "VERIFIED"
     },
     {

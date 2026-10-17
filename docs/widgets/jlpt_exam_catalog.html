@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kho Đề Thi Thử JLPT</title>
+<style>
+  :root {
+    --primary: #c0392b;
+    --primary-light: #e74c3c;
+    --n2-color: #2980b9;
+    --n3-color: #27ae60;
+    --n4-color: #8e44ad;
+    --bg-light: #fdfaf6;
+    --card-bg: #ffffff;
+    --text-main: #2c3e50;
+    --text-muted: #7f8c8d;
+    --border: #e2e8f0;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: var(--bg-light);
+    color: var(--text-main);
+    padding: 16px;
+    line-height: 1.5;
+  }
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 14px;
+    border-bottom: 2px solid #ecd9c6;
+  }
+  .header h1 {
+    font-size: 1.4rem;
+    color: #8b0000;
+    margin-bottom: 6px;
+    font-weight: 700;
+  }
+  .header p {
+    font-size: 0.88rem;
+    color: var(--text-muted);
+  }
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .btn-filter {
+    background: #fff;
+    border: 1px solid #cbd5e1;
+    color: #475569;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .btn-filter.active, .btn-filter:hover {
+    background: #8b0000;
+    color: #fff;
+    border-color: #8b0000;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 16px;
+  }
+  .card {
+    background: var(--card-bg);
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    padding: 16px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .card-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .badge {
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 3px 8px;
+    border-radius: 6px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .badge-n2 { background-color: var(--n2-color); }
+  .badge-n3 { background-color: var(--n3-color); }
+  .badge-n4 { background-color: var(--n4-color); }
+  .source-tag {
+    font-size: 0.72rem;
+    color: #64748b;
+    background: #f1f5f9;
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+  .card-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 8px;
+  }
+  .card-meta {
+    font-size: 0.8rem;
+    color: #64748b;
+    margin-bottom: 12px;
+  }
+  .materials-title {
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: #475569;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+  }
+  .btn-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 12px;
+  }
+  .btn-mat {
+    background: #f8fafc;
+    border: 1px solid #cbd5e1;
+    color: #1e293b;
+    padding: 5px 9px;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    transition: background 0.15s;
+  }
+  .btn-mat:hover {
+    background: #e2e8f0;
+  }
+  .audio-box {
+    margin-top: 10px;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 8px 10px;
+    border-radius: 8px;
+  }
+  .audio-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #475569;
+    margin-bottom: 6px;
+    display: flex;
+    justify-content: space-between;
+  }
+  audio {
+    width: 100%;
+    height: 32px;
+  }
+  .notice {
+    font-size: 0.75rem;
+    color: #64748b;
+    margin-top: 10px;
+    font-style: italic;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>📚 KHO ĐỀ THI THỬ & TÀI LIỆU CHÍNH THỨC JLPT</h1>
+  <p>Tổng hợp bộ đề Official Practice Workbook chuẩn từ Japan Foundation & JEES (N2 · N3 · N4)</p>
+</div>
+
+<div class="filters">
+  <button class="btn-filter active" onclick="filterLevel('ALL')">Tất cả</button>
+  <button class="btn-filter" onclick="filterLevel('N2')">JLPT N2 (Mục tiêu 2026)</button>
+  <button class="btn-filter" onclick="filterLevel('N3')">JLPT N3 (Củng cố)</button>
+  <button class="btn-filter" onclick="filterLevel('N4')">JLPT N4 (Nền tảng)</button>
+</div>
+
+<div class="grid" id="examGrid">
+  <!-- Card N2 2018 -->
+  <div class="card" data-level="N2">
+    <div>
+      <div class="card-top">
+        <span class="badge badge-n2">JLPT N2</span>
+        <span class="source-tag">Official Workbook Vol. 2</span>
+      </div>
+      <div class="card-title">JLPT N2 | Official Practice Workbook (2018)</div>
+      <div class="card-meta">Độ dài: ~155 phút · 105 câu hỏi · Nguồn: Japan Foundation & JEES</div>
+      
+      <div class="materials-title">Đề thi PDF chính thức:</div>
+      <div class="btn-group">
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N2V.pdf" target="_blank">📖 Từ vựng</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N2G.pdf" target="_blank">📜 Ngữ pháp</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N2R.pdf" target="_blank">📑 Đọc hiểu</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N2L.pdf" target="_blank">🎧 Đề nghe</a>
+      </div>
+
+      <div class="materials-title">Đáp án & Script nghe:</div>
+      <div class="btn-group">
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N2sheet.pdf" target="_blank">📝 Phiếu trả lời</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N2answer.pdf" target="_blank">✅ Đáp án</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N2script.pdf" target="_blank">💬 Script nghe</a>
+      </div>
+    </div>
+
+    <div class="audio-box">
+      <div class="audio-label">
+        <span>🎧 Nghe thử Mondai 1 (Task-based):</span>
+        <a href="https://www.jlpt.jp/e/samples/sampleindex.html" target="_blank" style="color:#2980b9; font-size:0.7rem; text-decoration:none;">Xem tại nguồn</a>
+      </div>
+      <audio controls preload="none">
+        <source src="https://www.jlpt.jp/samples/sample2018/mp3/N2Q1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+  </div>
+
+  <!-- Card N2 2012 -->
+  <div class="card" data-level="N2">
+    <div>
+      <div class="card-top">
+        <span class="badge badge-n2">JLPT N2</span>
+        <span class="source-tag">Official Workbook Vol. 1</span>
+      </div>
+      <div class="card-title">JLPT N2 | Official Practice Workbook (2012)</div>
+      <div class="card-meta">Độ dài: ~155 phút · 105 câu hỏi · Nguồn: Japan Foundation & JEES</div>
+      
+      <div class="materials-title">Đề thi PDF chính thức:</div>
+      <div class="btn-group">
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N2V.pdf" target="_blank">📖 Từ vựng</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N2G.pdf" target="_blank">📜 Ngữ pháp</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N2R.pdf" target="_blank">📑 Đọc hiểu</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N2L.pdf" target="_blank">🎧 Đề nghe</a>
+      </div>
+
+      <div class="materials-title">Đáp án & Script nghe:</div>
+      <div class="btn-group">
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N2sheet.pdf" target="_blank">📝 Phiếu trả lời</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N2answer.pdf" target="_blank">✅ Đáp án</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N2script.pdf" target="_blank">💬 Script nghe</a>
+      </div>
+    </div>
+
+    <div class="audio-box">
+      <div class="audio-label">
+        <span>🎧 Nghe thử Mondai 1 (Task-based):</span>
+        <a href="https://www.jlpt.jp/e/samples/sampleindex.html" target="_blank" style="color:#2980b9; font-size:0.7rem; text-decoration:none;">Xem tại nguồn</a>
+      </div>
+      <audio controls preload="none">
+        <source src="https://www.jlpt.jp/samples/sample2012/mp3/N2Q1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+  </div>
+
+  <!-- Card N3 2018 -->
+  <div class="card" data-level="N3">
+    <div>
+      <div class="card-top">
+        <span class="badge badge-n3">JLPT N3</span>
+        <span class="source-tag">Official Workbook Vol. 2</span>
+      </div>
+      <div class="card-title">JLPT N3 | Official Practice Workbook (2018)</div>
+      <div class="card-meta">Độ dài: ~140 phút · 95 câu hỏi · Nguồn: Japan Foundation & JEES</div>
+      
+      <div class="materials-title">Đề thi PDF chính thức:</div>
+      <div class="btn-group">
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N3V.pdf" target="_blank">📖 Từ vựng</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N3G.pdf" target="_blank">📜 Ngữ pháp</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N3R.pdf" target="_blank">📑 Đọc hiểu</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N3L.pdf" target="_blank">🎧 Đề nghe</a>
+      </div>
+
+      <div class="materials-title">Đáp án & Script nghe:</div>
+      <div class="btn-group">
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N3sheet.pdf" target="_blank">📝 Phiếu trả lời</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N3answer.pdf" target="_blank">✅ Đáp án</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N3script.pdf" target="_blank">💬 Script nghe</a>
+      </div>
+    </div>
+
+    <div class="audio-box">
+      <div class="audio-label">
+        <span>🎧 Nghe thử Mondai 1 (Task-based):</span>
+        <a href="https://www.jlpt.jp/e/samples/sampleindex.html" target="_blank" style="color:#27ae60; font-size:0.7rem; text-decoration:none;">Xem tại nguồn</a>
+      </div>
+      <audio controls preload="none">
+        <source src="https://www.jlpt.jp/samples/sample2018/mp3/N3Q1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+  </div>
+
+  <!-- Card N3 2012 -->
+  <div class="card" data-level="N3">
+    <div>
+      <div class="card-top">
+        <span class="badge badge-n3">JLPT N3</span>
+        <span class="source-tag">Official Workbook Vol. 1</span>
+      </div>
+      <div class="card-title">JLPT N3 | Official Practice Workbook (2012)</div>
+      <div class="card-meta">Độ dài: ~140 phút · 95 câu hỏi · Nguồn: Japan Foundation & JEES</div>
+      
+      <div class="materials-title">Đề thi PDF chính thức:</div>
+      <div class="btn-group">
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N3V.pdf" target="_blank">📖 Từ vựng</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N3G.pdf" target="_blank">📜 Ngữ pháp</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N3R.pdf" target="_blank">📑 Đọc hiểu</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N3L.pdf" target="_blank">🎧 Đề nghe</a>
+      </div>
+
+      <div class="materials-title">Đáp án & Script nghe:</div>
+      <div class="btn-group">
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N3sheet.pdf" target="_blank">📝 Phiếu trả lời</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N3answer.pdf" target="_blank">✅ Đáp án</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N3script.pdf" target="_blank">💬 Script nghe</a>
+      </div>
+    </div>
+
+    <div class="audio-box">
+      <div class="audio-label">
+        <span>🎧 Nghe thử Mondai 1 (Task-based):</span>
+        <a href="https://www.jlpt.jp/e/samples/sampleindex.html" target="_blank" style="color:#27ae60; font-size:0.7rem; text-decoration:none;">Xem tại nguồn</a>
+      </div>
+      <audio controls preload="none">
+        <source src="https://www.jlpt.jp/samples/sample2012/mp3/N3Q1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+  </div>
+
+  <!-- Card N4 2018 -->
+  <div class="card" data-level="N4">
+    <div>
+      <div class="card-top">
+        <span class="badge badge-n4">JLPT N4</span>
+        <span class="source-tag">Official Workbook Vol. 2</span>
+      </div>
+      <div class="card-title">JLPT N4 | Official Practice Workbook (2018)</div>
+      <div class="card-meta">Độ dài: ~125 phút · 85 câu hỏi · Nguồn: Japan Foundation & JEES</div>
+      
+      <div class="materials-title">Đề thi PDF chính thức:</div>
+      <div class="btn-group">
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N4V.pdf" target="_blank">📖 Từ vựng</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N4G.pdf" target="_blank">📜 Ngữ pháp</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N4R.pdf" target="_blank">📑 Đọc hiểu</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N4L.pdf" target="_blank">🎧 Đề nghe</a>
+      </div>
+
+      <div class="materials-title">Đáp án & Script nghe:</div>
+      <div class="btn-group">
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N4sheet.pdf" target="_blank">📝 Phiếu trả lời</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N4answer.pdf" target="_blank">✅ Đáp án</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N4script.pdf" target="_blank">💬 Script nghe</a>
+      </div>
+    </div>
+
+    <div class="audio-box">
+      <div class="audio-label">
+        <span>🎧 Nghe thử Mondai 1 (Task-based):</span>
+        <a href="https://www.jlpt.jp/e/samples/sampleindex.html" target="_blank" style="color:#8e44ad; font-size:0.7rem; text-decoration:none;">Xem tại nguồn</a>
+      </div>
+      <audio controls preload="none">
+        <source src="https://www.jlpt.jp/samples/sample2018/mp3/N4Q1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+  </div>
+
+  <!-- Card N4 2012 -->
+  <div class="card" data-level="N4">
+    <div>
+      <div class="card-top">
+        <span class="badge badge-n4">JLPT N4</span>
+        <span class="source-tag">Official Workbook Vol. 1</span>
+      </div>
+      <div class="card-title">JLPT N4 | Official Practice Workbook (2012)</div>
+      <div class="card-meta">Độ dài: ~125 phút · 85 câu hỏi · Nguồn: Japan Foundation & JEES</div>
+      
+      <div class="materials-title">Đề thi PDF chính thức:</div>
+      <div class="btn-group">
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N4V.pdf" target="_blank">📖 Từ vựng</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N4G.pdf" target="_blank">📜 Ngữ pháp</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N4R.pdf" target="_blank">📑 Đọc hiểu</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N4L.pdf" target="_blank">🎧 Đề nghe</a>
+      </div>
+
+      <div class="materials-title">Đáp án & Script nghe:</div>
+      <div class="btn-group">
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N4sheet.pdf" target="_blank">📝 Phiếu trả lời</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N4answer.pdf" target="_blank">✅ Đáp án</a>
+        <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N4script.pdf" target="_blank">💬 Script nghe</a>
+      </div>
+    </div>
+
+    <div class="audio-box">
+      <div class="audio-label">
+        <span>🎧 Nghe thử Mondai 1 (Task-based):</span>
+        <a href="https://www.jlpt.jp/e/samples/sampleindex.html" target="_blank" style="color:#8e44ad; font-size:0.7rem; text-decoration:none;">Xem tại nguồn</a>
+      </div>
+      <audio controls preload="none">
+        <source src="https://www.jlpt.jp/samples/sample2012/mp3/N4Q1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+  </div>
+</div>
+
+<p class="notice">
+  📌 <strong>Ghi chú học thuật:</strong> Các bộ tài liệu trên là các tập đề thực hành chính thức (Official Practice Workbooks) do Hiệp hội Hỗ trợ Giáo dục Quốc tế Nhật Bản (JEES) và Japan Foundation phát hành (Vol. 1 năm 2012, Vol. 2 năm 2018). Mỗi bộ chứa số lượng câu hỏi tương đương một đề thi thật được tuyển chọn từ các kỳ thi sau cải cách năm 2010. Không phải đề thi của một năm cụ thể.
+</p>
+
+<script>
+function filterLevel(level) {
+  const cards = document.querySelectorAll('.card');
+  const buttons = document.querySelectorAll('.btn-filter');
+  buttons.forEach(btn => btn.classList.remove('active'));
+  event.target.classList.add('active');
+
+  cards.forEach(card => {
+    if (level === 'ALL' || card.getAttribute('data-level') === level) {
+      card.style.display = 'flex';
+    } else {
+      card.style.display = 'none';
+    }
+  });
+}
+</script>
+
+</body>
+</html>

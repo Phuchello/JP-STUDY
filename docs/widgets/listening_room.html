@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Phòng Luyện Nghe JP-STUDY</title>
+<style>
+  :root {
+    --primary: #c0392b;
+    --n2-color: #1e40af;
+    --n3-color: #065f46;
+    --n4-color: #6b21a8;
+    --bg-light: #fdfaf6;
+    --card-bg: #ffffff;
+    --border: #e2e8f0;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: var(--bg-light);
+    color: #1e293b;
+    padding: 16px;
+    line-height: 1.5;
+  }
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 14px;
+    border-bottom: 2px solid #ecd9c6;
+  }
+  .header h1 {
+    font-size: 1.35rem;
+    color: #8b0000;
+    margin-bottom: 6px;
+    font-weight: 700;
+  }
+  .header p {
+    font-size: 0.85rem;
+    color: #64748b;
+  }
+  .tabs {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+  .tab-btn {
+    background: #fff;
+    border: 1px solid #cbd5e1;
+    color: #475569;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .tab-btn.active, .tab-btn:hover {
+    background: #8b0000;
+    color: #fff;
+    border-color: #8b0000;
+  }
+  .section-container {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .track-card {
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    padding: 14px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+  }
+  .track-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  .track-title {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #0f172a;
+  }
+  .track-tag {
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+    background: #e2e8f0;
+    color: #334155;
+  }
+  .track-desc {
+    font-size: 0.8rem;
+    color: #64748b;
+    margin-bottom: 10px;
+  }
+  audio {
+    width: 100%;
+    height: 34px;
+  }
+  .method-box {
+    margin-top: 24px;
+    background: #fff;
+    border: 1px solid #cbd5e1;
+    border-left: 4px solid #8b0000;
+    border-radius: 8px;
+    padding: 14px;
+  }
+  .method-box h3 {
+    font-size: 0.95rem;
+    color: #8b0000;
+    margin-bottom: 8px;
+  }
+  .method-box ol {
+    margin-left: 18px;
+    font-size: 0.82rem;
+    color: #334155;
+    line-height: 1.6;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>🎧 PHÒNG LUYỆN NGHE JLPT CHÍNH THỨC</h1>
+  <p>Trình phát trực tiếp audio từ Japan Foundation & JEES (Đề Official Practice Workbook 2018)</p>
+</div>
+
+<div class="tabs">
+  <button class="tab-btn active" onclick="switchLevel('n2')">JLPT N2 (Trọng tâm)</button>
+  <button class="tab-btn" onclick="switchLevel('n3')">JLPT N3 (Nền tảng)</button>
+  <button class="tab-btn" onclick="switchLevel('n4')">JLPT N4 (Bổ trợ)</button>
+</div>
+
+<!-- N2 TRACKS -->
+<div id="level-n2" class="section-container">
+  <div class="track-card">
+    <div class="track-header">
+      <span class="track-title">Mondai 1: 課題理解 (Task-based Comprehension)</span>
+      <span class="track-tag">N2 · 2018</span>
+    </div>
+    <div class="track-desc">Nhiệm vụ: Nghe tình huống và xác định hành động tiếp theo của nhân vật. Đọc trước câu hỏi và 4 phương án!</div>
+    <audio controls preload="none">
+      <source src="https://www.jlpt.jp/samples/sample2018/mp3/N2Q1.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="track-card">
+    <div class="track-header">
+      <span class="track-title">Mondai 2: ポイント理解 (Key Points Comprehension)</span>
+      <span class="track-tag">N2 · 2018</span>
+    </div>
+    <div class="track-desc">Nhiệm vụ: Nắm bắt chi tiết cốt lõi và nguyên nhân / lý do. Đề có thời gian đọc trước câu hỏi.</div>
+    <audio controls preload="none">
+      <source src="https://www.jlpt.jp/samples/sample2018/mp3/N2Q2.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="track-card">
+    <div class="track-header">
+      <span class="track-title">Mondai 3: 概要理解 (General Outline)</span>
+      <span class="track-tag">N2 · 2018</span>
+    </div>
+    <div class="track-desc">Nhiệm vụ: Tóm tắt quan điểm của người nói. Đề KHÔNG in sẵn câu hỏi hay phương án trên giấy!</div>
+    <audio controls preload="none">
+      <source src="https://www.jlpt.jp/samples/sample2018/mp3/N2Q3.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="track-card">
+    <div class="track-header">
+      <span class="track-title">Mondai 4: 即時応答 (Quick Response)</span>
+      <span class="track-tag">N2 · 2018</span>
+    </div>
+    <div class="track-desc">Nhiệm vụ: Phản xạ đáp lời ngay lập tức trong 3 giây. Rất dễ mất điểm do nhầm lẫn kính ngữ/thể rút gọn!</div>
+    <audio controls preload="none">
+      <source src="https://www.jlpt.jp/samples/sample2018/mp3/N2Q4.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="track-card">
+    <div class="track-header">
+      <span class="track-title">Mondai 5: 統合理解 (Integrated Comprehension)</span>
+      <span class="track-tag">N2 · 2018</span>
+    </div>
+    <div class="track-desc">Nhiệm vụ: Đoạn văn dài đối chiếu 2 ý kiến hoặc so sánh 4 lựa chọn để ra quyết định.</div>
+    <audio controls preload="none">
+      <source src="https://www.jlpt.jp/samples/sample2018/mp3/N2Q5.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+</div>
+
+<!-- N3 TRACKS -->
+<div id="level-n3" class="section-container" style="display:none;">
+  <div class="track-card">
+    <div class="track-header">
+      <span class="track-title">Mondai 1: 課題理解 (Task-based)</span>
+      <span class="track-tag">N3 · 2018</span>
+    </div>
+    <div class="track-desc">Tình huống đời sống hàng ngày: việc cần làm trước tiên, người cần gặp.</div>
+    <audio controls preload="none">
+      <source src="https://www.jlpt.jp/samples/sample2018/mp3/N3Q1.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="track-card">
+    <div class="track-header">
+      <span class="track-title">Mondai 2: ポイント理解 (Key Points)</span>
+      <span class="track-tag">N3 · 2018</span>
+    </div>
+    <div class="track-desc">Nắm lý do, mục đích chuyển phát hoặc đặt hẹn.</div>
+    <audio controls preload="none">
+      <source src="https://www.jlpt.jp/samples/sample2018/mp3/N3Q2.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="track-card">
+    <div class="track-header">
+      <span class="track-title">Mondai 3: 概要理解 (General Outline)</span>
+      <span class="track-tag">N3 · 2018</span>
+    </div>
+    <div class="track-desc">Ý chính bài thuyết minh hoặc phát biểu ngắn.</div>
+    <audio controls preload="none">
+      <source src="https://www.jlpt.jp/samples/sample2018/mp3/N3Q3.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="track-card">
+    <div class="track-header">
+      <span class="track-title">Mondai 4: 発話表現 (Utterance Expressions)</span>
+      <span class="track-tag">N3 · 2018</span>
+    </div>
+    <div class="track-desc">Nhìn tranh và chọn câu nói phù hợp với hướng mũi tên chỉ người.</div>
+    <audio controls preload="none">
+      <source src="https://www.jlpt.jp/samples/sample2018/mp3/N3Q4.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="track-card">
+    <div class="track-header">
+      <span class="track-title">Mondai 5: 即時応答 (Quick Response)</span>
+      <span class="track-tag">N3 · 2018</span>
+    </div>
+    <div class="track-desc">Câu đối đáp ngắn phản xạ tự nhiên.</div>
+    <audio controls preload="none">
+      <source src="https://www.jlpt.jp/samples/sample2018/mp3/N3Q5.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+</div>
+
+<!-- N4 TRACKS -->
+<div id="level-n4" class="section-container" style="display:none;">
+  <div class="track-card">
+    <div class="track-header">
+      <span class="track-title">Mondai 1: 課題理解 (Task-based)</span>
+      <span class="track-tag">N4 · 2018</span>
+    </div>
+    <div class="track-desc">N4 nghe hội thoại cơ bản: mua đồ, mượn sách, hẹn giờ.</div>
+    <audio controls preload="none">
+      <source src="https://www.jlpt.jp/samples/sample2018/mp3/N4Q1.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="track-card">
+    <div class="track-header">
+      <span class="track-title">Mondai 2: ポイント理解 (Key Points)</span>
+      <span class="track-tag">N4 · 2018</span>
+    </div>
+    <div class="track-desc">Nghe bắt từ khóa chi tiết về nơi chốn, số lượng, màu sắc.</div>
+    <audio controls preload="none">
+      <source src="https://www.jlpt.jp/samples/sample2018/mp3/N4Q2.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="track-card">
+    <div class="track-header">
+      <span class="track-title">Mondai 3: 発話表現 (Utterance Expressions)</span>
+      <span class="track-tag">N4 · 2018</span>
+    </div>
+    <div class="track-desc">Nhìn tranh chọn câu chào hỏi hoặc xin phép chuẩn.</div>
+    <audio controls preload="none">
+      <source src="https://www.jlpt.jp/samples/sample2018/mp3/N4Q3.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="track-card">
+    <div class="track-header">
+      <span class="track-title">Mondai 4: 即時応答 (Quick Response)</span>
+      <span class="track-tag">N4 · 2018</span>
+    </div>
+    <div class="track-desc">Phản xạ đáp lời cơ bản thường ngày.</div>
+    <audio controls preload="none">
+      <source src="https://www.jlpt.jp/samples/sample2018/mp3/N4Q4.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+</div>
+
+<div class="method-box">
+  <h3>💡 PHƯƠNG PHÁP LUYỆN NGHE ĐỘT PHÁ CHO JLPT N2:</h3>
+  <ol>
+    <li><strong>Lần 1 (Bấm giờ làm bài):</strong> Nghe không dừng, làm bài và chọn đáp án như trong phòng thi thật.</li>
+    <li><strong>Lần 2 (Nghe chép chính tả - Dictation):</strong> Bật từng câu, dừng lại và chép ra giấy để phát hiện từ bị nuốt âm, biến âm, trợ từ nói nhanh.</li>
+    <li><strong>Lần 3 (Đối chiếu Script):</strong> Mở file <code>N2script.pdf</code> tại Kho đề để kiểm tra những đoạn không nghe được.</li>
+    <li><strong>Lần 4 (Shadowing):</strong> Vừa nghe vừa lặp lại đồng thời theo tốc độ và ngữ điệu của người bản xứ (3–5 lần/bài).</li>
+  </ol>
+</div>
+
+<script>
+function switchLevel(lvl) {
+  document.getElementById('level-n2').style.display = (lvl === 'n2') ? 'flex' : 'none';
+  document.getElementById('level-n3').style.display = (lvl === 'n3') ? 'flex' : 'none';
+  document.getElementById('level-n4').style.display = (lvl === 'n4') ? 'flex' : 'none';
+  
+  const btns = document.querySelectorAll('.tab-btn');
+  btns.forEach(b => b.classList.remove('active'));
+  event.target.classList.add('active');
+}
+</script>
+
+</body>
+</html>
