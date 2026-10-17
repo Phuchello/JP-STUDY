@@ -102,7 +102,8 @@ from scripts.curriculum.reconcile_blind_review import (
     check_review_integrity,
     audit_answer_distribution,
     load_all_blind_reviews,
-    audit_star_report_against_bank
+    audit_star_report_against_bank,
+    make_production_workspace_adapter
 )
 from scripts.curriculum.generate_practice_release_gate import (
     generate_practice_release_gate_report
@@ -771,7 +772,7 @@ class TestAdversarialQAMutations(unittest.TestCase):
                 "sheetSync": True,
                 "receiptId": "rec_001"
             }
-        reconciled = reconcile_practice_set_status(ps, bank_map, workspace_verifier=mismatch_set_provider)
+        reconciled = reconcile_practice_set_status(ps, bank_map, workspace_verifier=make_production_workspace_adapter(mismatch_set_provider))
         passed = (reconciled["readinessStatus"] == "QA_PASSED_NOT_DEPLOYED" and reconciled["deployment"].get("liveVerified") is False and reconciled["deployment"].get("verificationStage") == "PRACTICE_SET_ID_MISMATCH")
         record_result("P0-2 Attack 2: Wrong practice set ID", "reconcile_practice_set_status", "Provider receipt bound to different practice set ID", "Rejected with PRACTICE_SET_ID_MISMATCH", f"stage={reconciled['deployment'].get('verificationStage')}", passed)
         self.assertTrue(passed)
@@ -804,7 +805,7 @@ class TestAdversarialQAMutations(unittest.TestCase):
                 "sheetSync": True,
                 "receiptId": "rec_001"
             }
-        reconciled = reconcile_practice_set_status(ps, bank_map, workspace_verifier=wrong_qmap_provider)
+        reconciled = reconcile_practice_set_status(ps, bank_map, workspace_verifier=make_production_workspace_adapter(wrong_qmap_provider))
         passed = (reconciled["readinessStatus"] == "QA_PASSED_NOT_DEPLOYED" and reconciled["deployment"].get("liveVerified") is False and reconciled["deployment"].get("verificationStage") == "QUESTION_MAPPING_MISMATCH")
         record_result("P0-2 Attack 3: Wrong question mapping", "reconcile_practice_set_status", "Provider verified question IDs != practice set question IDs", "Rejected with QUESTION_MAPPING_MISMATCH", f"stage={reconciled['deployment'].get('verificationStage')}", passed)
         self.assertTrue(passed)
@@ -837,7 +838,7 @@ class TestAdversarialQAMutations(unittest.TestCase):
                 "sheetSync": True,
                 "receiptId": None  # Missing receipt!
             }
-        reconciled = reconcile_practice_set_status(ps, bank_map, workspace_verifier=no_receipt_provider)
+        reconciled = reconcile_practice_set_status(ps, bank_map, workspace_verifier=make_production_workspace_adapter(no_receipt_provider))
         passed = (reconciled["readinessStatus"] == "QA_PASSED_NOT_DEPLOYED" and reconciled["deployment"].get("liveVerified") is False and reconciled["deployment"].get("verificationStage") == "MISSING_SUBMISSION_RECEIPT")
         record_result("P0-2 Attack 4: Missing submission receipt", "reconcile_practice_set_status", "Provider lacks synthetic submission receipt", "Rejected with MISSING_SUBMISSION_RECEIPT", f"stage={reconciled['deployment'].get('verificationStage')}", passed)
         self.assertTrue(passed)
@@ -871,7 +872,7 @@ class TestAdversarialQAMutations(unittest.TestCase):
                 "receiptId": "rec_pilot_001",
                 "receiptFormId": "1FAIpQLSc_OTHER_FORM_99999"  # Belongs to other form!
             }
-        reconciled = reconcile_practice_set_status(ps, bank_map, workspace_verifier=other_form_receipt_provider)
+        reconciled = reconcile_practice_set_status(ps, bank_map, workspace_verifier=make_production_workspace_adapter(other_form_receipt_provider))
         passed = (reconciled["readinessStatus"] == "QA_PASSED_NOT_DEPLOYED" and reconciled["deployment"].get("liveVerified") is False and reconciled["deployment"].get("verificationStage") == "RECEIPT_FORM_MISMATCH")
         record_result("P0-2 Attack 5: Receipt belongs to another Form", "reconcile_practice_set_status", "Receipt bound to another Form ID", "Rejected with RECEIPT_FORM_MISMATCH", f"stage={reconciled['deployment'].get('verificationStage')}", passed)
         self.assertTrue(passed)
@@ -887,7 +888,8 @@ class TestAdversarialQAMutations(unittest.TestCase):
             "deployment": {
                 "isDeployed": True,
                 "formId": "1FAIpQLSc_real_1234567890",
-                "responderUrl": "https://docs.google.com/forms/d/e/1FAIpQLSc_real_1234567890/viewform"
+                "responderUrl": "https://docs.google.com/forms/d/e/1FAIpQLSc_real_1234567890/viewform",
+                "expectedSheetId": "SYNTHETIC-EXPECTED-SHEET-ID-TEST-001"
             }
         }
         def wrong_sheet_provider(ps_obj):
@@ -898,14 +900,13 @@ class TestAdversarialQAMutations(unittest.TestCase):
                 "formId": "1FAIpQLSc_real_1234567890",
                 "verifiedQuestionIds": ["N4-TEST-001"],
                 "sheetId": "wrong_destination_sheet_id",
-                "expectedSheetId": "13RwK_Wvf22cms2beOyLsjMsG77JIrVKFDGZ5vAS4ZPs",  # Mismatch!
                 "formExists": True,
                 "responderAccess": True,
                 "gradingVerified": True,
                 "sheetSync": True,
                 "receiptId": "rec_001"
             }
-        reconciled = reconcile_practice_set_status(ps, bank_map, workspace_verifier=wrong_sheet_provider)
+        reconciled = reconcile_practice_set_status(ps, bank_map, workspace_verifier=make_production_workspace_adapter(wrong_sheet_provider))
         passed = (reconciled["readinessStatus"] == "QA_PASSED_NOT_DEPLOYED" and reconciled["deployment"].get("liveVerified") is False and reconciled["deployment"].get("verificationStage") == "DESTINATION_SHEET_MISMATCH")
         record_result("P0-2 Attack 6: Wrong destination Sheet", "reconcile_practice_set_status", "Destination Sheet ID does not match expected Sheet", "Rejected with DESTINATION_SHEET_MISMATCH", f"stage={reconciled['deployment'].get('verificationStage')}", passed)
         self.assertTrue(passed)
@@ -939,7 +940,7 @@ class TestAdversarialQAMutations(unittest.TestCase):
                 "receiptId": "rec_001",
                 "isStale": True  # Stale evidence flag
             }
-        reconciled = reconcile_practice_set_status(ps, bank_map, workspace_verifier=stale_evidence_provider)
+        reconciled = reconcile_practice_set_status(ps, bank_map, workspace_verifier=make_production_workspace_adapter(stale_evidence_provider))
         passed = (reconciled["readinessStatus"] == "QA_PASSED_NOT_DEPLOYED" and reconciled["deployment"].get("liveVerified") is False and reconciled["deployment"].get("verificationStage") == "STALE_DEPLOYMENT_EVIDENCE")
         record_result("P0-2 Attack 7: Stale verification evidence", "reconcile_practice_set_status", "Provider reports verification evidence is expired/stale", "Rejected with STALE_DEPLOYMENT_EVIDENCE", f"stage={reconciled['deployment'].get('verificationStage')}", passed)
         self.assertTrue(passed)
@@ -972,7 +973,7 @@ class TestAdversarialQAMutations(unittest.TestCase):
                 "sheetSync": True,
                 "receiptId": "rec_001"
             }
-        reconciled = reconcile_practice_set_status(ps, bank_map, workspace_verifier=grading_fail_provider)
+        reconciled = reconcile_practice_set_status(ps, bank_map, workspace_verifier=make_production_workspace_adapter(grading_fail_provider))
         passed = (reconciled["readinessStatus"] == "QA_PASSED_NOT_DEPLOYED" and reconciled["deployment"].get("liveVerified") is False and reconciled["deployment"].get("verificationStage") == "GRADING_VERIFICATION_FAILED")
         record_result("P0-2 Attack 8: Incomplete grading verification", "reconcile_practice_set_status", "Provider gradingVerified=False", "Rejected with GRADING_VERIFICATION_FAILED", f"stage={reconciled['deployment'].get('verificationStage')}", passed)
         self.assertTrue(passed)
@@ -1010,7 +1011,12 @@ class TestAdversarialQAMutations(unittest.TestCase):
         self.assertTrue(passed)
 
     def test_p0_2_attack_10_authorized_workspace_provider_verification(self):
-        """10. Authorized workspace provider verification succeeds."""
+        """10. Authorized production workspace adapter (via make_production_workspace_adapter) succeeds."""
+        # Synthetic IDs — no real Google resource identifiers in public repository
+        SYNTHETIC_FORM_ID = "SYNTHETIC-FORM-ID-TEST-AUTHORIZED-001"
+        SYNTHETIC_SHEET_ID = "SYNTHETIC-SHEET-ID-TEST-AUTHORIZED-001"
+        SYNTHETIC_RECEIPT_ID = "SYNTHETIC-RECEIPT-ID-TEST-001"
+
         bank_map = {"N4-TEST-001": self.sample_non_star_question}
         ps = {
             "id": "MD-N4-TEST-AUTH-PROVIDER",
@@ -1019,42 +1025,133 @@ class TestAdversarialQAMutations(unittest.TestCase):
             "questionIds": ["N4-TEST-001"],
             "deployment": {
                 "isDeployed": True,
-                "formId": "1FAIpQLSc_real_1234567890",
-                "responderUrl": "https://docs.google.com/forms/d/e/1FAIpQLSc_real_1234567890/viewform",
+                "formId": SYNTHETIC_FORM_ID,
+                "responderUrl": f"https://docs.google.com/forms/d/e/{SYNTHETIC_FORM_ID}/viewform",
+                "expectedSheetId": SYNTHETIC_SHEET_ID,  # expected Sheet configured in practice set
                 "qaResult": "PASS"
             }
         }
-        def authorized_provider(ps_obj):
+
+        # Plain callback with all correct data — must NOT reach LIVE_VERIFIED without the adapter token.
+        def raw_callback(ps_obj):
             return {
                 "providerType": "AUTHENTICATED_GOOGLE_WORKSPACE_API",
                 "isAuthorizedWorkspaceProvider": True,
                 "practiceSetId": "MD-N4-TEST-AUTH-PROVIDER",
-                "formId": "1FAIpQLSc_real_1234567890",
+                "formId": SYNTHETIC_FORM_ID,
                 "verifiedQuestionIds": ["N4-TEST-001"],
-                "sheetId": "13RwK_Wvf22cms2beOyLsjMsG77JIrVKFDGZ5vAS4ZPs",
-                "expectedSheetId": "13RwK_Wvf22cms2beOyLsjMsG77JIrVKFDGZ5vAS4ZPs",
+                "sheetId": SYNTHETIC_SHEET_ID,
                 "formExists": True,
                 "responderAccess": True,
                 "gradingVerified": True,
                 "sheetSync": True,
-                "receiptId": "rec_pilot_auth_receipt_001",
-                "receiptFormId": "1FAIpQLSc_real_1234567890",
+                "receiptId": SYNTHETIC_RECEIPT_ID,
+                "receiptFormId": SYNTHETIC_FORM_ID,
                 "isStale": False,
                 "timestamp": 1729000000
             }
 
-        reconciled = reconcile_practice_set_status(ps, bank_map, workspace_verifier=authorized_provider)
+        # Wrap through the production adapter factory — this is the only way to inject the token.
+        production_adapter = make_production_workspace_adapter(raw_callback)
+
+        reconciled = reconcile_practice_set_status(ps, bank_map, workspace_verifier=production_adapter)
         passed = (
             reconciled["readinessStatus"] == "LIVE_VERIFIED" and
             reconciled["deployment"].get("liveVerified") is True and
             reconciled["deployment"].get("verificationStage") == "LIVE_VERIFIED"
         )
-        record_result("P0-2 Attack 10: Authorized provider live verification", "reconcile_practice_set_status", "Provider verifying all stages with cryptographic bindings", "readinessStatus=LIVE_VERIFIED", f"{reconciled['readinessStatus']}", passed)
+        record_result("P0-2 Attack 10: Production adapter live verification", "reconcile_practice_set_status", "make_production_workspace_adapter wrapping callback with all correct bindings", "readinessStatus=LIVE_VERIFIED", f"{reconciled['readinessStatus']}", passed)
         self.assertTrue(passed)
 
     # =========================================================================
-    # PART 6: P1-B ZERO-ITEM MOCK REPORTING BUG
+    # PART 6: P0-A MANDATORY REGRESSION — FAKE AUTHENTICATED CALLBACK
     # =========================================================================
+
+    def test_p0_a_attack_11_fake_authenticated_callback_never_live_verified(self):
+        """
+        P0-A Attack 11 (MANDATORY REGRESSION):
+        A fake callback that self-declares:
+          providerType = AUTHENTICATED_GOOGLE_WORKSPACE_API
+          isAuthorizedWorkspaceProvider = true
+          formExists = true, responderAccess = true, gradingVerified = true, sheetSync = true
+          receiptId = fake-receipt, sheetId = fake-sheet
+        with NO real authenticated Google Workspace session and NO _PRODUCTION_ADAPTER_TOKEN.
+
+        EXPECTED: NEVER LIVE_VERIFIED.
+        The callback must be rejected at the trust boundary because it is not wrapped
+        by make_production_workspace_adapter() and therefore lacks the opaque token.
+        """
+        SYNTHETIC_FORM_ID = "SYNTHETIC-FORM-ID-ATTACK-11"
+
+        bank_map = {"N4-TEST-001": self.sample_non_star_question}
+        ps = {
+            "id": "MD-N4-SET-ATTACK-11",
+            "category": "SKILL_PRACTICE",
+            "level": "N4",
+            "questionIds": ["N4-TEST-001"],
+            "deployment": {
+                "isDeployed": True,
+                "formId": SYNTHETIC_FORM_ID,
+                "responderUrl": f"https://docs.google.com/forms/d/e/{SYNTHETIC_FORM_ID}/viewform",
+                "qaResult": "PASS"
+            }
+        }
+
+        # ── The key: a plain callback with ALL correct values self-declared ──
+        # This simulates the exact attack: caller constructs a dict that looks
+        # like a fully authenticated provider response but has no real GWS session.
+        def fake_authenticated_callback(ps_obj):
+            return {
+                # Self-declares as authentic — but this is fully caller-controlled.
+                "providerType": "AUTHENTICATED_GOOGLE_WORKSPACE_API",
+                "isAuthorizedWorkspaceProvider": True,
+                "isAuthorized": True,
+                # Correct bindings — everything looks right.
+                "practiceSetId": "MD-N4-SET-ATTACK-11",
+                "formId": SYNTHETIC_FORM_ID,
+                "verifiedQuestionIds": ["N4-TEST-001"],
+                "sheetId": "fake-sheet",
+                "formExists": True,
+                "responderAccess": True,
+                "gradingVerified": True,
+                "sheetSync": True,
+                "receiptId": "fake-receipt",
+                "receiptFormId": SYNTHETIC_FORM_ID,
+                "isStale": False,
+                "timestamp": 1729000000,
+                # No _adapterToken — cannot forge object identity.
+            }
+
+        # Do NOT wrap with make_production_workspace_adapter. Use the raw callback directly.
+        reconciled = reconcile_practice_set_status(ps, bank_map, workspace_verifier=fake_authenticated_callback)
+
+        # MUST be rejected at the trust boundary — never LIVE_VERIFIED.
+        never_live = (
+            reconciled["readinessStatus"] != "LIVE_VERIFIED" and
+            reconciled["deployment"].get("liveVerified") is not True
+        )
+        stage = reconciled["deployment"].get("verificationStage", "")
+        is_rejected_at_trust_boundary = stage == "TEST_ADAPTER_CANNOT_GRANT_LIVE_VERIFIED"
+
+        passed = never_live and is_rejected_at_trust_boundary
+        record_result(
+            "P0-A Attack 11: Fake authenticated callback self-assertion rejected",
+            "verify_deployment_evidence",
+            "Plain callback self-declaring providerType=AUTHENTICATED + all correct bindings, no adapter token",
+            "NEVER LIVE_VERIFIED; stage=TEST_ADAPTER_CANNOT_GRANT_LIVE_VERIFIED",
+            f"status={reconciled['readinessStatus']}, stage={stage}",
+            passed
+        )
+        self.assertTrue(passed, (
+            f"SECURITY REGRESSION: A fake callback that self-declares authorization "
+            f"managed to bypass the production trust boundary. "
+            f"readinessStatus={reconciled['readinessStatus']}, stage={stage}"
+        ))
+
+    # =========================================================================
+    # PART 7: P1-B ZERO-ITEM MOCK REPORTING BUG
+    # =========================================================================
+
 
     def test_p1b_zero_item_mock_reporting_not_evaluable(self):
         # Verify that generating practice release gate report handles empty mock sets
@@ -1086,14 +1183,23 @@ def write_adversarial_report():
         f"- **Total Tests Executed**: {len(TEST_RESULTS_LOG)}",
         f"- **Passed Tests**: {sum(1 for t in TEST_RESULTS_LOG if t['verdict'] == 'PASS')}",
         f"- **Failed Tests**: {sum(1 for t in TEST_RESULTS_LOG if t['verdict'] == 'FAIL')}",
-        f"- **Adversarial Gate Verdict**: **{'PASS (100% Defect Detection)' if all(t['verdict'] == 'PASS' for t in TEST_RESULTS_LOG) else 'FAIL'}**",
+        f"- **Summary**: **{sum(1 for t in TEST_RESULTS_LOG if t['verdict'] == 'PASS')}/{len(TEST_RESULTS_LOG)} specified regression scenarios passed**",
+        "",
+        "### Explicit Limitations & Trust Boundary Disclaimers:",
+        "- **No complete defect-detection guarantee**: Passing specified adversarial regression tests validates specific defense mechanisms against known attack patterns, but does not mathematically guarantee total absence of unknown bugs or future regressions.",
+        "- **Mock provider tests do not prove live authorization**: Unit and mutation tests utilizing test adapters, mock callbacks, or simulated tokens verify internal control-flow and cryptographic binding logic, but do not prove that an authenticated production Google Workspace session has succeeded or is active.",
+        "- **Fingerprint integrity does not prove semantic correctness**: Multi-tier SHA-256 cryptographic hashes guarantee that authored content and scoring keys have not drifted or been tampered with; they do not independently establish that the Japanese phrasing, distractors, or pedagogy are natural and flawless.",
+        "- **Independent reviewer provenance remains partially unverified**: Review provenance status is tracked as PARTIAL due to lack of public-key cryptographic signatures from external institutions. Automated tests cannot substitute for external expert panel consensus.",
+        "- **No new Forms have yet been deployed**: Phase 3.7 practice sets remain in `QA_PASSED_NOT_DEPLOYED` status until live deployment with genuine Google Workspace authorization occurs. Zero new Forms are published on Google Drive without explicit owner authorization.",
+        "",
         "- **Coverage Scope**:",
         "  - Part 1: 12 Production Mutation Integration Scenarios",
         "  - Part 2: 10 STAR Structure Negative Controls (P0-A Strict Parser)",
         "  - Part 3: 10 Forged Semantic Ledger Attack Tests (P0-1 Derived Coverage & Provenance Schema)",
         "  - Part 4: Real Linguistic Negative Control (Tanaka-san Scrambling)",
         "  - Part 5: 10 Google Forms Deployment Evidence & Provider Verification Tests (P0-2)",
-        "  - Part 6: P1-B Zero-Item Mock Reporting Regression Audit",
+        "  - Part 6: P0-A Mandatory Regression: Fake Authenticated Callback Never LIVE_VERIFIED (Attack 11)",
+        "  - Part 7: P1-B Zero-Item Mock Reporting Regression Audit",
         "",
         "---",
         "",
@@ -1152,6 +1258,7 @@ def write_adversarial_report():
         "8. **Attack 8**: Incomplete quiz grading verification -> Rejected (`GRADING_VERIFICATION_FAILED`).",
         "9. **Attack 9**: Unauthorized test double rejected from production release -> Rejected (`UNAUTHORIZED_TEST_DOUBLE_REJECTED`).",
         "10. **Attack 10**: Authorized Google Workspace provider with verified synthetic receipt -> `LIVE_VERIFIED`.",
+        "11. **Attack 11 (P0-A Mandatory Regression)**: Fake callback self-declaring authorization without adapter token -> Rejected (`TEST_ADAPTER_CANNOT_GRANT_LIVE_VERIFIED`).",
         "",
         "---",
         "",

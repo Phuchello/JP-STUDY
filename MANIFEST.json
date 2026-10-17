@@ -1,8 +1,8 @@
 {
   "snapshotDate": "2026-10-15",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
-  "fileCountExcludingManifest": 242,
-  "totalBytesExcludingManifest": 5898282,
+  "fileCountExcludingManifest": 243,
+  "totalBytesExcludingManifest": 5927235,
   "files": [
     {
       "path": ".gitattributes",
@@ -450,8 +450,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 28406,
-      "sha256": "d6c82502bf6e9ea527b7a2bbf1ab3374ebf9d64dd95af6906e2879e10fad4283",
+      "bytes": 31873,
+      "sha256": "f8694fc2ec11ac4b9c7c86a622b52712f1d5246ea0dd70500ddb616a0b1201e3",
       "status": "VERIFIED"
     },
     {
@@ -762,8 +762,8 @@
     },
     {
       "path": "FILE_INDEX.md",
-      "bytes": 23775,
-      "sha256": "ddefdc156fb3d69976b570f37850478af09eb2ff4fc306fc360ae33ccbf632d6",
+      "bytes": 23869,
+      "sha256": "20b00680e03a3e9e9d81de0b600809e1fc4c47543c60667d231649c615112009",
       "status": "VERIFIED"
     },
     {
@@ -792,8 +792,8 @@
     },
     {
       "path": "PROJECT_STATUS.md",
-      "bytes": 26329,
-      "sha256": "6e429086034d40592f52f8be9b3cbd0e8ebe6396363dbe4b1715a0fca740e65c",
+      "bytes": 30845,
+      "sha256": "8c12122c335b210ac53d9f491d07b4ed561d113eeec9f40ab4f8866910eece0b",
       "status": "VERIFIED"
     },
     {
@@ -804,8 +804,8 @@
     },
     {
       "path": "qa/ADVERSARIAL_TEST_RESULTS.md",
-      "bytes": 14668,
-      "sha256": "3bd605c2167b127dfd37ee7fcd5f1b51c5aa754f1ccaccfacd1a4a25f5baf1ab",
+      "bytes": 16787,
+      "sha256": "ae0fc6903835b8cf1451d0a87883c2dac575bbc81201eb07fe351b657688a0fc",
       "status": "VERIFIED"
     },
     {
@@ -900,8 +900,8 @@
     },
     {
       "path": "qa/file_status.json",
-      "bytes": 13840,
-      "sha256": "d11a6bb939871814df747f877b67ce69a3a789da87a982768981d85f30ff03e1",
+      "bytes": 13896,
+      "sha256": "0e4dc65dfe181e58fb07464b44465a915c8ef913cbe9c08f44cea780b63e1231",
       "status": "VERIFIED"
     },
     {
@@ -1103,6 +1103,12 @@
       "status": "VERIFIED"
     },
     {
+      "path": "qa/PUBLIC_REPO_DATA_EXPOSURE_AUDIT.md",
+      "bytes": 6603,
+      "sha256": "1a4d967da7053ca0edb3bf837e3e5c962b8b861e5a3d699da39790f0cad43692",
+      "status": "VERIFIED"
+    },
+    {
       "path": "qa/PUBLICATION_QA.md",
       "bytes": 3653,
       "sha256": "2e216cb242f0d07128783ee8f02663b9e4ac867b0c157fc67de57941ae23fe1e",
@@ -1159,7 +1165,7 @@
     {
       "path": "qa/REPRODUCIBILITY_AUDIT.md",
       "bytes": 3759,
-      "sha256": "fba10bed97cedcaa1d5db63ac8a0549a493ed69f204ed6b06aae111c8e5e0345",
+      "sha256": "a5fb8591d471701b1bbe7d3686deba08d4c7a05ff340984bab3b0aba60ff4752",
       "status": "VERIFIED"
     },
     {
@@ -1326,8 +1332,8 @@
     },
     {
       "path": "scripts/curriculum/reconcile_blind_review.py",
-      "bytes": 37103,
-      "sha256": "e4609341b680193798f22d37f8db87536b524e672a067f367f2342d59fefb60b",
+      "bytes": 42344,
+      "sha256": "aafd98cb86b4e7e11f63f96fa9a8bd4557747a7a95be1f5c954540bcfba53053",
       "status": "VERIFIED"
     },
     {
@@ -1416,8 +1422,8 @@
     },
     {
       "path": "scripts/tests/test_qa_adversarial_mutations.py",
-      "bytes": 67750,
-      "sha256": "4bda2c19c00c3aa83d30a9df53ebe7d20fbd706d2f33d368a8ce5ce3c5db3719",
+      "bytes": 74607,
+      "sha256": "9855a435694ce916ab5b3cb22f080b2106307f2ccab2e15ebf27e5702b2a3398",
       "status": "VERIFIED"
     },
     {

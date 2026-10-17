@@ -1,5 +1,33 @@
 # Trạng thái dự án — 17/10/2026
 
+## Phase 3.7 — Gia cố ranh giới tin cậy nhà cung cấp, kiểm toán phơi nhiễm dữ liệu công khai & chuẩn bị thí điểm (Provider Trust Boundary Hardening, Public Data Hygiene & Pilot Delivery)
+
+- **P0-A Gia cố ranh giới tin cậy nhà cung cấp triển khai (`reconcile_blind_review.py`)**:
+  - Loại bỏ hoàn toàn cơ chế tự chứng thực quyền hạn bằng chuỗi và cờ boolean do bên gọi kiểm soát (`AUTHENTICATED_GOOGLE_WORKSPACE_API`, `isAuthorizedWorkspaceProvider=True`).
+  - Thiết lập thẻ định danh adapter mờ đục theo đối tượng Python (`_PRODUCTION_ADAPTER_TOKEN`) chỉ được cấp thông qua hàm bao bọc duy nhất `make_production_workspace_adapter()`.
+  - Khóa chặt 10 ràng buộc mật mã và ngữ cảnh thực tế: `practiceSetId`, `formId`/`receiptFormId`, `verifiedQuestionIds`, `formExists`, `sheetId` (được đối chiếu trực tiếp với `deployment.expectedSheetId` cấu hình sẵn trong bộ đề, ngăn chặn kẻ tấn công tự cung cấp cặp ID trùng khớp), `responderAccess`, `gradingVerified`, `sheetSync`, `receiptId` nộp bài thực tế, và kiểm tra tính mới của bằng chứng (non-stale).
+  - Triển khai bài kiểm thử hồi quy bắt buộc P0-A Attack 11 trong `test_qa_adversarial_mutations.py`: chứng minh một callback giả lập tự khai báo toàn bộ chuỗi/cờ xác thực nhưng thiếu token đối tượng sẽ bị từ chối triệt để (`TEST_ADAPTER_CANNOT_GRANT_LIVE_VERIFIED`) và không bao giờ đạt `LIVE_VERIFIED`.
+- **P0-B Kiểm toán phơi nhiễm tài nguyên và vệ sinh dữ liệu kho lưu trữ công khai (`qa/PUBLIC_REPO_DATA_EXPOSURE_AUDIT.md`)**:
+  - Vệ sinh toàn bộ hằng số kiểm thử trong `test_qa_adversarial_mutations.py`, thay thế ID Google Sheets thực tế bằng các hằng số giả lập rõ ràng (`SYNTHETIC-EXPECTED-SHEET-ID-TEST-001`, `SYNTHETIC-SHEET-ID-TEST-AUTHORIZED-001`).
+  - Xác nhận **0 chuỗi ID Google Sheets nội bộ** xuất hiện trong cây làm việc Git hiện tại.
+  - Kiểm toán lịch sử Git (`git log -S`): phát hiện chuỗi ID chỉ xuất hiện duy nhất ở commit `f5116a2` trong hằng số mock test.
+  - Đánh giá rủi ro khách quan: ID tệp Sheets không phải là mật khẩu hay token xác thực; Google Drive IAM quản lý quyền truy cập cấp máy chủ và đã kích hoạt chính sách `jpOwnerOnly_`.
+  - Xây dựng phương án xử lý lịch sử bằng `git-filter-repo` an toàn, không tự ý viết lại lịch sử hoặc force-push mà chờ phê duyệt của chủ sở hữu repo.
+- **P1 Báo cáo độ phủ kiểm thử trung thực & Tuyên bố giới hạn ranh giới tin cậy**:
+  - Chuẩn hóa báo cáo tóm tắt kiểm thử thành `45/45 specified regression scenarios passed`.
+  - Minh bạch 5 giới hạn cốt lõi: kiểm thử hồi quy không bảo đảm loại trừ 100% lỗi chưa biết; adapter kiểm thử không chứng minh phiên Google Workspace thật; mã băm nội dung không tự động chứng minh độ tự nhiên ngôn ngữ; nguồn gốc thẩm định mang tính bán phần (PARTIAL) do thiếu chữ ký số PKI; và chưa có biểu mẫu mới nào được triển khai trên Drive khi chưa có sự ủy quyền của chủ sở hữu.
+- **Bàn giao vận hành bộ đề thử nghiệm `MD-N4-VOC-01`**:
+  - Xác thực 5 câu hỏi N4 Từ vựng (`N4-MO-READ-001` đến `005`), 0 câu hỏi dấu sao, 100% `QA_VERIFIED`.
+  - Tuân thủ nghiêm ngặt quy tắc rào cản phân quyền (Authorization Blocker Rule): không có phiên Google Workspace hoạt động trong môi trường tự động; tuyệt đối 0 tạo URL Forms hoặc biên nhận giả mạo.
+  - Sẵn sàng kịch bản Google Apps Script tối thiểu để chủ sở hữu dự án bấm chạy triển khai thực tế.
+- **Bảo toàn 100% Forms P0**:
+  - 3 Forms P0 (`W01-B01`, `W01-B02`, `W01-B03`) tiếp tục hoạt động ổn định.
+- **Chỉ số kiểm thử đạt chuẩn tuyệt đối**:
+  - 45 / 45 adversarial mutation tests PASS (`scripts/tests/test_qa_adversarial_mutations.py`).
+  - 28 / 28 release verification checks PASS (`scripts/validate_release.py`).
+  - 394 / 394 drive-first test suite PASS (`scripts/drive_first/test_drive_first.cjs`).
+  - 5 / 5 negative question tests PASS (`scripts/tests/test_question_bank_negative.py`).
+
 ## Phase 3.7 — Sửa chữa triệt để lỗ hổng độ phủ ngữ nghĩa & Triệt tiêu cơ chế tự chứng thực triển khai cục bộ (Semantic Coverage Bypass Repair & Authenticated Deployment Gate Hardening)
 
 - **P0-1 Khắc phục triệt để lỗ hổng độ phủ thẩm định ngữ nghĩa câu hỏi dấu sao (Derived Semantic Coverage & Adversarial Proofs A–J)**:

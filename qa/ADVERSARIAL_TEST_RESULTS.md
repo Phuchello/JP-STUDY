@@ -2,17 +2,26 @@
 
 ## 1. EXECUTIVE SUMMARY & TEST METRICS
 
-- **Total Tests Executed**: 44
-- **Passed Tests**: 44
+- **Total Tests Executed**: 45
+- **Passed Tests**: 45
 - **Failed Tests**: 0
-- **Adversarial Gate Verdict**: **PASS (100% Defect Detection)**
+- **Summary**: **45/45 specified regression scenarios passed**
+
+### Explicit Limitations & Trust Boundary Disclaimers:
+- **No complete defect-detection guarantee**: Passing specified adversarial regression tests validates specific defense mechanisms against known attack patterns, but does not mathematically guarantee total absence of unknown bugs or future regressions.
+- **Mock provider tests do not prove live authorization**: Unit and mutation tests utilizing test adapters, mock callbacks, or simulated tokens verify internal control-flow and cryptographic binding logic, but do not prove that an authenticated production Google Workspace session has succeeded or is active.
+- **Fingerprint integrity does not prove semantic correctness**: Multi-tier SHA-256 cryptographic hashes guarantee that authored content and scoring keys have not drifted or been tampered with; they do not independently establish that the Japanese phrasing, distractors, or pedagogy are natural and flawless.
+- **Independent reviewer provenance remains partially unverified**: Review provenance status is tracked as PARTIAL due to lack of public-key cryptographic signatures from external institutions. Automated tests cannot substitute for external expert panel consensus.
+- **No new Forms have yet been deployed**: Phase 3.7 practice sets remain in `QA_PASSED_NOT_DEPLOYED` status until live deployment with genuine Google Workspace authorization occurs. Zero new Forms are published on Google Drive without explicit owner authorization.
+
 - **Coverage Scope**:
   - Part 1: 12 Production Mutation Integration Scenarios
   - Part 2: 10 STAR Structure Negative Controls (P0-A Strict Parser)
   - Part 3: 10 Forged Semantic Ledger Attack Tests (P0-1 Derived Coverage & Provenance Schema)
   - Part 4: Real Linguistic Negative Control (Tanaka-san Scrambling)
   - Part 5: 10 Google Forms Deployment Evidence & Provider Verification Tests (P0-2)
-  - Part 6: P1-B Zero-Item Mock Reporting Regression Audit
+  - Part 6: P0-A Mandatory Regression: Fake Authenticated Callback Never LIVE_VERIFIED (Attack 11)
+  - Part 7: P1-B Zero-Item Mock Reporting Regression Audit
 
 ---
 
@@ -31,7 +40,7 @@
 | `P0-1 Attack H: Stale scoring fingerprint` | `audit_star_question` | Correct blind hash but stale scoringSha256 | Rejected with SCORING_FINGERPRINT_MISMATCH | gate2=QA_REVIEW_REQUIRED, disp=QA_REVIEW_REQUIRED | **PASS** |
 | `P0-1 Attack I: Hidden defensible alternative in judgment` | `audit_star_question` | Permutation ABCD with slot 3 != key marked 'valid alternative' | Quarantined with AMBIGUOUS_ALTERNATIVE_FOUND | gate2=AMBIGUOUS_ALTERNATIVE_FOUND, disp=QUARANTINED | **PASS** |
 | `P0-1 Attack J: Unresolved judgment in review` | `audit_star_question` | One permutation marked 'unresolved' | Rejected with UNRESOLVED_LINGUISTIC_JUDGMENT | gate2=QA_REVIEW_REQUIRED, disp=QA_REVIEW_REQUIRED | **PASS** |
-| `P0-2 Attack 10: Authorized provider live verification` | `reconcile_practice_set_status` | Provider verifying all stages with cryptographic bindings | readinessStatus=LIVE_VERIFIED | LIVE_VERIFIED | **PASS** |
+| `P0-2 Attack 10: Production adapter live verification` | `reconcile_practice_set_status` | make_production_workspace_adapter wrapping callback with all correct bindings | readinessStatus=LIVE_VERIFIED | LIVE_VERIFIED | **PASS** |
 | `P0-2 Attack 1: Local verifiedSets forgery rejected` | `reconcile_practice_set_status` | Local JSON claiming LIVE_VERIFIED without authorized provider | Downgraded to QA_PASSED_NOT_DEPLOYED (liveVerified=False) | QA_PASSED_NOT_DEPLOYED (stage=DEPLOYMENT_METADATA_PRESENT_UNVERIFIED) | **PASS** |
 | `P0-2 Attack 2: Wrong practice set ID` | `reconcile_practice_set_status` | Provider receipt bound to different practice set ID | Rejected with PRACTICE_SET_ID_MISMATCH | stage=PRACTICE_SET_ID_MISMATCH | **PASS** |
 | `P0-2 Attack 3: Wrong question mapping` | `reconcile_practice_set_status` | Provider verified question IDs != practice set question IDs | Rejected with QUESTION_MAPPING_MISMATCH | stage=QUESTION_MAPPING_MISMATCH | **PASS** |
@@ -41,6 +50,7 @@
 | `P0-2 Attack 7: Stale verification evidence` | `reconcile_practice_set_status` | Provider reports verification evidence is expired/stale | Rejected with STALE_DEPLOYMENT_EVIDENCE | stage=STALE_DEPLOYMENT_EVIDENCE | **PASS** |
 | `P0-2 Attack 8: Incomplete grading verification` | `reconcile_practice_set_status` | Provider gradingVerified=False | Rejected with GRADING_VERIFICATION_FAILED | stage=GRADING_VERIFICATION_FAILED | **PASS** |
 | `P0-2 Attack 9: Test double rejected` | `reconcile_practice_set_status` | Provider providerType='OFFLINE_TEST_DOUBLE' | Rejected with UNAUTHORIZED_TEST_DOUBLE_REJECTED | stage=UNAUTHORIZED_TEST_DOUBLE_REJECTED | **PASS** |
+| `P0-A Attack 11: Fake authenticated callback self-assertion rejected` | `verify_deployment_evidence` | Plain callback self-declaring providerType=AUTHENTICATED + all correct bindings, no adapter token | NEVER LIVE_VERIFIED; stage=TEST_ADAPTER_CANNOT_GRANT_LIVE_VERIFIED | status=QA_PASSED_NOT_DEPLOYED, stage=TEST_ADAPTER_CANNOT_GRANT_LIVE_VERIFIED | **PASS** |
 | `P1-B: Zero-item mock reporting` | `generate_practice_release_gate_report` | Empty full mock exam (qids=[]) | NO_ITEMS — NOT_EVALUABLE (never 100% VERIFIED) | has_no_items=True, has_100_percent=False | **PASS** |
 | `Scenario 10: Non-Google deployment URL` | `reconcile_practice_set_status` | Non-Google Forms URL passed with isDeployed=True | readinessStatus=QA_PASSED_NOT_DEPLOYED | QA_PASSED_NOT_DEPLOYED | **PASS** |
 | `Scenario 11: Multi-tier hash invariance` | `compute_all_question_fingerprints` | Comparing bank items to manifest across 4 hash tiers | 0 mismatches | 0 mismatches | **PASS** |
@@ -107,6 +117,7 @@ The hardened deployment validator `verify_deployment_evidence` eliminates local 
 8. **Attack 8**: Incomplete quiz grading verification -> Rejected (`GRADING_VERIFICATION_FAILED`).
 9. **Attack 9**: Unauthorized test double rejected from production release -> Rejected (`UNAUTHORIZED_TEST_DOUBLE_REJECTED`).
 10. **Attack 10**: Authorized Google Workspace provider with verified synthetic receipt -> `LIVE_VERIFIED`.
+11. **Attack 11 (P0-A Mandatory Regression)**: Fake callback self-declaring authorization without adapter token -> Rejected (`TEST_ADAPTER_CANNOT_GRANT_LIVE_VERIFIED`).
 
 ---
 

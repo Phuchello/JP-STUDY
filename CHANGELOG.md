@@ -1,5 +1,33 @@
 # Changelog
 
+## 2026-10-17 — Phase 3.7 Provider Trust Boundary Hardening, Public Data Audit & Operational Pilot Readiness
+
+- **P0-A Provider Trust Boundary Hardening (`reconcile_blind_review.py`)**:
+  - Eliminated caller-controlled provider authentication self-assertion strings (`AUTHENTICATED_GOOGLE_WORKSPACE_API`, `isAuthorizedWorkspaceProvider=True`).
+  - Introduced opaque Python object identity adapter token (`_PRODUCTION_ADAPTER_TOKEN`) issued exclusively through `make_production_workspace_adapter()`.
+  - Enforced 10 mandatory provider verification bindings: `practiceSetId`, `formId`/`receiptFormId`, `verifiedQuestionIds`, `formExists`, destination `sheetId` verified against `deployment.expectedSheetId` from the practice set configuration (preventing attacker-supplied matching pairs), `responderAccess`, `gradingVerified`, `sheetSync`, synthetic `receiptId`, and non-stale timestamps.
+  - Added P0-A Mandatory Regression Attack 11 in `test_qa_adversarial_mutations.py`: proves that a fake callback self-declaring all authentic strings and booleans without the opaque adapter token is strictly rejected (`TEST_ADAPTER_CANNOT_GRANT_LIVE_VERIFIED`) and can never achieve `LIVE_VERIFIED`.
+- **P0-B Public Repository Data Hygiene & Resource Exposure Audit (`qa/PUBLIC_REPO_DATA_EXPOSURE_AUDIT.md`)**:
+  - Sanitized unit test fixture constants in `test_qa_adversarial_mutations.py` by replacing internal Google Sheets document IDs with explicit synthetic placeholders (`SYNTHETIC-EXPECTED-SHEET-ID-TEST-001`, `SYNTHETIC-SHEET-ID-TEST-AUTHORIZED-001`).
+  - Confirmed 0 occurrences of internal Google Sheet IDs in the current Git working tree.
+  - Conducted historical Git audit (`git log -S`): identified that the ID was introduced only in commit `f5116a2` within unit test mock fixtures.
+  - Assessed security impact: Google Drive IAM enforces server-side owner-only permissions (`jpOwnerOnly_`); an exposed document ID does not grant unauthorized access.
+  - Formulated a safe, non-destructive `git-filter-repo` remediation proposal for repository owner review without unauthorized history rewrites or force-pushes.
+- **P1 Honest Test Coverage Reporting & Trust Boundary Disclaimers**:
+  - Updated adversarial test suite report summary to `45/45 specified regression scenarios passed`.
+  - Explicitly documented the 5 foundational trust-boundary disclaimers (no total bug absence guarantee, test doubles do not prove live authorization, fingerprints do not prove semantic naturalness, provenance remains PARTIAL without external PKI signatures, and 0 new Forms deployed without owner authorization).
+- **Controlled Pilot Operational Handoff (`MD-N4-VOC-01`)**:
+  - Verified 5 non-STAR items in `MD-N4-VOC-01` (`N4-MO-READ-001` to `005`), all `QA_VERIFIED`.
+  - Confirmed no active Google Workspace session exists in the environment; enforced Authorization Blocker Rule (0 fabricated URLs or receipts).
+  - Prepared minimal Apps Script deployment script and 3-step owner execution handoff.
+- **Preserved P0 Integrity**:
+  - All 3 live P0 Forms (`W01-B01`, `W01-B02`, `W01-B03`) 100% operational.
+- **Test Metrics**:
+  - 45 / 45 adversarial mutation tests PASS (`scripts/tests/test_qa_adversarial_mutations.py`).
+  - 28 / 28 release verification checks PASS (`scripts/validate_release.py`).
+  - 394 / 394 drive-first test suite PASS (`scripts/drive_first/test_drive_first.cjs`).
+  - 5 / 5 negative question tests PASS (`scripts/tests/test_question_bank_negative.py`).
+
 ## 2026-10-17 — Phase 3.7 Semantic Coverage Bypass Repair & Authenticated Provider Gate Hardening
 
 - **P0-1 Strict Derived Semantic Coverage (`audit_star_permutations.py`)**:
