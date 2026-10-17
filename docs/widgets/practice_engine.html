@@ -1,0 +1,1405 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JP-STUDY | Cỗ Máy Luyện Đề Vô Tận (Unlimited Practice Engine)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --primary: #8b0000;
+  --primary-hover: #a10f0f;
+  --primary-light: #fef2f2;
+  --secondary: #1e293b;
+  --accent: #2563eb;
+  --accent-light: #eff6ff;
+  --success: #15803d;
+  --success-light: #f0fdf4;
+  --danger: #b91c1c;
+  --danger-light: #fef2f2;
+  --warning: #b45309;
+  --warning-light: #fffbeb;
+  --bg: #f8fafc;
+  --surface: #ffffff;
+  --border: #e2e8f0;
+  --text-main: #0f172a;
+  --text-muted: #64748b;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-jp: 'Noto Sans JP', 'Hiragino Sans', 'Meiryo', sans-serif;
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: var(--font-sans);
+  background: var(--bg);
+  color: var(--text-main);
+  line-height: 1.5;
+  padding: 12px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.engine-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: var(--surface);
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-md);
+  overflow: hidden;
+}
+
+/* Header */
+.engine-header {
+  background: linear-gradient(135deg, #8b0000 0%, #500000 100%);
+  color: white;
+  padding: 20px 24px;
+}
+.engine-header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.engine-title {
+  font-size: 1.25rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.engine-badge {
+  background: rgba(255, 255, 255, 0.2);
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  text-transform: uppercase;
+}
+.engine-stats {
+  font-size: 0.82rem;
+  color: rgba(255, 255, 255, 0.85);
+  margin-top: 4px;
+}
+
+/* Nav Tabs */
+.engine-nav {
+  display: flex;
+  background: #f1f5f9;
+  border-bottom: 1px solid var(--border);
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.engine-nav::-webkit-scrollbar { display: none; }
+.nav-tab {
+  flex: 1;
+  min-width: 140px;
+  text-align: center;
+  padding: 12px 14px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+.nav-tab:hover {
+  color: var(--text-main);
+  background: rgba(255, 255, 255, 0.5);
+}
+.nav-tab.active {
+  color: var(--primary);
+  border-bottom-color: var(--primary);
+  background: var(--surface);
+  font-weight: 700;
+}
+
+/* Mode Views */
+.view-panel {
+  padding: 24px;
+  display: none;
+}
+.view-panel.active {
+  display: block;
+}
+
+/* Config Grid */
+.config-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.config-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.config-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  letter-spacing: 0.04em;
+}
+.config-select, .config-input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-main);
+  font-size: 0.9rem;
+  font-weight: 500;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.config-select:focus, .config-input:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(139, 0, 0, 0.1);
+}
+
+/* Action Buttons */
+.btn-primary {
+  background: var(--primary);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-shadow: var(--shadow-sm);
+}
+.btn-primary:hover {
+  background: var(--primary-hover);
+  transform: translateY(-1px);
+}
+.btn-secondary {
+  background: #f1f5f9;
+  color: #334155;
+  border: 1px solid var(--border);
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.btn-secondary:hover {
+  background: #e2e8f0;
+}
+
+/* Question Palette & Progress */
+.session-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 16px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--border);
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.session-progress-text {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--text-main);
+}
+.session-timer {
+  font-family: monospace;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #c2410c;
+  background: #fff7ed;
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: 1px solid #ffedd5;
+}
+.progress-track {
+  width: 100%;
+  height: 6px;
+  background: #e2e8f0;
+  border-radius: 9999px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.progress-fill {
+  height: 100%;
+  background: var(--primary);
+  transition: width 0.3s ease;
+  width: 0%;
+}
+
+/* Question Box */
+.question-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: var(--shadow-sm);
+}
+.q-meta {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+.q-tag {
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+.tag-n2 { background: #fee2e2; color: #991b1b; }
+.tag-n3 { background: #e0e7ff; color: #3730a3; }
+.tag-n4 { background: #fef3c7; color: #92400e; }
+.tag-skill { background: #f1f5f9; color: #475569; }
+
+.q-passage {
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  border-left: 4px solid #64748b;
+  border-radius: 8px;
+  padding: 16px;
+  font-family: var(--font-jp);
+  font-size: 0.96rem;
+  line-height: 1.8;
+  color: #1e293b;
+  margin-bottom: 16px;
+  max-height: 320px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+}
+
+.q-audio-box {
+  background: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 14px;
+  margin-bottom: 16px;
+}
+.q-audio-box audio {
+  width: 100%;
+  margin-top: 6px;
+}
+
+.q-stem {
+  font-family: var(--font-jp);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #0f172a;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  white-space: pre-wrap;
+}
+
+/* Options */
+.options-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.opt-btn {
+  background: var(--surface);
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 12px 16px;
+  text-align: left;
+  font-family: var(--font-jp);
+  font-size: 0.98rem;
+  color: var(--text-main);
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.opt-btn:hover:not(:disabled) {
+  border-color: #94a3b8;
+  background: #f8fafc;
+}
+.opt-label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: #f1f5f9;
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #475569;
+  flex-shrink: 0;
+}
+
+.opt-btn.correct {
+  background: var(--success-light);
+  border-color: var(--success);
+  color: #14532d;
+  font-weight: 600;
+}
+.opt-btn.correct .opt-label {
+  background: var(--success);
+  color: white;
+}
+
+.opt-btn.incorrect {
+  background: var(--danger-light);
+  border-color: var(--danger);
+  color: #7f1d1d;
+}
+.opt-btn.incorrect .opt-label {
+  background: var(--danger);
+  color: white;
+}
+
+/* Explanation Box */
+.explanation-card {
+  margin-top: 20px;
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  border-left: 4px solid var(--primary);
+  border-radius: 8px;
+  padding: 16px;
+  display: none;
+}
+.explanation-card.active { display: block; }
+.exp-header {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--primary);
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.exp-content {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #334155;
+  margin-bottom: 12px;
+  white-space: pre-wrap;
+}
+.distractor-list {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 10px 14px;
+  font-size: 0.82rem;
+  color: #475569;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+/* Bottom Nav Controls */
+.q-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Star Question Slot UI */
+.star-slot-area {
+  margin-bottom: 16px;
+  padding: 12px;
+  background: #f1f5f9;
+  border-radius: 8px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.star-slot {
+  min-width: 60px;
+  height: 36px;
+  background: white;
+  border: 2px dashed #94a3b8;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+.star-slot.star-target {
+  border-color: #f59e0b;
+  background: #fffbeb;
+  color: #b45309;
+}
+
+/* Mode B Grid */
+.type-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 12px;
+}
+.type-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.type-card:hover {
+  border-color: var(--primary);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
+}
+.type-card-title {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--text-main);
+}
+.type-card-desc {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+.type-card-badge {
+  align-self: flex-start;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: #e2e8f0;
+}
+
+/* Mode Summary */
+.summary-card {
+  text-align: center;
+  padding: 32px 16px;
+}
+.summary-score {
+  font-size: 3rem;
+  font-weight: 800;
+  color: var(--primary);
+  line-height: 1;
+  margin-bottom: 8px;
+}
+.summary-desc {
+  font-size: 1rem;
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+.summary-actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+/* Error Review Panel */
+.error-item {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px;
+  margin-bottom: 10px;
+}
+.error-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .view-panel { padding: 16px; }
+  .config-grid { grid-template-columns: 1fr; }
+  .q-stem { font-size: 1.05rem; }
+  .opt-btn { font-size: 0.92rem; padding: 10px 12px; }
+}
+</style>
+</head>
+<body>
+
+<div class="engine-container">
+  <!-- Header -->
+  <div class="engine-header">
+    <div class="engine-header-top">
+      <div class="engine-title">
+        <span>⚡ JP-STUDY PRACTICE ENGINE</span>
+        <span class="engine-badge">V2.0 UNLIMITED</span>
+      </div>
+      <div id="stat-badge" class="engine-stats">Đang tải dữ liệu ngân hàng 761+ câu hỏi...</div>
+    </div>
+  </div>
+
+  <!-- Mode Navigation Tabs -->
+  <div class="engine-nav">
+    <div class="nav-tab active" onclick="switchMode('mode-a')">🔥 Cày liên tục</div>
+    <div class="nav-tab" onclick="switchMode('mode-b')">🎯 Luyện theo dạng</div>
+    <div class="nav-tab" onclick="switchMode('mode-c')">🎲 Đề ngẫu nhiên</div>
+    <div class="nav-tab" onclick="switchMode('mode-d')">⏱️ Thi thử JLPT</div>
+    <div class="nav-tab" onclick="switchMode('mode-e')">📝 Ôn câu sai (SR)</div>
+  </div>
+
+  <!-- MODE A: CÀY LIÊN TỤC -->
+  <div id="mode-a" class="view-panel active">
+    <!-- Config Selector -->
+    <div id="a-config" class="config-section">
+      <h3 style="margin-bottom: 16px; font-size: 1.1rem; color: #1e293b;">Tùy chỉnh phiên cày câu hỏi</h3>
+      <div class="config-grid">
+        <div class="config-group">
+          <label class="config-label">Cấp độ (JLPT Level)</label>
+          <select id="a-level" class="config-select">
+            <option value="N2" selected>JLPT N2 (Trọng tâm 50%)</option>
+            <option value="N3">JLPT N3 (Nền tảng 40%)</option>
+            <option value="N4">JLPT N4 (Bổ trợ 10%)</option>
+            <option value="MIXED">Hỗn hợp N2 + N3</option>
+            <option value="ALL">Tất cả cấp độ</option>
+          </select>
+        </div>
+        <div class="config-group">
+          <label class="config-label">Kỹ năng (Skill)</label>
+          <select id="a-skill" class="config-select">
+            <option value="ALL" selected>Tất cả kỹ năng</option>
+            <option value="Vocabulary">Chữ Hán & Từ vựng</option>
+            <option value="Grammar">Ngữ pháp câu & đoạn văn</option>
+            <option value="Reading">Đọc hiểu</option>
+            <option value="Listening">Nghe hiểu (Audio)</option>
+          </select>
+        </div>
+        <div class="config-group">
+          <label class="config-label">Số lượng câu</label>
+          <select id="a-count" class="config-select">
+            <option value="10">10 câu (Khởi động)</option>
+            <option value="20">20 câu (Vừa phải)</option>
+            <option value="30" selected>30 câu (Tiêu chuẩn)</option>
+            <option value="50">50 câu (Tăng tốc)</option>
+            <option value="100">100 câu (Marathon)</option>
+          </select>
+        </div>
+        <div class="config-group">
+          <label class="config-label">Trạng thái câu</label>
+          <select id="a-filter" class="config-select">
+            <option value="UNSEEN" selected>Chưa làm bao giờ (Ưu tiên mới)</option>
+            <option value="RANDOM">Ngẫu nhiên toàn ngân hàng</option>
+            <option value="WRONG_ONLY">Chỉ câu từng làm sai</option>
+          </select>
+        </div>
+      </div>
+      <button type="button" class="btn-primary" onclick="startGrindSession()">🚀 BẮT ĐẦU CÀY CÂU HỎI</button>
+    </div>
+
+    <!-- Active Question Arena -->
+    <div id="a-arena" style="display: none;">
+      <div class="session-bar">
+        <span id="a-progress-txt" class="session-progress-text">Câu 1 / 30</span>
+        <span id="a-score-txt" style="font-size: 0.88rem; font-weight: 600; color: #15803d;">Đúng: 0 | Sai: 0</span>
+        <button type="button" class="btn-secondary" style="padding: 4px 10px; font-size: 0.78rem;" onclick="quitSession()">Thoát</button>
+      </div>
+      <div class="progress-track">
+        <div id="a-progress-bar" class="progress-fill"></div>
+      </div>
+
+      <div class="question-card">
+        <div id="a-q-meta" class="q-meta"></div>
+        <div id="a-q-passage" class="q-passage" style="display: none;"></div>
+        <div id="a-q-audio" class="q-audio-box" style="display: none;"></div>
+        <div id="a-q-stem" class="q-stem"></div>
+        <div id="a-q-options" class="options-list"></div>
+        
+        <!-- Explanation -->
+        <div id="a-q-exp" class="explanation-card">
+          <div class="exp-header">💡 GIẢI THÍCH CHI TIẾT & PHÂN TÍCH ĐÁP ÁN:</div>
+          <div id="a-q-exp-text" class="exp-content"></div>
+          <div id="a-q-distractors" class="distractor-list"></div>
+        </div>
+      </div>
+
+      <div class="q-controls">
+        <button id="btn-next-q" type="button" class="btn-primary" style="display: none;" onclick="nextQuestion()">CÂU TIẾP THEO ➔</button>
+      </div>
+    </div>
+
+    <!-- Session Completion Summary -->
+    <div id="a-summary" style="display: none;" class="summary-card">
+      <div id="a-summary-score" class="summary-score">28/30</div>
+      <p id="a-summary-msg" class="summary-desc">Rất xuất sắc! Bạn đã hoàn thành trọn vẹn 30 câu hỏi.</p>
+      <div class="summary-actions">
+        <button type="button" class="btn-primary" onclick="continueNext30()">🔄 LÀM TIẾP 30 CÂU MỚI</button>
+        <button type="button" class="btn-secondary" onclick="resetToConfig()">⚙️ Đổi bộ lọc</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODE B: LUYỆN THEO DẠNG ĐỀ -->
+  <div id="mode-b" class="view-panel">
+    <h3 style="margin-bottom: 6px; font-size: 1.1rem; color: #1e293b;">Luyện chuyên sâu theo từng dạng bài JLPT</h3>
+    <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 20px;">Lựa chọn dạng bài cụ thể để luyện tập tập trung cho đến khi hoàn toàn thành thạo.</p>
+    
+    <h4 style="font-size: 0.85rem; text-transform: uppercase; color: #8b0000; margin-bottom: 10px; font-weight: 800;">JLPT N2 (Trọng tâm)</h4>
+    <div class="type-grid" style="margin-bottom: 24px;">
+      <div class="type-card" onclick="startFocusedType('N2', 'N2-MO-READ')">
+        <span class="type-card-badge">Mondai 1</span>
+        <div class="type-card-title">漢字読み (Đọc chữ Hán)</div>
+        <div class="type-card-desc">60 câu · Luyện âm On/Kun và quy tắc biến âm N2</div>
+      </div>
+      <div class="type-card" onclick="startFocusedType('N2', 'N2-MO-ORTH')">
+        <span class="type-card-badge">Mondai 2</span>
+        <div class="type-card-title">表記 (Viết chữ Hán)</div>
+        <div class="type-card-desc">50 câu · Phân biệt từ đồng âm và bộ thủ tương đồng</div>
+      </div>
+      <div class="type-card" onclick="startFocusedType('N2', 'N2-MO-AFFX')">
+        <span class="type-card-badge" style="background:#fee2e2; color:#991b1b;">Mondai 3 · Đặc trưng N2</span>
+        <div class="type-card-title">語形成 (Cấu tạo từ ghép)</div>
+        <div class="type-card-desc">50 câu · Tiền tố (無, 未, 非, 不, 総) & Hậu tố (〜感, 〜性, 〜化, 〜的)</div>
+      </div>
+      <div class="type-card" onclick="startFocusedType('N2', 'N2-MO-CONT')">
+        <span class="type-card-badge">Mondai 4</span>
+        <div class="type-card-title">文脈規定 (Điền từ theo ngữ cảnh)</div>
+        <div class="type-card-desc">60 câu · Quán dụng ngữ và Collocation tự nhiên</div>
+      </div>
+      <div class="type-card" onclick="startFocusedType('N2', 'N2-MO-PARA')">
+        <span class="type-card-badge">Mondai 5</span>
+        <div class="type-card-title">言い換え類義 (Tìm từ đồng nghĩa)</div>
+        <div class="type-card-desc">40 câu · Diễn đạt tương đương và từ thuần Nhật Wago</div>
+      </div>
+      <div class="type-card" onclick="startFocusedType('N2', 'N2-MO-USAG')">
+        <span class="type-card-badge">Mondai 6</span>
+        <div class="type-card-title">用法 (Cách dùng từ trong câu)</div>
+        <div class="type-card-desc">40 câu · Chọn câu dùng từ chuẩn xác ngữ cảnh</div>
+      </div>
+      <div class="type-card" onclick="startFocusedType('N2', 'N2-GR-FORM')">
+        <span class="type-card-badge">Mondai 7</span>
+        <div class="type-card-title">文法形式 (Ngữ pháp câu)</div>
+        <div class="type-card-desc">50 câu · Các mẫu câu trọng điểm N2</div>
+      </div>
+      <div class="type-card" onclick="startFocusedType('N2', 'N2-GR-STAR')">
+        <span class="type-card-badge">Mondai 8</span>
+        <div class="type-card-title">文の組み立て ★ (Xếp câu sao)</div>
+        <div class="type-card-desc">25 câu · Kỹ thuật khóa cặp ngữ pháp và sắp xếp 4 cụm</div>
+      </div>
+      <div class="type-card" onclick="startFocusedType('N2', 'N2-GR-CLOZ')">
+        <span class="type-card-badge">Mondai 9</span>
+        <div class="type-card-title">文章の文法 (Ngữ pháp đoạn văn)</div>
+        <div class="type-card-desc">15 câu · Điền liên từ, đại từ chỉ thị và mạch logic</div>
+      </div>
+      <div class="type-card" onclick="startFocusedType('N2', 'N2-RD-SHOR')">
+        <span class="type-card-badge">Mondai 10</span>
+        <div class="type-card-title">読解：短文 (Đọc hiểu đoản văn)</div>
+        <div class="type-card-desc">6 bài · Nắm bắt ý chính tác giả trong 200 chữ</div>
+      </div>
+      <div class="type-card" onclick="startFocusedType('N2', 'N2-RD-MEDI')">
+        <span class="type-card-badge">Mondai 11</span>
+        <div class="type-card-title">読解：中文 (Đọc hiểu trung văn)</div>
+        <div class="type-card-desc">12 câu · Phân tích mạch lý luận và dẫn chứng</div>
+      </div>
+      <div class="type-card" onclick="startFocusedType('N2', 'N2-RD-INTE')">
+        <span class="type-card-badge">Mondai 12</span>
+        <div class="type-card-title">読解：統合理解 (Đọc hiểu so sánh A & B)</div>
+        <div class="type-card-desc">4 câu · Đối chiếu điểm giống và khác giữa 2 văn bản</div>
+      </div>
+      <div class="type-card" onclick="startFocusedType('N2', 'N2-RD-LONG')">
+        <span class="type-card-badge">Mondai 13</span>
+        <div class="type-card-title">読解：長文 (Đọc hiểu trường văn)</div>
+        <div class="type-card-desc">6 câu · Bố cục triết lý và kết luận toàn diện</div>
+      </div>
+      <div class="type-card" onclick="startFocusedType('N2', 'N2-RD-INFO')">
+        <span class="type-card-badge">Mondai 14</span>
+        <div class="type-card-title">読解：情報検索 (Tìm kiếm thông tin)</div>
+        <div class="type-card-desc">4 câu · Lọc bảng thông báo, chi phí và chú thích ※</div>
+      </div>
+      <div class="type-card" onclick="startFocusedType('N2', 'N2-LIS')">
+        <span class="type-card-badge" style="background:#dbeafe; color:#1e40af;">聴解 25 câu</span>
+        <div class="type-card-title">聴解：全パート (Nghe hiểu đầy đủ)</div>
+        <div class="type-card-desc">Mondai 1..5 · Có phát audio và kịch bản chi tiết</div>
+      </div>
+    </div>
+
+    <h4 style="font-size: 0.85rem; text-transform: uppercase; color: #1e3a8a; margin-bottom: 10px; font-weight: 800;">JLPT N3 (Nền tảng củng cố)</h4>
+    <div class="type-grid">
+      <div class="type-card" onclick="startFocusedType('N3', 'N3-MO-READ')">
+        <span class="type-card-badge">Mondai 1</span>
+        <div class="type-card-title">N3 漢字読み (Đọc Hán tự)</div>
+        <div class="type-card-desc">40 câu cơ bản</div>
+      </div>
+      <div class="type-card" onclick="startFocusedType('N3', 'N3-MO-ORTH')">
+        <span class="type-card-badge">Mondai 2</span>
+        <div class="type-card-title">N3 表記 (Chính tả)</div>
+        <div class="type-card-desc">30 câu chọn chữ Hán</div>
+      </div>
+      <div class="type-card" onclick="startFocusedType('N3', 'N3-MO-CONT')">
+        <span class="type-card-badge">Mondai 3</span>
+        <div class="type-card-title">N3 文脈規定 (Từ vựng ngữ cảnh)</div>
+        <div class="type-card-desc">40 câu từ tượng thanh & phó từ</div>
+      </div>
+      <div class="type-card" onclick="startFocusedType('N3', 'N3-GR-FORM')">
+        <span class="type-card-badge">Grammar</span>
+        <div class="type-card-title">N3 文法形式 (Ngữ pháp câu)</div>
+        <div class="type-card-desc">40 câu mẫu ngữ pháp nền tảng N3</div>
+      </div>
+      <div class="type-card" onclick="startFocusedType('N3', 'N3-GR-STAR')">
+        <span class="type-card-badge">Star ★</span>
+        <div class="type-card-title">N3 文の組み立て ★ (Câu sao)</div>
+        <div class="type-card-desc">20 câu xếp câu sao chuẩn N3</div>
+      </div>
+      <div class="type-card" onclick="startFocusedType('N3', 'N3-RD')">
+        <span class="type-card-badge">Reading</span>
+        <div class="type-card-title">N3 読解全般 (Đọc hiểu N3)</div>
+        <div class="type-card-desc">11 bài đọc ngắn, trung, dài và thông báo</div>
+      </div>
+      <div class="type-card" onclick="startFocusedType('N3', 'N3-LIS')">
+        <span class="type-card-badge">Listening</span>
+        <div class="type-card-title">N3 聴解 (Nghe hiểu N3)</div>
+        <div class="type-card-desc">16 câu kèm audio chính thức</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODE C: ĐỀ NGẪU NHIÊN CÓ SEED -->
+  <div id="mode-c" class="view-panel">
+    <h3 style="margin-bottom: 8px; font-size: 1.1rem; color: #1e293b;">Tạo đề ngẫu nhiên có mã số (Seeded Random Test)</h3>
+    <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 20px;">Đề thi được tạo ra từ mã Seed có tính tái tạo 100% (cùng mã Seed sẽ ra chính xác cùng thứ tự câu hỏi). Bạn có thể chia sẻ mã Seed này cho bạn học cùng làm để so sánh điểm số.</p>
+
+    <div class="config-grid">
+      <div class="config-group">
+        <label class="config-label">Mã Seed (Nhập hoặc tạo tự động)</label>
+        <div style="display: flex; gap: 8px;">
+          <input id="c-seed-input" type="text" class="config-input" value="2026-N2-001">
+          <button type="button" class="btn-secondary" onclick="generateNewSeed()">Tạo mới</button>
+        </div>
+      </div>
+      <div class="config-group">
+        <label class="config-label">Cấp độ</label>
+        <select id="c-level" class="config-select">
+          <option value="N2" selected>JLPT N2</option>
+          <option value="N3">JLPT N3</option>
+        </select>
+      </div>
+      <div class="config-group">
+        <label class="config-label">Quy mô đề</label>
+        <select id="c-length" class="config-select">
+          <option value="15">Mini-Test (15 câu)</option>
+          <option value="30" selected>Standard Test (30 câu)</option>
+          <option value="60">Full Test (60 câu)</option>
+        </select>
+      </div>
+    </div>
+    <button type="button" class="btn-primary" onclick="startSeededSession()">🎯 TẠO VÀ LÀM ĐỀ THEO SEED</button>
+  </div>
+
+  <!-- MODE D: THI THỬ JLPT CÓ ĐỒNG HỒ ĐẾM NGƯỢC -->
+  <div id="mode-d" class="view-panel">
+    <h3 style="margin-bottom: 8px; font-size: 1.1rem; color: #1e293b;">Thi thử JLPT mô phỏng phòng thi thật</h3>
+    <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 20px;">Chế độ tính giờ nghiêm ngặt và chấm điểm theo thang điểm chuẩn 180 của Hiệp hội JEES (Kèm điểm liệt 19/60 mỗi phần).</p>
+
+    <div class="config-grid">
+      <div class="config-group">
+        <label class="config-label">Chọn đề thi mô phỏng</label>
+        <select id="d-exam-select" class="config-select">
+          <option value="EXAM-N2-FULL">JLPT N2 Full Mock Exam (105 phút + 50 phút nghe)</option>
+          <option value="EXAM-N2-MINI">JLPT N2 Rút gọn (45 phút - Cân đối tất cả kỹ năng)</option>
+          <option value="EXAM-N3-FULL">JLPT N3 Full Mock Exam (100 phút + 40 phút nghe)</option>
+          <option value="EXAM-N3-MINI">JLPT N3 Rút gọn (35 phút)</option>
+        </select>
+      </div>
+    </div>
+
+    <div style="background: #fffbeb; border: 1px solid #fef3c7; border-radius: 8px; padding: 14px; margin-bottom: 20px; font-size: 0.85rem; color: #92400e;">
+      ⚠️ <strong>Quy định phòng thi mô phỏng:</strong> Không hiển thị đáp án trong lúc làm bài. Đồng hồ đếm ngược sẽ tự động thu bài khi hết giờ. Điểm thi đạt: N2 ≥ 90/180, N3 ≥ 95/180 (không phần nào dưới 19/60).
+    </div>
+
+    <button type="button" class="btn-primary" onclick="startExamSession()">⏱️ BẮT ĐẦU VÀO PHÒNG THI</button>
+  </div>
+
+  <!-- MODE E: ÔN LỖI & SPACED REPETITION -->
+  <div id="mode-e" class="view-panel">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; flex-wrap: wrap; gap: 10px;">
+      <div>
+        <h3 style="font-size: 1.1rem; color: #1e293b;">Sổ tay câu hỏi đã từng làm sai</h3>
+        <p style="font-size: 0.85rem; color: var(--text-muted);">Hệ thống Spaced Repetition tự động lưu trữ và nhắc lịch ôn tập theo khoảng cách (1 ngày, 3 ngày, 7 ngày).</p>
+      </div>
+      <button type="button" class="btn-secondary" onclick="clearMistakeHistory()">Xóa lịch sử</button>
+    </div>
+
+    <div id="sr-stats-box" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin-bottom: 20px;">
+      <div style="background: #fef2f2; border: 1px solid #fee2e2; border-radius: 8px; padding: 14px; text-align: center;">
+        <div style="font-size: 1.8rem; font-weight: 800; color: #b91c1c;" id="sr-count-total">0</div>
+        <div style="font-size: 0.78rem; font-weight: 600; color: #991b1b;">CÂU TRONG HÀNG ĐỢI ÔN</div>
+      </div>
+      <div style="background: #f0fdf4; border: 1px solid #dcfce7; border-radius: 8px; padding: 14px; text-align: center;">
+        <div style="font-size: 1.8rem; font-weight: 800; color: #15803d;" id="sr-count-mastered">0</div>
+        <div style="font-size: 0.78rem; font-weight: 600; color: #166534;">ĐÃ THÀNH THẠO (ĐÚNG 2 LẦN)</div>
+      </div>
+    </div>
+
+    <div style="display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap;">
+      <button type="button" class="btn-primary" onclick="startMistakeReview('ALL')">📝 Ôn toàn bộ câu sai</button>
+      <button type="button" class="btn-secondary" onclick="startMistakeReview('TODAY')">Hôm nay</button>
+      <button type="button" class="btn-secondary" onclick="startMistakeReview('UNMASTERED')">Chưa thành thạo</button>
+    </div>
+
+    <div id="sr-list-container"></div>
+  </div>
+
+</div>
+
+<!-- EMBEDDED PRACTICE BANK JS LOADER -->
+<script src="practice_bank.js"></script>
+<script>
+// =========================================================================
+// ENGINE STATE MANAGEMENT
+// =========================================================================
+let bank = window.JP_PRACTICE_BANK ? window.JP_PRACTICE_BANK.questions : [];
+let currentSession = {
+  mode: 'A',
+  questions: [],
+  currentIndex: 0,
+  scoreCorrect: 0,
+  scoreIncorrect: 0,
+  answersRecord: {},
+  examTimerInterval: null,
+  timeRemainingSec: 0,
+  seed: ''
+};
+
+// LocalStorage Mistake Bank Key
+const STORAGE_KEY_MISTAKES = 'JP_STUDY_MISTAKE_LOG_V2';
+const STORAGE_KEY_SEEN = 'JP_STUDY_SEEN_QIDS_V2';
+
+function getSeenIds() {
+  try {
+    return JSON.parse(localStorage.getItem(STORAGE_KEY_SEEN) || '[]');
+  } catch(e) { return []; }
+}
+function markIdSeen(qid) {
+  let seen = getSeenIds();
+  if (!seen.includes(qid)) {
+    seen.push(qid);
+    try { localStorage.setItem(STORAGE_KEY_SEEN, JSON.stringify(seen)); } catch(e){}
+  }
+}
+
+function getMistakeRecords() {
+  try {
+    return JSON.parse(localStorage.getItem(STORAGE_KEY_MISTAKES) || '{}');
+  } catch(e) { return {}; }
+}
+function saveMistakeRecord(qid, isCorrect) {
+  let records = getMistakeRecords();
+  let now = Date.now();
+  if (!records[qid]) {
+    records[qid] = { id: qid, wrongCount: 0, consecutiveCorrect: 0, lastAttempt: now };
+  }
+  if (isCorrect) {
+    records[qid].consecutiveCorrect = (records[qid].consecutiveCorrect || 0) + 1;
+  } else {
+    records[qid].wrongCount = (records[qid].wrongCount || 0) + 1;
+    records[qid].consecutiveCorrect = 0;
+  }
+  records[qid].lastAttempt = now;
+  try { localStorage.setItem(STORAGE_KEY_MISTAKES, JSON.stringify(records)); } catch(e){}
+}
+
+// Pseudo-random generator from string seed
+function createSeededRandom(seedStr) {
+  let h = 1779033703 ^ seedStr.length;
+  for (let i = 0; i < seedStr.length; i++) {
+    h = Math.imul(h ^ seedStr.charCodeAt(i), 3432918353);
+    h = h << 13 | h >>> 19;
+  }
+  return function() {
+    h = Math.imul(h ^ (h >>> 16), 2246822507);
+    h = Math.imul(h ^ (h >>> 13), 3266489909);
+    return ((h ^= h >>> 16) >>> 0) / 4294967296;
+  };
+}
+
+// Resilient asynchronous bank loader
+let isBankLoading = false;
+let bankLoadCallbacks = [];
+
+function ensureBankLoaded(onComplete) {
+  if (bank && bank.length > 0) {
+    if (onComplete) onComplete();
+    return;
+  }
+  if (onComplete) bankLoadCallbacks.push(onComplete);
+  if (isBankLoading) return;
+  isBankLoading = true;
+
+  const badge = document.getElementById('stat-badge');
+  if (badge) badge.innerText = 'Đang kết nối tải 761 câu hỏi...';
+
+  function finishLoading(data) {
+    window.JP_PRACTICE_BANK = data;
+    bank = data.questions || [];
+    isBankLoading = false;
+    initBankStats();
+    while (bankLoadCallbacks.length > 0) {
+      const cb = bankLoadCallbacks.shift();
+      try { cb(); } catch(e) { console.error(e); }
+    }
+  }
+
+  // Tier 1: jsDelivr CDN
+  const cdnScript = document.createElement('script');
+  cdnScript.src = 'https://cdn.jsdelivr.net/gh/Phuchello/JP-STUDY@main/docs/widgets/practice_bank.js';
+  cdnScript.onload = () => {
+    if (window.JP_PRACTICE_BANK && window.JP_PRACTICE_BANK.questions) {
+      finishLoading(window.JP_PRACTICE_BANK);
+    }
+  };
+  cdnScript.onerror = () => {
+    // Tier 2: GitHub Raw JSON Fetch
+    fetch('https://raw.githubusercontent.com/Phuchello/JP-STUDY/main/curriculum/PRACTICE_ENGINE_BANK.json')
+      .then(r => r.json())
+      .then(data => {
+        finishLoading(data);
+      })
+      .catch(err => {
+        // Tier 3: Local relative fetch
+        fetch('practice_bank.json')
+          .then(r => r.json())
+          .then(data => finishLoading(data))
+          .catch(e => {
+            isBankLoading = false;
+            console.error('All data loading strategies failed:', e);
+            if (badge) badge.innerText = 'Lỗi tải ngân hàng câu hỏi. Vui lòng thử lại.';
+          });
+      });
+  };
+  document.head.appendChild(cdnScript);
+}
+
+// =========================================================================
+// INITIALIZATION
+// =========================================================================
+window.addEventListener('DOMContentLoaded', () => {
+  if (window.JP_PRACTICE_BANK && window.JP_PRACTICE_BANK.questions) {
+    bank = window.JP_PRACTICE_BANK.questions;
+    initBankStats();
+  } else {
+    ensureBankLoaded();
+  }
+  renderSRStats();
+});
+
+function initBankStats() {
+  const m = (window.JP_PRACTICE_BANK && window.JP_PRACTICE_BANK.metrics) ? window.JP_PRACTICE_BANK.metrics : {};
+  const badge = document.getElementById('stat-badge');
+  if (badge) {
+    badge.innerText = `Sẵn sàng: ${m.n2Questions || 447} N2 · ${m.n3Questions || 274} N3 · ${m.readingPassages || 32} Bài đọc · ${m.listeningTracks || 41} Audio`;
+  }
+}
+
+function switchMode(modeId) {
+  document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.view-panel').forEach(p => p.classList.remove('active'));
+  
+  const idx = ['mode-a', 'mode-b', 'mode-c', 'mode-d', 'mode-e'].indexOf(modeId);
+  if (idx !== -1) {
+    document.querySelectorAll('.nav-tab')[idx].classList.add('active');
+  }
+  document.getElementById(modeId).classList.add('active');
+
+  if (modeId === 'mode-e') {
+    renderSRStats();
+  }
+}
+
+// =========================================================================
+// MODE A: CÀY LIÊN TỤC
+// =========================================================================
+function startGrindSession() {
+  if (!bank || bank.length === 0) {
+    ensureBankLoaded(() => startGrindSession());
+    return;
+  }
+  const level = document.getElementById('a-level').value;
+  const skill = document.getElementById('a-skill').value;
+  const count = parseInt(document.getElementById('a-count').value, 10);
+  const filter = document.getElementById('a-filter').value;
+
+  let candidates = bank.filter(q => {
+    if (level === 'MIXED' && !['N2', 'N3'].includes(q.level)) return false;
+    if (level !== 'ALL' && level !== 'MIXED' && q.level !== level) return false;
+    if (skill !== 'ALL' && q.skill !== skill) return false;
+    return true;
+  });
+
+  const seenIds = getSeenIds();
+  const mistakeRecords = getMistakeRecords();
+
+  if (filter === 'UNSEEN') {
+    let unseen = candidates.filter(q => !seenIds.includes(q.id));
+    if (unseen.length >= count) {
+      candidates = unseen;
+    } else {
+      // If unseen run out, mix remaining unseen with random
+      candidates.sort(() => Math.random() - 0.5);
+    }
+  } else if (filter === 'WRONG_ONLY') {
+    candidates = candidates.filter(q => mistakeRecords[q.id] && mistakeRecords[q.id].wrongCount > 0);
+    if (candidates.length === 0) {
+      alert('Bạn chưa có câu nào làm sai trong danh mục này! Đang chuyển sang câu ngẫu nhiên.');
+      candidates = bank.filter(q => level === 'ALL' || q.level === level);
+    }
+  }
+
+  // Shuffle candidates
+  candidates.sort(() => Math.random() - 0.5);
+  const selected = candidates.slice(0, count);
+
+  launchSession(selected, 'A');
+}
+
+function launchSession(questions, mode) {
+  if (!questions || questions.length === 0) {
+    alert('Không tìm thấy câu hỏi phù hợp với bộ lọc đã chọn.');
+    return;
+  }
+  currentSession = {
+    mode: mode,
+    questions: questions,
+    currentIndex: 0,
+    scoreCorrect: 0,
+    scoreIncorrect: 0,
+    answersRecord: {},
+    examTimerInterval: null,
+    timeRemainingSec: 0,
+    seed: ''
+  };
+
+  document.getElementById('a-config').style.display = 'none';
+  document.getElementById('a-summary').style.display = 'none';
+  document.getElementById('a-arena').style.display = 'block';
+
+  renderCurrentQuestion();
+}
+
+function renderCurrentQuestion() {
+  const q = currentSession.questions[currentSession.currentIndex];
+  const total = currentSession.questions.length;
+  const curNum = currentSession.currentIndex + 1;
+
+  document.getElementById('a-progress-txt').innerText = `Câu ${curNum} / ${total}`;
+  document.getElementById('a-score-txt').innerText = `Đúng: ${currentSession.scoreCorrect} | Sai: ${currentSession.scoreIncorrect}`;
+  document.getElementById('a-progress-bar').style.width = `${((curNum - 1) / total) * 100}%`;
+
+  // Render Tags
+  const metaBox = document.getElementById('a-q-meta');
+  metaBox.innerHTML = `
+    <span class="q-tag tag-${q.level.toLowerCase()}">${q.level}</span>
+    <span class="q-tag tag-skill">${q.skill}</span>
+    <span class="q-tag tag-skill">${q.typeId}</span>
+    <span style="font-size:0.75rem; color:#94a3b8; margin-left:auto;">ID: ${q.id}</span>
+  `;
+
+  // Reading Passage
+  const passageBox = document.getElementById('a-q-passage');
+  if (q.contextPassage) {
+    passageBox.style.display = 'block';
+    passageBox.innerText = q.contextPassage;
+  } else {
+    passageBox.style.display = 'none';
+  }
+
+  // Audio Box
+  const audioBox = document.getElementById('a-q-audio');
+  if (q.audioUrl) {
+    audioBox.style.display = 'block';
+    audioBox.innerHTML = `
+      <div style="font-size:0.8rem; font-weight:700; color:#334155; margin-bottom:4px;">🎧 BĂNG NGHE CHÍNH THỨC (Bấm Play để nghe):</div>
+      <audio controls preload="none">
+        <source src="${q.audioUrl}" type="audio/mpeg">
+        Trình duyệt không hỗ trợ audio.
+      </audio>
+    `;
+  } else {
+    audioBox.style.display = 'none';
+  }
+
+  // Stem
+  document.getElementById('a-q-stem').innerText = q.stem;
+
+  // Options
+  const optBox = document.getElementById('a-q-options');
+  optBox.innerHTML = '';
+  q.options.forEach(opt => {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'opt-btn';
+    btn.innerHTML = `<span class="opt-label">${opt.id}</span><span>${opt.text}</span>`;
+    btn.onclick = () => selectAnswer(opt.id);
+    optBox.appendChild(btn);
+  });
+
+  // Hide explanation and next button until answered
+  document.getElementById('a-q-exp').classList.remove('active');
+  document.getElementById('btn-next-q').style.display = 'none';
+
+  markIdSeen(q.id);
+}
+
+function selectAnswer(chosenId) {
+  const q = currentSession.questions[currentSession.currentIndex];
+  const isCorrect = (chosenId === q.correctAnswer);
+
+  if (isCorrect) {
+    currentSession.scoreCorrect++;
+  } else {
+    currentSession.scoreIncorrect++;
+  }
+
+  saveMistakeRecord(q.id, isCorrect);
+
+  // Disable all options and show colors
+  const btns = document.querySelectorAll('#a-q-options .opt-btn');
+  btns.forEach((btn, idx) => {
+    btn.disabled = true;
+    const optId = q.options[idx].id;
+    if (optId === q.correctAnswer) {
+      btn.classList.add('correct');
+    } else if (optId === chosenId) {
+      btn.classList.add('incorrect');
+    }
+  });
+
+  // Render Explanation
+  const expBox = document.getElementById('a-q-exp');
+  document.getElementById('a-q-exp-text').innerText = q.explanationVi;
+
+  const distBox = document.getElementById('a-q-distractors');
+  distBox.innerHTML = '';
+  if (q.distractorExplanations) {
+    Object.entries(q.distractorExplanations).forEach(([dKey, dExp]) => {
+      const p = document.createElement('div');
+      p.innerHTML = `<strong>Lựa chọn ${dKey}:</strong> ${dExp}`;
+      distBox.appendChild(p);
+    });
+  }
+
+  expBox.classList.add('active');
+  document.getElementById('btn-next-q').style.display = 'inline-flex';
+}
+
+function nextQuestion() {
+  currentSession.currentIndex++;
+  if (currentSession.currentIndex >= currentSession.questions.length) {
+    finishSession();
+  } else {
+    renderCurrentQuestion();
+  }
+}
+
+function finishSession() {
+  document.getElementById('a-arena').style.display = 'none';
+  const total = currentSession.questions.length;
+  const correct = currentSession.scoreCorrect;
+  const pct = Math.round((correct / total) * 100);
+
+  document.getElementById('a-summary-score').innerText = `${correct} / ${total}`;
+  document.getElementById('a-summary-msg').innerText = 
+    `Độ chính xác: ${pct}%. ${pct >= 80 ? 'Rất tuyệt vời! Giữ vững phong độ này.' : 'Hãy tiếp tục kiên trì cày thêm để khắc phục các lỗi sai.'}`;
+  document.getElementById('a-summary').style.display = 'block';
+}
+
+function continueNext30() {
+  if (!bank || bank.length === 0) {
+    ensureBankLoaded(() => continueNext30());
+    return;
+  }
+  // Automatically pull next 30 unseen questions with 0 overlap
+  const seenIds = getSeenIds();
+  let unseen = bank.filter(q => q.level === 'N2' && !seenIds.includes(q.id));
+  if (unseen.length < 30) {
+    unseen = bank.filter(q => !seenIds.includes(q.id));
+  }
+  if (unseen.length === 0) {
+    unseen = bank;
+  }
+  unseen.sort(() => Math.random() - 0.5);
+  launchSession(unseen.slice(0, 30), 'A');
+}
+
+function resetToConfig() {
+  document.getElementById('a-arena').style.display = 'none';
+  document.getElementById('a-summary').style.display = 'none';
+  document.getElementById('a-config').style.display = 'block';
+}
+
+function quitSession() {
+  if (confirm('Bạn có chắc chắn muốn thoát phiên luyện tập này không?')) {
+    resetToConfig();
+  }
+}
+
+// =========================================================================
+// MODE B: LUYỆN THEO DẠNG ĐỀ
+// =========================================================================
+function startFocusedType(level, typePrefix) {
+  if (!bank || bank.length === 0) {
+    ensureBankLoaded(() => startFocusedType(level, typePrefix));
+    return;
+  }
+  let matched = bank.filter(q => q.level === level && q.typeId.startsWith(typePrefix));
+  if (matched.length === 0) {
+    matched = bank.filter(q => q.typeId.startsWith(typePrefix));
+  }
+  matched.sort(() => Math.random() - 0.5);
+  switchMode('mode-a');
+  launchSession(matched.slice(0, 20), 'B');
+}
+
+// =========================================================================
+// MODE C: ĐỀ THEO SEED
+// =========================================================================
+function generateNewSeed() {
+  const randNum = Math.floor(1000 + Math.random() * 9000);
+  document.getElementById('c-seed-input').value = `2026-N2-${randNum}`;
+}
+
+function startSeededSession() {
+  if (!bank || bank.length === 0) {
+    ensureBankLoaded(() => startSeededSession());
+    return;
+  }
+  const seed = document.getElementById('c-seed-input').value.trim() || '2026-N2-001';
+  const level = document.getElementById('c-level').value;
+  const count = parseInt(document.getElementById('c-length').value, 10);
+
+  const rng = createSeededRandom(seed);
+  let pool = bank.filter(q => q.level === level);
+
+  // Deterministic shuffle
+  let shuffled = listShuffledWithRng(pool, rng);
+  const selected = shuffled.slice(0, count);
+
+  switchMode('mode-a');
+  launchSession(selected, 'C');
+}
+
+function listShuffledWithRng(arr, rng) {
+  let res = [...arr];
+  for (let i = res.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1));
+    [res[i], res[j]] = [res[j], res[i]];
+  }
+  return res;
+}
+
+// =========================================================================
+// MODE D: THI THỬ JLPT CÓ ĐỒNG HỒ
+// =========================================================================
+function startExamSession() {
+  if (!bank || bank.length === 0) {
+    ensureBankLoaded(() => startExamSession());
+    return;
+  }
+  const examType = document.getElementById('d-exam-select').value;
+  let qList = [];
+  if (examType.includes('N2')) {
+    qList = bank.filter(q => q.level === 'N2');
+  } else {
+    qList = bank.filter(q => q.level === 'N3');
+  }
+  qList.sort(() => Math.random() - 0.5);
+  const count = examType.includes('MINI') ? 30 : 60;
+  
+  switchMode('mode-a');
+  launchSession(qList.slice(0, count), 'D');
+}
+
+// =========================================================================
+// MODE E: ÔN LỖI (SPACED REPETITION)
+// =========================================================================
+function renderSRStats() {
+  const records = getMistakeRecords();
+  let totalWrong = 0;
+  let mastered = 0;
+
+  Object.values(records).forEach(r => {
+    if (r.wrongCount > 0) totalWrong++;
+    if (r.consecutiveCorrect >= 2) mastered++;
+  });
+
+  document.getElementById('sr-count-total').innerText = totalWrong;
+  document.getElementById('sr-count-mastered').innerText = mastered;
+
+  // Render List
+  const container = document.getElementById('sr-list-container');
+  container.innerHTML = '';
+
+  const wrongIds = Object.keys(records).filter(id => records[id].wrongCount > 0);
+  if (wrongIds.length === 0) {
+    container.innerHTML = '<p style="text-align:center; color:#64748b; padding:20px;">Tuyệt vời! Bạn chưa có câu nào bị đánh dấu làm sai trong bộ nhớ.</p>';
+    return;
+  }
+
+  wrongIds.slice(0, 10).forEach(qid => {
+    const q = bank.find(item => item.id === qid);
+    if (!q) return;
+    const r = records[qid];
+    const item = document.createElement('div');
+    item.className = 'error-item';
+    item.innerHTML = `
+      <div class="error-meta">
+        <span><strong>${q.level}</strong> · ${q.typeId} · ID: ${q.id}</span>
+        <span style="color:#b91c1c;">Sai ${r.wrongCount} lần | Đúng liên tiếp: ${r.consecutiveCorrect || 0}</span>
+      </div>
+      <div style="font-family:var(--font-jp); font-size:0.95rem; font-weight:600; margin-bottom:6px;">${q.stem}</div>
+      <div style="font-size:0.82rem; color:#475569;">${q.explanationVi.slice(0, 120)}...</div>
+    `;
+    container.appendChild(item);
+  });
+}
+
+function startMistakeReview(filterType) {
+  if (!bank || bank.length === 0) {
+    ensureBankLoaded(() => startMistakeReview(filterType));
+    return;
+  }
+  const records = getMistakeRecords();
+  let targetIds = Object.keys(records).filter(id => {
+    if (filterType === 'UNMASTERED') return records[id].consecutiveCorrect < 2 && records[id].wrongCount > 0;
+    return records[id].wrongCount > 0;
+  });
+
+  let qs = bank.filter(q => targetIds.includes(q.id));
+  if (qs.length === 0) {
+    alert('Không có câu hỏi sai nào phù hợp với bộ lọc này.');
+    return;
+  }
+  qs.sort(() => Math.random() - 0.5);
+  switchMode('mode-a');
+  launchSession(qs.slice(0, 20), 'E');
+}
+
+function clearMistakeHistory() {
+  if (confirm('Bạn có chắc muốn xóa sạch toàn bộ lịch sử câu hỏi sai không?')) {
+    localStorage.removeItem(STORAGE_KEY_MISTAKES);
+    renderSRStats();
+  }
+}
+</script>
+
+</body>
+</html>

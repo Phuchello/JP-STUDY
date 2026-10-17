@@ -1,8 +1,8 @@
 {
   "snapshotDate": "2026-10-15",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
-  "fileCountExcludingManifest": 255,
-  "totalBytesExcludingManifest": 6182818,
+  "fileCountExcludingManifest": 266,
+  "totalBytesExcludingManifest": 9085032,
   "files": [
     {
       "path": ".gitattributes",
@@ -491,6 +491,12 @@
       "status": "VERIFIED"
     },
     {
+      "path": "curriculum/PRACTICE_ENGINE_BANK.json",
+      "bytes": 1343625,
+      "sha256": "f256ac6bac9c89ba09158d84dd5da60fe8ab7706b7fd75fb84e1126c1fcdc189",
+      "status": "QA_PENDING"
+    },
+    {
       "path": "curriculum/PRACTICE_SETS.json",
       "bytes": 39372,
       "sha256": "79e0c9a038f5698c2f66bc7166952e6025d41f8a9d17a189f552ea08e1c43237",
@@ -755,6 +761,24 @@
       "status": "QA_PENDING"
     },
     {
+      "path": "docs/widgets/practice_bank.js",
+      "bytes": 1071069,
+      "sha256": "e85b2bc2eb5c9dc9f461f6d8db00744a65b4fc2869a84497aaddd76bb38b048b",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "docs/widgets/practice_engine.html",
+      "bytes": 48189,
+      "sha256": "09b7075dc92768591e15738c4201e75b78776296277c66948a04ba79f5497e62",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "docs/widgets/practice_engine_ncr.html",
+      "bytes": 53566,
+      "sha256": "69d9142b4ea88d5df44f54be0c335208459bdaf2bbccae809da2af5eab8c9152",
+      "status": "QA_PENDING"
+    },
+    {
       "path": "docs/widgets/progress_dashboard.html",
       "bytes": 8266,
       "sha256": "070f564b78a74855cd5d3807cfea0c7d25fe5146b420087ef9ca8cfc5df53c4e",
@@ -828,8 +852,8 @@
     },
     {
       "path": "FILE_INDEX.md",
-      "bytes": 25033,
-      "sha256": "44c5319be25fb4eaa6f0e4f09d95c612e8adac892c4a87fa5c2c86c402256cf1",
+      "bytes": 26181,
+      "sha256": "af656c44a80aad6140d83145ab934f6cd144db9436ba5ed2908cb57cf133b704",
       "status": "VERIFIED"
     },
     {
@@ -1355,6 +1379,36 @@
       "status": "VERIFIED"
     },
     {
+      "path": "scripts/curriculum/bank_data/__init__.py",
+      "bytes": 55,
+      "sha256": "012a345d946fc7b17b4a5b1ab29ca93044b08fe165d99049952aa1a4b9149a2b",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "scripts/curriculum/bank_data/n2_data.py",
+      "bytes": 135664,
+      "sha256": "9c6afea8cb61aad0ff02c427f8f2fe6b631a5211b15823e892d15062dfec3f93",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "scripts/curriculum/bank_data/n2_reading_listening.py",
+      "bytes": 99041,
+      "sha256": "e0cd16343984f56c1d2ac7f49af56e51955afae9b3bae4d6651e166a300df402",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "scripts/curriculum/bank_data/n3_data.py",
+      "bytes": 79725,
+      "sha256": "bbabcefa7a0a47a6aaceedd1fb5204bc3dd886384e24c325e4133ca4dba39de5",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "scripts/curriculum/bank_data/n3_reading_listening.py",
+      "bytes": 57223,
+      "sha256": "eda42677ae8dd860301347a14a978cf123084c3822fe4b21f648965c7fe13db8",
+      "status": "QA_PENDING"
+    },
+    {
       "path": "scripts/curriculum/build_expanded_bank.py",
       "bytes": 560,
       "sha256": "7ba1363abffd212b81fc0b965ddcd1c7457ead4349f661457fc3d15b170390e9",
@@ -1389,6 +1443,12 @@
       "bytes": 8450,
       "sha256": "a1793d901772e3d8e99e8999649c7f13f55bdb251098b4caedba3b16e9d16cc6",
       "status": "VERIFIED"
+    },
+    {
+      "path": "scripts/curriculum/generate_unlimited_practice_bank.py",
+      "bytes": 7788,
+      "sha256": "ecdbe44051139f6b031802c842db2440fe90889f6fff38b397ab41acd572a7aa",
+      "status": "QA_PENDING"
     },
     {
       "path": "scripts/curriculum/inspect_category.py",
@@ -1485,6 +1545,12 @@
       "bytes": 9664,
       "sha256": "c8bdf19389574e04dc2ea890eb696dd69fd99cfa0c69ccc944cba1e2d3c330c4",
       "status": "VERIFIED"
+    },
+    {
+      "path": "scripts/tests/test_practice_engine_bank.py",
+      "bytes": 5121,
+      "sha256": "fc4a43e64dc46a1be3987aa9cd521ab9434f7c02c70adf5cfc0cc74171027f42",
+      "status": "QA_PENDING"
     },
     {
       "path": "scripts/tests/test_preview.cjs",

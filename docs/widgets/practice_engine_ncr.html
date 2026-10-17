@@ -1,0 +1,1405 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JP-STUDY | C&#7895; M&#225;y Luy&#7879;n &#272;&#7873; V&#244; T&#7853;n (Unlimited Practice Engine)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --primary: #8b0000;
+  --primary-hover: #a10f0f;
+  --primary-light: #fef2f2;
+  --secondary: #1e293b;
+  --accent: #2563eb;
+  --accent-light: #eff6ff;
+  --success: #15803d;
+  --success-light: #f0fdf4;
+  --danger: #b91c1c;
+  --danger-light: #fef2f2;
+  --warning: #b45309;
+  --warning-light: #fffbeb;
+  --bg: #f8fafc;
+  --surface: #ffffff;
+  --border: #e2e8f0;
+  --text-main: #0f172a;
+  --text-muted: #64748b;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-jp: 'Noto Sans JP', 'Hiragino Sans', 'Meiryo', sans-serif;
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: var(--font-sans);
+  background: var(--bg);
+  color: var(--text-main);
+  line-height: 1.5;
+  padding: 12px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.engine-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: var(--surface);
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-md);
+  overflow: hidden;
+}
+
+/* Header */
+.engine-header {
+  background: linear-gradient(135deg, #8b0000 0%, #500000 100%);
+  color: white;
+  padding: 20px 24px;
+}
+.engine-header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.engine-title {
+  font-size: 1.25rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.engine-badge {
+  background: rgba(255, 255, 255, 0.2);
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  text-transform: uppercase;
+}
+.engine-stats {
+  font-size: 0.82rem;
+  color: rgba(255, 255, 255, 0.85);
+  margin-top: 4px;
+}
+
+/* Nav Tabs */
+.engine-nav {
+  display: flex;
+  background: #f1f5f9;
+  border-bottom: 1px solid var(--border);
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.engine-nav::-webkit-scrollbar { display: none; }
+.nav-tab {
+  flex: 1;
+  min-width: 140px;
+  text-align: center;
+  padding: 12px 14px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+.nav-tab:hover {
+  color: var(--text-main);
+  background: rgba(255, 255, 255, 0.5);
+}
+.nav-tab.active {
+  color: var(--primary);
+  border-bottom-color: var(--primary);
+  background: var(--surface);
+  font-weight: 700;
+}
+
+/* Mode Views */
+.view-panel {
+  padding: 24px;
+  display: none;
+}
+.view-panel.active {
+  display: block;
+}
+
+/* Config Grid */
+.config-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.config-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.config-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  letter-spacing: 0.04em;
+}
+.config-select, .config-input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-main);
+  font-size: 0.9rem;
+  font-weight: 500;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.config-select:focus, .config-input:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(139, 0, 0, 0.1);
+}
+
+/* Action Buttons */
+.btn-primary {
+  background: var(--primary);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-shadow: var(--shadow-sm);
+}
+.btn-primary:hover {
+  background: var(--primary-hover);
+  transform: translateY(-1px);
+}
+.btn-secondary {
+  background: #f1f5f9;
+  color: #334155;
+  border: 1px solid var(--border);
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.btn-secondary:hover {
+  background: #e2e8f0;
+}
+
+/* Question Palette & Progress */
+.session-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 16px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--border);
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.session-progress-text {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--text-main);
+}
+.session-timer {
+  font-family: monospace;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #c2410c;
+  background: #fff7ed;
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: 1px solid #ffedd5;
+}
+.progress-track {
+  width: 100%;
+  height: 6px;
+  background: #e2e8f0;
+  border-radius: 9999px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.progress-fill {
+  height: 100%;
+  background: var(--primary);
+  transition: width 0.3s ease;
+  width: 0%;
+}
+
+/* Question Box */
+.question-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: var(--shadow-sm);
+}
+.q-meta {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+.q-tag {
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+.tag-n2 { background: #fee2e2; color: #991b1b; }
+.tag-n3 { background: #e0e7ff; color: #3730a3; }
+.tag-n4 { background: #fef3c7; color: #92400e; }
+.tag-skill { background: #f1f5f9; color: #475569; }
+
+.q-passage {
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  border-left: 4px solid #64748b;
+  border-radius: 8px;
+  padding: 16px;
+  font-family: var(--font-jp);
+  font-size: 0.96rem;
+  line-height: 1.8;
+  color: #1e293b;
+  margin-bottom: 16px;
+  max-height: 320px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+}
+
+.q-audio-box {
+  background: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 14px;
+  margin-bottom: 16px;
+}
+.q-audio-box audio {
+  width: 100%;
+  margin-top: 6px;
+}
+
+.q-stem {
+  font-family: var(--font-jp);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #0f172a;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  white-space: pre-wrap;
+}
+
+/* Options */
+.options-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.opt-btn {
+  background: var(--surface);
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 12px 16px;
+  text-align: left;
+  font-family: var(--font-jp);
+  font-size: 0.98rem;
+  color: var(--text-main);
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.opt-btn:hover:not(:disabled) {
+  border-color: #94a3b8;
+  background: #f8fafc;
+}
+.opt-label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: #f1f5f9;
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #475569;
+  flex-shrink: 0;
+}
+
+.opt-btn.correct {
+  background: var(--success-light);
+  border-color: var(--success);
+  color: #14532d;
+  font-weight: 600;
+}
+.opt-btn.correct .opt-label {
+  background: var(--success);
+  color: white;
+}
+
+.opt-btn.incorrect {
+  background: var(--danger-light);
+  border-color: var(--danger);
+  color: #7f1d1d;
+}
+.opt-btn.incorrect .opt-label {
+  background: var(--danger);
+  color: white;
+}
+
+/* Explanation Box */
+.explanation-card {
+  margin-top: 20px;
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  border-left: 4px solid var(--primary);
+  border-radius: 8px;
+  padding: 16px;
+  display: none;
+}
+.explanation-card.active { display: block; }
+.exp-header {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--primary);
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.exp-content {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #334155;
+  margin-bottom: 12px;
+  white-space: pre-wrap;
+}
+.distractor-list {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 10px 14px;
+  font-size: 0.82rem;
+  color: #475569;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+/* Bottom Nav Controls */
+.q-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Star Question Slot UI */
+.star-slot-area {
+  margin-bottom: 16px;
+  padding: 12px;
+  background: #f1f5f9;
+  border-radius: 8px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.star-slot {
+  min-width: 60px;
+  height: 36px;
+  background: white;
+  border: 2px dashed #94a3b8;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+.star-slot.star-target {
+  border-color: #f59e0b;
+  background: #fffbeb;
+  color: #b45309;
+}
+
+/* Mode B Grid */
+.type-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 12px;
+}
+.type-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.type-card:hover {
+  border-color: var(--primary);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
+}
+.type-card-title {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--text-main);
+}
+.type-card-desc {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+.type-card-badge {
+  align-self: flex-start;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: #e2e8f0;
+}
+
+/* Mode Summary */
+.summary-card {
+  text-align: center;
+  padding: 32px 16px;
+}
+.summary-score {
+  font-size: 3rem;
+  font-weight: 800;
+  color: var(--primary);
+  line-height: 1;
+  margin-bottom: 8px;
+}
+.summary-desc {
+  font-size: 1rem;
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+.summary-actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+/* Error Review Panel */
+.error-item {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px;
+  margin-bottom: 10px;
+}
+.error-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .view-panel { padding: 16px; }
+  .config-grid { grid-template-columns: 1fr; }
+  .q-stem { font-size: 1.05rem; }
+  .opt-btn { font-size: 0.92rem; padding: 10px 12px; }
+}
+</style>
+</head>
+<body>
+
+<div class="engine-container">
+  <!-- Header -->
+  <div class="engine-header">
+    <div class="engine-header-top">
+      <div class="engine-title">
+        <span>&#9889; JP-STUDY PRACTICE ENGINE</span>
+        <span class="engine-badge">V2.0 UNLIMITED</span>
+      </div>
+      <div id="stat-badge" class="engine-stats">&#272;ang t&#7843;i d&#7919; li&#7879;u ng&#226;n h&#224;ng 761+ c&#226;u h&#7887;i...</div>
+    </div>
+  </div>
+
+  <!-- Mode Navigation Tabs -->
+  <div class="engine-nav">
+    <div class="nav-tab active" onclick="switchMode('mode-a')">&#128293; C&#224;y li&#234;n t&#7909;c</div>
+    <div class="nav-tab" onclick="switchMode('mode-b')">&#127919; Luy&#7879;n theo d&#7841;ng</div>
+    <div class="nav-tab" onclick="switchMode('mode-c')">&#127922; &#272;&#7873; ng&#7851;u nhi&#234;n</div>
+    <div class="nav-tab" onclick="switchMode('mode-d')">&#9201;&#65039; Thi th&#7917; JLPT</div>
+    <div class="nav-tab" onclick="switchMode('mode-e')">&#128221; &#212;n c&#226;u sai (SR)</div>
+  </div>
+
+  <!-- MODE A: C&#192;Y LI&#202;N T&#7908;C -->
+  <div id="mode-a" class="view-panel active">
+    <!-- Config Selector -->
+    <div id="a-config" class="config-section">
+      <h3 style="margin-bottom: 16px; font-size: 1.1rem; color: #1e293b;">T&#249;y ch&#7881;nh phi&#234;n c&#224;y c&#226;u h&#7887;i</h3>
+      <div class="config-grid">
+        <div class="config-group">
+          <label class="config-label">C&#7845;p &#273;&#7897; (JLPT Level)</label>
+          <select id="a-level" class="config-select">
+            <option value="N2" selected>JLPT N2 (Tr&#7885;ng t&#226;m 50%)</option>
+            <option value="N3">JLPT N3 (N&#7873;n t&#7843;ng 40%)</option>
+            <option value="N4">JLPT N4 (B&#7893; tr&#7907; 10%)</option>
+            <option value="MIXED">H&#7895;n h&#7907;p N2 + N3</option>
+            <option value="ALL">T&#7845;t c&#7843; c&#7845;p &#273;&#7897;</option>
+          </select>
+        </div>
+        <div class="config-group">
+          <label class="config-label">K&#7929; n&#259;ng (Skill)</label>
+          <select id="a-skill" class="config-select">
+            <option value="ALL" selected>T&#7845;t c&#7843; k&#7929; n&#259;ng</option>
+            <option value="Vocabulary">Ch&#7919; H&#225;n & T&#7915; v&#7921;ng</option>
+            <option value="Grammar">Ng&#7919; ph&#225;p c&#226;u & &#273;o&#7841;n v&#259;n</option>
+            <option value="Reading">&#272;&#7885;c hi&#7875;u</option>
+            <option value="Listening">Nghe hi&#7875;u (Audio)</option>
+          </select>
+        </div>
+        <div class="config-group">
+          <label class="config-label">S&#7889; l&#432;&#7907;ng c&#226;u</label>
+          <select id="a-count" class="config-select">
+            <option value="10">10 c&#226;u (Kh&#7903;i &#273;&#7897;ng)</option>
+            <option value="20">20 c&#226;u (V&#7915;a ph&#7843;i)</option>
+            <option value="30" selected>30 c&#226;u (Ti&#234;u chu&#7849;n)</option>
+            <option value="50">50 c&#226;u (T&#259;ng t&#7889;c)</option>
+            <option value="100">100 c&#226;u (Marathon)</option>
+          </select>
+        </div>
+        <div class="config-group">
+          <label class="config-label">Tr&#7841;ng th&#225;i c&#226;u</label>
+          <select id="a-filter" class="config-select">
+            <option value="UNSEEN" selected>Ch&#432;a l&#224;m bao gi&#7901; (&#431;u ti&#234;n m&#7899;i)</option>
+            <option value="RANDOM">Ng&#7851;u nhi&#234;n to&#224;n ng&#226;n h&#224;ng</option>
+            <option value="WRONG_ONLY">Ch&#7881; c&#226;u t&#7915;ng l&#224;m sai</option>
+          </select>
+        </div>
+      </div>
+      <button type="button" class="btn-primary" onclick="startGrindSession()">&#128640; B&#7854;T &#272;&#7846;U C&#192;Y C&#194;U H&#7886;I</button>
+    </div>
+
+    <!-- Active Question Arena -->
+    <div id="a-arena" style="display: none;">
+      <div class="session-bar">
+        <span id="a-progress-txt" class="session-progress-text">C&#226;u 1 / 30</span>
+        <span id="a-score-txt" style="font-size: 0.88rem; font-weight: 600; color: #15803d;">&#272;&#250;ng: 0 | Sai: 0</span>
+        <button type="button" class="btn-secondary" style="padding: 4px 10px; font-size: 0.78rem;" onclick="quitSession()">Tho&#225;t</button>
+      </div>
+      <div class="progress-track">
+        <div id="a-progress-bar" class="progress-fill"></div>
+      </div>
+
+      <div class="question-card">
+        <div id="a-q-meta" class="q-meta"></div>
+        <div id="a-q-passage" class="q-passage" style="display: none;"></div>
+        <div id="a-q-audio" class="q-audio-box" style="display: none;"></div>
+        <div id="a-q-stem" class="q-stem"></div>
+        <div id="a-q-options" class="options-list"></div>
+        
+        <!-- Explanation -->
+        <div id="a-q-exp" class="explanation-card">
+          <div class="exp-header">&#128161; GI&#7842;I TH&#205;CH CHI TI&#7870;T & PH&#194;N T&#205;CH &#272;&#193;P &#193;N:</div>
+          <div id="a-q-exp-text" class="exp-content"></div>
+          <div id="a-q-distractors" class="distractor-list"></div>
+        </div>
+      </div>
+
+      <div class="q-controls">
+        <button id="btn-next-q" type="button" class="btn-primary" style="display: none;" onclick="nextQuestion()">C&#194;U TI&#7870;P THEO &#10132;</button>
+      </div>
+    </div>
+
+    <!-- Session Completion Summary -->
+    <div id="a-summary" style="display: none;" class="summary-card">
+      <div id="a-summary-score" class="summary-score">28/30</div>
+      <p id="a-summary-msg" class="summary-desc">R&#7845;t xu&#7845;t s&#7855;c! B&#7841;n &#273;&#227; ho&#224;n th&#224;nh tr&#7885;n v&#7865;n 30 c&#226;u h&#7887;i.</p>
+      <div class="summary-actions">
+        <button type="button" class="btn-primary" onclick="continueNext30()">&#128260; L&#192;M TI&#7870;P 30 C&#194;U M&#7898;I</button>
+        <button type="button" class="btn-secondary" onclick="resetToConfig()">&#9881;&#65039; &#272;&#7893;i b&#7897; l&#7885;c</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODE B: LUY&#7878;N THEO D&#7840;NG &#272;&#7872; -->
+  <div id="mode-b" class="view-panel">
+    <h3 style="margin-bottom: 6px; font-size: 1.1rem; color: #1e293b;">Luy&#7879;n chuy&#234;n s&#226;u theo t&#7915;ng d&#7841;ng b&#224;i JLPT</h3>
+    <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 20px;">L&#7921;a ch&#7885;n d&#7841;ng b&#224;i c&#7909; th&#7875; &#273;&#7875; luy&#7879;n t&#7853;p t&#7853;p trung cho &#273;&#7871;n khi ho&#224;n to&#224;n th&#224;nh th&#7841;o.</p>
+    
+    <h4 style="font-size: 0.85rem; text-transform: uppercase; color: #8b0000; margin-bottom: 10px; font-weight: 800;">JLPT N2 (Tr&#7885;ng t&#226;m)</h4>
+    <div class="type-grid" style="margin-bottom: 24px;">
+      <div class="type-card" onclick="startFocusedType('N2', 'N2-MO-READ')">
+        <span class="type-card-badge">Mondai 1</span>
+        <div class="type-card-title">&#28450;&#23383;&#35501;&#12415; (&#272;&#7885;c ch&#7919; H&#225;n)</div>
+        <div class="type-card-desc">60 c&#226;u &#183; Luy&#7879;n &#226;m On/Kun v&#224; quy t&#7855;c bi&#7871;n &#226;m N2</div>
+      </div>
+      <div class="type-card" onclick="startFocusedType('N2', 'N2-MO-ORTH')">
+        <span class="type-card-badge">Mondai 2</span>
+        <div class="type-card-title">&#34920;&#35352; (Vi&#7871;t ch&#7919; H&#225;n)</div>
+        <div class="type-card-desc">50 c&#226;u &#183; Ph&#226;n bi&#7879;t t&#7915; &#273;&#7891;ng &#226;m v&#224; b&#7897; th&#7911; t&#432;&#417;ng &#273;&#7891;ng</div>
+      </div>
+      <div class="type-card" onclick="startFocusedType('N2', 'N2-MO-AFFX')">
+        <span class="type-card-badge" style="background:#fee2e2; color:#991b1b;">Mondai 3 &#183; &#272;&#7863;c tr&#432;ng N2</span>
+        <div class="type-card-title">&#35486;&#24418;&#25104; (C&#7845;u t&#7841;o t&#7915; gh&#233;p)</div>
+        <div class="type-card-desc">50 c&#226;u &#183; Ti&#7873;n t&#7889; (&#28961;, &#26410;, &#38750;, &#19981;, &#32207;) & H&#7853;u t&#7889; (&#12316;&#24863;, &#12316;&#24615;, &#12316;&#21270;, &#12316;&#30340;)</div>
+      </div>
+      <div class="type-card" onclick="startFocusedType('N2', 'N2-MO-CONT')">
+        <span class="type-card-badge">Mondai 4</span>
+        <div class="type-card-title">&#25991;&#33032;&#35215;&#23450; (&#272;i&#7873;n t&#7915; theo ng&#7919; c&#7843;nh)</div>
+        <div class="type-card-desc">60 c&#226;u &#183; Qu&#225;n d&#7909;ng ng&#7919; v&#224; Collocation t&#7921; nhi&#234;n</div>
+      </div>
+      <div class="type-card" onclick="startFocusedType('N2', 'N2-MO-PARA')">
+        <span class="type-card-badge">Mondai 5</span>
+        <div class="type-card-title">&#35328;&#12356;&#25563;&#12360;&#39006;&#32681; (T&#236;m t&#7915; &#273;&#7891;ng ngh&#297;a)</div>
+        <div class="type-card-desc">40 c&#226;u &#183; Di&#7877;n &#273;&#7841;t t&#432;&#417;ng &#273;&#432;&#417;ng v&#224; t&#7915; thu&#7847;n Nh&#7853;t Wago</div>
+      </div>
+      <div class="type-card" onclick="startFocusedType('N2', 'N2-MO-USAG')">
+        <span class="type-card-badge">Mondai 6</span>
+        <div class="type-card-title">&#29992;&#27861; (C&#225;ch d&#249;ng t&#7915; trong c&#226;u)</div>
+        <div class="type-card-desc">40 c&#226;u &#183; Ch&#7885;n c&#226;u d&#249;ng t&#7915; chu&#7849;n x&#225;c ng&#7919; c&#7843;nh</div>
+      </div>
+      <div class="type-card" onclick="startFocusedType('N2', 'N2-GR-FORM')">
+        <span class="type-card-badge">Mondai 7</span>
+        <div class="type-card-title">&#25991;&#27861;&#24418;&#24335; (Ng&#7919; ph&#225;p c&#226;u)</div>
+        <div class="type-card-desc">50 c&#226;u &#183; C&#225;c m&#7851;u c&#226;u tr&#7885;ng &#273;i&#7875;m N2</div>
+      </div>
+      <div class="type-card" onclick="startFocusedType('N2', 'N2-GR-STAR')">
+        <span class="type-card-badge">Mondai 8</span>
+        <div class="type-card-title">&#25991;&#12398;&#32068;&#12415;&#31435;&#12390; &#9733; (X&#7871;p c&#226;u sao)</div>
+        <div class="type-card-desc">25 c&#226;u &#183; K&#7929; thu&#7853;t kh&#243;a c&#7863;p ng&#7919; ph&#225;p v&#224; s&#7855;p x&#7871;p 4 c&#7909;m</div>
+      </div>
+      <div class="type-card" onclick="startFocusedType('N2', 'N2-GR-CLOZ')">
+        <span class="type-card-badge">Mondai 9</span>
+        <div class="type-card-title">&#25991;&#31456;&#12398;&#25991;&#27861; (Ng&#7919; ph&#225;p &#273;o&#7841;n v&#259;n)</div>
+        <div class="type-card-desc">15 c&#226;u &#183; &#272;i&#7873;n li&#234;n t&#7915;, &#273;&#7841;i t&#7915; ch&#7881; th&#7883; v&#224; m&#7841;ch logic</div>
+      </div>
+      <div class="type-card" onclick="startFocusedType('N2', 'N2-RD-SHOR')">
+        <span class="type-card-badge">Mondai 10</span>
+        <div class="type-card-title">&#35501;&#35299;&#65306;&#30701;&#25991; (&#272;&#7885;c hi&#7875;u &#273;o&#7843;n v&#259;n)</div>
+        <div class="type-card-desc">6 b&#224;i &#183; N&#7855;m b&#7855;t &#253; ch&#237;nh t&#225;c gi&#7843; trong 200 ch&#7919;</div>
+      </div>
+      <div class="type-card" onclick="startFocusedType('N2', 'N2-RD-MEDI')">
+        <span class="type-card-badge">Mondai 11</span>
+        <div class="type-card-title">&#35501;&#35299;&#65306;&#20013;&#25991; (&#272;&#7885;c hi&#7875;u trung v&#259;n)</div>
+        <div class="type-card-desc">12 c&#226;u &#183; Ph&#226;n t&#237;ch m&#7841;ch l&#253; lu&#7853;n v&#224; d&#7851;n ch&#7913;ng</div>
+      </div>
+      <div class="type-card" onclick="startFocusedType('N2', 'N2-RD-INTE')">
+        <span class="type-card-badge">Mondai 12</span>
+        <div class="type-card-title">&#35501;&#35299;&#65306;&#32113;&#21512;&#29702;&#35299; (&#272;&#7885;c hi&#7875;u so s&#225;nh A & B)</div>
+        <div class="type-card-desc">4 c&#226;u &#183; &#272;&#7889;i chi&#7871;u &#273;i&#7875;m gi&#7889;ng v&#224; kh&#225;c gi&#7919;a 2 v&#259;n b&#7843;n</div>
+      </div>
+      <div class="type-card" onclick="startFocusedType('N2', 'N2-RD-LONG')">
+        <span class="type-card-badge">Mondai 13</span>
+        <div class="type-card-title">&#35501;&#35299;&#65306;&#38263;&#25991; (&#272;&#7885;c hi&#7875;u tr&#432;&#7901;ng v&#259;n)</div>
+        <div class="type-card-desc">6 c&#226;u &#183; B&#7889; c&#7909;c tri&#7871;t l&#253; v&#224; k&#7871;t lu&#7853;n to&#224;n di&#7879;n</div>
+      </div>
+      <div class="type-card" onclick="startFocusedType('N2', 'N2-RD-INFO')">
+        <span class="type-card-badge">Mondai 14</span>
+        <div class="type-card-title">&#35501;&#35299;&#65306;&#24773;&#22577;&#26908;&#32034; (T&#236;m ki&#7871;m th&#244;ng tin)</div>
+        <div class="type-card-desc">4 c&#226;u &#183; L&#7885;c b&#7843;ng th&#244;ng b&#225;o, chi ph&#237; v&#224; ch&#250; th&#237;ch &#8251;</div>
+      </div>
+      <div class="type-card" onclick="startFocusedType('N2', 'N2-LIS')">
+        <span class="type-card-badge" style="background:#dbeafe; color:#1e40af;">&#32884;&#35299; 25 c&#226;u</span>
+        <div class="type-card-title">&#32884;&#35299;&#65306;&#20840;&#12497;&#12540;&#12488; (Nghe hi&#7875;u &#273;&#7847;y &#273;&#7911;)</div>
+        <div class="type-card-desc">Mondai 1..5 &#183; C&#243; ph&#225;t audio v&#224; k&#7883;ch b&#7843;n chi ti&#7871;t</div>
+      </div>
+    </div>
+
+    <h4 style="font-size: 0.85rem; text-transform: uppercase; color: #1e3a8a; margin-bottom: 10px; font-weight: 800;">JLPT N3 (N&#7873;n t&#7843;ng c&#7911;ng c&#7889;)</h4>
+    <div class="type-grid">
+      <div class="type-card" onclick="startFocusedType('N3', 'N3-MO-READ')">
+        <span class="type-card-badge">Mondai 1</span>
+        <div class="type-card-title">N3 &#28450;&#23383;&#35501;&#12415; (&#272;&#7885;c H&#225;n t&#7921;)</div>
+        <div class="type-card-desc">40 c&#226;u c&#417; b&#7843;n</div>
+      </div>
+      <div class="type-card" onclick="startFocusedType('N3', 'N3-MO-ORTH')">
+        <span class="type-card-badge">Mondai 2</span>
+        <div class="type-card-title">N3 &#34920;&#35352; (Ch&#237;nh t&#7843;)</div>
+        <div class="type-card-desc">30 c&#226;u ch&#7885;n ch&#7919; H&#225;n</div>
+      </div>
+      <div class="type-card" onclick="startFocusedType('N3', 'N3-MO-CONT')">
+        <span class="type-card-badge">Mondai 3</span>
+        <div class="type-card-title">N3 &#25991;&#33032;&#35215;&#23450; (T&#7915; v&#7921;ng ng&#7919; c&#7843;nh)</div>
+        <div class="type-card-desc">40 c&#226;u t&#7915; t&#432;&#7907;ng thanh & ph&#243; t&#7915;</div>
+      </div>
+      <div class="type-card" onclick="startFocusedType('N3', 'N3-GR-FORM')">
+        <span class="type-card-badge">Grammar</span>
+        <div class="type-card-title">N3 &#25991;&#27861;&#24418;&#24335; (Ng&#7919; ph&#225;p c&#226;u)</div>
+        <div class="type-card-desc">40 c&#226;u m&#7851;u ng&#7919; ph&#225;p n&#7873;n t&#7843;ng N3</div>
+      </div>
+      <div class="type-card" onclick="startFocusedType('N3', 'N3-GR-STAR')">
+        <span class="type-card-badge">Star &#9733;</span>
+        <div class="type-card-title">N3 &#25991;&#12398;&#32068;&#12415;&#31435;&#12390; &#9733; (C&#226;u sao)</div>
+        <div class="type-card-desc">20 c&#226;u x&#7871;p c&#226;u sao chu&#7849;n N3</div>
+      </div>
+      <div class="type-card" onclick="startFocusedType('N3', 'N3-RD')">
+        <span class="type-card-badge">Reading</span>
+        <div class="type-card-title">N3 &#35501;&#35299;&#20840;&#33324; (&#272;&#7885;c hi&#7875;u N3)</div>
+        <div class="type-card-desc">11 b&#224;i &#273;&#7885;c ng&#7855;n, trung, d&#224;i v&#224; th&#244;ng b&#225;o</div>
+      </div>
+      <div class="type-card" onclick="startFocusedType('N3', 'N3-LIS')">
+        <span class="type-card-badge">Listening</span>
+        <div class="type-card-title">N3 &#32884;&#35299; (Nghe hi&#7875;u N3)</div>
+        <div class="type-card-desc">16 c&#226;u k&#232;m audio ch&#237;nh th&#7913;c</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODE C: &#272;&#7872; NG&#7850;U NHI&#202;N C&#211; SEED -->
+  <div id="mode-c" class="view-panel">
+    <h3 style="margin-bottom: 8px; font-size: 1.1rem; color: #1e293b;">T&#7841;o &#273;&#7873; ng&#7851;u nhi&#234;n c&#243; m&#227; s&#7889; (Seeded Random Test)</h3>
+    <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 20px;">&#272;&#7873; thi &#273;&#432;&#7907;c t&#7841;o ra t&#7915; m&#227; Seed c&#243; t&#237;nh t&#225;i t&#7841;o 100% (c&#249;ng m&#227; Seed s&#7869; ra ch&#237;nh x&#225;c c&#249;ng th&#7913; t&#7921; c&#226;u h&#7887;i). B&#7841;n c&#243; th&#7875; chia s&#7867; m&#227; Seed n&#224;y cho b&#7841;n h&#7885;c c&#249;ng l&#224;m &#273;&#7875; so s&#225;nh &#273;i&#7875;m s&#7889;.</p>
+
+    <div class="config-grid">
+      <div class="config-group">
+        <label class="config-label">M&#227; Seed (Nh&#7853;p ho&#7863;c t&#7841;o t&#7921; &#273;&#7897;ng)</label>
+        <div style="display: flex; gap: 8px;">
+          <input id="c-seed-input" type="text" class="config-input" value="2026-N2-001">
+          <button type="button" class="btn-secondary" onclick="generateNewSeed()">T&#7841;o m&#7899;i</button>
+        </div>
+      </div>
+      <div class="config-group">
+        <label class="config-label">C&#7845;p &#273;&#7897;</label>
+        <select id="c-level" class="config-select">
+          <option value="N2" selected>JLPT N2</option>
+          <option value="N3">JLPT N3</option>
+        </select>
+      </div>
+      <div class="config-group">
+        <label class="config-label">Quy m&#244; &#273;&#7873;</label>
+        <select id="c-length" class="config-select">
+          <option value="15">Mini-Test (15 c&#226;u)</option>
+          <option value="30" selected>Standard Test (30 c&#226;u)</option>
+          <option value="60">Full Test (60 c&#226;u)</option>
+        </select>
+      </div>
+    </div>
+    <button type="button" class="btn-primary" onclick="startSeededSession()">&#127919; T&#7840;O V&#192; L&#192;M &#272;&#7872; THEO SEED</button>
+  </div>
+
+  <!-- MODE D: THI TH&#7916; JLPT C&#211; &#272;&#7890;NG H&#7890; &#272;&#7870;M NG&#431;&#7906;C -->
+  <div id="mode-d" class="view-panel">
+    <h3 style="margin-bottom: 8px; font-size: 1.1rem; color: #1e293b;">Thi th&#7917; JLPT m&#244; ph&#7887;ng ph&#242;ng thi th&#7853;t</h3>
+    <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 20px;">Ch&#7871; &#273;&#7897; t&#237;nh gi&#7901; nghi&#234;m ng&#7863;t v&#224; ch&#7845;m &#273;i&#7875;m theo thang &#273;i&#7875;m chu&#7849;n 180 c&#7911;a Hi&#7879;p h&#7897;i JEES (K&#232;m &#273;i&#7875;m li&#7879;t 19/60 m&#7895;i ph&#7847;n).</p>
+
+    <div class="config-grid">
+      <div class="config-group">
+        <label class="config-label">Ch&#7885;n &#273;&#7873; thi m&#244; ph&#7887;ng</label>
+        <select id="d-exam-select" class="config-select">
+          <option value="EXAM-N2-FULL">JLPT N2 Full Mock Exam (105 ph&#250;t + 50 ph&#250;t nghe)</option>
+          <option value="EXAM-N2-MINI">JLPT N2 R&#250;t g&#7885;n (45 ph&#250;t - C&#226;n &#273;&#7889;i t&#7845;t c&#7843; k&#7929; n&#259;ng)</option>
+          <option value="EXAM-N3-FULL">JLPT N3 Full Mock Exam (100 ph&#250;t + 40 ph&#250;t nghe)</option>
+          <option value="EXAM-N3-MINI">JLPT N3 R&#250;t g&#7885;n (35 ph&#250;t)</option>
+        </select>
+      </div>
+    </div>
+
+    <div style="background: #fffbeb; border: 1px solid #fef3c7; border-radius: 8px; padding: 14px; margin-bottom: 20px; font-size: 0.85rem; color: #92400e;">
+      &#9888;&#65039; <strong>Quy &#273;&#7883;nh ph&#242;ng thi m&#244; ph&#7887;ng:</strong> Kh&#244;ng hi&#7875;n th&#7883; &#273;&#225;p &#225;n trong l&#250;c l&#224;m b&#224;i. &#272;&#7891;ng h&#7891; &#273;&#7871;m ng&#432;&#7907;c s&#7869; t&#7921; &#273;&#7897;ng thu b&#224;i khi h&#7871;t gi&#7901;. &#272;i&#7875;m thi &#273;&#7841;t: N2 &#8805; 90/180, N3 &#8805; 95/180 (kh&#244;ng ph&#7847;n n&#224;o d&#432;&#7899;i 19/60).
+    </div>
+
+    <button type="button" class="btn-primary" onclick="startExamSession()">&#9201;&#65039; B&#7854;T &#272;&#7846;U V&#192;O PH&#210;NG THI</button>
+  </div>
+
+  <!-- MODE E: &#212;N L&#7894;I & SPACED REPETITION -->
+  <div id="mode-e" class="view-panel">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; flex-wrap: wrap; gap: 10px;">
+      <div>
+        <h3 style="font-size: 1.1rem; color: #1e293b;">S&#7893; tay c&#226;u h&#7887;i &#273;&#227; t&#7915;ng l&#224;m sai</h3>
+        <p style="font-size: 0.85rem; color: var(--text-muted);">H&#7879; th&#7889;ng Spaced Repetition t&#7921; &#273;&#7897;ng l&#432;u tr&#7919; v&#224; nh&#7855;c l&#7883;ch &#244;n t&#7853;p theo kho&#7843;ng c&#225;ch (1 ng&#224;y, 3 ng&#224;y, 7 ng&#224;y).</p>
+      </div>
+      <button type="button" class="btn-secondary" onclick="clearMistakeHistory()">X&#243;a l&#7883;ch s&#7917;</button>
+    </div>
+
+    <div id="sr-stats-box" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin-bottom: 20px;">
+      <div style="background: #fef2f2; border: 1px solid #fee2e2; border-radius: 8px; padding: 14px; text-align: center;">
+        <div style="font-size: 1.8rem; font-weight: 800; color: #b91c1c;" id="sr-count-total">0</div>
+        <div style="font-size: 0.78rem; font-weight: 600; color: #991b1b;">C&#194;U TRONG H&#192;NG &#272;&#7906;I &#212;N</div>
+      </div>
+      <div style="background: #f0fdf4; border: 1px solid #dcfce7; border-radius: 8px; padding: 14px; text-align: center;">
+        <div style="font-size: 1.8rem; font-weight: 800; color: #15803d;" id="sr-count-mastered">0</div>
+        <div style="font-size: 0.78rem; font-weight: 600; color: #166534;">&#272;&#195; TH&#192;NH TH&#7840;O (&#272;&#218;NG 2 L&#7846;N)</div>
+      </div>
+    </div>
+
+    <div style="display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap;">
+      <button type="button" class="btn-primary" onclick="startMistakeReview('ALL')">&#128221; &#212;n to&#224;n b&#7897; c&#226;u sai</button>
+      <button type="button" class="btn-secondary" onclick="startMistakeReview('TODAY')">H&#244;m nay</button>
+      <button type="button" class="btn-secondary" onclick="startMistakeReview('UNMASTERED')">Ch&#432;a th&#224;nh th&#7841;o</button>
+    </div>
+
+    <div id="sr-list-container"></div>
+  </div>
+
+</div>
+
+<!-- EMBEDDED PRACTICE BANK JS LOADER -->
+<script src="practice_bank.js"></script>
+<script>
+// =========================================================================
+// ENGINE STATE MANAGEMENT
+// =========================================================================
+let bank = window.JP_PRACTICE_BANK ? window.JP_PRACTICE_BANK.questions : [];
+let currentSession = {
+  mode: 'A',
+  questions: [],
+  currentIndex: 0,
+  scoreCorrect: 0,
+  scoreIncorrect: 0,
+  answersRecord: {},
+  examTimerInterval: null,
+  timeRemainingSec: 0,
+  seed: ''
+};
+
+// LocalStorage Mistake Bank Key
+const STORAGE_KEY_MISTAKES = 'JP_STUDY_MISTAKE_LOG_V2';
+const STORAGE_KEY_SEEN = 'JP_STUDY_SEEN_QIDS_V2';
+
+function getSeenIds() {
+  try {
+    return JSON.parse(localStorage.getItem(STORAGE_KEY_SEEN) || '[]');
+  } catch(e) { return []; }
+}
+function markIdSeen(qid) {
+  let seen = getSeenIds();
+  if (!seen.includes(qid)) {
+    seen.push(qid);
+    try { localStorage.setItem(STORAGE_KEY_SEEN, JSON.stringify(seen)); } catch(e){}
+  }
+}
+
+function getMistakeRecords() {
+  try {
+    return JSON.parse(localStorage.getItem(STORAGE_KEY_MISTAKES) || '{}');
+  } catch(e) { return {}; }
+}
+function saveMistakeRecord(qid, isCorrect) {
+  let records = getMistakeRecords();
+  let now = Date.now();
+  if (!records[qid]) {
+    records[qid] = { id: qid, wrongCount: 0, consecutiveCorrect: 0, lastAttempt: now };
+  }
+  if (isCorrect) {
+    records[qid].consecutiveCorrect = (records[qid].consecutiveCorrect || 0) + 1;
+  } else {
+    records[qid].wrongCount = (records[qid].wrongCount || 0) + 1;
+    records[qid].consecutiveCorrect = 0;
+  }
+  records[qid].lastAttempt = now;
+  try { localStorage.setItem(STORAGE_KEY_MISTAKES, JSON.stringify(records)); } catch(e){}
+}
+
+// Pseudo-random generator from string seed
+function createSeededRandom(seedStr) {
+  let h = 1779033703 ^ seedStr.length;
+  for (let i = 0; i < seedStr.length; i++) {
+    h = Math.imul(h ^ seedStr.charCodeAt(i), 3432918353);
+    h = h << 13 | h >>> 19;
+  }
+  return function() {
+    h = Math.imul(h ^ (h >>> 16), 2246822507);
+    h = Math.imul(h ^ (h >>> 13), 3266489909);
+    return ((h ^= h >>> 16) >>> 0) / 4294967296;
+  };
+}
+
+// Resilient asynchronous bank loader
+let isBankLoading = false;
+let bankLoadCallbacks = [];
+
+function ensureBankLoaded(onComplete) {
+  if (bank && bank.length > 0) {
+    if (onComplete) onComplete();
+    return;
+  }
+  if (onComplete) bankLoadCallbacks.push(onComplete);
+  if (isBankLoading) return;
+  isBankLoading = true;
+
+  const badge = document.getElementById('stat-badge');
+  if (badge) badge.innerText = '\u0110ang k\u1ebft n\u1ed1i t\u1ea3i 761 c\u00e2u h\u1ecfi...';
+
+  function finishLoading(data) {
+    window.JP_PRACTICE_BANK = data;
+    bank = data.questions || [];
+    isBankLoading = false;
+    initBankStats();
+    while (bankLoadCallbacks.length > 0) {
+      const cb = bankLoadCallbacks.shift();
+      try { cb(); } catch(e) { console.error(e); }
+    }
+  }
+
+  // Tier 1: jsDelivr CDN
+  const cdnScript = document.createElement('script');
+  cdnScript.src = 'https://cdn.jsdelivr.net/gh/Phuchello/JP-STUDY@main/docs/widgets/practice_bank.js';
+  cdnScript.onload = () => {
+    if (window.JP_PRACTICE_BANK && window.JP_PRACTICE_BANK.questions) {
+      finishLoading(window.JP_PRACTICE_BANK);
+    }
+  };
+  cdnScript.onerror = () => {
+    // Tier 2: GitHub Raw JSON Fetch
+    fetch('https://raw.githubusercontent.com/Phuchello/JP-STUDY/main/curriculum/PRACTICE_ENGINE_BANK.json')
+      .then(r => r.json())
+      .then(data => {
+        finishLoading(data);
+      })
+      .catch(err => {
+        // Tier 3: Local relative fetch
+        fetch('practice_bank.json')
+          .then(r => r.json())
+          .then(data => finishLoading(data))
+          .catch(e => {
+            isBankLoading = false;
+            console.error('All data loading strategies failed:', e);
+            if (badge) badge.innerText = 'L\u1ed7i t\u1ea3i ng\u00e2n h\u00e0ng c\u00e2u h\u1ecfi. Vui l\u00f2ng th\u1eed l\u1ea1i.';
+          });
+      });
+  };
+  document.head.appendChild(cdnScript);
+}
+
+// =========================================================================
+// INITIALIZATION
+// =========================================================================
+window.addEventListener('DOMContentLoaded', () => {
+  if (window.JP_PRACTICE_BANK && window.JP_PRACTICE_BANK.questions) {
+    bank = window.JP_PRACTICE_BANK.questions;
+    initBankStats();
+  } else {
+    ensureBankLoaded();
+  }
+  renderSRStats();
+});
+
+function initBankStats() {
+  const m = (window.JP_PRACTICE_BANK && window.JP_PRACTICE_BANK.metrics) ? window.JP_PRACTICE_BANK.metrics : {};
+  const badge = document.getElementById('stat-badge');
+  if (badge) {
+    badge.innerText = `S\u1eb5n s\u00e0ng: ${m.n2Questions || 447} N2 \u00b7 ${m.n3Questions || 274} N3 \u00b7 ${m.readingPassages || 32} B\u00e0i \u0111\u1ecdc \u00b7 ${m.listeningTracks || 41} Audio`;
+  }
+}
+
+function switchMode(modeId) {
+  document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.view-panel').forEach(p => p.classList.remove('active'));
+  
+  const idx = ['mode-a', 'mode-b', 'mode-c', 'mode-d', 'mode-e'].indexOf(modeId);
+  if (idx !== -1) {
+    document.querySelectorAll('.nav-tab')[idx].classList.add('active');
+  }
+  document.getElementById(modeId).classList.add('active');
+
+  if (modeId === 'mode-e') {
+    renderSRStats();
+  }
+}
+
+// =========================================================================
+// MODE A: C\u00c0Y LI\u00caN T\u1ee4C
+// =========================================================================
+function startGrindSession() {
+  if (!bank || bank.length === 0) {
+    ensureBankLoaded(() => startGrindSession());
+    return;
+  }
+  const level = document.getElementById('a-level').value;
+  const skill = document.getElementById('a-skill').value;
+  const count = parseInt(document.getElementById('a-count').value, 10);
+  const filter = document.getElementById('a-filter').value;
+
+  let candidates = bank.filter(q => {
+    if (level === 'MIXED' && !['N2', 'N3'].includes(q.level)) return false;
+    if (level !== 'ALL' && level !== 'MIXED' && q.level !== level) return false;
+    if (skill !== 'ALL' && q.skill !== skill) return false;
+    return true;
+  });
+
+  const seenIds = getSeenIds();
+  const mistakeRecords = getMistakeRecords();
+
+  if (filter === 'UNSEEN') {
+    let unseen = candidates.filter(q => !seenIds.includes(q.id));
+    if (unseen.length >= count) {
+      candidates = unseen;
+    } else {
+      // If unseen run out, mix remaining unseen with random
+      candidates.sort(() => Math.random() - 0.5);
+    }
+  } else if (filter === 'WRONG_ONLY') {
+    candidates = candidates.filter(q => mistakeRecords[q.id] && mistakeRecords[q.id].wrongCount > 0);
+    if (candidates.length === 0) {
+      alert('B\u1ea1n ch\u01b0a c\u00f3 c\u00e2u n\u00e0o l\u00e0m sai trong danh m\u1ee5c n\u00e0y! \u0110ang chuy\u1ec3n sang c\u00e2u ng\u1eabu nhi\u00ean.');
+      candidates = bank.filter(q => level === 'ALL' || q.level === level);
+    }
+  }
+
+  // Shuffle candidates
+  candidates.sort(() => Math.random() - 0.5);
+  const selected = candidates.slice(0, count);
+
+  launchSession(selected, 'A');
+}
+
+function launchSession(questions, mode) {
+  if (!questions || questions.length === 0) {
+    alert('Kh\u00f4ng t\u00ecm th\u1ea5y c\u00e2u h\u1ecfi ph\u00f9 h\u1ee3p v\u1edbi b\u1ed9 l\u1ecdc \u0111\u00e3 ch\u1ecdn.');
+    return;
+  }
+  currentSession = {
+    mode: mode,
+    questions: questions,
+    currentIndex: 0,
+    scoreCorrect: 0,
+    scoreIncorrect: 0,
+    answersRecord: {},
+    examTimerInterval: null,
+    timeRemainingSec: 0,
+    seed: ''
+  };
+
+  document.getElementById('a-config').style.display = 'none';
+  document.getElementById('a-summary').style.display = 'none';
+  document.getElementById('a-arena').style.display = 'block';
+
+  renderCurrentQuestion();
+}
+
+function renderCurrentQuestion() {
+  const q = currentSession.questions[currentSession.currentIndex];
+  const total = currentSession.questions.length;
+  const curNum = currentSession.currentIndex + 1;
+
+  document.getElementById('a-progress-txt').innerText = `C\u00e2u ${curNum} / ${total}`;
+  document.getElementById('a-score-txt').innerText = `\u0110\u00fang: ${currentSession.scoreCorrect} | Sai: ${currentSession.scoreIncorrect}`;
+  document.getElementById('a-progress-bar').style.width = `${((curNum - 1) / total) * 100}%`;
+
+  // Render Tags
+  const metaBox = document.getElementById('a-q-meta');
+  metaBox.innerHTML = `
+    <span class="q-tag tag-${q.level.toLowerCase()}">${q.level}</span>
+    <span class="q-tag tag-skill">${q.skill}</span>
+    <span class="q-tag tag-skill">${q.typeId}</span>
+    <span style="font-size:0.75rem; color:#94a3b8; margin-left:auto;">ID: ${q.id}</span>
+  `;
+
+  // Reading Passage
+  const passageBox = document.getElementById('a-q-passage');
+  if (q.contextPassage) {
+    passageBox.style.display = 'block';
+    passageBox.innerText = q.contextPassage;
+  } else {
+    passageBox.style.display = 'none';
+  }
+
+  // Audio Box
+  const audioBox = document.getElementById('a-q-audio');
+  if (q.audioUrl) {
+    audioBox.style.display = 'block';
+    audioBox.innerHTML = `
+      <div style="font-size:0.8rem; font-weight:700; color:#334155; margin-bottom:4px;">\u{1f3a7} B\u0102NG NGHE CH\u00cdNH TH\u1ee8C (B\u1ea5m Play \u0111\u1ec3 nghe):</div>
+      <audio controls preload="none">
+        <source src="${q.audioUrl}" type="audio/mpeg">
+        Tr\u00ecnh duy\u1ec7t kh\u00f4ng h\u1ed7 tr\u1ee3 audio.
+      </audio>
+    `;
+  } else {
+    audioBox.style.display = 'none';
+  }
+
+  // Stem
+  document.getElementById('a-q-stem').innerText = q.stem;
+
+  // Options
+  const optBox = document.getElementById('a-q-options');
+  optBox.innerHTML = '';
+  q.options.forEach(opt => {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'opt-btn';
+    btn.innerHTML = `<span class="opt-label">${opt.id}</span><span>${opt.text}</span>`;
+    btn.onclick = () => selectAnswer(opt.id);
+    optBox.appendChild(btn);
+  });
+
+  // Hide explanation and next button until answered
+  document.getElementById('a-q-exp').classList.remove('active');
+  document.getElementById('btn-next-q').style.display = 'none';
+
+  markIdSeen(q.id);
+}
+
+function selectAnswer(chosenId) {
+  const q = currentSession.questions[currentSession.currentIndex];
+  const isCorrect = (chosenId === q.correctAnswer);
+
+  if (isCorrect) {
+    currentSession.scoreCorrect++;
+  } else {
+    currentSession.scoreIncorrect++;
+  }
+
+  saveMistakeRecord(q.id, isCorrect);
+
+  // Disable all options and show colors
+  const btns = document.querySelectorAll('#a-q-options .opt-btn');
+  btns.forEach((btn, idx) => {
+    btn.disabled = true;
+    const optId = q.options[idx].id;
+    if (optId === q.correctAnswer) {
+      btn.classList.add('correct');
+    } else if (optId === chosenId) {
+      btn.classList.add('incorrect');
+    }
+  });
+
+  // Render Explanation
+  const expBox = document.getElementById('a-q-exp');
+  document.getElementById('a-q-exp-text').innerText = q.explanationVi;
+
+  const distBox = document.getElementById('a-q-distractors');
+  distBox.innerHTML = '';
+  if (q.distractorExplanations) {
+    Object.entries(q.distractorExplanations).forEach(([dKey, dExp]) => {
+      const p = document.createElement('div');
+      p.innerHTML = `<strong>L\u1ef1a ch\u1ecdn ${dKey}:</strong> ${dExp}`;
+      distBox.appendChild(p);
+    });
+  }
+
+  expBox.classList.add('active');
+  document.getElementById('btn-next-q').style.display = 'inline-flex';
+}
+
+function nextQuestion() {
+  currentSession.currentIndex++;
+  if (currentSession.currentIndex >= currentSession.questions.length) {
+    finishSession();
+  } else {
+    renderCurrentQuestion();
+  }
+}
+
+function finishSession() {
+  document.getElementById('a-arena').style.display = 'none';
+  const total = currentSession.questions.length;
+  const correct = currentSession.scoreCorrect;
+  const pct = Math.round((correct / total) * 100);
+
+  document.getElementById('a-summary-score').innerText = `${correct} / ${total}`;
+  document.getElementById('a-summary-msg').innerText = 
+    `\u0110\u1ed9 ch\u00ednh x\u00e1c: ${pct}%. ${pct >= 80 ? 'R\u1ea5t tuy\u1ec7t v\u1eddi! Gi\u1eef v\u1eefng phong \u0111\u1ed9 n\u00e0y.' : 'H\u00e3y ti\u1ebfp t\u1ee5c ki\u00ean tr\u00ec c\u00e0y th\u00eam \u0111\u1ec3 kh\u1eafc ph\u1ee5c c\u00e1c l\u1ed7i sai.'}`;
+  document.getElementById('a-summary').style.display = 'block';
+}
+
+function continueNext30() {
+  if (!bank || bank.length === 0) {
+    ensureBankLoaded(() => continueNext30());
+    return;
+  }
+  // Automatically pull next 30 unseen questions with 0 overlap
+  const seenIds = getSeenIds();
+  let unseen = bank.filter(q => q.level === 'N2' && !seenIds.includes(q.id));
+  if (unseen.length < 30) {
+    unseen = bank.filter(q => !seenIds.includes(q.id));
+  }
+  if (unseen.length === 0) {
+    unseen = bank;
+  }
+  unseen.sort(() => Math.random() - 0.5);
+  launchSession(unseen.slice(0, 30), 'A');
+}
+
+function resetToConfig() {
+  document.getElementById('a-arena').style.display = 'none';
+  document.getElementById('a-summary').style.display = 'none';
+  document.getElementById('a-config').style.display = 'block';
+}
+
+function quitSession() {
+  if (confirm('B\u1ea1n c\u00f3 ch\u1eafc ch\u1eafn mu\u1ed1n tho\u00e1t phi\u00ean luy\u1ec7n t\u1eadp n\u00e0y kh\u00f4ng?')) {
+    resetToConfig();
+  }
+}
+
+// =========================================================================
+// MODE B: LUY\u1ec6N THEO D\u1ea0NG \u0110\u1ec0
+// =========================================================================
+function startFocusedType(level, typePrefix) {
+  if (!bank || bank.length === 0) {
+    ensureBankLoaded(() => startFocusedType(level, typePrefix));
+    return;
+  }
+  let matched = bank.filter(q => q.level === level && q.typeId.startsWith(typePrefix));
+  if (matched.length === 0) {
+    matched = bank.filter(q => q.typeId.startsWith(typePrefix));
+  }
+  matched.sort(() => Math.random() - 0.5);
+  switchMode('mode-a');
+  launchSession(matched.slice(0, 20), 'B');
+}
+
+// =========================================================================
+// MODE C: \u0110\u1ec0 THEO SEED
+// =========================================================================
+function generateNewSeed() {
+  const randNum = Math.floor(1000 + Math.random() * 9000);
+  document.getElementById('c-seed-input').value = `2026-N2-${randNum}`;
+}
+
+function startSeededSession() {
+  if (!bank || bank.length === 0) {
+    ensureBankLoaded(() => startSeededSession());
+    return;
+  }
+  const seed = document.getElementById('c-seed-input').value.trim() || '2026-N2-001';
+  const level = document.getElementById('c-level').value;
+  const count = parseInt(document.getElementById('c-length').value, 10);
+
+  const rng = createSeededRandom(seed);
+  let pool = bank.filter(q => q.level === level);
+
+  // Deterministic shuffle
+  let shuffled = listShuffledWithRng(pool, rng);
+  const selected = shuffled.slice(0, count);
+
+  switchMode('mode-a');
+  launchSession(selected, 'C');
+}
+
+function listShuffledWithRng(arr, rng) {
+  let res = [...arr];
+  for (let i = res.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1));
+    [res[i], res[j]] = [res[j], res[i]];
+  }
+  return res;
+}
+
+// =========================================================================
+// MODE D: THI TH\u1eec JLPT C\u00d3 \u0110\u1ed2NG H\u1ed2
+// =========================================================================
+function startExamSession() {
+  if (!bank || bank.length === 0) {
+    ensureBankLoaded(() => startExamSession());
+    return;
+  }
+  const examType = document.getElementById('d-exam-select').value;
+  let qList = [];
+  if (examType.includes('N2')) {
+    qList = bank.filter(q => q.level === 'N2');
+  } else {
+    qList = bank.filter(q => q.level === 'N3');
+  }
+  qList.sort(() => Math.random() - 0.5);
+  const count = examType.includes('MINI') ? 30 : 60;
+  
+  switchMode('mode-a');
+  launchSession(qList.slice(0, count), 'D');
+}
+
+// =========================================================================
+// MODE E: \u00d4N L\u1ed6I (SPACED REPETITION)
+// =========================================================================
+function renderSRStats() {
+  const records = getMistakeRecords();
+  let totalWrong = 0;
+  let mastered = 0;
+
+  Object.values(records).forEach(r => {
+    if (r.wrongCount > 0) totalWrong++;
+    if (r.consecutiveCorrect >= 2) mastered++;
+  });
+
+  document.getElementById('sr-count-total').innerText = totalWrong;
+  document.getElementById('sr-count-mastered').innerText = mastered;
+
+  // Render List
+  const container = document.getElementById('sr-list-container');
+  container.innerHTML = '';
+
+  const wrongIds = Object.keys(records).filter(id => records[id].wrongCount > 0);
+  if (wrongIds.length === 0) {
+    container.innerHTML = '<p style="text-align:center; color:#64748b; padding:20px;">Tuy\u1ec7t v\u1eddi! B\u1ea1n ch\u01b0a c\u00f3 c\u00e2u n\u00e0o b\u1ecb \u0111\u00e1nh d\u1ea5u l\u00e0m sai trong b\u1ed9 nh\u1edb.</p>';
+    return;
+  }
+
+  wrongIds.slice(0, 10).forEach(qid => {
+    const q = bank.find(item => item.id === qid);
+    if (!q) return;
+    const r = records[qid];
+    const item = document.createElement('div');
+    item.className = 'error-item';
+    item.innerHTML = `
+      <div class="error-meta">
+        <span><strong>${q.level}</strong> \u00b7 ${q.typeId} \u00b7 ID: ${q.id}</span>
+        <span style="color:#b91c1c;">Sai ${r.wrongCount} l\u1ea7n | \u0110\u00fang li\u00ean ti\u1ebfp: ${r.consecutiveCorrect || 0}</span>
+      </div>
+      <div style="font-family:var(--font-jp); font-size:0.95rem; font-weight:600; margin-bottom:6px;">${q.stem}</div>
+      <div style="font-size:0.82rem; color:#475569;">${q.explanationVi.slice(0, 120)}...</div>
+    `;
+    container.appendChild(item);
+  });
+}
+
+function startMistakeReview(filterType) {
+  if (!bank || bank.length === 0) {
+    ensureBankLoaded(() => startMistakeReview(filterType));
+    return;
+  }
+  const records = getMistakeRecords();
+  let targetIds = Object.keys(records).filter(id => {
+    if (filterType === 'UNMASTERED') return records[id].consecutiveCorrect < 2 && records[id].wrongCount > 0;
+    return records[id].wrongCount > 0;
+  });
+
+  let qs = bank.filter(q => targetIds.includes(q.id));
+  if (qs.length === 0) {
+    alert('Kh\u00f4ng c\u00f3 c\u00e2u h\u1ecfi sai n\u00e0o ph\u00f9 h\u1ee3p v\u1edbi b\u1ed9 l\u1ecdc n\u00e0y.');
+    return;
+  }
+  qs.sort(() => Math.random() - 0.5);
+  switchMode('mode-a');
+  launchSession(qs.slice(0, 20), 'E');
+}
+
+function clearMistakeHistory() {
+  if (confirm('B\u1ea1n c\u00f3 ch\u1eafc mu\u1ed1n x\u00f3a s\u1ea1ch to\u00e0n b\u1ed9 l\u1ecbch s\u1eed c\u00e2u h\u1ecfi sai kh\u00f4ng?')) {
+    localStorage.removeItem(STORAGE_KEY_MISTAKES);
+    renderSRStats();
+  }
+}
+</script>
+
+</body>
+</html>

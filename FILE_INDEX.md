@@ -106,6 +106,7 @@ Snapshot 2026-10-15. VERIFIED is scoped verification, not JLPT certification. Hi
 | [curriculum/LISTENING_PRACTICE_FRAMEWORK.md](curriculum/LISTENING_PRACTICE_FRAMEWORK.md) | VERIFIED |
 | [curriculum/LISTENING_RESOURCE_REGISTRY.json](curriculum/LISTENING_RESOURCE_REGISTRY.json) | VERIFIED |
 | [curriculum/N2_N3_TARGET_CURRICULUM_ROADMAP.md](curriculum/N2_N3_TARGET_CURRICULUM_ROADMAP.md) | VERIFIED |
+| [curriculum/PRACTICE_ENGINE_BANK.json](curriculum/PRACTICE_ENGINE_BANK.json) | QA_PENDING |
 | [curriculum/PRACTICE_SETS.json](curriculum/PRACTICE_SETS.json) | VERIFIED |
 | [curriculum/QUESTION_BANK_EXPANDED.json](curriculum/QUESTION_BANK_EXPANDED.json) | VERIFIED |
 | [curriculum/QUESTION_TYPE_BLUEPRINT.json](curriculum/QUESTION_TYPE_BLUEPRINT.json) | VERIFIED |
@@ -149,6 +150,9 @@ Snapshot 2026-10-15. VERIFIED is scoped verification, not JLPT certification. Hi
 | [docs/widgets/jlpt_exam_catalog_ncr.html](docs/widgets/jlpt_exam_catalog_ncr.html) | QA_PENDING |
 | [docs/widgets/listening_room.html](docs/widgets/listening_room.html) | QA_PENDING |
 | [docs/widgets/listening_room_ncr.html](docs/widgets/listening_room_ncr.html) | QA_PENDING |
+| [docs/widgets/practice_bank.js](docs/widgets/practice_bank.js) | QA_PENDING |
+| [docs/widgets/practice_engine.html](docs/widgets/practice_engine.html) | QA_PENDING |
+| [docs/widgets/practice_engine_ncr.html](docs/widgets/practice_engine_ncr.html) | QA_PENDING |
 | [docs/widgets/progress_dashboard.html](docs/widgets/progress_dashboard.html) | QA_PENDING |
 | [docs/widgets/progress_dashboard_ncr.html](docs/widgets/progress_dashboard_ncr.html) | QA_PENDING |
 | [gemini-prompts/README.md](gemini-prompts/README.md) | VERIFIED |
@@ -231,12 +235,18 @@ Snapshot 2026-10-15. VERIFIED is scoped verification, not JLPT certification. Hi
 | [scripts/curriculum/apply_stop_ship.py](scripts/curriculum/apply_stop_ship.py) | VERIFIED |
 | [scripts/curriculum/audit_all_items.py](scripts/curriculum/audit_all_items.py) | VERIFIED |
 | [scripts/curriculum/audit_star_permutations.py](scripts/curriculum/audit_star_permutations.py) | VERIFIED |
+| [scripts/curriculum/bank_data/__init__.py](scripts/curriculum/bank_data/__init__.py) | QA_PENDING |
+| [scripts/curriculum/bank_data/n2_data.py](scripts/curriculum/bank_data/n2_data.py) | QA_PENDING |
+| [scripts/curriculum/bank_data/n2_reading_listening.py](scripts/curriculum/bank_data/n2_reading_listening.py) | QA_PENDING |
+| [scripts/curriculum/bank_data/n3_data.py](scripts/curriculum/bank_data/n3_data.py) | QA_PENDING |
+| [scripts/curriculum/bank_data/n3_reading_listening.py](scripts/curriculum/bank_data/n3_reading_listening.py) | QA_PENDING |
 | [scripts/curriculum/build_expanded_bank.py](scripts/curriculum/build_expanded_bank.py) | VERIFIED |
 | [scripts/curriculum/build_practice_sets.py](scripts/curriculum/build_practice_sets.py) | VERIFIED |
 | [scripts/curriculum/build_provenance_manifest.py](scripts/curriculum/build_provenance_manifest.py) | VERIFIED |
 | [scripts/curriculum/content_fingerprint.py](scripts/curriculum/content_fingerprint.py) | VERIFIED |
 | [scripts/curriculum/export_pilot_payload.py](scripts/curriculum/export_pilot_payload.py) | QA_PENDING |
 | [scripts/curriculum/generate_practice_release_gate.py](scripts/curriculum/generate_practice_release_gate.py) | VERIFIED |
+| [scripts/curriculum/generate_unlimited_practice_bank.py](scripts/curriculum/generate_unlimited_practice_bank.py) | QA_PENDING |
 | [scripts/curriculum/inspect_category.py](scripts/curriculum/inspect_category.py) | VERIFIED |
 | [scripts/curriculum/rebuild_and_repair_bank.py](scripts/curriculum/rebuild_and_repair_bank.py) | VERIFIED |
 | [scripts/curriculum/reconcile_blind_review.py](scripts/curriculum/reconcile_blind_review.py) | VERIFIED |
@@ -252,6 +262,7 @@ Snapshot 2026-10-15. VERIFIED is scoped verification, not JLPT certification. Hi
 | [scripts/tests/test_browser.cjs](scripts/tests/test_browser.cjs) | VERIFIED |
 | [scripts/tests/test_edge_flows.cjs](scripts/tests/test_edge_flows.cjs) | VERIFIED |
 | [scripts/tests/test_engine.cjs](scripts/tests/test_engine.cjs) | VERIFIED |
+| [scripts/tests/test_practice_engine_bank.py](scripts/tests/test_practice_engine_bank.py) | QA_PENDING |
 | [scripts/tests/test_preview.cjs](scripts/tests/test_preview.cjs) | VERIFIED |
 | [scripts/tests/test_qa_adversarial_mutations.py](scripts/tests/test_qa_adversarial_mutations.py) | VERIFIED |
 | [scripts/tests/test_question_bank_negative.py](scripts/tests/test_question_bank_negative.py) | VERIFIED |
