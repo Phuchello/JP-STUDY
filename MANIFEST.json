@@ -1,8 +1,8 @@
 {
   "snapshotDate": "2026-10-15",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
-  "fileCountExcludingManifest": 245,
-  "totalBytesExcludingManifest": 6059543,
+  "fileCountExcludingManifest": 246,
+  "totalBytesExcludingManifest": 6071349,
   "files": [
     {
       "path": ".gitattributes",
@@ -18,8 +18,8 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 2623,
-      "sha256": "c7d7f21d30a225e4ed685ba1662a7d85661b41d55e12ac58cb73e8999d294636",
+      "bytes": 3487,
+      "sha256": "7b76791e59bc9eebd995c5ebc7b49b721ae97c3c8d5d8c9c6fa152cf16afd787",
       "status": "VERIFIED"
     },
     {
@@ -479,6 +479,12 @@
       "status": "VERIFIED"
     },
     {
+      "path": "curriculum/N2_N3_TARGET_CURRICULUM_ROADMAP.md",
+      "bytes": 8318,
+      "sha256": "2a058b6c4f8327bb0ac24336b0b96c4a1f419cc7e99c606922eeb323a4812608",
+      "status": "VERIFIED"
+    },
+    {
       "path": "curriculum/PRACTICE_SETS.json",
       "bytes": 38817,
       "sha256": "706aecb5d1048c189f1acaf44efa4984317bb369c8eb8e6adec0efef4da49a94",
@@ -768,8 +774,8 @@
     },
     {
       "path": "FILE_INDEX.md",
-      "bytes": 24053,
-      "sha256": "8aa7ed24b931e2805057c1190f4fb0f3531bc53fd406c34d2edd01f7c74af912",
+      "bytes": 24163,
+      "sha256": "04686c8f17180c4e2894ef692446008100037db08ca7f1a309f611362de3bcff",
       "status": "VERIFIED"
     },
     {
@@ -798,8 +804,8 @@
     },
     {
       "path": "PROJECT_STATUS.md",
-      "bytes": 34906,
-      "sha256": "2b44d9c0fe3638c89a3c0eb1f4e92d829c07cd59602848f50a5b98497585e482",
+      "bytes": 37356,
+      "sha256": "33ec31f5f49b4535cdd9e18182c3bb493d8292bcfb89b05083cefc4d07124614",
       "status": "VERIFIED"
     },
     {
@@ -906,8 +912,8 @@
     },
     {
       "path": "qa/file_status.json",
-      "bytes": 13896,
-      "sha256": "0e4dc65dfe181e58fb07464b44465a915c8ef913cbe9c08f44cea780b63e1231",
+      "bytes": 13960,
+      "sha256": "dfa578650c793e860af8b760d98b673b97bae5264b6bfa4ebd1ad4d5b0b78bc4",
       "status": "VERIFIED"
     },
     {

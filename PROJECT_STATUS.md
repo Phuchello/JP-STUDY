@@ -1,6 +1,29 @@
 # Trạng thái dự án — 17/10/2026
 
-## Phase 3.7 — Loại bỏ ranh giới giả lập Python, Phân định 3 môi trường triển khai & Giao thức thử nghiệm (False Authentication Boundary Removal, 3-Environment Gates & Pilot Delivery)
+## Phase 4 — Chuyển dịch trọng tâm toàn diện: Mục tiêu JLPT N2 (Tháng 12/2026) & Củng cố N3 (Curriculum Priority Realignment)
+
+- **Chiến lược phân bổ nội dung và thời lượng mới (50% N2 / 40% N3 / 10% N4)**:
+  - **JLPT N2 (50%)**: Mục tiêu thi chính tháng 12/2026. Ưu tiên từ vựng nâng cao, cấu tạo từ phức, ngữ pháp văn viết/công sở, đọc hiểu tăng dần độ dài và luyện nghe với audio thật.
+  - **JLPT N3 (40%)**: Lớp củng cố nền tảng tiên quyết. Bù đắp lỗ hổng thông qua chẩn đoán năng lực, luyện đọc hiểu đoạn ngắn-vừa.
+  - **JLPT N4 (10%)**: Chữa lỗi và ôn tập nhanh (Remediation Only). Chỉ kích hoạt khi chẩn đoán phát hiện lỗ hổng cụ thể hoặc bài tập siêu ngắn (3-5 phút) khi người học kiệt sức sau ca làm việc.
+  - **Chính sách không rào cản tuần tự**: Người học có toàn quyền truy cập ngay vào bài tập N2 và N3 trên Google Sites/Sheets, tuyệt đối không bắt buộc phải hoàn thành toàn bộ N4 mới được học N2/N3.
+
+- **Kết quả nghiệm thu Phase 3.7 (`LIVE_PILOT_VERIFIED`)**:
+  - Triển khai thành công 100% tự động qua Chrome DevTools vào Google Workspace thực tế:
+    - Biểu mẫu Google Forms `MD-N4-VOC-01` (ID: `1Quwea0s8m_7ehwoynxaLhq23h-wZ8k3tktfkXIRLong`).
+    - Nộp bài QA thực tế (`mode: 'QA - Dữ liệu giả'`), chấm điểm chuẩn Google: 2/5 (2 đúng, 2 sai, 1 bỏ trống).
+    - Đồng bộ và kích hoạt thành công trên Google Sheets và Google Sites (`LUYỆN TẬP`).
+    - Bảo toàn nguyên vẹn 3 Forms P0 (`W01-B01`, `W01-B02`, `W01-B03`) và không làm ô nhiễm dữ liệu người học.
+    - Kết thúc toàn bộ giai đoạn kỹ thuật N4. Dừng mở rộng câu hỏi N4 theo mặc định.
+
+- **Kiểm toán nguồn lực N2 & N3 sẵn có (`curriculum/N2_N3_TARGET_CURRICULUM_ROADMAP.md`)**:
+  - Đã có sẵn **70 câu hỏi `QA_VERIFIED`** (26 câu N2, 44 câu N3) trong ngân hàng câu hỏi chuẩn.
+  - **8 bộ đề N2/N3 (62 lượt câu hỏi)** mang trạng thái `QA_PASSED_NOT_DEPLOYED` sẵn sàng xuất bản:
+    - N2: `MD-N2-VOC-01`, `MD-N2-AFF-01`, `MD-N2-GRA-01`, `SK-N2-MO-01`.
+    - N3: `MD-N3-VOC-01`, `MD-N3-AFF-01`, `MD-N3-GRA-01`, `SK-N3-MO-01`.
+  - 10 câu hỏi dấu sao (4 N2, 6 N3) sẽ được thẩm định ngữ nghĩa mù để mở khóa tiếp 5 bộ đề tổng hợp và mô phỏng.
+
+## Phase 3.7 — Loại bỏ ranh giới giả lập Python, Triển khai Pilot thực tế & Nghiệm thu Live Verified
 
 - **P0 Loại bỏ ranh giới xác thực giả lập Python (`reconcile_blind_review.py`)**:
   - Xóa bỏ triệt để token đối tượng Python giả lập (`_PRODUCTION_ADAPTER_TOKEN = object()`) - cơ chế vốn cho phép hàm bao `make_production_workspace_adapter` tự cấp quyền `LIVE_VERIFIED` cho dữ liệu giả lập.

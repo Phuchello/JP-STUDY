@@ -104,6 +104,7 @@ Snapshot 2026-10-15. VERIFIED is scoped verification, not JLPT certification. Hi
 | [curriculum/LEVEL_COMPETENCY_MATRIX.csv](curriculum/LEVEL_COMPETENCY_MATRIX.csv) | VERIFIED |
 | [curriculum/LISTENING_PRACTICE_FRAMEWORK.md](curriculum/LISTENING_PRACTICE_FRAMEWORK.md) | VERIFIED |
 | [curriculum/LISTENING_RESOURCE_REGISTRY.json](curriculum/LISTENING_RESOURCE_REGISTRY.json) | VERIFIED |
+| [curriculum/N2_N3_TARGET_CURRICULUM_ROADMAP.md](curriculum/N2_N3_TARGET_CURRICULUM_ROADMAP.md) | VERIFIED |
 | [curriculum/PRACTICE_SETS.json](curriculum/PRACTICE_SETS.json) | VERIFIED |
 | [curriculum/QUESTION_BANK_EXPANDED.json](curriculum/QUESTION_BANK_EXPANDED.json) | VERIFIED |
 | [curriculum/QUESTION_TYPE_BLUEPRINT.json](curriculum/QUESTION_TYPE_BLUEPRINT.json) | VERIFIED |

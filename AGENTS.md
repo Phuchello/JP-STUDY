@@ -17,3 +17,13 @@ Batch milestones. Do not commit each generated item, private exports, test fixtu
 - Keep actual Drive IDs/URLs, raw responses, private exports and deployment state in ignored local `tmp/` only. Public templates must be blank.
 - Mock tests verify local behavior only. Keep Workspace deployment/quiz status QA_PENDING until direct Google acceptance proves submit → grade → feedback → raw/history/error → export and responder privacy. Complete three P0 quizzes before enabling the seven P1 quizzes.
 - Do not infer study minutes, fatigue, absence reasons or learning trends from missing observations. Scope reports to captured quiz submissions; do not count guided practice as an unseen independent assessment.
+
+## Phase 4: JLPT N2 (December 2026) Target Priority Policy
+
+- **Primary Goal**: All content and curriculum development must be prioritized for the learner's JLPT N2 examination in December 2026.
+- **Allocation Rule**: Default allocation is 50% N2 (primary exam target), 40% N3 (prerequisite reinforcement), and 10% N4 (targeted remediation only).
+- **No Sequential Gatekeeping**: The learner has immediate access to N2/N3 exercises without being forced to complete N4 units first.
+- **Halt N4 Expansion**: Stop expanding the N4 question bank by default; focus new question development and verification on N2 and N3.
+- **Audio Authenticity**: Genuine playable audio is required for any listening test; never describe text-only exercises as listening assessments.
+- **Honest Attribution**: Never describe generated or synthetic items as official JLPT past papers.
+
