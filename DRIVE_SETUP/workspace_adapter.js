@@ -1,7 +1,7 @@
 /* Google Workspace only. No external fetch, email sending, public sharing or deletion. */
 const JP_CONFIG={dashboardId:'',rootFolderId:''}; // optional overrides; bound setup detects its own Sheet and project folder
 const JP_MODES=['Tự làm, chưa xem câu/khóa','Đã xem/ôn lại','Có tra/gợi ý','QA - Dữ liệu giả'];
-function onOpen(){SpreadsheetApp.getUi().createMenu('JP-STUDY').addItem('1. Tạo 3 quiz đầu (chưa mở)','setupP0').addItem('2. Kiểm cấu hình quiz','auditForms').addItem('3. Xác nhận đã thử và mở liên kết','activateReady').addItem('Đồng bộ lại kết quả','syncResponses').addItem('Xuất báo cáo hôm nay','exportDailyReport').addItem('Tạo 7 quiz còn lại (P1)','setupRemaining').addItem('4. Triển khai bài Pilot (MD-N4-VOC-01)','deployPilotMdN4Voc01').addToUi();}
+function onOpen(){SpreadsheetApp.getUi().createMenu('JP-STUDY').addItem('1. Tạo 3 quiz đầu (chưa mở)','setupP0').addItem('2. Kiểm cấu hình quiz','auditForms').addItem('3. Xác nhận đã thử và mở liên kết','activateReady').addItem('Đồng bộ lại kết quả','syncResponses').addItem('Xuất báo cáo hôm nay','exportDailyReport').addItem('Tạo 7 quiz còn lại (P1)','setupRemaining').addItem('4. Triển khai bài Pilot (MD-N4-VOC-01)','deployPilotMdN4Voc01').addItem('5. Kiểm định native QA Pilot','verifyPilotDeployment').addToUi();}
 function jpSheet(){const p=PropertiesService.getScriptProperties(),id=JP_CONFIG.dashboardId||p.getProperty('JP_DASHBOARD_ID');if(id)return SpreadsheetApp.openById(id);const active=SpreadsheetApp.getActiveSpreadsheet();if(!active)throw Error('Mở đúng bảng → Tiện ích mở rộng → Apps Script, rồi chạy setupP0.');if(active.getName()!=='JP_STUDY_HOC_HOM_NAY')throw Error('Không đúng bảng học; chưa thay đổi dữ liệu.');p.setProperty('JP_DASHBOARD_ID',active.getId());return active;}
 function jpState(){const s=JSON.parse(PropertiesService.getScriptProperties().getProperty('JP_STATE')||'null')||{version:JP_DATA.version,sourceSha:JP_DATA.sourceBankSha256,forms:{}};if(s.sourceSha!==JP_DATA.sourceBankSha256)throw Error('Nguồn thay đổi; cần checkpoint migration, không sửa bản đang dùng.');return s;}
 function jpSave(s){PropertiesService.getScriptProperties().setProperty('JP_STATE',JSON.stringify(s));}
@@ -114,21 +114,6 @@ function jpVerifyPilotActivation(quiz, info, form, state) {
   if (!hasTrigger) {
     throw Error('Thiếu trigger onQuizSubmit gắn với pilot Form: ' + info.id);
   }
-  const raw = jpRaw(state);
-  const qaSheet = raw.getSheetByName('NHAT_KY_QA');
-  const qaLogs = (qaSheet && qaSheet.getLastRow() > 1)
-    ? qaSheet.getRange(2, 2, qaSheet.getLastRow() - 1, 1).getValues().flat()
-    : [];
-  const hasQaSubmission = qaLogs.some(sid => typeof sid === 'string' && (sid.startsWith(info.id + ':') || sid === info.id));
-  if (!hasQaSubmission) {
-    throw Error('Pilot Form chưa có lượt nộp QA giả lập được ghi nhận trong NHAT_KY_QA: ' + quiz.id);
-  }
-  try {
-    const rows = jpGetRows(state);
-    JPStudy.enrich(rows);
-  } catch (e) {
-    throw Error('Lỗi xử lý learner history pipeline: ' + e.message);
-  }
   if (!form.supportsAdvancedResponderPermissions() || !form.isPublished()) {
     throw Error('Chưa publish với đối tượng giới hạn: ' + quiz.id);
   }
@@ -137,7 +122,92 @@ function jpVerifyPilotActivation(quiz, info, form, state) {
       throw Error('Content digest của pilot Form không khớp canonical payload: ' + info.contentDigest + ' != ' + JP_PILOT_DATA.contentDigest);
     }
   }
-  return true;
+
+  // 1 & 2. Read actual submissions using form.getResponses() and select only 'QA - Dữ liệu giả'
+  const responses = form.getResponses();
+  const qaSamples = responses.filter(r => r.getItemResponses().some(ir => String(ir.getItem().getId()) === info.modeId && ir.getResponse() === 'QA - Dữ liệu giả'));
+  if (!qaSamples.length) {
+    throw Error('Chưa có lượt nộp QA giả lập nào trong Form: ' + quiz.id);
+  }
+
+  // 3 & 4. Obtain actual FormResponse and construct exact expected form-response identity
+  const r = qaSamples[qaSamples.length - 1];
+  const respId = r.getId();
+  const expectedSid = info.id + ':' + respId;
+
+  // 5 & 6. Require exact matching record in NHAT_KY_QA; reject plain Form ID entries and prefix-only matches
+  const raw = jpRaw(state);
+  const qaSheet = raw.getSheetByName('NHAT_KY_QA');
+  const qaLogs = (qaSheet && qaSheet.getLastRow() > 1)
+    ? qaSheet.getRange(2, 2, qaSheet.getLastRow() - 1, 1).getValues().flat()
+    : [];
+  if (!qaLogs.includes(expectedSid)) {
+    throw Error('Không tìm thấy bản ghi nhận dạng chính xác trong NHAT_KY_QA: ' + expectedSid);
+  }
+
+  // 14. Confirm no QA rows appear in CHI_TIET
+  const learnerRows = jpGetRows(state);
+  if (learnerRows.some(row => row.mode === 'QA - Dữ liệu giả' || row.submissionId === expectedSid || (row.key && row.key.includes(respId)))) {
+    throw Error('Dữ liệu QA bị ghi vào bảng CHI_TIET của người học.');
+  }
+
+  // 7 & 8. Read actual question responses and verify values against canonical bank
+  const answers = {};
+  for (const ir of r.getItemResponses()) {
+    answers[String(ir.getItem().getId())] = ir.getResponse();
+  }
+  const ed = jpEffectiveData();
+  const normRows = JPStudy.normalize(ed, quiz, {
+    id: expectedSid,
+    timestamp: r.getTimestamp().toISOString(),
+    answers,
+    mode: 'unknown',
+    fatigue: answers[info.fatigueId]
+  }, info.items);
+
+  // 9, 10 & 11. Read native grading via getGradableItemResponses() and verify scores
+  const gradable = typeof r.getGradableItemResponses === 'function' ? r.getGradableItemResponses() : [];
+  const actualScores = new Map(gradable.map(ir => [String(ir.getItem().getId()), ir.getScore()]));
+  let points = 0;
+  for (const row of normRows) {
+    const itemKey = Object.keys(info.items).find(k => info.items[k] === row.id);
+    const score = actualScores.get(itemKey);
+    const expectedScore = row.result === 'correct' ? 1 : 0;
+    if (row.result !== 'unanswered' && score !== expectedScore) {
+      throw Error('Điểm chấm native của Google chưa khớp khóa canonical cho ' + row.id + ' (thực tế: ' + score + ', kỳ vọng: ' + expectedScore + ')');
+    }
+    if (row.result === 'unanswered' && score != null && score !== 0) {
+      throw Error('Điểm câu trống không bằng 0 cho ' + row.id);
+    }
+    points += Number(score || 0);
+  }
+
+  // 12. Require an actual QA example covering correct, incorrect, and blank responses
+  const summary = JPStudy.summarize(JPStudy.enrich(normRows)).history[0];
+  if (!summary || !summary.correct || !summary.unanswered || summary.correct + summary.unanswered === summary.total) {
+    throw Error('Lượt nộp QA cần phải bao phủ cả câu đúng, câu sai và câu trống.');
+  }
+
+  // Learner history pipeline check
+  try {
+    JPStudy.enrich(learnerRows);
+  } catch (e) {
+    throw Error('Lỗi xử lý learner history pipeline: ' + e.message);
+  }
+
+  const receipt = {
+    quizId: quiz.id,
+    formId: info.id,
+    responseId: respId,
+    contentDigest: info.contentDigest,
+    points: points,
+    total: normRows.length,
+    correct: summary.correct,
+    incorrect: normRows.length - summary.correct - summary.unanswered,
+    unanswered: summary.unanswered,
+    verified: true
+  };
+  return receipt;
 }
 function activateReady(){
   const ui=SpreadsheetApp.getUi();
@@ -149,7 +219,16 @@ function activateReady(){
     jpAuditOne(q,inf);
     const f=FormApp.openById(inf.id);
     if(q.id==='MD-N4-VOC-01'||q.releaseGroup==='PILOT'){
-      jpVerifyPilotActivation(q,inf,f,s);
+      try {
+        jpVerifyPilotActivation(q,inf,f,s);
+      } catch (err) {
+        if (inf.active) {
+          inf.active = false;
+          jpSave(s);
+          jpRefresh(s);
+        }
+        throw err;
+      }
     } else {
       if(!f.supportsAdvancedResponderPermissions()||!f.isPublished())throw Error('Chưa publish với đối tượng giới hạn: '+q.id);
     }
@@ -157,6 +236,36 @@ function activateReady(){
   }
   jpSave(s);
   jpRefresh(s);
+}
+function verifyPilotDeployment(){
+  const lock = LockService.getScriptLock();
+  lock.waitLock(15000);
+  try {
+    const s = jpState(), ed = jpEffectiveData();
+    const q = ed.quizzes.find(x => x.id === 'MD-N4-VOC-01');
+    if (!q) throw Error('Không tìm thấy bài pilot MD-N4-VOC-01');
+    const inf = s.forms[q.id];
+    if (!inf || !inf.built) throw Error('Pilot Form chưa được dựng: ' + q.id);
+    jpAuditOne(q, inf);
+    const f = FormApp.openById(inf.id);
+    let receipt;
+    try {
+      receipt = jpVerifyPilotActivation(q, inf, f, s);
+    } catch (err) {
+      if (inf.active) {
+        inf.active = false;
+        jpSave(s);
+        jpRefresh(s);
+      }
+      throw err;
+    }
+    const props = PropertiesService.getScriptProperties();
+    props.setProperty('JP_PILOT_VERIFICATION_RECEIPT', JSON.stringify(receipt));
+    console.log(JSON.stringify(receipt));
+    return receipt;
+  } finally {
+    lock.releaseLock();
+  }
 }
 function jpGetRows(s){const sh=jpRaw(s).getSheetByName('CHI_TIET');return sh.getLastRow()<2?[]:sh.getRange(2,2,sh.getLastRow()-1,1).getValues().map(r=>JSON.parse(r[0]));}
 function jpCapture(s,quiz,info,response){const answers={};for(const ir of response.getItemResponses())answers[String(ir.getItem().getId())]=ir.getResponse();const mode=answers[info.modeId]||'unknown',sid=info.id+':'+response.getId(),time=response.getTimestamp().toISOString();if(mode==='QA - Dữ liệu giả'){const sh=jpRaw(s).getSheetByName('NHAT_KY_QA'),rows=sh.getLastRow()>1?sh.getRange(2,2,sh.getLastRow()-1,1).getValues().flat():[];if(!rows.includes(sid))sh.appendRow([info.id,sid,time]);return;}

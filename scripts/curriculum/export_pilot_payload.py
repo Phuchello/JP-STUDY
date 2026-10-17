@@ -1,8 +1,10 @@
 """
 Deterministic Pilot Payload Exporter for Phase 3.7.
-Derives MD-N4-VOC-01 payload directly from canonical curriculum/QUESTION_BANK_EXPANDED.json.
-Guarantees exact question IDs, stems, options, correct answers, and explanations.
-Ensures zero manual drift between audited bank and Google Apps Script runtime.
+Derives MD-N4-VOC-01 payload directly from canonical curriculum/QUESTION_BANK_EXPANDED.json
+and curriculum/PRACTICE_SETS.json.
+Guarantees exact ordered question IDs, quiz identity, metadata, stems, options, correct answers,
+and explanations.
+Ensures zero manual drift between audited bank, practice sets, and Google Apps Script runtime.
 """
 from pathlib import Path
 import json
@@ -22,6 +24,7 @@ from scripts.curriculum.content_fingerprint import (
 )
 
 BANK_PATH = ROOT / "curriculum/QUESTION_BANK_EXPANDED.json"
+PRACTICE_SETS_PATH = ROOT / "curriculum/PRACTICE_SETS.json"
 PAYLOAD_JS_PATH = ROOT / "DRIVE_SETUP/pilot_payload.js"
 PAYLOAD_JSON_PATH = ROOT / "tmp/drive-first/pilot_data.json"
 
@@ -33,6 +36,43 @@ PILOT_QUESTION_IDS = [
     "N4-MO-READ-004",
     "N4-MO-READ-005"
 ]
+
+
+def load_canonical_practice_set(sets_path=PRACTICE_SETS_PATH, set_id=PILOT_PRACTICE_SET_ID):
+    """Loads and validates the canonical practice set entry from PRACTICE_SETS.json."""
+    with open(sets_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    pset = next((s for s in data.get("sets", []) if s.get("id") == set_id), None)
+    if not pset:
+        raise ValueError(f"CANONICAL_PILOT_SPEC_MISMATCH: Practice set {set_id} not found in {sets_path}")
+    return pset
+
+
+def derive_pilot_quiz_spec(pset):
+    """Derives complete pilotQuiz specification from canonical practice set entry."""
+    status = pset.get("readinessStatus") or pset.get("status")
+    if status not in ["QA_PASSED_NOT_DEPLOYED", "QA_PASSED_READY_FOR_DEPLOYMENT"]:
+        raise ValueError(f"CANONICAL_PILOT_SPEC_MISMATCH: Invalid practice set readinessStatus: '{status}'")
+    qids = pset.get("questionIds", [])
+    if qids != PILOT_QUESTION_IDS:
+        raise ValueError(f"CANONICAL_PILOT_SPEC_MISMATCH: Practice set question IDs {qids} != canonical {PILOT_QUESTION_IDS}")
+
+    t_min = pset.get("timeMinutes", 5)
+    return {
+        "id": pset["id"],
+        "title": f"{pset['id']} | {pset['title']}",
+        "objective": pset.get("objective", ""),
+        "minutes": [t_min, t_min + 3],
+        "questionIds": list(qids),
+        "releaseGroup": "PILOT",
+        "week": 1,
+        "mode": "self_reported_unaided_or_review",
+        "status": "QA_PASSED_READY_FOR_DEPLOYMENT",
+        "category": pset.get("category", "MICRO_DRILL"),
+        "level": pset.get("level", "N4"),
+        "skill": pset.get("skill", "KNOWLEDGE_VOCABULARY"),
+        "targetAudience": pset.get("targetAudience", "")
+    }
 
 
 def load_canonical_pilot_questions(bank_path=BANK_PATH):
@@ -93,23 +133,13 @@ def load_canonical_pilot_questions(bank_path=BANK_PATH):
     return pilot_questions
 
 
-def build_pilot_payload(bank_path=BANK_PATH):
-    """Constructs the canonical pilot payload object."""
+def build_pilot_payload(bank_path=BANK_PATH, sets_path=PRACTICE_SETS_PATH):
+    """Constructs the canonical pilot payload object directly from bank and practice sets."""
+    pset = load_canonical_practice_set(sets_path)
+    pilot_quiz = derive_pilot_quiz_spec(pset)
     questions = load_canonical_pilot_questions(bank_path)
     canonical_repr = json.dumps(questions, ensure_ascii=False, sort_keys=True)
     content_digest = hashlib.sha256(canonical_repr.encode("utf-8")).hexdigest()
-
-    pilot_quiz = {
-        "id": PILOT_PRACTICE_SET_ID,
-        "title": "MD-N4-VOC-01 | N4 Micro-Drill | Từ vựng & Kanji cơ bản (5 câu)",
-        "objective": "Luyện nhanh 5 câu cách đọc Kanji đời sống (ca làm mệt / 5 phút)",
-        "minutes": [5, 8],
-        "questionIds": PILOT_QUESTION_IDS,
-        "releaseGroup": "PILOT",
-        "week": 1,
-        "mode": "self_reported_unaided_or_review",
-        "status": "QA_PASSED_READY_FOR_DEPLOYMENT"
-    }
 
     return {
         "version": "pilot-n4-voc-01-2026.10.17",
@@ -119,11 +149,39 @@ def build_pilot_payload(bank_path=BANK_PATH):
     }
 
 
-def validate_pilot_payload_against_bank(payload, bank_path=BANK_PATH):
+def validate_pilot_payload_against_bank(payload, bank_path=BANK_PATH, sets_path=PRACTICE_SETS_PATH):
     """
-    Validates pilot payload against canonical bank.
-    Raises ValueError('CANONICAL_PILOT_CONTENT_MISMATCH: ...') upon any discrepancy.
+    Validates pilot payload questions against canonical bank AND validates complete pilotQuiz
+    against canonical PRACTICE_SETS.json.
+    Raises ValueError upon any discrepancy.
     """
+    # 1. Validate complete pilotQuiz specification against canonical practice set
+    pilot_quiz = payload.get("pilotQuiz")
+    if not pilot_quiz:
+        raise ValueError("CANONICAL_PILOT_SPEC_MISMATCH: Missing pilotQuiz in pilot payload")
+
+    pset = load_canonical_practice_set(sets_path)
+    derived_quiz = derive_pilot_quiz_spec(pset)
+
+    if pilot_quiz.get("id") != derived_quiz["id"]:
+        raise ValueError(f"CANONICAL_PILOT_SPEC_MISMATCH: pilotQuiz.id mismatch: '{pilot_quiz.get('id')}' != '{derived_quiz['id']}'")
+    if pilot_quiz.get("questionIds") != derived_quiz["questionIds"]:
+        raise ValueError(f"CANONICAL_PILOT_SPEC_MISMATCH: pilotQuiz.questionIds mismatch: {pilot_quiz.get('questionIds')} != {derived_quiz['questionIds']}")
+    if pilot_quiz.get("title") != derived_quiz["title"]:
+        raise ValueError(f"CANONICAL_PILOT_SPEC_MISMATCH: pilotQuiz.title mismatch: '{pilot_quiz.get('title')}' != '{derived_quiz['title']}'")
+    if pilot_quiz.get("objective") != derived_quiz["objective"]:
+        raise ValueError(f"CANONICAL_PILOT_SPEC_MISMATCH: pilotQuiz.objective mismatch: '{pilot_quiz.get('objective')}' != '{derived_quiz['objective']}'")
+    if pilot_quiz.get("releaseGroup") != derived_quiz["releaseGroup"]:
+        raise ValueError(f"CANONICAL_PILOT_SPEC_MISMATCH: pilotQuiz.releaseGroup mismatch: '{pilot_quiz.get('releaseGroup')}' != '{derived_quiz['releaseGroup']}'")
+    if pilot_quiz.get("minutes") != derived_quiz["minutes"]:
+        raise ValueError(f"CANONICAL_PILOT_SPEC_MISMATCH: pilotQuiz.minutes mismatch: {pilot_quiz.get('minutes')} != {derived_quiz['minutes']}")
+
+    # Verify that pilotQuiz.questionIds exactly matches payload.questions keys in order
+    payload_qids = list(payload.get("questions", {}).keys())
+    if list(pilot_quiz.get("questionIds", [])) != payload_qids:
+        raise ValueError(f"CANONICAL_PILOT_SPEC_MISMATCH: pilotQuiz.questionIds {pilot_quiz.get('questionIds')} does not match payload questions keys {payload_qids}")
+
+    # 2. Validate individual questions against canonical bank
     canonical_questions = load_canonical_pilot_questions(bank_path)
     payload_questions = payload.get("questions", {})
 
@@ -151,15 +209,15 @@ def validate_pilot_payload_against_bank(payload, bank_path=BANK_PATH):
     return True
 
 
-def export_pilot_payload(bank_path=BANK_PATH):
-    payload = build_pilot_payload(bank_path)
-    validate_pilot_payload_against_bank(payload, bank_path)
+def export_pilot_payload(bank_path=BANK_PATH, sets_path=PRACTICE_SETS_PATH):
+    payload = build_pilot_payload(bank_path, sets_path)
+    validate_pilot_payload_against_bank(payload, bank_path, sets_path)
 
     PAYLOAD_JSON_PATH.parent.mkdir(parents=True, exist_ok=True)
     PAYLOAD_JSON_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     js_code = (
-        "// Generated deterministically by scripts/curriculum/export_pilot_payload.py from curriculum/QUESTION_BANK_EXPANDED.json.\n"
+        "// Generated deterministically by scripts/curriculum/export_pilot_payload.py from curriculum/QUESTION_BANK_EXPANDED.json and curriculum/PRACTICE_SETS.json.\n"
         "// DO NOT EDIT MANUALLY. Re-run python scripts/curriculum/export_pilot_payload.py to update.\n"
         f"var JP_PILOT_DATA = {json.dumps(payload, ensure_ascii=False, separators=(',', ':'))};\n"
     )

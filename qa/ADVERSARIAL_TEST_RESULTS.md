@@ -2,10 +2,10 @@
 
 ## 1. EXECUTIVE SUMMARY & TEST METRICS
 
-- **Total Tests Executed**: 58
-- **Passed Tests**: 58
+- **Total Tests Executed**: 59
+- **Passed Tests**: 59
 - **Failed Tests**: 0
-- **Summary**: **58/58 specified regression scenarios passed**
+- **Summary**: **59/59 specified regression scenarios passed**
 
 ### Explicit Limitations & Trust Boundary Disclaimers:
 - **No complete defect-detection guarantee**: Passing specified adversarial regression tests validates specific defense mechanisms against known attack patterns, but does not mathematically guarantee total absence of unknown bugs or future regressions.
@@ -22,7 +22,7 @@
   - Part 5: 10 Google Forms Deployment Evidence & Workspace Bindings Tests (P0-2)
   - Part 6: 8 Mandatory Security Regressions (Attacks A through G & Positive Control)
   - Part 7: 1 Zero-Item Mock Reporting Regression Audit (P1-B)
-  - Part 8: 5 Canonical Pilot Build Enforcement & Integrity Tests (P0-1)
+  - Part 8: 6 Canonical Pilot Build Enforcement & Integrity Tests (P0-1 & P1)
 
 ---
 
@@ -65,6 +65,7 @@
 | `P0-2 Attack 7: Stale verification evidence` | `reconcile_practice_set_status` | Provider reports verification evidence is expired/stale | Rejected with STALE_DEPLOYMENT_EVIDENCE | stage=STALE_DEPLOYMENT_EVIDENCE | **PASS** |
 | `P0-2 Attack 8: Incomplete grading verification` | `reconcile_practice_set_status` | Provider gradingVerified=False | Rejected with GRADING_VERIFICATION_FAILED | stage=GRADING_VERIFICATION_FAILED | **PASS** |
 | `P0-2 Attack 9: Test double rejected` | `reconcile_practice_set_status` | Provider providerType='OFFLINE_TEST_DOUBLE' | Rejected with UNAUTHORIZED_TEST_DOUBLE_REJECTED | stage=UNAUTHORIZED_TEST_DOUBLE_REJECTED | **PASS** |
+| `P1: Validation rejects mutated pilotQuiz questionIds spec` | `validate_pilot_payload_against_bank` | pilotQuiz.questionIds order reversed while questions and contentDigest unchanged | ValueError('CANONICAL_PILOT_SPEC_MISMATCH: ...') | failed_fast=True | **PASS** |
 | `P1-B: Zero-item mock reporting` | `generate_practice_release_gate_report` | Empty full mock exam (qids=[]) | NO_ITEMS — NOT_EVALUABLE (never 100% VERIFIED) | has_no_items=True, has_100_percent=False | **PASS** |
 | `Scenario 10: Non-Google deployment URL` | `reconcile_practice_set_status` | Non-Google Forms URL passed with isDeployed=True | readinessStatus=QA_PASSED_NOT_DEPLOYED | QA_PASSED_NOT_DEPLOYED | **PASS** |
 | `Scenario 11: Multi-tier hash invariance` | `compute_all_question_fingerprints` | Comparing bank items to manifest across 4 hash tiers | 0 mismatches | 0 mismatches | **PASS** |
@@ -157,6 +158,7 @@ The hardened canonical build pipeline `build_bundle` enforces strict data integr
 3. **Deterministic regeneration**: Regenerates `DRIVE_SETUP/pilot_payload.js` and `tmp/drive-first/pilot_data.json` directly from audited bank items.
 4. **Post-build re-extraction**: Reads `DRIVE_SETUP/JP_STUDY_SETUP.gs`, parses the embedded `var JP_PILOT_DATA`, and asserts exact cryptographic equality against canonical source.
 5. **Fail-fast defense**: Detects and rejects any bank drift, practice set status alteration, question tampering, or bundle digest mismatch.
+6. **P1 pilotQuiz specification binding**: Validates that mutating only `pilotQuiz.questionIds` while keeping `questions` intact fails fast with `CANONICAL_PILOT_SPEC_MISMATCH`.
 
 ---
 

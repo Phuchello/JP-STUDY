@@ -102,7 +102,7 @@ test('Scenario K: deployPilotMdN4Voc01 creates Form, JP_MODES, trigger, destinat
 test('P0-2 Negative Control: Unverified pilot Form without QA submission remains inactive', () => {
   pilotForm.published = true;
   assert.equal(pilotInfo.active, false);
-  assert.throws(() => ctx.activateReady(), /Pilot Form chưa có lượt nộp QA/);
+  assert.throws(() => ctx.activateReady(), /Chưa có lượt nộp QA/);
   const curState = JSON.parse(properties.get('JP_STATE'));
   assert.equal(curState.forms['MD-N4-VOC-01'].active, false);
   assert.equal(pilotInfo.active, false);
@@ -188,16 +188,38 @@ test('P1 Content Audit: Mutated content digest in pilot info throws error and ab
   pilotInfo.contentDigest = origDigest;
 });
 
-function makePilotResponse(respId, mode, answerMap, fatigue = '') {
+function makePilotResponse(respId, mode, answerMap, fatigue = '', customScores = null) {
   const vals = { ...answerMap, [pilotInfo.modeId]: mode };
   if (fatigue) vals[pilotInfo.fatigueId] = fatigue;
+  const ed = ctx.jpEffectiveData();
+  const gradableItemResponses = Object.entries(pilotInfo.items).map(([itemKey, qid]) => {
+    const userAns = answerMap[itemKey];
+    let score = 0;
+    if (customScores && customScores[itemKey] !== undefined) {
+      score = customScores[itemKey];
+    } else if (userAns) {
+      const q = ed.questions[qid] || (ctx.JP_PILOT_DATA && ctx.JP_PILOT_DATA.questions[qid]);
+      if (q) {
+        const correctOpt = q.options.find(o => o.id === q.correctAnswer);
+        const correctText = C.option(q, correctOpt);
+        score = (userAns === correctText ? 1 : 0);
+      }
+    }
+    return {
+      getItem: () => ({ getId: () => Number(itemKey) }),
+      getResponse: () => userAns || '',
+      getScore: () => score
+    };
+  });
+
   return {
     getId: () => respId,
     getTimestamp: () => new Date('2026-10-17T12:00:00Z'),
     getItemResponses: () => Object.entries(vals).map(([i, v]) => ({
       getItem: () => ({ getId: () => Number(i) }),
       getResponse: () => v
-    }))
+    })),
+    getGradableItemResponses: () => gradableItemResponses
   };
 }
 
@@ -332,13 +354,19 @@ test('Scenario E: Synthetic QA mode is quarantined to NHAT_KY_QA, absent from CH
   const rawBefore = sheets.get(curState.rawId).getSheetByName('CHI_TIET').getLastRow();
   const qaBefore = sheets.get(curState.rawId).getSheetByName('NHAT_KY_QA').getLastRow();
 
+  // 2 correct, 2 incorrect, 1 blank
   const ansE = {};
-  for (const qid of pQuiz.questionIds) {
+  pQuiz.questionIds.forEach((qid, idx) => {
+    if (idx === 4) return; // 1 blank
     const q = ed.questions[qid];
     const itemKey = Object.keys(pilotInfo.items).find(k => pilotInfo.items[k] === qid);
-    ansE[itemKey] = C.option(q, q.options.find(o => o.id === q.correctAnswer));
-  }
+    const opt = (idx < 2)
+      ? q.options.find(o => o.id === q.correctAnswer)
+      : q.options.find(o => o.id !== q.correctAnswer);
+    ansE[itemKey] = C.option(q, opt);
+  });
   const respE = makePilotResponse('pilot-synthetic-001', 'QA - Dữ liệu giả', ansE);
+  pilotForm.responses.push(respE);
   ctx.onQuizSubmit({ source: pilotForm, response: respE });
 
   const rawAfter = sheets.get(curState.rawId).getSheetByName('CHI_TIET').getLastRow();
@@ -425,29 +453,185 @@ test('P0-2 Positive Control: Verified pilot Form with synthetic QA in NHAT_KY_QA
   assert.equal(pilotInfo.active, true);
 });
 
-test('P0-2 Gate: Missing trigger onQuizSubmit prevents activation', () => {
+test('P0-2 Attack A: Fake entry in NHAT_KY_QA without matching FormResponse throws error', () => {
+  const curState = JSON.parse(properties.get('JP_STATE'));
+  const raw = sheets.get(curState.rawId);
+  const qaSh = raw.getSheetByName('NHAT_KY_QA');
+  const origResponses = [...pilotForm.responses];
+  pilotForm.responses = [];
+  qaSh.appendRow([pilotInfo.id, pilotInfo.id + ':fake-resp-without-form-response', new Date().toISOString()]);
+
+  assert.throws(() => ctx.activateReady(), /Chưa có lượt nộp QA giả lập nào trong Form/);
+
+  pilotForm.responses = origResponses;
+  const lastRow = qaSh.getLastRow();
+  qaSh.getRange(lastRow, 1, 1, 3).clearContent();
+});
+
+test('P0-2 Attack B: Plain Form ID entry in NHAT_KY_QA is rejected', () => {
+  const curState = JSON.parse(properties.get('JP_STATE'));
+  const raw = sheets.get(curState.rawId);
+  const qaSh = raw.getSheetByName('NHAT_KY_QA');
+  const origData = new Map(qaSh.data);
+  qaSh.data.clear();
+  qaSh.appendRow(['Quiz ID', 'Submission ID', 'Timestamp']);
+  qaSh.appendRow([pilotInfo.id, pilotInfo.id, new Date().toISOString()]);
+
+  assert.throws(() => ctx.activateReady(), /Không tìm thấy bản ghi nhận dạng chính xác trong NHAT_KY_QA/);
+
+  qaSh.data = origData;
+});
+
+test('P0-2 Attack C: Response ID from another Form in NHAT_KY_QA is rejected', () => {
+  const curState = JSON.parse(properties.get('JP_STATE'));
+  const raw = sheets.get(curState.rawId);
+  const qaSh = raw.getSheetByName('NHAT_KY_QA');
+  const origData = new Map(qaSh.data);
+  qaSh.data.clear();
+  qaSh.appendRow(['Quiz ID', 'Submission ID', 'Timestamp']);
+  qaSh.appendRow([pilotInfo.id, 'otherForm999:pilot-synthetic-001', new Date().toISOString()]);
+
+  assert.throws(() => ctx.activateReady(), /Không tìm thấy bản ghi nhận dạng chính xác trong NHAT_KY_QA/);
+
+  qaSh.data = origData;
+});
+
+test('P0-2 Attack D: Native FormResponse score mismatch throws error', () => {
+  const ed = ctx.jpEffectiveData();
+  const pQuiz = ed.quizzes.find(q => q.id === 'MD-N4-VOC-01');
+  const ansBad = {};
+  pQuiz.questionIds.forEach((qid, idx) => {
+    if (idx === 4) return;
+    const q = ed.questions[qid];
+    const itemKey = Object.keys(pilotInfo.items).find(k => pilotInfo.items[k] === qid);
+    const opt = (idx < 2) ? q.options.find(o => o.id === q.correctAnswer) : q.options.find(o => o.id !== q.correctAnswer);
+    ansBad[itemKey] = C.option(q, opt);
+  });
+  const firstItemKey = Object.keys(pilotInfo.items)[0];
+  const badScores = { [firstItemKey]: 0 }; // Invert: correct answer gets 0 points
+  const respBadScore = makePilotResponse('pilot-bad-score-001', 'QA - Dữ liệu giả', ansBad, '', badScores);
+
+  pilotForm.responses.push(respBadScore);
+  const curState = JSON.parse(properties.get('JP_STATE'));
+  const raw = sheets.get(curState.rawId);
+  const qaSh = raw.getSheetByName('NHAT_KY_QA');
+  qaSh.appendRow([pilotInfo.id, pilotInfo.id + ':pilot-bad-score-001', new Date().toISOString()]);
+
+  assert.throws(() => ctx.activateReady(), /Điểm chấm native của Google chưa khớp khóa canonical/);
+
+  pilotForm.responses.pop();
+  const lastRow = qaSh.getLastRow();
+  qaSh.getRange(lastRow, 1, 1, 3).clearContent();
+});
+
+test('P0-2 Attack E: Stale content digest in state throws error', () => {
+  const s = JSON.parse(properties.get('JP_STATE'));
+  const origDigest = s.forms['MD-N4-VOC-01'].contentDigest;
+  s.forms['MD-N4-VOC-01'].contentDigest = 'stale_hash_0000000000000000';
+  properties.set('JP_STATE', JSON.stringify(s));
+
+  assert.throws(() => ctx.activateReady(), /Content digest.*không khớp/);
+
+  s.forms['MD-N4-VOC-01'].contentDigest = origDigest;
+  properties.set('JP_STATE', JSON.stringify(s));
+});
+
+test('P0-2 Attack F: Response not marked QA - Dữ liệu giả is rejected as QA receipt', () => {
+  const origResponses = [...pilotForm.responses];
+  pilotForm.responses = pilotForm.responses.filter(r => !r.getItemResponses().some(ir => ir.getResponse() === 'QA - Dữ liệu giả'));
+
+  assert.throws(() => ctx.activateReady(), /Chưa có lượt nộp QA giả lập nào trong Form/);
+
+  pilotForm.responses = origResponses;
+});
+
+test('P0-2 Attack G: Actual FormResponse without corresponding record in NHAT_KY_QA throws error', () => {
+  const curState = JSON.parse(properties.get('JP_STATE'));
+  const raw = sheets.get(curState.rawId);
+  const qaSh = raw.getSheetByName('NHAT_KY_QA');
+  const origData = new Map(qaSh.data);
+  qaSh.data.clear();
+  qaSh.appendRow(['Quiz ID', 'Submission ID', 'Timestamp']);
+
+  assert.throws(() => ctx.activateReady(), /Không tìm thấy bản ghi nhận dạng chính xác trong NHAT_KY_QA/);
+
+  qaSh.data = origData;
+});
+
+test('P0-2 Attack H: Answer key modified after QA throws audit error', () => {
+  const item0 = pilotForm.getItems('MC')[0];
+  const origChoices = item0.getChoices();
+  item0.setChoices(origChoices.map((c, i) => ({ getValue: () => c.getValue(), isCorrectAnswer: () => i === 3 })));
+
+  assert.throws(() => ctx.activateReady(), /Khóa\/nhiễu lệch/);
+
+  item0.setChoices(origChoices);
+});
+
+test('P0-2 Attack I: Missing onQuizSubmit trigger throws error', () => {
   const trigIdx = triggers.findIndex(t => t.getHandlerFunction() === 'onQuizSubmit' && t.getTriggerSourceId() === pilotInfo.id);
   assert(trigIdx >= 0);
   const removedTrigger = triggers.splice(trigIdx, 1)[0];
+
   assert.throws(() => ctx.activateReady(), /Thiếu trigger onQuizSubmit/);
+
   triggers.push(removedTrigger);
 });
 
-test('P0-2 Gate: Mismatched destination Sheet prevents activation', () => {
+test('P0-2 Attack J: Mismatched destination Sheet throws error', () => {
   const origDest = pilotForm.destination;
-  pilotForm.destination = 'other_raw_sheet_id';
+  pilotForm.destination = 'corrupted_dest_sheet_id';
+
   assert.throws(() => ctx.activateReady(), /Đích phản hồi của pilot Form không khớp/);
+
   pilotForm.destination = origDest;
 });
 
-test('P0-2 Gate: Mismatched content digest prevents activation', () => {
-  const s = JSON.parse(properties.get('JP_STATE'));
-  const origDigest = s.forms['MD-N4-VOC-01'].contentDigest;
-  s.forms['MD-N4-VOC-01'].contentDigest = 'corrupted_digest_xyz';
-  properties.set('JP_STATE', JSON.stringify(s));
-  assert.throws(() => ctx.activateReady(), /Content digest.*không khớp/);
-  s.forms['MD-N4-VOC-01'].contentDigest = origDigest;
-  properties.set('JP_STATE', JSON.stringify(s));
+test('P1 Fail-Closed Activation: Failing verification immediately deactivates previously active pilot', () => {
+  pilotForm.published = true;
+  ctx.activateReady();
+  let curState = JSON.parse(properties.get('JP_STATE'));
+  assert.equal(curState.forms['MD-N4-VOC-01'].active, true);
+
+  // Introduce failure condition while active (remove onQuizSubmit trigger)
+  const trigIdx = triggers.findIndex(t => t.getHandlerFunction() === 'onQuizSubmit' && t.getTriggerSourceId() === pilotInfo.id);
+  assert(trigIdx >= 0);
+  const removedTrigger = triggers.splice(trigIdx, 1)[0];
+
+  try {
+    assert.throws(() => ctx.activateReady(), /Thiếu trigger onQuizSubmit/);
+
+    curState = JSON.parse(properties.get('JP_STATE'));
+    assert.equal(curState.forms['MD-N4-VOC-01'].active, false, 'Pilot must be immediately deactivated in state');
+
+    // Verify historical learner rows and P0 quizzes remain untouched
+    assert.equal(curState.forms['W01-B01'].active, true);
+    assert(sheets.get(curState.rawId).getSheetByName('CHI_TIET').getLastRow() > 1);
+  } finally {
+    triggers.push(removedTrigger);
+  }
+
+  // Restore active state
+  ctx.activateReady();
+  curState = JSON.parse(properties.get('JP_STATE'));
+  assert.equal(curState.forms['MD-N4-VOC-01'].active, true);
+});
+
+test('P1 Owner Verification Bridge: verifyPilotDeployment returns structured receipt and saves property', () => {
+  const receipt = ctx.verifyPilotDeployment();
+  assert(receipt);
+  assert.equal(receipt.quizId, 'MD-N4-VOC-01');
+  assert.equal(receipt.formId, pilotInfo.id);
+  assert.equal(receipt.responseId, 'pilot-synthetic-001');
+  assert.equal(receipt.total, 5);
+  assert.equal(receipt.correct, 2);
+  assert.equal(receipt.incorrect, 2);
+  assert.equal(receipt.unanswered, 1);
+  assert.equal(receipt.verified, true);
+  assert.equal(receipt.contentDigest, ctx.JP_PILOT_DATA.contentDigest);
+
+  const savedReceipt = JSON.parse(properties.get('JP_PILOT_VERIFICATION_RECEIPT'));
+  assert.equal(JSON.stringify(savedReceipt), JSON.stringify(receipt));
 });
 
 test('P1 Silent Modification Guard: Rebuilding Form with existing learner rows in CHI_TIET throws error', () => {
@@ -460,3 +644,4 @@ test('P1 Silent Modification Guard: Rebuilding Form with existing learner rows i
 });
 
 const report={scope:'Node pure logic + Workspace mocks; NOT real Google Forms grading, triggers or mobile UI verification',tests:results,passed:results.filter(x=>x.ok).length,failed:results.filter(x=>!x.ok).length};fs.writeFileSync(path.join(R,'tmp/drive-first/tests.json'),JSON.stringify(report,null,2));console.log(JSON.stringify({tests:results.length,passed:report.passed,failed:results.filter(x=>!x.ok)}));if(report.failed)process.exitCode=1;
+

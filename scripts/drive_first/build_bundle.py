@@ -81,7 +81,7 @@ def validate_practice_set_eligibility(sets_path=PRACTICE_SETS, bank_path=BANK_EX
     return True
 
 
-def verify_bundled_pilot_payload(setup_gs_path=SETUP_GS, expected_payload=None, bank_path=BANK_EXPANDED):
+def verify_bundled_pilot_payload(setup_gs_path=SETUP_GS, expected_payload=None, bank_path=BANK_EXPANDED, sets_path=PRACTICE_SETS):
     """
     Re-extracts JP_PILOT_DATA from bundled JP_STUDY_SETUP.gs and verifies against canonical source.
     Fails fast if any stale artifact, mutation, or hash drift is detected.
@@ -101,9 +101,11 @@ def verify_bundled_pilot_payload(setup_gs_path=SETUP_GS, expected_payload=None, 
             )
         if bundled_payload.get('questions') != expected_payload.get('questions'):
             raise ValueError("CANONICAL_BUILD_FAILED: Bundled questions do not match expected payload")
+        if bundled_payload.get('pilotQuiz') != expected_payload.get('pilotQuiz'):
+            raise ValueError("CANONICAL_BUILD_FAILED: Bundled pilotQuiz does not match expected payload")
 
-    # Validate against canonical bank
-    validate_pilot_payload_against_bank(bundled_payload, bank_path=bank_path)
+    # Validate against canonical bank and practice sets
+    validate_pilot_payload_against_bank(bundled_payload, bank_path=bank_path, sets_path=sets_path)
     return bundled_payload
 
 
@@ -115,7 +117,7 @@ def build_bundle():
     validate_practice_set_eligibility(PRACTICE_SETS, BANK_EXPANDED)
 
     # 2. Regenerate pilot_payload.js deterministically
-    canonical_payload = export_pilot_payload(bank_path=BANK_EXPANDED)
+    canonical_payload = export_pilot_payload(bank_path=BANK_EXPANDED, sets_path=PRACTICE_SETS)
 
     # 3. Build legacy P0/P1 quizzes and structures
     b = json.loads(BANK_P3.read_text(encoding='utf-8'))
@@ -217,7 +219,7 @@ def build_bundle():
     )
 
     # 4. Re-extract and verify bundled pilot data against canonical source
-    verify_bundled_pilot_payload(SETUP_GS, expected_payload=canonical_payload, bank_path=BANK_EXPANDED)
+    verify_bundled_pilot_payload(SETUP_GS, expected_payload=canonical_payload, bank_path=BANK_EXPANDED, sets_path=PRACTICE_SETS)
 
     result = {
         'quizzes': len(quizzes),

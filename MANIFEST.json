@@ -2,7 +2,7 @@
   "snapshotDate": "2026-10-15",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
   "fileCountExcludingManifest": 245,
-  "totalBytesExcludingManifest": 6036614,
+  "totalBytesExcludingManifest": 6059129,
   "files": [
     {
       "path": ".gitattributes",
@@ -732,8 +732,8 @@
     },
     {
       "path": "DRIVE_SETUP/JP_STUDY_SETUP.gs",
-      "bytes": 244321,
-      "sha256": "feb904c640d79d17ec495757dc15c6fe30aca2495a1f678fbb122d91550dcf95",
+      "bytes": 248802,
+      "sha256": "9b3be76e652a00e1b4598bcfd6ad7be7c543edb4cab2eb3be34abe076973730e",
       "status": "VERIFIED"
     },
     {
@@ -744,8 +744,8 @@
     },
     {
       "path": "DRIVE_SETUP/pilot_payload.js",
-      "bytes": 7495,
-      "sha256": "e6af3d162788bac646b39264516f61a513cf2a12276bf8318720fb4d9476e881",
+      "bytes": 7680,
+      "sha256": "46f52b85db02f215f20f40a364906b7c304f5fdeab5a7e71160a681d8b66a486",
       "status": "QA_PENDING"
     },
     {
@@ -762,8 +762,8 @@
     },
     {
       "path": "DRIVE_SETUP/workspace_adapter.js",
-      "bytes": 28002,
-      "sha256": "feb273b3b277afddeaaed30c2a0777cf98f138f441a68cb1d70390689bb1f59a",
+      "bytes": 32298,
+      "sha256": "a4fcb31d384ef7d6caab54a80c6848caceaed45b6fc135ae4b1aaa05347f2585",
       "status": "VERIFIED"
     },
     {
@@ -810,8 +810,8 @@
     },
     {
       "path": "qa/ADVERSARIAL_TEST_RESULTS.md",
-      "bytes": 22015,
-      "sha256": "e422ef836cb301d947a40408aabaeddd81886e62661009b3c1b04f2efa74d40e",
+      "bytes": 22468,
+      "sha256": "59f1054c205ce68cc72b4b1e043bfc714c990ad43a2d706a75cbd2eabb172e78",
       "status": "VERIFIED"
     },
     {
@@ -1320,8 +1320,8 @@
     },
     {
       "path": "scripts/curriculum/export_pilot_payload.py",
-      "bytes": 7925,
-      "sha256": "9a0fe58a6f43e5bb2fde5856a721aca09c580dc2cb24e1f843380a8c60b5c14b",
+      "bytes": 11660,
+      "sha256": "384f64c2e4524df8dd36ba7c60eccfcf6f287f5b457783453357465d34d3acf3",
       "status": "QA_PENDING"
     },
     {
@@ -1362,8 +1362,8 @@
     },
     {
       "path": "scripts/drive_first/build_bundle.py",
-      "bytes": 11503,
-      "sha256": "f402c0e836380e0d86049d9c706904c1b51f834c38672adf756ddca41137ef88",
+      "bytes": 11805,
+      "sha256": "e8a68183ec2224999c2af575b87df1874248a9ef5fa3f9de191cdf986fd177ff",
       "status": "VERIFIED"
     },
     {
@@ -1392,8 +1392,8 @@
     },
     {
       "path": "scripts/drive_first/test_drive_first.cjs",
-      "bytes": 42045,
-      "sha256": "af55afbc945f8f4d1ef0340173393f828710bee7b7613eac8139aab96a02bb5a",
+      "bytes": 49657,
+      "sha256": "f6f1871da4043cf36c56059fc3454ee3f20dd125ed3ed46308e1511784b274d6",
       "status": "VERIFIED"
     },
     {
@@ -1434,8 +1434,8 @@
     },
     {
       "path": "scripts/tests/test_qa_adversarial_mutations.py",
-      "bytes": 93995,
-      "sha256": "9b137d1fd9857273dfc44f430730945f492ae6889f81c03f161eba6c1a4227b4",
+      "bytes": 95446,
+      "sha256": "d649c9b84a01eed2d78892f9d4b83bc972a21f1cfe06f20438e18ff467338503",
       "status": "VERIFIED"
     },
     {

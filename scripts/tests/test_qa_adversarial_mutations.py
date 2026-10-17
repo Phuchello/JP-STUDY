@@ -1554,6 +1554,33 @@ class TestAdversarialQAMutations(unittest.TestCase):
             )
             self.assertTrue(failed_fast)
 
+    def test_p1_pilot_quiz_spec_mutation_rejected(self):
+        # 6. Test validate_pilot_payload_against_bank rejects tampered pilotQuiz specification
+        canonical_payload = build_pilot_payload()
+        tampered_payload = {
+            "questions": canonical_payload["questions"],
+            "pilotQuiz": dict(canonical_payload["pilotQuiz"]),
+            "contentDigest": canonical_payload["contentDigest"],
+        }
+        # Mutate questionIds order while keeping questions and contentDigest intact
+        tampered_payload["pilotQuiz"]["questionIds"] = list(reversed(canonical_payload["pilotQuiz"]["questionIds"]))
+
+        failed_fast = False
+        try:
+            validate_pilot_payload_against_bank(tampered_payload)
+        except ValueError as e:
+            failed_fast = "CANONICAL_PILOT_SPEC_MISMATCH" in str(e)
+
+        record_result(
+            "P1: Validation rejects mutated pilotQuiz questionIds spec",
+            "validate_pilot_payload_against_bank",
+            "pilotQuiz.questionIds order reversed while questions and contentDigest unchanged",
+            "ValueError('CANONICAL_PILOT_SPEC_MISMATCH: ...')",
+            f"failed_fast={failed_fast}",
+            failed_fast
+        )
+        self.assertTrue(failed_fast)
+
 
 def write_adversarial_report():
     """Outputs qa/ADVERSARIAL_TEST_RESULTS.md documenting all test outcomes."""
@@ -1582,7 +1609,7 @@ def write_adversarial_report():
         "  - Part 5: 10 Google Forms Deployment Evidence & Workspace Bindings Tests (P0-2)",
         "  - Part 6: 8 Mandatory Security Regressions (Attacks A through G & Positive Control)",
         "  - Part 7: 1 Zero-Item Mock Reporting Regression Audit (P1-B)",
-        "  - Part 8: 5 Canonical Pilot Build Enforcement & Integrity Tests (P0-1)",
+        "  - Part 8: 6 Canonical Pilot Build Enforcement & Integrity Tests (P0-1 & P1)",
         "",
         "---",
         "",
@@ -1667,6 +1694,7 @@ def write_adversarial_report():
         "3. **Deterministic regeneration**: Regenerates `DRIVE_SETUP/pilot_payload.js` and `tmp/drive-first/pilot_data.json` directly from audited bank items.",
         "4. **Post-build re-extraction**: Reads `DRIVE_SETUP/JP_STUDY_SETUP.gs`, parses the embedded `var JP_PILOT_DATA`, and asserts exact cryptographic equality against canonical source.",
         "5. **Fail-fast defense**: Detects and rejects any bank drift, practice set status alteration, question tampering, or bundle digest mismatch.",
+        "6. **P1 pilotQuiz specification binding**: Validates that mutating only `pilotQuiz.questionIds` while keeping `questions` intact fails fast with `CANONICAL_PILOT_SPEC_MISMATCH`.",
         "",
         "---",
         "",
