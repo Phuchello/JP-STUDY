@@ -2,7 +2,7 @@
   "snapshotDate": "2026-10-15",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
   "fileCountExcludingManifest": 245,
-  "totalBytesExcludingManifest": 6003009,
+  "totalBytesExcludingManifest": 6036614,
   "files": [
     {
       "path": ".gitattributes",
@@ -732,8 +732,8 @@
     },
     {
       "path": "DRIVE_SETUP/JP_STUDY_SETUP.gs",
-      "bytes": 239254,
-      "sha256": "a500ed6f0931e848dacf532a270a094cbd695304501fb90a6934d6a4265d4f92",
+      "bytes": 244321,
+      "sha256": "feb904c640d79d17ec495757dc15c6fe30aca2495a1f678fbb122d91550dcf95",
       "status": "VERIFIED"
     },
     {
@@ -762,8 +762,8 @@
     },
     {
       "path": "DRIVE_SETUP/workspace_adapter.js",
-      "bytes": 22935,
-      "sha256": "1e849db1f732ddf7ba1e296bc4c24896ae85561de81078329e51e1e5fa2138fd",
+      "bytes": 28002,
+      "sha256": "feb273b3b277afddeaaed30c2a0777cf98f138f441a68cb1d70390689bb1f59a",
       "status": "VERIFIED"
     },
     {
@@ -810,8 +810,8 @@
     },
     {
       "path": "qa/ADVERSARIAL_TEST_RESULTS.md",
-      "bytes": 19248,
-      "sha256": "619127e2b35ef947adecbd8ac95971e4e5220da3c4e7bb28d18835e04137c687",
+      "bytes": 22015,
+      "sha256": "e422ef836cb301d947a40408aabaeddd81886e62661009b3c1b04f2efa74d40e",
       "status": "VERIFIED"
     },
     {
@@ -1362,8 +1362,8 @@
     },
     {
       "path": "scripts/drive_first/build_bundle.py",
-      "bytes": 4968,
-      "sha256": "71f49c10fe5c33ef240ce139e32dceba8d4129f231883c2de23cb311c88df946",
+      "bytes": 11503,
+      "sha256": "f402c0e836380e0d86049d9c706904c1b51f834c38672adf756ddca41137ef88",
       "status": "VERIFIED"
     },
     {
@@ -1392,8 +1392,8 @@
     },
     {
       "path": "scripts/drive_first/test_drive_first.cjs",
-      "bytes": 35561,
-      "sha256": "02be2fb7061603da7086e972d8a3958eaff98a2fd50c5932d332290ca6acf1a9",
+      "bytes": 42045,
+      "sha256": "af55afbc945f8f4d1ef0340173393f828710bee7b7613eac8139aab96a02bb5a",
       "status": "VERIFIED"
     },
     {
@@ -1434,8 +1434,8 @@
     },
     {
       "path": "scripts/tests/test_qa_adversarial_mutations.py",
-      "bytes": 86310,
-      "sha256": "8e7df24cec49d4fb462eb01ac7354742b94b14663f80b601d25d35f3d7a8ee9e",
+      "bytes": 93995,
+      "sha256": "9b137d1fd9857273dfc44f430730945f492ae6889f81c03f161eba6c1a4227b4",
       "status": "VERIFIED"
     },
     {

@@ -2,10 +2,10 @@
 
 ## 1. EXECUTIVE SUMMARY & TEST METRICS
 
-- **Total Tests Executed**: 52
-- **Passed Tests**: 52
+- **Total Tests Executed**: 58
+- **Passed Tests**: 58
 - **Failed Tests**: 0
-- **Summary**: **52/52 specified regression scenarios passed**
+- **Summary**: **58/58 specified regression scenarios passed**
 
 ### Explicit Limitations & Trust Boundary Disclaimers:
 - **No complete defect-detection guarantee**: Passing specified adversarial regression tests validates specific defense mechanisms against known attack patterns, but does not mathematically guarantee total absence of unknown bugs or future regressions.
@@ -22,6 +22,7 @@
   - Part 5: 10 Google Forms Deployment Evidence & Workspace Bindings Tests (P0-2)
   - Part 6: 8 Mandatory Security Regressions (Attacks A through G & Positive Control)
   - Part 7: 1 Zero-Item Mock Reporting Regression Audit (P1-B)
+  - Part 8: 5 Canonical Pilot Build Enforcement & Integrity Tests (P0-1)
 
 ---
 
@@ -36,7 +37,8 @@
 | `Attack E: Wrong destination Sheet triggers DESTINATION_SHEET_MISMATCH` | `verify_deployment_evidence` | Provider sheetId does not match expected destination Sheet | DESTINATION_SHEET_MISMATCH | stage=DESTINATION_SHEET_MISMATCH | **PASS** |
 | `Attack F: Old timestamp triggers STALE_DEPLOYMENT_EVIDENCE` | `verify_deployment_evidence` | Timestamp 4 years old with isStale=False | STALE_DEPLOYMENT_EVIDENCE | stage=STALE_DEPLOYMENT_EVIDENCE | **PASS** |
 | `Attack G: Omitting mandatory bindings` | `verify_deployment_evidence` | Omission of receiptFormId, expectedSheetId, or answerKeyDigest | MISSING_*_BINDING | s1=MISSING_RECEIPT_FORM_ID_BINDING, s2=MISSING_EXPECTED_SHEET_ID_BINDING, s3=MISSING_ANSWER_KEY_DIGEST_BINDING | **PASS** |
-| `Positive Control: Genuine Google client achieves LIVE_VERIFIED` | `verify_deployment_evidence` | Provider with verified Google API client credentials | LIVE_VERIFIED (liveVerified=True) | status=LIVE_VERIFIED, stage=LIVE_VERIFIED | **PASS** |
+| `P0-1 Regression: Canonical pilot content mutation across all 5 IDs` | `validate_pilot_payload_against_bank` | Tested 15 adversarial mutations across all 5 pilot question IDs (['N4-MO-READ-001', 'N4-MO-READ-002', 'N4-MO-READ-003', 'N4-MO-READ-004', 'N4-MO-READ-005']) | All mutations fail with CANONICAL_PILOT_CONTENT_MISMATCH | 15/15 mutations correctly rejected | **PASS** |
+| `Mandatory Exploit Regression: Forged callback attributes strictly rejected` | `verify_deployment_evidence` | Plain callback with is_authenticated_google_client=True and has_valid_google_credentials=True | AUTHENTICATED_PROVIDER_UNAVAILABLE with liveVerified=False (LIVE_VERIFIED impossible) | direct_stage=AUTHENTICATED_PROVIDER_UNAVAILABLE, wrapped_stage=AUTHENTICATED_PROVIDER_UNAVAILABLE | **PASS** |
 | `Part 4: Tanaka-san Ambiguous STAR` | `audit_star_question` | Tanaka-san free adjunct scrambling (昨日/会議で/その計画について/熱心に) | STAR_SEMANTIC_REVIEW_PENDING / QA_REVIEW_REQUIRED | STAR_SEMANTIC_REVIEW_PENDING / QA_REVIEW_REQUIRED | **PASS** |
 | `P0-1 Attack A: Omitted coverageDeclared (1 reviewed)` | `audit_star_question` | coverageDeclared omitted with only 1 permutation reviewed | Rejected with INSUFFICIENT_REVIEW_COVERAGE | gate2=QA_REVIEW_REQUIRED, disp=QA_REVIEW_REQUIRED | **PASS** |
 | `P0-1 Attack B: coverageDeclared set to PARTIAL` | `audit_star_question` | coverageDeclared='PARTIAL' with claims of VERIFIED_COHERENT | Rejected with INCOMPLETE_COVERAGE_DECLARED_PARTIAL | gate2=QA_REVIEW_REQUIRED, disp=QA_REVIEW_REQUIRED | **PASS** |
@@ -48,6 +50,11 @@
 | `P0-1 Attack H: Stale scoring fingerprint` | `audit_star_question` | Correct blind hash but stale scoringSha256 | Rejected with SCORING_FINGERPRINT_MISMATCH | gate2=QA_REVIEW_REQUIRED, disp=QA_REVIEW_REQUIRED | **PASS** |
 | `P0-1 Attack I: Hidden defensible alternative in judgment` | `audit_star_question` | Permutation ABCD with slot 3 != key marked 'valid alternative' | Quarantined with AMBIGUOUS_ALTERNATIVE_FOUND | gate2=AMBIGUOUS_ALTERNATIVE_FOUND, disp=QUARANTINED | **PASS** |
 | `P0-1 Attack J: Unresolved judgment in review` | `audit_star_question` | One permutation marked 'unresolved' | Rejected with UNRESOLVED_LINGUISTIC_JUDGMENT | gate2=QA_REVIEW_REQUIRED, disp=QA_REVIEW_REQUIRED | **PASS** |
+| `P0-1: Build rejects question stem mutation in canonical bank` | `validate_pilot_payload_against_bank` | N4-MO-READ-001 stem mutated in canonical bank | ValueError('CANONICAL_PILOT_CONTENT_MISMATCH: ...') | failed_fast=True | **PASS** |
+| `P0-1: Re-extraction rejects tampered content digest in bundle` | `verify_bundled_pilot_payload` | var JP_PILOT_DATA contentDigest tampered in JP_STUDY_SETUP.gs | ValueError('CANONICAL_BUILD_FAILED: ...') | failed_fast=True | **PASS** |
+| `P0-1: Build rejects ineligible practice set status` | `validate_practice_set_eligibility` | MD-N4-VOC-01 status mutated to CONTENT_QA_BLOCKED | ValueError('CANONICAL_BUILD_FAILED: ...') | failed_fast=True | **PASS** |
+| `P0-1: Build rejects truncated question IDs` | `validate_practice_set_eligibility` | MD-N4-VOC-01 questionIds truncated to 2 items | ValueError('CANONICAL_BUILD_FAILED: ...') | failed_fast=True | **PASS** |
+| `P0-1: Canonical pilot build success` | `build_bundle` | Valid canonical bank and PRACTICE_SETS.json | pilotValidated=True, valid SHA-256 digest | pilotValidated=True, digest=56dc0d6aefe08fc3... | **PASS** |
 | `P0-2 Attack 10: Offline mock adapter yields MOCK_SUCCESS` | `reconcile_practice_set_status` | Offline mock adapter validating all bindings | readinessStatus=QA_PASSED_NOT_DEPLOYED, stage=MOCK_SUCCESS, liveVerified=False | status=QA_PASSED_NOT_DEPLOYED, stage=MOCK_SUCCESS | **PASS** |
 | `P0-2 Attack 1: Local verifiedSets forgery rejected` | `reconcile_practice_set_status` | Local JSON claiming LIVE_VERIFIED without authorized provider | Downgraded to QA_PASSED_NOT_DEPLOYED (liveVerified=False) | QA_PASSED_NOT_DEPLOYED (stage=DEPLOYMENT_METADATA_PRESENT_UNVERIFIED) | **PASS** |
 | `P0-2 Attack 2: Wrong practice set ID` | `reconcile_practice_set_status` | Provider receipt bound to different practice set ID | Rejected with PRACTICE_SET_ID_MISMATCH | stage=PRACTICE_SET_ID_MISMATCH | **PASS** |
@@ -140,8 +147,20 @@ Strict 3-environment architecture and cryptographic trust boundaries:
 8. **Positive Control**: Provider with genuine Google Workspace client credentials -> `LIVE_VERIFIED` (`liveVerified=True`).
 
 ---
+---
 
-## 7. REPEATABLE TEST COMMAND
+## 7. P0-1 CANONICAL PILOT BUILD ENFORCEMENT SPOTLIGHT
+
+The hardened canonical build pipeline `build_bundle` enforces strict data integrity from source to bundle:
+1. **Pre-build verification**: Verifies `MD-N4-VOC-01` in `curriculum/PRACTICE_SETS.json` has `readinessStatus == 'QA_PASSED_NOT_DEPLOYED'` and exact 5 item IDs.
+2. **Canonical content validation**: Validates all 5 pilot items in `curriculum/QUESTION_BANK_EXPANDED.json` have status `QA_VERIFIED`, non-empty stems, 4 choices, valid answer key, and distractor explanations.
+3. **Deterministic regeneration**: Regenerates `DRIVE_SETUP/pilot_payload.js` and `tmp/drive-first/pilot_data.json` directly from audited bank items.
+4. **Post-build re-extraction**: Reads `DRIVE_SETUP/JP_STUDY_SETUP.gs`, parses the embedded `var JP_PILOT_DATA`, and asserts exact cryptographic equality against canonical source.
+5. **Fail-fast defense**: Detects and rejects any bank drift, practice set status alteration, question tampering, or bundle digest mismatch.
+
+---
+
+## 8. REPEATABLE TEST COMMAND
 
 ```powershell
 python scripts/tests/test_qa_adversarial_mutations.py

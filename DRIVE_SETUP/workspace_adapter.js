@@ -38,9 +38,126 @@ function jpSetup(quizzes){
  }finally{lock.releaseLock();}
 }
 function jpEnsureDestination(form,rawId){let destination='';try{destination=form.getDestinationId();}catch(e){if(!/no response destination|không có đích trả lời/i.test(String(e)))throw e;}if(destination&&destination!==rawId)throw Error('Đích phản hồi khác dự kiến; giữ nguyên, cần kiểm tra.');if(!destination)form.setDestination(FormApp.DestinationType.SPREADSHEET,rawId);}
-function jpAuditOne(quiz,info){const ed=jpEffectiveData(),f=FormApp.openById(info.id);if(!f.isQuiz()||f.collectsEmail()||f.isPublishingSummary()||f.getItems(FormApp.ItemType.MULTIPLE_CHOICE).length!==quiz.questionIds.length)throw Error('Sai cấu hình '+quiz.id);for(const id of quiz.questionIds){const q=ed.questions[id],key=Object.keys(info.items).find(k=>info.items[k]===id);if(!key)throw Error('Thiếu item ID '+id);const it=f.getItemById(Number(key)).asMultipleChoiceItem(),cs=it.getChoices();if(it.getPoints()!==1||cs.length!==q.options.length||!cs.every((c,j)=>c.getValue()===JPStudy.option(q,q.options[j])&&c.isCorrectAnswer()===(q.options[j].id===q.correctAnswer)))throw Error('Khóa/nhiễu lệch '+id);}return true;}
+function jpAuditOne(quiz,info){
+  const ed=jpEffectiveData(),f=FormApp.openById(info.id);
+  if(!f.isQuiz()||f.collectsEmail()||f.isPublishingSummary()||f.getItems(FormApp.ItemType.MULTIPLE_CHOICE).length!==quiz.questionIds.length)throw Error('Sai cấu hình '+quiz.id);
+  const isPilot = (quiz.id === 'MD-N4-VOC-01' || quiz.releaseGroup === 'PILOT');
+  if (isPilot) {
+    if (typeof JP_PILOT_DATA !== 'undefined' && JP_PILOT_DATA && JP_PILOT_DATA.contentDigest) {
+      if (info.contentDigest !== JP_PILOT_DATA.contentDigest) {
+        throw Error('Content digest không khớp canonical pilot payload: ' + quiz.id);
+      }
+    }
+    let st = null;
+    try { st = jpState(); } catch (e) {}
+    if (st && st.rawId) {
+      const learnerRows = jpGetRows(st).filter(r => r.quizId === quiz.id);
+      if (learnerRows.length > 0 && !info.built) {
+        throw Error('Form đã có dữ liệu người học (' + learnerRows.length + ' bản ghi); không được sửa cấu trúc: ' + quiz.id);
+      }
+    }
+  }
+  const mcItems = f.getItems(FormApp.ItemType.MULTIPLE_CHOICE);
+  for(let idx = 0; idx < quiz.questionIds.length; idx++){
+    const id = quiz.questionIds[idx];
+    const q = ed.questions[id];
+    const key = Object.keys(info.items).find(k=>info.items[k]===id);
+    if(!key)throw Error('Thiếu item ID '+id);
+    const it = f.getItemById(Number(key)).asMultipleChoiceItem();
+    if (isPilot) {
+      if (mcItems[idx].getId() !== it.getId()) {
+        throw Error('Thứ tự câu hỏi không đúng thứ tự canonical: vị trí ' + idx + ' là ' + id);
+      }
+      const expectedTitle = '[' + id + '] ' + (q.passage ? q.passage + '\n\n' : '') + q.stem;
+      if (it.getTitle() !== expectedTitle) {
+        throw Error('Stem/passage không khớp canonical: ' + id);
+      }
+      const isReq = typeof it.isRequired === 'function' ? it.isRequired() : it.required;
+      if (isReq !== false) {
+        throw Error('Câu hỏi phải là optional (setRequired(false)): ' + id);
+      }
+      const fbC = it.getFeedbackForCorrect && it.getFeedbackForCorrect();
+      const textC = fbC ? (typeof fbC.getText === 'function' ? fbC.getText() : (fbC.text || '')) : '';
+      if (textC !== q.explanationVi) {
+        throw Error('Feedback câu đúng không khớp canonical explanationVi: ' + id);
+      }
+      const distractorText = Object.entries(q.distractorExplanations).map(([k, v]) => k + ': ' + v).join('\n');
+      const expectedFbI = q.explanationVi + '\n' + distractorText;
+      const fbI = it.getFeedbackForIncorrect && it.getFeedbackForIncorrect();
+      const textI = fbI ? (typeof fbI.getText === 'function' ? fbI.getText() : (fbI.text || '')) : '';
+      if (textI !== expectedFbI) {
+        throw Error('Feedback câu sai không khớp distractor explanations: ' + id);
+      }
+    }
+    const cs = it.getChoices();
+    if(it.getPoints()!==1||cs.length!==q.options.length||!cs.every((c,j)=>c.getValue()===JPStudy.option(q,q.options[j])&&c.isCorrectAnswer()===(q.options[j].id===q.correctAnswer)))throw Error('Khóa/nhiễu lệch '+id);
+  }
+  return true;
+}
 function auditForms(){const s=jpState(),ed=jpEffectiveData();const a=Object.keys(s.forms).filter(k=>s.forms[k].built);a.forEach(k=>jpAuditOne(ed.quizzes.find(q=>q.id===k),s.forms[k]));jpSheet().toast('Khóa/item mapping đạt '+a.length+' quiz. Chưa thay kiểm Release grades, quyền responder hoặc thử nộp thật.');return a.length;}
-function activateReady(){const ui=SpreadsheetApp.getUi();if(ui.alert('Xác nhận trước khi đưa link cho người học','Bạn đã nộp thử QA với đúng/sai/trống, thấy điểm và lời giải SAU nộp, kiểm lịch sử/export và chỉ cấp quyền cho người học dự kiến? Không bấm Có nếu chưa thử.',ui.ButtonSet.YES_NO)!==ui.Button.YES)return;const s=jpState(),ed=jpEffectiveData();for(const q of ed.quizzes){const inf=s.forms[q.id];if(!inf||!inf.built)continue;jpAuditOne(q,inf);const f=FormApp.openById(inf.id);if(!f.supportsAdvancedResponderPermissions()||!f.isPublished())throw Error('Chưa publish với đối tượng giới hạn: '+q.id);inf.active=true;}jpSave(s);jpRefresh(s);}
+function jpVerifyPilotActivation(quiz, info, form, state) {
+  if (!info.id || !info.built) throw Error('Pilot Form chưa được tạo hoặc chưa built: ' + quiz.id);
+  if (quiz.questionIds.length !== 5) throw Error('Sai số lượng câu hỏi pilot: ' + quiz.id);
+  const mappedIds = Object.values(info.items);
+  if (mappedIds.length !== 5 || !quiz.questionIds.every(qid => mappedIds.includes(qid))) {
+    throw Error('Item mapping không khớp chính xác 5 câu canonical: ' + quiz.id);
+  }
+  let destId = '';
+  try { destId = form.getDestinationId(); } catch (e) {
+    throw Error('Pilot Form chưa có đích nhận phản hồi: ' + e.message);
+  }
+  if (!destId || destId !== state.rawId) {
+    throw Error('Đích phản hồi của pilot Form không khớp bảng dữ liệu gốc (' + destId + ' != ' + state.rawId + ')');
+  }
+  const triggers = ScriptApp.getProjectTriggers();
+  const hasTrigger = triggers.some(t => t.getHandlerFunction() === 'onQuizSubmit' && t.getTriggerSourceId() === info.id);
+  if (!hasTrigger) {
+    throw Error('Thiếu trigger onQuizSubmit gắn với pilot Form: ' + info.id);
+  }
+  const raw = jpRaw(state);
+  const qaSheet = raw.getSheetByName('NHAT_KY_QA');
+  const qaLogs = (qaSheet && qaSheet.getLastRow() > 1)
+    ? qaSheet.getRange(2, 2, qaSheet.getLastRow() - 1, 1).getValues().flat()
+    : [];
+  const hasQaSubmission = qaLogs.some(sid => typeof sid === 'string' && (sid.startsWith(info.id + ':') || sid === info.id));
+  if (!hasQaSubmission) {
+    throw Error('Pilot Form chưa có lượt nộp QA giả lập được ghi nhận trong NHAT_KY_QA: ' + quiz.id);
+  }
+  try {
+    const rows = jpGetRows(state);
+    JPStudy.enrich(rows);
+  } catch (e) {
+    throw Error('Lỗi xử lý learner history pipeline: ' + e.message);
+  }
+  if (!form.supportsAdvancedResponderPermissions() || !form.isPublished()) {
+    throw Error('Chưa publish với đối tượng giới hạn: ' + quiz.id);
+  }
+  if (typeof JP_PILOT_DATA !== 'undefined' && JP_PILOT_DATA && JP_PILOT_DATA.contentDigest) {
+    if (info.contentDigest !== JP_PILOT_DATA.contentDigest) {
+      throw Error('Content digest của pilot Form không khớp canonical payload: ' + info.contentDigest + ' != ' + JP_PILOT_DATA.contentDigest);
+    }
+  }
+  return true;
+}
+function activateReady(){
+  const ui=SpreadsheetApp.getUi();
+  if(ui.alert('Xác nhận trước khi đưa link cho người học','Bạn đã nộp thử QA với đúng/sai/trống, thấy điểm và lời giải SAU nộp, kiểm lịch sử/export và chỉ cấp quyền cho người học dự kiến? Không bấm Có nếu chưa thử.',ui.ButtonSet.YES_NO)!==ui.Button.YES)return;
+  const s=jpState(),ed=jpEffectiveData();
+  for(const q of ed.quizzes){
+    const inf=s.forms[q.id];
+    if(!inf||!inf.built)continue;
+    jpAuditOne(q,inf);
+    const f=FormApp.openById(inf.id);
+    if(q.id==='MD-N4-VOC-01'||q.releaseGroup==='PILOT'){
+      jpVerifyPilotActivation(q,inf,f,s);
+    } else {
+      if(!f.supportsAdvancedResponderPermissions()||!f.isPublished())throw Error('Chưa publish với đối tượng giới hạn: '+q.id);
+    }
+    inf.active=true;
+  }
+  jpSave(s);
+  jpRefresh(s);
+}
 function jpGetRows(s){const sh=jpRaw(s).getSheetByName('CHI_TIET');return sh.getLastRow()<2?[]:sh.getRange(2,2,sh.getLastRow()-1,1).getValues().map(r=>JSON.parse(r[0]));}
 function jpCapture(s,quiz,info,response){const answers={};for(const ir of response.getItemResponses())answers[String(ir.getItem().getId())]=ir.getResponse();const mode=answers[info.modeId]||'unknown',sid=info.id+':'+response.getId(),time=response.getTimestamp().toISOString();if(mode==='QA - Dữ liệu giả'){const sh=jpRaw(s).getSheetByName('NHAT_KY_QA'),rows=sh.getLastRow()>1?sh.getRange(2,2,sh.getLastRow()-1,1).getValues().flat():[];if(!rows.includes(sid))sh.appendRow([info.id,sid,time]);return;}
  const incoming=JPStudy.normalize(jpEffectiveData(),quiz,{id:sid,timestamp:time,answers,mode,fatigue:answers[info.fatigueId]},info.items),current=jpGetRows(s),map=new Map(current.map(r=>[r.key,r]));const add=[];for(const row of incoming){if(map.has(row.key)){if(JSON.stringify(map.get(row.key))!==JSON.stringify(row))throw Error('Xung đột phản hồi đã lưu; không ghi đè '+row.key);}else add.push([row.key,JSON.stringify(row)]);}if(add.length){const sh=jpRaw(s).getSheetByName('CHI_TIET');sh.getRange(sh.getLastRow()+1,1,add.length,2).setValues(add);}}
@@ -99,7 +216,11 @@ function deployPilotMdN4Voc01() {
       }
       jpAuditOne(PILOT_QUIZ, info);
     } else {
-      if (info) {
+      if (info && info.id) {
+        const rows = jpGetRows(s).filter(r => r.quizId === PILOT_QUIZ.id);
+        if (rows.length > 0) {
+          throw Error('Form đã có dữ liệu người học (' + rows.length + ' bản ghi); không được sửa cấu trúc.');
+        }
         form = FormApp.openById(info.id);
       } else {
         form = FormApp.create(PILOT_QUIZ.title, false);

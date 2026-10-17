@@ -110,6 +110,16 @@ from scripts.curriculum.reconcile_blind_review import (
 from scripts.curriculum.generate_practice_release_gate import (
     generate_practice_release_gate_report
 )
+from scripts.drive_first.build_bundle import (
+    build_bundle,
+    validate_practice_set_eligibility,
+    verify_bundled_pilot_payload
+)
+from scripts.curriculum.export_pilot_payload import (
+    build_pilot_payload,
+    validate_pilot_payload_against_bank,
+    export_pilot_payload
+)
 
 
 TEST_RESULTS_LOG = []
@@ -1423,6 +1433,127 @@ class TestAdversarialQAMutations(unittest.TestCase):
         record_result("P1-B: Zero-item mock reporting", "generate_practice_release_gate_report", "Empty full mock exam (qids=[])", "NO_ITEMS — NOT_EVALUABLE (never 100% VERIFIED)", f"has_no_items={has_no_items}, has_100_percent={has_100_percent}", passed)
         self.assertTrue(passed)
 
+    # =========================================================================
+    # PART 8: P0-1 CANONICAL PILOT BUILD ENFORCEMENT & INTEGRITY TESTS
+    # =========================================================================
+
+    def test_p0_1_canonical_pilot_build_success(self):
+        # 1. Test canonical build succeeds and passes full bundle verification
+        res = build_bundle()
+        passed = (res.get("pilotValidated") is True and len(res.get("pilotDigest", "")) == 64)
+        record_result(
+            "P0-1: Canonical pilot build success",
+            "build_bundle",
+            "Valid canonical bank and PRACTICE_SETS.json",
+            "pilotValidated=True, valid SHA-256 digest",
+            f"pilotValidated={res.get('pilotValidated')}, digest={res.get('pilotDigest', '')[:16]}...",
+            passed
+        )
+        self.assertTrue(passed)
+
+    def test_p0_1_canonical_pilot_build_rejects_practice_set_status_mutation(self):
+        # 2. Test pilot build rejects ineligible practice set status
+        with tempfile.TemporaryDirectory() as td:
+            temp_sets_path = Path(td) / "PRACTICE_SETS.json"
+            sets_data = json.loads((ROOT / "curriculum/PRACTICE_SETS.json").read_text(encoding="utf-8"))
+            for s in sets_data.get("sets", []):
+                if s.get("id") == "MD-N4-VOC-01":
+                    s["readinessStatus"] = "CONTENT_QA_BLOCKED"
+            temp_sets_path.write_text(json.dumps(sets_data, ensure_ascii=False), encoding="utf-8")
+
+            failed_fast = False
+            try:
+                validate_practice_set_eligibility(sets_path=temp_sets_path)
+            except ValueError as e:
+                failed_fast = "CANONICAL_BUILD_FAILED" in str(e)
+            record_result(
+                "P0-1: Build rejects ineligible practice set status",
+                "validate_practice_set_eligibility",
+                "MD-N4-VOC-01 status mutated to CONTENT_QA_BLOCKED",
+                "ValueError('CANONICAL_BUILD_FAILED: ...')",
+                f"failed_fast={failed_fast}",
+                failed_fast
+            )
+            self.assertTrue(failed_fast)
+
+    def test_p0_1_canonical_pilot_build_rejects_question_ids_mutation(self):
+        # 3. Test pilot build rejects modified question IDs list
+        with tempfile.TemporaryDirectory() as td:
+            temp_sets_path = Path(td) / "PRACTICE_SETS.json"
+            sets_data = json.loads((ROOT / "curriculum/PRACTICE_SETS.json").read_text(encoding="utf-8"))
+            for s in sets_data.get("sets", []):
+                if s.get("id") == "MD-N4-VOC-01":
+                    s["questionIds"] = ["N4-MO-READ-001", "N4-MO-READ-002"]  # only 2 items
+            temp_sets_path.write_text(json.dumps(sets_data, ensure_ascii=False), encoding="utf-8")
+
+            failed_fast = False
+            try:
+                validate_practice_set_eligibility(sets_path=temp_sets_path)
+            except ValueError as e:
+                failed_fast = "CANONICAL_BUILD_FAILED" in str(e)
+            record_result(
+                "P0-1: Build rejects truncated question IDs",
+                "validate_practice_set_eligibility",
+                "MD-N4-VOC-01 questionIds truncated to 2 items",
+                "ValueError('CANONICAL_BUILD_FAILED: ...')",
+                f"failed_fast={failed_fast}",
+                failed_fast
+            )
+            self.assertTrue(failed_fast)
+
+    def test_p0_1_canonical_pilot_build_rejects_bank_stem_drift(self):
+        # 4. Test validation detects mutated Japanese stem in bank
+        with tempfile.TemporaryDirectory() as td:
+            temp_bank_path = Path(td) / "QUESTION_BANK_EXPANDED.json"
+            bank_data = json.loads((ROOT / "curriculum/QUESTION_BANK_EXPANDED.json").read_text(encoding="utf-8"))
+            for q in bank_data.get("questions", []):
+                if q.get("id") == "N4-MO-READ-001":
+                    q["stem"] = "Mutated Japanese stem for testing rejection."
+            temp_bank_path.write_text(json.dumps(bank_data, ensure_ascii=False), encoding="utf-8")
+
+            failed_fast = False
+            try:
+                canonical_payload = build_pilot_payload()
+                validate_pilot_payload_against_bank(canonical_payload, bank_path=temp_bank_path)
+            except ValueError as e:
+                failed_fast = "CANONICAL_PILOT_CONTENT_MISMATCH" in str(e)
+            record_result(
+                "P0-1: Build rejects question stem mutation in canonical bank",
+                "validate_pilot_payload_against_bank",
+                "N4-MO-READ-001 stem mutated in canonical bank",
+                "ValueError('CANONICAL_PILOT_CONTENT_MISMATCH: ...')",
+                f"failed_fast={failed_fast}",
+                failed_fast
+            )
+            self.assertTrue(failed_fast)
+
+    def test_p0_1_canonical_pilot_build_rejects_bundled_digest_tampering(self):
+        # 5. Test bundle verification detects tampered digest in JP_STUDY_SETUP.gs
+        with tempfile.TemporaryDirectory() as td:
+            temp_gs_path = Path(td) / "JP_STUDY_SETUP.gs"
+            canonical_payload = build_pilot_payload()
+            tampered_payload = dict(canonical_payload)
+            tampered_payload["contentDigest"] = "tampered_digest_abcdef0123456789"
+            temp_gs_path.write_text(
+                "// Header\nvar JP_PILOT_DATA = " + json.dumps(tampered_payload, ensure_ascii=False) + ";\n// Rest\n",
+                encoding="utf-8"
+            )
+
+            failed_fast = False
+            try:
+                verify_bundled_pilot_payload(setup_gs_path=temp_gs_path, expected_payload=canonical_payload)
+            except ValueError as e:
+                failed_fast = "CANONICAL_BUILD_FAILED" in str(e)
+            record_result(
+                "P0-1: Re-extraction rejects tampered content digest in bundle",
+                "verify_bundled_pilot_payload",
+                "var JP_PILOT_DATA contentDigest tampered in JP_STUDY_SETUP.gs",
+                "ValueError('CANONICAL_BUILD_FAILED: ...')",
+                f"failed_fast={failed_fast}",
+                failed_fast
+            )
+            self.assertTrue(failed_fast)
+
 
 def write_adversarial_report():
     """Outputs qa/ADVERSARIAL_TEST_RESULTS.md documenting all test outcomes."""
@@ -1451,6 +1582,7 @@ def write_adversarial_report():
         "  - Part 5: 10 Google Forms Deployment Evidence & Workspace Bindings Tests (P0-2)",
         "  - Part 6: 8 Mandatory Security Regressions (Attacks A through G & Positive Control)",
         "  - Part 7: 1 Zero-Item Mock Reporting Regression Audit (P1-B)",
+        "  - Part 8: 5 Canonical Pilot Build Enforcement & Integrity Tests (P0-1)",
         "",
         "---",
         "",
@@ -1525,8 +1657,20 @@ def write_adversarial_report():
         "8. **Positive Control**: Provider with genuine Google Workspace client credentials -> `LIVE_VERIFIED` (`liveVerified=True`).",
         "",
         "---",
+        "---",
         "",
-        "## 7. REPEATABLE TEST COMMAND",
+        "## 7. P0-1 CANONICAL PILOT BUILD ENFORCEMENT SPOTLIGHT",
+        "",
+        "The hardened canonical build pipeline `build_bundle` enforces strict data integrity from source to bundle:",
+        "1. **Pre-build verification**: Verifies `MD-N4-VOC-01` in `curriculum/PRACTICE_SETS.json` has `readinessStatus == 'QA_PASSED_NOT_DEPLOYED'` and exact 5 item IDs.",
+        "2. **Canonical content validation**: Validates all 5 pilot items in `curriculum/QUESTION_BANK_EXPANDED.json` have status `QA_VERIFIED`, non-empty stems, 4 choices, valid answer key, and distractor explanations.",
+        "3. **Deterministic regeneration**: Regenerates `DRIVE_SETUP/pilot_payload.js` and `tmp/drive-first/pilot_data.json` directly from audited bank items.",
+        "4. **Post-build re-extraction**: Reads `DRIVE_SETUP/JP_STUDY_SETUP.gs`, parses the embedded `var JP_PILOT_DATA`, and asserts exact cryptographic equality against canonical source.",
+        "5. **Fail-fast defense**: Detects and rejects any bank drift, practice set status alteration, question tampering, or bundle digest mismatch.",
+        "",
+        "---",
+        "",
+        "## 8. REPEATABLE TEST COMMAND",
         "",
         "```powershell",
         "python scripts/tests/test_qa_adversarial_mutations.py",

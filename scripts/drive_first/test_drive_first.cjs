@@ -15,12 +15,12 @@ function rc(a){const m=a.match(/([A-Z]+)(\d+)/);return[Number(m[2]),[...m[1]].re
 class Range{constructor(sh,args){this.sh=sh;if(typeof args[0]==='string'){const parts=args[0].split(':'),a=rc(parts[0]),b=rc(parts[1]||parts[0]);[this.r,this.c]=a;this.nr=b[0]-a[0]+1;this.nc=b[1]-a[1]+1;}else [this.r,this.c,this.nr=1,this.nc=1]=args;}setValues(rows){assert.equal(rows.length,this.nr);rows.forEach((r,i)=>{assert.equal(r.length,this.nc);r.forEach((v,j)=>this.sh.data.set((this.r+i)+','+(this.c+j),v));});return this;}getValues(){return Array.from({length:this.nr},(_,i)=>Array.from({length:this.nc},(_,j)=>this.sh.data.get((this.r+i)+','+(this.c+j))??''));}setValue(v){assert.equal(this.nr*this.nc,1);return this.setValues([[v]]);}getValue(){return this.getValues()[0][0];}setRichTextValue(v){this.sh.links.set(this.r+','+this.c,v.url);return this.setValue(v.text);}setNumberFormat(){return this;}clearContent(){for(let i=0;i<this.nr;i++)for(let j=0;j<this.nc;j++)this.sh.data.delete((this.r+i)+','+(this.c+j));return this;}}
 class Sheet{constructor(name){this.name=name;this.id=++serial;this.data=new Map();this.links=new Map();}setName(n){this.name=n;return this;}getName(){return this.name;}getSheetId(){return this.id;}getLastRow(){return Math.max(0,...[...this.data].filter(([k,v])=>v!=='').map(([k])=>Number(k.split(',')[0])));}getRange(...args){return new Range(this,args);}appendRow(v){this.getRange(this.getLastRow()+1,1,1,v.length).setValues([v]);}}
 class SS{constructor(id,names=['Sheet1']){this.id=id;this.tabs=names.map(n=>new Sheet(n));sheets.set(id,this);}getName(){return this.name||'JP_STUDY_HOC_HOM_NAY';}getId(){return this.id;}getUrl(){return'https://example.invalid/sheets/'+this.id;}getSheets(){return this.tabs;}getSheetByName(n){const s=this.tabs.find(s=>s.name===n);if(!s)throw Error('missing tab '+n);return s;}insertSheet(n){const s=new Sheet(n);this.tabs.push(s);return s;}setSpreadsheetTimeZone(z){this.tz=z;}toast(){}}
-class Item{constructor(type){this.type=type;this.id=++serial;this.title='';}getId(){return this.id;}getTitle(){return this.title;}setTitle(t){this.title=t;return this;}asListItem(){assert.equal(this.type,'LIST');return this;}asMultipleChoiceItem(){assert.equal(this.type,'MC');return this;}setChoiceValues(a){this.values=a;return this;}setRequired(v){this.required=v;return this;}createChoice(value,correct){return{getValue:()=>value,isCorrectAnswer:()=>correct};}setChoices(a){this.choices=a;return this;}getChoices(){return this.choices;}setPoints(n){this.points=n;return this;}getPoints(){return this.points;}setFeedbackForCorrect(v){this.feedbackCorrect=v;return this;}setFeedbackForIncorrect(v){this.feedbackIncorrect=v;return this;}}
+class Item{constructor(type){this.type=type;this.id=++serial;this.title='';}getId(){return this.id;}getTitle(){return this.title;}setTitle(t){this.title=t;return this;}asListItem(){assert.equal(this.type,'LIST');return this;}asMultipleChoiceItem(){assert.equal(this.type,'MC');return this;}setChoiceValues(a){this.values=a;return this;}setRequired(v){this.required=v;return this;}isRequired(){return this.required??false;}createChoice(value,correct){return{getValue:()=>value,isCorrectAnswer:()=>correct};}setChoices(a){this.choices=a;return this;}getChoices(){return this.choices;}setPoints(n){this.points=n;return this;}getPoints(){return this.points;}setFeedbackForCorrect(v){this.feedbackCorrect=v;return this;}getFeedbackForCorrect(){return this.feedbackCorrect;}setFeedbackForIncorrect(v){this.feedbackIncorrect=v;return this;}getFeedbackForIncorrect(){return this.feedbackIncorrect;}}
 class Form{constructor(title,published){this.id='form'+(++serial);this.title=title;this.published=published;this.items=[];this.responses=[];forms.set(this.id,this);}getId(){return this.id;}getItems(t){return this.items.filter(i=>!t||i.type===t);}getItemById(id){return this.items.find(i=>i.id===id);}addListItem(){const i=new Item('LIST');this.items.push(i);return i;}addPageBreakItem(){const i=new Item('PAGE');this.items.push(i);return i;}addMultipleChoiceItem(){const i=new Item('MC');this.items.push(i);return i;}getDestinationId(){if(!this.destination)throw Error('no response destination');return this.destination;}setDestination(t,id){this.destination=id;return this;}getEditUrl(){return'https://example.invalid/forms/'+this.id+'/edit';}getPublishedUrl(){return'https://example.invalid/forms/'+this.id+'/view';}collectsEmail(){return this.setCollectEmailValue;}isPublishingSummary(){return this.setPublishingSummaryValue;}isQuiz(){return this.setIsQuizValue;}supportsAdvancedResponderPermissions(){return true;}isPublished(){return this.published;}getResponses(){return this.responses;}}
 for(const n of ['setIsQuiz','setCollectEmail','setPublishingSummary','setAllowResponseEdits','setShowLinkToRespondAgain','setShuffleQuestions','setProgressBar','setLimitOneResponsePerUser','setDescription','setConfirmationMessage'])Form.prototype[n]=function(v){this[n+'Value']=v;return this;};
 function iter(a){let i=0;return{hasNext:()=>i<a.length,next:()=>a[i++]};}class Folder{constructor(name){this.id='folder'+(++serial);this.name=name;this.children=[];this.files=[];folderMap.set(this.id,this);}getName(){return this.name;}getId(){return this.id;}getParents(){return iter(this.parents||[]);}getFoldersByName(n){return iter(this.children.filter(x=>x.name===n));}createFolder(n){const f=new Folder(n);this.children.push(f);return f;}getFilesByName(n){return iter(this.files.filter(x=>x.name===n));}createFile(name,content,mime){const f={id:'file'+(++serial),name,content,mime,getUrl(){return'https://example.invalid/files/'+this.id;},setName(v){this.name=v;}};this.files.push(f);return f;}}
 const main=new SS('dashboard',['HỌC HÔM NAY','TUẦN NÀY','LỊCH SỬ','LỖI CẦN ÔN','BÁO CÁO QUẢN LÝ']),root=new Folder('JP-STUDY — HỌC TIẾNG NHẬT');const today=new Folder('01_HỌC_HÔM_NAY');today.parents=[root];let active=main,mainParents=[today];main.getSheetByName('BÁO CÁO QUẢN LÝ').getRange('B3').setValue('Asia/Tokyo');const ui={ButtonSet:{YES_NO:'YES_NO'},Button:{YES:'YES'},alert:()=> 'YES'};
-const ctx=vm.createContext({console,JP_DATA:D,JPStudy:C,Map,Set,Date,JSON,Object,Number,String,Array,Error,SpreadsheetApp:{getActiveSpreadsheet:()=>active,newRichTextValue:()=>({setText(text){this.text=text;return this;},setLinkUrl(url){this.url=url;return this;},build(){return {text:this.text,url:this.url};}}),openById:id=>sheets.get(id),create:n=>new SS('raw'+(++serial)),getUi:()=>ui},DriveApp:{getFolderById:id=>{assert.equal(id,root.id);return root;},getFileById:id=>({getParents:()=>iter(id===main.id?mainParents:[]),moveTo:f=>{files.set(id,f.id);}})},FormApp:{ItemType:{LIST:'LIST',MULTIPLE_CHOICE:'MC'},DestinationType:{SPREADSHEET:'SHEET'},create:(t,p)=>new Form(t,p),openById:id=>forms.get(id),createFeedback:()=>({setText(t){this.text=t;return this;},build(){return this.text;}})},PropertiesService:{getScriptProperties:()=>({getProperty:k=>properties.get(k),setProperty:(k,v)=>properties.set(k,v)})},LockService:{getScriptLock:()=>({waitLock(){},releaseLock(){}})},ScriptApp:{getProjectTriggers:()=>triggers,newTrigger:handler=>({forForm(form){this.id=form.id;return this;},onFormSubmit(){return this;},create(){triggers.push({getHandlerFunction:()=>handler,getTriggerSourceId:()=>this.id});}})},Utilities:{formatDate:(date,z,p)=>p==='yyyy-MM-dd'?dateOf(date.toISOString(),z):'20261015_000000_001'},MimeType:{CSV:'CSV',PLAIN_TEXT:'TEXT'}});
+const ctx=vm.createContext({console,JP_DATA:D,JPStudy:C,Map,Set,Date,JSON,Object,Number,String,Array,Error,SpreadsheetApp:{getActiveSpreadsheet:()=>active,newRichTextValue:()=>({setText(text){this.text=text;return this;},setLinkUrl(url){this.url=url;return this;},build(){return {text:this.text,url:this.url};}}),openById:id=>sheets.get(id),create:n=>new SS('raw'+(++serial)),getUi:()=>ui},DriveApp:{getFolderById:id=>{assert.equal(id,root.id);return root;},getFileById:id=>({getParents:()=>iter(id===main.id?mainParents:[]),moveTo:f=>{files.set(id,f.id);}})},FormApp:{ItemType:{LIST:'LIST',MULTIPLE_CHOICE:'MC'},DestinationType:{SPREADSHEET:'SHEET'},create:(t,p)=>new Form(t,p),openById:id=>forms.get(id),createFeedback:()=>({setText(t){this.text=t;return this;},build(){return {getText:()=>this.text,text:this.text,url:this.url};}})},PropertiesService:{getScriptProperties:()=>({getProperty:k=>properties.get(k),setProperty:(k,v)=>properties.set(k,v)})},LockService:{getScriptLock:()=>({waitLock(){},releaseLock(){}})},ScriptApp:{getProjectTriggers:()=>triggers,newTrigger:handler=>({forForm(form){this.id=form.id;return this;},onFormSubmit(){return this;},create(){triggers.push({getHandlerFunction:()=>handler,getTriggerSourceId:()=>this.id});}})},Utilities:{formatDate:(date,z,p)=>p==='yyyy-MM-dd'?dateOf(date.toISOString(),z):'20261015_000000_001'},MimeType:{CSV:'CSV',PLAIN_TEXT:'TEXT'}});
 const pilotPayload=fs.readFileSync(path.join(R,'DRIVE_SETUP/pilot_payload.js'),'utf8');vm.runInContext(pilotPayload,ctx);
 const adapter=fs.readFileSync(path.join(R,'DRIVE_SETUP/workspace_adapter.js'),'utf8');vm.runInContext(adapter,ctx);
 
@@ -97,6 +97,95 @@ test('Scenario K: deployPilotMdN4Voc01 creates Form, JP_MODES, trigger, destinat
   assert.equal(redeployResult.formId, pilotInfo.id);
   assert.equal(forms.size, formCountBefore + 1);
   assert.equal(triggers.length, triggerCountBefore + 1);
+});
+
+test('P0-2 Negative Control: Unverified pilot Form without QA submission remains inactive', () => {
+  pilotForm.published = true;
+  assert.equal(pilotInfo.active, false);
+  assert.throws(() => ctx.activateReady(), /Pilot Form chưa có lượt nộp QA/);
+  const curState = JSON.parse(properties.get('JP_STATE'));
+  assert.equal(curState.forms['MD-N4-VOC-01'].active, false);
+  assert.equal(pilotInfo.active, false);
+});
+
+test('P1 Content Audit: Mutated Japanese stem throws error and aborts audit', () => {
+  const ed = ctx.jpEffectiveData();
+  const pQuiz = ed.quizzes.find(q => q.id === 'MD-N4-VOC-01');
+  const item0 = pilotForm.getItems('MC')[0];
+  const origTitle = item0.getTitle();
+  item0.setTitle('[N4-MO-READ-001] Mutated stem text');
+  assert.throws(() => ctx.jpAuditOne(pQuiz, pilotInfo), /Stem\/passage không khớp canonical/);
+  item0.setTitle(origTitle);
+});
+
+test('P1 Content Audit: Mutated question order throws error and aborts audit', () => {
+  const ed = ctx.jpEffectiveData();
+  const pQuiz = ed.quizzes.find(q => q.id === 'MD-N4-VOC-01');
+  const mcItems = pilotForm.getItems('MC');
+  const idx0 = pilotForm.items.indexOf(mcItems[0]);
+  const idx1 = pilotForm.items.indexOf(mcItems[1]);
+  pilotForm.items[idx0] = mcItems[1];
+  pilotForm.items[idx1] = mcItems[0];
+  assert.throws(() => ctx.jpAuditOne(pQuiz, pilotInfo), /Thứ tự câu hỏi không đúng thứ tự canonical/);
+  pilotForm.items[idx0] = mcItems[0];
+  pilotForm.items[idx1] = mcItems[1];
+});
+
+test('P1 Content Audit: Mutated choice order throws error and aborts audit', () => {
+  const ed = ctx.jpEffectiveData();
+  const pQuiz = ed.quizzes.find(q => q.id === 'MD-N4-VOC-01');
+  const item0 = pilotForm.getItems('MC')[0];
+  const origChoices = item0.getChoices();
+  item0.setChoices([...origChoices].reverse());
+  assert.throws(() => ctx.jpAuditOne(pQuiz, pilotInfo), /Khóa\/nhiễu lệch/);
+  item0.setChoices(origChoices);
+});
+
+test('P1 Content Audit: Mutated points throws error and aborts audit', () => {
+  const ed = ctx.jpEffectiveData();
+  const pQuiz = ed.quizzes.find(q => q.id === 'MD-N4-VOC-01');
+  const item0 = pilotForm.getItems('MC')[0];
+  item0.setPoints(2);
+  assert.throws(() => ctx.jpAuditOne(pQuiz, pilotInfo), /Khóa\/nhiễu lệch/);
+  item0.setPoints(1);
+});
+
+test('P1 Content Audit: Mutated correct Vietnamese feedback throws error and aborts audit', () => {
+  const ed = ctx.jpEffectiveData();
+  const pQuiz = ed.quizzes.find(q => q.id === 'MD-N4-VOC-01');
+  const item0 = pilotForm.getItems('MC')[0];
+  const origFbC = item0.getFeedbackForCorrect();
+  item0.setFeedbackForCorrect({ getText: () => 'Sai lời giải', text: 'Sai lời giải' });
+  assert.throws(() => ctx.jpAuditOne(pQuiz, pilotInfo), /Feedback câu đúng không khớp canonical explanationVi/);
+  item0.setFeedbackForCorrect(origFbC);
+});
+
+test('P1 Content Audit: Mutated incorrect Vietnamese distractor feedback throws error and aborts audit', () => {
+  const ed = ctx.jpEffectiveData();
+  const pQuiz = ed.quizzes.find(q => q.id === 'MD-N4-VOC-01');
+  const item0 = pilotForm.getItems('MC')[0];
+  const origFbI = item0.getFeedbackForIncorrect();
+  item0.setFeedbackForIncorrect({ getText: () => 'Sai distractor', text: 'Sai distractor' });
+  assert.throws(() => ctx.jpAuditOne(pQuiz, pilotInfo), /Feedback câu sai không khớp distractor explanations/);
+  item0.setFeedbackForIncorrect(origFbI);
+});
+
+test('P1 Content Audit: Mutated setRequired(true) throws error and aborts audit', () => {
+  const ed = ctx.jpEffectiveData();
+  const pQuiz = ed.quizzes.find(q => q.id === 'MD-N4-VOC-01');
+  const item0 = pilotForm.getItems('MC')[0];
+  item0.setRequired(true);
+  assert.throws(() => ctx.jpAuditOne(pQuiz, pilotInfo), /Câu hỏi phải là optional \(setRequired\(false\)\)/);
+  item0.setRequired(false);
+});
+
+test('P1 Content Audit: Mutated content digest in pilot info throws error and aborts audit', () => {
+  const ed = ctx.jpEffectiveData();
+  const pQuiz = ed.quizzes.find(q => q.id === 'MD-N4-VOC-01');
+  const origDigest = pilotInfo.contentDigest;
+  pilotInfo.contentDigest = 'corrupted_digest_1234567890abcdef';
+  assert.throws(() => ctx.jpAuditOne(pQuiz, pilotInfo), /Content digest không khớp canonical pilot payload/);
+  pilotInfo.contentDigest = origDigest;
 });
 
 function makePilotResponse(respId, mode, answerMap, fatigue = '') {
@@ -325,6 +414,49 @@ test('Scenario L: Pilot questions in jpEffectiveData match canonical QUESTION_BA
     assert.equal(pilotQ.explanationVi, bankQ.explanationVi, 'Explanation mismatch for ' + qid);
     assert.equal(JSON.stringify(pilotQ.options.map(o => o.text)), JSON.stringify(bankQ.options.map(o => o.text)), 'Options mismatch for ' + qid);
   }
+});
+
+test('P0-2 Positive Control: Verified pilot Form with synthetic QA in NHAT_KY_QA activates successfully', () => {
+  pilotForm.published = true;
+  ctx.activateReady();
+  const curState = JSON.parse(properties.get('JP_STATE'));
+  assert.equal(curState.forms['MD-N4-VOC-01'].active, true);
+  pilotInfo = curState.forms['MD-N4-VOC-01'];
+  assert.equal(pilotInfo.active, true);
+});
+
+test('P0-2 Gate: Missing trigger onQuizSubmit prevents activation', () => {
+  const trigIdx = triggers.findIndex(t => t.getHandlerFunction() === 'onQuizSubmit' && t.getTriggerSourceId() === pilotInfo.id);
+  assert(trigIdx >= 0);
+  const removedTrigger = triggers.splice(trigIdx, 1)[0];
+  assert.throws(() => ctx.activateReady(), /Thiếu trigger onQuizSubmit/);
+  triggers.push(removedTrigger);
+});
+
+test('P0-2 Gate: Mismatched destination Sheet prevents activation', () => {
+  const origDest = pilotForm.destination;
+  pilotForm.destination = 'other_raw_sheet_id';
+  assert.throws(() => ctx.activateReady(), /Đích phản hồi của pilot Form không khớp/);
+  pilotForm.destination = origDest;
+});
+
+test('P0-2 Gate: Mismatched content digest prevents activation', () => {
+  const s = JSON.parse(properties.get('JP_STATE'));
+  const origDigest = s.forms['MD-N4-VOC-01'].contentDigest;
+  s.forms['MD-N4-VOC-01'].contentDigest = 'corrupted_digest_xyz';
+  properties.set('JP_STATE', JSON.stringify(s));
+  assert.throws(() => ctx.activateReady(), /Content digest.*không khớp/);
+  s.forms['MD-N4-VOC-01'].contentDigest = origDigest;
+  properties.set('JP_STATE', JSON.stringify(s));
+});
+
+test('P1 Silent Modification Guard: Rebuilding Form with existing learner rows in CHI_TIET throws error', () => {
+  const s = JSON.parse(properties.get('JP_STATE'));
+  s.forms['MD-N4-VOC-01'].built = false;
+  properties.set('JP_STATE', JSON.stringify(s));
+  assert.throws(() => ctx.deployPilotMdN4Voc01(), /Form đã có dữ liệu người học/);
+  s.forms['MD-N4-VOC-01'].built = true;
+  properties.set('JP_STATE', JSON.stringify(s));
 });
 
 const report={scope:'Node pure logic + Workspace mocks; NOT real Google Forms grading, triggers or mobile UI verification',tests:results,passed:results.filter(x=>x.ok).length,failed:results.filter(x=>!x.ok).length};fs.writeFileSync(path.join(R,'tmp/drive-first/tests.json'),JSON.stringify(report,null,2));console.log(JSON.stringify({tests:results.length,passed:report.passed,failed:results.filter(x=>!x.ok)}));if(report.failed)process.exitCode=1;
