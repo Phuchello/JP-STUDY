@@ -1,3 +1,30 @@
+# Trạng thái dự án — 17/10/2026
+
+## Phase 3.7 — Sửa chữa triệt để lỗ hổng độ phủ ngữ nghĩa & Triệt tiêu cơ chế tự chứng thực triển khai cục bộ (Semantic Coverage Bypass Repair & Authenticated Deployment Gate Hardening)
+
+- **P0-1 Khắc phục triệt để lỗ hổng độ phủ thẩm định ngữ nghĩa câu hỏi dấu sao (Derived Semantic Coverage & Adversarial Proofs A–J)**:
+  - Loại bỏ hoàn toàn sự phụ thuộc vào cờ `coverageDeclared` do bên ngoài khai báo; tự động suy diễn tập hợp hoán vị khả dĩ cần rà soát từ `structural_data["permutations"]` (tất cả các hoán vị có `structuralValidity == "VALID"` và `not isCanonical`).
+  - Thực thi kiểm định đa tầng từ chối: độ phủ thiếu/bán phần (`INSUFFICIENT_REVIEW_COVERAGE`), hoán vị trùng lặp (`DUPLICATE_REVIEWED_PERMUTATION`), hoán vị thừa không tồn tại (`EXTRANEOUS_PERMUTATION_REVIEWED`), phán quyết không khớp ID hoán vị (`JUDGMENT_ID_MISMATCH`), người thẩm định không có chứng thực trong registry (`UNVERIFIED_REVIEWER_IDENTITY`), phán quyết dập khuôn rỗng (`BOILERPLATE_UNSUPPORTED_REASONING`), sai mã băm chấm điểm (`SCORING_FINGERPRINT_STALE`), và phán quyết còn bỏ ngỏ/chưa giải quyết (`UNRESOLVED_PERMUTATION_JUDGMENT`).
+  - Kiểm tra và cách ly ngay lập tức (`AMBIGUOUS_ALTERNATIVE_FOUND`) khi phát hiện hoán vị thay thế hợp lệ (defensible alternative) xuất hiện trong `defensibleAlternativePermutations` hoặc được ghi nhận ngầm trong `perPermutationJudgments` (kể cả khi sổ cái chưa hoàn tất độ phủ).
+  - Vượt qua toàn bộ 10 bài kiểm thử tấn công phản biện P0-1 (Attacks A–J) trong `test_qa_adversarial_mutations.py`. Giữ nguyên an toàn 16/16 câu hỏi dấu sao ở trạng thái `STAR_SEMANTIC_REVIEW_PENDING`.
+- **P0-2 Triệt tiêu cơ chế tự chứng thực triển khai cục bộ qua tệp JSON & Thực thi ràng buộc nhà cung cấp ủy quyền (Authenticated Provider Bindings & Adversarial Proofs 1–10)**:
+  - Loại bỏ hoàn toàn fallback `verifiedSets` từ tệp JSON cục bộ `qa/drive_first_deployment.json` trong `reconcile_blind_review.py`.
+  - Phân định rạch ròi: các đối tượng kiểm thử ngoại tuyến (`OFFLINE_TEST_DOUBLE`, `MOCK`, `SIMULATED`) hoặc nhà cung cấp chưa được ủy quyền (`status != "AUTHENTICATED"`) bị từ chối cấp trạng thái `LIVE_VERIFIED`.
+  - Thực thi 9 ràng buộc kiểm định mật mã và ngữ cảnh thực tế từ nhà cung cấp ủy quyền: `practiceSetId`, `formId`/`receiptFormId`, `verifiedQuestionIds`, `formExists`, `sheetId`/`expectedSheetId`, `responderAccess`, `gradingVerified`, `sheetSync`, và kiểm tra hạn sử dụng chứng cứ (non-stale verification).
+  - Vượt qua toàn bộ 10 bài kiểm thử tấn công triển khai P0-2 (Attacks 1–10) trong `test_qa_adversarial_mutations.py`.
+- **Độ ổn định tái lập và tính bất biến P0**:
+  - `scripts/curriculum/verify_rebuild_invariance.py` chạy qua 2 lượt build liên tiếp trong sandbox sạch (`CLEAN_GIT_ARCHIVE`), đạt 0 drift trên toàn bộ 120 câu hỏi và 4 tầng mã băm mật mã.
+- **Controlled Pilot Handoff cho bộ đề `MD-N4-VOC-01`**:
+  - Tuân thủ nghiêm ngặt quy tắc rào cản phân quyền (Authorization Blocker Rule): Môi trường đại lý không có quyền truy cập phiên Google Workspace có xác thực; tuyệt đối không tạo URL Forms giả mạo hoặc tạo biên nhận nộp bài giả lập.
+  - Cung cấp hướng dẫn bàn giao chính xác, tối thiểu và sẵn sàng thực thi để chủ sở hữu dự án triển khai bộ đề `MD-N4-VOC-01` qua Google Apps Script.
+- **Bảo toàn 100% Forms P0**:
+  - 3 Forms P0 (`W01-B01`, `W01-B02`, `W01-B03`) tiếp tục hoạt động ổn định. Tuyệt đối không có URL giả mạo.
+- **Chỉ số kiểm thử đạt chuẩn tuyệt đối**:
+  - 44 / 44 adversarial mutation tests PASS (`scripts/tests/test_qa_adversarial_mutations.py`).
+  - 28 / 28 release verification checks PASS (`scripts/validate_release.py`).
+  - 394 / 394 drive-first test suite PASS (`scripts/drive_first/test_drive_first.cjs`).
+  - 5 / 5 negative question tests PASS (`scripts/tests/test_question_bank_negative.py`).
+
 # Trạng thái dự án — 16/10/2026
 
 ## Phase 3.7 — Kiểm toán lỗ hổng Cổng phát hành & Sẵn sàng thử nghiệm học viên có kiểm soát (Release-Gate Bypass Audit & Controlled Pilot Readiness)

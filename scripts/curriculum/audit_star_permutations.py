@@ -294,35 +294,42 @@ def validate_star_structure(q: dict) -> tuple[bool, str, dict]:
     return True, "Gate 1 Structural Validation Passed", structural_data
 
 
+def normalize_permutation_tuple(order_val) -> tuple:
+    """
+    Normalizes permutation representations (list, tuple, dict, string)
+    into a standard tuple of option IDs, or None if invalid.
+    """
+    if isinstance(order_val, dict):
+        order_val = order_val.get("order")
+    if isinstance(order_val, (list, tuple)):
+        clean = tuple(str(x).strip().upper() for x in order_val)
+        if len(clean) == 4 and sorted(clean) == ["A", "B", "C", "D"]:
+            return clean
+        return None
+    if isinstance(order_val, str):
+        cleaned = re.sub(r"[,\s\->]+", "", order_val.strip().upper())
+        if len(cleaned) == 4 and sorted(cleaned) == ["A", "B", "C", "D"]:
+            return tuple(cleaned)
+        return None
+    return None
+
+
 def validate_semantic_review_evidence(ledger_entry: dict, q: dict, structural_data: dict, qa_dir: Path = None) -> tuple[bool, str, dict]:
     """
     Independently validates a semantic review evidence record against strict security criteria:
-    Mandatory fields:
-      - id (stable question ID)
-      - blindInputSha256 (current BLIND_INPUT_SHA256)
-      - scoringSha256 (relevant SCORING_SHA256)
-      - canonicalPermutation (canonical permutation)
-      - reviewedPermutations (every reviewed alternative permutation)
-      - reviewerId (actual reviewer identity)
-      - reviewMethod (review method)
-      - evidenceArtifact (evidence artifact reference)
-      - evidenceIntegrityHash (evidence integrity hash)
-      - perPermutationJudgments (per-permutation judgment)
-      - reviewerConcerns (reviewer concerns)
-      - finalDecision (explicit final decision)
-      - timestamp (timestamp accurately originating from execution evidence)
-      - provenanceStatus (provenance status)
-
-    Rejects/fails if:
+    Mandatory checks:
       1. Question ID mismatch.
       2. Question version changed/stale.
-      3. Fingerprint mismatch (blindInputSha256 or scoringSha256).
-      4. Reviewer identity is missing or an unsupported placeholder label.
-      5. Evidence artifact reference missing, file not found, or digest hash mismatch.
-      6. Reviewed permutations coverage is empty or insufficient.
-      7. Missing per-permutation linguistic adjudication or blanket default invalid rule.
-      8. Recorded defensible alternative changes the STAR answer.
-      9. Incomplete coverage falsely declared complete.
+      3. Fingerprint mismatch (blindInputSha256 and scoringSha256).
+      4. Reviewer identity check & provenance status.
+      5. Defensible alternative permutation collision check (immediate quarantine).
+      6. Evidence artifact presence and digest integrity.
+      7. Validated permutation enumeration & duplicate detection.
+      8. Derived complete semantic coverage (never trust caller's coverageDeclared).
+      9. Per-permutation linguistic judgments alignment and non-empty rationale.
+      10. Unresolved / pending judgment detection.
+      11. Conflicting defensible alternative hidden inside per-permutation judgments.
+      12. Blanket default invalid rule & repetitive boilerplate rejection.
 
     Returns: (is_valid, reason, details)
     """
@@ -353,14 +360,41 @@ def validate_semantic_review_evidence(ledger_entry: dict, q: dict, structural_da
     reviewer_id = str(ledger_entry.get("reviewerId", "")).strip()
     unsupported_labels = [
         "expert_panel", "placeholder", "unverified", "anonymous",
-        "reviewer", "independent-jlpt-linguistic-expert-v2", "simulated"
+        "reviewer", "independent-jlpt-linguistic-expert-v2", "simulated",
+        "arbitrary_reviewer", "arbitrary_unverified_reviewer", "unknown",
+        "test_reviewer", "bot"
     ]
-    if not reviewer_id or reviewer_id.lower() in unsupported_labels:
+    if (not reviewer_id or 
+        reviewer_id.lower() in unsupported_labels or 
+        "unverified" in reviewer_id.lower() or 
+        reviewer_id.lower().startswith("arbitrary")):
         return False, f"UNSUPPORTED_REVIEWER_LABEL: Reviewer identity '{reviewer_id}' lacks independent execution attestation or verifiable credentials.", {}
+
+    prov_status = str(ledger_entry.get("provenanceStatus", "")).strip().upper()
+    if prov_status in ["UNVERIFIED", "UNKNOWN", "REJECTED"]:
+        return False, f"UNVERIFIED_PROVENANCE_STATUS: Review evidence has unverified provenance status '{prov_status}'.", {}
 
     # 5. Defensible alternative permutation check (linguistic defect check takes precedence)
     correct_ans = structural_data.get("correctAnswer", q.get("correctAnswer", ""))
-    defensible_alts = ledger_entry.get("defensibleAlternativePermutations", [])
+    defensible_alts = list(ledger_entry.get("defensibleAlternativePermutations", []))
+
+    # Also detect any defensible alternatives declared or hidden in perPermutationJudgments
+    raw_judgments = ledger_entry.get("perPermutationJudgments", {})
+    if isinstance(raw_judgments, dict):
+        defensible_markers = [
+            "valid alternative", "acceptable alternative", "natural alternative",
+            "defensible alternative", "also valid", "also natural", "grammatically valid",
+            "valid japanese"
+        ]
+        for rk, rv in raw_judgments.items():
+            norm_rk = normalize_permutation_tuple(rk)
+            if norm_rk:
+                lower_v = str(rv).lower()
+                if any(dm in lower_v for dm in defensible_markers):
+                    slot3 = norm_rk[2]
+                    if slot3 != correct_ans:
+                        defensible_alts.append({"order": list(norm_rk), "slot3Id": slot3, "reason": str(rv)})
+
     colliding = [alt for alt in defensible_alts if alt.get("slot3Id") != correct_ans]
     if colliding:
         return False, f"AMBIGUOUS_ALTERNATIVE_FOUND: Question has {len(colliding)} defensible alternative permutation(s) that alter the STAR answer.", {"colliding": colliding}
@@ -386,36 +420,93 @@ def validate_semantic_review_evidence(ledger_entry: dict, q: dict, structural_da
     if actual_art_hash != expected_art_hash:
         return False, f"EVIDENCE_HASH_MISMATCH: Computed artifact hash '{actual_art_hash}' does not match recorded digest '{expected_art_hash}'.", {}
 
-    # 7. Reviewed permutations coverage
+    # 7. Reviewed permutations normalization, validation & duplicate detection
     reviewed_perms = ledger_entry.get("reviewedPermutations", [])
-    if not reviewed_perms or len(reviewed_perms) == 0:
+    if not isinstance(reviewed_perms, list) or len(reviewed_perms) == 0:
         return False, "INSUFFICIENT_REVIEW_COVERAGE: reviewedPermutations list is empty.", {}
 
-    # 8. Per-permutation linguistic judgments
-    per_judgments = ledger_entry.get("perPermutationJudgments", {})
-    if not per_judgments or len(per_judgments) < len(reviewed_perms):
-        return False, "INCOMPLETE_PERMUTATION_JUDGMENTS: Missing per-permutation linguistic adjudication.", {}
+    normalized_reviewed = []
+    for rp in reviewed_perms:
+        norm = normalize_permutation_tuple(rp)
+        if not norm:
+            return False, f"NONEXISTENT_PERMUTATION: Permutation '{rp}' is not a valid 4-option permutation of ['A', 'B', 'C', 'D'].", {}
+        normalized_reviewed.append(norm)
 
-    # Reject unsupported blanket default invalid rules
+    if len(normalized_reviewed) != len(set(normalized_reviewed)):
+        return False, "DUPLICATE_REVIEWED_PERMUTATION: reviewedPermutations contains duplicate permutation entries.", {}
+
+    # 8. Derived complete semantic coverage (Never trust caller's coverageDeclared)
+    if str(ledger_entry.get("coverageDeclared", "")).upper() in ["PARTIAL", "INCOMPLETE"]:
+        return False, "INCOMPLETE_COVERAGE_DECLARED_PARTIAL: Review coverage is explicitly declared PARTIAL or incomplete.", {}
+
+    plausible_perms = [
+        p for p in structural_data.get("permutations", [])
+        if p.get("structuralValidity") == "VALID" and not p.get("isCanonical")
+    ]
+    required_orders = [tuple(p["order"]) for p in plausible_perms]
+    reviewed_set = set(normalized_reviewed)
+
+    missing_required = [ro for ro in required_orders if ro not in reviewed_set]
+    if missing_required:
+        return False, f"INSUFFICIENT_REVIEW_COVERAGE: {len(missing_required)} structurally plausible permutation(s) lack independent review coverage (e.g. {missing_required[:3]}).", {}
+
+    # 9. Per-permutation linguistic judgments alignment
+    per_judgments = ledger_entry.get("perPermutationJudgments", {})
+    if not isinstance(per_judgments, dict):
+        return False, "INVALID_PERMUTATION_JUDGMENTS: perPermutationJudgments must be a dictionary.", {}
+
+    normalized_judgments = {}
+    for jk, jv in per_judgments.items():
+        norm_k = normalize_permutation_tuple(jk)
+        if not norm_k:
+            return False, f"NONEXISTENT_PERMUTATION_JUDGMENT: Judgment key '{jk}' does not correspond to a valid permutation of ['A', 'B', 'C', 'D'].", {}
+        if norm_k in normalized_judgments:
+            return False, f"CONFLICTING_PERMUTATION_JUDGMENT: Multiple conflicting judgments provided for permutation {norm_k}.", {}
+        normalized_judgments[norm_k] = str(jv).strip()
+
+    judgment_keys_set = set(normalized_judgments.keys())
+    if judgment_keys_set != reviewed_set:
+        extra = judgment_keys_set - reviewed_set
+        missing = reviewed_set - judgment_keys_set
+        if extra:
+            return False, f"EXTRA_JUDGMENT_NOT_REVIEWED: Judgments contain permutation(s) not declared in reviewedPermutations: {list(extra)[:3]}.", {}
+        if missing:
+            return False, f"MISSING_PERMUTATION_JUDGMENT: Missing linguistic judgment for reviewed permutation(s): {list(missing)[:3]}.", {}
+
+    # 10. Check for unresolved judgments
+    unresolved_markers = ["unresolved", "pending", "uncertain", "needs_expert", "questionable", "todo", "tbd", "unreviewed", "not_evaluated"]
+    for norm_k, j_text in normalized_judgments.items():
+        lower_j = j_text.lower()
+        if any(um in lower_j for um in unresolved_markers):
+            return False, f"UNRESOLVED_LINGUISTIC_JUDGMENT: Permutation {norm_k} judgment is unresolved or pending: '{j_text}'.", {}
+
+    # 11. Check for conflicting defensible alternative hidden inside judgments
+    defensible_markers = [
+        "valid alternative", "acceptable alternative", "natural alternative",
+        "defensible alternative", "also valid", "also natural", "grammatically valid",
+        "valid japanese"
+    ]
+    for norm_k, j_text in normalized_judgments.items():
+        lower_j = j_text.lower()
+        if any(dm in lower_j for dm in defensible_markers):
+            slot3 = norm_k[2]
+            if slot3 != correct_ans:
+                return False, f"AMBIGUOUS_ALTERNATIVE_FOUND: Conflicting defensible alternative identified in judgments for permutation {norm_k} altering answer to '{slot3}': '{j_text}'.", {"colliding": [{"order": list(norm_k), "slot3Id": slot3, "reason": j_text}]}
+
+    # 12. Reject unsupported blanket default invalid rules & repetitive boilerplate
     default_rules = [
         "invalid by default", "default rejection", "unsupported default rule",
         "blanket rejection", "auto invalid", "assumed invalid"
     ]
-    if any(any(dr in str(j).lower() for dr in default_rules) for j in per_judgments.values()):
+    if any(any(dr in str(j).lower() for dr in default_rules) for j in normalized_judgments.values()):
         return False, "UNSUPPORTED_DEFAULT_RULE_REJECTED: Non-canonical permutations were marked invalid by blanket default rule without linguistic evidence.", {}
 
-    # 9. Incomplete coverage falsely declared complete
-    plausible_orders = [
-        p["order"] for p in structural_data.get("permutations", [])
-        if p.get("structuralValidity") == "VALID" and not p.get("isCanonical")
-    ]
-    reviewed_orders = [
-        (rp["order"] if isinstance(rp, dict) else rp)
-        for rp in reviewed_perms
-    ]
-    unreviewed = [po for po in plausible_orders if po not in reviewed_orders]
-    if unreviewed and ledger_entry.get("coverageDeclared") == "COMPLETE":
-        return False, f"INCOMPLETE_COVERAGE_FALSELY_DECLARED: {len(unreviewed)} structurally plausible permutations lack independent linguistic adjudication.", {}
+    judgment_texts = [str(j).strip().lower() for j in normalized_judgments.values()]
+    if len(judgment_texts) >= 3 and len(set(judgment_texts)) == 1:
+        single_j = judgment_texts[0]
+        opt_texts = [str(opt.get("text", "")).strip().lower() for opt in q.get("options", []) if opt.get("text")]
+        if not any(ot and ot in single_j for ot in opt_texts):
+            return False, f"REPETITIVE_UNSUPPORTED_BOILERPLATE_REJECTED: All permutation judgments share identical boilerplate '{single_j}' lacking item-specific linguistic analysis.", {}
 
     return True, "SEMANTIC_REVIEW_EVIDENCE_VALID", {
         "reviewer": reviewer_id,

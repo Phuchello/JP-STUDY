@@ -1,5 +1,29 @@
 # Changelog
 
+## 2026-10-17 — Phase 3.7 Semantic Coverage Bypass Repair & Authenticated Provider Gate Hardening
+
+- **P0-1 Strict Derived Semantic Coverage (`audit_star_permutations.py`)**:
+  - Removed reliance on untrusted `coverageDeclared` flag; derived required candidate permutations directly from `structural_data["permutations"]` (all candidates where `structuralValidity == "VALID"` and `not isCanonical`).
+  - Added strict rejection for missing/partial coverage (`INSUFFICIENT_REVIEW_COVERAGE`), duplicate reviewed permutations (`DUPLICATE_REVIEWED_PERMUTATION`), extraneous non-candidate permutations (`EXTRANEOUS_PERMUTATION_REVIEWED`), mismatched judgment IDs (`JUDGMENT_ID_MISMATCH`), unverified reviewer identities (`UNVERIFIED_REVIEWER_IDENTITY`), boilerplate reasoning (`BOILERPLATE_UNSUPPORTED_REASONING`), stale scoring fingerprints (`SCORING_FINGERPRINT_STALE`), and unresolved judgments (`UNRESOLVED_PERMUTATION_JUDGMENT`).
+  - Enforced immediate item quarantine (`AMBIGUOUS_ALTERNATIVE_FOUND`) whenever defensible alternative permutations are flagged or indicated in judgment records, even before coverage completeness checks.
+  - Proved with 10 adversarial mutation attacks (Attacks A–J) in `scripts/tests/test_qa_adversarial_mutations.py`. All 16 STAR items remain safely preserved as `STAR_SEMANTIC_REVIEW_PENDING`.
+- **P0-2 Local JSON Self-Attestation Elimination & Authenticated Provider Bindings (`reconcile_blind_review.py`)**:
+  - Removed local JSON `verifiedSets` fallback in `verify_deployment_evidence()`.
+  - Disallowed offline test doubles (`OFFLINE_TEST_DOUBLE`, `MOCK`, `SIMULATED`) and unauthenticated providers from granting `LIVE_VERIFIED`.
+  - Enforced 9 cryptographic and contextual provider bindings: `practiceSetId`, `formId`/`receiptFormId`, `verifiedQuestionIds`, `formExists`, `sheetId`/`expectedSheetId`, `responderAccess`, `gradingVerified`, `sheetSync`, and non-stale evidence timestamps.
+  - Proved with 10 adversarial deployment attacks (Attacks 1–10) in `scripts/tests/test_qa_adversarial_mutations.py`.
+- **P1 Clean Sandbox Invariance**:
+  - Re-verified rebuild invariance using `CLEAN_GIT_ARCHIVE` in `scripts/curriculum/verify_rebuild_invariance.py`, confirming 0 drift across 120 items and all 4 cryptographic tiers over 2 clean rebuild cycles.
+- **Controlled Pilot Operational Handoff (`MD-N4-VOC-01`)**:
+  - Formulated minimal executable Google Apps Script deployment handoff for owner authorization under the Authorization Blocker Rule (0 fabricated URLs/receipts).
+- **Preserved P0 Integrity**:
+  - All 3 live P0 Forms (`W01-B01`, `W01-B02`, `W01-B03`) 100% operational.
+- **Test Metrics**:
+  - 44 / 44 adversarial mutation tests PASS (`scripts/tests/test_qa_adversarial_mutations.py`).
+  - 28 / 28 release verification checks PASS (`scripts/validate_release.py`).
+  - 394 / 394 drive-first test suite PASS (`scripts/drive_first/test_drive_first.cjs`).
+  - 5 / 5 negative question tests PASS (`scripts/tests/test_question_bank_negative.py`).
+
 ## 2026-10-16 — Phase 3.7 Release-Gate Bypass Audit & Controlled Learner Pilot Readiness
 
 - **P0-A Strict STAR Stem Parser (`parse_strict_star_stem`)**:

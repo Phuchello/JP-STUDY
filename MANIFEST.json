@@ -2,7 +2,7 @@
   "snapshotDate": "2026-10-15",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
   "fileCountExcludingManifest": 242,
-  "totalBytesExcludingManifest": 5853667,
+  "totalBytesExcludingManifest": 5898282,
   "files": [
     {
       "path": ".gitattributes",
@@ -450,8 +450,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 25412,
-      "sha256": "da11e4ec928273af7be62580de2aced9a1de3150499ef38b6157f7d4f78f70d1",
+      "bytes": 28406,
+      "sha256": "d6c82502bf6e9ea527b7a2bbf1ab3374ebf9d64dd95af6906e2879e10fad4283",
       "status": "VERIFIED"
     },
     {
@@ -481,13 +481,13 @@
     {
       "path": "curriculum/PRACTICE_SETS.json",
       "bytes": 37289,
-      "sha256": "feec4ae9c50b19b985b2b25e2a63c15edef15ce8398d64df7daed5b518c3b901",
+      "sha256": "df075e9a692020b4e6c0b2349b5ce67e88811499a550c4f8a8b6e815879e81e2",
       "status": "VERIFIED"
     },
     {
       "path": "curriculum/QUESTION_BANK_EXPANDED.json",
       "bytes": 267701,
-      "sha256": "5ee84c4bfc9a104a2dc8854e47f1da48a6d88c414b9d6c12d9e4626f4b0461a0",
+      "sha256": "fec11bbcfdc17b450cf7c57fd7f6dc64e4b0289356e2e5591a319ebfdd0d8ffb",
       "status": "VERIFIED"
     },
     {
@@ -792,8 +792,8 @@
     },
     {
       "path": "PROJECT_STATUS.md",
-      "bytes": 21864,
-      "sha256": "e3e53d292ed2dfd60cfe6b6b8e77e214abc00a20a5fdc741525229a3e53b0c18",
+      "bytes": 26329,
+      "sha256": "6e429086034d40592f52f8be9b3cbd0e8ebe6396363dbe4b1715a0fca740e65c",
       "status": "VERIFIED"
     },
     {
@@ -804,8 +804,8 @@
     },
     {
       "path": "qa/ADVERSARIAL_TEST_RESULTS.md",
-      "bytes": 10204,
-      "sha256": "fab89665609f0dbfad3eb4678fd6e8a36401fea14615dfda48b912afbc1ae054",
+      "bytes": 14668,
+      "sha256": "3bd605c2167b127dfd37ee7fcd5f1b51c5aa754f1ccaccfacd1a4a25f5baf1ab",
       "status": "VERIFIED"
     },
     {
@@ -835,7 +835,7 @@
     {
       "path": "qa/BLIND_REVIEW_RECONCILIATION_REPORT.md",
       "bytes": 7227,
-      "sha256": "3bfc340d7899a9279839b7233f2c156d8e29057b2ee3fb3451843c0c628b7844",
+      "sha256": "8e9b550d472ba28cb978d61abf1be83cee5c179d945979fc860a767e12a77d56",
       "status": "VERIFIED"
     },
     {
@@ -847,7 +847,7 @@
     {
       "path": "qa/CONTENT_FINGERPRINT_MANIFEST.json",
       "bytes": 276164,
-      "sha256": "3b9bf0e440ed97b91e818d9d3e88f4700d9a5ce768e67a06273474f37c5d087c",
+      "sha256": "87c7f819ea74b9f432cdb5ac67f5e303575e4c3dd309e2b7a8b08f70e6a2f7d5",
       "status": "VERIFIED"
     },
     {
@@ -1117,7 +1117,7 @@
     {
       "path": "qa/QUESTION_REVIEW_LEDGER.csv",
       "bytes": 22627,
-      "sha256": "dc2422750a494bb67fb719a596c0fd8ed681d7014d235a42df84b9c0b6414763",
+      "sha256": "47c527b683584241c83060e570ad20c9291173bedd588c3777a8d696779de597",
       "status": "VERIFIED"
     },
     {
@@ -1159,7 +1159,7 @@
     {
       "path": "qa/REPRODUCIBILITY_AUDIT.md",
       "bytes": 3759,
-      "sha256": "2c2f2c1b0b6dedc7ceafbc32c3203565ed98e4dde28ff549b060fa06994fec4c",
+      "sha256": "fba10bed97cedcaa1d5db63ac8a0549a493ed69f204ed6b06aae111c8e5e0345",
       "status": "VERIFIED"
     },
     {
@@ -1278,8 +1278,8 @@
     },
     {
       "path": "scripts/curriculum/audit_star_permutations.py",
-      "bytes": 34367,
-      "sha256": "be13dec5ea0e2c64451486bc2f6244638a0dc9c18792c20ba2c793358be33686",
+      "bytes": 39584,
+      "sha256": "955a90ee6f3d449f1e4768f26aff5732e0b0030b2c200c18c480ac727ed41778",
       "status": "VERIFIED"
     },
     {
@@ -1326,8 +1326,8 @@
     },
     {
       "path": "scripts/curriculum/reconcile_blind_review.py",
-      "bytes": 34372,
-      "sha256": "94cfda90a364bc388ce3a7dae954e581ddf2cf9a542183146b42360e0920ef1f",
+      "bytes": 37103,
+      "sha256": "e4609341b680193798f22d37f8db87536b524e672a067f367f2342d59fefb60b",
       "status": "VERIFIED"
     },
     {
@@ -1416,8 +1416,8 @@
     },
     {
       "path": "scripts/tests/test_qa_adversarial_mutations.py",
-      "bytes": 43006,
-      "sha256": "57b30c4b4c5384d6bc8be67241de1a5d73e36ebd5eccb067a207d1abb987ce41",
+      "bytes": 67750,
+      "sha256": "4bda2c19c00c3aa83d30a9df53ebe7d20fbd706d2f33d368a8ce5ce3c5db3719",
       "status": "VERIFIED"
     },
     {

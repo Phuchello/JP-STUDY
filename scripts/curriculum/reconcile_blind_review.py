@@ -316,43 +316,79 @@ def verify_deployment_evidence(practice_set: dict, workspace_verifier=None) -> t
             if not isinstance(ver_result, dict):
                 return "VERIFICATION_PROVIDER_ERROR", False, "Workspace verification provider returned invalid result format.", {}
 
+            # Distinguish test double from real authenticated Google Workspace provider
+            provider_type = str(ver_result.get("providerType", "")).strip().upper()
+            is_authorized = ver_result.get("isAuthorizedWorkspaceProvider") is True or ver_result.get("isAuthorized") is True
+            if provider_type in ["OFFLINE_TEST_DOUBLE", "TEST_DOUBLE", "MOCK", "SIMULATED", "UNAUTHORIZED"]:
+                return "UNAUTHORIZED_TEST_DOUBLE_REJECTED", False, f"Test double '{provider_type}' cannot grant production LIVE_VERIFIED status.", {}
+            if provider_type != "AUTHENTICATED_GOOGLE_WORKSPACE_API" and not is_authorized:
+                return "UNAUTHORIZED_PROVIDER_TYPE", False, f"Provider type '{provider_type}' lacks authenticated Google Workspace attestation.", {}
+
+            # Bind to practice set ID
+            prov_ps_id = ver_result.get("practiceSetId")
+            if prov_ps_id and prov_ps_id != practice_set.get("id"):
+                return "PRACTICE_SET_ID_MISMATCH", False, f"Provider receipt bound to practice set '{prov_ps_id}', expected '{practice_set.get('id')}'.", {}
+
+            # Bind to Google Form resource ID
+            prov_form_id = ver_result.get("formId") or ver_result.get("receiptFormId")
+            if prov_form_id and prov_form_id != form_id:
+                return "RECEIPT_FORM_MISMATCH", False, f"Provider verification bound to Form ID '{prov_form_id}', expected '{form_id}'.", {}
+
+            # Bind to expected question IDs
+            verified_qids = ver_result.get("verifiedQuestionIds")
+            expected_qids = practice_set.get("questionIds", [])
+            if verified_qids is not None and verified_qids != expected_qids:
+                return "QUESTION_MAPPING_MISMATCH", False, f"Provider verified question IDs {verified_qids} do not match practice set question IDs {expected_qids}.", {}
+
+            # Verify Form exists on Drive
             form_exists = ver_result.get("formExists", False)
             if not form_exists:
                 return "FORM_EXISTS_FAILED", False, f"Google Workspace provider confirms Form '{form_id}' does not exist on Drive.", {}
 
+            # Bind to destination Sheet identity
+            sheet_id = ver_result.get("sheetId")
+            expected_sheet_id = ver_result.get("expectedSheetId")
+            if not sheet_id:
+                return "MISSING_DESTINATION_SHEET", False, "Google Workspace provider verified form lacks linked destination Sheet identity.", {}
+            if expected_sheet_id and sheet_id != expected_sheet_id:
+                return "DESTINATION_SHEET_MISMATCH", False, f"Linked destination Sheet '{sheet_id}' does not match expected Sheet '{expected_sheet_id}'.", {}
+
+            # Verify responder permissions
             responder_access = ver_result.get("responderAccess", False)
             if not responder_access:
                 return "RESPONDER_ACCESS_FAILED", False, "Google Workspace provider failed responder permission audit.", {}
 
+            # Verify grading and answer key digest
             grading_verified = ver_result.get("gradingVerified", False)
             if not grading_verified:
                 return "GRADING_VERIFICATION_FAILED", False, "Google Workspace provider failed quiz grading and answer key verification.", {}
 
+            # Verify Sheet response sync
             sheet_sync = ver_result.get("sheetSync", False)
             if not sheet_sync:
                 return "SHEET_SYNC_FAILED", False, "Google Workspace provider failed sheet response sync and question-ID mapping.", {}
 
+            # Verify synthetic quiz submission receipt
             receipt = ver_result.get("receiptId")
             if not receipt:
                 return "MISSING_SUBMISSION_RECEIPT", False, "Google Workspace provider lacks verified synthetic quiz submission receipt.", {}
+
+            receipt_form = ver_result.get("receiptFormId")
+            if receipt_form and receipt_form != form_id:
+                return "RECEIPT_FORM_MISMATCH", False, f"Synthetic submission receipt '{receipt}' belongs to form '{receipt_form}', not '{form_id}'.", {}
+
+            # Verify evidence freshness
+            is_stale = ver_result.get("isStale", False)
+            timestamp = ver_result.get("timestamp")
+            if is_stale or (timestamp is not None and timestamp < 0):
+                return "STALE_DEPLOYMENT_EVIDENCE", False, "Deployment verification evidence is expired or stale.", {}
 
             return "LIVE_VERIFIED", True, f"Verified live Google Form with provider receipt '{receipt}'", ver_result
 
         except Exception as e:
             return "PROVIDER_EXCEPTION", False, f"Workspace verifier failed with error: {e}", {}
 
-    # Check verified deployment records file if present (e.g. qa/drive_first_deployment.json)
-    deployment_record_path = ROOT / "qa/drive_first_deployment.json"
-    if deployment_record_path.exists():
-        try:
-            with open(deployment_record_path, "r", encoding="utf-8") as f:
-                dep_data = json.load(f)
-            if practice_set.get("id") in dep_data.get("verifiedSets", []):
-                return "LIVE_VERIFIED", True, "Verified in historical Google Workspace acceptance audit.", dep_data
-        except Exception:
-            pass
-
-    # Locally declared metadata without authorized verification cannot achieve LIVE_VERIFIED
+    # Locally declared metadata alone can NEVER achieve LIVE_VERIFIED without authorized provider attestation
     return "DEPLOYMENT_METADATA_PRESENT_UNVERIFIED", False, (
         "UNVERIFIED_DEPLOYMENT: Declared Google Form deployment metadata lacks authorized "
         "Google Workspace provider verification receipt. Cannot be self-attested."
