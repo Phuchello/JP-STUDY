@@ -333,7 +333,10 @@ def make_production_workspace_adapter(authenticated_callback):
     """
     def _production_verifier(ps_obj):
         return authenticated_callback(ps_obj)
+    _production_verifier.callback = authenticated_callback
+    _production_verifier.__wrapped__ = authenticated_callback
     return _production_verifier
+
 
 
 def verify_deployment_evidence(practice_set: dict, workspace_verifier=None) -> tuple[str, bool, str, dict]:
@@ -540,25 +543,46 @@ def verify_deployment_evidence(practice_set: dict, workspace_verifier=None) -> t
             # Production LIVE_VERIFIED requires genuine Google Workspace authorization:
             # - Real Google API client credentials, or
             # - Verified Apps Script runtime execution proof from the project.
-            # An arbitrary callback without real Google authorization CANNOT certify live deployment.
+            # Plain Python callbacks and caller-assigned attributes CANNOT certify live deployment.
             # ----------------------------------------------------------------
-            is_genuine_google_auth = (
-                getattr(workspace_verifier, "is_authenticated_google_client", False) is True and
-                getattr(workspace_verifier, "has_valid_google_credentials", False) is True
-            )
-
             evidence = dict(ver_result)
 
-            if not is_genuine_google_auth:
-                # Offline QA (Mock/Test Adapter):
-                # Program flow and all bindings validated, but CANNOT certify live deployment.
-                return "MOCK_SUCCESS", False, (
-                    f"Offline mock provider verified all bindings successfully with receipt '{receipt}' "
-                    f"(MOCK_SUCCESS; offline test only, not live deployment)."
+            # P0-6 ENFORCEMENT: Never trust caller-assigned callback attributes
+            # Check for attribute forgery on verifier or any wrapped callback
+            curr = workspace_verifier
+            has_forged_attrs = False
+            visited = set()
+            queue = [curr]
+            while queue:
+                target = queue.pop(0)
+                if id(target) in visited or target is None:
+                    continue
+                visited.add(id(target))
+                if hasattr(target, "is_authenticated_google_client") or hasattr(target, "has_valid_google_credentials"):
+                    has_forged_attrs = True
+                    break
+                for attr_name in ("callback", "__wrapped__"):
+                    if hasattr(target, attr_name):
+                        queue.append(getattr(target, attr_name))
+                if hasattr(target, "__closure__") and target.__closure__:
+                    for cell in target.__closure__:
+                        try:
+                            queue.append(cell.cell_contents)
+                        except ValueError:
+                            pass
+
+
+            if has_forged_attrs:
+                return "AUTHENTICATED_PROVIDER_UNAVAILABLE", False, (
+                    "AUTHENTICATED_PROVIDER_UNAVAILABLE: Self-asserted callback attributes cannot certify Google Workspace authentication."
                 ), evidence
 
-            # Genuine authenticated Google Workspace provider
-            return "LIVE_VERIFIED", True, f"Verified live Google Form with provider receipt '{receipt}'", evidence
+            # Offline QA (Mock/Test Adapter):
+            # Program flow and all bindings validated, but CANNOT certify live deployment.
+            return "MOCK_SUCCESS", False, (
+                f"Offline mock provider verified all bindings successfully with receipt '{receipt}' "
+                f"(MOCK_SUCCESS; offline test only, not live deployment)."
+            ), evidence
 
         except Exception as e:
             return "PROVIDER_EXCEPTION", False, f"Workspace verifier failed with error: {e}", {}

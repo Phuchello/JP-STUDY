@@ -46,7 +46,8 @@
         "lastLiveQaTimestamp": null,
         "qaResult": null,
         "verificationStage": "NOT_DEPLOYED",
-        "liveVerified": false
+        "liveVerified": false,
+        "expectedAnswerKeyDigest": "2b017e4c2ee2a39967e12faf9e151e95b6ec61769ab1bf935ca13228816b290e"
       }
     },
     {
@@ -79,7 +80,8 @@
         "lastLiveQaTimestamp": null,
         "qaResult": null,
         "verificationStage": "NOT_DEPLOYED",
-        "liveVerified": false
+        "liveVerified": false,
+        "expectedAnswerKeyDigest": "e91c83eee7af105e41c96a34084d9b9cc4fec87a5541f110939c8e8cbd83bc96"
       }
     },
     {
@@ -144,7 +146,8 @@
         "lastLiveQaTimestamp": null,
         "qaResult": null,
         "verificationStage": "NOT_DEPLOYED",
-        "liveVerified": false
+        "liveVerified": false,
+        "expectedAnswerKeyDigest": "0ce97df338426031178e65e6903fbbbaa7a1503fb3386342f0cd1b522f2e1c15"
       }
     },
     {
@@ -177,7 +180,8 @@
         "lastLiveQaTimestamp": null,
         "qaResult": null,
         "verificationStage": "NOT_DEPLOYED",
-        "liveVerified": false
+        "liveVerified": false,
+        "expectedAnswerKeyDigest": "b73648e8b81db3991581b0f7fb25a939f92f814a1517d3ba71abc936563b3ca5"
       }
     },
     {
@@ -210,7 +214,8 @@
         "lastLiveQaTimestamp": null,
         "qaResult": null,
         "verificationStage": "NOT_DEPLOYED",
-        "liveVerified": false
+        "liveVerified": false,
+        "expectedAnswerKeyDigest": "89191d725d0816deb8cc9c95e6b6cf09022b6c52860c01de5d963907fc0a85a9"
       }
     },
     {
@@ -243,7 +248,8 @@
         "lastLiveQaTimestamp": null,
         "qaResult": null,
         "verificationStage": "NOT_DEPLOYED",
-        "liveVerified": false
+        "liveVerified": false,
+        "expectedAnswerKeyDigest": "ba4cde5f4033c676b1d3e73447e13d54881c37acab95e51c2c0d78291fc559f5"
       }
     },
     {
@@ -276,7 +282,8 @@
         "lastLiveQaTimestamp": null,
         "qaResult": null,
         "verificationStage": "NOT_DEPLOYED",
-        "liveVerified": false
+        "liveVerified": false,
+        "expectedAnswerKeyDigest": "fea614325cd505719d3b32afd93a70de810bac32db85fc795ca9ca998e86380c"
       }
     },
     {
@@ -309,7 +316,8 @@
         "lastLiveQaTimestamp": null,
         "qaResult": null,
         "verificationStage": "NOT_DEPLOYED",
-        "liveVerified": false
+        "liveVerified": false,
+        "expectedAnswerKeyDigest": "f79e03f4f1daa28d425e3227689be0a6ce80598f7011159f8326a0f0eb78737b"
       }
     },
     {
@@ -353,7 +361,8 @@
         "lastLiveQaTimestamp": null,
         "qaResult": null,
         "verificationStage": "NOT_DEPLOYED",
-        "liveVerified": false
+        "liveVerified": false,
+        "expectedAnswerKeyDigest": "14385510d92889935fb786da3d0ddde2b80f308e253c17bb3613c2d867945f3d"
       }
     },
     {
@@ -442,7 +451,8 @@
         "lastLiveQaTimestamp": null,
         "qaResult": null,
         "verificationStage": "NOT_DEPLOYED",
-        "liveVerified": false
+        "liveVerified": false,
+        "expectedAnswerKeyDigest": "511556973d244f1295e3f418b3a2c6fdf4f23ebf40bbb0bc446f95e834acabee"
       }
     },
     {
@@ -530,7 +540,8 @@
         "lastLiveQaTimestamp": null,
         "qaResult": null,
         "verificationStage": "NOT_DEPLOYED",
-        "liveVerified": false
+        "liveVerified": false,
+        "expectedAnswerKeyDigest": "71dc0f86bd52cbc8a1ab17ea734e0071bf34318bc91ce5d77b985364f97830bb"
       }
     },
     {
@@ -880,5 +891,5 @@
     }
   ],
   "lastAudit": "2026-10-15T15:18:13.369030+00:00",
-  "lastReconciliationTimestamp": "2026-10-17T06:32:46.099590+00:00"
+  "lastReconciliationTimestamp": "2026-10-17T08:16:58.517277+00:00"
 }

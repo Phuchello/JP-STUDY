@@ -21,7 +21,9 @@ for(const n of ['setIsQuiz','setCollectEmail','setPublishingSummary','setAllowRe
 function iter(a){let i=0;return{hasNext:()=>i<a.length,next:()=>a[i++]};}class Folder{constructor(name){this.id='folder'+(++serial);this.name=name;this.children=[];this.files=[];folderMap.set(this.id,this);}getName(){return this.name;}getId(){return this.id;}getParents(){return iter(this.parents||[]);}getFoldersByName(n){return iter(this.children.filter(x=>x.name===n));}createFolder(n){const f=new Folder(n);this.children.push(f);return f;}getFilesByName(n){return iter(this.files.filter(x=>x.name===n));}createFile(name,content,mime){const f={id:'file'+(++serial),name,content,mime,getUrl(){return'https://example.invalid/files/'+this.id;},setName(v){this.name=v;}};this.files.push(f);return f;}}
 const main=new SS('dashboard',['HỌC HÔM NAY','TUẦN NÀY','LỊCH SỬ','LỖI CẦN ÔN','BÁO CÁO QUẢN LÝ']),root=new Folder('JP-STUDY — HỌC TIẾNG NHẬT');const today=new Folder('01_HỌC_HÔM_NAY');today.parents=[root];let active=main,mainParents=[today];main.getSheetByName('BÁO CÁO QUẢN LÝ').getRange('B3').setValue('Asia/Tokyo');const ui={ButtonSet:{YES_NO:'YES_NO'},Button:{YES:'YES'},alert:()=> 'YES'};
 const ctx=vm.createContext({console,JP_DATA:D,JPStudy:C,Map,Set,Date,JSON,Object,Number,String,Array,Error,SpreadsheetApp:{getActiveSpreadsheet:()=>active,newRichTextValue:()=>({setText(text){this.text=text;return this;},setLinkUrl(url){this.url=url;return this;},build(){return {text:this.text,url:this.url};}}),openById:id=>sheets.get(id),create:n=>new SS('raw'+(++serial)),getUi:()=>ui},DriveApp:{getFolderById:id=>{assert.equal(id,root.id);return root;},getFileById:id=>({getParents:()=>iter(id===main.id?mainParents:[]),moveTo:f=>{files.set(id,f.id);}})},FormApp:{ItemType:{LIST:'LIST',MULTIPLE_CHOICE:'MC'},DestinationType:{SPREADSHEET:'SHEET'},create:(t,p)=>new Form(t,p),openById:id=>forms.get(id),createFeedback:()=>({setText(t){this.text=t;return this;},build(){return this.text;}})},PropertiesService:{getScriptProperties:()=>({getProperty:k=>properties.get(k),setProperty:(k,v)=>properties.set(k,v)})},LockService:{getScriptLock:()=>({waitLock(){},releaseLock(){}})},ScriptApp:{getProjectTriggers:()=>triggers,newTrigger:handler=>({forForm(form){this.id=form.id;return this;},onFormSubmit(){return this;},create(){triggers.push({getHandlerFunction:()=>handler,getTriggerSourceId:()=>this.id});}})},Utilities:{formatDate:(date,z,p)=>p==='yyyy-MM-dd'?dateOf(date.toISOString(),z):'20261015_000000_001'},MimeType:{CSV:'CSV',PLAIN_TEXT:'TEXT'}});
+const pilotPayload=fs.readFileSync(path.join(R,'DRIVE_SETUP/pilot_payload.js'),'utf8');vm.runInContext(pilotPayload,ctx);
 const adapter=fs.readFileSync(path.join(R,'DRIVE_SETUP/workspace_adapter.js'),'utf8');vm.runInContext(adapter,ctx);
+
 test('Bound bootstrap rejects absent active spreadsheet before persistence',()=>{active=null;assert.throws(()=>ctx.jpSheet());assert(!properties.has('JP_DASHBOARD_ID'));active=main;});
 test('Bound bootstrap rejects wrong spreadsheet title',()=>{main.name='Other';assert.throws(()=>ctx.jpSheet());assert(!properties.has('JP_DASHBOARD_ID'));main.name='JP_STUDY_HOC_HOM_NAY';});
 test('Bound bootstrap detects and persists only its own dashboard',()=>{assert.equal(ctx.jpSheet(),main);assert.equal(properties.get('JP_DASHBOARD_ID'),main.id);});
@@ -40,4 +42,289 @@ test('Unexpected named participant prevents owner-only publication',()=>{acls.ge
 test('QA refresh refuses production target and unlabelled rows',()=>{assert.throws(()=>ctx.jpRefresh(state,{sheet:main,rows:en.map(r=>({...r,synthetic:true}))}));const isolated=new SS('isolated',['HỌC HÔM NAY','TUẦN NÀY','LỊCH SỬ','LỖI CẦN ÔN','BÁO CÁO QUẢN LÝ']);assert.throws(()=>ctx.jpRefresh(state,{sheet:isolated,rows:en}));});
 test('QA history/error views are rendered in isolated sheet without learner writes',()=>{const before=JSON.stringify([...main.getSheetByName('LỊCH SỬ').data]),isolated=sheets.get('isolated');ctx.jpRefresh(state,{sheet:isolated,rows:en.map(r=>({...r,synthetic:true}))});assert.equal(isolated.getSheetByName('LỊCH SỬ').getRange('E4').getValue(),2);assert.equal(isolated.getSheetByName('LỊCH SỬ').getRange('G4').getValue(),1);assert.equal(JSON.stringify([...main.getSheetByName('LỊCH SỬ').data]),before);assert(isolated.getSheetByName('LỖI CẦN ÔN').getRange('B9').getValue().includes('Khóa'));});
 test('Live QA refuses to copy a dashboard that already has learner rows',()=>assert.throws(()=>ctx.verifySyntheticQa(),/Có dữ liệu học thật/));
+
+// ============================================================================
+// PHASE 3.7 PILOT INTEGRATION TESTS (MOCK WORKSPACE ENVIRONMENT)
+// Note: Uses deterministic Workspace mocks to verify data flow and control logic;
+// not live Google Forms execution.
+// ============================================================================
+
+test('Pilot registered in effective runtime quiz registry and questions lookup', () => {
+  const ed = ctx.jpEffectiveData();
+  assert(ed.quizzes.some(q => q.id === 'MD-N4-VOC-01'));
+  const pilotQuiz = ed.quizzes.find(q => q.id === 'MD-N4-VOC-01');
+  assert.equal(pilotQuiz.questionIds.length, 5);
+  for (const qid of pilotQuiz.questionIds) {
+    assert(ed.questions[qid], 'Missing question ' + qid);
+    assert.equal(ed.questions[qid].id, qid);
+    assert.equal(ed.questions[qid].options.length, 4);
+    assert(['A', 'B', 'C', 'D'].includes(ed.questions[qid].correctAnswer));
+  }
+  assert.equal(D.quizzes.length, 10);
+  assert.equal(Object.keys(D.questions).length, 68);
+});
+
+let pilotDeployResult, pilotForm, pilotInfo;
+test('Scenario K: deployPilotMdN4Voc01 creates Form, JP_MODES, trigger, destination and is idempotent', () => {
+  const triggerCountBefore = triggers.length;
+  const formCountBefore = forms.size;
+
+  pilotDeployResult = ctx.deployPilotMdN4Voc01();
+  assert.equal(pilotDeployResult.practiceSetId, 'MD-N4-VOC-01');
+  assert.equal(pilotDeployResult.stage, 'FORM_CONFIG_AUDITED');
+  assert.equal(pilotDeployResult.triggerInstalled, true);
+  assert.equal(pilotDeployResult.modeConfigured, true);
+  assert.equal(pilotDeployResult.partialSubmissionAllowed, true);
+
+  assert.equal(forms.size, formCountBefore + 1);
+  assert.equal(triggers.length, triggerCountBefore + 1);
+
+  const curState = JSON.parse(properties.get('JP_STATE'));
+  pilotInfo = curState.forms['MD-N4-VOC-01'];
+  assert(pilotInfo && pilotInfo.built);
+  assert(pilotInfo.modeId, 'Missing modeId in pilot form info');
+  assert(pilotInfo.fatigueId, 'Missing fatigueId in pilot form info');
+  assert.equal(Object.keys(pilotInfo.items).length, 5);
+
+  pilotForm = forms.get(pilotInfo.id);
+  assert(pilotForm);
+  for (const item of pilotForm.getItems('MC')) {
+    assert.equal(item.required, false, 'Question should be optional for partial submissions');
+    assert.equal(item.points, 1);
+  }
+
+  const redeployResult = ctx.deployPilotMdN4Voc01();
+  assert.equal(redeployResult.formId, pilotInfo.id);
+  assert.equal(forms.size, formCountBefore + 1);
+  assert.equal(triggers.length, triggerCountBefore + 1);
+});
+
+function makePilotResponse(respId, mode, answerMap, fatigue = '') {
+  const vals = { ...answerMap, [pilotInfo.modeId]: mode };
+  if (fatigue) vals[pilotInfo.fatigueId] = fatigue;
+  return {
+    getId: () => respId,
+    getTimestamp: () => new Date('2026-10-17T12:00:00Z'),
+    getItemResponses: () => Object.entries(vals).map(([i, v]) => ({
+      getItem: () => ({ getId: () => Number(i) }),
+      getResponse: () => v
+    }))
+  };
+}
+
+function getHistoryRow(submissionId) {
+  const sh = main.getSheetByName('LỊCH SỬ');
+  const count = sh.getLastRow() - 3;
+  if (count < 1) return null;
+  const rows = sh.getRange(4, 1, count, 14).getValues();
+  return rows.find(r => String(r[13]).endsWith(submissionId)) || null;
+}
+
+
+test('Scenario A: Pilot 5 correct answers yields 5/5 score in history', () => {
+  const ed = ctx.jpEffectiveData();
+  const pQuiz = ed.quizzes.find(q => q.id === 'MD-N4-VOC-01');
+  const ansA = {};
+  for (const qid of pQuiz.questionIds) {
+    const q = ed.questions[qid];
+    const itemKey = Object.keys(pilotInfo.items).find(k => pilotInfo.items[k] === qid);
+    const correctOpt = q.options.find(o => o.id === q.correctAnswer);
+    ansA[itemKey] = C.option(q, correctOpt);
+  }
+  const curState = JSON.parse(properties.get('JP_STATE'));
+  const rawBefore = sheets.get(curState.rawId).getSheetByName('CHI_TIET').getLastRow();
+  const respA = makePilotResponse('pilot-resp-A', 'Tự làm, chưa xem câu/khóa', ansA, '2');
+  ctx.onQuizSubmit({ source: pilotForm, response: respA });
+
+  const rawAfter = sheets.get(curState.rawId).getSheetByName('CHI_TIET').getLastRow();
+  assert.equal(rawAfter, rawBefore + 5);
+
+  const histValues = getHistoryRow('pilot-resp-A');
+  assert(histValues, 'History row must exist for pilot-resp-A');
+  assert.equal(histValues[1], 'MD-N4-VOC-01');
+  assert.equal(histValues[4], 5);
+  assert.equal(histValues[5], 5);
+  assert.equal(histValues[6], 0);
+  assert.equal(histValues[10], 'Đã nộp đủ');
+});
+
+test('Scenario G: Trigger fires twice idempotently without duplicating raw or history', () => {
+  const ed = ctx.jpEffectiveData();
+  const pQuiz = ed.quizzes.find(q => q.id === 'MD-N4-VOC-01');
+  const curState = JSON.parse(properties.get('JP_STATE'));
+  const rawBefore = sheets.get(curState.rawId).getSheetByName('CHI_TIET').getLastRow();
+  const histRowsBefore = main.getSheetByName('LỊCH SỬ').getLastRow();
+
+  const ansA = {};
+  for (const qid of pQuiz.questionIds) {
+    const q = ed.questions[qid];
+    const itemKey = Object.keys(pilotInfo.items).find(k => pilotInfo.items[k] === qid);
+    ansA[itemKey] = C.option(q, q.options.find(o => o.id === q.correctAnswer));
+  }
+  const respA = makePilotResponse('pilot-resp-A', 'Tự làm, chưa xem câu/khóa', ansA, '2');
+  ctx.onQuizSubmit({ source: pilotForm, response: respA });
+
+  const rawAfter = sheets.get(curState.rawId).getSheetByName('CHI_TIET').getLastRow();
+  const histRowsAfter = main.getSheetByName('LỊCH SỬ').getLastRow();
+  assert.equal(rawAfter, rawBefore);
+  assert.equal(histRowsAfter, histRowsBefore);
+});
+
+test('Scenario B: Pilot 5 wrong answers yields 0/5 score and records mistakes', () => {
+  const ed = ctx.jpEffectiveData();
+  const pQuiz = ed.quizzes.find(q => q.id === 'MD-N4-VOC-01');
+  const ansB = {};
+  for (const qid of pQuiz.questionIds) {
+    const q = ed.questions[qid];
+    const itemKey = Object.keys(pilotInfo.items).find(k => pilotInfo.items[k] === qid);
+    const wrongOpt = q.options.find(o => o.id !== q.correctAnswer);
+    ansB[itemKey] = C.option(q, wrongOpt);
+  }
+  const respB = makePilotResponse('pilot-resp-B', 'Tự làm, chưa xem câu/khóa', ansB, '4');
+  ctx.onQuizSubmit({ source: pilotForm, response: respB });
+
+  const histValues = getHistoryRow('pilot-resp-B');
+  assert(histValues, 'History row must exist for pilot-resp-B');
+  assert.equal(histValues[1], 'MD-N4-VOC-01');
+  assert.equal(histValues[4], 0);
+  assert.equal(histValues[5], 5);
+  assert.equal(histValues[6], 0);
+  assert.equal(histValues[11], pQuiz.questionIds.join(', '));
+});
+
+test('Scenario C: Pilot mix of 3 correct and 2 wrong yields 3/5', () => {
+  const ed = ctx.jpEffectiveData();
+  const pQuiz = ed.quizzes.find(q => q.id === 'MD-N4-VOC-01');
+  const ansC = {};
+  pQuiz.questionIds.forEach((qid, idx) => {
+    const q = ed.questions[qid];
+    const itemKey = Object.keys(pilotInfo.items).find(k => pilotInfo.items[k] === qid);
+    const opt = (idx < 3) ? q.options.find(o => o.id === q.correctAnswer) : q.options.find(o => o.id !== q.correctAnswer);
+    ansC[itemKey] = C.option(q, opt);
+  });
+  const respC = makePilotResponse('pilot-resp-C', 'Tự làm, chưa xem câu/khóa', ansC, '1');
+  ctx.onQuizSubmit({ source: pilotForm, response: respC });
+
+  const histValues = getHistoryRow('pilot-resp-C');
+  assert(histValues, 'History row must exist for pilot-resp-C');
+  assert.equal(histValues[1], 'MD-N4-VOC-01');
+  assert.equal(histValues[4], 3);
+  assert.equal(histValues[5], 5);
+  assert.equal(histValues[6], 0);
+});
+
+test('Scenario D: Pilot partial submission (3 answered, 2 blank) recorded with unanswered=2', () => {
+  const ed = ctx.jpEffectiveData();
+  const pQuiz = ed.quizzes.find(q => q.id === 'MD-N4-VOC-01');
+  const ansD = {};
+  pQuiz.questionIds.forEach((qid, idx) => {
+    if (idx >= 3) return;
+    const q = ed.questions[qid];
+    const itemKey = Object.keys(pilotInfo.items).find(k => pilotInfo.items[k] === qid);
+    const opt = (idx < 2) ? q.options.find(o => o.id === q.correctAnswer) : q.options.find(o => o.id !== q.correctAnswer);
+    ansD[itemKey] = C.option(q, opt);
+  });
+  const respD = makePilotResponse('pilot-resp-D', 'Tự làm, chưa xem câu/khóa', ansD);
+  ctx.onQuizSubmit({ source: pilotForm, response: respD });
+
+  const histValues = getHistoryRow('pilot-resp-D');
+  assert(histValues, 'History row must exist for pilot-resp-D');
+  assert.equal(histValues[1], 'MD-N4-VOC-01');
+  assert.equal(histValues[4], 2);
+  assert.equal(histValues[5], 5);
+  assert.equal(histValues[6], 2);
+  assert.equal(histValues[10], 'Đã nộp một phần');
+});
+
+test('Scenario E: Synthetic QA mode is quarantined to NHAT_KY_QA, absent from CHI_TIET and history', () => {
+  const ed = ctx.jpEffectiveData();
+  const pQuiz = ed.quizzes.find(q => q.id === 'MD-N4-VOC-01');
+  const curState = JSON.parse(properties.get('JP_STATE'));
+  const rawBefore = sheets.get(curState.rawId).getSheetByName('CHI_TIET').getLastRow();
+  const qaBefore = sheets.get(curState.rawId).getSheetByName('NHAT_KY_QA').getLastRow();
+
+  const ansE = {};
+  for (const qid of pQuiz.questionIds) {
+    const q = ed.questions[qid];
+    const itemKey = Object.keys(pilotInfo.items).find(k => pilotInfo.items[k] === qid);
+    ansE[itemKey] = C.option(q, q.options.find(o => o.id === q.correctAnswer));
+  }
+  const respE = makePilotResponse('pilot-synthetic-001', 'QA - Dữ liệu giả', ansE);
+  ctx.onQuizSubmit({ source: pilotForm, response: respE });
+
+  const rawAfter = sheets.get(curState.rawId).getSheetByName('CHI_TIET').getLastRow();
+  const qaAfter = sheets.get(curState.rawId).getSheetByName('NHAT_KY_QA').getLastRow();
+  assert.equal(rawAfter, rawBefore, 'CHI_TIET must not receive synthetic rows');
+  assert.equal(qaAfter, qaBefore + 1, 'NHAT_KY_QA must receive the quarantined record');
+});
+
+test('Scenario F: Learner mode records responses in CHI_TIET and updates summary/history', () => {
+  const curState = JSON.parse(properties.get('JP_STATE'));
+  const rows = sheets.get(curState.rawId).getSheetByName('CHI_TIET').getRange(2, 2, sheets.get(curState.rawId).getSheetByName('CHI_TIET').getLastRow() - 1, 1).getValues().map(r => JSON.parse(r[0]));
+  const pilotRows = rows.filter(r => r.quizId === 'MD-N4-VOC-01');
+  assert(pilotRows.length > 0, 'Pilot learner rows exist in CHI_TIET');
+  assert(pilotRows.every(r => r.quizId === 'MD-N4-VOC-01'));
+  assert(pilotRows.some(r => r.result === 'correct'));
+  assert(pilotRows.some(r => r.result === 'incorrect'));
+  assert(pilotRows.some(r => r.result === 'unanswered'));
+});
+
+test('Scenario H: syncResponses recovers missed Form responses', () => {
+  const ed = ctx.jpEffectiveData();
+  const pQuiz = ed.quizzes.find(q => q.id === 'MD-N4-VOC-01');
+  const ansH = {};
+  for (const qid of pQuiz.questionIds) {
+    const q = ed.questions[qid];
+    const itemKey = Object.keys(pilotInfo.items).find(k => pilotInfo.items[k] === qid);
+    ansH[itemKey] = C.option(q, q.options.find(o => o.id === q.correctAnswer));
+  }
+  const missedResp = makePilotResponse('pilot-missed-001', 'Tự làm, chưa xem câu/khóa', ansH, '1');
+  pilotForm.responses.push(missedResp);
+
+  const curState = JSON.parse(properties.get('JP_STATE'));
+  const rawBefore = sheets.get(curState.rawId).getSheetByName('CHI_TIET').getLastRow();
+  ctx.syncResponses();
+  const rawAfter = sheets.get(curState.rawId).getSheetByName('CHI_TIET').getLastRow();
+  assert.equal(rawAfter, rawBefore + 5, 'syncResponses must recover the 5 items from missed submission');
+});
+
+test('Scenario I: Submission from unknown form ID throws Error("Không biết form")', () => {
+  const fakeForm = { getId: () => 'form-totally-unknown' };
+  assert.throws(() => ctx.onQuizSubmit({ source: fakeForm, response: { getId: () => 'fake' } }), /Không biết form/);
+});
+
+test('Scenario J: Old P0 Form W01-B01 continues to process correctly after pilot deployment', () => {
+  const p0State = JSON.parse(properties.get('JP_STATE'));
+  const p0Info = p0State.forms['W01-B01'];
+  const p0Form = forms.get(p0Info.id);
+  const p0Quiz = D.quizzes.find(q => q.id === 'W01-B01');
+
+  const p0Ans = {};
+  p0Quiz.questionIds.forEach((qid, idx) => {
+    const q = D.questions[qid];
+    const itemKey = Object.keys(p0Info.items).find(k => p0Info.items[k] === qid);
+    p0Ans[itemKey] = C.option(q, q.options.find(o => o.id === q.correctAnswer));
+  });
+  const p0Resp = response('p0-preservation-test', 'Tự làm, chưa xem câu/khóa', p0Ans, '2');
+  const rawBefore = sheets.get(p0State.rawId).getSheetByName('CHI_TIET').getLastRow();
+  ctx.onQuizSubmit({ source: p0Form, response: p0Resp });
+  const rawAfter = sheets.get(p0State.rawId).getSheetByName('CHI_TIET').getLastRow();
+  assert.equal(rawAfter, rawBefore + p0Quiz.questionIds.length);
+});
+
+test('Scenario L: Pilot questions in jpEffectiveData match canonical QUESTION_BANK_EXPANDED', () => {
+  const ed = ctx.jpEffectiveData();
+  const pQuiz = ed.quizzes.find(q => q.id === 'MD-N4-VOC-01');
+  const bankData = JSON.parse(fs.readFileSync(path.join(R, 'curriculum/QUESTION_BANK_EXPANDED.json'), 'utf8'));
+  const bankMap = Object.fromEntries(bankData.questions.map(q => [q.id, q]));
+  for (const qid of pQuiz.questionIds) {
+    const bankQ = bankMap[qid];
+    const pilotQ = ed.questions[qid];
+    assert.equal(pilotQ.stem, bankQ.stem, 'Stem mismatch for ' + qid);
+    assert.equal(pilotQ.correctAnswer, bankQ.correctAnswer, 'Answer mismatch for ' + qid);
+    assert.equal(pilotQ.explanationVi, bankQ.explanationVi, 'Explanation mismatch for ' + qid);
+    assert.equal(JSON.stringify(pilotQ.options.map(o => o.text)), JSON.stringify(bankQ.options.map(o => o.text)), 'Options mismatch for ' + qid);
+  }
+});
+
 const report={scope:'Node pure logic + Workspace mocks; NOT real Google Forms grading, triggers or mobile UI verification',tests:results,passed:results.filter(x=>x.ok).length,failed:results.filter(x=>!x.ok).length};fs.writeFileSync(path.join(R,'tmp/drive-first/tests.json'),JSON.stringify(report,null,2));console.log(JSON.stringify({tests:results.length,passed:report.passed,failed:results.filter(x=>!x.ok)}));if(report.failed)process.exitCode=1;

@@ -16,6 +16,7 @@ Snapshot 2026-10-15. VERIFIED is scoped verification, not JLPT certification. Hi
 | [DRIVE_SETUP/appsscript.json](DRIVE_SETUP/appsscript.json) | VERIFIED |
 | [DRIVE_SETUP/folder_structure.json](DRIVE_SETUP/folder_structure.json) | VERIFIED |
 | [DRIVE_SETUP/live_qa.js](DRIVE_SETUP/live_qa.js) | VERIFIED |
+| [DRIVE_SETUP/pilot_payload.js](DRIVE_SETUP/pilot_payload.js) | QA_PENDING |
 | [DRIVE_SETUP/templates/DAILY_LEARNING_REPORT.csv](DRIVE_SETUP/templates/DAILY_LEARNING_REPORT.csv) | VERIFIED |
 | [DRIVE_SETUP/workspace_adapter.js](DRIVE_SETUP/workspace_adapter.js) | VERIFIED |
 | [FILE_INDEX.md](FILE_INDEX.md) | VERIFIED |
@@ -224,6 +225,7 @@ Snapshot 2026-10-15. VERIFIED is scoped verification, not JLPT certification. Hi
 | [scripts/curriculum/build_practice_sets.py](scripts/curriculum/build_practice_sets.py) | VERIFIED |
 | [scripts/curriculum/build_provenance_manifest.py](scripts/curriculum/build_provenance_manifest.py) | VERIFIED |
 | [scripts/curriculum/content_fingerprint.py](scripts/curriculum/content_fingerprint.py) | VERIFIED |
+| [scripts/curriculum/export_pilot_payload.py](scripts/curriculum/export_pilot_payload.py) | QA_PENDING |
 | [scripts/curriculum/generate_practice_release_gate.py](scripts/curriculum/generate_practice_release_gate.py) | VERIFIED |
 | [scripts/curriculum/inspect_category.py](scripts/curriculum/inspect_category.py) | VERIFIED |
 | [scripts/curriculum/rebuild_and_repair_bank.py](scripts/curriculum/rebuild_and_repair_bank.py) | VERIFIED |

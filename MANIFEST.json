@@ -1,8 +1,8 @@
 {
   "snapshotDate": "2026-10-15",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
-  "fileCountExcludingManifest": 243,
-  "totalBytesExcludingManifest": 5963421,
+  "fileCountExcludingManifest": 245,
+  "totalBytesExcludingManifest": 6003009,
   "files": [
     {
       "path": ".gitattributes",
@@ -480,14 +480,14 @@
     },
     {
       "path": "curriculum/PRACTICE_SETS.json",
-      "bytes": 37289,
-      "sha256": "df075e9a692020b4e6c0b2349b5ce67e88811499a550c4f8a8b6e815879e81e2",
+      "bytes": 38433,
+      "sha256": "6cfcbf9a3a700b9256fc7a7f89803c2a9ac49716a1ffd2171a27a300b0717049",
       "status": "VERIFIED"
     },
     {
       "path": "curriculum/QUESTION_BANK_EXPANDED.json",
       "bytes": 267701,
-      "sha256": "fec11bbcfdc17b450cf7c57fd7f6dc64e4b0289356e2e5591a319ebfdd0d8ffb",
+      "sha256": "2b64fb78b003b814893b7be83a435975ea59dd5db5a8d9ff6c77ec6e77ed6226",
       "status": "VERIFIED"
     },
     {
@@ -732,8 +732,8 @@
     },
     {
       "path": "DRIVE_SETUP/JP_STUDY_SETUP.gs",
-      "bytes": 233269,
-      "sha256": "b343ce315236c2a2dc06a19781e859930ccc5cdad840fe77a9afad1847f8c374",
+      "bytes": 239254,
+      "sha256": "a500ed6f0931e848dacf532a270a094cbd695304501fb90a6934d6a4265d4f92",
       "status": "VERIFIED"
     },
     {
@@ -741,6 +741,12 @@
       "bytes": 7367,
       "sha256": "d0a2c98233f2b4663cf6b1755c188ce524ae4793a7553c88652e0f3671edc19d",
       "status": "VERIFIED"
+    },
+    {
+      "path": "DRIVE_SETUP/pilot_payload.js",
+      "bytes": 7495,
+      "sha256": "e6af3d162788bac646b39264516f61a513cf2a12276bf8318720fb4d9476e881",
+      "status": "QA_PENDING"
     },
     {
       "path": "DRIVE_SETUP/README.md",
@@ -756,14 +762,14 @@
     },
     {
       "path": "DRIVE_SETUP/workspace_adapter.js",
-      "bytes": 24461,
-      "sha256": "e079fda601e4b4f833f8cce86df82bc2f55620eb796999e29779bae5c8a0225b",
+      "bytes": 22935,
+      "sha256": "1e849db1f732ddf7ba1e296bc4c24896ae85561de81078329e51e1e5fa2138fd",
       "status": "VERIFIED"
     },
     {
       "path": "FILE_INDEX.md",
-      "bytes": 23869,
-      "sha256": "20b00680e03a3e9e9d81de0b600809e1fc4c47543c60667d231649c615112009",
+      "bytes": 24053,
+      "sha256": "8aa7ed24b931e2805057c1190f4fb0f3531bc53fd406c34d2edd01f7c74af912",
       "status": "VERIFIED"
     },
     {
@@ -835,7 +841,7 @@
     {
       "path": "qa/BLIND_REVIEW_RECONCILIATION_REPORT.md",
       "bytes": 7227,
-      "sha256": "8e9b550d472ba28cb978d61abf1be83cee5c179d945979fc860a767e12a77d56",
+      "sha256": "07a21b19339b68b922326cc427da85212451cde09e2aa5098d324349e394323b",
       "status": "VERIFIED"
     },
     {
@@ -1123,7 +1129,7 @@
     {
       "path": "qa/QUESTION_REVIEW_LEDGER.csv",
       "bytes": 22627,
-      "sha256": "47c527b683584241c83060e570ad20c9291173bedd588c3777a8d696779de597",
+      "sha256": "bf53aa6ad006b62a7ee8cba82b177d74950648b5a1699cd7aaaf22dc5b78aeb5",
       "status": "VERIFIED"
     },
     {
@@ -1313,6 +1319,12 @@
       "status": "VERIFIED"
     },
     {
+      "path": "scripts/curriculum/export_pilot_payload.py",
+      "bytes": 7925,
+      "sha256": "9a0fe58a6f43e5bb2fde5856a721aca09c580dc2cb24e1f843380a8c60b5c14b",
+      "status": "QA_PENDING"
+    },
+    {
       "path": "scripts/curriculum/generate_practice_release_gate.py",
       "bytes": 8360,
       "sha256": "0704547838a9b85164943583023ae279cd9f2b1cf29e3833893e9a34cde66550",
@@ -1332,8 +1344,8 @@
     },
     {
       "path": "scripts/curriculum/reconcile_blind_review.py",
-      "bytes": 46167,
-      "sha256": "8c67bc74776f1f0de738b3df726b64680766056423fae2a60ce1cfac7fc21523",
+      "bytes": 47215,
+      "sha256": "c8258569020bc3e997ab6d4563afdb462b54c6d08e6f195cb92829c0e5cb2bae",
       "status": "VERIFIED"
     },
     {
@@ -1350,8 +1362,8 @@
     },
     {
       "path": "scripts/drive_first/build_bundle.py",
-      "bytes": 4868,
-      "sha256": "c19c329cb4e27201779484a39a913bc47ac04f549dbdf74eee19c61305609974",
+      "bytes": 4968,
+      "sha256": "71f49c10fe5c33ef240ce139e32dceba8d4129f231883c2de23cb311c88df946",
       "status": "VERIFIED"
     },
     {
@@ -1380,8 +1392,8 @@
     },
     {
       "path": "scripts/drive_first/test_drive_first.cjs",
-      "bytes": 21816,
-      "sha256": "a14df150d2d15a77e355319db10cf0fae0f7a12b925267cbe396dad1a0a2d3fd",
+      "bytes": 35561,
+      "sha256": "02be2fb7061603da7086e972d8a3958eaff98a2fd50c5932d332290ca6acf1a9",
       "status": "VERIFIED"
     },
     {
@@ -1422,8 +1434,8 @@
     },
     {
       "path": "scripts/tests/test_qa_adversarial_mutations.py",
-      "bytes": 82822,
-      "sha256": "c84d2f6c787ec97207863fef50cf75196f6d699bf8ba76b3024a6aa5c5daf579",
+      "bytes": 86310,
+      "sha256": "8e7df24cec49d4fb462eb01ac7354742b94b14663f80b601d25d35f3d7a8ee9e",
       "status": "VERIFIED"
     },
     {

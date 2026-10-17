@@ -1302,17 +1302,8 @@ class TestAdversarialQAMutations(unittest.TestCase):
             }
         }
 
-        class GenuineAuthenticatedGoogleClient:
-            is_authenticated_google_client = True
-            has_valid_google_credentials = True
-
-            def __init__(self, callback):
-                self.callback = callback
-
-            def __call__(self, ps_obj):
-                return self.callback(ps_obj)
-
-        cb = lambda ps_obj: self.make_mock_provider_result(
+        # Plain callback returning all expected successful metadata
+        callback = lambda ps_obj: self.make_mock_provider_result(
             ps,
             formId="SYNTH-FORM-GENUINE-001",
             sheetId="SYNTH-SHEET-GENUINE-001",
@@ -1320,20 +1311,90 @@ class TestAdversarialQAMutations(unittest.TestCase):
             receiptId="GENUINE-RECEIPT-001",
             receiptFormId="SYNTH-FORM-GENUINE-001"
         )
-        client = GenuineAuthenticatedGoogleClient(cb)
-        reconciled = reconcile_practice_set_status(ps, bank_map, workspace_verifier=client)
+        callback.is_authenticated_google_client = True
+        callback.has_valid_google_credentials = True
+
+        # Test 1: Direct callback with forged attributes
+        rec1 = reconcile_practice_set_status(ps, bank_map, workspace_verifier=callback)
+        self.assertNotEqual(rec1["readinessStatus"], "LIVE_VERIFIED")
+        self.assertFalse(rec1["deployment"].get("liveVerified"))
+        self.assertEqual(rec1["deployment"].get("verificationStage"), "AUTHENTICATED_PROVIDER_UNAVAILABLE")
+
+        # Test 2: Wrapped in make_production_workspace_adapter
+        wrapped = make_production_workspace_adapter(callback)
+        rec2 = reconcile_practice_set_status(ps, bank_map, workspace_verifier=wrapped)
+        self.assertNotEqual(rec2["readinessStatus"], "LIVE_VERIFIED")
+        self.assertFalse(rec2["deployment"].get("liveVerified"))
+        self.assertEqual(rec2["deployment"].get("verificationStage"), "AUTHENTICATED_PROVIDER_UNAVAILABLE")
 
         passed = (
-            reconciled["readinessStatus"] == "LIVE_VERIFIED" and
-            reconciled["deployment"].get("liveVerified") is True and
-            reconciled["deployment"].get("verificationStage") == "LIVE_VERIFIED"
+            rec1["readinessStatus"] != "LIVE_VERIFIED" and
+            rec1["deployment"].get("liveVerified") is False and
+            rec1["deployment"].get("verificationStage") == "AUTHENTICATED_PROVIDER_UNAVAILABLE" and
+            rec2["readinessStatus"] != "LIVE_VERIFIED" and
+            rec2["deployment"].get("liveVerified") is False and
+            rec2["deployment"].get("verificationStage") == "AUTHENTICATED_PROVIDER_UNAVAILABLE"
         )
         record_result(
-            "Positive Control: Genuine Google client achieves LIVE_VERIFIED",
+            "Mandatory Exploit Regression: Forged callback attributes strictly rejected",
             "verify_deployment_evidence",
-            "Provider with verified Google API client credentials",
-            "LIVE_VERIFIED (liveVerified=True)",
-            f"status={reconciled['readinessStatus']}, stage={reconciled['deployment'].get('verificationStage')}",
+            "Plain callback with is_authenticated_google_client=True and has_valid_google_credentials=True",
+            "AUTHENTICATED_PROVIDER_UNAVAILABLE with liveVerified=False (LIVE_VERIFIED impossible)",
+            f"direct_stage={rec1['deployment'].get('verificationStage')}, wrapped_stage={rec2['deployment'].get('verificationStage')}",
+            passed
+        )
+        self.assertTrue(passed)
+
+    def test_canonical_pilot_content_mutation_all_five_ids(self):
+        """
+        P0-1 Regression: Canonical pilot payload must strictly match curriculum/QUESTION_BANK_EXPANDED.json.
+        Mutating ANY stem or answer key across all 5 IDs must FAIL with CANONICAL_PILOT_CONTENT_MISMATCH.
+        """
+        from scripts.curriculum.export_pilot_payload import (
+            build_pilot_payload,
+            validate_pilot_payload_against_bank,
+            PILOT_QUESTION_IDS
+        )
+        import copy
+
+        # Baseline: Valid payload passes validation
+        payload = build_pilot_payload()
+        self.assertTrue(validate_pilot_payload_against_bank(payload))
+
+        tested_mutations = 0
+        for qid in PILOT_QUESTION_IDS:
+            # 1. Mutate stem
+            mutated_stem = copy.deepcopy(payload)
+            mutated_stem["questions"][qid]["stem"] = "変異した問題文です。"
+            with self.assertRaises(ValueError) as ctx_stem:
+                validate_pilot_payload_against_bank(mutated_stem)
+            self.assertIn("CANONICAL_PILOT_CONTENT_MISMATCH", str(ctx_stem.exception))
+            tested_mutations += 1
+
+            # 2. Mutate correctAnswer
+            mutated_ans = copy.deepcopy(payload)
+            orig_ans = mutated_ans["questions"][qid]["correctAnswer"]
+            mutated_ans["questions"][qid]["correctAnswer"] = "A" if orig_ans != "A" else "B"
+            with self.assertRaises(ValueError) as ctx_ans:
+                validate_pilot_payload_against_bank(mutated_ans)
+            self.assertIn("CANONICAL_PILOT_CONTENT_MISMATCH", str(ctx_ans.exception))
+            tested_mutations += 1
+
+            # 3. Mutate option text
+            mutated_opt = copy.deepcopy(payload)
+            mutated_opt["questions"][qid]["options"][0]["text"] = "変異した選択肢"
+            with self.assertRaises(ValueError) as ctx_opt:
+                validate_pilot_payload_against_bank(mutated_opt)
+            self.assertIn("CANONICAL_PILOT_CONTENT_MISMATCH", str(ctx_opt.exception))
+            tested_mutations += 1
+
+        passed = tested_mutations == 15
+        record_result(
+            "P0-1 Regression: Canonical pilot content mutation across all 5 IDs",
+            "validate_pilot_payload_against_bank",
+            f"Tested 15 adversarial mutations across all 5 pilot question IDs ({PILOT_QUESTION_IDS})",
+            "All mutations fail with CANONICAL_PILOT_CONTENT_MISMATCH",
+            f"{tested_mutations}/15 mutations correctly rejected",
             passed
         )
         self.assertTrue(passed)
