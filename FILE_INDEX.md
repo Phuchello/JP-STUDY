@@ -111,6 +111,7 @@ Snapshot 2026-10-15. VERIFIED is scoped verification, not JLPT certification. Hi
 | [curriculum/QUESTION_BANK_EXPANDED.json](curriculum/QUESTION_BANK_EXPANDED.json) | VERIFIED |
 | [curriculum/QUESTION_TYPE_BLUEPRINT.json](curriculum/QUESTION_TYPE_BLUEPRINT.json) | VERIFIED |
 | [curriculum/TEST_GENERATION_PLAN.md](curriculum/TEST_GENERATION_PLAN.md) | VERIFIED |
+| [data/mock_exams/n2_mock_01.json](data/mock_exams/n2_mock_01.json) | QA_PENDING |
 | [deliverables/phase3.5/00_BAT_DAU_O_DAY.pdf](deliverables/phase3.5/00_BAT_DAU_O_DAY.pdf) | VERIFIED |
 | [deliverables/phase3.5/01_NGU_PHAP_N4.pdf](deliverables/phase3.5/01_NGU_PHAP_N4.pdf) | VERIFIED |
 | [deliverables/phase3.5/02_MEO_NGHE.pdf](deliverables/phase3.5/02_MEO_NGHE.pdf) | VERIFIED |
@@ -151,6 +152,7 @@ Snapshot 2026-10-15. VERIFIED is scoped verification, not JLPT certification. Hi
 | [docs/widgets/jlpt_exam_catalog_ncr.html](docs/widgets/jlpt_exam_catalog_ncr.html) | QA_PENDING |
 | [docs/widgets/listening_room.html](docs/widgets/listening_room.html) | QA_PENDING |
 | [docs/widgets/listening_room_ncr.html](docs/widgets/listening_room_ncr.html) | QA_PENDING |
+| [docs/widgets/mock_exam_bank.js](docs/widgets/mock_exam_bank.js) | QA_PENDING |
 | [docs/widgets/practice_bank.js](docs/widgets/practice_bank.js) | QA_PENDING |
 | [docs/widgets/practice_engine.html](docs/widgets/practice_engine.html) | QA_PENDING |
 | [docs/widgets/practice_engine_ncr.html](docs/widgets/practice_engine_ncr.html) | QA_PENDING |
@@ -275,6 +277,7 @@ Snapshot 2026-10-15. VERIFIED is scoped verification, not JLPT certification. Hi
 | [scripts/curriculum/bank_data/n3_data.py](scripts/curriculum/bank_data/n3_data.py) | QA_PENDING |
 | [scripts/curriculum/bank_data/n3_reading_listening.py](scripts/curriculum/bank_data/n3_reading_listening.py) | QA_PENDING |
 | [scripts/curriculum/build_expanded_bank.py](scripts/curriculum/build_expanded_bank.py) | VERIFIED |
+| [scripts/curriculum/build_mock_system.py](scripts/curriculum/build_mock_system.py) | QA_PENDING |
 | [scripts/curriculum/build_practice_sets.py](scripts/curriculum/build_practice_sets.py) | VERIFIED |
 | [scripts/curriculum/build_provenance_manifest.py](scripts/curriculum/build_provenance_manifest.py) | VERIFIED |
 | [scripts/curriculum/content_fingerprint.py](scripts/curriculum/content_fingerprint.py) | VERIFIED |
