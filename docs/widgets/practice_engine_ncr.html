@@ -1365,18 +1365,64 @@ window.addEventListener('DOMContentLoaded', () => {
   applyUrlParameters();
 });
 
-function showParamBadge(infoList) {
+function showParamBadge(paramEntries) {
   const badge = document.getElementById('param-config-badge');
   if (!badge) return;
-  badge.innerHTML = `
-    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
-      <div>
-        <span style="font-weight:700; color:#1e40af;">&#9881;&#65039; C&#7844;U H&#204;NH LI&#202;N K&#7870;T &#272;&#195; &#193;P D&#7908;NG:</span>
-        <span style="margin-left:6px; color:#334155;">${infoList.join(' &#183; ')}</span>
-      </div>
-      <button type="button" onclick="document.getElementById('param-config-badge').style.display='none'" style="background:none; border:none; color:#64748b; font-weight:700; cursor:pointer; font-size:1.1rem; padding:0 4px; line-height:1;" title="&#272;&#243;ng th&#244;ng b&#225;o">&#10005;</button>
-    </div>
-  `;
+
+  // Clear existing content safely without innerHTML
+  badge.textContent = '';
+
+  const wrap = document.createElement('div');
+  wrap.style.cssText = 'display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;';
+
+  const contentBox = document.createElement('div');
+
+  const titleSpan = document.createElement('span');
+  titleSpan.style.cssText = 'font-weight:700; color:#1e40af;';
+  titleSpan.textContent = '&#9881;&#65039; C&#7844;U H&#204;NH LI&#202;N K&#7870;T &#272;&#195; &#193;P D&#7908;NG:';
+  contentBox.appendChild(titleSpan);
+
+  const listSpan = document.createElement('span');
+  listSpan.style.cssText = 'margin-left:6px; color:#334155;';
+
+  paramEntries.forEach((item, idx) => {
+    if (idx > 0) {
+      listSpan.appendChild(document.createTextNode(' &#183; '));
+    }
+
+    const itemSpan = document.createElement('span');
+
+    if (item.label) {
+      const labelSpan = document.createElement('span');
+      labelSpan.textContent = item.label + ': ';
+      itemSpan.appendChild(labelSpan);
+    }
+
+    const valElem = document.createElement(item.isWarning ? 'span' : 'strong');
+    if (item.isWarning) {
+      valElem.style.cssText = 'color:#b91c1c; font-weight:600;';
+    }
+    // SECURE: textContent prevents HTML/script injection
+    valElem.textContent = String(item.value || '');
+    itemSpan.appendChild(valElem);
+
+    listSpan.appendChild(itemSpan);
+  });
+
+  contentBox.appendChild(listSpan);
+  wrap.appendChild(contentBox);
+
+  const closeBtn = document.createElement('button');
+  closeBtn.type = 'button';
+  closeBtn.style.cssText = 'background:none; border:none; color:#64748b; font-weight:700; cursor:pointer; font-size:1.1rem; padding:0 4px; line-height:1;';
+  closeBtn.title = '&#272;&#243;ng th&#244;ng b&#225;o';
+  closeBtn.textContent = '&#10005;';
+  closeBtn.onclick = () => {
+    badge.style.display = 'none';
+  };
+  wrap.appendChild(closeBtn);
+
+  badge.appendChild(wrap);
   badge.style.display = 'block';
 }
 
@@ -1402,11 +1448,12 @@ function highlightSkillCardsInModeB(skill) {
 
 function launchMockExamSafely(mockId) {
   stopActiveTimer();
-  const upperMock = (mockId || '').toUpperCase();
+  const cleanId = String(mockId || '').trim().slice(0, 50);
+  const upperMock = cleanId.toUpperCase();
   const availableMocks = ['N2-MOCK-01', 'N3-MOCK-01'];
 
   if (!availableMocks.includes(upperMock)) {
-    alert(`&#272;&#7873; thi th&#7917; ${upperMock || mockId} hi&#7879;n &#273;ang trong giai &#273;o&#7841;n ho&#224;n thi&#7879;n n&#7897;i dung (IN DEVELOPMENT). B&#7841;n vui l&#242;ng ch&#7885;n &#273;&#7873; N2-MOCK-01 ho&#7863;c N3-MOCK-01.`);
+    alert(`&#272;&#7873; thi th&#7917; ${cleanId} hi&#7879;n &#273;ang trong giai &#273;o&#7841;n ho&#224;n thi&#7879;n n&#7897;i dung (IN DEVELOPMENT). B&#7841;n vui l&#242;ng ch&#7885;n &#273;&#7873; N2-MOCK-01 ho&#7863;c N3-MOCK-01.`);
     switchMode('mode-mock');
     return false;
   }
@@ -1443,21 +1490,22 @@ function applyUrlParameters() {
     const params = new URLSearchParams(window.location.search);
     if (!params.toString()) return;
 
-    let appliedInfo = [];
+    const appliedEntries = [];
 
     // 1. Mock param (mock / mockId)
     const qMock = params.get('mock') || params.get('mockId');
     if (qMock) {
-      const upperMock = qMock.toUpperCase();
+      const cleanMock = String(qMock).trim().slice(0, 50);
+      const upperMock = cleanMock.toUpperCase();
       if (['N2-MOCK-01', 'N3-MOCK-01'].includes(upperMock)) {
-        appliedInfo.push(`Kh&#7903;i ch&#7841;y tr&#7921;c ti&#7871;p: <strong>${upperMock}</strong>`);
-        showParamBadge(appliedInfo);
+        appliedEntries.push({ label: 'Kh&#7903;i ch&#7841;y tr&#7921;c ti&#7871;p', value: upperMock });
+        showParamBadge(appliedEntries);
         launchMockExamSafely(upperMock);
         return;
       } else {
-        appliedInfo.push(`&#272;&#7873; thi: <strong>${upperMock}</strong> (&#272;ang bi&#234;n so&#7841;n)`);
-        showParamBadge(appliedInfo);
-        alert(`&#272;&#7873; thi th&#7917; ${upperMock} hi&#7879;n &#273;ang trong giai &#273;o&#7841;n ho&#224;n thi&#7879;n n&#7897;i dung (IN DEVELOPMENT). B&#7841;n vui l&#242;ng ch&#7885;n &#273;&#7873; N2-MOCK-01 ho&#7863;c N3-MOCK-01.`);
+        appliedEntries.push({ label: '&#272;&#7873; thi', value: `${cleanMock} (&#272;ang bi&#234;n so&#7841;n)`, isWarning: true });
+        showParamBadge(appliedEntries);
+        alert(`&#272;&#7873; thi th&#7917; ${cleanMock} hi&#7879;n &#273;ang trong giai &#273;o&#7841;n ho&#224;n thi&#7879;n n&#7897;i dung (IN DEVELOPMENT). B&#7841;n vui l&#242;ng ch&#7885;n &#273;&#7873; N2-MOCK-01 ho&#7863;c N3-MOCK-01.`);
         switchMode('mode-mock');
         return;
       }
@@ -1467,28 +1515,33 @@ function applyUrlParameters() {
     const qMode = params.get('mode');
     const validModes = ['mode-a', 'mode-b', 'mode-c', 'mode-d', 'mode-e', 'mode-f', 'mode-mock', 'mock'];
     let targetMode = 'mode-a';
-    if (qMode && validModes.includes(qMode.toLowerCase())) {
-      targetMode = (qMode.toLowerCase() === 'mock') ? 'mode-mock' : qMode.toLowerCase();
-      const modeNames = {
-        'mode-a': 'C&#224;y li&#234;n t&#7909;c',
-        'mode-b': 'Luy&#7879;n theo d&#7841;ng',
-        'mode-c': '&#272;&#7873; c&#243; m&#227; s&#7889;',
-        'mode-d': 'Luy&#7879;n t&#237;nh gi&#7901;',
-        'mode-e': '&#212;n c&#226;u sai',
-        'mode-f': 'Nh&#7853;t k&#253; h&#7885;c t&#7853;p',
-        'mode-mock': '&#272;&#7873; ph&#226;n m&#244;n N2/N3'
-      };
-      appliedInfo.push(`Ch&#7871; &#273;&#7897;: <strong>${modeNames[targetMode] || targetMode}</strong>`);
+    if (qMode) {
+      const cleanMode = String(qMode).trim().toLowerCase().slice(0, 20);
+      if (validModes.includes(cleanMode)) {
+        targetMode = (cleanMode === 'mock') ? 'mode-mock' : cleanMode;
+        const modeNames = {
+          'mode-a': 'C&#224;y li&#234;n t&#7909;c',
+          'mode-b': 'Luy&#7879;n theo d&#7841;ng',
+          'mode-c': '&#272;&#7873; c&#243; m&#227; s&#7889;',
+          'mode-d': 'Luy&#7879;n t&#237;nh gi&#7901;',
+          'mode-e': '&#212;n c&#226;u sai',
+          'mode-f': 'Nh&#7853;t k&#253; h&#7885;c t&#7853;p',
+          'mode-mock': '&#272;&#7873; ph&#226;n m&#244;n N2/N3'
+        };
+        appliedEntries.push({ label: 'Ch&#7871; &#273;&#7897;', value: modeNames[targetMode] || targetMode });
+      } else {
+        appliedEntries.push({ label: 'C&#7843;nh b&#225;o', value: `Ch&#7871; &#273;&#7897; kh&#244;ng h&#7907;p l&#7879; (${cleanMode})`, isWarning: true });
+      }
     }
 
     // 3. Level param
     const qLevel = params.get('level');
-    let effectiveLevel = null;
+    let effectiveLevel = 'N2';
     if (qLevel) {
-      const upperLvl = qLevel.toUpperCase();
+      const cleanLevel = String(qLevel).trim().slice(0, 20);
+      const upperLvl = cleanLevel.toUpperCase();
       if (['N2', 'N3', 'N4', 'MIXED', 'ALL'].includes(upperLvl)) {
         effectiveLevel = upperLvl;
-        appliedInfo.push(`C&#7845;p &#273;&#7897;: <strong>${upperLvl}</strong>`);
 
         const aLvl = document.getElementById('a-level');
         if (aLvl) aLvl.value = upperLvl;
@@ -1500,73 +1553,158 @@ function applyUrlParameters() {
         if (dLvl) {
           if (['N2', 'N3', 'MIXED'].includes(upperLvl)) {
             dLvl.value = upperLvl;
+            appliedEntries.push({ label: 'C&#7845;p &#273;&#7897;', value: upperLvl });
           } else if (targetMode === 'mode-d') {
-            appliedInfo.push(`&#9888;&#65039; C&#7845;p &#273;&#7897; ${upperLvl} kh&#244;ng h&#7895; tr&#7907; trong Luy&#7879;n t&#237;nh gi&#7901; (ch&#7881; h&#7895; tr&#7907; N2, N3, MIXED). &#272;&#227; ch&#7885;n N2.`);
+            appliedEntries.push({
+              label: 'C&#7843;nh b&#225;o',
+              value: `C&#7845;p &#273;&#7897; ${upperLvl} kh&#244;ng h&#7895; tr&#7907; trong Luy&#7879;n t&#237;nh gi&#7901; (ch&#7881; h&#7895; tr&#7907; N2, N3, MIXED). &#272;&#227; ch&#7885;n N2.`,
+              isWarning: true
+            });
             dLvl.value = 'N2';
             effectiveLevel = 'N2';
+          } else {
+            appliedEntries.push({ label: 'C&#7845;p &#273;&#7897;', value: upperLvl });
           }
+        } else {
+          appliedEntries.push({ label: 'C&#7845;p &#273;&#7897;', value: upperLvl });
         }
       } else {
-        appliedInfo.push(`&#9888;&#65039; C&#7845;p &#273;&#7897; kh&#244;ng h&#7907;p l&#7879; (${qLevel})`);
+        appliedEntries.push({ label: 'C&#7843;nh b&#225;o', value: `C&#7845;p &#273;&#7897; kh&#244;ng h&#7907;p l&#7879; (${cleanLevel})`, isWarning: true });
+      }
+    } else {
+      if (targetMode === 'mode-d') {
+        const dLvl = document.getElementById('d-level');
+        if (dLvl) dLvl.value = 'N2';
       }
     }
 
-    // 4. Duration param (minutes)
-    const qDur = params.get('duration');
-    let durVal = null;
-    if (qDur) {
-      const durInt = parseInt(qDur, 10);
-      if ([15, 30, 35, 60].includes(durInt)) {
-        durVal = durInt;
-        appliedInfo.push(`Th&#7901;i gian: <strong>${durInt} ph&#250;t</strong>`);
-        const dDur = document.getElementById('d-duration');
-        if (dDur) dDur.value = String(durInt);
-      } else {
-        appliedInfo.push(`&#9888;&#65039; Th&#7901;i gian kh&#244;ng h&#7907;p l&#7879; (${qDur} ph&#250;t)`);
-      }
-    }
+    // 4. Duration & Count validation (Single Validated Session Configuration)
+    const rawDur = params.get('duration');
+    const rawCount = params.get('count');
+    const dDur = document.getElementById('d-duration');
 
-    // 5. Count param (number of questions)
-    const qCount = params.get('count');
-    if (qCount) {
-      const countInt = parseInt(qCount, 10);
-      if ([10, 15, 20, 30, 50, 100].includes(countInt)) {
-        appliedInfo.push(`S&#7889; l&#432;&#7907;ng: <strong>${countInt} c&#226;u</strong>`);
+    if (targetMode === 'mode-d') {
+      const durInt = rawDur !== null ? parseInt(rawDur, 10) : null;
+      const countInt = rawCount !== null ? parseInt(rawCount, 10) : null;
+      const validDurations = [15, 30, 35, 60];
+      const validCounts = [15, 30, 50];
 
-        const aCnt = document.getElementById('a-count');
-        if (aCnt && ['10', '20', '30', '50', '100'].includes(String(countInt))) aCnt.value = String(countInt);
+      if (durInt !== null && countInt !== null) {
+        let isCompatible = false;
+        if (durInt === 15 && countInt === 15) isCompatible = true;
+        else if (durInt === 30 && countInt === 30) isCompatible = true;
+        else if (durInt === 35 && countInt === 30) isCompatible = true;
+        else if (durInt === 60 && countInt === 50) isCompatible = true;
 
-        const cLen = document.getElementById('c-length');
-        if (cLen && ['15', '30', '50'].includes(String(countInt))) cLen.value = String(countInt);
-
-        // If in Mode D and duration was not explicitly provided in URL
-        if (!durVal) {
-          const dDur = document.getElementById('d-duration');
-          if (dDur) {
-            if (countInt === 15) dDur.value = '15';
-            else if (countInt === 30) dDur.value = (effectiveLevel === 'N2') ? '35' : '30';
-            else if (countInt === 50) dDur.value = '60';
+        if (isCompatible) {
+          if (dDur) dDur.value = String(durInt);
+          appliedEntries.push({ label: 'Th&#7901;i gian', value: `${durInt} ph&#250;t` });
+          appliedEntries.push({ label: 'S&#7889; l&#432;&#7907;ng', value: `${countInt} c&#226;u` });
+        } else {
+          if (validDurations.includes(durInt)) {
+            const expectedCount = (durInt === 15) ? 15 : ((durInt === 60) ? 50 : 30);
+            if (dDur) dDur.value = String(durInt);
+            appliedEntries.push({ label: 'Th&#7901;i gian', value: `${durInt} ph&#250;t` });
+            appliedEntries.push({
+              label: 'C&#7843;nh b&#225;o c&#7845;u h&#236;nh',
+              value: `S&#7889; l&#432;&#7907;ng ${countInt} c&#226;u kh&#244;ng t&#432;&#417;ng th&#237;ch v&#7899;i th&#7901;i l&#432;&#7907;ng ${durInt} ph&#250;t. &#272;&#227; &#225;p d&#7909;ng g&#243;i chu&#7849;n: ${expectedCount} c&#226;u / ${durInt} ph&#250;t.`,
+              isWarning: true
+            });
+            appliedEntries.push({ label: 'S&#7889; l&#432;&#7907;ng th&#7921;c t&#7871;', value: `${expectedCount} c&#226;u` });
+          } else if (validCounts.includes(countInt)) {
+            const mappedDur = (countInt === 15) ? 15 : ((countInt === 50) ? 60 : (effectiveLevel === 'N2' ? 35 : 30));
+            if (dDur) dDur.value = String(mappedDur);
+            appliedEntries.push({
+              label: 'C&#7843;nh b&#225;o c&#7845;u h&#236;nh',
+              value: `Th&#7901;i l&#432;&#7907;ng ${String(rawDur).slice(0, 10)} ph&#250;t kh&#244;ng h&#7907;p l&#7879;. &#272;&#227; &#273;i&#7873;u ch&#7881;nh th&#224;nh ${mappedDur} ph&#250;t cho ${countInt} c&#226;u.`,
+              isWarning: true
+            });
+            appliedEntries.push({ label: 'Th&#7901;i gian th&#7921;c t&#7871;', value: `${mappedDur} ph&#250;t` });
+            appliedEntries.push({ label: 'S&#7889; l&#432;&#7907;ng', value: `${countInt} c&#226;u` });
+          } else {
+            const defaultDur = (effectiveLevel === 'MIXED') ? 60 : (effectiveLevel === 'N2' ? 35 : 30);
+            const defaultCount = (effectiveLevel === 'MIXED') ? 50 : 30;
+            if (dDur) dDur.value = String(defaultDur);
+            appliedEntries.push({
+              label: 'C&#7843;nh b&#225;o c&#7845;u h&#236;nh',
+              value: `C&#7845;u h&#236;nh ${String(rawCount).slice(0, 10)} c&#226;u / ${String(rawDur).slice(0, 10)} ph&#250;t kh&#244;ng h&#7907;p l&#7879;. &#272;&#227; &#225;p d&#7909;ng g&#243;i m&#7863;c &#273;&#7883;nh ${effectiveLevel}: ${defaultCount} c&#226;u / ${defaultDur} ph&#250;t.`,
+              isWarning: true
+            });
           }
         }
-      } else {
-        appliedInfo.push(`&#9888;&#65039; S&#7889; l&#432;&#7907;ng c&#226;u kh&#244;ng h&#7907;p l&#7879; (${qCount} c&#226;u)`);
+      } else if (durInt !== null) {
+        if (validDurations.includes(durInt)) {
+          if (dDur) dDur.value = String(durInt);
+          appliedEntries.push({ label: 'Th&#7901;i gian', value: `${durInt} ph&#250;t` });
+          const expCount = (durInt === 15) ? 15 : ((durInt === 60) ? 50 : 30);
+          appliedEntries.push({ label: 'S&#7889; l&#432;&#7907;ng', value: `${expCount} c&#226;u` });
+        } else {
+          appliedEntries.push({
+            label: 'C&#7843;nh b&#225;o',
+            value: `Th&#7901;i l&#432;&#7907;ng kh&#244;ng h&#7907;p l&#7879; (${String(rawDur).slice(0, 15)} ph&#250;t). D&#249;ng g&#243;i ti&#234;u chu&#7849;n.`,
+            isWarning: true
+          });
+        }
+      } else if (countInt !== null) {
+        if (validCounts.includes(countInt)) {
+          let mappedDur = 30;
+          if (countInt === 15) mappedDur = 15;
+          else if (countInt === 50) mappedDur = 60;
+          else if (countInt === 30) mappedDur = (effectiveLevel === 'N2') ? 35 : 30;
+
+          if (dDur) dDur.value = String(mappedDur);
+          appliedEntries.push({ label: 'S&#7889; l&#432;&#7907;ng', value: `${countInt} c&#226;u` });
+          appliedEntries.push({ label: 'Th&#7901;i gian', value: `${mappedDur} ph&#250;t` });
+        } else {
+          appliedEntries.push({
+            label: 'C&#7843;nh b&#225;o',
+            value: `S&#7889; l&#432;&#7907;ng c&#226;u kh&#244;ng h&#7907;p l&#7879; (${String(rawCount).slice(0, 15)} c&#226;u trong ch&#7871; &#273;&#7897; t&#237;nh gi&#7901;).`,
+            isWarning: true
+          });
+        }
+      }
+    } else {
+      if (rawDur !== null) {
+        const durInt = parseInt(rawDur, 10);
+        if ([15, 30, 35, 60].includes(durInt)) {
+          appliedEntries.push({ label: 'Th&#7901;i gian', value: `${durInt} ph&#250;t` });
+          if (dDur) dDur.value = String(durInt);
+        } else {
+          appliedEntries.push({ label: 'C&#7843;nh b&#225;o', value: `Th&#7901;i gian kh&#244;ng h&#7907;p l&#7879; (${String(rawDur).slice(0, 15)} ph&#250;t)`, isWarning: true });
+        }
+      }
+
+      if (rawCount !== null) {
+        const countInt = parseInt(rawCount, 10);
+        if ([10, 15, 20, 30, 50, 100].includes(countInt)) {
+          appliedEntries.push({ label: 'S&#7889; l&#432;&#7907;ng', value: `${countInt} c&#226;u` });
+
+          const aCnt = document.getElementById('a-count');
+          if (aCnt && ['10', '20', '30', '50', '100'].includes(String(countInt))) aCnt.value = String(countInt);
+
+          const cLen = document.getElementById('c-length');
+          if (cLen && ['15', '30', '50'].includes(String(countInt))) cLen.value = String(countInt);
+        } else {
+          appliedEntries.push({ label: 'C&#7843;nh b&#225;o', value: `S&#7889; l&#432;&#7907;ng c&#226;u kh&#244;ng h&#7907;p l&#7879; (${String(rawCount).slice(0, 15)} c&#226;u)`, isWarning: true });
+        }
       }
     }
 
-    // 6. Skill param
+    // 5. Skill param
     const qSkill = params.get('skill');
     if (qSkill) {
+      const cleanSkill = String(qSkill).trim().slice(0, 30);
       const validSkills = ['Vocabulary', 'Grammar', 'Reading', 'ALL'];
-      const matchedSkill = validSkills.find(s => s.toLowerCase() === qSkill.toLowerCase());
+      const matchedSkill = validSkills.find(s => s.toLowerCase() === cleanSkill.toLowerCase());
       if (matchedSkill) {
-        appliedInfo.push(`K&#7929; n&#259;ng: <strong>${matchedSkill}</strong>`);
+        appliedEntries.push({ label: 'K&#7929; n&#259;ng', value: matchedSkill });
         const aSkill = document.getElementById('a-skill');
         if (aSkill) aSkill.value = matchedSkill;
         if (targetMode === 'mode-b') {
           highlightSkillCardsInModeB(matchedSkill);
         }
       } else {
-        appliedInfo.push(`&#9888;&#65039; K&#7929; n&#259;ng kh&#244;ng h&#7907;p l&#7879; (${qSkill})`);
+        appliedEntries.push({ label: 'C&#7843;nh b&#225;o', value: `K&#7929; n&#259;ng kh&#244;ng h&#7907;p l&#7879; (${cleanSkill})`, isWarning: true });
       }
     }
 
@@ -1574,8 +1712,8 @@ function applyUrlParameters() {
     switchMode(targetMode);
 
     // Show applied parameters badge if any parameters were provided
-    if (appliedInfo.length > 0) {
-      showParamBadge(appliedInfo);
+    if (appliedEntries.length > 0) {
+      showParamBadge(appliedEntries);
     }
   } catch (e) {
     console.error('Error applying URL params:', e);
@@ -1731,7 +1869,7 @@ function showUnseenModal(msgHtml, buttons) {
     const btn = document.createElement('button');
     btn.type = 'button';
     btn.className = b.class || 'btn-secondary';
-    btn.innerHTML = b.text;
+    btn.textContent = b.text;
     btn.onclick = b.onClick;
     actionsBox.appendChild(btn);
   });
@@ -2172,6 +2310,12 @@ function startTimedSession() {
   const level = levelSelect ? levelSelect.value : 'N2';
   const durMin = parseInt(durSelect ? durSelect.value : '30', 10);
 
+  // Validate supported level in Mode D
+  if (!['N2', 'N3', 'MIXED'].includes(level)) {
+    alert(`C&#7845;p &#273;&#7897; ${level} kh&#244;ng &#273;&#432;&#7907;c h&#7895; tr&#7907; trong ph&#242;ng thi t&#237;nh gi&#7901;. Vui l&#242;ng ch&#7885;n N2, N3 ho&#7863;c MIXED.`);
+    return;
+  }
+
   let qCount = 30;
   if (durMin === 15) qCount = 15;
   else if (durMin === 30 || durMin === 35) qCount = 30;
@@ -2195,6 +2339,20 @@ function startTimedSession() {
 
   pool.sort(() => Math.random() - 0.5);
   const selected = pool.slice(0, qCount);
+
+  // Strict session-start validation
+  if (level === 'N2' && !selected.every(q => q.level === 'N2')) {
+    alert('L&#7895;i b&#7843;o to&#224;n c&#7845;p &#273;&#7897;: Ph&#225;t hi&#7879;n c&#226;u h&#7887;i ngo&#224;i N2 trong &#273;&#7873; thi N2.');
+    return;
+  }
+  if (level === 'N3' && !selected.every(q => q.level === 'N3')) {
+    alert('L&#7895;i b&#7843;o to&#224;n c&#7845;p &#273;&#7897;: Ph&#225;t hi&#7879;n c&#226;u h&#7887;i ngo&#224;i N3 trong &#273;&#7873; thi N3.');
+    return;
+  }
+  if (level === 'MIXED' && !selected.every(q => q.level === 'N2' || q.level === 'N3')) {
+    alert('L&#7895;i b&#7843;o to&#224;n c&#7845;p &#273;&#7897;: Ph&#225;t hi&#7879;n c&#226;u h&#7887;i ngo&#224;i N2/N3 trong &#273;&#7873; thi Marathon.');
+    return;
+  }
 
   const totalSec = durMin * 60;
   const now = Date.now();
@@ -2577,30 +2735,80 @@ function renderSessionHistory() {
   const sessions = getStoredSessions();
   if (!tbody) return;
 
+  tbody.textContent = '';
+
   if (sessions.length === 0) {
-    tbody.innerHTML = '<tr><td colspan="6" style="text-align:center; color:#94a3b8; padding:20px;">Ch&#432;a c&#243; phi&#234;n l&#224;m b&#224;i n&#224;o &#273;&#432;&#7907;c ghi nh&#7853;n. H&#227;y ho&#224;n th&#224;nh &#237;t nh&#7845;t m&#7897;t phi&#234;n luy&#7879;n t&#7853;p!</td></tr>';
+    const tr = document.createElement('tr');
+    const td = document.createElement('td');
+    td.colSpan = 6;
+    td.style.cssText = 'text-align:center; color:#94a3b8; padding:20px;';
+    td.textContent = 'Ch&#432;a c&#243; phi&#234;n l&#224;m b&#224;i n&#224;o &#273;&#432;&#7907;c ghi nh&#7853;n. H&#227;y ho&#224;n th&#224;nh &#237;t nh&#7845;t m&#7897;t phi&#234;n luy&#7879;n t&#7853;p!';
+    tr.appendChild(td);
+    tbody.appendChild(tr);
     return;
   }
 
-  tbody.innerHTML = '';
   sessions.forEach(s => {
     const tr = document.createElement('tr');
     const durM = Math.floor((s.durationSec || 0) / 60);
     const durS = (s.durationSec || 0) % 60;
     const isMock = s.mode === 'MOCK' || s.mockId;
-    const modeBadge = isMock 
-      ? `<span class="q-tag" style="background:#2563eb; color:#fff; font-weight:700;">${s.mockId || 'MOCK'}</span>` 
-      : `<span class="q-tag tag-${(s.level || 'N2').toLowerCase()}">${s.level || 'N2'}</span>`;
-    const titleSub = s.title ? `<div style="font-size:0.75rem; color:#64748b; margin-top:2px;">${s.title}</div>` : '';
 
-    tr.innerHTML = `
-      <td>${s.dateStr || new Date(s.timestamp).toLocaleDateString('vi-VN')}</td>
-      <td><code>${s.sessionId || 'N/A'}</code></td>
-      <td>${modeBadge} ${s.modeName || s.mode} ${titleSub}</td>
-      <td><strong>${s.scoreCorrect}</strong> / ${s.totalQuestions}</td>
-      <td style="font-weight:700; color:${s.accuracyPct >= 80 ? '#15803d' : (s.accuracyPct >= 60 ? '#b45309' : '#b91c1c')};">${s.accuracyPct}%</td>
-      <td>${durM}m ${durS}s</td>
-    `;
+    // 1. Date
+    const tdDate = document.createElement('td');
+    tdDate.textContent = s.dateStr || (s.timestamp ? new Date(s.timestamp).toLocaleDateString('vi-VN') : 'N/A');
+    tr.appendChild(tdDate);
+
+    // 2. Session ID
+    const tdId = document.createElement('td');
+    const codeId = document.createElement('code');
+    codeId.textContent = s.sessionId || 'N/A';
+    tdId.appendChild(codeId);
+    tr.appendChild(tdId);
+
+    // 3. Mode & Title
+    const tdMode = document.createElement('td');
+    const badgeSpan = document.createElement('span');
+    badgeSpan.className = 'q-tag';
+    if (isMock) {
+      badgeSpan.style.cssText = 'background:#2563eb; color:#fff; font-weight:700;';
+      badgeSpan.textContent = s.mockId || 'MOCK';
+    } else {
+      badgeSpan.classList.add(`tag-${(s.level || 'N2').toLowerCase()}`);
+      badgeSpan.textContent = s.level || 'N2';
+    }
+    tdMode.appendChild(badgeSpan);
+    tdMode.appendChild(document.createTextNode(' ' + (s.modeName || s.mode || '') + ' '));
+
+    if (s.title) {
+      const titleDiv = document.createElement('div');
+      titleDiv.style.cssText = 'font-size:0.75rem; color:#64748b; margin-top:2px;';
+      titleDiv.textContent = s.title;
+      tdMode.appendChild(titleDiv);
+    }
+    tr.appendChild(tdMode);
+
+    // 4. Raw Score
+    const tdScore = document.createElement('td');
+    const strongScore = document.createElement('strong');
+    strongScore.textContent = String(s.scoreCorrect ?? 0);
+    tdScore.appendChild(strongScore);
+    tdScore.appendChild(document.createTextNode(` / ${s.totalQuestions ?? 0}`));
+    tr.appendChild(tdScore);
+
+    // 5. Accuracy
+    const tdAcc = document.createElement('td');
+    const acc = s.accuracyPct ?? 0;
+    tdAcc.style.fontWeight = '700';
+    tdAcc.style.color = acc >= 80 ? '#15803d' : (acc >= 60 ? '#b45309' : '#b91c1c');
+    tdAcc.textContent = `${acc}%`;
+    tr.appendChild(tdAcc);
+
+    // 6. Duration
+    const tdDur = document.createElement('td');
+    tdDur.textContent = `${durM}m ${durS}s`;
+    tr.appendChild(tdDur);
+
     tbody.appendChild(tr);
   });
 }

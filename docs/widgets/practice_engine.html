@@ -1365,18 +1365,64 @@ window.addEventListener('DOMContentLoaded', () => {
   applyUrlParameters();
 });
 
-function showParamBadge(infoList) {
+function showParamBadge(paramEntries) {
   const badge = document.getElementById('param-config-badge');
   if (!badge) return;
-  badge.innerHTML = `
-    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
-      <div>
-        <span style="font-weight:700; color:#1e40af;">⚙️ CẤU HÌNH LIÊN KẾT ĐÃ ÁP DỤNG:</span>
-        <span style="margin-left:6px; color:#334155;">${infoList.join(' · ')}</span>
-      </div>
-      <button type="button" onclick="document.getElementById('param-config-badge').style.display='none'" style="background:none; border:none; color:#64748b; font-weight:700; cursor:pointer; font-size:1.1rem; padding:0 4px; line-height:1;" title="Đóng thông báo">✕</button>
-    </div>
-  `;
+
+  // Clear existing content safely without innerHTML
+  badge.textContent = '';
+
+  const wrap = document.createElement('div');
+  wrap.style.cssText = 'display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;';
+
+  const contentBox = document.createElement('div');
+
+  const titleSpan = document.createElement('span');
+  titleSpan.style.cssText = 'font-weight:700; color:#1e40af;';
+  titleSpan.textContent = '⚙️ CẤU HÌNH LIÊN KẾT ĐÃ ÁP DỤNG:';
+  contentBox.appendChild(titleSpan);
+
+  const listSpan = document.createElement('span');
+  listSpan.style.cssText = 'margin-left:6px; color:#334155;';
+
+  paramEntries.forEach((item, idx) => {
+    if (idx > 0) {
+      listSpan.appendChild(document.createTextNode(' · '));
+    }
+
+    const itemSpan = document.createElement('span');
+
+    if (item.label) {
+      const labelSpan = document.createElement('span');
+      labelSpan.textContent = item.label + ': ';
+      itemSpan.appendChild(labelSpan);
+    }
+
+    const valElem = document.createElement(item.isWarning ? 'span' : 'strong');
+    if (item.isWarning) {
+      valElem.style.cssText = 'color:#b91c1c; font-weight:600;';
+    }
+    // SECURE: textContent prevents HTML/script injection
+    valElem.textContent = String(item.value || '');
+    itemSpan.appendChild(valElem);
+
+    listSpan.appendChild(itemSpan);
+  });
+
+  contentBox.appendChild(listSpan);
+  wrap.appendChild(contentBox);
+
+  const closeBtn = document.createElement('button');
+  closeBtn.type = 'button';
+  closeBtn.style.cssText = 'background:none; border:none; color:#64748b; font-weight:700; cursor:pointer; font-size:1.1rem; padding:0 4px; line-height:1;';
+  closeBtn.title = 'Đóng thông báo';
+  closeBtn.textContent = '✕';
+  closeBtn.onclick = () => {
+    badge.style.display = 'none';
+  };
+  wrap.appendChild(closeBtn);
+
+  badge.appendChild(wrap);
   badge.style.display = 'block';
 }
 
@@ -1402,11 +1448,12 @@ function highlightSkillCardsInModeB(skill) {
 
 function launchMockExamSafely(mockId) {
   stopActiveTimer();
-  const upperMock = (mockId || '').toUpperCase();
+  const cleanId = String(mockId || '').trim().slice(0, 50);
+  const upperMock = cleanId.toUpperCase();
   const availableMocks = ['N2-MOCK-01', 'N3-MOCK-01'];
 
   if (!availableMocks.includes(upperMock)) {
-    alert(`Đề thi thử ${upperMock || mockId} hiện đang trong giai đoạn hoàn thiện nội dung (IN DEVELOPMENT). Bạn vui lòng chọn đề N2-MOCK-01 hoặc N3-MOCK-01.`);
+    alert(`Đề thi thử ${cleanId} hiện đang trong giai đoạn hoàn thiện nội dung (IN DEVELOPMENT). Bạn vui lòng chọn đề N2-MOCK-01 hoặc N3-MOCK-01.`);
     switchMode('mode-mock');
     return false;
   }
@@ -1443,21 +1490,22 @@ function applyUrlParameters() {
     const params = new URLSearchParams(window.location.search);
     if (!params.toString()) return;
 
-    let appliedInfo = [];
+    const appliedEntries = [];
 
     // 1. Mock param (mock / mockId)
     const qMock = params.get('mock') || params.get('mockId');
     if (qMock) {
-      const upperMock = qMock.toUpperCase();
+      const cleanMock = String(qMock).trim().slice(0, 50);
+      const upperMock = cleanMock.toUpperCase();
       if (['N2-MOCK-01', 'N3-MOCK-01'].includes(upperMock)) {
-        appliedInfo.push(`Khởi chạy trực tiếp: <strong>${upperMock}</strong>`);
-        showParamBadge(appliedInfo);
+        appliedEntries.push({ label: 'Khởi chạy trực tiếp', value: upperMock });
+        showParamBadge(appliedEntries);
         launchMockExamSafely(upperMock);
         return;
       } else {
-        appliedInfo.push(`Đề thi: <strong>${upperMock}</strong> (Đang biên soạn)`);
-        showParamBadge(appliedInfo);
-        alert(`Đề thi thử ${upperMock} hiện đang trong giai đoạn hoàn thiện nội dung (IN DEVELOPMENT). Bạn vui lòng chọn đề N2-MOCK-01 hoặc N3-MOCK-01.`);
+        appliedEntries.push({ label: 'Đề thi', value: `${cleanMock} (Đang biên soạn)`, isWarning: true });
+        showParamBadge(appliedEntries);
+        alert(`Đề thi thử ${cleanMock} hiện đang trong giai đoạn hoàn thiện nội dung (IN DEVELOPMENT). Bạn vui lòng chọn đề N2-MOCK-01 hoặc N3-MOCK-01.`);
         switchMode('mode-mock');
         return;
       }
@@ -1467,28 +1515,33 @@ function applyUrlParameters() {
     const qMode = params.get('mode');
     const validModes = ['mode-a', 'mode-b', 'mode-c', 'mode-d', 'mode-e', 'mode-f', 'mode-mock', 'mock'];
     let targetMode = 'mode-a';
-    if (qMode && validModes.includes(qMode.toLowerCase())) {
-      targetMode = (qMode.toLowerCase() === 'mock') ? 'mode-mock' : qMode.toLowerCase();
-      const modeNames = {
-        'mode-a': 'Cày liên tục',
-        'mode-b': 'Luyện theo dạng',
-        'mode-c': 'Đề có mã số',
-        'mode-d': 'Luyện tính giờ',
-        'mode-e': 'Ôn câu sai',
-        'mode-f': 'Nhật ký học tập',
-        'mode-mock': 'Đề phân môn N2/N3'
-      };
-      appliedInfo.push(`Chế độ: <strong>${modeNames[targetMode] || targetMode}</strong>`);
+    if (qMode) {
+      const cleanMode = String(qMode).trim().toLowerCase().slice(0, 20);
+      if (validModes.includes(cleanMode)) {
+        targetMode = (cleanMode === 'mock') ? 'mode-mock' : cleanMode;
+        const modeNames = {
+          'mode-a': 'Cày liên tục',
+          'mode-b': 'Luyện theo dạng',
+          'mode-c': 'Đề có mã số',
+          'mode-d': 'Luyện tính giờ',
+          'mode-e': 'Ôn câu sai',
+          'mode-f': 'Nhật ký học tập',
+          'mode-mock': 'Đề phân môn N2/N3'
+        };
+        appliedEntries.push({ label: 'Chế độ', value: modeNames[targetMode] || targetMode });
+      } else {
+        appliedEntries.push({ label: 'Cảnh báo', value: `Chế độ không hợp lệ (${cleanMode})`, isWarning: true });
+      }
     }
 
     // 3. Level param
     const qLevel = params.get('level');
-    let effectiveLevel = null;
+    let effectiveLevel = 'N2';
     if (qLevel) {
-      const upperLvl = qLevel.toUpperCase();
+      const cleanLevel = String(qLevel).trim().slice(0, 20);
+      const upperLvl = cleanLevel.toUpperCase();
       if (['N2', 'N3', 'N4', 'MIXED', 'ALL'].includes(upperLvl)) {
         effectiveLevel = upperLvl;
-        appliedInfo.push(`Cấp độ: <strong>${upperLvl}</strong>`);
 
         const aLvl = document.getElementById('a-level');
         if (aLvl) aLvl.value = upperLvl;
@@ -1500,73 +1553,158 @@ function applyUrlParameters() {
         if (dLvl) {
           if (['N2', 'N3', 'MIXED'].includes(upperLvl)) {
             dLvl.value = upperLvl;
+            appliedEntries.push({ label: 'Cấp độ', value: upperLvl });
           } else if (targetMode === 'mode-d') {
-            appliedInfo.push(`⚠️ Cấp độ ${upperLvl} không hỗ trợ trong Luyện tính giờ (chỉ hỗ trợ N2, N3, MIXED). Đã chọn N2.`);
+            appliedEntries.push({
+              label: 'Cảnh báo',
+              value: `Cấp độ ${upperLvl} không hỗ trợ trong Luyện tính giờ (chỉ hỗ trợ N2, N3, MIXED). Đã chọn N2.`,
+              isWarning: true
+            });
             dLvl.value = 'N2';
             effectiveLevel = 'N2';
+          } else {
+            appliedEntries.push({ label: 'Cấp độ', value: upperLvl });
           }
+        } else {
+          appliedEntries.push({ label: 'Cấp độ', value: upperLvl });
         }
       } else {
-        appliedInfo.push(`⚠️ Cấp độ không hợp lệ (${qLevel})`);
+        appliedEntries.push({ label: 'Cảnh báo', value: `Cấp độ không hợp lệ (${cleanLevel})`, isWarning: true });
+      }
+    } else {
+      if (targetMode === 'mode-d') {
+        const dLvl = document.getElementById('d-level');
+        if (dLvl) dLvl.value = 'N2';
       }
     }
 
-    // 4. Duration param (minutes)
-    const qDur = params.get('duration');
-    let durVal = null;
-    if (qDur) {
-      const durInt = parseInt(qDur, 10);
-      if ([15, 30, 35, 60].includes(durInt)) {
-        durVal = durInt;
-        appliedInfo.push(`Thời gian: <strong>${durInt} phút</strong>`);
-        const dDur = document.getElementById('d-duration');
-        if (dDur) dDur.value = String(durInt);
-      } else {
-        appliedInfo.push(`⚠️ Thời gian không hợp lệ (${qDur} phút)`);
-      }
-    }
+    // 4. Duration & Count validation (Single Validated Session Configuration)
+    const rawDur = params.get('duration');
+    const rawCount = params.get('count');
+    const dDur = document.getElementById('d-duration');
 
-    // 5. Count param (number of questions)
-    const qCount = params.get('count');
-    if (qCount) {
-      const countInt = parseInt(qCount, 10);
-      if ([10, 15, 20, 30, 50, 100].includes(countInt)) {
-        appliedInfo.push(`Số lượng: <strong>${countInt} câu</strong>`);
+    if (targetMode === 'mode-d') {
+      const durInt = rawDur !== null ? parseInt(rawDur, 10) : null;
+      const countInt = rawCount !== null ? parseInt(rawCount, 10) : null;
+      const validDurations = [15, 30, 35, 60];
+      const validCounts = [15, 30, 50];
 
-        const aCnt = document.getElementById('a-count');
-        if (aCnt && ['10', '20', '30', '50', '100'].includes(String(countInt))) aCnt.value = String(countInt);
+      if (durInt !== null && countInt !== null) {
+        let isCompatible = false;
+        if (durInt === 15 && countInt === 15) isCompatible = true;
+        else if (durInt === 30 && countInt === 30) isCompatible = true;
+        else if (durInt === 35 && countInt === 30) isCompatible = true;
+        else if (durInt === 60 && countInt === 50) isCompatible = true;
 
-        const cLen = document.getElementById('c-length');
-        if (cLen && ['15', '30', '50'].includes(String(countInt))) cLen.value = String(countInt);
-
-        // If in Mode D and duration was not explicitly provided in URL
-        if (!durVal) {
-          const dDur = document.getElementById('d-duration');
-          if (dDur) {
-            if (countInt === 15) dDur.value = '15';
-            else if (countInt === 30) dDur.value = (effectiveLevel === 'N2') ? '35' : '30';
-            else if (countInt === 50) dDur.value = '60';
+        if (isCompatible) {
+          if (dDur) dDur.value = String(durInt);
+          appliedEntries.push({ label: 'Thời gian', value: `${durInt} phút` });
+          appliedEntries.push({ label: 'Số lượng', value: `${countInt} câu` });
+        } else {
+          if (validDurations.includes(durInt)) {
+            const expectedCount = (durInt === 15) ? 15 : ((durInt === 60) ? 50 : 30);
+            if (dDur) dDur.value = String(durInt);
+            appliedEntries.push({ label: 'Thời gian', value: `${durInt} phút` });
+            appliedEntries.push({
+              label: 'Cảnh báo cấu hình',
+              value: `Số lượng ${countInt} câu không tương thích với thời lượng ${durInt} phút. Đã áp dụng gói chuẩn: ${expectedCount} câu / ${durInt} phút.`,
+              isWarning: true
+            });
+            appliedEntries.push({ label: 'Số lượng thực tế', value: `${expectedCount} câu` });
+          } else if (validCounts.includes(countInt)) {
+            const mappedDur = (countInt === 15) ? 15 : ((countInt === 50) ? 60 : (effectiveLevel === 'N2' ? 35 : 30));
+            if (dDur) dDur.value = String(mappedDur);
+            appliedEntries.push({
+              label: 'Cảnh báo cấu hình',
+              value: `Thời lượng ${String(rawDur).slice(0, 10)} phút không hợp lệ. Đã điều chỉnh thành ${mappedDur} phút cho ${countInt} câu.`,
+              isWarning: true
+            });
+            appliedEntries.push({ label: 'Thời gian thực tế', value: `${mappedDur} phút` });
+            appliedEntries.push({ label: 'Số lượng', value: `${countInt} câu` });
+          } else {
+            const defaultDur = (effectiveLevel === 'MIXED') ? 60 : (effectiveLevel === 'N2' ? 35 : 30);
+            const defaultCount = (effectiveLevel === 'MIXED') ? 50 : 30;
+            if (dDur) dDur.value = String(defaultDur);
+            appliedEntries.push({
+              label: 'Cảnh báo cấu hình',
+              value: `Cấu hình ${String(rawCount).slice(0, 10)} câu / ${String(rawDur).slice(0, 10)} phút không hợp lệ. Đã áp dụng gói mặc định ${effectiveLevel}: ${defaultCount} câu / ${defaultDur} phút.`,
+              isWarning: true
+            });
           }
         }
-      } else {
-        appliedInfo.push(`⚠️ Số lượng câu không hợp lệ (${qCount} câu)`);
+      } else if (durInt !== null) {
+        if (validDurations.includes(durInt)) {
+          if (dDur) dDur.value = String(durInt);
+          appliedEntries.push({ label: 'Thời gian', value: `${durInt} phút` });
+          const expCount = (durInt === 15) ? 15 : ((durInt === 60) ? 50 : 30);
+          appliedEntries.push({ label: 'Số lượng', value: `${expCount} câu` });
+        } else {
+          appliedEntries.push({
+            label: 'Cảnh báo',
+            value: `Thời lượng không hợp lệ (${String(rawDur).slice(0, 15)} phút). Dùng gói tiêu chuẩn.`,
+            isWarning: true
+          });
+        }
+      } else if (countInt !== null) {
+        if (validCounts.includes(countInt)) {
+          let mappedDur = 30;
+          if (countInt === 15) mappedDur = 15;
+          else if (countInt === 50) mappedDur = 60;
+          else if (countInt === 30) mappedDur = (effectiveLevel === 'N2') ? 35 : 30;
+
+          if (dDur) dDur.value = String(mappedDur);
+          appliedEntries.push({ label: 'Số lượng', value: `${countInt} câu` });
+          appliedEntries.push({ label: 'Thời gian', value: `${mappedDur} phút` });
+        } else {
+          appliedEntries.push({
+            label: 'Cảnh báo',
+            value: `Số lượng câu không hợp lệ (${String(rawCount).slice(0, 15)} câu trong chế độ tính giờ).`,
+            isWarning: true
+          });
+        }
+      }
+    } else {
+      if (rawDur !== null) {
+        const durInt = parseInt(rawDur, 10);
+        if ([15, 30, 35, 60].includes(durInt)) {
+          appliedEntries.push({ label: 'Thời gian', value: `${durInt} phút` });
+          if (dDur) dDur.value = String(durInt);
+        } else {
+          appliedEntries.push({ label: 'Cảnh báo', value: `Thời gian không hợp lệ (${String(rawDur).slice(0, 15)} phút)`, isWarning: true });
+        }
+      }
+
+      if (rawCount !== null) {
+        const countInt = parseInt(rawCount, 10);
+        if ([10, 15, 20, 30, 50, 100].includes(countInt)) {
+          appliedEntries.push({ label: 'Số lượng', value: `${countInt} câu` });
+
+          const aCnt = document.getElementById('a-count');
+          if (aCnt && ['10', '20', '30', '50', '100'].includes(String(countInt))) aCnt.value = String(countInt);
+
+          const cLen = document.getElementById('c-length');
+          if (cLen && ['15', '30', '50'].includes(String(countInt))) cLen.value = String(countInt);
+        } else {
+          appliedEntries.push({ label: 'Cảnh báo', value: `Số lượng câu không hợp lệ (${String(rawCount).slice(0, 15)} câu)`, isWarning: true });
+        }
       }
     }
 
-    // 6. Skill param
+    // 5. Skill param
     const qSkill = params.get('skill');
     if (qSkill) {
+      const cleanSkill = String(qSkill).trim().slice(0, 30);
       const validSkills = ['Vocabulary', 'Grammar', 'Reading', 'ALL'];
-      const matchedSkill = validSkills.find(s => s.toLowerCase() === qSkill.toLowerCase());
+      const matchedSkill = validSkills.find(s => s.toLowerCase() === cleanSkill.toLowerCase());
       if (matchedSkill) {
-        appliedInfo.push(`Kỹ năng: <strong>${matchedSkill}</strong>`);
+        appliedEntries.push({ label: 'Kỹ năng', value: matchedSkill });
         const aSkill = document.getElementById('a-skill');
         if (aSkill) aSkill.value = matchedSkill;
         if (targetMode === 'mode-b') {
           highlightSkillCardsInModeB(matchedSkill);
         }
       } else {
-        appliedInfo.push(`⚠️ Kỹ năng không hợp lệ (${qSkill})`);
+        appliedEntries.push({ label: 'Cảnh báo', value: `Kỹ năng không hợp lệ (${cleanSkill})`, isWarning: true });
       }
     }
 
@@ -1574,8 +1712,8 @@ function applyUrlParameters() {
     switchMode(targetMode);
 
     // Show applied parameters badge if any parameters were provided
-    if (appliedInfo.length > 0) {
-      showParamBadge(appliedInfo);
+    if (appliedEntries.length > 0) {
+      showParamBadge(appliedEntries);
     }
   } catch (e) {
     console.error('Error applying URL params:', e);
@@ -1731,7 +1869,7 @@ function showUnseenModal(msgHtml, buttons) {
     const btn = document.createElement('button');
     btn.type = 'button';
     btn.className = b.class || 'btn-secondary';
-    btn.innerHTML = b.text;
+    btn.textContent = b.text;
     btn.onclick = b.onClick;
     actionsBox.appendChild(btn);
   });
@@ -2172,6 +2310,12 @@ function startTimedSession() {
   const level = levelSelect ? levelSelect.value : 'N2';
   const durMin = parseInt(durSelect ? durSelect.value : '30', 10);
 
+  // Validate supported level in Mode D
+  if (!['N2', 'N3', 'MIXED'].includes(level)) {
+    alert(`Cấp độ ${level} không được hỗ trợ trong phòng thi tính giờ. Vui lòng chọn N2, N3 hoặc MIXED.`);
+    return;
+  }
+
   let qCount = 30;
   if (durMin === 15) qCount = 15;
   else if (durMin === 30 || durMin === 35) qCount = 30;
@@ -2195,6 +2339,20 @@ function startTimedSession() {
 
   pool.sort(() => Math.random() - 0.5);
   const selected = pool.slice(0, qCount);
+
+  // Strict session-start validation
+  if (level === 'N2' && !selected.every(q => q.level === 'N2')) {
+    alert('Lỗi bảo toàn cấp độ: Phát hiện câu hỏi ngoài N2 trong đề thi N2.');
+    return;
+  }
+  if (level === 'N3' && !selected.every(q => q.level === 'N3')) {
+    alert('Lỗi bảo toàn cấp độ: Phát hiện câu hỏi ngoài N3 trong đề thi N3.');
+    return;
+  }
+  if (level === 'MIXED' && !selected.every(q => q.level === 'N2' || q.level === 'N3')) {
+    alert('Lỗi bảo toàn cấp độ: Phát hiện câu hỏi ngoài N2/N3 trong đề thi Marathon.');
+    return;
+  }
 
   const totalSec = durMin * 60;
   const now = Date.now();
@@ -2577,30 +2735,80 @@ function renderSessionHistory() {
   const sessions = getStoredSessions();
   if (!tbody) return;
 
+  tbody.textContent = '';
+
   if (sessions.length === 0) {
-    tbody.innerHTML = '<tr><td colspan="6" style="text-align:center; color:#94a3b8; padding:20px;">Chưa có phiên làm bài nào được ghi nhận. Hãy hoàn thành ít nhất một phiên luyện tập!</td></tr>';
+    const tr = document.createElement('tr');
+    const td = document.createElement('td');
+    td.colSpan = 6;
+    td.style.cssText = 'text-align:center; color:#94a3b8; padding:20px;';
+    td.textContent = 'Chưa có phiên làm bài nào được ghi nhận. Hãy hoàn thành ít nhất một phiên luyện tập!';
+    tr.appendChild(td);
+    tbody.appendChild(tr);
     return;
   }
 
-  tbody.innerHTML = '';
   sessions.forEach(s => {
     const tr = document.createElement('tr');
     const durM = Math.floor((s.durationSec || 0) / 60);
     const durS = (s.durationSec || 0) % 60;
     const isMock = s.mode === 'MOCK' || s.mockId;
-    const modeBadge = isMock 
-      ? `<span class="q-tag" style="background:#2563eb; color:#fff; font-weight:700;">${s.mockId || 'MOCK'}</span>` 
-      : `<span class="q-tag tag-${(s.level || 'N2').toLowerCase()}">${s.level || 'N2'}</span>`;
-    const titleSub = s.title ? `<div style="font-size:0.75rem; color:#64748b; margin-top:2px;">${s.title}</div>` : '';
 
-    tr.innerHTML = `
-      <td>${s.dateStr || new Date(s.timestamp).toLocaleDateString('vi-VN')}</td>
-      <td><code>${s.sessionId || 'N/A'}</code></td>
-      <td>${modeBadge} ${s.modeName || s.mode} ${titleSub}</td>
-      <td><strong>${s.scoreCorrect}</strong> / ${s.totalQuestions}</td>
-      <td style="font-weight:700; color:${s.accuracyPct >= 80 ? '#15803d' : (s.accuracyPct >= 60 ? '#b45309' : '#b91c1c')};">${s.accuracyPct}%</td>
-      <td>${durM}m ${durS}s</td>
-    `;
+    // 1. Date
+    const tdDate = document.createElement('td');
+    tdDate.textContent = s.dateStr || (s.timestamp ? new Date(s.timestamp).toLocaleDateString('vi-VN') : 'N/A');
+    tr.appendChild(tdDate);
+
+    // 2. Session ID
+    const tdId = document.createElement('td');
+    const codeId = document.createElement('code');
+    codeId.textContent = s.sessionId || 'N/A';
+    tdId.appendChild(codeId);
+    tr.appendChild(tdId);
+
+    // 3. Mode & Title
+    const tdMode = document.createElement('td');
+    const badgeSpan = document.createElement('span');
+    badgeSpan.className = 'q-tag';
+    if (isMock) {
+      badgeSpan.style.cssText = 'background:#2563eb; color:#fff; font-weight:700;';
+      badgeSpan.textContent = s.mockId || 'MOCK';
+    } else {
+      badgeSpan.classList.add(`tag-${(s.level || 'N2').toLowerCase()}`);
+      badgeSpan.textContent = s.level || 'N2';
+    }
+    tdMode.appendChild(badgeSpan);
+    tdMode.appendChild(document.createTextNode(' ' + (s.modeName || s.mode || '') + ' '));
+
+    if (s.title) {
+      const titleDiv = document.createElement('div');
+      titleDiv.style.cssText = 'font-size:0.75rem; color:#64748b; margin-top:2px;';
+      titleDiv.textContent = s.title;
+      tdMode.appendChild(titleDiv);
+    }
+    tr.appendChild(tdMode);
+
+    // 4. Raw Score
+    const tdScore = document.createElement('td');
+    const strongScore = document.createElement('strong');
+    strongScore.textContent = String(s.scoreCorrect ?? 0);
+    tdScore.appendChild(strongScore);
+    tdScore.appendChild(document.createTextNode(` / ${s.totalQuestions ?? 0}`));
+    tr.appendChild(tdScore);
+
+    // 5. Accuracy
+    const tdAcc = document.createElement('td');
+    const acc = s.accuracyPct ?? 0;
+    tdAcc.style.fontWeight = '700';
+    tdAcc.style.color = acc >= 80 ? '#15803d' : (acc >= 60 ? '#b45309' : '#b91c1c');
+    tdAcc.textContent = `${acc}%`;
+    tr.appendChild(tdAcc);
+
+    // 6. Duration
+    const tdDur = document.createElement('td');
+    tdDur.textContent = `${durM}m ${durS}s`;
+    tr.appendChild(tdDur);
+
     tbody.appendChild(tr);
   });
 }
