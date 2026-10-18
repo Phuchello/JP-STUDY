@@ -2,7 +2,7 @@
   "snapshotDate": "2026-10-15",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
   "fileCountExcludingManifest": 302,
-  "totalBytesExcludingManifest": 9283561,
+  "totalBytesExcludingManifest": 9283608,
   "files": [
     {
       "path": ".gitattributes",
@@ -732,14 +732,14 @@
     },
     {
       "path": "docs/widgets/home_quick_actions.html",
-      "bytes": 6577,
-      "sha256": "f3d903a6b819c89f46bbf2b5bd5842e40e313892e83df62a73224f7c8e9150db",
+      "bytes": 6600,
+      "sha256": "7d3382c8dcc390225873f02e30371372f819a869cbfa6d8e6765d4d07b589fa5",
       "status": "QA_PENDING"
     },
     {
       "path": "docs/widgets/home_quick_actions_ncr.html",
-      "bytes": 7247,
-      "sha256": "d7a6084368e0cc09c8ef73fc191afbe793f0c2d63d44bfb82bf7fe1b0a486408",
+      "bytes": 7271,
+      "sha256": "ba75631c1f95eda2f74f611efba291407b2e16618fc6df62971dbf88323f4143",
       "status": "QA_PENDING"
     },
     {
