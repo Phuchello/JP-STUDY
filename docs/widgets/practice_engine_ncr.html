@@ -1446,11 +1446,22 @@ function highlightSkillCardsInModeB(skill) {
   });
 }
 
-function launchMockExamSafely(mockId) {
+function launchMockExamSafely(mockId, sectionIndex) {
   stopActiveTimer();
   const cleanId = String(mockId || '').trim().slice(0, 50);
   const upperMock = cleanId.toUpperCase();
   const availableMocks = ['N2-MOCK-01', 'N3-MOCK-01'];
+
+  let secIdx = 0;
+  if (typeof sectionIndex !== 'undefined') {
+    secIdx = Number(sectionIndex) || 0;
+  } else {
+    try {
+      const p = new URLSearchParams(window.location.search);
+      const s = p.get('section');
+      if (s === '2' || s === 'listening') secIdx = 1;
+    } catch(e) {}
+  }
 
   if (!availableMocks.includes(upperMock)) {
     alert(`&#272;&#7873; thi th&#7917; ${cleanId} hi&#7879;n &#273;ang trong giai &#273;o&#7841;n ho&#224;n thi&#7879;n n&#7897;i dung (IN DEVELOPMENT). B&#7841;n vui l&#242;ng ch&#7885;n &#273;&#7873; N2-MOCK-01 ho&#7863;c N3-MOCK-01.`);
@@ -1460,7 +1471,7 @@ function launchMockExamSafely(mockId) {
 
   const attemptLaunch = () => {
     if (window.JP_MOCK_DATA && window.JP_MOCK_DATA[upperMock]) {
-      startFullMockExam(upperMock);
+      startFullMockExam(upperMock, secIdx);
       return true;
     }
     return false;
@@ -2222,29 +2233,40 @@ function stopActiveTimer() {
 }
 
 // =========================================================================
-// FULL MOCK EXAM MODE HANDLER
+// FULL MOCK EXAM MODE HANDLER (MULTI-SECTION & 180-PT EXPERIENCES)
 // =========================================================================
-function startFullMockExam(mockId) {
+let mockBreakInterval = null;
+
+function startFullMockExam(mockId, sectionIndex) {
   mockId = mockId || 'N2-MOCK-01';
+  sectionIndex = Number(sectionIndex) || 0;
   const mockData = (window.JP_MOCK_DATA && window.JP_MOCK_DATA[mockId]) ? window.JP_MOCK_DATA[mockId] : null;
 
-  if (!mockData || !mockData.sections || !mockData.sections[0] || !mockData.sections[0].items) {
-    alert('Kh&#244;ng t&#236;m th&#7845;y d&#7919; li&#7879;u &#273;&#7873; thi th&#7917;: ' + mockId);
+  if (!mockData || !mockData.sections || !mockData.sections[sectionIndex] || !mockData.sections[sectionIndex].items) {
+    alert('Kh&#244;ng t&#236;m th&#7845;y d&#7919; li&#7879;u ph&#7847;n thi ' + (sectionIndex + 1) + ' c&#7911;a &#273;&#7873; thi: ' + mockId);
     return;
   }
 
-  // Safely stop any previous timer before creating new mock session
+  // Safely stop any previous timers
   stopActiveTimer();
+  if (mockBreakInterval) {
+    clearInterval(mockBreakInterval);
+    mockBreakInterval = null;
+  }
+  const breakBox = document.getElementById('d-break-screen');
+  if (breakBox) breakBox.style.display = 'none';
+
   if (typeof timedState !== 'undefined' && timedState) {
     timedState.isSubmitted = true;
   }
 
-  const items = mockData.sections[0].items;
-  const durMin = mockData.sections[0].durationMinutes || 105;
+  const targetSec = mockData.sections[sectionIndex];
+  const items = targetSec.items;
+  const durMin = targetSec.durationMinutes || (sectionIndex === 1 ? 50 : 105);
   const totalSec = durMin * 60;
   const now = Date.now();
   const deadlineTime = now + (totalSec * 1000);
-  const mySessionId = `${mockId}_${now.toString(36).toUpperCase()}_${Math.random().toString(36).slice(2, 6)}`;
+  const mySessionId = `${mockId}_S${sectionIndex+1}_${now.toString(36).toUpperCase()}_${Math.random().toString(36).slice(2, 6)}`;
 
   timedState = {
     sessionId: mySessionId,
@@ -2261,7 +2283,11 @@ function startFullMockExam(mockId) {
       isMock: true,
       mockId: mockId,
       mockTitle: mockData.title,
-      level: mockData.level || 'N2'
+      level: mockData.level || 'N2',
+      currentSectionIndex: sectionIndex,
+      sectionName: targetSec.sectionName,
+      totalSections: mockData.sections.length,
+      audioStatus: targetSec.audioStatus || null
     }
   };
 
@@ -2275,6 +2301,77 @@ function startFullMockExam(mockId) {
   startTimedTimer();
 }
 window.startFullMockExam = startFullMockExam;
+
+function startMockBreak(mockId) {
+  stopActiveTimer();
+  if (mockBreakInterval) clearInterval(mockBreakInterval);
+
+  switchMode('mode-d');
+  document.getElementById('d-config').style.display = 'none';
+  document.getElementById('d-summary').style.display = 'none';
+  document.getElementById('d-arena').style.display = 'none';
+
+  let breakBox = document.getElementById('d-break-screen');
+  if (!breakBox) {
+    breakBox = document.createElement('div');
+    breakBox.id = 'd-break-screen';
+    breakBox.className = 'card';
+    breakBox.style.maxWidth = '640px';
+    breakBox.style.margin = '24px auto';
+    breakBox.style.textAlign = 'center';
+    breakBox.style.padding = '24px';
+    document.getElementById('mainApp').appendChild(breakBox);
+  }
+  breakBox.style.display = 'block';
+
+  let breakSec = 600; // 10 minutes
+  const updateBreakUI = () => {
+    const m = Math.floor(breakSec / 60);
+    const s = breakSec % 60;
+    breakBox.innerHTML = `
+      <div style="font-size:2.8rem; margin-bottom:8px;">&#9749;</div>
+      <h2 style="color:#1e40af; margin-bottom:8px; font-size:1.3rem;">NGH&#7880; GI&#7842;I LAO GI&#7918;A 2 PH&#7846;N THI</h2>
+      <p style="color:#64748b; font-size:0.88rem; line-height:1.5; margin-bottom:16px;">
+        B&#7841;n &#273;&#227; ho&#224;n th&#224;nh <strong>Ph&#7847;n 1: Ki&#7871;n th&#7913;c ng&#244;n ng&#7919; & &#272;&#7885;c hi&#7875;u (105 ph&#250;t)</strong>.<br>
+        H&#227;y ngh&#7881; ng&#417;i, u&#7889;ng n&#432;&#7899;c v&#224; th&#432; gi&#227;n m&#7855;t tr&#432;&#7899;c khi b&#432;&#7899;c v&#224;o <strong>Ph&#7847;n 2: Nghe hi&#7875;u (50 ph&#250;t)</strong>.
+      </p>
+      <div style="font-size:2.4rem; font-weight:800; font-family:monospace; color:#dc2626; margin-bottom:18px;">
+        &#9201;&#65039; ${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}
+      </div>
+      <div style="display:flex; justify-content:center; gap:12px; flex-wrap:wrap;">
+        <button onclick="endMockBreakAndStartSec2('${mockId}')" class="btn" style="background:#2563eb; color:#fff; font-weight:700; padding:10px 20px; border-radius:8px; cursor:pointer;">
+          &#127911; B&#7855;t &#273;&#7847;u Ph&#7847;n 2 (Nghe hi&#7875;u) Ngay &#8599;
+        </button>
+      </div>
+    `;
+  };
+
+  updateBreakUI();
+  mockBreakInterval = setInterval(() => {
+    breakSec--;
+    if (breakSec <= 0) {
+      clearInterval(mockBreakInterval);
+      endMockBreakAndStartSec2(mockId);
+    } else {
+      updateBreakUI();
+    }
+  }, 1000);
+}
+
+function endMockBreakAndStartSec2(mockId) {
+  if (mockBreakInterval) clearInterval(mockBreakInterval);
+  const breakBox = document.getElementById('d-break-screen');
+  if (breakBox) breakBox.style.display = 'none';
+  startFullMockExam(mockId, 1);
+}
+window.startMockBreak = startMockBreak;
+window.endMockBreakAndStartSec2 = endMockBreakAndStartSec2;
+
+function saveAndExitMock(mockId) {
+  alert('&#272;&#227; l&#432;u k&#7871;t qu&#7843; Ph&#7847;n 1 c&#7911;a &#273;&#7873; ' + mockId + '. B&#7841;n c&#243; th&#7875; quay l&#7841;i l&#224;m Ph&#7847;n 2 b&#7845;t c&#7913; l&#250;c n&#224;o!');
+  switchMode('mode-mock');
+}
+window.saveAndExitMock = saveAndExitMock;
 
 // =========================================================================
 // MODE D: LUY&#7878;N T&#7852;P T&#205;NH GI&#7900; (TIMED PRACTICE)
@@ -2477,7 +2574,24 @@ function renderTimedQuestion() {
 
   // Passage
   const passageBox = document.getElementById('d-q-passage');
-  if (q.contextPassage) {
+  if (q.skill === 'Listening') {
+    passageBox.style.display = 'block';
+    passageBox.innerHTML = `
+      <div style="background:#f0f9ff; border:1px solid #bae6fd; border-radius:8px; padding:12px; margin-bottom:12px;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:6px;">
+          <span style="font-weight:700; color:#0369a1; font-size:0.85rem;">&#127911; PH&#7846;N THI NGHE HI&#7874;U (LISTENING COMPREHENSION)</span>
+          <span style="font-size:0.75rem; background:#e0f2fe; color:#0369a1; padding:2px 8px; border-radius:12px; font-weight:600;">JLPT N2</span>
+        </div>
+        <div style="font-size:0.78rem; color:#475569; line-height:1.5; margin-bottom:8px;">
+          &#9888;&#65039; <strong>T&#236;nh tr&#7841;ng &#226;m thanh:</strong> B&#7843;n thu &#226;m chu&#7849;n ph&#242;ng thi &#273;ang trong chu k&#7923; s&#7843;n xu&#7845;t (K&#7923; thi 12/2026). D&#432;&#7899;i &#273;&#226;y cung c&#7845;p to&#224;n v&#259;n Transcript ti&#7871;ng Nh&#7853;t ph&#226;n vai &#273;&#7875; h&#7885;c vi&#234;n luy&#7879;n ph&#7843;n x&#7841; nghe hi&#7875;u m&#244; ph&#7887;ng.
+        </div>
+        <details open style="margin-top:6px;">
+          <summary style="font-size:0.8rem; font-weight:700; color:#0284c7; cursor:pointer;">&#128196; Xem K&#7883;ch b&#7843;n h&#7897;i tho&#7841;i (Transcript)</summary>
+          <div style="margin-top:8px; white-space:pre-wrap; font-family:var(--font-jp); font-size:0.92rem; color:#1e293b; background:#ffffff; padding:10px; border-radius:6px; border:1px solid #e2e8f0; line-height:1.6;">${q.contextPassage || ''}</div>
+        </details>
+      </div>
+    `;
+  } else if (q.contextPassage) {
     passageBox.style.display = 'block';
     passageBox.innerText = q.contextPassage;
   } else {
@@ -2584,9 +2698,125 @@ function submitTimedSession(confirmUser) {
   const spentS = spentSec % 60;
 
   document.getElementById('d-arena').style.display = 'none';
-  document.getElementById('d-summary-score').innerText = `${correct} / ${total}`;
-  document.getElementById('d-summary-msg').innerText = 
-    `&#272;&#7897; ch&#237;nh x&#225;c: ${pct}% &#183; L&#224;m &#273;&#250;ng: ${correct} &#183; Sai: ${incorrect} &#183; Ch&#432;a tr&#7843; l&#7901;i: ${unanswered} &#183; Th&#7901;i gian: ${spentM}m ${spentS}s`;
+
+  // Sectional mock vs Timed Practice history recording
+  const isMock = timedState.mockMeta && timedState.mockMeta.isMock;
+  const mockId = isMock ? timedState.mockMeta.mockId : null;
+  const mockTitle = isMock ? timedState.mockMeta.mockTitle : null;
+  const currentSecIdx = isMock ? (timedState.mockMeta.currentSectionIndex || 0) : 0;
+  const level = (timedState.mockMeta && timedState.mockMeta.level) || 
+                (timedState.questions[0] ? timedState.questions[0].level : 'N2');
+  let modeCode = isMock ? 'MOCK' : 'D';
+  let modeName = isMock ? `&#272;&#7873; ph&#226;n m&#244;n ${mockId}` : 'Luy&#7879;n t&#237;nh gi&#7901;';
+
+  if (isMock && currentSecIdx === 0) {
+    const langItems = timedState.questions.filter(q => q.skill !== 'Reading');
+    const readItems = timedState.questions.filter(q => q.skill === 'Reading');
+    const langCorrect = langItems.filter(q => timedState.userAnswers[q.id] === q.correctAnswer).length;
+    const readCorrect = readItems.filter(q => timedState.userAnswers[q.id] === q.correctAnswer).length;
+    const langScaled = Math.round((langCorrect / (langItems.length || 54)) * 60);
+    const readScaled = Math.round((readCorrect / (readItems.length || 21)) * 60);
+    const sec1Scaled = langScaled + readScaled;
+
+    try {
+      localStorage.setItem('JP_MOCK_SAVE_' + mockId, JSON.stringify({
+        mockId: mockId,
+        timestamp: Date.now(),
+        dateStr: new Date().toLocaleString('vi-VN'),
+        langCorrect: langCorrect,
+        langTotal: langItems.length,
+        langScaled: langScaled,
+        readCorrect: readCorrect,
+        readTotal: readItems.length,
+        readScaled: readScaled,
+        sec1Correct: correct,
+        sec1Total: total,
+        sec1Scaled: sec1Scaled
+      }));
+    } catch(e) {}
+
+    document.getElementById('d-summary-score').innerText = `${correct} / ${total} c&#226;u (&#431;&#7899;c l&#432;&#7907;ng: ${sec1Scaled} / 120 &#273;i&#7875;m)`;
+    document.getElementById('d-summary-msg').innerHTML = `
+      <div style="font-size:0.9rem; line-height:1.6; margin-bottom:12px; text-align:left; background:#f8fafc; border:1px solid #e2e8f0; border-radius:8px; padding:12px;">
+        <div style="font-weight:700; color:#1e40af; margin-bottom:4px;">&#127919; K&#7870;T QU&#7842; PH&#7846;N 1: KI&#7870;N TH&#7912;C NG&#212;N NG&#7918; & &#272;&#7884;C HI&#7874;U (${total} c&#226;u / 105 ph&#250;t)</div>
+        &#8226; Ki&#7871;n th&#7913;c ng&#244;n ng&#7919; (T&#7915; v&#7921;ng + Ng&#7919; ph&#225;p): <strong>${langCorrect}/${langItems.length} c&#226;u</strong> &#8594; Quy &#273;&#7893;i: <strong>${langScaled} / 60 &#273;i&#7875;m</strong><br>
+        &#8226; &#272;&#7885;c hi&#7875;u (&#272;o&#7843;n v&#259;n, Trung v&#259;n, Tr&#432;&#7901;ng v&#259;n, Tra c&#7913;u): <strong>${readCorrect}/${readItems.length} c&#226;u</strong> &#8594; Quy &#273;&#7893;i: <strong>${readScaled} / 60 &#273;i&#7875;m</strong><br>
+        &#8226; &#272;i&#7875;m chu&#7849;n h&#243;a Ph&#7847;n 1: <strong>${sec1Scaled} / 120 &#273;i&#7875;m</strong> (&#272;&#7897; ch&#237;nh x&#225;c: ${pct}% &#183; Th&#7901;i gian: ${spentM}m ${spentS}s)<br>
+        <div style="margin-top:6px; font-size:0.82rem; color:#64748b;">
+          &#8505;&#65039; Chu&#7849;n &#273;&#7895; JLPT N2 y&#234;u c&#7847;u m&#7895;i ph&#226;n m&#244;n &#273;&#7841;t t&#7889;i thi&#7875;u <strong>19 / 60 &#273;i&#7875;m</strong> (tr&#225;nh &#273;i&#7875;m li&#7879;t).
+        </div>
+      </div>
+      <div style="display:flex; flex-wrap:wrap; gap:8px; justify-content:center; margin-top:10px;">
+        <button onclick="startMockBreak('${mockId}')" class="btn" style="background:#16a34a; color:#fff; font-weight:700; padding:10px 16px; border-radius:8px; cursor:pointer;">
+          &#9749; Ngh&#7881; gi&#7843;i lao 10 ph&#250;t & V&#224;o Ph&#7847;n 2
+        </button>
+        <button onclick="startFullMockExam('${mockId}', 1)" class="btn" style="background:#2563eb; color:#fff; font-weight:700; padding:10px 16px; border-radius:8px; cursor:pointer;">
+          &#127911; V&#224;o ngay Ph&#7847;n 2: Nghe hi&#7875;u (30 c&#226;u / 50 ph&#250;t) &#8599;
+        </button>
+        <button onclick="saveAndExitMock('${mockId}')" class="btn" style="background:#475569; color:#fff; font-weight:700; padding:10px 16px; border-radius:8px; cursor:pointer;">
+          &#128190; L&#432;u k&#7871;t qu&#7843; & Tho&#225;t
+        </button>
+      </div>
+    `;
+  } else if (isMock && currentSecIdx === 1) {
+    const lisCorrect = correct;
+    const lisTotal = total;
+    const lisScaled = Math.round((lisCorrect / (lisTotal || 30)) * 60);
+
+    let sec1Data = null;
+    try {
+      const raw = localStorage.getItem('JP_MOCK_SAVE_' + mockId);
+      if (raw) sec1Data = JSON.parse(raw);
+    } catch(e) {}
+
+    if (sec1Data) {
+      modeCode = 'FULL_MOCK';
+      modeName = `Full Mock ${mockId} (180 &#273;i&#7875;m)`;
+      const totalScore = sec1Data.sec1Scaled + lisScaled;
+      const isPass = (totalScore >= 90) && (sec1Data.langScaled >= 19) && (sec1Data.readScaled >= 19) && (lisScaled >= 19);
+      const isLiet = (sec1Data.langScaled < 19 || sec1Data.readScaled < 19 || lisScaled < 19);
+
+      let diagWeakness = [];
+      if (sec1Data.langScaled < 30) diagWeakness.push('Ki&#7871;n th&#7913;c ng&#244;n ng&#7919; (T&#7915; v&#7921;ng/Ng&#7919; ph&#225;p c&#242;n d&#432;&#7899;i 50%)');
+      if (sec1Data.readScaled < 30) diagWeakness.push('&#272;&#7885;c hi&#7875;u (c&#7847;n t&#259;ng t&#7889;c &#273;&#7897; v&#224; &#273;&#7889;i chi&#7871;u k&#7929; ti&#234;u ch&#237; logic)');
+      if (lisScaled < 30) diagWeakness.push('Nghe hi&#7875;u (ch&#250; tr&#7885;ng Mondai 4 ph&#7843;n x&#7841; v&#224; Mondai 5 t&#7893;ng h&#7907;p)');
+
+      const diagAdvice = diagWeakness.length > 0 
+        ? `Khuy&#7871;n ngh&#7883; &#432;u ti&#234;n c&#7843;i thi&#7879;n: ${diagWeakness.join('; ')}.`
+        : 'Ch&#250;c m&#7915;ng! B&#7841;n c&#243; phong &#273;&#7897; l&#224;m b&#224;i r&#7845;t &#273;&#7891;ng &#273;&#7873;u v&#224; v&#7919;ng v&#224;ng &#7903; c&#7843; 3 ph&#226;n m&#244;n.';
+
+      document.getElementById('d-summary-score').innerText = `T&#7892;NG &#272;I&#7874;M THI TH&#7916; N2: ${totalScore} / 180 &#272;I&#7874;M`;
+      document.getElementById('d-summary-msg').innerHTML = `
+        <div style="font-size:1.1rem; font-weight:800; color:${isPass ? '#15803d' : '#b91c1c'}; margin-bottom:10px;">
+          ${isPass ? '&#127881; CH&#218;C M&#7914;NG: B&#7840;N &#272;&#7840;T CHU&#7848;N &#272;&#7894; JLPT N2 (&#21512;&#26684;)' : (isLiet ? '&#9888;&#65039; K&#7870;T QU&#7842;: CH&#431;A &#272;&#7840;T DO B&#7882; &#272;I&#7874;M LI&#7878;T (<19 &#273;i&#7875;m m&#7897;t ph&#226;n m&#244;n)' : '&#9888;&#65039; K&#7870;T QU&#7842;: CH&#431;A &#272;&#7840;T CHU&#7848;N &#272;I&#7874;M &#272;&#7894; N2 (<90 &#273;i&#7875;m)')}
+        </div>
+        <div style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:8px; padding:14px; text-align:left; font-size:0.88rem; line-height:1.6; margin-bottom:14px;">
+          <div style="font-weight:700; color:#1e40af; margin-bottom:6px;">&#128202; B&#7842;NG &#272;I&#7874;M CHI TI&#7870;T 3 PH&#194;N M&#212;N (CHU&#7848;N 180 &#272;I&#7874;M):</div>
+          &#8226; <strong>Ph&#7847;n 1A &#8212; Ki&#7871;n th&#7913;c ng&#244;n ng&#7919;:</strong> ${sec1Data.langScaled} / 60 &#273;i&#7875;m (${sec1Data.langCorrect}/${sec1Data.langTotal} c&#226;u) ${sec1Data.langScaled >= 19 ? '&#9989;' : '&#10060; Li&#7879;t'}<br>
+          &#8226; <strong>Ph&#7847;n 1B &#8212; &#272;&#7885;c hi&#7875;u:</strong> ${sec1Data.readScaled} / 60 &#273;i&#7875;m (${sec1Data.readCorrect}/${sec1Data.readTotal} c&#226;u) ${sec1Data.readScaled >= 19 ? '&#9989;' : '&#10060; Li&#7879;t'}<br>
+          &#8226; <strong>Ph&#7847;n 2 &#8212; Nghe hi&#7875;u:</strong> ${lisScaled} / 60 &#273;i&#7875;m (${lisCorrect}/${lisTotal} c&#226;u) ${lisScaled >= 19 ? '&#9989;' : '&#10060; Li&#7879;t'}<br>
+          <div style="margin-top:6px; font-weight:700; color:#0f172a;">
+            &#128073; <strong>T&#7893;ng &#273;i&#7875;m &#432;&#7899;c l&#432;&#7907;ng: ${totalScore} / 180 &#273;i&#7875;m</strong> (Chu&#7849;n &#273;&#7895;: >= 90 &#273;i&#7875;m | &#272;i&#7875;m li&#7879;t: < 19 &#273;i&#7875;m)
+          </div>
+          <div style="margin-top:8px; padding-top:8px; border-top:1px dashed #cbd5e1; color:#0369a1;">
+            &#128161; <strong>Ch&#7849;n &#273;o&#225;n s&#432; ph&#7841;m:</strong> ${diagAdvice}
+          </div>
+        </div>
+        <div style="display:flex; justify-content:center; gap:8px;">
+          <button onclick="switchMode('mode-history')" class="btn" style="background:#1e40af; color:#fff; font-weight:700; padding:10px 18px; border-radius:8px; cursor:pointer;">&#128220; Xem L&#7883;ch S&#7917; Thi &#272;&#7845;u</button>
+          <button onclick="switchMode('mode-mock')" class="btn" style="background:#475569; color:#fff; font-weight:700; padding:10px 18px; border-radius:8px; cursor:pointer;">&#128218; Quay L&#7841;i Kho &#272;&#7873;</button>
+        </div>
+      `;
+    } else {
+      document.getElementById('d-summary-score').innerText = `${correct} / ${total} c&#226;u (&#431;&#7899;c l&#432;&#7907;ng: ${lisScaled} / 60 &#273;i&#7875;m)`;
+      document.getElementById('d-summary-msg').innerText = 
+        `Ph&#7847;n 2 Nghe hi&#7875;u: ${correct}/${total} c&#226;u (${lisScaled}/60 &#273;i&#7875;m) &#183; &#272;&#7897; ch&#237;nh x&#225;c: ${pct}% &#183; Th&#7901;i gian: ${spentM}m ${spentS}s`;
+    }
+  } else {
+    document.getElementById('d-summary-score').innerText = `${correct} / ${total}`;
+    document.getElementById('d-summary-msg').innerText = 
+      `&#272;&#7897; ch&#237;nh x&#225;c: ${pct}% &#183; L&#224;m &#273;&#250;ng: ${correct} &#183; Sai: ${incorrect} &#183; Ch&#432;a tr&#7843; l&#7901;i: ${unanswered} &#183; Th&#7901;i gian: ${spentM}m ${spentS}s`;
+  }
 
   // Render Detailed Review Table
   const reviewContainer = document.getElementById('d-review-list');
@@ -2615,15 +2845,6 @@ function submitTimedSession(confirmUser) {
   });
 
   document.getElementById('d-summary').style.display = 'block';
-
-  // Sectional mock vs Timed Practice history recording
-  const isMock = timedState.mockMeta && timedState.mockMeta.isMock;
-  const mockId = isMock ? timedState.mockMeta.mockId : null;
-  const mockTitle = isMock ? timedState.mockMeta.mockTitle : null;
-  const level = (timedState.mockMeta && timedState.mockMeta.level) || 
-                (timedState.questions[0] ? timedState.questions[0].level : 'N2');
-  const modeCode = isMock ? 'MOCK' : 'D';
-  const modeName = isMock ? `&#272;&#7873; ph&#226;n m&#244;n ${mockId}` : 'Luy&#7879;n t&#237;nh gi&#7901;';
 
   recordSessionComplete({
     sessionId: timedState.sessionId || `TIMED-${Date.now().toString(36).toUpperCase()}`,

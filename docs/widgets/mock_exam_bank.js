@@ -6,17 +6,17 @@ window.JP_MOCK_REGISTRY = {
   "N2": [
     {
       "mockId": "N2-MOCK-01",
-      "title": "JLPT N2 Sectional Practice #01 — Kiến thức ngôn ngữ & Đọc hiểu",
+      "title": "JLPT N2 Full Mock Exam #01 — Kiến thức ngôn ngữ, Đọc hiểu & Nghe hiểu",
       "level": "N2",
-      "status": "SECTIONAL_PRACTICE",
-      "badgeText": "SECTIONAL · 75 CÂU",
+      "status": "FULL_MOCK",
+      "badgeText": "FULL MOCK · 105 CÂU · 180 ĐIỂM",
       "badgeClass": "status-ready",
-      "durationMinutes": 105,
-      "totalQuestions": 75,
+      "durationMinutes": 155,
+      "totalQuestions": 105,
       "section1Count": 75,
-      "section2Count": 0,
+      "section2Count": 30,
       "releaseDate": "18/10/2026",
-      "description": "Luyện tập phân môn Kiến thức ngôn ngữ (32c) & Đọc hiểu (21c) bấm giờ 105 phút. Phần 2 Nghe hiểu (30c) đang trong quy trình sản xuất và chuẩn hóa audio.",
+      "description": "Bộ đề thi thử mô phỏng chuẩn kỳ thi thật: Phần 1 Kiến thức ngôn ngữ & Đọc hiểu (75 câu / 105 phút) + Nghỉ giải lao + Phần 2 Nghe hiểu (30 câu / 50 phút). Tính điểm chuẩn hóa 180 điểm JLPT.",
       "playable": true
     },
     {
@@ -462,13 +462,14 @@ window.JP_MOCK_REGISTRY = {
 window.JP_MOCK_DATA = {
   'N2-MOCK-01': {
   "examId": "N2-MOCK-01",
-  "title": "JLPT N2 Sectional Practice #01 — Kiến thức ngôn ngữ & Đọc hiểu",
+  "title": "JLPT N2 Full Mock Exam #01 — Đề thi thử hoàn chỉnh (Kiến thức ngôn ngữ, Đọc hiểu & Nghe hiểu)",
   "level": "N2",
-  "status": "SECTIONAL_PRACTICE",
-  "durationMinutes": 105,
-  "totalQuestions": 75,
+  "status": "FULL_MOCK",
+  "durationMinutes": 155,
+  "totalQuestions": 105,
   "sections": [
     {
+      "sectionId": "sec-1",
       "sectionName": "Phần 1: Kiến thức ngôn ngữ & Đọc hiểu (Language Knowledge & Reading)",
       "durationMinutes": 105,
       "itemCount": 75,
@@ -500,16 +501,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "B",
-          "explanationVi": "Nắm bắt (vấn đề, tình hình). Âm Hán Việt: BẢ ÁC.",
+          "explanationVi": "把握（はあく - BẢ ÁC）: Nắm bắt (vấn đề, tình hình). Chữ 把 có âm は, chữ 握 có âm on là あく (như trong 握手 あくしゅ), âm kun là にぎ・る.",
           "distractorExplanations": {
-            "A": "Cách đọc sai cho chữ Hán 「把握」. Chú ý phân biệt âm ngắt, âm đục và trường âm.",
-            "C": "Cách đọc sai cho chữ Hán 「把握」. Chú ý phân biệt âm ngắt, âm đục và trường âm.",
-            "D": "Cách đọc sai cho chữ Hán 「把握」. Chú ý phân biệt âm ngắt, âm đục và trường âm."
+            "A": "はく: Thiếu trường âm おん của chữ 握 (あく).",
+            "C": "はおく: Nhầm âm あ thành お.",
+            "D": "はあき: Nhầm âm đuôi く thành き."
           },
           "difficultyEstimate": 2,
           "conceptId": "kanji-reading",
           "remediation": "Tra cứu và luyện đọc chữ Hán 把握 trong từ điển.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -543,16 +544,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "B",
-          "explanationVi": "Khuyên mời, rủ rê, chào mời. Âm Hán Việt: KHUYẾN DỤ.",
+          "explanationVi": "勧誘（かんゆう - KHUYẾN DỤ）: Rủ rê, chào mời, khuyên tham gia (bảo hiểm, câu lạc bộ). Chữ 勧 có âm かん (勧告 かんこく), 誘 có âm ゆう (誘導 ゆうどう), âm kun さそ・う.",
           "distractorExplanations": {
-            "A": "Cách đọc sai cho chữ Hán 「勧誘」. Chú ý phân biệt âm ngắt, âm đục và trường âm.",
-            "C": "Cách đọc sai cho chữ Hán 「勧誘」. Chú ý phân biệt âm ngắt, âm đục và trường âm.",
-            "D": "Cách đọc sai cho chữ Hán 「勧誘」. Chú ý phân biệt âm ngắt, âm đục và trường âm."
+            "A": "かんゆ: Thiếu trường âm của chữ 誘 (ゆう).",
+            "C": "けんゆう: Nhầm âm on của chữ 勧 (かん) thành けん.",
+            "D": "かんよう: Nhầm âm ゆう thành よう (dễ nhầm với 寛容 かんよう hoặc 肝要 かんよう)."
           },
           "difficultyEstimate": 2,
           "conceptId": "kanji-reading",
           "remediation": "Tra cứu và luyện đọc chữ Hán 勧誘 trong từ điển.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -586,16 +587,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "D",
-          "explanationVi": "Biện pháp xử lý. Âm Hán Việt: THỐ TRÍ. Chú ý 処置 là しょち còn 措置 là そち.",
+          "explanationVi": "措置（そち - THỐ TRÍ）: Biện pháp, chính sách mang tính quy chế/pháp lý chính thức (cụm từ cố định: 措置を講じる - áp dụng biện pháp).",
           "distractorExplanations": {
-            "A": "Cách đọc sai cho chữ Hán 「措置」. Chú ý phân biệt âm ngắt, âm đục và trường âm.",
-            "B": "Cách đọc sai cho chữ Hán 「措置」. Chú ý phân biệt âm ngắt, âm đục và trường âm.",
-            "C": "Cách đọc sai cho chữ Hán 「措置」. Chú ý phân biệt âm ngắt, âm đục và trường âm."
+            "A": "しょち: Là cách đọc của 処置 (XỬ TRÍ - sơ cứu, xử lý tạm thời), không phải 措置.",
+            "B": "そうち: Là cách đọc của 装置 (TRANG TRÍ - trang thiết bị/bộ máy), không phải 措置.",
+            "C": "そじ: Nhầm lẫn âm đuôi ち thành じ."
           },
           "difficultyEstimate": 3,
           "conceptId": "kanji-reading",
           "remediation": "Tra cứu và luyện đọc chữ Hán 措置 trong từ điển.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -629,16 +630,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "C",
-          "explanationVi": "Tìm kiếm, mò mẫm. Âm Hán Việt: MÔ TÁC.",
+          "explanationVi": "模索（もさく - MÔ TÁC）: Mò mẫm, tìm kiếm giải pháp trong khó khăn. Thành ngữ: 暗中模索（あんちゅうもさく - mò mẫm trong đêm tối để tìm hướng đi）.",
           "distractorExplanations": {
-            "A": "Cách đọc sai cho chữ Hán 「模索」. Chú ý phân biệt âm ngắt, âm đục và trường âm.",
-            "B": "Cách đọc sai cho chữ Hán 「模索」. Chú ý phân biệt âm ngắt, âm đục và trường âm.",
-            "D": "Cách đọc sai cho chữ Hán 「模索」. Chú ý phân biệt âm ngắt, âm đục và trường âm."
+            "A": "ぼさく: Nhầm âm も thành ぼ (dễ lẫn với 暮色 ぼしょく hoặc 応募 おうぼ).",
+            "B": "もさつ: Nhầm âm đuôi く thành つ (dễ lẫn với 摩擦 まさつ).",
+            "D": "むさく: Là cách đọc của 無策 (VÔ SÁCH - không có kế sách), bẫy đồng âm khác nghĩa."
           },
           "difficultyEstimate": 3,
           "conceptId": "kanji-reading",
           "remediation": "Tra cứu và luyện đọc chữ Hán 模索 trong từ điển.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -672,16 +673,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "A",
-          "explanationVi": "Khéo léo, tinh vi. Âm Hán Việt: XẢO DIỆU.",
+          "explanationVi": "巧妙（こうみょう - XẢO DIỆU）: Tinh vi, khéo léo (thường đi với 手口, 罠, 技). Chữ 巧 có âm こう (kỹ xảo 技巧 ぎこう), 妙 có âm みょう (kỳ diệu 奇妙 きみょう).",
           "distractorExplanations": {
-            "B": "Cách đọc sai cho chữ Hán 「巧妙」. Chú ý phân biệt âm ngắt, âm đục và trường âm.",
-            "C": "Cách đọc sai cho chữ Hán 「巧妙」. Chú ý phân biệt âm ngắt, âm đục và trường âm.",
-            "D": "Cách đọc sai cho chữ Hán 「巧妙」. Chú ý phân biệt âm ngắt, âm đục và trường âm."
+            "B": "きょうみょう: Nhầm âm on của 巧 (こう) thành きょう.",
+            "C": "こうめい: Là cách đọc của 功名 (công danh) hoặc đọc sai âm on của 妙.",
+            "D": "こみょう: Thiếu trường âm của 巧 (こう)."
           },
           "difficultyEstimate": 2,
           "conceptId": "kanji-reading",
           "remediation": "Tra cứu và luyện đọc chữ Hán 巧妙 trong từ điển.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -715,16 +716,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "A",
-          "explanationVi": "Cẩn trọng, thận trọng. Âm Hán Việt: THẬN TRỌNG.",
+          "explanationVi": "慎重（THẬN TRỌNG）: Cẩn trọng, xem xét kỹ lưỡng trước khi hành động. Đi với 検討する, 判断する.",
           "distractorExplanations": {
-            "B": "Cách viết sai chữ Hán. Nhầm lẫn bộ thủ hoặc đồng âm khác nghĩa.",
-            "C": "Cách viết sai chữ Hán. Nhầm lẫn bộ thủ hoặc đồng âm khác nghĩa.",
-            "D": "Cách viết sai chữ Hán. Nhầm lẫn bộ thủ hoặc đồng âm khác nghĩa."
+            "B": "慎長: Sai chữ Hán thứ hai; 長 là dài, không cấu tạo từ này.",
+            "C": "深重: Chữ 深 (THÂM - sâu sắc) đọc là しん nhưng không dùng cho 'thận trọng'.",
+            "D": "伸重: Chữ 伸 (THÂN - duỗi thẳng/vươn lên), sai chữ Hán."
           },
           "difficultyEstimate": 2,
           "conceptId": "orthography",
           "remediation": "Ghi nhớ quy tắc cấu tạo chữ Hán đúng chính tả.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -758,16 +759,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "A",
-          "explanationVi": "Bãi bỏ, giải trừ. Âm Hán Việt: GIẢI TRỪ.",
+          "explanationVi": "解除（GIẢI TRỪ）: Hủy bỏ, giải tỏa lệnh cấm hoặc tình trạng khẩn cấp (警報が解除された).",
           "distractorExplanations": {
-            "B": "Cách viết sai chữ Hán. Nhầm lẫn bộ thủ hoặc đồng âm khác nghĩa.",
-            "C": "Cách viết sai chữ Hán. Nhầm lẫn bộ thủ hoặc đồng âm khác nghĩa.",
-            "D": "Cách viết sai chữ Hán. Nhầm lẫn bộ thủ hoặc đồng âm khác nghĩa."
+            "B": "改除: Chữ 改 (CẢI - sửa đổi, cải cách), không ghép thành từ bãi bỏ cảnh báo.",
+            "C": "解叙: Chữ 叙 (TỰ - kể lại/miêu tả trong 叙述), sai chữ Hán.",
+            "D": "開除: Chữ 開 (KHAI - mở), không tạo nghĩa giải tỏa/hủy bỏ lệnh."
           },
           "difficultyEstimate": 2,
           "conceptId": "orthography",
           "remediation": "Ghi nhớ quy tắc cấu tạo chữ Hán đúng chính tả.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -801,16 +802,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "A",
-          "explanationVi": "Mức tối thiểu. Âm Hán Việt: TỐI TIỂU HẠN.",
+          "explanationVi": "最小限（TỐI TIỂU HẠN）: Mức độ thấp nhất, hạn chế thiệt hại ở mức tối thiểu (被害を最小限に食い止める).",
           "distractorExplanations": {
-            "B": "Cách viết sai chữ Hán. Nhầm lẫn bộ thủ hoặc đồng âm khác nghĩa.",
-            "C": "Cách viết sai chữ Hán. Nhầm lẫn bộ thủ hoặc đồng âm khác nghĩa.",
-            "D": "Cách viết sai chữ Hán. Nhầm lẫn bộ thủ hoặc đồng âm khác nghĩa."
+            "B": "最少限: 少 chỉ số lượng đếm được rời rạc; kết hợp chuẩn là 最小限 (mức độ/phạm vi nhỏ nhất).",
+            "C": "最小眼: Chữ 眼 (NHÃN - mắt), sai chữ Hán hoàn toàn.",
+            "D": "最宵限: Chữ 宵 (TIÊU - đêm hôm), sai chữ Hán."
           },
           "difficultyEstimate": 2,
           "conceptId": "orthography",
           "remediation": "Ghi nhớ quy tắc cấu tạo chữ Hán đúng chính tả.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -844,16 +845,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "D",
-          "explanationVi": "Từ bỏ, gác lại ý định. Âm Hán Việt: ĐOẠN NIỆM.",
+          "explanationVi": "断念（ĐOẠN NIỆM）: Từ bỏ ý định, gác lại kế hoạch vì điều kiện bất khả kháng (登頂を断念した).",
           "distractorExplanations": {
-            "A": "Cách viết sai chữ Hán. Nhầm lẫn bộ thủ hoặc đồng âm khác nghĩa.",
-            "B": "Cách viết sai chữ Hán. Nhầm lẫn bộ thủ hoặc đồng âm khác nghĩa.",
-            "C": "Cách viết sai chữ Hán. Nhầm lẫn bộ thủ hoặc đồng âm khác nghĩa."
+            "A": "断然: だんぜん (ĐOẠN NHIÊN - rõ ràng, áp đảo), sai nghĩa và chức năng ngữ pháp.",
+            "B": "段念: Chữ 段 (ĐOẠN - giai đoạn, cấp bậc), sai chữ Hán.",
+            "C": "単念: Chữ 単 (ĐƠN - đơn thuần), không tồn tại từ này."
           },
           "difficultyEstimate": 2,
           "conceptId": "orthography",
           "remediation": "Ghi nhớ quy tắc cấu tạo chữ Hán đúng chính tả.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -887,16 +888,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "B",
-          "explanationVi": "Hồi phục (kinh tế, sức khỏe chung). Chú ý 快復 dùng cho khỏi ốm cá nhân.",
+          "explanationVi": "回復（HỒI PHỤC）: Hồi phục trạng thái tốt ban đầu (kinh tế, thời tiết, sức khỏe nói chung). Phân biệt: 快復 chỉ dùng cho người khỏi ốm.",
           "distractorExplanations": {
-            "A": "Cách viết sai chữ Hán. Nhầm lẫn bộ thủ hoặc đồng âm khác nghĩa.",
-            "C": "Cách viết sai chữ Hán. Nhầm lẫn bộ thủ hoặc đồng âm khác nghĩa.",
-            "D": "Cách viết sai chữ Hán. Nhầm lẫn bộ thủ hoặc đồng âm khác nghĩa."
+            "A": "快復: Chỉ dùng riêng cho cá nhân bình phục sau một cơn ốm nặng (bệnh tình khởi sắc), không dùng cho nền kinh tế.",
+            "C": "改復: Không tồn tại từ này trong tiếng Nhật.",
+            "D": "回複: Chữ 複 (PHỨC - nhiều lớp/phức tạp), sai chữ Hán."
           },
           "difficultyEstimate": 2,
           "conceptId": "orthography",
           "remediation": "Ghi nhớ quy tắc cấu tạo chữ Hán đúng chính tả.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -930,16 +931,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "C",
-          "explanationVi": "責任感 (tinh thần trách nhiệm). Hậu tố 〜感 dùng chỉ cảm xúc, ý thức (ví dụ: 緊張感, 危機感, 違和感).",
+          "explanationVi": "責任感（tinh thần trách nhiệm）: Hậu tố 〜感 dùng cho ý thức, cảm nhận tâm lý (ví dụ: 緊張感, 危機感, 違和感, 達成感).",
           "distractorExplanations": {
-            "A": "Hậu tố/tiền tố không phù hợp với quy tắc cấu tạo từ trong tiếng Nhật N2.",
-            "B": "Hậu tố/tiền tố không phù hợp với quy tắc cấu tạo từ trong tiếng Nhật N2.",
-            "D": "Hậu tố/tiền tố không phù hợp với quy tắc cấu tạo từ trong tiếng Nhật N2."
+            "A": "性: Chỉ tính chất khách quan (ví dụ: 危険性, 安全性), không dùng để chỉ tinh thần trách nhiệm của con người.",
+            "B": "的: Hậu tố biến danh từ thành tính từ (〜的な), không kết hợp thành cụm danh từ 責任的.",
+            "D": "力: Chỉ năng lực thao tác thực tế (ví dụ: 実行力, 集中力), ý thức trách nhiệm phải dùng 責任感."
           },
           "difficultyEstimate": 2,
           "conceptId": "word-formation",
           "remediation": "Học kỹ danh sách tiền tố (無, 未, 非, 不, 総) và hậu tố (〜感, 〜性, 〜化, 〜的) của JLPT N2.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -973,16 +974,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "C",
-          "explanationVi": "安全性 (tính an toàn). Hậu tố 〜性 dùng chỉ tính chất, khả năng (ví dụ: 危険性, 可能性, 信頼性).",
+          "explanationVi": "安全性（tính an toàn）: Hậu tố 〜性 chỉ tính chất, mức độ tiềm năng (ví dụ: 危険性, 信頼性, 実用性). Đi với が高い/が低い.",
           "distractorExplanations": {
-            "A": "Hậu tố/tiền tố không phù hợp với quy tắc cấu tạo từ trong tiếng Nhật N2.",
-            "B": "Hậu tố/tiền tố không phù hợp với quy tắc cấu tạo từ trong tiếng Nhật N2.",
-            "D": "Hậu tố/tiền tố không phù hợp với quy tắc cấu tạo từ trong tiếng Nhật N2."
+            "A": "感: Thường dùng trong 安心感 (cảm giác an tâm), không dùng từ 安全感.",
+            "B": "的: An toàn dùng trực tiếp tính từ な (安全な), không dùng 安全的な.",
+            "D": "化: 〜化 chỉ quá trình chuyển đổi (biến đổi), không đi với が高い để chỉ mức độ an toàn."
           },
           "difficultyEstimate": 2,
           "conceptId": "word-formation",
           "remediation": "Học kỹ danh sách tiền tố (無, 未, 非, 不, 総) và hậu tố (〜感, 〜性, 〜化, 〜的) của JLPT N2.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -1016,16 +1017,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "B",
-          "explanationVi": "自動化 (tự động hóa). Hậu tố 〜化 chỉ sự biến đổi (ví dụ: 国際化, 少子化, 実用化).",
+          "explanationVi": "自動化（tự động hóa）: Hậu tố 〜化 chỉ xu hướng chuyển biến, cải cách quy trình (ví dụ: 機械化, 少子化, 情報化, 実用化). Thường đi với 〜を進める/〜が進む.",
           "distractorExplanations": {
-            "A": "Hậu tố/tiền tố không phù hợp với quy tắc cấu tạo từ trong tiếng Nhật N2.",
-            "C": "Hậu tố/tiền tố không phù hợp với quy tắc cấu tạo từ trong tiếng Nhật N2.",
-            "D": "Hậu tố/tiền tố không phù hợp với quy tắc cấu tạo từ trong tiếng Nhật N2."
+            "A": "的: 自動的 là phó từ/tính từ な (tự động), không làm tân ngữ đi với を進める.",
+            "C": "性: 自動性 chỉ tính chất tự động, không dùng cho hành động thúc đẩy quá trình nâng cấp công xưởng.",
+            "D": "感: Không tồn tại từ 自動感."
           },
           "difficultyEstimate": 2,
           "conceptId": "word-formation",
           "remediation": "Học kỹ danh sách tiền tố (無, 未, 非, 不, 総) và hậu tố (〜感, 〜性, 〜化, 〜的) của JLPT N2.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -1059,16 +1060,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "D",
-          "explanationVi": "論理的 (mang tính logic). Hậu tố 〜的 biến danh từ thành tính từ miêu tả tính chất.",
+          "explanationVi": "論理的（mang tính logic, chặt chẽ）: Hậu tố 〜的 biến danh từ thành tính từ -na; khi bổ nghĩa cho động từ dùng dạng phó từ: 論理的に考える.",
           "distractorExplanations": {
-            "A": "Hậu tố/tiền tố không phù hợp với quy tắc cấu tạo từ trong tiếng Nhật N2.",
-            "B": "Hậu tố/tiền tố không phù hợp với quy tắc cấu tạo từ trong tiếng Nhật N2.",
-            "C": "Hậu tố/tiền tố không phù hợp với quy tắc cấu tạo từ trong tiếng Nhật N2."
+            "A": "性: 論理性 là danh từ (tính logic), không thể đi trực tiếp với に để bổ nghĩa cho động từ 考える.",
+            "B": "化: 論理化 không dùng như một phó từ bổ nghĩa suy nghĩ trong ngữ cảnh này.",
+            "C": "感: Không tồn tại từ 論理感."
           },
           "difficultyEstimate": 2,
           "conceptId": "word-formation",
           "remediation": "Học kỹ danh sách tiền tố (無, 未, 非, 不, 総) và hậu tố (〜感, 〜性, 〜化, 〜的) của JLPT N2.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -1102,16 +1103,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "C",
-          "explanationVi": "無神経 (vô tâm, vô ý tứ). Tiền tố 無〜 mang nghĩa 'không có, thiếu'.",
+          "explanationVi": "無神経（vô tâm, thiếu tế nhị, trơ lì cảm xúc）: Tiền tố 無〜 mang nghĩa 'không có, không ý thức được' (ví dụ: 無意味, 無差別, 無関心).",
           "distractorExplanations": {
-            "A": "Hậu tố/tiền tố không phù hợp với quy tắc cấu tạo từ trong tiếng Nhật N2.",
-            "B": "Hậu tố/tiền tố không phù hợp với quy tắc cấu tạo từ trong tiếng Nhật N2.",
-            "D": "Hậu tố/tiền tố không phù hợp với quy tắc cấu tạo từ trong tiếng Nhật N2."
+            "A": "非: Tiền tố 非〜 mang nghĩa 'phi, không thuộc về' (ví dụ: 非日常, 非公式, 非常識).",
+            "B": "不: Tiền tố 不〜 mang nghĩa 'bất, không' (ví dụ: 不親切, 不安, 不正確).",
+            "D": "未: Tiền tố 未〜 mang nghĩa 'chưa' (ví dụ: 未完成, 未経験, 未成年)."
           },
           "difficultyEstimate": 2,
           "conceptId": "word-formation",
           "remediation": "Học kỹ danh sách tiền tố (無, 未, 非, 不, 総) và hậu tố (〜感, 〜性, 〜化, 〜的) của JLPT N2.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -1145,16 +1146,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "D",
-          "explanationVi": "息が切れる (thở hổn hển, đứt hơi). Quán dụng ngữ miêu tả sự hụt hơi khi vận động nặng.",
+          "explanationVi": "息が切れる: Đứt hơi, thở không ra hơi, hụt hơi do vận động quá sức (leo dốc, chạy nhanh).",
           "distractorExplanations": {
-            "A": "Không phù hợp với ngữ cảnh ngữ nghĩa tự nhiên trong câu tiếng Nhật N2.",
-            "B": "Không phù hợp với ngữ cảnh ngữ nghĩa tự nhiên trong câu tiếng Nhật N2.",
-            "C": "Không phù hợp với ngữ cảnh ngữ nghĩa tự nhiên trong câu tiếng Nhật N2."
+            "A": "気が切れた: Tiếng Nhật dùng 気が抜ける (mất tập trung/hết hăng hái), không dùng 気が切れた.",
+            "B": "足が切れた: Mang nghĩa đen chân bị rách/chảy máu, không dùng chỉ tình trạng mệt khi leo dốc.",
+            "C": "声が切れた: Tiếng Nhật dùng 声がかすれる (khản tiếng) hoặc 声が途切れる (ngập ngừng)."
           },
           "difficultyEstimate": 2,
           "conceptId": "contextual-vocab",
           "remediation": "Học các cụm từ quán dụng ngữ và collocation N2 đi liền câu.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -1188,16 +1189,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "C",
-          "explanationVi": "説得力 (sức thuyết phục). Đi với がある/ない.",
+          "explanationVi": "説得力（sức thuyết phục）: Đi kèm cụm từ 説得力がある/ない (lập luận có căn cứ logic nên tạo sức thuyết phục cao).",
           "distractorExplanations": {
-            "A": "Không phù hợp với ngữ cảnh ngữ nghĩa tự nhiên trong câu tiếng Nhật N2.",
-            "B": "Không phù hợp với ngữ cảnh ngữ nghĩa tự nhiên trong câu tiếng Nhật N2.",
-            "D": "Không phù hợp với ngữ cảnh ngữ nghĩa tự nhiên trong câu tiếng Nhật N2."
+            "A": "納得力: Không tồn tại từ 納得力 trong tiếng Nhật (chỉ có 納得がいく).",
+            "B": "理解力: Năng lực tiếp thu, thấu hiểu của người nghe, không phải thuộc tính thuyết phục của bản đề xuất.",
+            "D": "弁解力: 弁解 là biện minh, bào chữa khi mắc lỗi, mang sắc thái tiêu cực, không đi với 論理的な根拠."
           },
           "difficultyEstimate": 2,
           "conceptId": "contextual-vocab",
           "remediation": "Học các cụm từ quán dụng ngữ và collocation N2 đi liền câu.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -1231,16 +1232,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "A",
-          "explanationVi": "真摯に (một cách chân thành, nghiêm túc đón nhận). Đi với từ 受け止める.",
+          "explanationVi": "真摯に（một cách chân thành, nghiêm túc）: Đi với cụm 真摯に受け止める (lắng nghe và tiếp thu phản hồi/khiếu nại một cách cầu thị để cải thiện).",
           "distractorExplanations": {
-            "B": "Không phù hợp với ngữ cảnh ngữ nghĩa tự nhiên trong câu tiếng Nhật N2.",
-            "C": "Không phù hợp với ngữ cảnh ngữ nghĩa tự nhiên trong câu tiếng Nhật N2.",
-            "D": "Không phù hợp với ngữ cảnh ngữ nghĩa tự nhiên trong câu tiếng Nhật N2."
+            "B": "忠実: Trung thành, sát với nguyên bản (ví dụ: 原作に忠実に映画化する), không đi với クレームを受け止める.",
+            "C": "几帳面: Ngăn nắp, tỉ mỉ, kỹ tính trong nếp sống/ghi chép, không miêu tả thái độ tiếp thu phê bình.",
+            "D": "厳格: Nghiêm khắc về kỷ luật, luật lệ (ví dụ: 厳格なルール), không dùng để tiếp thu khiếu nại."
           },
           "difficultyEstimate": 3,
           "conceptId": "contextual-vocab",
           "remediation": "Học các cụm từ quán dụng ngữ và collocation N2 đi liền câu.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -1274,16 +1275,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "A",
-          "explanationVi": "議論が交わされる (những cuộc tranh luận được trao đổi qua lại sôi nổi).",
+          "explanationVi": "言葉・議論が交わされる: Trao đổi qua lại, tranh luận sôi nổi giữa nhiều phía (激しい議論が交わされた).",
           "distractorExplanations": {
-            "B": "Không phù hợp với ngữ cảnh ngữ nghĩa tự nhiên trong câu tiếng Nhật N2.",
-            "C": "Không phù hợp với ngữ cảnh ngữ nghĩa tự nhiên trong câu tiếng Nhật N2.",
-            "D": "Không phù hợp với ngữ cảnh ngữ nghĩa tự nhiên trong câu tiếng Nhật N2."
+            "B": "渡された: Trao tận tay vật thể hữu hình từ người này sang người kia, không dùng cho cuộc tranh luận.",
+            "C": "通された: Cho phép thông qua hoặc dẫn lối vào phòng (ví dụ: 応接室に通された).",
+            "D": "合わされた: Chắp lại, so khớp với nhau, không đi với 議論."
           },
           "difficultyEstimate": 2,
           "conceptId": "contextual-vocab",
           "remediation": "Học các cụm từ quán dụng ngữ và collocation N2 đi liền câu.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -1317,16 +1318,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "C",
-          "explanationVi": "手がかり (manh mối, manh chiếu để tìm kiếm lời giải).",
+          "explanationVi": "手がかり（manh mối, dấu vết）: Thường đi với cụm 手がかりを探す/手がかりをつかむ (tìm kiếm manh mối để giải quyết vụ án hoặc vấn đề bí ẩn).",
           "distractorExplanations": {
-            "A": "Không phù hợp với ngữ cảnh ngữ nghĩa tự nhiên trong câu tiếng Nhật N2.",
-            "B": "Không phù hợp với ngữ cảnh ngữ nghĩa tự nhiên trong câu tiếng Nhật N2.",
-            "D": "Không phù hợp với ngữ cảnh ngữ nghĩa tự nhiên trong câu tiếng Nhật N2."
+            "A": "足がかり: Chỗ đặt chân, bàn đạp tiến thân/phát triển thị trường (ví dụ: 海外進出への足がかり).",
+            "B": "身がかり: Không tồn tại từ này trong tiếng Nhật.",
+            "D": "目線: Ánh nhìn, góc nhìn quan điểm (ví dụ: 顧客の目線), không dùng cho đầu mối điều tra phá án."
           },
           "difficultyEstimate": 2,
           "conceptId": "contextual-vocab",
           "remediation": "Học các cụm từ quán dụng ngữ và collocation N2 đi liền câu.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -1360,16 +1361,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "A",
-          "explanationVi": "〜とは裏腹に (trái ngược hoàn toàn với... kỳ vọng/dự đoán).",
+          "explanationVi": "〜とは裏腹に（trái ngược hoàn toàn với...）: Đi với danh từ chỉ kỳ vọng, dự đoán (期待とは裏腹に: trái ngược với mong đợi thì kết quả lại tồi tệ).",
           "distractorExplanations": {
-            "B": "Không phù hợp với ngữ cảnh ngữ nghĩa tự nhiên trong câu tiếng Nhật N2.",
-            "C": "Không phù hợp với ngữ cảnh ngữ nghĩa tự nhiên trong câu tiếng Nhật N2.",
-            "D": "Không phù hợp với ngữ cảnh ngữ nghĩa tự nhiên trong câu tiếng Nhật N2."
+            "B": "表裏に: 表裏 (mặt trước mặt sau) thường dùng trong 表裏一体 (gắn bó hai mặt không thể tách rời).",
+            "C": "裏返しに: Lật ngược mặt trong ra ngoài (ví dụ: áo lộn trái), nghĩa vật lý cụ thể.",
+            "D": "表面に: Bề mặt bên ngoài, không đi với mẫu đối lập 〜とは..."
           },
           "difficultyEstimate": 3,
           "conceptId": "contextual-vocab",
           "remediation": "Học các cụm từ quán dụng ngữ và collocation N2 đi liền câu.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -1403,16 +1404,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "A",
-          "explanationVi": "大筋で合意する (đạt được thỏa thuận về các đường lối/nội dung đại cương chính).",
+          "explanationVi": "大筋（đường lối, phương hướng chính, đại cương）: Cụm từ cố định trong đàm phán kinh doanh/ngoại giao: 大筋で合意に達する (đạt được thỏa thuận về các điểm khung cơ bản).",
           "distractorExplanations": {
-            "B": "Không phù hợp với ngữ cảnh ngữ nghĩa tự nhiên trong câu tiếng Nhật N2.",
-            "C": "Không phù hợp với ngữ cảnh ngữ nghĩa tự nhiên trong câu tiếng Nhật N2.",
-            "D": "Không phù hợp với ngữ cảnh ngữ nghĩa tự nhiên trong câu tiếng Nhật N2."
+            "B": "大体: Đại khái, nhìn chung (thường làm phó từ: 大体分かりました).",
+            "C": "大半: Đa phần, phần lớn về mặt tỷ lệ số lượng (ví dụ: 住民の大半).",
+            "D": "大概: Thường là, hầu hết mọi khi (ví dụ: 日曜日は大概家にいる)."
           },
           "difficultyEstimate": 3,
           "conceptId": "contextual-vocab",
           "remediation": "Học các cụm từ quán dụng ngữ và collocation N2 đi liền câu.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -1446,16 +1447,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "C",
-          "explanationVi": "ぶっきらぼう = 愛想がない, そっけない (lạnh lùng, cộc cằn không niềm nở).",
+          "explanationVi": "ぶっきらぼうな ＝ 愛想がない / そっけない: Lạnh lùng, cộc cằn, không tỏ ra niềm nở thân thiện khi tiếp xúc.",
           "distractorExplanations": {
-            "A": "Không mang nghĩa tương đương với từ 「ぶっきらぼうな」 trong ngữ cảnh bài.",
-            "B": "Không mang nghĩa tương đương với từ 「ぶっきらぼうな」 trong ngữ cảnh bài.",
-            "D": "Không mang nghĩa tương đương với từ 「ぶっきらぼうな」 trong ngữ cảnh bài."
+            "A": "礼儀正しい: Lễ phép, lịch sự (ngược nghĩa hoàn toàn với ぶっきらぼう).",
+            "B": "落ち着きのない: Bồn chồn, lúng túng, không điềm tĩnh.",
+            "D": "おしゃべりな: Nói nhiều, lắm lời."
           },
           "difficultyEstimate": 2,
           "conceptId": "paraphrase",
           "remediation": "Học các cặp từ đồng nghĩa, từ thuần Nhật (Wago) tương ứng với Kanji.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -1489,16 +1490,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "C",
-          "explanationVi": "あやふや = はっきりしない, 曖昧 (mơ hồ, không rõ ràng).",
+          "explanationVi": "あやふやな ＝ はっきりしない / 曖昧な: Mơ hồ, không rõ ràng, không dứt khoát dẫn đến thiếu độ tin cậy.",
           "distractorExplanations": {
-            "A": "Không mang nghĩa tương đương với từ 「あやふやな」 trong ngữ cảnh bài.",
-            "B": "Không mang nghĩa tương đương với từ 「あやふやな」 trong ngữ cảnh bài.",
-            "D": "Không mang nghĩa tương đương với từ 「あやふやな」 trong ngữ cảnh bài."
+            "A": "確実な: Chắc chắn, chuẩn xác (ngược nghĩa với あやふや).",
+            "B": "嘘偽りのない: Chân thật, không dối trá.",
+            "D": "論理的な: Mang tính logic, lập luận mạch lạc."
           },
           "difficultyEstimate": 2,
           "conceptId": "paraphrase",
           "remediation": "Học các cặp từ đồng nghĩa, từ thuần Nhật (Wago) tương ứng với Kanji.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -1532,16 +1533,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "A",
-          "explanationVi": "几帳面 = きちんとしている (ngăn nắp, cẩn thận chỉn chu).",
+          "explanationVi": "几帳面な ＝ きちんとしている: Ngăn nắp, chỉn chu, làm việc cẩn thận quy củ từng chi tiết.",
           "distractorExplanations": {
-            "B": "Không mang nghĩa tương đương với từ 「几帳面な」 trong ngữ cảnh bài.",
-            "C": "Không mang nghĩa tương đương với từ 「几帳面な」 trong ngữ cảnh bài.",
-            "D": "Không mang nghĩa tương đương với từ 「几帳面な」 trong ngữ cảnh bài."
+            "B": "のんびりしている: Thong thả, nhàn nhã.",
+            "C": "おおざっぱな: Đại khái, qua loa (ngược nghĩa với 几帳面).",
+            "D": "神経質な: Quá nhạy cảm, dễ cáu gắt/lo lắng thái quá (sắc thái tiêu cực hơn 几帳面)."
           },
           "difficultyEstimate": 2,
           "conceptId": "paraphrase",
           "remediation": "Học các cặp từ đồng nghĩa, từ thuần Nhật (Wago) tương ứng với Kanji.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -1575,16 +1576,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "D",
-          "explanationVi": "怯える = 怖がる (khiếp sợ, hoảng sợ).",
+          "explanationVi": "怯える（おびえる） ＝ 怖がる: Khiếp sợ, hoảng sợ (chú cún run rẩy sợ hãi trước tiếng sấm sét).",
           "distractorExplanations": {
-            "A": "Không mang nghĩa tương đương với từ 「怯える」 trong ngữ cảnh bài.",
-            "B": "Không mang nghĩa tương đương với từ 「怯える」 trong ngữ cảnh bài.",
-            "C": "Không mang nghĩa tương đương với từ 「怯える」 trong ngữ cảnh bài."
+            "A": "怒る: Giận dữ, tức giận.",
+            "B": "驚く: Bất ngờ, ngạc nhiên.",
+            "C": "悲しむ: Đau buồn, thương tâm."
           },
           "difficultyEstimate": 2,
           "conceptId": "paraphrase",
           "remediation": "Học các cặp từ đồng nghĩa, từ thuần Nhật (Wago) tương ứng với Kanji.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -1618,16 +1619,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "D",
-          "explanationVi": "お詫び = 謝罪 (lời xin lỗi, tạ lỗi).",
+          "explanationVi": "お詫び（おわび） ＝ 謝罪: Lời xin lỗi, tạ lỗi trang trọng trong giao tiếp thương mại (深くお詫び申し上げます).",
           "distractorExplanations": {
-            "A": "Không mang nghĩa tương đương với từ 「お詫び」 trong ngữ cảnh bài.",
-            "B": "Không mang nghĩa tương đương với từ 「お詫び」 trong ngữ cảnh bài.",
-            "C": "Không mang nghĩa tương đương với từ 「お詫び」 trong ngữ cảnh bài."
+            "A": "感謝: Cảm ơn, biết ơn.",
+            "B": "報告: Báo cáo tình hình.",
+            "C": "挨拶: Chào hỏi."
           },
           "difficultyEstimate": 2,
           "conceptId": "paraphrase",
           "remediation": "Học các cặp từ đồng nghĩa, từ thuần Nhật (Wago) tương ứng với Kanji.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -1661,16 +1662,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "D",
-          "explanationVi": "経緯（いきさつ/けいい）: ngọn ngành nguồn cơn diễn biến của một sự việc. Không dùng cho quan hệ người (distractor 1), lộ trình đi đường (distractor 2), hay giờ giấc (distractor 3).",
+          "explanationVi": "経緯（けいい / いきさつ）: Diễn biến ngọn ngành, đầu đuôi sự tình của một vụ việc. Chỉ có D sử dụng đúng: 事件の詳しい経緯.",
           "distractorExplanations": {
-            "A": "Sử dụng từ 「経緯」 sai ngữ cảnh hoặc kết hợp sai từ loại/nghĩa thực tế trong câu.",
-            "B": "Sử dụng từ 「経緯」 sai ngữ cảnh hoặc kết hợp sai từ loại/nghĩa thực tế trong câu.",
-            "C": "Sử dụng từ 「経緯」 sai ngữ cảnh hoặc kết hợp sai từ loại/nghĩa thực tế trong câu."
+            "A": "Quan hệ bạn bè quen biết lâu năm dùng 間柄 (あいだがら) hoặc 友人, không dùng 経緯.",
+            "B": "Lộ trình đi đường từ ga đến thư viện phải dùng 道順 (みちじゅん) hoặc ルート.",
+            "C": "Giờ giấc kết thúc hội nghị phải dùng 終了予定時刻 hoặc 予定."
           },
           "difficultyEstimate": 3,
           "conceptId": "usage-経緯",
           "remediation": "Tra cứu các ví dụ câu thực tế của từ 経緯 trong từ điển Nhật-Nhật.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -1704,16 +1705,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "A",
-          "explanationVi": "ニュアンス (sắc thái tinh tế của lời nói/nghệ thuật). Không dùng cho diện tích phòng, tốc độ máy móc, hay xác suất thời tiết.",
+          "explanationVi": "ニュアンス: Sắc thái tinh tế của lời văn, ngôn từ hoặc nghệ thuật. Chỉ có A dùng đúng: 微妙な言葉のニュアンスの違い.",
           "distractorExplanations": {
-            "B": "Sử dụng từ 「ニュアンス」 sai ngữ cảnh hoặc kết hợp sai từ loại/nghĩa thực tế trong câu.",
-            "C": "Sử dụng từ 「ニュアンス」 sai ngữ cảnh hoặc kết hợp sai từ loại/nghĩa thực tế trong câu.",
-            "D": "Sử dụng từ 「ニュアンス」 sai ngữ cảnh hoặc kết hợp sai từ loại/nghĩa thực tế trong câu."
+            "B": "Phòng ốc rộng rãi phải dùng 面積 hoặc 空間, không dùng ニュアンス.",
+            "C": "Máy tính xử lý nhanh phải dùng 動作速度 hoặc レスポンス.",
+            "D": "Xác suất trời mưa cao phải dùng 降水確率 hoặc 可能性."
           },
           "difficultyEstimate": 2,
           "conceptId": "usage-ニュアンス",
           "remediation": "Tra cứu các ví dụ câu thực tế của từ ニュアンス trong từ điển Nhật-Nhật.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -1747,16 +1748,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "D",
-          "explanationVi": "著しい（いちじるしい）: rõ rệt, vượt bậc (thường đi với 変化, 進歩, 発展, 増加). Không dùng cho chiều cao người, vị cay đồ ăn hay không khí bí bách.",
+          "explanationVi": "著しい（いちじるしい）: Rõ rệt, vượt bậc, đáng chú ý. Thường đi cùng danh từ biến đổi: 変化, 進歩, 発展, 増加. D là câu duy nhất dùng chính xác.",
           "distractorExplanations": {
-            "A": "Sử dụng từ 「著しい」 sai ngữ cảnh hoặc kết hợp sai từ loại/nghĩa thực tế trong câu.",
-            "B": "Sử dụng từ 「著しい」 sai ngữ cảnh hoặc kết hợp sai từ loại/nghĩa thực tế trong câu.",
-            "C": "Sử dụng từ 「著しい」 sai ngữ cảnh hoặc kết hợp sai từ loại/nghĩa thực tế trong câu."
+            "A": "Chiều cao cơ thể người vượt trội phải dùng 背が高い hoặc 長身, không dùng 著しい.",
+            "B": "Độ cay của món ăn phải dùng 非常に辛い hoặc 強烈な辛さ.",
+            "C": "Không khí phòng ngột ngạt phải dùng 息苦しい hoặc 空気がこもっている."
           },
           "difficultyEstimate": 2,
           "conceptId": "usage-著しい",
           "remediation": "Tra cứu các ví dụ câu thực tế của từ 著しい trong từ điển Nhật-Nhật.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -1790,16 +1791,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "D",
-          "explanationVi": "いたって: hết sức, vô cùng (thường đi với 元気, 普通, 簡単, 平凡 để chỉ trạng thái tự nhiên). Không dùng bổ nghĩa cho động từ hành động.",
+          "explanationVi": "いたって: Cực kỳ, hết sức (chỉ trạng thái bình thường tự nhiên: いたって元気, いたって普通, いたって健康). D dùng đúng ngữ cảnh.",
           "distractorExplanations": {
-            "A": "Sử dụng từ 「いたって」 sai ngữ cảnh hoặc kết hợp sai từ loại/nghĩa thực tế trong câu.",
-            "B": "Sử dụng từ 「いたって」 sai ngữ cảnh hoặc kết hợp sai từ loại/nghĩa thực tế trong câu.",
-            "C": "Sử dụng từ 「いたって」 sai ngữ cảnh hoặc kết hợp sai từ loại/nghĩa thực tế trong câu."
+            "A": "Tuân thủ nghiêm ngặt giờ giấc phải dùng きちんと hoặc 厳格に.",
+            "B": "Vừa mới tới nơi hẹn phải dùng やっと hoặc ようやく.",
+            "C": "Vị mặn quá gắt phải dùng ひどく hoặc 極端に."
           },
           "difficultyEstimate": 3,
           "conceptId": "usage-いたって",
           "remediation": "Tra cứu các ví dụ câu thực tế của từ いたって trong từ điển Nhật-Nhật.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -1833,16 +1834,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "B",
-          "explanationVi": "たちまち: ngay tức thì, trong nháy mắt (chỉ sự việc biến chuyển cực nhanh ngoài dự kiến).",
+          "explanationVi": "たちまち（忽ち）: Ngay lập tức, trong chớp mắt (chỉ biến cố thay đổi chớp nhoáng: vé vừa mở bán đã hết veo たちまち売り切れた).",
           "distractorExplanations": {
-            "A": "Sử dụng từ 「忽ち」 sai ngữ cảnh hoặc kết hợp sai từ loại/nghĩa thực tế trong câu.",
-            "C": "Sử dụng từ 「忽ち」 sai ngữ cảnh hoặc kết hợp sai từ loại/nghĩa thực tế trong câu.",
-            "D": "Sử dụng từ 「忽ち」 sai ngữ cảnh hoặc kết hợp sai từ loại/nghĩa thực tế trong câu."
+            "A": "Thói quen dậy sớm 6 giờ sáng đều đặn hàng ngày phải dùng 毎朝欠かさず hoặc きちんと.",
+            "C": "Mẫu mã quần áo cũ kỹ phải dùng すっかり hoặc だいぶ.",
+            "D": "Tập trung học hành cao độ trước ngày thi phải dùng 一生懸命 hoặc ひたすら."
           },
           "difficultyEstimate": 2,
           "conceptId": "usage-忽ち",
           "remediation": "Tra cứu các ví dụ câu thực tế của từ 忽ち trong từ điển Nhật-Nhật.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -1876,16 +1877,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "D",
-          "explanationVi": "〜に際して (nhân dịp, khi bắt đầu sự kiện trọng đại). Thường dùng trong nghi thức trang trọng.",
+          "explanationVi": "〜に際して（nhân dịp, khi bắt đầu sự kiện trọng thể）: Đi với danh từ chỉ sự kiện trang trọng (開会に際して一言ご挨拶を申し上げます).",
           "distractorExplanations": {
-            "A": "Mẫu ngữ pháp không phù hợp cấu trúc hoặc kết hợp trợ từ/thể sai trong câu.",
-            "B": "Mẫu ngữ pháp không phù hợp cấu trúc hoặc kết hợp trợ từ/thể sai trong câu.",
-            "C": "Mẫu ngữ pháp không phù hợp cấu trúc hoặc kết hợp trợ từ/thể sai trong câu."
+            "A": "〜を契機に: Lấy làm cơ hội bước ngoặt để thay đổi sự việc lớn, không dùng cho mở đầu nghi thức chào hỏi.",
+            "B": "〜につれて: Tỷ lệ thuận kéo theo (càng... càng...), vế trước phải là sự biến đổi kéo dài.",
+            "C": "〜に即して: Dựa trên, bám sát theo (thực tế, kinh nghiệm, quy định: 事実に即して)."
           },
           "difficultyEstimate": 2,
           "conceptId": "grammar-forms",
           "remediation": "Ôn tập cấu trúc ngữ pháp に際して cấp độ N2.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -1919,16 +1920,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "A",
-          "explanationVi": "〜を契機に (lấy ... làm cột mốc cơ duyên để thay đổi bước ngoặt).",
+          "explanationVi": "〜を契機に（lấy làm mốc duyên cớ tạo bước ngoặt phát triển）: 海外留学を契機に (nhờ cột mốc đi du học mà tầm nhìn thế giới rộng mở).",
           "distractorExplanations": {
-            "B": "Mẫu ngữ pháp không phù hợp cấu trúc hoặc kết hợp trợ từ/thể sai trong câu.",
-            "C": "Mẫu ngữ pháp không phù hợp cấu trúc hoặc kết hợp trợ từ/thể sai trong câu.",
-            "D": "Mẫu ngữ pháp không phù hợp cấu trúc hoặc kết hợp trợ từ/thể sai trong câu."
+            "B": "〜を問わず: Bất kể, không phân biệt (ví dụ: 年齢を問わず).",
+            "C": "〜を皮切りに: Khởi đầu bằng... sau đó hàng loạt hành động cùng loại lan rộng liên tiếp.",
+            "D": "〜をめぐって: Xoay quanh một tranh cãi, bất đồng (ví dụ: 遺産をめぐって対立する)."
           },
           "difficultyEstimate": 2,
           "conceptId": "grammar-forms",
           "remediation": "Ôn tập cấu trúc ngữ pháp を契機に cấp độ N2.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -1962,16 +1963,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "D",
-          "explanationVi": "〜ざるを得ない (đành phải, buộc phải làm dù không muốn). Động từ thể ない bỏ ない + ざるを得ない (する -> せざるを得ない).",
+          "explanationVi": "〜ざるを得ない（đành phải, buộc phải làm dù bản thân không muốn）: Trước bằng chứng đanh thép này thì đành phải thừa nhận (認めざるを得ない).",
           "distractorExplanations": {
-            "A": "Mẫu ngữ pháp không phù hợp cấu trúc hoặc kết hợp trợ từ/thể sai trong câu.",
-            "B": "Mẫu ngữ pháp không phù hợp cấu trúc hoặc kết hợp trợ từ/thể sai trong câu.",
-            "C": "Mẫu ngữ pháp không phù hợp cấu trúc hoặc kết hợp trợ từ/thể sai trong câu."
+            "A": "〜ずにはいられない: Không kìm nén nổi cảm xúc tự nhiên (ví dụ: 笑わずにはいられない), không dùng khi bị ép bởi chứng cứ.",
+            "B": "〜かねない: Có nguy cơ dẫn tới kết quả xấu ngoài ý muốn (ví dụ: 事故を起こしかねない).",
+            "C": "〜かねる: Khó lòng làm được / từ chối khéo (ví dụ: わかりかねます)."
           },
           "difficultyEstimate": 2,
           "conceptId": "grammar-forms",
           "remediation": "Ôn tập cấu trúc ngữ pháp ざるを得ない cấp độ N2.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -2005,16 +2006,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "D",
-          "explanationVi": "〜どころか (đâu chỉ có ... mà còn tới mức; hoặc không những không mà ngược lại). Ở đây diễn tả cấp độ vượt trội.",
+          "explanationVi": "〜どころか（đâu chỉ dừng lại ở... mà còn tới mức...）: 英語どころか (đâu chỉ tiếng Anh, mà tiếng Pháp hay tiếng Trung anh ấy cũng nói lưu loát).",
           "distractorExplanations": {
-            "A": "Mẫu ngữ pháp không phù hợp cấu trúc hoặc kết hợp trợ từ/thể sai trong câu.",
-            "B": "Mẫu ngữ pháp không phù hợp cấu trúc hoặc kết hợp trợ từ/thể sai trong câu.",
-            "C": "Mẫu ngữ pháp không phù hợp cấu trúc hoặc kết hợp trợ từ/thể sai trong câu."
+            "A": "〜ばかりか: Không những mà còn... (nhưng đằng sau thường đi với も hoặc bổ sung thông thường, không mạnh mẽ như どころか khi so tài năng vượt bậc).",
+            "B": "〜どころではなく: Không phải lúc để làm gì (ví dụ: 忙しくて旅行どころではない).",
+            "C": "〜のみならず: Không chỉ A mà cả B (văn viết trang trọng, nhưng để diễn tả sự kinh ngạc đối lập mức độ thì どころか chuẩn xác hơn)."
           },
           "difficultyEstimate": 2,
           "conceptId": "grammar-forms",
           "remediation": "Ôn tập cấu trúc ngữ pháp どころか cấp độ N2.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -2048,16 +2049,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "D",
-          "explanationVi": "〜にほかならない (chính là, không gì khác ngoài...). Nhấn mạnh nguyên nhân cốt lõi duy nhất.",
+          "explanationVi": "〜にほかならない（chính là, không gì khác ngoài...）: Nhấn mạnh nguyên nhân cốt lõi duy nhất (努力の賜物にほかならない - chính là quả ngọt từ nỗ lực của toàn đội).",
           "distractorExplanations": {
-            "A": "Mẫu ngữ pháp không phù hợp cấu trúc hoặc kết hợp trợ từ/thể sai trong câu.",
-            "B": "Mẫu ngữ pháp không phù hợp cấu trúc hoặc kết hợp trợ từ/thể sai trong câu.",
-            "C": "Mẫu ngữ pháp không phù hợp cấu trúc hoặc kết hợp trợ từ/thể sai trong câu."
+            "A": "〜にすぎない: Chẳng qua chỉ là... (mang ý coi nhẹ, hạ thấp mức độ, trái với ý khen ngợi nỗ lực).",
+            "B": "〜に相違ない: Chắc chắn là... (phỏng đoán chủ quan dựa trên suy luận).",
+            "C": "〜に越したことはない: Được như thế thì tốt nhất (ví dụ: 早いに越したことはない)."
           },
           "difficultyEstimate": 2,
           "conceptId": "grammar-forms",
           "remediation": "Ôn tập cấu trúc ngữ pháp にほかならない cấp độ N2.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -2091,16 +2092,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "C",
-          "explanationVi": "〜にすぎない (chỉ đơn thuần là..., chẳng qua chỉ là). Thường đi với 単なる.",
+          "explanationVi": "〜にすぎない（chỉ đơn thuần là... không hơn không kém）: Thường kết hợp với 単なる (単なる冗談にすぎない - chỉ là đùa thôi, đừng để bụng).",
           "distractorExplanations": {
-            "A": "Mẫu ngữ pháp không phù hợp cấu trúc hoặc kết hợp trợ từ/thể sai trong câu.",
-            "B": "Mẫu ngữ pháp không phù hợp cấu trúc hoặc kết hợp trợ từ/thể sai trong câu.",
-            "D": "Mẫu ngữ pháp không phù hợp cấu trúc hoặc kết hợp trợ từ/thể sai trong câu."
+            "A": "〜にほかならない: Chính là (nhấn mạnh nguyên nhân, không đi sau 単なる).",
+            "B": "〜に決まっている: Chắc chắn là (khẳng định ý kiến chắc nịch).",
+            "D": "〜に及ばない: Không cần thiết phải làm gì (ví dụ: 心配するに及ばない)."
           },
           "difficultyEstimate": 2,
           "conceptId": "grammar-forms",
           "remediation": "Ôn tập cấu trúc ngữ pháp にすぎない cấp độ N2.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -2134,16 +2135,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "D",
-          "explanationVi": "動詞ます形＋っこない (tuyệt đối không thể nào...). Phủ định mạnh mẽ trong văn nói.",
+          "explanationVi": "〜っこない（tuyệt đối không thể nào...）: Đi với động từ thể ます bỏ ます (hoặc thể khả năng): 読めっこないよ (tài liệu dày thế này 1 ngày sao đọc nổi!). Khẩu ngữ phủ định mạnh mẽ.",
           "distractorExplanations": {
-            "A": "Mẫu ngữ pháp không phù hợp cấu trúc hoặc kết hợp trợ từ/thể sai trong câu.",
-            "B": "Mẫu ngữ pháp không phù hợp cấu trúc hoặc kết hợp trợ từ/thể sai trong câu.",
-            "C": "Mẫu ngữ pháp không phù hợp cấu trúc hoặc kết hợp trợ từ/thể sai trong câu."
+            "A": "〜かねない: Có khả năng gây ra hậu quả xấu, không dùng để phủ định khả năng đọc hết.",
+            "B": "〜きれない: Không thể làm hết nổi (nhưng đi với động từ dạng V-ます: 読みきれない, còn ở đây câu dùng thể khả năng 読め...).",
+            "C": "〜ようがない: Không có cách nào để làm (đi với ます: 読みようがない)."
           },
           "difficultyEstimate": 2,
           "conceptId": "grammar-forms",
           "remediation": "Ôn tập cấu trúc ngữ pháp っこない cấp độ N2.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -2177,16 +2178,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "C",
-          "explanationVi": "〜ものがある (có một cảm giác thực sự sâu sắc/đáng nể về...).",
+          "explanationVi": "〜ものがある（có điều gì đó rất sâu sắc, gợi cảm xúc mạnh mẽ）: 演説には、心を揺さぶるものがある (trong bài diễn văn có điều gì đó chạm sâu vào trái tim người nghe).",
           "distractorExplanations": {
-            "A": "Mẫu ngữ pháp không phù hợp cấu trúc hoặc kết hợp trợ từ/thể sai trong câu.",
-            "B": "Mẫu ngữ pháp không phù hợp cấu trúc hoặc kết hợp trợ từ/thể sai trong câu.",
-            "D": "Mẫu ngữ pháp không phù hợp cấu trúc hoặc kết hợp trợ từ/thể sai trong câu."
+            "A": "〜ことになっている: Theo quy định/dự định (không phù hợp với cảm xúc bài diễn văn).",
+            "B": "〜わけにはいかない: Vì lý do đạo đức/xã hội không thể làm (ví dụ: 休むわけにはいかない).",
+            "D": "〜に違いない: Chắc chắn là (phán đoán, nhưng không diễn tả được cảm xúc lắng đọng)."
           },
           "difficultyEstimate": 3,
           "conceptId": "grammar-forms",
           "remediation": "Ôn tập cấu trúc ngữ pháp ものがある cấp độ N2.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -2220,16 +2221,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "B",
-          "explanationVi": "〜にこたえて (đáp ứng lại kỳ vọng, yêu cầu, nguyện vọng).",
+          "explanationVi": "〜にこたえて（đáp lại kỳ vọng, tiếng gọi, yêu cầu）: アンコールにこたえて (đáp lại tiếng hò reo nhiệt liệt của khán giả, ban nhạc diễn thêm 1 bài).",
           "distractorExplanations": {
-            "A": "Mẫu ngữ pháp không phù hợp cấu trúc hoặc kết hợp trợ từ/thể sai trong câu.",
-            "C": "Mẫu ngữ pháp không phù hợp cấu trúc hoặc kết hợp trợ từ/thể sai trong câu.",
-            "D": "Mẫu ngữ pháp không phù hợp cấu trúc hoặc kết hợp trợ từ/thể sai trong câu."
+            "A": "〜に沿って: Dọc theo con đường / bám sát theo kế hoạch, phương châm.",
+            "C": "〜に即して: Dựa trên thực tế, quy định cụ thể.",
+            "D": "〜に基づいて: Dựa trên nền tảng số liệu, dữ liệu thực tế."
           },
           "difficultyEstimate": 2,
           "conceptId": "grammar-forms",
           "remediation": "Ôn tập cấu trúc ngữ pháp にこたえて cấp độ N2.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -2263,16 +2264,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "D",
-          "explanationVi": "〜反面 (mặt khác, trái lại nhưng đồng thời tồn tại song song).",
+          "explanationVi": "〜反面（trái lại, nhưng ngược lại tồn tại song song mặt tiêu cực）: Đi kèm tính từ な: 便利な反面 (tiện lợi nhưng mặt trái là chi phí sinh hoạt đắt đỏ).",
           "distractorExplanations": {
-            "A": "Mẫu ngữ pháp không phù hợp cấu trúc hoặc kết hợp trợ từ/thể sai trong câu.",
-            "B": "Mẫu ngữ pháp không phù hợp cấu trúc hoặc kết hợp trợ từ/thể sai trong câu.",
-            "C": "Mẫu ngữ pháp không phù hợp cấu trúc hoặc kết hợp trợ từ/thể sai trong câu."
+            "A": "〜一方: Một mặt... mặt khác (nếu dùng 一方 thì vế sau thường bổ sung mặt khác cùng chiều hoặc song song, cấu trúc 反面 chuẩn xác hơn khi đối lập trực diện ưu - nhược).",
+            "B": "半面: Viết sai chính tả chữ 反 thành 半.",
+            "C": "反して: Đi với trợ từ に (〜に反して: trái ngược với dự đoán)."
           },
           "difficultyEstimate": 2,
           "conceptId": "grammar-forms",
           "remediation": "Ôn tập cấu trúc ngữ pháp 反面 cấp độ N2.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -2306,16 +2307,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "D",
-          "explanationVi": "〜にかかわらず (bất kể, không phân biệt A hay B).",
+          "explanationVi": "〜にかかわらず（bất kể, không phân biệt）: Thường đi với các cặp đối lập như 有無 (có hay không), 善悪 (tốt hay xấu), 天候 (thời tiết). 経験の有無にかかわらず.",
           "distractorExplanations": {
-            "A": "Mẫu ngữ pháp không phù hợp cấu trúc hoặc kết hợp trợ từ/thể sai trong câu.",
-            "B": "Mẫu ngữ pháp không phù hợp cấu trúc hoặc kết hợp trợ từ/thể sai trong câu.",
-            "C": "Mẫu ngữ pháp không phù hợp cấu trúc hoặc kết hợp trợ từ/thể sai trong câu."
+            "A": "をとわず: Viết sai trợ từ (thành ngữ đúng là を問わず, nhưng ở đây có 有無 nên đi với にかかわらず).",
+            "B": "にもかかわらず: Mặc dù... nhưng (chỉ sự nhượng bộ bất ngờ, ví dụ: 雨にもかかわらず).",
+            "C": "をかねて: Kết hợp 2 mục đích (ví dụ: 散歩をかねて買い物に行く)."
           },
           "difficultyEstimate": 2,
           "conceptId": "grammar-forms",
           "remediation": "Ôn tập cấu trúc ngữ pháp にかかわらず cấp độ N2.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -2349,16 +2350,16 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "A",
-          "explanationVi": "〜を問わず (không đòi hỏi, bất kể ngày đêm/giới tính/quốc tịch).",
+          "explanationVi": "〜を問わず（không màng, không phân biệt）: Đi với danh từ chỉ phạm trù đối lập (年齢や性別を問わず: không phân biệt tuổi tác hay giới tính).",
           "distractorExplanations": {
-            "B": "Mẫu ngữ pháp không phù hợp cấu trúc hoặc kết hợp trợ từ/thể sai trong câu.",
-            "C": "Mẫu ngữ pháp không phù hợp cấu trúc hoặc kết hợp trợ từ/thể sai trong câu.",
-            "D": "Mẫu ngữ pháp không phù hợp cấu trúc hoặc kết hợp trợ từ/thể sai trong câu."
+            "B": "〜によらず: Dựa theo quy tắc, không phổ biến đi với 年齢や性別.",
+            "C": "〜を限りに: Kể từ mốc thời gian này trở đi là chấm dứt (ví dụ: 今日を限りにタバコをやめる).",
+            "D": "〜を契機に: Lấy làm cơ hội bước ngoặt."
           },
           "difficultyEstimate": 2,
           "conceptId": "grammar-forms",
           "remediation": "Ôn tập cấu trúc ngữ pháp を問わず cấp độ N2.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -2402,7 +2403,7 @@ window.JP_MOCK_DATA = {
           "conceptId": "star-ordering",
           "assembledSentence": "新製品の売れ行き次第では生産ラインの増設も検討しなければならない。",
           "remediation": "Xác định các cặp ngữ pháp cố định và trật tự bổ nghĩa trước khi điền vào vị trí ngôi sao.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -2446,7 +2447,7 @@ window.JP_MOCK_DATA = {
           "conceptId": "star-ordering",
           "assembledSentence": "どんなに困難な状況にあっても諦めることなく前進し続けるべきだ。",
           "remediation": "Xác định các cặp ngữ pháp cố định và trật tự bổ nghĩa trước khi điền vào vị trí ngôi sao.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -2490,7 +2491,7 @@ window.JP_MOCK_DATA = {
           "conceptId": "star-ordering",
           "assembledSentence": "この計画は予算の都合上計画通りに進めることが困難になってきた。",
           "remediation": "Xác định các cặp ngữ pháp cố định và trật tự bổ nghĩa trước khi điền vào vị trí ngôi sao.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -2534,7 +2535,7 @@ window.JP_MOCK_DATA = {
           "conceptId": "star-ordering",
           "assembledSentence": "長年の研究の末に新しい治療法をついに発見した。",
           "remediation": "Xác định các cặp ngữ pháp cố định và trật tự bổ nghĩa trước khi điền vào vị trí ngôi sao.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -2578,7 +2579,7 @@ window.JP_MOCK_DATA = {
           "conceptId": "star-ordering",
           "assembledSentence": "彼は多忙を極めるスケジュールを縫ってボランティア活動に参加した。",
           "remediation": "Xác định các cặp ngữ pháp cố định và trật tự bổ nghĩa trước khi điền vào vị trí ngôi sao.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -2614,14 +2615,14 @@ window.JP_MOCK_DATA = {
           "correctAnswer": "C",
           "explanationVi": "みなされがちである: thường hay có khuynh hướng bị coi là... Phù hợp với câu mở đầu miêu tả định kiến của xã hội hiện đại.",
           "distractorExplanations": {
-            "A": "Không phù hợp với mạch văn lập luận logic và liên kết câu của bài đọc.",
-            "B": "Không phù hợp với mạch văn lập luận logic và liên kết câu của bài đọc.",
-            "D": "Không phù hợp với mạch văn lập luận logic và liên kết câu của bài đọc."
+            "A": "みなされるわけがない: 'Tuyệt đối không thể bị coi là', đi ngược lại phản ánh định kiến thực tế.",
+            "B": "みなすにすぎない: 'Chẳng qua chỉ coi là', thiếu cấu trúc bị động chỉ định kiến xã hội.",
+            "D": "みなさざるを得ない: 'Buộc phải coi là', không phù hợp với văn cảnh miêu tả xu hướng xã hội."
           },
           "difficultyEstimate": 3,
           "conceptId": "text-grammar",
           "remediation": "Nắm vững liên kết câu, đại từ chỉ thị, quan hệ nhân quả và tâm thế người viết.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -2657,14 +2658,14 @@ window.JP_MOCK_DATA = {
           "correctAnswer": "B",
           "explanationVi": "V-るあまり: vì quá... nên dẫn đến kết quả tiêu cực. 'Vì quá sợ sự im lặng mà...' phù hợp nhất.",
           "distractorExplanations": {
-            "A": "Không phù hợp với mạch văn lập luận logic và liên kết câu của bài đọc.",
-            "C": "Không phù hợp với mạch văn lập luận logic và liên kết câu của bài đọc.",
-            "D": "Không phù hợp với mạch văn lập luận logic và liên kết câu của bài đọc."
+            "A": "うえに: 'Hơn nữa', dùng bổ sung tính chất cùng chiều tốt hoặc xấu, không chỉ nguyên nhân quá mức.",
+            "C": "どころか: 'Đâu chỉ... mà còn', không hợp nghĩa liên kết điều kiện kết quả.",
+            "D": "反面: 'Mặt khác', diễn tả hai mặt đối lập của một sự vật."
           },
           "difficultyEstimate": 3,
           "conceptId": "text-grammar",
           "remediation": "Nắm vững liên kết câu, đại từ chỉ thị, quan hệ nhân quả và tâm thế người viết.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -2700,14 +2701,14 @@ window.JP_MOCK_DATA = {
           "correctAnswer": "C",
           "explanationVi": "〜てこそ: chính nhờ có... thì mới nảy sinh ra... Ở đây nhấn mạnh 'Chính nhờ có thái độ thấu cảm sự im lặng thì mới có sự đồng điệu'.",
           "distractorExplanations": {
-            "A": "Không phù hợp với mạch văn lập luận logic và liên kết câu của bài đọc.",
-            "B": "Không phù hợp với mạch văn lập luận logic và liên kết câu của bài đọc.",
-            "D": "Không phù hợp với mạch văn lập luận logic và liên kết câu của bài đọc."
+            "A": "がある反面: 'Mặt khác có...', không tạo thành cấu trúc điều kiện nhấn mạnh.",
+            "B": "がある一方で: 'Một mặt thì...', dùng cho sự so sánh song song.",
+            "D": "があるにつれて: 'Càng có thì càng...', diễn tả sự biến đổi cùng chiều theo thời gian."
           },
           "difficultyEstimate": 3,
           "conceptId": "text-grammar",
           "remediation": "Nắm vững liên kết câu, đại từ chỉ thị, quan hệ nhân quả và tâm thế người viết.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -2743,14 +2744,14 @@ window.JP_MOCK_DATA = {
           "correctAnswer": "C",
           "explanationVi": "〜にほかならない: chính là không gì khác ngoài... Khẳng định bản chất cao quý của sự im lặng.",
           "distractorExplanations": {
-            "A": "Không phù hợp với mạch văn lập luận logic và liên kết câu của bài đọc.",
-            "B": "Không phù hợp với mạch văn lập luận logic và liên kết câu của bài đọc.",
-            "D": "Không phù hợp với mạch văn lập luận logic và liên kết câu của bài đọc."
+            "A": "すぎない: 'Chẳng qua chỉ là', hạ thấp giá trị, trái với luận điểm khẳng định sự màu mỡ của im lặng.",
+            "B": "っこない: 'Tuyệt đối không thể', dùng cho động từ, sai cấu trúc với danh từ + に.",
+            "D": "かねない: 'Có nguy cơ xấu', mang sắc thái rủi ro tiêu cực."
           },
           "difficultyEstimate": 3,
           "conceptId": "text-grammar",
           "remediation": "Nắm vững liên kết câu, đại từ chỉ thị, quan hệ nhân quả và tâm thế người viết.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -2786,14 +2787,14 @@ window.JP_MOCK_DATA = {
           "correctAnswer": "C",
           "explanationVi": "〜べきではないだろうか: há chẳng phải chúng ta nên... hay sao? Kết luận đưa ra lời khuyên đầy sức thuyết phục.",
           "distractorExplanations": {
-            "A": "Không phù hợp với mạch văn lập luận logic và liên kết câu của bài đọc.",
-            "B": "Không phù hợp với mạch văn lập luận logic và liên kết câu của bài đọc.",
-            "D": "Không phù hợp với mạch văn lập luận logic và liên kết câu của bài đọc."
+            "A": "まいか: 'Chắc là không / Quyết không', không phù hợp với câu kết thúc kêu gọi nhận thức.",
+            "B": "っこないだろう: 'Chắc là tuyệt đối không', mang nghĩa phủ định buông xuôi.",
+            "D": "かねるだろう: 'Khó lòng mà...', diễn đạt sự bất lực của người nói."
           },
           "difficultyEstimate": 3,
           "conceptId": "text-grammar",
           "remediation": "Nắm vững liên kết câu, đại từ chỉ thị, quan hệ nhân quả và tâm thế người viết.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Official JLPT N2 Test Blueprint",
@@ -2829,14 +2830,14 @@ window.JP_MOCK_DATA = {
           "correctAnswer": "C",
           "explanationVi": "Tác giả chỉ ra rằng niềm say mê công việc (やりがい) không phải có sẵn từ đầu mà được tích lũy dần qua sự cống hiến và thực tiễn mỗi ngày.",
           "distractorExplanations": {
-            "A": "Nội dung sai lệch so với quan điểm và lập luận cốt lõi của tác giả trong đoạn văn.",
-            "B": "Nội dung sai lệch so với quan điểm và lập luận cốt lõi của tác giả trong đoạn văn.",
-            "D": "Nội dung sai lệch so với quan điểm và lập luận cốt lõi của tác giả trong đoạn văn."
+            "A": "Trái với bài đọc: bài khẳng định không nhất thiết phải bắt đầu từ đam mê sẵn có mới tìm được ý nghĩa.",
+            "B": "Suy diễn tiêu cực cực đoan: tác giả không hề khuyên 'không nên có đam mê khi làm việc'.",
+            "D": "Lệch trọng tâm: tác giả nêu sự công nhận của xung quanh là một phần trải nghiệm, không phải 'mục đích duy nhất'."
           },
           "difficultyEstimate": 3,
           "conceptId": "reading-short",
           "remediation": "Đọc quét nhanh tìm câu chủ đề (topic sentence) thường nằm ở đầu hoặc cuối đoạn văn.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Original N2 Reading Corpus",
@@ -2872,14 +2873,14 @@ window.JP_MOCK_DATA = {
           "correctAnswer": "B",
           "explanationVi": "Tác giả khẳng định thất bại từ những thử nghiệm mới phải được xem là dữ liệu quý báu để toàn thể tổ chức học hỏi và đổi mới.",
           "distractorExplanations": {
-            "A": "Nội dung sai lệch so với quan điểm và lập luận cốt lõi của tác giả trong đoạn văn.",
-            "C": "Nội dung sai lệch so với quan điểm và lập luận cốt lõi của tác giả trong đoạn văn.",
-            "D": "Nội dung sai lệch so với quan điểm và lập luận cốt lõi của tác giả trong đoạn văn."
+            "A": "Trái với luận điểm: triệt tiêu hoàn toàn thất bại sẽ khiến nhân viên rập khuôn, thui chột đổi mới.",
+            "C": "Trái với đoạn văn: tác giả nói rõ không nên xem thất bại là vấn đề năng lực cá nhân để trừng phạt.",
+            "D": "Sai lệch: chọn phương án an toàn lối mòn là biểu hiện của tổ chức trì trệ, không phải điều đáng khen ngợi."
           },
           "difficultyEstimate": 3,
           "conceptId": "reading-short",
           "remediation": "Đọc quét nhanh tìm câu chủ đề (topic sentence) thường nằm ở đầu hoặc cuối đoạn văn.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Original N2 Reading Corpus",
@@ -2915,14 +2916,14 @@ window.JP_MOCK_DATA = {
           "correctAnswer": "D",
           "explanationVi": "Tác giả nhấn mạnh trong thời đại số, giá trị của giao tiếp phi ngôn ngữ trực tiếp (nhìn mắt, cử chỉ, sự im lặng) càng trở nên quan trọng hơn bao giờ hết.",
           "distractorExplanations": {
-            "A": "Nội dung sai lệch so với quan điểm và lập luận cốt lõi của tác giả trong đoạn văn.",
-            "B": "Nội dung sai lệch so với quan điểm và lập luận cốt lõi của tác giả trong đoạn văn.",
-            "C": "Nội dung sai lệch so với quan điểm và lập luận cốt lõi của tác giả trong đoạn văn."
+            "A": "Cực đoan phi thực tế: bài viết không kêu gọi cấm đoán mạng xã hội mà nhắc nhở về giá trị giao tiếp trực tiếp.",
+            "B": "Trái ngược hoàn toàn: giao tiếp trực tiếp mặt đối mặt không hề bị loại bỏ mà ngày càng có giá trị hơn.",
+            "C": "Thông tin không xuất hiện trong bài: tác giả không bàn về việc phân biệt giao tiếp trong nước hay ngoài nước."
           },
           "difficultyEstimate": 3,
           "conceptId": "reading-short",
           "remediation": "Đọc quét nhanh tìm câu chủ đề (topic sentence) thường nằm ở đầu hoặc cuối đoạn văn.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Original N2 Reading Corpus",
@@ -2958,14 +2959,14 @@ window.JP_MOCK_DATA = {
           "correctAnswer": "B",
           "explanationVi": "Tác giả cảnh báo việc cuồng theo đuổi hiệu quả thời gian (time performance) sẽ cướp đi khoảng trống tư duy sáng tạo của bộ não.",
           "distractorExplanations": {
-            "A": "Nội dung sai lệch so với quan điểm và lập luận cốt lõi của tác giả trong đoạn văn.",
-            "C": "Nội dung sai lệch so với quan điểm và lập luận cốt lõi của tác giả trong đoạn văn.",
-            "D": "Nội dung sai lệch so với quan điểm và lập luận cốt lõi của tác giả trong đoạn văn."
+            "A": "Trái với quan điểm bài viết: lấp đầy lịch trình bằng công việc sẽ bóp chết không gian sáng tạo của não bộ.",
+            "C": "Quan điểm mà tác giả đang phê phán: cuồng hiệu suất (タイパ) quá mức sẽ đánh mất sự giàu có thực sự trong tâm hồn.",
+            "D": "Suy diễn lố bịch: tác giả không khuyên sống lười biếng mà khuyên dành ra khoảng lặng có ý thức."
           },
           "difficultyEstimate": 3,
           "conceptId": "reading-short",
           "remediation": "Đọc quét nhanh tìm câu chủ đề (topic sentence) thường nằm ở đầu hoặc cuối đoạn văn.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Original N2 Reading Corpus",
@@ -3001,14 +3002,14 @@ window.JP_MOCK_DATA = {
           "correctAnswer": "A",
           "explanationVi": "Tác giả định nghĩa kế thừa truyền thống đích thực là giữ vững tinh thần cốt lõi nhưng dám cải tiến mẫu mã phù hợp đời sống hiện đại.",
           "distractorExplanations": {
-            "B": "Nội dung sai lệch so với quan điểm và lập luận cốt lõi của tác giả trong đoạn văn.",
-            "C": "Nội dung sai lệch so với quan điểm và lập luận cốt lõi của tác giả trong đoạn văn.",
-            "D": "Nội dung sai lệch so với quan điểm và lập luận cốt lõi của tác giả trong đoạn văn."
+            "B": "Đây chính là định nghĩa sai lầm mà bài viết đang phê phán (頑なに守ること).",
+            "C": "Cực đoan sai lệch: kế thừa truyền thống vẫn phải giữ vững tinh thần của tiền nhân (先人の精神を受け継ぐ).",
+            "D": "Không được đề cập trong bài: tác giả bàn về thiết kế và công năng, không nói về việc hạ giá bán sản phẩm."
           },
           "difficultyEstimate": 3,
           "conceptId": "reading-short",
           "remediation": "Đọc quét nhanh tìm câu chủ đề (topic sentence) thường nằm ở đầu hoặc cuối đoạn văn.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Original N2 Reading Corpus",
@@ -3044,14 +3045,14 @@ window.JP_MOCK_DATA = {
           "correctAnswer": "D",
           "explanationVi": "Đoạn 1 nêu rõ theo thuyết tiến hóa cổ điển, mục tiêu cá thể là tối đa hóa sinh tồn, nên hành động vì người khác mà không có lợi ích trực tiếp đáng lẽ phải bị đào thải.",
           "distractorExplanations": {
-            "A": "Nội dung phương án không đúng với luận điểm bài viết hoặc suy diễn quá đà.",
-            "B": "Nội dung phương án không đúng với luận điểm bài viết hoặc suy diễn quá đà.",
-            "C": "Nội dung phương án không đúng với luận điểm bài viết hoặc suy diễn quá đà."
+            "A": "Đó là góc nhìn của sinh học tiến hóa hiện đại sau này, không phải thuyết tiến hóa cổ điển.",
+            "B": "Thuyết tiến hóa cổ điển không bàn về tính cao thượng của con người mà xét theo góc độ đấu tranh sinh tồn.",
+            "C": "Bài viết nhấn mạnh lòng vị tha là hành động không có sự đền đáp trực tiếp (直接の見返りがない)."
           },
           "difficultyEstimate": 3,
           "conceptId": "reading-medium",
           "remediation": "Đối chiếu từ khóa câu hỏi vào các đoạn văn cụ thể để tìm câu then chốt.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Original N2 Reading Corpus",
@@ -3087,14 +3088,14 @@ window.JP_MOCK_DATA = {
           "correctAnswer": "D",
           "explanationVi": "Đoạn 2 giải thích: con người sống sót được là nhờ gắn kết bầy đàn; tỷ lệ sống sót của toàn tập thể tăng lên sẽ quay lại bảo vệ chính sự sinh tồn của cá nhân.",
           "distractorExplanations": {
-            "A": "Nội dung phương án không đúng với luận điểm bài viết hoặc suy diễn quá đà.",
-            "B": "Nội dung phương án không đúng với luận điểm bài viết hoặc suy diễn quá đà.",
-            "C": "Nội dung phương án không đúng với luận điểm bài viết hoặc suy diễn quá đà."
+            "A": "Sai với đoạn 2: bài nêu sức mạnh của cả cộng đồng hợp tác, không phải cá nhân kẻ mạnh độc chiếm.",
+            "B": "Luật pháp và tôn giáo là các thiết chế xã hội sau này, không phải cơ chế sinh học tiến hóa ban đầu.",
+            "C": "Môi trường sống của người nguyên thủy rất khắc nghiệt (過酷な自然環境), không hề trù phú thừa mứa thức ăn."
           },
           "difficultyEstimate": 3,
           "conceptId": "reading-medium",
           "remediation": "Đối chiếu từ khóa câu hỏi vào các đoạn văn cụ thể để tìm câu then chốt.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Original N2 Reading Corpus",
@@ -3130,14 +3131,14 @@ window.JP_MOCK_DATA = {
           "correctAnswer": "C",
           "explanationVi": "Đoạn cuối kết luận: lòng vị tha không đơn thuần là nghĩa vụ đạo đức mà là một nhu cầu sinh học tự nhiên, một chiến lược sinh tồn gắn sâu trong não bộ con người.",
           "distractorExplanations": {
-            "A": "Nội dung phương án không đúng với luận điểm bài viết hoặc suy diễn quá đà.",
-            "B": "Nội dung phương án không đúng với luận điểm bài viết hoặc suy diễn quá đà.",
-            "D": "Nội dung phương án không đúng với luận điểm bài viết hoặc suy diễn quá đà."
+            "A": "Sai lệch bản chất: bài khẳng định vị tha kích hoạt hệ thống tưởng thưởng tự nhiên của não, không phải ảo tưởng sĩ diện.",
+            "B": "Trái với câu kết: vị tha được lập trình từ cấp độ gen di truyền chứ không đơn thuần là tri thức nhân tạo học được.",
+            "D": "Khoa học não bộ hiện đại đã giải mã được thông qua tế bào thần kinh gương (mirror neuron), không phải điều thần bí."
           },
           "difficultyEstimate": 3,
           "conceptId": "reading-medium",
           "remediation": "Đối chiếu từ khóa câu hỏi vào các đoạn văn cụ thể để tìm câu then chốt.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Original N2 Reading Corpus",
@@ -3173,14 +3174,14 @@ window.JP_MOCK_DATA = {
           "correctAnswer": "B",
           "explanationVi": "Đoạn 1 phân tích làng quê xưa gò bó vì bị làng xóm để ý, còn đô thị hiện đại cuốn hút bởi sự tự do và tính ẩn danh cá nhân.",
           "distractorExplanations": {
-            "A": "Nội dung phương án không đúng với luận điểm bài viết hoặc suy diễn quá đà.",
-            "C": "Nội dung phương án không đúng với luận điểm bài viết hoặc suy diễn quá đà.",
-            "D": "Nội dung phương án không đúng với luận điểm bài viết hoặc suy diễn quá đà."
+            "A": "Bài viết không hề miêu tả đô thị là 'thống trị bạo lực tàn bạo' mà nhấn mạnh đô thị mang lại tự do cá nhân.",
+            "C": "Sai lệch hoàn toàn: đoạn 1 đối chiếu rất rõ ràng sự khác biệt lớn về tính riêng tư giữa nông thôn và đô thị.",
+            "D": "Ngược lại: cư dân đô thị tự chủ độc lập nhưng bị cô lập, thiếu mạng lưới an toàn khi gặp khó khăn."
           },
           "difficultyEstimate": 3,
           "conceptId": "reading-medium",
           "remediation": "Đối chiếu từ khóa câu hỏi vào các đoạn văn cụ thể để tìm câu then chốt.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Original N2 Reading Corpus",
@@ -3216,14 +3217,14 @@ window.JP_MOCK_DATA = {
           "correctAnswer": "C",
           "explanationVi": "Đoạn 2 nêu rõ cái giá của tự do là sự cô đơn và quan hệ hời hợt, không còn mạng lưới an toàn nâng đỡ khi hoạn nạn.",
           "distractorExplanations": {
-            "A": "Nội dung phương án không đúng với luận điểm bài viết hoặc suy diễn quá đà.",
-            "B": "Nội dung phương án không đúng với luận điểm bài viết hoặc suy diễn quá đà.",
-            "D": "Nội dung phương án không đúng với luận điểm bài viết hoặc suy diễn quá đà."
+            "A": "Vấn đề tài chính/tiền thuê nhà không phải là luận điểm cốt lõi tác giả phân tích trong đoạn 2.",
+            "B": "Bài viết không bàn về thủ tục cắt đứt quan hệ pháp lý hay tranh chấp quyền thừa kế.",
+            "D": "Ngược lại: ở đô thị tính riêng tư được bảo vệ cao (匿名性と自由), không phải bị chính quyền giám sát."
           },
           "difficultyEstimate": 3,
           "conceptId": "reading-medium",
           "remediation": "Đối chiếu từ khóa câu hỏi vào các đoạn văn cụ thể để tìm câu then chốt.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Original N2 Reading Corpus",
@@ -3259,14 +3260,14 @@ window.JP_MOCK_DATA = {
           "correctAnswer": "A",
           "explanationVi": "Đoạn kết khẳng định không phải quay về làng quê ngột ngạt mà là tái lập 'tính cộng đồng kiểu mới' tôn trọng tự do cá nhân mà vẫn kết nối linh hoạt.",
           "distractorExplanations": {
-            "B": "Nội dung phương án không đúng với luận điểm bài viết hoặc suy diễn quá đà.",
-            "C": "Nội dung phương án không đúng với luận điểm bài viết hoặc suy diễn quá đà.",
-            "D": "Nội dung phương án không đúng với luận điểm bài viết hoặc suy diễn quá đà."
+            "B": "Tác giả nói rõ '今我々に求められているのは、旧来の息苦しい共同体へ回帰することではなく' (không phải quay lại làng quê ngột ngạt cũ).",
+            "C": "Giải quyết bằng hợp đồng tiền bạc chính là nguyên nhân gây ra quan hệ hời hợt mà tác giả đang chỉ ra.",
+            "D": "Cắt đứt mọi quan hệ là đi vào ngõ cụt của sự cô độc cùng cực, trái ngược với đề xuất kết nối linh hoạt của tác giả."
           },
           "difficultyEstimate": 3,
           "conceptId": "reading-medium",
           "remediation": "Đối chiếu từ khóa câu hỏi vào các đoạn văn cụ thể để tìm câu then chốt.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Original N2 Reading Corpus",
@@ -3302,14 +3303,14 @@ window.JP_MOCK_DATA = {
           "correctAnswer": "B",
           "explanationVi": "Đoạn 1 nêu việc các hãng mải mê nhồi nhét thêm nút bấm/tính năng khiến sản phẩm trở nên rườm rà, khó dùng.",
           "distractorExplanations": {
-            "A": "Nội dung phương án không đúng với luận điểm bài viết hoặc suy diễn quá đà.",
-            "C": "Nội dung phương án không đúng với luận điểm bài viết hoặc suy diễn quá đà.",
-            "D": "Nội dung phương án không đúng với luận điểm bài viết hoặc suy diễn quá đà."
+            "A": "Đoạn văn không nói về việc cắt giảm chi phí vật liệu gây hỏng hóc.",
+            "C": "Trái ngược: việc nhồi nhét quá nhiều chức năng khiến sản phẩm rườm rà chứ không phải quá chú trọng kiểu dáng.",
+            "D": "Vấn đề vi phạm bản quyền hay kiện tụng không hề xuất hiện trong bài đọc."
           },
           "difficultyEstimate": 3,
           "conceptId": "reading-medium",
           "remediation": "Đối chiếu từ khóa câu hỏi vào các đoạn văn cụ thể để tìm câu then chốt.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Original N2 Reading Corpus",
@@ -3345,14 +3346,14 @@ window.JP_MOCK_DATA = {
           "correctAnswer": "A",
           "explanationVi": "Đoạn 2 & 3 giải thích: để cắt bỏ chi tiết thừa đòi hỏi năng lực phán đoán đỉnh cao để trả lời được câu hỏi 'Cái gì thực sự cốt lõi không thể thiếu'.",
           "distractorExplanations": {
-            "B": "Nội dung phương án không đúng với luận điểm bài viết hoặc suy diễn quá đà.",
-            "C": "Nội dung phương án không đúng với luận điểm bài viết hoặc suy diễn quá đà.",
-            "D": "Nội dung phương án không đúng với luận điểm bài viết hoặc suy diễn quá đà."
+            "B": "Bài viết không đề cập đến giá thành vật liệu đắt đỏ đối với doanh nghiệp nhỏ.",
+            "C": "Đoạn 2 giải thích việc lược bỏ có thể trông giống như thỏa hiệp, nhưng không nói bị sụt giảm doanh số một nửa.",
+            "D": "Việc lược bỏ đòi hỏi tư duy triết lý và năng lực thấu cảm của nhà thiết kế, không phải dựa vào thuật toán máy tính."
           },
           "difficultyEstimate": 3,
           "conceptId": "reading-medium",
           "remediation": "Đối chiếu từ khóa câu hỏi vào các đoạn văn cụ thể để tìm câu then chốt.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Original N2 Reading Corpus",
@@ -3388,14 +3389,14 @@ window.JP_MOCK_DATA = {
           "correctAnswer": "B",
           "explanationVi": "Câu cuối khẳng định: Thiết kế xuất sắc thực sự không phải là không còn gì để thêm vào, mà là khi không còn thứ gì có thể lược bỏ được nữa.",
           "distractorExplanations": {
-            "A": "Nội dung phương án không đúng với luận điểm bài viết hoặc suy diễn quá đà.",
-            "C": "Nội dung phương án không đúng với luận điểm bài viết hoặc suy diễn quá đà.",
-            "D": "Nội dung phương án không đúng với luận điểm bài viết hoặc suy diễn quá đà."
+            "A": "Đây chính là tư duy 'phép cộng' sai lầm của kiểu sản phẩm phức tạp mà tác giả phê phán ở đầu bài.",
+            "C": "Tác giả ca ngợi sự tối giản tinh tế (引き算), không cổ vũ trang trí rườm rà phức tạp.",
+            "D": "Sản phẩm tốt phải giúp người dùng thao tác trực quan (直感的な操作) mà không cần nghiền ngẫm hướng dẫn sử dụng."
           },
           "difficultyEstimate": 3,
           "conceptId": "reading-medium",
           "remediation": "Đối chiếu từ khóa câu hỏi vào các đoạn văn cụ thể để tìm câu then chốt.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Original N2 Reading Corpus",
@@ -3431,14 +3432,14 @@ window.JP_MOCK_DATA = {
           "correctAnswer": "D",
           "explanationVi": "A氏 ca ngợi sự tiện lợi, và B氏 mở đầu bằng: '確かにキャッシュレス決済の利便性は否定できない' (Đúng là không thể phủ nhận sự tiện lợi). Cả hai cùng công nhận ưu điểm này.",
           "distractorExplanations": {
-            "A": "Sai sót trong việc đối chiếu, so sánh quan điểm giữa hai tác giả A và B.",
-            "B": "Sai sót trong việc đối chiếu, so sánh quan điểm giữa hai tác giả A và B.",
-            "C": "Sai sót trong việc đối chiếu, so sánh quan điểm giữa hai tác giả A và B."
+            "A": "Cả hai không cho rằng tiền mặt vô dụng khi thiên tai; ngược lại B xem tiền mặt là cứu cánh số 1 khi mất điện.",
+            "B": "Chỉ có tác giả A ủng hộ chuyển đổi hoàn toàn; tác giả B đề nghị phải duy trì song song cả tiền mặt.",
+            "C": "Không tác giả nào đề xuất giải pháp hạ hạn mức chi tiêu thẻ của thanh niên."
           },
           "difficultyEstimate": 3,
           "conceptId": "reading-integrated",
           "remediation": "Lập bảng so sánh điểm tương đồng và dị biệt giữa hai văn bản A và B.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Original N2 Reading Corpus",
@@ -3474,14 +3475,14 @@ window.JP_MOCK_DATA = {
           "correctAnswer": "A",
           "explanationVi": "B氏 nêu 3 lý do: mất điện/mất mạng khi thiên tai khiến tê liệt thanh toán, người già bị bỏ lại phía sau, và nguy cơ chi tiêu mất kiểm soát.",
           "distractorExplanations": {
-            "B": "Sai sót trong việc đối chiếu, so sánh quan điểm giữa hai tác giả A và B.",
-            "C": "Sai sót trong việc đối chiếu, so sánh quan điểm giữa hai tác giả A và B.",
-            "D": "Sai sót trong việc đối chiếu, so sánh quan điểm giữa hai tác giả A và B."
+            "B": "B không đề cập đến phí quẹt thẻ hay nguy cơ phá sản của cửa hàng buôn bán nhỏ lẻ.",
+            "C": "Tác hại của sóng điện thoại không nằm trong phạm vi lập luận của tác giả B.",
+            "D": "Tác giả B không bàn về việc bảo vệ việc làm cho thợ in tiền hay nhân viên ngân hàng."
           },
           "difficultyEstimate": 3,
           "conceptId": "reading-integrated",
           "remediation": "Lập bảng so sánh điểm tương đồng và dị biệt giữa hai văn bản A và B.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Original N2 Reading Corpus",
@@ -3517,14 +3518,14 @@ window.JP_MOCK_DATA = {
           "correctAnswer": "B",
           "explanationVi": "Đoạn 1 phân tích nghịch lý: chúng ta hưởng trọn tiện ích khoa học nhưng khoa học càng tinh vi thì người dân càng xa rời và coi mọi thứ là hộp đen hiển nhiên.",
           "distractorExplanations": {
-            "A": "Sai với diễn giải luận điểm mang tính hệ thống của tác giả trong trường văn.",
-            "C": "Sai với diễn giải luận điểm mang tính hệ thống của tác giả trong trường văn.",
-            "D": "Sai với diễn giải luận điểm mang tính hệ thống của tác giả trong trường văn."
+            "A": "Tác giả không nói giới khoa học giấu giếm hay coi thường người dân.",
+            "C": "Bài đọc không đưa ra nhận định học lực toán lý của giới trẻ toàn cầu sụt giảm.",
+            "D": "Trái ngược: khoa học giúp cuộc sống hiện đại tiện lợi vượt bậc, nghịch lý nằm ở chỗ nhận thức của con người bị tách rời."
           },
           "difficultyEstimate": 3,
           "conceptId": "reading-long",
           "remediation": "Nắm vững bố cục 4 phần (khởi - thừa - chuyển - hợp) và sự chuyển dịch quan điểm tác giả.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Original N2 Reading Corpus",
@@ -3560,14 +3561,14 @@ window.JP_MOCK_DATA = {
           "correctAnswer": "A",
           "explanationVi": "Đoạn 2 định nghĩa hiểu biết khoa học không phải là học vẹt công thức mà là thái độ tư duy biết hỏi về bằng chứng thực nghiệm và tính khả chứng/bác bỏ.",
           "distractorExplanations": {
-            "B": "Sai với diễn giải luận điểm mang tính hệ thống của tác giả trong trường văn.",
-            "C": "Sai với diễn giải luận điểm mang tính hệ thống của tác giả trong trường văn.",
-            "D": "Sai với diễn giải luận điểm mang tính hệ thống của tác giả trong trường văn."
+            "B": "Đoạn 2 nêu rõ hiểu biết khoa học không phải là việc nhớ vanh vách kiến thức chuyên sâu trong giáo trình.",
+            "C": "Thành thạo công nghệ hay lập trình là kỹ năng kỹ thuật, không phải tư duy khoa học biện chứng.",
+            "D": "Nghi ngờ lành mạnh (健全な懐疑心) khác với sự hoài nghi cực đoan hoặc bác bỏ vô căn cứ."
           },
           "difficultyEstimate": 3,
           "conceptId": "reading-long",
           "remediation": "Nắm vững bố cục 4 phần (khởi - thừa - chuyển - hợp) và sự chuyển dịch quan điểm tác giả.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Original N2 Reading Corpus",
@@ -3603,14 +3604,14 @@ window.JP_MOCK_DATA = {
           "correctAnswer": "A",
           "explanationVi": "Đoạn cuối nhấn mạnh: Khoa học là hành trình không ngừng tự sửa sai (自己訂正), và tinh thần cởi mở này chính là chiếc la bàn soi đường cho công dân hiện đại.",
           "distractorExplanations": {
-            "B": "Sai với diễn giải luận điểm mang tính hệ thống của tác giả trong trường văn.",
-            "C": "Sai với diễn giải luận điểm mang tính hệ thống của tác giả trong trường văn.",
-            "D": "Sai với diễn giải luận điểm mang tính hệ thống của tác giả trong trường văn."
+            "B": "Trái với câu kết: khoa học không phải chân lý bất biến (完成された不変の真理ではない) mà luôn sẵn sàng tự sửa sai.",
+            "C": "Khoa học là nền tảng tri thức và tư duy văn minh nhân loại, không phải công cụ thuần túy phục vụ lợi nhuận.",
+            "D": "Tác giả khẳng định tinh thần khoa học chính là la bàn thiết yếu cho mọi công dân trong xã hội hiện đại."
           },
           "difficultyEstimate": 3,
           "conceptId": "reading-long",
           "remediation": "Nắm vững bố cục 4 phần (khởi - thừa - chuyển - hợp) và sự chuyển dịch quan điểm tác giả.",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Original N2 Reading Corpus",
@@ -3646,14 +3647,14 @@ window.JP_MOCK_DATA = {
           "correctAnswer": "C",
           "explanationVi": "Khóa 'ビジネスExcel基礎' học tối thứ Năm (19:00-21:00), phí 4,000 yên + giáo trình 1,500 yên = 5,500 yên. Không được đăng ký trùng 2 khóa.",
           "distractorExplanations": {
-            "A": "Thông tin không khớp với các điều khoản, con số hoặc điều kiện trong thông báo.",
-            "B": "Thông tin không khớp với các điều khoản, con số hoặc điều kiện trong thông báo.",
-            "D": "Thông tin không khớp với các điều khoản, con số hoặc điều kiện trong thông báo."
+            "A": "Khóa Nhập môn học vào buổi sáng thứ Ba (10:00-12:00), không phù hợp với người đi làm buổi tối.",
+            "B": "Khóa Tạo website học vào chiều thứ Bảy (14:00-17:00), không phải tối ngày thường.",
+            "D": "Quy định chú ý ghi rõ: ※複数のコースに重複して申し込むことはできません (Không được đăng ký trùng 2 khóa)."
           },
           "difficultyEstimate": 2,
           "conceptId": "reading-info",
           "remediation": "Đọc câu hỏi trước để xác định tiêu chí lọc (thời gian, đối tượng, chi phí, ngoại lệ chú thích ※).",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Original N2 Reading Corpus",
@@ -3689,33 +3690,1321 @@ window.JP_MOCK_DATA = {
           "correctAnswer": "B",
           "explanationVi": "Mục chú ý ghi rõ: '開講日の3日前以降のキャンセルは、受講料の返金ができません' (Hủy trong vòng 3 ngày trước khai giảng sẽ không được hoàn tiền).",
           "distractorExplanations": {
-            "A": "Thông tin không khớp với các điều khoản, con số hoặc điều kiện trong thông báo.",
-            "C": "Thông tin không khớp với các điều khoản, con số hoặc điều kiện trong thông báo.",
-            "D": "Thông tin không khớp với các điều khoản, con số hoặc điều kiện trong thông báo."
+            "A": "Thông báo cấm đăng ký trùng nhiều khóa, hoàn toàn không có chính sách giảm giá một nửa.",
+            "C": "Khóa 2 và 3 nếu quá số lượng sẽ bốc thăm (抽選), chỉ có khóa 1 là ưu tiên người đến trước (先着順).",
+            "D": "Thông báo gửi qua email hoặc bưu điện chậm nhất 25/10, không phải bắt buộc trả lời qua điện thoại trong ngày 20/10."
           },
           "difficultyEstimate": 2,
           "conceptId": "reading-info",
           "remediation": "Đọc câu hỏi trước để xác định tiêu chí lọc (thời gian, đối tượng, chi phí, ngoại lệ chú thích ※).",
-          "status": "PROVISIONAL_PRACTICE",
+          "status": "QA_VERIFIED",
           "exposureEligible": true,
           "diagnosticEligible": true,
           "sourceMetadata": "Original N2 Reading Corpus",
           "examQNum": 75,
           "mondaiTitle": "Mondai 14: 読解・情報検索 (Tra cứu thông tin)"
         }
-      ],
-      "breakdown": {
-        "vocabulary": 32,
-        "grammar": 22,
-        "reading": 21
-      }
+      ]
     },
     {
-      "sectionName": "Phần 2: Nghe hiểu (Chokai) — Đang biên soạn",
+      "sectionId": "sec-2",
+      "sectionName": "Phần 2: Nghe hiểu (Listening Comprehension)",
       "durationMinutes": 50,
       "itemCount": 30,
-      "status": "IN_DEVELOPMENT",
-      "notice": "Phần thi Nghe hiểu 30 câu đang trong quá trình chuẩn hóa âm thanh và rà soát độc lập, chưa tính vào câu hỏi có thể làm trong phiên này."
+      "audioStatus": "AUDIO_PRODUCTION_PENDING",
+      "audioNoticeVi": "Bản ghi âm phòng thi chuẩn hóa đang trong chu kỳ sản xuất (Kỳ thi 12/2026). Hiện tại cung cấp toàn văn Transcript hội thoại tiếng Nhật, kịch bản phân vai và phân tích đáp án chi tiết phục vụ luyện đề mô phỏng.",
+      "items": [
+        {
+          "id": "N2-M1-L01",
+          "level": "N2",
+          "skill": "Listening",
+          "typeId": "N2-LIS-TASK",
+          "stem": "男の人はこの後、まず何をしなければなりませんか。",
+          "stimulusId": "N2-M1-L01",
+          "contextPassage": "男の人と女の人が会社で話しています。男の人はこの後、まず何をしなければなりませんか。\n\n男：「課長、来期の新商品キャンペーンの企画書を作成したのですが、ご確認いただけますでしょうか。」\n女：「ええ、見せて。……全体のコンセプトは斬新でとてもいいわね。ただ、予算の試算表が少し大雑把すぎる気がするわ。原材料費の高騰も考慮して、詳細な内訳を出し直してほしいの。それから、宣伝部の田中さんにも意見を聞いておいてね。」\n男：「分かりました。田中さんへの相談は、予算表を作り直した後の方がよろしいでしょうか。」\n女：「そうね。数字が固まっていないと具体的な話ができないから、まずは予算の再計算を最優先でお願いね。プレゼン資料の作成はその後でいいから。」\n男：「承知いたしました。すぐに取りかかります。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "新商品のプレゼン資料を作成する。"
+            },
+            {
+              "id": "B",
+              "text": "宣伝部の田中さんに相談に行く。"
+            },
+            {
+              "id": "C",
+              "text": "企画全体のコンセプトを考え直す。"
+            },
+            {
+              "id": "D",
+              "text": "予算の詳細な内訳を再計算する。"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanationVi": "Trưởng phòng chỉ thị rõ ràng: '数字が固まっていないと具体的な話ができないから、まずは予算の再計算を最優先でお願いね' (Trước tiên hãy ưu tiên tính toán lại bảng phân bổ ngân sách chi tiết). Việc gặp Tanaka hay làm slide thuyết trình là bước tiếp sau.",
+          "distractorExplanations": {
+            "A": "Nữ trưởng phòng nói rõ: 'プレゼン資料の作成はその後でいい' (việc làm slide thuyết trình để sau).",
+            "B": "Trưởng phòng đồng ý là phải xong bảng dự toán số liệu trước mới đi hỏi ý kiến Tanaka.",
+            "C": "Trưởng phòng khen ngợi: 'コンセプトは斬新でとてもいい' (ý tưởng rất mới mẻ), không yêu cầu sửa concept."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "listening-task",
+          "remediation": "Lắng nghe kỹ các liên từ chỉ thứ tự ưu tiên (まず, 先に, その後で, 最優先) và hành động nhân vật xác nhận sẽ làm ngay.",
+          "status": "QA_VERIFIED",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original JLPT N2 Listening Corpus",
+          "examQNum": 1,
+          "mondaiTitle": "Mondai 1: 課題理解 (Hiểu yêu cầu - Nhiệm vụ tiếp theo)"
+        },
+        {
+          "id": "N2-M1-L02",
+          "level": "N2",
+          "skill": "Listening",
+          "typeId": "N2-LIS-TASK",
+          "stem": "夫はこの後、何をしますか。",
+          "stimulusId": "N2-M1-L02",
+          "contextPassage": "夫婦が引越しの準備について話しています。夫はこの後、何をしますか。\n\n女：「来週の引越し、不用品の処分はどうなった？」\n男：「粗大ゴミの収集はもう予約したよ。ダンボールも届いたから、本や服は週末に詰めるよ。」\n女：「助かるわ。あ、電気とガスの使用停止の手続きはネットでしたんだけど、水道局だけは電話で連絡しなきゃいけないの。今日の午後5時までだから、お願いできる？」\n男：「分かった、今すぐ電話しておくよ。インターネット回線の移転手続きは？」\n女：「それは私が昨日プロバイダに連絡したから大丈夫。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "水道局に電話をかける。"
+            },
+            {
+              "id": "B",
+              "text": "粗大ゴミの収集を予約する。"
+            },
+            {
+              "id": "C",
+              "text": "ダンボールに本や服を詰める。"
+            },
+            {
+              "id": "D",
+              "text": "インターネットプロバイダに連絡する。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "Người vợ nhờ: '水道局だけは電話で連絡しなきゃいけないの... 今日の午後5時までだから、お願いできる？' Người chồng đáp: '分かった、今すぐ電話しておくよ' (Anh hiểu rồi, anh sẽ gọi điện cho cục cấp nước ngay bây giờ).",
+          "distractorExplanations": {
+            "B": "Người chồng đã đặt lịch thu gom rác cồng kềnh xong từ trước ('もう予約したよ').",
+            "C": "Việc đóng thùng sách vở/quần áo dự định cuối tuần mới làm ('週末に詰めるよ').",
+            "D": "Người vợ đã liên hệ nhà mạng internet từ hôm qua ('私が昨日プロバイダに連絡した')."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "listening-task",
+          "remediation": "Lắng nghe kỹ các liên từ chỉ thứ tự ưu tiên (まず, 先に, その後で, 最優先) và hành động nhân vật xác nhận sẽ làm ngay.",
+          "status": "QA_VERIFIED",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original JLPT N2 Listening Corpus",
+          "examQNum": 2,
+          "mondaiTitle": "Mondai 1: 課題理解 (Hiểu yêu cầu - Nhiệm vụ tiếp theo)"
+        },
+        {
+          "id": "N2-M1-L03",
+          "level": "N2",
+          "skill": "Listening",
+          "typeId": "N2-LIS-TASK",
+          "stem": "女性社員はこの後、まず何をしますか。",
+          "stimulusId": "N2-M1-L03",
+          "contextPassage": "会社の出張手配で、男性社員と女性社員が話しています。女性社員はこの後、まず何をしますか。\n\n男：「来月の大阪出張だけど、ホテルの予約は取れた？」\n女：「駅前のビジネスホテルを予約しました。ただ、新幹線のチケットがまだ手配できていません。」\n男：「あ、そうか。来週から連休に入るから、新幹線は混雑するかもしれないね。先に指定席を確保してくれたまえ。経費の精算書は出張から戻ってからで構わないから。」\n女：「承知しました。すぐにネットで指定席を予約します。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "出張の経費精算書を作成する。"
+            },
+            {
+              "id": "B",
+              "text": "大阪のホテルの予約を取り直す。"
+            },
+            {
+              "id": "C",
+              "text": "新幹線の指定席を予約する。"
+            },
+            {
+              "id": "D",
+              "text": "取引先に出張日程のメールを送る。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "Người nam yêu cầu: '先に指定席を確保してくれたまえ' (Hãy ưu tiên giữ chỗ vé tàu Shinkansen trước). Nữ nhân viên xác nhận: 'すぐにネットで指定席を予約します'.",
+          "distractorExplanations": {
+            "A": "Thanh toán chi phí đợi đi công tác về mới làm ('出張から戻ってからで構わない').",
+            "B": "Khách sạn trước nhà ga đã đặt xong, không cần đặt lại.",
+            "D": "Bài đối thoại không hề đề cập đến việc gửi mail cho đối tác vào lúc này."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "listening-task",
+          "remediation": "Lắng nghe kỹ các liên từ chỉ thứ tự ưu tiên (まず, 先に, その後で, 最優先) và hành động nhân vật xác nhận sẽ làm ngay.",
+          "status": "QA_VERIFIED",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original JLPT N2 Listening Corpus",
+          "examQNum": 3,
+          "mondaiTitle": "Mondai 1: 課題理解 (Hiểu yêu cầu - Nhiệm vụ tiếp theo)"
+        },
+        {
+          "id": "N2-M1-L04",
+          "level": "N2",
+          "skill": "Listening",
+          "typeId": "N2-LIS-TASK",
+          "stem": "学生が修正しなければならないものはどれか。",
+          "stimulusId": "N2-M1-L04",
+          "contextPassage": "大学の研究室で、教授と大学院生が話しています。学生はこの後、スライドの何を修正しますか。\n\n男（教授）：「君の発表スライド、よくまとまっているよ。ただ、第3章の実験結果のグラフだが、縦軸の単位が抜けているね。それと、先行研究の文献リストで出版年が古いものがあるから、最新の論文に差し替えた方が説得力が増すだろう。」\n女（学生）：「はい！ すぐにグラフの単位を追記して、参考文献を更新します。発表原稿の修正はいかがでしょうか。」\n男：「原稿の言葉遣いは問題ないから、今の2点だけ手直ししておいてくれ。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "発表原稿の敬語と言葉遣い。"
+            },
+            {
+              "id": "B",
+              "text": "スライド全体のデザインと配色。"
+            },
+            {
+              "id": "C",
+              "text": "グラフの単位と参考文献のリスト。"
+            },
+            {
+              "id": "D",
+              "text": "実験のやり直しとデータの再測定。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "Giáo sư chỉ đạo sửa 2 điểm: điền thêm đơn vị vào trục tung của đồ thị (縦軸の単位) và thay thế danh mục tài liệu tham khảo bằng bài báo mới nhất (最新の論文に差し替え). Lời văn diễn thuyết (原稿) không có vấn đề gì.",
+          "distractorExplanations": {
+            "A": "Lời thoại diễn thuyết giáo sư khen ngợi không cần sửa ('言葉遣いは問題ない').",
+            "B": "Giáo sư không yêu cầu đổi thiết kế hay màu sắc slide.",
+            "D": "Dữ liệu thí nghiệm được đánh giá tốt, không phải làm lại thí nghiệm."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "listening-task",
+          "remediation": "Lắng nghe kỹ các liên từ chỉ thứ tự ưu tiên (まず, 先に, その後で, 最優先) và hành động nhân vật xác nhận sẽ làm ngay.",
+          "status": "QA_VERIFIED",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original JLPT N2 Listening Corpus",
+          "examQNum": 4,
+          "mondaiTitle": "Mondai 1: 課題理解 (Hiểu yêu cầu - Nhiệm vụ tiếp theo)"
+        },
+        {
+          "id": "N2-M1-L05",
+          "level": "N2",
+          "skill": "Listening",
+          "typeId": "N2-LIS-TASK",
+          "stem": "アルバイトの女性はこの後、まず何をしますか。",
+          "stimulusId": "N2-M1-L05",
+          "contextPassage": "カフェの開店前、店長とアルバイトの店員が話しています。アルバイトの女性はこの後、まず何をしますか。\n\n男（店長）：「今日のランチタイムは予約で満席になりそうだ。テーブルのセッティングは終わったかい？」\n女：「はい、お水とグラスの用意も完了しています。」\n男：「よし。じゃあ、今日の特別メニューの看板を入り口に出してきてくれるかい？ その後で、レジのお釣りの確認をしておいてほしいんだ。」\n女：「分かりました。看板を書いてすぐに出してきます！」",
+          "options": [
+            {
+              "id": "A",
+              "text": "レジのお釣りの金額を確認する。"
+            },
+            {
+              "id": "B",
+              "text": "入り口に特別メニューの看板を出す。"
+            },
+            {
+              "id": "C",
+              "text": "テーブルのセッティングとお水の用意をする。"
+            },
+            {
+              "id": "D",
+              "text": "厨房でランチの仕込みを手伝う。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "Quản lý dặn: '今日の特別メニューの看板を入り口に出してきてくれるかい？ その後で、レジのお釣りの確認をしておいてほしいんだ' -> Việc đầu tiên cần làm là đưa biển bảng thực đơn đặc biệt ra cửa.",
+          "distractorExplanations": {
+            "A": "Việc kiểm tra tiền thối ở quầy thu ngân là bước làm sau đó ('その後で').",
+            "C": "Bàn và nước đã chuẩn bị xong từ trước ('用意も完了しています').",
+            "D": "Quán không yêu cầu nhân viên chạy bàn phụ bếp nấu ăn."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "listening-task",
+          "remediation": "Lắng nghe kỹ các liên từ chỉ thứ tự ưu tiên (まず, 先に, その後で, 最優先) và hành động nhân vật xác nhận sẽ làm ngay.",
+          "status": "QA_VERIFIED",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original JLPT N2 Listening Corpus",
+          "examQNum": 5,
+          "mondaiTitle": "Mondai 1: 課題理解 (Hiểu yêu cầu - Nhiệm vụ tiếp theo)"
+        },
+        {
+          "id": "N2-M2-L01",
+          "level": "N2",
+          "skill": "Listening",
+          "typeId": "N2-LIS-POIN",
+          "stem": "男の人が転職を決意した一番の理由は何ですか。",
+          "stimulusId": "N2-M2-L01",
+          "contextPassage": "男の人と女の人が話しています。男の人が転職を決意した決定的な理由は何ですか。\n\n女：「佐藤さん、来月で退職されるそうですね。大企業で待遇も恵まれていたのに、なぜ転職されるんですか？」\n男：「ええ、給与や福利厚生には全く不満はありませんでした。同僚や上司との人間関係も非常に良好でしたしね。ただ、大きな組織であるがゆえに、自分の提案した新しい事業アイデアが意思決定に時間がかかってなかなか実現できなかったんです。自分の力で責任を持ってスピーディーに挑戦できる環境に身を置きたいと強く思うようになったんです。」\n女：「なるほど、ステップアップのための前向きな挑戦なんですね。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "現在の会社の給与や福利厚生に強い不満があったから。"
+            },
+            {
+              "id": "B",
+              "text": "上司や同僚との人間関係で深刻なトラブルがあったから。"
+            },
+            {
+              "id": "C",
+              "text": "自分のアイデアを迅速に実行できる環境で挑戦したかったから。"
+            },
+            {
+              "id": "D",
+              "text": "残業が多すぎて健康を害してしまったから。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "Người đàn ông khẳng định lương tốt, quan hệ tốt, nhưng vì muốn ở nơi có thể nhanh chóng hiện thực hóa ý tưởng của bản thân mà không bị bộ máy cồng kềnh cản trở.",
+          "distractorExplanations": {
+            "A": "Người nam nói rõ: '給与や福利厚生には全く不満はありませんでした' (hoàn toàn không có bất mãn về lương bổng hay đãi ngộ).",
+            "B": "Người nam khẳng định: '人間関係も非常に良好でした' (mối quan hệ với sếp và đồng nghiệp rất tốt đẹp).",
+            "D": "Không hề đề cập đến chuyện làm thêm giờ quá sức hay ảnh hưởng sức khỏe."
+          },
+          "difficultyEstimate": 3,
+          "conceptId": "listening-points",
+          "remediation": "Lắng nghe lý do cốt lõi sau các từ nối chuyển ý (ただ, それよりも, 決定的な理由, 実は最も重要なのは).",
+          "status": "QA_VERIFIED",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original JLPT N2 Listening Corpus",
+          "examQNum": 6,
+          "mondaiTitle": "Mondai 2: ポイント理解 (Hiểu điểm mấu chốt - Trích xuất lý do)"
+        },
+        {
+          "id": "N2-M2-L02",
+          "level": "N2",
+          "skill": "Listening",
+          "typeId": "N2-LIS-POIN",
+          "stem": "店員によると、初心者が最も重視すべきポイントは何ですか。",
+          "stimulusId": "N2-M2-L02",
+          "contextPassage": "スポーツ用品店で、店員がランニング初心者に向けて靴の選び方を説明しています。初心者が靴を選ぶ際に最も重視すべき点として、店員は何を挙げていますか。\n\n店員：「初心者の方が靴を選ぶ際、どうしても軽さやデザインに目が行きがちです。しかし、実は最も重要なのは『クッション性の高さ』です。走る筋力がまだ十分に備わっていない初心者は、着地時に体重の3倍もの衝撃が膝や足首にかかります。厚みのあるソールがその衝撃を吸収してくれるため、怪我を防ぎ長く走り続けることができるのです。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "膝や足首への衝撃を吸収するクッション性の高さ。"
+            },
+            {
+              "id": "B",
+              "text": "シューズ自体の軽さとスピードの出しやすさ。"
+            },
+            {
+              "id": "C",
+              "text": "有名選手が着用している最新の流行デザイン。"
+            },
+            {
+              "id": "D",
+              "text": "長期間履いても破れない靴底の耐久性の強さ。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "Nhân viên bán hàng chỉ ra với người mới tập chạy, điểm quan trọng nhất là 'クッション性の高さ' (độ êm ái giảm xóc) để bảo vệ khớp gối và cổ chân khỏi chấn thương.",
+          "distractorExplanations": {
+            "B": "Trọng lượng nhẹ giúp chạy nhanh nhưng người mới chưa có cơ bắp vững chắc nếu mang giày quá mỏng sẽ rất dễ chấn thương.",
+            "C": "Kiểu dáng thời trang là điều người mua hay bị thu hút nhưng không phải yếu tố an toàn cốt lõi.",
+            "D": "Độ bền chống mòn đế giày chỉ là yếu tố phụ, không phải điểm mấu chốt để phòng ngừa chấn thương."
+          },
+          "difficultyEstimate": 3,
+          "conceptId": "listening-points",
+          "remediation": "Lắng nghe lý do cốt lõi sau các từ nối chuyển ý (ただ, それよりも, 決定的な理由, 実は最も重要なのは).",
+          "status": "QA_VERIFIED",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original JLPT N2 Listening Corpus",
+          "examQNum": 7,
+          "mondaiTitle": "Mondai 2: ポイント理解 (Hiểu điểm mấu chốt - Trích xuất lý do)"
+        },
+        {
+          "id": "N2-M2-L03",
+          "level": "N2",
+          "skill": "Listening",
+          "typeId": "N2-LIS-POIN",
+          "stem": "専門家が挙げる、読書が続かない主な原因は何ですか。",
+          "stimulusId": "N2-M2-L03",
+          "contextPassage": "ラジオで専門家が、大人の読書習慣について話しています。専門家によると、多くの人が読書を挫折してしまう一番の理由は何ですか。\n\n専門家：「本を買っても途中で挫折してしまう人の多くは、『最初から最後まで一言一句漏らさず読まなければならない』という思い込みに縛られています。難解な部分や退屈な章に出くわしたとき、そこで止まってしまい本を開かなくなるのです。目次を見て自分が一番興味のある章から拾い読みしたり、面白くないと感じたら途中で読むのをやめても構わないのです。読書をもっと自由で気楽なものと捉え直すことが大切です。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "仕事が忙しくて本を読む時間を1分も確保できないこと。"
+            },
+            {
+              "id": "B",
+              "text": "最初から最後まで飛ばさずに全部読まなければならないと思い込んでいること。"
+            },
+            {
+              "id": "C",
+              "text": "購入する本の難易度が高すぎて理解不能なこと。"
+            },
+            {
+              "id": "D",
+              "text": "電子書籍の画面の光で目が疲れてしまうこと。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "Chuyên gia chỉ ra nguyên nhân số 1 khiến mọi người bỏ dở cuốn sách là định kiến 'phải đọc từng câu từng chữ từ đầu đến cuối không được bỏ sót'. Gặp đoạn khó hoặc chán là dừng lại rồi bỏ luôn.",
+          "distractorExplanations": {
+            "A": "Chuyên gia không đổ lỗi cho việc bận rộn thiếu thời gian.",
+            "C": "Độ khó của sách không phải là nguyên nhân chính, mà là cách tiếp cận cố chấp không dám đọc lướt.",
+            "D": "Không hề đề cập đến thiết bị đọc sách điện tử hay mỏi mắt."
+          },
+          "difficultyEstimate": 3,
+          "conceptId": "listening-points",
+          "remediation": "Lắng nghe lý do cốt lõi sau các từ nối chuyển ý (ただ, それよりも, 決定的な理由, 実は最も重要なのは).",
+          "status": "QA_VERIFIED",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original JLPT N2 Listening Corpus",
+          "examQNum": 8,
+          "mondaiTitle": "Mondai 2: ポイント理解 (Hiểu điểm mấu chốt - Trích xuất lý do)"
+        },
+        {
+          "id": "N2-M2-L04",
+          "level": "N2",
+          "skill": "Listening",
+          "typeId": "N2-LIS-POIN",
+          "stem": "会社が新しいソフトウェアを選定した一番の決め手は何ですか。",
+          "stimulusId": "N2-M2-L04",
+          "contextPassage": "会社のIT部門で、部長と担当社員が新しい業務ソフトウェアの導入について話しています。会社がこのツールを採用することにした決定的な理由は何ですか。\n\n男（部長）：「A社とB社のソフトウェア、比較検討の結果はどうなった？」\n女：「はい。機能の豊富さやデザインの洗練度ではA社が優れていました。しかし、弊社の最重要課題であるセキュリティ面を精査したところ、B社は部署ごとの閲覧権限やファイル暗号化が極めて厳格に設計されており、情報漏洩リスクを最小限に抑えられることが分かりました。」\n男：「なるほど。顧客の機密データを扱う我々としては、機能の多さよりも安全性が最優先だな。じゃあB社で進めよう。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "画面のデザインが美しく、操作が直感的であること。"
+            },
+            {
+              "id": "B",
+              "text": "他社製品に比べて利用料金が格段に安いこと。"
+            },
+            {
+              "id": "C",
+              "text": "顧客データの漏洩を防ぐ高度なセキュリティ機能があること。"
+            },
+            {
+              "id": "D",
+              "text": "あらゆる業務に対応できる機能の数が最も多いこと。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "Trưởng phòng và nhân viên thống nhất: Vì công ty xử lý dữ liệu bảo mật của khách hàng nên tính năng bảo mật phân quyền nghiêm ngặt của phần mềm B là yếu tố quyết định số 1 ('安全性が最優先').",
+          "distractorExplanations": {
+            "A": "Thiết kế đẹp mắt là ưu điểm của phần mềm A nhưng bị loại.",
+            "B": "Bài nghe không bàn về việc giá thành rẻ nhất.",
+            "D": "Nhiều chức năng nhất cũng là đặc điểm của phần mềm A, bị từ chối vì bảo mật kém hơn."
+          },
+          "difficultyEstimate": 3,
+          "conceptId": "listening-points",
+          "remediation": "Lắng nghe lý do cốt lõi sau các từ nối chuyển ý (ただ, それよりも, 決定的な理由, 実は最も重要なのは).",
+          "status": "QA_VERIFIED",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original JLPT N2 Listening Corpus",
+          "examQNum": 9,
+          "mondaiTitle": "Mondai 2: ポイント理解 (Hiểu điểm mấu chốt - Trích xuất lý do)"
+        },
+        {
+          "id": "N2-M2-L05",
+          "level": "N2",
+          "skill": "Listening",
+          "typeId": "N2-LIS-POIN",
+          "stem": "店主が商品のパッケージを一新した目的は何ですか。",
+          "stimulusId": "N2-M2-L05",
+          "contextPassage": "老舗和菓子店の店主が、商品の箱のデザインを変更した理由について話しています。店主がパッケージを一新した一番の目的は何ですか。\n\n店主：「創業80年を迎えるにあたり、定番の羊羹の包装をリニューアルしました。伝統の小豆の製法や味は昔のまま一切変えていません。ただ、従来の木箱の包装は高級感はあるものの、どうしても堅苦しく、若い方々が日常の手土産として手に取りにくいという声がありました。そこで、環境に配慮した明るい和紙の小箱に変更したところ、若い世代やビジネス街の女性客にも気軽に買っていただけるようになりました。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "原材料費が高騰したため、製造コストを抑えるため。"
+            },
+            {
+              "id": "B",
+              "text": "若い世代や日常のギフト需要に親しみを持ってもらうため。"
+            },
+            {
+              "id": "C",
+              "text": "海外への輸出を増やすために英語表記を導入するため。"
+            },
+            {
+              "id": "D",
+              "text": "伝統的な製法をやめて、現代風の新しい味に変更したことを伝えるため。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "Chủ tiệm giải thích: Hương vị truyền thống giữ nguyên 100%, việc thay đổi hộp bao bì giấy nhẹ nhàng tươi sáng là để giới trẻ và dân văn phòng dễ dàng mua làm quà tặng hàng ngày mà không bị cảm giác nặng nề.",
+          "distractorExplanations": {
+            "A": "Không hề đề cập đến việc cắt giảm chi phí do nguyên liệu đắt đỏ.",
+            "C": "Không bàn về xuất khẩu nước ngoài hay tiếng Anh.",
+            "D": "Chủ tiệm khẳng định hương vị bí truyền từ đậu đỏ không hề thay đổi ('製法や味は昔のまま一切変えていません')."
+          },
+          "difficultyEstimate": 3,
+          "conceptId": "listening-points",
+          "remediation": "Lắng nghe lý do cốt lõi sau các từ nối chuyển ý (ただ, それよりも, 決定的な理由, 実は最も重要なのは).",
+          "status": "QA_VERIFIED",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original JLPT N2 Listening Corpus",
+          "examQNum": 10,
+          "mondaiTitle": "Mondai 2: ポイント理解 (Hiểu điểm mấu chốt - Trích xuất lý do)"
+        },
+        {
+          "id": "N2-M2-L06",
+          "level": "N2",
+          "skill": "Listening",
+          "typeId": "N2-LIS-POIN",
+          "stem": "医師が推奨している最も効果的な改善策は何ですか。",
+          "stimulusId": "N2-M2-L06",
+          "contextPassage": "病院で、医師が健康診断を終えた男性にアドバイスをしています。医師が男性に最も推奨している生活改善策は何ですか。\n\n医師：「検査結果ですが、血糖値と中性脂肪がやや高めですね。ただ、今すぐ薬を飲む段階ではありません。」\n男：「そうですか。炭水化物を完全に抜いた方がいいでしょうか。」\n医師：「極端な食事制限は長続きしませんし、リバウンドの危険があります。それよりも、一口ごとに30回よく噛んで時間をかけて食べること、そして食後すぐに座り込まず、15分程度の軽いウォーキングをすることを習慣にしてください。食後の血糖値の急上昇を抑えるには、これが最も効果的なんですよ。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "炭水化物を一切食べずに厳しい食事制限をすること。"
+            },
+            {
+              "id": "B",
+              "text": "一口ごとによく噛んで食べ、食後に軽い散歩をすること。"
+            },
+            {
+              "id": "C",
+              "text": "毎朝激しい筋力トレーニングを1時間以上行うこと。"
+            },
+            {
+              "id": "D",
+              "text": "数値が下がるまで毎日血糖降下薬を服用し続けること。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "Bác sĩ khuyên không nên nhịn ăn tiêu cực; phương pháp hữu hiệu nhất là nhai kỹ từng miếng và đi bộ nhẹ nhàng 15 phút ngay sau bữa ăn để chặn đường huyết tăng vọt.",
+          "distractorExplanations": {
+            "A": "Bác sĩ phản đối việc kiêng khem cực đoan vì dễ phản tác dụng ('極端な食事制限はリバウンドの危険').",
+            "C": "Không khuyên tập thể hình nặng quá sức.",
+            "D": "Bác sĩ nói rõ chưa cần thiết phải uống thuốc ('今すぐ薬を飲む段階ではありません')."
+          },
+          "difficultyEstimate": 3,
+          "conceptId": "listening-points",
+          "remediation": "Lắng nghe lý do cốt lõi sau các từ nối chuyển ý (ただ, それよりも, 決定的な理由, 実は最も重要なのは).",
+          "status": "QA_VERIFIED",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original JLPT N2 Listening Corpus",
+          "examQNum": 11,
+          "mondaiTitle": "Mondai 2: ポイント理解 (Hiểu điểm mấu chốt - Trích xuất lý do)"
+        },
+        {
+          "id": "N2-M3-L01",
+          "level": "N2",
+          "skill": "Listening",
+          "typeId": "N2-LIS-OUTL",
+          "stem": "教授は何について話していますか。",
+          "stimulusId": "N2-M3-L01",
+          "contextPassage": "大学の講義で、環境学の教授が話しています。\n\n教授：「都市部におけるヒートアイランド現象の緩和策として、建物の屋上緑化が注目を集めています。屋上に植物を植えることで、直射日光によるコンクリートの温度上昇を防ぎ、最上階の冷房負荷を20％以上削減できるという実験データがあります。さらに、集中豪雨の際には雨水を一時的に土壌に保水することで、下水道への急激な排水を遅らせ、都市型水害を防ぐ役割も果たします。単なる見た目の美しさだけでなく、エネルギー削減と防災の両面において、屋上緑化は都市の持続可能性を支える重要なインフラなのです。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "都市の屋上緑化がもたらすエネルギー削減と防災の複合的効果。"
+            },
+            {
+              "id": "B",
+              "text": "高層ビルの屋上で家庭菜園を行うための最新の栽培技術。"
+            },
+            {
+              "id": "C",
+              "text": "集中豪雨による都市の水害を完全に防ぐ最新の堤防建築。"
+            },
+            {
+              "id": "D",
+              "text": "都市のコンクリート建築における耐震補強の重要性。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "Giáo sư trình bày tổng quan các lợi ích tổng hợp của việc phủ xanh mái nhà đô thị: hạ nhiệt giảm điện điều hòa và trữ nước mưa chống ngập lụt đô thị.",
+          "distractorExplanations": {
+            "B": "Bài giảng không bàn về kỹ thuật trồng rau làm vườn gia đình.",
+            "C": "Không nói về xây đê kè bê tông kiên cố.",
+            "D": "Không đề cập đến gia cố chống động đất cho nhà cao tầng."
+          },
+          "difficultyEstimate": 3,
+          "conceptId": "listening-outline",
+          "remediation": "Nắm bắt luận điểm tổng quát (主張, 結論) của toàn bộ bài nói, không bị phân tâm bởi các chi tiết ví dụ minh họa.",
+          "status": "QA_VERIFIED",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original JLPT N2 Listening Corpus",
+          "examQNum": 12,
+          "mondaiTitle": "Mondai 3: 概要理解 (Hiểu khái quát - Luận điểm bài nói)"
+        },
+        {
+          "id": "N2-M3-L02",
+          "level": "N2",
+          "skill": "Listening",
+          "typeId": "N2-LIS-OUTL",
+          "stem": "専門家が最も主張したいことは何ですか。",
+          "stimulusId": "N2-M3-L02",
+          "contextPassage": "ラジオの健康番組で、専門家が現代人の睡眠について語っています。\n\n専門家：「スマートウォッチなどで自分の睡眠ステージを毎晩細かく計測し、点数に一喜一憂する人が増えています。しかし、数値を気にしすぎるあまり、かえって緊張して眠れなくなる『睡眠恐怖症』に陥るケースも少なくありません。良質な睡眠を得るために本当に必要なのは、機器による監視ではなく、就寝前の『心の移行期間』です。寝る1時間前にはスマホやパソコンを消し、ぬるめのお風呂に入ったり、静かな音楽を聴いたりして副交感神経を優位にすること。このリラックスしたルーティンこそが、自然な熟睡へと導く最良の鍵なのです。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "最新のスマートウォッチを使って睡眠データを毎晩詳細に分析すること。"
+            },
+            {
+              "id": "B",
+              "text": "睡眠不足を解消するために、休日にまとめて15時間以上眠ること。"
+            },
+            {
+              "id": "C",
+              "text": "就寝前にデジタル機器から離れ、心をリラックスさせる移行時間を持つこと。"
+            },
+            {
+              "id": "D",
+              "text": "睡眠障害を治療するためには、すぐに強い睡眠薬を服用すること。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "Chuyên gia nhấn mạnh: Thay vì ám ảnh đo đạc số liệu bằng đồng hồ thông minh, điều cốt lõi là tạo ra khoảng đệm thư giãn trước khi ngủ (tắt màn hình, nghe nhạc êm để hệ thần kinh thả lỏng).",
+          "distractorExplanations": {
+            "A": "Đây là hành vi chuyên gia cảnh báo dễ gây lo âu căng thẳng ngược lại.",
+            "B": "Không khuyên ngủ bù li bì vào ngày cuối tuần.",
+            "D": "Không khuyên lạm dụng thuốc ngủ."
+          },
+          "difficultyEstimate": 3,
+          "conceptId": "listening-outline",
+          "remediation": "Nắm bắt luận điểm tổng quát (主張, 結論) của toàn bộ bài nói, không bị phân tâm bởi các chi tiết ví dụ minh họa.",
+          "status": "QA_VERIFIED",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original JLPT N2 Listening Corpus",
+          "examQNum": 13,
+          "mondaiTitle": "Mondai 3: 概要理解 (Hiểu khái quát - Luận điểm bài nói)"
+        },
+        {
+          "id": "N2-M3-L03",
+          "level": "N2",
+          "skill": "Listening",
+          "typeId": "N2-LIS-OUTL",
+          "stem": "学芸員は日本の陶芸についてどのような点を取り上げていますか。",
+          "stimulusId": "N2-M3-L03",
+          "contextPassage": "美術館のギャラリートークで、学芸員が日本の伝統陶芸について解説しています。\n\n学芸員：「西洋の古典的な陶磁器では、左右対称の均整の取れた形や、傷一つない滑らかな表面が理想とされてきました。しかし、日本の茶の湯とともに発展した陶芸では、まったく異なる美意識が重んじられます。それは『わびさび』の精神です。轆轤（ろくろ）の歪み、炎の当たり具合によって偶然生じた釉薬のムラ、長年使い込むことで生まれた細かなひび割れ。不完全さや経年変化の中にこそ、二度と再現できない自然の妙と深い情緒が宿ると考えるのです。欠点を受け入れ、そこに独自の美を見出す姿勢が、日本のものづくりの根底に流れています。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "西洋の陶磁器を模倣して完成させた精密な幾何学的対称性の美。"
+            },
+            {
+              "id": "B",
+              "text": "金や宝石を散りばめた豪華絢爛な装飾の歴史的変遷。"
+            },
+            {
+              "id": "C",
+              "text": "不完全さや使い込む中での経年変化に美を見出す「わびさび」の美意識。"
+            },
+            {
+              "id": "D",
+              "text": "最新の工業用機械を用いて陶器を大量生産する現代の手法。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "Chuyên viên nghệ thuật phân tích triết lý Wabi-sabi trong gốm sứ Nhật Bản: Không tìm kiếm sự đối xứng không tì vết, mà trân trọng sự bất đối xứng tự nhiên, vết nứt men và dấu vết thời gian sử dụng.",
+          "distractorExplanations": {
+            "A": "Đối xứng hình học hoàn hảo là tiêu chuẩn phương Tây cổ điển, đối lập với triết lý wabi-sabi.",
+            "B": "Không nói về trang trí vàng bạc lộng lẫy.",
+            "D": "Không bàn về sản xuất đồ gốm công nghiệp hàng loạt."
+          },
+          "difficultyEstimate": 3,
+          "conceptId": "listening-outline",
+          "remediation": "Nắm bắt luận điểm tổng quát (主張, 結論) của toàn bộ bài nói, không bị phân tâm bởi các chi tiết ví dụ minh họa.",
+          "status": "QA_VERIFIED",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original JLPT N2 Listening Corpus",
+          "examQNum": 14,
+          "mondaiTitle": "Mondai 3: 概要理解 (Hiểu khái quát - Luận điểm bài nói)"
+        },
+        {
+          "id": "N2-M3-L04",
+          "level": "N2",
+          "skill": "Listening",
+          "typeId": "N2-LIS-OUTL",
+          "stem": "コンサルタントは何を提唱していますか。",
+          "stimulusId": "N2-M3-L04",
+          "contextPassage": "ビジネスセミナーで、人材育成コンサルタントが指導法について講演しています。\n\nコンサルタント：「多様な文化的背景を持つメンバーで構成されるチームでは、部下へのフィードバックの仕方に細心の注意が必要です。過去のミスを事細かに指摘して反省を促す昔ながらのやり方は、相手に強い防衛本能を生じさせ、モチベーションを著しく低下させます。いまグローバル企業で推奨されているのは『フィードフォワード』と呼ばれる手法です。過去の失敗を責めるのではなく、本人が発揮した具体的な貢献をまず認めた上で、『次のプロジェクトを成功させるために、具体的にどう行動を改善できるか』という未来の選択肢を対話の中で引き出していく。この未来志向のアプローチこそが、自主的な成長を促すのです。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "部下の自尊心を傷つけないために、ミスがあっても一切指導しないこと。"
+            },
+            {
+              "id": "B",
+              "text": "過去のミスを公の場で厳しく叱責して、チーム内の緊張感を高めること。"
+            },
+            {
+              "id": "C",
+              "text": "過去の失敗を責めず、具体的な貢献の承認と未来志向の改善策を対話すること。"
+            },
+            {
+              "id": "D",
+              "text": "すべての評価を数値化し、上司の主観を完全に排除した機械的査定を行うこと。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "Diễn giả đề xuất phương pháp 'Feedforward': công nhận nỗ lực cụ thể đã làm tốt và cùng trao đổi phương án hành động cải tiến cho dự án tương lai thay vì chăm chăm bới móc lỗi lầm quá khứ.",
+          "distractorExplanations": {
+            "A": "Bỏ mặc lỗi lầm không hướng dẫn là sai lầm trong quản lý.",
+            "B": "Quát mắng trước mặt tập thể phá nát tinh thần hợp tác và sự gắn kết.",
+            "D": "Không đề xuất đánh giá máy móc vô cảm."
+          },
+          "difficultyEstimate": 3,
+          "conceptId": "listening-outline",
+          "remediation": "Nắm bắt luận điểm tổng quát (主張, 結論) của toàn bộ bài nói, không bị phân tâm bởi các chi tiết ví dụ minh họa.",
+          "status": "QA_VERIFIED",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original JLPT N2 Listening Corpus",
+          "examQNum": 15,
+          "mondaiTitle": "Mondai 3: 概要理解 (Hiểu khái quát - Luận điểm bài nói)"
+        },
+        {
+          "id": "N2-M3-L05",
+          "level": "N2",
+          "skill": "Listening",
+          "typeId": "N2-LIS-OUTL",
+          "stem": "専門家が最も強調している対策はどれか。",
+          "stimulusId": "N2-M3-L05",
+          "contextPassage": "環境問題のシンポジウムで、専門家がプラスチック対策について報告しています。\n\n専門家：「プラスチックごみによる海洋汚染が深刻化する中、世界中でリサイクルの推進が叫ばれています。しかし、回収したプラスチックを再資源化するプロセス自体にも膨大なエネルギーとコストが必要であり、リサイクルだけで増え続けるごみを処理し切ることは不可能です。真に持続可能な循環型社会を実現するためには、リサイクルよりも上位の概念である『リデュース』、すなわち使い捨て容器や過剰包装などの発生そのものを元から断つことが不可欠です。企業にはリユース可能な設計への転換が、そして消費者にはライフスタイルの見直しが強く求められています。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "リサイクルだけに頼るのではなく、使い捨て包装の発生そのものを元から削減すること。"
+            },
+            {
+              "id": "B",
+              "text": "プラスチックの生産量をさらに増やして、より安価な使い捨て容器を流通させること。"
+            },
+            {
+              "id": "C",
+              "text": "海洋に流出したプラスチックごみをすべて民間のボランティアで回収すること。"
+            },
+            {
+              "id": "D",
+              "text": "プラスチック製品の使用を法律で即座に全面禁止し、木材のみで代替すること。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "Chuyên gia nhấn mạnh tái chế không thể theo kịp lượng rác phát thải; biện pháp cốt lõi phải là cắt giảm ngay tại nguồn (Reduce) và chuyển đổi sang thiết kế bao bì tái sử dụng.",
+          "distractorExplanations": {
+            "B": "Tăng sản xuất đồ nhựa dùng 1 lần đi ngược lại bảo vệ môi trường.",
+            "C": "Thu gom tình nguyện không thể giải quyết được tận gốc khối lượng rác khổng lồ.",
+            "D": "Lệnh cấm toàn bộ đồ nhựa ngay lập tức là cực đoan và phi thực tế."
+          },
+          "difficultyEstimate": 3,
+          "conceptId": "listening-outline",
+          "remediation": "Nắm bắt luận điểm tổng quát (主張, 結論) của toàn bộ bài nói, không bị phân tâm bởi các chi tiết ví dụ minh họa.",
+          "status": "QA_VERIFIED",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original JLPT N2 Listening Corpus",
+          "examQNum": 16,
+          "mondaiTitle": "Mondai 3: 概要理解 (Hiểu khái quát - Luận điểm bài nói)"
+        },
+        {
+          "id": "N2-M4-L01",
+          "level": "N2",
+          "skill": "Listening",
+          "typeId": "N2-LIS-RESP",
+          "stem": "【発話を聞いて、最も適切な応答を選びなさい】\n\n「山田さん、明日のプレゼン資料、目を通していただけないでしょうか。」",
+          "stimulusId": "N2-M4-L01",
+          "contextPassage": "【音声発話】\n「山田さん、明日のプレゼン資料、目を通していただけないでしょうか。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "ええ、喜んで拝見します。"
+            },
+            {
+              "id": "B",
+              "text": "はい、目を通してください。"
+            },
+            {
+              "id": "C",
+              "text": "いえ、何も見えませんでした。"
+            },
+            {
+              "id": "D",
+              "text": "プレゼンを中止してください。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "Đối phương nhờ: '目を通していただけないでしょうか' (Có thể xem qua giúp tôi được không?). Cách đáp lễ phép khiêm nhường là: 'ええ、喜んで拝見します' (Vâng, tôi rất sẵn lòng xem qua ạ).",
+          "distractorExplanations": {
+            "B": "Bảo đối phương xem đi ('目を通してください') là đảo lộn vai vế.",
+            "C": "Hiểu sai nghĩa cụm từ 目を通す thành nhìn bằng mắt vật lý ('tôi chả thấy gì').",
+            "D": "Lựa chọn sai ngữ cảnh giao tiếp và không phù hợp với văn hóa ứng xử hội thoại."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "listening-response",
+          "remediation": "Ôn tập kính ngữ (tôn kính ngữ, khiêm nhường ngữ), thành ngữ giao tiếp thường nhật và quán dụng ngữ phản hồi công sở.",
+          "status": "QA_VERIFIED",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original JLPT N2 Listening Corpus",
+          "examQNum": 17,
+          "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - Hội thoại ngắn)"
+        },
+        {
+          "id": "N2-M4-L02",
+          "level": "N2",
+          "skill": "Listening",
+          "typeId": "N2-LIS-RESP",
+          "stem": "【発話を聞いて、最も適切な応答を選びなさい】\n\n「この間のプロジェクト、君のおかげで大成功だったよ。」",
+          "stimulusId": "N2-M4-L02",
+          "contextPassage": "【音声発話】\n「この間のプロジェクト、君のおかげで大成功だったよ。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "はい、私が一人で頑張りましたから。"
+            },
+            {
+              "id": "B",
+              "text": "とんでもないです。チームの皆さんのおかげです。"
+            },
+            {
+              "id": "C",
+              "text": "どうぞお構いなく。"
+            },
+            {
+              "id": "D",
+              "text": "成功するはずがありませんでした。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "Khi được cấp trên hoặc đối tác khen ngợi thành tích, cách ứng đáp khiêm tốn chuẩn mực trong văn hóa công sở Nhật là: 'とんでもないです。チームの皆さんのおかげです' (Dạ đâu có ạ, đều nhờ công sức của toàn thể mọi người trong đội cả ạ).",
+          "distractorExplanations": {
+            "A": "Tự mãn vỗ ngực 'do một mình tôi cố gắng' là điều tối kỵ trong văn hóa Nhật.",
+            "C": "'どうぞお構いなく' (Xin đừng bận tâm tiếp đãi) dùng khi đến thăm nhà, sai ngữ cảnh.",
+            "D": "Lựa chọn sai ngữ cảnh giao tiếp và không phù hợp với văn hóa ứng xử hội thoại."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "listening-response",
+          "remediation": "Ôn tập kính ngữ (tôn kính ngữ, khiêm nhường ngữ), thành ngữ giao tiếp thường nhật và quán dụng ngữ phản hồi công sở.",
+          "status": "QA_VERIFIED",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original JLPT N2 Listening Corpus",
+          "examQNum": 18,
+          "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - Hội thoại ngắn)"
+        },
+        {
+          "id": "N2-M4-L03",
+          "level": "N2",
+          "skill": "Listening",
+          "typeId": "N2-LIS-RESP",
+          "stem": "【発話を聞いて、最も適切な応答を選びなさい】\n\n「部長、ご相談したい件があるのですが、今お時間よろしいでしょうか。」",
+          "stimulusId": "N2-M4-L03",
+          "contextPassage": "【音声発話】\n「部長、ご相談したい件があるのですが、今お時間よろしいでしょうか。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "ええ、今なら大丈夫だよ。何かな。"
+            },
+            {
+              "id": "B",
+              "text": "はい、お時間を差し上げます。"
+            },
+            {
+              "id": "C",
+              "text": "いえ、もう相談は終わりましたよ。"
+            },
+            {
+              "id": "D",
+              "text": "お時間は一切ありません。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "Cấp dưới hỏi xin ý kiến: 'bây giờ sếp có thời gian không ạ?'. Sếp đáp tự nhiên: 'ええ、今なら大丈夫だよ。何かな' (Ừ, lúc này thì được. Chuyện gì thế?).",
+          "distractorExplanations": {
+            "B": "差し上げる là khiêm nhường ngữ (cho/tặng), cấp trên không nói với cấp dưới như vậy.",
+            "C": "Người ta chưa bắt đầu nói mà lại bảo 'cuộc tư vấn đã kết thúc rồi' là vô lý.",
+            "D": "Lựa chọn sai ngữ cảnh giao tiếp và không phù hợp với văn hóa ứng xử hội thoại."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "listening-response",
+          "remediation": "Ôn tập kính ngữ (tôn kính ngữ, khiêm nhường ngữ), thành ngữ giao tiếp thường nhật và quán dụng ngữ phản hồi công sở.",
+          "status": "QA_VERIFIED",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original JLPT N2 Listening Corpus",
+          "examQNum": 19,
+          "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - Hội thoại ngắn)"
+        },
+        {
+          "id": "N2-M4-L04",
+          "level": "N2",
+          "skill": "Listening",
+          "typeId": "N2-LIS-RESP",
+          "stem": "【発話を聞いて、最も適切な応答を選びなさい】\n\n「あいにく本日のチケットは完売となっておりまして…」",
+          "stimulusId": "N2-M4-L04",
+          "contextPassage": "【音声発話】\n「あいにく本日のチケットは完売となっておりまして…」",
+          "options": [
+            {
+              "id": "A",
+              "text": "では、全部買わせていただきます。"
+            },
+            {
+              "id": "B",
+              "text": "そうですか、残念ですがまた出直します。"
+            },
+            {
+              "id": "C",
+              "text": "チケットをお売りいただき感謝します。"
+            },
+            {
+              "id": "D",
+              "text": "チケットを拝見いたします。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "Nhân viên thông báo: 'Vé hôm nay rất tiếc đã bán hết sạch rồi ạ...'. Khách đáp phù hợp: 'そうですか、残念ですがまた出直します' (Vậy à, tiếc thật, tôi sẽ quay lại dịp khác).",
+          "distractorExplanations": {
+            "A": "Đã hết sạch vé mà bảo 'vậy tôi mua hết' là vô nghĩa.",
+            "C": "Chưa mua được vé mà lại cảm ơn vì đã bán vé.",
+            "D": "Lựa chọn sai ngữ cảnh giao tiếp và không phù hợp với văn hóa ứng xử hội thoại."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "listening-response",
+          "remediation": "Ôn tập kính ngữ (tôn kính ngữ, khiêm nhường ngữ), thành ngữ giao tiếp thường nhật và quán dụng ngữ phản hồi công sở.",
+          "status": "QA_VERIFIED",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original JLPT N2 Listening Corpus",
+          "examQNum": 20,
+          "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - Hội thoại ngắn)"
+        },
+        {
+          "id": "N2-M4-L05",
+          "level": "N2",
+          "skill": "Listening",
+          "typeId": "N2-LIS-RESP",
+          "stem": "【発話を聞いて、最も適切な応答を選びなさい】\n\n「この仕事、明日までに終わらせろなんて、無理に決まってるよ。」",
+          "stimulusId": "N2-M4-L05",
+          "contextPassage": "【音声発話】\n「この仕事、明日までに終わらせろなんて、無理に決まってるよ。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "そう言わずに、手分けしてやってみようよ。"
+            },
+            {
+              "id": "B",
+              "text": "うん、絶対に明日までに終わったね。"
+            },
+            {
+              "id": "C",
+              "text": "じゃあ、今日中に全部やってしまおう。"
+            },
+            {
+              "id": "D",
+              "text": "明日まで仕事を休んでください。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "Đồng nghiệp than vãn: 'Bảo xong việc này trước ngày mai thì vô lý quá'. Câu động viên chia việc hợp lý: 'そう言わずに、手分けしてやってみようよ' (Đừng nói thế, chúng mình chia nhau ra cùng làm xem sao).",
+          "distractorExplanations": {
+            "B": "Dùng thì quá khứ 終わったね trong khi việc chưa hoàn thành là sai.",
+            "C": "Mai còn không kịp mà bảo 'làm hết ngay trong hôm nay' là thiếu thực tế.",
+            "D": "Lựa chọn sai ngữ cảnh giao tiếp và không phù hợp với văn hóa ứng xử hội thoại."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "listening-response",
+          "remediation": "Ôn tập kính ngữ (tôn kính ngữ, khiêm nhường ngữ), thành ngữ giao tiếp thường nhật và quán dụng ngữ phản hồi công sở.",
+          "status": "QA_VERIFIED",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original JLPT N2 Listening Corpus",
+          "examQNum": 21,
+          "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - Hội thoại ngắn)"
+        },
+        {
+          "id": "N2-M4-L06",
+          "level": "N2",
+          "skill": "Listening",
+          "typeId": "N2-LIS-RESP",
+          "stem": "【発話を聞いて、最も適切な応答を選びなさい】\n\n「課長、先ほど田中様がお見えになりました。」",
+          "stimulusId": "N2-M4-L06",
+          "contextPassage": "【音声発話】\n「課長、先ほど田中様がお見えになりました。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "ええ、田中様を見に行きました。"
+            },
+            {
+              "id": "B",
+              "text": "そうか、第2応接室にご案内してくれたまえ。"
+            },
+            {
+              "id": "C",
+              "text": "はい、田中様はお帰りになりましたか。"
+            },
+            {
+              "id": "D",
+              "text": "田中様にはお会いできませんでした。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "Thư ký báo: 'Thưa trưởng phòng, vừa nãy anh Tanaka đã đến ạ' (お見えになる là tôn kính ngữ của 来る). Trưởng phòng chỉ thị: 'そうか、第2応接室にご案内してくれたまえ' (Thế à, hướng dẫn anh ấy vào phòng tiếp khách số 2 giúp tôi).",
+          "distractorExplanations": {
+            "A": "Hiểu sai お見えになる thành 'nhìn thấy' (見に行く).",
+            "C": "Khách vừa mới đến lại hỏi 'đã về rồi à' là phi logic.",
+            "D": "Lựa chọn sai ngữ cảnh giao tiếp và không phù hợp với văn hóa ứng xử hội thoại."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "listening-response",
+          "remediation": "Ôn tập kính ngữ (tôn kính ngữ, khiêm nhường ngữ), thành ngữ giao tiếp thường nhật và quán dụng ngữ phản hồi công sở.",
+          "status": "QA_VERIFIED",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original JLPT N2 Listening Corpus",
+          "examQNum": 22,
+          "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - Hội thoại ngắn)"
+        },
+        {
+          "id": "N2-M4-L07",
+          "level": "N2",
+          "skill": "Listening",
+          "typeId": "N2-LIS-RESP",
+          "stem": "【発話を聞いて、最も適切な応答を選びなさい】\n\n「昨日のパーティー、行けなくて本当に悪かったね。」",
+          "stimulusId": "N2-M4-L07",
+          "contextPassage": "【音声発話】\n「昨日のパーティー、行けなくて本当に悪かったね。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "ううん、気にしないで。また今度集まろう。"
+            },
+            {
+              "id": "B",
+              "text": "ええ、絶対に来るべきだったのに。"
+            },
+            {
+              "id": "C",
+              "text": "はい、私も行けなくて残念でした。"
+            },
+            {
+              "id": "D",
+              "text": "パーティーは来週に変更されました。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "Bạn xin lỗi vì bận không đến được bữa tiệc. Đáp lại thông cảm: 'ううん、気にしないで。また今度集まろう' (Không sao đâu, đừng bận tâm, lần khác tụi mình lại tụ tập nhé).",
+          "distractorExplanations": {
+            "B": "Trách móc 'lẽ ra cậu nhất định phải đến chứ' là thiếu lịch sự thân thiện.",
+            "C": "Người kia không đến được, còn mình là người chủ trì/đã đi tiệc mà lại nói 'tôi cũng không đi được'.",
+            "D": "Lựa chọn sai ngữ cảnh giao tiếp và không phù hợp với văn hóa ứng xử hội thoại."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "listening-response",
+          "remediation": "Ôn tập kính ngữ (tôn kính ngữ, khiêm nhường ngữ), thành ngữ giao tiếp thường nhật và quán dụng ngữ phản hồi công sở.",
+          "status": "QA_VERIFIED",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original JLPT N2 Listening Corpus",
+          "examQNum": 23,
+          "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - Hội thoại ngắn)"
+        },
+        {
+          "id": "N2-M4-L08",
+          "level": "N2",
+          "skill": "Listening",
+          "typeId": "N2-LIS-RESP",
+          "stem": "【発話を聞いて、最も適切な応答を選びなさい】\n\n「この新製品、使ってみたけど、期待外れもいいところだったよ。」",
+          "stimulusId": "N2-M4-L08",
+          "contextPassage": "【音声発話】\n「この新製品、使ってみたけど、期待外れもいいところだったよ。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "え、そんなにいまいちだったの？"
+            },
+            {
+              "id": "B",
+              "text": "期待通りで本当によかったね。"
+            },
+            {
+              "id": "C",
+              "text": "外に出て使ってみればいいよ。"
+            },
+            {
+              "id": "D",
+              "text": "新製品を買わなくて正解でした。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "Thành ngữ: 期待外れもいいところだ (thất vọng tràn trề, quá sức kỳ vọng). Phản xạ đáp lại: 'え、そんなにいまいちだったの？' (Hả, tệ/kém đến mức thế cơ à?).",
+          "distractorExplanations": {
+            "B": "Ngược nghĩa hoàn toàn với thất vọng (期待通り là đúng như mong đợi).",
+            "C": "Hiểu nhầm 外れ (hụt, trật) thành 外 (bên ngoài).",
+            "D": "Lựa chọn sai ngữ cảnh giao tiếp và không phù hợp với văn hóa ứng xử hội thoại."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "listening-response",
+          "remediation": "Ôn tập kính ngữ (tôn kính ngữ, khiêm nhường ngữ), thành ngữ giao tiếp thường nhật và quán dụng ngữ phản hồi công sở.",
+          "status": "QA_VERIFIED",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original JLPT N2 Listening Corpus",
+          "examQNum": 24,
+          "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - Hội thoại ngắn)"
+        },
+        {
+          "id": "N2-M4-L09",
+          "level": "N2",
+          "skill": "Listening",
+          "typeId": "N2-LIS-RESP",
+          "stem": "【発話を聞いて、最も適切な応答を選びなさい】\n\n「恐れ入りますが、こちらの書類にお名前をご記入いただけますか。」",
+          "stimulusId": "N2-M4-L09",
+          "contextPassage": "【音声発話】\n「恐れ入りますが、こちらの書類にお名前をご記入いただけますか。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "はい、分かりました。どこに書けばいいですか。"
+            },
+            {
+              "id": "B",
+              "text": "どういたしまして、ご記入ください。"
+            },
+            {
+              "id": "C",
+              "text": "いえ、お名前は存じ上げております。"
+            },
+            {
+              "id": "D",
+              "text": "書類をシュレッダーにかけてください。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "Nhân viên lịch sự: 'Xin thứ lỗi, anh/chị có thể vui lòng điền họ tên vào giấy tờ này giúp em được không ạ?'. Khách đồng ý: 'はい、分かりました。どこに書けばいいですか' (Vâng, tôi hiểu rồi. Viết vào chỗ nào thế em?).",
+          "distractorExplanations": {
+            "B": "Khách lại bảo nhân viên 'xin mời điền vào' là sai.",
+            "C": "Hiểu nhầm câu hỏi, đáp 'tôi biết tên rồi'.",
+            "D": "Lựa chọn sai ngữ cảnh giao tiếp và không phù hợp với văn hóa ứng xử hội thoại."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "listening-response",
+          "remediation": "Ôn tập kính ngữ (tôn kính ngữ, khiêm nhường ngữ), thành ngữ giao tiếp thường nhật và quán dụng ngữ phản hồi công sở.",
+          "status": "QA_VERIFIED",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original JLPT N2 Listening Corpus",
+          "examQNum": 25,
+          "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - Hội thoại ngắn)"
+        },
+        {
+          "id": "N2-M4-L10",
+          "level": "N2",
+          "skill": "Listening",
+          "typeId": "N2-LIS-RESP",
+          "stem": "【発話を聞いて、最も適切な応答を選びなさい】\n\n「駅前の新しいカフェ、もう行ってみた？ コーヒーがすごく美味しかったよ。」",
+          "stimulusId": "N2-M4-L10",
+          "contextPassage": "【音声発話】\n「駅前の新しいカフェ、もう行ってみた？ コーヒーがすごく美味しかったよ。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "へえ、知らなかった。今度行ってみるね。"
+            },
+            {
+              "id": "B",
+              "text": "うん、そのカフェでコーヒーを作ったよ。"
+            },
+            {
+              "id": "C",
+              "text": "そうなんだ、コーヒーは飲まなかったんだね。"
+            },
+            {
+              "id": "D",
+              "text": "駅前のカフェは閉店してしまいました。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "Bạn gợi ý quán cà phê ngon trước ga: 'Cậu đã ghé thử quán cà phê mới trước ga chưa? Cà phê ở đó ngon lắm đấy!'. Đáp lại tự nhiên: 'へえ、知らなかった。今度行ってみるね' (Thế à, tớ không biết đấy. Bữa nào tớ sẽ ghé thử).",
+          "distractorExplanations": {
+            "B": "Tự nhiên nhận 'tớ đã pha cà phê ở quán đó' là lạc quẻ.",
+            "C": "Người ta vừa khen cà phê ngon mà lại nói 'cậu không uống cà phê à'.",
+            "D": "Lựa chọn sai ngữ cảnh giao tiếp và không phù hợp với văn hóa ứng xử hội thoại."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "listening-response",
+          "remediation": "Ôn tập kính ngữ (tôn kính ngữ, khiêm nhường ngữ), thành ngữ giao tiếp thường nhật và quán dụng ngữ phản hồi công sở.",
+          "status": "QA_VERIFIED",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original JLPT N2 Listening Corpus",
+          "examQNum": 26,
+          "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - Hội thoại ngắn)"
+        },
+        {
+          "id": "N2-M4-L11",
+          "level": "N2",
+          "skill": "Listening",
+          "typeId": "N2-LIS-RESP",
+          "stem": "【発話を聞いて、最も適切な応答を選びなさい】\n\n「雨が降りそうだから、傘を持って行ったほうがいいんじゃない？」",
+          "stimulusId": "N2-M4-L11",
+          "contextPassage": "【音声発話】\n「雨が降りそうだから、傘を持って行ったほうがいいんじゃない？」",
+          "options": [
+            {
+              "id": "A",
+              "text": "そうだね、折りたたみ傘を鞄に入れておくよ。"
+            },
+            {
+              "id": "B",
+              "text": "うん、傘を持って行かなくてよかった。"
+            },
+            {
+              "id": "C",
+              "text": "いえ、雨が降ったら傘を買わないよ。"
+            },
+            {
+              "id": "D",
+              "text": "傘を雨の中に置いてきました。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "Lời khuyên: 'Trời trông sắp mưa đấy, chẳng phải nên mang ô đi hay sao?'. Đáp lại hợp lý: 'そうだね、折りたたみ傘を鞄に入れておくよ' (Ừ đúng rồi, tớ sẽ bỏ cây dù gấp vào cặp).",
+          "distractorExplanations": {
+            "B": "Chưa đi mà đã nói thì quá khứ 'may mà không mang ô đi' là vô lý.",
+            "C": "Nói 'nếu trời mưa tôi sẽ không mua ô' là kỳ quặc.",
+            "D": "Lựa chọn sai ngữ cảnh giao tiếp và không phù hợp với văn hóa ứng xử hội thoại."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "listening-response",
+          "remediation": "Ôn tập kính ngữ (tôn kính ngữ, khiêm nhường ngữ), thành ngữ giao tiếp thường nhật và quán dụng ngữ phản hồi công sở.",
+          "status": "QA_VERIFIED",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original JLPT N2 Listening Corpus",
+          "examQNum": 27,
+          "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - Hội thoại ngắn)"
+        },
+        {
+          "id": "N2-M5-L01",
+          "level": "N2",
+          "skill": "Listening",
+          "typeId": "N2-LIS-INTE",
+          "stem": "条件を満たし、2人が最終的に課長へ提案することにしたお店はどれですか。",
+          "stimulusId": "N2-M5-CASE1",
+          "contextPassage": "会社の総務部で、男性社員と女性社員が今年の忘年会の会場について相談しています。\n\n男：「課長から忘年会の幹事を頼まれたんだけど、候補のお店を4つピックアップしてみたんだ。相談に乗ってくれる？」\n女：「ええ、いいわよ。課長からの条件は何だったかしら。」\n男：「参加者は25名で、予算は飲み放題込みで一人6,000円以内。それから、役員も参加するから落ち着いて話せる『完全個室』が必須条件だと言われたよ。あとは駅から近い方がいいな。」\n女：「なるほど。候補のお店はどんな感じ？」\n男：「まず【1番の和食懐石・松月】。料理は本格的で完全個室だけど、飲み放題付きで一人8,000円と予算オーバーなんだ。駅からも徒歩15分かかる。」\n女：「それは予算的に厳しいわね。2番は？」\n男：「【2番のイタリアン・バル】。駅から徒歩3分でアクセス抜群。貸切の個室があって、飲み放題付きで一人5,000円と予算内に収まるよ。」\n女：「いいじゃない！ 3番と4番は？」\n男：「【3番のホテルビュッフェ】は夜景が綺麗で一人7,000円だけど、個室がなくてオープンスペースなんだ。【4番の焼肉店】は一人4,500円で一番安いんだけど、店内全席喫煙可能で、個室ではなく仕切りがあるだけなんだよね。」\n女：「うーん、役員はおタバコを吸わないし、煙やにおいがつくのは避けたいわね。やっぱり、予算内で完全個室があって駅から近いあのお店にするのが一番良さそうね。」\n男：「そうだね、じゃあそっちで課長に提案してみるよ。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "1番の和食懐石・松月"
+            },
+            {
+              "id": "B",
+              "text": "2番のイタリアン・バル"
+            },
+            {
+              "id": "C",
+              "text": "3番のホテルビュッフェ"
+            },
+            {
+              "id": "D",
+              "text": "4番の焼肉店"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "Quán số 2 (イタリアン・バル) đáp ứng trọn vẹn tất cả tiêu chí: cách ga 3 phút, có phòng riêng biệt lập (完全個室), giá 5,000 yên kèm đồ uống (dưới mức ngân sách trần 6,000 yên).",
+          "distractorExplanations": {
+            "A": "Quán 1 giá 8,000 yên bị vượt ngân sách trần (6,000 yên) và cách xa ga 15 phút.",
+            "C": "Quán 3 giá 7,000 yên vượt ngân sách và không có phòng riêng (個室がない).",
+            "D": "Quán 4 cho phép hút thuốc toàn quán và không có phòng riêng biệt lập."
+          },
+          "difficultyEstimate": 3,
+          "conceptId": "listening-integrated",
+          "remediation": "Đối chiếu bảng tiêu chí: ngân sách (<= 6,000 yên), phòng riêng (完全個室), khoảng cách ga, và không gian không thuốc lá.",
+          "status": "QA_VERIFIED",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original JLPT N2 Listening Corpus",
+          "examQNum": 28,
+          "mondaiTitle": "Mondai 5: 統合理解 (Hiểu tổng hợp — Hội thoại dài nhiều điều kiện)"
+        },
+        {
+          "id": "N2-M5-L02",
+          "level": "N2",
+          "skill": "Listening",
+          "typeId": "N2-LIS-INTE",
+          "stem": "女性社員が4番の焼肉店を避けた主な理由は何ですか。",
+          "stimulusId": "N2-M5-CASE1",
+          "contextPassage": "会社の総務部で、男性社員と女性社員が今年の忘年会の会場について相談しています。\n\n男：「課長から忘年会の幹事を頼まれたんだけど、候補のお店を4つピックアップしてみたんだ。相談に乗ってくれる？」\n女：「ええ、いいわよ。課長からの条件は何だったかしら。」\n男：「参加者は25名で、予算は飲み放題込みで一人6,000円以内。それから、役員も参加するから落ち着いて話せる『完全個室』が必須条件だと言われたよ。あとは駅から近い方がいいな。」\n女：「なるほど。候補のお店はどんな感じ？」\n男：「まず【1番の和食懐石・松月】。料理は本格的で完全個室だけど、飲み放題付きで一人8,000円と予算オーバーなんだ。駅からも徒歩15分かかる。」\n女：「それは予算的に厳しいわね。2番は？」\n男：「【2番のイタリアン・バル】。駅から徒歩3分でアクセス抜群。貸切の個室があって、飲み放題付きで一人5,000円と予算内に収まるよ。」\n女：「いいじゃない！ 3番と4番は？」\n男：「【3番のホテルビュッフェ】は夜景が綺麗で一人7,000円だけど、個室がなくてオープンスペースなんだ。【4番の焼肉店】は一人4,500円で一番安いんだけど、店内全席喫煙可能で、個室ではなく仕切りがあるだけなんだよね。」\n女：「うーん、役員はおタバコを吸わないし、煙やにおいがつくのは避けたいわね。やっぱり、予算内で完全個室があって駅から近いあのお店にするのが一番良さそうね。」\n男：「そうだね、じゃあそっちで課長に提案してみるよ。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "一人あたりの料金が4,500円で予算よりも安すぎるため。"
+            },
+            {
+              "id": "B",
+              "text": "駅から徒歩30分以上離れていて移動が不可能なため。"
+            },
+            {
+              "id": "C",
+              "text": "店内で喫煙が可能で、煙やにおいが服につき個室もないため。"
+            },
+            {
+              "id": "D",
+              "text": "お酒の飲み放題メニューが一切用意されていないため。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "Nữ nhân viên giải thích: '役員はおタバコを吸わないし、煙やにおいがつくのは避けたいわね' (Các giám đốc không hút thuốc và không muốn bị bám mùi khói, quán lại không có phòng riêng).",
+          "distractorExplanations": {
+            "A": "Giá rẻ hơn ngân sách là điểm cộng, không phải lý do từ chối.",
+            "B": "Quán không hề nói cách ga 30 phút.",
+            "D": "Quán có gói đồ uống, lý do bị loại là khói thuốc và thiếu phòng riêng."
+          },
+          "difficultyEstimate": 3,
+          "conceptId": "listening-integrated",
+          "remediation": "Lắng nghe lý do từ chối của người nữ đối với các phương án bị loại.",
+          "status": "QA_VERIFIED",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original JLPT N2 Listening Corpus",
+          "examQNum": 29,
+          "mondaiTitle": "Mondai 5: 統合理解 (Hiểu tổng hợp — Hội thoại dài nhiều điều kiện)"
+        },
+        {
+          "id": "N2-M5-L03",
+          "level": "N2",
+          "skill": "Listening",
+          "typeId": "N2-LIS-INTE",
+          "stem": "夫婦が購入することに決めた空気清浄機はどれですか。",
+          "stimulusId": "N2-M5-CASE2",
+          "contextPassage": "家電量販店で、夫婦が店員の説明を聞きながら空気清浄機を選んでいます。\n\n店員：「いらっしゃいませ。空気清浄機をお探しですか。」\n男：「ええ。実はもうすぐ赤ちゃんが生まれるので、寝室に置く静かで高性能なものを探しているんです。」\n女：「それと、室内で猫を1匹飼っているので、ペットの毛やにおいをしっかり除去できるフィルターがいいですね。」\n店員：「かしこまりました。現在おすすめのモデルが4機種ございます。\nまず【タイプA】は、基本性能を抑えたコンパクト型で、価格は2万円とお手頃ですが、消臭フィルターがついていません。\n次に【タイプB】は、強力なペット用脱臭機能を備えていますが、ファンの運転音がやや大きく、赤ちゃんの就寝時には気になるかもしれません。\nそして【タイプC】ですが、こちらは高性能HEPAフィルター搭載で花粉やペットの毛を99.9%捕集し、さらに特許技術の静音モードで夜間もささやき声以下の静かさで運転できます。加湿機能もついています。価格は4万5千円です。\n最後の【タイプD】は、最高峰モデルでAIが空気の汚れを自動検知しますが、サイズが非常に大きく、リビング向けで価格も8万円します。」\n男：「寝室に置くならサイズも大きすぎず、夜静かに動いてくれるのが一番だね。」\n女：「ええ。猫の毛もにおいもしっかり取れて、赤ちゃんの眠りを妨げないのが理想ね。加湿もできるなら乾燥する冬も安心だし、これに決めましょう！」",
+          "options": [
+            {
+              "id": "A",
+              "text": "タイプA（価格2万円のコンパクト型）"
+            },
+            {
+              "id": "B",
+              "text": "タイプB（ペット脱臭重視だが運転音がやや大きい型）"
+            },
+            {
+              "id": "C",
+              "text": "タイプC（ペット毛・消臭対応で超静音モードと加湿機能つき）"
+            },
+            {
+              "id": "D",
+              "text": "タイプD（AI自動検知機能つきの大型リビング型）"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "Hai vợ chồng quyết định chọn Type C: bộ lọc HEPA khử mùi lông mèo 99.9%, chế độ siêu êm ái cho phòng ngủ em bé, và kèm tính năng bù ẩm mùa đông khô ráo.",
+          "distractorExplanations": {
+            "A": "Type A không có bộ lọc khử mùi (消臭フィルターがついていない).",
+            "B": "Type B tiếng quạt kêu khá to (運転音がやや大きい), dễ làm em bé thức giấc.",
+            "D": "Type D quá to dành cho phòng khách và giá 8 vạn yên vượt nhu cầu phòng ngủ."
+          },
+          "difficultyEstimate": 3,
+          "conceptId": "listening-integrated",
+          "remediation": "Đối chiếu 3 tiêu chí: khử mùi lông thú cưng, êm ái cho trẻ sơ sinh, kích thước vừa vặn cho phòng ngủ.",
+          "status": "QA_VERIFIED",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original JLPT N2 Listening Corpus",
+          "examQNum": 30,
+          "mondaiTitle": "Mondai 5: 統合理解 (Hiểu tổng hợp — So sánh lựa chọn thiết bị)"
+        }
+      ]
     }
   ]
 },

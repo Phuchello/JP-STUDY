@@ -234,6 +234,9 @@ Snapshot 2026-10-15. VERIFIED is scoped verification, not JLPT certification. Hi
 | [research/methods.json](research/methods.json) | VERIFIED |
 | [research/search_coverage.json](research/search_coverage.json) | VERIFIED |
 | [scripts/README.md](scripts/README.md) | VERIFIED |
+| [scripts/audit_boilerplates.py](scripts/audit_boilerplates.py) | VERIFIED |
+| [scripts/audit_n2_mock_01.py](scripts/audit_n2_mock_01.py) | VERIFIED |
+| [scripts/audit_section2.py](scripts/audit_section2.py) | VERIFIED |
 | [scripts/build_start_here.py](scripts/build_start_here.py) | VERIFIED |
 | [scripts/cdp_check_canvas.cjs](scripts/cdp_check_canvas.cjs) | QA_PENDING |
 | [scripts/cdp_check_published_bank.cjs](scripts/cdp_check_published_bank.cjs) | QA_PENDING |
@@ -274,10 +277,12 @@ Snapshot 2026-10-15. VERIFIED is scoped verification, not JLPT certification. Hi
 | [scripts/curriculum/audit_star_permutations.py](scripts/curriculum/audit_star_permutations.py) | VERIFIED |
 | [scripts/curriculum/bank_data/__init__.py](scripts/curriculum/bank_data/__init__.py) | QA_PENDING |
 | [scripts/curriculum/bank_data/n2_data.py](scripts/curriculum/bank_data/n2_data.py) | QA_PENDING |
+| [scripts/curriculum/bank_data/n2_listening_full_30.py](scripts/curriculum/bank_data/n2_listening_full_30.py) | VERIFIED |
 | [scripts/curriculum/bank_data/n2_reading_listening.py](scripts/curriculum/bank_data/n2_reading_listening.py) | QA_PENDING |
 | [scripts/curriculum/bank_data/n3_data.py](scripts/curriculum/bank_data/n3_data.py) | QA_PENDING |
 | [scripts/curriculum/bank_data/n3_reading_listening.py](scripts/curriculum/bank_data/n3_reading_listening.py) | QA_PENDING |
 | [scripts/curriculum/build_expanded_bank.py](scripts/curriculum/build_expanded_bank.py) | VERIFIED |
+| [scripts/curriculum/build_full_mock_n2.py](scripts/curriculum/build_full_mock_n2.py) | VERIFIED |
 | [scripts/curriculum/build_mock_system.py](scripts/curriculum/build_mock_system.py) | QA_PENDING |
 | [scripts/curriculum/build_practice_sets.py](scripts/curriculum/build_practice_sets.py) | VERIFIED |
 | [scripts/curriculum/build_provenance_manifest.py](scripts/curriculum/build_provenance_manifest.py) | VERIFIED |
@@ -299,6 +304,8 @@ Snapshot 2026-10-15. VERIFIED is scoped verification, not JLPT certification. Hi
 | [scripts/drive_first/core.js](scripts/drive_first/core.js) | VERIFIED |
 | [scripts/drive_first/test_drive_first.cjs](scripts/drive_first/test_drive_first.cjs) | VERIFIED |
 | [scripts/drive_first/verify_pdfs.py](scripts/drive_first/verify_pdfs.py) | VERIFIED |
+| [scripts/tests/smoke_engine_playwright.cjs](scripts/tests/smoke_engine_playwright.cjs) | VERIFIED |
+| [scripts/tests/smoke_mock_section2.cjs](scripts/tests/smoke_mock_section2.cjs) | VERIFIED |
 | [scripts/tests/test_browser.cjs](scripts/tests/test_browser.cjs) | VERIFIED |
 | [scripts/tests/test_edge_flows.cjs](scripts/tests/test_edge_flows.cjs) | VERIFIED |
 | [scripts/tests/test_engine.cjs](scripts/tests/test_engine.cjs) | VERIFIED |

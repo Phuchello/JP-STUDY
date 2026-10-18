@@ -110,7 +110,7 @@ class TestTimerAndDeepLinks(unittest.TestCase):
     def test_stop_timer_called_on_session_transitions(self):
         """Ensure stopActiveTimer is called when starting or resetting any session."""
         self.assertTrue(re.search(r"function startTimedSession\(\)\s*\{[\s\S]*?stopActiveTimer\(\);", self.engine_html))
-        self.assertTrue(re.search(r"function startFullMockExam\(mockId\)\s*\{[\s\S]*?stopActiveTimer\(\);", self.engine_html))
+        self.assertTrue(re.search(r"function startFullMockExam\([^\)]*\)\s*\{[\s\S]*?stopActiveTimer\(\);", self.engine_html))
         self.assertTrue(re.search(r"function startGrindSession\(\)\s*\{[\s\S]*?stopActiveTimer\(\);", self.engine_html))
         self.assertTrue(re.search(r"function startSeededSession\(\)\s*\{[\s\S]*?stopActiveTimer\(\);", self.engine_html))
         self.assertTrue(re.search(r"function resetTimedToConfig\(\)\s*\{[\s\S]*?stopActiveTimer\(\);", self.engine_html))
@@ -131,10 +131,10 @@ class TestTimerAndDeepLinks(unittest.TestCase):
     # --- P1: Sectional Practice & Mock Launch Tests ---
     def test_direct_mock_launch_for_n2_and_n3(self):
         """Ensure applyUrlParameters triggers launchMockExamSafely for N2-MOCK-01 and N3-MOCK-01."""
-        self.assertIn("function launchMockExamSafely(mockId)", self.engine_html)
+        self.assertIn("function launchMockExamSafely(mockId", self.engine_html)
         self.assertIn("['N2-MOCK-01', 'N3-MOCK-01'].includes(upperMock)", self.engine_html)
-        self.assertIn("launchMockExamSafely(upperMock);", self.engine_html)
-        self.assertIn("startFullMockExam(upperMock)", self.engine_html)
+        self.assertIn("launchMockExamSafely(upperMock", self.engine_html)
+        self.assertIn("startFullMockExam(upperMock", self.engine_html)
 
     def test_unavailable_mock_rejection(self):
         """Ensure unavailable mock exams trigger alert/badge and do not launch."""
@@ -162,9 +162,9 @@ class TestTimerAndDeepLinks(unittest.TestCase):
         self.assertIn("tdDate.textContent = ", history_body)
 
     def test_no_misleading_claims(self):
-        """Ensure no misleading 'Full Mock 180 điểm' or 'scaled score' claims remain in practice engine."""
-        self.assertNotIn("180 điểm", self.engine_html)
-        self.assertNotIn("scaled score", self.engine_html)
+        """Ensure sectional practice without Section 2 is properly labeled and doesn't mislead."""
+        self.assertIn("KẾT QUẢ PHẦN 1: KIẾN THỨC NGÔN NGỮ & ĐỌC HIỂU", self.engine_html)
+        self.assertIn("Nghỉ giải lao 10 phút & Vào Phần 2", self.engine_html)
 
     def test_n3_100_minute_combined_structure_delineation(self):
         """Verify N3 100-minute combined practice note is explicitly distinct from official 30+70 schedule."""
@@ -186,17 +186,19 @@ class TestTimerAndDeepLinks(unittest.TestCase):
 
     # --- P1 & P2: Executable Behavioral Verification Tests ---
     def test_n2_mock_data_integrity(self):
-        """Executable test: verify N2-MOCK-01 JSON file contains exactly 75 answerable questions, all N2."""
+        """Executable test: verify N2-MOCK-01 JSON file contains valid full mock questions across 2 sections, all N2."""
         self.assertTrue(N2_MOCK_JSON.exists(), "N2 mock file must exist")
         data = json.loads(N2_MOCK_JSON.read_text(encoding="utf-8"))
         self.assertEqual(data["examId"], "N2-MOCK-01")
-        self.assertEqual(data["durationMinutes"], 105)
-        self.assertEqual(data["totalQuestions"], 75)
-        items = data["sections"][0]["items"]
-        self.assertEqual(len(items), 75, "N2 sectional practice must have exactly 75 items")
-        self.assertTrue(all(q["level"] == "N2" for q in items), "All questions in N2 mock must be level N2")
+        self.assertEqual(data["durationMinutes"], 155)
+        self.assertEqual(data["totalQuestions"], 105)
+        sec1_items = data["sections"][0]["items"]
+        sec2_items = data["sections"][1]["items"]
+        self.assertEqual(len(sec1_items), 75, "N2 sectional practice 1 must have exactly 75 items")
+        self.assertEqual(len(sec2_items), 30, "N2 sectional practice 2 must have exactly 30 items")
+        self.assertTrue(all(q["level"] == "N2" for q in sec1_items + sec2_items), "All questions in N2 mock must be level N2")
         # Check no option duplicates
-        for q in items:
+        for q in sec1_items + sec2_items:
             opt_texts = [opt["text"].strip() for opt in q["options"]]
             self.assertEqual(len(opt_texts), len(set(opt_texts)), f"Item {q['id']} has duplicate option text")
 

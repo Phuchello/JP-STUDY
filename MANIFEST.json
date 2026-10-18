@@ -1,8 +1,8 @@
 {
   "snapshotDate": "2026-10-15",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
-  "fileCountExcludingManifest": 307,
-  "totalBytesExcludingManifest": 10226998,
+  "fileCountExcludingManifest": 314,
+  "totalBytesExcludingManifest": 10577057,
   "files": [
     {
       "path": ".gitattributes",
@@ -528,8 +528,8 @@
     },
     {
       "path": "data/mock_exams/n2_mock_01.json",
-      "bytes": 187632,
-      "sha256": "9ee8ad187a6505ca488abeb48ce8c9500fad6f9196570ffec6e316d778c4c399",
+      "bytes": 279423,
+      "sha256": "5810f1180f5943e7592dd4f77ad3ec2e039752e4750ee3e81bd83d222b0b073b",
       "status": "QA_PENDING"
     },
     {
@@ -756,14 +756,14 @@
     },
     {
       "path": "docs/widgets/jlpt_exam_catalog.html",
-      "bytes": 75752,
-      "sha256": "646562f33fe1b7ccb53d447181c75fc7ef5deca874a34ac0cd4ba3e98537055f",
+      "bytes": 76322,
+      "sha256": "cc299a9de4a212f4ee9b11bf6974d24d2b8f7b8971803564dc924157422300ce",
       "status": "QA_PENDING"
     },
     {
       "path": "docs/widgets/jlpt_exam_catalog_ncr.html",
-      "bytes": 89480,
-      "sha256": "8f3971f2640f8b5e6cc90d8797c85ee2381e0539c74d380adf99ede3016aca58",
+      "bytes": 90144,
+      "sha256": "d141bd7d384780488bbba8e771bb3a9743079dcaa536a8b6b9941da7297eda2d",
       "status": "QA_PENDING"
     },
     {
@@ -780,8 +780,8 @@
     },
     {
       "path": "docs/widgets/mock_exam_bank.js",
-      "bytes": 352818,
-      "sha256": "daded210fcc7cfc878497dfa99b8d8acd9df08c082f0999715fd6ac1422ec265",
+      "bytes": 444679,
+      "sha256": "345a0d0252d15d6e8765265905c6919184e9d94acbfbd03a33fe64358241328d",
       "status": "QA_PENDING"
     },
     {
@@ -792,14 +792,14 @@
     },
     {
       "path": "docs/widgets/practice_engine.html",
-      "bytes": 110865,
-      "sha256": "d17f0a004ca86d05218afdfda760950353476ca59f9a1cdcd81588ac8edc5c13",
+      "bytes": 124106,
+      "sha256": "3f3640cd984bd6f2554c250c3518022d3ca5dab9a7ed68576c9e356f74567e76",
       "status": "QA_PENDING"
     },
     {
       "path": "docs/widgets/practice_engine_ncr.html",
-      "bytes": 120823,
-      "sha256": "b4ebd611569aa5d58ee063c9021789d886f0d1c37363ee175bf8901b4cb97e60",
+      "bytes": 135770,
+      "sha256": "4decf1686181daf638e29235555bbd2c0ec85f79b534806b43fea0403f0eddbf",
       "status": "QA_PENDING"
     },
     {
@@ -876,8 +876,8 @@
     },
     {
       "path": "FILE_INDEX.md",
-      "bytes": 29687,
-      "sha256": "41bec5543ccf19b4764694a5decb415cf91fabd86adfb20d2f1d1b8e74a02b88",
+      "bytes": 30329,
+      "sha256": "67f3f60a4dd5b0dfb68750a9563eff6897a22f9e7ea3d281c575e7fdc69e63e2",
       "status": "VERIFIED"
     },
     {
@@ -1014,8 +1014,8 @@
     },
     {
       "path": "qa/file_status.json",
-      "bytes": 13960,
-      "sha256": "dfa578650c793e860af8b760d98b673b97bae5264b6bfa4ebd1ad4d5b0b78bc4",
+      "bytes": 14346,
+      "sha256": "1661e0bad60659c1af5db8b2a11be3bae033eeadb0cf9e9a46bf2f5c5cb27d91",
       "status": "VERIFIED"
     },
     {
@@ -1373,6 +1373,24 @@
       "status": "VERIFIED"
     },
     {
+      "path": "scripts/audit_boilerplates.py",
+      "bytes": 1121,
+      "sha256": "21429de2e19c161058afe4fbaa1258e5a28884d5b633dbdcfcfbbd54b3865207",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "scripts/audit_n2_mock_01.py",
+      "bytes": 2160,
+      "sha256": "5452a65289aaff741e66fdb69a1b53a53b907e279da84dcc6838d9fd23f2a2d4",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "scripts/audit_section2.py",
+      "bytes": 1688,
+      "sha256": "25e62b33f3c728d5c793f03734d75b7997a4853d23cd8b168940b641dbd52dc3",
+      "status": "VERIFIED"
+    },
+    {
       "path": "scripts/build_start_here.py",
       "bytes": 8480,
       "sha256": "7307680c60be6cd233c5b098ed315588b3c19bcc297c93e99a965b93f3ee970a",
@@ -1613,6 +1631,12 @@
       "status": "QA_PENDING"
     },
     {
+      "path": "scripts/curriculum/bank_data/n2_listening_full_30.py",
+      "bytes": 62684,
+      "sha256": "fe8131e38b8e98895ccac1bb38440fd4ca2238db6b444c7c09e1e34332b08e2e",
+      "status": "VERIFIED"
+    },
+    {
       "path": "scripts/curriculum/bank_data/n2_reading_listening.py",
       "bytes": 99041,
       "sha256": "e0cd16343984f56c1d2ac7f49af56e51955afae9b3bae4d6651e166a300df402",
@@ -1637,9 +1661,15 @@
       "status": "VERIFIED"
     },
     {
+      "path": "scripts/curriculum/build_full_mock_n2.py",
+      "bytes": 46474,
+      "sha256": "85414fd2bd1b1a0e7d603df1b0f4ead918bb04d020968dec9c08194f2c04c78d",
+      "status": "VERIFIED"
+    },
+    {
       "path": "scripts/curriculum/build_mock_system.py",
-      "bytes": 51520,
-      "sha256": "bb32b04e14ca84746867554813a672ad7b65c264b670a09bf74107e94dc0ebb5",
+      "bytes": 52161,
+      "sha256": "d71b46c961f31dcceb38c5368d8f348e13e214bcbd1a149782089029962ac1b7",
       "status": "QA_PENDING"
     },
     {
@@ -1769,6 +1799,18 @@
       "status": "VERIFIED"
     },
     {
+      "path": "scripts/tests/smoke_engine_playwright.cjs",
+      "bytes": 13944,
+      "sha256": "5bb4831fe62217227d0e7536e7e2123683c7216b32b0215a88c001c4d54559cf",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "scripts/tests/smoke_mock_section2.cjs",
+      "bytes": 6974,
+      "sha256": "953dbdd5c446147fa21a4b7e231c10e89242f6e42cc807f82579c765b9d3270d",
+      "status": "VERIFIED"
+    },
+    {
       "path": "scripts/tests/test_browser.cjs",
       "bytes": 6429,
       "sha256": "d917fa5baebe5650c850835a8f3ff40c4c4e0f872c3a92de656544db273558dc",
@@ -1812,8 +1854,8 @@
     },
     {
       "path": "scripts/tests/test_timer_and_links.py",
-      "bytes": 17560,
-      "sha256": "26b3aee3a21e236000dc076f59f078e6c3d301e6b05c07046e14af1bc2445816",
+      "bytes": 17831,
+      "sha256": "f416e783c794c3868809ec7ce0a304c3c0580c1e3f84ea1ad0514ee01d76b1d3",
       "status": "QA_PENDING"
     },
     {
