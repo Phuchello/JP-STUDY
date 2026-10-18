@@ -673,6 +673,7 @@ body {
     <div class="nav-tab" onclick="switchMode('mode-d')">⏱️ Luyện tính giờ</div>
     <div class="nav-tab" onclick="switchMode('mode-e')">📝 Ôn câu sai (SR)</div>
     <div class="nav-tab" onclick="switchMode('mode-f')">📊 Nhật ký học tập</div>
+    <div class="nav-tab" onclick="switchMode('mode-mock')">🏛️ Thi thử N2 (Mock 01)</div>
   </div>
 
   <!-- MODE A: CÀY LIÊN TỤC -->
@@ -1038,6 +1039,44 @@ body {
     <div id="sr-list-container"></div>
   </div>
 
+  
+  <!-- MODE MOCK: ĐỀ THI THỬ TOÀN DIỆN (FULL MOCK EXAM) -->
+  <div id="mode-mock" class="view-panel">
+    <div style="background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); color: white; padding: 20px; border-radius: 12px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(15, 23, 42, 0.15);">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:8px;">
+        <span style="font-size:0.75rem; font-weight:700; text-transform:uppercase; letter-spacing:0.5px; background:rgba(255,255,255,0.2); padding:2px 8px; border-radius:4px;">🏛️ KỲ THI THỬ CHUẨN HOÁ</span>
+        <span class="status-badge status-ready" style="font-size:0.75rem;">READY · CHÍNH THỨC MỞ</span>
+      </div>
+      <h2 style="font-size:1.35rem; font-weight:800; margin-bottom:6px;">ĐỀ THI THỬ JLPT N2 THỰC CHIẾN — SỐ 01</h2>
+      <p style="font-size:0.88rem; color:#cbd5e1; line-height:1.5;">Đề thi trọn vẹn mô phỏng chuẩn xác cấu trúc và thời lượng kỳ thi N2 (Tháng 12/2026). Gồm 75 câu hỏi Phần 1 (105 phút) và 30 câu hỏi Phần 2 Nghe hiểu (50 phút).</p>
+    </div>
+
+    <div class="config-grid" style="margin-bottom:20px;">
+      <div style="background:#fff; border:1px solid #e2e8f0; border-radius:10px; padding:16px;">
+        <div style="font-size:0.8rem; font-weight:700; color:#475569; text-transform:uppercase; margin-bottom:4px;">Phần 1: Kiến thức & Đọc hiểu</div>
+        <div style="font-size:1.15rem; font-weight:800; color:#1e40af;">75 Câu hỏi · 105 Phút</div>
+        <p style="font-size:0.8rem; color:#64748b; margin-top:6px;">Mondai 1-6 (Từ vựng: 32c) · Mondai 7-9 (Ngữ pháp: 22c) · Mondai 10-14 (Đọc hiểu: 21c).</p>
+      </div>
+      <div style="background:#fff; border:1px solid #e2e8f0; border-radius:10px; padding:16px;">
+        <div style="font-size:0.8rem; font-weight:700; color:#475569; text-transform:uppercase; margin-bottom:4px;">Phần 2: Nghe hiểu (Chokai)</div>
+        <div style="font-size:1.15rem; font-weight:800; color:#065f46;">30 Câu hỏi · 50 Phút</div>
+        <p style="font-size:0.8rem; color:#64748b; margin-top:6px;">Mondai 1-5 Chokai tích hợp phòng nghe audio chất lượng cao từ Japan Foundation & JEES.</p>
+      </div>
+    </div>
+
+    <div style="background:#fffbeb; border:1px solid #fef3c7; border-radius:8px; padding:14px; margin-bottom:24px; font-size:0.85rem; color:#92400e; line-height:1.5;">
+      ⚠️ <strong>Quy chế thi thử:</strong><br>
+      1. Thời gian đếm ngược chính xác <strong>105 phút</strong> cho Phần 1. Không hiển thị đáp án khi làm.<br>
+      2. Sử dụng <strong>Bảng câu hỏi Palette (1–75)</strong> để chuyển nhanh giữa các câu hoặc kiểm tra lại câu chưa chọn.<br>
+      3. Sau khi nộp bài: Hệ thống chấm điểm thô, phân tích tỷ lệ chính xác theo từng kỹ năng và mở toàn bộ giải thích chi tiết.<br>
+      4. Nút chuyển tiếp sẽ hướng dẫn bạn hoàn thành nốt Phần 2 (Nghe hiểu) tại Phòng luyện nghe.
+    </div>
+
+    <button type="button" class="btn-primary" style="padding:14px 28px; font-size:1.05rem;" onclick="startFullMockExam('N2-MOCK-01')">
+      🚀 BẮT ĐẦU THI THỬ ĐỀ SỐ 01 (105 PHÚT) ▶
+    </button>
+  </div>
+
   <!-- MODE F: NHẬT KÝ & LỊCH SỬ HỌC TẬP (PERSISTENCE) -->
   <div id="mode-f" class="view-panel">
     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; flex-wrap: wrap; gap: 10px;">
@@ -1128,6 +1167,7 @@ body {
 
 <!-- EMBEDDED PRACTICE BANK JS LOADER -->
 <script src="practice_bank.js"></script>
+<script src="mock_exam_bank.js"></script>
 <script>
 // =========================================================================
 // ENGINE STATE & LOCALSTORAGE KEYS
@@ -1308,6 +1348,15 @@ window.addEventListener('DOMContentLoaded', () => {
     if (qLevel && ['N2', 'N3', 'N4', 'MIXED', 'ALL'].includes(qLevel.toUpperCase())) {
       const lvlEl = document.getElementById('a-level');
       if (lvlEl) lvlEl.value = qLevel.toUpperCase();
+    }
+        const qMock = params.get('mock') || params.get('mockId');
+    if (qMock) {
+      setTimeout(() => startFullMockExam(qMock), 200);
+      return;
+    }
+    if (qMode === 'mock' || qMode === 'mode-mock') {
+      switchMode('mode-mock');
+      return;
     }
     const qMode = params.get('mode');
     if (qMode && ['mode-a', 'mode-b', 'mode-c', 'mode-d', 'mode-e', 'mode-f'].includes(qMode)) {
@@ -1788,6 +1837,49 @@ function startSeededSession() {
   switchMode('mode-a');
   launchSession(selected, 'C');
 }
+
+
+// =========================================================================
+// FULL MOCK EXAM MODE HANDLER
+// =========================================================================
+function startFullMockExam(mockId) {
+  mockId = mockId || 'N2-MOCK-01';
+  const mockData = (window.JP_MOCK_DATA && window.JP_MOCK_DATA[mockId]) ? window.JP_MOCK_DATA[mockId] : null;
+
+  if (!mockData || !mockData.sections || !mockData.sections[0] || !mockData.sections[0].items) {
+    alert('Không tìm thấy dữ liệu đề thi thử: ' + mockId);
+    return;
+  }
+
+  const items = mockData.sections[0].items;
+  const durMin = mockData.sections[0].durationMinutes || 105;
+
+  timedState = {
+    questions: items,
+    currentIndex: 0,
+    userAnswers: {},
+    totalSec: durMin * 60,
+    remainSec: durMin * 60,
+    startTime: Date.now(),
+    timerInterval: null,
+    mockMeta: {
+      isMock: true,
+      mockId: mockId,
+      mockTitle: mockData.title,
+      level: mockData.level || 'N2'
+    }
+  };
+
+  switchMode('mode-d');
+  document.getElementById('d-config').style.display = 'none';
+  document.getElementById('d-summary').style.display = 'none';
+  document.getElementById('d-arena').style.display = 'block';
+
+  renderTimedPalette();
+  renderTimedQuestion();
+  startTimedTimer();
+}
+window.startFullMockExam = startFullMockExam;
 
 // =========================================================================
 // MODE D: LUYỆN TẬP TÍNH GIỜ (TIMED PRACTICE)

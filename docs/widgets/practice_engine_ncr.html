@@ -673,6 +673,7 @@ body {
     <div class="nav-tab" onclick="switchMode('mode-d')">&#9201;&#65039; Luy&#7879;n t&#237;nh gi&#7901;</div>
     <div class="nav-tab" onclick="switchMode('mode-e')">&#128221; &#212;n c&#226;u sai (SR)</div>
     <div class="nav-tab" onclick="switchMode('mode-f')">&#128202; Nh&#7853;t k&#253; h&#7885;c t&#7853;p</div>
+    <div class="nav-tab" onclick="switchMode('mode-mock')">&#127963;&#65039; Thi th&#7917; N2 (Mock 01)</div>
   </div>
 
   <!-- MODE A: C&#192;Y LI&#202;N T&#7908;C -->
@@ -1038,6 +1039,44 @@ body {
     <div id="sr-list-container"></div>
   </div>
 
+  
+  <!-- MODE MOCK: &#272;&#7872; THI TH&#7916; TO&#192;N DI&#7878;N (FULL MOCK EXAM) -->
+  <div id="mode-mock" class="view-panel">
+    <div style="background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); color: white; padding: 20px; border-radius: 12px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(15, 23, 42, 0.15);">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:8px;">
+        <span style="font-size:0.75rem; font-weight:700; text-transform:uppercase; letter-spacing:0.5px; background:rgba(255,255,255,0.2); padding:2px 8px; border-radius:4px;">&#127963;&#65039; K&#7922; THI TH&#7916; CHU&#7848;N HO&#193;</span>
+        <span class="status-badge status-ready" style="font-size:0.75rem;">READY &#183; CH&#205;NH TH&#7912;C M&#7902;</span>
+      </div>
+      <h2 style="font-size:1.35rem; font-weight:800; margin-bottom:6px;">&#272;&#7872; THI TH&#7916; JLPT N2 TH&#7920;C CHI&#7870;N &#8212; S&#7888; 01</h2>
+      <p style="font-size:0.88rem; color:#cbd5e1; line-height:1.5;">&#272;&#7873; thi tr&#7885;n v&#7865;n m&#244; ph&#7887;ng chu&#7849;n x&#225;c c&#7845;u tr&#250;c v&#224; th&#7901;i l&#432;&#7907;ng k&#7923; thi N2 (Th&#225;ng 12/2026). G&#7891;m 75 c&#226;u h&#7887;i Ph&#7847;n 1 (105 ph&#250;t) v&#224; 30 c&#226;u h&#7887;i Ph&#7847;n 2 Nghe hi&#7875;u (50 ph&#250;t).</p>
+    </div>
+
+    <div class="config-grid" style="margin-bottom:20px;">
+      <div style="background:#fff; border:1px solid #e2e8f0; border-radius:10px; padding:16px;">
+        <div style="font-size:0.8rem; font-weight:700; color:#475569; text-transform:uppercase; margin-bottom:4px;">Ph&#7847;n 1: Ki&#7871;n th&#7913;c & &#272;&#7885;c hi&#7875;u</div>
+        <div style="font-size:1.15rem; font-weight:800; color:#1e40af;">75 C&#226;u h&#7887;i &#183; 105 Ph&#250;t</div>
+        <p style="font-size:0.8rem; color:#64748b; margin-top:6px;">Mondai 1-6 (T&#7915; v&#7921;ng: 32c) &#183; Mondai 7-9 (Ng&#7919; ph&#225;p: 22c) &#183; Mondai 10-14 (&#272;&#7885;c hi&#7875;u: 21c).</p>
+      </div>
+      <div style="background:#fff; border:1px solid #e2e8f0; border-radius:10px; padding:16px;">
+        <div style="font-size:0.8rem; font-weight:700; color:#475569; text-transform:uppercase; margin-bottom:4px;">Ph&#7847;n 2: Nghe hi&#7875;u (Chokai)</div>
+        <div style="font-size:1.15rem; font-weight:800; color:#065f46;">30 C&#226;u h&#7887;i &#183; 50 Ph&#250;t</div>
+        <p style="font-size:0.8rem; color:#64748b; margin-top:6px;">Mondai 1-5 Chokai t&#237;ch h&#7907;p ph&#242;ng nghe audio ch&#7845;t l&#432;&#7907;ng cao t&#7915; Japan Foundation & JEES.</p>
+      </div>
+    </div>
+
+    <div style="background:#fffbeb; border:1px solid #fef3c7; border-radius:8px; padding:14px; margin-bottom:24px; font-size:0.85rem; color:#92400e; line-height:1.5;">
+      &#9888;&#65039; <strong>Quy ch&#7871; thi th&#7917;:</strong><br>
+      1. Th&#7901;i gian &#273;&#7871;m ng&#432;&#7907;c ch&#237;nh x&#225;c <strong>105 ph&#250;t</strong> cho Ph&#7847;n 1. Kh&#244;ng hi&#7875;n th&#7883; &#273;&#225;p &#225;n khi l&#224;m.<br>
+      2. S&#7917; d&#7909;ng <strong>B&#7843;ng c&#226;u h&#7887;i Palette (1&#8211;75)</strong> &#273;&#7875; chuy&#7875;n nhanh gi&#7919;a c&#225;c c&#226;u ho&#7863;c ki&#7875;m tra l&#7841;i c&#226;u ch&#432;a ch&#7885;n.<br>
+      3. Sau khi n&#7897;p b&#224;i: H&#7879; th&#7889;ng ch&#7845;m &#273;i&#7875;m th&#244;, ph&#226;n t&#237;ch t&#7927; l&#7879; ch&#237;nh x&#225;c theo t&#7915;ng k&#7929; n&#259;ng v&#224; m&#7903; to&#224;n b&#7897; gi&#7843;i th&#237;ch chi ti&#7871;t.<br>
+      4. N&#250;t chuy&#7875;n ti&#7871;p s&#7869; h&#432;&#7899;ng d&#7851;n b&#7841;n ho&#224;n th&#224;nh n&#7889;t Ph&#7847;n 2 (Nghe hi&#7875;u) t&#7841;i Ph&#242;ng luy&#7879;n nghe.
+    </div>
+
+    <button type="button" class="btn-primary" style="padding:14px 28px; font-size:1.05rem;" onclick="startFullMockExam('N2-MOCK-01')">
+      &#128640; B&#7854;T &#272;&#7846;U THI TH&#7916; &#272;&#7872; S&#7888; 01 (105 PH&#218;T) &#9654;
+    </button>
+  </div>
+
   <!-- MODE F: NH&#7852;T K&#221; & L&#7882;CH S&#7916; H&#7884;C T&#7852;P (PERSISTENCE) -->
   <div id="mode-f" class="view-panel">
     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; flex-wrap: wrap; gap: 10px;">
@@ -1128,6 +1167,7 @@ body {
 
 <!-- EMBEDDED PRACTICE BANK JS LOADER -->
 <script src="practice_bank.js"></script>
+<script src="mock_exam_bank.js"></script>
 <script>
 // =========================================================================
 // ENGINE STATE & LOCALSTORAGE KEYS
@@ -1308,6 +1348,15 @@ window.addEventListener('DOMContentLoaded', () => {
     if (qLevel && ['N2', 'N3', 'N4', 'MIXED', 'ALL'].includes(qLevel.toUpperCase())) {
       const lvlEl = document.getElementById('a-level');
       if (lvlEl) lvlEl.value = qLevel.toUpperCase();
+    }
+        const qMock = params.get('mock') || params.get('mockId');
+    if (qMock) {
+      setTimeout(() => startFullMockExam(qMock), 200);
+      return;
+    }
+    if (qMode === 'mock' || qMode === 'mode-mock') {
+      switchMode('mode-mock');
+      return;
     }
     const qMode = params.get('mode');
     if (qMode && ['mode-a', 'mode-b', 'mode-c', 'mode-d', 'mode-e', 'mode-f'].includes(qMode)) {
@@ -1788,6 +1837,49 @@ function startSeededSession() {
   switchMode('mode-a');
   launchSession(selected, 'C');
 }
+
+
+// =========================================================================
+// FULL MOCK EXAM MODE HANDLER
+// =========================================================================
+function startFullMockExam(mockId) {
+  mockId = mockId || 'N2-MOCK-01';
+  const mockData = (window.JP_MOCK_DATA && window.JP_MOCK_DATA[mockId]) ? window.JP_MOCK_DATA[mockId] : null;
+
+  if (!mockData || !mockData.sections || !mockData.sections[0] || !mockData.sections[0].items) {
+    alert('Kh&#244;ng t&#236;m th&#7845;y d&#7919; li&#7879;u &#273;&#7873; thi th&#7917;: ' + mockId);
+    return;
+  }
+
+  const items = mockData.sections[0].items;
+  const durMin = mockData.sections[0].durationMinutes || 105;
+
+  timedState = {
+    questions: items,
+    currentIndex: 0,
+    userAnswers: {},
+    totalSec: durMin * 60,
+    remainSec: durMin * 60,
+    startTime: Date.now(),
+    timerInterval: null,
+    mockMeta: {
+      isMock: true,
+      mockId: mockId,
+      mockTitle: mockData.title,
+      level: mockData.level || 'N2'
+    }
+  };
+
+  switchMode('mode-d');
+  document.getElementById('d-config').style.display = 'none';
+  document.getElementById('d-summary').style.display = 'none';
+  document.getElementById('d-arena').style.display = 'block';
+
+  renderTimedPalette();
+  renderTimedQuestion();
+  startTimedTimer();
+}
+window.startFullMockExam = startFullMockExam;
 
 // =========================================================================
 // MODE D: LUY&#7878;N T&#7852;P T&#205;NH GI&#7900; (TIMED PRACTICE)
