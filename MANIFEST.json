@@ -2,7 +2,7 @@
   "snapshotDate": "2026-10-15",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
   "fileCountExcludingManifest": 302,
-  "totalBytesExcludingManifest": 9280211,
+  "totalBytesExcludingManifest": 9282108,
   "files": [
     {
       "path": ".gitattributes",
@@ -1548,8 +1548,8 @@
     },
     {
       "path": "scripts/cdp_verify_live_learner_engine.cjs",
-      "bytes": 9250,
-      "sha256": "ef754517b1af590f7f34e3b61a7838f3ab18c6ffdcaee996b2412501f1c24b48",
+      "bytes": 11147,
+      "sha256": "0680422d5a8c65f9fcb258e08f9caabf027e39728114ad0292a6dee46a8faead",
       "status": "QA_PENDING"
     },
     {

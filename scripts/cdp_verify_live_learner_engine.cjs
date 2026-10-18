@@ -34,7 +34,10 @@ async function run() {
   await new Promise(r => browserWs.onopen = r);
 
   const targets = await sendCommand(browserWs, 'Target.getTargets');
-  let target = targets.targetInfos.find(t => t.type === 'page');
+  let target = targets.targetInfos.find(t => t.type === 'page' && t.url && t.url.includes('practice_engine'));
+  if (!target) {
+    target = targets.targetInfos.find(t => t.type === 'page');
+  }
   console.log('Attaching to target:', target.targetId, target.title);
 
   const attachRes = await sendCommand(browserWs, 'Target.attachToTarget', { targetId: target.targetId, flatten: true });
@@ -60,6 +63,7 @@ async function run() {
       (() => {
         const b = window.JP_PRACTICE_BANK;
         const badge = document.getElementById('stat-badge');
+        const listeningLink = document.querySelector('#modal-listening a') ? document.querySelector('#modal-listening a').href : null;
         return {
           hasBank: !!b,
           version: b ? b.engineVersion : null,
@@ -68,14 +72,15 @@ async function run() {
           quarantinedCount: b ? b.quarantinedQuestionsCount : null,
           statusBreakdown: b ? b.statusBreakdown : null,
           metrics: b ? b.metrics : null,
-          badgeText: badge ? badge.innerText : null
+          badgeText: badge ? badge.innerText : null,
+          listeningLink: listeningLink
         };
       })()
     `,
     returnByValue: true
   }, sessionId);
 
-  console.log('Live Bank Metrics:', JSON.stringify(bankEval.result.value, null, 2));
+  console.log('Live Bank Metrics & Links:', JSON.stringify(bankEval.result.value, null, 2));
 
   if (!bankEval.result.value.hasBank || bankEval.result.value.activeCount !== 720) {
     throw new Error('FAIL: Bank not loaded properly on live URL!');
@@ -84,7 +89,37 @@ async function run() {
     throw new Error('FAIL: allQAPassed is not False!');
   }
 
-  // 3. Run 3 Consecutive Sessions of 30 N2 Questions Each
+  // 3. TASK 1 VERIFICATION: Viewing a question MUST NOT count it as seen; unfinished questions remain unseen
+  console.log('--- Testing markIdSeen: Merely viewing must NOT mark seen ---');
+  const viewOnlyTest = await sendCommand(browserWs, 'Runtime.evaluate', {
+    expression: `
+      (() => {
+        document.getElementById('a-level').value = 'N2';
+        document.getElementById('a-skill').value = 'ALL';
+        document.getElementById('a-count').value = '10';
+        document.getElementById('a-filter').value = 'UNSEEN';
+        startGrindSession();
+        // Session started, Question 1 is rendered on screen, but NO answer selected
+        const seenWhileViewing = getSeenIds();
+        // User quits without answering
+        quitSession();
+        const seenAfterQuit = getSeenIds();
+        return {
+          seenWhileViewingCount: seenWhileViewing.length,
+          seenAfterQuitCount: seenAfterQuit.length
+        };
+      })()
+    `,
+    returnByValue: true
+  }, sessionId);
+
+  console.log('View-only Test Result:', viewOnlyTest.result.value);
+  if (viewOnlyTest.result.value.seenWhileViewingCount !== 0 || viewOnlyTest.result.value.seenAfterQuitCount !== 0) {
+    throw new Error('FAIL: Viewing a question incorrectly marked it as seen!');
+  }
+  console.log('PASS: Viewing a question does NOT mark it as seen! Unfinished questions preserved as unseen.');
+
+  // 4. Run 3 Consecutive Sessions of 30 N2 Questions Each
   console.log('--- Running 3 Consecutive Learner Sessions of 30 N2 Questions ---');
   const sessionResults = [];
   for (let s = 1; s <= 3; s++) {
@@ -128,7 +163,7 @@ async function run() {
     await new Promise(r => setTimeout(r, 500));
   }
 
-  // 4. Assert 0% overlap across all 3 sessions
+  // 5. Assert 0% overlap across all 3 sessions
   const s1 = new Set(sessionResults[0].qids);
   const s2 = new Set(sessionResults[1].qids);
   const s3 = new Set(sessionResults[2].qids);
@@ -146,7 +181,7 @@ async function run() {
   }
   console.log('SUCCESS: All 90 questions across 3 sessions are 100% unique (0 repeats)!');
 
-  // 5. Verify Persistence before reload
+  // 6. Verify Persistence before reload
   const preReload = await sendCommand(browserWs, 'Runtime.evaluate', {
     expression: `
       (() => {
@@ -161,22 +196,23 @@ async function run() {
   }, sessionId);
   console.log('Pre-reload Persistence State:', preReload.result.value);
 
-  // 6. Reload page to test full reload survival (Persistence integrity)
+  // 7. Reload page to test full reload survival (Persistence integrity)
   console.log('Reloading live page to test persistence survival...');
   await sendCommand(browserWs, 'Page.reload', { ignoreCache: true }, sessionId);
   await new Promise(r => setTimeout(r, 4000));
 
-  // 7. Verify Persistence after reload
+  // 8. Verify Persistence after reload
   const postReload = await sendCommand(browserWs, 'Runtime.evaluate', {
     expression: `
       (() => {
         switchMode('mode-f');
-        const rows = Array.from(document.querySelectorAll('#session-history-tbody tr'));
+        const rows = document.querySelectorAll('#session-history-tbody tr');
         return {
           storedCount: getStoredSessions().length,
           tableRowsCount: rows.length,
           seenCount: getSeenIds().length,
-          mistakesCount: Object.keys(getMistakeRecords()).length
+          mistakesCount: Object.keys(getMistakeRecords()).length,
+          firstRowText: rows[0] ? rows[0].innerText : null
         };
       })()
     `,
@@ -184,19 +220,24 @@ async function run() {
   }, sessionId);
   console.log('Post-reload Persistence State:', postReload.result.value);
 
-  if (postReload.result.value.storedCount !== 3 || postReload.result.value.seenCount !== 90) {
-    throw new Error('FAIL: Persistence lost upon reload!');
+  if (postReload.result.value.storedCount !== 3 || postReload.result.value.tableRowsCount !== 3) {
+    throw new Error('FAIL: Sessions did not survive reload!');
   }
-  console.log('SUCCESS: Full persistence survived reload (90 seen IDs and 3 session history items intact)!');
+  if (postReload.result.value.seenCount !== 90) {
+    throw new Error('FAIL: Seen questions count mismatch after reload!');
+  }
+  console.log('SUCCESS: Full persistence survival verified after reload! 3 sessions, 90 seen questions intact.');
 
-  // 8. Capture Desktop Verification Screenshot of Mode F
+  // 9. Capture screenshot of Mode F Ledger Table
   const brainDir = path.resolve(process.env.USERPROFILE || process.env.HOME, '.gemini/antigravity/brain/07f27e52-1325-4adc-9ec0-5c8e7670a48d/screenshots');
-  const shot1 = await sendCommand(browserWs, 'Page.captureScreenshot', { format: 'png' }, sessionId);
-  const shotPath1 = path.join(brainDir, 'live_learner_mode_f_verified.png');
-  fs.writeFileSync(shotPath1, Buffer.from(shot1.data, 'base64'));
-  console.log('Saved live Mode F screenshot to:', shotPath1);
+  if (!fs.existsSync(brainDir)) fs.mkdirSync(brainDir, { recursive: true });
 
-  // 9. Test Mobile Viewport Emulation (Task 8: "8. Test on mobile and publish the verified URL.")
+  const shot = await sendCommand(browserWs, 'Page.captureScreenshot', { format: 'png' }, sessionId);
+  const shotPath = path.join(brainDir, 'live_learner_mode_f_verified.png');
+  fs.writeFileSync(shotPath, Buffer.from(shot.data, 'base64'));
+  console.log('Saved Mode F screenshot to:', shotPath);
+
+  // 10. Test Mobile Viewport Emulation
   console.log('Emulating mobile viewport (iPhone 14 / Pixel: 390x844, scale 1.0)...');
   await sendCommand(browserWs, 'Emulation.setDeviceMetricsOverride', {
     width: 390,
@@ -217,6 +258,7 @@ async function run() {
 
   browserWs.close();
   console.log('ALL ACCEPTANCE TESTS PASSED SUCCESSFULLY!');
+  process.exit(0);
 }
 
 run().catch(e => {
