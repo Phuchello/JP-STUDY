@@ -45,7 +45,7 @@ body {
 }
 
 .engine-container {
-  max-width: 900px;
+  max-width: 920px;
   margin: 0 auto;
   background: var(--surface);
   border-radius: 16px;
@@ -85,8 +85,8 @@ body {
 }
 .engine-stats {
   font-size: 0.82rem;
-  color: rgba(255, 255, 255, 0.85);
-  margin-top: 4px;
+  color: rgba(255, 255, 255, 0.88);
+  margin-top: 6px;
 }
 
 /* Nav Tabs */
@@ -100,7 +100,7 @@ body {
 .engine-nav::-webkit-scrollbar { display: none; }
 .nav-tab {
   flex: 1;
-  min-width: 140px;
+  min-width: 130px;
   text-align: center;
   padding: 12px 14px;
   font-size: 0.85rem;
@@ -192,15 +192,37 @@ body {
   background: #f1f5f9;
   color: #334155;
   border: 1px solid var(--border);
-  padding: 10px 20px;
+  padding: 10px 18px;
   border-radius: 8px;
   font-size: 0.88rem;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.2s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
 }
 .btn-secondary:hover {
   background: #e2e8f0;
+}
+.btn-success {
+  background: var(--success);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 0.88rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+.btn-success:hover {
+  background: #166534;
 }
 
 /* Question Palette & Progress */
@@ -221,14 +243,28 @@ body {
 }
 .session-timer {
   font-family: monospace;
-  font-size: 1rem;
+  font-size: 1.05rem;
   font-weight: 700;
   color: #c2410c;
   background: #fff7ed;
   padding: 4px 10px;
   border-radius: 6px;
   border: 1px solid #ffedd5;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
 }
+.session-timer.urgent {
+  color: #b91c1c;
+  background: #fef2f2;
+  border-color: #fee2e2;
+  animation: pulse 1s infinite;
+}
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+
 .progress-track {
   width: 100%;
   height: 6px;
@@ -249,64 +285,62 @@ body {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 12px;
-  padding: 20px;
+  padding: 24px;
   margin-bottom: 20px;
   box-shadow: var(--shadow-sm);
 }
 .q-meta {
   display: flex;
   gap: 8px;
-  align-items: center;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
   flex-wrap: wrap;
+  align-items: center;
 }
 .q-tag {
   font-size: 0.72rem;
   font-weight: 700;
   padding: 3px 8px;
-  border-radius: 4px;
+  border-radius: 6px;
+  text-transform: uppercase;
 }
 .tag-n2 { background: #fee2e2; color: #991b1b; }
-.tag-n3 { background: #e0e7ff; color: #3730a3; }
+.tag-n3 { background: #dbeafe; color: #1e40af; }
 .tag-n4 { background: #fef3c7; color: #92400e; }
 .tag-skill { background: #f1f5f9; color: #475569; }
 
 .q-passage {
   background: #f8fafc;
-  border: 1px solid #cbd5e1;
-  border-left: 4px solid #64748b;
-  border-radius: 8px;
-  padding: 16px;
+  border-left: 4px solid #3b82f6;
+  padding: 16px 20px;
+  margin-bottom: 20px;
   font-family: var(--font-jp);
-  font-size: 0.96rem;
+  font-size: 0.98rem;
   line-height: 1.8;
   color: #1e293b;
-  margin-bottom: 16px;
-  max-height: 320px;
-  overflow-y: auto;
-  white-space: pre-wrap;
+  border-radius: 0 8px 8px 0;
+  white-space: pre-line;
 }
 
 .q-audio-box {
-  background: #f1f5f9;
-  border: 1px solid #cbd5e1;
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
   border-radius: 8px;
-  padding: 14px;
-  margin-bottom: 16px;
+  padding: 14px 18px;
+  margin-bottom: 20px;
 }
 .q-audio-box audio {
   width: 100%;
-  margin-top: 6px;
+  margin-top: 8px;
 }
 
 .q-stem {
   font-family: var(--font-jp);
   font-size: 1.15rem;
   font-weight: 600;
-  color: #0f172a;
-  line-height: 1.8;
+  color: var(--text-main);
+  line-height: 1.6;
   margin-bottom: 20px;
-  white-space: pre-wrap;
+  white-space: pre-line;
 }
 
 /* Options */
@@ -316,148 +350,162 @@ body {
   gap: 10px;
 }
 .opt-btn {
-  background: var(--surface);
-  border: 1px solid #cbd5e1;
-  border-radius: 8px;
-  padding: 12px 16px;
-  text-align: left;
-  font-family: var(--font-jp);
-  font-size: 0.98rem;
-  color: var(--text-main);
-  cursor: pointer;
-  transition: all 0.2s;
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 14px;
+  width: 100%;
+  text-align: left;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: 1.5px solid var(--border);
+  background: white;
+  color: var(--text-main);
+  font-family: var(--font-jp);
+  font-size: 0.98rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s ease;
 }
 .opt-btn:hover:not(:disabled) {
   border-color: #94a3b8;
   background: #f8fafc;
 }
+.opt-btn.selected-pending {
+  border-color: #2563eb;
+  background: #eff6ff;
+}
 .opt-label {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
-  width: 26px;
-  height: 26px;
-  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  border-radius: 9999px;
   background: #f1f5f9;
   font-family: var(--font-sans);
-  font-size: 0.82rem;
   font-weight: 700;
-  color: #475569;
+  font-size: 0.85rem;
+  color: var(--text-muted);
   flex-shrink: 0;
 }
-
 .opt-btn.correct {
+  border-color: #22c55e;
   background: var(--success-light);
-  border-color: var(--success);
   color: #14532d;
-  font-weight: 600;
 }
 .opt-btn.correct .opt-label {
-  background: var(--success);
+  background: #22c55e;
   color: white;
 }
-
 .opt-btn.incorrect {
+  border-color: #ef4444;
   background: var(--danger-light);
-  border-color: var(--danger);
   color: #7f1d1d;
 }
 .opt-btn.incorrect .opt-label {
-  background: var(--danger);
+  background: #ef4444;
   color: white;
 }
 
-/* Explanation Box */
+/* Explanation Card */
 .explanation-card {
   margin-top: 20px;
-  background: #f8fafc;
-  border: 1px solid #cbd5e1;
-  border-left: 4px solid var(--primary);
+  padding: 18px;
   border-radius: 8px;
-  padding: 16px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
   display: none;
 }
-.explanation-card.active { display: block; }
+.explanation-card.active {
+  display: block;
+}
 .exp-header {
-  font-size: 0.85rem;
-  font-weight: 700;
-  color: var(--primary);
+  font-size: 0.82rem;
+  font-weight: 800;
   text-transform: uppercase;
+  color: #0369a1;
   margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 .exp-content {
-  font-size: 0.9rem;
+  font-size: 0.92rem;
+  color: #1e293b;
   line-height: 1.6;
-  color: #334155;
   margin-bottom: 12px;
-  white-space: pre-wrap;
 }
 .distractor-list {
-  background: white;
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  padding: 10px 14px;
-  font-size: 0.82rem;
+  font-size: 0.85rem;
   color: #475569;
+  border-top: 1px dashed #cbd5e1;
+  padding-top: 10px;
   display: flex;
   flex-direction: column;
   gap: 6px;
 }
 
-/* Bottom Nav Controls */
+/* Question Controls */
 .q-controls {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 20px;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 12px;
 }
 
-/* Star Question Slot UI */
-.star-slot-area {
-  margin-bottom: 16px;
-  padding: 12px;
-  background: #f1f5f9;
-  border-radius: 8px;
+/* Palette Navigator for Timed Mode */
+.palette-container {
   display: flex;
-  gap: 8px;
   flex-wrap: wrap;
-  align-items: center;
+  gap: 6px;
+  margin-bottom: 20px;
+  padding: 12px;
+  background: #f8fafc;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  max-height: 120px;
+  overflow-y: auto;
 }
-.star-slot {
-  min-width: 60px;
-  height: 36px;
-  background: white;
-  border: 2px dashed #94a3b8;
-  border-radius: 6px;
+.pill-num {
+  width: 32px;
+  height: 32px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 10px;
-  font-size: 0.88rem;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: white;
+  font-size: 0.8rem;
   font-weight: 600;
+  cursor: pointer;
+  color: #475569;
 }
-.star-slot.star-target {
-  border-color: #f59e0b;
-  background: #fffbeb;
-  color: #b45309;
+.pill-num:hover {
+  background: #f1f5f9;
+}
+.pill-num.current {
+  border-color: #2563eb;
+  font-weight: 800;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+}
+.pill-num.answered {
+  background: #e2e8f0;
+  color: #0f172a;
 }
 
-/* Mode B Grid */
+/* Type Grid (Mode B) */
 .type-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 12px;
+  gap: 14px;
 }
 .type-card {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 10px;
-  padding: 14px;
+  padding: 16px;
   cursor: pointer;
   transition: all 0.2s;
   display: flex;
@@ -469,34 +517,47 @@ body {
   transform: translateY(-2px);
   box-shadow: var(--shadow-sm);
 }
+.type-card.stage2-pending {
+  border-style: dashed;
+  background: #fffbeb;
+  border-color: #fde68a;
+}
+.type-card-badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--primary);
+  background: var(--primary-light);
+  padding: 2px 8px;
+  border-radius: 4px;
+  width: fit-content;
+}
+.type-card-badge.stage2 {
+  background: #fef3c7;
+  color: #92400e;
+}
 .type-card-title {
-  font-size: 0.92rem;
+  font-size: 0.95rem;
   font-weight: 700;
   color: var(--text-main);
+  font-family: var(--font-jp);
 }
 .type-card-desc {
   font-size: 0.78rem;
   color: var(--text-muted);
 }
-.type-card-badge {
-  align-self: flex-start;
-  font-size: 0.7rem;
-  font-weight: 600;
-  padding: 2px 6px;
-  border-radius: 4px;
-  background: #e2e8f0;
-}
 
-/* Mode Summary */
+/* Summary Card */
 .summary-card {
   text-align: center;
-  padding: 32px 16px;
+  padding: 36px 20px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--border);
 }
 .summary-score {
   font-size: 3rem;
   font-weight: 800;
   color: var(--primary);
-  line-height: 1;
   margin-bottom: 8px;
 }
 .summary-desc {
@@ -511,20 +572,71 @@ body {
   flex-wrap: wrap;
 }
 
-/* Error Review Panel */
-.error-item {
-  background: white;
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 14px;
-  margin-bottom: 10px;
+/* Modals */
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(4px);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  padding: 16px;
 }
-.error-meta {
+.modal-overlay.active {
   display: flex;
-  justify-content: space-between;
-  font-size: 0.78rem;
-  color: var(--text-muted);
-  margin-bottom: 6px;
+}
+.modal-box {
+  background: white;
+  border-radius: 14px;
+  max-width: 540px;
+  width: 100%;
+  padding: 24px;
+  box-shadow: var(--shadow-lg);
+  border: 1px solid var(--border);
+}
+.modal-title {
+  font-size: 1.15rem;
+  font-weight: 800;
+  margin-bottom: 12px;
+  color: var(--text-main);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.modal-body {
+  font-size: 0.92rem;
+  color: #334155;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* History Ledger Table */
+.ledger-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+  font-size: 0.85rem;
+}
+.ledger-table th, .ledger-table td {
+  padding: 10px 12px;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+}
+.ledger-table th {
+  background: #f8fafc;
+  font-weight: 700;
+  color: #475569;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
 }
 
 /* Responsive */
@@ -544,9 +656,9 @@ body {
     <div class="engine-header-top">
       <div class="engine-title">
         <span>&#9889; JP-STUDY PRACTICE ENGINE</span>
-        <span class="engine-badge">V2.0 UNLIMITED</span>
+        <span class="engine-badge">V2.1 AUDITED</span>
       </div>
-      <div id="stat-badge" class="engine-stats">&#272;ang t&#7843;i d&#7919; li&#7879;u ng&#226;n h&#224;ng 761+ c&#226;u h&#7887;i...</div>
+      <div id="stat-badge" class="engine-stats">&#272;ang t&#7843;i ng&#226;n h&#224;ng 720 c&#226;u luy&#7879;n t&#7853;p kh&#7843; d&#7909;ng...</div>
     </div>
   </div>
 
@@ -554,16 +666,17 @@ body {
   <div class="engine-nav">
     <div class="nav-tab active" onclick="switchMode('mode-a')">&#128293; C&#224;y li&#234;n t&#7909;c</div>
     <div class="nav-tab" onclick="switchMode('mode-b')">&#127919; Luy&#7879;n theo d&#7841;ng</div>
-    <div class="nav-tab" onclick="switchMode('mode-c')">&#127922; &#272;&#7873; ng&#7851;u nhi&#234;n</div>
-    <div class="nav-tab" onclick="switchMode('mode-d')">&#9201;&#65039; Thi th&#7917; JLPT</div>
+    <div class="nav-tab" onclick="switchMode('mode-c')">&#127922; &#272;&#7873; c&#243; m&#227; s&#7889;</div>
+    <div class="nav-tab" onclick="switchMode('mode-d')">&#9201;&#65039; Luy&#7879;n t&#237;nh gi&#7901;</div>
     <div class="nav-tab" onclick="switchMode('mode-e')">&#128221; &#212;n c&#226;u sai (SR)</div>
+    <div class="nav-tab" onclick="switchMode('mode-f')">&#128202; Nh&#7853;t k&#253; h&#7885;c t&#7853;p</div>
   </div>
 
   <!-- MODE A: C&#192;Y LI&#202;N T&#7908;C -->
   <div id="mode-a" class="view-panel active">
     <!-- Config Selector -->
     <div id="a-config" class="config-section">
-      <h3 style="margin-bottom: 16px; font-size: 1.1rem; color: #1e293b;">T&#249;y ch&#7881;nh phi&#234;n c&#224;y c&#226;u h&#7887;i</h3>
+      <h3 style="margin-bottom: 16px; font-size: 1.1rem; color: #1e293b;">T&#249;y ch&#7881;nh phi&#234;n c&#224;y c&#226;u h&#7887;i (Ph&#7843;n h&#7891;i t&#7913;c th&#236;)</h3>
       <div class="config-grid">
         <div class="config-group">
           <label class="config-label">C&#7845;p &#273;&#7897; (JLPT Level)</label>
@@ -578,11 +691,11 @@ body {
         <div class="config-group">
           <label class="config-label">K&#7929; n&#259;ng (Skill)</label>
           <select id="a-skill" class="config-select">
-            <option value="ALL" selected>T&#7845;t c&#7843; k&#7929; n&#259;ng</option>
+            <option value="ALL" selected>T&#7845;t c&#7843; k&#7929; n&#259;ng ho&#7841;t &#273;&#7897;ng</option>
             <option value="Vocabulary">Ch&#7919; H&#225;n & T&#7915; v&#7921;ng</option>
             <option value="Grammar">Ng&#7919; ph&#225;p c&#226;u & &#273;o&#7841;n v&#259;n</option>
             <option value="Reading">&#272;&#7885;c hi&#7875;u</option>
-            <option value="Listening">Nghe hi&#7875;u (Audio)</option>
+            <option value="Listening" disabled>&#127911; Nghe hi&#7875;u (T&#7841;m d&#7915;ng - Chu&#7849;n h&#243;a G&#272; 2)</option>
           </select>
         </div>
         <div class="config-group">
@@ -598,7 +711,7 @@ body {
         <div class="config-group">
           <label class="config-label">Tr&#7841;ng th&#225;i c&#226;u</label>
           <select id="a-filter" class="config-select">
-            <option value="UNSEEN" selected>Ch&#432;a l&#224;m bao gi&#7901; (&#431;u ti&#234;n m&#7899;i)</option>
+            <option value="UNSEEN" selected>Ch&#432;a l&#224;m bao gi&#7901; (&#431;u ti&#234;n m&#7899;i - Tuy&#7879;t &#273;&#7889;i kh&#244;ng l&#7863;p)</option>
             <option value="RANDOM">Ng&#7851;u nhi&#234;n to&#224;n ng&#226;n h&#224;ng</option>
             <option value="WRONG_ONLY">Ch&#7881; c&#226;u t&#7915;ng l&#224;m sai</option>
           </select>
@@ -641,10 +754,11 @@ body {
     <!-- Session Completion Summary -->
     <div id="a-summary" style="display: none;" class="summary-card">
       <div id="a-summary-score" class="summary-score">28/30</div>
-      <p id="a-summary-msg" class="summary-desc">R&#7845;t xu&#7845;t s&#7855;c! B&#7841;n &#273;&#227; ho&#224;n th&#224;nh tr&#7885;n v&#7865;n 30 c&#226;u h&#7887;i.</p>
+      <p id="a-summary-msg" class="summary-desc">R&#7845;t xu&#7845;t s&#7855;c! B&#7841;n &#273;&#227; ho&#224;n th&#224;nh tr&#7885;n v&#7865;n phi&#234;n luy&#7879;n t&#7853;p.</p>
       <div class="summary-actions">
         <button type="button" class="btn-primary" onclick="continueNext30()">&#128260; L&#192;M TI&#7870;P 30 C&#194;U M&#7898;I</button>
         <button type="button" class="btn-secondary" onclick="resetToConfig()">&#9881;&#65039; &#272;&#7893;i b&#7897; l&#7885;c</button>
+        <button type="button" class="btn-success" onclick="switchMode('mode-f')">&#128202; Xem nh&#7853;t k&#253; h&#7885;c t&#7853;p</button>
       </div>
     </div>
   </div>
@@ -726,10 +840,10 @@ body {
         <div class="type-card-title">&#35501;&#35299;&#65306;&#24773;&#22577;&#26908;&#32034; (T&#236;m ki&#7871;m th&#244;ng tin)</div>
         <div class="type-card-desc">4 c&#226;u &#183; L&#7885;c b&#7843;ng th&#244;ng b&#225;o, chi ph&#237; v&#224; ch&#250; th&#237;ch &#8251;</div>
       </div>
-      <div class="type-card" onclick="startFocusedType('N2', 'N2-LIS')">
-        <span class="type-card-badge" style="background:#dbeafe; color:#1e40af;">&#32884;&#35299; 25 c&#226;u</span>
-        <div class="type-card-title">&#32884;&#35299;&#65306;&#20840;&#12497;&#12540;&#12488; (Nghe hi&#7875;u &#273;&#7847;y &#273;&#7911;)</div>
-        <div class="type-card-desc">Mondai 1..5 &#183; C&#243; ph&#225;t audio v&#224; k&#7883;ch b&#7843;n chi ti&#7871;t</div>
+      <div class="type-card stage2-pending" onclick="showListeningQuarantineModal('N2')">
+        <span class="type-card-badge stage2">Giai &#273;o&#7841;n 2 &#183; &#272;ang chu&#7849;n h&#243;a</span>
+        <div class="type-card-title">&#32884;&#35299;&#65306;&#20840;&#12497;&#12540;&#12488; (Nghe hi&#7875;u N2)</div>
+        <div class="type-card-desc">&#272;ang r&#224; so&#225;t &#273;&#7891;ng b&#7897; k&#7883;ch b&#7843;n v&#224; audio chu&#7849;n 1:1</div>
       </div>
     </div>
 
@@ -765,10 +879,10 @@ body {
         <div class="type-card-title">N3 &#35501;&#35299;&#20840;&#33324; (&#272;&#7885;c hi&#7875;u N3)</div>
         <div class="type-card-desc">11 b&#224;i &#273;&#7885;c ng&#7855;n, trung, d&#224;i v&#224; th&#244;ng b&#225;o</div>
       </div>
-      <div class="type-card" onclick="startFocusedType('N3', 'N3-LIS')">
-        <span class="type-card-badge">Listening</span>
+      <div class="type-card stage2-pending" onclick="showListeningQuarantineModal('N3')">
+        <span class="type-card-badge stage2">Giai &#273;o&#7841;n 2 &#183; &#272;ang chu&#7849;n h&#243;a</span>
         <div class="type-card-title">N3 &#32884;&#35299; (Nghe hi&#7875;u N3)</div>
-        <div class="type-card-desc">16 c&#226;u k&#232;m audio ch&#237;nh th&#7913;c</div>
+        <div class="type-card-desc">&#272;ang r&#224; so&#225;t &#273;&#7891;ng b&#7897; k&#7883;ch b&#7843;n v&#224; audio chu&#7849;n 1:1</div>
       </div>
     </div>
   </div>
@@ -798,35 +912,98 @@ body {
         <select id="c-length" class="config-select">
           <option value="15">Mini-Test (15 c&#226;u)</option>
           <option value="30" selected>Standard Test (30 c&#226;u)</option>
-          <option value="60">Full Test (60 c&#226;u)</option>
+          <option value="50">Full Test (50 c&#226;u)</option>
         </select>
       </div>
     </div>
     <button type="button" class="btn-primary" onclick="startSeededSession()">&#127919; T&#7840;O V&#192; L&#192;M &#272;&#7872; THEO SEED</button>
   </div>
 
-  <!-- MODE D: THI TH&#7916; JLPT C&#211; &#272;&#7890;NG H&#7890; &#272;&#7870;M NG&#431;&#7906;C -->
+  <!-- MODE D: LUY&#7878;N T&#7852;P T&#205;NH GI&#7900; (TIMED PRACTICE - HONEST MODES) -->
   <div id="mode-d" class="view-panel">
-    <h3 style="margin-bottom: 8px; font-size: 1.1rem; color: #1e293b;">Thi th&#7917; JLPT m&#244; ph&#7887;ng ph&#242;ng thi th&#7853;t</h3>
-    <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 20px;">Ch&#7871; &#273;&#7897; t&#237;nh gi&#7901; nghi&#234;m ng&#7863;t v&#224; ch&#7845;m &#273;i&#7875;m theo thang &#273;i&#7875;m chu&#7849;n 180 c&#7911;a Hi&#7879;p h&#7897;i JEES (K&#232;m &#273;i&#7875;m li&#7879;t 19/60 m&#7895;i ph&#7847;n).</p>
+    <!-- Config Screen -->
+    <div id="d-config">
+      <h3 style="margin-bottom: 8px; font-size: 1.1rem; color: #1e293b;">&#9201;&#65039; Luy&#7879;n t&#7853;p t&#237;nh gi&#7901; (Timed Practice)</h3>
+      <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 20px;">
+        R&#232;n luy&#7879;n ph&#7843;n x&#7841; v&#224; t&#7889;c &#273;&#7897; l&#224;m b&#224;i th&#7921;c t&#7871; d&#432;&#7899;i &#225;p l&#7921;c th&#7901;i gian. &#272;&#225;p &#225;n s&#7869; &#273;&#432;&#7907;c gi&#7919; k&#237;n v&#224; c&#244;ng b&#7889; c&#249;ng b&#7843;ng ph&#226;n t&#237;ch chi ti&#7871;t sau khi n&#7897;p b&#224;i.
+      </p>
 
-    <div class="config-grid">
-      <div class="config-group">
-        <label class="config-label">Ch&#7885;n &#273;&#7873; thi m&#244; ph&#7887;ng</label>
-        <select id="d-exam-select" class="config-select">
-          <option value="EXAM-N2-FULL">JLPT N2 Full Mock Exam (105 ph&#250;t + 50 ph&#250;t nghe)</option>
-          <option value="EXAM-N2-MINI">JLPT N2 R&#250;t g&#7885;n (45 ph&#250;t - C&#226;n &#273;&#7889;i t&#7845;t c&#7843; k&#7929; n&#259;ng)</option>
-          <option value="EXAM-N3-FULL">JLPT N3 Full Mock Exam (100 ph&#250;t + 40 ph&#250;t nghe)</option>
-          <option value="EXAM-N3-MINI">JLPT N3 R&#250;t g&#7885;n (35 ph&#250;t)</option>
-        </select>
+      <div class="config-grid">
+        <div class="config-group">
+          <label class="config-label">C&#7845;p &#273;&#7897;</label>
+          <select id="d-level" class="config-select">
+            <option value="N2" selected>JLPT N2 (Tr&#7885;ng t&#226;m)</option>
+            <option value="N3">JLPT N3 (C&#7911;ng c&#7889;)</option>
+            <option value="MIXED">H&#7895;n h&#7907;p N2 + N3</option>
+          </select>
+        </div>
+        <div class="config-group">
+          <label class="config-label">Th&#7901;i gian & Quy m&#244;</label>
+          <select id="d-duration" class="config-select">
+            <option value="15">15 Ph&#250;t (15 c&#226;u ng&#7851;u nhi&#234;n)</option>
+            <option value="30" selected>30 Ph&#250;t (30 c&#226;u ti&#234;u chu&#7849;n)</option>
+            <option value="60">60 Ph&#250;t (50 c&#226;u t&#7893;ng h&#7907;p)</option>
+          </select>
+        </div>
+      </div>
+
+      <div style="background: #fffbeb; border: 1px solid #fef3c7; border-radius: 8px; padding: 14px; margin-bottom: 20px; font-size: 0.85rem; color: #92400e;">
+        &#9888;&#65039; <strong>Quy &#273;&#7883;nh ph&#242;ng luy&#7879;n t&#237;nh gi&#7901;:</strong> Kh&#244;ng hi&#7875;n th&#7883; &#273;&#225;p &#225;n trong l&#250;c l&#224;m b&#224;i. &#272;&#7891;ng h&#7891; &#273;&#7871;m ng&#432;&#7907;c s&#7869; t&#7921; &#273;&#7897;ng n&#7897;p b&#224;i khi h&#7871;t gi&#7901;. K&#7871;t qu&#7843; b&#225;o c&#225;o &#273;i&#7875;m s&#7889; th&#244; (Raw Score) v&#224; t&#7927; l&#7879; % ch&#237;nh x&#225;c, k&#232;m b&#7843;ng &#273;&#7889;i chi&#7871;u chi ti&#7871;t sau khi n&#7897;p.
+      </div>
+
+      <div style="background: #f8fafc; border: 1px dashed #cbd5e1; border-radius: 8px; padding: 14px; margin-bottom: 24px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+          <span style="font-weight:700; font-size:0.85rem; color:#1e293b;">&#8505;&#65039; Th&#244;ng tin v&#7873; Thi th&#7917; chu&#7849;n JLPT (Full Mock 180 &#273;i&#7875;m)</span>
+          <span class="type-card-badge stage2">Giai &#273;o&#7841;n 2 &#183; &#272;ang chu&#7849;n h&#243;a</span>
+        </div>
+        <p style="font-size:0.8rem; color:#64748b;">
+          &#272;&#7873; thi th&#7917; &#273;&#7847;y &#273;&#7911; 180 &#273;i&#7875;m theo chu&#7849;n JEES (g&#7891;m b&#224;i &#273;&#7885;c tr&#432;&#7901;ng v&#259;n v&#224; ph&#7847;n nghe hi&#7875;u 1:1 &#273;&#7891;ng b&#7897;) &#273;ang &#273;&#432;&#7907;c chu&#7849;n h&#243;a cho b&#7843;n ph&#225;t h&#224;nh Giai &#273;o&#7841;n 2 nh&#7857;m &#273;&#7843;m b&#7843;o &#273;i&#7875;m s&#7889; scaled score ch&#237;nh x&#225;c tuy&#7879;t &#273;&#7889;i.
+        </p>
+      </div>
+
+      <button type="button" class="btn-primary" onclick="startTimedSession()">&#9201;&#65039; B&#7854;T &#272;&#7846;U T&#205;NH GI&#7900;</button>
+    </div>
+
+    <!-- Active Timed Arena -->
+    <div id="d-arena" style="display: none;">
+      <div class="session-bar">
+        <span id="d-progress-txt" class="session-progress-text">C&#226;u 1 / 30</span>
+        <div id="d-timer-box" class="session-timer">&#9201;&#65039; 30:00</div>
+        <button type="button" class="btn-secondary" style="padding: 4px 10px; font-size: 0.78rem;" onclick="submitTimedSession(true)">N&#7897;p b&#224;i ngay</button>
+      </div>
+
+      <!-- Question Palette Navigator -->
+      <div id="d-palette" class="palette-container"></div>
+
+      <div class="question-card">
+        <div id="d-q-meta" class="q-meta"></div>
+        <div id="d-q-passage" class="q-passage" style="display: none;"></div>
+        <div id="d-q-stem" class="q-stem"></div>
+        <div id="d-q-options" class="options-list"></div>
+      </div>
+
+      <div class="q-controls">
+        <button type="button" class="btn-secondary" onclick="prevTimedQuestion()">&#9664; C&#226;u tr&#432;&#7899;c</button>
+        <button type="button" class="btn-secondary" onclick="nextTimedQuestion()">C&#226;u ti&#7871;p theo &#9654;</button>
+        <button type="button" class="btn-primary" onclick="submitTimedSession(true)">N&#7896;P B&#192;I</button>
       </div>
     </div>
 
-    <div style="background: #fffbeb; border: 1px solid #fef3c7; border-radius: 8px; padding: 14px; margin-bottom: 20px; font-size: 0.85rem; color: #92400e;">
-      &#9888;&#65039; <strong>Quy &#273;&#7883;nh ph&#242;ng thi m&#244; ph&#7887;ng:</strong> Kh&#244;ng hi&#7875;n th&#7883; &#273;&#225;p &#225;n trong l&#250;c l&#224;m b&#224;i. &#272;&#7891;ng h&#7891; &#273;&#7871;m ng&#432;&#7907;c s&#7869; t&#7921; &#273;&#7897;ng thu b&#224;i khi h&#7871;t gi&#7901;. &#272;i&#7875;m thi &#273;&#7841;t: N2 &#8805; 90/180, N3 &#8805; 95/180 (kh&#244;ng ph&#7847;n n&#224;o d&#432;&#7899;i 19/60).
-    </div>
+    <!-- Timed Review / Summary Screen -->
+    <div id="d-summary" style="display: none;">
+      <div class="summary-card" style="margin-bottom: 24px;">
+        <div id="d-summary-score" class="summary-score">25/30</div>
+        <p id="d-summary-msg" class="summary-desc">&#272;&#7897; ch&#237;nh x&#225;c: 83.3% &#183; Th&#7901;i gian l&#224;m: 21m 45s</p>
+        <div class="summary-actions">
+          <button type="button" class="btn-primary" onclick="resetTimedToConfig()">&#128260; Luy&#7879;n &#273;&#7873; t&#237;nh gi&#7901; kh&#225;c</button>
+          <button type="button" class="btn-success" onclick="switchMode('mode-f')">&#128202; Xem nh&#7853;t k&#253; h&#7885;c t&#7853;p</button>
+        </div>
+      </div>
 
-    <button type="button" class="btn-primary" onclick="startExamSession()">&#9201;&#65039; B&#7854;T &#272;&#7846;U V&#192;O PH&#210;NG THI</button>
+      <!-- Detailed Review List -->
+      <h4 style="font-size: 1rem; font-weight: 700; margin-bottom: 12px; color: #1e293b;">B&#7843;ng ph&#226;n t&#237;ch chi ti&#7871;t t&#7915;ng c&#226;u:</h4>
+      <div id="d-review-list"></div>
+    </div>
   </div>
 
   <!-- MODE E: &#212;N L&#7894;I & SPACED REPETITION -->
@@ -836,7 +1013,7 @@ body {
         <h3 style="font-size: 1.1rem; color: #1e293b;">S&#7893; tay c&#226;u h&#7887;i &#273;&#227; t&#7915;ng l&#224;m sai</h3>
         <p style="font-size: 0.85rem; color: var(--text-muted);">H&#7879; th&#7889;ng Spaced Repetition t&#7921; &#273;&#7897;ng l&#432;u tr&#7919; v&#224; nh&#7855;c l&#7883;ch &#244;n t&#7853;p theo kho&#7843;ng c&#225;ch (1 ng&#224;y, 3 ng&#224;y, 7 ng&#224;y).</p>
       </div>
-      <button type="button" class="btn-secondary" onclick="clearMistakeHistory()">X&#243;a l&#7883;ch s&#7917;</button>
+      <button type="button" class="btn-secondary" onclick="clearMistakeHistory()">X&#243;a l&#7883;ch s&#7917; sai</button>
     </div>
 
     <div id="sr-stats-box" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin-bottom: 20px;">
@@ -846,28 +1023,110 @@ body {
       </div>
       <div style="background: #f0fdf4; border: 1px solid #dcfce7; border-radius: 8px; padding: 14px; text-align: center;">
         <div style="font-size: 1.8rem; font-weight: 800; color: #15803d;" id="sr-count-mastered">0</div>
-        <div style="font-size: 0.78rem; font-weight: 600; color: #166534;">&#272;&#195; TH&#192;NH TH&#7840;O (&#272;&#218;NG 2 L&#7846;N)</div>
+        <div style="font-size: 0.78rem; font-weight: 600; color: #166534;">&#272;&#195; TH&#192;NH TH&#7840;O (&#272;&#218;NG &#8805; 2 L&#7846;N)</div>
       </div>
     </div>
 
     <div style="display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap;">
       <button type="button" class="btn-primary" onclick="startMistakeReview('ALL')">&#128221; &#212;n to&#224;n b&#7897; c&#226;u sai</button>
-      <button type="button" class="btn-secondary" onclick="startMistakeReview('TODAY')">H&#244;m nay</button>
       <button type="button" class="btn-secondary" onclick="startMistakeReview('UNMASTERED')">Ch&#432;a th&#224;nh th&#7841;o</button>
     </div>
 
     <div id="sr-list-container"></div>
   </div>
 
+  <!-- MODE F: NH&#7852;T K&#221; & L&#7882;CH S&#7916; H&#7884;C T&#7852;P (PERSISTENCE) -->
+  <div id="mode-f" class="view-panel">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; flex-wrap: wrap; gap: 10px;">
+      <div>
+        <h3 style="font-size: 1.1rem; color: #1e293b;">&#128202; Nh&#7853;t k&#253; phi&#234;n h&#7885;c t&#7853;p & B&#7843;ng &#273;i&#7875;m</h3>
+        <p style="font-size: 0.85rem; color: var(--text-muted);">To&#224;n b&#7897; phi&#234;n luy&#7879;n t&#7853;p &#273;&#432;&#7907;c t&#7921; &#273;&#7897;ng ghi nh&#7853;n t&#7841;i tr&#236;nh duy&#7879;t v&#224; c&#243; th&#7875; tr&#237;ch xu&#7845;t ra JSON/CSV ho&#7863;c &#273;&#7891;ng b&#7897; Google Sheets.</p>
+      </div>
+      <div style="display:flex; gap:8px;">
+        <button type="button" class="btn-secondary" onclick="exportSessionsJson()">&#128229; T&#7843;i JSON</button>
+        <button type="button" class="btn-secondary" onclick="exportSessionsCsv()">&#128202; T&#7843;i CSV</button>
+        <button type="button" class="btn-success" onclick="openSheetsSyncModal()">&#9729;&#65039; &#272;&#7891;ng b&#7897; Sheets</button>
+      </div>
+    </div>
+
+    <div id="session-history-container">
+      <table class="ledger-table">
+        <thead>
+          <tr>
+            <th>Th&#7901;i gian</th>
+            <th>M&#227; phi&#234;n</th>
+            <th>C&#7845;p &#273;&#7897; & Ch&#7871; &#273;&#7897;</th>
+            <th>&#272;i&#7875;m th&#244;</th>
+            <th>&#272;&#7897; ch&#237;nh x&#225;c</th>
+            <th>Th&#7901;i l&#432;&#7907;ng</th>
+          </tr>
+        </thead>
+        <tbody id="session-history-tbody">
+          <tr><td colspan="6" style="text-align:center; color:#94a3b8; padding:20px;">Ch&#432;a c&#243; phi&#234;n l&#224;m b&#224;i n&#224;o &#273;&#432;&#7907;c l&#432;u.</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div style="margin-top: 20px; display: flex; justify-content: flex-end;">
+      <button type="button" class="btn-secondary" style="font-size:0.78rem; color:#b91c1c;" onclick="clearSessionHistory()">X&#243;a to&#224;n b&#7897; nh&#7853;t k&#253; phi&#234;n h&#7885;c</button>
+    </div>
+  </div>
+
+</div>
+
+<!-- UNSEEN MODAL -->
+<div id="modal-unseen" class="modal-overlay">
+  <div class="modal-box">
+    <div class="modal-title">
+      <span>&#128276; Th&#244;ng b&#225;o tr&#7841;ng th&#225;i c&#226;u h&#7887;i m&#7899;i</span>
+    </div>
+    <div id="modal-unseen-body" class="modal-body"></div>
+    <div id="modal-unseen-actions" class="modal-actions"></div>
+  </div>
+</div>
+
+<!-- LISTENING QUARANTINE MODAL -->
+<div id="modal-listening" class="modal-overlay">
+  <div class="modal-box">
+    <div class="modal-title">
+      <span>&#127911; Th&#244;ng b&#225;o chu&#7849;n h&#243;a ph&#7847;n Nghe hi&#7875;u (G&#272; 2)</span>
+    </div>
+    <div class="modal-body">
+      To&#224;n b&#7897; 41 c&#226;u h&#7887;i tr&#7855;c nghi&#7879;m nghe hi&#7875;u &#273;ang &#273;&#432;&#7907;c r&#224; so&#225;t v&#224; c&#259;n ch&#7881;nh th&#7901;i gian chu&#7849;n 1:1 theo t&#7915;ng &#273;o&#7841;n tho&#7841;i c&#7911;a audio ch&#237;nh th&#7913;c &#273;&#7875; &#273;&#7843;m b&#7843;o &#273;&#7897; tin c&#7853;y s&#432; ph&#7841;m cao nh&#7845;t.
+      <br><br>
+      Trong th&#7901;i gian chu&#7849;n h&#243;a Giai &#273;o&#7841;n 2, m&#7901;i b&#7841;n truy c&#7853;p tr&#7921;c ti&#7871;p <strong>PH&#210;NG LUY&#7878;N NGHE</strong> &#273;&#7875; nghe to&#224;n b&#7897; b&#7897; s&#432;u t&#7853;p file &#226;m thanh ch&#7845;t l&#432;&#7907;ng cao c&#7911;a JLPT.
+    </div>
+    <div class="modal-actions">
+      <a href="https://sites.google.com/view/jp-study/phong-luyen-nghe" target="_blank" class="btn-primary" style="text-decoration:none;">&#127911; &#272;&#7871;n Ph&#242;ng Luy&#7879;n Nghe</a>
+      <button type="button" class="btn-secondary" onclick="closeListeningModal()">&#272;&#227; hi&#7875;u & &#272;&#243;ng</button>
+    </div>
+  </div>
+</div>
+
+<!-- SHEETS SYNC MODAL -->
+<div id="modal-sheets" class="modal-overlay">
+  <div class="modal-box">
+    <div class="modal-title">
+      <span>&#9729;&#65039; &#272;&#7891;ng b&#7897; ti&#7871;n &#273;&#7897; l&#234;n Google Sheets</span>
+    </div>
+    <div class="modal-body">
+      D&#7919; li&#7879;u phi&#234;n h&#7885;c c&#7911;a b&#7841;n &#273;&#227; &#273;&#432;&#7907;c &#273;&#243;ng g&#243;i chu&#7849;n c&#7845;u tr&#250;c. B&#7841;n c&#243; th&#7875; sao ch&#233;p d&#7919; li&#7879;u b&#234;n d&#432;&#7899;i &#273;&#7875; d&#225;n v&#224;o trang t&#237;nh <strong>JP_STUDY_HOC_HOM_NAY</strong> ho&#7863;c t&#7843;i t&#7879;p JSON/CSV &#273;&#7875; l&#432;u tr&#7919; di &#273;&#7897;ng.
+      <textarea id="sheets-sync-payload" readonly style="width:100%; height:120px; font-family:monospace; font-size:0.78rem; margin-top:10px; padding:8px; border:1px solid #cbd5e1; border-radius:6px;"></textarea>
+    </div>
+    <div class="modal-actions">
+      <button type="button" class="btn-primary" onclick="copySheetsPayload()">&#128203; Sao ch&#233;p d&#7919; li&#7879;u</button>
+      <button type="button" class="btn-secondary" onclick="closeSheetsModal()">&#272;&#243;ng</button>
+    </div>
+  </div>
 </div>
 
 <!-- EMBEDDED PRACTICE BANK JS LOADER -->
 <script src="practice_bank.js"></script>
 <script>
 // =========================================================================
-// ENGINE STATE MANAGEMENT
+// ENGINE STATE & LOCALSTORAGE KEYS
 // =========================================================================
-let bank = window.JP_PRACTICE_BANK ? window.JP_PRACTICE_BANK.questions : [];
+let bank = (window.JP_PRACTICE_BANK && window.JP_PRACTICE_BANK.questions) ? window.JP_PRACTICE_BANK.questions : [];
 let currentSession = {
   mode: 'A',
   questions: [],
@@ -877,12 +1136,13 @@ let currentSession = {
   answersRecord: {},
   examTimerInterval: null,
   timeRemainingSec: 0,
+  timeSpentSec: 0,
   seed: ''
 };
 
-// LocalStorage Mistake Bank Key
 const STORAGE_KEY_MISTAKES = 'JP_STUDY_MISTAKE_LOG_V2';
 const STORAGE_KEY_SEEN = 'JP_STUDY_SEEN_QIDS_V2';
+const STORAGE_KEY_SESSIONS = 'JP_STUDY_SESSIONS_V2';
 
 function getSeenIds() {
   try {
@@ -895,6 +1155,18 @@ function markIdSeen(qid) {
     seen.push(qid);
     try { localStorage.setItem(STORAGE_KEY_SEEN, JSON.stringify(seen)); } catch(e){}
   }
+}
+function resetSeenForFilter(level, skill) {
+  let seen = getSeenIds();
+  let remaining = seen.filter(id => {
+    let q = bank.find(item => item.id === id);
+    if (!q) return false;
+    if (level !== 'ALL' && level !== 'MIXED' && q.level !== level) return true;
+    if (level === 'MIXED' && !['N2', 'N3'].includes(q.level)) return true;
+    if (skill !== 'ALL' && q.skill !== skill) return true;
+    return false; // remove from seen
+  });
+  try { localStorage.setItem(STORAGE_KEY_SEEN, JSON.stringify(remaining)); } catch(e){}
 }
 
 function getMistakeRecords() {
@@ -916,6 +1188,19 @@ function saveMistakeRecord(qid, isCorrect) {
   }
   records[qid].lastAttempt = now;
   try { localStorage.setItem(STORAGE_KEY_MISTAKES, JSON.stringify(records)); } catch(e){}
+}
+
+function getStoredSessions() {
+  try {
+    return JSON.parse(localStorage.getItem(STORAGE_KEY_SESSIONS) || '[]');
+  } catch(e) { return []; }
+}
+function recordSessionComplete(sess) {
+  let list = getStoredSessions();
+  list.unshift(sess);
+  if (list.length > 50) list = list.slice(0, 50);
+  try { localStorage.setItem(STORAGE_KEY_SESSIONS, JSON.stringify(list)); } catch(e){}
+  renderSessionHistory();
 }
 
 // Pseudo-random generator from string seed
@@ -946,7 +1231,7 @@ function ensureBankLoaded(onComplete) {
   isBankLoading = true;
 
   const badge = document.getElementById('stat-badge');
-  if (badge) badge.innerText = '\u0110ang k\u1ebft n\u1ed1i t\u1ea3i 761 c\u00e2u h\u1ecfi...';
+  if (badge) badge.innerText = '&#272;ang k&#7871;t n&#7889;i t&#7843;i 720 c&#226;u luy&#7879;n t&#7853;p...';
 
   function finishLoading(data) {
     window.JP_PRACTICE_BANK = data;
@@ -982,7 +1267,7 @@ function ensureBankLoaded(onComplete) {
           .catch(e => {
             isBankLoading = false;
             console.error('All data loading strategies failed:', e);
-            if (badge) badge.innerText = 'L\u1ed7i t\u1ea3i ng\u00e2n h\u00e0ng c\u00e2u h\u1ecfi. Vui l\u00f2ng th\u1eed l\u1ea1i.';
+            if (badge) badge.innerText = 'L&#7895;i t&#7843;i ng&#226;n h&#224;ng c&#226;u h&#7887;i. Vui l&#242;ng t&#7843;i l&#7841;i trang.';
           });
       });
   };
@@ -1000,13 +1285,17 @@ window.addEventListener('DOMContentLoaded', () => {
     ensureBankLoaded();
   }
   renderSRStats();
+  renderSessionHistory();
 });
 
 function initBankStats() {
   const m = (window.JP_PRACTICE_BANK && window.JP_PRACTICE_BANK.metrics) ? window.JP_PRACTICE_BANK.metrics : {};
+  const activeCount = m.activeQuestions || 720;
+  const n2Count = m.n2Questions || 447;
+  const n3Count = m.n3Questions || 274;
   const badge = document.getElementById('stat-badge');
   if (badge) {
-    badge.innerText = `S\u1eb5n s\u00e0ng: ${m.n2Questions || 447} N2 \u00b7 ${m.n3Questions || 274} N3 \u00b7 ${m.readingPassages || 32} B\u00e0i \u0111\u1ecdc \u00b7 ${m.listeningTracks || 41} Audio`;
+    badge.innerText = `S&#7861;n s&#224;ng: ${activeCount} c&#226;u luy&#7879;n t&#7853;p (${n2Count - 25} N2 &#183; ${n3Count - 16} N3 &#183; 40 N4) | 41 nghe &#273;ang chu&#7849;n h&#243;a`;
   }
 }
 
@@ -1014,7 +1303,7 @@ function switchMode(modeId) {
   document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
   document.querySelectorAll('.view-panel').forEach(p => p.classList.remove('active'));
   
-  const idx = ['mode-a', 'mode-b', 'mode-c', 'mode-d', 'mode-e'].indexOf(modeId);
+  const idx = ['mode-a', 'mode-b', 'mode-c', 'mode-d', 'mode-e', 'mode-f'].indexOf(modeId);
   if (idx !== -1) {
     document.querySelectorAll('.nav-tab')[idx].classList.add('active');
   }
@@ -1022,11 +1311,13 @@ function switchMode(modeId) {
 
   if (modeId === 'mode-e') {
     renderSRStats();
+  } else if (modeId === 'mode-f') {
+    renderSessionHistory();
   }
 }
 
 // =========================================================================
-// MODE A: C\u00c0Y LI\u00caN T\u1ee4C
+// STRICT UNSEEN SELECTION ALGORITHM (P1)
 // =========================================================================
 function startGrindSession() {
   if (!bank || bank.length === 0) {
@@ -1038,12 +1329,19 @@ function startGrindSession() {
   const count = parseInt(document.getElementById('a-count').value, 10);
   const filter = document.getElementById('a-filter').value;
 
+  // Active pool excludes quarantined listening items
   let candidates = bank.filter(q => {
+    if (q.exposureEligible === false) return false;
     if (level === 'MIXED' && !['N2', 'N3'].includes(q.level)) return false;
     if (level !== 'ALL' && level !== 'MIXED' && q.level !== level) return false;
     if (skill !== 'ALL' && q.skill !== skill) return false;
     return true;
   });
+
+  if (candidates.length === 0) {
+    alert('Kh&#244;ng t&#236;m th&#7845;y c&#226;u h&#7887;i kh&#7843; d&#7909;ng cho ti&#234;u ch&#237; &#273;&#227; ch&#7885;n.');
+    return;
+  }
 
   const seenIds = getSeenIds();
   const mistakeRecords = getMistakeRecords();
@@ -1051,39 +1349,121 @@ function startGrindSession() {
   if (filter === 'UNSEEN') {
     let unseen = candidates.filter(q => !seenIds.includes(q.id));
     if (unseen.length >= count) {
-      candidates = unseen;
+      unseen.sort(() => Math.random() - 0.5);
+      launchSession(unseen.slice(0, count), 'A');
+    } else if (unseen.length === 0) {
+      // Depleted: Explicit choice modal
+      showUnseenModal(
+        `B&#7841;n &#273;&#227; ho&#224;n th&#224;nh to&#224;n b&#7897; <strong>${candidates.length}</strong> c&#226;u h&#7887;i trong danh m&#7909;c n&#224;y (c&#242;n 0 c&#226;u m&#7899;i).`,
+        [
+          {
+            text: '&#128260; &#272;&#7863;t l&#7841;i v&#224; l&#224;m l&#7841;i t&#7915; &#273;&#7847;u',
+            class: 'btn-primary',
+            onClick: () => {
+              resetSeenForFilter(level, skill);
+              closeUnseenModal();
+              startGrindSession();
+            }
+          },
+          {
+            text: '&#9881;&#65039; &#272;&#7893;i danh m&#7909;c kh&#225;c',
+            class: 'btn-secondary',
+            onClick: closeUnseenModal
+          }
+        ]
+      );
     } else {
-      // If unseen run out, mix remaining unseen with random
-      candidates.sort(() => Math.random() - 0.5);
+      // Partially depleted: Explicit choice modal (NEVER silently mix!)
+      showUnseenModal(
+        `Hi&#7879;n t&#7841;i ch&#7881; c&#242;n <strong>${unseen.length}</strong> c&#226;u m&#7899;i ch&#432;a l&#224;m trong danh m&#7909;c n&#224;y (b&#7841;n y&#234;u c&#7847;u <strong>${count}</strong> c&#226;u). B&#7841;n mu&#7889;n l&#224;m nh&#432; th&#7871; n&#224;o?`,
+        [
+          {
+            text: `Ch&#7881; l&#224;m ${unseen.length} c&#226;u m&#7899;i`,
+            class: 'btn-primary',
+            onClick: () => {
+              closeUnseenModal();
+              unseen.sort(() => Math.random() - 0.5);
+              launchSession(unseen, 'A');
+            }
+          },
+          {
+            text: `Tr&#7897;n th&#234;m ${count - unseen.length} c&#226;u &#273;&#227; t&#7915;ng l&#224;m &#273;&#7875; &#273;&#7911; ${count} c&#226;u`,
+            class: 'btn-secondary',
+            onClick: () => {
+              closeUnseenModal();
+              let seenPool = candidates.filter(q => seenIds.includes(q.id));
+              seenPool.sort(() => Math.random() - 0.5);
+              let combined = [...unseen, ...seenPool.slice(0, count - unseen.length)];
+              combined.sort(() => Math.random() - 0.5);
+              launchSession(combined, 'A');
+            }
+          },
+          {
+            text: 'H&#7911;y b&#7887;',
+            class: 'btn-secondary',
+            onClick: closeUnseenModal
+          }
+        ]
+      );
     }
   } else if (filter === 'WRONG_ONLY') {
     candidates = candidates.filter(q => mistakeRecords[q.id] && mistakeRecords[q.id].wrongCount > 0);
     if (candidates.length === 0) {
-      alert('B\u1ea1n ch\u01b0a c\u00f3 c\u00e2u n\u00e0o l\u00e0m sai trong danh m\u1ee5c n\u00e0y! \u0110ang chuy\u1ec3n sang c\u00e2u ng\u1eabu nhi\u00ean.');
-      candidates = bank.filter(q => level === 'ALL' || q.level === level);
+      alert('B&#7841;n ch&#432;a c&#243; c&#226;u n&#224;o l&#224;m sai trong danh m&#7909;c n&#224;y! Vui l&#242;ng ch&#7885;n danh m&#7909;c kh&#225;c.');
+      return;
     }
+    candidates.sort(() => Math.random() - 0.5);
+    launchSession(candidates.slice(0, count), 'A');
+  } else {
+    // Random pool
+    candidates.sort(() => Math.random() - 0.5);
+    launchSession(candidates.slice(0, count), 'A');
   }
-
-  // Shuffle candidates
-  candidates.sort(() => Math.random() - 0.5);
-  const selected = candidates.slice(0, count);
-
-  launchSession(selected, 'A');
 }
 
+function showUnseenModal(msgHtml, buttons) {
+  const modal = document.getElementById('modal-unseen');
+  document.getElementById('modal-unseen-body').innerHTML = msgHtml;
+  const actionsBox = document.getElementById('modal-unseen-actions');
+  actionsBox.innerHTML = '';
+  buttons.forEach(b => {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = b.class || 'btn-secondary';
+    btn.innerHTML = b.text;
+    btn.onclick = b.onClick;
+    actionsBox.appendChild(btn);
+  });
+  modal.classList.add('active');
+}
+function closeUnseenModal() {
+  document.getElementById('modal-unseen').classList.remove('active');
+}
+
+function showListeningQuarantineModal(level) {
+  document.getElementById('modal-listening').classList.add('active');
+}
+function closeListeningModal() {
+  document.getElementById('modal-listening').classList.remove('active');
+}
+
+// =========================================================================
+// SESSION RUNNER (MODE A)
+// =========================================================================
 function launchSession(questions, mode) {
   if (!questions || questions.length === 0) {
-    alert('Kh\u00f4ng t\u00ecm th\u1ea5y c\u00e2u h\u1ecfi ph\u00f9 h\u1ee3p v\u1edbi b\u1ed9 l\u1ecdc \u0111\u00e3 ch\u1ecdn.');
+    alert('Kh&#244;ng t&#236;m th&#7845;y c&#226;u h&#7887;i ph&#249; h&#7907;p.');
     return;
   }
   currentSession = {
+    sessionId: `SES-${Date.now().toString(36).toUpperCase()}`,
+    startTime: Date.now(),
     mode: mode,
     questions: questions,
     currentIndex: 0,
     scoreCorrect: 0,
     scoreIncorrect: 0,
     answersRecord: {},
-    examTimerInterval: null,
     timeRemainingSec: 0,
     seed: ''
   };
@@ -1100,11 +1480,11 @@ function renderCurrentQuestion() {
   const total = currentSession.questions.length;
   const curNum = currentSession.currentIndex + 1;
 
-  document.getElementById('a-progress-txt').innerText = `C\u00e2u ${curNum} / ${total}`;
-  document.getElementById('a-score-txt').innerText = `\u0110\u00fang: ${currentSession.scoreCorrect} | Sai: ${currentSession.scoreIncorrect}`;
+  document.getElementById('a-progress-txt').innerText = `C&#226;u ${curNum} / ${total}`;
+  document.getElementById('a-score-txt').innerText = `&#272;&#250;ng: ${currentSession.scoreCorrect} | Sai: ${currentSession.scoreIncorrect}`;
   document.getElementById('a-progress-bar').style.width = `${((curNum - 1) / total) * 100}%`;
 
-  // Render Tags
+  // Meta tags
   const metaBox = document.getElementById('a-q-meta');
   metaBox.innerHTML = `
     <span class="q-tag tag-${q.level.toLowerCase()}">${q.level}</span>
@@ -1113,7 +1493,7 @@ function renderCurrentQuestion() {
     <span style="font-size:0.75rem; color:#94a3b8; margin-left:auto;">ID: ${q.id}</span>
   `;
 
-  // Reading Passage
+  // Passage
   const passageBox = document.getElementById('a-q-passage');
   if (q.contextPassage) {
     passageBox.style.display = 'block';
@@ -1122,15 +1502,15 @@ function renderCurrentQuestion() {
     passageBox.style.display = 'none';
   }
 
-  // Audio Box
+  // Audio Box (for future Stage 2 calibrated tracks)
   const audioBox = document.getElementById('a-q-audio');
-  if (q.audioUrl) {
+  if (q.audioUrl && q.exposureEligible) {
     audioBox.style.display = 'block';
     audioBox.innerHTML = `
-      <div style="font-size:0.8rem; font-weight:700; color:#334155; margin-bottom:4px;">\u{1f3a7} B\u0102NG NGHE CH\u00cdNH TH\u1ee8C (B\u1ea5m Play \u0111\u1ec3 nghe):</div>
+      <div style="font-size:0.8rem; font-weight:700; color:#334155; margin-bottom:4px;">&#127911; B&#258;NG NGHE CH&#205;NH TH&#7912;C:</div>
       <audio controls preload="none">
         <source src="${q.audioUrl}" type="audio/mpeg">
-        Tr\u00ecnh duy\u1ec7t kh\u00f4ng h\u1ed7 tr\u1ee3 audio.
+        Tr&#236;nh duy&#7879;t kh&#244;ng h&#7895; tr&#7907; audio.
       </audio>
     `;
   } else {
@@ -1152,7 +1532,6 @@ function renderCurrentQuestion() {
     optBox.appendChild(btn);
   });
 
-  // Hide explanation and next button until answered
   document.getElementById('a-q-exp').classList.remove('active');
   document.getElementById('btn-next-q').style.display = 'none';
 
@@ -1163,6 +1542,8 @@ function selectAnswer(chosenId) {
   const q = currentSession.questions[currentSession.currentIndex];
   const isCorrect = (chosenId === q.correctAnswer);
 
+  currentSession.answersRecord[q.id] = { chosen: chosenId, correct: q.correctAnswer, isCorrect: isCorrect };
+
   if (isCorrect) {
     currentSession.scoreCorrect++;
   } else {
@@ -1171,7 +1552,7 @@ function selectAnswer(chosenId) {
 
   saveMistakeRecord(q.id, isCorrect);
 
-  // Disable all options and show colors
+  // Disable options and show styling
   const btns = document.querySelectorAll('#a-q-options .opt-btn');
   btns.forEach((btn, idx) => {
     btn.disabled = true;
@@ -1192,7 +1573,7 @@ function selectAnswer(chosenId) {
   if (q.distractorExplanations) {
     Object.entries(q.distractorExplanations).forEach(([dKey, dExp]) => {
       const p = document.createElement('div');
-      p.innerHTML = `<strong>L\u1ef1a ch\u1ecdn ${dKey}:</strong> ${dExp}`;
+      p.innerHTML = `<strong>L&#7921;a ch&#7885;n ${dKey}:</strong> ${dExp}`;
       distBox.appendChild(p);
     });
   }
@@ -1214,12 +1595,42 @@ function finishSession() {
   document.getElementById('a-arena').style.display = 'none';
   const total = currentSession.questions.length;
   const correct = currentSession.scoreCorrect;
+  const incorrect = currentSession.scoreIncorrect;
   const pct = Math.round((correct / total) * 100);
+  const durationSec = Math.round((Date.now() - (currentSession.startTime || Date.now())) / 1000);
 
   document.getElementById('a-summary-score').innerText = `${correct} / ${total}`;
   document.getElementById('a-summary-msg').innerText = 
-    `\u0110\u1ed9 ch\u00ednh x\u00e1c: ${pct}%. ${pct >= 80 ? 'R\u1ea5t tuy\u1ec7t v\u1eddi! Gi\u1eef v\u1eefng phong \u0111\u1ed9 n\u00e0y.' : 'H\u00e3y ti\u1ebfp t\u1ee5c ki\u00ean tr\u00ec c\u00e0y th\u00eam \u0111\u1ec3 kh\u1eafc ph\u1ee5c c\u00e1c l\u1ed7i sai.'}`;
+    `&#272;&#7897; ch&#237;nh x&#225;c: ${pct}%. ${pct >= 80 ? 'R&#7845;t tuy&#7879;t v&#7901;i! Gi&#7919; v&#7919;ng phong &#273;&#7897; n&#224;y.' : 'H&#227;y ti&#7871;p t&#7909;c ki&#234;n tr&#236; c&#224;y th&#234;m &#273;&#7875; kh&#7855;c ph&#7909;c c&#225;c l&#7895;i sai.'}`;
   document.getElementById('a-summary').style.display = 'block';
+
+  // Record to persistent learning history
+  recordSessionComplete({
+    sessionId: currentSession.sessionId || `SES-${Date.now().toString(36).toUpperCase()}`,
+    timestamp: Date.now(),
+    dateStr: new Date().toLocaleString('vi-VN'),
+    mode: currentSession.mode,
+    modeName: getModeName(currentSession.mode),
+    level: currentSession.questions[0] ? currentSession.questions[0].level : 'N2',
+    totalQuestions: total,
+    scoreCorrect: correct,
+    scoreIncorrect: incorrect,
+    accuracyPct: pct,
+    durationSec: durationSec,
+    questionIds: currentSession.questions.map(q => q.id),
+    answers: currentSession.answersRecord
+  });
+}
+
+function getModeName(m) {
+  switch(m) {
+    case 'A': return 'C&#224;y li&#234;n t&#7909;c';
+    case 'B': return 'Luy&#7879;n theo d&#7841;ng';
+    case 'C': return '&#272;&#7873; c&#243; m&#227; s&#7889;';
+    case 'D': return 'Luy&#7879;n t&#237;nh gi&#7901;';
+    case 'E': return '&#212;n c&#226;u sai';
+    default: return 'Luy&#7879;n t&#7853;p';
+  }
 }
 
 function continueNext30() {
@@ -1227,17 +1638,63 @@ function continueNext30() {
     ensureBankLoaded(() => continueNext30());
     return;
   }
-  // Automatically pull next 30 unseen questions with 0 overlap
   const seenIds = getSeenIds();
-  let unseen = bank.filter(q => q.level === 'N2' && !seenIds.includes(q.id));
+  let unseen = bank.filter(q => q.level === 'N2' && q.exposureEligible !== false && !seenIds.includes(q.id));
   if (unseen.length < 30) {
-    unseen = bank.filter(q => !seenIds.includes(q.id));
+    unseen = bank.filter(q => q.exposureEligible !== false && !seenIds.includes(q.id));
   }
-  if (unseen.length === 0) {
-    unseen = bank;
+
+  if (unseen.length >= 30) {
+    unseen.sort(() => Math.random() - 0.5);
+    launchSession(unseen.slice(0, 30), 'A');
+  } else if (unseen.length === 0) {
+    showUnseenModal(
+      'B&#7841;n &#273;&#227; ho&#224;n th&#224;nh to&#224;n b&#7897; c&#226;u h&#7887;i m&#7899;i trong ng&#226;n h&#224;ng! B&#7841;n c&#243; mu&#7889;n &#273;&#7863;t l&#7841;i l&#7883;ch s&#7917; &#273;&#7875; l&#224;m l&#7841;i t&#7915; &#273;&#7847;u kh&#244;ng?',
+      [
+        {
+          text: '&#128260; &#272;&#7863;t l&#7841;i v&#224; l&#224;m ti&#7871;p',
+          class: 'btn-primary',
+          onClick: () => {
+            resetSeenForFilter('ALL', 'ALL');
+            closeUnseenModal();
+            continueNext30();
+          }
+        },
+        {
+          text: '&#272;&#243;ng',
+          class: 'btn-secondary',
+          onClick: closeUnseenModal
+        }
+      ]
+    );
+  } else {
+    showUnseenModal(
+      `Ch&#7881; c&#242;n ${unseen.length} c&#226;u m&#7899;i trong ng&#226;n h&#224;ng. B&#7841;n mu&#7889;n:`,
+      [
+        {
+          text: `Ch&#7881; l&#224;m ${unseen.length} c&#226;u m&#7899;i`,
+          class: 'btn-primary',
+          onClick: () => {
+            closeUnseenModal();
+            unseen.sort(() => Math.random() - 0.5);
+            launchSession(unseen, 'A');
+          }
+        },
+        {
+          text: 'Tr&#7897;n th&#234;m c&#226;u &#273;&#227; l&#224;m &#273;&#7875; &#273;&#7911; 30 c&#226;u',
+          class: 'btn-secondary',
+          onClick: () => {
+            closeUnseenModal();
+            let seen = bank.filter(q => q.exposureEligible !== false && seenIds.includes(q.id));
+            seen.sort(() => Math.random() - 0.5);
+            let combined = [...unseen, ...seen.slice(0, 30 - unseen.length)];
+            combined.sort(() => Math.random() - 0.5);
+            launchSession(combined, 'A');
+          }
+        }
+      ]
+    );
   }
-  unseen.sort(() => Math.random() - 0.5);
-  launchSession(unseen.slice(0, 30), 'A');
 }
 
 function resetToConfig() {
@@ -1247,22 +1704,26 @@ function resetToConfig() {
 }
 
 function quitSession() {
-  if (confirm('B\u1ea1n c\u00f3 ch\u1eafc ch\u1eafn mu\u1ed1n tho\u00e1t phi\u00ean luy\u1ec7n t\u1eadp n\u00e0y kh\u00f4ng?')) {
+  if (confirm('B&#7841;n c&#243; ch&#7855;c ch&#7855;n mu&#7889;n tho&#225;t phi&#234;n luy&#7879;n t&#7853;p n&#224;y kh&#244;ng?')) {
     resetToConfig();
   }
 }
 
 // =========================================================================
-// MODE B: LUY\u1ec6N THEO D\u1ea0NG \u0110\u1ec0
+// MODE B: LUY&#7878;N THEO D&#7840;NG &#272;&#7872;
 // =========================================================================
 function startFocusedType(level, typePrefix) {
   if (!bank || bank.length === 0) {
     ensureBankLoaded(() => startFocusedType(level, typePrefix));
     return;
   }
-  let matched = bank.filter(q => q.level === level && q.typeId.startsWith(typePrefix));
+  let matched = bank.filter(q => q.exposureEligible !== false && q.level === level && q.typeId.startsWith(typePrefix));
   if (matched.length === 0) {
-    matched = bank.filter(q => q.typeId.startsWith(typePrefix));
+    matched = bank.filter(q => q.exposureEligible !== false && q.typeId.startsWith(typePrefix));
+  }
+  if (matched.length === 0) {
+    alert('Kh&#244;ng t&#236;m th&#7845;y c&#226;u h&#7887;i kh&#7843; d&#7909;ng.');
+    return;
   }
   matched.sort(() => Math.random() - 0.5);
   switchMode('mode-a');
@@ -1270,7 +1731,7 @@ function startFocusedType(level, typePrefix) {
 }
 
 // =========================================================================
-// MODE C: \u0110\u1ec0 THEO SEED
+// MODE C: &#272;&#7872; THEO SEED
 // =========================================================================
 function generateNewSeed() {
   const randNum = Math.floor(1000 + Math.random() * 9000);
@@ -1287,49 +1748,286 @@ function startSeededSession() {
   const count = parseInt(document.getElementById('c-length').value, 10);
 
   const rng = createSeededRandom(seed);
-  let pool = bank.filter(q => q.level === level);
+  let pool = bank.filter(q => q.exposureEligible !== false && q.level === level);
 
-  // Deterministic shuffle
-  let shuffled = listShuffledWithRng(pool, rng);
+  let shuffled = [...pool];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
   const selected = shuffled.slice(0, count);
 
   switchMode('mode-a');
   launchSession(selected, 'C');
 }
 
-function listShuffledWithRng(arr, rng) {
-  let res = [...arr];
-  for (let i = res.length - 1; i > 0; i--) {
-    const j = Math.floor(rng() * (i + 1));
-    [res[i], res[j]] = [res[j], res[i]];
-  }
-  return res;
-}
+// =========================================================================
+// MODE D: LUY&#7878;N T&#7852;P T&#205;NH GI&#7900; (TIMED PRACTICE)
+// =========================================================================
+let timedState = {
+  questions: [],
+  currentIndex: 0,
+  userAnswers: {},
+  timerInterval: null,
+  totalSec: 0,
+  remainSec: 0,
+  startTime: 0
+};
 
-// =========================================================================
-// MODE D: THI TH\u1eec JLPT C\u00d3 \u0110\u1ed2NG H\u1ed2
-// =========================================================================
-function startExamSession() {
+function startTimedSession() {
   if (!bank || bank.length === 0) {
-    ensureBankLoaded(() => startExamSession());
+    ensureBankLoaded(() => startTimedSession());
     return;
   }
-  const examType = document.getElementById('d-exam-select').value;
-  let qList = [];
-  if (examType.includes('N2')) {
-    qList = bank.filter(q => q.level === 'N2');
-  } else {
-    qList = bank.filter(q => q.level === 'N3');
+  const level = document.getElementById('d-level').value;
+  const durMin = parseInt(document.getElementById('d-duration').value, 10);
+  const qCount = (durMin === 15) ? 15 : (durMin === 30 ? 30 : 50);
+
+  let pool = bank.filter(q => {
+    if (q.exposureEligible === false) return false;
+    if (level === 'MIXED') return ['N2', 'N3'].includes(q.level);
+    return q.level === level;
+  });
+
+  if (pool.length < qCount) {
+    pool = bank.filter(q => q.exposureEligible !== false);
   }
-  qList.sort(() => Math.random() - 0.5);
-  const count = examType.includes('MINI') ? 30 : 60;
-  
-  switchMode('mode-a');
-  launchSession(qList.slice(0, count), 'D');
+  pool.sort(() => Math.random() - 0.5);
+  const selected = pool.slice(0, qCount);
+
+  timedState = {
+    questions: selected,
+    currentIndex: 0,
+    userAnswers: {},
+    totalSec: durMin * 60,
+    remainSec: durMin * 60,
+    startTime: Date.now(),
+    timerInterval: null
+  };
+
+  document.getElementById('d-config').style.display = 'none';
+  document.getElementById('d-summary').style.display = 'none';
+  document.getElementById('d-arena').style.display = 'block';
+
+  renderTimedPalette();
+  renderTimedQuestion();
+  startTimedTimer();
+}
+
+function startTimedTimer() {
+  if (timedState.timerInterval) clearInterval(timedState.timerInterval);
+  const timerBox = document.getElementById('d-timer-box');
+
+  timedState.timerInterval = setInterval(() => {
+    timedState.remainSec--;
+    if (timedState.remainSec <= 0) {
+      clearInterval(timedState.timerInterval);
+      alert('H&#7871;t gi&#7901; l&#224;m b&#224;i! H&#7879; th&#7889;ng &#273;ang t&#7921; &#273;&#7897;ng n&#7897;p b&#224;i c&#7911;a b&#7841;n.');
+      submitTimedSession(false);
+      return;
+    }
+
+    const m = Math.floor(timedState.remainSec / 60);
+    const s = timedState.remainSec % 60;
+    timerBox.innerText = `&#9201;&#65039; ${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
+    if (timedState.remainSec < 120) {
+      timerBox.classList.add('urgent');
+    } else {
+      timerBox.classList.remove('urgent');
+    }
+  }, 1000);
+}
+
+function renderTimedPalette() {
+  const container = document.getElementById('d-palette');
+  container.innerHTML = '';
+  timedState.questions.forEach((q, idx) => {
+    const pill = document.createElement('div');
+    pill.className = 'pill-num';
+    if (idx === timedState.currentIndex) pill.classList.add('current');
+    if (timedState.userAnswers[q.id]) pill.classList.add('answered');
+    pill.innerText = idx + 1;
+    pill.onclick = () => {
+      timedState.currentIndex = idx;
+      renderTimedQuestion();
+      renderTimedPalette();
+    };
+    container.appendChild(pill);
+  });
+}
+
+function renderTimedQuestion() {
+  const q = timedState.questions[timedState.currentIndex];
+  const total = timedState.questions.length;
+  const curNum = timedState.currentIndex + 1;
+
+  document.getElementById('d-progress-txt').innerText = `C&#226;u ${curNum} / ${total}`;
+
+  // Meta
+  document.getElementById('d-q-meta').innerHTML = `
+    <span class="q-tag tag-${q.level.toLowerCase()}">${q.level}</span>
+    <span class="q-tag tag-skill">${q.skill}</span>
+    <span class="q-tag tag-skill">${q.typeId}</span>
+    <span style="font-size:0.75rem; color:#94a3b8; margin-left:auto;">ID: ${q.id}</span>
+  `;
+
+  // Passage
+  const passageBox = document.getElementById('d-q-passage');
+  if (q.contextPassage) {
+    passageBox.style.display = 'block';
+    passageBox.innerText = q.contextPassage;
+  } else {
+    passageBox.style.display = 'none';
+  }
+
+  // Stem
+  document.getElementById('d-q-stem').innerText = q.stem;
+
+  // Options (No immediate answer reveal!)
+  const optBox = document.getElementById('d-q-options');
+  optBox.innerHTML = '';
+  q.options.forEach(opt => {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'opt-btn';
+    if (timedState.userAnswers[q.id] === opt.id) {
+      btn.classList.add('selected-pending');
+    }
+    btn.innerHTML = `<span class="opt-label">${opt.id}</span><span>${opt.text}</span>`;
+    btn.onclick = () => {
+      timedState.userAnswers[q.id] = opt.id;
+      renderTimedQuestion();
+      renderTimedPalette();
+    };
+    optBox.appendChild(btn);
+  });
+}
+
+function prevTimedQuestion() {
+  if (timedState.currentIndex > 0) {
+    timedState.currentIndex--;
+    renderTimedQuestion();
+    renderTimedPalette();
+  }
+}
+function nextTimedQuestion() {
+  if (timedState.currentIndex < timedState.questions.length - 1) {
+    timedState.currentIndex++;
+    renderTimedQuestion();
+    renderTimedPalette();
+  }
+}
+
+function submitTimedSession(confirmUser) {
+  if (confirmUser) {
+    const answeredCount = Object.keys(timedState.userAnswers).length;
+    const total = timedState.questions.length;
+    if (answeredCount < total) {
+      if (!confirm(`B&#7841;n m&#7899;i tr&#7843; l&#7901;i ${answeredCount}/${total} c&#226;u h&#7887;i. B&#7841;n c&#243; ch&#7855;c ch&#7855;n mu&#7889;n n&#7897;p b&#224;i s&#7899;m kh&#244;ng?`)) {
+        return;
+      }
+    } else {
+      if (!confirm('B&#7841;n c&#243; ch&#7855;c ch&#7855;n mu&#7889;n n&#7897;p b&#224;i thi t&#237;nh gi&#7901; kh&#244;ng?')) {
+        return;
+      }
+    }
+  }
+
+  if (timedState.timerInterval) clearInterval(timedState.timerInterval);
+
+  // Compute Raw Score
+  let correct = 0;
+  let incorrect = 0;
+  let unanswered = 0;
+  const reviewItems = [];
+
+  timedState.questions.forEach(q => {
+    const chosen = timedState.userAnswers[q.id];
+    let isCorrect = false;
+    if (!chosen) {
+      unanswered++;
+    } else if (chosen === q.correctAnswer) {
+      correct++;
+      isCorrect = true;
+    } else {
+      incorrect++;
+    }
+
+    if (chosen) saveMistakeRecord(q.id, isCorrect);
+    markIdSeen(q.id);
+
+    reviewItems.push({
+      question: q,
+      chosen: chosen || 'Ch&#432;a tr&#7843; l&#7901;i',
+      isCorrect: isCorrect
+    });
+  });
+
+  const total = timedState.questions.length;
+  const pct = Math.round((correct / total) * 100);
+  const spentSec = Math.round((Date.now() - timedState.startTime) / 1000);
+  const spentM = Math.floor(spentSec / 60);
+  const spentS = spentSec % 60;
+
+  document.getElementById('d-arena').style.display = 'none';
+  document.getElementById('d-summary-score').innerText = `${correct} / ${total}`;
+  document.getElementById('d-summary-msg').innerText = 
+    `&#272;&#7897; ch&#237;nh x&#225;c: ${pct}% &#183; L&#224;m &#273;&#250;ng: ${correct} &#183; Sai: ${incorrect} &#183; Ch&#432;a tr&#7843; l&#7901;i: ${unanswered} &#183; Th&#7901;i gian: ${spentM}m ${spentS}s`;
+
+  // Render Detailed Review Table
+  const reviewContainer = document.getElementById('d-review-list');
+  reviewContainer.innerHTML = '';
+  reviewItems.forEach((rev, idx) => {
+    const card = document.createElement('div');
+    card.className = 'error-item';
+    card.style.borderColor = rev.isCorrect ? '#86efac' : (rev.chosen === 'Ch&#432;a tr&#7843; l&#7901;i' ? '#cbd5e1' : '#fca5a5');
+    card.innerHTML = `
+      <div class="error-meta">
+        <span><strong>C&#226;u ${idx + 1}</strong> &#183; ${rev.question.level} &#183; ${rev.question.typeId} &#183; ID: ${rev.question.id}</span>
+        <span style="font-weight:700; color:${rev.isCorrect ? '#15803d' : '#b91c1c'};">
+          ${rev.isCorrect ? '&#9989; &#272;&#218;NG' : (rev.chosen === 'Ch&#432;a tr&#7843; l&#7901;i' ? '&#9898; CH&#431;A L&#192;M' : '&#10060; SAI')}
+        </span>
+      </div>
+      <div style="font-family:var(--font-jp); font-weight:600; font-size:0.95rem; margin-bottom:6px;">${rev.question.stem}</div>
+      <div style="font-size:0.85rem; margin-bottom:6px;">
+        <strong>B&#7841;n ch&#7885;n:</strong> <span style="font-family:var(--font-jp); font-weight:700;">${rev.chosen}</span> |
+        <strong>&#272;&#225;p &#225;n &#273;&#250;ng:</strong> <span style="font-family:var(--font-jp); font-weight:700; color:#15803d;">${rev.question.correctAnswer}</span>
+      </div>
+      <div style="font-size:0.82rem; color:#475569; background:#f8fafc; padding:8px 12px; border-radius:6px;">
+        &#128161; <strong>Gi&#7843;i th&#237;ch:</strong> ${rev.question.explanationVi}
+      </div>
+    `;
+    reviewContainer.appendChild(card);
+  });
+
+  document.getElementById('d-summary').style.display = 'block';
+
+  // Record session to history
+  recordSessionComplete({
+    sessionId: `TIMED-${Date.now().toString(36).toUpperCase()}`,
+    timestamp: Date.now(),
+    dateStr: new Date().toLocaleString('vi-VN'),
+    mode: 'D',
+    modeName: 'Luy&#7879;n t&#237;nh gi&#7901;',
+    level: timedState.questions[0] ? timedState.questions[0].level : 'N2',
+    totalQuestions: total,
+    scoreCorrect: correct,
+    scoreIncorrect: incorrect,
+    accuracyPct: pct,
+    durationSec: spentSec,
+    questionIds: timedState.questions.map(q => q.id),
+    answers: timedState.userAnswers
+  });
+}
+
+function resetTimedToConfig() {
+  document.getElementById('d-arena').style.display = 'none';
+  document.getElementById('d-summary').style.display = 'none';
+  document.getElementById('d-config').style.display = 'block';
 }
 
 // =========================================================================
-// MODE E: \u00d4N L\u1ed6I (SPACED REPETITION)
+// MODE E: &#212;N L&#7894;I (SPACED REPETITION)
 // =========================================================================
 function renderSRStats() {
   const records = getMistakeRecords();
@@ -1344,17 +2042,16 @@ function renderSRStats() {
   document.getElementById('sr-count-total').innerText = totalWrong;
   document.getElementById('sr-count-mastered').innerText = mastered;
 
-  // Render List
   const container = document.getElementById('sr-list-container');
   container.innerHTML = '';
 
   const wrongIds = Object.keys(records).filter(id => records[id].wrongCount > 0);
   if (wrongIds.length === 0) {
-    container.innerHTML = '<p style="text-align:center; color:#64748b; padding:20px;">Tuy\u1ec7t v\u1eddi! B\u1ea1n ch\u01b0a c\u00f3 c\u00e2u n\u00e0o b\u1ecb \u0111\u00e1nh d\u1ea5u l\u00e0m sai trong b\u1ed9 nh\u1edb.</p>';
+    container.innerHTML = '<p style="text-align:center; color:#64748b; padding:20px;">Tuy&#7879;t v&#7901;i! B&#7841;n ch&#432;a c&#243; c&#226;u n&#224;o b&#7883; &#273;&#225;nh d&#7845;u l&#224;m sai trong b&#7897; nh&#7899;.</p>';
     return;
   }
 
-  wrongIds.slice(0, 10).forEach(qid => {
+  wrongIds.slice(0, 15).forEach(qid => {
     const q = bank.find(item => item.id === qid);
     if (!q) return;
     const r = records[qid];
@@ -1362,11 +2059,11 @@ function renderSRStats() {
     item.className = 'error-item';
     item.innerHTML = `
       <div class="error-meta">
-        <span><strong>${q.level}</strong> \u00b7 ${q.typeId} \u00b7 ID: ${q.id}</span>
-        <span style="color:#b91c1c;">Sai ${r.wrongCount} l\u1ea7n | \u0110\u00fang li\u00ean ti\u1ebfp: ${r.consecutiveCorrect || 0}</span>
+        <span><strong>${q.level}</strong> &#183; ${q.typeId} &#183; ID: ${q.id}</span>
+        <span style="color:#b91c1c;">Sai ${r.wrongCount} l&#7847;n | &#272;&#250;ng li&#234;n ti&#7871;p: ${r.consecutiveCorrect || 0}</span>
       </div>
       <div style="font-family:var(--font-jp); font-size:0.95rem; font-weight:600; margin-bottom:6px;">${q.stem}</div>
-      <div style="font-size:0.82rem; color:#475569;">${q.explanationVi.slice(0, 120)}...</div>
+      <div style="font-size:0.82rem; color:#475569;">${q.explanationVi.slice(0, 140)}...</div>
     `;
     container.appendChild(item);
   });
@@ -1383,9 +2080,9 @@ function startMistakeReview(filterType) {
     return records[id].wrongCount > 0;
   });
 
-  let qs = bank.filter(q => targetIds.includes(q.id));
+  let qs = bank.filter(q => q.exposureEligible !== false && targetIds.includes(q.id));
   if (qs.length === 0) {
-    alert('Kh\u00f4ng c\u00f3 c\u00e2u h\u1ecfi sai n\u00e0o ph\u00f9 h\u1ee3p v\u1edbi b\u1ed9 l\u1ecdc n\u00e0y.');
+    alert('Kh&#244;ng c&#243; c&#226;u h&#7887;i sai n&#224;o ph&#249; h&#7907;p v&#7899;i b&#7897; l&#7885;c n&#224;y.');
     return;
   }
   qs.sort(() => Math.random() - 0.5);
@@ -1394,9 +2091,96 @@ function startMistakeReview(filterType) {
 }
 
 function clearMistakeHistory() {
-  if (confirm('B\u1ea1n c\u00f3 ch\u1eafc mu\u1ed1n x\u00f3a s\u1ea1ch to\u00e0n b\u1ed9 l\u1ecbch s\u1eed c\u00e2u h\u1ecfi sai kh\u00f4ng?')) {
+  if (confirm('B&#7841;n c&#243; ch&#7855;c mu&#7889;n x&#243;a s&#7841;ch to&#224;n b&#7897; l&#7883;ch s&#7917; c&#226;u h&#7887;i sai kh&#244;ng?')) {
     localStorage.removeItem(STORAGE_KEY_MISTAKES);
     renderSRStats();
+  }
+}
+
+// =========================================================================
+// MODE F: NH&#7852;T K&#221; H&#7884;C T&#7852;P & PERSISTENCE
+// =========================================================================
+function renderSessionHistory() {
+  const tbody = document.getElementById('session-history-tbody');
+  const sessions = getStoredSessions();
+  if (!tbody) return;
+
+  if (sessions.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="6" style="text-align:center; color:#94a3b8; padding:20px;">Ch&#432;a c&#243; phi&#234;n l&#224;m b&#224;i n&#224;o &#273;&#432;&#7907;c ghi nh&#7853;n. H&#227;y ho&#224;n th&#224;nh &#237;t nh&#7845;t m&#7897;t phi&#234;n luy&#7879;n t&#7853;p!</td></tr>';
+    return;
+  }
+
+  tbody.innerHTML = '';
+  sessions.forEach(s => {
+    const tr = document.createElement('tr');
+    const durM = Math.floor((s.durationSec || 0) / 60);
+    const durS = (s.durationSec || 0) % 60;
+    tr.innerHTML = `
+      <td>${s.dateStr || new Date(s.timestamp).toLocaleDateString('vi-VN')}</td>
+      <td><code>${s.sessionId || 'N/A'}</code></td>
+      <td><span class="q-tag tag-${(s.level || 'N2').toLowerCase()}">${s.level || 'N2'}</span> ${s.modeName || s.mode}</td>
+      <td><strong>${s.scoreCorrect}</strong> / ${s.totalQuestions}</td>
+      <td style="font-weight:700; color:${s.accuracyPct >= 80 ? '#15803d' : (s.accuracyPct >= 60 ? '#b45309' : '#b91c1c')};">${s.accuracyPct}%</td>
+      <td>${durM}m ${durS}s</td>
+    `;
+    tbody.appendChild(tr);
+  });
+}
+
+function exportSessionsJson() {
+  const sessions = getStoredSessions();
+  const blob = new Blob([JSON.stringify(sessions, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `jp_study_learning_sessions_${Date.now()}.json`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+function exportSessionsCsv() {
+  const sessions = getStoredSessions();
+  if (sessions.length === 0) {
+    alert('Kh&#244;ng c&#243; d&#7919; li&#7879;u phi&#234;n h&#7885;c n&#224;o &#273;&#7875; xu&#7845;t.');
+    return;
+  }
+  let csv = 'M&#227; phi&#234;n,Th&#7901;i gian,C&#7845;p &#273;&#7897;,Ch&#7871; &#273;&#7897;,S&#7889; c&#226;u &#273;&#250;ng,T&#7893;ng s&#7889; c&#226;u,T&#7927; l&#7879; ch&#237;nh x&#225;c (%),Th&#7901;i l&#432;&#7907;ng (gi&#226;y)\n';
+  sessions.forEach(s => {
+    csv += `"${s.sessionId}","${s.dateStr || ''}","${s.level || ''}","${s.modeName || ''}",${s.scoreCorrect},${s.totalQuestions},${s.accuracyPct},${s.durationSec || 0}\n`;
+  });
+  const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `jp_study_sessions_${Date.now()}.csv`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+function openSheetsSyncModal() {
+  const sessions = getStoredSessions();
+  const payload = {
+    exportDate: new Date().toISOString(),
+    totalSessionsRecorded: sessions.length,
+    sessions: sessions
+  };
+  document.getElementById('sheets-sync-payload').value = JSON.stringify(payload, null, 2);
+  document.getElementById('modal-sheets').classList.add('active');
+}
+function closeSheetsModal() {
+  document.getElementById('modal-sheets').classList.remove('active');
+}
+function copySheetsPayload() {
+  const txt = document.getElementById('sheets-sync-payload');
+  txt.select();
+  document.execCommand('copy');
+  alert('&#272;&#227; sao ch&#233;p d&#7919; li&#7879;u phi&#234;n h&#7885;c v&#224;o b&#7897; nh&#7899; t&#7841;m!');
+}
+
+function clearSessionHistory() {
+  if (confirm('B&#7841;n c&#243; ch&#7855;c ch&#7855;n mu&#7889;n x&#243;a to&#224;n b&#7897; l&#7883;ch s&#7917; c&#225;c phi&#234;n h&#7885;c t&#7853;p &#273;&#227; l&#432;u kh&#244;ng?')) {
+    localStorage.removeItem(STORAGE_KEY_SESSIONS);
+    renderSessionHistory();
   }
 }
 </script>

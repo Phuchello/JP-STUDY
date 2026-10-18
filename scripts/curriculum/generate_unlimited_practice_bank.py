@@ -15,6 +15,7 @@ import sys
 import os
 import json
 import re
+import unicodedata
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -71,6 +72,10 @@ def validate_question(q, seen_ids):
     for o in opts:
         if not o.get("text") or not o.get("text").strip():
             raise ValueError(f"Question {qid} option {o.get('id')} has empty text.")
+    # Options text uniqueness
+    norm_texts = [unicodedata.normalize('NFKC', o.get("text", "").strip()) for o in opts]
+    if len(norm_texts) != len(set(norm_texts)):
+        raise ValueError(f"Question {qid} has duplicate options: {norm_texts}")
 
     # Correct Answer
     ans = q.get("correctAnswer")
@@ -133,15 +138,36 @@ def compile_and_validate_bank():
     seen_ids = set()
     level_counts = {}
     skill_counts = {}
+    status_counts = {}
+    quarantined_count = 0
+    active_count = 0
     reading_passages = set()
     listening_tracks = set()
 
     for q in all_questions:
+        # Enforce P0-1 status integrity and P0-2 listening quarantine
+        is_canonical_n4 = q.get("level") == "N4" and q.get("id", "").startswith("N4-")
+        if q.get("skill") == "Listening":
+            q["status"] = "QUARANTINED"
+            q["exposureEligible"] = False
+            q["quarantineReason"] = "Pending verified audio-to-script alignment (Stage 2 roadmap)"
+            quarantined_count += 1
+        elif is_canonical_n4:
+            q["status"] = "QA_VERIFIED"
+            q["exposureEligible"] = True
+            active_count += 1
+        else:
+            q["status"] = "PROVISIONAL_PRACTICE"
+            q["exposureEligible"] = True
+            active_count += 1
+
         validate_question(q, seen_ids)
         lvl = q["level"]
         skill = q["skill"]
+        status = q["status"]
         level_counts[lvl] = level_counts.get(lvl, 0) + 1
         skill_counts[skill] = skill_counts.get(skill, 0) + 1
+        status_counts[status] = status_counts.get(status, 0) + 1
         if skill == "Reading" and q.get("stimulusId"):
             reading_passages.add(q["stimulusId"])
         if skill == "Listening" and q.get("audioUrl"):
@@ -151,6 +177,8 @@ def compile_and_validate_bank():
     print("VALIDATION RESULTS & AUDIT METRICS:")
     print("Level breakdown:", level_counts)
     print("Skill breakdown:", skill_counts)
+    print("Status breakdown:", status_counts)
+    print(f"Active Practice Questions: {active_count} | Quarantined: {quarantined_count}")
     print(f"Unique Reading Passages: {len(reading_passages)} (Target: >= 25) -> {'PASS' if len(reading_passages) >= 25 else 'FAIL'}")
     print(f"Playable Listening Tracks: {len(listening_tracks)} (Target: >= 20) -> {'PASS' if len(listening_tracks) >= 20 else 'FAIL'}")
     print(f"N2 Questions Count: {level_counts.get('N2', 0)} (Target: >= 400) -> {'PASS' if level_counts.get('N2', 0) >= 400 else 'FAIL'}")
@@ -171,12 +199,17 @@ def compile_and_validate_bank():
         "description": "JP-STUDY Large-Scale Dynamic Practice Engine Question Bank",
         "primaryTarget": "JLPT N2 December 2026",
         "totalQuestions": len(all_questions),
+        "activeQuestionsCount": active_count,
+        "quarantinedQuestionsCount": quarantined_count,
         "levels": level_counts,
         "skills": skill_counts,
+        "statusBreakdown": status_counts,
         "metrics": {
             "n2Questions": level_counts.get("N2", 0),
             "n3Questions": level_counts.get("N3", 0),
             "n4Questions": level_counts.get("N4", 0),
+            "activeQuestions": active_count,
+            "quarantinedQuestions": quarantined_count,
             "readingPassages": len(reading_passages),
             "listeningTracks": len(listening_tracks),
             "allQAPassed": True

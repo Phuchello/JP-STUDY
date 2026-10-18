@@ -231,9 +231,12 @@ Snapshot 2026-10-15. VERIFIED is scoped verification, not JLPT certification. Hi
 | [research/search_coverage.json](research/search_coverage.json) | VERIFIED |
 | [scripts/README.md](scripts/README.md) | VERIFIED |
 | [scripts/build_start_here.py](scripts/build_start_here.py) | VERIFIED |
+| [scripts/cdp_check_sites.cjs](scripts/cdp_check_sites.cjs) | QA_PENDING |
+| [scripts/cdp_verify_engine.cjs](scripts/cdp_verify_engine.cjs) | QA_PENDING |
 | [scripts/curriculum/apply_six_repairs.py](scripts/curriculum/apply_six_repairs.py) | VERIFIED |
 | [scripts/curriculum/apply_stop_ship.py](scripts/curriculum/apply_stop_ship.py) | VERIFIED |
 | [scripts/curriculum/audit_all_items.py](scripts/curriculum/audit_all_items.py) | VERIFIED |
+| [scripts/curriculum/audit_bank.py](scripts/curriculum/audit_bank.py) | QA_PENDING |
 | [scripts/curriculum/audit_star_permutations.py](scripts/curriculum/audit_star_permutations.py) | VERIFIED |
 | [scripts/curriculum/bank_data/__init__.py](scripts/curriculum/bank_data/__init__.py) | QA_PENDING |
 | [scripts/curriculum/bank_data/n2_data.py](scripts/curriculum/bank_data/n2_data.py) | QA_PENDING |
@@ -245,6 +248,7 @@ Snapshot 2026-10-15. VERIFIED is scoped verification, not JLPT certification. Hi
 | [scripts/curriculum/build_provenance_manifest.py](scripts/curriculum/build_provenance_manifest.py) | VERIFIED |
 | [scripts/curriculum/content_fingerprint.py](scripts/curriculum/content_fingerprint.py) | VERIFIED |
 | [scripts/curriculum/export_pilot_payload.py](scripts/curriculum/export_pilot_payload.py) | QA_PENDING |
+| [scripts/curriculum/generate_ncr.py](scripts/curriculum/generate_ncr.py) | QA_PENDING |
 | [scripts/curriculum/generate_practice_release_gate.py](scripts/curriculum/generate_practice_release_gate.py) | VERIFIED |
 | [scripts/curriculum/generate_unlimited_practice_bank.py](scripts/curriculum/generate_unlimited_practice_bank.py) | QA_PENDING |
 | [scripts/curriculum/inspect_category.py](scripts/curriculum/inspect_category.py) | VERIFIED |

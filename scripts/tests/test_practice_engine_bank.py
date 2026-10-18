@@ -105,5 +105,35 @@ class TestPracticeEngineBank(unittest.TestCase):
         self.assertEqual(len(s2_ids.intersection(s3_ids)), 0, "Session 2 and 3 must have zero overlap")
         self.assertEqual(len(s1_ids.intersection(s3_ids)), 0, "Session 1 and 3 must have zero overlap")
 
+    def test_zero_duplicate_options_in_bank(self):
+        """Verifies P0-1: zero questions have duplicate or normalized identical options."""
+        import unicodedata
+        for q in self.questions:
+            qid = q["id"]
+            opts = [unicodedata.normalize('NFKC', o["text"].strip()) for o in q["options"]]
+            self.assertEqual(len(opts), len(set(opts)), f"Question {qid} has duplicate options: {opts}")
+
+    def test_listening_quarantine_integrity(self):
+        """Verifies P0-2: all listening items are quarantined from active exposure."""
+        listening_qs = [q for q in self.questions if q["skill"] == "Listening"]
+        self.assertGreater(len(listening_qs), 0, "Bank should contain listening items")
+        for q in listening_qs:
+            self.assertEqual(q["status"], "QUARANTINED", f"Listening question {q['id']} must be QUARANTINED")
+            self.assertFalse(q["exposureEligible"], f"Listening question {q['id']} must not be exposureEligible")
+            self.assertIn("quarantineReason", q)
+            self.assertTrue(len(q["quarantineReason"]) > 0)
+
+    def test_status_integrity_provisional_vs_verified(self):
+        """Verifies P0-1: newly generated items are PROVISIONAL_PRACTICE; canonical items are QA_VERIFIED."""
+        for q in self.questions:
+            qid = q["id"]
+            status = q["status"]
+            if q["skill"] == "Listening":
+                self.assertEqual(status, "QUARANTINED")
+            elif q["level"] == "N4":
+                self.assertEqual(status, "QA_VERIFIED", f"Canonical N4 item {qid} must be QA_VERIFIED")
+            else:
+                self.assertEqual(status, "PROVISIONAL_PRACTICE", f"Generated item {qid} must be PROVISIONAL_PRACTICE")
+
 if __name__ == '__main__':
     unittest.main()
