@@ -263,6 +263,7 @@ Snapshot 2026-10-15. VERIFIED is scoped verification, not JLPT certification. Hi
 | [scripts/cdp_scroll_kho_de.cjs](scripts/cdp_scroll_kho_de.cjs) | QA_PENDING |
 | [scripts/cdp_snap_editor.cjs](scripts/cdp_snap_editor.cjs) | QA_PENDING |
 | [scripts/cdp_verify_engine.cjs](scripts/cdp_verify_engine.cjs) | QA_PENDING |
+| [scripts/cdp_verify_live_learner_engine.cjs](scripts/cdp_verify_live_learner_engine.cjs) | QA_PENDING |
 | [scripts/curriculum/apply_six_repairs.py](scripts/curriculum/apply_six_repairs.py) | VERIFIED |
 | [scripts/curriculum/apply_stop_ship.py](scripts/curriculum/apply_stop_ship.py) | VERIFIED |
 | [scripts/curriculum/audit_all_items.py](scripts/curriculum/audit_all_items.py) | VERIFIED |

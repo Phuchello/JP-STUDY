@@ -1,8 +1,8 @@
 {
   "snapshotDate": "2026-10-15",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
-  "fileCountExcludingManifest": 301,
-  "totalBytesExcludingManifest": 9268078,
+  "fileCountExcludingManifest": 302,
+  "totalBytesExcludingManifest": 9277434,
   "files": [
     {
       "path": ".gitattributes",
@@ -858,8 +858,8 @@
     },
     {
       "path": "FILE_INDEX.md",
-      "bytes": 29135,
-      "sha256": "6124b616eb52fb19400336ce6daefaa24b221435bc5246d0c9810a18891a7317",
+      "bytes": 29241,
+      "sha256": "0f13c60ab1c42c1c7c213e5686836bbb4d6b737daca7356f96a018dcc256c8a2",
       "status": "VERIFIED"
     },
     {
@@ -1544,6 +1544,12 @@
       "path": "scripts/cdp_verify_engine.cjs",
       "bytes": 6537,
       "sha256": "71c0b8da77af16e50c13b8d2b5a953ede5b090e7e03027261aa7f863224ad135",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "scripts/cdp_verify_live_learner_engine.cjs",
+      "bytes": 9250,
+      "sha256": "ef754517b1af590f7f34e3b61a7838f3ab18c6ffdcaee996b2412501f1c24b48",
       "status": "QA_PENDING"
     },
     {
