@@ -2,7 +2,7 @@
   "snapshotDate": "2026-10-15",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
   "fileCountExcludingManifest": 307,
-  "totalBytesExcludingManifest": 10189928,
+  "totalBytesExcludingManifest": 10199790,
   "files": [
     {
       "path": ".gitattributes",
@@ -792,14 +792,14 @@
     },
     {
       "path": "docs/widgets/practice_engine.html",
-      "bytes": 98129,
-      "sha256": "5273f350f1a6168d8ea9f5bb4ecd98a3f98b8c759929e53d000cc8a7be2e0c9a",
+      "bytes": 102042,
+      "sha256": "798e7b55fb6311f9aaac9b5530564f5f567d3a9bbf2795fccb56daa823b8327d",
       "status": "QA_PENDING"
     },
     {
       "path": "docs/widgets/practice_engine_ncr.html",
-      "bytes": 106763,
-      "sha256": "127574e62c9ced316b1b8ed4c71b6909d260ee5852dd3814c7a76566190b69c6",
+      "bytes": 111225,
+      "sha256": "5ea5716df9bd03439ddcffd05dd5b7daa965d7afa3bf800c6cc20749f2637d1d",
       "status": "QA_PENDING"
     },
     {
@@ -1812,8 +1812,8 @@
     },
     {
       "path": "scripts/tests/test_timer_and_links.py",
-      "bytes": 7286,
-      "sha256": "0ffeb488b0d03b1eda8a022e97be81e0e03b44341aae8668c2230510a0c44cec",
+      "bytes": 8773,
+      "sha256": "62fadf463ae0e5b575515a9924a7023c2a603c86bbf295f9427dcd4cbce89c88",
       "status": "QA_PENDING"
     },
     {

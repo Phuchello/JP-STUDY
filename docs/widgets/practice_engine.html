@@ -1400,6 +1400,44 @@ function highlightSkillCardsInModeB(skill) {
   });
 }
 
+function launchMockExamSafely(mockId) {
+  stopActiveTimer();
+  const upperMock = (mockId || '').toUpperCase();
+  const availableMocks = ['N2-MOCK-01', 'N3-MOCK-01'];
+
+  if (!availableMocks.includes(upperMock)) {
+    alert(`Đề thi thử ${upperMock || mockId} hiện đang trong giai đoạn hoàn thiện nội dung (IN DEVELOPMENT). Bạn vui lòng chọn đề N2-MOCK-01 hoặc N3-MOCK-01.`);
+    switchMode('mode-mock');
+    return false;
+  }
+
+  const attemptLaunch = () => {
+    if (window.JP_MOCK_DATA && window.JP_MOCK_DATA[upperMock]) {
+      startFullMockExam(upperMock);
+      return true;
+    }
+    return false;
+  };
+
+  if (attemptLaunch()) return true;
+
+  // Poll briefly (up to 2 seconds) if scripts are still resolving
+  let attempts = 0;
+  const poll = setInterval(() => {
+    attempts++;
+    if (attemptLaunch()) {
+      clearInterval(poll);
+    } else if (attempts >= 20) {
+      clearInterval(poll);
+      alert(`Không thể tải dữ liệu đề thi ${upperMock}. Vui lòng thử lại.`);
+      switchMode('mode-mock');
+    }
+  }, 100);
+
+  return true;
+}
+window.launchMockExamSafely = launchMockExamSafely;
+
 function applyUrlParameters() {
   try {
     const params = new URLSearchParams(window.location.search);
@@ -1412,8 +1450,14 @@ function applyUrlParameters() {
     if (qMock) {
       const upperMock = qMock.toUpperCase();
       if (['N2-MOCK-01', 'N3-MOCK-01'].includes(upperMock)) {
-        appliedInfo.push(`Bài thi phân môn: <strong>${upperMock}</strong>`);
+        appliedInfo.push(`Khởi chạy trực tiếp: <strong>${upperMock}</strong>`);
         showParamBadge(appliedInfo);
+        launchMockExamSafely(upperMock);
+        return;
+      } else {
+        appliedInfo.push(`Đề thi: <strong>${upperMock}</strong> (Đang biên soạn)`);
+        showParamBadge(appliedInfo);
+        alert(`Đề thi thử ${upperMock} hiện đang trong giai đoạn hoàn thiện nội dung (IN DEVELOPMENT). Bạn vui lòng chọn đề N2-MOCK-01 hoặc N3-MOCK-01.`);
         switchMode('mode-mock');
         return;
       }
@@ -1453,7 +1497,17 @@ function applyUrlParameters() {
         if (cLvl && ['N2', 'N3'].includes(upperLvl)) cLvl.value = upperLvl;
 
         const dLvl = document.getElementById('d-level');
-        if (dLvl && ['N2', 'N3', 'MIXED'].includes(upperLvl)) dLvl.value = upperLvl;
+        if (dLvl) {
+          if (['N2', 'N3', 'MIXED'].includes(upperLvl)) {
+            dLvl.value = upperLvl;
+          } else if (targetMode === 'mode-d') {
+            appliedInfo.push(`⚠️ Cấp độ ${upperLvl} không hỗ trợ trong Luyện tính giờ (chỉ hỗ trợ N2, N3, MIXED). Đã chọn N2.`);
+            dLvl.value = 'N2';
+            effectiveLevel = 'N2';
+          }
+        }
+      } else {
+        appliedInfo.push(`⚠️ Cấp độ không hợp lệ (${qLevel})`);
       }
     }
 
@@ -1467,6 +1521,8 @@ function applyUrlParameters() {
         appliedInfo.push(`Thời gian: <strong>${durInt} phút</strong>`);
         const dDur = document.getElementById('d-duration');
         if (dDur) dDur.value = String(durInt);
+      } else {
+        appliedInfo.push(`⚠️ Thời gian không hợp lệ (${qDur} phút)`);
       }
     }
 
@@ -1492,6 +1548,8 @@ function applyUrlParameters() {
             else if (countInt === 50) dDur.value = '60';
           }
         }
+      } else {
+        appliedInfo.push(`⚠️ Số lượng câu không hợp lệ (${qCount} câu)`);
       }
     }
 
@@ -1507,6 +1565,8 @@ function applyUrlParameters() {
         if (targetMode === 'mode-b') {
           highlightSkillCardsInModeB(matchedSkill);
         }
+      } else {
+        appliedInfo.push(`⚠️ Kỹ năng không hợp lệ (${qSkill})`);
       }
     }
 
@@ -1692,6 +1752,10 @@ function closeListeningModal() {
 // SESSION RUNNER (MODE A)
 // =========================================================================
 function launchSession(questions, mode) {
+  stopActiveTimer();
+  if (typeof timedState !== 'undefined' && timedState) {
+    timedState.isSubmitted = true;
+  }
   if (!questions || questions.length === 0) {
     alert('Không tìm thấy câu hỏi phù hợp.');
     return;
@@ -2033,10 +2097,16 @@ function startFullMockExam(mockId) {
 
   // Safely stop any previous timer before creating new mock session
   stopActiveTimer();
+  if (typeof timedState !== 'undefined' && timedState) {
+    timedState.isSubmitted = true;
+  }
 
   const items = mockData.sections[0].items;
   const durMin = mockData.sections[0].durationMinutes || 105;
-  const mySessionId = `${mockId}_${Date.now().toString(36).toUpperCase()}_${Math.random().toString(36).slice(2, 6)}`;
+  const totalSec = durMin * 60;
+  const now = Date.now();
+  const deadlineTime = now + (totalSec * 1000);
+  const mySessionId = `${mockId}_${now.toString(36).toUpperCase()}_${Math.random().toString(36).slice(2, 6)}`;
 
   timedState = {
     sessionId: mySessionId,
@@ -2044,9 +2114,10 @@ function startFullMockExam(mockId) {
     questions: items,
     currentIndex: 0,
     userAnswers: {},
-    totalSec: durMin * 60,
-    remainSec: durMin * 60,
-    startTime: Date.now(),
+    totalSec: totalSec,
+    remainSec: totalSec,
+    startTime: now,
+    deadlineTime: deadlineTime,
     timerInterval: null,
     mockMeta: {
       isMock: true,
@@ -2080,6 +2151,7 @@ let timedState = {
   totalSec: 0,
   remainSec: 0,
   startTime: 0,
+  deadlineTime: 0,
   mockMeta: null
 };
 
@@ -2091,27 +2163,43 @@ function startTimedSession() {
 
   // Safely stop any previous timer before creating new session
   stopActiveTimer();
+  if (typeof timedState !== 'undefined' && timedState) {
+    timedState.isSubmitted = true;
+  }
 
-  const level = document.getElementById('d-level').value;
-  const durMin = parseInt(document.getElementById('d-duration').value, 10);
+  const levelSelect = document.getElementById('d-level');
+  const durSelect = document.getElementById('d-duration');
+  const level = levelSelect ? levelSelect.value : 'N2';
+  const durMin = parseInt(durSelect ? durSelect.value : '30', 10);
+
   let qCount = 30;
   if (durMin === 15) qCount = 15;
   else if (durMin === 30 || durMin === 35) qCount = 30;
   else if (durMin === 60) qCount = 50;
 
+  // Strict level filtering: NEVER silently substitute another JLPT level!
   let pool = bank.filter(q => {
     if (q.exposureEligible === false) return false;
     if (level === 'MIXED') return ['N2', 'N3'].includes(q.level);
     return q.level === level;
   });
 
-  if (pool.length < qCount) {
-    pool = bank.filter(q => q.exposureEligible !== false);
+  if (pool.length === 0) {
+    alert(`Không tìm thấy câu hỏi khả dụng cho cấp độ ${level}. Vui lòng chọn cấp độ khác.`);
+    return;
   }
+  if (pool.length < qCount) {
+    console.warn(`Chỉ có ${pool.length} câu hỏi khả dụng cho cấp độ ${level}. Giữ nguyên cấp độ và làm ${pool.length} câu thay vì trộn cấp độ khác.`);
+    qCount = pool.length;
+  }
+
   pool.sort(() => Math.random() - 0.5);
   const selected = pool.slice(0, qCount);
 
-  const mySessionId = `TIMED_${Date.now().toString(36).toUpperCase()}_${Math.random().toString(36).slice(2, 6)}`;
+  const totalSec = durMin * 60;
+  const now = Date.now();
+  const deadlineTime = now + (totalSec * 1000);
+  const mySessionId = `TIMED_${now.toString(36).toUpperCase()}_${Math.random().toString(36).slice(2, 6)}`;
 
   timedState = {
     sessionId: mySessionId,
@@ -2119,9 +2207,10 @@ function startTimedSession() {
     questions: selected,
     currentIndex: 0,
     userAnswers: {},
-    totalSec: durMin * 60,
-    remainSec: durMin * 60,
-    startTime: Date.now(),
+    totalSec: totalSec,
+    remainSec: totalSec,
+    startTime: now,
+    deadlineTime: deadlineTime,
     timerInterval: null,
     mockMeta: null
   };
@@ -2135,18 +2224,46 @@ function startTimedSession() {
   startTimedTimer();
 }
 
-function startTimedTimer() {
-  stopActiveTimer();
-  const currentSessionId = timedState.sessionId;
+function updateTimedCountdown() {
+  if (!timedState || timedState.isSubmitted || !timedState.deadlineTime) return;
+
+  const now = Date.now();
+  const remainMs = timedState.deadlineTime - now;
+  const remainSec = Math.max(0, Math.ceil(remainMs / 1000));
+  timedState.remainSec = remainSec;
+
   const timerBox = document.getElementById('d-timer-box');
 
-  // Immediately display the starting time
-  const initM = Math.floor(timedState.remainSec / 60);
-  const initS = timedState.remainSec % 60;
-  if (timerBox) {
-    timerBox.innerText = `⏱️ ${initM.toString().padStart(2, '0')}:${initS.toString().padStart(2, '0')}`;
-    timerBox.classList.remove('urgent');
+  if (remainMs <= 0) {
+    stopActiveTimer();
+    if (timerBox) {
+      timerBox.innerText = '⏱️ 00:00';
+      timerBox.classList.add('urgent');
+    }
+    alert('Hết giờ làm bài! Hệ thống đang tự động nộp bài của bạn.');
+    submitTimedSession(false);
+    return;
   }
+
+  const m = Math.floor(remainSec / 60);
+  const s = remainSec % 60;
+  if (timerBox) {
+    timerBox.innerText = `⏱️ ${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
+    if (remainSec < 120) {
+      timerBox.classList.add('urgent');
+    } else {
+      timerBox.classList.remove('urgent');
+    }
+  }
+}
+
+function startTimedTimer() {
+  stopActiveTimer();
+  if (!timedState || timedState.isSubmitted) return;
+  const currentSessionId = timedState.sessionId;
+
+  // Immediately render based on current deadline
+  updateTimedCountdown();
 
   globalTimerInterval = setInterval(() => {
     // Stale callback guard: ignore if session changed or was already submitted
@@ -2154,29 +2271,18 @@ function startTimedTimer() {
       stopActiveTimer();
       return;
     }
-
-    timedState.remainSec--;
-    if (timedState.remainSec <= 0) {
-      stopActiveTimer();
-      alert('Hết giờ làm bài! Hệ thống đang tự động nộp bài của bạn.');
-      submitTimedSession(false);
-      return;
-    }
-
-    const m = Math.floor(timedState.remainSec / 60);
-    const s = timedState.remainSec % 60;
-    if (timerBox) {
-      timerBox.innerText = `⏱️ ${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
-      if (timedState.remainSec < 120) {
-        timerBox.classList.add('urgent');
-      } else {
-        timerBox.classList.remove('urgent');
-      }
-    }
+    updateTimedCountdown();
   }, 1000);
 
   timedState.timerInterval = globalTimerInterval;
 }
+
+// Background tab switching & throttling listener
+document.addEventListener('visibilitychange', () => {
+  if (!document.hidden && typeof timedState !== 'undefined' && timedState && !timedState.isSubmitted && timedState.deadlineTime) {
+    updateTimedCountdown();
+  }
+});
 
 function renderTimedPalette() {
   const container = document.getElementById('d-palette');
@@ -2384,6 +2490,9 @@ function submitTimedSession(confirmUser) {
 
 function resetTimedToConfig() {
   stopActiveTimer();
+  if (typeof timedState !== 'undefined' && timedState) {
+    timedState.isSubmitted = true;
+  }
   document.getElementById('d-arena').style.display = 'none';
   document.getElementById('d-summary').style.display = 'none';
   document.getElementById('d-config').style.display = 'block';

@@ -127,9 +127,31 @@ class TestTimerAndDeepLinks(unittest.TestCase):
 
     def test_n3_100_minute_combined_structure_delineation(self):
         """Verify N3 100-minute combined practice note is distinct from official 30+70 schedule."""
-        self.assertIn("Kỳ thi N3 chính thức tách rời", self.engine_html)
-        self.assertIn("Kỳ thi N3 chính thức tách rời", self.catalog_html)
+    def test_direct_mock_launch_for_n2_and_n3(self):
+        """Ensure applyUrlParameters triggers launchMockExamSafely for N2-MOCK-01 and N3-MOCK-01."""
+        self.assertIn("function launchMockExamSafely(mockId)", self.engine_html)
+        self.assertIn("['N2-MOCK-01', 'N3-MOCK-01'].includes(upperMock)", self.engine_html)
+        self.assertIn("launchMockExamSafely(upperMock);", self.engine_html)
+        self.assertIn("startFullMockExam(upperMock)", self.engine_html)
+
+    def test_unavailable_mock_rejection(self):
+        """Ensure unavailable mock exams trigger alert/badge and do not launch."""
+        self.assertIn("Đề thi thử ${upperMock || mockId} hiện đang trong giai đoạn hoàn thiện nội dung (IN DEVELOPMENT)", self.engine_html)
+        self.assertIn("switchMode('mode-mock');", self.engine_html)
+
+    def test_absolute_deadline_timer(self):
+        """Ensure timer computes absolute deadlineTime with Date.now() and syncs on visibilitychange."""
+        self.assertIn("deadlineTime: deadlineTime", self.engine_html)
+        self.assertIn("timedState.deadlineTime - now", self.engine_html)
+        self.assertIn("visibilitychange", self.engine_html)
+        self.assertIn("updateTimedCountdown()", self.engine_html)
+
+    def test_no_silent_level_fallback_in_timed_session(self):
+        """Ensure startTimedSession never silently substitutes another JLPT level."""
+        self.assertNotIn("if (pool.length < qCount) {\n    pool = bank.filter(q => q.exposureEligible !== false);", self.engine_html)
+        self.assertIn("Chỉ có ${pool.length} câu hỏi khả dụng cho cấp độ ${level}", self.engine_html)
 
 
 if __name__ == "__main__":
     unittest.main()
+

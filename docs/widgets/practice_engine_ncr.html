@@ -1400,6 +1400,44 @@ function highlightSkillCardsInModeB(skill) {
   });
 }
 
+function launchMockExamSafely(mockId) {
+  stopActiveTimer();
+  const upperMock = (mockId || '').toUpperCase();
+  const availableMocks = ['N2-MOCK-01', 'N3-MOCK-01'];
+
+  if (!availableMocks.includes(upperMock)) {
+    alert(`&#272;&#7873; thi th&#7917; ${upperMock || mockId} hi&#7879;n &#273;ang trong giai &#273;o&#7841;n ho&#224;n thi&#7879;n n&#7897;i dung (IN DEVELOPMENT). B&#7841;n vui l&#242;ng ch&#7885;n &#273;&#7873; N2-MOCK-01 ho&#7863;c N3-MOCK-01.`);
+    switchMode('mode-mock');
+    return false;
+  }
+
+  const attemptLaunch = () => {
+    if (window.JP_MOCK_DATA && window.JP_MOCK_DATA[upperMock]) {
+      startFullMockExam(upperMock);
+      return true;
+    }
+    return false;
+  };
+
+  if (attemptLaunch()) return true;
+
+  // Poll briefly (up to 2 seconds) if scripts are still resolving
+  let attempts = 0;
+  const poll = setInterval(() => {
+    attempts++;
+    if (attemptLaunch()) {
+      clearInterval(poll);
+    } else if (attempts >= 20) {
+      clearInterval(poll);
+      alert(`Kh&#244;ng th&#7875; t&#7843;i d&#7919; li&#7879;u &#273;&#7873; thi ${upperMock}. Vui l&#242;ng th&#7917; l&#7841;i.`);
+      switchMode('mode-mock');
+    }
+  }, 100);
+
+  return true;
+}
+window.launchMockExamSafely = launchMockExamSafely;
+
 function applyUrlParameters() {
   try {
     const params = new URLSearchParams(window.location.search);
@@ -1412,8 +1450,14 @@ function applyUrlParameters() {
     if (qMock) {
       const upperMock = qMock.toUpperCase();
       if (['N2-MOCK-01', 'N3-MOCK-01'].includes(upperMock)) {
-        appliedInfo.push(`B&#224;i thi ph&#226;n m&#244;n: <strong>${upperMock}</strong>`);
+        appliedInfo.push(`Kh&#7903;i ch&#7841;y tr&#7921;c ti&#7871;p: <strong>${upperMock}</strong>`);
         showParamBadge(appliedInfo);
+        launchMockExamSafely(upperMock);
+        return;
+      } else {
+        appliedInfo.push(`&#272;&#7873; thi: <strong>${upperMock}</strong> (&#272;ang bi&#234;n so&#7841;n)`);
+        showParamBadge(appliedInfo);
+        alert(`&#272;&#7873; thi th&#7917; ${upperMock} hi&#7879;n &#273;ang trong giai &#273;o&#7841;n ho&#224;n thi&#7879;n n&#7897;i dung (IN DEVELOPMENT). B&#7841;n vui l&#242;ng ch&#7885;n &#273;&#7873; N2-MOCK-01 ho&#7863;c N3-MOCK-01.`);
         switchMode('mode-mock');
         return;
       }
@@ -1453,7 +1497,17 @@ function applyUrlParameters() {
         if (cLvl && ['N2', 'N3'].includes(upperLvl)) cLvl.value = upperLvl;
 
         const dLvl = document.getElementById('d-level');
-        if (dLvl && ['N2', 'N3', 'MIXED'].includes(upperLvl)) dLvl.value = upperLvl;
+        if (dLvl) {
+          if (['N2', 'N3', 'MIXED'].includes(upperLvl)) {
+            dLvl.value = upperLvl;
+          } else if (targetMode === 'mode-d') {
+            appliedInfo.push(`&#9888;&#65039; C&#7845;p &#273;&#7897; ${upperLvl} kh&#244;ng h&#7895; tr&#7907; trong Luy&#7879;n t&#237;nh gi&#7901; (ch&#7881; h&#7895; tr&#7907; N2, N3, MIXED). &#272;&#227; ch&#7885;n N2.`);
+            dLvl.value = 'N2';
+            effectiveLevel = 'N2';
+          }
+        }
+      } else {
+        appliedInfo.push(`&#9888;&#65039; C&#7845;p &#273;&#7897; kh&#244;ng h&#7907;p l&#7879; (${qLevel})`);
       }
     }
 
@@ -1467,6 +1521,8 @@ function applyUrlParameters() {
         appliedInfo.push(`Th&#7901;i gian: <strong>${durInt} ph&#250;t</strong>`);
         const dDur = document.getElementById('d-duration');
         if (dDur) dDur.value = String(durInt);
+      } else {
+        appliedInfo.push(`&#9888;&#65039; Th&#7901;i gian kh&#244;ng h&#7907;p l&#7879; (${qDur} ph&#250;t)`);
       }
     }
 
@@ -1492,6 +1548,8 @@ function applyUrlParameters() {
             else if (countInt === 50) dDur.value = '60';
           }
         }
+      } else {
+        appliedInfo.push(`&#9888;&#65039; S&#7889; l&#432;&#7907;ng c&#226;u kh&#244;ng h&#7907;p l&#7879; (${qCount} c&#226;u)`);
       }
     }
 
@@ -1507,6 +1565,8 @@ function applyUrlParameters() {
         if (targetMode === 'mode-b') {
           highlightSkillCardsInModeB(matchedSkill);
         }
+      } else {
+        appliedInfo.push(`&#9888;&#65039; K&#7929; n&#259;ng kh&#244;ng h&#7907;p l&#7879; (${qSkill})`);
       }
     }
 
@@ -1692,6 +1752,10 @@ function closeListeningModal() {
 // SESSION RUNNER (MODE A)
 // =========================================================================
 function launchSession(questions, mode) {
+  stopActiveTimer();
+  if (typeof timedState !== 'undefined' && timedState) {
+    timedState.isSubmitted = true;
+  }
   if (!questions || questions.length === 0) {
     alert('Kh&#244;ng t&#236;m th&#7845;y c&#226;u h&#7887;i ph&#249; h&#7907;p.');
     return;
@@ -2033,10 +2097,16 @@ function startFullMockExam(mockId) {
 
   // Safely stop any previous timer before creating new mock session
   stopActiveTimer();
+  if (typeof timedState !== 'undefined' && timedState) {
+    timedState.isSubmitted = true;
+  }
 
   const items = mockData.sections[0].items;
   const durMin = mockData.sections[0].durationMinutes || 105;
-  const mySessionId = `${mockId}_${Date.now().toString(36).toUpperCase()}_${Math.random().toString(36).slice(2, 6)}`;
+  const totalSec = durMin * 60;
+  const now = Date.now();
+  const deadlineTime = now + (totalSec * 1000);
+  const mySessionId = `${mockId}_${now.toString(36).toUpperCase()}_${Math.random().toString(36).slice(2, 6)}`;
 
   timedState = {
     sessionId: mySessionId,
@@ -2044,9 +2114,10 @@ function startFullMockExam(mockId) {
     questions: items,
     currentIndex: 0,
     userAnswers: {},
-    totalSec: durMin * 60,
-    remainSec: durMin * 60,
-    startTime: Date.now(),
+    totalSec: totalSec,
+    remainSec: totalSec,
+    startTime: now,
+    deadlineTime: deadlineTime,
     timerInterval: null,
     mockMeta: {
       isMock: true,
@@ -2080,6 +2151,7 @@ let timedState = {
   totalSec: 0,
   remainSec: 0,
   startTime: 0,
+  deadlineTime: 0,
   mockMeta: null
 };
 
@@ -2091,27 +2163,43 @@ function startTimedSession() {
 
   // Safely stop any previous timer before creating new session
   stopActiveTimer();
+  if (typeof timedState !== 'undefined' && timedState) {
+    timedState.isSubmitted = true;
+  }
 
-  const level = document.getElementById('d-level').value;
-  const durMin = parseInt(document.getElementById('d-duration').value, 10);
+  const levelSelect = document.getElementById('d-level');
+  const durSelect = document.getElementById('d-duration');
+  const level = levelSelect ? levelSelect.value : 'N2';
+  const durMin = parseInt(durSelect ? durSelect.value : '30', 10);
+
   let qCount = 30;
   if (durMin === 15) qCount = 15;
   else if (durMin === 30 || durMin === 35) qCount = 30;
   else if (durMin === 60) qCount = 50;
 
+  // Strict level filtering: NEVER silently substitute another JLPT level!
   let pool = bank.filter(q => {
     if (q.exposureEligible === false) return false;
     if (level === 'MIXED') return ['N2', 'N3'].includes(q.level);
     return q.level === level;
   });
 
-  if (pool.length < qCount) {
-    pool = bank.filter(q => q.exposureEligible !== false);
+  if (pool.length === 0) {
+    alert(`Kh&#244;ng t&#236;m th&#7845;y c&#226;u h&#7887;i kh&#7843; d&#7909;ng cho c&#7845;p &#273;&#7897; ${level}. Vui l&#242;ng ch&#7885;n c&#7845;p &#273;&#7897; kh&#225;c.`);
+    return;
   }
+  if (pool.length < qCount) {
+    console.warn(`Ch&#7881; c&#243; ${pool.length} c&#226;u h&#7887;i kh&#7843; d&#7909;ng cho c&#7845;p &#273;&#7897; ${level}. Gi&#7919; nguy&#234;n c&#7845;p &#273;&#7897; v&#224; l&#224;m ${pool.length} c&#226;u thay v&#236; tr&#7897;n c&#7845;p &#273;&#7897; kh&#225;c.`);
+    qCount = pool.length;
+  }
+
   pool.sort(() => Math.random() - 0.5);
   const selected = pool.slice(0, qCount);
 
-  const mySessionId = `TIMED_${Date.now().toString(36).toUpperCase()}_${Math.random().toString(36).slice(2, 6)}`;
+  const totalSec = durMin * 60;
+  const now = Date.now();
+  const deadlineTime = now + (totalSec * 1000);
+  const mySessionId = `TIMED_${now.toString(36).toUpperCase()}_${Math.random().toString(36).slice(2, 6)}`;
 
   timedState = {
     sessionId: mySessionId,
@@ -2119,9 +2207,10 @@ function startTimedSession() {
     questions: selected,
     currentIndex: 0,
     userAnswers: {},
-    totalSec: durMin * 60,
-    remainSec: durMin * 60,
-    startTime: Date.now(),
+    totalSec: totalSec,
+    remainSec: totalSec,
+    startTime: now,
+    deadlineTime: deadlineTime,
     timerInterval: null,
     mockMeta: null
   };
@@ -2135,18 +2224,46 @@ function startTimedSession() {
   startTimedTimer();
 }
 
-function startTimedTimer() {
-  stopActiveTimer();
-  const currentSessionId = timedState.sessionId;
+function updateTimedCountdown() {
+  if (!timedState || timedState.isSubmitted || !timedState.deadlineTime) return;
+
+  const now = Date.now();
+  const remainMs = timedState.deadlineTime - now;
+  const remainSec = Math.max(0, Math.ceil(remainMs / 1000));
+  timedState.remainSec = remainSec;
+
   const timerBox = document.getElementById('d-timer-box');
 
-  // Immediately display the starting time
-  const initM = Math.floor(timedState.remainSec / 60);
-  const initS = timedState.remainSec % 60;
-  if (timerBox) {
-    timerBox.innerText = `&#9201;&#65039; ${initM.toString().padStart(2, '0')}:${initS.toString().padStart(2, '0')}`;
-    timerBox.classList.remove('urgent');
+  if (remainMs <= 0) {
+    stopActiveTimer();
+    if (timerBox) {
+      timerBox.innerText = '&#9201;&#65039; 00:00';
+      timerBox.classList.add('urgent');
+    }
+    alert('H&#7871;t gi&#7901; l&#224;m b&#224;i! H&#7879; th&#7889;ng &#273;ang t&#7921; &#273;&#7897;ng n&#7897;p b&#224;i c&#7911;a b&#7841;n.');
+    submitTimedSession(false);
+    return;
   }
+
+  const m = Math.floor(remainSec / 60);
+  const s = remainSec % 60;
+  if (timerBox) {
+    timerBox.innerText = `&#9201;&#65039; ${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
+    if (remainSec < 120) {
+      timerBox.classList.add('urgent');
+    } else {
+      timerBox.classList.remove('urgent');
+    }
+  }
+}
+
+function startTimedTimer() {
+  stopActiveTimer();
+  if (!timedState || timedState.isSubmitted) return;
+  const currentSessionId = timedState.sessionId;
+
+  // Immediately render based on current deadline
+  updateTimedCountdown();
 
   globalTimerInterval = setInterval(() => {
     // Stale callback guard: ignore if session changed or was already submitted
@@ -2154,29 +2271,18 @@ function startTimedTimer() {
       stopActiveTimer();
       return;
     }
-
-    timedState.remainSec--;
-    if (timedState.remainSec <= 0) {
-      stopActiveTimer();
-      alert('H&#7871;t gi&#7901; l&#224;m b&#224;i! H&#7879; th&#7889;ng &#273;ang t&#7921; &#273;&#7897;ng n&#7897;p b&#224;i c&#7911;a b&#7841;n.');
-      submitTimedSession(false);
-      return;
-    }
-
-    const m = Math.floor(timedState.remainSec / 60);
-    const s = timedState.remainSec % 60;
-    if (timerBox) {
-      timerBox.innerText = `&#9201;&#65039; ${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
-      if (timedState.remainSec < 120) {
-        timerBox.classList.add('urgent');
-      } else {
-        timerBox.classList.remove('urgent');
-      }
-    }
+    updateTimedCountdown();
   }, 1000);
 
   timedState.timerInterval = globalTimerInterval;
 }
+
+// Background tab switching & throttling listener
+document.addEventListener('visibilitychange', () => {
+  if (!document.hidden && typeof timedState !== 'undefined' && timedState && !timedState.isSubmitted && timedState.deadlineTime) {
+    updateTimedCountdown();
+  }
+});
 
 function renderTimedPalette() {
   const container = document.getElementById('d-palette');
@@ -2384,6 +2490,9 @@ function submitTimedSession(confirmUser) {
 
 function resetTimedToConfig() {
   stopActiveTimer();
+  if (typeof timedState !== 'undefined' && timedState) {
+    timedState.isSubmitted = true;
+  }
   document.getElementById('d-arena').style.display = 'none';
   document.getElementById('d-summary').style.display = 'none';
   document.getElementById('d-config').style.display = 'block';
