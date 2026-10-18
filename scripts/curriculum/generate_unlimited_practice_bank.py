@@ -195,7 +195,7 @@ def compile_and_validate_bank():
 
     # Build Bank Metadata
     bank_payload = {
-        "engineVersion": "2.0.0-unlimited",
+        "engineVersion": "2.1.0-audited",
         "description": "JP-STUDY Large-Scale Dynamic Practice Engine Question Bank",
         "primaryTarget": "JLPT N2 December 2026",
         "totalQuestions": len(all_questions),
@@ -212,7 +212,10 @@ def compile_and_validate_bank():
             "quarantinedQuestions": quarantined_count,
             "readingPassages": len(reading_passages),
             "listeningTracks": len(listening_tracks),
-            "allQAPassed": True
+            "qaVerifiedQuestions": status_counts.get("QA_VERIFIED", 0),
+            "provisionalQuestions": status_counts.get("PROVISIONAL_PRACTICE", 0),
+            "canonicalN4QAPassed": True,
+            "allQAPassed": False
         },
         "questions": all_questions
     }

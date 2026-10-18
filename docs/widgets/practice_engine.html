@@ -1039,13 +1039,13 @@ body {
   <div id="mode-f" class="view-panel">
     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; flex-wrap: wrap; gap: 10px;">
       <div>
-        <h3 style="font-size: 1.1rem; color: #1e293b;">📊 Nhật ký phiên học tập & Bảng điểm</h3>
-        <p style="font-size: 0.85rem; color: var(--text-muted);">Toàn bộ phiên luyện tập được tự động ghi nhận tại trình duyệt và có thể trích xuất ra JSON/CSV hoặc đồng bộ Google Sheets.</p>
+        <h3 style="font-size: 1.1rem; color: #1e293b;">📊 Nhật ký phiên học tập & Bảng điểm (Lưu trữ cục bộ)</h3>
+        <p style="font-size: 0.85rem; color: var(--text-muted);">Toàn bộ phiên luyện tập được tự động lưu trữ trên trình duyệt (LocalStorage). Bạn có thể tải tệp JSON/CSV để sao lưu hoặc chuyển đổi thiết bị.</p>
       </div>
       <div style="display:flex; gap:8px;">
         <button type="button" class="btn-secondary" onclick="exportSessionsJson()">📥 Tải JSON</button>
         <button type="button" class="btn-secondary" onclick="exportSessionsCsv()">📊 Tải CSV</button>
-        <button type="button" class="btn-success" onclick="openSheetsSyncModal()">☁️ Đồng bộ Sheets</button>
+        <button type="button" class="btn-secondary" onclick="openSheetsSyncModal()">📋 Sao chép JSON</button>
       </div>
     </div>
 
@@ -1103,18 +1103,18 @@ body {
   </div>
 </div>
 
-<!-- SHEETS SYNC MODAL -->
+<!-- JSON PAYLOAD MODAL -->
 <div id="modal-sheets" class="modal-overlay">
   <div class="modal-box">
     <div class="modal-title">
-      <span>☁️ Đồng bộ tiến độ lên Google Sheets</span>
+      <span>📋 Dữ liệu phiên học tập (JSON Payload)</span>
     </div>
     <div class="modal-body">
-      Dữ liệu phiên học của bạn đã được đóng gói chuẩn cấu trúc. Bạn có thể sao chép dữ liệu bên dưới để dán vào trang tính <strong>JP_STUDY_HOC_HOM_NAY</strong> hoặc tải tệp JSON/CSV để lưu trữ di động.
+      Dữ liệu phiên học của bạn đã được đóng gói chuẩn cấu trúc JSON. Bạn có thể sao chép để sao lưu cá nhân hoặc đối chiếu thủ công với Google Sheets:
       <textarea id="sheets-sync-payload" readonly style="width:100%; height:120px; font-family:monospace; font-size:0.78rem; margin-top:10px; padding:8px; border:1px solid #cbd5e1; border-radius:6px;"></textarea>
     </div>
     <div class="modal-actions">
-      <button type="button" class="btn-primary" onclick="copySheetsPayload()">📋 Sao chép dữ liệu</button>
+      <button type="button" class="btn-primary" onclick="copySheetsPayload()">📋 Sao chép vào bộ nhớ tạm</button>
       <button type="button" class="btn-secondary" onclick="closeSheetsModal()">Đóng</button>
     </div>
   </div>
@@ -1253,23 +1253,32 @@ function ensureBankLoaded(onComplete) {
     }
   };
   cdnScript.onerror = () => {
-    // Tier 2: GitHub Raw JSON Fetch
-    fetch('https://raw.githubusercontent.com/Phuchello/JP-STUDY/main/curriculum/PRACTICE_ENGINE_BANK.json')
-      .then(r => r.json())
-      .then(data => {
-        finishLoading(data);
-      })
-      .catch(err => {
-        // Tier 3: Local relative fetch
-        fetch('practice_bank.json')
-          .then(r => r.json())
-          .then(data => finishLoading(data))
-          .catch(e => {
-            isBankLoading = false;
-            console.error('All data loading strategies failed:', e);
-            if (badge) badge.innerText = 'Lỗi tải ngân hàng câu hỏi. Vui lòng tải lại trang.';
-          });
-      });
+    // Tier 2: GitHub Pages
+    const ghPagesScript = document.createElement('script');
+    ghPagesScript.src = 'https://phuchello.github.io/JP-STUDY/widgets/practice_bank.js';
+    ghPagesScript.onload = () => {
+      if (window.JP_PRACTICE_BANK && window.JP_PRACTICE_BANK.questions) {
+        finishLoading(window.JP_PRACTICE_BANK);
+      }
+    };
+    ghPagesScript.onerror = () => {
+      // Tier 3: GitHub Raw JSON Fetch
+      fetch('https://raw.githubusercontent.com/Phuchello/JP-STUDY/main/curriculum/PRACTICE_ENGINE_BANK.json')
+        .then(r => r.json())
+        .then(data => finishLoading(data))
+        .catch(err => {
+          // Tier 4: Local relative fetch
+          fetch('practice_bank.json')
+            .then(r => r.json())
+            .then(data => finishLoading(data))
+            .catch(e => {
+              isBankLoading = false;
+              console.error('All data loading strategies failed:', e);
+              if (badge) badge.innerText = 'Lỗi kết nối ngân hàng câu hỏi. Vui lòng thử lại sau.';
+            });
+        });
+    };
+    document.head.appendChild(ghPagesScript);
   };
   document.head.appendChild(cdnScript);
 }
@@ -1291,11 +1300,12 @@ window.addEventListener('DOMContentLoaded', () => {
 function initBankStats() {
   const m = (window.JP_PRACTICE_BANK && window.JP_PRACTICE_BANK.metrics) ? window.JP_PRACTICE_BANK.metrics : {};
   const activeCount = m.activeQuestions || 720;
-  const n2Count = m.n2Questions || 447;
-  const n3Count = m.n3Questions || 274;
+  const n2Active = (m.n2Questions || 447) - 25;
+  const n3Active = (m.n3Questions || 274) - 16;
+  const n4Active = m.n4Questions || 40;
   const badge = document.getElementById('stat-badge');
   if (badge) {
-    badge.innerText = `Sẵn sàng: ${activeCount} câu luyện tập (${n2Count - 25} N2 · ${n3Count - 16} N3 · 40 N4) | 41 nghe đang chuẩn hóa`;
+    badge.innerText = `Sẵn sàng: ${activeCount} câu luyện tập (${n2Active} N2 · ${n3Active} N3 · ${n4Active} N4) | 41 nghe đang chuẩn hóa`;
   }
 }
 

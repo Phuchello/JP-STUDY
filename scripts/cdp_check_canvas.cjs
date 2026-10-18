@@ -1,0 +1,80 @@
+const fs = require('fs');
+const path = require('path');
+const devToolsPort = '9222';
+const devToolsActivePortFile = path.join(process.env.LOCALAPPDATA, 'Google/Chrome/User Data/DevToolsActivePort');
+const browserWsPath = fs.readFileSync(devToolsActivePortFile, 'utf8').split('\n')[1].trim();
+
+function sendCommand(ws, method, params = {}, sessionId = null) {
+  return new Promise((resolve, reject) => {
+    const id = Math.floor(Math.random() * 1000000);
+    function handler(event) {
+      const msg = JSON.parse(event.data);
+      if (msg.id === id) {
+        ws.removeEventListener('message', handler);
+        if (msg.error) reject(msg.error);
+        else resolve(msg.result);
+      }
+    }
+    ws.addEventListener('message', handler);
+    const payload = { id, method, params };
+    if (sessionId) payload.sessionId = sessionId;
+    ws.send(JSON.stringify(payload));
+  });
+}
+
+async function run() {
+  const browserWs = new WebSocket('ws://127.0.0.1:' + devToolsPort + browserWsPath);
+  await new Promise(r => browserWs.onopen = r);
+  const targets = await sendCommand(browserWs, 'Target.getTargets');
+  let editorTarget = targets.targetInfos.find(t => t.url && t.url.includes('sites.google.com/d/'));
+  const attachRes = await sendCommand(browserWs, 'Target.attachToTarget', { targetId: editorTarget.targetId, flatten: true });
+  const sessionId = attachRes.sessionId;
+
+  const canvasElements = await sendCommand(browserWs, 'Runtime.evaluate', {
+    expression: `
+      (() => {
+        const iframes = Array.from(document.querySelectorAll('iframe')).map(f => {
+          const r = f.getBoundingClientRect();
+          return {
+            id: f.id,
+            src: f.src,
+            top: r.top,
+            left: r.left,
+            width: r.width,
+            height: r.height,
+            visible: r.width > 0 && r.height > 0
+          };
+        });
+        return { iframes };
+      })()
+    `,
+    returnByValue: true
+  }, sessionId);
+
+  console.log('Canvas iframes details:', JSON.stringify(canvasElements.result.value, null, 2));
+
+  // Let's scroll the main canvas down 500px and screenshot
+  await sendCommand(browserWs, 'Runtime.evaluate', {
+    expression: `
+      (() => {
+        const scrollable = document.querySelector('[role="main"]') || document.querySelector('.ps-container') || window;
+        if (scrollable.scrollBy) {
+          scrollable.scrollBy(0, 500);
+        } else {
+          window.scrollBy(0, 500);
+        }
+      })()
+    `
+  }, sessionId);
+
+  await new Promise(r => setTimeout(r, 1000));
+
+  const shot = await sendCommand(browserWs, 'Page.captureScreenshot', { format: 'png' }, sessionId);
+  const brainDir = path.resolve(process.env.USERPROFILE || process.env.HOME, '.gemini/antigravity/brain/07f27e52-1325-4adc-9ec0-5c8e7670a48d/screenshots');
+  const shotPath = path.join(brainDir, 'editor_kho_de_scrolled.png');
+  fs.writeFileSync(shotPath, Buffer.from(shot.data, 'base64'));
+  console.log('Saved screenshot to:', shotPath);
+
+  browserWs.close();
+}
+run();

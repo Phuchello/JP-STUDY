@@ -1039,13 +1039,13 @@ body {
   <div id="mode-f" class="view-panel">
     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; flex-wrap: wrap; gap: 10px;">
       <div>
-        <h3 style="font-size: 1.1rem; color: #1e293b;">&#128202; Nh&#7853;t k&#253; phi&#234;n h&#7885;c t&#7853;p & B&#7843;ng &#273;i&#7875;m</h3>
-        <p style="font-size: 0.85rem; color: var(--text-muted);">To&#224;n b&#7897; phi&#234;n luy&#7879;n t&#7853;p &#273;&#432;&#7907;c t&#7921; &#273;&#7897;ng ghi nh&#7853;n t&#7841;i tr&#236;nh duy&#7879;t v&#224; c&#243; th&#7875; tr&#237;ch xu&#7845;t ra JSON/CSV ho&#7863;c &#273;&#7891;ng b&#7897; Google Sheets.</p>
+        <h3 style="font-size: 1.1rem; color: #1e293b;">&#128202; Nh&#7853;t k&#253; phi&#234;n h&#7885;c t&#7853;p & B&#7843;ng &#273;i&#7875;m (L&#432;u tr&#7919; c&#7909;c b&#7897;)</h3>
+        <p style="font-size: 0.85rem; color: var(--text-muted);">To&#224;n b&#7897; phi&#234;n luy&#7879;n t&#7853;p &#273;&#432;&#7907;c t&#7921; &#273;&#7897;ng l&#432;u tr&#7919; tr&#234;n tr&#236;nh duy&#7879;t (LocalStorage). B&#7841;n c&#243; th&#7875; t&#7843;i t&#7879;p JSON/CSV &#273;&#7875; sao l&#432;u ho&#7863;c chuy&#7875;n &#273;&#7893;i thi&#7871;t b&#7883;.</p>
       </div>
       <div style="display:flex; gap:8px;">
         <button type="button" class="btn-secondary" onclick="exportSessionsJson()">&#128229; T&#7843;i JSON</button>
         <button type="button" class="btn-secondary" onclick="exportSessionsCsv()">&#128202; T&#7843;i CSV</button>
-        <button type="button" class="btn-success" onclick="openSheetsSyncModal()">&#9729;&#65039; &#272;&#7891;ng b&#7897; Sheets</button>
+        <button type="button" class="btn-secondary" onclick="openSheetsSyncModal()">&#128203; Sao ch&#233;p JSON</button>
       </div>
     </div>
 
@@ -1103,18 +1103,18 @@ body {
   </div>
 </div>
 
-<!-- SHEETS SYNC MODAL -->
+<!-- JSON PAYLOAD MODAL -->
 <div id="modal-sheets" class="modal-overlay">
   <div class="modal-box">
     <div class="modal-title">
-      <span>&#9729;&#65039; &#272;&#7891;ng b&#7897; ti&#7871;n &#273;&#7897; l&#234;n Google Sheets</span>
+      <span>&#128203; D&#7919; li&#7879;u phi&#234;n h&#7885;c t&#7853;p (JSON Payload)</span>
     </div>
     <div class="modal-body">
-      D&#7919; li&#7879;u phi&#234;n h&#7885;c c&#7911;a b&#7841;n &#273;&#227; &#273;&#432;&#7907;c &#273;&#243;ng g&#243;i chu&#7849;n c&#7845;u tr&#250;c. B&#7841;n c&#243; th&#7875; sao ch&#233;p d&#7919; li&#7879;u b&#234;n d&#432;&#7899;i &#273;&#7875; d&#225;n v&#224;o trang t&#237;nh <strong>JP_STUDY_HOC_HOM_NAY</strong> ho&#7863;c t&#7843;i t&#7879;p JSON/CSV &#273;&#7875; l&#432;u tr&#7919; di &#273;&#7897;ng.
+      D&#7919; li&#7879;u phi&#234;n h&#7885;c c&#7911;a b&#7841;n &#273;&#227; &#273;&#432;&#7907;c &#273;&#243;ng g&#243;i chu&#7849;n c&#7845;u tr&#250;c JSON. B&#7841;n c&#243; th&#7875; sao ch&#233;p &#273;&#7875; sao l&#432;u c&#225; nh&#226;n ho&#7863;c &#273;&#7889;i chi&#7871;u th&#7911; c&#244;ng v&#7899;i Google Sheets:
       <textarea id="sheets-sync-payload" readonly style="width:100%; height:120px; font-family:monospace; font-size:0.78rem; margin-top:10px; padding:8px; border:1px solid #cbd5e1; border-radius:6px;"></textarea>
     </div>
     <div class="modal-actions">
-      <button type="button" class="btn-primary" onclick="copySheetsPayload()">&#128203; Sao ch&#233;p d&#7919; li&#7879;u</button>
+      <button type="button" class="btn-primary" onclick="copySheetsPayload()">&#128203; Sao ch&#233;p v&#224;o b&#7897; nh&#7899; t&#7841;m</button>
       <button type="button" class="btn-secondary" onclick="closeSheetsModal()">&#272;&#243;ng</button>
     </div>
   </div>
@@ -1253,23 +1253,32 @@ function ensureBankLoaded(onComplete) {
     }
   };
   cdnScript.onerror = () => {
-    // Tier 2: GitHub Raw JSON Fetch
-    fetch('https://raw.githubusercontent.com/Phuchello/JP-STUDY/main/curriculum/PRACTICE_ENGINE_BANK.json')
-      .then(r => r.json())
-      .then(data => {
-        finishLoading(data);
-      })
-      .catch(err => {
-        // Tier 3: Local relative fetch
-        fetch('practice_bank.json')
-          .then(r => r.json())
-          .then(data => finishLoading(data))
-          .catch(e => {
-            isBankLoading = false;
-            console.error('All data loading strategies failed:', e);
-            if (badge) badge.innerText = 'L&#7895;i t&#7843;i ng&#226;n h&#224;ng c&#226;u h&#7887;i. Vui l&#242;ng t&#7843;i l&#7841;i trang.';
-          });
-      });
+    // Tier 2: GitHub Pages
+    const ghPagesScript = document.createElement('script');
+    ghPagesScript.src = 'https://phuchello.github.io/JP-STUDY/widgets/practice_bank.js';
+    ghPagesScript.onload = () => {
+      if (window.JP_PRACTICE_BANK && window.JP_PRACTICE_BANK.questions) {
+        finishLoading(window.JP_PRACTICE_BANK);
+      }
+    };
+    ghPagesScript.onerror = () => {
+      // Tier 3: GitHub Raw JSON Fetch
+      fetch('https://raw.githubusercontent.com/Phuchello/JP-STUDY/main/curriculum/PRACTICE_ENGINE_BANK.json')
+        .then(r => r.json())
+        .then(data => finishLoading(data))
+        .catch(err => {
+          // Tier 4: Local relative fetch
+          fetch('practice_bank.json')
+            .then(r => r.json())
+            .then(data => finishLoading(data))
+            .catch(e => {
+              isBankLoading = false;
+              console.error('All data loading strategies failed:', e);
+              if (badge) badge.innerText = 'L&#7895;i k&#7871;t n&#7889;i ng&#226;n h&#224;ng c&#226;u h&#7887;i. Vui l&#242;ng th&#7917; l&#7841;i sau.';
+            });
+        });
+    };
+    document.head.appendChild(ghPagesScript);
   };
   document.head.appendChild(cdnScript);
 }
@@ -1291,11 +1300,12 @@ window.addEventListener('DOMContentLoaded', () => {
 function initBankStats() {
   const m = (window.JP_PRACTICE_BANK && window.JP_PRACTICE_BANK.metrics) ? window.JP_PRACTICE_BANK.metrics : {};
   const activeCount = m.activeQuestions || 720;
-  const n2Count = m.n2Questions || 447;
-  const n3Count = m.n3Questions || 274;
+  const n2Active = (m.n2Questions || 447) - 25;
+  const n3Active = (m.n3Questions || 274) - 16;
+  const n4Active = m.n4Questions || 40;
   const badge = document.getElementById('stat-badge');
   if (badge) {
-    badge.innerText = `S&#7861;n s&#224;ng: ${activeCount} c&#226;u luy&#7879;n t&#7853;p (${n2Count - 25} N2 &#183; ${n3Count - 16} N3 &#183; 40 N4) | 41 nghe &#273;ang chu&#7849;n h&#243;a`;
+    badge.innerText = `S&#7861;n s&#224;ng: ${activeCount} c&#226;u luy&#7879;n t&#7853;p (${n2Active} N2 &#183; ${n3Active} N3 &#183; ${n4Active} N4) | 41 nghe &#273;ang chu&#7849;n h&#243;a`;
   }
 }
 

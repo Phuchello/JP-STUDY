@@ -1,5 +1,5 @@
 {
-  "engineVersion": "2.0.0-unlimited",
+  "engineVersion": "2.1.0-audited",
   "description": "JP-STUDY Large-Scale Dynamic Practice Engine Question Bank",
   "primaryTarget": "JLPT N2 December 2026",
   "totalQuestions": 761,
@@ -29,7 +29,10 @@
     "quarantinedQuestions": 41,
     "readingPassages": 32,
     "listeningTracks": 41,
-    "allQAPassed": true
+    "qaVerifiedQuestions": 40,
+    "provisionalQuestions": 680,
+    "canonicalN4QAPassed": true,
+    "allQAPassed": false
   },
   "questions": [
     {

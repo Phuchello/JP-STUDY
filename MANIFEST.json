@@ -1,8 +1,8 @@
 {
   "snapshotDate": "2026-10-15",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
-  "fileCountExcludingManifest": 270,
-  "totalBytesExcludingManifest": 9183223,
+  "fileCountExcludingManifest": 301,
+  "totalBytesExcludingManifest": 9268078,
   "files": [
     {
       "path": ".gitattributes",
@@ -492,8 +492,8 @@
     },
     {
       "path": "curriculum/PRACTICE_ENGINE_BANK.json",
-      "bytes": 1353874,
-      "sha256": "8d0d3211688c86956e8b43bba869ad40f711e6898d02e40b371fa2ec1fc3f91c",
+      "bytes": 1353973,
+      "sha256": "96a2e66a09e10303f6f406125a701c9ad707bdcbf9e0ca728d71b1a435773059",
       "status": "QA_PENDING"
     },
     {
@@ -725,27 +725,33 @@
       "status": "VERIFIED"
     },
     {
+      "path": "docs/index.html",
+      "bytes": 1393,
+      "sha256": "40efbbd54d676c8a39de55e670874f30c5dfe449199bf376dd6e282a1ad397d0",
+      "status": "QA_PENDING"
+    },
+    {
       "path": "docs/widgets/home_quick_actions.html",
-      "bytes": 5819,
-      "sha256": "0b29342a59898c1946cfe2e730f977ac7ed4857b9ab232602f80b5bfb13fa60c",
+      "bytes": 6377,
+      "sha256": "e227d25c338b4566c323b9e3f1d51814a0a870788220b4822e3177dcd2fe7a74",
       "status": "QA_PENDING"
     },
     {
       "path": "docs/widgets/home_quick_actions_ncr.html",
-      "bytes": 6422,
-      "sha256": "58ef7803c856c78e910a3ce62c892b5ddea597b08f91f9ed6e341f5dd9f25ea5",
+      "bytes": 7103,
+      "sha256": "b59cd24addfd20fc3da58235161cb5bf327e48595e88da90e57bdbf5b4907ab5",
       "status": "QA_PENDING"
     },
     {
       "path": "docs/widgets/jlpt_exam_catalog.html",
-      "bytes": 19594,
-      "sha256": "c41f54f5c6258eb7974b21734ecd868b043490aad5377b1769c766b278d15cc4",
+      "bytes": 20856,
+      "sha256": "1aa026819191e9008c3231f31d6082dfe3843bf8ec6508ee5e11f739b030c9aa",
       "status": "QA_PENDING"
     },
     {
       "path": "docs/widgets/jlpt_exam_catalog_ncr.html",
-      "bytes": 21585,
-      "sha256": "966dce5be7b03c213c9c66d74e1c7387fa40b4a2dd093f5f48cecce41c88b967",
+      "bytes": 23044,
+      "sha256": "db03ac1d44327d548c09444cd898fc708a2335cb87ebd890a9ed798fbe636dfb",
       "status": "QA_PENDING"
     },
     {
@@ -762,20 +768,20 @@
     },
     {
       "path": "docs/widgets/practice_bank.js",
-      "bytes": 1080992,
-      "sha256": "e78f1034c0261647bb68de7a9d211c17148aa7d2a54140eb30b31051f949b5ad",
+      "bytes": 1081076,
+      "sha256": "f4241e8b5409481365b486910143393de49a8ca90648c9cc4512cdff44e826f7",
       "status": "QA_PENDING"
     },
     {
       "path": "docs/widgets/practice_engine.html",
-      "bytes": 77421,
-      "sha256": "061f66054c4905a430be821c3846524e560fae8532fa7e2340d94378d8a1a6a2",
+      "bytes": 77927,
+      "sha256": "a6f754add9f21c5b4f70b98f0e0b4d2689fa2f73d02211ea27b811a996e9b2b8",
       "status": "QA_PENDING"
     },
     {
       "path": "docs/widgets/practice_engine_ncr.html",
-      "bytes": 86567,
-      "sha256": "c9ac347a0fcf690985ba31a8942f78b59797436eccdda5e93eff25d29c0737bf",
+      "bytes": 87083,
+      "sha256": "26532299f2a301601b2ff7609dbaf3fbde24a3d434401b2f52280f8ddcca0dc7",
       "status": "QA_PENDING"
     },
     {
@@ -852,8 +858,8 @@
     },
     {
       "path": "FILE_INDEX.md",
-      "bytes": 26513,
-      "sha256": "660b05997bd0bad07e883afbe9cb01316f0c130dac226ae7de602bf3fb9b827f",
+      "bytes": 29135,
+      "sha256": "6124b616eb52fb19400336ce6daefaa24b221435bc5246d0c9810a18891a7317",
       "status": "VERIFIED"
     },
     {
@@ -1355,9 +1361,183 @@
       "status": "VERIFIED"
     },
     {
+      "path": "scripts/cdp_check_canvas.cjs",
+      "bytes": 3004,
+      "sha256": "f6f7ef1bda2085e2c1e575e53b02cad4f19a8e95191883c300cb6b89d45563d9",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "scripts/cdp_check_published_bank.cjs",
+      "bytes": 3280,
+      "sha256": "005eec57a27ef621d3c37e7dd1074d6d32fad9c2b0e14a8e377eafb083bba9fc",
+      "status": "QA_PENDING"
+    },
+    {
       "path": "scripts/cdp_check_sites.cjs",
       "bytes": 2687,
       "sha256": "8b871ebc6fcd56fb81eb26cb214421906f49ba79032479a993918d577a60e106",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "scripts/cdp_click_kho_de_coord.cjs",
+      "bytes": 2341,
+      "sha256": "95ea707a22c15f6ce89b7e7eb70011c8e46167deefb8ee204e5c6cd9b3011fee",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "scripts/cdp_click_kho_de_link.cjs",
+      "bytes": 2426,
+      "sha256": "47ca35a8da7e2de1a82e8c45192d426816028d99da095c050cd5a814be27ee9d",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "scripts/cdp_editor_click_kho_de.cjs",
+      "bytes": 3264,
+      "sha256": "fd1fcf17e1122b5574d4ed413f515c70334b649283bcd7be3b62d9d7341bc3b6",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "scripts/cdp_editor_click_pub_safe.cjs",
+      "bytes": 3407,
+      "sha256": "1b2f43986bbf50df6383cb1dfa5319765a87972c3a656265f02bb2cb6a9ef50a",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "scripts/cdp_editor_click_screenshot.cjs",
+      "bytes": 2361,
+      "sha256": "e9c255d35a7f0e6de060dea366f442c8cb1442c88aa0d25509a29f7a6ea44012",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "scripts/cdp_editor_confirm_publish.cjs",
+      "bytes": 3525,
+      "sha256": "78b421753e5577bc7dad21f173210fb6b1373a893e9cf1cb9d7a9997a12a746f",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "scripts/cdp_editor_double_click.cjs",
+      "bytes": 3093,
+      "sha256": "e876b450acdbc95f783851f509f5862f4f95f0aeb41a0e35ba53e1fbcbe7095a",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "scripts/cdp_editor_inspect_toolbar.cjs",
+      "bytes": 2707,
+      "sha256": "ae13dec14ae29f03a6b5153fd6467a1dd6866d638ba860d3968208216dc87360",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "scripts/cdp_editor_kho_de_canvas.cjs",
+      "bytes": 3109,
+      "sha256": "b60a5295dc10408a24f1b0dd32b1ecd0984cec87e2894aae3ffc8533a606b600",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "scripts/cdp_editor_pages.cjs",
+      "bytes": 3314,
+      "sha256": "c06fe44ef1a4b455b8d245fabd807dd9f3f9c389922ab53d4742b7e30c8407b4",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "scripts/cdp_editor_publish.cjs",
+      "bytes": 3830,
+      "sha256": "0b71cfe22c5f6692a1dd432ac5e4a2bfb60a46888d8fc27135b8a6fc45e90d1e",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "scripts/cdp_editor_select_kho_de.cjs",
+      "bytes": 2630,
+      "sha256": "0ed17764e8eb17b2d7e425455a0e6ba614f06d0a4bede21b2be40d4d712d13b9",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "scripts/cdp_editor_view.cjs",
+      "bytes": 2143,
+      "sha256": "241e993cc6d4c7bd8469cd0f238c23be3fae7d3e93cbaaa7aadb5a7fa215da73",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "scripts/cdp_find_kho_de.cjs",
+      "bytes": 1922,
+      "sha256": "d9b910ca3da4a5429d3c853cfcf1b9ab0c1357ac519afe4ebc4dc7b1c7331434",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "scripts/cdp_frame_tree.cjs",
+      "bytes": 2134,
+      "sha256": "8e8dcc526870d127152cc144d52c27e0f3b631a53904331953867ce80283f7b1",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "scripts/cdp_get_nav.cjs",
+      "bytes": 1549,
+      "sha256": "e5261b633e577f7f5049a7e15d7093ea4e507efebe943013fa84b47a7d95fd24",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "scripts/cdp_inspect_editor_state.cjs",
+      "bytes": 2360,
+      "sha256": "bdbef9d740111934651ec026fbfa4b50819a7617af1f5b8996cfa5750204db69",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "scripts/cdp_inspect_iframes.cjs",
+      "bytes": 2554,
+      "sha256": "7fe4d60aa14c6830eff1b615cbfc2d170248a079dc90148e59f4be7d49e6429f",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "scripts/cdp_inspect_kho_de_real.cjs",
+      "bytes": 3047,
+      "sha256": "22c6f39653e2a05c1225cdb7ab8ea2f6f2b36f4eeec23b7c0e102f85cd4e5aa9",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "scripts/cdp_inspect_published.cjs",
+      "bytes": 3288,
+      "sha256": "a0191a4483bbc0a1c995f96c9261261f77e225441557c4071fd907093caa963c",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "scripts/cdp_inspect_published_home.cjs",
+      "bytes": 2698,
+      "sha256": "5be20c60cd8f77ff1850e12d8834d76aeec3ffdc730afe25ab17909009bd99ef",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "scripts/cdp_list_pages.cjs",
+      "bytes": 864,
+      "sha256": "f2b9ed985a7a5e0756965f0b3cad095c0a891d4872ac9f96d964e0169026ba32",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "scripts/cdp_open_tabs.cjs",
+      "bytes": 1521,
+      "sha256": "79443cb28a9dcdf7a0028a57f3dc0784ba1f2d51b998eab502739e055680d1ae",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "scripts/cdp_reload_editor.cjs",
+      "bytes": 2267,
+      "sha256": "65da598811f94b2b8adff5e6b678905e057ba6d1a0d5673d0b617d688af413b4",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "scripts/cdp_reload_pub.cjs",
+      "bytes": 2299,
+      "sha256": "6b2377c2a159ee764c002e3186dc2b0e0be9b359e8c3cc14335c6545a3fafade",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "scripts/cdp_scroll_kho_de.cjs",
+      "bytes": 2156,
+      "sha256": "db6567ea7764305ae6a1f6cc5901b6602557cef7bb14316eb35924b1a3262dbb",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "scripts/cdp_snap_editor.cjs",
+      "bytes": 1415,
+      "sha256": "f9936b8ba1ddc2674ceadf8ac92fe52cf59fbd3a8303086fc1927c7f82eae427",
       "status": "QA_PENDING"
     },
     {
@@ -1470,8 +1650,8 @@
     },
     {
       "path": "scripts/curriculum/generate_unlimited_practice_bank.py",
-      "bytes": 9291,
-      "sha256": "8f239116a58c8573abc51dc6a8064fc0088c3fd950f1b2ed601ef8faad526a35",
+      "bytes": 9485,
+      "sha256": "8ae5ad5219c3468b7ac0c2a197bdb0ed11d4affaf3a4996987ee8e2266003af7",
       "status": "QA_PENDING"
     },
     {
@@ -1491,6 +1671,12 @@
       "bytes": 47215,
       "sha256": "c8258569020bc3e997ab6d4563afdb462b54c6d08e6f195cb92829c0e5cb2bae",
       "status": "VERIFIED"
+    },
+    {
+      "path": "scripts/curriculum/review_items.py",
+      "bytes": 973,
+      "sha256": "4245cf6294d6c9092b5bc85f17ae57ad47900eb181ba9b8ac91c1697472d0b05",
+      "status": "QA_PENDING"
     },
     {
       "path": "scripts/curriculum/show_stars.py",
