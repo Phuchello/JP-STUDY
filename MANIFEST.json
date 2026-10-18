@@ -2,7 +2,7 @@
   "snapshotDate": "2026-10-15",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
   "fileCountExcludingManifest": 302,
-  "totalBytesExcludingManifest": 9282108,
+  "totalBytesExcludingManifest": 9283561,
   "files": [
     {
       "path": ".gitattributes",
@@ -732,14 +732,14 @@
     },
     {
       "path": "docs/widgets/home_quick_actions.html",
-      "bytes": 6377,
-      "sha256": "e227d25c338b4566c323b9e3f1d51814a0a870788220b4822e3177dcd2fe7a74",
+      "bytes": 6577,
+      "sha256": "f3d903a6b819c89f46bbf2b5bd5842e40e313892e83df62a73224f7c8e9150db",
       "status": "QA_PENDING"
     },
     {
       "path": "docs/widgets/home_quick_actions_ncr.html",
-      "bytes": 7103,
-      "sha256": "b59cd24addfd20fc3da58235161cb5bf327e48595e88da90e57bdbf5b4907ab5",
+      "bytes": 7247,
+      "sha256": "d7a6084368e0cc09c8ef73fc191afbe793f0c2d63d44bfb82bf7fe1b0a486408",
       "status": "QA_PENDING"
     },
     {
@@ -774,14 +774,14 @@
     },
     {
       "path": "docs/widgets/practice_engine.html",
-      "bytes": 79098,
-      "sha256": "d59445649de9d402889de13b9944c9d59feebec734847a5255659171ac98e79c",
+      "bytes": 79646,
+      "sha256": "405d99e09a1bca9bd86336a1404f6bd6b5eae8c70fc89f9e377a9192155e36d3",
       "status": "QA_PENDING"
     },
     {
       "path": "docs/widgets/practice_engine_ncr.html",
-      "bytes": 88689,
-      "sha256": "2cee9f7ec6285dca2e33e161fd5e58c66a96275d2a1b23847d17b9ee779010f6",
+      "bytes": 89250,
+      "sha256": "f51fcc83b7ed1445a71db14bff989937f1d2666775401c58c5916653aa55af0a",
       "status": "QA_PENDING"
     },
     {

@@ -1301,6 +1301,19 @@ window.addEventListener('DOMContentLoaded', () => {
   }
   renderSRStats();
   renderSessionHistory();
+
+  try {
+    const params = new URLSearchParams(window.location.search);
+    const qLevel = params.get('level');
+    if (qLevel && ['N2', 'N3', 'N4', 'MIXED', 'ALL'].includes(qLevel.toUpperCase())) {
+      const lvlEl = document.getElementById('a-level');
+      if (lvlEl) lvlEl.value = qLevel.toUpperCase();
+    }
+    const qMode = params.get('mode');
+    if (qMode && ['mode-a', 'mode-b', 'mode-c', 'mode-d', 'mode-e', 'mode-f'].includes(qMode)) {
+      switchMode(qMode);
+    }
+  } catch (e) { console.error('Error parsing query params:', e); }
 });
 
 function initBankStats() {
