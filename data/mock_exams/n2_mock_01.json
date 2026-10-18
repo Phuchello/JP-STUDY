@@ -1,13 +1,13 @@
 {
   "examId": "N2-MOCK-01",
-  "title": "Đề thi thử JLPT N2 Thực chiến — Số 01 (Full Mock Exam #1)",
+  "title": "JLPT N2 Sectional Practice #01 — Kiến thức ngôn ngữ & Đọc hiểu",
   "level": "N2",
-  "status": "READY",
+  "status": "SECTIONAL_PRACTICE",
   "durationMinutes": 105,
   "totalQuestions": 75,
   "sections": [
     {
-      "sectionName": "言語知識（文字・語彙・文法）・読解",
+      "sectionName": "Phần 1: Kiến thức ngôn ngữ & Đọc hiểu (Language Knowledge & Reading)",
       "durationMinutes": 105,
       "itemCount": 75,
       "items": [
@@ -3241,40 +3241,19 @@
           "examQNum": 75,
           "mondaiTitle": "Mondai 14: 読解・情報検索 (Tra cứu thông tin)"
         }
-      ]
+      ],
+      "breakdown": {
+        "vocabulary": 32,
+        "grammar": 22,
+        "reading": 21
+      }
     },
     {
-      "sectionName": "聴解 (Nghe hiểu)",
+      "sectionName": "Phần 2: Nghe hiểu (Chokai) — Đang biên soạn",
       "durationMinutes": 50,
       "itemCount": 30,
-      "listeningRoomUrl": "https://sites.google.com/view/jp-study/ph%C3%B2ng-luy%E1%BB%87n-nghe",
-      "tracks": [
-        {
-          "mondai": "Mondai 1: 課題理解",
-          "audio": "https://www.jlpt.jp/samples/sample2018/mp3/N2Q1.mp3",
-          "items": 5
-        },
-        {
-          "mondai": "Mondai 2: ポイント理解",
-          "audio": "https://www.jlpt.jp/samples/sample2018/mp3/N2Q2.mp3",
-          "items": 6
-        },
-        {
-          "mondai": "Mondai 3: 概要理解",
-          "audio": "https://www.jlpt.jp/samples/sample2018/mp3/N2Q3.mp3",
-          "items": 5
-        },
-        {
-          "mondai": "Mondai 4: 即時応答",
-          "audio": "https://www.jlpt.jp/samples/sample2018/mp3/N2Q4.mp3",
-          "items": 11
-        },
-        {
-          "mondai": "Mondai 5: 統合理解",
-          "audio": "https://www.jlpt.jp/samples/sample2018/mp3/N2Q5.mp3",
-          "items": 3
-        }
-      ]
+      "status": "IN_DEVELOPMENT",
+      "notice": "Phần thi Nghe hiểu 30 câu đang trong quá trình chuẩn hóa âm thanh và rà soát độc lập, chưa tính vào câu hỏi có thể làm trong phiên này."
     }
   ]
 }

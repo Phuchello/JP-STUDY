@@ -112,6 +112,7 @@ Snapshot 2026-10-15. VERIFIED is scoped verification, not JLPT certification. Hi
 | [curriculum/QUESTION_TYPE_BLUEPRINT.json](curriculum/QUESTION_TYPE_BLUEPRINT.json) | VERIFIED |
 | [curriculum/TEST_GENERATION_PLAN.md](curriculum/TEST_GENERATION_PLAN.md) | VERIFIED |
 | [data/mock_exams/n2_mock_01.json](data/mock_exams/n2_mock_01.json) | QA_PENDING |
+| [data/mock_exams/n3_mock_01.json](data/mock_exams/n3_mock_01.json) | QA_PENDING |
 | [deliverables/phase3.5/00_BAT_DAU_O_DAY.pdf](deliverables/phase3.5/00_BAT_DAU_O_DAY.pdf) | VERIFIED |
 | [deliverables/phase3.5/01_NGU_PHAP_N4.pdf](deliverables/phase3.5/01_NGU_PHAP_N4.pdf) | VERIFIED |
 | [deliverables/phase3.5/02_MEO_NGHE.pdf](deliverables/phase3.5/02_MEO_NGHE.pdf) | VERIFIED |

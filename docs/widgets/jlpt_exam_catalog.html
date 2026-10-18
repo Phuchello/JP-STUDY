@@ -47,51 +47,65 @@
   }
   
   /* Top Navigation Tabs */
-  .catalog-nav {
+  .nav-tabs {
     display: flex;
-    gap: 6px;
+    gap: 8px;
     overflow-x: auto;
     padding-bottom: 8px;
     margin-bottom: 20px;
     border-bottom: 1px solid var(--border);
+    -webkit-overflow-scrolling: touch;
   }
-  .catalog-nav::-webkit-scrollbar { height: 4px; }
-  .catalog-nav::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
   .nav-tab {
-    padding: 8px 16px;
-    font-size: 0.84rem;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-size: 0.85rem;
     font-weight: 700;
-    color: #475569;
-    background: #fff;
-    border: 1px solid #cbd5e1;
-    border-radius: 20px;
     cursor: pointer;
     white-space: nowrap;
-    transition: all 0.2s;
+    border: 1px solid var(--border);
+    background: #fff;
+    color: var(--text-muted);
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 6px;
   }
   .nav-tab:hover {
-    color: var(--primary);
-    border-color: var(--primary);
+    background: #f1f5f9;
+    color: var(--text-main);
   }
   .nav-tab.active {
     background: var(--primary);
     color: #fff;
     border-color: var(--primary);
+    box-shadow: 0 2px 6px rgba(139, 0, 0, 0.25);
   }
 
-  /* Notice & Banner Boxes */
+  .view-tab {
+    display: none;
+  }
+  .view-tab.active {
+    display: block;
+    animation: fadeIn 0.25s ease;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(4px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
   .info-banner {
-    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
-    color: #fff;
+    background: linear-gradient(135deg, #1e3a8a 0%, #1e1b4b 100%);
+    color: white;
     padding: 16px 20px;
     border-radius: 12px;
     margin-bottom: 20px;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     justify-content: space-between;
-    gap: 14px;
-    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.12);
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    box-shadow: 0 4px 12px rgba(30, 58, 138, 0.15);
   }
   .info-banner h2 {
     font-size: 1.15rem;
@@ -105,22 +119,15 @@
   .btn-banner {
     background: #e11d48;
     color: #fff;
-    text-decoration: none;
-    padding: 10px 18px;
+    padding: 8px 16px;
     border-radius: 8px;
+    font-size: 0.82rem;
     font-weight: 700;
-    font-size: 0.88rem;
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    box-shadow: 0 2px 8px rgba(225, 29, 72, 0.3);
-    transition: transform 0.15s;
-  }
-  .btn-banner:hover {
-    transform: translateY(-2px);
+    text-decoration: none;
+    box-shadow: 0 2px 6px rgba(225, 29, 72, 0.3);
   }
 
-  /* Grid Layout */
+  /* Grid layout */
   .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
@@ -130,16 +137,16 @@
     background: var(--card-bg);
     border-radius: 12px;
     border: 1px solid var(--border);
-    padding: 18px;
+    padding: 16px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.03);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    transition: transform 0.15s, box-shadow 0.15s;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
   }
   .card:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 14px rgba(0,0,0,0.06);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.06);
   }
   .card-top {
     display: flex;
@@ -163,35 +170,50 @@
     font-size: 0.7rem;
     font-weight: 700;
     padding: 2px 8px;
-    border-radius: 6px;
-    text-transform: uppercase;
+    border-radius: 4px;
   }
-  .status-ready { background: #dcfce7; color: #166534; border: 1px solid #bbf7d0; }
-  .status-dev { background: #fef3c7; color: #92400e; border: 1px solid #fde68a; }
-  .status-ext { background: #e0f2fe; color: #075985; border: 1px solid #bae6fd; }
-  .status-paid { background: #fee2e2; color: #991b1b; border: 1px solid #fecaca; }
-  .status-free { background: #f0fdf4; color: #15803d; border: 1px solid #bbf7d0; }
+  .status-ready {
+    background: #dcfce7;
+    color: #15803d;
+    border: 1px solid #bbf7d0;
+  }
+  .status-dev {
+    background: #f1f5f9;
+    color: #64748b;
+    border: 1px solid #e2e8f0;
+  }
+  .status-free {
+    background: #e0f2fe;
+    color: #0369a1;
+    border: 1px solid #bae6fd;
+  }
+  .status-paid {
+    background: #fef3c7;
+    color: #b45309;
+    border: 1px solid #fde68a;
+  }
+  .status-ext {
+    background: #ede9fe;
+    color: #6d28d9;
+    border: 1px solid #ddd6fe;
+  }
 
   .card-title {
     font-size: 1.05rem;
-    font-weight: 800;
+    font-weight: 700;
     color: #1e293b;
-    margin-bottom: 6px;
+    margin-bottom: 4px;
   }
   .card-meta {
     font-size: 0.8rem;
-    color: #64748b;
-    margin-bottom: 12px;
+    color: var(--text-muted);
+    margin-bottom: 10px;
   }
   .card-desc {
     font-size: 0.82rem;
-    color: #334155;
-    line-height: 1.45;
+    color: #475569;
+    line-height: 1.4;
     margin-bottom: 14px;
-    background: #f8fafc;
-    padding: 10px;
-    border-radius: 8px;
-    border: 1px solid #f1f5f9;
   }
   .section-tags {
     display: flex;
@@ -200,113 +222,103 @@
     margin-bottom: 14px;
   }
   .sec-tag {
-    font-size: 0.72rem;
+    font-size: 0.7rem;
     background: #f1f5f9;
     color: #475569;
     padding: 2px 6px;
     border-radius: 4px;
-    font-weight: 600;
   }
 
   .btn-start {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 6px;
+    display: block;
     width: 100%;
-    padding: 10px;
+    text-align: center;
+    background: #1e40af;
+    color: #fff;
+    padding: 10px 14px;
     border-radius: 8px;
-    font-size: 0.88rem;
+    font-size: 0.85rem;
     font-weight: 700;
     text-decoration: none;
-    cursor: pointer;
+    transition: background 0.2s ease;
     border: none;
-    transition: all 0.15s;
+    cursor: pointer;
   }
-  .btn-ready {
-    background: #15803d;
-    color: #fff;
-    box-shadow: 0 2px 6px rgba(21, 128, 61, 0.25);
-  }
-  .btn-ready:hover {
-    background: #166534;
+  .btn-start:hover {
+    background: #1d4ed8;
   }
   .btn-disabled {
-    background: #f1f5f9;
+    background: #e2e8f0;
     color: #94a3b8;
-    border: 1px dashed #cbd5e1;
     cursor: not-allowed;
   }
+  .btn-disabled:hover {
+    background: #e2e8f0;
+  }
   .btn-external {
-    background: #0284c7;
-    color: #fff;
-    box-shadow: 0 2px 6px rgba(2, 132, 199, 0.25);
+    background: #0f172a;
   }
   .btn-external:hover {
-    background: #0369a1;
+    background: #1e293b;
   }
 
-  /* PDF materials button group */
-  .btn-group {
+  /* Material links group */
+  .materials-group {
     display: flex;
     flex-wrap: wrap;
     gap: 6px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
   }
   .btn-mat {
-    background: #f8fafc;
-    border: 1px solid #cbd5e1;
-    color: #1e293b;
-    padding: 5px 9px;
-    border-radius: 6px;
-    font-size: 0.75rem;
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 4px 8px;
+    border-radius: 4px;
     text-decoration: none;
-    font-weight: 500;
+    color: #1e40af;
+    background: #eff6ff;
+    border: 1px solid #bfdbfe;
     display: inline-flex;
     align-items: center;
     gap: 4px;
-    transition: background 0.15s;
   }
   .btn-mat:hover {
-    background: #e2e8f0;
+    background: #dbeafe;
   }
   .audio-box {
     margin-top: 10px;
     background: #f8fafc;
-    border: 1px solid #e2e8f0;
-    padding: 8px 10px;
+    border: 1px solid var(--border);
     border-radius: 8px;
+    padding: 8px 12px;
   }
-  .audio-label {
-    font-size: 0.75rem;
-    font-weight: 600;
-    color: #475569;
-    margin-bottom: 6px;
-    display: flex;
-    justify-content: space-between;
+  .audio-box audio {
+    width: 100%;
+    height: 32px;
+    margin-top: 4px;
   }
-  audio { width: 100%; height: 32px; }
-
-  /* Tab View containers */
-  .view-tab { display: none; }
-  .view-tab.active { display: block; }
+  
+  @media (max-width: 640px) {
+    .header h1 { font-size: 1.25rem; }
+    .grid { grid-template-columns: 1fr; }
+  }
 </style>
 </head>
 <body>
 
 <div class="header">
   <h1>📚 KHO ĐỀ THI THỬ & TÀI LIỆU LUYỆN THI JLPT</h1>
-  <p>Hệ thống 30 đề thi thử mô phỏng N2/N3, Đề chính thức 2012/2018 và Cổng liên kết nguồn đề bên ngoài đã kiểm định</p>
+  <p>Hệ thống đề thi phân môn & mô phỏng N2/N3, Đề chính thức 2012/2018 và Cổng liên kết nguồn đề bên ngoài đã kiểm định</p>
 </div>
 
 <!-- TOP NAV TABS -->
-<div class="catalog-nav">
-  <button type="button" class="nav-tab active" onclick="switchCatalogTab('tab-n2')">🔥 N2: 20 ĐỀ THI THỬ (FULL MOCKS)</button>
-  <button type="button" class="nav-tab" onclick="switchCatalogTab('tab-n3')">📗 N3: 10 ĐỀ THI THỬ (FULL MOCKS)</button>
-  <button type="button" class="nav-tab" onclick="switchCatalogTab('tab-rand')">🎲 LUYỆN ĐỀ NGẪU NHIÊN</button>
-  <button type="button" class="nav-tab" onclick="switchCatalogTab('tab-skill')">🎯 LUYỆN THEO KỸ NĂNG</button>
-  <button type="button" class="nav-tab" onclick="switchCatalogTab('tab-official')">📚 ĐỀ CHÍNH THỨC 2012/2018</button>
-  <button type="button" class="nav-tab" onclick="switchCatalogTab('tab-ext')">🌐 NGUỒN THI THỬ BÊN NGOÀI</button>
+<div class="nav-tabs" id="catalogTabs">
+  <div class="nav-tab active" onclick="switchCatalogTab('tab-n2')">🔥 N2: 20 ĐỀ THI THỬ (FULL MOCKS)</div>
+  <div class="nav-tab" onclick="switchCatalogTab('tab-n3')">📗 N3: 10 ĐỀ THI THỬ (FULL MOCKS)</div>
+  <div class="nav-tab" onclick="switchCatalogTab('tab-rand')">🎲 LUYỆN ĐỀ NGẪU NHIÊN</div>
+  <div class="nav-tab" onclick="switchCatalogTab('tab-skill')">🎯 LUYỆN THEO KỸ NĂNG</div>
+  <div class="nav-tab" onclick="switchCatalogTab('tab-official')">📚 ĐỀ CHÍNH THỨC 2012/2018</div>
+  <div class="nav-tab" onclick="switchCatalogTab('tab-external')">🌐 NGUỒN THI THỬ BÊN NGOÀI</div>
 </div>
 
 <!-- ========================================================================= -->
@@ -316,7 +328,7 @@
   <div class="info-banner">
     <div>
       <h2>🎯 KẾ HOẠCH N2: 20 ĐỀ THI THỬ TOÀN DIỆN (FULL MOCKS)</h2>
-      <p>Mục tiêu kỳ thi 12/2026: 20 đề thi chuẩn cấu trúc JEES (105 câu · 155 phút/đề). Phát hành lũy tiến theo từng đợt kiểm định chất lượng.</p>
+      <p>Mục tiêu kỳ thi 12/2026: 20 đề thi chuẩn cấu trúc JEES (105 câu · 155 phút/đề). Đề số 01 hiện mở phần luyện tập phân môn (75 câu / 105 phút) trong khi phần Nghe hiểu tiếp tục được chuẩn hóa.</p>
     </div>
     <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mock&mockId=N2-MOCK-01" target="_blank" class="btn-banner">
       🚀 VÀO THI ĐỀ SỐ 01 (105 PHÚT) ▶
@@ -324,28 +336,25 @@
   </div>
 
   <div class="grid">
-    <!-- N2-MOCK-01 (READY) -->
-    <div class="card" style="border: 2px solid #16a34a; box-shadow: 0 4px 12px rgba(22, 163, 74, 0.1);">
+    <!-- N2 MOCK 01: SECTIONAL PRACTICE -->
+    <div class="card">
       <div>
         <div class="card-top">
           <span class="badge badge-n2">JLPT N2</span>
-          <span class="status-badge status-ready">READY · ĐÃ KIỂM ĐỊNH</span>
+          <span class="status-badge status-ready" style="background:#dbeafe; color:#1e40af; border:1px solid #bfdbfe;">SECTIONAL PRACTICE · 75 CÂU</span>
         </div>
-        <div class="card-title">JLPT N2 | Full Mock Exam #01 (Đề thi thử số 01)</div>
-        <div class="card-meta">105 câu hỏi · 155 phút (105p Đọc/Hiểu/Ngôn ngữ + 50p Nghe)</div>
+        <div class="card-title">JLPT N2 Sectional Practice #01</div>
+        <div class="card-meta">75 câu hỏi · 105 phút (Kiến thức ngôn ngữ & Đọc hiểu)</div>
         <div class="card-desc">
-          Bộ đề trọn vẹn bám sát 100% đặc tả bài thi JLPT N2:
-          <br>• <strong>Phần 1 (105 phút):</strong> 75 câu Kiến thức ngôn ngữ (Từ vựng Mondai 1-6, Ngữ pháp Mondai 7-9) và Đọc hiểu (Mondai 10-14).
-          <br>• <strong>Phần 2 (50 phút):</strong> 30 câu Nghe hiểu Chokai (Task-based, Point, General, Quick response, Integrated).
+          Bộ đề luyện tập phân môn bám sát 100% đặc tả bài thi JLPT N2: 32 câu Từ vựng (Mondai 1–6), 22 câu Ngữ pháp (Mondai 7–9) và 21 câu Đọc hiểu (Mondai 10–14). Phần Nghe hiểu đang được chuẩn hóa âm thanh độc lập và chưa tính vào phiên làm bài này.
         </div>
         <div class="section-tags">
           <span class="sec-tag">📖 Từ vựng (32c)</span>
           <span class="sec-tag">📜 Ngữ pháp (22c)</span>
           <span class="sec-tag">📑 Đọc hiểu (21c)</span>
-          <span class="sec-tag">🎧 Nghe hiểu (30c)</span>
         </div>
       </div>
-      <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mock&mockId=N2-MOCK-01" target="_blank" class="btn-start btn-ready">
+      <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mock&mockId=N2-MOCK-01" target="_blank" rel="noopener noreferrer" class="btn-start">
         🚀 BẮT ĐẦU LÀM BÀI (BẤM GIỜ 105 PHÚT) ▶
       </a>
     </div>
@@ -779,35 +788,38 @@
   <div class="info-banner" style="background: linear-gradient(135deg, #064e3b 0%, #022c22 100%);">
     <div>
       <h2>📗 KẾ HOẠCH N3: 10 ĐỀ THI THỬ CỐT LÕI (FULL MOCKS)</h2>
-      <p>Củng cố nền tảng 40% cho người học hướng tới N2. Quy chuẩn 95 câu hỏi · 140 phút (30p Từ vựng + 70p Ngữ pháp/Đọc + 40p Nghe).</p>
+      <p>Củng cố nền tảng 40% cho người học hướng tới N2. Quy chuẩn 102 câu hỏi · 140 phút (35p Từ vựng + 39p Ngữ pháp/Đọc + 28p Nghe). Đề số 01 hiện mở phần luyện tập phân môn (73 câu / 100 phút).</p>
     </div>
-    <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?level=N3" target="_blank" class="btn-banner" style="background: #059669;">
-      ⚡ CÀY 258 CÂU N3 NGAY ▶
+    <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mock&mockId=N3-MOCK-01" target="_blank" class="btn-banner" style="background: #059669;">
+      🚀 VÀO THI N3 ĐỀ 01 (100 PHÚT) ▶
     </a>
   </div>
 
   <div class="grid">
+    <!-- N3 MOCK 01: SECTIONAL PRACTICE -->
     <div class="card">
       <div>
         <div class="card-top">
           <span class="badge badge-n3">JLPT N3</span>
-          <span class="status-badge status-dev">IN DEVELOPMENT · ĐANG BIÊN SOẠN</span>
+          <span class="status-badge status-ready" style="background:#dcfce7; color:#15803d; border:1px solid #bbf7d0;">SECTIONAL PRACTICE · 73 CÂU</span>
         </div>
-        <div class="card-title">JLPT N3 | Full Mock Exam #01</div>
-        <div class="card-meta">Mục tiêu: 95 câu hỏi · 140 phút · Chuẩn cấu trúc JEES</div>
+        <div class="card-title">JLPT N3 Sectional Practice #01</div>
+        <div class="card-meta">73 câu hỏi · 100 phút (Kiến thức ngôn ngữ & Đọc hiểu)</div>
         <div class="card-desc">
-          Bộ đề thi thử N3 đợt 01. Phân bổ 35 câu Kiến thức từ vựng, 39 câu Ngữ pháp/Đọc hiểu và 28 câu Nghe hiểu Chokai. Hiện đang chuẩn hóa ngữ cảnh và đối chiếu bản dịch tiếng Việt.
+          Bộ đề luyện tập phân môn chuẩn N3: 35 câu Từ vựng (Mondai 1–5), 22 câu Ngữ pháp (Mondai 6–8) và 16 câu Đọc hiểu (Mondai 9–12). Bấm giờ 100 phút. Phần Nghe hiểu đang được chuẩn hóa âm thanh độc lập và chưa tính vào phiên làm bài này.
         </div>
         <div class="section-tags">
-          <span class="sec-tag">Từ vựng (35c)</span>
-          <span class="sec-tag">Ngữ pháp/Đọc (39c)</span>
-          <span class="sec-tag">Nghe hiểu (28c)</span>
+          <span class="sec-tag">📖 Từ vựng (35c)</span>
+          <span class="sec-tag">📜 Ngữ pháp (22c)</span>
+          <span class="sec-tag">📑 Đọc hiểu (16c)</span>
         </div>
       </div>
-      <button type="button" class="btn-start btn-disabled" disabled>
-        ⏳ Đang chuẩn hóa (Kỳ thi 12/2026)
-      </button>
+      <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mock&mockId=N3-MOCK-01" target="_blank" rel="noopener noreferrer" class="btn-start" style="background: #059669;">
+        🚀 BẮT ĐẦU LÀM BÀI (BẤM GIỜ 100 PHÚT) ▶
+      </a>
     </div>
+
+    <!-- N3 MOCKS 02 - 10 (IN DEVELOPMENT) -->
     <div class="card">
       <div>
         <div class="card-top">
@@ -815,9 +827,9 @@
           <span class="status-badge status-dev">IN DEVELOPMENT · ĐANG BIÊN SOẠN</span>
         </div>
         <div class="card-title">JLPT N3 | Full Mock Exam #02</div>
-        <div class="card-meta">Mục tiêu: 95 câu hỏi · 140 phút · Chuẩn cấu trúc JEES</div>
+        <div class="card-meta">Mục tiêu: 102 câu hỏi · 140 phút · Chuẩn cấu trúc JEES</div>
         <div class="card-desc">
-          Bộ đề thi thử N3 đợt 02. Phân bổ 35 câu Kiến thức từ vựng, 39 câu Ngữ pháp/Đọc hiểu và 28 câu Nghe hiểu Chokai. Hiện đang chuẩn hóa ngữ cảnh và đối chiếu bản dịch tiếng Việt.
+          Bộ đề thi thử N3 đợt 02. Phân bổ chuẩn: 35 câu Kiến thức từ vựng, 39 câu Ngữ pháp/Đọc hiểu và 28 câu Nghe hiểu Chokai. Hiện đang chuẩn hóa ngữ cảnh và đối chiếu bản dịch tiếng Việt.
         </div>
         <div class="section-tags">
           <span class="sec-tag">Từ vựng (35c)</span>
@@ -836,9 +848,9 @@
           <span class="status-badge status-dev">IN DEVELOPMENT · ĐANG BIÊN SOẠN</span>
         </div>
         <div class="card-title">JLPT N3 | Full Mock Exam #03</div>
-        <div class="card-meta">Mục tiêu: 95 câu hỏi · 140 phút · Chuẩn cấu trúc JEES</div>
+        <div class="card-meta">Mục tiêu: 102 câu hỏi · 140 phút · Chuẩn cấu trúc JEES</div>
         <div class="card-desc">
-          Bộ đề thi thử N3 đợt 03. Phân bổ 35 câu Kiến thức từ vựng, 39 câu Ngữ pháp/Đọc hiểu và 28 câu Nghe hiểu Chokai. Hiện đang chuẩn hóa ngữ cảnh và đối chiếu bản dịch tiếng Việt.
+          Bộ đề thi thử N3 đợt 03. Phân bổ chuẩn: 35 câu Kiến thức từ vựng, 39 câu Ngữ pháp/Đọc hiểu và 28 câu Nghe hiểu Chokai. Hiện đang chuẩn hóa ngữ cảnh và đối chiếu bản dịch tiếng Việt.
         </div>
         <div class="section-tags">
           <span class="sec-tag">Từ vựng (35c)</span>
@@ -857,9 +869,9 @@
           <span class="status-badge status-dev">IN DEVELOPMENT · ĐANG BIÊN SOẠN</span>
         </div>
         <div class="card-title">JLPT N3 | Full Mock Exam #04</div>
-        <div class="card-meta">Mục tiêu: 95 câu hỏi · 140 phút · Chuẩn cấu trúc JEES</div>
+        <div class="card-meta">Mục tiêu: 102 câu hỏi · 140 phút · Chuẩn cấu trúc JEES</div>
         <div class="card-desc">
-          Bộ đề thi thử N3 đợt 04. Phân bổ 35 câu Kiến thức từ vựng, 39 câu Ngữ pháp/Đọc hiểu và 28 câu Nghe hiểu Chokai. Hiện đang chuẩn hóa ngữ cảnh và đối chiếu bản dịch tiếng Việt.
+          Bộ đề thi thử N3 đợt 04. Phân bổ chuẩn: 35 câu Kiến thức từ vựng, 39 câu Ngữ pháp/Đọc hiểu và 28 câu Nghe hiểu Chokai. Hiện đang chuẩn hóa ngữ cảnh và đối chiếu bản dịch tiếng Việt.
         </div>
         <div class="section-tags">
           <span class="sec-tag">Từ vựng (35c)</span>
@@ -878,9 +890,9 @@
           <span class="status-badge status-dev">IN DEVELOPMENT · ĐANG BIÊN SOẠN</span>
         </div>
         <div class="card-title">JLPT N3 | Full Mock Exam #05</div>
-        <div class="card-meta">Mục tiêu: 95 câu hỏi · 140 phút · Chuẩn cấu trúc JEES</div>
+        <div class="card-meta">Mục tiêu: 102 câu hỏi · 140 phút · Chuẩn cấu trúc JEES</div>
         <div class="card-desc">
-          Bộ đề thi thử N3 đợt 05. Phân bổ 35 câu Kiến thức từ vựng, 39 câu Ngữ pháp/Đọc hiểu và 28 câu Nghe hiểu Chokai. Hiện đang chuẩn hóa ngữ cảnh và đối chiếu bản dịch tiếng Việt.
+          Bộ đề thi thử N3 đợt 05. Phân bổ chuẩn: 35 câu Kiến thức từ vựng, 39 câu Ngữ pháp/Đọc hiểu và 28 câu Nghe hiểu Chokai. Hiện đang chuẩn hóa ngữ cảnh và đối chiếu bản dịch tiếng Việt.
         </div>
         <div class="section-tags">
           <span class="sec-tag">Từ vựng (35c)</span>
@@ -899,9 +911,9 @@
           <span class="status-badge status-dev">IN DEVELOPMENT · ĐANG BIÊN SOẠN</span>
         </div>
         <div class="card-title">JLPT N3 | Full Mock Exam #06</div>
-        <div class="card-meta">Mục tiêu: 95 câu hỏi · 140 phút · Chuẩn cấu trúc JEES</div>
+        <div class="card-meta">Mục tiêu: 102 câu hỏi · 140 phút · Chuẩn cấu trúc JEES</div>
         <div class="card-desc">
-          Bộ đề thi thử N3 đợt 06. Phân bổ 35 câu Kiến thức từ vựng, 39 câu Ngữ pháp/Đọc hiểu và 28 câu Nghe hiểu Chokai. Hiện đang chuẩn hóa ngữ cảnh và đối chiếu bản dịch tiếng Việt.
+          Bộ đề thi thử N3 đợt 06. Phân bổ chuẩn: 35 câu Kiến thức từ vựng, 39 câu Ngữ pháp/Đọc hiểu và 28 câu Nghe hiểu Chokai. Hiện đang chuẩn hóa ngữ cảnh và đối chiếu bản dịch tiếng Việt.
         </div>
         <div class="section-tags">
           <span class="sec-tag">Từ vựng (35c)</span>
@@ -920,9 +932,9 @@
           <span class="status-badge status-dev">IN DEVELOPMENT · ĐANG BIÊN SOẠN</span>
         </div>
         <div class="card-title">JLPT N3 | Full Mock Exam #07</div>
-        <div class="card-meta">Mục tiêu: 95 câu hỏi · 140 phút · Chuẩn cấu trúc JEES</div>
+        <div class="card-meta">Mục tiêu: 102 câu hỏi · 140 phút · Chuẩn cấu trúc JEES</div>
         <div class="card-desc">
-          Bộ đề thi thử N3 đợt 07. Phân bổ 35 câu Kiến thức từ vựng, 39 câu Ngữ pháp/Đọc hiểu và 28 câu Nghe hiểu Chokai. Hiện đang chuẩn hóa ngữ cảnh và đối chiếu bản dịch tiếng Việt.
+          Bộ đề thi thử N3 đợt 07. Phân bổ chuẩn: 35 câu Kiến thức từ vựng, 39 câu Ngữ pháp/Đọc hiểu và 28 câu Nghe hiểu Chokai. Hiện đang chuẩn hóa ngữ cảnh và đối chiếu bản dịch tiếng Việt.
         </div>
         <div class="section-tags">
           <span class="sec-tag">Từ vựng (35c)</span>
@@ -941,9 +953,9 @@
           <span class="status-badge status-dev">IN DEVELOPMENT · ĐANG BIÊN SOẠN</span>
         </div>
         <div class="card-title">JLPT N3 | Full Mock Exam #08</div>
-        <div class="card-meta">Mục tiêu: 95 câu hỏi · 140 phút · Chuẩn cấu trúc JEES</div>
+        <div class="card-meta">Mục tiêu: 102 câu hỏi · 140 phút · Chuẩn cấu trúc JEES</div>
         <div class="card-desc">
-          Bộ đề thi thử N3 đợt 08. Phân bổ 35 câu Kiến thức từ vựng, 39 câu Ngữ pháp/Đọc hiểu và 28 câu Nghe hiểu Chokai. Hiện đang chuẩn hóa ngữ cảnh và đối chiếu bản dịch tiếng Việt.
+          Bộ đề thi thử N3 đợt 08. Phân bổ chuẩn: 35 câu Kiến thức từ vựng, 39 câu Ngữ pháp/Đọc hiểu và 28 câu Nghe hiểu Chokai. Hiện đang chuẩn hóa ngữ cảnh và đối chiếu bản dịch tiếng Việt.
         </div>
         <div class="section-tags">
           <span class="sec-tag">Từ vựng (35c)</span>
@@ -962,9 +974,9 @@
           <span class="status-badge status-dev">IN DEVELOPMENT · ĐANG BIÊN SOẠN</span>
         </div>
         <div class="card-title">JLPT N3 | Full Mock Exam #09</div>
-        <div class="card-meta">Mục tiêu: 95 câu hỏi · 140 phút · Chuẩn cấu trúc JEES</div>
+        <div class="card-meta">Mục tiêu: 102 câu hỏi · 140 phút · Chuẩn cấu trúc JEES</div>
         <div class="card-desc">
-          Bộ đề thi thử N3 đợt 09. Phân bổ 35 câu Kiến thức từ vựng, 39 câu Ngữ pháp/Đọc hiểu và 28 câu Nghe hiểu Chokai. Hiện đang chuẩn hóa ngữ cảnh và đối chiếu bản dịch tiếng Việt.
+          Bộ đề thi thử N3 đợt 09. Phân bổ chuẩn: 35 câu Kiến thức từ vựng, 39 câu Ngữ pháp/Đọc hiểu và 28 câu Nghe hiểu Chokai. Hiện đang chuẩn hóa ngữ cảnh và đối chiếu bản dịch tiếng Việt.
         </div>
         <div class="section-tags">
           <span class="sec-tag">Từ vựng (35c)</span>
@@ -983,9 +995,9 @@
           <span class="status-badge status-dev">IN DEVELOPMENT · ĐANG BIÊN SOẠN</span>
         </div>
         <div class="card-title">JLPT N3 | Full Mock Exam #10</div>
-        <div class="card-meta">Mục tiêu: 95 câu hỏi · 140 phút · Chuẩn cấu trúc JEES</div>
+        <div class="card-meta">Mục tiêu: 102 câu hỏi · 140 phút · Chuẩn cấu trúc JEES</div>
         <div class="card-desc">
-          Bộ đề thi thử N3 đợt 10. Phân bổ 35 câu Kiến thức từ vựng, 39 câu Ngữ pháp/Đọc hiểu và 28 câu Nghe hiểu Chokai. Hiện đang chuẩn hóa ngữ cảnh và đối chiếu bản dịch tiếng Việt.
+          Bộ đề thi thử N3 đợt 10. Phân bổ chuẩn: 35 câu Kiến thức từ vựng, 39 câu Ngữ pháp/Đọc hiểu và 28 câu Nghe hiểu Chokai. Hiện đang chuẩn hóa ngữ cảnh và đối chiếu bản dịch tiếng Việt.
         </div>
         <div class="section-tags">
           <span class="sec-tag">Từ vựng (35c)</span>
@@ -1014,196 +1026,174 @@
         <div class="card-title">🔥 Cỗ Máy Luyện Đề Vô Tận (Chế độ Cày liên tục)</div>
         <div class="card-meta">Phản hồi tức thì · Giải thích chi tiết & Phân tích đáp án sai</div>
         <div class="card-desc">
-          Tùy chọn số lượng 10 đến 100 câu hỏi, ưu tiên câu hỏi mới chưa từng làm (tuyệt đối không trùng lặp), làm đến đâu biết điểm và đọc giải thích ngay đến đó.
+          Cày liên tục không giới hạn số lượng câu hỏi. Hệ thống tự động ưu tiên các câu hỏi người học chưa từng làm qua, loại bỏ trùng lặp hoàn toàn.
         </div>
       </div>
-      <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mode-a" target="_blank" class="btn-start btn-ready">
-        ⚡ BẮT ĐẦU CÀY CÂU HỎI ▶
+      <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mode-a" target="_blank" rel="noopener noreferrer" class="btn-start">
+        ⚡ Bắt đầu cày câu hỏi ngay ▶
       </a>
     </div>
 
     <div class="card">
       <div>
         <div class="card-top">
-          <span class="badge badge-n2">TIMED DRILL</span>
-          <span class="status-badge status-ready">15P · 30P · 60P</span>
+          <span class="badge badge-n2">JLPT N2</span>
+          <span class="status-badge status-ready">30 CÂU · 35 PHÚT</span>
         </div>
-        <div class="card-title">⏱️ Phòng Luyện Tập Tính Giờ (Áp Lực Phòng Thi)</div>
-        <div class="card-meta">Đồng hồ đếm ngược · Bảng câu hỏi Palette · Chấm điểm sau khi nộp</div>
+        <div class="card-title">⏱️ Đề ngẫu nhiên N2 (Bấm giờ tiêu chuẩn)</div>
+        <div class="card-meta">30 câu hỏi ngẫu nhiên từ vựng, ngữ pháp, đọc hiểu</div>
         <div class="card-desc">
-          Mô phỏng áp lực thời gian của kỳ thi thật. Không hiển thị đáp án trong lúc làm bài, tự động nộp bài khi hết giờ và cung cấp bảng tổng kết phân tích chi tiết.
+          Tạo đề thi ngẫu nhiên 30 câu hỏi N2 trong thời gian giới hạn 35 phút. Không hiển thị đáp án trong lúc làm, tự động chấm điểm và báo cáo sau khi nộp.
         </div>
       </div>
-      <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mode-d" target="_blank" class="btn-start btn-ready">
-        ⏱️ VÀO PHÒNG TÍNH GIỜ ▶
+      <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mode-d&level=N2&count=30" target="_blank" rel="noopener noreferrer" class="btn-start">
+        ⏱️ Vào thi đề ngẫu nhiên N2 ▶
       </a>
     </div>
 
     <div class="card">
       <div>
         <div class="card-top">
-          <span class="badge badge-n2">SEEDED TEST</span>
-          <span class="status-badge status-ready">TÁI TẠO 100%</span>
+          <span class="badge badge-n3">JLPT N3</span>
+          <span class="status-badge status-ready">30 CÂU · 30 PHÚT</span>
         </div>
-        <div class="card-title">🎲 Đề Thi Ngẫu Nhiên Có Mã Số (Seeded Test)</div>
-        <div class="card-meta">Cùng mã số = cùng đề thi · Dễ dàng thi đấu nhóm bạn</div>
+        <div class="card-title">⏱️ Đề ngẫu nhiên N3 (Củng cố kiến thức)</div>
+        <div class="card-meta">30 câu hỏi ngẫu nhiên N3 có tính giờ</div>
         <div class="card-desc">
-          Sinh đề thi ngẫu nhiên nhưng cố định câu hỏi theo mã Seed. Cho phép chia sẻ mã đề cho bạn học để cùng làm một đề và so sánh kết quả minh bạch.
+          Tạo đề thi ngẫu nhiên 30 câu hỏi N3 trong 30 phút. Rèn luyện tốc độ xử lý câu hỏi ngữ pháp và từ vựng cơ bản.
         </div>
       </div>
-      <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mode-c" target="_blank" class="btn-start btn-ready">
-        🎲 TẠO ĐỀ CÓ MÃ SEED ▶
+      <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mode-d&level=N3&count=30" target="_blank" rel="noopener noreferrer" class="btn-start" style="background: #059669;">
+        ⏱️ Vào thi đề ngẫu nhiên N3 ▶
       </a>
     </div>
 
     <div class="card">
       <div>
         <div class="card-top">
-          <span class="badge badge-n2">SPACED REPETITION</span>
-          <span class="status-badge status-ready">SỔ TAY CÂU SAI</span>
+          <span class="badge badge-n2">MARATHON</span>
+          <span class="status-badge status-ready">50 CÂU · 60 PHÚT</span>
         </div>
-        <div class="card-title">📝 Sổ Tay Ôn Câu Sai & Spaced Repetition</div>
-        <div class="card-meta">Ghi nhớ tự động · Lặp lại ngắt quãng 1 - 3 - 7 ngày</div>
+        <div class="card-title">🏃 Luyện sức bền Marathon (50 câu hỏi)</div>
+        <div class="card-meta">Phù hợp kiểm tra tổng quát cuối tuần</div>
         <div class="card-desc">
-          Tự động thu thập mọi câu hỏi bạn từng trả lời sai trong tất cả các phiên làm bài. Luyện tập lại cho đến khi thành thạo (đúng liên tiếp ≥ 2 lần).
+          Thử thách giải 50 câu hỏi liên tục kết hợp N2 và N3 trong 60 phút nhằm rèn luyện sự tập trung và tốc độ đọc hiểu áp lực thời gian.
         </div>
       </div>
-      <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mode-e" target="_blank" class="btn-start btn-ready">
-        📝 MỞ SỔ TAY CÂU SAI ▶
+      <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mode-d&level=MIXED&count=50" target="_blank" rel="noopener noreferrer" class="btn-start" style="background: #b91c1c;">
+        🏃 Bắt đầu phiên Marathon ▶
       </a>
     </div>
   </div>
 </div>
 
 <!-- ========================================================================= -->
-<!-- TAB 4: LUYỆN THEO KỸ NĂNG -->
+<!-- TAB 4: LUYỆN THEO KỸ NĂNG (SKILL DRILLS) -->
 <!-- ========================================================================= -->
 <div id="tab-skill" class="view-tab">
   <div class="grid">
     <div class="card">
       <div>
         <div class="card-top">
-          <span class="badge badge-n2">VOCABULARY</span>
-          <span class="status-badge status-ready">470 CÂU N2/N3</span>
+          <span class="badge badge-n2">N2 / N3</span>
+          <span class="status-badge status-ready">470 CÂU TỪ VỰNG</span>
         </div>
-        <div class="card-title">📖 Chữ Hán & Từ Vựng (Mondai 1 - 6)</div>
-        <div class="card-meta">Kanji đọc, Kanji viết, Tạo từ, Ngữ cảnh, Đồng nghĩa, Cách dùng từ</div>
+        <div class="card-title">📖 Chữ Hán & Từ vựng (Mondai 1 – 6)</div>
+        <div class="card-meta">Cách đọc Kanji · Viết Kanji · Cấu tạo từ · Ngữ cảnh · Từ đồng nghĩa · Cách dùng từ</div>
         <div class="card-desc">
-          Bộ câu hỏi trắc nghiệm rèn luyện toàn diện 6 dạng thức thi Từ vựng của N2 và 5 dạng thức của N3. Kèm âm Hán Việt và phân tích từ gây nhiễu.
+          Luyện sâu các dạng bài từ vựng thường gặp trong đề thi JLPT N2 và N3. Tích hợp phân tích chi tiết các cặp từ dễ nhầm lẫn.
         </div>
       </div>
-      <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mode-b" target="_blank" class="btn-start btn-ready">
-        🎯 LUYỆN TỪ VỰNG & KANJI ▶
+      <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mode-b&skill=Vocabulary" target="_blank" rel="noopener noreferrer" class="btn-start">
+        🎯 Luyện chuyên sâu Từ vựng ▶
       </a>
     </div>
 
     <div class="card">
       <div>
         <div class="card-top">
-          <span class="badge badge-n2">GRAMMAR</span>
-          <span class="status-badge status-ready">158 CÂU N2/N3</span>
+          <span class="badge badge-n2">N2 / N3</span>
+          <span class="status-badge status-ready">158 CÂU NGỮ PHÁP</span>
         </div>
-        <div class="card-title">📜 Ngữ Pháp Câu & Ngữ Pháp Đoạn Văn (Mondai 7 - 9)</div>
-        <div class="card-meta">Mẫu câu, Ngữ cảnh hội thoại và Điền liên từ trong văn bản</div>
+        <div class="card-title">📜 Ngữ pháp & Câu Sao (Mondai 7 – 9)</div>
+        <div class="card-meta">Chọn hình thức ngữ pháp đúng · Xếp từ vị trí sao ⭐ · Ngữ pháp đoạn văn</div>
         <div class="card-desc">
-          Chuyên đề rèn luyện các mẫu ngữ pháp trung cấp N2/N3, phó từ nối, liên từ chỉ thị và mạch suy luận logic trong đoạn văn.
+          Tập trung rèn luyện dạng bài tìm ngôi sao và ngữ pháp đoạn văn (đục lỗ) đòi hỏi tư duy mạch lạc và nắm chắc cấu trúc bổ nghĩa.
         </div>
       </div>
-      <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mode-b" target="_blank" class="btn-start btn-ready">
-        🎯 LUYỆN NGỮ PHÁP ▶
+      <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mode-b&skill=Grammar" target="_blank" rel="noopener noreferrer" class="btn-start">
+        🎯 Luyện chuyên sâu Ngữ pháp ▶
       </a>
     </div>
 
     <div class="card">
       <div>
         <div class="card-top">
-          <span class="badge badge-n2">STAR ★</span>
-          <span class="status-badge status-ready">45 CÂU N2/N3</span>
+          <span class="badge badge-n2">N2 / N3</span>
+          <span class="status-badge status-ready">32 BÀI ĐỌC</span>
         </div>
-        <div class="card-title">★ Kỹ Thuật Xếp Câu Sao (Mondai 8)</div>
-        <div class="card-meta">Khóa cặp ngữ pháp · Ghép cụm trước sau · Bắt vị trí ngôi sao</div>
+        <div class="card-title">📑 Đọc hiểu Văn bản (Mondai 10 – 14)</div>
+        <div class="card-meta">Đoản văn · Trung văn · So sánh tổng hợp · Trường văn · Tìm kiếm thông tin</div>
         <div class="card-desc">
-          Dạng bài học viên thường e ngại nhất trong JLPT. Cung cấp phương pháp khóa các khối từ cố định để tìm ra đáp án chính xác trong dưới 60 giây.
+          Rèn luyện kỹ năng đọc nhanh (Skimming), đọc quét (Scanning) và nắm bắt quan điểm của tác giả trong các bài xã luận, thư từ kinh doanh.
         </div>
       </div>
-      <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mode-b" target="_blank" class="btn-start btn-ready">
-        🎯 LUYỆN XẾP CÂU SAO ▶
+      <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mode-b&skill=Reading" target="_blank" rel="noopener noreferrer" class="btn-start">
+        🎯 Luyện chuyên sâu Đọc hiểu ▶
       </a>
     </div>
 
     <div class="card">
       <div>
         <div class="card-top">
-          <span class="badge badge-n2">READING</span>
-          <span class="status-badge status-ready">52 BÀI ĐỌC N2/N3</span>
+          <span class="badge" style="background:#7c2d12;">PHÒNG NGHE</span>
+          <span class="status-badge status-ready">NHK & JEES AUDIO</span>
         </div>
-        <div class="card-title">📑 Đọc Hiểu Thực Chiến (Mondai 10 - 14)</div>
-        <div class="card-meta">Đoản văn, Trung văn, So sánh A/B, Trường văn, Tra cứu thông tin</div>
+        <div class="card-title">🎧 Phòng Luyện Nghe Trực Tuyến</div>
+        <div class="card-meta">Task-based Mondai 1 · Điểm chính Mondai 2 · Phản xạ nhanh Mondai 4</div>
         <div class="card-desc">
-          Hệ thống bài đọc thực thụ kèm câu hỏi tư duy phản biện. Rèn kỹ năng đọc quét từ khóa, xác định luận điểm chính và lọc bảng biểu thông báo.
+          Kho tư liệu nghe âm thanh chất lượng cao kèm kịch bản hội thoại chuẩn, hỗ trợ luyện nghe bấm giờ và tự kiểm tra khả năng bắt từ khóa.
         </div>
       </div>
-      <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mode-b" target="_blank" class="btn-start btn-ready">
-        🎯 LUYỆN ĐỌC HIỂU ▶
-      </a>
-    </div>
-
-    <div class="card">
-      <div>
-        <div class="card-top">
-          <span class="badge badge-n2">LISTENING</span>
-          <span class="status-badge status-ready">AUDIO CHUẨN 100%</span>
-        </div>
-        <div class="card-title">🎧 Phòng Luyện Nghe Trực Tuyến (5 Mondai)</div>
-        <div class="card-meta">Trình phát audio chất lượng cao từ Japan Foundation & JEES</div>
-        <div class="card-desc">
-          Kho bài nghe chia rõ theo 5 dạng đề thi thật: Task-based, Point comprehension, General outline, Quick response và Integrated comprehension.
-        </div>
-      </div>
-      <a href="https://sites.google.com/view/jp-study/ph%C3%B2ng-luy%E1%BB%87n-nghe" target="_blank" class="btn-start btn-external">
-        🎧 VÀO PHÒNG LUYỆN NGHE ▶
+      <a href="https://sites.google.com/view/jp-study/ph%C3%B2ng-luy%E1%BB%87n-nghe" target="_blank" rel="noopener noreferrer" class="btn-start" style="background:#7c2d12;">
+        🎧 Vào Phòng Luyện Nghe ▶
       </a>
     </div>
   </div>
 </div>
 
 <!-- ========================================================================= -->
-<!-- TAB 5: ĐỀ CHÍNH THỨC 2012 / 2018 (OFFICIAL WORKBOOKS) -->
+<!-- TAB 5: ĐỀ CHÍNH THỨC 2012 / 2018 (OFFICIAL PRACTICE WORKBOOKS) -->
 <!-- ========================================================================= -->
 <div id="tab-official" class="view-tab">
-  <div style="background: #fffbeb; border: 1px solid #fef3c7; border-radius: 8px; padding: 14px; margin-bottom: 20px; font-size: 0.82rem; color: #92400e; line-height: 1.5;">
-    📌 <strong>Tài liệu lưu trữ chính thức:</strong> Các bộ tài liệu dưới đây là Official Practice Workbooks do Hiệp hội Hỗ trợ Giáo dục Quốc tế Nhật Bản (JEES) và The Japan Foundation phát hành (Vol. 1 năm 2012, Vol. 2 năm 2018). Mỗi bộ chứa đề thi mẫu tương đương một đề thi thật, kèm đáp án, script nghe và audio MP3 nguyên gốc.
-  </div>
-
   <div class="grid">
     <!-- N2 2018 -->
     <div class="card">
       <div>
         <div class="card-top">
           <span class="badge badge-n2">JLPT N2</span>
-          <span class="status-badge status-free">OFFICIAL 2018</span>
+          <span class="status-badge status-free">OFFICIAL VOL. 2 (2018)</span>
         </div>
-        <div class="card-title">JLPT N2 | Official Practice Workbook Vol. 2 (2018)</div>
+        <div class="card-title">JLPT N2 | Official Practice Workbook (2018)</div>
         <div class="card-meta">105 câu hỏi · ~155 phút · Nguồn: Japan Foundation & JEES</div>
-        
-        <div style="font-size:0.75rem; font-weight:700; color:#475569; text-transform:uppercase; margin-bottom:6px;">Tài liệu PDF đề thi:</div>
-        <div class="btn-group">
+        <div style="font-size:0.75rem; font-weight:700; color:#475569; margin-bottom:4px;">ĐỀ THI PDF CHÍNH THỨC:</div>
+        <div class="materials-group">
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N2V.pdf" target="_blank">📖 Từ vựng</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N2G.pdf" target="_blank">📜 Ngữ pháp</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N2R.pdf" target="_blank">📑 Đọc hiểu</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N2L.pdf" target="_blank">🎧 Đề nghe</a>
         </div>
-        <div style="font-size:0.75rem; font-weight:700; color:#475569; text-transform:uppercase; margin-bottom:6px;">Đáp án & Kịch bản nghe:</div>
-        <div class="btn-group">
+        <div style="font-size:0.75rem; font-weight:700; color:#475569; margin-bottom:4px; margin-top:8px;">ĐÁP ÁN & SCRIPT NGHE:</div>
+        <div class="materials-group">
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N2sheet.pdf" target="_blank">📝 Phiếu trả lời</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N2answer.pdf" target="_blank">✅ Đáp án</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N2script.pdf" target="_blank">💬 Script nghe</a>
         </div>
       </div>
       <div class="audio-box">
-        <div class="audio-label">
+        <div style="display:flex; justify-content:space-between; font-size:0.72rem; color:#64748b;">
           <span>🎧 Nghe thử Mondai 1 (Task-based):</span>
-          <a href="https://www.jlpt.jp/e/samples/sampleindex.html" target="_blank" style="color:#2980b9; font-size:0.7rem; text-decoration:none;">Xem tại nguồn</a>
+          <a href="https://www.jlpt.jp/e/samples/sampleindex.html" target="_blank" style="color:#1e40af; text-decoration:none;">Xem tại nguồn</a>
         </div>
         <audio controls preload="none">
           <source src="https://www.jlpt.jp/samples/sample2018/mp3/N2Q1.mp3" type="audio/mpeg">
@@ -1216,29 +1206,28 @@
       <div>
         <div class="card-top">
           <span class="badge badge-n2">JLPT N2</span>
-          <span class="status-badge status-free">OFFICIAL 2012</span>
+          <span class="status-badge status-free">OFFICIAL VOL. 1 (2012)</span>
         </div>
-        <div class="card-title">JLPT N2 | Official Practice Workbook Vol. 1 (2012)</div>
+        <div class="card-title">JLPT N2 | Official Practice Workbook (2012)</div>
         <div class="card-meta">105 câu hỏi · ~155 phút · Nguồn: Japan Foundation & JEES</div>
-        
-        <div style="font-size:0.75rem; font-weight:700; color:#475569; text-transform:uppercase; margin-bottom:6px;">Tài liệu PDF đề thi:</div>
-        <div class="btn-group">
+        <div style="font-size:0.75rem; font-weight:700; color:#475569; margin-bottom:4px;">ĐỀ THI PDF CHÍNH THỨC:</div>
+        <div class="materials-group">
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N2V.pdf" target="_blank">📖 Từ vựng</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N2G.pdf" target="_blank">📜 Ngữ pháp</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N2R.pdf" target="_blank">📑 Đọc hiểu</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N2L.pdf" target="_blank">🎧 Đề nghe</a>
         </div>
-        <div style="font-size:0.75rem; font-weight:700; color:#475569; text-transform:uppercase; margin-bottom:6px;">Đáp án & Kịch bản nghe:</div>
-        <div class="btn-group">
+        <div style="font-size:0.75rem; font-weight:700; color:#475569; margin-bottom:4px; margin-top:8px;">ĐÁP ÁN & SCRIPT NGHE:</div>
+        <div class="materials-group">
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N2sheet.pdf" target="_blank">📝 Phiếu trả lời</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N2answer.pdf" target="_blank">✅ Đáp án</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N2script.pdf" target="_blank">💬 Script nghe</a>
         </div>
       </div>
       <div class="audio-box">
-        <div class="audio-label">
+        <div style="display:flex; justify-content:space-between; font-size:0.72rem; color:#64748b;">
           <span>🎧 Nghe thử Mondai 1 (Task-based):</span>
-          <a href="https://www.jlpt.jp/e/samples/sampleindex.html" target="_blank" style="color:#2980b9; font-size:0.7rem; text-decoration:none;">Xem tại nguồn</a>
+          <a href="https://www.jlpt.jp/e/samples/sampleindex.html" target="_blank" style="color:#1e40af; text-decoration:none;">Xem tại nguồn</a>
         </div>
         <audio controls preload="none">
           <source src="https://www.jlpt.jp/samples/sample2012/mp3/N2Q1.mp3" type="audio/mpeg">
@@ -1251,28 +1240,28 @@
       <div>
         <div class="card-top">
           <span class="badge badge-n3">JLPT N3</span>
-          <span class="status-badge status-free">OFFICIAL 2018</span>
+          <span class="status-badge status-free">OFFICIAL VOL. 2 (2018)</span>
         </div>
-        <div class="card-title">JLPT N3 | Official Practice Workbook Vol. 2 (2018)</div>
+        <div class="card-title">JLPT N3 | Official Practice Workbook (2018)</div>
         <div class="card-meta">95 câu hỏi · ~140 phút · Nguồn: Japan Foundation & JEES</div>
-        
-        <div style="font-size:0.75rem; font-weight:700; color:#475569; text-transform:uppercase; margin-bottom:6px;">Tài liệu PDF đề thi:</div>
-        <div class="btn-group">
+        <div style="font-size:0.75rem; font-weight:700; color:#475569; margin-bottom:4px;">ĐỀ THI PDF CHÍNH THỨC:</div>
+        <div class="materials-group">
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N3V.pdf" target="_blank">📖 Từ vựng</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N3G.pdf" target="_blank">📜 Ngữ pháp</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N3R.pdf" target="_blank">📑 Đọc hiểu</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N3L.pdf" target="_blank">🎧 Đề nghe</a>
         </div>
-        <div style="font-size:0.75rem; font-weight:700; color:#475569; text-transform:uppercase; margin-bottom:6px;">Đáp án & Kịch bản nghe:</div>
-        <div class="btn-group">
-          <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N3script.pdf" target="_blank">💬 Script nghe</a>
+        <div style="font-size:0.75rem; font-weight:700; color:#475569; margin-bottom:4px; margin-top:8px;">ĐÁP ÁN & SCRIPT NGHE:</div>
+        <div class="materials-group">
+          <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N3sheet.pdf" target="_blank">📝 Phiếu trả lời</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N3answer.pdf" target="_blank">✅ Đáp án</a>
+          <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N3script.pdf" target="_blank">💬 Script nghe</a>
         </div>
       </div>
       <div class="audio-box">
-        <div class="audio-label">
+        <div style="display:flex; justify-content:space-between; font-size:0.72rem; color:#64748b;">
           <span>🎧 Nghe thử Mondai 1 (Task-based):</span>
-          <a href="https://www.jlpt.jp/e/samples/sampleindex.html" target="_blank" style="color:#065f46; font-size:0.7rem; text-decoration:none;">Xem tại nguồn</a>
+          <a href="https://www.jlpt.jp/e/samples/sampleindex.html" target="_blank" style="color:#065f46; text-decoration:none;">Xem tại nguồn</a>
         </div>
         <audio controls preload="none">
           <source src="https://www.jlpt.jp/samples/sample2018/mp3/N3Q1.mp3" type="audio/mpeg">
@@ -1285,28 +1274,28 @@
       <div>
         <div class="card-top">
           <span class="badge badge-n3">JLPT N3</span>
-          <span class="status-badge status-free">OFFICIAL 2012</span>
+          <span class="status-badge status-free">OFFICIAL VOL. 1 (2012)</span>
         </div>
-        <div class="card-title">JLPT N3 | Official Practice Workbook Vol. 1 (2012)</div>
+        <div class="card-title">JLPT N3 | Official Practice Workbook (2012)</div>
         <div class="card-meta">95 câu hỏi · ~140 phút · Nguồn: Japan Foundation & JEES</div>
-        
-        <div style="font-size:0.75rem; font-weight:700; color:#475569; text-transform:uppercase; margin-bottom:6px;">Tài liệu PDF đề thi:</div>
-        <div class="btn-group">
+        <div style="font-size:0.75rem; font-weight:700; color:#475569; margin-bottom:4px;">ĐỀ THI PDF CHÍNH THỨC:</div>
+        <div class="materials-group">
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N3V.pdf" target="_blank">📖 Từ vựng</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N3G.pdf" target="_blank">📜 Ngữ pháp</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N3R.pdf" target="_blank">📑 Đọc hiểu</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N3L.pdf" target="_blank">🎧 Đề nghe</a>
         </div>
-        <div style="font-size:0.75rem; font-weight:700; color:#475569; text-transform:uppercase; margin-bottom:6px;">Đáp án & Kịch bản nghe:</div>
-        <div class="btn-group">
-          <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N3script.pdf" target="_blank">💬 Script nghe</a>
+        <div style="font-size:0.75rem; font-weight:700; color:#475569; margin-bottom:4px; margin-top:8px;">ĐÁP ÁN & SCRIPT NGHE:</div>
+        <div class="materials-group">
+          <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N3sheet.pdf" target="_blank">📝 Phiếu trả lời</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N3answer.pdf" target="_blank">✅ Đáp án</a>
+          <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N3script.pdf" target="_blank">💬 Script nghe</a>
         </div>
       </div>
       <div class="audio-box">
-        <div class="audio-label">
+        <div style="display:flex; justify-content:space-between; font-size:0.72rem; color:#64748b;">
           <span>🎧 Nghe thử Mondai 1 (Task-based):</span>
-          <a href="https://www.jlpt.jp/e/samples/sampleindex.html" target="_blank" style="color:#065f46; font-size:0.7rem; text-decoration:none;">Xem tại nguồn</a>
+          <a href="https://www.jlpt.jp/e/samples/sampleindex.html" target="_blank" style="color:#065f46; text-decoration:none;">Xem tại nguồn</a>
         </div>
         <audio controls preload="none">
           <source src="https://www.jlpt.jp/samples/sample2012/mp3/N3Q1.mp3" type="audio/mpeg">
@@ -1314,45 +1303,68 @@
       </div>
     </div>
 
-    <!-- N4 2018 & 2012 -->
+    <!-- N4 2018 -->
     <div class="card">
       <div>
         <div class="card-top">
           <span class="badge badge-n4">JLPT N4</span>
-          <span class="status-badge status-free">OFFICIAL 2018</span>
+          <span class="status-badge status-free">OFFICIAL VOL. 2 (2018)</span>
         </div>
-        <div class="card-title">JLPT N4 | Official Practice Workbook Vol. 2 (2018)</div>
+        <div class="card-title">JLPT N4 | Official Practice Workbook (2018)</div>
         <div class="card-meta">85 câu hỏi · ~125 phút · Nguồn: Japan Foundation & JEES</div>
-        <div class="btn-group">
+        <div style="font-size:0.75rem; font-weight:700; color:#475569; margin-bottom:4px;">ĐỀ THI PDF CHÍNH THỨC:</div>
+        <div class="materials-group">
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N4V.pdf" target="_blank">📖 Từ vựng</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N4G.pdf" target="_blank">📜 Ngữ pháp</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N4R.pdf" target="_blank">📑 Đọc hiểu</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N4L.pdf" target="_blank">🎧 Đề nghe</a>
         </div>
+        <div style="font-size:0.75rem; font-weight:700; color:#475569; margin-bottom:4px; margin-top:8px;">ĐÁP ÁN & SCRIPT NGHE:</div>
+        <div class="materials-group">
+          <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N4sheet.pdf" target="_blank">📝 Phiếu trả lời</a>
+          <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N4answer.pdf" target="_blank">✅ Đáp án</a>
+          <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N4script.pdf" target="_blank">💬 Script nghe</a>
+        </div>
       </div>
       <div class="audio-box">
+        <div style="display:flex; justify-content:space-between; font-size:0.72rem; color:#64748b;">
+          <span>🎧 Nghe thử Mondai 1 (Task-based):</span>
+          <a href="https://www.jlpt.jp/e/samples/sampleindex.html" target="_blank" style="color:#6b21a8; text-decoration:none;">Xem tại nguồn</a>
+        </div>
         <audio controls preload="none">
           <source src="https://www.jlpt.jp/samples/sample2018/mp3/N4Q1.mp3" type="audio/mpeg">
         </audio>
       </div>
     </div>
 
+    <!-- N4 2012 -->
     <div class="card">
       <div>
         <div class="card-top">
           <span class="badge badge-n4">JLPT N4</span>
-          <span class="status-badge status-free">OFFICIAL 2012</span>
+          <span class="status-badge status-free">OFFICIAL VOL. 1 (2012)</span>
         </div>
-        <div class="card-title">JLPT N4 | Official Practice Workbook Vol. 1 (2012)</div>
+        <div class="card-title">JLPT N4 | Official Practice Workbook (2012)</div>
         <div class="card-meta">85 câu hỏi · ~125 phút · Nguồn: Japan Foundation & JEES</div>
-        <div class="btn-group">
+        <div style="font-size:0.75rem; font-weight:700; color:#475569; margin-bottom:4px;">ĐỀ THI PDF CHÍNH THỨC:</div>
+        <div class="materials-group">
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N4V.pdf" target="_blank">📖 Từ vựng</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N4G.pdf" target="_blank">📜 Ngữ pháp</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N4R.pdf" target="_blank">📑 Đọc hiểu</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N4L.pdf" target="_blank">🎧 Đề nghe</a>
         </div>
+        <div style="font-size:0.75rem; font-weight:700; color:#475569; margin-bottom:4px; margin-top:8px;">ĐÁP ÁN & SCRIPT NGHE:</div>
+        <div class="materials-group">
+          <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N4sheet.pdf" target="_blank">📝 Phiếu trả lời</a>
+          <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N4answer.pdf" target="_blank">✅ Đáp án</a>
+          <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N4script.pdf" target="_blank">💬 Script nghe</a>
+        </div>
       </div>
       <div class="audio-box">
+        <div style="display:flex; justify-content:space-between; font-size:0.72rem; color:#64748b;">
+          <span>🎧 Nghe thử Mondai 1 (Task-based):</span>
+          <a href="https://www.jlpt.jp/e/samples/sampleindex.html" target="_blank" style="color:#6b21a8; text-decoration:none;">Xem tại nguồn</a>
+        </div>
         <audio controls preload="none">
           <source src="https://www.jlpt.jp/samples/sample2012/mp3/N4Q1.mp3" type="audio/mpeg">
         </audio>
@@ -1362,26 +1374,26 @@
 </div>
 
 <!-- ========================================================================= -->
-<!-- TAB 6: NGUỒN THI THỬ BÊN NGOÀI (VERIFIED EXTERNAL PROVIDERS) -->
+<!-- TAB 6: NGUỒN THI THỬ BÊN NGOÀI (EXTERNAL PROVIDERS AUDIT) -->
 <!-- ========================================================================= -->
-<div id="tab-ext" class="view-tab">
-  <div style="background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 8px; padding: 14px; margin-bottom: 20px; font-size: 0.82rem; color: #1e40af; line-height: 1.5;">
-    🌐 <strong>Cổng liên kết nguồn thi thử độc lập đã kiểm chứng:</strong> Các nền tảng dưới đây được rà soát và xác minh tính pháp lý nhằm giúp học viên mở rộng cơ hội cọ xát đề thi thử. JP-STUDY không sao chép lại nội dung độc quyền, xin vui lòng truy cập trực tiếp website gốc của từng đơn vị.
+<div id="tab-external" class="view-tab">
+  <div style="background:#eff6ff; border:1px solid #bfdbfe; border-radius:10px; padding:14px; margin-bottom:20px; font-size:0.85rem; color:#1e40af;">
+    <strong>ℹ️ Quy định pháp lý & Độc lập nội dung:</strong> Các nguồn dưới đây là những nền tảng thi thử tiếng Nhật độc lập. JP-STUDY không sở hữu, không sao chép nội dung và chỉ cung cấp đường liên kết trực tiếp tới các phòng thi thử / tài liệu chính thức nhằm hỗ trợ người học tối đa.
   </div>
 
   <div class="grid">
-    <!-- Provider 1: Japan Foundation Official -->
+    <!-- Provider 1: The Japan Foundation & JEES -->
     <div class="card">
       <div>
         <div class="card-top">
-          <span class="badge" style="background:#0f172a;">JLPT OFFICIAL</span>
-          <span class="status-badge status-free">100% MIỄN PHÍ</span>
+          <span class="badge" style="background:#1e3a8a;">JEES & JF</span>
+          <span class="status-badge status-free">CHÍNH THỨC 100%</span>
         </div>
-        <div class="card-title">The Japan Foundation & JEES (Trang chủ JLPT)</div>
-        <div class="card-meta">Cấp độ: N1, N2, N3, N4, N5 · Đơn vị: Cơ quan tổ chức kỳ thi JLPT</div>
+        <div class="card-title">The Japan Foundation & JEES (Official Sample Tests)</div>
+        <div class="card-meta">Cấp độ: N1 đến N5 · Đơn vị tổ chức kỳ thi JLPT</div>
         <div class="card-desc">
-          • <strong>Quy mô:</strong> 2 bộ đề thi đầy đủ/mỗi cấp độ + Bộ câu hỏi mẫu trực tuyến.<br>
-          • <strong>Phân loại:</strong> Full Practice Workbook (Chuẩn hóa 100%).<br>
+          • <strong>Quy mô:</strong> Trọn bộ câu hỏi mẫu chính thức và 6 tập đề thực hành đầy đủ (Vol. 1 & Vol. 2).<br>
+          • <strong>Phân loại:</strong> Sample Questions & Full Practice Workbooks.<br>
           • <strong>Âm thanh:</strong> File MP3 gốc + Kịch bản hội thoại chuẩn.<br>
           • <strong>Chi phí:</strong> Miễn phí toàn bộ, không cần đăng ký tài khoản.
         </div>
@@ -1398,7 +1410,7 @@
           <span class="badge" style="background:#2563eb;">MIGII JLPT</span>
           <span class="status-badge status-paid">FREEMIUM (CÓ TRẢ PHÍ)</span>
         </div>
-        <div class="card-title">Migii JLPT (Web & Ứng dụng Di động)</div>
+        <div class="card-title">Migii JLPT (Phòng Thi Thử Trực Tuyến)</div>
         <div class="card-meta">Cấp độ: N5 đến N1 · Đơn vị: Migii Team</div>
         <div class="card-desc">
           • <strong>Quy mô:</strong> ~10–15 đề thi thử mô phỏng/cấp độ + Ngân hàng câu hỏi theo dạng.<br>
@@ -1407,12 +1419,54 @@
           • <strong>Chi phí:</strong> Làm thử miễn phí 1–2 đề/mini-test; mở khóa toàn bộ kho đề yêu cầu gói Premium.
         </div>
       </div>
-      <a href="https://migii.net/en/jlpt" target="_blank" rel="noopener noreferrer" class="btn-start btn-external">
-        🌐 Mở Nền Tảng Migii JLPT ↗
+      <a href="https://migii.net/vi/test-online" target="_blank" rel="noopener noreferrer" class="btn-start btn-external">
+        🌐 Vào Phòng Thi Thử Migii JLPT ↗
       </a>
     </div>
 
-    <!-- Provider 3: TodayJLPT -->
+    <!-- Provider 3: VNJPCLUB -->
+    <div class="card">
+      <div>
+        <div class="card-top">
+          <span class="badge" style="background:#dc2626;">VNJPCLUB</span>
+          <span class="status-badge status-free">MIỄN PHÍ WEB</span>
+        </div>
+        <div class="card-title">VNJPCLUB (Kho Đề Thi Thử Trực Tuyến)</div>
+        <div class="card-meta">Cấp độ: N5 đến N1 · Đơn vị: VNJPCLUB Community</div>
+        <div class="card-desc">
+          • <strong>Quy mô:</strong> Kho đề thi phong phú mô phỏng các kỳ thi qua các năm.<br>
+          • <strong>Phân loại:</strong> Full Mock (Đủ 3 phần: Kiến thức chữ Hán/Ngữ pháp, Đọc hiểu, Nghe hiểu).<br>
+          • <strong>Âm thanh:</strong> Tích hợp sẵn audio nghe trên trình duyệt.<br>
+          • <strong>Chi phí:</strong> Miễn phí trực tuyến, có tính giờ và chấm điểm tự động.
+        </div>
+      </div>
+      <a href="https://www.vnjpclub.com/luyen-thi-jlpt/de-thi-jlpt.html" target="_blank" rel="noopener noreferrer" class="btn-start btn-external">
+        🌐 Mở Kho Đề Thi VNJPCLUB ↗
+      </a>
+    </div>
+
+    <!-- Provider 4: Dungmori -->
+    <div class="card">
+      <div>
+        <div class="card-top">
+          <span class="badge" style="background:#7c3aed;">DUNGMORI</span>
+          <span class="status-badge status-ext">THI ĐỊNH KỲ / CÓ PHÍ</span>
+        </div>
+        <div class="card-title">Dungmori (Phòng Thi Ảo Mô Phỏng Đếm Ngược)</div>
+        <div class="card-meta">Cấp độ: N5 đến N1 · Đơn vị: Dũng Mori Nhật Ngữ</div>
+        <div class="card-desc">
+          • <strong>Quy mô:</strong> Các đợt thi thử trực tuyến định kỳ trước mỗi kỳ thi tháng 7 & 12.<br>
+          • <strong>Phân loại:</strong> Full Mock Exam (Mô phỏng áp lực phòng thi, có bảng xếp hạng toàn quốc).<br>
+          • <strong>Âm thanh:</strong> Hệ thống phòng thi nghe bấm giờ chuẩn 50 phút.<br>
+          • <strong>Chi phí:</strong> Tổ chức miễn phí theo đợt công bố; kho đề chi tiết đi kèm khóa học.
+        </div>
+      </div>
+      <a href="https://dungmori.com/thi-thu" target="_blank" rel="noopener noreferrer" class="btn-start btn-external">
+        🌐 Vào Phòng Thi Thử Dungmori ↗
+      </a>
+    </div>
+
+    <!-- Provider 5: TodayJLPT -->
     <div class="card">
       <div>
         <div class="card-top">
@@ -1430,48 +1484,6 @@
       </div>
       <a href="https://todayjlpt.com" target="_blank" rel="noopener noreferrer" class="btn-start btn-external">
         🌐 Mở Website TodayJLPT ↗
-      </a>
-    </div>
-
-    <!-- Provider 4: VNJPCLUB -->
-    <div class="card">
-      <div>
-        <div class="card-top">
-          <span class="badge" style="background:#dc2626;">VNJPCLUB</span>
-          <span class="status-badge status-free">MIỄN PHÍ WEB</span>
-        </div>
-        <div class="card-title">VNJPCLUB (Cộng Đồng Tiếng Nhật Việt Nam)</div>
-        <div class="card-meta">Cấp độ: N5 đến N1 · Đơn vị: VNJPCLUB Community</div>
-        <div class="card-desc">
-          • <strong>Quy mô:</strong> Kho đề thi phong phú mô phỏng các kỳ thi qua các năm.<br>
-          • <strong>Phân loại:</strong> Full Mock (Đủ 3 phần: Kiến thức chữ Hán/Ngữ pháp, Đọc hiểu, Nghe hiểu).<br>
-          • <strong>Âm thanh:</strong> Tích hợp sẵn audio nghe trên trình duyệt.<br>
-          • <strong>Chi phí:</strong> Miễn phí trực tuyến, có tính giờ và chấm điểm tự động.
-        </div>
-      </div>
-      <a href="https://vnjpclub.com" target="_blank" rel="noopener noreferrer" class="btn-start btn-external">
-        🌐 Mở Website VNJPCLUB ↗
-      </a>
-    </div>
-
-    <!-- Provider 5: Dungmori -->
-    <div class="card">
-      <div>
-        <div class="card-top">
-          <span class="badge" style="background:#7c3aed;">DUNGMORI</span>
-          <span class="status-badge status-ext">THI ĐỊNH KỲ / CÓ PHÍ</span>
-        </div>
-        <div class="card-title">Dungmori (Phòng Thi Ảo Mô Phỏng Đếm Ngược)</div>
-        <div class="card-meta">Cấp độ: N5 đến N1 · Đơn vị: Dũng Mori Nhật Ngữ</div>
-        <div class="card-desc">
-          • <strong>Quy mô:</strong> Các đợt thi thử trực tuyến định kỳ trước mỗi kỳ thi tháng 7 & 12.<br>
-          • <strong>Phân loại:</strong> Full Mock Exam (Mô phỏng áp lực phòng thi, có bảng xếp hạng toàn quốc).<br>
-          • <strong>Âm thanh:</strong> Hệ thống phòng thi nghe bấm giờ chuẩn 50 phút.<br>
-          • <strong>Chi phí:</strong> Tổ chức miễn phí theo đợt công bố; kho đề chi tiết đi kèm khóa học.
-        </div>
-      </div>
-      <a href="https://dungmori.com" target="_blank" rel="noopener noreferrer" class="btn-start btn-external">
-        🌐 Mở Website Dungmori ↗
       </a>
     </div>
 
@@ -1495,27 +1507,6 @@
         🌐 Mở Nền Tảng Mazii ↗
       </a>
     </div>
-
-    <!-- Provider 7: Minna no Nihongo Hub -->
-    <div class="card">
-      <div>
-        <div class="card-top">
-          <span class="badge" style="background:#059669;">MINNA NIHONGO</span>
-          <span class="status-badge status-free">MIỄN PHÍ CĂN BẢN</span>
-        </div>
-        <div class="card-title">Minna no Nihongo Online Hub</div>
-        <div class="card-meta">Cấp độ: N5, N4 · Đơn vị: Cộng đồng học tập giáo trình Minna</div>
-        <div class="card-desc">
-          • <strong>Quy mô:</strong> 50 bài học nền tảng từ vựng và mẫu ngữ pháp sơ cấp.<br>
-          • <strong>Phân loại:</strong> Bổ trợ củng cố kiến thức ngữ pháp/từ vựng căn bản (Bài 1–50).<br>
-          • <strong>Âm thanh:</strong> File nghe hội thoại và bài tập điền từ theo giáo trình.<br>
-          • <strong>Chi phí:</strong> Miễn phí trực tuyến.
-        </div>
-      </div>
-      <a href="https://minnanonihongo.com" target="_blank" rel="noopener noreferrer" class="btn-start btn-external">
-        🌐 Mở Minna no Nihongo Hub ↗
-      </a>
-    </div>
   </div>
 </div>
 
@@ -1529,17 +1520,18 @@ function switchCatalogTab(tabId) {
     targetTab.classList.add('active');
   }
   
-  const tabButtons = {
+  const tabs = {
     'tab-n2': 0,
     'tab-n3': 1,
     'tab-rand': 2,
     'tab-skill': 3,
     'tab-official': 4,
-    'tab-ext': 5
+    'tab-external': 5
   };
-  const btnIdx = tabButtons[tabId];
-  if (btnIdx !== undefined) {
-    document.querySelectorAll('.nav-tab')[btnIdx].classList.add('active');
+  const idx = tabs[tabId];
+  const navBtns = document.querySelectorAll('.nav-tab');
+  if (idx !== undefined && navBtns[idx]) {
+    navBtns[idx].classList.add('active');
   }
 }
 

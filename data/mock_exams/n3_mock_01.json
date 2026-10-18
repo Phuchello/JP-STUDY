@@ -1,0 +1,3027 @@
+{
+  "examId": "N3-MOCK-01",
+  "title": "JLPT N3 Sectional Practice #01 — Kiến thức ngôn ngữ & Đọc hiểu",
+  "level": "N3",
+  "status": "SECTIONAL_PRACTICE",
+  "durationMinutes": 100,
+  "totalQuestions": 73,
+  "sections": [
+    {
+      "sectionName": "Phần 1: Kiến thức ngôn ngữ & Đọc hiểu (Language Knowledge & Reading)",
+      "durationMinutes": 100,
+      "itemCount": 73,
+      "breakdown": {
+        "vocabulary": 35,
+        "grammar": 22,
+        "reading": 16
+      },
+      "items": [
+        {
+          "id": "N3-M1-001",
+          "level": "N3",
+          "skill": "Vocabulary",
+          "typeId": "N3-MO-READ",
+          "stem": "道に迷ったので、交番で道を【案内】してもらった。",
+          "stimulusId": "N3-M1-001",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "あない"
+            },
+            {
+              "id": "B",
+              "text": "あんなに"
+            },
+            {
+              "id": "C",
+              "text": "あんたい"
+            },
+            {
+              "id": "D",
+              "text": "あんない"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanationVi": "案内 (hướng dẫn). Âm Hán Việt: ÁN NỘI.",
+          "distractorExplanations": {
+            "A": "Cách đọc sai cho chữ Hán 「案内」. Chú ý các âm ghép và âm đục.",
+            "B": "Cách đọc sai cho chữ Hán 「案内」. Chú ý các âm ghép và âm đục.",
+            "C": "Cách đọc sai cho chữ Hán 「案内」. Chú ý các âm ghép và âm đục."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "kanji-reading",
+          "remediation": "Tra cứu và luyện đọc chữ Hán 案内 cấp độ N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-M1-002",
+          "level": "N3",
+          "skill": "Vocabulary",
+          "typeId": "N3-MO-READ",
+          "stem": "明日の試験の【準備】をしっかり整えた。",
+          "stimulusId": "N3-M1-002",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "じゅんひ"
+            },
+            {
+              "id": "B",
+              "text": "ずんび"
+            },
+            {
+              "id": "C",
+              "text": "じゅうび"
+            },
+            {
+              "id": "D",
+              "text": "じゅんび"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanationVi": "準備 (chuẩn bị). Âm Hán Việt: CHUẨN BỊ.",
+          "distractorExplanations": {
+            "A": "Cách đọc sai cho chữ Hán 「準備」. Chú ý các âm ghép và âm đục.",
+            "B": "Cách đọc sai cho chữ Hán 「準備」. Chú ý các âm ghép và âm đục.",
+            "C": "Cách đọc sai cho chữ Hán 「準備」. Chú ý các âm ghép và âm đục."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "kanji-reading",
+          "remediation": "Tra cứu và luyện đọc chữ Hán 準備 cấp độ N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-M1-003",
+          "level": "N3",
+          "skill": "Vocabulary",
+          "typeId": "N3-MO-READ",
+          "stem": "友達と映画を見る【約束】をした。",
+          "stimulusId": "N3-M1-003",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "やっそく"
+            },
+            {
+              "id": "B",
+              "text": "やくぞく"
+            },
+            {
+              "id": "C",
+              "text": "やくそく"
+            },
+            {
+              "id": "D",
+              "text": "やそく"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "約束 (hẹn ước, lời hứa). Âm Hán Việt: ƯỚC THÚC.",
+          "distractorExplanations": {
+            "A": "Cách đọc sai cho chữ Hán 「約束」. Chú ý các âm ghép và âm đục.",
+            "B": "Cách đọc sai cho chữ Hán 「約束」. Chú ý các âm ghép và âm đục.",
+            "D": "Cách đọc sai cho chữ Hán 「約束」. Chú ý các âm ghép và âm đục."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "kanji-reading",
+          "remediation": "Tra cứu và luyện đọc chữ Hán 約束 cấp độ N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-M1-004",
+          "level": "N3",
+          "skill": "Vocabulary",
+          "typeId": "N3-MO-READ",
+          "stem": "この機械の操作手順はとても【複雑】だ。",
+          "stimulusId": "N3-M1-004",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ふくさつ"
+            },
+            {
+              "id": "B",
+              "text": "ふくざつ"
+            },
+            {
+              "id": "C",
+              "text": "ふくざっ"
+            },
+            {
+              "id": "D",
+              "text": "ふっざつ"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "複雑 (phức tạp). Âm Hán Việt: PHỨC TẠP.",
+          "distractorExplanations": {
+            "A": "Cách đọc sai cho chữ Hán 「複雑」. Chú ý các âm ghép và âm đục.",
+            "C": "Cách đọc sai cho chữ Hán 「複雑」. Chú ý các âm ghép và âm đục.",
+            "D": "Cách đọc sai cho chữ Hán 「複雑」. Chú ý các âm ghép và âm đục."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "kanji-reading",
+          "remediation": "Tra cứu và luyện đọc chữ Hán 複雑 cấp độ N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-M1-005",
+          "level": "N3",
+          "skill": "Vocabulary",
+          "typeId": "N3-MO-READ",
+          "stem": "親切にしてくれた友人に心から【感謝】した。",
+          "stimulusId": "N3-M1-005",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "がんしゃ"
+            },
+            {
+              "id": "B",
+              "text": "かんしゃ"
+            },
+            {
+              "id": "C",
+              "text": "かんじゃ"
+            },
+            {
+              "id": "D",
+              "text": "かんしゃく"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "感謝 (cảm tạ, biết ơn). Âm Hán Việt: CẢM TẠ.",
+          "distractorExplanations": {
+            "A": "Cách đọc sai cho chữ Hán 「感謝」. Chú ý các âm ghép và âm đục.",
+            "C": "Cách đọc sai cho chữ Hán 「感謝」. Chú ý các âm ghép và âm đục.",
+            "D": "Cách đọc sai cho chữ Hán 「感謝」. Chú ý các âm ghép và âm đục."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "kanji-reading",
+          "remediation": "Tra cứu và luyện đọc chữ Hán 感謝 cấp độ N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-M1-006",
+          "level": "N3",
+          "skill": "Vocabulary",
+          "typeId": "N3-MO-READ",
+          "stem": "毎朝ジョギングをして【健康】を保っている。",
+          "stimulusId": "N3-M1-006",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "げんこう"
+            },
+            {
+              "id": "B",
+              "text": "けんごう"
+            },
+            {
+              "id": "C",
+              "text": "けんこう"
+            },
+            {
+              "id": "D",
+              "text": "けいこう"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "健康 (sức khỏe). Âm Hán Việt: KIỆN KHANG.",
+          "distractorExplanations": {
+            "A": "Cách đọc sai cho chữ Hán 「健康」. Chú ý các âm ghép và âm đục.",
+            "B": "Cách đọc sai cho chữ Hán 「健康」. Chú ý các âm ghép và âm đục.",
+            "D": "Cách đọc sai cho chữ Hán 「健康」. Chú ý các âm ghép và âm đục."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "kanji-reading",
+          "remediation": "Tra cứu và luyện đọc chữ Hán 健康 cấp độ N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-M1-007",
+          "level": "N3",
+          "skill": "Vocabulary",
+          "typeId": "N3-MO-READ",
+          "stem": "長年の研究がついに【成功】した。",
+          "stimulusId": "N3-M1-007",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "しょうこう"
+            },
+            {
+              "id": "B",
+              "text": "せいごう"
+            },
+            {
+              "id": "C",
+              "text": "せいこ"
+            },
+            {
+              "id": "D",
+              "text": "せいこう"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanationVi": "成功 (thành công). Âm Hán Việt: THÀNH CÔNG.",
+          "distractorExplanations": {
+            "A": "Cách đọc sai cho chữ Hán 「成功」. Chú ý các âm ghép và âm đục.",
+            "B": "Cách đọc sai cho chữ Hán 「成功」. Chú ý các âm ghép và âm đục.",
+            "C": "Cách đọc sai cho chữ Hán 「成功」. Chú ý các âm ghép và âm đục."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "kanji-reading",
+          "remediation": "Tra cứu và luyện đọc chữ Hán 成功 cấp độ N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-M1-008",
+          "level": "N3",
+          "skill": "Vocabulary",
+          "typeId": "N3-MO-READ",
+          "stem": "試合に負けてしまい、とても【残念】だった。",
+          "stimulusId": "N3-M1-008",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "さんねん"
+            },
+            {
+              "id": "B",
+              "text": "ざんね"
+            },
+            {
+              "id": "C",
+              "text": "ざんねん"
+            },
+            {
+              "id": "D",
+              "text": "ざんねい"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "残念 (đáng tiếc). Âm Hán Việt: TÀN NIỆM.",
+          "distractorExplanations": {
+            "A": "Cách đọc sai cho chữ Hán 「残念」. Chú ý các âm ghép và âm đục.",
+            "B": "Cách đọc sai cho chữ Hán 「残念」. Chú ý các âm ghép và âm đục.",
+            "D": "Cách đọc sai cho chữ Hán 「残念」. Chú ý các âm ghép và âm đục."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "kanji-reading",
+          "remediation": "Tra cứu và luyện đọc chữ Hán 残念 cấp độ N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-M2-001",
+          "level": "N3",
+          "skill": "Vocabulary",
+          "typeId": "N3-MO-ORTH",
+          "stem": "駅員さんに道を【あんない】してもらった。",
+          "stimulusId": "N3-M2-001",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "案肉"
+            },
+            {
+              "id": "B",
+              "text": "案内"
+            },
+            {
+              "id": "C",
+              "text": "安内"
+            },
+            {
+              "id": "D",
+              "text": "按内"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "Chữ Hán đúng: 案内 (ÁN NỘI).",
+          "distractorExplanations": {
+            "A": "Cách viết chữ Hán không chính xác trong tiếng Nhật.",
+            "C": "Cách viết chữ Hán không chính xác trong tiếng Nhật.",
+            "D": "Cách viết chữ Hán không chính xác trong tiếng Nhật."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "orthography",
+          "remediation": "Học và viết đúng chữ Hán N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-M2-002",
+          "level": "N3",
+          "skill": "Vocabulary",
+          "typeId": "N3-MO-ORTH",
+          "stem": "旅行の【じゅんび】は前日までに済ませよう。",
+          "stimulusId": "N3-M2-002",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "准備"
+            },
+            {
+              "id": "B",
+              "text": "準美"
+            },
+            {
+              "id": "C",
+              "text": "準鼻"
+            },
+            {
+              "id": "D",
+              "text": "準備"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanationVi": "Chữ Hán đúng: 準備 (CHUẨN BỊ).",
+          "distractorExplanations": {
+            "A": "Cách viết chữ Hán không chính xác trong tiếng Nhật.",
+            "B": "Cách viết chữ Hán không chính xác trong tiếng Nhật.",
+            "C": "Cách viết chữ Hán không chính xác trong tiếng Nhật."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "orthography",
+          "remediation": "Học và viết đúng chữ Hán N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-M2-003",
+          "level": "N3",
+          "skill": "Vocabulary",
+          "typeId": "N3-MO-ORTH",
+          "stem": "彼の説明は論理が【ふくざつ】で分かりにくい。",
+          "stimulusId": "N3-M2-003",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "復雑"
+            },
+            {
+              "id": "B",
+              "text": "複剤"
+            },
+            {
+              "id": "C",
+              "text": "複雑"
+            },
+            {
+              "id": "D",
+              "text": "服雑"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "Chữ Hán đúng: 複雑 (PHỨC TẠP).",
+          "distractorExplanations": {
+            "A": "Cách viết chữ Hán không chính xác trong tiếng Nhật.",
+            "B": "Cách viết chữ Hán không chính xác trong tiếng Nhật.",
+            "D": "Cách viết chữ Hán không chính xác trong tiếng Nhật."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "orthography",
+          "remediation": "Học và viết đúng chữ Hán N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-M2-004",
+          "level": "N3",
+          "skill": "Vocabulary",
+          "typeId": "N3-MO-ORTH",
+          "stem": "毎日の【どりょく】が実を結んだ。",
+          "stimulusId": "N3-M2-004",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "努刀"
+            },
+            {
+              "id": "B",
+              "text": "努力"
+            },
+            {
+              "id": "C",
+              "text": "怒力"
+            },
+            {
+              "id": "D",
+              "text": "女力"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "Chữ Hán đúng: 努力 (NỖ LỰC). Chữ 努 có bộ Lực (力) ở dưới.",
+          "distractorExplanations": {
+            "A": "Cách viết chữ Hán không chính xác trong tiếng Nhật.",
+            "C": "Cách viết chữ Hán không chính xác trong tiếng Nhật.",
+            "D": "Cách viết chữ Hán không chính xác trong tiếng Nhật."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "orthography",
+          "remediation": "Học và viết đúng chữ Hán N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-M2-005",
+          "level": "N3",
+          "skill": "Vocabulary",
+          "typeId": "N3-MO-ORTH",
+          "stem": "先生に深く【かんしゃ】の手紙を書いた。",
+          "stimulusId": "N3-M2-005",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "感謝"
+            },
+            {
+              "id": "B",
+              "text": "感身"
+            },
+            {
+              "id": "C",
+              "text": "感射"
+            },
+            {
+              "id": "D",
+              "text": "歓謝"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "Chữ Hán đúng: 感謝 (CẢM TẠ).",
+          "distractorExplanations": {
+            "B": "Cách viết chữ Hán không chính xác trong tiếng Nhật.",
+            "C": "Cách viết chữ Hán không chính xác trong tiếng Nhật.",
+            "D": "Cách viết chữ Hán không chính xác trong tiếng Nhật."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "orthography",
+          "remediation": "Học và viết đúng chữ Hán N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-M2-006",
+          "level": "N3",
+          "skill": "Vocabulary",
+          "typeId": "N3-MO-ORTH",
+          "stem": "明日の午後2時に会う【やくそく】をした。",
+          "stimulusId": "N3-M2-006",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "約束"
+            },
+            {
+              "id": "B",
+              "text": "約則"
+            },
+            {
+              "id": "C",
+              "text": "約足"
+            },
+            {
+              "id": "D",
+              "text": "約速"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "Chữ Hán đúng: 約束 (ƯỚC THÚC).",
+          "distractorExplanations": {
+            "B": "Cách viết chữ Hán không chính xác trong tiếng Nhật.",
+            "C": "Cách viết chữ Hán không chính xác trong tiếng Nhật.",
+            "D": "Cách viết chữ Hán không chính xác trong tiếng Nhật."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "orthography",
+          "remediation": "Học và viết đúng chữ Hán N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-M3-001",
+          "level": "N3",
+          "skill": "Vocabulary",
+          "typeId": "N3-MO-CONT",
+          "stem": "この靴は私の足のサイズに（　　）合っている。",
+          "stimulusId": "N3-M3-001",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ぴったり"
+            },
+            {
+              "id": "B",
+              "text": "しっかり"
+            },
+            {
+              "id": "C",
+              "text": "すっきり"
+            },
+            {
+              "id": "D",
+              "text": "ぎっしり"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "ぴったり (vừa vặn hoàn hảo kích thước, thời gian).",
+          "distractorExplanations": {
+            "B": "Từ vựng không phù hợp với ngữ cảnh tự nhiên trong câu.",
+            "C": "Từ vựng không phù hợp với ngữ cảnh tự nhiên trong câu.",
+            "D": "Từ vựng không phù hợp với ngữ cảnh tự nhiên trong câu."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "contextual-vocab",
+          "remediation": "Học phó từ tượng thanh tượng hình và quán dụng ngữ N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-M3-002",
+          "level": "N3",
+          "skill": "Vocabulary",
+          "typeId": "N3-MO-CONT",
+          "stem": "急いでいたので、（　　）傘を電車の中に忘れてしまった。",
+          "stimulusId": "N3-M3-002",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "がっかり"
+            },
+            {
+              "id": "B",
+              "text": "すっかり"
+            },
+            {
+              "id": "C",
+              "text": "はっきり"
+            },
+            {
+              "id": "D",
+              "text": "うっかり"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanationVi": "うっかり (lỡ đễnh, đãng trí không để ý).",
+          "distractorExplanations": {
+            "A": "Từ vựng không phù hợp với ngữ cảnh tự nhiên trong câu.",
+            "B": "Từ vựng không phù hợp với ngữ cảnh tự nhiên trong câu.",
+            "C": "Từ vựng không phù hợp với ngữ cảnh tự nhiên trong câu."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "contextual-vocab",
+          "remediation": "Học phó từ tượng thanh tượng hình và quán dụng ngữ N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-M3-003",
+          "level": "N3",
+          "skill": "Vocabulary",
+          "typeId": "N3-MO-CONT",
+          "stem": "楽しみにしていた旅行が雨で中止になり、（　　）した。",
+          "stimulusId": "N3-M3-003",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "がっかり"
+            },
+            {
+              "id": "B",
+              "text": "うっかり"
+            },
+            {
+              "id": "C",
+              "text": "すっきり"
+            },
+            {
+              "id": "D",
+              "text": "そっくり"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "がっかりする (thất vọng, hụt hẫng ủ rũ).",
+          "distractorExplanations": {
+            "B": "Từ vựng không phù hợp với ngữ cảnh tự nhiên trong câu.",
+            "C": "Từ vựng không phù hợp với ngữ cảnh tự nhiên trong câu.",
+            "D": "Từ vựng không phù hợp với ngữ cảnh tự nhiên trong câu."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "contextual-vocab",
+          "remediation": "Học phó từ tượng thanh tượng hình và quán dụng ngữ N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-M3-004",
+          "level": "N3",
+          "skill": "Vocabulary",
+          "typeId": "N3-MO-CONT",
+          "stem": "薬を飲んで一晩寝たら、風邪は（　　）治った。",
+          "stimulusId": "N3-M3-004",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "しっかり"
+            },
+            {
+              "id": "B",
+              "text": "ぴったり"
+            },
+            {
+              "id": "C",
+              "text": "あっさり"
+            },
+            {
+              "id": "D",
+              "text": "すっかり"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanationVi": "すっかり (hoàn toàn, khỏi hẳn 100%).",
+          "distractorExplanations": {
+            "A": "Từ vựng không phù hợp với ngữ cảnh tự nhiên trong câu.",
+            "B": "Từ vựng không phù hợp với ngữ cảnh tự nhiên trong câu.",
+            "C": "Từ vựng không phù hợp với ngữ cảnh tự nhiên trong câu."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "contextual-vocab",
+          "remediation": "Học phó từ tượng thanh tượng hình và quán dụng ngữ N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-M3-005",
+          "level": "N3",
+          "skill": "Vocabulary",
+          "typeId": "N3-MO-CONT",
+          "stem": "階段が急だから、手すりを（　　）つかんで降りてください。",
+          "stimulusId": "N3-M3-005",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "しっかり"
+            },
+            {
+              "id": "B",
+              "text": "すっきり"
+            },
+            {
+              "id": "C",
+              "text": "うっかり"
+            },
+            {
+              "id": "D",
+              "text": "びっくり"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "しっかりと (chặt chẽ, chắc chắn, kiên cố).",
+          "distractorExplanations": {
+            "B": "Từ vựng không phù hợp với ngữ cảnh tự nhiên trong câu.",
+            "C": "Từ vựng không phù hợp với ngữ cảnh tự nhiên trong câu.",
+            "D": "Từ vựng không phù hợp với ngữ cảnh tự nhiên trong câu."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "contextual-vocab",
+          "remediation": "Học phó từ tượng thanh tượng hình và quán dụng ngữ N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-M3-006",
+          "level": "N3",
+          "skill": "Vocabulary",
+          "typeId": "N3-MO-CONT",
+          "stem": "遠くの富士山が（　　）とよく見えた。",
+          "stimulusId": "N3-M3-006",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "すっきり"
+            },
+            {
+              "id": "B",
+              "text": "ぴったり"
+            },
+            {
+              "id": "C",
+              "text": "ぎっしり"
+            },
+            {
+              "id": "D",
+              "text": "はっきり"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanationVi": "はっきりと (rõ ràng, mạch lạc, dễ thấy).",
+          "distractorExplanations": {
+            "A": "Từ vựng không phù hợp với ngữ cảnh tự nhiên trong câu.",
+            "B": "Từ vựng không phù hợp với ngữ cảnh tự nhiên trong câu.",
+            "C": "Từ vựng không phù hợp với ngữ cảnh tự nhiên trong câu."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "contextual-vocab",
+          "remediation": "Học phó từ tượng thanh tượng hình và quán dụng ngữ N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-M3-007",
+          "level": "N3",
+          "skill": "Vocabulary",
+          "typeId": "N3-MO-CONT",
+          "stem": "本棚には専門書が（　　）詰まっている。",
+          "stimulusId": "N3-M3-007",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ぴったり"
+            },
+            {
+              "id": "B",
+              "text": "しっかり"
+            },
+            {
+              "id": "C",
+              "text": "ぎっしり"
+            },
+            {
+              "id": "D",
+              "text": "ばったり"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "ぎっしり (chật ních, lèn chặt không còn chỗ trống).",
+          "distractorExplanations": {
+            "A": "Từ vựng không phù hợp với ngữ cảnh tự nhiên trong câu.",
+            "B": "Từ vựng không phù hợp với ngữ cảnh tự nhiên trong câu.",
+            "D": "Từ vựng không phù hợp với ngữ cảnh tự nhiên trong câu."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "contextual-vocab",
+          "remediation": "Học phó từ tượng thanh tượng hình và quán dụng ngữ N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-M3-008",
+          "level": "N3",
+          "skill": "Vocabulary",
+          "typeId": "N3-MO-CONT",
+          "stem": "シャワーを浴びて、気分が（　　）した。",
+          "stimulusId": "N3-M3-008",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "はっきり"
+            },
+            {
+              "id": "B",
+              "text": "うっかり"
+            },
+            {
+              "id": "C",
+              "text": "すっきり"
+            },
+            {
+              "id": "D",
+              "text": "がっかり"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "すっきりする (khoan khoái, sảng khoái nhẹ nhõm).",
+          "distractorExplanations": {
+            "A": "Từ vựng không phù hợp với ngữ cảnh tự nhiên trong câu.",
+            "B": "Từ vựng không phù hợp với ngữ cảnh tự nhiên trong câu.",
+            "D": "Từ vựng không phù hợp với ngữ cảnh tự nhiên trong câu."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "contextual-vocab",
+          "remediation": "Học phó từ tượng thanh tượng hình và quán dụng ngữ N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-M3-009",
+          "level": "N3",
+          "skill": "Vocabulary",
+          "typeId": "N3-MO-CONT",
+          "stem": "休日は温泉に入って（　　）過ごしたい。",
+          "stimulusId": "N3-M3-009",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ぐっすり"
+            },
+            {
+              "id": "B",
+              "text": "のんびり"
+            },
+            {
+              "id": "C",
+              "text": "ぼんやり"
+            },
+            {
+              "id": "D",
+              "text": "うっすら"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "のんびり (thong dong, thư thả thảnh thơi).",
+          "distractorExplanations": {
+            "A": "Từ vựng không phù hợp với ngữ cảnh tự nhiên trong câu.",
+            "C": "Từ vựng không phù hợp với ngữ cảnh tự nhiên trong câu.",
+            "D": "Từ vựng không phù hợp với ngữ cảnh tự nhiên trong câu."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "contextual-vocab",
+          "remediation": "Học phó từ tượng thanh tượng hình và quán dụng ngữ N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-M3-010",
+          "level": "N3",
+          "skill": "Vocabulary",
+          "typeId": "N3-MO-CONT",
+          "stem": "昨夜は疲れていたので、朝まで（　　）眠った。",
+          "stimulusId": "N3-M3-010",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ぐっすり"
+            },
+            {
+              "id": "B",
+              "text": "のんびり"
+            },
+            {
+              "id": "C",
+              "text": "すっかり"
+            },
+            {
+              "id": "D",
+              "text": "しっかり"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "ぐっすり眠る (ngủ một giấc say sưa ngon lành).",
+          "distractorExplanations": {
+            "B": "Từ vựng không phù hợp với ngữ cảnh tự nhiên trong câu.",
+            "C": "Từ vựng không phù hợp với ngữ cảnh tự nhiên trong câu.",
+            "D": "Từ vựng không phù hợp với ngữ cảnh tự nhiên trong câu."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "contextual-vocab",
+          "remediation": "Học phó từ tượng thanh tượng hình và quán dụng ngữ N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-M3-011",
+          "level": "N3",
+          "skill": "Vocabulary",
+          "typeId": "N3-MO-CONT",
+          "stem": "駅の改札口で、高校時代の友人に（　　）会った。",
+          "stimulusId": "N3-M3-011",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ぴったり"
+            },
+            {
+              "id": "B",
+              "text": "ばったり"
+            },
+            {
+              "id": "C",
+              "text": "すっかり"
+            },
+            {
+              "id": "D",
+              "text": "がっかり"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "ばったり会う (tình cờ chạm mặt bất ngờ).",
+          "distractorExplanations": {
+            "A": "Từ vựng không phù hợp với ngữ cảnh tự nhiên trong câu.",
+            "C": "Từ vựng không phù hợp với ngữ cảnh tự nhiên trong câu.",
+            "D": "Từ vựng không phù hợp với ngữ cảnh tự nhiên trong câu."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "contextual-vocab",
+          "remediation": "Học phó từ tượng thanh tượng hình và quán dụng ngữ N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-M4-001",
+          "level": "N3",
+          "skill": "Vocabulary",
+          "typeId": "N3-MO-PARA",
+          "stem": "古くなった新聞紙を【回収した】。",
+          "stimulusId": "N3-M4-001",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "配る"
+            },
+            {
+              "id": "B",
+              "text": "捨てる"
+            },
+            {
+              "id": "C",
+              "text": "集める"
+            },
+            {
+              "id": "D",
+              "text": "買う"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "回収する = 集める (thu hồi, gom lại).",
+          "distractorExplanations": {
+            "A": "Không mang nghĩa tương đương với từ 「回収する」.",
+            "B": "Không mang nghĩa tương đương với từ 「回収する」.",
+            "D": "Không mang nghĩa tương đương với từ 「回収する」."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "paraphrase",
+          "remediation": "Học các cặp từ đồng nghĩa trình độ N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-M4-002",
+          "level": "N3",
+          "skill": "Vocabulary",
+          "typeId": "N3-MO-PARA",
+          "stem": "雨のため試合は【中止になった】。",
+          "stimulusId": "N3-M4-002",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "遅れることになった"
+            },
+            {
+              "id": "B",
+              "text": "始まることになった"
+            },
+            {
+              "id": "C",
+              "text": "やめることになった"
+            },
+            {
+              "id": "D",
+              "text": "変わることになった"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "中止 = やめること (hủy bỏ dừng lại).",
+          "distractorExplanations": {
+            "A": "Không mang nghĩa tương đương với từ 「中止になった」.",
+            "B": "Không mang nghĩa tương đương với từ 「中止になった」.",
+            "D": "Không mang nghĩa tương đương với từ 「中止になった」."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "paraphrase",
+          "remediation": "Học các cặp từ đồng nghĩa trình độ N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-M4-003",
+          "level": "N3",
+          "skill": "Vocabulary",
+          "typeId": "N3-MO-PARA",
+          "stem": "今日の授業はこれで【おしまい】です。",
+          "stimulusId": "N3-M4-003",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "終わり"
+            },
+            {
+              "id": "B",
+              "text": "始まり"
+            },
+            {
+              "id": "C",
+              "text": "途中"
+            },
+            {
+              "id": "D",
+              "text": "続き"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "おしまい = 終わり (kết thúc, hết).",
+          "distractorExplanations": {
+            "B": "Không mang nghĩa tương đương với từ 「おしまい」.",
+            "C": "Không mang nghĩa tương đương với từ 「おしまい」.",
+            "D": "Không mang nghĩa tương đương với từ 「おしまい」."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "paraphrase",
+          "remediation": "Học các cặp từ đồng nghĩa trình độ N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-M4-004",
+          "level": "N3",
+          "skill": "Vocabulary",
+          "typeId": "N3-MO-PARA",
+          "stem": "書類の数字をもう一度【確かめた】。",
+          "stimulusId": "N3-M4-004",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "忘れた"
+            },
+            {
+              "id": "B",
+              "text": "信じた"
+            },
+            {
+              "id": "C",
+              "text": "確認した"
+            },
+            {
+              "id": "D",
+              "text": "調べさせた"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "確かめる = 確認する (xác nhận kiểm tra lại).",
+          "distractorExplanations": {
+            "A": "Không mang nghĩa tương đương với từ 「確かめた」.",
+            "B": "Không mang nghĩa tương đương với từ 「確かめた」.",
+            "D": "Không mang nghĩa tương đương với từ 「確かめた」."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "paraphrase",
+          "remediation": "Học các cặp từ đồng nghĩa trình độ N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-M4-005",
+          "level": "N3",
+          "skill": "Vocabulary",
+          "typeId": "N3-MO-PARA",
+          "stem": "彼が怒っている【わけ】が分からない。",
+          "stimulusId": "N3-M4-005",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "結果"
+            },
+            {
+              "id": "B",
+              "text": "目的"
+            },
+            {
+              "id": "C",
+              "text": "方法"
+            },
+            {
+              "id": "D",
+              "text": "理由"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanationVi": "わけ = 理由 (lý do nguyên do).",
+          "distractorExplanations": {
+            "A": "Không mang nghĩa tương đương với từ 「わけ」.",
+            "B": "Không mang nghĩa tương đương với từ 「わけ」.",
+            "C": "Không mang nghĩa tương đương với từ 「わけ」."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "paraphrase",
+          "remediation": "Học các cặp từ đồng nghĩa trình độ N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-M5-001",
+          "level": "N3",
+          "skill": "Vocabulary",
+          "typeId": "N3-MO-USAG",
+          "stem": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。\n\n【回収】",
+          "stimulusId": "N3-M5-001",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "読み終わった本や新聞紙は、毎週火曜日に集積所で【回収】される。"
+            },
+            {
+              "id": "B",
+              "text": "友達から借りたお金を銀行で【回収】した。"
+            },
+            {
+              "id": "C",
+              "text": "道で落とした財布を交番で無事に【回収】した。"
+            },
+            {
+              "id": "D",
+              "text": "テストの答えを黒板にチョークで【回収】した。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "回収: thu gom rác, sản phẩm lỗi, đồ tái chế theo chu kỳ. Trả tiền mượn dùng 返却, nhận lại ví rơi dùng 受け取る.",
+          "distractorExplanations": {
+            "B": "Sử dụng từ 「回収」 sai ngữ cảnh hoặc sai kết hợp động từ trong câu.",
+            "C": "Sử dụng từ 「回収」 sai ngữ cảnh hoặc sai kết hợp động từ trong câu.",
+            "D": "Sử dụng từ 「回収」 sai ngữ cảnh hoặc sai kết hợp động từ trong câu."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "usage-回収",
+          "remediation": "Học các ví dụ thực tế của từ 回収 trong tiếng Nhật.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-M5-002",
+          "level": "N3",
+          "skill": "Vocabulary",
+          "typeId": "N3-MO-USAG",
+          "stem": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。\n\n【準備】",
+          "stimulusId": "N3-M5-002",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "来週のキャンプに向けて、テントや食材の【準備】を進めている。"
+            },
+            {
+              "id": "B",
+              "text": "彼の身長は毎月ぐんぐん【準備】している。"
+            },
+            {
+              "id": "C",
+              "text": "お湯が沸いたので、お風呂の【準備】を消した。"
+            },
+            {
+              "id": "D",
+              "text": "新しい靴を履いて公園を散歩に【準備】した。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "準備: chuẩn bị cho chuyến đi, kỳ thi. Chiều cao lớn dùng 成長, tắt nước nóng dùng 止める.",
+          "distractorExplanations": {
+            "B": "Sử dụng từ 「準備」 sai ngữ cảnh hoặc sai kết hợp động từ trong câu.",
+            "C": "Sử dụng từ 「準備」 sai ngữ cảnh hoặc sai kết hợp động từ trong câu.",
+            "D": "Sử dụng từ 「準備」 sai ngữ cảnh hoặc sai kết hợp động từ trong câu."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "usage-準備",
+          "remediation": "Học các ví dụ thực tế của từ 準備 trong tiếng Nhật.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-M5-003",
+          "level": "N3",
+          "skill": "Vocabulary",
+          "typeId": "N3-MO-USAG",
+          "stem": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。\n\n【約束】",
+          "stimulusId": "N3-M5-003",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "時計の針が12時を【約束】した。"
+            },
+            {
+              "id": "B",
+              "text": "今度の日曜日に、家族と一緒に動物園へ行く【約束】をした。"
+            },
+            {
+              "id": "C",
+              "text": "新しいスマートフォンの使い方を【約束】した。"
+            },
+            {
+              "id": "D",
+              "text": "雨が降ったので試合を【約束】して帰宅した。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "約束: lời hẹn ước, giao kèo giữa người với người.",
+          "distractorExplanations": {
+            "A": "Sử dụng từ 「約束」 sai ngữ cảnh hoặc sai kết hợp động từ trong câu.",
+            "C": "Sử dụng từ 「約束」 sai ngữ cảnh hoặc sai kết hợp động từ trong câu.",
+            "D": "Sử dụng từ 「約束」 sai ngữ cảnh hoặc sai kết hợp động từ trong câu."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "usage-約束",
+          "remediation": "Học các ví dụ thực tế của từ 約束 trong tiếng Nhật.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-M5-004",
+          "level": "N3",
+          "skill": "Vocabulary",
+          "typeId": "N3-MO-USAG",
+          "stem": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。\n\n【努力】",
+          "stimulusId": "N3-M5-004",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "強い風が吹いて、木々が大きく【努力】した。"
+            },
+            {
+              "id": "B",
+              "text": "机の上の本を棚に【努力】して片付けた。"
+            },
+            {
+              "id": "C",
+              "text": "昨夜見た夢がとても【努力】で面白かった。"
+            },
+            {
+              "id": "D",
+              "text": "毎日の地道な【努力】を積み重ねて、第一志望の大学に合格した。"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanationVi": "努力: nỗ lực, cố gắng hết mình vì mục tiêu.",
+          "distractorExplanations": {
+            "A": "Sử dụng từ 「努力」 sai ngữ cảnh hoặc sai kết hợp động từ trong câu.",
+            "B": "Sử dụng từ 「努力」 sai ngữ cảnh hoặc sai kết hợp động từ trong câu.",
+            "C": "Sử dụng từ 「努力」 sai ngữ cảnh hoặc sai kết hợp động từ trong câu."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "usage-努力",
+          "remediation": "Học các ví dụ thực tế của từ 努力 trong tiếng Nhật.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-M5-005",
+          "level": "N3",
+          "skill": "Vocabulary",
+          "typeId": "N3-MO-USAG",
+          "stem": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。\n\n【遠慮】",
+          "stimulusId": "N3-M5-005",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "彼は足が速くて、クラスで一番【遠慮】だ。"
+            },
+            {
+              "id": "B",
+              "text": "この部屋は日当たりが良くて【遠慮】な環境だ。"
+            },
+            {
+              "id": "C",
+              "text": "今日の夕飯のカレーは【遠慮】に辛い。"
+            },
+            {
+              "id": "D",
+              "text": "どうぞ【遠慮】なさらずに、温かいうちにお召し上がりください。"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanationVi": "遠慮: khách khí, ngại ngùng giữ kẽ. Mời ăn không ngại: 遠慮なさらずに.",
+          "distractorExplanations": {
+            "A": "Sử dụng từ 「遠慮」 sai ngữ cảnh hoặc sai kết hợp động từ trong câu.",
+            "B": "Sử dụng từ 「遠慮」 sai ngữ cảnh hoặc sai kết hợp động từ trong câu.",
+            "C": "Sử dụng từ 「遠慮」 sai ngữ cảnh hoặc sai kết hợp động từ trong câu."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "usage-遠慮",
+          "remediation": "Học các ví dụ thực tế của từ 遠慮 trong tiếng Nhật.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-G1-001",
+          "level": "N3",
+          "skill": "Grammar",
+          "typeId": "N3-GR-FORM",
+          "stem": "朝から何も食べていないのだから、お腹が空く（　　）。",
+          "stimulusId": "N3-G1-001",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "わけがない"
+            },
+            {
+              "id": "B",
+              "text": "わけにはいかない"
+            },
+            {
+              "id": "C",
+              "text": "わけだ"
+            },
+            {
+              "id": "D",
+              "text": "はずがない"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "〜わけだ (thảo nào, hèn chi... là lẽ đương nhiên khi có nguyên nhân trước đó).",
+          "distractorExplanations": {
+            "A": "Mẫu ngữ pháp không phù hợp cấu trúc câu hoặc sai nghĩa ngữ pháp N3.",
+            "B": "Mẫu ngữ pháp không phù hợp cấu trúc câu hoặc sai nghĩa ngữ pháp N3.",
+            "D": "Mẫu ngữ pháp không phù hợp cấu trúc câu hoặc sai nghĩa ngữ pháp N3."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "grammar-forms",
+          "remediation": "Ôn tập ngữ pháp わけだ cấp độ N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-G1-002",
+          "level": "N3",
+          "skill": "Grammar",
+          "typeId": "N3-GR-FORM",
+          "stem": "あんなに真面目な彼が、嘘をつく（　　）。",
+          "stimulusId": "N3-G1-002",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "わけがない"
+            },
+            {
+              "id": "B",
+              "text": "わけだ"
+            },
+            {
+              "id": "C",
+              "text": "わけではない"
+            },
+            {
+              "id": "D",
+              "text": "はずだ"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "〜わけがない (lẽ nào lại, tuyệt đối không có lý do gì như thế).",
+          "distractorExplanations": {
+            "B": "Mẫu ngữ pháp không phù hợp cấu trúc câu hoặc sai nghĩa ngữ pháp N3.",
+            "C": "Mẫu ngữ pháp không phù hợp cấu trúc câu hoặc sai nghĩa ngữ pháp N3.",
+            "D": "Mẫu ngữ pháp không phù hợp cấu trúc câu hoặc sai nghĩa ngữ pháp N3."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "grammar-forms",
+          "remediation": "Ôn tập ngữ pháp わけがない cấp độ N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-G1-003",
+          "level": "N3",
+          "skill": "Grammar",
+          "typeId": "N3-GR-FORM",
+          "stem": "明日は大事な試験があるから、夜更かしする（　　）。",
+          "stimulusId": "N3-G1-003",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "わけがない"
+            },
+            {
+              "id": "B",
+              "text": "わけだ"
+            },
+            {
+              "id": "C",
+              "text": "わけにはいかない"
+            },
+            {
+              "id": "D",
+              "text": "はずがない"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "〜わけにはいかない (không thể làm thế vì lý do đạo đức/nghĩa vụ/hoàn cảnh ép buộc).",
+          "distractorExplanations": {
+            "A": "Mẫu ngữ pháp không phù hợp cấu trúc câu hoặc sai nghĩa ngữ pháp N3.",
+            "B": "Mẫu ngữ pháp không phù hợp cấu trúc câu hoặc sai nghĩa ngữ pháp N3.",
+            "D": "Mẫu ngữ pháp không phù hợp cấu trúc câu hoặc sai nghĩa ngữ pháp N3."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "grammar-forms",
+          "remediation": "Ôn tập ngữ pháp わけにはいかない cấp độ N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-G1-004",
+          "level": "N3",
+          "skill": "Grammar",
+          "typeId": "N3-GR-FORM",
+          "stem": "田中さんは昨日日本に帰国したから、今日は家にいる（　　）。",
+          "stimulusId": "N3-G1-004",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "はずだ"
+            },
+            {
+              "id": "B",
+              "text": "はずがない"
+            },
+            {
+              "id": "C",
+              "text": "わけがない"
+            },
+            {
+              "id": "D",
+              "text": "わけにはいかない"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "〜はずだ (chắc chắn là... dựa trên căn cứ xác thực).",
+          "distractorExplanations": {
+            "B": "Mẫu ngữ pháp không phù hợp cấu trúc câu hoặc sai nghĩa ngữ pháp N3.",
+            "C": "Mẫu ngữ pháp không phù hợp cấu trúc câu hoặc sai nghĩa ngữ pháp N3.",
+            "D": "Mẫu ngữ pháp không phù hợp cấu trúc câu hoặc sai nghĩa ngữ pháp N3."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "grammar-forms",
+          "remediation": "Ôn tập ngữ pháp はずだ cấp độ N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-G1-005",
+          "level": "N3",
+          "skill": "Grammar",
+          "typeId": "N3-GR-FORM",
+          "stem": "厳重に鍵をかけておいたのだから、泥棒が入れる（　　）。",
+          "stimulusId": "N3-G1-005",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "はずだ"
+            },
+            {
+              "id": "B",
+              "text": "わけだ"
+            },
+            {
+              "id": "C",
+              "text": "はずがない"
+            },
+            {
+              "id": "D",
+              "text": "わけではない"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "〜はずがない (chắc chắn không thể nào...).",
+          "distractorExplanations": {
+            "A": "Mẫu ngữ pháp không phù hợp cấu trúc câu hoặc sai nghĩa ngữ pháp N3.",
+            "B": "Mẫu ngữ pháp không phù hợp cấu trúc câu hoặc sai nghĩa ngữ pháp N3.",
+            "D": "Mẫu ngữ pháp không phù hợp cấu trúc câu hoặc sai nghĩa ngữ pháp N3."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "grammar-forms",
+          "remediation": "Ôn tập ngữ pháp はずがない cấp độ N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-G1-006",
+          "level": "N3",
+          "skill": "Grammar",
+          "typeId": "N3-GR-FORM",
+          "stem": "映画館に行く（　　）、家で動画配信サービスを楽しんだ。",
+          "stimulusId": "N3-G1-006",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "とともに"
+            },
+            {
+              "id": "B",
+              "text": "につれて"
+            },
+            {
+              "id": "C",
+              "text": "かわりに"
+            },
+            {
+              "id": "D",
+              "text": "にしたがって"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "〜かわりに (thay vì A thì làm B, hoặc bù lại).",
+          "distractorExplanations": {
+            "A": "Mẫu ngữ pháp không phù hợp cấu trúc câu hoặc sai nghĩa ngữ pháp N3.",
+            "B": "Mẫu ngữ pháp không phù hợp cấu trúc câu hoặc sai nghĩa ngữ pháp N3.",
+            "D": "Mẫu ngữ pháp không phù hợp cấu trúc câu hoặc sai nghĩa ngữ pháp N3."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "grammar-forms",
+          "remediation": "Ôn tập ngữ pháp かわりに cấp độ N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-G1-007",
+          "level": "N3",
+          "skill": "Grammar",
+          "typeId": "N3-GR-FORM",
+          "stem": "山頂に近づく（　　）、気温が次第に下がってきた。",
+          "stimulusId": "N3-G1-007",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "にしたがって"
+            },
+            {
+              "id": "B",
+              "text": "につれて"
+            },
+            {
+              "id": "C",
+              "text": "に伴って"
+            },
+            {
+              "id": "D",
+              "text": "とともに"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "〜につれて (càng... thì càng biến đổi tự nhiên tỉ lệ thuận).",
+          "distractorExplanations": {
+            "A": "Mẫu ngữ pháp không phù hợp cấu trúc câu hoặc sai nghĩa ngữ pháp N3.",
+            "C": "Mẫu ngữ pháp không phù hợp cấu trúc câu hoặc sai nghĩa ngữ pháp N3.",
+            "D": "Mẫu ngữ pháp không phù hợp cấu trúc câu hoặc sai nghĩa ngữ pháp N3."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "grammar-forms",
+          "remediation": "Ôn tập ngữ pháp につれて cấp độ N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-G1-008",
+          "level": "N3",
+          "skill": "Grammar",
+          "typeId": "N3-GR-FORM",
+          "stem": "台風が北上する（　　）、風雨が強まっていった。",
+          "stimulusId": "N3-G1-008",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "にしたがって"
+            },
+            {
+              "id": "B",
+              "text": "につれて"
+            },
+            {
+              "id": "C",
+              "text": "に伴って"
+            },
+            {
+              "id": "D",
+              "text": "とともに"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "〜にしたがって (càng... thì kéo theo sự thay đổi).",
+          "distractorExplanations": {
+            "B": "Mẫu ngữ pháp không phù hợp cấu trúc câu hoặc sai nghĩa ngữ pháp N3.",
+            "C": "Mẫu ngữ pháp không phù hợp cấu trúc câu hoặc sai nghĩa ngữ pháp N3.",
+            "D": "Mẫu ngữ pháp không phù hợp cấu trúc câu hoặc sai nghĩa ngữ pháp N3."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "grammar-forms",
+          "remediation": "Ôn tập ngữ pháp にしたがって cấp độ N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-G1-009",
+          "level": "N3",
+          "skill": "Grammar",
+          "typeId": "N3-GR-FORM",
+          "stem": "今回の事件の詳しい詳細（　　）は、警察が捜査中だ。",
+          "stimulusId": "N3-G1-009",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に対して"
+            },
+            {
+              "id": "B",
+              "text": "にとって"
+            },
+            {
+              "id": "C",
+              "text": "に関して"
+            },
+            {
+              "id": "D",
+              "text": "について"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "〜に関して (liên quan đến... văn phong trang trọng).",
+          "distractorExplanations": {
+            "A": "Mẫu ngữ pháp không phù hợp cấu trúc câu hoặc sai nghĩa ngữ pháp N3.",
+            "B": "Mẫu ngữ pháp không phù hợp cấu trúc câu hoặc sai nghĩa ngữ pháp N3.",
+            "D": "Mẫu ngữ pháp không phù hợp cấu trúc câu hoặc sai nghĩa ngữ pháp N3."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "grammar-forms",
+          "remediation": "Ôn tập ngữ pháp に関して cấp độ N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-G1-010",
+          "level": "N3",
+          "skill": "Grammar",
+          "typeId": "N3-GR-FORM",
+          "stem": "目上の人（　　）は、きちんとした敬語を使うべきだ。",
+          "stimulusId": "N3-G1-010",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "にとって"
+            },
+            {
+              "id": "B",
+              "text": "に対して"
+            },
+            {
+              "id": "C",
+              "text": "に関して"
+            },
+            {
+              "id": "D",
+              "text": "について"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "〜に対して (đối với đối tượng/người tiếp nhận hành vi).",
+          "distractorExplanations": {
+            "A": "Mẫu ngữ pháp không phù hợp cấu trúc câu hoặc sai nghĩa ngữ pháp N3.",
+            "C": "Mẫu ngữ pháp không phù hợp cấu trúc câu hoặc sai nghĩa ngữ pháp N3.",
+            "D": "Mẫu ngữ pháp không phù hợp cấu trúc câu hoặc sai nghĩa ngữ pháp N3."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "grammar-forms",
+          "remediation": "Ôn tập ngữ pháp に対して cấp độ N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-G1-011",
+          "level": "N3",
+          "skill": "Grammar",
+          "typeId": "N3-GR-FORM",
+          "stem": "子供たち（　　）、夏休みは一年で一番楽しい時間だ。",
+          "stimulusId": "N3-G1-011",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "にとって"
+            },
+            {
+              "id": "B",
+              "text": "に対して"
+            },
+            {
+              "id": "C",
+              "text": "に関して"
+            },
+            {
+              "id": "D",
+              "text": "について"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "〜にとって (đối với góc nhìn, lập trường đánh giá của ai).",
+          "distractorExplanations": {
+            "B": "Mẫu ngữ pháp không phù hợp cấu trúc câu hoặc sai nghĩa ngữ pháp N3.",
+            "C": "Mẫu ngữ pháp không phù hợp cấu trúc câu hoặc sai nghĩa ngữ pháp N3.",
+            "D": "Mẫu ngữ pháp không phù hợp cấu trúc câu hoặc sai nghĩa ngữ pháp N3."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "grammar-forms",
+          "remediation": "Ôn tập ngữ pháp にとって cấp độ N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-G1-012",
+          "level": "N3",
+          "skill": "Grammar",
+          "typeId": "N3-GR-FORM",
+          "stem": "疲れてベッドに横になっ（　　）、すぐに眠ってしまった。",
+          "stimulusId": "N3-G1-012",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "たとたん"
+            },
+            {
+              "id": "B",
+              "text": "たびに"
+            },
+            {
+              "id": "C",
+              "text": "ついでに"
+            },
+            {
+              "id": "D",
+              "text": "途端に"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "動詞た形 ＋ とたん (ngay vừa mới... thì hành động bất ngờ ập đến).",
+          "distractorExplanations": {
+            "B": "Mẫu ngữ pháp không phù hợp cấu trúc câu hoặc sai nghĩa ngữ pháp N3.",
+            "C": "Mẫu ngữ pháp không phù hợp cấu trúc câu hoặc sai nghĩa ngữ pháp N3.",
+            "D": "Mẫu ngữ pháp không phù hợp cấu trúc câu hoặc sai nghĩa ngữ pháp N3."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "grammar-forms",
+          "remediation": "Ôn tập ngữ pháp たとたん cấp độ N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-G1-013",
+          "level": "N3",
+          "skill": "Grammar",
+          "typeId": "N3-GR-FORM",
+          "stem": "この曲を聴く（　　）、学生時代の楽しい思い出が蘇る。",
+          "stimulusId": "N3-G1-013",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "たびに"
+            },
+            {
+              "id": "B",
+              "text": "たとたん"
+            },
+            {
+              "id": "C",
+              "text": "ついでに"
+            },
+            {
+              "id": "D",
+              "text": "うちに"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "動詞辞書形 ＋ たびに (cứ mỗi lần... là lại).",
+          "distractorExplanations": {
+            "B": "Mẫu ngữ pháp không phù hợp cấu trúc câu hoặc sai nghĩa ngữ pháp N3.",
+            "C": "Mẫu ngữ pháp không phù hợp cấu trúc câu hoặc sai nghĩa ngữ pháp N3.",
+            "D": "Mẫu ngữ pháp không phù hợp cấu trúc câu hoặc sai nghĩa ngữ pháp N3."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "grammar-forms",
+          "remediation": "Ôn tập ngữ pháp たびに cấp độ N3.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-G2-001",
+          "level": "N3",
+          "skill": "Grammar",
+          "typeId": "N3-GR-STAR",
+          "stem": "どんなに（　　）（　　） ★ （　　）ない。",
+          "stimulusId": "N3-G2-001",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "朝食を"
+            },
+            {
+              "id": "B",
+              "text": "毎朝の"
+            },
+            {
+              "id": "C",
+              "text": "忙しくても"
+            },
+            {
+              "id": "D",
+              "text": "抜くことは"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "Cấu trúc: どんなに〜ても + V-ることはない. Thứ tự: 忙しくても (1) 毎朝の (2) 朝食を (3★) 抜くことは (4). Vị trí sao: 「朝食を」.\nCâu hoàn chỉnh: 「どんなに忙しくても毎朝の朝食を抜くことはない。」",
+          "distractorExplanations": {
+            "B": "Cụm từ 「毎朝の」 nằm ở vị trí khác khi ghép thành câu hoàn chỉnh: 「どんなに忙しくても毎朝の朝食を抜くことはない。」.",
+            "C": "Cụm từ 「忙しくても」 nằm ở vị trí khác khi ghép thành câu hoàn chỉnh: 「どんなに忙しくても毎朝の朝食を抜くことはない。」.",
+            "D": "Cụm từ 「抜くことは」 nằm ở vị trí khác khi ghép thành câu hoàn chỉnh: 「どんなに忙しくても毎朝の朝食を抜くことはない。」."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "star-ordering",
+          "assembledSentence": "どんなに忙しくても毎朝の朝食を抜くことはない。",
+          "remediation": "Khóa cấu trúc ngữ pháp cố định để xác định trật tự câu sao.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-G2-002",
+          "level": "N3",
+          "skill": "Grammar",
+          "typeId": "N3-GR-STAR",
+          "stem": "健康の（　　）（　　） ★ （　　）大切だ。",
+          "stimulusId": "N3-G2-002",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "取れた食事を"
+            },
+            {
+              "id": "B",
+              "text": "バランスの"
+            },
+            {
+              "id": "C",
+              "text": "心がけることが"
+            },
+            {
+              "id": "D",
+              "text": "ためには"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "Cấu trúc: N のためには + バランスの取れた N. Thứ tự: ためには (1) バランスの (2) 取れた食事を (3★) 心がけることが (4). Vị trí sao: 「取れた食事を」.\nCâu hoàn chỉnh: 「健康のためにはバランスの取れた食事を心がけることが大切だ。」",
+          "distractorExplanations": {
+            "B": "Cụm từ 「バランスの」 nằm ở vị trí khác khi ghép thành câu hoàn chỉnh: 「健康のためにはバランスの取れた食事を心がけることが大切だ。」.",
+            "C": "Cụm từ 「心がけることが」 nằm ở vị trí khác khi ghép thành câu hoàn chỉnh: 「健康のためにはバランスの取れた食事を心がけることが大切だ。」.",
+            "D": "Cụm từ 「ためには」 nằm ở vị trí khác khi ghép thành câu hoàn chỉnh: 「健康のためにはバランスの取れた食事を心がけることが大切だ。」."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "star-ordering",
+          "assembledSentence": "健康のためにはバランスの取れた食事を心がけることが大切だ。",
+          "remediation": "Khóa cấu trúc ngữ pháp cố định để xác định trật tự câu sao.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-G2-003",
+          "level": "N3",
+          "skill": "Grammar",
+          "typeId": "N3-GR-STAR",
+          "stem": "日本語が（　　）（　　） ★ （　　）います。",
+          "stimulusId": "N3-G2-003",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "上手に"
+            },
+            {
+              "id": "B",
+              "text": "練習して"
+            },
+            {
+              "id": "C",
+              "text": "毎日"
+            },
+            {
+              "id": "D",
+              "text": "話せるように"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "Cấu trúc: V-るように (để có thể). Thứ tự: 上手に (1) 話せるように (2) 毎日 (3★) 練習して (4). Vị trí sao: 「毎日」.\nCâu hoàn chỉnh: 「日本語が上手に話せるように毎日練習しています。」",
+          "distractorExplanations": {
+            "A": "Cụm từ 「上手に」 nằm ở vị trí khác khi ghép thành câu hoàn chỉnh: 「日本語が上手に話せるように毎日練習しています。」.",
+            "B": "Cụm từ 「練習して」 nằm ở vị trí khác khi ghép thành câu hoàn chỉnh: 「日本語が上手に話せるように毎日練習しています。」.",
+            "D": "Cụm từ 「話せるように」 nằm ở vị trí khác khi ghép thành câu hoàn chỉnh: 「日本語が上手に話せるように毎日練習しています。」."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "star-ordering",
+          "assembledSentence": "日本語が上手に話せるように毎日練習しています。",
+          "remediation": "Khóa cấu trúc ngữ pháp cố định để xác định trật tự câu sao.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-G2-004",
+          "level": "N3",
+          "skill": "Grammar",
+          "typeId": "N3-GR-STAR",
+          "stem": "雨が（　　）（　　） ★ （　　）取り込もう。",
+          "stimulusId": "N3-G2-004",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "洗濯物を"
+            },
+            {
+              "id": "B",
+              "text": "急いで"
+            },
+            {
+              "id": "C",
+              "text": "降らない"
+            },
+            {
+              "id": "D",
+              "text": "うちに"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "Cấu trúc: V-ないうちに (trong lúc chưa mưa). Thứ tự: 降らない (1) うちに (2) 急いで (3★) 洗濯物を (4). Vị trí sao: 「急いで」.\nCâu hoàn chỉnh: 「雨が降らないうちに急いで洗濯物を取り込もう。」",
+          "distractorExplanations": {
+            "A": "Cụm từ 「洗濯物を」 nằm ở vị trí khác khi ghép thành câu hoàn chỉnh: 「雨が降らないうちに急いで洗濯物を取り込もう。」.",
+            "C": "Cụm từ 「降らない」 nằm ở vị trí khác khi ghép thành câu hoàn chỉnh: 「雨が降らないうちに急いで洗濯物を取り込もう。」.",
+            "D": "Cụm từ 「うちに」 nằm ở vị trí khác khi ghép thành câu hoàn chỉnh: 「雨が降らないうちに急いで洗濯物を取り込もう。」."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "star-ordering",
+          "assembledSentence": "雨が降らないうちに急いで洗濯物を取り込もう。",
+          "remediation": "Khóa cấu trúc ngữ pháp cố định để xác định trật tự câu sao.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-G2-005",
+          "level": "N3",
+          "skill": "Grammar",
+          "typeId": "N3-GR-STAR",
+          "stem": "先生の（　　）（　　） ★ （　　）解決した。",
+          "stimulusId": "N3-G2-005",
+          "contextPassage": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "疑問が"
+            },
+            {
+              "id": "B",
+              "text": "聞いた"
+            },
+            {
+              "id": "C",
+              "text": "おかげで"
+            },
+            {
+              "id": "D",
+              "text": "説明を"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "Cấu trúc: V-たおかげで. Thứ tự: 説明を (1) 聞いた (2) おかげで (3★) 疑問が (4). Vị trí sao: 「おかげで」.\nCâu hoàn chỉnh: 「先生の説明を聞いたおかげで疑問が解決した。」",
+          "distractorExplanations": {
+            "A": "Cụm từ 「疑問が」 nằm ở vị trí khác khi ghép thành câu hoàn chỉnh: 「先生の説明を聞いたおかげで疑問が解決した。」.",
+            "B": "Cụm từ 「聞いた」 nằm ở vị trí khác khi ghép thành câu hoàn chỉnh: 「先生の説明を聞いたおかげで疑問が解決した。」.",
+            "D": "Cụm từ 「説明を」 nằm ở vị trí khác khi ghép thành câu hoàn chỉnh: 「先生の説明を聞いたおかげで疑問が解決した。」."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "star-ordering",
+          "assembledSentence": "先生の説明を聞いたおかげで疑問が解決した。",
+          "remediation": "Khóa cấu trúc ngữ pháp cố định để xác định trật tự câu sao.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-G3-001",
+          "level": "N3",
+          "skill": "Grammar",
+          "typeId": "N3-GR-CLOZ",
+          "stem": "文章中の【 1 】に入る最も適切なものを、１・２・３・４から一つ選びなさい。",
+          "stimulusId": "N3-TG-01",
+          "contextPassage": "\n私は先月から、毎朝いつもより1時間早く起きる習慣を始めた。最初は目覚まし時計が鳴っても眠くて起き上がれず、三日坊主で終わってしまうのではないかと【 1 】。\n\nしかし、「起きたらまず美味しいコーヒーを淹れる」という楽しみを作ったことで、次第に無理なく起きられるようになってきた。朝の静かな時間は誰にも邪魔されないため、読書をしたり資格試験の勉強をしたりするのに【 2 】。\n\n夜遅くまで起きて勉強していた頃に比べて、頭がすっきり冴えて集中力も持続する。早起きを始めた【 3 】、毎日の生活に余裕が生まれ、前向きな気持ちで一日をスタートできるようになった。これからもこの良い習慣をずっと続けていきたい【 4 】。\n",
+          "options": [
+            {
+              "id": "A",
+              "text": "安心だった"
+            },
+            {
+              "id": "B",
+              "text": "嬉しかった"
+            },
+            {
+              "id": "C",
+              "text": "心配だった"
+            },
+            {
+              "id": "D",
+              "text": "得意だった"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "心配だった: lo lắng sợ bị bỏ dở giữa chừng (三日坊主).",
+          "distractorExplanations": {
+            "A": "Không phù hợp với mạch văn liên kết câu trong đoạn.",
+            "B": "Không phù hợp với mạch văn liên kết câu trong đoạn.",
+            "D": "Không phù hợp với mạch văn liên kết câu trong đoạn."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "text-grammar",
+          "remediation": "Nắm vững liên kết câu và mẫu câu kết bài.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-G3-002",
+          "level": "N3",
+          "skill": "Grammar",
+          "typeId": "N3-GR-CLOZ",
+          "stem": "文章中の【 2 】に入る最も適切なものを、１・２・３・４から一つ選びなさい。",
+          "stimulusId": "N3-TG-01",
+          "contextPassage": "\n私は先月から、毎朝いつもより1時間早く起きる習慣を始めた。最初は目覚まし時計が鳴っても眠くて起き上がれず、三日坊主で終わってしまうのではないかと【 1 】。\n\nしかし、「起きたらまず美味しいコーヒーを淹れる」という楽しみを作ったことで、次第に無理なく起きられるようになってきた。朝の静かな時間は誰にも邪魔されないため、読書をしたり資格試験の勉強をしたりするのに【 2 】。\n\n夜遅くまで起きて勉強していた頃に比べて、頭がすっきり冴えて集中力も持続する。早起きを始めた【 3 】、毎日の生活に余裕が生まれ、前向きな気持ちで一日をスタートできるようになった。これからもこの良い習慣をずっと続けていきたい【 4 】。\n",
+          "options": [
+            {
+              "id": "A",
+              "text": "めったにない"
+            },
+            {
+              "id": "B",
+              "text": "だらしない"
+            },
+            {
+              "id": "C",
+              "text": "ぴったりだ"
+            },
+            {
+              "id": "D",
+              "text": "もったいない"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "ぴったりだ: thời gian yên tĩnh buổi sáng là hoàn hảo thích hợp nhất cho việc học tập.",
+          "distractorExplanations": {
+            "A": "Không phù hợp với mạch văn liên kết câu trong đoạn.",
+            "B": "Không phù hợp với mạch văn liên kết câu trong đoạn.",
+            "D": "Không phù hợp với mạch văn liên kết câu trong đoạn."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "text-grammar",
+          "remediation": "Nắm vững liên kết câu và mẫu câu kết bài.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-G3-003",
+          "level": "N3",
+          "skill": "Grammar",
+          "typeId": "N3-GR-CLOZ",
+          "stem": "文章中の【 3 】に入る最も適切なものを、１・２・３・４から一つ選びなさい。",
+          "stimulusId": "N3-TG-01",
+          "contextPassage": "\n私は先月から、毎朝いつもより1時間早く起きる習慣を始めた。最初は目覚まし時計が鳴っても眠くて起き上がれず、三日坊主で終わってしまうのではないかと【 1 】。\n\nしかし、「起きたらまず美味しいコーヒーを淹れる」という楽しみを作ったことで、次第に無理なく起きられるようになってきた。朝の静かな時間は誰にも邪魔されないため、読書をしたり資格試験の勉強をしたりするのに【 2 】。\n\n夜遅くまで起きて勉強していた頃に比べて、頭がすっきり冴えて集中力も持続する。早起きを始めた【 3 】、毎日の生活に余裕が生まれ、前向きな気持ちで一日をスタートできるようになった。これからもこの良い習慣をずっと続けていきたい【 4 】。\n",
+          "options": [
+            {
+              "id": "A",
+              "text": "せいで"
+            },
+            {
+              "id": "B",
+              "text": "わりに"
+            },
+            {
+              "id": "C",
+              "text": "くせに"
+            },
+            {
+              "id": "D",
+              "text": "おかげで"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanationVi": "〜おかげで: nhờ có việc dậy sớm mà cuộc sống thảnh thơi.",
+          "distractorExplanations": {
+            "A": "Không phù hợp với mạch văn liên kết câu trong đoạn.",
+            "B": "Không phù hợp với mạch văn liên kết câu trong đoạn.",
+            "C": "Không phù hợp với mạch văn liên kết câu trong đoạn."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "text-grammar",
+          "remediation": "Nắm vững liên kết câu và mẫu câu kết bài.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-G3-004",
+          "level": "N3",
+          "skill": "Grammar",
+          "typeId": "N3-GR-CLOZ",
+          "stem": "文章中の【 4 】に入る最も適切なものを、１・２・３・４から一つ選びなさい。",
+          "stimulusId": "N3-TG-01",
+          "contextPassage": "\n私は先月から、毎朝いつもより1時間早く起きる習慣を始めた。最初は目覚まし時計が鳴っても眠くて起き上がれず、三日坊主で終わってしまうのではないかと【 1 】。\n\nしかし、「起きたらまず美味しいコーヒーを淹れる」という楽しみを作ったことで、次第に無理なく起きられるようになってきた。朝の静かな時間は誰にも邪魔されないため、読書をしたり資格試験の勉強をしたりするのに【 2 】。\n\n夜遅くまで起きて勉強していた頃に比べて、頭がすっきり冴えて集中力も持続する。早起きを始めた【 3 】、毎日の生活に余裕が生まれ、前向きな気持ちで一日をスタートできるようになった。これからもこの良い習慣をずっと続けていきたい【 4 】。\n",
+          "options": [
+            {
+              "id": "A",
+              "text": "はずがない"
+            },
+            {
+              "id": "B",
+              "text": "と思っている"
+            },
+            {
+              "id": "C",
+              "text": "わけにはいかない"
+            },
+            {
+              "id": "D",
+              "text": "っこない"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "〜と思っている: tôi mong muốn/nghĩ rằng sẽ tiếp tục duy trì thói quen tốt này.",
+          "distractorExplanations": {
+            "A": "Không phù hợp với mạch văn liên kết câu trong đoạn.",
+            "C": "Không phù hợp với mạch văn liên kết câu trong đoạn.",
+            "D": "Không phù hợp với mạch văn liên kết câu trong đoạn."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "text-grammar",
+          "remediation": "Nắm vững liên kết câu và mẫu câu kết bài.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Official JLPT N3 Test Blueprint"
+        },
+        {
+          "id": "N3-RD-SHOR-001",
+          "level": "N3",
+          "skill": "Reading",
+          "typeId": "N3-RD-SHOR",
+          "stem": "筆者が散歩について最も伝えたいことは何か。",
+          "stimulusId": "N3-RD-SHOR-001",
+          "contextPassage": "【短文 1：散歩の効用】\n\n健康のために毎日ウォーキングをしている人は多いが、ただ速く歩くだけではもったいない。景色を眺めながら季節の花の香りに気づいたり、普段通らない小道に入って新しい店を発見したりする「心のゆとり」を持つことで、脳が心地よくリフレッシュされる。散歩とは、身体の運動であると同時に、日々のストレスを解消するための精神的な時間でもあるのだ。",
+          "options": [
+            {
+              "id": "A",
+              "text": "健康のためには毎日休まずに10キロ以上速歩きしなければならない。"
+            },
+            {
+              "id": "B",
+              "text": "新しい店を発見するためだけに散歩のルートを決めるべきだ。"
+            },
+            {
+              "id": "C",
+              "text": "身体の運動効果はほとんどないので、散歩は時間の無駄である。"
+            },
+            {
+              "id": "D",
+              "text": "速く歩く運動効果だけでなく、心のゆとりを持って景色を楽しむことが大切だ。"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanationVi": "Tác giả khuyên khi đi dạo không chỉ tập trung đi nhanh cho khỏe người mà cần thong thả ngắm cảnh sắc để thư thái tinh thần.",
+          "distractorExplanations": {
+            "A": "Không phù hợp với nội dung thông điệp của đoạn văn.",
+            "B": "Không phù hợp với nội dung thông điệp của đoạn văn.",
+            "C": "Không phù hợp với nội dung thông điệp của đoạn văn."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "reading-short",
+          "remediation": "Tìm câu kết hoặc câu then chốt diễn đạt cảm xúc/ý kiến của tác giả.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original N3 Reading Corpus"
+        },
+        {
+          "id": "N3-RD-SHOR-002",
+          "level": "N3",
+          "skill": "Reading",
+          "typeId": "N3-RD-SHOR",
+          "stem": "この文章の内容として最も適切なものはどれか。",
+          "stimulusId": "N3-RD-SHOR-002",
+          "contextPassage": "【短文 2：挨拶の力】\n\n朝、近所の人や職場の同僚に自分から明るく「おはようございます」と声をかけるだけで、その日一日が気持ちよくスタートできる。挨拶は単なるマナーではなく、「私はあなたを歓迎し、敵意を持っていません」という安心感を相手に届ける大切なサインなのだ。相手からの返事を待つのではなく、自分から進んで笑顔で声をかける習慣を身につけたい。",
+          "options": [
+            {
+              "id": "A",
+              "text": "挨拶は相手に安心感を届けるサインであり、自分から進んで声をかけることが大切だ。"
+            },
+            {
+              "id": "B",
+              "text": "相手が挨拶を返してくれない場合は、二度と挨拶をしてはいけない。"
+            },
+            {
+              "id": "C",
+              "text": "朝の挨拶さえ完璧にしておけば、仕事でのマナーは一切不要である。"
+            },
+            {
+              "id": "D",
+              "text": "親しい友人同士の間では、挨拶は省略したほうが親密になれる。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "Chào hỏi là tín hiệu trao gửi sự an tâm, và cần chủ động mỉm cười chào trước.",
+          "distractorExplanations": {
+            "B": "Không phù hợp với nội dung thông điệp của đoạn văn.",
+            "C": "Không phù hợp với nội dung thông điệp của đoạn văn.",
+            "D": "Không phù hợp với nội dung thông điệp của đoạn văn."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "reading-short",
+          "remediation": "Tìm câu kết hoặc câu then chốt diễn đạt cảm xúc/ý kiến của tác giả.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original N3 Reading Corpus"
+        },
+        {
+          "id": "N3-RD-SHOR-003",
+          "level": "N3",
+          "skill": "Reading",
+          "typeId": "N3-RD-SHOR",
+          "stem": "筆者が主張していることは何か。",
+          "stimulusId": "N3-RD-SHOR-003",
+          "contextPassage": "【短文 3：スマートフォンの使い方】\n\nスマートフォンは非常に便利で、知りたい情報が手元ですぐに手に入る。しかし、食事中や人と会話をしている最中にも画面ばかりを見つめていると、目の前にいる大切な人との関係を損なってしまう。デジタル機器を使いこなすこととは、いつでも画面に縛られることではなく、必要な時だけ賢く利用し、対面の時間を尊重する自制心を持つことである。",
+          "options": [
+            {
+              "id": "A",
+              "text": "人と会話するときは、スマホで相手の言葉をすべて録音すべきだ。"
+            },
+            {
+              "id": "B",
+              "text": "スマホの便利さを享受しつつも、対面の時間を大切にする自制心が必要だ。"
+            },
+            {
+              "id": "C",
+              "text": "スマホは人間関係を完全に破壊するので、今すぐ解約すべきである。"
+            },
+            {
+              "id": "D",
+              "text": "食事中は動画を見ながら食べるほうが消化に良い。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "Sử dụng smartphone thông minh là biết làm chủ, trân trọng cuộc trò chuyện trực tiếp đối mặt.",
+          "distractorExplanations": {
+            "A": "Không phù hợp với nội dung thông điệp của đoạn văn.",
+            "C": "Không phù hợp với nội dung thông điệp của đoạn văn.",
+            "D": "Không phù hợp với nội dung thông điệp của đoạn văn."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "reading-short",
+          "remediation": "Tìm câu kết hoặc câu then chốt diễn đạt cảm xúc/ý kiến của tác giả.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original N3 Reading Corpus"
+        },
+        {
+          "id": "N3-RD-SHOR-004",
+          "level": "N3",
+          "skill": "Reading",
+          "typeId": "N3-RD-SHOR",
+          "stem": "筆者が植物を育てて感じたことは何か。",
+          "stimulusId": "N3-RD-SHOR-004",
+          "contextPassage": "【短文 4：植物を育てる楽しみ】\n\nベランダで小さな鉢植えの花やハーブを育て始めた。毎日水をやり、日光に当てる世話を続けていると、小さな新しい芽が出ただけで驚くほど嬉しい気持ちになる。植物は人間の都合通りには急成長しない。じっくりと時間をかけて育つ姿を見守ることで、日常生活で忘れかけていた「待つことの豊かさ」を教えてもらった気がする。",
+          "options": [
+            {
+              "id": "A",
+              "text": "植物は肥料を大量に与えれば、人間の思い通りに何倍も早く成長する。"
+            },
+            {
+              "id": "B",
+              "text": "ベランダでの植物栽培は毎日の水やりが面倒で後悔している。"
+            },
+            {
+              "id": "C",
+              "text": "花よりも野菜を育ててスーパーで買う食費を節約すべきだった。"
+            },
+            {
+              "id": "D",
+              "text": "時間をかけて育つ植物の世話を通じて、待つことの大切さと豊かさを学んだ。"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanationVi": "Trồng cây giúp tác giả cảm nhận được vẻ đẹp của sự nhẫn nại, kiên nhẫn chờ đợi.",
+          "distractorExplanations": {
+            "A": "Không phù hợp với nội dung thông điệp của đoạn văn.",
+            "B": "Không phù hợp với nội dung thông điệp của đoạn văn.",
+            "C": "Không phù hợp với nội dung thông điệp của đoạn văn."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "reading-short",
+          "remediation": "Tìm câu kết hoặc câu then chốt diễn đạt cảm xúc/ý kiến của tác giả.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original N3 Reading Corpus"
+        },
+        {
+          "id": "N3-MED-01-Q01",
+          "level": "N3",
+          "skill": "Reading",
+          "typeId": "N3-RD-MEDI",
+          "stem": "筆者が手紙を書くときに感じている「喜び」とはどのようなものか。",
+          "stimulusId": "N3-MED-01",
+          "contextPassage": "【中文 1：手紙の温もり】\n\n電子メールやメッセージアプリが普及した現代、用件を伝えるだけなら数秒で済むようになった。文字の打ち間違いも簡単に修正でき、画像や動画も一瞬で相手に送ることができる。現代の通信技術は、人々のコミュニケーションを劇的に効率化させた。\n\nしかし、私は今でも年に数回、親しい友人や恩師に手書きの手紙を送るようにしている。便箋や切手を選び、相手の顔を思い浮かべながら一文字一文字丁寧にペンを走らせる。そこにはメールにはない「時間をかける喜び」がある。手書きの文字の大きさや筆圧には、書き手のその時の感情や人柄が自然とにじみ出る。\n\n郵便受けに届いた封筒を手にしたとき、相手は「自分のためにわざわざ時間を割いて書いてくれたのだ」という温もりを感じるはずだ。効率ばかりが求められる時代だからこそ、手紙という不便で豊かな対話の形を大切に守り続けたい。",
+          "options": [
+            {
+              "id": "A",
+              "text": "メールのように何百人もの友人に同時に同じ内容を一斉送信できること。"
+            },
+            {
+              "id": "B",
+              "text": "書き間違えた文字をパソコンのボタン一つで綺麗に消去できること。"
+            },
+            {
+              "id": "C",
+              "text": "郵便局で最も高い切手を購入して自分の裕福さをアピールできること。"
+            },
+            {
+              "id": "D",
+              "text": "相手の顔を思い浮かべながら、一文字一文字に時間をかけて丁寧に書くこと。"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanationVi": "Đoạn 2 chỉ ra: niềm vui khi viết thư tay là dành thời gian, nắn nót từng chữ và nghĩ về người nhận.",
+          "distractorExplanations": {
+            "A": "Sai với ý của tác giả trong bài viết.",
+            "B": "Sai với ý của tác giả trong bài viết.",
+            "C": "Sai với ý của tác giả trong bài viết."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "reading-medium",
+          "remediation": "Đọc kĩ đoạn văn chứa từ khóa tương ứng với câu hỏi.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original N3 Reading Corpus"
+        },
+        {
+          "id": "N3-MED-01-Q02",
+          "level": "N3",
+          "skill": "Reading",
+          "typeId": "N3-RD-MEDI",
+          "stem": "この文章で筆者が最も主張したいことはどれか。",
+          "stimulusId": "N3-MED-01",
+          "contextPassage": "【中文 1：手紙の温もり】\n\n電子メールやメッセージアプリが普及した現代、用件を伝えるだけなら数秒で済むようになった。文字の打ち間違いも簡単に修正でき、画像や動画も一瞬で相手に送ることができる。現代の通信技術は、人々のコミュニケーションを劇的に効率化させた。\n\nしかし、私は今でも年に数回、親しい友人や恩師に手書きの手紙を送るようにしている。便箋や切手を選び、相手の顔を思い浮かべながら一文字一文字丁寧にペンを走らせる。そこにはメールにはない「時間をかける喜び」がある。手書きの文字の大きさや筆圧には、書き手のその時の感情や人柄が自然とにじみ出る。\n\n郵便受けに届いた封筒を手にしたとき、相手は「自分のためにわざわざ時間を割いて書いてくれたのだ」という温もりを感じるはずだ。効率ばかりが求められる時代だからこそ、手紙という不便で豊かな対話の形を大切に守り続けたい。",
+          "options": [
+            {
+              "id": "A",
+              "text": "便利で効率的な時代だからこそ、手書きの手紙が持つ温かい対話の価値を大切にしたい。"
+            },
+            {
+              "id": "B",
+              "text": "電子メールやSNSはすべて人間関係を破壊するので、今すぐ使用をやめるべきだ。"
+            },
+            {
+              "id": "C",
+              "text": "手紙の返事は必ず届いた当日の消印で送り返さなければマナー違反である。"
+            },
+            {
+              "id": "D",
+              "text": "文字の上手な人だけが手紙を書く権利があり、下手な人はメールに限定すべきだ。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "Đoạn kết khẳng định: chính trong thời đại số chạy theo tiện lợi, bức thư tay chứa đựng sự ấm áp chân thành càng đáng trân quý.",
+          "distractorExplanations": {
+            "B": "Sai với ý của tác giả trong bài viết.",
+            "C": "Sai với ý của tác giả trong bài viết.",
+            "D": "Sai với ý của tác giả trong bài viết."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "reading-medium",
+          "remediation": "Đọc kĩ đoạn văn chứa từ khóa tương ứng với câu hỏi.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original N3 Reading Corpus"
+        },
+        {
+          "id": "N3-MED-02-Q01",
+          "level": "N3",
+          "skill": "Reading",
+          "typeId": "N3-RD-MEDI",
+          "stem": "夜眠っている間に、人間の脳の中で何が行われているか。",
+          "stimulusId": "N3-MED-02",
+          "contextPassage": "【中文 2：睡眠と学習効果の関係】\n\n「試験の前日は徹夜で勉強した方がたくさん覚えられる」と考えている学生は少なくない。しかし、脳科学の研究によると、睡眠時間を削って詰め込んだ知識は、翌日にはその大部分が忘れ去られてしまうことが明らかになっている。\n\n人間の脳は、日中に見聞きした膨大な情報を、夜眠っている間に整理し、重要な記憶として脳の奥深く（海馬から大脳皮質）へ定着させる働きを持っている。特に深いノンレム睡眠と夢を見るレム睡眠が交互に繰り返されることで、新しく学んだ知識と過去の記憶が結びつき、理解が深まるのである。\n\nつまり、睡眠は単なる身体の休息ではなく、「学習の仕上げのプロセス」そのものなのだ。試験で最高の実力を発揮したいのであれば、直前の徹夜を避け、毎日最低でも7時間の十分な睡眠を確保することが、最も科学的で効率的な勉強法なのである。",
+          "options": [
+            {
+              "id": "A",
+              "text": "過去の記憶がすべて自動的に消去され、脳が完全に空っぽになる作業。"
+            },
+            {
+              "id": "B",
+              "text": "夢を見ることによって、翌日の試験の問題を予知する作業。"
+            },
+            {
+              "id": "C",
+              "text": "昼間に学んだ情報が整理され、長期的な記憶として脳に定着する作業。"
+            },
+            {
+              "id": "D",
+              "text": "睡眠中は脳の活動が完全に停止し、何の処理も行われない。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "Đoạn 2 nêu rõ: trong lúc ngủ não sàng lọc, sắp xếp thông tin ban ngày thành ký ức dài hạn.",
+          "distractorExplanations": {
+            "A": "Sai với ý của tác giả trong bài viết.",
+            "B": "Sai với ý của tác giả trong bài viết.",
+            "D": "Sai với ý của tác giả trong bài viết."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "reading-medium",
+          "remediation": "Đọc kĩ đoạn văn chứa từ khóa tương ứng với câu hỏi.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original N3 Reading Corpus"
+        },
+        {
+          "id": "N3-MED-02-Q02",
+          "level": "N3",
+          "skill": "Reading",
+          "typeId": "N3-RD-MEDI",
+          "stem": "筆者が勧める最も効果的な試験対策の勉強法はどれか。",
+          "stimulusId": "N3-MED-02",
+          "contextPassage": "【中文 2：睡眠と学習効果の関係】\n\n「試験の前日は徹夜で勉強した方がたくさん覚えられる」と考えている学生は少なくない。しかし、脳科学の研究によると、睡眠時間を削って詰め込んだ知識は、翌日にはその大部分が忘れ去られてしまうことが明らかになっている。\n\n人間の脳は、日中に見聞きした膨大な情報を、夜眠っている間に整理し、重要な記憶として脳の奥深く（海馬から大脳皮質）へ定着させる働きを持っている。特に深いノンレム睡眠と夢を見るレム睡眠が交互に繰り返されることで、新しく学んだ知識と過去の記憶が結びつき、理解が深まるのである。\n\nつまり、睡眠は単なる身体の休息ではなく、「学習の仕上げのプロセス」そのものなのだ。試験で最高の実力を発揮したいのであれば、直前の徹夜を避け、毎日最低でも7時間の十分な睡眠を確保することが、最も科学的で効率的な勉強法なのである。",
+          "options": [
+            {
+              "id": "A",
+              "text": "試験の3日前から一睡もせずに24時間連続で教科書を丸暗記すること。"
+            },
+            {
+              "id": "B",
+              "text": "睡眠時間は2時間だけに抑えて、残りの時間をすべて過去問演習に充てること。"
+            },
+            {
+              "id": "C",
+              "text": "昼間に一切勉強をせず、夜の睡眠中だけイヤホンで英語の音声を流し続けること。"
+            },
+            {
+              "id": "D",
+              "text": "試験前日も徹夜をせず、毎日最低7時間の十分な睡眠をとって知識を定着させること。"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanationVi": "Đoạn cuối khuyên ngủ đủ 7 tiếng mỗi ngày là phương pháp học tập khoa học và năng suất nhất.",
+          "distractorExplanations": {
+            "A": "Sai với ý của tác giả trong bài viết.",
+            "B": "Sai với ý của tác giả trong bài viết.",
+            "C": "Sai với ý của tác giả trong bài viết."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "reading-medium",
+          "remediation": "Đọc kĩ đoạn văn chứa từ khóa tương ứng với câu hỏi.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original N3 Reading Corpus"
+        },
+        {
+          "id": "N3-MED-03-Q01",
+          "level": "N3",
+          "skill": "Reading",
+          "typeId": "N3-RD-MEDI",
+          "stem": "環境保護において、ゴミの分別以上に最も効果的な対策として何が挙げられているか。",
+          "stimulusId": "N3-MED-03",
+          "contextPassage": "【中文 3：リサイクルの意識と工夫】\n\nスーパーのレジ袋が有料化されてから数年が経ち、買い物にマイバッグを持参する光景はすっかり日常となった。プラスチックゴミによる海洋汚染や地球温暖化の問題が広く知られるようになり、環境に対する人々の意識は確実に高まっている。\n\nしかし、環境保護は単にゴミを分別したりエコバッグを持参したりするだけで完結するものではない。最も効果的な対策は、そもそも「不要なゴミを出さないこと（リデュース）」である。買い物の際に過剰な包装を断ったり、詰め替え用の商品を選んだり、まだ使えるものを修理して長く大切に使い続けたりする工夫が求められる。\n\n小さな一人ひとりの行動は、一見すると微力に思えるかもしれない。しかし、地域社会の全員が日々の生活習慣を少しずつ見直すことで、地球の未来を守る大きな力となるのである。",
+          "options": [
+            {
+              "id": "A",
+              "text": "すべてのプラスチック製品の使用を今すぐ全世界で一斉に禁止すること。"
+            },
+            {
+              "id": "B",
+              "text": "不要なゴミを最初から発生させない「リデュース」を意識して行動すること。"
+            },
+            {
+              "id": "C",
+              "text": "マイバッグを毎日10個以上購入して家にストックしておくこと。"
+            },
+            {
+              "id": "D",
+              "text": "ゴミはすべて海に沈めて魚の住み処として再利用すること。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "Đoạn 2 chỉ ra: biện pháp căn cơ nhất là 'Reduce' (không làm phát sinh rác thừa ngay từ đầu).",
+          "distractorExplanations": {
+            "A": "Sai với ý của tác giả trong bài viết.",
+            "C": "Sai với ý của tác giả trong bài viết.",
+            "D": "Sai với ý của tác giả trong bài viết."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "reading-medium",
+          "remediation": "Đọc kĩ đoạn văn chứa từ khóa tương ứng với câu hỏi.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original N3 Reading Corpus"
+        },
+        {
+          "id": "N3-MED-03-Q02",
+          "level": "N3",
+          "skill": "Reading",
+          "typeId": "N3-RD-MEDI",
+          "stem": "この文章の結論として、筆者が強調していることはどれか。",
+          "stimulusId": "N3-MED-03",
+          "contextPassage": "【中文 3：リサイクルの意識と工夫】\n\nスーパーのレジ袋が有料化されてから数年が経ち、買い物にマイバッグを持参する光景はすっかり日常となった。プラスチックゴミによる海洋汚染や地球温暖化の問題が広く知られるようになり、環境に対する人々の意識は確実に高まっている。\n\nしかし、環境保護は単にゴミを分別したりエコバッグを持参したりするだけで完結するものではない。最も効果的な対策は、そもそも「不要なゴミを出さないこと（リデュース）」である。買い物の際に過剰な包装を断ったり、詰め替え用の商品を選んだり、まだ使えるものを修理して長く大切に使い続けたりする工夫が求められる。\n\n小さな一人ひとりの行動は、一見すると微力に思えるかもしれない。しかし、地域社会の全員が日々の生活習慣を少しずつ見直すことで、地球の未来を守る大きな力となるのである。",
+          "options": [
+            {
+              "id": "A",
+              "text": "個人の努力は微力で何の意味もないので、政府の法律改正だけを待つべきだ。"
+            },
+            {
+              "id": "B",
+              "text": "環境問題は専門家だけに任せておけば、一般市民は何も考える必要はない。"
+            },
+            {
+              "id": "C",
+              "text": "過剰包装の製品のほうが衛生的であるため、エコ活動はすべて中止すべきだ。"
+            },
+            {
+              "id": "D",
+              "text": "一人ひとりの日常の小さな工夫の積み重ねが、地球の未来を守る大きな力になる。"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanationVi": "Đoạn kết nhấn mạnh hành động nhỏ của từng cá nhân khi gộp lại sẽ tạo ra sức mạnh to lớn bảo vệ Trái Đất.",
+          "distractorExplanations": {
+            "A": "Sai với ý của tác giả trong bài viết.",
+            "B": "Sai với ý của tác giả trong bài viết.",
+            "C": "Sai với ý của tác giả trong bài viết."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "reading-medium",
+          "remediation": "Đọc kĩ đoạn văn chứa từ khóa tương ứng với câu hỏi.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original N3 Reading Corpus"
+        },
+        {
+          "id": "N3-LONG-01-Q01",
+          "level": "N3",
+          "skill": "Reading",
+          "typeId": "N3-RD-LONG",
+          "stem": "第一段落において、筆者は繰り返しの日常についてどのように述べているか。",
+          "stimulusId": "N3-LONG-01",
+          "contextPassage": "【長文 1：旅が教えてくれるもの】\n\n普段の生活の中で、私たちは時間に追われ、決まったスケジュール通りに行動することに慣れきってしまっている。朝起きて同じ電車に乗り、同じ職場で仕事をし、同じ道を帰る。こうした繰り返しの日常は安心感を与えてくれる一方で、知らず知らずのうちに私たちの視野を狭め、感受性を鈍らせてしまうことがある。\n\nそんな日常から飛び出し、見知らぬ土地へ旅に出ることには大きな意義がある。旅先では、言葉や習慣の違いに戸惑ったり、電車の乗り換えを間違えて道に迷ったりと、思い通りにいかないハプニングの連続である。しかし、そうした予期せぬトラブルを解決しようと頭を働かせ、地元の人々の温かい親切に触れる中で、私たちは普段眠っていた五感を研ぎ澄まされることになる。\n\nさらに、旅は「自分自身の生活を外側から客観的に見つめ直す」貴重な機会を与えてくれる。日常を遠く離れた場所から眺めてみることで、自分が普段どれほど小さな悩みに囚われていたのかに気づかされたり、当たり前だと思っていた家族や友人たちの存在がいかにかけがえのないものだったのかを痛感したりする。\n\n旅から戻ったとき、自分の住む見慣れた街が、以前とは少し違った新鮮な輝きを放って見えることがある。旅とは、単に遠くの観光地を見物することではなく、新たな視座を手に入れて、自分自身の日常をより深く豊かに生き直すための心の再生の旅なのである。",
+          "options": [
+            {
+              "id": "A",
+              "text": "毎日新しい刺激に満ちており、人間として最も理想的で充実した生き方である。"
+            },
+            {
+              "id": "B",
+              "text": "退屈すぎて誰もが精神的な病気にかかってしまうため、絶対に避けるべきである。"
+            },
+            {
+              "id": "C",
+              "text": "電車や仕事のスケジュールが毎日変わるため、ストレスが非常に大きい。"
+            },
+            {
+              "id": "D",
+              "text": "安心感がある一方で、無意識のうちに視野を狭め感受性を鈍らせてしまうことがある。"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanationVi": "Đoạn 1 nêu: nhịp sống quen thuộc đem lại an tâm nhưng vô tình thu hẹp góc nhìn và làm cùn mòn sự nhạy bén của cảm xúc.",
+          "distractorExplanations": {
+            "A": "Sai lệch với tư tưởng chủ đạo của bài viết.",
+            "B": "Sai lệch với tư tưởng chủ đạo của bài viết.",
+            "C": "Sai lệch với tư tưởng chủ đạo của bài viết."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "reading-long",
+          "remediation": "Nắm vững kết cấu bài văn và thông điệp triết lý nhân sinh của tác giả.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original N3 Reading Corpus"
+        },
+        {
+          "id": "N3-LONG-01-Q02",
+          "level": "N3",
+          "skill": "Reading",
+          "typeId": "N3-RD-LONG",
+          "stem": "第二段落で、見知らぬ土地でのハプニングやトラブルがもたらす効果として説明されていることは何か。",
+          "stimulusId": "N3-LONG-01",
+          "contextPassage": "【長文 1：旅が教えてくれるもの】\n\n普段の生活の中で、私たちは時間に追われ、決まったスケジュール通りに行動することに慣れきってしまっている。朝起きて同じ電車に乗り、同じ職場で仕事をし、同じ道を帰る。こうした繰り返しの日常は安心感を与えてくれる一方で、知らず知らずのうちに私たちの視野を狭め、感受性を鈍らせてしまうことがある。\n\nそんな日常から飛び出し、見知らぬ土地へ旅に出ることには大きな意義がある。旅先では、言葉や習慣の違いに戸惑ったり、電車の乗り換えを間違えて道に迷ったりと、思い通りにいかないハプニングの連続である。しかし、そうした予期せぬトラブルを解決しようと頭を働かせ、地元の人々の温かい親切に触れる中で、私たちは普段眠っていた五感を研ぎ澄まされることになる。\n\nさらに、旅は「自分自身の生活を外側から客観的に見つめ直す」貴重な機会を与えてくれる。日常を遠く離れた場所から眺めてみることで、自分が普段どれほど小さな悩みに囚われていたのかに気づかされたり、当たり前だと思っていた家族や友人たちの存在がいかにかけがえのないものだったのかを痛感したりする。\n\n旅から戻ったとき、自分の住む見慣れた街が、以前とは少し違った新鮮な輝きを放って見えることがある。旅とは、単に遠くの観光地を見物することではなく、新たな視座を手に入れて、自分自身の日常をより深く豊かに生き直すための心の再生の旅なのである。",
+          "options": [
+            {
+              "id": "A",
+              "text": "頭を働かせて解決し親切に触れることで、眠っていた五感が研ぎ澄まされること。"
+            },
+            {
+              "id": "B",
+              "text": "二度と旅行に行きたくなくなるほど恐怖を感じ、家が一番安全だと確信すること。"
+            },
+            {
+              "id": "C",
+              "text": "警察や大使館の厄介になり、多額の損害賠償金を支払わなければならないこと。"
+            },
+            {
+              "id": "D",
+              "text": "旅行会社の責任を追及して、ツアー代金の全額返金を勝ち取れること。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "Đoạn 2 giải thích việc tự xoay xở giải quyết sự cố và đón nhận lòng tốt người bản địa giúp đánh thức các giác quan.",
+          "distractorExplanations": {
+            "B": "Sai lệch với tư tưởng chủ đạo của bài viết.",
+            "C": "Sai lệch với tư tưởng chủ đạo của bài viết.",
+            "D": "Sai lệch với tư tưởng chủ đạo của bài viết."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "reading-long",
+          "remediation": "Nắm vững kết cấu bài văn và thông điệp triết lý nhân sinh của tác giả.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original N3 Reading Corpus"
+        },
+        {
+          "id": "N3-LONG-01-Q03",
+          "level": "N3",
+          "skill": "Reading",
+          "typeId": "N3-RD-LONG",
+          "stem": "筆者が考える「旅の真の意義」とはどのようなものか。",
+          "stimulusId": "N3-LONG-01",
+          "contextPassage": "【長文 1：旅が教えてくれるもの】\n\n普段の生活の中で、私たちは時間に追われ、決まったスケジュール通りに行動することに慣れきってしまっている。朝起きて同じ電車に乗り、同じ職場で仕事をし、同じ道を帰る。こうした繰り返しの日常は安心感を与えてくれる一方で、知らず知らずのうちに私たちの視野を狭め、感受性を鈍らせてしまうことがある。\n\nそんな日常から飛び出し、見知らぬ土地へ旅に出ることには大きな意義がある。旅先では、言葉や習慣の違いに戸惑ったり、電車の乗り換えを間違えて道に迷ったりと、思い通りにいかないハプニングの連続である。しかし、そうした予期せぬトラブルを解決しようと頭を働かせ、地元の人々の温かい親切に触れる中で、私たちは普段眠っていた五感を研ぎ澄まされることになる。\n\nさらに、旅は「自分自身の生活を外側から客観的に見つめ直す」貴重な機会を与えてくれる。日常を遠く離れた場所から眺めてみることで、自分が普段どれほど小さな悩みに囚われていたのかに気づかされたり、当たり前だと思っていた家族や友人たちの存在がいかにかけがえのないものだったのかを痛感したりする。\n\n旅から戻ったとき、自分の住む見慣れた街が、以前とは少し違った新鮮な輝きを放って見えることがある。旅とは、単に遠くの観光地を見物することではなく、新たな視座を手に入れて、自分自身の日常をより深く豊かに生き直すための心の再生の旅なのである。",
+          "options": [
+            {
+              "id": "A",
+              "text": "できるだけ多くの有名観光地で写真を撮り、SNSに投稿して自慢すること。"
+            },
+            {
+              "id": "B",
+              "text": "豪華なホテルに泊まり、日常では決して食べられない高価な料理を味わうこと。"
+            },
+            {
+              "id": "C",
+              "text": "日常を客観的に見つめ直して新たな視点を手に入れ、日々の生活を豊かに生き直すこと。"
+            },
+            {
+              "id": "D",
+              "text": "今までの仕事をすべて辞めて、旅先の外国に永久に移住すること。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "Đoạn cuối kết luận: ý nghĩa chân chính của chuyến đi là làm mới góc nhìn để quay về sống sâu sắc hơn mỗi ngày.",
+          "distractorExplanations": {
+            "A": "Sai lệch với tư tưởng chủ đạo của bài viết.",
+            "B": "Sai lệch với tư tưởng chủ đạo của bài viết.",
+            "D": "Sai lệch với tư tưởng chủ đạo của bài viết."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "reading-long",
+          "remediation": "Nắm vững kết cấu bài văn và thông điệp triết lý nhân sinh của tác giả.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original N3 Reading Corpus"
+        },
+        {
+          "id": "N3-LONG-02-Q01",
+          "level": "N3",
+          "skill": "Reading",
+          "typeId": "N3-RD-LONG",
+          "stem": "第一段落で、自転車の練習の例を挙げて筆者が言いたいことは何か。",
+          "stimulusId": "N3-LONG-02",
+          "contextPassage": "【長文 2：失敗を恐れない心】\n\n子供の頃、私たちは何度も転びながら自転車の乗り方を覚えた。ひざを擦りむいて痛い思いをしても、諦めずにペダルを漕ぎ続けるうちに、ある日突然、風を切って一人で走れるようになったはずだ。誰もが最初から上手に乗れたわけではない。失敗を重ねることこそが、新しいスキルを身につけるための唯一の道だった。\n\nしかし大人になるにつれて、私たちは周囲の目を気にするようになり、「失敗すること＝恥ずかしいこと」だと恐れるようになってしまう。失敗して笑われたり、評価を落としたりすることを避けるあまり、前例のない新しい挑戦を避け、無難で安全な選択ばかりを繰り返すようになってしまうのだ。\n\nだが、一度も失敗したことがない人とは、一度も新しい挑戦をしたことがない人でもある。失敗とは、目指すゴールへの道が「その方法ではうまくいかない」と分かった貴重な実験結果にすぎない。発明王のエジソンが言ったように、数千回のうまくいかない方法を発見したからこそ、最後の偉大な成功に到達できるのである。\n\n失敗を恐れて立ち止まるのではなく、失敗を歓迎し、そこから何を学べるかを前向きに考える姿勢を持ちたい。転んだ回数ではなく、転んでも起き上がった回数こそが、私たちの人生の真の実力となるのだから。",
+          "options": [
+            {
+              "id": "A",
+              "text": "子供の頃に自転車に乗れなかった人は、大人になっても決して運動ができない。"
+            },
+            {
+              "id": "B",
+              "text": "自転車の練習は危険すぎるため、子供には乗らせるべきではない。"
+            },
+            {
+              "id": "C",
+              "text": "怪我をしないように、最初から補助輪を外さずに乗り続けるべきである。"
+            },
+            {
+              "id": "D",
+              "text": "失敗を何度も重ねることこそが、新しい技術を身につけるための自然な道である。"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanationVi": "Đoạn 1 lấy ví dụ tập xe đạp ngã trầy gối để khẳng định mắc sai lầm là con đường tất yếu để làm chủ kỹ năng mới.",
+          "distractorExplanations": {
+            "A": "Sai lệch với tư tưởng chủ đạo của bài viết.",
+            "B": "Sai lệch với tư tưởng chủ đạo của bài viết.",
+            "C": "Sai lệch với tư tưởng chủ đạo của bài viết."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "reading-long",
+          "remediation": "Nắm vững kết cấu bài văn và thông điệp triết lý nhân sinh của tác giả.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original N3 Reading Corpus"
+        },
+        {
+          "id": "N3-INFO-01-Q01",
+          "level": "N3",
+          "skill": "Reading",
+          "typeId": "N3-RD-INFO",
+          "stem": "さくら市在住の会社員が、平日の仕事帰り（18:30）に図書館を利用する場合の説明として正しいものはどれか。",
+          "stimulusId": "N3-INFO-01",
+          "contextPassage": "【情報検索 1：さくら図書館「利用案内」】\n\n【さくら市立図書館 ご利用案内】\n皆様の読書活動を応援するため、以下の通り開館しております。\n\n■ 開館時間と休館日\n・開館時間：\n  平日（火〜金）：9:30〜20:00\n  土日・祝日：9:30〜17:00\n・休館日：毎週月曜日（月曜日が祝日の場合は開館し、翌火曜日が休館）、毎月最終水曜日（館内整理日）、年末年始\n\n■ 貸出案内（無料）\n・貸出冊数：お一人様 図書・雑誌は合わせて10冊まで、CD・DVDなどの視聴覚資料は2点まで\n・貸出期間：2週間\n・利用カードの発行：市内在住・在勤・在学の方、または隣接市にお住まいの方（要身分証明書）\n\n■ 注意事項\n・館内での飲食は「1階カフェスペース」のみ可能です。閲覧席での食事は禁止です（水筒やペットボトルなど蓋の閉まる飲み物は可）。\n・返却期日を1週間以上過ぎた資料がある場合、新たな貸出はできません。",
+          "options": [
+            {
+              "id": "A",
+              "text": "平日は毎日17:00で閉館してしまうため、利用することはできない。"
+            },
+            {
+              "id": "B",
+              "text": "月曜日の夜なら何時でも自由に利用することができる。"
+            },
+            {
+              "id": "C",
+              "text": "会社員は身分証明書を提示しても図書の貸出はできない。"
+            },
+            {
+              "id": "D",
+              "text": "火曜日から金曜日であれば、20:00まで開館しているので本を借りることができる。"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanationVi": "Thông báo ghi: ngày thường (thứ Ba - thứ Sáu) mở cửa từ 9:30 đến 20:00, nên lúc 18:30 hoàn toàn có thể vào mượn sách.",
+          "distractorExplanations": {
+            "A": "Thông tin không đúng với chi tiết trong bảng thông báo.",
+            "B": "Thông tin không đúng với chi tiết trong bảng thông báo.",
+            "C": "Thông tin không đúng với chi tiết trong bảng thông báo."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "reading-info",
+          "remediation": "Tra cứu nhanh điều kiện về thời gian, phí và đồ cần mang.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original N3 Reading Corpus"
+        },
+        {
+          "id": "N3-INFO-01-Q02",
+          "level": "N3",
+          "skill": "Reading",
+          "typeId": "N3-RD-INFO",
+          "stem": "貸出ルールや館内でのマナーについて、正しいものはどれか。",
+          "stimulusId": "N3-INFO-01",
+          "contextPassage": "【情報検索 1：さくら図書館「利用案内」】\n\n【さくら市立図書館 ご利用案内】\n皆様の読書活動を応援するため、以下の通り開館しております。\n\n■ 開館時間と休館日\n・開館時間：\n  平日（火〜金）：9:30〜20:00\n  土日・祝日：9:30〜17:00\n・休館日：毎週月曜日（月曜日が祝日の場合は開館し、翌火曜日が休館）、毎月最終水曜日（館内整理日）、年末年始\n\n■ 貸出案内（無料）\n・貸出冊数：お一人様 図書・雑誌は合わせて10冊まで、CD・DVDなどの視聴覚資料は2点まで\n・貸出期間：2週間\n・利用カードの発行：市内在住・在勤・在学の方、または隣接市にお住まいの方（要身分証明書）\n\n■ 注意事項\n・館内での飲食は「1階カフェスペース」のみ可能です。閲覧席での食事は禁止です（水筒やペットボトルなど蓋の閉まる飲み物は可）。\n・返却期日を1週間以上過ぎた資料がある場合、新たな貸出はできません。",
+          "options": [
+            {
+              "id": "A",
+              "text": "館内であれば、自分の席でハンバーガーなどの食事を自由に食べてよい。"
+            },
+            {
+              "id": "B",
+              "text": "返却期日を過ぎていても、何冊でも無制限に新しい本を借りられる。"
+            },
+            {
+              "id": "C",
+              "text": "図書・雑誌は10冊まで、CD・DVDは2点まで、2週間借りることができる。"
+            },
+            {
+              "id": "D",
+              "text": "CDやDVDは図書と合わせて合計20点まで借りることができる。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "Quy định ghi rõ: sách/tạp chí tối đa 10 cuốn, CD/DVD tối đa 2 đĩa, thời hạn mượn 2 tuần.",
+          "distractorExplanations": {
+            "A": "Thông tin không đúng với chi tiết trong bảng thông báo.",
+            "B": "Thông tin không đúng với chi tiết trong bảng thông báo.",
+            "D": "Thông tin không đúng với chi tiết trong bảng thông báo."
+          },
+          "difficultyEstimate": 2,
+          "conceptId": "reading-info",
+          "remediation": "Tra cứu nhanh điều kiện về thời gian, phí và đồ cần mang.",
+          "status": "PROVISIONAL_PRACTICE",
+          "exposureEligible": true,
+          "diagnosticEligible": true,
+          "sourceMetadata": "Original N3 Reading Corpus"
+        }
+      ]
+    },
+    {
+      "sectionName": "Phần 2: Nghe hiểu (Chokai) — Đang biên soạn",
+      "durationMinutes": 40,
+      "itemCount": 28,
+      "status": "IN_DEVELOPMENT",
+      "notice": "Phần thi Nghe hiểu 28 câu đang trong quá trình thu âm và chuẩn hóa kịch bản, chưa phát hành."
+    }
+  ]
+}

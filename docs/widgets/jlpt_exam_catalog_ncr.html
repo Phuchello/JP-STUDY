@@ -47,51 +47,65 @@
   }
   
   /* Top Navigation Tabs */
-  .catalog-nav {
+  .nav-tabs {
     display: flex;
-    gap: 6px;
+    gap: 8px;
     overflow-x: auto;
     padding-bottom: 8px;
     margin-bottom: 20px;
     border-bottom: 1px solid var(--border);
+    -webkit-overflow-scrolling: touch;
   }
-  .catalog-nav::-webkit-scrollbar { height: 4px; }
-  .catalog-nav::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
   .nav-tab {
-    padding: 8px 16px;
-    font-size: 0.84rem;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-size: 0.85rem;
     font-weight: 700;
-    color: #475569;
-    background: #fff;
-    border: 1px solid #cbd5e1;
-    border-radius: 20px;
     cursor: pointer;
     white-space: nowrap;
-    transition: all 0.2s;
+    border: 1px solid var(--border);
+    background: #fff;
+    color: var(--text-muted);
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 6px;
   }
   .nav-tab:hover {
-    color: var(--primary);
-    border-color: var(--primary);
+    background: #f1f5f9;
+    color: var(--text-main);
   }
   .nav-tab.active {
     background: var(--primary);
     color: #fff;
     border-color: var(--primary);
+    box-shadow: 0 2px 6px rgba(139, 0, 0, 0.25);
   }
 
-  /* Notice & Banner Boxes */
+  .view-tab {
+    display: none;
+  }
+  .view-tab.active {
+    display: block;
+    animation: fadeIn 0.25s ease;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(4px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
   .info-banner {
-    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
-    color: #fff;
+    background: linear-gradient(135deg, #1e3a8a 0%, #1e1b4b 100%);
+    color: white;
     padding: 16px 20px;
     border-radius: 12px;
     margin-bottom: 20px;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     justify-content: space-between;
-    gap: 14px;
-    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.12);
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    box-shadow: 0 4px 12px rgba(30, 58, 138, 0.15);
   }
   .info-banner h2 {
     font-size: 1.15rem;
@@ -105,22 +119,15 @@
   .btn-banner {
     background: #e11d48;
     color: #fff;
-    text-decoration: none;
-    padding: 10px 18px;
+    padding: 8px 16px;
     border-radius: 8px;
+    font-size: 0.82rem;
     font-weight: 700;
-    font-size: 0.88rem;
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    box-shadow: 0 2px 8px rgba(225, 29, 72, 0.3);
-    transition: transform 0.15s;
-  }
-  .btn-banner:hover {
-    transform: translateY(-2px);
+    text-decoration: none;
+    box-shadow: 0 2px 6px rgba(225, 29, 72, 0.3);
   }
 
-  /* Grid Layout */
+  /* Grid layout */
   .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
@@ -130,16 +137,16 @@
     background: var(--card-bg);
     border-radius: 12px;
     border: 1px solid var(--border);
-    padding: 18px;
+    padding: 16px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.03);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    transition: transform 0.15s, box-shadow 0.15s;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
   }
   .card:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 14px rgba(0,0,0,0.06);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.06);
   }
   .card-top {
     display: flex;
@@ -163,35 +170,50 @@
     font-size: 0.7rem;
     font-weight: 700;
     padding: 2px 8px;
-    border-radius: 6px;
-    text-transform: uppercase;
+    border-radius: 4px;
   }
-  .status-ready { background: #dcfce7; color: #166534; border: 1px solid #bbf7d0; }
-  .status-dev { background: #fef3c7; color: #92400e; border: 1px solid #fde68a; }
-  .status-ext { background: #e0f2fe; color: #075985; border: 1px solid #bae6fd; }
-  .status-paid { background: #fee2e2; color: #991b1b; border: 1px solid #fecaca; }
-  .status-free { background: #f0fdf4; color: #15803d; border: 1px solid #bbf7d0; }
+  .status-ready {
+    background: #dcfce7;
+    color: #15803d;
+    border: 1px solid #bbf7d0;
+  }
+  .status-dev {
+    background: #f1f5f9;
+    color: #64748b;
+    border: 1px solid #e2e8f0;
+  }
+  .status-free {
+    background: #e0f2fe;
+    color: #0369a1;
+    border: 1px solid #bae6fd;
+  }
+  .status-paid {
+    background: #fef3c7;
+    color: #b45309;
+    border: 1px solid #fde68a;
+  }
+  .status-ext {
+    background: #ede9fe;
+    color: #6d28d9;
+    border: 1px solid #ddd6fe;
+  }
 
   .card-title {
     font-size: 1.05rem;
-    font-weight: 800;
+    font-weight: 700;
     color: #1e293b;
-    margin-bottom: 6px;
+    margin-bottom: 4px;
   }
   .card-meta {
     font-size: 0.8rem;
-    color: #64748b;
-    margin-bottom: 12px;
+    color: var(--text-muted);
+    margin-bottom: 10px;
   }
   .card-desc {
     font-size: 0.82rem;
-    color: #334155;
-    line-height: 1.45;
+    color: #475569;
+    line-height: 1.4;
     margin-bottom: 14px;
-    background: #f8fafc;
-    padding: 10px;
-    border-radius: 8px;
-    border: 1px solid #f1f5f9;
   }
   .section-tags {
     display: flex;
@@ -200,113 +222,103 @@
     margin-bottom: 14px;
   }
   .sec-tag {
-    font-size: 0.72rem;
+    font-size: 0.7rem;
     background: #f1f5f9;
     color: #475569;
     padding: 2px 6px;
     border-radius: 4px;
-    font-weight: 600;
   }
 
   .btn-start {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 6px;
+    display: block;
     width: 100%;
-    padding: 10px;
+    text-align: center;
+    background: #1e40af;
+    color: #fff;
+    padding: 10px 14px;
     border-radius: 8px;
-    font-size: 0.88rem;
+    font-size: 0.85rem;
     font-weight: 700;
     text-decoration: none;
-    cursor: pointer;
+    transition: background 0.2s ease;
     border: none;
-    transition: all 0.15s;
+    cursor: pointer;
   }
-  .btn-ready {
-    background: #15803d;
-    color: #fff;
-    box-shadow: 0 2px 6px rgba(21, 128, 61, 0.25);
-  }
-  .btn-ready:hover {
-    background: #166534;
+  .btn-start:hover {
+    background: #1d4ed8;
   }
   .btn-disabled {
-    background: #f1f5f9;
+    background: #e2e8f0;
     color: #94a3b8;
-    border: 1px dashed #cbd5e1;
     cursor: not-allowed;
   }
+  .btn-disabled:hover {
+    background: #e2e8f0;
+  }
   .btn-external {
-    background: #0284c7;
-    color: #fff;
-    box-shadow: 0 2px 6px rgba(2, 132, 199, 0.25);
+    background: #0f172a;
   }
   .btn-external:hover {
-    background: #0369a1;
+    background: #1e293b;
   }
 
-  /* PDF materials button group */
-  .btn-group {
+  /* Material links group */
+  .materials-group {
     display: flex;
     flex-wrap: wrap;
     gap: 6px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
   }
   .btn-mat {
-    background: #f8fafc;
-    border: 1px solid #cbd5e1;
-    color: #1e293b;
-    padding: 5px 9px;
-    border-radius: 6px;
-    font-size: 0.75rem;
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 4px 8px;
+    border-radius: 4px;
     text-decoration: none;
-    font-weight: 500;
+    color: #1e40af;
+    background: #eff6ff;
+    border: 1px solid #bfdbfe;
     display: inline-flex;
     align-items: center;
     gap: 4px;
-    transition: background 0.15s;
   }
   .btn-mat:hover {
-    background: #e2e8f0;
+    background: #dbeafe;
   }
   .audio-box {
     margin-top: 10px;
     background: #f8fafc;
-    border: 1px solid #e2e8f0;
-    padding: 8px 10px;
+    border: 1px solid var(--border);
     border-radius: 8px;
+    padding: 8px 12px;
   }
-  .audio-label {
-    font-size: 0.75rem;
-    font-weight: 600;
-    color: #475569;
-    margin-bottom: 6px;
-    display: flex;
-    justify-content: space-between;
+  .audio-box audio {
+    width: 100%;
+    height: 32px;
+    margin-top: 4px;
   }
-  audio { width: 100%; height: 32px; }
-
-  /* Tab View containers */
-  .view-tab { display: none; }
-  .view-tab.active { display: block; }
+  
+  @media (max-width: 640px) {
+    .header h1 { font-size: 1.25rem; }
+    .grid { grid-template-columns: 1fr; }
+  }
 </style>
 </head>
 <body>
 
 <div class="header">
   <h1>&#128218; KHO &#272;&#7872; THI TH&#7916; & T&#192;I LI&#7878;U LUY&#7878;N THI JLPT</h1>
-  <p>H&#7879; th&#7889;ng 30 &#273;&#7873; thi th&#7917; m&#244; ph&#7887;ng N2/N3, &#272;&#7873; ch&#237;nh th&#7913;c 2012/2018 v&#224; C&#7893;ng li&#234;n k&#7871;t ngu&#7891;n &#273;&#7873; b&#234;n ngo&#224;i &#273;&#227; ki&#7875;m &#273;&#7883;nh</p>
+  <p>H&#7879; th&#7889;ng &#273;&#7873; thi ph&#226;n m&#244;n & m&#244; ph&#7887;ng N2/N3, &#272;&#7873; ch&#237;nh th&#7913;c 2012/2018 v&#224; C&#7893;ng li&#234;n k&#7871;t ngu&#7891;n &#273;&#7873; b&#234;n ngo&#224;i &#273;&#227; ki&#7875;m &#273;&#7883;nh</p>
 </div>
 
 <!-- TOP NAV TABS -->
-<div class="catalog-nav">
-  <button type="button" class="nav-tab active" onclick="switchCatalogTab('tab-n2')">&#128293; N2: 20 &#272;&#7872; THI TH&#7916; (FULL MOCKS)</button>
-  <button type="button" class="nav-tab" onclick="switchCatalogTab('tab-n3')">&#128215; N3: 10 &#272;&#7872; THI TH&#7916; (FULL MOCKS)</button>
-  <button type="button" class="nav-tab" onclick="switchCatalogTab('tab-rand')">&#127922; LUY&#7878;N &#272;&#7872; NG&#7850;U NHI&#202;N</button>
-  <button type="button" class="nav-tab" onclick="switchCatalogTab('tab-skill')">&#127919; LUY&#7878;N THEO K&#7928; N&#258;NG</button>
-  <button type="button" class="nav-tab" onclick="switchCatalogTab('tab-official')">&#128218; &#272;&#7872; CH&#205;NH TH&#7912;C 2012/2018</button>
-  <button type="button" class="nav-tab" onclick="switchCatalogTab('tab-ext')">&#127760; NGU&#7890;N THI TH&#7916; B&#202;N NGO&#192;I</button>
+<div class="nav-tabs" id="catalogTabs">
+  <div class="nav-tab active" onclick="switchCatalogTab('tab-n2')">&#128293; N2: 20 &#272;&#7872; THI TH&#7916; (FULL MOCKS)</div>
+  <div class="nav-tab" onclick="switchCatalogTab('tab-n3')">&#128215; N3: 10 &#272;&#7872; THI TH&#7916; (FULL MOCKS)</div>
+  <div class="nav-tab" onclick="switchCatalogTab('tab-rand')">&#127922; LUY&#7878;N &#272;&#7872; NG&#7850;U NHI&#202;N</div>
+  <div class="nav-tab" onclick="switchCatalogTab('tab-skill')">&#127919; LUY&#7878;N THEO K&#7928; N&#258;NG</div>
+  <div class="nav-tab" onclick="switchCatalogTab('tab-official')">&#128218; &#272;&#7872; CH&#205;NH TH&#7912;C 2012/2018</div>
+  <div class="nav-tab" onclick="switchCatalogTab('tab-external')">&#127760; NGU&#7890;N THI TH&#7916; B&#202;N NGO&#192;I</div>
 </div>
 
 <!-- ========================================================================= -->
@@ -316,7 +328,7 @@
   <div class="info-banner">
     <div>
       <h2>&#127919; K&#7870; HO&#7840;CH N2: 20 &#272;&#7872; THI TH&#7916; TO&#192;N DI&#7878;N (FULL MOCKS)</h2>
-      <p>M&#7909;c ti&#234;u k&#7923; thi 12/2026: 20 &#273;&#7873; thi chu&#7849;n c&#7845;u tr&#250;c JEES (105 c&#226;u &#183; 155 ph&#250;t/&#273;&#7873;). Ph&#225;t h&#224;nh l&#361;y ti&#7871;n theo t&#7915;ng &#273;&#7907;t ki&#7875;m &#273;&#7883;nh ch&#7845;t l&#432;&#7907;ng.</p>
+      <p>M&#7909;c ti&#234;u k&#7923; thi 12/2026: 20 &#273;&#7873; thi chu&#7849;n c&#7845;u tr&#250;c JEES (105 c&#226;u &#183; 155 ph&#250;t/&#273;&#7873;). &#272;&#7873; s&#7889; 01 hi&#7879;n m&#7903; ph&#7847;n luy&#7879;n t&#7853;p ph&#226;n m&#244;n (75 c&#226;u / 105 ph&#250;t) trong khi ph&#7847;n Nghe hi&#7875;u ti&#7871;p t&#7909;c &#273;&#432;&#7907;c chu&#7849;n h&#243;a.</p>
     </div>
     <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mock&mockId=N2-MOCK-01" target="_blank" class="btn-banner">
       &#128640; V&#192;O THI &#272;&#7872; S&#7888; 01 (105 PH&#218;T) &#9654;
@@ -324,28 +336,25 @@
   </div>
 
   <div class="grid">
-    <!-- N2-MOCK-01 (READY) -->
-    <div class="card" style="border: 2px solid #16a34a; box-shadow: 0 4px 12px rgba(22, 163, 74, 0.1);">
+    <!-- N2 MOCK 01: SECTIONAL PRACTICE -->
+    <div class="card">
       <div>
         <div class="card-top">
           <span class="badge badge-n2">JLPT N2</span>
-          <span class="status-badge status-ready">READY &#183; &#272;&#195; KI&#7874;M &#272;&#7882;NH</span>
+          <span class="status-badge status-ready" style="background:#dbeafe; color:#1e40af; border:1px solid #bfdbfe;">SECTIONAL PRACTICE &#183; 75 C&#194;U</span>
         </div>
-        <div class="card-title">JLPT N2 | Full Mock Exam #01 (&#272;&#7873; thi th&#7917; s&#7889; 01)</div>
-        <div class="card-meta">105 c&#226;u h&#7887;i &#183; 155 ph&#250;t (105p &#272;&#7885;c/Hi&#7875;u/Ng&#244;n ng&#7919; + 50p Nghe)</div>
+        <div class="card-title">JLPT N2 Sectional Practice #01</div>
+        <div class="card-meta">75 c&#226;u h&#7887;i &#183; 105 ph&#250;t (Ki&#7871;n th&#7913;c ng&#244;n ng&#7919; & &#272;&#7885;c hi&#7875;u)</div>
         <div class="card-desc">
-          B&#7897; &#273;&#7873; tr&#7885;n v&#7865;n b&#225;m s&#225;t 100% &#273;&#7863;c t&#7843; b&#224;i thi JLPT N2:
-          <br>&#8226; <strong>Ph&#7847;n 1 (105 ph&#250;t):</strong> 75 c&#226;u Ki&#7871;n th&#7913;c ng&#244;n ng&#7919; (T&#7915; v&#7921;ng Mondai 1-6, Ng&#7919; ph&#225;p Mondai 7-9) v&#224; &#272;&#7885;c hi&#7875;u (Mondai 10-14).
-          <br>&#8226; <strong>Ph&#7847;n 2 (50 ph&#250;t):</strong> 30 c&#226;u Nghe hi&#7875;u Chokai (Task-based, Point, General, Quick response, Integrated).
+          B&#7897; &#273;&#7873; luy&#7879;n t&#7853;p ph&#226;n m&#244;n b&#225;m s&#225;t 100% &#273;&#7863;c t&#7843; b&#224;i thi JLPT N2: 32 c&#226;u T&#7915; v&#7921;ng (Mondai 1&#8211;6), 22 c&#226;u Ng&#7919; ph&#225;p (Mondai 7&#8211;9) v&#224; 21 c&#226;u &#272;&#7885;c hi&#7875;u (Mondai 10&#8211;14). Ph&#7847;n Nghe hi&#7875;u &#273;ang &#273;&#432;&#7907;c chu&#7849;n h&#243;a &#226;m thanh &#273;&#7897;c l&#7853;p v&#224; ch&#432;a t&#237;nh v&#224;o phi&#234;n l&#224;m b&#224;i n&#224;y.
         </div>
         <div class="section-tags">
           <span class="sec-tag">&#128214; T&#7915; v&#7921;ng (32c)</span>
           <span class="sec-tag">&#128220; Ng&#7919; ph&#225;p (22c)</span>
           <span class="sec-tag">&#128209; &#272;&#7885;c hi&#7875;u (21c)</span>
-          <span class="sec-tag">&#127911; Nghe hi&#7875;u (30c)</span>
         </div>
       </div>
-      <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mock&mockId=N2-MOCK-01" target="_blank" class="btn-start btn-ready">
+      <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mock&mockId=N2-MOCK-01" target="_blank" rel="noopener noreferrer" class="btn-start">
         &#128640; B&#7854;T &#272;&#7846;U L&#192;M B&#192;I (B&#7844;M GI&#7900; 105 PH&#218;T) &#9654;
       </a>
     </div>
@@ -779,35 +788,38 @@
   <div class="info-banner" style="background: linear-gradient(135deg, #064e3b 0%, #022c22 100%);">
     <div>
       <h2>&#128215; K&#7870; HO&#7840;CH N3: 10 &#272;&#7872; THI TH&#7916; C&#7888;T L&#213;I (FULL MOCKS)</h2>
-      <p>C&#7911;ng c&#7889; n&#7873;n t&#7843;ng 40% cho ng&#432;&#7901;i h&#7885;c h&#432;&#7899;ng t&#7899;i N2. Quy chu&#7849;n 95 c&#226;u h&#7887;i &#183; 140 ph&#250;t (30p T&#7915; v&#7921;ng + 70p Ng&#7919; ph&#225;p/&#272;&#7885;c + 40p Nghe).</p>
+      <p>C&#7911;ng c&#7889; n&#7873;n t&#7843;ng 40% cho ng&#432;&#7901;i h&#7885;c h&#432;&#7899;ng t&#7899;i N2. Quy chu&#7849;n 102 c&#226;u h&#7887;i &#183; 140 ph&#250;t (35p T&#7915; v&#7921;ng + 39p Ng&#7919; ph&#225;p/&#272;&#7885;c + 28p Nghe). &#272;&#7873; s&#7889; 01 hi&#7879;n m&#7903; ph&#7847;n luy&#7879;n t&#7853;p ph&#226;n m&#244;n (73 c&#226;u / 100 ph&#250;t).</p>
     </div>
-    <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?level=N3" target="_blank" class="btn-banner" style="background: #059669;">
-      &#9889; C&#192;Y 258 C&#194;U N3 NGAY &#9654;
+    <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mock&mockId=N3-MOCK-01" target="_blank" class="btn-banner" style="background: #059669;">
+      &#128640; V&#192;O THI N3 &#272;&#7872; 01 (100 PH&#218;T) &#9654;
     </a>
   </div>
 
   <div class="grid">
+    <!-- N3 MOCK 01: SECTIONAL PRACTICE -->
     <div class="card">
       <div>
         <div class="card-top">
           <span class="badge badge-n3">JLPT N3</span>
-          <span class="status-badge status-dev">IN DEVELOPMENT &#183; &#272;ANG BI&#202;N SO&#7840;N</span>
+          <span class="status-badge status-ready" style="background:#dcfce7; color:#15803d; border:1px solid #bbf7d0;">SECTIONAL PRACTICE &#183; 73 C&#194;U</span>
         </div>
-        <div class="card-title">JLPT N3 | Full Mock Exam #01</div>
-        <div class="card-meta">M&#7909;c ti&#234;u: 95 c&#226;u h&#7887;i &#183; 140 ph&#250;t &#183; Chu&#7849;n c&#7845;u tr&#250;c JEES</div>
+        <div class="card-title">JLPT N3 Sectional Practice #01</div>
+        <div class="card-meta">73 c&#226;u h&#7887;i &#183; 100 ph&#250;t (Ki&#7871;n th&#7913;c ng&#244;n ng&#7919; & &#272;&#7885;c hi&#7875;u)</div>
         <div class="card-desc">
-          B&#7897; &#273;&#7873; thi th&#7917; N3 &#273;&#7907;t 01. Ph&#226;n b&#7893; 35 c&#226;u Ki&#7871;n th&#7913;c t&#7915; v&#7921;ng, 39 c&#226;u Ng&#7919; ph&#225;p/&#272;&#7885;c hi&#7875;u v&#224; 28 c&#226;u Nghe hi&#7875;u Chokai. Hi&#7879;n &#273;ang chu&#7849;n h&#243;a ng&#7919; c&#7843;nh v&#224; &#273;&#7889;i chi&#7871;u b&#7843;n d&#7883;ch ti&#7871;ng Vi&#7879;t.
+          B&#7897; &#273;&#7873; luy&#7879;n t&#7853;p ph&#226;n m&#244;n chu&#7849;n N3: 35 c&#226;u T&#7915; v&#7921;ng (Mondai 1&#8211;5), 22 c&#226;u Ng&#7919; ph&#225;p (Mondai 6&#8211;8) v&#224; 16 c&#226;u &#272;&#7885;c hi&#7875;u (Mondai 9&#8211;12). B&#7845;m gi&#7901; 100 ph&#250;t. Ph&#7847;n Nghe hi&#7875;u &#273;ang &#273;&#432;&#7907;c chu&#7849;n h&#243;a &#226;m thanh &#273;&#7897;c l&#7853;p v&#224; ch&#432;a t&#237;nh v&#224;o phi&#234;n l&#224;m b&#224;i n&#224;y.
         </div>
         <div class="section-tags">
-          <span class="sec-tag">T&#7915; v&#7921;ng (35c)</span>
-          <span class="sec-tag">Ng&#7919; ph&#225;p/&#272;&#7885;c (39c)</span>
-          <span class="sec-tag">Nghe hi&#7875;u (28c)</span>
+          <span class="sec-tag">&#128214; T&#7915; v&#7921;ng (35c)</span>
+          <span class="sec-tag">&#128220; Ng&#7919; ph&#225;p (22c)</span>
+          <span class="sec-tag">&#128209; &#272;&#7885;c hi&#7875;u (16c)</span>
         </div>
       </div>
-      <button type="button" class="btn-start btn-disabled" disabled>
-        &#9203; &#272;ang chu&#7849;n h&#243;a (K&#7923; thi 12/2026)
-      </button>
+      <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mock&mockId=N3-MOCK-01" target="_blank" rel="noopener noreferrer" class="btn-start" style="background: #059669;">
+        &#128640; B&#7854;T &#272;&#7846;U L&#192;M B&#192;I (B&#7844;M GI&#7900; 100 PH&#218;T) &#9654;
+      </a>
     </div>
+
+    <!-- N3 MOCKS 02 - 10 (IN DEVELOPMENT) -->
     <div class="card">
       <div>
         <div class="card-top">
@@ -815,9 +827,9 @@
           <span class="status-badge status-dev">IN DEVELOPMENT &#183; &#272;ANG BI&#202;N SO&#7840;N</span>
         </div>
         <div class="card-title">JLPT N3 | Full Mock Exam #02</div>
-        <div class="card-meta">M&#7909;c ti&#234;u: 95 c&#226;u h&#7887;i &#183; 140 ph&#250;t &#183; Chu&#7849;n c&#7845;u tr&#250;c JEES</div>
+        <div class="card-meta">M&#7909;c ti&#234;u: 102 c&#226;u h&#7887;i &#183; 140 ph&#250;t &#183; Chu&#7849;n c&#7845;u tr&#250;c JEES</div>
         <div class="card-desc">
-          B&#7897; &#273;&#7873; thi th&#7917; N3 &#273;&#7907;t 02. Ph&#226;n b&#7893; 35 c&#226;u Ki&#7871;n th&#7913;c t&#7915; v&#7921;ng, 39 c&#226;u Ng&#7919; ph&#225;p/&#272;&#7885;c hi&#7875;u v&#224; 28 c&#226;u Nghe hi&#7875;u Chokai. Hi&#7879;n &#273;ang chu&#7849;n h&#243;a ng&#7919; c&#7843;nh v&#224; &#273;&#7889;i chi&#7871;u b&#7843;n d&#7883;ch ti&#7871;ng Vi&#7879;t.
+          B&#7897; &#273;&#7873; thi th&#7917; N3 &#273;&#7907;t 02. Ph&#226;n b&#7893; chu&#7849;n: 35 c&#226;u Ki&#7871;n th&#7913;c t&#7915; v&#7921;ng, 39 c&#226;u Ng&#7919; ph&#225;p/&#272;&#7885;c hi&#7875;u v&#224; 28 c&#226;u Nghe hi&#7875;u Chokai. Hi&#7879;n &#273;ang chu&#7849;n h&#243;a ng&#7919; c&#7843;nh v&#224; &#273;&#7889;i chi&#7871;u b&#7843;n d&#7883;ch ti&#7871;ng Vi&#7879;t.
         </div>
         <div class="section-tags">
           <span class="sec-tag">T&#7915; v&#7921;ng (35c)</span>
@@ -836,9 +848,9 @@
           <span class="status-badge status-dev">IN DEVELOPMENT &#183; &#272;ANG BI&#202;N SO&#7840;N</span>
         </div>
         <div class="card-title">JLPT N3 | Full Mock Exam #03</div>
-        <div class="card-meta">M&#7909;c ti&#234;u: 95 c&#226;u h&#7887;i &#183; 140 ph&#250;t &#183; Chu&#7849;n c&#7845;u tr&#250;c JEES</div>
+        <div class="card-meta">M&#7909;c ti&#234;u: 102 c&#226;u h&#7887;i &#183; 140 ph&#250;t &#183; Chu&#7849;n c&#7845;u tr&#250;c JEES</div>
         <div class="card-desc">
-          B&#7897; &#273;&#7873; thi th&#7917; N3 &#273;&#7907;t 03. Ph&#226;n b&#7893; 35 c&#226;u Ki&#7871;n th&#7913;c t&#7915; v&#7921;ng, 39 c&#226;u Ng&#7919; ph&#225;p/&#272;&#7885;c hi&#7875;u v&#224; 28 c&#226;u Nghe hi&#7875;u Chokai. Hi&#7879;n &#273;ang chu&#7849;n h&#243;a ng&#7919; c&#7843;nh v&#224; &#273;&#7889;i chi&#7871;u b&#7843;n d&#7883;ch ti&#7871;ng Vi&#7879;t.
+          B&#7897; &#273;&#7873; thi th&#7917; N3 &#273;&#7907;t 03. Ph&#226;n b&#7893; chu&#7849;n: 35 c&#226;u Ki&#7871;n th&#7913;c t&#7915; v&#7921;ng, 39 c&#226;u Ng&#7919; ph&#225;p/&#272;&#7885;c hi&#7875;u v&#224; 28 c&#226;u Nghe hi&#7875;u Chokai. Hi&#7879;n &#273;ang chu&#7849;n h&#243;a ng&#7919; c&#7843;nh v&#224; &#273;&#7889;i chi&#7871;u b&#7843;n d&#7883;ch ti&#7871;ng Vi&#7879;t.
         </div>
         <div class="section-tags">
           <span class="sec-tag">T&#7915; v&#7921;ng (35c)</span>
@@ -857,9 +869,9 @@
           <span class="status-badge status-dev">IN DEVELOPMENT &#183; &#272;ANG BI&#202;N SO&#7840;N</span>
         </div>
         <div class="card-title">JLPT N3 | Full Mock Exam #04</div>
-        <div class="card-meta">M&#7909;c ti&#234;u: 95 c&#226;u h&#7887;i &#183; 140 ph&#250;t &#183; Chu&#7849;n c&#7845;u tr&#250;c JEES</div>
+        <div class="card-meta">M&#7909;c ti&#234;u: 102 c&#226;u h&#7887;i &#183; 140 ph&#250;t &#183; Chu&#7849;n c&#7845;u tr&#250;c JEES</div>
         <div class="card-desc">
-          B&#7897; &#273;&#7873; thi th&#7917; N3 &#273;&#7907;t 04. Ph&#226;n b&#7893; 35 c&#226;u Ki&#7871;n th&#7913;c t&#7915; v&#7921;ng, 39 c&#226;u Ng&#7919; ph&#225;p/&#272;&#7885;c hi&#7875;u v&#224; 28 c&#226;u Nghe hi&#7875;u Chokai. Hi&#7879;n &#273;ang chu&#7849;n h&#243;a ng&#7919; c&#7843;nh v&#224; &#273;&#7889;i chi&#7871;u b&#7843;n d&#7883;ch ti&#7871;ng Vi&#7879;t.
+          B&#7897; &#273;&#7873; thi th&#7917; N3 &#273;&#7907;t 04. Ph&#226;n b&#7893; chu&#7849;n: 35 c&#226;u Ki&#7871;n th&#7913;c t&#7915; v&#7921;ng, 39 c&#226;u Ng&#7919; ph&#225;p/&#272;&#7885;c hi&#7875;u v&#224; 28 c&#226;u Nghe hi&#7875;u Chokai. Hi&#7879;n &#273;ang chu&#7849;n h&#243;a ng&#7919; c&#7843;nh v&#224; &#273;&#7889;i chi&#7871;u b&#7843;n d&#7883;ch ti&#7871;ng Vi&#7879;t.
         </div>
         <div class="section-tags">
           <span class="sec-tag">T&#7915; v&#7921;ng (35c)</span>
@@ -878,9 +890,9 @@
           <span class="status-badge status-dev">IN DEVELOPMENT &#183; &#272;ANG BI&#202;N SO&#7840;N</span>
         </div>
         <div class="card-title">JLPT N3 | Full Mock Exam #05</div>
-        <div class="card-meta">M&#7909;c ti&#234;u: 95 c&#226;u h&#7887;i &#183; 140 ph&#250;t &#183; Chu&#7849;n c&#7845;u tr&#250;c JEES</div>
+        <div class="card-meta">M&#7909;c ti&#234;u: 102 c&#226;u h&#7887;i &#183; 140 ph&#250;t &#183; Chu&#7849;n c&#7845;u tr&#250;c JEES</div>
         <div class="card-desc">
-          B&#7897; &#273;&#7873; thi th&#7917; N3 &#273;&#7907;t 05. Ph&#226;n b&#7893; 35 c&#226;u Ki&#7871;n th&#7913;c t&#7915; v&#7921;ng, 39 c&#226;u Ng&#7919; ph&#225;p/&#272;&#7885;c hi&#7875;u v&#224; 28 c&#226;u Nghe hi&#7875;u Chokai. Hi&#7879;n &#273;ang chu&#7849;n h&#243;a ng&#7919; c&#7843;nh v&#224; &#273;&#7889;i chi&#7871;u b&#7843;n d&#7883;ch ti&#7871;ng Vi&#7879;t.
+          B&#7897; &#273;&#7873; thi th&#7917; N3 &#273;&#7907;t 05. Ph&#226;n b&#7893; chu&#7849;n: 35 c&#226;u Ki&#7871;n th&#7913;c t&#7915; v&#7921;ng, 39 c&#226;u Ng&#7919; ph&#225;p/&#272;&#7885;c hi&#7875;u v&#224; 28 c&#226;u Nghe hi&#7875;u Chokai. Hi&#7879;n &#273;ang chu&#7849;n h&#243;a ng&#7919; c&#7843;nh v&#224; &#273;&#7889;i chi&#7871;u b&#7843;n d&#7883;ch ti&#7871;ng Vi&#7879;t.
         </div>
         <div class="section-tags">
           <span class="sec-tag">T&#7915; v&#7921;ng (35c)</span>
@@ -899,9 +911,9 @@
           <span class="status-badge status-dev">IN DEVELOPMENT &#183; &#272;ANG BI&#202;N SO&#7840;N</span>
         </div>
         <div class="card-title">JLPT N3 | Full Mock Exam #06</div>
-        <div class="card-meta">M&#7909;c ti&#234;u: 95 c&#226;u h&#7887;i &#183; 140 ph&#250;t &#183; Chu&#7849;n c&#7845;u tr&#250;c JEES</div>
+        <div class="card-meta">M&#7909;c ti&#234;u: 102 c&#226;u h&#7887;i &#183; 140 ph&#250;t &#183; Chu&#7849;n c&#7845;u tr&#250;c JEES</div>
         <div class="card-desc">
-          B&#7897; &#273;&#7873; thi th&#7917; N3 &#273;&#7907;t 06. Ph&#226;n b&#7893; 35 c&#226;u Ki&#7871;n th&#7913;c t&#7915; v&#7921;ng, 39 c&#226;u Ng&#7919; ph&#225;p/&#272;&#7885;c hi&#7875;u v&#224; 28 c&#226;u Nghe hi&#7875;u Chokai. Hi&#7879;n &#273;ang chu&#7849;n h&#243;a ng&#7919; c&#7843;nh v&#224; &#273;&#7889;i chi&#7871;u b&#7843;n d&#7883;ch ti&#7871;ng Vi&#7879;t.
+          B&#7897; &#273;&#7873; thi th&#7917; N3 &#273;&#7907;t 06. Ph&#226;n b&#7893; chu&#7849;n: 35 c&#226;u Ki&#7871;n th&#7913;c t&#7915; v&#7921;ng, 39 c&#226;u Ng&#7919; ph&#225;p/&#272;&#7885;c hi&#7875;u v&#224; 28 c&#226;u Nghe hi&#7875;u Chokai. Hi&#7879;n &#273;ang chu&#7849;n h&#243;a ng&#7919; c&#7843;nh v&#224; &#273;&#7889;i chi&#7871;u b&#7843;n d&#7883;ch ti&#7871;ng Vi&#7879;t.
         </div>
         <div class="section-tags">
           <span class="sec-tag">T&#7915; v&#7921;ng (35c)</span>
@@ -920,9 +932,9 @@
           <span class="status-badge status-dev">IN DEVELOPMENT &#183; &#272;ANG BI&#202;N SO&#7840;N</span>
         </div>
         <div class="card-title">JLPT N3 | Full Mock Exam #07</div>
-        <div class="card-meta">M&#7909;c ti&#234;u: 95 c&#226;u h&#7887;i &#183; 140 ph&#250;t &#183; Chu&#7849;n c&#7845;u tr&#250;c JEES</div>
+        <div class="card-meta">M&#7909;c ti&#234;u: 102 c&#226;u h&#7887;i &#183; 140 ph&#250;t &#183; Chu&#7849;n c&#7845;u tr&#250;c JEES</div>
         <div class="card-desc">
-          B&#7897; &#273;&#7873; thi th&#7917; N3 &#273;&#7907;t 07. Ph&#226;n b&#7893; 35 c&#226;u Ki&#7871;n th&#7913;c t&#7915; v&#7921;ng, 39 c&#226;u Ng&#7919; ph&#225;p/&#272;&#7885;c hi&#7875;u v&#224; 28 c&#226;u Nghe hi&#7875;u Chokai. Hi&#7879;n &#273;ang chu&#7849;n h&#243;a ng&#7919; c&#7843;nh v&#224; &#273;&#7889;i chi&#7871;u b&#7843;n d&#7883;ch ti&#7871;ng Vi&#7879;t.
+          B&#7897; &#273;&#7873; thi th&#7917; N3 &#273;&#7907;t 07. Ph&#226;n b&#7893; chu&#7849;n: 35 c&#226;u Ki&#7871;n th&#7913;c t&#7915; v&#7921;ng, 39 c&#226;u Ng&#7919; ph&#225;p/&#272;&#7885;c hi&#7875;u v&#224; 28 c&#226;u Nghe hi&#7875;u Chokai. Hi&#7879;n &#273;ang chu&#7849;n h&#243;a ng&#7919; c&#7843;nh v&#224; &#273;&#7889;i chi&#7871;u b&#7843;n d&#7883;ch ti&#7871;ng Vi&#7879;t.
         </div>
         <div class="section-tags">
           <span class="sec-tag">T&#7915; v&#7921;ng (35c)</span>
@@ -941,9 +953,9 @@
           <span class="status-badge status-dev">IN DEVELOPMENT &#183; &#272;ANG BI&#202;N SO&#7840;N</span>
         </div>
         <div class="card-title">JLPT N3 | Full Mock Exam #08</div>
-        <div class="card-meta">M&#7909;c ti&#234;u: 95 c&#226;u h&#7887;i &#183; 140 ph&#250;t &#183; Chu&#7849;n c&#7845;u tr&#250;c JEES</div>
+        <div class="card-meta">M&#7909;c ti&#234;u: 102 c&#226;u h&#7887;i &#183; 140 ph&#250;t &#183; Chu&#7849;n c&#7845;u tr&#250;c JEES</div>
         <div class="card-desc">
-          B&#7897; &#273;&#7873; thi th&#7917; N3 &#273;&#7907;t 08. Ph&#226;n b&#7893; 35 c&#226;u Ki&#7871;n th&#7913;c t&#7915; v&#7921;ng, 39 c&#226;u Ng&#7919; ph&#225;p/&#272;&#7885;c hi&#7875;u v&#224; 28 c&#226;u Nghe hi&#7875;u Chokai. Hi&#7879;n &#273;ang chu&#7849;n h&#243;a ng&#7919; c&#7843;nh v&#224; &#273;&#7889;i chi&#7871;u b&#7843;n d&#7883;ch ti&#7871;ng Vi&#7879;t.
+          B&#7897; &#273;&#7873; thi th&#7917; N3 &#273;&#7907;t 08. Ph&#226;n b&#7893; chu&#7849;n: 35 c&#226;u Ki&#7871;n th&#7913;c t&#7915; v&#7921;ng, 39 c&#226;u Ng&#7919; ph&#225;p/&#272;&#7885;c hi&#7875;u v&#224; 28 c&#226;u Nghe hi&#7875;u Chokai. Hi&#7879;n &#273;ang chu&#7849;n h&#243;a ng&#7919; c&#7843;nh v&#224; &#273;&#7889;i chi&#7871;u b&#7843;n d&#7883;ch ti&#7871;ng Vi&#7879;t.
         </div>
         <div class="section-tags">
           <span class="sec-tag">T&#7915; v&#7921;ng (35c)</span>
@@ -962,9 +974,9 @@
           <span class="status-badge status-dev">IN DEVELOPMENT &#183; &#272;ANG BI&#202;N SO&#7840;N</span>
         </div>
         <div class="card-title">JLPT N3 | Full Mock Exam #09</div>
-        <div class="card-meta">M&#7909;c ti&#234;u: 95 c&#226;u h&#7887;i &#183; 140 ph&#250;t &#183; Chu&#7849;n c&#7845;u tr&#250;c JEES</div>
+        <div class="card-meta">M&#7909;c ti&#234;u: 102 c&#226;u h&#7887;i &#183; 140 ph&#250;t &#183; Chu&#7849;n c&#7845;u tr&#250;c JEES</div>
         <div class="card-desc">
-          B&#7897; &#273;&#7873; thi th&#7917; N3 &#273;&#7907;t 09. Ph&#226;n b&#7893; 35 c&#226;u Ki&#7871;n th&#7913;c t&#7915; v&#7921;ng, 39 c&#226;u Ng&#7919; ph&#225;p/&#272;&#7885;c hi&#7875;u v&#224; 28 c&#226;u Nghe hi&#7875;u Chokai. Hi&#7879;n &#273;ang chu&#7849;n h&#243;a ng&#7919; c&#7843;nh v&#224; &#273;&#7889;i chi&#7871;u b&#7843;n d&#7883;ch ti&#7871;ng Vi&#7879;t.
+          B&#7897; &#273;&#7873; thi th&#7917; N3 &#273;&#7907;t 09. Ph&#226;n b&#7893; chu&#7849;n: 35 c&#226;u Ki&#7871;n th&#7913;c t&#7915; v&#7921;ng, 39 c&#226;u Ng&#7919; ph&#225;p/&#272;&#7885;c hi&#7875;u v&#224; 28 c&#226;u Nghe hi&#7875;u Chokai. Hi&#7879;n &#273;ang chu&#7849;n h&#243;a ng&#7919; c&#7843;nh v&#224; &#273;&#7889;i chi&#7871;u b&#7843;n d&#7883;ch ti&#7871;ng Vi&#7879;t.
         </div>
         <div class="section-tags">
           <span class="sec-tag">T&#7915; v&#7921;ng (35c)</span>
@@ -983,9 +995,9 @@
           <span class="status-badge status-dev">IN DEVELOPMENT &#183; &#272;ANG BI&#202;N SO&#7840;N</span>
         </div>
         <div class="card-title">JLPT N3 | Full Mock Exam #10</div>
-        <div class="card-meta">M&#7909;c ti&#234;u: 95 c&#226;u h&#7887;i &#183; 140 ph&#250;t &#183; Chu&#7849;n c&#7845;u tr&#250;c JEES</div>
+        <div class="card-meta">M&#7909;c ti&#234;u: 102 c&#226;u h&#7887;i &#183; 140 ph&#250;t &#183; Chu&#7849;n c&#7845;u tr&#250;c JEES</div>
         <div class="card-desc">
-          B&#7897; &#273;&#7873; thi th&#7917; N3 &#273;&#7907;t 10. Ph&#226;n b&#7893; 35 c&#226;u Ki&#7871;n th&#7913;c t&#7915; v&#7921;ng, 39 c&#226;u Ng&#7919; ph&#225;p/&#272;&#7885;c hi&#7875;u v&#224; 28 c&#226;u Nghe hi&#7875;u Chokai. Hi&#7879;n &#273;ang chu&#7849;n h&#243;a ng&#7919; c&#7843;nh v&#224; &#273;&#7889;i chi&#7871;u b&#7843;n d&#7883;ch ti&#7871;ng Vi&#7879;t.
+          B&#7897; &#273;&#7873; thi th&#7917; N3 &#273;&#7907;t 10. Ph&#226;n b&#7893; chu&#7849;n: 35 c&#226;u Ki&#7871;n th&#7913;c t&#7915; v&#7921;ng, 39 c&#226;u Ng&#7919; ph&#225;p/&#272;&#7885;c hi&#7875;u v&#224; 28 c&#226;u Nghe hi&#7875;u Chokai. Hi&#7879;n &#273;ang chu&#7849;n h&#243;a ng&#7919; c&#7843;nh v&#224; &#273;&#7889;i chi&#7871;u b&#7843;n d&#7883;ch ti&#7871;ng Vi&#7879;t.
         </div>
         <div class="section-tags">
           <span class="sec-tag">T&#7915; v&#7921;ng (35c)</span>
@@ -1014,196 +1026,174 @@
         <div class="card-title">&#128293; C&#7895; M&#225;y Luy&#7879;n &#272;&#7873; V&#244; T&#7853;n (Ch&#7871; &#273;&#7897; C&#224;y li&#234;n t&#7909;c)</div>
         <div class="card-meta">Ph&#7843;n h&#7891;i t&#7913;c th&#236; &#183; Gi&#7843;i th&#237;ch chi ti&#7871;t & Ph&#226;n t&#237;ch &#273;&#225;p &#225;n sai</div>
         <div class="card-desc">
-          T&#249;y ch&#7885;n s&#7889; l&#432;&#7907;ng 10 &#273;&#7871;n 100 c&#226;u h&#7887;i, &#432;u ti&#234;n c&#226;u h&#7887;i m&#7899;i ch&#432;a t&#7915;ng l&#224;m (tuy&#7879;t &#273;&#7889;i kh&#244;ng tr&#249;ng l&#7863;p), l&#224;m &#273;&#7871;n &#273;&#226;u bi&#7871;t &#273;i&#7875;m v&#224; &#273;&#7885;c gi&#7843;i th&#237;ch ngay &#273;&#7871;n &#273;&#243;.
+          C&#224;y li&#234;n t&#7909;c kh&#244;ng gi&#7899;i h&#7841;n s&#7889; l&#432;&#7907;ng c&#226;u h&#7887;i. H&#7879; th&#7889;ng t&#7921; &#273;&#7897;ng &#432;u ti&#234;n c&#225;c c&#226;u h&#7887;i ng&#432;&#7901;i h&#7885;c ch&#432;a t&#7915;ng l&#224;m qua, lo&#7841;i b&#7887; tr&#249;ng l&#7863;p ho&#224;n to&#224;n.
         </div>
       </div>
-      <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mode-a" target="_blank" class="btn-start btn-ready">
-        &#9889; B&#7854;T &#272;&#7846;U C&#192;Y C&#194;U H&#7886;I &#9654;
+      <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mode-a" target="_blank" rel="noopener noreferrer" class="btn-start">
+        &#9889; B&#7855;t &#273;&#7847;u c&#224;y c&#226;u h&#7887;i ngay &#9654;
       </a>
     </div>
 
     <div class="card">
       <div>
         <div class="card-top">
-          <span class="badge badge-n2">TIMED DRILL</span>
-          <span class="status-badge status-ready">15P &#183; 30P &#183; 60P</span>
+          <span class="badge badge-n2">JLPT N2</span>
+          <span class="status-badge status-ready">30 C&#194;U &#183; 35 PH&#218;T</span>
         </div>
-        <div class="card-title">&#9201;&#65039; Ph&#242;ng Luy&#7879;n T&#7853;p T&#237;nh Gi&#7901; (&#193;p L&#7921;c Ph&#242;ng Thi)</div>
-        <div class="card-meta">&#272;&#7891;ng h&#7891; &#273;&#7871;m ng&#432;&#7907;c &#183; B&#7843;ng c&#226;u h&#7887;i Palette &#183; Ch&#7845;m &#273;i&#7875;m sau khi n&#7897;p</div>
+        <div class="card-title">&#9201;&#65039; &#272;&#7873; ng&#7851;u nhi&#234;n N2 (B&#7845;m gi&#7901; ti&#234;u chu&#7849;n)</div>
+        <div class="card-meta">30 c&#226;u h&#7887;i ng&#7851;u nhi&#234;n t&#7915; v&#7921;ng, ng&#7919; ph&#225;p, &#273;&#7885;c hi&#7875;u</div>
         <div class="card-desc">
-          M&#244; ph&#7887;ng &#225;p l&#7921;c th&#7901;i gian c&#7911;a k&#7923; thi th&#7853;t. Kh&#244;ng hi&#7875;n th&#7883; &#273;&#225;p &#225;n trong l&#250;c l&#224;m b&#224;i, t&#7921; &#273;&#7897;ng n&#7897;p b&#224;i khi h&#7871;t gi&#7901; v&#224; cung c&#7845;p b&#7843;ng t&#7893;ng k&#7871;t ph&#226;n t&#237;ch chi ti&#7871;t.
+          T&#7841;o &#273;&#7873; thi ng&#7851;u nhi&#234;n 30 c&#226;u h&#7887;i N2 trong th&#7901;i gian gi&#7899;i h&#7841;n 35 ph&#250;t. Kh&#244;ng hi&#7875;n th&#7883; &#273;&#225;p &#225;n trong l&#250;c l&#224;m, t&#7921; &#273;&#7897;ng ch&#7845;m &#273;i&#7875;m v&#224; b&#225;o c&#225;o sau khi n&#7897;p.
         </div>
       </div>
-      <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mode-d" target="_blank" class="btn-start btn-ready">
-        &#9201;&#65039; V&#192;O PH&#210;NG T&#205;NH GI&#7900; &#9654;
+      <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mode-d&level=N2&count=30" target="_blank" rel="noopener noreferrer" class="btn-start">
+        &#9201;&#65039; V&#224;o thi &#273;&#7873; ng&#7851;u nhi&#234;n N2 &#9654;
       </a>
     </div>
 
     <div class="card">
       <div>
         <div class="card-top">
-          <span class="badge badge-n2">SEEDED TEST</span>
-          <span class="status-badge status-ready">T&#193;I T&#7840;O 100%</span>
+          <span class="badge badge-n3">JLPT N3</span>
+          <span class="status-badge status-ready">30 C&#194;U &#183; 30 PH&#218;T</span>
         </div>
-        <div class="card-title">&#127922; &#272;&#7873; Thi Ng&#7851;u Nhi&#234;n C&#243; M&#227; S&#7889; (Seeded Test)</div>
-        <div class="card-meta">C&#249;ng m&#227; s&#7889; = c&#249;ng &#273;&#7873; thi &#183; D&#7877; d&#224;ng thi &#273;&#7845;u nh&#243;m b&#7841;n</div>
+        <div class="card-title">&#9201;&#65039; &#272;&#7873; ng&#7851;u nhi&#234;n N3 (C&#7911;ng c&#7889; ki&#7871;n th&#7913;c)</div>
+        <div class="card-meta">30 c&#226;u h&#7887;i ng&#7851;u nhi&#234;n N3 c&#243; t&#237;nh gi&#7901;</div>
         <div class="card-desc">
-          Sinh &#273;&#7873; thi ng&#7851;u nhi&#234;n nh&#432;ng c&#7889; &#273;&#7883;nh c&#226;u h&#7887;i theo m&#227; Seed. Cho ph&#233;p chia s&#7867; m&#227; &#273;&#7873; cho b&#7841;n h&#7885;c &#273;&#7875; c&#249;ng l&#224;m m&#7897;t &#273;&#7873; v&#224; so s&#225;nh k&#7871;t qu&#7843; minh b&#7841;ch.
+          T&#7841;o &#273;&#7873; thi ng&#7851;u nhi&#234;n 30 c&#226;u h&#7887;i N3 trong 30 ph&#250;t. R&#232;n luy&#7879;n t&#7889;c &#273;&#7897; x&#7917; l&#253; c&#226;u h&#7887;i ng&#7919; ph&#225;p v&#224; t&#7915; v&#7921;ng c&#417; b&#7843;n.
         </div>
       </div>
-      <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mode-c" target="_blank" class="btn-start btn-ready">
-        &#127922; T&#7840;O &#272;&#7872; C&#211; M&#195; SEED &#9654;
+      <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mode-d&level=N3&count=30" target="_blank" rel="noopener noreferrer" class="btn-start" style="background: #059669;">
+        &#9201;&#65039; V&#224;o thi &#273;&#7873; ng&#7851;u nhi&#234;n N3 &#9654;
       </a>
     </div>
 
     <div class="card">
       <div>
         <div class="card-top">
-          <span class="badge badge-n2">SPACED REPETITION</span>
-          <span class="status-badge status-ready">S&#7892; TAY C&#194;U SAI</span>
+          <span class="badge badge-n2">MARATHON</span>
+          <span class="status-badge status-ready">50 C&#194;U &#183; 60 PH&#218;T</span>
         </div>
-        <div class="card-title">&#128221; S&#7893; Tay &#212;n C&#226;u Sai & Spaced Repetition</div>
-        <div class="card-meta">Ghi nh&#7899; t&#7921; &#273;&#7897;ng &#183; L&#7863;p l&#7841;i ng&#7855;t qu&#227;ng 1 - 3 - 7 ng&#224;y</div>
+        <div class="card-title">&#127939; Luy&#7879;n s&#7913;c b&#7873;n Marathon (50 c&#226;u h&#7887;i)</div>
+        <div class="card-meta">Ph&#249; h&#7907;p ki&#7875;m tra t&#7893;ng qu&#225;t cu&#7889;i tu&#7847;n</div>
         <div class="card-desc">
-          T&#7921; &#273;&#7897;ng thu th&#7853;p m&#7885;i c&#226;u h&#7887;i b&#7841;n t&#7915;ng tr&#7843; l&#7901;i sai trong t&#7845;t c&#7843; c&#225;c phi&#234;n l&#224;m b&#224;i. Luy&#7879;n t&#7853;p l&#7841;i cho &#273;&#7871;n khi th&#224;nh th&#7841;o (&#273;&#250;ng li&#234;n ti&#7871;p &#8805; 2 l&#7847;n).
+          Th&#7917; th&#225;ch gi&#7843;i 50 c&#226;u h&#7887;i li&#234;n t&#7909;c k&#7871;t h&#7907;p N2 v&#224; N3 trong 60 ph&#250;t nh&#7857;m r&#232;n luy&#7879;n s&#7921; t&#7853;p trung v&#224; t&#7889;c &#273;&#7897; &#273;&#7885;c hi&#7875;u &#225;p l&#7921;c th&#7901;i gian.
         </div>
       </div>
-      <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mode-e" target="_blank" class="btn-start btn-ready">
-        &#128221; M&#7902; S&#7892; TAY C&#194;U SAI &#9654;
+      <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mode-d&level=MIXED&count=50" target="_blank" rel="noopener noreferrer" class="btn-start" style="background: #b91c1c;">
+        &#127939; B&#7855;t &#273;&#7847;u phi&#234;n Marathon &#9654;
       </a>
     </div>
   </div>
 </div>
 
 <!-- ========================================================================= -->
-<!-- TAB 4: LUY&#7878;N THEO K&#7928; N&#258;NG -->
+<!-- TAB 4: LUY&#7878;N THEO K&#7928; N&#258;NG (SKILL DRILLS) -->
 <!-- ========================================================================= -->
 <div id="tab-skill" class="view-tab">
   <div class="grid">
     <div class="card">
       <div>
         <div class="card-top">
-          <span class="badge badge-n2">VOCABULARY</span>
-          <span class="status-badge status-ready">470 C&#194;U N2/N3</span>
+          <span class="badge badge-n2">N2 / N3</span>
+          <span class="status-badge status-ready">470 C&#194;U T&#7914; V&#7920;NG</span>
         </div>
-        <div class="card-title">&#128214; Ch&#7919; H&#225;n & T&#7915; V&#7921;ng (Mondai 1 - 6)</div>
-        <div class="card-meta">Kanji &#273;&#7885;c, Kanji vi&#7871;t, T&#7841;o t&#7915;, Ng&#7919; c&#7843;nh, &#272;&#7891;ng ngh&#297;a, C&#225;ch d&#249;ng t&#7915;</div>
+        <div class="card-title">&#128214; Ch&#7919; H&#225;n & T&#7915; v&#7921;ng (Mondai 1 &#8211; 6)</div>
+        <div class="card-meta">C&#225;ch &#273;&#7885;c Kanji &#183; Vi&#7871;t Kanji &#183; C&#7845;u t&#7841;o t&#7915; &#183; Ng&#7919; c&#7843;nh &#183; T&#7915; &#273;&#7891;ng ngh&#297;a &#183; C&#225;ch d&#249;ng t&#7915;</div>
         <div class="card-desc">
-          B&#7897; c&#226;u h&#7887;i tr&#7855;c nghi&#7879;m r&#232;n luy&#7879;n to&#224;n di&#7879;n 6 d&#7841;ng th&#7913;c thi T&#7915; v&#7921;ng c&#7911;a N2 v&#224; 5 d&#7841;ng th&#7913;c c&#7911;a N3. K&#232;m &#226;m H&#225;n Vi&#7879;t v&#224; ph&#226;n t&#237;ch t&#7915; g&#226;y nhi&#7877;u.
+          Luy&#7879;n s&#226;u c&#225;c d&#7841;ng b&#224;i t&#7915; v&#7921;ng th&#432;&#7901;ng g&#7863;p trong &#273;&#7873; thi JLPT N2 v&#224; N3. T&#237;ch h&#7907;p ph&#226;n t&#237;ch chi ti&#7871;t c&#225;c c&#7863;p t&#7915; d&#7877; nh&#7847;m l&#7851;n.
         </div>
       </div>
-      <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mode-b" target="_blank" class="btn-start btn-ready">
-        &#127919; LUY&#7878;N T&#7914; V&#7920;NG & KANJI &#9654;
+      <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mode-b&skill=Vocabulary" target="_blank" rel="noopener noreferrer" class="btn-start">
+        &#127919; Luy&#7879;n chuy&#234;n s&#226;u T&#7915; v&#7921;ng &#9654;
       </a>
     </div>
 
     <div class="card">
       <div>
         <div class="card-top">
-          <span class="badge badge-n2">GRAMMAR</span>
-          <span class="status-badge status-ready">158 C&#194;U N2/N3</span>
+          <span class="badge badge-n2">N2 / N3</span>
+          <span class="status-badge status-ready">158 C&#194;U NG&#7918; PH&#193;P</span>
         </div>
-        <div class="card-title">&#128220; Ng&#7919; Ph&#225;p C&#226;u & Ng&#7919; Ph&#225;p &#272;o&#7841;n V&#259;n (Mondai 7 - 9)</div>
-        <div class="card-meta">M&#7851;u c&#226;u, Ng&#7919; c&#7843;nh h&#7897;i tho&#7841;i v&#224; &#272;i&#7873;n li&#234;n t&#7915; trong v&#259;n b&#7843;n</div>
+        <div class="card-title">&#128220; Ng&#7919; ph&#225;p & C&#226;u Sao (Mondai 7 &#8211; 9)</div>
+        <div class="card-meta">Ch&#7885;n h&#236;nh th&#7913;c ng&#7919; ph&#225;p &#273;&#250;ng &#183; X&#7871;p t&#7915; v&#7883; tr&#237; sao &#11088; &#183; Ng&#7919; ph&#225;p &#273;o&#7841;n v&#259;n</div>
         <div class="card-desc">
-          Chuy&#234;n &#273;&#7873; r&#232;n luy&#7879;n c&#225;c m&#7851;u ng&#7919; ph&#225;p trung c&#7845;p N2/N3, ph&#243; t&#7915; n&#7889;i, li&#234;n t&#7915; ch&#7881; th&#7883; v&#224; m&#7841;ch suy lu&#7853;n logic trong &#273;o&#7841;n v&#259;n.
+          T&#7853;p trung r&#232;n luy&#7879;n d&#7841;ng b&#224;i t&#236;m ng&#244;i sao v&#224; ng&#7919; ph&#225;p &#273;o&#7841;n v&#259;n (&#273;&#7909;c l&#7895;) &#273;&#242;i h&#7887;i t&#432; duy m&#7841;ch l&#7841;c v&#224; n&#7855;m ch&#7855;c c&#7845;u tr&#250;c b&#7893; ngh&#297;a.
         </div>
       </div>
-      <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mode-b" target="_blank" class="btn-start btn-ready">
-        &#127919; LUY&#7878;N NG&#7918; PH&#193;P &#9654;
+      <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mode-b&skill=Grammar" target="_blank" rel="noopener noreferrer" class="btn-start">
+        &#127919; Luy&#7879;n chuy&#234;n s&#226;u Ng&#7919; ph&#225;p &#9654;
       </a>
     </div>
 
     <div class="card">
       <div>
         <div class="card-top">
-          <span class="badge badge-n2">STAR &#9733;</span>
-          <span class="status-badge status-ready">45 C&#194;U N2/N3</span>
+          <span class="badge badge-n2">N2 / N3</span>
+          <span class="status-badge status-ready">32 B&#192;I &#272;&#7884;C</span>
         </div>
-        <div class="card-title">&#9733; K&#7929; Thu&#7853;t X&#7871;p C&#226;u Sao (Mondai 8)</div>
-        <div class="card-meta">Kh&#243;a c&#7863;p ng&#7919; ph&#225;p &#183; Gh&#233;p c&#7909;m tr&#432;&#7899;c sau &#183; B&#7855;t v&#7883; tr&#237; ng&#244;i sao</div>
+        <div class="card-title">&#128209; &#272;&#7885;c hi&#7875;u V&#259;n b&#7843;n (Mondai 10 &#8211; 14)</div>
+        <div class="card-meta">&#272;o&#7843;n v&#259;n &#183; Trung v&#259;n &#183; So s&#225;nh t&#7893;ng h&#7907;p &#183; Tr&#432;&#7901;ng v&#259;n &#183; T&#236;m ki&#7871;m th&#244;ng tin</div>
         <div class="card-desc">
-          D&#7841;ng b&#224;i h&#7885;c vi&#234;n th&#432;&#7901;ng e ng&#7841;i nh&#7845;t trong JLPT. Cung c&#7845;p ph&#432;&#417;ng ph&#225;p kh&#243;a c&#225;c kh&#7889;i t&#7915; c&#7889; &#273;&#7883;nh &#273;&#7875; t&#236;m ra &#273;&#225;p &#225;n ch&#237;nh x&#225;c trong d&#432;&#7899;i 60 gi&#226;y.
+          R&#232;n luy&#7879;n k&#7929; n&#259;ng &#273;&#7885;c nhanh (Skimming), &#273;&#7885;c qu&#233;t (Scanning) v&#224; n&#7855;m b&#7855;t quan &#273;i&#7875;m c&#7911;a t&#225;c gi&#7843; trong c&#225;c b&#224;i x&#227; lu&#7853;n, th&#432; t&#7915; kinh doanh.
         </div>
       </div>
-      <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mode-b" target="_blank" class="btn-start btn-ready">
-        &#127919; LUY&#7878;N X&#7870;P C&#194;U SAO &#9654;
+      <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mode-b&skill=Reading" target="_blank" rel="noopener noreferrer" class="btn-start">
+        &#127919; Luy&#7879;n chuy&#234;n s&#226;u &#272;&#7885;c hi&#7875;u &#9654;
       </a>
     </div>
 
     <div class="card">
       <div>
         <div class="card-top">
-          <span class="badge badge-n2">READING</span>
-          <span class="status-badge status-ready">52 B&#192;I &#272;&#7884;C N2/N3</span>
+          <span class="badge" style="background:#7c2d12;">PH&#210;NG NGHE</span>
+          <span class="status-badge status-ready">NHK & JEES AUDIO</span>
         </div>
-        <div class="card-title">&#128209; &#272;&#7885;c Hi&#7875;u Th&#7921;c Chi&#7871;n (Mondai 10 - 14)</div>
-        <div class="card-meta">&#272;o&#7843;n v&#259;n, Trung v&#259;n, So s&#225;nh A/B, Tr&#432;&#7901;ng v&#259;n, Tra c&#7913;u th&#244;ng tin</div>
+        <div class="card-title">&#127911; Ph&#242;ng Luy&#7879;n Nghe Tr&#7921;c Tuy&#7871;n</div>
+        <div class="card-meta">Task-based Mondai 1 &#183; &#272;i&#7875;m ch&#237;nh Mondai 2 &#183; Ph&#7843;n x&#7841; nhanh Mondai 4</div>
         <div class="card-desc">
-          H&#7879; th&#7889;ng b&#224;i &#273;&#7885;c th&#7921;c th&#7909; k&#232;m c&#226;u h&#7887;i t&#432; duy ph&#7843;n bi&#7879;n. R&#232;n k&#7929; n&#259;ng &#273;&#7885;c qu&#233;t t&#7915; kh&#243;a, x&#225;c &#273;&#7883;nh lu&#7853;n &#273;i&#7875;m ch&#237;nh v&#224; l&#7885;c b&#7843;ng bi&#7875;u th&#244;ng b&#225;o.
+          Kho t&#432; li&#7879;u nghe &#226;m thanh ch&#7845;t l&#432;&#7907;ng cao k&#232;m k&#7883;ch b&#7843;n h&#7897;i tho&#7841;i chu&#7849;n, h&#7895; tr&#7907; luy&#7879;n nghe b&#7845;m gi&#7901; v&#224; t&#7921; ki&#7875;m tra kh&#7843; n&#259;ng b&#7855;t t&#7915; kh&#243;a.
         </div>
       </div>
-      <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mode-b" target="_blank" class="btn-start btn-ready">
-        &#127919; LUY&#7878;N &#272;&#7884;C HI&#7874;U &#9654;
-      </a>
-    </div>
-
-    <div class="card">
-      <div>
-        <div class="card-top">
-          <span class="badge badge-n2">LISTENING</span>
-          <span class="status-badge status-ready">AUDIO CHU&#7848;N 100%</span>
-        </div>
-        <div class="card-title">&#127911; Ph&#242;ng Luy&#7879;n Nghe Tr&#7921;c Tuy&#7871;n (5 Mondai)</div>
-        <div class="card-meta">Tr&#236;nh ph&#225;t audio ch&#7845;t l&#432;&#7907;ng cao t&#7915; Japan Foundation & JEES</div>
-        <div class="card-desc">
-          Kho b&#224;i nghe chia r&#245; theo 5 d&#7841;ng &#273;&#7873; thi th&#7853;t: Task-based, Point comprehension, General outline, Quick response v&#224; Integrated comprehension.
-        </div>
-      </div>
-      <a href="https://sites.google.com/view/jp-study/ph%C3%B2ng-luy%E1%BB%87n-nghe" target="_blank" class="btn-start btn-external">
-        &#127911; V&#192;O PH&#210;NG LUY&#7878;N NGHE &#9654;
+      <a href="https://sites.google.com/view/jp-study/ph%C3%B2ng-luy%E1%BB%87n-nghe" target="_blank" rel="noopener noreferrer" class="btn-start" style="background:#7c2d12;">
+        &#127911; V&#224;o Ph&#242;ng Luy&#7879;n Nghe &#9654;
       </a>
     </div>
   </div>
 </div>
 
 <!-- ========================================================================= -->
-<!-- TAB 5: &#272;&#7872; CH&#205;NH TH&#7912;C 2012 / 2018 (OFFICIAL WORKBOOKS) -->
+<!-- TAB 5: &#272;&#7872; CH&#205;NH TH&#7912;C 2012 / 2018 (OFFICIAL PRACTICE WORKBOOKS) -->
 <!-- ========================================================================= -->
 <div id="tab-official" class="view-tab">
-  <div style="background: #fffbeb; border: 1px solid #fef3c7; border-radius: 8px; padding: 14px; margin-bottom: 20px; font-size: 0.82rem; color: #92400e; line-height: 1.5;">
-    &#128204; <strong>T&#224;i li&#7879;u l&#432;u tr&#7919; ch&#237;nh th&#7913;c:</strong> C&#225;c b&#7897; t&#224;i li&#7879;u d&#432;&#7899;i &#273;&#226;y l&#224; Official Practice Workbooks do Hi&#7879;p h&#7897;i H&#7895; tr&#7907; Gi&#225;o d&#7909;c Qu&#7889;c t&#7871; Nh&#7853;t B&#7843;n (JEES) v&#224; The Japan Foundation ph&#225;t h&#224;nh (Vol. 1 n&#259;m 2012, Vol. 2 n&#259;m 2018). M&#7895;i b&#7897; ch&#7913;a &#273;&#7873; thi m&#7851;u t&#432;&#417;ng &#273;&#432;&#417;ng m&#7897;t &#273;&#7873; thi th&#7853;t, k&#232;m &#273;&#225;p &#225;n, script nghe v&#224; audio MP3 nguy&#234;n g&#7889;c.
-  </div>
-
   <div class="grid">
     <!-- N2 2018 -->
     <div class="card">
       <div>
         <div class="card-top">
           <span class="badge badge-n2">JLPT N2</span>
-          <span class="status-badge status-free">OFFICIAL 2018</span>
+          <span class="status-badge status-free">OFFICIAL VOL. 2 (2018)</span>
         </div>
-        <div class="card-title">JLPT N2 | Official Practice Workbook Vol. 2 (2018)</div>
+        <div class="card-title">JLPT N2 | Official Practice Workbook (2018)</div>
         <div class="card-meta">105 c&#226;u h&#7887;i &#183; ~155 ph&#250;t &#183; Ngu&#7891;n: Japan Foundation & JEES</div>
-        
-        <div style="font-size:0.75rem; font-weight:700; color:#475569; text-transform:uppercase; margin-bottom:6px;">T&#224;i li&#7879;u PDF &#273;&#7873; thi:</div>
-        <div class="btn-group">
+        <div style="font-size:0.75rem; font-weight:700; color:#475569; margin-bottom:4px;">&#272;&#7872; THI PDF CH&#205;NH TH&#7912;C:</div>
+        <div class="materials-group">
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N2V.pdf" target="_blank">&#128214; T&#7915; v&#7921;ng</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N2G.pdf" target="_blank">&#128220; Ng&#7919; ph&#225;p</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N2R.pdf" target="_blank">&#128209; &#272;&#7885;c hi&#7875;u</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N2L.pdf" target="_blank">&#127911; &#272;&#7873; nghe</a>
         </div>
-        <div style="font-size:0.75rem; font-weight:700; color:#475569; text-transform:uppercase; margin-bottom:6px;">&#272;&#225;p &#225;n & K&#7883;ch b&#7843;n nghe:</div>
-        <div class="btn-group">
+        <div style="font-size:0.75rem; font-weight:700; color:#475569; margin-bottom:4px; margin-top:8px;">&#272;&#193;P &#193;N & SCRIPT NGHE:</div>
+        <div class="materials-group">
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N2sheet.pdf" target="_blank">&#128221; Phi&#7871;u tr&#7843; l&#7901;i</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N2answer.pdf" target="_blank">&#9989; &#272;&#225;p &#225;n</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N2script.pdf" target="_blank">&#128172; Script nghe</a>
         </div>
       </div>
       <div class="audio-box">
-        <div class="audio-label">
+        <div style="display:flex; justify-content:space-between; font-size:0.72rem; color:#64748b;">
           <span>&#127911; Nghe th&#7917; Mondai 1 (Task-based):</span>
-          <a href="https://www.jlpt.jp/e/samples/sampleindex.html" target="_blank" style="color:#2980b9; font-size:0.7rem; text-decoration:none;">Xem t&#7841;i ngu&#7891;n</a>
+          <a href="https://www.jlpt.jp/e/samples/sampleindex.html" target="_blank" style="color:#1e40af; text-decoration:none;">Xem t&#7841;i ngu&#7891;n</a>
         </div>
         <audio controls preload="none">
           <source src="https://www.jlpt.jp/samples/sample2018/mp3/N2Q1.mp3" type="audio/mpeg">
@@ -1216,29 +1206,28 @@
       <div>
         <div class="card-top">
           <span class="badge badge-n2">JLPT N2</span>
-          <span class="status-badge status-free">OFFICIAL 2012</span>
+          <span class="status-badge status-free">OFFICIAL VOL. 1 (2012)</span>
         </div>
-        <div class="card-title">JLPT N2 | Official Practice Workbook Vol. 1 (2012)</div>
+        <div class="card-title">JLPT N2 | Official Practice Workbook (2012)</div>
         <div class="card-meta">105 c&#226;u h&#7887;i &#183; ~155 ph&#250;t &#183; Ngu&#7891;n: Japan Foundation & JEES</div>
-        
-        <div style="font-size:0.75rem; font-weight:700; color:#475569; text-transform:uppercase; margin-bottom:6px;">T&#224;i li&#7879;u PDF &#273;&#7873; thi:</div>
-        <div class="btn-group">
+        <div style="font-size:0.75rem; font-weight:700; color:#475569; margin-bottom:4px;">&#272;&#7872; THI PDF CH&#205;NH TH&#7912;C:</div>
+        <div class="materials-group">
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N2V.pdf" target="_blank">&#128214; T&#7915; v&#7921;ng</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N2G.pdf" target="_blank">&#128220; Ng&#7919; ph&#225;p</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N2R.pdf" target="_blank">&#128209; &#272;&#7885;c hi&#7875;u</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N2L.pdf" target="_blank">&#127911; &#272;&#7873; nghe</a>
         </div>
-        <div style="font-size:0.75rem; font-weight:700; color:#475569; text-transform:uppercase; margin-bottom:6px;">&#272;&#225;p &#225;n & K&#7883;ch b&#7843;n nghe:</div>
-        <div class="btn-group">
+        <div style="font-size:0.75rem; font-weight:700; color:#475569; margin-bottom:4px; margin-top:8px;">&#272;&#193;P &#193;N & SCRIPT NGHE:</div>
+        <div class="materials-group">
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N2sheet.pdf" target="_blank">&#128221; Phi&#7871;u tr&#7843; l&#7901;i</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N2answer.pdf" target="_blank">&#9989; &#272;&#225;p &#225;n</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N2script.pdf" target="_blank">&#128172; Script nghe</a>
         </div>
       </div>
       <div class="audio-box">
-        <div class="audio-label">
+        <div style="display:flex; justify-content:space-between; font-size:0.72rem; color:#64748b;">
           <span>&#127911; Nghe th&#7917; Mondai 1 (Task-based):</span>
-          <a href="https://www.jlpt.jp/e/samples/sampleindex.html" target="_blank" style="color:#2980b9; font-size:0.7rem; text-decoration:none;">Xem t&#7841;i ngu&#7891;n</a>
+          <a href="https://www.jlpt.jp/e/samples/sampleindex.html" target="_blank" style="color:#1e40af; text-decoration:none;">Xem t&#7841;i ngu&#7891;n</a>
         </div>
         <audio controls preload="none">
           <source src="https://www.jlpt.jp/samples/sample2012/mp3/N2Q1.mp3" type="audio/mpeg">
@@ -1251,28 +1240,28 @@
       <div>
         <div class="card-top">
           <span class="badge badge-n3">JLPT N3</span>
-          <span class="status-badge status-free">OFFICIAL 2018</span>
+          <span class="status-badge status-free">OFFICIAL VOL. 2 (2018)</span>
         </div>
-        <div class="card-title">JLPT N3 | Official Practice Workbook Vol. 2 (2018)</div>
+        <div class="card-title">JLPT N3 | Official Practice Workbook (2018)</div>
         <div class="card-meta">95 c&#226;u h&#7887;i &#183; ~140 ph&#250;t &#183; Ngu&#7891;n: Japan Foundation & JEES</div>
-        
-        <div style="font-size:0.75rem; font-weight:700; color:#475569; text-transform:uppercase; margin-bottom:6px;">T&#224;i li&#7879;u PDF &#273;&#7873; thi:</div>
-        <div class="btn-group">
+        <div style="font-size:0.75rem; font-weight:700; color:#475569; margin-bottom:4px;">&#272;&#7872; THI PDF CH&#205;NH TH&#7912;C:</div>
+        <div class="materials-group">
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N3V.pdf" target="_blank">&#128214; T&#7915; v&#7921;ng</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N3G.pdf" target="_blank">&#128220; Ng&#7919; ph&#225;p</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N3R.pdf" target="_blank">&#128209; &#272;&#7885;c hi&#7875;u</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N3L.pdf" target="_blank">&#127911; &#272;&#7873; nghe</a>
         </div>
-        <div style="font-size:0.75rem; font-weight:700; color:#475569; text-transform:uppercase; margin-bottom:6px;">&#272;&#225;p &#225;n & K&#7883;ch b&#7843;n nghe:</div>
-        <div class="btn-group">
-          <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N3script.pdf" target="_blank">&#128172; Script nghe</a>
+        <div style="font-size:0.75rem; font-weight:700; color:#475569; margin-bottom:4px; margin-top:8px;">&#272;&#193;P &#193;N & SCRIPT NGHE:</div>
+        <div class="materials-group">
+          <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N3sheet.pdf" target="_blank">&#128221; Phi&#7871;u tr&#7843; l&#7901;i</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N3answer.pdf" target="_blank">&#9989; &#272;&#225;p &#225;n</a>
+          <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N3script.pdf" target="_blank">&#128172; Script nghe</a>
         </div>
       </div>
       <div class="audio-box">
-        <div class="audio-label">
+        <div style="display:flex; justify-content:space-between; font-size:0.72rem; color:#64748b;">
           <span>&#127911; Nghe th&#7917; Mondai 1 (Task-based):</span>
-          <a href="https://www.jlpt.jp/e/samples/sampleindex.html" target="_blank" style="color:#065f46; font-size:0.7rem; text-decoration:none;">Xem t&#7841;i ngu&#7891;n</a>
+          <a href="https://www.jlpt.jp/e/samples/sampleindex.html" target="_blank" style="color:#065f46; text-decoration:none;">Xem t&#7841;i ngu&#7891;n</a>
         </div>
         <audio controls preload="none">
           <source src="https://www.jlpt.jp/samples/sample2018/mp3/N3Q1.mp3" type="audio/mpeg">
@@ -1285,28 +1274,28 @@
       <div>
         <div class="card-top">
           <span class="badge badge-n3">JLPT N3</span>
-          <span class="status-badge status-free">OFFICIAL 2012</span>
+          <span class="status-badge status-free">OFFICIAL VOL. 1 (2012)</span>
         </div>
-        <div class="card-title">JLPT N3 | Official Practice Workbook Vol. 1 (2012)</div>
+        <div class="card-title">JLPT N3 | Official Practice Workbook (2012)</div>
         <div class="card-meta">95 c&#226;u h&#7887;i &#183; ~140 ph&#250;t &#183; Ngu&#7891;n: Japan Foundation & JEES</div>
-        
-        <div style="font-size:0.75rem; font-weight:700; color:#475569; text-transform:uppercase; margin-bottom:6px;">T&#224;i li&#7879;u PDF &#273;&#7873; thi:</div>
-        <div class="btn-group">
+        <div style="font-size:0.75rem; font-weight:700; color:#475569; margin-bottom:4px;">&#272;&#7872; THI PDF CH&#205;NH TH&#7912;C:</div>
+        <div class="materials-group">
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N3V.pdf" target="_blank">&#128214; T&#7915; v&#7921;ng</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N3G.pdf" target="_blank">&#128220; Ng&#7919; ph&#225;p</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N3R.pdf" target="_blank">&#128209; &#272;&#7885;c hi&#7875;u</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N3L.pdf" target="_blank">&#127911; &#272;&#7873; nghe</a>
         </div>
-        <div style="font-size:0.75rem; font-weight:700; color:#475569; text-transform:uppercase; margin-bottom:6px;">&#272;&#225;p &#225;n & K&#7883;ch b&#7843;n nghe:</div>
-        <div class="btn-group">
-          <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N3script.pdf" target="_blank">&#128172; Script nghe</a>
+        <div style="font-size:0.75rem; font-weight:700; color:#475569; margin-bottom:4px; margin-top:8px;">&#272;&#193;P &#193;N & SCRIPT NGHE:</div>
+        <div class="materials-group">
+          <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N3sheet.pdf" target="_blank">&#128221; Phi&#7871;u tr&#7843; l&#7901;i</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N3answer.pdf" target="_blank">&#9989; &#272;&#225;p &#225;n</a>
+          <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N3script.pdf" target="_blank">&#128172; Script nghe</a>
         </div>
       </div>
       <div class="audio-box">
-        <div class="audio-label">
+        <div style="display:flex; justify-content:space-between; font-size:0.72rem; color:#64748b;">
           <span>&#127911; Nghe th&#7917; Mondai 1 (Task-based):</span>
-          <a href="https://www.jlpt.jp/e/samples/sampleindex.html" target="_blank" style="color:#065f46; font-size:0.7rem; text-decoration:none;">Xem t&#7841;i ngu&#7891;n</a>
+          <a href="https://www.jlpt.jp/e/samples/sampleindex.html" target="_blank" style="color:#065f46; text-decoration:none;">Xem t&#7841;i ngu&#7891;n</a>
         </div>
         <audio controls preload="none">
           <source src="https://www.jlpt.jp/samples/sample2012/mp3/N3Q1.mp3" type="audio/mpeg">
@@ -1314,45 +1303,68 @@
       </div>
     </div>
 
-    <!-- N4 2018 & 2012 -->
+    <!-- N4 2018 -->
     <div class="card">
       <div>
         <div class="card-top">
           <span class="badge badge-n4">JLPT N4</span>
-          <span class="status-badge status-free">OFFICIAL 2018</span>
+          <span class="status-badge status-free">OFFICIAL VOL. 2 (2018)</span>
         </div>
-        <div class="card-title">JLPT N4 | Official Practice Workbook Vol. 2 (2018)</div>
+        <div class="card-title">JLPT N4 | Official Practice Workbook (2018)</div>
         <div class="card-meta">85 c&#226;u h&#7887;i &#183; ~125 ph&#250;t &#183; Ngu&#7891;n: Japan Foundation & JEES</div>
-        <div class="btn-group">
+        <div style="font-size:0.75rem; font-weight:700; color:#475569; margin-bottom:4px;">&#272;&#7872; THI PDF CH&#205;NH TH&#7912;C:</div>
+        <div class="materials-group">
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N4V.pdf" target="_blank">&#128214; T&#7915; v&#7921;ng</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N4G.pdf" target="_blank">&#128220; Ng&#7919; ph&#225;p</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N4R.pdf" target="_blank">&#128209; &#272;&#7885;c hi&#7875;u</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N4L.pdf" target="_blank">&#127911; &#272;&#7873; nghe</a>
         </div>
+        <div style="font-size:0.75rem; font-weight:700; color:#475569; margin-bottom:4px; margin-top:8px;">&#272;&#193;P &#193;N & SCRIPT NGHE:</div>
+        <div class="materials-group">
+          <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N4sheet.pdf" target="_blank">&#128221; Phi&#7871;u tr&#7843; l&#7901;i</a>
+          <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N4answer.pdf" target="_blank">&#9989; &#272;&#225;p &#225;n</a>
+          <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2018/pdf/N4script.pdf" target="_blank">&#128172; Script nghe</a>
+        </div>
       </div>
       <div class="audio-box">
+        <div style="display:flex; justify-content:space-between; font-size:0.72rem; color:#64748b;">
+          <span>&#127911; Nghe th&#7917; Mondai 1 (Task-based):</span>
+          <a href="https://www.jlpt.jp/e/samples/sampleindex.html" target="_blank" style="color:#6b21a8; text-decoration:none;">Xem t&#7841;i ngu&#7891;n</a>
+        </div>
         <audio controls preload="none">
           <source src="https://www.jlpt.jp/samples/sample2018/mp3/N4Q1.mp3" type="audio/mpeg">
         </audio>
       </div>
     </div>
 
+    <!-- N4 2012 -->
     <div class="card">
       <div>
         <div class="card-top">
           <span class="badge badge-n4">JLPT N4</span>
-          <span class="status-badge status-free">OFFICIAL 2012</span>
+          <span class="status-badge status-free">OFFICIAL VOL. 1 (2012)</span>
         </div>
-        <div class="card-title">JLPT N4 | Official Practice Workbook Vol. 1 (2012)</div>
+        <div class="card-title">JLPT N4 | Official Practice Workbook (2012)</div>
         <div class="card-meta">85 c&#226;u h&#7887;i &#183; ~125 ph&#250;t &#183; Ngu&#7891;n: Japan Foundation & JEES</div>
-        <div class="btn-group">
+        <div style="font-size:0.75rem; font-weight:700; color:#475569; margin-bottom:4px;">&#272;&#7872; THI PDF CH&#205;NH TH&#7912;C:</div>
+        <div class="materials-group">
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N4V.pdf" target="_blank">&#128214; T&#7915; v&#7921;ng</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N4G.pdf" target="_blank">&#128220; Ng&#7919; ph&#225;p</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N4R.pdf" target="_blank">&#128209; &#272;&#7885;c hi&#7875;u</a>
           <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N4L.pdf" target="_blank">&#127911; &#272;&#7873; nghe</a>
         </div>
+        <div style="font-size:0.75rem; font-weight:700; color:#475569; margin-bottom:4px; margin-top:8px;">&#272;&#193;P &#193;N & SCRIPT NGHE:</div>
+        <div class="materials-group">
+          <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N4sheet.pdf" target="_blank">&#128221; Phi&#7871;u tr&#7843; l&#7901;i</a>
+          <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N4answer.pdf" target="_blank">&#9989; &#272;&#225;p &#225;n</a>
+          <a class="btn-mat" href="https://www.jlpt.jp/samples/sample2012/pdf/N4script.pdf" target="_blank">&#128172; Script nghe</a>
+        </div>
       </div>
       <div class="audio-box">
+        <div style="display:flex; justify-content:space-between; font-size:0.72rem; color:#64748b;">
+          <span>&#127911; Nghe th&#7917; Mondai 1 (Task-based):</span>
+          <a href="https://www.jlpt.jp/e/samples/sampleindex.html" target="_blank" style="color:#6b21a8; text-decoration:none;">Xem t&#7841;i ngu&#7891;n</a>
+        </div>
         <audio controls preload="none">
           <source src="https://www.jlpt.jp/samples/sample2012/mp3/N4Q1.mp3" type="audio/mpeg">
         </audio>
@@ -1362,26 +1374,26 @@
 </div>
 
 <!-- ========================================================================= -->
-<!-- TAB 6: NGU&#7890;N THI TH&#7916; B&#202;N NGO&#192;I (VERIFIED EXTERNAL PROVIDERS) -->
+<!-- TAB 6: NGU&#7890;N THI TH&#7916; B&#202;N NGO&#192;I (EXTERNAL PROVIDERS AUDIT) -->
 <!-- ========================================================================= -->
-<div id="tab-ext" class="view-tab">
-  <div style="background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 8px; padding: 14px; margin-bottom: 20px; font-size: 0.82rem; color: #1e40af; line-height: 1.5;">
-    &#127760; <strong>C&#7893;ng li&#234;n k&#7871;t ngu&#7891;n thi th&#7917; &#273;&#7897;c l&#7853;p &#273;&#227; ki&#7875;m ch&#7913;ng:</strong> C&#225;c n&#7873;n t&#7843;ng d&#432;&#7899;i &#273;&#226;y &#273;&#432;&#7907;c r&#224; so&#225;t v&#224; x&#225;c minh t&#237;nh ph&#225;p l&#253; nh&#7857;m gi&#250;p h&#7885;c vi&#234;n m&#7903; r&#7897;ng c&#417; h&#7897;i c&#7885; x&#225;t &#273;&#7873; thi th&#7917;. JP-STUDY kh&#244;ng sao ch&#233;p l&#7841;i n&#7897;i dung &#273;&#7897;c quy&#7873;n, xin vui l&#242;ng truy c&#7853;p tr&#7921;c ti&#7871;p website g&#7889;c c&#7911;a t&#7915;ng &#273;&#417;n v&#7883;.
+<div id="tab-external" class="view-tab">
+  <div style="background:#eff6ff; border:1px solid #bfdbfe; border-radius:10px; padding:14px; margin-bottom:20px; font-size:0.85rem; color:#1e40af;">
+    <strong>&#8505;&#65039; Quy &#273;&#7883;nh ph&#225;p l&#253; & &#272;&#7897;c l&#7853;p n&#7897;i dung:</strong> C&#225;c ngu&#7891;n d&#432;&#7899;i &#273;&#226;y l&#224; nh&#7919;ng n&#7873;n t&#7843;ng thi th&#7917; ti&#7871;ng Nh&#7853;t &#273;&#7897;c l&#7853;p. JP-STUDY kh&#244;ng s&#7903; h&#7919;u, kh&#244;ng sao ch&#233;p n&#7897;i dung v&#224; ch&#7881; cung c&#7845;p &#273;&#432;&#7901;ng li&#234;n k&#7871;t tr&#7921;c ti&#7871;p t&#7899;i c&#225;c ph&#242;ng thi th&#7917; / t&#224;i li&#7879;u ch&#237;nh th&#7913;c nh&#7857;m h&#7895; tr&#7907; ng&#432;&#7901;i h&#7885;c t&#7889;i &#273;a.
   </div>
 
   <div class="grid">
-    <!-- Provider 1: Japan Foundation Official -->
+    <!-- Provider 1: The Japan Foundation & JEES -->
     <div class="card">
       <div>
         <div class="card-top">
-          <span class="badge" style="background:#0f172a;">JLPT OFFICIAL</span>
-          <span class="status-badge status-free">100% MI&#7876;N PH&#205;</span>
+          <span class="badge" style="background:#1e3a8a;">JEES & JF</span>
+          <span class="status-badge status-free">CH&#205;NH TH&#7912;C 100%</span>
         </div>
-        <div class="card-title">The Japan Foundation & JEES (Trang ch&#7911; JLPT)</div>
-        <div class="card-meta">C&#7845;p &#273;&#7897;: N1, N2, N3, N4, N5 &#183; &#272;&#417;n v&#7883;: C&#417; quan t&#7893; ch&#7913;c k&#7923; thi JLPT</div>
+        <div class="card-title">The Japan Foundation & JEES (Official Sample Tests)</div>
+        <div class="card-meta">C&#7845;p &#273;&#7897;: N1 &#273;&#7871;n N5 &#183; &#272;&#417;n v&#7883; t&#7893; ch&#7913;c k&#7923; thi JLPT</div>
         <div class="card-desc">
-          &#8226; <strong>Quy m&#244;:</strong> 2 b&#7897; &#273;&#7873; thi &#273;&#7847;y &#273;&#7911;/m&#7895;i c&#7845;p &#273;&#7897; + B&#7897; c&#226;u h&#7887;i m&#7851;u tr&#7921;c tuy&#7871;n.<br>
-          &#8226; <strong>Ph&#226;n lo&#7841;i:</strong> Full Practice Workbook (Chu&#7849;n h&#243;a 100%).<br>
+          &#8226; <strong>Quy m&#244;:</strong> Tr&#7885;n b&#7897; c&#226;u h&#7887;i m&#7851;u ch&#237;nh th&#7913;c v&#224; 6 t&#7853;p &#273;&#7873; th&#7921;c h&#224;nh &#273;&#7847;y &#273;&#7911; (Vol. 1 & Vol. 2).<br>
+          &#8226; <strong>Ph&#226;n lo&#7841;i:</strong> Sample Questions & Full Practice Workbooks.<br>
           &#8226; <strong>&#194;m thanh:</strong> File MP3 g&#7889;c + K&#7883;ch b&#7843;n h&#7897;i tho&#7841;i chu&#7849;n.<br>
           &#8226; <strong>Chi ph&#237;:</strong> Mi&#7877;n ph&#237; to&#224;n b&#7897;, kh&#244;ng c&#7847;n &#273;&#259;ng k&#253; t&#224;i kho&#7843;n.
         </div>
@@ -1398,7 +1410,7 @@
           <span class="badge" style="background:#2563eb;">MIGII JLPT</span>
           <span class="status-badge status-paid">FREEMIUM (C&#211; TR&#7842; PH&#205;)</span>
         </div>
-        <div class="card-title">Migii JLPT (Web & &#7912;ng d&#7909;ng Di &#273;&#7897;ng)</div>
+        <div class="card-title">Migii JLPT (Ph&#242;ng Thi Th&#7917; Tr&#7921;c Tuy&#7871;n)</div>
         <div class="card-meta">C&#7845;p &#273;&#7897;: N5 &#273;&#7871;n N1 &#183; &#272;&#417;n v&#7883;: Migii Team</div>
         <div class="card-desc">
           &#8226; <strong>Quy m&#244;:</strong> ~10&#8211;15 &#273;&#7873; thi th&#7917; m&#244; ph&#7887;ng/c&#7845;p &#273;&#7897; + Ng&#226;n h&#224;ng c&#226;u h&#7887;i theo d&#7841;ng.<br>
@@ -1407,12 +1419,54 @@
           &#8226; <strong>Chi ph&#237;:</strong> L&#224;m th&#7917; mi&#7877;n ph&#237; 1&#8211;2 &#273;&#7873;/mini-test; m&#7903; kh&#243;a to&#224;n b&#7897; kho &#273;&#7873; y&#234;u c&#7847;u g&#243;i Premium.
         </div>
       </div>
-      <a href="https://migii.net/en/jlpt" target="_blank" rel="noopener noreferrer" class="btn-start btn-external">
-        &#127760; M&#7903; N&#7873;n T&#7843;ng Migii JLPT &#8599;
+      <a href="https://migii.net/vi/test-online" target="_blank" rel="noopener noreferrer" class="btn-start btn-external">
+        &#127760; V&#224;o Ph&#242;ng Thi Th&#7917; Migii JLPT &#8599;
       </a>
     </div>
 
-    <!-- Provider 3: TodayJLPT -->
+    <!-- Provider 3: VNJPCLUB -->
+    <div class="card">
+      <div>
+        <div class="card-top">
+          <span class="badge" style="background:#dc2626;">VNJPCLUB</span>
+          <span class="status-badge status-free">MI&#7876;N PH&#205; WEB</span>
+        </div>
+        <div class="card-title">VNJPCLUB (Kho &#272;&#7873; Thi Th&#7917; Tr&#7921;c Tuy&#7871;n)</div>
+        <div class="card-meta">C&#7845;p &#273;&#7897;: N5 &#273;&#7871;n N1 &#183; &#272;&#417;n v&#7883;: VNJPCLUB Community</div>
+        <div class="card-desc">
+          &#8226; <strong>Quy m&#244;:</strong> Kho &#273;&#7873; thi phong ph&#250; m&#244; ph&#7887;ng c&#225;c k&#7923; thi qua c&#225;c n&#259;m.<br>
+          &#8226; <strong>Ph&#226;n lo&#7841;i:</strong> Full Mock (&#272;&#7911; 3 ph&#7847;n: Ki&#7871;n th&#7913;c ch&#7919; H&#225;n/Ng&#7919; ph&#225;p, &#272;&#7885;c hi&#7875;u, Nghe hi&#7875;u).<br>
+          &#8226; <strong>&#194;m thanh:</strong> T&#237;ch h&#7907;p s&#7861;n audio nghe tr&#234;n tr&#236;nh duy&#7879;t.<br>
+          &#8226; <strong>Chi ph&#237;:</strong> Mi&#7877;n ph&#237; tr&#7921;c tuy&#7871;n, c&#243; t&#237;nh gi&#7901; v&#224; ch&#7845;m &#273;i&#7875;m t&#7921; &#273;&#7897;ng.
+        </div>
+      </div>
+      <a href="https://www.vnjpclub.com/luyen-thi-jlpt/de-thi-jlpt.html" target="_blank" rel="noopener noreferrer" class="btn-start btn-external">
+        &#127760; M&#7903; Kho &#272;&#7873; Thi VNJPCLUB &#8599;
+      </a>
+    </div>
+
+    <!-- Provider 4: Dungmori -->
+    <div class="card">
+      <div>
+        <div class="card-top">
+          <span class="badge" style="background:#7c3aed;">DUNGMORI</span>
+          <span class="status-badge status-ext">THI &#272;&#7882;NH K&#7922; / C&#211; PH&#205;</span>
+        </div>
+        <div class="card-title">Dungmori (Ph&#242;ng Thi &#7842;o M&#244; Ph&#7887;ng &#272;&#7871;m Ng&#432;&#7907;c)</div>
+        <div class="card-meta">C&#7845;p &#273;&#7897;: N5 &#273;&#7871;n N1 &#183; &#272;&#417;n v&#7883;: D&#361;ng Mori Nh&#7853;t Ng&#7919;</div>
+        <div class="card-desc">
+          &#8226; <strong>Quy m&#244;:</strong> C&#225;c &#273;&#7907;t thi th&#7917; tr&#7921;c tuy&#7871;n &#273;&#7883;nh k&#7923; tr&#432;&#7899;c m&#7895;i k&#7923; thi th&#225;ng 7 & 12.<br>
+          &#8226; <strong>Ph&#226;n lo&#7841;i:</strong> Full Mock Exam (M&#244; ph&#7887;ng &#225;p l&#7921;c ph&#242;ng thi, c&#243; b&#7843;ng x&#7871;p h&#7841;ng to&#224;n qu&#7889;c).<br>
+          &#8226; <strong>&#194;m thanh:</strong> H&#7879; th&#7889;ng ph&#242;ng thi nghe b&#7845;m gi&#7901; chu&#7849;n 50 ph&#250;t.<br>
+          &#8226; <strong>Chi ph&#237;:</strong> T&#7893; ch&#7913;c mi&#7877;n ph&#237; theo &#273;&#7907;t c&#244;ng b&#7889;; kho &#273;&#7873; chi ti&#7871;t &#273;i k&#232;m kh&#243;a h&#7885;c.
+        </div>
+      </div>
+      <a href="https://dungmori.com/thi-thu" target="_blank" rel="noopener noreferrer" class="btn-start btn-external">
+        &#127760; V&#224;o Ph&#242;ng Thi Th&#7917; Dungmori &#8599;
+      </a>
+    </div>
+
+    <!-- Provider 5: TodayJLPT -->
     <div class="card">
       <div>
         <div class="card-top">
@@ -1430,48 +1484,6 @@
       </div>
       <a href="https://todayjlpt.com" target="_blank" rel="noopener noreferrer" class="btn-start btn-external">
         &#127760; M&#7903; Website TodayJLPT &#8599;
-      </a>
-    </div>
-
-    <!-- Provider 4: VNJPCLUB -->
-    <div class="card">
-      <div>
-        <div class="card-top">
-          <span class="badge" style="background:#dc2626;">VNJPCLUB</span>
-          <span class="status-badge status-free">MI&#7876;N PH&#205; WEB</span>
-        </div>
-        <div class="card-title">VNJPCLUB (C&#7897;ng &#272;&#7891;ng Ti&#7871;ng Nh&#7853;t Vi&#7879;t Nam)</div>
-        <div class="card-meta">C&#7845;p &#273;&#7897;: N5 &#273;&#7871;n N1 &#183; &#272;&#417;n v&#7883;: VNJPCLUB Community</div>
-        <div class="card-desc">
-          &#8226; <strong>Quy m&#244;:</strong> Kho &#273;&#7873; thi phong ph&#250; m&#244; ph&#7887;ng c&#225;c k&#7923; thi qua c&#225;c n&#259;m.<br>
-          &#8226; <strong>Ph&#226;n lo&#7841;i:</strong> Full Mock (&#272;&#7911; 3 ph&#7847;n: Ki&#7871;n th&#7913;c ch&#7919; H&#225;n/Ng&#7919; ph&#225;p, &#272;&#7885;c hi&#7875;u, Nghe hi&#7875;u).<br>
-          &#8226; <strong>&#194;m thanh:</strong> T&#237;ch h&#7907;p s&#7861;n audio nghe tr&#234;n tr&#236;nh duy&#7879;t.<br>
-          &#8226; <strong>Chi ph&#237;:</strong> Mi&#7877;n ph&#237; tr&#7921;c tuy&#7871;n, c&#243; t&#237;nh gi&#7901; v&#224; ch&#7845;m &#273;i&#7875;m t&#7921; &#273;&#7897;ng.
-        </div>
-      </div>
-      <a href="https://vnjpclub.com" target="_blank" rel="noopener noreferrer" class="btn-start btn-external">
-        &#127760; M&#7903; Website VNJPCLUB &#8599;
-      </a>
-    </div>
-
-    <!-- Provider 5: Dungmori -->
-    <div class="card">
-      <div>
-        <div class="card-top">
-          <span class="badge" style="background:#7c3aed;">DUNGMORI</span>
-          <span class="status-badge status-ext">THI &#272;&#7882;NH K&#7922; / C&#211; PH&#205;</span>
-        </div>
-        <div class="card-title">Dungmori (Ph&#242;ng Thi &#7842;o M&#244; Ph&#7887;ng &#272;&#7871;m Ng&#432;&#7907;c)</div>
-        <div class="card-meta">C&#7845;p &#273;&#7897;: N5 &#273;&#7871;n N1 &#183; &#272;&#417;n v&#7883;: D&#361;ng Mori Nh&#7853;t Ng&#7919;</div>
-        <div class="card-desc">
-          &#8226; <strong>Quy m&#244;:</strong> C&#225;c &#273;&#7907;t thi th&#7917; tr&#7921;c tuy&#7871;n &#273;&#7883;nh k&#7923; tr&#432;&#7899;c m&#7895;i k&#7923; thi th&#225;ng 7 & 12.<br>
-          &#8226; <strong>Ph&#226;n lo&#7841;i:</strong> Full Mock Exam (M&#244; ph&#7887;ng &#225;p l&#7921;c ph&#242;ng thi, c&#243; b&#7843;ng x&#7871;p h&#7841;ng to&#224;n qu&#7889;c).<br>
-          &#8226; <strong>&#194;m thanh:</strong> H&#7879; th&#7889;ng ph&#242;ng thi nghe b&#7845;m gi&#7901; chu&#7849;n 50 ph&#250;t.<br>
-          &#8226; <strong>Chi ph&#237;:</strong> T&#7893; ch&#7913;c mi&#7877;n ph&#237; theo &#273;&#7907;t c&#244;ng b&#7889;; kho &#273;&#7873; chi ti&#7871;t &#273;i k&#232;m kh&#243;a h&#7885;c.
-        </div>
-      </div>
-      <a href="https://dungmori.com" target="_blank" rel="noopener noreferrer" class="btn-start btn-external">
-        &#127760; M&#7903; Website Dungmori &#8599;
       </a>
     </div>
 
@@ -1495,27 +1507,6 @@
         &#127760; M&#7903; N&#7873;n T&#7843;ng Mazii &#8599;
       </a>
     </div>
-
-    <!-- Provider 7: Minna no Nihongo Hub -->
-    <div class="card">
-      <div>
-        <div class="card-top">
-          <span class="badge" style="background:#059669;">MINNA NIHONGO</span>
-          <span class="status-badge status-free">MI&#7876;N PH&#205; C&#258;N B&#7842;N</span>
-        </div>
-        <div class="card-title">Minna no Nihongo Online Hub</div>
-        <div class="card-meta">C&#7845;p &#273;&#7897;: N5, N4 &#183; &#272;&#417;n v&#7883;: C&#7897;ng &#273;&#7891;ng h&#7885;c t&#7853;p gi&#225;o tr&#236;nh Minna</div>
-        <div class="card-desc">
-          &#8226; <strong>Quy m&#244;:</strong> 50 b&#224;i h&#7885;c n&#7873;n t&#7843;ng t&#7915; v&#7921;ng v&#224; m&#7851;u ng&#7919; ph&#225;p s&#417; c&#7845;p.<br>
-          &#8226; <strong>Ph&#226;n lo&#7841;i:</strong> B&#7893; tr&#7907; c&#7911;ng c&#7889; ki&#7871;n th&#7913;c ng&#7919; ph&#225;p/t&#7915; v&#7921;ng c&#259;n b&#7843;n (B&#224;i 1&#8211;50).<br>
-          &#8226; <strong>&#194;m thanh:</strong> File nghe h&#7897;i tho&#7841;i v&#224; b&#224;i t&#7853;p &#273;i&#7873;n t&#7915; theo gi&#225;o tr&#236;nh.<br>
-          &#8226; <strong>Chi ph&#237;:</strong> Mi&#7877;n ph&#237; tr&#7921;c tuy&#7871;n.
-        </div>
-      </div>
-      <a href="https://minnanonihongo.com" target="_blank" rel="noopener noreferrer" class="btn-start btn-external">
-        &#127760; M&#7903; Minna no Nihongo Hub &#8599;
-      </a>
-    </div>
   </div>
 </div>
 
@@ -1529,17 +1520,18 @@ function switchCatalogTab(tabId) {
     targetTab.classList.add('active');
   }
   
-  const tabButtons = {
+  const tabs = {
     'tab-n2': 0,
     'tab-n3': 1,
     'tab-rand': 2,
     'tab-skill': 3,
     'tab-official': 4,
-    'tab-ext': 5
+    'tab-external': 5
   };
-  const btnIdx = tabButtons[tabId];
-  if (btnIdx !== undefined) {
-    document.querySelectorAll('.nav-tab')[btnIdx].classList.add('active');
+  const idx = tabs[tabId];
+  const navBtns = document.querySelectorAll('.nav-tab');
+  if (idx !== undefined && navBtns[idx]) {
+    navBtns[idx].classList.add('active');
   }
 }
 

@@ -673,7 +673,7 @@ body {
     <div class="nav-tab" onclick="switchMode('mode-d')">⏱️ Luyện tính giờ</div>
     <div class="nav-tab" onclick="switchMode('mode-e')">📝 Ôn câu sai (SR)</div>
     <div class="nav-tab" onclick="switchMode('mode-f')">📊 Nhật ký học tập</div>
-    <div class="nav-tab" onclick="switchMode('mode-mock')">🏛️ Thi thử N2 (Mock 01)</div>
+    <div class="nav-tab" onclick="switchMode('mode-mock')">🏛️ Đề phân môn N2/N3</div>
   </div>
 
   <!-- MODE A: CÀY LIÊN TỤC -->
@@ -1040,41 +1040,52 @@ body {
   </div>
 
   
-  <!-- MODE MOCK: ĐỀ THI THỬ TOÀN DIỆN (FULL MOCK EXAM) -->
+  <!-- MODE MOCK: BÀI THI PHÂN MÔN N2 & N3 (SECTIONAL PRACTICE) -->
   <div id="mode-mock" class="view-panel">
     <div style="background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); color: white; padding: 20px; border-radius: 12px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(15, 23, 42, 0.15);">
       <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:8px;">
-        <span style="font-size:0.75rem; font-weight:700; text-transform:uppercase; letter-spacing:0.5px; background:rgba(255,255,255,0.2); padding:2px 8px; border-radius:4px;">🏛️ KỲ THI THỬ CHUẨN HOÁ</span>
-        <span class="status-badge status-ready" style="font-size:0.75rem;">READY · CHÍNH THỨC MỞ</span>
+        <span style="font-size:0.75rem; font-weight:700; text-transform:uppercase; letter-spacing:0.5px; background:rgba(255,255,255,0.2); padding:2px 8px; border-radius:4px;">🏛️ BÀI THI PHÂN MÔN CHUẨN HOÁ</span>
+        <span class="status-badge status-ready" style="font-size:0.75rem; background:#2563eb;">SECTIONAL PRACTICE · 2 BỘ ĐỀ</span>
       </div>
-      <h2 style="font-size:1.35rem; font-weight:800; margin-bottom:6px;">ĐỀ THI THỬ JLPT N2 THỰC CHIẾN — SỐ 01</h2>
-      <p style="font-size:0.88rem; color:#cbd5e1; line-height:1.5;">Đề thi trọn vẹn mô phỏng chuẩn xác cấu trúc và thời lượng kỳ thi N2 (Tháng 12/2026). Gồm 75 câu hỏi Phần 1 (105 phút) và 30 câu hỏi Phần 2 Nghe hiểu (50 phút).</p>
-    </div>
-
-    <div class="config-grid" style="margin-bottom:20px;">
-      <div style="background:#fff; border:1px solid #e2e8f0; border-radius:10px; padding:16px;">
-        <div style="font-size:0.8rem; font-weight:700; color:#475569; text-transform:uppercase; margin-bottom:4px;">Phần 1: Kiến thức & Đọc hiểu</div>
-        <div style="font-size:1.15rem; font-weight:800; color:#1e40af;">75 Câu hỏi · 105 Phút</div>
-        <p style="font-size:0.8rem; color:#64748b; margin-top:6px;">Mondai 1-6 (Từ vựng: 32c) · Mondai 7-9 (Ngữ pháp: 22c) · Mondai 10-14 (Đọc hiểu: 21c).</p>
-      </div>
-      <div style="background:#fff; border:1px solid #e2e8f0; border-radius:10px; padding:16px;">
-        <div style="font-size:0.8rem; font-weight:700; color:#475569; text-transform:uppercase; margin-bottom:4px;">Phần 2: Nghe hiểu (Chokai)</div>
-        <div style="font-size:1.15rem; font-weight:800; color:#065f46;">30 Câu hỏi · 50 Phút</div>
-        <p style="font-size:0.8rem; color:#64748b; margin-top:6px;">Mondai 1-5 Chokai tích hợp phòng nghe audio chất lượng cao từ Japan Foundation & JEES.</p>
-      </div>
+      <h2 style="font-size:1.35rem; font-weight:800; margin-bottom:6px;">LUYỆN TẬP PHÂN MÔN KIẾN THỨC NGÔN NGỮ & ĐỌC HIỂU</h2>
+      <p style="font-size:0.88rem; color:#cbd5e1; line-height:1.5;">Bộ đề thi bấm giờ thực chiến theo cấu trúc phân môn chính thức. Phần 1 gồm đầy đủ Chữ Hán, Từ vựng, Ngữ pháp và Đọc hiểu. Phần Nghe hiểu đang được chuẩn hóa âm thanh độc lập và chưa tính vào đề hoàn chỉnh.</p>
     </div>
 
     <div style="background:#fffbeb; border:1px solid #fef3c7; border-radius:8px; padding:14px; margin-bottom:24px; font-size:0.85rem; color:#92400e; line-height:1.5;">
-      ⚠️ <strong>Quy chế thi thử:</strong><br>
-      1. Thời gian đếm ngược chính xác <strong>105 phút</strong> cho Phần 1. Không hiển thị đáp án khi làm.<br>
-      2. Sử dụng <strong>Bảng câu hỏi Palette (1–75)</strong> để chuyển nhanh giữa các câu hoặc kiểm tra lại câu chưa chọn.<br>
-      3. Sau khi nộp bài: Hệ thống chấm điểm thô, phân tích tỷ lệ chính xác theo từng kỹ năng và mở toàn bộ giải thích chi tiết.<br>
-      4. Nút chuyển tiếp sẽ hướng dẫn bạn hoàn thành nốt Phần 2 (Nghe hiểu) tại Phòng luyện nghe.
+      ⚠️ <strong>Thông tin minh bạch:</strong> Hiện hệ thống cung cấp <strong>2 đề phân môn thực chiến</strong> (N2: 75 câu / 105 phút và N3: 73 câu / 100 phút). Sau khi làm xong phần 1, bạn có thể tự luyện nghe tại Phòng luyện nghe hoặc đề chính thức 2012/2018.
     </div>
 
-    <button type="button" class="btn-primary" style="padding:14px 28px; font-size:1.05rem;" onclick="startFullMockExam('N2-MOCK-01')">
-      🚀 BẮT ĐẦU THI THỬ ĐỀ SỐ 01 (105 PHÚT) ▶
-    </button>
+    <div class="config-grid" style="margin-bottom:24px;">
+      <!-- Card N2 Sectional -->
+      <div style="background:#fff; border:1px solid #e2e8f0; border-radius:10px; padding:18px; display:flex; flex-direction:column; justify-content:space-between;">
+        <div>
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+            <span class="badge badge-n2" style="font-size:0.75rem; font-weight:700; padding:2px 8px; border-radius:4px; color:#fff; background:#1e3a8a;">JLPT N2</span>
+            <span style="font-size:0.75rem; color:#2563eb; font-weight:700;">75 CÂU · 105 PHÚT</span>
+          </div>
+          <div style="font-size:1.05rem; font-weight:700; color:#1e293b; margin-bottom:6px;">N2 Sectional Practice #01</div>
+          <p style="font-size:0.8rem; color:#64748b; line-height:1.4; margin-bottom:12px;">32 câu Từ vựng (M1–6) + 22 câu Ngữ pháp (M7–9) + 21 câu Đọc hiểu (M10–14). Đếm ngược 105 phút.</p>
+        </div>
+        <button type="button" class="btn-primary" style="padding:10px 18px; font-size:0.95rem; width:100%;" onclick="startFullMockExam('N2-MOCK-01')">
+          🚀 Vào thi N2 Đề 01 (105p) ▶
+        </button>
+      </div>
+
+      <!-- Card N3 Sectional -->
+      <div style="background:#fff; border:1px solid #e2e8f0; border-radius:10px; padding:18px; display:flex; flex-direction:column; justify-content:space-between;">
+        <div>
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+            <span class="badge badge-n3" style="font-size:0.75rem; font-weight:700; padding:2px 8px; border-radius:4px; color:#fff; background:#065f46;">JLPT N3</span>
+            <span style="font-size:0.75rem; color:#059669; font-weight:700;">73 CÂU · 100 PHÚT</span>
+          </div>
+          <div style="font-size:1.05rem; font-weight:700; color:#1e293b; margin-bottom:6px;">N3 Sectional Practice #01</div>
+          <p style="font-size:0.8rem; color:#64748b; line-height:1.4; margin-bottom:12px;">35 câu Từ vựng (M1–5) + 22 câu Ngữ pháp (M6–8) + 16 câu Đọc hiểu (M9–12). Đếm ngược 100 phút.</p>
+        </div>
+        <button type="button" class="btn-primary" style="padding:10px 18px; font-size:0.95rem; width:100%; background:#059669;" onclick="startFullMockExam('N3-MOCK-01')">
+          🚀 Vào thi N3 Đề 01 (100p) ▶
+        </button>
+      </div>
+    </div>
   </div>
 
   <!-- MODE F: NHẬT KÝ & LỊCH SỬ HỌC TẬP (PERSISTENCE) -->
@@ -1349,16 +1360,16 @@ window.addEventListener('DOMContentLoaded', () => {
       const lvlEl = document.getElementById('a-level');
       if (lvlEl) lvlEl.value = qLevel.toUpperCase();
     }
-        const qMock = params.get('mock') || params.get('mockId');
+    const qMock = params.get('mock') || params.get('mockId');
     if (qMock) {
       setTimeout(() => startFullMockExam(qMock), 200);
       return;
     }
+    const qMode = params.get('mode');
     if (qMode === 'mock' || qMode === 'mode-mock') {
       switchMode('mode-mock');
       return;
     }
-    const qMode = params.get('mode');
     if (qMode && ['mode-a', 'mode-b', 'mode-c', 'mode-d', 'mode-e', 'mode-f'].includes(qMode)) {
       switchMode(qMode);
     }
