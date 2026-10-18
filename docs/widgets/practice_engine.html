@@ -676,6 +676,9 @@ body {
     <div class="nav-tab" onclick="switchMode('mode-mock')">🏛️ Đề phân môn N2/N3</div>
   </div>
 
+  <!-- Deep Link Applied Configuration Banner -->
+  <div id="param-config-badge" style="display:none; margin-bottom:16px; background:#eff6ff; border:1px solid #bfdbfe; border-radius:8px; padding:12px 16px; font-size:0.85rem; line-height:1.5;"></div>
+
   <!-- MODE A: CÀY LIÊN TỤC -->
   <div id="mode-a" class="view-panel active">
     <!-- Config Selector -->
@@ -945,8 +948,9 @@ body {
           <label class="config-label">Thời gian & Quy mô</label>
           <select id="d-duration" class="config-select">
             <option value="15">15 Phút (15 câu ngẫu nhiên)</option>
-            <option value="30" selected>30 Phút (30 câu tiêu chuẩn)</option>
-            <option value="60">60 Phút (50 câu tổng hợp)</option>
+            <option value="30" selected>30 Phút (30 câu tiêu chuẩn N3)</option>
+            <option value="35">35 Phút (30 câu tiêu chuẩn N2)</option>
+            <option value="60">60 Phút (50 câu tổng hợp Marathon)</option>
           </select>
         </div>
       </div>
@@ -957,11 +961,11 @@ body {
 
       <div style="background: #f8fafc; border: 1px dashed #cbd5e1; border-radius: 8px; padding: 14px; margin-bottom: 24px;">
         <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
-          <span style="font-weight:700; font-size:0.85rem; color:#1e293b;">ℹ️ Thông tin về Thi thử chuẩn JLPT (Full Mock 180 điểm)</span>
-          <span class="type-card-badge stage2">Giai đoạn 2 · Đang chuẩn hóa</span>
+          <span style="font-weight:700; font-size:0.85rem; color:#1e293b;">ℹ️ Thông tin về Bài thi phân môn (Sectional Practice)</span>
+          <span class="type-card-badge" style="background:#dbeafe; color:#1e40af;">Chuẩn hóa phần Viết</span>
         </div>
-        <p style="font-size:0.8rem; color:#64748b;">
-          Đề thi thử đầy đủ 180 điểm theo chuẩn JEES (gồm bài đọc trường văn và phần nghe hiểu 1:1 đồng bộ) đang được chuẩn hóa cho bản phát hành Giai đoạn 2 nhằm đảm bảo điểm số scaled score chính xác tuyệt đối.
+        <p style="font-size:0.8rem; color:#64748b; line-height:1.4;">
+          Các bài thi bấm giờ hiện tại là Bài Luyện Tập Phân Môn Bấm Giờ (Kiến thức ngôn ngữ & Đọc hiểu), báo cáo điểm số thô (Raw Score) và tỷ lệ % chính xác. Cấu trúc bài thi chính thức JLPT yêu cầu thêm phần thi Nghe hiểu độc lập. Bạn có thể luyện nghe riêng biệt tại Phòng luyện nghe hoặc đề chính thức 2012/2018.
         </p>
       </div>
 
@@ -1079,7 +1083,12 @@ body {
             <span style="font-size:0.75rem; color:#059669; font-weight:700;">73 CÂU · 100 PHÚT</span>
           </div>
           <div style="font-size:1.05rem; font-weight:700; color:#1e293b; margin-bottom:6px;">N3 Sectional Practice #01</div>
-          <p style="font-size:0.8rem; color:#64748b; line-height:1.4; margin-bottom:12px;">35 câu Từ vựng (M1–5) + 22 câu Ngữ pháp (M6–8) + 16 câu Đọc hiểu (M9–12). Đếm ngược 100 phút.</p>
+          <p style="font-size:0.8rem; color:#64748b; line-height:1.4; margin-bottom:12px;">
+            35 câu Từ vựng (M1–5) + 22 câu Ngữ pháp (M6–8) + 16 câu Đọc hiểu (M9–12). Đếm ngược 100 phút liên tục.<br>
+            <span style="display:inline-block; margin-top:4px; font-size:0.75rem; color:#065f46; font-weight:600; background:#f0fdf4; padding:2px 6px; border-radius:4px; border:1px solid #bbf7d0;">
+              📌 Lưu ý: Kỳ thi N3 chính thức tách rời Từ vựng (30p) và Ngữ pháp/Đọc hiểu (70p) thành 2 ca riêng biệt. Đề thực chiến này gộp 2 khối thành phiên liên tục 100 phút để rèn luyện phân bổ thời gian.
+            </span>
+          </p>
         </div>
         <button type="button" class="btn-primary" style="padding:10px 18px; font-size:0.95rem; width:100%; background:#059669;" onclick="startFullMockExam('N3-MOCK-01')">
           🚀 Vào thi N3 Đề 01 (100p) ▶
@@ -1341,7 +1350,7 @@ function ensureBankLoaded(onComplete) {
 }
 
 // =========================================================================
-// INITIALIZATION
+// INITIALIZATION & DEEP LINK HANDLING
 // =========================================================================
 window.addEventListener('DOMContentLoaded', () => {
   if (window.JP_PRACTICE_BANK && window.JP_PRACTICE_BANK.questions) {
@@ -1353,28 +1362,165 @@ window.addEventListener('DOMContentLoaded', () => {
   renderSRStats();
   renderSessionHistory();
 
+  applyUrlParameters();
+});
+
+function showParamBadge(infoList) {
+  const badge = document.getElementById('param-config-badge');
+  if (!badge) return;
+  badge.innerHTML = `
+    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+      <div>
+        <span style="font-weight:700; color:#1e40af;">⚙️ CẤU HÌNH LIÊN KẾT ĐÃ ÁP DỤNG:</span>
+        <span style="margin-left:6px; color:#334155;">${infoList.join(' · ')}</span>
+      </div>
+      <button type="button" onclick="document.getElementById('param-config-badge').style.display='none'" style="background:none; border:none; color:#64748b; font-weight:700; cursor:pointer; font-size:1.1rem; padding:0 4px; line-height:1;" title="Đóng thông báo">✕</button>
+    </div>
+  `;
+  badge.style.display = 'block';
+}
+
+function highlightSkillCardsInModeB(skill) {
+  const norm = (skill || '').toLowerCase();
+  const cards = document.querySelectorAll('#mode-b .type-card');
+  cards.forEach(card => {
+    const text = card.innerText.toLowerCase();
+    let match = false;
+    if (norm === 'vocabulary' && (text.includes('từ') || text.includes('hán') || text.includes('語') || text.includes('字') || text.includes('orth') || text.includes('read') || text.includes('affx') || text.includes('cont') || text.includes('para') || text.includes('usag'))) match = true;
+    if (norm === 'grammar' && (text.includes('ngữ pháp') || text.includes('sao') || text.includes('文法') || text.includes('form') || text.includes('star') || text.includes('cloz'))) match = true;
+    if (norm === 'reading' && (text.includes('đọc') || text.includes('読解') || text.includes('rd-'))) match = true;
+
+    if (match) {
+      card.style.borderColor = '#2563eb';
+      card.style.backgroundColor = '#f0f7ff';
+      card.style.boxShadow = '0 0 0 2px rgba(37, 99, 235, 0.2)';
+    } else {
+      card.style.opacity = '0.55';
+    }
+  });
+}
+
+function applyUrlParameters() {
   try {
     const params = new URLSearchParams(window.location.search);
-    const qLevel = params.get('level');
-    if (qLevel && ['N2', 'N3', 'N4', 'MIXED', 'ALL'].includes(qLevel.toUpperCase())) {
-      const lvlEl = document.getElementById('a-level');
-      if (lvlEl) lvlEl.value = qLevel.toUpperCase();
-    }
+    if (!params.toString()) return;
+
+    let appliedInfo = [];
+
+    // 1. Mock param (mock / mockId)
     const qMock = params.get('mock') || params.get('mockId');
     if (qMock) {
-      setTimeout(() => startFullMockExam(qMock), 200);
-      return;
+      const upperMock = qMock.toUpperCase();
+      if (['N2-MOCK-01', 'N3-MOCK-01'].includes(upperMock)) {
+        appliedInfo.push(`Bài thi phân môn: <strong>${upperMock}</strong>`);
+        showParamBadge(appliedInfo);
+        switchMode('mode-mock');
+        return;
+      }
     }
+
+    // 2. Mode param
     const qMode = params.get('mode');
-    if (qMode === 'mock' || qMode === 'mode-mock') {
-      switchMode('mode-mock');
-      return;
+    const validModes = ['mode-a', 'mode-b', 'mode-c', 'mode-d', 'mode-e', 'mode-f', 'mode-mock', 'mock'];
+    let targetMode = 'mode-a';
+    if (qMode && validModes.includes(qMode.toLowerCase())) {
+      targetMode = (qMode.toLowerCase() === 'mock') ? 'mode-mock' : qMode.toLowerCase();
+      const modeNames = {
+        'mode-a': 'Cày liên tục',
+        'mode-b': 'Luyện theo dạng',
+        'mode-c': 'Đề có mã số',
+        'mode-d': 'Luyện tính giờ',
+        'mode-e': 'Ôn câu sai',
+        'mode-f': 'Nhật ký học tập',
+        'mode-mock': 'Đề phân môn N2/N3'
+      };
+      appliedInfo.push(`Chế độ: <strong>${modeNames[targetMode] || targetMode}</strong>`);
     }
-    if (qMode && ['mode-a', 'mode-b', 'mode-c', 'mode-d', 'mode-e', 'mode-f'].includes(qMode)) {
-      switchMode(qMode);
+
+    // 3. Level param
+    const qLevel = params.get('level');
+    let effectiveLevel = null;
+    if (qLevel) {
+      const upperLvl = qLevel.toUpperCase();
+      if (['N2', 'N3', 'N4', 'MIXED', 'ALL'].includes(upperLvl)) {
+        effectiveLevel = upperLvl;
+        appliedInfo.push(`Cấp độ: <strong>${upperLvl}</strong>`);
+
+        const aLvl = document.getElementById('a-level');
+        if (aLvl) aLvl.value = upperLvl;
+
+        const cLvl = document.getElementById('c-level');
+        if (cLvl && ['N2', 'N3'].includes(upperLvl)) cLvl.value = upperLvl;
+
+        const dLvl = document.getElementById('d-level');
+        if (dLvl && ['N2', 'N3', 'MIXED'].includes(upperLvl)) dLvl.value = upperLvl;
+      }
     }
-  } catch (e) { console.error('Error parsing query params:', e); }
-});
+
+    // 4. Duration param (minutes)
+    const qDur = params.get('duration');
+    let durVal = null;
+    if (qDur) {
+      const durInt = parseInt(qDur, 10);
+      if ([15, 30, 35, 60].includes(durInt)) {
+        durVal = durInt;
+        appliedInfo.push(`Thời gian: <strong>${durInt} phút</strong>`);
+        const dDur = document.getElementById('d-duration');
+        if (dDur) dDur.value = String(durInt);
+      }
+    }
+
+    // 5. Count param (number of questions)
+    const qCount = params.get('count');
+    if (qCount) {
+      const countInt = parseInt(qCount, 10);
+      if ([10, 15, 20, 30, 50, 100].includes(countInt)) {
+        appliedInfo.push(`Số lượng: <strong>${countInt} câu</strong>`);
+
+        const aCnt = document.getElementById('a-count');
+        if (aCnt && ['10', '20', '30', '50', '100'].includes(String(countInt))) aCnt.value = String(countInt);
+
+        const cLen = document.getElementById('c-length');
+        if (cLen && ['15', '30', '50'].includes(String(countInt))) cLen.value = String(countInt);
+
+        // If in Mode D and duration was not explicitly provided in URL
+        if (!durVal) {
+          const dDur = document.getElementById('d-duration');
+          if (dDur) {
+            if (countInt === 15) dDur.value = '15';
+            else if (countInt === 30) dDur.value = (effectiveLevel === 'N2') ? '35' : '30';
+            else if (countInt === 50) dDur.value = '60';
+          }
+        }
+      }
+    }
+
+    // 6. Skill param
+    const qSkill = params.get('skill');
+    if (qSkill) {
+      const validSkills = ['Vocabulary', 'Grammar', 'Reading', 'ALL'];
+      const matchedSkill = validSkills.find(s => s.toLowerCase() === qSkill.toLowerCase());
+      if (matchedSkill) {
+        appliedInfo.push(`Kỹ năng: <strong>${matchedSkill}</strong>`);
+        const aSkill = document.getElementById('a-skill');
+        if (aSkill) aSkill.value = matchedSkill;
+        if (targetMode === 'mode-b') {
+          highlightSkillCardsInModeB(matchedSkill);
+        }
+      }
+    }
+
+    // Switch to target view panel
+    switchMode(targetMode);
+
+    // Show applied parameters badge if any parameters were provided
+    if (appliedInfo.length > 0) {
+      showParamBadge(appliedInfo);
+    }
+  } catch (e) {
+    console.error('Error applying URL params:', e);
+  }
+}
 
 function initBankStats() {
   const m = (window.JP_PRACTICE_BANK && window.JP_PRACTICE_BANK.metrics) ? window.JP_PRACTICE_BANK.metrics : {};
@@ -1392,11 +1538,16 @@ function switchMode(modeId) {
   document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
   document.querySelectorAll('.view-panel').forEach(p => p.classList.remove('active'));
   
-  const idx = ['mode-a', 'mode-b', 'mode-c', 'mode-d', 'mode-e', 'mode-f'].indexOf(modeId);
-  if (idx !== -1) {
-    document.querySelectorAll('.nav-tab')[idx].classList.add('active');
+  const modes = ['mode-a', 'mode-b', 'mode-c', 'mode-d', 'mode-e', 'mode-f', 'mode-mock'];
+  const idx = modes.indexOf(modeId);
+  const navTabs = document.querySelectorAll('.nav-tab');
+  if (idx !== -1 && navTabs[idx]) {
+    navTabs[idx].classList.add('active');
   }
-  document.getElementById(modeId).classList.add('active');
+  const targetPanel = document.getElementById(modeId);
+  if (targetPanel) {
+    targetPanel.classList.add('active');
+  }
 
   if (modeId === 'mode-e') {
     renderSRStats();
@@ -1409,6 +1560,7 @@ function switchMode(modeId) {
 // STRICT UNSEEN SELECTION ALGORITHM (P1)
 // =========================================================================
 function startGrindSession() {
+  stopActiveTimer();
   if (!bank || bank.length === 0) {
     ensureBankLoaded(() => startGrindSession());
     return;
@@ -1827,6 +1979,7 @@ function generateNewSeed() {
 }
 
 function startSeededSession() {
+  stopActiveTimer();
   if (!bank || bank.length === 0) {
     ensureBankLoaded(() => startSeededSession());
     return;
@@ -1851,6 +2004,22 @@ function startSeededSession() {
 
 
 // =========================================================================
+// CENTRALIZED TIMER CONTROLLER (STRICT SINGLE INTERVAL ACROSS APP)
+// =========================================================================
+let globalTimerInterval = null;
+
+function stopActiveTimer() {
+  if (globalTimerInterval) {
+    clearInterval(globalTimerInterval);
+    globalTimerInterval = null;
+  }
+  if (typeof timedState !== 'undefined' && timedState && timedState.timerInterval) {
+    clearInterval(timedState.timerInterval);
+    timedState.timerInterval = null;
+  }
+}
+
+// =========================================================================
 // FULL MOCK EXAM MODE HANDLER
 // =========================================================================
 function startFullMockExam(mockId) {
@@ -1862,10 +2031,16 @@ function startFullMockExam(mockId) {
     return;
   }
 
+  // Safely stop any previous timer before creating new mock session
+  stopActiveTimer();
+
   const items = mockData.sections[0].items;
   const durMin = mockData.sections[0].durationMinutes || 105;
+  const mySessionId = `${mockId}_${Date.now().toString(36).toUpperCase()}_${Math.random().toString(36).slice(2, 6)}`;
 
   timedState = {
+    sessionId: mySessionId,
+    isSubmitted: false,
     questions: items,
     currentIndex: 0,
     userAnswers: {},
@@ -1896,13 +2071,16 @@ window.startFullMockExam = startFullMockExam;
 // MODE D: LUYỆN TẬP TÍNH GIỜ (TIMED PRACTICE)
 // =========================================================================
 let timedState = {
+  sessionId: null,
+  isSubmitted: false,
   questions: [],
   currentIndex: 0,
   userAnswers: {},
   timerInterval: null,
   totalSec: 0,
   remainSec: 0,
-  startTime: 0
+  startTime: 0,
+  mockMeta: null
 };
 
 function startTimedSession() {
@@ -1910,9 +2088,16 @@ function startTimedSession() {
     ensureBankLoaded(() => startTimedSession());
     return;
   }
+
+  // Safely stop any previous timer before creating new session
+  stopActiveTimer();
+
   const level = document.getElementById('d-level').value;
   const durMin = parseInt(document.getElementById('d-duration').value, 10);
-  const qCount = (durMin === 15) ? 15 : (durMin === 30 ? 30 : 50);
+  let qCount = 30;
+  if (durMin === 15) qCount = 15;
+  else if (durMin === 30 || durMin === 35) qCount = 30;
+  else if (durMin === 60) qCount = 50;
 
   let pool = bank.filter(q => {
     if (q.exposureEligible === false) return false;
@@ -1926,14 +2111,19 @@ function startTimedSession() {
   pool.sort(() => Math.random() - 0.5);
   const selected = pool.slice(0, qCount);
 
+  const mySessionId = `TIMED_${Date.now().toString(36).toUpperCase()}_${Math.random().toString(36).slice(2, 6)}`;
+
   timedState = {
+    sessionId: mySessionId,
+    isSubmitted: false,
     questions: selected,
     currentIndex: 0,
     userAnswers: {},
     totalSec: durMin * 60,
     remainSec: durMin * 60,
     startTime: Date.now(),
-    timerInterval: null
+    timerInterval: null,
+    mockMeta: null
   };
 
   document.getElementById('d-config').style.display = 'none';
@@ -1946,13 +2136,28 @@ function startTimedSession() {
 }
 
 function startTimedTimer() {
-  if (timedState.timerInterval) clearInterval(timedState.timerInterval);
+  stopActiveTimer();
+  const currentSessionId = timedState.sessionId;
   const timerBox = document.getElementById('d-timer-box');
 
-  timedState.timerInterval = setInterval(() => {
+  // Immediately display the starting time
+  const initM = Math.floor(timedState.remainSec / 60);
+  const initS = timedState.remainSec % 60;
+  if (timerBox) {
+    timerBox.innerText = `⏱️ ${initM.toString().padStart(2, '0')}:${initS.toString().padStart(2, '0')}`;
+    timerBox.classList.remove('urgent');
+  }
+
+  globalTimerInterval = setInterval(() => {
+    // Stale callback guard: ignore if session changed or was already submitted
+    if (!timedState || timedState.sessionId !== currentSessionId || timedState.isSubmitted) {
+      stopActiveTimer();
+      return;
+    }
+
     timedState.remainSec--;
     if (timedState.remainSec <= 0) {
-      clearInterval(timedState.timerInterval);
+      stopActiveTimer();
       alert('Hết giờ làm bài! Hệ thống đang tự động nộp bài của bạn.');
       submitTimedSession(false);
       return;
@@ -1960,13 +2165,17 @@ function startTimedTimer() {
 
     const m = Math.floor(timedState.remainSec / 60);
     const s = timedState.remainSec % 60;
-    timerBox.innerText = `⏱️ ${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
-    if (timedState.remainSec < 120) {
-      timerBox.classList.add('urgent');
-    } else {
-      timerBox.classList.remove('urgent');
+    if (timerBox) {
+      timerBox.innerText = `⏱️ ${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
+      if (timedState.remainSec < 120) {
+        timerBox.classList.add('urgent');
+      } else {
+        timerBox.classList.remove('urgent');
+      }
     }
   }, 1000);
+
+  timedState.timerInterval = globalTimerInterval;
 }
 
 function renderTimedPalette() {
@@ -2050,9 +2259,15 @@ function nextTimedQuestion() {
 }
 
 function submitTimedSession(confirmUser) {
+  // Prevent duplicate submissions
+  if (!timedState || timedState.isSubmitted) {
+    console.warn('Session already submitted or inactive. Skipping duplicate submission.');
+    return;
+  }
+
   if (confirmUser) {
-    const answeredCount = Object.keys(timedState.userAnswers).length;
-    const total = timedState.questions.length;
+    const answeredCount = Object.keys(timedState.userAnswers || {}).length;
+    const total = timedState.questions ? timedState.questions.length : 0;
     if (answeredCount < total) {
       if (!confirm(`Bạn mới trả lời ${answeredCount}/${total} câu hỏi. Bạn có chắc chắn muốn nộp bài sớm không?`)) {
         return;
@@ -2064,7 +2279,9 @@ function submitTimedSession(confirmUser) {
     }
   }
 
-  if (timedState.timerInterval) clearInterval(timedState.timerInterval);
+  // Atomically lock session against duplicate submissions & stop timer immediately
+  timedState.isSubmitted = true;
+  stopActiveTimer();
 
   // Compute Raw Score
   let correct = 0;
@@ -2097,7 +2314,7 @@ function submitTimedSession(confirmUser) {
   });
 
   const total = timedState.questions.length;
-  const pct = Math.round((correct / total) * 100);
+  const pct = total > 0 ? Math.round((correct / total) * 100) : 0;
   const spentSec = Math.round((Date.now() - timedState.startTime) / 1000);
   const spentM = Math.floor(spentSec / 60);
   const spentS = spentSec % 60;
@@ -2135,25 +2352,38 @@ function submitTimedSession(confirmUser) {
 
   document.getElementById('d-summary').style.display = 'block';
 
-  // Record session to history
+  // Sectional mock vs Timed Practice history recording
+  const isMock = timedState.mockMeta && timedState.mockMeta.isMock;
+  const mockId = isMock ? timedState.mockMeta.mockId : null;
+  const mockTitle = isMock ? timedState.mockMeta.mockTitle : null;
+  const level = (timedState.mockMeta && timedState.mockMeta.level) || 
+                (timedState.questions[0] ? timedState.questions[0].level : 'N2');
+  const modeCode = isMock ? 'MOCK' : 'D';
+  const modeName = isMock ? `Đề phân môn ${mockId}` : 'Luyện tính giờ';
+
   recordSessionComplete({
-    sessionId: `TIMED-${Date.now().toString(36).toUpperCase()}`,
+    sessionId: timedState.sessionId || `TIMED-${Date.now().toString(36).toUpperCase()}`,
     timestamp: Date.now(),
     dateStr: new Date().toLocaleString('vi-VN'),
-    mode: 'D',
-    modeName: 'Luyện tính giờ',
-    level: timedState.questions[0] ? timedState.questions[0].level : 'N2',
+    mode: modeCode,
+    modeName: modeName,
+    mockId: mockId,
+    title: mockTitle,
+    level: level,
     totalQuestions: total,
     scoreCorrect: correct,
     scoreIncorrect: incorrect,
+    unanswered: unanswered,
     accuracyPct: pct,
     durationSec: spentSec,
+    completionTime: new Date().toISOString(),
     questionIds: timedState.questions.map(q => q.id),
     answers: timedState.userAnswers
   });
 }
 
 function resetTimedToConfig() {
+  stopActiveTimer();
   document.getElementById('d-arena').style.display = 'none';
   document.getElementById('d-summary').style.display = 'none';
   document.getElementById('d-config').style.display = 'block';
@@ -2248,10 +2478,16 @@ function renderSessionHistory() {
     const tr = document.createElement('tr');
     const durM = Math.floor((s.durationSec || 0) / 60);
     const durS = (s.durationSec || 0) % 60;
+    const isMock = s.mode === 'MOCK' || s.mockId;
+    const modeBadge = isMock 
+      ? `<span class="q-tag" style="background:#2563eb; color:#fff; font-weight:700;">${s.mockId || 'MOCK'}</span>` 
+      : `<span class="q-tag tag-${(s.level || 'N2').toLowerCase()}">${s.level || 'N2'}</span>`;
+    const titleSub = s.title ? `<div style="font-size:0.75rem; color:#64748b; margin-top:2px;">${s.title}</div>` : '';
+
     tr.innerHTML = `
       <td>${s.dateStr || new Date(s.timestamp).toLocaleDateString('vi-VN')}</td>
       <td><code>${s.sessionId || 'N/A'}</code></td>
-      <td><span class="q-tag tag-${(s.level || 'N2').toLowerCase()}">${s.level || 'N2'}</span> ${s.modeName || s.mode}</td>
+      <td>${modeBadge} ${s.modeName || s.mode} ${titleSub}</td>
       <td><strong>${s.scoreCorrect}</strong> / ${s.totalQuestions}</td>
       <td style="font-weight:700; color:${s.accuracyPct >= 80 ? '#15803d' : (s.accuracyPct >= 60 ? '#b45309' : '#b91c1c')};">${s.accuracyPct}%</td>
       <td>${durM}m ${durS}s</td>
@@ -2277,9 +2513,9 @@ function exportSessionsCsv() {
     alert('Không có dữ liệu phiên học nào để xuất.');
     return;
   }
-  let csv = 'Mã phiên,Thời gian,Cấp độ,Chế độ,Số câu đúng,Tổng số câu,Tỷ lệ chính xác (%),Thời lượng (giây)\n';
+  let csv = 'Mã phiên,Mã đề,Tiêu đề,Thời gian,Cấp độ,Chế độ,Số câu đúng,Tổng số câu,Tỷ lệ chính xác (%),Thời lượng (giây)\n';
   sessions.forEach(s => {
-    csv += `"${s.sessionId}","${s.dateStr || ''}","${s.level || ''}","${s.modeName || ''}",${s.scoreCorrect},${s.totalQuestions},${s.accuracyPct},${s.durationSec || 0}\n`;
+    csv += `"${s.sessionId || ''}","${s.mockId || ''}","${(s.title || '').replace(/"/g, '""')}","${s.dateStr || ''}","${s.level || ''}","${s.modeName || ''}",${s.scoreCorrect},${s.totalQuestions},${s.accuracyPct},${s.durationSec || 0}\n`;
   });
   const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
   const url = URL.createObjectURL(blob);

@@ -306,6 +306,7 @@ Snapshot 2026-10-15. VERIFIED is scoped verification, not JLPT certification. Hi
 | [scripts/tests/test_preview.cjs](scripts/tests/test_preview.cjs) | VERIFIED |
 | [scripts/tests/test_qa_adversarial_mutations.py](scripts/tests/test_qa_adversarial_mutations.py) | VERIFIED |
 | [scripts/tests/test_question_bank_negative.py](scripts/tests/test_question_bank_negative.py) | VERIFIED |
+| [scripts/tests/test_timer_and_links.py](scripts/tests/test_timer_and_links.py) | QA_PENDING |
 | [scripts/update_manifest.py](scripts/update_manifest.py) | VERIFIED |
 | [scripts/validate_release.py](scripts/validate_release.py) | VERIFIED |
 | [speaking/README.md](speaking/README.md) | VERIFIED |

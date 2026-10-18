@@ -676,6 +676,9 @@ body {
     <div class="nav-tab" onclick="switchMode('mode-mock')">&#127963;&#65039; &#272;&#7873; ph&#226;n m&#244;n N2/N3</div>
   </div>
 
+  <!-- Deep Link Applied Configuration Banner -->
+  <div id="param-config-badge" style="display:none; margin-bottom:16px; background:#eff6ff; border:1px solid #bfdbfe; border-radius:8px; padding:12px 16px; font-size:0.85rem; line-height:1.5;"></div>
+
   <!-- MODE A: C&#192;Y LI&#202;N T&#7908;C -->
   <div id="mode-a" class="view-panel active">
     <!-- Config Selector -->
@@ -945,8 +948,9 @@ body {
           <label class="config-label">Th&#7901;i gian & Quy m&#244;</label>
           <select id="d-duration" class="config-select">
             <option value="15">15 Ph&#250;t (15 c&#226;u ng&#7851;u nhi&#234;n)</option>
-            <option value="30" selected>30 Ph&#250;t (30 c&#226;u ti&#234;u chu&#7849;n)</option>
-            <option value="60">60 Ph&#250;t (50 c&#226;u t&#7893;ng h&#7907;p)</option>
+            <option value="30" selected>30 Ph&#250;t (30 c&#226;u ti&#234;u chu&#7849;n N3)</option>
+            <option value="35">35 Ph&#250;t (30 c&#226;u ti&#234;u chu&#7849;n N2)</option>
+            <option value="60">60 Ph&#250;t (50 c&#226;u t&#7893;ng h&#7907;p Marathon)</option>
           </select>
         </div>
       </div>
@@ -957,11 +961,11 @@ body {
 
       <div style="background: #f8fafc; border: 1px dashed #cbd5e1; border-radius: 8px; padding: 14px; margin-bottom: 24px;">
         <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
-          <span style="font-weight:700; font-size:0.85rem; color:#1e293b;">&#8505;&#65039; Th&#244;ng tin v&#7873; Thi th&#7917; chu&#7849;n JLPT (Full Mock 180 &#273;i&#7875;m)</span>
-          <span class="type-card-badge stage2">Giai &#273;o&#7841;n 2 &#183; &#272;ang chu&#7849;n h&#243;a</span>
+          <span style="font-weight:700; font-size:0.85rem; color:#1e293b;">&#8505;&#65039; Th&#244;ng tin v&#7873; B&#224;i thi ph&#226;n m&#244;n (Sectional Practice)</span>
+          <span class="type-card-badge" style="background:#dbeafe; color:#1e40af;">Chu&#7849;n h&#243;a ph&#7847;n Vi&#7871;t</span>
         </div>
-        <p style="font-size:0.8rem; color:#64748b;">
-          &#272;&#7873; thi th&#7917; &#273;&#7847;y &#273;&#7911; 180 &#273;i&#7875;m theo chu&#7849;n JEES (g&#7891;m b&#224;i &#273;&#7885;c tr&#432;&#7901;ng v&#259;n v&#224; ph&#7847;n nghe hi&#7875;u 1:1 &#273;&#7891;ng b&#7897;) &#273;ang &#273;&#432;&#7907;c chu&#7849;n h&#243;a cho b&#7843;n ph&#225;t h&#224;nh Giai &#273;o&#7841;n 2 nh&#7857;m &#273;&#7843;m b&#7843;o &#273;i&#7875;m s&#7889; scaled score ch&#237;nh x&#225;c tuy&#7879;t &#273;&#7889;i.
+        <p style="font-size:0.8rem; color:#64748b; line-height:1.4;">
+          C&#225;c b&#224;i thi b&#7845;m gi&#7901; hi&#7879;n t&#7841;i l&#224; B&#224;i Luy&#7879;n T&#7853;p Ph&#226;n M&#244;n B&#7845;m Gi&#7901; (Ki&#7871;n th&#7913;c ng&#244;n ng&#7919; & &#272;&#7885;c hi&#7875;u), b&#225;o c&#225;o &#273;i&#7875;m s&#7889; th&#244; (Raw Score) v&#224; t&#7927; l&#7879; % ch&#237;nh x&#225;c. C&#7845;u tr&#250;c b&#224;i thi ch&#237;nh th&#7913;c JLPT y&#234;u c&#7847;u th&#234;m ph&#7847;n thi Nghe hi&#7875;u &#273;&#7897;c l&#7853;p. B&#7841;n c&#243; th&#7875; luy&#7879;n nghe ri&#234;ng bi&#7879;t t&#7841;i Ph&#242;ng luy&#7879;n nghe ho&#7863;c &#273;&#7873; ch&#237;nh th&#7913;c 2012/2018.
         </p>
       </div>
 
@@ -1079,7 +1083,12 @@ body {
             <span style="font-size:0.75rem; color:#059669; font-weight:700;">73 C&#194;U &#183; 100 PH&#218;T</span>
           </div>
           <div style="font-size:1.05rem; font-weight:700; color:#1e293b; margin-bottom:6px;">N3 Sectional Practice #01</div>
-          <p style="font-size:0.8rem; color:#64748b; line-height:1.4; margin-bottom:12px;">35 c&#226;u T&#7915; v&#7921;ng (M1&#8211;5) + 22 c&#226;u Ng&#7919; ph&#225;p (M6&#8211;8) + 16 c&#226;u &#272;&#7885;c hi&#7875;u (M9&#8211;12). &#272;&#7871;m ng&#432;&#7907;c 100 ph&#250;t.</p>
+          <p style="font-size:0.8rem; color:#64748b; line-height:1.4; margin-bottom:12px;">
+            35 c&#226;u T&#7915; v&#7921;ng (M1&#8211;5) + 22 c&#226;u Ng&#7919; ph&#225;p (M6&#8211;8) + 16 c&#226;u &#272;&#7885;c hi&#7875;u (M9&#8211;12). &#272;&#7871;m ng&#432;&#7907;c 100 ph&#250;t li&#234;n t&#7909;c.<br>
+            <span style="display:inline-block; margin-top:4px; font-size:0.75rem; color:#065f46; font-weight:600; background:#f0fdf4; padding:2px 6px; border-radius:4px; border:1px solid #bbf7d0;">
+              &#128204; L&#432;u &#253;: K&#7923; thi N3 ch&#237;nh th&#7913;c t&#225;ch r&#7901;i T&#7915; v&#7921;ng (30p) v&#224; Ng&#7919; ph&#225;p/&#272;&#7885;c hi&#7875;u (70p) th&#224;nh 2 ca ri&#234;ng bi&#7879;t. &#272;&#7873; th&#7921;c chi&#7871;n n&#224;y g&#7897;p 2 kh&#7889;i th&#224;nh phi&#234;n li&#234;n t&#7909;c 100 ph&#250;t &#273;&#7875; r&#232;n luy&#7879;n ph&#226;n b&#7893; th&#7901;i gian.
+            </span>
+          </p>
         </div>
         <button type="button" class="btn-primary" style="padding:10px 18px; font-size:0.95rem; width:100%; background:#059669;" onclick="startFullMockExam('N3-MOCK-01')">
           &#128640; V&#224;o thi N3 &#272;&#7873; 01 (100p) &#9654;
@@ -1341,7 +1350,7 @@ function ensureBankLoaded(onComplete) {
 }
 
 // =========================================================================
-// INITIALIZATION
+// INITIALIZATION & DEEP LINK HANDLING
 // =========================================================================
 window.addEventListener('DOMContentLoaded', () => {
   if (window.JP_PRACTICE_BANK && window.JP_PRACTICE_BANK.questions) {
@@ -1353,28 +1362,165 @@ window.addEventListener('DOMContentLoaded', () => {
   renderSRStats();
   renderSessionHistory();
 
+  applyUrlParameters();
+});
+
+function showParamBadge(infoList) {
+  const badge = document.getElementById('param-config-badge');
+  if (!badge) return;
+  badge.innerHTML = `
+    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+      <div>
+        <span style="font-weight:700; color:#1e40af;">&#9881;&#65039; C&#7844;U H&#204;NH LI&#202;N K&#7870;T &#272;&#195; &#193;P D&#7908;NG:</span>
+        <span style="margin-left:6px; color:#334155;">${infoList.join(' &#183; ')}</span>
+      </div>
+      <button type="button" onclick="document.getElementById('param-config-badge').style.display='none'" style="background:none; border:none; color:#64748b; font-weight:700; cursor:pointer; font-size:1.1rem; padding:0 4px; line-height:1;" title="&#272;&#243;ng th&#244;ng b&#225;o">&#10005;</button>
+    </div>
+  `;
+  badge.style.display = 'block';
+}
+
+function highlightSkillCardsInModeB(skill) {
+  const norm = (skill || '').toLowerCase();
+  const cards = document.querySelectorAll('#mode-b .type-card');
+  cards.forEach(card => {
+    const text = card.innerText.toLowerCase();
+    let match = false;
+    if (norm === 'vocabulary' && (text.includes('t&#7915;') || text.includes('h&#225;n') || text.includes('&#35486;') || text.includes('&#23383;') || text.includes('orth') || text.includes('read') || text.includes('affx') || text.includes('cont') || text.includes('para') || text.includes('usag'))) match = true;
+    if (norm === 'grammar' && (text.includes('ng&#7919; ph&#225;p') || text.includes('sao') || text.includes('&#25991;&#27861;') || text.includes('form') || text.includes('star') || text.includes('cloz'))) match = true;
+    if (norm === 'reading' && (text.includes('&#273;&#7885;c') || text.includes('&#35501;&#35299;') || text.includes('rd-'))) match = true;
+
+    if (match) {
+      card.style.borderColor = '#2563eb';
+      card.style.backgroundColor = '#f0f7ff';
+      card.style.boxShadow = '0 0 0 2px rgba(37, 99, 235, 0.2)';
+    } else {
+      card.style.opacity = '0.55';
+    }
+  });
+}
+
+function applyUrlParameters() {
   try {
     const params = new URLSearchParams(window.location.search);
-    const qLevel = params.get('level');
-    if (qLevel && ['N2', 'N3', 'N4', 'MIXED', 'ALL'].includes(qLevel.toUpperCase())) {
-      const lvlEl = document.getElementById('a-level');
-      if (lvlEl) lvlEl.value = qLevel.toUpperCase();
-    }
+    if (!params.toString()) return;
+
+    let appliedInfo = [];
+
+    // 1. Mock param (mock / mockId)
     const qMock = params.get('mock') || params.get('mockId');
     if (qMock) {
-      setTimeout(() => startFullMockExam(qMock), 200);
-      return;
+      const upperMock = qMock.toUpperCase();
+      if (['N2-MOCK-01', 'N3-MOCK-01'].includes(upperMock)) {
+        appliedInfo.push(`B&#224;i thi ph&#226;n m&#244;n: <strong>${upperMock}</strong>`);
+        showParamBadge(appliedInfo);
+        switchMode('mode-mock');
+        return;
+      }
     }
+
+    // 2. Mode param
     const qMode = params.get('mode');
-    if (qMode === 'mock' || qMode === 'mode-mock') {
-      switchMode('mode-mock');
-      return;
+    const validModes = ['mode-a', 'mode-b', 'mode-c', 'mode-d', 'mode-e', 'mode-f', 'mode-mock', 'mock'];
+    let targetMode = 'mode-a';
+    if (qMode && validModes.includes(qMode.toLowerCase())) {
+      targetMode = (qMode.toLowerCase() === 'mock') ? 'mode-mock' : qMode.toLowerCase();
+      const modeNames = {
+        'mode-a': 'C&#224;y li&#234;n t&#7909;c',
+        'mode-b': 'Luy&#7879;n theo d&#7841;ng',
+        'mode-c': '&#272;&#7873; c&#243; m&#227; s&#7889;',
+        'mode-d': 'Luy&#7879;n t&#237;nh gi&#7901;',
+        'mode-e': '&#212;n c&#226;u sai',
+        'mode-f': 'Nh&#7853;t k&#253; h&#7885;c t&#7853;p',
+        'mode-mock': '&#272;&#7873; ph&#226;n m&#244;n N2/N3'
+      };
+      appliedInfo.push(`Ch&#7871; &#273;&#7897;: <strong>${modeNames[targetMode] || targetMode}</strong>`);
     }
-    if (qMode && ['mode-a', 'mode-b', 'mode-c', 'mode-d', 'mode-e', 'mode-f'].includes(qMode)) {
-      switchMode(qMode);
+
+    // 3. Level param
+    const qLevel = params.get('level');
+    let effectiveLevel = null;
+    if (qLevel) {
+      const upperLvl = qLevel.toUpperCase();
+      if (['N2', 'N3', 'N4', 'MIXED', 'ALL'].includes(upperLvl)) {
+        effectiveLevel = upperLvl;
+        appliedInfo.push(`C&#7845;p &#273;&#7897;: <strong>${upperLvl}</strong>`);
+
+        const aLvl = document.getElementById('a-level');
+        if (aLvl) aLvl.value = upperLvl;
+
+        const cLvl = document.getElementById('c-level');
+        if (cLvl && ['N2', 'N3'].includes(upperLvl)) cLvl.value = upperLvl;
+
+        const dLvl = document.getElementById('d-level');
+        if (dLvl && ['N2', 'N3', 'MIXED'].includes(upperLvl)) dLvl.value = upperLvl;
+      }
     }
-  } catch (e) { console.error('Error parsing query params:', e); }
-});
+
+    // 4. Duration param (minutes)
+    const qDur = params.get('duration');
+    let durVal = null;
+    if (qDur) {
+      const durInt = parseInt(qDur, 10);
+      if ([15, 30, 35, 60].includes(durInt)) {
+        durVal = durInt;
+        appliedInfo.push(`Th&#7901;i gian: <strong>${durInt} ph&#250;t</strong>`);
+        const dDur = document.getElementById('d-duration');
+        if (dDur) dDur.value = String(durInt);
+      }
+    }
+
+    // 5. Count param (number of questions)
+    const qCount = params.get('count');
+    if (qCount) {
+      const countInt = parseInt(qCount, 10);
+      if ([10, 15, 20, 30, 50, 100].includes(countInt)) {
+        appliedInfo.push(`S&#7889; l&#432;&#7907;ng: <strong>${countInt} c&#226;u</strong>`);
+
+        const aCnt = document.getElementById('a-count');
+        if (aCnt && ['10', '20', '30', '50', '100'].includes(String(countInt))) aCnt.value = String(countInt);
+
+        const cLen = document.getElementById('c-length');
+        if (cLen && ['15', '30', '50'].includes(String(countInt))) cLen.value = String(countInt);
+
+        // If in Mode D and duration was not explicitly provided in URL
+        if (!durVal) {
+          const dDur = document.getElementById('d-duration');
+          if (dDur) {
+            if (countInt === 15) dDur.value = '15';
+            else if (countInt === 30) dDur.value = (effectiveLevel === 'N2') ? '35' : '30';
+            else if (countInt === 50) dDur.value = '60';
+          }
+        }
+      }
+    }
+
+    // 6. Skill param
+    const qSkill = params.get('skill');
+    if (qSkill) {
+      const validSkills = ['Vocabulary', 'Grammar', 'Reading', 'ALL'];
+      const matchedSkill = validSkills.find(s => s.toLowerCase() === qSkill.toLowerCase());
+      if (matchedSkill) {
+        appliedInfo.push(`K&#7929; n&#259;ng: <strong>${matchedSkill}</strong>`);
+        const aSkill = document.getElementById('a-skill');
+        if (aSkill) aSkill.value = matchedSkill;
+        if (targetMode === 'mode-b') {
+          highlightSkillCardsInModeB(matchedSkill);
+        }
+      }
+    }
+
+    // Switch to target view panel
+    switchMode(targetMode);
+
+    // Show applied parameters badge if any parameters were provided
+    if (appliedInfo.length > 0) {
+      showParamBadge(appliedInfo);
+    }
+  } catch (e) {
+    console.error('Error applying URL params:', e);
+  }
+}
 
 function initBankStats() {
   const m = (window.JP_PRACTICE_BANK && window.JP_PRACTICE_BANK.metrics) ? window.JP_PRACTICE_BANK.metrics : {};
@@ -1392,11 +1538,16 @@ function switchMode(modeId) {
   document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
   document.querySelectorAll('.view-panel').forEach(p => p.classList.remove('active'));
   
-  const idx = ['mode-a', 'mode-b', 'mode-c', 'mode-d', 'mode-e', 'mode-f'].indexOf(modeId);
-  if (idx !== -1) {
-    document.querySelectorAll('.nav-tab')[idx].classList.add('active');
+  const modes = ['mode-a', 'mode-b', 'mode-c', 'mode-d', 'mode-e', 'mode-f', 'mode-mock'];
+  const idx = modes.indexOf(modeId);
+  const navTabs = document.querySelectorAll('.nav-tab');
+  if (idx !== -1 && navTabs[idx]) {
+    navTabs[idx].classList.add('active');
   }
-  document.getElementById(modeId).classList.add('active');
+  const targetPanel = document.getElementById(modeId);
+  if (targetPanel) {
+    targetPanel.classList.add('active');
+  }
 
   if (modeId === 'mode-e') {
     renderSRStats();
@@ -1409,6 +1560,7 @@ function switchMode(modeId) {
 // STRICT UNSEEN SELECTION ALGORITHM (P1)
 // =========================================================================
 function startGrindSession() {
+  stopActiveTimer();
   if (!bank || bank.length === 0) {
     ensureBankLoaded(() => startGrindSession());
     return;
@@ -1827,6 +1979,7 @@ function generateNewSeed() {
 }
 
 function startSeededSession() {
+  stopActiveTimer();
   if (!bank || bank.length === 0) {
     ensureBankLoaded(() => startSeededSession());
     return;
@@ -1851,6 +2004,22 @@ function startSeededSession() {
 
 
 // =========================================================================
+// CENTRALIZED TIMER CONTROLLER (STRICT SINGLE INTERVAL ACROSS APP)
+// =========================================================================
+let globalTimerInterval = null;
+
+function stopActiveTimer() {
+  if (globalTimerInterval) {
+    clearInterval(globalTimerInterval);
+    globalTimerInterval = null;
+  }
+  if (typeof timedState !== 'undefined' && timedState && timedState.timerInterval) {
+    clearInterval(timedState.timerInterval);
+    timedState.timerInterval = null;
+  }
+}
+
+// =========================================================================
 // FULL MOCK EXAM MODE HANDLER
 // =========================================================================
 function startFullMockExam(mockId) {
@@ -1862,10 +2031,16 @@ function startFullMockExam(mockId) {
     return;
   }
 
+  // Safely stop any previous timer before creating new mock session
+  stopActiveTimer();
+
   const items = mockData.sections[0].items;
   const durMin = mockData.sections[0].durationMinutes || 105;
+  const mySessionId = `${mockId}_${Date.now().toString(36).toUpperCase()}_${Math.random().toString(36).slice(2, 6)}`;
 
   timedState = {
+    sessionId: mySessionId,
+    isSubmitted: false,
     questions: items,
     currentIndex: 0,
     userAnswers: {},
@@ -1896,13 +2071,16 @@ window.startFullMockExam = startFullMockExam;
 // MODE D: LUY&#7878;N T&#7852;P T&#205;NH GI&#7900; (TIMED PRACTICE)
 // =========================================================================
 let timedState = {
+  sessionId: null,
+  isSubmitted: false,
   questions: [],
   currentIndex: 0,
   userAnswers: {},
   timerInterval: null,
   totalSec: 0,
   remainSec: 0,
-  startTime: 0
+  startTime: 0,
+  mockMeta: null
 };
 
 function startTimedSession() {
@@ -1910,9 +2088,16 @@ function startTimedSession() {
     ensureBankLoaded(() => startTimedSession());
     return;
   }
+
+  // Safely stop any previous timer before creating new session
+  stopActiveTimer();
+
   const level = document.getElementById('d-level').value;
   const durMin = parseInt(document.getElementById('d-duration').value, 10);
-  const qCount = (durMin === 15) ? 15 : (durMin === 30 ? 30 : 50);
+  let qCount = 30;
+  if (durMin === 15) qCount = 15;
+  else if (durMin === 30 || durMin === 35) qCount = 30;
+  else if (durMin === 60) qCount = 50;
 
   let pool = bank.filter(q => {
     if (q.exposureEligible === false) return false;
@@ -1926,14 +2111,19 @@ function startTimedSession() {
   pool.sort(() => Math.random() - 0.5);
   const selected = pool.slice(0, qCount);
 
+  const mySessionId = `TIMED_${Date.now().toString(36).toUpperCase()}_${Math.random().toString(36).slice(2, 6)}`;
+
   timedState = {
+    sessionId: mySessionId,
+    isSubmitted: false,
     questions: selected,
     currentIndex: 0,
     userAnswers: {},
     totalSec: durMin * 60,
     remainSec: durMin * 60,
     startTime: Date.now(),
-    timerInterval: null
+    timerInterval: null,
+    mockMeta: null
   };
 
   document.getElementById('d-config').style.display = 'none';
@@ -1946,13 +2136,28 @@ function startTimedSession() {
 }
 
 function startTimedTimer() {
-  if (timedState.timerInterval) clearInterval(timedState.timerInterval);
+  stopActiveTimer();
+  const currentSessionId = timedState.sessionId;
   const timerBox = document.getElementById('d-timer-box');
 
-  timedState.timerInterval = setInterval(() => {
+  // Immediately display the starting time
+  const initM = Math.floor(timedState.remainSec / 60);
+  const initS = timedState.remainSec % 60;
+  if (timerBox) {
+    timerBox.innerText = `&#9201;&#65039; ${initM.toString().padStart(2, '0')}:${initS.toString().padStart(2, '0')}`;
+    timerBox.classList.remove('urgent');
+  }
+
+  globalTimerInterval = setInterval(() => {
+    // Stale callback guard: ignore if session changed or was already submitted
+    if (!timedState || timedState.sessionId !== currentSessionId || timedState.isSubmitted) {
+      stopActiveTimer();
+      return;
+    }
+
     timedState.remainSec--;
     if (timedState.remainSec <= 0) {
-      clearInterval(timedState.timerInterval);
+      stopActiveTimer();
       alert('H&#7871;t gi&#7901; l&#224;m b&#224;i! H&#7879; th&#7889;ng &#273;ang t&#7921; &#273;&#7897;ng n&#7897;p b&#224;i c&#7911;a b&#7841;n.');
       submitTimedSession(false);
       return;
@@ -1960,13 +2165,17 @@ function startTimedTimer() {
 
     const m = Math.floor(timedState.remainSec / 60);
     const s = timedState.remainSec % 60;
-    timerBox.innerText = `&#9201;&#65039; ${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
-    if (timedState.remainSec < 120) {
-      timerBox.classList.add('urgent');
-    } else {
-      timerBox.classList.remove('urgent');
+    if (timerBox) {
+      timerBox.innerText = `&#9201;&#65039; ${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
+      if (timedState.remainSec < 120) {
+        timerBox.classList.add('urgent');
+      } else {
+        timerBox.classList.remove('urgent');
+      }
     }
   }, 1000);
+
+  timedState.timerInterval = globalTimerInterval;
 }
 
 function renderTimedPalette() {
@@ -2050,9 +2259,15 @@ function nextTimedQuestion() {
 }
 
 function submitTimedSession(confirmUser) {
+  // Prevent duplicate submissions
+  if (!timedState || timedState.isSubmitted) {
+    console.warn('Session already submitted or inactive. Skipping duplicate submission.');
+    return;
+  }
+
   if (confirmUser) {
-    const answeredCount = Object.keys(timedState.userAnswers).length;
-    const total = timedState.questions.length;
+    const answeredCount = Object.keys(timedState.userAnswers || {}).length;
+    const total = timedState.questions ? timedState.questions.length : 0;
     if (answeredCount < total) {
       if (!confirm(`B&#7841;n m&#7899;i tr&#7843; l&#7901;i ${answeredCount}/${total} c&#226;u h&#7887;i. B&#7841;n c&#243; ch&#7855;c ch&#7855;n mu&#7889;n n&#7897;p b&#224;i s&#7899;m kh&#244;ng?`)) {
         return;
@@ -2064,7 +2279,9 @@ function submitTimedSession(confirmUser) {
     }
   }
 
-  if (timedState.timerInterval) clearInterval(timedState.timerInterval);
+  // Atomically lock session against duplicate submissions & stop timer immediately
+  timedState.isSubmitted = true;
+  stopActiveTimer();
 
   // Compute Raw Score
   let correct = 0;
@@ -2097,7 +2314,7 @@ function submitTimedSession(confirmUser) {
   });
 
   const total = timedState.questions.length;
-  const pct = Math.round((correct / total) * 100);
+  const pct = total > 0 ? Math.round((correct / total) * 100) : 0;
   const spentSec = Math.round((Date.now() - timedState.startTime) / 1000);
   const spentM = Math.floor(spentSec / 60);
   const spentS = spentSec % 60;
@@ -2135,25 +2352,38 @@ function submitTimedSession(confirmUser) {
 
   document.getElementById('d-summary').style.display = 'block';
 
-  // Record session to history
+  // Sectional mock vs Timed Practice history recording
+  const isMock = timedState.mockMeta && timedState.mockMeta.isMock;
+  const mockId = isMock ? timedState.mockMeta.mockId : null;
+  const mockTitle = isMock ? timedState.mockMeta.mockTitle : null;
+  const level = (timedState.mockMeta && timedState.mockMeta.level) || 
+                (timedState.questions[0] ? timedState.questions[0].level : 'N2');
+  const modeCode = isMock ? 'MOCK' : 'D';
+  const modeName = isMock ? `&#272;&#7873; ph&#226;n m&#244;n ${mockId}` : 'Luy&#7879;n t&#237;nh gi&#7901;';
+
   recordSessionComplete({
-    sessionId: `TIMED-${Date.now().toString(36).toUpperCase()}`,
+    sessionId: timedState.sessionId || `TIMED-${Date.now().toString(36).toUpperCase()}`,
     timestamp: Date.now(),
     dateStr: new Date().toLocaleString('vi-VN'),
-    mode: 'D',
-    modeName: 'Luy&#7879;n t&#237;nh gi&#7901;',
-    level: timedState.questions[0] ? timedState.questions[0].level : 'N2',
+    mode: modeCode,
+    modeName: modeName,
+    mockId: mockId,
+    title: mockTitle,
+    level: level,
     totalQuestions: total,
     scoreCorrect: correct,
     scoreIncorrect: incorrect,
+    unanswered: unanswered,
     accuracyPct: pct,
     durationSec: spentSec,
+    completionTime: new Date().toISOString(),
     questionIds: timedState.questions.map(q => q.id),
     answers: timedState.userAnswers
   });
 }
 
 function resetTimedToConfig() {
+  stopActiveTimer();
   document.getElementById('d-arena').style.display = 'none';
   document.getElementById('d-summary').style.display = 'none';
   document.getElementById('d-config').style.display = 'block';
@@ -2248,10 +2478,16 @@ function renderSessionHistory() {
     const tr = document.createElement('tr');
     const durM = Math.floor((s.durationSec || 0) / 60);
     const durS = (s.durationSec || 0) % 60;
+    const isMock = s.mode === 'MOCK' || s.mockId;
+    const modeBadge = isMock 
+      ? `<span class="q-tag" style="background:#2563eb; color:#fff; font-weight:700;">${s.mockId || 'MOCK'}</span>` 
+      : `<span class="q-tag tag-${(s.level || 'N2').toLowerCase()}">${s.level || 'N2'}</span>`;
+    const titleSub = s.title ? `<div style="font-size:0.75rem; color:#64748b; margin-top:2px;">${s.title}</div>` : '';
+
     tr.innerHTML = `
       <td>${s.dateStr || new Date(s.timestamp).toLocaleDateString('vi-VN')}</td>
       <td><code>${s.sessionId || 'N/A'}</code></td>
-      <td><span class="q-tag tag-${(s.level || 'N2').toLowerCase()}">${s.level || 'N2'}</span> ${s.modeName || s.mode}</td>
+      <td>${modeBadge} ${s.modeName || s.mode} ${titleSub}</td>
       <td><strong>${s.scoreCorrect}</strong> / ${s.totalQuestions}</td>
       <td style="font-weight:700; color:${s.accuracyPct >= 80 ? '#15803d' : (s.accuracyPct >= 60 ? '#b45309' : '#b91c1c')};">${s.accuracyPct}%</td>
       <td>${durM}m ${durS}s</td>
@@ -2277,9 +2513,9 @@ function exportSessionsCsv() {
     alert('Kh&#244;ng c&#243; d&#7919; li&#7879;u phi&#234;n h&#7885;c n&#224;o &#273;&#7875; xu&#7845;t.');
     return;
   }
-  let csv = 'M&#227; phi&#234;n,Th&#7901;i gian,C&#7845;p &#273;&#7897;,Ch&#7871; &#273;&#7897;,S&#7889; c&#226;u &#273;&#250;ng,T&#7893;ng s&#7889; c&#226;u,T&#7927; l&#7879; ch&#237;nh x&#225;c (%),Th&#7901;i l&#432;&#7907;ng (gi&#226;y)\n';
+  let csv = 'M&#227; phi&#234;n,M&#227; &#273;&#7873;,Ti&#234;u &#273;&#7873;,Th&#7901;i gian,C&#7845;p &#273;&#7897;,Ch&#7871; &#273;&#7897;,S&#7889; c&#226;u &#273;&#250;ng,T&#7893;ng s&#7889; c&#226;u,T&#7927; l&#7879; ch&#237;nh x&#225;c (%),Th&#7901;i l&#432;&#7907;ng (gi&#226;y)\n';
   sessions.forEach(s => {
-    csv += `"${s.sessionId}","${s.dateStr || ''}","${s.level || ''}","${s.modeName || ''}",${s.scoreCorrect},${s.totalQuestions},${s.accuracyPct},${s.durationSec || 0}\n`;
+    csv += `"${s.sessionId || ''}","${s.mockId || ''}","${(s.title || '').replace(/"/g, '""')}","${s.dateStr || ''}","${s.level || ''}","${s.modeName || ''}",${s.scoreCorrect},${s.totalQuestions},${s.accuracyPct},${s.durationSec || 0}\n`;
   });
   const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
   const url = URL.createObjectURL(blob);
