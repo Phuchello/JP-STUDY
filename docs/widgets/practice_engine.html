@@ -660,6 +660,9 @@ body {
       </div>
       <div id="stat-badge" class="engine-stats">Đang tải ngân hàng 720 câu luyện tập khả dụng...</div>
     </div>
+    <div style="font-size:0.75rem; color:#64748b; margin-top:6px; line-height:1.4;">
+      💡 Ngân hàng câu hỏi thực hành mô phỏng theo cấu trúc đề thi JLPT (N2/N3: Bài luyện tập thử nghiệm · N4: Bộ câu hỏi chuẩn hóa). Đây là công cụ học tập độc lập, không phải sản phẩm hay đề thi chính thức do Japan Foundation / JEES phát hành.
+    </div>
   </div>
 
   <!-- Mode Navigation Tabs -->
@@ -1041,6 +1044,9 @@ body {
       <div>
         <h3 style="font-size: 1.1rem; color: #1e293b;">📊 Nhật ký phiên học tập & Bảng điểm (Lưu trữ cục bộ)</h3>
         <p style="font-size: 0.85rem; color: var(--text-muted);">Toàn bộ phiên luyện tập được tự động lưu trữ trên trình duyệt (LocalStorage). Bạn có thể tải tệp JSON/CSV để sao lưu hoặc chuyển đổi thiết bị.</p>
+        <div style="background:#eff6ff; border:1px solid #bfdbfe; border-radius:6px; padding:10px 14px; margin-top:8px; font-size:0.8rem; color:#1e40af; line-height:1.4;">
+          <strong>ℹ️ Giới hạn lưu trữ:</strong> Dữ liệu hiện được lưu trong bộ nhớ trình duyệt (<code>localStorage</code>) của thiết bị này và <strong>không tự động đồng bộ lên Google Sheets trên đám mây</strong> do hệ thống bảo mật không nhúng thông tin xác thực cá nhân. Vui lòng bấm <strong>📥 Tải JSON</strong> hoặc <strong>📋 Sao chép JSON</strong> để sao lưu an toàn hoặc chuyển dữ liệu sang thiết bị khác.
+        </div>
       </div>
       <div style="display:flex; gap:8px;">
         <button type="button" class="btn-secondary" onclick="exportSessionsJson()">📥 Tải JSON</button>
@@ -1097,7 +1103,7 @@ body {
       Trong thời gian chuẩn hóa Giai đoạn 2, mời bạn truy cập trực tiếp <strong>PHÒNG LUYỆN NGHE</strong> để nghe toàn bộ bộ sưu tập file âm thanh chất lượng cao của JLPT.
     </div>
     <div class="modal-actions">
-      <a href="https://sites.google.com/view/jp-study/phong-luyen-nghe" target="_blank" class="btn-primary" style="text-decoration:none;">🎧 Đến Phòng Luyện Nghe</a>
+      <a href="https://sites.google.com/view/jp-study/ph%C3%B2ng-luy%E1%BB%87n-nghe" target="_blank" class="btn-primary" style="text-decoration:none;">🎧 Đến Phòng Luyện Nghe</a>
       <button type="button" class="btn-secondary" onclick="closeListeningModal()">Đã hiểu & Đóng</button>
     </div>
   </div>
@@ -1110,7 +1116,7 @@ body {
       <span>📋 Dữ liệu phiên học tập (JSON Payload)</span>
     </div>
     <div class="modal-body">
-      Dữ liệu phiên học của bạn đã được đóng gói chuẩn cấu trúc JSON. Bạn có thể sao chép để sao lưu cá nhân hoặc đối chiếu thủ công với Google Sheets:
+      Dữ liệu phiên học của bạn được lưu trong <code>localStorage</code> trên thiết bị này. Bạn có thể sao chép chuỗi JSON bên dưới để sao lưu thủ công hoặc đối chiếu với Google Sheets:
       <textarea id="sheets-sync-payload" readonly style="width:100%; height:120px; font-family:monospace; font-size:0.78rem; margin-top:10px; padding:8px; border:1px solid #cbd5e1; border-radius:6px;"></textarea>
     </div>
     <div class="modal-actions">
@@ -1544,8 +1550,6 @@ function renderCurrentQuestion() {
 
   document.getElementById('a-q-exp').classList.remove('active');
   document.getElementById('btn-next-q').style.display = 'none';
-
-  markIdSeen(q.id);
 }
 
 function selectAnswer(chosenId) {
@@ -1561,6 +1565,7 @@ function selectAnswer(chosenId) {
   }
 
   saveMistakeRecord(q.id, isCorrect);
+  markIdSeen(q.id);
 
   // Disable options and show styling
   const btns = document.querySelectorAll('#a-q-options .opt-btn');
@@ -1963,8 +1968,10 @@ function submitTimedSession(confirmUser) {
       incorrect++;
     }
 
-    if (chosen) saveMistakeRecord(q.id, isCorrect);
-    markIdSeen(q.id);
+    if (chosen) {
+      saveMistakeRecord(q.id, isCorrect);
+      markIdSeen(q.id);
+    }
 
     reviewItems.push({
       question: q,

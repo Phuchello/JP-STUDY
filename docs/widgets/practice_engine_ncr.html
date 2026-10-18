@@ -660,6 +660,9 @@ body {
       </div>
       <div id="stat-badge" class="engine-stats">&#272;ang t&#7843;i ng&#226;n h&#224;ng 720 c&#226;u luy&#7879;n t&#7853;p kh&#7843; d&#7909;ng...</div>
     </div>
+    <div style="font-size:0.75rem; color:#64748b; margin-top:6px; line-height:1.4;">
+      &#128161; Ng&#226;n h&#224;ng c&#226;u h&#7887;i th&#7921;c h&#224;nh m&#244; ph&#7887;ng theo c&#7845;u tr&#250;c &#273;&#7873; thi JLPT (N2/N3: B&#224;i luy&#7879;n t&#7853;p th&#7917; nghi&#7879;m &#183; N4: B&#7897; c&#226;u h&#7887;i chu&#7849;n h&#243;a). &#272;&#226;y l&#224; c&#244;ng c&#7909; h&#7885;c t&#7853;p &#273;&#7897;c l&#7853;p, kh&#244;ng ph&#7843;i s&#7843;n ph&#7849;m hay &#273;&#7873; thi ch&#237;nh th&#7913;c do Japan Foundation / JEES ph&#225;t h&#224;nh.
+    </div>
   </div>
 
   <!-- Mode Navigation Tabs -->
@@ -1041,6 +1044,9 @@ body {
       <div>
         <h3 style="font-size: 1.1rem; color: #1e293b;">&#128202; Nh&#7853;t k&#253; phi&#234;n h&#7885;c t&#7853;p & B&#7843;ng &#273;i&#7875;m (L&#432;u tr&#7919; c&#7909;c b&#7897;)</h3>
         <p style="font-size: 0.85rem; color: var(--text-muted);">To&#224;n b&#7897; phi&#234;n luy&#7879;n t&#7853;p &#273;&#432;&#7907;c t&#7921; &#273;&#7897;ng l&#432;u tr&#7919; tr&#234;n tr&#236;nh duy&#7879;t (LocalStorage). B&#7841;n c&#243; th&#7875; t&#7843;i t&#7879;p JSON/CSV &#273;&#7875; sao l&#432;u ho&#7863;c chuy&#7875;n &#273;&#7893;i thi&#7871;t b&#7883;.</p>
+        <div style="background:#eff6ff; border:1px solid #bfdbfe; border-radius:6px; padding:10px 14px; margin-top:8px; font-size:0.8rem; color:#1e40af; line-height:1.4;">
+          <strong>&#8505;&#65039; Gi&#7899;i h&#7841;n l&#432;u tr&#7919;:</strong> D&#7919; li&#7879;u hi&#7879;n &#273;&#432;&#7907;c l&#432;u trong b&#7897; nh&#7899; tr&#236;nh duy&#7879;t (<code>localStorage</code>) c&#7911;a thi&#7871;t b&#7883; n&#224;y v&#224; <strong>kh&#244;ng t&#7921; &#273;&#7897;ng &#273;&#7891;ng b&#7897; l&#234;n Google Sheets tr&#234;n &#273;&#225;m m&#226;y</strong> do h&#7879; th&#7889;ng b&#7843;o m&#7853;t kh&#244;ng nh&#250;ng th&#244;ng tin x&#225;c th&#7921;c c&#225; nh&#226;n. Vui l&#242;ng b&#7845;m <strong>&#128229; T&#7843;i JSON</strong> ho&#7863;c <strong>&#128203; Sao ch&#233;p JSON</strong> &#273;&#7875; sao l&#432;u an to&#224;n ho&#7863;c chuy&#7875;n d&#7919; li&#7879;u sang thi&#7871;t b&#7883; kh&#225;c.
+        </div>
       </div>
       <div style="display:flex; gap:8px;">
         <button type="button" class="btn-secondary" onclick="exportSessionsJson()">&#128229; T&#7843;i JSON</button>
@@ -1097,7 +1103,7 @@ body {
       Trong th&#7901;i gian chu&#7849;n h&#243;a Giai &#273;o&#7841;n 2, m&#7901;i b&#7841;n truy c&#7853;p tr&#7921;c ti&#7871;p <strong>PH&#210;NG LUY&#7878;N NGHE</strong> &#273;&#7875; nghe to&#224;n b&#7897; b&#7897; s&#432;u t&#7853;p file &#226;m thanh ch&#7845;t l&#432;&#7907;ng cao c&#7911;a JLPT.
     </div>
     <div class="modal-actions">
-      <a href="https://sites.google.com/view/jp-study/phong-luyen-nghe" target="_blank" class="btn-primary" style="text-decoration:none;">&#127911; &#272;&#7871;n Ph&#242;ng Luy&#7879;n Nghe</a>
+      <a href="https://sites.google.com/view/jp-study/ph%C3%B2ng-luy%E1%BB%87n-nghe" target="_blank" class="btn-primary" style="text-decoration:none;">&#127911; &#272;&#7871;n Ph&#242;ng Luy&#7879;n Nghe</a>
       <button type="button" class="btn-secondary" onclick="closeListeningModal()">&#272;&#227; hi&#7875;u & &#272;&#243;ng</button>
     </div>
   </div>
@@ -1110,7 +1116,7 @@ body {
       <span>&#128203; D&#7919; li&#7879;u phi&#234;n h&#7885;c t&#7853;p (JSON Payload)</span>
     </div>
     <div class="modal-body">
-      D&#7919; li&#7879;u phi&#234;n h&#7885;c c&#7911;a b&#7841;n &#273;&#227; &#273;&#432;&#7907;c &#273;&#243;ng g&#243;i chu&#7849;n c&#7845;u tr&#250;c JSON. B&#7841;n c&#243; th&#7875; sao ch&#233;p &#273;&#7875; sao l&#432;u c&#225; nh&#226;n ho&#7863;c &#273;&#7889;i chi&#7871;u th&#7911; c&#244;ng v&#7899;i Google Sheets:
+      D&#7919; li&#7879;u phi&#234;n h&#7885;c c&#7911;a b&#7841;n &#273;&#432;&#7907;c l&#432;u trong <code>localStorage</code> tr&#234;n thi&#7871;t b&#7883; n&#224;y. B&#7841;n c&#243; th&#7875; sao ch&#233;p chu&#7895;i JSON b&#234;n d&#432;&#7899;i &#273;&#7875; sao l&#432;u th&#7911; c&#244;ng ho&#7863;c &#273;&#7889;i chi&#7871;u v&#7899;i Google Sheets:
       <textarea id="sheets-sync-payload" readonly style="width:100%; height:120px; font-family:monospace; font-size:0.78rem; margin-top:10px; padding:8px; border:1px solid #cbd5e1; border-radius:6px;"></textarea>
     </div>
     <div class="modal-actions">
@@ -1544,8 +1550,6 @@ function renderCurrentQuestion() {
 
   document.getElementById('a-q-exp').classList.remove('active');
   document.getElementById('btn-next-q').style.display = 'none';
-
-  markIdSeen(q.id);
 }
 
 function selectAnswer(chosenId) {
@@ -1561,6 +1565,7 @@ function selectAnswer(chosenId) {
   }
 
   saveMistakeRecord(q.id, isCorrect);
+  markIdSeen(q.id);
 
   // Disable options and show styling
   const btns = document.querySelectorAll('#a-q-options .opt-btn');
@@ -1963,8 +1968,10 @@ function submitTimedSession(confirmUser) {
       incorrect++;
     }
 
-    if (chosen) saveMistakeRecord(q.id, isCorrect);
-    markIdSeen(q.id);
+    if (chosen) {
+      saveMistakeRecord(q.id, isCorrect);
+      markIdSeen(q.id);
+    }
 
     reviewItems.push({
       question: q,

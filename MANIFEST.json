@@ -2,7 +2,7 @@
   "snapshotDate": "2026-10-15",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
   "fileCountExcludingManifest": 302,
-  "totalBytesExcludingManifest": 9277434,
+  "totalBytesExcludingManifest": 9280211,
   "files": [
     {
       "path": ".gitattributes",
@@ -774,14 +774,14 @@
     },
     {
       "path": "docs/widgets/practice_engine.html",
-      "bytes": 77927,
-      "sha256": "a6f754add9f21c5b4f70b98f0e0b4d2689fa2f73d02211ea27b811a996e9b2b8",
+      "bytes": 79098,
+      "sha256": "d59445649de9d402889de13b9944c9d59feebec734847a5255659171ac98e79c",
       "status": "QA_PENDING"
     },
     {
       "path": "docs/widgets/practice_engine_ncr.html",
-      "bytes": 87083,
-      "sha256": "26532299f2a301601b2ff7609dbaf3fbde24a3d434401b2f52280f8ddcca0dc7",
+      "bytes": 88689,
+      "sha256": "2cee9f7ec6285dca2e33e161fd5e58c66a96275d2a1b23847d17b9ee779010f6",
       "status": "QA_PENDING"
     },
     {
