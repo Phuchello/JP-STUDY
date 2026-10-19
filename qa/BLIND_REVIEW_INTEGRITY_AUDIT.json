@@ -8,10 +8,13 @@
     "raw_blind_m02_s1_p1.json": "7d21e577af617e53b69bea6a8b5bd9cb5343c2e59d39f329f971abf5cc6b163d",
     "raw_blind_m02_s1_p2.json": "4358702c557bfb2e8a4326dfe7a2fdf4bde441d4b8c07fe825b50e1df020f414",
     "raw_blind_m02_s2.json": "cc6e931b7c727e8097356c3afeaede8dee7759f30dd6a71fb6ee94f20ed96437",
-    "raw_blind_star_repaired_3.json": "07891b8011430d322c0fb6695a5d7ff8b0362612edaf655493856f31edeb5553"
+    "raw_blind_star_repaired_3.json": "07891b8011430d322c0fb6695a5d7ff8b0362612edaf655493856f31edeb5553",
+    "raw_blind_m03_s1_p1.json": "2c55619826865e85d5b66f428e4704fc31819de50936d1c3ea93ba056d9659bb",
+    "raw_blind_m03_s1_p2.json": "ff4a2d9f1bf3e3f5eabb6d26a0f4aa3d00c592651d510b7a00218e004e32f56b",
+    "raw_blind_m03_s2.json": "32e8799817e6e20c4c0c272c4f85ee41877d336c289122d9b24f3ad0e4e1c7ca"
   },
-  "derivedArtifactHash": "ca0f10f170612a942c9ccd772cb107e57792e1341ec8bb4ca0aa11bed454b539",
-  "totalQuestionsAudited": 210,
+  "derivedArtifactHash": "24cc934670c38ca9f2fcdbf0cb86a065b3bb6f12dff52d70d888f6cd760bf935",
+  "totalQuestionsAudited": 315,
   "totalReorderedQuestions": 24,
   "recoverableSemanticMappings": 24,
   "unrecoverableMappings": 0,

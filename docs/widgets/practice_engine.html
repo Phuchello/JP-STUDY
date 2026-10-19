@@ -1450,7 +1450,7 @@ function launchMockExamSafely(mockId, sectionIndex) {
   stopActiveTimer();
   const cleanId = String(mockId || '').trim().slice(0, 50);
   const upperMock = cleanId.toUpperCase();
-  const availableMocks = ['N2-MOCK-01', 'N2-MOCK-02', 'N3-MOCK-01'];
+  const availableMocks = ['N2-MOCK-01', 'N2-MOCK-02', 'N2-MOCK-03', 'N3-MOCK-01'];
 
   let secIdx = 0;
   if (typeof sectionIndex !== 'undefined') {
@@ -1464,7 +1464,7 @@ function launchMockExamSafely(mockId, sectionIndex) {
   }
 
   if (!availableMocks.includes(upperMock) && !(window.JP_MOCK_DATA && window.JP_MOCK_DATA[upperMock])) {
-    alert(`Đề thi thử ${cleanId} hiện đang trong giai đoạn hoàn thiện nội dung (IN DEVELOPMENT). Bạn vui lòng chọn đề N2-MOCK-01, N2-MOCK-02 hoặc N3-MOCK-01.`);
+    alert(`Đề thi thử ${cleanId} hiện đang trong giai đoạn hoàn thiện nội dung (IN DEVELOPMENT). Bạn vui lòng chọn đề N2-MOCK-01, N2-MOCK-02, N2-MOCK-03 hoặc N3-MOCK-01.`);
     switchMode('mode-mock');
     return false;
   }
@@ -1508,7 +1508,7 @@ function applyUrlParameters() {
     if (qMock) {
       const cleanMock = String(qMock).trim().slice(0, 50);
       const upperMock = cleanMock.toUpperCase();
-      if (['N2-MOCK-01', 'N2-MOCK-02', 'N3-MOCK-01'].includes(upperMock) || (window.JP_MOCK_DATA && window.JP_MOCK_DATA[upperMock])) {
+      if (['N2-MOCK-01', 'N2-MOCK-02', 'N2-MOCK-03', 'N3-MOCK-01'].includes(upperMock) || (window.JP_MOCK_DATA && window.JP_MOCK_DATA[upperMock])) {
         appliedEntries.push({ label: 'Khởi chạy trực tiếp', value: upperMock });
         showParamBadge(appliedEntries);
         launchMockExamSafely(upperMock);
@@ -1516,7 +1516,7 @@ function applyUrlParameters() {
       } else {
         appliedEntries.push({ label: 'Đề thi', value: `${cleanMock} (Đang biên soạn)`, isWarning: true });
         showParamBadge(appliedEntries);
-        alert(`Đề thi thử ${cleanMock} hiện đang trong giai đoạn hoàn thiện nội dung (IN DEVELOPMENT). Bạn vui lòng chọn đề N2-MOCK-01, N2-MOCK-02 hoặc N3-MOCK-01.`);
+        alert(`Đề thi thử ${cleanMock} hiện đang trong giai đoạn hoàn thiện nội dung (IN DEVELOPMENT). Bạn vui lòng chọn đề N2-MOCK-01, N2-MOCK-02, N2-MOCK-03 hoặc N3-MOCK-01.`);
         switchMode('mode-mock');
         return;
       }
@@ -2574,8 +2574,9 @@ function renderTimedQuestion() {
   document.getElementById('d-progress-txt').innerText = `Câu ${curNum} / ${total}`;
 
   // Meta
+  const qLevel = q.level || 'N2';
   document.getElementById('d-q-meta').innerHTML = `
-    <span class="q-tag tag-${q.level.toLowerCase()}">${q.level}</span>
+    <span class="q-tag tag-${qLevel.toLowerCase()}">${qLevel}</span>
     <span class="q-tag tag-skill">${q.skill}</span>
     <span class="q-tag tag-skill">${q.typeId}</span>
     <span style="font-size:0.75rem; color:#94a3b8; margin-left:auto;">ID: ${q.id}</span>
@@ -2656,7 +2657,7 @@ function renderTimedQuestion() {
     // In Mondai 3 (OUTL), options are spoken in audio and not printed on paper.
     // Display 1番, 2番, 3番, 4番 to prevent reading text spoilers during exam!
     let displayOptText = opt.text;
-    if (isListening && typeId.includes('LIS-OUTL')) {
+    if (isListening && (typeId.includes('LIS-OUTL') || typeId.includes('LIS-SUMM') || (q.category && q.category.includes('Mondai 3')))) {
       const jNum = ['１番', '２番', '３番', '４番'];
       displayOptText = jNum[oIdx] || `${oIdx + 1}番`;
     }
@@ -2932,7 +2933,7 @@ function submitTimedSession(confirmUser) {
         </div>
         <details style="margin: 8px 0;" open>
           <summary style="font-size:0.82rem; font-weight:700; color:#0284c7; cursor:pointer;">📄 Xem Kịch bản hội thoại tiếng Nhật (Transcript)</summary>
-          <div style="margin-top:6px; white-space:pre-wrap; font-family:var(--font-jp); font-size:0.9rem; color:#1e293b; background:#f8fafc; padding:10px; border-radius:6px; border:1px solid #e2e8f0; line-height:1.6;">${q.contextPassage || ''}</div>
+          <div style="margin-top:6px; white-space:pre-wrap; font-family:var(--font-jp); font-size:0.9rem; color:#1e293b; background:#f8fafc; padding:10px; border-radius:6px; border:1px solid #e2e8f0; line-height:1.6;">${q.contextPassage || q.script || ''}</div>
         </details>
       `;
     }

@@ -1,0 +1,306 @@
+[
+  {
+    "id": "N2_03_M1_01",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「委託」の正しい音読みは「いたく」。「委（イ）」＋「託（タク）」。業務や事務などを外部の専門業者等に依頼して任せること。B「いしょく（委嘱・移植）」、C「いぞく（遺族）」、D「いしん（維新・威信）」はいずれも別語の読み。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M1_02",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「凝縮」の正しい音読みは「ぎょうしゅく」。「凝（ギョウ）」＋「縮（シュク）」。広がり散らばっていたものが密密に一つにまとまり縮まること。頭音は濁音「ぎょう」。A「こうしゅく」、C「ぎょうしん」、D「こんしゅく」はいずれも誤読。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M1_03",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「遮断」の正しい音読みは「しゃだん」。「遮（シャ）」＋「断（ダン）」。「遮断機」は踏切などで交通や進行を遮る棒状の装置。A「さだん」、C「しゃたん」、D「せいだん」はいずれも誤読。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M1_04",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "「屈折」の正しい音読みは促音化を伴う「くっせつ」。「屈（クツ）」＋「折（セツ）」。光や波などが境界を通る際に進行方向を曲げる現象。頭音は清音「く」、促音化して「くっせつ」となる。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M1_05",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「融通」の現代仮名遣いおよび常用漢字表付表における公的正書法は「ゆうずう」。「融（ユウ）」＋「通（ツウ→ズウ：慣用音・連濁）」。A「ゆうづう」は旧仮名・語源意識に基づく表記トラップ、B「ゆずう」は短音誤り、C「ゆうつう」は無声音誤り。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M2_01",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「けんちょ（に現れている）」の正しい漢字表記は「顕著」。「顕（あきらか）」＋「著（いちじるしい）」。際立って目立つさまを表す。B「賢著」、C「顕暑」、D「倹著」はいずれも同音漢字の誤字。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M2_02",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "海外等へ人を差し向ける「はけん」の正しい表記は「派遣」。「派（分かれ出る）」＋「遣（つかわす）」。A「派遺」は「遣」と字形の類似した「遺」を用いた視覚的トラップ、C「破遣」、D「旅遣」も同音・類似字の誤り。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M2_03",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "労働や役務の対価として支払われる金品を指す「ほうしゅう」の正しい表記は「報酬」。「報（むくいる）」＋「酬（お返しする）」。A「報集」、B「豊酬」、D「報修」はいずれも同音の誤字。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M2_04",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "困難に打ち勝つことを表す「こくふく」の正しい表記は「克服」。「克（かつ・耐える）」＋「服（従わせる）」。A「刻服」、B「克副」、C「告復」はいずれも同音漢字による誤字。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M2_05",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "規模や面積などを押し広げて大きくすることを意味する「かくだい」の正しい漢字表記は「拡大」。「拡（ひろげる）」＋「大（おおきい）」。A「拡犬」は「大」に点を足した視覚的誤字トラップ、C・Dも同音漢字の誤り。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M3_01",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「良い・好ましい」という意味を名詞に添える接頭辞は「好（こう）」であり、「好印象（こういんしょう）を与える」は定着した共起表現。B「良印象」という複合名詞は存在しない（形容詞なら「良い印象」）。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M3_02",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「さまざまな・多くの」という意味を添える接頭辞は「諸（しょ）」であり、「諸事情（しょじじょう）により」は公の通知や案内文における極めて定型的な表現。「各事情」「多事情」などの語形成はない。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M3_03",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「まだ〜していない」という未完了の状態を表す接頭辞は「未（み）」であり、「未解決（みかいけつ）」が確立した語。「未解決事件」「未解決のまま」のように用いる。A「不解決」、B「非解決」、C「無解決」という語形成は存在しない。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M3_04",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "機能・性能の度合いが高いことを表す接頭辞は「高」であり、「高性能（こうせいのう）」、さらに「超」が前置されて「超高性能」となる。「上性能」「貴性能」「豪性能」という語形成はない。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M3_05",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "度合いや基準値としての数値指標を表す接尾辞は「度」であり、「顧客満足度（CS: Customer Satisfaction）」は統計調査やマーケティングにおける確立した術語。「満足度を測定する」と共起する。D「満足感」は個人の内面的感情であり測定指標名としては不適。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M4_01",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「うやむや」は「物事をあいまいにしたまま、はっきりさせないさま」を表す名詞。「うやむやにする」「うやむやのまま終わらせる」は、議論や問題の決着を曖昧に放置する文脈における定番の慣用連語。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M4_02",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "「辞退（じたい）」は「勧められたことや参加・権利などを断ること」を意味し、「参加を辞退する」という目的語との共起関係が完全に成立する。A「棄権（きけん）」は試合や競技そのものを放棄することであり、「参加を棄権する」という目的語の取り方は統語的に極めて不自然。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M4_03",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「執着（しゅうちゃく）する」は「一つのことに心が囚われて離れられないこと」を表し、「過去の栄光・成功体験・物に執着する」という定型的なコロケーションを持つ。新しい手法への挑戦と対比される「過去への固執」に合致する。A「依存」は他者や物に頼って自立できないことであり文意に合わない。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M4_04",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「一環（いっかん）」は「全体として繋がっている計画や活動などの一部分」を意味し、「〜の一環として」はJLPT N2頻出の定型連語。地域交流活動という全体計画の一部として清掃活動を行う文脈に完全に合致する。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M4_05",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「配慮（はいりょ）」は「相手の立場や状況に心を配ること・気遣い」を表し、バリアフリーやユニバーサルデザインのように弱者（高齢者や子供）に配慮して工夫を凝らす文脈で「細部まで配慮した設計」として定着している。A「考慮」は客観的要素を頭で計算に入れることであり、温かい気遣いを伴う工夫には「配慮」が最も自然。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M4_06",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "「簡潔（かんけつ）」は「手短で要領を得ているさま」を表し、「要点を絞って簡潔に伝える・報告する」はビジネスコミュニケーションの代表的コロケーション。A「手軽（簡単で負担がない）」、B「器用（手先などが巧み）」、D「素朴（飾り気がない）」は報告の態勢として不適。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M4_07",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「促す（うながす）」は「物事を早くするように働きかける・督促する」を意味し、「避難を促す」「注意を促す」は防災・報道における定型連語。A「拒む（拒絶する）」、B「阻む（妨害する）」、C「脅かす（脅迫・脅威を与える）」は文脈に反する。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M5_01",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "カタカナ語「ストレートに」は「遠回しでなく、ありのままに直接伝えるさま」を表す。したがって「率直（そっちょく）に」が直接の類義表現となる。B「慎重に」、C「大げさに」は意味が異なる。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M5_02",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「アプローチ（approach）」は課題や問題に対する「接近方法、研究や解決のための取り組み方」を意味する。したがって「取り組み方」が的確な言い換え。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M5_03",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "副詞「おおよそ」は数量や時間の「およそ、大約、大体」を表す語。選択肢Cの「だいたい」が直接の同義語。A「せいぜい（精一杯でも）」、B「かろうじて（やっとのことで）」は意味が異なる。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M5_04",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「気がかりだ」は「心に引っかかって不安であるさま、気になって落ち着かないさま」を表す形容動詞であり、「心配だ」と完全に同義である。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M5_05",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「お詫び」は自分の過失や迷惑を認めて謝る行為・言葉であり、「謝罪（しゃざい）」と同義。「深くお詫び申し上げます」＝「深く謝罪いたします」。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M6_01",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「ニュアンス」は言葉や表現、感情などの「微妙な意味合いやニュアンスの差異」を表す外来語。「言葉の微妙なニュアンスの違いを使い分ける」というBの用法が極めて正統的。Aは「音」、Cは「雰囲気／気配」、Dは「部品／端子」などの誤用。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M6_02",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "副詞「案の定（あんのじょう）」は「悪い予感や懸念していた事態が、思った通りに現実になるさま」を表す（「案の定雨が降ってきた」「案の定失敗した」）。Cの「空が暗くなり夕立が降る」という悪い天候の的中描写が完璧。Aは好ましい結果（合格）であるため「予想通り／期待通り」を用いるべき誤用、B・Dは意味的・論理的な矛盾。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M6_03",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「著しい（いちじるしい）」は「誰の目にも明らかなほど変化や進歩が際立っているさま」を表し、「進歩／発展／変化が著しい（〜には著しいものがある）」という形で多用される。Aの用法が完璧。B（天候の良さ）、C（味の強烈さ）、D（体格の頑丈さ）の修飾としては不自然。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M6_04",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「手際（てぎわ）」は「物事を手早く上手に処理する腕前・要領」を表し、「手際が良い」「鮮やかな手際で〜する」の形で用いられる。Dのように人が技術や経験を発揮して問題を迅速に片付ける動作の修飾が正確。A（スープの味・仕込み）、B（性格の表現）、C（機械の作動）に「手際」は使えない。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M6_05",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "「まばら（疎ら）」は「人や物が密集しておらず、すき間があって散らばっているさま」を表す。「観客もまばらだったが…満席になった」というCの対比的用法が最も典型的かつ正確。Aは「広範」、Bは「澄んでいる」、Dは「まちまち／バラバラ」などの語を用いるべき。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M7_01",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "文型「〜にほかならない」は「まさにそれである、それ以外の何ものでもない」と理由や本質を強く断定・強調する表現。「努力の賜物にほかならない」は賞賛の文脈において完璧に呼応する。D「にすぎない」は価値を過小評価する語であるため不適。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M7_02",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "文型「〜を皮切りに（して）」は「ある出来事を手始めとして、同種の活動・事態が次々に連続して広がる」ことを表す。「東京公演を皮切りに全国ツアーが始まる」は本文型の最も代表的な例文。A・C（転機のきっかけ）やDは不適。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M7_03",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "「〜を踏まえて」は「〜を前提・判断の根拠として考慮に入れて、次の行動をとる」ことを意味するN2文型。アンケートの要望を反映させて新メニューを開発したという文脈に合致する。A「をめぐって（争点とする）」、D「を問わず（無関係に）」は不適。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M7_04",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "文型「動詞マス形＋っこない」は「強い確信をもって絶対に〜ない、できるはずがない」と全否定するN2重要文型。「素人にはできっこない」という不可能の強調文脈に完璧に合致する。A「〜がたい」は心理的困難を表し可能動詞に接続不可（×できがたい）。B「〜かねない」は悪影響・危険発生の恐れを表し文意不適。C「〜ざるを得ない」は義務・必然を表し文脈不適。唯一正解はD。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M7_05",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "文型「動詞辞書形＋につけ（て）」は「〜すると、いつも決まってある感情や記憶が自然とわき起こる」ことを表す。「写真を見るにつけ、記憶がよみがえる」は本項目の最も標準的な例文。B「につれて」・C「にしたがって」は比例的変化を表す文型であり、単一のトリガーによる記憶の想起には用いられない。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M7_06",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "文型「動詞マス形＋かねない」は「悪い結果や危機的な事態を引き起こす恐れ・可能性がある」ことを表す。「大事故を引き起こしかねない」という警告の文脈に完全に合致する。A「かねる」は心理的理由による不可能・辞退を表すため文意が逆になる。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  }
+]

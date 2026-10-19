@@ -1,0 +1,298 @@
+[
+  {
+    "id": "N2_03_M7_07",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "「国の基本方針に沿って（〜にそって）」は、「〜の方針・基準・ルールに従って／準拠して」という意味を表すN2の代表的な機能語であり、行政マニュアルの改定という公的文脈に最も合致する。A「を皮切りに」は一連の事象の口火を切る表現、B「に反して」は反逆・違反を表し本筋に合わない、D「をよそに」は忠告・批判を無視する意味で不適切。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M7_08",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「〜たげ（〜たげな／〜たげに）」は、願望の「〜たい」の語幹に接続して「〜したそうな様子・表情」を表す接尾辞であり、「何か言いたげな表情（何か言いたそうな表情）」は極めて自然な慣用表現である。A「っぽい」は名詞や動詞連用形について性質・傾向を表す（言いたっぽいとは言わない）、B「がち」は頻度・傾向（言いがち）、C「ぎみ」は心身の状態（風邪ぎみ）であり不適。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M7_09",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「静養するどころか、…徹夜する羽目になった」という文脈において、「〜どころか」は「〜はとんでもない、それとは正反対の過酷な事態になった」という対比的否定を表すN2文法形式である。B「ばかりか」は単なる累加、C「反面」は同一主体の二面性、D「あげく」は長期の経過の末の悪結果（通常「た形」や名詞接続で、前件が実行されていない本問には合わない）。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M7_10",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「創立50周年の節目を契機として（〜を契機に）」は、「〜という重要な節目・転機をきっかけとして大きな変化を起こす」ことを表す定型表現であり、「企業イメージを一新するためのロゴマーク発表」という文脈に完璧に合致する。A「皮切りに」は連続的同種行為の開始、C「もとに」は素材・原案、D「ぬきにして」は除外を表す。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M7_11",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "「激しい議論を重ねた末に」は、「長い時間や多くの苦労・検討を経た最終的な結果として」を表す「〜た末に」の典型的な用法である。A「際して」は開始の時点、B「次第で」は条件依存、D「あまり」は過度の感情の結果であり、「議論を重ねた」という長期プロセスの帰結には接続しない。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M7_12",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「現場に残された足跡と防犯カメラの映像から判断して」という客観的証拠に基づき、強い確信を持って結論を導く表現としてD「に相違ない」が唯一適切。A「に及ばない（不要・劣後）」、B「にすぎない（過小評価）」、C「にかぎらない（部分否定）」は文脈上不適。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M8_01",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "文脈は「彼が今回の難関試験に一発で合格できたのは、毎日の地道な努力を怠らなかった結果にほかならない」。統語構造は［毎日の地道な（A）］が［努力を（B）］を修飾し、［努力を（B）怠らなかった（C）］が［結果に（D）］を修飾して［ほかならない］に接続する。語順は A - B - C - D で固定され、星印 ★（3番目）は C（怠らなかった）となる。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M8_02",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "「どんなに〜（よ）うとも」の相関呼応により「どんなに科学技術が発展しようとも、（A）」が確定し、主節主語「私たちは（B）」、目的語句「自然への（C）畏敬の念を（D）」が「失ってはならない」に接続する。語順は A-B-C-D（発展しようとも、・私たちは・★自然への・畏敬の念を）となり、星の位置（3番目）はC「自然への」となる。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M8_03",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "「〜にとどまらず（〜だけでなく）」の構文より「個人の過失に（A）とどまらず、（B）」が結びつき、後半は「組織全体の（C）管理体制に関わる（D）問題である」と名詞「問題」を複層的に修飾する。語順は A-B-C-D（個人の過失に・とどまらず、・★組織全体の・管理体制に関わる）となり、星の位置（3番目）はC「組織全体の」となる。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M8_04",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "文脈は「プロの演奏家として観客の前に立つからには、日々の地道な練習を怠ってはならない」。［観客の前に（A）］［立つからには（B）］が前提条件節を形成し、主節の目的語［日々の地道な（C）］［練習を（D）］が動詞［怠ってはならない］に接続する。語順は A - B - C - D で固定され、星印 ★（3番目）は C（日々の地道な）となる。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M8_05",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "前節「彼がこれほど短期間で大きな成果を上げられたのは、（A）」を受け、述語「努力の賜物だ」を修飾する名詞句は「本人の（D）誰よりも（B）真摯に積み重ねた（C）努力の賜物だ」となる。「積み重ねた」は「努力」を修飾する連体修飾節であり、「誰よりも」は「真摯に」を修飾する副詞。「本人の［誰よりも真摯に積み重ねた努力］」の語順（A-D-B-C）において、星の位置（3番目）はB「誰よりも」となる。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M9_01",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "前文で在宅勤務の利点（通勤ストレス解放、時間の有効活用）を述べた後、後文で「自宅という私的な空間で長時間高い集中力を維持することは、決して容易ではない」と課題・困難を提示しているため、逆接の接続詞A「しかしながら」が文脈上唯一適切。B「それゆえに」は順接因果、C「さらに」は累加、D「すなわち」は同等換言であり文脈に合わない。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M9_02",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「気合で集中しようと力むのではなく、要因を物理的に遠ざける工夫（ 47 ）」という対比構造において、筆者が提言する真に必要な対策を強調するB「こそが求められる」が最も自然。A「にほかならない」は本質定義、C「にすぎない」は限定小評価、D「わけがない」は強い否定で不適切。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M9_03",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "「一定時間集中したら意図的に小休止を挟む（手段・方法）」によって「持続的なパフォーマンスを発揮できるようになる（結果）」という因果・手段関係を示すため、C「ことによって」が文法・文脈上唯一適切。A「ものの（逆接）」、B「反面（対比）」、D「うえに（累加）」は文脈に適合しない。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M9_04",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "前文の「一見すると効率的に見えるかもしれない」という譲歩表現を受け、現実はそれと異なり集中力低下やミスを招くという逆接事実を導く接続詞としてB「それにもかかわらず（にもかかわらず）」が最も自然。A「そのうえ（累加）」、C「したがって（順接結語）」、D「それにひきかえ（対比）」は文脈不適。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M9_05",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「〜規律を身につけることこそが、豊かな職業人生を実現するための必須要件と（ 50 ）」という文章全体のまとめにおいて、筆者の意見・主張を控えめかつ説得的に読者に投げかける結び表現「〜と言えるのではないだろうか」が最も自然。B「言うまでもないことだ」は文意が強引、C「言うはずがない」は全否定、D「言わざるを得ないのだ」は消極的・不本意な断定で不適切。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M10_01",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "本文中に「真に信頼関係を築くために不可欠なのは『聴く力』である」「相手の言葉の表面だけをなぞるのではなく、その発言の背景にある懸念や熱意にまで耳を傾ける姿勢」「まずは相手の話を遮らずに最後まで受け止めること」と明記されており、Aが完全に合致する。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M10_02",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "本文中に「日常的に樹木や水辺に触れる生活環境は、ストレスホルモンの分泌を有意に抑制し、住民の精神的な回復力を高める効果がある」「市民の健康維持における不可欠な予防医療の一環と位置づけられるべきである」と述べられており、B「住民のストレスを軽減し、健康維持に寄与する予防医療的な価値を持つ」が正解。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M10_03",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "本文最終文に「本質的な精神を受け継ぎつつも、現代のライフスタイルに調和する新たなデザインや用途を果敢に模索する姿勢こそが、伝統を未来へと息づかせる」とあり、C「本質を受け継ぎながらも、現代の生活に調和する新しい用途やデザインを模索すべきだ」が筆者の主張と一致する。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M10_04",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "通知文に「プロジェクト終了から1年以上が経過したファイルについては、専用のアーカイブ領域へ自動移行されます」と明記されており、Dが完全に一致する。Aは「すぐ削除」、Bは「個人の判断で自由に送信」、Cは「無期限に保管できる」とあり、いずれも本文の記述に反する。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M10_05",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "本文中に「予期せぬ分野の知識や視点が、自分の中に蓄積されていた既存の概念と偶発的に結びつくことで、これまでにない斬新な着想が生まれる」「柔軟な創造力を育む豊かな土壌となる」とあり、A「予期せぬ知識の結合を促し、柔軟で創造的な発想を生み出す土壌となる」が正解。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M11_01",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "第2段落に「それらが過去の膨大な学習データに基づき、統計的な確率計算によって最も調和のとれた組み合わせを出力しているにすぎない」と明記されており、Bが完全に一致する。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M11_02",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "第3段落に「人間の創造性の根源には、常に個人的な『葛藤』や『切実な経験』が存在する。理不尽な現実に直面したときの悲しみや、誰かと深く通じ合えたときの喜びといった生々しい感情の揺らぎこそが、これまでにない独自の視点や表現を生み出す原動力となるのだ」とあり、Cが合致する。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M11_03",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "第4段落に「AIを思考の補助ツールとして活用しながら、人間にしか持ち得ない問いを立てる力や、意味を紡ぎ出す感性をいかに磨くかこそが、これからの時代に問われているのである」とあり、Dが筆者の提案と完全に一致する。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M11_04",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "第1段落に「工場の誘致や大規模な観光開発など、外的な資本に依存した地域振興策が主流であった。しかし、そうした手法の多くは景気の変動に弱く、持続的な地域社会の自立には結びつきにくかった」と明記されており、Aが完全に一致する。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M11_05",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "第2段落に「彼らは古民家を活用したカフェの開業や、地域の特産品を生かした独自ビジネスなど、従来の住民には見落とされていた地域の潜在的価値を再発見し、新たな活力を吹き込んでいる」と明記されており、Bが正解。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M11_06",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "第3段落に「新参者の斬新なアイデアを受け入れつつも、地域に古くから伝わる伝統行事や共同体維持のためのルールを軽視してはならない。双方が歩み寄り、世代や出身地を超えた対話を重ねることで初めて…新しい地域共同体が育まれる」とあり、Cが正解。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M11_07",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "第2段落に「手書きの場合、話された言葉を一言一句そのまま記録することは不可能なため、人間は自然と耳に入った情報を頭の中で要約し、自分の言葉に咀嚼して紙の上に配置するという高度な情報処理を無意識に行っているからである」と理由が明記されており、Dが完全に一致する。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M11_08",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "第3段落に「手書きの文字には書き手のその時々の感情や呼吸、迷いといった身体性がそのまま痕跡として刻まれる。手紙を受け取った人が…温もりや親近感を覚えるのは、まさにそこに書き手の存在そのものが宿っているからに他ならない」とあり、Aが正解。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M11_09",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "最終文において「効率性と即時性が至上命題とされるデジタル社会だからこそ、立ち止まって思考を深め、心を込めて文字を綴る手書きの価値を再評価すべき時が来ているのではないだろうか」と筆者の結論的主張が述べられており、Bが合致する。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M12_01",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "Aは「迅速な情報共有と即時レスポンスが可能」「競争優位の源泉」としてチャットを肯定的に評価している。一方、Bは「認知的断片化を強いる」「ディープワークの時間は奪われ」「心理的デタッチメントを阻害する」として弊害を懸念している。両者の対比を正確に捉えているのはCである。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M12_02",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "即時レスポンスに関して、Aは「即時レスポンスが可能となる…リアルタイムなコミュニケーション基盤の構築こそが、競争優位の源泉となる」と肯定的に捉えているのに対し、Bは「あえて『即レス』を求めず、オフラインで集中できる時間を制度として保障することこそが急務である」と主張している。この相違点を的確に表したDが正解。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M13_01",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "第2段落に「それらを『要点ではない』と切り落として骨組みだけを取り出したとき、私たちが受け取っているのは単なる抽象的な情報であって、もはや心を揺さぶる『芸術』や『物語』ではない」と述べられており、A「要点だけを取り出すことで、心を揺さぶる表現の豊かさや本来の価値を失っている」が筆者の認識と合致する。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M13_02",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "第3段落に「退屈や沈黙と向き合い、あてもなく物思いに耽る『ゆとりの時間』こそが、自分自身の内面を見つめ直し、独自の思想や価値観を醸成するために不可欠なプロセスである。外部からの刺激を遮断し、思考をじっくりと熟成させる時間を持てない人間は、他者の意見や世間の流行に流されやすい脆さを抱えることになる」と懸念が明記されており、Bが正解。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M13_03",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "第4段落に「効率化はあくまでも人生を豊かに生きるための『手段』であって、『目的』そのものではないはずだ」「合理性の檻から一歩踏み出し、あえて『無駄』や『非効率』に身を浸す勇気を持つことこそが、私たちが人間らしさを取り戻すための第一歩なのである」と結論が述べられており、Bが完全に合致する。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M14_01",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "計算：①第1会議室の基本料金は1区分「1,500円」。②「市内在住・在勤者で構成される非営利団体は、上記料金の30%割引が適用されます」とあるため、割引額は 1,500円 × 30% ＝ 450円。したがって利用料金は 1,500円 − 450円 ＝ 1,050円。Dが正解。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M14_02",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "案内規約の検証：キャンセル規定において「利用日の14日前までのキャンセル：全額（100%）返金」「利用日の3日前までのキャンセル：半額（50%）返金」と定められている。「10日前」は14日前を経過し3日前までに該当するため、半額（50%）が返金される。したがってAが正しい。Bは1か月前受付なので誤り、Cは換気時間で入室不可なので誤り、Dは営利利用が2倍料金なので誤り。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  }
+]

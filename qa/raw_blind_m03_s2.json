@@ -1,0 +1,242 @@
+[
+  {
+    "id": "N2_03_M1_L01",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The manager explicitly points out that the market share graph on page 15 contains outdated data from the year before last and commands: '何よりも先にこの数値を最新のものに更新してグラフを作り直してくれ' (Before anything else, update this figure to the latest data and remake the graph). The female employee acknowledges and confirms she will update the graph immediately. Printing the QA handouts is explicitly deferred until after the graph revision.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M1_L02",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The female manager explains that rooms for the 40 high school students are already secured, but dinner preparation is urgent, instructing the male staff: '厨房に掛け合って、40名分の食事を夜7時までに用意できるか大至急確認してきて' (Go negotiate with the kitchen immediately to confirm whether dinner for 40 can be prepared by 7 PM). The male staff acknowledges and runs to the kitchen. Guest registration and key sorting are handled by the manager herself.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M1_L03",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The professor asks the student to prioritize cross-checking the delivery records of organic solvents with current inventory against the ledger: '先週納品された有機溶剤の受領記録と現在の在庫数が台帳と一致しているか、最優先で突合して確認してくれないか' and emphasizes '君はまず薬品台帳の整合性を完璧にしておいてくれ'. The student agrees to do so immediately. Fire extinguishers have already been checked by the professor, and cleaning the lab benches is scheduled for the evening with everyone.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M1_L04",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The female colleague asks the male staff to fetch the newly arrived pamphlets from the storage warehouse and apply the errata correction stickers to page 1 as the top priority: 'パンフレットを倉庫から持ってきて、シール貼り作業を最優先で進めてもらえる？'. The male staff agrees and heads straight to the warehouse. Tent setup is already scheduled with contractors, and sign assembly is handled tomorrow with volunteers.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M1_L05",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "The store manager explains that two tablet units are missing from inventory. Since register sales were already verified by the manager and the supervisor who holds the locker key is currently taking a break, the manager explicitly orders: '鈴木さんはまず店頭へ行って、現在展示中の実機2台のシリアル番号をメモしてきてくれないか' (First go to the sales floor and note down the serial numbers of the 2 demonstration units on display). The female clerk immediately sets off to do so.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M2_L01",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The female senior clarifies that while conditions and training were appealing, the decisive factor that moved her heart most was: '一番心動かされたのは、面接のときに開発部のリーダーが「うちでは若手でも自発的な提案があれば、新規プロジェクトの責任者に抜擢する風土がある」って熱心に語ってくれたことなの。自分のアイデアを形にできる裁量の大きさに強く惹かれたのよ' (The high degree of discretion allowing even young employees to lead new projects through proactive proposals).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M2_L02",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The product developer states that market research identified the true reason for the hit as the specialized quick-drying gel ink that doesn't smudge left-handed writers' hands: '市場調査で判明した真のヒット要因は、実は「左利きの人でもインクが手に付かず速乾する特殊ゲルインク」にありました'. Positive reviews by left-handed influencers on social media sparked viral word-of-mouth acclaim among both left- and right-handed users.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M2_L03",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The soccer coach notes that while stamina drop-off and shooting accuracy were visible issues, the most critical and serious problem was: 'それ以上に私が深刻だと感じたのは、「ボールを奪われた瞬間の守備への切り替えの遅さ」だ...攻めから守りへの意識の転換をコンマ1秒でも速く徹底すること' (The delay in transitioning to defense the instant possession is lost). This directly corresponds to Option C.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M2_L04",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "The architect explains that while budget and lacquer procurement were initial concerns, the most agonizing technical challenge was: '実際に工事が始まって最も頭を悩ませたのは、「現行の建築基準法が求める耐震性能を、外観や伝統的な木組みの美観を一切損なわずにどう両立させるか」という点でした' (Balancing modern earthquake-resistance standards required by building codes without compromising the traditional wooden aesthetic and exterior).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M2_L05",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The male employee explicitly denies cost saving and downplays physical exercise, stating his primary motivation: '一番の理由はね、平日のデスクワークでずっとパソコンの画面と数字ばかり追いかけているから、土に触れて頭を完全に空っぽにできる時間が欲しかったんだ。種を蒔いて育てる作業をしていると、仕事のプレッシャーや雑念が消えて、心がリセットされるんだよ' (Touching soil to clear the mind of work distractions and achieve mental refreshing).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M2_L06",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The curator explains that international flight logistics were fine, but during restoration work at the lending museum, minute cracks were discovered behind the frames: '現地での修復作業中に、額縁の裏側に微細な亀裂が見つかり、保存状態を万全にするための追加補修作業に予定以上の時間を要してしまった' (Cracks found during restoration necessitated additional repair time, causing the postponement).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M3_L01",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The commentator emphasizes that roughly half of all food waste originates from ordinary households due to hoarding and over-peeling, arguing: '消費者一人ひとりが「必要な分だけ買い、使い切る」という当たり前の生活習慣を再構築することこそが、解決への最も実効的な近道なのです' (The crucial importance of reviewing and reforming consumer purchasing and utilization habits at home to reduce food waste).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M3_L02",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "The physician emphasizes that rather than focusing merely on hours slept, the crucial factor for restorative sleep is biological circadian rhythm: '真に健康を左右するのは睡眠の「質」と「タイミング」です...平日も休日も毎朝同じ時刻に起床して太陽光を浴び、夜間に自然なメラトニン分泌を促す生体リズムを崩さないことが何よりも不可欠です' (Maintaining biological circadian rhythms via consistent wake-up times rather than mere sleep duration).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M3_L03",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The craft designer argues that for traditional crafts to survive beyond isolated luxury art, they must adapt to modern lifestyles as everyday tools: '生き残りの鍵は、現代の人々の生活空間に自然に溶け込む「日常使いの道具」としての再定義です...伝統とは不変の形式ではなく、人々の暮らしに寄り添いながら進化し続ける知恵なのです' (Traditional crafts must evolve to match contemporary lifestyles and be used as daily utensils).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M3_L04",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The organizational consultant identifies psychological safety—the freedom to speak candidly, ask basic questions, and voice mistakes without fear of reprimand—as the decisive driver of high performance: '失敗を挑戦の証として歓迎し、異なる視点を受け入れる寛容な組織風土こそが、革新的なアイデアを生み出す土壌となるのです' (Psychological safety where people can speak without fear fosters innovation and results).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M3_L05",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The specialist in children's literature explains that reading aloud is not about rapid vocabulary drilling, but about emotional connection and empathy: '絵本を媒介にして親子で感情を共有し、豊かなイメージを膨らませる体験そのものです。この情緒的な安心感と想像力の土台があって初めて、成長したときに深く思考し、他者を思いやる真のコミュニケーション能力が花開くのです' (Shared emotional resonance and empathy nurtured by reading aloud serve as the foundation for true communicative growth).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M4_L01",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The prompt says: '今日のプレゼン、思いのほか手応えがあったんじゃない？' (Didn't today's presentation get an unexpectedly positive reception?). Response 1 ('ええ、予想以上に質問も活発に出て手応えを感じました' - Yes, questions were more active than expected and I felt a solid response) agrees affirmatively and provides contextual evidence. Responses 2 and 3 exhibit logical/temporal confusion.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M4_L02",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "An employee apologizes to the department manager for a delayed confirmation: '確認が遅れてしまい申し訳ありません'. Response 1 ('いいよ、次回からは早めに一報入れてくれれば大丈夫だ' - It's fine, just give me a quick heads-up early next time and it'll be fine) is the culturally standard and appropriate managerial response accepting the apology. Response 2 uses 'どういたしまして' inappropriately, and Response 3 contradicts the delay.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M4_L03",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The prompt uses the N2 grammar 〜ざるを得ない: 'この土砂降りじゃ、午後のフィールドワークは見合わせざるを得ないね' (In this downpour, we cannot help but postpone afternoon fieldwork). Response 3 ('そうですね、安全第一で延期にしましょう' - Right, let's prioritize safety and postpone it) concurs seamlessly with 見合わせる (postpone/hold off). Response 1 falsely claims it was held, and Response 2 is reckless.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M4_L04",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The speaker politely indicates that the requested document is not urgent: '急ぎじゃないので手が空いたときで結構ですよ' (It's not urgent, so whenever you're free is fine). Response 2 ('お気遣いありがとうございます。今の作業が一段落したらすぐ取りかかります' - Thank you for your consideration; I will get right on it as soon as my current task wraps up) is the quintessential polite Japanese workplace response. Response 1 ignores the lack of urgency, and Response 3 is unprofessionally blunt.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M4_L05",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The speaker remarks with pleasant surprise that the listener agreed to take on the leadership role: 'まさか君が引き受けてくれるとは思わなかったよ'. Response 1 ('ええ、大変ですが自分の成長につながると思い決断しました' - Yes, it will be tough, but I made the decision believing it will contribute to my growth) provides a coherent rationale for having accepted. Response 2 contradicts having accepted, and Response 3 misattributes the subject.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M4_L06",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The prompt comments on disappointment relative to reputation: 'あの話題のレストラン、評判の割にはサービスがいまいちだったね' (Despite its fame, the service wasn't so great). Response 2 ('本当ですね、期待していただけに少し残念でした' - Indeed, precisely because we had high expectations, it was rather disappointing) perfectly matches the sentiment of 評判の割には...いまいち. Response 1 contradicts the criticism, and Response 3 misstates the reputation.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M4_L07",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The superior points out obvious typos in the proposal: '企画書に誤字脱字が目立つよ。提出前によく見直したの？'. Response 2 ('申し訳ありません、急いでいたため確認が不十分でした' - I apologize, because I was rushing, my checking was insufficient) is the proper deferential admission of oversight. Responses 1 and 3 brazenly deny the evident flaws.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M4_L08",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The prompt uses the idiom 難色を示す (to express reluctance/disapproval): '先方の社長、契約の条件変更に難色を示されているそうですね'. Response 1 ('はい、もう一度妥協案を練り直して説明に伺う必要があります' - Yes, we need to formulate a new compromise and go explain it to him) logically addresses the client's reluctance. Responses 2 and 3 contradict 難色を示す.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M4_L09",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The speaker realizes with distress that they completely forgot to print handouts: 'すっかり失念しておりました' (I completely forgot). Response 3 ('今から急いでコピー機で刷ってくればまだ間に合うよ' - If you hurry and run them off on the photocopier now, you'll still make it in time) offers an immediate practical remedy. Responses 1 and 2 illogically claim the printing was already done.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M4_L10",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The speaker remarks on how extraordinarily rare it is for the stubborn artisan to praise an apprentice: '若い弟子を褒めるなんて滅多にないことだよ'. Response 2 ('そうですね、彼の実力が本当に認められた証拠ですね' - Indeed, that is proof that his ability has truly been recognized) correctly recognizes the high significance of this rare praise. Response 1 contradicts 滅多にない, and Response 3 focuses on scolding.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M4_L11",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The speaker uses 〜と言わざるを得ない to express an inescapable negative assessment: '今回の四半期売上目標、このペースだと達成は厳しいと言わざるを得ないね' (At this rate, I must say achieving the sales target will be difficult). Response 1 ('はい、後半で巻き返すための追加施策を急ぎ検討します' - Yes, I will urgently examine additional measures to recover ground in the second half) is the constructive professional response. Responses 2 and 3 contradict the difficulty.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M5_L01",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "The general manager defines the non-negotiable requirements explicitly: '何よりもチームビルディングのワークショップを徹底的に行いたいので、24時間利用可能な広い研修室と、高速インターネット環境が整っていることが必須条件だ。予算は1人あたり2万円以内' (24-hour usable large training room, high-speed internet, and a budget within 20,000 yen per person). Option D articulates this exact triad of requirements.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M5_L02",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "Evaluating all four options: Facility 1 (22,000 yen) exceeds the 20,000 yen budget. Facility 2 closes its training room at 10 PM (violates 24-hour access). Facility 4 has unstable internet (unacceptable risk for online external guest sessions). Facility 3 ('フォレストヴィラ') costs 19,000 yen (within budget), offers a soundproof 24-hour training room, and provides ultra-high-speed Wi-Fi in a refreshing forest setting, leading to unanimous approval. Option C is correct.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_03_M5_L03",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "The couple requires high energy savings, quiet operation, ample freezer storage for weekly batch cooking, and delicious meal preservation. Model 1 consumes too much power. Model 2 is too wide for standard passages. Model 3 has insufficient freezer space. Model 4 features AI energy-saving (lowest electricity bill), a soft-freezing partial compartment preserving meal prep quality without hard freezing, ample freezer capacity, and a slim design. Both agree on Model 4 ('これに決めましょう'). Option D is correct.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  }
+]

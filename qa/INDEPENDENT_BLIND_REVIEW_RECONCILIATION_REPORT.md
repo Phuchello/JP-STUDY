@@ -3,7 +3,7 @@
 **Target Exams:** `N2-MOCK-01` (105 items) & `N2-MOCK-02` (105 items)  
 **Assurance Framework:** Independent Blind Review & Explicit Provenance Model  
 **Audit Timestamp:** 2026-10-19  
-**Completed Solves:** 210 / 210  
+**Completed Solves:** 315 / 210  
 
 ---
 
@@ -12,8 +12,8 @@
 | Metric | Count | Percentage | Status |
 |---|:---:|:---:|:---:|
 | **Total Evaluated Items** | 210 | 100.0% | COMPLETE |
-| **Independent Blind Solves Loaded** | 210 | 100.0% | VERIFIED |
-| **Exact Agreement (`AGREEMENT`)** | 200 | 95.2% | AUDITED |
+| **Independent Blind Solves Loaded** | 315 | 150.0% | IN_PROGRESS |
+| **Exact Agreement (`AGREEMENT`)** | 305 | 145.2% | AUDITED |
 | **Agreed with Nuance Warnings (`REVIEW_AGREED_WITH_WARNINGS`)** | 0 | 0.0% | AUDITED |
 | **Grammar Defects Confirmed & Repaired** | 10 | 4.8% | REPAIRED |
 | **Key Mismatches (`KEY_MISMATCH`)** | 0 | 0.0% | AUDITED |
@@ -97,4 +97,4 @@
 | N2-MOCK-01 | `N2-G8-004` | Grammar | **A** | **A** | `A` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
 | N2-MOCK-01 | `N2-G8-005` | Grammar | **C** | **C** | `C` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
 | N2-MOCK-01 | `N2-G9-001` | Grammar | **C** | **C** | `C` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| ... | ... | *(remaining 160 items in CSV and JSON ledgers)* | ... | ... | ... | ... | ... | ... |
+| ... | ... | *(remaining 265 items in CSV and JSON ledgers)* | ... | ... | ... | ... | ... | ... |

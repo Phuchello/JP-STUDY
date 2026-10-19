@@ -6510,5 +6510,3301 @@
     "inconsistencyDetail": null,
     "alternativeDefensibleAnswers": [],
     "concerns": null
+  },
+  {
+    "questionId": "N2_03_M1_01",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "いたく",
+      "B": "いしょく",
+      "C": "いぞく",
+      "D": "いしん"
+    },
+    "currentExamOptions": {
+      "A": "いたく",
+      "B": "いしょく",
+      "C": "いぞく",
+      "D": "いしん"
+    },
+    "originalBlindAnswer": "A",
+    "selectedText": "いたく",
+    "remappedBlindAnswer": "A",
+    "confidence": "HIGH",
+    "contentFingerprint": "1e8c9c57301ebd1bcf5cace1724e79c4558e3b85bb9a339d49cf8db8b5d73a38",
+    "reviewFingerprint": "1e8c9c57301ebd1bcf5cace1724e79c4558e3b85bb9a339d49cf8db8b5d73a38",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "「委託」の正しい音読みは「いたく」。「委（イ）」＋「託（タク）」。業務や事務などを外部の専門業者等に依頼して任せること。B「いしょく（委嘱・移植）」、C「いぞく（遺族）」、D「いしん（維新・威信）」はいずれも別語の読み。",
+    "historicalLetterReference": [
+      "B",
+      "C",
+      "D"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M1_02",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "こうしゅく",
+      "B": "ぎょうしゅく",
+      "C": "ぎょうしん",
+      "D": "こんしゅく"
+    },
+    "currentExamOptions": {
+      "A": "こうしゅく",
+      "B": "ぎょうしゅく",
+      "C": "ぎょうしん",
+      "D": "こんしゅく"
+    },
+    "originalBlindAnswer": "B",
+    "selectedText": "ぎょうしゅく",
+    "remappedBlindAnswer": "B",
+    "confidence": "HIGH",
+    "contentFingerprint": "b61e0041aab965181af1c41da864ba0daa8bb1bbb59a3c28198f7d428dcdb3b5",
+    "reviewFingerprint": "b61e0041aab965181af1c41da864ba0daa8bb1bbb59a3c28198f7d428dcdb3b5",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "「凝縮」の正しい音読みは「ぎょうしゅく」。「凝（ギョウ）」＋「縮（シュク）」。広がり散らばっていたものが密密に一つにまとまり縮まること。頭音は濁音「ぎょう」。A「こうしゅく」、C「ぎょうしん」、D「こんしゅく」はいずれも誤読。",
+    "historicalLetterReference": [
+      "A",
+      "C",
+      "D"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M1_03",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "さだん",
+      "B": "しゃだん",
+      "C": "しゃたん",
+      "D": "せいだん"
+    },
+    "currentExamOptions": {
+      "A": "さだん",
+      "B": "しゃだん",
+      "C": "しゃたん",
+      "D": "せいだん"
+    },
+    "originalBlindAnswer": "B",
+    "selectedText": "しゃだん",
+    "remappedBlindAnswer": "B",
+    "confidence": "HIGH",
+    "contentFingerprint": "531d556447dbdb1b1b1777142435bc887fdf6ea403e5e8a6c2a5d8f6cd02190f",
+    "reviewFingerprint": "531d556447dbdb1b1b1777142435bc887fdf6ea403e5e8a6c2a5d8f6cd02190f",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "「遮断」の正しい音読みは「しゃだん」。「遮（シャ）」＋「断（ダン）」。「遮断機」は踏切などで交通や進行を遮る棒状の装置。A「さだん」、C「しゃたん」、D「せいだん」はいずれも誤読。",
+    "historicalLetterReference": [
+      "A",
+      "C",
+      "D"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M1_04",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "くつおり",
+      "B": "ぐっせつ",
+      "C": "くっせつ",
+      "D": "くっしょう"
+    },
+    "currentExamOptions": {
+      "A": "くつおり",
+      "B": "ぐっせつ",
+      "C": "くっせつ",
+      "D": "くっしょう"
+    },
+    "originalBlindAnswer": "C",
+    "selectedText": "くっせつ",
+    "remappedBlindAnswer": "C",
+    "confidence": "HIGH",
+    "contentFingerprint": "3dcc68d07f8ca1e4ceeeef5733ea1f031b3707799d5ba3a82f31040bb853a787",
+    "reviewFingerprint": "3dcc68d07f8ca1e4ceeeef5733ea1f031b3707799d5ba3a82f31040bb853a787",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "「屈折」の正しい音読みは促音化を伴う「くっせつ」。「屈（クツ）」＋「折（セツ）」。光や波などが境界を通る際に進行方向を曲げる現象。頭音は清音「く」、促音化して「くっせつ」となる。",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M1_05",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "ゆうづう",
+      "B": "ゆずう",
+      "C": "ゆうつう",
+      "D": "ゆうずう"
+    },
+    "currentExamOptions": {
+      "A": "ゆうづう",
+      "B": "ゆずう",
+      "C": "ゆうつう",
+      "D": "ゆうずう"
+    },
+    "originalBlindAnswer": "D",
+    "selectedText": "ゆうずう",
+    "remappedBlindAnswer": "D",
+    "confidence": "HIGH",
+    "contentFingerprint": "1c0274784ca026e5adb6619c64b89e37d10175a1556c42ddeba9eee22c01ac80",
+    "reviewFingerprint": "1c0274784ca026e5adb6619c64b89e37d10175a1556c42ddeba9eee22c01ac80",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "「融通」の現代仮名遣いおよび常用漢字表付表における公的正書法は「ゆうずう」。「融（ユウ）」＋「通（ツウ→ズウ：慣用音・連濁）」。A「ゆうづう」は旧仮名・語源意識に基づく表記トラップ、B「ゆずう」は短音誤り、C「ゆうつう」は無声音誤り。",
+    "historicalLetterReference": [
+      "A",
+      "B",
+      "C"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M2_01",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "顕著",
+      "B": "賢著",
+      "C": "顕暑",
+      "D": "倹著"
+    },
+    "currentExamOptions": {
+      "A": "顕著",
+      "B": "賢著",
+      "C": "顕暑",
+      "D": "倹著"
+    },
+    "originalBlindAnswer": "A",
+    "selectedText": "顕著",
+    "remappedBlindAnswer": "A",
+    "confidence": "HIGH",
+    "contentFingerprint": "2bcb19d5aa649ddb227c9d618f96847d022f332c292dee3cef5a4f24b4bf1cbe",
+    "reviewFingerprint": "2bcb19d5aa649ddb227c9d618f96847d022f332c292dee3cef5a4f24b4bf1cbe",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "「けんちょ（に現れている）」の正しい漢字表記は「顕著」。「顕（あきらか）」＋「著（いちじるしい）」。際立って目立つさまを表す。B「賢著」、C「顕暑」、D「倹著」はいずれも同音漢字の誤字。",
+    "historicalLetterReference": [
+      "B",
+      "C",
+      "D"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M2_02",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "派遺",
+      "B": "派遣",
+      "C": "破遣",
+      "D": "旅遣"
+    },
+    "currentExamOptions": {
+      "A": "派遺",
+      "B": "派遣",
+      "C": "破遣",
+      "D": "旅遣"
+    },
+    "originalBlindAnswer": "B",
+    "selectedText": "派遣",
+    "remappedBlindAnswer": "B",
+    "confidence": "HIGH",
+    "contentFingerprint": "1489ad8925c4c816fcd067eebedf235e09aa47808d9a837607ee9306286f3a66",
+    "reviewFingerprint": "1489ad8925c4c816fcd067eebedf235e09aa47808d9a837607ee9306286f3a66",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "海外等へ人を差し向ける「はけん」の正しい表記は「派遣」。「派（分かれ出る）」＋「遣（つかわす）」。A「派遺」は「遣」と字形の類似した「遺」を用いた視覚的トラップ、C「破遣」、D「旅遣」も同音・類似字の誤り。",
+    "historicalLetterReference": [
+      "A",
+      "C",
+      "D"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M2_03",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "報集",
+      "B": "豊酬",
+      "C": "報酬",
+      "D": "報修"
+    },
+    "currentExamOptions": {
+      "A": "報集",
+      "B": "豊酬",
+      "C": "報酬",
+      "D": "報修"
+    },
+    "originalBlindAnswer": "C",
+    "selectedText": "報酬",
+    "remappedBlindAnswer": "C",
+    "confidence": "HIGH",
+    "contentFingerprint": "78071ac5bde6f73848fbb676ab0fbef38b2e016aa3470faf953a3179ca3e7951",
+    "reviewFingerprint": "78071ac5bde6f73848fbb676ab0fbef38b2e016aa3470faf953a3179ca3e7951",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "労働や役務の対価として支払われる金品を指す「ほうしゅう」の正しい表記は「報酬」。「報（むくいる）」＋「酬（お返しする）」。A「報集」、B「豊酬」、D「報修」はいずれも同音の誤字。",
+    "historicalLetterReference": [
+      "A",
+      "B",
+      "D"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M2_04",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "刻服",
+      "B": "克副",
+      "C": "告復",
+      "D": "克服"
+    },
+    "currentExamOptions": {
+      "A": "刻服",
+      "B": "克副",
+      "C": "告復",
+      "D": "克服"
+    },
+    "originalBlindAnswer": "D",
+    "selectedText": "克服",
+    "remappedBlindAnswer": "D",
+    "confidence": "HIGH",
+    "contentFingerprint": "e11d46faad0aa9fc9b95311d036d84d449b89dc129f6b610c8bd5e19924f1ec7",
+    "reviewFingerprint": "e11d46faad0aa9fc9b95311d036d84d449b89dc129f6b610c8bd5e19924f1ec7",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "困難に打ち勝つことを表す「こくふく」の正しい表記は「克服」。「克（かつ・耐える）」＋「服（従わせる）」。A「刻服」、B「克副」、C「告復」はいずれも同音漢字による誤字。",
+    "historicalLetterReference": [
+      "A",
+      "B",
+      "C"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M2_05",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "拡犬",
+      "B": "拡大",
+      "C": "鉱大",
+      "D": "拡代"
+    },
+    "currentExamOptions": {
+      "A": "拡犬",
+      "B": "拡大",
+      "C": "鉱大",
+      "D": "拡代"
+    },
+    "originalBlindAnswer": "B",
+    "selectedText": "拡大",
+    "remappedBlindAnswer": "B",
+    "confidence": "HIGH",
+    "contentFingerprint": "3a9c48fe5032bb4c3d6deba59aed3451636c90b02701ca39d30b74b2489b3ccb",
+    "reviewFingerprint": "3a9c48fe5032bb4c3d6deba59aed3451636c90b02701ca39d30b74b2489b3ccb",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "規模や面積などを押し広げて大きくすることを意味する「かくだい」の正しい漢字表記は「拡大」。「拡（ひろげる）」＋「大（おおきい）」。A「拡犬」は「大」に点を足した視覚的誤字トラップ、C・Dも同音漢字の誤り。",
+    "historicalLetterReference": [
+      "A"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M3_01",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "好",
+      "B": "良",
+      "C": "優",
+      "D": "美"
+    },
+    "currentExamOptions": {
+      "A": "好",
+      "B": "良",
+      "C": "優",
+      "D": "美"
+    },
+    "originalBlindAnswer": "A",
+    "selectedText": "好",
+    "remappedBlindAnswer": "A",
+    "confidence": "HIGH",
+    "contentFingerprint": "b6a898a76a649c377d8adf19b0818cd09e4c0e5359625f25038fe42d0c46e179",
+    "reviewFingerprint": "b6a898a76a649c377d8adf19b0818cd09e4c0e5359625f25038fe42d0c46e179",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "「良い・好ましい」という意味を名詞に添える接頭辞は「好（こう）」であり、「好印象（こういんしょう）を与える」は定着した共起表現。B「良印象」という複合名詞は存在しない（形容詞なら「良い印象」）。",
+    "historicalLetterReference": [
+      "B"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M3_02",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "各",
+      "B": "諸",
+      "C": "多",
+      "D": "連"
+    },
+    "currentExamOptions": {
+      "A": "各",
+      "B": "諸",
+      "C": "多",
+      "D": "連"
+    },
+    "originalBlindAnswer": "B",
+    "selectedText": "諸",
+    "remappedBlindAnswer": "B",
+    "confidence": "HIGH",
+    "contentFingerprint": "6f441a78934d7dbe1851568361806058cc6f21c157bd4b45a87a34650a7fd300",
+    "reviewFingerprint": "6f441a78934d7dbe1851568361806058cc6f21c157bd4b45a87a34650a7fd300",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "「さまざまな・多くの」という意味を添える接頭辞は「諸（しょ）」であり、「諸事情（しょじじょう）により」は公の通知や案内文における極めて定型的な表現。「各事情」「多事情」などの語形成はない。",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M3_03",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "不",
+      "B": "非",
+      "C": "無",
+      "D": "未"
+    },
+    "currentExamOptions": {
+      "A": "不",
+      "B": "非",
+      "C": "無",
+      "D": "未"
+    },
+    "originalBlindAnswer": "D",
+    "selectedText": "未",
+    "remappedBlindAnswer": "D",
+    "confidence": "HIGH",
+    "contentFingerprint": "eddfbb50132829db9e496cbee06cc2bf1cc9d6210d871ebf45add44fa1f266f3",
+    "reviewFingerprint": "eddfbb50132829db9e496cbee06cc2bf1cc9d6210d871ebf45add44fa1f266f3",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "「まだ〜していない」という未完了の状態を表す接頭辞は「未（み）」であり、「未解決（みかいけつ）」が確立した語。「未解決事件」「未解決のまま」のように用いる。A「不解決」、B「非解決」、C「無解決」という語形成は存在しない。",
+    "historicalLetterReference": [
+      "A",
+      "B",
+      "C"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M3_04",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "高",
+      "B": "上",
+      "C": "貴",
+      "D": "豪"
+    },
+    "currentExamOptions": {
+      "A": "高",
+      "B": "上",
+      "C": "貴",
+      "D": "豪"
+    },
+    "originalBlindAnswer": "A",
+    "selectedText": "高",
+    "remappedBlindAnswer": "A",
+    "confidence": "HIGH",
+    "contentFingerprint": "af1fd03bfba1cc6d9ce3add31231892146228ba4e8a28bc3f1963d280bb758a6",
+    "reviewFingerprint": "af1fd03bfba1cc6d9ce3add31231892146228ba4e8a28bc3f1963d280bb758a6",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "機能・性能の度合いが高いことを表す接頭辞は「高」であり、「高性能（こうせいのう）」、さらに「超」が前置されて「超高性能」となる。「上性能」「貴性能」「豪性能」という語形成はない。",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M3_05",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "性",
+      "B": "率",
+      "C": "度",
+      "D": "感"
+    },
+    "currentExamOptions": {
+      "A": "性",
+      "B": "率",
+      "C": "度",
+      "D": "感"
+    },
+    "originalBlindAnswer": "C",
+    "selectedText": "度",
+    "remappedBlindAnswer": "C",
+    "confidence": "HIGH",
+    "contentFingerprint": "363ddac81bba500b2a31792a0cf4225576f2b6c7b4ccceae0b6e4ecc87370a0a",
+    "reviewFingerprint": "363ddac81bba500b2a31792a0cf4225576f2b6c7b4ccceae0b6e4ecc87370a0a",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "度合いや基準値としての数値指標を表す接尾辞は「度」であり、「顧客満足度（CS: Customer Satisfaction）」は統計調査やマーケティングにおける確立した術語。「満足度を測定する」と共起する。D「満足感」は個人の内面的感情であり測定指標名としては不適。",
+    "historicalLetterReference": [
+      "D"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M4_01",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "ぎくしゃく",
+      "B": "うやむや",
+      "C": "ぼんやり",
+      "D": "めちゃくちゃ"
+    },
+    "currentExamOptions": {
+      "A": "ぎくしゃく",
+      "B": "うやむや",
+      "C": "ぼんやり",
+      "D": "めちゃくちゃ"
+    },
+    "originalBlindAnswer": "B",
+    "selectedText": "うやむや",
+    "remappedBlindAnswer": "B",
+    "confidence": "HIGH",
+    "contentFingerprint": "27110cfc38971e53928eab94a2371f0af82db1b1fd0369a687ab3525ec3967a4",
+    "reviewFingerprint": "27110cfc38971e53928eab94a2371f0af82db1b1fd0369a687ab3525ec3967a4",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "「うやむや」は「物事をあいまいにしたまま、はっきりさせないさま」を表す名詞。「うやむやにする」「うやむやのまま終わらせる」は、議論や問題の決着を曖昧に放置する文脈における定番の慣用連語。",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M4_02",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "棄権",
+      "B": "解約",
+      "C": "辞退",
+      "D": "脱退"
+    },
+    "currentExamOptions": {
+      "A": "棄権",
+      "B": "解約",
+      "C": "辞退",
+      "D": "脱退"
+    },
+    "originalBlindAnswer": "C",
+    "selectedText": "辞退",
+    "remappedBlindAnswer": "C",
+    "confidence": "HIGH",
+    "contentFingerprint": "d297206aceece2936ab23374dfd0b2fe45d8cefa94e0709d828812098a887b95",
+    "reviewFingerprint": "d297206aceece2936ab23374dfd0b2fe45d8cefa94e0709d828812098a887b95",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "「辞退（じたい）」は「勧められたことや参加・権利などを断ること」を意味し、「参加を辞退する」という目的語との共起関係が完全に成立する。A「棄権（きけん）」は試合や競技そのものを放棄することであり、「参加を棄権する」という目的語の取り方は統語的に極めて不自然。",
+    "historicalLetterReference": [
+      "A"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M4_03",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "依存",
+      "B": "没頭",
+      "C": "束縛",
+      "D": "執着"
+    },
+    "currentExamOptions": {
+      "A": "依存",
+      "B": "没頭",
+      "C": "束縛",
+      "D": "執着"
+    },
+    "originalBlindAnswer": "D",
+    "selectedText": "執着",
+    "remappedBlindAnswer": "D",
+    "confidence": "HIGH",
+    "contentFingerprint": "671a3a6231b63eebac633d00ff12aac79e731a435fc0ce6d057d1d10618ea2c9",
+    "reviewFingerprint": "671a3a6231b63eebac633d00ff12aac79e731a435fc0ce6d057d1d10618ea2c9",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "「執着（しゅうちゃく）する」は「一つのことに心が囚われて離れられないこと」を表し、「過去の栄光・成功体験・物に執着する」という定型的なコロケーションを持つ。新しい手法への挑戦と対比される「過去への固執」に合致する。A「依存」は他者や物に頼って自立できないことであり文意に合わない。",
+    "historicalLetterReference": [
+      "A"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M4_04",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "一環",
+      "B": "一端",
+      "C": "一面",
+      "D": "一体"
+    },
+    "currentExamOptions": {
+      "A": "一環",
+      "B": "一端",
+      "C": "一面",
+      "D": "一体"
+    },
+    "originalBlindAnswer": "A",
+    "selectedText": "一環",
+    "remappedBlindAnswer": "A",
+    "confidence": "HIGH",
+    "contentFingerprint": "31c52b1e447e6184c2b5c3b4a9674a590bb5f0621263f650dee6748279210e38",
+    "reviewFingerprint": "31c52b1e447e6184c2b5c3b4a9674a590bb5f0621263f650dee6748279210e38",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "「一環（いっかん）」は「全体として繋がっている計画や活動などの一部分」を意味し、「〜の一環として」はJLPT N2頻出の定型連語。地域交流活動という全体計画の一部として清掃活動を行う文脈に完全に合致する。",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M4_05",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "考慮",
+      "B": "配慮",
+      "C": "遠慮",
+      "D": "気配"
+    },
+    "currentExamOptions": {
+      "A": "考慮",
+      "B": "配慮",
+      "C": "遠慮",
+      "D": "気配"
+    },
+    "originalBlindAnswer": "B",
+    "selectedText": "配慮",
+    "remappedBlindAnswer": "B",
+    "confidence": "HIGH",
+    "contentFingerprint": "01a815ffe9b8d9131b2421d0390d47ed50b04696180844b05ebbeec495867200",
+    "reviewFingerprint": "01a815ffe9b8d9131b2421d0390d47ed50b04696180844b05ebbeec495867200",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "「配慮（はいりょ）」は「相手の立場や状況に心を配ること・気遣い」を表し、バリアフリーやユニバーサルデザインのように弱者（高齢者や子供）に配慮して工夫を凝らす文脈で「細部まで配慮した設計」として定着している。A「考慮」は客観的要素を頭で計算に入れることであり、温かい気遣いを伴う工夫には「配慮」が最も自然。",
+    "historicalLetterReference": [
+      "A"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M4_06",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "手軽",
+      "B": "器用",
+      "C": "簡潔",
+      "D": "素朴"
+    },
+    "currentExamOptions": {
+      "A": "手軽",
+      "B": "器用",
+      "C": "簡潔",
+      "D": "素朴"
+    },
+    "originalBlindAnswer": "C",
+    "selectedText": "簡潔",
+    "remappedBlindAnswer": "C",
+    "confidence": "HIGH",
+    "contentFingerprint": "33c740cf6f9afcb513ab331a46c376b383352d47bb96bae68b65859c6e9ca2c9",
+    "reviewFingerprint": "33c740cf6f9afcb513ab331a46c376b383352d47bb96bae68b65859c6e9ca2c9",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "「簡潔（かんけつ）」は「手短で要領を得ているさま」を表し、「要点を絞って簡潔に伝える・報告する」はビジネスコミュニケーションの代表的コロケーション。A「手軽（簡単で負担がない）」、B「器用（手先などが巧み）」、D「素朴（飾り気がない）」は報告の態勢として不適。",
+    "historicalLetterReference": [
+      "A",
+      "B",
+      "D"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M4_07",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "拒む",
+      "B": "阻む",
+      "C": "脅かす",
+      "D": "促す"
+    },
+    "currentExamOptions": {
+      "A": "拒む",
+      "B": "阻む",
+      "C": "脅かす",
+      "D": "促す"
+    },
+    "originalBlindAnswer": "D",
+    "selectedText": "促す",
+    "remappedBlindAnswer": "D",
+    "confidence": "HIGH",
+    "contentFingerprint": "f8ab2fe1883f1f92ddbbc403e9dff832f66456858a26bb9759ad37be017e8944",
+    "reviewFingerprint": "f8ab2fe1883f1f92ddbbc403e9dff832f66456858a26bb9759ad37be017e8944",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "「促す（うながす）」は「物事を早くするように働きかける・督促する」を意味し、「避難を促す」「注意を促す」は防災・報道における定型連語。A「拒む（拒絶する）」、B「阻む（妨害する）」、C「脅かす（脅迫・脅威を与える）」は文脈に反する。",
+    "historicalLetterReference": [
+      "A",
+      "B",
+      "C"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M5_01",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "率直に",
+      "B": "慎重に",
+      "C": "大げさに",
+      "D": "巧妙に"
+    },
+    "currentExamOptions": {
+      "A": "率直に",
+      "B": "慎重に",
+      "C": "大げさに",
+      "D": "巧妙に"
+    },
+    "originalBlindAnswer": "A",
+    "selectedText": "率直に",
+    "remappedBlindAnswer": "A",
+    "confidence": "HIGH",
+    "contentFingerprint": "deb628635bcc01cdc0d5918e932011c3009f963b42e404fb54678820f04651dc",
+    "reviewFingerprint": "deb628635bcc01cdc0d5918e932011c3009f963b42e404fb54678820f04651dc",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "カタカナ語「ストレートに」は「遠回しでなく、ありのままに直接伝えるさま」を表す。したがって「率直（そっちょく）に」が直接の類義表現となる。B「慎重に」、C「大げさに」は意味が異なる。",
+    "historicalLetterReference": [
+      "B",
+      "C"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M5_02",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "結論",
+      "B": "取り組み方",
+      "C": "口実",
+      "D": "合意"
+    },
+    "currentExamOptions": {
+      "A": "結論",
+      "B": "取り組み方",
+      "C": "口実",
+      "D": "合意"
+    },
+    "originalBlindAnswer": "B",
+    "selectedText": "取り組み方",
+    "remappedBlindAnswer": "B",
+    "confidence": "HIGH",
+    "contentFingerprint": "4c6a60db85b154e1d95120b8ee61aeb1b2fcb3f557dd54b29a371f165c3b8ac5",
+    "reviewFingerprint": "4c6a60db85b154e1d95120b8ee61aeb1b2fcb3f557dd54b29a371f165c3b8ac5",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "「アプローチ（approach）」は課題や問題に対する「接近方法、研究や解決のための取り組み方」を意味する。したがって「取り組み方」が的確な言い換え。",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M5_03",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "せいぜい",
+      "B": "かろうじて",
+      "C": "だいたい",
+      "D": "とっくに"
+    },
+    "currentExamOptions": {
+      "A": "せいぜい",
+      "B": "かろうじて",
+      "C": "だいたい",
+      "D": "とっくに"
+    },
+    "originalBlindAnswer": "C",
+    "selectedText": "だいたい",
+    "remappedBlindAnswer": "C",
+    "confidence": "HIGH",
+    "contentFingerprint": "623402e67f95d73f2876fe355848e0a829a5b897f2eed8972150160891a97ccc",
+    "reviewFingerprint": "623402e67f95d73f2876fe355848e0a829a5b897f2eed8972150160891a97ccc",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "副詞「おおよそ」は数量や時間の「およそ、大約、大体」を表す語。選択肢Cの「だいたい」が直接の同義語。A「せいぜい（精一杯でも）」、B「かろうじて（やっとのことで）」は意味が異なる。",
+    "historicalLetterReference": [
+      "A",
+      "B",
+      "C"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M5_04",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "退屈だ",
+      "B": "心強い",
+      "C": "不満だ",
+      "D": "心配だ"
+    },
+    "currentExamOptions": {
+      "A": "退屈だ",
+      "B": "心強い",
+      "C": "不満だ",
+      "D": "心配だ"
+    },
+    "originalBlindAnswer": "D",
+    "selectedText": "心配だ",
+    "remappedBlindAnswer": "D",
+    "confidence": "HIGH",
+    "contentFingerprint": "8839b85e9dda001b05891507c1f488e8a753a790fb9f945ea2b4d77f04d72be0",
+    "reviewFingerprint": "8839b85e9dda001b05891507c1f488e8a753a790fb9f945ea2b4d77f04d72be0",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "「気がかりだ」は「心に引っかかって不安であるさま、気になって落ち着かないさま」を表す形容動詞であり、「心配だ」と完全に同義である。",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M5_05",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "謝罪し",
+      "B": "感謝し",
+      "C": "報告し",
+      "D": "要求し"
+    },
+    "currentExamOptions": {
+      "A": "謝罪し",
+      "B": "感謝し",
+      "C": "報告し",
+      "D": "要求し"
+    },
+    "originalBlindAnswer": "A",
+    "selectedText": "謝罪し",
+    "remappedBlindAnswer": "A",
+    "confidence": "HIGH",
+    "contentFingerprint": "0a265f81359a9ee53a3316a637b000ebcdf50190a33673e1cf1ef43d4634188a",
+    "reviewFingerprint": "0a265f81359a9ee53a3316a637b000ebcdf50190a33673e1cf1ef43d4634188a",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "「お詫び」は自分の過失や迷惑を認めて謝る行為・言葉であり、「謝罪（しゃざい）」と同義。「深くお詫び申し上げます」＝「深く謝罪いたします」。",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M6_01",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "この部屋は防音がしっかりしているので、外のニュアンスが全く聞こえない。",
+      "B": "言葉の微妙なニュアンスの違いを正確に理解して使い分けるのは難しい。",
+      "C": "新入社員の挨拶からは、若者らしい元気なニュアンスが漂っていた。",
+      "D": "スマートフォンの充電器のニュアンスが壊れてしまい、画面がつかなくなった。"
+    },
+    "currentExamOptions": {
+      "A": "この部屋は防音がしっかりしているので、外のニュアンスが全く聞こえない。",
+      "B": "言葉の微妙なニュアンスの違いを正確に理解して使い分けるのは難しい。",
+      "C": "新入社員の挨拶からは、若者らしい元気なニュアンスが漂っていた。",
+      "D": "スマートフォンの充電器のニュアンスが壊れてしまい、画面がつかなくなった。"
+    },
+    "originalBlindAnswer": "B",
+    "selectedText": "言葉の微妙なニュアンスの違いを正確に理解して使い分けるのは難しい。",
+    "remappedBlindAnswer": "B",
+    "confidence": "HIGH",
+    "contentFingerprint": "c6aacedc889fdac9591248fc5deb94d5edcb9dad21239d168ee7c70f2bfcaf0f",
+    "reviewFingerprint": "c6aacedc889fdac9591248fc5deb94d5edcb9dad21239d168ee7c70f2bfcaf0f",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "「ニュアンス」は言葉や表現、感情などの「微妙な意味合いやニュアンスの差異」を表す外来語。「言葉の微妙なニュアンスの違いを使い分ける」というBの用法が極めて正統的。Aは「音」、Cは「雰囲気／気配」、Dは「部品／端子」などの誤用。",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M6_02",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "彼は日頃の努力が実を結び、案の定難関大学の医学部に合格した。",
+      "B": "明日から旅行に行くのに、案の定パスポートを紛失して大変喜んでいる。",
+      "C": "空が急に暗くなってきたと思ったら、案の定激しい夕立が降り始めた。",
+      "D": "彼女は予想もしなかった案の定のサプライズプレゼントに涙を流した。"
+    },
+    "currentExamOptions": {
+      "A": "彼は日頃の努力が実を結び、案の定難関大学の医学部に合格した。",
+      "B": "明日から旅行に行くのに、案の定パスポートを紛失して大変喜んでいる。",
+      "C": "空が急に暗くなってきたと思ったら、案の定激しい夕立が降り始めた。",
+      "D": "彼女は予想もしなかった案の定のサプライズプレゼントに涙を流した。"
+    },
+    "originalBlindAnswer": "C",
+    "selectedText": "空が急に暗くなってきたと思ったら、案の定激しい夕立が降り始めた。",
+    "remappedBlindAnswer": "C",
+    "confidence": "HIGH",
+    "contentFingerprint": "49615cf4458ab352ed37b9f371ce684ecd4b570eed5290d8c2f8d4923123a350",
+    "reviewFingerprint": "49615cf4458ab352ed37b9f371ce684ecd4b570eed5290d8c2f8d4923123a350",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "副詞「案の定（あんのじょう）」は「悪い予感や懸念していた事態が、思った通りに現実になるさま」を表す（「案の定雨が降ってきた」「案の定失敗した」）。Cの「空が暗くなり夕立が降る」という悪い天候の的中描写が完璧。Aは好ましい結果（合格）であるため「予想通り／期待通り」を用いるべき誤用、B・Dは意味的・論理的な矛盾。",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M6_03",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "近年における再生可能エネルギー技術の進歩には著しいものがある。",
+      "B": "今日は朝から天気が著しくて、遠くの富士山までくっきりと見えた。",
+      "C": "このスープはスパイスの著しい味がして、一口飲んだだけで汗が出た。",
+      "D": "彼は著しい体格をしていて、どんな重い荷物でも軽々と持ち上げる。"
+    },
+    "currentExamOptions": {
+      "A": "近年における再生可能エネルギー技術の進歩には著しいものがある。",
+      "B": "今日は朝から天気が著しくて、遠くの富士山までくっきりと見えた。",
+      "C": "このスープはスパイスの著しい味がして、一口飲んだだけで汗が出た。",
+      "D": "彼は著しい体格をしていて、どんな重い荷物でも軽々と持ち上げる。"
+    },
+    "originalBlindAnswer": "A",
+    "selectedText": "近年における再生可能エネルギー技術の進歩には著しいものがある。",
+    "remappedBlindAnswer": "A",
+    "confidence": "HIGH",
+    "contentFingerprint": "d2dac3885afc38e78556d014eac682ad5e7c34c684b0fdf60f6543b2db28d7cb",
+    "reviewFingerprint": "d2dac3885afc38e78556d014eac682ad5e7c34c684b0fdf60f6543b2db28d7cb",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "「著しい（いちじるしい）」は「誰の目にも明らかなほど変化や進歩が際立っているさま」を表し、「進歩／発展／変化が著しい（〜には著しいものがある）」という形で多用される。Aの用法が完璧。B（天候の良さ）、C（味の強烈さ）、D（体格の頑丈さ）の修飾としては不自然。",
+    "historicalLetterReference": [
+      "B",
+      "C",
+      "D"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M6_04",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "あの店のラーメンは、スープの手際が他店とは決定的に違っている。",
+      "B": "彼は毎日ジョギングを欠かさない手際の良い性格をしている。",
+      "C": "会議室のプロジェクターの手際が悪くて、映像が途中で途切れた。",
+      "D": "彼女は長年の経験を生かした鮮やかな手際で、トラブルを短時間で収束させた。"
+    },
+    "currentExamOptions": {
+      "A": "あの店のラーメンは、スープの手際が他店とは決定的に違っている。",
+      "B": "彼は毎日ジョギングを欠かさない手際の良い性格をしている。",
+      "C": "会議室のプロジェクターの手際が悪くて、映像が途中で途切れた。",
+      "D": "彼女は長年の経験を生かした鮮やかな手際で、トラブルを短時間で収束させた。"
+    },
+    "originalBlindAnswer": "D",
+    "selectedText": "彼女は長年の経験を生かした鮮やかな手際で、トラブルを短時間で収束させた。",
+    "remappedBlindAnswer": "D",
+    "confidence": "HIGH",
+    "contentFingerprint": "173008a85877b3fa2f0eb6857ae94b9f0b3a603ea51916bbec4cbac59a01e95b",
+    "reviewFingerprint": "173008a85877b3fa2f0eb6857ae94b9f0b3a603ea51916bbec4cbac59a01e95b",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "「手際（てぎわ）」は「物事を手早く上手に処理する腕前・要領」を表し、「手際が良い」「鮮やかな手際で〜する」の形で用いられる。Dのように人が技術や経験を発揮して問題を迅速に片付ける動作の修飾が正確。A（スープの味・仕込み）、B（性格の表現）、C（機械の作動）に「手際」は使えない。",
+    "historicalLetterReference": [
+      "A",
+      "B",
+      "C"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M6_05",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "テストの範囲がまばらすぎて、どこから勉強を始めればいいか分からない。",
+      "B": "彼女の歌声はまばらで美しく、会場中の聴衆を魅了した。",
+      "C": "開場直後は観客もまばらだったが、開演時刻が近づくにつれて満席になった。",
+      "D": "この道は車のスピードがまばらなので、歩行者は十分注意が必要だ。"
+    },
+    "currentExamOptions": {
+      "A": "テストの範囲がまばらすぎて、どこから勉強を始めればいいか分からない。",
+      "B": "彼女の歌声はまばらで美しく、会場中の聴衆を魅了した。",
+      "C": "開場直後は観客もまばらだったが、開演時刻が近づくにつれて満席になった。",
+      "D": "この道は車のスピードがまばらなので、歩行者は十分注意が必要だ。"
+    },
+    "originalBlindAnswer": "C",
+    "selectedText": "開場直後は観客もまばらだったが、開演時刻が近づくにつれて満席になった。",
+    "remappedBlindAnswer": "C",
+    "confidence": "HIGH",
+    "contentFingerprint": "dd51a599c00bd9500084115b5aecc9801a91adcfc1d123119ecb6b868e016643",
+    "reviewFingerprint": "dd51a599c00bd9500084115b5aecc9801a91adcfc1d123119ecb6b868e016643",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "「まばら（疎ら）」は「人や物が密集しておらず、すき間があって散らばっているさま」を表す。「観客もまばらだったが…満席になった」というCの対比的用法が最も典型的かつ正確。Aは「広範」、Bは「澄んでいる」、Dは「まちまち／バラバラ」などの語を用いるべき。",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M7_01",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "ほかならない",
+      "B": "かぎらない",
+      "C": "相違ない",
+      "D": "すぎない"
+    },
+    "currentExamOptions": {
+      "A": "ほかならない",
+      "B": "かぎらない",
+      "C": "相違ない",
+      "D": "すぎない"
+    },
+    "originalBlindAnswer": "A",
+    "selectedText": "ほかならない",
+    "remappedBlindAnswer": "A",
+    "confidence": "HIGH",
+    "contentFingerprint": "b5d39038e3ddce0c530b3fe91a68de2521a66ec2d629f0afe2a9f9d1c5b7a8ca",
+    "reviewFingerprint": "b5d39038e3ddce0c530b3fe91a68de2521a66ec2d629f0afe2a9f9d1c5b7a8ca",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "文型「〜にほかならない」は「まさにそれである、それ以外の何ものでもない」と理由や本質を強く断定・強調する表現。「努力の賜物にほかならない」は賞賛の文脈において完璧に呼応する。D「にすぎない」は価値を過小評価する語であるため不適。",
+    "historicalLetterReference": [
+      "D"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M7_02",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "きっかけに",
+      "B": "皮切りに",
+      "C": "契機として",
+      "D": "はじめに"
+    },
+    "currentExamOptions": {
+      "A": "きっかけに",
+      "B": "皮切りに",
+      "C": "契機として",
+      "D": "はじめに"
+    },
+    "originalBlindAnswer": "B",
+    "selectedText": "皮切りに",
+    "remappedBlindAnswer": "B",
+    "confidence": "HIGH",
+    "contentFingerprint": "3d4914a392a5caf73543415cb3aa28ee94e8dd75396762b6f9c68c40ce1755de",
+    "reviewFingerprint": "3d4914a392a5caf73543415cb3aa28ee94e8dd75396762b6f9c68c40ce1755de",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "文型「〜を皮切りに（して）」は「ある出来事を手始めとして、同種の活動・事態が次々に連続して広がる」ことを表す。「東京公演を皮切りに全国ツアーが始まる」は本文型の最も代表的な例文。A・C（転機のきっかけ）やDは不適。",
+    "historicalLetterReference": [
+      "C"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M7_03",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "めぐって",
+      "B": "通して",
+      "C": "踏まえて",
+      "D": "問わず"
+    },
+    "currentExamOptions": {
+      "A": "めぐって",
+      "B": "通して",
+      "C": "踏まえて",
+      "D": "問わず"
+    },
+    "originalBlindAnswer": "C",
+    "selectedText": "踏まえて",
+    "remappedBlindAnswer": "C",
+    "confidence": "HIGH",
+    "contentFingerprint": "a024dfd26ac78b6ca80688f6c0f6995e9fbd314d9ab38b2a81442c0b086a1708",
+    "reviewFingerprint": "a024dfd26ac78b6ca80688f6c0f6995e9fbd314d9ab38b2a81442c0b086a1708",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "「〜を踏まえて」は「〜を前提・判断の根拠として考慮に入れて、次の行動をとる」ことを意味するN2文型。アンケートの要望を反映させて新メニューを開発したという文脈に合致する。A「をめぐって（争点とする）」、D「を問わず（無関係に）」は不適。",
+    "historicalLetterReference": [
+      "A",
+      "D"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M7_04",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "がたい",
+      "B": "かねない",
+      "C": "ざるを得ない",
+      "D": "っこない"
+    },
+    "currentExamOptions": {
+      "A": "がたい",
+      "B": "かねない",
+      "C": "ざるを得ない",
+      "D": "っこない"
+    },
+    "originalBlindAnswer": "D",
+    "selectedText": "っこない",
+    "remappedBlindAnswer": "D",
+    "confidence": "HIGH",
+    "contentFingerprint": "627190973652283c2ea999758ab36f1d491a618daf9633f0ed8ab5414d680743",
+    "reviewFingerprint": "627190973652283c2ea999758ab36f1d491a618daf9633f0ed8ab5414d680743",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "文型「動詞マス形＋っこない」は「強い確信をもって絶対に〜ない、できるはずがない」と全否定するN2重要文型。「素人にはできっこない」という不可能の強調文脈に完璧に合致する。A「〜がたい」は心理的困難を表し可能動詞に接続不可（×できがたい）。B「〜かねない」は悪影響・危険発生の恐れを表し文意不適。C「〜ざるを得ない」は義務・必然を表し文脈不適。唯一正解はD。",
+    "historicalLetterReference": [
+      "A",
+      "B",
+      "C"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M7_05",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "につけ",
+      "B": "につれて",
+      "C": "にしたがって",
+      "D": "に際して"
+    },
+    "currentExamOptions": {
+      "A": "につけ",
+      "B": "につれて",
+      "C": "にしたがって",
+      "D": "に際して"
+    },
+    "originalBlindAnswer": "A",
+    "selectedText": "につけ",
+    "remappedBlindAnswer": "A",
+    "confidence": "HIGH",
+    "contentFingerprint": "4169c508e6baf83a7993174ac31b3c4fb80c5494b4a8a232c788cc75d5bf4cff",
+    "reviewFingerprint": "4169c508e6baf83a7993174ac31b3c4fb80c5494b4a8a232c788cc75d5bf4cff",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "文型「動詞辞書形＋につけ（て）」は「〜すると、いつも決まってある感情や記憶が自然とわき起こる」ことを表す。「写真を見るにつけ、記憶がよみがえる」は本項目の最も標準的な例文。B「につれて」・C「にしたがって」は比例的変化を表す文型であり、単一のトリガーによる記憶の想起には用いられない。",
+    "historicalLetterReference": [
+      "B",
+      "C"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M7_06",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "かねる",
+      "B": "かねない",
+      "C": "がちだ",
+      "D": "きれない"
+    },
+    "currentExamOptions": {
+      "A": "かねる",
+      "B": "かねない",
+      "C": "がちだ",
+      "D": "きれない"
+    },
+    "originalBlindAnswer": "B",
+    "selectedText": "かねない",
+    "remappedBlindAnswer": "B",
+    "confidence": "HIGH",
+    "contentFingerprint": "4f93c771bb97493deadbc8fd7af25dec45751e4826ef24a10443f6228b314f48",
+    "reviewFingerprint": "4f93c771bb97493deadbc8fd7af25dec45751e4826ef24a10443f6228b314f48",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "文型「動詞マス形＋かねない」は「悪い結果や危機的な事態を引き起こす恐れ・可能性がある」ことを表す。「大事故を引き起こしかねない」という警告の文脈に完全に合致する。A「かねる」は心理的理由による不可能・辞退を表すため文意が逆になる。",
+    "historicalLetterReference": [
+      "A"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M7_07",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "を皮切りに",
+      "B": "に反して",
+      "C": "に沿って",
+      "D": "をよそに"
+    },
+    "currentExamOptions": {
+      "A": "を皮切りに",
+      "B": "に反して",
+      "C": "に沿って",
+      "D": "をよそに"
+    },
+    "originalBlindAnswer": "C",
+    "selectedText": "に沿って",
+    "remappedBlindAnswer": "C",
+    "confidence": "HIGH",
+    "contentFingerprint": "460497aaa5031cec594af3fda5ff7f715977357cfbc06b1abf2620adcedeffd3",
+    "reviewFingerprint": "460497aaa5031cec594af3fda5ff7f715977357cfbc06b1abf2620adcedeffd3",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "「国の基本方針に沿って（〜にそって）」は、「〜の方針・基準・ルールに従って／準拠して」という意味を表すN2の代表的な機能語であり、行政マニュアルの改定という公的文脈に最も合致する。A「を皮切りに」は一連の事象の口火を切る表現、B「に反して」は反逆・違反を表し本筋に合わない、D「をよそに」は忠告・批判を無視する意味で不適切。",
+    "historicalLetterReference": [
+      "A",
+      "B",
+      "D"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M7_08",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "っぽい",
+      "B": "がち",
+      "C": "ぎみ",
+      "D": "たげ"
+    },
+    "currentExamOptions": {
+      "A": "っぽい",
+      "B": "がち",
+      "C": "ぎみ",
+      "D": "たげ"
+    },
+    "originalBlindAnswer": "D",
+    "selectedText": "たげ",
+    "remappedBlindAnswer": "D",
+    "confidence": "HIGH",
+    "contentFingerprint": "eb10cd1136ea8a5eae52ac62a56e9d65363e134dac8b56e19d9c2f4cec321e62",
+    "reviewFingerprint": "eb10cd1136ea8a5eae52ac62a56e9d65363e134dac8b56e19d9c2f4cec321e62",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "「〜たげ（〜たげな／〜たげに）」は、願望の「〜たい」の語幹に接続して「〜したそうな様子・表情」を表す接尾辞であり、「何か言いたげな表情（何か言いたそうな表情）」は極めて自然な慣用表現である。A「っぽい」は名詞や動詞連用形について性質・傾向を表す（言いたっぽいとは言わない）、B「がち」は頻度・傾向（言いがち）、C「ぎみ」は心身の状態（風邪ぎみ）であり不適。",
+    "historicalLetterReference": [
+      "A",
+      "B",
+      "C"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M7_09",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "どころか",
+      "B": "ばかりか",
+      "C": "反面",
+      "D": "あげく"
+    },
+    "currentExamOptions": {
+      "A": "どころか",
+      "B": "ばかりか",
+      "C": "反面",
+      "D": "あげく"
+    },
+    "originalBlindAnswer": "A",
+    "selectedText": "どころか",
+    "remappedBlindAnswer": "A",
+    "confidence": "HIGH",
+    "contentFingerprint": "b708a461534ca58c8b58143cb2e254e08c388e4af183942e4d4b00acf3c07f38",
+    "reviewFingerprint": "b708a461534ca58c8b58143cb2e254e08c388e4af183942e4d4b00acf3c07f38",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "「静養するどころか、…徹夜する羽目になった」という文脈において、「〜どころか」は「〜はとんでもない、それとは正反対の過酷な事態になった」という対比的否定を表すN2文法形式である。B「ばかりか」は単なる累加、C「反面」は同一主体の二面性、D「あげく」は長期の経過の末の悪結果（通常「た形」や名詞接続で、前件が実行されていない本問には合わない）。",
+    "historicalLetterReference": [
+      "B",
+      "C",
+      "D"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M7_10",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "皮切りに",
+      "B": "契機として",
+      "C": "もとに",
+      "D": "ぬきにして"
+    },
+    "currentExamOptions": {
+      "A": "皮切りに",
+      "B": "契機として",
+      "C": "もとに",
+      "D": "ぬきにして"
+    },
+    "originalBlindAnswer": "B",
+    "selectedText": "契機として",
+    "remappedBlindAnswer": "B",
+    "confidence": "HIGH",
+    "contentFingerprint": "56e08f6f633217e9c03649f84619b43c339d49eeaed10719728090d8194fce87",
+    "reviewFingerprint": "56e08f6f633217e9c03649f84619b43c339d49eeaed10719728090d8194fce87",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "「創立50周年の節目を契機として（〜を契機に）」は、「〜という重要な節目・転機をきっかけとして大きな変化を起こす」ことを表す定型表現であり、「企業イメージを一新するためのロゴマーク発表」という文脈に完璧に合致する。A「皮切りに」は連続的同種行為の開始、C「もとに」は素材・原案、D「ぬきにして」は除外を表す。",
+    "historicalLetterReference": [
+      "A",
+      "C",
+      "D"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M7_11",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "際して",
+      "B": "次第で",
+      "C": "末に",
+      "D": "あまり"
+    },
+    "currentExamOptions": {
+      "A": "際して",
+      "B": "次第で",
+      "C": "末に",
+      "D": "あまり"
+    },
+    "originalBlindAnswer": "C",
+    "selectedText": "末に",
+    "remappedBlindAnswer": "C",
+    "confidence": "HIGH",
+    "contentFingerprint": "296d62d2431912a060f52809353e62c0624913198ba711059c485b5ff7241c18",
+    "reviewFingerprint": "296d62d2431912a060f52809353e62c0624913198ba711059c485b5ff7241c18",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "「激しい議論を重ねた末に」は、「長い時間や多くの苦労・検討を経た最終的な結果として」を表す「〜た末に」の典型的な用法である。A「際して」は開始の時点、B「次第で」は条件依存、D「あまり」は過度の感情の結果であり、「議論を重ねた」という長期プロセスの帰結には接続しない。",
+    "historicalLetterReference": [
+      "A",
+      "B",
+      "D"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M7_12",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "及ばない",
+      "B": "すぎない",
+      "C": "かぎらない",
+      "D": "相違ない"
+    },
+    "currentExamOptions": {
+      "A": "及ばない",
+      "B": "すぎない",
+      "C": "かぎらない",
+      "D": "相違ない"
+    },
+    "originalBlindAnswer": "D",
+    "selectedText": "相違ない",
+    "remappedBlindAnswer": "D",
+    "confidence": "HIGH",
+    "contentFingerprint": "eb0b28eee8660cc03a348507824ed3c04627162f48059b372852d09edd6f97b8",
+    "reviewFingerprint": "eb0b28eee8660cc03a348507824ed3c04627162f48059b372852d09edd6f97b8",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "「現場に残された足跡と防犯カメラの映像から判断して」という客観的証拠に基づき、強い確信を持って結論を導く表現としてD「に相違ない」が唯一適切。A「に及ばない（不要・劣後）」、B「にすぎない（過小評価）」、C「にかぎらない（部分否定）」は文脈上不適。",
+    "historicalLetterReference": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M8_01",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "毎日の地道な",
+      "B": "努力を",
+      "C": "怠らなかった",
+      "D": "結果に"
+    },
+    "currentExamOptions": {
+      "A": "毎日の地道な",
+      "B": "努力を",
+      "C": "怠らなかった",
+      "D": "結果に"
+    },
+    "originalBlindAnswer": "C",
+    "selectedText": "怠らなかった",
+    "remappedBlindAnswer": "C",
+    "confidence": "HIGH",
+    "contentFingerprint": "dba1770727e409dcd959699fea5e9e9cc00afea9a328454e9c4e517f3eda02c3",
+    "reviewFingerprint": "dba1770727e409dcd959699fea5e9e9cc00afea9a328454e9c4e517f3eda02c3",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "文脈は「彼が今回の難関試験に一発で合格できたのは、毎日の地道な努力を怠らなかった結果にほかならない」。統語構造は［毎日の地道な（A）］が［努力を（B）］を修飾し、［努力を（B）怠らなかった（C）］が［結果に（D）］を修飾して［ほかならない］に接続する。語順は A - B - C - D で固定され、星印 ★（3番目）は C（怠らなかった）となる。",
+    "historicalLetterReference": [
+      "C"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M8_02",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "発展しようとも、",
+      "B": "私たちは",
+      "C": "自然への",
+      "D": "畏敬の念を"
+    },
+    "currentExamOptions": {
+      "A": "発展しようとも、",
+      "B": "私たちは",
+      "C": "自然への",
+      "D": "畏敬の念を"
+    },
+    "originalBlindAnswer": "C",
+    "selectedText": "自然への",
+    "remappedBlindAnswer": "C",
+    "confidence": "HIGH",
+    "contentFingerprint": "bd019f7f2bb8b123b8a5ebb1e1c6a5f73051a7b6bb784b91167a8778c968a064",
+    "reviewFingerprint": "bd019f7f2bb8b123b8a5ebb1e1c6a5f73051a7b6bb784b91167a8778c968a064",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "「どんなに〜（よ）うとも」の相関呼応により「どんなに科学技術が発展しようとも、（A）」が確定し、主節主語「私たちは（B）」、目的語句「自然への（C）畏敬の念を（D）」が「失ってはならない」に接続する。語順は A-B-C-D（発展しようとも、・私たちは・★自然への・畏敬の念を）となり、星の位置（3番目）はC「自然への」となる。",
+    "historicalLetterReference": [
+      "C",
+      "D"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M8_03",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "個人の過失に",
+      "B": "とどまらず、",
+      "C": "組織全体の",
+      "D": "管理体制に関わる"
+    },
+    "currentExamOptions": {
+      "A": "個人の過失に",
+      "B": "とどまらず、",
+      "C": "組織全体の",
+      "D": "管理体制に関わる"
+    },
+    "originalBlindAnswer": "C",
+    "selectedText": "組織全体の",
+    "remappedBlindAnswer": "C",
+    "confidence": "HIGH",
+    "contentFingerprint": "d0c61ca3edf6b368831c374beb4dade6a3f89008147f64be4a3c98eeb6aef81e",
+    "reviewFingerprint": "d0c61ca3edf6b368831c374beb4dade6a3f89008147f64be4a3c98eeb6aef81e",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "「〜にとどまらず（〜だけでなく）」の構文より「個人の過失に（A）とどまらず、（B）」が結びつき、後半は「組織全体の（C）管理体制に関わる（D）問題である」と名詞「問題」を複層的に修飾する。語順は A-B-C-D（個人の過失に・とどまらず、・★組織全体の・管理体制に関わる）となり、星の位置（3番目）はC「組織全体の」となる。",
+    "historicalLetterReference": [
+      "C",
+      "D"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M8_04",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "観客の前に",
+      "B": "立つからには、",
+      "C": "日々の地道な",
+      "D": "練習を"
+    },
+    "currentExamOptions": {
+      "A": "観客の前に",
+      "B": "立つからには、",
+      "C": "日々の地道な",
+      "D": "練習を"
+    },
+    "originalBlindAnswer": "C",
+    "selectedText": "日々の地道な",
+    "remappedBlindAnswer": "C",
+    "confidence": "HIGH",
+    "contentFingerprint": "43700402a7f3eab480e2cacff428ba92ec9b70d5f2b523bf49d7b1d8496ef063",
+    "reviewFingerprint": "43700402a7f3eab480e2cacff428ba92ec9b70d5f2b523bf49d7b1d8496ef063",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "文脈は「プロの演奏家として観客の前に立つからには、日々の地道な練習を怠ってはならない」。［観客の前に（A）］［立つからには（B）］が前提条件節を形成し、主節の目的語［日々の地道な（C）］［練習を（D）］が動詞［怠ってはならない］に接続する。語順は A - B - C - D で固定され、星印 ★（3番目）は C（日々の地道な）となる。",
+    "historicalLetterReference": [
+      "C"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M8_05",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "大きな成果を上げられたのは、",
+      "B": "誰よりも",
+      "C": "真摯に積み重ねた",
+      "D": "本人の"
+    },
+    "currentExamOptions": {
+      "A": "大きな成果を上げられたのは、",
+      "B": "誰よりも",
+      "C": "真摯に積み重ねた",
+      "D": "本人の"
+    },
+    "originalBlindAnswer": "B",
+    "selectedText": "誰よりも",
+    "remappedBlindAnswer": "B",
+    "confidence": "HIGH",
+    "contentFingerprint": "9d9b7e984ed02f93bf13dac94714d363435061922b513a4a56d1945a8cddbe1f",
+    "reviewFingerprint": "9d9b7e984ed02f93bf13dac94714d363435061922b513a4a56d1945a8cddbe1f",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "前節「彼がこれほど短期間で大きな成果を上げられたのは、（A）」を受け、述語「努力の賜物だ」を修飾する名詞句は「本人の（D）誰よりも（B）真摯に積み重ねた（C）努力の賜物だ」となる。「積み重ねた」は「努力」を修飾する連体修飾節であり、「誰よりも」は「真摯に」を修飾する副詞。「本人の［誰よりも真摯に積み重ねた努力］」の語順（A-D-B-C）において、星の位置（3番目）はB「誰よりも」となる。",
+    "historicalLetterReference": [
+      "B"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M9_01",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "しかしながら",
+      "B": "それゆえに",
+      "C": "さらに",
+      "D": "すなわち"
+    },
+    "currentExamOptions": {
+      "A": "しかしながら",
+      "B": "それゆえに",
+      "C": "さらに",
+      "D": "すなわち"
+    },
+    "originalBlindAnswer": "A",
+    "selectedText": "しかしながら",
+    "remappedBlindAnswer": "A",
+    "confidence": "HIGH",
+    "contentFingerprint": "a3c6f70a928e5ae0a506199829ec191b7dc0344ec7df95bc03018d2c0cf754bf",
+    "reviewFingerprint": "a3c6f70a928e5ae0a506199829ec191b7dc0344ec7df95bc03018d2c0cf754bf",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "前文で在宅勤務の利点（通勤ストレス解放、時間の有効活用）を述べた後、後文で「自宅という私的な空間で長時間高い集中力を維持することは、決して容易ではない」と課題・困難を提示しているため、逆接の接続詞A「しかしながら」が文脈上唯一適切。B「それゆえに」は順接因果、C「さらに」は累加、D「すなわち」は同等換言であり文脈に合わない。",
+    "historicalLetterReference": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M9_02",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "にほかならない",
+      "B": "こそが求められる",
+      "C": "にすぎない",
+      "D": "わけがない"
+    },
+    "currentExamOptions": {
+      "A": "にほかならない",
+      "B": "こそが求められる",
+      "C": "にすぎない",
+      "D": "わけがない"
+    },
+    "originalBlindAnswer": "B",
+    "selectedText": "こそが求められる",
+    "remappedBlindAnswer": "B",
+    "confidence": "HIGH",
+    "contentFingerprint": "572189aaab6a1f75c38b8acb36f2b56ce59ee2c68d8b630cf63482b4d5c08ccd",
+    "reviewFingerprint": "572189aaab6a1f75c38b8acb36f2b56ce59ee2c68d8b630cf63482b4d5c08ccd",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "「気合で集中しようと力むのではなく、要因を物理的に遠ざける工夫（ 47 ）」という対比構造において、筆者が提言する真に必要な対策を強調するB「こそが求められる」が最も自然。A「にほかならない」は本質定義、C「にすぎない」は限定小評価、D「わけがない」は強い否定で不適切。",
+    "historicalLetterReference": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M9_03",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "ものの",
+      "B": "反面",
+      "C": "ことによって",
+      "D": "うえに"
+    },
+    "currentExamOptions": {
+      "A": "ものの",
+      "B": "反面",
+      "C": "ことによって",
+      "D": "うえに"
+    },
+    "originalBlindAnswer": "C",
+    "selectedText": "ことによって",
+    "remappedBlindAnswer": "C",
+    "confidence": "HIGH",
+    "contentFingerprint": "5f6d015958d5bcf04dacb678dffc9fd2e8927170d30d3f4298e2f060dd2f373b",
+    "reviewFingerprint": "5f6d015958d5bcf04dacb678dffc9fd2e8927170d30d3f4298e2f060dd2f373b",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "「一定時間集中したら意図的に小休止を挟む（手段・方法）」によって「持続的なパフォーマンスを発揮できるようになる（結果）」という因果・手段関係を示すため、C「ことによって」が文法・文脈上唯一適切。A「ものの（逆接）」、B「反面（対比）」、D「うえに（累加）」は文脈に適合しない。",
+    "historicalLetterReference": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M9_04",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "そのうえ",
+      "B": "それにもかかわらず",
+      "C": "したがって",
+      "D": "それにひきかえ"
+    },
+    "currentExamOptions": {
+      "A": "そのうえ",
+      "B": "それにもかかわらず",
+      "C": "したがって",
+      "D": "それにひきかえ"
+    },
+    "originalBlindAnswer": "B",
+    "selectedText": "それにもかかわらず",
+    "remappedBlindAnswer": "B",
+    "confidence": "HIGH",
+    "contentFingerprint": "e9d73a6c3762a7e421d22b1e6926d26c891d7b0275327b0717bd2877c360cf4f",
+    "reviewFingerprint": "e9d73a6c3762a7e421d22b1e6926d26c891d7b0275327b0717bd2877c360cf4f",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "前文の「一見すると効率的に見えるかもしれない」という譲歩表現を受け、現実はそれと異なり集中力低下やミスを招くという逆接事実を導く接続詞としてB「それにもかかわらず（にもかかわらず）」が最も自然。A「そのうえ（累加）」、C「したがって（順接結語）」、D「それにひきかえ（対比）」は文脈不適。",
+    "historicalLetterReference": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M9_05",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "言えるのではないだろうか",
+      "B": "言うまでもないことだ",
+      "C": "言うはずがない",
+      "D": "言わざるを得ないのだ"
+    },
+    "currentExamOptions": {
+      "A": "言えるのではないだろうか",
+      "B": "言うまでもないことだ",
+      "C": "言うはずがない",
+      "D": "言わざるを得ないのだ"
+    },
+    "originalBlindAnswer": "A",
+    "selectedText": "言えるのではないだろうか",
+    "remappedBlindAnswer": "A",
+    "confidence": "HIGH",
+    "contentFingerprint": "f13bec8da367b570426b8433bb388fc48483e7e5dc5d703b1d47ae4fa140b071",
+    "reviewFingerprint": "f13bec8da367b570426b8433bb388fc48483e7e5dc5d703b1d47ae4fa140b071",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "「〜規律を身につけることこそが、豊かな職業人生を実現するための必須要件と（ 50 ）」という文章全体のまとめにおいて、筆者の意見・主張を控えめかつ説得的に読者に投げかける結び表現「〜と言えるのではないだろうか」が最も自然。B「言うまでもないことだ」は文意が強引、C「言うはずがない」は全否定、D「言わざるを得ないのだ」は消極的・不本意な断定で不適切。",
+    "historicalLetterReference": [
+      "B",
+      "C",
+      "D"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M10_01",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "相手の話を途中で遮らず、背景にある心情まで深く受け止めること。",
+      "B": "相手の抱える問題に対して、即座に的確な解決アドバイスを与えること。",
+      "C": "自分の意見や主張を論理的かつ説得力豊かに相手に伝えること。",
+      "D": "言葉の表現方法を磨き、表面的な会話をスムーズに進めること。"
+    },
+    "currentExamOptions": {
+      "A": "相手の話を途中で遮らず、背景にある心情まで深く受け止めること。",
+      "B": "相手の抱える問題に対して、即座に的確な解決アドバイスを与えること。",
+      "C": "自分の意見や主張を論理的かつ説得力豊かに相手に伝えること。",
+      "D": "言葉の表現方法を磨き、表面的な会話をスムーズに進めること。"
+    },
+    "originalBlindAnswer": "A",
+    "selectedText": "相手の話を途中で遮らず、背景にある心情まで深く受け止めること。",
+    "remappedBlindAnswer": "A",
+    "confidence": "HIGH",
+    "contentFingerprint": "8c97659e33dae884b0e8c05fefd5e2d75c10e64dc0fff525adde949eabe1f5e4",
+    "reviewFingerprint": "8c97659e33dae884b0e8c05fefd5e2d75c10e64dc0fff525adde949eabe1f5e4",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "本文中に「真に信頼関係を築くために不可欠なのは『聴く力』である」「相手の言葉の表面だけをなぞるのではなく、その発言の背景にある懸念や熱意にまで耳を傾ける姿勢」「まずは相手の話を遮らずに最後まで受け止めること」と明記されており、Aが完全に合致する。",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M10_02",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "都市の観光価値を高めるための景観美化が最大の目的である。",
+      "B": "住民のストレスを軽減し、健康維持に寄与する予防医療的な価値を持つ。",
+      "C": "コンクリート建造物の建設コストを削減するための代替策である。",
+      "D": "自然環境の完全な保護のために、人間が立ち入れない区域にすべきである。"
+    },
+    "currentExamOptions": {
+      "A": "都市の観光価値を高めるための景観美化が最大の目的である。",
+      "B": "住民のストレスを軽減し、健康維持に寄与する予防医療的な価値を持つ。",
+      "C": "コンクリート建造物の建設コストを削減するための代替策である。",
+      "D": "自然環境の完全な保護のために、人間が立ち入れない区域にすべきである。"
+    },
+    "originalBlindAnswer": "B",
+    "selectedText": "住民のストレスを軽減し、健康維持に寄与する予防医療的な価値を持つ。",
+    "remappedBlindAnswer": "B",
+    "confidence": "HIGH",
+    "contentFingerprint": "b9847e056c276ab209a3adc81067cd5d604a63699db5cda1235bedf03711e225",
+    "reviewFingerprint": "b9847e056c276ab209a3adc81067cd5d604a63699db5cda1235bedf03711e225",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "本文中に「日常的に樹木や水辺に触れる生活環境は、ストレスホルモンの分泌を有意に抑制し、住民の精神的な回復力を高める効果がある」「市民の健康維持における不可欠な予防医療の一環と位置づけられるべきである」と述べられており、B「住民のストレスを軽減し、健康維持に寄与する予防医療的な価値を持つ」が正解。",
+    "historicalLetterReference": [
+      "B"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M10_03",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "過去の技法をいささかも変更せずに完全に維持することだけが使命である。",
+      "B": "人々の生活様式に関わらず、伝統の本質的なデザインのみを守るべきだ。",
+      "C": "本質を受け継ぎながらも、現代の生活に調和する新しい用途やデザインを模索すべきだ。",
+      "D": "過去の伝統技法をすべて捨て去り、最新の工業技術に置き換えるべきだ。"
+    },
+    "currentExamOptions": {
+      "A": "過去の技法をいささかも変更せずに完全に維持することだけが使命である。",
+      "B": "人々の生活様式に関わらず、伝統の本質的なデザインのみを守るべきだ。",
+      "C": "本質を受け継ぎながらも、現代の生活に調和する新しい用途やデザインを模索すべきだ。",
+      "D": "過去の伝統技法をすべて捨て去り、最新の工業技術に置き換えるべきだ。"
+    },
+    "originalBlindAnswer": "C",
+    "selectedText": "本質を受け継ぎながらも、現代の生活に調和する新しい用途やデザインを模索すべきだ。",
+    "remappedBlindAnswer": "C",
+    "confidence": "HIGH",
+    "contentFingerprint": "25aae2a826d7f09669fb46dbae3d3c162127e19562f936001d417fcca9b6722c",
+    "reviewFingerprint": "25aae2a826d7f09669fb46dbae3d3c162127e19562f936001d417fcca9b6722c",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "本文最終文に「本質的な精神を受け継ぎつつも、現代のライフスタイルに調和する新たなデザインや用途を果敢に模索する姿勢こそが、伝統を未来へと息づかせる」とあり、C「本質を受け継ぎながらも、現代の生活に調和する新しい用途やデザインを模索すべきだ」が筆者の主張と一致する。",
+    "historicalLetterReference": [
+      "C"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M10_04",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "プロジェクト終了後すぐにすべての業務データがストレージから削除される。",
+      "B": "社外秘文書を外部と共有する際は、個人の判断で自由に送信してよい。",
+      "C": "来月1日以降も、すべてのデータは無期限に個人領域で保管できる。",
+      "D": "プロジェクト終了から1年を経過したファイルは専用領域へ自動的に移行される。"
+    },
+    "currentExamOptions": {
+      "A": "プロジェクト終了後すぐにすべての業務データがストレージから削除される。",
+      "B": "社外秘文書を外部と共有する際は、個人の判断で自由に送信してよい。",
+      "C": "来月1日以降も、すべてのデータは無期限に個人領域で保管できる。",
+      "D": "プロジェクト終了から1年を経過したファイルは専用領域へ自動的に移行される。"
+    },
+    "originalBlindAnswer": "D",
+    "selectedText": "プロジェクト終了から1年を経過したファイルは専用領域へ自動的に移行される。",
+    "remappedBlindAnswer": "D",
+    "confidence": "HIGH",
+    "contentFingerprint": "c2e35004a97d7939b16e07ee964366cbc990c169451b0bf77d8909ae0808fbcd",
+    "reviewFingerprint": "c2e35004a97d7939b16e07ee964366cbc990c169451b0bf77d8909ae0808fbcd",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "通知文に「プロジェクト終了から1年以上が経過したファイルについては、専用のアーカイブ領域へ自動移行されます」と明記されており、Dが完全に一致する。Aは「すぐ削除」、Bは「個人の判断で自由に送信」、Cは「無期限に保管できる」とあり、いずれも本文の記述に反する。",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M10_05",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "予期せぬ知識の結合を促し、柔軟で創造的な発想を生み出す土壌となる。",
+      "B": "専門的な深い知識の習得を妨げるため、極力避けるべき無駄な行為である。",
+      "C": "一つの専門書を最初から最後まで完全に理解するために不可欠な手法である。",
+      "D": "思考を硬直化させ、既存の知識を忘れさせてしまう危険な読書法である。"
+    },
+    "currentExamOptions": {
+      "A": "予期せぬ知識の結合を促し、柔軟で創造的な発想を生み出す土壌となる。",
+      "B": "専門的な深い知識の習得を妨げるため、極力避けるべき無駄な行為である。",
+      "C": "一つの専門書を最初から最後まで完全に理解するために不可欠な手法である。",
+      "D": "思考を硬直化させ、既存の知識を忘れさせてしまう危険な読書法である。"
+    },
+    "originalBlindAnswer": "A",
+    "selectedText": "予期せぬ知識の結合を促し、柔軟で創造的な発想を生み出す土壌となる。",
+    "remappedBlindAnswer": "A",
+    "confidence": "HIGH",
+    "contentFingerprint": "950c80da66c6e7a6e19fd923df75055f2d2a1adc52a283c4a245e5ad9348a8f1",
+    "reviewFingerprint": "950c80da66c6e7a6e19fd923df75055f2d2a1adc52a283c4a245e5ad9348a8f1",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "本文中に「予期せぬ分野の知識や視点が、自分の中に蓄積されていた既存の概念と偶発的に結びつくことで、これまでにない斬新な着想が生まれる」「柔軟な創造力を育む豊かな土壌となる」とあり、A「予期せぬ知識の結合を促し、柔軟で創造的な発想を生み出す土壌となる」が正解。",
+    "historicalLetterReference": [
+      "A"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M11_01",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "独自の感情や意志を持ち、社会への熱い情熱に基づいて表現している。",
+      "B": "過去の膨大な学習データから統計的な確率計算によって出力を組み立てている。",
+      "C": "人間の葛藤や切実な体験を身体的に模倣して作品を創り出している。",
+      "D": "既存の枠組みを完全に無視し、全く新しい概念をゼロから生み出している。"
+    },
+    "currentExamOptions": {
+      "A": "独自の感情や意志を持ち、社会への熱い情熱に基づいて表現している。",
+      "B": "過去の膨大な学習データから統計的な確率計算によって出力を組み立てている。",
+      "C": "人間の葛藤や切実な体験を身体的に模倣して作品を創り出している。",
+      "D": "既存の枠組みを完全に無視し、全く新しい概念をゼロから生み出している。"
+    },
+    "originalBlindAnswer": "B",
+    "selectedText": "過去の膨大な学習データから統計的な確率計算によって出力を組み立てている。",
+    "remappedBlindAnswer": "B",
+    "confidence": "HIGH",
+    "contentFingerprint": "1779cd872d2a7e8c64c3e71e422b581018b80729e90a14384a73ec0fe9b8b584",
+    "reviewFingerprint": "1779cd872d2a7e8c64c3e71e422b581018b80729e90a14384a73ec0fe9b8b584",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "第2段落に「それらが過去の膨大な学習データに基づき、統計的な確率計算によって最も調和のとれた組み合わせを出力しているにすぎない」と明記されており、Bが完全に一致する。",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M11_02",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "膨大な情報を短時間で処理し、ミスのない完璧な成果物を提示する能力。",
+      "B": "高度なプログラミング技術を駆使して、最新のデジタルツールを操作する力。",
+      "C": "生身の身体で経験する悲しみや喜びといった個人的な葛藤や切実な感情の揺らぎ。",
+      "D": "過去のあらゆる芸術作品の様式を正確に記憶し、忠実に再現する技術。"
+    },
+    "currentExamOptions": {
+      "A": "膨大な情報を短時間で処理し、ミスのない完璧な成果物を提示する能力。",
+      "B": "高度なプログラミング技術を駆使して、最新のデジタルツールを操作する力。",
+      "C": "生身の身体で経験する悲しみや喜びといった個人的な葛藤や切実な感情の揺らぎ。",
+      "D": "過去のあらゆる芸術作品の様式を正確に記憶し、忠実に再現する技術。"
+    },
+    "originalBlindAnswer": "C",
+    "selectedText": "生身の身体で経験する悲しみや喜びといった個人的な葛藤や切実な感情の揺らぎ。",
+    "remappedBlindAnswer": "C",
+    "confidence": "HIGH",
+    "contentFingerprint": "a2bae9cb3fb09a259837e71703e35f49146133f95919e827706708459099bd58",
+    "reviewFingerprint": "a2bae9cb3fb09a259837e71703e35f49146133f95919e827706708459099bd58",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "第3段落に「人間の創造性の根源には、常に個人的な『葛藤』や『切実な経験』が存在する。理不尽な現実に直面したときの悲しみや、誰かと深く通じ合えたときの喜びといった生々しい感情の揺らぎこそが、これまでにない独自の視点や表現を生み出す原動力となるのだ」とあり、Cが合致する。",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M11_03",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "AIの利用を完全に禁止し、すべての創作活動を手作業に戻すこと。",
+      "B": "人間の仕事が失われる現実に諦めをつけ、AIの指示に全面的に従うこと。",
+      "C": "AIよりも速く正確に文章や楽曲を完成させるスピード競争に勝つこと。",
+      "D": "AIを思考の補助ツールとし、人間にしかできない問いを立てる力や感性を磨くこと。"
+    },
+    "currentExamOptions": {
+      "A": "AIの利用を完全に禁止し、すべての創作活動を手作業に戻すこと。",
+      "B": "人間の仕事が失われる現実に諦めをつけ、AIの指示に全面的に従うこと。",
+      "C": "AIよりも速く正確に文章や楽曲を完成させるスピード競争に勝つこと。",
+      "D": "AIを思考の補助ツールとし、人間にしかできない問いを立てる力や感性を磨くこと。"
+    },
+    "originalBlindAnswer": "D",
+    "selectedText": "AIを思考の補助ツールとし、人間にしかできない問いを立てる力や感性を磨くこと。",
+    "remappedBlindAnswer": "D",
+    "confidence": "HIGH",
+    "contentFingerprint": "3e4d30e12c2d25c3f7c349effea74b1cd76d79375ff9cafbb48709bbdd42c879",
+    "reviewFingerprint": "3e4d30e12c2d25c3f7c349effea74b1cd76d79375ff9cafbb48709bbdd42c879",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "第4段落に「AIを思考の補助ツールとして活用しながら、人間にしか持ち得ない問いを立てる力や、意味を紡ぎ出す感性をいかに磨くかこそが、これからの時代に問われているのである」とあり、Dが筆者の提案と完全に一致する。",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M11_04",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "工場誘致や観光開発などの外的資本依存は、景気変動に弱く自立に結びつきにくかった。",
+      "B": "地域の特産品や古民家の価値を過剰に宣伝しすぎたため、住民の負担が増えた。",
+      "C": "都市部からの移住者を過度に優遇したため、元からの住民が全員流出してしまった。",
+      "D": "自然環境の保護を最優先にしすぎた結果、産業開発が全く行われなかった。"
+    },
+    "currentExamOptions": {
+      "A": "工場誘致や観光開発などの外的資本依存は、景気変動に弱く自立に結びつきにくかった。",
+      "B": "地域の特産品や古民家の価値を過剰に宣伝しすぎたため、住民の負担が増えた。",
+      "C": "都市部からの移住者を過度に優遇したため、元からの住民が全員流出してしまった。",
+      "D": "自然環境の保護を最優先にしすぎた結果、産業開発が全く行われなかった。"
+    },
+    "originalBlindAnswer": "A",
+    "selectedText": "工場誘致や観光開発などの外的資本依存は、景気変動に弱く自立に結びつきにくかった。",
+    "remappedBlindAnswer": "A",
+    "confidence": "HIGH",
+    "contentFingerprint": "0b537b9a6b7a4ba68870347718af13c061e791a0cf082ed6277d509a578f5a23",
+    "reviewFingerprint": "0b537b9a6b7a4ba68870347718af13c061e791a0cf082ed6277d509a578f5a23",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "第1段落に「工場の誘致や大規模な観光開発など、外的な資本に依存した地域振興策が主流であった。しかし、そうした手法の多くは景気の変動に弱く、持続的な地域社会の自立には結びつきにくかった」と明記されており、Aが完全に一致する。",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M11_05",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "都市部の大企業を誘致して、巨大な工場団地を次々と建設している。",
+      "B": "古民家カフェや特産品ビジネスを通じ、見落とされていた地域の潜在的価値を再発見している。",
+      "C": "地域の伝統行事や昔からのルールをすべて廃止し、都市型の生活様式を強制している。",
+      "D": "物質的な豊かさのみを追い求め、利便性の高い高層マンションを建設している。"
+    },
+    "currentExamOptions": {
+      "A": "都市部の大企業を誘致して、巨大な工場団地を次々と建設している。",
+      "B": "古民家カフェや特産品ビジネスを通じ、見落とされていた地域の潜在的価値を再発見している。",
+      "C": "地域の伝統行事や昔からのルールをすべて廃止し、都市型の生活様式を強制している。",
+      "D": "物質的な豊かさのみを追い求め、利便性の高い高層マンションを建設している。"
+    },
+    "originalBlindAnswer": "B",
+    "selectedText": "古民家カフェや特産品ビジネスを通じ、見落とされていた地域の潜在的価値を再発見している。",
+    "remappedBlindAnswer": "B",
+    "confidence": "HIGH",
+    "contentFingerprint": "a27773569eb56d4cde0a7c203b0b60b312bf11a741f55630d35285d7c69cebaa",
+    "reviewFingerprint": "a27773569eb56d4cde0a7c203b0b60b312bf11a741f55630d35285d7c69cebaa",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "第2段落に「彼らは古民家を活用したカフェの開業や、地域の特産品を生かした独自ビジネスなど、従来の住民には見落とされていた地域の潜在的価値を再発見し、新たな活力を吹き込んでいる」と明記されており、Bが正解。",
+    "historicalLetterReference": [
+      "B"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M11_06",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "新参者の意見だけを全面的に採用し、古くからの伝統はすべて過去のものとして捨てること。",
+      "B": "外部からの移住を制限し、昔から住んでいる住民だけの閉じた関係を維持すること。",
+      "C": "新旧の住民が互いを尊重し、伝統を守りつつも対話を重ねて歩み寄ること。",
+      "D": "国の補助金に頼り切って、住民同士の直接的なコミュニケーションを減らすこと。"
+    },
+    "currentExamOptions": {
+      "A": "新参者の意見だけを全面的に採用し、古くからの伝統はすべて過去のものとして捨てること。",
+      "B": "外部からの移住を制限し、昔から住んでいる住民だけの閉じた関係を維持すること。",
+      "C": "新旧の住民が互いを尊重し、伝統を守りつつも対話を重ねて歩み寄ること。",
+      "D": "国の補助金に頼り切って、住民同士の直接的なコミュニケーションを減らすこと。"
+    },
+    "originalBlindAnswer": "C",
+    "selectedText": "新旧の住民が互いを尊重し、伝統を守りつつも対話を重ねて歩み寄ること。",
+    "remappedBlindAnswer": "C",
+    "confidence": "HIGH",
+    "contentFingerprint": "e3f8938c2079573323614f273cbf4f501beda01c1ee5f2b31291b660610f838c",
+    "reviewFingerprint": "e3f8938c2079573323614f273cbf4f501beda01c1ee5f2b31291b660610f838c",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "第3段落に「新参者の斬新なアイデアを受け入れつつも、地域に古くから伝わる伝統行事や共同体維持のためのルールを軽視してはならない。双方が歩み寄り、世代や出身地を超えた対話を重ねることで初めて…新しい地域共同体が育まれる」とあり、Cが正解。",
+    "historicalLetterReference": [
+      "C"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M11_07",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "キーボードよりも速くタイピングできるため、一言一句漏らさず正確に記録できるから。",
+      "B": "パソコンの画面を見つめ続けることによる視覚的な疲労を完全に防げるから。",
+      "C": "文字の美しさばかりに意識が向くため、他の余計な雑念を排除できるから。",
+      "D": "話された内容を頭の中で自然と要約し、自分の言葉に咀嚼して配置する処理が行われるから。"
+    },
+    "currentExamOptions": {
+      "A": "キーボードよりも速くタイピングできるため、一言一句漏らさず正確に記録できるから。",
+      "B": "パソコンの画面を見つめ続けることによる視覚的な疲労を完全に防げるから。",
+      "C": "文字の美しさばかりに意識が向くため、他の余計な雑念を排除できるから。",
+      "D": "話された内容を頭の中で自然と要約し、自分の言葉に咀嚼して配置する処理が行われるから。"
+    },
+    "originalBlindAnswer": "D",
+    "selectedText": "話された内容を頭の中で自然と要約し、自分の言葉に咀嚼して配置する処理が行われるから。",
+    "remappedBlindAnswer": "D",
+    "confidence": "HIGH",
+    "contentFingerprint": "110d549cfd98665c36e077833ed0fc3070e68c97554e5bbe8c09b6dbc68be093",
+    "reviewFingerprint": "110d549cfd98665c36e077833ed0fc3070e68c97554e5bbe8c09b6dbc68be093",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "第2段落に「手書きの場合、話された言葉を一言一句そのまま記録することは不可能なため、人間は自然と耳に入った情報を頭の中で要約し、自分の言葉に咀嚼して紙の上に配置するという高度な情報処理を無意識に行っているからである」と理由が明記されており、Dが完全に一致する。",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M11_08",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "書き手の感情や呼吸、迷いといった身体性の痕跡がそのまま文字に宿るから。",
+      "B": "活字メールよりもインクの匂いや紙の質感が高級感を漂わせるから。",
+      "C": "手紙は郵送に日数がかかるため、待つ時間の長さが相手への愛着を高めるから。",
+      "D": "手書きの手紙には一切の誤字や脱字が含まれないという信頼感があるから。"
+    },
+    "currentExamOptions": {
+      "A": "書き手の感情や呼吸、迷いといった身体性の痕跡がそのまま文字に宿るから。",
+      "B": "活字メールよりもインクの匂いや紙の質感が高級感を漂わせるから。",
+      "C": "手紙は郵送に日数がかかるため、待つ時間の長さが相手への愛着を高めるから。",
+      "D": "手書きの手紙には一切の誤字や脱字が含まれないという信頼感があるから。"
+    },
+    "originalBlindAnswer": "A",
+    "selectedText": "書き手の感情や呼吸、迷いといった身体性の痕跡がそのまま文字に宿るから。",
+    "remappedBlindAnswer": "A",
+    "confidence": "HIGH",
+    "contentFingerprint": "f942dcd8ad58cbcaf3c30a178456b491465c4f8d7ceacd917317e8bc87c4c8f4",
+    "reviewFingerprint": "f942dcd8ad58cbcaf3c30a178456b491465c4f8d7ceacd917317e8bc87c4c8f4",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "第3段落に「手書きの文字には書き手のその時々の感情や呼吸、迷いといった身体性がそのまま痕跡として刻まれる。手紙を受け取った人が…温もりや親近感を覚えるのは、まさにそこに書き手の存在そのものが宿っているからに他ならない」とあり、Aが正解。",
+    "historicalLetterReference": [
+      "A"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M11_09",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "デジタル端末での文字入力を一切やめ、すべてのビジネス業務を手書きに戻すべきだ。",
+      "B": "効率と即時性が優先される今こそ、思考を深め心を込める手書きの価値を再評価すべきだ。",
+      "C": "キーボードのタイピング速度を上げることこそが、現代人の知的能力を高める唯一の道だ。",
+      "D": "手紙を書く習慣が廃れた原因は、若者の国語力低下にあるため学校教育を改革すべきだ。"
+    },
+    "currentExamOptions": {
+      "A": "デジタル端末での文字入力を一切やめ、すべてのビジネス業務を手書きに戻すべきだ。",
+      "B": "効率と即時性が優先される今こそ、思考を深め心を込める手書きの価値を再評価すべきだ。",
+      "C": "キーボードのタイピング速度を上げることこそが、現代人の知的能力を高める唯一の道だ。",
+      "D": "手紙を書く習慣が廃れた原因は、若者の国語力低下にあるため学校教育を改革すべきだ。"
+    },
+    "originalBlindAnswer": "B",
+    "selectedText": "効率と即時性が優先される今こそ、思考を深め心を込める手書きの価値を再評価すべきだ。",
+    "remappedBlindAnswer": "B",
+    "confidence": "HIGH",
+    "contentFingerprint": "3eca8c8d7d7d5c6c1ba8347180041860140e89320fe793556eb01902094f4350",
+    "reviewFingerprint": "3eca8c8d7d7d5c6c1ba8347180041860140e89320fe793556eb01902094f4350",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "最終文において「効率性と即時性が至上命題とされるデジタル社会だからこそ、立ち止まって思考を深め、心を込めて文字を綴る手書きの価値を再評価すべき時が来ているのではないだろうか」と筆者の結論的主張が述べられており、Bが合致する。",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M12_01",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "AもBも、組織の意思決定スピードを遅らせる原因になると批判している。",
+      "B": "AもBも、社員のメンタルヘルスを向上させる決定打になると評価している。",
+      "C": "Aは情報共有の迅速化と競争力強化を評価し、Bは思考の断片化や休養阻害の弊害を懸念している。",
+      "D": "Aは社外秘情報の漏洩リスクを警告し、Bは部署間のコミュニケーション活性化を称賛している。"
+    },
+    "currentExamOptions": {
+      "A": "AもBも、組織の意思決定スピードを遅らせる原因になると批判している。",
+      "B": "AもBも、社員のメンタルヘルスを向上させる決定打になると評価している。",
+      "C": "Aは情報共有の迅速化と競争力強化を評価し、Bは思考の断片化や休養阻害の弊害を懸念している。",
+      "D": "Aは社外秘情報の漏洩リスクを警告し、Bは部署間のコミュニケーション活性化を称賛している。"
+    },
+    "originalBlindAnswer": "C",
+    "selectedText": "Aは情報共有の迅速化と競争力強化を評価し、Bは思考の断片化や休養阻害の弊害を懸念している。",
+    "remappedBlindAnswer": "C",
+    "confidence": "HIGH",
+    "contentFingerprint": "4baa8bcd131525345b6bde2d6bede15a1caad46eb7fd0a2de3c0e7dc255a0716",
+    "reviewFingerprint": "4baa8bcd131525345b6bde2d6bede15a1caad46eb7fd0a2de3c0e7dc255a0716",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "Aは「迅速な情報共有と即時レスポンスが可能」「競争優位の源泉」としてチャットを肯定的に評価している。一方、Bは「認知的断片化を強いる」「ディープワークの時間は奪われ」「心理的デタッチメントを阻害する」として弊害を懸念している。両者の対比を正確に捉えているのはCである。",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M12_02",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "Aは即レスを避けるべきだとし、Bは全社員に24時間即レスを義務付けるべきだと主張している。",
+      "B": "Aは休日の即レスだけを禁止すべきとし、Bは勤務時間中のみ即レスを徹底すべきだとしている。",
+      "C": "Aは対面での会話を最優先すべきとし、Bはメールのみを正式な連絡手段と認めるべきだとしている。",
+      "D": "Aは即応性が競争優位を生むと肯定的に捉え、Bは即レスを求めずオフラインで集中する時間を保障すべきと主張している。"
+    },
+    "currentExamOptions": {
+      "A": "Aは即レスを避けるべきだとし、Bは全社員に24時間即レスを義務付けるべきだと主張している。",
+      "B": "Aは休日の即レスだけを禁止すべきとし、Bは勤務時間中のみ即レスを徹底すべきだとしている。",
+      "C": "Aは対面での会話を最優先すべきとし、Bはメールのみを正式な連絡手段と認めるべきだとしている。",
+      "D": "Aは即応性が競争優位を生むと肯定的に捉え、Bは即レスを求めずオフラインで集中する時間を保障すべきと主張している。"
+    },
+    "originalBlindAnswer": "D",
+    "selectedText": "Aは即応性が競争優位を生むと肯定的に捉え、Bは即レスを求めずオフラインで集中する時間を保障すべきと主張している。",
+    "remappedBlindAnswer": "D",
+    "confidence": "HIGH",
+    "contentFingerprint": "f72c3cb988ff632e31b6f9d9978dabf4563e2e0e665691ddaebe02331720955d",
+    "reviewFingerprint": "f72c3cb988ff632e31b6f9d9978dabf4563e2e0e665691ddaebe02331720955d",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "即時レスポンスに関して、Aは「即時レスポンスが可能となる…リアルタイムなコミュニケーション基盤の構築こそが、競争優位の源泉となる」と肯定的に捉えているのに対し、Bは「あえて『即レス』を求めず、オフラインで集中できる時間を制度として保障することこそが急務である」と主張している。この相違点を的確に表したDが正解。",
+    "historicalLetterReference": [
+      "D"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M13_01",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "要点だけを取り出すことで、心を揺さぶる表現の豊かさや本来の価値を失っている。",
+      "B": "情報過多の時代を生き抜くために、すべての人が身につけるべき合理的で優れた手法である。",
+      "C": "芸術作品を鑑賞するための時間を節約し、より多くの作品に出会える画期的な進化である。",
+      "D": "若者の知的能力を著しく高め、論理的思考力を養うために最適な学習法である。"
+    },
+    "currentExamOptions": {
+      "A": "要点だけを取り出すことで、心を揺さぶる表現の豊かさや本来の価値を失っている。",
+      "B": "情報過多の時代を生き抜くために、すべての人が身につけるべき合理的で優れた手法である。",
+      "C": "芸術作品を鑑賞するための時間を節約し、より多くの作品に出会える画期的な進化である。",
+      "D": "若者の知的能力を著しく高め、論理的思考力を養うために最適な学習法である。"
+    },
+    "originalBlindAnswer": "A",
+    "selectedText": "要点だけを取り出すことで、心を揺さぶる表現の豊かさや本来の価値を失っている。",
+    "remappedBlindAnswer": "A",
+    "confidence": "HIGH",
+    "contentFingerprint": "c4bf3346d19d0c35ea5ad5b0a9d61cc7e1f4bd05a4edc9725a8a5989895dc9e3",
+    "reviewFingerprint": "c4bf3346d19d0c35ea5ad5b0a9d61cc7e1f4bd05a4edc9725a8a5989895dc9e3",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "第2段落に「それらを『要点ではない』と切り落として骨組みだけを取り出したとき、私たちが受け取っているのは単なる抽象的な情報であって、もはや心を揺さぶる『芸術』や『物語』ではない」と述べられており、A「要点だけを取り出すことで、心を揺さぶる表現の豊かさや本来の価値を失っている」が筆者の認識と合致する。",
+    "historicalLetterReference": [
+      "A"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M13_02",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "スマートフォンの通信料金が高騰し、家計を圧迫すること。",
+      "B": "沈黙や退屈と向き合って思考を熟成させることができず、世間の意見に流されやすくなること。",
+      "C": "視力の低下や睡眠障害を引き起こし、身体の健康を損なうこと。",
+      "D": "情報処理速度が速くなりすぎて、他者との日常的な会話がかみ合わなくなること。"
+    },
+    "currentExamOptions": {
+      "A": "スマートフォンの通信料金が高騰し、家計を圧迫すること。",
+      "B": "沈黙や退屈と向き合って思考を熟成させることができず、世間の意見に流されやすくなること。",
+      "C": "視力の低下や睡眠障害を引き起こし、身体の健康を損なうこと。",
+      "D": "情報処理速度が速くなりすぎて、他者との日常的な会話がかみ合わなくなること。"
+    },
+    "originalBlindAnswer": "B",
+    "selectedText": "沈黙や退屈と向き合って思考を熟成させることができず、世間の意見に流されやすくなること。",
+    "remappedBlindAnswer": "B",
+    "confidence": "HIGH",
+    "contentFingerprint": "c41c06a37ebf29d34895917ca233bcd239b921aa7452270a41283130fa276654",
+    "reviewFingerprint": "c41c06a37ebf29d34895917ca233bcd239b921aa7452270a41283130fa276654",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "第3段落に「退屈や沈黙と向き合い、あてもなく物思いに耽る『ゆとりの時間』こそが、自分自身の内面を見つめ直し、独自の思想や価値観を醸成するために不可欠なプロセスである。外部からの刺激を遮断し、思考をじっくりと熟成させる時間を持てない人間は、他者の意見や世間の流行に流されやすい脆さを抱えることになる」と懸念が明記されており、Bが正解。",
+    "historicalLetterReference": [
+      "B"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M13_03",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "現代の科学技術や社会システムを全否定し、原始的な自給自足の生活に戻るべきだ。",
+      "B": "効率化を人生の自己目的とせず、あえて無駄や非効率な時間を受け入れる勇気を持つべきだ。",
+      "C": "あらゆる娯楽や芸術を排除し、最短距離で社会的成功を収めることに集中すべきだ。",
+      "D": "他者の意見を完全に無視し、自分の直感だけを信じて生きるべきだ。"
+    },
+    "currentExamOptions": {
+      "A": "現代の科学技術や社会システムを全否定し、原始的な自給自足の生活に戻るべきだ。",
+      "B": "効率化を人生の自己目的とせず、あえて無駄や非効率な時間を受け入れる勇気を持つべきだ。",
+      "C": "あらゆる娯楽や芸術を排除し、最短距離で社会的成功を収めることに集中すべきだ。",
+      "D": "他者の意見を完全に無視し、自分の直感だけを信じて生きるべきだ。"
+    },
+    "originalBlindAnswer": "B",
+    "selectedText": "効率化を人生の自己目的とせず、あえて無駄や非効率な時間を受け入れる勇気を持つべきだ。",
+    "remappedBlindAnswer": "B",
+    "confidence": "HIGH",
+    "contentFingerprint": "d18c4d0f8f2a30481be3b1584ed468a0aae766a54714ef9a5b1b3ec987c088cd",
+    "reviewFingerprint": "d18c4d0f8f2a30481be3b1584ed468a0aae766a54714ef9a5b1b3ec987c088cd",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "第4段落に「効率化はあくまでも人生を豊かに生きるための『手段』であって、『目的』そのものではないはずだ」「合理性の檻から一歩踏み出し、あえて『無駄』や『非効率』に身を浸す勇気を持つことこそが、私たちが人間らしさを取り戻すための第一歩なのである」と結論が述べられており、Bが完全に合致する。",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M14_01",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "1,500円",
+      "B": "3,000円",
+      "C": "2,800円",
+      "D": "1,050円"
+    },
+    "currentExamOptions": {
+      "A": "1,500円",
+      "B": "3,000円",
+      "C": "2,800円",
+      "D": "1,050円"
+    },
+    "originalBlindAnswer": "D",
+    "selectedText": "1,050円",
+    "remappedBlindAnswer": "D",
+    "confidence": "HIGH",
+    "contentFingerprint": "363a73f016242230204e11d69ef8a4305253ff0c75ab066769b4adf4ef984074",
+    "reviewFingerprint": "363a73f016242230204e11d69ef8a4305253ff0c75ab066769b4adf4ef984074",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "計算：①第1会議室の基本料金は1区分「1,500円」。②「市内在住・在勤者で構成される非営利団体は、上記料金の30%割引が適用されます」とあるため、割引額は 1,500円 × 30% ＝ 450円。したがって利用料金は 1,500円 − 450円 ＝ 1,050円。Dが正解。",
+    "historicalLetterReference": [
+      "D"
+    ],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M14_02",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "利用日の10日前に予約をキャンセルした場合、利用料金の半額（50%）が返金される。",
+      "B": "市外に在住する一般利用者は、利用日の3か月前から予約を申し込むことができる。",
+      "C": "午前の区分を利用した後、そのまま12:00〜13:00の間も会議室に残って飲食できる。",
+      "D": "有料セミナーを開催する営利利用であっても、非営利団体と同じ通常料金で利用できる。"
+    },
+    "currentExamOptions": {
+      "A": "利用日の10日前に予約をキャンセルした場合、利用料金の半額（50%）が返金される。",
+      "B": "市外に在住する一般利用者は、利用日の3か月前から予約を申し込むことができる。",
+      "C": "午前の区分を利用した後、そのまま12:00〜13:00の間も会議室に残って飲食できる。",
+      "D": "有料セミナーを開催する営利利用であっても、非営利団体と同じ通常料金で利用できる。"
+    },
+    "originalBlindAnswer": "A",
+    "selectedText": "利用日の10日前に予約をキャンセルした場合、利用料金の半額（50%）が返金される。",
+    "remappedBlindAnswer": "A",
+    "confidence": "HIGH",
+    "contentFingerprint": "fd5adf7a7c39d76bdf2d109ae9fec3543adcce59d2e0d02f61163294511325f4",
+    "reviewFingerprint": "fd5adf7a7c39d76bdf2d109ae9fec3543adcce59d2e0d02f61163294511325f4",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "案内規約の検証：キャンセル規定において「利用日の14日前までのキャンセル：全額（100%）返金」「利用日の3日前までのキャンセル：半額（50%）返金」と定められている。「10日前」は14日前を経過し3日前までに該当するため、半額（50%）が返金される。したがってAが正しい。Bは1か月前受付なので誤り、Cは換気時間で入室不可なので誤り、Dは営利利用が2倍料金なので誤り。",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M1_L01",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "スライド全体のデザインレイアウトを修正する。",
+      "B": "質疑応答用の補足資料を印刷して用意する。",
+      "C": "15ページの市場シェアのグラフを最新データに更新する。",
+      "D": "取引先へ提出する新商品の見積書を作成する。"
+    },
+    "currentExamOptions": {
+      "A": "スライド全体のデザインレイアウトを修正する。",
+      "B": "質疑応答用の補足資料を印刷して用意する。",
+      "C": "15ページの市場シェアのグラフを最新データに更新する。",
+      "D": "取引先へ提出する新商品の見積書を作成する。"
+    },
+    "originalBlindAnswer": "C",
+    "selectedText": "15ページの市場シェアのグラフを最新データに更新する。",
+    "remappedBlindAnswer": "C",
+    "confidence": "HIGH",
+    "contentFingerprint": "f3dbd0f5926fd3d1c071ceb2e2f70fa3223e0b419bcc25428c85261a9f4b30c6",
+    "reviewFingerprint": "f3dbd0f5926fd3d1c071ceb2e2f70fa3223e0b419bcc25428c85261a9f4b30c6",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "The manager explicitly points out that the market share graph on page 15 contains outdated data from the year before last and commands: '何よりも先にこの数値を最新のものに更新してグラフを作り直してくれ' (Before anything else, update this figure to the latest data and remake the graph). The female employee acknowledges and confirms she will update the graph immediately. Printing the QA handouts is explicitly deferred until after the graph revision.",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M1_L02",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "厨房へ行って団体40名分の夕食が用意できるか確認する。",
+      "B": "フロントで宿泊者名簿を印刷し、鍵を仕分ける。",
+      "C": "東館の和室の空き状況をシステムで検索する。",
+      "D": "到着した修学旅行生の荷物を部屋へ運ぶ。"
+    },
+    "currentExamOptions": {
+      "A": "厨房へ行って団体40名分の夕食が用意できるか確認する。",
+      "B": "フロントで宿泊者名簿を印刷し、鍵を仕分ける。",
+      "C": "東館の和室の空き状況をシステムで検索する。",
+      "D": "到着した修学旅行生の荷物を部屋へ運ぶ。"
+    },
+    "originalBlindAnswer": "A",
+    "selectedText": "厨房へ行って団体40名分の夕食が用意できるか確認する。",
+    "remappedBlindAnswer": "A",
+    "confidence": "HIGH",
+    "contentFingerprint": "11dd66c11b73c2a3195c14b8dd1a0f590131626e55e60be21b834f18426da061",
+    "reviewFingerprint": "11dd66c11b73c2a3195c14b8dd1a0f590131626e55e60be21b834f18426da061",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "The female manager explains that rooms for the 40 high school students are already secured, but dinner preparation is urgent, instructing the male staff: '厨房に掛け合って、40名分の食事を夜7時までに用意できるか大至急確認してきて' (Go negotiate with the kitchen immediately to confirm whether dinner for 40 can be prepared by 7 PM). The male staff acknowledges and runs to the kitchen. Guest registration and key sorting are handled by the manager herself.",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M1_L03",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "実験室内の消火器の有効期限を点検する。",
+      "B": "薬品管理台帳と納品された薬品の在庫数を照合する。",
+      "C": "夕方までに実験台の上を整理整頓して片付ける。",
+      "D": "消防署へ提出する安全点検報告書を作成する。"
+    },
+    "currentExamOptions": {
+      "A": "実験室内の消火器の有効期限を点検する。",
+      "B": "薬品管理台帳と納品された薬品の在庫数を照合する。",
+      "C": "夕方までに実験台の上を整理整頓して片付ける。",
+      "D": "消防署へ提出する安全点検報告書を作成する。"
+    },
+    "originalBlindAnswer": "B",
+    "selectedText": "薬品管理台帳と納品された薬品の在庫数を照合する。",
+    "remappedBlindAnswer": "B",
+    "confidence": "HIGH",
+    "contentFingerprint": "7fc4ee309cdefc539f6116f31cfeb2067890bd54672b86ab41abf0e19cc5519e",
+    "reviewFingerprint": "7fc4ee309cdefc539f6116f31cfeb2067890bd54672b86ab41abf0e19cc5519e",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "The professor asks the student to prioritize cross-checking the delivery records of organic solvents with current inventory against the ledger: '先週納品された有機溶剤の受領記録と現在の在庫数が台帳と一致しているか、最優先で突合して確認してくれないか' and emphasizes '君はまず薬品台帳の整合性を完璧にしておいてくれ'. The student agrees to do so immediately. Fire extinguishers have already been checked by the professor, and cleaning the lab benches is scheduled for the evening with everyone.",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M1_L04",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "テントの設営業者に電話して日程を確認する。",
+      "B": "国際交流ブースの参加国旗の看板を組み立てる。",
+      "C": "倉庫からパンフレットを運び出し、正誤表シールを貼る。",
+      "D": "市民祭りの広場へ行ってテントの位置決めをする。"
+    },
+    "currentExamOptions": {
+      "A": "テントの設営業者に電話して日程を確認する。",
+      "B": "国際交流ブースの参加国旗の看板を組み立てる。",
+      "C": "倉庫からパンフレットを運び出し、正誤表シールを貼る。",
+      "D": "市民祭りの広場へ行ってテントの位置決めをする。"
+    },
+    "originalBlindAnswer": "C",
+    "selectedText": "倉庫からパンフレットを運び出し、正誤表シールを貼る。",
+    "remappedBlindAnswer": "C",
+    "confidence": "HIGH",
+    "contentFingerprint": "2c266eb94329ff5fe9683fa9263a78169d23b77609aad83559f5cf2cf9f27621",
+    "reviewFingerprint": "2c266eb94329ff5fe9683fa9263a78169d23b77609aad83559f5cf2cf9f27621",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "The female colleague asks the male staff to fetch the newly arrived pamphlets from the storage warehouse and apply the errata correction stickers to page 1 as the top priority: 'パンフレットを倉庫から持ってきて、シール貼り作業を最優先で進めてもらえる？'. The male staff agrees and heads straight to the warehouse. Tent setup is already scheduled with contractors, and sign assembly is handled tomorrow with volunteers.",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M1_L05",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "昨日の売上レジの記録とレシートを照合する。",
+      "B": "主任から鍵を借りて修理保管ロッカーの中を確認する。",
+      "C": "本部の在庫管理システムに紛失届を送信する。",
+      "D": "店頭へ行って展示中のタブレットのシリアル番号を確認する。"
+    },
+    "currentExamOptions": {
+      "A": "昨日の売上レジの記録とレシートを照合する。",
+      "B": "主任から鍵を借りて修理保管ロッカーの中を確認する。",
+      "C": "本部の在庫管理システムに紛失届を送信する。",
+      "D": "店頭へ行って展示中のタブレットのシリアル番号を確認する。"
+    },
+    "originalBlindAnswer": "D",
+    "selectedText": "店頭へ行って展示中のタブレットのシリアル番号を確認する。",
+    "remappedBlindAnswer": "D",
+    "confidence": "HIGH",
+    "contentFingerprint": "9aa73a8f3484dad9424340daa7293fe97e27735a99d2870815b279a3f732106e",
+    "reviewFingerprint": "9aa73a8f3484dad9424340daa7293fe97e27735a99d2870815b279a3f732106e",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "The store manager explains that two tablet units are missing from inventory. Since register sales were already verified by the manager and the supervisor who holds the locker key is currently taking a break, the manager explicitly orders: '鈴木さんはまず店頭へ行って、現在展示中の実機2台のシリアル番号をメモしてきてくれないか' (First go to the sales floor and note down the serial numbers of the 2 demonstration units on display). The female clerk immediately sets off to do so.",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M2_L01",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "若手社員でも自発的な提案で新規プロジェクトに挑戦できる裁量の大きさ。",
+      "B": "他社と比較して初任給や各種手当などの待遇面が圧倒的に高かったこと。",
+      "C": "新入社員向けの語学研修や海外留学制度が充実していたこと。",
+      "D": "世界的にも名が知られた大手メーカーとしての抜群の知名度。"
+    },
+    "currentExamOptions": {
+      "A": "若手社員でも自発的な提案で新規プロジェクトに挑戦できる裁量の大きさ。",
+      "B": "他社と比較して初任給や各種手当などの待遇面が圧倒的に高かったこと。",
+      "C": "新入社員向けの語学研修や海外留学制度が充実していたこと。",
+      "D": "世界的にも名が知られた大手メーカーとしての抜群の知名度。"
+    },
+    "originalBlindAnswer": "A",
+    "selectedText": "若手社員でも自発的な提案で新規プロジェクトに挑戦できる裁量の大きさ。",
+    "remappedBlindAnswer": "A",
+    "confidence": "HIGH",
+    "contentFingerprint": "4cd9c6d250cd02a0bc5f57c9863412b7de69ced06350582a0bb3a685ad7ab390",
+    "reviewFingerprint": "4cd9c6d250cd02a0bc5f57c9863412b7de69ced06350582a0bb3a685ad7ab390",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "The female senior clarifies that while conditions and training were appealing, the decisive factor that moved her heart most was: '一番心動かされたのは、面接のときに開発部のリーダーが「うちでは若手でも自発的な提案があれば、新規プロジェクトの責任者に抜擢する風土がある」って熱心に語ってくれたことなの。自分のアイデアを形にできる裁量の大きさに強く惹かれたのよ' (The high degree of discretion allowing even young employees to lead new projects through proactive proposals).",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M2_L02",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "高級感のある金属製ボディと洗練されたカラーバリエーション。",
+      "B": "左利きでも手が汚れない特殊な速乾性インクが口コミで絶賛されたこと。",
+      "C": "有名タレントを起用した大規模なテレビCMキャンペーンの成功。",
+      "D": "1本100円以下という競合製品を圧倒する驚異的な低価格設定。"
+    },
+    "currentExamOptions": {
+      "A": "高級感のある金属製ボディと洗練されたカラーバリエーション。",
+      "B": "左利きでも手が汚れない特殊な速乾性インクが口コミで絶賛されたこと。",
+      "C": "有名タレントを起用した大規模なテレビCMキャンペーンの成功。",
+      "D": "1本100円以下という競合製品を圧倒する驚異的な低価格設定。"
+    },
+    "originalBlindAnswer": "B",
+    "selectedText": "左利きでも手が汚れない特殊な速乾性インクが口コミで絶賛されたこと。",
+    "remappedBlindAnswer": "B",
+    "confidence": "HIGH",
+    "contentFingerprint": "8f2a5a3b59712e8860f58f2bb4421b3de56e4c6568d92d1c496938f44c6cc73c",
+    "reviewFingerprint": "8f2a5a3b59712e8860f58f2bb4421b3de56e4c6568d92d1c496938f44c6cc73c",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "The product developer states that market research identified the true reason for the hit as the specialized quick-drying gel ink that doesn't smudge left-handed writers' hands: '市場調査で判明した真のヒット要因は、実は「左利きの人でもインクが手に付かず速乾する特殊ゲルインク」にありました'. Positive reviews by left-handed influencers on social media sparked viral word-of-mouth acclaim among both left- and right-handed users.",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M2_L03",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "試合後半における選手全体のスタミナと運動量の維持。",
+      "B": "ゴール前での決定力を高めるシュートの正確性の向上。",
+      "C": "ボールを奪われた直後の守備への素早い切り替え意識。",
+      "D": "相手フォワードに対する激しい反則すれすれのタックル。"
+    },
+    "currentExamOptions": {
+      "A": "試合後半における選手全体のスタミナと運動量の維持。",
+      "B": "ゴール前での決定力を高めるシュートの正確性の向上。",
+      "C": "ボールを奪われた直後の守備への素早い切り替え意識。",
+      "D": "相手フォワードに対する激しい反則すれすれのタックル。"
+    },
+    "originalBlindAnswer": "C",
+    "selectedText": "ボールを奪われた直後の守備への素早い切り替え意識。",
+    "remappedBlindAnswer": "C",
+    "confidence": "HIGH",
+    "contentFingerprint": "e93e7be2fee2687a8f947eac9c4a157b80f66ee6b2ae0a327de2f4b160143980",
+    "reviewFingerprint": "e93e7be2fee2687a8f947eac9c4a157b80f66ee6b2ae0a327de2f4b160143980",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "The soccer coach notes that while stamina drop-off and shooting accuracy were visible issues, the most critical and serious problem was: 'それ以上に私が深刻だと感じたのは、「ボールを奪われた瞬間の守備への切り替えの遅さ」だ...攻めから守りへの意識の転換をコンマ1秒でも速く徹底すること' (The delay in transitioning to defense the instant possession is lost). This directly corresponds to Option C.",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M2_L04",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "プロジェクト全体にかかる莫大な工事予算の追加確保。",
+      "B": "伝統的な技法を持つ高齢の熟練職人のスケジュール調整。",
+      "C": "屋根や柱に使用する希少な国産漆などの材料調達。",
+      "D": "伝統的な外観を損なわずに最新の耐震基準を満たす構造の両立。"
+    },
+    "currentExamOptions": {
+      "A": "プロジェクト全体にかかる莫大な工事予算の追加確保。",
+      "B": "伝統的な技法を持つ高齢の熟練職人のスケジュール調整。",
+      "C": "屋根や柱に使用する希少な国産漆などの材料調達。",
+      "D": "伝統的な外観を損なわずに最新の耐震基準を満たす構造の両立。"
+    },
+    "originalBlindAnswer": "D",
+    "selectedText": "伝統的な外観を損なわずに最新の耐震基準を満たす構造の両立。",
+    "remappedBlindAnswer": "D",
+    "confidence": "HIGH",
+    "contentFingerprint": "495ee4c26302b08dcd2df6fbb95539ac1f2a3ce4ff4331691471f21ed3c38bb5",
+    "reviewFingerprint": "495ee4c26302b08dcd2df6fbb95539ac1f2a3ce4ff4331691471f21ed3c38bb5",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "The architect explains that while budget and lacquer procurement were initial concerns, the most agonizing technical challenge was: '実際に工事が始まって最も頭を悩ませたのは、「現行の建築基準法が求める耐震性能を、外観や伝統的な木組みの美観を一切損なわずにどう両立させるか」という点でした' (Balancing modern earthquake-resistance standards required by building codes without compromising the traditional wooden aesthetic and exterior).",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M2_L05",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "土に触れることで仕事の雑念を消し、精神的にリフレッシュするため。",
+      "B": "スーパーの野菜よりも食費を大幅に節約して家計を助けるため。",
+      "C": "無農薬の安全な野菜を家族に食べさせて健康を保つため。",
+      "D": "週末に激しい運動をして体重を減らし、体力を増強するため。"
+    },
+    "currentExamOptions": {
+      "A": "土に触れることで仕事の雑念を消し、精神的にリフレッシュするため。",
+      "B": "スーパーの野菜よりも食費を大幅に節約して家計を助けるため。",
+      "C": "無農薬の安全な野菜を家族に食べさせて健康を保つため。",
+      "D": "週末に激しい運動をして体重を減らし、体力を増強するため。"
+    },
+    "originalBlindAnswer": "A",
+    "selectedText": "土に触れることで仕事の雑念を消し、精神的にリフレッシュするため。",
+    "remappedBlindAnswer": "A",
+    "confidence": "HIGH",
+    "contentFingerprint": "9944b1f2f244da4b1ad4f02dcc6825d8744a4c2558f0f4100ee8683fbaa36837",
+    "reviewFingerprint": "9944b1f2f244da4b1ad4f02dcc6825d8744a4c2558f0f4100ee8683fbaa36837",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "The male employee explicitly denies cost saving and downplays physical exercise, stating his primary motivation: '一番の理由はね、平日のデスクワークでずっとパソコンの画面と数字ばかり追いかけているから、土に触れて頭を完全に空っぽにできる時間が欲しかったんだ。種を蒔いて育てる作業をしていると、仕事のプレッシャーや雑念が消えて、心がリセットされるんだよ' (Touching soil to clear the mind of work distractions and achieve mental refreshing).",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M2_L06",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "国際航空便の混雑により、作品の輸送手配がつかなかったため。",
+      "B": "貸出元での修復中に作品の亀裂が見つかり、追加補修に時間を要したため。",
+      "C": "国内の美術館の会場照明設備に重大な故障が発生したため。",
+      "D": "前売りチケットの売れ行きが予想を大幅に下回って不振だったため。"
+    },
+    "currentExamOptions": {
+      "A": "国際航空便の混雑により、作品の輸送手配がつかなかったため。",
+      "B": "貸出元での修復中に作品の亀裂が見つかり、追加補修に時間を要したため。",
+      "C": "国内の美術館の会場照明設備に重大な故障が発生したため。",
+      "D": "前売りチケットの売れ行きが予想を大幅に下回って不振だったため。"
+    },
+    "originalBlindAnswer": "B",
+    "selectedText": "貸出元での修復中に作品の亀裂が見つかり、追加補修に時間を要したため。",
+    "remappedBlindAnswer": "B",
+    "confidence": "HIGH",
+    "contentFingerprint": "e91689a5e8e4ffbc8b57fdb311aa50f63333e6f1d8436b4095004f6af7e01e97",
+    "reviewFingerprint": "e91689a5e8e4ffbc8b57fdb311aa50f63333e6f1d8436b4095004f6af7e01e97",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "The curator explains that international flight logistics were fine, but during restoration work at the lending museum, minute cracks were discovered behind the frames: '現地での修復作業中に、額縁の裏側に微細な亀裂が見つかり、保存状態を万全にするための追加補修作業に予定以上の時間を要してしまった' (Cracks found during restoration necessitated additional repair time, causing the postponement).",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M3_L01",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "スーパーマーケットの賞味期限表示を法的に厳罰化する必要性。",
+      "B": "廃棄食品を家畜の飼料に再利用する最新のリサイクル技術。",
+      "C": "食品ロスを減らすために一般家庭における消費行動を見直す重要性。",
+      "D": "海外からの食料輸入をストップして国内自給率を100%にする政策。"
+    },
+    "currentExamOptions": {
+      "A": "スーパーマーケットの賞味期限表示を法的に厳罰化する必要性。",
+      "B": "廃棄食品を家畜の飼料に再利用する最新のリサイクル技術。",
+      "C": "食品ロスを減らすために一般家庭における消費行動を見直す重要性。",
+      "D": "海外からの食料輸入をストップして国内自給率を100%にする政策。"
+    },
+    "originalBlindAnswer": "C",
+    "selectedText": "食品ロスを減らすために一般家庭における消費行動を見直す重要性。",
+    "remappedBlindAnswer": "C",
+    "confidence": "HIGH",
+    "contentFingerprint": "e8ca756cb700e0132a74a06159053afaa62f8f7d31557e9ec2e1619e45881bf0",
+    "reviewFingerprint": "e8ca756cb700e0132a74a06159053afaa62f8f7d31557e9ec2e1619e45881bf0",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "The commentator emphasizes that roughly half of all food waste originates from ordinary households due to hoarding and over-peeling, arguing: '消費者一人ひとりが「必要な分だけ買い、使い切る」という当たり前の生活習慣を再構築することこそが、解決への最も実効的な近道なのです' (The crucial importance of reviewing and reforming consumer purchasing and utilization habits at home to reduce food waste).",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M3_L02",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "睡眠時間を毎日最低でも8時間以上確保しなければ健康を維持できない。",
+      "B": "平日の寝不足は休日に昼過ぎまで寝ることで完全に解消できる。",
+      "C": "日中の眠気を覚ますためにはカフェインを大量に摂取するのが効果的だ。",
+      "D": "睡眠時間の長さよりも、規則正しい起床時間による体内リズムの維持が重要だ。"
+    },
+    "currentExamOptions": {
+      "A": "睡眠時間を毎日最低でも8時間以上確保しなければ健康を維持できない。",
+      "B": "平日の寝不足は休日に昼過ぎまで寝ることで完全に解消できる。",
+      "C": "日中の眠気を覚ますためにはカフェインを大量に摂取するのが効果的だ。",
+      "D": "睡眠時間の長さよりも、規則正しい起床時間による体内リズムの維持が重要だ。"
+    },
+    "originalBlindAnswer": "D",
+    "selectedText": "睡眠時間の長さよりも、規則正しい起床時間による体内リズムの維持が重要だ。",
+    "remappedBlindAnswer": "D",
+    "confidence": "HIGH",
+    "contentFingerprint": "c914015944d8d36edb63796635e8fc10a1fa83d327a06af82440a11b61257c36",
+    "reviewFingerprint": "c914015944d8d36edb63796635e8fc10a1fa83d327a06af82440a11b61257c36",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "The physician emphasizes that rather than focusing merely on hours slept, the crucial factor for restorative sleep is biological circadian rhythm: '真に健康を左右するのは睡眠の「質」と「タイミング」です...平日も休日も毎朝同じ時刻に起床して太陽光を浴び、夜間に自然なメラトニン分泌を促す生体リズムを崩さないことが何よりも不可欠です' (Maintaining biological circadian rhythms via consistent wake-up times rather than mere sleep duration).",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M3_L03",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "伝統工芸は現代の生活様式に合わせて進化し、日常の道具として使われるべきだ。",
+      "B": "伝統工芸の技法をいささかも変えず、美術館に展示する美術品に特化すべきだ。",
+      "C": "外国製の安価な工業製品に対抗するため、職人の工賃を大幅に引き下げるべきだ。",
+      "D": "伝統工芸の後継者不足を解決するため、すべての学校で工芸実習を必修化すべきだ。"
+    },
+    "currentExamOptions": {
+      "A": "伝統工芸は現代の生活様式に合わせて進化し、日常の道具として使われるべきだ。",
+      "B": "伝統工芸の技法をいささかも変えず、美術館に展示する美術品に特化すべきだ。",
+      "C": "外国製の安価な工業製品に対抗するため、職人の工賃を大幅に引き下げるべきだ。",
+      "D": "伝統工芸の後継者不足を解決するため、すべての学校で工芸実習を必修化すべきだ。"
+    },
+    "originalBlindAnswer": "A",
+    "selectedText": "伝統工芸は現代の生活様式に合わせて進化し、日常の道具として使われるべきだ。",
+    "remappedBlindAnswer": "A",
+    "confidence": "HIGH",
+    "contentFingerprint": "3786a2b5c4ec47265e000e3f47649ae17550e3a101d1eaca601e2fe640e438bb",
+    "reviewFingerprint": "3786a2b5c4ec47265e000e3f47649ae17550e3a101d1eaca601e2fe640e438bb",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "The craft designer argues that for traditional crafts to survive beyond isolated luxury art, they must adapt to modern lifestyles as everyday tools: '生き残りの鍵は、現代の人々の生活空間に自然に溶け込む「日常使いの道具」としての再定義です...伝統とは不変の形式ではなく、人々の暮らしに寄り添いながら進化し続ける知恵なのです' (Traditional crafts must evolve to match contemporary lifestyles and be used as daily utensils).",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M3_L04",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "チームの業績を高めるには、メンバーに高度な専門資格を義務付けるべきだ。",
+      "B": "ミスを恐れず率直に意見を言える心理的安全性が、チームの成果と革新を生む。",
+      "C": "リーダーは組織の規律を守るため、部下のミスを決して見逃さず叱責すべきだ。",
+      "D": "業務のミスを完全にゼロにするために、すべての作業手順を厳格にマニュアル化すべきだ。"
+    },
+    "currentExamOptions": {
+      "A": "チームの業績を高めるには、メンバーに高度な専門資格を義務付けるべきだ。",
+      "B": "ミスを恐れず率直に意見を言える心理的安全性が、チームの成果と革新を生む。",
+      "C": "リーダーは組織の規律を守るため、部下のミスを決して見逃さず叱責すべきだ。",
+      "D": "業務のミスを完全にゼロにするために、すべての作業手順を厳格にマニュアル化すべきだ。"
+    },
+    "originalBlindAnswer": "B",
+    "selectedText": "ミスを恐れず率直に意見を言える心理的安全性が、チームの成果と革新を生む。",
+    "remappedBlindAnswer": "B",
+    "confidence": "HIGH",
+    "contentFingerprint": "9e22d8cd13566a4b931ac0cca5d8731ed3b6de47542d0f685f6a462a4ffe7331",
+    "reviewFingerprint": "9e22d8cd13566a4b931ac0cca5d8731ed3b6de47542d0f685f6a462a4ffe7331",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "The organizational consultant identifies psychological safety—the freedom to speak candidly, ask basic questions, and voice mistakes without fear of reprimand—as the decisive driver of high performance: '失敗を挑戦の証として歓迎し、異なる視点を受け入れる寛容な組織風土こそが、革新的なアイデアを生み出す土壌となるのです' (Psychological safety where people can speak without fear fosters innovation and results).",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M3_L05",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "小学校入学前に漢字の読み書きをマスターさせるための効果的な学習法。",
+      "B": "文字が読めない子どもに対して絵本よりもタブレット学習を推奨する理由。",
+      "C": "絵本の読み聞かせが育む感情の共有と共感力こそが、言葉の豊かな土台となること。",
+      "D": "絵本の出版業界が直面している電子書籍への移行と販売不振の現状。"
+    },
+    "currentExamOptions": {
+      "A": "小学校入学前に漢字の読み書きをマスターさせるための効果的な学習法。",
+      "B": "文字が読めない子どもに対して絵本よりもタブレット学習を推奨する理由。",
+      "C": "絵本の読み聞かせが育む感情の共有と共感力こそが、言葉の豊かな土台となること。",
+      "D": "絵本の出版業界が直面している電子書籍への移行と販売不振の現状。"
+    },
+    "originalBlindAnswer": "C",
+    "selectedText": "絵本の読み聞かせが育む感情の共有と共感力こそが、言葉の豊かな土台となること。",
+    "remappedBlindAnswer": "C",
+    "confidence": "HIGH",
+    "contentFingerprint": "9db1a4bdb8b5694ce532a8da6251da432b9ad7f4ec2445640f2d1abf4224f233",
+    "reviewFingerprint": "9db1a4bdb8b5694ce532a8da6251da432b9ad7f4ec2445640f2d1abf4224f233",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "The specialist in children's literature explains that reading aloud is not about rapid vocabulary drilling, but about emotional connection and empathy: '絵本を媒介にして親子で感情を共有し、豊かなイメージを膨らませる体験そのものです。この情緒的な安心感と想像力の土台があって初めて、成長したときに深く思考し、他者を思いやる真のコミュニケーション能力が花開くのです' (Shared emotional resonance and empathy nurtured by reading aloud serve as the foundation for true communicative growth).",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M4_L01",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "１番",
+      "B": "２番",
+      "C": "３番"
+    },
+    "currentExamOptions": {
+      "A": "１番",
+      "B": "２番",
+      "C": "３番"
+    },
+    "originalBlindAnswer": "A",
+    "selectedText": "１番",
+    "remappedBlindAnswer": "A",
+    "confidence": "HIGH",
+    "contentFingerprint": "2c45d79089008441c23a2a8e8c8ecc27666dd9565adc9d95e8e9173bea9cf574",
+    "reviewFingerprint": "2c45d79089008441c23a2a8e8c8ecc27666dd9565adc9d95e8e9173bea9cf574",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "The prompt says: '今日のプレゼン、思いのほか手応えがあったんじゃない？' (Didn't today's presentation get an unexpectedly positive reception?). Response 1 ('ええ、予想以上に質問も活発に出て手応えを感じました' - Yes, questions were more active than expected and I felt a solid response) agrees affirmatively and provides contextual evidence. Responses 2 and 3 exhibit logical/temporal confusion.",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M4_L02",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "１番",
+      "B": "２番",
+      "C": "３番"
+    },
+    "currentExamOptions": {
+      "A": "１番",
+      "B": "２番",
+      "C": "３番"
+    },
+    "originalBlindAnswer": "A",
+    "selectedText": "１番",
+    "remappedBlindAnswer": "A",
+    "confidence": "HIGH",
+    "contentFingerprint": "480c9a39c747e1ab745b7aa575c55282c237934752652bd4902bfbf41a1140f8",
+    "reviewFingerprint": "480c9a39c747e1ab745b7aa575c55282c237934752652bd4902bfbf41a1140f8",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "An employee apologizes to the department manager for a delayed confirmation: '確認が遅れてしまい申し訳ありません'. Response 1 ('いいよ、次回からは早めに一報入れてくれれば大丈夫だ' - It's fine, just give me a quick heads-up early next time and it'll be fine) is the culturally standard and appropriate managerial response accepting the apology. Response 2 uses 'どういたしまして' inappropriately, and Response 3 contradicts the delay.",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M4_L03",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "１番",
+      "B": "２番",
+      "C": "３番"
+    },
+    "currentExamOptions": {
+      "A": "１番",
+      "B": "２番",
+      "C": "３番"
+    },
+    "originalBlindAnswer": "C",
+    "selectedText": "３番",
+    "remappedBlindAnswer": "C",
+    "confidence": "HIGH",
+    "contentFingerprint": "88fb7a5f9eb31930dd5dec9385533aaf1f0d578e61b89952524e63e9913e0b89",
+    "reviewFingerprint": "88fb7a5f9eb31930dd5dec9385533aaf1f0d578e61b89952524e63e9913e0b89",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "The prompt uses the N2 grammar 〜ざるを得ない: 'この土砂降りじゃ、午後のフィールドワークは見合わせざるを得ないね' (In this downpour, we cannot help but postpone afternoon fieldwork). Response 3 ('そうですね、安全第一で延期にしましょう' - Right, let's prioritize safety and postpone it) concurs seamlessly with 見合わせる (postpone/hold off). Response 1 falsely claims it was held, and Response 2 is reckless.",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M4_L04",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "１番",
+      "B": "２番",
+      "C": "３番"
+    },
+    "currentExamOptions": {
+      "A": "１番",
+      "B": "２番",
+      "C": "３番"
+    },
+    "originalBlindAnswer": "B",
+    "selectedText": "２番",
+    "remappedBlindAnswer": "B",
+    "confidence": "HIGH",
+    "contentFingerprint": "b710681533ece72a310ec198cced0854a78f4454562347bdb7bfdaeb66aed4c2",
+    "reviewFingerprint": "b710681533ece72a310ec198cced0854a78f4454562347bdb7bfdaeb66aed4c2",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "The speaker politely indicates that the requested document is not urgent: '急ぎじゃないので手が空いたときで結構ですよ' (It's not urgent, so whenever you're free is fine). Response 2 ('お気遣いありがとうございます。今の作業が一段落したらすぐ取りかかります' - Thank you for your consideration; I will get right on it as soon as my current task wraps up) is the quintessential polite Japanese workplace response. Response 1 ignores the lack of urgency, and Response 3 is unprofessionally blunt.",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M4_L05",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "１番",
+      "B": "２番",
+      "C": "３番"
+    },
+    "currentExamOptions": {
+      "A": "１番",
+      "B": "２番",
+      "C": "３番"
+    },
+    "originalBlindAnswer": "A",
+    "selectedText": "１番",
+    "remappedBlindAnswer": "A",
+    "confidence": "HIGH",
+    "contentFingerprint": "69b3135ff6edcbc21b98679b9f4a827b2d5e942893871cfa0f7c953efd218413",
+    "reviewFingerprint": "69b3135ff6edcbc21b98679b9f4a827b2d5e942893871cfa0f7c953efd218413",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "The speaker remarks with pleasant surprise that the listener agreed to take on the leadership role: 'まさか君が引き受けてくれるとは思わなかったよ'. Response 1 ('ええ、大変ですが自分の成長につながると思い決断しました' - Yes, it will be tough, but I made the decision believing it will contribute to my growth) provides a coherent rationale for having accepted. Response 2 contradicts having accepted, and Response 3 misattributes the subject.",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M4_L06",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "１番",
+      "B": "２番",
+      "C": "３番"
+    },
+    "currentExamOptions": {
+      "A": "１番",
+      "B": "２番",
+      "C": "３番"
+    },
+    "originalBlindAnswer": "B",
+    "selectedText": "２番",
+    "remappedBlindAnswer": "B",
+    "confidence": "HIGH",
+    "contentFingerprint": "58ff53c503e71de9e231851deeceabaf0b9a7158ca2a45fadbf9e2aed6488a7f",
+    "reviewFingerprint": "58ff53c503e71de9e231851deeceabaf0b9a7158ca2a45fadbf9e2aed6488a7f",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "The prompt comments on disappointment relative to reputation: 'あの話題のレストラン、評判の割にはサービスがいまいちだったね' (Despite its fame, the service wasn't so great). Response 2 ('本当ですね、期待していただけに少し残念でした' - Indeed, precisely because we had high expectations, it was rather disappointing) perfectly matches the sentiment of 評判の割には...いまいち. Response 1 contradicts the criticism, and Response 3 misstates the reputation.",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M4_L07",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "１番",
+      "B": "２番",
+      "C": "３番"
+    },
+    "currentExamOptions": {
+      "A": "１番",
+      "B": "２番",
+      "C": "３番"
+    },
+    "originalBlindAnswer": "B",
+    "selectedText": "２番",
+    "remappedBlindAnswer": "B",
+    "confidence": "HIGH",
+    "contentFingerprint": "848420dd91c497194c55168f5c86f1525c82dce22e0bdb522791e7706bf748ed",
+    "reviewFingerprint": "848420dd91c497194c55168f5c86f1525c82dce22e0bdb522791e7706bf748ed",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "The superior points out obvious typos in the proposal: '企画書に誤字脱字が目立つよ。提出前によく見直したの？'. Response 2 ('申し訳ありません、急いでいたため確認が不十分でした' - I apologize, because I was rushing, my checking was insufficient) is the proper deferential admission of oversight. Responses 1 and 3 brazenly deny the evident flaws.",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M4_L08",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "１番",
+      "B": "２番",
+      "C": "３番"
+    },
+    "currentExamOptions": {
+      "A": "１番",
+      "B": "２番",
+      "C": "３番"
+    },
+    "originalBlindAnswer": "A",
+    "selectedText": "１番",
+    "remappedBlindAnswer": "A",
+    "confidence": "HIGH",
+    "contentFingerprint": "be08bbf61b320805de7f6221a999933ec675c9598e9eb35dab347d8fbd08fbb7",
+    "reviewFingerprint": "be08bbf61b320805de7f6221a999933ec675c9598e9eb35dab347d8fbd08fbb7",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "The prompt uses the idiom 難色を示す (to express reluctance/disapproval): '先方の社長、契約の条件変更に難色を示されているそうですね'. Response 1 ('はい、もう一度妥協案を練り直して説明に伺う必要があります' - Yes, we need to formulate a new compromise and go explain it to him) logically addresses the client's reluctance. Responses 2 and 3 contradict 難色を示す.",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M4_L09",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "１番",
+      "B": "２番",
+      "C": "３番"
+    },
+    "currentExamOptions": {
+      "A": "１番",
+      "B": "２番",
+      "C": "３番"
+    },
+    "originalBlindAnswer": "C",
+    "selectedText": "３番",
+    "remappedBlindAnswer": "C",
+    "confidence": "HIGH",
+    "contentFingerprint": "a1773d2437c676605d7ef681575a3b09e2c819090016280cfbc5d31f67dd6094",
+    "reviewFingerprint": "a1773d2437c676605d7ef681575a3b09e2c819090016280cfbc5d31f67dd6094",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "The speaker realizes with distress that they completely forgot to print handouts: 'すっかり失念しておりました' (I completely forgot). Response 3 ('今から急いでコピー機で刷ってくればまだ間に合うよ' - If you hurry and run them off on the photocopier now, you'll still make it in time) offers an immediate practical remedy. Responses 1 and 2 illogically claim the printing was already done.",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M4_L10",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "１番",
+      "B": "２番",
+      "C": "３番"
+    },
+    "currentExamOptions": {
+      "A": "１番",
+      "B": "２番",
+      "C": "３番"
+    },
+    "originalBlindAnswer": "B",
+    "selectedText": "２番",
+    "remappedBlindAnswer": "B",
+    "confidence": "HIGH",
+    "contentFingerprint": "1632be73ce5431dfe3c28960be9b68c4aeaabf334f795f151837f958264ac54d",
+    "reviewFingerprint": "1632be73ce5431dfe3c28960be9b68c4aeaabf334f795f151837f958264ac54d",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "The speaker remarks on how extraordinarily rare it is for the stubborn artisan to praise an apprentice: '若い弟子を褒めるなんて滅多にないことだよ'. Response 2 ('そうですね、彼の実力が本当に認められた証拠ですね' - Indeed, that is proof that his ability has truly been recognized) correctly recognizes the high significance of this rare praise. Response 1 contradicts 滅多にない, and Response 3 focuses on scolding.",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M4_L11",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "１番",
+      "B": "２番",
+      "C": "３番"
+    },
+    "currentExamOptions": {
+      "A": "１番",
+      "B": "２番",
+      "C": "３番"
+    },
+    "originalBlindAnswer": "A",
+    "selectedText": "１番",
+    "remappedBlindAnswer": "A",
+    "confidence": "HIGH",
+    "contentFingerprint": "af4c3d597ae616ed38cfea6786b74783a6ca0a52c967816552c38d041b947bbc",
+    "reviewFingerprint": "af4c3d597ae616ed38cfea6786b74783a6ca0a52c967816552c38d041b947bbc",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "The speaker uses 〜と言わざるを得ない to express an inescapable negative assessment: '今回の四半期売上目標、このペースだと達成は厳しいと言わざるを得ないね' (At this rate, I must say achieving the sales target will be difficult). Response 1 ('はい、後半で巻き返すための追加施策を急ぎ検討します' - Yes, I will urgently examine additional measures to recover ground in the second half) is the constructive professional response. Responses 2 and 3 contradict the difficulty.",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M5_L01",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "新幹線駅から直結のアクセスの良さと、1人1万5千円以下の格安料金。",
+      "B": "温泉施設が併設されていることと、夕食の豪華な宴会コース。",
+      "C": "夜間10時までの利用制限と、都心に近い海岸沿いの立地。",
+      "D": "24時間利用可能な広い研修室、高速ネット環境、1人2万円以内の予算。"
+    },
+    "currentExamOptions": {
+      "A": "新幹線駅から直結のアクセスの良さと、1人1万5千円以下の格安料金。",
+      "B": "温泉施設が併設されていることと、夕食の豪華な宴会コース。",
+      "C": "夜間10時までの利用制限と、都心に近い海岸沿いの立地。",
+      "D": "24時間利用可能な広い研修室、高速ネット環境、1人2万円以内の予算。"
+    },
+    "originalBlindAnswer": "D",
+    "selectedText": "24時間利用可能な広い研修室、高速ネット環境、1人2万円以内の予算。",
+    "remappedBlindAnswer": "D",
+    "confidence": "HIGH",
+    "contentFingerprint": "26416d3f732c0ba77d7cea49e572ea36ee64a791456e8659d794861094d74a50",
+    "reviewFingerprint": "26416d3f732c0ba77d7cea49e572ea36ee64a791456e8659d794861094d74a50",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "The general manager defines the non-negotiable requirements explicitly: '何よりもチームビルディングのワークショップを徹底的に行いたいので、24時間利用可能な広い研修室と、高速インターネット環境が整っていることが必須条件だ。予算は1人あたり2万円以内' (24-hour usable large training room, high-speed internet, and a budget within 20,000 yen per person). Option D articulates this exact triad of requirements.",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M5_L02",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "1番の高原セミナーハウス",
+      "B": "2番のベイサイド研修センター",
+      "C": "3番のフォレストヴィラ",
+      "D": "4番のアーバンビジネスホテル"
+    },
+    "currentExamOptions": {
+      "A": "1番の高原セミナーハウス",
+      "B": "2番のベイサイド研修センター",
+      "C": "3番のフォレストヴィラ",
+      "D": "4番のアーバンビジネスホテル"
+    },
+    "originalBlindAnswer": "C",
+    "selectedText": "3番のフォレストヴィラ",
+    "remappedBlindAnswer": "C",
+    "confidence": "HIGH",
+    "contentFingerprint": "645b10215f614fd713c64f0acad92c26a28299284ac17fbddef09c01d100de88",
+    "reviewFingerprint": "645b10215f614fd713c64f0acad92c26a28299284ac17fbddef09c01d100de88",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "Evaluating all four options: Facility 1 (22,000 yen) exceeds the 20,000 yen budget. Facility 2 closes its training room at 10 PM (violates 24-hour access). Facility 4 has unstable internet (unacceptable risk for online external guest sessions). Facility 3 ('フォレストヴィラ') costs 19,000 yen (within budget), offers a soundproof 24-hour training room, and provides ultra-high-speed Wi-Fi in a refreshing forest setting, leading to unanimous approval. Option C is correct.",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "questionId": "N2_03_M5_L03",
+    "isReordered": false,
+    "originalInputOptions": {
+      "A": "1番のモデル",
+      "B": "2番のモデル",
+      "C": "3番のモデル",
+      "D": "4番のモデル"
+    },
+    "currentExamOptions": {
+      "A": "1番のモデル",
+      "B": "2番のモデル",
+      "C": "3番のモデル",
+      "D": "4番のモデル"
+    },
+    "originalBlindAnswer": "D",
+    "selectedText": "4番のモデル",
+    "remappedBlindAnswer": "D",
+    "confidence": "HIGH",
+    "contentFingerprint": "fa8b5a4e8da0229b437a18712dcc69088d2aa4216689767426430a8097ddb86e",
+    "reviewFingerprint": "fa8b5a4e8da0229b437a18712dcc69088d2aa4216689767426430a8097ddb86e",
+    "fingerprintMatch": true,
+    "mappingMethod": "DIRECT_IDENTITY",
+    "verbatimReviewerExplanation": "The couple requires high energy savings, quiet operation, ample freezer storage for weekly batch cooking, and delicious meal preservation. Model 1 consumes too much power. Model 2 is too wide for standard passages. Model 3 has insufficient freezer space. Model 4 features AI energy-saving (lowest electricity bill), a soft-freezing partial compartment preserving meal prep quality without hard freezing, ample freezer capacity, and a slim design. Both agree on Model 4 ('これに決めましょう'). Option D is correct.",
+    "historicalLetterReference": [],
+    "hasLetterInconsistency": false,
+    "inconsistencyDetail": null,
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
   }
 ]

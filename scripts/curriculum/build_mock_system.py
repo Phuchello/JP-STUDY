@@ -23,6 +23,10 @@ def main():
     if os.path.exists('data/mock_exams/n2_mock_02.json'):
         with open('data/mock_exams/n2_mock_02.json', 'r', encoding='utf-8') as f:
             mock_02_n2 = json.load(f)
+    mock_03_n2 = None
+    if os.path.exists('data/mock_exams/n2_mock_03.json'):
+        with open('data/mock_exams/n2_mock_03.json', 'r', encoding='utf-8') as f:
+            mock_03_n2 = json.load(f)
     with open('data/mock_exams/n3_mock_01.json', 'r', encoding='utf-8') as f:
         mock_01_n3 = json.load(f)
 
@@ -65,7 +69,24 @@ def main():
         'playable': True
     })
 
-    for i in range(3, 21):
+    # N2 Mock 03: FULL MOCK EXAM (105 items / 155 mins / 30 Audio Tracks)
+    catalog_mocks['N2'].append({
+        'mockId': 'N2-MOCK-03',
+        'title': 'JLPT N2 Full Mock Exam #03 — Kiến thức ngôn ngữ, Đọc hiểu & Nghe hiểu',
+        'level': 'N2',
+        'status': 'FULL_MOCK',
+        'badgeText': 'FULL MOCK · 105 CÂU · 30 AUDIO PHÒNG THI',
+        'badgeClass': 'status-ready',
+        'durationMinutes': 155,
+        'totalQuestions': 105,
+        'section1Count': 75,
+        'section2Count': 30,
+        'releaseDate': '19/10/2026',
+        'description': 'Bộ đề thi thử số 03 mô phỏng toàn diện bám sát cấu trúc JLPT N2: Phần 1 (75 câu / 105 phút: 32 câu Từ vựng, 22 câu Ngữ pháp, 21 câu Đọc hiểu) + Nghỉ giải lao 10 phút + Phần 2 (30 câu / 50 phút: Đầy đủ 5 Mondai Nghe hiểu kèm audio phòng thi đa nhân vật và transcript phân vai). Báo cáo điểm số gốc minh bạch và chẩn đoán năng lực.',
+        'playable': True
+    })
+
+    for i in range(4, 21):
         catalog_mocks['N2'].append({
             'mockId': f'N2-MOCK-{i:02d}',
             'title': f'JLPT N2 Full Mock Exam #{i:02d}',
@@ -126,6 +147,7 @@ window.JP_MOCK_REGISTRY = {json.dumps(catalog_mocks, ensure_ascii=False, indent=
 window.JP_MOCK_DATA = {{
   'N2-MOCK-01': {json.dumps(mock_01_n2, ensure_ascii=False, indent=2)},
   'N2-MOCK-02': {json.dumps(mock_02_n2, ensure_ascii=False, indent=2) if mock_02_n2 else "{}"},
+  'N2-MOCK-03': {json.dumps(mock_03_n2, ensure_ascii=False, indent=2) if mock_03_n2 else "{}"},
   'N3-MOCK-01': {json.dumps(mock_01_n3, ensure_ascii=False, indent=2)}
 }};
 """
@@ -547,9 +569,38 @@ def build_exam_catalog():
       </div>
     </div>
 
-    <!-- N2 MOCKS 03 - 20 (IN DEVELOPMENT) -->
+    <!-- N2 MOCK 03: FULL MOCK -->
+    <div class="card">
+      <div>
+        <div class="card-top">
+          <span class="badge badge-n2">JLPT N2</span>
+          <span class="status-badge status-ready" style="background:#dbeafe; color:#1e40af; border:1px solid #bfdbfe;">FULL MOCK · 105 CÂU · 30 AUDIO PHÒNG THI</span>
+        </div>
+        <div class="card-title">JLPT N2 Full Mock Exam #03</div>
+        <div class="card-meta">105 câu hỏi · 155 phút (Đầy đủ 2 Phần: Kiến thức ngôn ngữ, Đọc hiểu & 30 Audio Nghe hiểu)</div>
+        <div class="card-desc">
+          Bộ đề mô phỏng hoàn chỉnh số 03 độc lập nguyên bản: Phần 1 (75 câu / 105 phút: 32 câu Từ vựng, 22 câu Ngữ pháp, 21 câu Đọc hiểu) + Nghỉ giải lao 10 phút + Phần 2 (30 câu / 50 phút: Đầy đủ 5 Mondai Nghe hiểu kèm audio phòng thi đa nhân vật và transcript phân vai). Báo cáo điểm gốc minh bạch và chẩn đoán năng lực.
+        </div>
+        <div class="section-tags">
+          <span class="sec-tag">📖 Từ vựng (32c)</span>
+          <span class="sec-tag">📜 Ngữ pháp (22c)</span>
+          <span class="sec-tag">📑 Đọc hiểu (21c)</span>
+          <span class="sec-tag">🎧 Nghe hiểu (30 audio)</span>
+        </div>
+      </div>
+      <div style="display:flex; flex-direction:column; gap:6px; margin-top:12px;">
+        <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mock&mockId=N2-MOCK-03" target="_blank" rel="noopener noreferrer" class="btn-start">
+          🚀 BẮT ĐẦU ĐỀ THI ĐẦY ĐỦ (105 CÂU / 155 PHÚT) ▶
+        </a>
+        <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mock&mockId=N2-MOCK-03&section=2" target="_blank" rel="noopener noreferrer" class="btn-mat" style="justify-content:center; padding:8px; font-size:0.8rem;">
+          🎧 Làm riêng Phần 2 Nghe hiểu (30 câu / 50 phút) ↗
+        </a>
+      </div>
+    </div>
+
+    <!-- N2 MOCKS 04 - 20 (IN DEVELOPMENT) -->
 """
-    for i in range(3, 21):
+    for i in range(4, 21):
         html += f"""    <div class="card">
       <div>
         <div class="card-top">

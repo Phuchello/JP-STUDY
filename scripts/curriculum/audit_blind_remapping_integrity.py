@@ -76,6 +76,13 @@ def run_integrity_audit():
         ROOT / "qa/raw_blind_m02_s2.json",
         ROOT / "qa/raw_blind_star_repaired_3.json",
     ]
+    for rf_m03 in [
+        ROOT / "qa/raw_blind_m03_s1_p1.json",
+        ROOT / "qa/raw_blind_m03_s1_p2.json",
+        ROOT / "qa/raw_blind_m03_s2.json",
+    ]:
+        if rf_m03.exists():
+            raw_files.append(rf_m03)
 
     raw_solves = {}
     raw_file_hashes = {}
@@ -100,6 +107,9 @@ def run_integrity_audit():
         ROOT / "qa/blind_items_m02_s1_p1.json",
         ROOT / "qa/blind_items_m02_s1_p2.json",
         ROOT / "qa/blind_items_m02_s2.json",
+        ROOT / "qa/blind_items_m03_s1_p1.json",
+        ROOT / "qa/blind_items_m03_s1_p2.json",
+        ROOT / "qa/blind_items_m03_s2.json",
     ]:
         if bif.exists():
             items = json.loads(bif.read_text(encoding='utf-8'))
@@ -108,13 +118,17 @@ def run_integrity_audit():
 
     # Load actual production exam files
     exam_items = {}
-    for m in ['01', '02']:
+    mocks_to_load = ['01', '02']
+    if (ROOT / "data/mock_exams/n2_mock_03.json").exists() and (ROOT / "qa/raw_blind_m03_s1_p1.json").exists():
+        mocks_to_load.append('03')
+    for m in mocks_to_load:
         m_data = json.loads((ROOT / f"data/mock_exams/n2_mock_{m}.json").read_text(encoding='utf-8'))
         for sec in m_data['sections']:
             for q in sec['items']:
                 exam_items[q['id']] = q
 
-    assert len(exam_items) == 210, f"Expected 210 exam items, got {len(exam_items)}"
+    expected_exam_count = len(mocks_to_load) * 105
+    assert len(exam_items) == expected_exam_count, f"Expected {expected_exam_count} exam items, got {len(exam_items)}"
 
     # Audit remapping and explanation consistency
     derived_records = []

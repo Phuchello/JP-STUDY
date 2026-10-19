@@ -235,7 +235,10 @@ def reconcile_all(all_items=None, blind_map=None, write_artifacts=True):
 
     if all_items is None:
         all_items = []
-        for m in ['01', '02']:
+        mock_nums = ['01', '02']
+        if (ROOT / 'data/mock_exams/n2_mock_03.json').exists():
+            mock_nums.append('03')
+        for m in mock_nums:
             m_id = f"N2-MOCK-{m}"
             with open(ROOT / f'data/mock_exams/n2_mock_{m}.json', 'r', encoding='utf-8') as f:
                 data = json.load(f)
