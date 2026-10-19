@@ -1,0 +1,1066 @@
+[
+  {
+    "id": "N2_02_M1_01",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-READ",
+    "mondaiTitle": "Mondai 1: 漢字読み",
+    "stem": "新工場の建設予定地を慎重に【選定】した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "せんじょう"
+      },
+      {
+        "id": "B",
+        "text": "せんてい"
+      },
+      {
+        "id": "C",
+        "text": "ぜんてい"
+      },
+      {
+        "id": "D",
+        "text": "せんちょう"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M1_02",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-READ",
+    "mondaiTitle": "Mondai 1: 漢字読み",
+    "stem": "予期せぬトラブルにも【冷静】に対処することが求められる。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "れいぜい"
+      },
+      {
+        "id": "B",
+        "text": "りょうせい"
+      },
+      {
+        "id": "C",
+        "text": "れいせい"
+      },
+      {
+        "id": "D",
+        "text": "れんせい"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M1_03",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-READ",
+    "mondaiTitle": "Mondai 1: 漢字読み",
+    "stem": "旧態依然とした組織体制を根本から【刷新】する。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "さつしん"
+      },
+      {
+        "id": "B",
+        "text": "さっしん"
+      },
+      {
+        "id": "C",
+        "text": "さくしん"
+      },
+      {
+        "id": "D",
+        "text": "ざっしん"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M1_04",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-READ",
+    "mondaiTitle": "Mondai 1: 漢字読み",
+    "stem": "法律の解釈をめぐって両者の意見が激しく【対立】した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "たいりつ"
+      },
+      {
+        "id": "B",
+        "text": "ついりつ"
+      },
+      {
+        "id": "C",
+        "text": "たいりゅう"
+      },
+      {
+        "id": "D",
+        "text": "だいりつ"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M1_05",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-READ",
+    "mondaiTitle": "Mondai 1: 漢字読み",
+    "stem": "長年にわたる過酷な環境が金属パイプを【腐食】させた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "ふじき"
+      },
+      {
+        "id": "B",
+        "text": "ふじょく"
+      },
+      {
+        "id": "C",
+        "text": "ぶしょく"
+      },
+      {
+        "id": "D",
+        "text": "ふしょく"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M2_01",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-ORTH",
+    "mondaiTitle": "Mondai 2: 表記",
+    "stem": "海外進出に向けた事業計画を【けんとう】する。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "見当"
+      },
+      {
+        "id": "B",
+        "text": "検当"
+      },
+      {
+        "id": "C",
+        "text": "検討"
+      },
+      {
+        "id": "D",
+        "text": "検踏"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M2_02",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-ORTH",
+    "mondaiTitle": "Mondai 2: 表記",
+    "stem": "長時間の交渉の末、ついに双方の合意に【たっした】。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "達した"
+      },
+      {
+        "id": "B",
+        "text": "建した"
+      },
+      {
+        "id": "C",
+        "text": "通した"
+      },
+      {
+        "id": "D",
+        "text": "到した"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M2_03",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-ORTH",
+    "mondaiTitle": "Mondai 2: 表記",
+    "stem": "この制度は社会的な【かくさ】の是正を目指している。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "階差"
+      },
+      {
+        "id": "B",
+        "text": "格差"
+      },
+      {
+        "id": "C",
+        "text": "確差"
+      },
+      {
+        "id": "D",
+        "text": "隔差"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M2_04",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-ORTH",
+    "mondaiTitle": "Mondai 2: 表記",
+    "stem": "突然の停電に備えて非常用電源を【かくほ】する。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "確歩"
+      },
+      {
+        "id": "B",
+        "text": "獲保"
+      },
+      {
+        "id": "C",
+        "text": "確保"
+      },
+      {
+        "id": "D",
+        "text": "確補"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M2_05",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-ORTH",
+    "mondaiTitle": "Mondai 2: 表記",
+    "stem": "彼の迅速な対応が会社の信頼を【かいふく】させた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "回服"
+      },
+      {
+        "id": "B",
+        "text": "快復"
+      },
+      {
+        "id": "C",
+        "text": "改復"
+      },
+      {
+        "id": "D",
+        "text": "回復"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M3_01",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-WORD",
+    "mondaiTitle": "Mondai 3: 語形成",
+    "stem": "彼女の演技には（　　）現実的な迫力がある。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "無"
+      },
+      {
+        "id": "B",
+        "text": "不"
+      },
+      {
+        "id": "C",
+        "text": "非"
+      },
+      {
+        "id": "D",
+        "text": "未"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M3_02",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-WORD",
+    "mondaiTitle": "Mondai 3: 語形成",
+    "stem": "本日のセミナーは（　　）会員の方でも自由にご参加いただけます。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "未"
+      },
+      {
+        "id": "B",
+        "text": "非"
+      },
+      {
+        "id": "C",
+        "text": "不"
+      },
+      {
+        "id": "D",
+        "text": "無"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M3_03",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-WORD",
+    "mondaiTitle": "Mondai 3: 語形成",
+    "stem": "地球温暖化を防ぐため、省エネルギー（　　）の家電が推奨されている。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "風"
+      },
+      {
+        "id": "B",
+        "text": "式"
+      },
+      {
+        "id": "C",
+        "text": "製"
+      },
+      {
+        "id": "D",
+        "text": "型"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M3_04",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-WORD",
+    "mondaiTitle": "Mondai 3: 語形成",
+    "stem": "今期の営業利益は、当初の予想を（　　）回る見込みだ。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "高"
+      },
+      {
+        "id": "B",
+        "text": "上"
+      },
+      {
+        "id": "C",
+        "text": "大"
+      },
+      {
+        "id": "D",
+        "text": "優"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M3_05",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-WORD",
+    "mondaiTitle": "Mondai 3: 語形成",
+    "stem": "あの地域は長年にわたり、（　　）開発の自然がそのまま残されている。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "無"
+      },
+      {
+        "id": "B",
+        "text": "非"
+      },
+      {
+        "id": "C",
+        "text": "未"
+      },
+      {
+        "id": "D",
+        "text": "不"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M4_01",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-CONT",
+    "mondaiTitle": "Mondai 4: 文脈規定",
+    "stem": "長時間のパソコン作業で目が（　　）して痛むので、目薬をさした。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "さらさら"
+      },
+      {
+        "id": "B",
+        "text": "しょぼしょぼ"
+      },
+      {
+        "id": "C",
+        "text": "すらすら"
+      },
+      {
+        "id": "D",
+        "text": "ぞくぞく"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M4_02",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-CONT",
+    "mondaiTitle": "Mondai 4: 文脈規定",
+    "stem": "新製品の発売日を延期することは、経営上（　　）の決断だった。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "苦情"
+      },
+      {
+        "id": "B",
+        "text": "苦痛"
+      },
+      {
+        "id": "C",
+        "text": "苦渋"
+      },
+      {
+        "id": "D",
+        "text": "苦境"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M4_03",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-CONT",
+    "mondaiTitle": "Mondai 4: 文脈規定",
+    "stem": "台風の影響で、列車のダイヤが（　　）乱れている。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "大層"
+      },
+      {
+        "id": "B",
+        "text": "大幅に"
+      },
+      {
+        "id": "C",
+        "text": "大まかに"
+      },
+      {
+        "id": "D",
+        "text": "大げさに"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M4_04",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-CONT",
+    "mondaiTitle": "Mondai 4: 文脈規定",
+    "stem": "彼の書いた論文は構成が（　　）で、論理の飛躍が一切見られない。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "厳重"
+      },
+      {
+        "id": "B",
+        "text": "綿密"
+      },
+      {
+        "id": "C",
+        "text": "粗末"
+      },
+      {
+        "id": "D",
+        "text": "寛大"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M4_05",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-CONT",
+    "mondaiTitle": "Mondai 4: 文脈規定",
+    "stem": "長年の研究開発が実を結び、ついにライバル企業に（　　）をつけた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "隙"
+      },
+      {
+        "id": "B",
+        "text": "筋"
+      },
+      {
+        "id": "C",
+        "text": "差"
+      },
+      {
+        "id": "D",
+        "text": "跡"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M4_06",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-CONT",
+    "mondaiTitle": "Mondai 4: 文脈規定",
+    "stem": "初対面の相手にも（　　）と挨拶ができる人は、第一印象が良い。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "しとやか"
+      },
+      {
+        "id": "B",
+        "text": "にこやか"
+      },
+      {
+        "id": "C",
+        "text": "さわやか"
+      },
+      {
+        "id": "D",
+        "text": "おろそか"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M4_07",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-CONT",
+    "mondaiTitle": "Mondai 4: 文脈規定",
+    "stem": "予期せぬ停電で、エレベーターの中に1時間も（　　）に遭った。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "包み込み"
+      },
+      {
+        "id": "B",
+        "text": "閉じ込め"
+      },
+      {
+        "id": "C",
+        "text": "抱き込み"
+      },
+      {
+        "id": "D",
+        "text": "繰り込み"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M5_01",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-PARA",
+    "mondaiTitle": "Mondai 5: 言い換え類義",
+    "stem": "この文書の内容を【ざっと】確認してください。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "精密に"
+      },
+      {
+        "id": "B",
+        "text": "おおまかに"
+      },
+      {
+        "id": "C",
+        "text": "静かに"
+      },
+      {
+        "id": "D",
+        "text": "完全に"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M5_02",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-PARA",
+    "mondaiTitle": "Mondai 5: 言い換え類義",
+    "stem": "彼の発言はいつも【皮肉】が込められている。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "好意"
+      },
+      {
+        "id": "B",
+        "text": "冗談"
+      },
+      {
+        "id": "C",
+        "text": "嫌味"
+      },
+      {
+        "id": "D",
+        "text": "熱意"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M5_03",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-PARA",
+    "mondaiTitle": "Mondai 5: 言い換え類義",
+    "stem": "古い友人と街角で【ばったり】出会った。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "約束して"
+      },
+      {
+        "id": "B",
+        "text": "偶然に"
+      },
+      {
+        "id": "C",
+        "text": "無理に"
+      },
+      {
+        "id": "D",
+        "text": "急いで"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M5_04",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-PARA",
+    "mondaiTitle": "Mondai 5: 言い換え類義",
+    "stem": "その計画は予算不足のため【頓挫】した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "成功"
+      },
+      {
+        "id": "B",
+        "text": "延期"
+      },
+      {
+        "id": "C",
+        "text": "途中で挫折"
+      },
+      {
+        "id": "D",
+        "text": "急加速"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M5_05",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-PARA",
+    "mondaiTitle": "Mondai 5: 言い換え類義",
+    "stem": "彼は周囲の批判を【意に介さない】様子だった。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "深く悩む"
+      },
+      {
+        "id": "B",
+        "text": "気に留めない"
+      },
+      {
+        "id": "C",
+        "text": "怒り狂う"
+      },
+      {
+        "id": "D",
+        "text": "恐れおののく"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M6_01",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-USAG",
+    "mondaiTitle": "Mondai 6: 用法",
+    "stem": "【手薄（てうす）】の使い方として最も適切なものを選びなさい。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "この本はページ数が手薄なので、すぐに読み終わった。"
+      },
+      {
+        "id": "B",
+        "text": "連休中は警備員が手薄になるため、戸締まりを厳重にする必要がある。"
+      },
+      {
+        "id": "C",
+        "text": "彼の書いたレポートは内容が手薄で説得力に欠ける。"
+      },
+      {
+        "id": "D",
+        "text": "冬になると木の葉が手薄になり、枝だけが目立つ。"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M6_02",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-USAG",
+    "mondaiTitle": "Mondai 6: 用法",
+    "stem": "【配慮（はいりょ）】の使い方として最も適切なものを選びなさい。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "高齢者や車椅子の利用者に配慮して、駅にエレベーターを増設した。"
+      },
+      {
+        "id": "B",
+        "text": "部屋が暗いので、窓を開けて光を配慮した。"
+      },
+      {
+        "id": "C",
+        "text": "毎朝ジョギングをして体力を配慮している。"
+      },
+      {
+        "id": "D",
+        "text": "明日の天気を配慮して傘を持って出かけた。"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M6_03",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-USAG",
+    "mondaiTitle": "Mondai 6: 用法",
+    "stem": "【無難（ぶなん）】の使い方として最も適切なものを選びなさい。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "この試験は非常に無難だったので、全員が満点を取った。"
+      },
+      {
+        "id": "B",
+        "text": "服装に迷ったときは、落ち着いた色のスーツを着ていくのが無難だ。"
+      },
+      {
+        "id": "C",
+        "text": "彼女は無難な笑顔でみんなから大人気を集めている。"
+      },
+      {
+        "id": "D",
+        "text": "台風が無難に通過して被害が出なかった。"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M6_04",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-USAG",
+    "mondaiTitle": "Mondai 6: 用法",
+    "stem": "【目途（めど）】の使い方として最も適切なものを選びなさい。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "資金調達の目途が立ち、新工場の建設を再開できることになった。"
+      },
+      {
+        "id": "B",
+        "text": "遠くの景色を見るために双眼鏡で目途を合わせた。"
+      },
+      {
+        "id": "C",
+        "text": "彼の話は目途がはっきりしていて非常に分かりやすい。"
+      },
+      {
+        "id": "D",
+        "text": "次の駅まであと少しで目途に到着する。"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M6_05",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-USAG",
+    "mondaiTitle": "Mondai 6: 用法",
+    "stem": "【妥協（だきょう）】の使い方として最も適切なものを選びなさい。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "どんなに困難な壁にぶつかっても、最後まで決して妥協しない。"
+      },
+      {
+        "id": "B",
+        "text": "二人は妥協して結婚式を盛大に挙げた。"
+      },
+      {
+        "id": "C",
+        "text": "商品の品質を高めるために、最高の素材を妥協した。"
+      },
+      {
+        "id": "D",
+        "text": "先生の妥協のおかげで、無事に進学できた。"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M7_01",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "mondaiTitle": "Mondai 7: 文法形式",
+    "stem": "彼は多忙なスケジュールの（　　）、ボランティア活動を続けている。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "合間を縫って"
+      },
+      {
+        "id": "B",
+        "text": "合間を割いて"
+      },
+      {
+        "id": "C",
+        "text": "合間を惜しんで"
+      },
+      {
+        "id": "D",
+        "text": "合間を踏まえて"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M7_02",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "mondaiTitle": "Mondai 7: 文法形式",
+    "stem": "プロの料理人（　　）、包丁の手入れには人一倍気を使っている。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "とあって"
+      },
+      {
+        "id": "B",
+        "text": "にしては"
+      },
+      {
+        "id": "C",
+        "text": "と相まって"
+      },
+      {
+        "id": "D",
+        "text": "とあれば"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M7_03",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "mondaiTitle": "Mondai 7: 文法形式",
+    "stem": "事態がここまで悪化した以上、もはや社長自ら謝罪（　　）。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "するにすぎない"
+      },
+      {
+        "id": "B",
+        "text": "せざるを得ない"
+      },
+      {
+        "id": "C",
+        "text": "するわけにはいかない"
+      },
+      {
+        "id": "D",
+        "text": "しないものでもない"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M7_04",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "mondaiTitle": "Mondai 7: 文法形式",
+    "stem": "これほど精密な技術は、長年の鍛錬を重ねた熟練の職人（　　）の技だ。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "をはじめ"
+      },
+      {
+        "id": "B",
+        "text": "ならでは"
+      },
+      {
+        "id": "C",
+        "text": "にあって"
+      },
+      {
+        "id": "D",
+        "text": "をよそに"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M7_05",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "mondaiTitle": "Mondai 7: 文法形式",
+    "stem": "彼の説明は専門用語ばかりで、一般の人には理解し（　　）ものだった。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "やすい"
+      },
+      {
+        "id": "B",
+        "text": "かねる"
+      },
+      {
+        "id": "C",
+        "text": "がたい"
+      },
+      {
+        "id": "D",
+        "text": "っこない"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M7_06",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "mondaiTitle": "Mondai 7: 文法形式",
+    "stem": "どんなに科学技術が進歩（　　）、自然の驚異を完全に支配することはできない。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "しようと"
+      },
+      {
+        "id": "B",
+        "text": "したところで"
+      },
+      {
+        "id": "C",
+        "text": "するにつけ"
+      },
+      {
+        "id": "D",
+        "text": "するからには"
+      }
+    ]
+  }
+]

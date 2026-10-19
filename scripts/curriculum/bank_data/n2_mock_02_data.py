@@ -396,7 +396,7 @@ def get_n2_mock_02_sec1_items():
             "N2_02_M4_06",
             "N2-MO-CONT",
             "Mondai 4: 文脈規定",
-            "初対面の相手にも（　　）と挨拶ができる人は、第一印象が良い。",
+            "初対面の相手にも（　　）に挨拶ができる人は、第一印象が良い。",
             "にこやか",
             [("A", "しとやか"), ("B", "にこやか"), ("C", "さわやか"), ("D", "おろそか")],
             "B",
@@ -712,30 +712,30 @@ def get_n2_mock_02_sec1_items():
             "N2_02_M7_04",
             "N2-GR-FORM",
             "Mondai 7: 文法形式",
-            "これほど精密な技術は、長年の鍛錬を重ねた熟練の職人（　　）可能だ。",
+            "これほど精密な技術は、長年の鍛錬を重ねた熟練の職人（　　）の技だ。",
             "ならでは",
             [("A", "をはじめ"), ("B", "ならでは"), ("C", "にあって"), ("D", "をよそに")],
             "B",
-            "〜ならでは: Chỉ có... mới có thể làm được (nhấn mạnh đặc tính độc đáo, tài năng độc nhất vô nhị). Đi kèm với職人ならでは.",
+            "〜ならではの N: Chỉ có ở N mới có được, nét độc đáo/tuyệt kỹ đặc trưng chỉ riêng ai đó mới có thể tạo ra (cấu trúc danh từ: N1 + ならではの + N2). Kỹ thuật tinh xảo đến mức này là tuyệt kỹ chỉ có ở những người thợ lành nghề qua nhiều năm tôi luyện.",
             {
-                "A": "〜をはじめ: Tiêu biểu trước hết là A (kéo theo B, C...).",
-                "C": "〜にあって: Trong hoàn cảnh đặc biệt đó...",
-                "D": "〜をよそに: Bất chấp, phớt lờ dư luận/cảnh báo xung quanh."
+                "A": "〜をはじめ: Đi theo mẫu 'Aをはじめ（として）B' để đưa ra ví dụ tiêu biểu, không tạo thành ngữ pháp tự nhiên '職人をはじめの技'.",
+                "C": "〜にあって: Chỉ hoàn cảnh, tình huống đặc thù (ở vào hoàn cảnh...), không dùng bổ nghĩa danh từ '職人にあっての技'.",
+                "D": "〜をよそに: Mang nghĩa 'bất chấp, phớt lờ dư luận/cảnh báo', không đi với '〜をよそにの技'."
             }
         ),
         (
             "N2_02_M7_05",
             "N2-GR-FORM",
             "Mondai 7: 文法形式",
-            "彼の説明は専門用語ばかりで、一般の人には理解（　　）ものだった。",
+            "彼の説明は専門用語ばかりで、一般の人には理解し（　　）ものだった。",
             "がたい",
             [("A", "やすい"), ("B", "かねる"), ("C", "がたい"), ("D", "っこない")],
             "C",
-            "V-masu + がたい: Khó lòng mà... (về mặt tâm lý, nhận thức, tình cảm: 理解しがたい - khó mà hiểu nổi, 信じがたい - khó mà tin được).",
+            "V-masu + がたい: Khó lòng mà... (về mặt nhận thức, tâm lý, năng lực tiếp nhận: 理解しがたい - khó hiểu nổi, 信じがたい - khó tin). Ở đây lời giải thích toàn thuật ngữ chuyên ngành nên là thứ khó lòng hiểu được đối với người bình thường.",
             {
-                "A": "やすい: Dễ dàng (trái ngược hoàn toàn ngữ cảnh toàn thuật ngữ chuyên môn).",
-                "B": "かねる: Đứng sau thể liên từ lịch sự để từ chối dịch vụ (分かりかねます, 引き受けかねます), không ghép trực tiếp thành 理解かねるもの.",
-                "D": "っこない: Tuyệt đối không thể (văn nói thân mật, không dùng trong văn viết trang trọng này)."
+                "A": "やすい: Diễn tả tính dễ dàng (理解しやすい - dễ hiểu), trái ngược hoàn toàn với vế trước 'toàn thuật ngữ chuyên môn'.",
+                "B": "かねる: Thường diễn tả sự bất khả về mặt tâm lý hoặc lịch sự từ chối của ngôi thứ nhất (分かりかねます), không đi với danh từ khách quan thành '理解しかねるものだった'.",
+                "D": "っこない: Khẩu ngữ suồng sã tuyệt đối không thể (理解できっこない), không đứng trước danh từ bổ nghĩa 'ものだった'."
             }
         ),
         (
@@ -744,11 +744,11 @@ def get_n2_mock_02_sec1_items():
             "Mondai 7: 文法形式",
             "どんなに科学技術が進歩（　　）、自然の驚異を完全に支配することはできない。",
             "しようと",
-            [("A", "しようと"), ("B", "したところで"), ("C", "するにつけ"), ("D", "するからには")],
+            [("A", "しようと"), ("B", "したあげく"), ("C", "するにつけ"), ("D", "するからには")],
             "A",
             "どんなに + V-よう（意向形） + と（も）: Dù cho... đến mức nào đi chăng nữa thì kết quả vẫn không đổi (どんなに進歩しようと - Dù công nghệ có tiến bộ đến đâu).",
             {
-                "B": "したところで: Dù đã làm việc đó rồi thì cũng vô ích (thường không đi trực tiếp với phó từ どんなに ở đầu câu mang nghĩa giả định tiến trình).",
+                "B": "したあげく: Sau một hồi... thì kết quả xấu (không đi với phó từ giả định どんなに ở đầu câu).",
                 "C": "するにつけ: Cứ mỗi lần nhìn/nghe thấy A là lại cảm thấy B.",
                 "D": "からには: Một khi đã... thì phải..."
             }
@@ -1633,5 +1633,65 @@ def get_n2_mock_02_sec1_items():
             "difficultyEstimate": 2,
             "status": "QA_VERIFIED"
         })
+
+    # =========================================================================
+    # REBALANCE ANSWER KEY DISTRIBUTION (ELIMINATE 35 B / 6 D PLACEMENT BIAS)
+    # Rebalances Section 1 to: A=21, B=16, C=20, D=18 with 100% semantic fidelity.
+    # Star questions (Mondai 8) are strictly preserved without permutation.
+    # =========================================================================
+    SWAP_B_D = {
+        "N2_02_M4_01", "N2_02_M4_04", "N2_02_M4_07", "N2_02_M5_03", "N2_02_M6_01",
+        "N2_02_M7_03", "N2_02_M7_07", "N2_02_M7_10", "N2_02_M11_01", "N2_02_M11_04",
+        "N2_02_M13_01", "N2_02_M14_02"
+    }
+    SWAP_B_A = {
+        "N2_02_M4_03", "N2_02_M5_01", "N2_02_M11_02", "N2_02_M11_08", "N2_02_M14_01"
+    }
+    SWAP_B_C = {
+        "N2_02_M7_09", "N2_02_M13_03"
+    }
+
+    def _swap(item, opt1, opt2):
+        orig_opts = {o['id']: o['text'] for o in item['options']}
+        orig_dist = dict(item.get('distractorExplanations', {}))
+        orig_key = item['correctAnswer']
+        target_text = orig_opts[orig_key]
+
+        new_text_opt1 = orig_opts[opt2]
+        new_text_opt2 = orig_opts[opt1]
+
+        new_options = []
+        for o in item['options']:
+            if o['id'] == opt1:
+                new_options.append({'id': opt1, 'text': new_text_opt1})
+            elif o['id'] == opt2:
+                new_options.append({'id': opt2, 'text': new_text_opt2})
+            else:
+                new_options.append(dict(o))
+
+        new_key = opt2 if orig_key == opt1 else (opt1 if orig_key == opt2 else orig_key)
+        new_opts_map = {o['id']: o['text'] for o in new_options}
+        assert new_opts_map[new_key] == target_text
+
+        new_dist = {}
+        for oid, text in new_opts_map.items():
+            if oid == new_key:
+                continue
+            old_oid = [k for k, v in orig_opts.items() if v == text][0]
+            if old_oid in orig_dist:
+                new_dist[oid] = orig_dist[old_oid]
+
+        item['options'] = new_options
+        item['correctAnswer'] = new_key
+        item['distractorExplanations'] = new_dist
+
+    for q in items:
+        qid = q['id']
+        if qid in SWAP_B_D:
+            _swap(q, 'B', 'D')
+        elif qid in SWAP_B_A:
+            _swap(q, 'B', 'A')
+        elif qid in SWAP_B_C:
+            _swap(q, 'B', 'C')
 
     return items

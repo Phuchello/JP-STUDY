@@ -1,0 +1,302 @@
+[
+  {
+    "id": "N2-G7-007",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "The verb stem before the blank is 「読め」 (the potential masu-stem of 読む: 読める → 読め-). The grammar pattern 「〜っこない」 attaches directly to the masu-stem of verbs (very frequently potential verbs: できっこない, 読めっこない) to express strong conversational impossibility ('there is no way that / definitely cannot'). In contrast, 「〜かねない」 attaches to basic masu-stem (読みかねない) and denotes a risk of negative outcome; 「〜きれない」 attaches to basic masu-stem (読みきれない, not *読めきれない); and 「〜ようがない」 attaches to basic masu-stem (読みようがない). Thus, 「読めっこない」 (Option D) is morphologically and pragmatically the only correct fit.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-G7-008",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The construction 「〜には、...ものがある」 is an established N2 expression used to evaluate an experience or performance, meaning 'there is something truly [moving/impressive] about...' or 'it possesses a quality that deeply strikes one'. Here, 「聴衆の心を揺さぶるものがある」 ('there is something that shakes/moves the audience's hearts') collocates naturally with the topic phrase 「彼の情熱的な演説には」. Distractor A (ことになっている) denotes a rule/schedule; B (わけにはいかない) expresses moral inability/restraint; D (に違いない) requires a different sentence framing (typically without the topic particle 〜には in this evaluative structure).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-G7-009",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The pattern 「〜にこたえて」（に応えて） means 'in response to / meeting (requests, expectations, calls, encore)'. It has a fixed collocation with audience demands such as 「アンコールにこたえて」 ('in response to the enthusiastic encore'). Distractor A (に沿って) means 'along / in accordance with (guidelines, plans)'; C (に即して) means 'conforming to (reality, facts)'; D (に基づいて) means 'based on (data, principles)'. None of the distractors collocate with 'encore'.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-G7-010",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "The sentence contrasts two opposing aspects of city life: convenience versus high living costs. The standard N2 grammar point for contrasting two opposing traits of the same subject is 「〜反面（で）」 (written with the kanji 反, meaning reverse/opposite). Na-adjectives connect as 「便利な反面」. Distractor B uses the incorrect kanji 「半面」 (which means 'half face/half surface' rather than 'on the other hand'); C (反して) requires the particle に (に反して); and A (一方) normally requires で (一方で) when contrasting opposing sides, though it can occasionally appear alone in less formal writing.",
+    "alternativeDefensibleAnswers": [
+      "A"
+    ],
+    "concerns": "Option D (「反面」) is the textbook N2 target contrasting two facets of the same entity (with Option B being an orthographic distractor using 「半面」). However, Option A (「一方」) can sometimes be used contrastively even without 「で」, which may create a mild distractor defensibility concern."
+  },
+  {
+    "id": "N2-G7-011",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "The canonical JLPT N2 grammar pattern for binary polar nouns (such as 有無, 要否, 賛否) is 「〜の有無にかかわらず」 ('regardless of the presence or absence of ~'). Therefore, 「経験の有無にかかわらず」 (Option D) is the standard grammatical structure. Distractor B (にもかかわらず) means 'despite/although' and requires an established fact or clause rather than a neutral binary condition; C (をかねて) expresses dual purposes ('combined with'). However, Option A (をとわず) is also used colloquially/idiomatically in everyday job advertisements (経験の有無を問わず), though prescriptive grammar favors either 「経験を問わず」 or 「経験の有無にかかわらず」.",
+    "alternativeDefensibleAnswers": [
+      "A"
+    ],
+    "concerns": "While Option D (「にかかわらず」) is the prescriptive, canonical pairing with 「有無」 (〜の有無にかかわらず), Option A (「をとわず」, written in hiragana) is frequently found in real-world recruitment postings (「経験の有無を問わず」), making it a plausible alternative defensible answer."
+  },
+  {
+    "id": "N2-G7-012",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The N2 grammar pattern 「〜を問わず」 means 'regardless of / irrespective of' and connects directly to nouns denoting broad spectrums or paired categories, such as 「年齢や性別を問わず」 ('regardless of age or gender'). Distractor B (によらず) is used in specific patterns like 「〜のいかんによらず」 or 'regardless of method', but does not collocate with 'age or gender'; C (を限りに) means 'as of / starting from the end of'; D (を契機に) means 'taking as an opportunity / triggered by'.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-G8-001",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The grammatically coherent sentence is: 「新製品の 売れ行き(A) 次第では(B) ★生産ラインの(C) 増設も(D) 検討しなければならない。」 The conditional pattern 「〜次第では」 ('depending on ~') follows the noun 「売れ行き」. The noun phrase 「生産ラインの増設」 forms the object of consideration marked by 「も」, leading to the predicate 「検討しなければならない」. Slot 3 (★) is Option C (「生産ラインの」).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-G8-002",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The grammatically coherent sentence is: 「どんなに 困難な(A) 状況にあっても(D) ★諦める(C) ことなく(B) 前進し続けるべきだ。」 The structure 「どんなに〜ても」 pairs with 「困難な状況にあっても」 ('no matter how difficult the situation may be'). Then 「諦めることなく」 ('without giving up') modifies 「前進し続けるべきだ」 ('one should keep moving forward'). Slot 3 (★) is Option C (「諦める」).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-G8-003",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The canonical JLPT sentence structure is: 「この計画は 予算の(A) 都合上(B) ★計画通りに(C) 進めることが(D) 困難になってきた。」 The adverbial reason phrase 「予算の都合上」 ('due to budget constraints') precedes the nominalized clause 「計画通りに進めることが困難になってきた」 ('proceeding according to plan has become difficult'). Slot 3 (★) is Option C (「計画通りに」).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": "The canonical order is A-B-C-D (Star: C). While an inverted topical order C-D-A-B (Star: A) might be conceivable in casual spoken Japanese, it is non-standard for JLPT sentence assembly items."
+  },
+  {
+    "id": "N2-G8-004",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The grammatically coherent sentence is: 「長年の 研究の(D) 末に(C) ★新しい(A) 治療法を(B) ついに発見した。」 The pattern 「〜の末に」 ('after a long period of ~') follows 「長年の研究の」. The object noun phrase 「新しい治療法を」 connects to the predicate 「ついに発見した」. Slot 3 (★) is Option A (「新しい」).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-G8-005",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The grammatically coherent sentence is: 「彼は 多忙を(B) 極める(A) ★スケジュールを(C) 縫って(D) ボランティア活動に参加した。」 The idiomatic phrase 「多忙を極める」 ('reaching the height of busyness') forms an adnominal clause modifying 「スケジュール」, and 「〜を縫って」 ('squeezing through / carving time out of ~') connects to the action 「ボランティア活動に参加した」. Slot 3 (★) is Option C (「スケジュールを」).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-G9-001",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The passage describes a prevalent societal tendency in paragraph 1: people strongly tend to view silence negatively, and quick conversational tempo is prone to being regarded as superior communication skill (「否定的に捉える傾向が強い...みなされがちである」). This general tendency is then contrasted in paragraph 2 by 「しかし」. The pattern 「〜がちである」 ('tends to be / is prone to being') accurately reflects this general social trend. Distractor A (みなされるわけがない) denies the trend entirely; B (みなすにすぎない) is active and lacks the proper agent/context; D (みなさざるを得ない) denotes personal inevitability contrary to the author's critique.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-G9-002",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The N2 grammar pattern 「動詞辞書形＋あまり（に）」 denotes an excessive psychological state driving someone to an unfortunate or undesirable action: 'out of excessive [fear/anxiety/etc.]'. Here, 「沈黙を恐れるあまり、安易な言葉で間を埋めようとする行為」 ('the act of trying to fill pauses with facile words out of excessive fear of silence') perfectly fits the negative consequence 「対話の質を損なうことになりかねない」. Distractor A (うえに) indicates simple addition; C (どころか) means 'far from'; D (反面) indicates contrast.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-G9-003",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The N2 grammar pattern 「〜てこそ」 expresses an indispensable prerequisite: 'only when / only because ~ (can a positive outcome be realized)'. Here, 「相手の沈黙にじっと耳を傾け、その奥にある心情を汲み取ろうとする姿勢があってこそ、真の意味での心の通い合いが生まれるのである」 ('Only with an attitude of listening attentively to silence can true mutual understanding emerge') establishes the essential condition for deep communication. Distractor A (がある反面) and B (がある一方で) express contrast; D (があるにつれて) indicates proportional change.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-G9-004",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The grammar pattern 「〜にほかならない」 attaches to nouns/particles to state an emphatic assertion: 'is nothing other than / is none other than'. Following the particle 「に」, the author asserts: 「沈黙は単なる空白ではなく、豊かな思索を育む土壌にほかならない」 ('Silence is not merely an empty blank, but is nothing other than fertile soil nurturing rich contemplation'). Distractor A (すぎない) would diminish silence ('merely soil'), contradicting the praise; B (っこない) and D (かねない) attach to verb stems, not noun + に.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-G9-005",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The final sentence delivers the author's concluding appeal to the reader: 「我々は沈黙との付き合い方を今一度、見つめ直すべきではないだろうか」 ('Should we not reconsider our relationship with silence once again?'). The rhetorical appeal 「〜べきではないだろうか」 ('ought we not to ~') is standard for concluding essays. Distractor A (まいか) is negative volition/conjecture; B (っこないだろう) expresses impossibility; D (かねるだろう) expresses inability.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-RD-SHOR-001",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The passage argues that job fulfillment (やりがい) is not predetermined by simply choosing what one loves, but is cultivated over time through daily sincere practice and being appreciated by others: 「日々の業務に誠実に向き合い、周囲から感謝される経験を積み重ねる中で、後から「やりがい」が育まれていく...自らの日々の実践を通じて獲得していくものなのだ」. Option C directly encapsulates this core message. Option A contradicts the text; B recommends having no passion, which is an extreme distortion; D claims being thanked is the 'sole purpose', which is unsupported.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-RD-SHOR-002",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The passage explicitly states: 「新たな挑戦に伴う予期せぬ失敗は、次なる成功のための貴重なデータとして歓迎されるべきである。失敗を個人の資質の問題として非難するのではなく、組織全体で知見を共有し、次への改善策を講じる企業風土こそが、持続的な成長を可能にする」. Option B ('Failures accompanying new challenges should be shared as valuable organizational learning') perfectly matches this statement. Option A contradicts the text (fearing failure stifles innovation); C contradicts the passage's explicit warning against blaming individuals; D favors sticking to precedent, which the author criticizes.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-RD-SHOR-003",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "The author notes that while social media allows instant connection, convenient screen interaction paradoxically increases the value of in-person non-verbal communication (breathing, glances, sharing silence), and relying solely on text risks misunderstandings. Option D ('Now that SNS has become convenient, we should re-recognize the value of non-verbal communication in in-person dialogue') accurately summarizes the author's thesis. Option A calls for banning SNS, an extreme fabrication; B claims in-person communication is unnecessary, the opposite of the author's view; C introduces an irrelevant national restriction.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-RD-SHOR-004",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The passage discusses how hyper-focus on time-performance (タイパ) deprives the brain of 'margins' (余白), arguing that creative ideas and deep insights are born in seemingly unproductive idle time: 「スケジュール帳の空白を恐れ...『余白』が奪われてしまう。創造的なアイデアや深い洞察は、何もしないぼんやりとした時間...の中でこそ醸成される」. Option B ('Do not fill schedules solely with efficiency, but value having 'blank/idle' time to foster creative thought') accurately captures the author's claim. Options A and C contradict the critique of efficiency; D is an exaggerated distortion urging complete laziness.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-RD-SHOR-005",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The author defines genuine inheritance of tradition in the concluding sentence: 「真の伝統の継承とは、先人の精神を受け継ぎつつも、現代のライフスタイルに調和する新たなデザインや用途を果敢に取り入れていく変革のプロセスそのものなのだ」. Option A ('Carrying on the spirit of predecessors while flexibly evolving forms to match modern lifestyles and needs') directly matches this definition. Option B represents the rigid misconception the author explicitly criticizes; C and D introduce fabricated claims not mentioned in the text.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-MED-01-Q01",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "Paragraph 1 states: 「古典的な進化論の視点に立てば、自らの生存と生殖の確率を最大化することが個体の目的であるはずだ。したがって、自分に直接の見返りがない行動は淘汰されるはずである」. Under classical evolutionary theory, actions that do not directly benefit individual survival/reproduction should be eliminated (淘汰される). Option D ('An irrational action that should disappear in the course of evolution because it does not directly benefit individual survival or interest') accurately reflects this viewpoint. Option A reflects modern group-level thinking; B and C do not represent the theoretical premise stated.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-MED-01-Q02",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "Paragraph 2 explains: 「人間は過酷な自然環境を生き抜くために、強固な集団（コミュニティ）を形成し、互いに協力し合う能力を進化させてきた。集団全体の生存確率が高まることが、結果としてその構成員である個人の生存にも寄与したのである」. Option D ('By cooperating and helping each other in groups, the survival rate of the entire group increased, which in turn contributed to individual survival') directly paraphrases this mechanism. Options A, B, and C are unsupported by the text.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-MED-01-Q03",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The final sentence concludes: 「つまり、利他行動とは単なる道徳的な義務感から生じるものではなく、人間の生存戦略として遺伝子レベルで組み込まれた、生物学的に自然な欲求なのである」. Option C ('Not merely a moral duty, but a biological survival strategy hardwired into human brains and genes') perfectly matches this conclusion. Option A misinterprets it as selfish vanity; B misclaims it is post-natal artificial intellect; D mischaracterizes it as a supernatural miracle.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-MED-02-Q01",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "Paragraph 1 describes rural communities as having strict surveillance and privacy limits (「常に周囲に監視されており、慣習や掟に従わない者は容赦なく排除された」) and contrasts this with modern urban spaces that offer anonymity and freedom (「匿名性と自由を最大の魅力として...誰にも干渉されず、自分の好きなライフスタイルを選択できる」). Option B ('Rural areas had surveillance and were suffocating, whereas cities brought non-interference, freedom, and anonymity') accurately summarizes this contrast. Options A, C, and D distort the text.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-MED-02-Q02",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "Paragraph 2 identifies the price of freedom: 「深刻な『孤独』と『孤立』の問題である...困難に直面したときに無条件で自分を支えてくれるセーフティネットが存在しない」. Option C ('While there is no interference from others, interpersonal relationships that unconditionally support one in times of trouble have been lost') captures this exact point. Options A, B, and D mention irrelevant topics not discussed in the text.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-MED-02-Q03",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The author concludes: 「今我々に求められているのは、旧来の息苦しい共同体へ回帰することではなく、個人の自由を尊重しながらも、緩やかにつながり合える『新しい共同性』を再構築することではないだろうか」. Option A ('Building a new community that loosely and flexibly connects people while respecting individual freedom') directly matches this proposal. Option B urges returning to rural codes, which the author explicitly rejects; C and D advocate extreme transactionalism or total isolation.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-MED-03-Q01",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "Paragraph 1 states: 「競合他社との差別化を図るために『機能の追加』が繰り返される...しかしその結果、取扱説明書を読まなければ基本操作すらできない、複雑で扱いにくい製品が市場に溢れかえることになった」. Option B ('As a result of excessively adding features for differentiation, operations became complex and unwieldy') directly reflects this stated problem. Options A, C, and D are fabricated distractions.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-MED-03-Q02",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "Paragraph 2 and 3 state: 「実際には足し算よりもはるかに高度な判断力と技術が要求される。何かを削るためには、『何が本当に不可欠なのか』を完璧に理解していなければならない」. Option A ('It requires high-level discernment to completely understand and distinguish what elements are truly indispensable') perfectly mirrors this difficulty. Options B, C, and D introduce irrelevant claims (materials cost, sales halved, AI requirements).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-MED-03-Q03",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The final sentence concludes: 「真に優れたデザインとは、これ以上付け足すものがない状態ではなく、これ以上削るものがない極限の調和に宿るのである」. Option B ('A state where the essence is honed to the limit where nothing more can be stripped away') directly paraphrases this core statement. Option A describes the flawed feature-stuffing approach; C and D describe complex ornamentation or expert-only products.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-INTE-01-Q01",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "Speaker A praises cashless payments for speed, efficiency, and safety. Speaker B begins with: 「確かにキャッシュレス決済の利便性は否定できないが、全面的な移行には慎重であるべきだ」. Both speakers acknowledge the high convenience that cashless payment brings. Option D ('Both acknowledge the high convenience that cashless payments provide') is the correct shared point. Option A is contradicted by B; B is only A's view; C is unsupported.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-INTE-01-Q02",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "Speaker B raises three specific hazards of complete cashless transition: 1) total paralysis of payments during power/telecom outages in natural disasters (「災害時に停電や通信障害が発生した場合...」), 2) exclusion of elderly/vulnerable people unfamiliar with digital devices (「社会的弱者が取り残される危険性」), and 3) risk of reckless spending among youth due to diminished sensation of physical money leaving one's hand (「若年層の無計画な浪費を助長する懸念」). Option A concisely summarizes all three points. Options B, C, and D are not mentioned in Speaker B's text.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-LONG-01-Q01",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "Paragraph 1 states: 「科学の成果なくして現代文明の一日たりとも成り立たない。しかし皮肉なことに、技術が高度に専門化・ブラックボックス化するにつれて、一般の人々の科学に対する理解と関心はむしろ乖離の一途をたどっている」. Option B ('Despite living completely dependent on the blessings of science and technology, people's understanding of its underlying principles has become sparse') directly conveys this irony. Options A, C, and D are unsubstantiated fabrications.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-LONG-01-Q02",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "Paragraph 2 defines scientific literacy: 「単に教科書的な専門知識や公式を暗記していることではない。未知の現象や真偽不明の言説に直面したときに、『どのようなデータや実験に基づいているのか』『反証可能性はあるのか』と論理的に問い直す思考様式、すなわち『科学的なものの見方』を身につけていることである」. Option A ('A thinking attitude of logically examining the evidence and falsifiability of claims, rather than memorizing specialized knowledge') directly reflects this definition. Option B demands reading academic papers; C is IT skills; D is cynical contrarianism, which paragraph 3 explicitly cautions against.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-LONG-01-Q03",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The final paragraph concludes: 「科学とは、完成された不変の真理の体系ではない。仮説を立て、実験と観察によって検証し、間違いが判明すれば勇気を持って修正していく、果てしない自己訂正の営みである。この科学の開かれた精神こそが、不確実な未来を航海する市民にとって最も頼るべき羅針盤となるのである」. Option A ('An endless practice of self-correction that courageously modifies errors, serving as a compass for navigating an uncertain era') captures both the essence of science and its significance for citizens. Option B is the exact antithesis of the passage; C and D are unsupported.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-INFO-01-Q01",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "Yamada's conditions are: 1) weekday evening after work, 2) works in Midori-cho, 3) can input text. Course 1 (入門) is held Tuesday morning 10:00-12:00 (not evening). Course 3 (応用) is held Saturday afternoon 14:00-17:00 (weekend, not weekday evening). Course 2 (実用: ビジネスExcel基礎) is held Thursday 19:00-21:00 (weekday evening after work), requires smooth text entry (which Yamada meets), gives priority to Midori-cho residents/workers, and costs 4,000 yen tuition + 1,500 yen materials fee = 5,500 yen total. Option C matches all criteria. Option D violates the rule prohibiting duplicate applications.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-INFO-01-Q02",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The notice explicitly warns under 注意点: 「開講日の3日前以降のキャンセルは、受講料の返金ができませんのでご注意ください」 ('Cancellations made 3 days or less before the start date are not eligible for a tuition refund'). Option B ('If cancelled after passing 3 days prior to the start date, the tuition fee will not be refunded at all') accurately states this policy. Option A falsely claims tuition discounts for duplicate courses (duplicates are forbidden); Option C claims all courses are first-come-first-served (courses 2 and 3 use lottery); Option D falsely claims notifications are telephone-only on Oct 20 (they are sent by email or mail by Oct 25).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  }
+]

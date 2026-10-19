@@ -1,0 +1,242 @@
+[
+  {
+    "id": "N2-M1-L01",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "When the man asks whether he should consult Tanaka in Advertising before or after recalculating the budget, the section manager explicitly instructs: 『まずは予算の再計算を最優先でお願いね。プレゼン資料の作成はその後でいいから』. Therefore, his immediate next task is recalculating the detailed breakdown of the budget (Option D).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M1-L02",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The wife mentions that while electricity and gas were handled online, the water bureau must be contacted by phone before 5 PM today. The husband immediately agrees: 『分かった、今すぐ電話しておくよ』. Bulky trash (B) was already booked, packing boxes (C) is scheduled for the weekend, and internet transfer (D) was handled yesterday by the wife.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M1-L03",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The female employee reports having booked the hotel but not yet the Shinkansen tickets. The male colleague advises reserving reserved seats first due to upcoming holiday crowds (『先に指定席を確保してくれたまえ』), and she replies: 『すぐにネットで指定席を予約します』. Expense reports (A) are deferred until after returning.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M1-L04",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The professor points out two specific issues: adding missing units to the vertical axis of the Chapter 3 graph (『縦軸の単位が抜けている』) and updating old literature citations to the latest papers (『最新の論文に差し替えた方が説得力が増す』), confirming no changes are needed for presentation phrasing. This exactly corresponds to Option C.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M1-L05",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "Table settings and glasses (C) are already completed. The manager instructs her to put out the special menu board at the entrance first, and check cash register change afterwards (『今日の特別メニューの看板を入り口に出してきてくれるかい？ その後で、レジのお釣りの確認をしておいてほしいんだ』). She responds that she will write the sign and put it out immediately (Option B).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M2-L01",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The man explicitly denies dissatisfaction with pay, benefits, or workplace relationships. Instead, he explains that in a large organization, decisions on new ideas took too long, motivating him to seek an environment where he can take responsibility and rapidly pursue challenges (『自分の力で責任を持ってスピーディーに挑戦できる環境に身を置きたい』), exactly matching Option C.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M2-L02",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The store clerk notes that beginners often focus on lightness or design, but states: 『実は最も重要なのは「クッション性の高さ」です』 because running impact is three times body weight on knees and ankles, and thick soles absorb shock to prevent injury (Option A).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M2-L03",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The expert states that most people who abandon reading get trapped in the preconceived notion that they must read word-for-word from start to finish without skipping anything (『「最初から最後まで一言一句漏らさず読まなければならない」という思い込みに縛られています』), causing them to stop when hitting difficult or dull sections (Option B).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M2-L04",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "While Company A had richer features and sleek design, Company B was selected because data security is the paramount corporate requirement (『最重要課題であるセキュリティ面を精査したところ、B社は…情報漏洩リスクを最小限に抑えられる』; 『機能の多さよりも安全性が最優先だな』), matching Option C.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M2-L05",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The shop owner explains that traditional wooden boxes felt too stiff and unapproachable as casual souvenirs for young people. Repackaging into bright, eco-friendly washi boxes allowed younger generations and female office workers to purchase comfortably (『若い方々が日常の手土産として手に取りにくい…若い世代やビジネス街の女性客にも気軽に買っていただけるように』), matching Option B.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M2-L06",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The doctor warns against extreme dietary restrictions and medication, recommending as the most effective remedy chewing each bite 30 times and taking a light 15-minute walk immediately after meals to curb blood sugar spikes (『一口ごとに30回よく噛んで時間をかけて食べること、そして食後すぐに座り込まず、15分程度の軽いウォーキングをすること…これが最も効果的なんですよ』), matching Option B.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M3-L01",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The professor presents experimental evidence that rooftop greening reduces cooling energy load by >20% (energy saving) and buffers heavy rainfall to prevent urban water inundation (disaster prevention), concluding that rooftop greening serves as vital infrastructure for both energy reduction and disaster mitigation (Option A).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M3-L02",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The expert cautions against obsessing over sleep tracking scores, arguing that the essential key to sound sleep is creating a pre-bedtime transition period by disconnecting from digital screens an hour before bed and relaxing with a warm bath or quiet music to stimulate parasympathetic dominance (Option C).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M3-L03",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The curator contrasts Western classical symmetry with Japanese tea-ceremony pottery, which embodies 'wabi-sabi' by discovering profound aesthetic depth and emotional resonance in imperfection, natural glaze irregularities, and aging through use (『不完全さや経年変化の中にこそ…情緒が宿る』), matching Option C.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M3-L04",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The consultant argues that dwelling on past mistakes causes defensiveness, advocating 'feedforward': acknowledging concrete contributions first, then facilitating dialogue focused on future behavioral options to drive autonomous professional growth (Option C).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M3-L05",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The speaker emphasizes that recycling alone cannot keep pace with surging plastic waste due to high processing energy and cost. True sustainability demands 'Reduce'—eliminating disposable packaging and single-use containers at the source (『使い捨て容器や過剰包装などの発生そのものを元から断つことが不可欠』), matching Option A.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M4-L01",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "In response to a polite request to look over tomorrow's presentation slides (『目を通していただけないでしょうか』), Choice 1 (『ええ、喜んで拝見します』) uses appropriate humble honorific (拝見する) to agree to review the colleague's document. Choice 2 inappropriately instructs the requester to look over it, and Choice 3 is past tense nonsense.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M4-L02",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "When praised with 『君のおかげで大成功だったよ』 (It was a great success thanks to you), Choice 2 (『とんでもないです。チームの皆さんのおかげです』) exemplifies standard Japanese modesty by deflecting individual credit to team collaboration. Choice 1 is boastful/arrogant, and Choice 3 is a refusal formula for hospitality.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M4-L03",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "To a subordinate asking 『今お時間よろしいでしょうか』 (Do you have time right now?), Choice 1 (『ええ、今なら大丈夫だよ。何かな』) is the natural, cooperative response confirming availability and inviting discussion. Choice 2 is unnatural phrasing, and Choice 3 nonsensically claims consultation has already concluded.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M4-L04",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "When informed that today's tickets are completely sold out (『完売となっておりまして…』), Choice 2 (『そうですか、残念ですがまた出直します』) naturally acknowledges the sold-out status with polite resignation and intent to return later. Choice 1 offers to buy all sold-out tickets, and Choice 3 thanks the clerk for selling tickets that were not available.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M4-L05",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "When a coworker despairs about an unrealistic deadline (『明日までに終わらせろなんて、無理に決まってるよ』), Choice 1 (『そう言わずに、手分けしてやってみようよ』) provides constructive, encouraging teamwork. Choice 2 contains an ungrammatical past tense contradiction, and Choice 3 illogically accelerates the impossible deadline to today.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M4-L06",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "In response to the report that guest Tanaka has arrived (『田中様がお見えになりました』; sonkeigo for 来た), the manager appropriately instructs Choice 2: 『そうか、第2応接室にご案内してくれたまえ』 (Show him to Reception Room 2). Choice 1 misunderstands お見えになる as literal looking, and Choice 3 asks if the newly arrived guest already left.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M4-L07",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "When a friend apologizes for being unable to attend yesterday's party (『行けなくて本当に悪かったね』), Choice 1 (『ううん、気にしないで。また今度集まろう』) graciously reassures the speaker and proposes meeting next time. Choice 2 is excessively harsh and socially inappropriate, and Choice 3 contradicts the host/attendee perspective.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M4-L08",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The speaker expresses sharp disappointment regarding a new product using the idiom 『期待外れもいいところだったよ』 (It was completely disappointing). Choice 1 (『え、そんなにいまいちだったの？』) correctly recognizes いまいち as synonymous with 期待外れ. Choice 2 asserts the exact opposite, and Choice 3 confuses 期待外れ with going outside (外).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M4-L09",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "When politely requested to write one's name on a form (『お名前をご記入いただけますか』), Choice 1 (『はい、分かりました。どこに書けばいいですか』) accedes to the request and asks where to sign. Choice 2 inappropriately uses どういたしまして and instructs the clerk to fill it in, while Choice 3 claims already knowing the clerk's name.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M4-L10",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "When asked if one has visited the new station cafe whose coffee was delicious (『もう行ってみた？ コーヒーがすごく美味しかったよ』), Choice 1 (『へえ、知らなかった。今度行ってみるね』) naturally responds with interest and intent to visit. Choice 2 nonsensically claims having made coffee there, and Choice 3 contradicts the speaker's statement.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M4-L11",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "When advised to take an umbrella because it looks like rain (『傘を持って行ったほうがいいんじゃない？』), Choice 1 (『そうだね、折りたたみ傘を鞄に入れておくよ』) agrees and states the practical preparatory action. Choice 2 expresses past relief before even leaving, and Choice 3 makes an illogical statement about not buying an umbrella if it rains.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M5-L01",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The mandatory conditions are: 25 participants, budget <=6,000 yen/person including all-you-can-drink, completely private room (完全個室) for attending executives, and station proximity. Restaurant #1 (8,000 yen, 15 min walk) and #3 (7,000 yen, no private room) exceed budget. Restaurant #4 (4,500 yen) allows smoking everywhere and lacks a private room. Restaurant #2 (Italian Bar, 3 min walk, private room, 5,000 yen) meets every criterion.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M5-L02",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The woman rejects Restaurant #4 because the executives are non-smokers and smoking is permitted throughout the entire restaurant, causing unwanted smoke and odor on clothing, compounded by having only partitions rather than a private room (『役員はおタバコを吸わないし、煙やにおいがつくのは避けたいわね』), matching Option C.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M5-L03",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The couple requires an air purifier for a bedroom where a newborn will sleep (must be very quiet) and where a cat resides (must filter pet dander and remove odors). Model A lacks deodorization, Model B has a loud fan that would disrupt the baby, and Model D is an oversized 80,000-yen living room unit. Model C provides 99.9% pet hair trapping, deodorization, whisper-quiet operation under whisper-level decibels, plus winter humidification, satisfying all requirements (Option C).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  }
+]

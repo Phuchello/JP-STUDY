@@ -1,0 +1,1066 @@
+[
+  {
+    "id": "N2-M1-001",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-READ",
+    "mondaiTitle": "Mondai 1: 漢字読み (Cách đọc Kanji)",
+    "stem": "プロジェクトの全体像を【把握】することが重要だ。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "はく"
+      },
+      {
+        "id": "B",
+        "text": "はあく"
+      },
+      {
+        "id": "C",
+        "text": "はおく"
+      },
+      {
+        "id": "D",
+        "text": "はあき"
+      }
+    ]
+  },
+  {
+    "id": "N2-M1-002",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-READ",
+    "mondaiTitle": "Mondai 1: 漢字読み (Cách đọc Kanji)",
+    "stem": "保険の【勧誘】を丁重に断った。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "かんゆ"
+      },
+      {
+        "id": "B",
+        "text": "かんゆう"
+      },
+      {
+        "id": "C",
+        "text": "けんゆう"
+      },
+      {
+        "id": "D",
+        "text": "かんよう"
+      }
+    ]
+  },
+  {
+    "id": "N2-M1-003",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-READ",
+    "mondaiTitle": "Mondai 1: 漢字読み (Cách đọc Kanji)",
+    "stem": "政府は緊急の安全【措置】を講じた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "しょち"
+      },
+      {
+        "id": "B",
+        "text": "そうち"
+      },
+      {
+        "id": "C",
+        "text": "そじ"
+      },
+      {
+        "id": "D",
+        "text": "そち"
+      }
+    ]
+  },
+  {
+    "id": "N2-M1-004",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-READ",
+    "mondaiTitle": "Mondai 1: 漢字読み (Cách đọc Kanji)",
+    "stem": "新しい解決策を暗中【模索】している。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "ぼさく"
+      },
+      {
+        "id": "B",
+        "text": "もさつ"
+      },
+      {
+        "id": "C",
+        "text": "もさく"
+      },
+      {
+        "id": "D",
+        "text": "むさく"
+      }
+    ]
+  },
+  {
+    "id": "N2-M1-005",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-READ",
+    "mondaiTitle": "Mondai 1: 漢字読み (Cách đọc Kanji)",
+    "stem": "犯人は【巧妙】な手口で偽造した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "こうみょう"
+      },
+      {
+        "id": "B",
+        "text": "きょうみょう"
+      },
+      {
+        "id": "C",
+        "text": "こうめい"
+      },
+      {
+        "id": "D",
+        "text": "こみょう"
+      }
+    ]
+  },
+  {
+    "id": "N2-M2-001",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-ORTH",
+    "mondaiTitle": "Mondai 2: 表記 (Chính tả Kanji)",
+    "stem": "今後の対応については【しんちょう】に検討する。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "慎重"
+      },
+      {
+        "id": "B",
+        "text": "慎長"
+      },
+      {
+        "id": "C",
+        "text": "深重"
+      },
+      {
+        "id": "D",
+        "text": "伸重"
+      }
+    ]
+  },
+  {
+    "id": "N2-M2-002",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-ORTH",
+    "mondaiTitle": "Mondai 2: 表記 (Chính tả Kanji)",
+    "stem": "警報がようやく【かいじょ】された。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "解除"
+      },
+      {
+        "id": "B",
+        "text": "改除"
+      },
+      {
+        "id": "C",
+        "text": "解叙"
+      },
+      {
+        "id": "D",
+        "text": "開除"
+      }
+    ]
+  },
+  {
+    "id": "N2-M2-003",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-ORTH",
+    "mondaiTitle": "Mondai 2: 表記 (Chính tả Kanji)",
+    "stem": "被害を【さいしょうげん】に食い止めた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "最小限"
+      },
+      {
+        "id": "B",
+        "text": "最少限"
+      },
+      {
+        "id": "C",
+        "text": "最小眼"
+      },
+      {
+        "id": "D",
+        "text": "最宵限"
+      }
+    ]
+  },
+  {
+    "id": "N2-M2-004",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-ORTH",
+    "mondaiTitle": "Mondai 2: 表記 (Chính tả Kanji)",
+    "stem": "悪天候のため登頂を【だんねん】した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "断然"
+      },
+      {
+        "id": "B",
+        "text": "段念"
+      },
+      {
+        "id": "C",
+        "text": "単念"
+      },
+      {
+        "id": "D",
+        "text": "断念"
+      }
+    ]
+  },
+  {
+    "id": "N2-M2-005",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-ORTH",
+    "mondaiTitle": "Mondai 2: 表記 (Chính tả Kanji)",
+    "stem": "景気が緩やかに【かいふく】している。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "快復"
+      },
+      {
+        "id": "B",
+        "text": "回復"
+      },
+      {
+        "id": "C",
+        "text": "改復"
+      },
+      {
+        "id": "D",
+        "text": "回複"
+      }
+    ]
+  },
+  {
+    "id": "N2-M3-001",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-AFFX",
+    "mondaiTitle": "Mondai 3: 語形成 (Cấu tạo từ & Phái sinh)",
+    "stem": "リーダーとしての責任（　　）が欠けている。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "性"
+      },
+      {
+        "id": "B",
+        "text": "的"
+      },
+      {
+        "id": "C",
+        "text": "感"
+      },
+      {
+        "id": "D",
+        "text": "力"
+      }
+    ]
+  },
+  {
+    "id": "N2-M3-002",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-AFFX",
+    "mondaiTitle": "Mondai 3: 語形成 (Cấu tạo từ & Phái sinh)",
+    "stem": "このシステムは非常に安全（　　）が高い。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "感"
+      },
+      {
+        "id": "B",
+        "text": "的"
+      },
+      {
+        "id": "C",
+        "text": "性"
+      },
+      {
+        "id": "D",
+        "text": "化"
+      }
+    ]
+  },
+  {
+    "id": "N2-M3-003",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-AFFX",
+    "mondaiTitle": "Mondai 3: 語形成 (Cấu tạo từ & Phái sinh)",
+    "stem": "工場の自動（　　）を進めて生産性を向上させた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "的"
+      },
+      {
+        "id": "B",
+        "text": "化"
+      },
+      {
+        "id": "C",
+        "text": "性"
+      },
+      {
+        "id": "D",
+        "text": "感"
+      }
+    ]
+  },
+  {
+    "id": "N2-M3-004",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-AFFX",
+    "mondaiTitle": "Mondai 3: 語形成 (Cấu tạo từ & Phái sinh)",
+    "stem": "彼はいつも論理（　　）に物事を考える。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "性"
+      },
+      {
+        "id": "B",
+        "text": "化"
+      },
+      {
+        "id": "C",
+        "text": "感"
+      },
+      {
+        "id": "D",
+        "text": "的"
+      }
+    ]
+  },
+  {
+    "id": "N2-M3-005",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-AFFX",
+    "mondaiTitle": "Mondai 3: 語形成 (Cấu tạo từ & Phái sinh)",
+    "stem": "他人のプライバシーを侵害する行為は（　　）神経だ。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "非"
+      },
+      {
+        "id": "B",
+        "text": "不"
+      },
+      {
+        "id": "C",
+        "text": "無"
+      },
+      {
+        "id": "D",
+        "text": "未"
+      }
+    ]
+  },
+  {
+    "id": "N2-M4-001",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-CONT",
+    "mondaiTitle": "Mondai 4: 文脈規定 (Từ vựng theo ngữ cảnh)",
+    "stem": "急な坂道を一気に駆け上がったので、（　　）。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "気が切れた"
+      },
+      {
+        "id": "B",
+        "text": "足が切れた"
+      },
+      {
+        "id": "C",
+        "text": "声が切れた"
+      },
+      {
+        "id": "D",
+        "text": "息が切れた"
+      }
+    ]
+  },
+  {
+    "id": "N2-M4-002",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-CONT",
+    "mondaiTitle": "Mondai 4: 文脈規定 (Từ vựng theo ngữ cảnh)",
+    "stem": "彼の提案には論理的な根拠があり、非常に（　　）があった。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "納得力"
+      },
+      {
+        "id": "B",
+        "text": "理解力"
+      },
+      {
+        "id": "C",
+        "text": "説得力"
+      },
+      {
+        "id": "D",
+        "text": "弁解力"
+      }
+    ]
+  },
+  {
+    "id": "N2-M4-003",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-CONT",
+    "mondaiTitle": "Mondai 4: 文脈規定 (Từ vựng theo ngữ cảnh)",
+    "stem": "顧客からの厳しいクレームを（　　）に受け止めて改善に努める。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "真摯"
+      },
+      {
+        "id": "B",
+        "text": "忠実"
+      },
+      {
+        "id": "C",
+        "text": "几帳面"
+      },
+      {
+        "id": "D",
+        "text": "厳格"
+      }
+    ]
+  },
+  {
+    "id": "N2-M4-004",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-CONT",
+    "mondaiTitle": "Mondai 4: 文脈規定 (Từ vựng theo ngữ cảnh)",
+    "stem": "会議室では深夜まで激しい議論が（　　）。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "交わされた"
+      },
+      {
+        "id": "B",
+        "text": "渡された"
+      },
+      {
+        "id": "C",
+        "text": "通された"
+      },
+      {
+        "id": "D",
+        "text": "合わされた"
+      }
+    ]
+  },
+  {
+    "id": "N2-M4-005",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-CONT",
+    "mondaiTitle": "Mondai 4: 文脈規定 (Từ vựng theo ngữ cảnh)",
+    "stem": "警察は犯人を特定するための決定的な（　　）を探している。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "足がかり"
+      },
+      {
+        "id": "B",
+        "text": "身がかり"
+      },
+      {
+        "id": "C",
+        "text": "手がかり"
+      },
+      {
+        "id": "D",
+        "text": "目線"
+      }
+    ]
+  },
+  {
+    "id": "N2-M4-006",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-CONT",
+    "mondaiTitle": "Mondai 4: 文脈規定 (Từ vựng theo ngữ cảnh)",
+    "stem": "本人の期待とは（　　）、試験の結果は芳しくなかった。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "裏腹に"
+      },
+      {
+        "id": "B",
+        "text": "表裏に"
+      },
+      {
+        "id": "C",
+        "text": "裏返しに"
+      },
+      {
+        "id": "D",
+        "text": "表面に"
+      }
+    ]
+  },
+  {
+    "id": "N2-M4-007",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-CONT",
+    "mondaiTitle": "Mondai 4: 文脈規定 (Từ vựng theo ngữ cảnh)",
+    "stem": "交渉は難航したが、ようやく（　　）で合意に達した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "大筋"
+      },
+      {
+        "id": "B",
+        "text": "大体"
+      },
+      {
+        "id": "C",
+        "text": "大半"
+      },
+      {
+        "id": "D",
+        "text": "大概"
+      }
+    ]
+  },
+  {
+    "id": "N2-M5-001",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-PARA",
+    "mondaiTitle": "Mondai 5: 言い換え類義 (Từ đồng nghĩa & Diễn đạt tương đương)",
+    "stem": "店員の【ぶっきらぼうな】態度に驚いた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "礼儀正しい"
+      },
+      {
+        "id": "B",
+        "text": "落ち着きのない"
+      },
+      {
+        "id": "C",
+        "text": "愛想がない"
+      },
+      {
+        "id": "D",
+        "text": "おしゃべりな"
+      }
+    ]
+  },
+  {
+    "id": "N2-M5-002",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-PARA",
+    "mondaiTitle": "Mondai 5: 言い換え類義 (Từ đồng nghĩa & Diễn đạt tương đương)",
+    "stem": "彼の証言は【あやふや】で信頼性に欠ける。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "確実な"
+      },
+      {
+        "id": "B",
+        "text": "嘘偽りのない"
+      },
+      {
+        "id": "C",
+        "text": "はっきりしない"
+      },
+      {
+        "id": "D",
+        "text": "論理的な"
+      }
+    ]
+  },
+  {
+    "id": "N2-M5-003",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-PARA",
+    "mondaiTitle": "Mondai 5: 言い換え類義 (Từ đồng nghĩa & Diễn đạt tương đương)",
+    "stem": "彼女はとても【几帳面】な性格だ。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "きちんとしている"
+      },
+      {
+        "id": "B",
+        "text": "のんびりしている"
+      },
+      {
+        "id": "C",
+        "text": "おおざっぱな"
+      },
+      {
+        "id": "D",
+        "text": "神経質な"
+      }
+    ]
+  },
+  {
+    "id": "N2-M5-004",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-PARA",
+    "mondaiTitle": "Mondai 5: 言い換え類義 (Từ đồng nghĩa & Diễn đạt tương đương)",
+    "stem": "子犬が激しい雷の音に【怯えて】いた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "怒る"
+      },
+      {
+        "id": "B",
+        "text": "驚く"
+      },
+      {
+        "id": "C",
+        "text": "悲しむ"
+      },
+      {
+        "id": "D",
+        "text": "怖がる"
+      }
+    ]
+  },
+  {
+    "id": "N2-M5-005",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-PARA",
+    "mondaiTitle": "Mondai 5: 言い換え類義 (Từ đồng nghĩa & Diễn đạt tương đương)",
+    "stem": "不手際について深く【お詫び】申し上げます。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "感謝"
+      },
+      {
+        "id": "B",
+        "text": "報告"
+      },
+      {
+        "id": "C",
+        "text": "挨拶"
+      },
+      {
+        "id": "D",
+        "text": "謝罪"
+      }
+    ]
+  },
+  {
+    "id": "N2-M6-001",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-USAG",
+    "mondaiTitle": "Mondai 6: 用法 (Cách dùng từ trong câu)",
+    "stem": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。\n\n【経緯】",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "彼と私は大学時代からの古い【経緯】だ。"
+      },
+      {
+        "id": "B",
+        "text": "駅から図書館までの最短の【経緯】を教えてください。"
+      },
+      {
+        "id": "C",
+        "text": "今回の会議の【経緯】は午後5時を予定しています。"
+      },
+      {
+        "id": "D",
+        "text": "事件の詳しい【経緯】について、警察から説明があった。"
+      }
+    ]
+  },
+  {
+    "id": "N2-M6-002",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-USAG",
+    "mondaiTitle": "Mondai 6: 用法 (Cách dùng từ trong câu)",
+    "stem": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。\n\n【ニュアンス】",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "微妙な言葉の【ニュアンス】の違いを正確に訳し分ける。"
+      },
+      {
+        "id": "B",
+        "text": "この部屋は【ニュアンス】が広くて過ごしやすい。"
+      },
+      {
+        "id": "C",
+        "text": "新しいパソコンは動作の【ニュアンス】がとても速い。"
+      },
+      {
+        "id": "D",
+        "text": "明日の天気は雨の【ニュアンス】が非常に高い。"
+      }
+    ]
+  },
+  {
+    "id": "N2-M6-003",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-USAG",
+    "mondaiTitle": "Mondai 6: 用法 (Cách dùng từ trong câu)",
+    "stem": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。\n\n【著しい】",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "彼は身長が【著しい】ので、バスケットボール選手になった。"
+      },
+      {
+        "id": "B",
+        "text": "今日のカレーはとても【著しい】辛さで汗が出た。"
+      },
+      {
+        "id": "C",
+        "text": "会議室の空気が【著しい】ので、窓を開けて換気した。"
+      },
+      {
+        "id": "D",
+        "text": "開発途上国において、情報技術の進歩が【著しい】。"
+      }
+    ]
+  },
+  {
+    "id": "N2-M6-004",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-USAG",
+    "mondaiTitle": "Mondai 6: 用法 (Cách dùng từ trong câu)",
+    "stem": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。\n\n【いたって】",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "彼は時間を【いたって】厳守する几帳面な男だ。"
+      },
+      {
+        "id": "B",
+        "text": "約束の場所に【いたって】到着したが、誰もいなかった。"
+      },
+      {
+        "id": "C",
+        "text": "この料理は塩味が【いたって】濃いので食べられない。"
+      },
+      {
+        "id": "D",
+        "text": "祖母は今年で90歳を迎えたが、【いたって】元気だ。"
+      }
+    ]
+  },
+  {
+    "id": "N2-M6-005",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-USAG",
+    "mondaiTitle": "Mondai 6: 用法 (Cách dùng từ trong câu)",
+    "stem": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。\n\n【忽ち】",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "彼は毎朝6時に【たちまち】起きて散歩に出かける。"
+      },
+      {
+        "id": "B",
+        "text": "大人気歌手のコンサートチケットは、【たちまち】売り切れた。"
+      },
+      {
+        "id": "C",
+        "text": "この服はデザインが【たちまち】古いので買い替えたい。"
+      },
+      {
+        "id": "D",
+        "text": "試験の前日は【たちまち】勉強に集中して合格した。"
+      }
+    ]
+  },
+  {
+    "id": "N2-G7-001",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "mondaiTitle": "Mondai 7: 文法形式の判断 (Ngữ pháp câu)",
+    "stem": "開会（　　）、一言ご挨拶を申し上げます。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "を契機に"
+      },
+      {
+        "id": "B",
+        "text": "につれて"
+      },
+      {
+        "id": "C",
+        "text": "に即して"
+      },
+      {
+        "id": "D",
+        "text": "に際して"
+      }
+    ]
+  },
+  {
+    "id": "N2-G7-002",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "mondaiTitle": "Mondai 7: 文法形式の判断 (Ngữ pháp câu)",
+    "stem": "海外留学（　　）、国際問題に対する視野が大きく広がった。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "を契機に"
+      },
+      {
+        "id": "B",
+        "text": "を問わず"
+      },
+      {
+        "id": "C",
+        "text": "を皮切りに"
+      },
+      {
+        "id": "D",
+        "text": "をめぐって"
+      }
+    ]
+  },
+  {
+    "id": "N2-G7-003",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "mondaiTitle": "Mondai 7: 文法形式の判断 (Ngữ pháp câu)",
+    "stem": "これだけの証拠を突きつけられては、認め（　　）。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "ずにはいられない"
+      },
+      {
+        "id": "B",
+        "text": "かねない"
+      },
+      {
+        "id": "C",
+        "text": "かねる"
+      },
+      {
+        "id": "D",
+        "text": "ざるを得ない"
+      }
+    ]
+  },
+  {
+    "id": "N2-G7-004",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "mondaiTitle": "Mondai 7: 文法形式の判断 (Ngữ pháp câu)",
+    "stem": "彼は英語（　　）、フランス語や中国語も流暢に操る。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "ばかりか"
+      },
+      {
+        "id": "B",
+        "text": "どころではなく"
+      },
+      {
+        "id": "C",
+        "text": "のみならず"
+      },
+      {
+        "id": "D",
+        "text": "どころか"
+      }
+    ]
+  },
+  {
+    "id": "N2-G7-005",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "mondaiTitle": "Mondai 7: 文法形式の判断 (Ngữ pháp câu)",
+    "stem": "今回の成功は、チーム全員の献身的な努力の賜物（　　）。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "にすぎない"
+      },
+      {
+        "id": "B",
+        "text": "に相違ない"
+      },
+      {
+        "id": "C",
+        "text": "に越したことはない"
+      },
+      {
+        "id": "D",
+        "text": "にほかならない"
+      }
+    ]
+  },
+  {
+    "id": "N2-G7-006",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "mondaiTitle": "Mondai 7: 文法形式の判断 (Ngữ pháp câu)",
+    "stem": "彼が言ったことは、単なる冗談（　　）。あまり気にするな。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "にほかならない"
+      },
+      {
+        "id": "B",
+        "text": "に決まっている"
+      },
+      {
+        "id": "C",
+        "text": "にすぎない"
+      },
+      {
+        "id": "D",
+        "text": "に及ばない"
+      }
+    ]
+  }
+]

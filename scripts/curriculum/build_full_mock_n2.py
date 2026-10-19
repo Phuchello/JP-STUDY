@@ -310,12 +310,19 @@ def build_full_mock():
     sec1_items[34]['explanationVi'] = "〜ざるを得ない（đành phải, buộc phải làm dù bản thân không muốn）: Trước bằng chứng đanh thép này thì đành phải thừa nhận (認めざるを得ない)."
     sec1_items[34]['status'] = "QA_VERIFIED"
 
+    sec1_items[35]['options'] = [
+        {"id": "A", "text": "反面"},
+        {"id": "B", "text": "どころではなく"},
+        {"id": "C", "text": "のみならず"},
+        {"id": "D", "text": "どころか"}
+    ]
+    sec1_items[35]['correctAnswer'] = "C"
     sec1_items[35]['distractorExplanations'] = {
-        "A": "〜ばかりか: Không những mà còn... (nhưng đằng sau thường đi với も hoặc bổ sung thông thường, không mạnh mẽ như どころか khi so tài năng vượt bậc).",
+        "A": "〜反面: Mặt khác, trái lại (chỉ hai mặt tính chất đối lập của cùng một sự vật, không dùng trong ngữ cảnh liệt kê năng lực này).",
         "B": "〜どころではなく: Không phải lúc để làm gì (ví dụ: 忙しくて旅行どころではない).",
-        "C": "〜のみならず: Không chỉ A mà cả B (văn viết trang trọng, nhưng để diễn tả sự kinh ngạc đối lập mức độ thì どころか chuẩn xác hơn)."
+        "D": "〜どころか: Đâu chỉ dừng lại ở... mà thậm chí còn tệ hơn/ngược lại (thường đi với vế sau phủ định hoặc tính chất trái ngược tiêu cực, không dùng cho vế khẳng định tích cực bổ sung như 流暢に操る)."
     }
-    sec1_items[35]['explanationVi'] = "〜どころか（đâu chỉ dừng lại ở... mà còn tới mức...）: 英語どころか (đâu chỉ tiếng Anh, mà tiếng Pháp hay tiếng Trung anh ấy cũng nói lưu loát)."
+    sec1_items[35]['explanationVi'] = "〜のみならず: Không chỉ N mà còn... (văn viết trang trọng mang tính liệt kê mở rộng năng lực/phạm vi: 英語のみならず - không chỉ tiếng Anh mà cả tiếng Pháp hay tiếng Trung anh ấy cũng nói lưu loát)."
     sec1_items[35]['status'] = "QA_VERIFIED"
 
     sec1_items[36]['distractorExplanations'] = {
@@ -358,16 +365,28 @@ def build_full_mock():
     sec1_items[40]['explanationVi'] = "〜にこたえて（đáp lại kỳ vọng, tiếng gọi, yêu cầu）: アンコールにこたえて (đáp lại tiếng hò reo nhiệt liệt của khán giả, ban nhạc diễn thêm 1 bài)."
     sec1_items[40]['status'] = "QA_VERIFIED"
 
+    sec1_items[41]['options'] = [
+        {"id": "A", "text": "に反して"},
+        {"id": "B", "text": "半面"},
+        {"id": "C", "text": "反対に"},
+        {"id": "D", "text": "反面"}
+    ]
     sec1_items[41]['distractorExplanations'] = {
-        "A": "〜一方: Một mặt... mặt khác (nếu dùng 一方 thì vế sau thường bổ sung mặt khác cùng chiều hoặc song song, cấu trúc 反面 chuẩn xác hơn khi đối lập trực diện ưu - nhược).",
+        "A": "〜に反して: Trái với (kỳ vọng, dự đoán: 予想に反して), không dùng bổ nghĩa cho tính từ な.",
         "B": "半面: Viết sai chính tả chữ 反 thành 半.",
-        "C": "反して: Đi với trợ từ に (〜に反して: trái ngược với dự đoán)."
+        "C": "反対に: Phó từ đứng độc lập (ngược lại), không kết hợp với 便利な thành 便利な反対に."
     }
     sec1_items[41]['explanationVi'] = "〜反面（trái lại, nhưng ngược lại tồn tại song song mặt tiêu cực）: Đi kèm tính từ な: 便利な反面 (tiện lợi nhưng mặt trái là chi phí sinh hoạt đắt đỏ)."
     sec1_items[41]['status'] = "QA_VERIFIED"
 
+    sec1_items[42]['options'] = [
+        {"id": "A", "text": "をよそに"},
+        {"id": "B", "text": "にもかかわらず"},
+        {"id": "C", "text": "をかねて"},
+        {"id": "D", "text": "にかかわらず"}
+    ]
     sec1_items[42]['distractorExplanations'] = {
-        "A": "をとわず: Viết sai trợ từ (thành ngữ đúng là を問わず, nhưng ở đây có 有無 nên đi với にかかわらず).",
+        "A": "〜をよそに: Bất chấp, phớt lờ dư luận hay mối lo ngại xung quanh (ví dụ: 親の心配をよそに), không đi với 有無.",
         "B": "にもかかわらず: Mặc dù... nhưng (chỉ sự nhượng bộ bất ngờ, ví dụ: 雨にもかかわらず).",
         "C": "をかねて: Kết hợp 2 mục đích (ví dụ: 散歩をかねて買い物に行く)."
     }

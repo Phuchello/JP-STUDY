@@ -1,0 +1,5854 @@
+[
+  {
+    "id": "N2-M1-001",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-READ",
+    "mondaiTitle": "Mondai 1: 漢字読み (Cách đọc Kanji)",
+    "stem": "プロジェクトの全体像を【把握】することが重要だ。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "はく"
+      },
+      {
+        "id": "B",
+        "text": "はあく"
+      },
+      {
+        "id": "C",
+        "text": "はおく"
+      },
+      {
+        "id": "D",
+        "text": "はあき"
+      }
+    ]
+  },
+  {
+    "id": "N2-M1-002",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-READ",
+    "mondaiTitle": "Mondai 1: 漢字読み (Cách đọc Kanji)",
+    "stem": "保険の【勧誘】を丁重に断った。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "かんゆ"
+      },
+      {
+        "id": "B",
+        "text": "かんゆう"
+      },
+      {
+        "id": "C",
+        "text": "けんゆう"
+      },
+      {
+        "id": "D",
+        "text": "かんよう"
+      }
+    ]
+  },
+  {
+    "id": "N2-M1-003",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-READ",
+    "mondaiTitle": "Mondai 1: 漢字読み (Cách đọc Kanji)",
+    "stem": "政府は緊急の安全【措置】を講じた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "しょち"
+      },
+      {
+        "id": "B",
+        "text": "そうち"
+      },
+      {
+        "id": "C",
+        "text": "そじ"
+      },
+      {
+        "id": "D",
+        "text": "そち"
+      }
+    ]
+  },
+  {
+    "id": "N2-M1-004",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-READ",
+    "mondaiTitle": "Mondai 1: 漢字読み (Cách đọc Kanji)",
+    "stem": "新しい解決策を暗中【模索】している。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "ぼさく"
+      },
+      {
+        "id": "B",
+        "text": "もさつ"
+      },
+      {
+        "id": "C",
+        "text": "もさく"
+      },
+      {
+        "id": "D",
+        "text": "むさく"
+      }
+    ]
+  },
+  {
+    "id": "N2-M1-005",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-READ",
+    "mondaiTitle": "Mondai 1: 漢字読み (Cách đọc Kanji)",
+    "stem": "犯人は【巧妙】な手口で偽造した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "こうみょう"
+      },
+      {
+        "id": "B",
+        "text": "きょうみょう"
+      },
+      {
+        "id": "C",
+        "text": "こうめい"
+      },
+      {
+        "id": "D",
+        "text": "こみょう"
+      }
+    ]
+  },
+  {
+    "id": "N2-M2-001",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-ORTH",
+    "mondaiTitle": "Mondai 2: 表記 (Chính tả Kanji)",
+    "stem": "今後の対応については【しんちょう】に検討する。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "慎重"
+      },
+      {
+        "id": "B",
+        "text": "慎長"
+      },
+      {
+        "id": "C",
+        "text": "深重"
+      },
+      {
+        "id": "D",
+        "text": "伸重"
+      }
+    ]
+  },
+  {
+    "id": "N2-M2-002",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-ORTH",
+    "mondaiTitle": "Mondai 2: 表記 (Chính tả Kanji)",
+    "stem": "警報がようやく【かいじょ】された。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "解除"
+      },
+      {
+        "id": "B",
+        "text": "改除"
+      },
+      {
+        "id": "C",
+        "text": "解叙"
+      },
+      {
+        "id": "D",
+        "text": "開除"
+      }
+    ]
+  },
+  {
+    "id": "N2-M2-003",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-ORTH",
+    "mondaiTitle": "Mondai 2: 表記 (Chính tả Kanji)",
+    "stem": "被害を【さいしょうげん】に食い止めた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "最小限"
+      },
+      {
+        "id": "B",
+        "text": "最少限"
+      },
+      {
+        "id": "C",
+        "text": "最小眼"
+      },
+      {
+        "id": "D",
+        "text": "最宵限"
+      }
+    ]
+  },
+  {
+    "id": "N2-M2-004",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-ORTH",
+    "mondaiTitle": "Mondai 2: 表記 (Chính tả Kanji)",
+    "stem": "悪天候のため登頂を【だんねん】した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "断然"
+      },
+      {
+        "id": "B",
+        "text": "段念"
+      },
+      {
+        "id": "C",
+        "text": "単念"
+      },
+      {
+        "id": "D",
+        "text": "断念"
+      }
+    ]
+  },
+  {
+    "id": "N2-M2-005",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-ORTH",
+    "mondaiTitle": "Mondai 2: 表記 (Chính tả Kanji)",
+    "stem": "景気が緩やかに【かいふく】している。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "快復"
+      },
+      {
+        "id": "B",
+        "text": "回復"
+      },
+      {
+        "id": "C",
+        "text": "改復"
+      },
+      {
+        "id": "D",
+        "text": "回複"
+      }
+    ]
+  },
+  {
+    "id": "N2-M3-001",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-AFFX",
+    "mondaiTitle": "Mondai 3: 語形成 (Cấu tạo từ & Phái sinh)",
+    "stem": "リーダーとしての責任（　　）が欠けている。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "性"
+      },
+      {
+        "id": "B",
+        "text": "的"
+      },
+      {
+        "id": "C",
+        "text": "感"
+      },
+      {
+        "id": "D",
+        "text": "力"
+      }
+    ]
+  },
+  {
+    "id": "N2-M3-002",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-AFFX",
+    "mondaiTitle": "Mondai 3: 語形成 (Cấu tạo từ & Phái sinh)",
+    "stem": "このシステムは非常に安全（　　）が高い。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "感"
+      },
+      {
+        "id": "B",
+        "text": "的"
+      },
+      {
+        "id": "C",
+        "text": "性"
+      },
+      {
+        "id": "D",
+        "text": "化"
+      }
+    ]
+  },
+  {
+    "id": "N2-M3-003",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-AFFX",
+    "mondaiTitle": "Mondai 3: 語形成 (Cấu tạo từ & Phái sinh)",
+    "stem": "工場の自動（　　）を進めて生産性を向上させた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "的"
+      },
+      {
+        "id": "B",
+        "text": "化"
+      },
+      {
+        "id": "C",
+        "text": "性"
+      },
+      {
+        "id": "D",
+        "text": "感"
+      }
+    ]
+  },
+  {
+    "id": "N2-M3-004",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-AFFX",
+    "mondaiTitle": "Mondai 3: 語形成 (Cấu tạo từ & Phái sinh)",
+    "stem": "彼はいつも論理（　　）に物事を考える。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "性"
+      },
+      {
+        "id": "B",
+        "text": "化"
+      },
+      {
+        "id": "C",
+        "text": "感"
+      },
+      {
+        "id": "D",
+        "text": "的"
+      }
+    ]
+  },
+  {
+    "id": "N2-M3-005",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-AFFX",
+    "mondaiTitle": "Mondai 3: 語形成 (Cấu tạo từ & Phái sinh)",
+    "stem": "他人のプライバシーを侵害する行為は（　　）神経だ。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "非"
+      },
+      {
+        "id": "B",
+        "text": "不"
+      },
+      {
+        "id": "C",
+        "text": "無"
+      },
+      {
+        "id": "D",
+        "text": "未"
+      }
+    ]
+  },
+  {
+    "id": "N2-M4-001",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-CONT",
+    "mondaiTitle": "Mondai 4: 文脈規定 (Từ vựng theo ngữ cảnh)",
+    "stem": "急な坂道を一気に駆け上がったので、（　　）。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "気が切れた"
+      },
+      {
+        "id": "B",
+        "text": "足が切れた"
+      },
+      {
+        "id": "C",
+        "text": "声が切れた"
+      },
+      {
+        "id": "D",
+        "text": "息が切れた"
+      }
+    ]
+  },
+  {
+    "id": "N2-M4-002",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-CONT",
+    "mondaiTitle": "Mondai 4: 文脈規定 (Từ vựng theo ngữ cảnh)",
+    "stem": "彼の提案には論理的な根拠があり、非常に（　　）があった。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "納得力"
+      },
+      {
+        "id": "B",
+        "text": "理解力"
+      },
+      {
+        "id": "C",
+        "text": "説得力"
+      },
+      {
+        "id": "D",
+        "text": "弁解力"
+      }
+    ]
+  },
+  {
+    "id": "N2-M4-003",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-CONT",
+    "mondaiTitle": "Mondai 4: 文脈規定 (Từ vựng theo ngữ cảnh)",
+    "stem": "顧客からの厳しいクレームを（　　）に受け止めて改善に努める。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "真摯"
+      },
+      {
+        "id": "B",
+        "text": "忠実"
+      },
+      {
+        "id": "C",
+        "text": "几帳面"
+      },
+      {
+        "id": "D",
+        "text": "厳格"
+      }
+    ]
+  },
+  {
+    "id": "N2-M4-004",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-CONT",
+    "mondaiTitle": "Mondai 4: 文脈規定 (Từ vựng theo ngữ cảnh)",
+    "stem": "会議室では深夜まで激しい議論が（　　）。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "交わされた"
+      },
+      {
+        "id": "B",
+        "text": "渡された"
+      },
+      {
+        "id": "C",
+        "text": "通された"
+      },
+      {
+        "id": "D",
+        "text": "合わされた"
+      }
+    ]
+  },
+  {
+    "id": "N2-M4-005",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-CONT",
+    "mondaiTitle": "Mondai 4: 文脈規定 (Từ vựng theo ngữ cảnh)",
+    "stem": "警察は犯人を特定するための決定的な（　　）を探している。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "足がかり"
+      },
+      {
+        "id": "B",
+        "text": "身がかり"
+      },
+      {
+        "id": "C",
+        "text": "手がかり"
+      },
+      {
+        "id": "D",
+        "text": "目線"
+      }
+    ]
+  },
+  {
+    "id": "N2-M4-006",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-CONT",
+    "mondaiTitle": "Mondai 4: 文脈規定 (Từ vựng theo ngữ cảnh)",
+    "stem": "本人の期待とは（　　）、試験の結果は芳しくなかった。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "裏腹に"
+      },
+      {
+        "id": "B",
+        "text": "表裏に"
+      },
+      {
+        "id": "C",
+        "text": "裏返しに"
+      },
+      {
+        "id": "D",
+        "text": "表面に"
+      }
+    ]
+  },
+  {
+    "id": "N2-M4-007",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-CONT",
+    "mondaiTitle": "Mondai 4: 文脈規定 (Từ vựng theo ngữ cảnh)",
+    "stem": "交渉は難航したが、ようやく（　　）で合意に達した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "大筋"
+      },
+      {
+        "id": "B",
+        "text": "大体"
+      },
+      {
+        "id": "C",
+        "text": "大半"
+      },
+      {
+        "id": "D",
+        "text": "大概"
+      }
+    ]
+  },
+  {
+    "id": "N2-M5-001",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-PARA",
+    "mondaiTitle": "Mondai 5: 言い換え類義 (Từ đồng nghĩa & Diễn đạt tương đương)",
+    "stem": "店員の【ぶっきらぼうな】態度に驚いた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "礼儀正しい"
+      },
+      {
+        "id": "B",
+        "text": "落ち着きのない"
+      },
+      {
+        "id": "C",
+        "text": "愛想がない"
+      },
+      {
+        "id": "D",
+        "text": "おしゃべりな"
+      }
+    ]
+  },
+  {
+    "id": "N2-M5-002",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-PARA",
+    "mondaiTitle": "Mondai 5: 言い換え類義 (Từ đồng nghĩa & Diễn đạt tương đương)",
+    "stem": "彼の証言は【あやふや】で信頼性に欠ける。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "確実な"
+      },
+      {
+        "id": "B",
+        "text": "嘘偽りのない"
+      },
+      {
+        "id": "C",
+        "text": "はっきりしない"
+      },
+      {
+        "id": "D",
+        "text": "論理的な"
+      }
+    ]
+  },
+  {
+    "id": "N2-M5-003",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-PARA",
+    "mondaiTitle": "Mondai 5: 言い換え類義 (Từ đồng nghĩa & Diễn đạt tương đương)",
+    "stem": "彼女はとても【几帳面】な性格だ。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "きちんとしている"
+      },
+      {
+        "id": "B",
+        "text": "のんびりしている"
+      },
+      {
+        "id": "C",
+        "text": "おおざっぱな"
+      },
+      {
+        "id": "D",
+        "text": "神経質な"
+      }
+    ]
+  },
+  {
+    "id": "N2-M5-004",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-PARA",
+    "mondaiTitle": "Mondai 5: 言い換え類義 (Từ đồng nghĩa & Diễn đạt tương đương)",
+    "stem": "子犬が激しい雷の音に【怯えて】いた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "怒る"
+      },
+      {
+        "id": "B",
+        "text": "驚く"
+      },
+      {
+        "id": "C",
+        "text": "悲しむ"
+      },
+      {
+        "id": "D",
+        "text": "怖がる"
+      }
+    ]
+  },
+  {
+    "id": "N2-M5-005",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-PARA",
+    "mondaiTitle": "Mondai 5: 言い換え類義 (Từ đồng nghĩa & Diễn đạt tương đương)",
+    "stem": "不手際について深く【お詫び】申し上げます。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "感謝"
+      },
+      {
+        "id": "B",
+        "text": "報告"
+      },
+      {
+        "id": "C",
+        "text": "挨拶"
+      },
+      {
+        "id": "D",
+        "text": "謝罪"
+      }
+    ]
+  },
+  {
+    "id": "N2-M6-001",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-USAG",
+    "mondaiTitle": "Mondai 6: 用法 (Cách dùng từ trong câu)",
+    "stem": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。\n\n【経緯】",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "彼と私は大学時代からの古い【経緯】だ。"
+      },
+      {
+        "id": "B",
+        "text": "駅から図書館までの最短の【経緯】を教えてください。"
+      },
+      {
+        "id": "C",
+        "text": "今回の会議の【経緯】は午後5時を予定しています。"
+      },
+      {
+        "id": "D",
+        "text": "事件の詳しい【経緯】について、警察から説明があった。"
+      }
+    ]
+  },
+  {
+    "id": "N2-M6-002",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-USAG",
+    "mondaiTitle": "Mondai 6: 用法 (Cách dùng từ trong câu)",
+    "stem": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。\n\n【ニュアンス】",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "微妙な言葉の【ニュアンス】の違いを正確に訳し分ける。"
+      },
+      {
+        "id": "B",
+        "text": "この部屋は【ニュアンス】が広くて過ごしやすい。"
+      },
+      {
+        "id": "C",
+        "text": "新しいパソコンは動作の【ニュアンス】がとても速い。"
+      },
+      {
+        "id": "D",
+        "text": "明日の天気は雨の【ニュアンス】が非常に高い。"
+      }
+    ]
+  },
+  {
+    "id": "N2-M6-003",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-USAG",
+    "mondaiTitle": "Mondai 6: 用法 (Cách dùng từ trong câu)",
+    "stem": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。\n\n【著しい】",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "彼は身長が【著しい】ので、バスケットボール選手になった。"
+      },
+      {
+        "id": "B",
+        "text": "今日のカレーはとても【著しい】辛さで汗が出た。"
+      },
+      {
+        "id": "C",
+        "text": "会議室の空気が【著しい】ので、窓を開けて換気した。"
+      },
+      {
+        "id": "D",
+        "text": "開発途上国において、情報技術の進歩が【著しい】。"
+      }
+    ]
+  },
+  {
+    "id": "N2-M6-004",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-USAG",
+    "mondaiTitle": "Mondai 6: 用法 (Cách dùng từ trong câu)",
+    "stem": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。\n\n【いたって】",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "彼は時間を【いたって】厳守する几帳面な男だ。"
+      },
+      {
+        "id": "B",
+        "text": "約束の場所に【いたって】到着したが、誰もいなかった。"
+      },
+      {
+        "id": "C",
+        "text": "この料理は塩味が【いたって】濃いので食べられない。"
+      },
+      {
+        "id": "D",
+        "text": "祖母は今年で90歳を迎えたが、【いたって】元気だ。"
+      }
+    ]
+  },
+  {
+    "id": "N2-M6-005",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-USAG",
+    "mondaiTitle": "Mondai 6: 用法 (Cách dùng từ trong câu)",
+    "stem": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。\n\n【忽ち】",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "彼は毎朝6時に【たちまち】起きて散歩に出かける。"
+      },
+      {
+        "id": "B",
+        "text": "大人気歌手のコンサートチケットは、【たちまち】売り切れた。"
+      },
+      {
+        "id": "C",
+        "text": "この服はデザインが【たちまち】古いので買い替えたい。"
+      },
+      {
+        "id": "D",
+        "text": "試験の前日は【たちまち】勉強に集中して合格した。"
+      }
+    ]
+  },
+  {
+    "id": "N2-G7-001",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "mondaiTitle": "Mondai 7: 文法形式の判断 (Ngữ pháp câu)",
+    "stem": "開会（　　）、一言ご挨拶を申し上げます。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "を契機に"
+      },
+      {
+        "id": "B",
+        "text": "につれて"
+      },
+      {
+        "id": "C",
+        "text": "に即して"
+      },
+      {
+        "id": "D",
+        "text": "に際して"
+      }
+    ]
+  },
+  {
+    "id": "N2-G7-002",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "mondaiTitle": "Mondai 7: 文法形式の判断 (Ngữ pháp câu)",
+    "stem": "海外留学（　　）、国際問題に対する視野が大きく広がった。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "を契機に"
+      },
+      {
+        "id": "B",
+        "text": "を問わず"
+      },
+      {
+        "id": "C",
+        "text": "を皮切りに"
+      },
+      {
+        "id": "D",
+        "text": "をめぐって"
+      }
+    ]
+  },
+  {
+    "id": "N2-G7-003",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "mondaiTitle": "Mondai 7: 文法形式の判断 (Ngữ pháp câu)",
+    "stem": "これだけの証拠を突きつけられては、認め（　　）。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "ずにはいられない"
+      },
+      {
+        "id": "B",
+        "text": "かねない"
+      },
+      {
+        "id": "C",
+        "text": "かねる"
+      },
+      {
+        "id": "D",
+        "text": "ざるを得ない"
+      }
+    ]
+  },
+  {
+    "id": "N2-G7-004",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "mondaiTitle": "Mondai 7: 文法形式の判断 (Ngữ pháp câu)",
+    "stem": "彼は英語（　　）、フランス語や中国語も流暢に操る。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "ばかりか"
+      },
+      {
+        "id": "B",
+        "text": "どころではなく"
+      },
+      {
+        "id": "C",
+        "text": "のみならず"
+      },
+      {
+        "id": "D",
+        "text": "どころか"
+      }
+    ]
+  },
+  {
+    "id": "N2-G7-005",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "mondaiTitle": "Mondai 7: 文法形式の判断 (Ngữ pháp câu)",
+    "stem": "今回の成功は、チーム全員の献身的な努力の賜物（　　）。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "にすぎない"
+      },
+      {
+        "id": "B",
+        "text": "に相違ない"
+      },
+      {
+        "id": "C",
+        "text": "に越したことはない"
+      },
+      {
+        "id": "D",
+        "text": "にほかならない"
+      }
+    ]
+  },
+  {
+    "id": "N2-G7-006",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "mondaiTitle": "Mondai 7: 文法形式の判断 (Ngữ pháp câu)",
+    "stem": "彼が言ったことは、単なる冗談（　　）。あまり気にするな。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "にほかならない"
+      },
+      {
+        "id": "B",
+        "text": "に決まっている"
+      },
+      {
+        "id": "C",
+        "text": "にすぎない"
+      },
+      {
+        "id": "D",
+        "text": "に及ばない"
+      }
+    ]
+  },
+  {
+    "id": "N2-G7-007",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "mondaiTitle": "Mondai 7: 文法形式の判断 (Ngữ pháp câu)",
+    "stem": "こんな膨大な資料、一日で全部読め（　　）よ。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "かねない"
+      },
+      {
+        "id": "B",
+        "text": "きれない"
+      },
+      {
+        "id": "C",
+        "text": "ようがない"
+      },
+      {
+        "id": "D",
+        "text": "っこない"
+      }
+    ]
+  },
+  {
+    "id": "N2-G7-008",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "mondaiTitle": "Mondai 7: 文法形式の判断 (Ngữ pháp câu)",
+    "stem": "彼の情熱的な演説には、聴衆の心を揺さぶる（　　）。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "ことになっている"
+      },
+      {
+        "id": "B",
+        "text": "わけにはいかない"
+      },
+      {
+        "id": "C",
+        "text": "ものがある"
+      },
+      {
+        "id": "D",
+        "text": "に違いない"
+      }
+    ]
+  },
+  {
+    "id": "N2-G7-009",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "mondaiTitle": "Mondai 7: 文法形式の判断 (Ngữ pháp câu)",
+    "stem": "ファンの熱烈なアンコール（　　）、もう一曲演奏した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "に沿って"
+      },
+      {
+        "id": "B",
+        "text": "にこたえて"
+      },
+      {
+        "id": "C",
+        "text": "に即して"
+      },
+      {
+        "id": "D",
+        "text": "に基づいて"
+      }
+    ]
+  },
+  {
+    "id": "N2-G7-010",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "mondaiTitle": "Mondai 7: 文法形式の判断 (Ngữ pháp câu)",
+    "stem": "都会での生活は便利な（　　）、生活費が高くつく。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "一方"
+      },
+      {
+        "id": "B",
+        "text": "半面"
+      },
+      {
+        "id": "C",
+        "text": "反して"
+      },
+      {
+        "id": "D",
+        "text": "反面"
+      }
+    ]
+  },
+  {
+    "id": "N2-G7-011",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "mondaiTitle": "Mondai 7: 文法形式の判断 (Ngữ pháp câu)",
+    "stem": "経験の有無（　　）、どなたでもご応募いただけます。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "をとわず"
+      },
+      {
+        "id": "B",
+        "text": "にもかかわらず"
+      },
+      {
+        "id": "C",
+        "text": "をかねて"
+      },
+      {
+        "id": "D",
+        "text": "にかかわらず"
+      }
+    ]
+  },
+  {
+    "id": "N2-G7-012",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "mondaiTitle": "Mondai 7: 文法形式の判断 (Ngữ pháp câu)",
+    "stem": "このスポーツクラブは、年齢や性別（　　）誰でも参加可能だ。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "を問わず"
+      },
+      {
+        "id": "B",
+        "text": "によらず"
+      },
+      {
+        "id": "C",
+        "text": "を限りに"
+      },
+      {
+        "id": "D",
+        "text": "を契機に"
+      }
+    ]
+  },
+  {
+    "id": "N2-G8-001",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-STAR",
+    "mondaiTitle": "Mondai 8: 文の組み立て ★ (Xếp câu sao)",
+    "stem": "新製品の（　　）（　　） ★ （　　）検討しなければならない。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "売れ行き"
+      },
+      {
+        "id": "B",
+        "text": "次第では"
+      },
+      {
+        "id": "C",
+        "text": "生産ラインの"
+      },
+      {
+        "id": "D",
+        "text": "増設も"
+      }
+    ]
+  },
+  {
+    "id": "N2-G8-002",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-STAR",
+    "mondaiTitle": "Mondai 8: 文の組み立て ★ (Xếp câu sao)",
+    "stem": "どんなに（　　）（　　） ★ （　　）前進し続けるべきだ。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "困難な"
+      },
+      {
+        "id": "B",
+        "text": "ことなく"
+      },
+      {
+        "id": "C",
+        "text": "諦める"
+      },
+      {
+        "id": "D",
+        "text": "状況にあっても"
+      }
+    ]
+  },
+  {
+    "id": "N2-G8-003",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-STAR",
+    "mondaiTitle": "Mondai 8: 文の組み立て ★ (Xếp câu sao)",
+    "stem": "この計画は（　　）（　　） ★ （　　）困難になってきた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "予算の"
+      },
+      {
+        "id": "B",
+        "text": "都合上"
+      },
+      {
+        "id": "C",
+        "text": "計画通りに"
+      },
+      {
+        "id": "D",
+        "text": "進めることが"
+      }
+    ]
+  },
+  {
+    "id": "N2-G8-004",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-STAR",
+    "mondaiTitle": "Mondai 8: 文の組み立て ★ (Xếp câu sao)",
+    "stem": "長年の（　　）（　　） ★ （　　）ついに発見した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "新しい"
+      },
+      {
+        "id": "B",
+        "text": "治療法を"
+      },
+      {
+        "id": "C",
+        "text": "末に"
+      },
+      {
+        "id": "D",
+        "text": "研究の"
+      }
+    ]
+  },
+  {
+    "id": "N2-G8-005",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-STAR",
+    "mondaiTitle": "Mondai 8: 文の組み立て ★ (Xếp câu sao)",
+    "stem": "彼は（　　）（　　） ★ （　　）ボランティア活動に参加した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "極める"
+      },
+      {
+        "id": "B",
+        "text": "多忙を"
+      },
+      {
+        "id": "C",
+        "text": "スケジュールを"
+      },
+      {
+        "id": "D",
+        "text": "縫って"
+      }
+    ]
+  },
+  {
+    "id": "N2-G9-001",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-CLOZ",
+    "mondaiTitle": "Mondai 9: 文章の文法 (Ngữ pháp đoạn văn)",
+    "stem": "文章中の【 1 】に入る最も適切なものを、１・２・３・４から一つ選びなさい。",
+    "contextPassage": "\n現代社会では、沈黙を「会話の途切れ」や「気まずさの表れ」として否定的に捉える傾向が強い。相手の言葉に対して即座に反応し、テンポよく言葉を返すことこそが優れたコミュニケーション能力であると【 1 】。\n\nしかし、日本古来の対話文化においては、言葉と言葉の「間（ま）」にこそ深い意味が込められてきた。熟考の末に発せられる一言には重みがあり、沈黙は相手の言葉を真摯に受け止めるための準備期間でもあったのだ。\n\n軽快な言葉のやり取りが重視される現代だからこそ、我々はあえて一度立ち止まり、沈黙が持つ豊かな表現力に目を向けるべきではないだろうか。沈黙を恐れる【 2 】、安易な言葉で間を埋めようとする行為は、かえって対話の質を損なうことになりかねない。\n\n相手の沈黙にじっと耳を傾け、その奥にある心情を汲み取ろうとする姿勢【 3 】、真の意味での心の通い合いが生まれるのである。沈黙は単なる空白ではなく、豊かな思索を育む土壌に【 4 】。我々は沈黙との付き合い方を今一度、見つめ直す【 5 】。\n",
+    "options": [
+      {
+        "id": "A",
+        "text": "みなされるわけがない"
+      },
+      {
+        "id": "B",
+        "text": "みなすにすぎない"
+      },
+      {
+        "id": "C",
+        "text": "みなされがちである"
+      },
+      {
+        "id": "D",
+        "text": "みなさざるを得ない"
+      }
+    ]
+  },
+  {
+    "id": "N2-G9-002",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-CLOZ",
+    "mondaiTitle": "Mondai 9: 文章の文法 (Ngữ pháp đoạn văn)",
+    "stem": "文章中の【 2 】に入る最も適切なものを、１・２・３・４から一つ選びなさい。",
+    "contextPassage": "\n現代社会では、沈黙を「会話の途切れ」や「気まずさの表れ」として否定的に捉える傾向が強い。相手の言葉に対して即座に反応し、テンポよく言葉を返すことこそが優れたコミュニケーション能力であると【 1 】。\n\nしかし、日本古来の対話文化においては、言葉と言葉の「間（ま）」にこそ深い意味が込められてきた。熟考の末に発せられる一言には重みがあり、沈黙は相手の言葉を真摯に受け止めるための準備期間でもあったのだ。\n\n軽快な言葉のやり取りが重視される現代だからこそ、我々はあえて一度立ち止まり、沈黙が持つ豊かな表現力に目を向けるべきではないだろうか。沈黙を恐れる【 2 】、安易な言葉で間を埋めようとする行為は、かえって対話の質を損なうことになりかねない。\n\n相手の沈黙にじっと耳を傾け、その奥にある心情を汲み取ろうとする姿勢【 3 】、真の意味での心の通い合いが生まれるのである。沈黙は単なる空白ではなく、豊かな思索を育む土壌に【 4 】。我々は沈黙との付き合い方を今一度、見つめ直す【 5 】。\n",
+    "options": [
+      {
+        "id": "A",
+        "text": "うえに"
+      },
+      {
+        "id": "B",
+        "text": "あまり"
+      },
+      {
+        "id": "C",
+        "text": "どころか"
+      },
+      {
+        "id": "D",
+        "text": "反面"
+      }
+    ]
+  },
+  {
+    "id": "N2-G9-003",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-CLOZ",
+    "mondaiTitle": "Mondai 9: 文章の文法 (Ngữ pháp đoạn văn)",
+    "stem": "文章中の【 3 】に入る最も適切なものを、１・２・３・４から一つ選びなさい。",
+    "contextPassage": "\n現代社会では、沈黙を「会話の途切れ」や「気まずさの表れ」として否定的に捉える傾向が強い。相手の言葉に対して即座に反応し、テンポよく言葉を返すことこそが優れたコミュニケーション能力であると【 1 】。\n\nしかし、日本古来の対話文化においては、言葉と言葉の「間（ま）」にこそ深い意味が込められてきた。熟考の末に発せられる一言には重みがあり、沈黙は相手の言葉を真摯に受け止めるための準備期間でもあったのだ。\n\n軽快な言葉のやり取りが重視される現代だからこそ、我々はあえて一度立ち止まり、沈黙が持つ豊かな表現力に目を向けるべきではないだろうか。沈黙を恐れる【 2 】、安易な言葉で間を埋めようとする行為は、かえって対話の質を損なうことになりかねない。\n\n相手の沈黙にじっと耳を傾け、その奥にある心情を汲み取ろうとする姿勢【 3 】、真の意味での心の通い合いが生まれるのである。沈黙は単なる空白ではなく、豊かな思索を育む土壌に【 4 】。我々は沈黙との付き合い方を今一度、見つめ直す【 5 】。\n",
+    "options": [
+      {
+        "id": "A",
+        "text": "がある反面"
+      },
+      {
+        "id": "B",
+        "text": "がある一方で"
+      },
+      {
+        "id": "C",
+        "text": "があってこそ"
+      },
+      {
+        "id": "D",
+        "text": "があるにつれて"
+      }
+    ]
+  },
+  {
+    "id": "N2-G9-004",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-CLOZ",
+    "mondaiTitle": "Mondai 9: 文章の文法 (Ngữ pháp đoạn văn)",
+    "stem": "文章中の【 4 】に入る最も適切なものを、１・２・３・４から一つ選びなさい。",
+    "contextPassage": "\n現代社会では、沈黙を「会話の途切れ」や「気まずさの表れ」として否定的に捉える傾向が強い。相手の言葉に対して即座に反応し、テンポよく言葉を返すことこそが優れたコミュニケーション能力であると【 1 】。\n\nしかし、日本古来の対話文化においては、言葉と言葉の「間（ま）」にこそ深い意味が込められてきた。熟考の末に発せられる一言には重みがあり、沈黙は相手の言葉を真摯に受け止めるための準備期間でもあったのだ。\n\n軽快な言葉のやり取りが重視される現代だからこそ、我々はあえて一度立ち止まり、沈黙が持つ豊かな表現力に目を向けるべきではないだろうか。沈黙を恐れる【 2 】、安易な言葉で間を埋めようとする行為は、かえって対話の質を損なうことになりかねない。\n\n相手の沈黙にじっと耳を傾け、その奥にある心情を汲み取ろうとする姿勢【 3 】、真の意味での心の通い合いが生まれるのである。沈黙は単なる空白ではなく、豊かな思索を育む土壌に【 4 】。我々は沈黙との付き合い方を今一度、見つめ直す【 5 】。\n",
+    "options": [
+      {
+        "id": "A",
+        "text": "すぎない"
+      },
+      {
+        "id": "B",
+        "text": "っこない"
+      },
+      {
+        "id": "C",
+        "text": "ほかならない"
+      },
+      {
+        "id": "D",
+        "text": "かねない"
+      }
+    ]
+  },
+  {
+    "id": "N2-G9-005",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-CLOZ",
+    "mondaiTitle": "Mondai 9: 文章の文法 (Ngữ pháp đoạn văn)",
+    "stem": "文章中の【 5 】に入る最も適切なものを、１・２・３・４から一つ選びなさい。",
+    "contextPassage": "\n現代社会では、沈黙を「会話の途切れ」や「気まずさの表れ」として否定的に捉える傾向が強い。相手の言葉に対して即座に反応し、テンポよく言葉を返すことこそが優れたコミュニケーション能力であると【 1 】。\n\nしかし、日本古来の対話文化においては、言葉と言葉の「間（ま）」にこそ深い意味が込められてきた。熟考の末に発せられる一言には重みがあり、沈黙は相手の言葉を真摯に受け止めるための準備期間でもあったのだ。\n\n軽快な言葉のやり取りが重視される現代だからこそ、我々はあえて一度立ち止まり、沈黙が持つ豊かな表現力に目を向けるべきではないだろうか。沈黙を恐れる【 2 】、安易な言葉で間を埋めようとする行為は、かえって対話の質を損なうことになりかねない。\n\n相手の沈黙にじっと耳を傾け、その奥にある心情を汲み取ろうとする姿勢【 3 】、真の意味での心の通い合いが生まれるのである。沈黙は単なる空白ではなく、豊かな思索を育む土壌に【 4 】。我々は沈黙との付き合い方を今一度、見つめ直す【 5 】。\n",
+    "options": [
+      {
+        "id": "A",
+        "text": "まいか"
+      },
+      {
+        "id": "B",
+        "text": "っこないだろう"
+      },
+      {
+        "id": "C",
+        "text": "べきではないだろうか"
+      },
+      {
+        "id": "D",
+        "text": "かねるだろう"
+      }
+    ]
+  },
+  {
+    "id": "N2-RD-SHOR-001",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-SHOR",
+    "mondaiTitle": "Mondai 10: 読解・短文 (Đọc hiểu đoản văn)",
+    "stem": "筆者がこの文章で最も言いたいことは何か。",
+    "contextPassage": "【短文 1：仕事における「やりがい」について】\n\n多くの人は「好きなことを仕事にすれば幸せになれる」と信じている。しかし実際には、好きなことだからこそ、理想と現実のギャップに苦しみ、挫折してしまうケースも少なくない。むしろ、最初から情熱を抱いていたわけではなくても、日々の業務に誠実に向き合い、周囲から感謝される経験を積み重ねる中で、後から「やりがい」が育まれていくことの方が多いのではないだろうか。仕事の充実感とは、あらかじめ用意されているものではなく、自らの日々の実践を通じて獲得していくものなのだ。",
+    "options": [
+      {
+        "id": "A",
+        "text": "好きなことを仕事にしなければ、決して本当の充実感を得ることはできない。"
+      },
+      {
+        "id": "B",
+        "text": "理想と現実のギャップを避けるために、最初から情熱を持たずに働くべきだ。"
+      },
+      {
+        "id": "C",
+        "text": "仕事のやりがいは、日々の実践と他者への貢献を通じて後から育まれるものだ。"
+      },
+      {
+        "id": "D",
+        "text": "周囲から感謝されることだけを唯一の目的として仕事を選ぶのが賢明である。"
+      }
+    ]
+  },
+  {
+    "id": "N2-RD-SHOR-002",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-SHOR",
+    "mondaiTitle": "Mondai 10: 読解・短文 (Đọc hiểu đoản văn)",
+    "stem": "この文章の内容と合致するものはどれか。",
+    "contextPassage": "【短文 2：失敗との向き合い方】\n\n失敗を過度に恐れる組織では、構成員は前例踏襲に終始し、画期的なイノベーションは生まれ得ない。もちろん、同じ初歩的なミスを何度も繰り返すことは防ぐべきだが、新たな挑戦に伴う予期せぬ失敗は、次なる成功のための貴重なデータとして歓迎されるべきである。失敗を個人の資質の問題として非難するのではなく、組織全体で知見を共有し、次への改善策を講じる企業風土こそが、持続的な成長を可能にする。",
+    "options": [
+      {
+        "id": "A",
+        "text": "失敗を完全にゼロに抑え込むことこそが、組織の持続的成長の必須条件だ。"
+      },
+      {
+        "id": "B",
+        "text": "新しい挑戦に伴う失敗は、組織全体の貴重な学びとして共有されるべきである。"
+      },
+      {
+        "id": "C",
+        "text": "いかなる失敗であっても、それを起こした個人の能力不足として厳しく処罰すべきだ。"
+      },
+      {
+        "id": "D",
+        "text": "前例を踏襲して安全な道を選ぶ社員を最も高く評価するべきである。"
+      }
+    ]
+  },
+  {
+    "id": "N2-RD-SHOR-003",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-SHOR",
+    "mondaiTitle": "Mondai 10: 読解・短文 (Đọc hiểu đoản văn)",
+    "stem": "筆者の考えとして最も適切なものはどれか。",
+    "contextPassage": "【短文 3：デジタル時代の人間関係】\n\nソーシャルメディアの普及により、我々は地球の裏側にいる人とも瞬時に繋がることができるようになった。しかし、画面越しのやり取りが便利になればなるほど、生身の人間同士が同じ空間で交わす息遣いや視線のやり取り、沈黙の共有といった非言語的な情報の価値が逆説的に高まっている。文字だけの情報伝達に頼りすぎると、相手の真意を見誤り、思いがけない誤解を生む危険性があることを忘れてはならない。",
+    "options": [
+      {
+        "id": "A",
+        "text": "文字だけの情報伝達は誤解を生むため、SNSの利用は全面的に禁止すべきである。"
+      },
+      {
+        "id": "B",
+        "text": "デジタル技術の進歩によって、対面でのコミュニケーションは完全に不要になった。"
+      },
+      {
+        "id": "C",
+        "text": "地球の裏側の人と繋がることよりも、同じ国の人とだけ対話することが重要だ。"
+      },
+      {
+        "id": "D",
+        "text": "SNSが便利になった今こそ、生身の対面対話が持つ非言語コミュニケーションの価値を再認識すべきだ。"
+      }
+    ]
+  },
+  {
+    "id": "N2-RD-SHOR-004",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-SHOR",
+    "mondaiTitle": "Mondai 10: 読解・短文 (Đọc hiểu đoản văn)",
+    "stem": "筆者が主張していることは何か。",
+    "contextPassage": "【短文 4：時間管理の逆説】\n\nタイパ（タイムパフォーマンス）を過剰に追求し、1分1秒を無駄なく効率的に使おうとする現代人。しかし、スケジュール帳の空白を恐れ、常に何かの作業で予定を埋め尽くしてしまうと、脳が自由に思考を巡らせる「余白」が奪われてしまう。創造的なアイデアや深い洞察は、何もしないぼんやりとした時間、すなわち一見すると「無駄」に思える時間の中でこそ醸成されるのである。効率の追求が、かえって真の豊かさを奪っていないか見つめ直す必要がある。",
+    "options": [
+      {
+        "id": "A",
+        "text": "1分1秒を無駄にせず、すべての時間を作業で埋め尽くすことが最高の自己投資である。"
+      },
+      {
+        "id": "B",
+        "text": "スケジュールを効率だけで埋めず、創造的な思考を育むための何もしない「余白」の時間を持つことが大切だ。"
+      },
+      {
+        "id": "C",
+        "text": "タイパを徹底的に高めることこそが、現代人にとって唯一の幸福への道である。"
+      },
+      {
+        "id": "D",
+        "text": "仕事の効率化など考えずに、毎日をぼんやりと怠惰に過ごすべきである。"
+      }
+    ]
+  },
+  {
+    "id": "N2-RD-SHOR-005",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-SHOR",
+    "mondaiTitle": "Mondai 10: 読解・短文 (Đọc hiểu đoản văn)",
+    "stem": "筆者が考える「真の伝統の継承」とはどのようなものか。",
+    "contextPassage": "【短文 5：伝統工芸の継承】\n\n伝統工芸の後継者不足が叫ばれて久しい。技術の継承が進まない最大の要因は、単に若者の関心が薄いことにあるのではなく、「昔ながらの技法と製品の形を頑なに守ること」を伝統の定義だと誤解している点にあるのではないか。時代が変われば、生活様式も人々の求める美意識も変化する。真の伝統の継承とは、先人の精神を受け継ぎつつも、現代のライフスタイルに調和する新たなデザインや用途を果敢に取り入れていく変革のプロセスそのものなのだ。",
+    "options": [
+      {
+        "id": "A",
+        "text": "先人の精神を受け継ぎながら、現代の生活やニーズに合わせて柔軟に形を進化させること。"
+      },
+      {
+        "id": "B",
+        "text": "過去の技法や製品の形を寸分違わずそのまま頑固に保存し続けること。"
+      },
+      {
+        "id": "C",
+        "text": "伝統的な精神を完全に捨て去り、西洋の流行のみを模倣すること。"
+      },
+      {
+        "id": "D",
+        "text": "若者に関心を持ってもらうために、製品の価格を極限まで引き下げること。"
+      }
+    ]
+  },
+  {
+    "id": "N2-MED-01-Q01",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-MEDI",
+    "mondaiTitle": "Mondai 11: 読解・中文 (Đọc hiểu trung văn)",
+    "stem": "古典的な進化論の考え方に従うと、人間の利他行動はどのように捉えられるか。",
+    "contextPassage": "【中文 1：利他行動の進化と共感のメカニズム】\n\n人間はなぜ、自らの利益を犠牲にしてまで他者を助ける「利他行動」をとるのだろうか。古典的な進化論の視点に立てば、自らの生存と生殖の確率を最大化することが個体の目的であるはずだ。したがって、自分に直接の見返りがない行動は淘汰されるはずである。しかし現実には、見知らぬ他人に席を譲ったり、災害時に危険を冒して救助活動に参加したりする光景は世界中で見られる。\n\n近年の進化生物学や脳科学の研究は、この謎に対して新たな光を当てている。人間は過酷な自然環境を生き抜くために、強固な集団（コミュニティ）を形成し、互いに協力し合う能力を進化させてきた。集団全体の生存確率が高まることが、結果としてその構成員である個人の生存にも寄与したのである。\n\nさらに、脳内には他者の痛みや喜びを自分のことのように追体験する「ミラーニューロン」をはじめとする共感システムが備わっていることが分かってきた。他者を助けることで得られる「温かい感情」や誇りは、脳内の報酬系を活性化させる。つまり、利他行動とは単なる道徳的な義務感から生じるものではなく、人間の生存戦略として遺伝子レベルで組み込まれた、生物学的に自然な欲求なのである。",
+    "options": [
+      {
+        "id": "A",
+        "text": "集団全体の利益を最優先する、最も理想的で合理的な行動。"
+      },
+      {
+        "id": "B",
+        "text": "人間以外の高等動物には決して見られない、人間独自の高潔な道徳行動。"
+      },
+      {
+        "id": "C",
+        "text": "見返りを期待して行われる、極めて計算高い利己的な行動。"
+      },
+      {
+        "id": "D",
+        "text": "個体の生存や利益に直結しないため、進化の過程で消滅すべき不合理な行動。"
+      }
+    ]
+  },
+  {
+    "id": "N2-MED-01-Q02",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-MEDI",
+    "mondaiTitle": "Mondai 11: 読解・中文 (Đọc hiểu trung văn)",
+    "stem": "第二段落において、利他行動が進化した背景として説明されていることは何か。",
+    "contextPassage": "【中文 1：利他行動の進化と共感のメカニズム】\n\n人間はなぜ、自らの利益を犠牲にしてまで他者を助ける「利他行動」をとるのだろうか。古典的な進化論の視点に立てば、自らの生存と生殖の確率を最大化することが個体の目的であるはずだ。したがって、自分に直接の見返りがない行動は淘汰されるはずである。しかし現実には、見知らぬ他人に席を譲ったり、災害時に危険を冒して救助活動に参加したりする光景は世界中で見られる。\n\n近年の進化生物学や脳科学の研究は、この謎に対して新たな光を当てている。人間は過酷な自然環境を生き抜くために、強固な集団（コミュニティ）を形成し、互いに協力し合う能力を進化させてきた。集団全体の生存確率が高まることが、結果としてその構成員である個人の生存にも寄与したのである。\n\nさらに、脳内には他者の痛みや喜びを自分のことのように追体験する「ミラーニューロン」をはじめとする共感システムが備わっていることが分かってきた。他者を助けることで得られる「温かい感情」や誇りは、脳内の報酬系を活性化させる。つまり、利他行動とは単なる道徳的な義務感から生じるものではなく、人間の生存戦略として遺伝子レベルで組み込まれた、生物学的に自然な欲求なのである。",
+    "options": [
+      {
+        "id": "A",
+        "text": "他者と競争して勝ち残った強者だけが、余力で他者を救済できるようになったため。"
+      },
+      {
+        "id": "B",
+        "text": "法律や宗教などの社会制度が成立し、他者を助けることが義務付けられたため。"
+      },
+      {
+        "id": "C",
+        "text": "自然環境が豊かになり、自分の食料を他人に分け与える余裕が生まれたため。"
+      },
+      {
+        "id": "D",
+        "text": "集団で協力して助け合うことで集団全体の生存率が上がり、個人の生存にも繋がったため。"
+      }
+    ]
+  },
+  {
+    "id": "N2-MED-01-Q03",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-MEDI",
+    "mondaiTitle": "Mondai 11: 読解・中文 (Đọc hiểu trung văn)",
+    "stem": "筆者は利他行動の本質についてどのように結論づけているか。",
+    "contextPassage": "【中文 1：利他行動の進化と共感のメカニズム】\n\n人間はなぜ、自らの利益を犠牲にしてまで他者を助ける「利他行動」をとるのだろうか。古典的な進化論の視点に立てば、自らの生存と生殖の確率を最大化することが個体の目的であるはずだ。したがって、自分に直接の見返りがない行動は淘汰されるはずである。しかし現実には、見知らぬ他人に席を譲ったり、災害時に危険を冒して救助活動に参加したりする光景は世界中で見られる。\n\n近年の進化生物学や脳科学の研究は、この謎に対して新たな光を当てている。人間は過酷な自然環境を生き抜くために、強固な集団（コミュニティ）を形成し、互いに協力し合う能力を進化させてきた。集団全体の生存確率が高まることが、結果としてその構成員である個人の生存にも寄与したのである。\n\nさらに、脳内には他者の痛みや喜びを自分のことのように追体験する「ミラーニューロン」をはじめとする共感システムが備わっていることが分かってきた。他者を助けることで得られる「温かい感情」や誇りは、脳内の報酬系を活性化させる。つまり、利他行動とは単なる道徳的な義務感から生じるものではなく、人間の生存戦略として遺伝子レベルで組み込まれた、生物学的に自然な欲求なのである。",
+    "options": [
+      {
+        "id": "A",
+        "text": "他者から褒められたいという利己的な見栄を満たすための心理的錯覚にすぎない。"
+      },
+      {
+        "id": "B",
+        "text": "現代社会の教育や文明の発達によって、後天的に獲得された人工的な知性である。"
+      },
+      {
+        "id": "C",
+        "text": "単なる道徳義務ではなく、人間の脳と遺伝子に組み込まれた生物学的な生存戦略である。"
+      },
+      {
+        "id": "D",
+        "text": "自然科学の理論では解明できない、神秘的で精神的な奇跡である。"
+      }
+    ]
+  },
+  {
+    "id": "N2-MED-02-Q01",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-MEDI",
+    "mondaiTitle": "Mondai 11: 読解・中文 (Đọc hiểu trung văn)",
+    "stem": "かつての農村社会と近代の都市空間の対比について、筆者はどう説明しているか。",
+    "contextPassage": "【中文 2：都市化と「孤独」の社会学】\n\nかつての農村社会における共同体は、個人のプライバシーを厳しく制限する息苦しさを孕んでいた。誰がどこで何をしているかが常に周囲に監視されており、慣習や掟に従わない者は容赦なく排除された。これに対し、近代の都市空間は、匿名性と自由を最大の魅力として人々を引き寄せてきた。誰にも干渉されず、自分の好きなライフスタイルを選択できる「自由な個人」の誕生である。\n\nしかし、その自由の代償として現代人が直面しているのが、深刻な「孤独」と「孤立」の問題である。都市における人間関係は、利害関係に基づいた希薄な契約関係に偏りがちであり、困難に直面したときに無条件で自分を支えてくれるセーフティネットが存在しない。\n\n自由とは、他者との煩わしい関係をすべて断ち切ることではないはずだ。真の自立とは、他者に依存しないことではなく、いざという時に助けを求め合える信頼関係を複数持っていることである。今我々に求められているのは、旧来の息苦しい共同体へ回帰することではなく、個人の自由を尊重しながらも、緩やかにつながり合える「新しい共同性」を再構築することではないだろうか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "農村は自由で開放的だったが、都市は冷酷で暴力的な支配に満ちている。"
+      },
+      {
+        "id": "B",
+        "text": "農村は監視があり息苦しかったが、都市は干渉されない自由と匿名性をもたらした。"
+      },
+      {
+        "id": "C",
+        "text": "農村も都市も、人間関係の親密さや自由の度合いに大きな差は存在しない。"
+      },
+      {
+        "id": "D",
+        "text": "農村の人々は自立していたが、都市の人々は全員が他人に依存しきっている。"
+      }
+    ]
+  },
+  {
+    "id": "N2-MED-02-Q02",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-MEDI",
+    "mondaiTitle": "Mondai 11: 読解・中文 (Đọc hiểu trung văn)",
+    "stem": "第二段落で指摘されている「自由の代償」とは何か。",
+    "contextPassage": "【中文 2：都市化と「孤独」の社会学】\n\nかつての農村社会における共同体は、個人のプライバシーを厳しく制限する息苦しさを孕んでいた。誰がどこで何をしているかが常に周囲に監視されており、慣習や掟に従わない者は容赦なく排除された。これに対し、近代の都市空間は、匿名性と自由を最大の魅力として人々を引き寄せてきた。誰にも干渉されず、自分の好きなライフスタイルを選択できる「自由な個人」の誕生である。\n\nしかし、その自由の代償として現代人が直面しているのが、深刻な「孤独」と「孤立」の問題である。都市における人間関係は、利害関係に基づいた希薄な契約関係に偏りがちであり、困難に直面したときに無条件で自分を支えてくれるセーフティネットが存在しない。\n\n自由とは、他者との煩わしい関係をすべて断ち切ることではないはずだ。真の自立とは、他者に依存しないことではなく、いざという時に助けを求め合える信頼関係を複数持っていることである。今我々に求められているのは、旧来の息苦しい共同体へ回帰することではなく、個人の自由を尊重しながらも、緩やかにつながり合える「新しい共同性」を再構築することではないだろうか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "都市の家賃や生活費が高騰し、経済的な困窮に陥る若者が急増したこと。"
+      },
+      {
+        "id": "B",
+        "text": "田舎に残してきた家族との法的な縁が切れて、遺産相続の権利を失うこと。"
+      },
+      {
+        "id": "C",
+        "text": "他者からの干渉がない一方で、困った時に無条件で支えてくれる人間関係が失われたこと。"
+      },
+      {
+        "id": "D",
+        "text": "プライバシーが完全に消滅し、行政機関に常に監視されるようになったこと。"
+      }
+    ]
+  },
+  {
+    "id": "N2-MED-02-Q03",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-MEDI",
+    "mondaiTitle": "Mondai 11: 読解・中文 (Đọc hiểu trung văn)",
+    "stem": "筆者が今後の社会に向けて提唱している提案はどれか。",
+    "contextPassage": "【中文 2：都市化と「孤独」の社会学】\n\nかつての農村社会における共同体は、個人のプライバシーを厳しく制限する息苦しさを孕んでいた。誰がどこで何をしているかが常に周囲に監視されており、慣習や掟に従わない者は容赦なく排除された。これに対し、近代の都市空間は、匿名性と自由を最大の魅力として人々を引き寄せてきた。誰にも干渉されず、自分の好きなライフスタイルを選択できる「自由な個人」の誕生である。\n\nしかし、その自由の代償として現代人が直面しているのが、深刻な「孤独」と「孤立」の問題である。都市における人間関係は、利害関係に基づいた希薄な契約関係に偏りがちであり、困難に直面したときに無条件で自分を支えてくれるセーフティネットが存在しない。\n\n自由とは、他者との煩わしい関係をすべて断ち切ることではないはずだ。真の自立とは、他者に依存しないことではなく、いざという時に助けを求め合える信頼関係を複数持っていることである。今我々に求められているのは、旧来の息苦しい共同体へ回帰することではなく、個人の自由を尊重しながらも、緩やかにつながり合える「新しい共同性」を再構築することではないだろうか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "個人の自由を尊重しつつ、緩やかで柔軟につながり合える新しい共同体を築くこと。"
+      },
+      {
+        "id": "B",
+        "text": "都市生活を捨てて、全員が昔ながらの農村社会の厳格な掟のもとへ戻るべきだ。"
+      },
+      {
+        "id": "C",
+        "text": "孤独を克服するためには、すべての人間関係を契約と金銭で解決するのが合理的だ。"
+      },
+      {
+        "id": "D",
+        "text": "真の自由を得るために、家族や友人を含むあらゆる人間関係を断絶すべきだ。"
+      }
+    ]
+  },
+  {
+    "id": "N2-MED-03-Q01",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-MEDI",
+    "mondaiTitle": "Mondai 11: 読解・中文 (Đọc hiểu trung văn)",
+    "stem": "従来の製品開発において生じていた問題点は何か。",
+    "contextPassage": "【中文 3：デザインにおける「引き算の美学」】\n\n多くの製品開発現場では、競合他社との差別化を図るために「機能の追加」が繰り返される。ボタンの数を増やし、あらゆる用途に対応できる多機能性をアピールすることが、顧客への価値提供だと信じられているからだ。しかしその結果、取扱説明書を読まなければ基本操作すらできない、複雑で扱いにくい製品が市場に溢れかえることになった。\n\nこれに対して、近年世界中で支持を集めているのが「引き算の美学」である。これは、製品が果たすべき本質的な目的を徹底的に突き詰め、それ以外の余分な要素を極限まで削ぎ落とす設計思想を指す。要素を減らすことは、一見すると妥協や手抜きのように思えるかもしれないが、実際には足し算よりもはるかに高度な判断力と技術が要求される。\n\n何かを削るためには、「何が本当に不可欠なのか」を完璧に理解していなければならない。無駄のない洗練された造形は、ユーザーに直感的な操作を可能にさせ、美的な感動を与える。真に優れたデザインとは、これ以上付け足すものがない状態ではなく、これ以上削るものがない極限の調和に宿るのである。",
+    "options": [
+      {
+        "id": "A",
+        "text": "製品の製造コストを削りすぎた結果、強度が不足して故障が多発したこと。"
+      },
+      {
+        "id": "B",
+        "text": "差別化のために機能を過剰に追加した結果、操作が複雑で扱いにくくなったこと。"
+      },
+      {
+        "id": "C",
+        "text": "デザインばかりを重視した結果、実用的な機能がすべて失われてしまったこと。"
+      },
+      {
+        "id": "D",
+        "text": "他社のデザインをそのまま模倣したため、著作権侵害の訴訟が頻発したこと。"
+      }
+    ]
+  },
+  {
+    "id": "N2-MED-03-Q02",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-MEDI",
+    "mondaiTitle": "Mondai 11: 読解・中文 (Đọc hiểu trung văn)",
+    "stem": "筆者は「引き算の美学」を実践することの難しさをどのように述べているか。",
+    "contextPassage": "【中文 3：デザインにおける「引き算の美学」】\n\n多くの製品開発現場では、競合他社との差別化を図るために「機能の追加」が繰り返される。ボタンの数を増やし、あらゆる用途に対応できる多機能性をアピールすることが、顧客への価値提供だと信じられているからだ。しかしその結果、取扱説明書を読まなければ基本操作すらできない、複雑で扱いにくい製品が市場に溢れかえることになった。\n\nこれに対して、近年世界中で支持を集めているのが「引き算の美学」である。これは、製品が果たすべき本質的な目的を徹底的に突き詰め、それ以外の余分な要素を極限まで削ぎ落とす設計思想を指す。要素を減らすことは、一見すると妥協や手抜きのように思えるかもしれないが、実際には足し算よりもはるかに高度な判断力と技術が要求される。\n\n何かを削るためには、「何が本当に不可欠なのか」を完璧に理解していなければならない。無駄のない洗練された造形は、ユーザーに直感的な操作を可能にさせ、美的な感動を与える。真に優れたデザインとは、これ以上付け足すものがない状態ではなく、これ以上削るものがない極限の調和に宿るのである。",
+    "options": [
+      {
+        "id": "A",
+        "text": "本当に不可欠な要素が何かを完全に理解し見極める、高度な判断力が要求される点。"
+      },
+      {
+        "id": "B",
+        "text": "材料費が非常に高価になるため、中小企業には資金的に導入できない点。"
+      },
+      {
+        "id": "C",
+        "text": "要素を削ると顧客から手抜きだと誤解され、売上が一時的に半減してしまう点。"
+      },
+      {
+        "id": "D",
+        "text": "最新のAIやコンピュータ技術を使わなければ、不要な要素を計算できない点。"
+      }
+    ]
+  },
+  {
+    "id": "N2-MED-03-Q03",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-MEDI",
+    "mondaiTitle": "Mondai 11: 読解・中文 (Đọc hiểu trung văn)",
+    "stem": "文章全体の結論として、筆者が考える「真に優れたデザイン」とはどのようなものか。",
+    "contextPassage": "【中文 3：デザインにおける「引き算の美学」】\n\n多くの製品開発現場では、競合他社との差別化を図るために「機能の追加」が繰り返される。ボタンの数を増やし、あらゆる用途に対応できる多機能性をアピールすることが、顧客への価値提供だと信じられているからだ。しかしその結果、取扱説明書を読まなければ基本操作すらできない、複雑で扱いにくい製品が市場に溢れかえることになった。\n\nこれに対して、近年世界中で支持を集めているのが「引き算の美学」である。これは、製品が果たすべき本質的な目的を徹底的に突き詰め、それ以外の余分な要素を極限まで削ぎ落とす設計思想を指す。要素を減らすことは、一見すると妥協や手抜きのように思えるかもしれないが、実際には足し算よりもはるかに高度な判断力と技術が要求される。\n\n何かを削るためには、「何が本当に不可欠なのか」を完璧に理解していなければならない。無駄のない洗練された造形は、ユーザーに直感的な操作を可能にさせ、美的な感動を与える。真に優れたデザインとは、これ以上付け足すものがない状態ではなく、これ以上削るものがない極限の調和に宿るのである。",
+    "options": [
+      {
+        "id": "A",
+        "text": "最新の流行を取り入れ、あらゆる顧客の要望を満たす機能が網羅された状態。"
+      },
+      {
+        "id": "B",
+        "text": "これ以上削ぎ落とすものがない極限まで本質が研ぎ澄まされた状態。"
+      },
+      {
+        "id": "C",
+        "text": "伝統的な職人技を駆使して、誰にも真似できない複雑な装飾を施した状態。"
+      },
+      {
+        "id": "D",
+        "text": "取扱説明書を熟読した専門家だけが使いこなせる、高難度のプロ向けの状態。"
+      }
+    ]
+  },
+  {
+    "id": "N2-INTE-01-Q01",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-INTE",
+    "mondaiTitle": "Mondai 12: 読解・統合理解 (Đọc hiểu so sánh A & B)",
+    "stem": "A氏とB氏の意見の共通点として最も適切なものはどれか。",
+    "contextPassage": "【統合理解 1：キャッシュレス決済の是非】\n\n【A氏の意見】\nスマートフォンの普及に伴い、キャッシュレス決済は急速に日常生活に定着した。現金を持ち歩く必要がなく、財布を落とした際の盗難リスクも軽減される。店舗側にとっても、レジ締め作業の効率化や会計時間の短縮など、人手不足を補う絶大なメリットがある。購買データが可視化されることで家計管理も容易になり、経済活動全体の活性化に資する。もはや現金に固執する理由はなく、社会全体で完全なキャッシュレス化を推し進めるべきだ。\n\n【B氏の意見】\n確かにキャッシュレス決済の利便性は否定できないが、全面的な移行には慎重であるべきだ。最大の問題は、大規模な地震などの自然災害時に停電や通信障害が発生した場合、一切の決済手段が麻痺してしまう点である。また、高齢者などデジタル機器の操作に不慣れな社会的弱者が取り残される危険性も無視できない。さらに、手元から実際にお金が減る感覚が希薄になるため、若年層の無計画な浪費を助長する懸念もある。社会インフラとして現金という選択肢を維持し続けることこそが、真の安全保障である。",
+    "options": [
+      {
+        "id": "A",
+        "text": "自然災害が発生した際には、現金決済もキャッシュレスも等しく役に立たないと考えている。"
+      },
+      {
+        "id": "B",
+        "text": "完全なキャッシュレス社会への移行を、今すぐにでも達成すべきだと主張している。"
+      },
+      {
+        "id": "C",
+        "text": "若者の浪費を防ぐためには、すべての電子マネーの利用限度額を下げるべきだと考えている。"
+      },
+      {
+        "id": "D",
+        "text": "キャッシュレス決済がもたらす利便性の高さ自体は、両者とも認めている。"
+      }
+    ]
+  },
+  {
+    "id": "N2-INTE-01-Q02",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-INTE",
+    "mondaiTitle": "Mondai 12: 読解・統合理解 (Đọc hiểu so sánh A & B)",
+    "stem": "完全なキャッシュレス化に対して、B氏はどのような理由で慎重な姿勢をとっているか。",
+    "contextPassage": "【統合理解 1：キャッシュレス決済の是非】\n\n【A氏の意見】\nスマートフォンの普及に伴い、キャッシュレス決済は急速に日常生活に定着した。現金を持ち歩く必要がなく、財布を落とした際の盗難リスクも軽減される。店舗側にとっても、レジ締め作業の効率化や会計時間の短縮など、人手不足を補う絶大なメリットがある。購買データが可視化されることで家計管理も容易になり、経済活動全体の活性化に資する。もはや現金に固執する理由はなく、社会全体で完全なキャッシュレス化を推し進めるべきだ。\n\n【B氏の意見】\n確かにキャッシュレス決済の利便性は否定できないが、全面的な移行には慎重であるべきだ。最大の問題は、大規模な地震などの自然災害時に停電や通信障害が発生した場合、一切の決済手段が麻痺してしまう点である。また、高齢者などデジタル機器の操作に不慣れな社会的弱者が取り残される危険性も無視できない。さらに、手元から実際にお金が減る感覚が希薄になるため、若年層の無計画な浪費を助長する懸念もある。社会インフラとして現金という選択肢を維持し続けることこそが、真の安全保障である。",
+    "options": [
+      {
+        "id": "A",
+        "text": "災害時の通信麻痺のリスク、デジタル弱者の排除、浪費の助長といった弊害を懸念しているため。"
+      },
+      {
+        "id": "B",
+        "text": "店舗側の決済手数料が高すぎるため、小規模な個人商店がすべて倒産してしまうため。"
+      },
+      {
+        "id": "C",
+        "text": "スマートフォンの電波が人体に与える悪影響が、科学的に証明されていないため。"
+      },
+      {
+        "id": "D",
+        "text": "現金印刷に関わる印刷会社や銀行員の雇用を守る必要があると考えているため。"
+      }
+    ]
+  },
+  {
+    "id": "N2-LONG-01-Q01",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-LONG",
+    "mondaiTitle": "Mondai 13: 読解・長文 (Đọc hiểu trường văn)",
+    "stem": "第一段落で筆者が「皮肉なこと」として指摘している現代の現象は何か。",
+    "contextPassage": "【長文 1：教養としての「科学的リテラシー」】\n\n我々は科学技術の恩恵を一身に浴びて生活している。毎日の天気予報から医療、交通、通信に至るまで、科学の成果なくして現代文明の一日たりとも成り立たない。しかし皮肉なことに、技術が高度に専門化・ブラックボックス化するにつれて、一般の人々の科学に対する理解と関心はむしろ乖離の一途をたどっている。スマートフォンの画面をタップすれば世界と繋がるが、なぜそれが可能なのか、その背後にある物理法則や通信の原理を意識する人は稀である。\n\nこうした状況の中で問われるのが、「科学的リテラシー」の真の意味である。科学的リテラシーとは、単に教科書的な専門知識や公式を暗記していることではない。未知の現象や真偽不明の言説に直面したときに、「どのようなデータや実験に基づいているのか」「反証可能性はあるのか」と論理的に問い直す思考様式、すなわち「科学的なものの見方」を身につけていることである。\n\n現代社会では、疑似科学や不確かな健康情報、あるいは陰謀論がインターネットを通じて瞬く間に拡散する。それらは往々にして、人々の不安や欲望に巧みにつけ込み、もっともらしい装いで提示される。専門知識を持たない市民がそうした言説に惑わされないためには、「専門家の言うことだから」と無条件に信じ込む盲従でもなく、逆にすべてを胡散臭いと退ける冷笑でもなく、根拠の確かさを自らの頭で吟味する健全な懐疑心が必要不可欠である。\n\n科学とは、完成された不変の真理の体系ではない。仮説を立て、実験と観察によって検証し、間違いが判明すれば勇気を持って修正していく、果てしない自己訂正の営みである。この科学の開かれた精神こそが、不確実な未来を航海する市民にとって最も頼るべき羅針盤となるのである。",
+    "options": [
+      {
+        "id": "A",
+        "text": "科学者が一般市民を見下し、高度な技術情報をすべて秘密にして公開しないこと。"
+      },
+      {
+        "id": "B",
+        "text": "科学技術の恩恵に依存して生きているにもかかわらず、その原理への理解が希薄になっていること。"
+      },
+      {
+        "id": "C",
+        "text": "スマートフォンが普及したせいで、若者の物理や数学の学力が世界的に急落したこと。"
+      },
+      {
+        "id": "D",
+        "text": "科学技術が発展すればするほど、人々の生活が不便で危険なものになっていること。"
+      }
+    ]
+  },
+  {
+    "id": "N2-LONG-01-Q02",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-LONG",
+    "mondaiTitle": "Mondai 13: 読解・長文 (Đọc hiểu trường văn)",
+    "stem": "筆者が定義する「科学的リテラシー」とはどのような能力か。",
+    "contextPassage": "【長文 1：教養としての「科学的リテラシー」】\n\n我々は科学技術の恩恵を一身に浴びて生活している。毎日の天気予報から医療、交通、通信に至るまで、科学の成果なくして現代文明の一日たりとも成り立たない。しかし皮肉なことに、技術が高度に専門化・ブラックボックス化するにつれて、一般の人々の科学に対する理解と関心はむしろ乖離の一途をたどっている。スマートフォンの画面をタップすれば世界と繋がるが、なぜそれが可能なのか、その背後にある物理法則や通信の原理を意識する人は稀である。\n\nこうした状況の中で問われるのが、「科学的リテラシー」の真の意味である。科学的リテラシーとは、単に教科書的な専門知識や公式を暗記していることではない。未知の現象や真偽不明の言説に直面したときに、「どのようなデータや実験に基づいているのか」「反証可能性はあるのか」と論理的に問い直す思考様式、すなわち「科学的なものの見方」を身につけていることである。\n\n現代社会では、疑似科学や不確かな健康情報、あるいは陰謀論がインターネットを通じて瞬く間に拡散する。それらは往々にして、人々の不安や欲望に巧みにつけ込み、もっともらしい装いで提示される。専門知識を持たない市民がそうした言説に惑わされないためには、「専門家の言うことだから」と無条件に信じ込む盲従でもなく、逆にすべてを胡散臭いと退ける冷笑でもなく、根拠の確かさを自らの頭で吟味する健全な懐疑心が必要不可欠である。\n\n科学とは、完成された不変の真理の体系ではない。仮説を立て、実験と観察によって検証し、間違いが判明すれば勇気を持って修正していく、果てしない自己訂正の営みである。この科学の開かれた精神こそが、不確実な未来を航海する市民にとって最も頼るべき羅針盤となるのである。",
+    "options": [
+      {
+        "id": "A",
+        "text": "専門知識の暗記ではなく、言説の根拠や反証可能性を論理的に検証する思考態度。"
+      },
+      {
+        "id": "B",
+        "text": "大学の物理や化学の学術論文を辞書なしですらすら読みこなせる専門的な知識。"
+      },
+      {
+        "id": "C",
+        "text": "最新のIT機器やプログラミング言語を誰よりも素早くマスターする実用的な技術。"
+      },
+      {
+        "id": "D",
+        "text": "あらゆる科学的言説を頭から疑い、専門家の意見をすべて論破して見せる批判力。"
+      }
+    ]
+  },
+  {
+    "id": "N2-LONG-01-Q03",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-LONG",
+    "mondaiTitle": "Mondai 13: 読解・長文 (Đọc hiểu trường văn)",
+    "stem": "筆者が考える「科学の本質」と、市民にとっての意義とは何か。",
+    "contextPassage": "【長文 1：教養としての「科学的リテラシー」】\n\n我々は科学技術の恩恵を一身に浴びて生活している。毎日の天気予報から医療、交通、通信に至るまで、科学の成果なくして現代文明の一日たりとも成り立たない。しかし皮肉なことに、技術が高度に専門化・ブラックボックス化するにつれて、一般の人々の科学に対する理解と関心はむしろ乖離の一途をたどっている。スマートフォンの画面をタップすれば世界と繋がるが、なぜそれが可能なのか、その背後にある物理法則や通信の原理を意識する人は稀である。\n\nこうした状況の中で問われるのが、「科学的リテラシー」の真の意味である。科学的リテラシーとは、単に教科書的な専門知識や公式を暗記していることではない。未知の現象や真偽不明の言説に直面したときに、「どのようなデータや実験に基づいているのか」「反証可能性はあるのか」と論理的に問い直す思考様式、すなわち「科学的なものの見方」を身につけていることである。\n\n現代社会では、疑似科学や不確かな健康情報、あるいは陰謀論がインターネットを通じて瞬く間に拡散する。それらは往々にして、人々の不安や欲望に巧みにつけ込み、もっともらしい装いで提示される。専門知識を持たない市民がそうした言説に惑わされないためには、「専門家の言うことだから」と無条件に信じ込む盲従でもなく、逆にすべてを胡散臭いと退ける冷笑でもなく、根拠の確かさを自らの頭で吟味する健全な懐疑心が必要不可欠である。\n\n科学とは、完成された不変の真理の体系ではない。仮説を立て、実験と観察によって検証し、間違いが判明すれば勇気を持って修正していく、果てしない自己訂正の営みである。この科学の開かれた精神こそが、不確実な未来を航海する市民にとって最も頼るべき羅針盤となるのである。",
+    "options": [
+      {
+        "id": "A",
+        "text": "間違いがあれば修正していく自己訂正の営みであり、不確実な時代を生き抜く羅針盤である。"
+      },
+      {
+        "id": "B",
+        "text": "一度確立された絶対に揺るぎない永遠の真理であり、疑うことなく信じるべき教義である。"
+      },
+      {
+        "id": "C",
+        "text": "経済的な利益を最大化するための道具であり、産業の発展のみに奉仕すべきものである。"
+      },
+      {
+        "id": "D",
+        "text": "一部の天才科学者だけが理解できる特権的な学問であり、一般市民には関係がないもの。"
+      }
+    ]
+  },
+  {
+    "id": "N2-INFO-01-Q01",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-INFO",
+    "mondaiTitle": "Mondai 14: 読解・情報検索 (Tra cứu thông tin)",
+    "stem": "会社帰りの平日の夜にスキルアップしたい緑町在勤の山田さん（文字入力可能）が申し込めるコースと費用はどれか。",
+    "contextPassage": "【情報検索 1：緑町市民センター「パソコン講座」受講生募集のご案内】\n\n【緑町市民センター パソコン講座 受講生募集】\n緑町市民センターでは、地域住民の皆様のスキルアップを応援するため、以下のパソコン講座を開講いたします。\n\n■ コース一覧\n1. 【入門】はじめてのパソコン（電源の入れ方、文字入力、メールの送受信）\n   ・日程：11月5日〜11月26日（毎週火曜日・全4回）10:00〜12:00\n   ・受講料：2,000円（教材費込み）\n   ・定員：15名（先着順）\n\n2. 【実用】ビジネスExcel基礎（表作成、基本関数、グラフ作成）\n   ・日程：11月7日〜11月28日（毎週木曜日・全4回）19:00〜21:00\n   ・受講料：4,000円（教材費別途 1,500円）\n   ・対象：文字入力がスムーズにできる方\n   ・定員：20名（応募者多数の場合は市内在住・在勤者を優先して抽選）\n\n3. 【応用】実践ホームページ作成（HTML/CSSの基礎と公開手順）\n   ・日程：11月9日〜11月30日（毎週土曜日・全4回）14:00〜17:00\n   ・受講料：6,000円（教材費込み）\n   ・対象：ファイル管理や基本操作に慣れている方\n   ・定員：12名（抽選）\n\n■ お申し込み方法\n・申込期間：10月1日（火）〜10月20日（日）必着\n・方法：市民センター窓口、または公式ホームページの専用フォームよりお申し込みください。\n・注意点：\n  ※複数のコースに重複して申し込むことはできません。\n  ※受講決定通知は10月25日（金）までにメールまたは郵送にてお送りします。\n  ※開講日の3日前以降のキャンセルは、受講料の返金ができませんのでご注意ください。",
+    "options": [
+      {
+        "id": "A",
+        "text": "「はじめてのパソコン」で、受講料2,000円（教材費込み）。"
+      },
+      {
+        "id": "B",
+        "text": "「実践ホームページ作成」で、受講料6,000円（教材費込み）。"
+      },
+      {
+        "id": "C",
+        "text": "「ビジネスExcel基礎」で、受講料4,000円と教材費1,500円の合計5,500円。"
+      },
+      {
+        "id": "D",
+        "text": "「ビジネスExcel基礎」と「実践ホームページ作成」の2つに重複して申し込む。"
+      }
+    ]
+  },
+  {
+    "id": "N2-INFO-01-Q02",
+    "examId": "N2-MOCK-01",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-INFO",
+    "mondaiTitle": "Mondai 14: 読解・情報検索 (Tra cứu thông tin)",
+    "stem": "受講申し込みやキャンセルに関する記述として、正しいものはどれか。",
+    "contextPassage": "【情報検索 1：緑町市民センター「パソコン講座」受講生募集のご案内】\n\n【緑町市民センター パソコン講座 受講生募集】\n緑町市民センターでは、地域住民の皆様のスキルアップを応援するため、以下のパソコン講座を開講いたします。\n\n■ コース一覧\n1. 【入門】はじめてのパソコン（電源の入れ方、文字入力、メールの送受信）\n   ・日程：11月5日〜11月26日（毎週火曜日・全4回）10:00〜12:00\n   ・受講料：2,000円（教材費込み）\n   ・定員：15名（先着順）\n\n2. 【実用】ビジネスExcel基礎（表作成、基本関数、グラフ作成）\n   ・日程：11月7日〜11月28日（毎週木曜日・全4回）19:00〜21:00\n   ・受講料：4,000円（教材費別途 1,500円）\n   ・対象：文字入力がスムーズにできる方\n   ・定員：20名（応募者多数の場合は市内在住・在勤者を優先して抽選）\n\n3. 【応用】実践ホームページ作成（HTML/CSSの基礎と公開手順）\n   ・日程：11月9日〜11月30日（毎週土曜日・全4回）14:00〜17:00\n   ・受講料：6,000円（教材費込み）\n   ・対象：ファイル管理や基本操作に慣れている方\n   ・定員：12名（抽選）\n\n■ お申し込み方法\n・申込期間：10月1日（火）〜10月20日（日）必着\n・方法：市民センター窓口、または公式ホームページの専用フォームよりお申し込みください。\n・注意点：\n  ※複数のコースに重複して申し込むことはできません。\n  ※受講決定通知は10月25日（金）までにメールまたは郵送にてお送りします。\n  ※開講日の3日前以降のキャンセルは、受講料の返金ができませんのでご注意ください。",
+    "options": [
+      {
+        "id": "A",
+        "text": "複数のコースを同時に受講したい場合、受講料が半額に割引される。"
+      },
+      {
+        "id": "B",
+        "text": "開講日の3日前を過ぎてからキャンセルした場合、受講料は一切返金されない。"
+      },
+      {
+        "id": "C",
+        "text": "定員を超えた場合は、どのコースであってもすべて先着順で受講者が決定される。"
+      },
+      {
+        "id": "D",
+        "text": "受講決定通知は電話でのみ連絡され、10月20日当日中に回答しなければならない。"
+      }
+    ]
+  },
+  {
+    "id": "N2-M1-L01",
+    "examId": "N2-MOCK-01",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-TASK",
+    "mondaiTitle": "Mondai 1: 課題理解 (Hiểu yêu cầu - Nhiệm vụ tiếp theo)",
+    "stem": "男の人はこの後、まず何をしなければなりませんか。",
+    "contextPassage": "男の人と女の人が会社で話しています。男の人はこの後、まず何をしなければなりませんか。\n\n男：「課長、来期の新商品キャンペーンの企画書を作成したのですが、ご確認いただけますでしょうか。」\n女：「ええ、見せて。……全体のコンセプトは斬新でとてもいいわね。ただ、予算の試算表が少し大雑把すぎる気がするわ。原材料費の高騰も考慮して、詳細な内訳を出し直してほしいの。それから、宣伝部の田中さんにも意見を聞いておいてね。」\n男：「分かりました。田中さんへの相談は、予算表を作り直した後の方がよろしいでしょうか。」\n女：「そうね。数字が固まっていないと具体的な話ができないから、まずは予算の再計算を最優先でお願いね。プレゼン資料の作成はその後でいいから。」\n男：「承知いたしました。すぐに取りかかります。」",
+    "options": [
+      {
+        "id": "A",
+        "text": "新商品のプレゼン資料を作成する。"
+      },
+      {
+        "id": "B",
+        "text": "宣伝部の田中さんに相談に行く。"
+      },
+      {
+        "id": "C",
+        "text": "企画全体のコンセプトを考え直す。"
+      },
+      {
+        "id": "D",
+        "text": "予算の詳細な内訳を再計算する。"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_01/N2_M1_L01.mp3"
+  },
+  {
+    "id": "N2-M1-L02",
+    "examId": "N2-MOCK-01",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-TASK",
+    "mondaiTitle": "Mondai 1: 課題理解 (Hiểu yêu cầu - Nhiệm vụ tiếp theo)",
+    "stem": "夫はこの後、何をしますか。",
+    "contextPassage": "夫婦が引越しの準備について話しています。夫はこの後、何をしますか。\n\n女：「来週の引越し、不用品の処分はどうなった？」\n男：「粗大ゴミの収集はもう予約したよ。ダンボールも届いたから、本や服は週末に詰めるよ。」\n女：「助かるわ。あ、電気とガスの使用停止の手続きはネットでしたんだけど、水道局だけは電話で連絡しなきゃいけないの。今日の午後5時までだから、お願いできる？」\n男：「分かった、今すぐ電話しておくよ。インターネット回線の移転手続きは？」\n女：「それは私が昨日プロバイダに連絡したから大丈夫。」",
+    "options": [
+      {
+        "id": "A",
+        "text": "水道局に電話をかける。"
+      },
+      {
+        "id": "B",
+        "text": "粗大ゴミの収集を予約する。"
+      },
+      {
+        "id": "C",
+        "text": "ダンボールに本や服を詰める。"
+      },
+      {
+        "id": "D",
+        "text": "インターネットプロバイダに連絡する。"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_01/N2_M1_L02.mp3"
+  },
+  {
+    "id": "N2-M1-L03",
+    "examId": "N2-MOCK-01",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-TASK",
+    "mondaiTitle": "Mondai 1: 課題理解 (Hiểu yêu cầu - Nhiệm vụ tiếp theo)",
+    "stem": "女性社員はこの後、まず何をしますか。",
+    "contextPassage": "会社の出張手配で、男性社員と女性社員が話しています。女性社員はこの後、まず何をしますか。\n\n男：「来月の大阪出張だけど、ホテルの予約は取れた？」\n女：「駅前のビジネスホテルを予約しました。ただ、新幹線のチケットがまだ手配できていません。」\n男：「あ、そうか。来週から連休に入るから、新幹線は混雑するかもしれないね。先に指定席を確保してくれたまえ。経費の精算書は出張から戻ってからで構わないから。」\n女：「承知しました。すぐにネットで指定席を予約します。」",
+    "options": [
+      {
+        "id": "A",
+        "text": "出張の経費精算書を作成する。"
+      },
+      {
+        "id": "B",
+        "text": "大阪のホテルの予約を取り直す。"
+      },
+      {
+        "id": "C",
+        "text": "新幹線の指定席を予約する。"
+      },
+      {
+        "id": "D",
+        "text": "取引先に出張日程のメールを送る。"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_01/N2_M1_L03.mp3"
+  },
+  {
+    "id": "N2-M1-L04",
+    "examId": "N2-MOCK-01",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-TASK",
+    "mondaiTitle": "Mondai 1: 課題理解 (Hiểu yêu cầu - Nhiệm vụ tiếp theo)",
+    "stem": "学生が修正しなければならないものはどれか。",
+    "contextPassage": "大学の研究室で、教授と大学院生が話しています。学生はこの後、スライドの何を修正しますか。\n\n男（教授）：「君の発表スライド、よくまとまっているよ。ただ、第3章の実験結果のグラフだが、縦軸の単位が抜けているね。それと、先行研究の文献リストで出版年が古いものがあるから、最新の論文に差し替えた方が説得力が増すだろう。」\n女（学生）：「はい！ すぐにグラフの単位を追記して、参考文献を更新します。発表原稿の修正はいかがでしょうか。」\n男：「原稿の言葉遣いは問題ないから、今の2点だけ手直ししておいてくれ。」",
+    "options": [
+      {
+        "id": "A",
+        "text": "発表原稿の敬語と言葉遣い。"
+      },
+      {
+        "id": "B",
+        "text": "スライド全体のデザインと配色。"
+      },
+      {
+        "id": "C",
+        "text": "グラフの単位と参考文献のリスト。"
+      },
+      {
+        "id": "D",
+        "text": "実験のやり直しとデータの再測定。"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_01/N2_M1_L04.mp3"
+  },
+  {
+    "id": "N2-M1-L05",
+    "examId": "N2-MOCK-01",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-TASK",
+    "mondaiTitle": "Mondai 1: 課題理解 (Hiểu yêu cầu - Nhiệm vụ tiếp theo)",
+    "stem": "アルバイトの女性はこの後、まず何をしますか。",
+    "contextPassage": "カフェの開店前、店長とアルバイトの店員が話しています。アルバイトの女性はこの後、まず何をしますか。\n\n男（店長）：「今日のランチタイムは予約で満席になりそうだ。テーブルのセッティングは終わったかい？」\n女：「はい、お水とグラスの用意も完了しています。」\n男：「よし。じゃあ、今日の特別メニューの看板を入り口に出してきてくれるかい？ その後で、レジのお釣りの確認をしておいてほしいんだ。」\n女：「分かりました。看板を書いてすぐに出してきます！」",
+    "options": [
+      {
+        "id": "A",
+        "text": "レジのお釣りの金額を確認する。"
+      },
+      {
+        "id": "B",
+        "text": "入り口に特別メニューの看板を出す。"
+      },
+      {
+        "id": "C",
+        "text": "テーブルのセッティングとお水の用意をする。"
+      },
+      {
+        "id": "D",
+        "text": "厨房でランチの仕込みを手伝う。"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_01/N2_M1_L05.mp3"
+  },
+  {
+    "id": "N2-M2-L01",
+    "examId": "N2-MOCK-01",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-POIN",
+    "mondaiTitle": "Mondai 2: ポイント理解 (Hiểu điểm mấu chốt - Trích xuất lý do)",
+    "stem": "男の人が転職を決意した一番の理由は何ですか。",
+    "contextPassage": "男の人と女の人が話しています。男の人が転職を決意した決定的な理由は何ですか。\n\n女：「佐藤さん、来月で退職されるそうですね。大企業で待遇も恵まれていたのに、なぜ転職されるんですか？」\n男：「ええ、給与や福利厚生には全く不満はありませんでした。同僚や上司との人間関係も非常に良好でしたしね。ただ、大きな組織であるがゆえに、自分の提案した新しい事業アイデアが意思決定に時間がかかってなかなか実現できなかったんです。自分の力で責任を持ってスピーディーに挑戦できる環境に身を置きたいと強く思うようになったんです。」\n女：「なるほど、ステップアップのための前向きな挑戦なんですね。」",
+    "options": [
+      {
+        "id": "A",
+        "text": "現在の会社の給与や福利厚生に強い不満があったから。"
+      },
+      {
+        "id": "B",
+        "text": "上司や同僚との人間関係で深刻なトラブルがあったから。"
+      },
+      {
+        "id": "C",
+        "text": "自分のアイデアを迅速に実行できる環境で挑戦したかったから。"
+      },
+      {
+        "id": "D",
+        "text": "残業が多すぎて健康を害してしまったから。"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_01/N2_M2_L01.mp3"
+  },
+  {
+    "id": "N2-M2-L02",
+    "examId": "N2-MOCK-01",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-POIN",
+    "mondaiTitle": "Mondai 2: ポイント理解 (Hiểu điểm mấu chốt - Trích xuất lý do)",
+    "stem": "店員によると、初心者が最も重視すべきポイントは何ですか。",
+    "contextPassage": "スポーツ用品店で、店員がランニング初心者に向けて靴の選び方を説明しています。初心者が靴を選ぶ際に最も重視すべき点として、店員は何を挙げていますか。\n\n店員：「初心者の方が靴を選ぶ際、どうしても軽さやデザインに目が行きがちです。しかし、実は最も重要なのは『クッション性の高さ』です。走る筋力がまだ十分に備わっていない初心者は、着地時に体重の3倍もの衝撃が膝や足首にかかります。厚みのあるソールがその衝撃を吸収してくれるため、怪我を防ぎ長く走り続けることができるのです。」",
+    "options": [
+      {
+        "id": "A",
+        "text": "膝や足首への衝撃を吸収するクッション性の高さ。"
+      },
+      {
+        "id": "B",
+        "text": "シューズ自体の軽さとスピードの出しやすさ。"
+      },
+      {
+        "id": "C",
+        "text": "有名選手が着用している最新の流行デザイン。"
+      },
+      {
+        "id": "D",
+        "text": "長期間履いても破れない靴底の耐久性の強さ。"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_01/N2_M2_L02.mp3"
+  },
+  {
+    "id": "N2-M2-L03",
+    "examId": "N2-MOCK-01",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-POIN",
+    "mondaiTitle": "Mondai 2: ポイント理解 (Hiểu điểm mấu chốt - Trích xuất lý do)",
+    "stem": "専門家が挙げる、読書が続かない主な原因は何ですか。",
+    "contextPassage": "ラジオで専門家が、大人の読書習慣について話しています。専門家によると、多くの人が読書を挫折してしまう一番の理由は何ですか。\n\n専門家：「本を買っても途中で挫折してしまう人の多くは、『最初から最後まで一言一句漏らさず読まなければならない』という思い込みに縛られています。難解な部分や退屈な章に出くわしたとき、そこで止まってしまい本を開かなくなるのです。目次を見て自分が一番興味のある章から拾い読みしたり、面白くないと感じたら途中で読むのをやめても構わないのです。読書をもっと自由で気楽なものと捉え直すことが大切です。」",
+    "options": [
+      {
+        "id": "A",
+        "text": "仕事が忙しくて本を読む時間を1分も確保できないこと。"
+      },
+      {
+        "id": "B",
+        "text": "最初から最後まで飛ばさずに全部読まなければならないと思い込んでいること。"
+      },
+      {
+        "id": "C",
+        "text": "購入する本の難易度が高すぎて理解不能なこと。"
+      },
+      {
+        "id": "D",
+        "text": "電子書籍の画面の光で目が疲れてしまうこと。"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_01/N2_M2_L03.mp3"
+  },
+  {
+    "id": "N2-M2-L04",
+    "examId": "N2-MOCK-01",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-POIN",
+    "mondaiTitle": "Mondai 2: ポイント理解 (Hiểu điểm mấu chốt - Trích xuất lý do)",
+    "stem": "会社が新しいソフトウェアを選定した一番の決め手は何ですか。",
+    "contextPassage": "会社のIT部門で、部長と担当社員が新しい業務ソフトウェアの導入について話しています。会社がこのツールを採用することにした決定的な理由は何ですか。\n\n男（部長）：「A社とB社のソフトウェア、比較検討の結果はどうなった？」\n女：「はい。機能の豊富さやデザインの洗練度ではA社が優れていました。しかし、弊社の最重要課題であるセキュリティ面を精査したところ、B社は部署ごとの閲覧権限やファイル暗号化が極めて厳格に設計されており、情報漏洩リスクを最小限に抑えられることが分かりました。」\n男：「なるほど。顧客の機密データを扱う我々としては、機能の多さよりも安全性が最優先だな。じゃあB社で進めよう。」",
+    "options": [
+      {
+        "id": "A",
+        "text": "画面のデザインが美しく、操作が直感的であること。"
+      },
+      {
+        "id": "B",
+        "text": "他社製品に比べて利用料金が格段に安いこと。"
+      },
+      {
+        "id": "C",
+        "text": "顧客データの漏洩を防ぐ高度なセキュリティ機能があること。"
+      },
+      {
+        "id": "D",
+        "text": "あらゆる業務に対応できる機能の数が最も多いこと。"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_01/N2_M2_L04.mp3"
+  },
+  {
+    "id": "N2-M2-L05",
+    "examId": "N2-MOCK-01",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-POIN",
+    "mondaiTitle": "Mondai 2: ポイント理解 (Hiểu điểm mấu chốt - Trích xuất lý do)",
+    "stem": "店主が商品のパッケージを一新した目的は何ですか。",
+    "contextPassage": "老舗和菓子店の店主が、商品の箱のデザインを変更した理由について話しています。店主がパッケージを一新した一番の目的は何ですか。\n\n店主：「創業80年を迎えるにあたり、定番の羊羹の包装をリニューアルしました。伝統の小豆の製法や味は昔のまま一切変えていません。ただ、従来の木箱の包装は高級感はあるものの、どうしても堅苦しく、若い方々が日常の手土産として手に取りにくいという声がありました。そこで、環境に配慮した明るい和紙の小箱に変更したところ、若い世代やビジネス街の女性客にも気軽に買っていただけるようになりました。」",
+    "options": [
+      {
+        "id": "A",
+        "text": "原材料費が高騰したため、製造コストを抑えるため。"
+      },
+      {
+        "id": "B",
+        "text": "若い世代や日常のギフト需要に親しみを持ってもらうため。"
+      },
+      {
+        "id": "C",
+        "text": "海外への輸出を増やすために英語表記を導入するため。"
+      },
+      {
+        "id": "D",
+        "text": "伝統的な製法をやめて、現代風の新しい味に変更したことを伝えるため。"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_01/N2_M2_L05.mp3"
+  },
+  {
+    "id": "N2-M2-L06",
+    "examId": "N2-MOCK-01",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-POIN",
+    "mondaiTitle": "Mondai 2: ポイント理解 (Hiểu điểm mấu chốt - Trích xuất lý do)",
+    "stem": "医師が推奨している最も効果的な改善策は何ですか。",
+    "contextPassage": "病院で、医師が健康診断を終えた男性にアドバイスをしています。医師が男性に最も推奨している生活改善策は何ですか。\n\n医師：「検査結果ですが、血糖値と中性脂肪がやや高めですね。ただ、今すぐ薬を飲む段階ではありません。」\n男：「そうですか。炭水化物を完全に抜いた方がいいでしょうか。」\n医師：「極端な食事制限は長続きしませんし、リバウンドの危険があります。それよりも、一口ごとに30回よく噛んで時間をかけて食べること、そして食後すぐに座り込まず、15分程度の軽いウォーキングをすることを習慣にしてください。食後の血糖値の急上昇を抑えるには、これが最も効果的なんですよ。」",
+    "options": [
+      {
+        "id": "A",
+        "text": "炭水化物を一切食べずに厳しい食事制限をすること。"
+      },
+      {
+        "id": "B",
+        "text": "一口ごとによく噛んで食べ、食後に軽い散歩をすること。"
+      },
+      {
+        "id": "C",
+        "text": "毎朝激しい筋力トレーニングを1時間以上行うこと。"
+      },
+      {
+        "id": "D",
+        "text": "数値が下がるまで毎日血糖降下薬を服用し続けること。"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_01/N2_M2_L06.mp3"
+  },
+  {
+    "id": "N2-M3-L01",
+    "examId": "N2-MOCK-01",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-OUTL",
+    "mondaiTitle": "Mondai 3: 概要理解 (Hiểu khái quát - Luận điểm bài nói)",
+    "stem": "教授は何について話していますか。",
+    "contextPassage": "大学の講義で、環境学の教授が話しています。\n\n教授：「都市部におけるヒートアイランド現象の緩和策として、建物の屋上緑化が注目を集めています。屋上に植物を植えることで、直射日光によるコンクリートの温度上昇を防ぎ、最上階の冷房負荷を20％以上削減できるという実験データがあります。さらに、集中豪雨の際には雨水を一時的に土壌に保水することで、下水道への急激な排水を遅らせ、都市型水害を防ぐ役割も果たします。単なる見た目の美しさだけでなく、エネルギー削減と防災の両面において、屋上緑化は都市の持続可能性を支える重要なインフラなのです。」",
+    "options": [
+      {
+        "id": "A",
+        "text": "都市の屋上緑化がもたらすエネルギー削減と防災の複合的効果。"
+      },
+      {
+        "id": "B",
+        "text": "高層ビルの屋上で家庭菜園を行うための最新の栽培技術。"
+      },
+      {
+        "id": "C",
+        "text": "集中豪雨による都市の水害を完全に防ぐ最新の堤防建築。"
+      },
+      {
+        "id": "D",
+        "text": "都市のコンクリート建築における耐震補強の重要性。"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_01/N2_M3_L01.mp3"
+  },
+  {
+    "id": "N2-M3-L02",
+    "examId": "N2-MOCK-01",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-OUTL",
+    "mondaiTitle": "Mondai 3: 概要理解 (Hiểu khái quát - Luận điểm bài nói)",
+    "stem": "専門家が最も主張したいことは何ですか。",
+    "contextPassage": "ラジオの健康番組で、専門家が現代人の睡眠について語っています。\n\n専門家：「スマートウォッチなどで自分の睡眠ステージを毎晩細かく計測し、点数に一喜一憂する人が増えています。しかし、数値を気にしすぎるあまり、かえって緊張して眠れなくなる『睡眠恐怖症』に陥るケースも少なくありません。良質な睡眠を得るために本当に必要なのは、機器による監視ではなく、就寝前の『心の移行期間』です。寝る1時間前にはスマホやパソコンを消し、ぬるめのお風呂に入ったり、静かな音楽を聴いたりして副交感神経を優位にすること。このリラックスしたルーティンこそが、自然な熟睡へと導く最良の鍵なのです。」",
+    "options": [
+      {
+        "id": "A",
+        "text": "最新のスマートウォッチを使って睡眠データを毎晩詳細に分析すること。"
+      },
+      {
+        "id": "B",
+        "text": "睡眠不足を解消するために、休日にまとめて15時間以上眠ること。"
+      },
+      {
+        "id": "C",
+        "text": "就寝前にデジタル機器から離れ、心をリラックスさせる移行時間を持つこと。"
+      },
+      {
+        "id": "D",
+        "text": "睡眠障害を治療するためには、すぐに強い睡眠薬を服用すること。"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_01/N2_M3_L02.mp3"
+  },
+  {
+    "id": "N2-M3-L03",
+    "examId": "N2-MOCK-01",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-OUTL",
+    "mondaiTitle": "Mondai 3: 概要理解 (Hiểu khái quát - Luận điểm bài nói)",
+    "stem": "学芸員は日本の陶芸についてどのような点を取り上げていますか。",
+    "contextPassage": "美術館のギャラリートークで、学芸員が日本の伝統陶芸について解説しています。\n\n学芸員：「西洋の古典的な陶磁器では、左右対称の均整の取れた形や、傷一つない滑らかな表面が理想とされてきました。しかし、日本の茶の湯とともに発展した陶芸では、まったく異なる美意識が重んじられます。それは『わびさび』の精神です。轆轤（ろくろ）の歪み、炎の当たり具合によって偶然生じた釉薬のムラ、長年使い込むことで生まれた細かなひび割れ。不完全さや経年変化の中にこそ、二度と再現できない自然の妙と深い情緒が宿ると考えるのです。欠点を受け入れ、そこに独自の美を見出す姿勢が、日本のものづくりの根底に流れています。」",
+    "options": [
+      {
+        "id": "A",
+        "text": "西洋の陶磁器を模倣して完成させた精密な幾何学的対称性の美。"
+      },
+      {
+        "id": "B",
+        "text": "金や宝石を散りばめた豪華絢爛な装飾の歴史的変遷。"
+      },
+      {
+        "id": "C",
+        "text": "不完全さや使い込む中での経年変化に美を見出す「わびさび」の美意識。"
+      },
+      {
+        "id": "D",
+        "text": "最新の工業用機械を用いて陶器を大量生産する現代の手法。"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_01/N2_M3_L03.mp3"
+  },
+  {
+    "id": "N2-M3-L04",
+    "examId": "N2-MOCK-01",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-OUTL",
+    "mondaiTitle": "Mondai 3: 概要理解 (Hiểu khái quát - Luận điểm bài nói)",
+    "stem": "コンサルタントは何を提唱していますか。",
+    "contextPassage": "ビジネスセミナーで、人材育成コンサルタントが指導法について講演しています。\n\nコンサルタント：「多様な文化的背景を持つメンバーで構成されるチームでは、部下へのフィードバックの仕方に細心の注意が必要です。過去のミスを事細かに指摘して反省を促す昔ながらのやり方は、相手に強い防衛本能を生じさせ、モチベーションを著しく低下させます。いまグローバル企業で推奨されているのは『フィードフォワード』と呼ばれる手法です。過去の失敗を責めるのではなく、本人が発揮した具体的な貢献をまず認めた上で、『次のプロジェクトを成功させるために、具体的にどう行動を改善できるか』という未来の選択肢を対話の中で引き出していく。この未来志向のアプローチこそが、自主的な成長を促すのです。」",
+    "options": [
+      {
+        "id": "A",
+        "text": "部下の自尊心を傷つけないために、ミスがあっても一切指導しないこと。"
+      },
+      {
+        "id": "B",
+        "text": "過去のミスを公の場で厳しく叱責して、チーム内の緊張感を高めること。"
+      },
+      {
+        "id": "C",
+        "text": "過去の失敗を責めず、具体的な貢献の承認と未来志向の改善策を対話すること。"
+      },
+      {
+        "id": "D",
+        "text": "すべての評価を数値化し、上司の主観を完全に排除した機械的査定を行うこと。"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_01/N2_M3_L04.mp3"
+  },
+  {
+    "id": "N2-M3-L05",
+    "examId": "N2-MOCK-01",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-OUTL",
+    "mondaiTitle": "Mondai 3: 概要理解 (Hiểu khái quát - Luận điểm bài nói)",
+    "stem": "専門家が最も強調している対策はどれか。",
+    "contextPassage": "環境問題のシンポジウムで、専門家がプラスチック対策について報告しています。\n\n専門家：「プラスチックごみによる海洋汚染が深刻化する中、世界中でリサイクルの推進が叫ばれています。しかし、回収したプラスチックを再資源化するプロセス自体にも膨大なエネルギーとコストが必要であり、リサイクルだけで増え続けるごみを処理し切ることは不可能です。真に持続可能な循環型社会を実現するためには、リサイクルよりも上位の概念である『リデュース』、すなわち使い捨て容器や過剰包装などの発生そのものを元から断つことが不可欠です。企業にはリユース可能な設計への転換が、そして消費者にはライフスタイルの見直しが強く求められています。」",
+    "options": [
+      {
+        "id": "A",
+        "text": "リサイクルだけに頼るのではなく、使い捨て包装の発生そのものを元から削減すること。"
+      },
+      {
+        "id": "B",
+        "text": "プラスチックの生産量をさらに増やして、より安価な使い捨て容器を流通させること。"
+      },
+      {
+        "id": "C",
+        "text": "海洋に流出したプラスチックごみをすべて民間のボランティアで回収すること。"
+      },
+      {
+        "id": "D",
+        "text": "プラスチック製品の使用を法律で即座に全面禁止し、木材のみで代替すること。"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_01/N2_M3_L05.mp3"
+  },
+  {
+    "id": "N2-M4-L01",
+    "examId": "N2-MOCK-01",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-RESP",
+    "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - 3 lựa chọn nghe)",
+    "stem": "発話と返事を聞いて、１から３の中から、最もよいものを一つ選んでください。",
+    "contextPassage": "【音声発話】\n「山田さん、明日のプレゼン資料、目を通していただけないでしょうか。」\n\n【返事の選択肢】\n1. ええ、喜んで拝見します。\n2. はい、目を通してください。\n3. いえ、何も見えませんでした。",
+    "options": [
+      {
+        "id": "A",
+        "text": "１番"
+      },
+      {
+        "id": "B",
+        "text": "２番"
+      },
+      {
+        "id": "C",
+        "text": "３番"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_01/N2_M4_L01.mp3"
+  },
+  {
+    "id": "N2-M4-L02",
+    "examId": "N2-MOCK-01",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-RESP",
+    "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - 3 lựa chọn nghe)",
+    "stem": "発話と返事を聞いて、１から３の中から、最もよいものを一つ選んでください。",
+    "contextPassage": "【音声発話】\n「この間のプロジェクト、君のおかげで大成功だったよ。」\n\n【返事の選択肢】\n1. はい、私が一人で頑張りましたから。\n2. とんでもないです。チームの皆さんのおかげです。\n3. どうぞお構いなく。",
+    "options": [
+      {
+        "id": "A",
+        "text": "１番"
+      },
+      {
+        "id": "B",
+        "text": "２番"
+      },
+      {
+        "id": "C",
+        "text": "３番"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_01/N2_M4_L02.mp3"
+  },
+  {
+    "id": "N2-M4-L03",
+    "examId": "N2-MOCK-01",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-RESP",
+    "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - 3 lựa chọn nghe)",
+    "stem": "発話と返事を聞いて、１から３の中から、最もよいものを一つ選んでください。",
+    "contextPassage": "【音声発話】\n「部長、ご相談したい件があるのですが、今お時間よろしいでしょうか。」\n\n【返事の選択肢】\n1. ええ、今なら大丈夫だよ。何かな。\n2. はい、お時間を差し上げます。\n3. いえ、もう相談は終わりましたよ。",
+    "options": [
+      {
+        "id": "A",
+        "text": "１番"
+      },
+      {
+        "id": "B",
+        "text": "２番"
+      },
+      {
+        "id": "C",
+        "text": "３番"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_01/N2_M4_L03.mp3"
+  },
+  {
+    "id": "N2-M4-L04",
+    "examId": "N2-MOCK-01",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-RESP",
+    "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - 3 lựa chọn nghe)",
+    "stem": "発話と返事を聞いて、１から３の中から、最もよいものを一つ選んでください。",
+    "contextPassage": "【音声発話】\n「あいにく本日のチケットは完売となっておりまして…」\n\n【返事の選択肢】\n1. では、全部買わせていただきます。\n2. そうですか、残念ですがまた出直します。\n3. チケットをお売りいただき感謝します。",
+    "options": [
+      {
+        "id": "A",
+        "text": "１番"
+      },
+      {
+        "id": "B",
+        "text": "２番"
+      },
+      {
+        "id": "C",
+        "text": "３番"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_01/N2_M4_L04.mp3"
+  },
+  {
+    "id": "N2-M4-L05",
+    "examId": "N2-MOCK-01",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-RESP",
+    "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - 3 lựa chọn nghe)",
+    "stem": "発話と返事を聞いて、１から３の中から、最もよいものを一つ選んでください。",
+    "contextPassage": "【音声発話】\n「この仕事、明日までに終わらせろなんて、無理に決まってるよ。」\n\n【返事の選択肢】\n1. そう言わずに、手分けしてやってみようよ。\n2. うん、絶対に明日までに終わったね。\n3. じゃあ、今日中に全部やってしまおう。",
+    "options": [
+      {
+        "id": "A",
+        "text": "１番"
+      },
+      {
+        "id": "B",
+        "text": "２番"
+      },
+      {
+        "id": "C",
+        "text": "３番"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_01/N2_M4_L05.mp3"
+  },
+  {
+    "id": "N2-M4-L06",
+    "examId": "N2-MOCK-01",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-RESP",
+    "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - 3 lựa chọn nghe)",
+    "stem": "発話と返事を聞いて、１から３の中から、最もよいものを一つ選んでください。",
+    "contextPassage": "【音声発話】\n「課長、先ほど田中様がお見えになりました。」\n\n【返事の選択肢】\n1. ええ、田中様を見に行きました。\n2. そうか、第2応接室にご案内してくれたまえ。\n3. はい、田中様はお帰りになりましたか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "１番"
+      },
+      {
+        "id": "B",
+        "text": "２番"
+      },
+      {
+        "id": "C",
+        "text": "３番"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_01/N2_M4_L06.mp3"
+  },
+  {
+    "id": "N2-M4-L07",
+    "examId": "N2-MOCK-01",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-RESP",
+    "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - 3 lựa chọn nghe)",
+    "stem": "発話と返事を聞いて、１から３の中から、最もよいものを一つ選んでください。",
+    "contextPassage": "【音声発話】\n「昨日のパーティー、行けなくて本当に悪かったね。」\n\n【返事の選択肢】\n1. ううん、気にしないで。また今度集まろう。\n2. ええ、絶対に来るべきだったのに。\n3. はい、私も行けなくて残念でした。",
+    "options": [
+      {
+        "id": "A",
+        "text": "１番"
+      },
+      {
+        "id": "B",
+        "text": "２番"
+      },
+      {
+        "id": "C",
+        "text": "３番"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_01/N2_M4_L07.mp3"
+  },
+  {
+    "id": "N2-M4-L08",
+    "examId": "N2-MOCK-01",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-RESP",
+    "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - 3 lựa chọn nghe)",
+    "stem": "発話と返事を聞いて、１から３の中から、最もよいものを一つ選んでください。",
+    "contextPassage": "【音声発話】\n「この新製品、使ってみたけど、期待外れもいいところだったよ。」\n\n【返事の選択肢】\n1. え、そんなにいまいちだったの？\n2. 期待通りで本当によかったね。\n3. 外に出て使ってみればいいよ。",
+    "options": [
+      {
+        "id": "A",
+        "text": "１番"
+      },
+      {
+        "id": "B",
+        "text": "２番"
+      },
+      {
+        "id": "C",
+        "text": "３番"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_01/N2_M4_L08.mp3"
+  },
+  {
+    "id": "N2-M4-L09",
+    "examId": "N2-MOCK-01",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-RESP",
+    "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - 3 lựa chọn nghe)",
+    "stem": "発話と返事を聞いて、１から３の中から、最もよいものを一つ選んでください。",
+    "contextPassage": "【音声発話】\n「恐れ入りますが、こちらの書類にお名前をご記入いただけますか。」\n\n【返事の選択肢】\n1. はい、分かりました。どこに書けばいいですか。\n2. どういたしまして、ご記入ください。\n3. いえ、お名前は存じ上げております。",
+    "options": [
+      {
+        "id": "A",
+        "text": "１番"
+      },
+      {
+        "id": "B",
+        "text": "２番"
+      },
+      {
+        "id": "C",
+        "text": "３番"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_01/N2_M4_L09.mp3"
+  },
+  {
+    "id": "N2-M4-L10",
+    "examId": "N2-MOCK-01",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-RESP",
+    "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - 3 lựa chọn nghe)",
+    "stem": "発話と返事を聞いて、１から３の中から、最もよいものを一つ選んでください。",
+    "contextPassage": "【音声発話】\n「駅前の新しいカフェ、もう行ってみた？ コーヒーがすごく美味しかったよ。」\n\n【返事の選択肢】\n1. へえ、知らなかった。今度行ってみるね。\n2. うん、そのカフェでコーヒーを作ったよ。\n3. そうなんだ、コーヒーは飲まなかったんだね。",
+    "options": [
+      {
+        "id": "A",
+        "text": "１番"
+      },
+      {
+        "id": "B",
+        "text": "２番"
+      },
+      {
+        "id": "C",
+        "text": "３番"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_01/N2_M4_L10.mp3"
+  },
+  {
+    "id": "N2-M4-L11",
+    "examId": "N2-MOCK-01",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-RESP",
+    "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - 3 lựa chọn nghe)",
+    "stem": "発話と返事を聞いて、１から３の中から、最もよいものを一つ選んでください。",
+    "contextPassage": "【音声発話】\n「雨が降りそうだから、傘を持って行ったほうがいいんじゃない？」\n\n【返事の選択肢】\n1. そうだね、折りたたみ傘を鞄に入れておくよ。\n2. うん、傘を持って行かなくてよかった。\n3. いえ、雨が降ったら傘を買わないよ。",
+    "options": [
+      {
+        "id": "A",
+        "text": "１番"
+      },
+      {
+        "id": "B",
+        "text": "２番"
+      },
+      {
+        "id": "C",
+        "text": "３番"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_01/N2_M4_L11.mp3"
+  },
+  {
+    "id": "N2-M5-L01",
+    "examId": "N2-MOCK-01",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-INTE",
+    "mondaiTitle": "Mondai 5: 統合理解 (Hiểu tổng hợp — Hội thoại dài nhiều điều kiện)",
+    "stem": "条件を満たし、2人が最終的に課長へ提案することにしたお店はどれですか。",
+    "contextPassage": "会社の総務部で、男性社員と女性社員が今年の忘年会の会場について相談しています。\n\n男：「課長から忘年会の幹事を頼まれたんだけど、候補のお店を4つピックアップしてみたんだ。相談に乗ってくれる？」\n女：「ええ、いいわよ。課長からの条件は何だったかしら。」\n男：「参加者は25名で、予算は飲み放題込みで一人6,000円以内。それから、役員も参加するから落ち着いて話せる『完全個室』が必須条件だと言われたよ。あとは駅から近い方がいいな。」\n女：「なるほど。候補のお店はどんな感じ？」\n男：「まず【1番の和食懐石・松月】。料理は本格的で完全個室だけど、飲み放題付きで一人8,000円と予算オーバーなんだ。駅からも徒歩15分かかる。」\n女：「それは予算的に厳しいわね。2番は？」\n男：「【2番のイタリアン・バル】。駅から徒歩3分でアクセス抜群。貸切の個室があって、飲み放題付きで一人5,000円と予算内に収まるよ。」\n女：「いいじゃない！ 3番と4番は？」\n男：「【3番のホテルビュッフェ】は夜景が綺麗で一人7,000円だけど、個室がなくてオープンスペースなんだ。【4番の焼肉店】は一人4,500円で一番安いんだけど、店内全席喫煙可能で、個室ではなく仕切りがあるだけなんだよね。」\n女：「うーん、役員はおタバコを吸わないし、煙やにおいがつくのは避けたいわね。やっぱり、予算内で完全個室があって駅から近いあのお店にするのが一番良さそうね。」\n男：「そうだね、じゃあそっちで課長に提案してみるよ。」",
+    "options": [
+      {
+        "id": "A",
+        "text": "1番の和食懐石・松月"
+      },
+      {
+        "id": "B",
+        "text": "2番のイタリアン・バル"
+      },
+      {
+        "id": "C",
+        "text": "3番のホテルビュッフェ"
+      },
+      {
+        "id": "D",
+        "text": "4番の焼肉店"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_01/N2_M5_L01.mp3"
+  },
+  {
+    "id": "N2-M5-L02",
+    "examId": "N2-MOCK-01",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-INTE",
+    "mondaiTitle": "Mondai 5: 統合理解 (Hiểu tổng hợp — Hội thoại dài nhiều điều kiện)",
+    "stem": "女性社員が4番の焼肉店を避けた主な理由は何ですか。",
+    "contextPassage": "会社の総務部で、男性社員と女性社員が今年の忘年会の会場について相談しています。\n\n男：「課長から忘年会の幹事を頼まれたんだけど、候補のお店を4つピックアップしてみたんだ。相談に乗ってくれる？」\n女：「ええ、いいわよ。課長からの条件は何だったかしら。」\n男：「参加者は25名で、予算は飲み放題込みで一人6,000円以内。それから、役員も参加するから落ち着いて話せる『完全個室』が必須条件だと言われたよ。あとは駅から近い方がいいな。」\n女：「なるほど。候補のお店はどんな感じ？」\n男：「まず【1番の和食懐石・松月】。料理は本格的で完全個室だけど、飲み放題付きで一人8,000円と予算オーバーなんだ。駅からも徒歩15分かかる。」\n女：「それは予算的に厳しいわね。2番は？」\n男：「【2番のイタリアン・バル】。駅から徒歩3分でアクセス抜群。貸切の個室があって、飲み放題付きで一人5,000円と予算内に収まるよ。」\n女：「いいじゃない！ 3番と4番は？」\n男：「【3番のホテルビュッフェ】は夜景が綺麗で一人7,000円だけど、個室がなくてオープンスペースなんだ。【4番の焼肉店】は一人4,500円で一番安いんだけど、店内全席喫煙可能で、個室ではなく仕切りがあるだけなんだよね。」\n女：「うーん、役員はおタバコを吸わないし、煙やにおいがつくのは避けたいわね。やっぱり、予算内で完全個室があって駅から近いあのお店にするのが一番良さそうね。」\n男：「そうだね、じゃあそっちで課長に提案してみるよ。」",
+    "options": [
+      {
+        "id": "A",
+        "text": "一人あたりの料金が4,500円で予算よりも安すぎるため。"
+      },
+      {
+        "id": "B",
+        "text": "駅から徒歩30分以上離れていて移動が不可能なため。"
+      },
+      {
+        "id": "C",
+        "text": "店内で喫煙が可能で、煙やにおいが服につき個室もないため。"
+      },
+      {
+        "id": "D",
+        "text": "お酒の飲み放題メニューが一切用意されていないため。"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_01/N2_M5_L02.mp3"
+  },
+  {
+    "id": "N2-M5-L03",
+    "examId": "N2-MOCK-01",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-INTE",
+    "mondaiTitle": "Mondai 5: 統合理解 (Hiểu tổng hợp — So sánh lựa chọn thiết bị)",
+    "stem": "夫婦が購入することに決めた空気清浄機はどれですか。",
+    "contextPassage": "家電量販店で、夫婦が店員の説明を聞きながら空気清浄機を選んでいます。\n\n店員：「いらっしゃいませ。空気清浄機をお探しですか。」\n男：「ええ。実はもうすぐ赤ちゃんが生まれるので、寝室に置く静かで高性能なものを探しているんです。」\n女：「それと、室内で猫を1匹飼っているので、ペットの毛やにおいをしっかり除去できるフィルターがいいですね。」\n店員：「かしこまりました。現在おすすめのモデルが4機種ございます。\nまず【タイプA】は、基本性能を抑えたコンパクト型で、価格は2万円とお手頃ですが、消臭フィルターがついていません。\n次に【タイプB】は、強力なペット用脱臭機能を備えていますが、ファンの運転音がやや大きく、赤ちゃんの就寝時には気になるかもしれません。\nそして【タイプC】ですが、こちらは高性能HEPAフィルター搭載で花粉やペットの毛を99.9%捕集し、さらに特許技術の静音モードで夜間もささやき声以下の静かさで運転できます。加湿機能もついています。価格は4万5千円です。\n最後の【タイプD】は、最高峰モデルでAIが空気の汚れを自動検知しますが、サイズが非常に大きく、リビング向けで価格も8万円します。」\n男：「寝室に置くならサイズも大きすぎず、夜静かに動いてくれるのが一番だね。」\n女：「ええ。猫の毛もにおいもしっかり取れて、赤ちゃんの眠りを妨げないのが理想ね。加湿もできるなら乾燥する冬も安心だし、これに決めましょう！」",
+    "options": [
+      {
+        "id": "A",
+        "text": "タイプA（価格2万円のコンパクト型）"
+      },
+      {
+        "id": "B",
+        "text": "タイプB（ペット脱臭重視だが運転音がやや大きい型）"
+      },
+      {
+        "id": "C",
+        "text": "タイプC（ペット毛・消臭対応で超静音モードと加湿機能つき）"
+      },
+      {
+        "id": "D",
+        "text": "タイプD（AI自動検知機能つきの大型リビング型）"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_01/N2_M5_L03.mp3"
+  },
+  {
+    "id": "N2_02_M1_01",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-READ",
+    "mondaiTitle": "Mondai 1: 漢字読み",
+    "stem": "新工場の建設予定地を慎重に【選定】した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "せんじょう"
+      },
+      {
+        "id": "B",
+        "text": "せんてい"
+      },
+      {
+        "id": "C",
+        "text": "ぜんてい"
+      },
+      {
+        "id": "D",
+        "text": "せんちょう"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M1_02",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-READ",
+    "mondaiTitle": "Mondai 1: 漢字読み",
+    "stem": "予期せぬトラブルにも【冷静】に対処することが求められる。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "れいぜい"
+      },
+      {
+        "id": "B",
+        "text": "りょうせい"
+      },
+      {
+        "id": "C",
+        "text": "れいせい"
+      },
+      {
+        "id": "D",
+        "text": "れんせい"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M1_03",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-READ",
+    "mondaiTitle": "Mondai 1: 漢字読み",
+    "stem": "旧態依然とした組織体制を根本から【刷新】する。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "さつしん"
+      },
+      {
+        "id": "B",
+        "text": "さっしん"
+      },
+      {
+        "id": "C",
+        "text": "さくしん"
+      },
+      {
+        "id": "D",
+        "text": "ざっしん"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M1_04",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-READ",
+    "mondaiTitle": "Mondai 1: 漢字読み",
+    "stem": "法律の解釈をめぐって両者の意見が激しく【対立】した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "たいりつ"
+      },
+      {
+        "id": "B",
+        "text": "ついりつ"
+      },
+      {
+        "id": "C",
+        "text": "たいりゅう"
+      },
+      {
+        "id": "D",
+        "text": "だいりつ"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M1_05",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-READ",
+    "mondaiTitle": "Mondai 1: 漢字読み",
+    "stem": "長年にわたる過酷な環境が金属パイプを【腐食】させた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "ふじき"
+      },
+      {
+        "id": "B",
+        "text": "ふじょく"
+      },
+      {
+        "id": "C",
+        "text": "ぶしょく"
+      },
+      {
+        "id": "D",
+        "text": "ふしょく"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M2_01",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-ORTH",
+    "mondaiTitle": "Mondai 2: 表記",
+    "stem": "海外進出に向けた事業計画を【けんとう】する。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "見当"
+      },
+      {
+        "id": "B",
+        "text": "検当"
+      },
+      {
+        "id": "C",
+        "text": "検討"
+      },
+      {
+        "id": "D",
+        "text": "検踏"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M2_02",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-ORTH",
+    "mondaiTitle": "Mondai 2: 表記",
+    "stem": "長時間の交渉の末、ついに双方の合意に【たっした】。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "達した"
+      },
+      {
+        "id": "B",
+        "text": "建した"
+      },
+      {
+        "id": "C",
+        "text": "通した"
+      },
+      {
+        "id": "D",
+        "text": "到した"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M2_03",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-ORTH",
+    "mondaiTitle": "Mondai 2: 表記",
+    "stem": "この制度は社会的な【かくさ】の是正を目指している。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "階差"
+      },
+      {
+        "id": "B",
+        "text": "格差"
+      },
+      {
+        "id": "C",
+        "text": "確差"
+      },
+      {
+        "id": "D",
+        "text": "隔差"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M2_04",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-ORTH",
+    "mondaiTitle": "Mondai 2: 表記",
+    "stem": "突然の停電に備えて非常用電源を【かくほ】する。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "確歩"
+      },
+      {
+        "id": "B",
+        "text": "獲保"
+      },
+      {
+        "id": "C",
+        "text": "確保"
+      },
+      {
+        "id": "D",
+        "text": "確補"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M2_05",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-ORTH",
+    "mondaiTitle": "Mondai 2: 表記",
+    "stem": "彼の迅速な対応が会社の信頼を【かいふく】させた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "回服"
+      },
+      {
+        "id": "B",
+        "text": "快復"
+      },
+      {
+        "id": "C",
+        "text": "改復"
+      },
+      {
+        "id": "D",
+        "text": "回復"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M3_01",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-WORD",
+    "mondaiTitle": "Mondai 3: 語形成",
+    "stem": "彼女の演技には（　　）現実的な迫力がある。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "無"
+      },
+      {
+        "id": "B",
+        "text": "不"
+      },
+      {
+        "id": "C",
+        "text": "非"
+      },
+      {
+        "id": "D",
+        "text": "未"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M3_02",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-WORD",
+    "mondaiTitle": "Mondai 3: 語形成",
+    "stem": "本日のセミナーは（　　）会員の方でも自由にご参加いただけます。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "未"
+      },
+      {
+        "id": "B",
+        "text": "非"
+      },
+      {
+        "id": "C",
+        "text": "不"
+      },
+      {
+        "id": "D",
+        "text": "無"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M3_03",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-WORD",
+    "mondaiTitle": "Mondai 3: 語形成",
+    "stem": "地球温暖化を防ぐため、省エネルギー（　　）の家電が推奨されている。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "風"
+      },
+      {
+        "id": "B",
+        "text": "式"
+      },
+      {
+        "id": "C",
+        "text": "製"
+      },
+      {
+        "id": "D",
+        "text": "型"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M3_04",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-WORD",
+    "mondaiTitle": "Mondai 3: 語形成",
+    "stem": "今期の営業利益は、当初の予想を（　　）回る見込みだ。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "高"
+      },
+      {
+        "id": "B",
+        "text": "上"
+      },
+      {
+        "id": "C",
+        "text": "大"
+      },
+      {
+        "id": "D",
+        "text": "優"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M3_05",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-WORD",
+    "mondaiTitle": "Mondai 3: 語形成",
+    "stem": "あの地域は長年にわたり、（　　）開発の自然がそのまま残されている。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "無"
+      },
+      {
+        "id": "B",
+        "text": "非"
+      },
+      {
+        "id": "C",
+        "text": "未"
+      },
+      {
+        "id": "D",
+        "text": "不"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M4_01",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-CONT",
+    "mondaiTitle": "Mondai 4: 文脈規定",
+    "stem": "長時間のパソコン作業で目が（　　）して痛むので、目薬をさした。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "さらさら"
+      },
+      {
+        "id": "B",
+        "text": "しょぼしょぼ"
+      },
+      {
+        "id": "C",
+        "text": "すらすら"
+      },
+      {
+        "id": "D",
+        "text": "ぞくぞく"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M4_02",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-CONT",
+    "mondaiTitle": "Mondai 4: 文脈規定",
+    "stem": "新製品の発売日を延期することは、経営上（　　）の決断だった。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "苦情"
+      },
+      {
+        "id": "B",
+        "text": "苦痛"
+      },
+      {
+        "id": "C",
+        "text": "苦渋"
+      },
+      {
+        "id": "D",
+        "text": "苦境"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M4_03",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-CONT",
+    "mondaiTitle": "Mondai 4: 文脈規定",
+    "stem": "台風の影響で、列車のダイヤが（　　）乱れている。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "大層"
+      },
+      {
+        "id": "B",
+        "text": "大幅に"
+      },
+      {
+        "id": "C",
+        "text": "大まかに"
+      },
+      {
+        "id": "D",
+        "text": "大げさに"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M4_04",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-CONT",
+    "mondaiTitle": "Mondai 4: 文脈規定",
+    "stem": "彼の書いた論文は構成が（　　）で、論理の飛躍が一切見られない。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "厳重"
+      },
+      {
+        "id": "B",
+        "text": "綿密"
+      },
+      {
+        "id": "C",
+        "text": "粗末"
+      },
+      {
+        "id": "D",
+        "text": "寛大"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M4_05",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-CONT",
+    "mondaiTitle": "Mondai 4: 文脈規定",
+    "stem": "長年の研究開発が実を結び、ついにライバル企業に（　　）をつけた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "隙"
+      },
+      {
+        "id": "B",
+        "text": "筋"
+      },
+      {
+        "id": "C",
+        "text": "差"
+      },
+      {
+        "id": "D",
+        "text": "跡"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M4_06",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-CONT",
+    "mondaiTitle": "Mondai 4: 文脈規定",
+    "stem": "初対面の相手にも（　　）と挨拶ができる人は、第一印象が良い。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "しとやか"
+      },
+      {
+        "id": "B",
+        "text": "にこやか"
+      },
+      {
+        "id": "C",
+        "text": "さわやか"
+      },
+      {
+        "id": "D",
+        "text": "おろそか"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M4_07",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-CONT",
+    "mondaiTitle": "Mondai 4: 文脈規定",
+    "stem": "予期せぬ停電で、エレベーターの中に1時間も（　　）に遭った。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "包み込み"
+      },
+      {
+        "id": "B",
+        "text": "閉じ込め"
+      },
+      {
+        "id": "C",
+        "text": "抱き込み"
+      },
+      {
+        "id": "D",
+        "text": "繰り込み"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M5_01",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-PARA",
+    "mondaiTitle": "Mondai 5: 言い換え類義",
+    "stem": "この文書の内容を【ざっと】確認してください。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "精密に"
+      },
+      {
+        "id": "B",
+        "text": "おおまかに"
+      },
+      {
+        "id": "C",
+        "text": "静かに"
+      },
+      {
+        "id": "D",
+        "text": "完全に"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M5_02",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-PARA",
+    "mondaiTitle": "Mondai 5: 言い換え類義",
+    "stem": "彼の発言はいつも【皮肉】が込められている。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "好意"
+      },
+      {
+        "id": "B",
+        "text": "冗談"
+      },
+      {
+        "id": "C",
+        "text": "嫌味"
+      },
+      {
+        "id": "D",
+        "text": "熱意"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M5_03",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-PARA",
+    "mondaiTitle": "Mondai 5: 言い換え類義",
+    "stem": "古い友人と街角で【ばったり】出会った。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "約束して"
+      },
+      {
+        "id": "B",
+        "text": "偶然に"
+      },
+      {
+        "id": "C",
+        "text": "無理に"
+      },
+      {
+        "id": "D",
+        "text": "急いで"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M5_04",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-PARA",
+    "mondaiTitle": "Mondai 5: 言い換え類義",
+    "stem": "その計画は予算不足のため【頓挫】した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "成功"
+      },
+      {
+        "id": "B",
+        "text": "延期"
+      },
+      {
+        "id": "C",
+        "text": "途中で挫折"
+      },
+      {
+        "id": "D",
+        "text": "急加速"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M5_05",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-PARA",
+    "mondaiTitle": "Mondai 5: 言い換え類義",
+    "stem": "彼は周囲の批判を【意に介さない】様子だった。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "深く悩む"
+      },
+      {
+        "id": "B",
+        "text": "気に留めない"
+      },
+      {
+        "id": "C",
+        "text": "怒り狂う"
+      },
+      {
+        "id": "D",
+        "text": "恐れおののく"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M6_01",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-USAG",
+    "mondaiTitle": "Mondai 6: 用法",
+    "stem": "【手薄（てうす）】の使い方として最も適切なものを選びなさい。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "この本はページ数が手薄なので、すぐに読み終わった。"
+      },
+      {
+        "id": "B",
+        "text": "連休中は警備員が手薄になるため、戸締まりを厳重にする必要がある。"
+      },
+      {
+        "id": "C",
+        "text": "彼の書いたレポートは内容が手薄で説得力に欠ける。"
+      },
+      {
+        "id": "D",
+        "text": "冬になると木の葉が手薄になり、枝だけが目立つ。"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M6_02",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-USAG",
+    "mondaiTitle": "Mondai 6: 用法",
+    "stem": "【配慮（はいりょ）】の使い方として最も適切なものを選びなさい。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "高齢者や車椅子の利用者に配慮して、駅にエレベーターを増設した。"
+      },
+      {
+        "id": "B",
+        "text": "部屋が暗いので、窓を開けて光を配慮した。"
+      },
+      {
+        "id": "C",
+        "text": "毎朝ジョギングをして体力を配慮している。"
+      },
+      {
+        "id": "D",
+        "text": "明日の天気を配慮して傘を持って出かけた。"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M6_03",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-USAG",
+    "mondaiTitle": "Mondai 6: 用法",
+    "stem": "【無難（ぶなん）】の使い方として最も適切なものを選びなさい。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "この試験は非常に無難だったので、全員が満点を取った。"
+      },
+      {
+        "id": "B",
+        "text": "服装に迷ったときは、落ち着いた色のスーツを着ていくのが無難だ。"
+      },
+      {
+        "id": "C",
+        "text": "彼女は無難な笑顔でみんなから大人気を集めている。"
+      },
+      {
+        "id": "D",
+        "text": "台風が無難に通過して被害が出なかった。"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M6_04",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-USAG",
+    "mondaiTitle": "Mondai 6: 用法",
+    "stem": "【目途（めど）】の使い方として最も適切なものを選びなさい。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "資金調達の目途が立ち、新工場の建設を再開できることになった。"
+      },
+      {
+        "id": "B",
+        "text": "遠くの景色を見るために双眼鏡で目途を合わせた。"
+      },
+      {
+        "id": "C",
+        "text": "彼の話は目途がはっきりしていて非常に分かりやすい。"
+      },
+      {
+        "id": "D",
+        "text": "次の駅まであと少しで目途に到着する。"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M6_05",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Vocabulary",
+    "typeId": "N2-MO-USAG",
+    "mondaiTitle": "Mondai 6: 用法",
+    "stem": "【妥協（だきょう）】の使い方として最も適切なものを選びなさい。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "どんなに困難な壁にぶつかっても、最後まで決して妥協しない。"
+      },
+      {
+        "id": "B",
+        "text": "二人は妥協して結婚式を盛大に挙げた。"
+      },
+      {
+        "id": "C",
+        "text": "商品の品質を高めるために、最高の素材を妥協した。"
+      },
+      {
+        "id": "D",
+        "text": "先生の妥協のおかげで、無事に進学できた。"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M7_01",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "mondaiTitle": "Mondai 7: 文法形式",
+    "stem": "彼は多忙なスケジュールの（　　）、ボランティア活動を続けている。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "合間を縫って"
+      },
+      {
+        "id": "B",
+        "text": "合間を割いて"
+      },
+      {
+        "id": "C",
+        "text": "合間を惜しんで"
+      },
+      {
+        "id": "D",
+        "text": "合間を踏まえて"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M7_02",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "mondaiTitle": "Mondai 7: 文法形式",
+    "stem": "プロの料理人（　　）、包丁の手入れには人一倍気を使っている。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "とあって"
+      },
+      {
+        "id": "B",
+        "text": "にしては"
+      },
+      {
+        "id": "C",
+        "text": "と相まって"
+      },
+      {
+        "id": "D",
+        "text": "とあれば"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M7_03",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "mondaiTitle": "Mondai 7: 文法形式",
+    "stem": "事態がここまで悪化した以上、もはや社長自ら謝罪（　　）。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "するにすぎない"
+      },
+      {
+        "id": "B",
+        "text": "せざるを得ない"
+      },
+      {
+        "id": "C",
+        "text": "するわけにはいかない"
+      },
+      {
+        "id": "D",
+        "text": "しないものでもない"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M7_04",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "mondaiTitle": "Mondai 7: 文法形式",
+    "stem": "これほど精密な技術は、長年の鍛錬を重ねた熟練の職人（　　）の技だ。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "をはじめ"
+      },
+      {
+        "id": "B",
+        "text": "ならでは"
+      },
+      {
+        "id": "C",
+        "text": "にあって"
+      },
+      {
+        "id": "D",
+        "text": "をよそに"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M7_05",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "mondaiTitle": "Mondai 7: 文法形式",
+    "stem": "彼の説明は専門用語ばかりで、一般の人には理解し（　　）ものだった。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "やすい"
+      },
+      {
+        "id": "B",
+        "text": "かねる"
+      },
+      {
+        "id": "C",
+        "text": "がたい"
+      },
+      {
+        "id": "D",
+        "text": "っこない"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M7_06",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "mondaiTitle": "Mondai 7: 文法形式",
+    "stem": "どんなに科学技術が進歩（　　）、自然の驚異を完全に支配することはできない。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "しようと"
+      },
+      {
+        "id": "B",
+        "text": "したところで"
+      },
+      {
+        "id": "C",
+        "text": "するにつけ"
+      },
+      {
+        "id": "D",
+        "text": "するからには"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M7_07",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "mondaiTitle": "Mondai 7: 文法形式",
+    "stem": "新店舗の開店準備で、休む（　　）食事をする時間すらない。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "ばかりか"
+      },
+      {
+        "id": "B",
+        "text": "どころか"
+      },
+      {
+        "id": "C",
+        "text": "反面"
+      },
+      {
+        "id": "D",
+        "text": "わりに"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M7_08",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "mondaiTitle": "Mondai 7: 文法形式",
+    "stem": "これまでの実績とチームワーク（　　）、今回の大会も優勝できるに違いない。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "から見て"
+      },
+      {
+        "id": "B",
+        "text": "を契機に"
+      },
+      {
+        "id": "C",
+        "text": "を皮切りに"
+      },
+      {
+        "id": "D",
+        "text": "に先立って"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M7_09",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "mondaiTitle": "Mondai 7: 文法形式",
+    "stem": "お客様のご要望（　　）、柔軟にサービスプランをカスタマイズいたします。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "に際して"
+      },
+      {
+        "id": "B",
+        "text": "に応じて"
+      },
+      {
+        "id": "C",
+        "text": "に反して"
+      },
+      {
+        "id": "D",
+        "text": "にわたって"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M7_10",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "mondaiTitle": "Mondai 7: 文法形式",
+    "stem": "部長、先ほどメールでお送りした企画書を、もう（　　）でしょうか。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "拝見しました"
+      },
+      {
+        "id": "B",
+        "text": "ご覧になりました"
+      },
+      {
+        "id": "C",
+        "text": "お見せになりました"
+      },
+      {
+        "id": "D",
+        "text": "お目にかかりました"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M7_11",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "mondaiTitle": "Mondai 7: 文法形式",
+    "stem": "あんなに温厚な田中さんが声を荒らげるなんて、よほどのことがあった（　　）。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "に違いない"
+      },
+      {
+        "id": "B",
+        "text": "にすぎない"
+      },
+      {
+        "id": "C",
+        "text": "にほかならない"
+      },
+      {
+        "id": "D",
+        "text": "に越したことはない"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M7_12",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-FORM",
+    "mondaiTitle": "Mondai 7: 文法形式",
+    "stem": "今回のプロジェクトの成功は、チーム全員の協力（　　）語れない。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "ぬきにして"
+      },
+      {
+        "id": "B",
+        "text": "なくしては"
+      },
+      {
+        "id": "C",
+        "text": "をおいて"
+      },
+      {
+        "id": "D",
+        "text": "によらず"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M8_01",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-STAR",
+    "mondaiTitle": "Mondai 8: 文の組み立て ★",
+    "stem": "環境問題の解決には、行政だけでなく＿＿　＿＿　★　＿＿　欠かせない。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "一人ひとりの"
+      },
+      {
+        "id": "B",
+        "text": "意識の改革が"
+      },
+      {
+        "id": "C",
+        "text": "市民"
+      },
+      {
+        "id": "D",
+        "text": "何より"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M8_02",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-STAR",
+    "mondaiTitle": "Mondai 8: 文の組み立て ★",
+    "stem": "一度引き受けた仕事である以上、＿＿　＿＿　★　＿＿　責任がある。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "やり遂げる"
+      },
+      {
+        "id": "B",
+        "text": "困難があろうと"
+      },
+      {
+        "id": "C",
+        "text": "最後まで"
+      },
+      {
+        "id": "D",
+        "text": "いかに"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M8_03",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-STAR",
+    "mondaiTitle": "Mondai 8: 文の組み立て ★",
+    "stem": "健康を維持する上で、栄養バランスの取れた食事は＿＿　＿＿　★　＿＿　言えない。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "極めて"
+      },
+      {
+        "id": "B",
+        "text": "十分とは"
+      },
+      {
+        "id": "C",
+        "text": "それだけで"
+      },
+      {
+        "id": "D",
+        "text": "大切だが"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M8_04",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-STAR",
+    "mondaiTitle": "Mondai 8: 文の組み立て ★",
+    "stem": "現代社会において、インターネットの普及は＿＿　＿＿　★　＿＿　変革をもたらした。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "私たちの"
+      },
+      {
+        "id": "B",
+        "text": "生活様式に"
+      },
+      {
+        "id": "C",
+        "text": "劇的な"
+      },
+      {
+        "id": "D",
+        "text": "かつてない"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M8_05",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-STAR",
+    "mondaiTitle": "Mondai 8: 文の組み立て ★",
+    "stem": "チームの勝利は、選手たちの努力もさることながら、＿＿　＿＿　★　＿＿　大きい。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "的確な指導に"
+      },
+      {
+        "id": "B",
+        "text": "監督の"
+      },
+      {
+        "id": "C",
+        "text": "ところが"
+      },
+      {
+        "id": "D",
+        "text": "負う"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M9_01",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-TEXT",
+    "mondaiTitle": "Mondai 9: 文章の文法 (Ngữ pháp văn bản)",
+    "stem": "46番に入る最も適切なものを選びなさい。",
+    "contextPassage": "【読書がもたらす共感の力】\n現代社会では、SNSの普及により短文での即時的なコミュニケーションが主流となった。しかし、その一方で、他者の複雑な感情や文脈を深く読み取る能力の低下が（　46　）。\n文学作品を読むという行為は、単なる情報の受容ではない。自分とは全く異なる時代や境遇に生きる登場人物の視点に立ち、その喜びや苦悩を追体験することである。登場人物の葛藤に寄り添うことを（　47　）、私たちは自己の中心的な世界から抜け出し、他者への想像力を養うことができる。\n他者の痛みに共感する力は、先天的に備わっているもの（　48　）、後天的に磨かれる技術でもある。もし社会全体が効率性ばかりを追い求め、物語を読む時間を失ってしまったら、人間関係は極めて殺伐としたものに（　49　）。\nだからこそ、忙しい日々の生活のなかにこそ、一冊の本と静かに向き合う時間を（　50　）のではないだろうか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "懸念されている"
+      },
+      {
+        "id": "B",
+        "text": "懸念するべきだ"
+      },
+      {
+        "id": "C",
+        "text": "懸念せざるを得ない"
+      },
+      {
+        "id": "D",
+        "text": "懸念されるはずだ"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M9_02",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-TEXT",
+    "mondaiTitle": "Mondai 9: 文章の文法 (Ngữ pháp văn bản)",
+    "stem": "47番に入る最も適切なものを選びなさい。",
+    "contextPassage": "【読書がもたらす共感の力】\n現代社会では、SNSの普及により短文での即時的なコミュニケーションが主流となった。しかし、その一方で、他者の複雑な感情や文脈を深く読み取る能力の低下が（　46　）。\n文学作品を読むという行為は、単なる情報の受容ではない。自分とは全く異なる時代や境遇に生きる登場人物の視点に立ち、その喜びや苦悩を追体験することである。登場人物の葛藤に寄り添うことを（　47　）、私たちは自己の中心的な世界から抜け出し、他者への想像力を養うことができる。\n他者の痛みに共感する力は、先天的に備わっているもの（　48　）、後天的に磨かれる技術でもある。もし社会全体が効率性ばかりを追い求め、物語を読む時間を失ってしまったら、人間関係は極めて殺伐としたものに（　49　）。\nだからこそ、忙しい日々の生活のなかにこそ、一冊の本と静かに向き合う時間を（　50　）のではないだろうか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "皮切りにして"
+      },
+      {
+        "id": "B",
+        "text": "通じて"
+      },
+      {
+        "id": "C",
+        "text": "めぐって"
+      },
+      {
+        "id": "D",
+        "text": "問わず"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M9_03",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-TEXT",
+    "mondaiTitle": "Mondai 9: 文章の文法 (Ngữ pháp văn bản)",
+    "stem": "48番に入る最も適切なものを選びなさい。",
+    "contextPassage": "【読書がもたらす共感の力】\n現代社会では、SNSの普及により短文での即時的なコミュニケーションが主流となった。しかし、その一方で、他者の複雑な感情や文脈を深く読み取る能力の低下が（　46　）。\n文学作品を読むという行為は、単なる情報の受容ではない。自分とは全く異なる時代や境遇に生きる登場人物の視点に立ち、その喜びや苦悩を追体験することである。登場人物の葛藤に寄り添うことを（　47　）、私たちは自己の中心的な世界から抜け出し、他者への想像力を養うことができる。\n他者の痛みに共感する力は、先天的に備わっているもの（　48　）、後天的に磨かれる技術でもある。もし社会全体が効率性ばかりを追い求め、物語を読む時間を失ってしまったら、人間関係は極めて殺伐としたものに（　49　）。\nだからこそ、忙しい日々の生活のなかにこそ、一冊の本と静かに向き合う時間を（　50　）のではないだろうか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "ばかりではなく"
+      },
+      {
+        "id": "B",
+        "text": "といえども"
+      },
+      {
+        "id": "C",
+        "text": "に反して"
+      },
+      {
+        "id": "D",
+        "text": "をはじめ"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M9_04",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-TEXT",
+    "mondaiTitle": "Mondai 9: 文章の文法 (Ngữ pháp văn bản)",
+    "stem": "49番に入る最も適切なものを選びなさい。",
+    "contextPassage": "【読書がもたらす共感の力】\n現代社会では、SNSの普及により短文での即時的なコミュニケーションが主流となった。しかし、その一方で、他者の複雑な感情や文脈を深く読み取る能力の低下が（　46　）。\n文学作品を読むという行為は、単なる情報の受容ではない。自分とは全く異なる時代や境遇に生きる登場人物の視点に立ち、その喜びや苦悩を追体験することである。登場人物の葛藤に寄り添うことを（　47　）、私たちは自己の中心的な世界から抜け出し、他者への想像力を養うことができる。\n他者の痛みに共感する力は、先天的に備わっているもの（　48　）、後天的に磨かれる技術でもある。もし社会全体が効率性ばかりを追い求め、物語を読む時間を失ってしまったら、人間関係は極めて殺伐としたものに（　49　）。\nだからこそ、忙しい日々の生活のなかにこそ、一冊の本と静かに向き合う時間を（　50　）のではないだろうか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "なりかねない"
+      },
+      {
+        "id": "B",
+        "text": "なるわけがない"
+      },
+      {
+        "id": "C",
+        "text": "なるに決まっている"
+      },
+      {
+        "id": "D",
+        "text": "なりっこない"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M9_05",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Grammar",
+    "typeId": "N2-GR-TEXT",
+    "mondaiTitle": "Mondai 9: 文章の文法 (Ngữ pháp văn bản)",
+    "stem": "50番に入る最も適切なものを選びなさい。",
+    "contextPassage": "【読書がもたらす共感の力】\n現代社会では、SNSの普及により短文での即時的なコミュニケーションが主流となった。しかし、その一方で、他者の複雑な感情や文脈を深く読み取る能力の低下が（　46　）。\n文学作品を読むという行為は、単なる情報の受容ではない。自分とは全く異なる時代や境遇に生きる登場人物の視点に立ち、その喜びや苦悩を追体験することである。登場人物の葛藤に寄り添うことを（　47　）、私たちは自己の中心的な世界から抜け出し、他者への想像力を養うことができる。\n他者の痛みに共感する力は、先天的に備わっているもの（　48　）、後天的に磨かれる技術でもある。もし社会全体が効率性ばかりを追い求め、物語を読む時間を失ってしまったら、人間関係は極めて殺伐としたものに（　49　）。\nだからこそ、忙しい日々の生活のなかにこそ、一冊の本と静かに向き合う時間を（　50　）のではないだろうか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "確保するべきではない"
+      },
+      {
+        "id": "B",
+        "text": "確保したいものだ"
+      },
+      {
+        "id": "C",
+        "text": "確保しようとする"
+      },
+      {
+        "id": "D",
+        "text": "確保するべきな"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M10_01",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-SHOR",
+    "mondaiTitle": "Mondai 10: 短文読解 (Đọc hiểu đoạn ngắn)",
+    "stem": "筆者が最も言いたいことは何か。",
+    "contextPassage": "伝統工芸の世界でも、3DプリンターやAIによる自動化の導入が進んでいる。熟練職人の手の動きをデータ化し、寸分の狂いもなく再現する技術は、後継者不足に悩む産地にとって画期的な救世主に見える。しかし、職人が真に継承しているのは、単なる正確な身体動作ではない。その日の気温や湿度、木材の微細な個体差を肌で感じ取り、瞬時に刃物の当て方を微調整する「臨機応変の勘」である。データ化できる部分と、現場の身体知としてしか伝えられない部分の境界を見極めることこそが、伝統を未来へ繋ぐ鍵となる。",
+    "options": [
+      {
+        "id": "A",
+        "text": "伝統工芸はAIに任せれば、職人の修業期間をゼロに短縮できる。"
+      },
+      {
+        "id": "B",
+        "text": "職人の勘はすべて迷信であり、3Dプリンターの正確さのみを信じるべきだ。"
+      },
+      {
+        "id": "C",
+        "text": "環境変化に即応する職人の身体知とデジタル技術の境界を見極めることが重要だ。"
+      },
+      {
+        "id": "D",
+        "text": "伝統を守るためには、いかなるデジタル技術の導入も断固拒否すべきだ。"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M10_02",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-SHOR",
+    "mondaiTitle": "Mondai 10: 短文読解 (Đọc hiểu đoạn ngắn)",
+    "stem": "「マルチタスク」について、筆者の主張と合致するものはどれか。",
+    "contextPassage": "現代のビジネスパーソンは、複数の画面を開き、メールを返信しながら会議に参加する「マルチタスク」を効率的だと捉えがちである。しかし、認知心理学の研究によれば、人間の脳は複数の認知的作業を同時に処理することはできず、実際には極めて短時間で注意を切り替えているにすぎない。この「タスクの頻繁な切り替え」は、脳に過度な認知的負荷を与え、作業速度を落とすだけでなく、思考の深化を決定的に妨げる。真の生産性とは、一度に多くのことをこなすことではなく、一つの重要課題に意識を集中させる能力にある。",
+    "options": [
+      {
+        "id": "A",
+        "text": "マルチタスクは脳を鍛え、思考を深める最良の訓練法である。"
+      },
+      {
+        "id": "B",
+        "text": "人間の脳は複数の作業を同時に並行処理できる優れた構造を持つ。"
+      },
+      {
+        "id": "C",
+        "text": "作業の切り替えは脳に過大な負荷を与え、かえって生産性を低下させる。"
+      },
+      {
+        "id": "D",
+        "text": "ビジネスで成功するためには、メール返信を最優先にして常に画面を注視すべきだ。"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M10_03",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-SHOR",
+    "mondaiTitle": "Mondai 10: 短文読解 (Đọc hiểu đoạn ngắn)",
+    "stem": "都市の緑地計画について、筆者はどのように考えているか。",
+    "contextPassage": "都市部における公園や街路樹の整備は、単に人間に癒やしや景観美を提供するだけの設備ではない。孤立したコンクリートの海の中で、緑地は鳥や昆虫が移動するための「生態系の回廊（コリドー）」としての決定的な役割を果たしている。点在する小規模な庭や屋上緑化であっても、それらが互いに近接してネットワークを形成していれば、生物は都市を横断して生息域を広げることができる。都市計画においては、個々の緑地の面積だけでなく、緑地同士の空間的な連続性を考慮することが不可欠なのだ。",
+    "options": [
+      {
+        "id": "A",
+        "text": "都市の緑地は人間のストレス解消だけを目的として設計されるべきだ。"
+      },
+      {
+        "id": "B",
+        "text": "小規模な緑地は生態系にとって何の価値もないため、撤去してビルを建てるべきだ。"
+      },
+      {
+        "id": "C",
+        "text": "生物が移動できるように、緑地同士がつながる空間的連続性を重視すべきだ。"
+      },
+      {
+        "id": "D",
+        "text": "鳥や昆虫が都市に入り込まないよう、防虫ネットで公園を囲む必要がある。"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M10_04",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-SHOR",
+    "mondaiTitle": "Mondai 10: 短文読解 (Đọc hiểu đoạn ngắn)",
+    "stem": "筆者が考える「本来の批判的思考」とはどのようなものか。",
+    "contextPassage": "批判的思考と聞くと、他者の意見のあら探しをしたり、否定的な見解を述べたりすることだと誤解されやすい。しかし本来の批判的思考とは、自分自身の前提や常識をも疑い、物事を多角的な視点から客観的に再吟味する知的態度のことを指す。「自分が正しいと信じている根拠は本当に妥当か」「見落としている前提はないか」と問い続けることで、私たちは感情的な偏見から自由になり、より合理的な判断に到達することができる。他者を論破するためではなく、自分自身の思考を更新するための道具なのだ。",
+    "options": [
+      {
+        "id": "A",
+        "text": "他人の意見の弱点を見つけ出し、議論で相手を言い負かす技術。"
+      },
+      {
+        "id": "B",
+        "text": "自分自身の前提や思い込みを疑い、客観的に再検討して判断を高める態度。"
+      },
+      {
+        "id": "C",
+        "text": "あらゆる社会通念や法律を完全に無視して、自分の感情のままに行動すること。"
+      },
+      {
+        "id": "D",
+        "text": "専門家の意見には一切逆らわず、提示された情報をそのまま受け入れること。"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M10_05",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-SHOR",
+    "mondaiTitle": "Mondai 10: 短文読解 (Đọc hiểu đoạn ngắn)",
+    "stem": "「対話型鑑賞」の特徴として、本文で述べられているものはどれか。",
+    "contextPassage": "従来の美術館鑑賞は、作品の解説パネルを読み、美術史的な正解知識を学ぶスタイルが主流であった。これに対し近年注目されている「対話型鑑賞」は、解説をあえて読まず、鑑賞者同士が「作品のどこからそう感じたか」を言葉にして語り合う試みである。正解のない問いに向き合い、他者の異なる見方に触れることで、自分一人では気づけなかった作品の新たな側面に目が開かれる。作品を「消費」するのではなく、自らの主体的な対話を通じて「意味を共同で生成する」体験こそが、現代の美術館に求められている。",
+    "options": [
+      {
+        "id": "A",
+        "text": "学芸員の解説講義を静かに聴き、年表を完全に暗記するスタイル。"
+      },
+      {
+        "id": "B",
+        "text": "解説に頼らず、鑑賞者同士が感じた根拠を語り合いながら意味を深める方法。"
+      },
+      {
+        "id": "C",
+        "text": "絵画を鑑賞しながら大声で音楽を流し、身体を動かして踊る鑑賞法。"
+      },
+      {
+        "id": "D",
+        "text": "有名画家の絵だけを高額で買い取り、個人宅で鑑賞する展示方法。"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M11_01",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-MEDI",
+    "mondaiTitle": "Mondai 11: 中文読解 (Đọc hiểu trung văn)",
+    "stem": "日本の木組み構造が地震に強い理由として、筆者はどのように説明しているか。",
+    "contextPassage": "【日本の伝統木造建築に見る知恵】\n世界最古の木造建築である法隆寺をはじめ、日本の伝統的な神社仏閣は千年以上もの風雪に耐えて今日にその姿を伝えている。高温多湿で地震が多いという過酷な風土において、なぜこれほどまでに長寿命な建築が可能であったのだろうか。その秘密は、金属の釘やボルトを極力使わず、木材同士の複雑な凹凸を組み合わせる「木組み（きぐみ）」の技術にある。\n\n木組み構造の最大の特徴は、地震などの外力が加わった際に、接合部がわずかに滑り、摩擦によって揺れのエネルギーを吸収・分散させる点にある。完全に固定された硬い構造物は強い衝撃で一気に破断する危険があるが、木組みは柔軟にしなることで倒壊を防ぐのだ。これは現代の免震工学の思想と完全に一致している。\n\nさらに、木造建築は「解体と部材交換」を前提として設計されている。傷んだ柱や梁だけを取り外し、新しい木材に差し替えることができるため、建物全体を壊すことなく何百年も維持できる。木材という自然素材の伸縮や狂いを計算に入れ、次世代の大工が修理しやすいように細工を残しておく――。そこには、自然をねじ伏せるのではなく、自然の理に寄り添い、時間の流れを味方につける持続可能な設計思想が息づいている。",
+    "options": [
+      {
+        "id": "A",
+        "text": "金属の太いボルトで隙間なく完全に固定されているため。"
+      },
+      {
+        "id": "B",
+        "text": "接合部がわずかに滑ることで、地震の揺れのエネルギーを吸収・分散させるため。"
+      },
+      {
+        "id": "C",
+        "text": "木材の内部に鉄筋を埋め込んで頑丈な強度を持たせているため。"
+      },
+      {
+        "id": "D",
+        "text": "地面と建物を完全に切り離し、宙に浮かせる仕組みになっているため。"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M11_02",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-MEDI",
+    "mondaiTitle": "Mondai 11: 中文読解 (Đọc hiểu trung văn)",
+    "stem": "「解体と部材交換」ができることの利点として、合致するものはどれか。",
+    "contextPassage": "【日本の伝統木造建築に見る知恵】\n世界最古の木造建築である法隆寺をはじめ、日本の伝統的な神社仏閣は千年以上もの風雪に耐えて今日にその姿を伝えている。高温多湿で地震が多いという過酷な風土において、なぜこれほどまでに長寿命な建築が可能であったのだろうか。その秘密は、金属の釘やボルトを極力使わず、木材同士の複雑な凹凸を組み合わせる「木組み（きぐみ）」の技術にある。\n\n木組み構造の最大の特徴は、地震などの外力が加わった際に、接合部がわずかに滑り、摩擦によって揺れのエネルギーを吸収・分散させる点にある。完全に固定された硬い構造物は強い衝撃で一気に破断する危険があるが、木組みは柔軟にしなることで倒壊を防ぐのだ。これは現代の免震工学の思想と完全に一致している。\n\nさらに、木造建築は「解体と部材交換」を前提として設計されている。傷んだ柱や梁だけを取り外し、新しい木材に差し替えることができるため、建物全体を壊すことなく何百年も維持できる。木材という自然素材の伸縮や狂いを計算に入れ、次世代の大工が修理しやすいように細工を残しておく――。そこには、自然をねじ伏せるのではなく、自然の理に寄り添い、時間の流れを味方につける持続可能な設計思想が息づいている。",
+    "options": [
+      {
+        "id": "A",
+        "text": "建物を毎回ゼロから作り直す費用を節約し、観光客を増やすこと。"
+      },
+      {
+        "id": "B",
+        "text": "傷んだ部材だけを取り替えることで、建物を何百年も維持し続けられること。"
+      },
+      {
+        "id": "C",
+        "text": "大工の仕事を増やして、地域の若者の雇用を無理に確保すること。"
+      },
+      {
+        "id": "D",
+        "text": "木材の代わりにコンクリートを流し込んで現代風に改築できること。"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M11_03",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-MEDI",
+    "mondaiTitle": "Mondai 11: 中文読解 (Đọc hiểu trung văn)",
+    "stem": "この文章全体で、筆者が伝統木造建築から最も学べると考えている思想は何か。",
+    "contextPassage": "【日本の伝統木造建築に見る知恵】\n世界最古の木造建築である法隆寺をはじめ、日本の伝統的な神社仏閣は千年以上もの風雪に耐えて今日にその姿を伝えている。高温多湿で地震が多いという過酷な風土において、なぜこれほどまでに長寿命な建築が可能であったのだろうか。その秘密は、金属の釘やボルトを極力使わず、木材同士の複雑な凹凸を組み合わせる「木組み（きぐみ）」の技術にある。\n\n木組み構造の最大の特徴は、地震などの外力が加わった際に、接合部がわずかに滑り、摩擦によって揺れのエネルギーを吸収・分散させる点にある。完全に固定された硬い構造物は強い衝撃で一気に破断する危険があるが、木組みは柔軟にしなることで倒壊を防ぐのだ。これは現代の免震工学の思想と完全に一致している。\n\nさらに、木造建築は「解体と部材交換」を前提として設計されている。傷んだ柱や梁だけを取り外し、新しい木材に差し替えることができるため、建物全体を壊すことなく何百年も維持できる。木材という自然素材の伸縮や狂いを計算に入れ、次世代の大工が修理しやすいように細工を残しておく――。そこには、自然をねじ伏せるのではなく、自然の理に寄り添い、時間の流れを味方につける持続可能な設計思想が息づいている。",
+    "options": [
+      {
+        "id": "A",
+        "text": "自然を力で支配するのではなく、自然の性質に寄り添う持続可能な設計思想。"
+      },
+      {
+        "id": "B",
+        "text": "金属や最新技術はすべて有害であり、古代の道具だけを使うべきだという主張。"
+      },
+      {
+        "id": "C",
+        "text": "地震が起きたら諦めて逃げ、新しい土地に引っ越すべきだという諦念。"
+      },
+      {
+        "id": "D",
+        "text": "木材資源を大量に伐採して、経済成長を最優先させる産業政策。"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M11_04",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-MEDI",
+    "mondaiTitle": "Mondai 11: 中文読解 (Đọc hiểu trung văn)",
+    "stem": "子供の頃の時間が長く感じられる理由として、近年の認知科学はどのように説明しているか。",
+    "contextPassage": "【なぜ年をとると時間が早く過ぎるのか】\n子供の頃の1年間は永遠のように長く感じられたのに、大人になると「あっという間に1年が過ぎてしまった」と口にする人が多い。この年齢に伴う時間感覚の加速現象は、19世紀のフランスの哲学者ジャネが提唱した「ジャネの法則」によって心理学的に説明されることが多い。すなわち、5歳の子供にとっての1年は人生の5分の1（20％）に相当するが、50歳の大人にとっての1年は人生のわずか50分の1（2％）にすぎないという比率の論理である。\n\nしかし、近年の認知科学では、単なる主観的な比率の問題だけでなく、「新奇な体験の密度」が時間知覚に深く関わっていることが明らかになってきた。子供の頃は、見るもの聞くものすべてが未知であり、脳は新しい情報を処理するために膨大な認知的注意を注ぎ込む。その結果、記憶の中に刻み込まれる「情報のエピソード数」が極めて多くなり、後から振り返ったときに「長い時間だった」と知覚されるのである。\n\n一方、大人の日常生活は、慣れ親しんだルーティンの連続になりがちである。通勤ルート、仕事の手順、会話のパターンなどが自動化されると、脳は省エネモードで稼働し、記憶に記録される新しい情報が劇的に減少する。その結果、過去を振り返ったときの記憶の密度が希薄になり、時間が一瞬で過ぎ去ったかのように錯覚してしまう。時間を豊かに、そして長く生きるための秘訣は、大人になっても意識して新しい挑戦を続け、日常に「未知の体験」を意図的に織り込んでいくことにある。",
+    "options": [
+      {
+        "id": "A",
+        "text": "子供は体内時計の針が大人よりも物理的に遅く進んでいるため。"
+      },
+      {
+        "id": "B",
+        "text": "未知の体験が多く、脳が多くの新しい情報を記憶に刻み込んでいるため。"
+      },
+      {
+        "id": "C",
+        "text": "勉強や運動で疲労し、毎日退屈な時間を過ごしているため。"
+      },
+      {
+        "id": "D",
+        "text": "大人のように仕事の責任がなく、遊んでばかりいるため。"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M11_05",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-MEDI",
+    "mondaiTitle": "Mondai 11: 中文読解 (Đọc hiểu trung văn)",
+    "stem": "大人の時間が「あっという間に過ぎる」と感じられる直接的な原因は何か。",
+    "contextPassage": "【なぜ年をとると時間が早く過ぎるのか】\n子供の頃の1年間は永遠のように長く感じられたのに、大人になると「あっという間に1年が過ぎてしまった」と口にする人が多い。この年齢に伴う時間感覚の加速現象は、19世紀のフランスの哲学者ジャネが提唱した「ジャネの法則」によって心理学的に説明されることが多い。すなわち、5歳の子供にとっての1年は人生の5分の1（20％）に相当するが、50歳の大人にとっての1年は人生のわずか50分の1（2％）にすぎないという比率の論理である。\n\nしかし、近年の認知科学では、単なる主観的な比率の問題だけでなく、「新奇な体験の密度」が時間知覚に深く関わっていることが明らかになってきた。子供の頃は、見るもの聞くものすべてが未知であり、脳は新しい情報を処理するために膨大な認知的注意を注ぎ込む。その結果、記憶の中に刻み込まれる「情報のエピソード数」が極めて多くなり、後から振り返ったときに「長い時間だった」と知覚されるのである。\n\n一方、大人の日常生活は、慣れ親しんだルーティンの連続になりがちである。通勤ルート、仕事の手順、会話のパターンなどが自動化されると、脳は省エネモードで稼働し、記憶に記録される新しい情報が劇的に減少する。その結果、過去を振り返ったときの記憶の密度が希薄になり、時間が一瞬で過ぎ去ったかのように錯覚してしまう。時間を豊かに、そして長く生きるための秘訣は、大人になっても意識して新しい挑戦を続け、日常に「未知の体験」を意図的に織り込んでいくことにある。",
+    "options": [
+      {
+        "id": "A",
+        "text": "年齢とともに脳の処理速度が劇的に向上し、すべての作業が一瞬で終わるから。"
+      },
+      {
+        "id": "B",
+        "text": "日々の行動がルーティン化し、記憶に記録される新しい情報が減少するから。"
+      },
+      {
+        "id": "C",
+        "text": "睡眠時間が極端に短くなり、意識が朦朧としている時間が増えるから。"
+      },
+      {
+        "id": "D",
+        "text": "人間関係のストレスによって、過去の記憶が完全に消去されてしまうから。"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M11_06",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-MEDI",
+    "mondaiTitle": "Mondai 11: 中文読解 (Đọc hiểu trung văn)",
+    "stem": "筆者が最後に提案している「時間を豊かに長く生きるための秘訣」は何か。",
+    "contextPassage": "【なぜ年をとると時間が早く過ぎるのか】\n子供の頃の1年間は永遠のように長く感じられたのに、大人になると「あっという間に1年が過ぎてしまった」と口にする人が多い。この年齢に伴う時間感覚の加速現象は、19世紀のフランスの哲学者ジャネが提唱した「ジャネの法則」によって心理学的に説明されることが多い。すなわち、5歳の子供にとっての1年は人生の5分の1（20％）に相当するが、50歳の大人にとっての1年は人生のわずか50分の1（2％）にすぎないという比率の論理である。\n\nしかし、近年の認知科学では、単なる主観的な比率の問題だけでなく、「新奇な体験の密度」が時間知覚に深く関わっていることが明らかになってきた。子供の頃は、見るもの聞くものすべてが未知であり、脳は新しい情報を処理するために膨大な認知的注意を注ぎ込む。その結果、記憶の中に刻み込まれる「情報のエピソード数」が極めて多くなり、後から振り返ったときに「長い時間だった」と知覚されるのである。\n\n一方、大人の日常生活は、慣れ親しんだルーティンの連続になりがちである。通勤ルート、仕事の手順、会話のパターンなどが自動化されると、脳は省エネモードで稼働し、記憶に記録される新しい情報が劇的に減少する。その結果、過去を振り返ったときの記憶の密度が希薄になり、時間が一瞬で過ぎ去ったかのように錯覚してしまう。時間を豊かに、そして長く生きるための秘訣は、大人になっても意識して新しい挑戦を続け、日常に「未知の体験」を意図的に織り込んでいくことにある。",
+    "options": [
+      {
+        "id": "A",
+        "text": "仕事を辞めて、子供時代と全く同じ遊びを毎日繰り返すこと。"
+      },
+      {
+        "id": "B",
+        "text": "時計を見る回数を減らし、過去の出来事を一切思い出さないこと。"
+      },
+      {
+        "id": "C",
+        "text": "大人になっても新しい挑戦を続け、未知の体験を日常に取り入れること。"
+      },
+      {
+        "id": "D",
+        "text": "すべての行動を完璧に自動化し、脳を休ませ続けること。"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M11_07",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-MEDI",
+    "mondaiTitle": "Mondai 11: 中文読解 (Đọc hiểu trung văn)",
+    "stem": "オンライン会議の普及によって生じた課題として、筆者が挙げているものはどれか。",
+    "contextPassage": "【リモートワーク時代における「雑談」の価値】\n在宅勤務の普及は、通勤ストレスの解消や業務効率の向上など、多くの恩恵を労働者にもたらした。あらかじめ設定されたオンライン会議では、アジェンダに沿って無駄のない議論が行われ、時間管理の面でも高い生産性が実現されているように見える。しかし、その陰で多くの企業が直面しているのが、「組織の一体感の希薄化」と「偶発的なアイデアの枯渇」という新たな課題である。\n\nオフィスで顔を合わせていた時代には、給湯室での立ち話や、エレベーターを待つ間の何気ない「雑談」が存在していた。業務とは直接関係のない天気の話題や個人的な趣味の共有は、一見すると非効率な時間の浪費に思えるかもしれない。しかし実は、こうした心理的安全性を生み出す余白こそが、同僚への信頼関係の土台を築き、部署の垣根を越えた相談を容易にしていたのである。\n\nまた、予期せぬイノベーションの多くは、会議室の厳格な議論からではなく、雑談の中で発せられたふとした一言から着想を得ていることが多い。完全な効率性を追求するあまり、業務上の必要連絡だけにコミュニケーションを絞り込んでしまえば、組織の創造性は次第に失われていく。リモートワーク全盛の今だからこそ、企業はあえて「計画された無駄」としての雑談の場を意識的に設計する必要がある。",
+    "options": [
+      {
+        "id": "A",
+        "text": "通勤時間が長くなり、従業員の体力が激しく消耗すること。"
+      },
+      {
+        "id": "B",
+        "text": "アジェンダの設定が難しく、会議の時間が何倍にも長引くこと。"
+      },
+      {
+        "id": "C",
+        "text": "組織の一体感が薄れ、偶発的な新しいアイデアが生まれにくくなったこと。"
+      },
+      {
+        "id": "D",
+        "text": "通信費が高騰し、企業の経営利益が完全に失われたこと。"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M11_08",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-MEDI",
+    "mondaiTitle": "Mondai 11: 中文読解 (Đọc hiểu trung văn)",
+    "stem": "オフィスでの「雑談」が果たしていた重要な役割は何だったか。",
+    "contextPassage": "【リモートワーク時代における「雑談」の価値】\n在宅勤務の普及は、通勤ストレスの解消や業務効率の向上など、多くの恩恵を労働者にもたらした。あらかじめ設定されたオンライン会議では、アジェンダに沿って無駄のない議論が行われ、時間管理の面でも高い生産性が実現されているように見える。しかし、その陰で多くの企業が直面しているのが、「組織の一体感の希薄化」と「偶発的なアイデアの枯渇」という新たな課題である。\n\nオフィスで顔を合わせていた時代には、給湯室での立ち話や、エレベーターを待つ間の何気ない「雑談」が存在していた。業務とは直接関係のない天気の話題や個人的な趣味の共有は、一見すると非効率な時間の浪費に思えるかもしれない。しかし実は、こうした心理的安全性を生み出す余白こそが、同僚への信頼関係の土台を築き、部署の垣根を越えた相談を容易にしていたのである。\n\nまた、予期せぬイノベーションの多くは、会議室の厳格な議論からではなく、雑談の中で発せられたふとした一言から着想を得ていることが多い。完全な効率性を追求するあまり、業務上の必要連絡だけにコミュニケーションを絞り込んでしまえば、組織の創造性は次第に失われていく。リモートワーク全盛の今だからこそ、企業はあえて「計画された無駄」としての雑談の場を意識的に設計する必要がある。",
+    "options": [
+      {
+        "id": "A",
+        "text": "仕事の手を抜いて、勤務時間中にサボるための口実を提供すること。"
+      },
+      {
+        "id": "B",
+        "text": "信頼関係の土台を築き、創造的な着想を生み出すきっかけになること。"
+      },
+      {
+        "id": "C",
+        "text": "他人のプライベートな秘密を暴き、社内での競争を有利に進めること。"
+      },
+      {
+        "id": "D",
+        "text": "会議室の利用料を節約するために、廊下で重要な契約を結ぶこと。"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M11_09",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-MEDI",
+    "mondaiTitle": "Mondai 11: 中文読解 (Đọc hiểu trung văn)",
+    "stem": "筆者が企業に対して最も求めている提言は何か。",
+    "contextPassage": "【リモートワーク時代における「雑談」の価値】\n在宅勤務の普及は、通勤ストレスの解消や業務効率の向上など、多くの恩恵を労働者にもたらした。あらかじめ設定されたオンライン会議では、アジェンダに沿って無駄のない議論が行われ、時間管理の面でも高い生産性が実現されているように見える。しかし、その陰で多くの企業が直面しているのが、「組織の一体感の希薄化」と「偶発的なアイデアの枯渇」という新たな課題である。\n\nオフィスで顔を合わせていた時代には、給湯室での立ち話や、エレベーターを待つ間の何気ない「雑談」が存在していた。業務とは直接関係のない天気の話題や個人的な趣味の共有は、一見すると非効率な時間の浪費に思えるかもしれない。しかし実は、こうした心理的安全性を生み出す余白こそが、同僚への信頼関係の土台を築き、部署の垣根を越えた相談を容易にしていたのである。\n\nまた、予期せぬイノベーションの多くは、会議室の厳格な議論からではなく、雑談の中で発せられたふとした一言から着想を得ていることが多い。完全な効率性を追求するあまり、業務上の必要連絡だけにコミュニケーションを絞り込んでしまえば、組織の創造性は次第に失われていく。リモートワーク全盛の今だからこそ、企業はあえて「計画された無駄」としての雑談の場を意識的に設計する必要がある。",
+    "options": [
+      {
+        "id": "A",
+        "text": "リモートワークを全面的に廃止し、全員を強制的に出社させること。"
+      },
+      {
+        "id": "B",
+        "text": "オンライン上での無駄話を一切禁止し、監視カメラを導入すること。"
+      },
+      {
+        "id": "C",
+        "text": "業務連絡以外の会話を意識的に行える「雑談の場」を計画的に設けること。"
+      },
+      {
+        "id": "D",
+        "text": "給料を一律に減額し、その分で社内カフェを豪華に改装すること。"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M12_01",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-INTE",
+    "mondaiTitle": "Mondai 12: 統合理解 (Đọc hiểu so sánh A & B)",
+    "stem": "キャッシュレス決済について、AとBの共通する認識はどれか。",
+    "contextPassage": "【A】（経済アナリストの視点）\n近年のキャッシュレス決済の急速な普及は、社会全体に計り知れない利便性と経済効果をもたらしている。現金管理に伴う輸送や警備のコストを大幅に削減できるだけでなく、購買履歴のデータ分析を通じて、消費者一人ひとりに最適化された商品提案が可能となった。スマートフォンの決済アプリひとつで完結する社会は、取引の透明性を高め、不正な脱税を防ぐ上でも極めて有効である。今後は現金支払いにこだわることなく、官民が連携して完全なキャッシュレス社会への移行を加速させるべきだ。\n\n【B】（社会学者・消費者心理の視点）\nキャッシュレス決済がもたらす利便性を否定するつもりはない。しかし、お金という物理的な実体から数値データへの移行は、私たちの金銭感覚に無視できない変容を迫っている。紙幣が財布から減っていくという身体的な痛みを伴わないため、特に若年層や高齢者において、自覚のないまま過度な消費に陥るリスクが高まっている。また、災害時の大規模停電や通信障害が発生した際、デジタル決済だけに依存する脆弱性は深刻である。効率性のみを追求するのではなく、現金というフェイルセーフ（安全装置）の重要性を再認識すべきである。",
+    "options": [
+      {
+        "id": "A",
+        "text": "キャッシュレス決済は社会に利便性をもたらしているという点。"
+      },
+      {
+        "id": "B",
+        "text": "現金支払いは完全に廃止し、法律で禁止すべきだという点。"
+      },
+      {
+        "id": "C",
+        "text": "スマートフォンの決済は消費者の浪費を激増させるという点。"
+      },
+      {
+        "id": "D",
+        "text": "災害時にもデジタル決済は100％安全に機能するという点。"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M12_02",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-INTE",
+    "mondaiTitle": "Mondai 12: 統合理解 (Đọc hiểu so sánh A & B)",
+    "stem": "完全なキャッシュレス化への移行について、AとBの主張の違いとして最も適切なものはどれか。",
+    "contextPassage": "【A】（経済アナリストの視点）\n近年のキャッシュレス決済の急速な普及は、社会全体に計り知れない利便性と経済効果をもたらしている。現金管理に伴う輸送や警備のコストを大幅に削減できるだけでなく、購買履歴のデータ分析を通じて、消費者一人ひとりに最適化された商品提案が可能となった。スマートフォンの決済アプリひとつで完結する社会は、取引の透明性を高め、不正な脱税を防ぐ上でも極めて有効である。今後は現金支払いにこだわることなく、官民が連携して完全なキャッシュレス社会への移行を加速させるべきだ。\n\n【B】（社会学者・消費者心理の視点）\nキャッシュレス決済がもたらす利便性を否定するつもりはない。しかし、お金という物理的な実体から数値データへの移行は、私たちの金銭感覚に無視できない変容を迫っている。紙幣が財布から減っていくという身体的な痛みを伴わないため、特に若年層や高齢者において、自覚のないまま過度な消費に陥るリスクが高まっている。また、災害時の大規模停電や通信障害が発生した際、デジタル決済だけに依存する脆弱性は深刻である。効率性のみを追求するのではなく、現金というフェイルセーフ（安全装置）の重要性を再認識すべきである。",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aは治安悪化を恐れているが、Bは犯罪防止になると歓迎している。"
+      },
+      {
+        "id": "B",
+        "text": "Aは完全な移行を加速すべきだと主張し、Bは現金の安全装置としての役割を残すべきだと慎重である。"
+      },
+      {
+        "id": "C",
+        "text": "Aは若者の消費を抑えたいと考え、Bは高齢者の利便性向上だけを願っている。"
+      },
+      {
+        "id": "D",
+        "text": "Aは現金の輸送コストを増やすべきだと考え、Bは通信網の完全停止を望んでいる。"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M13_01",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-LONG",
+    "mondaiTitle": "Mondai 13: 長文読解 (Đọc hiểu trường văn)",
+    "stem": "工業化社会において「強固な組織」が成果を収められたのはなぜか。",
+    "contextPassage": "【「弱さ」を認め合う組織の強靭さ】\n近代以降の組織論は、長らく「強さ」と「無謬性（むびゅうせい：過ちを犯さないこと）」を至上命題として掲げてきた。リーダーは常に揺るぎない確信を持ち、部下は弱音を吐かずに与えられた目標を達成する――。このような軍隊的な規律と効率至上主義は、工業化社会において一定の成果を収めたことは確かである。あらかじめ正解が分かっている時代には、指示通りに迅速に動く機械のような組織が最も強かったからだ。\n\nしかし、VUCA（変動性、不確実性、複雑性、曖昧性）と呼ばれる現代の予測困難な社会において、かつての「強固な組織」は脆さを露呈し始めている。失敗や弱みを隠蔽する風土は、重大な不正や事故の温床となり、現場からの率直な警鐘を上層部が握りつぶしてしまう事態を招く。完璧さを装うことへのプレッシャーが、組織の柔軟な学習能力を奪ってしまうのである。\n\n近年、世界的な先進企業が相次いで導入しているのが、「心理的安全性」と「脆弱性（バルネラビリティ）の受容」を核とした組織開発である。ここで言う脆弱性とは、単なる能力不足を意味するのではない。自分の知識の限界を認め、「分からない」「助けてほしい」と率直に口にできる勇気のことである。\n\nリーダーが自らの不完全さを隠さず、率直に支援を求める姿を見せるとき、チームのメンバーもまた、失敗への恐怖から解放され、前例のない革新的な挑戦に踏み出すことができる。互いの弱さを補い合い、異なる専門性を掛け合わせる関係性こそが、予測不可能な環境変化を乗り越える「真のレジリエンス（回復力・強靭さ）」を生み出すのだ。自己防衛のための強さを手放し、互いの不完全さを認め合うこと。逆説的ではあるが、そこにこそ未来の組織の持続可能な強さが宿っているのである。",
+    "options": [
+      {
+        "id": "A",
+        "text": "リーダーが常に弱音を吐き、部下に指示を仰いでいたから。"
+      },
+      {
+        "id": "B",
+        "text": "あらかじめ正解が決まっており、指示通りに動く規律と効率が有効だったから。"
+      },
+      {
+        "id": "C",
+        "text": "失敗を隠蔽することが法的に奨励されていたから。"
+      },
+      {
+        "id": "D",
+        "text": "社員全員が専門知識を持たず、機械の操作だけに専念できたから。"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M13_02",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-LONG",
+    "mondaiTitle": "Mondai 13: 長文読解 (Đọc hiểu trường văn)",
+    "stem": "本文における「脆弱性の受容」とは、具体的にどのような行動を指すか。",
+    "contextPassage": "【「弱さ」を認め合う組織の強靭さ】\n近代以降の組織論は、長らく「強さ」と「無謬性（むびゅうせい：過ちを犯さないこと）」を至上命題として掲げてきた。リーダーは常に揺るぎない確信を持ち、部下は弱音を吐かずに与えられた目標を達成する――。このような軍隊的な規律と効率至上主義は、工業化社会において一定の成果を収めたことは確かである。あらかじめ正解が分かっている時代には、指示通りに迅速に動く機械のような組織が最も強かったからだ。\n\nしかし、VUCA（変動性、不確実性、複雑性、曖昧性）と呼ばれる現代の予測困難な社会において、かつての「強固な組織」は脆さを露呈し始めている。失敗や弱みを隠蔽する風土は、重大な不正や事故の温床となり、現場からの率直な警鐘を上層部が握りつぶしてしまう事態を招く。完璧さを装うことへのプレッシャーが、組織の柔軟な学習能力を奪ってしまうのである。\n\n近年、世界的な先進企業が相次いで導入しているのが、「心理的安全性」と「脆弱性（バルネラビリティ）の受容」を核とした組織開発である。ここで言う脆弱性とは、単なる能力不足を意味するのではない。自分の知識の限界を認め、「分からない」「助けてほしい」と率直に口にできる勇気のことである。\n\nリーダーが自らの不完全さを隠さず、率直に支援を求める姿を見せるとき、チームのメンバーもまた、失敗への恐怖から解放され、前例のない革新的な挑戦に踏み出すことができる。互いの弱さを補い合い、異なる専門性を掛け合わせる関係性こそが、予測不可能な環境変化を乗り越える「真のレジリエンス（回復力・強靭さ）」を生み出すのだ。自己防衛のための強さを手放し、互いの不完全さを認め合うこと。逆説的ではあるが、そこにこそ未来の組織の持続可能な強さが宿っているのである。",
+    "options": [
+      {
+        "id": "A",
+        "text": "自分の知識の限界を認め、率直に助けを求めたり分からないと言えたりすること。"
+      },
+      {
+        "id": "B",
+        "text": "仕事の納期を破っても悪びれず、他人のせいにして開き直ること。"
+      },
+      {
+        "id": "C",
+        "text": "チームの機密情報を競合他社に漏洩させて、会社の弱みを暴くこと。"
+      },
+      {
+        "id": "D",
+        "text": "失敗した部下を厳しく叱責し、完璧になるまで徹夜で働かせること。"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M13_03",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-LONG",
+    "mondaiTitle": "Mondai 13: 長文読解 (Đọc hiểu trường văn)",
+    "stem": "この文章全体を通じて、筆者が現代の組織において最も重要だと主張している結論は何か。",
+    "contextPassage": "【「弱さ」を認め合う組織の強靭さ】\n近代以降の組織論は、長らく「強さ」と「無謬性（むびゅうせい：過ちを犯さないこと）」を至上命題として掲げてきた。リーダーは常に揺るぎない確信を持ち、部下は弱音を吐かずに与えられた目標を達成する――。このような軍隊的な規律と効率至上主義は、工業化社会において一定の成果を収めたことは確かである。あらかじめ正解が分かっている時代には、指示通りに迅速に動く機械のような組織が最も強かったからだ。\n\nしかし、VUCA（変動性、不確実性、複雑性、曖昧性）と呼ばれる現代の予測困難な社会において、かつての「強固な組織」は脆さを露呈し始めている。失敗や弱みを隠蔽する風土は、重大な不正や事故の温床となり、現場からの率直な警鐘を上層部が握りつぶしてしまう事態を招く。完璧さを装うことへのプレッシャーが、組織の柔軟な学習能力を奪ってしまうのである。\n\n近年、世界的な先進企業が相次いで導入しているのが、「心理的安全性」と「脆弱性（バルネラビリティ）の受容」を核とした組織開発である。ここで言う脆弱性とは、単なる能力不足を意味するのではない。自分の知識の限界を認め、「分からない」「助けてほしい」と率直に口にできる勇気のことである。\n\nリーダーが自らの不完全さを隠さず、率直に支援を求める姿を見せるとき、チームのメンバーもまた、失敗への恐怖から解放され、前例のない革新的な挑戦に踏み出すことができる。互いの弱さを補い合い、異なる専門性を掛け合わせる関係性こそが、予測不可能な環境変化を乗り越える「真のレジリエンス（回復力・強靭さ）」を生み出すのだ。自己防衛のための強さを手放し、互いの不完全さを認め合うこと。逆説的ではあるが、そこにこそ未来の組織の持続可能な強さが宿っているのである。",
+    "options": [
+      {
+        "id": "A",
+        "text": "完璧さを装って弱さを隠し続けるリーダーこそが、最も部下に信頼される。"
+      },
+      {
+        "id": "B",
+        "text": "予測困難な時代を乗り越えるには、互いの不完全さを認め合い補い合う関係性が不可欠だ。"
+      },
+      {
+        "id": "C",
+        "text": "軍隊のような厳しい規律を現代のオフィスにも完全に復活させるべきだ。"
+      },
+      {
+        "id": "D",
+        "text": "チームワークよりも個人の突出した能力を競わせることが唯一の正解だ。"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M14_01",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-INFO",
+    "mondaiTitle": "Mondai 14: 情報検索 (Tra cứu thông tin)",
+    "stem": "この補助金について、申請条件に合致する企業はどれか。",
+    "contextPassage": "【令和8年度 地域中小企業「DX推進補助金」公募案内】\n\n本制度は、市内の中小企業がデジタル技術（ITツール、クラウドシステム、AI等）を導入し、業務効率化や新ビジネス創出を図る経費の一部を支援するものです。\n\n■ 補助対象者：\n市内に本社を有し、1年以上継続して事業を営んでいる中小企業者（製造業、飲食・小売業、サービス業等）。\n※ 市税の滞納がある場合、または過去2年以内に本補助金を受給した企業は対象外。\n\n■ 補助コースと支援内容：\n【一般枠】\n・対象経費：会計・受発注ソフト導入、テレワーク環境整備\n・補助率：対象経費の 1/2 以内\n・補助上限額：50万円（下限額：10万円）\n\n【高度DX枠】\n・対象経費：AI画像認識による検品自動化、IoTセンサーによる生産管理\n・補助率：対象経費の 2/3 以内\n・補助上限額：200万円（下限額：50万円）\n※ 高度DX枠の申請には、専門家（ITコーディネーター等）による事業計画の事前確認書が必須。\n\n■ 申請期間：\n令和8年5月1日（金）〜 6月15日（月）17:00必着\n※ 専用のオンラインポータルサイトより電子申請のみ受付（郵送・持参は不可）。\n\n■ 採択発表：令和8年7月下旬予定",
+    "options": [
+      {
+        "id": "A",
+        "text": "市外に本社があるが、市内に支店を置く創業3年目のIT企業。"
+      },
+      {
+        "id": "B",
+        "text": "市内に本社があり、3年間事業を営んでいて市税の滞納がない製造業者。"
+      },
+      {
+        "id": "C",
+        "text": "市内に本社があるが、昨年度すでに本補助金を50万円受給した飲食店。"
+      },
+      {
+        "id": "D",
+        "text": "市内に本社があり、先月新しく創業したばかりの小売業者。"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M14_02",
+    "examId": "N2-MOCK-02",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-INFO",
+    "mondaiTitle": "Mondai 14: 情報検索 (Tra cứu thông tin)",
+    "stem": "工場で「AI画像認識による検品自動化システム」を総額240万円で導入したい場合、申請方法と補助額の上限はどうなるか。",
+    "contextPassage": "【令和8年度 地域中小企業「DX推進補助金」公募案内】\n\n本制度は、市内の中小企業がデジタル技術（ITツール、クラウドシステム、AI等）を導入し、業務効率化や新ビジネス創出を図る経費の一部を支援するものです。\n\n■ 補助対象者：\n市内に本社を有し、1年以上継続して事業を営んでいる中小企業者（製造業、飲食・小売業、サービス業等）。\n※ 市税の滞納がある場合、または過去2年以内に本補助金を受給した企業は対象外。\n\n■ 補助コースと支援内容：\n【一般枠】\n・対象経費：会計・受発注ソフト導入、テレワーク環境整備\n・補助率：対象経費の 1/2 以内\n・補助上限額：50万円（下限額：10万円）\n\n【高度DX枠】\n・対象経費：AI画像認識による検品自動化、IoTセンサーによる生産管理\n・補助率：対象経費の 2/3 以内\n・補助上限額：200万円（下限額：50万円）\n※ 高度DX枠の申請には、専門家（ITコーディネーター等）による事業計画の事前確認書が必須。\n\n■ 申請期間：\n令和8年5月1日（金）〜 6月15日（月）17:00必着\n※ 専用のオンラインポータルサイトより電子申請のみ受付（郵送・持参は不可）。\n\n■ 採択発表：令和8年7月下旬予定",
+    "options": [
+      {
+        "id": "A",
+        "text": "【一般枠】で郵送申請し、上限50万円の補助を受ける。"
+      },
+      {
+        "id": "B",
+        "text": "【高度DX枠】で専門家の事前確認書を添えて電子申請し、上限160万円（240万の2/3）の補助を受ける。"
+      },
+      {
+        "id": "C",
+        "text": "【高度DX枠】で書類を持参して窓口申請し、一律200万円の補助を受ける。"
+      },
+      {
+        "id": "D",
+        "text": "【一般枠】で電子申請し、総額の全額である240万円の補助を受ける。"
+      }
+    ]
+  },
+  {
+    "id": "N2_02_M1_L01",
+    "examId": "N2-MOCK-02",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-TASK",
+    "mondaiTitle": "Mondai 1: 課題理解 (Hiểu nhiệm vụ - Hành động kế tiếp)",
+    "stem": "男性社員はこの後、まず何をしなければなりませんか。",
+    "contextPassage": "会社のオフィスで、男性社員と女性社員がパソコンの交換作業について話しています。男性社員はこの後、まず何をしなければなりませんか。\n\n男：「山田さん、来週実施される業務パソコンの全社入れ替えの件だけど、事前準備は何をすればいいんだっけ？」\n女：「ええと、まず個人のデスクトップにある業務データやブックマークを、共有サーバーの指定フォルダにバックアップしておく必要があるわ。それから、必要な専門ソフトウェアの再インストール申請書を情報システム部に提出するの。」\n男：「バックアップは昨日の夕方に済ませてあるよ。」\n女：「さすが手際がいいわね。じゃあ申請書ね。実はその申請書の提出締め切りが今日の午後5時までなのよ。これを過ぎると新しいパソコンのセットアップが来週に間に合わなくなるから、何よりも先に申請フォームをオンラインで送ってちょうだい。」\n男：「分かった。古いパソコンの返却用段ボールの受け取りは？」\n女：「それは申請書を出した後、明日の朝に総務部へ取りに行けば大丈夫よ。」\n男：「了解。じゃあ、急いで申請書を作成して送るよ。」",
+    "options": [
+      {
+        "id": "A",
+        "text": "業務データを共有サーバーにバックアップする。"
+      },
+      {
+        "id": "B",
+        "text": "総務部へ行って返却用段ボールを受け取る。"
+      },
+      {
+        "id": "C",
+        "text": "新しいパソコンの初期設定を行う。"
+      },
+      {
+        "id": "D",
+        "text": "専門ソフトの再インストール申請書を提出する。"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_02/N2_02_M1_L01.mp3"
+  },
+  {
+    "id": "N2_02_M1_L02",
+    "examId": "N2-MOCK-02",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-TASK",
+    "mondaiTitle": "Mondai 1: 課題理解 (Hiểu nhiệm vụ - Hành động kế tiếp)",
+    "stem": "女性役員はこの後、まず何をしますか。",
+    "contextPassage": "町内会の事務所で、男性役員と女性役員が来月の防災訓練について話し合っています。女性役員はこの後、まず何をしますか。\n\n男：「来月の合同防災訓練、案内チラシの原稿ができたよ。印刷に回していいかな？」\n女：「確認しますね。……あ、訓練場所が『桜小学校の校庭』になっていますが、雨天時の避難所となる体育館の使用許可はもう学校側から取れていますか？」\n男：「あ、いけない！ 校庭の使用申請は出したが、体育館の空き状況はまだ確認していなかったよ。」\n女：「最近は秋の天候が変わりやすいですし、雨天時に体育館が使えないと訓練計画全体を見直さなければなりません。私が今すぐ小学校の教頭先生に連絡して、体育館の利用可否を確認してきます。」\n男：「ありがとう、助かるよ。体育館が確保できたら、その旨をチラシに追記して印刷を発注しよう。参加賞の非常食の手配は僕がやっておくよ。」\n女：「分かりました。すぐ電話してまいります。」",
+    "options": [
+      {
+        "id": "A",
+        "text": "小学校に連絡して体育館の使用許可を確認する。"
+      },
+      {
+        "id": "B",
+        "text": "防災訓練の案内チラシを印刷所に発注する。"
+      },
+      {
+        "id": "C",
+        "text": "訓練参加者用の非常食の在庫を確認する。"
+      },
+      {
+        "id": "D",
+        "text": "雨天中止の案内文をチラシに追記する。"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_02/N2_02_M1_L02.mp3"
+  },
+  {
+    "id": "N2_02_M1_L03",
+    "examId": "N2-MOCK-02",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-TASK",
+    "mondaiTitle": "Mondai 1: 課題理解 (Hiểu nhiệm vụ - Hành động kế tiếp)",
+    "stem": "大学院生はこの後、すぐに何をしなければなりませんか。",
+    "contextPassage": "大学の研究室で、教授と大学院生が国際シンポジウムの進行について話しています。大学院生はこの後、すぐに何をしなければなりませんか。\n\n男（教授）：「佐藤君、大変だ。基調講演をお願いしているスミス教授の乗った飛行機が、悪天候で到着が2時間遅れると連絡が入った。」\n女（院生）：「えっ、そうしますと午後の最初の講演に間に合いませんね。プログラムの順序を変更しますか？」\n男：「うむ。後半に予定していたパネルディスカッションを先に行い、スミス教授の基調講演を夕方の最終枠にスライドさせよう。パンフレットの刷り直しは間に合わないから、会場前の掲示板に修正スケジュールを貼り出してくれ。」\n女：「承知しました。参加予定の皆様へメールで時間変更の一斉通知を送る必要はありますか？」\n男：「いや、すでに受付を済ませて会場入りしている聴衆が多いから、メールよりもまず館内アナウンスと会場入り口への案内板の設置を最優先で頼む。アナウンス原稿は私が書くから、佐藤君は今すぐ案内板を作ってホール前に立ててきてくれ。」\n女：「かしこまりました。すぐに作成して設置いたします。」",
+    "options": [
+      {
+        "id": "A",
+        "text": "全参加者に時間変更の案内メールを一斉送信する。"
+      },
+      {
+        "id": "B",
+        "text": "会場のホール前に修正スケジュールの案内板を立てる。"
+      },
+      {
+        "id": "C",
+        "text": "館内放送のアナウンス原稿を作成する。"
+      },
+      {
+        "id": "D",
+        "text": "シンポジウムのパンフレットを大至急印刷し直す。"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_02/N2_02_M1_L03.mp3"
+  },
+  {
+    "id": "N2_02_M1_L04",
+    "examId": "N2-MOCK-02",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-TASK",
+    "mondaiTitle": "Mondai 1: 課題理解 (Hiểu nhiệm vụ - Hành động kế tiếp)",
+    "stem": "店員はこの後、まず何をしますか。",
+    "contextPassage": "アパレル店で、店長と女性店員が店内レイアウトの変更について話しています。店員はこの後、まず何をしますか。\n\n女（店長）：「明日から急激に気温が下がる予報だから、エントランス正面の特設コーナーを秋物から冬のダウンコート特集に切り替えたいの。」\n男（店員）：「分かりました。倉庫から今年の新作ダウンジャケットを運んできますね。」\n女：「待って、荷解きをする前に、まず今メイン通路に並んでいる秋物の薄手トレンチコートを奥のセール棚へ移動させて、スペースを空けてちょうだい。通路が塞がっていると大きな段ボールを運び込めないから。」\n男：「そうですね。先に秋物を奥へ下げます。」\n女：「お願いね。スペースが空いたら、新作ダウンの検品と値札付けを二人でやりましょう。マネキンの着せ替えはその後でいいわ。」\n男：「了解しました。すぐ秋物の移動にとりかかります。」",
+    "options": [
+      {
+        "id": "A",
+        "text": "倉庫から新作ダウンジャケットの箱を運び出す。"
+      },
+      {
+        "id": "B",
+        "text": "新作ダウンジャケットに値札を取り付ける。"
+      },
+      {
+        "id": "C",
+        "text": "秋物のコートを奥のセール棚へ移動させて場所を空ける。"
+      },
+      {
+        "id": "D",
+        "text": "店頭マネキンの服を冬物に着せ替える。"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_02/N2_02_M1_L04.mp3"
+  },
+  {
+    "id": "N2_02_M1_L05",
+    "examId": "N2-MOCK-02",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-TASK",
+    "mondaiTitle": "Mondai 1: 課題理解 (Hiểu nhiệm vụ - Hành động kế tiếp)",
+    "stem": "受付スタッフはこの後、来院した患者に対してまず何をしますか。",
+    "contextPassage": "内科クリニックの受付で、看護師と新人受付スタッフが話しています。受付スタッフはこの後、来院した患者に対してまず何をしますか。\n\n女（看護師）：「田中さん、さっき待合室に入られた男性の患者さん、少し顔が赤くて息が荒そうね。」\n男（受付）：「はい、問診票をお渡しして保険証をお預かりしようとしたところです。」\n女：「今の時期はインフルエンザなどの感染症が流行しているから、一般の患者さんと接触させない配慮が必要よ。保険証の登録手続きより前に、まずは体温を測っていただいて、37.5度以上あればすぐに奥の隔離ブースにご案内してちょうだい。」\n男：「分かりました。体温測定ですね。」\n女：「ええ。隔離ブースに入っていただいてから、感染症専用の詳しい問診票を記入してもらいましょう。診察の順番調整は医師に確認して私がやっておくわ。」\n男：「承知いたしました。すぐに体温計を持ってご案内します。」",
+    "options": [
+      {
+        "id": "A",
+        "text": "体温を測り、発熱があれば隔離ブースへ案内する。"
+      },
+      {
+        "id": "B",
+        "text": "保険証を預かってパソコンに保険者番号を入力する。"
+      },
+      {
+        "id": "C",
+        "text": "感染症専用の詳しい問診票を待合室で記入してもらう。"
+      },
+      {
+        "id": "D",
+        "text": "医師に相談して診察の順番を繰り上げる。"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_02/N2_02_M1_L05.mp3"
+  },
+  {
+    "id": "N2_02_M2_L01",
+    "examId": "N2-MOCK-02",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-POIN",
+    "mondaiTitle": "Mondai 2: ポイント理解 (Hiểu điểm mấu chốt - Trích xuất nguyên nhân)",
+    "stem": "会社がキャップの形状を変更した一番の理由は何ですか。",
+    "contextPassage": "飲料メーカーの開発部で、女性デザイナーと男性課長がお茶のボトルの新キャップについて話しています。会社がキャップの形状を変更した一番の理由は何ですか。\n\n女：「課長、来月リニューアル発売する緑茶ボトルの新キャップ、試作品が届きました。」\n男：「おお、これだね。従来のものより少し溝が深くなって、幅もひと回り大きくなっているね。プラスチックの使用量を削減するためだったっけ？」\n女：「いえ、原材料のコスト削減や環境対策も検討されましたが、今回は高齢者のお客様から『指の力が弱くてキャップが固くて開けられない』というご意見が多数寄せられたことが直接の契機です。側面の凹凸を増やして握りやすくすることで、握力が弱くても小さな力でスムーズに開けられるユニバーサルデザインを採用したんです。」\n男：「なるほど。誰にとっても使いやすいのが一番だね。パッケージのロゴ印刷の変更よりずっと意味のある改良だよ。」",
+    "options": [
+      {
+        "id": "A",
+        "text": "プラスチックの使用量を削減して製造コストを下げるため。"
+      },
+      {
+        "id": "B",
+        "text": "新商品のロゴマークをより大きく目立たせるため。"
+      },
+      {
+        "id": "C",
+        "text": "握力が弱い高齢者でも少ない力で容易に開けられるようにするため。"
+      },
+      {
+        "id": "D",
+        "text": "炭酸飲料の強い内圧に耐えられる密閉性を高めるため。"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_02/N2_02_M2_L01.mp3"
+  },
+  {
+    "id": "N2_02_M2_L02",
+    "examId": "N2-MOCK-02",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-POIN",
+    "mondaiTitle": "Mondai 2: ポイント理解 (Hiểu điểm mấu chốt - Trích xuất nguyên nhân)",
+    "stem": "健康プログラムの参加率が大幅に向上した主な理由は何ですか。",
+    "contextPassage": "社内ラジオで、人事部の女性担当者が社員の健康増進施策について話しています。以前は低調だった健康プログラムへの参加率が大幅に上がった決め手は何ですか。\n\n女：「昨年まで実施していた『勤務時間外の健康セミナー』は、参加率が10％前後と伸び悩んでいました。業務終了後にわざわざ残って講義を聞くのは、社員にとって負担が大きかったためです。そこで今年度は、業務時間中の毎朝の朝礼直後に、部署全員でわずか5分間だけ行う『デスクストレッチ』に切り替えました。個人で自主的に参加させるのではなく、日々の業務ルーティンの中に最初から自然に組み込んだこと。これが参加率90％超えを達成した最大の要因です。」",
+    "options": [
+      {
+        "id": "A",
+        "text": "参加した社員にボーナスや金銭的インセンティブを支給したこと。"
+      },
+      {
+        "id": "B",
+        "text": "業務時間内の毎朝の朝礼に5分間の軽い体操を組み込んだこと。"
+      },
+      {
+        "id": "C",
+        "text": "休日に有名スポーツインストラクターを招いて本格講習を開いたこと。"
+      },
+      {
+        "id": "D",
+        "text": "スマートフォンの歩数計アプリで順位を競わせたこと。"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_02/N2_02_M2_L02.mp3"
+  },
+  {
+    "id": "N2_02_M2_L03",
+    "examId": "N2-MOCK-02",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-POIN",
+    "mondaiTitle": "Mondai 2: ポイント理解 (Hiểu điểm mấu chốt - Trích xuất nguyên nhân)",
+    "stem": "職人が述べる、本物の漆器の最も独特な魅力は何ですか。",
+    "contextPassage": "テレビの美術番組で、漆器（しっき）の職人が伝統工芸品の特長についてインタビューに答えています。職人によると、本物の漆器が持つ最も独特な魅力は何ですか。\n\n男（職人）：「現代のプラスチックやウレタン塗装の器は、買った瞬間が一番美しく、使えば使うほど傷がついて劣化していきます。しかし、天然の漆を何層も塗り重ねた本物の漆器は正反対です。空気中の微量な水分を吸収しながら何十年もかけて硬化を続けるため、日々の生活で使い込み、布で拭き込むほどに、内側から透明感のある深い艶が生まれ、色合いが鮮やかさを増していくのです。時間とともに育ち、持ち主の手の温もりとともに輝きを増すことこそが、漆器にしかない唯一無二の魅力ですね。」",
+    "options": [
+      {
+        "id": "A",
+        "text": "ガラスのように完全に透明で、料理の色彩をそのまま透かして見せること。"
+      },
+      {
+        "id": "B",
+        "text": "化学塗料を用いており、熱いスープを入れても一切変形しないこと。"
+      },
+      {
+        "id": "C",
+        "text": "購入直後が最も美しく、長期間保管しても新品の状態を保ち続けること。"
+      },
+      {
+        "id": "D",
+        "text": "長年使い込んで手入れするほどに、内側から深い艶と透明感が増すこと。"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_02/N2_02_M2_L03.mp3"
+  },
+  {
+    "id": "N2_02_M2_L04",
+    "examId": "N2-MOCK-02",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-POIN",
+    "mondaiTitle": "Mondai 2: ポイント理解 (Hiểu điểm mấu chốt - Trích xuất nguyên nhân)",
+    "stem": "「読書コンシェルジュ」が利用者に高く評価されている理由は何ですか。",
+    "contextPassage": "地域のラジオニュースで、市立図書館の新しい案内サービスについてリポーターが伝えています。このサービスが市民に好評な理由は何ですか。\n\n女（リポーター）：「先月から中央図書館で始まった『読書コンシェルジュ』が、本好きの間で大きな話題となっています。これまでの検索機による機械的なキーワード検索とは異なり、司書が利用者の現在の悩みや関心事を丁寧にヒアリングし、数十万冊の蔵書の中からその人にぴったりの3冊を厳選して提案してくれます。自分では思いつきもしなかった意外なジャンルの良書に出会える点が高く評価され、週末の予約枠は常に満席となっています。」",
+    "options": [
+      {
+        "id": "A",
+        "text": "司書が対話を通じて、自分では見つけられない意外な良書を推薦してくれるから。"
+      },
+      {
+        "id": "B",
+        "text": "人工知能の端末がわずか1秒でベストセラー本を検索してくれるから。"
+      },
+      {
+        "id": "C",
+        "text": "一度に借りられる本の冊数がこれまでの3倍に拡大されたから。"
+      },
+      {
+        "id": "D",
+        "text": "自宅までドローンで本を即日配達してくれるサービスがついたから。"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_02/N2_02_M2_L04.mp3"
+  },
+  {
+    "id": "N2_02_M2_L05",
+    "examId": "N2-MOCK-02",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-POIN",
+    "mondaiTitle": "Mondai 2: ポイント理解 (Hiểu điểm mấu chốt - Trích xuất nguyên nhân)",
+    "stem": "会社が完全フレックスタイム制を導入した決定的な理由は何ですか。",
+    "contextPassage": "IT企業で、人事部長が全社に向けた新勤務制度の説明をしています。会社がコアタイムのない完全フレックス制を導入した決定的な理由は何ですか。\n\n男（部長）：「来期より、従来の11時から15時までのコアタイムを撤廃し、完全に勤務時間帯を社員の裁量に委ねる制度へ移行します。通勤ラッシュの回避や育児支援という側面もありますが、経営陣が下した最大の決断理由は『海外拠点とのタイムゾーンの壁の解消』です。欧米やアジアの取引先や開発チームと共同プロジェクトを進める際、従来のコアタイムの制約があると早朝や深夜のミーティングに参加しづらく、業務の遅延が生じていました。世界各国の時差に柔軟に合わせて業務スケジュールを組めるようにすることが、グローバル競争力を高める鍵なのです。」",
+    "options": [
+      {
+        "id": "A",
+        "text": "オフィスの電気代や水道代などの固定維持費を削減するため。"
+      },
+      {
+        "id": "B",
+        "text": "社員全員に必ず毎朝早朝出勤を義務付けるため。"
+      },
+      {
+        "id": "C",
+        "text": "海外拠点との時差に合わせて柔軟にプロジェクトを進めるため。"
+      },
+      {
+        "id": "D",
+        "text": "残業手当の支払いを全額カットして人件費を抑えるため。"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_02/N2_02_M2_L05.mp3"
+  },
+  {
+    "id": "N2_02_M2_L06",
+    "examId": "N2-MOCK-02",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-POIN",
+    "mondaiTitle": "Mondai 2: ポイント理解 (Hiểu điểm mấu chốt - Trích xuất nguyên nhân)",
+    "stem": "医師が推奨している最も確実で効果的な目の疲労予防策は何ですか。",
+    "contextPassage": "健康番組のインタビューで、眼科医がパソコン作業に伴う目の疲れの予防法について解説しています。医師が最も効果的だと推奨する対策は何ですか。\n\n女（医師）：「長時間の画面作業で目がかすんだり頭痛が起きたりする原因は、画面を凝視し続けることでピント調節を司る『毛様体筋』が緊張して固まってしまうことにあります。高価なブルーライトカット眼鏡や目薬を使うことも悪くはありませんが、筋肉の疲労を元から取る最も確実な方法は『20-20-20の法則』です。20分間パソコンを見たら、作業を止めて、20フィート、つまり約6メートル以上離れた遠くの景色を20秒間ぼんやり眺めること。遠くを見ることで目の筋肉の緊張が一気に緩み、疲労の蓄積を防ぐことができるのです。」",
+    "options": [
+      {
+        "id": "A",
+        "text": "高価なブルーライトカット眼鏡を常に2重にかけて作業すること。"
+      },
+      {
+        "id": "B",
+        "text": "20分ごとに作業を止め、6メートル以上遠くの景色を20秒間眺めること。"
+      },
+      {
+        "id": "C",
+        "text": "1時間ごとに市販の強い清涼感のある目薬を大量に点眼すること。"
+      },
+      {
+        "id": "D",
+        "text": "パソコンの画面の明るさを限界まで暗くして作業すること。"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_02/N2_02_M2_L06.mp3"
+  },
+  {
+    "id": "N2_02_M3_L01",
+    "examId": "N2-MOCK-02",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-OUTL",
+    "mondaiTitle": "Mondai 3: 概要理解 (Hiểu đại ý - Độc thoại chủ đề học thuật/xã hội)",
+    "stem": "教授は何について話していますか。",
+    "contextPassage": "大学の環境学の講義で、教授が都市計画と生物多様性について話しています。\n\n男（教授）：「大都市における自然保護というと、広大な森林公園を新しく造成することばかりが議論されがちです。しかし、どれほど広大な公園を作っても、周囲がコンクリートで完全に孤立していれば、鳥や昆虫などの小動物は近親交配が進んで個体数が減少してしまいます。今、生態系保全の現場で最も重視されているのは『エコロジカル・ネットワーク』、すなわち緑の回廊の形成です。街路樹を連続させたり、河川敷の草地を残したり、ビルの屋上やベランダに緑化スポットを飛び石のように配置すること。これにより、生き物が街全体を自由に移動できるようになり、都市全体の生態系の豊かさが維持されるのです。」",
+    "options": [
+      {
+        "id": "A",
+        "text": "孤立した大規模公園よりも、緑を回廊状につなぐネットワークが生態系維持に不可欠であること。"
+      },
+      {
+        "id": "B",
+        "text": "都市のコンクリート建築物をすべて解体して原生林へと戻す環境再生の手法。"
+      },
+      {
+        "id": "C",
+        "text": "河川敷の雑草をすべて刈り取って近代的な運動公園を造成する計画。"
+      },
+      {
+        "id": "D",
+        "text": "街路樹に集まる害虫を駆除するための最新の化学薬品の散布方法。"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_02/N2_02_M3_L01.mp3"
+  },
+  {
+    "id": "N2_02_M3_L02",
+    "examId": "N2-MOCK-02",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-OUTL",
+    "mondaiTitle": "Mondai 3: 概要理解 (Hiểu đại ý - Độc thoại chủ đề học thuật/xã hội)",
+    "stem": "専門家が最も主張したいことは何ですか。",
+    "contextPassage": "ラジオの経済解説番組で、専門家が消費者の購買心理について話しています。\n\n女（専門家）：「レストランのランチメニューで、2,000円のAランチと1,200円のBランチの2種類だけだと、多くの人は割安な1,200円のBを選びがちです。ところが、ここに新たに3,500円の超豪華な『特選プレミアムランチ』を加えると、不思議な現象が起きます。最も高額な3,500円のメニューはほとんど売れないにもかかわらず、これまで敬遠されていた2,000円のAランチの売れ行きが急激に跳ね上がるのです。これは行動経済学で『おとり効果』と呼ばれる現象です。人間は絶対的な価値ではなく、提示された選択肢の中での『極端の回避』、つまり高すぎず安すぎない無難な中間を選びたくなる心理を持っています。企業はこの心理を巧みに活用して、売りたい価格帯へ消費者を誘導しているのです。」",
+    "options": [
+      {
+        "id": "A",
+        "text": "レストランは最も高価な料理を看板商品として大量に仕入れるべきであること。"
+      },
+      {
+        "id": "B",
+        "text": "消費者は常に最も安い商品だけを選び続けるという絶対的な法則があること。"
+      },
+      {
+        "id": "C",
+        "text": "豪華な料理の写真を見せるだけで客の食欲を何倍にも増進させられること。"
+      },
+      {
+        "id": "D",
+        "text": "人間には極端を避けて中間を選ぶ心理があり、企業はあえて高い選択肢を置いて本命の商品へ誘導していること。"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_02/N2_02_M3_L02.mp3"
+  },
+  {
+    "id": "N2_02_M3_L03",
+    "examId": "N2-MOCK-02",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-OUTL",
+    "mondaiTitle": "Mondai 3: 概要理解 (Hiểu đại ý - Độc thoại chủ đề học thuật/xã hội)",
+    "stem": "学芸員は日本建築のどのような特質を強調していますか。",
+    "contextPassage": "美術館の講演会で、建築史の学芸員が伝統的な日本家屋の特質について話しています。\n\n男（学芸員）：「西洋の伝統的な石造り建築では、壁は建物の重みを支える構造体であり、部屋と部屋は重厚な壁とドアによって厳格に遮断されています。一度作られた空間は固定され、用途を変更することは容易ではありません。一方、柱と梁で支える木造の日本建築では、空間を仕切る『襖（ふすま）』や『障子（しょうじ）』は構造上の壁ではなく、取り外し自在な装置にすぎません。襖を閉めれば独立した私室となり、取り払えば大勢が集まる大広間へと一瞬で変貌します。外部の自然との境界も雨戸を開け放てば庭と一体化する。固定的な境界を持たず、生活の場面に応じて空間を伸縮させる柔軟性こそが、日本建築の最大の知恵なのです。」",
+    "options": [
+      {
+        "id": "A",
+        "text": "地震や台風に耐えるために西洋の石造り工法を忠実に模倣したこと。"
+      },
+      {
+        "id": "B",
+        "text": "襖や障子によって空間の境界を固定せず、用途に応じて柔軟に変化させられること。"
+      },
+      {
+        "id": "C",
+        "text": "プライバシーを守るために頑丈な防音壁で部屋を完全に密閉したこと。"
+      },
+      {
+        "id": "D",
+        "text": "木材の腐食を防ぐために一年中雨戸を閉め切って生活していたこと。"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_02/N2_02_M3_L03.mp3"
+  },
+  {
+    "id": "N2_02_M3_L04",
+    "examId": "N2-MOCK-02",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-OUTL",
+    "mondaiTitle": "Mondai 3: 概要理解 (Hiểu đại ý - Độc thoại chủ đề học thuật/xã hội)",
+    "stem": "コンサルタントは何が組織の成功に最も重要だと主張していますか。",
+    "contextPassage": "経営セミナーで、組織論のコンサルタントがチームの生産性向上について講演しています。\n\n女（コンサルタント）：「優れた能力を持つ人材を集めたにもかかわらず、新規事業で成果を出せないチームが後を絶ちません。その根本原因を突き詰めると、組織内の『心理的安全性』の欠如に行き着きます。心理的安全性とは、無知や失敗を恐れずに自分の意見や疑問を率直に口にできる安心感のことです。これが欠けていると、メンバーはミスを隠蔽し、上司の顔色をうかがって当たり障りのない提案しかしなくなります。小さな違和感や失敗を早期に共有し、互いに建設的に議論できる文化があるチームほど、変化への適応スピードが速く、最終的に革新的な成果を生み出すことができるのです。」",
+    "options": [
+      {
+        "id": "A",
+        "text": "社員同士の私的な会話を一切禁じて、業務効率を極限まで高めること。"
+      },
+      {
+        "id": "B",
+        "text": "失敗した社員に対して厳しい懲戒処分を科して、緊張感を維持すること。"
+      },
+      {
+        "id": "C",
+        "text": "失敗や疑問を恐れずに率直に発言できる「心理的安全性」を職場に醸成すること。"
+      },
+      {
+        "id": "D",
+        "text": "すべての判断をAIのアルゴリズムに任せ、人間の感情を排除すること。"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_02/N2_02_M3_L04.mp3"
+  },
+  {
+    "id": "N2_02_M3_L05",
+    "examId": "N2-MOCK-02",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-OUTL",
+    "mondaiTitle": "Mondai 3: 概要理解 (Hiểu đại ý - Độc thoại chủ đề học thuật/xã hội)",
+    "stem": "研究者は発酵技術についてどのような点を強調していますか。",
+    "contextPassage": "食品科学のシンポジウムで、研究者が発酵技術の新たな可能性について報告しています。\n\n男（研究者）：「世界的な食糧問題と環境負荷の増大を背景に、食品廃棄物の削減が急務となっています。従来、野菜の芯や皮、酒造りの過程で出る酒粕などは、その多くが産業廃棄物として焼却処分されてきました。しかし近年、日本の伝統的な麹菌や乳酸菌を用いた先端バイオ技術により、これら未利用資源を劇的に価値あるものへと転換する研究が進んでいます。廃棄されていた端材に微生物を作用させることで、濃厚なうま味成分を持つ機能性調味料や、家畜の免疫力を高める高栄養飼料へとアップサイクルできるのです。発酵は単なる食品保存の知恵にとどまらず、持続可能な食の循環を生み出す最先端の環境技術なのです。」",
+    "options": [
+      {
+        "id": "A",
+        "text": "廃棄されていた食品残渣を発酵によって高価値な調味料や飼料へ再生できること。"
+      },
+      {
+        "id": "B",
+        "text": "すべての食品残渣を直ちに埋め立て処分することが最も環境に優しいこと。"
+      },
+      {
+        "id": "C",
+        "text": "化学調味料の製造コストを下げるために麹菌を海外から大量輸入すること。"
+      },
+      {
+        "id": "D",
+        "text": "伝統的な日本酒の醸造において手作業の工程をすべてロボット化すること。"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_02/N2_02_M3_L05.mp3"
+  },
+  {
+    "id": "N2_02_M4_L01",
+    "examId": "N2-MOCK-02",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-RESP",
+    "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - 3 lựa chọn nghe)",
+    "stem": "発話と返事を聞いて、１から３の中から、最もよいものを一つ選んでください。",
+    "contextPassage": "【音声発話】\n「田中部長、先ほどの会議の議事録を作成したのですが、目を通していただけないでしょうか。」\n\n【返事の選択肢】\n1. ええ、もう会議は始まっているよ。\n2. 分かった、机の上に置いておいてくれたまえ。\n3. いえ、私の目は通っていませんよ。",
+    "options": [
+      {
+        "id": "A",
+        "text": "１番"
+      },
+      {
+        "id": "B",
+        "text": "２番"
+      },
+      {
+        "id": "C",
+        "text": "３番"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_02/N2_02_M4_L01.mp3"
+  },
+  {
+    "id": "N2_02_M4_L02",
+    "examId": "N2-MOCK-02",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-RESP",
+    "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - 3 lựa chọn nghe)",
+    "stem": "発話と返事を聞いて、１から３の中から、最もよいものを一つ選んでください。",
+    "contextPassage": "【音声発話】\n「プレゼンのリハーサル、もう少し時間をかけておくべきだったね。」\n\n【返事の選択肢】\n1. おっしゃる通りです。準備不足を痛感しました。\n2. ええ、時間をかけすぎて飽きてしまいました。\n3. いえ、明日リハーサルを始める予定です。",
+    "options": [
+      {
+        "id": "A",
+        "text": "１番"
+      },
+      {
+        "id": "B",
+        "text": "２番"
+      },
+      {
+        "id": "C",
+        "text": "３番"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_02/N2_02_M4_L02.mp3"
+  },
+  {
+    "id": "N2_02_M4_L03",
+    "examId": "N2-MOCK-02",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-RESP",
+    "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - 3 lựa chọn nghe)",
+    "stem": "発話と返事を聞いて、１から３の中から、最もよいものを一つ選んでください。",
+    "contextPassage": "【音声発話】\n「恐れ入りますが、こちらの書類にお名前をご記入願えますか。」\n\n【返事の選択肢】\n1. はい、どうぞご自由にお書きください。\n2. いいえ、名前は知っていますよ。\n3. はい、この欄に書けばよろしいでしょうか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "１番"
+      },
+      {
+        "id": "B",
+        "text": "２番"
+      },
+      {
+        "id": "C",
+        "text": "３番"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_02/N2_02_M4_L03.mp3"
+  },
+  {
+    "id": "N2_02_M4_L04",
+    "examId": "N2-MOCK-02",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-RESP",
+    "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - 3 lựa chọn nghe)",
+    "stem": "発話と返事を聞いて、１から３の中から、最もよいものを一つ選んでください。",
+    "contextPassage": "【音声発話】\n「明日の課の歓送迎会、山田さんも顔を出せそう？」\n\n【返事の選択肢】\n1. ええ、顔を洗ってから行きますね。\n2. あいにく先約がありまして、今回は遠慮させてください。\n3. はい、顔がとても広いですからね。",
+    "options": [
+      {
+        "id": "A",
+        "text": "１番"
+      },
+      {
+        "id": "B",
+        "text": "２番"
+      },
+      {
+        "id": "C",
+        "text": "３番"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_02/N2_02_M4_L04.mp3"
+  },
+  {
+    "id": "N2_02_M4_L05",
+    "examId": "N2-MOCK-02",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-RESP",
+    "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - 3 lựa chọn nghe)",
+    "stem": "発話と返事を聞いて、１から３の中から、最もよいものを一つ選んでください。",
+    "contextPassage": "【音声発話】\n「この大規模なプロジェクト、新人の佐藤さん一人に任せるのは荷が重すぎないか。」\n\n【返事の選択肢】\n1. おっしゃる通りです。先輩社員をサポートにつけましょう。\n2. はい、段ボールの荷物が重すぎて運べません。\n3. いえ、佐藤さんは一人で十分満足しているはずです。",
+    "options": [
+      {
+        "id": "A",
+        "text": "１番"
+      },
+      {
+        "id": "B",
+        "text": "２番"
+      },
+      {
+        "id": "C",
+        "text": "３番"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_02/N2_02_M4_L05.mp3"
+  },
+  {
+    "id": "N2_02_M4_L06",
+    "examId": "N2-MOCK-02",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-RESP",
+    "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - 3 lựa chọn nghe)",
+    "stem": "発話と返事を聞いて、１から３の中から、最もよいものを一つ選んでください。",
+    "contextPassage": "【音声発話】\n「せっかく遠くまで足を運んでいただいたのに、お役に立てず申し訳ありません。」\n\n【返事の選択肢】\n1. ええ、足がとても疲れましたよ。\n2. いえ、二度と来ることはありません。\n3. とんでもないです。詳しいお話を伺えただけでも有意義でした。",
+    "options": [
+      {
+        "id": "A",
+        "text": "１番"
+      },
+      {
+        "id": "B",
+        "text": "２番"
+      },
+      {
+        "id": "C",
+        "text": "３番"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_02/N2_02_M4_L06.mp3"
+  },
+  {
+    "id": "N2_02_M4_L07",
+    "examId": "N2-MOCK-02",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-RESP",
+    "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - 3 lựa chọn nghe)",
+    "stem": "発話と返事を聞いて、１から３の中から、最もよいものを一つ選んでください。",
+    "contextPassage": "【音声発話】\n「先輩、昨日お貸しした参考資料、もうご覧になりましたでしょうか。」\n\n【返事の選択肢】\n1. うん、君に見せてあげるよ。\n2. ああ、急ぎの仕事が入ってまだ読めてないんだ。今日中に目を通すよ。\n3. はい、私が資料を貸してあげました。",
+    "options": [
+      {
+        "id": "A",
+        "text": "１番"
+      },
+      {
+        "id": "B",
+        "text": "２番"
+      },
+      {
+        "id": "C",
+        "text": "３番"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_02/N2_02_M4_L07.mp3"
+  },
+  {
+    "id": "N2_02_M4_L08",
+    "examId": "N2-MOCK-02",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-RESP",
+    "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - 3 lựa chọn nghe)",
+    "stem": "発話と返事を聞いて、１から３の中から、最もよいものを一つ選んでください。",
+    "contextPassage": "【音声発話】\n「課長、企画案の提出期限ですが、週明けの月曜まで延ばしていただけないでしょうか。」\n\n【返事の選択肢】\n1. うーん、月曜の朝一番に出せるなら構わないよ。\n2. ええ、もう月曜日が過ぎてしまいましたよ。\n3. はい、期限を早めて提出してください。",
+    "options": [
+      {
+        "id": "A",
+        "text": "１番"
+      },
+      {
+        "id": "B",
+        "text": "２番"
+      },
+      {
+        "id": "C",
+        "text": "３番"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_02/N2_02_M4_L08.mp3"
+  },
+  {
+    "id": "N2_02_M4_L09",
+    "examId": "N2-MOCK-02",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-RESP",
+    "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - 3 lựa chọn nghe)",
+    "stem": "発話と返事を聞いて、１から３の中から、最もよいものを一つ選んでください。",
+    "contextPassage": "【音声発話】\n「駅前に新しくできたパン屋さん、夕方にはいつも完売しちゃうんだって。」\n\n【返事の選択肢】\n1. そうなんだ。じゃあ夕方遅くに行ってみようか。\n2. へえ、そんなに人気ならお昼休みに買いに行ってみようかな。\n3. うん、売れ残って困っているらしいね。",
+    "options": [
+      {
+        "id": "A",
+        "text": "１番"
+      },
+      {
+        "id": "B",
+        "text": "２番"
+      },
+      {
+        "id": "C",
+        "text": "３番"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_02/N2_02_M4_L09.mp3"
+  },
+  {
+    "id": "N2_02_M4_L10",
+    "examId": "N2-MOCK-02",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-RESP",
+    "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - 3 lựa chọn nghe)",
+    "stem": "発話と返事を聞いて、１から３の中から、最もよいものを一つ選んでください。",
+    "contextPassage": "【音声発話】\n「来期からの海外支社への転勤の打診、引き受けて本当に後悔はないの？」\n\n【返事の選択肢】\n1. ええ、後悔ばかりで毎日憂鬱です。\n2. はい、国内勤務に留まることにしました。\n3. はい。自分自身のキャリアを広げる絶好の挑戦だと思っています。",
+    "options": [
+      {
+        "id": "A",
+        "text": "１番"
+      },
+      {
+        "id": "B",
+        "text": "２番"
+      },
+      {
+        "id": "C",
+        "text": "３番"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_02/N2_02_M4_L10.mp3"
+  },
+  {
+    "id": "N2_02_M4_L11",
+    "examId": "N2-MOCK-02",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-RESP",
+    "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - 3 lựa chọn nghe)",
+    "stem": "発話と返事を聞いて、１から３の中から、最もよいものを一つ選んでください。",
+    "contextPassage": "【音声発話】\n「部長、本日発熱があり体調が優れないため、大変恐縮ですがお休みをいただきたいのですが。」\n\n【返事の選択肢】\n1. それは心配だね。業務のことは気にせず、今日はしっかり療養しなさい。\n2. はい、私が代わりに休みを取ってあげましょう。\n3. ええ、遠慮なく会社に来て仕事してください。",
+    "options": [
+      {
+        "id": "A",
+        "text": "１番"
+      },
+      {
+        "id": "B",
+        "text": "２番"
+      },
+      {
+        "id": "C",
+        "text": "３番"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_02/N2_02_M4_L11.mp3"
+  },
+  {
+    "id": "N2_02_M5_L01",
+    "examId": "N2-MOCK-02",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-INTE",
+    "mondaiTitle": "Mondai 5: 統合理解 (Hiểu tổng hợp — Đối chiếu nhiều điều kiện)",
+    "stem": "必須条件をすべて満たし、2人が最終的に予約することにした会議室はどれですか。",
+    "contextPassage": "会社の総務人事部で、男性社員と女性課長が来月の新任リーダー研修の会場選びについて相談しています。\n\n男：「課長、来月実施予定のリーダー研修ですが、社内の会議室が改装工事で使えないため、外部の貸し会議室を探しました。条件に合いそうな候補が4つあります。」\n女：「そうね。参加者は30名で、予算は半日で税込み12万円以内だったわね。研修の内容は講義だけじゃなく、5人ずつのグループワークを何度も行うから、机や椅子を自由に動かせるレイアウト変更が可能な部屋であることが必須条件よ。それから、全員が持参したノートPCでオンライン演習をするから、大容量のWi-Fiが安定してつながることも絶対に譲れないわ。」\n男：「はい、承知しています。まず【1番のグランドホール】です。格式が高く設備も最新ですが、座席が固定式の階段シアター形式になっていて机が動かせません。料金は半日10万円です。」\n女：「固定席だとグループディスカッションができないから、いくら安くても無理ね。」\n男：「次に【2番のステーションプラザ】。駅から徒歩3分でアクセス抜群です。キャスター付きの可動式デスクで島型レイアウトに自由に変更できます。専有の高速光Wi-Fi完備で、料金は半日11万円と予算内です。」\n女：「いいわね！ 3番と4番はどう？」\n男：「【3番のグリーンガーデン】は緑が見える静かな環境で、可動式デスクもあり半日8万円と一番安いです。ただ、駅からバスで20分かかり、Wi-Fiは建物の共用回線で大人数の同時接続には不安があります。最後に【4番のテックベイ】。最新の高速Wi-Fiと可動式デスクを備えていますが、半日で14万円と予算オーバーです。」\n女：「なるほどね。ネット回線が不安定だと研修自体がストップしてしまうし、やっぱり条件をすべてクリアしているあの部屋で決定しましょう。すぐに予約手続きを取ってちょうだい。」\n男：「分かりました。ではそちらを押さえます。」",
+    "options": [
+      {
+        "id": "A",
+        "text": "1番のグランドホール"
+      },
+      {
+        "id": "B",
+        "text": "2番のステーションプラザ"
+      },
+      {
+        "id": "C",
+        "text": "3番のグリーンガーデン"
+      },
+      {
+        "id": "D",
+        "text": "4番のテックベイ"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_02/N2_02_M5_L01.mp3"
+  },
+  {
+    "id": "N2_02_M5_L02",
+    "examId": "N2-MOCK-02",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-INTE",
+    "mondaiTitle": "Mondai 5: 統合理解 (Hiểu tổng hợp — Phân tích lý do loại trừ)",
+    "stem": "女性課長が1番の会議室を即座に却下した決定的な理由は何ですか。",
+    "contextPassage": "会社の総務人事部で、男性社員と女性課長が来月の新任リーダー研修の会場選びについて相談しています。\n\n男：「課長、来月実施予定のリーダー研修ですが、社内の会議室が改装工事で使えないため、外部の貸し会議室を探しました。条件に合いそうな候補が4つあります。」\n女：「そうね。参加者は30名で、予算は半日で税込み12万円以内だったわね。研修の内容は講義だけじゃなく、5人ずつのグループワークを何度も行うから、机や椅子を自由に動かせるレイアウト変更が可能な部屋であることが必須条件よ。それから、全員が持参したノートPCでオンライン演習をするから、大容量のWi-Fiが安定してつながることも絶対に譲れないわ。」\n男：「はい、承知しています。まず【1番のグランドホール】です。格式が高く設備も最新ですが、座席が固定式の階段シアター形式になっていて机が動かせません。料金は半日10万円です。」\n女：「固定席だとグループディスカッションができないから、いくら安くても無理ね。」\n男：「次に【2番のステーションプラザ】。駅から徒歩3分でアクセス抜群です。キャスター付きの可動式デスクで島型レイアウトに自由に変更できます。専有の高速光Wi-Fi完備で、料金は半日11万円と予算内です。」\n女：「いいわね！ 3番と4番はどう？」\n男：「【3番のグリーンガーデン】は緑が見える静かな環境で、可動式デスクもあり半日8万円と一番安いです。ただ、駅からバスで20分かかり、Wi-Fiは建物の共用回線で大人数の同時接続には不安があります。最後に【4番のテックベイ】。最新の高速Wi-Fiと可動式デスクを備えていますが、半日で14万円と予算オーバーです。」\n女：「なるほどね。ネット回線が不安定だと研修自体がストップしてしまうし、やっぱり条件をすべてクリアしているあの部屋で決定しましょう。すぐに予約手続きを取ってちょうだい。」\n男：「分かりました。ではそちらを押さえます。」",
+    "options": [
+      {
+        "id": "A",
+        "text": "座席が固定式で、グループワーク用の配置に変更できないから。"
+      },
+      {
+        "id": "B",
+        "text": "利用料金が予算の12万円を大幅に超えているから。"
+      },
+      {
+        "id": "C",
+        "text": "インターネットのWi-Fi設備がまったく導入されていないから。"
+      },
+      {
+        "id": "D",
+        "text": "駅から遠く、バスに乗らなければたどり着けないから。"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_02/N2_02_M5_L02.mp3"
+  },
+  {
+    "id": "N2_02_M5_L03",
+    "examId": "N2-MOCK-02",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-INTE",
+    "mondaiTitle": "Mondai 5: 統合理解 (Hiểu tổng hợp — So sánh tính năng sản phẩm)",
+    "stem": "条件を総合的に考慮して、2人が購入することにしたコーヒーメーカーはどれですか。",
+    "contextPassage": "オフィスの給湯室で、総務部の男性社員と女性社員が新しく購入する共用コーヒーメーカーについて話しています。\n\n男：「部署のみんなから要望が出ていた新しいコーヒーメーカー、予算5万円以内で4つのモデルを比較してみたよ。」\n女：「助かるわ。毎朝20人以上が一斉に飲むから、一度に最低でも10杯分は抽出できる大容量タイプじゃないと困るわね。それから一番大事なのは毎日の手入れの簡単さよ。ミルクのノズルや複雑な配管があると、毎日分解して薬品洗浄するのが大変で誰も手入れしなくなっちゃうから。」\n男：「そうだね。まず【1番の全自動カプチーノ機】。本格的なミルク泡立て機能付きで4万8,000円。ただ、一度に1杯ずつしか淹れられず、ミルク配管の毎日の分解清掃が必須なんだ。」\n女：「それは朝の混雑時に大行列ができるし、手入れが面倒で絶対に放置されるわね。」\n男：「【2番の大容量ドリップ式】は、一度に12杯抽出できて、真空ステンレス魔法瓶ポットに直接保温されるから煮詰まらない。フィルター容器は丸洗いできてミルク配管もないから、水洗いだけで済むよ。価格は4万2,000円。」\n女：「まさに理想的じゃない！ 3番と4番は？」\n男：「【3番のカプセル式】は3万円で手入れは最も楽だけど、専用カプセル代が1杯100円かかって毎月のランニングコストが高すぎる。【4番の本格エスプレッソ機】は6万5,000円で予算オーバーだ。」\n女：「となると、容量も十分で手入れが一番手軽で、予算にも収まるあの一択ね。」\n男：「よし、じゃあそのモデルを発注するよ。」",
+    "options": [
+      {
+        "id": "A",
+        "text": "1番の全自動カプチーノ機"
+      },
+      {
+        "id": "B",
+        "text": "2番の大容量ドリップ式"
+      },
+      {
+        "id": "C",
+        "text": "3番のカプセル式"
+      },
+      {
+        "id": "D",
+        "text": "4番の本格エスプレッソ機"
+      }
+    ],
+    "audioUrl": "audio/n2_mock_02/N2_02_M5_L03.mp3"
+  }
+]

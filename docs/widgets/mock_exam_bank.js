@@ -1990,7 +1990,7 @@ window.JP_MOCK_DATA = {
           "options": [
             {
               "id": "A",
-              "text": "ばかりか"
+              "text": "反面"
             },
             {
               "id": "B",
@@ -2005,12 +2005,12 @@ window.JP_MOCK_DATA = {
               "text": "どころか"
             }
           ],
-          "correctAnswer": "D",
-          "explanationVi": "〜どころか（đâu chỉ dừng lại ở... mà còn tới mức...）: 英語どころか (đâu chỉ tiếng Anh, mà tiếng Pháp hay tiếng Trung anh ấy cũng nói lưu loát).",
+          "correctAnswer": "C",
+          "explanationVi": "〜のみならず: Không chỉ N mà còn... (văn viết trang trọng mang tính liệt kê mở rộng năng lực/phạm vi: 英語のみならず - không chỉ tiếng Anh mà cả tiếng Pháp hay tiếng Trung anh ấy cũng nói lưu loát).",
           "distractorExplanations": {
-            "A": "〜ばかりか: Không những mà còn... (nhưng đằng sau thường đi với も hoặc bổ sung thông thường, không mạnh mẽ như どころか khi so tài năng vượt bậc).",
+            "A": "〜反面: Mặt khác, trái lại (chỉ hai mặt tính chất đối lập của cùng một sự vật, không dùng trong ngữ cảnh liệt kê năng lực này).",
             "B": "〜どころではなく: Không phải lúc để làm gì (ví dụ: 忙しくて旅行どころではない).",
-            "C": "〜のみならず: Không chỉ A mà cả B (văn viết trang trọng, nhưng để diễn tả sự kinh ngạc đối lập mức độ thì どころか chuẩn xác hơn)."
+            "D": "〜どころか: Đâu chỉ dừng lại ở... mà thậm chí còn tệ hơn/ngược lại (thường đi với vế sau phủ định hoặc tính chất trái ngược tiêu cực, không dùng cho vế khẳng định tích cực bổ sung như 流暢に操る)."
           },
           "difficultyEstimate": 2,
           "conceptId": "grammar-forms",
@@ -2248,7 +2248,7 @@ window.JP_MOCK_DATA = {
           "options": [
             {
               "id": "A",
-              "text": "一方"
+              "text": "に反して"
             },
             {
               "id": "B",
@@ -2256,7 +2256,7 @@ window.JP_MOCK_DATA = {
             },
             {
               "id": "C",
-              "text": "反して"
+              "text": "反対に"
             },
             {
               "id": "D",
@@ -2266,9 +2266,9 @@ window.JP_MOCK_DATA = {
           "correctAnswer": "D",
           "explanationVi": "〜反面（trái lại, nhưng ngược lại tồn tại song song mặt tiêu cực）: Đi kèm tính từ な: 便利な反面 (tiện lợi nhưng mặt trái là chi phí sinh hoạt đắt đỏ).",
           "distractorExplanations": {
-            "A": "〜一方: Một mặt... mặt khác (nếu dùng 一方 thì vế sau thường bổ sung mặt khác cùng chiều hoặc song song, cấu trúc 反面 chuẩn xác hơn khi đối lập trực diện ưu - nhược).",
+            "A": "〜に反して: Trái với (kỳ vọng, dự đoán: 予想に反して), không dùng bổ nghĩa cho tính từ な.",
             "B": "半面: Viết sai chính tả chữ 反 thành 半.",
-            "C": "反して: Đi với trợ từ に (〜に反して: trái ngược với dự đoán)."
+            "C": "反対に: Phó từ đứng độc lập (ngược lại), không kết hợp với 便利な thành 便利な反対に."
           },
           "difficultyEstimate": 2,
           "conceptId": "grammar-forms",
@@ -2291,7 +2291,7 @@ window.JP_MOCK_DATA = {
           "options": [
             {
               "id": "A",
-              "text": "をとわず"
+              "text": "をよそに"
             },
             {
               "id": "B",
@@ -2309,7 +2309,7 @@ window.JP_MOCK_DATA = {
           "correctAnswer": "D",
           "explanationVi": "〜にかかわらず（bất kể, không phân biệt）: Thường đi với các cặp đối lập như 有無 (có hay không), 善悪 (tốt hay xấu), 天候 (thời tiết). 経験の有無にかかわらず.",
           "distractorExplanations": {
-            "A": "をとわず: Viết sai trợ từ (thành ngữ đúng là を問わず, nhưng ở đây có 有無 nên đi với にかかわらず).",
+            "A": "〜をよそに: Bất chấp, phớt lờ dư luận hay mối lo ngại xung quanh (ví dụ: 親の心配をよそに), không đi với 有無.",
             "B": "にもかかわらず: Mặc dù... nhưng (chỉ sự nhượng bộ bất ngờ, ví dụ: 雨にもかかわらず).",
             "C": "をかねて: Kết hợp 2 mục đích (ví dụ: 散歩をかねて買い物に行く)."
           },
@@ -5963,7 +5963,7 @@ window.JP_MOCK_DATA = {
             },
             {
               "id": "B",
-              "text": "しょぼしょぼ"
+              "text": "ぞくぞく"
             },
             {
               "id": "C",
@@ -5971,15 +5971,15 @@ window.JP_MOCK_DATA = {
             },
             {
               "id": "D",
-              "text": "ぞくぞく"
+              "text": "しょぼしょぼ"
             }
           ],
-          "correctAnswer": "B",
+          "correctAnswer": "D",
           "explanationVi": "しょぼしょぼ: (Mắt) cay xè, mỏi mệt chớp liên tục không mở to được do thiếu ngủ hoặc nhìn màn hình vi tính lâu.",
           "distractorExplanations": {
             "A": "さらさら: Mượt mà, róc rách (tóc mượt, suối chảy).",
-            "C": "すらすら: Trôi chảy, vanh vách (trả lời trôi chảy, đọc vanh vách).",
-            "D": "ぞくぞく: Run rẩy vì sốt rét hoặc rùng mình hồi hộp."
+            "B": "ぞくぞく: Run rẩy vì sốt rét hoặc rùng mình hồi hộp.",
+            "C": "すらすら: Trôi chảy, vanh vách (trả lời trôi chảy, đọc vanh vách)."
           },
           "difficultyEstimate": 2,
           "status": "QA_VERIFIED"
@@ -6029,11 +6029,11 @@ window.JP_MOCK_DATA = {
           "options": [
             {
               "id": "A",
-              "text": "大層"
+              "text": "大幅に"
             },
             {
               "id": "B",
-              "text": "大幅に"
+              "text": "大層"
             },
             {
               "id": "C",
@@ -6044,10 +6044,10 @@ window.JP_MOCK_DATA = {
               "text": "大げさに"
             }
           ],
-          "correctAnswer": "B",
+          "correctAnswer": "A",
           "explanationVi": "大幅に（おおはばに）: Một cách đáng kể, trên quy mô lớn (thay đổi lịch trình, tăng giảm giá cả). Đi cùng 乱れる (rối loạn nghiêm trọng).",
           "distractorExplanations": {
-            "A": "大層（たいそう）: Rất, vô cùng (thường dùng trong văn nói cổ hoặc ngạc nhiên: 大層なごちそう).",
+            "B": "大層（たいそう）: Rất, vô cùng (thường dùng trong văn nói cổ hoặc ngạc nhiên: 大層なごちそう).",
             "C": "大まかに（おおまかに）: Đại khái, sơ lược, chung chung (大まかに説明する).",
             "D": "大げさに（おおげさに）: Nói quá, làm quá, phóng đại lên (大げさに話す)."
           },
@@ -6068,7 +6068,7 @@ window.JP_MOCK_DATA = {
             },
             {
               "id": "B",
-              "text": "綿密"
+              "text": "寛大"
             },
             {
               "id": "C",
@@ -6076,15 +6076,15 @@ window.JP_MOCK_DATA = {
             },
             {
               "id": "D",
-              "text": "寛大"
+              "text": "綿密"
             }
           ],
-          "correctAnswer": "B",
+          "correctAnswer": "D",
           "explanationVi": "綿密（めんみつ - MIÊN MẬT）: Tỉ mỉ, chi tiết, kỹ lưỡng không có kẽ hở logic (綿密な計画, 綿密な調査).",
           "distractorExplanations": {
             "A": "厳重（げんじゅう - NGHIÊM TRỌNG）: Nghiêm ngặt, cẩn mật (phòng ngự nghiêm ngặt: 厳重に警備する).",
-            "C": "粗末（そまつ - THÔ MẠT）: Sơ sài, tồi tàn, coi thường (粗末にする).",
-            "D": "寛大（かんだい - KHOAN ĐẠI）: Rộng lượng, bao dung với lỗi lầm người khác."
+            "B": "寛大（かんだい - KHOAN ĐẠI）: Rộng lượng, bao dung với lỗi lầm người khác.",
+            "C": "粗末（そまつ - THÔ MẠT）: Sơ sài, tồi tàn, coi thường (粗末にする)."
           },
           "difficultyEstimate": 2,
           "status": "QA_VERIFIED"
@@ -6130,7 +6130,7 @@ window.JP_MOCK_DATA = {
           "skill": "Vocabulary",
           "typeId": "N2-MO-CONT",
           "mondaiTitle": "Mondai 4: 文脈規定",
-          "stem": "初対面の相手にも（　　）と挨拶ができる人は、第一印象が良い。",
+          "stem": "初対面の相手にも（　　）に挨拶ができる人は、第一印象が良い。",
           "options": [
             {
               "id": "A",
@@ -6173,7 +6173,7 @@ window.JP_MOCK_DATA = {
             },
             {
               "id": "B",
-              "text": "閉じ込め"
+              "text": "繰り込み"
             },
             {
               "id": "C",
@@ -6181,15 +6181,15 @@ window.JP_MOCK_DATA = {
             },
             {
               "id": "D",
-              "text": "繰り込み"
+              "text": "閉じ込め"
             }
           ],
-          "correctAnswer": "B",
+          "correctAnswer": "D",
           "explanationVi": "閉じ込め（とじこめ）: Bị nhốt kín, bị kẹt lại bên trong (エレベーターの閉じ込め事故).",
           "distractorExplanations": {
             "A": "包み込み: Bọc kín lại, bao trùm.",
-            "C": "抱き込み: Lôi kéo, mua chuộc phe cánh.",
-            "D": "繰り込み: Đưa vào danh sách tính toán dồn cấp."
+            "B": "繰り込み: Đưa vào danh sách tính toán dồn cấp.",
+            "C": "抱き込み: Lôi kéo, mua chuộc phe cánh."
           },
           "difficultyEstimate": 2,
           "status": "QA_VERIFIED"
@@ -6204,11 +6204,11 @@ window.JP_MOCK_DATA = {
           "options": [
             {
               "id": "A",
-              "text": "精密に"
+              "text": "おおまかに"
             },
             {
               "id": "B",
-              "text": "おおまかに"
+              "text": "精密に"
             },
             {
               "id": "C",
@@ -6219,10 +6219,10 @@ window.JP_MOCK_DATA = {
               "text": "完全に"
             }
           ],
-          "correctAnswer": "B",
+          "correctAnswer": "A",
           "explanationVi": "ざっと: Lướt qua, đại khái, sơ bộ = おおまかに (xem nhanh nắm ý chính, không đi sâu từng chi tiết nhỏ).",
           "distractorExplanations": {
-            "A": "精密に（せいみつに）: Một cách tỉ mỉ, chính xác từng ly (nghĩa trái ngược).",
+            "B": "精密に（せいみつに）: Một cách tỉ mỉ, chính xác từng ly (nghĩa trái ngược).",
             "C": "静かに（しずかに）: Lặng lẽ, êm ả.",
             "D": "完全に（かんぜんに）: Hoàn toàn, triệt để."
           },
@@ -6278,7 +6278,7 @@ window.JP_MOCK_DATA = {
             },
             {
               "id": "B",
-              "text": "偶然に"
+              "text": "急いで"
             },
             {
               "id": "C",
@@ -6286,15 +6286,15 @@ window.JP_MOCK_DATA = {
             },
             {
               "id": "D",
-              "text": "急いで"
+              "text": "偶然に"
             }
           ],
-          "correctAnswer": "B",
+          "correctAnswer": "D",
           "explanationVi": "ばったり: Tình cờ, ngẫu nhiên chạm mặt không hề hẹn trước = 偶然に（ぐうぜんに）.",
           "distractorExplanations": {
             "A": "約束して（やくそくして）: Có hẹn ước trước (nghĩa trái ngược).",
-            "C": "無理に（むりに）: Ép buộc, gượng gạo.",
-            "D": "急いで（いそいで）: Vội vàng, gấp gáp."
+            "B": "急いで（いそいで）: Vội vàng, gấp gáp.",
+            "C": "無理に（むりに）: Ép buộc, gượng gạo."
           },
           "difficultyEstimate": 2,
           "status": "QA_VERIFIED"
@@ -6383,7 +6383,7 @@ window.JP_MOCK_DATA = {
             },
             {
               "id": "B",
-              "text": "連休中は警備員が手薄になるため、戸締まりを厳重にする必要がある。"
+              "text": "冬になると木の葉が手薄になり、枝だけが目立つ。"
             },
             {
               "id": "C",
@@ -6391,15 +6391,15 @@ window.JP_MOCK_DATA = {
             },
             {
               "id": "D",
-              "text": "冬になると木の葉が手薄になり、枝だけが目立つ。"
+              "text": "連休中は警備員が手薄になるため、戸締まりを厳重にする必要がある。"
             }
           ],
-          "correctAnswer": "B",
+          "correctAnswer": "D",
           "explanationVi": "手薄（てうす）: Thiếu hụt nhân lực, mỏng quân số phòng thủ, bảo vệ hoặc quản lý (警備が手薄, 人員が手薄). Đáp án B dùng chuẩn xác.",
           "distractorExplanations": {
             "A": "Sách mỏng dùng ページ数が少ない hoặc 薄い, không dùng 手薄.",
-            "C": "Nội dung bài viết sơ sài dùng 内容が薄い hoặc 不十分, không dùng 手薄.",
-            "D": "Lá cây rụng thưa thớt dùng 葉がまばらになる, không dùng 手薄."
+            "B": "Lá cây rụng thưa thớt dùng 葉がまばらになる, không dùng 手薄.",
+            "C": "Nội dung bài viết sơ sài dùng 内容が薄い hoặc 不十分, không dùng 手薄."
           },
           "difficultyEstimate": 3,
           "status": "QA_VERIFIED"
@@ -6628,7 +6628,7 @@ window.JP_MOCK_DATA = {
             },
             {
               "id": "B",
-              "text": "せざるを得ない"
+              "text": "しないものでもない"
             },
             {
               "id": "C",
@@ -6636,15 +6636,15 @@ window.JP_MOCK_DATA = {
             },
             {
               "id": "D",
-              "text": "しないものでもない"
+              "text": "せざるを得ない"
             }
           ],
-          "correctAnswer": "B",
+          "correctAnswer": "D",
           "explanationVi": "〜ざるを得ない: Không thể không..., đành phải... (dù không muốn nhưng tình thế bắt buộc phải làm). Chú ý động từ する biến thành せざるを得ない.",
           "distractorExplanations": {
             "A": "〜にすぎない: Chỉ là... chẳng qua chỉ là (giảm nhẹ mức độ).",
-            "C": "〜わけにはいかない: Không thể làm được do rào cản đạo đức/xã hội (ở đây tình hình tồi tệ nên bắt buộc phải xin lỗi).",
-            "D": "〜ないものでもない: Không hẳn là không thể (thể hiện khả năng dè dặt)."
+            "B": "〜ないものでもない: Không hẳn là không thể (thể hiện khả năng dè dặt).",
+            "C": "〜わけにはいかない: Không thể làm được do rào cản đạo đức/xã hội (ở đây tình hình tồi tệ nên bắt buộc phải xin lỗi)."
           },
           "difficultyEstimate": 2,
           "status": "QA_VERIFIED"
@@ -6655,7 +6655,7 @@ window.JP_MOCK_DATA = {
           "skill": "Grammar",
           "typeId": "N2-GR-FORM",
           "mondaiTitle": "Mondai 7: 文法形式",
-          "stem": "これほど精密な技術は、長年の鍛錬を重ねた熟練の職人（　　）可能だ。",
+          "stem": "これほど精密な技術は、長年の鍛錬を重ねた熟練の職人（　　）の技だ。",
           "options": [
             {
               "id": "A",
@@ -6675,11 +6675,11 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "B",
-          "explanationVi": "〜ならでは: Chỉ có... mới có thể làm được (nhấn mạnh đặc tính độc đáo, tài năng độc nhất vô nhị). Đi kèm với職人ならでは.",
+          "explanationVi": "〜ならではの N: Chỉ có ở N mới có được, nét độc đáo/tuyệt kỹ đặc trưng chỉ riêng ai đó mới có thể tạo ra (cấu trúc danh từ: N1 + ならではの + N2). Kỹ thuật tinh xảo đến mức này là tuyệt kỹ chỉ có ở những người thợ lành nghề qua nhiều năm tôi luyện.",
           "distractorExplanations": {
-            "A": "〜をはじめ: Tiêu biểu trước hết là A (kéo theo B, C...).",
-            "C": "〜にあって: Trong hoàn cảnh đặc biệt đó...",
-            "D": "〜をよそに: Bất chấp, phớt lờ dư luận/cảnh báo xung quanh."
+            "A": "〜をはじめ: Đi theo mẫu 'Aをはじめ（として）B' để đưa ra ví dụ tiêu biểu, không tạo thành ngữ pháp tự nhiên '職人をはじめの技'.",
+            "C": "〜にあって: Chỉ hoàn cảnh, tình huống đặc thù (ở vào hoàn cảnh...), không dùng bổ nghĩa danh từ '職人にあっての技'.",
+            "D": "〜をよそに: Mang nghĩa 'bất chấp, phớt lờ dư luận/cảnh báo', không đi với '〜をよそにの技'."
           },
           "difficultyEstimate": 2,
           "status": "QA_VERIFIED"
@@ -6690,7 +6690,7 @@ window.JP_MOCK_DATA = {
           "skill": "Grammar",
           "typeId": "N2-GR-FORM",
           "mondaiTitle": "Mondai 7: 文法形式",
-          "stem": "彼の説明は専門用語ばかりで、一般の人には理解（　　）ものだった。",
+          "stem": "彼の説明は専門用語ばかりで、一般の人には理解し（　　）ものだった。",
           "options": [
             {
               "id": "A",
@@ -6710,11 +6710,11 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "C",
-          "explanationVi": "V-masu + がたい: Khó lòng mà... (về mặt tâm lý, nhận thức, tình cảm: 理解しがたい - khó mà hiểu nổi, 信じがたい - khó mà tin được).",
+          "explanationVi": "V-masu + がたい: Khó lòng mà... (về mặt nhận thức, tâm lý, năng lực tiếp nhận: 理解しがたい - khó hiểu nổi, 信じがたい - khó tin). Ở đây lời giải thích toàn thuật ngữ chuyên ngành nên là thứ khó lòng hiểu được đối với người bình thường.",
           "distractorExplanations": {
-            "A": "やすい: Dễ dàng (trái ngược hoàn toàn ngữ cảnh toàn thuật ngữ chuyên môn).",
-            "B": "かねる: Đứng sau thể liên từ lịch sự để từ chối dịch vụ (分かりかねます, 引き受けかねます), không ghép trực tiếp thành 理解かねるもの.",
-            "D": "っこない: Tuyệt đối không thể (văn nói thân mật, không dùng trong văn viết trang trọng này)."
+            "A": "やすい: Diễn tả tính dễ dàng (理解しやすい - dễ hiểu), trái ngược hoàn toàn với vế trước 'toàn thuật ngữ chuyên môn'.",
+            "B": "かねる: Thường diễn tả sự bất khả về mặt tâm lý hoặc lịch sự từ chối của ngôi thứ nhất (分かりかねます), không đi với danh từ khách quan thành '理解しかねるものだった'.",
+            "D": "っこない: Khẩu ngữ suồng sã tuyệt đối không thể (理解できっこない), không đứng trước danh từ bổ nghĩa 'ものだった'."
           },
           "difficultyEstimate": 2,
           "status": "QA_VERIFIED"
@@ -6733,7 +6733,7 @@ window.JP_MOCK_DATA = {
             },
             {
               "id": "B",
-              "text": "したところで"
+              "text": "したあげく"
             },
             {
               "id": "C",
@@ -6747,7 +6747,7 @@ window.JP_MOCK_DATA = {
           "correctAnswer": "A",
           "explanationVi": "どんなに + V-よう（意向形） + と（も）: Dù cho... đến mức nào đi chăng nữa thì kết quả vẫn không đổi (どんなに進歩しようと - Dù công nghệ có tiến bộ đến đâu).",
           "distractorExplanations": {
-            "B": "したところで: Dù đã làm việc đó rồi thì cũng vô ích (thường không đi trực tiếp với phó từ どんなに ở đầu câu mang nghĩa giả định tiến trình).",
+            "B": "したあげく: Sau một hồi... thì kết quả xấu (không đi với phó từ giả định どんなに ở đầu câu).",
             "C": "するにつけ: Cứ mỗi lần nhìn/nghe thấy A là lại cảm thấy B.",
             "D": "からには: Một khi đã... thì phải..."
           },
@@ -6768,7 +6768,7 @@ window.JP_MOCK_DATA = {
             },
             {
               "id": "B",
-              "text": "どころか"
+              "text": "わりに"
             },
             {
               "id": "C",
@@ -6776,15 +6776,15 @@ window.JP_MOCK_DATA = {
             },
             {
               "id": "D",
-              "text": "わりに"
+              "text": "どころか"
             }
           ],
-          "correctAnswer": "B",
+          "correctAnswer": "D",
           "explanationVi": "AどころかB: Nói chi đến A, ngay cả B còn không có/không thể. Ở đây: Nói chi đến nghỉ ngơi, đến thời gian ăn cơm còn không có.",
           "distractorExplanations": {
             "A": "ばかりか: Không những A mà còn thêm B (thường cùng chiều tăng tiến, không đi với câu phủ định hoàn toàn すらない).",
-            "C": "反面: Mặt khác, trái lại (hai mặt của cùng một vấn đề).",
-            "D": "わりに: So với tiêu chuẩn thì..."
+            "B": "わりに: So với tiêu chuẩn thì...",
+            "C": "反面: Mặt khác, trái lại (hai mặt của cùng một vấn đề)."
           },
           "difficultyEstimate": 2,
           "status": "QA_VERIFIED"
@@ -6838,22 +6838,22 @@ window.JP_MOCK_DATA = {
             },
             {
               "id": "B",
-              "text": "に応じて"
+              "text": "に反して"
             },
             {
               "id": "C",
-              "text": "に反して"
+              "text": "に応じて"
             },
             {
               "id": "D",
               "text": "にわたって"
             }
           ],
-          "correctAnswer": "B",
+          "correctAnswer": "C",
           "explanationVi": "〜に応じて（におうじて）: Ứng với, tương ứng với nguyện vọng/thay đổi của khách hàng. Quán ngữ thông dụng: ご要望に応じて.",
           "distractorExplanations": {
             "A": "に際して: Nhân dịp, khi tiến hành một sự việc trang trọng.",
-            "C": "に反して: Ngược lại với kỳ vọng/dự đoán.",
+            "B": "に反して: Ngược lại với kỳ vọng/dự đoán.",
             "D": "にわたって: Kéo dài suốt trên một diện tích hoặc khoảng thời gian."
           },
           "difficultyEstimate": 2,
@@ -6873,7 +6873,7 @@ window.JP_MOCK_DATA = {
             },
             {
               "id": "B",
-              "text": "ご覧になりました"
+              "text": "お目にかかりました"
             },
             {
               "id": "C",
@@ -6881,15 +6881,15 @@ window.JP_MOCK_DATA = {
             },
             {
               "id": "D",
-              "text": "お目にかかりました"
+              "text": "ご覧になりました"
             }
           ],
-          "correctAnswer": "B",
+          "correctAnswer": "D",
           "explanationVi": "ご覧になりましたでしょうか: Kính ngữ (Tôn kính ngữ - 尊敬語) hỏi hành động xem tài liệu của cấp trên (部長).",
           "distractorExplanations": {
             "A": "拝見しました: Khiêm nhường ngữ (謙譲語) dùng cho hành động của chính người nói (tôi xem), không dùng hỏi sếp.",
-            "C": "お見せになりました: Nhầm lẫn ngữ pháp khiêm nhường/tôn kính.",
-            "D": "お目にかかりました: Khiêm nhường ngữ của 会う (gặp gỡ)."
+            "B": "お目にかかりました: Khiêm nhường ngữ của 会う (gặp gỡ).",
+            "C": "お見せになりました: Nhầm lẫn ngữ pháp khiêm nhường/tôn kính."
           },
           "difficultyEstimate": 2,
           "status": "QA_VERIFIED"
@@ -7514,7 +7514,7 @@ window.JP_MOCK_DATA = {
             },
             {
               "id": "B",
-              "text": "接合部がわずかに滑ることで、地震の揺れのエネルギーを吸収・分散させるため。"
+              "text": "地面と建物を完全に切り離し、宙に浮かせる仕組みになっているため。"
             },
             {
               "id": "C",
@@ -7522,15 +7522,15 @@ window.JP_MOCK_DATA = {
             },
             {
               "id": "D",
-              "text": "地面と建物を完全に切り離し、宙に浮かせる仕組みになっているため。"
+              "text": "接合部がわずかに滑ることで、地震の揺れのエネルギーを吸収・分散させるため。"
             }
           ],
-          "correctAnswer": "B",
+          "correctAnswer": "D",
           "explanationVi": "Đoạn 2 giải thích rõ: Khớp nối gỗ trượt nhẹ khi có lực chấn động, ma sát giúp hấp thụ và triệt tiêu năng lượng rung lắc (接合部がわずかに滑り、揺れのエネルギーを吸収・分散).",
           "distractorExplanations": {
             "A": "Ngược lại, bài nhấn mạnh 'không dùng đinh ốc kim loại' (金属の釘やボルトを極力使わず).",
-            "C": "Không hề có chuyện nhét lõi sắt vào trong thân gỗ cổ.",
-            "D": "Không phải công nghệ bay lơ lửng trên không trung."
+            "B": "Không phải công nghệ bay lơ lửng trên không trung.",
+            "C": "Không hề có chuyện nhét lõi sắt vào trong thân gỗ cổ."
           },
           "difficultyEstimate": 3,
           "status": "QA_VERIFIED"
@@ -7546,11 +7546,11 @@ window.JP_MOCK_DATA = {
           "options": [
             {
               "id": "A",
-              "text": "建物を毎回ゼロから作り直す費用を節約し、観光客を増やすこと。"
+              "text": "傷んだ部材だけを取り替えることで、建物を何百年も維持し続けられること。"
             },
             {
               "id": "B",
-              "text": "傷んだ部材だけを取り替えることで、建物を何百年も維持し続けられること。"
+              "text": "建物を毎回ゼロから作り直す費用を節約し、観光客を増やすこと。"
             },
             {
               "id": "C",
@@ -7561,10 +7561,10 @@ window.JP_MOCK_DATA = {
               "text": "木材の代わりにコンクリートを流し込んで現代風に改築できること。"
             }
           ],
-          "correctAnswer": "B",
+          "correctAnswer": "A",
           "explanationVi": "Đoạn 3 khẳng định: Nhờ tháo dỡ và thay thế được từng cây cột xà bị mục nên có thể bảo tồn công trình qua hàng trăm năm mà không cần đập bỏ toàn bộ.",
           "distractorExplanations": {
-            "A": "Mục đích không phải để thu hút du khách hay xây mới từ con số không.",
+            "B": "Mục đích không phải để thu hút du khách hay xây mới từ con số không.",
             "C": "Không phải để giải quyết việc làm gượng ép.",
             "D": "Không đề cập đến việc đổ bê tông vào kiến trúc cổ."
           },
@@ -7622,7 +7622,7 @@ window.JP_MOCK_DATA = {
             },
             {
               "id": "B",
-              "text": "未知の体験が多く、脳が多くの新しい情報を記憶に刻み込んでいるため。"
+              "text": "大人のように仕事の責任がなく、遊んでばかりいるため。"
             },
             {
               "id": "C",
@@ -7630,15 +7630,15 @@ window.JP_MOCK_DATA = {
             },
             {
               "id": "D",
-              "text": "大人のように仕事の責任がなく、遊んでばかりいるため。"
+              "text": "未知の体験が多く、脳が多くの新しい情報を記憶に刻み込んでいるため。"
             }
           ],
-          "correctAnswer": "B",
+          "correctAnswer": "D",
           "explanationVi": "Đoạn 2 nêu rõ: Đối với trẻ em, mọi thứ đều mới mẻ nên não bộ phải tập trung xử lý, số lượng ký ức khắc ghi (情報のエピソード数) rất nhiều, khi nhìn lại sẽ thấy thời gian rất dài.",
           "distractorExplanations": {
             "A": "Đồng hồ sinh học vật lý không hề chạy chậm hơn.",
-            "C": "Không hề nói trẻ em buồn chán mệt mỏi.",
-            "D": "Không bàn về gánh nặng trách nhiệm công việc."
+            "B": "Không bàn về gánh nặng trách nhiệm công việc.",
+            "C": "Không hề nói trẻ em buồn chán mệt mỏi."
           },
           "difficultyEstimate": 3,
           "status": "QA_VERIFIED"
@@ -7762,11 +7762,11 @@ window.JP_MOCK_DATA = {
           "options": [
             {
               "id": "A",
-              "text": "仕事の手を抜いて、勤務時間中にサボるための口実を提供すること。"
+              "text": "信頼関係の土台を築き、創造的な着想を生み出すきっかけになること。"
             },
             {
               "id": "B",
-              "text": "信頼関係の土台を築き、創造的な着想を生み出すきっかけになること。"
+              "text": "仕事の手を抜いて、勤務時間中にサボるための口実を提供すること。"
             },
             {
               "id": "C",
@@ -7777,10 +7777,10 @@ window.JP_MOCK_DATA = {
               "text": "会議室の利用料を節約するために、廊下で重要な契約を結ぶこと。"
             }
           ],
-          "correctAnswer": "B",
+          "correctAnswer": "A",
           "explanationVi": "Đoạn 2 & 3 phân tích: Tán gẫu tạo ra tâm lý thoải mái an tâm, xây dựng lòng tin đồng nghiệp và nảy sinh những ý tưởng đổi mới sáng tạo bất ngờ.",
           "distractorExplanations": {
-            "A": "Tác giả chỉ ra tuy nhìn ngoài tưởng lãng phí thời gian nhưng thực chất có giá trị cốt lõi, không phải trốn việc.",
+            "B": "Tác giả chỉ ra tuy nhìn ngoài tưởng lãng phí thời gian nhưng thực chất có giá trị cốt lõi, không phải trốn việc.",
             "C": "Không phải để soi mói đời tư đấu đá lẫn nhau.",
             "D": "Không phải để tiết kiệm tiền thuê phòng họp."
           },
@@ -7910,7 +7910,7 @@ window.JP_MOCK_DATA = {
             },
             {
               "id": "B",
-              "text": "あらかじめ正解が決まっており、指示通りに動く規律と効率が有効だったから。"
+              "text": "社員全員が専門知識を持たず、機械の操作だけに専念できたから。"
             },
             {
               "id": "C",
@@ -7918,15 +7918,15 @@ window.JP_MOCK_DATA = {
             },
             {
               "id": "D",
-              "text": "社員全員が専門知識を持たず、機械の操作だけに専念できたから。"
+              "text": "あらかじめ正解が決まっており、指示通りに動く規律と効率が有効だったから。"
             }
           ],
-          "correctAnswer": "B",
+          "correctAnswer": "D",
           "explanationVi": "Đoạn 1 nêu rõ: Trong xã hội công nghiệp hóa khi đáp án đúng đã được định sẵn, một tổ chức kỷ luật thép vận hành nhanh chóng như cỗ máy là mô hình hiệu quả nhất.",
           "distractorExplanations": {
             "A": "Thời đó lãnh đạo không được phép để lộ sự yếu đuối.",
-            "C": "Pháp luật không bao giờ khuyến khích che giấu sai phạm.",
-            "D": "Không phản ánh đúng nguyên nhân tác giả nêu."
+            "B": "Không phản ánh đúng nguyên nhân tác giả nêu.",
+            "C": "Pháp luật không bao giờ khuyến khích che giấu sai phạm."
           },
           "difficultyEstimate": 3,
           "status": "QA_VERIFIED"
@@ -7982,22 +7982,22 @@ window.JP_MOCK_DATA = {
             },
             {
               "id": "B",
-              "text": "予測困難な時代を乗り越えるには、互いの不完全さを認め合い補い合う関係性が不可欠だ。"
+              "text": "軍隊のような厳しい規律を現代のオフィスにも完全に復活させるべきだ。"
             },
             {
               "id": "C",
-              "text": "軍隊のような厳しい規律を現代のオフィスにも完全に復活させるべきだ。"
+              "text": "予測困難な時代を乗り越えるには、互いの不完全さを認め合い補い合う関係性が不可欠だ。"
             },
             {
               "id": "D",
               "text": "チームワークよりも個人の突出した能力を競わせることが唯一の正解だ。"
             }
           ],
-          "correctAnswer": "B",
+          "correctAnswer": "C",
           "explanationVi": "Đoạn kết khẳng định nghịch lý: Buông bỏ lớp vỏ bọc hoàn hảo phòng thủ, công nhận sự bất toàn của nhau để cùng bù đắp chuyên môn mới là nguồn gốc của sự kiên cường bền vững thực sự trong thời đại biến động.",
           "distractorExplanations": {
             "A": "Ngược lại, tác giả chỉ ra việc giả vờ hoàn hảo sẽ tước đi khả năng học hỏi và sáng tạo.",
-            "C": "Mô hình kỷ luật quân đội đã bộc lộ sự mong manh dễ vỡ trong thời đại VUCA.",
+            "B": "Mô hình kỷ luật quân đội đã bộc lộ sự mong manh dễ vỡ trong thời đại VUCA.",
             "D": "Tác giả đề cao sức mạnh hợp tác bổ khuyết lẫn nhau chứ không phải chủ nghĩa anh hùng cá nhân đơn độc."
           },
           "difficultyEstimate": 3,
@@ -8014,11 +8014,11 @@ window.JP_MOCK_DATA = {
           "options": [
             {
               "id": "A",
-              "text": "市外に本社があるが、市内に支店を置く創業3年目のIT企業。"
+              "text": "市内に本社があり、3年間事業を営んでいて市税の滞納がない製造業者。"
             },
             {
               "id": "B",
-              "text": "市内に本社があり、3年間事業を営んでいて市税の滞納がない製造業者。"
+              "text": "市外に本社があるが、市内に支店を置く創業3年目のIT企業。"
             },
             {
               "id": "C",
@@ -8029,10 +8029,10 @@ window.JP_MOCK_DATA = {
               "text": "市内に本社があり、先月新しく創業したばかりの小売業者。"
             }
           ],
-          "correctAnswer": "B",
+          "correctAnswer": "A",
           "explanationVi": "Tiêu chuẩn quy định: '市内に本社を有し、1年以上継続して事業を営んでいる... 市税の滞納がない' (Trụ sở chính trong thành phố, kinh doanh liên tục trên 1 năm, không nợ thuế thành phố). Doanh nghiệp B đáp ứng hoàn hảo.",
           "distractorExplanations": {
-            "A": "Trụ sở chính ở ngoài thành phố là không đủ điều kiện (市内に本社を有し).",
+            "B": "Trụ sở chính ở ngoài thành phố là không đủ điều kiện (市内に本社を有し).",
             "C": "Đã nhận trợ cấp năm ngoái vi phạm điều kiện loại trừ: '過去2年以内に本補助金を受給した企業は対象外'.",
             "D": "Mới thành lập tháng trước chưa đủ điều kiện 1 năm kinh doanh liên tục."
           },
@@ -8054,7 +8054,7 @@ window.JP_MOCK_DATA = {
             },
             {
               "id": "B",
-              "text": "【高度DX枠】で専門家の事前確認書を添えて電子申請し、上限160万円（240万の2/3）の補助を受ける。"
+              "text": "【一般枠】で電子申請し、総額の全額である240万円の補助を受ける。"
             },
             {
               "id": "C",
@@ -8062,15 +8062,15 @@ window.JP_MOCK_DATA = {
             },
             {
               "id": "D",
-              "text": "【一般枠】で電子申請し、総額の全額である240万円の補助を受ける。"
+              "text": "【高度DX枠】で専門家の事前確認書を添えて電子申請し、上限160万円（240万の2/3）の補助を受ける。"
             }
           ],
-          "correctAnswer": "B",
+          "correctAnswer": "D",
           "explanationVi": "Hệ thống kiểm tra tự động bằng AI thuộc 【高度DX枠】 (tỷ lệ 2/3, 240万 x 2/3 = 160万円, nằm dưới mức trần 200万円). Bắt buộc phải có bản xác nhận của chuyên gia IT và chỉ nộp qua cổng điện tử trực tuyến (電子申請).",
           "distractorExplanations": {
             "A": "AI kiểm tra sản phẩm thuộc Khung DX nâng cao, và không nhận nộp qua bưu điện (郵送不可).",
-            "C": "Không nhận nộp trực tiếp tại quầy (持参不可), và số tiền trợ cấp tính theo tỷ lệ 2/3 chứ không nhận tròn 200 triệu cố định.",
-            "D": "Không có chương trình nào trợ cấp 100% toàn bộ 240 vạn yên."
+            "B": "Không có chương trình nào trợ cấp 100% toàn bộ 240 vạn yên.",
+            "C": "Không nhận nộp trực tiếp tại quầy (持参不可), và số tiền trợ cấp tính theo tỷ lệ 2/3 chứ không nhận tròn 200 triệu cố định."
           },
           "difficultyEstimate": 2,
           "status": "QA_VERIFIED"

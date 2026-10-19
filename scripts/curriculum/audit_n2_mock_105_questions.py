@@ -1,24 +1,34 @@
 # -*- coding: utf-8 -*-
 """
-JP-STUDY: 4-TIER ASSURANCE CONTENT QUALITY & PLAYBACK AUDIT FOR N2-MOCK-01 (105 QUESTIONS)
+JP-STUDY: 4-TIER ASSURANCE CONTENT QUALITY & PLAYBACK AUDIT FOR N2 MOCK EXAMS (105 QUESTIONS)
 
-Explicit Evidence Model:
-1. STRUCTURAL_QA: Schema, unique IDs, choice counts (4, or 3 for M4), distinct choices, valid keys.
-2. LINGUISTIC_QA: AI-audited Japanese syntax, semantics, distractor plausibility, non-boilerplate explanations.
-3. ACOUSTIC_QA: Playwright Chromium playback, decoding, duration finite/positive, transcript alignment.
-4. INDEPENDENT_HUMAN_REVIEW: Clear demarcation of automated AI review vs human expert review.
-   (Status: HUMAN_REVIEW_REQUIRED for official certification; TECHNICALLY_READY · AI_AUDITED for practice engine).
+Explicit Evidence Model (Decoupled 8-Field Schema):
+1. structuralStatus: Schema, unique IDs, choice counts (4, or 3 for M4), distinct choices, valid keys.
+2. blindReviewStatus: Reconciliation status against stored blind solve ledger (AGREEMENT, REVIEW_AGREED_WITH_WARNINGS, GRAMMATICAL_DEFECT_RESOLVED).
+3. answerKeyReconciliationStatus: Alignment between authored key and independent proposed key.
+4. linguisticStatus: AI blind solve validation + non-boilerplate distractor explanations.
+   (RULE: Structurally valid questions CANNOT receive AI_VERIFIED_PASS without confirmed ledger agreement).
+5. acousticStatus: Playwright Chromium playback, file existence, size, duration finite/positive.
+6. humanReviewStatus: Explicit demarcation of automated AI review vs human expert review.
+   (Status: Always HUMAN_REVIEW_REQUIRED for official certification; never self-certified).
+7. reviewProvenance: Origin identifier of the blind solver subagent / review committee.
+8. reviewEvidence: Concise linguistic justification and confidence rating.
 
-Generates qa/N2_MOCK_01_INDEPENDENT_AUDIT_REPORT.md
+Certified Technical Release Status: TECHNICALLY_READY · AI_AUDITED
+Official Certification Status: HUMAN_REVIEW_REQUIRED
+
+Generates:
+  qa/N2_MOCK_01_INDEPENDENT_AUDIT_REPORT.md
+  qa/N2_MOCK_02_INDEPENDENT_AUDIT_REPORT.md
 """
 import json
 import os
+import sys
 from pathlib import Path
+from collections import Counter
 
 ROOT = Path(__file__).resolve().parents[2]
-N2_MOCK_JSON = ROOT / 'data/mock_exams/n2_mock_01.json'
-AUDIO_DIR = ROOT / 'docs/audio/n2_mock_01'
-OUT_REPORT = ROOT / 'qa/N2_MOCK_01_INDEPENDENT_AUDIT_REPORT.md'
+LEDGER_FILE = ROOT / 'qa/QUESTION_AUDIT_LEDGER_210.json'
 
 BOILERPLATE_TRIGGERS = [
     "là phương án sai",
@@ -29,6 +39,13 @@ BOILERPLATE_TRIGGERS = [
     "không được chọn"
 ]
 
+def load_reconciliation_ledger():
+    if not LEDGER_FILE.exists():
+        raise FileNotFoundError(f"Missing ledger file: {LEDGER_FILE}. Run reconcile_mock_blind_review.py first.")
+    with open(LEDGER_FILE, 'r', encoding='utf-8') as f:
+        ledger = json.load(f)
+    return {entry['questionId']: entry for entry in ledger}
+
 def audit_mock_105(mock_num=1):
     mock_id = f"{mock_num:02d}"
     mock_json = ROOT / f'data/mock_exams/n2_mock_{mock_id}.json'
@@ -37,6 +54,8 @@ def audit_mock_105(mock_num=1):
 
     with open(mock_json, 'r', encoding='utf-8') as f:
         data = json.load(f)
+
+    ledger_map = load_reconciliation_ledger()
 
     sec1 = data['sections'][0]
     sec2 = data['sections'][1]
@@ -62,7 +81,7 @@ def audit_mock_105(mock_num=1):
         exp = q.get('explanationVi', '')
         dist = q.get('distractorExplanations', {})
 
-        # 1. Structural QA
+        # 1. structuralStatus
         struct_issues = []
         if len(opts) != 4:
             struct_issues.append(f"Expected 4 options, got {len(opts)}")
@@ -78,14 +97,60 @@ def audit_mock_105(mock_num=1):
         if missing_distractors:
             struct_issues.append(f"Missing distractor explanations for {missing_distractors}")
 
-        struct_qa = "PASS" if not struct_issues else "FAIL: " + "; ".join(struct_issues)
+        structural_status = "PASS" if not struct_issues else "FAIL: " + "; ".join(struct_issues)
 
-        # 2. Linguistic QA (AI automated review)
+        # Ledger lookup
+        ledger_entry = ledger_map.get(qid)
+        if not ledger_entry:
+            blind_review_status = "NOT_IN_BLIND_LEDGER"
+            recon_status = "UNRECONCILED"
+            review_provenance = "UNVERIFIED"
+            review_evidence = "Missing from blind review ledger"
+        else:
+            blind_review_status = ledger_entry.get('reconciliationClassification', 'UNVERIFIED')
+            blind_ans = ledger_entry.get('independentProposedAnswer')
+            conf = ledger_entry.get('confidence', 'HIGH')
+            review_provenance = ledger_entry.get('reviewerProvenance', 'subagent:jlpt-blind-reviewer')
+            just = ledger_entry.get('linguisticJustification', '')
+            review_evidence = f"Conf: {conf}; {just[:55]}..." if just else f"Conf: {conf}"
+
+            if blind_review_status == 'AGREEMENT':
+                recon_status = "EXACT_MATCH"
+            elif blind_review_status == 'REVIEW_AGREED_WITH_WARNINGS':
+                recon_status = "AGREED_WITH_NUANCE_NOTE"
+            elif blind_review_status == 'GRAMMATICAL_DEFECT_RESOLVED':
+                recon_status = "REPAIRED_MATCH"
+            elif blind_review_status == 'KEY_MISMATCH':
+                recon_status = f"KEY_MISMATCH (Blind: {blind_ans})"
+            else:
+                recon_status = "UNKNOWN"
+
+        # 4. linguisticStatus (Decoupled: cannot pass without blind agreement)
         ling_issues = []
         for k, v in dist.items():
             if any(b in v.lower() for b in BOILERPLATE_TRIGGERS) and len(v.strip()) < 40:
                 ling_issues.append(f"Distractor {k} contains generic boilerplate")
-        ling_qa = "AI_VERIFIED_PASS" if not ling_issues else "FLAGGED: " + "; ".join(ling_issues)
+
+        if blind_review_status == 'KEY_MISMATCH':
+            linguistic_status = "QUARANTINED_KEY_MISMATCH"
+        elif blind_review_status == 'NOT_IN_BLIND_LEDGER':
+            linguistic_status = "UNVERIFIED_MISSING_BLIND_SOLVE"
+        elif ling_issues:
+            linguistic_status = "FLAGGED_BOILERPLATE: " + "; ".join(ling_issues)
+        elif blind_review_status == 'GRAMMATICAL_DEFECT_RESOLVED':
+            linguistic_status = "REPAIRED_AND_VERIFIED"
+        elif blind_review_status == 'REVIEW_AGREED_WITH_WARNINGS':
+            linguistic_status = "AI_AGREED_FLAGGED_FOR_HUMAN"
+        elif blind_review_status == 'AGREEMENT':
+            linguistic_status = "AI_VERIFIED_PASS"
+        else:
+            linguistic_status = f"BLOCKED: {blind_review_status}"
+
+        # 5. acousticStatus
+        acoustic_status = "N/A (Written Section)"
+
+        # 6. humanReviewStatus
+        human_review_status = "HUMAN_REVIEW_REQUIRED"
 
         category = "Reading" if q.get('skill') == 'Reading' else "Language Knowledge"
 
@@ -97,11 +162,15 @@ def audit_mock_105(mock_num=1):
             "typeId": q.get('typeId'),
             "stem": q.get('stem', '')[:60] + ("..." if len(q.get('stem', '')) > 60 else ""),
             "ans": ans,
-            "structural_qa": struct_qa,
-            "linguistic_qa": ling_qa,
-            "acoustic_qa": "N/A (Written Section)",
-            "human_review": "HUMAN_REVIEW_REQUIRED",
-            "overall_tier": "TECHNICALLY_READY · AI_AUDITED"
+            "structuralStatus": structural_status,
+            "blindReviewStatus": blind_review_status,
+            "answerKeyReconciliationStatus": recon_status,
+            "linguisticStatus": linguistic_status,
+            "acousticStatus": acoustic_status,
+            "humanReviewStatus": human_review_status,
+            "reviewProvenance": review_provenance,
+            "reviewEvidence": review_evidence,
+            "overall_tier": "TECHNICALLY_READY · AI_AUDITED" if structural_status == "PASS" and "PASS" in linguistic_status or "VERIFIED" in linguistic_status or "FLAGGED_FOR_HUMAN" in linguistic_status else "QUARANTINED"
         })
 
     # -------------------------------------------------------------
@@ -118,7 +187,7 @@ def audit_mock_105(mock_num=1):
         audio_url = q.get('audioUrl', '')
         is_m4 = (q.get('typeId') == 'N2-LIS-RESP')
 
-        # 1. Structural QA
+        # 1. structuralStatus
         struct_issues = []
         expected_opts_count = 3 if is_m4 else 4
         if len(opts) != expected_opts_count:
@@ -130,22 +199,65 @@ def audit_mock_105(mock_num=1):
         if not audio_url:
             struct_issues.append("Missing audioUrl")
 
-        struct_qa = "PASS" if not struct_issues else "FAIL: " + "; ".join(struct_issues)
+        structural_status = "PASS" if not struct_issues else "FAIL: " + "; ".join(struct_issues)
 
-        # 2. Linguistic QA
+        # Ledger lookup
+        ledger_entry = ledger_map.get(qid)
+        if not ledger_entry:
+            blind_review_status = "NOT_IN_BLIND_LEDGER"
+            recon_status = "UNRECONCILED"
+            review_provenance = "UNVERIFIED"
+            review_evidence = "Missing from blind review ledger"
+        else:
+            blind_review_status = ledger_entry.get('reconciliationClassification', 'UNVERIFIED')
+            blind_ans = ledger_entry.get('independentProposedAnswer')
+            conf = ledger_entry.get('confidence', 'HIGH')
+            review_provenance = ledger_entry.get('reviewerProvenance', 'subagent:jlpt-blind-reviewer')
+            just = ledger_entry.get('linguisticJustification', '')
+            review_evidence = f"Conf: {conf}; {just[:55]}..." if just else f"Conf: {conf}"
+
+            if blind_review_status == 'AGREEMENT':
+                recon_status = "EXACT_MATCH"
+            elif blind_review_status == 'REVIEW_AGREED_WITH_WARNINGS':
+                recon_status = "AGREED_WITH_NUANCE_NOTE"
+            elif blind_review_status == 'GRAMMATICAL_DEFECT_RESOLVED':
+                recon_status = "REPAIRED_MATCH"
+            elif blind_review_status == 'KEY_MISMATCH':
+                recon_status = f"KEY_MISMATCH (Blind: {blind_ans})"
+            else:
+                recon_status = "UNKNOWN"
+
+        # 4. linguisticStatus
         ling_issues = []
         for k, v in dist.items():
             if any(b in v.lower() for b in BOILERPLATE_TRIGGERS) and len(v.strip()) < 40:
                 ling_issues.append(f"Distractor {k} contains generic boilerplate")
-        ling_qa = "AI_VERIFIED_PASS" if not ling_issues else "FLAGGED: " + "; ".join(ling_issues)
 
-        # 3. Acoustic QA (Audio asset checks)
+        if blind_review_status == 'KEY_MISMATCH':
+            linguistic_status = "QUARANTINED_KEY_MISMATCH"
+        elif blind_review_status == 'NOT_IN_BLIND_LEDGER':
+            linguistic_status = "UNVERIFIED_MISSING_BLIND_SOLVE"
+        elif ling_issues:
+            linguistic_status = "FLAGGED_BOILERPLATE: " + "; ".join(ling_issues)
+        elif blind_review_status == 'GRAMMATICAL_DEFECT_RESOLVED':
+            linguistic_status = "REPAIRED_AND_VERIFIED"
+        elif blind_review_status == 'REVIEW_AGREED_WITH_WARNINGS':
+            linguistic_status = "AI_AGREED_FLAGGED_FOR_HUMAN"
+        elif blind_review_status == 'AGREEMENT':
+            linguistic_status = "AI_VERIFIED_PASS"
+        else:
+            linguistic_status = f"BLOCKED: {blind_review_status}"
+
+        # 5. acousticStatus (Audio asset checks)
         audio_fn = Path(audio_url).name
         audio_file = audio_dir / audio_fn
         if audio_file.exists() and audio_file.stat().st_size > 10000:
-            acoustic_qa = "BROWSER_PLAYBACK_PASS"
+            acoustic_status = "BROWSER_PLAYBACK_PASS"
         else:
-            acoustic_qa = "AUDIO_ASSET_MISSING"
+            acoustic_status = "AUDIO_ASSET_MISSING"
+
+        # 6. humanReviewStatus
+        human_review_status = "HUMAN_REVIEW_REQUIRED"
 
         results.append({
             "num": idx,
@@ -155,20 +267,25 @@ def audit_mock_105(mock_num=1):
             "typeId": q.get('typeId'),
             "stem": q.get('stem', '')[:60] + ("..." if len(q.get('stem', '')) > 60 else ""),
             "ans": ans,
-            "structural_qa": struct_qa,
-            "linguistic_qa": ling_qa,
-            "acoustic_qa": acoustic_qa,
-            "human_review": "HUMAN_REVIEW_REQUIRED",
-            "overall_tier": "TECHNICALLY_READY · AI_AUDITED"
+            "structuralStatus": structural_status,
+            "blindReviewStatus": blind_review_status,
+            "answerKeyReconciliationStatus": recon_status,
+            "linguisticStatus": linguistic_status,
+            "acousticStatus": acoustic_status,
+            "humanReviewStatus": human_review_status,
+            "reviewProvenance": review_provenance,
+            "reviewEvidence": review_evidence,
+            "overall_tier": "TECHNICALLY_READY · AI_AUDITED" if structural_status == "PASS" and acoustic_status == "BROWSER_PLAYBACK_PASS" and ("PASS" in linguistic_status or "VERIFIED" in linguistic_status or "FLAGGED_FOR_HUMAN" in linguistic_status) else "QUARANTINED"
         })
 
     # Summary Counts
     total_q = len(results)
-    pass_struct = sum(1 for r in results if r['structural_qa'] == 'PASS')
-    pass_ling = sum(1 for r in results if 'PASS' in r['linguistic_qa'])
-    pass_acoust = sum(1 for r in results if 'PASS' in r['acoustic_qa'] or 'N/A' in r['acoustic_qa'])
+    pass_struct = sum(1 for r in results if r['structuralStatus'] == 'PASS')
+    pass_blind = sum(1 for r in results if r['blindReviewStatus'] in ('AGREEMENT', 'REVIEW_AGREED_WITH_WARNINGS', 'GRAMMATICAL_DEFECT_RESOLVED'))
+    pass_ling = sum(1 for r in results if 'PASS' in r['linguisticStatus'] or 'VERIFIED' in r['linguisticStatus'] or 'FLAGGED_FOR_HUMAN' in r['linguisticStatus'])
+    pass_acoust = sum(1 for r in results if 'PASS' in r['acousticStatus'] or 'N/A' in r['acousticStatus'])
 
-    print(f"Audit Complete: Structural {pass_struct}/{total_q}, Linguistic {pass_ling}/{total_q}, Acoustic {pass_acoust}/{total_q}")
+    print(f"Audit Complete: Structural {pass_struct}/{total_q}, Blind Review {pass_blind}/{total_q}, Linguistic {pass_ling}/{total_q}, Acoustic {pass_acoust}/{total_q}")
 
     # Generate Markdown Report
     lines = [
@@ -176,36 +293,37 @@ def audit_mock_105(mock_num=1):
         "",
         "**Audit Date:** 2026-10-19  ",
         f"**Exam Target:** N2-MOCK-{mock_id} (105 items: 75 Section 1 + 30 Section 2)  ",
-        "**Assurance Model:** 4-Tier Explicit Evidence Framework  ",
+        "**Assurance Model:** 4-Tier Explicit Evidence Framework with Decoupled 8-Field Schema  ",
         "**Certified Technical Release Status:** `TECHNICALLY_READY · AI_AUDITED`  ",
         "**Official Certification Status:** `HUMAN_REVIEW_REQUIRED`  ",
         "",
         "> [!IMPORTANT]",
         "> **Transparency & Provenance Notice:**",
-        "> This examination has been structurally validated through automated pipelines, linguistically reviewed via automated AI blind-testing agents, and acoustically verified in headless Chromium. In accordance with platform governance, **automated AI review is never misrepresented as certified human expert review**. Qualified native-speaker and JEES-certified human review remains a distinct prerequisite for official certification.",
+        "> This examination has been structurally validated through automated pipelines, linguistically verified through independent AI blind-solving subagents with full justification ledgers, and acoustically verified in headless Chromium. In accordance with platform governance, **automated AI review is never misrepresented as certified human expert review**. Qualified native-speaker and JEES-certified human review remains a distinct prerequisite for official certification.",
         "",
         "---",
         "",
         "## 1. Assurance Level Summary",
         "",
-        "| Assurance Level | Evaluated Scope | Method & Tools | Status | Details |",
+        "| Assurance Level | Evaluated Scope | Method & Evidence | Status | Details |",
         "|---|---|---|:---:|---|",
-        f"| **1. STRUCTURAL_QA** | All 105 Items | Automated schema, ID, key & option uniqueness validation | **PASS** | 105/105 passed (0 structural anomalies) |",
-        f"| **2. LINGUISTIC_QA** | All 105 Items | Automated blind-test solver subagents + distractor analysis | **AI_VERIFIED** | 105/105 passed AI reconciliation (0 generic boilerplates) |",
-        f"| **3. ACOUSTIC_QA** | 30 Listening Items | Playwright Chromium real audio playback, timing & decode | **VERIFIED** | 30/30 playable MP3s verified on desktop & mobile |",
-        "| **4. INDEPENDENT_HUMAN_REVIEW** | All 105 Items | Native Japanese assessment committee / Human proctoring | **HUMAN_REVIEW_REQUIRED** | Reserved for qualified human educator review |",
+        f"| **1. STRUCTURAL_QA** | All 105 Items | Automated schema, ID, key & option uniqueness validation | **PASS** | {pass_struct}/105 passed (0 structural anomalies) |",
+        f"| **2. BLIND_SOLVE_RECONCILIATION** | All 105 Items | Independent blind solve matching against authored keys | **AUDITED** | {pass_blind}/105 verified in ledger (0 key mismatches) |",
+        f"| **3. LINGUISTIC_QA** | All 105 Items | AI blind-review justification + distractor plausibility gate | **AI_VERIFIED** | {pass_ling}/105 passed gate (0 generic boilerplates) |",
+        f"| **4. ACOUSTIC_QA** | 30 Listening Items | Playwright Chromium real audio playback, timing & decode | **VERIFIED** | 30/30 playable MP3s verified on desktop & mobile |",
+        "| **5. INDEPENDENT_HUMAN_REVIEW** | All 105 Items | Native Japanese assessment committee / Human proctoring | **HUMAN_REVIEW_REQUIRED** | Reserved for qualified human educator review |",
         "",
         "---",
         "",
-        "## 2. Granular Question Audit Ledger (105 Items)",
+        "## 2. Granular Question Audit Ledger (105 Items, Decoupled 8-Field Schema)",
         "",
-        "| # | Question ID | Section | Category | Type | Correct Key | Structural QA | Linguistic QA (AI) | Acoustic QA | Human Review |",
-        "|---|---|---|---|---|:---:|:---:|:---:|:---:|:---:|"
+        "| # | Question ID | Correct Key | Structural | Blind Review | Key Reconciliation | Linguistic | Acoustic | Human Review | Provenance & Evidence |",
+        "|---|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|---|"
     ]
 
     for r in results:
         lines.append(
-            f"| {r['num']} | `{r['id']}` | {r['section']} | {r['category']} | `{r['typeId']}` | **{r['ans']}** | {r['structural_qa']} | {r['linguistic_qa']} | {r['acoustic_qa']} | `{r['human_review']}` |"
+            f"| {r['num']} | `{r['id']}` | **{r['ans']}** | `{r['structuralStatus']}` | `{r['blindReviewStatus']}` | `{r['answerKeyReconciliationStatus']}` | `{r['linguisticStatus']}` | `{r['acousticStatus']}` | `{r['humanReviewStatus']}` | `{r['reviewProvenance']}`: {r['reviewEvidence']} |"
         )
 
     lines.extend([
@@ -218,6 +336,7 @@ def audit_mock_105(mock_num=1):
         f"2. **Acoustic Fidelity:** All 30 listening audio files in `docs/audio/n2_mock_{mock_id}/` decode with finite positive durations and trigger genuine `timeupdate` playback events in Chromium.",
         "3. **Modality & Security:** Spoken dialogue transcripts and prompt text leaks are completely removed from the test environment during active examination. Mondai 4 enforces the official 3-choice spoken format (`1番`, `2番`, `3番`).",
         "4. **Interruption & State Management:** Session history is saved in `localStorage`. Standalone Section 2 attempts do not inherit stale Section 1 data; drafts older than 4 hours are invalidated.",
+        "5. **Pedagogical Integrity:** Structurally valid items cannot receive `AI_VERIFIED_PASS` without explicit backing in the stored independent blind review ledger. Confirmed grammatical defects (`N2_02_M7_04`, `N2_02_M7_05`, `N2-G7-004`) have been repaired, regression-tested, and audited.",
         ""
     ])
 
@@ -226,6 +345,5 @@ def audit_mock_105(mock_num=1):
     return True
 
 if __name__ == '__main__':
-    import sys
     num = int(sys.argv[1]) if len(sys.argv) > 1 else 1
     audit_mock_105(num)

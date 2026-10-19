@@ -2,136 +2,137 @@
 
 **Audit Date:** 2026-10-19  
 **Exam Target:** N2-MOCK-01 (105 items: 75 Section 1 + 30 Section 2)  
-**Assurance Model:** 4-Tier Explicit Evidence Framework  
+**Assurance Model:** 4-Tier Explicit Evidence Framework with Decoupled 8-Field Schema  
 **Certified Technical Release Status:** `TECHNICALLY_READY · AI_AUDITED`  
 **Official Certification Status:** `HUMAN_REVIEW_REQUIRED`  
 
 > [!IMPORTANT]
 > **Transparency & Provenance Notice:**
-> This examination has been structurally validated through automated pipelines, linguistically reviewed via automated AI blind-testing agents, and acoustically verified in headless Chromium. In accordance with platform governance, **automated AI review is never misrepresented as certified human expert review**. Qualified native-speaker and JEES-certified human review remains a distinct prerequisite for official certification.
+> This examination has been structurally validated through automated pipelines, linguistically verified through independent AI blind-solving subagents with full justification ledgers, and acoustically verified in headless Chromium. In accordance with platform governance, **automated AI review is never misrepresented as certified human expert review**. Qualified native-speaker and JEES-certified human review remains a distinct prerequisite for official certification.
 
 ---
 
 ## 1. Assurance Level Summary
 
-| Assurance Level | Evaluated Scope | Method & Tools | Status | Details |
+| Assurance Level | Evaluated Scope | Method & Evidence | Status | Details |
 |---|---|---|:---:|---|
 | **1. STRUCTURAL_QA** | All 105 Items | Automated schema, ID, key & option uniqueness validation | **PASS** | 105/105 passed (0 structural anomalies) |
-| **2. LINGUISTIC_QA** | All 105 Items | Automated blind-test solver subagents + distractor analysis | **AI_VERIFIED** | 105/105 passed AI reconciliation (0 generic boilerplates) |
-| **3. ACOUSTIC_QA** | 30 Listening Items | Playwright Chromium real audio playback, timing & decode | **VERIFIED** | 30/30 playable MP3s verified on desktop & mobile |
-| **4. INDEPENDENT_HUMAN_REVIEW** | All 105 Items | Native Japanese assessment committee / Human proctoring | **HUMAN_REVIEW_REQUIRED** | Reserved for qualified human educator review |
+| **2. BLIND_SOLVE_RECONCILIATION** | All 105 Items | Independent blind solve matching against authored keys | **AUDITED** | 105/105 verified in ledger (0 key mismatches) |
+| **3. LINGUISTIC_QA** | All 105 Items | AI blind-review justification + distractor plausibility gate | **AI_VERIFIED** | 105/105 passed gate (0 generic boilerplates) |
+| **4. ACOUSTIC_QA** | 30 Listening Items | Playwright Chromium real audio playback, timing & decode | **VERIFIED** | 30/30 playable MP3s verified on desktop & mobile |
+| **5. INDEPENDENT_HUMAN_REVIEW** | All 105 Items | Native Japanese assessment committee / Human proctoring | **HUMAN_REVIEW_REQUIRED** | Reserved for qualified human educator review |
 
 ---
 
-## 2. Granular Question Audit Ledger (105 Items)
+## 2. Granular Question Audit Ledger (105 Items, Decoupled 8-Field Schema)
 
-| # | Question ID | Section | Category | Type | Correct Key | Structural QA | Linguistic QA (AI) | Acoustic QA | Human Review |
-|---|---|---|---|---|:---:|:---:|:---:|:---:|:---:|
-| 1 | `N2-M1-001` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-MO-READ` | **B** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 2 | `N2-M1-002` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-MO-READ` | **B** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 3 | `N2-M1-003` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-MO-READ` | **D** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 4 | `N2-M1-004` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-MO-READ` | **C** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 5 | `N2-M1-005` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-MO-READ` | **A** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 6 | `N2-M2-001` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-MO-ORTH` | **A** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 7 | `N2-M2-002` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-MO-ORTH` | **A** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 8 | `N2-M2-003` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-MO-ORTH` | **A** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 9 | `N2-M2-004` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-MO-ORTH` | **D** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 10 | `N2-M2-005` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-MO-ORTH` | **B** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 11 | `N2-M3-001` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-MO-AFFX` | **C** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 12 | `N2-M3-002` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-MO-AFFX` | **C** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 13 | `N2-M3-003` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-MO-AFFX` | **B** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 14 | `N2-M3-004` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-MO-AFFX` | **D** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 15 | `N2-M3-005` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-MO-AFFX` | **C** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 16 | `N2-M4-001` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-MO-CONT` | **D** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 17 | `N2-M4-002` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-MO-CONT` | **C** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 18 | `N2-M4-003` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-MO-CONT` | **A** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 19 | `N2-M4-004` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-MO-CONT` | **A** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 20 | `N2-M4-005` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-MO-CONT` | **C** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 21 | `N2-M4-006` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-MO-CONT` | **A** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 22 | `N2-M4-007` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-MO-CONT` | **A** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 23 | `N2-M5-001` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-MO-PARA` | **C** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 24 | `N2-M5-002` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-MO-PARA` | **C** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 25 | `N2-M5-003` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-MO-PARA` | **A** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 26 | `N2-M5-004` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-MO-PARA` | **D** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 27 | `N2-M5-005` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-MO-PARA` | **D** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 28 | `N2-M6-001` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-MO-USAG` | **D** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 29 | `N2-M6-002` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-MO-USAG` | **A** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 30 | `N2-M6-003` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-MO-USAG` | **D** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 31 | `N2-M6-004` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-MO-USAG` | **D** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 32 | `N2-M6-005` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-MO-USAG` | **B** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 33 | `N2-G7-001` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-GR-FORM` | **D** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 34 | `N2-G7-002` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-GR-FORM` | **A** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 35 | `N2-G7-003` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-GR-FORM` | **D** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 36 | `N2-G7-004` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-GR-FORM` | **D** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 37 | `N2-G7-005` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-GR-FORM` | **D** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 38 | `N2-G7-006` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-GR-FORM` | **C** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 39 | `N2-G7-007` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-GR-FORM` | **D** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 40 | `N2-G7-008` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-GR-FORM` | **C** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 41 | `N2-G7-009` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-GR-FORM` | **B** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 42 | `N2-G7-010` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-GR-FORM` | **D** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 43 | `N2-G7-011` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-GR-FORM` | **D** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 44 | `N2-G7-012` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-GR-FORM` | **A** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 45 | `N2-G8-001` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-GR-STAR` | **C** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 46 | `N2-G8-002` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-GR-STAR` | **C** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 47 | `N2-G8-003` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-GR-STAR` | **C** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 48 | `N2-G8-004` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-GR-STAR` | **A** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 49 | `N2-G8-005` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-GR-STAR` | **C** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 50 | `N2-G9-001` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-GR-CLOZ` | **C** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 51 | `N2-G9-002` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-GR-CLOZ` | **B** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 52 | `N2-G9-003` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-GR-CLOZ` | **C** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 53 | `N2-G9-004` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-GR-CLOZ` | **C** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 54 | `N2-G9-005` | Phần 1: Kiến thức & Đọc hiểu | Language Knowledge | `N2-GR-CLOZ` | **C** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 55 | `N2-RD-SHOR-001` | Phần 1: Kiến thức & Đọc hiểu | Reading | `N2-RD-SHOR` | **C** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 56 | `N2-RD-SHOR-002` | Phần 1: Kiến thức & Đọc hiểu | Reading | `N2-RD-SHOR` | **B** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 57 | `N2-RD-SHOR-003` | Phần 1: Kiến thức & Đọc hiểu | Reading | `N2-RD-SHOR` | **D** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 58 | `N2-RD-SHOR-004` | Phần 1: Kiến thức & Đọc hiểu | Reading | `N2-RD-SHOR` | **B** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 59 | `N2-RD-SHOR-005` | Phần 1: Kiến thức & Đọc hiểu | Reading | `N2-RD-SHOR` | **A** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 60 | `N2-MED-01-Q01` | Phần 1: Kiến thức & Đọc hiểu | Reading | `N2-RD-MEDI` | **D** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 61 | `N2-MED-01-Q02` | Phần 1: Kiến thức & Đọc hiểu | Reading | `N2-RD-MEDI` | **D** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 62 | `N2-MED-01-Q03` | Phần 1: Kiến thức & Đọc hiểu | Reading | `N2-RD-MEDI` | **C** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 63 | `N2-MED-02-Q01` | Phần 1: Kiến thức & Đọc hiểu | Reading | `N2-RD-MEDI` | **B** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 64 | `N2-MED-02-Q02` | Phần 1: Kiến thức & Đọc hiểu | Reading | `N2-RD-MEDI` | **C** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 65 | `N2-MED-02-Q03` | Phần 1: Kiến thức & Đọc hiểu | Reading | `N2-RD-MEDI` | **A** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 66 | `N2-MED-03-Q01` | Phần 1: Kiến thức & Đọc hiểu | Reading | `N2-RD-MEDI` | **B** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 67 | `N2-MED-03-Q02` | Phần 1: Kiến thức & Đọc hiểu | Reading | `N2-RD-MEDI` | **A** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 68 | `N2-MED-03-Q03` | Phần 1: Kiến thức & Đọc hiểu | Reading | `N2-RD-MEDI` | **B** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 69 | `N2-INTE-01-Q01` | Phần 1: Kiến thức & Đọc hiểu | Reading | `N2-RD-INTE` | **D** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 70 | `N2-INTE-01-Q02` | Phần 1: Kiến thức & Đọc hiểu | Reading | `N2-RD-INTE` | **A** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 71 | `N2-LONG-01-Q01` | Phần 1: Kiến thức & Đọc hiểu | Reading | `N2-RD-LONG` | **B** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 72 | `N2-LONG-01-Q02` | Phần 1: Kiến thức & Đọc hiểu | Reading | `N2-RD-LONG` | **A** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 73 | `N2-LONG-01-Q03` | Phần 1: Kiến thức & Đọc hiểu | Reading | `N2-RD-LONG` | **A** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 74 | `N2-INFO-01-Q01` | Phần 1: Kiến thức & Đọc hiểu | Reading | `N2-RD-INFO` | **C** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 75 | `N2-INFO-01-Q02` | Phần 1: Kiến thức & Đọc hiểu | Reading | `N2-RD-INFO` | **B** | PASS | AI_VERIFIED_PASS | N/A (Written Section) | `HUMAN_REVIEW_REQUIRED` |
-| 76 | `N2-M1-L01` | Phần 2: Nghe hiểu | Listening | `N2-LIS-TASK` | **D** | PASS | AI_VERIFIED_PASS | BROWSER_PLAYBACK_PASS | `HUMAN_REVIEW_REQUIRED` |
-| 77 | `N2-M1-L02` | Phần 2: Nghe hiểu | Listening | `N2-LIS-TASK` | **A** | PASS | AI_VERIFIED_PASS | BROWSER_PLAYBACK_PASS | `HUMAN_REVIEW_REQUIRED` |
-| 78 | `N2-M1-L03` | Phần 2: Nghe hiểu | Listening | `N2-LIS-TASK` | **C** | PASS | AI_VERIFIED_PASS | BROWSER_PLAYBACK_PASS | `HUMAN_REVIEW_REQUIRED` |
-| 79 | `N2-M1-L04` | Phần 2: Nghe hiểu | Listening | `N2-LIS-TASK` | **C** | PASS | AI_VERIFIED_PASS | BROWSER_PLAYBACK_PASS | `HUMAN_REVIEW_REQUIRED` |
-| 80 | `N2-M1-L05` | Phần 2: Nghe hiểu | Listening | `N2-LIS-TASK` | **B** | PASS | AI_VERIFIED_PASS | BROWSER_PLAYBACK_PASS | `HUMAN_REVIEW_REQUIRED` |
-| 81 | `N2-M2-L01` | Phần 2: Nghe hiểu | Listening | `N2-LIS-POIN` | **C** | PASS | AI_VERIFIED_PASS | BROWSER_PLAYBACK_PASS | `HUMAN_REVIEW_REQUIRED` |
-| 82 | `N2-M2-L02` | Phần 2: Nghe hiểu | Listening | `N2-LIS-POIN` | **A** | PASS | AI_VERIFIED_PASS | BROWSER_PLAYBACK_PASS | `HUMAN_REVIEW_REQUIRED` |
-| 83 | `N2-M2-L03` | Phần 2: Nghe hiểu | Listening | `N2-LIS-POIN` | **B** | PASS | AI_VERIFIED_PASS | BROWSER_PLAYBACK_PASS | `HUMAN_REVIEW_REQUIRED` |
-| 84 | `N2-M2-L04` | Phần 2: Nghe hiểu | Listening | `N2-LIS-POIN` | **C** | PASS | AI_VERIFIED_PASS | BROWSER_PLAYBACK_PASS | `HUMAN_REVIEW_REQUIRED` |
-| 85 | `N2-M2-L05` | Phần 2: Nghe hiểu | Listening | `N2-LIS-POIN` | **B** | PASS | AI_VERIFIED_PASS | BROWSER_PLAYBACK_PASS | `HUMAN_REVIEW_REQUIRED` |
-| 86 | `N2-M2-L06` | Phần 2: Nghe hiểu | Listening | `N2-LIS-POIN` | **B** | PASS | AI_VERIFIED_PASS | BROWSER_PLAYBACK_PASS | `HUMAN_REVIEW_REQUIRED` |
-| 87 | `N2-M3-L01` | Phần 2: Nghe hiểu | Listening | `N2-LIS-OUTL` | **A** | PASS | AI_VERIFIED_PASS | BROWSER_PLAYBACK_PASS | `HUMAN_REVIEW_REQUIRED` |
-| 88 | `N2-M3-L02` | Phần 2: Nghe hiểu | Listening | `N2-LIS-OUTL` | **C** | PASS | AI_VERIFIED_PASS | BROWSER_PLAYBACK_PASS | `HUMAN_REVIEW_REQUIRED` |
-| 89 | `N2-M3-L03` | Phần 2: Nghe hiểu | Listening | `N2-LIS-OUTL` | **C** | PASS | AI_VERIFIED_PASS | BROWSER_PLAYBACK_PASS | `HUMAN_REVIEW_REQUIRED` |
-| 90 | `N2-M3-L04` | Phần 2: Nghe hiểu | Listening | `N2-LIS-OUTL` | **C** | PASS | AI_VERIFIED_PASS | BROWSER_PLAYBACK_PASS | `HUMAN_REVIEW_REQUIRED` |
-| 91 | `N2-M3-L05` | Phần 2: Nghe hiểu | Listening | `N2-LIS-OUTL` | **A** | PASS | AI_VERIFIED_PASS | BROWSER_PLAYBACK_PASS | `HUMAN_REVIEW_REQUIRED` |
-| 92 | `N2-M4-L01` | Phần 2: Nghe hiểu | Listening | `N2-LIS-RESP` | **A** | PASS | AI_VERIFIED_PASS | BROWSER_PLAYBACK_PASS | `HUMAN_REVIEW_REQUIRED` |
-| 93 | `N2-M4-L02` | Phần 2: Nghe hiểu | Listening | `N2-LIS-RESP` | **B** | PASS | AI_VERIFIED_PASS | BROWSER_PLAYBACK_PASS | `HUMAN_REVIEW_REQUIRED` |
-| 94 | `N2-M4-L03` | Phần 2: Nghe hiểu | Listening | `N2-LIS-RESP` | **A** | PASS | AI_VERIFIED_PASS | BROWSER_PLAYBACK_PASS | `HUMAN_REVIEW_REQUIRED` |
-| 95 | `N2-M4-L04` | Phần 2: Nghe hiểu | Listening | `N2-LIS-RESP` | **B** | PASS | AI_VERIFIED_PASS | BROWSER_PLAYBACK_PASS | `HUMAN_REVIEW_REQUIRED` |
-| 96 | `N2-M4-L05` | Phần 2: Nghe hiểu | Listening | `N2-LIS-RESP` | **A** | PASS | AI_VERIFIED_PASS | BROWSER_PLAYBACK_PASS | `HUMAN_REVIEW_REQUIRED` |
-| 97 | `N2-M4-L06` | Phần 2: Nghe hiểu | Listening | `N2-LIS-RESP` | **B** | PASS | AI_VERIFIED_PASS | BROWSER_PLAYBACK_PASS | `HUMAN_REVIEW_REQUIRED` |
-| 98 | `N2-M4-L07` | Phần 2: Nghe hiểu | Listening | `N2-LIS-RESP` | **A** | PASS | AI_VERIFIED_PASS | BROWSER_PLAYBACK_PASS | `HUMAN_REVIEW_REQUIRED` |
-| 99 | `N2-M4-L08` | Phần 2: Nghe hiểu | Listening | `N2-LIS-RESP` | **A** | PASS | AI_VERIFIED_PASS | BROWSER_PLAYBACK_PASS | `HUMAN_REVIEW_REQUIRED` |
-| 100 | `N2-M4-L09` | Phần 2: Nghe hiểu | Listening | `N2-LIS-RESP` | **A** | PASS | AI_VERIFIED_PASS | BROWSER_PLAYBACK_PASS | `HUMAN_REVIEW_REQUIRED` |
-| 101 | `N2-M4-L10` | Phần 2: Nghe hiểu | Listening | `N2-LIS-RESP` | **A** | PASS | AI_VERIFIED_PASS | BROWSER_PLAYBACK_PASS | `HUMAN_REVIEW_REQUIRED` |
-| 102 | `N2-M4-L11` | Phần 2: Nghe hiểu | Listening | `N2-LIS-RESP` | **A** | PASS | AI_VERIFIED_PASS | BROWSER_PLAYBACK_PASS | `HUMAN_REVIEW_REQUIRED` |
-| 103 | `N2-M5-L01` | Phần 2: Nghe hiểu | Listening | `N2-LIS-INTE` | **B** | PASS | AI_VERIFIED_PASS | BROWSER_PLAYBACK_PASS | `HUMAN_REVIEW_REQUIRED` |
-| 104 | `N2-M5-L02` | Phần 2: Nghe hiểu | Listening | `N2-LIS-INTE` | **C** | PASS | AI_VERIFIED_PASS | BROWSER_PLAYBACK_PASS | `HUMAN_REVIEW_REQUIRED` |
-| 105 | `N2-M5-L03` | Phần 2: Nghe hiểu | Listening | `N2-LIS-INTE` | **C** | PASS | AI_VERIFIED_PASS | BROWSER_PLAYBACK_PASS | `HUMAN_REVIEW_REQUIRED` |
+| # | Question ID | Correct Key | Structural | Blind Review | Key Reconciliation | Linguistic | Acoustic | Human Review | Provenance & Evidence |
+|---|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|---|
+| 1 | `N2-M1-001` | **B** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; 「把握」の正しい音読みは「はあく」。「把（ハ）」＋「握（アク）」。物事の全体や本質をしっかりと理解してつかむ意... |
+| 2 | `N2-M1-002` | **B** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; 「勧誘」の正しい音読みは長音の「かんゆう」。「勧（カン）」＋「誘（ユウ）」。A「かんゆ」は短音化の誤り、C「け... |
+| 3 | `N2-M1-003` | **D** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; 「措置」の正しい音読みは「そち」。「措（ソ）」＋「置（チ）」。「措置を講じる」は頻出のコロケーション。A「しょ... |
+| 4 | `N2-M1-004` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; 「模索」の正しい音読みは「もさく」。「模（モ）」＋「索（サク）」。「暗中模索（あんちゅうもさく）」は頻出の四字... |
+| 5 | `N2-M1-005` | **A** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; 「巧妙」の正しい音読みは「こうみょう」。「巧（コウ）」＋「妙（ミョウ）」。極めて手際よく優れている意。B「きょ... |
+| 6 | `N2-M2-001` | **A** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; 「しんちょう（に検討する）」の正しい漢字表記は「慎重」。「慎（つつしむ）」＋「重（おもじる）」。注意深く軽はず... |
+| 7 | `N2-M2-002` | **A** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; 警報や制限を取りやめる意味の「かいじょ」の正しい漢字表記は「解除」。「解（とく）」＋「除（のぞく）」。B「改除... |
+| 8 | `N2-M2-003` | **A** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; 程度・規模を極力小さく抑える語は「最小限」であり、「最小限に食い止める」は定型的な表現。「最少限」という複合語... |
+| 9 | `N2-M2-004` | **D** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; 自分の思いや企てをきっぱり諦める意の「だんねん」の正しい表記は「断念」。「断（たちきる）」＋「念（おもい）」。... |
+| 10 | `N2-M2-005` | **B** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; 景気や経済状態が元の好調な状態に戻る場合は「回復」と書く。A「快復」は病気や怪我が完治する場合に限定される書き... |
+| 11 | `N2-M3-001` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; 「自分の義務や任務を自覚して全うしようとする気持ち」を表す接尾辞は「感」であり、「責任感（が欠けている／ある／... |
+| 12 | `N2-M3-002` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; 性質や程度を表す接尾辞「性」がつき、「安全性（あんぜんせい）」となる。「安全性が高い／低い」は定型的な共起表現... |
+| 13 | `N2-M3-003` | **B** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; 「〜の状態にする・変える」を意味する接尾辞は「化」であり、「自動化（じどうか）」を形成する。「工場の自動化を進... |
+| 14 | `N2-M3-004` | **D** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; 名詞に付いて「その性質・状態を帯びているさま」を表す形容動詞を形成する接尾辞は「的」であり、「論理的に（考える... |
+| 15 | `N2-M3-005` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; 「他人の気持ちや周囲への配慮・感覚が鈍いさま」を表す接頭辞は「無」であり、「無神経（むしんけい）だ」が唯一成立... |
+| 16 | `N2-M4-001` | **D** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; 「激しい運動や走行などによって呼吸が苦しくなる」ことを表す慣用句は「息が切れる」。「坂道を一気に駆け上がった」... |
+| 17 | `N2-M4-002` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; 提案や主張が聞き手を納得させる力を持つことを表す定型語は「説得力（せっとくりょく）」であり、「説得力がある」と... |
+| 18 | `N2-M4-003` | **A** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; 「真摯（しんし）に受け止める」は「まじめで誠実に批判やクレームに向き合う」ことを表す定着したビジネス・公的連語... |
+| 19 | `N2-M4-004` | **A** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; 「議論を交わす（受身：議論が交わされる）」は「互いに意見や議論を活発に出し合う」ことを表す標準的な共起表現。「... |
+| 20 | `N2-M4-005` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; 事件捜査や問題解決のためのヒント・糸口を表す名詞は「手がかり」であり、「決定的な手がかりを探す」は極めて自然な... |
+| 21 | `N2-M4-006` | **A** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; 「〜とは裏腹（うらはら）に」は「期待や予想とは正反対に」を意味するN2慣用表現。「本人の期待とは裏腹に、結果は... |
+| 22 | `N2-M4-007` | **A** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; 物事の主要な部分・大枠を表す「大筋（おおすじ）」は、「大筋で合意に達する（大筋合意）」という定着した外交・ビジ... |
+| 23 | `N2-M5-001` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; 「ぶっきらぼう」は「態度や話し方に愛想がなく、そっけないさま」を表す。したがって「愛想がない」が最も的確な言い... |
+| 24 | `N2-M5-002` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; 「あやふや」は「物事が曖昧で、不確かではっきりしないさま」を表す。「証言があやふやだ」＝「証言がはっきりしない... |
+| 25 | `N2-M5-003` | **A** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; 「几帳面（きちょうめん）」は「細かいところまで規則正しく、きちんとしているさま」を表す。したがって「きちんとし... |
+| 26 | `N2-M5-004` | **D** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; 動詞「怯える（おびえる）」は「恐ろしく思ってビクビクする、怖がる」という意味。「怖がる」が意味的に完全に合致す... |
+| 27 | `N2-M5-005` | **D** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; 「お詫び（おわび）」は自らの過ちや不手際を謝る行為・言葉であり、「謝罪（しゃざい）」と同義。「深くお詫び申し上... |
+| 28 | `N2-M6-001` | **D** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; 「経緯（けいい／いきさつ）」は「事件や事態の始まりから結末に至るまでの経過・成り行き」を意味する。「事件の詳し... |
+| 29 | `N2-M6-002` | **A** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; 「ニュアンス（nuance）」は「表現・意味・感情などの微妙な差異や陰影」を表す語。「微妙な言葉のニュアンスの... |
+| 30 | `N2-M6-003` | **D** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; 「著しい（いちじるしい）」は「目立って明白であるさま」を表し、特に「進歩／発展／変化／減少が著しい」のように動... |
+| 31 | `N2-M6-004` | **D** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; 副詞「いたって（至って）」は「きわめて・非常に」を意味し、状態が予想外に平穏・良好であるニュアンスを伴う。「高... |
+| 32 | `N2-M6-005` | **B** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; 副詞「忽ち（たちまち）」は「あっという間に・短時間のうちに事態が急変するさま」を表す。「チケットがたちまち売り... |
+| 33 | `N2-G7-001` | **D** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; 「名詞＋に際して」は「〜の機会に当たって／〜に先立って」を意味する改まった表現。「開会に際して一言ご挨拶を申し... |
+| 34 | `N2-G7-002` | **A** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; 「名詞＋を契機に（して）」は「ある出来事を好機・転機として、新しい展開や心理的広がりが生じる」ことを表す。留学... |
+| 35 | `N2-G7-003` | **D** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; 「動詞未然形＋ざるを得ない（認めざるを得ない）」は「客観的な状況から判断して、他に選択肢がなく、やむを得ずそう... |
+| 36 | `N2-G7-004` | **C** | `PASS` | `GRAMMATICAL_DEFECT_RESOLVED` | `REPAIRED_MATCH` | `REPAIRED_AND_VERIFIED` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; 「名詞＋のみならず」は「〜だけでなく、さらに他も」と並列・付加する文型。「英語のみならず、フランス語や中国語も... |
+| 37 | `N2-G7-005` | **D** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; 「名詞＋にほかならない」は「まさにそれである、それ以外の何ものでもない」と理由・原因を断定・強調する文型。「努... |
+| 38 | `N2-G7-006` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; 「単なる〜にすぎない」は「ただの〜だけで、大したものではない」と程度や重要性を低く限定するN2重要文型。「あま... |
+| 39 | `N2-G7-007` | **D** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The verb stem before the blank is 「読め」 (the potential m... |
+| 40 | `N2-G7-008` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The construction 「〜には、...ものがある」 is an established N2 ex... |
+| 41 | `N2-G7-009` | **B** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The pattern 「〜にこたえて」（に応えて） means 'in response to / meet... |
+| 42 | `N2-G7-010` | **D** | `PASS` | `REVIEW_AGREED_WITH_WARNINGS` | `AGREED_WITH_NUANCE_NOTE` | `AI_AGREED_FLAGGED_FOR_HUMAN` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The sentence contrasts two opposing aspects of city lif... |
+| 43 | `N2-G7-011` | **D** | `PASS` | `REVIEW_AGREED_WITH_WARNINGS` | `AGREED_WITH_NUANCE_NOTE` | `AI_AGREED_FLAGGED_FOR_HUMAN` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The canonical JLPT N2 grammar pattern for binary polar ... |
+| 44 | `N2-G7-012` | **A** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The N2 grammar pattern 「〜を問わず」 means 'regardless of / i... |
+| 45 | `N2-G8-001` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The grammatically coherent sentence is: 「新製品の 売れ行き(A) 次... |
+| 46 | `N2-G8-002` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The grammatically coherent sentence is: 「どんなに 困難な(A) 状況... |
+| 47 | `N2-G8-003` | **C** | `PASS` | `REVIEW_AGREED_WITH_WARNINGS` | `AGREED_WITH_NUANCE_NOTE` | `AI_AGREED_FLAGGED_FOR_HUMAN` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The canonical JLPT sentence structure is: 「この計画は 予算の(A)... |
+| 48 | `N2-G8-004` | **A** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The grammatically coherent sentence is: 「長年の 研究の(D) 末に(... |
+| 49 | `N2-G8-005` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The grammatically coherent sentence is: 「彼は 多忙を(B) 極める(... |
+| 50 | `N2-G9-001` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The passage describes a prevalent societal tendency in ... |
+| 51 | `N2-G9-002` | **B** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The N2 grammar pattern 「動詞辞書形＋あまり（に）」 denotes an excess... |
+| 52 | `N2-G9-003` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The N2 grammar pattern 「〜てこそ」 expresses an indispensabl... |
+| 53 | `N2-G9-004` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The grammar pattern 「〜にほかならない」 attaches to nouns/partic... |
+| 54 | `N2-G9-005` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The final sentence delivers the author's concluding app... |
+| 55 | `N2-RD-SHOR-001` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The passage argues that job fulfillment (やりがい) is not p... |
+| 56 | `N2-RD-SHOR-002` | **B** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The passage explicitly states: 「新たな挑戦に伴う予期せぬ失敗は、次なる成功のた... |
+| 57 | `N2-RD-SHOR-003` | **D** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The author notes that while social media allows instant... |
+| 58 | `N2-RD-SHOR-004` | **B** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The passage discusses how hyper-focus on time-performan... |
+| 59 | `N2-RD-SHOR-005` | **A** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The author defines genuine inheritance of tradition in ... |
+| 60 | `N2-MED-01-Q01` | **D** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; Paragraph 1 states: 「古典的な進化論の視点に立てば、自らの生存と生殖の確率を最大化すること... |
+| 61 | `N2-MED-01-Q02` | **D** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; Paragraph 2 explains: 「人間は過酷な自然環境を生き抜くために、強固な集団（コミュニティ）... |
+| 62 | `N2-MED-01-Q03` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The final sentence concludes: 「つまり、利他行動とは単なる道徳的な義務感から生じ... |
+| 63 | `N2-MED-02-Q01` | **B** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; Paragraph 1 describes rural communities as having stric... |
+| 64 | `N2-MED-02-Q02` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; Paragraph 2 identifies the price of freedom: 「深刻な『孤独』と『... |
+| 65 | `N2-MED-02-Q03` | **A** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The author concludes: 「今我々に求められているのは、旧来の息苦しい共同体へ回帰することで... |
+| 66 | `N2-MED-03-Q01` | **B** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; Paragraph 1 states: 「競合他社との差別化を図るために『機能の追加』が繰り返される...しか... |
+| 67 | `N2-MED-03-Q02` | **A** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; Paragraph 2 and 3 state: 「実際には足し算よりもはるかに高度な判断力と技術が要求される... |
+| 68 | `N2-MED-03-Q03` | **B** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The final sentence concludes: 「真に優れたデザインとは、これ以上付け足すものがな... |
+| 69 | `N2-INTE-01-Q01` | **D** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; Speaker A praises cashless payments for speed, efficien... |
+| 70 | `N2-INTE-01-Q02` | **A** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; Speaker B raises three specific hazards of complete cas... |
+| 71 | `N2-LONG-01-Q01` | **B** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; Paragraph 1 states: 「科学の成果なくして現代文明の一日たりとも成り立たない。しかし皮肉なこ... |
+| 72 | `N2-LONG-01-Q02` | **A** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; Paragraph 2 defines scientific literacy: 「単に教科書的な専門知識や公... |
+| 73 | `N2-LONG-01-Q03` | **A** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The final paragraph concludes: 「科学とは、完成された不変の真理の体系ではない。... |
+| 74 | `N2-INFO-01-Q01` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; Yamada's conditions are: 1) weekday evening after work,... |
+| 75 | `N2-INFO-01-Q02` | **B** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The notice explicitly warns under 注意点: 「開講日の3日前以降のキャンセル... |
+| 76 | `N2-M1-L01` | **D** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `BROWSER_PLAYBACK_PASS` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; When the man asks whether he should consult Tanaka in A... |
+| 77 | `N2-M1-L02` | **A** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `BROWSER_PLAYBACK_PASS` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The wife mentions that while electricity and gas were h... |
+| 78 | `N2-M1-L03` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `BROWSER_PLAYBACK_PASS` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The female employee reports having booked the hotel but... |
+| 79 | `N2-M1-L04` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `BROWSER_PLAYBACK_PASS` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The professor points out two specific issues: adding mi... |
+| 80 | `N2-M1-L05` | **B** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `BROWSER_PLAYBACK_PASS` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; Table settings and glasses (C) are already completed. T... |
+| 81 | `N2-M2-L01` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `BROWSER_PLAYBACK_PASS` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The man explicitly denies dissatisfaction with pay, ben... |
+| 82 | `N2-M2-L02` | **A** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `BROWSER_PLAYBACK_PASS` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The store clerk notes that beginners often focus on lig... |
+| 83 | `N2-M2-L03` | **B** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `BROWSER_PLAYBACK_PASS` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The expert states that most people who abandon reading ... |
+| 84 | `N2-M2-L04` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `BROWSER_PLAYBACK_PASS` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; While Company A had richer features and sleek design, C... |
+| 85 | `N2-M2-L05` | **B** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `BROWSER_PLAYBACK_PASS` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The shop owner explains that traditional wooden boxes f... |
+| 86 | `N2-M2-L06` | **B** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `BROWSER_PLAYBACK_PASS` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The doctor warns against extreme dietary restrictions a... |
+| 87 | `N2-M3-L01` | **A** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `BROWSER_PLAYBACK_PASS` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The professor presents experimental evidence that rooft... |
+| 88 | `N2-M3-L02` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `BROWSER_PLAYBACK_PASS` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The expert cautions against obsessing over sleep tracki... |
+| 89 | `N2-M3-L03` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `BROWSER_PLAYBACK_PASS` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The curator contrasts Western classical symmetry with J... |
+| 90 | `N2-M3-L04` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `BROWSER_PLAYBACK_PASS` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The consultant argues that dwelling on past mistakes ca... |
+| 91 | `N2-M3-L05` | **A** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `BROWSER_PLAYBACK_PASS` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The speaker emphasizes that recycling alone cannot keep... |
+| 92 | `N2-M4-L01` | **A** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `BROWSER_PLAYBACK_PASS` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; In response to a polite request to look over tomorrow's... |
+| 93 | `N2-M4-L02` | **B** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `BROWSER_PLAYBACK_PASS` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; When praised with 『君のおかげで大成功だったよ』 (It was a great succe... |
+| 94 | `N2-M4-L03` | **A** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `BROWSER_PLAYBACK_PASS` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; To a subordinate asking 『今お時間よろしいでしょうか』 (Do you have ti... |
+| 95 | `N2-M4-L04` | **B** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `BROWSER_PLAYBACK_PASS` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; When informed that today's tickets are completely sold ... |
+| 96 | `N2-M4-L05` | **A** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `BROWSER_PLAYBACK_PASS` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; When a coworker despairs about an unrealistic deadline ... |
+| 97 | `N2-M4-L06` | **B** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `BROWSER_PLAYBACK_PASS` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; In response to the report that guest Tanaka has arrived... |
+| 98 | `N2-M4-L07` | **A** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `BROWSER_PLAYBACK_PASS` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; When a friend apologizes for being unable to attend yes... |
+| 99 | `N2-M4-L08` | **A** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `BROWSER_PLAYBACK_PASS` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The speaker expresses sharp disappointment regarding a ... |
+| 100 | `N2-M4-L09` | **A** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `BROWSER_PLAYBACK_PASS` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; When politely requested to write one's name on a form (... |
+| 101 | `N2-M4-L10` | **A** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `BROWSER_PLAYBACK_PASS` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; When asked if one has visited the new station cafe whos... |
+| 102 | `N2-M4-L11` | **A** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `BROWSER_PLAYBACK_PASS` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; When advised to take an umbrella because it looks like ... |
+| 103 | `N2-M5-L01` | **B** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `BROWSER_PLAYBACK_PASS` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The mandatory conditions are: 25 participants, budget <... |
+| 104 | `N2-M5-L02` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `BROWSER_PLAYBACK_PASS` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The woman rejects Restaurant #4 because the executives ... |
+| 105 | `N2-M5-L03` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `BROWSER_PLAYBACK_PASS` | `HUMAN_REVIEW_REQUIRED` | `subagent:jlpt-blind-reviewer`: Conf: HIGH; The couple requires an air purifier for a bedroom where... |
 
 ---
 
@@ -141,3 +142,4 @@
 2. **Acoustic Fidelity:** All 30 listening audio files in `docs/audio/n2_mock_01/` decode with finite positive durations and trigger genuine `timeupdate` playback events in Chromium.
 3. **Modality & Security:** Spoken dialogue transcripts and prompt text leaks are completely removed from the test environment during active examination. Mondai 4 enforces the official 3-choice spoken format (`1番`, `2番`, `3番`).
 4. **Interruption & State Management:** Session history is saved in `localStorage`. Standalone Section 2 attempts do not inherit stale Section 1 data; drafts older than 4 hours are invalidated.
+5. **Pedagogical Integrity:** Structurally valid items cannot receive `AI_VERIFIED_PASS` without explicit backing in the stored independent blind review ledger. Confirmed grammatical defects (`N2_02_M7_04`, `N2_02_M7_05`, `N2-G7-004`) have been repaired, regression-tested, and audited.

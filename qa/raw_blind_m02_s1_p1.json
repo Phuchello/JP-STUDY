@@ -1,0 +1,308 @@
+[
+  {
+    "id": "N2_02_M1_01",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The kanji compound 『選定』 (selection, choice) consists of 選 (せん) and 定 (てい), pronounced 『せんてい』. Option B is the correct phonetic reading.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M1_02",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The kanji compound 『冷静』 (calm, composed) consists of 冷 (れい) and 静 (せい), pronounced 『れいせい』. Option C is the correct phonetic reading.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M1_03",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The kanji compound 『刷新』 (reform, renewal) undergoes sokuon gemination: 刷 (さつ) + 新 (しん) -> 『さっしん』. Option B is the correct phonetic reading.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M1_04",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The kanji compound 『対立』 (opposition, confrontation) consists of 対 (たい) and 立 (りつ), pronounced 『たいりつ』. Option A is the correct phonetic reading.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M1_05",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "The kanji compound 『腐食』 (corrosion, etching) consists of 腐 (ふ) and 食 (しょく), pronounced 『ふしょく』. Option D is the correct phonetic reading.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M2_01",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The verb collocation for deliberating/reviewing a business plan is 『事業計画を検討する』 (けんとう = 検討). Option C provides the correct kanji orthography.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M2_02",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The standard collocation for reaching an agreement after negotiation is 『合意に達した』 (たっした = 達した). Option A provides the correct kanji orthography.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M2_03",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The term for social disparity or economic inequality is 『格差』 (かくさ), as in 『社会的な格差の是正』. Option B provides the correct kanji orthography.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M2_04",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The verb for securing or ensuring an emergency power supply is 『確保する』 (かくほ = 確保). Option C provides the correct kanji orthography.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M2_05",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "Restoring trust or reputation is written as 『信頼を回復する』 (かいふく = 回復). 快復 is restricted to physical recovery from illness. Option D is the correct kanji orthography.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M3_01",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The standard prefix negating 現実的 (realistic) is 非-, forming 『非現実的』 (unrealistic, surreal). None of the other prefixes (無, 不, 未) attach to 現実的. Option C is correct.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M3_02",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The prefix denoting non-membership attached to 会員 (member) is 非-, forming 『非会員』 (non-member). Option B is correct.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M3_03",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "The suffix attached to energy-saving specifications for appliances is -型, forming 『省エネルギー型の家電』 (energy-efficient type/model appliances). Option D is correct.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M3_04",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The compound verb for exceeding or surpassing projected profits is 『予想を上回る』 (うわまわる). Option B provides the correct kanji 上.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M3_05",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The prefix indicating not yet developed attached to 開発 is 未-, forming 『未開発の自然』 (untouched/undeveloped nature). Option C is correct.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M4_01",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "The onomatopoeia describing tired, strained, or irritated eyes from prolonged screen exposure is 『目がしょぼしょぼする』. Option B is the exact fit.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M4_02",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The idiomatic collocation for a painful or reluctant managerial decision is 『苦渋の決断』 (a tough, bitter decision). Option C is correct.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M4_03",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The standard adverb collocating with train timetable disruption is 『ダイヤが大幅に乱れている』 (significantly/drastically disrupted). Option B is correct.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M4_04",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "Describing an academic paper structure that is thorough, meticulous, and free of logical leaps requires 『構成が綿密』 (meticulous structure). Option B is correct.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M4_05",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The idiom for pulling ahead of or opening a lead over competitors is 『ライバル企業に差をつけた』 (差をつける). Option C is correct.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M4_06",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The adjective describing greeting someone with a pleasant, smiling demeanor to make a good first impression is にこやか (smilingly, cheerfully). Option B is semantically correct.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": "Particle nuance: Modern standard Japanese overwhelmingly prefers 『にこやかに挨拶ができる』 with particle に rather than と. While にこやかと is attested in literary/traditional usage, にこやかに is the standard contemporary form."
+  },
+  {
+    "id": "N2_02_M4_07",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "The fixed expression for being trapped/confined inside an elevator during a power failure is 『エレベーターの閉じ込めに遭う』. Option B (閉じ込め) is the correct verbal noun.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M5_01",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The adverb 『ざっと』 means briefly, roughly, or cursorily (e.g. ざっと確認する), which directly matches 『おおまかに』 (Option B).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M5_02",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "『皮肉』 refers to sarcasm, cynicism, or snide remarks. The closest synonym is 『嫌味』 (いやみ, Option C).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M5_03",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "The onomatopoeic adverb 『ばったり（出会う）』 means bumping into someone by chance or unexpectedly, paraphrased as 『偶然に』 (Option B).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M5_04",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "『頓挫（とんざ）』 means a plan or project stalling, collapsing, or suffering a setback midway. This directly equates to 『途中で挫折』 (Option C).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M5_05",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The idiom 『意に介さない』 means paying no mind or not caring about external criticism, which is synonymous with 『気に留めない』 (Option B).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M6_01",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "『手薄（てうす）』 specifically denotes being undermanned, short of personnel, or having insufficient security/defenses. Option B (『連休中は警備員が手薄になるため……』) exemplifies the canonical usage.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M6_02",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "『配慮（はいりょ）』 means consideration or care for others, taking their circumstances into account (〜に配慮する). Option A (『高齢者や車椅子の利用者に配慮して……』) correctly applies this to accommodating vulnerable station users.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M6_03",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "『無難（ぶなん）』 means safe, prudent, and free from the risk of blunder or criticism. Option B (『落ち着いた色のスーツを着ていくのが無難だ』) is the standard idiomatic usage when selecting safe attire.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M6_04",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "『目途（めど）』 means prospects, outlook, or target. The set phrase 『目途が立つ』 means prospects/outlook have been established, as in 『資金調達の目途が立ち……』 (Option A).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M6_05",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "『妥協（だきょう）』 means compromise or conceding on one's standards. Option A (『どんなに困難な壁にぶつかっても、最後まで決して妥協しない』) represents the canonical usage of refusing to lower one's standards.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M7_01",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The set phrase for finding or carving out time amidst a hectic schedule is 『スケジュールの合間を縫って』 (合間を縫う). Option A is the correct idiomatic verb phrase.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M7_02",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The grammar pattern 〜とあって expresses that because of a special status or situation, a natural result follows: 『プロの料理人とあって、包丁の手入れには人一倍気を使っている』. Option A is correct.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M7_03",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "Following the premise 『事態がここまで悪化した以上、もはや……』 (now that things have deteriorated this far), the inevitable consequence is having no choice but to apologize: 『社長自ら謝罪せざるを得ない』 (Option B).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M7_04",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The grammar pattern 〜ならでは（の） denotes something uniquely possible for or characteristic of a master or special entity: 『熟練の職人ならではの技だ』 (a skill unique to veteran artisans). Option B is correct.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M7_05",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The suffix 〜がたい attaches to the masu-stem of cognitive verbs to express that something is practically impossible or exceedingly difficult to do emotionally/intellectually: 『一般の人には理解しがたいものだった』. Option C is correct.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M7_06",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The grammar construction 『どんなに〜ようと（も）』 expresses an extreme concessive condition ('no matter how much...'). Paired with どんなに, 『進歩しようと』 (Option A) forms the standard N2 structure 『どんなに科学技術が進歩しようと、……できない』.",
+    "alternativeDefensibleAnswers": [
+      "B"
+    ],
+    "concerns": "Distractor overlap: 『〜したところで』 (even if... it is futile) can colloquially express a similar concessive nuance, though 『どんなに……ようと』 is the canonical textbook pairing."
+  }
+]
