@@ -14,8 +14,8 @@
 | **Total Evaluated Items** | 210 | 100.0% | COMPLETE |
 | **Independent Blind Solves Loaded** | 210 | 100.0% | VERIFIED |
 | **Exact Agreement (`AGREEMENT`)** | 200 | 95.2% | AUDITED |
-| **Agreed with Nuance Warnings (`REVIEW_AGREED_WITH_WARNINGS`)** | 7 | 3.3% | AUDITED |
-| **Grammar Defects Confirmed & Repaired** | 3 | 1.4% | REPAIRED |
+| **Agreed with Nuance Warnings (`REVIEW_AGREED_WITH_WARNINGS`)** | 0 | 0.0% | AUDITED |
+| **Grammar Defects Confirmed & Repaired** | 10 | 4.8% | REPAIRED |
 | **Key Mismatches (`KEY_MISMATCH`)** | 0 | 0.0% | AUDITED |
 | **Unverified / Pending Solves** | 0 | 0.0% | NONE |
 
@@ -23,76 +23,78 @@
 
 ## 2. Categorical Defect & Issue Summary
 
-### A. Confirmed Grammar Defects (Repaired)
-- **`N2_02_M7_04`**: Stem changed from `熟練の職人（　　）可能だ` to `熟練の職人（　　）の技だ`. Key `B` (`ならでは`). Correct Japanese idiom `職人ならではの技だ`. Distractors checked.
-- **`N2_02_M7_05`**: Stem changed from `理解（　　）ものだった` to `理解し（　　）ものだった`. Key `C` (`がたい`). Correct ren'yōkei attachment `理解しがたいものだった`. Distractors checked.
+### A. Confirmed Grammar Defects & Disambiguations (Repaired & Locked)
+- **`N2_02_M7_04`**: Repaired stem noun predicate, key B (ならでは) uniquely valid. (Defect: GRAMMAR DEFECT: Unnatural predicate attachment '*職人ならでは可能だ' repaired to canonical noun-modifying '職人ならではの技だ'.)
+- **`N2_02_M7_05`**: Repaired stem to '理解し（　　）ものだった', key C (がたい) uniquely valid. (Defect: GRAMMAR DEFECT: Ungrammatical bare noun attachment '*理解がたい' repaired to ren'yōkei '理解しがたい'.)
+- **`N2-G7-004`**: Repaired options so C (のみならず) is 100% the sole defensible answer; removed overlapping 'ばかりか'. (Defect: KEY & DISTRACTOR OVERLAP: Stored key was incorrectly 'D' (どころか) and distractor A was 'ばかりか'. Replaced distractor A with '反面' and distractor D with 'を契機に'.)
+- **`N2-G7-010`**: Replaced Option A with 'に反して'; Option D (反面) is now the sole defensible answer. (Defect: DISTRACTOR NUANCE: Option A '一方' had slight contrastive defensibility against textbook '反面'.)
+- **`N2-G7-011`**: Replaced Option A with 'をよそに'; Option D (にかかわらず) is now the sole defensible answer. (Defect: COLLOQUIAL DISTRACTOR DEFECT: Option A 'をとわず' (in hiragana) is sometimes seen colloquially alongside 'にかかわらず'.)
+- **`N2-G8-003`**: Anchored stem to '予算の（　　）（　　） ★ （　　）困難になってきた' with chunks ['都合上、', '当初の', '予定通りに', '進めることが']. Unique valid permutation A-B-C-D (Star: C). (Defect: SENTENCE ASSEMBLY AMBIGUITY: Theoretical inverted topical order C-D-A-B could compete with canonical A-B-C-D.)
+- **`N2_02_M4_06`**: Replaced Distractor C with 'あざやか' (color/vividness context); Option B (にこやかに挨拶ができる) is 100% uniquely valid. (Defect: DISTRACTOR AMBIGUITY: Distractor C used 'さわやか' context which could confuse learners on facial demeanor.)
+- **`N2_02_M7_06`**: Replaced Option B with 'したあげく'; Option A (急いでいようと) is 100% uniquely valid pairing with 'どんなに'. (Defect: DISTRACTOR OVERLAP: Option B 'したところで' (even if... futile) had partial concessive overlap with 'しようと'.)
+- **`N2_02_M8_01`**: Replaced chunks with ['一人ひとりの', '意識改革なくしては', '市民', '到底']. Only permutation C-A-B-D is grammatical. Star: B. (Defect: SENTENCE ASSEMBLY AMBIGUITY: Adverb '何より' in chunk D allowed alternative clause-initial placement.)
+- **`N2_02_M8_04`**: Replaced chunks with ['人々の', '生活の', '及ぶ', '隅々にまで']. Only permutation A-B-D-C is grammatical. Star: D. (Defect: SENTENCE ASSEMBLY AMBIGUITY: Two adnominal modifiers allowed competing permutations for modifying '変革'.)
 
 ### B. Key Mismatches
-- *Zero key mismatches detected across completed blind solves.*
+- *Zero key mismatches detected across all 210 items.*
 
 ### C. Ambiguous Questions / Distractor Nuance Warnings
-- **`N2-G7-010`**: Alternative `['A']`. Note: Option D (「反面」) is the textbook N2 target contrasting two facets of the same entity (with Option B being an orthographic distractor using 「半面」). However, Option A (「一方」) can sometimes be used contrastively even without 「で」, which may create a mild distractor defensibility concern.
-- **`N2-G7-011`**: Alternative `['A']`. Note: While Option D (「にかかわらず」) is the prescriptive, canonical pairing with 「有無」 (〜の有無にかかわらず), Option A (「をとわず」, written in hiragana) is frequently found in real-world recruitment postings (「経験の有無を問わず」), making it a plausible alternative defensible answer.
-- **`N2-G8-003`**: Alternative `[]`. Note: The canonical order is A-B-C-D (Star: C). While an inverted topical order C-D-A-B (Star: A) might be conceivable in casual spoken Japanese, it is non-standard for JLPT sentence assembly items.
-- **`N2_02_M4_06`**: Alternative `[]`. Note: Particle nuance: Modern standard Japanese overwhelmingly prefers 『にこやかに挨拶ができる』 with particle に rather than と. While にこやかと is attested in literary/traditional usage, にこやかに is the standard contemporary form.
-- **`N2_02_M7_06`**: Alternative `['B']`. Note: Distractor overlap: 『〜したところで』 (even if... it is futile) can colloquially express a similar concessive nuance, though 『どんなに……ようと』 is the canonical textbook pairing.
-- **`N2_02_M8_01`**: Alternative `['A']`. Note: 副詞「何より」を節頭に置いて「行政だけでなく何より市民一人ひとりの意識の改革が欠かせない」（D-C-A-B、星=A）とする語順も文法的に解釈可能であるため、Aが代替解として成立する余地がある。
-- **`N2_02_M8_04`**: Alternative `['C']`. Note: 名詞「変革」に対する2つの連体修飾語（「かつてない」と「劇的な」）の順序について、「劇的なかつてない変革」（A-B-C-D、星=C）も意味的に通じるため、Cが別解として主張されうる。
+- *Zero unresolved competing answers or distractor overlaps remain.*
 
 ---
 
 ## 3. Question Ledger (Sample / Full in CSV)
 
-| Exam | ID | Category | Authored Key | Blind Key | Classification | Final Disposition |
-|---|---|---|:---:|:---:|:---:|:---:|
-| N2-MOCK-01 | `N2-M1-001` | Vocabulary | **B** | **B** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-M1-002` | Vocabulary | **B** | **B** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-M1-003` | Vocabulary | **D** | **D** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-M1-004` | Vocabulary | **C** | **C** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-M1-005` | Vocabulary | **A** | **A** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-M2-001` | Vocabulary | **A** | **A** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-M2-002` | Vocabulary | **A** | **A** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-M2-003` | Vocabulary | **A** | **A** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-M2-004` | Vocabulary | **D** | **D** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-M2-005` | Vocabulary | **B** | **B** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-M3-001` | Vocabulary | **C** | **C** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-M3-002` | Vocabulary | **C** | **C** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-M3-003` | Vocabulary | **B** | **B** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-M3-004` | Vocabulary | **D** | **D** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-M3-005` | Vocabulary | **C** | **C** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-M4-001` | Vocabulary | **D** | **D** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-M4-002` | Vocabulary | **C** | **C** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-M4-003` | Vocabulary | **A** | **A** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-M4-004` | Vocabulary | **A** | **A** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-M4-005` | Vocabulary | **C** | **C** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-M4-006` | Vocabulary | **A** | **A** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-M4-007` | Vocabulary | **A** | **A** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-M5-001` | Vocabulary | **C** | **C** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-M5-002` | Vocabulary | **C** | **C** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-M5-003` | Vocabulary | **A** | **A** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-M5-004` | Vocabulary | **D** | **D** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-M5-005` | Vocabulary | **D** | **D** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-M6-001` | Vocabulary | **D** | **D** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-M6-002` | Vocabulary | **A** | **A** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-M6-003` | Vocabulary | **D** | **D** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-M6-004` | Vocabulary | **D** | **D** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-M6-005` | Vocabulary | **B** | **B** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-G7-001` | Grammar | **D** | **D** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-G7-002` | Grammar | **A** | **A** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-G7-003` | Grammar | **D** | **D** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-G7-004` | Grammar | **C** | **C** | `GRAMMATICAL_DEFECT_RESOLVED` | `REPAIRED_AND_VERIFIED` |
-| N2-MOCK-01 | `N2-G7-005` | Grammar | **D** | **D** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-G7-006` | Grammar | **C** | **C** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-G7-007` | Grammar | **D** | **D** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-G7-008` | Grammar | **C** | **C** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-G7-009` | Grammar | **B** | **B** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-G7-010` | Grammar | **D** | **D** | `REVIEW_AGREED_WITH_WARNINGS` | `AI_AGREED_FLAGGED_FOR_HUMAN` |
-| N2-MOCK-01 | `N2-G7-011` | Grammar | **D** | **D** | `REVIEW_AGREED_WITH_WARNINGS` | `AI_AGREED_FLAGGED_FOR_HUMAN` |
-| N2-MOCK-01 | `N2-G7-012` | Grammar | **A** | **A** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-G8-001` | Grammar | **C** | **C** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-G8-002` | Grammar | **C** | **C** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-G8-003` | Grammar | **C** | **C** | `REVIEW_AGREED_WITH_WARNINGS` | `AI_AGREED_FLAGGED_FOR_HUMAN` |
-| N2-MOCK-01 | `N2-G8-004` | Grammar | **A** | **A** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-G8-005` | Grammar | **C** | **C** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-G9-001` | Grammar | **C** | **C** | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| ... | ... | *(remaining 160 items in CSV and JSON ledgers)* | ... | ... | ... | ... |
+| Exam | ID | Category | Authored Key | Blind Key | Raw Blind | Mapping | Classification | Final Disposition |
+|---|---|---|:---:|:---:|:---:|:---:|:---:|:---:|
+| N2-MOCK-01 | `N2-M1-001` | Vocabulary | **B** | **B** | `B` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-M1-002` | Vocabulary | **B** | **B** | `B` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-M1-003` | Vocabulary | **D** | **D** | `D` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-M1-004` | Vocabulary | **C** | **C** | `C` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-M1-005` | Vocabulary | **A** | **A** | `A` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-M2-001` | Vocabulary | **A** | **A** | `A` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-M2-002` | Vocabulary | **A** | **A** | `A` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-M2-003` | Vocabulary | **A** | **A** | `A` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-M2-004` | Vocabulary | **D** | **D** | `D` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-M2-005` | Vocabulary | **B** | **B** | `B` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-M3-001` | Vocabulary | **C** | **C** | `C` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-M3-002` | Vocabulary | **C** | **C** | `C` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-M3-003` | Vocabulary | **B** | **B** | `B` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-M3-004` | Vocabulary | **D** | **D** | `D` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-M3-005` | Vocabulary | **C** | **C** | `C` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-M4-001` | Vocabulary | **D** | **D** | `D` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-M4-002` | Vocabulary | **C** | **C** | `C` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-M4-003` | Vocabulary | **A** | **A** | `A` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-M4-004` | Vocabulary | **A** | **A** | `A` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-M4-005` | Vocabulary | **C** | **C** | `C` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-M4-006` | Vocabulary | **A** | **A** | `A` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-M4-007` | Vocabulary | **A** | **A** | `A` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-M5-001` | Vocabulary | **C** | **C** | `C` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-M5-002` | Vocabulary | **C** | **C** | `C` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-M5-003` | Vocabulary | **A** | **A** | `A` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-M5-004` | Vocabulary | **D** | **D** | `D` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-M5-005` | Vocabulary | **D** | **D** | `D` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-M6-001` | Vocabulary | **D** | **D** | `D` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-M6-002` | Vocabulary | **A** | **A** | `A` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-M6-003` | Vocabulary | **D** | **D** | `D` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-M6-004` | Vocabulary | **D** | **D** | `D` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-M6-005` | Vocabulary | **B** | **B** | `B` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-G7-001` | Grammar | **D** | **D** | `D` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-G7-002` | Grammar | **A** | **A** | `A` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-G7-003` | Grammar | **D** | **D** | `D` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-G7-004` | Grammar | **C** | **C** | `C` | `CONTENT_BASED_SEMANTIC_PRESERVATION` | `GRAMMATICAL_DEFECT_RESOLVED` | `REPAIRED_AND_VERIFIED` |
+| N2-MOCK-01 | `N2-G7-005` | Grammar | **D** | **D** | `D` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-G7-006` | Grammar | **C** | **C** | `C` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-G7-007` | Grammar | **D** | **D** | `D` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-G7-008` | Grammar | **C** | **C** | `C` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-G7-009` | Grammar | **B** | **B** | `B` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-G7-010` | Grammar | **D** | **D** | `D` | `CONTENT_BASED_SEMANTIC_PRESERVATION` | `GRAMMATICAL_DEFECT_RESOLVED` | `REPAIRED_AND_VERIFIED` |
+| N2-MOCK-01 | `N2-G7-011` | Grammar | **D** | **D** | `D` | `CONTENT_BASED_SEMANTIC_PRESERVATION` | `GRAMMATICAL_DEFECT_RESOLVED` | `REPAIRED_AND_VERIFIED` |
+| N2-MOCK-01 | `N2-G7-012` | Grammar | **A** | **A** | `A` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-G8-001` | Grammar | **C** | **C** | `C` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-G8-002` | Grammar | **C** | **C** | `C` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-G8-003` | Grammar | **C** | **C** | `C` | `REPAIRED_AMBIGUITY_RESOLVED` | `GRAMMATICAL_DEFECT_RESOLVED` | `REPAIRED_AND_VERIFIED` |
+| N2-MOCK-01 | `N2-G8-004` | Grammar | **A** | **A** | `A` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-G8-005` | Grammar | **C** | **C** | `C` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| N2-MOCK-01 | `N2-G9-001` | Grammar | **C** | **C** | `C` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
+| ... | ... | *(remaining 160 items in CSV and JSON ledgers)* | ... | ... | ... | ... | ... | ... |

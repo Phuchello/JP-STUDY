@@ -85,10 +85,10 @@ class TestDefectRegressions(unittest.TestCase):
         opts = {o['id']: o['text'] for o in q['options']}
         self.assertEqual(opts['C'], 'のみならず')
 
-        # 2. Defective 'どころか' must be a distractor (D)
-        self.assertEqual(opts['D'], 'どころか')
-        self.assertIn("どころか", q['distractorExplanations']['D'])
-        self.assertIn("流暢に操る", q['distractorExplanations']['D'])
+        # 2. Ambiguous distractor 'どころか' replaced with unambiguous 'を契機に'
+        self.assertEqual(opts['D'], 'を契機に')
+        self.assertNotIn('どころか', opts.values())
+        self.assertIn("を契機に", q['distractorExplanations']['D'])
 
         # 3. Distractor A must be '反面' to eliminate duplicate distractor overlap with 'ばかりか'
         self.assertEqual(opts['A'], '反面')

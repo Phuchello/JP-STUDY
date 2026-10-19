@@ -1,0 +1,730 @@
+{
+  "examId": "N2-MOCK-02",
+  "generatedAt": "2026-10-19T10:22:29.893Z",
+  "browserEngine": "Playwright Chromium Headless",
+  "totalTracks": 30,
+  "verifiedTracks": 30,
+  "allPassed": true,
+  "tracks": {
+    "N2_02_M1_L01": {
+      "questionId": "N2_02_M1_L01",
+      "filename": "N2_02_M1_L01.mp3",
+      "audioFileExists": true,
+      "audioFileSize": 559244,
+      "audioHashVerified": true,
+      "audioSha256": "5e3fd5e3f2500b9281d541a7275453bad99b1e7f732cf7d22d769ab281c9ae16",
+      "audioDecodes": true,
+      "durationSec": 93.1,
+      "browserPlaybackVerified": true,
+      "playbackDesktop": {
+        "loaded": true,
+        "played": true,
+        "timeAdvanced": true,
+        "duration": 93.104,
+        "currentTime": 0.372155,
+        "error": null
+      },
+      "playbackMobile": {
+        "played": true,
+        "currentTime": 0.376997,
+        "error": null
+      }
+    },
+    "N2_02_M1_L02": {
+      "questionId": "N2_02_M1_L02",
+      "filename": "N2_02_M1_L02.mp3",
+      "audioFileExists": true,
+      "audioFileSize": 530156,
+      "audioHashVerified": true,
+      "audioSha256": "905cbcc4421e48b46ebb31517316816655ca8a0a11c8bce28b48e5be6fe978e5",
+      "audioDecodes": true,
+      "durationSec": 88.3,
+      "browserPlaybackVerified": true,
+      "playbackDesktop": {
+        "loaded": true,
+        "played": true,
+        "timeAdvanced": true,
+        "duration": 88.264,
+        "currentTime": 0.487911,
+        "error": null
+      },
+      "playbackMobile": {
+        "played": true,
+        "currentTime": 0.225941,
+        "error": null
+      }
+    },
+    "N2_02_M1_L03": {
+      "questionId": "N2_02_M1_L03",
+      "filename": "N2_02_M1_L03.mp3",
+      "audioFileExists": true,
+      "audioFileSize": 562988,
+      "audioHashVerified": true,
+      "audioSha256": "4212dd78e9cb20abf7e80386707244747f02f818edf029fc4fbf54a75cb08730",
+      "audioDecodes": true,
+      "durationSec": 93.7,
+      "browserPlaybackVerified": true,
+      "playbackDesktop": {
+        "loaded": true,
+        "played": true,
+        "timeAdvanced": true,
+        "duration": 93.736,
+        "currentTime": 0.485978,
+        "error": null
+      },
+      "playbackMobile": {
+        "played": true,
+        "currentTime": 0.224284,
+        "error": null
+      }
+    },
+    "N2_02_M1_L04": {
+      "questionId": "N2_02_M1_L04",
+      "filename": "N2_02_M1_L04.mp3",
+      "audioFileExists": true,
+      "audioFileSize": 457148,
+      "audioHashVerified": true,
+      "audioSha256": "b718e18b0f711efae10c4af7eccb512e3b112d5b585f0acb1c6e784c5f9c6fb0",
+      "audioDecodes": true,
+      "durationSec": 76.1,
+      "browserPlaybackVerified": true,
+      "playbackDesktop": {
+        "loaded": true,
+        "played": true,
+        "timeAdvanced": true,
+        "duration": 76.096,
+        "currentTime": 0.482199,
+        "error": null
+      },
+      "playbackMobile": {
+        "played": true,
+        "currentTime": 0.221365,
+        "error": null
+      }
+    },
+    "N2_02_M1_L05": {
+      "questionId": "N2_02_M1_L05",
+      "filename": "N2_02_M1_L05.mp3",
+      "audioFileExists": true,
+      "audioFileSize": 503660,
+      "audioHashVerified": true,
+      "audioSha256": "f6a9da5e64f4f4d56b61c0da6e7c29f70e1c99f913b921f88f7d6838cb181ebf",
+      "audioDecodes": true,
+      "durationSec": 83.8,
+      "browserPlaybackVerified": true,
+      "playbackDesktop": {
+        "loaded": true,
+        "played": true,
+        "timeAdvanced": true,
+        "duration": 83.848,
+        "currentTime": 0.481051,
+        "error": null
+      },
+      "playbackMobile": {
+        "played": true,
+        "currentTime": 0.219434,
+        "error": null
+      }
+    },
+    "N2_02_M2_L01": {
+      "questionId": "N2_02_M2_L01",
+      "filename": "N2_02_M2_L01.mp3",
+      "audioFileExists": true,
+      "audioFileSize": 523532,
+      "audioHashVerified": true,
+      "audioSha256": "c395c2b412bbfa5e667ed0b410399261ddea67dddcaafa74174c035e6a545410",
+      "audioDecodes": true,
+      "durationSec": 87.2,
+      "browserPlaybackVerified": true,
+      "playbackDesktop": {
+        "loaded": true,
+        "played": true,
+        "timeAdvanced": true,
+        "duration": 87.152,
+        "currentTime": 0.48071,
+        "error": null
+      },
+      "playbackMobile": {
+        "played": true,
+        "currentTime": 0.215691,
+        "error": null
+      }
+    },
+    "N2_02_M2_L02": {
+      "questionId": "N2_02_M2_L02",
+      "filename": "N2_02_M2_L02.mp3",
+      "audioFileExists": true,
+      "audioFileSize": 437132,
+      "audioHashVerified": true,
+      "audioSha256": "6c44dc0b22d74339c3eb111687b8b6b45b510297d64cf3c775b41889ec150325",
+      "audioDecodes": true,
+      "durationSec": 72.8,
+      "browserPlaybackVerified": true,
+      "playbackDesktop": {
+        "loaded": true,
+        "played": true,
+        "timeAdvanced": true,
+        "duration": 72.752,
+        "currentTime": 1.039716,
+        "error": null
+      },
+      "playbackMobile": {
+        "played": true,
+        "currentTime": 0.220956,
+        "error": null
+      }
+    },
+    "N2_02_M2_L03": {
+      "questionId": "N2_02_M2_L03",
+      "filename": "N2_02_M2_L03.mp3",
+      "audioFileExists": true,
+      "audioFileSize": 427772,
+      "audioHashVerified": true,
+      "audioSha256": "74350131637b598f9df59f80ab7f19768f162b9cd2ba928dc103086594d7fe4f",
+      "audioDecodes": true,
+      "durationSec": 71.2,
+      "browserPlaybackVerified": true,
+      "playbackDesktop": {
+        "loaded": true,
+        "played": true,
+        "timeAdvanced": true,
+        "duration": 71.192,
+        "currentTime": 0.47441,
+        "error": null
+      },
+      "playbackMobile": {
+        "played": true,
+        "currentTime": 0.232174,
+        "error": null
+      }
+    },
+    "N2_02_M2_L04": {
+      "questionId": "N2_02_M2_L04",
+      "filename": "N2_02_M2_L04.mp3",
+      "audioFileExists": true,
+      "audioFileSize": 387452,
+      "audioHashVerified": true,
+      "audioSha256": "ddbbd47ccf965f1657e1192cf607c298f31926ae12fe660d10335724501f7bf5",
+      "audioDecodes": true,
+      "durationSec": 64.5,
+      "browserPlaybackVerified": true,
+      "playbackDesktop": {
+        "loaded": true,
+        "played": true,
+        "timeAdvanced": true,
+        "duration": 64.472,
+        "currentTime": 0.496343,
+        "error": null
+      },
+      "playbackMobile": {
+        "played": true,
+        "currentTime": 0.249597,
+        "error": null
+      }
+    },
+    "N2_02_M2_L05": {
+      "questionId": "N2_02_M2_L05",
+      "filename": "N2_02_M2_L05.mp3",
+      "audioFileExists": true,
+      "audioFileSize": 432236,
+      "audioHashVerified": true,
+      "audioSha256": "ac185960bf7b9abb6fee7884924262dc7737ab68011c678634f5d79eca3adfba",
+      "audioDecodes": true,
+      "durationSec": 71.9,
+      "browserPlaybackVerified": true,
+      "playbackDesktop": {
+        "loaded": true,
+        "played": true,
+        "timeAdvanced": true,
+        "duration": 71.936,
+        "currentTime": 0.492761,
+        "error": null
+      },
+      "playbackMobile": {
+        "played": true,
+        "currentTime": 0.208997,
+        "error": null
+      }
+    },
+    "N2_02_M2_L06": {
+      "questionId": "N2_02_M2_L06",
+      "filename": "N2_02_M2_L06.mp3",
+      "audioFileExists": true,
+      "audioFileSize": 464348,
+      "audioHashVerified": true,
+      "audioSha256": "a631f135da341cf8fb4c1a6347e1da38ab7502fd5a842e364b86da0706a463b6",
+      "audioDecodes": true,
+      "durationSec": 77.3,
+      "browserPlaybackVerified": true,
+      "playbackDesktop": {
+        "loaded": true,
+        "played": true,
+        "timeAdvanced": true,
+        "duration": 77.288,
+        "currentTime": 0.491204,
+        "error": null
+      },
+      "playbackMobile": {
+        "played": true,
+        "currentTime": 0.228186,
+        "error": null
+      }
+    },
+    "N2_02_M3_L01": {
+      "questionId": "N2_02_M3_L01",
+      "filename": "N2_02_M3_L01.mp3",
+      "audioFileExists": true,
+      "audioFileSize": 588764,
+      "audioHashVerified": true,
+      "audioSha256": "c7e424a99ee674412b2bccb44c39b675808e61f3bf9c7812956f16b65a938505",
+      "audioDecodes": true,
+      "durationSec": 98,
+      "browserPlaybackVerified": true,
+      "playbackDesktop": {
+        "loaded": true,
+        "played": true,
+        "timeAdvanced": true,
+        "duration": 98.02,
+        "currentTime": 0.502764,
+        "error": null
+      },
+      "playbackMobile": {
+        "played": true,
+        "currentTime": 0.232049,
+        "error": null
+      }
+    },
+    "N2_02_M3_L02": {
+      "questionId": "N2_02_M3_L02",
+      "filename": "N2_02_M3_L02.mp3",
+      "audioFileExists": true,
+      "audioFileSize": 676172,
+      "audioHashVerified": true,
+      "audioSha256": "efbf724707b62de6b8c0193b17e5555859304c4b759d875a9cd8009e8bd61130",
+      "audioDecodes": true,
+      "durationSec": 112.6,
+      "browserPlaybackVerified": true,
+      "playbackDesktop": {
+        "loaded": true,
+        "played": true,
+        "timeAdvanced": true,
+        "duration": 112.588,
+        "currentTime": 0.50161,
+        "error": null
+      },
+      "playbackMobile": {
+        "played": true,
+        "currentTime": 0.219597,
+        "error": null
+      }
+    },
+    "N2_02_M3_L03": {
+      "questionId": "N2_02_M3_L03",
+      "filename": "N2_02_M3_L03.mp3",
+      "audioFileExists": true,
+      "audioFileSize": 626492,
+      "audioHashVerified": true,
+      "audioSha256": "011501717070532373dea54ffc1ac6662270d95e79e84f31f69fce0e1800bd8d",
+      "audioDecodes": true,
+      "durationSec": 104.3,
+      "browserPlaybackVerified": true,
+      "playbackDesktop": {
+        "loaded": true,
+        "played": true,
+        "timeAdvanced": true,
+        "duration": 104.308,
+        "currentTime": 0.366838,
+        "error": null
+      },
+      "playbackMobile": {
+        "played": true,
+        "currentTime": 0.37115,
+        "error": null
+      }
+    },
+    "N2_02_M3_L04": {
+      "questionId": "N2_02_M3_L04",
+      "filename": "N2_02_M3_L04.mp3",
+      "audioFileExists": true,
+      "audioFileSize": 624188,
+      "audioHashVerified": true,
+      "audioSha256": "ef8aa8ac1e21a15a7ae8bdf8ac278bd5bf80cd2f2f22ad9908362c95324cf68b",
+      "audioDecodes": true,
+      "durationSec": 103.9,
+      "browserPlaybackVerified": true,
+      "playbackDesktop": {
+        "loaded": true,
+        "played": true,
+        "timeAdvanced": true,
+        "duration": 103.924,
+        "currentTime": 0.483455,
+        "error": null
+      },
+      "playbackMobile": {
+        "played": true,
+        "currentTime": 0.221769,
+        "error": null
+      }
+    },
+    "N2_02_M3_L05": {
+      "questionId": "N2_02_M3_L05",
+      "filename": "N2_02_M3_L05.mp3",
+      "audioFileExists": true,
+      "audioFileSize": 631244,
+      "audioHashVerified": true,
+      "audioSha256": "cb1aa07ead9530cb6611cf36a4380ef915e1ba5467fa9d69f0ea5a69c976820b",
+      "audioDecodes": true,
+      "durationSec": 105.1,
+      "browserPlaybackVerified": true,
+      "playbackDesktop": {
+        "loaded": true,
+        "played": true,
+        "timeAdvanced": true,
+        "duration": 105.1,
+        "currentTime": 0.484389,
+        "error": null
+      },
+      "playbackMobile": {
+        "played": true,
+        "currentTime": 0.221518,
+        "error": null
+      }
+    },
+    "N2_02_M4_L01": {
+      "questionId": "N2_02_M4_L01",
+      "filename": "N2_02_M4_L01.mp3",
+      "audioFileExists": true,
+      "audioFileSize": 167852,
+      "audioHashVerified": true,
+      "audioSha256": "2b155642ebfccb0aaa2a87592305cadbdb7ec71fc52f2a06649239165d5e2036",
+      "audioDecodes": true,
+      "durationSec": 27.9,
+      "browserPlaybackVerified": true,
+      "playbackDesktop": {
+        "loaded": true,
+        "played": true,
+        "timeAdvanced": true,
+        "duration": 27.868,
+        "currentTime": 0.484662,
+        "error": null
+      },
+      "playbackMobile": {
+        "played": true,
+        "currentTime": 0.220222,
+        "error": null
+      }
+    },
+    "N2_02_M4_L02": {
+      "questionId": "N2_02_M4_L02",
+      "filename": "N2_02_M4_L02.mp3",
+      "audioFileExists": true,
+      "audioFileSize": 164684,
+      "audioHashVerified": true,
+      "audioSha256": "a62b53a5ed5ee4bac557d160774b6d760de05ea77a2036f707cbe5f5b2545995",
+      "audioDecodes": true,
+      "durationSec": 27.3,
+      "browserPlaybackVerified": true,
+      "playbackDesktop": {
+        "loaded": true,
+        "played": true,
+        "timeAdvanced": true,
+        "duration": 27.34,
+        "currentTime": 0.491883,
+        "error": null
+      },
+      "playbackMobile": {
+        "played": true,
+        "currentTime": 0.212184,
+        "error": null
+      }
+    },
+    "N2_02_M4_L03": {
+      "questionId": "N2_02_M4_L03",
+      "filename": "N2_02_M4_L03.mp3",
+      "audioFileExists": true,
+      "audioFileSize": 150716,
+      "audioHashVerified": true,
+      "audioSha256": "0055e397c9f06a0b077863f18bbdc11e0facdf2f3e59a9e39d4004c0eb0a748f",
+      "audioDecodes": true,
+      "durationSec": 25,
+      "browserPlaybackVerified": true,
+      "playbackDesktop": {
+        "loaded": true,
+        "played": true,
+        "timeAdvanced": true,
+        "duration": 25.012,
+        "currentTime": 0.479265,
+        "error": null
+      },
+      "playbackMobile": {
+        "played": true,
+        "currentTime": 0.21992,
+        "error": null
+      }
+    },
+    "N2_02_M4_L04": {
+      "questionId": "N2_02_M4_L04",
+      "filename": "N2_02_M4_L04.mp3",
+      "audioFileExists": true,
+      "audioFileSize": 157916,
+      "audioHashVerified": true,
+      "audioSha256": "ab53caca182c97b8c5cba1d0e7f462213892ecfd6cbb66b8b595a3da544c059d",
+      "audioDecodes": true,
+      "durationSec": 26.2,
+      "browserPlaybackVerified": true,
+      "playbackDesktop": {
+        "loaded": true,
+        "played": true,
+        "timeAdvanced": true,
+        "duration": 26.212,
+        "currentTime": 0.490491,
+        "error": null
+      },
+      "playbackMobile": {
+        "played": true,
+        "currentTime": 0.230617,
+        "error": null
+      }
+    },
+    "N2_02_M4_L05": {
+      "questionId": "N2_02_M4_L05",
+      "filename": "N2_02_M4_L05.mp3",
+      "audioFileExists": true,
+      "audioFileSize": 184556,
+      "audioHashVerified": true,
+      "audioSha256": "d68a026021bbd33e8c6483fb7dc7165c434a9a46024d5616d0a5377805154c8e",
+      "audioDecodes": true,
+      "durationSec": 30.7,
+      "browserPlaybackVerified": true,
+      "playbackDesktop": {
+        "loaded": true,
+        "played": true,
+        "timeAdvanced": true,
+        "duration": 30.652,
+        "currentTime": 0.481489,
+        "error": null
+      },
+      "playbackMobile": {
+        "played": true,
+        "currentTime": 0.219499,
+        "error": null
+      }
+    },
+    "N2_02_M4_L06": {
+      "questionId": "N2_02_M4_L06",
+      "filename": "N2_02_M4_L06.mp3",
+      "audioFileExists": true,
+      "audioFileSize": 172172,
+      "audioHashVerified": true,
+      "audioSha256": "654e34c49f75427383d1043d432c24666f64688d2b87be2a4d040b85c91a5c02",
+      "audioDecodes": true,
+      "durationSec": 28.6,
+      "browserPlaybackVerified": true,
+      "playbackDesktop": {
+        "loaded": true,
+        "played": true,
+        "timeAdvanced": true,
+        "duration": 28.588,
+        "currentTime": 0.501708,
+        "error": null
+      },
+      "playbackMobile": {
+        "played": true,
+        "currentTime": 0.237136,
+        "error": null
+      }
+    },
+    "N2_02_M4_L07": {
+      "questionId": "N2_02_M4_L07",
+      "filename": "N2_02_M4_L07.mp3",
+      "audioFileExists": true,
+      "audioFileSize": 173756,
+      "audioHashVerified": true,
+      "audioSha256": "9938f093dba0728aeb6977c41fe4f3643d61a0daf4fc58a700a15744525eeec6",
+      "audioDecodes": true,
+      "durationSec": 28.9,
+      "browserPlaybackVerified": true,
+      "playbackDesktop": {
+        "loaded": true,
+        "played": true,
+        "timeAdvanced": true,
+        "duration": 28.852,
+        "currentTime": 0.500948,
+        "error": null
+      },
+      "playbackMobile": {
+        "played": true,
+        "currentTime": 0.215611,
+        "error": null
+      }
+    },
+    "N2_02_M4_L08": {
+      "questionId": "N2_02_M4_L08",
+      "filename": "N2_02_M4_L08.mp3",
+      "audioFileExists": true,
+      "audioFileSize": 177356,
+      "audioHashVerified": true,
+      "audioSha256": "49f204867938099779bf96f8c97d535ab59022a8b4cfd666b2c928ba0d75a5e2",
+      "audioDecodes": true,
+      "durationSec": 29.5,
+      "browserPlaybackVerified": true,
+      "playbackDesktop": {
+        "loaded": true,
+        "played": true,
+        "timeAdvanced": true,
+        "duration": 29.452,
+        "currentTime": 0.484147,
+        "error": null
+      },
+      "playbackMobile": {
+        "played": true,
+        "currentTime": 0.220481,
+        "error": null
+      }
+    },
+    "N2_02_M4_L09": {
+      "questionId": "N2_02_M4_L09",
+      "filename": "N2_02_M4_L09.mp3",
+      "audioFileExists": true,
+      "audioFileSize": 172172,
+      "audioHashVerified": true,
+      "audioSha256": "28645e8973cb5838dcc37508615d6e8ef8b142f09bc1bf25afb9a9af93457afa",
+      "audioDecodes": true,
+      "durationSec": 28.6,
+      "browserPlaybackVerified": true,
+      "playbackDesktop": {
+        "loaded": true,
+        "played": true,
+        "timeAdvanced": true,
+        "duration": 28.588,
+        "currentTime": 0.488798,
+        "error": null
+      },
+      "playbackMobile": {
+        "played": true,
+        "currentTime": 0.22744,
+        "error": null
+      }
+    },
+    "N2_02_M4_L10": {
+      "questionId": "N2_02_M4_L10",
+      "filename": "N2_02_M4_L10.mp3",
+      "audioFileExists": true,
+      "audioFileSize": 181100,
+      "audioHashVerified": true,
+      "audioSha256": "55f3052ddf71f19759ee2a85dbae7c393de247b3151bd00e49846d37cacd69fe",
+      "audioDecodes": true,
+      "durationSec": 30.1,
+      "browserPlaybackVerified": true,
+      "playbackDesktop": {
+        "loaded": true,
+        "played": true,
+        "timeAdvanced": true,
+        "duration": 30.076,
+        "currentTime": 0.475376,
+        "error": null
+      },
+      "playbackMobile": {
+        "played": true,
+        "currentTime": 0.213807,
+        "error": null
+      }
+    },
+    "N2_02_M4_L11": {
+      "questionId": "N2_02_M4_L11",
+      "filename": "N2_02_M4_L11.mp3",
+      "audioFileExists": true,
+      "audioFileSize": 201980,
+      "audioHashVerified": true,
+      "audioSha256": "69e03d58752d5511c60c732e3973a0e35254116882bd4adf2074fc97fbfecff6",
+      "audioDecodes": true,
+      "durationSec": 33.6,
+      "browserPlaybackVerified": true,
+      "playbackDesktop": {
+        "loaded": true,
+        "played": true,
+        "timeAdvanced": true,
+        "duration": 33.556,
+        "currentTime": 0.499504,
+        "error": null
+      },
+      "playbackMobile": {
+        "played": true,
+        "currentTime": 0.228171,
+        "error": null
+      }
+    },
+    "N2_02_M5_L01": {
+      "questionId": "N2_02_M5_L01",
+      "filename": "N2_02_M5_L01.mp3",
+      "audioFileExists": true,
+      "audioFileSize": 978140,
+      "audioHashVerified": true,
+      "audioSha256": "59bc4c89730ee511b12c5ea6be4995d9c3a78d45f12edab7a0be3b48c2608f48",
+      "audioDecodes": true,
+      "durationSec": 162.9,
+      "browserPlaybackVerified": true,
+      "playbackDesktop": {
+        "loaded": true,
+        "played": true,
+        "timeAdvanced": true,
+        "duration": 162.932,
+        "currentTime": 0.489726,
+        "error": null
+      },
+      "playbackMobile": {
+        "played": true,
+        "currentTime": 0.228763,
+        "error": null
+      }
+    },
+    "N2_02_M5_L02": {
+      "questionId": "N2_02_M5_L02",
+      "filename": "N2_02_M5_L02.mp3",
+      "audioFileExists": true,
+      "audioFileSize": 973532,
+      "audioHashVerified": true,
+      "audioSha256": "95546146ee794ee1314cc842466bd32b73435850277b4f0c2192bb13f77729bb",
+      "audioDecodes": true,
+      "durationSec": 162.2,
+      "browserPlaybackVerified": true,
+      "playbackDesktop": {
+        "loaded": true,
+        "played": true,
+        "timeAdvanced": true,
+        "duration": 162.164,
+        "currentTime": 0.504548,
+        "error": null
+      },
+      "playbackMobile": {
+        "played": true,
+        "currentTime": 0.234399,
+        "error": null
+      }
+    },
+    "N2_02_M5_L03": {
+      "questionId": "N2_02_M5_L03",
+      "filename": "N2_02_M5_L03.mp3",
+      "audioFileExists": true,
+      "audioFileSize": 790652,
+      "audioHashVerified": true,
+      "audioSha256": "cf5ca66d1a92d095888cb482b38618a513608f9ad4da1959df78337b33d18657",
+      "audioDecodes": true,
+      "durationSec": 131.7,
+      "browserPlaybackVerified": true,
+      "playbackDesktop": {
+        "loaded": true,
+        "played": true,
+        "timeAdvanced": true,
+        "duration": 131.684,
+        "currentTime": 0.519232,
+        "error": null
+      },
+      "playbackMobile": {
+        "played": true,
+        "currentTime": 0.241644,
+        "error": null
+      }
+    }
+  }
+}

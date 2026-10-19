@@ -1,0 +1,242 @@
+[
+  {
+    "id": "N2_02_M1_L01",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "The female colleague explicitly tells the male employee to submit the specialized software reinstallation application online first before anything else (何よりも先に申請フォームをオンラインで送ってちょうだい) because today at 5:00 PM is the strict deadline. Data backup was already finished yesterday, and cardboard box pickup is scheduled for tomorrow morning.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M1_L02",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The female officer explicitly offers to immediately contact the elementary school vice-principal to confirm availability and permission for using the gymnasium in case of rain (私が今すぐ小学校の教頭先生に連絡して、体育館の利用可否を確認してきます / すぐ電話してまいります). Flyer printing and food arrangements are either deferred or handled by the male officer.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M1_L03",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The professor explicitly assigns the graduate student to immediately set up the updated schedule notice board in front of the hall (アナウンス原稿は私が書くから、佐藤君は今すぐ案内板を作ってホール前に立ててきてくれ), which she confirms. Mass emailing is dismissed because attendees are already inside the hall.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M1_L04",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "When the male clerk offers to bring down the new jackets from the storage room, the store manager stops him and commands: 荷解きをする前に、まず今メイン通路に並んでいる秋物の薄手トレンチコートを奥のセール棚へ移動させて、スペースを空けてちょうだい (Before unpacking, first move the autumn trench coats to the rear sale rack to clear space). The clerk complies immediately.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M1_L05",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The nurse instructs the receptionist: 保険証の登録手続きより前に、まずは体温を測っていただいて、37.5度以上あればすぐに奥の隔離ブースにご案内してちょうだい (Before insurance card registration, first take their temperature, and if 37.5°C or higher, guide them to the isolation booth). The receptionist agrees to bring a thermometer right away.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M2_L01",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The female designer clarifies that while cost and environmental factors were considered, the direct catalyst (直接の契機) was feedback from elderly customers unable to open tight caps due to weak finger strength, leading to the universal design that allows easy opening with minimal grip strength.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M2_L02",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The HR representative highlights that replacing after-hours seminars with a short 5-minute desk stretch right after morning assembly during normal working hours and embedding it naturally into daily work routines was the primary factor (最大の要因) for reaching over 90% participation.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M2_L03",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "The craftsman emphasizes that authentic lacquerware absorbs ambient humidity and continues hardening over decades; the more it is used daily and wiped with cloth, the deeper the inner luster and vivid coloration become (使い込み、布で拭き込むほどに、内側から透明感のある深い艶が生まれ...漆器にしかない唯一無二の魅力).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M2_L04",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The report highlights that the Reading Concierge service is highly valued because librarians conduct personalized interviews and recommend 3 tailored books, enabling patrons to discover unexpected gems across genres they would never have encountered on their own (自分では思いつきもしなかった意外なジャンルの良書に出会える点が高く評価され).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M2_L05",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The HR director states that management's primary rationale for abolishing core hours in favor of full flextime was breaking down timezone barriers with overseas branches (海外拠点とのタイムゾーンの壁の解消) to enable seamless scheduling for global projects.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M2_L06",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The ophthalmologist recommends the '20-20-20 rule' as the most definitive method to relieve ciliary muscle tension: taking a break every 20 minutes to gaze at scenery at least 20 feet (approx. 6 meters) away for 20 seconds (20分間パソコンを見たら、作業を止めて、20フィート、つまり約6メートル以上離れた遠くの景色を20秒間ぼんやり眺めること).",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M3_L01",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The professor argues that isolated large parks lead to genetic bottlenecking and population decline in wildlife; rather, forming an 'ecological network' (green corridors connecting street trees, riverbanks, and rooftop gardens) across the city is indispensable for sustaining urban biodiversity.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M3_L02",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "The behavioral economics specialist explains the decoy effect (おとり効果) and extremeness aversion (極端の回避): consumers avoid extremes and gravitate toward middle-tier options, so businesses introduce premium high-priced anchors specifically to steer purchases toward their target product tier.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M3_L03",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The museum curator emphasizes that traditional Japanese wooden architecture uses non-bearing, removable partitions (fusuma and shoji) instead of fixed stone walls, allowing spaces to dynamically expand, contract, or unify with nature depending on the needs of daily living.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M3_L04",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The organizational consultant stresses that high-performing teams fail primarily due to a lack of psychological safety (心理的安全性). Fostering an atmosphere where members can candidly voice questions and mistakes without fear of blame is vital for rapid adaptation and breakthrough innovation.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M3_L05",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The food science researcher highlights that cutting-edge bio-fermentation utilizing traditional koji mold and lactic acid bacteria upcycles discarded food byproducts (vegetable scraps, sake lees) into high-value functional seasonings and nutrient-rich animal feed.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M4_L01",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The employee politely asks the manager to review the meeting minutes using the business idiom 目を通す (目を通していただけないでしょうか). Choice 2 (分かった、机の上に置いておいてくれたまえ - Understood, leave it on my desk) is the natural managerial acceptance. Choice 3 comically misunderstands 目が通る literally.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M4_L02",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The prompt expresses retrospective regret using the construction 〜ておくべきだったね (We should have spent more time rehearsing). Choice 1 (おっしゃる通りです。準備不足を痛感しました - Exactly. I acutely realized our lack of preparation) agrees with the regret. Choice 2 contradicts the prompt by claiming they spent too much time.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M4_L03",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The speaker asks the listener to fill in their name on a document (お名前をご記入願えますか). Choice 3 (はい、この欄に書けばよろしいでしょうか - Yes, should I write in this section?) is the appropriate polite response confirming the signing field. Choice 1 improperly uses honorifics directed back at the speaker.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M4_L04",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The speaker inquires whether Yamada can attend tomorrow's gathering using the idiom 顔を出す (to make an appearance). Choice 2 (あいにく先約がありまして、今回は遠慮させてください - Unfortunately I have a prior commitment, so please allow me to decline this time) is a standard polite declination. Choice 1 is a literal joke (washing face), and Choice 3 confuses it with 顔が広い.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M4_L05",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The speaker expresses concern that assigning a major project solely to a newcomer is too heavy a burden using the idiom 荷が重い. Choice 1 (おっしゃる通りです。先輩社員をサポートにつけましょう - You are right. Let's assign a senior colleague to support) is the pragmatic business solution. Choice 2 misinterprets 荷 as physical boxes.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M4_L06",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The speaker apologizes for failing to be helpful despite the visitor traveling all the way there (せっかく遠くまで足を運んでいただいたのに、お役に立てず申し訳ありません). Choice 3 (とんでもないです。詳しいお話を伺えただけでも有意義でした - Not at all. Just being able to hear detailed information was meaningful) is the standard polite Japanese business response deflecting the apology.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M4_L07",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "A junior asks if the senior colleague has looked at the materials the junior lent (昨日お貸しした参考資料、もうご覧になりましたでしょうか). Choice 2 (ああ、急ぎの仕事が入ってまだ読めてないんだ。今日中に目を通すよ - Ah, urgent work came up so I haven't read it yet. I'll review it today) appropriately explains the delay and commits to reading it. Choices 1 and 3 invert the lending direction.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M4_L08",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "A subordinate requests extending the proposal submission deadline until Monday (週明けの月曜まで延ばしていただけないでしょうか). Choice 1 (うーん、月曜の朝一番に出せるなら構わないよ - Well, if you can submit it first thing Monday morning, that's fine) gives conditional approval. Choice 3 contradicts the request by asking them to submit earlier.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M4_L09",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The prompt remarks that the new bakery always sells out by evening (夕方にはいつも完売しちゃうんだって). Choice 2 (へえ、そんなに人気ならお昼休みに買いに行ってみようかな - Wow, if it's that popular, maybe I'll go buy some during lunch break) is the logical response. Choice 1 illogically proposes going late in the evening when items are sold out.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M4_L10",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "The speaker asks whether the listener has any regrets about accepting the upcoming overseas transfer (引き受けて本当に後悔はないの？). Choice 3 (はい。自分自身のキャリアを広げる絶好の挑戦だと思っています - Yes. I consider it an excellent challenge to expand my career) affirms confidence and commitment. Choice 2 contradicts having accepted the transfer.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M4_L11",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "An employee calls in sick with fever (本日発熱があり体調が優れないため...お休みをいただきたいのですが). The manager responds with appropriate concern and approval: それは心配だね。業務のことは気にせず、今日はしっかり療養しなさい (That's concerning. Don't worry about work and rest well today). Choices 2 and 3 are absurd or nonsensical.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M5_L01",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The leaders' workshop requires: budget <= 120,000 yen, movable desks for repeated 5-person group work, and dedicated high-capacity Wi-Fi for 30 laptops. Room 1 has fixed tiered seating (fails layout). Room 3 has unstable shared Wi-Fi (fails connectivity). Room 4 costs 140,000 yen (fails budget). Room 2 (Station Plaza) costs 110,000 yen, has movable desks on casters, and dedicated optical Wi-Fi, satisfying all constraints.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M5_L02",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "The female section chief immediately rejects Room 1 (Grand Hall) stating: 固定席だとグループディスカッションができないから、いくら安くても無理ね (Since the seats are fixed, group discussions are impossible, so no matter how inexpensive it is, it's out of the question). This corresponds directly to Option A.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M5_L03",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "The shared office coffee maker requires: budget <= 50,000 yen, batch capacity >= 10 cups, and simple daily cleaning without milk piping or chemical disassembly. Machine 1 brews only 1 cup at a time and requires daily milk disassembly. Machine 3 has exorbitant per-cup capsule running costs. Machine 4 costs 65,000 yen (exceeds budget). Machine 2 (large-capacity drip) brews 12 cups, costs 42,000 yen, and requires only simple water rinsing, fulfilling all requirements.",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  }
+]

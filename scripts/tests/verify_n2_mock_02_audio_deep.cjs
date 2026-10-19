@@ -10,6 +10,7 @@ const ROOT = path.resolve(__dirname, '../..');
 const MANIFEST_PATH = path.join(ROOT, 'data/mock_exams/n2_mock_02_audio_manifest.json');
 const AUDIO_DIR = path.join(ROOT, 'docs/audio/n2_mock_02');
 const REPORT_OUT = path.join(ROOT, 'qa/N2_MOCK_02_DEEP_AUDIO_PLAYBACK_REPORT.md');
+const RECEIPT_OUT = path.join(ROOT, 'qa/N2_MOCK_02_AUDIO_PLAYBACK_RECEIPT.json');
 
 async function runDeepAudioVerification() {
   console.log('=== DEEP REAL AUDIO PLAYBACK & DECODING VERIFICATION FOR MOCK #02 (30 TRACKS) ===');
@@ -207,6 +208,37 @@ async function runDeepAudioVerification() {
   console.log('\n==================================================');
   console.log(`AUDIT RESULTS: ${passed}/${total} TRACKS PASSED (${passRate}%)`);
   console.log('==================================================');
+
+  // Write receipt JSON
+  const tracksMap = {};
+  for (const r of results) {
+    tracksMap[r.qid] = {
+      questionId: r.qid,
+      filename: r.filename,
+      audioFileExists: r.assetExists,
+      audioFileSize: r.localSize,
+      audioHashVerified: r.shaMatch,
+      audioSha256: r.expectedSha,
+      audioDecodes: (r.desktopPlayback.loaded && Number.isFinite(r.desktopPlayback.duration) && r.desktopPlayback.duration > 0),
+      durationSec: parseFloat(r.duration.toFixed(1)),
+      browserPlaybackVerified: (r.desktopPlayback.played && r.desktopPlayback.timeAdvanced && r.mobilePlayback.played),
+      playbackDesktop: r.desktopPlayback,
+      playbackMobile: r.mobilePlayback
+    };
+  }
+
+  const receipt = {
+    examId: 'N2-MOCK-02',
+    generatedAt: new Date().toISOString(),
+    browserEngine: 'Playwright Chromium Headless',
+    totalTracks: total,
+    verifiedTracks: passed,
+    allPassed: (failed === 0),
+    tracks: tracksMap
+  };
+
+  fs.writeFileSync(RECEIPT_OUT, JSON.stringify(receipt, null, 2), 'utf-8');
+  console.log('Audio playback receipt successfully written to:', RECEIPT_OUT);
 
   // Generate Report
   let md = `# BÁO CÁO KIỂM THỬ PLAYBACK VÀ TÍNH TOÀN VẸN ÂM THANH — JLPT N2 FULL MOCK #02\n\n`;

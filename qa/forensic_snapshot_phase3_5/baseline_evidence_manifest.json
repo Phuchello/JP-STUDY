@@ -1,0 +1,48 @@
+{
+  "baselineCommit": "27c53aa2d32481e93ce8f0e128982fbc22b33ced",
+  "timestamp": "2026-10-19T17:08:00+07:00",
+  "files": {
+    "raw_blind_m01_s1_p1.json": {
+      "sha256": "0bb0c4bb17750a324ca137e6561df07261cfe76d218085be2a2c41a6507de856",
+      "bytes": 17502
+    },
+    "raw_blind_m01_s1_p2.json": {
+      "sha256": "a28ed33866e7655cb10ea928a5025af18b80c6f6fbf0fcdcf6a926a76e523593",
+      "bytes": 29739
+    },
+    "raw_blind_m01_s2.json": {
+      "sha256": "898162c20328670d99ce363ed46f793434a7e10b1933da6b62f1a4fb2e68f311",
+      "bytes": 16886
+    },
+    "raw_blind_m02_s1_p1.json": {
+      "sha256": "106f33fef36fafa195c12a9be97a5605a95ea09e262a2da843b34831d8d09c26",
+      "bytes": 14716
+    },
+    "raw_blind_m02_s1_p2.json": {
+      "sha256": "358155797078e16f3b85079591bc00262714d2f879fe99e5746db3e9d9847e27",
+      "bytes": 22016
+    },
+    "raw_blind_m02_s2.json": {
+      "sha256": "cc6e931b7c727e8097356c3afeaede8dee7759f30dd6a71fb6ee94f20ed96437",
+      "bytes": 16408
+    },
+    "raw_blind_m02_s1_p1_PRE_SYNC_ORIGINAL.json": {
+      "sha256": "40ed3735ab3e07b716becdd35748cfa19e09350e71d1c685c24600bc8335bcf2",
+      "bytes": 2073
+    },
+    "raw_blind_m02_s1_p2_PRE_SYNC_ORIGINAL.json": {
+      "sha256": "4358702c557bfb2e8a4326dfe7a2fdf4bde441d4b8c07fe825b50e1df020f414",
+      "bytes": 22016
+    },
+    "baseline_questions_210.json": {
+      "sha256": "7c83b3813650adf277ca1e8de59891b5797ede25d5f57819265d74976730eebe",
+      "bytes": 192990,
+      "questionCount": 210
+    },
+    "audio_assets_manifest_60.json": {
+      "sha256": "c264b57fe1289e0c57f67dddf39c69c8c07558f2578e2d83506be2623565ebbf",
+      "bytes": 10653,
+      "audioTrackCount": 60
+    }
+  }
+}

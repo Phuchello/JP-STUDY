@@ -1,0 +1,302 @@
+[
+  {
+    "id": "N2_02_M7_07",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「休むどころか食事をする時間すらない」という文脈において、「〜どころか」は「〜は言うまでもなく／〜はおろかそれ以前の…さえできない」という比較・強調を表すN2の代表的文法形式である。前項の「休む」よりも基本的な「食事をする」ことすらできない（すらない）状態を表すため、Bが唯一自然に成立する。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M7_08",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「〜から見て（から見ると）」は、判断・推量の根拠や視点を表す文法形式（〜を判断材料として考えると）である。「これまでの実績とチームワーク」を客観的根拠として「優勝できるに違いない」と判断を下しているためAが正解。「を契機に（きっかけに）」「を皮切りに（最初として次々に）」「に先立って（〜の前に準備として）」は判断の根拠を表さない。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M7_09",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "「ご要望に応じて」はビジネス表現としても定番のコロケーション。「〜に応じて」は「〜という条件・希望・変化に合わせて」という意味を表し、「柔軟にサービスプランをカスタマイズする」という文脈に合致する。「に際して（〜にあたって）」「に反して（予想・規則と逆に）」「にわたって（広がり・期間）」は文脈に適合しない。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M7_10",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "目上の相手（部長）の動作（企画書を見る・読む）に対する適切な敬語表現が問われている。「見る」の尊敬語は「ご覧になる（ご覧になりました）」であり、Bが正解。A「拝見しました」は謙譲語（自分の動作）、C「お見せになりました」は相手が第三者に見せる意味になり不適、D「お目にかかりました」は「会う」の謙譲語で不適。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M7_11",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「あんなに温厚な田中さんが声を荒らげるなんて」という強い根拠に基づき、「よほどのことがあったに違いない（間違いなくそうだったはずだ）」という確信度の高い推量を表す文脈であるため、A「に違いない」が極めて自然。「にすぎない（〜にすぎない/ただの〜だ）」「にほかならない（まさに〜そのものだ）」「に越したことはない（〜のほうが望ましい）」は意味が通らない。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M7_12",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「〜なくしては（〜ない）」は、「〜がなければ…は成り立たない／不可能だ」を表すN2必須文法形式。「チーム全員の協力なくしては語れない」で「協力がなければ成功を語ることはできない」という強い条件文を形成する。A「ぬきにして」は後続に「は」がなく副詞節として未完、C「をおいて」は通常「彼をおいてほかにいない」等の限定表現に用いられ「語れない」と直接接続しないため不適。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M8_01",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "文構造は「環境問題の解決には、行政だけでなく［市民］［一人ひとりの］［★意識の改革が］［何より］欠かせない」となる（語順：C-A-B-D）。「行政だけでなく市民一人ひとりの」で対比・並立の主語部を構成し、述語「欠かせない」の直前に強調副詞「何より」が配置される。星の位置（3番目）はB「意識の改革が」となる。",
+    "alternativeDefensibleAnswers": [
+      "A"
+    ],
+    "concerns": "副詞「何より」を節頭に置いて「行政だけでなく何より市民一人ひとりの意識の改革が欠かせない」（D-C-A-B、星=A）とする語順も文法的に解釈可能であるため、Aが代替解として成立する余地がある。"
+  },
+  {
+    "id": "N2_02_M8_02",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "「いかに〜（よ）うと／〜あろうと」（どんなに〜であっても）という相関構文より「いかに（D）困難があろうと（B）」が結びつき、後半は「最後まで（C）やり遂げる（A）責任がある」と名詞修飾節を形成する。全体の語順は D-B-C-A（いかに・困難があろうと・★最後まで・やり遂げる）となり、星の位置（3番目）はCとなる。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M8_03",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "述語末尾の「〜言えない」に呼応して「十分とは（B）言えない」が確定する。前半は「極めて（A）大切だが（D）」となり、その譲歩を受けて「それだけで（C）十分とは（B）言えない」と続く。全体の語順は A-D-C-B（極めて・大切だが・★それだけで・十分とは）となり、星の位置（3番目）はC「それだけで」となる。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M8_04",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "文脈上、「私たちの（A）生活様式に（B）」がもたらした対象を示し、名詞「変革」を「かつてない（D）劇的な（C）」が重層的に修飾する。標準的な修飾語順は A-B-D-C（私たちの・生活様式に・★かつてない・劇的な 変革をもたらした）となり、星の位置（3番目）はDとなる。",
+    "alternativeDefensibleAnswers": [
+      "C"
+    ],
+    "concerns": "名詞「変革」に対する2つの連体修飾語（「かつてない」と「劇的な」）の順序について、「劇的なかつてない変革」（A-B-C-D、星=C）も意味的に通じるため、Cが別解として主張されうる。"
+  },
+  {
+    "id": "N2_02_M8_05",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「〜に負うところが大きい」（〜のおかげである部分が大きい）という慣用文型を用いる問題。「監督の（B）的確な指導に（A）負う（D）ところが（C）大きい」という語順になる（B-A-D-C）。星の位置（3番目）はD「負う」となる。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M9_01",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "主語が「能力の低下が」という事象名詞であり、社会一般的な動向・懸念を客観的に叙述する受動態「懸念されている」が文法上および文脈上唯一適切。B「懸念するべきだ」、C「懸念せざるを得ない」は主語を「人間／社会」とする能動態であり「〜低下が」に続かない。D「懸念されるはずだ」は文脈の事実叙述にそぐわない。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M9_02",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "手段・媒介を表す「〜を通じて（〜を通して）」が文脈に適合する。「登場人物の葛藤に寄り添うことを通じて（手段）、他者への想像力を養うことができる（結果）」という因果・手段関係を示す。A「皮切りにして（最初として）」、C「めぐって（争点として）」、D「問わず（関係なく）」は文脈に合わない。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M9_03",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "後続節の「〜技術でもある」と呼応し、「先天的に備わっているものばかりではなく（〜だけでなく）、後天的に磨かれる技術でもある」という累加・並立構文（AばかりでなくBも）を成立させる表現はA「ばかりではなく」のみである。B「といえども」、C「に反して」、D「をはじめ」では「〜でもある」との自然な文法呼応が成立しない。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M9_04",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「もし〜失ってしまったら（仮定条件）」に対して、望ましくない結果が生じる恐れ・危険性を表すN2文法「〜かねない（〜する恐れがある）」を用いたA「なりかねない」が文脈上完璧に合致する。B「なるわけがない」、D「なりっこない」は強い否定で文脈と正反対、C「なるに決まっている」は断定的すぎて仮定警告の論述トーンに合わない。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M9_05",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "末尾の「〜のではないだろうか」に接続する形式が問われている。義務・当然を表す「べきだ」が準体助詞「の」に連体接続する場合、「べきな（の）」となるため、D「確保するべきな」が文法的に正しく、「確保するべきなのではないだろうか」（〜するべきではないだろうか）という筆者の主張・提言の結びを形成する。Aは二重否定で不自然、B・Cは「〜のだ」への接続またはモダリティが不適切。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M10_01",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "短文の結びにおいて「データ化できる部分と、現場の身体知としてしか伝えられない部分の境界を見極めることこそが、伝統を未来へ繋ぐ鍵となる」と明確に主張されている。この内容を的確に言い換えたC「環境変化に即応する職人の身体知とデジタル技術の境界を見極めることが重要だ」が正解。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M10_02",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "本文中に「この『タスクの頻繁な切り替え』は、脳に過度な認知的負荷を与え、作業速度を落とすだけでなく、思考の深化を決定的に妨げる」と記されている。これと合致するのはC「作業の切り替えは脳に過大な負荷を与え、かえって生産性を低下させる」である。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M10_03",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "本文最終文で「都市計画においては、個々の緑地の面積だけでなく、緑地同士の空間的な連続性を考慮することが不可欠なのだ」と述べられており、また「生態系の回廊（コリドー）」として生物が移動・生息域を広げる役割が強調されている。これと合致するCが正解。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M10_04",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "本文で「本来の批判的思考とは、自分自身の前提や常識をも疑い、物事を多角的な視点から客観的に再吟味する知的態度のことを指す」「自分自身の思考を更新するための道具なのだ」と定義されている。これと合致するB「自分自身の前提や思い込みを疑い、客観的に再検討して判断を高める態度」が正解。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M10_05",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "本文中に「対話型鑑賞は、解説をあえて読まず、鑑賞者同士が『作品のどこからそう感じたか』を言葉にして語り合う試みである」「自らの主体的な対話を通じて『意味を共同で生成する』体験」とある。これと合致するB「解説に頼らず、鑑賞者同士が感じた根拠を語り合いながら意味を深める方法」が正解。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M11_01",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "第2段落に「木組み構造の最大の特徴は、地震などの外力が加わった際に、接合部がわずかに滑り、摩擦によって揺れのエネルギーを吸収・分散させる点にある」と明記されているため、Bが正解。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M11_02",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "第3段落に「傷んだ柱や梁だけを取り外し、新しい木材に差し替えることができるため、建物全体を壊すことなく何百年も維持できる」と明記されているため、Bが正解。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M11_03",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "文章末尾で「そこには、自然をねじ伏せるのではなく、自然の理に寄り添い、時間の流れを味方につける持続可能な設計思想が息づいている」と筆者の結論が述べられている。これと合致するA「自然を力で支配するのではなく、自然の性質に寄り添う持続可能な設計思想」が正解。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M11_04",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "第2段落において認知科学の説明として「『新奇な体験の密度』が時間知覚に深く関わっている」「見るもの聞くものすべてが未知であり…記憶の中に刻み込まれる『情報のエピソード数』が極めて多くなり…『長い時間だった』と知覚される」と述べられているため、Bが正解。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M11_05",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "第3段落において「大人の日常生活は、慣れ親しんだルーティンの連続になりがちである。…記憶に記録される新しい情報が劇的に減少する。その結果、過去を振り返ったときの記憶の密度が希薄になり、時間が一瞬で過ぎ去ったかのように錯覚してしまう」と直接的理由が述べられているため、Bが正解。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M11_06",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "文章最終文で「時間を豊かに、そして長く生きるための秘訣は、大人になっても意識して新しい挑戦を続け、日常に『未知の体験』を意図的に織り込んでいくことにある」と筆者の提案が明記されているため、Cが正解。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M11_07",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "第1段落末尾に「その陰で多くの企業が直面しているのが、『組織の一体感の希薄化』と『偶発的なアイデアの枯渇』という新たな課題である」と明記されているため、Cが正解。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M11_08",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "第2段落・第3段落において「同僚への信頼関係の土台を築き、部署の垣根を越えた相談を容易にしていた」「予期せぬイノベーションの多くは…雑談の中で発せられたふとした一言から着想を得ている」と述べられている。これらをまとめたBが正解。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M11_09",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "文章末尾において「企業はあえて『計画された無駄』としての雑談の場を意識的に設計する必要がある」と筆者の提言が述べられているため、Cが正解。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M12_01",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "Aの文冒頭「キャッシュレス決済の急速な普及は、社会全体に計り知れない利便性と経済効果をもたらしている」と、Bの文冒頭「キャッシュレス決済がもたらす利便性を否定するつもりはない」の双方から、両者に共通する認識はキャッシュレス決済の利便性（A）である。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M12_02",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "Aは「完全なキャッシュレス社会への移行を加速させるべきだ」と積極的移行を主張しているのに対し、Bは「現金というフェイルセーフ（安全装置）の重要性を再認識すべきである」と災害時等のリスクを挙げて現金の重要性を説いている。この対立点を的確に表したBが正解。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M13_01",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "第1段落末尾に「あらかじめ正解が分かっている時代には、指示通りに迅速に動く機械のような組織が最も強かったからだ」と明記されているため、Bが正解。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M13_02",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "第3段落末尾に「ここで言う脆弱性とは、単なる能力不足を意味するのではない。自分の知識の限界を認め、『分からない』『助けてほしい』と率直に口にできる勇気のことである」と定義されているため、Aが正解。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M13_03",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "第4段落において「互いの弱さを補い合い、異なる専門性を掛け合わせる関係性こそが、予測不可能な環境変化を乗り越える『真のレジリエンス』を生み出すのだ。自己防衛のための強さを手放し、互いの不完全さを認め合うこと」と結論づけられている。これと合致するBが正解。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M14_01",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "公募要件の確認：①「市内に本社を有し」（Aは市外本社で不可）、②「1年以上継続して事業を営んでいる」（Dは先月創業で不可）、③「過去2年以内に本補助金を受給した企業は対象外」（Cは昨年度受給で不可）、④「市税の滞納がない」（Bは滞納なし・3年継続の市内製造業）。すべての要件を満たすのはBのみである。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2_02_M14_02",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「AI画像認識による検品自動化」は【高度DX枠】の対象経費に明記されている。補助率は「2/3以内」のため、240万円 × 2/3 ＝ 160万円（上限200万円の範囲内）。また、高度DX枠には「専門家による事業計画の事前確認書が必須」であり、申請方法は「専用オンラインポータルサイトより電子申請のみ受付（郵送・持参不可）」。これらすべての条件を網羅しているのはBのみである。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  }
+]

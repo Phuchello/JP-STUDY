@@ -2002,7 +2002,7 @@ window.JP_MOCK_DATA = {
             },
             {
               "id": "D",
-              "text": "どころか"
+              "text": "を契機に"
             }
           ],
           "correctAnswer": "C",
@@ -2010,7 +2010,7 @@ window.JP_MOCK_DATA = {
           "distractorExplanations": {
             "A": "〜反面: Mặt khác, trái lại (chỉ hai mặt tính chất đối lập của cùng một sự vật, không dùng trong ngữ cảnh liệt kê năng lực này).",
             "B": "〜どころではなく: Không phải lúc để làm gì (ví dụ: 忙しくて旅行どころではない).",
-            "D": "〜どころか: Đâu chỉ dừng lại ở... mà thậm chí còn tệ hơn/ngược lại (thường đi với vế sau phủ định hoặc tính chất trái ngược tiêu cực, không dùng cho vế khẳng định tích cực bổ sung như 流暢に操る)."
+            "D": "〜を契機に: Nhân cơ hội/lấy làm cột mốc bước ngoặt (ví dụ: 留学を契機に), không thể đi sau danh từ 英語 để bổ nghĩa cho vế sau."
           },
           "difficultyEstimate": 2,
           "conceptId": "grammar-forms",
@@ -2459,21 +2459,21 @@ window.JP_MOCK_DATA = {
           "level": "N2",
           "skill": "Grammar",
           "typeId": "N2-GR-STAR",
-          "stem": "この計画は（　　）（　　） ★ （　　）困難になってきた。",
+          "stem": "この計画は、予算の（　　）（　　） ★ （　　）困難になってきた。",
           "stimulusId": "N2-G8-003",
           "contextPassage": null,
           "options": [
             {
               "id": "A",
-              "text": "予算の"
+              "text": "都合上、"
             },
             {
               "id": "B",
-              "text": "都合上"
+              "text": "当初の"
             },
             {
               "id": "C",
-              "text": "計画通りに"
+              "text": "予定通りに"
             },
             {
               "id": "D",
@@ -2481,15 +2481,15 @@ window.JP_MOCK_DATA = {
             }
           ],
           "correctAnswer": "C",
-          "explanationVi": "Cấu trúc: N + の都合上 (do điều kiện/hoàn cảnh N). Thứ tự: 予算の (1) 都合上 (2) 計画通りに (3★) 進めることが (4). Vị trí sao: 「計画通りに」.\nCâu hoàn chỉnh: 「この計画は予算の都合上計画通りに進めることが困難になってきた。」",
+          "explanationVi": "Cấu trúc: N + の都合上 (do điều kiện/hoàn cảnh N). Thứ tự đúng duy nhất: 都合上、 (1) 当初の (2) 予定通りに (3★) 進めることが (4). Ngôi sao rơi vào vị trí 3: 「予定通りに」.",
           "distractorExplanations": {
-            "A": "Cụm từ 「予算の」 nằm ở vị trí khác trong câu khi ghép hoàn chỉnh: 「この計画は予算の都合上計画通りに進めることが困難になってきた。」.",
-            "B": "Cụm từ 「都合上」 nằm ở vị trí khác trong câu khi ghép hoàn chỉnh: 「この計画は予算の都合上計画通りに進めることが困難になってきた。」.",
-            "D": "Cụm từ 「進めることが」 nằm ở vị trí khác trong câu khi ghép hoàn chỉnh: 「この計画は予算の都合上計画通りに進めることが困難になってきた。」."
+            "A": "Cụm từ 「都合上、」 đứng ở vị trí 1 sau 「予算の」: 「この計画は、予算の都合上、当初の予定通りに進めることが困難になってきた。」.",
+            "B": "Cụm từ 「当初の」 đứng ở vị trí 2 bổ nghĩa cho 「予定通りに」: 「この計画は、予算の都合上、当初の予定通りに進めることが困難になってきた。」.",
+            "D": "Cụm từ 「進めることが」 đứng ở vị trí 4 làm chủ ngữ cho vị ngữ 「困難になってきた」."
           },
           "difficultyEstimate": 3,
           "conceptId": "star-ordering",
-          "assembledSentence": "この計画は予算の都合上計画通りに進めることが困難になってきた。",
+          "assembledSentence": "この計画は、予算の都合上、当初の予定通りに進めることが困難になってきた。",
           "remediation": "Xác định các cặp ngữ pháp cố định và trật tự bổ nghĩa trước khi điền vào vị trí ngôi sao.",
           "status": "QA_VERIFIED",
           "exposureEligible": true,
@@ -6142,7 +6142,7 @@ window.JP_MOCK_DATA = {
             },
             {
               "id": "C",
-              "text": "さわやか"
+              "text": "あざやか"
             },
             {
               "id": "D",
@@ -6152,8 +6152,8 @@ window.JP_MOCK_DATA = {
           "correctAnswer": "B",
           "explanationVi": "にこやかに: Mỉm cười niềm nở, tươi cười rạng rỡ (にこやかに挨拶する).",
           "distractorExplanations": {
-            "A": "しとやか: Dịu dàng, đoan trang, thùy mị (thường miêu tả cử chỉ phụ nữ truyền thống).",
-            "C": "さわやか: Sảng khoái, tươi mát (thời tiết mát mẻ, giọng nói thanh thoát).",
+            "A": "しとやか: Đoan trang, thùy mị (thường miêu tả cử chỉ phụ nữ truyền thống: 淑やかな身のこなし).",
+            "C": "あざやか: Rực rỡ, sống động, tài tình (dùng cho màu sắc hoặc thủ pháp: 鮮やかな色, 鮮やかな手際, không đi với 挨拶).",
             "D": "おろそか: Lơ là, sao nhãng nhiệm vụ (おろそかにする)."
           },
           "difficultyEstimate": 2,
@@ -6970,7 +6970,7 @@ window.JP_MOCK_DATA = {
           "skill": "Grammar",
           "typeId": "N2-GR-STAR",
           "mondaiTitle": "Mondai 8: 文の組み立て ★",
-          "stem": "環境問題の解決には、行政だけでなく＿＿　＿＿　★　＿＿　欠かせない。",
+          "stem": "環境問題の解決には、行政だけでなく＿＿　＿＿　★　＿＿　前進しない。",
           "options": [
             {
               "id": "A",
@@ -6978,7 +6978,7 @@ window.JP_MOCK_DATA = {
             },
             {
               "id": "B",
-              "text": "意識の改革が"
+              "text": "意識改革なくしては"
             },
             {
               "id": "C",
@@ -6986,15 +6986,15 @@ window.JP_MOCK_DATA = {
             },
             {
               "id": "D",
-              "text": "何より"
+              "text": "到底"
             }
           ],
           "correctAnswer": "B",
-          "explanationVi": "Thứ tự đúng: 行政だけでなく【市民 (C)】【一人ひとりの (A)】【★ 意識の改革が (B)】【何より (D)】欠かせない. Vị trí ngôi sao là B (意識の改革が).",
+          "explanationVi": "Thứ tự đúng duy nhất: 行政だけでなく【市民 (C)】【一人ひとりの (A)】【★ 意識改革なくしては (B)】【到底 (D)】前進しない. Vị trí ngôi sao là B (意識改革なくしては). Cấu trúc: 〜なくしては（〜ない） (nếu không có... thì tuyệt đối không thể...).",
           "distractorExplanations": {
-            "A": "一人ひとりの bổ nghĩa cho 意識の改革が (vị trí 3 - sao).",
-            "C": "市民 đi trước 一人ひとりの (市民一人ひとりの - từng người dân một).",
-            "D": "何より đứng trước 欠かせない (何より欠かせない - không thể thiếu hơn bất cứ điều gì)."
+            "A": "「一人ひとりの」 đứng ở vị trí 2 bổ nghĩa cho 「意識改革」.",
+            "C": "「市民」 đứng ở vị trí 1 mở đầu cụm danh từ 「市民一人ひとりの」.",
+            "D": "「到底」 đứng ở vị trí 4 làm phó từ nhấn mạnh cho vị ngữ phủ định 「前進しない」."
           },
           "difficultyEstimate": 3,
           "status": "QA_VERIFIED"
@@ -7079,27 +7079,27 @@ window.JP_MOCK_DATA = {
           "options": [
             {
               "id": "A",
-              "text": "私たちの"
+              "text": "人々の"
             },
             {
               "id": "B",
-              "text": "生活様式に"
+              "text": "生活の"
             },
             {
               "id": "C",
-              "text": "劇的な"
+              "text": "及ぶ"
             },
             {
               "id": "D",
-              "text": "かつてない"
+              "text": "隅々にまで"
             }
           ],
           "correctAnswer": "D",
-          "explanationVi": "Thứ tự đúng: インターネットの普及は【私たちの (A)】【生活様式に (B)】【★ かつてない (D)】【劇的な (C)】変革をもたらした. Vị trí ngôi sao là D (かつてない).",
+          "explanationVi": "Thứ tự đúng duy nhất: インターネットの普及は【人々の (A)】【生活の (B)】【★ 隅々にまで (D)】【及ぶ (C)】変革をもたらした. Vị trí ngôi sao là D (隅々にまで).",
           "distractorExplanations": {
-            "A": "私たちの bổ nghĩa cho 生活様式に.",
-            "B": "生活様式に bổ nghĩa cho 変革をもたらした.",
-            "C": "劇的な đứng ngay trước danh từ 変革 (劇的な変革)."
+            "A": "「人々の」 đứng ở vị trí 1 bổ nghĩa cho 「生活の」.",
+            "B": "「生活の」 đứng ở vị trí 2 bổ nghĩa cho 「隅々にまで」.",
+            "C": "「及ぶ」 đứng ở vị trí 4 làm động từ định ngữ bổ nghĩa trực tiếp cho danh từ 「変革」."
           },
           "difficultyEstimate": 3,
           "status": "QA_VERIFIED"

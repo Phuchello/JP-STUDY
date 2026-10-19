@@ -1,0 +1,308 @@
+[
+  {
+    "id": "N2-M1-001",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「把握」の正しい音読みは「はあく」。「把（ハ）」＋「握（アク）」。物事の全体や本質をしっかりと理解してつかむ意。A「はく」、C「はおく」、D「はあき」はいずれも誤読。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M1-002",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「勧誘」の正しい音読みは長音の「かんゆう」。「勧（カン）」＋「誘（ユウ）」。A「かんゆ」は短音化の誤り、C「けんゆう」は頭音の誤り、D「かんよう」は別語（寛容など）の読み。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M1-003",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「措置」の正しい音読みは「そち」。「措（ソ）」＋「置（チ）」。「措置を講じる」は頻出のコロケーション。A「しょち」は「処置」、B「そうち」は「装置」、C「そじ」は連濁の誤り。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M1-004",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "「模索」の正しい音読みは「もさく」。「模（モ）」＋「索（サク）」。「暗中模索（あんちゅうもさく）」は頻出の四字熟語的連語。A「ぼさく」、B「もさつ」、D「むさく」はいずれも誤読。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M1-005",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「巧妙」の正しい音読みは「こうみょう」。「巧（コウ）」＋「妙（ミョウ）」。極めて手際よく優れている意。B「きょうみょう」、C「こうめい」、D「こみょう」はいずれも誤読。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M2-001",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「しんちょう（に検討する）」の正しい漢字表記は「慎重」。「慎（つつしむ）」＋「重（おもじる）」。注意深く軽はずみな行動をとらない意。B「慎長」、C「深重」、D「伸重」は同音・類似形態素の誤字。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M2-002",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "警報や制限を取りやめる意味の「かいじょ」の正しい漢字表記は「解除」。「解（とく）」＋「除（のぞく）」。B「改除」、C「解叙」、D「開除」はいずれも誤字。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M2-003",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "程度・規模を極力小さく抑える語は「最小限」であり、「最小限に食い止める」は定型的な表現。「最少限」という複合語は一般に用いられず、C「眼」・D「宵」は同音・類似字による誤り。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M2-004",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "自分の思いや企てをきっぱり諦める意の「だんねん」の正しい表記は「断念」。「断（たちきる）」＋「念（おもい）」。A「断然（だんぜん）」は別語、B「段念」・C「単念」は誤字。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M2-005",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "景気や経済状態が元の好調な状態に戻る場合は「回復」と書く。A「快復」は病気や怪我が完治する場合に限定される書き分け語（病気快復）。C「改復」、D「回複」は存在しない誤字。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M3-001",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "「自分の義務や任務を自覚して全うしようとする気持ち」を表す接尾辞は「感」であり、「責任感（が欠けている／ある／強い）」という確立したコロケーションを形成する。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M3-002",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "性質や程度を表す接尾辞「性」がつき、「安全性（あんぜんせい）」となる。「安全性が高い／低い」は定型的な共起表現。心情なら「安心感」だが「安全感」とは言わない。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M3-003",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「〜の状態にする・変える」を意味する接尾辞は「化」であり、「自動化（じどうか）」を形成する。「工場の自動化を進める」という文脈・コロケーションに適合する。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M3-004",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "名詞に付いて「その性質・状態を帯びているさま」を表す形容動詞を形成する接尾辞は「的」であり、「論理的に（考える）」となる。「論理性」「論理化」に助詞「に」を接続して動詞を副詞的に修飾することはできない。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M3-005",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "「他人の気持ちや周囲への配慮・感覚が鈍いさま」を表す接頭辞は「無」であり、「無神経（むしんけい）だ」が唯一成立する語。「非神経」「不神経」「未神経」という語形成は存在しない。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M4-001",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「激しい運動や走行などによって呼吸が苦しくなる」ことを表す慣用句は「息が切れる」。「坂道を一気に駆け上がった」という前節の原因に直接合致する。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M4-002",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "提案や主張が聞き手を納得させる力を持つことを表す定型語は「説得力（せっとくりょく）」であり、「説得力がある」として用いる。提案を主語として「納得力」や「理解力」と言う共起関係は成立しない。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M4-003",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「真摯（しんし）に受け止める」は「まじめで誠実に批判やクレームに向き合う」ことを表す定着したビジネス・公的連語。顧客からの厳しいクレームに対して改善に努める姿勢に完全に一致する。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M4-004",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「議論を交わす（受身：議論が交わされる）」は「互いに意見や議論を活発に出し合う」ことを表す標準的な共起表現。「渡される」「通される」「合わされる」は「議論」と共起しない。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M4-005",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "事件捜査や問題解決のためのヒント・糸口を表す名詞は「手がかり」であり、「決定的な手がかりを探す」は極めて自然なコロケーション。A「足がかり」は次の行動へ進むための拠点・足場を意味するため不適切。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M4-006",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「〜とは裏腹（うらはら）に」は「期待や予想とは正反対に」を意味するN2慣用表現。「本人の期待とは裏腹に、結果は芳しくなかった」という逆接的展開に適合する。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M4-007",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "物事の主要な部分・大枠を表す「大筋（おおすじ）」は、「大筋で合意に達する（大筋合意）」という定着した外交・ビジネスコロケーションを持つ。「大体」「大半」「大概」は「〜で合意に達する」の形をとらない。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M5-001",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "「ぶっきらぼう」は「態度や話し方に愛想がなく、そっけないさま」を表す。したがって「愛想がない」が最も的確な言い換え。A「礼儀正しい」は対義語。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M5-002",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "「あやふや」は「物事が曖昧で、不確かではっきりしないさま」を表す。「証言があやふやだ」＝「証言がはっきりしない」。A「確実な」は対義語。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M5-003",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「几帳面（きちょうめん）」は「細かいところまで規則正しく、きちんとしているさま」を表す。したがって「きちんとしている」が最も適切な言い換え。C「おおざっぱな」は対義語。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M5-004",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "動詞「怯える（おびえる）」は「恐ろしく思ってビクビクする、怖がる」という意味。「怖がる」が意味的に完全に合致する。B「驚く」は一過性の心理反応であり持続的な恐怖を表す「怯える」の類義語としては不適。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M5-005",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「お詫び（おわび）」は自らの過ちや不手際を謝る行為・言葉であり、「謝罪（しゃざい）」と同義。「深くお詫び申し上げます」＝「深く謝罪いたします」。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M6-001",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「経緯（けいい／いきさつ）」は「事件や事態の始まりから結末に至るまでの経過・成り行き」を意味する。「事件の詳しい経緯について説明があった」というDの用法が完全に適切。Aは「古い付き合い」、Bは「最短の経路／ルート」、Cは「終了予定時刻」の誤用。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M6-002",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「ニュアンス（nuance）」は「表現・意味・感情などの微妙な差異や陰影」を表す語。「微妙な言葉のニュアンスの違い」は標準的なコロケーション。Bは「空間／間取り」、Cは「速度／スピード」、Dは「確率／可能性」の誤用。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M6-003",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「著しい（いちじるしい）」は「目立って明白であるさま」を表し、特に「進歩／発展／変化／減少が著しい」のように動的な変化の度合いが極めて大きい場合に用いる。Aは「背が高い」、Bは「強烈な／非常に強い」、Cは「空気が淀んでいる／悪い」の誤用。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M6-004",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "副詞「いたって（至って）」は「きわめて・非常に」を意味し、状態が予想外に平穏・良好であるニュアンスを伴う。「高齢だが至って元気だ」「至って簡単だ」が典型的な用法。A（動作の厳格さ）、B（時間的・空間的到着）、C（否定的極端さ）の修飾には用いられない。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-M6-005",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "副詞「忽ち（たちまち）」は「あっという間に・短時間のうちに事態が急変するさま」を表す。「チケットがたちまち売り切れた」という急激な事態変化の修飾が典型。A（習慣的動作）、C（静的状態の修飾）、D（主体の意図的集中）には使えない。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-G7-001",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「名詞＋に際して」は「〜の機会に当たって／〜に先立って」を意味する改まった表現。「開会に際して一言ご挨拶を申し上げます」は式典や集会での定番の定型表現。A「を契機に」は重大な転換点となるきっかけに用いるため単なる冒頭の挨拶には不適。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-G7-002",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「名詞＋を契機に（して）」は「ある出来事を好機・転機として、新しい展開や心理的広がりが生じる」ことを表す。留学をきっかけに視野が広がったという文脈に合致する。C「を皮切りに」は同種の一連の行動が連鎖的に始まる発端を表すため不適。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-G7-003",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「動詞未然形＋ざるを得ない（認めざるを得ない）」は「客観的な状況から判断して、他に選択肢がなく、やむを得ずそうするしかない」という論理的・客観的必然性を表す。動かぬ証拠を前にして自白・認容せざるを得ない文脈に適合する。A「ずにはいられない」は自発的感情・衝動の抑制不能を表すため不適。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-G7-004",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "「名詞＋のみならず」は「〜だけでなく、さらに他も」と並列・付加する文型。「英語のみならず、フランス語や中国語も流暢に操る」として自然に成立する。",
+    "alternativeDefensibleAnswers": [
+      "A"
+    ],
+    "concerns": "選択肢Aの「ばかりか」も「名詞＋ばかりか…も」の形で同様に「〜だけでなく」の意味を表すことができ、現代日本語として十分に自然であるため、正解選択肢C（のみならず）との間で選択肢競合（distractor overlap）が生じている。"
+  },
+  {
+    "id": "N2-G7-005",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「名詞＋にほかならない」は「まさにそれである、それ以外の何ものでもない」と理由・原因を断定・強調する文型。「努力の賜物にほかならない」は称賛の文脈において完璧に適合する。A「にすぎない」は価値を過小評価する語であるため不適。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  },
+  {
+    "id": "N2-G7-006",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "「単なる〜にすぎない」は「ただの〜だけで、大したものではない」と程度や重要性を低く限定するN2重要文型。「あまり気にするな」という後続の慰め・助言と完全に呼応する。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null
+  }
+]

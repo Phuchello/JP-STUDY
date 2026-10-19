@@ -1,0 +1,102 @@
+{
+  "auditTimestamp": "2026-10-19T17:15:00+07:00",
+  "baselineCommit": "27c53aa2d32481e93ce8f0e128982fbc22b33ced",
+  "rawEvidenceHashes": {
+    "raw_blind_m01_s1_p1.json": "0bb0c4bb17750a324ca137e6561df07261cfe76d218085be2a2c41a6507de856",
+    "raw_blind_m01_s1_p2.json": "a28ed33866e7655cb10ea928a5025af18b80c6f6fbf0fcdcf6a926a76e523593",
+    "raw_blind_m01_s2.json": "898162c20328670d99ce363ed46f793434a7e10b1933da6b62f1a4fb2e68f311",
+    "raw_blind_m02_s1_p1.json": "7d21e577af617e53b69bea6a8b5bd9cb5343c2e59d39f329f971abf5cc6b163d",
+    "raw_blind_m02_s1_p2.json": "4358702c557bfb2e8a4326dfe7a2fdf4bde441d4b8c07fe825b50e1df020f414",
+    "raw_blind_m02_s2.json": "cc6e931b7c727e8097356c3afeaede8dee7759f30dd6a71fb6ee94f20ed96437"
+  },
+  "derivedArtifactHash": "59fa8870f74e80efd06a864ab1e4168e7f4735314a5ce194c287f060fe8f9cdc",
+  "totalQuestionsAudited": 210,
+  "totalReorderedQuestions": 27,
+  "recoverableSemanticMappings": 27,
+  "unrecoverableMappings": 0,
+  "historicalLetterInconsistenciesDetected": 8,
+  "inconsistencies": [
+    {
+      "questionId": "N2_02_M4_07",
+      "originalBlindAnswer": "B",
+      "remappedBlindAnswer": "D",
+      "selectedText": "閉じ込め",
+      "historicalLetterMentioned": [
+        "B"
+      ],
+      "reconciliation": "Reviewer explanation explicitly references pre-permutation letter 'B' (selected text: '閉じ込め'). After option rebalancing, text moved to letter 'D'. Explanation text is semantically consistent with chosen content."
+    },
+    {
+      "questionId": "N2_02_M6_01",
+      "originalBlindAnswer": "B",
+      "remappedBlindAnswer": "D",
+      "selectedText": "連休中は警備員が手薄になるため、戸締まりを厳重にする必要がある。",
+      "historicalLetterMentioned": [
+        "B"
+      ],
+      "reconciliation": "Reviewer explanation explicitly references pre-permutation letter 'B' (selected text: '連休中は警備員が手薄になるため、戸締まりを厳重にする必要がある。'). After option rebalancing, text moved to letter 'D'. Explanation text is semantically consistent with chosen content."
+    },
+    {
+      "questionId": "N2_02_M11_01",
+      "originalBlindAnswer": "B",
+      "remappedBlindAnswer": "D",
+      "selectedText": "接合部がわずかに滑ることで、地震の揺れのエネルギーを吸収・分散させるため。",
+      "historicalLetterMentioned": [
+        "B"
+      ],
+      "reconciliation": "Reviewer explanation explicitly references pre-permutation letter 'B' (selected text: '接合部がわずかに滑ることで、地震の揺れのエネルギーを吸収・分散させるため。'). After option rebalancing, text moved to letter 'D'. Explanation text is semantically consistent with chosen content."
+    },
+    {
+      "questionId": "N2_02_M11_02",
+      "originalBlindAnswer": "B",
+      "remappedBlindAnswer": "A",
+      "selectedText": "傷んだ部材だけを取り替えることで、建物を何百年も維持し続けられること。",
+      "historicalLetterMentioned": [
+        "B"
+      ],
+      "reconciliation": "Reviewer explanation explicitly references pre-permutation letter 'B' (selected text: '傷んだ部材だけを取り替えることで、建物を何百年も維持し続けられること。'). After option rebalancing, text moved to letter 'A'. Explanation text is semantically consistent with chosen content."
+    },
+    {
+      "questionId": "N2_02_M11_04",
+      "originalBlindAnswer": "B",
+      "remappedBlindAnswer": "D",
+      "selectedText": "未知の体験が多く、脳が多くの新しい情報を記憶に刻み込んでいるため。",
+      "historicalLetterMentioned": [
+        "B"
+      ],
+      "reconciliation": "Reviewer explanation explicitly references pre-permutation letter 'B' (selected text: '未知の体験が多く、脳が多くの新しい情報を記憶に刻み込んでいるため。'). After option rebalancing, text moved to letter 'D'. Explanation text is semantically consistent with chosen content."
+    },
+    {
+      "questionId": "N2_02_M11_08",
+      "originalBlindAnswer": "B",
+      "remappedBlindAnswer": "A",
+      "selectedText": "信頼関係の土台を築き、創造的な着想を生み出すきっかけになること。",
+      "historicalLetterMentioned": [
+        "B"
+      ],
+      "reconciliation": "Reviewer explanation explicitly references pre-permutation letter 'B' (selected text: '信頼関係の土台を築き、創造的な着想を生み出すきっかけになること。'). After option rebalancing, text moved to letter 'A'. Explanation text is semantically consistent with chosen content."
+    },
+    {
+      "questionId": "N2_02_M13_01",
+      "originalBlindAnswer": "B",
+      "remappedBlindAnswer": "D",
+      "selectedText": "あらかじめ正解が決まっており、指示通りに動く規律と効率が有効だったから。",
+      "historicalLetterMentioned": [
+        "B"
+      ],
+      "reconciliation": "Reviewer explanation explicitly references pre-permutation letter 'B' (selected text: 'あらかじめ正解が決まっており、指示通りに動く規律と効率が有効だったから。'). After option rebalancing, text moved to letter 'D'. Explanation text is semantically consistent with chosen content."
+    },
+    {
+      "questionId": "N2_02_M13_03",
+      "originalBlindAnswer": "B",
+      "remappedBlindAnswer": "C",
+      "selectedText": "予測困難な時代を乗り越えるには、互いの不完全さを認め合い補い合う関係性が不可欠だ。",
+      "historicalLetterMentioned": [
+        "B"
+      ],
+      "reconciliation": "Reviewer explanation explicitly references pre-permutation letter 'B' (selected text: '予測困難な時代を乗り越えるには、互いの不完全さを認め合い補い合う関係性が不可欠だ。'). After option rebalancing, text moved to letter 'C'. Explanation text is semantically consistent with chosen content."
+    }
+  ],
+  "reReviewRequired": false,
+  "governanceVerdict": "ALL_19_REORDERED_QUESTIONS_RECOVERED_BY_EXACT_SEMANTIC_TEXT"
+}

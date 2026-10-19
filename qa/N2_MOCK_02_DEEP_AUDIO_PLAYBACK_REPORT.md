@@ -1,6 +1,6 @@
 # BÁO CÁO KIỂM THỬ PLAYBACK VÀ TÍNH TOÀN VẸN ÂM THANH — JLPT N2 FULL MOCK #02
 
-**Thời điểm kiểm thử:** 2026-10-19T09:51:10.184Z  
+**Thời điểm kiểm thử:** 2026-10-19T10:22:29.894Z  
 **Môi trường thử nghiệm:** Headless Chromium (Desktop 1280x800 & Mobile 390x844 iPhone Viewport)  
 **Tổng số track thẩm định:** 30 file âm thanh (30/30)  
 **Kết quả đạt chuẩn:** **30/30 (100.0%)** — 🟢 100% ĐẠT TIÊU CHUẨN PHÒNG THI
@@ -9,20 +9,20 @@
 
 | # | Mã câu hỏi | Tên file MP3 | Dung lượng | Thời lượng | SHA-256 Check | Desktop Play | Mobile Play | Script Align | Kết luận |
 |---|---|---|---|---|---|---|---|---|---|
-| 1 | `N2_02_M1_L01` | `N2_02_M1_L01.mp3` | 546.1 KB | 93.1s | ✅ MATCH | ✅ PASS (0.3s) | ✅ PASS | ✅ ALIGNED | 🟢 PASS |
+| 1 | `N2_02_M1_L01` | `N2_02_M1_L01.mp3` | 546.1 KB | 93.1s | ✅ MATCH | ✅ PASS (0.4s) | ✅ PASS | ✅ ALIGNED | 🟢 PASS |
 | 2 | `N2_02_M1_L02` | `N2_02_M1_L02.mp3` | 517.7 KB | 88.3s | ✅ MATCH | ✅ PASS (0.5s) | ✅ PASS | ✅ ALIGNED | 🟢 PASS |
 | 3 | `N2_02_M1_L03` | `N2_02_M1_L03.mp3` | 549.8 KB | 93.7s | ✅ MATCH | ✅ PASS (0.5s) | ✅ PASS | ✅ ALIGNED | 🟢 PASS |
 | 4 | `N2_02_M1_L04` | `N2_02_M1_L04.mp3` | 446.4 KB | 76.1s | ✅ MATCH | ✅ PASS (0.5s) | ✅ PASS | ✅ ALIGNED | 🟢 PASS |
 | 5 | `N2_02_M1_L05` | `N2_02_M1_L05.mp3` | 491.9 KB | 83.8s | ✅ MATCH | ✅ PASS (0.5s) | ✅ PASS | ✅ ALIGNED | 🟢 PASS |
 | 6 | `N2_02_M2_L01` | `N2_02_M2_L01.mp3` | 511.3 KB | 87.2s | ✅ MATCH | ✅ PASS (0.5s) | ✅ PASS | ✅ ALIGNED | 🟢 PASS |
-| 7 | `N2_02_M2_L02` | `N2_02_M2_L02.mp3` | 426.9 KB | 72.8s | ✅ MATCH | ✅ PASS (0.5s) | ✅ PASS | ✅ ALIGNED | 🟢 PASS |
+| 7 | `N2_02_M2_L02` | `N2_02_M2_L02.mp3` | 426.9 KB | 72.8s | ✅ MATCH | ✅ PASS (1.0s) | ✅ PASS | ✅ ALIGNED | 🟢 PASS |
 | 8 | `N2_02_M2_L03` | `N2_02_M2_L03.mp3` | 417.7 KB | 71.2s | ✅ MATCH | ✅ PASS (0.5s) | ✅ PASS | ✅ ALIGNED | 🟢 PASS |
 | 9 | `N2_02_M2_L04` | `N2_02_M2_L04.mp3` | 378.4 KB | 64.5s | ✅ MATCH | ✅ PASS (0.5s) | ✅ PASS | ✅ ALIGNED | 🟢 PASS |
 | 10 | `N2_02_M2_L05` | `N2_02_M2_L05.mp3` | 422.1 KB | 71.9s | ✅ MATCH | ✅ PASS (0.5s) | ✅ PASS | ✅ ALIGNED | 🟢 PASS |
 | 11 | `N2_02_M2_L06` | `N2_02_M2_L06.mp3` | 453.5 KB | 77.3s | ✅ MATCH | ✅ PASS (0.5s) | ✅ PASS | ✅ ALIGNED | 🟢 PASS |
 | 12 | `N2_02_M3_L01` | `N2_02_M3_L01.mp3` | 575.0 KB | 98.0s | ✅ MATCH | ✅ PASS (0.5s) | ✅ PASS | ✅ ALIGNED | 🟢 PASS |
 | 13 | `N2_02_M3_L02` | `N2_02_M3_L02.mp3` | 660.3 KB | 112.6s | ✅ MATCH | ✅ PASS (0.5s) | ✅ PASS | ✅ ALIGNED | 🟢 PASS |
-| 14 | `N2_02_M3_L03` | `N2_02_M3_L03.mp3` | 611.8 KB | 104.3s | ✅ MATCH | ✅ PASS (0.5s) | ✅ PASS | ✅ ALIGNED | 🟢 PASS |
+| 14 | `N2_02_M3_L03` | `N2_02_M3_L03.mp3` | 611.8 KB | 104.3s | ✅ MATCH | ✅ PASS (0.4s) | ✅ PASS | ✅ ALIGNED | 🟢 PASS |
 | 15 | `N2_02_M3_L04` | `N2_02_M3_L04.mp3` | 609.6 KB | 103.9s | ✅ MATCH | ✅ PASS (0.5s) | ✅ PASS | ✅ ALIGNED | 🟢 PASS |
 | 16 | `N2_02_M3_L05` | `N2_02_M3_L05.mp3` | 616.4 KB | 105.1s | ✅ MATCH | ✅ PASS (0.5s) | ✅ PASS | ✅ ALIGNED | 🟢 PASS |
 | 17 | `N2_02_M4_L01` | `N2_02_M4_L01.mp3` | 163.9 KB | 27.9s | ✅ MATCH | ✅ PASS (0.5s) | ✅ PASS | ✅ ALIGNED | 🟢 PASS |

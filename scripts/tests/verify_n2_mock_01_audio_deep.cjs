@@ -11,6 +11,7 @@ const ROOT = path.resolve(__dirname, '../..');
 const MANIFEST_PATH = path.join(ROOT, 'data/mock_exams/n2_mock_01_audio_manifest.json');
 const AUDIO_DIR = path.join(ROOT, 'docs/audio/n2_mock_01');
 const REPORT_OUT = path.join(ROOT, 'qa/N2_MOCK_01_DEEP_AUDIO_PLAYBACK_REPORT.md');
+const RECEIPT_OUT = path.join(ROOT, 'qa/N2_MOCK_01_AUDIO_PLAYBACK_RECEIPT.json');
 
 const LIVE_BASE = 'https://phuchello.github.io/JP-STUDY/audio/n2_mock_01/';
 
@@ -199,7 +200,10 @@ async function runDeepAudioVerification() {
       browserPlaybackPass,
       transcriptAlignmentPass,
       linguisticAudioQaPass,
-      shaMatch
+      shaMatch,
+      expectedSha,
+      playbackDesktop,
+      playbackMobile
     };
 
     results.push(summary);
@@ -228,6 +232,37 @@ async function runDeepAudioVerification() {
   console.log(`LINGUISTIC_AUDIO_QA_PASS: ${passLing}/${total} (100%)`);
   console.log(`SHA256_INTEGRITY_PASS:    ${passSha}/${total} (100%)`);
   console.log(`LIVE_CDN_RESOLVED (200):  ${passLive}/${total} (${Math.round((passLive/total)*100)}%)`);
+
+  // Write receipt JSON
+  const tracksMap = {};
+  for (const r of results) {
+    tracksMap[r.qid] = {
+      questionId: r.qid,
+      filename: r.filename,
+      audioFileExists: r.assetExists,
+      audioFileSize: r.localSize,
+      audioHashVerified: r.shaMatch,
+      audioSha256: r.expectedSha,
+      audioDecodes: r.decodesSuccessfully,
+      durationSec: parseFloat(r.durationSec),
+      browserPlaybackVerified: r.browserPlaybackPass,
+      playbackDesktop: r.playbackDesktop,
+      playbackMobile: r.playbackMobile
+    };
+  }
+
+  const receipt = {
+    examId: 'N2-MOCK-01',
+    generatedAt: new Date().toISOString(),
+    browserEngine: 'Playwright Chromium Headless',
+    totalTracks: total,
+    verifiedTracks: passPlay,
+    allPassed: (passAsset === total && passDecode === total && passPlay === total && passSha === total),
+    tracks: tracksMap
+  };
+
+  fs.writeFileSync(RECEIPT_OUT, JSON.stringify(receipt, null, 2), 'utf-8');
+  console.log('Audio playback receipt successfully written to:', RECEIPT_OUT);
 
   // Write detailed report
   let md = `# JLPT N2 FULL MOCK #01 — DEEP REAL AUDIO PLAYBACK & ACOUSTIC AUDIT REPORT\n\n`;

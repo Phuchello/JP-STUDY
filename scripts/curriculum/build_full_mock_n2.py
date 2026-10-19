@@ -314,13 +314,13 @@ def build_full_mock():
         {"id": "A", "text": "反面"},
         {"id": "B", "text": "どころではなく"},
         {"id": "C", "text": "のみならず"},
-        {"id": "D", "text": "どころか"}
+        {"id": "D", "text": "を契機に"}
     ]
     sec1_items[35]['correctAnswer'] = "C"
     sec1_items[35]['distractorExplanations'] = {
         "A": "〜反面: Mặt khác, trái lại (chỉ hai mặt tính chất đối lập của cùng một sự vật, không dùng trong ngữ cảnh liệt kê năng lực này).",
         "B": "〜どころではなく: Không phải lúc để làm gì (ví dụ: 忙しくて旅行どころではない).",
-        "D": "〜どころか: Đâu chỉ dừng lại ở... mà thậm chí còn tệ hơn/ngược lại (thường đi với vế sau phủ định hoặc tính chất trái ngược tiêu cực, không dùng cho vế khẳng định tích cực bổ sung như 流暢に操る)."
+        "D": "〜を契機に: Nhân cơ hội/lấy làm cột mốc bước ngoặt (ví dụ: 留学を契機に), không thể đi sau danh từ 英語 để bổ nghĩa cho vế sau."
     }
     sec1_items[35]['explanationVi'] = "〜のみならず: Không chỉ N mà còn... (văn viết trang trọng mang tính liệt kê mở rộng năng lực/phạm vi: 英語のみならず - không chỉ tiếng Anh mà cả tiếng Pháp hay tiếng Trung anh ấy cũng nói lưu loát)."
     sec1_items[35]['status'] = "QA_VERIFIED"
@@ -401,7 +401,22 @@ def build_full_mock():
     sec1_items[43]['explanationVi'] = "〜を問わず（không màng, không phân biệt）: Đi với danh từ chỉ phạm trù đối lập (年齢や性別を問わず: không phân biệt tuổi tác hay giới tính)."
     sec1_items[43]['status'] = "QA_VERIFIED"
 
-    # Mondai 8 items are already well structured. Set status:
+    # Mondai 8 items (N2-G8-001 to 005)
+    sec1_items[46]['stem'] = "この計画は、予算の（　　）（　　） ★ （　　）困難になってきた。"
+    sec1_items[46]['options'] = [
+        {"id": "A", "text": "都合上、"},
+        {"id": "B", "text": "当初の"},
+        {"id": "C", "text": "予定通りに"},
+        {"id": "D", "text": "進めることが"}
+    ]
+    sec1_items[46]['correctAnswer'] = "C"
+    sec1_items[46]['assembledSentence'] = "この計画は、予算の都合上、当初の予定通りに進めることが困難になってきた。"
+    sec1_items[46]['explanationVi'] = "Cấu trúc: N + の都合上 (do điều kiện/hoàn cảnh N). Thứ tự đúng duy nhất: 都合上、 (1) 当初の (2) 予定通りに (3★) 進めることが (4). Ngôi sao rơi vào vị trí 3: 「予定通りに」."
+    sec1_items[46]['distractorExplanations'] = {
+        "A": "Cụm từ 「都合上、」 đứng ở vị trí 1 sau 「予算の」: 「この計画は、予算の都合上、当初の予定通りに進めることが困難になってきた。」.",
+        "B": "Cụm từ 「当初の」 đứng ở vị trí 2 bổ nghĩa cho 「予定通りに」: 「この計画は、予算の都合上、当初の予定通りに進めることが困難になってきた。」.",
+        "D": "Cụm từ 「進めることが」 đứng ở vị trí 4 làm chủ ngữ cho vị ngữ 「困難になってきた」."
+    }
     for idx in range(44, 49):
         sec1_items[idx]['status'] = "QA_VERIFIED"
 

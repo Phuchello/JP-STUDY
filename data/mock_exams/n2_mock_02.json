@@ -730,7 +730,7 @@
             },
             {
               "id": "C",
-              "text": "さわやか"
+              "text": "あざやか"
             },
             {
               "id": "D",
@@ -740,8 +740,8 @@
           "correctAnswer": "B",
           "explanationVi": "にこやかに: Mỉm cười niềm nở, tươi cười rạng rỡ (にこやかに挨拶する).",
           "distractorExplanations": {
-            "A": "しとやか: Dịu dàng, đoan trang, thùy mị (thường miêu tả cử chỉ phụ nữ truyền thống).",
-            "C": "さわやか: Sảng khoái, tươi mát (thời tiết mát mẻ, giọng nói thanh thoát).",
+            "A": "しとやか: Đoan trang, thùy mị (thường miêu tả cử chỉ phụ nữ truyền thống: 淑やかな身のこなし).",
+            "C": "あざやか: Rực rỡ, sống động, tài tình (dùng cho màu sắc hoặc thủ pháp: 鮮やかな色, 鮮やかな手際, không đi với 挨拶).",
             "D": "おろそか: Lơ là, sao nhãng nhiệm vụ (おろそかにする)."
           },
           "difficultyEstimate": 2,
@@ -1558,7 +1558,7 @@
           "skill": "Grammar",
           "typeId": "N2-GR-STAR",
           "mondaiTitle": "Mondai 8: 文の組み立て ★",
-          "stem": "環境問題の解決には、行政だけでなく＿＿　＿＿　★　＿＿　欠かせない。",
+          "stem": "環境問題の解決には、行政だけでなく＿＿　＿＿　★　＿＿　前進しない。",
           "options": [
             {
               "id": "A",
@@ -1566,7 +1566,7 @@
             },
             {
               "id": "B",
-              "text": "意識の改革が"
+              "text": "意識改革なくしては"
             },
             {
               "id": "C",
@@ -1574,15 +1574,15 @@
             },
             {
               "id": "D",
-              "text": "何より"
+              "text": "到底"
             }
           ],
           "correctAnswer": "B",
-          "explanationVi": "Thứ tự đúng: 行政だけでなく【市民 (C)】【一人ひとりの (A)】【★ 意識の改革が (B)】【何より (D)】欠かせない. Vị trí ngôi sao là B (意識の改革が).",
+          "explanationVi": "Thứ tự đúng duy nhất: 行政だけでなく【市民 (C)】【一人ひとりの (A)】【★ 意識改革なくしては (B)】【到底 (D)】前進しない. Vị trí ngôi sao là B (意識改革なくしては). Cấu trúc: 〜なくしては（〜ない） (nếu không có... thì tuyệt đối không thể...).",
           "distractorExplanations": {
-            "A": "一人ひとりの bổ nghĩa cho 意識の改革が (vị trí 3 - sao).",
-            "C": "市民 đi trước 一人ひとりの (市民一人ひとりの - từng người dân một).",
-            "D": "何より đứng trước 欠かせない (何より欠かせない - không thể thiếu hơn bất cứ điều gì)."
+            "A": "「一人ひとりの」 đứng ở vị trí 2 bổ nghĩa cho 「意識改革」.",
+            "C": "「市民」 đứng ở vị trí 1 mở đầu cụm danh từ 「市民一人ひとりの」.",
+            "D": "「到底」 đứng ở vị trí 4 làm phó từ nhấn mạnh cho vị ngữ phủ định 「前進しない」."
           },
           "difficultyEstimate": 3,
           "status": "QA_VERIFIED"
@@ -1667,27 +1667,27 @@
           "options": [
             {
               "id": "A",
-              "text": "私たちの"
+              "text": "人々の"
             },
             {
               "id": "B",
-              "text": "生活様式に"
+              "text": "生活の"
             },
             {
               "id": "C",
-              "text": "劇的な"
+              "text": "及ぶ"
             },
             {
               "id": "D",
-              "text": "かつてない"
+              "text": "隅々にまで"
             }
           ],
           "correctAnswer": "D",
-          "explanationVi": "Thứ tự đúng: インターネットの普及は【私たちの (A)】【生活様式に (B)】【★ かつてない (D)】【劇的な (C)】変革をもたらした. Vị trí ngôi sao là D (かつてない).",
+          "explanationVi": "Thứ tự đúng duy nhất: インターネットの普及は【人々の (A)】【生活の (B)】【★ 隅々にまで (D)】【及ぶ (C)】変革をもたらした. Vị trí ngôi sao là D (隅々にまで).",
           "distractorExplanations": {
-            "A": "私たちの bổ nghĩa cho 生活様式に.",
-            "B": "生活様式に bổ nghĩa cho 変革をもたらした.",
-            "C": "劇的な đứng ngay trước danh từ 変革 (劇的な変革)."
+            "A": "「人々の」 đứng ở vị trí 1 bổ nghĩa cho 「生活の」.",
+            "B": "「生活の」 đứng ở vị trí 2 bổ nghĩa cho 「隅々にまで」.",
+            "C": "「及ぶ」 đứng ở vị trí 4 làm động từ định ngữ bổ nghĩa trực tiếp cho danh từ 「変革」."
           },
           "difficultyEstimate": 3,
           "status": "QA_VERIFIED"
