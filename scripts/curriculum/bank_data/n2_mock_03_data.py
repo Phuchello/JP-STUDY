@@ -879,15 +879,20 @@ def get_n2_mock_03_sec1_items():
         (
             "N2_03_M8_05",
             "N2-GR-STAR",
-            "Mondai 8: 文の組み立て",
-            "彼がこれほど短期間で（　　）（　　） ★ （　　）努力の賜物だ。",
-            [("A", "大きな成果を上げられたのは、"), ("B", "誰よりも"), ("C", "真摯に積み重ねた"), ("D", "本人の")],
-            "B",
-            "Thứ tự đúng: A - D - B - C (大きな成果を上げられたのは、 本人の 誰よりも 真摯に積み重ねた). Cấu trúc câu giải thích nguyên nhân: 〜のは、〜努力の賜物だ (việc anh ấy đạt được thành quả lớn trong thời gian ngắn như vậy chính là nhờ nỗ lực tích lũy chân thành hơn bất kỳ ai của chính bản thân anh ấy). Vị trí ngôi sao ★ là B (誰よりも).",
+            "Mondai 8: 文の組み立て ★",
+            "彼がこれほど短期間で大きな成果を上げられたのは、（　　）（　　） ★ （　　）賜物だ。",
+            [
+                ("A", "地道に努力を"),
+                ("B", "重ねてきた"),
+                ("C", "素直に耳を傾け、"),
+                ("D", "周囲の助言に")
+            ],
+            "A",
+            "Thứ tự đúng: D - C - A - B (周囲の助言に 素直に耳を傾け、 地道に努力を 重ねてきた). Cấu trúc ngữ pháp N2: 〜賜物だ (kết quả/hoa trái của...). [D 周囲の助言に] kết hợp với [C 素直に耳を傾け、] tạo vế tiếp thu ý kiến xung quanh. Vế sau: [A 地道に努力を] là tân ngữ của [B 重ねてきた] bổ nghĩa trực tiếp cho danh từ 賜物だ. Thứ tự duy nhất hợp cú pháp và tự nhiên là D - C - A - B. Vị trí ngôi sao ★ là A (地道に努力を).",
             {
-                "A": "A đứng ở vị trí thứ nhất làm mệnh đề chủ ngữ danh hóa.",
-                "D": "D đứng ở vị trí thứ hai xác định chủ thể (本人の).",
-                "C": "C đứng ở vị trí thứ tư bổ nghĩa trực tiếp cho 努力."
+                "B": "B (重ねてきた) đứng ở vị trí thứ tư bổ nghĩa trực tiếp cho danh từ 賜物だ.",
+                "C": "C (素直に耳を傾け、) đứng ở vị trí thứ hai làm vế liên kết nối tiếp.",
+                "D": "D (周囲の助言に) đứng ở vị trí thứ nhất đi liền với cụm động từ 耳を傾ける."
             }
         ),
     ]

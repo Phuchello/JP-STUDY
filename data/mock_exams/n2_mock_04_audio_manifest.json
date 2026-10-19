@@ -1,0 +1,452 @@
+{
+  "N2_04_M1_L01": {
+    "id": "N2_04_M1_L01",
+    "qid": "N2_04_M1_L01",
+    "audioUrl": "audio/n2_mock_04/N2_04_M1_L01.mp3",
+    "audioDurationSec": 87.4,
+    "audioSha256": "921794b336fac5b97f9aae6da18d04c2a0b2daade32c6b49c469e284a3dd39e1",
+    "sha256": "921794b336fac5b97f9aae6da18d04c2a0b2daade32c6b49c469e284a3dd39e1",
+    "audioVerificationStatus": "AUDIO_VERIFIED",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ],
+    "fileSizeBytes": 525116
+  },
+  "N2_04_M1_L02": {
+    "id": "N2_04_M1_L02",
+    "qid": "N2_04_M1_L02",
+    "audioUrl": "audio/n2_mock_04/N2_04_M1_L02.mp3",
+    "audioDurationSec": 94.8,
+    "audioSha256": "6c24e7d07c1b5e9c939f26280b80ba28904db12380fdbf132fe4a65852343b54",
+    "sha256": "6c24e7d07c1b5e9c939f26280b80ba28904db12380fdbf132fe4a65852343b54",
+    "audioVerificationStatus": "AUDIO_VERIFIED",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ],
+    "fileSizeBytes": 569612
+  },
+  "N2_04_M1_L03": {
+    "id": "N2_04_M1_L03",
+    "qid": "N2_04_M1_L03",
+    "audioUrl": "audio/n2_mock_04/N2_04_M1_L03.mp3",
+    "audioDurationSec": 87.7,
+    "audioSha256": "1b0f3fca41fe908b93a3e0454f60680150aef2704dd88038fea17176b4b2623a",
+    "sha256": "1b0f3fca41fe908b93a3e0454f60680150aef2704dd88038fea17176b4b2623a",
+    "audioVerificationStatus": "AUDIO_VERIFIED",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ],
+    "fileSizeBytes": 526700
+  },
+  "N2_04_M1_L04": {
+    "id": "N2_04_M1_L04",
+    "qid": "N2_04_M1_L04",
+    "audioUrl": "audio/n2_mock_04/N2_04_M1_L04.mp3",
+    "audioDurationSec": 92.3,
+    "audioSha256": "1c59945351d9408d1993ecc37e6b8cd31049721661a9478c64f26fa2c6bc9bbf",
+    "sha256": "1c59945351d9408d1993ecc37e6b8cd31049721661a9478c64f26fa2c6bc9bbf",
+    "audioVerificationStatus": "AUDIO_VERIFIED",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ],
+    "fileSizeBytes": 554492
+  },
+  "N2_04_M1_L05": {
+    "id": "N2_04_M1_L05",
+    "qid": "N2_04_M1_L05",
+    "audioUrl": "audio/n2_mock_04/N2_04_M1_L05.mp3",
+    "audioDurationSec": 109.4,
+    "audioSha256": "b33a50df9dc77fc49c6770ac9cb31dd4ae4b2d19132635359396008fcb25e854",
+    "sha256": "b33a50df9dc77fc49c6770ac9cb31dd4ae4b2d19132635359396008fcb25e854",
+    "audioVerificationStatus": "AUDIO_VERIFIED",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ],
+    "fileSizeBytes": 657164
+  },
+  "N2_04_M2_L01": {
+    "id": "N2_04_M2_L01",
+    "qid": "N2_04_M2_L01",
+    "audioUrl": "audio/n2_mock_04/N2_04_M2_L01.mp3",
+    "audioDurationSec": 93.3,
+    "audioSha256": "2b5cba47f6a688c6a88779042be17e7c238f54d8fc8216949a9091690095486a",
+    "sha256": "2b5cba47f6a688c6a88779042be17e7c238f54d8fc8216949a9091690095486a",
+    "audioVerificationStatus": "AUDIO_VERIFIED",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ],
+    "fileSizeBytes": 560252
+  },
+  "N2_04_M2_L02": {
+    "id": "N2_04_M2_L02",
+    "qid": "N2_04_M2_L02",
+    "audioUrl": "audio/n2_mock_04/N2_04_M2_L02.mp3",
+    "audioDurationSec": 92.3,
+    "audioSha256": "c0106d648be31da25b19f2e06ebe17f9eea77f891bab5d1fe542a72bb3e5ad35",
+    "sha256": "c0106d648be31da25b19f2e06ebe17f9eea77f891bab5d1fe542a72bb3e5ad35",
+    "audioVerificationStatus": "AUDIO_VERIFIED",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ],
+    "fileSizeBytes": 554636
+  },
+  "N2_04_M2_L03": {
+    "id": "N2_04_M2_L03",
+    "qid": "N2_04_M2_L03",
+    "audioUrl": "audio/n2_mock_04/N2_04_M2_L03.mp3",
+    "audioDurationSec": 81.3,
+    "audioSha256": "b4d915387aac49922bf2cf998938873848fea94cd3e1a82ed64fdcf23870d86d",
+    "sha256": "b4d915387aac49922bf2cf998938873848fea94cd3e1a82ed64fdcf23870d86d",
+    "audioVerificationStatus": "AUDIO_VERIFIED",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ],
+    "fileSizeBytes": 488396
+  },
+  "N2_04_M2_L04": {
+    "id": "N2_04_M2_L04",
+    "qid": "N2_04_M2_L04",
+    "audioUrl": "audio/n2_mock_04/N2_04_M2_L04.mp3",
+    "audioDurationSec": 82.9,
+    "audioSha256": "ffcba426d4cba29cd8bf202859650e6275839bc91d56d35b3a46ca9bf28c395b",
+    "sha256": "ffcba426d4cba29cd8bf202859650e6275839bc91d56d35b3a46ca9bf28c395b",
+    "audioVerificationStatus": "AUDIO_VERIFIED",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ],
+    "fileSizeBytes": 497756
+  },
+  "N2_04_M2_L05": {
+    "id": "N2_04_M2_L05",
+    "qid": "N2_04_M2_L05",
+    "audioUrl": "audio/n2_mock_04/N2_04_M2_L05.mp3",
+    "audioDurationSec": 93.5,
+    "audioSha256": "53af40ff58a2148532df7968f976f089b5c3511796e0c4a392a169afaf4ed64f",
+    "sha256": "53af40ff58a2148532df7968f976f089b5c3511796e0c4a392a169afaf4ed64f",
+    "audioVerificationStatus": "AUDIO_VERIFIED",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ],
+    "fileSizeBytes": 561692
+  },
+  "N2_04_M2_L06": {
+    "id": "N2_04_M2_L06",
+    "qid": "N2_04_M2_L06",
+    "audioUrl": "audio/n2_mock_04/N2_04_M2_L06.mp3",
+    "audioDurationSec": 92.3,
+    "audioSha256": "3a9e66ad96c15d6e0b843edbb37b5f9d4378517683f4a515111f9a6039fa8b54",
+    "sha256": "3a9e66ad96c15d6e0b843edbb37b5f9d4378517683f4a515111f9a6039fa8b54",
+    "audioVerificationStatus": "AUDIO_VERIFIED",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ],
+    "fileSizeBytes": 554492
+  },
+  "N2_04_M3_L01": {
+    "id": "N2_04_M3_L01",
+    "qid": "N2_04_M3_L01",
+    "audioUrl": "audio/n2_mock_04/N2_04_M3_L01.mp3",
+    "audioDurationSec": 98.4,
+    "audioSha256": "f0d7ab626456317143298cd73aa1a2877a4956928e7de79ab6e66fd8a87c0dcd",
+    "sha256": "f0d7ab626456317143298cd73aa1a2877a4956928e7de79ab6e66fd8a87c0dcd",
+    "audioVerificationStatus": "AUDIO_VERIFIED",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ],
+    "fileSizeBytes": 590780
+  },
+  "N2_04_M3_L02": {
+    "id": "N2_04_M3_L02",
+    "qid": "N2_04_M3_L02",
+    "audioUrl": "audio/n2_mock_04/N2_04_M3_L02.mp3",
+    "audioDurationSec": 106.3,
+    "audioSha256": "18628ef7bc240a32f518f5aedd3dd93ed5c0e8aec6351be9a5b379af96eb048d",
+    "sha256": "18628ef7bc240a32f518f5aedd3dd93ed5c0e8aec6351be9a5b379af96eb048d",
+    "audioVerificationStatus": "AUDIO_VERIFIED",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ],
+    "fileSizeBytes": 638300
+  },
+  "N2_04_M3_L03": {
+    "id": "N2_04_M3_L03",
+    "qid": "N2_04_M3_L03",
+    "audioUrl": "audio/n2_mock_04/N2_04_M3_L03.mp3",
+    "audioDurationSec": 107.9,
+    "audioSha256": "ff5f8358ee68a8fe7b6e989ebbc902f3671f499bd8a856735b886022f009a2f5",
+    "sha256": "ff5f8358ee68a8fe7b6e989ebbc902f3671f499bd8a856735b886022f009a2f5",
+    "audioVerificationStatus": "AUDIO_VERIFIED",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ],
+    "fileSizeBytes": 648236
+  },
+  "N2_04_M3_L04": {
+    "id": "N2_04_M3_L04",
+    "qid": "N2_04_M3_L04",
+    "audioUrl": "audio/n2_mock_04/N2_04_M3_L04.mp3",
+    "audioDurationSec": 107.8,
+    "audioSha256": "23408c5f9bf811f58a64590ee96b629d33649a254d0fdb07785deb1cfe120d46",
+    "sha256": "23408c5f9bf811f58a64590ee96b629d33649a254d0fdb07785deb1cfe120d46",
+    "audioVerificationStatus": "AUDIO_VERIFIED",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ],
+    "fileSizeBytes": 647660
+  },
+  "N2_04_M3_L05": {
+    "id": "N2_04_M3_L05",
+    "qid": "N2_04_M3_L05",
+    "audioUrl": "audio/n2_mock_04/N2_04_M3_L05.mp3",
+    "audioDurationSec": 102.9,
+    "audioSha256": "0bbb8830eaa33fb6eb35f2be35970cd753dc0fa133ea0fe129fbda662c1b95af",
+    "sha256": "0bbb8830eaa33fb6eb35f2be35970cd753dc0fa133ea0fe129fbda662c1b95af",
+    "audioVerificationStatus": "AUDIO_VERIFIED",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ],
+    "fileSizeBytes": 617996
+  },
+  "N2_04_M4_L01": {
+    "id": "N2_04_M4_L01",
+    "qid": "N2_04_M4_L01",
+    "audioUrl": "audio/n2_mock_04/N2_04_M4_L01.mp3",
+    "audioDurationSec": 25.7,
+    "audioSha256": "bea0bfded41b359a218f5a40e118c21da5503171ed8a244f2e6a6fc2fbdda1d3",
+    "sha256": "bea0bfded41b359a218f5a40e118c21da5503171ed8a244f2e6a6fc2fbdda1d3",
+    "audioVerificationStatus": "AUDIO_VERIFIED",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ],
+    "fileSizeBytes": 154748
+  },
+  "N2_04_M4_L02": {
+    "id": "N2_04_M4_L02",
+    "qid": "N2_04_M4_L02",
+    "audioUrl": "audio/n2_mock_04/N2_04_M4_L02.mp3",
+    "audioDurationSec": 29.3,
+    "audioSha256": "f2901a083cc0417432e48d37455187088b13e0d13b6fa97e9a5a80ca5dd182b4",
+    "sha256": "f2901a083cc0417432e48d37455187088b13e0d13b6fa97e9a5a80ca5dd182b4",
+    "audioVerificationStatus": "AUDIO_VERIFIED",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ],
+    "fileSizeBytes": 176636
+  },
+  "N2_04_M4_L03": {
+    "id": "N2_04_M4_L03",
+    "qid": "N2_04_M4_L03",
+    "audioUrl": "audio/n2_mock_04/N2_04_M4_L03.mp3",
+    "audioDurationSec": 27.4,
+    "audioSha256": "dff0c742726ee95ddb5a65a81e70b6ed5847dd1df37e9363fec40f7a7a809ef6",
+    "sha256": "dff0c742726ee95ddb5a65a81e70b6ed5847dd1df37e9363fec40f7a7a809ef6",
+    "audioVerificationStatus": "AUDIO_VERIFIED",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ],
+    "fileSizeBytes": 164972
+  },
+  "N2_04_M4_L04": {
+    "id": "N2_04_M4_L04",
+    "qid": "N2_04_M4_L04",
+    "audioUrl": "audio/n2_mock_04/N2_04_M4_L04.mp3",
+    "audioDurationSec": 31.1,
+    "audioSha256": "7d24cdd696f915b965a0382e0ddc06ca3935eef4248ca72988761336b88cbf92",
+    "sha256": "7d24cdd696f915b965a0382e0ddc06ca3935eef4248ca72988761336b88cbf92",
+    "audioVerificationStatus": "AUDIO_VERIFIED",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ],
+    "fileSizeBytes": 187436
+  },
+  "N2_04_M4_L05": {
+    "id": "N2_04_M4_L05",
+    "qid": "N2_04_M4_L05",
+    "audioUrl": "audio/n2_mock_04/N2_04_M4_L05.mp3",
+    "audioDurationSec": 28.8,
+    "audioSha256": "19b8e303198c1e4390da1cbf3135f80765a0146068f5a9e1630f4b1616a09126",
+    "sha256": "19b8e303198c1e4390da1cbf3135f80765a0146068f5a9e1630f4b1616a09126",
+    "audioVerificationStatus": "AUDIO_VERIFIED",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ],
+    "fileSizeBytes": 173612
+  },
+  "N2_04_M4_L06": {
+    "id": "N2_04_M4_L06",
+    "qid": "N2_04_M4_L06",
+    "audioUrl": "audio/n2_mock_04/N2_04_M4_L06.mp3",
+    "audioDurationSec": 32.2,
+    "audioSha256": "6dc61d7ce729fdeb6d0b9501e56257d62237be4daaa260a4c68a1bcd7bc449d8",
+    "sha256": "6dc61d7ce729fdeb6d0b9501e56257d62237be4daaa260a4c68a1bcd7bc449d8",
+    "audioVerificationStatus": "AUDIO_VERIFIED",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ],
+    "fileSizeBytes": 193628
+  },
+  "N2_04_M4_L07": {
+    "id": "N2_04_M4_L07",
+    "qid": "N2_04_M4_L07",
+    "audioUrl": "audio/n2_mock_04/N2_04_M4_L07.mp3",
+    "audioDurationSec": 30.1,
+    "audioSha256": "83b95f74a8d4ac3c23bf80852a87dde3f2b5f141434f8421fe7475007b38fad7",
+    "sha256": "83b95f74a8d4ac3c23bf80852a87dde3f2b5f141434f8421fe7475007b38fad7",
+    "audioVerificationStatus": "AUDIO_VERIFIED",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ],
+    "fileSizeBytes": 181388
+  },
+  "N2_04_M4_L08": {
+    "id": "N2_04_M4_L08",
+    "qid": "N2_04_M4_L08",
+    "audioUrl": "audio/n2_mock_04/N2_04_M4_L08.mp3",
+    "audioDurationSec": 29.0,
+    "audioSha256": "062882f95a96420b4e7acef9a28002181aee38d9c755d0d6bfab35b9e77d55a9",
+    "sha256": "062882f95a96420b4e7acef9a28002181aee38d9c755d0d6bfab35b9e77d55a9",
+    "audioVerificationStatus": "AUDIO_VERIFIED",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ],
+    "fileSizeBytes": 174620
+  },
+  "N2_04_M4_L09": {
+    "id": "N2_04_M4_L09",
+    "qid": "N2_04_M4_L09",
+    "audioUrl": "audio/n2_mock_04/N2_04_M4_L09.mp3",
+    "audioDurationSec": 28.8,
+    "audioSha256": "4255c997d018a21711d78315f26b12e19647b3962af9b8cdcea5123f336997bb",
+    "sha256": "4255c997d018a21711d78315f26b12e19647b3962af9b8cdcea5123f336997bb",
+    "audioVerificationStatus": "AUDIO_VERIFIED",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ],
+    "fileSizeBytes": 173180
+  },
+  "N2_04_M4_L10": {
+    "id": "N2_04_M4_L10",
+    "qid": "N2_04_M4_L10",
+    "audioUrl": "audio/n2_mock_04/N2_04_M4_L10.mp3",
+    "audioDurationSec": 30.8,
+    "audioSha256": "567210fff6a2f1f5850ae566b2a2090ec0f6da32a0d152cc4458e5fb876b07d3",
+    "sha256": "567210fff6a2f1f5850ae566b2a2090ec0f6da32a0d152cc4458e5fb876b07d3",
+    "audioVerificationStatus": "AUDIO_VERIFIED",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ],
+    "fileSizeBytes": 185564
+  },
+  "N2_04_M4_L11": {
+    "id": "N2_04_M4_L11",
+    "qid": "N2_04_M4_L11",
+    "audioUrl": "audio/n2_mock_04/N2_04_M4_L11.mp3",
+    "audioDurationSec": 27.1,
+    "audioSha256": "1843ee44ee01cfd55e92de6e7e4b7f8683173bccd25db7e70334785e7a7aab13",
+    "sha256": "1843ee44ee01cfd55e92de6e7e4b7f8683173bccd25db7e70334785e7a7aab13",
+    "audioVerificationStatus": "AUDIO_VERIFIED",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ],
+    "fileSizeBytes": 163532
+  },
+  "N2_04_M5_L01": {
+    "id": "N2_04_M5_L01",
+    "qid": "N2_04_M5_L01",
+    "audioUrl": "audio/n2_mock_04/N2_04_M5_L01.mp3",
+    "audioDurationSec": 189.8,
+    "audioSha256": "9947249f9687077cf5e70eb97a43824fbc91414039ded1326baf753f6614a0ee",
+    "sha256": "9947249f9687077cf5e70eb97a43824fbc91414039ded1326baf753f6614a0ee",
+    "audioVerificationStatus": "AUDIO_VERIFIED",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ],
+    "fileSizeBytes": 1139132
+  },
+  "N2_04_M5_L02": {
+    "id": "N2_04_M5_L02",
+    "qid": "N2_04_M5_L02",
+    "audioUrl": "audio/n2_mock_04/N2_04_M5_L02.mp3",
+    "audioDurationSec": 188.8,
+    "audioSha256": "33b57c5f09533ae290dfd462ee2e674a9d6ea910dd254e6efdc31f975268ec8a",
+    "sha256": "33b57c5f09533ae290dfd462ee2e674a9d6ea910dd254e6efdc31f975268ec8a",
+    "audioVerificationStatus": "AUDIO_VERIFIED",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ],
+    "fileSizeBytes": 1133228
+  },
+  "N2_04_M5_L03": {
+    "id": "N2_04_M5_L03",
+    "qid": "N2_04_M5_L03",
+    "audioUrl": "audio/n2_mock_04/N2_04_M5_L03.mp3",
+    "audioDurationSec": 157.9,
+    "audioSha256": "382ec6fb844bca107e372c7256bfcfc7ccb224d4bdc7b84b2d5fa18807a03b57",
+    "sha256": "382ec6fb844bca107e372c7256bfcfc7ccb224d4bdc7b84b2d5fa18807a03b57",
+    "audioVerificationStatus": "AUDIO_VERIFIED",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ],
+    "fileSizeBytes": 947756
+  }
+}

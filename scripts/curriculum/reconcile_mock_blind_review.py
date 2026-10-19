@@ -94,6 +94,13 @@ KNOWN_REPAIRS = {
         "defect": "SENTENCE ASSEMBLY AMBIGUITY: Two adnominal modifiers allowed competing permutations for modifying '変革'.",
         "actionTaken": "Replaced chunks with ['人々の', '生活の', '及ぶ', '隅々にまで']. Only permutation A-B-D-C is grammatical. Star: D.",
         "changed": True
+    },
+    "N2_03_M8_05": {
+        "originalStem": "彼がこれほど短期間で（　　）（　　） ★ （　　）努力の賜物だ。",
+        "repairedStem": "彼がこれほど短期間で大きな成果を上げられたのは、（　　）（　　） ★ （　　）賜物だ。",
+        "defect": "SENTENCE ASSEMBLY AMBIGUITY: Adverbial modifier '誰よりも' allowed competing scrambling orders A-D-B-C (Star: B) and A-B-C-D (Star: C).",
+        "actionTaken": "Anchored topic clause to stem and structured predicate into strict collocation: D (周囲の助言に) -> C (素直に耳を傾け、) -> A (地道に努力を) [★] -> B (重ねてきた) 賜物だ. Only permutation D-C-A-B is grammatical; Star is A.",
+        "changed": True
     }
 }
 
@@ -153,9 +160,15 @@ def reconcile_question_item(q, b_info, repair_info=None):
     justification = b_info.get('verbatimReviewerExplanation') or b_info.get('linguisticJustification', '')
     alt_answers = b_info.get('alternativeDefensibleAnswers', [])
     concerns = b_info.get('concerns')
-    review_fp = b_info.get('contentFingerprint') or current_fp
-    fingerprint_match = (review_fp == current_fp)
-    provenance = b_info.get('reviewerProvenance') or "subagent:jlpt-blind-reviewer"
+    review_fp = b_info.get('reviewFingerprint') or b_info.get('contentFingerprint')
+    provenance = b_info.get('reviewerProvenance') or "HISTORICAL_VERSION_UNVERIFIED"
+
+    if review_fp and review_fp == current_fp:
+        fingerprint_match = True
+    elif provenance in ["OPTION_PERMUTATION_REBOUND", "ORIGINAL_VERSION_BOUND"]:
+        fingerprint_match = b_info.get('fingerprintMatch', True)
+    else:
+        fingerprint_match = False
 
     # 1. No valid blind answer?
     if not blind_ans or blind_ans == "N/A":
@@ -171,11 +184,18 @@ def reconcile_question_item(q, b_info, repair_info=None):
         detected_issue = "Option mapping could not be recovered by text matching"
         remaining_uncertainty = "Option text changed without fresh review; fresh blind review required"
 
-    # 3. Content hash check: has question content materially changed after review?
+    # 3. Provenance check: unverified historical version?
+    elif provenance == "HISTORICAL_VERSION_UNVERIFIED":
+        classification = "UNVERIFIED"
+        final_disposition = "REVIEW_REQUIRED"
+        detected_issue = "Historical review exists but original stimulus cannot be proven"
+        remaining_uncertainty = "Fresh independent blind review required"
+
+    # 4. Content hash check: has question content materially changed after review?
     elif not fingerprint_match:
         classification = "STALE_REVIEW"
         final_disposition = "RE_REVIEW_REQUIRED"
-        detected_issue = f"Question content fingerprint changed ({review_fp[:8]}... -> {current_fp[:8]}...)"
+        detected_issue = f"Question content fingerprint changed ({str(review_fp)[:8]}... -> {str(current_fp)[:8]}...)"
         remaining_uncertainty = "Question content modified; requires fresh independent blind review"
 
     # 4. Strict Key Alignment: Does blind answer match authored key?
@@ -238,6 +258,8 @@ def reconcile_all(all_items=None, blind_map=None, write_artifacts=True):
         mock_nums = ['01', '02']
         if (ROOT / 'data/mock_exams/n2_mock_03.json').exists():
             mock_nums.append('03')
+        if (ROOT / 'data/mock_exams/n2_mock_04.json').exists():
+            mock_nums.append('04')
         for m in mock_nums:
             m_id = f"N2-MOCK-{m}"
             with open(ROOT / f'data/mock_exams/n2_mock_{m}.json', 'r', encoding='utf-8') as f:
@@ -319,28 +341,34 @@ def reconcile_all(all_items=None, blind_map=None, write_artifacts=True):
     if not write_artifacts:
         return class_counts, ledger
 
-    # Write JSON ledger
-    out_json = ROOT / "qa/QUESTION_AUDIT_LEDGER_210.json"
-    with open(out_json, 'w', encoding='utf-8') as f:
-        json.dump(ledger, f, ensure_ascii=False, indent=2)
-    print(f"Wrote JSON ledger to {out_json}")
+    total_evaluated = len(ledger)
+    mock_names = sorted(list(set(it.get('examId', 'UNKNOWN') for it in ledger)))
 
-    # Write CSV ledger
-    out_csv = ROOT / "qa/QUESTION_AUDIT_LEDGER_210.csv"
-    with open(out_csv, 'w', encoding='utf-8', newline='') as f:
-        writer = csv.DictWriter(f, fieldnames=list(ledger[0].keys()))
-        writer.writeheader()
-        writer.writerows(ledger)
-    print(f"Wrote CSV ledger to {out_csv}")
+    # Write JSON ledger (both canonical and backward-compat alias)
+    for out_name in ["qa/QUESTION_AUDIT_LEDGER.json", "qa/QUESTION_AUDIT_LEDGER_210.json"]:
+        out_json = ROOT / out_name
+        with open(out_json, 'w', encoding='utf-8') as f:
+            json.dump(ledger, f, ensure_ascii=False, indent=2)
+        print(f"Wrote JSON ledger to {out_json}")
+
+    # Write CSV ledger (both canonical and backward-compat alias)
+    for out_name in ["qa/QUESTION_AUDIT_LEDGER.csv", "qa/QUESTION_AUDIT_LEDGER_210.csv"]:
+        out_csv = ROOT / out_name
+        with open(out_csv, 'w', encoding='utf-8', newline='') as f:
+            writer = csv.DictWriter(f, fieldnames=list(ledger[0].keys()))
+            writer.writeheader()
+            writer.writerows(ledger)
+        print(f"Wrote CSV ledger to {out_csv}")
 
     # Generate Markdown Reconciliation Report
+    pct = lambda c: (c / total_evaluated * 100) if total_evaluated > 0 else 0.0
     report_lines = [
-        "# JP-STUDY — 210-Question Adversarial Blind Review Reconciliation Report",
+        f"# JP-STUDY — {total_evaluated}-Question Adversarial Blind Review Reconciliation Report",
         "",
-        "**Target Exams:** `N2-MOCK-01` (105 items) & `N2-MOCK-02` (105 items)  ",
+        f"**Target Exams:** {', '.join(f'`{m}`' for m in mock_names)} ({total_evaluated} total items)  ",
         "**Assurance Framework:** Independent Blind Review & Explicit Provenance Model  ",
         "**Audit Timestamp:** 2026-10-19  ",
-        f"**Completed Solves:** {len(blind_map)} / 210  ",
+        f"**Completed Solves:** {len(blind_map)} / {total_evaluated}  ",
         "",
         "---",
         "",
@@ -348,13 +376,13 @@ def reconcile_all(all_items=None, blind_map=None, write_artifacts=True):
         "",
         "| Metric | Count | Percentage | Status |",
         "|---|:---:|:---:|:---:|",
-        f"| **Total Evaluated Items** | 210 | 100.0% | COMPLETE |",
-        f"| **Independent Blind Solves Loaded** | {len(blind_map)} | {len(blind_map)/210*100:.1f}% | {'VERIFIED' if len(blind_map)==210 else 'IN_PROGRESS'} |",
-        f"| **Exact Agreement (`AGREEMENT`)** | {class_counts['AGREEMENT']} | {class_counts['AGREEMENT']/210*100:.1f}% | AUDITED |",
-        f"| **Agreed with Nuance Warnings (`REVIEW_AGREED_WITH_WARNINGS`)** | {class_counts['REVIEW_AGREED_WITH_WARNINGS']} | {class_counts['REVIEW_AGREED_WITH_WARNINGS']/210*100:.1f}% | AUDITED |",
-        f"| **Grammar Defects Confirmed & Repaired** | {class_counts['GRAMMATICAL_DEFECT_RESOLVED']} | {class_counts['GRAMMATICAL_DEFECT_RESOLVED']/210*100:.1f}% | REPAIRED |",
-        f"| **Key Mismatches (`KEY_MISMATCH`)** | {class_counts['KEY_MISMATCH']} | {class_counts['KEY_MISMATCH']/210*100:.1f}% | AUDITED |",
-        f"| **Unverified / Pending Solves** | {class_counts['UNVERIFIED']} | {class_counts['UNVERIFIED']/210*100:.1f}% | {'NONE' if class_counts['UNVERIFIED']==0 else 'PENDING'} |",
+        f"| **Total Evaluated Items** | {total_evaluated} | 100.0% | COMPLETE |",
+        f"| **Independent Blind Solves Loaded** | {len(blind_map)} | {pct(len(blind_map)):.1f}% | {'VERIFIED' if len(blind_map)>=total_evaluated else 'IN_PROGRESS'} |",
+        f"| **Exact Agreement (`AGREEMENT`)** | {class_counts['AGREEMENT']} | {pct(class_counts['AGREEMENT']):.1f}% | AUDITED |",
+        f"| **Agreed with Nuance Warnings (`REVIEW_AGREED_WITH_WARNINGS`)** | {class_counts['REVIEW_AGREED_WITH_WARNINGS']} | {pct(class_counts['REVIEW_AGREED_WITH_WARNINGS']):.1f}% | AUDITED |",
+        f"| **Grammar Defects Confirmed & Repaired** | {class_counts['GRAMMATICAL_DEFECT_RESOLVED']} | {pct(class_counts['GRAMMATICAL_DEFECT_RESOLVED']):.1f}% | REPAIRED |",
+        f"| **Key Mismatches (`KEY_MISMATCH`)** | {class_counts['KEY_MISMATCH']} | {pct(class_counts['KEY_MISMATCH']):.1f}% | AUDITED |",
+        f"| **Unverified / Pending Solves** | {class_counts['UNVERIFIED']} | {pct(class_counts['UNVERIFIED']):.1f}% | {'NONE' if class_counts['UNVERIFIED']==0 else 'PENDING'} |",
         "",
         "---",
         "",

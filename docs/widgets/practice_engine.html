@@ -1450,7 +1450,7 @@ function launchMockExamSafely(mockId, sectionIndex) {
   stopActiveTimer();
   const cleanId = String(mockId || '').trim().slice(0, 50);
   const upperMock = cleanId.toUpperCase();
-  const availableMocks = ['N2-MOCK-01', 'N2-MOCK-02', 'N2-MOCK-03', 'N3-MOCK-01'];
+  const availableMocks = ['N2-MOCK-01', 'N2-MOCK-02', 'N2-MOCK-03', 'N2-MOCK-04', 'N3-MOCK-01'];
 
   let secIdx = 0;
   if (typeof sectionIndex !== 'undefined') {
@@ -1464,7 +1464,7 @@ function launchMockExamSafely(mockId, sectionIndex) {
   }
 
   if (!availableMocks.includes(upperMock) && !(window.JP_MOCK_DATA && window.JP_MOCK_DATA[upperMock])) {
-    alert(`Đề thi thử ${cleanId} hiện đang trong giai đoạn hoàn thiện nội dung (IN DEVELOPMENT). Bạn vui lòng chọn đề N2-MOCK-01, N2-MOCK-02, N2-MOCK-03 hoặc N3-MOCK-01.`);
+    alert(`Đề thi thử ${cleanId} hiện đang trong giai đoạn hoàn thiện nội dung (IN DEVELOPMENT). Bạn vui lòng chọn đề N2-MOCK-01, N2-MOCK-02, N2-MOCK-03, N2-MOCK-04 hoặc N3-MOCK-01.`);
     switchMode('mode-mock');
     return false;
   }
@@ -1508,7 +1508,7 @@ function applyUrlParameters() {
     if (qMock) {
       const cleanMock = String(qMock).trim().slice(0, 50);
       const upperMock = cleanMock.toUpperCase();
-      if (['N2-MOCK-01', 'N2-MOCK-02', 'N2-MOCK-03', 'N3-MOCK-01'].includes(upperMock) || (window.JP_MOCK_DATA && window.JP_MOCK_DATA[upperMock])) {
+      if (['N2-MOCK-01', 'N2-MOCK-02', 'N2-MOCK-03', 'N2-MOCK-04', 'N3-MOCK-01'].includes(upperMock) || (window.JP_MOCK_DATA && window.JP_MOCK_DATA[upperMock])) {
         appliedEntries.push({ label: 'Khởi chạy trực tiếp', value: upperMock });
         showParamBadge(appliedEntries);
         launchMockExamSafely(upperMock);
@@ -1516,7 +1516,7 @@ function applyUrlParameters() {
       } else {
         appliedEntries.push({ label: 'Đề thi', value: `${cleanMock} (Đang biên soạn)`, isWarning: true });
         showParamBadge(appliedEntries);
-        alert(`Đề thi thử ${cleanMock} hiện đang trong giai đoạn hoàn thiện nội dung (IN DEVELOPMENT). Bạn vui lòng chọn đề N2-MOCK-01, N2-MOCK-02, N2-MOCK-03 hoặc N3-MOCK-01.`);
+        alert(`Đề thi thử ${cleanMock} hiện đang trong giai đoạn hoàn thiện nội dung (IN DEVELOPMENT). Bạn vui lòng chọn đề N2-MOCK-01, N2-MOCK-02, N2-MOCK-03, N2-MOCK-04 hoặc N3-MOCK-01.`);
         switchMode('mode-mock');
         return;
       }

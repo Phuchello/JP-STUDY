@@ -173,7 +173,7 @@
     "section": 1,
     "skill": "Language Knowledge",
     "typeId": "N2-GR-STAR",
-    "category": "Mondai 8: 文の組み立て",
+    "category": "Mondai 8: 文の組み立て ★",
     "stem": "彼が今回の難関試験に一発で合格できたのは、（　　）（　　） ★ （　　）ほかならない。",
     "contextPassage": null,
     "options": [
@@ -257,7 +257,7 @@
     "section": 1,
     "skill": "Language Knowledge",
     "typeId": "N2-GR-STAR",
-    "category": "Mondai 8: 文の組み立て",
+    "category": "Mondai 8: 文の組み立て ★",
     "stem": "プロの演奏家として（　　）（　　） ★ （　　）怠ってはならない。",
     "contextPassage": null,
     "options": [
@@ -285,25 +285,25 @@
     "section": 1,
     "skill": "Language Knowledge",
     "typeId": "N2-GR-STAR",
-    "category": "Mondai 8: 文の組み立て",
-    "stem": "彼がこれほど短期間で（　　）（　　） ★ （　　）努力の賜物だ。",
+    "category": "Mondai 8: 文の組み立て ★",
+    "stem": "彼がこれほど短期間で大きな成果を上げられたのは、（　　）（　　） ★ （　　）賜物だ。",
     "contextPassage": null,
     "options": [
       {
         "id": "A",
-        "text": "大きな成果を上げられたのは、"
+        "text": "地道に努力を"
       },
       {
         "id": "B",
-        "text": "誰よりも"
+        "text": "重ねてきた"
       },
       {
         "id": "C",
-        "text": "真摯に積み重ねた"
+        "text": "素直に耳を傾け、"
       },
       {
         "id": "D",
-        "text": "本人の"
+        "text": "周囲の助言に"
       }
     ]
   },

@@ -182,7 +182,7 @@ def audit_mock_105(mock_num=1):
     if receipt_file.exists():
         with open(receipt_file, 'r', encoding='utf-8') as f:
             receipt_data = json.load(f)
-            receipt_tracks = receipt_data.get('tracks', {})
+            receipt_tracks = receipt_data.get('tracks') or {r.get('questionId'): r for r in receipt_data.get('results', [])}
         print(f"Loaded Playwright audio playback receipt with {len(receipt_tracks)} tracks.")
     else:
         print(f"WARNING: Missing playback receipt at {receipt_file}!")

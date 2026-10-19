@@ -1552,32 +1552,32 @@
           "id": "N2_03_M8_05",
           "typeId": "N2-GR-STAR",
           "skill": "Language Knowledge",
-          "category": "Mondai 8: 文の組み立て",
-          "stem": "彼がこれほど短期間で（　　）（　　） ★ （　　）努力の賜物だ。",
+          "category": "Mondai 8: 文の組み立て ★",
+          "stem": "彼がこれほど短期間で大きな成果を上げられたのは、（　　）（　　） ★ （　　）賜物だ。",
           "options": [
             {
               "id": "A",
-              "text": "大きな成果を上げられたのは、"
+              "text": "地道に努力を"
             },
             {
               "id": "B",
-              "text": "誰よりも"
+              "text": "重ねてきた"
             },
             {
               "id": "C",
-              "text": "真摯に積み重ねた"
+              "text": "素直に耳を傾け、"
             },
             {
               "id": "D",
-              "text": "本人の"
+              "text": "周囲の助言に"
             }
           ],
-          "correctAnswer": "B",
-          "explanationVi": "Thứ tự đúng: A - D - B - C (大きな成果を上げられたのは、 本人の 誰よりも 真摯に積み重ねた). Cấu trúc câu giải thích nguyên nhân: 〜のは、〜努力の賜物だ (việc anh ấy đạt được thành quả lớn trong thời gian ngắn như vậy chính là nhờ nỗ lực tích lũy chân thành hơn bất kỳ ai của chính bản thân anh ấy). Vị trí ngôi sao ★ là B (誰よりも).",
+          "correctAnswer": "A",
+          "explanationVi": "Thứ tự đúng: D - C - A - B (周囲の助言に 素直に耳を傾け、 地道に努力を 重ねてきた). Cấu trúc ngữ pháp N2: 〜賜物だ (kết quả/hoa trái của...). [D 周囲の助言に] kết hợp với [C 素直に耳を傾け、] tạo vế tiếp thu ý kiến xung quanh. Vế sau: [A 地道に努力を] là tân ngữ của [B 重ねてきた] bổ nghĩa trực tiếp cho danh từ 賜物だ. Thứ tự duy nhất hợp cú pháp và tự nhiên là D - C - A - B. Vị trí ngôi sao ★ là A (地道に努力を).",
           "distractorExplanations": {
-            "A": "A đứng ở vị trí thứ nhất làm mệnh đề chủ ngữ danh hóa.",
-            "D": "D đứng ở vị trí thứ hai xác định chủ thể (本人の).",
-            "C": "C đứng ở vị trí thứ tư bổ nghĩa trực tiếp cho 努力."
+            "B": "B (重ねてきた) đứng ở vị trí thứ tư bổ nghĩa trực tiếp cho danh từ 賜物だ.",
+            "C": "C (素直に耳を傾け、) đứng ở vị trí thứ hai làm vế liên kết nối tiếp.",
+            "D": "D (周囲の助言に) đứng ở vị trí thứ nhất đi liền với cụm động từ 耳を傾ける."
           }
         },
         {

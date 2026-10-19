@@ -465,6 +465,68 @@ class TestAdversarialReleaseGate(unittest.TestCase):
             )
             self.assertTrue(any("Structural defect" in r for r in reasons))
 
+    # -----------------------------------------------------------------
+    # MUTATION I — Missing review fingerprint / Historical unverified
+    # -----------------------------------------------------------------
+    def test_missing_fingerprint_unverified(self):
+        """
+        Mutation I: Question item has review solve but completely missing review fingerprint.
+        Under strict provenance, this cannot receive FRESH_REVIEW_VERIFIED.
+        Must evaluate to UNVERIFIED and REVIEW_REQUIRED.
+        """
+        b_info = copy.deepcopy(self.sample_b_info)
+        b_info["contentFingerprint"] = None
+        b_info["reviewFingerprint"] = None
+        b_info["reviewerProvenance"] = "HISTORICAL_VERSION_UNVERIFIED"
+
+        res = reconcile_question_item(self.sample_q, b_info, repair_info=None)
+        self.assertEqual(res["reconciliationClassification"], "UNVERIFIED")
+        self.assertEqual(res["finalDisposition"], "REVIEW_REQUIRED")
+        self.assertFalse(res["fingerprintMatch"])
+
+        tier, reasons = evaluate_question_release_gate(
+            structural_status="PASS",
+            linguistic_status="BLOCKED: UNVERIFIED",
+            acoustic_status="N/A (Written Section)",
+            is_listening=False
+        )
+        self.assertEqual(tier, "QUARANTINED")
+
+    # -----------------------------------------------------------------
+    # INVARIANCE TEST — Repeated pipeline run determinism
+    # -----------------------------------------------------------------
+    def test_repeated_pipeline_run_invariance(self):
+        """
+        Invariance: Running reconcile_question_item multiple times on identical input
+        must yield bit-for-bit identical results (idempotence).
+        """
+        res1 = reconcile_question_item(self.sample_q, self.sample_b_info, repair_info=None)
+        res2 = reconcile_question_item(self.sample_q, self.sample_b_info, repair_info=None)
+        self.assertEqual(res1, res2)
+
+    # -----------------------------------------------------------------
+    # MUTATION J — Option permutation without semantic preservation
+    # -----------------------------------------------------------------
+    def test_option_permutation_without_remapping(self):
+        """
+        Mutation J: Shuffled options where selected text was altered/missing.
+        Mapping fails closed with UNRECOVERABLE and REVIEW_REQUIRED.
+        """
+        input_opts = {"A": "選択肢1", "B": "選択肢2", "C": "選択肢3", "D": "選択肢4"}
+        current_opts = {"A": "別文1", "B": "別文2", "C": "別文3", "D": "別文4"}
+
+        remapped, method, text = remap_blind_solve("B", input_opts, current_opts)
+        self.assertIsNone(remapped)
+        self.assertEqual(method, "UNRECOVERABLE")
+
+        b_info = copy.deepcopy(self.sample_b_info)
+        b_info["mappingMethod"] = "UNRECOVERABLE"
+        b_info["remappedBlindAnswer"] = None
+
+        res = reconcile_question_item(self.sample_q, b_info, repair_info=None)
+        self.assertEqual(res["reconciliationClassification"], "UNVERIFIED")
+        self.assertEqual(res["finalDisposition"], "REVIEW_REQUIRED")
+
 
 if __name__ == "__main__":
     unittest.main()

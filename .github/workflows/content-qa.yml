@@ -7,7 +7,7 @@ on:
       - 'data/**'
       - 'qa/**'
       - 'scripts/**'
-      - 'docs/audio/**'
+      - 'docs/**'
       - '.github/workflows/content-qa.yml'
   pull_request:
     branches: [ main ]
@@ -15,9 +15,14 @@ on:
       - 'data/**'
       - 'qa/**'
       - 'scripts/**'
-      - 'docs/audio/**'
+      - 'docs/**'
       - '.github/workflows/content-qa.yml'
   workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   content-qa-gate:
@@ -78,6 +83,11 @@ jobs:
         run: |
           python scripts/curriculum/audit_n2_mock_105_questions.py 3
 
+      - name: Audit N2 Mock 04 (105 items, audio hashes, release gate)
+        if: hashFiles('data/mock_exams/n2_mock_04.json') != ''
+        run: |
+          python scripts/curriculum/audit_n2_mock_105_questions.py 4
+
       # 12. Run full unit and regression test suite
       - name: Run full regression test suite
         run: |
@@ -86,40 +96,9 @@ jobs:
       # 13. Produce machine-readable QA summary
       - name: Generate machine-readable CI QA summary
         run: |
-          python -c "
-          import json
-          from pathlib import Path
+          python scripts/ci/generate_ci_qa_summary.py
 
-          root = Path('.')
-          ledger_file = root / 'qa/QUESTION_AUDIT_LEDGER_210.json'
-          m1_report = root / 'qa/N2_MOCK_01_INDEPENDENT_AUDIT_REPORT.md'
-          m2_report = root / 'qa/N2_MOCK_02_INDEPENDENT_AUDIT_REPORT.md'
-          m3_report = root / 'qa/N2_MOCK_03_INDEPENDENT_AUDIT_REPORT.md'
-
-          with open(ledger_file, 'r', encoding='utf-8') as f:
-              ledger = json.load(f)
-
-          total_items = len(ledger)
-          quarantined = [it for it in ledger if it.get('finalDisposition') == 'QUARANTINED']
-
-          summary = {
-              'workflow': 'Content QA & Adversarial Release Gate',
-              'totalItemsAudited': total_items,
-              'quarantinedCount': len(quarantined),
-              'n2Mock01Audited': m1_report.exists(),
-              'n2Mock02Audited': m2_report.exists(),
-              'n2Mock03Audited': m3_report.exists(),
-              'gateStatus': 'PASS' if len(quarantined) == 0 else 'FAIL',
-              'ciRunTimestamp': json.loads(json.dumps(None))
-          }
-
-          out_file = root / 'qa/CI_QA_SUMMARY.json'
-          out_file.write_text(json.dumps(summary, indent=2, ensure_ascii=False), encoding='utf-8')
-          print('CI QA Summary generated:', summary)
-          assert summary['gateStatus'] == 'PASS', 'Release gate failed due to quarantined items!'
-          "
-
-      # 13. Upload test results and QA audit artifacts
+      # 14. Upload test results and QA audit artifacts
       - name: Upload QA audit artifacts
         if: always()
         uses: actions/upload-artifact@v4
@@ -130,3 +109,27 @@ jobs:
             qa/*.csv
             qa/*.md
           retention-days: 30
+
+  deploy-pages:
+    name: Gated Deployment to GitHub Pages
+    needs: [content-qa-gate]
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    concurrency:
+      group: "pages"
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'docs/'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

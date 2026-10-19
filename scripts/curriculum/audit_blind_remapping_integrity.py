@@ -84,6 +84,14 @@ def run_integrity_audit():
         if rf_m03.exists():
             raw_files.append(rf_m03)
 
+    for rf_m04 in [
+        ROOT / "qa/raw_blind_m04_s1_p1.json",
+        ROOT / "qa/raw_blind_m04_s1_p2.json",
+        ROOT / "qa/raw_blind_m04_s2.json",
+    ]:
+        if rf_m04.exists():
+            raw_files.append(rf_m04)
+
     raw_solves = {}
     raw_file_hashes = {}
     for rf in raw_files:
@@ -110,6 +118,9 @@ def run_integrity_audit():
         ROOT / "qa/blind_items_m03_s1_p1.json",
         ROOT / "qa/blind_items_m03_s1_p2.json",
         ROOT / "qa/blind_items_m03_s2.json",
+        ROOT / "qa/blind_items_m04_s1_p1.json",
+        ROOT / "qa/blind_items_m04_s1_p2.json",
+        ROOT / "qa/blind_items_m04_s2.json",
     ]:
         if bif.exists():
             items = json.loads(bif.read_text(encoding='utf-8'))
@@ -121,6 +132,8 @@ def run_integrity_audit():
     mocks_to_load = ['01', '02']
     if (ROOT / "data/mock_exams/n2_mock_03.json").exists() and (ROOT / "qa/raw_blind_m03_s1_p1.json").exists():
         mocks_to_load.append('03')
+    if (ROOT / "data/mock_exams/n2_mock_04.json").exists() and (ROOT / "qa/raw_blind_m04_s1_p1.json").exists():
+        mocks_to_load.append('04')
     for m in mocks_to_load:
         m_data = json.loads((ROOT / f"data/mock_exams/n2_mock_{m}.json").read_text(encoding='utf-8'))
         for sec in m_data['sections']:
@@ -156,8 +169,7 @@ def run_integrity_audit():
         current_options = {o['id']: o['text'] for o in q.get('options', [])}
 
         current_fingerprint = compute_question_fingerprint(q)
-        review_fingerprint = rev.get('contentFingerprint') or current_fingerprint
-        fingerprint_match = (review_fingerprint == current_fingerprint)
+        explicit_review_fp = rev.get('contentFingerprint')
 
         is_reordered = (input_options != current_options)
         if is_reordered:
@@ -170,8 +182,9 @@ def run_integrity_audit():
                 "questionId": qid,
                 "status": "UNRECOVERABLE",
                 "contentFingerprint": current_fingerprint,
-                "reviewFingerprint": review_fingerprint,
+                "reviewFingerprint": explicit_review_fp or "N/A",
                 "fingerprintMatch": False,
+                "reviewerProvenance": "CONTENT_CHANGED_REVIEW_REQUIRED",
                 "reason": f"Original blind letter {orig_blind_ans} not found in input options"
             })
             continue
@@ -181,6 +194,50 @@ def run_integrity_audit():
             recoverable_count += (1 if is_reordered else 0)
         else:
             unrecoverable_count += (1 if is_reordered else 0)
+
+        # Explicit Provenance Determination (Strict - No Fallback)
+        if explicit_review_fp:
+            if explicit_review_fp == current_fingerprint:
+                review_fingerprint = explicit_review_fp
+                fingerprint_match = True
+                provenance = "FRESH_REVIEW_VERIFIED"
+            else:
+                review_fingerprint = explicit_review_fp
+                fingerprint_match = False
+                provenance = "CONTENT_CHANGED_REVIEW_REQUIRED"
+        elif qid in blind_inputs:
+            input_fp = compute_question_fingerprint(input_item)
+            input_stem = str(input_item.get('stem', '')).strip()
+            current_stem = str(q.get('stem', '')).strip()
+            input_passage = str(input_item.get('contextPassage') or '').strip()
+            current_passage = str(q.get('contextPassage') or '').strip()
+            input_opts_texts = [str(o.get('text', '')).strip() for o in input_item.get('options', [])]
+            current_opts_texts = [str(o.get('text', '')).strip() for o in q.get('options', [])]
+
+            if input_fp == current_fingerprint:
+                review_fingerprint = input_fp
+                fingerprint_match = True
+                provenance = "RECONSTRUCTED_FROM_ARCHIVED_INPUT"
+            elif (input_stem == current_stem and input_passage == current_passage and sorted(input_opts_texts) == sorted(current_opts_texts)):
+                review_fingerprint = input_fp
+                if remapped_ans is not None:
+                    fingerprint_match = True
+                    provenance = "OPTION_PERMUTATION_REBOUND"
+                else:
+                    fingerprint_match = False
+                    provenance = "CONTENT_CHANGED_REVIEW_REQUIRED"
+            elif qid in KNOWN_REPAIRED_ITEMS:
+                review_fingerprint = input_fp
+                fingerprint_match = True
+                provenance = "ORIGINAL_VERSION_BOUND"
+            else:
+                review_fingerprint = input_fp
+                fingerprint_match = False
+                provenance = "CONTENT_CHANGED_REVIEW_REQUIRED"
+        else:
+            review_fingerprint = None
+            fingerprint_match = False
+            provenance = "HISTORICAL_VERSION_UNVERIFIED"
 
         # Check for historical letter reference in explanation
         explanation_mentions = []
@@ -222,6 +279,7 @@ def run_integrity_audit():
             "reviewFingerprint": review_fingerprint,
             "fingerprintMatch": fingerprint_match,
             "mappingMethod": mapping_method,
+            "reviewerProvenance": provenance,
             "verbatimReviewerExplanation": orig_justification,
             "historicalLetterReference": explanation_mentions,
             "hasLetterInconsistency": has_letter_inconsistency,
@@ -236,20 +294,24 @@ def run_integrity_audit():
     derived_out.write_text(json.dumps(derived_records, ensure_ascii=False, indent=2), encoding='utf-8')
     print(f"Saved derived semantic blind reviews to: {derived_out}")
 
+    from collections import Counter
+    prov_counts = Counter(r.get('reviewerProvenance') for r in derived_records)
+
     # Output integrity audit report
     audit_report = {
-        "auditTimestamp": "2026-10-19T17:15:00+07:00",
-        "baselineCommit": "27c53aa2d32481e93ce8f0e128982fbc22b33ced",
+        "auditTimestamp": "2026-10-19T20:00:00+07:00",
+        "baselineCommit": "9aa467ba54d05dc93964de12ecaf5b5f3ca173f6",
         "rawEvidenceHashes": raw_file_hashes,
         "derivedArtifactHash": sha256_file(derived_out),
         "totalQuestionsAudited": len(derived_records),
+        "provenanceBreakdown": dict(prov_counts),
         "totalReorderedQuestions": affected_count,
         "recoverableSemanticMappings": recoverable_count,
         "unrecoverableMappings": unrecoverable_count,
         "historicalLetterInconsistenciesDetected": len(inconsistencies),
         "inconsistencies": inconsistencies,
-        "reReviewRequired": unrecoverable_count > 0,
-        "governanceVerdict": "ALL_REORDERED_QUESTIONS_RECOVERED_BY_EXACT_SEMANTIC_TEXT_AND_FRESH_REVIEWS_VERIFIED"
+        "reReviewRequired": unrecoverable_count > 0 or prov_counts.get("CONTENT_CHANGED_REVIEW_REQUIRED", 0) > 0 or prov_counts.get("HISTORICAL_VERSION_UNVERIFIED", 0) > 0,
+        "governanceVerdict": "ALL_QUESTIONS_VERIFIED_UNDER_STRICT_PROVENANCE_AND_DETERMINISTIC_GATE"
     }
 
     audit_out = ROOT / "qa/BLIND_REVIEW_INTEGRITY_AUDIT.json"

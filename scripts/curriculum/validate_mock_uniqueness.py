@@ -23,6 +23,7 @@ def validate_uniqueness():
         'N2-MOCK-01': ROOT / 'data/mock_exams/n2_mock_01.json',
         'N2-MOCK-02': ROOT / 'data/mock_exams/n2_mock_02.json',
         'N2-MOCK-03': ROOT / 'data/mock_exams/n2_mock_03.json',
+        'N2-MOCK-04': ROOT / 'data/mock_exams/n2_mock_04.json',
     }
 
     loaded_mocks = {}
@@ -146,12 +147,12 @@ def validate_uniqueness():
             print(f"  ... and {len(errors) - 25} more errors.")
         sys.exit(1)
     else:
-        print("✅ ALL VALIDATION CHECKS PASSED FOR ALL 3 MOCKS (315 ITEMS, 90 AUDIO TRACKS):")
+        print(f"✅ ALL VALIDATION CHECKS PASSED FOR ALL {len(loaded_mocks)} MOCKS ({len(all_seen_ids)} ITEMS, {len(loaded_mocks)*30} AUDIO TRACKS):")
         print("  - Exactly 105 items per mock (75 Section 1 + 30 Section 2)")
-        print("  - Zero ID collisions across Mock 01, Mock 02, Mock 03, and practice bank")
+        print(f"  - Zero ID collisions across {', '.join(loaded_mocks.keys())}, and practice bank")
         print("  - Zero duplicate question stems or context passages")
         print("  - 100% options, keys, explanations, and distractor rationale verified")
-        print("  - 100% audio files exist on disk and mapped for Section 2 (90/90)")
+        print(f"  - 100% audio files exist on disk and mapped for Section 2 ({len(loaded_mocks)*30}/{len(loaded_mocks)*30})")
         print("Quality gate status: PASS")
 
 if __name__ == '__main__':

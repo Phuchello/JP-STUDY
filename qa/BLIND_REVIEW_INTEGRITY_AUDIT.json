@@ -1,6 +1,6 @@
 {
-  "auditTimestamp": "2026-10-19T17:15:00+07:00",
-  "baselineCommit": "27c53aa2d32481e93ce8f0e128982fbc22b33ced",
+  "auditTimestamp": "2026-10-19T20:00:00+07:00",
+  "baselineCommit": "9aa467ba54d05dc93964de12ecaf5b5f3ca173f6",
   "rawEvidenceHashes": {
     "raw_blind_m01_s1_p1.json": "0bb0c4bb17750a324ca137e6561df07261cfe76d218085be2a2c41a6507de856",
     "raw_blind_m01_s1_p2.json": "a28ed33866e7655cb10ea928a5025af18b80c6f6fbf0fcdcf6a926a76e523593",
@@ -10,11 +10,20 @@
     "raw_blind_m02_s2.json": "cc6e931b7c727e8097356c3afeaede8dee7759f30dd6a71fb6ee94f20ed96437",
     "raw_blind_star_repaired_3.json": "07891b8011430d322c0fb6695a5d7ff8b0362612edaf655493856f31edeb5553",
     "raw_blind_m03_s1_p1.json": "2c55619826865e85d5b66f428e4704fc31819de50936d1c3ea93ba056d9659bb",
-    "raw_blind_m03_s1_p2.json": "ff4a2d9f1bf3e3f5eabb6d26a0f4aa3d00c592651d510b7a00218e004e32f56b",
-    "raw_blind_m03_s2.json": "32e8799817e6e20c4c0c272c4f85ee41877d336c289122d9b24f3ad0e4e1c7ca"
+    "raw_blind_m03_s1_p2.json": "a6d0ff532e698748bf47a7d58361b7cfe7fc22409db54f5d737630ad22f7dc1c",
+    "raw_blind_m03_s2.json": "32e8799817e6e20c4c0c272c4f85ee41877d336c289122d9b24f3ad0e4e1c7ca",
+    "raw_blind_m04_s1_p1.json": "541ff090aa9ff765abb66b27768af45084a5bc2f2dab92f49d5051c1a2cb3a46",
+    "raw_blind_m04_s1_p2.json": "18430a1e3b31860e0298899a04562261f3bf892a8a7fc2c86fc0f55b2485e81c",
+    "raw_blind_m04_s2.json": "8531e127618630f34e85fe2bc66762e0efa80028ea40fab7e903e21981f3b412"
   },
-  "derivedArtifactHash": "24cc934670c38ca9f2fcdbf0cb86a065b3bb6f12dff52d70d888f6cd760bf935",
-  "totalQuestionsAudited": 315,
+  "derivedArtifactHash": "e6241fd1591150acc0173c93b83b6bba37d0bb8f1146b8d5680547ef97018f98",
+  "totalQuestionsAudited": 420,
+  "provenanceBreakdown": {
+    "RECONSTRUCTED_FROM_ARCHIVED_INPUT": 287,
+    "ORIGINAL_VERSION_BOUND": 5,
+    "FRESH_REVIEW_VERIFIED": 109,
+    "OPTION_PERMUTATION_REBOUND": 19
+  },
   "totalReorderedQuestions": 24,
   "recoverableSemanticMappings": 24,
   "unrecoverableMappings": 0,
@@ -102,5 +111,5 @@
     }
   ],
   "reReviewRequired": false,
-  "governanceVerdict": "ALL_REORDERED_QUESTIONS_RECOVERED_BY_EXACT_SEMANTIC_TEXT_AND_FRESH_REVIEWS_VERIFIED"
+  "governanceVerdict": "ALL_QUESTIONS_VERIFIED_UNDER_STRICT_PROVENANCE_AND_DETERMINISTIC_GATE"
 }

@@ -42,6 +42,7 @@ def export_blind_m03():
             "typeId": q.get("typeId", "Unknown"),
             "category": q.get("category", ""),
             "stem": q.get("stem", ""),
+            "contextPassage": q.get("contextPassage") or q.get("script", ""),
             "script": q.get("script", ""),
             "options": [{"id": o["id"], "text": o["text"]} for o in q.get("options", [])],
             "audioUrl": q.get("audioUrl", "")
