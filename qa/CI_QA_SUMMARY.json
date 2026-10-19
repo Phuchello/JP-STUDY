@@ -1,0 +1,8 @@
+{
+  "workflow": "Content QA & Adversarial Release Gate",
+  "totalItemsAudited": 210,
+  "quarantinedCount": 0,
+  "n2Mock01Audited": true,
+  "n2Mock02Audited": true,
+  "gateStatus": "PASS"
+}

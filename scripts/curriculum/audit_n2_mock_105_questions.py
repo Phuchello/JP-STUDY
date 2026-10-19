@@ -24,6 +24,7 @@ Generates:
 import json
 import os
 import sys
+import hashlib
 from pathlib import Path
 from collections import Counter
 
@@ -46,10 +47,15 @@ def load_reconciliation_ledger():
         ledger = json.load(f)
     return {entry['questionId']: entry for entry in ledger}
 
-def evaluate_acoustic_status(qid, audio_url, audio_dir, receipt_tracks):
+ALLOWED_STRUCTURAL_STATUSES = {"PASS"}
+ALLOWED_LINGUISTIC_STATUSES = {"AI_VERIFIED_PASS", "REPAIRED_AND_VERIFIED"}
+ALLOWED_ACOUSTIC_LISTENING = {"BROWSER_PLAYBACK_VERIFIED"}
+ALLOWED_ACOUSTIC_WRITTEN = {"N/A (Written Section)"}
+
+def evaluate_acoustic_status(qid, audio_url, audio_dir, receipt_tracks, manifest_tracks=None):
     """
-    Tiered acoustic verification parsing real Playwright Chromium test receipts.
-    Does NOT infer playback simply from file size > 10KB.
+    Tiered acoustic verification parsing real Playwright Chromium test receipts
+    and computing live on-disk SHA-256 hash.
     Tiers:
       1. AUDIO_FILE_EXISTS
       2. AUDIO_HASH_VERIFIED
@@ -65,13 +71,25 @@ def evaluate_acoustic_status(qid, audio_url, audio_dir, receipt_tracks):
     if not audio_file.exists() or audio_file.stat().st_size == 0:
         return "AUDIO_FILE_MISSING"
 
+    # Compute live on-disk hash
+    computed_sha = hashlib.sha256(audio_file.read_bytes()).hexdigest().lower()
+
     if not receipt_tracks or qid not in receipt_tracks:
         return "AUDIO_RECEIPT_MISSING"
 
     track = receipt_tracks[qid]
+    receipt_sha = str(track.get("audioSha256", "")).lower()
 
-    if not track.get("audioHashVerified"):
+    # Verify receipt hash matches live file
+    if computed_sha != receipt_sha:
         return "AUDIO_HASH_MISMATCH"
+
+    # If manifest is provided, verify against authoring manifest
+    if manifest_tracks and qid in manifest_tracks:
+        manifest_item = manifest_tracks[qid]
+        expected_sha = str(manifest_item.get("audioSha256") or manifest_item.get("sha256") or "").lower()
+        if expected_sha and computed_sha != expected_sha:
+            return "AUDIO_HASH_MISMATCH"
 
     if not track.get("audioDecodes"):
         return "AUDIO_DECODE_FAILED"
@@ -81,30 +99,66 @@ def evaluate_acoustic_status(qid, audio_url, audio_dir, receipt_tracks):
 
     return "BROWSER_PLAYBACK_VERIFIED"
 
+def validate_question_structure(q, is_listening=False):
+    """
+    Validates structural integrity of a single question item.
+    """
+    opts = q.get('options', [])
+    opt_ids = [o.get('id') for o in opts]
+    opt_texts = [str(o.get('text', '')).strip() for o in opts]
+    ans = q.get('correctAnswer')
+    exp = q.get('explanationVi', '')
+    dist = q.get('distractorExplanations', {})
+    audio_url = q.get('audioUrl', '')
+    is_m4 = (q.get('typeId') == 'N2-LIS-RESP')
+
+    struct_issues = []
+    expected_opts_count = 3 if is_m4 else 4
+    if len(opts) != expected_opts_count:
+        struct_issues.append(f"Expected {expected_opts_count} options, got {len(opts)}")
+    if len(set(opt_texts)) != len(opt_texts):
+        struct_issues.append("Duplicate option texts found")
+    if ans not in opt_ids:
+        struct_issues.append(f"Correct answer {ans} not in options {opt_ids}")
+    
+    if not is_listening:
+        if len(exp.strip()) < 15:
+            struct_issues.append("Explanation too brief or missing")
+        expected_distractors = set(opt_ids) - {ans}
+        missing_distractors = expected_distractors - set(dist.keys())
+        if missing_distractors:
+            struct_issues.append(f"Missing distractor explanations for {missing_distractors}")
+    else:
+        if not audio_url:
+            struct_issues.append("Missing audioUrl")
+
+    return "PASS" if not struct_issues else "FAIL: " + "; ".join(struct_issues)
+
 def evaluate_question_release_gate(structural_status, linguistic_status, acoustic_status, is_listening=False):
     """
-    Deterministic release gate evaluation without boolean operator precedence ambiguity.
-    Validates structural integrity, independent blind solve backing, and verified browser playback.
+    Deterministic release gate evaluation using exact enum membership.
+    Eliminates all substring match vulnerabilities (e.g. 'NOT_AI_VERIFIED_PASS').
     Returns:
         tuple(overall_tier: str, reasons: list[str])
     """
     reasons = []
 
     # 1. Structural gate: Must strictly be 'PASS'
-    if structural_status != "PASS":
+    if structural_status not in ALLOWED_STRUCTURAL_STATUSES:
         reasons.append(f"Structural defect: {structural_status}")
 
     # 2. Linguistic gate: Must have verified blind solve agreement or resolved defect
-    allowed_ling = ("AI_VERIFIED_PASS", "REPAIRED_AND_VERIFIED", "AI_AGREED_FLAGGED_FOR_HUMAN")
-    if not any(status in linguistic_status for status in allowed_ling):
-        reasons.append(f"Linguistic unverified: {linguistic_status}")
+    if linguistic_status == "AI_AGREED_FLAGGED_FOR_HUMAN":
+        reasons.append("Linguistic review noted competing answers or nuance warnings requiring human expert resolution")
+    elif linguistic_status not in ALLOWED_LINGUISTIC_STATUSES:
+        reasons.append(f"Linguistic release gate blocked: {linguistic_status}")
 
     # 3. Acoustic gate: Listening items must have full BROWSER_PLAYBACK_VERIFIED
     if is_listening:
-        if acoustic_status != "BROWSER_PLAYBACK_VERIFIED":
+        if acoustic_status not in ALLOWED_ACOUSTIC_LISTENING:
             reasons.append(f"Acoustic verification incomplete: {acoustic_status}")
     else:
-        if "N/A" not in acoustic_status:
+        if acoustic_status not in ALLOWED_ACOUSTIC_WRITTEN:
             reasons.append(f"Unexpected acoustic status for written item: {acoustic_status}")
 
     if not reasons:
@@ -133,6 +187,17 @@ def audit_mock_105(mock_num=1):
     else:
         print(f"WARNING: Missing playback receipt at {receipt_file}!")
 
+    manifest_file = ROOT / f'data/mock_exams/n2_mock_{mock_id}_audio_manifest.json'
+    manifest_tracks = {}
+    if manifest_file.exists():
+        with open(manifest_file, 'r', encoding='utf-8') as f:
+            m_raw = json.load(f)
+        if isinstance(m_raw, list):
+            manifest_tracks = {(t.get('id') or t.get('qid')): t for t in m_raw if t}
+        elif isinstance(m_raw, dict):
+            manifest_tracks = m_raw.get('tracks') if 'tracks' in m_raw else m_raw
+        print(f"Loaded audio authoring manifest with {len(manifest_tracks)} tracks.")
+
     sec1 = data['sections'][0]
     sec2 = data['sections'][1]
     sec1_items = sec1['items']
@@ -158,22 +223,7 @@ def audit_mock_105(mock_num=1):
         dist = q.get('distractorExplanations', {})
 
         # 1. structuralStatus
-        struct_issues = []
-        if len(opts) != 4:
-            struct_issues.append(f"Expected 4 options, got {len(opts)}")
-        if len(set(opt_texts)) != len(opt_texts):
-            struct_issues.append("Duplicate option texts found")
-        if ans not in opt_ids:
-            struct_issues.append(f"Correct answer {ans} not in options {opt_ids}")
-        if len(exp.strip()) < 15:
-            struct_issues.append("Explanation too brief or missing")
-
-        expected_distractors = set(opt_ids) - {ans}
-        missing_distractors = expected_distractors - set(dist.keys())
-        if missing_distractors:
-            struct_issues.append(f"Missing distractor explanations for {missing_distractors}")
-
-        structural_status = "PASS" if not struct_issues else "FAIL: " + "; ".join(struct_issues)
+        structural_status = validate_question_structure(q, is_listening=False)
 
         # Ledger lookup
         ledger_entry = ledger_map.get(qid)
@@ -273,18 +323,7 @@ def audit_mock_105(mock_num=1):
         is_m4 = (q.get('typeId') == 'N2-LIS-RESP')
 
         # 1. structuralStatus
-        struct_issues = []
-        expected_opts_count = 3 if is_m4 else 4
-        if len(opts) != expected_opts_count:
-            struct_issues.append(f"Expected {expected_opts_count} options, got {len(opts)}")
-        if len(set(opt_texts)) != len(opt_texts):
-            struct_issues.append("Duplicate option texts found")
-        if ans not in opt_ids:
-            struct_issues.append(f"Correct answer {ans} not in options {opt_ids}")
-        if not audio_url:
-            struct_issues.append("Missing audioUrl")
-
-        structural_status = "PASS" if not struct_issues else "FAIL: " + "; ".join(struct_issues)
+        structural_status = validate_question_structure(q, is_listening=True)
 
         # Ledger lookup
         ledger_entry = ledger_map.get(qid)
@@ -333,8 +372,8 @@ def audit_mock_105(mock_num=1):
         else:
             linguistic_status = f"BLOCKED: {blind_review_status}"
 
-        # 5. acousticStatus (Verified via Playwright Receipt)
-        acoustic_status = evaluate_acoustic_status(qid, audio_url, audio_dir, receipt_tracks)
+        # 5. acousticStatus (Verified via Playwright Receipt and Live On-Disk SHA-256)
+        acoustic_status = evaluate_acoustic_status(qid, audio_url, audio_dir, receipt_tracks, manifest_tracks)
 
         # 6. humanReviewStatus
         human_review_status = "HUMAN_REVIEW_REQUIRED"

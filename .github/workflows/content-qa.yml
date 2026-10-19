@@ -1,0 +1,128 @@
+name: Content QA & Adversarial Release Gate
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'data/**'
+      - 'qa/**'
+      - 'scripts/**'
+      - 'docs/audio/**'
+      - '.github/workflows/content-qa.yml'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'data/**'
+      - 'qa/**'
+      - 'scripts/**'
+      - 'docs/audio/**'
+      - '.github/workflows/content-qa.yml'
+  workflow_dispatch:
+
+jobs:
+  content-qa-gate:
+    name: Content QA & Release Gate Verification
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      # 1. Set up Python
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+          cache-dependency-path: '**/requirements*.txt'
+
+      # 2. Install documented testing dependencies
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      # 3. Validate cross-mock uniqueness and JSON structural integrity
+      - name: Validate mock uniqueness and structure
+        run: |
+          python scripts/curriculum/validate_mock_uniqueness.py
+
+      # 4 & 5. Verify raw blind-review immutability and derived semantic mapping
+      - name: Verify blind review immutability and semantic remapping
+        run: |
+          python scripts/curriculum/audit_blind_remapping_integrity.py
+
+      # 6. Reconcile review evidence against strict deterministic gate
+      - name: Reconcile review evidence
+        run: |
+          python scripts/curriculum/reconcile_mock_blind_review.py
+
+      # 7. Validate question-version content fingerprints
+      - name: Validate question-version content fingerprints
+        run: |
+          python scripts/curriculum/question_fingerprint.py
+
+      # 8. Run adversarial negative mutation suite (real pipeline mutations)
+      - name: Run adversarial mutation suite
+        run: |
+          python -m unittest scripts/tests/test_adversarial_release_gate.py
+
+      # 9 & 10. Run corrected release-gate audits & audio hash/receipt consistency
+      - name: Audit N2 Mock 01 (105 items, audio hashes, release gate)
+        run: |
+          python scripts/curriculum/audit_n2_mock_105_questions.py 1
+
+      - name: Audit N2 Mock 02 (105 items, audio hashes, release gate)
+        run: |
+          python scripts/curriculum/audit_n2_mock_105_questions.py 2
+
+      # 11. Run full unit and regression test suite
+      - name: Run full regression test suite
+        run: |
+          python -m unittest discover -s scripts/tests
+
+      # 12. Produce machine-readable QA summary
+      - name: Generate machine-readable CI QA summary
+        run: |
+          python -c "
+          import json
+          from pathlib import Path
+
+          root = Path('.')
+          ledger_file = root / 'qa/QUESTION_AUDIT_LEDGER_210.json'
+          m1_report = root / 'qa/N2_MOCK_01_INDEPENDENT_AUDIT_REPORT.md'
+          m2_report = root / 'qa/N2_MOCK_02_INDEPENDENT_AUDIT_REPORT.md'
+
+          with open(ledger_file, 'r', encoding='utf-8') as f:
+              ledger = json.load(f)
+
+          total_items = len(ledger)
+          quarantined = [it for it in ledger if it.get('finalDisposition') == 'QUARANTINED']
+
+          summary = {
+              'workflow': 'Content QA & Adversarial Release Gate',
+              'totalItemsAudited': total_items,
+              'quarantinedCount': len(quarantined),
+              'n2Mock01Audited': m1_report.exists(),
+              'n2Mock02Audited': m2_report.exists(),
+              'gateStatus': 'PASS' if len(quarantined) == 0 else 'FAIL',
+              'ciRunTimestamp': json.loads(json.dumps(None))
+          }
+
+          out_file = root / 'qa/CI_QA_SUMMARY.json'
+          out_file.write_text(json.dumps(summary, indent=2, ensure_ascii=False), encoding='utf-8')
+          print('CI QA Summary generated:', summary)
+          assert summary['gateStatus'] == 'PASS', 'Release gate failed due to quarantined items!'
+          "
+
+      # 13. Upload test results and QA audit artifacts
+      - name: Upload QA audit artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: content-qa-audit-reports
+          path: |
+            qa/*.json
+            qa/*.csv
+            qa/*.md
+          retention-days: 30

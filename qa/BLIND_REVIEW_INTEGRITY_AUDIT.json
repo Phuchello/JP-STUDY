@@ -7,12 +7,13 @@
     "raw_blind_m01_s2.json": "898162c20328670d99ce363ed46f793434a7e10b1933da6b62f1a4fb2e68f311",
     "raw_blind_m02_s1_p1.json": "7d21e577af617e53b69bea6a8b5bd9cb5343c2e59d39f329f971abf5cc6b163d",
     "raw_blind_m02_s1_p2.json": "4358702c557bfb2e8a4326dfe7a2fdf4bde441d4b8c07fe825b50e1df020f414",
-    "raw_blind_m02_s2.json": "cc6e931b7c727e8097356c3afeaede8dee7759f30dd6a71fb6ee94f20ed96437"
+    "raw_blind_m02_s2.json": "cc6e931b7c727e8097356c3afeaede8dee7759f30dd6a71fb6ee94f20ed96437",
+    "raw_blind_star_repaired_3.json": "07891b8011430d322c0fb6695a5d7ff8b0362612edaf655493856f31edeb5553"
   },
-  "derivedArtifactHash": "59fa8870f74e80efd06a864ab1e4168e7f4735314a5ce194c287f060fe8f9cdc",
+  "derivedArtifactHash": "ca0f10f170612a942c9ccd772cb107e57792e1341ec8bb4ca0aa11bed454b539",
   "totalQuestionsAudited": 210,
-  "totalReorderedQuestions": 27,
-  "recoverableSemanticMappings": 27,
+  "totalReorderedQuestions": 24,
+  "recoverableSemanticMappings": 24,
   "unrecoverableMappings": 0,
   "historicalLetterInconsistenciesDetected": 8,
   "inconsistencies": [
@@ -98,5 +99,5 @@
     }
   ],
   "reReviewRequired": false,
-  "governanceVerdict": "ALL_19_REORDERED_QUESTIONS_RECOVERED_BY_EXACT_SEMANTIC_TEXT"
+  "governanceVerdict": "ALL_REORDERED_QUESTIONS_RECOVERED_BY_EXACT_SEMANTIC_TEXT_AND_FRESH_REVIEWS_VERIFIED"
 }

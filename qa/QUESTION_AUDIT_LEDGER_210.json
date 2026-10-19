@@ -19,7 +19,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "ba089233a27e1f052c2b29c5a0c126622c2e84d397ab22a586911d5704fb9f8c",
+    "reviewFingerprint": "ba089233a27e1f052c2b29c5a0c126622c2e84d397ab22a586911d5704fb9f8c",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -41,7 +44,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "8cdc63b08810d705fbbc12568de9ac9ec08d9362787e73d48c0a079d9c22bda4",
+    "reviewFingerprint": "8cdc63b08810d705fbbc12568de9ac9ec08d9362787e73d48c0a079d9c22bda4",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -63,7 +69,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "10772841ebd6d43c3e1d5e069d16ff3ecdeffa53c19c0e5b9debbc907ebc2634",
+    "reviewFingerprint": "10772841ebd6d43c3e1d5e069d16ff3ecdeffa53c19c0e5b9debbc907ebc2634",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -85,7 +94,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "088ef667ca57fd02822dd438d61355f6d9ae052b1dd9fbd681cb0e6d985bf249",
+    "reviewFingerprint": "088ef667ca57fd02822dd438d61355f6d9ae052b1dd9fbd681cb0e6d985bf249",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -107,7 +119,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "446ca4f69f9d721ba3285f568c0d7a480915a4abb48acd77f97d2e943dfc15b6",
+    "reviewFingerprint": "446ca4f69f9d721ba3285f568c0d7a480915a4abb48acd77f97d2e943dfc15b6",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -129,7 +144,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "fc323e277c906c7bf44d8903b3df008081ab099670d35294d39151d6369dbed8",
+    "reviewFingerprint": "fc323e277c906c7bf44d8903b3df008081ab099670d35294d39151d6369dbed8",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -151,7 +169,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "3557218d21570b388d933d18035ade1b2399f63585232684aa94efdb38708787",
+    "reviewFingerprint": "3557218d21570b388d933d18035ade1b2399f63585232684aa94efdb38708787",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -173,7 +194,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "d7d884c2fb44dfb20d5ed85e98753be13c78a737e57e6239fcbc208bdb4afaae",
+    "reviewFingerprint": "d7d884c2fb44dfb20d5ed85e98753be13c78a737e57e6239fcbc208bdb4afaae",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -195,7 +219,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "61041a3b0ae992766aafe91ec56ef719a70c9aef1acd7e66a1b04b4d6342d329",
+    "reviewFingerprint": "61041a3b0ae992766aafe91ec56ef719a70c9aef1acd7e66a1b04b4d6342d329",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -217,7 +244,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "586610570745e631f3adcc97e6ff5cb8583a59573ff35531628262003db8fd7e",
+    "reviewFingerprint": "586610570745e631f3adcc97e6ff5cb8583a59573ff35531628262003db8fd7e",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -239,7 +269,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "baf98421e63702e0f85e36efef2aa5c4632e35186c829425420f2ae34445fbf3",
+    "reviewFingerprint": "baf98421e63702e0f85e36efef2aa5c4632e35186c829425420f2ae34445fbf3",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -261,7 +294,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "774d5ab6f0a88be0ba95928f88b8631095eafb088e81abdb0f381bb1f624868c",
+    "reviewFingerprint": "774d5ab6f0a88be0ba95928f88b8631095eafb088e81abdb0f381bb1f624868c",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -283,7 +319,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "4c9e6f35d560afeed4e06ed9a7c8764573eca66ede48ded7d90d7c2bde28025e",
+    "reviewFingerprint": "4c9e6f35d560afeed4e06ed9a7c8764573eca66ede48ded7d90d7c2bde28025e",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -305,7 +344,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "eaae2379f883599274a05010bce0ac06e2feb5ecf5360ed067e1adf2fa2d4d83",
+    "reviewFingerprint": "eaae2379f883599274a05010bce0ac06e2feb5ecf5360ed067e1adf2fa2d4d83",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -327,7 +369,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "ab35b73ba54bbb2e7ff6064abe762143628c2b02913ab24296356fad5c60f632",
+    "reviewFingerprint": "ab35b73ba54bbb2e7ff6064abe762143628c2b02913ab24296356fad5c60f632",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -349,7 +394,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "203a9994ed3d03737e89cb328068ed6e927ffc807fe5b48b25963f50517b91b7",
+    "reviewFingerprint": "203a9994ed3d03737e89cb328068ed6e927ffc807fe5b48b25963f50517b91b7",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -371,7 +419,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "8bc7b8b10dba9812d2271ddea8a9baa72bcddc400faba0d5393db3137ff8aa84",
+    "reviewFingerprint": "8bc7b8b10dba9812d2271ddea8a9baa72bcddc400faba0d5393db3137ff8aa84",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -393,7 +444,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "e2358e071d75a8c3b8d01542df6c63782475756d4b9043b4637dc2f821fc5da3",
+    "reviewFingerprint": "e2358e071d75a8c3b8d01542df6c63782475756d4b9043b4637dc2f821fc5da3",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -415,7 +469,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "646b6c883288fd8320f5c80507c7b35f2a39691417844b75b507307ce30e087c",
+    "reviewFingerprint": "646b6c883288fd8320f5c80507c7b35f2a39691417844b75b507307ce30e087c",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -437,7 +494,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "ba3a9cd3df7213d75f44ec9e64e2be94684d748c5a2a4fea1c9a2fd71e99de17",
+    "reviewFingerprint": "ba3a9cd3df7213d75f44ec9e64e2be94684d748c5a2a4fea1c9a2fd71e99de17",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -459,7 +519,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "0d1dab2ff6dfe2ddec75b5abd518ca80b004439396c244569da03be1910a2fc5",
+    "reviewFingerprint": "0d1dab2ff6dfe2ddec75b5abd518ca80b004439396c244569da03be1910a2fc5",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -481,7 +544,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "d499c257f270097f5414d6bb88151361144b6496ccc8d2eda9376ffcbe53c4c9",
+    "reviewFingerprint": "d499c257f270097f5414d6bb88151361144b6496ccc8d2eda9376ffcbe53c4c9",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -503,7 +569,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "acdb69b15794bd97585e9100b06bd404265f305ab735b61c46cd81d85638f0b9",
+    "reviewFingerprint": "acdb69b15794bd97585e9100b06bd404265f305ab735b61c46cd81d85638f0b9",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -525,7 +594,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "e0dc7def12023c30f0af213675347403dc9347677e59c2c2e5a685c165ed4f8b",
+    "reviewFingerprint": "e0dc7def12023c30f0af213675347403dc9347677e59c2c2e5a685c165ed4f8b",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -547,7 +619,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "a00d3e66c37d5c5b4e24e09d3171ee3f533bf0c4ea5fac1a3af5bc77a0a8ba38",
+    "reviewFingerprint": "a00d3e66c37d5c5b4e24e09d3171ee3f533bf0c4ea5fac1a3af5bc77a0a8ba38",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -569,7 +644,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "cd77f745ef699e37010d616d46b8b6874df7edb68584526b3ab0665f36eba3e1",
+    "reviewFingerprint": "cd77f745ef699e37010d616d46b8b6874df7edb68584526b3ab0665f36eba3e1",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -591,7 +669,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "3396d9f6ea463e00faa1de45cf3f5a3d881d3d0a0fd46b413ef285e10d8eb329",
+    "reviewFingerprint": "3396d9f6ea463e00faa1de45cf3f5a3d881d3d0a0fd46b413ef285e10d8eb329",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -613,7 +694,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "47e58c2696f25765adcd79f5c07b024270fe0435c3e2e37bfe82d2b3b1ad918a",
+    "reviewFingerprint": "47e58c2696f25765adcd79f5c07b024270fe0435c3e2e37bfe82d2b3b1ad918a",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -635,7 +719,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "69f1f9eb1e87e563d825e14a4538353bbe7daa89fd3e12cd014de88f93a32a2b",
+    "reviewFingerprint": "69f1f9eb1e87e563d825e14a4538353bbe7daa89fd3e12cd014de88f93a32a2b",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -657,7 +744,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "7d4dcb410b18fee2ae194163ec91422dc606ed2b762f83547206624d61863106",
+    "reviewFingerprint": "7d4dcb410b18fee2ae194163ec91422dc606ed2b762f83547206624d61863106",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -679,7 +769,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "db4900059e8280a900b1063070e1fa3f21ff5421b36b5c2e7828c42f35265274",
+    "reviewFingerprint": "db4900059e8280a900b1063070e1fa3f21ff5421b36b5c2e7828c42f35265274",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -701,7 +794,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "1b8f8cf39b793279304784c553c8053ed50d5ce9acc03e507056ea25d40b27f9",
+    "reviewFingerprint": "1b8f8cf39b793279304784c553c8053ed50d5ce9acc03e507056ea25d40b27f9",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -723,7 +819,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "26af2205fc67c2ffab84cde58be1c7697ad441e6bd4fc1288b6317f3da7ed238",
+    "reviewFingerprint": "26af2205fc67c2ffab84cde58be1c7697ad441e6bd4fc1288b6317f3da7ed238",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -745,7 +844,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "602cb27fe7af500f3a148f3360bbb442fe345dfa33602f7c42c152accd856384",
+    "reviewFingerprint": "602cb27fe7af500f3a148f3360bbb442fe345dfa33602f7c42c152accd856384",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -767,7 +869,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "31a854d30fe3b18f5ec74ee5ecf712d4b407fc94c07aa74a903f7a75395e9c04",
+    "reviewFingerprint": "31a854d30fe3b18f5ec74ee5ecf712d4b407fc94c07aa74a903f7a75395e9c04",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -789,7 +894,10 @@
     "finalDisposition": "REPAIRED_AND_VERIFIED",
     "sourceContentChanged": true,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Repaired and verified via regression tests; awaiting human panel sign-off"
+    "remainingUncertainty": "Repaired and verified via regression tests; awaiting human panel sign-off",
+    "contentFingerprint": "ac7d8abb5092175c8f4ed51deaf0c67ea2f0a44f747a229a73e135e48b5db2c4",
+    "reviewFingerprint": "ac7d8abb5092175c8f4ed51deaf0c67ea2f0a44f747a229a73e135e48b5db2c4",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -811,7 +919,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "6ebb498120da0e5140d857f1f6af9d92812ac16fcc7c255e2f352b9b302ccc27",
+    "reviewFingerprint": "6ebb498120da0e5140d857f1f6af9d92812ac16fcc7c255e2f352b9b302ccc27",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -833,7 +944,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "113d149fa630f2123e01891951bfae31b019dee8868bfe9e48496a96a14045c3",
+    "reviewFingerprint": "113d149fa630f2123e01891951bfae31b019dee8868bfe9e48496a96a14045c3",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -855,7 +969,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "73f5432d3a1c63228447a5050be7640a9df76a3d06e46308c9a8a8a7e1cea627",
+    "reviewFingerprint": "73f5432d3a1c63228447a5050be7640a9df76a3d06e46308c9a8a8a7e1cea627",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -877,7 +994,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "5b9466ff99a460538195eb150634c18a14f35e73b3f96253557172f089f5bedc",
+    "reviewFingerprint": "5b9466ff99a460538195eb150634c18a14f35e73b3f96253557172f089f5bedc",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -899,7 +1019,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "b685b584f739617a629fb0d5b4bfb44f9959d9022a745108eca13579f27e73b1",
+    "reviewFingerprint": "b685b584f739617a629fb0d5b4bfb44f9959d9022a745108eca13579f27e73b1",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -921,7 +1044,10 @@
     "finalDisposition": "REPAIRED_AND_VERIFIED",
     "sourceContentChanged": true,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Repaired and verified via regression tests; awaiting human panel sign-off"
+    "remainingUncertainty": "Repaired and verified via regression tests; awaiting human panel sign-off",
+    "contentFingerprint": "e1a351a1bbe1bea9e0d084df200803accf50ca44c1f413d747a77f491e4f6b12",
+    "reviewFingerprint": "e1a351a1bbe1bea9e0d084df200803accf50ca44c1f413d747a77f491e4f6b12",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -943,7 +1069,10 @@
     "finalDisposition": "REPAIRED_AND_VERIFIED",
     "sourceContentChanged": true,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Repaired and verified via regression tests; awaiting human panel sign-off"
+    "remainingUncertainty": "Repaired and verified via regression tests; awaiting human panel sign-off",
+    "contentFingerprint": "f50b085dc3b129727c263bc4d1fc0f12347a265f93fdea462e19466ba1731229",
+    "reviewFingerprint": "f50b085dc3b129727c263bc4d1fc0f12347a265f93fdea462e19466ba1731229",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -965,7 +1094,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "96c63e06d4262cbbe83717d344eb23f4207a998baa498cf6d5bdbdfc3a585ae7",
+    "reviewFingerprint": "96c63e06d4262cbbe83717d344eb23f4207a998baa498cf6d5bdbdfc3a585ae7",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -987,7 +1119,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "93d9c032726fc24655987358b7506ea43ac4bc4b07e96e86fadebb63135dc585",
+    "reviewFingerprint": "93d9c032726fc24655987358b7506ea43ac4bc4b07e96e86fadebb63135dc585",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1009,7 +1144,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "685fff2f18f30ac2346ca67f04a4cce77c8eaeb6f50ea1535f09fd834c3d3fdc",
+    "reviewFingerprint": "685fff2f18f30ac2346ca67f04a4cce77c8eaeb6f50ea1535f09fd834c3d3fdc",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1021,17 +1159,20 @@
     "originalStoredAnswer": "C",
     "independentProposedAnswer": "C",
     "originalRawBlindAnswer": "C",
-    "selectedOptionText": "計画通りに",
-    "semanticMappingMethod": "REPAIRED_AMBIGUITY_RESOLVED",
+    "selectedOptionText": "予定通りに",
+    "semanticMappingMethod": "DIRECT_IDENTITY",
     "hasLetterInconsistency": false,
     "reconciliationClassification": "GRAMMATICAL_DEFECT_RESOLVED",
     "confidence": "HIGH",
-    "linguisticJustification": "The canonical JLPT sentence structure is: 「この計画は 予算の(A) 都合上(B) ★計画通りに(C) 進めることが(D) 困難になってきた。」 The adverbial reason phrase 「予算の都合上」 ('due to budget constraints') precedes the nominalized clause 「計画通りに進めることが困難になってきた」 ('proceeding according to plan has become difficult'). Slot 3 (★) is Option C (「計画通りに」).",
+    "linguisticJustification": "【文構造の分析】文頭「この計画は、予算の」に続く4つの節片：A「都合上、」、B「当初の」、C「予定通りに」、D「進めることが」を文法的に再構築する。前置詞的修飾構造として「〜の都合上」は名詞「予算」と結びつき「予算の都合上、」を形成（Aが第1空欄）。後続の節「困難になってきた」の主語句は形式名詞「こと」を含む「進めることが」（Dが第4空欄）。動詞「進める」を修飾する連用修飾構造は副詞句「当初の予定通りに」（B＋C）であり、B「当初の」は連体修飾語として名詞「予定」に係り、C「予定通りに」は副詞句として動詞「進める」に係る。したがって全体の語順は「この計画は、予算の［都合上、］［当初の］★［予定通りに］［進めることが］困難になってきた。」（A-B-C-D）となる。第3空欄（★）に入るのはC「予定通りに」。他の23通りの順列はいずれも係り受けの破綻や非文（*予算の当初の都合上、*予算の進めることが等）となり成立しない。別解なし。",
     "detectedIssue": "SENTENCE ASSEMBLY AMBIGUITY: Theoretical inverted topical order C-D-A-B could compete with canonical A-B-C-D.",
     "finalDisposition": "REPAIRED_AND_VERIFIED",
     "sourceContentChanged": true,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Repaired and verified via regression tests; awaiting human panel sign-off"
+    "remainingUncertainty": "Repaired and verified via regression tests; awaiting human panel sign-off",
+    "contentFingerprint": "2d0ef779b16aa0f73842eb28eecb9c194e8fcf5c1292e752aad562a0f37015b6",
+    "reviewFingerprint": "2d0ef779b16aa0f73842eb28eecb9c194e8fcf5c1292e752aad562a0f37015b6",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1053,7 +1194,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "373545bc45bfdc184bd2d52b7d176342605f335e6b26bc6696a0eb46db658b8d",
+    "reviewFingerprint": "373545bc45bfdc184bd2d52b7d176342605f335e6b26bc6696a0eb46db658b8d",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1075,7 +1219,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "89b837dee7cf371c70a4f0b6a2e635473e005e32b027c1d9f4eae16511ed6966",
+    "reviewFingerprint": "89b837dee7cf371c70a4f0b6a2e635473e005e32b027c1d9f4eae16511ed6966",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1097,7 +1244,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "a7fff7ae7d730e249043caf66cb6b6c0889f93925aecf31a2dcc92848daec77e",
+    "reviewFingerprint": "a7fff7ae7d730e249043caf66cb6b6c0889f93925aecf31a2dcc92848daec77e",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1119,7 +1269,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "809fb660fce5aafbf982b3029af52aecf5ee36eb82e644062772f325996d23fa",
+    "reviewFingerprint": "809fb660fce5aafbf982b3029af52aecf5ee36eb82e644062772f325996d23fa",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1141,7 +1294,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "1a197690b5e94e0dfebf9de78112505d4cbda7ee4934c507c5d1f6836d9da1e3",
+    "reviewFingerprint": "1a197690b5e94e0dfebf9de78112505d4cbda7ee4934c507c5d1f6836d9da1e3",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1163,7 +1319,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "876c7babda7ffc27f48724cd31aa6bebb54336dc16f4dcba6616b20834b834fb",
+    "reviewFingerprint": "876c7babda7ffc27f48724cd31aa6bebb54336dc16f4dcba6616b20834b834fb",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1185,7 +1344,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "86152f54a2962ef2d9206137fd695474518e0a7a0e62aa8ed89c2d8747079e57",
+    "reviewFingerprint": "86152f54a2962ef2d9206137fd695474518e0a7a0e62aa8ed89c2d8747079e57",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1207,7 +1369,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "e799970261079dde10e2f7e78bc50d3abff8bb24a2ede5c5e5bb53b2d93797a0",
+    "reviewFingerprint": "e799970261079dde10e2f7e78bc50d3abff8bb24a2ede5c5e5bb53b2d93797a0",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1229,7 +1394,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "d368f62bf58f4e1c69f4561bc5934a152c34734a12660491dbaec928000b8688",
+    "reviewFingerprint": "d368f62bf58f4e1c69f4561bc5934a152c34734a12660491dbaec928000b8688",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1251,7 +1419,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "61ba99de4ec462511cf3c24b75ced391be7ab35a47d8d9522371290974c9e077",
+    "reviewFingerprint": "61ba99de4ec462511cf3c24b75ced391be7ab35a47d8d9522371290974c9e077",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1273,7 +1444,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "27696b74a8aded5f6ac1ff3e38772d7db5dd72e113e09a8a3d63905b3ce244a2",
+    "reviewFingerprint": "27696b74a8aded5f6ac1ff3e38772d7db5dd72e113e09a8a3d63905b3ce244a2",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1295,7 +1469,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "ffc5107383d9bca2e22654fa9028a53af3be7526a52f03bdf1e4089629622af4",
+    "reviewFingerprint": "ffc5107383d9bca2e22654fa9028a53af3be7526a52f03bdf1e4089629622af4",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1317,7 +1494,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "67204144ddf9b99a04e17965def4f6876a5cfe6215976de7417f7e7dce6c7ebf",
+    "reviewFingerprint": "67204144ddf9b99a04e17965def4f6876a5cfe6215976de7417f7e7dce6c7ebf",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1339,7 +1519,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "465dadbd93f0d11176b58d78e9dcf3596e8c6805a48357e21e1aa2e7b925b676",
+    "reviewFingerprint": "465dadbd93f0d11176b58d78e9dcf3596e8c6805a48357e21e1aa2e7b925b676",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1361,7 +1544,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "3d0e84c2278dab1d8c6900c692f352e775df1d44ccf7ccae7410c557ad2473b2",
+    "reviewFingerprint": "3d0e84c2278dab1d8c6900c692f352e775df1d44ccf7ccae7410c557ad2473b2",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1383,7 +1569,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "469f27a2966a4fc15568411e43c12d8d77fa3506bfd8891d86dc88f291618f08",
+    "reviewFingerprint": "469f27a2966a4fc15568411e43c12d8d77fa3506bfd8891d86dc88f291618f08",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1405,7 +1594,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "0b94f8188a976ee301fad171bdbc6511670c89b901b8911c5e8b215d1dae09ae",
+    "reviewFingerprint": "0b94f8188a976ee301fad171bdbc6511670c89b901b8911c5e8b215d1dae09ae",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1427,7 +1619,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "c2be93674d9c66c33acff5b7182884f442e6432c0ad78d4e5e91effa3d0ac90d",
+    "reviewFingerprint": "c2be93674d9c66c33acff5b7182884f442e6432c0ad78d4e5e91effa3d0ac90d",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1449,7 +1644,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "579299fbf6d4a12617f1d2ddaf4635d96403de81151cf1e0783e8b2bee1faaf0",
+    "reviewFingerprint": "579299fbf6d4a12617f1d2ddaf4635d96403de81151cf1e0783e8b2bee1faaf0",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1471,7 +1669,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "f9e67ec2e2f6bdff81199f47496797e89cfa10b147f89365ab5587b8d23a8f0b",
+    "reviewFingerprint": "f9e67ec2e2f6bdff81199f47496797e89cfa10b147f89365ab5587b8d23a8f0b",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1493,7 +1694,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "e659cf0b7474cc0af4f8f654c07f7cbfedb8e077032250e94a896a0b6431a228",
+    "reviewFingerprint": "e659cf0b7474cc0af4f8f654c07f7cbfedb8e077032250e94a896a0b6431a228",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1515,7 +1719,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "cba86a592c2094485dd1de9bdc603162936e250c88ef3edfbcc50090d148e22a",
+    "reviewFingerprint": "cba86a592c2094485dd1de9bdc603162936e250c88ef3edfbcc50090d148e22a",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1537,7 +1744,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "4e717b6789dbc2c51c3d150fb598d3ad642ec20ac98ac2aef39def04514b6802",
+    "reviewFingerprint": "4e717b6789dbc2c51c3d150fb598d3ad642ec20ac98ac2aef39def04514b6802",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1559,7 +1769,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "b51c6db642f52b9c0b0c4745de267a1f068158727707a8a6f6cf8448289df32d",
+    "reviewFingerprint": "b51c6db642f52b9c0b0c4745de267a1f068158727707a8a6f6cf8448289df32d",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1581,7 +1794,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "ea9854d8e817fff09994294d1b8f9b466b8fb647638fff0e2ecb8b0f2fa1b50e",
+    "reviewFingerprint": "ea9854d8e817fff09994294d1b8f9b466b8fb647638fff0e2ecb8b0f2fa1b50e",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1603,7 +1819,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "5058fb64aa5db1096925529a5800e58686b682240247c125ece80aae0cb16d4d",
+    "reviewFingerprint": "5058fb64aa5db1096925529a5800e58686b682240247c125ece80aae0cb16d4d",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1625,7 +1844,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "fd5ae92ed0c74b7468a0629fe419392ed17aa2a113dccd7adce46fcbb8f6c0e3",
+    "reviewFingerprint": "fd5ae92ed0c74b7468a0629fe419392ed17aa2a113dccd7adce46fcbb8f6c0e3",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1647,7 +1869,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "25126706b13afc32ad847713a9314cff28949f536d767b0f04d74575180876b6",
+    "reviewFingerprint": "25126706b13afc32ad847713a9314cff28949f536d767b0f04d74575180876b6",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1669,7 +1894,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "92c8790c475676f1e58b4085de4591d5dc7080734694834079f66c3d2e4c46e5",
+    "reviewFingerprint": "92c8790c475676f1e58b4085de4591d5dc7080734694834079f66c3d2e4c46e5",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1691,7 +1919,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "7fc1e15730bb4310aff0df156d4cbd1df38261ea1a66027f4f9ea942e0bf1ba8",
+    "reviewFingerprint": "7fc1e15730bb4310aff0df156d4cbd1df38261ea1a66027f4f9ea942e0bf1ba8",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1713,7 +1944,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "3154e51a78a21f4ee17f5d631d1330ceb876a3373a43f71c3b3b7a59130202f2",
+    "reviewFingerprint": "3154e51a78a21f4ee17f5d631d1330ceb876a3373a43f71c3b3b7a59130202f2",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1735,7 +1969,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "753e85b56348d7304008c937212e07a8b637efff87507f39e68af6fb5778d774",
+    "reviewFingerprint": "753e85b56348d7304008c937212e07a8b637efff87507f39e68af6fb5778d774",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1757,7 +1994,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "cdc5dc95fbf49db2b1c2e433c84f3c861ae325ae508e982d3e14e0d2417ace24",
+    "reviewFingerprint": "cdc5dc95fbf49db2b1c2e433c84f3c861ae325ae508e982d3e14e0d2417ace24",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1779,7 +2019,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "f177378ce045c8c7f7db242819ef787e1de98e4293c474337cc4eee811f05252",
+    "reviewFingerprint": "f177378ce045c8c7f7db242819ef787e1de98e4293c474337cc4eee811f05252",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1801,7 +2044,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "7a2e23ee603bf935de83683a2a07c8d39388437f37349e3de3678005ae563ddc",
+    "reviewFingerprint": "7a2e23ee603bf935de83683a2a07c8d39388437f37349e3de3678005ae563ddc",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1823,7 +2069,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "d89ad092106bd69f39e995e3e380ecb107df3f1a4eea0d4db5846a36a8481eec",
+    "reviewFingerprint": "d89ad092106bd69f39e995e3e380ecb107df3f1a4eea0d4db5846a36a8481eec",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1845,7 +2094,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "679b31fbd2578f260bc7fcf15368f1201423c27fc490952445c395ef831ace13",
+    "reviewFingerprint": "679b31fbd2578f260bc7fcf15368f1201423c27fc490952445c395ef831ace13",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1867,7 +2119,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "e916b1b34e6cc02b5ba3fd3cc319cafd86c96ae875ada3b4b7e44dad819019da",
+    "reviewFingerprint": "e916b1b34e6cc02b5ba3fd3cc319cafd86c96ae875ada3b4b7e44dad819019da",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1889,7 +2144,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "7883733dc663416faf4126f18f8ef4c76b5cb7f9a85ccf73d1af084d789e93b9",
+    "reviewFingerprint": "7883733dc663416faf4126f18f8ef4c76b5cb7f9a85ccf73d1af084d789e93b9",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1911,7 +2169,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "80d4d7094b07c2001c4f4675690495529bf1737ee56e816b94a3b17b0adb8161",
+    "reviewFingerprint": "80d4d7094b07c2001c4f4675690495529bf1737ee56e816b94a3b17b0adb8161",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1933,7 +2194,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "4e1d000edcb8e74952722590e7a1fa1a6c692ac3cf800ced519f05de3086b47b",
+    "reviewFingerprint": "4e1d000edcb8e74952722590e7a1fa1a6c692ac3cf800ced519f05de3086b47b",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1955,7 +2219,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "3e9b3af89da90110d629cf53cd80e3c2e9ec16fb63a8f7367126eed857a25726",
+    "reviewFingerprint": "3e9b3af89da90110d629cf53cd80e3c2e9ec16fb63a8f7367126eed857a25726",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1977,7 +2244,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "c7a580ea65048d92421e45cbf314e1d6e193372a3d28dfa3ecbdb6cded4958d0",
+    "reviewFingerprint": "c7a580ea65048d92421e45cbf314e1d6e193372a3d28dfa3ecbdb6cded4958d0",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -1999,7 +2269,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "5d46d52d7a68f47654733350377d3c1a9700ae109036c22c8bf9ed7f0ae29023",
+    "reviewFingerprint": "5d46d52d7a68f47654733350377d3c1a9700ae109036c22c8bf9ed7f0ae29023",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -2021,7 +2294,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "6a5aeb12189a927ad4abd056a0bc3d174199e8e6b14400cf7b3f7038b9758050",
+    "reviewFingerprint": "6a5aeb12189a927ad4abd056a0bc3d174199e8e6b14400cf7b3f7038b9758050",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -2043,7 +2319,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "cb61ece0559a871d6ff6223d454ec6bced3532c2fbbd456a13f2875928102f9b",
+    "reviewFingerprint": "cb61ece0559a871d6ff6223d454ec6bced3532c2fbbd456a13f2875928102f9b",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -2065,7 +2344,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "dc96dbf0febdccd59326c71997139a0fab3661483162d2351a5c86acb663828d",
+    "reviewFingerprint": "dc96dbf0febdccd59326c71997139a0fab3661483162d2351a5c86acb663828d",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -2087,7 +2369,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "f61826ffea291b3e6733fb9b5b0aff68318578f1a9b8ff7d5cc4d428bdefd1c9",
+    "reviewFingerprint": "f61826ffea291b3e6733fb9b5b0aff68318578f1a9b8ff7d5cc4d428bdefd1c9",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -2109,7 +2394,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "92b8e0b7fdc4f754d26b7ec98ca20e4cd669a46aead2d30295a80ebdc5630ceb",
+    "reviewFingerprint": "92b8e0b7fdc4f754d26b7ec98ca20e4cd669a46aead2d30295a80ebdc5630ceb",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -2131,7 +2419,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "b7ec5b78f00bb19d839746908b1aa6af95752483d1044e906e01f3891ec119a4",
+    "reviewFingerprint": "b7ec5b78f00bb19d839746908b1aa6af95752483d1044e906e01f3891ec119a4",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -2153,7 +2444,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "b736ada91c6f81e10f7e9ccd259b79c0c27741ae3c15d891c2840fcfb7264064",
+    "reviewFingerprint": "b736ada91c6f81e10f7e9ccd259b79c0c27741ae3c15d891c2840fcfb7264064",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -2175,7 +2469,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "4ca8b26da9ff2f400f18b99a1e7d8654b05970bb3dccec9fd794630136d8dd24",
+    "reviewFingerprint": "4ca8b26da9ff2f400f18b99a1e7d8654b05970bb3dccec9fd794630136d8dd24",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -2197,7 +2494,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "d61a77150eaf5efa4445d11e4fc427d4fee68f258747b95eec5f5f706dcb5b20",
+    "reviewFingerprint": "d61a77150eaf5efa4445d11e4fc427d4fee68f258747b95eec5f5f706dcb5b20",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -2219,7 +2519,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "5e2727d8eb1e45b1b56b26097673137a3af2c4a423e7f947c752c5f3c93fcdd5",
+    "reviewFingerprint": "5e2727d8eb1e45b1b56b26097673137a3af2c4a423e7f947c752c5f3c93fcdd5",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -2241,7 +2544,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "0090f5d63f01fd0b326f7dd14d7c60f02fed38385ce236a278a568c98e6ffcc6",
+    "reviewFingerprint": "0090f5d63f01fd0b326f7dd14d7c60f02fed38385ce236a278a568c98e6ffcc6",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -2263,7 +2569,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "4f309fd39bf5412e2bdc44589a8f7717df0a92d92630143afb1bf71017106873",
+    "reviewFingerprint": "4f309fd39bf5412e2bdc44589a8f7717df0a92d92630143afb1bf71017106873",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -2285,7 +2594,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "02eab759b3a2addfe473769f2d2791d1a069db52dc70d896a983e1266266da38",
+    "reviewFingerprint": "02eab759b3a2addfe473769f2d2791d1a069db52dc70d896a983e1266266da38",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-01",
@@ -2307,7 +2619,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "6114e0046b2ee37b84ce4bb87a4a2fe94710ebd67405c1a40d3a7fd6000fddc5",
+    "reviewFingerprint": "6114e0046b2ee37b84ce4bb87a4a2fe94710ebd67405c1a40d3a7fd6000fddc5",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -2329,7 +2644,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "615f801acd39b34d0cb2c8a4ad7a8c617013ba582788c5a00bda523393b3ef3a",
+    "reviewFingerprint": "615f801acd39b34d0cb2c8a4ad7a8c617013ba582788c5a00bda523393b3ef3a",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -2351,7 +2669,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "662a7f89b0c6286e0b264f1a90ea0aaaf2acd585e4099bbfce9b712be32c26bf",
+    "reviewFingerprint": "662a7f89b0c6286e0b264f1a90ea0aaaf2acd585e4099bbfce9b712be32c26bf",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -2373,7 +2694,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "23ad875b218a363dab8c9a80a46307f56c74f86b9e2f30851636d53434f9bb5b",
+    "reviewFingerprint": "23ad875b218a363dab8c9a80a46307f56c74f86b9e2f30851636d53434f9bb5b",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -2395,7 +2719,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "0fd5998a67677973186e49823b1cf380f19b6f833aec6f362c3d67a72ca96dd6",
+    "reviewFingerprint": "0fd5998a67677973186e49823b1cf380f19b6f833aec6f362c3d67a72ca96dd6",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -2417,7 +2744,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "3b9204da961bd71a05803ae7eacee59b45a68dff1426227daf4278158ca3ac26",
+    "reviewFingerprint": "3b9204da961bd71a05803ae7eacee59b45a68dff1426227daf4278158ca3ac26",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -2439,7 +2769,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "752b05382eaf82987a71ec969892d8220370a240453c8f5bc4f55d6e5bca4ea3",
+    "reviewFingerprint": "752b05382eaf82987a71ec969892d8220370a240453c8f5bc4f55d6e5bca4ea3",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -2461,7 +2794,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "7612043475f9f274a2fc9af0799daf662578777bf6a95fff311ade973ff2941f",
+    "reviewFingerprint": "7612043475f9f274a2fc9af0799daf662578777bf6a95fff311ade973ff2941f",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -2483,7 +2819,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "19ce6c1e6422353db806b69da55379c015c77b711575ba2ecd38c7269745b13e",
+    "reviewFingerprint": "19ce6c1e6422353db806b69da55379c015c77b711575ba2ecd38c7269745b13e",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -2505,7 +2844,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "9e4d9c3b9fc75e10f852ffd667520f05828cbef9f00e85a1661947290ee4ff28",
+    "reviewFingerprint": "9e4d9c3b9fc75e10f852ffd667520f05828cbef9f00e85a1661947290ee4ff28",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -2527,7 +2869,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "7d835bdbc387fb10a125689625ee5165febe4b803267babcf9da24436a66b820",
+    "reviewFingerprint": "7d835bdbc387fb10a125689625ee5165febe4b803267babcf9da24436a66b820",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -2549,7 +2894,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "bd664c3c42f222138c08c8e81576b07239a612172c98c731c3ea89311c673da6",
+    "reviewFingerprint": "bd664c3c42f222138c08c8e81576b07239a612172c98c731c3ea89311c673da6",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -2571,7 +2919,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "8dbf2e8440b991edddf3ed8d97ef85522fead4324a6483141ce51917733346a6",
+    "reviewFingerprint": "8dbf2e8440b991edddf3ed8d97ef85522fead4324a6483141ce51917733346a6",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -2593,7 +2944,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "8cfd7fed838c21446254d0eb22fab8d64c431e85fc6b7d87c6b562c100f79de1",
+    "reviewFingerprint": "8cfd7fed838c21446254d0eb22fab8d64c431e85fc6b7d87c6b562c100f79de1",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -2615,7 +2969,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "ff5593babb38cbe4b918f9eeee37363a42a635157ab9a6f9494be71177a9afa8",
+    "reviewFingerprint": "ff5593babb38cbe4b918f9eeee37363a42a635157ab9a6f9494be71177a9afa8",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -2637,7 +2994,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "e39eef377e4546aa35af6ec2be79e6a5570ca446449ba3ab8fc231c41240810c",
+    "reviewFingerprint": "e39eef377e4546aa35af6ec2be79e6a5570ca446449ba3ab8fc231c41240810c",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -2659,7 +3019,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "3635855cac0954b296784f69c314e966dbaadf96bee0a7564e5e587659d45a7d",
+    "reviewFingerprint": "3635855cac0954b296784f69c314e966dbaadf96bee0a7564e5e587659d45a7d",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -2681,7 +3044,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "e016ffb290a3a4bb5f300f422ee4a5d25de14f685e1e54e838d09afc974fda5a",
+    "reviewFingerprint": "e016ffb290a3a4bb5f300f422ee4a5d25de14f685e1e54e838d09afc974fda5a",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -2703,7 +3069,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "2c7b20184a2c0a745c668a1ca1e137d350f3a95d8cbdb88719f45f5bbcb174ad",
+    "reviewFingerprint": "2c7b20184a2c0a745c668a1ca1e137d350f3a95d8cbdb88719f45f5bbcb174ad",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -2725,7 +3094,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "58a1e8dbbdedaf8aefd47800b92cb60104b383e52a1ff64da021668c2a0a632d",
+    "reviewFingerprint": "58a1e8dbbdedaf8aefd47800b92cb60104b383e52a1ff64da021668c2a0a632d",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -2747,7 +3119,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "46945d873498546502b3fe539be4e1e572dd45ea808594ced45b660a2fa769fa",
+    "reviewFingerprint": "46945d873498546502b3fe539be4e1e572dd45ea808594ced45b660a2fa769fa",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -2769,7 +3144,10 @@
     "finalDisposition": "REPAIRED_AND_VERIFIED",
     "sourceContentChanged": true,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Repaired and verified via regression tests; awaiting human panel sign-off"
+    "remainingUncertainty": "Repaired and verified via regression tests; awaiting human panel sign-off",
+    "contentFingerprint": "88c23ebb910b33afd8bce23b6ad3d490260a9730f39f42dad3b5adf766cc9206",
+    "reviewFingerprint": "88c23ebb910b33afd8bce23b6ad3d490260a9730f39f42dad3b5adf766cc9206",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -2791,7 +3169,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "8a88a787ea028913b7cb3510321b43f8ec9fedbefe84084434be70fce6ba5be0",
+    "reviewFingerprint": "8a88a787ea028913b7cb3510321b43f8ec9fedbefe84084434be70fce6ba5be0",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -2813,7 +3194,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "b44f412cc498055529e98e965739b22094614abc4088e34e7dd413c6a876dfe0",
+    "reviewFingerprint": "b44f412cc498055529e98e965739b22094614abc4088e34e7dd413c6a876dfe0",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -2835,7 +3219,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "541835955cedb13bcc8827eeccda901157b61cff5a3bad093bd4925ebabf4068",
+    "reviewFingerprint": "541835955cedb13bcc8827eeccda901157b61cff5a3bad093bd4925ebabf4068",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -2857,7 +3244,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "e781a17f4f4388f9eb406a98ce00f6dd5a83de409f32fdec3e3f37f3e3d1d4dd",
+    "reviewFingerprint": "e781a17f4f4388f9eb406a98ce00f6dd5a83de409f32fdec3e3f37f3e3d1d4dd",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -2879,7 +3269,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "d1a159954a9f17a98308f52c3a56a3c40f25412a724677e08a5800756152b45e",
+    "reviewFingerprint": "d1a159954a9f17a98308f52c3a56a3c40f25412a724677e08a5800756152b45e",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -2901,7 +3294,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "bb71ac0200fc85521824f803f28e9e1c47471effddaf65fb422256693acd210f",
+    "reviewFingerprint": "bb71ac0200fc85521824f803f28e9e1c47471effddaf65fb422256693acd210f",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -2923,7 +3319,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "820b0768de8935bad2d84189842ca03af79c9525616d575c44672bb70cb70090",
+    "reviewFingerprint": "820b0768de8935bad2d84189842ca03af79c9525616d575c44672bb70cb70090",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -2945,7 +3344,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "7f98ce19882d0cd3b22bd600ccad945a50f556c42fc1822126dc2279e8e9c74f",
+    "reviewFingerprint": "7f98ce19882d0cd3b22bd600ccad945a50f556c42fc1822126dc2279e8e9c74f",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -2967,7 +3369,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "0f1aff5e38a8f12992a3f738ba8aa96e72ae92be401c7fdeaefdead44b7d2dc5",
+    "reviewFingerprint": "0f1aff5e38a8f12992a3f738ba8aa96e72ae92be401c7fdeaefdead44b7d2dc5",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -2989,7 +3394,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "24276f487331f4cd3b18518a0de7f17a9a400235d5aa4f109cec642284e049b0",
+    "reviewFingerprint": "24276f487331f4cd3b18518a0de7f17a9a400235d5aa4f109cec642284e049b0",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3011,7 +3419,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "459d7fd527a5583f1672647d75d9cf30e2bb5a7712b588db66aaca40909d4213",
+    "reviewFingerprint": "459d7fd527a5583f1672647d75d9cf30e2bb5a7712b588db66aaca40909d4213",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3033,7 +3444,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "bf352fd289973d5c360ae86bb4ca62734ff52b450f9ae296fda33a1e38d773e3",
+    "reviewFingerprint": "bf352fd289973d5c360ae86bb4ca62734ff52b450f9ae296fda33a1e38d773e3",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3055,7 +3469,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "a823281fcd63b7746f9309b3e666c439534aea0cd3976aab461ef9f90436a77c",
+    "reviewFingerprint": "a823281fcd63b7746f9309b3e666c439534aea0cd3976aab461ef9f90436a77c",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3077,7 +3494,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "61329bbc74a4753bd6a9301d1bedae9fdbaa2d3d9c63ca0e1a9f9a79765ebd81",
+    "reviewFingerprint": "61329bbc74a4753bd6a9301d1bedae9fdbaa2d3d9c63ca0e1a9f9a79765ebd81",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3099,7 +3519,10 @@
     "finalDisposition": "REPAIRED_AND_VERIFIED",
     "sourceContentChanged": true,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Repaired and verified via regression tests; awaiting human panel sign-off"
+    "remainingUncertainty": "Repaired and verified via regression tests; awaiting human panel sign-off",
+    "contentFingerprint": "b1281bc277ab64e36cf675cdab61af23ee537a7d4b7aba49e447e5f7c6d2195b",
+    "reviewFingerprint": "b1281bc277ab64e36cf675cdab61af23ee537a7d4b7aba49e447e5f7c6d2195b",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3121,7 +3544,10 @@
     "finalDisposition": "REPAIRED_AND_VERIFIED",
     "sourceContentChanged": true,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Repaired and verified via regression tests; awaiting human panel sign-off"
+    "remainingUncertainty": "Repaired and verified via regression tests; awaiting human panel sign-off",
+    "contentFingerprint": "0c7e724a0d8f73e3e88d37c1f833a055352b438b9b8b79dac687e662fbf2edac",
+    "reviewFingerprint": "0c7e724a0d8f73e3e88d37c1f833a055352b438b9b8b79dac687e662fbf2edac",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3143,7 +3569,10 @@
     "finalDisposition": "REPAIRED_AND_VERIFIED",
     "sourceContentChanged": true,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Repaired and verified via regression tests; awaiting human panel sign-off"
+    "remainingUncertainty": "Repaired and verified via regression tests; awaiting human panel sign-off",
+    "contentFingerprint": "b5f7e7d4ccf24ce67648f120433b1799085a72a6e08cb12c132d8e09f89375e2",
+    "reviewFingerprint": "b5f7e7d4ccf24ce67648f120433b1799085a72a6e08cb12c132d8e09f89375e2",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3165,7 +3594,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "cc802bb563b3a3ba92d85768d3442ec26f8f78d4ee098ef8ae82cd69bea61269",
+    "reviewFingerprint": "cc802bb563b3a3ba92d85768d3442ec26f8f78d4ee098ef8ae82cd69bea61269",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3187,7 +3619,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "2080339e791c9791cd88081f3767fd527253565cc91c0e40e314621466952836",
+    "reviewFingerprint": "2080339e791c9791cd88081f3767fd527253565cc91c0e40e314621466952836",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3209,7 +3644,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "68fb87d01e53761a9ce4f49c9f743ed7bc47bfd0e3f60dfbbed7e050e8f11d2d",
+    "reviewFingerprint": "68fb87d01e53761a9ce4f49c9f743ed7bc47bfd0e3f60dfbbed7e050e8f11d2d",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3231,7 +3669,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "e9a513cf6d0716354e8fbc42bf1021c45ea46c9e7920598405ef9e716df89e41",
+    "reviewFingerprint": "e9a513cf6d0716354e8fbc42bf1021c45ea46c9e7920598405ef9e716df89e41",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3253,7 +3694,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "dc9e65b27a49cd3b10d6cdc806bb5ea0afb7b6b57b5f6f16bf7f5c891503a696",
+    "reviewFingerprint": "dc9e65b27a49cd3b10d6cdc806bb5ea0afb7b6b57b5f6f16bf7f5c891503a696",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3275,7 +3719,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "e34961153768fd4355804f601ed3b299c9df938f38ec3ae33ba4c4f74c61a359",
+    "reviewFingerprint": "e34961153768fd4355804f601ed3b299c9df938f38ec3ae33ba4c4f74c61a359",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3287,17 +3734,20 @@
     "originalStoredAnswer": "B",
     "independentProposedAnswer": "B",
     "originalRawBlindAnswer": "B",
-    "selectedOptionText": "意識の改革が",
-    "semanticMappingMethod": "REPAIRED_AMBIGUITY_RESOLVED",
+    "selectedOptionText": "意識改革なくしては",
+    "semanticMappingMethod": "DIRECT_IDENTITY",
     "hasLetterInconsistency": false,
     "reconciliationClassification": "GRAMMATICAL_DEFECT_RESOLVED",
     "confidence": "HIGH",
-    "linguisticJustification": "文構造は「環境問題の解決には、行政だけでなく［市民］［一人ひとりの］［★意識の改革が］［何より］欠かせない」となる（語順：C-A-B-D）。「行政だけでなく市民一人ひとりの」で対比・並立の主語部を構成し、述語「欠かせない」の直前に強調副詞「何より」が配置される。星の位置（3番目）はB「意識の改革が」となる。",
+    "linguisticJustification": "【文構造の分析】文頭「環境問題の解決には、行政だけでなく」に続く4つの節片：A「一人ひとりの」、B「意識改革なくしては」、C「市民」、D「到底」を再構築する。文末の否定述語「前進しない」と呼応するN2文法標識として「〜なくしては……ない」（〜がなければ……できない）および副詞「到底……ない」（どうしても……ない）が存在する。述語の直前には副詞D「到底」が位置する（Dが第4空欄）。「なくしては」の前には条件となる名詞句が必要であり、「市民一人ひとりの意識改革」が意味的・統語的に唯一整合する。名詞「市民」Cの後に同格・個別修飾「一人ひとりの」A、名詞句「意識改革なくしては」Bが続く。したがって語順は「環境問題の解決には、行政だけでなく［市民］［一人ひとりの］★［意識改革なくしては］［到底］前進しない。」（C-A-B-D）となる。第3空欄（★）に入るのはB「意識改革なくしては」。Dを他の位置に置く順列（*到底市民…）やBを前に置く順列はいずれも文法的に破綻する。別解なし。",
     "detectedIssue": "SENTENCE ASSEMBLY AMBIGUITY: Adverb '何より' in chunk D allowed alternative clause-initial placement.",
     "finalDisposition": "REPAIRED_AND_VERIFIED",
     "sourceContentChanged": true,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Repaired and verified via regression tests; awaiting human panel sign-off"
+    "remainingUncertainty": "Repaired and verified via regression tests; awaiting human panel sign-off",
+    "contentFingerprint": "a18d828636bdfa6c1caf30b1da07c22b6382b8fa5297ddfbef448e7f1295b1f5",
+    "reviewFingerprint": "a18d828636bdfa6c1caf30b1da07c22b6382b8fa5297ddfbef448e7f1295b1f5",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3319,7 +3769,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "83d6526e5344571e3a51ab242ad0f2ea3b7964ac464dfe2a026d781c4e6245ed",
+    "reviewFingerprint": "83d6526e5344571e3a51ab242ad0f2ea3b7964ac464dfe2a026d781c4e6245ed",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3341,7 +3794,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "d84d4a986b135db56ce2a75d58d2ae437691a7c17bf0b1e462fdb83838dafecf",
+    "reviewFingerprint": "d84d4a986b135db56ce2a75d58d2ae437691a7c17bf0b1e462fdb83838dafecf",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3353,17 +3809,20 @@
     "originalStoredAnswer": "D",
     "independentProposedAnswer": "D",
     "originalRawBlindAnswer": "D",
-    "selectedOptionText": "かつてない",
-    "semanticMappingMethod": "REPAIRED_AMBIGUITY_RESOLVED",
+    "selectedOptionText": "隅々にまで",
+    "semanticMappingMethod": "DIRECT_IDENTITY",
     "hasLetterInconsistency": false,
     "reconciliationClassification": "GRAMMATICAL_DEFECT_RESOLVED",
     "confidence": "HIGH",
-    "linguisticJustification": "文脈上、「私たちの（A）生活様式に（B）」がもたらした対象を示し、名詞「変革」を「かつてない（D）劇的な（C）」が重層的に修飾する。標準的な修飾語順は A-B-D-C（私たちの・生活様式に・★かつてない・劇的な 変革をもたらした）となり、星の位置（3番目）はDとなる。",
+    "linguisticJustification": "【文構造の分析】文頭「現代社会において、インターネットの普及は」に続く4つの節片：A「人々の」、B「生活の」、C「及ぶ」、D「隅々にまで」を再構築し、文末の目的語＋述語「変革をもたらした」に接続する。名詞「変革」を直接修飾する連体修飾節の動詞述語はC「及ぶ」（連体形）。動詞「及ぶ」は補語「〜にまで及ぶ」を要求するため、直前にD「隅々にまで」が必須（D-Cで第3・第4空欄）。「隅々」にかかる連体修飾句は「人々の生活の」（A-B）。したがって全体の文は「現代社会において、インターネットの普及は［人々の］［生活の］★［隅々にまで］［及ぶ］変革をもたらした。」（A-B-D-C）となる。第3空欄（★）に入るのはD「隅々にまで」。動詞C「及ぶ」を前方に移動させると連体修飾の係り先を失い非文となる。別解の余地なし。",
     "detectedIssue": "SENTENCE ASSEMBLY AMBIGUITY: Two adnominal modifiers allowed competing permutations for modifying '変革'.",
     "finalDisposition": "REPAIRED_AND_VERIFIED",
     "sourceContentChanged": true,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Repaired and verified via regression tests; awaiting human panel sign-off"
+    "remainingUncertainty": "Repaired and verified via regression tests; awaiting human panel sign-off",
+    "contentFingerprint": "0349c3b1b3e9b8e622d42707aa2a4d722f3fbc5bd181fc5f3f15925c9f456777",
+    "reviewFingerprint": "0349c3b1b3e9b8e622d42707aa2a4d722f3fbc5bd181fc5f3f15925c9f456777",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3385,7 +3844,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "99de24521080f211d353f8723e6ff1e2badd63351db171e75e02ae70972d7b76",
+    "reviewFingerprint": "99de24521080f211d353f8723e6ff1e2badd63351db171e75e02ae70972d7b76",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3407,7 +3869,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "76cc47cdfb62127b6fc94cb2eb0917ffdf7e7c11570da44dcf4ab45a556d9f10",
+    "reviewFingerprint": "76cc47cdfb62127b6fc94cb2eb0917ffdf7e7c11570da44dcf4ab45a556d9f10",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3429,7 +3894,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "d766b63985069aafb28e4d244fc5be13b27f823ea588932b74f4c20e6991ed58",
+    "reviewFingerprint": "d766b63985069aafb28e4d244fc5be13b27f823ea588932b74f4c20e6991ed58",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3451,7 +3919,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "57b8d7002ed736e9e02d73f743c757369c5f41d9c97174bc87cddadae6d19032",
+    "reviewFingerprint": "57b8d7002ed736e9e02d73f743c757369c5f41d9c97174bc87cddadae6d19032",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3473,7 +3944,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "9732f2eb8230a0e664df1e41414da14fd5de2ee473616f96887ed8eeb635f6da",
+    "reviewFingerprint": "9732f2eb8230a0e664df1e41414da14fd5de2ee473616f96887ed8eeb635f6da",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3495,7 +3969,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "446bd419e73c38c5816141fb3df455b0d8712b773eeafdf0eaa28fc7b72a0bbd",
+    "reviewFingerprint": "446bd419e73c38c5816141fb3df455b0d8712b773eeafdf0eaa28fc7b72a0bbd",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3517,7 +3994,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "803526b1a3ec4ca92a730ca4513dee7a7cca76a69c4ced56a356db05655f12c5",
+    "reviewFingerprint": "803526b1a3ec4ca92a730ca4513dee7a7cca76a69c4ced56a356db05655f12c5",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3539,7 +4019,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "c40f73701199145d154fd794288e82f4ab0f80345eb734aede0e3f32adc14161",
+    "reviewFingerprint": "c40f73701199145d154fd794288e82f4ab0f80345eb734aede0e3f32adc14161",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3561,7 +4044,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "3cd9d17b3c6951719d8ff0c0c752d1990a9f75b8e8a6e6c4e9d23377915ba33f",
+    "reviewFingerprint": "3cd9d17b3c6951719d8ff0c0c752d1990a9f75b8e8a6e6c4e9d23377915ba33f",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3583,7 +4069,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "0a5bc285a681c39b8643ccfb4e5b7ca9884e27f1f302c9967033f3f172d6680a",
+    "reviewFingerprint": "0a5bc285a681c39b8643ccfb4e5b7ca9884e27f1f302c9967033f3f172d6680a",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3605,7 +4094,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "681343be2c07f628f40c5bc3dfb35bf1f93d539e7320cd1773daa7ac7216dfab",
+    "reviewFingerprint": "681343be2c07f628f40c5bc3dfb35bf1f93d539e7320cd1773daa7ac7216dfab",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3627,7 +4119,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "cfb36349f31b6bfb2af9c288b5a3a6899b04a7fc1b2be1d6d91f393b06b07154",
+    "reviewFingerprint": "cfb36349f31b6bfb2af9c288b5a3a6899b04a7fc1b2be1d6d91f393b06b07154",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3649,7 +4144,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "7ed1463e3c60a7ccfd83184142946e83440f2fcd4f9cc91f262884821265cd9f",
+    "reviewFingerprint": "7ed1463e3c60a7ccfd83184142946e83440f2fcd4f9cc91f262884821265cd9f",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3671,7 +4169,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "12742d38879e140ae43bf8d8341a9786f0f24c2b7438dce97b15b0ae5eac5701",
+    "reviewFingerprint": "12742d38879e140ae43bf8d8341a9786f0f24c2b7438dce97b15b0ae5eac5701",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3693,7 +4194,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "455c6b38aecd96cc7ab4ff8683dd3ee01e39bf7f4df03379d432ab4b1c4121e3",
+    "reviewFingerprint": "455c6b38aecd96cc7ab4ff8683dd3ee01e39bf7f4df03379d432ab4b1c4121e3",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3715,7 +4219,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "9188cbc1c548a96f8561b70b667ff808a40195633e6c1a9f8b5d439349855cba",
+    "reviewFingerprint": "9188cbc1c548a96f8561b70b667ff808a40195633e6c1a9f8b5d439349855cba",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3737,7 +4244,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "d6fc42950d85d1af0d968e6a3bbaea7363ce8a35d5758af7dad2df02b6f4bbc5",
+    "reviewFingerprint": "d6fc42950d85d1af0d968e6a3bbaea7363ce8a35d5758af7dad2df02b6f4bbc5",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3759,7 +4269,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "a0604c9a12466cf780086ea5bdba067e1e668102a83811eb9182148f163170c2",
+    "reviewFingerprint": "a0604c9a12466cf780086ea5bdba067e1e668102a83811eb9182148f163170c2",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3781,7 +4294,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "2f791aa548364faceca19c0f04b3b0d3962316173bcf915ce8fe95ed0f9b18e5",
+    "reviewFingerprint": "2f791aa548364faceca19c0f04b3b0d3962316173bcf915ce8fe95ed0f9b18e5",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3803,7 +4319,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "7ff0fd7f152e55379b240c9428ddba8ddc2299b0ae047e754fceb16535a592ba",
+    "reviewFingerprint": "7ff0fd7f152e55379b240c9428ddba8ddc2299b0ae047e754fceb16535a592ba",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3825,7 +4344,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "b45664626d8f098841b638799e62b5e021e624fa1349a66edca83676b2fce029",
+    "reviewFingerprint": "b45664626d8f098841b638799e62b5e021e624fa1349a66edca83676b2fce029",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3847,7 +4369,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "524e759a5e49e18d0fbb5ff149d4e8f2b63f648214c9fd03fd9d7edf0a3d2c5e",
+    "reviewFingerprint": "524e759a5e49e18d0fbb5ff149d4e8f2b63f648214c9fd03fd9d7edf0a3d2c5e",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3869,7 +4394,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "5e8a5b8f8d9bb45172949691122445257d1349720f777d7fa2d36923be482e02",
+    "reviewFingerprint": "5e8a5b8f8d9bb45172949691122445257d1349720f777d7fa2d36923be482e02",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3891,7 +4419,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "8f87b4cf425e287109eae5ebdc45b8c8e4b00d5b0501929aebeb5d2d6c730332",
+    "reviewFingerprint": "8f87b4cf425e287109eae5ebdc45b8c8e4b00d5b0501929aebeb5d2d6c730332",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3913,7 +4444,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "4b6e7f3677b23e907f724f64dd8ebf8187673a7cf544ec1f7cf0a28a3758e4b5",
+    "reviewFingerprint": "4b6e7f3677b23e907f724f64dd8ebf8187673a7cf544ec1f7cf0a28a3758e4b5",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3935,7 +4469,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "56c760f65b5f38e5caf3b1e33d96660440e89575248d8ef5ea638bdbfb3176de",
+    "reviewFingerprint": "56c760f65b5f38e5caf3b1e33d96660440e89575248d8ef5ea638bdbfb3176de",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3957,7 +4494,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "c5c646aa3fe4b3405547ca480232249e4f115dd583e1ca1aadee33f07fe9442a",
+    "reviewFingerprint": "c5c646aa3fe4b3405547ca480232249e4f115dd583e1ca1aadee33f07fe9442a",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -3979,7 +4519,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "69dc3c9a189ae55b55cfd878d0b50a13eae6a371fbcf9ce701a3f55b50f56c8d",
+    "reviewFingerprint": "69dc3c9a189ae55b55cfd878d0b50a13eae6a371fbcf9ce701a3f55b50f56c8d",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -4001,7 +4544,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "d89b4785a8510e6d69055dac7448a2f6f524826059f2fdc90c179c12c73e9eea",
+    "reviewFingerprint": "d89b4785a8510e6d69055dac7448a2f6f524826059f2fdc90c179c12c73e9eea",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -4023,7 +4569,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "fbabe73bda85393e3c5faa066f071e69720f5f22e3ac2281f8a64e2fbd8ad35d",
+    "reviewFingerprint": "fbabe73bda85393e3c5faa066f071e69720f5f22e3ac2281f8a64e2fbd8ad35d",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -4045,7 +4594,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "a7e70f466ea47be1b08e348cdbf5be6e412dacdd47c414bb674096ba4176b7c3",
+    "reviewFingerprint": "a7e70f466ea47be1b08e348cdbf5be6e412dacdd47c414bb674096ba4176b7c3",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -4067,7 +4619,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "9742898ded8110ba19bc42626f59b05dda9d384985997f5be5738727165b7031",
+    "reviewFingerprint": "9742898ded8110ba19bc42626f59b05dda9d384985997f5be5738727165b7031",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -4089,7 +4644,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "350e09a1f7c8a5f6c4a257ded947fbee35e9740d66da219d25ed18c4fa104677",
+    "reviewFingerprint": "350e09a1f7c8a5f6c4a257ded947fbee35e9740d66da219d25ed18c4fa104677",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -4111,7 +4669,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "9ba23ca74e284d86e33deffb5faf50fbc8da66cbfadaeca5fd274f5ac7289b21",
+    "reviewFingerprint": "9ba23ca74e284d86e33deffb5faf50fbc8da66cbfadaeca5fd274f5ac7289b21",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -4133,7 +4694,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "e96dbcdd85c49d20a4adc2f6aa2a3ba755ae3308a68da719a0af0b8d2bff7e9e",
+    "reviewFingerprint": "e96dbcdd85c49d20a4adc2f6aa2a3ba755ae3308a68da719a0af0b8d2bff7e9e",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -4155,7 +4719,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "0dc21efed9fa48346f7590f0f8f87f7680076f0e31e1d764ffce217980c0a265",
+    "reviewFingerprint": "0dc21efed9fa48346f7590f0f8f87f7680076f0e31e1d764ffce217980c0a265",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -4177,7 +4744,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "421d175e89e8c12ae920c10d97bbd9bcc6f8f88bad5f06a99210899e66bbc9a7",
+    "reviewFingerprint": "421d175e89e8c12ae920c10d97bbd9bcc6f8f88bad5f06a99210899e66bbc9a7",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -4199,7 +4769,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "bab09fa6fe66e38a78f0fc5b4e8d7d94d77ac08d6443d9f2f3cb2c091bee4280",
+    "reviewFingerprint": "bab09fa6fe66e38a78f0fc5b4e8d7d94d77ac08d6443d9f2f3cb2c091bee4280",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -4221,7 +4794,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "18d86cdbd4f1a8a109773b3b9e5020b4c40cbbdf2053f3c237274ee2ee2fc708",
+    "reviewFingerprint": "18d86cdbd4f1a8a109773b3b9e5020b4c40cbbdf2053f3c237274ee2ee2fc708",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -4243,7 +4819,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "0b5a4ce1b5eedabe8ec04b4140c9338ed6766c07ac25d3a14d8d69be6f9f0911",
+    "reviewFingerprint": "0b5a4ce1b5eedabe8ec04b4140c9338ed6766c07ac25d3a14d8d69be6f9f0911",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -4265,7 +4844,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "15f6e7436cb21a8b08cf9bffc1f1f43e1ac90d63184866aac2d07a16c9974dbc",
+    "reviewFingerprint": "15f6e7436cb21a8b08cf9bffc1f1f43e1ac90d63184866aac2d07a16c9974dbc",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -4287,7 +4869,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "4af72f02689d90348244fb778457b1ffd475900502cd77d13dac8eedb74294e6",
+    "reviewFingerprint": "4af72f02689d90348244fb778457b1ffd475900502cd77d13dac8eedb74294e6",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -4309,7 +4894,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "f417c6295219b962f27172c6f09f64e31b2d3a1512f30e5f8d827103585cea2e",
+    "reviewFingerprint": "f417c6295219b962f27172c6f09f64e31b2d3a1512f30e5f8d827103585cea2e",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -4331,7 +4919,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "138d57dc46b800ff8e9f251b2fd96d358689be91d4ad3218201c4bbd3a5726a8",
+    "reviewFingerprint": "138d57dc46b800ff8e9f251b2fd96d358689be91d4ad3218201c4bbd3a5726a8",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -4353,7 +4944,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "fe0a69cd2c92be778174aa57dd7f48236c39d905316e49a856a332e4f3178525",
+    "reviewFingerprint": "fe0a69cd2c92be778174aa57dd7f48236c39d905316e49a856a332e4f3178525",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -4375,7 +4969,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "ebd2dfd78f7755b22d1c2d7a8030fb55a1aa72a845f3aafe222accb454c4a59f",
+    "reviewFingerprint": "ebd2dfd78f7755b22d1c2d7a8030fb55a1aa72a845f3aafe222accb454c4a59f",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -4397,7 +4994,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "a0fdf291dcb0142099255c22646091c15700547f1ebb79366ab620ff597443c0",
+    "reviewFingerprint": "a0fdf291dcb0142099255c22646091c15700547f1ebb79366ab620ff597443c0",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -4419,7 +5019,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "e45851650c9e713024feaca53d822f62e45dd4ee6e3d1c01353a0e8a7fcb9f5c",
+    "reviewFingerprint": "e45851650c9e713024feaca53d822f62e45dd4ee6e3d1c01353a0e8a7fcb9f5c",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -4441,7 +5044,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "1edf5d4414222394e4d28bdac31bde813a587b725a01d821ce0a93c169daa145",
+    "reviewFingerprint": "1edf5d4414222394e4d28bdac31bde813a587b725a01d821ce0a93c169daa145",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -4463,7 +5069,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "8f411df1d4a1634f9fe72c4f0f7ed7cc195a3a9122e30b8f6b46a021ffded22c",
+    "reviewFingerprint": "8f411df1d4a1634f9fe72c4f0f7ed7cc195a3a9122e30b8f6b46a021ffded22c",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -4485,7 +5094,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "a6db15457530674ccc71baaff1dd295d7e71df96c339eec20940265d77754518",
+    "reviewFingerprint": "a6db15457530674ccc71baaff1dd295d7e71df96c339eec20940265d77754518",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -4507,7 +5119,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "5e6a639e352f4b79abb74c51bda003a0afb30cd4c592cdccca2b76ea1c6b212d",
+    "reviewFingerprint": "5e6a639e352f4b79abb74c51bda003a0afb30cd4c592cdccca2b76ea1c6b212d",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -4529,7 +5144,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "04a7fd60c9b2084f457ad15f59077eb78dd57721bc9ee5cb4d78d8acaa9579ea",
+    "reviewFingerprint": "04a7fd60c9b2084f457ad15f59077eb78dd57721bc9ee5cb4d78d8acaa9579ea",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -4551,7 +5169,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "5be25b71a197dc7c1c8dceb4f42e7c30630b0466bd15b4184f64bd5b4cc1d7b0",
+    "reviewFingerprint": "5be25b71a197dc7c1c8dceb4f42e7c30630b0466bd15b4184f64bd5b4cc1d7b0",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -4573,7 +5194,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "7fa1476de02e219a7eca7d5514d07b8e5c05ca5e03cd6037191b77ae96b73c1b",
+    "reviewFingerprint": "7fa1476de02e219a7eca7d5514d07b8e5c05ca5e03cd6037191b77ae96b73c1b",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -4595,7 +5219,10 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "4893f0e416d5f8ac146444c07c69d0d8401fe5a963660aa7ac89e5d76b0e78b9",
+    "reviewFingerprint": "4893f0e416d5f8ac146444c07c69d0d8401fe5a963660aa7ac89e5d76b0e78b9",
+    "fingerprintMatch": true
   },
   {
     "examId": "N2-MOCK-02",
@@ -4617,6 +5244,9 @@
     "finalDisposition": "AI_SEMANTIC_VERIFIED",
     "sourceContentChanged": false,
     "reviewerProvenance": "subagent:jlpt-blind-reviewer",
-    "remainingUncertainty": "Awaiting final human expert panel sign-off"
+    "remainingUncertainty": "Awaiting final human expert panel sign-off",
+    "contentFingerprint": "8f606b0aa2b80f20d852b483eea05af8c8b1fb5629409431a5cd29f079a770a3",
+    "reviewFingerprint": "8f606b0aa2b80f20d852b483eea05af8c8b1fb5629409431a5cd29f079a770a3",
+    "fingerprintMatch": true
   }
 ]

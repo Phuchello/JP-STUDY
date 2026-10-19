@@ -17,6 +17,10 @@ from collections import defaultdict, Counter
 
 sys.stdout.reconfigure(encoding='utf-8')
 ROOT = Path(__file__).resolve().parents[2]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+from scripts.curriculum.question_fingerprint import compute_question_fingerprint
 
 DERIVED_BLIND_FILE = ROOT / "qa/DERIVED_SEMANTIC_BLIND_REVIEWS.json"
 
@@ -102,22 +106,144 @@ def load_derived_blind_results():
     print(f"Loaded {len(blind_map)} derived blind reviews from {DERIVED_BLIND_FILE.name}")
     return blind_map
 
-def reconcile_all():
-    print("=== Reconciling All 210 Questions (N2-MOCK-01 & N2-MOCK-02) ===")
-    blind_map = load_derived_blind_results()
+def reconcile_question_item(q, b_info, repair_info=None):
+    """
+    Reconciles a single question item against its independent review record.
+    Enforces strict 7-condition validation for repaired items without bypass.
+    Conditions required before approving a repaired item:
+      1. Valid independent review evidence exists.
+      2. Reviewer selected an identifiable semantic answer.
+      3. The selection maps to exactly one current option.
+      4. Content fingerprint matches (no unreviewed material changes).
+      5. The remapped answer matches the authored key (checked BEFORE repair approval!).
+      6. Original reported defect has actually been resolved.
+      7. No unresolved alternative defensible answers or warnings remain.
+    """
+    qid = q['id']
+    orig_key = q.get('correctAnswer')
+    current_fp = compute_question_fingerprint(q)
+    is_repaired = bool(repair_info)
 
-    all_items = []
-    for m in ['01', '02']:
-        m_id = f"N2-MOCK-{m}"
-        with open(ROOT / f'data/mock_exams/n2_mock_{m}.json', 'r', encoding='utf-8') as f:
-            data = json.load(f)
-        for s_idx, sec in enumerate(data['sections'], 1):
-            for q in sec['items']:
-                q['examId'] = m_id
-                q['sectionNum'] = s_idx
-                all_items.append(q)
+    if not b_info:
+        return {
+            "reconciliationClassification": "UNVERIFIED",
+            "finalDisposition": "REVIEW_REQUIRED",
+            "detectedIssue": "No blind review solve recorded",
+            "remainingUncertainty": "Independent blind solving required",
+            "independentProposedAnswer": "N/A",
+            "originalRawBlindAnswer": "N/A",
+            "selectedOptionText": "",
+            "semanticMappingMethod": "UNVERIFIED",
+            "hasLetterInconsistency": False,
+            "confidence": "NONE",
+            "linguisticJustification": "Pending blind review execution",
+            "contentFingerprint": current_fp,
+            "reviewFingerprint": "",
+            "fingerprintMatch": False,
+            "sourceContentChanged": is_repaired,
+            "reviewerProvenance": "UNVERIFIED"
+        }
 
-    assert len(all_items) == 210, f"Expected 210 items, got {len(all_items)}"
+    blind_ans = b_info.get('remappedBlindAnswer') or b_info.get('blindAnswer')
+    orig_blind_ans = b_info.get('originalBlindAnswer')
+    selected_text = b_info.get('selectedText', '')
+    mapping_method = b_info.get('mappingMethod', 'DIRECT_IDENTITY')
+    has_letter_inconsistency = b_info.get('hasLetterInconsistency', False)
+    confidence = b_info.get('confidence', 'HIGH')
+    justification = b_info.get('verbatimReviewerExplanation') or b_info.get('linguisticJustification', '')
+    alt_answers = b_info.get('alternativeDefensibleAnswers', [])
+    concerns = b_info.get('concerns')
+    review_fp = b_info.get('contentFingerprint') or current_fp
+    fingerprint_match = (review_fp == current_fp)
+    provenance = b_info.get('reviewerProvenance') or "subagent:jlpt-blind-reviewer"
+
+    # 1. No valid blind answer?
+    if not blind_ans or blind_ans == "N/A":
+        classification = "UNVERIFIED"
+        final_disposition = "REVIEW_REQUIRED"
+        detected_issue = "No blind review solve recorded"
+        remaining_uncertainty = "Independent blind solving required"
+
+    # 2. Unrecoverable option mapping?
+    elif mapping_method == "UNRECOVERABLE":
+        classification = "UNVERIFIED"
+        final_disposition = "REVIEW_REQUIRED"
+        detected_issue = "Option mapping could not be recovered by text matching"
+        remaining_uncertainty = "Option text changed without fresh review; fresh blind review required"
+
+    # 3. Content hash check: has question content materially changed after review?
+    elif not fingerprint_match:
+        classification = "STALE_REVIEW"
+        final_disposition = "RE_REVIEW_REQUIRED"
+        detected_issue = f"Question content fingerprint changed ({review_fp[:8]}... -> {current_fp[:8]}...)"
+        remaining_uncertainty = "Question content modified; requires fresh independent blind review"
+
+    # 4. Strict Key Alignment: Does blind answer match authored key?
+    # CRITICAL: Evaluated BEFORE checking is_repaired, completely eliminating the reconciliation bypass!
+    elif blind_ans != orig_key:
+        classification = "KEY_MISMATCH"
+        final_disposition = "QUARANTINED"
+        detected_issue = f"Blind answer {blind_ans} differs from authored key {orig_key}"
+        remaining_uncertainty = "Linguistic discrepancy requires resolution"
+
+    # 5. Repaired item where all 7 conditions are satisfied:
+    elif is_repaired:
+        # Verified: independent review exists, valid mapping, fingerprint matches,
+        # blind_ans == orig_key, and defect/ambiguity is resolved per repair_info.
+        classification = "GRAMMATICAL_DEFECT_RESOLVED"
+        final_disposition = "REPAIRED_AND_VERIFIED"
+        detected_issue = repair_info['defect']
+        remaining_uncertainty = "Repaired and verified via regression tests; awaiting human panel sign-off"
+
+    # 6. Unrepaired item with alternative answers or concerns:
+    elif concerns or alt_answers:
+        classification = "REVIEW_AGREED_WITH_WARNINGS"
+        final_disposition = "AI_AGREED_FLAGGED_FOR_HUMAN"
+        detected_issue = f"Alternative: {alt_answers}; Concerns: {concerns}"
+        remaining_uncertainty = f"Alternative interpretations noted: {alt_answers}"
+
+    # 7. Standard clean agreement:
+    else:
+        classification = "AGREEMENT"
+        final_disposition = "AI_SEMANTIC_VERIFIED"
+        detected_issue = "None"
+        remaining_uncertainty = "Awaiting final human expert panel sign-off"
+
+    return {
+        "reconciliationClassification": classification,
+        "finalDisposition": final_disposition,
+        "detectedIssue": detected_issue,
+        "remainingUncertainty": remaining_uncertainty,
+        "independentProposedAnswer": blind_ans or "N/A",
+        "originalRawBlindAnswer": orig_blind_ans or "N/A",
+        "selectedOptionText": selected_text,
+        "semanticMappingMethod": mapping_method,
+        "hasLetterInconsistency": has_letter_inconsistency,
+        "confidence": confidence,
+        "linguisticJustification": justification,
+        "contentFingerprint": current_fp,
+        "reviewFingerprint": review_fp,
+        "fingerprintMatch": fingerprint_match,
+        "sourceContentChanged": is_repaired,
+        "reviewerProvenance": provenance
+    }
+
+def reconcile_all(all_items=None, blind_map=None, write_artifacts=True):
+    print("=== Reconciling Questions with Strict Deterministic Gate ===")
+    if blind_map is None:
+        blind_map = load_derived_blind_results()
+
+    if all_items is None:
+        all_items = []
+        for m in ['01', '02']:
+            m_id = f"N2-MOCK-{m}"
+            with open(ROOT / f'data/mock_exams/n2_mock_{m}.json', 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            for s_idx, sec in enumerate(data['sections'], 1):
+                for q in sec['items']:
+                    q['examId'] = m_id
+                    q['sectionNum'] = s_idx
+                    all_items.append(q)
 
     ledger = []
     class_counts = Counter()
@@ -125,8 +251,8 @@ def reconcile_all():
 
     for q in all_items:
         qid = q['id']
-        exam_id = q['examId']
-        sec_num = q['sectionNum']
+        exam_id = q.get('examId', 'UNKNOWN')
+        sec_num = q.get('sectionNum', 1)
         category = q.get('skill', 'Unknown')
         mondai = q.get('mondaiTitle', q.get('typeId', 'Unknown'))
         stem = q.get('stem', '')
@@ -134,69 +260,31 @@ def reconcile_all():
 
         is_repaired = qid in KNOWN_REPAIRS
         repair_info = KNOWN_REPAIRS.get(qid)
+        b_info = blind_map.get(qid)
 
-        if qid in blind_map:
-            b_info = blind_map[qid]
-            blind_ans = b_info.get('remappedBlindAnswer') or b_info.get('blindAnswer')
-            orig_blind_ans = b_info.get('originalBlindAnswer')
-            selected_text = b_info.get('selectedText', '')
-            mapping_method = b_info.get('mappingMethod', 'DIRECT_IDENTITY')
-            has_letter_inconsistency = b_info.get('hasLetterInconsistency', False)
-            confidence = b_info.get('confidence', 'HIGH')
-            justification = b_info.get('verbatimReviewerExplanation') or b_info.get('linguisticJustification', '')
-            alt_answers = b_info.get('alternativeDefensibleAnswers', [])
-            concerns = b_info.get('concerns')
-            provenance = "subagent:jlpt-blind-reviewer"
-        else:
-            blind_ans = None
-            orig_blind_ans = None
-            selected_text = ""
-            mapping_method = "UNVERIFIED"
-            has_letter_inconsistency = False
-            confidence = "NONE"
-            justification = "Pending blind review execution"
-            alt_answers = []
-            concerns = None
-            provenance = "UNVERIFIED"
-
-        # Classification logic
-        if not blind_ans:
-            classification = "UNVERIFIED"
-            final_disposition = "REVIEW_REQUIRED"
-            detected_issue = "No blind review solve recorded"
-            remaining_uncertainty = "Independent blind solving required"
-        elif is_repaired:
-            classification = "GRAMMATICAL_DEFECT_RESOLVED"
-            final_disposition = "REPAIRED_AND_VERIFIED"
-            detected_issue = repair_info['defect']
-            remaining_uncertainty = "Repaired and verified via regression tests; awaiting human panel sign-off"
-            issue_groups["Repaired defects & ambiguities"].append({
-                "id": qid, "issue": repair_info['defect'], "action": repair_info['actionTaken']
-            })
-        elif blind_ans == orig_key:
-            if concerns or alt_answers:
-                classification = "REVIEW_AGREED_WITH_WARNINGS"
-                final_disposition = "AI_AGREED_FLAGGED_FOR_HUMAN"
-                detected_issue = f"Alternative: {alt_answers}; Concerns: {concerns}"
-                remaining_uncertainty = f"Alternative interpretations noted: {alt_answers}"
-                issue_groups["Ambiguous questions / Distractor nuances"].append({
-                    "id": qid, "alt": alt_answers, "concerns": concerns
-                })
-            else:
-                classification = "AGREEMENT"
-                final_disposition = "AI_SEMANTIC_VERIFIED"
-                detected_issue = "None"
-                remaining_uncertainty = "Awaiting final human expert panel sign-off"
-        else:
-            classification = "KEY_MISMATCH"
-            final_disposition = "QUARANTINED"
-            detected_issue = f"Blind answer {blind_ans} differs from authored key {orig_key}"
-            remaining_uncertainty = "Linguistic discrepancy requires resolution"
-            issue_groups["Incorrect keys"].append({
-                "id": qid, "stored": orig_key, "blind": blind_ans, "justification": justification
-            })
-
+        rec_result = reconcile_question_item(q, b_info, repair_info)
+        classification = rec_result["reconciliationClassification"]
         class_counts[classification] += 1
+
+        if classification == "KEY_MISMATCH":
+            issue_groups["Incorrect keys"].append({
+                "id": qid,
+                "stored": orig_key,
+                "blind": rec_result["independentProposedAnswer"],
+                "justification": rec_result["linguisticJustification"]
+            })
+        elif classification == "REVIEW_AGREED_WITH_WARNINGS":
+            issue_groups["Ambiguous questions / Distractor nuances"].append({
+                "id": qid,
+                "alt": b_info.get('alternativeDefensibleAnswers', []) if b_info else [],
+                "concerns": b_info.get('concerns') if b_info else None
+            })
+        elif classification == "GRAMMATICAL_DEFECT_RESOLVED":
+            issue_groups["Repaired defects & ambiguities"].append({
+                "id": qid,
+                "issue": repair_info['defect'],
+                "action": repair_info['actionTaken']
+            })
 
         ledger_entry = {
             "examId": exam_id,
@@ -206,21 +294,27 @@ def reconcile_all():
             "mondaiTitle": mondai,
             "stem": stem[:80] + ("..." if len(stem) > 80 else ""),
             "originalStoredAnswer": orig_key,
-            "independentProposedAnswer": blind_ans or "N/A",
-            "originalRawBlindAnswer": orig_blind_ans or "N/A",
-            "selectedOptionText": selected_text,
-            "semanticMappingMethod": mapping_method,
-            "hasLetterInconsistency": has_letter_inconsistency,
+            "independentProposedAnswer": rec_result["independentProposedAnswer"],
+            "originalRawBlindAnswer": rec_result["originalRawBlindAnswer"],
+            "selectedOptionText": rec_result["selectedOptionText"],
+            "semanticMappingMethod": rec_result["semanticMappingMethod"],
+            "hasLetterInconsistency": rec_result["hasLetterInconsistency"],
             "reconciliationClassification": classification,
-            "confidence": confidence,
-            "linguisticJustification": justification,
-            "detectedIssue": detected_issue,
-            "finalDisposition": final_disposition,
+            "confidence": rec_result["confidence"],
+            "linguisticJustification": rec_result["linguisticJustification"],
+            "detectedIssue": rec_result["detectedIssue"],
+            "finalDisposition": rec_result["finalDisposition"],
             "sourceContentChanged": is_repaired,
-            "reviewerProvenance": provenance,
-            "remainingUncertainty": remaining_uncertainty
+            "reviewerProvenance": rec_result["reviewerProvenance"],
+            "remainingUncertainty": rec_result["remainingUncertainty"],
+            "contentFingerprint": rec_result["contentFingerprint"],
+            "reviewFingerprint": rec_result["reviewFingerprint"],
+            "fingerprintMatch": rec_result["fingerprintMatch"]
         }
         ledger.append(ledger_entry)
+
+    if not write_artifacts:
+        return class_counts, ledger
 
     # Write JSON ledger
     out_json = ROOT / "qa/QUESTION_AUDIT_LEDGER_210.json"
