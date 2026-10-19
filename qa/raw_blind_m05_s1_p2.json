@@ -1,0 +1,335 @@
+[
+  {
+    "id": "N2_05_M7_07",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「〜まい」は話者の強い否定意志。「断じてするまいと誓った」。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "a69c301ae374731381bf0370ca60796ae62b75f6cbe3bb4c9e778ef25d26d0b4"
+  },
+  {
+    "id": "N2_05_M7_08",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「〜につけ」は〜するたびに自然とその感情が湧き上がること。「目にするにつけ」。正解はD。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "7b2d8b11cb6173c859a222017fb472c0b68030a8b8acfe9c52db43b0c5f143b7"
+  },
+  {
+    "id": "N2_05_M7_09",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「〜折（に）」は機会・好機の意。「いらっしゃる折には」。正解はA。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "30a6da58a92ffb18a01944f394b1cdf39b2b96a109c19859d51275ee2a777bf9"
+  },
+  {
+    "id": "N2_05_M7_10",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "「〜を踏まえて」は〜を前提・根拠として考慮すること。「切実な意見を踏まえて」。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "ab0a7538f927bbb6692d52cebc19e25a3e5db04e8fbf2be50a85b592697f122a"
+  },
+  {
+    "id": "N2_05_M7_11",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「〜て以来」は〜してからずっと今まで。「卒業して以来」。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "23215b11c9ec880844cc892164c2bda870214e6f69620b5e003c0b4278aba604"
+  },
+  {
+    "id": "N2_05_M7_12",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「〜にほかならない」はまさにそれ以外のものではないという強い断定。「成果にほかならない」。正解はD。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "0dd267192c69f5d032cf55dbc88c705508e989df25eb521adf20745602559c62"
+  },
+  {
+    "id": "N2_05_M8_01",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "語順「地球温暖化を 防止するにあたって、 企業だけでなく ★市民一人ひとりの 地道な協力も 不可欠である」。星印はA（市民一人ひとりの）。正解はA。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "a983339934fc41a10e2a400943457a58f010649f3d2fb928fca9daac4c64550b"
+  },
+  {
+    "id": "N2_05_M8_02",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "語順「いかに科学技術が 進歩しようとも、 その根底にある ★人の温もりという 価値は 決して消えない」。星印はC（人の温もりという）。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "6f71453cb545c6aa889401ce42fcc997f75f452e36a8077882ab70b26bd2d789"
+  },
+  {
+    "id": "N2_05_M8_03",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "語順「長年の対立を 乗り越えるべく、 双方が ★粘り強く 協議を重ねた末に 合意に達した」。星印はC（粘り強く）。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "3d5c1f2f7fc8eeac1ef4c588fb15e13f53abea4afade21e80abb501e7c515916"
+  },
+  {
+    "id": "N2_05_M8_04",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "語順「どんなに優れた才能が あろうと、 日々の ★努力なくしては 決して 大成しない」。星印はC（努力なくしては）。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "0c3e37dcfa7a1a7080b7a70f4840a751d5a5142178bde5df76049a0b0f7f7b24"
+  },
+  {
+    "id": "N2_05_M8_05",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "語順「新薬の開発は、 人々の健康増進に とどまらず、 ★経済の活性化にも 大きく 貢献する」。星印はB（経済の活性化にも）。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "6b6b664b9c3f53faabdd0e4dd2d69ad2feaa77383ccf75cd82803d453f7d307c"
+  },
+  {
+    "id": "N2_05_M9_01",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "空欄50。前文の目的に対する従来の張り紙の無効性を対比する逆接の接続詞「しかし」。正解はA。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "582ecfe284642d6f094faad73397236bdb3c23c74d0ece4c937f1adcc4129e96"
+  },
+  {
+    "id": "N2_05_M9_02",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "空欄51。「強制される感覚を抱くことなく（〜ないで）」という自然な誘導を表す「ことなく」。正解はA。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "52949b2e7a4d769577413abb72050f91b2b45b0e4f3e62a1ec7d3b7bf2f1e9c0"
+  },
+  {
+    "id": "N2_05_M9_03",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "空欄52。前段で説明したナッジによる空間設計を指す指示語「このような」。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "0be045a417d470ff1e3c91b9395b3ed5f809f2f8bd415360ef230d47d1d0e645"
+  },
+  {
+    "id": "N2_05_M9_04",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "空欄53。機能性の追求にとどまらず、行動環境の設計まで広げる「だけでなく」。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "c4c3a8c1c097fa05f8f49747c0ff9058bde086c096a4797fe32e02b5ff2508d4"
+  },
+  {
+    "id": "N2_05_M9_05",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "空欄54。筆者の控えめながら確信に満ちた主張を結ぶ「求められているのではないだろうか」。正解はA。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "5603086c2b212b534aa9679ee58d62d49b06784602338d003af8e7532f8acf04"
+  },
+  {
+    "id": "N2_05_M10_01",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "通信手当に関する社内通知。年に一度、基準を満たしているか自己点検シートを提出することが義務付けられている。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "4bcf7e0a3733e573e9a7f9af3b7174079441413e202e27caa8223d623950427a"
+  },
+  {
+    "id": "N2_05_M10_02",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "マルチタスクに関する論説。作業を頻繁に切り替えるより、一度に一つの作業に没頭するシングルタスクの時間を作るべきである。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "a6ff6d05b0862c62170ff15c0cb8dd18a8dc77e754349a361d15f6e6ecf90258"
+  },
+  {
+    "id": "N2_05_M10_03",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "マンション駐輪場整理のお知らせ。継続利用希望者は期限までに自転車の黄色テープを自分で外す必要がある。正解はD。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "056ac57846db1b1bb77c1683d68226f6ffd842ab1d154f23a23c2c5fb013d8bc"
+  },
+  {
+    "id": "N2_05_M10_04",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "傾聴に関するコラム。安易な助言ではなく、相手の感情や背景に共感して聴く姿勢が真の信頼を築く。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "e79b5749fd9bd3c53ce82585b8886b5bec118cf1e5988a4d154cf22c89f6d316"
+  },
+  {
+    "id": "N2_05_M10_05",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "食品ロス削減に関する解説。環境理念だけでなく、店舗と消費者の双方に実際の利益がある仕組みが成功の鍵。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "b48bca87b5937ee194e13bcfa8bfcaed3e0b771f78bee419ec936f049c091776"
+  },
+  {
+    "id": "N2_05_M11_01",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "市場交換の利点。お金を払って取引が完了すれば、相手に対して心理的なしがらみや義務が残らない点。正解はD。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "90d7af0b9f72fc28be879022989eeb268360d4cb9fd5ae7f9ba07e1c21639ef1"
+  },
+  {
+    "id": "N2_05_M11_02",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "伝統社会における贈与の役割。お返しをしなければならないという終わりのない循環が人々の絆と支え合いを生み出していた。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "4bfba50684e9cdb8db0271c3490a5fe21191f870eec611dee774b5220853434b"
+  },
+  {
+    "id": "N2_05_M11_03",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "シェアコミュニティが再評価される理由。市場経済の便利さの裏で失われた、損得を越えた人間同士の温かな絆を求めているから。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "3381a45abd35e46a73400ec4370c006f5eccc8c376d0f58525d21373d7046e54"
+  },
+  {
+    "id": "N2_05_M11_04",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "対話型AIの応答の仕組み。過去の膨大なデータを統計的に分析し、人間が好む確率の高い言葉のパターンを再現しているにすぎない。正解はD。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "27acb531a83935063bc3c24286ad6512b8bd841bb8cadc288a821d75116ce9af"
+  },
+  {
+    "id": "N2_05_M11_05",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "人間ならではの真の共感の根源。自らも痛みや死を恐れる傷つきやすい存在だからこそ他者の苦痛を我がことのように想像できること。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "7db9f920819f32841df16aab441c0ea5b0b0be17b73027109d27d19fd200348f"
+  },
+  {
+    "id": "N2_05_M11_06",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "筆者の警鐘。AIの模倣を本物の共感と混同し、生身の人間と深く向き合う努力を放棄してしまうこと。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "b67269ec32e7c4e456e620af41aa2fe1b9abb6837fcc1378456e5c2b96f6faaf"
+  },
+  {
+    "id": "N2_05_M11_07",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "ヒートアイランド現象の原因。地表面のアスファルトによる熱の蓄積と、建物や車両からの人工排熱。正解はD。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "b538d7a1c22ebc8399983d801c82a20e7c2e1e0e924050f303ad02b13f583bf8"
+  },
+  {
+    "id": "N2_05_M11_08",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「風の道」の役割。海や河川から吹き込む涼しい風を遮らず、都心の熱気があるエリアへとスムーズに導くこと。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "17642e07e971b63c7980da298235c8444c8fd14cc099a873e1affb4e0bcc3465"
+  },
+  {
+    "id": "N2_05_M11_09",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "先進的な再開発の工夫。川沿いの建物の高さを抑え、建物の向きを年間で最もよく吹く風の方向に合わせて配置すること。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "543bd1830c285d7ca8a5205bab0789625e8d020d03bbdb4c96cb5898627f45c9"
+  },
+  {
+    "id": "N2_05_M12_01",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "AとBの共通認識。失敗を経験すること自体から何らかの教訓や学びを得ることはできるという点。正解はD。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "7e5e561bd72d3ecbf49db93b324b3d34bccb071886fcf8876221c1270bfb7262"
+  },
+  {
+    "id": "N2_05_M12_02",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "AとBの主張の違い。Aは失敗を恐れず挑戦して立ち直る力を養うべきとし、Bは事前分析で防げる失敗は避けるべきだと説く。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "2becad57a19f88ceea7ec3969c6132a59da8c631f833bb8b9eca212625ca31a7"
+  },
+  {
+    "id": "N2_05_M13_01",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "技術進歩の期待と現実のギャップ。自由なゆとり時間が生まれるはずだったが、かえって処理すべき仕事が増えて時間に追われている。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "0723b0e3c71b6bb83c3dbd280f0c2290df86d07e5993373bed1c6792542297f9"
+  },
+  {
+    "id": "N2_05_M13_02",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「カイロス」の意味。生産性や効率とは無関係な、意味や充足感に満ちた主観的なかけがえのない一瞬。正解はD。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "88352445d931c3bad97e7deda51c47efadad93995462e7e3cdecdedfef454cd4"
+  },
+  {
+    "id": "N2_05_M13_03",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "筆者の提案。すべての時間を効率的に使う強迫観念を手放し、一見無駄に見える時間の中に人生の豊かさを見出すこと。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "577b0c615caff83067a3286d337e8508a0bb35d9d705690e0297ccca183eb65f"
+  },
+  {
+    "id": "N2_05_M14_01",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "市内勤務者が過半数を占める非営利団体の平日午後利用。基本料25,000円×0.7＝17,500円＋ピアノ5,000円＋マイク1,500円＝24,000円。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "60f2059ff345987476dd271e520eb55b44f5af92c7cdad163597ff3ada3b88a7"
+  },
+  {
+    "id": "N2_05_M14_02",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "予約取消と返金規定。台風などの自然災害によって施設自体が使えなくなった場合、利用料金は全額返金される。正解はD。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "097a89eadfed654283587abc3e65e3ca95f9cf5cdb3c23ef0a1a89c153287bae"
+  }
+]

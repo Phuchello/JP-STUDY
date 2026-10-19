@@ -19,7 +19,8 @@ JP-STUDY operates an institutional-grade, automated examination production facto
 | **N2-MOCK-02** | 75 items (105 min) | 30 items (50 min) | 105 items | 30 tracks | `TECHNICALLY_READY · AI_AUDITED` |
 | **N2-MOCK-03** | 75 items (105 min) | 30 items (50 min) | 105 items | 30 tracks | `TECHNICALLY_READY · AI_AUDITED` |
 | **N2-MOCK-04** | 75 items (105 min) | 30 items (50 min) | 105 items | 30 tracks | `TECHNICALLY_READY · AI_AUDITED` |
-| **Subtotal** | **300 items** | **120 items** | **420 items** | **120 tracks** | **100% Release Gate Pass** |
+| **N2-MOCK-05** | 75 items (105 min) | 30 items (50 min) | 105 items | 30 tracks | `TECHNICALLY_READY · AI_AUDITED` |
+| **Subtotal** | **375 items** | **150 items** | **525 items** | **150 tracks** | **100% Release Gate Pass** |
 
 ---
 
@@ -118,8 +119,9 @@ Phase 4 (CURRENT):
   ✅ N2-MOCK-01, N2-MOCK-02, N2-MOCK-03, N2-MOCK-04 (420 questions, 120 audio)
   ✅ Complete fail-closed CI/CD and deployment gating
 
-Phase 5:
-  🎯 N2-MOCK-05 to N2-MOCK-08 (420 new questions, 120 new audio)
+Phase 5 (IN PROGRESS):
+  ✅ N2-MOCK-05 Completed (105 questions, 30 audio, verified E2E & release gate)
+  🎯 N2-MOCK-06 to N2-MOCK-08 (315 questions, 90 audio)
   🎯 N3-MOCK-01 to N3-MOCK-03 (285 new questions, 84 new audio)
   Milestone: 1,125 total questions · 324 audio tracks
 

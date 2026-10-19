@@ -1,0 +1,3739 @@
+{
+  "examId": "N2-MOCK-05",
+  "title": "JLPT N2 Full Mock Exam #05 — Đề thi thử hoàn chỉnh (Kiến thức ngôn ngữ, Đọc hiểu & Nghe hiểu)",
+  "level": "N2",
+  "status": "FULL_MOCK",
+  "durationMinutes": 155,
+  "totalQuestions": 105,
+  "sections": [
+    {
+      "sectionId": "sec-1",
+      "sectionName": "Phần 1: Kiến thức ngôn ngữ & Đọc hiểu (Language Knowledge & Reading)",
+      "durationMinutes": 105,
+      "itemCount": 75,
+      "items": [
+        {
+          "id": "N2_05_M1_01",
+          "typeId": "N2-MO-READ",
+          "skill": "Language Knowledge",
+          "category": "Mondai 1: 漢字読み",
+          "stem": "大雪のため、山頂へと続く道路の通行が完全に【遮断】された。",
+          "targetWord": "しゃだん",
+          "options": [
+            {
+              "id": "A",
+              "text": "さだん"
+            },
+            {
+              "id": "B",
+              "text": "しゃてん"
+            },
+            {
+              "id": "C",
+              "text": "しゃだん"
+            },
+            {
+              "id": "D",
+              "text": "さてん"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "遮断（しゃだん - GIÁ ĐOẠN）: Cắt đứt, ngăn chặn, chặn lối lưu thông. Chữ 遮 có âm on là しゃ, chữ 断 có âm on là だん.",
+          "distractorExplanations": {
+            "A": "さだん: Âm さ là âm đọc sai của chữ 遮 (âm chuẩn duy nhất trong từ này là しゃ).",
+            "B": "しゃてん: Nhầm chữ 断 (だん) thành chữ 点 (てん).",
+            "D": "さてん: Sai cả âm đầu lẫn âm cuối."
+          }
+        },
+        {
+          "id": "N2_05_M1_02",
+          "typeId": "N2-MO-READ",
+          "skill": "Language Knowledge",
+          "category": "Mondai 1: 漢字読み",
+          "stem": "不測の事態に備えて、会社は迅速かつ適切な【措置】を講じる必要がある。",
+          "targetWord": "そち",
+          "options": [
+            {
+              "id": "A",
+              "text": "そち"
+            },
+            {
+              "id": "B",
+              "text": "しょち"
+            },
+            {
+              "id": "C",
+              "text": "そじ"
+            },
+            {
+              "id": "D",
+              "text": "しょじ"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "措置（そち - THỐ TRÍ）: Biện pháp, đối sách xử lý tình huống. Chữ 措 có âm on là そ, chữ 置 có âm on là ち.",
+          "distractorExplanations": {
+            "B": "しょち: Nhầm sang từ 処置 (しょち - xử trí y tế, cấp cứu vết thương).",
+            "C": "そじ: Nhầm âm thanh ち thành âm đục じ.",
+            "D": "しょじ: Nhầm cả sang 処 (しょ) lẫn âm đục じ."
+          }
+        },
+        {
+          "id": "N2_05_M1_03",
+          "typeId": "N2-MO-READ",
+          "skill": "Language Knowledge",
+          "category": "Mondai 1: 漢字読み",
+          "stem": "複雑に絡み合う問題の本質を正確に【把握】することが解決への第一歩だ。",
+          "targetWord": "はあく",
+          "options": [
+            {
+              "id": "A",
+              "text": "はわく"
+            },
+            {
+              "id": "B",
+              "text": "ほあく"
+            },
+            {
+              "id": "C",
+              "text": "ほうあく"
+            },
+            {
+              "id": "D",
+              "text": "はあく"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanationVi": "把握（はあく - BẢ ÁC）: Nắm bắt, thấu hiểu tường tận bản chất của vấn đề. Chữ 把 có âm on là は, chữ 握 có âm on là あく.",
+          "distractorExplanations": {
+            "A": "はわく: Nhầm âm あく của chữ 握 thành わく.",
+            "B": "ほあく: Nhầm âm は của chữ 把 thành ほ.",
+            "C": "ほうあく: Kéo dài trường âm sai quy tắc."
+          }
+        },
+        {
+          "id": "N2_05_M1_04",
+          "typeId": "N2-MO-READ",
+          "skill": "Language Knowledge",
+          "category": "Mondai 1: 漢字読み",
+          "stem": "提出期限を過ぎても連絡のない取引先に対して、支払いの【催促】を行った。",
+          "targetWord": "さいそく",
+          "options": [
+            {
+              "id": "A",
+              "text": "さいそっ"
+            },
+            {
+              "id": "B",
+              "text": "さいそく"
+            },
+            {
+              "id": "C",
+              "text": "せいそく"
+            },
+            {
+              "id": "D",
+              "text": "しゅくそく"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "催促（さいそく - THÔI XÚC）: Thúc giục, hối thúc (yêu cầu thanh toán, nộp bài). Chữ 催 có âm on là さい, chữ 促 có âm on là そく.",
+          "distractorExplanations": {
+            "A": "さいそっ: Âm ngắt cụt không tồn tại trong tiếng Nhật chuẩn cho từ này.",
+            "C": "せいそく: Nhầm sang 生息 (せいそく - sinh sống) hoặc 正則 (せいそく).",
+            "D": "しゅくそく: Sai hoàn toàn âm đầu さい thành しゅく."
+          }
+        },
+        {
+          "id": "N2_05_M1_05",
+          "typeId": "N2-MO-READ",
+          "skill": "Language Knowledge",
+          "category": "Mondai 1: 漢字読み",
+          "stem": "この短編小説には、著者の波乱に満ちた半生と思索が【凝縮】されている。",
+          "targetWord": "ぎょうしゅく",
+          "options": [
+            {
+              "id": "A",
+              "text": "こんしゅく"
+            },
+            {
+              "id": "B",
+              "text": "ぎょうそく"
+            },
+            {
+              "id": "C",
+              "text": "ぎょうしゅく"
+            },
+            {
+              "id": "D",
+              "text": "こうしゅく"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "凝縮（ぎょうしゅく - NGƯNG SÚC）: Cô đọng, ngưng tụ, dồn nén tinh hoa tư tưởng. Chữ 凝 có âm on là ぎょう, chữ 縮 có âm on là しゅく.",
+          "distractorExplanations": {
+            "A": "こんしゅく: Nhầm âm ぎょう thành こん.",
+            "B": "ぎょうそく: Nhầm âm しゅく thành そく.",
+            "D": "こうしゅく: Thiếu âm ngắt và biến âm sai."
+          }
+        },
+        {
+          "id": "N2_05_M2_01",
+          "typeId": "N2-MO-ORTH",
+          "skill": "Language Knowledge",
+          "category": "Mondai 2: 表記",
+          "stem": "少子高齢化の急速な進展により、地方都市の経済は【すいたい】の一途をたどっている。",
+          "targetWord": "すいたい",
+          "options": [
+            {
+              "id": "A",
+              "text": "衰態"
+            },
+            {
+              "id": "B",
+              "text": "衰退"
+            },
+            {
+              "id": "C",
+              "text": "粋退"
+            },
+            {
+              "id": "D",
+              "text": "遂退"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "衰退（すいたい - SUY THOÁI）: Suy thoái, tàn lụi, sa sút. Chữ 衰 (suy yếu) kết hợp với chữ 退 (thoái lui).",
+          "distractorExplanations": {
+            "A": "衰態: Chữ 態 mang nghĩa trạng thái/thái độ, không tạo thành từ vựng chỉ sự suy giảm kinh tế.",
+            "C": "粋退: Chữ 粋 mang nghĩa tinh tế/thuần khiết, sai ngữ nghĩa.",
+            "D": "遂退: Chữ 遂 mang nghĩa hoàn thành/thực hiện (như 未遂), sai tự dạng."
+          }
+        },
+        {
+          "id": "N2_05_M2_02",
+          "typeId": "N2-MO-ORTH",
+          "skill": "Language Knowledge",
+          "category": "Mondai 2: 表記",
+          "stem": "市民に対して、非常時の備えとして飲料水や食料の備蓄を【うながす】ポスターが貼られた。",
+          "targetWord": "うながす",
+          "options": [
+            {
+              "id": "A",
+              "text": "催す"
+            },
+            {
+              "id": "B",
+              "text": "迫る"
+            },
+            {
+              "id": "C",
+              "text": "励す"
+            },
+            {
+              "id": "D",
+              "text": "促す"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanationVi": "促す（うながす - XÚC）: Khuyến khích, thúc đẩy, nhắc nhở ai đó thực hiện hành động cần thiết.",
+          "distractorExplanations": {
+            "A": "催す: Đọc là もよおす (tổ chức sự kiện hoặc cảm thấy buồn nôn/buồn ngủ).",
+            "B": "迫る: Đọc là せまる (tiến sát tới, dồn ép, cận kề kỳ hạn).",
+            "C": "励す: Chữ 励 có động từ là 励ます (はげます - cổ vũ, động viên)."
+          }
+        },
+        {
+          "id": "N2_05_M2_03",
+          "typeId": "N2-MO-ORTH",
+          "skill": "Language Knowledge",
+          "category": "Mondai 2: 表記",
+          "stem": "工場からの有害物質流出事故により、近隣住民に対して十分な【ほしょう】が行われた。",
+          "targetWord": "ほしょう",
+          "options": [
+            {
+              "id": "A",
+              "text": "補償"
+            },
+            {
+              "id": "B",
+              "text": "保障"
+            },
+            {
+              "id": "C",
+              "text": "保証"
+            },
+            {
+              "id": "D",
+              "text": "補正"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "補償（ほしょう - BỔ THƯỜNG）: Bồi thường thiệt hại về vật chất hoặc sức khỏe do tổn thất gây ra.",
+          "distractorExplanations": {
+            "B": "保障: Đọc là ほしょう (BẢO CHƯỚNG - đảm bảo an ninh, quyền lợi xã hội, như 社会保障).",
+            "C": "保証: Đọc là ほしょう (BẢO CHỨNG - bảo hành sản phẩm, bảo lãnh người, như 保証人).",
+            "D": "補正: Đọc là ほせい (BỔ CHÍNH - chỉnh sửa, bù đắp sai số)."
+          }
+        },
+        {
+          "id": "N2_05_M2_04",
+          "typeId": "N2-MO-ORTH",
+          "skill": "Language Knowledge",
+          "category": "Mondai 2: 表記",
+          "stem": "出張先での業務が長引き、現地のホテルにさらに3日間【たいざい】することになった。",
+          "targetWord": "たいざい",
+          "options": [
+            {
+              "id": "A",
+              "text": "帯在"
+            },
+            {
+              "id": "B",
+              "text": "待在"
+            },
+            {
+              "id": "C",
+              "text": "滞在"
+            },
+            {
+              "id": "D",
+              "text": "滞存"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "滞在（たいざい - TRỆ TẠI）: Lưu trú, ở lại tạm thời tại một nơi xa nhà.",
+          "distractorExplanations": {
+            "A": "帯在: Chữ 帯 mang nghĩa dải đai/mang theo (như 携帯), sai tự dạng.",
+            "B": "待在: Chữ 待 mang nghĩa chờ đợi, không tạo thành từ vựng này.",
+            "D": "滞存: Chữ 存 mang nghĩa tồn tại, không đúng chữ 在 (ở tại)."
+          }
+        },
+        {
+          "id": "N2_05_M2_05",
+          "typeId": "N2-MO-ORTH",
+          "skill": "Language Knowledge",
+          "category": "Mondai 2: 表記",
+          "stem": "彼は契約内容の不当性を理由に、契約書への署名をきっぱりと【こばんだ】。",
+          "targetWord": "こばんだ",
+          "options": [
+            {
+              "id": "A",
+              "text": "阻んだ"
+            },
+            {
+              "id": "B",
+              "text": "拒んだ"
+            },
+            {
+              "id": "C",
+              "text": "排んだ"
+            },
+            {
+              "id": "D",
+              "text": "否んだ"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "拒む（こばむ - CỰ）: Cự tuyệt, kiên quyết từ chối yêu cầu hoặc hành động của đối phương.",
+          "distractorExplanations": {
+            "A": "阻んだ: Đọc là はばんだ (TRỞ - ngăn cản, cản trở bước tiến).",
+            "C": "排んだ: Chữ 排 không có dạng động từ độc lập こばむ (thường đọc はい trong 排除).",
+            "D": "否んだ: Đọc là いなんだ (PHỦ - từ chối nhưng ít dùng phổ biến bằng 拒む trong ngữ cảnh hợp đồng)."
+          }
+        },
+        {
+          "id": "N2_05_M3_01",
+          "typeId": "N2-VOC-FORM",
+          "skill": "Language Knowledge",
+          "category": "Mondai 3: 語形成",
+          "stem": "現代社会が抱える（　　）問題を解決するためには、国際的な連携が不可欠である。",
+          "options": [
+            {
+              "id": "A",
+              "text": "諸"
+            },
+            {
+              "id": "B",
+              "text": "各"
+            },
+            {
+              "id": "C",
+              "text": "多"
+            },
+            {
+              "id": "D",
+              "text": "連"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "諸〜（しょ〜 - CHƯ）: Tiền tố đứng trước danh từ để chỉ 'nhiều, các loại vấn đề khác nhau': 諸問題 (các vấn đề), 諸事情 (các lý do).",
+          "distractorExplanations": {
+            "B": "各〜: Chỉ từng cá thể riêng rẽ (như 各国 - mỗi quốc gia, 各自 - mỗi người).",
+            "C": "多〜: Thường ghép thành từ Hán tự có sẵn như 多目的, 多方面, không ghép thành 多問題.",
+            "D": "連〜: Thường chỉ sự nối tiếp liên tục như 連休, 連続, không ghép thành 連問題."
+          }
+        },
+        {
+          "id": "N2_05_M3_02",
+          "typeId": "N2-VOC-FORM",
+          "skill": "Language Knowledge",
+          "category": "Mondai 3: 語形成",
+          "stem": "新幹線の延伸に伴い、東京からの日帰り（　　）が大幅に拡大した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "界"
+            },
+            {
+              "id": "B",
+              "text": "帯"
+            },
+            {
+              "id": "C",
+              "text": "圏"
+            },
+            {
+              "id": "D",
+              "text": "域"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "〜圏（〜けん - QUYỂN）: Hậu tố chỉ phạm vi không gian, khu vực hoạt động: 日帰り圏 (phạm vi đi về trong ngày), 首都圏 (vùng thủ đô).",
+          "distractorExplanations": {
+            "A": "界: Thường chỉ giới xã hội hoặc lĩnh vực ngành nghề (như 芸能界, 経済界).",
+            "B": "帯: Thường chỉ vành đai địa lý trải dài (như 時間帯, 火山帯).",
+            "D": "域: Thường dùng trong 地域, 区域, không kết hợp trực tiếp thành 日帰り域."
+          }
+        },
+        {
+          "id": "N2_05_M3_03",
+          "typeId": "N2-VOC-FORM",
+          "skill": "Language Knowledge",
+          "category": "Mondai 3: 語形成",
+          "stem": "今期の決算発表によると、当社の（　　）売上高は過去最高を記録した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "全"
+            },
+            {
+              "id": "B",
+              "text": "総"
+            },
+            {
+              "id": "C",
+              "text": "丸"
+            },
+            {
+              "id": "D",
+              "text": "満"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "総〜（そう〜 - TỔNG）: Tiền tố chỉ tổng thể toàn bộ gộp lại: 総売上高 (tổng doanh thu), 総人口 (tổng dân số).",
+          "distractorExplanations": {
+            "A": "全〜: Thường chỉ toàn vẹn tất cả thành viên hoặc phạm vi (như 全世界, 全校, 全社員).",
+            "C": "丸〜: Thường chỉ trọn vẹn thời gian hoặc hình khối (như 丸一日, 丸三年).",
+            "D": "満〜: Thường chỉ tròn độ tuổi hoặc sức chứa (như 満席, 満20歳)."
+          }
+        },
+        {
+          "id": "N2_05_M3_04",
+          "typeId": "N2-VOC-FORM",
+          "skill": "Language Knowledge",
+          "category": "Mondai 3: 語形成",
+          "stem": "長引く不況の影響で、多くのベンチャー企業が資金（　　）に陥っている。",
+          "options": [
+            {
+              "id": "A",
+              "text": "苦"
+            },
+            {
+              "id": "B",
+              "text": "害"
+            },
+            {
+              "id": "C",
+              "text": "損"
+            },
+            {
+              "id": "D",
+              "text": "難"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanationVi": "〜難（〜なん - NẠN）: Hậu tố chỉ tình trạng khó khăn, khan hiếm: 資金難 (nạn khan hiếm vốn), 人手難 (thiếu hụt nhân lực).",
+          "distractorExplanations": {
+            "A": "苦: Thường dùng trong 資金繰りの苦労, ít khi ghép thành từ cụm danh từ chuẩn 資金苦 trong văn bản kinh tế.",
+            "B": "害: Chỉ thiệt hại, nguy hại (như 公害, 水害).",
+            "C": "損: Chỉ sự thua lỗ, tổn thất tài chính."
+          }
+        },
+        {
+          "id": "N2_05_M3_05",
+          "typeId": "N2-VOC-FORM",
+          "skill": "Language Knowledge",
+          "category": "Mondai 3: 語形成",
+          "stem": "このカフェは伝統的な日本家屋を改装した、和（　　）の落ち着いた空間が魅力だ。",
+          "options": [
+            {
+              "id": "A",
+              "text": "風"
+            },
+            {
+              "id": "B",
+              "text": "式"
+            },
+            {
+              "id": "C",
+              "text": "流"
+            },
+            {
+              "id": "D",
+              "text": "様"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "〜風（〜ふう - PHONG）: Hậu tố chỉ phong cách, dáng dấp, hơi hướng mỹ thuật: 和風 (phong cách Nhật), 洋風 (phong cách phương Tây).",
+          "distractorExplanations": {
+            "B": "式: Thường chỉ phương thức, hình thức cơ chế (như 日本式, 西洋式).",
+            "C": "流: Thường chỉ trường phái nghệ thuật, phong cách cá nhân (như 自己流, 我流).",
+            "D": "様: Thường chỉ kiểu cách dáng vẻ bên ngoài (như 模様, 様式)."
+          }
+        },
+        {
+          "id": "N2_05_M4_01",
+          "typeId": "N2-VOC-CTX",
+          "skill": "Language Knowledge",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "ビッグデータの解析には、（　　）な計算能力を持つ高性能サーバーが欠かせない。",
+          "options": [
+            {
+              "id": "A",
+              "text": "重大"
+            },
+            {
+              "id": "B",
+              "text": "膨大"
+            },
+            {
+              "id": "C",
+              "text": "壮大"
+            },
+            {
+              "id": "D",
+              "text": "極大"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "膨大（ぼうだい - BÀNH ĐẠI）: Khổng lồ, đồ sộ (thường dùng bổ nghĩa cho số liệu, dữ liệu, năng lực tính toán).",
+          "distractorExplanations": {
+            "A": "重大: Nghiêm trọng, trọng đại (thường đi với 重大な責任, 重大な過失).",
+            "C": "壮大: Tráng lệ, hùng vĩ (thường đi với 壮大な計画, 壮大なスケール).",
+            "D": "極大: Cực đại (thuật ngữ toán học thuần túy, không dùng trong văn cảnh năng lực máy tính tự nhiên)."
+          }
+        },
+        {
+          "id": "N2_05_M4_02",
+          "typeId": "N2-VOC-CTX",
+          "skill": "Language Knowledge",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "外国語を学ぶ際は、単語の意味だけでなく微妙な言葉の（　　）を感じ取ることが大切だ。",
+          "options": [
+            {
+              "id": "A",
+              "text": "アクセント"
+            },
+            {
+              "id": "B",
+              "text": "リズム"
+            },
+            {
+              "id": "C",
+              "text": "テンポ"
+            },
+            {
+              "id": "D",
+              "text": "ニュアンス"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanationVi": "ニュアンス (nuance): Sắc thái ý nghĩa tinh tế, hàm ý cảm xúc ngầm ẩn trong ngôn từ mà từ điển không giải thích hết.",
+          "distractorExplanations": {
+            "A": "アクセント: Trọng âm, dấu nhấn của từ.",
+            "B": "リズム: Nhịp điệu, tiết tấu âm nhạc hoặc nhịp sống.",
+            "C": "テンポ: Tốc độ nhịp độ diễn tiến công việc."
+          }
+        },
+        {
+          "id": "N2_05_M4_03",
+          "typeId": "N2-VOC-CTX",
+          "skill": "Language Knowledge",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "よく似た名前の二つの会社があるため、取引先から（　　）とクレームが入った。",
+          "options": [
+            {
+              "id": "A",
+              "text": "紛らわしい"
+            },
+            {
+              "id": "B",
+              "text": "煩わしい"
+            },
+            {
+              "id": "C",
+              "text": "目覚ましい"
+            },
+            {
+              "id": "D",
+              "text": "頼もしい"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "紛らわしい（まぎらわしい）: Dễ gây nhầm lẫn, mập mờ, khó phân biệt giữa hai vật thể hay tên gọi.",
+          "distractorExplanations": {
+            "B": "煩わしい（わずらわしい）: Phiền toái, rườm rà, nhức đầu về thủ tục quan hệ.",
+            "C": "目覚ましい（めざましい）: Nổi bật, tiến bộ vượt bậc đáng kinh ngạc.",
+            "D": "頼もしい（たのもしい）: Đáng tin cậy, vững tâm có thể nương tựa."
+          }
+        },
+        {
+          "id": "N2_05_M4_04",
+          "typeId": "N2-VOC-CTX",
+          "skill": "Language Knowledge",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "千載一遇のチャンスを前にして、失敗を恐れて（　　）していては成功をつかめない。",
+          "options": [
+            {
+              "id": "A",
+              "text": "奮闘"
+            },
+            {
+              "id": "B",
+              "text": "念願"
+            },
+            {
+              "id": "C",
+              "text": "躊躇"
+            },
+            {
+              "id": "D",
+              "text": "配慮"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "躊躇（ちゅうちょ - TRÙ TRỪ）: Ngập ngừng, do dự, chần chừ không dứt khoát trước quyết định.",
+          "distractorExplanations": {
+            "A": "奮闘（ふんとう）: Phấn đấu, chiến đấu hết mình nỗ lực.",
+            "B": "念願（ねんがん）: Tâm nguyện, ước mong ấp ủ từ lâu.",
+            "D": "配慮（はいりょ）: Chu đáo quan tâm, để ý chăm sóc người khác."
+          }
+        },
+        {
+          "id": "N2_05_M4_05",
+          "typeId": "N2-VOC-CTX",
+          "skill": "Language Knowledge",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "天候にも恵まれ、新造船の就航に向けた試運転は極めて（　　）に進んでいる。",
+          "options": [
+            {
+              "id": "A",
+              "text": "簡潔"
+            },
+            {
+              "id": "B",
+              "text": "順調"
+            },
+            {
+              "id": "C",
+              "text": "露骨"
+            },
+            {
+              "id": "D",
+              "text": "妥協"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "順調（じゅんちょう - THUẬN ĐIỀU）: Thuận lợi, suôn sẻ, tiến triển tốt đẹp không gặp sự cố.",
+          "distractorExplanations": {
+            "A": "簡潔: Ngắn gọn súc tích trong cách hành văn.",
+            "C": "露骨: Trắng trợn, lộ liễu (thái độ tiêu cực).",
+            "D": "妥協: Thỏa hiệp nhượng bộ trong tranh chấp."
+          }
+        },
+        {
+          "id": "N2_05_M4_06",
+          "typeId": "N2-VOC-CTX",
+          "skill": "Language Knowledge",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "どんなに念入りに推敲しても、自分一人では誤字脱字を（　　）しまいがちだ。",
+          "options": [
+            {
+              "id": "A",
+              "text": "見つめて"
+            },
+            {
+              "id": "B",
+              "text": "見届けて"
+            },
+            {
+              "id": "C",
+              "text": "見下ろして"
+            },
+            {
+              "id": "D",
+              "text": "見落として"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanationVi": "見落とす（みおとす - KIẾN LẠC）: Nhìn sót, bỏ sót lỗi sai hoặc chi tiết quan trọng trong văn bản.",
+          "distractorExplanations": {
+            "A": "見つめる: Nhìn chằm chằm, dõi mắt quan sát.",
+            "B": "見届ける: Theo dõi chứng kiến đến cùng kết cục.",
+            "C": "見下ろす: Nhìn từ trên cao xuống dưới đất."
+          }
+        },
+        {
+          "id": "N2_05_M4_07",
+          "typeId": "N2-VOC-CTX",
+          "skill": "Language Knowledge",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "若手社員たちの積極的な提案を受け入れ、職場全体の学習（　　）が高まった。",
+          "options": [
+            {
+              "id": "A",
+              "text": "意欲"
+            },
+            {
+              "id": "B",
+              "text": "欲望"
+            },
+            {
+              "id": "C",
+              "text": "熱意"
+            },
+            {
+              "id": "D",
+              "text": "野心"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "意欲（いよく - Ý DỤC）: Động lực, ý chí hăng hái muốn cống hiến hoặc học tập (thường kết hợp 学習意欲, 労働意欲).",
+          "distractorExplanations": {
+            "B": "欲望: Ham muốn bản năng xác thịt hoặc lòng tham vật chất.",
+            "C": "熱意: Nhiệt tình, lòng nhiệt huyết (thường đi với 熱意を持って).",
+            "D": "野心: Dã tâm, tham vọng thăng tiến cá nhân."
+          }
+        },
+        {
+          "id": "N2_05_M5_01",
+          "typeId": "N2-VOC-SYN",
+          "skill": "Language Knowledge",
+          "category": "Mondai 5: 言い換え類義",
+          "stem": "新製品の開発作業は、【おおむね】予定通りに進展している。",
+          "targetWord": "おおむね",
+          "options": [
+            {
+              "id": "A",
+              "text": "まったく"
+            },
+            {
+              "id": "B",
+              "text": "めったに"
+            },
+            {
+              "id": "C",
+              "text": "だいたい"
+            },
+            {
+              "id": "D",
+              "text": "ようやく"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "おおむね（概ね）: Nhìn chung, đại để, hầu như gần hết = だいたい.",
+          "distractorExplanations": {
+            "A": "まったく: Hoàn toàn (đi với phủ định là hoàn toàn không).",
+            "B": "めったに: Hiếm khi (đi kèm thể phủ định).",
+            "D": "ようやく: Cuối cùng thì (sau bao vất vả chờ đợi)."
+          }
+        },
+        {
+          "id": "N2_05_M5_02",
+          "typeId": "N2-VOC-SYN",
+          "skill": "Language Knowledge",
+          "category": "Mondai 5: 言い換え類義",
+          "stem": "インターネットの普及により、最新の流行は【たちまち】世界中に拡散する。",
+          "targetWord": "たちまち",
+          "options": [
+            {
+              "id": "A",
+              "text": "すぐに"
+            },
+            {
+              "id": "B",
+              "text": "徐々に"
+            },
+            {
+              "id": "C",
+              "text": "次々に"
+            },
+            {
+              "id": "D",
+              "text": "時々"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "たちまち（忽ち）: Ngay lập tức, trong chớp mắt, thoắt cái = すぐに.",
+          "distractorExplanations": {
+            "B": "徐々に: Từ từ, dần dần từng bước.",
+            "C": "次々に: Lần lượt liên tiếp hết cái này đến cái khác.",
+            "D": "時々: Thỉnh thoảng, đôi khi."
+          }
+        },
+        {
+          "id": "N2_05_M5_03",
+          "typeId": "N2-VOC-SYN",
+          "skill": "Language Knowledge",
+          "category": "Mondai 5: 言い換え類義",
+          "stem": "難航していた事件の捜査だったが、防犯カメラの映像が有力な【手がかり】となった。",
+          "targetWord": "手がかり",
+          "options": [
+            {
+              "id": "A",
+              "text": "証拠"
+            },
+            {
+              "id": "B",
+              "text": "結論"
+            },
+            {
+              "id": "C",
+              "text": "目的"
+            },
+            {
+              "id": "D",
+              "text": "ヒント"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanationVi": "手がかり（てがかり）: Manh mối, dấu vết gợi ý dẫn tới lời giải = ヒント / 糸口.",
+          "distractorExplanations": {
+            "A": "証拠: Bằng chứng xác thực không thể chối cãi (thường là kết quả chứng minh, rộng hơn手がかり).",
+            "B": "結論: Kết luận chung cuộc.",
+            "C": "目的: Mục tiêu, mục đích nhắm tới."
+          }
+        },
+        {
+          "id": "N2_05_M5_04",
+          "typeId": "N2-VOC-SYN",
+          "skill": "Language Knowledge",
+          "category": "Mondai 5: 言い換え類義",
+          "stem": "顧客第一の精神を常に【念頭に置いて】、日々の営業活動を行っている。",
+          "targetWord": "念頭に置いて",
+          "options": [
+            {
+              "id": "A",
+              "text": "深く後悔して"
+            },
+            {
+              "id": "B",
+              "text": "いつも意識して"
+            },
+            {
+              "id": "C",
+              "text": "無理に我慢して"
+            },
+            {
+              "id": "D",
+              "text": "他人に任せて"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "念頭に置く（ねんとうにおく）: Luôn khắc ghi trong tâm trí, luôn ý thức và chú tâm đến = いつも意識して.",
+          "distractorExplanations": {
+            "A": "深く後悔して: Hối hận sâu sắc vì sai lầm trong quá khứ.",
+            "C": "無理に我慢して: Miễn cưỡng chịu đựng nhẫn nhịn.",
+            "D": "他人に任せて: Giao phó cho người khác làm."
+          }
+        },
+        {
+          "id": "N2_05_M5_05",
+          "typeId": "N2-VOC-SYN",
+          "skill": "Language Knowledge",
+          "category": "Mondai 5: 言い換え類義",
+          "stem": "パソコンが突然フリーズしてデータが消えてしまい、私には【お手上げ】だ。",
+          "targetWord": "お手上げ",
+          "options": [
+            {
+              "id": "A",
+              "text": "とても満足だ"
+            },
+            {
+              "id": "B",
+              "text": "大したことない"
+            },
+            {
+              "id": "C",
+              "text": "どうすることもできない"
+            },
+            {
+              "id": "D",
+              "text": "非常に幸運だ"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "お手上げ（おてあげ）: Bó tay, bất lực hoàn toàn, không còn cách nào cứu vãn = どうすることもできない.",
+          "distractorExplanations": {
+            "A": "とても満足だ: Rất hài lòng mãn nguyện (ngược hẳn nghĩa thất bại bất lực).",
+            "B": "大したことない: Không có gì to tát đâu.",
+            "D": "非常に幸運だ: Vô cùng may mắn."
+          }
+        },
+        {
+          "id": "N2_05_M6_01",
+          "typeId": "N2-VOC-USE",
+          "skill": "Language Knowledge",
+          "category": "Mondai 6: 用法",
+          "stem": "「妥協」の使い方が最も適切なものを選びなさい。",
+          "targetWord": "妥協",
+          "options": [
+            {
+              "id": "A",
+              "text": "毎朝欠かさずジョギングをして、健康管理を妥協している。"
+            },
+            {
+              "id": "B",
+              "text": "彼女は絵画の才能に妥協して、個展を開催した。"
+            },
+            {
+              "id": "C",
+              "text": "激しい雨で川の水位が妥協し、住民に避難指示が出た。"
+            },
+            {
+              "id": "D",
+              "text": "労使間の交渉はお互いに歩み寄り、ようやく妥協点を見出すことができた。"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanationVi": "妥協（だきょう - THỎA HIỆP）: Nhượng bộ đôi bên để đi tới điểm chung trong đàm phán mâu thuẫn. Câu D dùng đúng mẫu 妥協点を見出す (tìm ra điểm thỏa hiệp).",
+          "distractorExplanations": {
+            "A": "Tập thể dục duy trì sức khỏe phải dùng 徹底する hoặc 励む, không dùng 妥協.",
+            "B": "Dựa vào tài năng để mở triển lãm dùng 発揮する hoặc 生かす, không dùng 妥協.",
+            "C": "Mực nước sông dâng cao dùng 上昇する, 妥協 không dùng cho hiện tượng tự nhiên."
+          }
+        },
+        {
+          "id": "N2_05_M6_02",
+          "typeId": "N2-VOC-USE",
+          "skill": "Language Knowledge",
+          "category": "Mondai 6: 用法",
+          "stem": "「乏しい」の使い方が最も適切なものを選びなさい。",
+          "targetWord": "乏しい",
+          "options": [
+            {
+              "id": "A",
+              "text": "春の陽気に包まれて、花壇には色とりどりの乏しい花が咲いている。"
+            },
+            {
+              "id": "B",
+              "text": "彼は知識や経験が乏しいにもかかわらず、困難な課題に果敢に挑戦した。"
+            },
+            {
+              "id": "C",
+              "text": "今週は仕事が一段落したので、スケジュールが乏しくて退屈だ。"
+            },
+            {
+              "id": "D",
+              "text": "最新のスマートフォンの画面はとても乏しくて見やすい。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "乏しい（とぼしい）: Thiếu thốn, nghèo nàn, ít ỏi (dùng cho tri thức, kinh nghiệm, tài nguyên: 経験が乏しい, 資源が乏しい). Câu B dùng hoàn toàn chính xác.",
+          "distractorExplanations": {
+            "A": "Hoa nở rực rỡ phong phú dùng 鮮やかな hoặc 豊かな, ngược nghĩa với 乏しい.",
+            "C": "Lịch trình trống rỗi dùng 空いている hoặc 余裕がある, không dùng 乏しい.",
+            "D": "Màn hình rõ nét dễ nhìn dùng 鮮明な, không thể dùng 乏しい."
+          }
+        },
+        {
+          "id": "N2_05_M6_03",
+          "typeId": "N2-VOC-USE",
+          "skill": "Language Knowledge",
+          "category": "Mondai 6: 用法",
+          "stem": "「念願」の使い方が最も適切なものを選びなさい。",
+          "targetWord": "念願",
+          "options": [
+            {
+              "id": "A",
+              "text": "10年間の努力が実を結び、ついに念願の自分の店を構えることができた。"
+            },
+            {
+              "id": "B",
+              "text": "天候の念願により、明日の遠足は中止とさせていただきます。"
+            },
+            {
+              "id": "C",
+              "text": "この電卓は計算の念願が速く、実務で非常に重宝している。"
+            },
+            {
+              "id": "D",
+              "text": "突然の雷の音に驚いて、飼い犬が念願そうに震え出した。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "念願（ねんがん - NIỆM NGUYỆN）: Tâm nguyện bấy lâu nay, ước muốn ấp ủ qua nhiều năm (念願の〜). Câu A dùng chuẩn xác với tâm nguyện mở cửa hàng riêng sau 10 năm.",
+          "distractorExplanations": {
+            "B": "Do thời tiết xấu dùng 天候の悪化 hoặc 都合, không dùng 念願.",
+            "C": "Tốc độ xử lý tính toán nhanh dùng 処理速度, không dùng 念願.",
+            "D": "Chó run rẩy vì sợ hãi dùng 恐ろしそうに hoặc 不安そうに, không dùng 念願."
+          }
+        },
+        {
+          "id": "N2_05_M6_04",
+          "typeId": "N2-VOC-USE",
+          "skill": "Language Knowledge",
+          "category": "Mondai 6: 用法",
+          "stem": "「露骨」の使い方が最も適切なものを選びなさい。",
+          "targetWord": "露骨",
+          "options": [
+            {
+              "id": "A",
+              "text": "先生の分かりやすい説明のおかげで、数学の定理が露骨に理解できた。"
+            },
+            {
+              "id": "B",
+              "text": "彼女の料理は素材の持ち味が露骨に引き出されていて美味しい。"
+            },
+            {
+              "id": "C",
+              "text": "自分の思い通りにならないと、彼はすぐに露骨に嫌な顔をする。"
+            },
+            {
+              "id": "D",
+              "text": "公園のベンチで風に吹かれながら、露骨な午後をのんびり過ごした。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "露骨（ろこつ - LỘ CỐT）: Lộ liễu, không chút che đậy, trắng trợn (biểu hiện cảm xúc bất mãn, ganh ghét ra mặt: 露骨に嫌な顔をする). Câu C dùng hoàn toàn chính xác.",
+          "distractorExplanations": {
+            "A": "Hiểu rõ ràng minh bạch dùng はっきりと hoặc よく, không dùng 露骨.",
+            "B": "Tôn vinh hương vị tự nhiên của nguyên liệu dùng 見事に, không dùng 露骨.",
+            "D": "Buổi chiều êm ả thảnh thơi dùng 穏やかな, không dùng 露骨."
+          }
+        },
+        {
+          "id": "N2_05_M6_05",
+          "typeId": "N2-VOC-USE",
+          "skill": "Language Knowledge",
+          "category": "Mondai 6: 用法",
+          "stem": "「充当」の使い方が最も適切なものを選びなさい。",
+          "targetWord": "充当",
+          "options": [
+            {
+              "id": "A",
+              "text": "彼は体力を充当するために、毎朝栄養ドリンクを飲んでいる。"
+            },
+            {
+              "id": "B",
+              "text": "国から支給された特別助成金は、全額が新施設の建設費用に充当された。"
+            },
+            {
+              "id": "C",
+              "text": "部屋の窓を大きく開けて、外の新鮮な空気を部屋いっぱいに充当した。"
+            },
+            {
+              "id": "D",
+              "text": "友人の結婚式に招待されたので、お祝いのメッセージを充当した。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "充当（じゅうとう - SUNG ĐƯƠNG）: Phân bổ, trích tiền hoặc tài nguyên vào một mục đích chi tiêu cụ thể (費用に充当する). Câu B dùng chuẩn xác.",
+          "distractorExplanations": {
+            "A": "Bồi bổ thể lực dùng 回復する hoặc つける, không dùng 充当.",
+            "C": "Làm ngập tràn không khí tươi mới dùng 満たした hoặc 取り入れた, không dùng 充当.",
+            "D": "Gửi lời chúc mừng đám cưới dùng 送った hoặc 伝えた, không dùng 充当."
+          }
+        },
+        {
+          "id": "N2_05_M7_01",
+          "typeId": "N2-GR-SENT",
+          "skill": "Language Knowledge",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "あんなに難解な専門書の内容を、たった一人で一日で理解できる（　　）。",
+          "options": [
+            {
+              "id": "A",
+              "text": "っこない"
+            },
+            {
+              "id": "B",
+              "text": "に違いない"
+            },
+            {
+              "id": "C",
+              "text": "はずだ"
+            },
+            {
+              "id": "D",
+              "text": "かねない"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "〜っこない: Tuyệt đối không thể, chắc chắn không thể làm nổi (phủ định tuyệt đối khả năng của động từ thể ます bỏ ます).",
+          "distractorExplanations": {
+            "B": "に違いない: Chắc chắn là... (khẳng định độ chắc chắn cao, mâu thuẫn với ý bất khả thi).",
+            "C": "はずだ: Đương nhiên là sẽ... (kỳ vọng tích cực, không hợp lý).",
+            "D": "かねない: Có nguy cơ dẫn tới kết quả xấu."
+          }
+        },
+        {
+          "id": "N2_05_M7_02",
+          "typeId": "N2-GR-SENT",
+          "skill": "Language Knowledge",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "記録的な台風の直撃を受け、主催者は野外フェスティバルの開催中止を（　　）。",
+          "options": [
+            {
+              "id": "A",
+              "text": "余儀なくさせた"
+            },
+            {
+              "id": "B",
+              "text": "よぎりなくした"
+            },
+            {
+              "id": "C",
+              "text": "余儀なくされた"
+            },
+            {
+              "id": "D",
+              "text": "余儀なくある"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "〜を余儀なくされた（〜をよぎなくされた）: Bị buộc phải rơi vào tình thế không mong muốn do hoàn cảnh ngoại cảnh khách quan bắt buộc.",
+          "distractorExplanations": {
+            "A": "余儀なくさせた: Mang nghĩa chủ động bắt ai đó phải chịu, chủ ngữ ở đây là người tổ chức bị hoàn cảnh ép buộc nên phải dùng dạng bị động 余儀なくされた.",
+            "B": "よぎりなくした: Sai cách đọc kanji và cấu trúc ngữ pháp.",
+            "D": "余儀なくある: Cấu trúc ngữ pháp sai dạng."
+          }
+        },
+        {
+          "id": "N2_05_M7_03",
+          "typeId": "N2-GR-SENT",
+          "skill": "Language Knowledge",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "当プロジェクトは、当初策定された環境保護ガイドラインに（　　）厳格に実施される。",
+          "options": [
+            {
+              "id": "A",
+              "text": "反して"
+            },
+            {
+              "id": "B",
+              "text": "沿って"
+            },
+            {
+              "id": "C",
+              "text": "めぐって"
+            },
+            {
+              "id": "D",
+              "text": "こたえて"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "〜に沿って（〜にそって）: Tuân thủ theo, men theo định hướng, đường lối, quy tắc định sẵn (theo đúng hướng dẫn bảo vệ môi trường).",
+          "distractorExplanations": {
+            "A": "反して: Trái ngược lại với quy tắc.",
+            "C": "めぐって: Xoay quanh tranh chấp/bàn cãi về một chủ đề.",
+            "D": "こたえて: Đáp lại kỳ vọng/nhu cầu của mọi người."
+          }
+        },
+        {
+          "id": "N2_05_M7_04",
+          "typeId": "N2-GR-SENT",
+          "skill": "Language Knowledge",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "これほどの国家的事業の成功は、全国民の一致団結した協力（　　）語ることはできない。",
+          "options": [
+            {
+              "id": "A",
+              "text": "において"
+            },
+            {
+              "id": "B",
+              "text": "に関して"
+            },
+            {
+              "id": "C",
+              "text": "を通じて"
+            },
+            {
+              "id": "D",
+              "text": "ぬきでは"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanationVi": "〜ぬきでは（〜抜きでは）: Nếu thiếu đi, nếu không có... thì không thể thành (thường đi với vế sau mang tính phủ định '語ることはできない').",
+          "distractorExplanations": {
+            "A": "において: Tại địa điểm/trong bối cảnh lĩnh vực.",
+            "B": "に関して: Liên quan đến chủ đề thông tin.",
+            "C": "を通じて: Thông qua suốt cả quá trình."
+          }
+        },
+        {
+          "id": "N2_05_M7_05",
+          "typeId": "N2-GR-SENT",
+          "skill": "Language Knowledge",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "小さな機器の故障であっても放置しておくと、工場全体の操業停止を招き（　　）。",
+          "options": [
+            {
+              "id": "A",
+              "text": "かねない"
+            },
+            {
+              "id": "B",
+              "text": "かねる"
+            },
+            {
+              "id": "C",
+              "text": "そうもない"
+            },
+            {
+              "id": "D",
+              "text": "得ない"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "〜かねない: Có khả năng, rất có nguy cơ dẫn tới hậu quả tiêu cực khôn lường (chiếu theo đà hiện tại).",
+          "distractorExplanations": {
+            "B": "かねる: Khó lòng làm được do tâm lý/vị thế (như 賛成しかねます).",
+            "C": "そうもない: Rất khó có khả năng xảy ra.",
+            "D": "得ない: Tuyệt đối không thể xảy ra về mặt logic lý tính."
+          }
+        },
+        {
+          "id": "N2_05_M7_06",
+          "typeId": "N2-GR-SENT",
+          "skill": "Language Knowledge",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "海外旅行に出かける際は、万一の病気や盗難に備えて保険に加入して（　　）。",
+          "options": [
+            {
+              "id": "A",
+              "text": "おくわけがない"
+            },
+            {
+              "id": "B",
+              "text": "おくほかない"
+            },
+            {
+              "id": "C",
+              "text": "おくに越したことはない"
+            },
+            {
+              "id": "D",
+              "text": "おかないつもりだ"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "〜に越したことはない: Được như vậy thì tốt nhất, là phương án an toàn nhất không bao giờ thừa (mua bảo hiểm trước khi đi nước ngoài là cẩn thận nhất).",
+          "distractorExplanations": {
+            "A": "おくわけがない: Tuyệt đối không có lý do gì phải mua trước (trái lẽ thường).",
+            "B": "おくほかない: Chỉ còn cách mua trước (mang tính ép buộc cùng đường, không phù hợp lời khuyên cẩn tắc vô ưu).",
+            "D": "おかないつもりだ: Dự định không mua (sai ngữ cảnh phòng ngừa rủi ro)."
+          }
+        },
+        {
+          "id": "N2_05_M7_07",
+          "typeId": "N2-GR-SENT",
+          "skill": "Language Knowledge",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "信頼してくれた恩師の顔に泥を塗るような不正行為は、断じてする（　　）と心に誓った。",
+          "options": [
+            {
+              "id": "A",
+              "text": "べきだ"
+            },
+            {
+              "id": "B",
+              "text": "まい"
+            },
+            {
+              "id": "C",
+              "text": "ものか"
+            },
+            {
+              "id": "D",
+              "text": "はずだ"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "〜まい: Quyết không làm... (ý chí phủ định đanh thép của ngôi thứ nhất, thường đi kèm と心に誓った). Động từ する chia thành するまい hoặc すまい.",
+          "distractorExplanations": {
+            "A": "べきだ: Nên làm gì (khuyên bảo, ngược nghĩa hoàn toàn).",
+            "C": "ものか: Tuyệt đối không đời nào (khẩu ngữ phản bác đối thoại trực tiếp, không đi thành するものかと心に誓った).",
+            "D": "はずだ: Đương nhiên là."
+          }
+        },
+        {
+          "id": "N2_05_M7_08",
+          "typeId": "N2-GR-SENT",
+          "skill": "Language Knowledge",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "故郷の美しい山河の風景を目に（　　）、幼い頃の懐かしい思い出が胸に迫ってくる。",
+          "options": [
+            {
+              "id": "A",
+              "text": "かけると"
+            },
+            {
+              "id": "B",
+              "text": "際して"
+            },
+            {
+              "id": "C",
+              "text": "限って"
+            },
+            {
+              "id": "D",
+              "text": "するにつけ"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanationVi": "〜につけ: Mỗi lần... lại cảm thấy (thường đi với các động từ liên quan đến cảm xúc/nhận thức: 目にするにつけ, 聞くにつけ).",
+          "distractorExplanations": {
+            "A": "かけると: Đang làm dở hoặc suýt nữa (như 言いかける).",
+            "B": "際して: Nhân dịp thời điểm bắt đầu một sự kiện lớn.",
+            "C": "限って: Đúng vào lúc không may hoặc riêng đối tượng đặc biệt."
+          }
+        },
+        {
+          "id": "N2_05_M7_09",
+          "typeId": "N2-GR-SENT",
+          "skill": "Language Knowledge",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "東京にいらっしゃる（　　）には、ぜひ弊社オフィスにもお立ち寄りください。",
+          "options": [
+            {
+              "id": "A",
+              "text": "折"
+            },
+            {
+              "id": "B",
+              "text": "末"
+            },
+            {
+              "id": "C",
+              "text": "節"
+            },
+            {
+              "id": "D",
+              "text": "際"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "〜折（〜おり）: Nhân dịp, vào cơ hội thuận tiện (kính ngữ trang trọng khi mời khách: 東京にいらっしゃる折には).",
+          "distractorExplanations": {
+            "B": "末（すえ）: Sau một hồi đắn đo suy nghĩ (như 悩んだ末).",
+            "C": "節: Thường dùng trong dạng 節は nhưng văn cảnh lịch thiệp mời ghé thăm chuẩn nhất là 折には.",
+            "D": "際: Có thể dùng 際には nhưng 折 mang sắc thái thanh lịch, ấm áp hơn trong giao tiếp xã giao."
+          }
+        },
+        {
+          "id": "N2_05_M7_10",
+          "typeId": "N2-GR-SENT",
+          "skill": "Language Knowledge",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "住民アンケートで寄せられた切実な意見を（　　）、新しい公共交通網の再編案が作成された。",
+          "options": [
+            {
+              "id": "A",
+              "text": "問わず"
+            },
+            {
+              "id": "B",
+              "text": "よそに"
+            },
+            {
+              "id": "C",
+              "text": "踏まえて"
+            },
+            {
+              "id": "D",
+              "text": "限らず"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "〜を踏まえて（〜をふまえて）: Dựa trên cơ sở cân nhắc kỹ lưỡng dữ liệu, ý kiến thực tế (dựa trên các phản hồi từ khảo sát người dân).",
+          "distractorExplanations": {
+            "A": "問わず: Bất kể không phân biệt.",
+            "B": "よそに: Mặc kệ phớt lờ ý kiến người khác.",
+            "D": "限らず: Không chỉ giới hạn ở."
+          }
+        },
+        {
+          "id": "N2_05_M7_11",
+          "typeId": "N2-GR-SENT",
+          "skill": "Language Knowledge",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "10年前に大学を卒業（　　）、母校のキャンパスを訪れる機会が一度もなかった。",
+          "options": [
+            {
+              "id": "A",
+              "text": "したきり"
+            },
+            {
+              "id": "B",
+              "text": "して以来"
+            },
+            {
+              "id": "C",
+              "text": "したところで"
+            },
+            {
+              "id": "D",
+              "text": "する反面"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "〜て以来: Kể từ sau khi... cho đến tận bây giờ (kể từ khi tốt nghiệp 10 năm trước tới nay chưa từng ghé thăm trường cũ).",
+          "distractorExplanations": {
+            "A": "したきり: Thường đi với trạng thái kéo dài không lặp lại (như 連絡がない), nhưng cấu trúc chuẩn chỉ mốc thời gian lịch sử kết hợp hiện tại hoàn thành là 〜て以来.",
+            "C": "したところで: Dù cho có làm thế đi chăng nữa thì cũng vô ích.",
+            "D": "する反面: Trái ngược lại với mặt tốt."
+          }
+        },
+        {
+          "id": "N2_05_M7_12",
+          "typeId": "N2-GR-SENT",
+          "skill": "Language Knowledge",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "今回の大ヒット商品は、顧客の潜在的な不満を徹底的に掘り下げた努力の成果（　　）。",
+          "options": [
+            {
+              "id": "A",
+              "text": "にすぎない"
+            },
+            {
+              "id": "B",
+              "text": "どころではない"
+            },
+            {
+              "id": "C",
+              "text": "わけがない"
+            },
+            {
+              "id": "D",
+              "text": "にほかならない"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanationVi": "〜にほかならない: Chính là, không gì khác ngoài... (khẳng định bản chất nguyên nhân duy nhất dẫn đến thành công).",
+          "distractorExplanations": {
+            "A": "にすぎない: Chỉ là... chẳng qua chỉ là (hạ thấp tầm quan trọng).",
+            "B": "どころではない: Không phải lúc để làm gì.",
+            "C": "わけがない: Tuyệt đối không thể nào có chuyện đó."
+          }
+        },
+        {
+          "id": "N2_05_M8_01",
+          "typeId": "N2-GR-STAR",
+          "skill": "Language Knowledge",
+          "category": "Mondai 8: 文の組み立て ★",
+          "stem": "地球温暖化を（　　）（　　） ★ （　　）不可欠である。",
+          "options": [
+            {
+              "id": "A",
+              "text": "市民一人ひとりの"
+            },
+            {
+              "id": "B",
+              "text": "防止するにあたって、"
+            },
+            {
+              "id": "C",
+              "text": "企業だけでなく"
+            },
+            {
+              "id": "D",
+              "text": "地道な協力も"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "Thứ tự đúng: B -> C -> A -> D (防止するにあたって、 企業だけでなく 市民一人ひとりの 地道な協力も). Câu hoàn chỉnh: 地球温暖化を防止するにあたって、企業だけでなく市民一人ひとりの地道な協力も不可欠である。 Cấu trúc: 〜にあたって (khi bắt đầu/tiến hành việc lớn). [B 防止するにあたって、] đi với tân ngữ 地球温暖化を. Tiếp theo là liên kết liệt kê: [C 企業だけでなく] đi với chủ ngữ mở rộng [A 市民一人ひとりの] bổ nghĩa cho [D 地道な協力も], làm chủ ngữ cho vị ngữ 不可欠である. Vị trí ngôi sao ★ là A (市民一人ひとりの).",
+          "distractorExplanations": {
+            "B": "[Vị trí 1] Cụm động từ kết hợp với tân ngữ 地球温暖化を.",
+            "C": "[Vị trí 2] Mẫu liên kết liệt kê 〜だけでなく có dấu phẩy ngắt vế.",
+            "D": "[Vị trí 4] Danh từ làm chủ ngữ đứng liền trước vị ngữ 不可欠である."
+          }
+        },
+        {
+          "id": "N2_05_M8_02",
+          "typeId": "N2-GR-STAR",
+          "skill": "Language Knowledge",
+          "category": "Mondai 8: 文の組み立て ★",
+          "stem": "いかに科学技術が（　　）（　　） ★ （　　）決して消えない。",
+          "options": [
+            {
+              "id": "A",
+              "text": "進歩しようとも、"
+            },
+            {
+              "id": "B",
+              "text": "その根底にある"
+            },
+            {
+              "id": "C",
+              "text": "人の温もりという"
+            },
+            {
+              "id": "D",
+              "text": "価値は"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "Thứ tự đúng: A -> B -> C -> D (進歩しようとも、 その根底にある 人の温もりという 価値は). Cấu trúc nhượng bộ いかに〜ようとも. [A 進歩しようとも、] đi với chủ ngữ 科学技術が. Tiếp theo [B その根底にある] bổ nghĩa cho [C 人の温もりという], bổ nghĩa tiếp cho chủ ngữ [D 価値は], đi liền trước vị ngữ 決して消えない. Thứ tự duy nhất: A -> B -> C -> D. Vị trí ngôi sao ★ là C (人の温もりという).",
+          "distractorExplanations": {
+            "A": "[Vị trí 1] Cụm vị ngữ nhượng bộ いかに〜進歩しようとも、.",
+            "B": "[Vị trí 2] Định ngữ bổ nghĩa cho cụm 人の温もりという価値.",
+            "D": "[Vị trí 4] Danh từ làm chủ ngữ chính đứng trước phó từ 決して消えない."
+          }
+        },
+        {
+          "id": "N2_05_M8_03",
+          "typeId": "N2-GR-STAR",
+          "skill": "Language Knowledge",
+          "category": "Mondai 8: 文の組み立て ★",
+          "stem": "長年の対立を（　　）（　　） ★ （　　）合意に達した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "乗り越えるべく、"
+            },
+            {
+              "id": "B",
+              "text": "双方が"
+            },
+            {
+              "id": "C",
+              "text": "粘り強く"
+            },
+            {
+              "id": "D",
+              "text": "協議を重ねた末に"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "Thứ tự đúng: A -> B -> C -> D (乗り越えるべく、 双方が 粘り強く 協議を重ねた末に). Cấu trúc mục đích trang trọng N2: 〜べく (để vượt qua mâu thuẫn nhiều năm). [A 乗り越えるべく、] đi liền sau tân ngữ 長年の対立を. Vế tiếp theo: [B 双方が] là chủ ngữ, [C 粘り強く] là phó từ bổ nghĩa cho [D 協議を重ねた末に], đi liền trước kết quả 合意に達した. Thứ tự duy nhất: A -> B -> C -> D. Vị trí ngôi sao ★ là C (粘り強く).",
+          "distractorExplanations": {
+            "A": "[Vị trí 1] Cụm mục đích 〜べく đi liền sau tân ngữ 長年の対立を.",
+            "B": "[Vị trí 2] Chủ ngữ 双方が của vế sau.",
+            "D": "[Vị trí 4] Cụm 〜た末に đứng liền trước kết quả 合意に達した."
+          }
+        },
+        {
+          "id": "N2_05_M8_04",
+          "typeId": "N2-GR-STAR",
+          "skill": "Language Knowledge",
+          "category": "Mondai 8: 文の組み立て ★",
+          "stem": "どんなに優れた才能が（　　）（　　） ★ （　　）大成しない。",
+          "options": [
+            {
+              "id": "A",
+              "text": "あろうと、"
+            },
+            {
+              "id": "B",
+              "text": "日々の"
+            },
+            {
+              "id": "C",
+              "text": "努力なくしては"
+            },
+            {
+              "id": "D",
+              "text": "決して"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "Thứ tự đúng: A -> B -> C -> D (あろうと、 日々の 努力なくしては 決して). Câu hoàn chỉnh: どんなに優れた才能があろうと、日々の努力なくしては決して大成しない。 Cấu trúc: どんなに〜ようと (cho dù có... đi chăng nữa). [A あろうと、] đi với 才能が. Cấu trúc N2 tiếp theo: 〜なくしては〜ない (nếu không có thì không thể). [B 日々の] bổ nghĩa cho [C 努力なくしては], và phó từ phủ định [D 決して] đi liền trước vị ngữ 大成しない. Thứ tự duy nhất: A -> B -> C -> D. Vị trí ngôi sao ★ là C (努力なくしては).",
+          "distractorExplanations": {
+            "A": "[Vị trí 1] Hoàn thành cấu trúc giả định nhượng bộ どんなに〜あろうと.",
+            "B": "[Vị trí 2] Định ngữ bổ nghĩa cho 努力.",
+            "D": "[Vị trí 4] Phó từ 決して bổ nghĩa trực tiếp cho động từ phủ định 大成しない."
+          }
+        },
+        {
+          "id": "N2_05_M8_05",
+          "typeId": "N2-GR-STAR",
+          "skill": "Language Knowledge",
+          "category": "Mondai 8: 文の組み立て ★",
+          "stem": "新薬の開発は、（　　）（　　） ★ （　　）貢献する。",
+          "options": [
+            {
+              "id": "A",
+              "text": "人々の健康増進に"
+            },
+            {
+              "id": "B",
+              "text": "経済の活性化にも"
+            },
+            {
+              "id": "C",
+              "text": "とどまらず、"
+            },
+            {
+              "id": "D",
+              "text": "大きく"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "Thứ tự đúng: A -> C -> B -> D (人々の健康増進に とどまらず、 経済の活性化にも 大きく). Câu hoàn chỉnh: 新薬の開発は、人々の健康増進にとどまらず、経済の活性化にも大きく貢献する。 Cấu trúc ngữ pháp N2: 〜にとどまらず (không chỉ dừng lại ở...). [A 人々の健康増進に] đi với [C とどまらず、]. Vế tiếp diễn: [B 経済の活性化にも] đi với phó từ [D 大きく] bổ nghĩa cho động từ 貢献する. Thứ tự duy nhất: A -> C -> B -> D. Vị trí ngôi sao ★ là B (経済の活性化にも).",
+          "distractorExplanations": {
+            "A": "[Vị trí 1] Tân ngữ đi liền sau chủ ngữ 新薬の開発は.",
+            "C": "[Vị trí 2] Mẫu ngữ pháp 〜にとどまらず、 có dấu phẩy.",
+            "D": "[Vị trí 4] Phó từ 大きく bổ nghĩa trực tiếp cho động từ 貢献する."
+          }
+        },
+        {
+          "id": "N2_05_M9_01",
+          "typeId": "N2-GR-TXT",
+          "skill": "Language Knowledge",
+          "category": "Mondai 9: 文章の文法 (50)",
+          "stem": "空欄（ 50 ）に入る最も適切なものを選びなさい。",
+          "contextPassage": "私たちが日々利用する駅やオフィスビル、商業施設などの建築空間は、単に風雨をしのぎ人を収容するだけの物理的構造物ではない。近年、行動経済学の「ナッジ（nudge：肘でそっと突くように自発的な良い行動を促す手法）」の概念が建築設計の分野に導入され、空間そのものが人間の無意識の行動を誘導する役割を果たしている。\n\nたとえば、健康増進のためにオフィスビルの利用者にエレベーターではなく階段を使ってもらいたいとする。（ 50 ）、従来のように「健康のために階段を使いましょう」という張り紙を掲示するだけでは、ほとんど効果が期待できない。そこで、エントランスを入ってすぐの最も目立つ明るく開放的な場所に、歩きたくなるような美しいデザインの階段を配置し、エレベーターは少し奥まった目立たない場所に設置する。そうすると、人々は強制される感覚を抱く（ 51 ）、自然と階段を選択するようになる。\n\n（ 52 ）アプローチは、ゴミのポイ捨て防止や省エネルギーの推進など、さまざまな公共空間の課題解決に応用されつつある。重要なのは、規則で人々の行動を縛るのではなく、選択の自由を確保したまま望ましい方向へと心理的な負担なく導く点にある。\n\n空間デザインが人々の心理や行動に与える影響は、私たちが自覚している以上に大きい。これからの建築家や都市計画家には、単なる機能性や美しさを追求する（ 53 ）、人々がより豊かで健やかに暮らせるような無意識の行動環境を設計する知恵が（ 54 ）。",
+          "options": [
+            {
+              "id": "A",
+              "text": "しかし"
+            },
+            {
+              "id": "B",
+              "text": "つまり"
+            },
+            {
+              "id": "C",
+              "text": "したがって"
+            },
+            {
+              "id": "D",
+              "text": "さらに"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "Liên từ mang tính chuyển ý nghịch tiếp: đoạn trước nêu mục tiêu muốn mọi người đi cầu thang bộ, nhưng (しかし) cách dán thông báo truyền thống thì hầu như không có hiệu quả.",
+          "distractorExplanations": {
+            "B": "つまり: Tóm lại, tức là (dùng để diễn giải tương đương, không thể hiện sự bất cập đối lập).",
+            "C": "したがって: Do đó, vì vậy (chỉ kết quả thuận theo logic).",
+            "D": "さらに: Hơn nữa, ngoài ra (bổ sung thông tin cùng chiều)."
+          }
+        },
+        {
+          "id": "N2_05_M9_02",
+          "typeId": "N2-GR-TXT",
+          "skill": "Language Knowledge",
+          "category": "Mondai 9: 文章の文法 (51)",
+          "stem": "空欄（ 51 ）に入る最も適切なものを選びなさい。",
+          "contextPassage": "私たちが日々利用する駅やオフィスビル、商業施設などの建築空間は、単に風雨をしのぎ人を収容するだけの物理的構造物ではない。近年、行動経済学の「ナッジ（nudge：肘でそっと突くように自発的な良い行動を促す手法）」の概念が建築設計の分野に導入され、空間そのものが人間の無意識の行動を誘導する役割を果たしている。\n\nたとえば、健康増進のためにオフィスビルの利用者にエレベーターではなく階段を使ってもらいたいとする。（ 50 ）、従来のように「健康のために階段を使いましょう」という張り紙を掲示するだけでは、ほとんど効果が期待できない。そこで、エントランスを入ってすぐの最も目立つ明るく開放的な場所に、歩きたくなるような美しいデザインの階段を配置し、エレベーターは少し奥まった目立たない場所に設置する。そうすると、人々は強制される感覚を抱く（ 51 ）、自然と階段を選択するようになる。\n\n（ 52 ）アプローチは、ゴミのポイ捨て防止や省エネルギーの推進など、さまざまな公共空間の課題解決に応用されつつある。重要なのは、規則で人々の行動を縛るのではなく、選択の自由を確保したまま望ましい方向へと心理的な負担なく導く点にある。\n\n空間デザインが人々の心理や行動に与える影響は、私たちが自覚している以上に大きい。これからの建築家や都市計画家には、単なる機能性や美しさを追求する（ 53 ）、人々がより豊かで健やかに暮らせるような無意識の行動環境を設計する知恵が（ 54 ）。",
+          "options": [
+            {
+              "id": "A",
+              "text": "ことなく"
+            },
+            {
+              "id": "B",
+              "text": "ばかりに"
+            },
+            {
+              "id": "C",
+              "text": "うえに"
+            },
+            {
+              "id": "D",
+              "text": "反面"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "Cấu trúc 〜ことなく (mà không hề... = 〜ないで): '人々は強制される感覚を抱くことなく、自然と階段を選択する' (Mọi người tự nhiên lựa chọn cầu thang bộ mà không hề có cảm giác bị ép buộc).",
+          "distractorExplanations": {
+            "B": "ばかりに: Chỉ vì... mà dẫn đến kết quả tệ hại ngoài ý muốn.",
+            "C": "うえに: Thêm vào đó, không những mà còn.",
+            "D": "反面: Mặt khác trái ngược lại."
+          }
+        },
+        {
+          "id": "N2_05_M9_03",
+          "typeId": "N2-GR-TXT",
+          "skill": "Language Knowledge",
+          "category": "Mondai 9: 文章の文法 (52)",
+          "stem": "空欄（ 52 ）に入る最も適切なものを選びなさい。",
+          "contextPassage": "私たちが日々利用する駅やオフィスビル、商業施設などの建築空間は、単に風雨をしのぎ人を収容するだけの物理的構造物ではない。近年、行動経済学の「ナッジ（nudge：肘でそっと突くように自発的な良い行動を促す手法）」の概念が建築設計の分野に導入され、空間そのものが人間の無意識の行動を誘導する役割を果たしている。\n\nたとえば、健康増進のためにオフィスビルの利用者にエレベーターではなく階段を使ってもらいたいとする。（ 50 ）、従来のように「健康のために階段を使いましょう」という張り紙を掲示するだけでは、ほとんど効果が期待できない。そこで、エントランスを入ってすぐの最も目立つ明るく開放的な場所に、歩きたくなるような美しいデザインの階段を配置し、エレベーターは少し奥まった目立たない場所に設置する。そうすると、人々は強制される感覚を抱く（ 51 ）、自然と階段を選択するようになる。\n\n（ 52 ）アプローチは、ゴミのポイ捨て防止や省エネルギーの推進など、さまざまな公共空間の課題解決に応用されつつある。重要なのは、規則で人々の行動を縛るのではなく、選択の自由を確保したまま望ましい方向へと心理的な負担なく導く点にある。\n\n空間デザインが人々の心理や行動に与える影響は、私たちが自覚している以上に大きい。これからの建築家や都市計画家には、単なる機能性や美しさを追求する（ 53 ）、人々がより豊かで健やかに暮らせるような無意識の行動環境を設計する知恵が（ 54 ）。",
+          "options": [
+            {
+              "id": "A",
+              "text": "あの"
+            },
+            {
+              "id": "B",
+              "text": "このような"
+            },
+            {
+              "id": "C",
+              "text": "どういう"
+            },
+            {
+              "id": "D",
+              "text": "どれほどの"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "Chỉ thị từ nối đoạn: 'このようなアプローチ' (Cách tiếp cận như thế này) chỉ phương pháp thiết kế gợi ý hành vi (nudge) vừa được minh họa cụ thể ở đoạn trước.",
+          "distractorExplanations": {
+            "A": "あの: Chỉ sự vật ở xa cả người nói lẫn người nghe, không dùng để quy chiếu mạch văn vừa nêu.",
+            "C": "どういう: Dùng trong câu hỏi tìm hiểu bản chất (như どういう意味ですか).",
+            "D": "どれほどの: Dùng chỉ mức độ số lượng không đếm xuể trong câu cảm thán hoặc nghi vấn."
+          }
+        },
+        {
+          "id": "N2_05_M9_04",
+          "typeId": "N2-GR-TXT",
+          "skill": "Language Knowledge",
+          "category": "Mondai 9: 文章の文法 (53)",
+          "stem": "空欄（ 53 ）に入る最も適切なものを選びなさい。",
+          "contextPassage": "私たちが日々利用する駅やオフィスビル、商業施設などの建築空間は、単に風雨をしのぎ人を収容するだけの物理的構造物ではない。近年、行動経済学の「ナッジ（nudge：肘でそっと突くように自発的な良い行動を促す手法）」の概念が建築設計の分野に導入され、空間そのものが人間の無意識の行動を誘導する役割を果たしている。\n\nたとえば、健康増進のためにオフィスビルの利用者にエレベーターではなく階段を使ってもらいたいとする。（ 50 ）、従来のように「健康のために階段を使いましょう」という張り紙を掲示するだけでは、ほとんど効果が期待できない。そこで、エントランスを入ってすぐの最も目立つ明るく開放的な場所に、歩きたくなるような美しいデザインの階段を配置し、エレベーターは少し奥まった目立たない場所に設置する。そうすると、人々は強制される感覚を抱く（ 51 ）、自然と階段を選択するようになる。\n\n（ 52 ）アプローチは、ゴミのポイ捨て防止や省エネルギーの推進など、さまざまな公共空間の課題解決に応用されつつある。重要なのは、規則で人々の行動を縛るのではなく、選択の自由を確保したまま望ましい方向へと心理的な負担なく導く点にある。\n\n空間デザインが人々の心理や行動に与える影響は、私たちが自覚している以上に大きい。これからの建築家や都市計画家には、単なる機能性や美しさを追求する（ 53 ）、人々がより豊かで健やかに暮らせるような無意識の行動環境を設計する知恵が（ 54 ）。",
+          "options": [
+            {
+              "id": "A",
+              "text": "ものの"
+            },
+            {
+              "id": "B",
+              "text": "ばかりか"
+            },
+            {
+              "id": "C",
+              "text": "だけでなく"
+            },
+            {
+              "id": "D",
+              "text": "わりに"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "Cấu trúc 〜だけでなく (không chỉ dừng lại ở... mà còn): '単なる機能性や美しさを追求するだけでなく、人々がより豊かで健やかに暮らせるような...設計する' (Không chỉ theo đuổi vẻ đẹp và công năng đơn thuần, mà còn thiết kế môi trường sống). Đáp án chính xác là C (だけでなく).",
+          "distractorExplanations": {
+            "A": "ものの: Mặc dù... nhưng (chỉ sự đối lập, không thể hiện quan hệ mở rộng song hành).",
+            "B": "ばかりか: Thường mang sắc thái tiêu cực hoặc bất ngờ tăng tiến quá mức, trong cấu trúc chuẩn khuyến nghị đi với だけでなく.",
+            "D": "わりに: Dù là... nhưng mà lại (ngạc nhiên trái với mức độ)."
+          }
+        },
+        {
+          "id": "N2_05_M9_05",
+          "typeId": "N2-GR-TXT",
+          "skill": "Language Knowledge",
+          "category": "Mondai 9: 文章の文法 (54)",
+          "stem": "空欄（ 54 ）に入る最も適切なものを選びなさい。",
+          "contextPassage": "私たちが日々利用する駅やオフィスビル、商業施設などの建築空間は、単に風雨をしのぎ人を収容するだけの物理的構造物ではない。近年、行動経済学の「ナッジ（nudge：肘でそっと突くように自発的な良い行動を促す手法）」の概念が建築設計の分野に導入され、空間そのものが人間の無意識の行動を誘導する役割を果たしている。\n\nたとえば、健康増進のためにオフィスビルの利用者にエレベーターではなく階段を使ってもらいたいとする。（ 50 ）、従来のように「健康のために階段を使いましょう」という張り紙を掲示するだけでは、ほとんど効果が期待できない。そこで、エントランスを入ってすぐの最も目立つ明るく開放的な場所に、歩きたくなるような美しいデザインの階段を配置し、エレベーターは少し奥まった目立たない場所に設置する。そうすると、人々は強制される感覚を抱く（ 51 ）、自然と階段を選択するようになる。\n\n（ 52 ）アプローチは、ゴミのポイ捨て防止や省エネルギーの推進など、さまざまな公共空間の課題解決に応用されつつある。重要なのは、規則で人々の行動を縛るのではなく、選択の自由を確保したまま望ましい方向へと心理的な負担なく導く点にある。\n\n空間デザインが人々の心理や行動に与える影響は、私たちが自覚している以上に大きい。これからの建築家や都市計画家には、単なる機能性や美しさを追求する（ 53 ）、人々がより豊かで健やかに暮らせるような無意識の行動環境を設計する知恵が（ 54 ）。",
+          "options": [
+            {
+              "id": "A",
+              "text": "求められているのではないだろうか"
+            },
+            {
+              "id": "B",
+              "text": "求められるべきではない"
+            },
+            {
+              "id": "C",
+              "text": "求められるはずがない"
+            },
+            {
+              "id": "D",
+              "text": "求められるにすぎない"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "Dạng câu kết mang tính khẳng định ý kiến cá nhân một cách khiêm tốn, lịch thiệp và sâu sắc của tác giả: 〜のではないだろうか (Phải chăng là đang đòi hỏi trí tuệ của các kiến trúc sư...).",
+          "distractorExplanations": {
+            "B": "求められるべきではない: Tuyệt đối không nên đòi hỏi (ngược hoàn toàn với thông điệp bài viết).",
+            "C": "求められるはずがない: Làm sao mà có chuyện đòi hỏi được (phủ định vô lý).",
+            "D": "求められるにすぎない: Chẳng qua chỉ là bị đòi hỏi (hạ thấp tầm quan trọng)."
+          }
+        },
+        {
+          "id": "N2_05_M10_01",
+          "typeId": "N2-RD-SHORT",
+          "skill": "Reading",
+          "category": "Mondai 10: 短文読解 — 在宅勤務における通信手当と申請ルール",
+          "stem": "この通知で社員に義務付けられていることは何か。",
+          "contextPassage": "社員各位\nテレワークの恒常化に伴い、来月より在宅勤務時の通信費補助として「リモートワーク手当（月額5,000円）」を一律支給することとなりました。\nなお、業務で使用するインターネット回線につきましては、セキュリティ確保のため、個人の領収書提出による個別精算は廃止し、今後は本手当に一本化いたします。また、通信速度やセキュリティ要件（暗号化WPA3対応ルーターの利用等）が会社の基準を満たしているか、年1回の自己点検チェックシートの提出が義務付けられます。期日までに提出がない場合、手当の支給が一時停止されることがありますのでご注意ください。",
+          "options": [
+            {
+              "id": "A",
+              "text": "毎月のインターネット料金の領収書を経理部に提出すること。"
+            },
+            {
+              "id": "B",
+              "text": "セキュリティ基準を満たしているか点検シートを年に一度提出すること。"
+            },
+            {
+              "id": "C",
+              "text": "通信手当を受け取るために、会社の指定する回線業者と新規契約すること。"
+            },
+            {
+              "id": "D",
+              "text": "在宅勤務を行う日数を事前に上司へ申請して許可を得ること。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "Thông báo nêu rõ: hủy bỏ việc nộp hóa đơn thanh toán riêng lẻ và bắt buộc mỗi năm một lần nộp bảng tự kiểm tra bảo mật ('年1回の自己点検チェックシートの提出が義務付けられます').",
+          "distractorExplanations": {
+            "A": "Nộp hóa đơn hàng tháng đã bị bãi bỏ hoàn toàn ('個人の領収書提出による個別精算は廃止').",
+            "C": "Không bắt buộc ký hợp đồng với nhà mạng do công ty chỉ định, chỉ cần router đáp ứng chuẩn WPA3.",
+            "D": "Thông báo không đề cập đến việc phải xin phép số ngày làm việc tại nhà."
+          }
+        },
+        {
+          "id": "N2_05_M10_02",
+          "typeId": "N2-RD-SHORT",
+          "skill": "Reading",
+          "category": "Mondai 10: 短文読解 — マルチタスクの落とし穴とシングルタスクの重要性",
+          "stem": "筆者が仕事の生産性について主張していることはどれか。",
+          "contextPassage": "多くの現代人は、メールを返信しながらオンライン会議に参加し、合間に資料を作成するという「マルチタスク（同時並行作業）」を効率的だと信じ込んでいる。しかし、脳科学の研究によれば、人間の脳は複数の作業を同時に処理しているのではなく、注意の対象を猛スピードで切り替えているにすぎない。\nこの頻繁な切り替えは脳に莫大な疲労を蓄積させ、結果として集中力や判断力の低下、ミスや作業時間の増大を招く。本当に高い生産性を上げたいのであれば、一度に一つの作業にのみ深く没頭する「シングルタスク」の時間を意識的に確保すべきである。",
+          "options": [
+            {
+              "id": "A",
+              "text": "集中力を高めるためには、オンライン会議の回数をできる限り減らすべきである。"
+            },
+            {
+              "id": "B",
+              "text": "メールの返信や資料作成などの単純作業は、すべてAIに任せるべきである。"
+            },
+            {
+              "id": "C",
+              "text": "同時に複数の作業を行うよりも、一つの作業に集中する時間を設けるほうが効率的である。"
+            },
+            {
+              "id": "D",
+              "text": "作業を素早く切り替える訓練を積むことで、脳の処理速度を向上させることができる。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "Tác giả chỉ ra rằng đa nhiệm thực chất chỉ là chuyển đổi sự chú ý liên tục gây kiệt sức cho não bộ; muốn năng suất cao thực sự thì phải dành thời gian tập trung vào từng việc một (single-task).",
+          "distractorExplanations": {
+            "B": "Tác giả không hề đề cập đến việc giao hết tác vụ cho AI.",
+            "A": "Không khuyên giảm số lượng cuộc họp mà khuyên không làm việc khác trong lúc họp.",
+            "D": "Tác giả phê phán việc chuyển đổi qua lại giữa các công việc, chứ không hề khuyên rèn luyện chuyển đổi nhanh."
+          }
+        },
+        {
+          "id": "N2_05_M10_03",
+          "typeId": "N2-RD-SHORT",
+          "skill": "Reading",
+          "category": "Mondai 10: 短文読解 — マンション駐輪場の一斉整理に関するお知らせ",
+          "stem": "駐輪場を利用し続けたい居住者は、何をしなければならないか。",
+          "contextPassage": "居住者の皆様へ\n当マンションの駐輪場におきまして、長期間放置されたと見られる自転車が増加し、日常の利用に支障をきたしております。\nつきましては、不要自転車の撤去作業を以下の要領で実施いたします。\n現在駐輪場をご利用の自転車すべてに、本日より「確認用黄色テープ」を取り付けます。引き続き駐輪場をご利用される方は、11月20日（金）までにテープを取り外してください。期日を過ぎてもテープが貼られたままの自転車は放置車両とみなし、一時保管場所へ移動のうえ、1ヶ月後に処分いたします。ご理解のほどよろしくお願いいたします。",
+          "options": [
+            {
+              "id": "A",
+              "text": "11月20日までに自転車の防犯登録番号を管理組合へ連絡すること。"
+            },
+            {
+              "id": "B",
+              "text": "管理事務所に出向いて新しい駐輪許可証のシールを発行してもらうこと。"
+            },
+            {
+              "id": "C",
+              "text": "放置自転車の一時保管場所へ自転車を一時的に移動させること。"
+            },
+            {
+              "id": "D",
+              "text": "11月20日までに自転車に貼られた黄色いテープを自分で外すこと。"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanationVi": "Thông báo ghi rõ: ai tiếp tục sử dụng bãi đỗ xe thì trước ngày 20/11 phải tự mình gỡ bỏ dải băng màu vàng đã được dán lên xe ('引き続き駐輪場をご利用される方は、11月20日（金）までにテープを取り外してください').",
+          "distractorExplanations": {
+            "B": "Không yêu cầu đến văn phòng xin cấp tem mới.",
+            "C": "Khu vực lưu giữ tạm thời là nơi quản lý di chuyển các xe bị nghi bỏ rơi đến, không phải cư dân tự dắt sang.",
+            "A": "Không yêu cầu nộp số đăng ký chống trộm của xe."
+          }
+        },
+        {
+          "id": "N2_05_M10_04",
+          "typeId": "N2-RD-SHORT",
+          "skill": "Reading",
+          "category": "Mondai 10: 短文読解 — 信頼関係を築く「傾聴」の力",
+          "stem": "この文章で筆者が「傾聴」について最も伝えたいことは何か。",
+          "contextPassage": "他者と良好な信頼関係を築くためには、自分の主張を上手に伝えるプレゼンテーション能力よりも、相手の話に真摯に耳を傾ける「傾聴力」のほうがはるかに決定的な役割を果たす。\n人は誰しも、自分の感情や考えを否定されずに受け止めてもらえたときに深い安心感を覚える。相手の言葉の表面だけをなぞって安易なアドバイスをするのではなく、相手が言葉の裏に込めた思いや背景にある事情まで共感的に想像しながら聴くこと。この「聴く姿勢」そのものが、言葉以上に雄弁に相手への敬意と信頼を伝えるのである。",
+          "options": [
+            {
+              "id": "A",
+              "text": "会話を円滑に進めるためには、自分の意見を相手より先に主張することが大切である。"
+            },
+            {
+              "id": "B",
+              "text": "安易に助言するのではなく、相手の感情や背景に共感して聴く姿勢が信頼を生む。"
+            },
+            {
+              "id": "C",
+              "text": "相手の意見に論理的な誤りがあれば、その場ですぐに指摘して正すべきである。"
+            },
+            {
+              "id": "D",
+              "text": "良好な関係を保つためには、相手の話に常に同調して反論を控えるべきである。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "Tác giả nhấn mạnh: không đưa ra lời khuyên hời hợt mà phải lắng nghe thấu cảm, đặt mình vào bối cảnh cảm xúc của đối phương để tạo dựng sự tôn trọng và tin cậy.",
+          "distractorExplanations": {
+            "A": "Ngược hoàn toàn với ý bài viết (bài viết coi trọng việc lắng nghe hơn là tranh giành nói trước).",
+            "C": "Tác giả khuyên không phán xét bác bỏ cảm xúc của người khác, không phải đi vạch lỗi sai logic.",
+            "D": "Lắng nghe thấu cảm không đồng nghĩa với việc gió chiều nào theo chiều nấy hay giả vờ tán thành mọi lúc."
+          }
+        },
+        {
+          "id": "N2_05_M10_05",
+          "typeId": "N2-RD-SHORT",
+          "skill": "Reading",
+          "category": "Mondai 10: 短文読解 — 地域社会における食品ロス削減の取り組み",
+          "stem": "この文章で筆者が強調している、食品ロス削減を成功させるための要因は何か。",
+          "contextPassage": "まだ食べられるにもかかわらず廃棄される「食品ロス」の削減に向けて、各地の自治体や飲食店で新たな試みが始まっている。\nある商店街では、閉店間近に余った惣菜やパンをスマートフォンアプリで通知し、近隣の住民が割安で購入できる仕組みを導入した。この取り組みは、店舗にとっては廃棄コストの削減と売上確保につながり、消費者にとっては手頃な価格で食品を入手できるというメリットがある。環境負荷の軽減という大義名分だけでなく、関わるすべての人に実利がある仕組みを構築することこそが、持続可能な社会づくりの鍵となる。",
+          "options": [
+            {
+              "id": "A",
+              "text": "飲食店に対して売れ残った食品の廃棄税を一律に課すこと。"
+            },
+            {
+              "id": "B",
+              "text": "賞味期限が切れた食品の販売を法律によって厳しく規制すること。"
+            },
+            {
+              "id": "C",
+              "text": "環境理念を掲げるだけでなく、参加する店舗と消費者の双方に実際の利益があること。"
+            },
+            {
+              "id": "D",
+              "text": "行政からの補助金に頼り、すべての売れ残り食品を無料で配布すること。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "Tác giả đúc kết bài học: không chỉ dừng ở khẩu hiệu môi trường suông mà phải xây dựng mô hình mang lại lợi ích thiết thực cho cả người bán lẫn người mua ('関わるすべての人に実利がある仕組みを構築することこそが...鍵となる').",
+          "distractorExplanations": {
+            "B": "Không đề cập đến việc thắt chặt luật cấm bán đồ hết hạn.",
+            "A": "Không hề đề xuất đánh thuế rác thải đối với nhà hàng.",
+            "D": "Mô hình này là bán giảm giá mang lại doanh thu, không phải phát miễn phí dựa vào tiền trợ cấp nhà nước."
+          }
+        },
+        {
+          "id": "N2_05_M11_01",
+          "typeId": "N2-RD-MID",
+          "skill": "Reading",
+          "category": "Mondai 11: 中文読解",
+          "stem": "筆者によると、「市場交換」が持つ利点とは何か。",
+          "contextPassage": "現代の資本主義社会において、私たちはあらゆるモノやサービスをお金で売買する「市場交換」を当たり前の前提として生きている。商品に値段がつけられ、対価を支払うことで取引が完了する関係は、極めて合理的で無駄がない。取引が終われば互いに何の義務も残らず、しがらみのない自由な個人として振る舞うことができるからだ。\n\nしかし、かつての伝統的な地域社会では、近隣同士でおすそ分けをしたり、労働力を無償で貸し借りしたりする「贈与（ギフト）」の慣習が生活の基盤にあった。贈与の特徴は、受け取った側に「いつか何かをお返ししなければならない」という心理的な負債感、すなわち緩やかな義務感を生み出す点にある。この借りと返しの終わりのない循環こそが、人々の間に見えない絆を結び、相互扶助のセーフティネットを形成していたのである。\n\n市場交換の浸透は、人々を煩わしい人間関係から解放した一方で、他者との有機的な結びつきを希薄化させ、深刻な孤独や孤立を生み出す原因にもなった。すべてをお金で解決できる社会は便利ではあるが、困ったときに利害関係を越えて助け合える関係性は育ちにくい。現代において、シェアハウスや子育ての共同支援、スキルシェアなど、非金銭的な分かち合いのコミュニティが再び注目されているのは、私たちが市場経済の合理性の向こう側に、贈与を通じた温かなつながりを本能的に求めている証拠と言えるだろう。",
+          "options": [
+            {
+              "id": "A",
+              "text": "お金のない人であっても、自分の労働力を提供すれば平等にモノが入手できる点。"
+            },
+            {
+              "id": "B",
+              "text": "地域住民同士が互いに助け合える強力なセーフティネットを自然に形成できる点。"
+            },
+            {
+              "id": "C",
+              "text": "商品の品質や安全性が公的に保証され、トラブルが絶対に起こらない点。"
+            },
+            {
+              "id": "D",
+              "text": "お金を支払って取引が完了すれば、相手に対して心理的なしがらみや義務が残らない点。"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanationVi": "Đoạn 1 nêu rõ: ưu điểm của trao đổi thị trường bằng tiền là giao dịch xong là xong, đôi bên không bị vướng bận ràng buộc nghĩa vụ nợ nần ân tình ('対価を支払うことで取引が完了...何の義務も残らず、しがらみのない自由な個人として振る舞うことができる').",
+          "distractorExplanations": {
+            "B": "Mạng lưới an sinh tương trợ là ưu điểm của hình thức tặng quà/trao đổi truyền thống (贈与), không phải trao đổi thị trường bằng tiền.",
+            "C": "Không hề nói thị trường bảo đảm không bao giờ xảy ra sự cố.",
+            "A": "Đổi sức lao động lấy đồ là đặc tính của kinh tế tặng quà/tương trợ không dùng tiền mặt."
+          }
+        },
+        {
+          "id": "N2_05_M11_02",
+          "typeId": "N2-RD-MID",
+          "skill": "Reading",
+          "category": "Mondai 11: 中文読解",
+          "stem": "「贈与」が伝統的な地域社会で果たしていた役割として、文章の説明と合致するものはどれか。",
+          "contextPassage": "現代の資本主義社会において、私たちはあらゆるモノやサービスをお金で売買する「市場交換」を当たり前の前提として生きている。商品に値段がつけられ、対価を支払うことで取引が完了する関係は、極めて合理的で無駄がない。取引が終われば互いに何の義務も残らず、しがらみのない自由な個人として振る舞うことができるからだ。\n\nしかし、かつての伝統的な地域社会では、近隣同士でおすそ分けをしたり、労働力を無償で貸し借りしたりする「贈与（ギフト）」の慣習が生活の基盤にあった。贈与の特徴は、受け取った側に「いつか何かをお返ししなければならない」という心理的な負債感、すなわち緩やかな義務感を生み出す点にある。この借りと返しの終わりのない循環こそが、人々の間に見えない絆を結び、相互扶助のセーフティネットを形成していたのである。\n\n市場交換の浸透は、人々を煩わしい人間関係から解放した一方で、他者との有機的な結びつきを希薄化させ、深刻な孤独や孤立を生み出す原因にもなった。すべてをお金で解決できる社会は便利ではあるが、困ったときに利害関係を越えて助け合える関係性は育ちにくい。現代において、シェアハウスや子育ての共同支援、スキルシェアなど、非金銭的な分かち合いのコミュニティが再び注目されているのは、私たちが市場経済の合理性の向こう側に、贈与を通じた温かなつながりを本能的に求めている証拠と言えるだろう。",
+          "options": [
+            {
+              "id": "A",
+              "text": "金銭的な富の格差を完全に解消し、すべての住民の生活水準を均等に保っていた。"
+            },
+            {
+              "id": "B",
+              "text": "お返しをしなければならないという終わりのない循環が、人々の絆と支え合いを生み出していた。"
+            },
+            {
+              "id": "C",
+              "text": "不要なモノを効率的に処分することで、環境破壊や資源の浪費を防いでいた。"
+            },
+            {
+              "id": "D",
+              "text": "外部からの侵入者を監視し、村の伝統的なルールを強制的に守らせていた。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "Đoạn 2 phân tích: việc tặng quà làm phát sinh tâm lý muốn trả ơn, chu kỳ nợ-trả ân tình tiếp diễn không hồi kết chính là sợi dây vô hình kết nối con người thành tấm lưới bảo trợ lẫn nhau.",
+          "distractorExplanations": {
+            "A": "Tác giả không nói tặng quà xóa bỏ hoàn toàn bất bình đẳng giàu nghèo.",
+            "C": "Không bàn về khía cạnh xả rác hay tiết kiệm tài nguyên môi trường.",
+            "D": "Không nói về việc canh phòng gián điệp hay bắt ép tuân thủ luật lệ một cách bạo lực."
+          }
+        },
+        {
+          "id": "N2_05_M11_03",
+          "typeId": "N2-RD-MID",
+          "skill": "Reading",
+          "category": "Mondai 11: 中文読解",
+          "stem": "現代において、シェアコミュニティなどの非金銭的なつながりが再評価されている理由として、筆者が述べているのはどれか。",
+          "contextPassage": "現代の資本主義社会において、私たちはあらゆるモノやサービスをお金で売買する「市場交換」を当たり前の前提として生きている。商品に値段がつけられ、対価を支払うことで取引が完了する関係は、極めて合理的で無駄がない。取引が終われば互いに何の義務も残らず、しがらみのない自由な個人として振る舞うことができるからだ。\n\nしかし、かつての伝統的な地域社会では、近隣同士でおすそ分けをしたり、労働力を無償で貸し借りしたりする「贈与（ギフト）」の慣習が生活の基盤にあった。贈与の特徴は、受け取った側に「いつか何かをお返ししなければならない」という心理的な負債感、すなわち緩やかな義務感を生み出す点にある。この借りと返しの終わりのない循環こそが、人々の間に見えない絆を結び、相互扶助のセーフティネットを形成していたのである。\n\n市場交換の浸透は、人々を煩わしい人間関係から解放した一方で、他者との有機的な結びつきを希薄化させ、深刻な孤独や孤立を生み出す原因にもなった。すべてをお金で解決できる社会は便利ではあるが、困ったときに利害関係を越えて助け合える関係性は育ちにくい。現代において、シェアハウスや子育ての共同支援、スキルシェアなど、非金銭的な分かち合いのコミュニティが再び注目されているのは、私たちが市場経済の合理性の向こう側に、贈与を通じた温かなつながりを本能的に求めている証拠と言えるだろう。",
+          "options": [
+            {
+              "id": "A",
+              "text": "政府が財政難のため、地域の福祉サービスを全面的に民間コミュニティに移管したから。"
+            },
+            {
+              "id": "B",
+              "text": "景気低迷により個人の可処分所得が減少し、金銭での売買が困難になったから。"
+            },
+            {
+              "id": "C",
+              "text": "市場経済の便利さの一方で失われた、損得勘定を越えた人間同士の温かな絆を人々が求めているから。"
+            },
+            {
+              "id": "D",
+              "text": "インターネットの普及により、見知らぬ他人を信用するリスクが完全になくなったから。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "Đoạn cuối khẳng định: con người dù được giải phóng nhờ tiền nhưng lại cô đơn, việc quay lại với mô hình chia sẻ là minh chứng cho thấy bản năng con người luôn khao khát sự gắn kết ấm áp vượt lên trên toan tính tiền bạc.",
+          "distractorExplanations": {
+            "B": "Tác giả giải thích dưới góc độ tâm lý xã hội và nhu cầu kết nối, không quy kết do nghèo đói không có tiền mua sắm.",
+            "A": "Không đề cập đến việc chính phủ trốn tránh trách nhiệm phúc lợi.",
+            "D": "Mạng Internet không làm triệt tiêu rủi ro lừa đảo, không liên quan đến lập luận tác giả."
+          }
+        },
+        {
+          "id": "N2_05_M11_04",
+          "typeId": "N2-RD-MID",
+          "skill": "Reading",
+          "category": "Mondai 11: 中文読解",
+          "stem": "現在実用化されている対話型AIの応答について、筆者はどのように説明しているか。",
+          "contextPassage": "近年、対話型AIの急速な進化により、まるで生身の人間と会話しているかのように自然で心温まる受け答えをするシステムが登場している。利用者の愚痴や悩みを優しく聞き、適切な慰めの言葉をかけてくれるAIカウンセラーや癒やし系ロボットは、多くの人々の孤独感を和らげる存在として歓迎されている。\n\nしかし、ここで一つの根源的な問いが浮かび上がる。AIが提示する「共感」は、本当に人間が他者に寄せる共感と同じものなのだろうか。\n\n現在のAIの仕組みは、膨大なテキストデータを統計的に分析し、「どのような言葉を投げかけられたときに、どのような応答を返せば人間が満足するか」という確率的なパターンを再現しているにすぎない。AI自身が悲しみを味わい、身体的な痛みに苦しみ、死の恐怖に怯えているわけではない。つまり、AIが行っているのは共感の「シミュレーション（模倣）」であって、そこに主観的な感情体験は存在しないのである。\n\n真の共感とは、自らも傷つきやすい不完全な肉体と心を持つ存在だからこそ、他者の痛みを「我がことのように」想像できる痛切な能力である。AIの言葉に慰めを見出すこと自体を否定する必要はないが、私たちがその模倣を本物の共感と混同し、生身の他者と傷つき合いながら関係を深める労力を放棄してしまえば、人間の感情の奥行きそのものが痩せ細ってしまうのではないだろうか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "開発者の道徳観や人生経験がそのままプログラムとして埋め込まれて出力されている。"
+            },
+            {
+              "id": "B",
+              "text": "対話を重ねる中で機械独自の感情や意識が芽生え、自発的に相手を思いやっている。"
+            },
+            {
+              "id": "C",
+              "text": "利用者の脳波や心拍数をリアルタイムで測定し、医学的に最適な慰めの言葉を選んでいる。"
+            },
+            {
+              "id": "D",
+              "text": "過去の膨大なデータを統計的に分析し、人間が好む確率の高い言葉のパターンを再現している。"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanationVi": "Đoạn 3 giải thích cơ chế: AI thực chất là phân tích thống kê lượng dữ liệu văn bản khổng lồ để tái hiện các khuôn mẫu phản hồi có xác suất khiến con người hài lòng cao nhất.",
+          "distractorExplanations": {
+            "B": "Tác giả khẳng định AI hoàn toàn không có ý thức hay cảm xúc chủ quan nảy sinh.",
+            "C": "Không đề cập đến việc đo sóng não hay nhịp tim sinh học.",
+            "A": "Không phải do kinh nghiệm sống cá nhân của lập trình viên cấy trực tiếp vào."
+          }
+        },
+        {
+          "id": "N2_05_M11_05",
+          "typeId": "N2-RD-MID",
+          "skill": "Reading",
+          "category": "Mondai 11: 中文読解",
+          "stem": "筆者が考える、人間ならではの「真の共感」の根源とは何か。",
+          "contextPassage": "近年、対話型AIの急速な進化により、まるで生身の人間と会話しているかのように自然で心温まる受け答えをするシステムが登場している。利用者の愚痴や悩みを優しく聞き、適切な慰めの言葉をかけてくれるAIカウンセラーや癒やし系ロボットは、多くの人々の孤独感を和らげる存在として歓迎されている。\n\nしかし、ここで一つの根源的な問いが浮かび上がる。AIが提示する「共感」は、本当に人間が他者に寄せる共感と同じものなのだろうか。\n\n現在のAIの仕組みは、膨大なテキストデータを統計的に分析し、「どのような言葉を投げかけられたときに、どのような応答を返せば人間が満足するか」という確率的なパターンを再現しているにすぎない。AI自身が悲しみを味わい、身体的な痛みに苦しみ、死の恐怖に怯えているわけではない。つまり、AIが行っているのは共感の「シミュレーション（模倣）」であって、そこに主観的な感情体験は存在しないのである。\n\n真の共感とは、自らも傷つきやすい不完全な肉体と心を持つ存在だからこそ、他者の痛みを「我がことのように」想像できる痛切な能力である。AIの言葉に慰めを見出すこと自体を否定する必要はないが、私たちがその模倣を本物の共感と混同し、生身の他者と傷つき合いながら関係を深める労力を放棄してしまえば、人間の感情の奥行きそのものが痩せ細ってしまうのではないだろうか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "感情に流されることなく、相手の悩みを客観的・論理的に分析して解決策を示すこと。"
+            },
+            {
+              "id": "B",
+              "text": "自らも痛みや死を恐れる傷つきやすい存在だからこそ、他者の苦痛を想像できること。"
+            },
+            {
+              "id": "C",
+              "text": "高度な心理学の知識を身につけ、相手の言葉の裏にある無意識の欲求を見抜くこと。"
+            },
+            {
+              "id": "D",
+              "text": "どのような過ちを犯した相手であっても、無条件でその行動を全肯定して受け入れること。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "Đoạn 4 nhấn mạnh: sự thấu cảm thực sự bắt nguồn từ việc chính bản thân con người là một thực thể dễ bị tổn thương, có thể trải qua nỗi đau và cái chết, từ đó mới có thể đau nỗi đau của người khác như của chính mình.",
+          "distractorExplanations": {
+            "A": "Phân tích logic không cảm xúc là cách máy móc làm, trái ngược với bản chất thấu cảm.",
+            "C": "Thấu cảm xuất phát từ tâm cảm của cơ thể sinh học, không phải đòi hỏi bằng cấp tâm lý học.",
+            "D": "Thấu cảm không phải là dung túng hay khen ngợi mù quáng mọi hành vi sai trái."
+          }
+        },
+        {
+          "id": "N2_05_M11_06",
+          "typeId": "N2-RD-MID",
+          "skill": "Reading",
+          "category": "Mondai 11: 中文読解",
+          "stem": "この文章の結論として、筆者が最も警鐘を鳴らしていることは何か。",
+          "contextPassage": "近年、対話型AIの急速な進化により、まるで生身の人間と会話しているかのように自然で心温まる受け答えをするシステムが登場している。利用者の愚痴や悩みを優しく聞き、適切な慰めの言葉をかけてくれるAIカウンセラーや癒やし系ロボットは、多くの人々の孤独感を和らげる存在として歓迎されている。\n\nしかし、ここで一つの根源的な問いが浮かび上がる。AIが提示する「共感」は、本当に人間が他者に寄せる共感と同じものなのだろうか。\n\n現在のAIの仕組みは、膨大なテキストデータを統計的に分析し、「どのような言葉を投げかけられたときに、どのような応答を返せば人間が満足するか」という確率的なパターンを再現しているにすぎない。AI自身が悲しみを味わい、身体的な痛みに苦しみ、死の恐怖に怯えているわけではない。つまり、AIが行っているのは共感の「シミュレーション（模倣）」であって、そこに主観的な感情体験は存在しないのである。\n\n真の共感とは、自らも傷つきやすい不完全な肉体と心を持つ存在だからこそ、他者の痛みを「我がことのように」想像できる痛切な能力である。AIの言葉に慰めを見出すこと自体を否定する必要はないが、私たちがその模倣を本物の共感と混同し、生身の他者と傷つき合いながら関係を深める労力を放棄してしまえば、人間の感情の奥行きそのものが痩せ細ってしまうのではないだろうか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "AIロボットに過度の感情移入をしてしまい、高額な課金を続けて破産する人が増えること。"
+            },
+            {
+              "id": "B",
+              "text": "対話型AIの開発が急速に進むことで、カウンセラーなどの専門職が職を失うこと。"
+            },
+            {
+              "id": "C",
+              "text": "AIの模倣を真の共感と勘違いし、生身の人間と深く向き合う努力を怠ってしまうこと。"
+            },
+            {
+              "id": "D",
+              "text": "人間がAIに依存しすぎるあまり、言語能力や文章作成能力が著しく退化すること。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "Câu cuối bài cảnh báo: nếu con người nhầm lẫn sự bắt chước của máy móc là thấu cảm thực sự, rồi từ bỏ nỗ lực kết nối đối thoại với đồng loại ngoài đời thực thì chiều sâu cảm xúc của con người sẽ bị lụi tàn.",
+          "distractorExplanations": {
+            "B": "Không bàn về vấn đề mất việc làm hay thị trường lao động.",
+            "A": "Không đề cập đến khía cạnh lừa đảo tài chính hay nạp tiền chơi game.",
+            "D": "Không bàn về sự suy thoái khả năng viết lách ngữ pháp."
+          }
+        },
+        {
+          "id": "N2_05_M11_07",
+          "typeId": "N2-RD-MID",
+          "skill": "Reading",
+          "category": "Mondai 11: 中文読解",
+          "stem": "都市部で「ヒートアイランド現象」が発生する主な原因として、筆者が挙げているものはどれか。",
+          "contextPassage": "大都市圏において、アスファルトやコンクリートで覆われた地表面の蓄熱や、ビル空調・自動車などからの人工排熱によって、都心部の気温が周辺の郊外よりも異常に高くなる「ヒートアイランド現象」が深刻化している。この現象は熱中症のリスクを高めるだけでなく、夜間の寝苦しさによる睡眠障害や、都市型集中豪雨の頻発など、市民生活や防災に多大な悪影響を及ぼしている。\n\nこの問題に対する都市計画上の画期的なアプローチとして、近年「風の道（Wind Corridor）」という概念に基づいた空間設計が注目を集めている。「風の道」とは、海や大規模な森林、河川敷などから吹き込む涼しい新鮮な風を、遮ることなく都心の過熱したエリアへとスムーズに引き込むための環境的な動線のことである。\n\n従来の都市開発では、土地の利用効率や経済性を最優先し、河川沿いや海岸沿いに壁のように巨大な高層ビル群が隙間なく建設される傾向があった。その結果、海からの心地よい風がビルの壁に遮断され、内陸部に熱気が滞留する悪循環が生じていたのである。\n\n現在進められている先進的な再開発計画では、川沿いの建物の高さを制限して開放的な緑地帯を確保したり、建物の配置や向きを地域の卓越風（年間を通じて最も頻繁に吹く風）の方向に合わせて斜めに整列させたりする工夫が導入されている。都市の発展と自然の気象メカニズムを調和させる知恵こそが、持続可能な未来都市の基盤となるのである。",
+          "options": [
+            {
+              "id": "A",
+              "text": "高層ビルの建設により日照時間が短縮され、地表の湿度が異常に高まったこと。"
+            },
+            {
+              "id": "B",
+              "text": "地球全体の温暖化により、海水の温度が年間を通じて急激に上昇したこと。"
+            },
+            {
+              "id": "C",
+              "text": "郊外の農地や森林が開発され、都市への農産物の供給がストップしたこと。"
+            },
+            {
+              "id": "D",
+              "text": "地表面のアスファルト等による熱の蓄積と、建物や車両からの人工排熱。"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanationVi": "Đoạn 1 nêu rõ 2 nguyên nhân cốt lõi: nhiệt lượng tích tụ trên mặt đường nhựa/bê tông ('アスファルトやコンクリートで覆われた地表面の蓄熱') và nhiệt nhân tạo thải ra từ điều hòa các tòa nhà, động cơ ô tô ('ビル空調・自動車などからの人工排熱').",
+          "distractorExplanations": {
+            "B": "Nhiệt độ nước biển toàn cầu là hiện tượng vĩ mô, không phải nguyên nhân cục bộ nội đô được nêu.",
+            "C": "Không liên quan đến nguồn cung cấp nông sản.",
+            "A": "Nhà cao tầng chắn nắng không làm tăng độ ẩm mà nguyên nhân là tích nhiệt và thải nhiệt."
+          }
+        },
+        {
+          "id": "N2_05_M11_08",
+          "typeId": "N2-RD-MID",
+          "skill": "Reading",
+          "category": "Mondai 11: 中文読解",
+          "stem": "都市計画における「風の道」の基本的な役割とは何か。",
+          "contextPassage": "大都市圏において、アスファルトやコンクリートで覆われた地表面の蓄熱や、ビル空調・自動車などからの人工排熱によって、都心部の気温が周辺の郊外よりも異常に高くなる「ヒートアイランド現象」が深刻化している。この現象は熱中症のリスクを高めるだけでなく、夜間の寝苦しさによる睡眠障害や、都市型集中豪雨の頻発など、市民生活や防災に多大な悪影響を及ぼしている。\n\nこの問題に対する都市計画上の画期的なアプローチとして、近年「風の道（Wind Corridor）」という概念に基づいた空間設計が注目を集めている。「風の道」とは、海や大規模な森林、河川敷などから吹き込む涼しい新鮮な風を、遮ることなく都心の過熱したエリアへとスムーズに引き込むための環境的な動線のことである。\n\n従来の都市開発では、土地の利用効率や経済性を最優先し、河川沿いや海岸沿いに壁のように巨大な高層ビル群が隙間なく建設される傾向があった。その結果、海からの心地よい風がビルの壁に遮断され、内陸部に熱気が滞留する悪循環が生じていたのである。\n\n現在進められている先進的な再開発計画では、川沿いの建物の高さを制限して開放的な緑地帯を確保したり、建物の配置や向きを地域の卓越風（年間を通じて最も頻繁に吹く風）の方向に合わせて斜めに整列させたりする工夫が導入されている。都市の発展と自然の気象メカニズムを調和させる知恵こそが、持続可能な未来都市の基盤となるのである。",
+          "options": [
+            {
+              "id": "A",
+              "text": "超高層ビルの上層部に巨大な風力発電機を設置し、クリーンな電力を供給すること。"
+            },
+            {
+              "id": "B",
+              "text": "海や河川から吹き込む涼しい風を遮らず、都心の熱気があるエリアへとスムーズに導くこと。"
+            },
+            {
+              "id": "C",
+              "text": "台風などの強風が直接ビル街に衝突するのを防ぐため、沿岸部に高い防風林を築くこと。"
+            },
+            {
+              "id": "D",
+              "text": "自動車の排気ガスを上空へと急速に吸い上げるための専用の大型排気ダクトを作ること。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "Đoạn 2 định nghĩa rõ ràng: '風の道' là luồng lưu thông môi trường nhằm dẫn luồng gió mát tươi mới từ biển, sông hồ vào sâu trong nội đô mà không bị cản trở ('涼しい新鮮な風を、遮ることなく都心の過熱したエリアへとスムーズに引き込む').",
+          "distractorExplanations": {
+            "A": "Không phải là lắp tua-bin phát điện gió trên nóc nhà.",
+            "C": "Không phải là trồng rừng phòng hộ chắn gió bão mà là mở đường cho gió mát vào.",
+            "D": "Không phải ống thông gió hút khí thải xe cộ."
+          }
+        },
+        {
+          "id": "N2_05_M11_09",
+          "typeId": "N2-RD-MID",
+          "skill": "Reading",
+          "category": "Mondai 11: 中文読解",
+          "stem": "文章中で紹介されている、先進的な再開発における具体的な工夫はどれか。",
+          "contextPassage": "大都市圏において、アスファルトやコンクリートで覆われた地表面の蓄熱や、ビル空調・自動車などからの人工排熱によって、都心部の気温が周辺の郊外よりも異常に高くなる「ヒートアイランド現象」が深刻化している。この現象は熱中症のリスクを高めるだけでなく、夜間の寝苦しさによる睡眠障害や、都市型集中豪雨の頻発など、市民生活や防災に多大な悪影響を及ぼしている。\n\nこの問題に対する都市計画上の画期的なアプローチとして、近年「風の道（Wind Corridor）」という概念に基づいた空間設計が注目を集めている。「風の道」とは、海や大規模な森林、河川敷などから吹き込む涼しい新鮮な風を、遮ることなく都心の過熱したエリアへとスムーズに引き込むための環境的な動線のことである。\n\n従来の都市開発では、土地の利用効率や経済性を最優先し、河川沿いや海岸沿いに壁のように巨大な高層ビル群が隙間なく建設される傾向があった。その結果、海からの心地よい風がビルの壁に遮断され、内陸部に熱気が滞留する悪循環が生じていたのである。\n\n現在進められている先進的な再開発計画では、川沿いの建物の高さを制限して開放的な緑地帯を確保したり、建物の配置や向きを地域の卓越風（年間を通じて最も頻繁に吹く風）の方向に合わせて斜めに整列させたりする工夫が導入されている。都市の発展と自然の気象メカニズムを調和させる知恵こそが、持続可能な未来都市の基盤となるのである。",
+          "options": [
+            {
+              "id": "A",
+              "text": "夏の間はすべてのビル空調の稼働を一律に停止し、窓を開けて自然換気を行うこと。"
+            },
+            {
+              "id": "B",
+              "text": "すべての道路のアスファルトを剥がし、全面を芝生や樹木に置き換えること。"
+            },
+            {
+              "id": "C",
+              "text": "川沿いの建物の高さを抑え、建物の向きを年間で最もよく吹く風の方向に合わせて配置すること。"
+            },
+            {
+              "id": "D",
+              "text": "海岸沿いに巨大な人工壁を建設し、海からの湿った風が市街地に入るのを防ぐこと。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "Đoạn cuối liệt kê giải pháp công nghệ: khống chế chiều cao công trình ven sông để tạo dải xanh, đồng thời điều chỉnh góc quay của tòa nhà khớp với hướng gió chủ đạo (卓越風) để đón gió tối đa.",
+          "distractorExplanations": {
+            "B": "Không thể bóc hết đường nhựa thay bằng cỏ trên toàn đô thị hiện đại.",
+            "A": "Không bắt buộc tắt toàn bộ điều hòa giữa mùa hè nóng bức.",
+            "D": "Xây tường ngăn gió biển là nguyên nhân gây tích nhiệt ở quá khứ, hoàn toàn trái ngược với giải pháp '風の道'."
+          }
+        },
+        {
+          "id": "N2_05_M12_01",
+          "typeId": "N2-RD-COMP",
+          "skill": "Reading",
+          "category": "Mondai 12: 統合理解 — キャリアにおける失敗の捉え方",
+          "stem": "AとBの筆者が共に認めている点は何か。",
+          "contextPassage": "【A】\n若手ビジネスパーソンが成長するためには、「早い段階で多くの失敗を経験すること」こそが何よりの財産となる。机の上でいくら綿密な計画を練っても、実際のビジネスの現場では予測不能な事態の連続である。自ら果敢に挑戦し、手痛い失敗を経験して初めて、自分の実力不足を痛感し、教科書には載っていない実践的な知恵や柔軟な軌道修正力が身につく。失敗を過度に恐れて安全な道ばかりを選ぶ人間は、致命的な過ちを犯さない代わりに、自らの可能性を大きく広げることもできない。失敗から学び立ち直る「回復力（レジリエンス）」こそが、不確実な時代を生き抜く真の武器となるのである。\n\n【B】\n近年、ビジネスの世界で「失敗を恐れずに挑戦せよ」「失敗は成功の母だ」という言説が無批判に賛美される風潮があるが、これには強い警戒が必要だ。確かに失敗から得られる教訓はあるが、現代の複雑化したビジネス環境において、準備不足や無謀な判断による失敗は、個人の信用失墜や組織への甚大な経済的打撃につながりかねない。賢明なプロフェッショナルが目指すべきは、自ら泥をかぶって無駄な失敗を繰り返すことではなく、先人の失敗事例を徹底的に分析し、計算されたリスク管理のもとで「防げる失敗を確実に回避すること」である。無傷で目的を達成できるのであれば、それに越したことはないのだ。",
+          "options": [
+            {
+              "id": "A",
+              "text": "他人の過去の失敗を分析しても、自分の実際の現場では全く役に立たないという点。"
+            },
+            {
+              "id": "B",
+              "text": "若いうちはどれほど大きな経済的損失を出しても、失敗を繰り返すべきだという点。"
+            },
+            {
+              "id": "C",
+              "text": "教科書通りの安全な計画を立てていれば、ビジネスで失敗することは絶対にないという点。"
+            },
+            {
+              "id": "D",
+              "text": "失敗を経験すること自体から、何らかの教訓や学びを得ることはできるという点。"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanationVi": "Cả hai tác giả đều thừa nhận thất bại đem lại bài học: Tác giả A coi đó là tài sản quý báu rèn luyện bản lĩnh; Tác giả B dù cảnh giác cũng thừa nhận '確かに失敗から得られる教訓はある' (Đúng là có những bài học rút ra được từ thất bại).",
+          "distractorExplanations": {
+            "B": "Tác giả B phản đối kịch liệt việc gây tổn thất kinh tế hay hủy hoại uy tín.",
+            "C": "Cả hai đều hiểu kinh doanh nhiều biến số, không ai nói làm theo sách là tuyệt đối không thất bại.",
+            "A": "Tác giả B đánh giá rất cao việc học hỏi từ thất bại của người đi trước để tránh lặp lại."
+          }
+        },
+        {
+          "id": "N2_05_M12_02",
+          "typeId": "N2-RD-COMP",
+          "skill": "Reading",
+          "category": "Mondai 12: 統合理解 — キャリアにおける失敗の捉え方",
+          "stem": "失敗に対する向き合い方について、AとBの主張の違いとして最も適切なものはどれか。",
+          "contextPassage": "【A】\n若手ビジネスパーソンが成長するためには、「早い段階で多くの失敗を経験すること」こそが何よりの財産となる。机の上でいくら綿密な計画を練っても、実際のビジネスの現場では予測不能な事態の連続である。自ら果敢に挑戦し、手痛い失敗を経験して初めて、自分の実力不足を痛感し、教科書には載っていない実践的な知恵や柔軟な軌道修正力が身につく。失敗を過度に恐れて安全な道ばかりを選ぶ人間は、致命的な過ちを犯さない代わりに、自らの可能性を大きく広げることもできない。失敗から学び立ち直る「回復力（レジリエンス）」こそが、不確実な時代を生き抜く真の武器となるのである。\n\n【B】\n近年、ビジネスの世界で「失敗を恐れずに挑戦せよ」「失敗は成功の母だ」という言説が無批判に賛美される風潮があるが、これには強い警戒が必要だ。確かに失敗から得られる教訓はあるが、現代の複雑化したビジネス環境において、準備不足や無謀な判断による失敗は、個人の信用失墜や組織への甚大な経済的打撃につながりかねない。賢明なプロフェッショナルが目指すべきは、自ら泥をかぶって無駄な失敗を繰り返すことではなく、先人の失敗事例を徹底的に分析し、計算されたリスク管理のもとで「防げる失敗を確実に回避すること」である。無傷で目的を達成できるのであれば、それに越したことはないのだ。",
+          "options": [
+            {
+              "id": "A",
+              "text": "Aは個人の信用を第一に守るべきだと主張し、Bは組織の利益のためなら個人の失敗は問わないと考える。"
+            },
+            {
+              "id": "B",
+              "text": "Aは失敗を恐れず果敢に挑戦して立ち直る力を養うべきだとし、Bは事前分析で防げる失敗は避けるべきだと説く。"
+            },
+            {
+              "id": "C",
+              "text": "Aは先人の失敗事例を研究することの重要性を強調し、Bは自分の直感を信じて行動することを勧める。"
+            },
+            {
+              "id": "D",
+              "text": "Aは不確実な時代には挑戦自体を控えるべきだと考え、Bはどんな無謀なリスクも歓迎すべきだと主張する。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "Tác giả A cổ vũ dũng cảm dấn thân và rèn luyện sức bật sau vấp ngã (レジリエンス); Tác giả B phản đối lãng mạn hóa thất bại liều lĩnh, khuyên phân tích kỹ tiền lệ và quản trị rủi ro để né tránh những sai lầm có thể phòng ngừa.",
+          "distractorExplanations": {
+            "A": "Ngược lại, tác giả B mới là người lo ngại mất uy tín cá nhân và thiệt hại tổ chức.",
+            "C": "Nghiên cứu tiền lệ của người đi trước là quan điểm của B, không phải A.",
+            "D": "Hoàn toàn đảo ngược lập trường của cả hai tác giả."
+          }
+        },
+        {
+          "id": "N2_05_M13_01",
+          "typeId": "N2-RD-LONG",
+          "skill": "Reading",
+          "category": "Mondai 13: 長文読解 — 加速化する現代社会と時間の哲学",
+          "stem": "技術の進歩によって本来期待されていたことと、現代の現実とのギャップとして筆者が指摘しているのはどれか。",
+          "contextPassage": "科学技術の進歩は、私たちに前例のない「スピード」と「効率」をもたらした。新幹線や航空機は物理的な移動時間を劇的に短縮し、インターネットやスマートフォンの普及は、地球の裏側の情報であっても一瞬で手元に届けてくれる。本来、これらの技術革新は、人々の生活から無駄な手間を省き、余暇や休息のための「ゆとりのある時間」を大量に生み出してくれるはずであった。\n\nところが、現実はどうだろうか。私たちは過去のどの時代の人々よりも時間に追われ、常に「時間がない」と焦燥感を募らせている。技術が処理速度を上げれば上げるほど、単位時間あたりに処理すべきタスクの量が加速度的に増大し、結果として私たちはより過密なスケジュールに縛られることになった。かつては職場を離れれば仕事から解放されていたはずが、常時接続の通信網によって、いつでもどこでも連絡が取れる状態になり、プライベートな時間と労働時間の境界線は完全に曖昧になってしまったのである。\n\n社会学者のローザは、現代社会を特徴づけるこの現象を「社会の加速化」と呼んだ。技術の加速、社会変動の加速、そして生活ペースの加速が相互に絡み合い、私たちは立ち止まること自体に罪悪感や取り残される恐怖を抱くようになる。効率性を追求するあまり、物事をじっくりと熟成させる時間や、他者と非効率に対話を重ねる時間、何もしない空白の時間が「無駄」として次々と切り捨てられていく。\n\nしかし、人間にとって時間とは、単にデジタル時計の針が刻む均質な量（クロノス）に尽きるものではない。古代ギリシャ人は、客観的に流れる時間とは別に、意味や充足感に満ちた主観的な決定的一瞬を「カイロス」と呼んで区別した。夕焼けの美しさに心を奪われるひとときや、親しい友と語り合うかけがえのない時間には、生産性や効率という物差しは通用しない。\n\n私たちが真の豊かさを取り戻すためには、効率性の競争から一度意識的に距離を置き、自らの時間を主体的に選び取る勇気を持つ必要がある。「すべての時間を有効活用しなければならない」という強迫観念を手放し、無駄の中にこそ潜む人生の深い味わいに気づくこと。それこそが、加速し続ける現代社会に対する最も人間的で根源的な抵抗なのである。",
+          "options": [
+            {
+              "id": "A",
+              "text": "通信技術の発達によって職場の人間関係が円滑になるはずだったが、対面での対話が完全に途絶えた。"
+            },
+            {
+              "id": "B",
+              "text": "物理的な移動時間が短縮された結果、人々が旅行や観光に全く興味を示さなくなってしまった。"
+            },
+            {
+              "id": "C",
+              "text": "技術革新で自由なゆとり時間が生まれるはずだったが、かえって処理すべき仕事が増えて時間に追われている。"
+            },
+            {
+              "id": "D",
+              "text": "インターネットの普及で誰でも専門知識を持てるようになったが、読書をする習慣が失われた。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "Đoạn 1 và 2 đối chiếu rõ: ban đầu kỳ vọng công nghệ giúp tiết kiệm sức lao động để con người có nhiều thời gian rảnh rỗi nghỉ ngơi, nhưng thực tế tốc độ xử lý nhanh khiến lượng việc dồn về trong một đơn vị thời gian tăng theo cấp số nhân, khiến con người luôn bận rộn hối hả hơn trước.",
+          "distractorExplanations": {
+            "B": "Không hề nói con người không còn hứng thú đi du lịch.",
+            "A": "Không bàn về sự gián đoạn tuyệt đối trong giao tiếp công sở.",
+            "D": "Không đề cập đến việc phổ cập tri thức hay thói quen đọc sách."
+          }
+        },
+        {
+          "id": "N2_05_M13_02",
+          "typeId": "N2-RD-LONG",
+          "skill": "Reading",
+          "category": "Mondai 13: 長文読解 — 加速化する現代社会と時間の哲学",
+          "stem": "筆者が述べる「カイロス」とは、どのような時間を指しているか。",
+          "contextPassage": "科学技術の進歩は、私たちに前例のない「スピード」と「効率」をもたらした。新幹線や航空機は物理的な移動時間を劇的に短縮し、インターネットやスマートフォンの普及は、地球の裏側の情報であっても一瞬で手元に届けてくれる。本来、これらの技術革新は、人々の生活から無駄な手間を省き、余暇や休息のための「ゆとりのある時間」を大量に生み出してくれるはずであった。\n\nところが、現実はどうだろうか。私たちは過去のどの時代の人々よりも時間に追われ、常に「時間がない」と焦燥感を募らせている。技術が処理速度を上げれば上げるほど、単位時間あたりに処理すべきタスクの量が加速度的に増大し、結果として私たちはより過密なスケジュールに縛られることになった。かつては職場を離れれば仕事から解放されていたはずが、常時接続の通信網によって、いつでもどこでも連絡が取れる状態になり、プライベートな時間と労働時間の境界線は完全に曖昧になってしまったのである。\n\n社会学者のローザは、現代社会を特徴づけるこの現象を「社会の加速化」と呼んだ。技術の加速、社会変動の加速、そして生活ペースの加速が相互に絡み合い、私たちは立ち止まること自体に罪悪感や取り残される恐怖を抱くようになる。効率性を追求するあまり、物事をじっくりと熟成させる時間や、他者と非効率に対話を重ねる時間、何もしない空白の時間が「無駄」として次々と切り捨てられていく。\n\nしかし、人間にとって時間とは、単にデジタル時計の針が刻む均質な量（クロノス）に尽きるものではない。古代ギリシャ人は、客観的に流れる時間とは別に、意味や充足感に満ちた主観的な決定的一瞬を「カイロス」と呼んで区別した。夕焼けの美しさに心を奪われるひとときや、親しい友と語り合うかけがえのない時間には、生産性や効率という物差しは通用しない。\n\n私たちが真の豊かさを取り戻すためには、効率性の競争から一度意識的に距離を置き、自らの時間を主体的に選び取る勇気を持つ必要がある。「すべての時間を有効活用しなければならない」という強迫観念を手放し、無駄の中にこそ潜む人生の深い味わいに気づくこと。それこそが、加速し続ける現代社会に対する最も人間的で根源的な抵抗なのである。",
+          "options": [
+            {
+              "id": "A",
+              "text": "社会の急速な変化に取り残されないよう、最新の情報を常に収集し続ける時間。"
+            },
+            {
+              "id": "B",
+              "text": "時計の針が正確に刻む、すべての人間に対して平等に流れる客観的な物理時間。"
+            },
+            {
+              "id": "C",
+              "text": "将来のキャリアアップのために、資格取得や勉強に充てるべき自己投資の時間。"
+            },
+            {
+              "id": "D",
+              "text": "生産性や効率とは無関係な、意味や充足感に満ちた主観的なかけがえのない一瞬。"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanationVi": "Đoạn 4 định nghĩa: trái với thời gian cơ học định lượng đều đều (Chronos), Kairos là khoảnh khắc thời gian chủ quan ngập tràn ý nghĩa và sự viên mãn (ngắm hoàng hôn, đàm đạo bên bạn bè), nơi mà thước đo năng suất hiệu quả hoàn toàn vô nghĩa.",
+          "distractorExplanations": {
+            "B": "Thời gian vật lý khách quan do đồng hồ tích tắc chính là Chronos (均質な量・クロノス).",
+            "C": "Học tập để thăng tiến nghề nghiệp vẫn thuộc phạm trù tối ưu hóa năng suất hiệu quả.",
+            "A": "Cập nhật tin tức liên tục là biểu hiện của việc bị cuốn theo guồng quay gia tốc xã hội."
+          }
+        },
+        {
+          "id": "N2_05_M13_03",
+          "typeId": "N2-RD-LONG",
+          "skill": "Reading",
+          "category": "Mondai 13: 長文読解 — 加速化する現代社会と時間の哲学",
+          "stem": "この文章を通じて、筆者が現代人に提案している生き方として最も適切なものはどれか。",
+          "contextPassage": "科学技術の進歩は、私たちに前例のない「スピード」と「効率」をもたらした。新幹線や航空機は物理的な移動時間を劇的に短縮し、インターネットやスマートフォンの普及は、地球の裏側の情報であっても一瞬で手元に届けてくれる。本来、これらの技術革新は、人々の生活から無駄な手間を省き、余暇や休息のための「ゆとりのある時間」を大量に生み出してくれるはずであった。\n\nところが、現実はどうだろうか。私たちは過去のどの時代の人々よりも時間に追われ、常に「時間がない」と焦燥感を募らせている。技術が処理速度を上げれば上げるほど、単位時間あたりに処理すべきタスクの量が加速度的に増大し、結果として私たちはより過密なスケジュールに縛られることになった。かつては職場を離れれば仕事から解放されていたはずが、常時接続の通信網によって、いつでもどこでも連絡が取れる状態になり、プライベートな時間と労働時間の境界線は完全に曖昧になってしまったのである。\n\n社会学者のローザは、現代社会を特徴づけるこの現象を「社会の加速化」と呼んだ。技術の加速、社会変動の加速、そして生活ペースの加速が相互に絡み合い、私たちは立ち止まること自体に罪悪感や取り残される恐怖を抱くようになる。効率性を追求するあまり、物事をじっくりと熟成させる時間や、他者と非効率に対話を重ねる時間、何もしない空白の時間が「無駄」として次々と切り捨てられていく。\n\nしかし、人間にとって時間とは、単にデジタル時計の針が刻む均質な量（クロノス）に尽きるものではない。古代ギリシャ人は、客観的に流れる時間とは別に、意味や充足感に満ちた主観的な決定的一瞬を「カイロス」と呼んで区別した。夕焼けの美しさに心を奪われるひとときや、親しい友と語り合うかけがえのない時間には、生産性や効率という物差しは通用しない。\n\n私たちが真の豊かさを取り戻すためには、効率性の競争から一度意識的に距離を置き、自らの時間を主体的に選び取る勇気を持つ必要がある。「すべての時間を有効活用しなければならない」という強迫観念を手放し、無駄の中にこそ潜む人生の深い味わいに気づくこと。それこそが、加速し続ける現代社会に対する最も人間的で根源的な抵抗なのである。",
+          "options": [
+            {
+              "id": "A",
+              "text": "スマートフォンなどの通信機器の使用を完全にやめ、文明を拒絶して自給自足の生活に戻ること。"
+            },
+            {
+              "id": "B",
+              "text": "すべての時間を効率的に使う強迫観念を手放し、一見無駄に見える時間の中に人生の豊かさを見出すこと。"
+            },
+            {
+              "id": "C",
+              "text": "過密なスケジュールを完璧にこなすため、最新のタスク管理アプリを駆使して自己管理を徹底すること。"
+            },
+            {
+              "id": "D",
+              "text": "会社の労働時間を法律で厳しく制限するよう、労働組合を通じて経営陣に強く抗議すること。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "Đoạn kết đúc kết thông điệp: cần dũng cảm buông bỏ nỗi ám ảnh 'phải tận dụng hiệu quả từng giây từng phút', nhận ra phong vị sâu sắc của cuộc đời ẩn trong những khoảng thời gian tưởng chừng như vô dụng, đó mới là sự phản kháng nhân văn nhất.",
+          "distractorExplanations": {
+            "A": "Tác giả khuyên có khoảng cách ý thức, không hề cổ súy bài trừ công nghệ hay về rừng tự cấp tự túc.",
+            "C": "Dùng ứng dụng quản lý tác vụ để nhồi nhét việc càng làm tăng thêm áp lực gia tốc.",
+            "D": "Bài viết mang tính triết học nhân sinh, không bàn về kiến nghị công đoàn đấu tranh pháp lý."
+          }
+        },
+        {
+          "id": "N2_05_M14_01",
+          "typeId": "N2-RD-INFO",
+          "skill": "Reading",
+          "category": "Mondai 14: 情報検索 — 市民文化センター利用案内",
+          "stem": "市内に勤務するメンバーが過半数を占める非営利の市民合唱団が、平日の午後に大ホールを利用し、グランドピアノとワイヤレスマイクを使用する場合、合計料金はいくらになるか。入場料は無料とする。",
+          "contextPassage": "【市民文化センター ホールおよび練習室の利用案内】\n\n1. 施設概要および利用時間区分\n・大ホール（定員800名）：午前（9:00〜12:00）、午後（13:00〜17:00）、夜間（18:00〜22:00）\n・多目的室（定員50名）：上記区分に加え、全日（9:00〜22:00）の一括利用が可能。\n※準備および原状復帰（清掃含む）は、必ず承認された利用時間内に完了してください。\n\n2. 利用料金および減免制度\n・基本利用料：大ホール（平日：午前15,000円、午後25,000円、夜間30,000円／土日祝は2割増）\n・市内在住・在勤者が過半数を占める非営利団体が利用する場合、基本利用料が30%減額されます。\n・入場料を徴収する催し（営利目的）の場合、基本利用料に50%の割増料金が加算されます。\n\n3. 附帯設備利用料（1区分あたり・税込）\n・グランドピアノ（調律代別）：5,000円\n・ステージ照明セット一式：3,000円\n・ワイヤレスマイク（2本1組）：1,500円\n・大型プロジェクターおよびスクリーン：4,000円\n※附帯設備の利用料金には減免制度は適用されません。\n\n4. 予約取消（キャンセル）および還付規定\n・利用日の30日前までに所定の取消届を提出した場合：納入済み利用料の70%を返金。\n・利用日の14日前までに所定の取消届を提出した場合：納入済み利用料の50%を返金。\n・利用日の13日前以降の取消：返金不可（0%）。\n※自然災害等、不可抗力により施設が使用不能となった場合は、全額（100%）返金いたします。",
+          "options": [
+            {
+              "id": "A",
+              "text": "17,000円"
+            },
+            {
+              "id": "B",
+              "text": "21,500円"
+            },
+            {
+              "id": "C",
+              "text": "24,000円"
+            },
+            {
+              "id": "D",
+              "text": "19,500円"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "Cách tính chuẩn xác theo điều lệ:\n1. Giá thuê cơ bản đại sảnh buổi chiều ngày thường: 25,000 yên.\n2. Đoàn phi lợi nhuận có trên 50% thành viên đi làm trong thành phố được giảm 30% giá phòng cơ bản: 25,000 x (1 - 0.3) = 17,500 yên.\n3. Thiết bị kèm theo (không áp dụng giảm giá):\n   - Đàn Grand Piano: 5,000 yên.\n   - Bộ 2 mic không dây: 1,500 yên.\n   -> Tổng phụ kiện: 6,500 yên.\n4. Tổng chi phí: 17,500 + 6,500 = 24,000 yên.",
+          "distractorExplanations": {
+            "B": "21,500円: Tính nhầm giảm 30% lên cả phụ kiện (6,500 x 0.7 = 4,550 -> 17,500 + 4,550 = 22,050) hoặc trừ sai.",
+            "A": "17,000円: Quên cộng tiền thuê mic và đàn piano.",
+            "D": "19,500円: Tính sai tỷ lệ giảm giá phòng."
+          }
+        },
+        {
+          "id": "N2_05_M14_02",
+          "typeId": "N2-RD-INFO",
+          "skill": "Reading",
+          "category": "Mondai 14: 情報検索 — 市民文化センター利用案内",
+          "stem": "利用予約のキャンセルおよび返金に関する説明として、正しいものはどれか。",
+          "contextPassage": "【市民文化センター ホールおよび練習室の利用案内】\n\n1. 施設概要および利用時間区分\n・大ホール（定員800名）：午前（9:00〜12:00）、午後（13:00〜17:00）、夜間（18:00〜22:00）\n・多目的室（定員50名）：上記区分に加え、全日（9:00〜22:00）の一括利用が可能。\n※準備および原状復帰（清掃含む）は、必ず承認された利用時間内に完了してください。\n\n2. 利用料金および減免制度\n・基本利用料：大ホール（平日：午前15,000円、午後25,000円、夜間30,000円／土日祝は2割増）\n・市内在住・在勤者が過半数を占める非営利団体が利用する場合、基本利用料が30%減額されます。\n・入場料を徴収する催し（営利目的）の場合、基本利用料に50%の割増料金が加算されます。\n\n3. 附帯設備利用料（1区分あたり・税込）\n・グランドピアノ（調律代別）：5,000円\n・ステージ照明セット一式：3,000円\n・ワイヤレスマイク（2本1組）：1,500円\n・大型プロジェクターおよびスクリーン：4,000円\n※附帯設備の利用料金には減免制度は適用されません。\n\n4. 予約取消（キャンセル）および還付規定\n・利用日の30日前までに所定の取消届を提出した場合：納入済み利用料の70%を返金。\n・利用日の14日前までに所定の取消届を提出した場合：納入済み利用料の50%を返金。\n・利用日の13日前以降の取消：返金不可（0%）。\n※自然災害等、不可抗力により施設が使用不能となった場合は、全額（100%）返金いたします。",
+          "options": [
+            {
+              "id": "A",
+              "text": "利用日の前日であっても、やむを得ない事情があれば半額が返金される。"
+            },
+            {
+              "id": "B",
+              "text": "利用日の20日前にキャンセル届を提出した場合、納入した料金の70%が返金される。"
+            },
+            {
+              "id": "C",
+              "text": "入場料を徴収する営利イベントの場合、いかなる理由であってもキャンセル時の返金はない。"
+            },
+            {
+              "id": "D",
+              "text": "台風などの自然災害によって施設自体が使えなくなった場合、利用料金は全額返金される。"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanationVi": "Điều 4 ghi rõ: trường hợp bất khả kháng do thiên tai cơ sở không thể hoạt động thì hoàn trả 100% ('自然災害等、不可抗力により施設が使用不能となった場合は、全額（100%）返金いたします').",
+          "distractorExplanations": {
+            "B": "20 ngày trước ngày diễn thuộc mốc '14日前までに' (từ ngày thứ 14 đến 29) chỉ được hoàn 50%, mốc 70% bắt buộc phải trước từ 30 ngày trở lên.",
+            "C": "Quy định hoàn tiền áp dụng chung, không phân biệt sự kiện có thu vé hay không.",
+            "A": "Trước ngày diễn 1 ngày (13日前以降) thì tỷ lệ hoàn tiền là 0% (không được hoàn trả)."
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "sec-2",
+      "sectionName": "Phần 2: Nghe hiểu (Listening Comprehension)",
+      "durationMinutes": 50,
+      "itemCount": 30,
+      "audioStatus": "AUDIO_VERIFIED",
+      "audioNoticeVi": "Âm thanh phòng thi chuẩn hóa với giọng đọc Neural đa nhân vật (ja-JP-Nanami & ja-JP-Keita), tuân thủ đúng nhịp độ đàm thoại, khoảng nghỉ đọc đề và cấu trúc lựa chọn chính thức.",
+      "items": [
+        {
+          "id": "N2_05_M1_L01",
+          "typeId": "N2-LIS-TASK",
+          "skill": "Listening",
+          "category": "Mondai 1: 課題理解 (Task) — 新商品発表記者会見の直前準備",
+          "stem": "男性社員はこの後、まず何をしなければなりませんか。",
+          "dialogue": "オフィスの広報部で、男性社員と女性上司が明日の新商品記者会見の準備について話しています。男性社員はこの後、まず何をしなければなりませんか。\n\n男：「課長、明日の午後2時からの新製品記者会見ですが、会場の機材リハーサルと配布資料の印刷はすべて完了いたしました。」\n女：「ご苦労様。出席予定のメディア各社へのリマインドメールも、昨日送信済みだったわね。」\n男：「はい。ただ、先ほど開発部の技術担当役員から連絡がありまして、登壇時に使用する製品デモ用の実機サンプルに一部不具合が見つかり、予備の試作機と差し替えたいとのことでした。」\n女：「えっ、それは大変ね。デモ実機が動かないと会見が成り立たないわ。予備機の手配と動作確認は誰がやっているの？」\n男：「開発部の実験室で今最終調整を行っています。私が今すぐ実験室へ受け取りに行って、会見会場のステージ上で動作テストを行おうと思うのですが。」\n女：「そうね、それが最優先ね。受付の名札の並べ替えや報道陣へのお土産の手配は、私の方でやっておくから、あなたは直ちに開発部へ向かってちょうだい。」\n男：「承知いたしました。すぐに行ってきます。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "出席予定の報道陣にリマインドの連絡を入れる。"
+            },
+            {
+              "id": "B",
+              "text": "開発部の実験室へ行って予備の実機を受け取る。"
+            },
+            {
+              "id": "C",
+              "text": "受付に置くメディア関係者の名札を五十音順に並べる。"
+            },
+            {
+              "id": "D",
+              "text": "記者会見で配布する新製品の記念品を用意する。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "Người sếp chỉ đạo việc khẩn cấp nhất: 'デモ実機が動かないと会見が成り立たないわ...あなたは直ちに開発部へ向かってちょうだい' (Máy demo mẫu không chạy thì họp báo không xong được... cậu hãy đi ngay sang phòng kỹ thuật phát triển để nhận máy dự phòng đi). Nam nhân viên đáp sẽ đi ngay lập tức.",
+          "distractorExplanations": {
+            "A": "Gửi email nhắc nhở báo chí đã xong từ hôm qua ('昨日送信済みだったわね').",
+            "C": "Sắp xếp thẻ tên người tham dự do sếp nữ tự làm ('私の方でやっておくから').",
+            "D": "Chuẩn bị quà lưu niệm cho phóng viên cũng do sếp nữ đảm nhiệm."
+          },
+          "audioUrl": "audio/n2_mock_05/N2_05_M1_L01.mp3",
+          "mondaiNumber": 1,
+          "itemNumber": 1,
+          "audioDurationSec": 100.04,
+          "audioSha256": "b665f3efaec9fde42eff51b0a7409d2b810a0a65283a1de1c613e5b3cc2531b8",
+          "audioVerificationStatus": "AUDIO_VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
+        },
+        {
+          "id": "N2_05_M1_L02",
+          "typeId": "N2-LIS-TASK",
+          "skill": "Listening",
+          "category": "Mondai 1: 課題理解 (Task) — 大学ゼミ発表の準備分担",
+          "stem": "女子学生は今日中に何をしなければなりませんか。",
+          "dialogue": "大学の演習室で、女子学生と男子学生が明後日のゼミ発表の準備について打ち合わせをしています。女子学生は今日中に何をしなければなりませんか。\n\n女：「佐藤君、明後日のゼミ発表のパワーポイントスライド、大体仕上がったよ。」\n男：「ありがとう、すごく分かりやすいね。スライドの構成はこれでバッチリだと思う。」\n女：「じゃあ、当日の発表原稿の読み合わせと練習をしようか？」\n男：「あ、その前に発表ハンドアウトの印刷部数を教授に確認しなきゃいけないんだ。履修者全員分プラス教授用で25部で足りるか、それとも他学部からの聴講生も来るのか。」\n女：「あ、さっき教授からメールが届いていて、聴講生が5名増えるから30部用意してほしいって書いてあったよ。」\n男：「そうなんだ！ 助かった。じゃあ印刷は僕が今から生協の印刷機でやっておくよ。」\n女：「了解。あと、発表会場のプロジェクターの接続コネクターが自分のパソコンと合うか、演習室の管理窓口で変換アダプターを借りて動作確認しておかなきゃ。」\n男：「あ、管理窓口は今日の夕方5時で閉まっちゃうよ。もう4時半だ！」\n女：「本当だ！ じゃあ私が今すぐ窓口に行ってアダプターを借りて接続テストしてくるね。」\n男：「うん、頼むよ。僕は印刷が終わったら演習室に戻って待ってるから。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "演習室の管理窓口へ行き、プロジェクターの変換アダプターを借りる。"
+            },
+            {
+              "id": "B",
+              "text": "生協の印刷機で発表資料のハンドアウトを30部印刷する。"
+            },
+            {
+              "id": "C",
+              "text": "教授の研究室へ出向いて聴講生の人数を確認する。"
+            },
+            {
+              "id": "D",
+              "text": "パワーポイントの発表原稿を修正してスライドを再構成する。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "Nữ sinh nhận thấy phòng quản lý sắp đóng cửa lúc 5 giờ chiều (hiện đã 4h30) nên nói: '私が今すぐ窓口に行ってアダプターを借りて接続テストしてくるね' (Tôi sẽ chạy ngay đến quầy mượn đầu chuyển đổi và thử máy chiếu).",
+          "distractorExplanations": {
+            "B": "In ấn 30 bản tài liệu phát tay do nam sinh viên đi làm tại co-op ('印刷は僕が今から生協の印刷機でやっておくよ').",
+            "C": "Giáo sư đã gửi email báo số lượng người nghe thêm 5 bạn từ trước, không cần đi hỏi nữa.",
+            "D": "Bản trình chiếu đã hoàn thiện, không cần sửa lại slide."
+          },
+          "audioUrl": "audio/n2_mock_05/N2_05_M1_L02.mp3",
+          "mondaiNumber": 1,
+          "itemNumber": 2,
+          "audioDurationSec": 109.712,
+          "audioSha256": "9dc0876efd70df5c4d6334dab4b9fbd89892a99564bb9217606f53a4bf5ce9be",
+          "audioVerificationStatus": "AUDIO_VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
+        },
+        {
+          "id": "N2_05_M1_L03",
+          "typeId": "N2-LIS-TASK",
+          "skill": "Listening",
+          "category": "Mondai 1: 課題理解 (Task) — 地域クリーンアップ大作戦の役割分担",
+          "stem": "女性スタッフは明日、集合場所でまず何をしますか。",
+          "dialogue": "地域の集会所で、ボランティア団体のリーダーの男性と女性スタッフが明日の清掃イベントについて話しています。女性スタッフは明日、集合場所でまず何をしますか。\n\n男：「明日の『秋の河川敷クリーンアップ作戦』の段取りを確認しよう。参加者は一般市民や小中学生を含めて約80名の予定だ。」\n女：「道具の準備はすべて整っています。軍手やゴミ袋、トングは軽トラックに積み込み済みです。」\n男：「ありがとう。明日の朝8時半に河川敷の広場にスタッフ集合だけど、参加者が到着したらまず受付で参加者名簿の確認と、ボランティア活動保険の加入手続きを完了させたいんだ。」\n女：「受付業務ですね。参加者に軍手とゴミ袋を配る作業も同時に行いますか？」\n男：「いや、ゴミ袋の配布は清掃の分別ルールを全体説明した後にしたほうが混乱がないと思う。だから、君は受付で出席チェックと名札の配布を専門に担当してほしい。」\n女：「承知しました。受付台の設置と名簿の準備をして、来場者の出席チェックですね。」\n男：「うん。分別説明と開会式の司会は僕がやるから、受付が一段落したらゴミの集積所の方を手伝ってくれればいいよ。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "軽トラックから軍手やトングなどの清掃用具を降ろす。"
+            },
+            {
+              "id": "B",
+              "text": "参加者に河川敷のゴミの詳しい分別ルールを説明する。"
+            },
+            {
+              "id": "C",
+              "text": "受付で参加者の出席を確認し、名札を配る。"
+            },
+            {
+              "id": "D",
+              "text": "参加者全員に軍手と分別用のゴミ袋を配布する。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "Nam trưởng nhóm phân công rõ ràng: '君は受付で出席チェックと名札の配布を専門に担当してほしい' (Em hãy chuyên trách việc điểm danh tại bàn tiếp tân và phát thẻ tên cho người tham gia). Nữ nhân viên xác nhận sẽ làm việc này đầu tiên.",
+          "distractorExplanations": {
+            "A": "Dụng cụ dọn dẹp đã được bốc lên xe tải từ hôm nay, không phải nhiệm vụ ưu tiên lúc người dân đến.",
+            "B": "Giải thích quy định phân loại rác do trưởng nhóm tự đảm nhiệm ('分別説明と開会式の司会は僕がやるから').",
+            "D": "Phát bao rác sẽ làm sau khi giải thích chung, không làm ngay tại bàn đón tiếp."
+          },
+          "audioUrl": "audio/n2_mock_05/N2_05_M1_L03.mp3",
+          "mondaiNumber": 1,
+          "itemNumber": 3,
+          "audioDurationSec": 99.944,
+          "audioSha256": "281d6dc127a65227d2fd30341c5fe8bdcf483acf4fc4370c30ed7ae66be3d59f",
+          "audioVerificationStatus": "AUDIO_VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
+        },
+        {
+          "id": "N2_05_M1_L04",
+          "typeId": "N2-LIS-TASK",
+          "skill": "Listening",
+          "category": "Mondai 1: 課題理解 (Task) — 旅行代理店でのツアー日程変更",
+          "stem": "女性客はこの後、何をしなければなりませんか。",
+          "dialogue": "旅行代理店のカウンターで、女性客と男性社員が話しています。女性客はこの後、何をしなければなりませんか。\n\n女：「すみません、来月予約している北海道ツアーなんですが、同行する夫の仕事の都合で、出発日を1週間遅らせることは可能でしょうか。」\n男：「確認いたしますね。……あいにく航空券付きのパッケージツアーですので、出発日の変更は一度現在の予約をお取り消しいただき、新規で再予約していただく形になります。」\n女：「そうなのですね。キャンセル料は発生しますか？」\n男：「ご出発の30日前までであれば、取消料は一切かかりません。本日中のお手続きであれば無料です。」\n女：「よかった。では、今の予約を取り消して、1週間後の同じホテルとフライトで予約を取り直してください。」\n男：「承知いたしました。新しい日程のフライトの空席をお調べしたところ、ご希望の便でお取りできます。ただ、現在ご利用中の早期割引キャンペーンの適用枠が本日いっぱいで終了となりますので、本日午後6時までにマイページより再予約の購入手続きを確定していただく必要があります。」\n女：「わかりました。スマホからマイページにログインして、決済手続きを完了させればいいのですね。」\n男：「はい、恐れ入りますがそちらのお手続きをお願いいたします。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "現在の予約の取消料として所定の手数料を支払う。"
+            },
+            {
+              "id": "B",
+              "text": "ホテルのフロントに直接電話して宿泊日の変更を依頼する。"
+            },
+            {
+              "id": "C",
+              "text": "航空会社の発券カウンターへ出向いて航空券を再発行する。"
+            },
+            {
+              "id": "D",
+              "text": "本日午後6時までにネットのマイページで新規予約の決済を完了する。"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanationVi": "Nhân viên hướng dẫn: để kịp giữ ưu đãi giảm giá sớm, khách hàng phải hoàn tất thanh toán đặt tour mới trên My Page trước 6 giờ chiều ('本日午後6時までにマイページより再予約の購入手続きを確定していただく必要があります').",
+          "distractorExplanations": {
+            "A": "Hủy trong hạn trước 30 ngày hoàn toàn miễn phí, không mất phí hủy ('取消料は一切かかりません').",
+            "B": "Tour trọn gói do đại lý bao trọn, không cần khách tự gọi cho khách sạn.",
+            "C": "Mọi thủ tục đều làm trực tuyến trên hệ thống, không cần đến quầy hãng bay."
+          },
+          "audioUrl": "audio/n2_mock_05/N2_05_M1_L04.mp3",
+          "mondaiNumber": 1,
+          "itemNumber": 4,
+          "audioDurationSec": 105.864,
+          "audioSha256": "33abc156c32922fffc63b99fdd40a996c41c38d94e4f160d9ad280937401e994",
+          "audioVerificationStatus": "AUDIO_VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
+        },
+        {
+          "id": "N2_05_M1_L05",
+          "typeId": "N2-LIS-TASK",
+          "skill": "Listening",
+          "category": "Mondai 1: 課題理解 (Task) — ウェブサイトのリニューアル確認",
+          "stem": "女性デザイナーはこの後、何を修正しなければなりませんか。",
+          "dialogue": "Web制作会社で、アートディレクターの男性と若手デザイナーの女性がクライアント向けデザイン案について話しています。女性デザイナーはこの後、何を修正しなければなりませんか。\n\n男：「高橋さん、クライアントの健康食品メーカーのトップページデザイン、全体的にすっきりして見やすくなったね。」\n女：「ありがとうございます。カラーリングも指定のオーガニックグリーンを基調にまとめました。」\n男：「うん、配色はこれでいいね。ただ、スマートフォンで表示したときのレイアウトで2点気になるところがあるんだ。」\n女：「はい、何でしょうか。」\n男：「まず、画面上部のキャッチコピーのフォントサイズが大きすぎて、スマホ画面だと2行に改行されてしまって読みづらい。これは少し縮小して1行に収めてほしい。」\n女：「分かりました。キャッチコピーのサイズ調整ですね。」\n男：「それと、商品購入ボタンの位置だけど、ページの一番下までスクロールしないと出てこないんだ。これだと途中で離脱されちゃうから、スマホ表示時は画面下部に常に固定表示されるようにCSSを変更してくれる？」\n女：「承知しました。購入ボタンの常時固定ですね。メインビジュアルの写真の差し替えは必要ありませんか？」\n男：「写真はクライアントからも高評価だったからそのままでいいよ。じゃあ、今の2点、よろしく頼むね。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "ウェブサイト全体のベースカラーを別の色に変更する。"
+            },
+            {
+              "id": "B",
+              "text": "スマホ表示時のキャッチコピーのサイズ縮小と、購入ボタンの画面下部固定表示。"
+            },
+            {
+              "id": "C",
+              "text": "メインビジュアルの写真を高解像度の別の画像に差し替える。"
+            },
+            {
+              "id": "D",
+              "text": "パソコン表示時の商品紹介文の文章量を大幅に削減する。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "Giám đốc nghệ thuật chỉ ra đúng 2 điểm cần sửa trên bản mobile: thu nhỏ cỡ chữ slogan để vừa 1 dòng và ghim nút mua hàng cố định ở đáy màn hình điện thoại ('スマホ画面だと2行に改行されて...縮小して1行に' và '購入ボタンの常時固定').",
+          "distractorExplanations": {
+            "A": "Màu sắc xanh tự nhiên đã được duyệt, không thay đổi ('配色はこれでいいね').",
+            "C": "Hình ảnh chủ đạo được khách khen ngợi, giữ nguyên ('そのままでいいよ').",
+            "D": "Không yêu cầu cắt giảm văn bản trên bản PC."
+          },
+          "audioUrl": "audio/n2_mock_05/N2_05_M1_L05.mp3",
+          "mondaiNumber": 1,
+          "itemNumber": 5,
+          "audioDurationSec": 104.848,
+          "audioSha256": "422e4363ce99f4407b29e8e7968b3f57a497a4ce1d185450f462209fc82a9fc7",
+          "audioVerificationStatus": "AUDIO_VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
+        },
+        {
+          "id": "N2_05_M2_L01",
+          "typeId": "N2-LIS-POINT",
+          "skill": "Listening",
+          "category": "Mondai 2: ポイント理解 — 老舗文房具メーカーのヒット要因",
+          "stem": "復刻版の万年筆が若者の間で大ヒットした一番の理由は何ですか。",
+          "dialogue": "テレビの経済番組で、アナウンサーが老舗文房具メーカーの社長にインタビューしています。このメーカーが発売した復刻版の万年筆が若者の間で大ヒットした一番の理由は何ですか。\n\n女：「創業100年を超える老舗メーカーの貴社ですが、昨年発売されたレトロデザインの万年筆が、20代から30代の若年層の間で記録的な売れ行きを見せているそうですね。」\n男：「ええ、おかげさまで予想をはるかに上回る反響をいただいております。」\n女：「デジタル化が進む中で、あえてアナログな筆記具がこれほど受け入れられた要因はどこにあるとお考えですか。価格を手頃に抑えたことでしょうか。」\n男：「いえ、実は価格設定は一般的な万年筆よりもやや高めのプレミアム価格なんです。耐久性のある上質なペン先を採用していますからね。ただ、一番大きかったのは、インクの吸入方法やインクボトルの色彩にこだわった点です。従来のカートリッジ式ではなく、あえて自分でガラス瓶から色鮮やかなインクを吸い上げる手間そのものを『デジタルにはない特別な癒やしの体験』として楽しんでいただけたことが、SNS等での口コミを通じて若い方々に強く響いたのだと分析しています。」\n女：「なるほど。手間をかける行為そのものが魅力となったわけですね。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "学生でも気軽に買えるよう、価格を大幅に安く設定したこと。"
+            },
+            {
+              "id": "B",
+              "text": "自分でインクを吸入するというアナログな手間が、特別な体験として受け入れられたこと。"
+            },
+            {
+              "id": "C",
+              "text": "テレビCMなどの広告宣伝に巨額の予算を投入して知名度を上げたこと。"
+            },
+            {
+              "id": "D",
+              "text": "インクのカートリッジが市販のどのペンにも共通して使える互換性を持っていたこと。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "Giám đốc nhấn mạnh lý do quan trọng số 1: việc tự tay hút mực từ lọ thủy tinh tuy mất công nhưng lại được giới trẻ coi là trải nghiệm thư giãn đặc biệt mà thế giới số không có ('自分でガラス瓶から色鮮やかなインクを吸い上げる手間そのものを...楽しんでいただけたことが一番大きかった').",
+          "distractorExplanations": {
+            "A": "Giá sản phẩm này cao hơn bình thường (premium price), không hề rẻ ('価格設定は...やや高めのプレミアム価格').",
+            "C": "Nhờ truyền miệng trên mạng xã hội (SNS), không phải đổ tiền quảng cáo truyền hình.",
+            "D": "Sản phẩm cố tình không dùng ống mực tiện lợi mà dùng bình hút mực thủ công."
+          },
+          "audioUrl": "audio/n2_mock_05/N2_05_M2_L01.mp3",
+          "mondaiNumber": 2,
+          "itemNumber": 1,
+          "audioDurationSec": 107.352,
+          "audioSha256": "1a1a428b139a6a6191e567aa873939341c99e89435b29423299c7a3b8ba36909",
+          "audioVerificationStatus": "AUDIO_VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
+        },
+        {
+          "id": "N2_05_M2_L02",
+          "typeId": "N2-LIS-POINT",
+          "skill": "Listening",
+          "category": "Mondai 2: ポイント理解 — マラソン選手が専任コーチを変更した理由",
+          "stem": "選手が専任コーチを変更した最も大きな理由は何ですか。",
+          "dialogue": "ラジオのスポーツニュースで、インタビュアーが実業団マラソン選手に話を聞いています。選手が最近専任コーチを変更した最も大きな理由は何ですか。\n\n女：「先日の国際マラソンで見事銅メダルを獲得された木村選手にお話を伺います。おめでとうございます。」\n男：「ありがとうございます。」\n女：「木村選手は今年に入って長年指導を受けていた名物コーチから、若手の外国人コーチに指導者を変更されて話題になりましたね。練習メニューの負荷が合わなかったのでしょうか。」\n男：「いえ、前任のコーチには基礎体力の強化やレース展開の戦術面で本当に感謝していますし、練習量に不満があったわけではありません。ただ、私はレース終盤になると『絶対に負けられない』と自分を追い込みすぎて、極度のプレッシャーから本来のフォームを崩してしまう癖があったんです。新コーチは科学的なメンタルトレーニングの専門家で、走ることへの不安を心理面から解きほぐし、リラックスして走りを心から楽しむアプローチを導入してくれました。その心の変革が、今回のメダル獲得につながった最大の要因だと感じています。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "前任コーチが課す毎日の練習メニューが過酷で体力が限界に達していたから。"
+            },
+            {
+              "id": "B",
+              "text": "最新のシューズやウェアの開発チームと意見が対立したから。"
+            },
+            {
+              "id": "C",
+              "text": "レース終盤の過度な精神的重圧を克服するためのメンタル面の指導を求めたから。"
+            },
+            {
+              "id": "D",
+              "text": "海外の大会への出場権をめぐって実業団チームの幹部とトラブルになったから。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "Vận động viên giải thích: do bản thân thường tự tạo áp lực tâm lý quá mức ở giai đoạn cuối đường chạy làm hỏng form, nên đã đổi sang huấn luyện viên chuyên sâu về rèn luyện tâm lý khoa học giúp giải tỏa lo âu ('極度のプレッシャーから本来のフォームを崩してしまう癖があった...メンタルトレーニングの専門家で、走ることへの不安を心理面から解きほぐし...最大の要因').",
+          "distractorExplanations": {
+            "A": "VĐV khẳng định hoàn toàn biết ơn và không hề bất mãn với giáo án thể lực của thầy cũ.",
+            "B": "Không hề đề cập đến giày dép hay trang phục thi đấu.",
+            "D": "Không có mâu thuẫn hay tranh chấp quyền thi đấu với ban lãnh đạo."
+          },
+          "audioUrl": "audio/n2_mock_05/N2_05_M2_L02.mp3",
+          "mondaiNumber": 2,
+          "itemNumber": 2,
+          "audioDurationSec": 96.152,
+          "audioSha256": "2cc4471e3bf73a3778a5de85dc80bfd4b60d57523e1afd5667bd03af7aa62cb4",
+          "audioVerificationStatus": "AUDIO_VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
+        },
+        {
+          "id": "N2_05_M2_L03",
+          "typeId": "N2-LIS-POINT",
+          "skill": "Listening",
+          "category": "Mondai 2: ポイント理解 — カフェオーナーが仕入れるコーヒー豆の選定基準",
+          "stem": "オーナーが新しいコーヒー豆を選ぶ際に最も重視している基準は何ですか。",
+          "dialogue": "カフェの店内で、オーナーの男性と見習いバリスタの女性が仕入れについて話しています。オーナーが新しいコーヒー豆を選ぶ際に最も重視している基準は何ですか。\n\n女：「店長、来月からメニューに加える新しいスペシャリティコーヒーの豆、焙煎所から届いた4種類のサンプルを試飲しました。どれも香りが個性的で迷いますね。」\n男：「そうだね。豆を選ぶ際、一般的には酸味や苦味のバランス、あるいは希少価値によるブランド力が注目されがちだよね。」\n女：「はい。今回届いた中では、エチオピア産の希少銘柄が一番フルーティーで話題性がありそうですが。」\n男：「確かに味も知名度も素晴らしい。ただね、うちのカフェのコンセプトは『日常に寄り添う一杯』なんだ。どんなに高品質でも、気候変動で来年収穫が激減して仕入れが途絶えたり、価格が倍に跳ね上がったりするような豆では、お客様に安心していつもの味を提供し続けられない。現地の農園と長期契約を結び、環境保全と持続可能な生産体制が確立されているかどうか。つまり、年間を通じて安定した品質と供給が保てるかどうかを、私は何よりも第一に優先しているんだよ。」\n女：「なるほど。一時的な珍しさではなく、継続して提供できるサステナビリティですね。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "世界的な品評会で最高賞を受賞した希少なブランド豆であること。"
+            },
+            {
+              "id": "B",
+              "text": "他店では味わえないほど強烈な酸味と個性的なフルーツの香りがあること。"
+            },
+            {
+              "id": "C",
+              "text": "農園との持続可能な体制により、年間を通じて安定した品質と供給が維持できること。"
+            },
+            {
+              "id": "D",
+              "text": "一杯あたりの仕入れ原価をできる限り安く抑え、店の利益率を高められること。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "Chủ quán nhấn mạnh triết lý kinh doanh: điều quan trọng nhất không phải sự quý hiếm nhất thời mà là nguồn cung và chất lượng ổn định quanh năm thông qua cam kết phát triển bền vững với nông trại ('年間を通じて安定した品質と供給が保てるかどうかを、私は何よりも第一に優先しているんだよ').",
+          "distractorExplanations": {
+            "A": "Chủ quán gạt bỏ việc chạy theo thương hiệu quý hiếm (希少銘柄).",
+            "B": "Mùi hương độc lạ chỉ là tiêu chí phụ, không phải tiêu chuẩn cốt lõi.",
+            "D": "Không đặt nặng mục tiêu ép giá mua rẻ để tối đa hóa lợi nhuận."
+          },
+          "audioUrl": "audio/n2_mock_05/N2_05_M2_L03.mp3",
+          "mondaiNumber": 2,
+          "itemNumber": 3,
+          "audioDurationSec": 110.688,
+          "audioSha256": "9dfd6fd948e14d5cc7ed62624ee29bacdb8625af70e74352006d6715b04b2545",
+          "audioVerificationStatus": "AUDIO_VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
+        },
+        {
+          "id": "N2_05_M2_L04",
+          "typeId": "N2-LIS-POINT",
+          "skill": "Listening",
+          "category": "Mondai 2: ポイント理解 — IT企業が社内定例会議を削減した理由",
+          "stem": "この企業が社内の定例会議の数を大幅に減らした一番の目的は何ですか。",
+          "dialogue": "ビジネスセミナーで、IT企業の役員の女性が業務改革について講演しています。この企業が社内の定例会議の数を大幅に減らした一番の目的は何ですか。\n\n女：「弊社では昨年、全社的な働き方改革の一環として、毎週行われていた部課ごとの定例会議を原則として半分に削減いたしました。一般的に会議の削減というと、会議室の不足解消や、単なる時間の節約による残業時間の短縮が目的だと思われがちです。もちろんそうした副次的な効果もありましたが、私たちの本当の狙いは別のところにありました。会議を減らしたことで、社員一人ひとりが『自分の頭で判断し、チャットツール等で主体的に情報を共有する習慣』を身につけることができたのです。会議で上司のお伺いを立てて合意を取るという受動的な姿勢から脱却し、個人の裁量と意思決定のスピードを劇的に加速させること。これこそが、会議削減を断行した最大の理由でした。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "オフィスの会議室不足を解消し、賃貸スペースのコストを削減するため。"
+            },
+            {
+              "id": "B",
+              "text": "紙の会議資料の印刷を全廃し、ペーパーレス化を推進するため。"
+            },
+            {
+              "id": "C",
+              "text": "長時間労働を是正し、社員の残業代の支払いを抑制するため。"
+            },
+            {
+              "id": "D",
+              "text": "社員が会議での受動的な姿勢を改め、自律的な判断と意思決定の迅速化を図るため。"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanationVi": "Nữ giám đốc khẳng định mục tiêu thật sự lớn nhất: xóa bỏ tâm lý thụ động chờ đợi sếp phê duyệt trong các cuộc họp, thúc đẩy nhân viên tự mình phán đoán và tăng tốc độ ra quyết định ('受動的な姿勢から脱却し、個人の裁量と意思決定のスピードを劇的に加速させること。これこそが...最大の理由でした').",
+          "distractorExplanations": {
+            "A": "Thiếu phòng họp chỉ là tác động phụ ('副次的な効果'), không phải mục tiêu cốt lõi.",
+            "B": "Không đề cập đến việc tiết kiệm giấy in.",
+            "C": "Giảm giờ làm thêm cũng chỉ là hệ quả đi kèm, không phải mục đích tiên quyết."
+          },
+          "audioUrl": "audio/n2_mock_05/N2_05_M2_L04.mp3",
+          "mondaiNumber": 2,
+          "itemNumber": 4,
+          "audioDurationSec": 90.632,
+          "audioSha256": "86ac9f4baf429d4a1a321ed5bc2af39a1804aa5627b1195164597af03962bbf4",
+          "audioVerificationStatus": "AUDIO_VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
+        },
+        {
+          "id": "N2_05_M2_L05",
+          "typeId": "N2-LIS-POINT",
+          "skill": "Listening",
+          "category": "Mondai 2: ポイント理解 — 地域博物館の資料デジタル化における最大の課題",
+          "stem": "古文書のデジタルアーカイブ化を進める上で、現在最も大きな障害となっているのは何ですか。",
+          "dialogue": "歴史フォーラムで、地方博物館の学芸員の男性が発表しています。この博物館が所蔵する古文書のデジタルアーカイブ化を進める上で、現在最も大きな障害となっているのは何ですか。\n\n男：「当館では江戸時代から明治初期にかけての貴重な地域古文書や絵図を約2万点所蔵しており、文化遺産の継承と公開を目指してデジタル化プロジェクトを推進しております。高精細なスキャナーの導入やサーバーの構築といったハードウェアの整備は、県の補助金により順調に完了いたしました。しかし、現在直面している深刻なボトルネックは、読み取った画像データに正確なメタデータ（作成年代、差出人、歴史的背景の解説など）を付与する作業です。崩し字で書かれた古文書を正確に解読できる専門知識を持った人材が地域全体で極端に不足しており、スキャン済みの画像が解説なしのまま未処理で蓄積されてしまっているのです。解読技術者の育成と確保が、まさに喫緊の課題となっています。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "高解像度スキャナーや保存用サーバーを導入するための予算が不足していること。"
+            },
+            {
+              "id": "B",
+              "text": "古文書の所蔵者からインターネット上での画像公開の許諾が得られないこと。"
+            },
+            {
+              "id": "C",
+              "text": "崩し字の古文書を正確に解読・解説できる専門人材が著しく不足していること。"
+            },
+            {
+              "id": "D",
+              "text": "長期間の保管によって古文書の紙の劣化が進み、スキャンすると破損する恐れがあること。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "Chuyên viên bảo tàng chỉ ra nút thắt cổ chai lớn nhất: thiếu hụt trầm trọng nhân lực có chuyên môn giải mã chữ viết cổ (kuzushiji) để chú thích dữ liệu ('崩し字で書かれた古文書を正確に解読できる専門知識を持った人材が...極端に不足しており...喫緊の課題').",
+          "distractorExplanations": {
+            "A": "Máy scan và server đã được hoàn tất nhờ tiền trợ cấp của tỉnh ('県の補助金により順調に完了').",
+            "B": "Không gặp vấn đề về bản quyền sở hữu.",
+            "D": "Không nói về nguy cơ rách giấy khi quét ảnh."
+          },
+          "audioUrl": "audio/n2_mock_05/N2_05_M2_L05.mp3",
+          "mondaiNumber": 2,
+          "itemNumber": 5,
+          "audioDurationSec": 86.528,
+          "audioSha256": "3518582f379c5f36bfb74762cfff9b83b34faa64bbdd40903e706c52460413ea",
+          "audioVerificationStatus": "AUDIO_VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
+        },
+        {
+          "id": "N2_05_M2_L06",
+          "typeId": "N2-LIS-POINT",
+          "skill": "Listening",
+          "category": "Mondai 2: ポイント理解 — EVサブスクリプションを選択した決め手",
+          "stem": "男性が電気自動車（EV）を一括購入ではなくサブスクリプション契約にした決め手は何ですか。",
+          "dialogue": "自動車ショールームの前で、購入を検討していた男性が友人の女性に話しています。男性が電気自動車（EV）を一括購入するのではなく、月額定額のサブスクリプション契約にした決め手は何ですか。\n\n女：「鈴木君、新しい車、電気自動車にしたんだって？ ついに買ったの？」\n男：「うん、今月から乗り始めたよ。でもね、購入したんじゃなくて、3年間のサブスクリプション（定額利用サービス）にしたんだ。」\n女：「へえ！ 頭金が不要で月々の支払いが抑えられるから？」\n男：「それも魅力だけど、一番の決め手はバッテリー技術の急速な進化への不安なんだ。EVの心臓部であるバッテリーは年々性能が向上していて、数年後には航続距離が大幅に伸びた新型モデルが次々と出ると言われているだろ？ 一括で購入しちゃうと、数年後に自分の車が旧型になって下取り価格が暴落するリスクがある。サブスクなら3年後に最新のテクノロジーを搭載した新型EVへ手軽に乗り換えられるからね。バッテリー劣化の心配をしなくて済むのも安心だし。」\n女：「なるほどね！ 技術の移り変わりが速い分野だからこその賢い選択だね。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "契約時にまとまった頭金を支払う余裕が全くなかったから。"
+            },
+            {
+              "id": "B",
+              "text": "家族全員で共有して乗るために、運転者の人数制限がない契約が必要だったから。"
+            },
+            {
+              "id": "C",
+              "text": "毎月の電気代や充電ステーションの利用料金がすべて無料になるプランだったから。"
+            },
+            {
+              "id": "D",
+              "text": "将来バッテリー技術の進歩で旧型化しても、最新モデルへ容易に乗り換えられるから。"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanationVi": "Người đàn ông khẳng định lý do then chốt nhất: công nghệ pin xe điện phát triển quá nhanh, nếu mua đứt sẽ sợ xe bị lỗi thời và mất giá; dùng gói thuê bao 3 năm cho phép dễ dàng đổi sang xe đời mới mang công nghệ tối tân nhất ('一番の決め手はバッテリー技術の急速な進化への不安...サブスクなら3年後に最新のテクノロジーを搭載した新型EVへ手軽に乗り換えられる').",
+          "distractorExplanations": {
+            "A": "Không phải do kẹt tiền cọc ban đầu ('それも魅力だけど、一番の決め手は...').",
+            "B": "Không nói về việc chia sẻ cho cả gia đình lái.",
+            "C": "Không hề đề cập đến việc miễn phí tiền điện sạc xe."
+          },
+          "audioUrl": "audio/n2_mock_05/N2_05_M2_L06.mp3",
+          "mondaiNumber": 2,
+          "itemNumber": 6,
+          "audioDurationSec": 103.728,
+          "audioSha256": "e319a8f3f472f90f37596d53719dfbbda608f18a32d0706f580f9eaa55772689",
+          "audioVerificationStatus": "AUDIO_VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
+        },
+        {
+          "id": "N2_05_M3_L01",
+          "typeId": "N2-LIS-GIST",
+          "skill": "Listening",
+          "category": "Mondai 3: 概要理解 — 都市型コミュニティガーデンの効用",
+          "stem": "専門家は何について話していますか。",
+          "dialogue": "ラジオ番組で、都市社会学の専門家が話しています。\n\n男：「近年、ヨーロッパや北米の大都市において、ビルの屋上や使われなくなった空き地を住民の手で菜園に変える『コミュニティガーデン』の活動が活発化しています。この活動の目的は、単に新鮮な無農薬野菜を収穫して食費を節約することにとどまりません。土に触れ植物を育てる行為は、現代人の慢性的なストレスを緩和する心理的セラピー効果をもたらします。さらにそれ以上に重要なのは、普段は隣人の顔すら知らない都会の住民たちが、共同の農作業を通じて世代や国籍を越えた自然なコミュニケーションを生み出している点です。コミュニティガーデンは、都市の孤立を防ぎ、住民同士の支え合いの絆を再生するための貴重なプラットフォームとして機能しているのです。」\n\n専門家は何について話していますか。\n\n1番：都市農業における最新の農薬削減技術\n2番：コミュニティガーデンが持つ心理的・社会的な価値\n3番：高層ビルの屋上緑化にかかる初期費用の課題\n4番：欧米諸国における食料自給率向上の国家戦略",
+          "options": [
+            {
+              "id": "A",
+              "text": "都市農業における最新の農薬削減技術"
+            },
+            {
+              "id": "B",
+              "text": "コミュニティガーデンが持つ心理的・社会的な価値"
+            },
+            {
+              "id": "C",
+              "text": "高層ビルの屋上緑化にかかる初期費用の課題"
+            },
+            {
+              "id": "D",
+              "text": "欧米諸国における食料自給率向上の国家戦略"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "Chuyên gia phân tích toàn diện hai giá trị lớn của mô hình vườn rau cộng đồng đô thị: trị liệu tâm lý giảm stress và tái tạo gắn kết xã hội chống lại sự cô lập ở thành phố ('心理的セラピー効果' và '孤立を防ぎ、住民同士の支え合いの絆を再生').",
+          "distractorExplanations": {
+            "A": "Không bàn về kỹ thuật giảm phân bón hóa học trong nông nghiệp.",
+            "C": "Không hề đề cập đến chi phí đầu tư hạ tầng trên nóc nhà.",
+            "D": "Không bàn về chiến lược an ninh lương thực quốc gia."
+          },
+          "audioUrl": "audio/n2_mock_05/N2_05_M3_L01.mp3",
+          "mondaiNumber": 3,
+          "itemNumber": 1,
+          "audioDurationSec": 88.78,
+          "audioSha256": "ec38cd35557bbe7154c0204844ec90402dc55fe6c03d4a3390c06b04d9ba9004",
+          "audioVerificationStatus": "AUDIO_VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
+        },
+        {
+          "id": "N2_05_M3_L02",
+          "typeId": "N2-LIS-GIST",
+          "skill": "Listening",
+          "category": "Mondai 3: 概要理解 — 街の本屋が生き残るための空間変革",
+          "stem": "書店経営者の主張の要点は何ですか。",
+          "dialogue": "カルチャーセンターの講演会で、書店経営者が話しています。\n\n女：「インターネット書店の台頭や電子書籍の普及により、全国各地で街の書店が急速に姿を消しています。本を単なる『情報パッケージ』として捉えるならば、検索してワンクリックで翌日届くネット通販に敵うはずがありません。しかし、リアルな書店にはネットにはない決定的な強みがあります。それは『目的を持たずに棚の間を歩く中で、思いがけない本と出会う偶発性（セレンディピティ）』です。これからの街の本屋は、単に本を並べて売る物販店舗から、カフェを併設して読書会を開いたり、地域の作家のトークイベントを開催したりする『文化的な交流拠点』へと脱皮しなければなりません。本を通じて人と知性が出会う豊かな場を提供することこそが、私たちが目指すべき書店の未来像です。」\n\n書店経営者の主張の要点は何ですか。\n\n1番：電子書籍の普及を阻止するための法整備の必要性\n2番：ネット通販に対抗して本の割引販売を導入すること\n3番：リアル書店は偶発的な出会いと交流を生む文化拠点へと進化すべきであること\n4番：大型チェーン書店と提携して仕入れコストを削減すること",
+          "options": [
+            {
+              "id": "A",
+              "text": "電子書籍の普及を阻止するための法整備の必要性"
+            },
+            {
+              "id": "B",
+              "text": "ネット通販に対抗して本の割引販売を導入すること"
+            },
+            {
+              "id": "C",
+              "text": "リアル書店は偶発的な出会いと交流を生む文化拠点へと進化すべきであること"
+            },
+            {
+              "id": "D",
+              "text": "大型チェーン書店と提携して仕入れコストを削減すること"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "Chủ tiệm sách nhấn mạnh thông điệp cốt lõi: nhà sách truyền thống muốn tồn tại thì phải phát huy thế mạnh tình cờ gặp gỡ cuốn sách hay và tiến hóa thành trung tâm giao lưu văn hóa, gắn kết cộng đồng ('偶発的な出会い' và '文化的な交流拠点へと脱皮しなければなりません').",
+          "distractorExplanations": {
+            "A": "Không đòi ban hành luật ngăn cản sách điện tử.",
+            "B": "Không hề đề xuất giảm giá cạnh tranh với thương mại điện tử.",
+            "D": "Không nói về việc sáp nhập hay liên kết chuỗi nhà sách lớn."
+          },
+          "audioUrl": "audio/n2_mock_05/N2_05_M3_L02.mp3",
+          "mondaiNumber": 3,
+          "itemNumber": 2,
+          "audioDurationSec": 102.34,
+          "audioSha256": "0a09f0711892ff01291e8def032bdda27cc028efd79fd84a78d54acffc56d6d4",
+          "audioVerificationStatus": "AUDIO_VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
+        },
+        {
+          "id": "N2_05_M3_L03",
+          "typeId": "N2-LIS-GIST",
+          "skill": "Listening",
+          "category": "Mondai 3: 概要理解 — ビジネス交渉における「沈黙」の活用法",
+          "stem": "講師は主に何について話していますか。",
+          "dialogue": "ビジネススクールの講義で、交渉学の講師が話しています。\n\n男：「商談や交渉の場で、相手が口を閉ざして沈黙が流れると、多くの人は『何か失礼なことを言っただろうか』と焦り、間を持たせようとして余計な譲歩や説明を口走ってしまいがちです。しかし、優れた交渉者は沈黙を恐れるどころか、戦略的な武器として活用します。沈黙は、相手に自分の提案をじっくり熟考させる時間を与えるとともに、『これ以上安易な妥協はしない』という確固たる意志のサインにもなります。自分が発言した後は、相手が考えをまとめて言葉を発するまで、穏やかに待ち続けること。沈黙をコントロールできる者こそが、主導権を握り望ましい合意を引き出すことができるのです。」\n\n講師は主に何について話していますか。\n\n1番：交渉相手の嘘を見抜くための表情の観察法\n2番：契約締結までの手続きを最短で終わらせるスケジュール管理\n3番：相手を論破するための攻撃的な話し方のテクニック\n4番：商談を成功に導くための「沈黙」の戦略的効果",
+          "options": [
+            {
+              "id": "A",
+              "text": "交渉相手の嘘を見抜くための表情の観察法"
+            },
+            {
+              "id": "B",
+              "text": "契約締結までの手続きを最短で終わらせるスケジュール管理"
+            },
+            {
+              "id": "C",
+              "text": "相手を論破するための攻撃的な話し方のテクニック"
+            },
+            {
+              "id": "D",
+              "text": "商談を成功に導くための「沈黙」の戦略的効果"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanationVi": "Giảng viên giải thích cách làm chủ và khai thác sức mạnh của sự im lặng như một vũ khí chiến lược trong đàm phán thương mại ('沈黙を恐れるどころか、戦略的な武器として活用します...主導権を握り望ましい合意を引き出す').",
+          "distractorExplanations": {
+            "A": "Không dạy cách soi xét nét mặt bắt thóp lời nói dối.",
+            "B": "Không bàn về quản lý lịch trình thủ tục ký kết.",
+            "C": "Không dạy kỹ thuật nói dồn ép tấn công đối thủ."
+          },
+          "audioUrl": "audio/n2_mock_05/N2_05_M3_L03.mp3",
+          "mondaiNumber": 3,
+          "itemNumber": 3,
+          "audioDurationSec": 88.372,
+          "audioSha256": "0afe5b969c6f2238846da5d9f46a1ee8e28497adcaa3bf20806440245c1d3385",
+          "audioVerificationStatus": "AUDIO_VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
+        },
+        {
+          "id": "N2_05_M3_L04",
+          "typeId": "N2-LIS-GIST",
+          "skill": "Listening",
+          "category": "Mondai 3: 概要理解 — 伝統祭りの観光化と地域コミュニティ",
+          "stem": "報告者が伝えたい主題は何ですか。",
+          "dialogue": "地方創生シンポジウムで、民俗学の研究者が報告しています。\n\n女：「全国各地の伝統的な祭りが、観光振興や地域活性化の目玉として脚光を浴びています。旅行会社とタイアップして有料観覧席を設けたり、屋台イベントを大規模化したりすることで、莫大な観光消費が生まれ、地域経済が潤うことは確かです。しかし、その一方で、祭り本来の持つ神事としての厳かな意味合いが薄れ、単なる商業ショーへと変質してしまう懸念も指摘されています。最も重要なのは、祭りを支えてきた地元住民の誇りや連帯感が損なわれないことです。外部からの観光客を歓迎しつつも、伝統の精神的ルーツをいかに地域自身の手で守り継ぐか。経済効果と文化継承の調和のとれたバランスが今、厳しく問われています。」\n\n報告者が伝えたい主題は何ですか。\n\n1番：地方の伝統祭りが直面する、経済効果と文化継承のバランスの課題\n2番：祭りの有料観覧席の導入による観光収入の最大化手法\n3番：過疎化によって後継者が途絶えた祭りを廃止する基準\n4番：訪日外国人観光客向けの多言語パンフレットの作成手順",
+          "options": [
+            {
+              "id": "A",
+              "text": "地方の伝統祭りが直面する、経済効果と文化継承のバランスの課題"
+            },
+            {
+              "id": "B",
+              "text": "祭りの有料観覧席の導入による観光収入の最大化手法"
+            },
+            {
+              "id": "C",
+              "text": "過疎化によって後継者が途絶えた祭りを廃止する基準"
+            },
+            {
+              "id": "D",
+              "text": "訪日外国人観光客向けの多言語パンフレットの作成手順"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "Báo cáo viên đặt ra vấn đề then chốt: lễ hội truyền thống khi du lịch hóa thương mại cần giải quyết bài toán cân bằng giữa lợi ích kinh tế và việc bảo tồn nguyên vẹn linh hồn văn hóa cội nguồn ('経済効果と文化継承の調和のとれたバランスが今、厳しく問われています').",
+          "distractorExplanations": {
+            "B": "Không dạy cách tối ưu hóa tiền vé bán chỗ ngồi.",
+            "C": "Không bàn về tiêu chuẩn khai tử các lễ hội thiếu người kế thừa.",
+            "D": "Không hướng dẫn biên soạn tờ rơi dịch thuật cho du khách quốc tế."
+          },
+          "audioUrl": "audio/n2_mock_05/N2_05_M3_L04.mp3",
+          "mondaiNumber": 3,
+          "itemNumber": 4,
+          "audioDurationSec": 101.092,
+          "audioSha256": "b35faa76b14600811b1fe58020b88cbccdfbe4c5a7b0c6e1b3f7827e457fd629",
+          "audioVerificationStatus": "AUDIO_VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
+        },
+        {
+          "id": "N2_05_M3_L05",
+          "typeId": "N2-LIS-GIST",
+          "skill": "Listening",
+          "category": "Mondai 3: 概要理解 — 睡眠と記憶の定着メカニズム",
+          "stem": "医師は何を説明していますか。",
+          "dialogue": "テレビの健康番組で、脳神経内科の医師が解説しています。\n\n男：「試験の前夜に睡眠時間を削って徹夜で単語や公式を詰め込もうとする人がいますが、脳科学の観点からは逆効果と言わざるを得ません。日中にインプットされた膨大な情報は、一時的に脳の海馬という領域に保管されますが、それが長期記憶として定着するためには、睡眠中の脳の働きが不可欠だからです。特に深いノンレム睡眠の間に不要なシナプス結合が整理され、その後のレム睡眠の間に必要な記憶が他の知識と結びついて強固に固定化されます。つまり、十分な睡眠を取ること自体が、学習プロセスの極めて重要な一部なのです。徹夜で知識を詰め込むよりも、しっかり眠るほうが学習効率は格段に上がります。」\n\n医師は何を説明していますか。\n\n1番：質の良い睡眠を確保するための寝具の選び方\n2番：睡眠が学習した記憶を定着させるために果たす重要な役割\n3番：徹夜明けの疲労を短時間の昼寝で回復させるコツ\n4番：加齢に伴って睡眠時間が短くなる生理学的メカニズム",
+          "options": [
+            {
+              "id": "A",
+              "text": "質の良い睡眠を確保するための寝具の選び方"
+            },
+            {
+              "id": "B",
+              "text": "睡眠が学習した記憶を定着させるために果たす重要な役割"
+            },
+            {
+              "id": "C",
+              "text": "徹夜明けの疲労を短時間の昼寝で回復させるコツ"
+            },
+            {
+              "id": "D",
+              "text": "加齢に伴って睡眠時間が短くなる生理学的メカニズム"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "Bác sĩ lý giải cơ chế sinh học não bộ: giấc ngủ đóng vai trò không thể thiếu giúp củng cố và chuyển đổi dữ liệu học trong ngày thành ký ức dài hạn ('睡眠が学習した記憶を定着させるために果たす重要な役割').",
+          "distractorExplanations": {
+            "A": "Không hướng dẫn chọn đệm gối chăn chiếu.",
+            "C": "Không dạy mẹo ngủ trưa sau khi thức trắng đêm.",
+            "D": "Không bàn về việc người già ngủ ít đi theo tuổi tác."
+          },
+          "audioUrl": "audio/n2_mock_05/N2_05_M3_L05.mp3",
+          "mondaiNumber": 3,
+          "itemNumber": 5,
+          "audioDurationSec": 89.092,
+          "audioSha256": "736e2a2b69d4fd201e3ac414e40484dd9687e7081fd49f6a870325fa1cc97ffd",
+          "audioVerificationStatus": "AUDIO_VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
+        },
+        {
+          "id": "N2_05_M4_L01",
+          "typeId": "N2-LIS-RESP",
+          "skill": "Listening",
+          "category": "Mondai 4: 即時応答 (1)",
+          "stem": "山田さん、明日のプレゼン資料、もう少し手直ししたほうがよくない？",
+          "dialogue": "発話：「山田さん、明日のプレゼン資料、もう少し手直ししたほうがよくない？」",
+          "options": [
+            {
+              "id": "A",
+              "text": "ええ、私も気になっていたので修正しておきます。"
+            },
+            {
+              "id": "B",
+              "text": "いえ、手直ししない方がよかったですね。"
+            },
+            {
+              "id": "C",
+              "text": "明日のプレゼン、大成功でしたね。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "Mẫu câu đưa lời gợi ý nhẹ nhàng: '〜したほうがよくない？' (Chẳng phải nên sửa thêm một chút thì tốt hơn sao?). Câu đáp A: 'ええ、私も気になっていたので修正しておきます' (Vâng, tôi cũng đang băn khoăn nên sẽ chỉnh sửa lại) là tự nhiên và đúng ngữ cảnh nhất.",
+          "distractorExplanations": {
+            "B": "Sai ngữ pháp và logic thời gian (không thể nói đã không nên sửa).",
+            "C": "Thì quá khứ sai lệch hoàn toàn, buổi thuyết trình là ngày mai chưa diễn ra."
+          },
+          "audioUrl": "audio/n2_mock_05/N2_05_M4_L01.mp3",
+          "mondaiNumber": 4,
+          "itemNumber": 1,
+          "audioDurationSec": 28.132,
+          "audioSha256": "e6ee2cb88f497dfa0b833dccb50b90f43a380784fd1e39cce29818f60897b2cd",
+          "audioVerificationStatus": "AUDIO_VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
+        },
+        {
+          "id": "N2_05_M4_L02",
+          "typeId": "N2-LIS-RESP",
+          "skill": "Listening",
+          "category": "Mondai 4: 即時応答 (2)",
+          "stem": "部長、先ほどいただいた企画書、目を通していただけましたでしょうか。",
+          "dialogue": "発話：「部長、先ほどいただいた企画書、目を通していただけましたでしょうか。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "ええ、これからお見せするところですよ。"
+            },
+            {
+              "id": "B",
+              "text": "うん、確認したよ。後でフィードバックするね。"
+            },
+            {
+              "id": "C",
+              "text": "いいえ、企画書はまだ提出していません。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "Cấp dưới hỏi lịch sự xem sếp đã xem qua bản kế hoạch chưa: '目を通していただけましたでしょうか'. Trưởng phòng đáp ở câu B: 'うん、確認したよ。後でフィードバックするね' (Ừ, tôi xem rồi, lát tôi sẽ góp ý nhé).",
+          "distractorExplanations": {
+            "A": "Sếp là người nhận xem tài liệu, không thể nói 'tôi sắp cho bạn xem'.",
+            "C": "Cấp dưới vừa nói là '先ほどいただいた' (vừa gửi ban nãy), không thể bảo chưa nộp."
+          },
+          "audioUrl": "audio/n2_mock_05/N2_05_M4_L02.mp3",
+          "mondaiNumber": 4,
+          "itemNumber": 2,
+          "audioDurationSec": 28.636,
+          "audioSha256": "8878141d57a000b32bc2bb30c94f1e777f3ccd9b9c3e40c06bb108e05b13d226",
+          "audioVerificationStatus": "AUDIO_VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
+        },
+        {
+          "id": "N2_05_M4_L03",
+          "typeId": "N2-LIS-RESP",
+          "skill": "Listening",
+          "category": "Mondai 4: 即時応答 (3)",
+          "stem": "今度のプロジェクト、佐藤さんにリーダーをお願いするほかないんじゃない？",
+          "dialogue": "発話：「今度のプロジェクト、佐藤さんにリーダーをお願いするほかないんじゃない？」",
+          "options": [
+            {
+              "id": "A",
+              "text": "確かに、彼ほどの適任者は他にいませんね。"
+            },
+            {
+              "id": "B",
+              "text": "そうですね、彼には頼まない方が良さそうですね。"
+            },
+            {
+              "id": "C",
+              "text": "ええ、彼が断ってくれて安心しました。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "Mẫu câu: '〜するほかないんじゃない？' (Chẳng phải chỉ còn cách nhờ anh Sato làm nhóm trưởng hay sao?). Thể hiện ý Sato là ứng viên sáng giá duy nhất. Câu đáp A tán đồng hoàn toàn: '確かに、彼ほどの適任者は他にいませんね' (Đúng vậy, ngoài anh ấy ra thì chẳng còn ai phù hợp hơn).",
+          "distractorExplanations": {
+            "B": "Mâu thuẫn với ý kiến đề xuất giao cho Sato làm.",
+            "C": "Câu gốc đang bàn việc đi nhờ, chưa hề nói Sato đã từ chối."
+          },
+          "audioUrl": "audio/n2_mock_05/N2_05_M4_L03.mp3",
+          "mondaiNumber": 4,
+          "itemNumber": 3,
+          "audioDurationSec": 29.188,
+          "audioSha256": "0bbb0113b72843508a2b0dc37325f01d664650bc3bd6ae593dd2456d658e033a",
+          "audioVerificationStatus": "AUDIO_VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
+        },
+        {
+          "id": "N2_05_M4_L04",
+          "typeId": "N2-LIS-RESP",
+          "skill": "Listening",
+          "category": "Mondai 4: 即時応答 (4)",
+          "stem": "雨が降り出さないうちに、早めに引き上げたほうが無難だね。",
+          "dialogue": "発話：「雨が降り出さないうちに、早めに引き上げたほうが無難だね。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "もうすっかり雨が上がってよかったですね。"
+            },
+            {
+              "id": "B",
+              "text": "そうですね、雲行きも怪しいですし戻りましょう。"
+            },
+            {
+              "id": "C",
+              "text": "ええ、雨宿りしてから出かけましょう。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "Người nói khuyên nên rút lui/ra về sớm trước khi trời mưa: '〜ないうちに、早めに引き上げたほうが無難だね'. Câu đáp B đồng tình: 'そうですね、雲行きも怪しいですし戻りましょう' (Vâng, mây trời trông cũng đáng ngờ rồi, ta quay về thôi).",
+          "distractorExplanations": {
+            "A": "Trời sắp mưa chứ chưa hề tạnh mưa ('すっかり雨が上がって').",
+            "C": "Câu gốc đang khuyên đi về, không phải bàn chuyện trú mưa để đi chơi tiếp."
+          },
+          "audioUrl": "audio/n2_mock_05/N2_05_M4_L04.mp3",
+          "mondaiNumber": 4,
+          "itemNumber": 4,
+          "audioDurationSec": 26.332,
+          "audioSha256": "a5e241f8d41dbd6a9d7a0b61fb6f78981d87542439d291319c4f98c35cb84ba7",
+          "audioVerificationStatus": "AUDIO_VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
+        },
+        {
+          "id": "N2_05_M4_L05",
+          "typeId": "N2-LIS-RESP",
+          "skill": "Listening",
+          "category": "Mondai 4: 即時応答 (5)",
+          "stem": "あのレストラン、味は評判通りだったけど、接客はいまいちだったね。",
+          "dialogue": "発話：「あのレストラン、味は評判通りだったけど、接客はいまいちだったね。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "本当に、料理の味がまずくてがっかりしたよ。"
+            },
+            {
+              "id": "B",
+              "text": "そうだね、店員さんの態度がちょっと気になったね。"
+            },
+            {
+              "id": "C",
+              "text": "うん、スタッフのサービスが最高だったね。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "Người nói nhận xét: đồ ăn ngon đúng như đồn nhưng phục vụ thì tàm tạm chưa tới nơi tới chốn ('いまいちだったね'). Câu đáp B đồng cảm về mặt phục vụ: 'そうだね、店員さんの態度がちょっと気になったね' (Đúng thế, thái độ nhân viên hơi có vấn đề).",
+          "distractorExplanations": {
+            "A": "Mâu thuẫn vì đồ ăn được khen là ngon đúng như lời đồn ('評判通りだった').",
+            "C": "Mâu thuẫn vì câu gốc chê phục vụ chưa tốt, không thể khen là tuyệt vời ('最高だった')."
+          },
+          "audioUrl": "audio/n2_mock_05/N2_05_M4_L05.mp3",
+          "mondaiNumber": 4,
+          "itemNumber": 5,
+          "audioDurationSec": 28.54,
+          "audioSha256": "018ebeeff605f4341fd025e8e45c33d532f5aa7db12029b6f9b1d1683b316aef",
+          "audioVerificationStatus": "AUDIO_VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
+        },
+        {
+          "id": "N2_05_M4_L06",
+          "typeId": "N2-LIS-RESP",
+          "skill": "Listening",
+          "category": "Mondai 4: 即時応答 (6)",
+          "stem": "お忙しいところ恐縮ですが、この書類にサインを頂戴できればと存じます。",
+          "dialogue": "発話：「お忙しいところ恐縮ですが、この書類にサインを頂戴できればと存じます。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "はい、かしこまりました。どこに書けばいいですか。"
+            },
+            {
+              "id": "B",
+              "text": "いえ、サインを差し上げるわけにはいきません。"
+            },
+            {
+              "id": "C",
+              "text": "どういたしまして、お役に立てて光栄です。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "Kính ngữ trang trọng xin chữ ký: 'サインを頂戴できればと存じます' (Tôi xin phép được nhận chữ ký vào văn bản này). Người nghe lịch sự đồng ý ở câu A: 'はい、かしこまりました。どこに書けばいいですか' (Vâng, tôi hiểu rồi. Tôi ký vào chỗ nào ạ?).",
+          "distractorExplanations": {
+            "B": "Dùng sai từ ngữ kính ngữ và thô lỗ vô lý trong giao tiếp công sở.",
+            "C": "Dùng để đáp lại lời cảm ơn, không phù hợp với lời nhờ vả ký tên."
+          },
+          "audioUrl": "audio/n2_mock_05/N2_05_M4_L06.mp3",
+          "mondaiNumber": 4,
+          "itemNumber": 6,
+          "audioDurationSec": 29.836,
+          "audioSha256": "62c39e4847bce05a3fac6e14bc415220dd1d84e599332e1c2a41188d508d5ee4",
+          "audioVerificationStatus": "AUDIO_VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
+        },
+        {
+          "id": "N2_05_M4_L07",
+          "typeId": "N2-LIS-RESP",
+          "skill": "Listening",
+          "category": "Mondai 4: 即時応答 (7)",
+          "stem": "会議の開始時間、15分ほど繰り下げてもらえると助かるんだけど。",
+          "dialogue": "発話：「会議の開始時間、15分ほど繰り下げてもらえると助かるんだけど。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "承知しました。では15分遅く始めましょう。"
+            },
+            {
+              "id": "B",
+              "text": "分かりました。では15分早めましょう。"
+            },
+            {
+              "id": "C",
+              "text": "ええ、定刻通りに開始できてよかったですね。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "Từ vựng trọng tâm: '繰り下げる（くりさげる）' nghĩa là dời lịch lùi xuống muộn hơn. Câu đáp A chuẩn xác: '承知しました。では15分遅く始めましょう' (Tôi hiểu rồi, vậy ta bắt đầu muộn hơn 15 phút nhé).",
+          "distractorExplanations": {
+            "B": "Nhầm 繰り下げる (lùi muộn) với 繰り上げる (đẩy sớm).",
+            "C": "Người nói đang xin đổi giờ, không phải bắt đầu đúng giờ định sẵn."
+          },
+          "audioUrl": "audio/n2_mock_05/N2_05_M4_L07.mp3",
+          "mondaiNumber": 4,
+          "itemNumber": 7,
+          "audioDurationSec": 29.716,
+          "audioSha256": "884462e5ef88a607c67fdf837203693fe6bcd139c726076fb1d352a1fa9c1b60",
+          "audioVerificationStatus": "AUDIO_VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
+        },
+        {
+          "id": "N2_05_M4_L08",
+          "typeId": "N2-LIS-RESP",
+          "skill": "Listening",
+          "category": "Mondai 4: 即時応答 (8)",
+          "stem": "まさか彼が全国大会で優勝するなんて、夢にも思わなかったよ。",
+          "dialogue": "発話：「まさか彼が全国大会で優勝するなんて、夢にも思わなかったよ。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "本当に、彼なら最初から勝つに決まっていましたね。"
+            },
+            {
+              "id": "B",
+              "text": "まったくです。誰もが予想しなかった大番狂わせでしたね。"
+            },
+            {
+              "id": "C",
+              "text": "ええ、彼の昨夜の夢のおかげですね。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "Mẫu câu: '夢にも思わなかった' (Trong mơ cũng không thể ngờ tới). Thể hiện sự bất ngờ tột độ. Câu đáp B: 'まったくです。誰もが予想しなかった大番狂わせでしたね' (Đúng là như thế, là một cú lội ngược dòng bất ngờ chẳng ai lường trước).",
+          "distractorExplanations": {
+            "A": "Mâu thuẫn với sự bất ngờ (nếu biết chắc thắng từ đầu thì không dùng 夢にも思わなかった).",
+            "C": "Hiểu sai nghĩa bóng của cụm 夢にも思わなかった thành giấc mơ ngủ ban đêm."
+          },
+          "audioUrl": "audio/n2_mock_05/N2_05_M4_L08.mp3",
+          "mondaiNumber": 4,
+          "itemNumber": 8,
+          "audioDurationSec": 29.86,
+          "audioSha256": "9775ec04724b6d3193e31a7252ed7449c87676c58528e4514dcedb67ac926718",
+          "audioVerificationStatus": "AUDIO_VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
+        },
+        {
+          "id": "N2_05_M4_L09",
+          "typeId": "N2-LIS-RESP",
+          "skill": "Listening",
+          "category": "Mondai 4: 即時応答 (9)",
+          "stem": "新商品の売れ行き、事前の予測を大幅に上回ったそうですね。",
+          "dialogue": "発話：「新商品の売れ行き、事前の予測を大幅に上回ったそうですね。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "ええ、期待外れの結果になって残念です。"
+            },
+            {
+              "id": "B",
+              "text": "はい、おかげさまで追加増産が決定いたしました。"
+            },
+            {
+              "id": "C",
+              "text": "いえ、予測通りまったく売れませんでした。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "Người nói hỏi thăm tin mừng: doanh số bán hàng vượt xa dự kiến ('大幅に上回った'). Câu đáp B phấn khởi: 'はい、おかげさまで追加増産が決定いたしました' (Vâng, nhờ trời mà chúng tôi đã quyết định sản xuất tăng cường thêm).",
+          "distractorExplanations": {
+            "A": "Mâu thuẫn trực tiếp (bán chạy vượt dự kiến thì không thể là thất vọng tràn trề).",
+            "C": "Mâu thuẫn hoàn toàn với việc vượt xa dự kiến."
+          },
+          "audioUrl": "audio/n2_mock_05/N2_05_M4_L09.mp3",
+          "mondaiNumber": 4,
+          "itemNumber": 9,
+          "audioDurationSec": 28.588,
+          "audioSha256": "63f3eeb66de2b5747cd5a259a97311102cc7cff49e3975126f539497f7012fe6",
+          "audioVerificationStatus": "AUDIO_VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
+        },
+        {
+          "id": "N2_05_M4_L10",
+          "typeId": "N2-LIS-RESP",
+          "skill": "Listening",
+          "category": "Mondai 4: 即時応答 (10)",
+          "stem": "これだけの予算オーバー、担当役員に報告しないわけにはいかないよ。",
+          "dialogue": "発話：「これだけの予算オーバー、担当役員に報告しないわけにはいかないよ。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "そうですね、隠さずに正直に事情を説明しましょう。"
+            },
+            {
+              "id": "B",
+              "text": "ええ、役員には黙っておいたほうが良さそうですね。"
+            },
+            {
+              "id": "C",
+              "text": "はい、報告を無事に免除されて安心しました。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "Cấu trúc N2: '〜ないわけにはいかない' (Không thể không làm / Buộc phải báo cáo). Câu đáp A đồng tình: 'そうですね、隠さずに正直に事情を説明しましょう' (Đúng vậy, ta hãy giải thích thành thực mọi sự việc chứ không giấu giếm).",
+          "distractorExplanations": {
+            "B": "Khuyên giấu giếm đi là mâu thuẫn hoàn toàn với 'không thể không báo cáo'.",
+            "C": "Chưa báo cáo và không hề được miễn trừ trách nhiệm."
+          },
+          "audioUrl": "audio/n2_mock_05/N2_05_M4_L10.mp3",
+          "mondaiNumber": 4,
+          "itemNumber": 10,
+          "audioDurationSec": 29.836,
+          "audioSha256": "c7cf30d88329b243baae539945491f52ae95ae61908928950d34c6547b4c4fdc",
+          "audioVerificationStatus": "AUDIO_VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
+        },
+        {
+          "id": "N2_05_M4_L11",
+          "typeId": "N2-LIS-RESP",
+          "skill": "Listening",
+          "category": "Mondai 4: 即時応答 (11)",
+          "stem": "君の提案書、着眼点は素晴らしいが、コスト面の詰めが甘いんじゃないか。",
+          "dialogue": "発話：「君の提案書、着眼点は素晴らしいが、コスト面の詰めが甘いんじゃないか。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "ありがとうございます。完璧とお褒めいただき光栄です。"
+            },
+            {
+              "id": "B",
+              "text": "ご指摘ありがとうございます。詳細な収支試算を再検討いたします。"
+            },
+            {
+              "id": "C",
+              "text": "ええ、コスト削減はすでに十分達成できました。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanationVi": "Sếp nhận xét: ý tưởng rất hay nhưng phần tính toán chi phí còn sơ sài lỏng lẻo ('コスト面の詰めが甘い'). Cấp dưới tiếp thu lời góp ý ở câu B: 'ご指摘ありがとうございます。詳細な収支試算を再検討いたします' (Cảm ơn sếp đã chỉ điểm, em sẽ rà soát lại bài toán thu chi chi tiết).",
+          "distractorExplanations": {
+            "A": "Bị sếp phê bình phần chi phí chưa kỹ, không thể tưởng là được khen hoàn hảo.",
+            "C": "Phủ nhận lời nhắc nhở của sếp, thiếu tinh thần cầu thị."
+          },
+          "audioUrl": "audio/n2_mock_05/N2_05_M4_L11.mp3",
+          "mondaiNumber": 4,
+          "itemNumber": 11,
+          "audioDurationSec": 33.892,
+          "audioSha256": "5abc0c4087023fc38821bafad4ae8af6f6e008e0d9d868a653507df52cb43206",
+          "audioVerificationStatus": "AUDIO_VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
+        },
+        {
+          "id": "N2_05_M5_L01",
+          "typeId": "N2-LIS-INT",
+          "skill": "Listening",
+          "category": "Mondai 5: 統合理解 (Q1) — 夫が希望している物件",
+          "stem": "夫はどの物件が最も良いと言っていますか。",
+          "dialogue": "不動産仲介のオフィスで、夫婦が郊外の賃貸一戸建て住宅を探しに来て、不動産屋の担当者から4つの候補物件の説明を聞いています。\n\n不動産屋：「お二人のご希望条件である『家賃12万円以内、自然が豊かで静かな環境、駐車場付き』に合致する物件を4つピックアップいたしました。\n\nまず【1番の物件】は、最寄り駅まで徒歩5分という抜群の立地です。築年数は25年ですが内装はフルリフォーム済みで大変綺麗です。家賃は上限いっぱいの12万円ですが、通勤の利便性はダントツです。\n\n次に【2番の物件】は、駅からバスで20分と少し離れますが、敷地が最も広く、広々とした家庭菜園ができる広い庭が付いています。築15年で間取りも4LDKとゆとりがあり、家賃は10万円とお手頃です。\n\n続いて【3番の物件】は、駅まで徒歩15分、大きな県立森林公園に隣接した閑静な住宅街にあります。昨年建てられたばかりの築浅物件で、最新の断熱窓や床暖房、太陽光発電システムが完備されており光熱費が大幅に節約できます。家賃は11万5千円です。\n\n最後に【4番の物件】は、駅からバスで15分ですが、ペット飼育が完全可能で、庭にドッグランスペースがあります。建物は築30年とやや古さを感じますが、家賃は最も安い8万5千円に抑えられています。」\n\n夫：「どれも魅力的だね。僕は毎日の都心への通勤があるから、バスに乗る手間を考えると、多少家賃が高くてもやっぱり駅から歩いてすぐのところが一番ありがたいな。朝の時間を有効に使いたいし。」\n\n妻：「あなたはそうね。でも私は在宅ワークが中心だから、通勤時間よりも冬でも暖かく快適に過ごせる設備の良さを重視したいわ。それに、窓から緑豊かな公園の木々が見える環境なら、仕事の合間にリフレッシュできそう。光熱費が安くなるのも家計に嬉しいしね。」\n\n夫：「なるほど、確かに設備が充実しているのは長い目で見ると快適そうだね。それぞれの希望に合わせてじっくり検討してみよう。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "1番の物件（駅徒歩5分、フルリフォーム済み）"
+            },
+            {
+              "id": "B",
+              "text": "2番の物件（広い庭と家庭菜園付き、家賃10万円）"
+            },
+            {
+              "id": "C",
+              "text": "3番の物件（公園隣接、最新の断熱・床暖房設備）"
+            },
+            {
+              "id": "D",
+              "text": "4番の物件（ペット可、家賃8万5千円）"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanationVi": "Người chồng giải thích lý do chọn物件 1: phải đi làm hàng ngày vào trung tâm Tokyo nên vị trí đi bộ 5 phút ra ga là tối quan trọng, dù giá thuê kịch trần 12 man ('毎日の都心への通勤があるから...駅から歩いてすぐのところが一番ありがたい').",
+          "distractorExplanations": {
+            "B": "Căn số 2 đi xe buýt 20 phút xa ga, chồng không chọn.",
+            "C": "Căn số 3 gần công viên là căn người vợ thích.",
+            "D": "Căn số 4 nhà cũ nuôi thú cưng không phải ưu tiên của chồng."
+          },
+          "audioUrl": "audio/n2_mock_05/N2_05_M5_L01.mp3",
+          "mondaiNumber": 5,
+          "itemNumber": 1,
+          "audioDurationSec": 162.924,
+          "audioSha256": "ef86bdfa5d2ef50643ba0160dce022aa5ee514df05d4bb29eef8f04e7a1715fd",
+          "audioVerificationStatus": "AUDIO_VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
+        },
+        {
+          "id": "N2_05_M5_L02",
+          "typeId": "N2-LIS-INT",
+          "skill": "Listening",
+          "category": "Mondai 5: 統合理解 (Q2) — 妻が希望している物件",
+          "stem": "妻はどの物件が最も良いと言っていますか。",
+          "dialogue": "不動産仲介のオフィスで、夫婦が郊外の賃貸一戸建て住宅を探しに来て、不動産屋の担当者から4つの候補物件の説明を聞いています。\n\n不動産屋：「お二人のご希望条件である『家賃12万円以内、自然が豊かで静かな環境、駐車場付き』に合致する物件を4つピックアップいたしました。\n\nまず【1番の物件】は、最寄り駅まで徒歩5分という抜群の立地です。築年数は25年ですが内装はフルリフォーム済みで大変綺麗です。家賃は上限いっぱいの12万円ですが、通勤の利便性はダントツです。\n\n次に【2番の物件】は、駅からバスで20分と少し離れますが、敷地が最も広く、広々とした家庭菜園ができる広い庭が付いています。築15年で間取りも4LDKとゆとりがあり、家賃は10万円とお手頃です。\n\n続いて【3番の物件】は、駅まで徒歩15分、大きな県立森林公園に隣接した閑静な住宅街にあります。昨年建てられたばかりの築浅物件で、最新の断熱窓や床暖房、太陽光発電システムが完備されており光熱費が大幅に節約できます。家賃は11万5千円です。\n\n最後に【4番の物件】は、駅からバスで15分ですが、ペット飼育が完全可能で、庭にドッグランスペースがあります。建物は築30年とやや古さを感じますが、家賃は最も安い8万5千円に抑えられています。」\n\n夫：「どれも魅力的だね。僕は毎日の都心への通勤があるから、バスに乗る手間を考えると、多少家賃が高くてもやっぱり駅から歩いてすぐのところが一番ありがたいな。朝の時間を有効に使いたいし。」\n\n妻：「あなたはそうね。でも私は在宅ワークが中心だから、通勤時間よりも冬でも暖かく快適に過ごせる設備の良さを重視したいわ。それに、窓から緑豊かな公園の木々が見える環境なら、仕事の合間にリフレッシュできそう。光熱費が安くなるのも家計に嬉しいしね。」\n\n夫：「なるほど、確かに設備が充実しているのは長い目で見ると快適そうだね。それぞれの希望に合わせてじっくり検討してみよう。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "1番の物件（駅徒歩5分、フルリフォーム済み）"
+            },
+            {
+              "id": "B",
+              "text": "2番の物件（広い庭と家庭菜園付き、家賃10万円）"
+            },
+            {
+              "id": "C",
+              "text": "3番の物件（公園隣接、最新の断熱・床暖房設備）"
+            },
+            {
+              "id": "D",
+              "text": "4番の物件（ペット可、家賃8万5千円）"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "Người vợ làm việc tại nhà (remote) nên chọn căn số 3: cạnh công viên cây xanh thoáng đãng, có kính cách nhiệt hiện đại, sưởi sàn và pin mặt trời giúp tiết kiệm tiền điện ('私は在宅ワークが中心だから...冬でも暖かく快適に過ごせる設備の良さを重視したい...窓から緑豊かな公園の木々が見える環境...光熱費が安くなる').",
+          "distractorExplanations": {
+            "A": "Căn số 1 tiện đi làm là sở thích của người chồng.",
+            "B": "Căn số 2 có vườn rau nhưng vợ không nhắc tới sở thích làm nông.",
+            "D": "Căn số 4 không được người vợ lựa chọn."
+          },
+          "audioUrl": "audio/n2_mock_05/N2_05_M5_L02.mp3",
+          "mondaiNumber": 5,
+          "itemNumber": 2,
+          "audioDurationSec": 161.052,
+          "audioSha256": "81d57524f3510eefe01591c8a6764414516914440246885c470dd569e90cd723",
+          "audioVerificationStatus": "AUDIO_VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
+        },
+        {
+          "id": "N2_05_M5_L03",
+          "typeId": "N2-LIS-INT",
+          "skill": "Listening",
+          "category": "Mondai 5: 統合理解 (Q3) — 社長が導入を決めたプラン",
+          "stem": "社長はどのプランを導入することに決めましたか。",
+          "dialogue": "中小企業の経営会議で、社長と人事部長が福利厚生制度の新規導入について話し合っています。\n\n社長：「社員の健康維持と定着率向上のために、来期から新しい福利厚生メニューを1つ導入したいと考えているんだ。人事部で検討した候補を説明してくれるか。」\n\n人事部長：「はい、社員アンケートの要望を分析し、4つのプランをまとめました。\n\n【1番のプラン】は、大手スポーツジムの月額利用料補助です。運動不足の解消に直結し、特に若手社員から強い要望が寄せられています。\n\n【2番のプラン】は、専門のカウンセラーによる24時間体制のメンタルヘルス電話相談窓口の開設です。仕事や人間関係の悩みを早期にケアし、休職を防ぐ効果が期待されます。\n\n【3番のプラン】は、全社員のオフィスチェアや昇降式デスクの最新エルゴノミクス（人間工学）製品への一斉アップグレードです。腰痛や肩こりを防止し、長時間のデスクワーク環境を物理的に改善します。\n\n【4番のプラン】は、近隣の提携レストランや惣菜店で使える健康ランチ補助チケットの支給です。食生活の乱れを改善できると好評です。」\n\n社長：「なるほど。どれも魅力的だが、先日の健康診断結果を見ると、うちの会社はIT企業ということもあって、社員の約7割が慢性的な腰痛や眼精疲労、首の痛みを訴えているんだよ。ジムや食事の補助もいいが、就労時間の大部分を過ごす日々の執務環境そのものを根本から改善することが、社員の健康と業務効率の向上に最も直結するはずだ。初期投資はかかるが、まずはこちらのプランを全社的に実施しよう。」",
+          "options": [
+            {
+              "id": "A",
+              "text": "1番のプラン（スポーツジムの利用料補助）"
+            },
+            {
+              "id": "B",
+              "text": "2番のプラン（24時間メンタルヘルス電話相談窓口）"
+            },
+            {
+              "id": "C",
+              "text": "3番のプラン（エルゴノミクスチェアや昇降デスクへの一斉アップグレード）"
+            },
+            {
+              "id": "D",
+              "text": "4番のプラン（提携レストランでの健康ランチ補助チケット）"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanationVi": "Giám đốc đưa ra quyết định cuối cùng dựa trên kết quả khám sức khỏe có tới 70% nhân viên bị đau thắt lưng, mỏi cổ: nâng cấp đồng loạt ghế công thái học và bàn nâng hạ (プラン 3) để cải thiện tận gốc môi trường ngồi làm việc hàng ngày ('社員の約7割が慢性的な腰痛や眼精疲労...日々の執務環境そのものを根本から改善することが...最も直結するはずだ').",
+          "distractorExplanations": {
+            "A": "Gói tập gym chỉ thanh niên thích nhưng không giải quyết được môi trường ngồi làm việc 8 tiếng.",
+            "B": "Tư vấn tâm lý điện thoại không giải quyết chứng đau mỏi thể chất của 70% nhân sự IT.",
+            "D": "Vé ăn trưa dinh dưỡng không phải là ưu tiên số 1 của ban giám đốc."
+          },
+          "audioUrl": "audio/n2_mock_05/N2_05_M5_L03.mp3",
+          "mondaiNumber": 5,
+          "itemNumber": 3,
+          "audioDurationSec": 127.388,
+          "audioSha256": "23d84cde595079855c7ace4f093ec94ed6514656133b6128294f12bfd0efe6cc",
+          "audioVerificationStatus": "AUDIO_VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -41,7 +41,11 @@ def generate_ci_qa_summary():
 
     # Check audit reports
     reports_status = {}
-    for m in ['01', '02', '03', '04']:
+    mocks_list = ['01', '02', '03', '04']
+    if (ROOT / 'data/mock_exams/n2_mock_05.json').exists():
+        mocks_list.append('05')
+
+    for m in mocks_list:
         rep = ROOT / f'qa/N2_MOCK_{m}_INDEPENDENT_AUDIT_REPORT.md'
         reports_status[f"n2Mock{m}Audited"] = rep.exists()
 
@@ -55,7 +59,7 @@ def generate_ci_qa_summary():
 
     # Audio verification receipts
     audio_receipts_status = {}
-    for m in ['01', '02', '03', '04']:
+    for m in mocks_list:
         rec = ROOT / f'qa/N2_MOCK_{m}_AUDIO_PLAYBACK_RECEIPT.json'
         if rec.exists():
             with open(rec, 'r', encoding='utf-8') as f:
@@ -73,6 +77,7 @@ def generate_ci_qa_summary():
                 "tracksCount": 0,
                 "allPlaybackVerified": False
             }
+
 
     gate_status = "PASS" if (len(quarantined) == 0 and len(review_required) == 0 and len(re_review_required) == 0) else "FAIL"
 

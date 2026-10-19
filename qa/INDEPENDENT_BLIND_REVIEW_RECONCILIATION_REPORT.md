@@ -1,9 +1,9 @@
-# JP-STUDY — 420-Question Adversarial Blind Review Reconciliation Report
+# JP-STUDY — 525-Question Adversarial Blind Review Reconciliation Report
 
-**Target Exams:** `N2-MOCK-01`, `N2-MOCK-02`, `N2-MOCK-03`, `N2-MOCK-04` (420 total items)  
+**Target Exams:** `N2-MOCK-01`, `N2-MOCK-02`, `N2-MOCK-03`, `N2-MOCK-04`, `N2-MOCK-05` (525 total items)  
 **Assurance Framework:** Independent Blind Review & Explicit Provenance Model  
 **Audit Timestamp:** 2026-10-19  
-**Completed Solves:** 420 / 420  
+**Completed Solves:** 525 / 525  
 
 ---
 
@@ -11,11 +11,11 @@
 
 | Metric | Count | Percentage | Status |
 |---|:---:|:---:|:---:|
-| **Total Evaluated Items** | 420 | 100.0% | COMPLETE |
-| **Independent Blind Solves Loaded** | 420 | 100.0% | VERIFIED |
-| **Exact Agreement (`AGREEMENT`)** | 409 | 97.4% | AUDITED |
+| **Total Evaluated Items** | 525 | 100.0% | COMPLETE |
+| **Independent Blind Solves Loaded** | 525 | 100.0% | VERIFIED |
+| **Exact Agreement (`AGREEMENT`)** | 514 | 97.9% | AUDITED |
 | **Agreed with Nuance Warnings (`REVIEW_AGREED_WITH_WARNINGS`)** | 0 | 0.0% | AUDITED |
-| **Grammar Defects Confirmed & Repaired** | 11 | 2.6% | REPAIRED |
+| **Grammar Defects Confirmed & Repaired** | 11 | 2.1% | REPAIRED |
 | **Key Mismatches (`KEY_MISMATCH`)** | 0 | 0.0% | AUDITED |
 | **Unverified / Pending Solves** | 0 | 0.0% | NONE |
 
@@ -98,4 +98,4 @@
 | N2-MOCK-01 | `N2-G8-004` | Grammar | **A** | **A** | `A` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
 | N2-MOCK-01 | `N2-G8-005` | Grammar | **C** | **C** | `C` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
 | N2-MOCK-01 | `N2-G9-001` | Grammar | **C** | **C** | `C` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| ... | ... | *(remaining 370 items in CSV and JSON ledgers)* | ... | ... | ... | ... | ... | ... |
+| ... | ... | *(remaining 475 items in CSV and JSON ledgers)* | ... | ... | ... | ... | ... | ... |

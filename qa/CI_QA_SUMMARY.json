@@ -1,7 +1,7 @@
 {
   "workflow": "Content QA & Adversarial Release Gate",
-  "ciRunTimestamp": "2026-10-19T14:00:28.316721+00:00",
-  "totalItemsAudited": 420,
+  "ciRunTimestamp": "2026-10-19T14:31:16.889247+00:00",
+  "totalItemsAudited": 525,
   "quarantinedCount": 0,
   "reviewRequiredCount": 0,
   "gateStatus": "PASS",
@@ -9,7 +9,8 @@
     "n2Mock01Audited": true,
     "n2Mock02Audited": true,
     "n2Mock03Audited": true,
-    "n2Mock04Audited": true
+    "n2Mock04Audited": true,
+    "n2Mock05Audited": true
   },
   "mockBreakdown": {
     "N2-MOCK-01": {
@@ -31,12 +32,17 @@
       "total": 105,
       "verified": 105,
       "quarantined": 0
+    },
+    "N2-MOCK-05": {
+      "total": 105,
+      "verified": 105,
+      "quarantined": 0
     }
   },
   "provenanceBreakdown": {
     "RECONSTRUCTED_FROM_ARCHIVED_INPUT": 287,
     "ORIGINAL_VERSION_BOUND": 5,
-    "FRESH_REVIEW_VERIFIED": 109,
+    "FRESH_REVIEW_VERIFIED": 214,
     "OPTION_PERMUTATION_REBOUND": 19
   },
   "audioAcousticStatus": {
@@ -56,6 +62,11 @@
       "allPlaybackVerified": true
     },
     "N2-MOCK-04": {
+      "receiptExists": true,
+      "tracksCount": 30,
+      "allPlaybackVerified": true
+    },
+    "N2-MOCK-05": {
       "receiptExists": true,
       "tracksCount": 30,
       "allPlaybackVerified": true

@@ -88,6 +88,12 @@ jobs:
         run: |
           python scripts/curriculum/audit_n2_mock_105_questions.py 4
 
+      - name: Audit N2 Mock 05 (105 items, audio hashes, release gate)
+        if: hashFiles('data/mock_exams/n2_mock_05.json') != ''
+        run: |
+          python scripts/curriculum/audit_n2_mock_105_questions.py 5
+
+
       # 12. Run full unit and regression test suite
       - name: Run full regression test suite
         run: |

@@ -1,0 +1,272 @@
+[
+  {
+    "id": "N2_05_M1_L01",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "記者会見直前の最優先タスク。開発部の実験室へ行って予備の実機を受け取ること。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "fced305bfdff4bd36f3a928711ca3b75f0ac2998d165e1774e9132563053fefa"
+  },
+  {
+    "id": "N2_05_M1_L02",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "ゼミ発表準備。演習室の管理窓口が閉まる前にプロジェクターの変換アダプターを借りること。正解はA。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "6cca6cee1ebbd08ea96d6aaf3b339426ea88210a7b24936adad9880b375011e3"
+  },
+  {
+    "id": "N2_05_M1_L03",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "クリーンアップ作戦。受付で参加者の出席を確認し、名札を配ること。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "555b538510ad1466e91f6dccfaa6565debcb102967875c154b92ad1733f06a03"
+  },
+  {
+    "id": "N2_05_M1_L04",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "ツアー日程変更。本日午後6時までにネットのマイページで新規予約の決済を完了すること。正解はD。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "21d17d48ed8e05c43ff54e74a32784212507016626ee3394cdaff22107634066"
+  },
+  {
+    "id": "N2_05_M1_L05",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "ウェブサイトデザイン修正。スマホ表示時のキャッチコピーのサイズ縮小と、購入ボタンの画面下部固定表示。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "df8011c93ad4bb36c649fbe7b77bb0732e519f418018123238844c1b217fdd29"
+  },
+  {
+    "id": "N2_05_M2_L01",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "万年筆のヒット要因。自分でインクを吸入するというアナログな手間が特別な体験として受け入れられたこと。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "e7363bee39a859e2d5899429f887e9041bd11c3e0fccab5ae2c2b15f6d1882ec"
+  },
+  {
+    "id": "N2_05_M2_L02",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "コーチ変更の理由。レース終盤の過度な精神的重圧を克服するためのメンタル面の指導を求めたから。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "6e2677040b70872e673a17f5e5608439be1b5e12e567d84a269792d89fe6249c"
+  },
+  {
+    "id": "N2_05_M2_L03",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "コーヒー豆の選定基準。農園との持続可能な体制により、年間を通じて安定した品質と供給が維持できること。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "6670494efe5a03e838569ed6716d81b6c623ac92414558cc2f806d557c57a12f"
+  },
+  {
+    "id": "N2_05_M2_L04",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "会議削減の目的。社員が会議での受動的な姿勢を改め、自律的な判断と意思決定の迅速化を図るため。正解はD。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "5140f09cfdf2b7b2b636c80a78069e1c7fe9c5e2fd94232d7a1d02d5feabb758"
+  },
+  {
+    "id": "N2_05_M2_L05",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "古文書デジタル化の課題。崩し字の古文書を正確に解読・解説できる専門人材が著しく不足していること。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "06849c6d971dbfa4a800b6ce304ca473a3d02813fbc7a5ab52ae7e627477ee58"
+  },
+  {
+    "id": "N2_05_M2_L06",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "EVサブスクの決め手。将来バッテリー技術の進歩で旧型化しても、最新モデルへ容易に乗り換えられるから。正解はD。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "6093728db1beef30a23b44a054ee5fb69b797216a8399bb71ff099b1a0de0c79"
+  },
+  {
+    "id": "N2_05_M3_L01",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "専門家の主題。コミュニティガーデンが持つ心理的・社会的な価値。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "99141a85910d0325c9db09ad6d02b8eed2caa6adf952889d4c0177682b7b4ddb"
+  },
+  {
+    "id": "N2_05_M3_L02",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "書店経営者の主題。リアル書店は偶発的な出会いと交流を生む文化拠点へと進化すべきであること。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "fe14fcf348142ea161f73439ca13d4a0ca8e21eb1b07eb5e94658927de8ca54d"
+  },
+  {
+    "id": "N2_05_M3_L03",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "講師の主題。商談を成功に導くための「沈黙」の戦略的効果。正解はD。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "e19ae12edfd4dd16986b17511110bce2975f5886c51d8824f6c1d5525a8f18e5"
+  },
+  {
+    "id": "N2_05_M3_L04",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "研究者の主題。地方の伝統祭りが直面する、経済効果と文化継承のバランスの課題。正解はA。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "aee57828f4da6be702393934ae9db254aafe9880f6def1fcb8b85587f3aa98e3"
+  },
+  {
+    "id": "N2_05_M3_L05",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "医師の主題。睡眠が学習した記憶を定着させるために果たす重要な役割。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "a46fbbce5dab833ef7862df2095ce46602be0540f577f3402d5db5d781098d5f"
+  },
+  {
+    "id": "N2_05_M4_L01",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「手直ししたほうがよくない？」への返答。「ええ、私も気になっていたので修正しておきます。」正解はA。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "bee6c3aa829a5b65745fa3b49644b31f43645d05108eeced2d6dc62b07c94662"
+  },
+  {
+    "id": "N2_05_M4_L02",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「目を通していただけましたでしょうか」への返答。「うん、確認したよ。後でフィードバックするね。」正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "c6e2d5774207f2725c030ec7c7c0069b95f741f223573e1dd5591dcdf2564f06"
+  },
+  {
+    "id": "N2_05_M4_L03",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「リーダーをお願いするほかないんじゃない？」への返答。「確かに、彼ほどの適任者は他にいませんね。」正解はA。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "41b677d6091e288e5064e5792e753e2735578c4a00697b76befc95fb5bdb96a2"
+  },
+  {
+    "id": "N2_05_M4_L04",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「早めに引き上げたほうが無難だね」への返答。「そうですね、雲行きも怪しいですし戻りましょう。」正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "00ed9f239d58a97d35de29f85c7acad8a89c274e5c4a22259df5d149cb1e8068"
+  },
+  {
+    "id": "N2_05_M4_L05",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「接客はいまいちだったね」への返答。「そうだね、店員さんの態度がちょっと気になったね。」正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "f7bc697d864ae2d4c4c6356fae7162c6d0f094e1293240877a459c50fecff39d"
+  },
+  {
+    "id": "N2_05_M4_L06",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「サインを頂戴できればと存じます」への返答。「はい、かしこまりました。どこに書けばいいですか。」正解はA。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "97ac880cb2f153cf0eba489b01e6dcef2f17e5f602660471c052a5946d240c76"
+  },
+  {
+    "id": "N2_05_M4_L07",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「15分ほど繰り下げてもらえると」への返答。「承知しました。では15分遅く始めましょう。」正解はA。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "7b3a673da5faf5e678d28158c14243366346be873d8650ac99cdd0bbfde3716c"
+  },
+  {
+    "id": "N2_05_M4_L08",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「夢にも思わなかったよ」への返答。「まったくです。誰もが予想しなかった大番狂わせでしたね。」正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "fd664a39147686cb310bcd1150f9f84b178df74cc0af4c13ef8c4c3b4e789ca7"
+  },
+  {
+    "id": "N2_05_M4_L09",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「予測を大幅に上回ったそうですね」への返答。「はい、おかげさまで追加増産が決定いたしました。」正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "2459dadf8dfb17c8b57e3ad13f88d3d972c12c81b272c9f390e0dc3a81eea40b"
+  },
+  {
+    "id": "N2_05_M4_L10",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「報告しないわけにはいかないよ」への返答。「そうですね、隠さずに正直に事情を説明しましょう。」正解はA。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "5962dca1d1cae5fe638986f919cecc9f368ca4088680c3de6291b038ccc88fb9"
+  },
+  {
+    "id": "N2_05_M4_L11",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「コスト面の詰めが甘いんじゃないか」への返答。「ご指摘ありがとうございます。詳細な収支試算を再検討いたします。」正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "cad4156d55c2559dd38f1de3ab406f3e0d087580a95dc771b16edebf6c70c928"
+  },
+  {
+    "id": "N2_05_M5_L01",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "夫が希望する物件。都心通勤のため駅徒歩5分の「1番の物件」。正解はA。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "c828fa3c7750a5b35cc67e306226ea93f2994a083a1b48f3c54a4351948aea15"
+  },
+  {
+    "id": "N2_05_M5_L02",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "妻が希望する物件。在宅ワーク快適性・公園隣接・光熱費節約の「3番の物件」。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "afffe1045e85293ffa7982faea1abdc30562a4cdfcd5c9c53f3e334d2a7fa306"
+  },
+  {
+    "id": "N2_05_M5_L03",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "社長が導入を決めたプラン。7割の社員の腰痛・肩こりを根本改善するエルゴノミクス家具へのアップグレード「3番のプラン」。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "5e220fc49b06bd7cc5e7f3af3ef9de6005b0997b728db7118268fa0e92f7a1e7"
+  }
+]

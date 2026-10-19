@@ -41,11 +41,15 @@ BOILERPLATE_TRIGGERS = [
 ]
 
 def load_reconciliation_ledger():
-    if not LEDGER_FILE.exists():
-        raise FileNotFoundError(f"Missing ledger file: {LEDGER_FILE}. Run reconcile_mock_blind_review.py first.")
-    with open(LEDGER_FILE, 'r', encoding='utf-8') as f:
+    ledger_path = ROOT / 'qa/QUESTION_AUDIT_LEDGER.json'
+    if not ledger_path.exists():
+        ledger_path = ROOT / 'qa/QUESTION_AUDIT_LEDGER_210.json'
+    if not ledger_path.exists():
+        raise FileNotFoundError(f"Missing ledger file: {ledger_path}. Run reconcile_mock_blind_review.py first.")
+    with open(ledger_path, 'r', encoding='utf-8') as f:
         ledger = json.load(f)
     return {entry['questionId']: entry for entry in ledger}
+
 
 ALLOWED_STRUCTURAL_STATUSES = {"PASS"}
 ALLOWED_LINGUISTIC_STATUSES = {"AI_VERIFIED_PASS", "REPAIRED_AND_VERIFIED"}

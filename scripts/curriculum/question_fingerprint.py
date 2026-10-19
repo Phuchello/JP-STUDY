@@ -52,7 +52,7 @@ if __name__ == "__main__":
     from pathlib import Path
     root = Path(__file__).resolve().parents[2]
     total_validated = 0
-    for mock_fn in ["data/mock_exams/n2_mock_01.json", "data/mock_exams/n2_mock_02.json"]:
+    for mock_fn in ["data/mock_exams/n2_mock_01.json", "data/mock_exams/n2_mock_02.json", "data/mock_exams/n2_mock_03.json", "data/mock_exams/n2_mock_04.json", "data/mock_exams/n2_mock_05.json"]:
         p = root / mock_fn
         if p.exists():
             data = json.loads(p.read_text(encoding='utf-8'))

@@ -92,6 +92,14 @@ def run_integrity_audit():
         if rf_m04.exists():
             raw_files.append(rf_m04)
 
+    for rf_m05 in [
+        ROOT / "qa/raw_blind_m05_s1_p1.json",
+        ROOT / "qa/raw_blind_m05_s1_p2.json",
+        ROOT / "qa/raw_blind_m05_s2.json",
+    ]:
+        if rf_m05.exists():
+            raw_files.append(rf_m05)
+
     raw_solves = {}
     raw_file_hashes = {}
     for rf in raw_files:
@@ -121,6 +129,9 @@ def run_integrity_audit():
         ROOT / "qa/blind_items_m04_s1_p1.json",
         ROOT / "qa/blind_items_m04_s1_p2.json",
         ROOT / "qa/blind_items_m04_s2.json",
+        ROOT / "qa/blind_items_m05_s1_p1.json",
+        ROOT / "qa/blind_items_m05_s1_p2.json",
+        ROOT / "qa/blind_items_m05_s2.json",
     ]:
         if bif.exists():
             items = json.loads(bif.read_text(encoding='utf-8'))
@@ -134,6 +145,8 @@ def run_integrity_audit():
         mocks_to_load.append('03')
     if (ROOT / "data/mock_exams/n2_mock_04.json").exists() and (ROOT / "qa/raw_blind_m04_s1_p1.json").exists():
         mocks_to_load.append('04')
+    if (ROOT / "data/mock_exams/n2_mock_05.json").exists() and (ROOT / "qa/raw_blind_m05_s1_p1.json").exists():
+        mocks_to_load.append('05')
     for m in mocks_to_load:
         m_data = json.loads((ROOT / f"data/mock_exams/n2_mock_{m}.json").read_text(encoding='utf-8'))
         for sec in m_data['sections']:
