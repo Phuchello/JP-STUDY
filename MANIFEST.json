@@ -1,8 +1,8 @@
 {
   "snapshotDate": "2026-10-15",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
-  "fileCountExcludingManifest": 352,
-  "totalBytesExcludingManifest": 21571934,
+  "fileCountExcludingManifest": 353,
+  "totalBytesExcludingManifest": 21576330,
   "files": [
     {
       "path": ".gitattributes",
@@ -1062,8 +1062,8 @@
     },
     {
       "path": "FILE_INDEX.md",
-      "bytes": 33929,
-      "sha256": "bed27542ae709d710906f7d2520146ed0e2fd71c3f3dc08b81ab0eb93949111d",
+      "bytes": 34019,
+      "sha256": "346837d8400e81fd8aafc7629a3a65c76ad7f6d14f1460ca33b8c04a913db794",
       "status": "VERIFIED"
     },
     {
@@ -2030,6 +2030,12 @@
       "path": "scripts/tests/smoke_full_mock_audio_e2e.cjs",
       "bytes": 14931,
       "sha256": "6772942d05f35f0d8eabcf726964a18853bd499cd9a26ce68e04820e52db3884",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "scripts/tests/smoke_live_pages.cjs",
+      "bytes": 4306,
+      "sha256": "f743838ffd19708ecbf7c8ecc33855b30089a095df188bb981aaa7d203ef684e",
       "status": "QA_PENDING"
     },
     {

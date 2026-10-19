@@ -343,6 +343,7 @@ Snapshot 2026-10-15. VERIFIED is scoped verification, not JLPT certification. Hi
 | [scripts/drive_first/verify_pdfs.py](scripts/drive_first/verify_pdfs.py) | VERIFIED |
 | [scripts/tests/smoke_engine_playwright.cjs](scripts/tests/smoke_engine_playwright.cjs) | VERIFIED |
 | [scripts/tests/smoke_full_mock_audio_e2e.cjs](scripts/tests/smoke_full_mock_audio_e2e.cjs) | QA_PENDING |
+| [scripts/tests/smoke_live_pages.cjs](scripts/tests/smoke_live_pages.cjs) | QA_PENDING |
 | [scripts/tests/smoke_mock_section2.cjs](scripts/tests/smoke_mock_section2.cjs) | VERIFIED |
 | [scripts/tests/test_browser.cjs](scripts/tests/test_browser.cjs) | VERIFIED |
 | [scripts/tests/test_edge_flows.cjs](scripts/tests/test_edge_flows.cjs) | VERIFIED |
