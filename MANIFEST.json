@@ -2,7 +2,7 @@
   "snapshotDate": "2026-10-15",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
   "fileCountExcludingManifest": 397,
-  "totalBytesExcludingManifest": 35503729,
+  "totalBytesExcludingManifest": 35505917,
   "files": [
     {
       "path": ".gitattributes",
@@ -2274,8 +2274,8 @@
     },
     {
       "path": "scripts/tests/smoke_live_pages.cjs",
-      "bytes": 4306,
-      "sha256": "f743838ffd19708ecbf7c8ecc33855b30089a095df188bb981aaa7d203ef684e",
+      "bytes": 6494,
+      "sha256": "10f9d38eabad6f57c8e02717b1b2e3f3fa196a7988175abc44292cd33a368bcd",
       "status": "QA_PENDING"
     },
     {

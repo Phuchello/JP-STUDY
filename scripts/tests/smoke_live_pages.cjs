@@ -80,7 +80,43 @@ async function runLiveVerification() {
     assert.deepEqual(m4Options, ['A１番', 'B２番', 'C３番']);
     await page.screenshot({ path: path.join(SCREENSHOT_DIR, 'live_deployed_n2_mock_m4_verified.png') });
 
-    console.log('🎉 ALL LIVE CHECKS PASSED ON GITHUB PAGES!');
+    // 5. Live N2-MOCK-02 Section 1 Check
+    const LIVE_ENGINE_02_SEC1 = 'https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mockId=N2-MOCK-02';
+    console.log('Testing live N2-MOCK-02 Sec 1:', LIVE_ENGINE_02_SEC1);
+    await page.goto(LIVE_ENGINE_02_SEC1, { waitUntil: 'networkidle' });
+    const sec1State02 = await page.evaluate(() => ({
+      qCount: timedState ? timedState.questions.length : 0,
+      totalSec: timedState ? timedState.totalSec : 0,
+      firstQ: timedState ? timedState.questions[0].id : '',
+      mockId: timedState && timedState.mockMeta ? timedState.mockMeta.mockId : ''
+    }));
+    console.log('Live Mock 02 Sec 1 State:', sec1State02);
+    assert.equal(sec1State02.qCount, 75, 'Mock 02 Section 1 must have 75 items');
+    assert.equal(sec1State02.totalSec, 6300, 'Mock 02 Section 1 must be 105 mins');
+    assert.equal(sec1State02.mockId, 'N2-MOCK-02', 'Must launch N2-MOCK-02');
+    await page.screenshot({ path: path.join(SCREENSHOT_DIR, 'live_deployed_n2_mock_02_sec1_verified.png') });
+
+    // 6. Live N2-MOCK-02 Section 2 Check
+    const LIVE_ENGINE_02_SEC2 = 'https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mockId=N2-MOCK-02&section=2';
+    console.log('Testing live N2-MOCK-02 Sec 2:', LIVE_ENGINE_02_SEC2);
+    await page.goto(LIVE_ENGINE_02_SEC2, { waitUntil: 'networkidle' });
+    const sec2State02 = await page.evaluate(() => {
+      const q = timedState.questions[0];
+      const audioTag = document.querySelector('#exam-audio-player');
+      return {
+        qCount: timedState.questions.length,
+        totalSec: timedState.totalSec,
+        audioSrc: audioTag ? audioTag.currentSrc || audioTag.src : null,
+        firstQId: q?.id
+      };
+    });
+    console.log('Live Mock 02 Sec 2 State:', sec2State02);
+    assert.equal(sec2State02.qCount, 30, 'Mock 02 Section 2 must have 30 items');
+    assert.equal(sec2State02.totalSec, 3000, 'Mock 02 Section 2 must be 50 mins');
+    assert.ok(sec2State02.audioSrc.includes('N2_02_M1_L01.mp3'), 'Audio must point to N2_02_M1_L01.mp3');
+    await page.screenshot({ path: path.join(SCREENSHOT_DIR, 'live_deployed_n2_mock_02_sec2_verified.png') });
+
+    console.log('🎉 ALL LIVE CHECKS (MOCK 01 & MOCK 02) PASSED ON GITHUB PAGES!');
   } catch (err) {
     console.error('Live Verification Failed:', err);
     await browser.close();
