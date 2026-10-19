@@ -1,10 +1,8 @@
-# -*- coding: utf-8 -*-
-"""
-Test Fail-Closed Publication Blocking and CI/CD Governance
-Proves that Content QA failure strictly blocks publication.
-"""
 import unittest
-import yaml
+try:
+    import yaml
+except ImportError:
+    yaml = None
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -21,18 +19,25 @@ class TestDeploymentFailClosed(unittest.TestCase):
         workflow_path = ROOT / ".github/workflows/content-qa.yml"
         self.assertTrue(workflow_path.exists(), "Missing workflow file: content-qa.yml")
 
-        # Parse YAML
         with open(workflow_path, 'r', encoding='utf-8') as f:
-            wf = yaml.safe_load(f)
+            content = f.read()
 
-        jobs = wf.get('jobs', {})
-        self.assertIn('content-qa-gate', jobs, "content-qa-gate job must be defined")
-        self.assertIn('deploy-pages', jobs, "deploy-pages job must be defined")
+        self.assertIn('content-qa-gate:', content, "content-qa-gate job must be defined")
+        self.assertIn('deploy-pages:', content, "deploy-pages job must be defined")
+        self.assertTrue(
+            'needs: [content-qa-gate]' in content or 'needs:\n      - content-qa-gate' in content,
+            "deploy-pages MUST have 'needs: [content-qa-gate]' to guarantee fail-closed blocking"
+        )
+        self.assertIn('docs/**', content, "push triggers must cover docs/**")
 
-        deploy_job = jobs['deploy-pages']
-        needs = deploy_job.get('needs', [])
-        if isinstance(needs, str):
-            needs = [needs]
+        if yaml is not None:
+            wf = yaml.safe_load(content)
+            jobs = wf.get('jobs', {})
+            deploy_job = jobs['deploy-pages']
+            needs = deploy_job.get('needs', [])
+            if isinstance(needs, str):
+                needs = [needs]
+            self.assertIn('content-qa-gate', needs)
         
         # 1. Assert deploy-pages strictly needs content-qa-gate
         self.assertIn('content-qa-gate', needs, "deploy-pages MUST have 'needs: [content-qa-gate]' to guarantee fail-closed blocking")
