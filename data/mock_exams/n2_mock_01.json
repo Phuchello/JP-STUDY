@@ -3249,8 +3249,8 @@
       "sectionName": "Phần 2: Nghe hiểu (Listening Comprehension)",
       "durationMinutes": 50,
       "itemCount": 30,
-      "audioStatus": "AUDIO_PRODUCTION_PENDING",
-      "audioNoticeVi": "Bản ghi âm phòng thi chuẩn hóa đang trong chu kỳ sản xuất (Kỳ thi 12/2026). Hiện tại cung cấp toàn văn Transcript hội thoại tiếng Nhật, kịch bản phân vai và phân tích đáp án chi tiết phục vụ luyện đề mô phỏng.",
+      "audioStatus": "AUDIO_VERIFIED",
+      "audioNoticeVi": "Âm thanh phòng thi chuẩn hóa với giọng đọc Neural đa nhân vật (ja-JP-Nanami & ja-JP-Keita), tuân thủ đúng nhịp độ đàm thoại, khoảng nghỉ đọc đề và cấu trúc lựa chọn chính thức.",
       "items": [
         {
           "id": "N2-M1-L01",
@@ -3293,7 +3293,16 @@
           "diagnosticEligible": true,
           "sourceMetadata": "Original JLPT N2 Listening Corpus",
           "examQNum": 1,
-          "mondaiTitle": "Mondai 1: 課題理解 (Hiểu yêu cầu - Nhiệm vụ tiếp theo)"
+          "mondaiTitle": "Mondai 1: 課題理解 (Hiểu yêu cầu - Nhiệm vụ tiếp theo)",
+          "audioUrl": "audio/n2_mock_01/N2_M1_L01.mp3",
+          "audioDurationSec": 76.3,
+          "audioSha256": "eea6f97828e45b691de5ed455a4d1a85d4988477d976be2e5eed44ba9f8150e4",
+          "audioVerificationStatus": "VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
         },
         {
           "id": "N2-M1-L02",
@@ -3336,7 +3345,16 @@
           "diagnosticEligible": true,
           "sourceMetadata": "Original JLPT N2 Listening Corpus",
           "examQNum": 2,
-          "mondaiTitle": "Mondai 1: 課題理解 (Hiểu yêu cầu - Nhiệm vụ tiếp theo)"
+          "mondaiTitle": "Mondai 1: 課題理解 (Hiểu yêu cầu - Nhiệm vụ tiếp theo)",
+          "audioUrl": "audio/n2_mock_01/N2_M1_L02.mp3",
+          "audioDurationSec": 56.1,
+          "audioSha256": "c4ac532474c4431622c4b57d3b7453d69e097d849b96ce951b9f499d9e07c046",
+          "audioVerificationStatus": "VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
         },
         {
           "id": "N2-M1-L03",
@@ -3379,7 +3397,16 @@
           "diagnosticEligible": true,
           "sourceMetadata": "Original JLPT N2 Listening Corpus",
           "examQNum": 3,
-          "mondaiTitle": "Mondai 1: 課題理解 (Hiểu yêu cầu - Nhiệm vụ tiếp theo)"
+          "mondaiTitle": "Mondai 1: 課題理解 (Hiểu yêu cầu - Nhiệm vụ tiếp theo)",
+          "audioUrl": "audio/n2_mock_01/N2_M1_L03.mp3",
+          "audioDurationSec": 54.6,
+          "audioSha256": "c026ef9927d3da07b129ac5608fc452b0e88a95798fbb01615bada1ee861dbf3",
+          "audioVerificationStatus": "VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
         },
         {
           "id": "N2-M1-L04",
@@ -3422,7 +3449,16 @@
           "diagnosticEligible": true,
           "sourceMetadata": "Original JLPT N2 Listening Corpus",
           "examQNum": 4,
-          "mondaiTitle": "Mondai 1: 課題理解 (Hiểu yêu cầu - Nhiệm vụ tiếp theo)"
+          "mondaiTitle": "Mondai 1: 課題理解 (Hiểu yêu cầu - Nhiệm vụ tiếp theo)",
+          "audioUrl": "audio/n2_mock_01/N2_M1_L04.mp3",
+          "audioDurationSec": 55.7,
+          "audioSha256": "d158fb08c92e10d8f13aebba9aef44fae11c1dde8254d35f54a6062d29b39f18",
+          "audioVerificationStatus": "VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
         },
         {
           "id": "N2-M1-L05",
@@ -3465,7 +3501,16 @@
           "diagnosticEligible": true,
           "sourceMetadata": "Original JLPT N2 Listening Corpus",
           "examQNum": 5,
-          "mondaiTitle": "Mondai 1: 課題理解 (Hiểu yêu cầu - Nhiệm vụ tiếp theo)"
+          "mondaiTitle": "Mondai 1: 課題理解 (Hiểu yêu cầu - Nhiệm vụ tiếp theo)",
+          "audioUrl": "audio/n2_mock_01/N2_M1_L05.mp3",
+          "audioDurationSec": 48.2,
+          "audioSha256": "f990dd3f7c39a60a9ce700985971e98f7c2d2b6105ca7a09d9138f44ead66dde",
+          "audioVerificationStatus": "VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
         },
         {
           "id": "N2-M2-L01",
@@ -3508,7 +3553,16 @@
           "diagnosticEligible": true,
           "sourceMetadata": "Original JLPT N2 Listening Corpus",
           "examQNum": 6,
-          "mondaiTitle": "Mondai 2: ポイント理解 (Hiểu điểm mấu chốt - Trích xuất lý do)"
+          "mondaiTitle": "Mondai 2: ポイント理解 (Hiểu điểm mấu chốt - Trích xuất lý do)",
+          "audioUrl": "audio/n2_mock_01/N2_M2_L01.mp3",
+          "audioDurationSec": 66.6,
+          "audioSha256": "ae607d8a53133d0a14e51f77c5edc59e9c0cb2b95bf02312d29a286efe75240d",
+          "audioVerificationStatus": "VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
         },
         {
           "id": "N2-M2-L02",
@@ -3551,7 +3605,16 @@
           "diagnosticEligible": true,
           "sourceMetadata": "Original JLPT N2 Listening Corpus",
           "examQNum": 7,
-          "mondaiTitle": "Mondai 2: ポイント理解 (Hiểu điểm mấu chốt - Trích xuất lý do)"
+          "mondaiTitle": "Mondai 2: ポイント理解 (Hiểu điểm mấu chốt - Trích xuất lý do)",
+          "audioUrl": "audio/n2_mock_01/N2_M2_L02.mp3",
+          "audioDurationSec": 58.8,
+          "audioSha256": "fbc4179e6d7131ed2a79b8011bf4d9e5b1bf4b472af6ff2cc40f053a62481317",
+          "audioVerificationStatus": "VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
         },
         {
           "id": "N2-M2-L03",
@@ -3594,7 +3657,16 @@
           "diagnosticEligible": true,
           "sourceMetadata": "Original JLPT N2 Listening Corpus",
           "examQNum": 8,
-          "mondaiTitle": "Mondai 2: ポイント理解 (Hiểu điểm mấu chốt - Trích xuất lý do)"
+          "mondaiTitle": "Mondai 2: ポイント理解 (Hiểu điểm mấu chốt - Trích xuất lý do)",
+          "audioUrl": "audio/n2_mock_01/N2_M2_L03.mp3",
+          "audioDurationSec": 61.9,
+          "audioSha256": "e7c2bc832390e85ca0124e6368c165442e1e6aee0dff7c5f6ec79816f6a149bb",
+          "audioVerificationStatus": "VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
         },
         {
           "id": "N2-M2-L04",
@@ -3637,7 +3709,16 @@
           "diagnosticEligible": true,
           "sourceMetadata": "Original JLPT N2 Listening Corpus",
           "examQNum": 9,
-          "mondaiTitle": "Mondai 2: ポイント理解 (Hiểu điểm mấu chốt - Trích xuất lý do)"
+          "mondaiTitle": "Mondai 2: ポイント理解 (Hiểu điểm mấu chốt - Trích xuất lý do)",
+          "audioUrl": "audio/n2_mock_01/N2_M2_L04.mp3",
+          "audioDurationSec": 70.0,
+          "audioSha256": "bf6619a952c8f83bfca79886e5b049626189c513954b51d0b28a271e9257adf4",
+          "audioVerificationStatus": "VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
         },
         {
           "id": "N2-M2-L05",
@@ -3680,7 +3761,16 @@
           "diagnosticEligible": true,
           "sourceMetadata": "Original JLPT N2 Listening Corpus",
           "examQNum": 10,
-          "mondaiTitle": "Mondai 2: ポイント理解 (Hiểu điểm mấu chốt - Trích xuất lý do)"
+          "mondaiTitle": "Mondai 2: ポイント理解 (Hiểu điểm mấu chốt - Trích xuất lý do)",
+          "audioUrl": "audio/n2_mock_01/N2_M2_L05.mp3",
+          "audioDurationSec": 64.1,
+          "audioSha256": "4f92734351eca12d51b91ab3b60a9bbcec5ee938b991cea630a54761b7df737d",
+          "audioVerificationStatus": "VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
         },
         {
           "id": "N2-M2-L06",
@@ -3723,7 +3813,16 @@
           "diagnosticEligible": true,
           "sourceMetadata": "Original JLPT N2 Listening Corpus",
           "examQNum": 11,
-          "mondaiTitle": "Mondai 2: ポイント理解 (Hiểu điểm mấu chốt - Trích xuất lý do)"
+          "mondaiTitle": "Mondai 2: ポイント理解 (Hiểu điểm mấu chốt - Trích xuất lý do)",
+          "audioUrl": "audio/n2_mock_01/N2_M2_L06.mp3",
+          "audioDurationSec": 69.9,
+          "audioSha256": "e64f0e693090f296a31be07e2889666e2eb4950507750faad94ab8c2848e012f",
+          "audioVerificationStatus": "VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
         },
         {
           "id": "N2-M3-L01",
@@ -3766,7 +3865,16 @@
           "diagnosticEligible": true,
           "sourceMetadata": "Original JLPT N2 Listening Corpus",
           "examQNum": 12,
-          "mondaiTitle": "Mondai 3: 概要理解 (Hiểu khái quát - Luận điểm bài nói)"
+          "mondaiTitle": "Mondai 3: 概要理解 (Hiểu khái quát - Luận điểm bài nói)",
+          "audioUrl": "audio/n2_mock_01/N2_M3_L01.mp3",
+          "audioDurationSec": 84.9,
+          "audioSha256": "178cec3bf3995f765cdb9d66bb5b53740cce581b3bd4a49d1151126fe3c51d54",
+          "audioVerificationStatus": "VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
         },
         {
           "id": "N2-M3-L02",
@@ -3809,7 +3917,16 @@
           "diagnosticEligible": true,
           "sourceMetadata": "Original JLPT N2 Listening Corpus",
           "examQNum": 13,
-          "mondaiTitle": "Mondai 3: 概要理解 (Hiểu khái quát - Luận điểm bài nói)"
+          "mondaiTitle": "Mondai 3: 概要理解 (Hiểu khái quát - Luận điểm bài nói)",
+          "audioUrl": "audio/n2_mock_01/N2_M3_L02.mp3",
+          "audioDurationSec": 95.2,
+          "audioSha256": "115f590c2ebe2401320d9447a1c7e65a1f668c128dd45b7bc0538ccc6dbf8405",
+          "audioVerificationStatus": "VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
         },
         {
           "id": "N2-M3-L03",
@@ -3852,7 +3969,16 @@
           "diagnosticEligible": true,
           "sourceMetadata": "Original JLPT N2 Listening Corpus",
           "examQNum": 14,
-          "mondaiTitle": "Mondai 3: 概要理解 (Hiểu khái quát - Luận điểm bài nói)"
+          "mondaiTitle": "Mondai 3: 概要理解 (Hiểu khái quát - Luận điểm bài nói)",
+          "audioUrl": "audio/n2_mock_01/N2_M3_L03.mp3",
+          "audioDurationSec": 97.8,
+          "audioSha256": "b0480432097aaa7511ae96793d4910eee854520b11d11272fbe1ead8e215603d",
+          "audioVerificationStatus": "VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
         },
         {
           "id": "N2-M3-L04",
@@ -3895,7 +4021,16 @@
           "diagnosticEligible": true,
           "sourceMetadata": "Original JLPT N2 Listening Corpus",
           "examQNum": 15,
-          "mondaiTitle": "Mondai 3: 概要理解 (Hiểu khái quát - Luận điểm bài nói)"
+          "mondaiTitle": "Mondai 3: 概要理解 (Hiểu khái quát - Luận điểm bài nói)",
+          "audioUrl": "audio/n2_mock_01/N2_M3_L04.mp3",
+          "audioDurationSec": 95.6,
+          "audioSha256": "3db21fb99c89068de8cacbadb281c2c8ad3dfcaa99ff79d6243de902e3ab1f33",
+          "audioVerificationStatus": "VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
         },
         {
           "id": "N2-M3-L05",
@@ -3938,40 +4073,61 @@
           "diagnosticEligible": true,
           "sourceMetadata": "Original JLPT N2 Listening Corpus",
           "examQNum": 16,
-          "mondaiTitle": "Mondai 3: 概要理解 (Hiểu khái quát - Luận điểm bài nói)"
+          "mondaiTitle": "Mondai 3: 概要理解 (Hiểu khái quát - Luận điểm bài nói)",
+          "audioUrl": "audio/n2_mock_01/N2_M3_L05.mp3",
+          "audioDurationSec": 96.0,
+          "audioSha256": "7f9f319440413ed9cae6b986e9c872188d037323f90bc6888ab37ecd5df17e2a",
+          "audioVerificationStatus": "VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
         },
         {
           "id": "N2-M4-L01",
           "level": "N2",
           "skill": "Listening",
           "typeId": "N2-LIS-RESP",
-          "stem": "【発話を聞いて、最も適切な応答を選びなさい】\n\n「山田さん、明日のプレゼン資料、目を通していただけないでしょうか。」",
+          "stem": "発話と返事を聞いて、１から３の中から、最もよいものを一つ選んでください。",
           "stimulusId": "N2-M4-L01",
-          "contextPassage": "【音声発話】\n「山田さん、明日のプレゼン資料、目を通していただけないでしょうか。」",
+          "contextPassage": "【音声発話】\n「山田さん、明日のプレゼン資料、目を通していただけないでしょうか。」\n\n【返事の選択肢】\n1. ええ、喜んで拝見します。\n2. はい、目を通してください。\n3. いえ、何も見えませんでした。",
           "options": [
             {
               "id": "A",
+              "text": "１番"
+            },
+            {
+              "id": "B",
+              "text": "２番"
+            },
+            {
+              "id": "C",
+              "text": "３番"
+            }
+          ],
+          "spokenOptions": [
+            {
+              "id": "A",
+              "num": 1,
               "text": "ええ、喜んで拝見します。"
             },
             {
               "id": "B",
+              "num": 2,
               "text": "はい、目を通してください。"
             },
             {
               "id": "C",
+              "num": 3,
               "text": "いえ、何も見えませんでした。"
-            },
-            {
-              "id": "D",
-              "text": "プレゼンを中止してください。"
             }
           ],
           "correctAnswer": "A",
           "explanationVi": "Đối phương nhờ: '目を通していただけないでしょうか' (Có thể xem qua giúp tôi được không?). Cách đáp lễ phép khiêm nhường là: 'ええ、喜んで拝見します' (Vâng, tôi rất sẵn lòng xem qua ạ).",
           "distractorExplanations": {
             "B": "Bảo đối phương xem đi ('目を通してください') là đảo lộn vai vế.",
-            "C": "Hiểu sai nghĩa cụm từ 目を通す thành nhìn bằng mắt vật lý ('tôi chả thấy gì').",
-            "D": "Lựa chọn sai ngữ cảnh giao tiếp và không phù hợp với văn hóa ứng xử hội thoại."
+            "C": "Hiểu sai nghĩa cụm từ 目を通す thành nhìn bằng mắt vật lý ('tôi chả thấy gì')."
           },
           "difficultyEstimate": 2,
           "conceptId": "listening-response",
@@ -3981,40 +4137,61 @@
           "diagnosticEligible": true,
           "sourceMetadata": "Original JLPT N2 Listening Corpus",
           "examQNum": 17,
-          "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - Hội thoại ngắn)"
+          "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - 3 lựa chọn nghe)",
+          "audioUrl": "audio/n2_mock_01/N2_M4_L01.mp3",
+          "audioDurationSec": 24.4,
+          "audioSha256": "a60c1815c75f8e87fef17c033d932b25ef91cbd4c4f43e4d67fc844dfd53e26a",
+          "audioVerificationStatus": "VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
         },
         {
           "id": "N2-M4-L02",
           "level": "N2",
           "skill": "Listening",
           "typeId": "N2-LIS-RESP",
-          "stem": "【発話を聞いて、最も適切な応答を選びなさい】\n\n「この間のプロジェクト、君のおかげで大成功だったよ。」",
+          "stem": "発話と返事を聞いて、１から３の中から、最もよいものを一つ選んでください。",
           "stimulusId": "N2-M4-L02",
-          "contextPassage": "【音声発話】\n「この間のプロジェクト、君のおかげで大成功だったよ。」",
+          "contextPassage": "【音声発話】\n「この間のプロジェクト、君のおかげで大成功だったよ。」\n\n【返事の選択肢】\n1. はい、私が一人で頑張りましたから。\n2. とんでもないです。チームの皆さんのおかげです。\n3. どうぞお構いなく。",
           "options": [
             {
               "id": "A",
+              "text": "１番"
+            },
+            {
+              "id": "B",
+              "text": "２番"
+            },
+            {
+              "id": "C",
+              "text": "３番"
+            }
+          ],
+          "spokenOptions": [
+            {
+              "id": "A",
+              "num": 1,
               "text": "はい、私が一人で頑張りましたから。"
             },
             {
               "id": "B",
+              "num": 2,
               "text": "とんでもないです。チームの皆さんのおかげです。"
             },
             {
               "id": "C",
+              "num": 3,
               "text": "どうぞお構いなく。"
-            },
-            {
-              "id": "D",
-              "text": "成功するはずがありませんでした。"
             }
           ],
           "correctAnswer": "B",
           "explanationVi": "Khi được cấp trên hoặc đối tác khen ngợi thành tích, cách ứng đáp khiêm tốn chuẩn mực trong văn hóa công sở Nhật là: 'とんでもないです。チームの皆さんのおかげです' (Dạ đâu có ạ, đều nhờ công sức của toàn thể mọi người trong đội cả ạ).",
           "distractorExplanations": {
             "A": "Tự mãn vỗ ngực 'do một mình tôi cố gắng' là điều tối kỵ trong văn hóa Nhật.",
-            "C": "'どうぞお構いなく' (Xin đừng bận tâm tiếp đãi) dùng khi đến thăm nhà, sai ngữ cảnh.",
-            "D": "Lựa chọn sai ngữ cảnh giao tiếp và không phù hợp với văn hóa ứng xử hội thoại."
+            "C": "'どうぞお構いなく' (Xin đừng bận tâm tiếp đãi) dùng khi đến thăm nhà, sai ngữ cảnh."
           },
           "difficultyEstimate": 2,
           "conceptId": "listening-response",
@@ -4024,40 +4201,61 @@
           "diagnosticEligible": true,
           "sourceMetadata": "Original JLPT N2 Listening Corpus",
           "examQNum": 18,
-          "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - Hội thoại ngắn)"
+          "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - 3 lựa chọn nghe)",
+          "audioUrl": "audio/n2_mock_01/N2_M4_L02.mp3",
+          "audioDurationSec": 25.0,
+          "audioSha256": "27099a58bd27133ffac730acc2b5a753a6e115be63e65315250cacc22460e2f3",
+          "audioVerificationStatus": "VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
         },
         {
           "id": "N2-M4-L03",
           "level": "N2",
           "skill": "Listening",
           "typeId": "N2-LIS-RESP",
-          "stem": "【発話を聞いて、最も適切な応答を選びなさい】\n\n「部長、ご相談したい件があるのですが、今お時間よろしいでしょうか。」",
+          "stem": "発話と返事を聞いて、１から３の中から、最もよいものを一つ選んでください。",
           "stimulusId": "N2-M4-L03",
-          "contextPassage": "【音声発話】\n「部長、ご相談したい件があるのですが、今お時間よろしいでしょうか。」",
+          "contextPassage": "【音声発話】\n「部長、ご相談したい件があるのですが、今お時間よろしいでしょうか。」\n\n【返事の選択肢】\n1. ええ、今なら大丈夫だよ。何かな。\n2. はい、お時間を差し上げます。\n3. いえ、もう相談は終わりましたよ。",
           "options": [
             {
               "id": "A",
+              "text": "１番"
+            },
+            {
+              "id": "B",
+              "text": "２番"
+            },
+            {
+              "id": "C",
+              "text": "３番"
+            }
+          ],
+          "spokenOptions": [
+            {
+              "id": "A",
+              "num": 1,
               "text": "ええ、今なら大丈夫だよ。何かな。"
             },
             {
               "id": "B",
+              "num": 2,
               "text": "はい、お時間を差し上げます。"
             },
             {
               "id": "C",
+              "num": 3,
               "text": "いえ、もう相談は終わりましたよ。"
-            },
-            {
-              "id": "D",
-              "text": "お時間は一切ありません。"
             }
           ],
           "correctAnswer": "A",
           "explanationVi": "Cấp dưới hỏi xin ý kiến: 'bây giờ sếp có thời gian không ạ?'. Sếp đáp tự nhiên: 'ええ、今なら大丈夫だよ。何かな' (Ừ, lúc này thì được. Chuyện gì thế?).",
           "distractorExplanations": {
             "B": "差し上げる là khiêm nhường ngữ (cho/tặng), cấp trên không nói với cấp dưới như vậy.",
-            "C": "Người ta chưa bắt đầu nói mà lại bảo 'cuộc tư vấn đã kết thúc rồi' là vô lý.",
-            "D": "Lựa chọn sai ngữ cảnh giao tiếp và không phù hợp với văn hóa ứng xử hội thoại."
+            "C": "Người ta chưa bắt đầu nói mà lại bảo 'cuộc tư vấn đã kết thúc rồi' là vô lý."
           },
           "difficultyEstimate": 2,
           "conceptId": "listening-response",
@@ -4067,40 +4265,61 @@
           "diagnosticEligible": true,
           "sourceMetadata": "Original JLPT N2 Listening Corpus",
           "examQNum": 19,
-          "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - Hội thoại ngắn)"
+          "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - 3 lựa chọn nghe)",
+          "audioUrl": "audio/n2_mock_01/N2_M4_L03.mp3",
+          "audioDurationSec": 26.6,
+          "audioSha256": "2ce96165faf14c0b6b424babfaf5af100e5a210565fcb2626079f56226187c37",
+          "audioVerificationStatus": "VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
         },
         {
           "id": "N2-M4-L04",
           "level": "N2",
           "skill": "Listening",
           "typeId": "N2-LIS-RESP",
-          "stem": "【発話を聞いて、最も適切な応答を選びなさい】\n\n「あいにく本日のチケットは完売となっておりまして…」",
+          "stem": "発話と返事を聞いて、１から３の中から、最もよいものを一つ選んでください。",
           "stimulusId": "N2-M4-L04",
-          "contextPassage": "【音声発話】\n「あいにく本日のチケットは完売となっておりまして…」",
+          "contextPassage": "【音声発話】\n「あいにく本日のチケットは完売となっておりまして…」\n\n【返事の選択肢】\n1. では、全部買わせていただきます。\n2. そうですか、残念ですがまた出直します。\n3. チケットをお売りいただき感謝します。",
           "options": [
             {
               "id": "A",
+              "text": "１番"
+            },
+            {
+              "id": "B",
+              "text": "２番"
+            },
+            {
+              "id": "C",
+              "text": "３番"
+            }
+          ],
+          "spokenOptions": [
+            {
+              "id": "A",
+              "num": 1,
               "text": "では、全部買わせていただきます。"
             },
             {
               "id": "B",
+              "num": 2,
               "text": "そうですか、残念ですがまた出直します。"
             },
             {
               "id": "C",
+              "num": 3,
               "text": "チケットをお売りいただき感謝します。"
-            },
-            {
-              "id": "D",
-              "text": "チケットを拝見いたします。"
             }
           ],
           "correctAnswer": "B",
           "explanationVi": "Nhân viên thông báo: 'Vé hôm nay rất tiếc đã bán hết sạch rồi ạ...'. Khách đáp phù hợp: 'そうですか、残念ですがまた出直します' (Vậy à, tiếc thật, tôi sẽ quay lại dịp khác).",
           "distractorExplanations": {
             "A": "Đã hết sạch vé mà bảo 'vậy tôi mua hết' là vô nghĩa.",
-            "C": "Chưa mua được vé mà lại cảm ơn vì đã bán vé.",
-            "D": "Lựa chọn sai ngữ cảnh giao tiếp và không phù hợp với văn hóa ứng xử hội thoại."
+            "C": "Chưa mua được vé mà lại cảm ơn vì đã bán vé."
           },
           "difficultyEstimate": 2,
           "conceptId": "listening-response",
@@ -4110,40 +4329,61 @@
           "diagnosticEligible": true,
           "sourceMetadata": "Original JLPT N2 Listening Corpus",
           "examQNum": 20,
-          "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - Hội thoại ngắn)"
+          "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - 3 lựa chọn nghe)",
+          "audioUrl": "audio/n2_mock_01/N2_M4_L04.mp3",
+          "audioDurationSec": 24.5,
+          "audioSha256": "ea223b51ba58bbd89191521bd43dffcc593d35bf0a58d92c3e2320da482f00a9",
+          "audioVerificationStatus": "VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
         },
         {
           "id": "N2-M4-L05",
           "level": "N2",
           "skill": "Listening",
           "typeId": "N2-LIS-RESP",
-          "stem": "【発話を聞いて、最も適切な応答を選びなさい】\n\n「この仕事、明日までに終わらせろなんて、無理に決まってるよ。」",
+          "stem": "発話と返事を聞いて、１から３の中から、最もよいものを一つ選んでください。",
           "stimulusId": "N2-M4-L05",
-          "contextPassage": "【音声発話】\n「この仕事、明日までに終わらせろなんて、無理に決まってるよ。」",
+          "contextPassage": "【音声発話】\n「この仕事、明日までに終わらせろなんて、無理に決まってるよ。」\n\n【返事の選択肢】\n1. そう言わずに、手分けしてやってみようよ。\n2. うん、絶対に明日までに終わったね。\n3. じゃあ、今日中に全部やってしまおう。",
           "options": [
             {
               "id": "A",
+              "text": "１番"
+            },
+            {
+              "id": "B",
+              "text": "２番"
+            },
+            {
+              "id": "C",
+              "text": "３番"
+            }
+          ],
+          "spokenOptions": [
+            {
+              "id": "A",
+              "num": 1,
               "text": "そう言わずに、手分けしてやってみようよ。"
             },
             {
               "id": "B",
+              "num": 2,
               "text": "うん、絶対に明日までに終わったね。"
             },
             {
               "id": "C",
+              "num": 3,
               "text": "じゃあ、今日中に全部やってしまおう。"
-            },
-            {
-              "id": "D",
-              "text": "明日まで仕事を休んでください。"
             }
           ],
           "correctAnswer": "A",
           "explanationVi": "Đồng nghiệp than vãn: 'Bảo xong việc này trước ngày mai thì vô lý quá'. Câu động viên chia việc hợp lý: 'そう言わずに、手分けしてやってみようよ' (Đừng nói thế, chúng mình chia nhau ra cùng làm xem sao).",
           "distractorExplanations": {
             "B": "Dùng thì quá khứ 終わったね trong khi việc chưa hoàn thành là sai.",
-            "C": "Mai còn không kịp mà bảo 'làm hết ngay trong hôm nay' là thiếu thực tế.",
-            "D": "Lựa chọn sai ngữ cảnh giao tiếp và không phù hợp với văn hóa ứng xử hội thoại."
+            "C": "Mai còn không kịp mà bảo 'làm hết ngay trong hôm nay' là thiếu thực tế."
           },
           "difficultyEstimate": 2,
           "conceptId": "listening-response",
@@ -4153,40 +4393,61 @@
           "diagnosticEligible": true,
           "sourceMetadata": "Original JLPT N2 Listening Corpus",
           "examQNum": 21,
-          "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - Hội thoại ngắn)"
+          "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - 3 lựa chọn nghe)",
+          "audioUrl": "audio/n2_mock_01/N2_M4_L05.mp3",
+          "audioDurationSec": 25.8,
+          "audioSha256": "20ba498b62f04605bae9d089242e24b0c74712c85cbef8cac77f6d69c0169359",
+          "audioVerificationStatus": "VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
         },
         {
           "id": "N2-M4-L06",
           "level": "N2",
           "skill": "Listening",
           "typeId": "N2-LIS-RESP",
-          "stem": "【発話を聞いて、最も適切な応答を選びなさい】\n\n「課長、先ほど田中様がお見えになりました。」",
+          "stem": "発話と返事を聞いて、１から３の中から、最もよいものを一つ選んでください。",
           "stimulusId": "N2-M4-L06",
-          "contextPassage": "【音声発話】\n「課長、先ほど田中様がお見えになりました。」",
+          "contextPassage": "【音声発話】\n「課長、先ほど田中様がお見えになりました。」\n\n【返事の選択肢】\n1. ええ、田中様を見に行きました。\n2. そうか、第2応接室にご案内してくれたまえ。\n3. はい、田中様はお帰りになりましたか。",
           "options": [
             {
               "id": "A",
+              "text": "１番"
+            },
+            {
+              "id": "B",
+              "text": "２番"
+            },
+            {
+              "id": "C",
+              "text": "３番"
+            }
+          ],
+          "spokenOptions": [
+            {
+              "id": "A",
+              "num": 1,
               "text": "ええ、田中様を見に行きました。"
             },
             {
               "id": "B",
+              "num": 2,
               "text": "そうか、第2応接室にご案内してくれたまえ。"
             },
             {
               "id": "C",
+              "num": 3,
               "text": "はい、田中様はお帰りになりましたか。"
-            },
-            {
-              "id": "D",
-              "text": "田中様にはお会いできませんでした。"
             }
           ],
           "correctAnswer": "B",
           "explanationVi": "Thư ký báo: 'Thưa trưởng phòng, vừa nãy anh Tanaka đã đến ạ' (お見えになる là tôn kính ngữ của 来る). Trưởng phòng chỉ thị: 'そうか、第2応接室にご案内してくれたまえ' (Thế à, hướng dẫn anh ấy vào phòng tiếp khách số 2 giúp tôi).",
           "distractorExplanations": {
             "A": "Hiểu sai お見えになる thành 'nhìn thấy' (見に行く).",
-            "C": "Khách vừa mới đến lại hỏi 'đã về rồi à' là phi logic.",
-            "D": "Lựa chọn sai ngữ cảnh giao tiếp và không phù hợp với văn hóa ứng xử hội thoại."
+            "C": "Khách vừa mới đến lại hỏi 'đã về rồi à' là phi logic."
           },
           "difficultyEstimate": 2,
           "conceptId": "listening-response",
@@ -4196,40 +4457,61 @@
           "diagnosticEligible": true,
           "sourceMetadata": "Original JLPT N2 Listening Corpus",
           "examQNum": 22,
-          "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - Hội thoại ngắn)"
+          "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - 3 lựa chọn nghe)",
+          "audioUrl": "audio/n2_mock_01/N2_M4_L06.mp3",
+          "audioDurationSec": 25.2,
+          "audioSha256": "ea42595e20b5837a4da0b935758de70da2d23c388cfa0b51ba007cdd9f4d1e95",
+          "audioVerificationStatus": "VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
         },
         {
           "id": "N2-M4-L07",
           "level": "N2",
           "skill": "Listening",
           "typeId": "N2-LIS-RESP",
-          "stem": "【発話を聞いて、最も適切な応答を選びなさい】\n\n「昨日のパーティー、行けなくて本当に悪かったね。」",
+          "stem": "発話と返事を聞いて、１から３の中から、最もよいものを一つ選んでください。",
           "stimulusId": "N2-M4-L07",
-          "contextPassage": "【音声発話】\n「昨日のパーティー、行けなくて本当に悪かったね。」",
+          "contextPassage": "【音声発話】\n「昨日のパーティー、行けなくて本当に悪かったね。」\n\n【返事の選択肢】\n1. ううん、気にしないで。また今度集まろう。\n2. ええ、絶対に来るべきだったのに。\n3. はい、私も行けなくて残念でした。",
           "options": [
             {
               "id": "A",
+              "text": "１番"
+            },
+            {
+              "id": "B",
+              "text": "２番"
+            },
+            {
+              "id": "C",
+              "text": "３番"
+            }
+          ],
+          "spokenOptions": [
+            {
+              "id": "A",
+              "num": 1,
               "text": "ううん、気にしないで。また今度集まろう。"
             },
             {
               "id": "B",
+              "num": 2,
               "text": "ええ、絶対に来るべきだったのに。"
             },
             {
               "id": "C",
+              "num": 3,
               "text": "はい、私も行けなくて残念でした。"
-            },
-            {
-              "id": "D",
-              "text": "パーティーは来週に変更されました。"
             }
           ],
           "correctAnswer": "A",
           "explanationVi": "Bạn xin lỗi vì bận không đến được bữa tiệc. Đáp lại thông cảm: 'ううん、気にしないで。また今度集まろう' (Không sao đâu, đừng bận tâm, lần khác tụi mình lại tụ tập nhé).",
           "distractorExplanations": {
             "B": "Trách móc 'lẽ ra cậu nhất định phải đến chứ' là thiếu lịch sự thân thiện.",
-            "C": "Người kia không đến được, còn mình là người chủ trì/đã đi tiệc mà lại nói 'tôi cũng không đi được'.",
-            "D": "Lựa chọn sai ngữ cảnh giao tiếp và không phù hợp với văn hóa ứng xử hội thoại."
+            "C": "Người kia không đến được, còn mình là người chủ trì/đã đi tiệc mà lại nói 'tôi cũng không đi được'."
           },
           "difficultyEstimate": 2,
           "conceptId": "listening-response",
@@ -4239,40 +4521,61 @@
           "diagnosticEligible": true,
           "sourceMetadata": "Original JLPT N2 Listening Corpus",
           "examQNum": 23,
-          "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - Hội thoại ngắn)"
+          "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - 3 lựa chọn nghe)",
+          "audioUrl": "audio/n2_mock_01/N2_M4_L07.mp3",
+          "audioDurationSec": 25.8,
+          "audioSha256": "9f0be3444d2741242c31ebdaba094576fcc1d75561ce34a85301f4983c7e5c4c",
+          "audioVerificationStatus": "VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
         },
         {
           "id": "N2-M4-L08",
           "level": "N2",
           "skill": "Listening",
           "typeId": "N2-LIS-RESP",
-          "stem": "【発話を聞いて、最も適切な応答を選びなさい】\n\n「この新製品、使ってみたけど、期待外れもいいところだったよ。」",
+          "stem": "発話と返事を聞いて、１から３の中から、最もよいものを一つ選んでください。",
           "stimulusId": "N2-M4-L08",
-          "contextPassage": "【音声発話】\n「この新製品、使ってみたけど、期待外れもいいところだったよ。」",
+          "contextPassage": "【音声発話】\n「この新製品、使ってみたけど、期待外れもいいところだったよ。」\n\n【返事の選択肢】\n1. え、そんなにいまいちだったの？\n2. 期待通りで本当によかったね。\n3. 外に出て使ってみればいいよ。",
           "options": [
             {
               "id": "A",
+              "text": "１番"
+            },
+            {
+              "id": "B",
+              "text": "２番"
+            },
+            {
+              "id": "C",
+              "text": "３番"
+            }
+          ],
+          "spokenOptions": [
+            {
+              "id": "A",
+              "num": 1,
               "text": "え、そんなにいまいちだったの？"
             },
             {
               "id": "B",
+              "num": 2,
               "text": "期待通りで本当によかったね。"
             },
             {
               "id": "C",
+              "num": 3,
               "text": "外に出て使ってみればいいよ。"
-            },
-            {
-              "id": "D",
-              "text": "新製品を買わなくて正解でした。"
             }
           ],
           "correctAnswer": "A",
           "explanationVi": "Thành ngữ: 期待外れもいいところだ (thất vọng tràn trề, quá sức kỳ vọng). Phản xạ đáp lại: 'え、そんなにいまいちだったの？' (Hả, tệ/kém đến mức thế cơ à?).",
           "distractorExplanations": {
             "B": "Ngược nghĩa hoàn toàn với thất vọng (期待通り là đúng như mong đợi).",
-            "C": "Hiểu nhầm 外れ (hụt, trật) thành 外 (bên ngoài).",
-            "D": "Lựa chọn sai ngữ cảnh giao tiếp và không phù hợp với văn hóa ứng xử hội thoại."
+            "C": "Hiểu nhầm 外れ (hụt, trật) thành 外 (bên ngoài)."
           },
           "difficultyEstimate": 2,
           "conceptId": "listening-response",
@@ -4282,40 +4585,61 @@
           "diagnosticEligible": true,
           "sourceMetadata": "Original JLPT N2 Listening Corpus",
           "examQNum": 24,
-          "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - Hội thoại ngắn)"
+          "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - 3 lựa chọn nghe)",
+          "audioUrl": "audio/n2_mock_01/N2_M4_L08.mp3",
+          "audioDurationSec": 24.0,
+          "audioSha256": "857f1582dc75a697aa17b490443711d2aba5251f1a695eb8964def1de0556da7",
+          "audioVerificationStatus": "VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
         },
         {
           "id": "N2-M4-L09",
           "level": "N2",
           "skill": "Listening",
           "typeId": "N2-LIS-RESP",
-          "stem": "【発話を聞いて、最も適切な応答を選びなさい】\n\n「恐れ入りますが、こちらの書類にお名前をご記入いただけますか。」",
+          "stem": "発話と返事を聞いて、１から３の中から、最もよいものを一つ選んでください。",
           "stimulusId": "N2-M4-L09",
-          "contextPassage": "【音声発話】\n「恐れ入りますが、こちらの書類にお名前をご記入いただけますか。」",
+          "contextPassage": "【音声発話】\n「恐れ入りますが、こちらの書類にお名前をご記入いただけますか。」\n\n【返事の選択肢】\n1. はい、分かりました。どこに書けばいいですか。\n2. どういたしまして、ご記入ください。\n3. いえ、お名前は存じ上げております。",
           "options": [
             {
               "id": "A",
+              "text": "１番"
+            },
+            {
+              "id": "B",
+              "text": "２番"
+            },
+            {
+              "id": "C",
+              "text": "３番"
+            }
+          ],
+          "spokenOptions": [
+            {
+              "id": "A",
+              "num": 1,
               "text": "はい、分かりました。どこに書けばいいですか。"
             },
             {
               "id": "B",
+              "num": 2,
               "text": "どういたしまして、ご記入ください。"
             },
             {
               "id": "C",
+              "num": 3,
               "text": "いえ、お名前は存じ上げております。"
-            },
-            {
-              "id": "D",
-              "text": "書類をシュレッダーにかけてください。"
             }
           ],
           "correctAnswer": "A",
           "explanationVi": "Nhân viên lịch sự: 'Xin thứ lỗi, anh/chị có thể vui lòng điền họ tên vào giấy tờ này giúp em được không ạ?'. Khách đồng ý: 'はい、分かりました。どこに書けばいいですか' (Vâng, tôi hiểu rồi. Viết vào chỗ nào thế em?).",
           "distractorExplanations": {
             "B": "Khách lại bảo nhân viên 'xin mời điền vào' là sai.",
-            "C": "Hiểu nhầm câu hỏi, đáp 'tôi biết tên rồi'.",
-            "D": "Lựa chọn sai ngữ cảnh giao tiếp và không phù hợp với văn hóa ứng xử hội thoại."
+            "C": "Hiểu nhầm câu hỏi, đáp 'tôi biết tên rồi'."
           },
           "difficultyEstimate": 2,
           "conceptId": "listening-response",
@@ -4325,40 +4649,61 @@
           "diagnosticEligible": true,
           "sourceMetadata": "Original JLPT N2 Listening Corpus",
           "examQNum": 25,
-          "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - Hội thoại ngắn)"
+          "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - 3 lựa chọn nghe)",
+          "audioUrl": "audio/n2_mock_01/N2_M4_L09.mp3",
+          "audioDurationSec": 26.6,
+          "audioSha256": "abfba7accca91b65755e50f1cb94a074399aa54e2dc8d0d92fca4f98f03ebfd6",
+          "audioVerificationStatus": "VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
         },
         {
           "id": "N2-M4-L10",
           "level": "N2",
           "skill": "Listening",
           "typeId": "N2-LIS-RESP",
-          "stem": "【発話を聞いて、最も適切な応答を選びなさい】\n\n「駅前の新しいカフェ、もう行ってみた？ コーヒーがすごく美味しかったよ。」",
+          "stem": "発話と返事を聞いて、１から３の中から、最もよいものを一つ選んでください。",
           "stimulusId": "N2-M4-L10",
-          "contextPassage": "【音声発話】\n「駅前の新しいカフェ、もう行ってみた？ コーヒーがすごく美味しかったよ。」",
+          "contextPassage": "【音声発話】\n「駅前の新しいカフェ、もう行ってみた？ コーヒーがすごく美味しかったよ。」\n\n【返事の選択肢】\n1. へえ、知らなかった。今度行ってみるね。\n2. うん、そのカフェでコーヒーを作ったよ。\n3. そうなんだ、コーヒーは飲まなかったんだね。",
           "options": [
             {
               "id": "A",
+              "text": "１番"
+            },
+            {
+              "id": "B",
+              "text": "２番"
+            },
+            {
+              "id": "C",
+              "text": "３番"
+            }
+          ],
+          "spokenOptions": [
+            {
+              "id": "A",
+              "num": 1,
               "text": "へえ、知らなかった。今度行ってみるね。"
             },
             {
               "id": "B",
+              "num": 2,
               "text": "うん、そのカフェでコーヒーを作ったよ。"
             },
             {
               "id": "C",
+              "num": 3,
               "text": "そうなんだ、コーヒーは飲まなかったんだね。"
-            },
-            {
-              "id": "D",
-              "text": "駅前のカフェは閉店してしまいました。"
             }
           ],
           "correctAnswer": "A",
           "explanationVi": "Bạn gợi ý quán cà phê ngon trước ga: 'Cậu đã ghé thử quán cà phê mới trước ga chưa? Cà phê ở đó ngon lắm đấy!'. Đáp lại tự nhiên: 'へえ、知らなかった。今度行ってみるね' (Thế à, tớ không biết đấy. Bữa nào tớ sẽ ghé thử).",
           "distractorExplanations": {
             "B": "Tự nhiên nhận 'tớ đã pha cà phê ở quán đó' là lạc quẻ.",
-            "C": "Người ta vừa khen cà phê ngon mà lại nói 'cậu không uống cà phê à'.",
-            "D": "Lựa chọn sai ngữ cảnh giao tiếp và không phù hợp với văn hóa ứng xử hội thoại."
+            "C": "Người ta vừa khen cà phê ngon mà lại nói 'cậu không uống cà phê à'."
           },
           "difficultyEstimate": 2,
           "conceptId": "listening-response",
@@ -4368,40 +4713,61 @@
           "diagnosticEligible": true,
           "sourceMetadata": "Original JLPT N2 Listening Corpus",
           "examQNum": 26,
-          "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - Hội thoại ngắn)"
+          "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - 3 lựa chọn nghe)",
+          "audioUrl": "audio/n2_mock_01/N2_M4_L10.mp3",
+          "audioDurationSec": 27.9,
+          "audioSha256": "f06607a6369fdfad1fe920ddd03ea379d517f961ba3a513471aad56ac041a88f",
+          "audioVerificationStatus": "VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
         },
         {
           "id": "N2-M4-L11",
           "level": "N2",
           "skill": "Listening",
           "typeId": "N2-LIS-RESP",
-          "stem": "【発話を聞いて、最も適切な応答を選びなさい】\n\n「雨が降りそうだから、傘を持って行ったほうがいいんじゃない？」",
+          "stem": "発話と返事を聞いて、１から３の中から、最もよいものを一つ選んでください。",
           "stimulusId": "N2-M4-L11",
-          "contextPassage": "【音声発話】\n「雨が降りそうだから、傘を持って行ったほうがいいんじゃない？」",
+          "contextPassage": "【音声発話】\n「雨が降りそうだから、傘を持って行ったほうがいいんじゃない？」\n\n【返事の選択肢】\n1. そうだね、折りたたみ傘を鞄に入れておくよ。\n2. うん、傘を持って行かなくてよかった。\n3. いえ、雨が降ったら傘を買わないよ。",
           "options": [
             {
               "id": "A",
+              "text": "１番"
+            },
+            {
+              "id": "B",
+              "text": "２番"
+            },
+            {
+              "id": "C",
+              "text": "３番"
+            }
+          ],
+          "spokenOptions": [
+            {
+              "id": "A",
+              "num": 1,
               "text": "そうだね、折りたたみ傘を鞄に入れておくよ。"
             },
             {
               "id": "B",
+              "num": 2,
               "text": "うん、傘を持って行かなくてよかった。"
             },
             {
               "id": "C",
+              "num": 3,
               "text": "いえ、雨が降ったら傘を買わないよ。"
-            },
-            {
-              "id": "D",
-              "text": "傘を雨の中に置いてきました。"
             }
           ],
           "correctAnswer": "A",
           "explanationVi": "Lời khuyên: 'Trời trông sắp mưa đấy, chẳng phải nên mang ô đi hay sao?'. Đáp lại hợp lý: 'そうだね、折りたたみ傘を鞄に入れておくよ' (Ừ đúng rồi, tớ sẽ bỏ cây dù gấp vào cặp).",
           "distractorExplanations": {
             "B": "Chưa đi mà đã nói thì quá khứ 'may mà không mang ô đi' là vô lý.",
-            "C": "Nói 'nếu trời mưa tôi sẽ không mua ô' là kỳ quặc.",
-            "D": "Lựa chọn sai ngữ cảnh giao tiếp và không phù hợp với văn hóa ứng xử hội thoại."
+            "C": "Nói 'nếu trời mưa tôi sẽ không mua ô' là kỳ quặc."
           },
           "difficultyEstimate": 2,
           "conceptId": "listening-response",
@@ -4411,7 +4777,16 @@
           "diagnosticEligible": true,
           "sourceMetadata": "Original JLPT N2 Listening Corpus",
           "examQNum": 27,
-          "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - Hội thoại ngắn)"
+          "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - 3 lựa chọn nghe)",
+          "audioUrl": "audio/n2_mock_01/N2_M4_L11.mp3",
+          "audioDurationSec": 26.0,
+          "audioSha256": "7c76b8260ae7cce5ddcd971088d6787ea6e09198cbc0f25f2a3217b589fdc3da",
+          "audioVerificationStatus": "VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
         },
         {
           "id": "N2-M5-L01",
@@ -4454,7 +4829,16 @@
           "diagnosticEligible": true,
           "sourceMetadata": "Original JLPT N2 Listening Corpus",
           "examQNum": 28,
-          "mondaiTitle": "Mondai 5: 統合理解 (Hiểu tổng hợp — Hội thoại dài nhiều điều kiện)"
+          "mondaiTitle": "Mondai 5: 統合理解 (Hiểu tổng hợp — Hội thoại dài nhiều điều kiện)",
+          "audioUrl": "audio/n2_mock_01/N2_M5_L01.mp3",
+          "audioDurationSec": 128.5,
+          "audioSha256": "a8407c94de3593e106dc8d6db2fd7bfbffd6742869c4c2535cc6be7f032372f5",
+          "audioVerificationStatus": "VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
         },
         {
           "id": "N2-M5-L02",
@@ -4497,7 +4881,16 @@
           "diagnosticEligible": true,
           "sourceMetadata": "Original JLPT N2 Listening Corpus",
           "examQNum": 29,
-          "mondaiTitle": "Mondai 5: 統合理解 (Hiểu tổng hợp — Hội thoại dài nhiều điều kiện)"
+          "mondaiTitle": "Mondai 5: 統合理解 (Hiểu tổng hợp — Hội thoại dài nhiều điều kiện)",
+          "audioUrl": "audio/n2_mock_01/N2_M5_L02.mp3",
+          "audioDurationSec": 126.9,
+          "audioSha256": "aa8ebce0a5e2922a0da80feb1f93bc1cb3dac0ed7b625ed928abf5f4d13907ff",
+          "audioVerificationStatus": "VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
         },
         {
           "id": "N2-M5-L03",
@@ -4540,7 +4933,16 @@
           "diagnosticEligible": true,
           "sourceMetadata": "Original JLPT N2 Listening Corpus",
           "examQNum": 30,
-          "mondaiTitle": "Mondai 5: 統合理解 (Hiểu tổng hợp — So sánh lựa chọn thiết bị)"
+          "mondaiTitle": "Mondai 5: 統合理解 (Hiểu tổng hợp — So sánh lựa chọn thiết bị)",
+          "audioUrl": "audio/n2_mock_01/N2_M5_L03.mp3",
+          "audioDurationSec": 119.6,
+          "audioSha256": "8c7326d6b97dc35eee777bb533a78f4c7064d39c58ef7fef524c8ed38fdd75c0",
+          "audioVerificationStatus": "VERIFIED",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ]
         }
       ]
     }

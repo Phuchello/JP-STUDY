@@ -2320,7 +2320,8 @@ function startMockBreak(mockId) {
     breakBox.style.margin = '24px auto';
     breakBox.style.textAlign = 'center';
     breakBox.style.padding = '24px';
-    document.getElementById('mainApp').appendChild(breakBox);
+    const container = document.getElementById('mode-d') || document.body;
+    container.appendChild(breakBox);
   }
   breakBox.style.display = 'block';
 
@@ -2572,23 +2573,36 @@ function renderTimedQuestion() {
     <span style="font-size:0.75rem; color:#94a3b8; margin-left:auto;">ID: ${q.id}</span>
   `;
 
-  // Passage
+  // Passage & Audio Player
   const passageBox = document.getElementById('d-q-passage');
   if (q.skill === 'Listening') {
     passageBox.style.display = 'block';
+    let audioUrl = q.audioUrl || '';
+    if (audioUrl && !audioUrl.startsWith('http')) {
+      audioUrl = '../' + audioUrl.replace(/^\/+/, '');
+    }
+    const durSec = q.audioDurationSec ? `${q.audioDurationSec}s` : '50s';
     passageBox.innerHTML = `
-      <div style="background:#f0f9ff; border:1px solid #bae6fd; border-radius:8px; padding:12px; margin-bottom:12px;">
-        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:6px;">
-          <span style="font-weight:700; color:#0369a1; font-size:0.85rem;">&#127911; PH&#7846;N THI NGHE HI&#7874;U (LISTENING COMPREHENSION)</span>
-          <span style="font-size:0.75rem; background:#e0f2fe; color:#0369a1; padding:2px 8px; border-radius:12px; font-weight:600;">JLPT N2</span>
+      <div class="audio-player-container" style="background:#f0f9ff; border:1px solid #bae6fd; border-radius:10px; padding:14px; margin-bottom:14px;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;">
+          <div style="display:flex; align-items:center; gap:8px;">
+            <span style="font-size:1.2rem;">&#127911;</span>
+            <div>
+              <span style="font-weight:700; color:#0369a1; font-size:0.92rem;">PH&#7846;N THI NGHE HI&#7874;U (CHOKAI)</span>
+              <div style="font-size:0.75rem; color:#64748b; font-weight:600;">${q.mondaiTitle || '&#32884;&#35299;'}</div>
+            </div>
+          </div>
+          <span class="q-tag" style="background:#0284c7; color:#fff; font-weight:700; font-size:0.72rem;">AUDIO PH&#210;NG THI</span>
         </div>
-        <div style="font-size:0.78rem; color:#475569; line-height:1.5; margin-bottom:8px;">
-          &#9888;&#65039; <strong>T&#236;nh tr&#7841;ng &#226;m thanh:</strong> B&#7843;n thu &#226;m chu&#7849;n ph&#242;ng thi &#273;ang trong chu k&#7923; s&#7843;n xu&#7845;t (K&#7923; thi 12/2026). D&#432;&#7899;i &#273;&#226;y cung c&#7845;p to&#224;n v&#259;n Transcript ti&#7871;ng Nh&#7853;t ph&#226;n vai &#273;&#7875; h&#7885;c vi&#234;n luy&#7879;n ph&#7843;n x&#7841; nghe hi&#7875;u m&#244; ph&#7887;ng.
+        <div style="background:#ffffff; border:1px solid #cbd5e1; border-radius:8px; padding:8px 12px; margin-bottom:8px;">
+          <audio id="exam-audio-player" controls preload="auto" style="width:100%; height:40px;" src="${audioUrl}">
+            Tr&#236;nh duy&#7879;t c&#7911;a b&#7841;n kh&#244;ng h&#7895; tr&#7907; th&#7867; audio HTML5.
+          </audio>
         </div>
-        <details open style="margin-top:6px;">
-          <summary style="font-size:0.8rem; font-weight:700; color:#0284c7; cursor:pointer;">&#128196; Xem K&#7883;ch b&#7843;n h&#7897;i tho&#7841;i (Transcript)</summary>
-          <div style="margin-top:8px; white-space:pre-wrap; font-family:var(--font-jp); font-size:0.92rem; color:#1e293b; background:#ffffff; padding:10px; border-radius:6px; border:1px solid #e2e8f0; line-height:1.6;">${q.contextPassage || ''}</div>
-        </details>
+        <div style="font-size:0.75rem; color:#475569; display:flex; justify-content:space-between; align-items:center;">
+          <span>&#9889; <em>H&#227;y l&#7855;ng nghe file &#226;m thanh v&#224; ch&#7885;n c&#226;u tr&#7843; l&#7901;i &#273;&#250;ng. K&#7883;ch b&#7843;n h&#7897;i tho&#7841;i &#273;&#432;&#7907;c &#7849;n ho&#224;n to&#224;n trong ph&#242;ng thi.</em></span>
+          <span>Th&#7901;i l&#432;&#7907;ng: <strong>${durSec}</strong></span>
+        </div>
       </div>
     `;
   } else if (q.contextPassage) {
@@ -2735,15 +2749,16 @@ function submitTimedSession(confirmUser) {
       }));
     } catch(e) {}
 
-    document.getElementById('d-summary-score').innerText = `${correct} / ${total} c&#226;u (&#431;&#7899;c l&#432;&#7907;ng: ${sec1Scaled} / 120 &#273;i&#7875;m)`;
+    document.getElementById('d-summary-score').innerText = `K&#7870;T QU&#7842; PH&#7846;N 1: ${correct} / ${total} C&#194;U (${pct}%)`;
     document.getElementById('d-summary-msg').innerHTML = `
       <div style="font-size:0.9rem; line-height:1.6; margin-bottom:12px; text-align:left; background:#f8fafc; border:1px solid #e2e8f0; border-radius:8px; padding:12px;">
         <div style="font-weight:700; color:#1e40af; margin-bottom:4px;">&#127919; K&#7870;T QU&#7842; PH&#7846;N 1: KI&#7870;N TH&#7912;C NG&#212;N NG&#7918; & &#272;&#7884;C HI&#7874;U (${total} c&#226;u / 105 ph&#250;t)</div>
-        &#8226; Ki&#7871;n th&#7913;c ng&#244;n ng&#7919; (T&#7915; v&#7921;ng + Ng&#7919; ph&#225;p): <strong>${langCorrect}/${langItems.length} c&#226;u</strong> &#8594; Quy &#273;&#7893;i: <strong>${langScaled} / 60 &#273;i&#7875;m</strong><br>
-        &#8226; &#272;&#7885;c hi&#7875;u (&#272;o&#7843;n v&#259;n, Trung v&#259;n, Tr&#432;&#7901;ng v&#259;n, Tra c&#7913;u): <strong>${readCorrect}/${readItems.length} c&#226;u</strong> &#8594; Quy &#273;&#7893;i: <strong>${readScaled} / 60 &#273;i&#7875;m</strong><br>
-        &#8226; &#272;i&#7875;m chu&#7849;n h&#243;a Ph&#7847;n 1: <strong>${sec1Scaled} / 120 &#273;i&#7875;m</strong> (&#272;&#7897; ch&#237;nh x&#225;c: ${pct}% &#183; Th&#7901;i gian: ${spentM}m ${spentS}s)<br>
-        <div style="margin-top:6px; font-size:0.82rem; color:#64748b;">
-          &#8505;&#65039; Chu&#7849;n &#273;&#7895; JLPT N2 y&#234;u c&#7847;u m&#7895;i ph&#226;n m&#244;n &#273;&#7841;t t&#7889;i thi&#7875;u <strong>19 / 60 &#273;i&#7875;m</strong> (tr&#225;nh &#273;i&#7875;m li&#7879;t).
+        &#8226; <strong>Ki&#7871;n th&#7913;c ng&#244;n ng&#7919; (T&#7915; v&#7921;ng + Ng&#7919; ph&#225;p):</strong> ${langCorrect}/${langItems.length} c&#226;u (${Math.round((langCorrect/(langItems.length||54))*100)}%)<br>
+        &#8226; <strong>&#272;&#7885;c hi&#7875;u (&#272;o&#7843;n v&#259;n, Trung v&#259;n, Tr&#432;&#7901;ng v&#259;n, Tra c&#7913;u):</strong> ${readCorrect}/${readItems.length} c&#226;u (${Math.round((readCorrect/(readItems.length||21))*100)}%)<br>
+        &#8226; <strong>T&#7893;ng s&#7889; c&#226;u &#273;&#250;ng Ph&#7847;n 1:</strong> <strong>${correct} / ${total} c&#226;u</strong> (&#272;&#7897; ch&#237;nh x&#225;c: ${pct}% &#183; Th&#7901;i gian: ${spentM}m ${spentS}s)<br>
+        &#8226; <strong>&#272;i&#7875;m quy &#273;&#7893;i tham kh&#7843;o:</strong> <strong>${sec1Scaled} / 120 &#273;i&#7875;m tham kh&#7843;o</strong><br>
+        <div style="margin-top:6px; font-size:0.78rem; color:#64748b;">
+          * &#272;i&#7875;m quy &#273;&#7893;i tham kh&#7843;o c&#7911;a JP-STUDY &#8212; KH&#212;NG ph&#7843;i &#273;i&#7875;m chu&#7849;n h&#243;a JLPT ch&#237;nh th&#7913;c (k&#7923; thi th&#7853;t &#225;p d&#7909;ng chu&#7849;n h&#243;a IRT).
         </div>
       </div>
       <div style="display:flex; flex-wrap:wrap; gap:8px; justify-content:center; margin-top:10px;">
@@ -2771,46 +2786,55 @@ function submitTimedSession(confirmUser) {
 
     if (sec1Data) {
       modeCode = 'FULL_MOCK';
-      modeName = `Full Mock ${mockId} (180 &#273;i&#7875;m)`;
+      modeName = `Full Mock ${mockId}`;
+      const totalRawCorrect = sec1Data.sec1Correct + lisCorrect;
+      const totalQuestions = 105;
+      const totalPct = Math.round((totalRawCorrect / totalQuestions) * 100);
       const totalScore = sec1Data.sec1Scaled + lisScaled;
-      const isPass = (totalScore >= 90) && (sec1Data.langScaled >= 19) && (sec1Data.readScaled >= 19) && (lisScaled >= 19);
+      const isBenchmarkPass = (totalScore >= 90) && (sec1Data.langScaled >= 19) && (sec1Data.readScaled >= 19) && (lisScaled >= 19);
       const isLiet = (sec1Data.langScaled < 19 || sec1Data.readScaled < 19 || lisScaled < 19);
 
       let diagWeakness = [];
       if (sec1Data.langScaled < 30) diagWeakness.push('Ki&#7871;n th&#7913;c ng&#244;n ng&#7919; (T&#7915; v&#7921;ng/Ng&#7919; ph&#225;p c&#242;n d&#432;&#7899;i 50%)');
       if (sec1Data.readScaled < 30) diagWeakness.push('&#272;&#7885;c hi&#7875;u (c&#7847;n t&#259;ng t&#7889;c &#273;&#7897; v&#224; &#273;&#7889;i chi&#7871;u k&#7929; ti&#234;u ch&#237; logic)');
-      if (lisScaled < 30) diagWeakness.push('Nghe hi&#7875;u (ch&#250; tr&#7885;ng Mondai 4 ph&#7843;n x&#7841; v&#224; Mondai 5 t&#7893;ng h&#7907;p)');
+      if (lisScaled < 30) diagWeakness.push('Nghe hi&#7875;u (ch&#250; tr&#7885;ng Mondai 4 ph&#7843;n x&#7841; t&#7913;c th&#236; v&#224; Mondai 5 h&#7897;i tho&#7841;i t&#7893;ng h&#7907;p)');
 
       const diagAdvice = diagWeakness.length > 0 
         ? `Khuy&#7871;n ngh&#7883; &#432;u ti&#234;n c&#7843;i thi&#7879;n: ${diagWeakness.join('; ')}.`
         : 'Ch&#250;c m&#7915;ng! B&#7841;n c&#243; phong &#273;&#7897; l&#224;m b&#224;i r&#7845;t &#273;&#7891;ng &#273;&#7873;u v&#224; v&#7919;ng v&#224;ng &#7903; c&#7843; 3 ph&#226;n m&#244;n.';
 
-      document.getElementById('d-summary-score').innerText = `T&#7892;NG &#272;I&#7874;M THI TH&#7916; N2: ${totalScore} / 180 &#272;I&#7874;M`;
+      document.getElementById('d-summary-score').innerText = `K&#7870;T QU&#7842; B&#192;I THI: ${totalRawCorrect} / ${totalQuestions} C&#194;U (${totalPct}%)`;
       document.getElementById('d-summary-msg').innerHTML = `
-        <div style="font-size:1.1rem; font-weight:800; color:${isPass ? '#15803d' : '#b91c1c'}; margin-bottom:10px;">
-          ${isPass ? '&#127881; CH&#218;C M&#7914;NG: B&#7840;N &#272;&#7840;T CHU&#7848;N &#272;&#7894; JLPT N2 (&#21512;&#26684;)' : (isLiet ? '&#9888;&#65039; K&#7870;T QU&#7842;: CH&#431;A &#272;&#7840;T DO B&#7882; &#272;I&#7874;M LI&#7878;T (<19 &#273;i&#7875;m m&#7897;t ph&#226;n m&#244;n)' : '&#9888;&#65039; K&#7870;T QU&#7842;: CH&#431;A &#272;&#7840;T CHU&#7848;N &#272;I&#7874;M &#272;&#7894; N2 (<90 &#273;i&#7875;m)')}
+        <div style="font-size:1.05rem; font-weight:800; color:${isBenchmarkPass ? '#15803d' : '#b91c1c'}; margin-bottom:10px;">
+          ${isBenchmarkPass ? '&#127919; K&#7870;T QU&#7842;: &#272;&#7840;T M&#7912;C CHU&#7848;N &#272;&#7894; THAM KH&#7842;O (>= 90/180 & kh&#244;ng c&#243; ph&#226;n m&#244;n d&#432;&#7899;i 19)' : (isLiet ? '&#9888;&#65039; K&#7870;T QU&#7842;: C&#211; PH&#194;N M&#212;N D&#431;&#7898;I 19 &#272;I&#7874;M (C&#7843;nh b&#225;o &#273;i&#7875;m li&#7879;t trong thi th&#7853;t)' : '&#9888;&#65039; K&#7870;T QU&#7842;: CH&#431;A &#272;&#7840;T M&#7912;C CHU&#7848;N THAM KH&#7842;O (< 90/180 &#273;i&#7875;m)')}
         </div>
         <div style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:8px; padding:14px; text-align:left; font-size:0.88rem; line-height:1.6; margin-bottom:14px;">
-          <div style="font-weight:700; color:#1e40af; margin-bottom:6px;">&#128202; B&#7842;NG &#272;I&#7874;M CHI TI&#7870;T 3 PH&#194;N M&#212;N (CHU&#7848;N 180 &#272;I&#7874;M):</div>
-          &#8226; <strong>Ph&#7847;n 1A &#8212; Ki&#7871;n th&#7913;c ng&#244;n ng&#7919;:</strong> ${sec1Data.langScaled} / 60 &#273;i&#7875;m (${sec1Data.langCorrect}/${sec1Data.langTotal} c&#226;u) ${sec1Data.langScaled >= 19 ? '&#9989;' : '&#10060; Li&#7879;t'}<br>
-          &#8226; <strong>Ph&#7847;n 1B &#8212; &#272;&#7885;c hi&#7875;u:</strong> ${sec1Data.readScaled} / 60 &#273;i&#7875;m (${sec1Data.readCorrect}/${sec1Data.readTotal} c&#226;u) ${sec1Data.readScaled >= 19 ? '&#9989;' : '&#10060; Li&#7879;t'}<br>
-          &#8226; <strong>Ph&#7847;n 2 &#8212; Nghe hi&#7875;u:</strong> ${lisScaled} / 60 &#273;i&#7875;m (${lisCorrect}/${lisTotal} c&#226;u) ${lisScaled >= 19 ? '&#9989;' : '&#10060; Li&#7879;t'}<br>
-          <div style="margin-top:6px; font-weight:700; color:#0f172a;">
-            &#128073; <strong>T&#7893;ng &#273;i&#7875;m &#432;&#7899;c l&#432;&#7907;ng: ${totalScore} / 180 &#273;i&#7875;m</strong> (Chu&#7849;n &#273;&#7895;: >= 90 &#273;i&#7875;m | &#272;i&#7875;m li&#7879;t: < 19 &#273;i&#7875;m)
+          <div style="font-weight:700; color:#1e40af; margin-bottom:6px;">&#128202; B&#7842;NG &#272;I&#7874;M N&#258;NG L&#7920;C G&#7888;C (RAW PERFORMANCE):</div>
+          &#8226; <strong>Ph&#7847;n 1A &#8212; Ki&#7871;n th&#7913;c ng&#244;n ng&#7919;:</strong> ${sec1Data.langCorrect} / ${sec1Data.langTotal} c&#226;u (${Math.round((sec1Data.langCorrect/(sec1Data.langTotal||54))*100)}%)<br>
+          &#8226; <strong>Ph&#7847;n 1B &#8212; &#272;&#7885;c hi&#7875;u:</strong> ${sec1Data.readCorrect} / ${sec1Data.readTotal} c&#226;u (${Math.round((sec1Data.readCorrect/(sec1Data.readTotal||21))*100)}%)<br>
+          &#8226; <strong>Ph&#7847;n 2 &#8212; Nghe hi&#7875;u:</strong> ${lisCorrect} / ${lisTotal} c&#226;u (${Math.round((lisCorrect/(lisTotal||30))*100)}%)<br>
+          &#8226; <strong>T&#7893;ng c&#226;u &#273;&#250;ng to&#224;n b&#224;i:</strong> <strong>${totalRawCorrect} / 105 c&#226;u</strong> (T&#7927; l&#7879; ch&#237;nh x&#225;c: ${totalPct}%)<br>
+          
+          <div style="margin-top:10px; padding:10px; background:#f1f5f9; border-radius:6px; border-left:4px solid #2563eb;">
+            &#128073; <strong>&#272;i&#7875;m quy &#273;&#7893;i tham kh&#7843;o JP-STUDY: ${totalScore} / 180 &#273;i&#7875;m</strong> (Ph&#7847;n 1A: ${sec1Data.langScaled}/60 &#183; Ph&#7847;n 1B: ${sec1Data.readScaled}/60 &#183; Ph&#7847;n 2: ${lisScaled}/60)
+            <div style="font-size:0.75rem; color:#64748b; margin-top:4px;">
+              * L&#432;u &#253;: &#272;i&#7875;m quy &#273;&#7893;i tham kh&#7843;o c&#7911;a JP-STUDY &#8212; KH&#212;NG ph&#7843;i &#273;i&#7875;m chu&#7849;n h&#243;a JLPT ch&#237;nh th&#7913;c. &#272;i&#7875;m ch&#237;nh th&#7913;c c&#7911;a k&#7923; thi th&#7853;t &#273;&#432;&#7907;c t&#237;nh theo ph&#432;&#417;ng ph&#225;p Item Response Theory (IRT) ph&#7909; thu&#7897;c v&#224;o th&#244;ng s&#7889; c&#226;u h&#7887;i v&#224; ph&#7893; &#273;i&#7875;m to&#224;n th&#7875; th&#237; sinh.
+            </div>
           </div>
+
           <div style="margin-top:8px; padding-top:8px; border-top:1px dashed #cbd5e1; color:#0369a1;">
             &#128161; <strong>Ch&#7849;n &#273;o&#225;n s&#432; ph&#7841;m:</strong> ${diagAdvice}
           </div>
         </div>
         <div style="display:flex; justify-content:center; gap:8px;">
-          <button onclick="switchMode('mode-history')" class="btn" style="background:#1e40af; color:#fff; font-weight:700; padding:10px 18px; border-radius:8px; cursor:pointer;">&#128220; Xem L&#7883;ch S&#7917; Thi &#272;&#7845;u</button>
+          <button onclick="switchMode('mode-history')" class="btn" style="background:#1e40af; color:#fff; font-weight:700; padding:10px 18px; border-radius:8px; cursor:pointer;">&#128220; Xem L&#7883;ch S&#7917; H&#7885;c T&#7853;p</button>
           <button onclick="switchMode('mode-mock')" class="btn" style="background:#475569; color:#fff; font-weight:700; padding:10px 18px; border-radius:8px; cursor:pointer;">&#128218; Quay L&#7841;i Kho &#272;&#7873;</button>
         </div>
       `;
     } else {
-      document.getElementById('d-summary-score').innerText = `${correct} / ${total} c&#226;u (&#431;&#7899;c l&#432;&#7907;ng: ${lisScaled} / 60 &#273;i&#7875;m)`;
+      document.getElementById('d-summary-score').innerText = `${correct} / ${total} c&#226;u (&#431;&#7899;c l&#432;&#7907;ng: ${lisScaled} / 60 &#273;i&#7875;m tham kh&#7843;o)`;
       document.getElementById('d-summary-msg').innerText = 
-        `Ph&#7847;n 2 Nghe hi&#7875;u: ${correct}/${total} c&#226;u (${lisScaled}/60 &#273;i&#7875;m) &#183; &#272;&#7897; ch&#237;nh x&#225;c: ${pct}% &#183; Th&#7901;i gian: ${spentM}m ${spentS}s`;
+        `Ph&#7847;n 2 Nghe hi&#7875;u: ${correct}/${total} c&#226;u (&#431;&#7899;c l&#432;&#7907;ng: ${lisScaled}/60 &#273;i&#7875;m tham kh&#7843;o) &#183; &#272;&#7897; ch&#237;nh x&#225;c: ${pct}% &#183; Th&#7901;i gian: ${spentM}m ${spentS}s`;
     }
   } else {
     document.getElementById('d-summary-score').innerText = `${correct} / ${total}`;
@@ -2822,23 +2846,71 @@ function submitTimedSession(confirmUser) {
   const reviewContainer = document.getElementById('d-review-list');
   reviewContainer.innerHTML = '';
   reviewItems.forEach((rev, idx) => {
+    const q = rev.question;
     const card = document.createElement('div');
     card.className = 'error-item';
     card.style.borderColor = rev.isCorrect ? '#86efac' : (rev.chosen === 'Ch&#432;a tr&#7843; l&#7901;i' ? '#cbd5e1' : '#fca5a5');
+
+    let audioReviewHtml = '';
+    if (q.skill === 'Listening') {
+      let audioUrl = q.audioUrl || '';
+      if (audioUrl && !audioUrl.startsWith('http')) {
+        audioUrl = '../' + audioUrl.replace(/^\/+/, '');
+      }
+      audioReviewHtml = `
+        <div style="margin: 8px 0; background:#f0f9ff; border:1px solid #bae6fd; border-radius:6px; padding:8px 12px;">
+          <div style="font-weight:700; color:#0369a1; font-size:0.8rem; margin-bottom:4px;">&#127911; Nghe l&#7841;i audio:</div>
+          <audio controls preload="none" src="${audioUrl}" style="width:100%; height:32px;"></audio>
+        </div>
+        <details style="margin: 8px 0;" open>
+          <summary style="font-size:0.82rem; font-weight:700; color:#0284c7; cursor:pointer;">&#128196; Xem K&#7883;ch b&#7843;n h&#7897;i tho&#7841;i ti&#7871;ng Nh&#7853;t (Transcript)</summary>
+          <div style="margin-top:6px; white-space:pre-wrap; font-family:var(--font-jp); font-size:0.9rem; color:#1e293b; background:#f8fafc; padding:10px; border-radius:6px; border:1px solid #e2e8f0; line-height:1.6;">${q.contextPassage || ''}</div>
+        </details>
+      `;
+    }
+
+    let optionsReviewHtml = '<div style="margin: 8px 0; font-size:0.85rem;">';
+    q.options.forEach(opt => {
+      const isRight = (opt.id === q.correctAnswer);
+      const isUser = (opt.id === rev.chosen);
+      const mark = isRight ? '&#9989;' : (isUser ? '&#10060;' : '&#9898;');
+      const color = isRight ? '#15803d' : (isUser ? '#b91c1c' : '#334155');
+      const weight = (isRight || isUser) ? '700' : '400';
+      let optDisp = opt.text;
+      if (q.spokenOptions) {
+        const spkOpt = q.spokenOptions.find(o => o.id === opt.id);
+        if (spkOpt) optDisp = `${spkOpt.num}. ${spkOpt.text}`;
+      }
+      optionsReviewHtml += `<div style="color:${color}; font-weight:${weight}; margin-bottom:2px;">${mark} <strong>${opt.id}.</strong> ${optDisp}</div>`;
+    });
+    optionsReviewHtml += '</div>';
+
+    let distractorHtml = '';
+    if (q.distractorExplanations) {
+      distractorHtml = '<div style="margin-top:6px; font-size:0.8rem; color:#475569;"><strong>Ph&#226;n t&#237;ch c&#225;c ph&#432;&#417;ng &#225;n sai:</strong><ul style="margin:4px 0 0 16px; padding:0;">';
+      Object.entries(q.distractorExplanations).forEach(([k, v]) => {
+        distractorHtml += `<li><strong>${k}:</strong> ${v}</li>`;
+      });
+      distractorHtml += '</ul></div>';
+    }
+
     card.innerHTML = `
       <div class="error-meta">
-        <span><strong>C&#226;u ${idx + 1}</strong> &#183; ${rev.question.level} &#183; ${rev.question.typeId} &#183; ID: ${rev.question.id}</span>
+        <span><strong>C&#226;u ${idx + 1}</strong> &#183; ${q.level} &#183; ${q.typeId} &#183; ID: ${q.id}</span>
         <span style="font-weight:700; color:${rev.isCorrect ? '#15803d' : '#b91c1c'};">
           ${rev.isCorrect ? '&#9989; &#272;&#218;NG' : (rev.chosen === 'Ch&#432;a tr&#7843; l&#7901;i' ? '&#9898; CH&#431;A L&#192;M' : '&#10060; SAI')}
         </span>
       </div>
-      <div style="font-family:var(--font-jp); font-weight:600; font-size:0.95rem; margin-bottom:6px;">${rev.question.stem}</div>
+      ${audioReviewHtml}
+      <div style="font-family:var(--font-jp); font-weight:600; font-size:0.95rem; margin-bottom:6px;">${q.stem}</div>
+      ${optionsReviewHtml}
       <div style="font-size:0.85rem; margin-bottom:6px;">
         <strong>B&#7841;n ch&#7885;n:</strong> <span style="font-family:var(--font-jp); font-weight:700;">${rev.chosen}</span> |
-        <strong>&#272;&#225;p &#225;n &#273;&#250;ng:</strong> <span style="font-family:var(--font-jp); font-weight:700; color:#15803d;">${rev.question.correctAnswer}</span>
+        <strong>&#272;&#225;p &#225;n &#273;&#250;ng:</strong> <span style="font-family:var(--font-jp); font-weight:700; color:#15803d;">${q.correctAnswer}</span>
       </div>
-      <div style="font-size:0.82rem; color:#475569; background:#f8fafc; padding:8px 12px; border-radius:6px;">
-        &#128161; <strong>Gi&#7843;i th&#237;ch:</strong> ${rev.question.explanationVi}
+      <div style="font-size:0.82rem; color:#1e293b; background:#f8fafc; padding:8px 12px; border-radius:6px; border:1px solid #e2e8f0;">
+        &#128161; <strong>Gi&#7843;i th&#237;ch chi ti&#7871;t:</strong> ${q.explanationVi}
+        ${distractorHtml}
       </div>
     `;
     reviewContainer.appendChild(card);

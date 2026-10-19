@@ -8,7 +8,8 @@ JP-STUDY: BUILD COMPLETE JLPT N2 FULL MOCK #01
 import json
 import os
 import sys
-
+from pathlib import Path
+ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, os.path.dirname(__file__))
 
 def build_full_mock():
@@ -583,7 +584,30 @@ def build_full_mock():
     # Load 30 authentic listening items
     from bank_data.n2_listening_full_30 import get_n2_listening_30_items
     sec2_items = get_n2_listening_30_items()
-    print(f"Generated {len(sec2_items)} authentic Listening items for Section 2.")
+
+    # Load audio manifest
+    manifest_map = {}
+    manifest_path = ROOT / 'data/mock_exams/n2_mock_01_audio_manifest.json'
+    if manifest_path.exists():
+        manifest_data = json.loads(manifest_path.read_text(encoding='utf-8'))
+        for entry in manifest_data:
+            manifest_map[entry['id']] = entry
+
+    # Attach verified audio metadata to each question
+    for q in sec2_items:
+        meta = manifest_map.get(q['id'])
+        if meta:
+            q['audioUrl'] = meta['audioUrl']
+            q['audioDurationSec'] = meta['audioDurationSec']
+            q['audioSha256'] = meta['audioSha256']
+            q['audioVerificationStatus'] = meta['audioVerificationStatus']
+            q['audioSourceType'] = meta['audioSourceType']
+            q['speakerVoices'] = meta['speakerVoices']
+        else:
+            q['audioUrl'] = f"audio/n2_mock_01/N2_{q['id'].replace('N2-', '').replace('-', '_')}.mp3"
+            q['audioVerificationStatus'] = "AUDIO_PENDING"
+
+    print(f"Generated {len(sec2_items)} authentic Listening items with verified audio mappings for Section 2.")
 
     # Update Exam Object
     mock['status'] = "FULL_MOCK"
@@ -603,8 +627,8 @@ def build_full_mock():
             "sectionName": "Phần 2: Nghe hiểu (Listening Comprehension)",
             "durationMinutes": 50,
             "itemCount": 30,
-            "audioStatus": "AUDIO_PRODUCTION_PENDING",
-            "audioNoticeVi": "Bản ghi âm phòng thi chuẩn hóa đang trong chu kỳ sản xuất (Kỳ thi 12/2026). Hiện tại cung cấp toàn văn Transcript hội thoại tiếng Nhật, kịch bản phân vai và phân tích đáp án chi tiết phục vụ luyện đề mô phỏng.",
+            "audioStatus": "AUDIO_VERIFIED",
+            "audioNoticeVi": "Âm thanh phòng thi chuẩn hóa với giọng đọc Neural đa nhân vật (ja-JP-Nanami & ja-JP-Keita), tuân thủ đúng nhịp độ đàm thoại, khoảng nghỉ đọc đề và cấu trúc lựa chọn chính thức.",
             "items": sec2_items
         }
     ]

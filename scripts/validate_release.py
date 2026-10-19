@@ -30,7 +30,7 @@ def main():
     # Heuristic only: supplements manual review, does not prove arbitrary PII absence.
     bad=[];patterns=[r'gh[pousr]_[A-Za-z0-9]{25,}',r'github_pat_[A-Za-z0-9_]{30,}',r'sk-[A-Za-z0-9]{25,}',r'-----BEGIN (?:RSA |OPENSSH |EC )?PRIVATE KEY',r'C:[/\\]+Users[/\\]+',r'sinh năm 2003',r'柏木実業専門学校',r'60 mấy điểm',r'6:30',r'18 tháng']
     for n,p in actual.items():
-        if p.suffix in ['.pdf','.xlsx']:continue
+        if p.suffix in ['.pdf','.xlsx','.mp3']:continue
         text=p.read_text(encoding='utf-8-sig')
         # The scanner source itself contains banned examples, not user data.
         if n=='scripts/validate_release.py':continue

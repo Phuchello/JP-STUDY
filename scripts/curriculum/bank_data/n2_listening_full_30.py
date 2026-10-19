@@ -660,41 +660,32 @@ def get_n2_listening_30_items():
     ]
 
     for qid, prompt_text, opts, ans, exp, dist, qnum in m4_data:
-        # Build 4 options placeholder format or standard 3/4 options
-        full_opts = [{"id": oid, "text": otxt} for oid, otxt in opts]
-        # Pad to 4 with D disabled/not applicable if standard requires 4, or keep 3
-        # In JLPT Mondai 4 official format, there are only 3 choices (1, 2, 3)!
-        # Let's provide 4 options where D is "（選択肢なし / Không có lựa chọn D trong Mondai 4）" or 4th distractor
-        # To match our 4-button engine palette (A, B, C, D) without confusing test taker, add a plausible 4th distractor!
-        fourth_distractors = {
-            "N2-M4-L01": ("D", "プレゼンを中止してください。"),
-            "N2-M4-L02": ("D", "成功するはずがありませんでした。"),
-            "N2-M4-L03": ("D", "お時間は一切ありません。"),
-            "N2-M4-L04": ("D", "チケットを拝見いたします。"),
-            "N2-M4-L05": ("D", "明日まで仕事を休んでください。"),
-            "N2-M4-L06": ("D", "田中様にはお会いできませんでした。"),
-            "N2-M4-L07": ("D", "パーティーは来週に変更されました。"),
-            "N2-M4-L08": ("D", "新製品を買わなくて正解でした。"),
-            "N2-M4-L09": ("D", "書類をシュレッダーにかけてください。"),
-            "N2-M4-L10": ("D", "駅前のカフェは閉店してしまいました。"),
-            "N2-M4-L11": ("D", "傘を雨の中に置いてきました。")
-        }
-        d_opt = fourth_distractors[qid]
-        full_opts.append({"id": d_opt[0], "text": d_opt[1]})
-        dist[d_opt[0]] = "Lựa chọn sai ngữ cảnh giao tiếp và không phù hợp với văn hóa ứng xử hội thoại."
+        # Official JLPT Mondai 4 has exactly 3 spoken choices (1, 2, 3), not 4!
+        # During exam, test paper has NO printed text; options are merely 1, 2, 3.
+        # Spoken text is preserved in spokenOptions and contextPassage for post-submission review.
+        exam_opts = [
+            {"id": "A", "text": "１番"},
+            {"id": "B", "text": "２番"},
+            {"id": "C", "text": "３番"}
+        ]
+        spoken_opts = [
+            {"id": oid, "num": idx + 1, "text": otxt}
+            for idx, (oid, otxt) in enumerate(opts[:3])
+        ]
 
         items.append({
             "id": qid,
             "level": "N2",
             "skill": "Listening",
             "typeId": "N2-LIS-RESP",
-            "stem": f"【発話を聞いて、最も適切な応答を選びなさい】\n\n「{prompt_text}」",
+            "stem": "発話と返事を聞いて、１から３の中から、最もよいものを一つ選んでください。",
             "stimulusId": qid,
-            "contextPassage": f"【音声発話】\n「{prompt_text}」",
-            "options": full_opts,
+            "contextPassage": f"【音声発話】\n「{prompt_text}」\n\n【返事の選択肢】\n1. {opts[0][1]}\n2. {opts[1][1]}\n3. {opts[2][1]}",
+            "options": exam_opts,
+            "spokenOptions": spoken_opts,
             "correctAnswer": ans,
             "explanationVi": exp,
-            "distractorExplanations": dist,
+            "distractorExplanations": {k: v for k, v in dist.items() if k in ['A', 'B', 'C']},
             "difficultyEstimate": 2,
             "conceptId": "listening-response",
             "remediation": "Ôn tập kính ngữ (tôn kính ngữ, khiêm nhường ngữ), thành ngữ giao tiếp thường nhật và quán dụng ngữ phản hồi công sở.",
@@ -703,7 +694,7 @@ def get_n2_listening_30_items():
             "diagnosticEligible": True,
             "sourceMetadata": "Original JLPT N2 Listening Corpus",
             "examQNum": qnum,
-            "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - Hội thoại ngắn)"
+            "mondaiTitle": "Mondai 4: 即時応答 (Phản xạ tức thì - 3 lựa chọn nghe)"
         })
 
     # =========================================================================

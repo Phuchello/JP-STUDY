@@ -27,20 +27,20 @@ def main():
         'N3': []
     }
 
-    # N2 Mock 01: FULL MOCK EXAM (105 items / 155 mins / 180 pts)
+    # N2 Mock 01: FULL MOCK EXAM (105 items / 155 mins / 30 Audio Tracks)
     catalog_mocks['N2'].append({
         'mockId': 'N2-MOCK-01',
         'title': 'JLPT N2 Full Mock Exam #01 — Kiến thức ngôn ngữ, Đọc hiểu & Nghe hiểu',
         'level': 'N2',
         'status': 'FULL_MOCK',
-        'badgeText': 'FULL MOCK · 105 CÂU · 180 ĐIỂM',
+        'badgeText': 'FULL MOCK · 105 CÂU · 30 AUDIO PHÒNG THI',
         'badgeClass': 'status-ready',
         'durationMinutes': 155,
         'totalQuestions': 105,
         'section1Count': 75,
         'section2Count': 30,
-        'releaseDate': '18/10/2026',
-        'description': 'Bộ đề thi thử mô phỏng chuẩn kỳ thi thật: Phần 1 Kiến thức ngôn ngữ & Đọc hiểu (75 câu / 105 phút) + Nghỉ giải lao + Phần 2 Nghe hiểu (30 câu / 50 phút). Tính điểm chuẩn hóa 180 điểm JLPT.',
+        'releaseDate': '19/10/2026',
+        'description': 'Bộ đề thi thử mô phỏng bám sát cấu trúc JLPT N2: Phần 1 (75 câu / 105 phút) + Nghỉ giải lao + Phần 2 (30 câu / 50 phút với âm thanh phòng thi đầy đủ 5 Mondai). Báo cáo điểm số gốc minh bạch và chẩn đoán năng lực.',
         'playable': True
     })
 
@@ -459,7 +459,7 @@ def build_exam_catalog():
   <div class="info-banner">
     <div>
       <h2>🎯 KẾ HOẠCH N2: 20 ĐỀ THI THỬ TOÀN DIỆN (FULL MOCKS)</h2>
-      <p>Mục tiêu kỳ thi 12/2026: 20 đề thi chuẩn cấu trúc JEES (105 câu · 155 phút/đề). Đề số 01 là đề thi hoàn chỉnh 2 phần (105 câu / 155 phút) chấm điểm chuẩn 180 điểm.</p>
+      <p>Mục tiêu kỳ thi 12/2026: 20 đề thi chuẩn cấu trúc JEES (105 câu · 155 phút/đề). Đề số 01 là đề thi hoàn chỉnh 2 phần (105 câu / 155 phút) tích hợp 30 audio phòng thi đa nhân vật.</p>
     </div>
     <a href="https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mock&mockId=N2-MOCK-01" target="_blank" class="btn-banner">
       🚀 VÀO THI ĐỀ SỐ 01 (155 PHÚT) ▶
@@ -472,18 +472,18 @@ def build_exam_catalog():
       <div>
         <div class="card-top">
           <span class="badge badge-n2">JLPT N2</span>
-          <span class="status-badge status-ready" style="background:#dbeafe; color:#1e40af; border:1px solid #bfdbfe;">FULL MOCK · 105 CÂU · 180 ĐIỂM</span>
+          <span class="status-badge status-ready" style="background:#dbeafe; color:#1e40af; border:1px solid #bfdbfe;">FULL MOCK · 105 CÂU · 30 AUDIO PHÒNG THI</span>
         </div>
         <div class="card-title">JLPT N2 Full Mock Exam #01</div>
-        <div class="card-meta">105 câu hỏi · 155 phút (Đầy đủ 2 Phần: Kiến thức ngôn ngữ, Đọc hiểu & Nghe hiểu)</div>
+        <div class="card-meta">105 câu hỏi · 155 phút (Đầy đủ 2 Phần: Kiến thức ngôn ngữ, Đọc hiểu & 30 Audio Nghe hiểu)</div>
         <div class="card-desc">
-          Bộ đề mô phỏng hoàn chỉnh bám sát 100% đặc tả bài thi JLPT N2: Phần 1 (75 câu / 105 phút: 32 câu Từ vựng, 22 câu Ngữ pháp, 21 câu Đọc hiểu) + Nghỉ giải lao 10 phút + Phần 2 (30 câu / 50 phút: Đầy đủ 5 Mondai Nghe hiểu kèm Transcript phân vai). Chấm điểm chuẩn hóa 180 điểm và chẩn đoán năng lực.
+          Bộ đề mô phỏng hoàn chỉnh bám sát đặc tả bài thi JLPT N2: Phần 1 (75 câu / 105 phút: 32 câu Từ vựng, 22 câu Ngữ pháp, 21 câu Đọc hiểu) + Nghỉ giải lao 10 phút + Phần 2 (30 câu / 50 phút: Đầy đủ 5 Mondai Nghe hiểu kèm audio phòng thi đa nhân vật và transcript phân vai). Báo cáo điểm gốc minh bạch và chẩn đoán năng lực.
         </div>
         <div class="section-tags">
           <span class="sec-tag">📖 Từ vựng (32c)</span>
           <span class="sec-tag">📜 Ngữ pháp (22c)</span>
           <span class="sec-tag">📑 Đọc hiểu (21c)</span>
-          <span class="sec-tag">🎧 Nghe hiểu (30c)</span>
+          <span class="sec-tag">🎧 Nghe hiểu (30 audio)</span>
         </div>
       </div>
       <div style="display:flex; flex-direction:column; gap:6px; margin-top:12px;">

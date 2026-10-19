@@ -2320,7 +2320,8 @@ function startMockBreak(mockId) {
     breakBox.style.margin = '24px auto';
     breakBox.style.textAlign = 'center';
     breakBox.style.padding = '24px';
-    document.getElementById('mainApp').appendChild(breakBox);
+    const container = document.getElementById('mode-d') || document.body;
+    container.appendChild(breakBox);
   }
   breakBox.style.display = 'block';
 
@@ -2572,23 +2573,36 @@ function renderTimedQuestion() {
     <span style="font-size:0.75rem; color:#94a3b8; margin-left:auto;">ID: ${q.id}</span>
   `;
 
-  // Passage
+  // Passage & Audio Player
   const passageBox = document.getElementById('d-q-passage');
   if (q.skill === 'Listening') {
     passageBox.style.display = 'block';
+    let audioUrl = q.audioUrl || '';
+    if (audioUrl && !audioUrl.startsWith('http')) {
+      audioUrl = '../' + audioUrl.replace(/^\/+/, '');
+    }
+    const durSec = q.audioDurationSec ? `${q.audioDurationSec}s` : '50s';
     passageBox.innerHTML = `
-      <div style="background:#f0f9ff; border:1px solid #bae6fd; border-radius:8px; padding:12px; margin-bottom:12px;">
-        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:6px;">
-          <span style="font-weight:700; color:#0369a1; font-size:0.85rem;">🎧 PHẦN THI NGHE HIỂU (LISTENING COMPREHENSION)</span>
-          <span style="font-size:0.75rem; background:#e0f2fe; color:#0369a1; padding:2px 8px; border-radius:12px; font-weight:600;">JLPT N2</span>
+      <div class="audio-player-container" style="background:#f0f9ff; border:1px solid #bae6fd; border-radius:10px; padding:14px; margin-bottom:14px;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;">
+          <div style="display:flex; align-items:center; gap:8px;">
+            <span style="font-size:1.2rem;">🎧</span>
+            <div>
+              <span style="font-weight:700; color:#0369a1; font-size:0.92rem;">PHẦN THI NGHE HIỂU (CHOKAI)</span>
+              <div style="font-size:0.75rem; color:#64748b; font-weight:600;">${q.mondaiTitle || '聴解'}</div>
+            </div>
+          </div>
+          <span class="q-tag" style="background:#0284c7; color:#fff; font-weight:700; font-size:0.72rem;">AUDIO PHÒNG THI</span>
         </div>
-        <div style="font-size:0.78rem; color:#475569; line-height:1.5; margin-bottom:8px;">
-          ⚠️ <strong>Tình trạng âm thanh:</strong> Bản thu âm chuẩn phòng thi đang trong chu kỳ sản xuất (Kỳ thi 12/2026). Dưới đây cung cấp toàn văn Transcript tiếng Nhật phân vai để học viên luyện phản xạ nghe hiểu mô phỏng.
+        <div style="background:#ffffff; border:1px solid #cbd5e1; border-radius:8px; padding:8px 12px; margin-bottom:8px;">
+          <audio id="exam-audio-player" controls preload="auto" style="width:100%; height:40px;" src="${audioUrl}">
+            Trình duyệt của bạn không hỗ trợ thẻ audio HTML5.
+          </audio>
         </div>
-        <details open style="margin-top:6px;">
-          <summary style="font-size:0.8rem; font-weight:700; color:#0284c7; cursor:pointer;">📄 Xem Kịch bản hội thoại (Transcript)</summary>
-          <div style="margin-top:8px; white-space:pre-wrap; font-family:var(--font-jp); font-size:0.92rem; color:#1e293b; background:#ffffff; padding:10px; border-radius:6px; border:1px solid #e2e8f0; line-height:1.6;">${q.contextPassage || ''}</div>
-        </details>
+        <div style="font-size:0.75rem; color:#475569; display:flex; justify-content:space-between; align-items:center;">
+          <span>⚡ <em>Hãy lắng nghe file âm thanh và chọn câu trả lời đúng. Kịch bản hội thoại được ẩn hoàn toàn trong phòng thi.</em></span>
+          <span>Thời lượng: <strong>${durSec}</strong></span>
+        </div>
       </div>
     `;
   } else if (q.contextPassage) {
@@ -2735,15 +2749,16 @@ function submitTimedSession(confirmUser) {
       }));
     } catch(e) {}
 
-    document.getElementById('d-summary-score').innerText = `${correct} / ${total} câu (Ước lượng: ${sec1Scaled} / 120 điểm)`;
+    document.getElementById('d-summary-score').innerText = `KẾT QUẢ PHẦN 1: ${correct} / ${total} CÂU (${pct}%)`;
     document.getElementById('d-summary-msg').innerHTML = `
       <div style="font-size:0.9rem; line-height:1.6; margin-bottom:12px; text-align:left; background:#f8fafc; border:1px solid #e2e8f0; border-radius:8px; padding:12px;">
         <div style="font-weight:700; color:#1e40af; margin-bottom:4px;">🎯 KẾT QUẢ PHẦN 1: KIẾN THỨC NGÔN NGỮ & ĐỌC HIỂU (${total} câu / 105 phút)</div>
-        • Kiến thức ngôn ngữ (Từ vựng + Ngữ pháp): <strong>${langCorrect}/${langItems.length} câu</strong> → Quy đổi: <strong>${langScaled} / 60 điểm</strong><br>
-        • Đọc hiểu (Đoản văn, Trung văn, Trường văn, Tra cứu): <strong>${readCorrect}/${readItems.length} câu</strong> → Quy đổi: <strong>${readScaled} / 60 điểm</strong><br>
-        • Điểm chuẩn hóa Phần 1: <strong>${sec1Scaled} / 120 điểm</strong> (Độ chính xác: ${pct}% · Thời gian: ${spentM}m ${spentS}s)<br>
-        <div style="margin-top:6px; font-size:0.82rem; color:#64748b;">
-          ℹ️ Chuẩn đỗ JLPT N2 yêu cầu mỗi phân môn đạt tối thiểu <strong>19 / 60 điểm</strong> (tránh điểm liệt).
+        • <strong>Kiến thức ngôn ngữ (Từ vựng + Ngữ pháp):</strong> ${langCorrect}/${langItems.length} câu (${Math.round((langCorrect/(langItems.length||54))*100)}%)<br>
+        • <strong>Đọc hiểu (Đoản văn, Trung văn, Trường văn, Tra cứu):</strong> ${readCorrect}/${readItems.length} câu (${Math.round((readCorrect/(readItems.length||21))*100)}%)<br>
+        • <strong>Tổng số câu đúng Phần 1:</strong> <strong>${correct} / ${total} câu</strong> (Độ chính xác: ${pct}% · Thời gian: ${spentM}m ${spentS}s)<br>
+        • <strong>Điểm quy đổi tham khảo:</strong> <strong>${sec1Scaled} / 120 điểm tham khảo</strong><br>
+        <div style="margin-top:6px; font-size:0.78rem; color:#64748b;">
+          * Điểm quy đổi tham khảo của JP-STUDY — KHÔNG phải điểm chuẩn hóa JLPT chính thức (kỳ thi thật áp dụng chuẩn hóa IRT).
         </div>
       </div>
       <div style="display:flex; flex-wrap:wrap; gap:8px; justify-content:center; margin-top:10px;">
@@ -2771,46 +2786,55 @@ function submitTimedSession(confirmUser) {
 
     if (sec1Data) {
       modeCode = 'FULL_MOCK';
-      modeName = `Full Mock ${mockId} (180 điểm)`;
+      modeName = `Full Mock ${mockId}`;
+      const totalRawCorrect = sec1Data.sec1Correct + lisCorrect;
+      const totalQuestions = 105;
+      const totalPct = Math.round((totalRawCorrect / totalQuestions) * 100);
       const totalScore = sec1Data.sec1Scaled + lisScaled;
-      const isPass = (totalScore >= 90) && (sec1Data.langScaled >= 19) && (sec1Data.readScaled >= 19) && (lisScaled >= 19);
+      const isBenchmarkPass = (totalScore >= 90) && (sec1Data.langScaled >= 19) && (sec1Data.readScaled >= 19) && (lisScaled >= 19);
       const isLiet = (sec1Data.langScaled < 19 || sec1Data.readScaled < 19 || lisScaled < 19);
 
       let diagWeakness = [];
       if (sec1Data.langScaled < 30) diagWeakness.push('Kiến thức ngôn ngữ (Từ vựng/Ngữ pháp còn dưới 50%)');
       if (sec1Data.readScaled < 30) diagWeakness.push('Đọc hiểu (cần tăng tốc độ và đối chiếu kỹ tiêu chí logic)');
-      if (lisScaled < 30) diagWeakness.push('Nghe hiểu (chú trọng Mondai 4 phản xạ và Mondai 5 tổng hợp)');
+      if (lisScaled < 30) diagWeakness.push('Nghe hiểu (chú trọng Mondai 4 phản xạ tức thì và Mondai 5 hội thoại tổng hợp)');
 
       const diagAdvice = diagWeakness.length > 0 
         ? `Khuyến nghị ưu tiên cải thiện: ${diagWeakness.join('; ')}.`
         : 'Chúc mừng! Bạn có phong độ làm bài rất đồng đều và vững vàng ở cả 3 phân môn.';
 
-      document.getElementById('d-summary-score').innerText = `TỔNG ĐIỂM THI THỬ N2: ${totalScore} / 180 ĐIỂM`;
+      document.getElementById('d-summary-score').innerText = `KẾT QUẢ BÀI THI: ${totalRawCorrect} / ${totalQuestions} CÂU (${totalPct}%)`;
       document.getElementById('d-summary-msg').innerHTML = `
-        <div style="font-size:1.1rem; font-weight:800; color:${isPass ? '#15803d' : '#b91c1c'}; margin-bottom:10px;">
-          ${isPass ? '🎉 CHÚC MỪNG: BẠN ĐẠT CHUẨN ĐỖ JLPT N2 (合格)' : (isLiet ? '⚠️ KẾT QUẢ: CHƯA ĐẠT DO BỊ ĐIỂM LIỆT (<19 điểm một phân môn)' : '⚠️ KẾT QUẢ: CHƯA ĐẠT CHUẨN ĐIỂM ĐỖ N2 (<90 điểm)')}
+        <div style="font-size:1.05rem; font-weight:800; color:${isBenchmarkPass ? '#15803d' : '#b91c1c'}; margin-bottom:10px;">
+          ${isBenchmarkPass ? '🎯 KẾT QUẢ: ĐẠT MỨC CHUẨN ĐỖ THAM KHẢO (>= 90/180 & không có phân môn dưới 19)' : (isLiet ? '⚠️ KẾT QUẢ: CÓ PHÂN MÔN DƯỚI 19 ĐIỂM (Cảnh báo điểm liệt trong thi thật)' : '⚠️ KẾT QUẢ: CHƯA ĐẠT MỨC CHUẨN THAM KHẢO (< 90/180 điểm)')}
         </div>
         <div style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:8px; padding:14px; text-align:left; font-size:0.88rem; line-height:1.6; margin-bottom:14px;">
-          <div style="font-weight:700; color:#1e40af; margin-bottom:6px;">📊 BẢNG ĐIỂM CHI TIẾT 3 PHÂN MÔN (CHUẨN 180 ĐIỂM):</div>
-          • <strong>Phần 1A — Kiến thức ngôn ngữ:</strong> ${sec1Data.langScaled} / 60 điểm (${sec1Data.langCorrect}/${sec1Data.langTotal} câu) ${sec1Data.langScaled >= 19 ? '✅' : '❌ Liệt'}<br>
-          • <strong>Phần 1B — Đọc hiểu:</strong> ${sec1Data.readScaled} / 60 điểm (${sec1Data.readCorrect}/${sec1Data.readTotal} câu) ${sec1Data.readScaled >= 19 ? '✅' : '❌ Liệt'}<br>
-          • <strong>Phần 2 — Nghe hiểu:</strong> ${lisScaled} / 60 điểm (${lisCorrect}/${lisTotal} câu) ${lisScaled >= 19 ? '✅' : '❌ Liệt'}<br>
-          <div style="margin-top:6px; font-weight:700; color:#0f172a;">
-            👉 <strong>Tổng điểm ước lượng: ${totalScore} / 180 điểm</strong> (Chuẩn đỗ: >= 90 điểm | Điểm liệt: < 19 điểm)
+          <div style="font-weight:700; color:#1e40af; margin-bottom:6px;">📊 BẢNG ĐIỂM NĂNG LỰC GỐC (RAW PERFORMANCE):</div>
+          • <strong>Phần 1A — Kiến thức ngôn ngữ:</strong> ${sec1Data.langCorrect} / ${sec1Data.langTotal} câu (${Math.round((sec1Data.langCorrect/(sec1Data.langTotal||54))*100)}%)<br>
+          • <strong>Phần 1B — Đọc hiểu:</strong> ${sec1Data.readCorrect} / ${sec1Data.readTotal} câu (${Math.round((sec1Data.readCorrect/(sec1Data.readTotal||21))*100)}%)<br>
+          • <strong>Phần 2 — Nghe hiểu:</strong> ${lisCorrect} / ${lisTotal} câu (${Math.round((lisCorrect/(lisTotal||30))*100)}%)<br>
+          • <strong>Tổng câu đúng toàn bài:</strong> <strong>${totalRawCorrect} / 105 câu</strong> (Tỷ lệ chính xác: ${totalPct}%)<br>
+          
+          <div style="margin-top:10px; padding:10px; background:#f1f5f9; border-radius:6px; border-left:4px solid #2563eb;">
+            👉 <strong>Điểm quy đổi tham khảo JP-STUDY: ${totalScore} / 180 điểm</strong> (Phần 1A: ${sec1Data.langScaled}/60 · Phần 1B: ${sec1Data.readScaled}/60 · Phần 2: ${lisScaled}/60)
+            <div style="font-size:0.75rem; color:#64748b; margin-top:4px;">
+              * Lưu ý: Điểm quy đổi tham khảo của JP-STUDY — KHÔNG phải điểm chuẩn hóa JLPT chính thức. Điểm chính thức của kỳ thi thật được tính theo phương pháp Item Response Theory (IRT) phụ thuộc vào thông số câu hỏi và phổ điểm toàn thể thí sinh.
+            </div>
           </div>
+
           <div style="margin-top:8px; padding-top:8px; border-top:1px dashed #cbd5e1; color:#0369a1;">
             💡 <strong>Chẩn đoán sư phạm:</strong> ${diagAdvice}
           </div>
         </div>
         <div style="display:flex; justify-content:center; gap:8px;">
-          <button onclick="switchMode('mode-history')" class="btn" style="background:#1e40af; color:#fff; font-weight:700; padding:10px 18px; border-radius:8px; cursor:pointer;">📜 Xem Lịch Sử Thi Đấu</button>
+          <button onclick="switchMode('mode-history')" class="btn" style="background:#1e40af; color:#fff; font-weight:700; padding:10px 18px; border-radius:8px; cursor:pointer;">📜 Xem Lịch Sử Học Tập</button>
           <button onclick="switchMode('mode-mock')" class="btn" style="background:#475569; color:#fff; font-weight:700; padding:10px 18px; border-radius:8px; cursor:pointer;">📚 Quay Lại Kho Đề</button>
         </div>
       `;
     } else {
-      document.getElementById('d-summary-score').innerText = `${correct} / ${total} câu (Ước lượng: ${lisScaled} / 60 điểm)`;
+      document.getElementById('d-summary-score').innerText = `${correct} / ${total} câu (Ước lượng: ${lisScaled} / 60 điểm tham khảo)`;
       document.getElementById('d-summary-msg').innerText = 
-        `Phần 2 Nghe hiểu: ${correct}/${total} câu (${lisScaled}/60 điểm) · Độ chính xác: ${pct}% · Thời gian: ${spentM}m ${spentS}s`;
+        `Phần 2 Nghe hiểu: ${correct}/${total} câu (Ước lượng: ${lisScaled}/60 điểm tham khảo) · Độ chính xác: ${pct}% · Thời gian: ${spentM}m ${spentS}s`;
     }
   } else {
     document.getElementById('d-summary-score').innerText = `${correct} / ${total}`;
@@ -2822,23 +2846,71 @@ function submitTimedSession(confirmUser) {
   const reviewContainer = document.getElementById('d-review-list');
   reviewContainer.innerHTML = '';
   reviewItems.forEach((rev, idx) => {
+    const q = rev.question;
     const card = document.createElement('div');
     card.className = 'error-item';
     card.style.borderColor = rev.isCorrect ? '#86efac' : (rev.chosen === 'Chưa trả lời' ? '#cbd5e1' : '#fca5a5');
+
+    let audioReviewHtml = '';
+    if (q.skill === 'Listening') {
+      let audioUrl = q.audioUrl || '';
+      if (audioUrl && !audioUrl.startsWith('http')) {
+        audioUrl = '../' + audioUrl.replace(/^\/+/, '');
+      }
+      audioReviewHtml = `
+        <div style="margin: 8px 0; background:#f0f9ff; border:1px solid #bae6fd; border-radius:6px; padding:8px 12px;">
+          <div style="font-weight:700; color:#0369a1; font-size:0.8rem; margin-bottom:4px;">🎧 Nghe lại audio:</div>
+          <audio controls preload="none" src="${audioUrl}" style="width:100%; height:32px;"></audio>
+        </div>
+        <details style="margin: 8px 0;" open>
+          <summary style="font-size:0.82rem; font-weight:700; color:#0284c7; cursor:pointer;">📄 Xem Kịch bản hội thoại tiếng Nhật (Transcript)</summary>
+          <div style="margin-top:6px; white-space:pre-wrap; font-family:var(--font-jp); font-size:0.9rem; color:#1e293b; background:#f8fafc; padding:10px; border-radius:6px; border:1px solid #e2e8f0; line-height:1.6;">${q.contextPassage || ''}</div>
+        </details>
+      `;
+    }
+
+    let optionsReviewHtml = '<div style="margin: 8px 0; font-size:0.85rem;">';
+    q.options.forEach(opt => {
+      const isRight = (opt.id === q.correctAnswer);
+      const isUser = (opt.id === rev.chosen);
+      const mark = isRight ? '✅' : (isUser ? '❌' : '⚪');
+      const color = isRight ? '#15803d' : (isUser ? '#b91c1c' : '#334155');
+      const weight = (isRight || isUser) ? '700' : '400';
+      let optDisp = opt.text;
+      if (q.spokenOptions) {
+        const spkOpt = q.spokenOptions.find(o => o.id === opt.id);
+        if (spkOpt) optDisp = `${spkOpt.num}. ${spkOpt.text}`;
+      }
+      optionsReviewHtml += `<div style="color:${color}; font-weight:${weight}; margin-bottom:2px;">${mark} <strong>${opt.id}.</strong> ${optDisp}</div>`;
+    });
+    optionsReviewHtml += '</div>';
+
+    let distractorHtml = '';
+    if (q.distractorExplanations) {
+      distractorHtml = '<div style="margin-top:6px; font-size:0.8rem; color:#475569;"><strong>Phân tích các phương án sai:</strong><ul style="margin:4px 0 0 16px; padding:0;">';
+      Object.entries(q.distractorExplanations).forEach(([k, v]) => {
+        distractorHtml += `<li><strong>${k}:</strong> ${v}</li>`;
+      });
+      distractorHtml += '</ul></div>';
+    }
+
     card.innerHTML = `
       <div class="error-meta">
-        <span><strong>Câu ${idx + 1}</strong> · ${rev.question.level} · ${rev.question.typeId} · ID: ${rev.question.id}</span>
+        <span><strong>Câu ${idx + 1}</strong> · ${q.level} · ${q.typeId} · ID: ${q.id}</span>
         <span style="font-weight:700; color:${rev.isCorrect ? '#15803d' : '#b91c1c'};">
           ${rev.isCorrect ? '✅ ĐÚNG' : (rev.chosen === 'Chưa trả lời' ? '⚪ CHƯA LÀM' : '❌ SAI')}
         </span>
       </div>
-      <div style="font-family:var(--font-jp); font-weight:600; font-size:0.95rem; margin-bottom:6px;">${rev.question.stem}</div>
+      ${audioReviewHtml}
+      <div style="font-family:var(--font-jp); font-weight:600; font-size:0.95rem; margin-bottom:6px;">${q.stem}</div>
+      ${optionsReviewHtml}
       <div style="font-size:0.85rem; margin-bottom:6px;">
         <strong>Bạn chọn:</strong> <span style="font-family:var(--font-jp); font-weight:700;">${rev.chosen}</span> |
-        <strong>Đáp án đúng:</strong> <span style="font-family:var(--font-jp); font-weight:700; color:#15803d;">${rev.question.correctAnswer}</span>
+        <strong>Đáp án đúng:</strong> <span style="font-family:var(--font-jp); font-weight:700; color:#15803d;">${q.correctAnswer}</span>
       </div>
-      <div style="font-size:0.82rem; color:#475569; background:#f8fafc; padding:8px 12px; border-radius:6px;">
-        💡 <strong>Giải thích:</strong> ${rev.question.explanationVi}
+      <div style="font-size:0.82rem; color:#1e293b; background:#f8fafc; padding:8px 12px; border-radius:6px; border:1px solid #e2e8f0;">
+        💡 <strong>Giải thích chi tiết:</strong> ${q.explanationVi}
+        ${distractorHtml}
       </div>
     `;
     reviewContainer.appendChild(card);
