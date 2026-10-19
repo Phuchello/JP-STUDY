@@ -1,9 +1,9 @@
-# JP-STUDY — 525-Question Adversarial Blind Review Reconciliation Report
+# JP-STUDY — 630-Question Adversarial Blind Review Reconciliation Report
 
-**Target Exams:** `N2-MOCK-01`, `N2-MOCK-02`, `N2-MOCK-03`, `N2-MOCK-04`, `N2-MOCK-05` (525 total items)  
+**Target Exams:** `N2-MOCK-01`, `N2-MOCK-02`, `N2-MOCK-03`, `N2-MOCK-04`, `N2-MOCK-05`, `N2-MOCK-06` (630 total items)  
 **Assurance Framework:** Independent Blind Review & Explicit Provenance Model  
 **Audit Timestamp:** 2026-10-19  
-**Completed Solves:** 525 / 525  
+**Completed Solves:** 630 / 630  
 
 ---
 
@@ -11,11 +11,11 @@
 
 | Metric | Count | Percentage | Status |
 |---|:---:|:---:|:---:|
-| **Total Evaluated Items** | 525 | 100.0% | COMPLETE |
-| **Independent Blind Solves Loaded** | 525 | 100.0% | VERIFIED |
-| **Exact Agreement (`AGREEMENT`)** | 514 | 97.9% | AUDITED |
+| **Total Evaluated Items** | 630 | 100.0% | COMPLETE |
+| **Independent Blind Solves Loaded** | 630 | 100.0% | VERIFIED |
+| **Exact Agreement (`AGREEMENT`)** | 619 | 98.3% | AUDITED |
 | **Agreed with Nuance Warnings (`REVIEW_AGREED_WITH_WARNINGS`)** | 0 | 0.0% | AUDITED |
-| **Grammar Defects Confirmed & Repaired** | 11 | 2.1% | REPAIRED |
+| **Grammar Defects Confirmed & Repaired** | 11 | 1.7% | REPAIRED |
 | **Key Mismatches (`KEY_MISMATCH`)** | 0 | 0.0% | AUDITED |
 | **Unverified / Pending Solves** | 0 | 0.0% | NONE |
 
@@ -83,14 +83,14 @@
 | N2-MOCK-01 | `N2-G7-001` | Grammar | **D** | **D** | `D` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
 | N2-MOCK-01 | `N2-G7-002` | Grammar | **A** | **A** | `A` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
 | N2-MOCK-01 | `N2-G7-003` | Grammar | **D** | **D** | `D` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-G7-004` | Grammar | **C** | **C** | `C` | `CONTENT_BASED_SEMANTIC_PRESERVATION` | `GRAMMATICAL_DEFECT_RESOLVED` | `REPAIRED_AND_VERIFIED` |
+| N2-MOCK-01 | `N2-G7-004` | Grammar | **C** | **C** | `C` | `DIRECT_IDENTITY` | `GRAMMATICAL_DEFECT_RESOLVED` | `REPAIRED_AND_VERIFIED` |
 | N2-MOCK-01 | `N2-G7-005` | Grammar | **D** | **D** | `D` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
 | N2-MOCK-01 | `N2-G7-006` | Grammar | **C** | **C** | `C` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
 | N2-MOCK-01 | `N2-G7-007` | Grammar | **D** | **D** | `D` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
 | N2-MOCK-01 | `N2-G7-008` | Grammar | **C** | **C** | `C` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
 | N2-MOCK-01 | `N2-G7-009` | Grammar | **B** | **B** | `B` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| N2-MOCK-01 | `N2-G7-010` | Grammar | **D** | **D** | `D` | `CONTENT_BASED_SEMANTIC_PRESERVATION` | `GRAMMATICAL_DEFECT_RESOLVED` | `REPAIRED_AND_VERIFIED` |
-| N2-MOCK-01 | `N2-G7-011` | Grammar | **D** | **D** | `D` | `CONTENT_BASED_SEMANTIC_PRESERVATION` | `GRAMMATICAL_DEFECT_RESOLVED` | `REPAIRED_AND_VERIFIED` |
+| N2-MOCK-01 | `N2-G7-010` | Grammar | **D** | **D** | `D` | `DIRECT_IDENTITY` | `GRAMMATICAL_DEFECT_RESOLVED` | `REPAIRED_AND_VERIFIED` |
+| N2-MOCK-01 | `N2-G7-011` | Grammar | **D** | **D** | `D` | `DIRECT_IDENTITY` | `GRAMMATICAL_DEFECT_RESOLVED` | `REPAIRED_AND_VERIFIED` |
 | N2-MOCK-01 | `N2-G7-012` | Grammar | **A** | **A** | `A` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
 | N2-MOCK-01 | `N2-G8-001` | Grammar | **C** | **C** | `C` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
 | N2-MOCK-01 | `N2-G8-002` | Grammar | **C** | **C** | `C` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
@@ -98,4 +98,4 @@
 | N2-MOCK-01 | `N2-G8-004` | Grammar | **A** | **A** | `A` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
 | N2-MOCK-01 | `N2-G8-005` | Grammar | **C** | **C** | `C` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
 | N2-MOCK-01 | `N2-G9-001` | Grammar | **C** | **C** | `C` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| ... | ... | *(remaining 475 items in CSV and JSON ledgers)* | ... | ... | ... | ... | ... | ... |
+| ... | ... | *(remaining 580 items in CSV and JSON ledgers)* | ... | ... | ... | ... | ... | ... |

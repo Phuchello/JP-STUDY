@@ -6,16 +6,18 @@
     "linguisticJustification": "「模索」の正しい音読みは「もさく」。「模（モ・ボ）」＋「索（サク）」。手探りで探し求めること。正解はB。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "866618a4c78b3cf39e073a22c8664895f1896130ae80f2eada9e9fe236000368"
+    "contentFingerprint": "8cdae6aea01c81e6a343320d4ea09abcd61d3bae5cc34b012fdfa64fa657542d",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M1_02",
-    "blindAnswer": "A",
+    "blindAnswer": "D",
     "confidence": "HIGH",
-    "linguisticJustification": "「享受」の正しい音読みは「きょうじゅ」。「享（キョウ）」＋「受（ジュ）」。恵みや利益を十分に受け取ること。正解はA。",
+    "linguisticJustification": "「享受」の正しい音読みは「きょうじゅ」。「享（キョウ）」＋「受（ジュ）」。恵みや利益を十分に受け取ること。正解はD。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "df2f81353977e4a642b14c79e66cc8b5b7de32fcb066297485aa0169c4bf74e4"
+    "contentFingerprint": "e595acfcece6935f8b85b87bca705ad6495e71dfbc5df0bcfe581ee2e4bae859",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M1_03",
@@ -24,70 +26,78 @@
     "linguisticJustification": "「巧妙」の正しい音読みは「こうみょう」。「巧（コウ）」＋「妙（ミョウ）」。極めて巧みですぐれていること。正解はC。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "4fe1227ff7159b2fe72ca02b9bcddbcaf10b232d31e50b923b49919ec9f91640"
+    "contentFingerprint": "555b2a8bc2fa10bd6efd26a0143b2b8ac3bb4153c1327ef7a770e7883d23950b",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M1_04",
-    "blindAnswer": "A",
+    "blindAnswer": "D",
     "confidence": "HIGH",
     "linguisticJustification": "「沈殿」の正しい音読みは「ちんでん」。「沈（チン）」＋「殿（デン）」。液体中の不溶物が底に沈み溜まること。正解はD。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "71f55812708dfff48b7969b03543b9ae6bd8d1bc44e154e3f37cfc181e685e0c"
+    "contentFingerprint": "faaf11ec5a0299693770cc78804460709be2d3c443d084e7ebd3f2406421e27a",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M1_05",
-    "blindAnswer": "A",
+    "blindAnswer": "D",
     "confidence": "HIGH",
-    "linguisticJustification": "「克復」の正しい音読みは「こくふく」。「克（コク）」＋「復（フク）」。困難や病苦に打ち勝つこと。正解はB。",
+    "linguisticJustification": "「克復」の正しい音読みは「こくふく」。「克（コク）」＋「復（フク）」。困難や病苦に打ち勝つこと。正解はD。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "234aad78c53473993a5c9ad4979f681e3639fd1059e71daf286457399de248f3"
+    "contentFingerprint": "87002435e4ca2f9e6994fc5506fd3f18eb16ea688bd883967fbde26e8f99bad1",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M2_01",
     "blindAnswer": "B",
     "confidence": "HIGH",
-    "linguisticJustification": "不都合な真実を隠蔽する文脈における表記は「覆い隠す（おおいかくす）」。正解はA。",
+    "linguisticJustification": "不都合な真実を隠蔽する文脈における表記は「覆い隠す（おおいかくす）」。正解はB。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "22c6641f1bf9e7d033dae565c8a4cabfc3e123585658585ec4f968878a413fbf"
+    "contentFingerprint": "ce4ad327b46ad4cc3b4ca6d76ff38701f1555022f1a6d9280befb37b671b8b37",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M2_02",
-    "blindAnswer": "A",
+    "blindAnswer": "D",
     "confidence": "HIGH",
-    "linguisticJustification": "社会貢献活動に情熱を傾けて自ら取り組む文脈における表記は「携わる（たずさわる）」。正解はC。",
+    "linguisticJustification": "社会貢献活動に情熱を傾けて自ら取り組む文脈における表記は「携わる（たずさわる）」。正解はD。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "f6436a4d77a722dcba40e5fbef017df594b4bc9e09bd669c701e2e9d22228e6c"
+    "contentFingerprint": "f73aa536e2f3e45c4a7c790e3ce08b2d998e9c96e31b9ee64414edab1d962ef7",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M2_03",
-    "blindAnswer": "A",
+    "blindAnswer": "D",
     "confidence": "HIGH",
-    "linguisticJustification": "大雨で増水した河川の氾濫を防ぐ文脈における表記は「堤防（ていぼう）」。正解はB。",
+    "linguisticJustification": "大雨で増水した河川の氾濫を防ぐ文脈における表記は「堤防（ていぼう）」。正解はD。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "7e0602d65024f90a6b8380c7c7e96c6e9e00b8d0bfab877a809518b54eb4f6a9"
+    "contentFingerprint": "fde5efbd8cc400465887b44cf268f44ad5ab62fa5fb0aefd656041d4bf7f33d4",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M2_04",
     "blindAnswer": "B",
     "confidence": "HIGH",
-    "linguisticJustification": "不祥事の再発を防ぐための根本的な見直しの文脈における表記は「是正（ぜせい）」。正解はD。",
+    "linguisticJustification": "不祥事の再発を防ぐための根本的な見直しの文脈における表記は「是正（ぜせい）」。正解はB。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "49c79fbef26ae809e3425672185adb0cfb4d8672dde25b7178c8723e5721235c"
+    "contentFingerprint": "d31da12ad0cf91ee91e60d2c93dfe23c79ebc0290e95a6e1b6ca1cd9a2a618ae",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M2_05",
-    "blindAnswer": "A",
+    "blindAnswer": "D",
     "confidence": "HIGH",
-    "linguisticJustification": "多大な功績を讃えて記念碑を建てる文脈における表記は「顕彰（けんしょう）」。正解はA。",
+    "linguisticJustification": "多大な功績を讃えて記念碑を建てる文脈における表記は「顕彰（けんしょう）」。正解はD。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "9cb15dccd138582946886957304719afadffde9d8d6df90d8fb047071ff7da2d"
+    "contentFingerprint": "2143acacb4d019550c02f631b127bc0c6df5b1d74ec15d16339cad8b59fe05f3",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M3_01",
@@ -96,205 +106,228 @@
     "linguisticJustification": "時代や流行に左右されない普遍的なデザインを表す接尾辞は「〜レス」。タイムレス（timeless）。正解はB。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "d839ca13d602ee237bb6b64382503e98ac456621ae811c6ffe90a9c7f3034477"
+    "contentFingerprint": "bdfd56af5688e2cd892b013daa2b65139b64865cda92682db99c7743de484b54",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M3_02",
     "blindAnswer": "B",
     "confidence": "HIGH",
-    "linguisticJustification": "これまでに例がないほどの甚大な被害を表す接頭辞は「未曾有の（みぞうの）」または「前代〜」。「前代未聞（ぜんだいみもん）」。正解はC。",
+    "linguisticJustification": "これまでに例がないほどの甚大な被害を表す接頭辞は「未曾有の（みぞうの）」または「前代〜」。「前代未聞（ぜんだいみもん）」。正解はB。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "cbd1130454bd9274349daf4b4e4b24ccbb3be348f9df879132be0a71344e32b1"
+    "contentFingerprint": "50ff258bee139f21f1e88c7dcb3ea6404e9918ca4acbc9d7996a39ea20332088",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M3_03",
     "blindAnswer": "C",
     "confidence": "HIGH",
-    "linguisticJustification": "物事の成り行きや結果をあらかじめ推し量る複合名詞の接尾辞は「〜見通し」。「見通しが立つ」。正解はA。",
+    "linguisticJustification": "物事の成り行きや結果をあらかじめ推し量る複合名詞の接尾辞は「〜見通し」。「見通しが立つ」。正解はC。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "f5fadfdcd11ec4ee4a8975472c1054be2a25bfc63bfb126317c25ef2240fbb37"
+    "contentFingerprint": "ab67531b21a03a978629d7578f150f17c420e821d5039f5286c81099becdf8a8",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M3_04",
-    "blindAnswer": "A",
+    "blindAnswer": "D",
     "confidence": "HIGH",
     "linguisticJustification": "他国や他社の追随を許さない圧倒的な差を表す接頭辞は「独走〜」や「独壇場」。選択肢の中で単独で優位に立つことを示す接頭辞・接尾辞として「〜独走」。正解はD。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "42332c584a17e655e0ea2e2254cbfde77375b626e4a45ee22f7b46b067376420"
+    "contentFingerprint": "00849429ba185271cdb01a61c6444d7a848fa196606458e63cba2fc78c8cb0b8",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M3_05",
-    "blindAnswer": "A",
+    "blindAnswer": "D",
     "confidence": "HIGH",
-    "linguisticJustification": "製品の品質や安全性を第三者機関が公的に証明する接尾辞は「〜認証」。「公的認証を取得」。正解はB。",
+    "linguisticJustification": "製品の品質や安全性を第三者機関が公的に証明する接尾辞は「〜認証」。「公的認証を取得」。正解はD。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "7742a5cf12bbd8ee26f9707ff7761f8f68fc9cca1a026d249ec60c67cca87533"
+    "contentFingerprint": "9e1f4a0eb2c05e955a12ad2257aaa85a2683ef72b63ab607cf9e82bfc1300ae4",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M4_01",
-    "blindAnswer": "A",
+    "blindAnswer": "D",
     "confidence": "HIGH",
-    "linguisticJustification": "長年の研究がついに実を結び新薬開発に成功した文脈で、成果が表れることを表す副詞・慣用句は「結実（けつじつ）」。正解はA。",
+    "linguisticJustification": "長年の研究がついに実を結び新薬開発に成功した文脈で、成果が表れることを表す副詞・慣用句は「結実（けつじつ）」。正解はD。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "400aacf7e55b2fbc1e181d8b07985663f07c100a24bdac41993a47c8d4300c26"
+    "contentFingerprint": "5be1ad0f5b98d9f49be41161da2a3eff899e9c5a52589cb6a3cf7876aa1bd4aa",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M4_02",
     "blindAnswer": "B",
     "confidence": "HIGH",
-    "linguisticJustification": "突然のトラブルにも慌てず冷静沈着に対処する様子を表す副詞は「落ち着き払って」や「泰然自若」。「冷静沈着」。正解はC。",
+    "linguisticJustification": "突然のトラブルにも慌てず冷静沈着に対処する様子を表す副詞は「落ち着き払って」や「泰然自若」。「冷静沈着」。正解はB。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "34e2928065eb40f99c8764cf8ce34c4f3f27b1f6a328679a7ce5e0f16499c2a8"
+    "contentFingerprint": "53dc021ba9cb9b119fcb9963019bfba0c660698b6649f133ddadd149910c51d7",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M4_03",
-    "blindAnswer": "A",
+    "blindAnswer": "D",
     "confidence": "HIGH",
-    "linguisticJustification": "計画の実現可能性について詳細に調査し裏付けを取る文脈で、客観的な調査を表す動詞・名詞は「検証（けんしょう）」。正解はB。",
+    "linguisticJustification": "計画の実現可能性について詳細に調査し裏付けを取る文脈で、客観的な調査を表す動詞・名詞は「検証（けんしょう）」。正解はD。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "261a8a86002e218c9ff2897cc80b64d5fd64668a7c2e5a01681391e62f79fe72"
+    "contentFingerprint": "096cc542427afe370c711d40005deeeeb7efb04b565de35bb9cc76005fc12293",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M4_04",
     "blindAnswer": "B",
     "confidence": "HIGH",
-    "linguisticJustification": "経済の低迷から脱却し、回復へと向かう最初の兆候を表す名詞は「兆し（きざし）」。正解はD。",
+    "linguisticJustification": "経済の低迷から脱却し、回復へと向かう最初の兆候を表す名詞は「兆し（きざし）」。正解はB。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "c2f090b5b44324aadbbb1069467e0cdaf70440cc3211227ee388785361966ca9"
+    "contentFingerprint": "7246a1e198cc9b1bf82ea98ffd4a14ec1263a1c89351527d4cd61712509c03db",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M4_05",
-    "blindAnswer": "A",
+    "blindAnswer": "D",
     "confidence": "HIGH",
-    "linguisticJustification": "他人の意見に左右されず、自らの信念を固く保ち続ける態度を表す語は「貫く（つらぬく）」。正解はA。",
+    "linguisticJustification": "他人の意見に左右されず、自らの信念を固く保ち続ける態度を表す語は「貫く（つらぬく）」。正解はD。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "cb78bac85eae2db8bd002b9211ad7c746990d77448435d79e2207ed9dbcdd62b"
+    "contentFingerprint": "9a57e8a42052997ba4f67a0cf1b899fd47f7c728e47bec270e747cf3707e8baa",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M4_06",
-    "blindAnswer": "A",
+    "blindAnswer": "D",
     "confidence": "HIGH",
-    "linguisticJustification": "多忙を極める業務の合間を縫って寸暇を惜しんで勉強する文脈の語は「合間（あいま）」。正解はC。",
+    "linguisticJustification": "多忙を極める業務の合間を縫って寸暇を惜しんで勉強する文脈の語は「合間（あいま）」。正解はD。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "13cc6806dae8e86fe858c94eec7330c3a3c661417c504775eaba26de811556c4"
+    "contentFingerprint": "c4f95970512e43ec7a429995b13341d6de7797c913cd0db193c64da7dc25bae9",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M4_07",
-    "blindAnswer": "A",
+    "blindAnswer": "D",
     "confidence": "HIGH",
-    "linguisticJustification": "事態がこれ以上悪化するのを防ぐために緊急の手段を講じる文脈は「歯止めをかける」。正解はB。",
+    "linguisticJustification": "事態がこれ以上悪化するのを防ぐために緊急の手段を講じる文脈は「歯止めをかける」。正解はD。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "433752a0ddeb339b22407086ca81b50523b510dacba92c16e3dca7e85686617e"
+    "contentFingerprint": "4877d2d5476b79ec1821fd75d804ddf962d0768bbaf38c0c6acf982e9f50f242",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M5_01",
-    "blindAnswer": "A",
+    "blindAnswer": "D",
     "confidence": "HIGH",
     "linguisticJustification": "「あらかじめ」は事前に、前もって何かを準備する意。「前もって」と同義。正解はD。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "f8d006c8f2380683ad66bfebc67d3a5eb6a9d31e9c8f5ee8c812004819ed7002"
+    "contentFingerprint": "4afeeef2a02f87fba0b694d424006d28c86db0b02e989afdf10282a9f41898ec",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M5_02",
-    "blindAnswer": "A",
+    "blindAnswer": "D",
     "confidence": "HIGH",
-    "linguisticJustification": "「手際（てぎわ）が良い」は物事を処理する手順や要領が優れていること。「要領が良い」と同義。正解はB。",
+    "linguisticJustification": "「手際（てぎわ）が良い」は物事を処理する手順や要領が優れていること。「要領が良い」と同義。正解はD。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "48104d7a38f9eda5f8537fd9cf5a6197e9c627c08b65e9a910fadcc107e421e4"
+    "contentFingerprint": "00f86bdcc060d8435512bed8fac710cd14a1ae54fe9306f24d1c1fbfba95f806",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M5_03",
-    "blindAnswer": "A",
+    "blindAnswer": "D",
     "confidence": "HIGH",
-    "linguisticJustification": "「おびただしい」数は非常に多い、夥しいこと。「非常に多い」と同義。正解はA。",
+    "linguisticJustification": "「おびただしい」数は非常に多い、夥しいこと。「非常に多い」と同義。正解はD。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "d0d1298ea278bae873ea7ad239783477359f8ba3b69d622f841b50ff91604f6b"
+    "contentFingerprint": "65bd6420000f3d6f1f25d86e6560c059f1737f0114047750ff9fb24c070ecf99",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M5_04",
-    "blindAnswer": "A",
+    "blindAnswer": "D",
     "confidence": "HIGH",
-    "linguisticJustification": "「うなだれる」は失望や疲労で首を前に垂れる様子。「首を垂れる」と同義。正解はC。",
+    "linguisticJustification": "「うなだれる」は失望や疲労で首を前に垂れる様子。「首を垂れる」と同義。正解はD。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "01fb85afbb92767180cdb9fb782a0af9b4de655cc77b0e55acd35b013e11d636"
+    "contentFingerprint": "14e2768b31e627ed0314ae48c1e7d80663207e0670ce95056de3157f20035a77",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M5_05",
-    "blindAnswer": "A",
+    "blindAnswer": "B",
     "confidence": "HIGH",
     "linguisticJustification": "「目処（めど）が立つ」は見通しや目星がつくこと。「見通しがつく」と同義。正解はB。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "c4a46d952c9dbe3465a055190364f576e7d26a1619ec3ab3301409bf8f5697c1"
+    "contentFingerprint": "b8aa8762e78ebd522307e388965fdc1fa7fe133041e86e8f75421e91a15a7ecd",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M6_01",
-    "blindAnswer": "A",
+    "blindAnswer": "B",
     "confidence": "HIGH",
-    "linguisticJustification": "「簡潔（かんけつ）」は表現や文章などが要領よく短くまとまっていること。「要点を簡潔にまとめた報告書」が適切。正解はA。",
+    "linguisticJustification": "「簡潔（かんけつ）」は表現や文章などが要領よく短くまとまっていること。「要点を簡潔にまとめた報告書」が適切。正解はB。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "95984219892ad7b6cd4ee522f114e664f1775f44f243bfa4d2362d800e73cd6a"
+    "contentFingerprint": "5d9a6d5dafea5f0e766b36948a380efa04fa0716be17589eae68f39b371cf3e6",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M6_02",
-    "blindAnswer": "A",
+    "blindAnswer": "B",
     "confidence": "HIGH",
-    "linguisticJustification": "「執着（しゅうちゃく）」はある物事や考えに深く心が囚われて離れられないこと。「過去の栄光に執着する」が適切。正解はC。",
+    "linguisticJustification": "「執着（しゅうちゃく）」はある物事や考えに深く心が囚われて離れられないこと。「過去の栄光に執着する」が適切。正解はB。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "891d18a0743ddf98c632836a06a0dff3becad4faffc9981cc87b9e231697a5ea"
+    "contentFingerprint": "f773a765c3ffcbf522336ed5cd1f14fecc457fd0b1317d70a2619a7c2c6a0566",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M6_03",
-    "blindAnswer": "A",
+    "blindAnswer": "B",
     "confidence": "HIGH",
     "linguisticJustification": "「目覚ましい（めざましい）」は驚くほど進歩や成果が顕著であること。「科学技術の目覚ましい発展」が適切。正解はB。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "3a309f5fc4b6ddc073cee32e2210d9fbf04263d7fea8d9d3aadd51ebb4413c18"
+    "contentFingerprint": "265b415c0cfd157c2664d15885ddf99e0ead8ee8368fe0cbd188deec7e85656a",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M6_04",
-    "blindAnswer": "A",
+    "blindAnswer": "B",
     "confidence": "HIGH",
-    "linguisticJustification": "「一概に（いちがいに）〜ない」は個々の差異を無視して全体をひとまとめに断定できないこと。「一概に悪いとは言えない」が適切。正解はD。",
+    "linguisticJustification": "「一概に（いちがいに）〜ない」は個々の差異を無視して全体をひとまとめに断定できないこと。「一概に悪いとは言えない」が適切。正解はB。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "74c6a1984fc54562b0a678a63d68a259d44f383e3495e74dfa87b4ac0a8cd163"
+    "contentFingerprint": "bb700a2392641d76aab9f449b09d3985f1ede482ffae8728d6c61ee4ecd1e676",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M6_05",
-    "blindAnswer": "A",
+    "blindAnswer": "B",
     "confidence": "HIGH",
-    "linguisticJustification": "「還元（かんげん）」は得られた利益などを元の状態や社会・消費者に広く戻すこと。「利益を株主や社会に還元する」が適切。正解はA。",
+    "linguisticJustification": "「還元（かんげん）」は得られた利益などを元の状態や社会・消費者に広く戻すこと。「利益を株主や社会に還元する」が適切。正解はB。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "3b7109a3e0432c8ea81f79ffafa5bdd700a3f53dbe0345e2c71d5fc7614b3c0d"
+    "contentFingerprint": "ac480960e56dd507ed4881a2e8e2e42c275e168599d3fc6524360ce6f0e3a78b",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M7_01",
-    "blindAnswer": "A",
+    "blindAnswer": "B",
     "confidence": "HIGH",
-    "linguisticJustification": "「〜を皮切りに（して）」: 〜を手始めとして次々に同類の事柄が活発に行われる。全国ツアーの文脈に合致。正解はC。",
+    "linguisticJustification": "「〜を皮切りに（して）」: 〜を手始めとして次々に同類の事柄が活発に行われる。全国ツアーの文脈に合致。正解はB。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "2ab8049c9359f5d1230c0bbeb2359e9ed6d79a79c1619cd61f5960b54d8a9500"
+    "contentFingerprint": "494e84451914fa6e0a98d1539d48754403c443afa4dfc7884926a419c6d732c8",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M7_02",
@@ -303,42 +336,47 @@
     "linguisticJustification": "「〜に相違ない」: 確信度の高い論理的推量。状況証拠から「彼が犯人・張本人であるに相違ない」と判断する。正解はB。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "dc40fac6787bdf264a909625e1bf25f0e255507d619997bbf01914edc508d78d"
+    "contentFingerprint": "379e5824844b604fa1da65e7a77ede9044c7d0a15943f56184135b47aa171895",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M7_03",
-    "blindAnswer": "A",
+    "blindAnswer": "B",
     "confidence": "HIGH",
-    "linguisticJustification": "「〜を余儀なくされる」: 不可抗力や外部的事情により望まない事態・行動を取らざるを得なくなる。正解はA。",
+    "linguisticJustification": "「〜を余儀なくされる」: 不可抗力や外部的事情により望まない事態・行動を取らざるを得なくなる。正解はB。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "eb2e4ca2221fdd83de16b326d02b961e74a2137276e4f41c4dc3ff6816df56e2"
+    "contentFingerprint": "db56243e821be5ed27f460e287750666c489fe8b1da3447e52efb304965418d8",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M7_04",
-    "blindAnswer": "A",
+    "blindAnswer": "B",
     "confidence": "HIGH",
-    "linguisticJustification": "「〜を契機に（して）」: ある出来事が大きな転機・きっかけとなって変化が生じる。正解はD。",
+    "linguisticJustification": "「〜を契機に（して）」: ある出来事が大きな転機・きっかけとなって変化が生じる。正解はB。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "32c26c4517bee1904602edf0ea055aded0d2eb48cc9c50961eb673d11cf0b262"
+    "contentFingerprint": "9555918dfc3a6d38c1c2b819cc80092fe1e5ff28c827c043641a3655bea983f1",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M7_05",
-    "blindAnswer": "A",
+    "blindAnswer": "B",
     "confidence": "HIGH",
     "linguisticJustification": "「〜ともなると / 〜ともなれば」: そのような特別な立場や状況になると、当然それに伴って〜。正解はB。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "e9edfacd01227401aec44c42267d78577b6cdfa97217f9754b980612586c5333"
+    "contentFingerprint": "6016a8cb3aa4dba3e931da6c2d610fbc629c562493d58cfdcb54fdd6d4ed6583",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M7_06",
-    "blindAnswer": "A",
+    "blindAnswer": "B",
     "confidence": "HIGH",
-    "linguisticJustification": "「〜ずくめ」: 黒ずくめ、良いことずくめ等、その要素ばかりであること。正解はA。",
+    "linguisticJustification": "「〜ずくめ」: 黒ずくめ、良いことずくめ等、その要素ばかりであること。正解はB。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "1fe3452818c5e78bc027b15bf17c1e7ca3d16b7793ea0bcc8ab2086e1993f37b"
+    "contentFingerprint": "2a64987ddae229b169a4c9bc3ef191921fbfa0e5f331e054dc8d03f58d65dd85",
+    "isFreshReview": true
   }
 ]

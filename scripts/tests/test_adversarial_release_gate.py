@@ -21,6 +21,7 @@ import shutil
 import sys
 import tempfile
 import unittest
+from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -526,6 +527,71 @@ class TestAdversarialReleaseGate(unittest.TestCase):
         res = reconcile_question_item(self.sample_q, b_info, repair_info=None)
         self.assertEqual(res["reconciliationClassification"], "UNVERIFIED")
         self.assertEqual(res["finalDisposition"], "REVIEW_REQUIRED")
+
+    # -----------------------------------------------------------------
+    # REGRESSION TEST — Whitelist bypass rejection for repaired items
+    # -----------------------------------------------------------------
+    def test_repaired_item_mutation_rejects_whitelist_bypass(self):
+        """
+        Regression Test (A3 Requirement):
+        Ensures that mutating a historically repaired question (e.g. N2-G7-004)
+        invalidates review provenance and results in RE_REVIEW_REQUIRED.
+        The old whitelist/KNOWN_REPAIRED_ITEMS exception must NEVER bypass the gate.
+        """
+        mutated_repaired_q = {
+            "id": "N2-G7-004",
+            "typeId": "N2-GR-FORM",
+            "stem": "彼は英語（　　）、フランス語や中国語も流暢に操る。[MUTATED_STEM]",
+            "options": [
+                {"id": "A", "text": "反面"},
+                {"id": "B", "text": "どころではなく"},
+                {"id": "C", "text": "のみならず"},
+                {"id": "D", "text": "を契機に"}
+            ],
+            "correctAnswer": "C"
+        }
+        # A review bound to an older/different fingerprint
+        stale_review_info = {
+            "questionId": "N2-G7-004",
+            "examId": "N2-MOCK-01",
+            "remappedBlindAnswer": "C",
+            "originalStoredAnswer": "C",
+            "originalRawBlindAnswer": "C",
+            "selectedOptionText": "のみならず",
+            "mappingMethod": "CONTENT_BASED_SEMANTIC_PRESERVATION",
+            "hasLetterInconsistency": False,
+            "linguisticJustification": "「名詞＋のみならず」は並列・付加を表す文型。",
+            "reviewerProvenance": "CONTENT_CHANGED_REVIEW_REQUIRED",
+            "fingerprintMatch": False,
+            "contentFingerprint": compute_question_fingerprint(mutated_repaired_q),
+            "reviewFingerprint": "old_historical_hash_different_from_current"
+        }
+        res = reconcile_question_item(mutated_repaired_q, stale_review_info, repair_info=None)
+        self.assertEqual(res["reconciliationClassification"], "STALE_REVIEW")
+        self.assertEqual(res["finalDisposition"], "RE_REVIEW_REQUIRED")
+        self.assertFalse(res["fingerprintMatch"])
+
+    # -----------------------------------------------------------------
+    # REGRESSION TEST — Severe answer key bias detection
+    # -----------------------------------------------------------------
+    def test_severe_answer_bias_detection(self):
+        """
+        Regression Test (A4 Requirement):
+        Ensures that an exam with severe answer-key bias (> 35% on one letter)
+        is flagged as a release blocker.
+        """
+        # Create a mock section with 50 'A's out of 75 items
+        biased_items = []
+        for i in range(75):
+            ans = 'A' if i < 50 else ('B' if i < 60 else ('C' if i < 70 else 'D'))
+            biased_items.append({"id": f"TEST_Q_{i:02d}", "correctAnswer": ans})
+
+        c = Counter(it["correctAnswer"] for it in biased_items)
+        max_letter, max_count = c.most_common(1)[0]
+        ratio = max_count / len(biased_items)
+        self.assertGreater(ratio, 0.35, "Biased sample should exceed 35% threshold")
+        self.assertEqual(max_letter, 'A')
+        self.assertEqual(max_count, 50)
 
 
 if __name__ == "__main__":

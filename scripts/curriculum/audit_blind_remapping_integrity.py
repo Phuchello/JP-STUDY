@@ -27,11 +27,6 @@ def sha256_bytes(b):
 def sha256_file(p):
     return hashlib.sha256(p.read_bytes()).hexdigest()
 
-KNOWN_REPAIRED_ITEMS = {
-    "N2-G7-004", "N2-G7-010", "N2-G7-011", "N2-G8-003",
-    "N2_02_M4_06", "N2_02_M7_04", "N2_02_M7_05", "N2_02_M7_06",
-    "N2_02_M8_01", "N2_02_M8_04"
-}
 
 def remap_blind_solve(orig_blind_letter, input_options_dict, current_options_dict):
     """
@@ -75,6 +70,7 @@ def run_integrity_audit():
         ROOT / "qa/raw_blind_m02_s1_p2.json",
         ROOT / "qa/raw_blind_m02_s2.json",
         ROOT / "qa/raw_blind_star_repaired_3.json",
+        ROOT / "qa/raw_blind_repaired_5.json",
     ]
     for rf_m03 in [
         ROOT / "qa/raw_blind_m03_s1_p1.json",
@@ -99,6 +95,14 @@ def run_integrity_audit():
     ]:
         if rf_m05.exists():
             raw_files.append(rf_m05)
+
+    for rf_m06 in [
+        ROOT / "qa/raw_blind_m06_s1_p1.json",
+        ROOT / "qa/raw_blind_m06_s1_p2.json",
+        ROOT / "qa/raw_blind_m06_s2.json",
+    ]:
+        if rf_m06.exists():
+            raw_files.append(rf_m06)
 
     raw_solves = {}
     raw_file_hashes = {}
@@ -132,6 +136,10 @@ def run_integrity_audit():
         ROOT / "qa/blind_items_m05_s1_p1.json",
         ROOT / "qa/blind_items_m05_s1_p2.json",
         ROOT / "qa/blind_items_m05_s2.json",
+        ROOT / "qa/blind_items_m06_s1_p1.json",
+        ROOT / "qa/blind_items_m06_s1_p2.json",
+        ROOT / "qa/blind_items_m06_s2.json",
+        ROOT / "qa/blind_items_repaired_5.json",
     ]:
         if bif.exists():
             items = json.loads(bif.read_text(encoding='utf-8'))
@@ -147,6 +155,8 @@ def run_integrity_audit():
         mocks_to_load.append('04')
     if (ROOT / "data/mock_exams/n2_mock_05.json").exists() and (ROOT / "qa/raw_blind_m05_s1_p1.json").exists():
         mocks_to_load.append('05')
+    if (ROOT / "data/mock_exams/n2_mock_06.json").exists() and (ROOT / "qa/raw_blind_m06_s1_p1.json").exists():
+        mocks_to_load.append('06')
     for m in mocks_to_load:
         m_data = json.loads((ROOT / f"data/mock_exams/n2_mock_{m}.json").read_text(encoding='utf-8'))
         for sec in m_data['sections']:
@@ -239,10 +249,6 @@ def run_integrity_audit():
                 else:
                     fingerprint_match = False
                     provenance = "CONTENT_CHANGED_REVIEW_REQUIRED"
-            elif qid in KNOWN_REPAIRED_ITEMS:
-                review_fingerprint = input_fp
-                fingerprint_match = True
-                provenance = "ORIGINAL_VERSION_BOUND"
             else:
                 review_fingerprint = input_fp
                 fingerprint_match = False

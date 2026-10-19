@@ -262,6 +262,8 @@ def reconcile_all(all_items=None, blind_map=None, write_artifacts=True):
             mock_nums.append('04')
         if (ROOT / 'data/mock_exams/n2_mock_05.json').exists():
             mock_nums.append('05')
+        if (ROOT / 'data/mock_exams/n2_mock_06.json').exists():
+            mock_nums.append('06')
         for m in mock_nums:
 
             m_id = f"N2-MOCK-{m}"

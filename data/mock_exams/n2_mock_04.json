@@ -55,7 +55,7 @@
           "options": [
             {
               "id": "A",
-              "text": "きょうじゅ"
+              "text": "ごうじゅ"
             },
             {
               "id": "B",
@@ -67,15 +67,15 @@
             },
             {
               "id": "D",
-              "text": "ごうじゅ"
+              "text": "きょうじゅ"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "D",
           "explanationVi": "享受（きょうじゅ - HƯỞNG THỤ）: Thụ hưởng, đón nhận và tận hưởng lợi ích tốt đẹp. Chữ 享 có âm on là きょう, chữ 受 có âm on là じゅ.",
           "distractorExplanations": {
+            "A": "ごうじゅ: Sai âm đầu きょう thành ごう.",
             "B": "こうじゅ: Nhầm âm きょう thành こう.",
-            "C": "きょうしゅ: Nhầm âm đục じゅ thành âm thanh しゅ.",
-            "D": "ごうじゅ: Sai âm đầu きょう thành ごう."
+            "C": "きょうしゅ: Nhầm âm đục じゅ thành âm thanh しゅ."
           }
         },
         {
@@ -121,7 +121,7 @@
           "options": [
             {
               "id": "A",
-              "text": "ちくせき"
+              "text": "ちょくせき"
             },
             {
               "id": "B",
@@ -133,15 +133,15 @@
             },
             {
               "id": "D",
-              "text": "ちょくせき"
+              "text": "ちくせき"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "D",
           "explanationVi": "蓄積（ちくせき - SÚC TÍCH）: Tích lũy, dồn chứa qua thời gian dài (kinh nghiệm, kiến thức, vốn). Chữ 蓄 có âm on là ちく, chữ 積 có âm on là せき.",
           "distractorExplanations": {
+            "A": "ちょくせき: Nhầm âm ちく thành ちょく.",
             "B": "ちゅうせき: Nhầm âm ちく thành ちゅう.",
-            "C": "ちくしゃく: Nhầm âm せき thành しゃく.",
-            "D": "ちょくせき: Nhầm âm ちく thành ちょく."
+            "C": "ちくしゃく: Nhầm âm せき thành しゃく."
           }
         },
         {
@@ -154,7 +154,7 @@
           "options": [
             {
               "id": "A",
-              "text": "そくしん"
+              "text": "しょうしん"
             },
             {
               "id": "B",
@@ -166,15 +166,15 @@
             },
             {
               "id": "D",
-              "text": "しょうしん"
+              "text": "そくしん"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "D",
           "explanationVi": "促進（そくしん - XÚC TIẾN）: Thúc đẩy, đẩy mạnh sự phát triển hoặc tiến trình của một sự việc. Chữ 促 có âm on là そく, chữ 進 có âm on là しん.",
           "distractorExplanations": {
+            "A": "しょうしん: Nhầm sang 昇進 (しょうしん - thăng tiến, thăng chức).",
             "B": "ぞくしん: Nhầm âm thanh そく thành âm đục ぞく.",
-            "C": "そくじん: Nhầm âm しん thành âm đục じん.",
-            "D": "しょうしん: Nhầm sang 昇進 (しょうしん - thăng tiến, thăng chức)."
+            "C": "そくじん: Nhầm âm しん thành âm đục じん."
           }
         },
         {
@@ -220,7 +220,7 @@
           "options": [
             {
               "id": "A",
-              "text": "普及"
+              "text": "敷及"
             },
             {
               "id": "B",
@@ -232,15 +232,15 @@
             },
             {
               "id": "D",
-              "text": "敷及"
+              "text": "普及"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "D",
           "explanationVi": "普及（ふきゅう - PHỔ CẬP）: Phổ biến rộng rãi đến số đông dân chúng. Chữ 普 (Phổ trong phổ thông) đi với 及 (Cập trong lan tới).",
           "distractorExplanations": {
+            "A": "敷及: Viết sai chữ 普 thành 敷 (Phu trong trải thảm, lắp đặt).",
             "B": "普給: Viết sai chữ 及 thành 給 (Cấp trong cung cấp).",
-            "C": "布及: Viết sai chữ 普 thành 布 (Bố trong tuyên bố).",
-            "D": "敷及: Viết sai chữ 普 thành 敷 (Phu trong trải thảm, lắp đặt)."
+            "C": "布及: Viết sai chữ 普 thành 布 (Bố trong tuyên bố)."
           }
         },
         {
@@ -253,7 +253,7 @@
           "options": [
             {
               "id": "A",
-              "text": "慎重"
+              "text": "深重"
             },
             {
               "id": "B",
@@ -265,15 +265,15 @@
             },
             {
               "id": "D",
-              "text": "深重"
+              "text": "慎重"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "D",
           "explanationVi": "慎重（しんちょう - THẬN TRỌNG）: Cẩn trọng, thấu đáo, không hấp tấp. Chữ 慎 (Thận trong cẩn thận) đi với chữ 重 (Trọng).",
           "distractorExplanations": {
+            "A": "深重: Viết sai chữ 慎 thành 深 (Thâm trong sâu sắc).",
             "B": "真重: Viết sai chữ 慎 thành 真 (Chân trong chân thực).",
-            "C": "慎調: Viết sai chữ 重 thành 調 (Điều trong điều tra, nhịp điệu).",
-            "D": "深重: Viết sai chữ 慎 thành 深 (Thâm trong sâu sắc)."
+            "C": "慎調: Viết sai chữ 重 thành 調 (Điều trong điều tra, nhịp điệu)."
           }
         },
         {
@@ -319,7 +319,7 @@
           "options": [
             {
               "id": "A",
-              "text": "厳格"
+              "text": "険格"
             },
             {
               "id": "B",
@@ -331,15 +331,15 @@
             },
             {
               "id": "D",
-              "text": "険格"
+              "text": "厳格"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "D",
           "explanationVi": "厳格（げんかく - NGHIÊM CÁCH）: Nghiêm khắc, chặt chẽ đúng quy tắc chuẩn mực. Chữ 厳 (Nghiêm) đi với chữ 格 (Cách).",
           "distractorExplanations": {
+            "A": "険格: Viết sai chữ 厳 thành 険 (Hiểm trong nguy hiểm, dốc hiểm trở).",
             "B": "厳確: Viết sai chữ 格 thành 確 (Xác trong chính xác).",
-            "C": "原格: Viết sai chữ 厳 thành 原 (Nguyên trong nguyên thủy).",
-            "D": "険格: Viết sai chữ 厳 thành 険 (Hiểm trong nguy hiểm, dốc hiểm trở)."
+            "C": "原格: Viết sai chữ 厳 thành 原 (Nguyên trong nguyên thủy)."
           }
         },
         {
@@ -447,7 +447,7 @@
           "options": [
             {
               "id": "A",
-              "text": "連"
+              "text": "親"
             },
             {
               "id": "B",
@@ -459,15 +459,15 @@
             },
             {
               "id": "D",
-              "text": "親"
+              "text": "連"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "D",
           "explanationVi": "連帯感（れんたいかん - LIÊN ĐỚI CẢM）: Tinh thần đoàn kết, ý thức gắn bó tương trợ lẫn nhau giữa các thành viên trong tập thể/cộng đồng.",
           "distractorExplanations": {
+            "A": "親: Ghép trong 親近感 (cảm giác thân thiết gần gũi), không tạo từ *親帯感.",
             "B": "団: Thường ghép trong 団体 (đoàn thể), 団結 (đoàn kết), không ghép thành *団帯感.",
-            "C": "結: Thường ghép trong 結束 (kết thúc, đoàn kết chặt chẽ), 結合 (kết hợp), không ghép thành *結帯感.",
-            "D": "親: Ghép trong 親近感 (cảm giác thân thiết gần gũi), không tạo từ *親帯感."
+            "C": "結: Thường ghép trong 結束 (kết thúc, đoàn kết chặt chẽ), 結合 (kết hợp), không ghép thành *結帯感."
           }
         },
         {
@@ -479,7 +479,7 @@
           "options": [
             {
               "id": "A",
-              "text": "再"
+              "text": "重"
             },
             {
               "id": "B",
@@ -491,15 +491,15 @@
             },
             {
               "id": "D",
-              "text": "重"
+              "text": "再"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "D",
           "explanationVi": "再利用（さいりよう - TÁI LỢI DỤNG）: Tái sử dụng, dùng lại tài nguyên/vật phẩm đã qua sử dụng để giảm rác thải.",
           "distractorExplanations": {
+            "A": "重: Ghép trong 重複 (trùng lặp), 重大 (trọng đại), không ghép thành *重利用.",
             "B": "復: Tiền tố 復- ghép trong 復興 (phục hưng), 復活 (phục hoạt), không tạo từ *復利用.",
-            "C": "新: Tiền tố 新- mang nghĩa mới (như 新開発, 新製品), không mang nghĩa dùng lại đồ cũ (tái sử dụng).",
-            "D": "重: Ghép trong 重複 (trùng lặp), 重大 (trọng đại), không ghép thành *重利用."
+            "C": "新: Tiền tố 新- mang nghĩa mới (như 新開発, 新製品), không mang nghĩa dùng lại đồ cũ (tái sử dụng)."
           }
         },
         {
@@ -511,7 +511,7 @@
           "options": [
             {
               "id": "A",
-              "text": "連携"
+              "text": "連続"
             },
             {
               "id": "B",
@@ -523,15 +523,15 @@
             },
             {
               "id": "D",
-              "text": "連続"
+              "text": "連携"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "D",
           "explanationVi": "連携（れんけい - LIÊN HUYỆN）: Phối hợp, liên kết hành động chặt chẽ giữa các tổ chức/đoàn thể để cùng đạt mục tiêu. Đi với phó từ '緊密に連携する' (phối hợp chặt chẽ).",
           "distractorExplanations": {
+            "A": "連続: Liên tục, diễn ra không ngừng nghỉ theo chuỗi thời gian.",
             "B": "連行: Áp giải, dẫn giải tội phạm (như 警察に連行される).",
-            "C": "連帯: Tinh thần đoàn kết, gắn kết trách nhiệm chung (như 連帯責任).",
-            "D": "連続: Liên tục, diễn ra không ngừng nghỉ theo chuỗi thời gian."
+            "C": "連帯: Tinh thần đoàn kết, gắn kết trách nhiệm chung (như 連帯責任)."
           }
         },
         {
@@ -575,7 +575,7 @@
           "options": [
             {
               "id": "A",
-              "text": "遂行"
+              "text": "励行"
             },
             {
               "id": "B",
@@ -587,15 +587,15 @@
             },
             {
               "id": "D",
-              "text": "励行"
+              "text": "遂行"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "D",
           "explanationVi": "遂行（すいこう - TOẠI HÀNH）: Hoàn thành, tiến hành trọn vẹn nhiệm vụ/kế hoạch được giao đến cùng. Đi với tân ngữ '任務を遂行する' (hoàn thành xuất sắc nhiệm vụ).",
           "distractorExplanations": {
+            "A": "励行: Tự giác thực hành nghiêm túc thói quen tốt/quy định hàng ngày (như うがい手洗いの励行).",
             "B": "履行: Thực hiện cam kết, thi hành điều khoản hợp đồng (như 契約を履行する).",
-            "C": "敢行: Dũng cảm quyết tâm làm dù gặp nhiều nguy hiểm hoặc thời tiết xấu (như 悪天候の中決行/敢行する).",
-            "D": "励行: Tự giác thực hành nghiêm túc thói quen tốt/quy định hàng ngày (như うがい手洗いの励行)."
+            "C": "敢行: Dũng cảm quyết tâm làm dù gặp nhiều nguy hiểm hoặc thời tiết xấu (như 悪天候の中決行/敢行する)."
           }
         },
         {
@@ -639,7 +639,7 @@
           "options": [
             {
               "id": "A",
-              "text": "譲歩"
+              "text": "容認"
             },
             {
               "id": "B",
@@ -651,15 +651,15 @@
             },
             {
               "id": "D",
-              "text": "容認"
+              "text": "譲歩"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "D",
           "explanationVi": "譲歩（じょうほ - NHƯỢNG BỘ）: Nhượng bộ, lùi một bước trong đàm phán để nhường quyền lợi cho đối phương cùng đạt thỏa thuận. Thường dùng '条件を譲歩する／互いに譲歩する'.",
           "distractorExplanations": {
+            "A": "容認: Chấp nhận, thừa nhận cho phép tồn tại một sự việc (như 存在を容認する).",
             "B": "妥協: Thỏa hiệp. Đi với động từ する nhưng thường dùng '妥協する' đơn độc chứ không dùng trực tiếp làm tân ngữ cụm '条件を妥協する'.",
-            "C": "協調: Hợp tác, phối hợp hòa thuận (như 協調性), không đi với '条件を協調する'.",
-            "D": "容認: Chấp nhận, thừa nhận cho phép tồn tại một sự việc (như 存在を容認する)."
+            "C": "協調: Hợp tác, phối hợp hòa thuận (như 協調性), không đi với '条件を協調する'."
           }
         },
         {
@@ -671,7 +671,7 @@
           "options": [
             {
               "id": "A",
-              "text": "軌道"
+              "text": "路線"
             },
             {
               "id": "B",
@@ -683,15 +683,15 @@
             },
             {
               "id": "D",
-              "text": "路線"
+              "text": "軌道"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "D",
           "explanationVi": "軌道（きどう - QUỸ ĐẠO）: Quán dụng ngữ '軌道に乗る' nghĩa là công việc/dự án đã đi vào guồng ổn định, vận hành trơn tru và bắt đầu gặt hái kết quả khả quan.",
           "distractorExplanations": {
+            "A": "路線: Tuyến đường xe lửa, tuyến bus, hoặc đường lối chủ trương (như 経営路線).",
             "B": "航路: Tuyến đường biển hoặc đường hàng không.",
-            "C": "順路: Lối đi theo chỉ dẫn theo thứ tự (như trong bảo tàng, triển lãm).",
-            "D": "路線: Tuyến đường xe lửa, tuyến bus, hoặc đường lối chủ trương (như 経営路線)."
+            "C": "順路: Lối đi theo chỉ dẫn theo thứ tự (như trong bảo tàng, triển lãm)."
           }
         },
         {
@@ -703,7 +703,7 @@
           "options": [
             {
               "id": "A",
-              "text": "抑制"
+              "text": "束縛"
             },
             {
               "id": "B",
@@ -715,15 +715,15 @@
             },
             {
               "id": "D",
-              "text": "束縛"
+              "text": "抑制"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "D",
           "explanationVi": "抑制（よくせい - ỨC CHẾ）: Kiềm chế, kìm hãm, hạn chế không để bùng phát hoặc tăng quá mức (như 支出の抑制, 感情を抑制する).",
           "distractorExplanations": {
+            "A": "束縛: Ràng buộc, trói buộc tự do thân thể hoặc thời gian của người khác.",
             "B": "制圧: Trấn áp bạo loạn, khống chế đối tượng nguy hiểm bằng vũ lực.",
-            "C": "圧迫: Chèn ép, đè nén, gây áp lực nặng nề (như 血管を圧迫する, 財政を圧迫する).",
-            "D": "束縛: Ràng buộc, trói buộc tự do thân thể hoặc thời gian của người khác."
+            "C": "圧迫: Chèn ép, đè nén, gây áp lực nặng nề (như 血管を圧迫する, 財政を圧迫する)."
           }
         },
         {
@@ -736,7 +736,7 @@
           "options": [
             {
               "id": "A",
-              "text": "だいたい"
+              "text": "めったに"
             },
             {
               "id": "B",
@@ -748,15 +748,15 @@
             },
             {
               "id": "D",
-              "text": "めったに"
+              "text": "だいたい"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "D",
           "explanationVi": "おおむね: Đại khái, phần lớn, nhìn chung (khoảng 80-90% trở lên) = だいたい.",
           "distractorExplanations": {
+            "A": "めったに: Hiếm khi (đi với phủ định).",
             "B": "まったく: Hoàn toàn (hoàn toàn không, hoặc hoàn toàn đúng).",
-            "C": "かろうじて: Suýt soát, chật vật lắm mới làm được gì đó.",
-            "D": "めったに: Hiếm khi (đi với phủ định)."
+            "C": "かろうじて: Suýt soát, chật vật lắm mới làm được gì đó."
           }
         },
         {
@@ -769,7 +769,7 @@
           "options": [
             {
               "id": "A",
-              "text": "めったにない"
+              "text": "避けられない"
             },
             {
               "id": "B",
@@ -781,15 +781,15 @@
             },
             {
               "id": "D",
-              "text": "避けられない"
+              "text": "めったにない"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "D",
           "explanationVi": "まれだ（稀だ）: Hiếm có, rất ít khi xảy ra = めったにない.",
           "distractorExplanations": {
+            "A": "避けられない: Không thể tránh khỏi.",
             "B": "当たり前だ: Đương nhiên, chuyện bình thường hiển nhiên.",
-            "C": "日常茶飯事だ: Chuyện thường ngày ở huyện, xảy ra như cơm bữa.",
-            "D": "避けられない: Không thể tránh khỏi."
+            "C": "日常茶飯事だ: Chuyện thường ngày ở huyện, xảy ra như cơm bữa."
           }
         },
         {
@@ -802,7 +802,7 @@
           "options": [
             {
               "id": "A",
-              "text": "サイン"
+              "text": "抗議"
             },
             {
               "id": "B",
@@ -814,15 +814,15 @@
             },
             {
               "id": "D",
-              "text": "抗議"
+              "text": "サイン"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "D",
           "explanationVi": "合図（あいず）: Ra hiệu, gửi tín hiệu = サイン (sign / signal).",
           "distractorExplanations": {
+            "A": "抗議: Khiếu nại, phản đối.",
             "B": "拍手: Vỗ tay tán thưởng.",
-            "C": "挨拶: Chào hỏi, phát biểu chào mừng.",
-            "D": "抗議: Khiếu nại, phản đối."
+            "C": "挨拶: Chào hỏi, phát biểu chào mừng."
           }
         },
         {
@@ -835,7 +835,7 @@
           "options": [
             {
               "id": "A",
-              "text": "迷った"
+              "text": "喜んだ"
             },
             {
               "id": "B",
@@ -847,15 +847,15 @@
             },
             {
               "id": "D",
-              "text": "喜んだ"
+              "text": "迷った"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "D",
           "explanationVi": "ためらう: Lưỡng lự, do dự, phân vân chưa đưa ra quyết định ngay = 迷った (do dự, băn khoăn).",
           "distractorExplanations": {
+            "A": "喜んだ: Đã vui mừng hân hoan.",
             "B": "焦った: Vội vàng, cuống cuồng lo lắng.",
-            "C": "断った: Đã từ chối dứt khoát.",
-            "D": "喜んだ: Đã vui mừng hân hoan."
+            "C": "断った: Đã từ chối dứt khoát."
           }
         },
         {
@@ -868,11 +868,11 @@
           "options": [
             {
               "id": "A",
-              "text": "こっそり"
+              "text": "堂々と"
             },
             {
               "id": "B",
-              "text": "堂々と"
+              "text": "こっそり"
             },
             {
               "id": "C",
@@ -883,10 +883,10 @@
               "text": "着実に"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "B",
           "explanationVi": "ひそかに（密かに）: Lén lút, âm thầm, giấu giếm không để người khác biết = こっそり.",
           "distractorExplanations": {
-            "B": "堂々と: Đường hoàng, đàng hoàng công khai.",
+            "A": "堂々と: Đường hoàng, đàng hoàng công khai.",
             "C": "公然と: Công khai trước bàn dân thiên hạ.",
             "D": "着実に: Một cách vững chắc, từng bước vững chãi."
           }
@@ -901,11 +901,11 @@
           "options": [
             {
               "id": "A",
-              "text": "どんなに努力しても、他人の欠点ばかりをけなす態度は改めるべきだ。"
+              "text": "彼女は毎日部屋を綺麗にけなして、快適な空間を保っている。"
             },
             {
               "id": "B",
-              "text": "彼女は毎日部屋を綺麗にけなして、快適な空間を保っている。"
+              "text": "どんなに努力しても、他人の欠点ばかりをけなす態度は改めるべきだ。"
             },
             {
               "id": "C",
@@ -916,10 +916,10 @@
               "text": "素晴らしい成果を上げた同僚の功績を、皆で心からけなした。"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "B",
           "explanationVi": "けなす（貶す）: Chê bai thậm tệ, nói xấu, hạ thấp giá trị của người khác một cách ác ý. Câu A dùng đúng ngữ cảnh chê bai khuyết điểm của người khác.",
           "distractorExplanations": {
-            "B": "Dọn dẹp phòng sạch sẽ phải dùng 掃除する hoặc 片付ける, không dùng けなす.",
+            "A": "Dọn dẹp phòng sạch sẽ phải dùng 掃除する hoặc 片付ける, không dùng けなす.",
             "C": "Nước sông tràn làm ngập ruộng đồng phải dùng 飲み込む hoặc 押し流す, không dùng けなす.",
             "D": "Khen ngợi công tích đồng nghiệp phải dùng 称える (たたえる) hoặc 褒める (ほめる), けなす mang nghĩa ngược lại hoàn toàn."
           }
@@ -934,11 +934,11 @@
           "options": [
             {
               "id": "A",
-              "text": "新しく配属された事務員は、指示された書類整理を手際よくてきぱきと処理した。"
+              "text": "彼はいつも優柔不断で、何を決めるにもてきぱきと時間がかかってしまう。"
             },
             {
               "id": "B",
-              "text": "彼はいつも優柔不断で、何を決めるにもてきぱきと時間がかかってしまう。"
+              "text": "新しく配属された事務員は、指示された書類整理を手際よくてきぱきと処理した。"
             },
             {
               "id": "C",
@@ -949,10 +949,10 @@
               "text": "スープの味が薄かったので、塩とコショウをてきぱきと加えた。"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "B",
           "explanationVi": "てきぱき: Tháo vát, nhanh nhẹn, dứt khoát giải quyết công việc đâu ra đấy. Câu A mô tả xử lý tài liệu gọn gàng nhanh nhẹn là hoàn toàn chính xác.",
           "distractorExplanations": {
-            "B": "Do dự tốn nhiều thời gian thì mâu thuẫn trực tiếp với てきぱき (nhanh gọn).",
+            "A": "Do dự tốn nhiều thời gian thì mâu thuẫn trực tiếp với てきぱき (nhanh gọn).",
             "C": "Bị đau chân đi khập khiễng hoặc không đi được bình thường (chậm chạp), không dùng てきぱき.",
             "D": "Nêm gia vị vừa phải thì dùng さっと hoặc 少々, không dùng てきぱき."
           }
@@ -967,11 +967,11 @@
           "options": [
             {
               "id": "A",
-              "text": "この山は傾斜がなだらかなので、登山初心者や子供連れでも無理なく登れる。"
+              "text": "彼の性格はなだらかで、いつも些細なことで激しく怒り出す。"
             },
             {
               "id": "B",
-              "text": "彼の性格はなだらかで、いつも些細なことで激しく怒り出す。"
+              "text": "この山は傾斜がなだらかなので、登山初心者や子供連れでも無理なく登れる。"
             },
             {
               "id": "C",
@@ -982,10 +982,10 @@
               "text": "締め切りが迫っているため、プロジェクトの進行をなだらかに早めよう。"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "B",
           "explanationVi": "なだらか: Thoai thoải, là là, độ dốc nhẹ nhàng êm ả (dùng cho địa hình sườn núi, đồi dốc). Câu A mô tả sườn núi dốc thoai thoải rất dễ leo là chuẩn xác.",
           "distractorExplanations": {
-            "B": "Tính cách dễ nổi nóng mâu thuẫn với ý nhẹ nhàng ôn hòa (nếu nói tính tình hiền hậu dùng 穏やか).",
+            "A": "Tính cách dễ nổi nóng mâu thuẫn với ý nhẹ nhàng ôn hòa (nếu nói tính tình hiền hậu dùng 穏やか).",
             "C": "Đường hỏng hóc vỡ nát dùng ひどく hoặc 無残に, không dùng なだらか.",
             "D": "Đẩy nhanh tiến độ dùng 急速に hoặc 大幅に, なだらか không dùng bổ nghĩa cho động từ 早める."
           }
@@ -1000,11 +1000,11 @@
           "options": [
             {
               "id": "A",
-              "text": "隣の部屋から大音量の音楽が聞こえてくると、集中できずに気が散ってしまう。"
+              "text": "春になって庭の桜の花が満開になり、美しい気が散った。"
             },
             {
               "id": "B",
-              "text": "春になって庭の桜の花が満開になり、美しい気が散った。"
+              "text": "隣の部屋から大音量の音楽が聞こえてくると、集中できずに気が散ってしまう。"
             },
             {
               "id": "C",
@@ -1015,10 +1015,10 @@
               "text": "彼の無礼な態度を見ていたら、だんだん怒りで気が散ってきた。"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "B",
           "explanationVi": "気が散る（きがちる）: Bị phân tâm, xao nhãng, không thể tập trung tư tưởng vào việc đang làm. Câu A mô tả tiếng ồn làm mất tập trung là tự nhiên và chính xác.",
           "distractorExplanations": {
-            "B": "Hoa anh đào rơi rụng dùng 花が散る, không dùng 気が散る.",
+            "A": "Hoa anh đào rơi rụng dùng 花が散る, không dùng 気が散る.",
             "C": "Trút bỏ được gánh nặng lo âu dùng 安心した hoặc 気が晴れた, không dùng 気が散る.",
             "D": "Cơn giận bốc lên dùng 腹が立つ hoặc 怒りがこみ上げる, không dùng 気が散る."
           }
@@ -1033,11 +1033,11 @@
           "options": [
             {
               "id": "A",
-              "text": "この小型多機能ハサミは、段ボールの開封から細かい作業まで幅広く使えて重宝している。"
+              "text": "彼女は重宝な性格なので、誰とでもすぐに喧嘩をしてしまう。"
             },
             {
               "id": "B",
-              "text": "彼女は重宝な性格なので、誰とでもすぐに喧嘩をしてしまう。"
+              "text": "この小型多機能ハサミは、段ボールの開封から細かい作業まで幅広く使えて重宝している。"
             },
             {
               "id": "C",
@@ -1048,10 +1048,10 @@
               "text": "電車が遅延したせいで、大事な商談の時間に重宝に遅刻してしまった。"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "B",
           "explanationVi": "重宝（ちょうほう）: Tiện dụng, hữu ích, quý báu và được trân trọng sử dụng thường xuyên (như 重宝している / 重宝な道具). Câu A mô tả cây kéo đa năng tiện ích dùng hàng ngày là chuẩn xác.",
           "distractorExplanations": {
-            "B": "Tính cách hay gây gổ không thể dùng 重宝 (tính từ/danh từ chỉ sự tiện ích có ích).",
+            "A": "Tính cách hay gây gổ không thể dùng 重宝 (tính từ/danh từ chỉ sự tiện ích có ích).",
             "C": "Trăng sáng đẹp dùng 非常に hoặc とても, không dùng phó từ *重宝に.",
             "D": "Đến muộn giờ dùng 大幅に遅刻した, không dùng 重宝."
           }
@@ -1065,11 +1065,11 @@
           "options": [
             {
               "id": "A",
-              "text": "に相違ない"
+              "text": "っこない"
             },
             {
               "id": "B",
-              "text": "っこない"
+              "text": "に相違ない"
             },
             {
               "id": "C",
@@ -1080,10 +1080,10 @@
               "text": "わけがない"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "B",
           "explanationVi": "〜に相違ない（にそういない）: Chắc chắn là, không thể sai được (suy đoán chắc nịch dựa trên căn cứ rõ ràng: học chăm chỉ mỗi đêm).",
           "distractorExplanations": {
-            "B": "っこない: Tuyệt đối không thể nào (mang nghĩa phủ định hoàn toàn, trái ngược ngữ cảnh khen ngợi nỗ lực).",
+            "A": "っこない: Tuyệt đối không thể nào (mang nghĩa phủ định hoàn toàn, trái ngược ngữ cảnh khen ngợi nỗ lực).",
             "C": "にすぎない: Chỉ là... không hơn không kém (đánh giá thấp, không hợp ngữ cảnh).",
             "D": "わけがない: Lẽ nào lại... không có lý nào (phủ định tính khả thi, ngược ý câu)."
           }
@@ -1129,11 +1129,11 @@
           "options": [
             {
               "id": "A",
-              "text": "機に"
+              "text": "末に"
             },
             {
               "id": "B",
-              "text": "末に"
+              "text": "機に"
             },
             {
               "id": "C",
@@ -1144,10 +1144,10 @@
               "text": "ついでに"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "B",
           "explanationVi": "〜を機に（〜をきに）: Nhân dịp, lấy cơ hội/cột mốc quan trọng này làm động lực thay đổi (nhân dịp kỷ niệm 30 năm thành lập công ty).",
           "distractorExplanations": {
-            "B": "末に: Sau một hồi đắn đo/vất vả gian nan (thường dùng sau chuỗi hành động trăn trở, như 悩んだ末に).",
+            "A": "末に: Sau một hồi đắn đo/vất vả gian nan (thường dùng sau chuỗi hành động trăn trở, như 悩んだ末に).",
             "C": "あげくに: Rốt cuộc chuốc lấy kết cục tiêu cực sau thời gian dài.",
             "D": "ついでに: Tiện thể, nhân tiện làm việc phụ khi đang làm việc chính (không phù hợp với quyết định chiến lược đổi logo kỷ niệm 30 năm)."
           }
@@ -1161,11 +1161,11 @@
           "options": [
             {
               "id": "A",
-              "text": "できっこない"
+              "text": "できるに違いない"
             },
             {
               "id": "B",
-              "text": "できるに違いない"
+              "text": "できっこない"
             },
             {
               "id": "C",
@@ -1176,10 +1176,10 @@
               "text": "できるはずだ"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "B",
           "explanationVi": "〜っこない: Tuyệt đối không thể nào / làm sao mà làm được (khẩu ngữ khẳng định tính bất khả thi dựa trên thực tế không chuẩn bị gì).",
           "distractorExplanations": {
-            "B": "できるに違いない: Chắc chắn làm được (trái ngược hoàn toàn với tiền đề người nghiệp dư không tập luyện).",
+            "A": "できるに違いない: Chắc chắn làm được (trái ngược hoàn toàn với tiền đề người nghiệp dư không tập luyện).",
             "C": "できないことはない: Không phải là không làm được (khẳng định nhẹ có thể làm được, mâu thuẫn).",
             "D": "できるはずだ: Đương nhiên làm được (mâu thuẫn tiền đề)."
           }
@@ -1193,11 +1193,11 @@
           "options": [
             {
               "id": "A",
-              "text": "にあたって"
+              "text": "につれて"
             },
             {
               "id": "B",
-              "text": "につれて"
+              "text": "にあたって"
             },
             {
               "id": "C",
@@ -1208,10 +1208,10 @@
               "text": "に反して"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "B",
           "explanationVi": "〜にあたって: Nhân dịp, khi chuẩn bị bắt đầu một sự kiện quan trọng có tính bước ngoặt (trước khi khởi công xây nhà máy mới).",
           "distractorExplanations": {
-            "B": "につれて: Càng ngày càng... kéo theo sự biến đổi tỷ lệ thuận.",
+            "A": "につれて: Càng ngày càng... kéo theo sự biến đổi tỷ lệ thuận.",
             "C": "にしては: Tuy... nhưng mà lại (ngạc nhiên trái với tiêu chuẩn thông thường).",
             "D": "に反して: Trái với dự đoán/kỳ vọng."
           }
@@ -1225,11 +1225,11 @@
           "options": [
             {
               "id": "A",
-              "text": "まい"
+              "text": "ものか"
             },
             {
               "id": "B",
-              "text": "ものか"
+              "text": "まい"
             },
             {
               "id": "C",
@@ -1240,10 +1240,10 @@
               "text": "ことか"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "B",
           "explanationVi": "〜まい: Quyết không... (ý chí phủ định mạnh mẽ của người nói). Động từ nhóm 1 破る kết hợp thành 破るまい (quyết không phá vỡ lời thề).",
           "distractorExplanations": {
-            "B": "ものか: Tuyệt đối không bao giờ (khẩu ngữ thách thức, không đi kèm trực tiếp với '心に誓った' như cấu trúc 〜まいと誓う).",
+            "A": "ものか: Tuyệt đối không bao giờ (khẩu ngữ thách thức, không đi kèm trực tiếp với '心に誓った' như cấu trúc 〜まいと誓う).",
             "C": "べきだ: Nên làm (khuyên bảo, không phải ý chí phủ định bảo vệ lời hứa).",
             "D": "ことか: Biết bao nhiêu (cảm thán, không hợp ngữ pháp)."
           }
@@ -1257,7 +1257,7 @@
           "options": [
             {
               "id": "A",
-              "text": "たまものにほかならない"
+              "text": "どころではない"
             },
             {
               "id": "B",
@@ -1265,18 +1265,18 @@
             },
             {
               "id": "C",
-              "text": "どころではない"
+              "text": "たまものにほかならない"
             },
             {
               "id": "D",
               "text": "おそれがある"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "C",
           "explanationVi": "〜にほかならない: Chính là, không gì khác ngoài... (khẳng định bản chất duy nhất: chính là kết tinh của nỗ lực bền bỉ hàng ngày).",
           "distractorExplanations": {
+            "A": "どころではない: Không phải lúc để làm gì (không hợp ngữ nghĩa).",
             "B": "わけではない: Không hẳn là (phủ định một phần, làm giảm giá trị nỗ lực).",
-            "C": "どころではない: Không phải lúc để làm gì (không hợp ngữ nghĩa).",
             "D": "おそれがある: Có e ngại/nguy cơ xảy ra điều xấu (không đi với thành quả tốt đẹp)."
           }
         },
@@ -1289,7 +1289,7 @@
           "options": [
             {
               "id": "A",
-              "text": "たまらない"
+              "text": "ならない"
             },
             {
               "id": "B",
@@ -1297,18 +1297,18 @@
             },
             {
               "id": "C",
-              "text": "ならない"
+              "text": "たまらない"
             },
             {
               "id": "D",
               "text": "すまない"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "C",
           "explanationVi": "〜たくてたまらない: Rất muốn... / vô cùng thèm muốn đến mức không kìm lòng được (biểu thị mong muốn thể xác/cảm xúc mãnh liệt của ngôi thứ nhất).",
           "distractorExplanations": {
+            "A": "ならない: Thường đi với cảm xúc lo âu, băn khoăn tự nhiên khởi phát (như 心配でならない), ít đi với 〜たくて.",
             "B": "かなわない: Không thể chịu nổi sự bất tiện/phiền toái do ngoại cảnh gây ra (như うるさくてかなわない).",
-            "C": "ならない: Thường đi với cảm xúc lo âu, băn khoăn tự nhiên khởi phát (như 心配でならない), ít đi với 〜たくて.",
             "D": "すまない: Có lỗi, áy náy (không tạo thành mẫu ngữ pháp chỉ mong muốn)."
           }
         },
@@ -1321,7 +1321,7 @@
           "options": [
             {
               "id": "A",
-              "text": "沿って"
+              "text": "関して"
             },
             {
               "id": "B",
@@ -1329,18 +1329,18 @@
             },
             {
               "id": "C",
-              "text": "関して"
+              "text": "沿って"
             },
             {
               "id": "D",
               "text": "わたって"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "C",
           "explanationVi": "〜に沿って（〜にそって）: Men theo, tuân thủ đúng theo đường lối, quy chuẩn, phương châm đã định (theo đúng triết lý cơ bản và quy tắc ứng xử của công ty).",
           "distractorExplanations": {
+            "A": "関して: Liên quan đến (chỉ nói về chủ đề thông tin, không mang nghĩa tuân thủ hành vi).",
             "B": "めぐって: Xoay quanh tranh chấp/bàn tán về một chủ đề (như 遺産をめぐって争う).",
-            "C": "関して: Liên quan đến (chỉ nói về chủ đề thông tin, không mang nghĩa tuân thủ hành vi).",
             "D": "わたって: Suốt cả một không gian rộng lớn hoặc khoảng thời gian dài."
           }
         },
@@ -1353,7 +1353,7 @@
           "options": [
             {
               "id": "A",
-              "text": "契機に"
+              "text": "もとに"
             },
             {
               "id": "B",
@@ -1361,18 +1361,18 @@
             },
             {
               "id": "C",
-              "text": "もとに"
+              "text": "契機に"
             },
             {
               "id": "D",
               "text": "先立って"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "C",
           "explanationVi": "〜を契機に（〜をけいきに）: Lấy biến cố/sự kiện làm mốc thời điểm đánh dấu sự thay đổi tích cực trong lối sống hoặc tổ chức (lấy việc bị bác sĩ cảnh báo làm cột mốc bắt đầu chạy bộ).",
           "distractorExplanations": {
+            "A": "もとに: Dựa trên nền tảng/chất liệu nguyên bản.",
             "B": "中心に: Lấy cái gì làm trung tâm/trọng tâm hoạt động.",
-            "C": "もとに: Dựa trên nền tảng/chất liệu nguyên bản.",
             "D": "先立って: Trước khi tiến hành một sự kiện lớn (chuẩn bị trước)."
           }
         },
@@ -1385,7 +1385,7 @@
           "options": [
             {
               "id": "A",
-              "text": "ぬき"
+              "text": "がち"
             },
             {
               "id": "B",
@@ -1393,18 +1393,18 @@
             },
             {
               "id": "C",
-              "text": "がち"
+              "text": "ぬき"
             },
             {
               "id": "D",
               "text": "げ"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "C",
           "explanationVi": "〜ぬきで（〜抜きで）: Bỏ qua, dẹp sang một bên, không tính tới (gạt chuyện đùa giỡn sang một bên để thảo luận nghiêm túc).",
           "distractorExplanations": {
+            "A": "がち: Hay bị, có xu hướng dễ xảy ra (như 留守がち, 遅刻しがち).",
             "B": "ぎみ: Có triệu chứng, hơi có vẻ tiêu cực (như 風邪ぎみ).",
-            "C": "がち: Hay bị, có xu hướng dễ xảy ra (như 留守がち, 遅刻しがち).",
             "D": "げ: Trông có vẻ (như 悲しげ, 自慢げ)."
           }
         },
@@ -1417,7 +1417,7 @@
           "options": [
             {
               "id": "A",
-              "text": "通じて"
+              "text": "応じて"
             },
             {
               "id": "B",
@@ -1425,18 +1425,18 @@
             },
             {
               "id": "C",
-              "text": "応じて"
+              "text": "通じて"
             },
             {
               "id": "D",
               "text": "対して"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "C",
           "explanationVi": "〜を通じて（〜をつうじて）: Thông qua toàn bộ quá trình hoặc phương tiện trung gian (thông qua suốt 1 năm sống du học).",
           "distractorExplanations": {
+            "A": "応じて: Tùy theo, tương ứng với điều kiện (như 予算に応じて).",
             "B": "おいて: Tại địa điểm hoặc lĩnh vực (như 会場において).",
-            "C": "応じて: Tùy theo, tương ứng với điều kiện (như 予算に応じて).",
             "D": "対して: Đối với, đối nghịch lại với (như 質問に対して)."
           }
         },
@@ -1610,7 +1610,7 @@
           "options": [
             {
               "id": "A",
-              "text": "にほかならない"
+              "text": "にすぎない"
             },
             {
               "id": "B",
@@ -1618,18 +1618,18 @@
             },
             {
               "id": "C",
-              "text": "にすぎない"
+              "text": "にほかならない"
             },
             {
               "id": "D",
               "text": "おそれがある"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "C",
           "explanationVi": "Cấu trúc 〜にほかならない (chính là, không gì khác ngoài...). Đoạn văn khẳng định việc tăng năng suất nhờ AI chắc chắn là điều đáng hoan nghênh (大いに歓迎すべきことにほかならない).",
           "distractorExplanations": {
+            "A": "にすぎない: Chỉ là... không đáng kể (hạ thấp ý nghĩa, chưa phù hợp với ý khẳng định ở đoạn 1).",
             "B": "わけがない: Tuyệt đối không thể (phủ định, trái ngữ cảnh tích cực).",
-            "C": "にすぎない: Chỉ là... không đáng kể (hạ thấp ý nghĩa, chưa phù hợp với ý khẳng định ở đoạn 1).",
             "D": "おそれがある: Có nguy cơ xảy ra điều xấu (không đi với điều tích cực 歓迎すべきこと)."
           }
         },
@@ -1676,7 +1676,7 @@
           "options": [
             {
               "id": "A",
-              "text": "ならでは"
+              "text": "にとって"
             },
             {
               "id": "B",
@@ -1684,18 +1684,18 @@
             },
             {
               "id": "C",
-              "text": "にとって"
+              "text": "ならでは"
             },
             {
               "id": "D",
               "text": "として"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "C",
           "explanationVi": "Mẫu ngữ pháp 〜ならでは (chỉ có ở... / chỉ riêng... mới có). '生身の人間ならでは発揮できない' (chỉ có con người bằng xương bằng thịt mới có thể phát huy).",
           "distractorExplanations": {
+            "A": "にとって: Đối với (chỉ góc độ lập trường, không diễn tả tính độc nhất như ならでは).",
             "B": "ならではの: Đi trực tiếp bổ nghĩa cho danh từ phía sau (như 人間ならではの強み), ở đây đi trước động từ 発揮できない nên phải dùng ならでは.",
-            "C": "にとって: Đối với (chỉ góc độ lập trường, không diễn tả tính độc nhất như ならでは).",
             "D": "として: Với tư cách là (không diễn tả sự độc quyền năng lực)."
           }
         },
@@ -1709,7 +1709,7 @@
           "options": [
             {
               "id": "A",
-              "text": "こそが"
+              "text": "さえも"
             },
             {
               "id": "B",
@@ -1717,18 +1717,18 @@
             },
             {
               "id": "C",
-              "text": "さえも"
+              "text": "こそが"
             },
             {
               "id": "D",
               "text": "までも"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "C",
           "explanationVi": "Trợ từ nhấn mạnh 〜こそが (chính là...). '意思決定を下す力こそが、...求められているのではないだろうか' (Chính năng lực đưa ra quyết định cuối cùng mới là điều được đòi hỏi).",
           "distractorExplanations": {
+            "A": "さえも: Ngay cả... cũng (nhấn mạnh mức độ cực đoan).",
             "B": "ばかりが: Chỉ toàn là (mang sắc thái tiêu cực hoặc hạn định thu hẹp).",
-            "C": "さえも: Ngay cả... cũng (nhấn mạnh mức độ cực đoan).",
             "D": "までも: Đến cả... (chỉ phạm vi lan tới, không hợp để nhấn mạnh chủ ngữ trọng tâm)."
           }
         },
@@ -1742,7 +1742,7 @@
           "options": [
             {
               "id": "A",
-              "text": "つつも"
+              "text": "きりに"
             },
             {
               "id": "B",
@@ -1750,18 +1750,18 @@
             },
             {
               "id": "C",
-              "text": "きりに"
+              "text": "つつも"
             },
             {
               "id": "D",
               "text": "げに"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "C",
           "explanationVi": "Cấu trúc liên kết 〜つつも (vừa... nhưng đồng thời...). 'AIの長所を賢く活用しつつも、人間ならではの創造性や判断力を磨き続ける' (Vừa tận dụng thông minh thế mạnh của AI, nhưng đồng thời vẫn phải mài giũa óc phán đoán sáng tạo của con người).",
           "distractorExplanations": {
+            "A": "きりに: Sau khi... không có gì tiếp diễn (như 出かけたきり).",
             "B": "ながらに: Giữ nguyên trạng thái (như 涙ながらに, 生まれながらに).",
-            "C": "きりに: Sau khi... không có gì tiếp diễn (như 出かけたきり).",
             "D": "げに: Trông có vẻ (như 自慢げに)."
           }
         },
@@ -1775,7 +1775,7 @@
           "options": [
             {
               "id": "A",
-              "text": "社外で作業する際は、フリーWi-Fiを使わず指定された安全な通信手段を用いること。"
+              "text": "専用端末の貸与を希望する社員は、事前にセキュリティ講習を受講すること。"
             },
             {
               "id": "B",
@@ -1783,18 +1783,18 @@
             },
             {
               "id": "C",
-              "text": "専用端末の貸与を希望する社員は、事前にセキュリティ講習を受講すること。"
+              "text": "社外で作業する際は、フリーWi-Fiを使わず指定された安全な通信手段を用いること。"
             },
             {
               "id": "D",
               "text": "カフェなどの公共の場所では、長時間のパソコン作業を控えること。"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "C",
           "explanationVi": "Thông báo nhấn mạnh: cấm tuyệt đối kết nối Wi-Fi công cộng không mã hóa tại quán cà phê ('公衆無線LANへの接続は厳禁') và bắt buộc dùng thiết bị phát Wi-Fi hoặc tethering được cấp phát an toàn.",
           "distractorExplanations": {
+            "A": "Không đề cập đến việc phải học khóa tập huấn mới được mượn máy tính.",
             "B": "Thông báo không yêu cầu ngừng làm việc từ xa (テレワーク) mà chỉ quy định về an toàn bảo mật mạng.",
-            "C": "Không đề cập đến việc phải học khóa tập huấn mới được mượn máy tính.",
             "D": "Không cấm ngồi làm việc lâu ở quán cà phê, cốt lõi là cấm dùng mạng Wi-Fi chùa không bảo mật."
           }
         },
@@ -1808,7 +1808,7 @@
           "options": [
             {
               "id": "A",
-              "text": "自分が信じたい情報だけでなく、根拠や発信元を吟味して客観的に判断すること。"
+              "text": "自分と異なる意見を持つ発信者に対して、積極的に反論のコメントを送ること。"
             },
             {
               "id": "B",
@@ -1816,18 +1816,18 @@
             },
             {
               "id": "C",
-              "text": "自分と異なる意見を持つ発信者に対して、積極的に反論のコメントを送ること。"
+              "text": "自分が信じたい情報だけでなく、根拠や発信元を吟味して客観的に判断すること。"
             },
             {
               "id": "D",
               "text": "公的機関が発表した公式データ以外の情報には一切触れないようにすること。"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "C",
           "explanationVi": "Tác giả cảnh báo xu hướng tâm lý chỉ tin những gì mình muốn tin (確証バイアス) và nhấn mạnh sự cần thiết của tư duy phản biện: dừng lại kiểm tra dụng ý của người đăng và nguồn gốc dữ liệu khách quan.",
           "distractorExplanations": {
+            "A": "Không hề đề cập đến việc đi tranh luận hay phản bác gay gắt người khác.",
             "B": "Tác giả không khuyên hạn chế thời gian dùng mạng xã hội mà khuyên nâng cao năng lực thẩm định thông tin.",
-            "C": "Không hề đề cập đến việc đi tranh luận hay phản bác gay gắt người khác.",
             "D": "Không khuyên tuyệt đối tẩy chay thông tin không chính thống, mà là phải có tư duy chọn lọc và kiểm chứng."
           }
         },

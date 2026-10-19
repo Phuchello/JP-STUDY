@@ -99,7 +99,14 @@ jobs:
         run: |
           python -m unittest discover -s scripts/tests
 
-      # 13. Produce machine-readable QA summary
+      # 13. Run fast browser E2E smoke tests
+      - name: Run fast browser E2E smoke tests
+        run: |
+          npm install playwright
+          npx playwright install chromium --with-deps
+          node scripts/tests/smoke_browser_e2e.cjs
+
+      # 14. Produce machine-readable QA summary
       - name: Generate machine-readable CI QA summary
         run: |
           python scripts/ci/generate_ci_qa_summary.py

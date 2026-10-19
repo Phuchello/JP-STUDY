@@ -1790,7 +1790,7 @@
             },
             {
               "id": "B",
-              "text": "半面"
+              "text": "ついでに"
             },
             {
               "id": "C",
@@ -1805,7 +1805,7 @@
           "explanationVi": "〜反面（trái lại, nhưng ngược lại tồn tại song song mặt tiêu cực）: Đi kèm tính từ な: 便利な反面 (tiện lợi nhưng mặt trái là chi phí sinh hoạt đắt đỏ).",
           "distractorExplanations": {
             "A": "〜に反して: Trái với (kỳ vọng, dự đoán: 予想に反して), không dùng bổ nghĩa cho tính từ な.",
-            "B": "半面: Viết sai chính tả chữ 反 thành 半.",
+            "B": "ついでに: Tiện thể/nhân tiện làm việc gì đó (ví dụ: 買い物のついでに), không biểu đạt mặt trái đối lập.",
             "C": "反対に: Phó từ đứng độc lập (ngược lại), không kết hợp với 便利な thành 便利な反対に."
           },
           "difficultyEstimate": 2,

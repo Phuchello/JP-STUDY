@@ -1,0 +1,778 @@
+{
+  "totalItems": 75,
+  "beforeDistribution": {
+    "B": 8,
+    "A": 59,
+    "C": 7,
+    "D": 1
+  },
+  "afterDistribution": {
+    "B": 19,
+    "D": 18,
+    "C": 19,
+    "A": 19
+  },
+  "totalReordered": 40,
+  "reorderedItems": [
+    {
+      "questionId": "N2_04_M1_02",
+      "originalCorrectAnswer": "A",
+      "newCorrectAnswer": "D",
+      "correctText": "きょうじゅ",
+      "swappedDistractorText": "ごうじゅ",
+      "originalOptions": {
+        "A": "きょうじゅ",
+        "B": "こうじゅ",
+        "C": "きょうしゅ",
+        "D": "ごうじゅ"
+      },
+      "newOptions": {
+        "A": "ごうじゅ",
+        "B": "こうじゅ",
+        "C": "きょうしゅ",
+        "D": "きょうじゅ"
+      }
+    },
+    {
+      "questionId": "N2_04_M1_04",
+      "originalCorrectAnswer": "A",
+      "newCorrectAnswer": "D",
+      "correctText": "ちくせき",
+      "swappedDistractorText": "ちょくせき",
+      "originalOptions": {
+        "A": "ちくせき",
+        "B": "ちゅうせき",
+        "C": "ちくしゃく",
+        "D": "ちょくせき"
+      },
+      "newOptions": {
+        "A": "ちょくせき",
+        "B": "ちゅうせき",
+        "C": "ちくしゃく",
+        "D": "ちくせき"
+      }
+    },
+    {
+      "questionId": "N2_04_M1_05",
+      "originalCorrectAnswer": "A",
+      "newCorrectAnswer": "D",
+      "correctText": "そくしん",
+      "swappedDistractorText": "しょうしん",
+      "originalOptions": {
+        "A": "そくしん",
+        "B": "ぞくしん",
+        "C": "そくじん",
+        "D": "しょうしん"
+      },
+      "newOptions": {
+        "A": "しょうしん",
+        "B": "ぞくしん",
+        "C": "そくじん",
+        "D": "そくしん"
+      }
+    },
+    {
+      "questionId": "N2_04_M2_02",
+      "originalCorrectAnswer": "A",
+      "newCorrectAnswer": "D",
+      "correctText": "普及",
+      "swappedDistractorText": "敷及",
+      "originalOptions": {
+        "A": "普及",
+        "B": "普給",
+        "C": "布及",
+        "D": "敷及"
+      },
+      "newOptions": {
+        "A": "敷及",
+        "B": "普給",
+        "C": "布及",
+        "D": "普及"
+      }
+    },
+    {
+      "questionId": "N2_04_M2_03",
+      "originalCorrectAnswer": "A",
+      "newCorrectAnswer": "D",
+      "correctText": "慎重",
+      "swappedDistractorText": "深重",
+      "originalOptions": {
+        "A": "慎重",
+        "B": "真重",
+        "C": "慎調",
+        "D": "深重"
+      },
+      "newOptions": {
+        "A": "深重",
+        "B": "真重",
+        "C": "慎調",
+        "D": "慎重"
+      }
+    },
+    {
+      "questionId": "N2_04_M2_05",
+      "originalCorrectAnswer": "A",
+      "newCorrectAnswer": "D",
+      "correctText": "厳格",
+      "swappedDistractorText": "険格",
+      "originalOptions": {
+        "A": "厳格",
+        "B": "厳確",
+        "C": "原格",
+        "D": "険格"
+      },
+      "newOptions": {
+        "A": "険格",
+        "B": "厳確",
+        "C": "原格",
+        "D": "厳格"
+      }
+    },
+    {
+      "questionId": "N2_04_M3_04",
+      "originalCorrectAnswer": "A",
+      "newCorrectAnswer": "D",
+      "correctText": "連",
+      "swappedDistractorText": "親",
+      "originalOptions": {
+        "A": "連",
+        "B": "団",
+        "C": "結",
+        "D": "親"
+      },
+      "newOptions": {
+        "A": "親",
+        "B": "団",
+        "C": "結",
+        "D": "連"
+      }
+    },
+    {
+      "questionId": "N2_04_M3_05",
+      "originalCorrectAnswer": "A",
+      "newCorrectAnswer": "D",
+      "correctText": "再",
+      "swappedDistractorText": "重",
+      "originalOptions": {
+        "A": "再",
+        "B": "復",
+        "C": "新",
+        "D": "重"
+      },
+      "newOptions": {
+        "A": "重",
+        "B": "復",
+        "C": "新",
+        "D": "再"
+      }
+    },
+    {
+      "questionId": "N2_04_M4_01",
+      "originalCorrectAnswer": "A",
+      "newCorrectAnswer": "D",
+      "correctText": "連携",
+      "swappedDistractorText": "連続",
+      "originalOptions": {
+        "A": "連携",
+        "B": "連行",
+        "C": "連帯",
+        "D": "連続"
+      },
+      "newOptions": {
+        "A": "連続",
+        "B": "連行",
+        "C": "連帯",
+        "D": "連携"
+      }
+    },
+    {
+      "questionId": "N2_04_M4_03",
+      "originalCorrectAnswer": "A",
+      "newCorrectAnswer": "D",
+      "correctText": "遂行",
+      "swappedDistractorText": "励行",
+      "originalOptions": {
+        "A": "遂行",
+        "B": "履行",
+        "C": "敢行",
+        "D": "励行"
+      },
+      "newOptions": {
+        "A": "励行",
+        "B": "履行",
+        "C": "敢行",
+        "D": "遂行"
+      }
+    },
+    {
+      "questionId": "N2_04_M4_05",
+      "originalCorrectAnswer": "A",
+      "newCorrectAnswer": "D",
+      "correctText": "譲歩",
+      "swappedDistractorText": "容認",
+      "originalOptions": {
+        "A": "譲歩",
+        "B": "妥協",
+        "C": "協調",
+        "D": "容認"
+      },
+      "newOptions": {
+        "A": "容認",
+        "B": "妥協",
+        "C": "協調",
+        "D": "譲歩"
+      }
+    },
+    {
+      "questionId": "N2_04_M4_06",
+      "originalCorrectAnswer": "A",
+      "newCorrectAnswer": "D",
+      "correctText": "軌道",
+      "swappedDistractorText": "路線",
+      "originalOptions": {
+        "A": "軌道",
+        "B": "航路",
+        "C": "順路",
+        "D": "路線"
+      },
+      "newOptions": {
+        "A": "路線",
+        "B": "航路",
+        "C": "順路",
+        "D": "軌道"
+      }
+    },
+    {
+      "questionId": "N2_04_M4_07",
+      "originalCorrectAnswer": "A",
+      "newCorrectAnswer": "D",
+      "correctText": "抑制",
+      "swappedDistractorText": "束縛",
+      "originalOptions": {
+        "A": "抑制",
+        "B": "制圧",
+        "C": "圧迫",
+        "D": "束縛"
+      },
+      "newOptions": {
+        "A": "束縛",
+        "B": "制圧",
+        "C": "圧迫",
+        "D": "抑制"
+      }
+    },
+    {
+      "questionId": "N2_04_M5_01",
+      "originalCorrectAnswer": "A",
+      "newCorrectAnswer": "D",
+      "correctText": "だいたい",
+      "swappedDistractorText": "めったに",
+      "originalOptions": {
+        "A": "だいたい",
+        "B": "まったく",
+        "C": "かろうじて",
+        "D": "めったに"
+      },
+      "newOptions": {
+        "A": "めったに",
+        "B": "まったく",
+        "C": "かろうじて",
+        "D": "だいたい"
+      }
+    },
+    {
+      "questionId": "N2_04_M5_02",
+      "originalCorrectAnswer": "A",
+      "newCorrectAnswer": "D",
+      "correctText": "めったにない",
+      "swappedDistractorText": "避けられない",
+      "originalOptions": {
+        "A": "めったにない",
+        "B": "当たり前だ",
+        "C": "日常茶飯事だ",
+        "D": "避けられない"
+      },
+      "newOptions": {
+        "A": "避けられない",
+        "B": "当たり前だ",
+        "C": "日常茶飯事だ",
+        "D": "めったにない"
+      }
+    },
+    {
+      "questionId": "N2_04_M5_03",
+      "originalCorrectAnswer": "A",
+      "newCorrectAnswer": "D",
+      "correctText": "サイン",
+      "swappedDistractorText": "抗議",
+      "originalOptions": {
+        "A": "サイン",
+        "B": "拍手",
+        "C": "挨拶",
+        "D": "抗議"
+      },
+      "newOptions": {
+        "A": "抗議",
+        "B": "拍手",
+        "C": "挨拶",
+        "D": "サイン"
+      }
+    },
+    {
+      "questionId": "N2_04_M5_04",
+      "originalCorrectAnswer": "A",
+      "newCorrectAnswer": "D",
+      "correctText": "迷った",
+      "swappedDistractorText": "喜んだ",
+      "originalOptions": {
+        "A": "迷った",
+        "B": "焦った",
+        "C": "断った",
+        "D": "喜んだ"
+      },
+      "newOptions": {
+        "A": "喜んだ",
+        "B": "焦った",
+        "C": "断った",
+        "D": "迷った"
+      }
+    },
+    {
+      "questionId": "N2_04_M5_05",
+      "originalCorrectAnswer": "A",
+      "newCorrectAnswer": "B",
+      "correctText": "こっそり",
+      "swappedDistractorText": "堂々と",
+      "originalOptions": {
+        "A": "こっそり",
+        "B": "堂々と",
+        "C": "公然と",
+        "D": "着実に"
+      },
+      "newOptions": {
+        "A": "堂々と",
+        "B": "こっそり",
+        "C": "公然と",
+        "D": "着実に"
+      }
+    },
+    {
+      "questionId": "N2_04_M6_01",
+      "originalCorrectAnswer": "A",
+      "newCorrectAnswer": "B",
+      "correctText": "どんなに努力しても、他人の欠点ばかりをけなす態度は改めるべきだ。",
+      "swappedDistractorText": "彼女は毎日部屋を綺麗にけなして、快適な空間を保っている。",
+      "originalOptions": {
+        "A": "どんなに努力しても、他人の欠点ばかりをけなす態度は改めるべきだ。",
+        "B": "彼女は毎日部屋を綺麗にけなして、快適な空間を保っている。",
+        "C": "激しい雨で川の水が氾濫し、周囲の田畑をけなしてしまった。",
+        "D": "素晴らしい成果を上げた同僚の功績を、皆で心からけなした。"
+      },
+      "newOptions": {
+        "A": "彼女は毎日部屋を綺麗にけなして、快適な空間を保っている。",
+        "B": "どんなに努力しても、他人の欠点ばかりをけなす態度は改めるべきだ。",
+        "C": "激しい雨で川の水が氾濫し、周囲の田畑をけなしてしまった。",
+        "D": "素晴らしい成果を上げた同僚の功績を、皆で心からけなした。"
+      }
+    },
+    {
+      "questionId": "N2_04_M6_02",
+      "originalCorrectAnswer": "A",
+      "newCorrectAnswer": "B",
+      "correctText": "新しく配属された事務員は、指示された書類整理を手際よくてきぱきと処理した。",
+      "swappedDistractorText": "彼はいつも優柔不断で、何を決めるにもてきぱきと時間がかかってしまう。",
+      "originalOptions": {
+        "A": "新しく配属された事務員は、指示された書類整理を手際よくてきぱきと処理した。",
+        "B": "彼はいつも優柔不断で、何を決めるにもてきぱきと時間がかかってしまう。",
+        "C": "階段から落ちて足を怪我してしまい、痛くててきぱきと歩くことができない。",
+        "D": "スープの味が薄かったので、塩とコショウをてきぱきと加えた。"
+      },
+      "newOptions": {
+        "A": "彼はいつも優柔不断で、何を決めるにもてきぱきと時間がかかってしまう。",
+        "B": "新しく配属された事務員は、指示された書類整理を手際よくてきぱきと処理した。",
+        "C": "階段から落ちて足を怪我してしまい、痛くててきぱきと歩くことができない。",
+        "D": "スープの味が薄かったので、塩とコショウをてきぱきと加えた。"
+      }
+    },
+    {
+      "questionId": "N2_04_M6_03",
+      "originalCorrectAnswer": "A",
+      "newCorrectAnswer": "B",
+      "correctText": "この山は傾斜がなだらかなので、登山初心者や子供連れでも無理なく登れる。",
+      "swappedDistractorText": "彼の性格はなだらかで、いつも些細なことで激しく怒り出す。",
+      "originalOptions": {
+        "A": "この山は傾斜がなだらかなので、登山初心者や子供連れでも無理なく登れる。",
+        "B": "彼の性格はなだらかで、いつも些細なことで激しく怒り出す。",
+        "C": "道路工事のせいでアスファルトがなだらかに壊れて通行止めになった。",
+        "D": "締め切りが迫っているため、プロジェクトの進行をなだらかに早めよう。"
+      },
+      "newOptions": {
+        "A": "彼の性格はなだらかで、いつも些細なことで激しく怒り出す。",
+        "B": "この山は傾斜がなだらかなので、登山初心者や子供連れでも無理なく登れる。",
+        "C": "道路工事のせいでアスファルトがなだらかに壊れて通行止めになった。",
+        "D": "締め切りが迫っているため、プロジェクトの進行をなだらかに早めよう。"
+      }
+    },
+    {
+      "questionId": "N2_04_M6_04",
+      "originalCorrectAnswer": "A",
+      "newCorrectAnswer": "B",
+      "correctText": "隣の部屋から大音量の音楽が聞こえてくると、集中できずに気が散ってしまう。",
+      "swappedDistractorText": "春になって庭の桜の花が満開になり、美しい気が散った。",
+      "originalOptions": {
+        "A": "隣の部屋から大音量の音楽が聞こえてくると、集中できずに気が散ってしまう。",
+        "B": "春になって庭の桜の花が満開になり、美しい気が散った。",
+        "C": "長年の悩みが解決して、ようやく胸のつかえが取れて気が散った。",
+        "D": "彼の無礼な態度を見ていたら、だんだん怒りで気が散ってきた。"
+      },
+      "newOptions": {
+        "A": "春になって庭の桜の花が満開になり、美しい気が散った。",
+        "B": "隣の部屋から大音量の音楽が聞こえてくると、集中できずに気が散ってしまう。",
+        "C": "長年の悩みが解決して、ようやく胸のつかえが取れて気が散った。",
+        "D": "彼の無礼な態度を見ていたら、だんだん怒りで気が散ってきた。"
+      }
+    },
+    {
+      "questionId": "N2_04_M6_05",
+      "originalCorrectAnswer": "A",
+      "newCorrectAnswer": "B",
+      "correctText": "この小型多機能ハサミは、段ボールの開封から細かい作業まで幅広く使えて重宝している。",
+      "swappedDistractorText": "彼女は重宝な性格なので、誰とでもすぐに喧嘩をしてしまう。",
+      "originalOptions": {
+        "A": "この小型多機能ハサミは、段ボールの開封から細かい作業まで幅広く使えて重宝している。",
+        "B": "彼女は重宝な性格なので、誰とでもすぐに喧嘩をしてしまう。",
+        "C": "今夜の月は重宝に美しく輝いていて、夜空に見とれてしまった。",
+        "D": "電車が遅延したせいで、大事な商談の時間に重宝に遅刻してしまった。"
+      },
+      "newOptions": {
+        "A": "彼女は重宝な性格なので、誰とでもすぐに喧嘩をしてしまう。",
+        "B": "この小型多機能ハサミは、段ボールの開封から細かい作業まで幅広く使えて重宝している。",
+        "C": "今夜の月は重宝に美しく輝いていて、夜空に見とれてしまった。",
+        "D": "電車が遅延したせいで、大事な商談の時間に重宝に遅刻してしまった。"
+      }
+    },
+    {
+      "questionId": "N2_04_M7_01",
+      "originalCorrectAnswer": "A",
+      "newCorrectAnswer": "B",
+      "correctText": "に相違ない",
+      "swappedDistractorText": "っこない",
+      "originalOptions": {
+        "A": "に相違ない",
+        "B": "っこない",
+        "C": "にすぎない",
+        "D": "わけがない"
+      },
+      "newOptions": {
+        "A": "っこない",
+        "B": "に相違ない",
+        "C": "にすぎない",
+        "D": "わけがない"
+      }
+    },
+    {
+      "questionId": "N2_04_M7_03",
+      "originalCorrectAnswer": "A",
+      "newCorrectAnswer": "B",
+      "correctText": "機に",
+      "swappedDistractorText": "末に",
+      "originalOptions": {
+        "A": "機に",
+        "B": "末に",
+        "C": "あげくに",
+        "D": "ついでに"
+      },
+      "newOptions": {
+        "A": "末に",
+        "B": "機に",
+        "C": "あげくに",
+        "D": "ついでに"
+      }
+    },
+    {
+      "questionId": "N2_04_M7_04",
+      "originalCorrectAnswer": "A",
+      "newCorrectAnswer": "B",
+      "correctText": "できっこない",
+      "swappedDistractorText": "できるに違いない",
+      "originalOptions": {
+        "A": "できっこない",
+        "B": "できるに違いない",
+        "C": "できないことはない",
+        "D": "できるはずだ"
+      },
+      "newOptions": {
+        "A": "できるに違いない",
+        "B": "できっこない",
+        "C": "できないことはない",
+        "D": "できるはずだ"
+      }
+    },
+    {
+      "questionId": "N2_04_M7_05",
+      "originalCorrectAnswer": "A",
+      "newCorrectAnswer": "B",
+      "correctText": "にあたって",
+      "swappedDistractorText": "につれて",
+      "originalOptions": {
+        "A": "にあたって",
+        "B": "につれて",
+        "C": "にしては",
+        "D": "に反して"
+      },
+      "newOptions": {
+        "A": "につれて",
+        "B": "にあたって",
+        "C": "にしては",
+        "D": "に反して"
+      }
+    },
+    {
+      "questionId": "N2_04_M7_06",
+      "originalCorrectAnswer": "A",
+      "newCorrectAnswer": "B",
+      "correctText": "まい",
+      "swappedDistractorText": "ものか",
+      "originalOptions": {
+        "A": "まい",
+        "B": "ものか",
+        "C": "べきだ",
+        "D": "ことか"
+      },
+      "newOptions": {
+        "A": "ものか",
+        "B": "まい",
+        "C": "べきだ",
+        "D": "ことか"
+      }
+    },
+    {
+      "questionId": "N2_04_M7_07",
+      "originalCorrectAnswer": "A",
+      "newCorrectAnswer": "C",
+      "correctText": "たまものにほかならない",
+      "swappedDistractorText": "どころではない",
+      "originalOptions": {
+        "A": "たまものにほかならない",
+        "B": "わけではない",
+        "C": "どころではない",
+        "D": "おそれがある"
+      },
+      "newOptions": {
+        "A": "どころではない",
+        "B": "わけではない",
+        "C": "たまものにほかならない",
+        "D": "おそれがある"
+      }
+    },
+    {
+      "questionId": "N2_04_M7_08",
+      "originalCorrectAnswer": "A",
+      "newCorrectAnswer": "C",
+      "correctText": "たまらない",
+      "swappedDistractorText": "ならない",
+      "originalOptions": {
+        "A": "たまらない",
+        "B": "かなわない",
+        "C": "ならない",
+        "D": "すまない"
+      },
+      "newOptions": {
+        "A": "ならない",
+        "B": "かなわない",
+        "C": "たまらない",
+        "D": "すまない"
+      }
+    },
+    {
+      "questionId": "N2_04_M7_09",
+      "originalCorrectAnswer": "A",
+      "newCorrectAnswer": "C",
+      "correctText": "沿って",
+      "swappedDistractorText": "関して",
+      "originalOptions": {
+        "A": "沿って",
+        "B": "めぐって",
+        "C": "関して",
+        "D": "わたって"
+      },
+      "newOptions": {
+        "A": "関して",
+        "B": "めぐって",
+        "C": "沿って",
+        "D": "わたって"
+      }
+    },
+    {
+      "questionId": "N2_04_M7_10",
+      "originalCorrectAnswer": "A",
+      "newCorrectAnswer": "C",
+      "correctText": "契機に",
+      "swappedDistractorText": "もとに",
+      "originalOptions": {
+        "A": "契機に",
+        "B": "中心に",
+        "C": "もとに",
+        "D": "先立って"
+      },
+      "newOptions": {
+        "A": "もとに",
+        "B": "中心に",
+        "C": "契機に",
+        "D": "先立って"
+      }
+    },
+    {
+      "questionId": "N2_04_M7_11",
+      "originalCorrectAnswer": "A",
+      "newCorrectAnswer": "C",
+      "correctText": "ぬき",
+      "swappedDistractorText": "がち",
+      "originalOptions": {
+        "A": "ぬき",
+        "B": "ぎみ",
+        "C": "がち",
+        "D": "げ"
+      },
+      "newOptions": {
+        "A": "がち",
+        "B": "ぎみ",
+        "C": "ぬき",
+        "D": "げ"
+      }
+    },
+    {
+      "questionId": "N2_04_M7_12",
+      "originalCorrectAnswer": "A",
+      "newCorrectAnswer": "C",
+      "correctText": "通じて",
+      "swappedDistractorText": "応じて",
+      "originalOptions": {
+        "A": "通じて",
+        "B": "おいて",
+        "C": "応じて",
+        "D": "対して"
+      },
+      "newOptions": {
+        "A": "応じて",
+        "B": "おいて",
+        "C": "通じて",
+        "D": "対して"
+      }
+    },
+    {
+      "questionId": "N2_04_M9_01",
+      "originalCorrectAnswer": "A",
+      "newCorrectAnswer": "C",
+      "correctText": "にほかならない",
+      "swappedDistractorText": "にすぎない",
+      "originalOptions": {
+        "A": "にほかならない",
+        "B": "わけがない",
+        "C": "にすぎない",
+        "D": "おそれがある"
+      },
+      "newOptions": {
+        "A": "にすぎない",
+        "B": "わけがない",
+        "C": "にほかならない",
+        "D": "おそれがある"
+      }
+    },
+    {
+      "questionId": "N2_04_M9_03",
+      "originalCorrectAnswer": "A",
+      "newCorrectAnswer": "C",
+      "correctText": "ならでは",
+      "swappedDistractorText": "にとって",
+      "originalOptions": {
+        "A": "ならでは",
+        "B": "ならではの",
+        "C": "にとって",
+        "D": "として"
+      },
+      "newOptions": {
+        "A": "にとって",
+        "B": "ならではの",
+        "C": "ならでは",
+        "D": "として"
+      }
+    },
+    {
+      "questionId": "N2_04_M9_04",
+      "originalCorrectAnswer": "A",
+      "newCorrectAnswer": "C",
+      "correctText": "こそが",
+      "swappedDistractorText": "さえも",
+      "originalOptions": {
+        "A": "こそが",
+        "B": "ばかりが",
+        "C": "さえも",
+        "D": "までも"
+      },
+      "newOptions": {
+        "A": "さえも",
+        "B": "ばかりが",
+        "C": "こそが",
+        "D": "までも"
+      }
+    },
+    {
+      "questionId": "N2_04_M9_05",
+      "originalCorrectAnswer": "A",
+      "newCorrectAnswer": "C",
+      "correctText": "つつも",
+      "swappedDistractorText": "きりに",
+      "originalOptions": {
+        "A": "つつも",
+        "B": "ながらに",
+        "C": "きりに",
+        "D": "げに"
+      },
+      "newOptions": {
+        "A": "きりに",
+        "B": "ながらに",
+        "C": "つつも",
+        "D": "げに"
+      }
+    },
+    {
+      "questionId": "N2_04_M10_01",
+      "originalCorrectAnswer": "A",
+      "newCorrectAnswer": "C",
+      "correctText": "社外で作業する際は、フリーWi-Fiを使わず指定された安全な通信手段を用いること。",
+      "swappedDistractorText": "専用端末の貸与を希望する社員は、事前にセキュリティ講習を受講すること。",
+      "originalOptions": {
+        "A": "社外で作業する際は、フリーWi-Fiを使わず指定された安全な通信手段を用いること。",
+        "B": "情報漏洩を防ぐため、社外でのテレワーク業務を全面的に中止すること。",
+        "C": "専用端末の貸与を希望する社員は、事前にセキュリティ講習を受講すること。",
+        "D": "カフェなどの公共の場所では、長時間のパソコン作業を控えること。"
+      },
+      "newOptions": {
+        "A": "専用端末の貸与を希望する社員は、事前にセキュリティ講習を受講すること。",
+        "B": "情報漏洩を防ぐため、社外でのテレワーク業務を全面的に中止すること。",
+        "C": "社外で作業する際は、フリーWi-Fiを使わず指定された安全な通信手段を用いること。",
+        "D": "カフェなどの公共の場所では、長時間のパソコン作業を控えること。"
+      }
+    },
+    {
+      "questionId": "N2_04_M10_02",
+      "originalCorrectAnswer": "A",
+      "newCorrectAnswer": "C",
+      "correctText": "自分が信じたい情報だけでなく、根拠や発信元を吟味して客観的に判断すること。",
+      "swappedDistractorText": "自分と異なる意見を持つ発信者に対して、積極的に反論のコメントを送ること。",
+      "originalOptions": {
+        "A": "自分が信じたい情報だけでなく、根拠や発信元を吟味して客観的に判断すること。",
+        "B": "誤った情報の拡散を防ぐため、SNSの利用時間をできる限り制限すること。",
+        "C": "自分と異なる意見を持つ発信者に対して、積極的に反論のコメントを送ること。",
+        "D": "公的機関が発表した公式データ以外の情報には一切触れないようにすること。"
+      },
+      "newOptions": {
+        "A": "自分と異なる意見を持つ発信者に対して、積極的に反論のコメントを送ること。",
+        "B": "誤った情報の拡散を防ぐため、SNSの利用時間をできる限り制限すること。",
+        "C": "自分が信じたい情報だけでなく、根拠や発信元を吟味して客観的に判断すること。",
+        "D": "公的機関が発表した公式データ以外の情報には一切触れないようにすること。"
+      }
+    }
+  ]
+}

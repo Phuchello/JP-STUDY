@@ -27,6 +27,8 @@ def validate_uniqueness():
     }
     if (ROOT / 'data/mock_exams/n2_mock_05.json').exists():
         mock_files['N2-MOCK-05'] = ROOT / 'data/mock_exams/n2_mock_05.json'
+    if (ROOT / 'data/mock_exams/n2_mock_06.json').exists():
+        mock_files['N2-MOCK-06'] = ROOT / 'data/mock_exams/n2_mock_06.json'
 
 
     loaded_mocks = {}

@@ -150,38 +150,35 @@ class TestN2Mock03StarPermutations(unittest.TestCase):
         N2_03_M8_05:
         彼がこれほど短期間で大きな成果を上げられたのは、（　　）（　　） ★ （　　）賜物だ。
         Options:
-          A: 地道に努力を
-          B: 重ねてきた
-          C: 素直に耳を傾け、
-          D: 周囲の助言に
-        Intended order: D -> C -> A -> B (Star: A)
-        Sentence: 周囲の助言に (D) 素直に耳を傾け、 (C) ★地道に努力を (A) 重ねてきた (B) 賜物だ。
+          A: 素直に従い、
+          B: 努力の
+          C: 周囲の助言に
+          D: 地道に積み重ねた
+        Intended order: C -> A -> D -> B (Star: D)
+        Sentence: 周囲の助言に (C) 素直に従い、 (A) ★地道に積み重ねた (D) 努力の (B) 賜物だ。
         """
         q = self.star_items["N2_03_M8_05"]
-        self.assertEqual(q["correctAnswer"], "A")
+        self.assertEqual(q["correctAnswer"], "D")
         opts = {o['id']: o['text'] for o in q['options']}
 
         valid_orders = []
         for p in itertools.permutations(['A', 'B', 'C', 'D']):
-            # 1. D (周囲の助言に) must precede C (素直に耳を傾け、) - valency requirement of 耳を傾ける
-            if p.index('D') + 1 != p.index('C'):
-                continue
-            # 2. A (地道に努力を) must precede B (重ねてきた) - direct object of 重ねる
-            if p.index('A') + 1 != p.index('B'):
-                continue
-            # 3. B (重ねてきた - attributive verb) must immediately precede stem '賜物だ' (position 4)
+            # 1. B (努力の) must immediately precede stem '賜物だ' (position 4) because '努力の' requires noun
             if p[3] != 'B':
                 continue
-            # 4. C (連用中止形 with comma) must precede the subsequent clause A-B
-            if p.index('C') > p.index('A'):
+            # 2. C (周囲の助言に) must precede A (素直に従い、) as its indirect object
+            if p.index('C') + 1 != p.index('A'):
+                continue
+            # 3. D (地道に積み重ねた) is relative clause modifying B (努力の) (position 3)
+            if p[2] != 'D':
                 continue
             valid_orders.append(''.join(p))
 
-        self.assertEqual(valid_orders, ['DCAB'], f"Expected only ['DCAB'], got {valid_orders}")
-        # 3rd position (★) is A
-        star_choice = 'DCAB'[2]
-        self.assertEqual(star_choice, "A")
-        self.assertEqual(opts[star_choice], "地道に努力を")
+        self.assertEqual(valid_orders, ['CADB'], f"Expected only ['CADB'], got {valid_orders}")
+        # 3rd position (★) is D
+        star_choice = 'CADB'[2]
+        self.assertEqual(star_choice, "D")
+        self.assertEqual(opts[star_choice], "地道に積み重ねた")
 
 
 if __name__ == "__main__":

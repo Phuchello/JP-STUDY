@@ -1,76 +1,104 @@
 {
   "workflow": "Content QA & Adversarial Release Gate",
-  "ciRunTimestamp": "2026-10-19T14:31:16.889247+00:00",
-  "totalItemsAudited": 525,
+  "ciRunTimestamp": "2026-10-19T15:35:37.125468+00:00",
+  "totalItemsAudited": 630,
+  "totalAudioTracksVerified": 180,
+  "gateStatus": "PASS",
+  "gateFailures": [],
   "quarantinedCount": 0,
   "reviewRequiredCount": 0,
-  "gateStatus": "PASS",
-  "auditReports": {
-    "n2Mock01Audited": true,
-    "n2Mock02Audited": true,
-    "n2Mock03Audited": true,
-    "n2Mock04Audited": true,
-    "n2Mock05Audited": true
-  },
+  "fingerprintMismatches": 0,
   "mockBreakdown": {
     "N2-MOCK-01": {
-      "total": 105,
-      "verified": 105,
-      "quarantined": 0
+      "totalQuestions": 105,
+      "section1AnswerDistribution": {
+        "B": 14,
+        "D": 19,
+        "C": 23,
+        "A": 19
+      },
+      "maxLetterRatio": 0.307,
+      "audioReceiptVerified": true,
+      "verifiedAudioTracks": 30
     },
     "N2-MOCK-02": {
-      "total": 105,
-      "verified": 105,
-      "quarantined": 0
+      "totalQuestions": 105,
+      "section1AnswerDistribution": {
+        "B": 16,
+        "C": 20,
+        "A": 21,
+        "D": 18
+      },
+      "maxLetterRatio": 0.28,
+      "audioReceiptVerified": true,
+      "verifiedAudioTracks": 30
     },
     "N2-MOCK-03": {
-      "total": 105,
-      "verified": 105,
-      "quarantined": 0
+      "totalQuestions": 105,
+      "section1AnswerDistribution": {
+        "A": 19,
+        "B": 20,
+        "C": 20,
+        "D": 16
+      },
+      "maxLetterRatio": 0.267,
+      "audioReceiptVerified": true,
+      "verifiedAudioTracks": 30
     },
     "N2-MOCK-04": {
-      "total": 105,
-      "verified": 105,
-      "quarantined": 0
+      "totalQuestions": 105,
+      "section1AnswerDistribution": {
+        "B": 19,
+        "D": 18,
+        "C": 19,
+        "A": 19
+      },
+      "maxLetterRatio": 0.253,
+      "audioReceiptVerified": true,
+      "verifiedAudioTracks": 30
     },
     "N2-MOCK-05": {
-      "total": 105,
-      "verified": 105,
-      "quarantined": 0
+      "totalQuestions": 105,
+      "section1AnswerDistribution": {
+        "C": 22,
+        "A": 15,
+        "D": 17,
+        "B": 21
+      },
+      "maxLetterRatio": 0.293,
+      "audioReceiptVerified": true,
+      "verifiedAudioTracks": 30
+    },
+    "N2-MOCK-06": {
+      "totalQuestions": 105,
+      "section1AnswerDistribution": {
+        "A": 19,
+        "B": 19,
+        "C": 19,
+        "D": 18
+      },
+      "maxLetterRatio": 0.253,
+      "audioReceiptVerified": true,
+      "verifiedAudioTracks": 30
     }
   },
-  "provenanceBreakdown": {
-    "RECONSTRUCTED_FROM_ARCHIVED_INPUT": 287,
-    "ORIGINAL_VERSION_BOUND": 5,
-    "FRESH_REVIEW_VERIFIED": 214,
-    "OPTION_PERMUTATION_REBOUND": 19
-  },
-  "audioAcousticStatus": {
-    "N2-MOCK-01": {
-      "receiptExists": true,
-      "tracksCount": 30,
-      "allPlaybackVerified": true
+  "ledgerMetrics": {
+    "dispositions": {
+      "AI_SEMANTIC_VERIFIED": 619,
+      "REPAIRED_AND_VERIFIED": 11
     },
-    "N2-MOCK-02": {
-      "receiptExists": true,
-      "tracksCount": 30,
-      "allPlaybackVerified": true
+    "classifications": {
+      "AGREEMENT": 619,
+      "GRAMMATICAL_DEFECT_RESOLVED": 11
     },
-    "N2-MOCK-03": {
-      "receiptExists": true,
-      "tracksCount": 30,
-      "allPlaybackVerified": true
-    },
-    "N2-MOCK-04": {
-      "receiptExists": true,
-      "tracksCount": 30,
-      "allPlaybackVerified": true
-    },
-    "N2-MOCK-05": {
-      "receiptExists": true,
-      "tracksCount": 30,
-      "allPlaybackVerified": true
+    "fingerprintMatches": {
+      "true": 630
     }
+  },
+  "evaluationLayers": {
+    "aiBlindReviewVerified": true,
+    "humanExpertCertification": "PENDING_PANEL",
+    "failClosedPublicationEnforced": true
   },
   "releaseCertification": "TECHNICALLY_READY · AI_AUDITED"
 }

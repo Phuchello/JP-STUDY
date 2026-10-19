@@ -882,17 +882,17 @@ def get_n2_mock_03_sec1_items():
             "Mondai 8: 文の組み立て ★",
             "彼がこれほど短期間で大きな成果を上げられたのは、（　　）（　　） ★ （　　）賜物だ。",
             [
-                ("A", "地道に努力を"),
-                ("B", "重ねてきた"),
-                ("C", "素直に耳を傾け、"),
-                ("D", "周囲の助言に")
+                ("A", "素直に従い、"),
+                ("B", "努力の"),
+                ("C", "周囲の助言に"),
+                ("D", "地道に積み重ねた")
             ],
-            "A",
-            "Thứ tự đúng: D - C - A - B (周囲の助言に 素直に耳を傾け、 地道に努力を 重ねてきた). Cấu trúc ngữ pháp N2: 〜賜物だ (kết quả/hoa trái của...). [D 周囲の助言に] kết hợp với [C 素直に耳を傾け、] tạo vế tiếp thu ý kiến xung quanh. Vế sau: [A 地道に努力を] là tân ngữ của [B 重ねてきた] bổ nghĩa trực tiếp cho danh từ 賜物だ. Thứ tự duy nhất hợp cú pháp và tự nhiên là D - C - A - B. Vị trí ngôi sao ★ là A (地道に努力を).",
+            "D",
+            "Thứ tự đúng: C - A - D - B (周囲の助言に 素直に従い、 地道に積み重ねた 努力の 賜物だ). Cấu trúc ngữ pháp N2: 〜の賜物だ (thành quả/kết tinh của N). C (周囲の助言に) kết hợp với A (素直に従い、) tạo vế liên kết. Vế sau: D (地道に積み重ねた) làm định ngữ bổ nghĩa cho B (努力の), đi liền với danh từ 賜物だ. Thứ tự duy nhất hợp cú pháp và ngữ nghĩa tự nhiên là C - A - D - B. Vị trí ngôi sao ★ là D (地道に積み重ねた).",
             {
-                "B": "B (重ねてきた) đứng ở vị trí thứ tư bổ nghĩa trực tiếp cho danh từ 賜物だ.",
-                "C": "C (素直に耳を傾け、) đứng ở vị trí thứ hai làm vế liên kết nối tiếp.",
-                "D": "D (周囲の助言に) đứng ở vị trí thứ nhất đi liền với cụm động từ 耳を傾ける."
+                "A": "A (素直に従い、) đứng ở vị trí thứ hai làm vế liên kết nối tiếp sau 周囲の助言に.",
+                "B": "B (努力の) đứng ở vị trí thứ tư bổ nghĩa trực tiếp cho danh từ 賜物だ.",
+                "C": "C (周囲の助言に) đứng ở vị trí thứ nhất đi kèm với động từ 従う."
             }
         ),
     ]

@@ -1,0 +1,344 @@
+[
+  {
+    "id": "N2_06_M1_01",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「膨張」の正しい音読みは「ぼうちょう」。「膨（ボウ）」＋「張（チョウ）」。体積や規模がふくれて大きくなること。正解はA。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "51f89f5e3f78ffe3d9adf2ca4d8dc5fa8842d6ee615644ef2d455ccbe2fbf58c"
+  },
+  {
+    "id": "N2_06_M1_02",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「凝縮」の正しい音読みは「ぎょうしゅく」。「凝（ギョウ）」＋「縮（シュク）」。広がり散らばっているものが一カ所に濃縮して集まること。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "e187ffc314fd6123bf5b11138b0b184cec85e5006ecca0dc03f6a04d4bac84fa"
+  },
+  {
+    "id": "N2_06_M1_03",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "「承諾」の正しい音読みは「しょうだく」。「承（ショウ）」＋「諾（ダク）」。相手の申し出や要求を受け入れて聞き届けること。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "1d70e89f1e8df958e19d3d1cfaae95252afd612c70d7a0c35e1f76d90f918cac"
+  },
+  {
+    "id": "N2_06_M1_04",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「媒介」の正しい音読みは「ばいかい」。「媒（バイ）」＋「介（カイ）」。両者の間に立ってなかだちをすること。正解はD。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "58511665a880bd8e0d4ee615d9e983e63b43d78a1fd2957d0698eba62b49c249"
+  },
+  {
+    "id": "N2_06_M1_05",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「糾弾」の正しい音読みは「きゅうだん」。「糾（キュウ）」＋「弾（ダン）」。罪や不正を問い詰めて厳しく非難すること。正解はA。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "ee098b6fcf14fa2f272487bc303609c0d66e32e1780b88a8991b8c99100d0039"
+  },
+  {
+    "id": "N2_06_M2_01",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「あやつる」の文脈にふさわしい漢字表記は「操る」。人形や機械、人心を自分の思う通りに動かすこと。正解はA。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "d9b5f7308f0260882a004fe398844875a918eb44c5f654f1d98d5b2f47c420a6"
+  },
+  {
+    "id": "N2_06_M2_02",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「たずさえて」の文脈にふさわしい漢字表記は「携えて」。「携（たずさ）える」。手にとって持つ、連れ添うこと。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "b2bf18eee6e7782b421429021ff52b2267ba08c657865dbdd8ca2b5b1acd2f87"
+  },
+  {
+    "id": "N2_06_M2_03",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "「はげんでいる」の文脈にふさわしい漢字表記は「励んでいる」。「励（はげ）む」。力を尽くして熱心に取り組むこと。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "464ae7f489b4f0c6eb36a7182fae1bec66c5b3d9c436f8fd9c9d0a36af28766d"
+  },
+  {
+    "id": "N2_06_M2_04",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「さまたげる」の文脈にふさわしい漢字表記は「妨げる」。「妨（さまた）げる」。進行や成長を邪魔すること。正解はD。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "ff4f683d701fc46d028139893357f783fc3cf319bfbdaf25a1c36b83350bff8e"
+  },
+  {
+    "id": "N2_06_M2_05",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「うながす」の文脈にふさわしい漢字表記は「促す」。「促（うなが）す」。相手に行動を起こすよう働きかけること。正解はA。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "1fbfd2b4ad22de41ee37b6d9a538aa12336b2eac68cb7be6ed68baa8e92412bc"
+  },
+  {
+    "id": "N2_06_M3_01",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「通勤〜」の後に付き、移動可能な地理的範囲を表す接尾辞は「〜圏」。「通勤圏」。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "e1b286aecbc79b7a62ad166710fa92f5fc5fb076737b17ec77ca8bd1cb82ca57"
+  },
+  {
+    "id": "N2_06_M3_02",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "「〜売上高」の前に付き、全体の合算額を表す接頭辞は「総〜」。「総売上高」。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "1deec7bfaf20018c7ba589469a16d6ffad98bc6d9967d1f47a29d6bdc6dd7308"
+  },
+  {
+    "id": "N2_06_M3_03",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「地域〜」の後に付き、全体一体となって関わる様子を表す接尾辞は「〜ぐるみ」。「地域ぐるみ」。正解はA。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "a2f483016e0cef3aaf2d75494c4b3c75e6243afc201b6dd7fb906544db27921d"
+  },
+  {
+    "id": "N2_06_M3_04",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「〜文化」の前に付き、自分とは異なる性質を表す接頭辞は「異〜」。「異文化」。正解はD。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "e21d097e28718a6b6456113f4dbed4779a97a5270d4e861ae8d09114fc55ef94"
+  },
+  {
+    "id": "N2_06_M3_05",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「海岸〜」の後に付き、地形や道に沿った線状の方向を表す接尾辞は「〜沿い」。「海岸沿い」。正解はA。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "0345f4761a297a136511d3702cc31b627e9011d9273692748d411b89d6072a8d"
+  },
+  {
+    "id": "N2_06_M4_01",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "膨大な資料や書物から必要な部分を抜き出してまとめる語は「抜粋（ばっすい）」。正解はA。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "b2dd6cd4abed71aa861b85862816e1f7dd67cf491d1c63b5adf1916ebfa270a5"
+  },
+  {
+    "id": "N2_06_M4_02",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "特定の物や考えに強くこだわり、捨てきれずに心をとらわれることは「執着（しゅうちゃく）」。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "00d0d11a9ec032de79432351c3e5f78de5b3ba802fcdb3ff7e30a097c1312796"
+  },
+  {
+    "id": "N2_06_M4_03",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "動作や頭の回転が素早く身軽な様子を表す形容動詞は「敏捷（びんしょう）」。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "948ba5aef3f0607fccb32f6d1ba1b163bef2f4994e8ff464c853becfff4e4d0b"
+  },
+  {
+    "id": "N2_06_M4_04",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "坂や山道などの傾斜がゆるやかな様子を表すオノマトペ・形容動詞は「なだらか」。正解はD。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "fc3888d223eb550ff9e0f086fc2252b84bdcc54f4683b38f0da8f63dfe9091ae"
+  },
+  {
+    "id": "N2_06_M4_05",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "人の密度がまばらで少なく、散らばっている様子を表す語は「まばら」。正解はA。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "b6d2540da36cea35615a3c71077ef33bddeec5a1e0aa4f2bb0b76ab88e5d5a95"
+  },
+  {
+    "id": "N2_06_M4_06",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "思いがけない緊急事態に直面して慌てふためき冷静さを失う動詞は「うろたえる」。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "3ba425d631c1bad186e42c04e1c86b4b77dae0bb34ac770dee21126b6f7ac6e6"
+  },
+  {
+    "id": "N2_06_M4_07",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "人間関係や動作がぎこちなく不自然な様子を表すオノマトペは「ぎくしゃく」。正解はA。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "820cae664b12aa831795ff377874aaac529f3f1cb3cb749a6572838af42abf6a"
+  },
+  {
+    "id": "N2_06_M5_01",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「たやすく」は容易に、難なく物事が進む様子を表し「あっさり」に言い換えられる。正解はA。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "91bed0d416d0f5fdcfe929679d64b9edee2de03da80421c071dda2c5454dffa4"
+  },
+  {
+    "id": "N2_06_M5_02",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「意気込み」は積極的に取り組もうとする強い意欲を表し「やる気」に言い換えられる。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "41472db007e9ebb3b8a29f89c808460387d9e95988439976fa2acfca5f6bb015"
+  },
+  {
+    "id": "N2_06_M5_03",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "「うつむいて」は恥ずかしさや反省から顔を下に伏せる様子で「下を向いて」に言い換えられる。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "6a9f6f7755a8deb59063c5cb1a30ed68804fdc3be8a272d0f8c365cff66c014a"
+  },
+  {
+    "id": "N2_06_M5_04",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「わずらわしい」は複雑で手間がかかり面倒なことで「めんどうな」に言い換えられる。正解はD。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "e72fb31a9b140445b8eba1addd3c8d2300aef99567fb12b582fca229efade22f"
+  },
+  {
+    "id": "N2_06_M5_05",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「さしつかえありません」は支障や問題がないことを丁寧に述べる表現で「問題ありません」に言い換えられる。正解はA。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "9bcdc9724dc04b91bdade98394b793526f7413c14b1f90fd46ee9eb75a6481e7"
+  },
+  {
+    "id": "N2_06_M6_01",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「模倣」は優れた技術や作品を真似て学ぶことで、「技法を模倣することから独自の創作が始まる」の用法が適切。正解はA。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "8f53cd8cc36a020420ec4c8439fefbbf0e90fd2b5cc4c867a694dfe04865b21b"
+  },
+  {
+    "id": "N2_06_M6_02",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「蓄積」は知識やデータ、疲労などが徐々に溜まることで、「データと知見の蓄積」の用法が適切。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "14717984eea50d72d5386e85b182745fc540b3b73bf909012dfa58378302a3fb"
+  },
+  {
+    "id": "N2_06_M6_03",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "「覆す」は定説や常識を根本から変えることで、「治療法の概念を根底から覆す」の用法が適切。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "69877ca4a79a5384b756a1bc16b6f972738604f5cde49c98863a3397b9c417de"
+  },
+  {
+    "id": "N2_06_M6_04",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「妥当」は客観的判断として無理がなく適切であることで、「価格設定は極めて妥当だ」の用法が適切。正解はA。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "c6c5335d97ab072d287756d9238433fdb49ca25bf9f092eba876290f97307aeb"
+  },
+  {
+    "id": "N2_06_M6_05",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「執拗」はしつこく諦めずに繰り返す様子で、「執拗に同じ論点を突いて攻撃する」の用法が適切。正解はA。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "677579ab2477ca8d1ba450fb481aad38e13718d63842e5da37ff4a13fe5c105c"
+  },
+  {
+    "id": "N2_06_M7_01",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「〜を踏まえて」は経験や教訓を前提・根拠として考慮すること。「過去の失敗の経験を踏まえて」。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "9aa72ccbb0963d12573cd7d4ef2c8619d53ef8e0574d3f3b59b86e2aac50ef14"
+  },
+  {
+    "id": "N2_06_M7_02",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "「〜に先立ち」は重大な事態に先立って事前に準備を行うこと。「全国発売に先立ち」。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "d16bbff52112e7574b43d28ada0dbe6f6a4debaf7ce2d06b93426ce30ee541f4"
+  },
+  {
+    "id": "N2_06_M7_03",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「〜に相違ない」は確信に満ちた客観的推量（〜に違いない）。「実力を発揮するに相違ない」。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "18722b97988de6d805e685456099c3e36b6a96a1b4c03bdfd62865dd95974295"
+  },
+  {
+    "id": "N2_06_M7_04",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「〜ざるを得ない」は状況から判断してそうするより他ないこと。「変革を受け入れざるを得ない」。正解はD。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "1c04e24791ef000b360369361f8a8371b485ae7d083cc91d71dac4ec7f036cf3"
+  },
+  {
+    "id": "N2_06_M7_05",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「〜賜物だ（たまものだ）」は努力や苦労が結実した良い成果であること。「努力のたまものだ」。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "c09ead07708f9069552e692ee4867e59f910c6911247706db111d8a685619602"
+  },
+  {
+    "id": "N2_06_M7_06",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "「〜げ」は外見や表情にその感情の気配が感じられること。「不安げに見つめながら」。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "a171126ae13d34d1be867beba94b37ea0c65771bbaded00311a25afdfadc2fd5"
+  }
+]

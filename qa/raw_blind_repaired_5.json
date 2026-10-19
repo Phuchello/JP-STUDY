@@ -1,0 +1,52 @@
+[
+  {
+    "id": "N2-G7-004",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "「名詞＋のみならず」は「〜だけでなく、さらに他も」と並列・付加を表す文型。「英語のみならず、フランス語や中国語も流暢に操る」として自然に成立する。選択肢A「反面」は対比、B「どころではなく」は状況否定、D「を契機に」は契機・きっかけを表すため不適。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "77fabc25655d5ff29c895081a5b17d5d4afdb4a49c93c598d8724c250c3e7481",
+    "isFreshReview": true
+  },
+  {
+    "id": "N2-G7-010",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「〜反面」は、ある事柄の一面を認めた上で、それと対照的な別の面（主に問題点や短所）を述べる文型。「な形容詞語幹＋な＋反面」に接続し、「便利な反面、生活費が高くつく」として文脈に合致する。A「に反して」は予想や意図に反することを表し、B「ついでに」は機会利用、C「反対に」は副詞であり接続不適。正解はD。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "22d49de907d59b600e7faf12eca82415f687d3c5929ccf996630d9a38500dae9",
+    "isFreshReview": true
+  },
+  {
+    "id": "N2-G7-011",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「〜にかかわらず」は「〜に関係なく、条件に左右されずに」という意味を表す文型。「経験の有無にかかわらず」という定型的な表現で自然に成立する。A「をよそに」（周囲の関心を無視して）、B「にもかかわらず」（〜のに）、C「をかねて」（〜を兼ねて）は文脈に合わない。正解はD。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "fdcc7ad856e06e83e806255e79aa6596850fbe6ccc0b17c279c8975347a92983",
+    "isFreshReview": true
+  },
+  {
+    "id": "N2_02_M4_06",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「にこやか」は笑顔で親しみやすい様子を表す副詞的用法（にこやかに挨拶する）で、初対面の相手への好印象という文脈に完全に合致する。A「しとやか」は物静かで上品な態度、C「あざやか」は色や動きが鮮明な様子、D「おろそか」は疎か・いい加減な態度を表すため不適。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "d14756bcea4b697462cb9a0498a88fa0559f312ff8f8bec5a3a3acdb15cda489",
+    "isFreshReview": true
+  },
+  {
+    "id": "N2_02_M7_06",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「どんなに〜ようと（も）」は「いくら〜しても」という逆接の譲歩を表す文型。「どんなに科学技術が進歩しようと、自然の驚異を完全に支配することはできない」として自然に成立する。B「したあげく」は結果、C「するにつけ」は〜するたびに、D「するからには」は〜以上は。正解はA。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "6c6978554ec39888a6b82abd480827e9441ea53f7316c3d8a799d3a1306c2d97",
+    "isFreshReview": true
+  }
+]

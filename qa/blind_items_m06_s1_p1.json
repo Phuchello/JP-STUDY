@@ -1,0 +1,1066 @@
+[
+  {
+    "id": "N2_06_M1_01",
+    "examId": "N2-MOCK-06",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-READ",
+    "category": "Mondai 1: 漢字読み",
+    "stem": "気体の温度が上昇すると、体積が急速に【膨張】する。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "ぼうちょう"
+      },
+      {
+        "id": "B",
+        "text": "ほうちょう"
+      },
+      {
+        "id": "C",
+        "text": "ぼうちゅう"
+      },
+      {
+        "id": "D",
+        "text": "ぼんちょう"
+      }
+    ]
+  },
+  {
+    "id": "N2_06_M1_02",
+    "examId": "N2-MOCK-06",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-READ",
+    "category": "Mondai 1: 漢字読み",
+    "stem": "著者の長年の研究成果が、この一冊の学術書に【凝縮】されている。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "こうしゅく"
+      },
+      {
+        "id": "B",
+        "text": "ぎょうしゅく"
+      },
+      {
+        "id": "C",
+        "text": "きょうしゅく"
+      },
+      {
+        "id": "D",
+        "text": "ぎょうしょう"
+      }
+    ]
+  },
+  {
+    "id": "N2_06_M1_03",
+    "examId": "N2-MOCK-06",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-READ",
+    "category": "Mondai 1: 漢字読み",
+    "stem": "相手企業の提案条件を検討した結果、正式に【承諾】の返答を送った。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "じょうだく"
+      },
+      {
+        "id": "B",
+        "text": "しょうちょく"
+      },
+      {
+        "id": "C",
+        "text": "しょうだく"
+      },
+      {
+        "id": "D",
+        "text": "しょうしゃく"
+      }
+    ]
+  },
+  {
+    "id": "N2_06_M1_04",
+    "examId": "N2-MOCK-06",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-READ",
+    "category": "Mondai 1: 漢字読み",
+    "stem": "ウイルス感染の拡大を防ぐため、蚊が病原体を【媒介】する経路を調査している。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "まいかい"
+      },
+      {
+        "id": "B",
+        "text": "ばいけい"
+      },
+      {
+        "id": "C",
+        "text": "はいかい"
+      },
+      {
+        "id": "D",
+        "text": "ばいかい"
+      }
+    ]
+  },
+  {
+    "id": "N2_06_M1_05",
+    "examId": "N2-MOCK-06",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-READ",
+    "category": "Mondai 1: 漢字読み",
+    "stem": "市民団体は、不正な資金流用を行った市長の責任を厳しく【糾弾】した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "きゅうだん"
+      },
+      {
+        "id": "B",
+        "text": "きょうだん"
+      },
+      {
+        "id": "C",
+        "text": "きゅうたん"
+      },
+      {
+        "id": "D",
+        "text": "こうだん"
+      }
+    ]
+  },
+  {
+    "id": "N2_06_M2_01",
+    "examId": "N2-MOCK-06",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-READ",
+    "category": "Mondai 2: 表記",
+    "stem": "彼は複雑な人形を指先で巧みに【あやつる】名人として知られている。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "操る"
+      },
+      {
+        "id": "B",
+        "text": "握る"
+      },
+      {
+        "id": "C",
+        "text": "扱る"
+      },
+      {
+        "id": "D",
+        "text": "捕る"
+      }
+    ]
+  },
+  {
+    "id": "N2_06_M2_02",
+    "examId": "N2-MOCK-06",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-READ",
+    "category": "Mondai 2: 表記",
+    "stem": "最新の科学技術を【たずさえて】、未知の海洋深層部の探査へと出発した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "揃えて"
+      },
+      {
+        "id": "B",
+        "text": "携えて"
+      },
+      {
+        "id": "C",
+        "text": "導えて"
+      },
+      {
+        "id": "D",
+        "text": "抱えて"
+      }
+    ]
+  },
+  {
+    "id": "N2_06_M2_03",
+    "examId": "N2-MOCK-06",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-READ",
+    "category": "Mondai 2: 表記",
+    "stem": "若き研究者たちが、難病の治療法を見つけるために日夜研究に【はげんでいる】。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "努んでいる"
+      },
+      {
+        "id": "B",
+        "text": "奮んでいる"
+      },
+      {
+        "id": "C",
+        "text": "励んでいる"
+      },
+      {
+        "id": "D",
+        "text": "勤んでいる"
+      }
+    ]
+  },
+  {
+    "id": "N2_06_M2_04",
+    "examId": "N2-MOCK-06",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-READ",
+    "category": "Mondai 2: 表記",
+    "stem": "過度な規制は、自由な経済活動の発展を【さまたげる】要因になりかねない。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "阻げる"
+      },
+      {
+        "id": "B",
+        "text": "遮げる"
+      },
+      {
+        "id": "C",
+        "text": "拒げる"
+      },
+      {
+        "id": "D",
+        "text": "妨げる"
+      }
+    ]
+  },
+  {
+    "id": "N2_06_M2_05",
+    "examId": "N2-MOCK-06",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-READ",
+    "category": "Mondai 2: 表記",
+    "stem": "政府は省エネルギー住宅の普及を【うながす】ため、補助金制度の新設を決定した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "促す"
+      },
+      {
+        "id": "B",
+        "text": "催す"
+      },
+      {
+        "id": "C",
+        "text": "勧す"
+      },
+      {
+        "id": "D",
+        "text": "薦す"
+      }
+    ]
+  },
+  {
+    "id": "N2_06_M3_01",
+    "examId": "N2-MOCK-06",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-FORM",
+    "category": "Mondai 3: 語形成",
+    "stem": "近年のデジタル技術革新により、金融とITが融合した新たな経済（　　）が誕生した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "界"
+      },
+      {
+        "id": "B",
+        "text": "圏"
+      },
+      {
+        "id": "C",
+        "text": "帯"
+      },
+      {
+        "id": "D",
+        "text": "区"
+      }
+    ]
+  },
+  {
+    "id": "N2_06_M3_02",
+    "examId": "N2-MOCK-06",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-FORM",
+    "category": "Mondai 3: 語形成",
+    "stem": "緊急事態に対処するため、警察と消防の全戦力が（　　）動員された。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "大"
+      },
+      {
+        "id": "B",
+        "text": "全"
+      },
+      {
+        "id": "C",
+        "text": "総"
+      },
+      {
+        "id": "D",
+        "text": "本"
+      }
+    ]
+  },
+  {
+    "id": "N2_06_M3_03",
+    "examId": "N2-MOCK-06",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-FORM",
+    "category": "Mondai 3: 語形成",
+    "stem": "地元住民が行政と連携し、地域（　　）で高齢者の見守り活動に取り組んでいる。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "ぐるみ"
+      },
+      {
+        "id": "B",
+        "text": "だらけ"
+      },
+      {
+        "id": "C",
+        "text": "ずくめ"
+      },
+      {
+        "id": "D",
+        "text": "まみれ"
+      }
+    ]
+  },
+  {
+    "id": "N2_06_M3_04",
+    "examId": "N2-MOCK-06",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-FORM",
+    "category": "Mondai 3: 語形成",
+    "stem": "他業種との交流を通じて、従来の枠組みにとらわれない（　　）分野の融合を図る。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "他"
+      },
+      {
+        "id": "B",
+        "text": "外"
+      },
+      {
+        "id": "C",
+        "text": "対"
+      },
+      {
+        "id": "D",
+        "text": "異"
+      }
+    ]
+  },
+  {
+    "id": "N2_06_M3_05",
+    "examId": "N2-MOCK-06",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-FORM",
+    "category": "Mondai 3: 語形成",
+    "stem": "休日の朝は、潮風を感じながら海岸（　　）をジョギングするのが日課だ。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "沿い"
+      },
+      {
+        "id": "B",
+        "text": "端"
+      },
+      {
+        "id": "C",
+        "text": "側"
+      },
+      {
+        "id": "D",
+        "text": "並び"
+      }
+    ]
+  },
+  {
+    "id": "N2_06_M4_01",
+    "examId": "N2-MOCK-06",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-CTX",
+    "category": "Mondai 4: 文脈規定",
+    "stem": "論文の要点を手短に説明するため、最も重要な実験結果のデータのみを【　　】して提示した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "抜粋"
+      },
+      {
+        "id": "B",
+        "text": "省略"
+      },
+      {
+        "id": "C",
+        "text": "縮小"
+      },
+      {
+        "id": "D",
+        "text": "控除"
+      }
+    ]
+  },
+  {
+    "id": "N2_06_M4_02",
+    "examId": "N2-MOCK-06",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-CTX",
+    "category": "Mondai 4: 文脈規定",
+    "stem": "過去の失敗に過度に【　　】していては、新しい挑戦への一歩を踏み出すことはできない。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "依存"
+      },
+      {
+        "id": "B",
+        "text": "執着"
+      },
+      {
+        "id": "C",
+        "text": "束縛"
+      },
+      {
+        "id": "D",
+        "text": "専念"
+      }
+    ]
+  },
+  {
+    "id": "N2_06_M4_03",
+    "examId": "N2-MOCK-06",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-CTX",
+    "category": "Mondai 4: 文脈規定",
+    "stem": "相手の素早い攻撃を【　　】な身のこなしでかわし、見事に反撃に転じた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "簡潔"
+      },
+      {
+        "id": "B",
+        "text": "鮮明"
+      },
+      {
+        "id": "C",
+        "text": "敏捷"
+      },
+      {
+        "id": "D",
+        "text": "軽率"
+      }
+    ]
+  },
+  {
+    "id": "N2_06_M4_04",
+    "examId": "N2-MOCK-06",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-CTX",
+    "category": "Mondai 4: 文脈規定",
+    "stem": "日々の健康管理を【　　】にしていると、年齢を重ねてから大きな病気につながる恐れがある。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "わずか"
+      },
+      {
+        "id": "B",
+        "text": "かすか"
+      },
+      {
+        "id": "C",
+        "text": "おろそか"
+      },
+      {
+        "id": "D",
+        "text": "なだらか"
+      }
+    ]
+  },
+  {
+    "id": "N2_06_M4_05",
+    "examId": "N2-MOCK-06",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-CTX",
+    "category": "Mondai 4: 文脈規定",
+    "stem": "悪天候の平日の午後だったため、普段は賑わう商店街も人通りは【　　】だった。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "まばら"
+      },
+      {
+        "id": "B",
+        "text": "おおまか"
+      },
+      {
+        "id": "C",
+        "text": "ひそか"
+      },
+      {
+        "id": "D",
+        "text": "のどか"
+      }
+    ]
+  },
+  {
+    "id": "N2_06_M4_06",
+    "examId": "N2-MOCK-06",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-CTX",
+    "category": "Mondai 4: 文脈規定",
+    "stem": "想定外のアクシデントに見舞われ、新入社員はすっかり【　　】して指示を待つことしかできなかった。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "しがみついて"
+      },
+      {
+        "id": "B",
+        "text": "うろたえて"
+      },
+      {
+        "id": "C",
+        "text": "くつろいで"
+      },
+      {
+        "id": "D",
+        "text": "とまどって"
+      }
+    ]
+  },
+  {
+    "id": "N2_06_M4_07",
+    "examId": "N2-MOCK-06",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-CTX",
+    "category": "Mondai 4: 文脈規定",
+    "stem": "意見の対立が続いて以来、二人の関係はどこか【　　】していて口数も減った。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "ぎくしゃく"
+      },
+      {
+        "id": "B",
+        "text": "ごたごた"
+      },
+      {
+        "id": "C",
+        "text": "もたもた"
+      },
+      {
+        "id": "D",
+        "text": "ぐずぐず"
+      }
+    ]
+  },
+  {
+    "id": "N2_06_M5_01",
+    "examId": "N2-MOCK-06",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-PARA",
+    "category": "Mondai 5: 言い換え類義",
+    "stem": "十分な事前準備をしていたため、交渉は【たやすく】成立した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "あっさり"
+      },
+      {
+        "id": "B",
+        "text": "かろうじて"
+      },
+      {
+        "id": "C",
+        "text": "すみやかに"
+      },
+      {
+        "id": "D",
+        "text": "あらかじめ"
+      }
+    ]
+  },
+  {
+    "id": "N2_06_M5_02",
+    "examId": "N2-MOCK-06",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-PARA",
+    "category": "Mondai 5: 言い換え類義",
+    "stem": "新規事業を立ち上げるにあたり、チーム全員の【意気込み】が感じられた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "誠意"
+      },
+      {
+        "id": "B",
+        "text": "やる気"
+      },
+      {
+        "id": "C",
+        "text": "自負"
+      },
+      {
+        "id": "D",
+        "text": "警戒"
+      }
+    ]
+  },
+  {
+    "id": "N2_06_M5_03",
+    "examId": "N2-MOCK-06",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-PARA",
+    "category": "Mondai 5: 言い換え類義",
+    "stem": "厳しい叱責を受けた後、彼は一言も話さず【うつむいて】いた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "横を向いて"
+      },
+      {
+        "id": "B",
+        "text": "後ろを向いて"
+      },
+      {
+        "id": "C",
+        "text": "下を向いて"
+      },
+      {
+        "id": "D",
+        "text": "上を向いて"
+      }
+    ]
+  },
+  {
+    "id": "N2_06_M5_04",
+    "examId": "N2-MOCK-06",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-PARA",
+    "category": "Mondai 5: 言い換え類義",
+    "stem": "海外赴任に伴う税務手続きは、専門用語が多く非常に【わずらわしい】。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "ばかばかしい"
+      },
+      {
+        "id": "B",
+        "text": "みっともない"
+      },
+      {
+        "id": "C",
+        "text": "まぎらわしい"
+      },
+      {
+        "id": "D",
+        "text": "めんどうな"
+      }
+    ]
+  },
+  {
+    "id": "N2_06_M5_05",
+    "examId": "N2-MOCK-06",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-PARA",
+    "category": "Mondai 5: 言い換え類義",
+    "stem": "明日の会議は書類の確認のみですので、私服で参加されても【さしつかえありません】。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "問題ありません"
+      },
+      {
+        "id": "B",
+        "text": "おすすめしません"
+      },
+      {
+        "id": "C",
+        "text": "遠慮してください"
+      },
+      {
+        "id": "D",
+        "text": "義務づけられています"
+      }
+    ]
+  },
+  {
+    "id": "N2_06_M6_01",
+    "examId": "N2-MOCK-06",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-USE",
+    "category": "Mondai 6: 用法",
+    "stem": "【模倣】",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "優れた芸術作品を観察し、その技法を模倣することから独自の創作が始まる。"
+      },
+      {
+        "id": "B",
+        "text": "試験の模倣として過去問を何度も解くことで、本番の感覚に慣れておく。"
+      },
+      {
+        "id": "C",
+        "text": "災害発生時に備えて、全社員で避難の模倣を迅速に実施した。"
+      },
+      {
+        "id": "D",
+        "text": "新商品の模倣を測るため、街頭で大規模なアンケート調査を行った。"
+      }
+    ]
+  },
+  {
+    "id": "N2_06_M6_02",
+    "examId": "N2-MOCK-06",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-USE",
+    "category": "Mondai 6: 用法",
+    "stem": "【蓄積】",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "彼は毎月の給料から一定額を銀行口座に蓄積して家を買った。"
+      },
+      {
+        "id": "B",
+        "text": "長年の地道な現場実験によって得られたデータと知見の蓄積が、今回の発見を生んだ。"
+      },
+      {
+        "id": "C",
+        "text": "昨夜の大雪が道路に激しく蓄積し、朝の通勤ラッシュを麻痺させた。"
+      },
+      {
+        "id": "D",
+        "text": "会議で出た意見をノートに蓄積し、後で議事録として清書した。"
+      }
+    ]
+  },
+  {
+    "id": "N2_06_M6_03",
+    "examId": "N2-MOCK-06",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-USE",
+    "category": "Mondai 6: 用法",
+    "stem": "【画期的】",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "彼女は毎朝時間を画期的に使って、読書と運動の両立を図っている。"
+      },
+      {
+        "id": "B",
+        "text": "この画期的な壁画は、地元出身の若手画家によって丁寧に描かれた。"
+      },
+      {
+        "id": "C",
+        "text": "従来の治療法の概念を根底から覆す、画期的な新薬が開発された。"
+      },
+      {
+        "id": "D",
+        "text": "画期的な天候の急変により、予定されていた屋外コンサートは中止となった。"
+      }
+    ]
+  },
+  {
+    "id": "N2_06_M6_04",
+    "examId": "N2-MOCK-06",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-USE",
+    "category": "Mondai 6: 用法",
+    "stem": "【妥当】",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "市場の平均相場や品質を総合的に考慮すれば、この価格設定は極めて妥当だ。"
+      },
+      {
+        "id": "B",
+        "text": "彼は時間に妥当な性格で、一度も待ち合わせに遅刻したことがない。"
+      },
+      {
+        "id": "C",
+        "text": "この部屋は日当たりがよく、風通しも妥当なのでとても過ごしやすい。"
+      },
+      {
+        "id": "D",
+        "text": "試験で満点を取るという妥当な目標に向かって、毎日猛勉強を続けている。"
+      }
+    ]
+  },
+  {
+    "id": "N2_06_M6_05",
+    "examId": "N2-MOCK-06",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-USE",
+    "category": "Mondai 6: 用法",
+    "stem": "【執拗】",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "相手の弱点を見つけると、執拗に同じ論点を突いて攻撃を繰り返した。"
+      },
+      {
+        "id": "B",
+        "text": "この料理はスープの味が執拗で、一口食べただけで濃厚な旨味が広がる。"
+      },
+      {
+        "id": "C",
+        "text": "彼女は執拗な性格で、困っている人を見ると放っておけない優しさがある。"
+      },
+      {
+        "id": "D",
+        "text": "最新のスマートフォンの画面は執拗に美しく、細部まで鮮やかに映し出される。"
+      }
+    ]
+  },
+  {
+    "id": "N2_06_M7_01",
+    "examId": "N2-MOCK-06",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-GR-FORM",
+    "category": "Mondai 7: 文法形式の判断",
+    "stem": "過去の失敗の経験（　　）、今回の新しいプロジェクトではリスク管理を徹底した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "を皮切りに"
+      },
+      {
+        "id": "B",
+        "text": "を踏まえて"
+      },
+      {
+        "id": "C",
+        "text": "を抜きにして"
+      },
+      {
+        "id": "D",
+        "text": "を契機に"
+      }
+    ]
+  },
+  {
+    "id": "N2_06_M7_02",
+    "examId": "N2-MOCK-06",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-GR-FORM",
+    "category": "Mondai 7: 文法形式の判断",
+    "stem": "新製品の全国発売（　　）、関係者を集めた大規模な記者会見が開催された。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "に際して"
+      },
+      {
+        "id": "B",
+        "text": "に基づいて"
+      },
+      {
+        "id": "C",
+        "text": "に先立ち"
+      },
+      {
+        "id": "D",
+        "text": "に伴い"
+      }
+    ]
+  },
+  {
+    "id": "N2_06_M7_03",
+    "examId": "N2-MOCK-06",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-GR-FORM",
+    "category": "Mondai 7: 文法形式の判断",
+    "stem": "連日の猛特訓に耐え抜いた彼のことだから、明日の本番でも実力を発揮する（　　）。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "にすぎない"
+      },
+      {
+        "id": "B",
+        "text": "に相違ない"
+      },
+      {
+        "id": "C",
+        "text": "にほかならない"
+      },
+      {
+        "id": "D",
+        "text": "わけがない"
+      }
+    ]
+  },
+  {
+    "id": "N2_06_M7_04",
+    "examId": "N2-MOCK-06",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-GR-FORM",
+    "category": "Mondai 7: 文法形式の判断",
+    "stem": "会社の経営方針が大きく転換した以上、我々現場の社員も変革を受け入れ（　　）。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "そうにない"
+      },
+      {
+        "id": "B",
+        "text": "かねない"
+      },
+      {
+        "id": "C",
+        "text": "っこない"
+      },
+      {
+        "id": "D",
+        "text": "ざるを得ない"
+      }
+    ]
+  },
+  {
+    "id": "N2_06_M7_05",
+    "examId": "N2-MOCK-06",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-GR-FORM",
+    "category": "Mondai 7: 文法形式の判断",
+    "stem": "彼がこれほどの成功を収めたのは、人知れず流した汗と努力の（　　）。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "おそれがある"
+      },
+      {
+        "id": "B",
+        "text": "たまものだ"
+      },
+      {
+        "id": "C",
+        "text": "かぎりだ"
+      },
+      {
+        "id": "D",
+        "text": "ものがある"
+      }
+    ]
+  },
+  {
+    "id": "N2_06_M7_06",
+    "examId": "N2-MOCK-06",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-GR-FORM",
+    "category": "Mondai 7: 文法形式の判断",
+    "stem": "子供は母親の顔をどこか（　　）に見つめながら、小さな声で嘘をついたことを謝った。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "不安がち"
+      },
+      {
+        "id": "B",
+        "text": "不安ぎみ"
+      },
+      {
+        "id": "C",
+        "text": "不安げ"
+      },
+      {
+        "id": "D",
+        "text": "不安っぽく"
+      }
+    ]
+  }
+]

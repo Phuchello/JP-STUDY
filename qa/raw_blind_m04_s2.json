@@ -6,7 +6,8 @@
     "linguisticJustification": "上司の最も急を要する指示: 「何よりもまず通訳派遣会社に電話して、専任通訳者の集合時刻を1時間繰り上げてもらえるか至急確認してほしいんだ」。女性社員は通訳派遣会社への連絡を最優先で行う。正解はA。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "451da18558d855196b07dae466b82d67e2c946a80ee23575ee254f065dcc9790"
+    "contentFingerprint": "00a2605726b3af7b357f43aadccba23593e8d24bb9bcb3c2c9ca519905f2d3cc",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M1_L02",
@@ -15,7 +16,8 @@
     "linguisticJustification": "司書の指示: 「本日の午後5時までに図書館ポータルサイトの取り寄せフォームから申請を完了していただければ、明日の午後3時には当館の受取カウンターに届きますよ」。男子学生は今日中に申請フォームを送信する。正解はB。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "7a990b827b8108191dcd5117b9ffe9e5113d5e620753c98302ad9bc4b0e932aa"
+    "contentFingerprint": "a226de30dc631b87bcac91d975430f88e73373a33a77f9ecf1db6531fae25746",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M1_L03",
@@ -24,7 +26,8 @@
     "linguisticJustification": "コーディネーターの指示: 「ワイヤレスマイクが予備も含めて5本揃っているかと、交換用の新品電池が十分にあるかを最優先で音響担当の技師さんに確認してほしいの」。男性スタッフは音響技師に確認しに行く。正解はD。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "bf6e57ba6ea7d75586f878a8ed467b12495b218df37c19b3e06135a4e66493f9"
+    "contentFingerprint": "af7fc6528c6007b06dcb5105bb17370f05d20843a8356491de8f0ff31c1549fd",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M1_L04",
@@ -33,7 +36,8 @@
     "linguisticJustification": "課長の最優先の修正指示: 「環境省の公式エコマークの承認番号の文字が1桁抜けてしまっているの... 他の作業を止めて最優先で正しい番号に差し替えてちょうだい」。デザイナーは認証番号の脱字を直す。正解はC。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "dc1d3e30d6764a0bf964a5909c35159218a7778198fddd7ebe5db69adfa8836d"
+    "contentFingerprint": "3b13e49c5b4a7027e85c977fc9beaade01d486db37abd8efe9021f1b7c51d88e",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M1_L05",
@@ -42,7 +46,8 @@
     "linguisticJustification": "看護師の注意事項: 「前日の夜9時以降は、いかなる固形物の食事も一切お控えください... アルコール類や糖分の入ったジュース、牛乳などは夜9時以降は避けてくださいね」。正解はA。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "f81f98b3e8824249fbd96e61db4a307c7ae4ecb5286a46f5c88f7b8cc37d2fb2"
+    "contentFingerprint": "46804adb67f22f6df730c31afd09dec0520781004b666c0f684c4dd02d98255c",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M2_L01",
@@ -51,7 +56,8 @@
     "linguisticJustification": "採用の最大の決め手: グループディスカッションにおいて他者の意見を傾聴し、合意形成へとチームを導く協調性とリーダーシップが高く評価された。正解はA。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "8bd0d582cc6ed39a7d2f7f27c75679adba44eceb9b34df7ee8d067ae0042f27f"
+    "contentFingerprint": "c7efd2671dc5239a589049b141906527e8dea63bf672c7d2c7462ed6be8d91c8",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M2_L02",
@@ -60,7 +66,8 @@
     "linguisticJustification": "登り窯に戻した理由: 薪の炎と灰が生み出す予期せぬ自然な風合いと、計算通りにはならない唯一無二の温かみを追求するため。正解はD。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "c6b1a0453f32aa6844314897ee49962b320a60f5bf6864b8085dd613281d60cf"
+    "contentFingerprint": "2d8652cd37a20106636a7e103d0c09f3ee9339f18e76b130ea5c7368ec732189",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M2_L03",
@@ -69,7 +76,8 @@
     "linguisticJustification": "歩行者天国導入の主目的: 路上に憩いの空間を創出して滞在時間を延ばし、郊外モールに流れた客足を呼び戻して地域経済を活性化すること。正解はB。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "22c9ce72aae7cd084e2a40d8b0024ad9dbc76970eca28f03b2b48b8feec9643d"
+    "contentFingerprint": "f0dc6e82f10def77dc722020c7131d7dc56bb2db3ac9d7b085cf19683672e042",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M2_L04",
@@ -78,7 +86,8 @@
     "linguisticJustification": "トマトとバジルの混植効果: バジルが水分バランスを調整し、特有の芳香で害虫を忌避させて病気を防ぐ。正解はA。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "b615a8090a90887557fc52349846c777e18a94a16409d6ea82b60cee9f9553f8"
+    "contentFingerprint": "cf11426b28008b147056918900c0c7cbffd96c255b9d5aa0b38d7ae25b03aee9",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M2_L05",
@@ -87,7 +96,8 @@
     "linguisticJustification": "カゴ落ちの最大の原因: 最終確認・決済画面で予期せぬ送料や手数料が加算され、合計金額が想定より高くなったことに失望するため。正解はC。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "1c341604afec537111e65899bf27c9bf0467afa0bb1f4369aaae4b2423bb1827"
+    "contentFingerprint": "8ce23930d6661f507d69a012272cb5dc03d5cf5b3eb1b441d88a871677555846",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M2_L06",
@@ -96,7 +106,8 @@
     "linguisticJustification": "シューズを変えた理由: 着地時の足首のブレを抑えてアキレス腱への負担を軽減し、怪我の再発を予防するため。正解はD。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "f1706d72c989cb944b5dcf4b33113944fe85244bf53a18884241e67954d10f3f"
+    "contentFingerprint": "f54f126c632de021b06a975ccb533f8b3126c143206cc01d25baed696627597f",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M3_L01",
@@ -105,7 +116,8 @@
     "linguisticJustification": "専門家の主旨: 行動経済学の保有効果とサンクコスト効果に基づき、人が使わないモノを手放せない心理メカニズムとその克服の視点を解説している。正解はD。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "76abc351f167aa617020510bba07d9680a9a5050c7707a2baf5fb677f5989154"
+    "contentFingerprint": "6dd4fe8a346ec67d4f95eeb4617bb4759f4bf1ef8b17c8b7fcb0c741aa34652a",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M3_L02",
@@ -114,7 +126,8 @@
     "linguisticJustification": "コメンテーターの主旨: 在宅勤務と対面出社の双方のメリットを見極め、業務性質に応じて柔軟に調和させる制度設計が重要であること。正解はA。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "82bea1ab6ae0c31aa45caeecb969faca5384b83172287a41386fc4fb4647e991"
+    "contentFingerprint": "f551ca6a6d169d378e78ecbbdf73386edc0f2eb768c54f926c35992248ba7d71",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M3_L03",
@@ -123,7 +136,8 @@
     "linguisticJustification": "学芸員の主旨: 和紙の原料（強靭な植物繊維）とアルカリ性灰汁製法がもたらす極めて高い耐久性と長期保存性の秘密を解説している。正解はB。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "f7ca689a25c0e9e51a5f7d9eec5c2af85b33ed6aaa57ef3e52e37203de1a9eee"
+    "contentFingerprint": "f923c6182fe31f75ba7d089e7836c45541c35daefe175ed23bfa6b2a17588788",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M3_L04",
@@ -132,7 +146,8 @@
     "linguisticJustification": "学者の主旨: 5ミリ以下の微小なマイクロプラスチックが有害物質を吸着し、食物連鎖を通じて生態系と人間の健康を脅かす危険性に警鐘を鳴らしている。正解はC。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "2c4cdc8e5df63fc0f55165d00589df894f6acd5434cb64133c2b531d30a6349a"
+    "contentFingerprint": "bc5e5991d591d538b120a162097dde8dbec32f06f5e8ded74423048ece0dc97e",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M3_L05",
@@ -141,7 +156,8 @@
     "linguisticJustification": "建築家の主旨: オフィス内に植物や自然光を取り入れるバイオフィリックデザインが、働く人の健康や生産性を高める効果を解説している。正解はA。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "e68b0886e10431f8f15fc466eb4201a59b2a33c1cf20ecf3053e51c54980f1d2"
+    "contentFingerprint": "3348050c8808ac80d132bfc77e9008a2edbf70532393cb9a6119ea49444928e3",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M4_L01",
@@ -150,7 +166,8 @@
     "linguisticJustification": "会議資料の誤植の報告に対し、上司が迅速に「ええ、差し替えの紙を急いで配ってくれ」と指示する1番が適切。正解はA。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "cbff27060675bc7d079b18c579e2e3b777fc109f3640f4c04b0fdba9e7c20fa8"
+    "contentFingerprint": "1a5097fbd403a7e0139ded89b5e0242fa651324ee2d2c356d2cb8fdfcc5e86e8",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M4_L02",
@@ -159,7 +176,8 @@
     "linguisticJustification": "「予算の制約さえクリアできれば可能性は十分にある」という発話に対し、「はい、予算の件さえ目処が立てば前進できますね」と応じる1番が適切。正解はA。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "b8199fe7b6221f24bf4f95464d1dc7bb1a7dc0bd7984dfea12140b466986420d"
+    "contentFingerprint": "38d43d128c7e1b4e5b66120d22995ea1a9c87be8a8b75c2b8a3adb7a2c7f2413",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M4_L03",
@@ -168,7 +186,8 @@
     "linguisticJustification": "「歓迎会に少し遅れて参加しても構いませんか」という後輩の相談に対し、「ええ、開始時間に間に合わなくても大丈夫だよ」と許可する2番が適切。正解はB。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "23715c7fcb9383b07f383124d0ea34afd9b106ebe295a6b76e6866109441f70c"
+    "contentFingerprint": "fa5ec4927776d0dd5f1bc157dc1d35f6d18b55cce16c7203a1aba3ed872dbfd7",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M4_L04",
@@ -177,7 +196,8 @@
     "linguisticJustification": "「今日中に入稿しないことには間に合わないよ」という忠告に対し、「はい、大至急データを確認して入稿手続きを済ませます」と応じる3番が適切。正解はC。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "c216d48cb1693dab0821ca76a8078a4fcdd962ed9ea7f04275a5c30adbea5291"
+    "contentFingerprint": "1f8ca201d18f2c43cf85ab5f3d9b020ab5f2fb69a316672ec3eb32f1c2ed3760",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M4_L05",
@@ -186,7 +206,8 @@
     "linguisticJustification": "「平日昼間でも行列ができる人気ぶり」という情報に対し、「へえ、そこまで評判なら一度行ってみる価値がありそうですね」と応じる2番が適切。正解はB。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "2cff44a49ce0f00aaf58b0a7170ee6e06bde2f999d2c95a0967859987e26942e"
+    "contentFingerprint": "b38cfc9a9a7edfaadb07f119f47e9ed86a5c443a749cf078c45e71b870f7763d",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M4_L06",
@@ -195,7 +216,8 @@
     "linguisticJustification": "「君が粘り強く交渉してくれたおかげで契約がまとまった」という賞賛に対し、「お役に立てて何よりです。チームの皆さんのおかげです」と謙遜する3番が適切。正解はC。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "05ec4515d13cf50fe15121018258579f90cefc6182b801fe4702659f30d0b208"
+    "contentFingerprint": "23df27bb50ca903bd6ec7437825718f47de083c639b1aba794ed229b4604f3f7",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M4_L07",
@@ -204,7 +226,8 @@
     "linguisticJustification": "「何度も修理するより買い替えたほうが安上がりなんじゃない？」という提案に対し、「確かに、修理代がかさむなら新品にしたほうが賢明ですね」と同調する1番が適切。正解はA。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "7855a5d3a7221339590c6c964c83d1207a8693a70b7a0b9f0838497b4f754c60"
+    "contentFingerprint": "6fed7d007e8c6248353a7b0fcc617cdade3c1195d10635c0f3ea3015acb4a022",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M4_L08",
@@ -213,7 +236,8 @@
     "linguisticJustification": "「アンケート回収を手伝ってもらえると助かる」という依頼に対し、「お安い御用です。出口のところで回収しますね」と快諾する2番が適切。正解はB。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "42b9df3d740c46d00f922ad4373e24d98f8f7ddbfb592c42bc97ad7b182437bd"
+    "contentFingerprint": "18dcf2d9e065de1163e860db36fbaf0e1c67fc153cb511a8a39803686c766977",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M4_L09",
@@ -222,7 +246,8 @@
     "linguisticJustification": "「昨夜の台風、一時はどうなることかと思った」という感想に対し、「本当ですね、大きな被害もなく無事に通り過ぎてくれてほっとしました」と同調する2番が適切。正解はB。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "a080a4afd5856f8b03da03e279a73676f51c8f642149ce656750733d4729ce59"
+    "contentFingerprint": "112b2cefb4fdbcd19397cfe28797ffa3f16f2ab21b871f0bf6bc4200b6fc0228",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M4_L10",
@@ -231,7 +256,8 @@
     "linguisticJustification": "「海外派遣研修の応募者が殺到して倍率が跳ね上がった」という知らせに対し、「そうですか、それじゃあ面接の準備をより入念にしないといけませんね」と引き締める3番が適切。正解はC。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "a02917496ecccb2b5eebb4fedb6631485c4c33143ef409e12bc7304fd4fc82d1"
+    "contentFingerprint": "87fabe0be20d39e0099b2ecd95803ff20871a87cef64e9caa940b6e84b4688fe",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M4_L11",
@@ -240,7 +266,8 @@
     "linguisticJustification": "「引き受けたからには途中で投げ出すわけにはいかない」という決意に対し、「ええ、最後まで責任を持ってやり抜きましょう」と同調する1番が適切。正解はA。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "d1eaf73c34d64002afa90a5ca35200c54904e72c843342f558c651700df159d1"
+    "contentFingerprint": "7288d16116103577359fdd12a2749699702f60ba3fd9fbfbd17918d5af532d27",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M5_L01",
@@ -249,7 +276,8 @@
     "linguisticJustification": "通年運営可能で、天候に左右されず、国内外の観光客に対応でき、地域の職人や郷土料理と連携できる2番の企画（古民家再生・伝統工芸＆郷土料理ワークショップ）が全会一致で決定された。正解はB。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "72a5d65e19aa87895331f104fe741b7d242e4a58601659b458af1a94c1a5586c"
+    "contentFingerprint": "ecc3c4936de539bb4911b232a511031c780a5855d7aba0728c9ddea2afa06f76",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M5_L02",
@@ -258,7 +286,8 @@
     "linguisticJustification": "4番の企画（ライトアップフェスティバル）が見送られた最大の理由は、秋の1ヶ月間のみの季節限定イベントであり、通年の継続集客という必須条件を満たせないため。正解はD。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "35feb3d1e2b135b5243f728b7592d1fa01ba345a8f2ee358f9d9ab0d833017b5"
+    "contentFingerprint": "aa219feb598535d3de4a6553ae2b3b2a1c684fd77b10e7614468bf71060fb1e5",
+    "isFreshReview": true
   },
   {
     "id": "N2_04_M5_L03",
@@ -267,6 +296,7 @@
     "linguisticJustification": "家族の要望（広い部屋の集塵力、冬の加湿機能、長寿命で低維持費）をすべて満たす3番のモデルC（10年交換不要HEPA＋加湿機能搭載）を購入することに決定した。正解はC。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "7d743e2358b4046c5fbf95fe9f48591eeecf0b1e026d1a05caea790e926a6af9"
+    "contentFingerprint": "4e3073b6390f44e587dbecb5259c662a8db9dfadfcdfe1791d5c7c9708fa468b",
+    "isFreshReview": true
   }
 ]

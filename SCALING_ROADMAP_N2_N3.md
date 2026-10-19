@@ -11,7 +11,7 @@
 
 JP-STUDY operates an institutional-grade, automated examination production factory and adversarial QA gate for the Japanese-Language Proficiency Test (JLPT).
 
-### Current Completed Baseline (Phase 4):
+### Current Completed Baseline (Phase 5):
 
 | Examination | Language Knowledge & Reading | Listening Comprehension | Total Questions | Audio Tracks (MP3) | Verification Status |
 |:---|:---:|:---:|:---:|:---:|:---:|
@@ -20,7 +20,8 @@ JP-STUDY operates an institutional-grade, automated examination production facto
 | **N2-MOCK-03** | 75 items (105 min) | 30 items (50 min) | 105 items | 30 tracks | `TECHNICALLY_READY · AI_AUDITED` |
 | **N2-MOCK-04** | 75 items (105 min) | 30 items (50 min) | 105 items | 30 tracks | `TECHNICALLY_READY · AI_AUDITED` |
 | **N2-MOCK-05** | 75 items (105 min) | 30 items (50 min) | 105 items | 30 tracks | `TECHNICALLY_READY · AI_AUDITED` |
-| **Subtotal** | **375 items** | **150 items** | **525 items** | **150 tracks** | **100% Release Gate Pass** |
+| **N2-MOCK-06** | 75 items (105 min) | 30 items (50 min) | 105 items | 30 tracks | `TECHNICALLY_READY · AI_AUDITED` |
+| **Subtotal** | **450 items** | **180 items** | **630 items** | **180 tracks** | **100% Release Gate Pass** |
 
 ---
 
@@ -121,7 +122,8 @@ Phase 4 (CURRENT):
 
 Phase 5 (IN PROGRESS):
   ✅ N2-MOCK-05 Completed (105 questions, 30 audio, verified E2E & release gate)
-  🎯 N2-MOCK-06 to N2-MOCK-08 (315 questions, 90 audio)
+  ✅ N2-MOCK-06 Completed (105 questions, 30 audio, verified E2E & release gate)
+  🎯 N2-MOCK-07 to N2-MOCK-08 (210 questions, 60 audio)
   🎯 N3-MOCK-01 to N3-MOCK-03 (285 new questions, 84 new audio)
   Milestone: 1,125 total questions · 324 audio tracks
 

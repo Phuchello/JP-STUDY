@@ -6,7 +6,8 @@
     "linguisticJustification": "「遮断」の正しい音読みは「しゃだん」。「遮（シャ）」＋「断（ダン）」。道路や通路などをさえぎって通行を止めること。正解はC。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "0069adda86c7463750265039fbd7d5e72f14b968a2974db30b4491780815fe29"
+    "contentFingerprint": "1661cf2e46b5bb96b794c9423df4bd2877318ffb5bb3f30724b09f824e97f104",
+    "isFreshReview": true
   },
   {
     "id": "N2_05_M1_02",
@@ -15,7 +16,8 @@
     "linguisticJustification": "「措置」の正しい音読みは「そち」。「措（ソ）」＋「置（チ）」。事態を収拾するための取り計らい。正解はA。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "ae07f0a0fb38b2b968392ef92dedb2155f6db5a72e2da25b9863a52b31301e5e"
+    "contentFingerprint": "e6be494a627f4b601c61a001f096a3408cad9c0aca6bda6c5e2864582d4de2be",
+    "isFreshReview": true
   },
   {
     "id": "N2_05_M1_03",
@@ -24,7 +26,8 @@
     "linguisticJustification": "「把握」の正しい音読みは「はあく」。「把（ハ）」＋「握（アク）」。物事の本質や状況をしっかり理解すること。正解はD。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "4c3c32d0f6875a322c898f56cef16635f192e18ca8bda86f5db0b795477ff343"
+    "contentFingerprint": "58acabf48bc2f6c29c3d1adc1226f192bc3bd3c47dce6fbb82cc733bbf78448f",
+    "isFreshReview": true
   },
   {
     "id": "N2_05_M1_04",
@@ -33,7 +36,8 @@
     "linguisticJustification": "「催促」の正しい音読みは「さいそく」。「催（サイ）」＋「促（ソク）」。期日を守るよう早くするよう要求すること。正解はB。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "3acb95e3b5cbebd6de10cdad7e6e7fd724edc6e881d82daf61fae0a21d6642eb"
+    "contentFingerprint": "14a8c5b93311c882608e2e17dbfd7f4a6766a33d2c89d9a4a5b57f43a8ae45d4",
+    "isFreshReview": true
   },
   {
     "id": "N2_05_M1_05",
@@ -42,7 +46,8 @@
     "linguisticJustification": "「凝縮」の正しい音読みは「ぎょうしゅく」。「凝（ギョウ）」＋「縮（シュク）」。広がり散らばっているものが一つに固まる・集まること。正解はC。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "799fce6823b2b1ca9a83f2f53db1c4d2b706a4a564258c588f7f0be844412922"
+    "contentFingerprint": "7dc250010004dbd91cc96fe4e37a7f7903a4fcad62b78f91e50fb52bbad35b8a",
+    "isFreshReview": true
   },
   {
     "id": "N2_05_M2_01",
@@ -51,7 +56,8 @@
     "linguisticJustification": "「すいたい」の文脈にふさわしい漢字表記は「衰退」。「衰」＋「退」。勢いが衰えて衰微すること。正解はB。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "980f6a2f044e9053a864aafc666916e51714d6ecfc0f71559bb440903e7e8b72"
+    "contentFingerprint": "21ccfb17ee43d6a60e23a79a3122af394e2ef72d4a42f44c5d3916f220390805",
+    "isFreshReview": true
   },
   {
     "id": "N2_05_M2_02",
@@ -60,7 +66,8 @@
     "linguisticJustification": "「うながす」の文脈にふさわしい漢字表記は「促す」。相手に行動を勧めること。正解はD。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "0c3f1a4ae878e1b57373da1915e82be5b4ec1002f2833a64ba595d9d1b33ba37"
+    "contentFingerprint": "af632620b7ecf7ec2a5911243e6a67eca3d058a4bd281390b7e6a59da5e6e619",
+    "isFreshReview": true
   },
   {
     "id": "N2_05_M2_03",
@@ -69,7 +76,8 @@
     "linguisticJustification": "「ほしょう」の文脈（損害賠償・補填）にふさわしい漢字表記は「補償」。正解はA。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "68f0d4a715ef5e93761276bec141dad9fc3ca5c5813490d284b17b8460bd6f56"
+    "contentFingerprint": "ae2c4fee687918ca033181f8ef68bbfc6b0eed988917df8e576ab595bfdf1f5b",
+    "isFreshReview": true
   },
   {
     "id": "N2_05_M2_04",
@@ -78,7 +86,8 @@
     "linguisticJustification": "「たいざい」の文脈にふさわしい漢字表記は「滞在」。出先にとどまること。正解はC。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "fc979908764f44b12c525c4e4d3fdc659d48858c2bec2281ba5ca1f9d6fdcd6d"
+    "contentFingerprint": "dd821c47304f8d7d1f1d211b42bb0644e81b34b122b80800fddcce7d38cde4ef",
+    "isFreshReview": true
   },
   {
     "id": "N2_05_M2_05",
@@ -87,7 +96,8 @@
     "linguisticJustification": "「こばむ」の文脈にふさわしい漢字表記は「拒む」。きっぱりと拒絶すること。正解はB。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "e56dea563c3ad790e8ee15c4c657c02c3a882223218ff8269b2afd254c719d24"
+    "contentFingerprint": "c72528a0b2f51c26357b1bd139ee4288a39939d77e341c34899390bfd26e359c",
+    "isFreshReview": true
   },
   {
     "id": "N2_05_M3_01",
@@ -96,7 +106,8 @@
     "linguisticJustification": "「〜問題」の前に付き、多様な多くの問題を表す接頭辞は「諸〜」。「諸問題」。正解はA。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "aee8468e64a5d8316eefd409d52eed56288c05dd25109a929da46708013e7626"
+    "contentFingerprint": "11261ef135c852710bc90ce96cd99d69ecf6cb32edb1a0c9ee0f0f4c1277473b",
+    "isFreshReview": true
   },
   {
     "id": "N2_05_M3_02",
@@ -105,7 +116,8 @@
     "linguisticJustification": "「日帰り〜」の後に付き、移動可能な地理的範囲を表す接尾辞は「〜圏」。「日帰り圏」。正解はC。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "240e830bd02e16c69054c0eba9763f018fc39668d2f479c4481547177f04a1fd"
+    "contentFingerprint": "22173de61c1a2436628c224ca90c0812fcb1b7135ae562ab0e93d9680019b5a7",
+    "isFreshReview": true
   },
   {
     "id": "N2_05_M3_03",
@@ -114,7 +126,8 @@
     "linguisticJustification": "「〜売上高」の前に付き、全体の総計額を表す接頭辞は「総〜」。「総売上高」。正解はB。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "e19715b78c97ebc63c2391c7f4709e4c62ca52f7f9c44137d2de9964b93bdd28"
+    "contentFingerprint": "ca0d9cd6e3a093c689b333d59617c3addd2178bc753b4a49f4e4f30d5a17642d",
+    "isFreshReview": true
   },
   {
     "id": "N2_05_M3_04",
@@ -123,7 +136,8 @@
     "linguisticJustification": "「資金〜」の後に付き、不足・困窮状態を表す接尾辞は「〜難」。「資金難」。正解はD。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "a8633082973d13c124d307ca304937e111bc73d0378df1b37d72470d44d00059"
+    "contentFingerprint": "83a1ab6b3d23a772441f59d634f586a393aed1adeb0fdc1bb341c6a23287ad56",
+    "isFreshReview": true
   },
   {
     "id": "N2_05_M3_05",
@@ -132,7 +146,8 @@
     "linguisticJustification": "「和〜」の後に付き、日本風の様式・趣きを表す接尾辞は「〜風」。「和風」。正解はA。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "7824a167ea0d8d3a74068e87c2d0aa9c0f29cedab759d882a5a9ef32b7d3d5f5"
+    "contentFingerprint": "91f81ff809bef098ad35048896941589a346861dfb9face2accf950caf21ea2d",
+    "isFreshReview": true
   },
   {
     "id": "N2_05_M4_01",
@@ -141,7 +156,8 @@
     "linguisticJustification": "計算能力やデータ量が桁外れに大きいことを表す語は「膨大（ぼうだい）」。正解はB。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "3afc01b401b699718aabd934e2e999ba4dbc7a9c4995f14c1129621b8d6dc5e9"
+    "contentFingerprint": "ad9e604f79fa5280154f1dcea2c2d9cfc9cf303060ea2a7c43785d8836240a55",
+    "isFreshReview": true
   },
   {
     "id": "N2_05_M4_02",
@@ -150,7 +166,8 @@
     "linguisticJustification": "言葉の表面には表れにくい微妙な意味合い・ニュアンスを表すカタカナ語は「ニュアンス」。正解はD。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "c301f9ade075574b4a597a670692283d2cb733d671e457a64d2daa405ce68e19"
+    "contentFingerprint": "9ee5ebf716ebd7f51797af1b3108224e3ebaeea526496297f5b4d2727a9aff1f",
+    "isFreshReview": true
   },
   {
     "id": "N2_05_M4_03",
@@ -159,7 +176,8 @@
     "linguisticJustification": "よく似ていて見分けがつきにくく混同しやすい様子を表す語は「紛らわしい」。正解はA。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "e05b4bf043c6832d79cc648decc499ee6b421b5c4f792a80066fca33d0bcd21b"
+    "contentFingerprint": "6a91e6bc1f8ff843edbabff7b16ed493f526bc713d545e24d05e618b5a277b75",
+    "isFreshReview": true
   },
   {
     "id": "N2_05_M4_04",
@@ -168,7 +186,8 @@
     "linguisticJustification": "決断を前にして迷い、ぐずぐずためらうことを表す語は「躊躇（ちゅうちょ）」。正解はC。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "2042bad2669fe0437525a0673f58ad1ffabdb733852acb2524d4450d127844fb"
+    "contentFingerprint": "f2b898db9ecba712582bff90e06ec5204ced46438a14ab626b29a126cc5c6178",
+    "isFreshReview": true
   },
   {
     "id": "N2_05_M4_05",
@@ -177,7 +196,8 @@
     "linguisticJustification": "物事が滞りなく予定通り順調に運んでいる様子は「順調」。正解はB。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "2d27dc9dca40adcbf9e8c70b1b3e4d6fe1cd1db5f37a29ed559826e7279a99c9"
+    "contentFingerprint": "3dbaca6c15a25d0f7db4fd294f0f8e5ebcc72d13a3c4e637941ef74570c062e1",
+    "isFreshReview": true
   },
   {
     "id": "N2_05_M4_06",
@@ -186,7 +206,8 @@
     "linguisticJustification": "文書の誤字などを見落として気づかない動詞は「見落とす」。正解はD。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "62e0178b2cbf0cc6fcea68c935b93bca9e13bd8313eb0c3b7dafb360283c80d4"
+    "contentFingerprint": "da149dbc4bc1d1258aebc0265bac139260f5d80d7d972489163a39617d09acb0",
+    "isFreshReview": true
   },
   {
     "id": "N2_05_M4_07",
@@ -195,7 +216,8 @@
     "linguisticJustification": "学習や仕事に対して自発的に取り組む意気込みは「意欲」。正解はA。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "2ae84737f022ab3ae7fd0ecc7622ef47f17ce6f62be116f2be0a608e580b8331"
+    "contentFingerprint": "31f756aad2681fc38fbd8a6a7fd49c8109b1c0f0502ed21fbd5f273be3841b7d",
+    "isFreshReview": true
   },
   {
     "id": "N2_05_M5_01",
@@ -204,7 +226,8 @@
     "linguisticJustification": "「おおむね」は全体の大半、ほとんどという意味で「だいたい」に言い換えられる。正解はC。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "9006791a4c1c64390fb37b8757aff84678dfe710a0242dbbc051eeaadfe870c2"
+    "contentFingerprint": "9c877ad2dbbefa67bfde9609135ac1e2e53df6559e52eff1f7d12364755e3091",
+    "isFreshReview": true
   },
   {
     "id": "N2_05_M5_02",
@@ -213,7 +236,8 @@
     "linguisticJustification": "「たちまち」は短時間の間に急速に変化する意で「すぐに」に言い換えられる。正解はA。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "1a36c7a3c1d79717b7b3783f18f64432bf865c0c5d5ffe3240670646057d6818"
+    "contentFingerprint": "e5f49a5fd7d1738934f817070493cdbdf1d78c616d1d063b3b8a6dde3a75f7e3",
+    "isFreshReview": true
   },
   {
     "id": "N2_05_M5_03",
@@ -222,7 +246,8 @@
     "linguisticJustification": "「手がかり」は物事を解決するきっかけ・糸口で「ヒント」に言い換えられる。正解はD。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "4f13c35278f9c871eae8645c6e34388f69160b1b59e90bd239bbc9a9f61e4080"
+    "contentFingerprint": "b91e8b33d443d210ab5173421bd49c61c5999b66502e78208c5a6ed5df24ccee",
+    "isFreshReview": true
   },
   {
     "id": "N2_05_M5_04",
@@ -231,7 +256,8 @@
     "linguisticJustification": "「念頭に置いて」は心に留めていつも配慮・意識することで「いつも意識して」に言い換えられる。正解はB。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "c3e6969d16e5dec83fb9b2a38068439d3e52996df69890cbd236d3dda0c16def"
+    "contentFingerprint": "067a38d86629c2c12bc364c0f2a5d429229d32d0582da904790e2bcd116badf0",
+    "isFreshReview": true
   },
   {
     "id": "N2_05_M5_05",
@@ -240,7 +266,8 @@
     "linguisticJustification": "「お手上げ」は解決策がなくどうすることもできない状態を指し「どうすることもできない」に言い換えられる。正解はC。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "78216f73319ca9e6983ac6aefe13bfb8972d13ba7a9ee1e51e33f7fba4f10b0e"
+    "contentFingerprint": "2e14f2637eac8fda0672bc3a6fd0c893fe9c76620515f83184865afe84a0c041",
+    "isFreshReview": true
   },
   {
     "id": "N2_05_M6_01",
@@ -249,7 +276,8 @@
     "linguisticJustification": "「妥協」は意見が対立した際に互いに歩み寄ることで、「妥協点を見出す」の用法が適切。正解はD。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "2af6ac34aeeb4ac699e1db400392b03fc6895d709de4f60eb7644c048903a47d"
+    "contentFingerprint": "a107bb7b6ac5d08606cabfe04486a2d6e5ea4666b18ae2c6e9248a2e757367cc",
+    "isFreshReview": true
   },
   {
     "id": "N2_05_M6_02",
@@ -258,7 +286,8 @@
     "linguisticJustification": "「乏しい」は経験や資源などが不足している意で、「経験が乏しい」の用法が適切。正解はB。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "1f9390731a647d2f3cff00b1ef6dc12fdd9079a446c383c7953e8c1cac3827d0"
+    "contentFingerprint": "572282449e0a0436439007c3ea48afcd787477b0ccb4b694794796e5cdeed6e0",
+    "isFreshReview": true
   },
   {
     "id": "N2_05_M6_03",
@@ -267,7 +296,8 @@
     "linguisticJustification": "「念願」は前々から強く願っていたことで、「念願の自分の店」の用法が適切。正解はA。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "366292b3d54ed3dffd19dfa2387b647991119b2ffd1b6391d94b3c505771e183"
+    "contentFingerprint": "e8ab5f681dee3b7bd49bf922d11ccb2e5549e0dd33d2d9d0420bfb2837363070",
+    "isFreshReview": true
   },
   {
     "id": "N2_05_M6_04",
@@ -276,7 +306,8 @@
     "linguisticJustification": "「露骨」は感情などを隠さずむき出しにする様子で、「露骨に嫌な顔をする」の用法が適切。正解はC。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "fecc4e523db1c0a83d2f636c68b76215d12ea5ecf6477647c1a91b53e672894b"
+    "contentFingerprint": "2d344e8abadfcd22741394353f0e4693e4def385948350b978013ba78fd9b331",
+    "isFreshReview": true
   },
   {
     "id": "N2_05_M6_05",
@@ -285,7 +316,8 @@
     "linguisticJustification": "「充当」はある用途・支払いにあてがうことで、「建設費用に充当された」の用法が適切。正解はB。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "40a73d34362b6754efd1786216eeb45bdaffa6ac3163620b9cded0a0b1cd30f9"
+    "contentFingerprint": "b5cade9eb1ec55676cad57680d72d48790a1bd3bb1775b031f6fb6d8edcccf0d",
+    "isFreshReview": true
   },
   {
     "id": "N2_05_M7_01",
@@ -294,7 +326,8 @@
     "linguisticJustification": "「〜っこない」は強い否定（絶対に〜できるはずがない）。「理解できるっこない」。正解はA。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "bf7fe8643dfe60bbafa08c4097903775943a204a363a667fe01fddefaa20523c"
+    "contentFingerprint": "3399bd13249bff32073db944e1ea96bf0489a581bcf9716eafaabe22a078da2d",
+    "isFreshReview": true
   },
   {
     "id": "N2_05_M7_02",
@@ -303,7 +336,8 @@
     "linguisticJustification": "「〜を余儀なくされた」は不可抗力により望まない事態に追い込まれること。「中止を余儀なくされた」。正解はC。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "65e84e90b7d34dd2c4cf6fef012d44995dc6873de3e9d0a934dc7419e1543f98"
+    "contentFingerprint": "325d535e202a68caf75ffbe63055d0f2fe78df41758828aded43b859208fde46",
+    "isFreshReview": true
   },
   {
     "id": "N2_05_M7_03",
@@ -312,7 +346,8 @@
     "linguisticJustification": "「〜に沿って」は基準や方針に従って進めること。「ガイドラインに沿って」。正解はB。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "7874abedf6ba130adf87211c1d17cf8445cec41ca0b187b8e9a74cf1f649c08b"
+    "contentFingerprint": "0c3ec57f4a75c17a20c411ba412040d15edae8a836766f282e1bf17f13888c5c",
+    "isFreshReview": true
   },
   {
     "id": "N2_05_M7_04",
@@ -321,7 +356,8 @@
     "linguisticJustification": "「〜ぬきでは」は〜がなければ成立しないこと。「協力ぬきでは語れない」。正解はD。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "df8462515151ee3e11ccdb16c95b9fda6b4e8e642e5e791e0e7bac21732db1a8"
+    "contentFingerprint": "834f111777252cda44007db2cfccca60acba0939573936abf71b712d4a9d985f",
+    "isFreshReview": true
   },
   {
     "id": "N2_05_M7_05",
@@ -330,7 +366,8 @@
     "linguisticJustification": "「〜かねない」は悪影響や不都合な結果を引き起こす恐れがあること。「操業停止を招きかねない」。正解はA。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "c0dd9db30ec3cc22bf934be793269c900c1db30da69f8b48bd11fe7822f6f993"
+    "contentFingerprint": "d6e66ed164d8056f63bd6cbdb8208dd2cc77bcd9a14826765ca5f4cfe6e718ed",
+    "isFreshReview": true
   },
   {
     "id": "N2_05_M7_06",
@@ -339,6 +376,7 @@
     "linguisticJustification": "「〜に越したことはない」はそうであるに勝るものはない（最善の選択肢）。「加入しておくのに越したことはない」。正解はC。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "b9835403a4f8e4f2de7058e6b402e2f1f64f968761a523f715bf5156855a214a"
+    "contentFingerprint": "a91ab830ec9e045768a62d6a55fa9c8130e9ea62aa3226d995442531824518a3",
+    "isFreshReview": true
   }
 ]
