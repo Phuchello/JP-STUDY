@@ -1450,7 +1450,7 @@ function launchMockExamSafely(mockId, sectionIndex) {
   stopActiveTimer();
   const cleanId = String(mockId || '').trim().slice(0, 50);
   const upperMock = cleanId.toUpperCase();
-  const availableMocks = ['N2-MOCK-01', 'N3-MOCK-01'];
+  const availableMocks = ['N2-MOCK-01', 'N2-MOCK-02', 'N3-MOCK-01'];
 
   let secIdx = 0;
   if (typeof sectionIndex !== 'undefined') {
@@ -1463,8 +1463,8 @@ function launchMockExamSafely(mockId, sectionIndex) {
     } catch(e) {}
   }
 
-  if (!availableMocks.includes(upperMock)) {
-    alert(`&#272;&#7873; thi th&#7917; ${cleanId} hi&#7879;n &#273;ang trong giai &#273;o&#7841;n ho&#224;n thi&#7879;n n&#7897;i dung (IN DEVELOPMENT). B&#7841;n vui l&#242;ng ch&#7885;n &#273;&#7873; N2-MOCK-01 ho&#7863;c N3-MOCK-01.`);
+  if (!availableMocks.includes(upperMock) && !(window.JP_MOCK_DATA && window.JP_MOCK_DATA[upperMock])) {
+    alert(`&#272;&#7873; thi th&#7917; ${cleanId} hi&#7879;n &#273;ang trong giai &#273;o&#7841;n ho&#224;n thi&#7879;n n&#7897;i dung (IN DEVELOPMENT). B&#7841;n vui l&#242;ng ch&#7885;n &#273;&#7873; N2-MOCK-01, N2-MOCK-02 ho&#7863;c N3-MOCK-01.`);
     switchMode('mode-mock');
     return false;
   }
@@ -1508,7 +1508,7 @@ function applyUrlParameters() {
     if (qMock) {
       const cleanMock = String(qMock).trim().slice(0, 50);
       const upperMock = cleanMock.toUpperCase();
-      if (['N2-MOCK-01', 'N3-MOCK-01'].includes(upperMock)) {
+      if (['N2-MOCK-01', 'N2-MOCK-02', 'N3-MOCK-01'].includes(upperMock) || (window.JP_MOCK_DATA && window.JP_MOCK_DATA[upperMock])) {
         appliedEntries.push({ label: 'Kh&#7903;i ch&#7841;y tr&#7921;c ti&#7871;p', value: upperMock });
         showParamBadge(appliedEntries);
         launchMockExamSafely(upperMock);
@@ -1516,7 +1516,7 @@ function applyUrlParameters() {
       } else {
         appliedEntries.push({ label: '&#272;&#7873; thi', value: `${cleanMock} (&#272;ang bi&#234;n so&#7841;n)`, isWarning: true });
         showParamBadge(appliedEntries);
-        alert(`&#272;&#7873; thi th&#7917; ${cleanMock} hi&#7879;n &#273;ang trong giai &#273;o&#7841;n ho&#224;n thi&#7879;n n&#7897;i dung (IN DEVELOPMENT). B&#7841;n vui l&#242;ng ch&#7885;n &#273;&#7873; N2-MOCK-01 ho&#7863;c N3-MOCK-01.`);
+        alert(`&#272;&#7873; thi th&#7917; ${cleanMock} hi&#7879;n &#273;ang trong giai &#273;o&#7841;n ho&#224;n thi&#7879;n n&#7897;i dung (IN DEVELOPMENT). B&#7841;n vui l&#242;ng ch&#7885;n &#273;&#7873; N2-MOCK-01, N2-MOCK-02 ho&#7863;c N3-MOCK-01.`);
         switchMode('mode-mock');
         return;
       }
@@ -1744,6 +1744,9 @@ function initBankStats() {
 }
 
 function switchMode(modeId) {
+  // Normalize historical alias
+  if (modeId === 'mode-history') modeId = 'mode-f';
+
   document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
   document.querySelectorAll('.view-panel').forEach(p => p.classList.remove('active'));
   
@@ -2256,6 +2259,11 @@ function startFullMockExam(mockId, sectionIndex) {
   const breakBox = document.getElementById('d-break-screen');
   if (breakBox) breakBox.style.display = 'none';
 
+  // If launching Section 1, clear any stale Section 1 draft for this mockId
+  if (sectionIndex === 0) {
+    try { localStorage.removeItem('JP_MOCK_SAVE_' + mockId); } catch(e) {}
+  }
+
   if (typeof timedState !== 'undefined' && timedState) {
     timedState.isSubmitted = true;
   }
@@ -2612,20 +2620,48 @@ function renderTimedQuestion() {
     passageBox.style.display = 'none';
   }
 
-  // Stem
-  document.getElementById('d-q-stem').innerText = q.stem;
+  // Stem & Options Modality (Official JLPT Exam Mode)
+  const isListening = q.skill === 'Listening';
+  const typeId = q.typeId || '';
+
+  if (isListening) {
+    if (typeId.includes('LIS-TASK')) {
+      document.getElementById('d-q-stem').innerText = '&#21839;&#38988;&#65297;&#65306;&#21839;&#38988;&#29992;&#32025;&#12434;&#35211;&#12394;&#12364;&#12425;&#38899;&#22768;&#12434;&#32862;&#12356;&#12390;&#12289;1&#12363;&#12425;4&#12398;&#20013;&#12363;&#12425;&#12289;&#26368;&#12418;&#12424;&#12356;&#12418;&#12398;&#12434;1&#12388;&#36984;&#12435;&#12391;&#12367;&#12384;&#12373;&#12356;&#12290;';
+    } else if (typeId.includes('LIS-POIN')) {
+      document.getElementById('d-q-stem').innerText = '&#21839;&#38988;&#65298;&#65306;&#21839;&#38988;&#29992;&#32025;&#12398;&#36984;&#25246;&#32930;&#12434;&#35501;&#12415;&#12394;&#12364;&#12425;&#38899;&#22768;&#12434;&#32862;&#12356;&#12390;&#12289;1&#12363;&#12425;4&#12398;&#20013;&#12363;&#12425;&#12289;&#26368;&#12418;&#12424;&#12356;&#12418;&#12398;&#12434;1&#12388;&#36984;&#12435;&#12391;&#12367;&#12384;&#12373;&#12356;&#12290;';
+    } else if (typeId.includes('LIS-OUTL')) {
+      document.getElementById('d-q-stem').innerText = '&#21839;&#38988;&#65299;&#65306;&#21839;&#38988;&#29992;&#32025;&#12395;&#20309;&#12418;&#21360;&#21047;&#12373;&#12428;&#12390;&#12356;&#12414;&#12379;&#12435;&#12290;&#38899;&#22768;&#12434;&#32862;&#12356;&#12390;&#12289;1&#12363;&#12425;4&#12398;&#20013;&#12363;&#12425;&#12289;&#26368;&#12418;&#12424;&#12356;&#12418;&#12398;&#12434;1&#12388;&#36984;&#12435;&#12391;&#12367;&#12384;&#12373;&#12356;&#12290;';
+    } else if (typeId.includes('LIS-RESP')) {
+      document.getElementById('d-q-stem').innerText = '&#21839;&#38988;&#65300;&#65306;&#21839;&#38988;&#29992;&#32025;&#12395;&#20309;&#12418;&#21360;&#21047;&#12373;&#12428;&#12390;&#12356;&#12414;&#12379;&#12435;&#12290;&#38899;&#22768;&#12434;&#32862;&#12356;&#12390;&#12289;1&#12363;&#12425;3&#12398;&#20013;&#12363;&#12425;&#12289;&#26368;&#12418;&#12424;&#12356;&#36820;&#31572;&#12434;1&#12388;&#36984;&#12435;&#12391;&#12367;&#12384;&#12373;&#12356;&#12290;';
+    } else if (typeId.includes('LIS-INTE')) {
+      document.getElementById('d-q-stem').innerText = '&#21839;&#38988;&#65301;&#65306;&#21839;&#38988;&#29992;&#32025;&#12398;&#36984;&#25246;&#32930;&#12434;&#35211;&#12394;&#12364;&#12425;&#38899;&#22768;&#12434;&#32862;&#12356;&#12390;&#12289;&#26368;&#12418;&#12424;&#12356;&#12418;&#12398;&#12434;1&#12388;&#36984;&#12435;&#12391;&#12367;&#12384;&#12373;&#12356;&#12290;';
+    } else {
+      document.getElementById('d-q-stem').innerText = q.stem;
+    }
+  } else {
+    document.getElementById('d-q-stem').innerText = q.stem;
+  }
 
   // Options (No immediate answer reveal!)
   const optBox = document.getElementById('d-q-options');
   optBox.innerHTML = '';
-  q.options.forEach(opt => {
+  q.options.forEach((opt, oIdx) => {
     const btn = document.createElement('button');
     btn.type = 'button';
     btn.className = 'opt-btn';
     if (timedState.userAnswers[q.id] === opt.id) {
       btn.classList.add('selected-pending');
     }
-    btn.innerHTML = `<span class="opt-label">${opt.id}</span><span>${opt.text}</span>`;
+
+    // In Mondai 3 (OUTL), options are spoken in audio and not printed on paper.
+    // Display 1&#30058;, 2&#30058;, 3&#30058;, 4&#30058; to prevent reading text spoilers during exam!
+    let displayOptText = opt.text;
+    if (isListening && typeId.includes('LIS-OUTL')) {
+      const jNum = ['&#65297;&#30058;', '&#65298;&#30058;', '&#65299;&#30058;', '&#65300;&#30058;'];
+      displayOptText = jNum[oIdx] || `${oIdx + 1}&#30058;`;
+    }
+
+    btn.innerHTML = `<span class="opt-label">${opt.id}</span><span>${displayOptText}</span>`;
     btn.onclick = () => {
       timedState.userAnswers[q.id] = opt.id;
       renderTimedQuestion();
@@ -2722,6 +2758,7 @@ function submitTimedSession(confirmUser) {
                 (timedState.questions[0] ? timedState.questions[0].level : 'N2');
   let modeCode = isMock ? 'MOCK' : 'D';
   let modeName = isMock ? `&#272;&#7873; ph&#226;n m&#244;n ${mockId}` : 'Luy&#7879;n t&#237;nh gi&#7901;';
+  let sec1Data = null;
 
   if (isMock && currentSecIdx === 0) {
     const langItems = timedState.questions.filter(q => q.skill !== 'Reading');
@@ -2771,6 +2808,9 @@ function submitTimedSession(confirmUser) {
         <button onclick="saveAndExitMock('${mockId}')" class="btn" style="background:#475569; color:#fff; font-weight:700; padding:10px 16px; border-radius:8px; cursor:pointer;">
           &#128190; L&#432;u k&#7871;t qu&#7843; & Tho&#225;t
         </button>
+        <button onclick="switchMode('mode-f')" class="btn" style="background:#1e40af; color:#fff; font-weight:700; padding:10px 16px; border-radius:8px; cursor:pointer;">
+          &#128220; Xem L&#7883;ch S&#7917; H&#7885;c T&#7853;p
+        </button>
       </div>
     `;
   } else if (isMock && currentSecIdx === 1) {
@@ -2778,13 +2818,23 @@ function submitTimedSession(confirmUser) {
     const lisTotal = total;
     const lisScaled = Math.round((lisCorrect / (lisTotal || 30)) * 60);
 
-    let sec1Data = null;
+    sec1Data = null;
     try {
       const raw = localStorage.getItem('JP_MOCK_SAVE_' + mockId);
-      if (raw) sec1Data = JSON.parse(raw);
+      if (raw) {
+        const parsed = JSON.parse(raw);
+        // Valid only if matching mockId and completed within 4 hours (14400000 ms)
+        const isRecent = (Date.now() - (parsed.timestamp || 0)) < (4 * 3600 * 1000);
+        if (isRecent && parsed.mockId === mockId) {
+          sec1Data = parsed;
+        }
+      }
     } catch(e) {}
 
     if (sec1Data) {
+      // Clear draft once combined into full mock so future standalone Section 2 runs don't re-combine
+      try { localStorage.removeItem('JP_MOCK_SAVE_' + mockId); } catch(e) {}
+
       modeCode = 'FULL_MOCK';
       modeName = `Full Mock ${mockId}`;
       const totalRawCorrect = sec1Data.sec1Correct + lisCorrect;
@@ -2827,19 +2877,37 @@ function submitTimedSession(confirmUser) {
           </div>
         </div>
         <div style="display:flex; justify-content:center; gap:8px;">
-          <button onclick="switchMode('mode-history')" class="btn" style="background:#1e40af; color:#fff; font-weight:700; padding:10px 18px; border-radius:8px; cursor:pointer;">&#128220; Xem L&#7883;ch S&#7917; H&#7885;c T&#7853;p</button>
+          <button onclick="switchMode('mode-f')" class="btn" style="background:#1e40af; color:#fff; font-weight:700; padding:10px 18px; border-radius:8px; cursor:pointer;">&#128220; Xem L&#7883;ch S&#7917; H&#7885;c T&#7853;p</button>
           <button onclick="switchMode('mode-mock')" class="btn" style="background:#475569; color:#fff; font-weight:700; padding:10px 18px; border-radius:8px; cursor:pointer;">&#128218; Quay L&#7841;i Kho &#272;&#7873;</button>
         </div>
       `;
     } else {
-      document.getElementById('d-summary-score').innerText = `${correct} / ${total} c&#226;u (&#431;&#7899;c l&#432;&#7907;ng: ${lisScaled} / 60 &#273;i&#7875;m tham kh&#7843;o)`;
-      document.getElementById('d-summary-msg').innerText = 
-        `Ph&#7847;n 2 Nghe hi&#7875;u: ${correct}/${total} c&#226;u (&#431;&#7899;c l&#432;&#7907;ng: ${lisScaled}/60 &#273;i&#7875;m tham kh&#7843;o) &#183; &#272;&#7897; ch&#237;nh x&#225;c: ${pct}% &#183; Th&#7901;i gian: ${spentM}m ${spentS}s`;
+      document.getElementById('d-summary-score').innerText = `K&#7870;T QU&#7842; PH&#7846;N 2: ${correct} / ${total} C&#194;U (${pct}%)`;
+      document.getElementById('d-summary-msg').innerHTML = `
+        <div style="font-size:0.9rem; line-height:1.6; margin-bottom:12px; text-align:left; background:#f8fafc; border:1px solid #e2e8f0; border-radius:8px; padding:12px;">
+          <div style="font-weight:700; color:#1e40af; margin-bottom:4px;">&#127911; K&#7870;T QU&#7842; PH&#7846;N 2: B&#192;I THI NGHE HI&#7874;U (${total} c&#226;u / 50 ph&#250;t)</div>
+          &#8226; <strong>T&#7893;ng c&#226;u &#273;&#250;ng:</strong> <strong>${correct} / ${total} c&#226;u</strong> (&#272;&#7897; ch&#237;nh x&#225;c: ${pct}% &#183; Th&#7901;i gian: ${spentM}m ${spentS}s)<br>
+          &#8226; <strong>&#272;i&#7875;m quy &#273;&#7893;i tham kh&#7843;o ph&#226;n m&#244;n:</strong> <strong>${lisScaled} / 60 &#273;i&#7875;m tham kh&#7843;o</strong><br>
+          <div style="margin-top:6px; font-size:0.78rem; color:#64748b;">
+            * L&#432;u &#253;: Phi&#234;n l&#224;m b&#224;i n&#224;y &#273;&#432;&#7907;c th&#7921;c hi&#7879;n &#273;&#7897;c l&#7853;p cho Ph&#7847;n 2 (Nghe hi&#7875;u). &#272;&#7875; nh&#7853;n k&#7871;t qu&#7843; t&#7893;ng h&#7907;p to&#224;n b&#224;i thi Full Mock (105 c&#226;u), h&#227;y th&#7921;c hi&#7879;n tu&#7847;n t&#7921; t&#7915; Ph&#7847;n 1 sang Ph&#7847;n 2.
+          </div>
+        </div>
+        <div style="display:flex; justify-content:center; gap:8px;">
+          <button onclick="switchMode('mode-f')" class="btn" style="background:#1e40af; color:#fff; font-weight:700; padding:10px 18px; border-radius:8px; cursor:pointer;">&#128220; Xem L&#7883;ch S&#7917; H&#7885;c T&#7853;p</button>
+          <button onclick="switchMode('mode-mock')" class="btn" style="background:#475569; color:#fff; font-weight:700; padding:10px 18px; border-radius:8px; cursor:pointer;">&#128218; Quay L&#7841;i Kho &#272;&#7873;</button>
+        </div>
+      `;
     }
   } else {
     document.getElementById('d-summary-score').innerText = `${correct} / ${total}`;
-    document.getElementById('d-summary-msg').innerText = 
-      `&#272;&#7897; ch&#237;nh x&#225;c: ${pct}% &#183; L&#224;m &#273;&#250;ng: ${correct} &#183; Sai: ${incorrect} &#183; Ch&#432;a tr&#7843; l&#7901;i: ${unanswered} &#183; Th&#7901;i gian: ${spentM}m ${spentS}s`;
+    document.getElementById('d-summary-msg').innerHTML = `
+      <div style="margin-bottom:12px;">
+        &#272;&#7897; ch&#237;nh x&#225;c: <strong>${pct}%</strong> &#183; L&#224;m &#273;&#250;ng: ${correct} &#183; Sai: ${incorrect} &#183; Ch&#432;a tr&#7843; l&#7901;i: ${unanswered} &#183; Th&#7901;i gian: ${spentM}m ${spentS}s
+      </div>
+      <div style="display:flex; justify-content:center; gap:8px;">
+        <button onclick="switchMode('mode-f')" class="btn" style="background:#1e40af; color:#fff; font-weight:700; padding:8px 16px; border-radius:8px; cursor:pointer;">&#128220; Xem L&#7883;ch S&#7917; H&#7885;c T&#7853;p</button>
+      </div>
+    `;
   }
 
   // Render Detailed Review Table
@@ -2918,6 +2986,18 @@ function submitTimedSession(confirmUser) {
 
   document.getElementById('d-summary').style.display = 'block';
 
+  let historyTotalQuestions = total;
+  let historyScoreCorrect = correct;
+  let historyScoreIncorrect = incorrect;
+  let historyAccuracyPct = pct;
+
+  if (isMock && currentSecIdx === 1 && sec1Data) {
+    historyTotalQuestions = 105;
+    historyScoreCorrect = sec1Data.sec1Correct + correct;
+    historyScoreIncorrect = 105 - historyScoreCorrect;
+    historyAccuracyPct = Math.round((historyScoreCorrect / 105) * 100);
+  }
+
   recordSessionComplete({
     sessionId: timedState.sessionId || `TIMED-${Date.now().toString(36).toUpperCase()}`,
     timestamp: Date.now(),
@@ -2927,11 +3007,11 @@ function submitTimedSession(confirmUser) {
     mockId: mockId,
     title: mockTitle,
     level: level,
-    totalQuestions: total,
-    scoreCorrect: correct,
-    scoreIncorrect: incorrect,
+    totalQuestions: historyTotalQuestions,
+    scoreCorrect: historyScoreCorrect,
+    scoreIncorrect: historyScoreIncorrect,
     unanswered: unanswered,
-    accuracyPct: pct,
+    accuracyPct: historyAccuracyPct,
     durationSec: spentSec,
     completionTime: new Date().toISOString(),
     questionIds: timedState.questions.map(q => q.id),

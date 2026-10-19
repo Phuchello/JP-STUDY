@@ -1450,7 +1450,7 @@ function launchMockExamSafely(mockId, sectionIndex) {
   stopActiveTimer();
   const cleanId = String(mockId || '').trim().slice(0, 50);
   const upperMock = cleanId.toUpperCase();
-  const availableMocks = ['N2-MOCK-01', 'N3-MOCK-01'];
+  const availableMocks = ['N2-MOCK-01', 'N2-MOCK-02', 'N3-MOCK-01'];
 
   let secIdx = 0;
   if (typeof sectionIndex !== 'undefined') {
@@ -1463,8 +1463,8 @@ function launchMockExamSafely(mockId, sectionIndex) {
     } catch(e) {}
   }
 
-  if (!availableMocks.includes(upperMock)) {
-    alert(`Đề thi thử ${cleanId} hiện đang trong giai đoạn hoàn thiện nội dung (IN DEVELOPMENT). Bạn vui lòng chọn đề N2-MOCK-01 hoặc N3-MOCK-01.`);
+  if (!availableMocks.includes(upperMock) && !(window.JP_MOCK_DATA && window.JP_MOCK_DATA[upperMock])) {
+    alert(`Đề thi thử ${cleanId} hiện đang trong giai đoạn hoàn thiện nội dung (IN DEVELOPMENT). Bạn vui lòng chọn đề N2-MOCK-01, N2-MOCK-02 hoặc N3-MOCK-01.`);
     switchMode('mode-mock');
     return false;
   }
@@ -1508,7 +1508,7 @@ function applyUrlParameters() {
     if (qMock) {
       const cleanMock = String(qMock).trim().slice(0, 50);
       const upperMock = cleanMock.toUpperCase();
-      if (['N2-MOCK-01', 'N3-MOCK-01'].includes(upperMock)) {
+      if (['N2-MOCK-01', 'N2-MOCK-02', 'N3-MOCK-01'].includes(upperMock) || (window.JP_MOCK_DATA && window.JP_MOCK_DATA[upperMock])) {
         appliedEntries.push({ label: 'Khởi chạy trực tiếp', value: upperMock });
         showParamBadge(appliedEntries);
         launchMockExamSafely(upperMock);
@@ -1516,7 +1516,7 @@ function applyUrlParameters() {
       } else {
         appliedEntries.push({ label: 'Đề thi', value: `${cleanMock} (Đang biên soạn)`, isWarning: true });
         showParamBadge(appliedEntries);
-        alert(`Đề thi thử ${cleanMock} hiện đang trong giai đoạn hoàn thiện nội dung (IN DEVELOPMENT). Bạn vui lòng chọn đề N2-MOCK-01 hoặc N3-MOCK-01.`);
+        alert(`Đề thi thử ${cleanMock} hiện đang trong giai đoạn hoàn thiện nội dung (IN DEVELOPMENT). Bạn vui lòng chọn đề N2-MOCK-01, N2-MOCK-02 hoặc N3-MOCK-01.`);
         switchMode('mode-mock');
         return;
       }
@@ -1744,6 +1744,9 @@ function initBankStats() {
 }
 
 function switchMode(modeId) {
+  // Normalize historical alias
+  if (modeId === 'mode-history') modeId = 'mode-f';
+
   document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
   document.querySelectorAll('.view-panel').forEach(p => p.classList.remove('active'));
   
@@ -2256,6 +2259,11 @@ function startFullMockExam(mockId, sectionIndex) {
   const breakBox = document.getElementById('d-break-screen');
   if (breakBox) breakBox.style.display = 'none';
 
+  // If launching Section 1, clear any stale Section 1 draft for this mockId
+  if (sectionIndex === 0) {
+    try { localStorage.removeItem('JP_MOCK_SAVE_' + mockId); } catch(e) {}
+  }
+
   if (typeof timedState !== 'undefined' && timedState) {
     timedState.isSubmitted = true;
   }
@@ -2612,20 +2620,48 @@ function renderTimedQuestion() {
     passageBox.style.display = 'none';
   }
 
-  // Stem
-  document.getElementById('d-q-stem').innerText = q.stem;
+  // Stem & Options Modality (Official JLPT Exam Mode)
+  const isListening = q.skill === 'Listening';
+  const typeId = q.typeId || '';
+
+  if (isListening) {
+    if (typeId.includes('LIS-TASK')) {
+      document.getElementById('d-q-stem').innerText = '問題１：問題用紙を見ながら音声を聞いて、1から4の中から、最もよいものを1つ選んでください。';
+    } else if (typeId.includes('LIS-POIN')) {
+      document.getElementById('d-q-stem').innerText = '問題２：問題用紙の選択肢を読みながら音声を聞いて、1から4の中から、最もよいものを1つ選んでください。';
+    } else if (typeId.includes('LIS-OUTL')) {
+      document.getElementById('d-q-stem').innerText = '問題３：問題用紙に何も印刷されていません。音声を聞いて、1から4の中から、最もよいものを1つ選んでください。';
+    } else if (typeId.includes('LIS-RESP')) {
+      document.getElementById('d-q-stem').innerText = '問題４：問題用紙に何も印刷されていません。音声を聞いて、1から3の中から、最もよい返答を1つ選んでください。';
+    } else if (typeId.includes('LIS-INTE')) {
+      document.getElementById('d-q-stem').innerText = '問題５：問題用紙の選択肢を見ながら音声を聞いて、最もよいものを1つ選んでください。';
+    } else {
+      document.getElementById('d-q-stem').innerText = q.stem;
+    }
+  } else {
+    document.getElementById('d-q-stem').innerText = q.stem;
+  }
 
   // Options (No immediate answer reveal!)
   const optBox = document.getElementById('d-q-options');
   optBox.innerHTML = '';
-  q.options.forEach(opt => {
+  q.options.forEach((opt, oIdx) => {
     const btn = document.createElement('button');
     btn.type = 'button';
     btn.className = 'opt-btn';
     if (timedState.userAnswers[q.id] === opt.id) {
       btn.classList.add('selected-pending');
     }
-    btn.innerHTML = `<span class="opt-label">${opt.id}</span><span>${opt.text}</span>`;
+
+    // In Mondai 3 (OUTL), options are spoken in audio and not printed on paper.
+    // Display 1番, 2番, 3番, 4番 to prevent reading text spoilers during exam!
+    let displayOptText = opt.text;
+    if (isListening && typeId.includes('LIS-OUTL')) {
+      const jNum = ['１番', '２番', '３番', '４番'];
+      displayOptText = jNum[oIdx] || `${oIdx + 1}番`;
+    }
+
+    btn.innerHTML = `<span class="opt-label">${opt.id}</span><span>${displayOptText}</span>`;
     btn.onclick = () => {
       timedState.userAnswers[q.id] = opt.id;
       renderTimedQuestion();
@@ -2722,6 +2758,7 @@ function submitTimedSession(confirmUser) {
                 (timedState.questions[0] ? timedState.questions[0].level : 'N2');
   let modeCode = isMock ? 'MOCK' : 'D';
   let modeName = isMock ? `Đề phân môn ${mockId}` : 'Luyện tính giờ';
+  let sec1Data = null;
 
   if (isMock && currentSecIdx === 0) {
     const langItems = timedState.questions.filter(q => q.skill !== 'Reading');
@@ -2771,6 +2808,9 @@ function submitTimedSession(confirmUser) {
         <button onclick="saveAndExitMock('${mockId}')" class="btn" style="background:#475569; color:#fff; font-weight:700; padding:10px 16px; border-radius:8px; cursor:pointer;">
           💾 Lưu kết quả & Thoát
         </button>
+        <button onclick="switchMode('mode-f')" class="btn" style="background:#1e40af; color:#fff; font-weight:700; padding:10px 16px; border-radius:8px; cursor:pointer;">
+          📜 Xem Lịch Sử Học Tập
+        </button>
       </div>
     `;
   } else if (isMock && currentSecIdx === 1) {
@@ -2778,13 +2818,23 @@ function submitTimedSession(confirmUser) {
     const lisTotal = total;
     const lisScaled = Math.round((lisCorrect / (lisTotal || 30)) * 60);
 
-    let sec1Data = null;
+    sec1Data = null;
     try {
       const raw = localStorage.getItem('JP_MOCK_SAVE_' + mockId);
-      if (raw) sec1Data = JSON.parse(raw);
+      if (raw) {
+        const parsed = JSON.parse(raw);
+        // Valid only if matching mockId and completed within 4 hours (14400000 ms)
+        const isRecent = (Date.now() - (parsed.timestamp || 0)) < (4 * 3600 * 1000);
+        if (isRecent && parsed.mockId === mockId) {
+          sec1Data = parsed;
+        }
+      }
     } catch(e) {}
 
     if (sec1Data) {
+      // Clear draft once combined into full mock so future standalone Section 2 runs don't re-combine
+      try { localStorage.removeItem('JP_MOCK_SAVE_' + mockId); } catch(e) {}
+
       modeCode = 'FULL_MOCK';
       modeName = `Full Mock ${mockId}`;
       const totalRawCorrect = sec1Data.sec1Correct + lisCorrect;
@@ -2827,19 +2877,37 @@ function submitTimedSession(confirmUser) {
           </div>
         </div>
         <div style="display:flex; justify-content:center; gap:8px;">
-          <button onclick="switchMode('mode-history')" class="btn" style="background:#1e40af; color:#fff; font-weight:700; padding:10px 18px; border-radius:8px; cursor:pointer;">📜 Xem Lịch Sử Học Tập</button>
+          <button onclick="switchMode('mode-f')" class="btn" style="background:#1e40af; color:#fff; font-weight:700; padding:10px 18px; border-radius:8px; cursor:pointer;">📜 Xem Lịch Sử Học Tập</button>
           <button onclick="switchMode('mode-mock')" class="btn" style="background:#475569; color:#fff; font-weight:700; padding:10px 18px; border-radius:8px; cursor:pointer;">📚 Quay Lại Kho Đề</button>
         </div>
       `;
     } else {
-      document.getElementById('d-summary-score').innerText = `${correct} / ${total} câu (Ước lượng: ${lisScaled} / 60 điểm tham khảo)`;
-      document.getElementById('d-summary-msg').innerText = 
-        `Phần 2 Nghe hiểu: ${correct}/${total} câu (Ước lượng: ${lisScaled}/60 điểm tham khảo) · Độ chính xác: ${pct}% · Thời gian: ${spentM}m ${spentS}s`;
+      document.getElementById('d-summary-score').innerText = `KẾT QUẢ PHẦN 2: ${correct} / ${total} CÂU (${pct}%)`;
+      document.getElementById('d-summary-msg').innerHTML = `
+        <div style="font-size:0.9rem; line-height:1.6; margin-bottom:12px; text-align:left; background:#f8fafc; border:1px solid #e2e8f0; border-radius:8px; padding:12px;">
+          <div style="font-weight:700; color:#1e40af; margin-bottom:4px;">🎧 KẾT QUẢ PHẦN 2: BÀI THI NGHE HIỂU (${total} câu / 50 phút)</div>
+          • <strong>Tổng câu đúng:</strong> <strong>${correct} / ${total} câu</strong> (Độ chính xác: ${pct}% · Thời gian: ${spentM}m ${spentS}s)<br>
+          • <strong>Điểm quy đổi tham khảo phân môn:</strong> <strong>${lisScaled} / 60 điểm tham khảo</strong><br>
+          <div style="margin-top:6px; font-size:0.78rem; color:#64748b;">
+            * Lưu ý: Phiên làm bài này được thực hiện độc lập cho Phần 2 (Nghe hiểu). Để nhận kết quả tổng hợp toàn bài thi Full Mock (105 câu), hãy thực hiện tuần tự từ Phần 1 sang Phần 2.
+          </div>
+        </div>
+        <div style="display:flex; justify-content:center; gap:8px;">
+          <button onclick="switchMode('mode-f')" class="btn" style="background:#1e40af; color:#fff; font-weight:700; padding:10px 18px; border-radius:8px; cursor:pointer;">📜 Xem Lịch Sử Học Tập</button>
+          <button onclick="switchMode('mode-mock')" class="btn" style="background:#475569; color:#fff; font-weight:700; padding:10px 18px; border-radius:8px; cursor:pointer;">📚 Quay Lại Kho Đề</button>
+        </div>
+      `;
     }
   } else {
     document.getElementById('d-summary-score').innerText = `${correct} / ${total}`;
-    document.getElementById('d-summary-msg').innerText = 
-      `Độ chính xác: ${pct}% · Làm đúng: ${correct} · Sai: ${incorrect} · Chưa trả lời: ${unanswered} · Thời gian: ${spentM}m ${spentS}s`;
+    document.getElementById('d-summary-msg').innerHTML = `
+      <div style="margin-bottom:12px;">
+        Độ chính xác: <strong>${pct}%</strong> · Làm đúng: ${correct} · Sai: ${incorrect} · Chưa trả lời: ${unanswered} · Thời gian: ${spentM}m ${spentS}s
+      </div>
+      <div style="display:flex; justify-content:center; gap:8px;">
+        <button onclick="switchMode('mode-f')" class="btn" style="background:#1e40af; color:#fff; font-weight:700; padding:8px 16px; border-radius:8px; cursor:pointer;">📜 Xem Lịch Sử Học Tập</button>
+      </div>
+    `;
   }
 
   // Render Detailed Review Table
@@ -2918,6 +2986,18 @@ function submitTimedSession(confirmUser) {
 
   document.getElementById('d-summary').style.display = 'block';
 
+  let historyTotalQuestions = total;
+  let historyScoreCorrect = correct;
+  let historyScoreIncorrect = incorrect;
+  let historyAccuracyPct = pct;
+
+  if (isMock && currentSecIdx === 1 && sec1Data) {
+    historyTotalQuestions = 105;
+    historyScoreCorrect = sec1Data.sec1Correct + correct;
+    historyScoreIncorrect = 105 - historyScoreCorrect;
+    historyAccuracyPct = Math.round((historyScoreCorrect / 105) * 100);
+  }
+
   recordSessionComplete({
     sessionId: timedState.sessionId || `TIMED-${Date.now().toString(36).toUpperCase()}`,
     timestamp: Date.now(),
@@ -2927,11 +3007,11 @@ function submitTimedSession(confirmUser) {
     mockId: mockId,
     title: mockTitle,
     level: level,
-    totalQuestions: total,
-    scoreCorrect: correct,
-    scoreIncorrect: incorrect,
+    totalQuestions: historyTotalQuestions,
+    scoreCorrect: historyScoreCorrect,
+    scoreIncorrect: historyScoreIncorrect,
     unanswered: unanswered,
-    accuracyPct: pct,
+    accuracyPct: historyAccuracyPct,
     durationSec: spentSec,
     completionTime: new Date().toISOString(),
     questionIds: timedState.questions.map(q => q.id),
