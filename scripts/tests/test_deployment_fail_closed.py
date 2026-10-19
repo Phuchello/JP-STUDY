@@ -37,16 +37,11 @@ class TestDeploymentFailClosed(unittest.TestCase):
             needs = deploy_job.get('needs', [])
             if isinstance(needs, str):
                 needs = [needs]
-            self.assertIn('content-qa-gate', needs)
-        
-        # 1. Assert deploy-pages strictly needs content-qa-gate
-        self.assertIn('content-qa-gate', needs, "deploy-pages MUST have 'needs: [content-qa-gate]' to guarantee fail-closed blocking")
-
-        # 2. Assert path triggers cover docs/**
-        triggers = wf.get('on') if 'on' in wf else wf.get(True, {})
-        push_triggers = triggers.get('push', {})
-        push_paths = push_triggers.get('paths', [])
-        self.assertTrue(any('docs' in p for p in push_paths), "push triggers must cover docs/**")
+            self.assertIn('content-qa-gate', needs, "deploy-pages MUST have 'needs: [content-qa-gate]' to guarantee fail-closed blocking")
+            triggers = wf.get('on') if 'on' in wf else wf.get(True, {})
+            push_triggers = triggers.get('push', {})
+            push_paths = push_triggers.get('paths', [])
+            self.assertTrue(any('docs' in p for p in push_paths), "push triggers must cover docs/**")
 
     def test_summary_generator_exits_on_failure(self):
         """
