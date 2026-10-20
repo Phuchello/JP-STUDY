@@ -1,0 +1,1654 @@
+{
+  "timestamp": "2026-10-20T12:41:20.728529+00:00",
+  "baselineCommit": "ccecb81e39f0ab6a87db3ba609eff010600da222",
+  "mockExams": {
+    "N2-MOCK-01": {
+      "file": "n2_mock_01.json",
+      "sha256": "38f2cda182d387e792345306b47b29e91ed47e43a5dbfd4b8013748b6137fb5a",
+      "sec1Items": 75,
+      "sec2Items": 30,
+      "totalItems": 105
+    },
+    "N2-MOCK-02": {
+      "file": "n2_mock_02.json",
+      "sha256": "179003ab16d367ffd13e30d07e618e8673752c6b2cda6bf2fd38bc87650af6cf",
+      "sec1Items": 75,
+      "sec2Items": 30,
+      "totalItems": 105
+    },
+    "N2-MOCK-03": {
+      "file": "n2_mock_03.json",
+      "sha256": "25ea2fbf9c65b3f377670c70afb6cc85ec4a6bd514ce30ca8d681a62f4bdab97",
+      "sec1Items": 75,
+      "sec2Items": 30,
+      "totalItems": 105
+    },
+    "N2-MOCK-04": {
+      "file": "n2_mock_04.json",
+      "sha256": "ac29abd3dee2faa1dc798490428f27b0f7b5e58d3b9f3da011fa285a38919449",
+      "sec1Items": 75,
+      "sec2Items": 30,
+      "totalItems": 105
+    },
+    "N2-MOCK-05": {
+      "file": "n2_mock_05.json",
+      "sha256": "4e9ec3fa65ed1b64a1cadb12f809f907fcfd201c2ea4aa9e652df56ef2721a6e",
+      "sec1Items": 75,
+      "sec2Items": 30,
+      "totalItems": 105
+    },
+    "N2-MOCK-06": {
+      "file": "n2_mock_06.json",
+      "sha256": "29d5ce7b330bd80ea68a0d9da311b02585f776c89c4d248b30194601569c7f28",
+      "sec1Items": 75,
+      "sec2Items": 30,
+      "totalItems": 105
+    }
+  },
+  "audioAssets": {
+    "n2_mock_01": {
+      "count": 30,
+      "files": {
+        "N2_M1_L01.mp3": "eea6f97828e45b691de5ed455a4d1a85d4988477d976be2e5eed44ba9f8150e4",
+        "N2_M1_L02.mp3": "c4ac532474c4431622c4b57d3b7453d69e097d849b96ce951b9f499d9e07c046",
+        "N2_M1_L03.mp3": "c026ef9927d3da07b129ac5608fc452b0e88a95798fbb01615bada1ee861dbf3",
+        "N2_M1_L04.mp3": "d158fb08c92e10d8f13aebba9aef44fae11c1dde8254d35f54a6062d29b39f18",
+        "N2_M1_L05.mp3": "f990dd3f7c39a60a9ce700985971e98f7c2d2b6105ca7a09d9138f44ead66dde",
+        "N2_M2_L01.mp3": "ae607d8a53133d0a14e51f77c5edc59e9c0cb2b95bf02312d29a286efe75240d",
+        "N2_M2_L02.mp3": "fbc4179e6d7131ed2a79b8011bf4d9e5b1bf4b472af6ff2cc40f053a62481317",
+        "N2_M2_L03.mp3": "e7c2bc832390e85ca0124e6368c165442e1e6aee0dff7c5f6ec79816f6a149bb",
+        "N2_M2_L04.mp3": "bf6619a952c8f83bfca79886e5b049626189c513954b51d0b28a271e9257adf4",
+        "N2_M2_L05.mp3": "4f92734351eca12d51b91ab3b60a9bbcec5ee938b991cea630a54761b7df737d",
+        "N2_M2_L06.mp3": "e64f0e693090f296a31be07e2889666e2eb4950507750faad94ab8c2848e012f",
+        "N2_M3_L01.mp3": "178cec3bf3995f765cdb9d66bb5b53740cce581b3bd4a49d1151126fe3c51d54",
+        "N2_M3_L02.mp3": "115f590c2ebe2401320d9447a1c7e65a1f668c128dd45b7bc0538ccc6dbf8405",
+        "N2_M3_L03.mp3": "b0480432097aaa7511ae96793d4910eee854520b11d11272fbe1ead8e215603d",
+        "N2_M3_L04.mp3": "3db21fb99c89068de8cacbadb281c2c8ad3dfcaa99ff79d6243de902e3ab1f33",
+        "N2_M3_L05.mp3": "7f9f319440413ed9cae6b986e9c872188d037323f90bc6888ab37ecd5df17e2a",
+        "N2_M4_L01.mp3": "a60c1815c75f8e87fef17c033d932b25ef91cbd4c4f43e4d67fc844dfd53e26a",
+        "N2_M4_L02.mp3": "27099a58bd27133ffac730acc2b5a753a6e115be63e65315250cacc22460e2f3",
+        "N2_M4_L03.mp3": "2ce96165faf14c0b6b424babfaf5af100e5a210565fcb2626079f56226187c37",
+        "N2_M4_L04.mp3": "ea223b51ba58bbd89191521bd43dffcc593d35bf0a58d92c3e2320da482f00a9",
+        "N2_M4_L05.mp3": "20ba498b62f04605bae9d089242e24b0c74712c85cbef8cac77f6d69c0169359",
+        "N2_M4_L06.mp3": "ea42595e20b5837a4da0b935758de70da2d23c388cfa0b51ba007cdd9f4d1e95",
+        "N2_M4_L07.mp3": "9f0be3444d2741242c31ebdaba094576fcc1d75561ce34a85301f4983c7e5c4c",
+        "N2_M4_L08.mp3": "857f1582dc75a697aa17b490443711d2aba5251f1a695eb8964def1de0556da7",
+        "N2_M4_L09.mp3": "abfba7accca91b65755e50f1cb94a074399aa54e2dc8d0d92fca4f98f03ebfd6",
+        "N2_M4_L10.mp3": "f06607a6369fdfad1fe920ddd03ea379d517f961ba3a513471aad56ac041a88f",
+        "N2_M4_L11.mp3": "7c76b8260ae7cce5ddcd971088d6787ea6e09198cbc0f25f2a3217b589fdc3da",
+        "N2_M5_L01.mp3": "a8407c94de3593e106dc8d6db2fd7bfbffd6742869c4c2535cc6be7f032372f5",
+        "N2_M5_L02.mp3": "aa8ebce0a5e2922a0da80feb1f93bc1cb3dac0ed7b625ed928abf5f4d13907ff",
+        "N2_M5_L03.mp3": "8c7326d6b97dc35eee777bb533a78f4c7064d39c58ef7fef524c8ed38fdd75c0"
+      }
+    },
+    "n2_mock_02": {
+      "count": 30,
+      "files": {
+        "N2_02_M1_L01.mp3": "5e3fd5e3f2500b9281d541a7275453bad99b1e7f732cf7d22d769ab281c9ae16",
+        "N2_02_M1_L02.mp3": "905cbcc4421e48b46ebb31517316816655ca8a0a11c8bce28b48e5be6fe978e5",
+        "N2_02_M1_L03.mp3": "4212dd78e9cb20abf7e80386707244747f02f818edf029fc4fbf54a75cb08730",
+        "N2_02_M1_L04.mp3": "b718e18b0f711efae10c4af7eccb512e3b112d5b585f0acb1c6e784c5f9c6fb0",
+        "N2_02_M1_L05.mp3": "f6a9da5e64f4f4d56b61c0da6e7c29f70e1c99f913b921f88f7d6838cb181ebf",
+        "N2_02_M2_L01.mp3": "c395c2b412bbfa5e667ed0b410399261ddea67dddcaafa74174c035e6a545410",
+        "N2_02_M2_L02.mp3": "6c44dc0b22d74339c3eb111687b8b6b45b510297d64cf3c775b41889ec150325",
+        "N2_02_M2_L03.mp3": "74350131637b598f9df59f80ab7f19768f162b9cd2ba928dc103086594d7fe4f",
+        "N2_02_M2_L04.mp3": "ddbbd47ccf965f1657e1192cf607c298f31926ae12fe660d10335724501f7bf5",
+        "N2_02_M2_L05.mp3": "ac185960bf7b9abb6fee7884924262dc7737ab68011c678634f5d79eca3adfba",
+        "N2_02_M2_L06.mp3": "a631f135da341cf8fb4c1a6347e1da38ab7502fd5a842e364b86da0706a463b6",
+        "N2_02_M3_L01.mp3": "c7e424a99ee674412b2bccb44c39b675808e61f3bf9c7812956f16b65a938505",
+        "N2_02_M3_L02.mp3": "efbf724707b62de6b8c0193b17e5555859304c4b759d875a9cd8009e8bd61130",
+        "N2_02_M3_L03.mp3": "011501717070532373dea54ffc1ac6662270d95e79e84f31f69fce0e1800bd8d",
+        "N2_02_M3_L04.mp3": "ef8aa8ac1e21a15a7ae8bdf8ac278bd5bf80cd2f2f22ad9908362c95324cf68b",
+        "N2_02_M3_L05.mp3": "cb1aa07ead9530cb6611cf36a4380ef915e1ba5467fa9d69f0ea5a69c976820b",
+        "N2_02_M4_L01.mp3": "2b155642ebfccb0aaa2a87592305cadbdb7ec71fc52f2a06649239165d5e2036",
+        "N2_02_M4_L02.mp3": "a62b53a5ed5ee4bac557d160774b6d760de05ea77a2036f707cbe5f5b2545995",
+        "N2_02_M4_L03.mp3": "0055e397c9f06a0b077863f18bbdc11e0facdf2f3e59a9e39d4004c0eb0a748f",
+        "N2_02_M4_L04.mp3": "ab53caca182c97b8c5cba1d0e7f462213892ecfd6cbb66b8b595a3da544c059d",
+        "N2_02_M4_L05.mp3": "d68a026021bbd33e8c6483fb7dc7165c434a9a46024d5616d0a5377805154c8e",
+        "N2_02_M4_L06.mp3": "654e34c49f75427383d1043d432c24666f64688d2b87be2a4d040b85c91a5c02",
+        "N2_02_M4_L07.mp3": "9938f093dba0728aeb6977c41fe4f3643d61a0daf4fc58a700a15744525eeec6",
+        "N2_02_M4_L08.mp3": "49f204867938099779bf96f8c97d535ab59022a8b4cfd666b2c928ba0d75a5e2",
+        "N2_02_M4_L09.mp3": "28645e8973cb5838dcc37508615d6e8ef8b142f09bc1bf25afb9a9af93457afa",
+        "N2_02_M4_L10.mp3": "55f3052ddf71f19759ee2a85dbae7c393de247b3151bd00e49846d37cacd69fe",
+        "N2_02_M4_L11.mp3": "69e03d58752d5511c60c732e3973a0e35254116882bd4adf2074fc97fbfecff6",
+        "N2_02_M5_L01.mp3": "59bc4c89730ee511b12c5ea6be4995d9c3a78d45f12edab7a0be3b48c2608f48",
+        "N2_02_M5_L02.mp3": "95546146ee794ee1314cc842466bd32b73435850277b4f0c2192bb13f77729bb",
+        "N2_02_M5_L03.mp3": "cf5ca66d1a92d095888cb482b38618a513608f9ad4da1959df78337b33d18657"
+      }
+    },
+    "n2_mock_03": {
+      "count": 30,
+      "files": {
+        "N2_03_M1_L01.mp3": "c2a8ee92d89cc1744d7d34af31f996ef9be6668ea33a654048930e360f6704d2",
+        "N2_03_M1_L02.mp3": "46f5884a4cc1c4574a0078e2249a0f6b7d7b2b35c67ca9cef49d4b005822665e",
+        "N2_03_M1_L03.mp3": "1a582dd5498db1b25ec0e79bb287e80f8a925ed41de53ca904a4fd22a047b1bc",
+        "N2_03_M1_L04.mp3": "8602d1239c6872529a4f7cf0f43ac5bbd58d3fd2c1adab5783edd348be33c53f",
+        "N2_03_M1_L05.mp3": "a9638300527c6bdfc62a2e0c90dab0cd0ee66e4645b5e5a533b879a1e791c367",
+        "N2_03_M2_L01.mp3": "c7c32337c3a7fa83166dcebe050733b712dc7cbe7c0b9c068a47c21b43f968fe",
+        "N2_03_M2_L02.mp3": "0dd2764e5ec0f0f5f3df1629d30c3f7dc330d581593ca69010bd0acf636f17f3",
+        "N2_03_M2_L03.mp3": "749c7a76da80e2882a22db022fa09944a8a04c396d6a21a8e27b36796bcee60a",
+        "N2_03_M2_L04.mp3": "4cb5e463a6a041545e92d2ff68dec4c16cf7cf56bc82210e0e8fdd2eb38b6ce6",
+        "N2_03_M2_L05.mp3": "19fc5413c97cf6fdc0948d7a313ac4136e9aba491eede79e5b2c0cec53c270e6",
+        "N2_03_M2_L06.mp3": "e94bff3e83d9571da8f70466a3a18196ae5d96d1ba11bd9c6618e6757fe9e0d4",
+        "N2_03_M3_L01.mp3": "3e668afe902227b0611373e27d61dbe5bbd6cce930766a6cb76e089e8c48dce5",
+        "N2_03_M3_L02.mp3": "dd520514ff0417469c6ead2b9069889f37e44eb80e037bcaa02a211c822da9f8",
+        "N2_03_M3_L03.mp3": "69514261917e8d0e6946be90f9eb0d10f954f5f99c4766196c6b446f5ad97378",
+        "N2_03_M3_L04.mp3": "25f44fd7d144042147bf2e59e10773da98b2b5caf9898bf64e6e2625f79f9182",
+        "N2_03_M3_L05.mp3": "d4023ff62e2ff362559b6b1841c3514860601323a56c821b21c07f410b7adc5c",
+        "N2_03_M4_L01.mp3": "97e98de134c409ac5a2e449e15869e8909cbad63d580dfbe1c195a0679a312d2",
+        "N2_03_M4_L02.mp3": "0eda0bec6835edc700d7bb7a2f7019ee8fc7cb968cbb16197610e6a89b7a683c",
+        "N2_03_M4_L03.mp3": "a5f2d8fe24d339b6b3ba03392cec6f88bcf970e60ad8d857a4bcc87aeb8051f2",
+        "N2_03_M4_L04.mp3": "529e5ed6a1309d01d99b5c04e0d4a2cddf3cafed5e6565dad83a306564723786",
+        "N2_03_M4_L05.mp3": "1430aa2d28b6ffa632e5c48d29c20083dd5599024528acf8ff54e24af92d6b21",
+        "N2_03_M4_L06.mp3": "82c143c248833f2caefd757e4d6e4604cd0ac150ce6dda8b30580f7eb4bf2f56",
+        "N2_03_M4_L07.mp3": "97e6cfd55d6957ca4cfc588b04e471afdcf9308a0070a01b9699ca5623f7d951",
+        "N2_03_M4_L08.mp3": "7a67f1927cef8419d2de55676580ebd18f1291b895d232f27e76cc20f6713753",
+        "N2_03_M4_L09.mp3": "1dac7b97bb15d45dfa8591e288c1845a851df20bf10b84c7af763523ffa833f4",
+        "N2_03_M4_L10.mp3": "d647b8a12281675014f6600c19e9f36d6e721422e402ec76331bfb79e9e9acd4",
+        "N2_03_M4_L11.mp3": "8ecde461a67e05203af671ed172a3e88087dfe4134823391f2c2a1316beea2bb",
+        "N2_03_M5_L01.mp3": "f62a9797b30721245da8ba2666082000228d6fb56fb7435633d2a6f0bb83e799",
+        "N2_03_M5_L02.mp3": "f3204d9ed57a11614d0f28ccfd4b38aa702d1125d1d3ba5cf1744f2e12031d02",
+        "N2_03_M5_L03.mp3": "16bc81c0181d871b6e93e2ebf128ce467084071c70d32d0622f3c4baf944eb0d"
+      }
+    },
+    "n2_mock_04": {
+      "count": 30,
+      "files": {
+        "N2_04_M1_L01.mp3": "921794b336fac5b97f9aae6da18d04c2a0b2daade32c6b49c469e284a3dd39e1",
+        "N2_04_M1_L02.mp3": "6c24e7d07c1b5e9c939f26280b80ba28904db12380fdbf132fe4a65852343b54",
+        "N2_04_M1_L03.mp3": "1b0f3fca41fe908b93a3e0454f60680150aef2704dd88038fea17176b4b2623a",
+        "N2_04_M1_L04.mp3": "1c59945351d9408d1993ecc37e6b8cd31049721661a9478c64f26fa2c6bc9bbf",
+        "N2_04_M1_L05.mp3": "b33a50df9dc77fc49c6770ac9cb31dd4ae4b2d19132635359396008fcb25e854",
+        "N2_04_M2_L01.mp3": "2b5cba47f6a688c6a88779042be17e7c238f54d8fc8216949a9091690095486a",
+        "N2_04_M2_L02.mp3": "c0106d648be31da25b19f2e06ebe17f9eea77f891bab5d1fe542a72bb3e5ad35",
+        "N2_04_M2_L03.mp3": "b4d915387aac49922bf2cf998938873848fea94cd3e1a82ed64fdcf23870d86d",
+        "N2_04_M2_L04.mp3": "ffcba426d4cba29cd8bf202859650e6275839bc91d56d35b3a46ca9bf28c395b",
+        "N2_04_M2_L05.mp3": "53af40ff58a2148532df7968f976f089b5c3511796e0c4a392a169afaf4ed64f",
+        "N2_04_M2_L06.mp3": "3a9e66ad96c15d6e0b843edbb37b5f9d4378517683f4a515111f9a6039fa8b54",
+        "N2_04_M3_L01.mp3": "f0d7ab626456317143298cd73aa1a2877a4956928e7de79ab6e66fd8a87c0dcd",
+        "N2_04_M3_L02.mp3": "18628ef7bc240a32f518f5aedd3dd93ed5c0e8aec6351be9a5b379af96eb048d",
+        "N2_04_M3_L03.mp3": "ff5f8358ee68a8fe7b6e989ebbc902f3671f499bd8a856735b886022f009a2f5",
+        "N2_04_M3_L04.mp3": "23408c5f9bf811f58a64590ee96b629d33649a254d0fdb07785deb1cfe120d46",
+        "N2_04_M3_L05.mp3": "0bbb8830eaa33fb6eb35f2be35970cd753dc0fa133ea0fe129fbda662c1b95af",
+        "N2_04_M4_L01.mp3": "bea0bfded41b359a218f5a40e118c21da5503171ed8a244f2e6a6fc2fbdda1d3",
+        "N2_04_M4_L02.mp3": "f2901a083cc0417432e48d37455187088b13e0d13b6fa97e9a5a80ca5dd182b4",
+        "N2_04_M4_L03.mp3": "dff0c742726ee95ddb5a65a81e70b6ed5847dd1df37e9363fec40f7a7a809ef6",
+        "N2_04_M4_L04.mp3": "7d24cdd696f915b965a0382e0ddc06ca3935eef4248ca72988761336b88cbf92",
+        "N2_04_M4_L05.mp3": "19b8e303198c1e4390da1cbf3135f80765a0146068f5a9e1630f4b1616a09126",
+        "N2_04_M4_L06.mp3": "6dc61d7ce729fdeb6d0b9501e56257d62237be4daaa260a4c68a1bcd7bc449d8",
+        "N2_04_M4_L07.mp3": "83b95f74a8d4ac3c23bf80852a87dde3f2b5f141434f8421fe7475007b38fad7",
+        "N2_04_M4_L08.mp3": "062882f95a96420b4e7acef9a28002181aee38d9c755d0d6bfab35b9e77d55a9",
+        "N2_04_M4_L09.mp3": "4255c997d018a21711d78315f26b12e19647b3962af9b8cdcea5123f336997bb",
+        "N2_04_M4_L10.mp3": "567210fff6a2f1f5850ae566b2a2090ec0f6da32a0d152cc4458e5fb876b07d3",
+        "N2_04_M4_L11.mp3": "1843ee44ee01cfd55e92de6e7e4b7f8683173bccd25db7e70334785e7a7aab13",
+        "N2_04_M5_L01.mp3": "9947249f9687077cf5e70eb97a43824fbc91414039ded1326baf753f6614a0ee",
+        "N2_04_M5_L02.mp3": "33b57c5f09533ae290dfd462ee2e674a9d6ea910dd254e6efdc31f975268ec8a",
+        "N2_04_M5_L03.mp3": "382ec6fb844bca107e372c7256bfcfc7ccb224d4bdc7b84b2d5fa18807a03b57"
+      }
+    },
+    "n2_mock_05": {
+      "count": 30,
+      "files": {
+        "N2_05_M1_L01.mp3": "b665f3efaec9fde42eff51b0a7409d2b810a0a65283a1de1c613e5b3cc2531b8",
+        "N2_05_M1_L02.mp3": "9dc0876efd70df5c4d6334dab4b9fbd89892a99564bb9217606f53a4bf5ce9be",
+        "N2_05_M1_L03.mp3": "281d6dc127a65227d2fd30341c5fe8bdcf483acf4fc4370c30ed7ae66be3d59f",
+        "N2_05_M1_L04.mp3": "33abc156c32922fffc63b99fdd40a996c41c38d94e4f160d9ad280937401e994",
+        "N2_05_M1_L05.mp3": "422e4363ce99f4407b29e8e7968b3f57a497a4ce1d185450f462209fc82a9fc7",
+        "N2_05_M2_L01.mp3": "1a1a428b139a6a6191e567aa873939341c99e89435b29423299c7a3b8ba36909",
+        "N2_05_M2_L02.mp3": "2cc4471e3bf73a3778a5de85dc80bfd4b60d57523e1afd5667bd03af7aa62cb4",
+        "N2_05_M2_L03.mp3": "9dfd6fd948e14d5cc7ed62624ee29bacdb8625af70e74352006d6715b04b2545",
+        "N2_05_M2_L04.mp3": "86ac9f4baf429d4a1a321ed5bc2af39a1804aa5627b1195164597af03962bbf4",
+        "N2_05_M2_L05.mp3": "3518582f379c5f36bfb74762cfff9b83b34faa64bbdd40903e706c52460413ea",
+        "N2_05_M2_L06.mp3": "e319a8f3f472f90f37596d53719dfbbda608f18a32d0706f580f9eaa55772689",
+        "N2_05_M3_L01.mp3": "ec38cd35557bbe7154c0204844ec90402dc55fe6c03d4a3390c06b04d9ba9004",
+        "N2_05_M3_L02.mp3": "0a09f0711892ff01291e8def032bdda27cc028efd79fd84a78d54acffc56d6d4",
+        "N2_05_M3_L03.mp3": "0afe5b969c6f2238846da5d9f46a1ee8e28497adcaa3bf20806440245c1d3385",
+        "N2_05_M3_L04.mp3": "b35faa76b14600811b1fe58020b88cbccdfbe4c5a7b0c6e1b3f7827e457fd629",
+        "N2_05_M3_L05.mp3": "736e2a2b69d4fd201e3ac414e40484dd9687e7081fd49f6a870325fa1cc97ffd",
+        "N2_05_M4_L01.mp3": "e6ee2cb88f497dfa0b833dccb50b90f43a380784fd1e39cce29818f60897b2cd",
+        "N2_05_M4_L02.mp3": "8878141d57a000b32bc2bb30c94f1e777f3ccd9b9c3e40c06bb108e05b13d226",
+        "N2_05_M4_L03.mp3": "0bbb0113b72843508a2b0dc37325f01d664650bc3bd6ae593dd2456d658e033a",
+        "N2_05_M4_L04.mp3": "a5e241f8d41dbd6a9d7a0b61fb6f78981d87542439d291319c4f98c35cb84ba7",
+        "N2_05_M4_L05.mp3": "018ebeeff605f4341fd025e8e45c33d532f5aa7db12029b6f9b1d1683b316aef",
+        "N2_05_M4_L06.mp3": "62c39e4847bce05a3fac6e14bc415220dd1d84e599332e1c2a41188d508d5ee4",
+        "N2_05_M4_L07.mp3": "884462e5ef88a607c67fdf837203693fe6bcd139c726076fb1d352a1fa9c1b60",
+        "N2_05_M4_L08.mp3": "9775ec04724b6d3193e31a7252ed7449c87676c58528e4514dcedb67ac926718",
+        "N2_05_M4_L09.mp3": "63f3eeb66de2b5747cd5a259a97311102cc7cff49e3975126f539497f7012fe6",
+        "N2_05_M4_L10.mp3": "c7cf30d88329b243baae539945491f52ae95ae61908928950d34c6547b4c4fdc",
+        "N2_05_M4_L11.mp3": "5abc0c4087023fc38821bafad4ae8af6f6e008e0d9d868a653507df52cb43206",
+        "N2_05_M5_L01.mp3": "ef86bdfa5d2ef50643ba0160dce022aa5ee514df05d4bb29eef8f04e7a1715fd",
+        "N2_05_M5_L02.mp3": "81d57524f3510eefe01591c8a6764414516914440246885c470dd569e90cd723",
+        "N2_05_M5_L03.mp3": "23d84cde595079855c7ace4f093ec94ed6514656133b6128294f12bfd0efe6cc"
+      }
+    },
+    "n2_mock_06": {
+      "count": 30,
+      "files": {
+        "N2_06_M1_L01.mp3": "ee66e618312998621c15c0d09ec7b0e3d1d81245b1aaf712618cebf69d0e9b7c",
+        "N2_06_M1_L02.mp3": "342995ba539eebde8f3119222b60db4b4321b68bfea71319caf73915a0fdf1ac",
+        "N2_06_M1_L03.mp3": "afe4e0e91311f157c520b77526643ff46358e88599629da357de57cbc74f9f5d",
+        "N2_06_M1_L04.mp3": "efd05416923881316453e803ee2e0f61f3378ea4d420ad4cb386bd2247e42d89",
+        "N2_06_M1_L05.mp3": "973496b997a7609992954474cd83cce4de6eade36313fdad7bc60034e849d948",
+        "N2_06_M2_L01.mp3": "45d39927e584813f75fe7139c201313c308e835e96d858f34b6108a4e84c98c3",
+        "N2_06_M2_L02.mp3": "5d82d29e29587aa4c2ae9cbebe8a0513512073c8dceedc9bbd96ed075f6b2108",
+        "N2_06_M2_L03.mp3": "14c5c770ca98ddc358a480f327277a75ab33ad6422c599b63a9ef03ce70e6003",
+        "N2_06_M2_L04.mp3": "ee54849837c34ef337a1e30bcf5795435f4d08d5f8631f068732fedd3c573464",
+        "N2_06_M2_L05.mp3": "198d7baba4e4963180d804f23fb080d6fd73e93c307a94906062c6d08ae4f97c",
+        "N2_06_M2_L06.mp3": "577c2dc534dae8944bb370d6b0a72e22ef11b8ba20bbc5d55838e23d9b5ca045",
+        "N2_06_M3_L01.mp3": "f584efaaabc3076aa38ef81dcecc4f2d6873b180eefd11c4cd5667798f18f674",
+        "N2_06_M3_L02.mp3": "56828cd1ee24f79fe903938f8e57329ad71fb37a9dfdbbde9420c1b540e8d290",
+        "N2_06_M3_L03.mp3": "a4ea2dea2e14b8c0811cf114b5ca05e1e11c2f4c1a5963acbf279c24d7640138",
+        "N2_06_M3_L04.mp3": "83dbfbaf8e681c35c5dd4c7a6e9ad94ba6201db45c2e56d3b2baf5cd984383ed",
+        "N2_06_M3_L05.mp3": "ca089af20ef959097156e2819e1c9716091824bf4ab507ffaccf8deec2a08510",
+        "N2_06_M4_L01.mp3": "b237a84e33742419f33f3ea574cf792de7babd9562f699c34029fc43efbdcd80",
+        "N2_06_M4_L02.mp3": "20d0150cbb9521d2e18c92232f68e42263f16832224cdc41ea68dfbdb65cb187",
+        "N2_06_M4_L03.mp3": "c20a94db1259975d195eb0ae09a5f2b3e4079b6b61c401c2fbc6dba5c23c6ebe",
+        "N2_06_M4_L04.mp3": "995e8f7bb3d2c5c22498c91b8c8d411bb069ed62839dd5bf6534c5294d418223",
+        "N2_06_M4_L05.mp3": "c166965d85b078ba3be8f302971f7cd0165262afed750e26a737b7ba89088534",
+        "N2_06_M4_L06.mp3": "b3f8f65663e09a0abeb2f991192cffc969bc8f20aa3cfcfc85717ee9520ede78",
+        "N2_06_M4_L07.mp3": "21bb25a6f99b98f5fd74652f436c7546e6eb80d3cc9a9f957803f7d8e962cee6",
+        "N2_06_M4_L08.mp3": "104f75f6b435c8063fbde42488bab36649913aee9fcd64c0b7002f70e669194f",
+        "N2_06_M4_L09.mp3": "4e675837a2249cf8099c30d2c9d854b635718c5f20414d3fdb70df6d3eb1363e",
+        "N2_06_M4_L10.mp3": "26826873d9731b7d2c5e35097e021bb31c3c964abeca918ac6493c4f1cd1bbed",
+        "N2_06_M4_L11.mp3": "8d8c4c5a930ff7aacecd0228bd9606b86a6e316a404754b9fecde5a11241c02d",
+        "N2_06_M5_L01.mp3": "869c664cf2fd8ad246df805192dcd21e23971c35a91816d02f8a773cf94e2637",
+        "N2_06_M5_L02.mp3": "ac27dc3f3b55bbcaab3cd3a63807586c8804b143f07899e5e9370c8bba7091c9",
+        "N2_06_M5_L03.mp3": "b012febc5cfb93f1c46e07175d6348916564fac38c51dcadb6b41411abdc2110"
+      }
+    }
+  },
+  "historicalReviewFiles": {
+    "qa/blind_items_m06_s1_p1.json": "5950284bcd1ebc41bc1f4838067710acf79c813db885f608be3c34e4410e4399",
+    "qa/blind_items_m06_s1_p2.json": "4bf7e0268a1e89848e281e19700f0fe1796dfdf56039d28bbd58710cdb2f9326",
+    "qa/blind_items_m06_s2.json": "c148ded3bb36dadaf09460a46b419d974fd9d6d0a8b17cda6769c01ac30dde6f",
+    "qa/raw_blind_m06_s1_p1.json": "e7251ececf9342ae4ddcf38ef4705fa1791b649182a61a381277f329e984b99c",
+    "qa/raw_blind_m06_s1_p2.json": "2586d334f8f58a0005c0fc343de5a5c98a6f95f4410bec641614bb3740722db3",
+    "qa/raw_blind_m06_s2.json": "f2c12c5c61f3efce54bc34b9fc99f807bc9a218ee155d33309d12a04f4e8a8b1"
+  },
+  "invalidatedM06Reviews": {
+    "raw_blind_m06_s1_p1.json": {
+      "count": 38,
+      "sha256": "e7251ececf9342ae4ddcf38ef4705fa1791b649182a61a381277f329e984b99c",
+      "status": "INVALID_FOR_INDEPENDENT_AGREEMENT",
+      "invalidationReason": "Review output contaminated with authored correctAnswer"
+    },
+    "raw_blind_m06_s1_p2.json": {
+      "count": 37,
+      "sha256": "2586d334f8f58a0005c0fc343de5a5c98a6f95f4410bec641614bb3740722db3",
+      "status": "INVALID_FOR_INDEPENDENT_AGREEMENT",
+      "invalidationReason": "Review output contaminated with authored correctAnswer"
+    },
+    "raw_blind_m06_s2.json": {
+      "count": 30,
+      "sha256": "f2c12c5c61f3efce54bc34b9fc99f807bc9a218ee155d33309d12a04f4e8a8b1",
+      "status": "INVALID_FOR_INDEPENDENT_AGREEMENT",
+      "invalidationReason": "Review output contaminated with authored correctAnswer"
+    }
+  },
+  "m06BaselineAnswerKeys": {
+    "N2_06_M1_01": {
+      "section": 1,
+      "typeId": "N2-MO-READ",
+      "stem": "気体の温度が上昇すると、体積が急速に【膨張】する。",
+      "correctAnswer": "A",
+      "options": {
+        "A": "ぼうちょう",
+        "B": "ほうちょう",
+        "C": "ぼうちゅう",
+        "D": "ぼんちょう"
+      },
+      "explanationVi": "膨張（ぼうちょう - BÀNH TRƯƠNG）: Sự giãn nở, phình to ra về thể tích do áp suất hoặc nhiệt độ. Chữ 膨 có âm on là ぼう, chữ 張 có âm on là ちょう."
+    },
+    "N2_06_M1_02": {
+      "section": 1,
+      "typeId": "N2-MO-READ",
+      "stem": "著者の長年の研究成果が、この一冊の学術書に【凝縮】されている。",
+      "correctAnswer": "B",
+      "options": {
+        "A": "こうしゅく",
+        "B": "ぎょうしゅく",
+        "C": "きょうしゅく",
+        "D": "ぎょうしょう"
+      },
+      "explanationVi": "凝縮（ぎょうしゅく - NGƯNG SÚC）: Sự ngưng tụ vật lý hoặc cô đọng, đúc kết tinh hoa kiến thức. Chữ 凝 có âm on là ぎょう, chữ 縮 có âm on là しゅく."
+    },
+    "N2_06_M1_03": {
+      "section": 1,
+      "typeId": "N2-MO-READ",
+      "stem": "相手企業の提案条件を検討した結果、正式に【承諾】の返答を送った。",
+      "correctAnswer": "C",
+      "options": {
+        "A": "じょうだく",
+        "B": "しょうちょく",
+        "C": "しょうだく",
+        "D": "しょうしゃく"
+      },
+      "explanationVi": "承諾（しょうだく - THỪA NẶC）: Chấp thuận, đồng ý tiếp nhận lời yêu cầu/đề nghị. Chữ 承 có âm on là しょう, chữ 諾 có âm on là だく."
+    },
+    "N2_06_M1_04": {
+      "section": 1,
+      "typeId": "N2-MO-READ",
+      "stem": "ウイルス感染の拡大を防ぐため、蚊が病原体を【媒介】する経路を調査している。",
+      "correctAnswer": "D",
+      "options": {
+        "A": "まいかい",
+        "B": "ばいけい",
+        "C": "はいかい",
+        "D": "ばいかい"
+      },
+      "explanationVi": "媒介（ばいかい - MÔI GIỚI）: Làm vật trung gian truyền dẫn, truyền bệnh (như muỗi truyền mầm bệnh). Chữ 媒 có âm on là ばい, chữ 介 có âm on là かい."
+    },
+    "N2_06_M1_05": {
+      "section": 1,
+      "typeId": "N2-MO-READ",
+      "stem": "市民団体は、不正な資金流用を行った市長の責任を厳しく【糾弾】した。",
+      "correctAnswer": "A",
+      "options": {
+        "A": "きゅうだん",
+        "B": "きょうだん",
+        "C": "きゅうたん",
+        "D": "こうだん"
+      },
+      "explanationVi": "糾弾（きゅうだん - CỦ ĐẠN）: Lên án, chất vấn và truy cứu trách nhiệm tội lỗi một cách gay gắt. Chữ 糾 có âm on là きゅう, chữ 弾 có âm on là だん."
+    },
+    "N2_06_M2_01": {
+      "section": 1,
+      "typeId": "N2-MO-READ",
+      "stem": "彼は複雑な人形を指先で巧みに【あやつる】名人として知られている。",
+      "correctAnswer": "A",
+      "options": {
+        "A": "操る",
+        "B": "握る",
+        "C": "扱る",
+        "D": "捕る"
+      },
+      "explanationVi": "操る（あやつる - THAO）: Điều khiển, vận hành thuần thục (con rối, máy móc, ngoại ngữ). Chữ Hán chuẩn xác là 操 (trong 操作, 操縦)."
+    },
+    "N2_06_M2_02": {
+      "section": 1,
+      "typeId": "N2-MO-READ",
+      "stem": "最新の科学技術を【たずさえて】、未知の海洋深層部の探査へと出発した。",
+      "correctAnswer": "B",
+      "options": {
+        "A": "揃えて",
+        "B": "携えて",
+        "C": "導えて",
+        "D": "抱えて"
+      },
+      "explanationVi": "携える（たずさえる - HUỀ）: Mang theo bên mình, cầm trong tay (vật phẩm, tri thức, công nghệ). Chữ Hán chuẩn là 携 (trong 携帯, 連携)."
+    },
+    "N2_06_M2_03": {
+      "section": 1,
+      "typeId": "N2-MO-READ",
+      "stem": "若き研究者たちが、難病の治療法を見つけるために日夜研究に【はげんでいる】。",
+      "correctAnswer": "C",
+      "options": {
+        "A": "努んでいる",
+        "B": "奮んでいる",
+        "C": "励んでいる",
+        "D": "勤んでいる"
+      },
+      "explanationVi": "励む（はげむ - LỆ）: Nỗ lực hết mình, dồn sức vào công việc/học tập. Chữ Hán chuẩn là 励 (trong 激励, 勉励)."
+    },
+    "N2_06_M2_04": {
+      "section": 1,
+      "typeId": "N2-MO-READ",
+      "stem": "過度な規制は、自由な経済活動の発展を【さまたげる】要因になりかねない。",
+      "correctAnswer": "D",
+      "options": {
+        "A": "阻げる",
+        "B": "遮げる",
+        "C": "拒げる",
+        "D": "妨げる"
+      },
+      "explanationVi": "妨げる（さまたげる - PHƯƠNG）: Gây trở ngại, ngăn cản sự tiến bộ/phát triển. Chữ Hán chuẩn là 妨 (trong 妨害)."
+    },
+    "N2_06_M2_05": {
+      "section": 1,
+      "typeId": "N2-MO-READ",
+      "stem": "政府は省エネルギー住宅の普及を【うながす】ため、補助金制度の新設を決定した。",
+      "correctAnswer": "A",
+      "options": {
+        "A": "促す",
+        "B": "催す",
+        "C": "勧す",
+        "D": "薦す"
+      },
+      "explanationVi": "促す（うながす - XÚC）: Thúc đẩy, khích lệ tiến hành nhanh hoặc nhắc nhở hành động. Chữ Hán chuẩn là 促 (trong 促進, 催促)."
+    },
+    "N2_06_M3_01": {
+      "section": 1,
+      "typeId": "N2-MO-FORM",
+      "stem": "近年のデジタル技術革新により、金融とITが融合した新たな経済（　　）が誕生した。",
+      "correctAnswer": "B",
+      "options": {
+        "A": "界",
+        "B": "圏",
+        "C": "帯",
+        "D": "区"
+      },
+      "explanationVi": "経済圏（けいざいけん）: Vùng kinh tế, hệ sinh thái kinh tế có mối liên kết chặt chẽ (hậu tố 〜圏 chỉ phạm vi/khu vực ảnh hưởng: 首都圏, 経済圏)."
+    },
+    "N2_06_M3_02": {
+      "section": 1,
+      "typeId": "N2-MO-FORM",
+      "stem": "緊急事態に対処するため、警察と消防の全戦力が（　　）動員された。",
+      "correctAnswer": "C",
+      "options": {
+        "A": "大",
+        "B": "全",
+        "C": "総",
+        "D": "本"
+      },
+      "explanationVi": "総動員（そうどういん）: Tổng động viên toàn bộ nhân lực và lực lượng (tiền tố 総〜 chỉ quy mô tập hợp tất cả: 総動員, 総責任者, 総売上)."
+    },
+    "N2_06_M3_03": {
+      "section": 1,
+      "typeId": "N2-MO-FORM",
+      "stem": "地元住民が行政と連携し、地域（　　）で高齢者の見守り活動に取り組んでいる。",
+      "correctAnswer": "A",
+      "options": {
+        "A": "ぐるみ",
+        "B": "だらけ",
+        "C": "ずくめ",
+        "D": "まみれ"
+      },
+      "explanationVi": "地域ぐるみ（ちいきぐるみ）: Quy mô toàn thể khu vực, tất cả mọi người trong vùng đều chung tay tham gia (hậu tố 〜ぐるみ: 町ぐるみ, 地域ぐるみ, 家族ぐるみ)."
+    },
+    "N2_06_M3_04": {
+      "section": 1,
+      "typeId": "N2-MO-FORM",
+      "stem": "他業種との交流を通じて、従来の枠組みにとらわれない（　　）分野の融合を図る。",
+      "correctAnswer": "D",
+      "options": {
+        "A": "他",
+        "B": "外",
+        "C": "対",
+        "D": "異"
+      },
+      "explanationVi": "異分野（いぶんや）: Các lĩnh vực khác biệt, không cùng chuyên môn (tiền tố 異〜: 異分野, 異業種, 異文化)."
+    },
+    "N2_06_M3_05": {
+      "section": 1,
+      "typeId": "N2-MO-FORM",
+      "stem": "休日の朝は、潮風を感じながら海岸（　　）をジョギングするのが日課だ。",
+      "correctAnswer": "A",
+      "options": {
+        "A": "沿い",
+        "B": "端",
+        "C": "側",
+        "D": "並び"
+      },
+      "explanationVi": "海岸沿い（かいがんぞい）: Dọc theo bờ biển (hậu tố 〜沿い chỉ vị trí chạy men theo tuyến đường/bờ sông/bờ biển: 海岸沿い, 川沿い, 線路沿い)."
+    },
+    "N2_06_M4_01": {
+      "section": 1,
+      "typeId": "N2-MO-CTX",
+      "stem": "論文の要点を手短に説明するため、最も重要な実験結果のデータのみを【　　】して提示した。",
+      "correctAnswer": "A",
+      "options": {
+        "A": "抜粋",
+        "B": "省略",
+        "C": "縮小",
+        "D": "控除"
+      },
+      "explanationVi": "抜粋（ばっすい - BẠT TÚY）: Trích tuyển, rút ra phần quan trọng/tiêu biểu từ văn bản, dữ liệu để trình bày."
+    },
+    "N2_06_M4_02": {
+      "section": 1,
+      "typeId": "N2-MO-CTX",
+      "stem": "過去の失敗に過度に【　　】していては、新しい挑戦への一歩を踏み出すことはできない。",
+      "correctAnswer": "B",
+      "options": {
+        "A": "依存",
+        "B": "執着",
+        "C": "束縛",
+        "D": "専念"
+      },
+      "explanationVi": "執着（しゅうちゃく - CHẤP TRƯỚC）: Vương vấn, cố chấp bám riết lấy một việc/tình cảm trong quá khứ không chịu buông bỏ."
+    },
+    "N2_06_M4_03": {
+      "section": 1,
+      "typeId": "N2-MO-CTX",
+      "stem": "相手の素早い攻撃を【　　】な身のこなしでかわし、見事に反撃に転じた。",
+      "correctAnswer": "C",
+      "options": {
+        "A": "簡潔",
+        "B": "鮮明",
+        "C": "敏捷",
+        "D": "軽率"
+      },
+      "explanationVi": "敏捷（びんしょう - MẪN TIỆP）: Nhanh nhẹn, lanh lẹ trong cử động thân thể hoặc tư duy (thường đi với 敏捷な動き, 敏捷な身のこなし)."
+    },
+    "N2_06_M4_04": {
+      "section": 1,
+      "typeId": "N2-MO-CTX",
+      "stem": "日々の健康管理を【　　】にしていると、年齢を重ねてから大きな病気につながる恐れがある。",
+      "correctAnswer": "D",
+      "options": {
+        "A": "わずか",
+        "B": "かすか",
+        "C": "おろそか",
+        "D": "なだらか"
+      },
+      "explanationVi": "疎か（おろそか - SƠ）: Chểnh mảng, lơ là, không coi trọng (thường dùng trong 健康管理をおろそかにする, 勉強をおろそかにする)."
+    },
+    "N2_06_M4_05": {
+      "section": 1,
+      "typeId": "N2-MO-CTX",
+      "stem": "悪天候の平日の午後だったため、普段は賑わう商店街も人通りは【　　】だった。",
+      "correctAnswer": "A",
+      "options": {
+        "A": "まばら",
+        "B": "おおまか",
+        "C": "ひそか",
+        "D": "のどか"
+      },
+      "explanationVi": "まばら: Thưa thớt, rải rác ít ỏi (thường miêu tả mật độ người: 人通りはまばらだ, 観客はまばらだった)."
+    },
+    "N2_06_M4_06": {
+      "section": 1,
+      "typeId": "N2-MO-CTX",
+      "stem": "想定外のアクシデントに見舞われ、新入社員はすっかり【　　】して指示を待つことしかできなかった。",
+      "correctAnswer": "B",
+      "options": {
+        "A": "しがみついて",
+        "B": "うろたえて",
+        "C": "くつろいで",
+        "D": "とまどって"
+      },
+      "explanationVi": "うろたえる: Hoảng hốt, lúng túng mất phương hướng vì bất ngờ trước tai họa/sự cố (すっかりうろたえる)."
+    },
+    "N2_06_M4_07": {
+      "section": 1,
+      "typeId": "N2-MO-CTX",
+      "stem": "意見の対立が続いて以来、二人の関係はどこか【　　】していて口数も減った。",
+      "correctAnswer": "A",
+      "options": {
+        "A": "ぎくしゃく",
+        "B": "ごたごた",
+        "C": "もたもた",
+        "D": "ぐずぐず"
+      },
+      "explanationVi": "ぎくしゃく: Gượng gạo, sượng sùng, căng thẳng mất đi sự ăn ý tự nhiên trong mối quan hệ (二人の関係がぎくしゃくする)."
+    },
+    "N2_06_M5_01": {
+      "section": 1,
+      "typeId": "N2-MO-PARA",
+      "stem": "十分な事前準備をしていたため、交渉は【たやすく】成立した。",
+      "correctAnswer": "A",
+      "options": {
+        "A": "あっさり",
+        "B": "かろうじて",
+        "C": "すみやかに",
+        "D": "あらかじめ"
+      },
+      "explanationVi": "たやすく（容易く）: Dễ dàng, trôi chảy không gặp trở ngại nào = あっさり（chóng vánh, nhẹ nhàng đạt được kết quả mà không tốn công sức đấu tranh）。"
+    },
+    "N2_06_M5_02": {
+      "section": 1,
+      "typeId": "N2-MO-PARA",
+      "stem": "新規事業を立ち上げるにあたり、チーム全員の【意気込み】が感じられた。",
+      "correctAnswer": "B",
+      "options": {
+        "A": "誠意",
+        "B": "やる気",
+        "C": "自負",
+        "D": "警戒"
+      },
+      "explanationVi": "意気込み（いきごみ）: Nhiệt huyết, khí thế hăng hái quyết tâm làm việc = やる気 / 意欲。"
+    },
+    "N2_06_M5_03": {
+      "section": 1,
+      "typeId": "N2-MO-PARA",
+      "stem": "厳しい叱責を受けた後、彼は一言も話さず【うつむいて】いた。",
+      "correctAnswer": "C",
+      "options": {
+        "A": "横を向いて",
+        "B": "後ろを向いて",
+        "C": "下を向いて",
+        "D": "上を向いて"
+      },
+      "explanationVi": "うつむく（俯く）: Cúi gằm mặt xuống vì xấu hổ, ân hận hoặc buồn rầu = 下を向く。"
+    },
+    "N2_06_M5_04": {
+      "section": 1,
+      "typeId": "N2-MO-PARA",
+      "stem": "海外赴任に伴う税務手続きは、専門用語が多く非常に【わずらわしい】。",
+      "correctAnswer": "D",
+      "options": {
+        "A": "ばかばかしい",
+        "B": "みっともない",
+        "C": "まぎらわしい",
+        "D": "めんどうな"
+      },
+      "explanationVi": "わずらわしい（煩わしい）: Phiền toái, rườm rà, phức tạp khiến người ta phát ngán = めんどうな / 煩雑な。"
+    },
+    "N2_06_M5_05": {
+      "section": 1,
+      "typeId": "N2-MO-PARA",
+      "stem": "明日の会議は書類の確認のみですので、私服で参加されても【さしつかえありません】。",
+      "correctAnswer": "A",
+      "options": {
+        "A": "問題ありません",
+        "B": "おすすめしません",
+        "C": "遠慮してください",
+        "D": "義務づけられています"
+      },
+      "explanationVi": "差し支えない（さしつかえない）: Không có gì cản trở, không sao, hoàn toàn được phép = 問題ない / 構わない。"
+    },
+    "N2_06_M6_01": {
+      "section": 1,
+      "typeId": "N2-MO-USE",
+      "stem": "【模倣】",
+      "correctAnswer": "A",
+      "options": {
+        "A": "優れた芸術作品を観察し、その技法を模倣することから独自の創作が始まる。",
+        "B": "試験の模倣として過去問を何度も解くことで、本番の感覚に慣れておく。",
+        "C": "災害発生時に備えて、全社員で避難の模倣を迅速に実施した。",
+        "D": "新商品の模倣を測るため、街頭で大規模なアンケート調査を行った。"
+      },
+      "explanationVi": "模倣（もほう - MÔ PHỎNG）: Bắt chước, học theo phong cách/hành vi của người khác. Dùng đúng trong A: học tập mô phỏng kỹ thuật của tác phẩm nghệ thuật."
+    },
+    "N2_06_M6_02": {
+      "section": 1,
+      "typeId": "N2-MO-USE",
+      "stem": "【蓄積】",
+      "correctAnswer": "B",
+      "options": {
+        "A": "彼は毎月の給料から一定額を銀行口座に蓄積して家を買った。",
+        "B": "長年の地道な現場実験によって得られたデータと知見の蓄積が、今回の発見を生んだ。",
+        "C": "昨夜の大雪が道路に激しく蓄積し、朝の通勤ラッシュを麻痺させた。",
+        "D": "会議で出た意見をノートに蓄積し、後で議事録として清書した。"
+      },
+      "explanationVi": "蓄積（ちくせき - SÚC TÍCH）: Tích lũy dần dần qua thời gian dài (kiến thức, dữ liệu, mệt mỏi, kinh nghiệm). Dùng đúng trong B: tích lũy dữ liệu và hiểu biết."
+    },
+    "N2_06_M6_03": {
+      "section": 1,
+      "typeId": "N2-MO-USE",
+      "stem": "【画期的】",
+      "correctAnswer": "C",
+      "options": {
+        "A": "彼女は毎朝時間を画期的に使って、読書と運動の両立を図っている。",
+        "B": "この画期的な壁画は、地元出身の若手画家によって丁寧に描かれた。",
+        "C": "従来の治療法の概念を根底から覆す、画期的な新薬が開発された。",
+        "D": "画期的な天候の急変により、予定されていた屋外コンサートは中止となった。"
+      },
+      "explanationVi": "画期的（かっきてき - HỌA KỲ ĐÍCH）: Mang tính bước ngoặt lịch sử, mở ra kỷ nguyên mới chưa từng có. Dùng đúng trong C: loại thuốc đột phá mang tính thời đại làm đảo lộn quan niệm cũ."
+    },
+    "N2_06_M6_04": {
+      "section": 1,
+      "typeId": "N2-MO-USE",
+      "stem": "【妥当】",
+      "correctAnswer": "A",
+      "options": {
+        "A": "市場の平均相場や品質を総合的に考慮すれば、この価格設定は極めて妥当だ。",
+        "B": "彼は時間に妥当な性格で、一度も待ち合わせに遅刻したことがない。",
+        "C": "この部屋は日当たりがよく、風通しも妥当なのでとても過ごしやすい。",
+        "D": "試験で満点を取るという妥当な目標に向かって、毎日猛勉強を続けている。"
+      },
+      "explanationVi": "妥当（だとう - THỎA ĐƯƠNG）: Hợp lý, thỏa đáng, đúng mực sau khi cân nhắc các khía cạnh khách quan. Dùng đúng trong A: mức giá định ra là cực kỳ thỏa đáng."
+    },
+    "N2_06_M6_05": {
+      "section": 1,
+      "typeId": "N2-MO-USE",
+      "stem": "【執拗】",
+      "correctAnswer": "A",
+      "options": {
+        "A": "相手の弱点を見つけると、執拗に同じ論点を突いて攻撃を繰り返した。",
+        "B": "この料理はスープの味が執拗で、一口食べただけで濃厚な旨味が広がる。",
+        "C": "彼女は執拗な性格で、困っている人を見ると放っておけない優しさがある。",
+        "D": "最新のスマートフォンの画面は執拗に美しく、細部まで鮮やかに映し出される。"
+      },
+      "explanationVi": "執拗（しつよう - CHẤP ẤU）: Dai dẳng, ngoan cố bám riết lấy một cách dai như đỉa (thường mang sắc thái tiêu cực hoặc quấy rối). Dùng đúng trong A: công kích dai dẳng lặp đi lặp lại vào cùng một điểm yếu."
+    },
+    "N2_06_M7_01": {
+      "section": 1,
+      "typeId": "N2-GR-FORM",
+      "stem": "過去の失敗の経験（　　）、今回の新しいプロジェクトではリスク管理を徹底した。",
+      "correctAnswer": "B",
+      "options": {
+        "A": "を皮切りに",
+        "B": "を踏まえて",
+        "C": "を抜きにして",
+        "D": "を契機に"
+      },
+      "explanationVi": "〜を踏まえて: Dựa trên cơ sở/tiền đề, rút kinh nghiệm từ N (văn viết trang trọng: 過去の経験を踏まえて - dựa trên bài học thất bại trong quá khứ)."
+    },
+    "N2_06_M7_02": {
+      "section": 1,
+      "typeId": "N2-GR-FORM",
+      "stem": "新製品の全国発売（　　）、関係者を集めた大規模な記者会見が開催された。",
+      "correctAnswer": "C",
+      "options": {
+        "A": "に際して",
+        "B": "に基づいて",
+        "C": "に先立ち",
+        "D": "に伴い"
+      },
+      "explanationVi": "〜に先立ち / 〜に先立って: Trước khi bước vào sự kiện lớn/dự án quan trọng (chuẩn bị trước: 発売に先立ち - trước khi tung sản phẩm ra toàn quốc thì họp báo trước)."
+    },
+    "N2_06_M7_03": {
+      "section": 1,
+      "typeId": "N2-GR-FORM",
+      "stem": "連日の猛特訓に耐え抜いた彼のことだから、明日の本番でも実力を発揮する（　　）。",
+      "correctAnswer": "B",
+      "options": {
+        "A": "にすぎない",
+        "B": "に相違ない",
+        "C": "にほかならない",
+        "D": "わけがない"
+      },
+      "explanationVi": "〜に相違ない: Chắc chắn là, không còn nghi ngờ gì nữa (phán đoán quả quyết dựa trên căn cứ vững chắc: 彼のことだから...発揮するに相違ない)."
+    },
+    "N2_06_M7_04": {
+      "section": 1,
+      "typeId": "N2-GR-FORM",
+      "stem": "会社の経営方針が大きく転換した以上、我々現場の社員も変革を受け入れ（　　）。",
+      "correctAnswer": "D",
+      "options": {
+        "A": "そうにない",
+        "B": "かねない",
+        "C": "っこない",
+        "D": "ざるを得ない"
+      },
+      "explanationVi": "〜ざるを得ない: Đành phải, buộc phải làm dù không muốn do hoàn cảnh ép buộc (V-nai bỏ nai + ざるを得ない: 受け入れざるを得ない)."
+    },
+    "N2_06_M7_05": {
+      "section": 1,
+      "typeId": "N2-GR-FORM",
+      "stem": "彼がこれほどの成功を収めたのは、人知れず流した汗と努力の（　　）。",
+      "correctAnswer": "B",
+      "options": {
+        "A": "おそれがある",
+        "B": "たまものだ",
+        "C": "かぎりだ",
+        "D": "ものがある"
+      },
+      "explanationVi": "〜賜物だ（たまものだ）: Chính là kết tinh, hoa trái thành quả của những nỗ lực quý giá (努力の賜物だ)."
+    },
+    "N2_06_M7_06": {
+      "section": 1,
+      "typeId": "N2-GR-FORM",
+      "stem": "子供は母親の顔をどこか（　　）に見つめながら、小さな声で嘘をついたことを謝った。",
+      "correctAnswer": "C",
+      "options": {
+        "A": "不安がち",
+        "B": "不安ぎみ",
+        "C": "不安げ",
+        "D": "不安っぽく"
+      },
+      "explanationVi": "〜げ: Có vẻ, toát lên sắc thái cảm xúc từ ánh mắt/vẻ mặt (tính từ bỏ な/い + げ: 不安げに見つめる - nhìn với ánh mắt đượm vẻ bất an lo lắng)."
+    },
+    "N2_06_M7_07": {
+      "section": 1,
+      "typeId": "N2-GR-FORM",
+      "stem": "台風による土砂崩れの影響で、一部の鉄道区間では終日運休を（　　）。",
+      "correctAnswer": "D",
+      "options": {
+        "A": "免れなかった",
+        "B": "やむを得なかった",
+        "C": "強いられた",
+        "D": "余儀なくされた"
+      },
+      "explanationVi": "〜を余儀なくされる: Buộc phải rơi vào tình trạng bất đắc dĩ do thiên tai/ngoại cảnh tác động (運休を余儀なくされた)."
+    },
+    "N2_06_M7_08": {
+      "section": 1,
+      "typeId": "N2-GR-FORM",
+      "stem": "これほど精密で複雑な機械の修理は、専門のエンジニアでなければでき（　　）。",
+      "correctAnswer": "C",
+      "options": {
+        "A": "まい",
+        "B": "かねない",
+        "C": "っこない",
+        "D": "そうもない"
+      },
+      "explanationVi": "〜っこない: Tuyệt đối không thể nào... (phủ định hoàn toàn khả năng, mang khẩu khí dứt khoát: できっこない - không đời nào làm được)."
+    },
+    "N2_06_M7_09": {
+      "section": 1,
+      "typeId": "N2-GR-FORM",
+      "stem": "事前に十分な説明を受けた（　　）、実際に契約書にサインする時は緊張した。",
+      "correctAnswer": "D",
+      "options": {
+        "A": "ものだから",
+        "B": "ものなら",
+        "C": "ものの見事に",
+        "D": "ものの"
+      },
+      "explanationVi": "〜ものの: Mặc dù... nhưng sự thực là (vế sau diễn tả thực tế trái với kỳ vọng thông thường: 説明を受けたものの - dù đã được giải thích kỹ rồi nhưng lúc ký vẫn run)."
+    },
+    "N2_06_M7_10": {
+      "section": 1,
+      "typeId": "N2-GR-FORM",
+      "stem": "新店舗の開店（　　）、地域の皆様へ感謝の気持ちを込めて記念品を贈呈いたします。",
+      "correctAnswer": "C",
+      "options": {
+        "A": "を踏まえ",
+        "B": "を皮切りに",
+        "C": "にあたり",
+        "D": "のもとに"
+      },
+      "explanationVi": "〜にあたって / 〜にあたり: Nhân dịp, vào thời điểm bắt đầu sự kiện trọng đại đặc biệt (開店にあたり - nhân dịp khai trương cửa hàng mới)."
+    },
+    "N2_06_M7_11": {
+      "section": 1,
+      "typeId": "N2-GR-FORM",
+      "stem": "一度失敗したからといって、夢を諦めてなる（　　）か。",
+      "correctAnswer": "D",
+      "options": {
+        "A": "はず",
+        "B": "こと",
+        "C": "わけ",
+        "D": "もの"
+      },
+      "explanationVi": "〜てなるものか / 〜ものか: Tuyệt đối không bao giờ chịu nhượng bộ/đầu hàng (諦めてなるものか - đời nào lại bỏ cuộc chỉ vì một lần thất bại)."
+    },
+    "N2_06_M7_12": {
+      "section": 1,
+      "typeId": "N2-GR-FORM",
+      "stem": "家族旅行で訪れた海の写真を見る（　　）、幼い頃の懐かしい思い出が胸に蘇る。",
+      "correctAnswer": "C",
+      "options": {
+        "A": "にしたがって",
+        "B": "につれて",
+        "C": "につけ",
+        "D": "に際して"
+      },
+      "explanationVi": "〜につけ: Mỗi lần... lại nảy sinh cảm xúc/ký ức tự nhiên (見るにつけ - hễ nhìn tấm ảnh lại nhớ về kỷ niệm tuổi thơ)."
+    },
+    "N2_06_M8_01": {
+      "section": 1,
+      "typeId": "N2-GR-STAR",
+      "stem": "定年退職を（　　）（　　） ★ （　　）ことにした。",
+      "correctAnswer": "B",
+      "options": {
+        "A": "機に、",
+        "B": "念願だった",
+        "C": "かねてから",
+        "D": "陶芸を始める"
+      },
+      "explanationVi": "Thứ tự đúng: A - C - B - D (定年退職を 機に、 かねてから 念願だった 陶芸を始める ことにした). Cấu trúc ngữ pháp N2: 〜を機に (nhân cơ hội...). [A 機に、] kết hợp sau 定年退職を. Vế sau: [C かねてから] bổ nghĩa cho [B 念願だった] (niềm mong mỏi từ lâu), sau đó làm định ngữ bổ nghĩa cho [D 陶芸を始める] trước [ことにした]. Thứ tự duy nhất hợp cú pháp là A - C - B - D. Vị trí ngôi sao ★ là B (念願だった)."
+    },
+    "N2_06_M8_02": {
+      "section": 1,
+      "typeId": "N2-GR-STAR",
+      "stem": "本場の職人が（　　）（　　） ★ （　　）格別だ。",
+      "correctAnswer": "D",
+      "options": {
+        "A": "手作りした",
+        "B": "だけあって、",
+        "C": "風味の良さは",
+        "D": "このパンの"
+      },
+      "explanationVi": "Thứ tự đúng: A - B - D - C (本場の職人が 手作りした だけあって、 このパンの 風味の良さは 格別だ). Cấu trúc ngữ pháp N2: 〜だけあって (thảo nào/quả đúng là... nên kết quả nổi bật tương xứng). [A 手作りした] kết hợp sau chủ ngữ 本場の職人が để hoàn thiện vế bổ nghĩa cho [B だけあって、]. Vế sau: [D このパンの] làm định ngữ cho [C 風味の良さは] trước vị ngữ [格別だ]. Thứ tự duy nhất hợp cú pháp là A - B - D - C. Vị trí ngôi sao ★ là D (このパンの)."
+    },
+    "N2_06_M8_03": {
+      "section": 1,
+      "typeId": "N2-GR-STAR",
+      "stem": "関係者との（　　）（　　） ★ （　　）いかない。",
+      "correctAnswer": "A",
+      "options": {
+        "A": "計画を勝手に",
+        "B": "進めるわけには",
+        "C": "十分な合意を",
+        "D": "得ることなしに、"
+      },
+      "explanationVi": "Thứ tự đúng: C - D - A - B (関係者との 十分な合意を 得ることなしに、 計画を勝手に 進めるわけには いかない). Cấu trúc ngữ pháp N2: 〜ことなしに (nếu không có A thì không thể B) và 〜わけにはいかない (không thể/không được phép làm vì đạo lý/trách nhiệm). [C 十分な合意を] làm tân ngữ cho [D 得ることなしに、]. Vế sau: [A 計画を勝手に] là hành động bị phủ định đi liền với [B 進めるわけには] trước [いかない]. Thứ tự duy nhất hợp lý là C - D - A - B. Vị trí ngôi sao ★ là A (計画を勝手に)."
+    },
+    "N2_06_M8_04": {
+      "section": 1,
+      "typeId": "N2-GR-STAR",
+      "stem": "年齢や性別の（　　）（　　） ★ （　　）努めている。",
+      "correctAnswer": "B",
+      "options": {
+        "A": "社内において",
+        "B": "誰もが働きやすい",
+        "C": "違いにかかわらず、",
+        "D": "環境を整えるよう"
+      },
+      "explanationVi": "Thứ tự đúng: C - A - B - D (年齢や性別の 違いにかかわらず、 社内において 誰もが働きやすい 環境を整えるよう 努めている). Cấu trúc ngữ pháp N2: 〜にかかわらず (bất kể, không phân biệt). [C 違いにかかわらず、] đi liền sau danh từ 年齢や性別の. Vế sau: [A 社内において] xác định phạm vi, [B 誰もが働きやすい] bổ nghĩa cho [D 環境を整えるよう] trước [努めている]. Thứ tự duy nhất chuẩn xác là C - A - B - D. Vị trí ngôi sao ★ là B (誰もが働きやすい)."
+    },
+    "N2_06_M8_05": {
+      "section": 1,
+      "typeId": "N2-GR-STAR",
+      "stem": "彼の失言は（　　）（　　） ★ （　　）招きかねない。",
+      "correctAnswer": "C",
+      "options": {
+        "A": "批判を浴びる",
+        "B": "国際問題さえ",
+        "C": "どころか、",
+        "D": "国内での"
+      },
+      "explanationVi": "Thứ tự đúng: D - A - C - B (彼の失言は 国内での 批判を浴びる どころか、 国際問題さえ 招きかねない). Cấu trúc ngữ pháp N2: 〜どころか...さえ〜 (không chỉ A mà thậm chí đến cả B mức độ nghiêm trọng hơn cũng có thể xảy ra). [D 国内での] bổ nghĩa cho [A 批判を浴びる]. [C どころか、] ngắt vế so sánh tăng cấp. [B 国際問題さえ] làm tân ngữ mức độ cao đi với [招きかねない]. Thứ tự duy nhất hợp logic là D - A - C - B. Vị trí ngôi sao ★ là C (どころか、)."
+    },
+    "N2_06_M9_01": {
+      "section": 1,
+      "typeId": "N2-GR-TEXT",
+      "stem": "文章中の【 50 】に入る最も適切なものを選びなさい。",
+      "correctAnswer": "D",
+      "options": {
+        "A": "明らかにならざるを得ない",
+        "B": "明らかにするわけがない",
+        "C": "明らかになったにすぎない",
+        "D": "明らかになりつつある"
+      },
+      "explanationVi": "〜つつある: Đang dần dần sáng tỏ theo tiến trình của các nghiên cứu khoa học gần đây (研究によって明らかになりつつある)."
+    },
+    "N2_06_M9_02": {
+      "section": 1,
+      "typeId": "N2-GR-TEXT",
+      "stem": "文章中の【 51 】に入る最も適切なものを選びなさい。",
+      "correctAnswer": "C",
+      "options": {
+        "A": "末に",
+        "B": "うえに",
+        "C": "あまり",
+        "D": "ついでに"
+      },
+      "explanationVi": "〜あまり: Vì quá mức... dẫn đến kết quả tiêu cực vượt ngoài tầm kiểm soát (求めたあまり - vì quá khao khát tìm kiếm cảm giác an tâm tạm thời mà trốn tránh sang lướt điện thoại)."
+    },
+    "N2_06_M9_03": {
+      "section": 1,
+      "typeId": "N2-GR-TEXT",
+      "stem": "文章中の【 52 】に入る最も適切なものを選びなさい。",
+      "correctAnswer": "D",
+      "options": {
+        "A": "にすぎない",
+        "B": "相違ない",
+        "C": "かぎらない",
+        "D": "ほかならない"
+      },
+      "explanationVi": "〜にほかならない: Chính là, không gì khác ngoài... (giải thích bản chất cốt lõi: 感情の制御をめぐる葛藤にほかならない - chính là sự giằng xé trong việc kiểm soát cảm xúc)."
+    },
+    "N2_06_M9_04": {
+      "section": 1,
+      "typeId": "N2-GR-TEXT",
+      "stem": "文章中の【 53 】に入る最も適切なものを選びなさい。",
+      "correctAnswer": "C",
+      "options": {
+        "A": "踏み出すことなくして",
+        "B": "踏み出す契機に",
+        "C": "踏み出すことなしに",
+        "D": "踏み出したあげく"
+      },
+      "explanationVi": "〜ことなしに（〜ない）: Nếu không có A thì không thể có B (小さな第一歩を踏み出すことなしに、前進することはあり得ない - nếu không bước đi bước đầu tiên thì không thể nào có sự tiến bộ)."
+    },
+    "N2_06_M9_05": {
+      "section": 1,
+      "typeId": "N2-GR-TEXT",
+      "stem": "文章中の【 54 】に入る最も適切なものを選びなさい。",
+      "correctAnswer": "A",
+      "options": {
+        "A": "のではないだろうか",
+        "B": "わけにはいかないだろう",
+        "C": "にちがいないはずだ",
+        "D": "はずがないのではないか"
+      },
+      "explanationVi": "〜のではないだろうか: Chẳng phải là... hay sao (câu kết luận quan điểm tác giả một cách sâu sắc, gợi mở và thuyết phục: 育む鍵となるのではないだろうか)."
+    },
+    "N2_06_M10_01": {
+      "section": 1,
+      "typeId": "N2-RD-SHORT",
+      "stem": "筆者によると、ビジネスにおける「相談」の重要性はどこにあるか。",
+      "correctAnswer": "C",
+      "options": {
+        "A": "上司に責任を転嫁し、判断の負担を減らせる点",
+        "B": "過去の失敗を早期に報告し、損害を最小限に抑える点",
+        "C": "他者の知恵を借りて思考を深め、自身の成長につながる点",
+        "D": "自分の優れた能力を上司に効果的にアピールできる点"
+      },
+      "explanationVi": "Thông tin nằm trực tiếp ở câu cuối: '相談を通じて思考を深めることこそが、組織における成長の近道なのである' (Thông qua trao đổi mà đào sâu tư duy, chính là con đường ngắn nhất để trưởng thành trong tổ chức). Đáp án đúng là B."
+    },
+    "N2_06_M10_02": {
+      "section": 1,
+      "typeId": "N2-RD-SHORT",
+      "stem": "樹木が都市のヒートアイランド現象を和らげるメカニズムとして、文章で述べられているのはどれか。",
+      "correctAnswer": "D",
+      "options": {
+        "A": "地中の水分を凍結させて地表温度の急上昇を抑えること",
+        "B": "コンクリートの反射光を遮断して日差しを和らげること",
+        "C": "夜間に蓄積した冷気を都市全体に風として循環させること",
+        "D": "葉からの蒸散作用によって周囲の熱を奪うこと"
+      },
+      "explanationVi": "Đoạn văn nêu rõ: '樹木や草花は根から吸い上げた水分を葉から蒸発させる「蒸散作用」によって周囲の熱を奪う'. Đáp án đúng là A."
+    },
+    "N2_06_M10_03": {
+      "section": 1,
+      "typeId": "N2-RD-SHORT",
+      "stem": "文章によると、消費者が「限定商品」を思わず買ってしまう根本的な心理的要因は何か。",
+      "correctAnswer": "C",
+      "options": {
+        "A": "他者よりも早く優位な立場に立ちたいという競争心",
+        "B": "限定品ほど品質や安全性が保証されているという信頼感",
+        "C": "手に入れる喜びよりも機会を逃す痛みを強く恐れる心理",
+        "D": "価格が通常品よりも大幅に割引されているという経済的計算"
+      },
+      "explanationVi": "Đoạn văn giải thích: '人間は同じ価値であっても、何かを得る喜びよりも、それを失う痛みを約2倍強く感じる傾向がある... 機会の損失を恐れる心理を強く刺激し'. Đáp án đúng là B."
+    },
+    "N2_06_M10_04": {
+      "section": 1,
+      "typeId": "N2-RD-SHORT",
+      "stem": "筆者は現代社会におけるオノマトペをどのように評価しているか。",
+      "correctAnswer": "D",
+      "options": {
+        "A": "論理的な思考力を低下させるため、公式な文書では使用を控えるべきもの",
+        "B": "日本独自の文化であり、外国語への正確な翻訳が不可能なもの",
+        "C": "若者の語彙力を貧困化させ、正確なコミュニケーションを妨げるもの",
+        "D": "一語で五感に訴えかけ、人間らしい共感を促す貴重な資源"
+      },
+      "explanationVi": "Câu cuối khẳng định: '一語で五感に訴えかけることができるオノマトペは、合理的効率を重んじる現代社会において、むしろ人間らしい共感を促す貴重な言語資源といえるだろう'. Đáp án đúng là B."
+    },
+    "N2_06_M10_05": {
+      "section": 1,
+      "typeId": "N2-RD-SHORT",
+      "stem": "科学における「偶然の発見」について、筆者が最も主張したいことは何か。",
+      "correctAnswer": "B",
+      "options": {
+        "A": "計画的な研究よりも、運や偶然に頼る方が画期的な成果を生みやすい。",
+        "B": "偶然を捉えて発見につなげるには、日頃の徹底的な準備と問題意識が不可欠である。",
+        "C": "失敗した実験のデータは価値がないため、すぐに破棄して新しい計画に移行すべきだ。",
+        "D": "優れた科学者であっても、偶然の好機に恵まれなければ偉大な業績は残せない。"
+      },
+      "explanationVi": "Đoạn văn nhấn mạnh: '偶然が発見に結びつくのは、あらかじめ問題意識を研ぎ澄まし、徹底的な観察を続けていた者に限られる... 準備のない者の前を偶然が通り過ぎても、それはただの「見過ごされた日常の出来事」に終わってしまう'. Đáp án đúng là B."
+    },
+    "N2_06_M11_01": {
+      "section": 1,
+      "typeId": "N2-RD-MID",
+      "stem": "文章で説明されている「心理的安全性」の定義として最も適切なものはどれか。",
+      "correctAnswer": "C",
+      "options": {
+        "A": "チーム内の全員が高い専門スキルを持ち、ミスを犯さずに業務を遂行できる状態",
+        "B": "厳しいノルマや納期が存在せず、精神的なストレスを感じずに過ごせる状態",
+        "C": "失敗や疑問を率直に口にしても、仲間から否定や攻撃を受けないと確信できる状態",
+        "D": "メンバー同士が親友のようにプライベートを共有し、常に意見が一致する状態"
+      },
+      "explanationVi": "Đoạn 1 nêu rõ: '自分の無知や失敗を率直にさらけ出しても、他者から非難されたり嘲笑されたりすることはないと確信できる状態'. Đáp án đúng là B."
+    },
+    "N2_06_M11_02": {
+      "section": 1,
+      "typeId": "N2-RD-MID",
+      "stem": "心理的安全性が欠如した組織では、どのような問題が生じると述べられているか。",
+      "correctAnswer": "D",
+      "options": {
+        "A": "個人間の競争が激化しすぎて、業務の効率が極端に低下する。",
+        "B": "優秀なリーダーばかりが集まり、指示系統に混乱が生じる。",
+        "C": "社員同士の個人的なトラブルが多発し、離職率が急増する。",
+        "D": "失敗の隠蔽や提案の躊躇が生じ、リスクを避けて現状維持にとどまる。"
+      },
+      "explanationVi": "Đoạn 2 nêu rõ: 'ミスを隠蔽し、新しい提案を躊躇する空気が支配的になる... 誰もがリスクを避けて現状維持に終始するようになる'. Đáp án đúng là B."
+    },
+    "N2_06_M11_03": {
+      "section": 1,
+      "typeId": "N2-RD-MID",
+      "stem": "「真の心理的安全性」の本質について、筆者の考えと合致するものはどれか。",
+      "correctAnswer": "D",
+      "options": {
+        "A": "衝突を避けてお互いの意見を無条件に認め合う、居心地の良い関係を築くこと",
+        "B": "業務上の失敗に対する責任の所在を曖昧にし、個人の精神的負担をなくすこと",
+        "C": "リーダーが完璧な手本を示し、部下に一切の疑問を抱かせないようにすること",
+        "D": "高い目標の達成に向けて、率直な対立や建設的な批判を恐れずにぶつけ合えること"
+      },
+      "explanationVi": "Đoạn 3 phân tích: '単にメンバー同士が仲良くお互いに気遣い合う生ぬるい居心地の良さではない... 高い目標に向かって、率直な意見の対立や建設的な批判を恐れずにぶつけ合える関係性こそが本質'. Đáp án đúng là B."
+    },
+    "N2_06_M11_04": {
+      "section": 1,
+      "typeId": "N2-RD-MID",
+      "stem": "筆者が「ライフサイクルアセスメント（LCA）」の視点が必要だと主張する理由は何か。",
+      "correctAnswer": "D",
+      "options": {
+        "A": "EVの走行時のCO2排出量が、ガソリン車よりも大幅に増加することが判明したため",
+        "B": "火力発電による電力供給が完全に停止し、EVの充電が困難になりつつあるため",
+        "C": "希少金属の価格高騰によって、自動車メーカーの採算が悪化しているため",
+        "D": "走行時だけでなく、原材料の採掘・製造から廃棄までの全段階の環境負荷を評価するため"
+      },
+      "explanationVi": "Đoạn 1 nêu rõ: '走行時のみならず、製造から廃棄に至る全プロセスを網羅した「ライフサイクルアセスメント（LCA）」の視点が不可欠である'. Đáp án đúng là B."
+    },
+    "N2_06_M11_05": {
+      "section": 1,
+      "typeId": "N2-RD-MID",
+      "stem": "文章によると、現在のEV製造において生じている環境上の課題は何か。",
+      "correctAnswer": "A",
+      "options": {
+        "A": "バッテリー製造に必要な希少金属の採掘や精錬に膨大なエネルギーが消費され、CO2が排出されること",
+        "B": "EVのバッテリーが数千キロメートルの走行で劣化し、頻繁な交換が必要になること",
+        "C": "走行時に発生する微細な粒子が、大気汚染の新たな原因となっていること",
+        "D": "再生可能エネルギーだけで充電を行うと、バッテリーの寿命が大幅に縮むこと"
+      },
+      "explanationVi": "Đoạn 2 nêu rõ: 'バッテリーの製造には、リチウムやコバルトなどの希少金属の大規模な採掘と精錬が必要となる。この工程では膨大なエネルギーが消費され... 製造段階だけで大量のCO2が排出される'. Đáp án đúng là A."
+    },
+    "N2_06_M11_06": {
+      "section": 1,
+      "typeId": "N2-RD-MID",
+      "stem": "真の環境保護を達成するために必要なこととして、筆者が提言しているのはどれか。",
+      "correctAnswer": "C",
+      "options": {
+        "A": "EVの開発を即座に中止し、従来のガソリン車の燃費向上に専念すること",
+        "B": "希少金属の採掘量を制限し、自動車の生産台数そのものを大幅に削減すること",
+        "C": "車両の普及だけでなく、発電の脱炭素化やバッテリーのリサイクル技術を併せて進めること",
+        "D": "すべての国で均一な環境基準を適用し、未達成の国からの輸出入を禁止すること"
+      },
+      "explanationVi": "Đoạn 3 kết luận: '単にガソリン車をEVに置き換えるだけでなく、発電構成そのものの脱炭素化を進めると同時に、バッテリーのリサイクル技術や代替材料の開発を車の普及と車の製造の両輪で進めなければ、真の環境保護には結びつかない'. Đáp án đúng là C."
+    },
+    "N2_06_M11_07": {
+      "section": 1,
+      "typeId": "N2-RD-MID",
+      "stem": "デジタル画面で文章を読む際の特徴として、文章で述べられているのはどれか。",
+      "correctAnswer": "B",
+      "options": {
+        "A": "文字の視認性が低いため、目の疲労が紙よりも早く蓄積する。",
+        "B": "注意が分散しやすく、キーワードを拾い読みするモードに入りやすい。",
+        "C": "著者の論理構成を過剰に分析し、読む速度が極端に遅くなる。",
+        "D": "ページの空間的配置を直感的に記憶し、詳細な事実を忘れにくくなる。"
+      },
+      "explanationVi": "Đoạn 2 nêu rõ: '読者は無意識のうちにキーワードを拾い読みする「スキャニング（拾い読み）」のモードに入りやすい... 注意が分散し、文章の論理構成を深く吟味する前に次の情報へと視線が移ってしまう'. Đáp án đúng là B."
+    },
+    "N2_06_M11_08": {
+      "section": 1,
+      "typeId": "N2-RD-MID",
+      "stem": "「深い読み（Deep Reading）」について、紙の書籍が適している理由として筆者が挙げるのはどれか。",
+      "correctAnswer": "A",
+      "options": {
+        "A": "厚みやページの空間配置を手がかりに、論理の全体像を把握し思索を深められるため",
+        "B": "文字のフォントやレイアウトを読者が自由に変更でき、理解度が高まるため",
+        "C": "外部の誘惑を遮断するため、長時間の連続読書でも集中力が途切れないため",
+        "D": "紙の書籍の方がデジタル媒体よりも、掲載されている情報の正確性が高いため"
+      },
+      "explanationVi": "Đoạn 2 giải thích: '読者は本の厚みや手触り、ページの空間的配置を手がかりにしながら、物語や論理の全体像を立体的に把握する... 行間を味わい、著者の意図に反論や問いを投げかける「深い読み（Deep Reading）」は、紙という物理的実体と不可分'. Đáp án đúng là A."
+    },
+    "N2_06_M11_09": {
+      "section": 1,
+      "typeId": "N2-RD-MID",
+      "stem": "これからの時代における読書のあり方として、筆者が提言しているのはどれか。",
+      "correctAnswer": "B",
+      "options": {
+        "A": "デジタル媒体の利用を完全にやめ、すべての学習を紙の書物に戻すこと",
+        "B": "情報収集のデジタル読書と思索を深める紙の読書を、目的に応じて使い分けること",
+        "C": "読書速度を向上させる速読技術を習得し、より多くの情報を網羅すること",
+        "D": "電子書籍の技術を進化させ、紙の書籍の質感や厚みを画面上に完全再現すること"
+      },
+      "explanationVi": "Đoạn 3 kết luận: '目的に応じて情報収集のためのデジタル読書と、思索を深めるための紙の読書を自覚的に使い分ける「認知的バイリンガル」の姿勢が今こそ求められている'. Đáp án đúng là B."
+    },
+    "N2_06_M12_01": {
+      "section": 1,
+      "typeId": "N2-RD-COMP",
+      "stem": "生成AIが文章の創作活動に与える影響について、AとBの筆者はどのように捉えているか。",
+      "correctAnswer": "A",
+      "options": {
+        "A": "Aは思考の枠組みを広げる共作者として評価し、Bは表現が平均化・無個性化する危機を指摘している。",
+        "B": "AはAIによって人間の作家が不要になると警告し、BはAIを活用することで文章の完成度が高まると歓迎している。",
+        "C": "AもBも、AIが生成する文章の文法的な誤りが多すぎるため、実用には耐えないと批判している。",
+        "D": "AもBも、AIと人間の共同制作がこれからの文学の標準的な形式になると肯定的に予測している。"
+      },
+      "explanationVi": "Bài A nhìn nhận AI là '強力な共作者' giúp mở rộng tư duy sáng tạo; trong khi Bài B cảnh báo nguy cơ '表現の均質化' (đồng nhất hóa, bình quân hóa dẫn đến mất đi bản sắc cá tính độc nhất). Đáp án đúng là A."
+    },
+    "N2_06_M12_02": {
+      "section": 1,
+      "typeId": "N2-RD-COMP",
+      "stem": "両方の文章に共通して見られる前提認識はどれか。",
+      "correctAnswer": "B",
+      "options": {
+        "A": "AIは人間の生の苦悩や感情を完全に模倣することに成功したという点",
+        "B": "AIが極めて高度で流暢な文章を生成する能力を持っているという点",
+        "C": "AIの利用によって、すべての作家の文章執筆速度が格段に向上したという点",
+        "D": "AIが普及した結果、紙の書籍の出版数が急速に減少しているという点"
+      },
+      "explanationVi": "Cả Bài A ('人間が思いつかないような斬新な比喩やプロットの展開を瞬時に提示') và Bài B ('AIが生成する流暢な文章') đều thừa nhận năng lực tạo sinh ngôn ngữ của AI hiện nay đã đạt mức độ hết sức thông loát và tinh vi. Đáp án đúng là B."
+    },
+    "N2_06_M13_01": {
+      "section": 1,
+      "typeId": "N2-RD-LONG",
+      "stem": "近代以降の産業社会における「美」と「用」の捉え方について、文章で述べられているのはどれか。",
+      "correctAnswer": "D",
+      "options": {
+        "A": "実用的な道具ほど装飾を増やすことで、芸術的な価値を高めるべきだと考えられていた。",
+        "B": "職人の手作業で作られた工芸品は品質が劣るため、市場から排除されるべきだとされた。",
+        "C": "機能性を極限まで高めた工業製品こそが、最高峰の芸術であると広く認識されていた。",
+        "D": "鑑賞のための美が高尚視される一方、日用品の実用性は美と無縁なものと見なされていた。"
+      },
+      "explanationVi": "Đoạn 1 nêu rõ: '装飾過剰な工芸品を「鑑賞のための美」として高尚視する一方で、日々の暮らしで使い古される実用的な道具は、機能的であれば十分であり、美的な価値とは無縁であると見なされがちであった'. Đáp án đúng là B."
+    },
+    "N2_06_M13_02": {
+      "section": 1,
+      "typeId": "N2-RD-LONG",
+      "stem": "民藝運動が見出した「用の美」の特徴として、最も適切なものはどれか。",
+      "correctAnswer": "B",
+      "options": {
+        "A": "有名な芸術家が計算し尽くした幾何学的な装飾を施していること",
+        "B": "機能に奉仕する過程で無駄が削ぎ落とされ、使い込むほどに風合いを深めること",
+        "C": "鑑賞専用の美術品として大切に保管され、決して日常で使われないこと",
+        "D": "最新の機械設備を用いて短時間で均一かつ大量に生産できること"
+      },
+      "explanationVi": "Đoạn 2 phân tích: '毎日繰り返し使われる道具は、機能に奉仕する過程で無駄な要素が自然と削ぎ落とされ、使えば使うほどに手になじみ、時間の経過とともに風合いを深めていく... 誠実に実用を極めた先にこそ自然と立ち現れる'. Đáp án đúng là B."
+    },
+    "N2_06_M13_03": {
+      "section": 1,
+      "typeId": "N2-RD-LONG",
+      "stem": "現代社会における道具との付き合い方について、筆者の主張と合致するものはどれか。",
+      "correctAnswer": "C",
+      "options": {
+        "A": "消費を活性化させるため、新機能が追加された製品へ常に買い替え続けるべきだ。",
+        "B": "伝統工芸品のみを購入し、工業的に生産されたプラスチック製品の使用を全廃すべきだ。",
+        "C": "無駄のないシンプルな道具を手入れしながら長く愛用し、共に時間を重ねる関係を築くべきだ。",
+        "D": "道具のデザインよりも価格の安さを最優先し、壊れたらすぐに買い替えるのが合理的だ。"
+      },
+      "explanationVi": "Đoạn 3 kết luận: '道具との間に「共に時間を重ねる関係」を結べていないからではないか... シンプルで無駄のないデザインを愛で、手入れをしながら一つのものを長く愛用する... 「用と美の調和」に対する無意識の渇望'. Đáp án đúng là C."
+    },
+    "N2_06_M14_01": {
+      "section": 1,
+      "typeId": "N2-RD-INFO",
+      "stem": "ある市民団体が「外国人市民向けの日本語学習支援教室」を7月から半年間開催する場合、助成金の申請区分と申請時期の組み合わせとして正しいものはどれか。",
+      "correctAnswer": "B",
+      "options": {
+        "A": "区分A で、4月1日〜4月25日の期間に申請する。",
+        "B": "区分B で、4月1日〜4月25日の期間に申請する。",
+        "C": "区分B で、9月1日〜9月25日の期間に申請する。",
+        "D": "区分C で、事業開始の30日前までに随時申請する。"
+      },
+      "explanationVi": "Dự án lớp hỗ trợ tiếng Nhật cho người nước ngoài (外国人市民を対象とした日本語学習支援教室) thuộc '区分B'. Dự án tổ chức vào tháng 7 (nằm trong khoảng tháng 6 đến tháng 10) nên phải nộp vào đợt đầu (前期募集: 4月1日〜4月25日必着). Do đó đáp án đúng là B."
+    },
+    "N2_06_M14_02": {
+      "section": 1,
+      "typeId": "N2-RD-INFO",
+      "stem": "この助成金の対象経費として認められるものはどれか。",
+      "correctAnswer": "B",
+      "options": {
+        "A": "イベント参加者全員に配布するお弁当やお茶などの飲食代",
+        "B": "事業の案内チラシを市内の施設に配布するための印刷費用",
+        "C": "団体の事務局で使用する新しいノートパソコンの購入費",
+        "D": "事業終了後にスタッフやボランティアで開催する打ち上げ懇親会の費用"
+      },
+      "explanationVi": "Mục '対象となる経費' bao gồm rõ ràng '広報チラシ印刷費' (chi phí in tờ rơi thông báo tuyên truyền). Các mục khác đều bị loại trừ: A loại trừ ở mục '飲食費', C loại trừ ở mục '備品購入費（パソコン等の購入）', D loại trừ ở mục '懇親会費用'. Đáp án đúng là B."
+    },
+    "N2_06_M1_L01": {
+      "section": 2,
+      "typeId": "N2-LIS-TASK",
+      "stem": "男性学芸員はこの後、まず何をしなければなりませんか。",
+      "correctAnswer": "B",
+      "options": {
+        "A": "展示ケースのガラスを清掃し、看板を設置する。",
+        "B": "貸出元へ保険の修正書類をメール送信し、原本を手配する。",
+        "C": "展示品のキャプションに誤字がないか確認する。",
+        "D": "会場内のスポットライトの照明角度を微調整する。"
+      },
+      "explanationVi": "Bà viện trưởng chỉ đạo việc khẩn cấp quan trọng nhất: bảo hiểm cho hiện vật quốc bảo bị thiếu chữ ký phải hoàn tất ngay trước khi mở cửa triển lãm ('何よりも最優先よ...あなたは直ちにその手続きを済ませてちょうだい'). Nam bảo tàng viên xác nhận sẽ tạo tài liệu và gửi mail cho bảo tàng cho mượn ngay lập tức."
+    },
+    "N2_06_M1_L02": {
+      "section": 2,
+      "typeId": "N2-LIS-TASK",
+      "stem": "男性社員はこの後、何をしますか。",
+      "correctAnswer": "A",
+      "options": {
+        "A": "バス会社に電話し、車両の変更や追加の見積もりを確認する。",
+        "B": "研修の宿泊施設に電話して宿泊人数を42名に変更する。",
+        "C": "新幹線の指定席チケットを42名分一括予約する。",
+        "D": "新入社員に参加費用の追加分を請求するメールを送る。"
+      },
+      "explanationVi": "Nam nhân viên được giao việc liên hệ với công ty xe buýt ngay để kiểm tra việc đổi xe lớn hơn hoặc bổ sung xe nhỏ ('まずは同じバス会社でワンサイズ大きい車両か、小型バスを1台追加できるか見積もりを取ってみて' -> 'すぐに担当の営業所に電話して空き状況を確認するよ')."
+    },
+    "N2_06_M1_L03": {
+      "section": 2,
+      "typeId": "N2-LIS-TASK",
+      "stem": "料理長はこの後、まず何をしなければなりませんか。",
+      "correctAnswer": "C",
+      "options": {
+        "A": "明日の朝から手打ちパスタとピザ生地の仕込み量を増やす。",
+        "B": "週末の花火大会に合わせてテーブルの予約席を増設する。",
+        "C": "特選牛の必要量を計算して、代替業者への発注書を作成する。",
+        "D": "店長の印鑑を受け取って仕入れ伝票の承認手続きを行う。"
+      },
+      "explanationVi": "Nữ bếp trưởng cần xử lý gấp việc tính toán khối lượng thịt bò cần thiết và lập đơn đặt hàng cho nhà cung cấp thay thế trước 3h chiều ('今すぐ必要なグラム数を正確に計算して、発注書を作成します')."
+    },
+    "N2_06_M1_L04": {
+      "section": 2,
+      "typeId": "N2-LIS-TASK",
+      "stem": "男子学生はこれからまず何をしなければなりませんか。",
+      "correctAnswer": "D",
+      "options": {
+        "A": "カートに乗っている返却本を指定の書架に戻す。",
+        "B": "閲覧席に残された雑誌を回収して元のラックに片付ける。",
+        "C": "自動返却ポストから本を回収してカウンターに運ぶ。",
+        "D": "バーコードが読み取れなかった本を手動で返却処理する。"
+      },
+      "explanationVi": "Nữ thủ thư dặn dò việc phải làm trước tiên: nhập thủ công những cuốn sách không đọc được mã vạch vào hệ thống để sinh viên kịp mượn sách mới ('自動返却ポストに返却された本の中に、バーコードがかすれて機械で読み取れなかったもの...手動でシステムに返却処理登録してほしいのよ')."
+    },
+    "N2_06_M1_L05": {
+      "section": 2,
+      "typeId": "N2-LIS-TASK",
+      "stem": "女性はこの後、まず何をしなければなりませんか。",
+      "correctAnswer": "A",
+      "options": {
+        "A": "定期総会の案内状原稿の開催会場と地図を修正する。",
+        "B": "印刷会社に連絡して案内状の印刷を正式に発注する。",
+        "C": "市民センターに電話して会議室の予約手続きを行う。",
+        "D": "集会室のエアコンの修理業者を手配する。"
+      },
+      "explanationVi": "Do phòng họp cũ hỏng điều hòa phải chuyển sang nhà văn hóa nhân dân nên người nữ cần sửa lại địa điểm và bản đồ trên bản thảo trước khi gửi in ('印刷を回す前に、案内状の開催場所とアクセスマップの箇所だけ修正してほしいんだ' -> 'すぐに原稿の場所の表記と地図データを更新します')."
+    },
+    "N2_06_M2_L01": {
+      "section": 2,
+      "typeId": "N2-LIS-POINT",
+      "stem": "この町への移住者が急増した一番の理由は何ですか。",
+      "correctAnswer": "B",
+      "options": {
+        "A": "豊かな自然環境と四季折々の美しい星空の魅力。",
+        "B": "高速通信網とサテライトオフィスの整備によるテレワーク環境。",
+        "C": "町が定年退職者向けに新設した充実した医療介護施設。",
+        "D": "移住者全員に支給された手厚い生活費補助金。"
+      },
+      "explanationVi": "Bản tin phân tích rõ nguyên nhân quyết định: chính quyền đã xây dựng mạng cáp quang tốc độ cao toàn thị trấn và văn phòng vệ tinh, tạo điều kiện làm việc từ xa hoàn hảo cho dân IT và sáng tạo nội dung ('町内全域への超高速光ファイバー網の敷設と、空き家を改修したサテライトオフィスの整備...何よりも場所を選ばずに仕事ができる高度なデジタルインフラの存在こそが、移住を決断させた決定打だった')."
+    },
+    "N2_06_M2_L02": {
+      "section": 2,
+      "typeId": "N2-LIS-POINT",
+      "stem": "男性客がこのスマートフォンを購入することに決めた一番の理由は何ですか。",
+      "correctAnswer": "C",
+      "options": {
+        "A": "高性能CPU搭載により高画質な3Dゲームが快適に動くこと。",
+        "B": "AI補正機能によって夜景や逆光でも綺麗な写真が撮れること。",
+        "C": "数日間充電しなくても使い続けられる大容量バッテリーであること。",
+        "D": "水没や激しい衝撃にも耐えられる最高レベルの頑丈な防水防塵性能。"
+      },
+      "explanationVi": "Khách nam thích leo núi cắm trại, phiền não lớn nhất là hết pin phải mang nhiều sạc dự phòng. Khi nghe nhân viên giới thiệu pin siêu khủng dùng được trọn vẹn 3 ngày không cần sạc ('通常使用でまる3日間充電不要ですよ' -> '3日も持つんですか！ それは山での安心感が全く違いますね。これにします！'), anh quyết định mua ngay."
+    },
+    "N2_06_M2_L03": {
+      "section": 2,
+      "typeId": "N2-LIS-POINT",
+      "stem": "この新作ケーキがSNSで大きな話題を呼んだ理由は何ですか。",
+      "correctAnswer": "C",
+      "options": {
+        "A": "高級な無農薬宇治抹茶の健康効果がテレビで紹介されたこと。",
+        "B": "開店前から並んだ客に毎日限定の無料サンプルを配ったこと。",
+        "C": "温かいソースでチョコが溶けて中身が現れる演出が動画映えしたこと。",
+        "D": "老舗の和菓子職人と共同開発した伝統的な風味の組み合わせ。"
+      },
+      "explanationVi": "Chủ tiệm giải thích chiếc bánh phủ socola vòm mỏng, khi thực khách rưới sốt matcha nóng lên thì socola từ từ tan chảy để lộ mousse và quả mọng bên trong. Khoảnh khắc ấn tượng thị giác này được khách quay video đăng rầm rộ lên mạng xã hội, tạo thành trào lưu lan tỏa mạnh mẽ ('温かい特製抹茶ソースをかけると、チョコがゆっくりと溶けて中から...その溶けていくドラマチックな瞬間を動画で撮影してSNSに投稿するお客様が相次ぎ')."
+    },
+    "N2_06_M2_L04": {
+      "section": 2,
+      "typeId": "N2-LIS-POINT",
+      "stem": "この工房で若手後継者の応募が劇的に増えた理由は何ですか。",
+      "correctAnswer": "D",
+      "options": {
+        "A": "海外の有名ファッションブランドと独占コラボレーション契約を結んだこと。",
+        "B": "伝統的な徒弟制度をより厳格にし、少数精鋭の職人のみを育成したこと。",
+        "C": "修業期間を完全に撤廃し、未経験者でも初日から作品販売を許可したこと。",
+        "D": "技術のマニュアル化と、固定給や社会保険などの労働条件の近代化。"
+      },
+      "explanationVi": "Đại diện xưởng dệt nêu rõ lý do thu hút giới trẻ: xóa bỏ lối học nghề kiểu cũ, hệ thống hóa kỹ thuật thành cẩm nang kỹ thuật số, đồng thời đảm bảo lương cố định, bảo hiểm xã hội và chế độ nghỉ 2 ngày/tuần giúp người học nghề yên tâm sinh sống ('技術を体系的にデータ化し、詳細なデジタルマニュアルを作成しました。さらに、入社1年目から安定した固定給と社会保険を保障し、週休2日制を導入したのです')."
+    },
+    "N2_06_M2_L05": {
+      "section": 2,
+      "typeId": "N2-LIS-POINT",
+      "stem": "この企業が週休3日制を正式に継続決定した最大の成果は何ですか。",
+      "correctAnswer": "D",
+      "options": {
+        "A": "オフィスの光熱費と通信費を前年比で半減できたこと。",
+        "B": "顧客からの問い合わせ対応を24時間AI化できたこと。",
+        "C": "全社員に副業を義務づけることで新規事業の立ち上げに成功したこと。",
+        "D": "業務の効率化による労働生産性の向上と、離職率の低下。"
+      },
+      "explanationVi": "Công ty quyết định duy trì vĩnh viễn chế độ tuần làm 4 ngày nhờ đạt được 2 kết quả then chốt: năng suất lao động tăng 15% nhờ cắt giảm họp hành vô bổ / tự động hóa, đồng thời tỷ lệ nhân viên nghỉ việc giảm mạnh ('労働生産性が前年比で15％も向上した...離職率の劇的な低下にも繋がりました。会社側は、生産性の維持向上と優秀な人材の定着という2つの大きな成果を確認できた')."
+    },
+    "N2_06_M2_L06": {
+      "section": 2,
+      "typeId": "N2-LIS-POINT",
+      "stem": "教授によると、動物たちが人里に現れるようになった根本的な原因は何ですか。",
+      "correctAnswer": "C",
+      "options": {
+        "A": "異常気象によって山奥の木の実が完全に絶滅してしまったこと。",
+        "B": "住宅街から出る生ゴミの匂いに引き寄せられて餌付けされたこと。",
+        "C": "里山の荒廃と放置により、人里との間の緩衝地帯が消滅したこと。",
+        "D": "人間が山奥の開発を進めて野生動物の生息地を過剰に狭めたこと。"
+      },
+      "explanationVi": "Giáo sư chỉ ra nguyên nhân gốc rễ: không chỉ do thiếu thức ăn tạm thời mà là do sự biến mất của vùng đệm 'Satoyama' (vùng đồi ven rừng từng được con người dọn cỏ chặt củi ngăn cách). Khi nông thôn vắng bóng người, bụi rậm mọc tràn lan khiến thú hoang có nơi ẩn nấp tiến sát tận khu dân cư mà không sợ bị phát hiện ('かつて農村と奥山との間に存在していた『里山』...が放置され...この緩衝地帯の消失こそが根本原因なのです')."
+    },
+    "N2_06_M3_L01": {
+      "section": 2,
+      "typeId": "N2-LIS-SUMM",
+      "stem": "専門家は何について話していますか。",
+      "correctAnswer": "B",
+      "options": {
+        "A": "睡眠の長さを8時間以上確保するための時間管理術。",
+        "B": "就寝前の工夫によって睡眠の質を向上させる方法。",
+        "C": "睡眠不足が引き起こす様々な生活習慣病のリスク。",
+        "D": "朝すっきりと目覚めるための高機能な寝具の選び方。"
+      },
+      "explanationVi": "Chuyên gia tập trung giải thích rằng giấc ngủ quyết định ở chất lượng nhập giấc chứ không phải số giờ ngủ, và đưa ra các thói quen cụ thể trước khi ngủ (tắm nước ấm trước 90 phút, tránh ánh sáng xanh màn hình) để nâng cao chất lượng giấc ngủ ('時間よりも重要なのは『就寝直前の体内リズムの整え方』...睡眠は長さではなく、導入の質で決まるのです')."
+    },
+    "N2_06_M3_L02": {
+      "section": 2,
+      "typeId": "N2-LIS-SUMM",
+      "stem": "書店経営者は主に何について主張していますか。",
+      "correctAnswer": "C",
+      "options": {
+        "A": "電子書籍の価格引き下げに対抗するための安売り戦略。",
+        "B": "ネット通販と提携して在庫数を無限に拡大する手法。",
+        "C": "偶然の出会いや地域交流の拠点としての実店舗書店の価値。",
+        "D": "書店の廃業を防ぐために国や自治体が補助金を出すべきだという意見。"
+      },
+      "explanationVi": "Người quản lý hiệu sách nhấn mạnh giá trị cốt lõi của nhà sách truyền thống nằm ở không gian tạo ra cuộc gặp gỡ tình cờ với những cuốn sách thú vị ngoài dự tính và là trung tâm giao lưu văn hóa kết nối cộng đồng người đọc ('ふと立ち寄った書架で全く予期していなかった本と偶然出会う...温かい交流の場を創造することにこそ、これからの実店舗書店の生き残る道がある')."
+    },
+    "N2_06_M3_L03": {
+      "section": 2,
+      "typeId": "N2-LIS-SUMM",
+      "stem": "コンサルタントの主張の要点は何ですか。",
+      "correctAnswer": "D",
+      "options": {
+        "A": "失敗した社員に対して厳しい減点とペナルティを科す必要性。",
+        "B": "前例を徹底的に踏襲してビジネスの失敗リスクをゼロに抑える手法。",
+        "C": "最新のIT設備と潤沢な資金を最優先で調達することの意義。",
+        "D": "イノベーションを生むために挑戦と失敗を認め合う組織づくりの大切さ。"
+      },
+      "explanationVi": "Chuyên gia tư vấn khẳng định chìa khóa để đổi mới sáng tạo không phải là tiền bạc hay máy móc, mà là văn hóa doanh nghiệp biết bao dung và học hỏi từ những thất bại mang tính thử nghiệm dũng cảm ('建設的な失敗を組織として許容する文化...リーダーの最大の責務は、部下に失敗を恐れさせない土壌を作ること')."
+    },
+    "N2_06_M3_L04": {
+      "section": 2,
+      "typeId": "N2-LIS-SUMM",
+      "stem": "研究者は主に植物のどのような特徴について話していますか。",
+      "correctAnswer": "B",
+      "options": {
+        "A": "害虫の攻撃に対して一切の抵抗をせず環境に適応する受動性。",
+        "B": "空気中の化学物質や根のネットワークを通じた情報伝達能力。",
+        "C": "乾燥した過酷な砂漠で水分を蓄えて生き延びる特殊な構造。",
+        "D": "人間が人工的に合成した化学肥料に依存して成長するメカニズム。"
+      },
+      "explanationVi": "Nhà nghiên cứu làm sáng tỏ khả năng giao tiếp tinh vi của thực vật: truyền phát tín hiệu hóa học qua không khí khi bị sâu bọ tấn công để cảnh báo cây xung quanh, cũng như mạng lưới nấm dưới rễ để trao đổi dinh dưỡng và thông tin cảnh báo ('植物同士が互いに高度なコミュニケーションを取り合っている...化学物質を空気中に放ち...根と菌類が結びついたネットワークを通じて...警戒情報を隣の個体へ伝達')."
+    },
+    "N2_06_M3_L05": {
+      "section": 2,
+      "typeId": "N2-LIS-SUMM",
+      "stem": "教授は何を伝えるためにこの話をしていますか。",
+      "correctAnswer": "C",
+      "options": {
+        "A": "生来の知能や才能の高さを幼少期から見極める方法。",
+        "B": "いかなる状況でも子どもを一切叱らずに甘やかすべきだという方針。",
+        "C": "生まれつきの才能ではなく努力や過程を褒めることの大切さ。",
+        "D": "テストの点数や成績順位など結果のみを重視して評価する意義。"
+      },
+      "explanationVi": "Giáo sư tâm lý học giáo dục giải thích rằng để khích lệ ý chí vươn lên bền vững, người dạy cần khen ngợi nỗ lực và quá trình thực hiện thay vì khen ngợi tài năng hay trí thông minh bẩm sinh ('人を伸ばす真の褒め言葉とは、変えられない能力ではなく、自らの意志で変えられるプロセスに向けられるべきなのです')."
+    },
+    "N2_06_M4_L01": {
+      "section": 2,
+      "typeId": "N2-LIS-RESP",
+      "stem": "先輩、明日のプレゼン資料、一応目を通していただけないでしょうか。",
+      "correctAnswer": "A",
+      "options": {
+        "A": "うん、今日の夕方までなら時間が取れるから置いておいて。",
+        "B": "いえ、昨日のうちにすべて発表を済ませましたよ。",
+        "C": "ええ、資料はすでにシュレッダーで処分しました。"
+      },
+      "explanationVi": "Lời nhờ vả lịch sự N2: 〜ていただけないでしょうか (Anh xem qua giúp em được không ạ?). Câu đáp thuận tình hợp lý nhất: 'Được chứ, để đó đi, trước chiều tối nay anh có thời gian xem cho'."
+    },
+    "N2_06_M4_L02": {
+      "section": 2,
+      "typeId": "N2-LIS-RESP",
+      "stem": "田中君、さっきの会議での君の提案、部長に受け入れられた試しがないよね。",
+      "correctAnswer": "B",
+      "options": {
+        "A": "はい、部長はいつも私のアイデアを全面的に絶賛してくださいます。",
+        "B": "そうなんですよ。次回こそはデータをもっと揃えて説得してみます。",
+        "C": "いいえ、会議室のエアコンの温度はちょうど良かったです。"
+      },
+      "explanationVi": "Thành ngữ ngữ pháp N2: 〜た試しがない (chưa từng một lần nào... / hiếm khi xảy ra). Đồng nghiệp nhắc: đề xuất của cậu chưa bao giờ được trưởng phòng duyệt nhỉ. Câu đáp nhận xét thực tế và thể hiện quyết tâm lần sau: 'Đúng vậy đấy ạ. Lần tới em nhất định sẽ chuẩn bị số liệu kỹ càng hơn để thuyết phục sếp'."
+    },
+    "N2_06_M4_L03": {
+      "section": 2,
+      "typeId": "N2-LIS-RESP",
+      "stem": "山田さん、今度のプロジェクトのリーダー、引き受けてくださる気はありませんか。",
+      "correctAnswer": "B",
+      "options": {
+        "A": "いえ、リーダーの座を喜んで誰にも譲りません。",
+        "B": "私のような若手でよろしければ、ぜひ挑戦させてください。",
+        "C": "プロジェクトは先週無事に打ち切られましたよ。"
+      },
+      "explanationVi": "Lời mời mọc/đề nghị trang trọng: 〜気はありませんか (Bạn có hứng thú/sẵn lòng nhận làm... không?). Câu đáp khiêm tốn chuẩn mực trong giao tiếp công sở: 'Nếu một người trẻ như tôi mà được tin tưởng thì xin cho phép tôi được thử sức ạ'."
+    },
+    "N2_06_M4_L04": {
+      "section": 2,
+      "typeId": "N2-LIS-RESP",
+      "stem": "あのレストラン、味もサービスも文句のつけようがなかったね！",
+      "correctAnswer": "A",
+      "options": {
+        "A": "本当にね。料理も接客もパーフェクトで感動したよ。",
+        "B": "ええ、クレームを入れに支配人を呼び出そうか。",
+        "C": "うん、二度とあんなまずい店には行きたくないね。"
+      },
+      "explanationVi": "Ngữ pháp N2: 〜文句のつけようがない (không chê vào đâu được / hoàn hảo tuyệt đối). Bạn khen quán ăn ngon và dịch vụ xuất sắc. Đáp đồng tình: 'Thực sự vậy đấy, món ăn lẫn phục vụ đều hoàn hảo đến xúc động'."
+    },
+    "N2_06_M4_L05": {
+      "section": 2,
+      "typeId": "N2-LIS-RESP",
+      "stem": "鈴木さん、先方の専務がお見えになりましたが、応接室へご案内しましょうか。",
+      "correctAnswer": "B",
+      "options": {
+        "A": "うん、まだ会社を出発していないそうだよ。",
+        "B": "ええ、すぐにお茶をお出しして、私も向かうとお伝えして。",
+        "C": "はい、専務の席は昨日キャンセルになりました。"
+      },
+      "explanationVi": "Tình huống đón tiếp đối tác: khách quý (専務) đã đến công ty (お見えになりました). Câu chỉ đạo chuẩn xác: 'Ừ, hãy mời bác ấy vào phòng tiếp khách, dâng trà ngay và nhắn là tôi sẽ sang ngay nhé'."
+    },
+    "N2_06_M4_L06": {
+      "section": 2,
+      "typeId": "N2-LIS-RESP",
+      "stem": "佐藤君、君が担当した新しい会計システム、使い勝手はどう？",
+      "correctAnswer": "C",
+      "options": {
+        "A": "はい、昨日の夜からシステムが完全に動かなくなりました。",
+        "B": "いえ、パソコンの電源ボタンの場所が分かりません。",
+        "C": "直感的に操作できて、部署内の評判も上々ですよ。"
+      },
+      "explanationVi": "Hỏi thăm trải nghiệm sử dụng: 使い勝手はどう？ (Dùng thấy tiện lợi/thuận tay không?). Đáp: 'Thao tác rất trực quan, phản hồi của các đồng nghiệp trong phòng ban cũng cực kỳ tích cực ạ'."
+    },
+    "N2_06_M4_L07": {
+      "section": 2,
+      "typeId": "N2-LIS-RESP",
+      "stem": "課長、本日の懇親会ですが、あいにく先約がございまして欠席せざるを得ません。",
+      "correctAnswer": "C",
+      "options": {
+        "A": "うん、君の乾杯の挨拶は実に素晴らしかったよ。",
+        "B": "えっ、君が幹事なのに全員分の会費を立て替えてくれたのかい？",
+        "C": "そうか、残念だけど仕事なら仕方がないね。また次回誘うよ。"
+      },
+      "explanationVi": "Ngữ pháp N2: 〜ざるを得ない (đành phải / buộc phải). Cấp dưới xin phép vắng mặt ở tiệc liên hoan vì kẹt lịch hẹn từ trước. Lời sếp đáp thấu hiểu: 'Thế à, tiếc quá nhưng việc bận thì đành chịu. Lần sau lại rủ nhé'."
+    },
+    "N2_06_M4_L08": {
+      "section": 2,
+      "typeId": "N2-LIS-RESP",
+      "stem": "今回のトラブル、早めにてを打っておいて正解だったね。",
+      "correctAnswer": "B",
+      "options": {
+        "A": "ええ、手を叩いて大笑いしてしまいましたよ。",
+        "B": "まったくです。あのまま放置していたら大惨事になるところでした。",
+        "C": "いいえ、トラブルの発生時刻はまだ未定です。"
+      },
+      "explanationVi": "Quán ngữ N2: 手を打つ (có biện pháp xử lý sớm). Nhận định: sớm có biện pháp đối phó sự cố quả là sáng suốt đúng đắn. Đáp đồng thuận: 'Hoàn toàn chính xác ạ. Nếu cứ để mặc như thế thì khéo đã thành thảm họa lớn rồi'."
+    },
+    "N2_06_M4_L09": {
+      "section": 2,
+      "typeId": "N2-LIS-RESP",
+      "stem": "お客様、こちらの新車ですが、試乗なさってみますか。",
+      "correctAnswer": "C",
+      "options": {
+        "A": "いいえ、免許証を紛失したので高速道路を運転します。",
+        "B": "はい、すでに先週納車していただきました。",
+        "C": "ええ、車庫入れの感覚を確かめたいのでお願いできますか。"
+      },
+      "explanationVi": "Kính ngữ N2: 〜なさってみますか (Quý khách có muốn lái thử xe không ạ?). Khách hàng đáp: 'Vâng, tôi muốn kiểm tra cảm giác lùi xe vào gara nên nhờ anh cho thử nhé'."
+    },
+    "N2_06_M4_L10": {
+      "section": 2,
+      "typeId": "N2-LIS-RESP",
+      "stem": "部長、来週の出張日程、私のほうで手配いたしましょうか。",
+      "correctAnswer": "A",
+      "options": {
+        "A": "ありがとう。新幹線の時間だけ後でメールしてくれるかな。",
+        "B": "うん、来週の出張は先月無事に終わったよ。",
+        "C": "いいえ、ホテルの予約は君が泊まる分だけでいいよ。"
+      },
+      "explanationVi": "Đề nghị giúp đỡ khiêm nhường: 〜いたしましょうか (Em xin phép lo liệu lịch trình giúp sếp nhé ạ). Sếp đáp đón nhận lời giúp: 'Cảm ơn cậu nhé. Lát nữa nhắn mail giờ tàu Shinkansen cho tôi nhé'."
+    },
+    "N2_06_M4_L11": {
+      "section": 2,
+      "typeId": "N2-LIS-RESP",
+      "stem": "この論文、専門用語だらけで、素人の私にはちんぷんかんぷんだよ。",
+      "correctAnswer": "A",
+      "options": {
+        "A": "全くだね。解説書でも読まないとさっぱり理解できないね。",
+        "B": "そうだね、誰でも一目でわかる平易な日本語で書かれているね。",
+        "C": "うん、昨日私が書いたばかりの簡単な感想文だよ。"
+      },
+      "explanationVi": "Thành ngữ dân dã: ちんぷんかんぷん (hoàn toàn mù tịt, không hiểu ất giáp gì). Người nói than thở luận văn đầy thuật ngữ chuyên ngành. Đáp đồng cảm: 'Chuẩn luôn. Không đọc sách giải thích thì chịu chết chẳng hiểu nổi chữ nào'."
+    },
+    "N2_06_M5_L01": {
+      "section": 2,
+      "typeId": "N2-LIS-INT",
+      "stem": "女性社員はどのプランを最も推薦していますか。",
+      "correctAnswer": "D",
+      "options": {
+        "A": "1番の『実践的コーチング研修』",
+        "B": "2番の『ロジカルシンキング＆問題解決力強化プラン』",
+        "C": "3番の『ダイバーシティマネジメント講座』",
+        "D": "4番の『プレイングマネージャーのためのタイムマネジメント＆タスク委譲術』"
+      },
+      "explanationVi": "Nữ nhân viên nhấn mạnh nỗi khổ lớn nhất của các nhóm trưởng trẻ hiện nay là ôm đồm công việc, không biết phân quyền giao việc cho cấp dưới dẫn đến phải làm thêm giờ kiệt sức, nên cô ủng hộ gói số 4 về quản lý thời gian và phân quyền công việc ('プレイングマネージャーとしての時間の使い方と権限委譲を体系的に学べるプランが...私はこれがベストだと思います')."
+    },
+    "N2_06_M5_L02": {
+      "section": 2,
+      "typeId": "N2-LIS-INT",
+      "stem": "担当役員は最終的にどの研修プランを採用することに決めましたか。",
+      "correctAnswer": "A",
+      "options": {
+        "A": "1番の『実践的コーチング研修』",
+        "B": "2番の『ロジカルシンキング＆問題解決力強化プラン』",
+        "C": "3番の『ダイバーシティマネジメント講座』",
+        "D": "4番の『プレイングマネージャーのためのタイムマネジメント＆タスク委譲術』"
+      },
+      "explanationVi": "Giám đốc phụ trách đưa ra quyết định cuối cùng: đồng tình với lập luận của nam nhân viên, chọn gói số 1 về kỹ năng đối thoại khai phá năng lực tự chủ của cấp dưới ('今回は男性社員が推してくれた、部下の自律性を育てる対話力重視のプランを採用しよう')."
+    },
+    "N2_06_M5_L03": {
+      "section": 2,
+      "typeId": "N2-LIS-INT",
+      "stem": "課長は最終的にどのプロジェクトを推進することに決定しましたか。",
+      "correctAnswer": "A",
+      "options": {
+        "A": "1番の『海沿いの廃校を活用した体験型グランピング＆ワーケーション施設』",
+        "B": "2番の『伝統の定置網漁体験と朝獲れ鮮魚の浜焼き市場ツアー』",
+        "C": "3番の『海岸線を巡る絶景サイクリングロードの整備とEバイク事業』",
+        "D": "4番の『特産品を活かした新名物スイーツ・土産物の開発コンテスト』"
+      },
+      "explanationVi": "Trưởng phòng du lịch quyết định đầu tư vào dự án số 1: cải tạo trường học bỏ hoang thành khu nghỉ dưỡng cắm trại cao cấp (glamping) kết hợp làm việc từ xa (workation) để thu hút khách lưu trú dài ngày, tạo việc làm và cơ hội định cư cho địa phương ('廃校という地域の遊休資産を再生し、長期滞在者を呼び込んで雇用と移住の拠点を作るという女性職員の提案を採用しよう')."
+    }
+  },
+  "scriptsInspected": [
+    "scripts/curriculum/generate_m06_blind_reviews.py",
+    "scripts/curriculum/apply_stage_a_qa_reconciliation.py",
+    "scripts/curriculum/export_blind_dataset_m06.py",
+    "scripts/curriculum/reconcile_mock_blind_review.py",
+    "scripts/curriculum/audit_blind_remapping_integrity.py",
+    ".github/workflows/content-qa.yml",
+    "scripts/ci/generate_ci_qa_summary.py"
+  ],
+  "totalAudioTracks": 180
+}

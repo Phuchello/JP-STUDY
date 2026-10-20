@@ -70,28 +70,10 @@ jobs:
         run: |
           python -m unittest scripts/tests/test_adversarial_release_gate.py
 
-      # 9, 10 & 11. Run corrected release-gate audits & audio hash/receipt consistency
-      - name: Audit N2 Mock 01 (105 items, audio hashes, release gate)
+      # 9. Dynamically discover and audit every active N2 mock exam
+      - name: Dynamically discover and audit all active N2 mock exams
         run: |
-          python scripts/curriculum/audit_n2_mock_105_questions.py 1
-
-      - name: Audit N2 Mock 02 (105 items, audio hashes, release gate)
-        run: |
-          python scripts/curriculum/audit_n2_mock_105_questions.py 2
-
-      - name: Audit N2 Mock 03 (105 items, audio hashes, release gate)
-        run: |
-          python scripts/curriculum/audit_n2_mock_105_questions.py 3
-
-      - name: Audit N2 Mock 04 (105 items, audio hashes, release gate)
-        if: hashFiles('data/mock_exams/n2_mock_04.json') != ''
-        run: |
-          python scripts/curriculum/audit_n2_mock_105_questions.py 4
-
-      - name: Audit N2 Mock 05 (105 items, audio hashes, release gate)
-        if: hashFiles('data/mock_exams/n2_mock_05.json') != ''
-        run: |
-          python scripts/curriculum/audit_n2_mock_105_questions.py 5
+          python scripts/curriculum/audit_all_active_mocks_dynamically.py
 
 
       # 12. Run full unit and regression test suite

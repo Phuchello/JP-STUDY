@@ -3,7 +3,7 @@
     "id": "N2_06_M1_01",
     "blindAnswer": "A",
     "confidence": "HIGH",
-    "linguisticJustification": "「膨張」の正しい音読みは「ぼうちょう」。「膨（ボウ）」＋「張（チョウ）」。体積や規模がふくれて大きくなること。正解はA。",
+    "linguisticJustification": "「膨張」の正しい読みは「ぼうちょう」である。「膨」は音読みで「ボウ」（訓読み：ふく・らむ、ふく・れる）、「張」は音読みで「チョウ」（訓読み：は・る）。選択肢B「ほうちょう」は「膨」が清音になっており誤り。選択肢C「ぼうちゅう」は「張」の読みとして誤り。選択肢D「ぼんちょう」は撥音化しており誤り。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
     "contentFingerprint": "51f89f5e3f78ffe3d9adf2ca4d8dc5fa8842d6ee615644ef2d455ccbe2fbf58c"
@@ -12,7 +12,7 @@
     "id": "N2_06_M1_02",
     "blindAnswer": "B",
     "confidence": "HIGH",
-    "linguisticJustification": "「凝縮」の正しい音読みは「ぎょうしゅく」。「凝（ギョウ）」＋「縮（シュク）」。広がり散らばっているものが一カ所に濃縮して集まること。正解はB。",
+    "linguisticJustification": "「凝縮」の正しい読みは「ぎょうしゅく」である。「凝」の音読みは「ギョウ」（凝固、凝視など）、「縮」の音読みは「シュク」（短縮、縮小など）。選択肢A「こうしゅく」は「凝」の読みとして不適切。選択肢C「きょうしゅく」は清音になっており誤り（恐縮など）。選択肢D「ぎょうしょう」は「縮」を「しょう」と読んでおり誤り。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
     "contentFingerprint": "e187ffc314fd6123bf5b11138b0b184cec85e5006ecca0dc03f6a04d4bac84fa"
@@ -21,7 +21,7 @@
     "id": "N2_06_M1_03",
     "blindAnswer": "C",
     "confidence": "HIGH",
-    "linguisticJustification": "「承諾」の正しい音読みは「しょうだく」。「承（ショウ）」＋「諾（ダク）」。相手の申し出や要求を受け入れて聞き届けること。正解はC。",
+    "linguisticJustification": "「承諾」の正しい読みは「しょうだく」である。「承」の音読みは「ショウ」（承認、承知など）、「諾」の音読みは「ダク」（受諾、快諾など）。選択肢A「じょうだく」は「承」が濁音化しており誤り。選択肢B「しょうちょく」は「諾」を「ちょく」（直・勅）と読んでおり誤り。選択肢D「しょうしゃく」は「諾」を「しゃく」（釈・酌）と読んでおり誤り。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
     "contentFingerprint": "1d70e89f1e8df958e19d3d1cfaae95252afd612c70d7a0c35e1f76d90f918cac"
@@ -30,7 +30,7 @@
     "id": "N2_06_M1_04",
     "blindAnswer": "D",
     "confidence": "HIGH",
-    "linguisticJustification": "「媒介」の正しい音読みは「ばいかい」。「媒（バイ）」＋「介（カイ）」。両者の間に立ってなかだちをすること。正解はD。",
+    "linguisticJustification": "「媒介」の正しい読みは「ばいかい」である。「媒」の音読みは「バイ」（触媒、媒体など）、「介」の音読みは「カイ」（紹介、介入など）。選択肢A「まいかい」は「媒」の誤読。選択肢B「ばいけい」は「介」を「けい」と誤読。選択肢C「はいかい」は「媒介」ではなく「徘徊」の読みであり誤り。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
     "contentFingerprint": "58511665a880bd8e0d4ee615d9e983e63b43d78a1fd2957d0698eba62b49c249"
@@ -39,7 +39,7 @@
     "id": "N2_06_M1_05",
     "blindAnswer": "A",
     "confidence": "HIGH",
-    "linguisticJustification": "「糾弾」の正しい音読みは「きゅうだん」。「糾（キュウ）」＋「弾（ダン）」。罪や不正を問い詰めて厳しく非難すること。正解はA。",
+    "linguisticJustification": "「糾弾」の正しい読みは「きゅうだん」である。「糾」の音読みは「キュウ」（紛糾、糾明など）、「弾」の音読みは「ダン」（弾劾、爆弾など）。選択肢B「きょうだん」（教団・凶弾など）、選択肢C「きゅうたん」（清音化で誤り）、選択肢D「こうだん」（講談・公団など）はいずれも誤読。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
     "contentFingerprint": "ee098b6fcf14fa2f272487bc303609c0d66e32e1780b88a8991b8c99100d0039"
@@ -48,7 +48,7 @@
     "id": "N2_06_M2_01",
     "blindAnswer": "A",
     "confidence": "HIGH",
-    "linguisticJustification": "「あやつる」の文脈にふさわしい漢字表記は「操る」。人形や機械、人心を自分の思う通りに動かすこと。正解はA。",
+    "linguisticJustification": "人形などを意のままに動かすことを表す和語動詞「あやつる」の正しい漢字表記は「操る」である（操人形、糸を操る）。選択肢B「握る」は「にぎる」、選択肢C「扱る」は非標準表記（「扱う」は「あつかう」）、選択肢D「捕る」は「とる」であり不適当。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
     "contentFingerprint": "d9b5f7308f0260882a004fe398844875a918eb44c5f654f1d98d5b2f47c420a6"
@@ -57,7 +57,7 @@
     "id": "N2_06_M2_02",
     "blindAnswer": "B",
     "confidence": "HIGH",
-    "linguisticJustification": "「たずさえて」の文脈にふさわしい漢字表記は「携えて」。「携（たずさ）える」。手にとって持つ、連れ添うこと。正解はB。",
+    "linguisticJustification": "手に持つ、身につけて連れていく、あるいは武器・技術などを身に備えて持つことを表す動詞「たずさえる」の正しい漢字表記は「携える」である。選択肢A「揃えて」は「そろえて」、選択肢C「導えて」は非標準表記（「導く」は「みちびく」）、選択肢D「抱えて」は「かかえて」であり誤り。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
     "contentFingerprint": "b2bf18eee6e7782b421429021ff52b2267ba08c657865dbdd8ca2b5b1acd2f87"
@@ -66,7 +66,7 @@
     "id": "N2_06_M2_03",
     "blindAnswer": "C",
     "confidence": "HIGH",
-    "linguisticJustification": "「はげんでいる」の文脈にふさわしい漢字表記は「励んでいる」。「励（はげ）む」。力を尽くして熱心に取り組むこと。正解はC。",
+    "linguisticJustification": "熱心に力を尽くして取り組むことを意味する「はげむ（研究にはげむ）」の正しい漢字表記は「励む」である（励んでいる）。選択肢A「努んでいる」は「努める（つとめる）」、選択肢B「奮んでいる」は「奮う（ふるう）」、選択肢D「勤んでいる」は「勤める（つとめる）」であり、いずれも「はげむ」の表記として誤り。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
     "contentFingerprint": "464ae7f489b4f0c6eb36a7182fae1bec66c5b3d9c436f8fd9c9d0a36af28766d"
@@ -75,7 +75,7 @@
     "id": "N2_06_M2_04",
     "blindAnswer": "D",
     "confidence": "HIGH",
-    "linguisticJustification": "「さまたげる」の文脈にふさわしい漢字表記は「妨げる」。「妨（さまた）げる」。進行や成長を邪魔すること。正解はD。",
+    "linguisticJustification": "進行や発展をじゃますることを表す動詞「さまたげる」の正しい漢字表記は「妨げる」である。選択肢A「阻げる」は誤表記（「阻む」は「はばむ」）、選択肢B「遮げる」は誤表記（「遮る」は「さえぎる」）、選択肢C「拒げる」は誤表記（「拒む」は「こばむ」）であり、いずれも「さまたげる」とは読まない。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
     "contentFingerprint": "ff4f683d701fc46d028139893357f783fc3cf319bfbdaf25a1c36b83350bff8e"
@@ -84,7 +84,7 @@
     "id": "N2_06_M2_05",
     "blindAnswer": "A",
     "confidence": "HIGH",
-    "linguisticJustification": "「うながす」の文脈にふさわしい漢字表記は「促す」。「促（うなが）す」。相手に行動を起こすよう働きかけること。正解はA。",
+    "linguisticJustification": "ある行動を起こすよう働きかける・促進することを意味する動詞「うながす」の正しい漢字表記は「促す」である。選択肢B「催す」は「もよおす」、選択肢C「勧す」・選択肢D「薦す」は非標準表記（いずれも「勧める／薦める」＝「すすめる」）であり誤り。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
     "contentFingerprint": "1fbfd2b4ad22de41ee37b6d9a538aa12336b2eac68cb7be6ed68baa8e92412bc"
@@ -93,7 +93,7 @@
     "id": "N2_06_M3_01",
     "blindAnswer": "B",
     "confidence": "HIGH",
-    "linguisticJustification": "「通勤〜」の後に付き、移動可能な地理的範囲を表す接尾辞は「〜圏」。「通勤圏」。正解はB。",
+    "linguisticJustification": "ITや特定プラットフォーム等の融合によって形成される経済活動の広がり・生態系を表す接尾辞・複合語形成は「経済圏」（けいざいけん）が適切である。選択肢A「界」（経済界）は財界・実業家社会を指すため「誕生した」という主語には馴染まない。選択肢C「帯」、選択肢D「区」は地理的・行政的区分（地帯・特区等）であり、「金融とITが融合した新たな経済〜」の文脈に合致しない。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
     "contentFingerprint": "e1b286aecbc79b7a62ad166710fa92f5fc5fb076737b17ec77ca8bd1cb82ca57"
@@ -102,7 +102,7 @@
     "id": "N2_06_M3_02",
     "blindAnswer": "C",
     "confidence": "HIGH",
-    "linguisticJustification": "「〜売上高」の前に付き、全体の合算額を表す接頭辞は「総〜」。「総売上高」。正解はC。",
+    "linguisticJustification": "持てる戦力や人員のすべてを一斉に繰り出すことを表す定型的な接頭辞コロケーションは「総動員」（そうどういん）である。「大動員」「全動員」「本動員」はいずれも日本語の造語法として定着しておらず非標準。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
     "contentFingerprint": "1deec7bfaf20018c7ba589469a16d6ffad98bc6d9967d1f47a29d6bdc6dd7308"
@@ -111,7 +111,7 @@
     "id": "N2_06_M3_03",
     "blindAnswer": "A",
     "confidence": "HIGH",
-    "linguisticJustification": "「地域〜」の後に付き、全体一体となって関わる様子を表す接尾辞は「〜ぐるみ」。「地域ぐるみ」。正解はA。",
+    "linguisticJustification": "地域社会や組織・家族など全体が一体となって取り組むさまを表す接尾語は「〜ぐるみ」（地域ぐるみ、町ぐるみ、家族ぐるみ）である。選択肢B「だらけ」は不快・好ましくないものが散乱・充満している状態（傷だらけ、泥だらけ）、選択肢C「ずくめ」はそればかりが続くこと（黒ずくめ、いいことずくめ）、選択肢D「まみれ」は表面に付着して汚れている状態（血まみれ、汗まみれ）であり不適切。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
     "contentFingerprint": "a2f483016e0cef3aaf2d75494c4b3c75e6243afc201b6dd7fb906544db27921d"
@@ -120,7 +120,7 @@
     "id": "N2_06_M3_04",
     "blindAnswer": "D",
     "confidence": "HIGH",
-    "linguisticJustification": "「〜文化」の前に付き、自分とは異なる性質を表す接頭辞は「異〜」。「異文化」。正解はD。",
+    "linguisticJustification": "異なる学問や産業領域の融合・連携を表す標準的な複合名詞・接頭辞は「異分野」（いぶんや。異分野融合、異業種交流など）である。「従来の枠組みにとらわれない異分野の融合」という文脈に正確に一致する。選択肢A「他分野」は単に「他の分野」を指すが、異なる分野同士のクロスオーバー・融合を表す修飾語としては「異分野」が定着している。選択肢B「外分野」、選択肢C「対分野」は造語として成立しない。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
     "contentFingerprint": "e21d097e28718a6b6456113f4dbed4779a97a5270d4e861ae8d09114fc55ef94"
@@ -129,7 +129,7 @@
     "id": "N2_06_M3_05",
     "blindAnswer": "A",
     "confidence": "HIGH",
-    "linguisticJustification": "「海岸〜」の後に付き、地形や道に沿った線状の方向を表す接尾辞は「〜沿い」。「海岸沿い」。正解はA。",
+    "linguisticJustification": "線状に続く地形や道路・水辺に沿った場所を表す接尾辞は「〜沿い」（海岸沿い、川沿い、線路沿い）である。文脈「海岸沿いをジョギングする」に完全に合致する。選択肢B「端」は「道端」「川端」はあるが「海岸端」とは言わない。選択肢C「側」は方向を示すが移動経路の「〜沿いを走る」とは合致しない。選択肢D「並び」は並列する建造物等（家並み・軒並み等）に用いられ不適当。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
     "contentFingerprint": "0345f4761a297a136511d3702cc31b627e9011d9273692748d411b89d6072a8d"
@@ -138,7 +138,7 @@
     "id": "N2_06_M4_01",
     "blindAnswer": "A",
     "confidence": "HIGH",
-    "linguisticJustification": "膨大な資料や書物から必要な部分を抜き出してまとめる語は「抜粋（ばっすい）」。正解はA。",
+    "linguisticJustification": "要点を手短に説明するために全体から重要部分を抜き出す行為を表す語は「抜粋」（ばっすい）である。「データのみを抜粋して提示した」が文脈上完璧に成立する。選択肢B「省略」は省くことであり、「重要データのみを省いて提示した」では意味が破綻・矛盾する。選択肢C「縮小」は規模や大きさを小さくすること。選択肢D「控除」は金額等を差し引く会計・税務用語であり不適当。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
     "contentFingerprint": "b2dd6cd4abed71aa861b85862816e1f7dd67cf491d1c63b5adf1916ebfa270a5"
@@ -147,7 +147,7 @@
     "id": "N2_06_M4_02",
     "blindAnswer": "B",
     "confidence": "HIGH",
-    "linguisticJustification": "特定の物や考えに強くこだわり、捨てきれずに心をとらわれることは「執着（しゅうちゃく）」。正解はB。",
+    "linguisticJustification": "過去の失敗などに心がとらわれ、そこから離れられない状態を表すコロケーションは「〜に執着する」（しゅうちゃく）である。選択肢A「依存」は頼る・依存症等の意味で「失敗に依存する」は不自然。選択肢C「束縛」は他者を縛る他動詞用法が主で「失敗に束縛していては」は文法・語用として不自然。選択肢D「専念」は前向きに学業や仕事に打ち込むことであり「失敗に専念する」は意味をなさない。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
     "contentFingerprint": "00d0d11a9ec032de79432351c3e5f78de5b3ba802fcdb3ff7e30a097c1312796"
@@ -156,7 +156,7 @@
     "id": "N2_06_M4_03",
     "blindAnswer": "C",
     "confidence": "HIGH",
-    "linguisticJustification": "動作や頭の回転が素早く身軽な様子を表す形容動詞は「敏捷（びんしょう）」。正解はC。",
+    "linguisticJustification": "体の動きや身のこなしがすばやく軽快であることを表す慣用的コロケーションは「敏捷（びんしょう）な身のこなし」である。選択肢A「簡潔」は文章・表現が手短であること（簡潔な説明）。選択肢B「鮮明」は映像や記憶がはっきりしていること（鮮明な記憶）。選択肢D「軽率」は考えが浅く軽はずみなこと（軽率な行動）であり、いずれも身のこなしの修飾として不適当。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
     "contentFingerprint": "948ba5aef3f0607fccb32f6d1ba1b163bef2f4994e8ff464c853becfff4e4d0b"
@@ -165,16 +165,16 @@
     "id": "N2_06_M4_04",
     "blindAnswer": "D",
     "confidence": "HIGH",
-    "linguisticJustification": "坂や山道などの傾斜がゆるやかな様子を表すオノマトペ・形容動詞は「なだらか」。正解はD。",
+    "linguisticJustification": "義務や管理をいい加減に扱い、なおざりにすることを表す慣用表現は「〜をおろそかにする」（健康管理をおろそかにする、勉強をおろそかにする）である。正解はD（おろそか）。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "fc3888d223eb550ff9e0f086fc2252b84bdcc54f4683b38f0da8f63dfe9091ae"
+    "contentFingerprint": "3e236d678c6024e0ff86b2d9d228ea4d8f1308ab9d1e45ef7e3e87b097e5636c"
   },
   {
     "id": "N2_06_M4_05",
     "blindAnswer": "A",
     "confidence": "HIGH",
-    "linguisticJustification": "人の密度がまばらで少なく、散らばっている様子を表す語は「まばら」。正解はA。",
+    "linguisticJustification": "人の往来や物が少なく、散らばっている状態を表す表現は「人通りはまばら」である。文脈「普段は賑わう商店街も人通りはまばらだった」に完全に合致する。選択肢B「おおまか」は大雑把・大略であること。選択肢C「ひそか」は人知れず行うこと（密か）。選択肢D「のどか」はのんびりとして長閑なことであり、人通りの少なさを表す述語として不適当。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
     "contentFingerprint": "b6d2540da36cea35615a3c71077ef33bddeec5a1e0aa4f2bb0b76ab88e5d5a95"
@@ -183,16 +183,16 @@
     "id": "N2_06_M4_06",
     "blindAnswer": "B",
     "confidence": "HIGH",
-    "linguisticJustification": "思いがけない緊急事態に直面して慌てふためき冷静さを失う動詞は「うろたえる」。正解はB。",
+    "linguisticJustification": "思いがけない緊急事態に直面して慌てふためき冷静さを失う動詞は「うろたえる」。文脈「すっかりうろたえて、指示を待つことしかできなかった」に完全に適合する。正解はB。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "3ba425d631c1bad186e42c04e1c86b4b77dae0bb34ac770dee21126b6f7ac6e6"
+    "contentFingerprint": "1b44684e9e7a049a218aab6abc791d88309fce8e3e7b7c542ad7011fb15b7a76"
   },
   {
     "id": "N2_06_M4_07",
     "blindAnswer": "A",
     "confidence": "HIGH",
-    "linguisticJustification": "人間関係や動作がぎこちなく不自然な様子を表すオノマトペは「ぎくしゃく」。正解はA。",
+    "linguisticJustification": "人間関係が滑らかでなく、気まずく不自然に対立・緊張している状態を表す慣用コロケーションは「関係がぎくしゃくする／ぎくしゃくしている」である。選択肢B「ごたごた」は揉め事や混乱が生じること。選択肢C「もたもた」は動作が遅く手間取ること。選択肢D「ぐずぐず」は決断や行動をためらって遅れることであり、いずれも二人の対人関係の緊張・気まずさを表す表現としては「ぎくしゃく」に劣る。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
     "contentFingerprint": "820cae664b12aa831795ff377874aaac529f3f1cb3cb749a6572838af42abf6a"
@@ -201,7 +201,7 @@
     "id": "N2_06_M5_01",
     "blindAnswer": "A",
     "confidence": "HIGH",
-    "linguisticJustification": "「たやすく」は容易に、難なく物事が進む様子を表し「あっさり」に言い換えられる。正解はA。",
+    "linguisticJustification": "「たやすく」（容易く）は「苦労せず簡単に、手こずらずに」という意味である。これと言い換え可能な副詞は「あっさり」（あっさり成立した＝手こずらず簡単に決まった）である。選択肢B「かろうじて」はやっとのことで（逆の意味）。選択肢C「すみやかに」は迅速に・時間をかけずに（速さ・期限に関する語であり「たやすく」の容易さとは異なる）。選択肢D「あらかじめ」は前もってであり不適当。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
     "contentFingerprint": "91bed0d416d0f5fdcfe929679d64b9edee2de03da80421c071dda2c5454dffa4"
@@ -210,7 +210,7 @@
     "id": "N2_06_M5_02",
     "blindAnswer": "B",
     "confidence": "HIGH",
-    "linguisticJustification": "「意気込み」は積極的に取り組もうとする強い意欲を表し「やる気」に言い換えられる。正解はB。",
+    "linguisticJustification": "「意気込み」（いきごみ）は、積極的に物事を行おうとする気概・熱意を表し、「やる気」「意欲」と同義である。選択肢A「誠意」（まじめで嘘のない心）、選択肢C「自負」（誇り・プライド）、選択肢D「警戒」（危難に備え用心すること）はいずれも「意気込み」の言い換えとして不適当。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
     "contentFingerprint": "41472db007e9ebb3b8a29f89c808460387d9e95988439976fa2acfca5f6bb015"
@@ -219,7 +219,7 @@
     "id": "N2_06_M5_03",
     "blindAnswer": "C",
     "confidence": "HIGH",
-    "linguisticJustification": "「うつむいて」は恥ずかしさや反省から顔を下に伏せる様子で「下を向いて」に言い換えられる。正解はC。",
+    "linguisticJustification": "「うつむいて」（俯く）は、頭を垂れて視線を下に落とす動作を表すため、「下を向いて」が正確な同義表現である。選択肢A「横を向いて」、選択肢B「後ろを向いて」、選択肢D「上を向いて」はいずれも異なる方向を向く動作であり誤り。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
     "contentFingerprint": "6a9f6f7755a8deb59063c5cb1a30ed68804fdc3be8a272d0f8c365cff66c014a"
@@ -228,7 +228,7 @@
     "id": "N2_06_M5_04",
     "blindAnswer": "D",
     "confidence": "HIGH",
-    "linguisticJustification": "「わずらわしい」は複雑で手間がかかり面倒なことで「めんどうな」に言い換えられる。正解はD。",
+    "linguisticJustification": "「わずらわしい」（煩わしい）は、工程や手続きが複雑・面倒で気が重いさまを表し、「めんどうな」（面倒な）と完全に一致する。選択肢A「ばかばかしい」は愚かでくだらないさま。選択肢B「みっともない」は見苦しい・体裁が悪いさま。選択肢C「まぎらわしい」は紛れて区別がつきにくいさまであり、発音の類似による引っかけであるが意味が異なる。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
     "contentFingerprint": "e72fb31a9b140445b8eba1addd3c8d2300aef99567fb12b582fca229efade22f"
@@ -237,7 +237,7 @@
     "id": "N2_06_M5_05",
     "blindAnswer": "A",
     "confidence": "HIGH",
-    "linguisticJustification": "「さしつかえありません」は支障や問題がないことを丁寧に述べる表現で「問題ありません」に言い換えられる。正解はA。",
+    "linguisticJustification": "「さしつかえありません」（差し支えありません）は「都合の悪いことや支障がない」「構わない」を表す敬語表現であり、「問題ありません」と言い換えることができる。選択肢B「おすすめしません」、選択肢C「遠慮してください」、選択肢D「義務づけられています」はいずれも否定や義務化であり、不都合がないことを容認する原意と相反する。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
     "contentFingerprint": "9bcdc9724dc04b91bdade98394b793526f7413c14b1f90fd46ee9eb75a6481e7"
@@ -246,7 +246,7 @@
     "id": "N2_06_M6_01",
     "blindAnswer": "A",
     "confidence": "HIGH",
-    "linguisticJustification": "「模倣」は優れた技術や作品を真似て学ぶことで、「技法を模倣することから独自の創作が始まる」の用法が適切。正解はA。",
+    "linguisticJustification": "「模倣」（もほう）は、他者の動作・様式・技法などを真似ることを意味する。選択肢A「技法を模倣することから独自の創作が始まる」は極めて自然で典型的な用法である。選択肢B「試験の模倣として過去問を…」は「模擬」または「練習」、選択肢C「避難の模倣を迅速に実施した」は「避難訓練」、選択肢D「新商品の模倣を測るため」は「評判／需要」などが適切であり、いずれも「模倣」の誤用。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
     "contentFingerprint": "8f53cd8cc36a020420ec4c8439fefbbf0e90fd2b5cc4c867a694dfe04865b21b"
@@ -255,7 +255,7 @@
     "id": "N2_06_M6_02",
     "blindAnswer": "B",
     "confidence": "HIGH",
-    "linguisticJustification": "「蓄積」は知識やデータ、疲労などが徐々に溜まることで、「データと知見の蓄積」の用法が適切。正解はB。",
+    "linguisticJustification": "「蓄積」（ちくせき）は、知識、データ、経験、疲労などが少しずつ長期間にわたって積み重なることを意味する。選択肢B「データと知見の蓄積が、今回の発見を生んだ」が自然かつ正確な用法である。選択肢A「銀行口座に蓄積して」は「貯金／預金／貯蓄して」、選択肢C「大雪が道路に激しく蓄積し」は「積もり／積雪し」、選択肢D「意見をノートに蓄積し」は「記録し／まとめ」などが適切であり誤用。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
     "contentFingerprint": "14717984eea50d72d5386e85b182745fc540b3b73bf909012dfa58378302a3fb"
@@ -264,7 +264,7 @@
     "id": "N2_06_M6_03",
     "blindAnswer": "C",
     "confidence": "HIGH",
-    "linguisticJustification": "「覆す」は定説や常識を根本から変えることで、「治療法の概念を根底から覆す」の用法が適切。正解はC。",
+    "linguisticJustification": "「画期的」（かっきてき）は、それまでの歴史・常識の区切りを塗り替えるほど新しい時代を開くさま（エポックメイキング）を指す。選択肢C「従来の治療法の概念を根底から覆す、画期的な新薬が開発された」が模範的な用法である。選択肢A「時間を画期的に使って」は「有効に／効率的に」、選択肢B「画期的な壁画」は「見事な／壮大な」、選択肢D「画期的な天候の急変」は「突然の／急激な」などの誤用。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
     "contentFingerprint": "69877ca4a79a5384b756a1bc16b6f972738604f5cde49c98863a3397b9c417de"
@@ -273,7 +273,7 @@
     "id": "N2_06_M6_04",
     "blindAnswer": "A",
     "confidence": "HIGH",
-    "linguisticJustification": "「妥当」は客観的判断として無理がなく適切であることで、「価格設定は極めて妥当だ」の用法が適切。正解はA。",
+    "linguisticJustification": "「妥当」（だとう）は、実情や道理によく当てはまって適切・適正であることを意味する。選択肢A「総合的に考慮すれば、この価格設定は極めて妥当だ」が極めて自然な用法である。選択肢B「時間に妥当な性格」は「時間に几帳面な／正確な」、選択肢C「風通しも妥当なので」は「風通しも良好なので／良いので」、選択肢D「満点を取るという妥当な目標」は「高い目標／意欲的な目標」（妥当は手頃・適正な水準を指すため不適）などの誤用。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
     "contentFingerprint": "c6c5335d97ab072d287756d9238433fdb49ca25bf9f092eba876290f97307aeb"
@@ -282,7 +282,7 @@
     "id": "N2_06_M6_05",
     "blindAnswer": "A",
     "confidence": "HIGH",
-    "linguisticJustification": "「執拗」はしつこく諦めずに繰り返す様子で、「執拗に同じ論点を突いて攻撃する」の用法が適切。正解はA。",
+    "linguisticJustification": "「執拗」（しつよう）は、しつこく粘り強く付きまとうさま、諦めずに相手を責めたり追及したりするさまを表す（主に否定的・攻撃的ニュアンスを伴う）。選択肢A「執拗に同じ論点を突いて攻撃を繰り返した」が典型的な正しい用法である。選択肢B「スープの味が執拗で」は「濃厚で／くどくて」、選択肢C「執拗な性格で、困っている人を見ると放っておけない」は「おせっかいな／情け深い」、選択肢D「画面は執拗に美しく」は「圧倒的に／驚くほど」などの誤用。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
     "contentFingerprint": "677579ab2477ca8d1ba450fb481aad38e13718d63842e5da37ff4a13fe5c105c"
@@ -291,7 +291,7 @@
     "id": "N2_06_M7_01",
     "blindAnswer": "B",
     "confidence": "HIGH",
-    "linguisticJustification": "「〜を踏まえて」は経験や教訓を前提・根拠として考慮すること。「過去の失敗の経験を踏まえて」。正解はB。",
+    "linguisticJustification": "「〜を踏まえて」（ふまえて）は、過去の経験や事実・反省などを前提・判断の基盤として次の行動をとることを表すN2機能語である。「過去の失敗の経験を踏まえて、新しいプロジェクトでは…」という文脈に合致する。選択肢A「〜を皮切りに」は一連の同類の出来事の口火を切って開始すること。選択肢C「〜を抜きにして」は〜を除外して（成立しない）。選択肢D「〜を契機に」は特定の出来事をきっかけに大きな転換が生じる場合に用いられるが、経験・教訓を判断材料・基盤とする文脈では「を踏まえて」が文法上最も適切。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
     "contentFingerprint": "9aa72ccbb0963d12573cd7d4ef2c8619d53ef8e0574d3f3b59b86e2aac50ef14"
@@ -300,16 +300,16 @@
     "id": "N2_06_M7_02",
     "blindAnswer": "C",
     "confidence": "HIGH",
-    "linguisticJustification": "「〜に先立ち」は重大な事態に先立って事前に準備を行うこと。「全国発売に先立ち」。正解はC。",
+    "linguisticJustification": "「〜に先立ち／〜に先立って」は、重大な公式行事や出来事よりも前の段階で準備として行うことを表すN2文法形式である。「来月に控えた新製品の全国発売に先立ち、…記者会見が開催された」が時系列・文脈に完璧に適合する。選択肢A「に応じて」は状況や要求に合わせて。選択肢B「に基づいて」はデータや基準に立脚して。選択肢D「に伴い」は変化や事象に伴って同時に生じる事態を表すため、先行して行う記者会見には不適。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
-    "contentFingerprint": "d16bbff52112e7574b43d28ada0dbe6f6a4debaf7ce2d06b93426ce30ee541f4"
+    "contentFingerprint": "4055b9a11ae9f1c376455d9da0a70a7b074881bc9e4802209103c61f93943b11"
   },
   {
     "id": "N2_06_M7_03",
     "blindAnswer": "B",
     "confidence": "HIGH",
-    "linguisticJustification": "「〜に相違ない」は確信に満ちた客観的推量（〜に違いない）。「実力を発揮するに相違ない」。正解はB。",
+    "linguisticJustification": "「〜のことだから、…に相違ない」は、対象人物の普段の性質やこれまでの行動から考えて「きっと〜に違いない／〜に決まっている」と確信を持って推量する定型呼応表現である。文脈「連日の猛特訓に耐え抜いた彼のことだから、…実力を発揮するに相違ない」に合致する。選択肢A「にすぎない」は単に〜だけだ（過小評価）。選択肢C「にほかならない」はまさにそれ自身である（理由の断定）。選択肢D「わけがない」は強い否定（はずがない）であり文意に矛盾する。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
     "contentFingerprint": "18722b97988de6d805e685456099c3e36b6a96a1b4c03bdfd62865dd95974295"
@@ -318,7 +318,7 @@
     "id": "N2_06_M7_04",
     "blindAnswer": "D",
     "confidence": "HIGH",
-    "linguisticJustification": "「〜ざるを得ない」は状況から判断してそうするより他ないこと。「変革を受け入れざるを得ない」。正解はD。",
+    "linguisticJustification": "「〜以上（は）、…ざるを得ない」は、「〜という事実があるからには、必然的に〜しなければならない／他に選択肢がない」という義務・やむを得ない帰結を表す構文である。「方針が転換した以上、…変革を受け入れざるを得ない」が正確に成立する。選択肢A「受け入れそうにない」は他者の様態推量であり自分たちの行動には不適。選択肢B「受け入れかねない」は悪化の懸念を表し文意不通。選択肢C「受け入れっこない」は絶対〜ないという強い口語否定推量であり文意に反する。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
     "contentFingerprint": "1c04e24791ef000b360369361f8a8371b485ae7d083cc91d71dac4ec7f036cf3"
@@ -327,7 +327,7 @@
     "id": "N2_06_M7_05",
     "blindAnswer": "B",
     "confidence": "HIGH",
-    "linguisticJustification": "「〜賜物だ（たまものだ）」は努力や苦労が結実した良い成果であること。「努力のたまものだ」。正解はB。",
+    "linguisticJustification": "「〜の賜物（たまもの）だ」は、努力や苦労の結果としてもたらされた素晴らしい成果・恵みを表す慣用的な文末表現である。「努力の賜物だ」は日本語の代表的な決まり文句。選択肢A「おそれがある」は悪い事態が起こる危険性があること。選択肢C「かぎりだ」は感情形容詞に接続して極度の感情を表すこと（嬉しいかぎりだ等）。選択肢D「ものがある」は「〜という強い感じがする」を表す表現であり、「努力の〜」という名詞接続の結びとして不適当。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
     "contentFingerprint": "c09ead07708f9069552e692ee4867e59f910c6911247706db111d8a685619602"
@@ -336,7 +336,7 @@
     "id": "N2_06_M7_06",
     "blindAnswer": "C",
     "confidence": "HIGH",
-    "linguisticJustification": "「〜げ」は外見や表情にその感情の気配が感じられること。「不安げに見つめながら」。正解はC。",
+    "linguisticJustification": "「〜げ」は感情・様子を表す形容詞・名詞等の語幹に付き、「いかにも〜そうな様子で」を表す接尾辞である。「不安げに見つめながら」（不安そうな表情・様子で見つめながら）という文脈に合致する。選択肢A「不安がち」は「〜がち」が頻度・傾向を表す（留守がち、曇りがち等）ため表情・視線の修飾には不適。選択肢B「不安ぎみ」は「〜気味」が身体的・心理的兆候（風邪気味、疲れ気味）を表し「〜に見つめる」の副詞的連用修飾には馴染まない。選択肢D「不安っぽく」は「〜っぽい」の接続として不自然（「怒りっぽい」「安っぽい」等に用いる）。",
     "alternativeDefensibleAnswers": [],
     "concerns": null,
     "contentFingerprint": "a171126ae13d34d1be867beba94b37ea0c65771bbaded00311a25afdfadc2fd5"

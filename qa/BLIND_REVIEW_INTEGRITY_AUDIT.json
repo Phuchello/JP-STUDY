@@ -19,11 +19,11 @@
     "raw_blind_m05_s1_p1.json": "32cb08dc0d50f34e1c32fe734a1f36d4f1a1f03d4e85ddf78e99a61b647a8fa9",
     "raw_blind_m05_s1_p2.json": "e0615890cb6c3f5882bb3e18faabdfab025263706cdb93888aff5a2ddc51305f",
     "raw_blind_m05_s2.json": "d242a31f9e3c7c9e092b00d0f6bcf494fe3fd6df3076440cd37fbab967a93a06",
-    "raw_blind_m06_s1_p1.json": "e7251ececf9342ae4ddcf38ef4705fa1791b649182a61a381277f329e984b99c",
-    "raw_blind_m06_s1_p2.json": "2586d334f8f58a0005c0fc343de5a5c98a6f95f4410bec641614bb3740722db3",
-    "raw_blind_m06_s2.json": "f2c12c5c61f3efce54bc34b9fc99f807bc9a218ee155d33309d12a04f4e8a8b1"
+    "raw_blind_m06_s1_p1.json": "c577cc2417af9fba8b19aaac5a13f01b3746eb38a4f2c8d49c20c533e7817799",
+    "raw_blind_m06_s1_p2.json": "1011129da15392e19f78b7d167ccb6d6f3c50ff9f396d5eeebf00533304eb5a0",
+    "raw_blind_m06_s2.json": "b220b9c458bdce2c7e4a2691a10c9ce0907aca0da9a1dec3b0465286fa3d6243"
   },
-  "derivedArtifactHash": "13250f12e287ac97e76449e5e72b405c951a25f1cb3a51c44374767022adb484",
+  "derivedArtifactHash": "f3acd2bbabc0f075a638db220fb12cdd2e514e7fa173da5e87fae81690b0d6b7",
   "totalQuestionsAudited": 630,
   "provenanceBreakdown": {
     "RECONSTRUCTED_FROM_ARCHIVED_INPUT": 287,

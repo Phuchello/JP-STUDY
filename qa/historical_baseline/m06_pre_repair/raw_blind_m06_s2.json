@@ -1,0 +1,272 @@
+[
+  {
+    "id": "N2_06_M1_L01",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "展示開始前の最優先課題として、国宝級美術品の保険書類の不備を解決するため、貸出元へ修正書類をメールし原本を郵送手配する。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "3eeef3ac7a07f57aaf92175cb9924272f0cef89cec63c9e5929e262135841532"
+  },
+  {
+    "id": "N2_06_M1_L02",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "研修合宿の参加者増に伴い、まずバス会社に電話して大型車両への変更や小型バス追加の見積もりを確認する。正解はA。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "d2502d725037a2721ec60b1cd9af0501e7479d155b6071147bc7f95afacef168"
+  },
+  {
+    "id": "N2_06_M1_L03",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "牛肉の入荷遅れに対応するため、午後3時までに代替業者へ発注できるよう必要なグラム数を計算して発注書を作成する。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "c9966015435d30a8f4f0f54258ea39ef7d538fdb27815a8e812ba66cdeb6403f"
+  },
+  {
+    "id": "N2_06_M1_L04",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "自動返却機でバーコードがかすれて読み取れなかった書籍を手動でシステムに返却登録する作業を最優先で行う。正解はD。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "90f915b0b58d9b728c16439d92167c402e41e938e6fb0454ff5f55b4e1d2c213"
+  },
+  {
+    "id": "N2_06_M1_L05",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "総会会場のエアコン故障による会場変更のため、案内状原稿の開催場所とアクセスマップを修正する。正解はA。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "0ccb09b4e6a49318b79d88e48033bd501cb4df00289a32b4656d9cf5189aa72f"
+  },
+  {
+    "id": "N2_06_M2_L01",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "山間の町に移住者が急増した決定打は、全域への超高速光ファイバー網敷設とサテライトオフィス整備によるテレワーク環境。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "8fd639f260a906dae65e5a6f6430f9d1efecd0232086d39b7aff7f479ab23e3e"
+  },
+  {
+    "id": "N2_06_M2_L02",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "登山趣味の男性がスマホ購入を決めた最大の理由は、山奥で数日間充電不要な大容量バッテリーと省電力設計。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "50e9991ab53deb77bfde7b7f6fe1cface94406f6b6d3bc62cf156c852706b2cb"
+  },
+  {
+    "id": "N2_06_M2_L03",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "新作ケーキがSNSで話題になった理由は、温かい抹茶ソースでチョコが溶けて中身が現れる演出が動画映えしたこと。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "0242f2decfe4c62f6501ab66840c97faa56ff04224768572bc7fca0c86783255"
+  },
+  {
+    "id": "N2_06_M2_L04",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "伝統織物工房に応募が急増した理由は、技術の体系的マニュアル化と固定給・社保・週休2日など労働条件の近代化。正解はD。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "baac06df2efa03bf70196ced59d4a870d6777ee06fdd5880ec267ef8f3455282"
+  },
+  {
+    "id": "N2_06_M2_L05",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "週休3日制を継続決定した最大の成果は、無駄な会議削減と自動化による労働生産性の向上および離職率の大幅低下。正解はD。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "d36cbc2c463030f15e736d06c80378e0285d3febc46b80475a89d4830997756c"
+  },
+  {
+    "id": "N2_06_M2_L06",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "野生動物が市街地に出没する根本原因は、人里と奥山の間で手入れされていた里山が放置され、緩衝地帯が消滅したこと。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "e47c775fc4746a66936d4f1258b233c5292073e60a0c73ac81be4f68c0ccbdb8"
+  },
+  {
+    "id": "N2_06_M3_L01",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "睡眠の専門家は、睡眠時間の長さよりも就寝前の入浴やスマホ回避など体内リズムを整えて質を高める工夫について解説している。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "2c27b256d333f2630ba551aaaec4148f520d6e1a5e9f917ea9c748b6b60242cb"
+  },
+  {
+    "id": "N2_06_M3_L02",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "書店経営者は、予期せぬ本との偶発的な出会い（セレンディピティ）や地域住民の交流拠点としての実店舗の価値を主張している。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "1e11b871ba197822596f73346ed66ab388984f57efc19ca3532fe6f4d352415d"
+  },
+  {
+    "id": "N2_06_M3_L03",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "組織コンサルタントは、イノベーションを起こすには減点主義を排し、挑戦による失敗を許容し学習する組織風土が必要だと述べている。正解はD。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "16c327d2724aa43da0b7ca3abc9137acc51eef12f56153ee350b0d69b86dfdcd"
+  },
+  {
+    "id": "N2_06_M3_L04",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "植物学者は、害虫被害時の化学物質放出や根菌ネットワークを通じた情報伝達など、植物の高度なコミュニケーション能力を解説している。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "2d0bf45f1a178614f961b27a7f8e8c15125c527b9e98a65c3df1458fd0c23d54"
+  },
+  {
+    "id": "N2_06_M3_L05",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "教育心理学教授は、生まれつきの才能や知能を褒めるのではなく、本人の努力や工夫したプロセスを褒めることの大切さを説いている。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "4e6285c92a8c6675797bacc2cc5087405ec5a448b514e2d9ab0a15918fac6beb"
+  },
+  {
+    "id": "N2_06_M4_L01",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「目を通していただけないでしょうか」という丁寧な依頼に対し、快く応じる「夕方までなら時間が取れるから置いておいて」が適切。正解はA。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "df715e7325db90c19d7f9493f4f6c97fcd16cf85cd3813b6d1567385154f971b"
+  },
+  {
+    "id": "N2_06_M4_L02",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「受け入れられた試しがないよね」に対し、事実を認めて次回の改善を誓う「次回こそはデータをもっと揃えて説得してみます」が適切。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "dc7346a175d03e53c645cd1cf708e8efe306ba806abfc4c0f74cb4da1b87ca17"
+  },
+  {
+    "id": "N2_06_M4_L03",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「引き受けてくださる気はありませんか」という打診に対し、謙遜しつつ意欲を示す「私のような若手でよろしければ、ぜひ挑戦させてください」が適切。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "1c4537fab0fa29940792128c2688e0380937efa9ee38c7691242db69c21ee5e9"
+  },
+  {
+    "id": "N2_06_M4_L04",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「文句のつけようがなかったね」という絶賛に対し、強く共感する「本当にね。料理も接客もパーフェクトで感動したよ」が適切。正解はA。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "4813f113f38737707078175ed195b84a61a1eab8bc9fb3a9a8d77484ad0f1d51"
+  },
+  {
+    "id": "N2_06_M4_L05",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「専務がお見えになりましたが」に対し、適切な応接指示を出す「ええ、すぐにお茶をお出しして、私も向かうとお伝えして」が適切。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "f721ea9acf4350a2bcaea8552c2b8ed96b06265decaaf65851c9c7c6b2eda60c"
+  },
+  {
+    "id": "N2_06_M4_L06",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "「使い勝手はどう？」に対し、使用感を具体的に評価する「直感的に操作できて、部署内の評判も上々ですよ」が適切。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "3610963a9aa12b7a02be4748f0a1106563e7db7ffcd7356707ad6868e66c8f26"
+  },
+  {
+    "id": "N2_06_M4_L07",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "「欠席せざるを得ません」という部下の断りに対し、理解を示す「そうか、残念だけど仕事なら仕方がないね。また次回誘うよ」が適切。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "17fb080b3510cb71fcb55140286ac002d246986b255baf1806071020ad48ab02"
+  },
+  {
+    "id": "N2_06_M4_L08",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "「早めに手を打っておいて正解だったね」に対し、同調して安堵する「まったくです。あのまま放置していたら大惨事になるところでした」が適切。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "d3bb832ed87f45e4871cfa233c0e38ccd07ed1e19b24b0eb9204df8ec38120fc"
+  },
+  {
+    "id": "N2_06_M4_L09",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "「試乗なさってみますか」に対し、前向きに応じる「ええ、車庫入れの感覚を確かめたいのでお願いできますか」が適切。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "5f29886f08c89e4ea05a71d21e408cf54633d47e822443af99c10b174ea0abd9"
+  },
+  {
+    "id": "N2_06_M4_L10",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「出張日程、私のほうで手配いたしましょうか」に対し、感謝して依頼する「ありがとう。新幹線の時間だけ後でメールしてくれるかな」が適切。正解はA。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "7e7c7c1bfd121d30ec8015ec4d99467b583e4d3dcfb016c51a9625bb68528dab"
+  },
+  {
+    "id": "N2_06_M4_L11",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "「素人の私にはちんぷんかんぷんだよ」に対し、同意する「全くだね。解説書でも読まないとさっぱり理解できないね」が適切。正解はA。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "429bd75de086807fc33b1fb68efc985841c279ea7805ec4fe6ec7bb246ca21d8"
+  },
+  {
+    "id": "N2_06_M5_L01",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "女性社員は、若手リーダーの抱え込み残業を解消するために4番のタイムマネジメントとタスク権限委譲プランを推薦している。正解はD。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "84e034e286136e74a7a108b19bca5a50978a4aafb09b12ea5cf2c3ee1ead818d"
+  },
+  {
+    "id": "N2_06_M5_L02",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "役員は最終的に、男性社員の提案した部下の自律性を育てる対話力重視の1番（実践的コーチング研修）の採用を決定した。正解はA。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "1e3d582815be2919484677ca0a0b4bd2659b90cbb9ca398371068056f1864579"
+  },
+  {
+    "id": "N2_06_M5_L03",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "課長は最終的に、廃校を再生して長期滞在者を呼び込み雇用を生み出す1番のグランピング＆ワーケーション事業の推進を決定した。正解はA。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "35b1895bf28e895dbca39da1129555a3cf6b4e4ad72a3f963d3ca04a66bd0381"
+  }
+]

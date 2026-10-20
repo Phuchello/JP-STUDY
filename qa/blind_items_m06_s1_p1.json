@@ -6,6 +6,7 @@
     "skill": "Language Knowledge",
     "typeId": "N2-MO-READ",
     "category": "Mondai 1: 漢字読み",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
     "stem": "気体の温度が上昇すると、体積が急速に【膨張】する。",
     "contextPassage": null,
     "options": [
@@ -25,7 +26,8 @@
         "id": "D",
         "text": "ぼんちょう"
       }
-    ]
+    ],
+    "contentFingerprint": "51f89f5e3f78ffe3d9adf2ca4d8dc5fa8842d6ee615644ef2d455ccbe2fbf58c"
   },
   {
     "id": "N2_06_M1_02",
@@ -34,6 +36,7 @@
     "skill": "Language Knowledge",
     "typeId": "N2-MO-READ",
     "category": "Mondai 1: 漢字読み",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
     "stem": "著者の長年の研究成果が、この一冊の学術書に【凝縮】されている。",
     "contextPassage": null,
     "options": [
@@ -53,7 +56,8 @@
         "id": "D",
         "text": "ぎょうしょう"
       }
-    ]
+    ],
+    "contentFingerprint": "e187ffc314fd6123bf5b11138b0b184cec85e5006ecca0dc03f6a04d4bac84fa"
   },
   {
     "id": "N2_06_M1_03",
@@ -62,6 +66,7 @@
     "skill": "Language Knowledge",
     "typeId": "N2-MO-READ",
     "category": "Mondai 1: 漢字読み",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
     "stem": "相手企業の提案条件を検討した結果、正式に【承諾】の返答を送った。",
     "contextPassage": null,
     "options": [
@@ -81,7 +86,8 @@
         "id": "D",
         "text": "しょうしゃく"
       }
-    ]
+    ],
+    "contentFingerprint": "1d70e89f1e8df958e19d3d1cfaae95252afd612c70d7a0c35e1f76d90f918cac"
   },
   {
     "id": "N2_06_M1_04",
@@ -90,6 +96,7 @@
     "skill": "Language Knowledge",
     "typeId": "N2-MO-READ",
     "category": "Mondai 1: 漢字読み",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
     "stem": "ウイルス感染の拡大を防ぐため、蚊が病原体を【媒介】する経路を調査している。",
     "contextPassage": null,
     "options": [
@@ -109,7 +116,8 @@
         "id": "D",
         "text": "ばいかい"
       }
-    ]
+    ],
+    "contentFingerprint": "58511665a880bd8e0d4ee615d9e983e63b43d78a1fd2957d0698eba62b49c249"
   },
   {
     "id": "N2_06_M1_05",
@@ -118,6 +126,7 @@
     "skill": "Language Knowledge",
     "typeId": "N2-MO-READ",
     "category": "Mondai 1: 漢字読み",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
     "stem": "市民団体は、不正な資金流用を行った市長の責任を厳しく【糾弾】した。",
     "contextPassage": null,
     "options": [
@@ -137,7 +146,8 @@
         "id": "D",
         "text": "こうだん"
       }
-    ]
+    ],
+    "contentFingerprint": "ee098b6fcf14fa2f272487bc303609c0d66e32e1780b88a8991b8c99100d0039"
   },
   {
     "id": "N2_06_M2_01",
@@ -146,6 +156,7 @@
     "skill": "Language Knowledge",
     "typeId": "N2-MO-READ",
     "category": "Mondai 2: 表記",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
     "stem": "彼は複雑な人形を指先で巧みに【あやつる】名人として知られている。",
     "contextPassage": null,
     "options": [
@@ -165,7 +176,8 @@
         "id": "D",
         "text": "捕る"
       }
-    ]
+    ],
+    "contentFingerprint": "d9b5f7308f0260882a004fe398844875a918eb44c5f654f1d98d5b2f47c420a6"
   },
   {
     "id": "N2_06_M2_02",
@@ -174,6 +186,7 @@
     "skill": "Language Knowledge",
     "typeId": "N2-MO-READ",
     "category": "Mondai 2: 表記",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
     "stem": "最新の科学技術を【たずさえて】、未知の海洋深層部の探査へと出発した。",
     "contextPassage": null,
     "options": [
@@ -193,7 +206,8 @@
         "id": "D",
         "text": "抱えて"
       }
-    ]
+    ],
+    "contentFingerprint": "b2bf18eee6e7782b421429021ff52b2267ba08c657865dbdd8ca2b5b1acd2f87"
   },
   {
     "id": "N2_06_M2_03",
@@ -202,6 +216,7 @@
     "skill": "Language Knowledge",
     "typeId": "N2-MO-READ",
     "category": "Mondai 2: 表記",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
     "stem": "若き研究者たちが、難病の治療法を見つけるために日夜研究に【はげんでいる】。",
     "contextPassage": null,
     "options": [
@@ -221,7 +236,8 @@
         "id": "D",
         "text": "勤んでいる"
       }
-    ]
+    ],
+    "contentFingerprint": "464ae7f489b4f0c6eb36a7182fae1bec66c5b3d9c436f8fd9c9d0a36af28766d"
   },
   {
     "id": "N2_06_M2_04",
@@ -230,6 +246,7 @@
     "skill": "Language Knowledge",
     "typeId": "N2-MO-READ",
     "category": "Mondai 2: 表記",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
     "stem": "過度な規制は、自由な経済活動の発展を【さまたげる】要因になりかねない。",
     "contextPassage": null,
     "options": [
@@ -249,7 +266,8 @@
         "id": "D",
         "text": "妨げる"
       }
-    ]
+    ],
+    "contentFingerprint": "ff4f683d701fc46d028139893357f783fc3cf319bfbdaf25a1c36b83350bff8e"
   },
   {
     "id": "N2_06_M2_05",
@@ -258,6 +276,7 @@
     "skill": "Language Knowledge",
     "typeId": "N2-MO-READ",
     "category": "Mondai 2: 表記",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
     "stem": "政府は省エネルギー住宅の普及を【うながす】ため、補助金制度の新設を決定した。",
     "contextPassage": null,
     "options": [
@@ -277,7 +296,8 @@
         "id": "D",
         "text": "薦す"
       }
-    ]
+    ],
+    "contentFingerprint": "1fbfd2b4ad22de41ee37b6d9a538aa12336b2eac68cb7be6ed68baa8e92412bc"
   },
   {
     "id": "N2_06_M3_01",
@@ -286,6 +306,7 @@
     "skill": "Language Knowledge",
     "typeId": "N2-MO-FORM",
     "category": "Mondai 3: 語形成",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
     "stem": "近年のデジタル技術革新により、金融とITが融合した新たな経済（　　）が誕生した。",
     "contextPassage": null,
     "options": [
@@ -305,7 +326,8 @@
         "id": "D",
         "text": "区"
       }
-    ]
+    ],
+    "contentFingerprint": "e1b286aecbc79b7a62ad166710fa92f5fc5fb076737b17ec77ca8bd1cb82ca57"
   },
   {
     "id": "N2_06_M3_02",
@@ -314,6 +336,7 @@
     "skill": "Language Knowledge",
     "typeId": "N2-MO-FORM",
     "category": "Mondai 3: 語形成",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
     "stem": "緊急事態に対処するため、警察と消防の全戦力が（　　）動員された。",
     "contextPassage": null,
     "options": [
@@ -333,7 +356,8 @@
         "id": "D",
         "text": "本"
       }
-    ]
+    ],
+    "contentFingerprint": "1deec7bfaf20018c7ba589469a16d6ffad98bc6d9967d1f47a29d6bdc6dd7308"
   },
   {
     "id": "N2_06_M3_03",
@@ -342,6 +366,7 @@
     "skill": "Language Knowledge",
     "typeId": "N2-MO-FORM",
     "category": "Mondai 3: 語形成",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
     "stem": "地元住民が行政と連携し、地域（　　）で高齢者の見守り活動に取り組んでいる。",
     "contextPassage": null,
     "options": [
@@ -361,7 +386,8 @@
         "id": "D",
         "text": "まみれ"
       }
-    ]
+    ],
+    "contentFingerprint": "a2f483016e0cef3aaf2d75494c4b3c75e6243afc201b6dd7fb906544db27921d"
   },
   {
     "id": "N2_06_M3_04",
@@ -370,6 +396,7 @@
     "skill": "Language Knowledge",
     "typeId": "N2-MO-FORM",
     "category": "Mondai 3: 語形成",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
     "stem": "他業種との交流を通じて、従来の枠組みにとらわれない（　　）分野の融合を図る。",
     "contextPassage": null,
     "options": [
@@ -389,7 +416,8 @@
         "id": "D",
         "text": "異"
       }
-    ]
+    ],
+    "contentFingerprint": "e21d097e28718a6b6456113f4dbed4779a97a5270d4e861ae8d09114fc55ef94"
   },
   {
     "id": "N2_06_M3_05",
@@ -398,6 +426,7 @@
     "skill": "Language Knowledge",
     "typeId": "N2-MO-FORM",
     "category": "Mondai 3: 語形成",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
     "stem": "休日の朝は、潮風を感じながら海岸（　　）をジョギングするのが日課だ。",
     "contextPassage": null,
     "options": [
@@ -417,7 +446,8 @@
         "id": "D",
         "text": "並び"
       }
-    ]
+    ],
+    "contentFingerprint": "0345f4761a297a136511d3702cc31b627e9011d9273692748d411b89d6072a8d"
   },
   {
     "id": "N2_06_M4_01",
@@ -426,6 +456,7 @@
     "skill": "Language Knowledge",
     "typeId": "N2-MO-CTX",
     "category": "Mondai 4: 文脈規定",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
     "stem": "論文の要点を手短に説明するため、最も重要な実験結果のデータのみを【　　】して提示した。",
     "contextPassage": null,
     "options": [
@@ -445,7 +476,8 @@
         "id": "D",
         "text": "控除"
       }
-    ]
+    ],
+    "contentFingerprint": "b2dd6cd4abed71aa861b85862816e1f7dd67cf491d1c63b5adf1916ebfa270a5"
   },
   {
     "id": "N2_06_M4_02",
@@ -454,6 +486,7 @@
     "skill": "Language Knowledge",
     "typeId": "N2-MO-CTX",
     "category": "Mondai 4: 文脈規定",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
     "stem": "過去の失敗に過度に【　　】していては、新しい挑戦への一歩を踏み出すことはできない。",
     "contextPassage": null,
     "options": [
@@ -473,7 +506,8 @@
         "id": "D",
         "text": "専念"
       }
-    ]
+    ],
+    "contentFingerprint": "00d0d11a9ec032de79432351c3e5f78de5b3ba802fcdb3ff7e30a097c1312796"
   },
   {
     "id": "N2_06_M4_03",
@@ -482,6 +516,7 @@
     "skill": "Language Knowledge",
     "typeId": "N2-MO-CTX",
     "category": "Mondai 4: 文脈規定",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
     "stem": "相手の素早い攻撃を【　　】な身のこなしでかわし、見事に反撃に転じた。",
     "contextPassage": null,
     "options": [
@@ -501,7 +536,8 @@
         "id": "D",
         "text": "軽率"
       }
-    ]
+    ],
+    "contentFingerprint": "948ba5aef3f0607fccb32f6d1ba1b163bef2f4994e8ff464c853becfff4e4d0b"
   },
   {
     "id": "N2_06_M4_04",
@@ -510,6 +546,7 @@
     "skill": "Language Knowledge",
     "typeId": "N2-MO-CTX",
     "category": "Mondai 4: 文脈規定",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
     "stem": "日々の健康管理を【　　】にしていると、年齢を重ねてから大きな病気につながる恐れがある。",
     "contextPassage": null,
     "options": [
@@ -523,13 +560,14 @@
       },
       {
         "id": "C",
-        "text": "おろそか"
+        "text": "なだらか"
       },
       {
         "id": "D",
-        "text": "なだらか"
+        "text": "おろそか"
       }
-    ]
+    ],
+    "contentFingerprint": "3e236d678c6024e0ff86b2d9d228ea4d8f1308ab9d1e45ef7e3e87b097e5636c"
   },
   {
     "id": "N2_06_M4_05",
@@ -538,6 +576,7 @@
     "skill": "Language Knowledge",
     "typeId": "N2-MO-CTX",
     "category": "Mondai 4: 文脈規定",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
     "stem": "悪天候の平日の午後だったため、普段は賑わう商店街も人通りは【　　】だった。",
     "contextPassage": null,
     "options": [
@@ -557,7 +596,8 @@
         "id": "D",
         "text": "のどか"
       }
-    ]
+    ],
+    "contentFingerprint": "b6d2540da36cea35615a3c71077ef33bddeec5a1e0aa4f2bb0b76ab88e5d5a95"
   },
   {
     "id": "N2_06_M4_06",
@@ -566,7 +606,8 @@
     "skill": "Language Knowledge",
     "typeId": "N2-MO-CTX",
     "category": "Mondai 4: 文脈規定",
-    "stem": "想定外のアクシデントに見舞われ、新入社員はすっかり【　　】して指示を待つことしかできなかった。",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "想定外のアクシデントに見舞われ、新入社員はすっかり【　　】、指示を待つことしかできなかった。",
     "contextPassage": null,
     "options": [
       {
@@ -585,7 +626,8 @@
         "id": "D",
         "text": "とまどって"
       }
-    ]
+    ],
+    "contentFingerprint": "1b44684e9e7a049a218aab6abc791d88309fce8e3e7b7c542ad7011fb15b7a76"
   },
   {
     "id": "N2_06_M4_07",
@@ -594,6 +636,7 @@
     "skill": "Language Knowledge",
     "typeId": "N2-MO-CTX",
     "category": "Mondai 4: 文脈規定",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
     "stem": "意見の対立が続いて以来、二人の関係はどこか【　　】していて口数も減った。",
     "contextPassage": null,
     "options": [
@@ -613,7 +656,8 @@
         "id": "D",
         "text": "ぐずぐず"
       }
-    ]
+    ],
+    "contentFingerprint": "820cae664b12aa831795ff377874aaac529f3f1cb3cb749a6572838af42abf6a"
   },
   {
     "id": "N2_06_M5_01",
@@ -622,6 +666,7 @@
     "skill": "Language Knowledge",
     "typeId": "N2-MO-PARA",
     "category": "Mondai 5: 言い換え類義",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
     "stem": "十分な事前準備をしていたため、交渉は【たやすく】成立した。",
     "contextPassage": null,
     "options": [
@@ -641,7 +686,8 @@
         "id": "D",
         "text": "あらかじめ"
       }
-    ]
+    ],
+    "contentFingerprint": "91bed0d416d0f5fdcfe929679d64b9edee2de03da80421c071dda2c5454dffa4"
   },
   {
     "id": "N2_06_M5_02",
@@ -650,6 +696,7 @@
     "skill": "Language Knowledge",
     "typeId": "N2-MO-PARA",
     "category": "Mondai 5: 言い換え類義",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
     "stem": "新規事業を立ち上げるにあたり、チーム全員の【意気込み】が感じられた。",
     "contextPassage": null,
     "options": [
@@ -669,7 +716,8 @@
         "id": "D",
         "text": "警戒"
       }
-    ]
+    ],
+    "contentFingerprint": "41472db007e9ebb3b8a29f89c808460387d9e95988439976fa2acfca5f6bb015"
   },
   {
     "id": "N2_06_M5_03",
@@ -678,6 +726,7 @@
     "skill": "Language Knowledge",
     "typeId": "N2-MO-PARA",
     "category": "Mondai 5: 言い換え類義",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
     "stem": "厳しい叱責を受けた後、彼は一言も話さず【うつむいて】いた。",
     "contextPassage": null,
     "options": [
@@ -697,7 +746,8 @@
         "id": "D",
         "text": "上を向いて"
       }
-    ]
+    ],
+    "contentFingerprint": "6a9f6f7755a8deb59063c5cb1a30ed68804fdc3be8a272d0f8c365cff66c014a"
   },
   {
     "id": "N2_06_M5_04",
@@ -706,6 +756,7 @@
     "skill": "Language Knowledge",
     "typeId": "N2-MO-PARA",
     "category": "Mondai 5: 言い換え類義",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
     "stem": "海外赴任に伴う税務手続きは、専門用語が多く非常に【わずらわしい】。",
     "contextPassage": null,
     "options": [
@@ -725,7 +776,8 @@
         "id": "D",
         "text": "めんどうな"
       }
-    ]
+    ],
+    "contentFingerprint": "e72fb31a9b140445b8eba1addd3c8d2300aef99567fb12b582fca229efade22f"
   },
   {
     "id": "N2_06_M5_05",
@@ -734,6 +786,7 @@
     "skill": "Language Knowledge",
     "typeId": "N2-MO-PARA",
     "category": "Mondai 5: 言い換え類義",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
     "stem": "明日の会議は書類の確認のみですので、私服で参加されても【さしつかえありません】。",
     "contextPassage": null,
     "options": [
@@ -753,7 +806,8 @@
         "id": "D",
         "text": "義務づけられています"
       }
-    ]
+    ],
+    "contentFingerprint": "9bcdc9724dc04b91bdade98394b793526f7413c14b1f90fd46ee9eb75a6481e7"
   },
   {
     "id": "N2_06_M6_01",
@@ -762,6 +816,7 @@
     "skill": "Language Knowledge",
     "typeId": "N2-MO-USE",
     "category": "Mondai 6: 用法",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
     "stem": "【模倣】",
     "contextPassage": null,
     "options": [
@@ -781,7 +836,8 @@
         "id": "D",
         "text": "新商品の模倣を測るため、街頭で大規模なアンケート調査を行った。"
       }
-    ]
+    ],
+    "contentFingerprint": "8f53cd8cc36a020420ec4c8439fefbbf0e90fd2b5cc4c867a694dfe04865b21b"
   },
   {
     "id": "N2_06_M6_02",
@@ -790,6 +846,7 @@
     "skill": "Language Knowledge",
     "typeId": "N2-MO-USE",
     "category": "Mondai 6: 用法",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
     "stem": "【蓄積】",
     "contextPassage": null,
     "options": [
@@ -809,7 +866,8 @@
         "id": "D",
         "text": "会議で出た意見をノートに蓄積し、後で議事録として清書した。"
       }
-    ]
+    ],
+    "contentFingerprint": "14717984eea50d72d5386e85b182745fc540b3b73bf909012dfa58378302a3fb"
   },
   {
     "id": "N2_06_M6_03",
@@ -818,6 +876,7 @@
     "skill": "Language Knowledge",
     "typeId": "N2-MO-USE",
     "category": "Mondai 6: 用法",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
     "stem": "【画期的】",
     "contextPassage": null,
     "options": [
@@ -837,7 +896,8 @@
         "id": "D",
         "text": "画期的な天候の急変により、予定されていた屋外コンサートは中止となった。"
       }
-    ]
+    ],
+    "contentFingerprint": "69877ca4a79a5384b756a1bc16b6f972738604f5cde49c98863a3397b9c417de"
   },
   {
     "id": "N2_06_M6_04",
@@ -846,6 +906,7 @@
     "skill": "Language Knowledge",
     "typeId": "N2-MO-USE",
     "category": "Mondai 6: 用法",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
     "stem": "【妥当】",
     "contextPassage": null,
     "options": [
@@ -865,7 +926,8 @@
         "id": "D",
         "text": "試験で満点を取るという妥当な目標に向かって、毎日猛勉強を続けている。"
       }
-    ]
+    ],
+    "contentFingerprint": "c6c5335d97ab072d287756d9238433fdb49ca25bf9f092eba876290f97307aeb"
   },
   {
     "id": "N2_06_M6_05",
@@ -874,6 +936,7 @@
     "skill": "Language Knowledge",
     "typeId": "N2-MO-USE",
     "category": "Mondai 6: 用法",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
     "stem": "【執拗】",
     "contextPassage": null,
     "options": [
@@ -893,7 +956,8 @@
         "id": "D",
         "text": "最新のスマートフォンの画面は執拗に美しく、細部まで鮮やかに映し出される。"
       }
-    ]
+    ],
+    "contentFingerprint": "677579ab2477ca8d1ba450fb481aad38e13718d63842e5da37ff4a13fe5c105c"
   },
   {
     "id": "N2_06_M7_01",
@@ -902,6 +966,7 @@
     "skill": "Language Knowledge",
     "typeId": "N2-GR-FORM",
     "category": "Mondai 7: 文法形式の判断",
+    "taskInstructions": "次の文の（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
     "stem": "過去の失敗の経験（　　）、今回の新しいプロジェクトではリスク管理を徹底した。",
     "contextPassage": null,
     "options": [
@@ -921,7 +986,8 @@
         "id": "D",
         "text": "を契機に"
       }
-    ]
+    ],
+    "contentFingerprint": "9aa72ccbb0963d12573cd7d4ef2c8619d53ef8e0574d3f3b59b86e2aac50ef14"
   },
   {
     "id": "N2_06_M7_02",
@@ -930,12 +996,13 @@
     "skill": "Language Knowledge",
     "typeId": "N2-GR-FORM",
     "category": "Mondai 7: 文法形式の判断",
-    "stem": "新製品の全国発売（　　）、関係者を集めた大規模な記者会見が開催された。",
+    "taskInstructions": "次の文の（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+    "stem": "来月に控えた新製品の全国発売（　　）、関係者を集めた大規模な記者会見が開催された。",
     "contextPassage": null,
     "options": [
       {
         "id": "A",
-        "text": "に際して"
+        "text": "に応じて"
       },
       {
         "id": "B",
@@ -949,7 +1016,8 @@
         "id": "D",
         "text": "に伴い"
       }
-    ]
+    ],
+    "contentFingerprint": "4055b9a11ae9f1c376455d9da0a70a7b074881bc9e4802209103c61f93943b11"
   },
   {
     "id": "N2_06_M7_03",
@@ -958,6 +1026,7 @@
     "skill": "Language Knowledge",
     "typeId": "N2-GR-FORM",
     "category": "Mondai 7: 文法形式の判断",
+    "taskInstructions": "次の文の（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
     "stem": "連日の猛特訓に耐え抜いた彼のことだから、明日の本番でも実力を発揮する（　　）。",
     "contextPassage": null,
     "options": [
@@ -977,7 +1046,8 @@
         "id": "D",
         "text": "わけがない"
       }
-    ]
+    ],
+    "contentFingerprint": "18722b97988de6d805e685456099c3e36b6a96a1b4c03bdfd62865dd95974295"
   },
   {
     "id": "N2_06_M7_04",
@@ -986,6 +1056,7 @@
     "skill": "Language Knowledge",
     "typeId": "N2-GR-FORM",
     "category": "Mondai 7: 文法形式の判断",
+    "taskInstructions": "次の文の（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
     "stem": "会社の経営方針が大きく転換した以上、我々現場の社員も変革を受け入れ（　　）。",
     "contextPassage": null,
     "options": [
@@ -1005,7 +1076,8 @@
         "id": "D",
         "text": "ざるを得ない"
       }
-    ]
+    ],
+    "contentFingerprint": "1c04e24791ef000b360369361f8a8371b485ae7d083cc91d71dac4ec7f036cf3"
   },
   {
     "id": "N2_06_M7_05",
@@ -1014,6 +1086,7 @@
     "skill": "Language Knowledge",
     "typeId": "N2-GR-FORM",
     "category": "Mondai 7: 文法形式の判断",
+    "taskInstructions": "次の文の（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
     "stem": "彼がこれほどの成功を収めたのは、人知れず流した汗と努力の（　　）。",
     "contextPassage": null,
     "options": [
@@ -1033,7 +1106,8 @@
         "id": "D",
         "text": "ものがある"
       }
-    ]
+    ],
+    "contentFingerprint": "c09ead07708f9069552e692ee4867e59f910c6911247706db111d8a685619602"
   },
   {
     "id": "N2_06_M7_06",
@@ -1042,6 +1116,7 @@
     "skill": "Language Knowledge",
     "typeId": "N2-GR-FORM",
     "category": "Mondai 7: 文法形式の判断",
+    "taskInstructions": "次の文の（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
     "stem": "子供は母親の顔をどこか（　　）に見つめながら、小さな声で嘘をついたことを謝った。",
     "contextPassage": null,
     "options": [
@@ -1061,6 +1136,7 @@
         "id": "D",
         "text": "不安っぽく"
       }
-    ]
+    ],
+    "contentFingerprint": "a171126ae13d34d1be867beba94b37ea0c65771bbaded00311a25afdfadc2fd5"
   }
 ]

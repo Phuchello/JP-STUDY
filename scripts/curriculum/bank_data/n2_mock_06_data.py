@@ -301,7 +301,7 @@ def get_n2_mock_06_sec1_items():
         (
             "N2_06_M4_04", "N2-MO-CTX", "Mondai 4: 文脈規定",
             "日々の健康管理を【　　】にしていると、年齢を重ねてから大きな病気につながる恐れがある。",
-            [("A", "わずか"), ("B", "かすか"), ("C", "おろそか"), ("D", "なだらか")],
+            [("A", "わずか"), ("B", "かすか"), ("C", "なだらか"), ("D", "おろそか")],
             "D",
             "疎か（おろそか - SƠ）: Chểnh mảng, lơ là, không coi trọng (thường dùng trong 健康管理をおろそかにする, 勉強をおろそかにする).",
             {
@@ -324,7 +324,7 @@ def get_n2_mock_06_sec1_items():
         ),
         (
             "N2_06_M4_06", "N2-MO-CTX", "Mondai 4: 文脈規定",
-            "想定外のアクシデントに見舞われ、新入社員はすっかり【　　】して指示を待つことしかできなかった。",
+            "想定外のアクシデントに見舞われ、新入社員はすっかり【　　】、指示を待つことしかできなかった。",
             [("A", "しがみついて"), ("B", "うろたえて"), ("C", "くつろいで"), ("D", "とまどって")],
             "B",
             "うろたえる: Hoảng hốt, lúng túng mất phương hướng vì bất ngờ trước tai họa/sự cố (すっかりうろたえる).",
@@ -544,13 +544,13 @@ def get_n2_mock_06_sec1_items():
         ),
         (
             "N2_06_M7_02", "N2-GR-FORM", "Mondai 7: 文法形式の判断",
-            "新製品の全国発売（　　）、関係者を集めた大規模な記者会見が開催された。",
-            [("A", "に先立ち"), ("B", "に基づいて"), ("C", "に際して"), ("D", "に伴い")],
+            "来月に控えた新製品の全国発売（　　）、関係者を集めた大規模な記者会見が開催された。",
+            [("A", "に先立ち"), ("B", "に基づいて"), ("C", "に応じて"), ("D", "に伴い")],
             "A",
-            "〜に先立ち / 〜に先立って: Trước khi bước vào sự kiện lớn/dự án quan trọng (chuẩn bị trước: 発売に先立ち - trước khi tung sản phẩm ra toàn quốc thì họp báo trước).",
+            "〜に先立ち / 〜に先立って: Trước khi bước vào sự kiện lớn/dự án quan trọng (chuẩn bị trước: 発売に先立ち - trước khi tung sản phẩm ra toàn quốc vào tháng tới thì họp báo trước).",
             {
                 "B": "〜に基づいて: Dựa trên căn cứ pháp luật/dữ liệu chuẩn.",
-                "C": "〜に際して: Vào thời điểm trang trọng diễn ra sự kiện (đồng thời), không biểu đạt ý nghĩa làm trước để chuẩn bị như 先立ち.",
+                "C": "〜に応じて: Phù hợp với, tùy theo (không mang nghĩa thời gian chuẩn bị trước sự kiện).",
                 "D": "〜に伴い: Cùng với sự thay đổi của vế trước dẫn đến thay đổi ở vế sau."
             }
         ),
@@ -605,25 +605,25 @@ def get_n2_mock_06_sec1_items():
         (
             "N2_06_M7_07", "N2-GR-FORM", "Mondai 7: 文法形式の判断",
             "台風による土砂崩れの影響で、一部の鉄道区間では終日運休を（　　）。",
-            [("A", "余儀なくされた"), ("B", "やむを得なかった"), ("C", "強いられた"), ("D", "免れなかった")],
+            [("A", "余儀なくされた"), ("B", "やむを得なかった"), ("C", "余儀なくさせた"), ("D", "免れなかった")],
             "A",
-            "〜を余儀なくされる: Buộc phải rơi vào tình trạng bất đắc dĩ do thiên tai/ngoại cảnh tác động (運休を余儀なくされた).",
+            "〜を余儀なくされる: Bị buộc phải rơi vào tình trạng bất đắc dĩ do thiên tai, ngoại cảnh tác động (運休を余儀なくされた). Thể bị động biểu thị phía đường sắt/hành khách phải gánh chịu.",
             {
                 "B": "〜やむを得なかった: Đi với động từ thể từ điển hoặc câu độc lập, không dùng cấu trúc tân ngữ trực tiếp [N + をやむを得ない].",
-                "C": "〜強いられた: Bị ép buộc bởi áp lực con người (gượng ép), không phải mẫu chuẩn cho giao thông thiên tai như [〜を余儀なくされる].",
+                "C": "〜余儀なくさせた: Thể sai khiến chủ động (khiến cho phải...), sai chủ ngữ vì câu đang là [鉄道区間では...運休を余儀なくされた].",
                 "D": "〜免れなかった: Không tránh khỏi (chỉ trách nhiệm/phạt: 責任を免れない)."
             }
         ),
         (
             "N2_06_M7_08", "N2-GR-FORM", "Mondai 7: 文法形式の判断",
-            "これほど精密で複雑な機械の修理は、専門のエンジニアでなければでき（　　）。",
-            [("A", "っこない"), ("B", "かねない"), ("C", "まい"), ("D", "そうもない")],
+            "「こんなに複雑な機械の修理、素人の僕たちにはでき（　　）よ。」",
+            [("A", "っこない"), ("B", "かねない"), ("C", "がたい"), ("D", "まい")],
             "A",
-            "〜っこない: Tuyệt đối không thể nào... (phủ định hoàn toàn khả năng, mang khẩu khí dứt khoát: できっこない - không đời nào làm được).",
+            "〜っこない: Tuyệt đối không thể nào... (phủ định hoàn toàn khả năng, mang khẩu khí dứt khoát trong khẩu ngữ: できっこないよ - chúng mình dân nghiệp dư thì đời nào mà sửa nổi).",
             {
-                "B": "〜かねない: Có nguy cơ xấu xảy ra.",
-                "C": "〜まい: Quyết không làm / e rằng không (chỉ ý chí người nói: 二度と行くまい).",
-                "D": "〜そうもない: Khó lòng có vẻ làm được (nhẹ nhàng hơn, nhưng cấu trúc dứt khoát khẳng định điều kiện độc quyền 'phải là chuyên gia mới làm được' dùng っこない)."
+                "B": "〜かねない: Có nguy cơ xấu xảy ra (không dùng để phủ định khả năng).",
+                "C": "〜がたい: Khó lòng... (không kết hợp với động từ khả năng できる, chỉ đi với V-masu như 信じがたい, 理解しがたい).",
+                "D": "〜まい: Quyết không làm / e rằng không (văn phong trang trọng/ý chí, không đi tự nhiên với khẩu ngữ thân mật ...よ)."
             }
         ),
         (
@@ -792,7 +792,7 @@ def get_n2_mock_06_sec1_items():
         "かつて先延ばしは単なる怠惰や意志の弱さの表れだと考えられていたが、近年の行動心理学の研究によって、"
         "それが脳の自己防衛反応の一種であることが【 50 】。\n\n"
         "脳は本能的に、大きな負担や失敗への恐れを「脅威」として感知する。難解な課題や期限の迫った仕事に直面した際、"
-        "不快なストレスから逃れようと一時的な安心感を求めた【 51 】、手軽な快楽をもたらすスマートフォンの閲覧などに"
+        "不快なストレスから逃れようと一時的な安心感を求める【 51 】、手軽な快楽をもたらすスマートフォンの閲覧などに"
         "逃避してしまうのである。つまり、先延ばしは時間管理の失敗ではなく、感情の制御をめぐる葛藤に【 52 】。\n\n"
         "では、この心理的メカニズムにどう対処すべきなのだろうか。専門家が推奨するのは、「課題を極限まで小さく分解する」ことだ。"
         "最初の一歩を「机の上にノートを開くだけ」「パソコンを起動するだけ」といった極めて小さな行動に設定すれば、"
@@ -841,12 +841,12 @@ def get_n2_mock_06_sec1_items():
         (
             "N2_06_M9_04", "N2-GR-TEXT", "Mondai 9: 文章の文法",
             "文章中の【 53 】に入る最も適切なものを選びなさい。", m9_passage,
-            [("A", "踏み出すことなしに"), ("B", "踏み出す契機に"), ("C", "踏み出すことなくして"), ("D", "踏み出したあげく")],
+            [("A", "踏み出すことなしに"), ("B", "踏み出す契機に"), ("C", "踏み出すにつれて"), ("D", "踏み出したあげく")],
             "A",
             "〜ことなしに（〜ない）: Nếu không có A thì không thể có B (小さな第一歩を踏み出すことなしに、前進することはあり得ない - nếu không bước đi bước đầu tiên thì không thể nào có sự tiến bộ).",
             {
                 "B": "〜契機に: Lấy làm cơ hội bước ngoặt.",
-                "C": "ことなくして: Cụm ngữ pháp N1 (văn phong cổ, N2 chuẩn là ことなしに).",
+                "C": "〜につれて: Cùng với, càng... càng... (không đi với vị ngữ phủ định tuyệt đối あり得ない).",
                 "D": "〜あげく: Sau một hồi dẫn tới kết cục cay đắng."
             }
         ),

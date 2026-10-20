@@ -1,0 +1,335 @@
+[
+  {
+    "id": "N2_06_M7_07",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「〜を余儀なくされた」は不可抗力の外的事態により望まぬ行動を強いられること。「終日運休を余儀なくされた」。正解はD。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "7cef6865eb199d2355e94c35d7cab1ba8382e3189d7756c23e75fd521a011c51"
+  },
+  {
+    "id": "N2_06_M7_08",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "「〜っこない」は強い主観的否定（絶対にできるはずがない）。「専門のエンジニアでなければできっこない」。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "603ebe536c07ae8c9ce03bc48ceafa15ecb63cc8d94530efaf6754d94823ed07"
+  },
+  {
+    "id": "N2_06_M7_09",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「〜ものの」は事実はそうであるが、実際には期待と異なること。「説明を受けたものの」。正解はD。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "96d691c67dbbcb48fc597b390f023dac6345e0df3bc8745c1760701da118c4db"
+  },
+  {
+    "id": "N2_06_M7_10",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "「〜にあたり」は特別な門出や開始に際して行うこと。「新店舗の開店にあたり」。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "c7e04af2565960999174b5e52c7099f68b7d2b9fea63d1fe0f6490cfa852434f"
+  },
+  {
+    "id": "N2_06_M7_11",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "「〜てなるものか」は絶対にそうさせてたまるかという話者の強い決意。「夢を諦めてなるものか」。正解はD。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "3aa735ec1396da16d1e19ebe8555c7de6f4174a6874a17ec108cc30a173d62ef"
+  },
+  {
+    "id": "N2_06_M7_12",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "「〜につけ」は〜するたびに自然とその感情が胸に蘇ること。「写真を見るにつけ」。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "7948c169399b15e4816946957267200efb1dea6b74eaac7b4f848fcb64faff9e"
+  },
+  {
+    "id": "N2_06_M8_01",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "語順「定年退職を 機に、 かねてから ★念願だった 陶芸を始める ことにした」。星印はB（念願だった）。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "276df02c604e9e0955ac758adb9d179125224d09e26661878b312c192e518634"
+  },
+  {
+    "id": "N2_06_M8_02",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "語順「本場の職人が 手作りした だけあって、 ★このパンの 風味の良さは 格別だ」。星印はD（このパンの）。正解はD。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "f65a5cbe8a0328764ce55a849dd74813ccd2c2d36417709193772d8fe3a77888"
+  },
+  {
+    "id": "N2_06_M8_03",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "語順「関係者との 十分な合意を 得ることなしに、 ★計画を勝手に 進めるわけには いかない」。星印はA（計画を勝手に）。正解はA。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "dfeb97b4154aa1e3925efaafde122d9223e0d51b213d73732ead86c4c7de1073"
+  },
+  {
+    "id": "N2_06_M8_04",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "語順「年齢や性別の 違いにかかわらず、 社内において ★誰もが働きやすい 環境を整えるよう 努めている」。星印はB（誰もが働きやすい）。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "01f13cfe07833a5947902c30255a35ac5193abfeebdae5a95ff9d94475a3cfd9"
+  },
+  {
+    "id": "N2_06_M8_05",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "語順「彼の失言は 国内での 批判を浴びる ★どころか、 国際問題さえ 招きかねない」。星印はC（どころか、）。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "7e0f5d29c5af52ce4385d2d683bbf6e68636ba562e22767a312c3646f50470f5"
+  },
+  {
+    "id": "N2_06_M9_01",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "空欄50。最新の研究によって新たな知見が解明されつつある進行状況を表す「明らかになりつつある」。正解はD。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "a55adf80f35df17594dee0bb084fa6a0f8c447a2b97403f9828579519f5b3cf4"
+  },
+  {
+    "id": "N2_06_M9_02",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "空欄51。過度の効率化を追求しすぎた結果としてのマイナス面を表す「あまり」。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "c542de6c3ca0dc2d8b50ce6f10039a08b72de21a1789aaf766b2f8658c551e4c"
+  },
+  {
+    "id": "N2_06_M9_03",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "空欄52。まさにそれ以外のものではないという強い論理的帰結を表す「ほかならない」。正解はD。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "389732f0ef7a4c50e98e0516afaea5c53c98a40c14f7001d3ab6e30d3315229a"
+  },
+  {
+    "id": "N2_06_M9_04",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "空欄53。〜をすることなしには次の段階へ進めないという不可欠の条件を表す「踏み出すことなしに」。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "bdb404e8f58d901b7879937914e91054e9d2326ca0cdc2c53932a665f51aff5d"
+  },
+  {
+    "id": "N2_06_M9_05",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "空欄54。読者に対して問いかけつつ筆者の見解を穏やかに主張する結び表現「のではないだろうか」。正解はA。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "760edc21da469ee7b3a1467b9f86ddf9b50766fe4af29ac678538b6bfaf3889b"
+  },
+  {
+    "id": "N2_06_M10_01",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "文章1（問いの効用）。他者に問いを投げかけることで対話が深まり、自身の視野が広がる点が筆者の最も強調する効用。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "2fd0ad8434f07dfc1d4b828988bf2122eaa50e73356f531ab9b20cb43f77b617"
+  },
+  {
+    "id": "N2_06_M10_02",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "文章2（都市の緑地効果）。植物の葉が水分を蒸発させる蒸散作用によって周囲の潜熱を奪い気温上昇を抑制する。正解はD。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "2346bdffa4c9a82af6c3839d5afcd86bc8d4d1c92a909092fcf02933428253cd"
+  },
+  {
+    "id": "N2_06_M10_03",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "文章3（損失回避の心理）。人間は同じ金額でも得る喜びより失う苦痛を過大に評価する行動経済学の心理。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "1f078dabefadddbfb2dcc2b0c28bdf175834b1bde19ce8fb84440c5e20720a08"
+  },
+  {
+    "id": "N2_06_M10_04",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "文章4（日本語のオノマトペ）。一語で五感に訴えかけ、論理的説明を超えて豊かな感情的共感を生み出す点。正解はD。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "7308a1797dcc0c24184f7e1277684b219e9be52db32f71816d6fe40875f71487"
+  },
+  {
+    "id": "N2_06_M10_05",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "文章5（セレンディピティの本質）。偶然の発見を掴むためには、日頃から問題意識を持ち徹底的な準備を怠らないことが不可欠。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "595f4be73d0efd4e3819fc7a9ae7a28e7818f6d83d75ddffdd32911ba135a675"
+  },
+  {
+    "id": "N2_06_M11_01",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "第1文（心理的安全性）。心理的安全性とは、自分の弱点や率直な意見を言っても同僚から排斥されない信頼関係。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "fa3b0b94e96568924762e73e7d31e7b4a065ddd6a8d4ba35812b924eb746b908"
+  },
+  {
+    "id": "N2_06_M11_02",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "第1文（減点主義の弊害）。失敗を厳しく糾弾される組織では、保身のために失敗を隠蔽し前例踏襲に走る。正解はD。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "8664ab71bee5a1fec6fca603d167e237a10ea5d91a826dbdbf1395042826210d"
+  },
+  {
+    "id": "N2_06_M11_03",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "第1文（筆者の主張）。真の成果を上げるチームは、仲良しグループではなく高い目標に向けて建設的対立を恐れない。正解はD。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "186a3e3c6eb738becfd25fcc1e99dd4cec952ec621c0b609dc5f0aa5f3394524"
+  },
+  {
+    "id": "N2_06_M11_04",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "第2文（ライフサイクルアセスメント）。EVの環境負荷を測るには、走行時のみならず原料採掘から廃棄までの全体で評価すべき。正解はD。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "b6820622ba63549313157e577a800121525990e63b90457942f67a5b04920b0f"
+  },
+  {
+    "id": "N2_06_M11_05",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "第2文（EV製造の課題）。大容量バッテリーに必要なレアメタルの採掘や精錬過程で大量のエネルギーを消費する点。正解はA。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "ef152e0c05e7596af8947b60701203e15a45da83025121bdef7efec5f0153bb8"
+  },
+  {
+    "id": "N2_06_M11_06",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "第2文（総合的脱炭素化）。車両の電動化推進と並行して、再生可能エネルギーによる発電の脱炭素化を進めることが本質的解決。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "35e9d4400be9ef1b60d0469a12b96f28c47b268f3b10ecd502bd04449c9c86a8"
+  },
+  {
+    "id": "N2_06_M11_07",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "第3文（デジタル読書の特徴）。画面上のテキストではスクロールやリンクによって注意が散漫になりキーワード拾い読みになりやすい。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "c1dc74705a6760772b46cdf590f56ce7e35a59d903f11813b90c804fe0af8e8c"
+  },
+  {
+    "id": "N2_06_M11_08",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "第3文（紙の媒体の利点）。紙の本の厚みやページの空間的位置関係が身体的記憶を助け、論理の構造を深く把握できる。正解はA。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "30a6c6680783a10069d5a04e976a4761cb0885fdec005bb9c94b41a3e1afe558"
+  },
+  {
+    "id": "N2_06_M11_09",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "第3文（媒体の使い分け）。速報や情報収集にはデジタル、論理的思考や内省的思索には紙というように目的に応じて使い分ける。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "76bbcb465adef75fe8f13bf91640e12fdce25e377e9c57f8553f88e010fac0d1"
+  },
+  {
+    "id": "N2_06_M12_01",
+    "blindAnswer": "A",
+    "confidence": "HIGH",
+    "linguisticJustification": "比較文（生成AIと文章作成）。AはAIを思考を広げる有益なパートナーとして歓迎し、BはAIに依存すると表現が画一化し個性が失われると懸念する。正解はA。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "faf2deed5a3f0c30f725ba3576aba1e9536e9a4eae31b9fd75c022a24f69e027"
+  },
+  {
+    "id": "N2_06_M12_02",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "共通認識。両者とも現代の生成AIが極めて高度で自然な文章を即座に生成する技術的水準に達している事実を前提としている。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "182d82ed5d743c96b36982cec51560ef9779096987789eb31c4310a2220ae6f4"
+  },
+  {
+    "id": "N2_06_M13_01",
+    "blindAnswer": "D",
+    "confidence": "HIGH",
+    "linguisticJustification": "長文（用の美）。従来の美意識では鑑賞用の美術品のみが高尚とされ、日常生活の実用品は美の対象から除外されていた。正解はD。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "8421078015449a3e6aff22c23f6b42145858dd2ed70a0a9d10845a75560fb4dc"
+  },
+  {
+    "id": "N2_06_M13_02",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "無銘の職人道具の美しさ。装飾過剰を排し、日々の生活の機能に奉仕する中で無駄が削ぎ落とされ、使い込むことで味わいが増す点。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "a351efcceefb19b0ec71d36ea11671e4cefe57189bec3ec2db6ab33bc2572a15"
+  },
+  {
+    "id": "N2_06_M13_03",
+    "blindAnswer": "C",
+    "confidence": "HIGH",
+    "linguisticJustification": "現代生活への提言。使い捨ての安価な消費を見直し、職人の手で作られたシンプルな道具を手入れしながら長く大切に使い続けること。正解はC。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "bf78bd30b82070df1a3b6d64dfdb2f0ff9090b1a0cda81638911ed7fb2149fc3"
+  },
+  {
+    "id": "N2_06_M14_01",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "事業助成金の条件。既存の中小企業で新規事業展開を図る場合は「区分B」に該当し、募集期間は4月1日〜4月25日。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "27217615161fa212a7addb5f8ac56e69a5cfb910d5d20a50b28697d13686b82e"
+  },
+  {
+    "id": "N2_06_M14_02",
+    "blindAnswer": "B",
+    "confidence": "HIGH",
+    "linguisticJustification": "対象経費の確認。備品購入や懇親会は対象外と明記されており、宣伝広告のための「事業案内チラシの印刷配布費用」が助成対象。正解はB。",
+    "alternativeDefensibleAnswers": [],
+    "concerns": null,
+    "contentFingerprint": "35f23e24122bda6cd44ceec0c190562592c2e0c15fc52e72b652fead3eb68a2d"
+  }
+]

@@ -129,6 +129,13 @@ def evaluate_all_exams(exit_on_failure=False):
     if fp_mismatches > 0:
         gate_failures.append(f"Ledger contains {fp_mismatches} fingerprint mismatches")
 
+    # 3. Verify anti-contamination: check that legacy fake review generator is disabled
+    gen_m6_path = ROOT / "scripts/curriculum/generate_m06_blind_reviews.py"
+    if gen_m6_path.exists():
+        content_m6 = gen_m6_path.read_text(encoding='utf-8')
+        if '"blindAnswer": correct_ans' in content_m6:
+            gate_failures.append("CRITICAL CONTAMINATION: generate_m06_blind_reviews.py still contains fake review generation logic")
+
     # Gate decision
     is_gate_pass = (len(gate_failures) == 0)
 
