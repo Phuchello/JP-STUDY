@@ -8,8 +8,6 @@
     "raw_blind_m02_s1_p1.json": "7d21e577af617e53b69bea6a8b5bd9cb5343c2e59d39f329f971abf5cc6b163d",
     "raw_blind_m02_s1_p2.json": "4358702c557bfb2e8a4326dfe7a2fdf4bde441d4b8c07fe825b50e1df020f414",
     "raw_blind_m02_s2.json": "cc6e931b7c727e8097356c3afeaede8dee7759f30dd6a71fb6ee94f20ed96437",
-    "raw_blind_star_repaired_3.json": "45ab0ba1bad83384bade7f3946a8c3654074a6e5cda6e4b04f3168ac18731ca1",
-    "raw_blind_repaired_5.json": "fbf8d578575f26cc9375d3274d42698b6b0d3a2a84c529bc17956c954386c7ab",
     "raw_blind_m03_s1_p1.json": "2c55619826865e85d5b66f428e4704fc31819de50936d1c3ea93ba056d9659bb",
     "raw_blind_m03_s1_p2.json": "6a348df547cf1981711afed8e94956b4e8ca3cd20daf4fa8d4d73ffd2a91d7b3",
     "raw_blind_m03_s2.json": "32e8799817e6e20c4c0c272c4f85ee41877d336c289122d9b24f3ad0e4e1c7ca",
@@ -20,10 +18,12 @@
     "raw_blind_m05_s1_p2.json": "e0615890cb6c3f5882bb3e18faabdfab025263706cdb93888aff5a2ddc51305f",
     "raw_blind_m05_s2.json": "d242a31f9e3c7c9e092b00d0f6bcf494fe3fd6df3076440cd37fbab967a93a06",
     "raw_blind_m06_s1_p1.json": "c577cc2417af9fba8b19aaac5a13f01b3746eb38a4f2c8d49c20c533e7817799",
-    "raw_blind_m06_s1_p2.json": "1011129da15392e19f78b7d167ccb6d6f3c50ff9f396d5eeebf00533304eb5a0",
-    "raw_blind_m06_s2.json": "b220b9c458bdce2c7e4a2691a10c9ce0907aca0da9a1dec3b0465286fa3d6243"
+    "raw_blind_m06_s1_p2.json": "9d8221b97af5b38d1c1f7176e8bfba63795ca28912c800bbd14501e508d81bd8",
+    "raw_blind_m06_s2.json": "b220b9c458bdce2c7e4a2691a10c9ce0907aca0da9a1dec3b0465286fa3d6243",
+    "raw_blind_star_repaired_3.json": "45ab0ba1bad83384bade7f3946a8c3654074a6e5cda6e4b04f3168ac18731ca1",
+    "raw_blind_repaired_5.json": "fbf8d578575f26cc9375d3274d42698b6b0d3a2a84c529bc17956c954386c7ab"
   },
-  "derivedArtifactHash": "f3acd2bbabc0f075a638db220fb12cdd2e514e7fa173da5e87fae81690b0d6b7",
+  "derivedArtifactHash": "9d70e64531c863aaade8927dad8c69effe6f1d8550d3a1798ad473a1f47df781",
   "totalQuestionsAudited": 630,
   "provenanceBreakdown": {
     "RECONSTRUCTED_FROM_ARCHIVED_INPUT": 287,

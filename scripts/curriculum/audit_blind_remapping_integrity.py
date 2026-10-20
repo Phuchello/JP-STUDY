@@ -20,6 +20,7 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from scripts.curriculum.question_fingerprint import compute_question_fingerprint
+from scripts.curriculum.discovery import discover_active_n2_mocks, load_all_active_mock_questions
 
 def sha256_bytes(b):
     return hashlib.sha256(b).hexdigest()
@@ -61,48 +62,18 @@ def run_integrity_audit():
         raw_p2_path.write_text(orig_p2_path.read_text(encoding='utf-8'), encoding='utf-8')
         print(f"Restored authentic raw blind review: {raw_p2_path.name}")
 
-    # Load raw blind review files (authentic outputs + fresh verified star reviews)
-    raw_files = [
-        ROOT / "qa/raw_blind_m01_s1_p1.json",
-        ROOT / "qa/raw_blind_m01_s1_p2.json",
-        ROOT / "qa/raw_blind_m01_s2.json",
-        ROOT / "qa/raw_blind_m02_s1_p1.json",
-        ROOT / "qa/raw_blind_m02_s1_p2.json",
-        ROOT / "qa/raw_blind_m02_s2.json",
-        ROOT / "qa/raw_blind_star_repaired_3.json",
-        ROOT / "qa/raw_blind_repaired_5.json",
-    ]
-    for rf_m03 in [
-        ROOT / "qa/raw_blind_m03_s1_p1.json",
-        ROOT / "qa/raw_blind_m03_s1_p2.json",
-        ROOT / "qa/raw_blind_m03_s2.json",
-    ]:
-        if rf_m03.exists():
-            raw_files.append(rf_m03)
+    # Load raw blind review files dynamically across all active mock exams
+    discovered_mocks = discover_active_n2_mocks()
+    raw_files = []
+    for m in discovered_mocks:
+        for rf in m.raw_blind_review_paths:
+            if rf.exists():
+                raw_files.append(rf)
 
-    for rf_m04 in [
-        ROOT / "qa/raw_blind_m04_s1_p1.json",
-        ROOT / "qa/raw_blind_m04_s1_p2.json",
-        ROOT / "qa/raw_blind_m04_s2.json",
-    ]:
-        if rf_m04.exists():
-            raw_files.append(rf_m04)
-
-    for rf_m05 in [
-        ROOT / "qa/raw_blind_m05_s1_p1.json",
-        ROOT / "qa/raw_blind_m05_s1_p2.json",
-        ROOT / "qa/raw_blind_m05_s2.json",
-    ]:
-        if rf_m05.exists():
-            raw_files.append(rf_m05)
-
-    for rf_m06 in [
-        ROOT / "qa/raw_blind_m06_s1_p1.json",
-        ROOT / "qa/raw_blind_m06_s1_p2.json",
-        ROOT / "qa/raw_blind_m06_s2.json",
-    ]:
-        if rf_m06.exists():
-            raw_files.append(rf_m06)
+    # Priority overrides: Repaired and independently re-reviewed items take precedence
+    for rf in [ROOT / "qa/raw_blind_star_repaired_3.json", ROOT / "qa/raw_blind_repaired_5.json"]:
+        if rf.exists():
+            raw_files.append(rf)
 
     raw_solves = {}
     raw_file_hashes = {}
@@ -148,22 +119,14 @@ def run_integrity_audit():
 
     # Load actual production exam files
     exam_items = {}
-    mocks_to_load = ['01', '02']
-    if (ROOT / "data/mock_exams/n2_mock_03.json").exists() and (ROOT / "qa/raw_blind_m03_s1_p1.json").exists():
-        mocks_to_load.append('03')
-    if (ROOT / "data/mock_exams/n2_mock_04.json").exists() and (ROOT / "qa/raw_blind_m04_s1_p1.json").exists():
-        mocks_to_load.append('04')
-    if (ROOT / "data/mock_exams/n2_mock_05.json").exists() and (ROOT / "qa/raw_blind_m05_s1_p1.json").exists():
-        mocks_to_load.append('05')
-    if (ROOT / "data/mock_exams/n2_mock_06.json").exists() and (ROOT / "qa/raw_blind_m06_s1_p1.json").exists():
-        mocks_to_load.append('06')
-    for m in mocks_to_load:
-        m_data = json.loads((ROOT / f"data/mock_exams/n2_mock_{m}.json").read_text(encoding='utf-8'))
+    discovered_mocks = discover_active_n2_mocks()
+    for m in discovered_mocks:
+        m_data = json.loads(m.path.read_text(encoding='utf-8'))
         for sec in m_data['sections']:
             for q in sec['items']:
                 exam_items[q['id']] = q
 
-    expected_exam_count = len(mocks_to_load) * 105
+    expected_exam_count = len(discovered_mocks) * 105
     assert len(exam_items) == expected_exam_count, f"Expected {expected_exam_count} exam items, got {len(exam_items)}"
 
     # Audit remapping and explanation consistency

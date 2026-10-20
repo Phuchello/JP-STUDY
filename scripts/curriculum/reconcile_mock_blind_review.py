@@ -21,6 +21,7 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from scripts.curriculum.question_fingerprint import compute_question_fingerprint
+from scripts.curriculum.discovery import discover_active_n2_mocks, load_all_active_mock_questions, verify_downstream_id_consistency
 
 DERIVED_BLIND_FILE = ROOT / "qa/DERIVED_SEMANTIC_BLIND_REVIEWS.json"
 
@@ -254,26 +255,7 @@ def reconcile_all(all_items=None, blind_map=None, write_artifacts=True):
         blind_map = load_derived_blind_results()
 
     if all_items is None:
-        all_items = []
-        mock_nums = ['01', '02']
-        if (ROOT / 'data/mock_exams/n2_mock_03.json').exists():
-            mock_nums.append('03')
-        if (ROOT / 'data/mock_exams/n2_mock_04.json').exists():
-            mock_nums.append('04')
-        if (ROOT / 'data/mock_exams/n2_mock_05.json').exists():
-            mock_nums.append('05')
-        if (ROOT / 'data/mock_exams/n2_mock_06.json').exists():
-            mock_nums.append('06')
-        for m in mock_nums:
-
-            m_id = f"N2-MOCK-{m}"
-            with open(ROOT / f'data/mock_exams/n2_mock_{m}.json', 'r', encoding='utf-8') as f:
-                data = json.load(f)
-            for s_idx, sec in enumerate(data['sections'], 1):
-                for q in sec['items']:
-                    q['examId'] = m_id
-                    q['sectionNum'] = s_idx
-                    all_items.append(q)
+        all_items = load_all_active_mock_questions()
 
     ledger = []
     class_counts = Counter()

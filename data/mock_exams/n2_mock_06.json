@@ -1281,15 +1281,15 @@
             },
             {
               "id": "D",
-              "text": "まい"
+              "text": "ざるを得ない"
             }
           ],
           "correctAnswer": "C",
-          "explanationVi": "〜っこない: Tuyệt đối không thể nào... (phủ định hoàn toàn khả năng, mang khẩu khí dứt khoát trong khẩu ngữ: できっこないよ - chúng mình dân nghiệp dư thì đời nào mà sửa nổi).",
+          "explanationVi": "〜っこない: Tuyệt đối không thể nào... Cấu trúc N2 chuẩn kết hợp với V-masu (でき＋っこない) trong văn giao tiếp thân mật, biểu đạt sự quả quyết dứt khoát không thể xảy ra (できっこないよ = đời nào dân nghiệp dư chúng mình lại sửa nổi chiếc máy phức tạp thế này).",
           "distractorExplanations": {
-            "A": "〜がたい: Khó lòng... (không kết hợp với động từ khả năng できる, chỉ đi với V-masu như 信じがたい, 理解しがたい).",
-            "B": "〜かねない: Có nguy cơ xấu xảy ra (không dùng để phủ định khả năng).",
-            "D": "〜まい: Quyết không làm / e rằng không (văn phong trang trọng/ý chí, không đi tự nhiên với khẩu ngữ thân mật ...よ)."
+            "A": "〜がたい: Khó lòng... Kết hợp với động từ mang tính tâm lý, nhận thức (信じがたい, 理解しがたい, 許しがたい) để biểu thị sự khó khăn về mặt cảm xúc/tinh thần. Không kết hợp với động từ khả năng できる (*できがたい) để chỉ sự bất lực về mặt kỹ thuật/thực tế.",
+            "B": "〜かねない: Có nguy cơ/e rằng sẽ dẫn đến kết quả xấu (事故が起きかねない). Mang nghĩa có khả năng xảy ra điều tiêu cực, không dùng để phủ định hoàn toàn khả năng như っこない.",
+            "D": "〜ざるを得ない: Buộc phải làm gì (không có sự lựa chọn khác). Cấu trúc kết hợp với thể V-nai bỏ nai (行かざるを得ない; する -> せざるを得ない), không kết hợp với động từ khả năng (không tồn tại *できざるを得ない). Ngoài ra mang ý nghĩa bắt buộc phải làm, trái ngược hoàn toàn với ngữ cảnh không thể sửa nổi của người nghiệp dư."
           }
         },
         {

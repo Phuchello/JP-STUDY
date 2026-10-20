@@ -1,6 +1,6 @@
 {
   "workflow": "Content QA & Adversarial Release Gate",
-  "ciRunTimestamp": "2026-10-20T12:58:14.809311+00:00",
+  "ciRunTimestamp": "2026-10-20T13:25:06.778741+00:00",
   "totalItemsAudited": 630,
   "totalAudioTracksVerified": 180,
   "gateStatus": "PASS",
@@ -8,6 +8,18 @@
   "quarantinedCount": 0,
   "reviewRequiredCount": 0,
   "fingerprintMismatches": 0,
+  "idConsistency": {
+    "isConsistent": true,
+    "totalDiscoveredQuestions": 630,
+    "totalReviewRecords": 630,
+    "totalLedgerRecords": 630,
+    "totalDiscoveredMocks": 6,
+    "totalCatalogMocks": 6,
+    "missingInReview": [],
+    "missingInLedger": [],
+    "missingInCatalog": []
+  },
+  "antiContaminationVerified": true,
   "mockBreakdown": {
     "N2-MOCK-01": {
       "totalQuestions": 105,
@@ -19,7 +31,10 @@
       },
       "maxLetterRatio": 0.307,
       "audioReceiptVerified": true,
-      "verifiedAudioTracks": 30
+      "verifiedAudioTracks": 30,
+      "technicalStatus": "TECHNICALLY_READY",
+      "semanticQaStatus": "REVIEW_PROVENANCE_PENDING",
+      "humanPanelStatus": "PENDING_HUMAN_PANEL"
     },
     "N2-MOCK-02": {
       "totalQuestions": 105,
@@ -31,7 +46,10 @@
       },
       "maxLetterRatio": 0.28,
       "audioReceiptVerified": true,
-      "verifiedAudioTracks": 30
+      "verifiedAudioTracks": 30,
+      "technicalStatus": "TECHNICALLY_READY",
+      "semanticQaStatus": "REVIEW_PROVENANCE_PENDING",
+      "humanPanelStatus": "PENDING_HUMAN_PANEL"
     },
     "N2-MOCK-03": {
       "totalQuestions": 105,
@@ -43,7 +61,10 @@
       },
       "maxLetterRatio": 0.267,
       "audioReceiptVerified": true,
-      "verifiedAudioTracks": 30
+      "verifiedAudioTracks": 30,
+      "technicalStatus": "TECHNICALLY_READY",
+      "semanticQaStatus": "REVIEW_PROVENANCE_PENDING",
+      "humanPanelStatus": "PENDING_HUMAN_PANEL"
     },
     "N2-MOCK-04": {
       "totalQuestions": 105,
@@ -55,7 +76,10 @@
       },
       "maxLetterRatio": 0.253,
       "audioReceiptVerified": true,
-      "verifiedAudioTracks": 30
+      "verifiedAudioTracks": 30,
+      "technicalStatus": "TECHNICALLY_READY",
+      "semanticQaStatus": "REVIEW_PROVENANCE_PENDING",
+      "humanPanelStatus": "PENDING_HUMAN_PANEL"
     },
     "N2-MOCK-05": {
       "totalQuestions": 105,
@@ -67,7 +91,10 @@
       },
       "maxLetterRatio": 0.293,
       "audioReceiptVerified": true,
-      "verifiedAudioTracks": 30
+      "verifiedAudioTracks": 30,
+      "technicalStatus": "TECHNICALLY_READY",
+      "semanticQaStatus": "REVIEW_PROVENANCE_PENDING",
+      "humanPanelStatus": "PENDING_HUMAN_PANEL"
     },
     "N2-MOCK-06": {
       "totalQuestions": 105,
@@ -79,7 +106,10 @@
       },
       "maxLetterRatio": 0.253,
       "audioReceiptVerified": true,
-      "verifiedAudioTracks": 30
+      "verifiedAudioTracks": 30,
+      "technicalStatus": "TECHNICALLY_READY",
+      "semanticQaStatus": "INDEPENDENT_AI_REVIEW_VERIFIED",
+      "humanPanelStatus": "PENDING_HUMAN_PANEL"
     }
   },
   "ledgerMetrics": {
@@ -97,8 +127,8 @@
   },
   "evaluationLayers": {
     "aiBlindReviewVerified": true,
-    "humanExpertCertification": "PENDING_PANEL",
+    "humanExpertCertification": "PENDING_HUMAN_PANEL",
     "failClosedPublicationEnforced": true
   },
-  "releaseCertification": "TECHNICALLY_READY · AI_AUDITED"
+  "releaseCertification": "TECHNICALLY_READY · REVIEW_PROVENANCE_GUARDED"
 }

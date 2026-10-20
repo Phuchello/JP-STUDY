@@ -48,7 +48,7 @@ class TestN2Mock06GrammarRegressions(unittest.TestCase):
         self.assertIn("余儀なくさせた", opts.values(), "Grammatical voice trap 余儀なくさせた must be present")
 
     def test_n2_06_m7_08_conversational_potency_and_no_sou_mo_nai(self):
-        """N2_06_M7_08: Must frame emphatic spoken impossibility できっこない without そうもない."""
+        """N2_06_M7_08: Must frame emphatic spoken impossibility できっこない with unambiguous distractors."""
         q = self.items_by_id.get("N2_06_M7_08")
         self.assertIsNotNone(q, "N2_06_M7_08 must exist")
         self.assertIn("でき（　　）よ", q["stem"], "Stem must frame spoken conversational exclamation")
@@ -58,7 +58,9 @@ class TestN2Mock06GrammarRegressions(unittest.TestCase):
         self.assertEqual(opts["C"], "っこない")
         self.assertNotIn("そうもない", opts.values(), "Defensible alternative そうもない must be eliminated")
         self.assertNotIn("そうにない", opts.values())
-        self.assertIn("がたい", opts.values(), "Grammatically invalid distractor がたい must be present")
+        self.assertNotIn("まい", opts.values(), "Ambiguous/defensible negative speculation distractor まい must be replaced")
+        self.assertEqual(opts["D"], "ざるを得ない", "Clearly invalid distractor ざるを得ない must be present at D")
+        self.assertIn("がたい", opts.values(), "Incompatible emotional distractor がたい must be present at A")
 
     def test_n2_06_m9_04_prerequisite_without_kotonakushite(self):
         """N2_06_M9_04: Blank 53 must have 踏み出すことなしに with no competing 踏み出すことなくして."""

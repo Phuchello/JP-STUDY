@@ -20,6 +20,7 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from scripts.curriculum.audit_n2_mock_105_questions import audit_mock_105
+from scripts.curriculum.discovery import discover_active_n2_mocks
 
 def sha256_file(path: Path) -> str:
     h = hashlib.sha256()
@@ -29,17 +30,8 @@ def sha256_file(path: Path) -> str:
     return h.hexdigest()
 
 def discover_active_mocks(mock_exams_dir: Path = None):
-    if mock_exams_dir is None:
-        mock_exams_dir = ROOT / "data/mock_exams"
-    
-    pattern = re.compile(r"^n2_mock_(\d{2})\.json$")
-    discovered = []
-    for f in sorted(mock_exams_dir.iterdir()):
-        if f.is_file() and pattern.match(f.name):
-            m = pattern.match(f.name)
-            mock_num_str = m.group(1)
-            discovered.append((mock_num_str, f))
-    return discovered
+    mocks = discover_active_n2_mocks(mock_exams_dir)
+    return [(m.mock_num, m.path) for m in mocks]
 
 def audit_single_discovered_mock(mock_num_str: str, exam_file: Path, catalog_html: str, bank_js: str):
     mid = f"N2-MOCK-{mock_num_str}"
@@ -84,6 +76,14 @@ def audit_single_discovered_mock(mock_num_str: str, exam_file: Path, catalog_htm
             opts = it.get('options', [])
             if len(opts) != 3:
                 failures.append(f"{mid}: Mondai 4 question {qid} has {len(opts)} options (strictly 3 required)")
+
+    # 5.5 Check Independent Review Evidence
+    raw_p1 = ROOT / f"qa/raw_blind_m{mock_num_str}_s1_p1.json"
+    raw_p2 = ROOT / f"qa/raw_blind_m{mock_num_str}_s1_p2.json"
+    raw_s2 = ROOT / f"qa/raw_blind_m{mock_num_str}_s2.json"
+    if not (raw_p1.exists() and raw_p2.exists() and raw_s2.exists()):
+        missing_revs = [p.name for p in [raw_p1, raw_p2, raw_s2] if not p.exists()]
+        failures.append(f"{mid}: Missing independent review evidence: {', '.join(missing_revs)}")
 
     # 6. Check Audio Manifest and Real MP3 Files
     manifest_file = exam_file.parent / f"n2_mock_{mock_num_str}_audio_manifest.json"
