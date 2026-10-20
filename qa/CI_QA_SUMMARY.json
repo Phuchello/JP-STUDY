@@ -1,6 +1,6 @@
 {
   "workflow": "Content QA & Adversarial Release Gate",
-  "ciRunTimestamp": "2026-10-20T13:25:06.778741+00:00",
+  "ciRunTimestamp": "2026-10-20T13:43:38.098855+00:00",
   "totalItemsAudited": 630,
   "totalAudioTracksVerified": 180,
   "gateStatus": "PASS",
@@ -33,7 +33,11 @@
       "audioReceiptVerified": true,
       "verifiedAudioTracks": 30,
       "technicalStatus": "TECHNICALLY_READY",
-      "semanticQaStatus": "REVIEW_PROVENANCE_PENDING",
+      "semanticQaStatus": "REVIEW_CONTENT_VERSION_VERIFIED",
+      "provenanceBreakdown": {
+        "REVIEW_CONTENT_VERSION_VERIFIED": 105
+      },
+      "keyMismatches": 0,
       "humanPanelStatus": "PENDING_HUMAN_PANEL"
     },
     "N2-MOCK-02": {
@@ -48,7 +52,11 @@
       "audioReceiptVerified": true,
       "verifiedAudioTracks": 30,
       "technicalStatus": "TECHNICALLY_READY",
-      "semanticQaStatus": "REVIEW_PROVENANCE_PENDING",
+      "semanticQaStatus": "REVIEW_CONTENT_VERSION_VERIFIED",
+      "provenanceBreakdown": {
+        "REVIEW_CONTENT_VERSION_VERIFIED": 105
+      },
+      "keyMismatches": 0,
       "humanPanelStatus": "PENDING_HUMAN_PANEL"
     },
     "N2-MOCK-03": {
@@ -63,7 +71,11 @@
       "audioReceiptVerified": true,
       "verifiedAudioTracks": 30,
       "technicalStatus": "TECHNICALLY_READY",
-      "semanticQaStatus": "REVIEW_PROVENANCE_PENDING",
+      "semanticQaStatus": "REVIEW_CONTENT_VERSION_VERIFIED",
+      "provenanceBreakdown": {
+        "REVIEW_CONTENT_VERSION_VERIFIED": 105
+      },
+      "keyMismatches": 0,
       "humanPanelStatus": "PENDING_HUMAN_PANEL"
     },
     "N2-MOCK-04": {
@@ -79,6 +91,10 @@
       "verifiedAudioTracks": 30,
       "technicalStatus": "TECHNICALLY_READY",
       "semanticQaStatus": "REVIEW_PROVENANCE_PENDING",
+      "provenanceBreakdown": {
+        "REVIEW_CONTAMINATED": 105
+      },
+      "keyMismatches": 0,
       "humanPanelStatus": "PENDING_HUMAN_PANEL"
     },
     "N2-MOCK-05": {
@@ -94,6 +110,10 @@
       "verifiedAudioTracks": 30,
       "technicalStatus": "TECHNICALLY_READY",
       "semanticQaStatus": "REVIEW_PROVENANCE_PENDING",
+      "provenanceBreakdown": {
+        "REVIEW_CONTAMINATED": 105
+      },
+      "keyMismatches": 0,
       "humanPanelStatus": "PENDING_HUMAN_PANEL"
     },
     "N2-MOCK-06": {
@@ -109,6 +129,10 @@
       "verifiedAudioTracks": 30,
       "technicalStatus": "TECHNICALLY_READY",
       "semanticQaStatus": "INDEPENDENT_AI_REVIEW_VERIFIED",
+      "provenanceBreakdown": {
+        "INDEPENDENT_REVIEW_ATTESTED": 105
+      },
+      "keyMismatches": 0,
       "humanPanelStatus": "PENDING_HUMAN_PANEL"
     }
   },

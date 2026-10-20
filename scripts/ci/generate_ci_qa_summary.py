@@ -1,19 +1,24 @@
 # -*- coding: utf-8 -*-
 """
-JP-STUDY: Comprehensive CI Quality Assurance Summary Generator & Gate Enforcer
+JP-STUDY: Comprehensive CI Quality Assurance Summary Generator & Gate Enforcer (Phase 6)
 Enforces strict multi-dimensional release verification across all active mock exams:
   1. Dynamic active mock discovery (all n2_mock_[0-9][0-9].json)
   2. Structural completeness (75 Section 1 + 30 Section 2 = 105 items per mock)
   3. Mondai 4 Quick Response 3-choice rule
-  4. Audio manifest and Playwright playback receipt verification
+  4. 5-Tiered acoustic quality and real browser playback verification
   5. Repository-wide anti-contamination verification (zero fake review generators)
-  6. Ledger reconciliation and exact question/review/catalog ID consistency
-  7. Clear status model: TECHNICALLY_READY vs INDEPENDENT_AI_REVIEW_VERIFIED vs REVIEW_PROVENANCE_PENDING
+  6. Per-question provenance derivation (zero exam-ID shortcuts)
+  7. Exact question/review/catalog ID consistency verification
 """
 import hashlib
 import json
 import os
 import sys
+
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+if hasattr(sys.stderr, 'reconfigure'):
+    sys.stderr.reconfigure(encoding='utf-8', errors='replace')
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
@@ -29,6 +34,8 @@ from scripts.curriculum.discovery import (
     verify_downstream_id_consistency
 )
 from scripts.curriculum.anti_contamination_audit import audit_repository_anti_contamination
+from scripts.curriculum.review_provenance import ReviewProvenanceValidator
+from scripts.curriculum.acoustic_assurance import evaluate_audio_track_assurance
 
 def evaluate_all_exams(exit_on_failure=False):
     gate_failures = []
@@ -37,6 +44,18 @@ def evaluate_all_exams(exit_on_failure=False):
     discovered_mocks = discover_active_n2_mocks()
     if not discovered_mocks:
         gate_failures.append("No mock exams discovered in data/mock_exams")
+
+    # Load all derived reviews for provenance lookup
+    derived_reviews_file = ROOT / "qa/DERIVED_SEMANTIC_BLIND_REVIEWS.json"
+    reviews_by_qid = {}
+    review_records = []
+    if derived_reviews_file.exists():
+        derived_data = json.loads(derived_reviews_file.read_text(encoding='utf-8'))
+        review_records = derived_data if isinstance(derived_data, list) else derived_data.get('reviews', [])
+        for r in review_records:
+            qid = r.get('questionId') or r.get('id')
+            if qid:
+                reviews_by_qid[qid] = r
 
     mock_metrics = {}
     total_items = 0
@@ -77,7 +96,7 @@ def evaluate_all_exams(exit_on_failure=False):
                 if opt_count != 3:
                     gate_failures.append(f"{mid}: Item {it['id']} has {opt_count} choices (must be exactly 3)")
 
-        # Verify Audio Manifest and Receipt
+        # Verify Audio Manifest and Receipt with 5-Tier Acoustic Assurance
         manifest_file = m.manifest_path
         receipt_file = m.receipt_path
 
@@ -101,45 +120,90 @@ def evaluate_all_exams(exit_on_failure=False):
                 receipt = json.loads(receipt_file.read_text(encoding='utf-8'))
                 raw_tracks = receipt.get('tracks', {})
                 if isinstance(raw_tracks, dict):
-                    receipt_tracks = list(raw_tracks.values())
+                    receipt_tracks_map = raw_tracks
                 elif isinstance(raw_tracks, list):
-                    receipt_tracks = raw_tracks
+                    receipt_tracks_map = {t.get('questionId', f"{mid}_L{i:02d}"): t for i, t in enumerate(raw_tracks, 1)}
                 else:
-                    receipt_tracks = []
+                    receipt_tracks_map = {}
 
-                if len(receipt_tracks) == 30 and all(
-                    isinstance(t, dict) and (
-                        t.get('browserPlaybackVerified') is True or
-                        t.get('audioHashVerified') is True or
-                        t.get('audioFileExists') is True or
-                        t.get('playbackStatus') == 'VERIFIED' or
-                        t.get('playable') is True or
-                        t.get('status') == 'PLAYBACK_SUCCESS' or
-                        t.get('durationSec', 0) > 0 or
-                        t.get('duration', 0) > 0
-                    ) for t in receipt_tracks
-                ):
+                # Evaluate each track across the 5 acoustic tiers
+                exam_audio_passed = True
+                audio_dir = ROOT / f"docs/audio/n2_mock_{m_num}"
+
+                for t_meta in manifest_items:
+                    t_qid = t_meta.get('id') or t_meta.get('questionId')
+                    rel_url = t_meta.get('audioUrl', '')
+                    mp3_path = ROOT / "docs" / rel_url if rel_url else (audio_dir / f"{t_qid}.mp3")
+                    r_track = receipt_tracks_map.get(t_qid, {})
+
+                    tier_eval = evaluate_audio_track_assurance(
+                        track_meta=t_meta,
+                        receipt_track=r_track,
+                        live_mp3_path=mp3_path
+                    )
+
+                    if not tier_eval["BROWSER_PLAYBACK_VERIFIED"]:
+                        exam_audio_passed = False
+                        gate_failures.append(f"{mid}: Track {t_qid} failed BROWSER_PLAYBACK_VERIFIED: {tier_eval['failureReason']}")
+                    else:
+                        verified_tracks += 1
+
+                if exam_audio_passed and verified_tracks == 30:
                     receipt_verified = True
-                    verified_tracks = 30
                     total_audio_verified += 30
                 else:
-                    gate_failures.append(f"{mid}: Audio playback receipt incomplete or unverified")
+                    gate_failures.append(f"{mid}: Only {verified_tracks}/30 audio tracks verified browser playback")
             else:
                 gate_failures.append(f"{mid}: Missing audio playback receipt {receipt_file.name}")
         else:
             gate_failures.append(f"{mid}: Missing audio manifest {manifest_file.name}")
 
-        # Explicit status model per exam:
-        # Technical Status is TECHNICALLY_READY if 105 items and audio verified
-        is_tech_ready = (len(sec1_items) == 75 and len(sec2_items) == 30 and receipt_verified)
-        
-        # Semantic QA Status:
-        # N2-MOCK-06 has attested independent subagent solves without answer keys
-        # N2-MOCK-01..05 have review provenance pending fresh independent panel
-        if mid == "N2-MOCK-06":
+        # Derive per-exam Semantic QA Status dynamically from per-question review provenance
+        exam_all_items = sec1_items + sec2_items
+        prov_counts = Counter()
+        key_mismatches_count = 0
+
+        for q in exam_all_items:
+            q_copy = dict(q)
+            q_copy['examId'] = mid
+            qid = q['id']
+            curr_fp = compute_question_fingerprint(q_copy)
+            rev = reviews_by_qid.get(qid)
+            
+            p_res = ReviewProvenanceValidator.classify_review_provenance(
+                question_item=q_copy,
+                review_record=rev,
+                current_fingerprint=curr_fp
+            )
+            prov_counts[p_res["status"]] += 1
+
+            # Check for key mismatches
+            if rev:
+                blind_ans = str(rev.get('remappedBlindAnswer') or rev.get('blindAnswer', '')).strip().upper()
+                authored_ans = str(q.get('correctAnswer', '')).strip().upper()
+                if blind_ans and authored_ans and blind_ans != authored_ans:
+                    key_mismatches_count += 1
+
+        # Dynamic Semantic QA Status Derivation:
+        # Zero shortcuts based on examId!
+        if key_mismatches_count > 0:
+            semantic_qa_status = "CONTENT_QA_BLOCKED"
+            gate_failures.append(f"{mid}: Contains {key_mismatches_count} key mismatches")
+        elif prov_counts.get("REVIEW_REQUIRED", 0) > 0:
+            semantic_qa_status = "CONTENT_QA_PENDING"
+        elif prov_counts.get("REVIEW_CONTAMINATED", 0) > 0:
+            semantic_qa_status = "REVIEW_PROVENANCE_PENDING"
+        elif prov_counts.get("INDEPENDENT_REVIEW_ATTESTED", 0) == 105:
             semantic_qa_status = "INDEPENDENT_AI_REVIEW_VERIFIED"
+        elif (prov_counts.get("INDEPENDENT_REVIEW_ATTESTED", 0) + prov_counts.get("REVIEW_EXECUTION_REPORTED_NOT_ATTESTED", 0)) == 105:
+            semantic_qa_status = "REVIEW_EXECUTION_REPORTED_NOT_ATTESTED"
+        elif prov_counts.get("REVIEW_CONTENT_VERSION_VERIFIED", 0) == 105:
+            semantic_qa_status = "REVIEW_CONTENT_VERSION_VERIFIED"
         else:
             semantic_qa_status = "REVIEW_PROVENANCE_PENDING"
+
+        # Technical Status is TECHNICALLY_READY if 105 items and audio verified
+        is_tech_ready = (len(sec1_items) == 75 and len(sec2_items) == 30 and receipt_verified)
 
         mock_metrics[mid] = {
             "totalQuestions": len(sec1_items) + len(sec2_items),
@@ -149,6 +213,8 @@ def evaluate_all_exams(exit_on_failure=False):
             "verifiedAudioTracks": verified_tracks,
             "technicalStatus": "TECHNICALLY_READY" if is_tech_ready else "TECHNICALLY_BLOCKED",
             "semanticQaStatus": semantic_qa_status,
+            "provenanceBreakdown": dict(prov_counts),
+            "keyMismatches": key_mismatches_count,
             "humanPanelStatus": "PENDING_HUMAN_PANEL"
         }
 
@@ -189,12 +255,6 @@ def evaluate_all_exams(exit_on_failure=False):
             gate_failures.append(f"Anti-contamination guard failure: {gf}")
 
     # 4. Verify Downstream ID Consistency across Discovered Items, Review Records, Ledger, and Catalog
-    derived_reviews_file = ROOT / "qa/DERIVED_SEMANTIC_BLIND_REVIEWS.json"
-    review_records = []
-    if derived_reviews_file.exists():
-        derived_data = json.loads(derived_reviews_file.read_text(encoding='utf-8'))
-        review_records = derived_data if isinstance(derived_data, list) else derived_data.get('reviews', [])
-
     consistency_res = verify_downstream_id_consistency(
         discovered_mocks=discovered_mocks,
         review_records=review_records,

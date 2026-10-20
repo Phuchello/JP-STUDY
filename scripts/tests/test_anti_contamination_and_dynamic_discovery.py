@@ -32,6 +32,7 @@ ROOT = Path(__file__).resolve().parents[2]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
+from scripts.curriculum.acoustic_assurance import evaluate_audio_track_assurance
 from scripts.curriculum.question_fingerprint import compute_question_fingerprint
 from scripts.curriculum.reconcile_mock_blind_review import reconcile_question_item
 from scripts.curriculum.blind_review_exporter import validate_sealed_item_purity, FORBIDDEN_KEYS
@@ -126,7 +127,7 @@ class TestAntiContaminationAndDynamicDiscovery(unittest.TestCase):
 
         # Must NOT be certified as independently reviewed
         self.assertFalse(res["isCertified"], "Fabricated review without execution trace must not be certified")
-        self.assertIn(res["status"], ["HISTORICAL_REVIEW_UNVERIFIED", "REVIEW_CONTAMINATED", "REVIEW_PROVENANCE_UNVERIFIED"])
+        self.assertIn(res["status"], ["HISTORICAL_REVIEW_UNVERIFIED", "REVIEW_CONTAMINATED", "REVIEW_PROVENANCE_UNVERIFIED", "REVIEW_PROVENANCE_PENDING", "REVIEW_EXECUTION_REPORTED_NOT_ATTESTED", "REVIEW_CONTENT_VERSION_VERIFIED"])
 
     def test_c2_wrong_authored_answer(self):
         """C2: Deliberately wrong authored answer key must produce KEY_MISMATCH and block release."""
@@ -398,6 +399,97 @@ class TestAntiContaminationAndDynamicDiscovery(unittest.TestCase):
         self.assertTrue(res["passed"], f"Repository anti-contamination audit failed: {res}")
         self.assertEqual(len(res["violations"]), 0)
         self.assertEqual(len(res["guardFailures"]), 0)
+
+    def test_provenance_negative_without_attestation(self):
+        """Negative test: Item without verified execution attestation drops to REVIEW_CONTENT_VERSION_VERIFIED."""
+        res = ReviewProvenanceValidator.classify_review_provenance(
+            question_item=self.sample_q,
+            review_record=self.sample_b_info,
+            current_fingerprint=self.sample_fp,
+            execution_attestation=None
+        )
+        self.assertFalse(res["isCertified"])
+        self.assertEqual(res["status"], "REVIEW_CONTENT_VERSION_VERIFIED")
+
+    def test_provenance_negative_exam_id_shortcut_prevented(self):
+        """Negative test: Setting examId to N2-MOCK-06 or N2-MOCK-07 does not grant attestation."""
+        q_m07 = copy.deepcopy(self.sample_q)
+        q_m07["id"] = "N2_07_Q01"
+        fp_m07 = compute_question_fingerprint(q_m07)
+        rev_m07 = copy.deepcopy(self.sample_b_info)
+        rev_m07["id"] = "N2_07_Q01"
+        rev_m07["contentFingerprint"] = fp_m07
+
+        # Unverified attestation
+        fake_attestation = {"verified": True, "conversationId": "fake-conv-id-not-in-batches"}
+        res = ReviewProvenanceValidator.classify_review_provenance(
+            question_item=q_m07,
+            review_record=rev_m07,
+            current_fingerprint=fp_m07,
+            execution_attestation=fake_attestation
+        )
+        self.assertFalse(res["isCertified"], "Exam ID or unverified attestation must not grant certification")
+        self.assertNotEqual(res["status"], "INDEPENDENT_REVIEW_ATTESTED")
+
+    def test_acoustic_negative_file_only_fails_browser_playback(self):
+        """Negative test: Receipt with only file existence fails BROWSER_PLAYBACK_VERIFIED."""
+        sample_mp3 = self.temp_dir / "sample_track.mp3"
+        sample_mp3.write_bytes(b"dummy mp3 frame data for acoustic tier testing")
+        real_sha = hashlib.sha256(sample_mp3.read_bytes()).hexdigest()
+        track_meta = {"audioSha256": real_sha}
+        receipt_track = {"audioFileExists": True}
+
+        res = evaluate_audio_track_assurance(track_meta, receipt_track, sample_mp3)
+        self.assertFalse(res["BROWSER_PLAYBACK_VERIFIED"])
+        self.assertEqual(res["highestTier"], "AUDIO_HASH_VERIFIED")
+
+    def test_acoustic_negative_duration_only_fails_browser_playback(self):
+        """Negative test: Receipt with only duration does not reach BROWSER_PLAYBACK_VERIFIED."""
+        sample_mp3 = self.temp_dir / "sample_track.mp3"
+        sample_mp3.write_bytes(b"dummy mp3 frame data for acoustic tier testing")
+        real_sha = hashlib.sha256(sample_mp3.read_bytes()).hexdigest()
+        track_meta = {"audioSha256": real_sha}
+        receipt_track = {"audioFileExists": True, "durationSec": 50.0}
+
+        res = evaluate_audio_track_assurance(track_meta, receipt_track, sample_mp3)
+        self.assertFalse(res["BROWSER_PLAYBACK_VERIFIED"])
+        self.assertIn("Browser audio decoding", res["failureReason"] or "")
+
+    def test_acoustic_negative_corrupted_hash(self):
+        """Negative test: Corrupted MP3 hash fails AUDIO_HASH_VERIFIED."""
+        sample_mp3 = self.temp_dir / "sample_track.mp3"
+        sample_mp3.write_bytes(b"dummy mp3 frame data for acoustic tier testing")
+        track_meta = {"audioSha256": "wrong_expected_sha256_deadbeef"}
+        receipt_track = {"audioFileExists": True}
+
+        res = evaluate_audio_track_assurance(track_meta, receipt_track, sample_mp3)
+        self.assertFalse(res["AUDIO_HASH_VERIFIED"])
+        self.assertEqual(res["highestTier"], "AUDIO_FILE_EXISTS")
+
+    def test_acoustic_positive_real_playback_advancement(self):
+        """Positive test: Real playback advancement achieves BROWSER_PLAYBACK_VERIFIED."""
+        sample_mp3 = self.temp_dir / "sample_track.mp3"
+        sample_mp3.write_bytes(b"dummy mp3 frame data for acoustic tier testing")
+        real_sha = hashlib.sha256(sample_mp3.read_bytes()).hexdigest()
+        track_meta = {"audioSha256": real_sha}
+        receipt_track = {
+            "audioSha256": real_sha,
+            "loaded": True,
+            "browserPlaybackVerified": True,
+            "playbackDesktop": {
+                "loaded": True,
+                "played": True,
+                "timeAdvanced": True,
+                "currentTime": 1.25
+            }
+        }
+
+        res = evaluate_audio_track_assurance(track_meta, receipt_track, sample_mp3)
+        self.assertTrue(res["AUDIO_FILE_EXISTS"])
+        self.assertTrue(res["AUDIO_HASH_VERIFIED"])
+        self.assertTrue(res["AUDIO_DECODES"])
+        self.assertTrue(res["BROWSER_PLAYBACK_VERIFIED"])
+        self.assertEqual(res["highestTier"], "BROWSER_PLAYBACK_VERIFIED")
 
 
 if __name__ == "__main__":
