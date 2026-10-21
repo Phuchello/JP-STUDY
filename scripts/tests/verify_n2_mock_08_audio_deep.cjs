@@ -11,6 +11,8 @@ const MANIFEST_PATH = path.join(ROOT, 'data/mock_exams/n2_mock_08_audio_manifest
 const AUDIO_DIR = path.join(ROOT, 'docs/audio/n2_mock_08');
 const REPORT_OUT = path.join(ROOT, 'qa/N2_MOCK_08_DEEP_AUDIO_PLAYBACK_REPORT.md');
 const RECEIPT_OUT = path.join(ROOT, 'qa/N2_MOCK_08_AUDIO_PLAYBACK_RECEIPT.json');
+const SYSTEM_CHROME = 'C:/Program Files/Google/Chrome/Application/chrome.exe';
+const CHROME_PATH = process.env.CHROME_PATH || (process.platform === 'win32' && fs.existsSync(SYSTEM_CHROME) ? SYSTEM_CHROME : undefined);
 
 async function runDeepAudioVerification() {
   console.log('=== DEEP REAL AUDIO PLAYBACK & DECODING VERIFICATION FOR MOCK #08 (30 TRACKS) ===');
@@ -26,7 +28,7 @@ async function runDeepAudioVerification() {
   const itemMap = new Map(examItems.map(item => [item.id, item]));
 
   const browser = await chromium.launch({
-    executablePath: 'C:/Program Files/Google/Chrome/Application/chrome.exe',
+    ...(CHROME_PATH ? { executablePath: CHROME_PATH } : {}),
     headless: true,
     args: ['--autoplay-policy=no-user-gesture-required', '--allow-file-access-from-files']
   });

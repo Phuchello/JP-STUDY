@@ -2,7 +2,7 @@
   "snapshotDate": "2026-10-21",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
   "fileCountExcludingManifest": 954,
-  "totalBytesExcludingManifest": 148014020,
+  "totalBytesExcludingManifest": 148014728,
   "files": [
     {
       "path": ".gitattributes",
@@ -2832,8 +2832,8 @@
     },
     {
       "path": "PROJECT_STATUS.md",
-      "bytes": 43476,
-      "sha256": "6b50aaf54286c244718922c39094175fb5bf9617164e700f63ab2da78746806e",
+      "bytes": 43980,
+      "sha256": "55389d5ca4979ba2f6b650817baf2c3fa53b9959c52356de49f62090ede5eb49",
       "status": "VERIFIED"
     },
     {
@@ -3805,7 +3805,7 @@
     {
       "path": "qa/N2_MOCK_08_AUDIO_PLAYBACK_RECEIPT.json",
       "bytes": 30253,
-      "sha256": "dda0d957f70ff2b23db2871004432cb38e0aa21691b6222f82c7919ffcfc648d",
+      "sha256": "d4f371610a33884ef294547660d9835de2a4fbf575d3819a071f7b8e942fa8c7",
       "status": "VERIFIED"
     },
     {
@@ -3817,7 +3817,7 @@
     {
       "path": "qa/N2_MOCK_08_DEEP_AUDIO_PLAYBACK_REPORT.md",
       "bytes": 4186,
-      "sha256": "2f5feccfdea053b5366e8bb42fc8536231474c973ba83ab0a96f15d3f89c1398",
+      "sha256": "3fdf75970c20f7c30dc3ecfc203c52d7a0d970f7d7499d48e1478b495c92c9ea",
       "status": "VERIFIED"
     },
     {
@@ -5682,8 +5682,8 @@
     },
     {
       "path": "scripts/tests/verify_n2_mock_08_audio_deep.cjs",
-      "bytes": 12273,
-      "sha256": "7755ebf9f68f6754617b3d429fbf5d8d93bd5c5d2a853f8f852a6f596cf091f7",
+      "bytes": 12477,
+      "sha256": "e166438f44c12d399d3e9ce69646ffda9eebfb4ed384c2835c7d986c7a194584",
       "status": "QA_PENDING"
     },
     {
