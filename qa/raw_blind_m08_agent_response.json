@@ -1,0 +1,729 @@
+{
+  "reviewType": "AI-assisted independent blind content QA",
+  "reviewerLabel": "AI-assisted review; not a human or native-speaker review.",
+  "scope": {
+    "filesReviewed": [
+      "JP-STUDY/qa/blind_items_m08_s1_p1.json",
+      "JP-STUDY/qa/blind_items_m08_s1_p2.json",
+      "JP-STUDY/qa/blind_items_m08_s2.json"
+    ],
+    "itemCount": 105,
+    "evaluationCriteria": [
+      "item clarity",
+      "naturalness",
+      "one-best-answer validity",
+      "distractor plausibility",
+      "prompt sufficiency",
+      "N2 level appropriateness"
+    ],
+    "limitations": [
+      "Review is based only on the three sealed JSON files.",
+      "Listening items were reviewed from the supplied transcript text; referenced audio recordings were not independently evaluated."
+    ]
+  },
+  "items": [
+    {
+      "questionId": "N2_08_M1_01",
+      "selectedOption": "C",
+      "confidence": 0.97,
+      "justification": "実証 is read じっしょう."
+    },
+    {
+      "questionId": "N2_08_M1_02",
+      "selectedOption": "B",
+      "confidence": 0.97,
+      "justification": "顕著 is read けんちょ."
+    },
+    {
+      "questionId": "N2_08_M1_03",
+      "selectedOption": "C",
+      "confidence": 0.97,
+      "justification": "膨大 is read ぼうだい."
+    },
+    {
+      "questionId": "N2_08_M1_04",
+      "selectedOption": "D",
+      "confidence": 0.97,
+      "justification": "採択 is read さいたく."
+    },
+    {
+      "questionId": "N2_08_M1_05",
+      "selectedOption": "B",
+      "confidence": 0.97,
+      "justification": "簡潔 is read かんけつ."
+    },
+    {
+      "questionId": "N2_08_M2_01",
+      "selectedOption": "C",
+      "confidence": 0.97,
+      "justification": "A hypothesis is tested/verified: 検証する."
+    },
+    {
+      "questionId": "N2_08_M2_02",
+      "selectedOption": "D",
+      "confidence": 0.97,
+      "justification": "教材を正式に適用する is the intended collocation."
+    },
+    {
+      "questionId": "N2_08_M2_03",
+      "selectedOption": "A",
+      "confidence": 0.97,
+      "justification": "採用 is the correct spelling for selecting recipients."
+    },
+    {
+      "questionId": "N2_08_M2_04",
+      "selectedOption": "B",
+      "confidence": 0.97,
+      "justification": "設計 is the standard spelling for design."
+    },
+    {
+      "questionId": "N2_08_M2_05",
+      "selectedOption": "C",
+      "confidence": 0.97,
+      "justification": "A small drug-effect trial is 実験."
+    },
+    {
+      "questionId": "N2_08_M3_01",
+      "selectedOption": "D",
+      "confidence": 0.99,
+      "justification": "Results not yet announced are 未発表."
+    },
+    {
+      "questionId": "N2_08_M3_02",
+      "selectedOption": "A",
+      "confidence": 0.99,
+      "justification": "A sensor that measures in 0.1-degree units has 高精度."
+    },
+    {
+      "questionId": "N2_08_M3_03",
+      "selectedOption": "B",
+      "confidence": 0.76,
+      "justification": "機械学習 is the standard term for learning from image data; 機械化 is a possible alternate reading of the sentence."
+    },
+    {
+      "questionId": "N2_08_M3_04",
+      "selectedOption": "C",
+      "confidence": 0.99,
+      "justification": "A circuit is redesigned: 再設計する."
+    },
+    {
+      "questionId": "N2_08_M3_05",
+      "selectedOption": "D",
+      "confidence": 0.99,
+      "justification": "The two universities conduct 共同研究."
+    },
+    {
+      "questionId": "N2_08_M4_01",
+      "selectedOption": "A",
+      "confidence": 0.99,
+      "justification": "A one-minute limit calls for a concise conclusion."
+    },
+    {
+      "questionId": "N2_08_M4_02",
+      "selectedOption": "B",
+      "confidence": 0.99,
+      "justification": "Reviewing the setup to identify the cause is 原因を把握する."
+    },
+    {
+      "questionId": "N2_08_M4_03",
+      "selectedOption": "C",
+      "confidence": 0.99,
+      "justification": "Subtitles make content easier to understand: 理解しやすい."
+    },
+    {
+      "questionId": "N2_08_M4_04",
+      "selectedOption": "D",
+      "confidence": 0.99,
+      "justification": "Researchers share data: データを共有する."
+    },
+    {
+      "questionId": "N2_08_M4_05",
+      "selectedOption": "A",
+      "confidence": 0.95,
+      "justification": "Whether results reproduce under other conditions should be considered."
+    },
+    {
+      "questionId": "N2_08_M4_06",
+      "selectedOption": "B",
+      "confidence": 0.98,
+      "justification": "Complex operation explains sluggish adoption: 利用が停滞する."
+    },
+    {
+      "questionId": "N2_08_M4_07",
+      "selectedOption": "C",
+      "confidence": 0.78,
+      "justification": "適切に答える fits checking intent and giving supporting reasons; 簡単に is also plausible."
+    },
+    {
+      "questionId": "N2_08_M5_01",
+      "selectedOption": "D",
+      "confidence": 0.97,
+      "justification": "不十分 means not sufficient."
+    },
+    {
+      "questionId": "N2_08_M5_02",
+      "selectedOption": "A",
+      "confidence": 0.97,
+      "justification": "即座に means immediately, at once."
+    },
+    {
+      "questionId": "N2_08_M5_03",
+      "selectedOption": "B",
+      "confidence": 0.97,
+      "justification": "統一する means make the conditions the same."
+    },
+    {
+      "questionId": "N2_08_M5_04",
+      "selectedOption": "C",
+      "confidence": 0.97,
+      "justification": "導入する means begin using/adopt."
+    },
+    {
+      "questionId": "N2_08_M5_05",
+      "selectedOption": "D",
+      "confidence": 0.97,
+      "justification": "曖昧 means unclear in meaning."
+    },
+    {
+      "questionId": "N2_08_M6_01",
+      "selectedOption": "A",
+      "confidence": 0.97,
+      "justification": "見込む means anticipate/expect a future increase."
+    },
+    {
+      "questionId": "N2_08_M6_02",
+      "selectedOption": "B",
+      "confidence": 0.97,
+      "justification": "妥当 describes a reasonable price judgment."
+    },
+    {
+      "questionId": "N2_08_M6_03",
+      "selectedOption": "C",
+      "confidence": 0.97,
+      "justification": "担う means take responsibility for maintenance."
+    },
+    {
+      "questionId": "N2_08_M6_04",
+      "selectedOption": "D",
+      "confidence": 0.97,
+      "justification": "補う means fill a missing value with additional results."
+    },
+    {
+      "questionId": "N2_08_M6_05",
+      "selectedOption": "A",
+      "confidence": 0.97,
+      "justification": "促す means urge students to cite sources."
+    },
+    {
+      "questionId": "N2_08_M7_01",
+      "selectedOption": "B",
+      "confidence": 0.97,
+      "justification": "Collected answers provide the basis: 回答に基づいて."
+    },
+    {
+      "questionId": "N2_08_M7_02",
+      "selectedOption": "C",
+      "confidence": 0.97,
+      "justification": "The course is open to working adults as well as students: 学生に限らず."
+    },
+    {
+      "questionId": "N2_08_M7_03",
+      "selectedOption": "D",
+      "confidence": 0.97,
+      "justification": "More remote participation accompanied improved connectivity: 改善に伴い."
+    },
+    {
+      "questionId": "N2_08_M7_04",
+      "selectedOption": "A",
+      "confidence": 0.97,
+      "justification": "Visiting is open regardless of major: 専攻にかかわらず."
+    },
+    {
+      "questionId": "N2_08_M7_05",
+      "selectedOption": "B",
+      "confidence": 0.97,
+      "justification": "A mistaken condition risks causing a major misunderstanding: おそれがある."
+    },
+    {
+      "questionId": "N2_08_M7_06",
+      "selectedOption": "C",
+      "confidence": 0.97,
+      "justification": "The app is not necessarily more convenient for every student: というわけではない."
+    },
+    {
+      "questionId": "N2_08_M7_07",
+      "selectedOption": "D",
+      "confidence": 0.98,
+      "justification": "As the research continues, awareness grows: 続けるにつれて."
+    },
+    {
+      "questionId": "N2_08_M7_08",
+      "selectedOption": "A",
+      "confidence": 0.98,
+      "justification": "どころか contrasts the expectation of clarity with greater difficulty."
+    },
+    {
+      "questionId": "N2_08_M7_09",
+      "selectedOption": "B",
+      "confidence": 0.95,
+      "justification": "Multiple institutions reporting the same result supports に違いない."
+    },
+    {
+      "questionId": "N2_08_M7_10",
+      "selectedOption": "C",
+      "confidence": 0.68,
+      "justification": "あげく can mark an undesirable outcome after time-consuming effort; ばかりに also fits causally."
+    },
+    {
+      "questionId": "N2_08_M7_11",
+      "selectedOption": "D",
+      "confidence": 0.99,
+      "justification": "ないことには expresses that accuracy cannot be judged without checking the source."
+    },
+    {
+      "questionId": "N2_08_M7_12",
+      "selectedOption": "A",
+      "confidence": 0.97,
+      "justification": "にしては marks the surprising assignment given that she has only just entered the program."
+    },
+    {
+      "questionId": "N2_08_M8_01",
+      "selectedOption": "C",
+      "confidence": 0.97,
+      "justification": "The order is 結論だけでなく→手順も→読者に伝わるよう→整理して示さ; ★ is C."
+    },
+    {
+      "questionId": "N2_08_M8_02",
+      "selectedOption": "D",
+      "confidence": 0.97,
+      "justification": "The order is 同じ条件で→試料の量を→そろえてから→測定を行う; ★ is D."
+    },
+    {
+      "questionId": "N2_08_M8_03",
+      "selectedOption": "A",
+      "confidence": 0.97,
+      "justification": "The order is 一方的な説明に→ならないよう→学生が質問しやすい→時間を設ける; ★ is A."
+    },
+    {
+      "questionId": "N2_08_M8_04",
+      "selectedOption": "B",
+      "confidence": 0.97,
+      "justification": "The order is 結果をそのまま→受け入れず→人が→誤差の理由を調べることは; ★ is B."
+    },
+    {
+      "questionId": "N2_08_M8_05",
+      "selectedOption": "D",
+      "confidence": 0.97,
+      "justification": "The order is 個人を特定できる情報が→含まれていないか→念のため→別の担当者にも; ★ is D."
+    },
+    {
+      "questionId": "N2_08_M9_01",
+      "selectedOption": "B",
+      "confidence": 0.97,
+      "justification": "The passage rejects the claim that listing jargon alone is sufficient: というわけではない."
+    },
+    {
+      "questionId": "N2_08_M9_02",
+      "selectedOption": "C",
+      "confidence": 0.97,
+      "justification": "Too much simplification creates a risk of losing important conditions: おそれがある."
+    },
+    {
+      "questionId": "N2_08_M9_03",
+      "selectedOption": "D",
+      "confidence": 0.97,
+      "justification": "The explanation should be adjusted to the reader: 読者に応じて."
+    },
+    {
+      "questionId": "N2_08_M9_04",
+      "selectedOption": "A",
+      "confidence": 0.97,
+      "justification": "Explaining the method in advance allows readers to assess validity: 説明しておけば."
+    },
+    {
+      "questionId": "N2_08_M9_05",
+      "selectedOption": "B",
+      "confidence": 0.97,
+      "justification": "Limited time is precisely why ordering the information matters: からこそ."
+    },
+    {
+      "questionId": "N2_08_M10_01",
+      "selectedOption": "C",
+      "confidence": 0.97,
+      "justification": "The notice arrives after instructor review, and errors should be reported promptly."
+    },
+    {
+      "questionId": "N2_08_M10_02",
+      "selectedOption": "D",
+      "confidence": 0.97,
+      "justification": "The shared-data destination can affect other researchers’ access."
+    },
+    {
+      "questionId": "N2_08_M10_03",
+      "selectedOption": "A",
+      "confidence": 0.97,
+      "justification": "Short pauses let participants resolve unclear points during the lecture."
+    },
+    {
+      "questionId": "N2_08_M10_04",
+      "selectedOption": "B",
+      "confidence": 0.97,
+      "justification": "“In use” may reflect the contract’s simultaneous-user limit."
+    },
+    {
+      "questionId": "N2_08_M10_05",
+      "selectedOption": "C",
+      "confidence": 0.97,
+      "justification": "Color/size requests require both a note on the form and the original image file."
+    },
+    {
+      "questionId": "N2_08_M11_01",
+      "selectedOption": "D",
+      "confidence": 0.97,
+      "justification": "Requiring a finished report discouraged students who wanted help before starting."
+    },
+    {
+      "questionId": "N2_08_M11_02",
+      "selectedOption": "A",
+      "confidence": 0.97,
+      "justification": "The staff help students choose their own next step."
+    },
+    {
+      "questionId": "N2_08_M11_03",
+      "selectedOption": "B",
+      "confidence": 0.97,
+      "justification": "The remaining challenge is assessing support outcomes while limiting personal data."
+    },
+    {
+      "questionId": "N2_08_M11_04",
+      "selectedOption": "C",
+      "confidence": 0.97,
+      "justification": "Transcription errors and false confidence mean the text is only a review aid."
+    },
+    {
+      "questionId": "N2_08_M11_05",
+      "selectedOption": "D",
+      "confidence": 0.97,
+      "justification": "The pilot showed mixed effects, and convenience alone is insufficient for a decision."
+    },
+    {
+      "questionId": "N2_08_M11_06",
+      "selectedOption": "A",
+      "confidence": 0.97,
+      "justification": "The researcher wants students to agree on use cases and retention period."
+    },
+    {
+      "questionId": "N2_08_M11_07",
+      "selectedOption": "B",
+      "confidence": 0.97,
+      "justification": "Shared metadata helps recipients understand fields, units, and missing values."
+    },
+    {
+      "questionId": "N2_08_M11_08",
+      "selectedOption": "C",
+      "confidence": 0.97,
+      "justification": "The explanatory guide reduced repeated clarification requests."
+    },
+    {
+      "questionId": "N2_08_M11_09",
+      "selectedOption": "D",
+      "confidence": 0.97,
+      "justification": "The value is informed, appropriate reuse rather than file count."
+    },
+    {
+      "questionId": "N2_08_M12_01",
+      "selectedOption": "A",
+      "confidence": 0.97,
+      "justification": "Both documents support making advance materials useful through an accompanying learning arrangement."
+    },
+    {
+      "questionId": "N2_08_M12_02",
+      "selectedOption": "B",
+      "confidence": 0.97,
+      "justification": "Document B asks for a short review of key points at the start of class."
+    },
+    {
+      "questionId": "N2_08_M13_01",
+      "selectedOption": "C",
+      "confidence": 0.97,
+      "justification": "The author warns against equating technology adoption itself with learning improvement."
+    },
+    {
+      "questionId": "N2_08_M13_02",
+      "selectedOption": "D",
+      "confidence": 0.97,
+      "justification": "Without a clear learning sequence, more materials can make needed information harder to find."
+    },
+    {
+      "questionId": "N2_08_M13_03",
+      "selectedOption": "A",
+      "confidence": 0.97,
+      "justification": "Technology should help learners get information and choose their next action."
+    },
+    {
+      "questionId": "N2_08_M14_01",
+      "selectedOption": "B",
+      "confidence": 0.97,
+      "justification": "The notice requires booking at least three days ahead and a consultation description within 100 characters."
+    },
+    {
+      "questionId": "N2_08_M14_02",
+      "selectedOption": "C",
+      "confidence": 0.97,
+      "justification": "The special preparation rule for statistics consultation is removing personal information."
+    },
+    {
+      "questionId": "N2_08_M1_L01",
+      "selectedOption": "A",
+      "confidence": 0.97,
+      "justification": "First add the participant’s right to withdraw to the explanation."
+    },
+    {
+      "questionId": "N2_08_M1_L02",
+      "selectedOption": "B",
+      "confidence": 0.97,
+      "justification": "She will register the sample type and move the reservation to the morning."
+    },
+    {
+      "questionId": "N2_08_M1_L03",
+      "selectedOption": "C",
+      "confidence": 0.97,
+      "justification": "The first correction is the in-text citation markers."
+    },
+    {
+      "questionId": "N2_08_M1_L04",
+      "selectedOption": "D",
+      "confidence": 0.97,
+      "justification": "She will enlarge the figure labels and explanation, then share the slides."
+    },
+    {
+      "questionId": "N2_08_M1_L05",
+      "selectedOption": "A",
+      "confidence": 0.97,
+      "justification": "After the adviser returns the abstract, check its length and submit it."
+    },
+    {
+      "questionId": "N2_08_M2_L01",
+      "selectedOption": "A",
+      "confidence": 0.97,
+      "justification": "The deadline is 5 p.m. today."
+    },
+    {
+      "questionId": "N2_08_M2_L02",
+      "selectedOption": "B",
+      "confidence": 0.97,
+      "justification": "Watching alone does not count; the student must submit the check quiz."
+    },
+    {
+      "questionId": "N2_08_M2_L03",
+      "selectedOption": "C",
+      "confidence": 0.97,
+      "justification": "They agree to distinguish the lines and explain them in the legend."
+    },
+    {
+      "questionId": "N2_08_M2_L04",
+      "selectedOption": "D",
+      "confidence": 0.97,
+      "justification": "The password-reset route is identity verification at the information center."
+    },
+    {
+      "questionId": "N2_08_M2_L05",
+      "selectedOption": "A",
+      "confidence": 0.97,
+      "justification": "Joint data belong on the lab’s shared server."
+    },
+    {
+      "questionId": "N2_08_M2_L06",
+      "selectedOption": "B",
+      "confidence": 0.97,
+      "justification": "Reservation changes are allowed until noon on the previous day."
+    },
+    {
+      "questionId": "N2_08_M3_L01",
+      "selectedOption": "A",
+      "confidence": 0.97,
+      "justification": "Predictions should be checked against the data used for training."
+    },
+    {
+      "questionId": "N2_08_M3_L02",
+      "selectedOption": "B",
+      "confidence": 0.97,
+      "justification": "The notice explains simultaneous-use limits and what to do when blocked."
+    },
+    {
+      "questionId": "N2_08_M3_L03",
+      "selectedOption": "C",
+      "confidence": 0.97,
+      "justification": "The teacher recommends checking conditions and reproducibility before judging the cause."
+    },
+    {
+      "questionId": "N2_08_M3_L04",
+      "selectedOption": "D",
+      "confidence": 0.97,
+      "justification": "Learning difficulties, rather than view counts, should guide lesson improvement."
+    },
+    {
+      "questionId": "N2_08_M3_L05",
+      "selectedOption": "A",
+      "confidence": 0.97,
+      "justification": "Participants should be told their choices and how their information will be handled."
+    },
+    {
+      "questionId": "N2_08_M4_L01",
+      "selectedOption": "A",
+      "confidence": 0.92,
+      "justification": "Permission is granted if the source is credited."
+    },
+    {
+      "questionId": "N2_08_M4_L02",
+      "selectedOption": "B",
+      "confidence": 0.92,
+      "justification": "The teacher offers to explain the unclear part again."
+    },
+    {
+      "questionId": "N2_08_M4_L03",
+      "selectedOption": "C",
+      "confidence": 0.92,
+      "justification": "The response directly answers the power question with the instruction to leave it on."
+    },
+    {
+      "questionId": "N2_08_M4_L04",
+      "selectedOption": "A",
+      "confidence": 0.92,
+      "justification": "Accepting the task and dividing the remaining presentation role fits the request."
+    },
+    {
+      "questionId": "N2_08_M4_L05",
+      "selectedOption": "B",
+      "confidence": 0.92,
+      "justification": "The answer clarifies that only the assigned section is required."
+    },
+    {
+      "questionId": "N2_08_M4_L06",
+      "selectedOption": "C",
+      "confidence": 0.92,
+      "justification": "The response suggests checking the campus account for off-campus access."
+    },
+    {
+      "questionId": "N2_08_M4_L07",
+      "selectedOption": "A",
+      "confidence": 0.92,
+      "justification": "The speaker agrees to decide the order and proposes a criterion."
+    },
+    {
+      "questionId": "N2_08_M4_L08",
+      "selectedOption": "B",
+      "confidence": 0.92,
+      "justification": "The answer agrees and gives a reason to label the units."
+    },
+    {
+      "questionId": "N2_08_M4_L09",
+      "selectedOption": "C",
+      "confidence": 0.92,
+      "justification": "The response gives an immediate next step before the deadline."
+    },
+    {
+      "questionId": "N2_08_M4_L10",
+      "selectedOption": "A",
+      "confidence": 0.92,
+      "justification": "The reply offers to simplify terminology for new listeners."
+    },
+    {
+      "questionId": "N2_08_M4_L11",
+      "selectedOption": "B",
+      "confidence": 0.92,
+      "justification": "The professor advises checking conditions and procedure before calling the experiment a failure."
+    },
+    {
+      "questionId": "N2_08_M5_L01",
+      "selectedOption": "A",
+      "confidence": 0.97,
+      "justification": "Respondents may choose the method, and the method is recorded for later comparison."
+    },
+    {
+      "questionId": "N2_08_M5_L02",
+      "selectedOption": "B",
+      "confidence": 0.97,
+      "justification": "The teachers keep the video length and revise class materials to use diagrams, examples, and quiz results."
+    },
+    {
+      "questionId": "N2_08_M5_L03",
+      "selectedOption": "C",
+      "confidence": 0.97,
+      "justification": "The main deck gains a slide with comparison conditions while detailed figures go to the supplementary material."
+    }
+  ],
+  "issues": [
+    {
+      "questionIds": [
+        "N2_08_M2_03"
+      ],
+      "severity": "defective distractor",
+      "issue": "Option B “採用う” is a malformed spelling and is immediately eliminable.",
+      "recommendedCorrection": "Replace it with a valid, incorrect kanji form that is a plausible orthographic distractor."
+    },
+    {
+      "questionIds": [
+        "N2_08_M2_04"
+      ],
+      "severity": "defective distractor",
+      "issue": "Option A “設計い” is malformed and does not function as a plausible spelling distractor.",
+      "recommendedCorrection": "Replace it with a valid but incorrect kanji form rather than appending an extraneous kana."
+    },
+    {
+      "questionIds": [
+        "N2_08_M3_03"
+      ],
+      "severity": "possible ambiguity",
+      "issue": "“機械化” can describe mechanizing image-based object identification, so it can also fit the sentence even though 機械学習 is the conventional intended term.",
+      "recommendedCorrection": "Add a clue about learning patterns from training images/data, or replace 機械化 with a less viable fragment."
+    },
+    {
+      "questionIds": [
+        "N2_08_M4_07"
+      ],
+      "severity": "possible ambiguity",
+      "issue": "Both “適切に答えた” and “簡単に答えた” are natural in the stated context; giving reasons does not rule out a simple answer.",
+      "recommendedCorrection": "Replace 簡単 with an adverb that cannot reasonably describe the answer in this context, or add a cue that specifically tests appropriateness."
+    },
+    {
+      "questionIds": [
+        "N2_08_M7_10"
+      ],
+      "severity": "possible ambiguity",
+      "issue": "Both “時間がかかったあげく” and “時間がかかったばかりに” can naturally introduce the resulting delay.",
+      "recommendedCorrection": "Replace ばかりに with a clearly incompatible form, or rewrite the sentence to make the extended process/result relation uniquely select あげく."
+    },
+    {
+      "questionIds": [
+        "N2_08_M6_01",
+        "N2_08_M6_02",
+        "N2_08_M6_03",
+        "N2_08_M6_04",
+        "N2_08_M6_05"
+      ],
+      "severity": "weak distractors",
+      "issue": "Several usage distractors are conspicuously malformed or semantically absurd, making the correct usage obvious without testing the target word well.",
+      "recommendedCorrection": "Use grammatical, contextually plausible sentences that misuse the target word in subtler ways."
+    },
+    {
+      "questionIds": [
+        "N2_08_M4_L01",
+        "N2_08_M4_L02",
+        "N2_08_M4_L03",
+        "N2_08_M4_L04",
+        "N2_08_M4_L05",
+        "N2_08_M4_L06",
+        "N2_08_M4_L07",
+        "N2_08_M4_L08",
+        "N2_08_M4_L09",
+        "N2_08_M4_L10",
+        "N2_08_M4_L11"
+      ],
+      "severity": "weak distractors",
+      "issue": "Most immediate-response distractors are unrelated to the prompt, so the intended response is usually obvious from topic alone.",
+      "recommendedCorrection": "Replace the unrelated replies with natural utterances that address the same situation but are pragmatically incorrect or less appropriate."
+    }
+  ],
+  "overallAssessment": "Most items have clear prompts, sufficient context, one readily identifiable answer, and topics/grammar broadly consistent with N2 practice. The main quality issues are malformed or implausible distractors and the three possible one-best-answer ambiguities listed above."
+}

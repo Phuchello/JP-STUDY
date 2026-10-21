@@ -417,6 +417,9 @@ def audit_mock_105(mock_num=1):
     pass_ling = sum(1 for r in results if 'PASS' in r['linguisticStatus'] or 'VERIFIED' in r['linguisticStatus'] or 'FLAGGED_FOR_HUMAN' in r['linguisticStatus'])
     pass_acoust = sum(1 for r in results if r['acousticStatus'] == 'BROWSER_PLAYBACK_VERIFIED' or 'N/A' in r['acousticStatus'])
     pass_release = sum(1 for r in results if r['overall_tier'] == "TECHNICALLY_READY · AI_AUDITED")
+    review_provenance_path = ROOT / f"qa/N2_MOCK_{mock_id}_BLIND_REVIEW_PROVENANCE.json"
+    review_provenance = json.loads(review_provenance_path.read_text(encoding="utf-8")) if review_provenance_path.exists() else {}
+    non_blocking_notes = review_provenance.get("nonBlockingReviewNotes", {})
 
     print(f"Audit Complete: Structural {pass_struct}/{total_q}, Blind Review {pass_blind}/{total_q}, Linguistic {pass_ling}/{total_q}, Acoustic {pass_acoust}/{total_q}, Release Gate {pass_release}/{total_q}")
 
@@ -424,15 +427,15 @@ def audit_mock_105(mock_num=1):
     lines = [
         f"# JLPT N2 FULL MOCK #{mock_id} — CONTENT QUALITY & RELEASE AUDIT REPORT",
         "",
-        f"**Audit Date:** {date.today().isoformat()}  ",
-        f"**Exam Target:** N2-MOCK-{mock_id} (105 items: 75 Section 1 + 30 Section 2)  ",
-        "**Assurance Model:** 5-Level Evidence Framework with Decoupled 8-Field Schema  ",
-        "**Technical practice status:** `TECHNICALLY_READY · AI_AUDITED`  ",
-        "**Official Certification Status:** `HUMAN_REVIEW_REQUIRED`  ",
+        f"**Audit Date:** {date.today().isoformat()}",
+        f"**Exam Target:** N2-MOCK-{mock_id} (105 items: 75 Section 1 + 30 Section 2)",
+        "**Assurance Model:** 5-Level Evidence Framework with Decoupled 8-Field Schema",
+        "**Technical practice status:** `TECHNICALLY_READY · AI_AUDITED`",
+        "**Official Certification Status:** `HUMAN_REVIEW_REQUIRED`",
         "",
         "> [!IMPORTANT]",
         "> **Transparency & Provenance Notice:**",
-        "> This examination passed automated structure and scoring checks, version-matched sealed-input AI answer reconciliation, and browser playback checks for all 30 MP3 tracks. The M07 answer-map responses do not include full written justifications, and their execution is not independently attested in portable CI evidence. No native-speaker or human-expert review has been completed; this remains a practice resource, not an official or psychometrically calibrated JLPT form.",
+        "> This examination passed automated structure/scoring checks, version-matched sealed-input AI answer reconciliation, and browser playback checks for all 30 MP3 tracks. AI review is not human or native-speaker certification. Listening items were reviewed from their scripts; browser receipts verify asset integrity and playback progression, not pronunciation quality. This is a practice resource, not an official or psychometrically calibrated JLPT form.",
         "",
         "---",
         "",
@@ -470,9 +473,14 @@ def audit_mock_105(mock_num=1):
         f"2. **Acoustic Fidelity:** All 30 listening audio files in `docs/audio/n2_mock_{mock_id}/` decode with finite positive durations and show actual current-time advancement in desktop and mobile Chromium playback, recorded in `qa/N2_MOCK_{mock_id}_AUDIO_PLAYBACK_RECEIPT.json`.",
         "3. **Modality & Security:** Spoken dialogue transcripts and prompt text leaks are completely removed from the test environment during active examination. Mondai 4 enforces the official 3-choice spoken format (`1番`, `2番`, `3番`).",
         "4. **Interruption & State Management:** Session history is saved in `localStorage`. Standalone Section 2 attempts do not inherit stale Section 1 data; drafts older than 4 hours are invalidated.",
-        "5. **Pedagogical Integrity:** Structurally valid items cannot receive `AI_VERIFIED_PASS` without a matching response in the stored version-bound sealed-input review ledger. Confirmed grammatical defects and distractor ambiguities have been repaired, revision-solved, and audited; human/native-speaker certification remains outstanding.",
+        "5. **Pedagogical Integrity:** Structurally valid items cannot receive `AI_VERIFIED_PASS` without a matching response in the stored version-bound sealed-input review ledger. No unresolved answer-key mismatch or multiple-answer permutation was found in this exam. AI review and item difficulty remain subject to qualified human assessment; human/native-speaker certification remains outstanding.",
         ""
     ])
+
+    if non_blocking_notes:
+        lines.extend(["6. **Non-blocking AI review notes:**", ""])
+        lines.extend([f"- `{qid}` — {note}" for qid, note in sorted(non_blocking_notes.items())])
+        lines.append("")
 
     out_report.write_text("\n".join(lines), encoding='utf-8')
     print(f"Report written to {out_report}")

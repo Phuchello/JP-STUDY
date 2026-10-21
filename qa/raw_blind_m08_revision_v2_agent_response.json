@@ -1,0 +1,524 @@
+{
+  "reviewType": "AI-assisted independent blind review",
+  "reviewerLabel": "AI-assisted review; not a human or native-speaker review.",
+  "scope": {
+    "fileReviewed": "JP-STUDY/qa/blind_items_m08_revision_v2.json",
+    "itemCount": 23,
+    "method": "Each item was solved from its sealed stem, context, and options.",
+    "limitations": [
+      "No authoring sources, keys, explanations, prior review response, or raw originals were consulted for this pass.",
+      "Listening M4 items were assessed from the supplied transcripts only; referenced audio recordings were not evaluated."
+    ]
+  },
+  "items": [
+    {
+      "questionId": "N2_08_M2_03",
+      "selectedOption": "A",
+      "confidence": 0.99,
+      "justification": "指示 is the appropriate spelling for giving everyone a new entry procedure.",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_08_M2_04",
+      "selectedOption": "B",
+      "confidence": 0.99,
+      "justification": "交渉 is the standard word for negotiating conditions between universities.",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_08_M3_03",
+      "selectedOption": "B",
+      "confidence": 0.99,
+      "justification": "Learning features from training images and classifying unseen images describes 機械学習.",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_08_M4_07",
+      "selectedOption": "C",
+      "confidence": 0.99,
+      "justification": "Checking intent and giving reasons calls for an appropriate answer; 的外れ is the opposite.",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_08_M6_01",
+      "selectedOption": "A",
+      "confidence": 0.94,
+      "justification": "見込む means to expect or estimate a future increase, as in forecasting more users.",
+      "concerns": [
+        "The three distractors are now grammatical in frame, but each uses 見込む where 見る or 確認する would be expected; this may still make the target conspicuous."
+      ]
+    },
+    {
+      "questionId": "N2_08_M6_02",
+      "selectedOption": "B",
+      "confidence": 0.99,
+      "justification": "妥当 describes a reasonable or justified price setting after comparing cost and effect.",
+      "concerns": [
+        "The wrong choices all pair 妥当 with sensory qualities (touch, smell, taste), so they remain conspicuously weak and make the item easy."
+      ]
+    },
+    {
+      "questionId": "N2_08_M6_03",
+      "selectedOption": "C",
+      "confidence": 0.91,
+      "justification": "担う naturally means being responsible for a continuing function such as equipment maintenance.",
+      "concerns": [
+        "Option A can be read literally as carrying materials on one’s shoulder, so it is not an entirely secure distractor; the wording is also an unusual collocation."
+      ]
+    },
+    {
+      "questionId": "N2_08_M6_04",
+      "selectedOption": "D",
+      "confidence": 0.84,
+      "justification": "補う means make up for missing information; extra-experiment results can supply a missing measurement.",
+      "concerns": [
+        "Option A may be understood as adding a newly received paper to a library’s holdings, leaving a possible alternate reading of 補う. The wrong collocations in B and C are also very conspicuous."
+      ]
+    },
+    {
+      "questionId": "N2_08_M6_05",
+      "selectedOption": "A",
+      "confidence": 0.95,
+      "justification": "促す means urge someone to do something, as the professor urges students to cite sources.",
+      "concerns": [
+        "Options C and D are noticeably odd in their agent/object relationships, so the item may still be easier than intended."
+      ]
+    },
+    {
+      "questionId": "N2_08_M7_10",
+      "selectedOption": "C",
+      "confidence": 0.99,
+      "justification": "あげく follows the prolonged repeated effort and introduces its undesirable final result; につれて does not fit the past-form clause.",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_08_M8_01",
+      "selectedOption": "C",
+      "confidence": 0.96,
+      "justification": "The sequence is 規定を→論文が→満たしているか→著者自身で確認する, making C the starred fragment.",
+      "concerns": [
+        "A marginally interpretable BCAD order places A at ★; the standard natural orders place C there."
+      ]
+    },
+    {
+      "questionId": "N2_08_M8_02",
+      "selectedOption": "C",
+      "confidence": 0.96,
+      "justification": "The sequence is 調査計画が→倫理審査を受けて→承認されている→ことを確認する, so C is at ★.",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_08_M4_L01",
+      "selectedOption": "A",
+      "confidence": 0.96,
+      "justification": "A directly grants permission subject to citing the source; B and C offer presentation advice without answering permission.",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_08_M4_L02",
+      "selectedOption": "B",
+      "confidence": 0.98,
+      "justification": "B asks which part was unclear and offers to explain again, directly addressing the student.",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_08_M4_L03",
+      "selectedOption": "C",
+      "confidence": 0.91,
+      "justification": "C is the only option that directly answers whether the power should be turned off.",
+      "concerns": [
+        "The transcript gives no independent evidence about the device’s actual power policy; C is selected for response fit only."
+      ]
+    },
+    {
+      "questionId": "N2_08_M4_L04",
+      "selectedOption": "A",
+      "confidence": 0.96,
+      "justification": "A accepts the proposed role and sensibly assigns the other speaker the background section.",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_08_M4_L05",
+      "selectedOption": "B",
+      "confidence": 0.96,
+      "justification": "B answers the scope question: the student need only read the assigned section.",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_08_M4_L06",
+      "selectedOption": "C",
+      "confidence": 0.96,
+      "justification": "Checking the campus account is a direct troubleshooting step for off-campus database access.",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_08_M4_L07",
+      "selectedOption": "A",
+      "confidence": 0.96,
+      "justification": "A agrees to set the order and proposes a practical basis for deciding it.",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_08_M4_L08",
+      "selectedOption": "B",
+      "confidence": 0.94,
+      "justification": "B directly agrees and explains why units help readers interpret the values.",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_08_M4_L09",
+      "selectedOption": "C",
+      "confidence": 0.97,
+      "justification": "C responds to the looming deadline with an immediate next step; A and B give secondary procedure details.",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_08_M4_L10",
+      "selectedOption": "A",
+      "confidence": 0.95,
+      "justification": "A offers to revise the explanation for listeners unfamiliar with the terminology.",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_08_M4_L11",
+      "selectedOption": "B",
+      "confidence": 0.99,
+      "justification": "B advises checking conditions and measurement procedure before labeling an unexpected result a failure.",
+      "concerns": []
+    }
+  ],
+  "issues": [
+    {
+      "questionIds": [
+        "N2_08_M6_01"
+      ],
+      "issue": "Distractors remain conspicuously wrong in their collocation with 見込む.",
+      "concern": "The intended sense is clear, but the alternatives may not discriminate well at N2 level."
+    },
+    {
+      "questionIds": [
+        "N2_08_M6_02"
+      ],
+      "issue": "All three distractors use 妥当 with sensory qualities.",
+      "concern": "The repeated semantic mismatch makes the correct option unusually obvious."
+    },
+    {
+      "questionIds": [
+        "N2_08_M6_03"
+      ],
+      "issue": "Option A has a possible literal carrying interpretation.",
+      "concern": "担う can mean shoulder/carry a load, although 資料を担う is an awkward collocation; consider a less viable distractor."
+    },
+    {
+      "questionIds": [
+        "N2_08_M6_04"
+      ],
+      "issue": "Option A may be read as supplementing the library collection with a newly received paper.",
+      "concern": "That reading weakens one-best-answer validity; B and C are also conspicuously odd."
+    },
+    {
+      "questionIds": [
+        "N2_08_M6_05"
+      ],
+      "issue": "Some distractors have conspicuously odd agent/object relationships.",
+      "concern": "The intended correct use remains clear, but the distractors still offer limited discrimination."
+    },
+    {
+      "questionIds": [
+        "N2_08_M4_L03"
+      ],
+      "issue": "The transcript does not establish the device’s actual power policy.",
+      "concern": "C is the only direct response, but factual correctness of the instruction cannot be verified from the transcript."
+    },
+    {
+      "questionIds": [
+        "N2_08_M8_01"
+      ],
+      "issue": "Sentence-ordering audit found a marginal alternate order BCAD.",
+      "concern": "「論文が満たしているか投稿先の規定を著者自身で確認する」 can be understood as checking the guidelines to see whether the paper meets them, but it leaves the object of 満たす implicit. It would place A, rather than C, at ★; the standard natural orders are ABCD and BACD, both with C at ★."
+    }
+  ],
+  "overallAssessment": "The orthography, word formation, context, grammar, and sentence-ordering items have clear intended answers. Most revised M4 responses are natural and the intended response is the most direct. The main remaining quality concern is the M6 usage distractors, especially M6_02 and the possible alternate readings in M6_03/M6_04. Exhaustive permutation checks found two natural orders for each sentence-order item; both natural orders put C at ★. M8_01 also has a marginally inferable BCAD order that puts A at ★.",
+  "permutationAudits": [
+    {
+      "questionId": "N2_08_M8_01",
+      "fragmentKey": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "slotRule": "The ★ slot is the third fragment in each permutation.",
+      "bestNaturalOrder": "A → B → C → D",
+      "bestNaturalSentence": "学会に論文を投稿する前に、投稿先の規定を論文が満たしているか著者自身で確認することが求められる。",
+      "bestStarFragment": "C",
+      "alternativesThatChangeStar": [
+        {
+          "order": "B → C → A → D",
+          "classification": "marginal",
+          "starFragment": "A"
+        }
+      ],
+      "classificationNote": "ABCD and BACD are natural subject/object orders. BCAD is marginally interpretable as checking the guidelines to see whether the paper meets them, but it leaves the object of 満たす implicit and changes ★ to A.",
+      "permutations": [
+        {
+          "order": "A → B → C → D",
+          "classification": "natural",
+          "starFragment": "C"
+        },
+        {
+          "order": "A → B → D → C",
+          "classification": "unnatural",
+          "starFragment": "D"
+        },
+        {
+          "order": "A → C → B → D",
+          "classification": "unnatural",
+          "starFragment": "B"
+        },
+        {
+          "order": "A → C → D → B",
+          "classification": "unnatural",
+          "starFragment": "D"
+        },
+        {
+          "order": "A → D → B → C",
+          "classification": "unnatural",
+          "starFragment": "B"
+        },
+        {
+          "order": "A → D → C → B",
+          "classification": "unnatural",
+          "starFragment": "C"
+        },
+        {
+          "order": "B → A → C → D",
+          "classification": "natural",
+          "starFragment": "C"
+        },
+        {
+          "order": "B → A → D → C",
+          "classification": "unnatural",
+          "starFragment": "D"
+        },
+        {
+          "order": "B → C → A → D",
+          "classification": "marginal",
+          "starFragment": "A"
+        },
+        {
+          "order": "B → C → D → A",
+          "classification": "unnatural",
+          "starFragment": "D"
+        },
+        {
+          "order": "B → D → A → C",
+          "classification": "unnatural",
+          "starFragment": "A"
+        },
+        {
+          "order": "B → D → C → A",
+          "classification": "unnatural",
+          "starFragment": "C"
+        },
+        {
+          "order": "C → A → B → D",
+          "classification": "unnatural",
+          "starFragment": "B"
+        },
+        {
+          "order": "C → A → D → B",
+          "classification": "unnatural",
+          "starFragment": "D"
+        },
+        {
+          "order": "C → B → A → D",
+          "classification": "unnatural",
+          "starFragment": "A"
+        },
+        {
+          "order": "C → B → D → A",
+          "classification": "unnatural",
+          "starFragment": "D"
+        },
+        {
+          "order": "C → D → A → B",
+          "classification": "unnatural",
+          "starFragment": "A"
+        },
+        {
+          "order": "C → D → B → A",
+          "classification": "unnatural",
+          "starFragment": "B"
+        },
+        {
+          "order": "D → A → B → C",
+          "classification": "unnatural",
+          "starFragment": "B"
+        },
+        {
+          "order": "D → A → C → B",
+          "classification": "unnatural",
+          "starFragment": "C"
+        },
+        {
+          "order": "D → B → A → C",
+          "classification": "unnatural",
+          "starFragment": "A"
+        },
+        {
+          "order": "D → B → C → A",
+          "classification": "unnatural",
+          "starFragment": "C"
+        },
+        {
+          "order": "D → C → A → B",
+          "classification": "unnatural",
+          "starFragment": "A"
+        },
+        {
+          "order": "D → C → B → A",
+          "classification": "unnatural",
+          "starFragment": "B"
+        }
+      ]
+    },
+    {
+      "questionId": "N2_08_M8_02",
+      "fragmentKey": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "slotRule": "The ★ slot is the third fragment in each permutation.",
+      "bestNaturalOrder": "B → A → C → D",
+      "bestNaturalSentence": "新しい調査方法を試す前に、調査計画が倫理審査を受けて承認されていることを確認する必要がある。",
+      "bestStarFragment": "C",
+      "alternativesThatChangeStar": [],
+      "classificationNote": "ABCD and BACD are both natural: the ethics-review phrase can precede or follow the subject. Both put C at ★; no other permutation forms a natural or marginal complete sentence.",
+      "permutations": [
+        {
+          "order": "A → B → C → D",
+          "classification": "natural",
+          "starFragment": "C"
+        },
+        {
+          "order": "A → B → D → C",
+          "classification": "unnatural",
+          "starFragment": "D"
+        },
+        {
+          "order": "A → C → B → D",
+          "classification": "unnatural",
+          "starFragment": "B"
+        },
+        {
+          "order": "A → C → D → B",
+          "classification": "unnatural",
+          "starFragment": "D"
+        },
+        {
+          "order": "A → D → B → C",
+          "classification": "unnatural",
+          "starFragment": "B"
+        },
+        {
+          "order": "A → D → C → B",
+          "classification": "unnatural",
+          "starFragment": "C"
+        },
+        {
+          "order": "B → A → C → D",
+          "classification": "natural",
+          "starFragment": "C"
+        },
+        {
+          "order": "B → A → D → C",
+          "classification": "unnatural",
+          "starFragment": "D"
+        },
+        {
+          "order": "B → C → A → D",
+          "classification": "unnatural",
+          "starFragment": "A"
+        },
+        {
+          "order": "B → C → D → A",
+          "classification": "unnatural",
+          "starFragment": "D"
+        },
+        {
+          "order": "B → D → A → C",
+          "classification": "unnatural",
+          "starFragment": "A"
+        },
+        {
+          "order": "B → D → C → A",
+          "classification": "unnatural",
+          "starFragment": "C"
+        },
+        {
+          "order": "C → A → B → D",
+          "classification": "unnatural",
+          "starFragment": "B"
+        },
+        {
+          "order": "C → A → D → B",
+          "classification": "unnatural",
+          "starFragment": "D"
+        },
+        {
+          "order": "C → B → A → D",
+          "classification": "unnatural",
+          "starFragment": "A"
+        },
+        {
+          "order": "C → B → D → A",
+          "classification": "unnatural",
+          "starFragment": "D"
+        },
+        {
+          "order": "C → D → A → B",
+          "classification": "unnatural",
+          "starFragment": "A"
+        },
+        {
+          "order": "C → D → B → A",
+          "classification": "unnatural",
+          "starFragment": "B"
+        },
+        {
+          "order": "D → A → B → C",
+          "classification": "unnatural",
+          "starFragment": "B"
+        },
+        {
+          "order": "D → A → C → B",
+          "classification": "unnatural",
+          "starFragment": "C"
+        },
+        {
+          "order": "D → B → A → C",
+          "classification": "unnatural",
+          "starFragment": "A"
+        },
+        {
+          "order": "D → B → C → A",
+          "classification": "unnatural",
+          "starFragment": "C"
+        },
+        {
+          "order": "D → C → A → B",
+          "classification": "unnatural",
+          "starFragment": "A"
+        },
+        {
+          "order": "D → C → B → A",
+          "classification": "unnatural",
+          "starFragment": "B"
+        }
+      ]
+    }
+  ]
+}

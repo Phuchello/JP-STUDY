@@ -373,10 +373,10 @@ def reconcile_all(all_items=None, blind_map=None, write_artifacts=True):
     report_lines = [
         f"# JP-STUDY — {total_evaluated}-Question Adversarial Blind Review Reconciliation Report",
         "",
-        f"**Target Exams:** {', '.join(f'`{m}`' for m in mock_names)} ({total_evaluated} total items)  ",
+        f"**Target Exams:** {', '.join(f'`{m}`' for m in mock_names)} ({total_evaluated} total items)",
         "**Assurance Framework:** Independent Blind Review & Explicit Provenance Model  ",
         "**Audit Timestamp:** 2026-10-19  ",
-        f"**Completed Solves:** {len(blind_map)} / {total_evaluated}  ",
+        f"**Completed Solves:** {len(blind_map)} / {total_evaluated}",
         "",
         "---",
         "",

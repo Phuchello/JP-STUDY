@@ -1,0 +1,75 @@
+{
+  "reviewDisclosure": "AI-assisted blind review based only on the sealed item JSON; this is not a human or native-speaker review.",
+  "answers": [
+    {
+      "questionId": "N2_08_M6_03",
+      "selectedOption": "C",
+      "confidence": 0.99,
+      "briefJustification": "『装置の保守を担う』は、役割や責任を引き受ける意味の『担う』の自然な用法です。ほかの選択肢は物を運ぶ、説明をする、測定値を書くという文脈で、いずれも『担う』の用法に合いません.",
+      "ambiguityOrWeakness": null
+    },
+    {
+      "questionId": "N2_08_M6_04",
+      "selectedOption": "D",
+      "confidence": 0.99,
+      "briefJustification": "欠けている測定値を追加実験の結果で『補う』というのは、不足分を埋める意味に合う自然な用法です.",
+      "ambiguityOrWeakness": null
+    },
+    {
+      "questionId": "N2_08_M8_01",
+      "selectedOption": "C",
+      "confidence": 0.74,
+      "briefJustification": "最も意図された並びは A-B-C-D（投稿先の規定を／よく／確認したうえで／原稿を整える）で、★は3番目の C『確認したうえで』です。ただし A-C-B-D も自然で、その場合は★が B『よく』になります。設問に一意性の問題があります.",
+      "ambiguityOrWeakness": "A-C-B-D は『投稿先の規定を確認したうえで、よく原稿を整える必要がある』と自然に読め、★の答えが B に変わります。さらに B-A-C-D（『よく投稿先の規定を確認したうえで…』）も自然ですが、★は C のままです。従って、C は最も意図された答えと判断したものの、文の組み立て問題として答えが一意ではありません.",
+      "permutationAudit": {
+        "optionFragments": {
+          "A": "投稿先の規定を",
+          "B": "よく",
+          "C": "確認したうえで",
+          "D": "原稿を整える"
+        },
+        "bestNaturalOrder": "A-B-C-D",
+        "bestNaturalOrderStarFragment": "C: 確認したうえで",
+        "naturalAlternatives": [
+          {
+            "order": "B-A-C-D",
+            "starFragment": "C: 確認したうえで",
+            "reading": "よく投稿先の規定を確認したうえで原稿を整える必要がある。"
+          },
+          {
+            "order": "A-C-B-D",
+            "starFragment": "B: よく",
+            "reading": "投稿先の規定を確認したうえで、よく原稿を整える必要がある。"
+          }
+        ],
+        "all24Permutations": [
+          { "order": "A-B-C-D", "classification": "natural" },
+          { "order": "A-B-D-C", "classification": "unnatural" },
+          { "order": "A-C-B-D", "classification": "natural" },
+          { "order": "A-C-D-B", "classification": "unnatural" },
+          { "order": "A-D-B-C", "classification": "unnatural" },
+          { "order": "A-D-C-B", "classification": "unnatural" },
+          { "order": "B-A-C-D", "classification": "natural" },
+          { "order": "B-A-D-C", "classification": "unnatural" },
+          { "order": "B-C-A-D", "classification": "unnatural" },
+          { "order": "B-C-D-A", "classification": "unnatural" },
+          { "order": "B-D-A-C", "classification": "unnatural" },
+          { "order": "B-D-C-A", "classification": "unnatural" },
+          { "order": "C-A-B-D", "classification": "unnatural" },
+          { "order": "C-A-D-B", "classification": "unnatural" },
+          { "order": "C-B-A-D", "classification": "unnatural" },
+          { "order": "C-B-D-A", "classification": "unnatural" },
+          { "order": "C-D-A-B", "classification": "unnatural" },
+          { "order": "C-D-B-A", "classification": "unnatural" },
+          { "order": "D-A-B-C", "classification": "unnatural" },
+          { "order": "D-A-C-B", "classification": "unnatural" },
+          { "order": "D-B-A-C", "classification": "unnatural" },
+          { "order": "D-B-C-A", "classification": "unnatural" },
+          { "order": "D-C-A-B", "classification": "unnatural" },
+          { "order": "D-C-B-A", "classification": "unnatural" }
+        ],
+        "classificationNote": "The three natural orders allow A to serve as the object of 確認する, C to connect that action to D, and よく to modify either 確認する or 整える. The other orders break that argument or connective relation, or place material after the predicate before 必要がある. No marginal permutation was identified."
+      }
+    }
+  ]
+}

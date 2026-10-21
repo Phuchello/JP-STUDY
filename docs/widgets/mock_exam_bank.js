@@ -111,18 +111,18 @@ window.JP_MOCK_REGISTRY = {
     },
     {
       "mockId": "N2-MOCK-08",
-      "title": "JLPT N2 Full Mock Exam #08",
+      "title": "JLPT N2 Practice Mock Exam #08",
       "level": "N2",
-      "status": "IN_DEVELOPMENT",
-      "badgeText": "IN DEVELOPMENT · ĐANG BIÊN SOẠN",
-      "badgeClass": "status-dev",
+      "status": "FULL_MOCK",
+      "badgeText": "PRACTICE MOCK · AI REVIEWED · 105 CÂU",
+      "badgeClass": "status-ready",
       "durationMinutes": 155,
       "totalQuestions": 105,
       "section1Count": 75,
       "section2Count": 30,
-      "releaseDate": "Kỳ thi 12/2026 (Đợt 2)",
-      "description": "Bộ đề mô phỏng đợt thi số 08. Đang trong quy trình biên soạn chuẩn hóa ngữ cảnh và kịch bản nghe hiểu.",
-      "playable": false
+      "releaseDate": "21/10/2026",
+      "description": "Đề luyện tập nguyên bản về giáo dục, nghiên cứu và công nghệ; có 30 MP3 đã kiểm tra hash và phát trên trình duyệt. AI đã rà đáp án từ bản kịch bản nghe; chưa có chứng nhận chuyên gia/người bản ngữ. Không phải đề JLPT chính thức.",
+      "playable": true
     },
     {
       "mockId": "N2-MOCK-09",
@@ -28504,6 +28504,3795 @@ window.JP_MOCK_DATA = {
             "ja-JP-NanamiNeural",
             "ja-JP-KeitaNeural"
           ]
+        }
+      ]
+    }
+  ]
+},
+  'N2-MOCK-08': {
+  "examId": "N2-MOCK-08",
+  "title": "JLPT N2 Full Mock Exam #08 — Đề thi thử hoàn chỉnh (Kiến thức ngôn ngữ, Đọc hiểu & Nghe hiểu)",
+  "level": "N2",
+  "status": "FULL_MOCK",
+  "durationMinutes": 155,
+  "totalQuestions": 105,
+  "sections": [
+    {
+      "sectionId": "sec-1",
+      "sectionName": "Phần 1: Kiến thức ngôn ngữ & Đọc hiểu (Language Knowledge & Reading)",
+      "durationMinutes": 105,
+      "itemCount": 75,
+      "items": [
+        {
+          "id": "N2_08_M1_01",
+          "typeId": "N2-MO-READ",
+          "category": "Mondai 1: 漢字読み",
+          "stem": "大学の研究班は、新素材の耐久性を実験で【実証】した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "じっしょう"
+            },
+            {
+              "id": "B",
+              "text": "じっせい"
+            },
+            {
+              "id": "C",
+              "text": "じつしょう"
+            },
+            {
+              "id": "D",
+              "text": "じつせい"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "実証（じっしょう）は、事実や効果を証拠によって示すこと。",
+          "distractorExplanations": {
+            "B": "証の音を誤った形です。",
+            "C": "実を『じつ』と読むこの語の誤読です。",
+            "D": "二字の音読みをともに取り違えています。"
+          },
+          "targetWord": "実証",
+          "skill": "Language Knowledge",
+          "explanationVi": "実証（じっしょう）は、事実や効果を証拠によって示すこと。"
+        },
+        {
+          "id": "N2_08_M1_02",
+          "typeId": "N2-MO-READ",
+          "category": "Mondai 1: 漢字読み",
+          "stem": "近年、オンライン授業の活用が【顕著】になってきた。",
+          "options": [
+            {
+              "id": "A",
+              "text": "けんじょ"
+            },
+            {
+              "id": "B",
+              "text": "けんちょ"
+            },
+            {
+              "id": "C",
+              "text": "げんちょ"
+            },
+            {
+              "id": "D",
+              "text": "けんしょう"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "顕著（けんちょ）は、はっきり目立つさま。",
+          "distractorExplanations": {
+            "A": "著は濁らず『ちょ』と読みます。",
+            "C": "顕の読みは『けん』です。",
+            "D": "『けんしょう』では顕著の読みになりません。"
+          },
+          "targetWord": "顕著",
+          "skill": "Language Knowledge",
+          "explanationVi": "顕著（けんちょ）は、はっきり目立つさま。"
+        },
+        {
+          "id": "N2_08_M1_03",
+          "typeId": "N2-MO-READ",
+          "category": "Mondai 1: 漢字読み",
+          "stem": "この分野では、分析対象となるデータが【膨大】だ。",
+          "options": [
+            {
+              "id": "A",
+              "text": "ぼたい"
+            },
+            {
+              "id": "B",
+              "text": "ほうだい"
+            },
+            {
+              "id": "C",
+              "text": "ぼうたい"
+            },
+            {
+              "id": "D",
+              "text": "ぼうだい"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "膨大（ぼうだい）は、量が非常に大きいこと。",
+          "distractorExplanations": {
+            "A": "二字の長音と濁音を落としています。",
+            "B": "膨は『ぼう』と読みます。",
+            "C": "大はこの語で『だい』です。"
+          },
+          "targetWord": "膨大",
+          "skill": "Language Knowledge",
+          "explanationVi": "膨大（ぼうだい）は、量が非常に大きいこと。"
+        },
+        {
+          "id": "N2_08_M1_04",
+          "typeId": "N2-MO-READ",
+          "category": "Mondai 1: 漢字読み",
+          "stem": "審査委員会は、応募された三つの計画を【採択】した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "さいたく"
+            },
+            {
+              "id": "B",
+              "text": "さいだく"
+            },
+            {
+              "id": "C",
+              "text": "さいせき"
+            },
+            {
+              "id": "D",
+              "text": "さいさく"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "採択（さいたく）は、選び取って採用すること。",
+          "distractorExplanations": {
+            "B": "択は濁らず『たく』と読みます。",
+            "C": "択を別の字の音に置き換えています。",
+            "D": "択の音は『さく』ではありません。"
+          },
+          "targetWord": "採択",
+          "skill": "Language Knowledge",
+          "explanationVi": "採択（さいたく）は、選び取って採用すること。"
+        },
+        {
+          "id": "N2_08_M1_05",
+          "typeId": "N2-MO-READ",
+          "category": "Mondai 1: 漢字読み",
+          "stem": "発表資料は、要点を絞って【簡潔】にまとめてください。",
+          "options": [
+            {
+              "id": "A",
+              "text": "かんせつ"
+            },
+            {
+              "id": "B",
+              "text": "かんけつ"
+            },
+            {
+              "id": "C",
+              "text": "けんけつ"
+            },
+            {
+              "id": "D",
+              "text": "かんぜつ"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "簡潔（かんけつ）は、無駄がなく簡単にまとまっているさま。",
+          "distractorExplanations": {
+            "A": "潔の読みを『せつ』とした誤りです。",
+            "C": "簡の音は『かん』です。",
+            "D": "潔はこの語で濁りません。"
+          },
+          "targetWord": "簡潔",
+          "skill": "Language Knowledge",
+          "explanationVi": "簡潔（かんけつ）は、無駄がなく簡単にまとまっているさま。"
+        },
+        {
+          "id": "N2_08_M2_01",
+          "typeId": "N2-MO-ORTH",
+          "category": "Mondai 2: 表記",
+          "stem": "実験を繰り返し、仮説が正しいか【けんしょう】する。",
+          "options": [
+            {
+              "id": "A",
+              "text": "検討"
+            },
+            {
+              "id": "B",
+              "text": "建証"
+            },
+            {
+              "id": "C",
+              "text": "検証"
+            },
+            {
+              "id": "D",
+              "text": "健勝"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "仮説の正しさを確かめるので『検証』です。",
+          "distractorExplanations": {
+            "A": "検討は案をよく考えることです。",
+            "B": "この意味で『建証』とは書きません。",
+            "D": "健勝は健康で元気なことを祝う語です。"
+          },
+          "targetWord": "けんしょう",
+          "skill": "Language Knowledge",
+          "explanationVi": "仮説の正しさを確かめるので『検証』です。"
+        },
+        {
+          "id": "N2_08_M2_02",
+          "typeId": "N2-MO-ORTH",
+          "category": "Mondai 2: 表記",
+          "stem": "開発した教材を来年度から正式に【てきよう】する。",
+          "options": [
+            {
+              "id": "A",
+              "text": "適応"
+            },
+            {
+              "id": "B",
+              "text": "摘用"
+            },
+            {
+              "id": "C",
+              "text": "敵用"
+            },
+            {
+              "id": "D",
+              "text": "適用"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "制度や方法を当てはめる意味は『適用』です。",
+          "distractorExplanations": {
+            "A": "適応は環境などに合わせることです。",
+            "B": "『摘用』はここで使う表記ではありません。",
+            "C": "敵用という表記はありません。"
+          },
+          "targetWord": "てきよう",
+          "skill": "Language Knowledge",
+          "explanationVi": "制度や方法を当てはめる意味は『適用』です。"
+        },
+        {
+          "id": "N2_08_M2_03",
+          "typeId": "N2-MO-ORTH",
+          "category": "Mondai 2: 表記",
+          "stem": "安全管理者は、新しい入室手順を全員に【しじ】した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "指示"
+            },
+            {
+              "id": "B",
+              "text": "支持"
+            },
+            {
+              "id": "C",
+              "text": "私事"
+            },
+            {
+              "id": "D",
+              "text": "師事"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "手順を人に伝えて行わせることは『指示』です。",
+          "distractorExplanations": {
+            "B": "支持は意見や人を支えることです。",
+            "C": "私事は個人的な事柄を指します。",
+            "D": "師事は師と仰ぐ人に弟子入りすることです。"
+          },
+          "targetWord": "しじ",
+          "skill": "Language Knowledge",
+          "explanationVi": "手順を人に伝えて行わせることは『指示』です。"
+        },
+        {
+          "id": "N2_08_M2_04",
+          "typeId": "N2-MO-ORTH",
+          "category": "Mondai 2: 表記",
+          "stem": "研究チームは、測定結果を共同利用する条件について大学間で【こうしょう】を続けた。",
+          "options": [
+            {
+              "id": "A",
+              "text": "校章"
+            },
+            {
+              "id": "B",
+              "text": "交渉"
+            },
+            {
+              "id": "C",
+              "text": "高尚"
+            },
+            {
+              "id": "D",
+              "text": "鉱床"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "条件を話し合って決めることは『交渉』です。",
+          "distractorExplanations": {
+            "A": "校章は学校を表す記章です。",
+            "C": "高尚は考えや趣味の程度が高いことです。",
+            "D": "鉱床は鉱物が集まっている地層です。"
+          },
+          "targetWord": "こうしょう",
+          "skill": "Language Knowledge",
+          "explanationVi": "条件を話し合って決めることは『交渉』です。"
+        },
+        {
+          "id": "N2_08_M2_05",
+          "typeId": "N2-MO-ORTH",
+          "category": "Mondai 2: 表記",
+          "stem": "新しい薬の効果を調べるため、少人数の【じっけん】を行った。",
+          "options": [
+            {
+              "id": "A",
+              "text": "実見"
+            },
+            {
+              "id": "B",
+              "text": "実券"
+            },
+            {
+              "id": "C",
+              "text": "実験"
+            },
+            {
+              "id": "D",
+              "text": "実検"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "条件を設けて効果を調べる活動は『実験』です。",
+          "distractorExplanations": {
+            "A": "実見は実際に見ることを表します。",
+            "B": "実券はこの意味の語ではありません。",
+            "D": "実検という標準表記はありません。"
+          },
+          "targetWord": "じっけん",
+          "skill": "Language Knowledge",
+          "explanationVi": "条件を設けて効果を調べる活動は『実験』です。"
+        },
+        {
+          "id": "N2_08_M3_01",
+          "typeId": "N2-MO-FORM",
+          "category": "Mondai 3: 語形成",
+          "stem": "学会発表の日程が決まっているため、結果はまだ【（　）発表】として扱う。",
+          "options": [
+            {
+              "id": "A",
+              "text": "不"
+            },
+            {
+              "id": "B",
+              "text": "非"
+            },
+            {
+              "id": "C",
+              "text": "無"
+            },
+            {
+              "id": "D",
+              "text": "未"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "まだ発表されていない状態を表す接頭辞は『未』です。",
+          "distractorExplanations": {
+            "A": "不発表はこの意味の一般的な語ではありません。",
+            "B": "非発表は標準的な複合語ではありません。",
+            "C": "無発表とは言いません。"
+          },
+          "targetWord": "未発表",
+          "skill": "Language Knowledge",
+          "explanationVi": "まだ発表されていない状態を表す接頭辞は『未』です。"
+        },
+        {
+          "id": "N2_08_M3_02",
+          "typeId": "N2-MO-FORM",
+          "category": "Mondai 3: 語形成",
+          "stem": "温度を0.1度単位で測れる、【高（　）】のセンサーを開発した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "精度"
+            },
+            {
+              "id": "B",
+              "text": "値"
+            },
+            {
+              "id": "C",
+              "text": "率"
+            },
+            {
+              "id": "D",
+              "text": "度"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "測定の正確さを言う定型語は『高精度』です。",
+          "distractorExplanations": {
+            "B": "高値は値段や数値が高いことです。",
+            "C": "高率は割合の高さで、測定器の正確さではありません。",
+            "D": "高温度は温度が高いという意味になります。"
+          },
+          "targetWord": "高精度",
+          "skill": "Language Knowledge",
+          "explanationVi": "測定の正確さを言う定型語は『高精度』です。"
+        },
+        {
+          "id": "N2_08_M3_03",
+          "typeId": "N2-MO-FORM",
+          "category": "Mondai 3: 語形成",
+          "stem": "学習用の大量の画像から特徴を学び、未登録の画像も分類する【機械（　）】の研究が進んでいる。",
+          "options": [
+            {
+              "id": "A",
+              "text": "化"
+            },
+            {
+              "id": "B",
+              "text": "学習"
+            },
+            {
+              "id": "C",
+              "text": "語"
+            },
+            {
+              "id": "D",
+              "text": "力"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "学習用データから特徴を学び、未知の画像を分類する技術は『機械学習』です。",
+          "distractorExplanations": {
+            "A": "機械化は作業を機械に置き換えることです。",
+            "C": "機械語はコンピューターが直接扱う命令形式です。",
+            "D": "機械力はこの技術を表す名称ではありません。"
+          },
+          "targetWord": "機械学習",
+          "skill": "Language Knowledge",
+          "explanationVi": "学習用データから特徴を学び、未知の画像を分類する技術は『機械学習』です。"
+        },
+        {
+          "id": "N2_08_M3_04",
+          "typeId": "N2-MO-FORM",
+          "category": "Mondai 3: 語形成",
+          "stem": "試作機で見つかった問題を踏まえ、回路を【再（　）】することになった。",
+          "options": [
+            {
+              "id": "A",
+              "text": "構築"
+            },
+            {
+              "id": "B",
+              "text": "建築"
+            },
+            {
+              "id": "C",
+              "text": "設計"
+            },
+            {
+              "id": "D",
+              "text": "作図"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "回路の構造をもう一度考え直すので『再設計』です。",
+          "distractorExplanations": {
+            "A": "再構築は全体を組み直す意味で、回路の設計変更より広い語です。",
+            "B": "建築は建物を建てることです。",
+            "D": "作図は図を描く作業で設計全体とは異なります。"
+          },
+          "targetWord": "再設計",
+          "skill": "Language Knowledge",
+          "explanationVi": "回路の構造をもう一度考え直すので『再設計』です。"
+        },
+        {
+          "id": "N2_08_M3_05",
+          "typeId": "N2-MO-FORM",
+          "category": "Mondai 3: 語形成",
+          "stem": "二つの大学は、感染症の予測モデルについて【共（　）研究】を始めた。",
+          "options": [
+            {
+              "id": "A",
+              "text": "創"
+            },
+            {
+              "id": "B",
+              "text": "通"
+            },
+            {
+              "id": "C",
+              "text": "用"
+            },
+            {
+              "id": "D",
+              "text": "同"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "複数の組織が一緒に進める研究は『共同研究』です。",
+          "distractorExplanations": {
+            "A": "共創は新しい価値を一緒に作る語ですが、『共創研究』とは通常言いません。",
+            "B": "共通研究は同じ性質を持つ研究を意味し、共同で行う意味とは異なります。",
+            "C": "共用研究は一般的な表現ではありません。"
+          },
+          "targetWord": "共同研究",
+          "skill": "Language Knowledge",
+          "explanationVi": "複数の組織が一緒に進める研究は『共同研究』です。"
+        },
+        {
+          "id": "N2_08_M4_01",
+          "typeId": "N2-MO-CONT",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "発表時間が残り一分しかなかったため、演者は結論を（　）述べた。",
+          "options": [
+            {
+              "id": "A",
+              "text": "簡潔に"
+            },
+            {
+              "id": "B",
+              "text": "一律に"
+            },
+            {
+              "id": "C",
+              "text": "率直に"
+            },
+            {
+              "id": "D",
+              "text": "無断で"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "限られた時間で要点を短く述べるので『簡潔に』です。",
+          "distractorExplanations": {
+            "B": "一律には全員に同じ扱いをすることです。",
+            "C": "率直には隠さず正直にという意味で、長さを短くする語ではありません。",
+            "D": "無断では許可なく行う意味で不適切です。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "限られた時間で要点を短く述べるので『簡潔に』です。"
+        },
+        {
+          "id": "N2_08_M4_02",
+          "typeId": "N2-MO-CONT",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "測定値にばらつきが出たため、装置の設定を見直して原因を（　）した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "発表"
+            },
+            {
+              "id": "B",
+              "text": "把握"
+            },
+            {
+              "id": "C",
+              "text": "採択"
+            },
+            {
+              "id": "D",
+              "text": "促進"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "原因をつかむという意味で『把握』が適切です。",
+          "distractorExplanations": {
+            "A": "発表は人に知らせる行為です。",
+            "C": "採択は候補から選ぶことです。",
+            "D": "促進は進みを速めることです。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "原因をつかむという意味で『把握』が適切です。"
+        },
+        {
+          "id": "N2_08_M4_03",
+          "typeId": "N2-MO-CONT",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "講義の動画は、専門用語に字幕を付けることで、内容をより（　）しやすくした。",
+          "options": [
+            {
+              "id": "A",
+              "text": "記録"
+            },
+            {
+              "id": "B",
+              "text": "保存"
+            },
+            {
+              "id": "C",
+              "text": "理解"
+            },
+            {
+              "id": "D",
+              "text": "判断"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "内容を分かるようにするので『理解しやすく』です。",
+          "distractorExplanations": {
+            "A": "記録は後から確認できる形に残すことです。",
+            "B": "保存はデータを保管することです。",
+            "D": "判断は情報から決定することです。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "内容を分かるようにするので『理解しやすく』です。"
+        },
+        {
+          "id": "N2_08_M4_04",
+          "typeId": "N2-MO-CONT",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "共同研究では、研究者同士がデータを（　）し、分析方法を確認した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "削除"
+            },
+            {
+              "id": "B",
+              "text": "回収"
+            },
+            {
+              "id": "C",
+              "text": "拒否"
+            },
+            {
+              "id": "D",
+              "text": "共有"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "双方で同じ情報を使えるようにするので『共有』です。",
+          "distractorExplanations": {
+            "A": "削除はデータを消すことで文意に合いません。",
+            "B": "回収は配った物を集め直すことです。",
+            "C": "拒否は受け入れないことです。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "双方で同じ情報を使えるようにするので『共有』です。"
+        },
+        {
+          "id": "N2_08_M4_05",
+          "typeId": "N2-MO-CONT",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "結果を急いで公表するより、別の条件でも再現できるか（　）することが重要だ。",
+          "options": [
+            {
+              "id": "A",
+              "text": "検討"
+            },
+            {
+              "id": "B",
+              "text": "無視"
+            },
+            {
+              "id": "C",
+              "text": "省略"
+            },
+            {
+              "id": "D",
+              "text": "断念"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "別条件で確かめる必要を考えるので『検討』です。",
+          "distractorExplanations": {
+            "B": "無視は考慮しないことです。",
+            "C": "省略は一部を飛ばすことです。",
+            "D": "断念はあきらめることで、検証前には当たりません。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "別条件で確かめる必要を考えるので『検討』です。"
+        },
+        {
+          "id": "N2_08_M4_06",
+          "typeId": "N2-MO-CONT",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "新しい学習システムを導入したが、操作が複雑で利用が（　）している。",
+          "options": [
+            {
+              "id": "A",
+              "text": "定着"
+            },
+            {
+              "id": "B",
+              "text": "停滞"
+            },
+            {
+              "id": "C",
+              "text": "進出"
+            },
+            {
+              "id": "D",
+              "text": "集中"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "利用の広がりが止まりがちなので『停滞』です。",
+          "distractorExplanations": {
+            "A": "定着は根付いて安定することです。",
+            "C": "進出は新しい市場などへ出ていくことです。",
+            "D": "集中は一か所に集まることです。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "利用の広がりが止まりがちなので『停滞』です。"
+        },
+        {
+          "id": "N2_08_M4_07",
+          "typeId": "N2-MO-CONT",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "発表者は質問の意図を確かめてから、根拠を示しつつ（　）に答えた。",
+          "options": [
+            {
+              "id": "A",
+              "text": "急激"
+            },
+            {
+              "id": "B",
+              "text": "偶然"
+            },
+            {
+              "id": "C",
+              "text": "適切"
+            },
+            {
+              "id": "D",
+              "text": "的外れ"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "質問の意図と根拠に合った応答なので『適切に』です。",
+          "distractorExplanations": {
+            "A": "急激は変化の速さを表し、答え方には使いません。",
+            "B": "偶然はたまたま起きることで、意図を確かめた応答とは合いません。",
+            "D": "的外れは意図から外れた応答で、文の前半と矛盾します。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "質問の意図と根拠に合った応答なので『適切に』です。"
+        },
+        {
+          "id": "N2_08_M5_01",
+          "typeId": "N2-MO-PARA",
+          "category": "Mondai 5: 言い換え類義",
+          "stem": "このデータだけでは、仮説を裏付けるには【不十分】だ。",
+          "options": [
+            {
+              "id": "A",
+              "text": "必要以上だ"
+            },
+            {
+              "id": "B",
+              "text": "かなり確かだ"
+            },
+            {
+              "id": "C",
+              "text": "すでに知られている"
+            },
+            {
+              "id": "D",
+              "text": "十分ではない"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "不十分は必要な水準に達していないことです。",
+          "distractorExplanations": {
+            "A": "過剰という意味で不十分とは異なります。",
+            "B": "確かさが高いという反対の意味です。",
+            "C": "既知かどうかは十分性と別の点です。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "不十分は必要な水準に達していないことです。"
+        },
+        {
+          "id": "N2_08_M5_02",
+          "typeId": "N2-MO-PARA",
+          "category": "Mondai 5: 言い換え類義",
+          "stem": "担当者は利用者の質問に【即座に】答えた。",
+          "options": [
+            {
+              "id": "A",
+              "text": "その場ですぐに"
+            },
+            {
+              "id": "B",
+              "text": "前もって"
+            },
+            {
+              "id": "C",
+              "text": "念入りに"
+            },
+            {
+              "id": "D",
+              "text": "順番に"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "即座には間を置かず直ちにという意味です。",
+          "distractorExplanations": {
+            "B": "前もっては事前の意味です。",
+            "C": "念入りには注意深くという意味です。",
+            "D": "順番には手順を示します。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "即座には間を置かず直ちにという意味です。"
+        },
+        {
+          "id": "N2_08_M5_03",
+          "typeId": "N2-MO-PARA",
+          "category": "Mondai 5: 言い換え類義",
+          "stem": "実験条件を【統一】しなければ、結果を比較できない。",
+          "options": [
+            {
+              "id": "A",
+              "text": "細かく分け"
+            },
+            {
+              "id": "B",
+              "text": "同じにそろえ"
+            },
+            {
+              "id": "C",
+              "text": "新しく変え"
+            },
+            {
+              "id": "D",
+              "text": "一つずつ記録し"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "統一は複数のものを同一の基準にそろえることです。",
+          "distractorExplanations": {
+            "A": "細分化は統一と反対方向の操作です。",
+            "C": "変更だけでは同じ基準になりません。",
+            "D": "記録は保存であり条件をそろえることではありません。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "統一は複数のものを同一の基準にそろえることです。"
+        },
+        {
+          "id": "N2_08_M5_04",
+          "typeId": "N2-MO-PARA",
+          "category": "Mondai 5: 言い換え類義",
+          "stem": "研究室は新しい測定方法を【導入】した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "外部に紹介した"
+            },
+            {
+              "id": "B",
+              "text": "詳しく調べた"
+            },
+            {
+              "id": "C",
+              "text": "使い始めた"
+            },
+            {
+              "id": "D",
+              "text": "使用をやめた"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "導入は新しい方法や制度を取り入れて使い始めることです。",
+          "distractorExplanations": {
+            "A": "紹介は他者に知らせるだけです。",
+            "B": "調査は導入前にも行いますが意味が異なります。",
+            "D": "導入と反対の意味です。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "導入は新しい方法や制度を取り入れて使い始めることです。"
+        },
+        {
+          "id": "N2_08_M5_05",
+          "typeId": "N2-MO-PARA",
+          "category": "Mondai 5: 言い換え類義",
+          "stem": "説明文の表現が【曖昧】で、読み手によって解釈が分かれた。",
+          "options": [
+            {
+              "id": "A",
+              "text": "根拠がない"
+            },
+            {
+              "id": "B",
+              "text": "短すぎる"
+            },
+            {
+              "id": "C",
+              "text": "専門的すぎる"
+            },
+            {
+              "id": "D",
+              "text": "意味がはっきりしない"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "曖昧は意味や境界がはっきりせず、複数の解釈が可能なことです。",
+          "distractorExplanations": {
+            "A": "根拠の有無は曖昧さとは別です。",
+            "B": "長さの問題とは限りません。",
+            "C": "専門性の高さを直接表す語ではありません。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "曖昧は意味や境界がはっきりせず、複数の解釈が可能なことです。"
+        },
+        {
+          "id": "N2_08_M6_01",
+          "typeId": "N2-MO-USE",
+          "category": "Mondai 6: 用法",
+          "stem": "『見込む』の使い方として最も適切なものを選びなさい。",
+          "options": [
+            {
+              "id": "A",
+              "text": "来年度は利用者が増えると見込んで、予算を多めに確保した。"
+            },
+            {
+              "id": "B",
+              "text": "担当者は資料を見込んで、誤字がないか一つずつ確かめた。"
+            },
+            {
+              "id": "C",
+              "text": "学生は実験ノートを見込んで、測定値を報告書に写した。"
+            },
+            {
+              "id": "D",
+              "text": "教授は会議の様子を見込んで、議事録の誤りを確認した。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "見込むは、将来そうなると予測・期待する意味です。",
+          "distractorExplanations": {
+            "B": "資料を確認する意味なら『目を通す』などを使います。",
+            "C": "ノートを見て転記する意味なら『見込む』とは言いません。",
+            "D": "会議の様子を確認する意味には使いません。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "見込むは、将来そうなると予測・期待する意味です。"
+        },
+        {
+          "id": "N2_08_M6_02",
+          "typeId": "N2-MO-USE",
+          "category": "Mondai 6: 用法",
+          "stem": "『妥当』の使い方として最も適切なものを選びなさい。",
+          "options": [
+            {
+              "id": "A",
+              "text": "彼は妥当な手触りのペンを選び、実験記録に使った。"
+            },
+            {
+              "id": "B",
+              "text": "費用と効果を比べた結果、この価格設定は妥当だと判断された。"
+            },
+            {
+              "id": "C",
+              "text": "研究室では、妥当な香りの洗剤を選んでいる。"
+            },
+            {
+              "id": "D",
+              "text": "講師は妥当な味のコーヒーを飲み、講義を始めた。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "妥当は事情や基準に照らして適切であることです。",
+          "distractorExplanations": {
+            "A": "手触りの評価には『妥当』を使いません。",
+            "C": "香りの好みを表す語ではありません。",
+            "D": "味の評価を表す語ではありません。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "妥当は事情や基準に照らして適切であることです。"
+        },
+        {
+          "id": "N2_08_M6_03",
+          "typeId": "N2-MO-USE",
+          "category": "Mondai 6: 用法",
+          "stem": "『担う』（責任や役割を引き受ける意味）の使い方として最も適切なものを選びなさい。",
+          "options": [
+            {
+              "id": "A",
+              "text": "彼は発表前に、資料を担って会議室へ運んだ。"
+            },
+            {
+              "id": "B",
+              "text": "温度計が参加者への説明を担っている。"
+            },
+            {
+              "id": "C",
+              "text": "この研究室では、院生が装置の保守を担っている。"
+            },
+            {
+              "id": "D",
+              "text": "彼女は測定値を担って、グラフに書き込んだ。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "担うは責任や役割を引き受けて果たす意味です。",
+          "distractorExplanations": {
+            "A": "ここでは責任や役割ではなく、物を持ち運ぶ意味で使われています。",
+            "B": "説明を担当する人の役割を表す文脈では、温度計を主語にできません。",
+            "D": "値をグラフへ移す意味には使いません。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "担うは責任や役割を引き受けて果たす意味です。"
+        },
+        {
+          "id": "N2_08_M6_04",
+          "typeId": "N2-MO-USE",
+          "category": "Mondai 6: 用法",
+          "stem": "『補う』の使い方として最も適切なものを選びなさい。",
+          "options": [
+            {
+              "id": "A",
+              "text": "図書館は論文の重さを補って、棚に並べた。"
+            },
+            {
+              "id": "B",
+              "text": "彼は風邪を補う薬を飲み、一週間休んだ。"
+            },
+            {
+              "id": "C",
+              "text": "講師は声を補った状態で、講義を始めた。"
+            },
+            {
+              "id": "D",
+              "text": "欠けている測定値は、追加実験の結果で補った。"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "補うは不足や欠点を埋めて完全に近づける意味です。",
+          "distractorExplanations": {
+            "A": "論文の物理的な重さを補うという用法はありません。",
+            "B": "風邪を治すなら『治す』、予防するなら『予防する』です。",
+            "C": "声を出す様子なら『声を張った』などと表します。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "補うは不足や欠点を埋めて完全に近づける意味です。"
+        },
+        {
+          "id": "N2_08_M6_05",
+          "typeId": "N2-MO-USE",
+          "category": "Mondai 6: 用法",
+          "stem": "『促す』の使い方として最も適切なものを選びなさい。",
+          "options": [
+            {
+              "id": "A",
+              "text": "教授は学生に、データの出典を明記するよう促した。"
+            },
+            {
+              "id": "B",
+              "text": "担当者は研究費の額を促して、申請書に記入した。"
+            },
+            {
+              "id": "C",
+              "text": "画面の色が利用者を促して、表示が変化した。"
+            },
+            {
+              "id": "D",
+              "text": "学生は論文を促して、図書館に返却した。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "促すは相手に行動をするよう働きかけることです。",
+          "distractorExplanations": {
+            "B": "額を決める意味なら『記入する』『算出する』などを使います。",
+            "C": "画面の色が人に行動を促す文脈として不自然です。",
+            "D": "論文を返す意味には使いません。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "促すは相手に行動をするよう働きかけることです。"
+        },
+        {
+          "id": "N2_08_M7_01",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "この研究は、全国の大学から集めた回答（　）分析を進めている。",
+          "options": [
+            {
+              "id": "A",
+              "text": "を問わず"
+            },
+            {
+              "id": "B",
+              "text": "に基づいて"
+            },
+            {
+              "id": "C",
+              "text": "に先立って"
+            },
+            {
+              "id": "D",
+              "text": "に限って"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "回答を根拠として分析するので『に基づいて』です。",
+          "distractorExplanations": {
+            "A": "『を問わず』は条件を問わない意味です。",
+            "C": "『に先立って』は前に行う意味です。",
+            "D": "『に限って』は範囲を限定します。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "回答を根拠として分析するので『に基づいて』です。"
+        },
+        {
+          "id": "N2_08_M7_02",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "今回の公開講座は、学生（　）、地域の社会人にも開かれている。",
+          "options": [
+            {
+              "id": "A",
+              "text": "を通じて"
+            },
+            {
+              "id": "B",
+              "text": "に際して"
+            },
+            {
+              "id": "C",
+              "text": "に限らず"
+            },
+            {
+              "id": "D",
+              "text": "に応じて"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "学生だけでなく社会人にもという追加は『に限らず』です。",
+          "distractorExplanations": {
+            "A": "『を通じて』は手段や期間です。",
+            "B": "『に際して』は機会・時点を表します。",
+            "D": "『に応じて』は状況に合わせる意味です。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "学生だけでなく社会人にもという追加は『に限らず』です。"
+        },
+        {
+          "id": "N2_08_M7_03",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "通信環境の改善（　）、遠隔地から授業に参加する学生が増えた。",
+          "options": [
+            {
+              "id": "A",
+              "text": "に先立ち"
+            },
+            {
+              "id": "B",
+              "text": "に限り"
+            },
+            {
+              "id": "C",
+              "text": "に反して"
+            },
+            {
+              "id": "D",
+              "text": "に伴い"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "改善と同時に生じた変化なので『に伴い』です。",
+          "distractorExplanations": {
+            "A": "『に先立ち』は先に行う意味です。",
+            "B": "『に限り』は範囲を限定します。",
+            "C": "『に反して』は予想・期待と逆です。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "改善と同時に生じた変化なので『に伴い』です。"
+        },
+        {
+          "id": "N2_08_M7_04",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "この実験では、専攻（　）、希望者なら誰でも機器を見学できる。",
+          "options": [
+            {
+              "id": "A",
+              "text": "にかかわらず"
+            },
+            {
+              "id": "B",
+              "text": "にしたがって"
+            },
+            {
+              "id": "C",
+              "text": "に応じて"
+            },
+            {
+              "id": "D",
+              "text": "をめぐって"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "専攻が何であるかを条件にしないので『にかかわらず』です。",
+          "distractorExplanations": {
+            "B": "『にしたがって』は変化の対応・順序です。",
+            "C": "希望者の状況に合わせる意味にはなりません。",
+            "D": "『をめぐって』は論争の対象です。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "専攻が何であるかを条件にしないので『にかかわらず』です。"
+        },
+        {
+          "id": "N2_08_M7_05",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "測定条件を一つ誤ると、結論を大きく誤解させ（　）。",
+          "options": [
+            {
+              "id": "A",
+              "text": "るにすぎない"
+            },
+            {
+              "id": "B",
+              "text": "るおそれがある"
+            },
+            {
+              "id": "C",
+              "text": "るわけにはいかない"
+            },
+            {
+              "id": "D",
+              "text": "るに決まっている"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "悪い結果が起こる可能性を述べるので『おそれがある』です。",
+          "distractorExplanations": {
+            "A": "『にすぎない』は程度がそれだけだという意味です。",
+            "C": "『わけにはいかない』は事情上できない意味です。",
+            "D": "『に決まっている』は確信を示します。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "悪い結果が起こる可能性を述べるので『おそれがある』です。"
+        },
+        {
+          "id": "N2_08_M7_06",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "新しいアプリを導入したが、すべての学生が以前より便利になった（　）。",
+          "options": [
+            {
+              "id": "A",
+              "text": "どころではない"
+            },
+            {
+              "id": "B",
+              "text": "にほかならない"
+            },
+            {
+              "id": "C",
+              "text": "というわけではない"
+            },
+            {
+              "id": "D",
+              "text": "に限ったことだ"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "一部には改善がない可能性を表す部分否定は『というわけではない』です。",
+          "distractorExplanations": {
+            "A": "『どころではない』は状況が許さない意味です。",
+            "B": "『にほかならない』は断定・強調です。",
+            "D": "この形では自然な文になりません。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "一部には改善がない可能性を表す部分否定は『というわけではない』です。"
+        },
+        {
+          "id": "N2_08_M7_07",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "研究を続ける（　）、最初は見落としていた課題にも気づくようになった。",
+          "options": [
+            {
+              "id": "A",
+              "text": "に先立って"
+            },
+            {
+              "id": "B",
+              "text": "にかけて"
+            },
+            {
+              "id": "C",
+              "text": "において"
+            },
+            {
+              "id": "D",
+              "text": "につれて"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "継続と変化が並行するため『につれて』です。",
+          "distractorExplanations": {
+            "A": "『に先立って』は前後関係です。",
+            "B": "『にかけて』は期間・範囲を示します。",
+            "C": "『において』は場所や場面です。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "継続と変化が並行するため『につれて』です。"
+        },
+        {
+          "id": "N2_08_M7_08",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "彼の発表は専門的な用語が多く、分かりやすい（　）、初学者には難しかった。",
+          "options": [
+            {
+              "id": "A",
+              "text": "どころか"
+            },
+            {
+              "id": "B",
+              "text": "にしては"
+            },
+            {
+              "id": "C",
+              "text": "ばかりか"
+            },
+            {
+              "id": "D",
+              "text": "からには"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "期待された評価とは逆で、むしろ難しいという反対の結果なので『どころか』です。",
+          "distractorExplanations": {
+            "B": "『にしては』は基準から見た意外さです。",
+            "C": "『ばかりか』は追加です。",
+            "D": "『からには』は決意・責任の前提です。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "期待された評価とは逆で、むしろ難しいという反対の結果なので『どころか』です。"
+        },
+        {
+          "id": "N2_08_M7_09",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "複数の研究機関が同じ結果を報告しているので、測定手順に問題はない（　）。",
+          "options": [
+            {
+              "id": "A",
+              "text": "にすぎない"
+            },
+            {
+              "id": "B",
+              "text": "に違いない"
+            },
+            {
+              "id": "C",
+              "text": "に限らない"
+            },
+            {
+              "id": "D",
+              "text": "というものではない"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "根拠から強く推量するので『に違いない』です。",
+          "distractorExplanations": {
+            "A": "『にすぎない』は限定です。",
+            "C": "『に限らない』は限定を否定します。",
+            "D": "一般論を否定する表現で、推量になりません。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "根拠から強く推量するので『に違いない』です。"
+        },
+        {
+          "id": "N2_08_M7_10",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "何度も条件を変えて一日中測定をやり直した（　）、結論に使える結果は一つも得られず、発表は延期になった。",
+          "options": [
+            {
+              "id": "A",
+              "text": "ついでに"
+            },
+            {
+              "id": "B",
+              "text": "ところで"
+            },
+            {
+              "id": "C",
+              "text": "あげく"
+            },
+            {
+              "id": "D",
+              "text": "につれて"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "長く繰り返し試みた末に望ましくない結果となったので『あげく』です。",
+          "distractorExplanations": {
+            "A": "『ついでに』は機会を利用した追加行動を表します。",
+            "B": "『ところで』は話題転換に使い、前の行為の結果にはなりません。",
+            "D": "『につれて』は二つの変化が並行する関係を示し、この文の結果には合いません。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "長く繰り返し試みた末に望ましくない結果となったので『あげく』です。"
+        },
+        {
+          "id": "N2_08_M7_11",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "原資料を確認し（　）、数値の正確さを判断することはできない。",
+          "options": [
+            {
+              "id": "A",
+              "text": "たところで"
+            },
+            {
+              "id": "B",
+              "text": "たとたんに"
+            },
+            {
+              "id": "C",
+              "text": "ないばかりか"
+            },
+            {
+              "id": "D",
+              "text": "ないことには"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "確認がなければ判断できない条件を示すので『ないことには』です。",
+          "distractorExplanations": {
+            "A": "『たところで』はしても無駄という譲歩です。",
+            "B": "『たとたんに』は直後の出来事です。",
+            "C": "『ないばかりか』は追加・強調です。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "確認がなければ判断できない条件を示すので『ないことには』です。"
+        },
+        {
+          "id": "N2_08_M7_12",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "修士課程に入ったばかり（　）、彼女は学会で研究発表を任された。",
+          "options": [
+            {
+              "id": "A",
+              "text": "にしては"
+            },
+            {
+              "id": "B",
+              "text": "だけあって"
+            },
+            {
+              "id": "C",
+              "text": "ものの"
+            },
+            {
+              "id": "D",
+              "text": "ことから"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "経験の浅さを基準にした意外な評価なので『にしては』です。",
+          "distractorExplanations": {
+            "B": "『だけあって』は期待通りの結果を表します。",
+            "C": "『ものの』は逆接です。",
+            "D": "『ことから』は理由・由来です。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "経験の浅さを基準にした意外な評価なので『にしては』です。"
+        },
+        {
+          "id": "N2_08_M8_01",
+          "typeId": "N2-GR-STAR",
+          "category": "Mondai 8: 文の組み立て",
+          "stem": "論文を投稿する前に、（　　）（　　）★（　　）必要がある。",
+          "options": [
+            {
+              "id": "A",
+              "text": "投稿先の"
+            },
+            {
+              "id": "B",
+              "text": "規定を"
+            },
+            {
+              "id": "C",
+              "text": "確認したうえで"
+            },
+            {
+              "id": "D",
+              "text": "原稿を整える"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "『投稿先の規定を確認したうえで原稿を整える』の順に限られます。三番目は『確認したうえで』です。",
+          "distractorExplanations": {
+            "A": "この断片は intended order の 1 番目に置かれ、★の三番目ではありません。",
+            "B": "この断片は intended order の 2 番目に置かれ、★の三番目ではありません。",
+            "D": "この断片は intended order の 4 番目に置かれ、★の三番目ではありません。"
+          },
+          "starPosition": 3,
+          "assembledSentence": "論文を投稿する前に、投稿先の規定を確認したうえで原稿を整える必要がある。",
+          "skill": "Language Knowledge",
+          "explanationVi": "『投稿先の規定を確認したうえで原稿を整える』の順に限られます。三番目は『確認したうえで』です。"
+        },
+        {
+          "id": "N2_08_M8_02",
+          "typeId": "N2-GR-STAR",
+          "category": "Mondai 8: 文の組み立て",
+          "stem": "新しい調査方法を試す前に、（　　）（　　）★（　　）必要がある。",
+          "options": [
+            {
+              "id": "A",
+              "text": "倫理審査を受けて"
+            },
+            {
+              "id": "B",
+              "text": "調査計画が"
+            },
+            {
+              "id": "C",
+              "text": "承認されている"
+            },
+            {
+              "id": "D",
+              "text": "ことを確認する"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "『調査計画が』を主語とする『承認されていること』の状態を確認する。三番目は『承認されている』です。",
+          "distractorExplanations": {
+            "A": "この断片は intended order の 2 番目に置かれ、★の三番目ではありません。",
+            "B": "この断片は intended order の 1 番目に置かれ、★の三番目ではありません。",
+            "D": "この断片は intended order の 4 番目に置かれ、★の三番目ではありません。"
+          },
+          "starPosition": 3,
+          "assembledSentence": "新しい調査方法を試す前に、調査計画が倫理審査を受けて承認されていることを確認する必要がある。",
+          "skill": "Language Knowledge",
+          "explanationVi": "『調査計画が』を主語とする『承認されていること』の状態を確認する。三番目は『承認されている』です。"
+        },
+        {
+          "id": "N2_08_M8_03",
+          "typeId": "N2-GR-STAR",
+          "category": "Mondai 8: 文の組み立て",
+          "stem": "オンライン講義では、（　　）（　　）★（　　）工夫が求められる。",
+          "options": [
+            {
+              "id": "A",
+              "text": "学生が質問しやすい"
+            },
+            {
+              "id": "B",
+              "text": "一方的な説明に"
+            },
+            {
+              "id": "C",
+              "text": "ならないよう"
+            },
+            {
+              "id": "D",
+              "text": "時間を設ける"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "『一方的な説明にならないよう』のあとに具体策を置く。三番目は『学生が質問しやすい』です。",
+          "distractorExplanations": {
+            "B": "この断片は intended order の 1 番目に置かれ、★の三番目ではありません。",
+            "C": "この断片は intended order の 2 番目に置かれ、★の三番目ではありません。",
+            "D": "この断片は intended order の 4 番目に置かれ、★の三番目ではありません。"
+          },
+          "starPosition": 3,
+          "assembledSentence": "オンライン講義では、一方的な説明にならないよう学生が質問しやすい時間を設ける工夫が求められる。",
+          "skill": "Language Knowledge",
+          "explanationVi": "『一方的な説明にならないよう』のあとに具体策を置く。三番目は『学生が質問しやすい』です。"
+        },
+        {
+          "id": "N2_08_M8_04",
+          "typeId": "N2-GR-STAR",
+          "category": "Mondai 8: 文の組み立て",
+          "stem": "機械学習の予測を使う際も、（　　）（　　）★（　　）欠かせない。",
+          "options": [
+            {
+              "id": "A",
+              "text": "誤差の理由を調べることは"
+            },
+            {
+              "id": "B",
+              "text": "人が"
+            },
+            {
+              "id": "C",
+              "text": "結果をそのまま"
+            },
+            {
+              "id": "D",
+              "text": "受け入れず"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "予測をそのまま受け入れない姿勢に続けて、人が誤差の理由を調べる。三番目は『人が』です。",
+          "distractorExplanations": {
+            "A": "この断片は intended order の 4 番目に置かれ、★の三番目ではありません。",
+            "C": "この断片は intended order の 1 番目に置かれ、★の三番目ではありません。",
+            "D": "この断片は intended order の 2 番目に置かれ、★の三番目ではありません。"
+          },
+          "starPosition": 3,
+          "assembledSentence": "機械学習の予測を使う際も、結果をそのまま受け入れず人が誤差の理由を調べることは欠かせない。",
+          "skill": "Language Knowledge",
+          "explanationVi": "予測をそのまま受け入れない姿勢に続けて、人が誤差の理由を調べる。三番目は『人が』です。"
+        },
+        {
+          "id": "N2_08_M8_05",
+          "typeId": "N2-GR-STAR",
+          "category": "Mondai 8: 文の組み立て",
+          "stem": "研究データを公開する前に、（　　）（　　）★（　　）確認した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "個人を特定できる情報が"
+            },
+            {
+              "id": "B",
+              "text": "含まれていないか"
+            },
+            {
+              "id": "C",
+              "text": "別の担当者にも"
+            },
+            {
+              "id": "D",
+              "text": "念のため"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "確認対象を先に述べ、『念のため』の後に別担当者にも確認した。三番目は『念のため』です。",
+          "distractorExplanations": {
+            "A": "この断片は intended order の 1 番目に置かれ、★の三番目ではありません。",
+            "B": "この断片は intended order の 2 番目に置かれ、★の三番目ではありません。",
+            "C": "この断片は intended order の 4 番目に置かれ、★の三番目ではありません。"
+          },
+          "starPosition": 3,
+          "assembledSentence": "研究データを公開する前に、個人を特定できる情報が含まれていないか念のため別の担当者にも確認した。",
+          "skill": "Language Knowledge",
+          "explanationVi": "確認対象を先に述べ、『念のため』の後に別担当者にも確認した。三番目は『念のため』です。"
+        },
+        {
+          "id": "N2_08_M9_01",
+          "typeId": "N2-GR-TEXT",
+          "category": "Mondai 9: 文章の文法",
+          "stem": "文章中の（1）に入るものはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "にほかならない"
+            },
+            {
+              "id": "B",
+              "text": "というわけではない"
+            },
+            {
+              "id": "C",
+              "text": "に決まっている"
+            },
+            {
+              "id": "D",
+              "text": "ことになっている"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "専門語を並べれば十分だとは限らないという否定です。",
+          "distractorExplanations": {
+            "A": "強い断定になり文意に合いません。",
+            "C": "確信を示す形です。",
+            "D": "決定済みの予定を示します。"
+          },
+          "passage": "大学の研究成果を社会に伝えるとき、専門用語をそのまま並べればよい（　1　）。読み手が背景を知らない場合は、用語の意味や研究の目的を補う必要がある。説明を簡単にしすぎると、重要な条件が伝わらなくなる（　2　）ある。どこまで説明するかは、対象となる読者に（　3　）調整すべきだ。さらに、結果だけを示すのではなく、どのような方法で得られたかも説明して（　4　）、初めて読み手が妥当性を検討できる。時間が限られている（　5　）、伝える順番を工夫することが大切だ。",
+          "skill": "Language Knowledge",
+          "explanationVi": "専門語を並べれば十分だとは限らないという否定です。"
+        },
+        {
+          "id": "N2_08_M9_02",
+          "typeId": "N2-GR-TEXT",
+          "category": "Mondai 9: 文章の文法",
+          "stem": "文章中の（2）に入るものはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "ものの"
+            },
+            {
+              "id": "B",
+              "text": "ばかりが"
+            },
+            {
+              "id": "C",
+              "text": "おそれが"
+            },
+            {
+              "id": "D",
+              "text": "わけで"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "悪い結果の可能性なので『おそれがある』です。",
+          "distractorExplanations": {
+            "A": "逆接の接続で名詞『ある』につながりません。",
+            "B": "『ばかりがある』は文法的に不自然です。",
+            "D": "『わけである』は断定で可能性を示しません。"
+          },
+          "passage": "大学の研究成果を社会に伝えるとき、専門用語をそのまま並べればよい（　1　）。読み手が背景を知らない場合は、用語の意味や研究の目的を補う必要がある。説明を簡単にしすぎると、重要な条件が伝わらなくなる（　2　）ある。どこまで説明するかは、対象となる読者に（　3　）調整すべきだ。さらに、結果だけを示すのではなく、どのような方法で得られたかも説明して（　4　）、初めて読み手が妥当性を検討できる。時間が限られている（　5　）、伝える順番を工夫することが大切だ。",
+          "skill": "Language Knowledge",
+          "explanationVi": "悪い結果の可能性なので『おそれがある』です。"
+        },
+        {
+          "id": "N2_08_M9_03",
+          "typeId": "N2-GR-TEXT",
+          "category": "Mondai 9: 文章の文法",
+          "stem": "文章中の（3）に入るものはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "関して"
+            },
+            {
+              "id": "B",
+              "text": "先立って"
+            },
+            {
+              "id": "C",
+              "text": "反して"
+            },
+            {
+              "id": "D",
+              "text": "応じて"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "読者の特徴に合わせて調整するので『に応じて』です。",
+          "distractorExplanations": {
+            "A": "『読者に関して』では調整基準になりません。",
+            "B": "順序を表しません。",
+            "C": "反対の意味です。"
+          },
+          "passage": "大学の研究成果を社会に伝えるとき、専門用語をそのまま並べればよい（　1　）。読み手が背景を知らない場合は、用語の意味や研究の目的を補う必要がある。説明を簡単にしすぎると、重要な条件が伝わらなくなる（　2　）ある。どこまで説明するかは、対象となる読者に（　3　）調整すべきだ。さらに、結果だけを示すのではなく、どのような方法で得られたかも説明して（　4　）、初めて読み手が妥当性を検討できる。時間が限られている（　5　）、伝える順番を工夫することが大切だ。",
+          "skill": "Language Knowledge",
+          "explanationVi": "読者の特徴に合わせて調整するので『に応じて』です。"
+        },
+        {
+          "id": "N2_08_M9_04",
+          "typeId": "N2-GR-TEXT",
+          "category": "Mondai 9: 文章の文法",
+          "stem": "文章中の（4）に入るものはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "おけば"
+            },
+            {
+              "id": "B",
+              "text": "みれば"
+            },
+            {
+              "id": "C",
+              "text": "しまえば"
+            },
+            {
+              "id": "D",
+              "text": "あれば"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "方法の説明を添えることで、という条件・手段を表す『ておく』です。",
+          "distractorExplanations": {
+            "B": "『説明してみれば』は試行を意味し、後件との論理が変わります。",
+            "C": "完了・後悔の含みになります。",
+            "D": "『説明してあれば』では条件の形が不自然です。"
+          },
+          "passage": "大学の研究成果を社会に伝えるとき、専門用語をそのまま並べればよい（　1　）。読み手が背景を知らない場合は、用語の意味や研究の目的を補う必要がある。説明を簡単にしすぎると、重要な条件が伝わらなくなる（　2　）ある。どこまで説明するかは、対象となる読者に（　3　）調整すべきだ。さらに、結果だけを示すのではなく、どのような方法で得られたかも説明して（　4　）、初めて読み手が妥当性を検討できる。時間が限られている（　5　）、伝える順番を工夫することが大切だ。",
+          "skill": "Language Knowledge",
+          "explanationVi": "方法の説明を添えることで、という条件・手段を表す『ておく』です。"
+        },
+        {
+          "id": "N2_08_M9_05",
+          "typeId": "N2-GR-TEXT",
+          "category": "Mondai 9: 文章の文法",
+          "stem": "文章中の（5）に入るものはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "からには"
+            },
+            {
+              "id": "B",
+              "text": "からこそ"
+            },
+            {
+              "id": "C",
+              "text": "からといって"
+            },
+            {
+              "id": "D",
+              "text": "からすると"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "時間が限られているという理由を強調し、情報を整理する重要性を述べるので『からこそ』です。",
+          "distractorExplanations": {
+            "A": "『からには』は当然の責任・決意を導きます。",
+            "C": "『からといって』には通常後件に否定や意外な結果が続きます。",
+            "D": "推測の判断基準を示します。"
+          },
+          "passage": "大学の研究成果を社会に伝えるとき、専門用語をそのまま並べればよい（　1　）。読み手が背景を知らない場合は、用語の意味や研究の目的を補う必要がある。説明を簡単にしすぎると、重要な条件が伝わらなくなる（　2　）ある。どこまで説明するかは、対象となる読者に（　3　）調整すべきだ。さらに、結果だけを示すのではなく、どのような方法で得られたかも説明して（　4　）、初めて読み手が妥当性を検討できる。時間が限られている（　5　）、伝える順番を工夫することが大切だ。",
+          "skill": "Language Knowledge",
+          "explanationVi": "時間が限られているという理由を強調し、情報を整理する重要性を述べるので『からこそ』です。"
+        },
+        {
+          "id": "N2_08_M10_01",
+          "typeId": "N2-RD-SHORT",
+          "category": "Mondai 10: 短文読解",
+          "stem": "科目の入力後、学生が確認すべきことは何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "入力した直後に登録が確定したかどうか"
+            },
+            {
+              "id": "B",
+              "text": "来週月曜日まで教務課へ行かないこと"
+            },
+            {
+              "id": "C",
+              "text": "担当教員の確認後に来る通知と、入力誤りの早期連絡"
+            },
+            {
+              "id": "D",
+              "text": "教員が入力を代行したかどうか"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "入力は即時確定でなく、来週の通知を待ちますが、間違いがあれば先に教務課へ連絡します。",
+          "distractorExplanations": {
+            "A": "その場で確定されないと明記されています。",
+            "B": "誤りの連絡は通知前でもよいとあります。",
+            "D": "入力は学生が行う案内です。"
+          },
+          "passage": "新しい履修登録システムは、今週から試験運用を始めます。入力した科目はその場で確定されず、担当教員が確認した後、来週月曜日に登録結果を通知します。誤りに気づいた場合は、結果通知を待たずに教務課へ連絡してください。",
+          "skill": "Reading",
+          "explanationVi": "入力は即時確定でなく、来週の通知を待ちますが、間違いがあれば先に教務課へ連絡します。"
+        },
+        {
+          "id": "N2_08_M10_02",
+          "typeId": "N2-RD-SHORT",
+          "category": "Mondai 10: 短文読解",
+          "stem": "更新前に担当者へ連絡する理由は何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "パソコン更新の費用を研究者で分担するため"
+            },
+            {
+              "id": "B",
+              "text": "記憶装置を購入する申請が必要なため"
+            },
+            {
+              "id": "C",
+              "text": "解析ソフトの利用時間を予約するため"
+            },
+            {
+              "id": "D",
+              "text": "共同データの保存先を変えると他の人が使えない場合があるため"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "共同データは保存先の変更で共有が切れるおそれがあるため、保存前に確認します。",
+          "distractorExplanations": {
+            "A": "費用負担については述べていません。",
+            "B": "記憶装置の購入申請は案内されていません。",
+            "C": "利用時間の予約ではありません。"
+          },
+          "passage": "研究室では共有パソコンの更新を予定している。ただし、更新中は解析ソフトが使えないため、各自のデータを外付け記憶装置に保存しておく必要がある。作業は金曜日の午後に行うが、共同利用のデータは保存先を変更すると他の研究者が開けなくなることがある。保存する前に、担当者へ一声かけてほしい。",
+          "skill": "Reading",
+          "explanationVi": "共同データは保存先の変更で共有が切れるおそれがあるため、保存前に確認します。"
+        },
+        {
+          "id": "N2_08_M10_03",
+          "typeId": "N2-RD-SHORT",
+          "category": "Mondai 10: 短文読解",
+          "stem": "今年、質問時間を変えたのはなぜか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "参加者が理解できない点をその場で解消しやすくするため"
+            },
+            {
+              "id": "B",
+              "text": "講義の終了時刻を早めるため"
+            },
+            {
+              "id": "C",
+              "text": "講師が質問に答える回数を減らすため"
+            },
+            {
+              "id": "D",
+              "text": "話題を一つに限定するため"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "分からない言葉が後の理解を妨げるという声を受け、話題の区切りごとに質問を受けます。",
+          "distractorExplanations": {
+            "B": "講義を早く終えるとは書かれていません。",
+            "C": "質問時間を分散して確保しています。",
+            "D": "話題は複数あります。"
+          },
+          "passage": "公開講座の質問時間は、講義の最後にまとめて設ける予定だった。しかし、参加者から「途中で分からない言葉が出ると、その後の話が頭に入らない」という意見が複数寄せられた。そこで今年は、講師が一つの話題を終えるごとに短い質問時間を挟むことにした。質問が少ない場合も、予定より早く講義を終えるのではなく、次の話題へ進む。",
+          "skill": "Reading",
+          "explanationVi": "分からない言葉が後の理解を妨げるという声を受け、話題の区切りごとに質問を受けます。"
+        },
+        {
+          "id": "N2_08_M10_04",
+          "typeId": "N2-RD-SHORT",
+          "category": "Mondai 10: 短文読解",
+          "stem": "資料が「利用中」と表示された場合、案内が伝えたいことは何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "端末を買い替えなければならない"
+            },
+            {
+              "id": "B",
+              "text": "契約上の同時利用上限の可能性がある"
+            },
+            {
+              "id": "C",
+              "text": "学外からの利用は認められていない"
+            },
+            {
+              "id": "D",
+              "text": "資料が永久に閲覧できなくなった"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "同時利用人数に上限があると説明されています。",
+          "distractorExplanations": {
+            "A": "端末の故障と決めつけないよう明記しています。",
+            "C": "学外から閲覧できるとあります。",
+            "D": "時間を置いて再アクセスできます。"
+          },
+          "passage": "学内図書館の電子資料は、学外からも閲覧できる。ただし、契約上、同時に利用できる人数には上限がある。画面に「利用中」と表示された場合は、少し時間を置いて再度アクセスするか、別の資料を探してほしい。利用者個人の端末や通信環境に問題があるとは限らない。",
+          "skill": "Reading",
+          "explanationVi": "同時利用人数に上限があると説明されています。"
+        },
+        {
+          "id": "N2_08_M10_05",
+          "typeId": "N2-RD-SHORT",
+          "category": "Mondai 10: 短文読解",
+          "stem": "図表の色を指定したい場合、学生は何をする必要があるか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "掲示日の五日前に口頭で担当者へ伝える"
+            },
+            {
+              "id": "B",
+              "text": "印刷後に色の変更を申し込む"
+            },
+            {
+              "id": "C",
+              "text": "申請書に希望を書き、元画像ファイルを添付する"
+            },
+            {
+              "id": "D",
+              "text": "締切後に印刷室の空きを確認する"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "色の希望は申請書に記入し、元の画像ファイルも添付します。",
+          "distractorExplanations": {
+            "A": "期限は五営業日前までで、口頭連絡のみとは書かれていません。",
+            "B": "希望は印刷前に申請します。",
+            "D": "締切後は受け付けられない場合があります。"
+          },
+          "passage": "研究ポスターの印刷を希望する学生は、掲示予定日の五営業日前までに申請書を提出してください。図表の色や大きさに希望がある場合は、申請書に記入するだけでなく、元の画像ファイルも添付します。締切後の申し込みは、印刷室の予約状況によっては受け付けられません。",
+          "skill": "Reading",
+          "explanationVi": "色の希望は申請書に記入し、元の画像ファイルも添付します。"
+        },
+        {
+          "id": "N2_08_M11_01",
+          "typeId": "N2-RD-MID",
+          "category": "Mondai 11: 中文読解",
+          "stem": "学習支援センターが完成したレポートを必須にしなくなったのはなぜか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "職員がレポートを代筆するため"
+            },
+            {
+              "id": "B",
+              "text": "統計ソフトを廃止したため"
+            },
+            {
+              "id": "C",
+              "text": "相談時間を延長するため"
+            },
+            {
+              "id": "D",
+              "text": "書き始める前に相談したい学生が利用しにくかったため"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "完成物がない段階でも相談したい学生の障壁を下げるためです。",
+          "distractorExplanations": {
+            "A": "職員は代わりに書かないと明記されています。",
+            "B": "統計ソフトの相談は引き続き行います。",
+            "C": "相談時間は短く区切って予約枠を増やしました。"
+          },
+          "passage": "新入生向けの学習支援センターでは、レポートの書き方や統計ソフトの操作を個別に相談できる。以前は、相談者が自分で問題を説明できるよう、完成したレポートを持参することを勧めていた。しかし、書き始める前に相談したい学生にとっては、その条件が利用の妨げになっていた。そこで現在は、課題の説明資料や書きかけのメモだけでも相談を受け付けている。職員は答えを代わりに書くのではなく、学生が自分で次の作業を決められるよう、問いの立て方や資料の探し方を一緒に整理する。相談時間を短く区切って予約枠を増やした結果、利用者は増えたが、相談後に自力で進められたかどうかを確認する仕組みはまだ整っていない。今後は、個人情報を集めすぎない形で、支援の効果を確かめる方法を検討する予定だ。",
+          "skill": "Reading",
+          "explanationVi": "完成物がない段階でも相談したい学生の障壁を下げるためです。"
+        },
+        {
+          "id": "N2_08_M11_02",
+          "typeId": "N2-RD-MID",
+          "category": "Mondai 11: 中文読解",
+          "stem": "職員が相談で目指していることは何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "学生が次の作業を自分で決められるようにすること"
+            },
+            {
+              "id": "B",
+              "text": "良い評価を得る完成文を渡すこと"
+            },
+            {
+              "id": "C",
+              "text": "相談の回数を減らすこと"
+            },
+            {
+              "id": "D",
+              "text": "同じテーマの資料を配ること"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "問いの立て方や資料の探し方を整理し、自分で進められるようにします。",
+          "distractorExplanations": {
+            "B": "職員は答えを代筆しません。",
+            "C": "予約枠を増やして利用しやすくしました。",
+            "D": "同一資料の配布は述べられていません。"
+          },
+          "passage": "新入生向けの学習支援センターでは、レポートの書き方や統計ソフトの操作を個別に相談できる。以前は、相談者が自分で問題を説明できるよう、完成したレポートを持参することを勧めていた。しかし、書き始める前に相談したい学生にとっては、その条件が利用の妨げになっていた。そこで現在は、課題の説明資料や書きかけのメモだけでも相談を受け付けている。職員は答えを代わりに書くのではなく、学生が自分で次の作業を決められるよう、問いの立て方や資料の探し方を一緒に整理する。相談時間を短く区切って予約枠を増やした結果、利用者は増えたが、相談後に自力で進められたかどうかを確認する仕組みはまだ整っていない。今後は、個人情報を集めすぎない形で、支援の効果を確かめる方法を検討する予定だ。",
+          "skill": "Reading",
+          "explanationVi": "問いの立て方や資料の探し方を整理し、自分で進められるようにします。"
+        },
+        {
+          "id": "N2_08_M11_03",
+          "typeId": "N2-RD-MID",
+          "category": "Mondai 11: 中文読解",
+          "stem": "今後の課題として述べられているのは何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "相談室を別の建物に移すこと"
+            },
+            {
+              "id": "B",
+              "text": "個人情報に配慮しつつ支援の効果を調べること"
+            },
+            {
+              "id": "C",
+              "text": "予約枠を減らすこと"
+            },
+            {
+              "id": "D",
+              "text": "統計ソフトを全員に購入させること"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "利用者は増えましたが、相談後の自力学習を確かめる方法は未整備です。",
+          "distractorExplanations": {
+            "A": "移転の話はありません。",
+            "C": "予約枠を減らす計画はありません。",
+            "D": "ソフト購入の指示はありません。"
+          },
+          "passage": "新入生向けの学習支援センターでは、レポートの書き方や統計ソフトの操作を個別に相談できる。以前は、相談者が自分で問題を説明できるよう、完成したレポートを持参することを勧めていた。しかし、書き始める前に相談したい学生にとっては、その条件が利用の妨げになっていた。そこで現在は、課題の説明資料や書きかけのメモだけでも相談を受け付けている。職員は答えを代わりに書くのではなく、学生が自分で次の作業を決められるよう、問いの立て方や資料の探し方を一緒に整理する。相談時間を短く区切って予約枠を増やした結果、利用者は増えたが、相談後に自力で進められたかどうかを確認する仕組みはまだ整っていない。今後は、個人情報を集めすぎない形で、支援の効果を確かめる方法を検討する予定だ。",
+          "skill": "Reading",
+          "explanationVi": "利用者は増えましたが、相談後の自力学習を確かめる方法は未整備です。"
+        },
+        {
+          "id": "N2_08_M11_04",
+          "typeId": "N2-RD-MID",
+          "category": "Mondai 11: 中文読解",
+          "stem": "文字記録を復習の補助資料とした理由は何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "復習時間を長くするため"
+            },
+            {
+              "id": "B",
+              "text": "授業の録音を禁止するため"
+            },
+            {
+              "id": "C",
+              "text": "専門語の誤変換や、記録だけで理解したと思う危険があるため"
+            },
+            {
+              "id": "D",
+              "text": "教員の説明を不要にするため"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "誤変換があり、記録だけで理解したと思い込む危険があるため、講義の代わりではなく補助としました。",
+          "distractorExplanations": {
+            "A": "復習時間が短くなった声が紹介されています。",
+            "B": "録音禁止とは述べられていません。",
+            "D": "授業を不要にする目的ではありません。"
+          },
+          "passage": "ある大学の研究者は、授業中の発言を自動で文字にするシステムを試験導入した。発言を記録できれば、聞き取りが難しかった学生が後から内容を確かめられる。一方、専門用語や人名は誤変換されることがあり、記録だけを読んで内容を理解したつもりになる危険もある。担当教員は、授業前に専門語の一覧を登録し、授業後に誤りを修正してから資料を配る方法を採った。学生には、文字記録を講義そのものの代わりではなく、復習を助ける補助資料として使うよう説明している。試験導入の結果、復習時間が短くなったという声があったが、発言しにくくなったと感じた学生もいた。記録されることへの不安が原因かどうかはまだ分からない。システムの便利さだけで導入を判断せず、使う場面や保存期間について学生と合意する必要があると、研究者は考えている。",
+          "skill": "Reading",
+          "explanationVi": "誤変換があり、記録だけで理解したと思い込む危険があるため、講義の代わりではなく補助としました。"
+        },
+        {
+          "id": "N2_08_M11_05",
+          "typeId": "N2-RD-MID",
+          "category": "Mondai 11: 中文読解",
+          "stem": "試験導入について、本文から分かることはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "全員が発言しやすくなった"
+            },
+            {
+              "id": "B",
+              "text": "学生の不安の原因はすでに特定された"
+            },
+            {
+              "id": "C",
+              "text": "専門語を登録しても誤変換は完全になくなった"
+            },
+            {
+              "id": "D",
+              "text": "便利さの評価だけでは導入の判断に足りない"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "学生の一部は発言しにくさを感じ、原因は未確定です。使い方等の合意も必要です。",
+          "distractorExplanations": {
+            "A": "発言しにくくなった学生もいたとあります。",
+            "B": "不安の原因はまだ分かりません。",
+            "C": "誤変換の完全解消は述べていません。"
+          },
+          "passage": "ある大学の研究者は、授業中の発言を自動で文字にするシステムを試験導入した。発言を記録できれば、聞き取りが難しかった学生が後から内容を確かめられる。一方、専門用語や人名は誤変換されることがあり、記録だけを読んで内容を理解したつもりになる危険もある。担当教員は、授業前に専門語の一覧を登録し、授業後に誤りを修正してから資料を配る方法を採った。学生には、文字記録を講義そのものの代わりではなく、復習を助ける補助資料として使うよう説明している。試験導入の結果、復習時間が短くなったという声があったが、発言しにくくなったと感じた学生もいた。記録されることへの不安が原因かどうかはまだ分からない。システムの便利さだけで導入を判断せず、使う場面や保存期間について学生と合意する必要があると、研究者は考えている。",
+          "skill": "Reading",
+          "explanationVi": "学生の一部は発言しにくさを感じ、原因は未確定です。使い方等の合意も必要です。"
+        },
+        {
+          "id": "N2_08_M11_06",
+          "typeId": "N2-RD-MID",
+          "category": "Mondai 11: 中文読解",
+          "stem": "研究者が今後大切だと考えていることは何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "使用場面や保存期間を学生と決めること"
+            },
+            {
+              "id": "B",
+              "text": "文字記録を長期間公開すること"
+            },
+            {
+              "id": "C",
+              "text": "全ての発言を試験の評価に使うこと"
+            },
+            {
+              "id": "D",
+              "text": "誤変換の修正を学生に任せること"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "使う場面と保存期間について学生と合意する必要があると述べています。",
+          "distractorExplanations": {
+            "B": "長期間の公開は提案されていません。",
+            "C": "評価利用の話はありません。",
+            "D": "教員が誤りを修正してから資料を配ります。"
+          },
+          "passage": "ある大学の研究者は、授業中の発言を自動で文字にするシステムを試験導入した。発言を記録できれば、聞き取りが難しかった学生が後から内容を確かめられる。一方、専門用語や人名は誤変換されることがあり、記録だけを読んで内容を理解したつもりになる危険もある。担当教員は、授業前に専門語の一覧を登録し、授業後に誤りを修正してから資料を配る方法を採った。学生には、文字記録を講義そのものの代わりではなく、復習を助ける補助資料として使うよう説明している。試験導入の結果、復習時間が短くなったという声があったが、発言しにくくなったと感じた学生もいた。記録されることへの不安が原因かどうかはまだ分からない。システムの便利さだけで導入を判断せず、使う場面や保存期間について学生と合意する必要があると、研究者は考えている。",
+          "skill": "Reading",
+          "explanationVi": "使う場面と保存期間について学生と合意する必要があると述べています。"
+        },
+        {
+          "id": "N2_08_M11_07",
+          "typeId": "N2-RD-MID",
+          "category": "Mondai 11: 中文読解",
+          "stem": "共同チームがデータ本体の前に説明書を作ったのはなぜか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "データを公開しないため"
+            },
+            {
+              "id": "B",
+              "text": "項目や単位などの条件を共有し、解釈の誤りを防ぐため"
+            },
+            {
+              "id": "C",
+              "text": "受け取り側の分析を禁止するため"
+            },
+            {
+              "id": "D",
+              "text": "ファイル数を増やすため"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "項目名・単位・欠測値の扱いを説明し、受け手が条件を理解できるようにしました。",
+          "distractorExplanations": {
+            "A": "データ共有を行うための準備です。",
+            "C": "別角度の分析も共有の利点です。",
+            "D": "ファイル数は目的ではありません。"
+          },
+          "passage": "研究データを他機関と共有すれば、同じ実験を繰り返す費用を抑えたり、別の角度から分析したりできる。しかし、共有すれば必ず研究が早く進むとは限らない。測定機器や記録方法が異なるデータをそのまま組み合わせると、見かけ上の差が機器の違いによるものなのか、実際の現象なのか分からなくなることがある。そのため、ある研究チームは、データ本体を送る前に、項目名、単位、欠測値の扱いを記した説明書を共同で作った。説明書の作成には時間がかかったが、受け取る側が不明点を何度も問い合わせる必要は減ったという。共有の価値は、ファイルを公開した数だけでは測れない。後から利用する人が条件を理解し、結果を適切に解釈できるようにして初めて、データは再利用可能な知識になる。",
+          "skill": "Reading",
+          "explanationVi": "項目名・単位・欠測値の扱いを説明し、受け手が条件を理解できるようにしました。"
+        },
+        {
+          "id": "N2_08_M11_08",
+          "typeId": "N2-RD-MID",
+          "category": "Mondai 11: 中文読解",
+          "stem": "説明書の作成に時間をかけた結果、何が減ったか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "機器の台数"
+            },
+            {
+              "id": "B",
+              "text": "データの測定回数"
+            },
+            {
+              "id": "C",
+              "text": "受け手からの不明点の問い合わせ"
+            },
+            {
+              "id": "D",
+              "text": "共同研究者の人数"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "受け取り側が何度も問い合わせる必要が減ったとあります。",
+          "distractorExplanations": {
+            "A": "機器台数は述べられていません。",
+            "B": "測定回数への影響は述べられていません。",
+            "D": "人数への影響はありません。"
+          },
+          "passage": "研究データを他機関と共有すれば、同じ実験を繰り返す費用を抑えたり、別の角度から分析したりできる。しかし、共有すれば必ず研究が早く進むとは限らない。測定機器や記録方法が異なるデータをそのまま組み合わせると、見かけ上の差が機器の違いによるものなのか、実際の現象なのか分からなくなることがある。そのため、ある研究チームは、データ本体を送る前に、項目名、単位、欠測値の扱いを記した説明書を共同で作った。説明書の作成には時間がかかったが、受け取る側が不明点を何度も問い合わせる必要は減ったという。共有の価値は、ファイルを公開した数だけでは測れない。後から利用する人が条件を理解し、結果を適切に解釈できるようにして初めて、データは再利用可能な知識になる。",
+          "skill": "Reading",
+          "explanationVi": "受け取り側が何度も問い合わせる必要が減ったとあります。"
+        },
+        {
+          "id": "N2_08_M11_09",
+          "typeId": "N2-RD-MID",
+          "category": "Mondai 11: 中文読解",
+          "stem": "筆者が考えるデータ共有の価値は何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "公開したファイル数を増やすこと"
+            },
+            {
+              "id": "B",
+              "text": "同じ実験を全ての機関で繰り返すこと"
+            },
+            {
+              "id": "C",
+              "text": "共同研究の期間を短くすること"
+            },
+            {
+              "id": "D",
+              "text": "条件を理解した上で結果を適切に再利用できること"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "単なる公開数でなく、条件を理解して適切に解釈・再利用できることが価値です。",
+          "distractorExplanations": {
+            "A": "公開数だけでは測れないと述べています。",
+            "B": "繰り返し費用を抑えることが共有の一例です。",
+            "C": "時間短縮だけを価値とはしていません。"
+          },
+          "passage": "研究データを他機関と共有すれば、同じ実験を繰り返す費用を抑えたり、別の角度から分析したりできる。しかし、共有すれば必ず研究が早く進むとは限らない。測定機器や記録方法が異なるデータをそのまま組み合わせると、見かけ上の差が機器の違いによるものなのか、実際の現象なのか分からなくなることがある。そのため、ある研究チームは、データ本体を送る前に、項目名、単位、欠測値の扱いを記した説明書を共同で作った。説明書の作成には時間がかかったが、受け取る側が不明点を何度も問い合わせる必要は減ったという。共有の価値は、ファイルを公開した数だけでは測れない。後から利用する人が条件を理解し、結果を適切に解釈できるようにして初めて、データは再利用可能な知識になる。",
+          "skill": "Reading",
+          "explanationVi": "単なる公開数でなく、条件を理解して適切に解釈・再利用できることが価値です。"
+        },
+        {
+          "id": "N2_08_M12_01",
+          "typeId": "N2-RD-COMP",
+          "category": "Mondai 12: 統合理解",
+          "stem": "資料Aと資料Bに共通する考えはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "資料の公開を学習に役立てる仕組みも必要だ"
+            },
+            {
+              "id": "B",
+              "text": "資料を公開するだけで授業への参加が十分になる"
+            },
+            {
+              "id": "C",
+              "text": "授業前の資料公開をやめるべきだ"
+            },
+            {
+              "id": "D",
+              "text": "全ての解答例を事前に配るべきだ"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "両者とも事前公開そのものを否定せず、授業やアクセス方法に工夫が必要だと見ています。",
+          "distractorExplanations": {
+            "B": "Aは授業での意見交換を提案しています。",
+            "C": "Bは早期公開に賛成しています。",
+            "D": "Aは解答例を掲載しないとしています。"
+          },
+          "passage": "【資料A　授業担当者への案内】\n来学期から、講義資料は授業前日に学習サイトへ掲載します。学生が予習しやすくなる一方、資料だけを読んで授業に出なくなることを心配する声もあります。そこで、資料には授業で扱う問いを示しますが、解答例は掲載しません。授業では、資料に書かれていない事例を取り上げ、学生同士の意見交換を行ってください。\n\n【資料B　学生委員会の提案】\n講義資料を早く見られることには賛成です。ただし、予習を前提に授業を進めると、アルバイトなどで事前に準備できない学生が不利になる可能性があります。資料を読んでいなくても参加できるよう、授業の冒頭に要点を短く確認する時間を設けてほしいです。また、資料の公開日を科目ごとに変えるのではなく、学習サイトの操作が分かりやすくなるよう、掲載場所を統一してほしいと考えます。",
+          "skill": "Reading",
+          "explanationVi": "両者とも事前公開そのものを否定せず、授業やアクセス方法に工夫が必要だと見ています。"
+        },
+        {
+          "id": "N2_08_M12_02",
+          "typeId": "N2-RD-COMP",
+          "category": "Mondai 12: 統合理解",
+          "stem": "授業資料を事前に読めない学生への対応として、資料Bが求めているものは何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "予習できない学生の出席を免除する制度"
+            },
+            {
+              "id": "B",
+              "text": "授業冒頭で要点を確認する時間"
+            },
+            {
+              "id": "C",
+              "text": "授業後に解答例を公開すること"
+            },
+            {
+              "id": "D",
+              "text": "全ての授業をオンライン化すること"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "資料Bは事前準備できない学生も参加できるよう、冒頭で要点を確認する時間を希望しています。",
+          "distractorExplanations": {
+            "A": "出席免除の提案はありません。",
+            "C": "解答例については触れていません。",
+            "D": "オンライン化の提案はありません。"
+          },
+          "passage": "【資料A　授業担当者への案内】\n来学期から、講義資料は授業前日に学習サイトへ掲載します。学生が予習しやすくなる一方、資料だけを読んで授業に出なくなることを心配する声もあります。そこで、資料には授業で扱う問いを示しますが、解答例は掲載しません。授業では、資料に書かれていない事例を取り上げ、学生同士の意見交換を行ってください。\n\n【資料B　学生委員会の提案】\n講義資料を早く見られることには賛成です。ただし、予習を前提に授業を進めると、アルバイトなどで事前に準備できない学生が不利になる可能性があります。資料を読んでいなくても参加できるよう、授業の冒頭に要点を短く確認する時間を設けてほしいです。また、資料の公開日を科目ごとに変えるのではなく、学習サイトの操作が分かりやすくなるよう、掲載場所を統一してほしいと考えます。",
+          "skill": "Reading",
+          "explanationVi": "資料Bは事前準備できない学生も参加できるよう、冒頭で要点を確認する時間を希望しています。"
+        },
+        {
+          "id": "N2_08_M13_01",
+          "typeId": "N2-RD-LONG",
+          "category": "Mondai 13: 長文読解",
+          "stem": "筆者が最初に注意していることは何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "教育に技術を使うと必ず学力が下がること"
+            },
+            {
+              "id": "B",
+              "text": "録画教材を全面的に廃止すること"
+            },
+            {
+              "id": "C",
+              "text": "技術を導入した事実だけを学習改善と同一視しないこと"
+            },
+            {
+              "id": "D",
+              "text": "自動採点を使うと教員が不要になること"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "導入自体と学習改善は同じではないと冒頭で述べています。",
+          "distractorExplanations": {
+            "A": "技術の利点も認めており、必ず悪影響があるとは言いません。",
+            "B": "録画の廃止を求めていません。",
+            "D": "教員不要とは述べていません。"
+          },
+          "passage": "新しい技術が教育に入ると、学び方は便利になる。講義を録画すれば、欠席した学生も後から見られる。自動採点を使えば、教員は基礎問題の採点に費やす時間を減らせる。こうした利点は確かに大きい。しかし、技術を導入したこと自体を、学習の改善と同じものとして扱ってはいけない。\n\n例えば、学習サイトに教材を置いただけで学生が理解できるようになるわけではない。何をどの順番で学ぶのかが分からなければ、教材が増えるほど、かえって必要な情報を探しにくくなることもある。自動採点についても、短い選択問題で正答できたことと、学んだ考え方を別の場面で使えることは同じではない。点数がすぐ返る便利さに注目するあまり、学生がどこで考え違いをしたのかを確かめる機会が失われてはならない。\n\nでは、技術を教育に生かすには何が必要だろうか。まず、解決したい学習上の課題を具体的にすることだ。授業後に復習する時間が取れないのか、資料のどこを読めばよいか分からないのか、質問する相手がいないのかによって、必要な支援は違う。次に、導入前に小さな範囲で試し、利用者の声と学習の成果を合わせて見る。利用回数が増えたという数字だけでは、理解が深まったかは分からない。\n\nそして、技術を使う人が結果を判断する役割を手放さないことも重要である。自動判定が誤った場合に誰が説明するのか、記録された学習情報を誰がどの期間見るのかを、導入前に決めておかなければならない。学習者にとって有益な技術とは、教員や学生の判断を置き換えるものではなく、必要な情報を得て次の行動を選びやすくするものだ。便利さを測るだけでなく、学ぶ人が自分で考える余地を保てているかを問い続ける必要がある。",
+          "skill": "Reading",
+          "explanationVi": "導入自体と学習改善は同じではないと冒頭で述べています。"
+        },
+        {
+          "id": "N2_08_M13_02",
+          "typeId": "N2-RD-LONG",
+          "category": "Mondai 13: 長文読解",
+          "stem": "筆者によると、学習サイトの教材が増えることで起こりうる問題は何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "学生が教材を印刷できなくなる"
+            },
+            {
+              "id": "B",
+              "text": "自動採点ができなくなる"
+            },
+            {
+              "id": "C",
+              "text": "教員の採点時間が増える"
+            },
+            {
+              "id": "D",
+              "text": "必要な教材を探しにくくなる"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "学ぶ順序が分からないまま教材が増えると、必要な情報を探しにくくなる場合があります。",
+          "distractorExplanations": {
+            "A": "印刷の可否には触れていません。",
+            "B": "サイト教材と自動採点の機能は別です。",
+            "C": "教材数と採点時間の因果は述べていません。"
+          },
+          "passage": "新しい技術が教育に入ると、学び方は便利になる。講義を録画すれば、欠席した学生も後から見られる。自動採点を使えば、教員は基礎問題の採点に費やす時間を減らせる。こうした利点は確かに大きい。しかし、技術を導入したこと自体を、学習の改善と同じものとして扱ってはいけない。\n\n例えば、学習サイトに教材を置いただけで学生が理解できるようになるわけではない。何をどの順番で学ぶのかが分からなければ、教材が増えるほど、かえって必要な情報を探しにくくなることもある。自動採点についても、短い選択問題で正答できたことと、学んだ考え方を別の場面で使えることは同じではない。点数がすぐ返る便利さに注目するあまり、学生がどこで考え違いをしたのかを確かめる機会が失われてはならない。\n\nでは、技術を教育に生かすには何が必要だろうか。まず、解決したい学習上の課題を具体的にすることだ。授業後に復習する時間が取れないのか、資料のどこを読めばよいか分からないのか、質問する相手がいないのかによって、必要な支援は違う。次に、導入前に小さな範囲で試し、利用者の声と学習の成果を合わせて見る。利用回数が増えたという数字だけでは、理解が深まったかは分からない。\n\nそして、技術を使う人が結果を判断する役割を手放さないことも重要である。自動判定が誤った場合に誰が説明するのか、記録された学習情報を誰がどの期間見るのかを、導入前に決めておかなければならない。学習者にとって有益な技術とは、教員や学生の判断を置き換えるものではなく、必要な情報を得て次の行動を選びやすくするものだ。便利さを測るだけでなく、学ぶ人が自分で考える余地を保てているかを問い続ける必要がある。",
+          "skill": "Reading",
+          "explanationVi": "学ぶ順序が分からないまま教材が増えると、必要な情報を探しにくくなる場合があります。"
+        },
+        {
+          "id": "N2_08_M13_03",
+          "typeId": "N2-RD-LONG",
+          "category": "Mondai 13: 長文読解",
+          "stem": "筆者が教育技術に望んでいる役割はどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "学習者が必要な情報を得て次の行動を選びやすくすること"
+            },
+            {
+              "id": "B",
+              "text": "利用回数を増やすことを最終目標にすること"
+            },
+            {
+              "id": "C",
+              "text": "教員や学生の判断を完全に置き換えること"
+            },
+            {
+              "id": "D",
+              "text": "学習記録を無期限に保存すること"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "技術は判断を置き換えず、学習者の次の行動を選びやすくする支援とされています。",
+          "distractorExplanations": {
+            "B": "利用回数だけでは成果を測れないと述べています。",
+            "C": "判断の役割を手放さないよう求めています。",
+            "D": "記録の閲覧者・期間は事前に決めるべきとしています。"
+          },
+          "passage": "新しい技術が教育に入ると、学び方は便利になる。講義を録画すれば、欠席した学生も後から見られる。自動採点を使えば、教員は基礎問題の採点に費やす時間を減らせる。こうした利点は確かに大きい。しかし、技術を導入したこと自体を、学習の改善と同じものとして扱ってはいけない。\n\n例えば、学習サイトに教材を置いただけで学生が理解できるようになるわけではない。何をどの順番で学ぶのかが分からなければ、教材が増えるほど、かえって必要な情報を探しにくくなることもある。自動採点についても、短い選択問題で正答できたことと、学んだ考え方を別の場面で使えることは同じではない。点数がすぐ返る便利さに注目するあまり、学生がどこで考え違いをしたのかを確かめる機会が失われてはならない。\n\nでは、技術を教育に生かすには何が必要だろうか。まず、解決したい学習上の課題を具体的にすることだ。授業後に復習する時間が取れないのか、資料のどこを読めばよいか分からないのか、質問する相手がいないのかによって、必要な支援は違う。次に、導入前に小さな範囲で試し、利用者の声と学習の成果を合わせて見る。利用回数が増えたという数字だけでは、理解が深まったかは分からない。\n\nそして、技術を使う人が結果を判断する役割を手放さないことも重要である。自動判定が誤った場合に誰が説明するのか、記録された学習情報を誰がどの期間見るのかを、導入前に決めておかなければならない。学習者にとって有益な技術とは、教員や学生の判断を置き換えるものではなく、必要な情報を得て次の行動を選びやすくするものだ。便利さを測るだけでなく、学ぶ人が自分で考える余地を保てているかを問い続ける必要がある。",
+          "skill": "Reading",
+          "explanationVi": "技術は判断を置き換えず、学習者の次の行動を選びやすくする支援とされています。"
+        },
+        {
+          "id": "N2_08_M14_01",
+          "typeId": "N2-RD-INFO",
+          "category": "Mondai 14: 情報検索",
+          "stem": "金曜日の発表資料相談を希望する博士課程の学生は、何をすればよいか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "予約当日に完成したスライドを提出する"
+            },
+            {
+              "id": "B",
+              "text": "希望日の3日前までに予約し、相談内容を100字以内で入力する"
+            },
+            {
+              "id": "C",
+              "text": "指導教員の確認なしに研究計画を提出する"
+            },
+            {
+              "id": "D",
+              "text": "相談料を支払い、個人情報を含むデータを持参する"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "対象資格を満たす学生は、期限までにサイトから予約し、相談内容を100字以内で入力します。",
+          "distractorExplanations": {
+            "A": "発表資料は完成前でも相談できます。",
+            "C": "研究計画の指導教員確認が対象条件です。",
+            "D": "無料で、個人情報の削除は統計相談の注意です。"
+          },
+          "passage": "【大学院生向け 研究支援プログラム】\n対象：本学の修士・博士課程に在籍し、研究計画が指導教員に確認されている学生\n内容：統計相談、学術論文の検索、研究発表スライドの相談（各回30分）\n開催：火曜 16:00–18:00（統計相談）／水曜 13:00–15:00（論文検索）／金曜 10:00–12:00（発表資料）\n申込：希望日の3日前までに学習支援サイトから予約。相談内容を100字以内で入力する。\n費用：無料。各相談は月2回まで。\n注意：統計相談ではデータの個人情報を削除して持参する。発表資料は完成前でも相談できる。予約変更は前日正午まで。",
+          "skill": "Reading",
+          "explanationVi": "対象資格を満たす学生は、期限までにサイトから予約し、相談内容を100字以内で入力します。"
+        },
+        {
+          "id": "N2_08_M14_02",
+          "typeId": "N2-RD-INFO",
+          "category": "Mondai 14: 情報検索",
+          "stem": "統計相談を予約する際に特に注意することは何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "相談は水曜日に限られる"
+            },
+            {
+              "id": "B",
+              "text": "月に何度でも利用できる"
+            },
+            {
+              "id": "C",
+              "text": "データから個人情報を削除する"
+            },
+            {
+              "id": "D",
+              "text": "予約変更は当日まで可能である"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "統計相談では個人情報を削除して持参するよう指定されています。",
+          "distractorExplanations": {
+            "A": "統計相談は火曜日です。",
+            "B": "各相談は月2回までです。",
+            "D": "変更は前日正午までです。"
+          },
+          "passage": "【大学院生向け 研究支援プログラム】\n対象：本学の修士・博士課程に在籍し、研究計画が指導教員に確認されている学生\n内容：統計相談、学術論文の検索、研究発表スライドの相談（各回30分）\n開催：火曜 16:00–18:00（統計相談）／水曜 13:00–15:00（論文検索）／金曜 10:00–12:00（発表資料）\n申込：希望日の3日前までに学習支援サイトから予約。相談内容を100字以内で入力する。\n費用：無料。各相談は月2回まで。\n注意：統計相談ではデータの個人情報を削除して持参する。発表資料は完成前でも相談できる。予約変更は前日正午まで。",
+          "skill": "Reading",
+          "explanationVi": "統計相談では個人情報を削除して持参するよう指定されています。"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec-2",
+      "sectionName": "Phần 2: Nghe hiểu (Listening Comprehension)",
+      "durationMinutes": 50,
+      "itemCount": 30,
+      "audioStatus": "BROWSER_PLAYBACK_VERIFIED",
+      "audioNoticeVi": "30 tệp đã khớp SHA-256, giải mã và ghi nhận tiến triển phát trên trình duyệt; chưa có chứng nhận chuyên gia về phát âm.",
+      "items": [
+        {
+          "id": "N2_08_M1_L01",
+          "typeId": "N2-LIS-TASK",
+          "category": "Mondai 1: 課題理解",
+          "script": "大学の研究室で、指導教員と大学院生が倫理審査の申請について話しています。学生はこの後、まず何をしますか。\n\n男：申請書はほぼ完成しました。参加者への説明文も付けてあります。\n女：説明文は分かりやすいけれど、調査を途中でやめても不利益がないことが書かれていないわ。\n男：確かに。データの保管場所は書いてあります。\n女：そこは問題ないわ。まず、参加者がいつでも撤回できることを追記して。それから、質問票の最終版を添えて事務局に出しましょう。\n男：分かりました。説明文を直して、質問票も付けます。",
+          "stem": "男性はまず何をしますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "参加者が調査を撤回できることを説明文に加える"
+            },
+            {
+              "id": "B",
+              "text": "データの保管場所を変更する"
+            },
+            {
+              "id": "C",
+              "text": "申請書を事務局に提出する"
+            },
+            {
+              "id": "D",
+              "text": "質問票を参加者に配布する"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "まず説明文に参加撤回の権利を追記し、その後に質問票とともに提出します。",
+          "distractorExplanations": {
+            "B": "保管場所は問題ないと確認され、変更指示はありません。",
+            "C": "提出は説明文への追記後に行います。",
+            "D": "質問票は申請書への添付であり、参加者への配布とは言われていません。"
+          },
+          "skill": "Listening",
+          "explanationVi": "まず説明文に参加撤回の権利を追記し、その後に質問票とともに提出します。",
+          "audioUrl": "audio/n2_mock_08/N2_08_M1_L01.mp3",
+          "audioDurationSec": 58.488,
+          "audioSha256": "ca9e7d126a18bed6c1525def2d670c609c61966ba1b362f723e8a1e32629dac3",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M1_L02",
+          "typeId": "N2-LIS-TASK",
+          "category": "Mondai 1: 課題理解",
+          "script": "大学の実験室で、女性の研究員と男性の技術職員が装置の予約について話しています。女性はこの後、何をしますか。\n\n女：明日の午前に分光計を使いたいのですが、予約表には午後と書かれていました。\n男：午後は別の研究班が使います。午前に使うなら、まず今日中に試料の種類を登録してください。\n女：予約の変更は必要ですか。\n男：午前の枠は空いていますから、予約表の時間を直すだけで大丈夫です。装置の校正は私が朝に済ませます。\n女：分かりました。試料を登録して、時間を午前に変更します。",
+          "stem": "女性はこの後、何をしますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "装置の校正をする"
+            },
+            {
+              "id": "B",
+              "text": "予約時間を午前に直し、試料の種類を登録する"
+            },
+            {
+              "id": "C",
+              "text": "別の研究班に午後の利用を頼む"
+            },
+            {
+              "id": "D",
+              "text": "試料を装置に入れておく"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "午前の利用は可能です。本人は試料登録と予約表の時刻変更を行います。",
+          "distractorExplanations": {
+            "A": "校正は技術職員が朝に行うと言っています。",
+            "C": "午後の枠は別の班が使うため、変更できません。",
+            "D": "試料を装置に入れておく指示はありません。"
+          },
+          "skill": "Listening",
+          "explanationVi": "午前の利用は可能です。本人は試料登録と予約表の時刻変更を行います。",
+          "audioUrl": "audio/n2_mock_08/N2_08_M1_L02.mp3",
+          "audioDurationSec": 56.688,
+          "audioSha256": "1c2ecde5db6e14722c917d8ab8593512219c0705bce74b86494f3eed6248e433",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M1_L03",
+          "typeId": "N2-LIS-TASK",
+          "category": "Mondai 1: 課題理解",
+          "script": "講義の後で、学生と教員がレポートの引用方法について話しています。学生はまず何をしますか。\n\n男：先生、引用した論文の一覧は最後に付けました。\n女：一覧は整っているけれど、本文のどの記述がどの論文に基づくか分かりにくいわ。\n男：ページ番号も必要でしょうか。\n女：直接引用した箇所にはページ番号を付けてください。要約した部分は著者名と出版年があればいいです。締切は来週ですが、まず本文の引用表示を直しましょう。\n男：はい。文献一覧を作り直す前に、本文を確認します。",
+          "stem": "学生はまず何をしますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "締切を延ばしてもらう"
+            },
+            {
+              "id": "B",
+              "text": "全ての論文を読み直す"
+            },
+            {
+              "id": "C",
+              "text": "本文中の引用表示を修正する"
+            },
+            {
+              "id": "D",
+              "text": "文献一覧を削除する"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "教員は先に本文の引用箇所を明確にするよう指示しています。",
+          "distractorExplanations": {
+            "A": "締切延長の相談は出ていません。",
+            "B": "論文全体を読み直す指示ではなく、引用表示を直します。",
+            "D": "文献一覧は整っていると評価されています。"
+          },
+          "skill": "Listening",
+          "explanationVi": "教員は先に本文の引用箇所を明確にするよう指示しています。",
+          "audioUrl": "audio/n2_mock_08/N2_08_M1_L03.mp3",
+          "audioDurationSec": 55.92,
+          "audioSha256": "18d7733784f105bdd0ec5cf788b516396417a7dc8db37b9f4d8fb34105229dde",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M1_L04",
+          "typeId": "N2-LIS-TASK",
+          "category": "Mondai 1: 課題理解",
+          "script": "大学の講義室で、二人の学生が共同発表の準備について話しています。女性はこの後、何をしますか。\n\n女：スライドの図はできたけれど、文字が小さすぎないかな。\n男：教室の後ろから見ると少し読みにくいね。内容は変えなくていいから、図の説明と文字を大きくしよう。\n女：発表順の表も入れる？\n男：それは先生が配った資料に載っているから、スライドにはいらないよ。\n女：じゃあ、図の文字を直して、今日中に共有フォルダに置くね。",
+          "stem": "女性はこの後、何をしますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "発表順を調べてスライドに加える"
+            },
+            {
+              "id": "B",
+              "text": "先生に資料を作ってもらう"
+            },
+            {
+              "id": "C",
+              "text": "発表内容を全部書き直す"
+            },
+            {
+              "id": "D",
+              "text": "図の説明と文字を大きくして共有する"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "内容や発表順は変えず、読みにくい図の説明を大きくして共有します。",
+          "distractorExplanations": {
+            "A": "発表順は配布資料にあり、スライドには不要です。",
+            "B": "資料作成を教員に頼む話はありません。",
+            "C": "内容は変えず、図の文字を大きくします。"
+          },
+          "skill": "Listening",
+          "explanationVi": "内容や発表順は変えず、読みにくい図の説明を大きくして共有します。",
+          "audioUrl": "audio/n2_mock_08/N2_08_M1_L04.mp3",
+          "audioDurationSec": 47.28,
+          "audioSha256": "2fac9f908d1b33a565e2ecebb6f9241720c5b79727120fa0b88535da662a81f6",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M1_L05",
+          "typeId": "N2-LIS-TASK",
+          "category": "Mondai 1: 課題理解",
+          "script": "学会発表の準備について、大学院生と研究室の先輩が話しています。大学院生は最初に何をしますか。\n\n女：ポスターの印刷を予約しようと思っています。\n男：その前に、学会の要旨提出が今夜までだよ。ポスターの印刷は採択通知が来てからでも間に合う。\n女：要旨は先生に見てもらっています。\n男：先生から戻ったら、字数を確認してすぐ提出して。図の色を調整するのはその後でいい。\n女：分かりました。まず要旨を出します。",
+          "stem": "大学院生は最初に何をしますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "要旨の字数を確認して提出する"
+            },
+            {
+              "id": "B",
+              "text": "印刷室の予約を取る"
+            },
+            {
+              "id": "C",
+              "text": "ポスターの色を調整する"
+            },
+            {
+              "id": "D",
+              "text": "採択通知の結果を問い合わせる"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "締切が最も近いのは要旨提出です。字数を確認して今夜までに送ります。",
+          "distractorExplanations": {
+            "B": "まず締切の近い要旨を提出します。",
+            "C": "印刷予約は採択通知後でも間に合うと言われています。",
+            "D": "採択通知を問い合わせるよう指示されていません。"
+          },
+          "skill": "Listening",
+          "explanationVi": "締切が最も近いのは要旨提出です。字数を確認して今夜までに送ります。",
+          "audioUrl": "audio/n2_mock_08/N2_08_M1_L05.mp3",
+          "audioDurationSec": 49.752,
+          "audioSha256": "20309d5af224cfbd178c6d57cdf5c70d78f05442199e076cc25ecb50d447bf8f",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M2_L01",
+          "typeId": "N2-LIS-POINT",
+          "category": "Mondai 2: ポイント理解",
+          "script": "研究会の準備について、教授と学生が話しています。学生は資料をいつまでに送りますか。\n\n男：発表資料の初稿はできましたか。\n女：図の説明を直しているところです。\n男：内容は明日確認できます。ただ、参加者に事前に配るので、今日の午後五時までに共有フォルダへ入れてください。印刷は事務の方が明日の朝にします。\n女：分かりました。五時までに入れます。",
+          "stem": "学生は資料をいつまでに送りますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "今日の午後五時まで"
+            },
+            {
+              "id": "B",
+              "text": "今日の夜まで"
+            },
+            {
+              "id": "C",
+              "text": "明日の朝まで"
+            },
+            {
+              "id": "D",
+              "text": "研究会の開始後"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "参加者への配布準備のため、今日の午後五時が締切です。",
+          "distractorExplanations": {
+            "B": "夜までではなく午後五時が締切です。",
+            "C": "印刷は明日の朝ですが、学生の提出期限は今日です。",
+            "D": "研究会の後ではなく、事前配布のために送ります。"
+          },
+          "skill": "Listening",
+          "explanationVi": "参加者への配布準備のため、今日の午後五時が締切です。",
+          "audioUrl": "audio/n2_mock_08/N2_08_M2_L01.mp3",
+          "audioDurationSec": 48.896,
+          "audioSha256": "102227fa29ec81e2a1acd494176156144f3b9ce24dcdd4908639bbc5561a8579",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M2_L02",
+          "typeId": "N2-LIS-POINT",
+          "category": "Mondai 2: ポイント理解",
+          "script": "講義の受講方法について、教員が学生に説明しています。録画を見た学生は何をする必要がありますか。\n\n女：出張などで講義を欠席した人は、金曜日までに録画を見てください。ただし、視聴しただけでは出席扱いになりません。学習サイトにある確認問題を提出すると、出席記録に反映されます。質問がある人は、次の授業で聞いてください。",
+          "stem": "録画を見た学生は何をする必要がありますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "次の授業を欠席する"
+            },
+            {
+              "id": "B",
+              "text": "確認問題を提出する"
+            },
+            {
+              "id": "C",
+              "text": "教員に電話する"
+            },
+            {
+              "id": "D",
+              "text": "録画を自分で編集する"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "録画視聴だけでは出席にならず、サイトの確認問題提出が必要です。",
+          "distractorExplanations": {
+            "A": "録画を見るだけでは出席扱いになりません。",
+            "C": "次の授業で質問するのは任意の案内です。",
+            "D": "録画の編集を学生に求めていません。"
+          },
+          "skill": "Listening",
+          "explanationVi": "録画視聴だけでは出席にならず、サイトの確認問題提出が必要です。",
+          "audioUrl": "audio/n2_mock_08/N2_08_M2_L02.mp3",
+          "audioDurationSec": 47.792,
+          "audioSha256": "b0ef2514b0a42689ad1a9b8242e7b2fcfcf55ce6b6246e055c98b4a86611a1f4",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M2_L03",
+          "typeId": "N2-LIS-POINT",
+          "category": "Mondai 2: ポイント理解",
+          "script": "研究発表のポスターについて、二人の学生が話しています。男性は図をどうすることにしましたか。\n\n女：この図、測定結果が三種類あるのに、線が全部同じ色だね。\n男：白黒で印刷する予定だから、色だけでは区別できないね。\n女：線の種類を変えて、凡例にも説明を入れようか。\n男：そうしよう。データの数字は合っているから、そこは直さなくていい。",
+          "stem": "男性は図をどうすることにしましたか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "測定値そのものを変更する"
+            },
+            {
+              "id": "B",
+              "text": "カラー印刷に切り替える"
+            },
+            {
+              "id": "C",
+              "text": "線の種類を変え、凡例に説明を加える"
+            },
+            {
+              "id": "D",
+              "text": "図をポスターから外す"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "白黒印刷でも区別できるよう線種と凡例を変更し、数字はそのままです。",
+          "distractorExplanations": {
+            "A": "数字は合っているので変更しません。",
+            "B": "白黒印刷のままで、線種を変えます。",
+            "D": "図はポスターに残し、見分けやすくします。"
+          },
+          "skill": "Listening",
+          "explanationVi": "白黒印刷でも区別できるよう線種と凡例を変更し、数字はそのままです。",
+          "audioUrl": "audio/n2_mock_08/N2_08_M2_L03.mp3",
+          "audioDurationSec": 46.952,
+          "audioSha256": "fe1552359730501e716853212af6e8f292d2dd1d1d26c2bbc6d1c74a3fbd593e",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M2_L04",
+          "typeId": "N2-LIS-POINT",
+          "category": "Mondai 2: ポイント理解",
+          "script": "大学の情報担当者が、学生に新しい認証方式を説明しています。学生がパスワードを忘れた場合、まず何をしますか。\n\n男：来月から、学内サービスは二段階認証になります。スマートフォンを交換した人は、古い端末を処分する前に新しい端末を登録してください。パスワードを忘れた場合は、教務課ではなく情報センターの窓口で本人確認を受けてください。",
+          "stem": "パスワードを忘れた学生は、まずどうしますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "教務課にメールする"
+            },
+            {
+              "id": "B",
+              "text": "古い端末を処分する"
+            },
+            {
+              "id": "C",
+              "text": "新しいパスワードを友人に聞く"
+            },
+            {
+              "id": "D",
+              "text": "情報センターで本人確認を受ける"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "忘れた場合の窓口は情報センターで、本人確認を受けるよう案内されています。",
+          "distractorExplanations": {
+            "A": "手続き先は教務課ではなく情報センターです。",
+            "B": "古い端末の処分は新端末登録の注意で、パスワードを忘れたときの手順ではありません。",
+            "C": "友人にパスワードを聞く方法は案内されていません。"
+          },
+          "skill": "Listening",
+          "explanationVi": "忘れた場合の窓口は情報センターで、本人確認を受けるよう案内されています。",
+          "audioUrl": "audio/n2_mock_08/N2_08_M2_L04.mp3",
+          "audioDurationSec": 46.256,
+          "audioSha256": "f529994386c9c9906b325969308b02426e36cb5b146746eb1934eff0f0e58ab6",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M2_L05",
+          "typeId": "N2-LIS-POINT",
+          "category": "Mondai 2: ポイント理解",
+          "script": "実験データの保存について、研究室の職員が説明しています。共有データを保存する場所はどこですか。\n\n女：個人の作業ファイルは各自の端末に保存して構いません。ただし、共同研究のデータは研究室の共有サーバーに保存してください。個人のクラウドに置くと、メンバーがアクセスできない場合があります。\n男：バックアップはどうしますか。\n女：サーバーは毎晩自動で複製されます。",
+          "stem": "共同研究のデータはどこに保存しますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "研究室の共有サーバー"
+            },
+            {
+              "id": "B",
+              "text": "個人の端末だけ"
+            },
+            {
+              "id": "C",
+              "text": "各自の個人クラウド"
+            },
+            {
+              "id": "D",
+              "text": "印刷して研究室に保管"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "共同研究データは研究室共有サーバーに保存します。",
+          "distractorExplanations": {
+            "B": "個人端末ではなく共有サーバーに保存します。",
+            "C": "個人クラウドでは他のメンバーが使えない場合があります。",
+            "D": "印刷保管の案内はありません。"
+          },
+          "skill": "Listening",
+          "explanationVi": "共同研究データは研究室共有サーバーに保存します。",
+          "audioUrl": "audio/n2_mock_08/N2_08_M2_L05.mp3",
+          "audioDurationSec": 49.36,
+          "audioSha256": "d7cfe550b19d4025e8d52572425efa52e76e1ebe97a2efdd73e087dc8792d6f8",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M2_L06",
+          "typeId": "N2-LIS-POINT",
+          "category": "Mondai 2: ポイント理解",
+          "script": "学習支援センターの職員が、予約変更について学生に説明しています。予約を変更できるのはいつまでですか。\n\n女：相談予約を変更したい場合は、予約日の前日正午までにサイトで手続きしてください。それを過ぎると、担当者に直接連絡しても変更できません。キャンセルした枠は、ほかの学生が申し込めるようになります。",
+          "stem": "学生はいつまでに予約を変更できますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "予約日の前日夜まで"
+            },
+            {
+              "id": "B",
+              "text": "予約日の前日正午まで"
+            },
+            {
+              "id": "C",
+              "text": "予約開始の一時間前まで"
+            },
+            {
+              "id": "D",
+              "text": "相談が始まった後"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "予約の変更期限は、予約日の前日正午までと案内されています。",
+          "distractorExplanations": {
+            "A": "変更期限は前日正午です。",
+            "C": "前日の夜ではなく正午までです。",
+            "D": "開始後の変更はできないと説明されています。"
+          },
+          "skill": "Listening",
+          "explanationVi": "予約の変更期限は、予約日の前日正午までと案内されています。",
+          "audioUrl": "audio/n2_mock_08/N2_08_M2_L06.mp3",
+          "audioDurationSec": 44.888,
+          "audioSha256": "ec991fcb993f3ba4d4c105f6fd043ecc19e8d32675cdeaf3229caffdb436c83b",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M3_L01",
+          "typeId": "N2-LIS-SUMM",
+          "category": "Mondai 3: 概要理解",
+          "script": "大学の公開講座で、研究者が人工知能について話しています。何について話していますか。\n\n女：機械学習は、大量の例から共通点を見つけるのが得意です。しかし、入力したデータに偏りがあれば、その偏りを反映した予測を出すことがあります。結果の数値だけを見て判断せず、どんなデータで学習したかを調べることが大切です。\n何について話していますか。",
+          "stem": "話者が最も伝えたいことは何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "機械学習の結果は学習データと合わせて確かめるべきだ"
+            },
+            {
+              "id": "B",
+              "text": "人工知能は大量のデータを必要としない"
+            },
+            {
+              "id": "C",
+              "text": "予測の数値は常に人間より正確だ"
+            },
+            {
+              "id": "D",
+              "text": "機械学習の開発を中止すべきだ"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "話者は、予測の背後にある学習データの偏りを確認する必要性を述べています。",
+          "distractorExplanations": {
+            "B": "話者は技術を中止すべきとは言わず、データの偏りを確認するよう述べています。",
+            "C": "予測は学習データに左右されるため、常に正確とは述べていません。",
+            "D": "人工知能の開発停止を提案していません。"
+          },
+          "skill": "Listening",
+          "explanationVi": "話者は、予測の背後にある学習データの偏りを確認する必要性を述べています。",
+          "audioUrl": "audio/n2_mock_08/N2_08_M3_L01.mp3",
+          "audioDurationSec": 63.22,
+          "audioSha256": "15a528a170e46192637fbf4a419fde26e5ddf1eebed21e338a826a0db3dce5c5",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M3_L02",
+          "typeId": "N2-LIS-SUMM",
+          "category": "Mondai 3: 概要理解",
+          "script": "大学図書館の職員が、電子資料の利用について案内しています。何について話していますか。\n\n男：電子資料は場所を選ばず読めるので便利ですが、契約によって同時に使える人数が限られています。利用中と表示されたときは、端末の故障とは限りません。少し時間を置くか、別の資料を探してください。\n何について話していますか。",
+          "stem": "職員が説明していることは何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "図書館の電子資料を全て廃止する計画"
+            },
+            {
+              "id": "B",
+              "text": "電子資料の同時利用制限と、利用できないときの対応"
+            },
+            {
+              "id": "C",
+              "text": "端末を修理する窓口の場所"
+            },
+            {
+              "id": "D",
+              "text": "紙の本を電子資料に変える方法"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "電子資料の同時利用上限と、利用中表示が出たときの対処を説明しています。",
+          "distractorExplanations": {
+            "A": "同時利用制限はありますが、資料廃止の話ではありません。",
+            "C": "故障窓口の案内ではなく、利用中表示への対処です。",
+            "D": "紙の本を変換する話ではありません。"
+          },
+          "skill": "Listening",
+          "explanationVi": "電子資料の同時利用上限と、利用中表示が出たときの対処を説明しています。",
+          "audioUrl": "audio/n2_mock_08/N2_08_M3_L02.mp3",
+          "audioDurationSec": 58.948,
+          "audioSha256": "43575664e46d8c113b7a2fdc53bc93b65c8d7cba6f0d5b4a14dac03951563399",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M3_L03",
+          "typeId": "N2-LIS-SUMM",
+          "category": "Mondai 3: 概要理解",
+          "script": "研究室の会議で、指導教員が実験結果について話しています。何について話していますか。\n\n男：今回の測定値は予想と違いましたが、すぐに失敗と決める必要はありません。まず機器の設定と試料の状態を確認しましょう。その上で、同じ実験を別の担当者にも行ってもらいます。結果が再現するかどうかを見てから、原因を考えます。\n何について話していますか。",
+          "stem": "教員が勧めていることは何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "予想と違う結果を捨てること"
+            },
+            {
+              "id": "B",
+              "text": "一人の測定結果だけで結論を出すこと"
+            },
+            {
+              "id": "C",
+              "text": "再現性を確かめてから原因を判断すること"
+            },
+            {
+              "id": "D",
+              "text": "機器の設定を記録しないこと"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "予想外の結果を直ちに棄却せず、条件を確認して再現性を調べるよう勧めています。",
+          "distractorExplanations": {
+            "A": "予想外の値を捨てるようには言っていません。",
+            "B": "一人の結果でなく、別の担当者にも再現を確かめます。",
+            "D": "条件を記録しないのでなく、設定を確認します。"
+          },
+          "skill": "Listening",
+          "explanationVi": "予想外の結果を直ちに棄却せず、条件を確認して再現性を調べるよう勧めています。",
+          "audioUrl": "audio/n2_mock_08/N2_08_M3_L03.mp3",
+          "audioDurationSec": 59.74,
+          "audioSha256": "6d2ccfb4fff22978b2fe45347ef117dde04f689b725535de560a0eb4e1c5dcd4",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M3_L04",
+          "typeId": "N2-LIS-SUMM",
+          "category": "Mondai 3: 概要理解",
+          "script": "オンライン授業の改善について、教員が報告しています。何について話していますか。\n\n女：動画を短く分けたところ、学生が必要な部分を見直しやすくなりました。ただ、動画を見ただけで内容を理解したかは分かりません。そこで各動画の後に短い問いを置き、次の授業では答えを説明し合う時間を作りました。視聴回数ではなく、どこでつまずいたかを見て授業を直したいと思います。\n何について話していますか。",
+          "stem": "報告者が重視していることは何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "動画の長さを全て同じにすること"
+            },
+            {
+              "id": "B",
+              "text": "視聴回数を増やすこと"
+            },
+            {
+              "id": "C",
+              "text": "対面授業をなくすこと"
+            },
+            {
+              "id": "D",
+              "text": "学生の理解やつまずきを授業改善に生かすこと"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "動画は手段で、理解度やつまずきを次の授業に反映することが中心です。",
+          "distractorExplanations": {
+            "A": "動画の長さをそろえることは主題ではありません。",
+            "B": "再生回数だけで成果を測らないと述べています。",
+            "C": "対面授業の廃止は提案されていません。"
+          },
+          "skill": "Listening",
+          "explanationVi": "動画は手段で、理解度やつまずきを次の授業に反映することが中心です。",
+          "audioUrl": "audio/n2_mock_08/N2_08_M3_L04.mp3",
+          "audioDurationSec": 63.34,
+          "audioSha256": "841a66ec5ff4555e5a87f76d22822917511b91e0012d3d86c7a7ce0897c6dbba",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M3_L05",
+          "typeId": "N2-LIS-SUMM",
+          "category": "Mondai 3: 概要理解",
+          "script": "研究参加者への説明について、研究者が学生に話しています。何について説明していますか。\n\n女：調査の目的だけでなく、参加しない選択をしても不利益がないことを伝えてください。質問の途中でもやめられること、集めた情報を誰が見るかも説明します。説明文を読んでもらい、分からない点がないか確認してから同意を得ましょう。\n何について話していますか。",
+          "stem": "研究者が説明している注意点は何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "参加者が自由に選べることと、情報の扱いを事前に説明すること"
+            },
+            {
+              "id": "B",
+              "text": "調査に参加しない学生の成績を下げること"
+            },
+            {
+              "id": "C",
+              "text": "質問への回答を途中で変更させないこと"
+            },
+            {
+              "id": "D",
+              "text": "同意を得ずに情報を集めること"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "参加・撤回の自由と情報の取扱いを説明し、理解を確認してから同意を得ます。",
+          "distractorExplanations": {
+            "B": "不参加による不利益はないと説明するので、成績を下げる話ではありません。",
+            "C": "参加者は途中で撤回できます。",
+            "D": "同意を得てから調査を始めます。"
+          },
+          "skill": "Listening",
+          "explanationVi": "参加・撤回の自由と情報の取扱いを説明し、理解を確認してから同意を得ます。",
+          "audioUrl": "audio/n2_mock_08/N2_08_M3_L05.mp3",
+          "audioDurationSec": 63.58,
+          "audioSha256": "16f53dae30df7dd30ee4982dd77d8b639cdd84577c999842517b211007238ce3",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M4_L01",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "問題４、1番。\n男：この図、発表資料に使ってもいいですか。",
+          "stem": "この図、発表資料に使ってもいいですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "はい、出典を明記すれば構いません。"
+            },
+            {
+              "id": "B",
+              "text": "その図は、発表の最後に載せると見やすいですよ。"
+            },
+            {
+              "id": "C",
+              "text": "図の説明は、口頭でも補ってください。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "許可を求める質問に、条件付きで許可する返答です。",
+          "distractorExplanations": {
+            "B": "配置の助言には答えず、出典を示せば利用できるかという許可条件にも触れていません。",
+            "C": "説明方法の助言だけで、図を使ってよいかという許可には答えていません。"
+          },
+          "skill": "Listening",
+          "explanationVi": "許可を求める質問に、条件付きで許可する返答です。",
+          "audioUrl": "audio/n2_mock_08/N2_08_M4_L01.mp3",
+          "audioDurationSec": 26.788,
+          "audioSha256": "4b5935f512b8ba35f26cb74003c3026083f3d84d23f524a24aaa7ffff178775f",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M4_L02",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "問題４、2番。\n男：先生、先ほどの説明で分からないところがあったのですが。",
+          "stem": "先生、先ほどの説明で分からないところがあったのですが。",
+          "options": [
+            {
+              "id": "A",
+              "text": "資料の該当ページを、あとで送りますね。"
+            },
+            {
+              "id": "B",
+              "text": "どの部分ですか。もう一度説明しましょうか。"
+            },
+            {
+              "id": "C",
+              "text": "次の授業の質問時間に、まとめて聞いてください。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "分からない点を伝えられたので、場所を尋ねて説明を申し出るのが自然です。",
+          "distractorExplanations": {
+            "A": "資料を送る申し出だけでは、説明のどの部分が分からないかという話に応じていません。",
+            "C": "質問の機会を案内するだけで、今の理解の難しさに直接応じていません。"
+          },
+          "skill": "Listening",
+          "explanationVi": "分からない点を伝えられたので、場所を尋ねて説明を申し出るのが自然です。",
+          "audioUrl": "audio/n2_mock_08/N2_08_M4_L02.mp3",
+          "audioDurationSec": 28.684,
+          "audioSha256": "28fefd81b296eb0591058618cc054f4aa302c27f33ea3897c7d0c2eebd6641c4",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M4_L03",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "問題４、3番。\n男：この装置は使用後、電源を切っておけばいいですか。",
+          "stem": "この装置は使用後、電源を切っておけばいいですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "装置の点検日は、扉の内側に書いてあります。"
+            },
+            {
+              "id": "B",
+              "text": "使った時間を、記録簿に記入しておいてください。"
+            },
+            {
+              "id": "C",
+              "text": "いいえ、電源は入れたままにしてください。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "装置の使用後の扱いを尋ねているので、電源についての指示が適切です。",
+          "distractorExplanations": {
+            "A": "点検日の案内であり、使用後の電源の扱いを示していません。",
+            "B": "使用記録の指示であり、使用後に電源を切るかという確認への返答ではありません。"
+          },
+          "skill": "Listening",
+          "explanationVi": "装置の使用後の扱いを尋ねているので、電源についての指示が適切です。",
+          "audioUrl": "audio/n2_mock_08/N2_08_M4_L03.mp3",
+          "audioDurationSec": 27.964,
+          "audioSha256": "13c1613ddb7d876bad97e25b026abdec27e0427eb5ef5bd0ca5f88ef50c0d041",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M4_L04",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "問題４、4番。\n男：共同発表の担当、私が図の説明をしてもよろしいでしょうか。",
+          "stem": "共同発表の担当、私が図の説明をしてもよろしいでしょうか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "はい、では私は背景の説明を担当します。"
+            },
+            {
+              "id": "B",
+              "text": "では、私はスライドの順番を確認しておきます。"
+            },
+            {
+              "id": "C",
+              "text": "図の出典は、資料の最後にまとめてください。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "役割分担の申し出に、もう一方の担当を返す応答です。",
+          "distractorExplanations": {
+            "B": "別の準備作業を申し出ていますが、図の説明を担当してよいかへの返答ではありません。",
+            "C": "出典の記載方法を指示していますが、担当の申し出への返答ではありません。"
+          },
+          "skill": "Listening",
+          "explanationVi": "役割分担の申し出に、もう一方の担当を返す応答です。",
+          "audioUrl": "audio/n2_mock_08/N2_08_M4_L04.mp3",
+          "audioDurationSec": 29.38,
+          "audioSha256": "617d0857e29d3bd557982c01761c6b3f5fa40263cba54edfcb648909cad1141f",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M4_L05",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "問題４、5番。\n男：この論文、来週のゼミまでに全部読まないといけませんか。",
+          "stem": "この論文、来週のゼミまでに全部読まないといけませんか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "論文の要点は、ゼミで説明してください。"
+            },
+            {
+              "id": "B",
+              "text": "全部でなくても、担当箇所は読んできてください。"
+            },
+            {
+              "id": "C",
+              "text": "読んだ箇所には、付箋を貼っておいてください。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "読む範囲を確認する質問に、担当箇所を読むよう答えるのが自然です。",
+          "distractorExplanations": {
+            "A": "発表の指示であり、ゼミまでに読む範囲を尋ねた質問への答えではありません。",
+            "C": "読み方の助言だけで、論文全体を読む必要があるかに答えていません。"
+          },
+          "skill": "Listening",
+          "explanationVi": "読む範囲を確認する質問に、担当箇所を読むよう答えるのが自然です。",
+          "audioUrl": "audio/n2_mock_08/N2_08_M4_L05.mp3",
+          "audioDurationSec": 27.508,
+          "audioSha256": "f21876057e98e5f3631624cd4aca18e83a234ef2f1f971001bd9aecc190434c8",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M4_L06",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "問題４、6番。\n男：すみません、学外からこのデータベースにアクセスできません。",
+          "stem": "すみません、学外からこのデータベースにアクセスできません。",
+          "options": [
+            {
+              "id": "A",
+              "text": "利用可能な時間帯は、図書館のサイトに載っています。"
+            },
+            {
+              "id": "B",
+              "text": "データベースの利用申請は、学期ごとに更新してください。"
+            },
+            {
+              "id": "C",
+              "text": "学内アカウントでログインしているか確認しましたか。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "アクセスできないという相談なので、認証状態を確認する質問が適切です。",
+          "distractorExplanations": {
+            "A": "利用時間の案内では、学外から接続できない問題を解決できません。",
+            "B": "申請の更新案内であり、現在のログイン状態を確かめる助言ではありません。"
+          },
+          "skill": "Listening",
+          "explanationVi": "アクセスできないという相談なので、認証状態を確認する質問が適切です。",
+          "audioUrl": "audio/n2_mock_08/N2_08_M4_L06.mp3",
+          "audioDurationSec": 29.74,
+          "audioSha256": "9718014901778383a51ce70afd7bdc98bbcfb65dec9ee90ecb64b971fb65dc1e",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M4_L07",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "問題４、7番。\n男：発表の順番、先に決めてしまいましょうか。",
+          "stem": "発表の順番、先に決めてしまいましょうか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "そうですね。時間がかかりそうな人から決めましょう。"
+            },
+            {
+              "id": "B",
+              "text": "発表時間は一人十分です。"
+            },
+            {
+              "id": "C",
+              "text": "順番が決まったら、資料を共有フォルダに置いてください。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "順番決めの提案に、決め方を提案する返答です。",
+          "distractorExplanations": {
+            "B": "持ち時間の案内だけでは、発表順を今決める提案への返答になりません。",
+            "C": "資料共有の指示で、順番の決め方を提案していません。"
+          },
+          "skill": "Listening",
+          "explanationVi": "順番決めの提案に、決め方を提案する返答です。",
+          "audioUrl": "audio/n2_mock_08/N2_08_M4_L07.mp3",
+          "audioDurationSec": 27.844,
+          "audioSha256": "2befca8dd1a14ea86cf2d5b0aea7ecaed885b3bdeb0f34e37d7576aef51f3b26",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M4_L08",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "問題４、8番。\n男：このグラフは、単位を明記したほうがいいでしょうか。",
+          "stem": "このグラフは、単位を明記したほうがいいでしょうか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "凡例には、各線が何を示すかも書いてください。"
+            },
+            {
+              "id": "B",
+              "text": "そうですね。値の意味が伝わりやすくなります。"
+            },
+            {
+              "id": "C",
+              "text": "目盛りの間隔をそろえると見やすくなります。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "グラフ表記の確認に、単位を示す利点を述べる応答です。",
+          "distractorExplanations": {
+            "A": "凡例への助言ですが、単位を明記する利点について答えていません。",
+            "C": "目盛りについての助言で、単位の表示を確認した質問への返答ではありません。"
+          },
+          "skill": "Listening",
+          "explanationVi": "グラフ表記の確認に、単位を示す利点を述べる応答です。",
+          "audioUrl": "audio/n2_mock_08/N2_08_M4_L08.mp3",
+          "audioDurationSec": 27.772,
+          "audioSha256": "00ce9df4e7c324130bc360ca7649fcffa2ab42db32b352e8c2f12590daf76182",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M4_L09",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "問題４、9番。\n男：締切が明日だと気づかなくて、まだ申請していないんです。",
+          "stem": "締切が明日だと気づかなくて、まだ申請していないんです。",
+          "options": [
+            {
+              "id": "A",
+              "text": "添付書類はPDF形式で提出してください。"
+            },
+            {
+              "id": "B",
+              "text": "申請書の提出先は、教務課の窓口です。"
+            },
+            {
+              "id": "C",
+              "text": "それなら、今すぐ必要書類をそろえたほうがいいですよ。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "申請が未完了だと聞き、急いで準備するよう助言するのが自然です。",
+          "distractorExplanations": {
+            "A": "提出形式の指示で、まず必要書類を急いでそろえる助言ではありません。",
+            "B": "提出先の案内だけでは、締切が明日で未申請という状況への助言になりません。"
+          },
+          "skill": "Listening",
+          "explanationVi": "申請が未完了だと聞き、急いで準備するよう助言するのが自然です。",
+          "audioUrl": "audio/n2_mock_08/N2_08_M4_L09.mp3",
+          "audioDurationSec": 29.38,
+          "audioSha256": "7128b7b63689006186af4440c36c98aac6cdaa8fcfb2a8e88cd9a41a1bbcb345",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M4_L10",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "問題４、10番。\n男：この説明、少し専門用語が多すぎませんか。",
+          "stem": "この説明、少し専門用語が多すぎませんか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "では、初めて聞く人にも分かる言葉に直しましょう。"
+            },
+            {
+              "id": "B",
+              "text": "専門用語を使うこと自体は、発表では大切です。"
+            },
+            {
+              "id": "C",
+              "text": "用語の意味は、質問があればその場で説明します。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "分かりにくさの指摘に対して、表現を直す提案が適切です。",
+          "distractorExplanations": {
+            "B": "用語使用の是非に触れるだけで、説明を分かりやすく直す提案をしていません。",
+            "C": "質問後に説明する方針で、現在の説明を直す提案にはなっていません。"
+          },
+          "skill": "Listening",
+          "explanationVi": "分かりにくさの指摘に対して、表現を直す提案が適切です。",
+          "audioUrl": "audio/n2_mock_08/N2_08_M4_L10.mp3",
+          "audioDurationSec": 28.972,
+          "audioSha256": "33f9f5ff1fea68219c31586334d52bdc0160a134aafc2dad3ed43a03db6279d3",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M4_L11",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "問題４、11番。\n男：教授、実験の結果が予想と違っていたので、失敗だと思います。",
+          "stem": "教授、実験の結果が予想と違っていたので、失敗だと思います。",
+          "options": [
+            {
+              "id": "A",
+              "text": "予想した結果になるまで、測定を続けてみましょう。"
+            },
+            {
+              "id": "B",
+              "text": "そう決める前に、条件と測定手順を確かめてみましょう。"
+            },
+            {
+              "id": "C",
+              "text": "予想と異なる数値は、発表資料から外しておきましょう。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "予想と異なるだけで失敗と決めず、条件を確認する返答が適切です。",
+          "distractorExplanations": {
+            "A": "予想に合わせて測定を続ける提案で、条件や手順を確かめる返答ではありません。",
+            "C": "異なる結果を隠す提案であり、結果の原因を確認する姿勢と異なります。"
+          },
+          "skill": "Listening",
+          "explanationVi": "予想と異なるだけで失敗と決めず、条件を確認する返答が適切です。",
+          "audioUrl": "audio/n2_mock_08/N2_08_M4_L11.mp3",
+          "audioDurationSec": 31.9,
+          "audioSha256": "992f88d970b4517378e28160455beeaccc914acc4e79124afc8b9f03bc9bea8b",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M5_L01",
+          "typeId": "N2-LIS-INTEG",
+          "category": "Mondai 5: 統合理解",
+          "script": "大学の研究室で、教授と二人の学生が共同調査の進め方について話しています。\n\n女：来月の調査、現地に行く班とオンラインで聞き取りをする班に分ける案はどうでしょう。\n男：対象者の年齢によって、オンラインで答えやすい人とそうでない人がいます。まず、どちらの方法も選べるようにしてはどうですか。\n女：それだと結果を比べるときに方法の違いが影響しませんか。\n男：質問の順番と内容をそろえて、最初に回答方法を記録しておけば、後から違いを確かめられます。\n女：分かりました。では調査票を同じにして、対象者が方法を選べるように説明文を直します。\n質問：二人は調査方法をどうすることにしましたか。",
+          "stem": "二人は調査方法をどうすることにしましたか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "回答者が方法を選べるようにし、方法の違いを記録する"
+            },
+            {
+              "id": "B",
+              "text": "全員を現地調査に参加させる"
+            },
+            {
+              "id": "C",
+              "text": "オンライン回答だけに限定する"
+            },
+            {
+              "id": "D",
+              "text": "質問内容を方法ごとに変える"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "対象者が方法を選べるようにしつつ、同じ質問票を使い回答方法を記録します。",
+          "distractorExplanations": {
+            "B": "現地参加に限定せず、方法を選べるようにします。",
+            "C": "オンラインだけにも限定しません。",
+            "D": "質問内容は同じものを使います。"
+          },
+          "skill": "Listening",
+          "explanationVi": "対象者が方法を選べるようにしつつ、同じ質問票を使い回答方法を記録します。",
+          "audioUrl": "audio/n2_mock_08/N2_08_M5_L01.mp3",
+          "audioDurationSec": 63.084,
+          "audioSha256": "23eb8caf48d589e84b6bc8341273497cecad62a4be351b36333a41d822377dda",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M5_L02",
+          "typeId": "N2-LIS-INTEG",
+          "category": "Mondai 5: 統合理解",
+          "script": "大学の授業改善会議で、教員二人が講義動画の活用について話しています。\n\n男：先月、講義動画を公開したら、再生回数は予想以上でした。これで学生の理解も進んだと言えるでしょうか。\n女：再生回数だけでは分かりません。確認問題の正答率を見ると、用語の説明で間違いが集中しています。\n男：では、動画を長くして説明を増やしますか。\n女：長くするより、用語を図で示して、授業で学生に例を作ってもらいましょう。問題の結果は次の回の説明に使えます。\n男：それなら動画は今の長さのままにして、次回の授業案を直します。\n質問：教員は次に何をしますか。",
+          "stem": "教員は次に何をしますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "動画を大幅に長くする"
+            },
+            {
+              "id": "B",
+              "text": "図と例を使う授業にし、確認問題の結果を生かす"
+            },
+            {
+              "id": "C",
+              "text": "動画の公開をやめる"
+            },
+            {
+              "id": "D",
+              "text": "再生回数だけを成果として報告する"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "動画の長さは変えず、理解の誤りに合わせて図示と例づくりを授業に入れます。",
+          "distractorExplanations": {
+            "A": "動画は今の長さのままにすると決めています。",
+            "C": "公開は続け、次の授業案を改善します。",
+            "D": "再生回数だけでは理解を判断できないと話しています。"
+          },
+          "skill": "Listening",
+          "explanationVi": "動画の長さは変えず、理解の誤りに合わせて図示と例づくりを授業に入れます。",
+          "audioUrl": "audio/n2_mock_08/N2_08_M5_L02.mp3",
+          "audioDurationSec": 59.868,
+          "audioSha256": "ee676545ec038fe0c50546016f00c6d58362226fb12d4edbdf23130c85ae73dc",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M5_L03",
+          "typeId": "N2-LIS-INTEG",
+          "category": "Mondai 5: 統合理解",
+          "script": "研究発表の準備について、大学院生と指導教員が話しています。\n\n女：発表スライドは完成しました。結論を一枚目に置いたので、短い時間でも伝わると思います。\n男：結論は分かりやすいね。ただ、結果がどの条件で得られたのか、説明が少ない。\n女：時間が限られているので、条件は補足資料に移しましょうか。\n男：聴衆が結論を評価するには、主要な条件は本編にも必要だよ。細かい数値は補足にして、比較した条件だけ一枚追加しよう。\n女：では、結果の前に条件のスライドを入れて、細かい数値は最後にまとめます。\n質問：女性はスライドをどう直しますか。",
+          "stem": "女性はスライドをどう直しますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "結論を削除し、全ての数値を本編に入れる"
+            },
+            {
+              "id": "B",
+              "text": "条件の説明を全て口頭だけにする"
+            },
+            {
+              "id": "C",
+              "text": "比較条件を本編に一枚加え、細かい数値は補足にする"
+            },
+            {
+              "id": "D",
+              "text": "結果を出す前に調査をやり直す"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "評価に必要な比較条件を本編に加え、細部の数値は補足資料へ移します。",
+          "distractorExplanations": {
+            "A": "結論は残します。全ての数値を本編に入れるのではありません。",
+            "B": "条件の一部は本編に図示します。",
+            "D": "調査をやり直す話ではありません。"
+          },
+          "skill": "Listening",
+          "explanationVi": "評価に必要な比較条件を本編に加え、細部の数値は補足資料へ移します。",
+          "audioUrl": "audio/n2_mock_08/N2_08_M5_L03.mp3",
+          "audioDurationSec": 59.076,
+          "audioSha256": "8cfbda2dfa8237940d7d815140e7d3ae6057a1ade0761a3a0e5ffd0ebc39fbc8",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
         }
       ]
     }

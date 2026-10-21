@@ -1,0 +1,32 @@
+[
+  {
+    "id": "N2_08_M8_01",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-GR-STAR",
+    "category": "Mondai 8: 文の組み立て",
+    "taskInstructions": "次の文の ★ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+    "stem": "論文を投稿する前に、（　　）（　　）★（　　）必要がある。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "投稿先の"
+      },
+      {
+        "id": "B",
+        "text": "規定を"
+      },
+      {
+        "id": "C",
+        "text": "確認したうえで"
+      },
+      {
+        "id": "D",
+        "text": "原稿を整える"
+      }
+    ],
+    "contentFingerprint": "3bcbd3c73468e7f84dd6d1f17227a90eb0ea40df71acd57c0905818c83d717f1"
+  }
+]

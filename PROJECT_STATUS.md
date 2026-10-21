@@ -2,9 +2,10 @@
 
 ## Phase 6 — N2 full mock production checkpoint (21/10/2026)
 
-- **N2-MOCK-07 — `QA_PENDING` for publication**: the local build contains 75 Section 1 questions, 30 Listening questions and 30 original MP3 assets. Structural, key, content-review consistency, audio-hash/playback and browser E2E checks passed locally. The 105-item assessment has version-matched AI answer-review evidence; no portable reviewer-execution attestation, human/native-speaker certification or psychometric calibration is claimed. Public release remains pending GitHub checkpoint, Actions and Pages verification.
-- **N2-MOCK-08–10 — `DRAFT`**: production has not started.
-- The M07 blueprint is a JP-STUDY practice design; its 75/30 item allocation is not represented as an official JLPT question-count requirement.
+- **N2-MOCK-07 — `VERIFIED`**: published at the preceding checkpoint (`62940e452856817a08884ac229f6f98302f466f3`). It contains 105 items and 30 original MP3s. Previous local browser QA and the published Actions/Pages verification are recorded in the checkpoint history; this status describes a JP-STUDY practice resource, not an official or psychometrically calibrated JLPT form.
+- **N2-MOCK-08 — `QA_PENDING` for this checkpoint**: 75 Section 1 items (32 Vocabulary/Kanji, 22 Grammar, 21 Reading), 30 Listening items and 30 original Edge TTS MP3s. All 105 blind selections map by exact option text to the final answer keys; 48 star-order permutations were evaluated; cross-mock exact-duplicate checks passed. Chromium hash/decode/progression checks passed on desktop and mobile for all 30 tracks, and local scoring/navigation/mobile E2E passed. Three items have disclosed non-blocking distractor-ease notes, and one listening response note concerns pragmatic fit; no answer-key mismatch or alternate natural star order remains. Human/native-speaker review, pronunciation certification and psychometric calibration are not claimed. Awaiting checkpoint push, Actions and Pages verification.
+- **N2-MOCK-09–10 — `DRAFT`**: production has not started.
+- The 75/30 allocation and 155-minute duration are JP-STUDY's practice blueprint, not a claim about official JEES question-count requirements.
 
 ## Phase 4 — Chuyển dịch trọng tâm toàn diện: Mục tiêu JLPT N2 (Tháng 12/2026) & Củng cố N3 (Curriculum Priority Realignment)
 

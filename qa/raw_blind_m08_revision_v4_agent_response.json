@@ -1,0 +1,42 @@
+{
+  "itemId": "N2_08_M8_01",
+  "selectedOption": "3",
+  "selectedFragmentId": "C",
+  "confidence": 0.99,
+  "justification": "The natural sentence is 「論文を投稿する前に、投稿先の規定を確認したうえで原稿を整える必要がある。」 The fragments must form 投稿先の規定を (A+B), then 確認したうえで (C), then 原稿を整える (D). Since ★ is the third blank, fragment C occupies it; in the listed A–D order this is answer 3.",
+  "concerns": [
+    "The answer number assumes the four fragments are numbered in their listed A–D order.",
+    "This is an AI-assisted blind review, not a human or native-speaker review."
+  ],
+  "intendedNaturalOrder": ["A", "B", "C", "D"],
+  "intendedNaturalSentence": "論文を投稿する前に、投稿先の規定を確認したうえで原稿を整える必要がある。",
+  "starSlot": 3,
+  "naturalOrMarginalAlternativeChangesStarAnswer": false,
+  "alternativeAssessment": "No other permutation was judged natural or marginal. The sole natural order is A-B-C-D, with C at ★ and answer 3.",
+  "permutationClassifications": [
+    {"order": ["A", "B", "C", "D"], "classification": "natural"},
+    {"order": ["A", "B", "D", "C"], "classification": "unnatural"},
+    {"order": ["A", "C", "B", "D"], "classification": "unnatural"},
+    {"order": ["A", "C", "D", "B"], "classification": "unnatural"},
+    {"order": ["A", "D", "B", "C"], "classification": "unnatural"},
+    {"order": ["A", "D", "C", "B"], "classification": "unnatural"},
+    {"order": ["B", "A", "C", "D"], "classification": "unnatural"},
+    {"order": ["B", "A", "D", "C"], "classification": "unnatural"},
+    {"order": ["B", "C", "A", "D"], "classification": "unnatural"},
+    {"order": ["B", "C", "D", "A"], "classification": "unnatural"},
+    {"order": ["B", "D", "A", "C"], "classification": "unnatural"},
+    {"order": ["B", "D", "C", "A"], "classification": "unnatural"},
+    {"order": ["C", "A", "B", "D"], "classification": "unnatural"},
+    {"order": ["C", "A", "D", "B"], "classification": "unnatural"},
+    {"order": ["C", "B", "A", "D"], "classification": "unnatural"},
+    {"order": ["C", "B", "D", "A"], "classification": "unnatural"},
+    {"order": ["C", "D", "A", "B"], "classification": "unnatural"},
+    {"order": ["C", "D", "B", "A"], "classification": "unnatural"},
+    {"order": ["D", "A", "B", "C"], "classification": "unnatural"},
+    {"order": ["D", "A", "C", "B"], "classification": "unnatural"},
+    {"order": ["D", "B", "A", "C"], "classification": "unnatural"},
+    {"order": ["D", "B", "C", "A"], "classification": "unnatural"},
+    {"order": ["D", "C", "A", "B"], "classification": "unnatural"},
+    {"order": ["D", "C", "B", "A"], "classification": "unnatural"}
+  ]
+}

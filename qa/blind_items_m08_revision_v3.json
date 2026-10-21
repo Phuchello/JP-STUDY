@@ -1,0 +1,92 @@
+[
+  {
+    "id": "N2_08_M6_03",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-USE",
+    "category": "Mondai 6: 用法",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "『担う』（責任や役割を引き受ける意味）の使い方として最も適切なものを選びなさい。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "彼は発表前に、資料を担って会議室へ運んだ。"
+      },
+      {
+        "id": "B",
+        "text": "温度計が参加者への説明を担っている。"
+      },
+      {
+        "id": "C",
+        "text": "この研究室では、院生が装置の保守を担っている。"
+      },
+      {
+        "id": "D",
+        "text": "彼女は測定値を担って、グラフに書き込んだ。"
+      }
+    ],
+    "contentFingerprint": "47bc193ad4a957489883f02776b60677bd6c5c3abfeb38324e351dfc404de213"
+  },
+  {
+    "id": "N2_08_M6_04",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-USE",
+    "category": "Mondai 6: 用法",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "『補う』の使い方として最も適切なものを選びなさい。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "図書館は論文の重さを補って、棚に並べた。"
+      },
+      {
+        "id": "B",
+        "text": "彼は風邪を補う薬を飲み、一週間休んだ。"
+      },
+      {
+        "id": "C",
+        "text": "講師は声を補った状態で、講義を始めた。"
+      },
+      {
+        "id": "D",
+        "text": "欠けている測定値は、追加実験の結果で補った。"
+      }
+    ],
+    "contentFingerprint": "d54f34409d3eb188e9aa1f0d855131a30f138407ba2eab1dd5b11a84eb6e33d4"
+  },
+  {
+    "id": "N2_08_M8_01",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-GR-STAR",
+    "category": "Mondai 8: 文の組み立て",
+    "taskInstructions": "次の文の ★ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+    "stem": "論文を投稿する前に、（　　）（　　）★（　　）必要がある。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "投稿先の規定を"
+      },
+      {
+        "id": "B",
+        "text": "よく"
+      },
+      {
+        "id": "C",
+        "text": "確認したうえで"
+      },
+      {
+        "id": "D",
+        "text": "原稿を整える"
+      }
+    ],
+    "contentFingerprint": "efc78075204451b84127f75731f80e70e7a1fb6ce73be9302f63b05618a95f82"
+  }
+]

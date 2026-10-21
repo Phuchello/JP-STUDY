@@ -1,0 +1,659 @@
+[
+  {
+    "id": "N2_08_M2_03",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-ORTH",
+    "category": "Mondai 2: 表記",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "安全管理者は、新しい入室手順を全員に【しじ】した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "指示"
+      },
+      {
+        "id": "B",
+        "text": "支持"
+      },
+      {
+        "id": "C",
+        "text": "私事"
+      },
+      {
+        "id": "D",
+        "text": "師事"
+      }
+    ],
+    "contentFingerprint": "f7fbd2d387e38ae110f217ebed33bca02aa3294efdf032b8e76c44b68cb76799"
+  },
+  {
+    "id": "N2_08_M2_04",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-ORTH",
+    "category": "Mondai 2: 表記",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "研究チームは、測定結果を共同利用する条件について大学間で【こうしょう】を続けた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "校章"
+      },
+      {
+        "id": "B",
+        "text": "交渉"
+      },
+      {
+        "id": "C",
+        "text": "高尚"
+      },
+      {
+        "id": "D",
+        "text": "鉱床"
+      }
+    ],
+    "contentFingerprint": "50600efb8bcb211fb02e79ae263e380c063ae785ad0fe59597a062447e053075"
+  },
+  {
+    "id": "N2_08_M3_03",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-FORM",
+    "category": "Mondai 3: 語形成",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "学習用の大量の画像から特徴を学び、未登録の画像も分類する【機械（　）】の研究が進んでいる。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "化"
+      },
+      {
+        "id": "B",
+        "text": "学習"
+      },
+      {
+        "id": "C",
+        "text": "語"
+      },
+      {
+        "id": "D",
+        "text": "力"
+      }
+    ],
+    "contentFingerprint": "40addc4ef5e489510932f59bee8ba116b2c857b563a2cee8f03bf5339188cd32"
+  },
+  {
+    "id": "N2_08_M4_07",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-CONT",
+    "category": "Mondai 4: 文脈規定",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "発表者は質問の意図を確かめてから、根拠を示しつつ（　）に答えた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "急激"
+      },
+      {
+        "id": "B",
+        "text": "偶然"
+      },
+      {
+        "id": "C",
+        "text": "適切"
+      },
+      {
+        "id": "D",
+        "text": "的外れ"
+      }
+    ],
+    "contentFingerprint": "94f5fe4600b03bd5952582ca2750c25391e31fae0af44972d6b67f8ab790fee3"
+  },
+  {
+    "id": "N2_08_M6_01",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-USE",
+    "category": "Mondai 6: 用法",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "『見込む』の使い方として最も適切なものを選びなさい。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "来年度は利用者が増えると見込んで、予算を多めに確保した。"
+      },
+      {
+        "id": "B",
+        "text": "担当者は資料を見込んで、誤字がないか一つずつ確かめた。"
+      },
+      {
+        "id": "C",
+        "text": "学生は実験ノートを見込んで、測定値を報告書に写した。"
+      },
+      {
+        "id": "D",
+        "text": "教授は会議の様子を見込んで、議事録の誤りを確認した。"
+      }
+    ],
+    "contentFingerprint": "a942e99fd8b4b3d4d5ef3d16d9b0ad7b86a08f9133562056997cf8155610b79a"
+  },
+  {
+    "id": "N2_08_M6_02",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-USE",
+    "category": "Mondai 6: 用法",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "『妥当』の使い方として最も適切なものを選びなさい。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "彼は妥当な手触りのペンを選び、実験記録に使った。"
+      },
+      {
+        "id": "B",
+        "text": "費用と効果を比べた結果、この価格設定は妥当だと判断された。"
+      },
+      {
+        "id": "C",
+        "text": "研究室では、妥当な香りの洗剤を選んでいる。"
+      },
+      {
+        "id": "D",
+        "text": "講師は妥当な味のコーヒーを飲み、講義を始めた。"
+      }
+    ],
+    "contentFingerprint": "fc5a34cdb7061d79333b78d4ee086ec1fb4cbdd385c2a208ae7ecdfdabc8222b"
+  },
+  {
+    "id": "N2_08_M6_03",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-USE",
+    "category": "Mondai 6: 用法",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "『担う』の使い方として最も適切なものを選びなさい。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "彼は発表前に、資料を担って会議室へ運んだ。"
+      },
+      {
+        "id": "B",
+        "text": "温度計が参加者への説明を担っている。"
+      },
+      {
+        "id": "C",
+        "text": "この研究室では、院生が装置の保守を担っている。"
+      },
+      {
+        "id": "D",
+        "text": "彼女は測定値を担って、グラフに書き込んだ。"
+      }
+    ],
+    "contentFingerprint": "b8603c212be0215b0d061ac90201089c485a396bd507b9f7583e48eac7e2afeb"
+  },
+  {
+    "id": "N2_08_M6_04",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-USE",
+    "category": "Mondai 6: 用法",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "『補う』の使い方として最も適切なものを選びなさい。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "図書館は昨日届いた論文を補って、棚に並べた。"
+      },
+      {
+        "id": "B",
+        "text": "彼は風邪を補う薬を飲み、一週間休んだ。"
+      },
+      {
+        "id": "C",
+        "text": "講師は声を補った状態で、講義を始めた。"
+      },
+      {
+        "id": "D",
+        "text": "欠けている測定値は、追加実験の結果で補った。"
+      }
+    ],
+    "contentFingerprint": "129e128507723fd836af8b219839b1b736c6c5926a062633e7ecb26fe39d06eb"
+  },
+  {
+    "id": "N2_08_M6_05",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-USE",
+    "category": "Mondai 6: 用法",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "『促す』の使い方として最も適切なものを選びなさい。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "教授は学生に、データの出典を明記するよう促した。"
+      },
+      {
+        "id": "B",
+        "text": "担当者は研究費の額を促して、申請書に記入した。"
+      },
+      {
+        "id": "C",
+        "text": "画面の色が利用者を促して、表示が変化した。"
+      },
+      {
+        "id": "D",
+        "text": "学生は論文を促して、図書館に返却した。"
+      }
+    ],
+    "contentFingerprint": "13dba63c8e2e9df94be697c8ecdaa29fd8af0b06e288b95baece41aefb83c1f6"
+  },
+  {
+    "id": "N2_08_M7_10",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-GR-FORM",
+    "category": "Mondai 7: 文法形式の判断",
+    "taskInstructions": "次の文の（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+    "stem": "何度も条件を変えて一日中測定をやり直した（　）、結論に使える結果は一つも得られず、発表は延期になった。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "ついでに"
+      },
+      {
+        "id": "B",
+        "text": "ところで"
+      },
+      {
+        "id": "C",
+        "text": "あげく"
+      },
+      {
+        "id": "D",
+        "text": "につれて"
+      }
+    ],
+    "contentFingerprint": "99c158b6374b5e5d336ce11c9f0f263a4b1a813e69bd41546e019eafb90100e7"
+  },
+  {
+    "id": "N2_08_M8_01",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-GR-STAR",
+    "category": "Mondai 8: 文の組み立て",
+    "taskInstructions": "次の文の ★ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+    "stem": "学会に論文を投稿する前に、（　　）（　　）★（　　）ことが求められる。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "投稿先の規定を"
+      },
+      {
+        "id": "B",
+        "text": "論文が"
+      },
+      {
+        "id": "C",
+        "text": "満たしているか"
+      },
+      {
+        "id": "D",
+        "text": "著者自身で確認する"
+      }
+    ],
+    "contentFingerprint": "66aeb889e1988e2ee80e5d0cba70ca2d3edd914f054cb8b9b7cc02f453eecba0"
+  },
+  {
+    "id": "N2_08_M8_02",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-GR-STAR",
+    "category": "Mondai 8: 文の組み立て",
+    "taskInstructions": "次の文の ★ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+    "stem": "新しい調査方法を試す前に、（　　）（　　）★（　　）必要がある。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "倫理審査を受けて"
+      },
+      {
+        "id": "B",
+        "text": "調査計画が"
+      },
+      {
+        "id": "C",
+        "text": "承認されている"
+      },
+      {
+        "id": "D",
+        "text": "ことを確認する"
+      }
+    ],
+    "contentFingerprint": "37b8ccddb09fa13547a72b7b5abc15efc00fd482e963e93c09560c6bdc917de4"
+  },
+  {
+    "id": "N2_08_M4_L01",
+    "examId": "N2-MOCK-08",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-RESP",
+    "category": "Mondai 4: 即時応答",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "この図、発表資料に使ってもいいですか。",
+    "contextPassage": "問題４、1番。\n男：この図、発表資料に使ってもいいですか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "はい、出典を明記すれば構いません。"
+      },
+      {
+        "id": "B",
+        "text": "その図は、発表の最後に載せると見やすいですよ。"
+      },
+      {
+        "id": "C",
+        "text": "図の説明は、口頭でも補ってください。"
+      }
+    ],
+    "contentFingerprint": "c008b786c22812c7b19e9fb22edec8a2b598da931083a9ce71bbde2f3fd84f2b",
+    "audioUrl": "audio/n2_mock_08/N2_08_M4_L01.mp3"
+  },
+  {
+    "id": "N2_08_M4_L02",
+    "examId": "N2-MOCK-08",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-RESP",
+    "category": "Mondai 4: 即時応答",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "先生、先ほどの説明で分からないところがあったのですが。",
+    "contextPassage": "問題４、2番。\n男：先生、先ほどの説明で分からないところがあったのですが。",
+    "options": [
+      {
+        "id": "A",
+        "text": "資料の該当ページを、あとで送りますね。"
+      },
+      {
+        "id": "B",
+        "text": "どの部分ですか。もう一度説明しましょうか。"
+      },
+      {
+        "id": "C",
+        "text": "次の授業の質問時間に、まとめて聞いてください。"
+      }
+    ],
+    "contentFingerprint": "6887936d8e469032e3ac2416c550abbb61faf03009e61a0d9f0c50b54394b77d",
+    "audioUrl": "audio/n2_mock_08/N2_08_M4_L02.mp3"
+  },
+  {
+    "id": "N2_08_M4_L03",
+    "examId": "N2-MOCK-08",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-RESP",
+    "category": "Mondai 4: 即時応答",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "この装置は使用後、電源を切っておけばいいですか。",
+    "contextPassage": "問題４、3番。\n男：この装置は使用後、電源を切っておけばいいですか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "装置の点検日は、扉の内側に書いてあります。"
+      },
+      {
+        "id": "B",
+        "text": "使った時間を、記録簿に記入しておいてください。"
+      },
+      {
+        "id": "C",
+        "text": "いいえ、電源は入れたままにしてください。"
+      }
+    ],
+    "contentFingerprint": "e8b28db13291c7c552ee32471e25129c5e4759dfa00c5592dd21823229243dba",
+    "audioUrl": "audio/n2_mock_08/N2_08_M4_L03.mp3"
+  },
+  {
+    "id": "N2_08_M4_L04",
+    "examId": "N2-MOCK-08",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-RESP",
+    "category": "Mondai 4: 即時応答",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "共同発表の担当、私が図の説明をしてもよろしいでしょうか。",
+    "contextPassage": "問題４、4番。\n男：共同発表の担当、私が図の説明をしてもよろしいでしょうか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "はい、では私は背景の説明を担当します。"
+      },
+      {
+        "id": "B",
+        "text": "では、私はスライドの順番を確認しておきます。"
+      },
+      {
+        "id": "C",
+        "text": "図の出典は、資料の最後にまとめてください。"
+      }
+    ],
+    "contentFingerprint": "b3c6272e2b84296742f9848f689b2a092a571fd492ab4f59b2afb18877f9aa12",
+    "audioUrl": "audio/n2_mock_08/N2_08_M4_L04.mp3"
+  },
+  {
+    "id": "N2_08_M4_L05",
+    "examId": "N2-MOCK-08",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-RESP",
+    "category": "Mondai 4: 即時応答",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "この論文、来週のゼミまでに全部読まないといけませんか。",
+    "contextPassage": "問題４、5番。\n男：この論文、来週のゼミまでに全部読まないといけませんか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "論文の要点は、ゼミで説明してください。"
+      },
+      {
+        "id": "B",
+        "text": "全部でなくても、担当箇所は読んできてください。"
+      },
+      {
+        "id": "C",
+        "text": "読んだ箇所には、付箋を貼っておいてください。"
+      }
+    ],
+    "contentFingerprint": "33798725b498735a72e40c2bcece4cea7816cbf0d6dafe84ca8c33aa70559275",
+    "audioUrl": "audio/n2_mock_08/N2_08_M4_L05.mp3"
+  },
+  {
+    "id": "N2_08_M4_L06",
+    "examId": "N2-MOCK-08",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-RESP",
+    "category": "Mondai 4: 即時応答",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "すみません、学外からこのデータベースにアクセスできません。",
+    "contextPassage": "問題４、6番。\n男：すみません、学外からこのデータベースにアクセスできません。",
+    "options": [
+      {
+        "id": "A",
+        "text": "利用可能な時間帯は、図書館のサイトに載っています。"
+      },
+      {
+        "id": "B",
+        "text": "データベースの利用申請は、学期ごとに更新してください。"
+      },
+      {
+        "id": "C",
+        "text": "学内アカウントでログインしているか確認しましたか。"
+      }
+    ],
+    "contentFingerprint": "883a1535393804f75f7bc1c3e971aa11a51857e44dfa0b5e591e7d523169df60",
+    "audioUrl": "audio/n2_mock_08/N2_08_M4_L06.mp3"
+  },
+  {
+    "id": "N2_08_M4_L07",
+    "examId": "N2-MOCK-08",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-RESP",
+    "category": "Mondai 4: 即時応答",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "発表の順番、先に決めてしまいましょうか。",
+    "contextPassage": "問題４、7番。\n男：発表の順番、先に決めてしまいましょうか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "そうですね。時間がかかりそうな人から決めましょう。"
+      },
+      {
+        "id": "B",
+        "text": "発表時間は一人十分です。"
+      },
+      {
+        "id": "C",
+        "text": "順番が決まったら、資料を共有フォルダに置いてください。"
+      }
+    ],
+    "contentFingerprint": "a519452923c548c90c48c23e8482db804621b7ec0ad166383328f880320c023e",
+    "audioUrl": "audio/n2_mock_08/N2_08_M4_L07.mp3"
+  },
+  {
+    "id": "N2_08_M4_L08",
+    "examId": "N2-MOCK-08",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-RESP",
+    "category": "Mondai 4: 即時応答",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "このグラフは、単位を明記したほうがいいでしょうか。",
+    "contextPassage": "問題４、8番。\n男：このグラフは、単位を明記したほうがいいでしょうか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "凡例には、各線が何を示すかも書いてください。"
+      },
+      {
+        "id": "B",
+        "text": "そうですね。値の意味が伝わりやすくなります。"
+      },
+      {
+        "id": "C",
+        "text": "目盛りの間隔をそろえると見やすくなります。"
+      }
+    ],
+    "contentFingerprint": "74d7b8593359f3075b6d953a8d40ad4b173fc5ed5b9f553a733cbd323d077caf",
+    "audioUrl": "audio/n2_mock_08/N2_08_M4_L08.mp3"
+  },
+  {
+    "id": "N2_08_M4_L09",
+    "examId": "N2-MOCK-08",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-RESP",
+    "category": "Mondai 4: 即時応答",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "締切が明日だと気づかなくて、まだ申請していないんです。",
+    "contextPassage": "問題４、9番。\n男：締切が明日だと気づかなくて、まだ申請していないんです。",
+    "options": [
+      {
+        "id": "A",
+        "text": "添付書類はPDF形式で提出してください。"
+      },
+      {
+        "id": "B",
+        "text": "申請書の提出先は、教務課の窓口です。"
+      },
+      {
+        "id": "C",
+        "text": "それなら、今すぐ必要書類をそろえたほうがいいですよ。"
+      }
+    ],
+    "contentFingerprint": "6f9ca1fbe45db5414657156f9afbf031257e67023438b15b5a8797b30879abe2",
+    "audioUrl": "audio/n2_mock_08/N2_08_M4_L09.mp3"
+  },
+  {
+    "id": "N2_08_M4_L10",
+    "examId": "N2-MOCK-08",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-RESP",
+    "category": "Mondai 4: 即時応答",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "この説明、少し専門用語が多すぎませんか。",
+    "contextPassage": "問題４、10番。\n男：この説明、少し専門用語が多すぎませんか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "では、初めて聞く人にも分かる言葉に直しましょう。"
+      },
+      {
+        "id": "B",
+        "text": "専門用語を使うこと自体は、発表では大切です。"
+      },
+      {
+        "id": "C",
+        "text": "用語の意味は、質問があればその場で説明します。"
+      }
+    ],
+    "contentFingerprint": "51d77af2d9f3e042a8cf1ae2fbf34203b0b4fe59223ff01a0af80ec4571854c4",
+    "audioUrl": "audio/n2_mock_08/N2_08_M4_L10.mp3"
+  },
+  {
+    "id": "N2_08_M4_L11",
+    "examId": "N2-MOCK-08",
+    "section": 2,
+    "skill": "Listening",
+    "typeId": "N2-LIS-RESP",
+    "category": "Mondai 4: 即時応答",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "教授、実験の結果が予想と違っていたので、失敗だと思います。",
+    "contextPassage": "問題４、11番。\n男：教授、実験の結果が予想と違っていたので、失敗だと思います。",
+    "options": [
+      {
+        "id": "A",
+        "text": "予想した結果になるまで、測定を続けてみましょう。"
+      },
+      {
+        "id": "B",
+        "text": "そう決める前に、条件と測定手順を確かめてみましょう。"
+      },
+      {
+        "id": "C",
+        "text": "予想と異なる数値は、発表資料から外しておきましょう。"
+      }
+    ],
+    "contentFingerprint": "2dcf06c714b533bacce6469364a5472cb22db7ae2d722de8bab278e710c1659a",
+    "audioUrl": "audio/n2_mock_08/N2_08_M4_L11.mp3"
+  }
+]

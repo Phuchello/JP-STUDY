@@ -1,0 +1,380 @@
+{
+  "examId": "N2-MOCK-08",
+  "status": "AI_ASSISTED_PERMUTATION_QA",
+  "scope": "Both authored star-arrangement items; all 24 A-D permutations evaluated per item.",
+  "limitations": [
+    "AI-assisted review; not human/native-speaker certification."
+  ],
+  "sourceSha256": {
+    "raw_blind_m08_revision_v2_agent_response.json": "faf9ca48b487619957b871a0e6a5eaba2b10fca3d4595bc2421948935aca6339",
+    "raw_blind_m08_revision_v4_agent_response.json": "8884edacc310c0ddc3eb74d91b22ecfe2a5182e795895655c0036dc177fd569f"
+  },
+  "items": [
+    {
+      "questionId": "N2_08_M8_01",
+      "reviewVersion": "v4",
+      "answer": "C",
+      "permutationClassifications": [
+        {
+          "order": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "classification": "natural"
+        },
+        {
+          "order": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ],
+          "classification": "unnatural"
+        },
+        {
+          "order": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ],
+          "classification": "unnatural"
+        },
+        {
+          "order": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ],
+          "classification": "unnatural"
+        },
+        {
+          "order": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ],
+          "classification": "unnatural"
+        },
+        {
+          "order": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ],
+          "classification": "unnatural"
+        },
+        {
+          "order": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ],
+          "classification": "unnatural"
+        },
+        {
+          "order": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ],
+          "classification": "unnatural"
+        },
+        {
+          "order": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ],
+          "classification": "unnatural"
+        },
+        {
+          "order": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ],
+          "classification": "unnatural"
+        },
+        {
+          "order": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ],
+          "classification": "unnatural"
+        },
+        {
+          "order": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ],
+          "classification": "unnatural"
+        },
+        {
+          "order": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ],
+          "classification": "unnatural"
+        },
+        {
+          "order": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ],
+          "classification": "unnatural"
+        },
+        {
+          "order": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ],
+          "classification": "unnatural"
+        },
+        {
+          "order": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ],
+          "classification": "unnatural"
+        },
+        {
+          "order": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ],
+          "classification": "unnatural"
+        },
+        {
+          "order": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ],
+          "classification": "unnatural"
+        },
+        {
+          "order": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ],
+          "classification": "unnatural"
+        },
+        {
+          "order": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ],
+          "classification": "unnatural"
+        },
+        {
+          "order": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ],
+          "classification": "unnatural"
+        },
+        {
+          "order": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ],
+          "classification": "unnatural"
+        },
+        {
+          "order": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ],
+          "classification": "unnatural"
+        },
+        {
+          "order": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ],
+          "classification": "unnatural"
+        }
+      ],
+      "naturalOrder": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "naturalSentence": "論文を投稿する前に、投稿先の規定を確認したうえで原稿を整える必要がある。",
+      "naturalOrMarginalAlternativeChangesStarAnswer": false,
+      "alternativeAssessment": "No other permutation was judged natural or marginal. The sole natural order is A-B-C-D, with C at ★ and answer 3."
+    },
+    {
+      "questionId": "N2_08_M8_02",
+      "reviewVersion": "v2",
+      "answer": "C",
+      "permutations": [
+        {
+          "order": "A → B → C → D",
+          "classification": "natural",
+          "starFragment": "C"
+        },
+        {
+          "order": "A → B → D → C",
+          "classification": "unnatural",
+          "starFragment": "D"
+        },
+        {
+          "order": "A → C → B → D",
+          "classification": "unnatural",
+          "starFragment": "B"
+        },
+        {
+          "order": "A → C → D → B",
+          "classification": "unnatural",
+          "starFragment": "D"
+        },
+        {
+          "order": "A → D → B → C",
+          "classification": "unnatural",
+          "starFragment": "B"
+        },
+        {
+          "order": "A → D → C → B",
+          "classification": "unnatural",
+          "starFragment": "C"
+        },
+        {
+          "order": "B → A → C → D",
+          "classification": "natural",
+          "starFragment": "C"
+        },
+        {
+          "order": "B → A → D → C",
+          "classification": "unnatural",
+          "starFragment": "D"
+        },
+        {
+          "order": "B → C → A → D",
+          "classification": "unnatural",
+          "starFragment": "A"
+        },
+        {
+          "order": "B → C → D → A",
+          "classification": "unnatural",
+          "starFragment": "D"
+        },
+        {
+          "order": "B → D → A → C",
+          "classification": "unnatural",
+          "starFragment": "A"
+        },
+        {
+          "order": "B → D → C → A",
+          "classification": "unnatural",
+          "starFragment": "C"
+        },
+        {
+          "order": "C → A → B → D",
+          "classification": "unnatural",
+          "starFragment": "B"
+        },
+        {
+          "order": "C → A → D → B",
+          "classification": "unnatural",
+          "starFragment": "D"
+        },
+        {
+          "order": "C → B → A → D",
+          "classification": "unnatural",
+          "starFragment": "A"
+        },
+        {
+          "order": "C → B → D → A",
+          "classification": "unnatural",
+          "starFragment": "D"
+        },
+        {
+          "order": "C → D → A → B",
+          "classification": "unnatural",
+          "starFragment": "A"
+        },
+        {
+          "order": "C → D → B → A",
+          "classification": "unnatural",
+          "starFragment": "B"
+        },
+        {
+          "order": "D → A → B → C",
+          "classification": "unnatural",
+          "starFragment": "B"
+        },
+        {
+          "order": "D → A → C → B",
+          "classification": "unnatural",
+          "starFragment": "C"
+        },
+        {
+          "order": "D → B → A → C",
+          "classification": "unnatural",
+          "starFragment": "A"
+        },
+        {
+          "order": "D → B → C → A",
+          "classification": "unnatural",
+          "starFragment": "C"
+        },
+        {
+          "order": "D → C → A → B",
+          "classification": "unnatural",
+          "starFragment": "A"
+        },
+        {
+          "order": "D → C → B → A",
+          "classification": "unnatural",
+          "starFragment": "B"
+        }
+      ],
+      "naturalOrders": [
+        "A → B → C → D",
+        "B → A → C → D"
+      ],
+      "marginalOrders": [],
+      "alternativesThatChangeStar": [],
+      "classificationNote": "ABCD and BACD are both natural: the ethics-review phrase can precede or follow the subject. Both put C at ★; no other permutation forms a natural or marginal complete sentence."
+    }
+  ]
+}

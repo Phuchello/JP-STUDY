@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 JP-STUDY: VALIDATE MOCK EXAM UNIQUENESS & INTEGRITY GATE
-Validates that ALL mocks (N2-MOCK-01, N2-MOCK-02, N2-MOCK-03) have:
+Validates every discovered N2 full-mock JSON in data/mock_exams/ for:
 1. Exactly 105 items (75 Section 1 + 30 Section 2).
 2. ZERO internal or cross-mock ID collisions, and zero collisions with practice bank.
 3. ZERO verbatim duplicate question stems or context passages across mocks.
@@ -20,17 +20,12 @@ def validate_uniqueness():
     print("=== JLPT N2 Mock Exam Uniqueness & Quality Gate (All Mocks) ===")
 
     mock_files = {
-        'N2-MOCK-01': ROOT / 'data/mock_exams/n2_mock_01.json',
-        'N2-MOCK-02': ROOT / 'data/mock_exams/n2_mock_02.json',
-        'N2-MOCK-03': ROOT / 'data/mock_exams/n2_mock_03.json',
-        'N2-MOCK-04': ROOT / 'data/mock_exams/n2_mock_04.json',
+        f'N2-MOCK-{path.stem.rsplit("_", 1)[1]}': path
+        for path in sorted((ROOT / 'data/mock_exams').glob('n2_mock_[0-9][0-9].json'))
     }
-    if (ROOT / 'data/mock_exams/n2_mock_05.json').exists():
-        mock_files['N2-MOCK-05'] = ROOT / 'data/mock_exams/n2_mock_05.json'
-    if (ROOT / 'data/mock_exams/n2_mock_06.json').exists():
-        mock_files['N2-MOCK-06'] = ROOT / 'data/mock_exams/n2_mock_06.json'
-    if (ROOT / 'data/mock_exams/n2_mock_07.json').exists():
-        mock_files['N2-MOCK-07'] = ROOT / 'data/mock_exams/n2_mock_07.json'
+    if not mock_files:
+        print("ERROR: No N2 full-mock JSON files found.")
+        sys.exit(1)
 
 
     loaded_mocks = {}

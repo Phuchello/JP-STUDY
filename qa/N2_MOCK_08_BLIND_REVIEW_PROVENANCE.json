@@ -1,0 +1,91 @@
+{
+  "examId": "N2-MOCK-08",
+  "status": "NORMALIZED_VERSION_BOUND_AI_REVIEW",
+  "itemCount": 105,
+  "answerAgreementByExactSelectedOptionText": 105,
+  "reviewVersions": {
+    "v1": 82,
+    "v2": 20,
+    "v3": 2,
+    "v4": 1
+  },
+  "mappingMethods": {
+    "DIRECT_IDENTITY": 102,
+    "EXACT_OPTION_TEXT_REMAP": 3
+  },
+  "transcriptBoundListeningItems": [
+    "N2_08_M1_L01",
+    "N2_08_M1_L02",
+    "N2_08_M1_L03",
+    "N2_08_M1_L04",
+    "N2_08_M1_L05",
+    "N2_08_M2_L01",
+    "N2_08_M2_L02",
+    "N2_08_M2_L03",
+    "N2_08_M2_L04",
+    "N2_08_M2_L05",
+    "N2_08_M2_L06",
+    "N2_08_M3_L01",
+    "N2_08_M3_L02",
+    "N2_08_M3_L03",
+    "N2_08_M3_L04",
+    "N2_08_M3_L05",
+    "N2_08_M4_L01",
+    "N2_08_M4_L02",
+    "N2_08_M4_L03",
+    "N2_08_M4_L04",
+    "N2_08_M4_L05",
+    "N2_08_M4_L06",
+    "N2_08_M4_L07",
+    "N2_08_M4_L08",
+    "N2_08_M4_L09",
+    "N2_08_M4_L10",
+    "N2_08_M4_L11",
+    "N2_08_M5_L01",
+    "N2_08_M5_L02",
+    "N2_08_M5_L03"
+  ],
+  "nonBlockingReviewNotes": {
+    "N2_08_M6_01": "Distractors are grammatically framed but less plausible than the key, which may make the target conspicuous.",
+    "N2_08_M6_02": "Distractors use sensory qualities with 妥当 and may make the target conspicuous.",
+    "N2_08_M6_05": "Two distractors have odd agent/object relations and may make the item easier than intended.",
+    "N2_08_M4_L03": "Immediate-response answer relies on conversational response fit; no separate factual evidence about the device power policy is stated.",
+    "N2_08_M8_01": "The answer number assumes the listed fragment labels A-D; this is a format clarification, not an alternative natural ordering."
+  },
+  "transcriptSourceVerification": "Listening transcript strings equal the original source scripts used for generated audio; browser playback/hash QA is documented separately.",
+  "fingerprintInterpretation": "The normalized record binds to the final exam fingerprint after exact stem, option-text-set, passage equivalence, and transcript-to-source-script checks. The fingerprint function omits the runtime `passage` property; review inputs may serialize passages as `contextPassage`.",
+  "limitations": [
+    "AI-assisted review is not human/native-speaker certification.",
+    "Listening review used transcripts; the separate browser playback receipt verifies decoding/progression, not pronunciation quality.",
+    "The generated normalized records are derived evidence; all original blind responses remain preserved unchanged."
+  ],
+  "sourceSha256": {
+    "blind_items_m08_revision_v2.json": "163c90a14fe139a380370dbfaea90c8024eacab6c30a93162facbbaab536ae12",
+    "blind_items_m08_revision_v3.json": "8d2769d1819d0225086906f0e7a361e138bb2c389d80a60a618a0c3ef06cfff1",
+    "blind_items_m08_revision_v4.json": "4a65eda19bccfed904d04bb40ac827d36456ed642b1d0a0ee820ad644eed7d09",
+    "blind_items_m08_s1_p1.json": "aa3f492c255f1f5d4e7b9807cebde9e6a2b164013f7604c76632e00e24f7e466",
+    "blind_items_m08_s1_p2.json": "f4c5295da5f9d126926f9fae090e73e3e554d882c708a70cf0e46dac7f1a1942",
+    "blind_items_m08_s2.json": "362e9fa6a0d1f607456806692adc32e4b8248f5b202d0e22bd83fdf4d4cd72c5"
+  },
+  "responseSha256": {
+    "raw_blind_m08_agent_response.json": "4a0449ea9661db56e3a51b37a6db2132d4886dc7b5ca3bc5b22eba6b9b29b2f6",
+    "raw_blind_m08_revision_v2_agent_response.json": "faf9ca48b487619957b871a0e6a5eaba2b10fca3d4595bc2421948935aca6339",
+    "raw_blind_m08_revision_v3_agent_response.json": "1b2ed913fd434b57834365750b01c53cccd1ef022e6c234f3750df8e8991b057",
+    "raw_blind_m08_revision_v4_agent_response.json": "8884edacc310c0ddc3eb74d91b22ecfe2a5182e795895655c0036dc177fd569f"
+  },
+  "archivedOriginalV1InputSha256": {
+    "blind_items_m08_v1_s1_p1.json": "aa3f492c255f1f5d4e7b9807cebde9e6a2b164013f7604c76632e00e24f7e466",
+    "blind_items_m08_v1_s1_p2.json": "f4c5295da5f9d126926f9fae090e73e3e554d882c708a70cf0e46dac7f1a1942",
+    "blind_items_m08_v1_s2.json": "362e9fa6a0d1f607456806692adc32e4b8248f5b202d0e22bd83fdf4d4cd72c5"
+  },
+  "versionBoundMergedInputSha256": {
+    "blind_items_m08_s1_p1.json": "5981d93d8e50117c55bbc24c30f1fcc7b4930380b659cd8047ccf183a7f02a88",
+    "blind_items_m08_s1_p2.json": "f5ff380742aae080dc7b7a4c886baa9360b4bcb1d72616a112506a00e05038aa",
+    "blind_items_m08_s2.json": "d891cc418e88caae4920ab069ad9363cfe1f798c7ba5c21cefd1b930c911a0a2"
+  },
+  "normalizedFiles": {
+    "raw_blind_m08_s1_p1.json": "e64339900e292c55f916115d49347b56f789c9c1ef2adc54d62c16ee141d185c",
+    "raw_blind_m08_s1_p2.json": "c315a77524bd85b159a7dda14fc4534a860a4d1378ac4f1190c90bd931fdcd00",
+    "raw_blind_m08_s2.json": "c415fe8ab4167d59987bc15bdb0334d11e78d4a4a0aa87501dca759f68a97a2a"
+  }
+}

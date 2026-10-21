@@ -1,0 +1,1142 @@
+[
+  {
+    "id": "N2_08_M1_01",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-READ",
+    "category": "Mondai 1: 漢字読み",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "大学の研究班は、新素材の耐久性を実験で【実証】した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "じつしょう"
+      },
+      {
+        "id": "B",
+        "text": "じっせい"
+      },
+      {
+        "id": "C",
+        "text": "じっしょう"
+      },
+      {
+        "id": "D",
+        "text": "じつせい"
+      }
+    ],
+    "contentFingerprint": "53cae80c53be2551a55c56e0fc5438f77b3b95d14978c611e7ca6dc23e9c4cdd"
+  },
+  {
+    "id": "N2_08_M1_02",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-READ",
+    "category": "Mondai 1: 漢字読み",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "近年、オンライン授業の活用が【顕著】になってきた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "けんじょ"
+      },
+      {
+        "id": "B",
+        "text": "けんちょ"
+      },
+      {
+        "id": "C",
+        "text": "げんちょ"
+      },
+      {
+        "id": "D",
+        "text": "けんしょう"
+      }
+    ],
+    "contentFingerprint": "32035175263fd945ca7ae893b051d1a4604e8389e7bf44cc3721d952198204ba"
+  },
+  {
+    "id": "N2_08_M1_03",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-READ",
+    "category": "Mondai 1: 漢字読み",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "この分野では、分析対象となるデータが【膨大】だ。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "ぼうたい"
+      },
+      {
+        "id": "B",
+        "text": "ほうだい"
+      },
+      {
+        "id": "C",
+        "text": "ぼうだい"
+      },
+      {
+        "id": "D",
+        "text": "ぼたい"
+      }
+    ],
+    "contentFingerprint": "480d6a0569d2e0eb60ffcf274543d86e74492d7de09a41064c3162b2434cb503"
+  },
+  {
+    "id": "N2_08_M1_04",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-READ",
+    "category": "Mondai 1: 漢字読み",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "審査委員会は、応募された三つの計画を【採択】した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "さいさく"
+      },
+      {
+        "id": "B",
+        "text": "さいだく"
+      },
+      {
+        "id": "C",
+        "text": "さいせき"
+      },
+      {
+        "id": "D",
+        "text": "さいたく"
+      }
+    ],
+    "contentFingerprint": "c29391968b9f199b5b822ccc2bb4d33e37fae84b3097378bdf9da74aeced3ae5"
+  },
+  {
+    "id": "N2_08_M1_05",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-READ",
+    "category": "Mondai 1: 漢字読み",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "発表資料は、要点を絞って【簡潔】にまとめてください。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "かんせつ"
+      },
+      {
+        "id": "B",
+        "text": "かんけつ"
+      },
+      {
+        "id": "C",
+        "text": "けんけつ"
+      },
+      {
+        "id": "D",
+        "text": "かんぜつ"
+      }
+    ],
+    "contentFingerprint": "c57351d38c29a0f86c9f9503c33369cf9fba542087f86316366a5e91c23ddb9a"
+  },
+  {
+    "id": "N2_08_M2_01",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-ORTH",
+    "category": "Mondai 2: 表記",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "実験を繰り返し、仮説が正しいか【けんしょう】する。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "検討"
+      },
+      {
+        "id": "B",
+        "text": "建証"
+      },
+      {
+        "id": "C",
+        "text": "検証"
+      },
+      {
+        "id": "D",
+        "text": "健勝"
+      }
+    ],
+    "contentFingerprint": "399b080dc40e4742822d31c4836b31c6f3cebe4241eccc68eb24b55430fce186"
+  },
+  {
+    "id": "N2_08_M2_02",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-ORTH",
+    "category": "Mondai 2: 表記",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "開発した教材を来年度から正式に【てきよう】する。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "適応"
+      },
+      {
+        "id": "B",
+        "text": "摘用"
+      },
+      {
+        "id": "C",
+        "text": "敵用"
+      },
+      {
+        "id": "D",
+        "text": "適用"
+      }
+    ],
+    "contentFingerprint": "bb8eb9aeec6a1dbe0e4de5648e9994e8f0d60a3d969be2c23a7968a0729d7517"
+  },
+  {
+    "id": "N2_08_M2_03",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-ORTH",
+    "category": "Mondai 2: 表記",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "選考委員会は、研究助成の対象者を【さいよう】した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "採用"
+      },
+      {
+        "id": "B",
+        "text": "採用う"
+      },
+      {
+        "id": "C",
+        "text": "再用"
+      },
+      {
+        "id": "D",
+        "text": "才用"
+      }
+    ],
+    "contentFingerprint": "52f1e6219ec72b23f550a0e213e933ee4b6b24b6cd5e563d326772deab61c091"
+  },
+  {
+    "id": "N2_08_M2_04",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-ORTH",
+    "category": "Mondai 2: 表記",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "学生は実験装置の図面をもとに、部品の【せっけい】を見直した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "設計い"
+      },
+      {
+        "id": "B",
+        "text": "設計"
+      },
+      {
+        "id": "C",
+        "text": "接計"
+      },
+      {
+        "id": "D",
+        "text": "説計"
+      }
+    ],
+    "contentFingerprint": "4bc7baeec951abd72d8825f83e234c40612766e676c12388a221e8b1af10d41d"
+  },
+  {
+    "id": "N2_08_M2_05",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-ORTH",
+    "category": "Mondai 2: 表記",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "新しい薬の効果を調べるため、少人数の【じっけん】を行った。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "実見"
+      },
+      {
+        "id": "B",
+        "text": "実券"
+      },
+      {
+        "id": "C",
+        "text": "実験"
+      },
+      {
+        "id": "D",
+        "text": "実検"
+      }
+    ],
+    "contentFingerprint": "b829ac445fdb0822159614b76bec22b45ab769e275586f687dd2fa7e747259b5"
+  },
+  {
+    "id": "N2_08_M3_01",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-FORM",
+    "category": "Mondai 3: 語形成",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "学会発表の日程が決まっているため、結果はまだ【（　）発表】として扱う。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "不"
+      },
+      {
+        "id": "B",
+        "text": "非"
+      },
+      {
+        "id": "C",
+        "text": "無"
+      },
+      {
+        "id": "D",
+        "text": "未"
+      }
+    ],
+    "contentFingerprint": "560ec3815653357e28646262e21cc7f01b35b715577b644b3ba1b7dcd90ba0ac"
+  },
+  {
+    "id": "N2_08_M3_02",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-FORM",
+    "category": "Mondai 3: 語形成",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "温度を0.1度単位で測れる、【高（　）】のセンサーを開発した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "精度"
+      },
+      {
+        "id": "B",
+        "text": "値"
+      },
+      {
+        "id": "C",
+        "text": "率"
+      },
+      {
+        "id": "D",
+        "text": "度"
+      }
+    ],
+    "contentFingerprint": "22451a425d2df6962f3b3aeda6047a24263424de37d0700db3877c3319d2788f"
+  },
+  {
+    "id": "N2_08_M3_03",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-FORM",
+    "category": "Mondai 3: 語形成",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "画像から物体を判別する【機械（　）】の研究が進んでいる。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "化"
+      },
+      {
+        "id": "B",
+        "text": "学習"
+      },
+      {
+        "id": "C",
+        "text": "語"
+      },
+      {
+        "id": "D",
+        "text": "力"
+      }
+    ],
+    "contentFingerprint": "562663319a5c85d870caef00aa1ef438081bebcbe276c7fbcd44e5fb9e854682"
+  },
+  {
+    "id": "N2_08_M3_04",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-FORM",
+    "category": "Mondai 3: 語形成",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "試作機で見つかった問題を踏まえ、回路を【再（　）】することになった。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "構築"
+      },
+      {
+        "id": "B",
+        "text": "建築"
+      },
+      {
+        "id": "C",
+        "text": "設計"
+      },
+      {
+        "id": "D",
+        "text": "作図"
+      }
+    ],
+    "contentFingerprint": "8a207c54cbe56e42999a9c1031c65a10279c59e213c2a31e14fd33211401c549"
+  },
+  {
+    "id": "N2_08_M3_05",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-FORM",
+    "category": "Mondai 3: 語形成",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "二つの大学は、感染症の予測モデルについて【共（　）研究】を始めた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "創"
+      },
+      {
+        "id": "B",
+        "text": "通"
+      },
+      {
+        "id": "C",
+        "text": "用"
+      },
+      {
+        "id": "D",
+        "text": "同"
+      }
+    ],
+    "contentFingerprint": "4402a7acfc0cad467e31aea39d75378fc323fa552c036bfd0ab2f6e4527ba6ff"
+  },
+  {
+    "id": "N2_08_M4_01",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-CONT",
+    "category": "Mondai 4: 文脈規定",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "発表時間が残り一分しかなかったため、演者は結論を（　）述べた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "簡潔に"
+      },
+      {
+        "id": "B",
+        "text": "一律に"
+      },
+      {
+        "id": "C",
+        "text": "率直に"
+      },
+      {
+        "id": "D",
+        "text": "無断で"
+      }
+    ],
+    "contentFingerprint": "3950ce4f8cada2a440d6d645933ed6d14fe0737762b5692ab735ed1d601e9261"
+  },
+  {
+    "id": "N2_08_M4_02",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-CONT",
+    "category": "Mondai 4: 文脈規定",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "測定値にばらつきが出たため、装置の設定を見直して原因を（　）した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "発表"
+      },
+      {
+        "id": "B",
+        "text": "把握"
+      },
+      {
+        "id": "C",
+        "text": "採択"
+      },
+      {
+        "id": "D",
+        "text": "促進"
+      }
+    ],
+    "contentFingerprint": "ebe8a13c945539526f050b355a254c1823b3f3a64e6b19a198e9431c3a139da2"
+  },
+  {
+    "id": "N2_08_M4_03",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-CONT",
+    "category": "Mondai 4: 文脈規定",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "講義の動画は、専門用語に字幕を付けることで、内容をより（　）しやすくした。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "記録"
+      },
+      {
+        "id": "B",
+        "text": "保存"
+      },
+      {
+        "id": "C",
+        "text": "理解"
+      },
+      {
+        "id": "D",
+        "text": "判断"
+      }
+    ],
+    "contentFingerprint": "1ff6c6cccb4776c0514fa3d64fcaa04b591de325596d7a9fe2f6a862b522a362"
+  },
+  {
+    "id": "N2_08_M4_04",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-CONT",
+    "category": "Mondai 4: 文脈規定",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "共同研究では、研究者同士がデータを（　）し、分析方法を確認した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "削除"
+      },
+      {
+        "id": "B",
+        "text": "回収"
+      },
+      {
+        "id": "C",
+        "text": "拒否"
+      },
+      {
+        "id": "D",
+        "text": "共有"
+      }
+    ],
+    "contentFingerprint": "472d7ff0446b18830e69364a1e013d922723bc634c17b809c571bbeda12713e5"
+  },
+  {
+    "id": "N2_08_M4_05",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-CONT",
+    "category": "Mondai 4: 文脈規定",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "結果を急いで公表するより、別の条件でも再現できるか（　）することが重要だ。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "検討"
+      },
+      {
+        "id": "B",
+        "text": "無視"
+      },
+      {
+        "id": "C",
+        "text": "省略"
+      },
+      {
+        "id": "D",
+        "text": "断念"
+      }
+    ],
+    "contentFingerprint": "b49f8571810dfb4303368de408642a0abafaed9d3f13d44fdb5d5832c8623a5c"
+  },
+  {
+    "id": "N2_08_M4_06",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-CONT",
+    "category": "Mondai 4: 文脈規定",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "新しい学習システムを導入したが、操作が複雑で利用が（　）している。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "定着"
+      },
+      {
+        "id": "B",
+        "text": "停滞"
+      },
+      {
+        "id": "C",
+        "text": "進出"
+      },
+      {
+        "id": "D",
+        "text": "集中"
+      }
+    ],
+    "contentFingerprint": "a980e0d2451d89be440191372836bfae961aacc6e74826e498f3688745ca03f4"
+  },
+  {
+    "id": "N2_08_M4_07",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-CONT",
+    "category": "Mondai 4: 文脈規定",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "発表者は質問の意図を確かめてから、根拠を示しつつ（　）に答えた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "急激"
+      },
+      {
+        "id": "B",
+        "text": "偶然"
+      },
+      {
+        "id": "C",
+        "text": "適切"
+      },
+      {
+        "id": "D",
+        "text": "簡単"
+      }
+    ],
+    "contentFingerprint": "39b40b9c19689246884de6a1d742a9a5a202de3c2dbe7fa260b77d9d5153682f"
+  },
+  {
+    "id": "N2_08_M5_01",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-PARA",
+    "category": "Mondai 5: 言い換え類義",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "このデータだけでは、仮説を裏付けるには【不十分】だ。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "必要以上だ"
+      },
+      {
+        "id": "B",
+        "text": "かなり確かだ"
+      },
+      {
+        "id": "C",
+        "text": "すでに知られている"
+      },
+      {
+        "id": "D",
+        "text": "十分ではない"
+      }
+    ],
+    "contentFingerprint": "86f64dbd76f6c6e9d4928cb588a86c7d5b8e8369bd7551401d9c7d230178977b"
+  },
+  {
+    "id": "N2_08_M5_02",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-PARA",
+    "category": "Mondai 5: 言い換え類義",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "担当者は利用者の質問に【即座に】答えた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "その場ですぐに"
+      },
+      {
+        "id": "B",
+        "text": "前もって"
+      },
+      {
+        "id": "C",
+        "text": "念入りに"
+      },
+      {
+        "id": "D",
+        "text": "順番に"
+      }
+    ],
+    "contentFingerprint": "630bbe5e827e5a9f72ba7cb9125afbef6b801afcd3037ae97f8ae0747858a522"
+  },
+  {
+    "id": "N2_08_M5_03",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-PARA",
+    "category": "Mondai 5: 言い換え類義",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "実験条件を【統一】しなければ、結果を比較できない。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "細かく分け"
+      },
+      {
+        "id": "B",
+        "text": "同じにそろえ"
+      },
+      {
+        "id": "C",
+        "text": "新しく変え"
+      },
+      {
+        "id": "D",
+        "text": "一つずつ記録し"
+      }
+    ],
+    "contentFingerprint": "44740cca5075e8ae4ad341837f57e5742ab7b49e8e54fb40a3f3910c74740fe1"
+  },
+  {
+    "id": "N2_08_M5_04",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-PARA",
+    "category": "Mondai 5: 言い換え類義",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "研究室は新しい測定方法を【導入】した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "外部に紹介した"
+      },
+      {
+        "id": "B",
+        "text": "詳しく調べた"
+      },
+      {
+        "id": "C",
+        "text": "使い始めた"
+      },
+      {
+        "id": "D",
+        "text": "使用をやめた"
+      }
+    ],
+    "contentFingerprint": "c60ddc2d3e2b01467a49f8569c241d134a02abf08bf50d79be3acc81aa5076ee"
+  },
+  {
+    "id": "N2_08_M5_05",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-PARA",
+    "category": "Mondai 5: 言い換え類義",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "説明文の表現が【曖昧】で、読み手によって解釈が分かれた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "根拠がない"
+      },
+      {
+        "id": "B",
+        "text": "短すぎる"
+      },
+      {
+        "id": "C",
+        "text": "専門的すぎる"
+      },
+      {
+        "id": "D",
+        "text": "意味がはっきりしない"
+      }
+    ],
+    "contentFingerprint": "1a7ea204dd3454cfc37f92ebd1a3fb8087b288e8b0a377d73d00ce97477b684c"
+  },
+  {
+    "id": "N2_08_M6_01",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-USE",
+    "category": "Mondai 6: 用法",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "『見込む』の使い方として最も適切なものを選びなさい。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "来年度は利用者が増えると見込んで、予算を多めに確保した。"
+      },
+      {
+        "id": "B",
+        "text": "雨雲が見込んでいるので、傘を持って出た。"
+      },
+      {
+        "id": "C",
+        "text": "彼は資料を見込んで机に置いた。"
+      },
+      {
+        "id": "D",
+        "text": "説明の順番を見込んで、質問を後にした。"
+      }
+    ],
+    "contentFingerprint": "a55a120658aafc8bb8e8eb7c09032fc88394c633870b32177be0a09f4ebc7eb4"
+  },
+  {
+    "id": "N2_08_M6_02",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-USE",
+    "category": "Mondai 6: 用法",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "『妥当』の使い方として最も適切なものを選びなさい。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "机の上に妥当なペンが置いてあった。"
+      },
+      {
+        "id": "B",
+        "text": "費用と効果を比べた結果、この価格設定は妥当だと判断された。"
+      },
+      {
+        "id": "C",
+        "text": "彼女は妥当な友人と一緒に研究した。"
+      },
+      {
+        "id": "D",
+        "text": "机の上の妥当を片付けてから実験を始めた。"
+      }
+    ],
+    "contentFingerprint": "44ab730d64b93fd8cea1b219bb81685e83fcf15801108eb906670776a030c887"
+  },
+  {
+    "id": "N2_08_M6_03",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-USE",
+    "category": "Mondai 6: 用法",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "『担う』の使い方として最も適切なものを選びなさい。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "発表の前に、担った資料を机へ置いた。"
+      },
+      {
+        "id": "B",
+        "text": "彼は担うほどの雨を見て、窓を閉めた。"
+      },
+      {
+        "id": "C",
+        "text": "この研究室では、院生が装置の保守を担っている。"
+      },
+      {
+        "id": "D",
+        "text": "データを担って、グラフに変換した。"
+      }
+    ],
+    "contentFingerprint": "a59ee3de6dbc63be147da2127e02c0cc34c10e509e1d128c6c170bd70d767e4c"
+  },
+  {
+    "id": "N2_08_M6_04",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-USE",
+    "category": "Mondai 6: 用法",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "『補う』の使い方として最も適切なものを選びなさい。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "彼は風邪を補って、一週間休んだ。"
+      },
+      {
+        "id": "B",
+        "text": "講師は補った声で講義を始めた。"
+      },
+      {
+        "id": "C",
+        "text": "昨日の論文を補って棚に並べた。"
+      },
+      {
+        "id": "D",
+        "text": "欠けている測定値は、追加実験の結果で補った。"
+      }
+    ],
+    "contentFingerprint": "003d43f855ff7e85f777f92592f6001a3611ea6af9566dc7a175fda08aed06d6"
+  },
+  {
+    "id": "N2_08_M6_05",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-USE",
+    "category": "Mondai 6: 用法",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "『促す』の使い方として最も適切なものを選びなさい。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "教授は学生に、データの出典を明記するよう促した。"
+      },
+      {
+        "id": "B",
+        "text": "研究費を促して、書類を箱に入れた。"
+      },
+      {
+        "id": "C",
+        "text": "パソコンが促して、画面の色が変わった。"
+      },
+      {
+        "id": "D",
+        "text": "論文を促したので、図書館に返した。"
+      }
+    ],
+    "contentFingerprint": "12fd3e266b78b429bbdbb0a2596fcad87d7c8789f46a370ba4e35674d74c56d1"
+  },
+  {
+    "id": "N2_08_M7_01",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-GR-FORM",
+    "category": "Mondai 7: 文法形式の判断",
+    "taskInstructions": "次の文の（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+    "stem": "この研究は、全国の大学から集めた回答（　）分析を進めている。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "を問わず"
+      },
+      {
+        "id": "B",
+        "text": "に基づいて"
+      },
+      {
+        "id": "C",
+        "text": "に先立って"
+      },
+      {
+        "id": "D",
+        "text": "に限って"
+      }
+    ],
+    "contentFingerprint": "ee26baa5a0d012a6db580d8fcc1ce50bc4de5d373166515c3d2e440047a9a282"
+  },
+  {
+    "id": "N2_08_M7_02",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-GR-FORM",
+    "category": "Mondai 7: 文法形式の判断",
+    "taskInstructions": "次の文の（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+    "stem": "今回の公開講座は、学生（　）、地域の社会人にも開かれている。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "を通じて"
+      },
+      {
+        "id": "B",
+        "text": "に際して"
+      },
+      {
+        "id": "C",
+        "text": "に限らず"
+      },
+      {
+        "id": "D",
+        "text": "に応じて"
+      }
+    ],
+    "contentFingerprint": "9776d9c5f243c764fbddc091dc491031183ad1f90537e86b85c7cf5e713654e6"
+  },
+  {
+    "id": "N2_08_M7_03",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-GR-FORM",
+    "category": "Mondai 7: 文法形式の判断",
+    "taskInstructions": "次の文の（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+    "stem": "通信環境の改善（　）、遠隔地から授業に参加する学生が増えた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "に先立ち"
+      },
+      {
+        "id": "B",
+        "text": "に限り"
+      },
+      {
+        "id": "C",
+        "text": "に反して"
+      },
+      {
+        "id": "D",
+        "text": "に伴い"
+      }
+    ],
+    "contentFingerprint": "9c78ae12ab429ce69c01b2451ffb3bcf812ce96f26335a3f037c969dddfc9e79"
+  },
+  {
+    "id": "N2_08_M7_04",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-GR-FORM",
+    "category": "Mondai 7: 文法形式の判断",
+    "taskInstructions": "次の文の（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+    "stem": "この実験では、専攻（　）、希望者なら誰でも機器を見学できる。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "にかかわらず"
+      },
+      {
+        "id": "B",
+        "text": "にしたがって"
+      },
+      {
+        "id": "C",
+        "text": "に応じて"
+      },
+      {
+        "id": "D",
+        "text": "をめぐって"
+      }
+    ],
+    "contentFingerprint": "51bae0e7f30457b352eebb554443b0a89c7471a524d295333b950cc509aae516"
+  },
+  {
+    "id": "N2_08_M7_05",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-GR-FORM",
+    "category": "Mondai 7: 文法形式の判断",
+    "taskInstructions": "次の文の（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+    "stem": "測定条件を一つ誤ると、結論を大きく誤解させ（　）。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "るにすぎない"
+      },
+      {
+        "id": "B",
+        "text": "るおそれがある"
+      },
+      {
+        "id": "C",
+        "text": "るわけにはいかない"
+      },
+      {
+        "id": "D",
+        "text": "るに決まっている"
+      }
+    ],
+    "contentFingerprint": "94beb56dc295fa816425e028ba0a65a62fe8b2ab605c02653b0a187db4e35dbc"
+  },
+  {
+    "id": "N2_08_M7_06",
+    "examId": "N2-MOCK-08",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-GR-FORM",
+    "category": "Mondai 7: 文法形式の判断",
+    "taskInstructions": "次の文の（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+    "stem": "新しいアプリを導入したが、すべての学生が以前より便利になった（　）。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "どころではない"
+      },
+      {
+        "id": "B",
+        "text": "にほかならない"
+      },
+      {
+        "id": "C",
+        "text": "というわけではない"
+      },
+      {
+        "id": "D",
+        "text": "に限ったことだ"
+      }
+    ],
+    "contentFingerprint": "01c70ccab679d760b2337dfef936dd8ddeee4da3a338e01c96c53685e6079ae7"
+  }
+]
