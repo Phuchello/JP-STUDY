@@ -115,8 +115,8 @@ def main() -> int:
     artifact_hashes = report.get("normalizedArtifactSha256", {})
     for filename in [*INPUT_FILES, *REVIEW_FILES]:
         path = QA / filename
-        if artifact_hashes.get(filename) != sha256(path):
-            fail(f"normalized artifact hash changed: {filename}")
+        if artifact_hashes.get(filename) not in compatible_text_sha256(path.read_bytes()):
+            fail(f"normalized artifact content hash changed beyond newline conversion: {filename}")
 
     stars = report.get("starPermutationAudits", [])
     star_map = {entry.get("questionId"): entry for entry in stars}
