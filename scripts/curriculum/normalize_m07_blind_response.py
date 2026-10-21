@@ -17,6 +17,7 @@ if str(ROOT) not in sys.path:
 
 from scripts.curriculum.blind_review_exporter import validate_sealed_item_purity
 from scripts.curriculum.question_fingerprint import compute_question_fingerprint
+from scripts.curriculum.phase_61_option_remapping import read_manifest
 
 EXAM_PATH = ROOT / "data/mock_exams/n2_mock_07.json"
 PRIMARY_RESPONSE = ROOT / "qa/raw_blind_m07_fresh_agent_response.json"
@@ -65,10 +66,51 @@ def reconstructed_star_sentence(q, order):
     return template
 
 
+def current_id_for_text(current_question, text):
+    matches = [str(option["id"]).upper() for option in current_question.get("options", [])
+               if str(option.get("text", "")).strip() == str(text).strip()]
+    if len(matches) != 1:
+        raise ValueError(f"Option text does not map uniquely to current item {current_question.get('id')}")
+    return matches[0]
+
+
+def remap_review_id(source_question, current_question, old_id):
+    source_options = {str(o["id"]).upper(): str(o["text"]).strip()
+                      for o in source_question.get("options", [])}
+    old_id = str(old_id).strip().upper()
+    if old_id not in source_options:
+        raise ValueError(f"Historical reviewer selection {old_id} is absent from sealed input {source_question.get('id')}")
+    text = source_options[old_id]
+    return current_id_for_text(current_question, text)
+
+
+def remap_review_order(source_question, current_question, order):
+    source_options = {str(o["id"]).upper(): str(o["text"]).strip()
+                      for o in source_question.get("options", [])}
+    code = order_code(order)
+    if len(code) != 4 or len(set(code)) != 4 or any(label not in source_options for label in code):
+        raise ValueError(f"Historical STAR order is invalid for {source_question.get('id')}")
+    return "".join(remap_review_id(source_question, current_question, label) for label in code)
+
+
+def assert_text_preserving_remap(qid, source_question, current_question, manifest_row):
+    if source_question.get("contentFingerprint") != manifest_row.get("sourceQuestionFingerprint"):
+        raise ValueError(f"Historical review source fingerprint differs from the pre-remap manifest: {qid}")
+    if str(source_question.get("stem", "")).strip() != str(current_question.get("stem", "")).strip():
+        raise ValueError(f"Stem changed after review: {qid}")
+    old_texts = sorted(str(o.get("text", "")).strip() for o in source_question.get("options", []))
+    new_texts = sorted(str(o.get("text", "")).strip() for o in current_question.get("options", []))
+    if old_texts != new_texts or old_texts != sorted(manifest_row.get("originalOptionTexts", [])):
+        raise ValueError(f"Question text/options changed beyond displayed-label remap: {qid}")
+    if source_question.get("typeId") != current_question.get("typeId"):
+        raise ValueError(f"Question type changed after review: {qid}")
+
+
 def main() -> None:
     exam = read_json(EXAM_PATH)
     current = {q["id"]: q for section in exam["sections"] for q in section["items"]}
     assert len(current) == 105, f"Expected 105 unique items, got {len(current)}"
+    remap_rows = read_manifest()["exams"]["N2-MOCK-07"]
 
     primary_answers = read_json(PRIMARY_RESPONSE)["answers"]
     primary_inputs = {}
@@ -98,8 +140,7 @@ def main() -> None:
         raise ValueError("Post-TTS sealed review must cover exactly the refreshed M3/M4 items")
     for qid, sealed in post_tts_input.items():
         validate_sealed_item_purity(sealed)
-        if sealed.get("contentFingerprint") != compute_question_fingerprint(current[qid]):
-            raise ValueError(f"Post-TTS sealed-input fingerprint mismatch: {qid}")
+        assert_text_preserving_remap(qid, sealed, current[qid], remap_rows[qid])
         answer = post_tts_answers[qid]
         if answer.get("concerns"):
             raise ValueError(f"Post-TTS reviewer raised an unresolved concern for {qid}")
@@ -156,26 +197,46 @@ def main() -> None:
         candidate_orders = [order_code(c.get("order", "")) for c in candidates]
         if len(candidates) != 24 or len(set(candidate_orders)) != 24 or set(candidate_orders) != expected_permutations:
             raise ValueError(f"Blind final star review must judge each of the 24 permutations exactly once for {qid}")
+        assert_text_preserving_remap(qid, final_star_input[qid], current[qid], remap_rows[qid])
+        mapped_order = remap_review_order(final_star_input[qid], current[qid], order_code_value)
+        mapped_candidates = []
+        for candidate in candidates:
+            mapped_candidate = dict(candidate)
+            mapped_candidate["sourceOptionOrder"] = candidate.get("order")
+            mapped_candidate["order"] = remap_review_order(final_star_input[qid], current[qid],
+                                                            order_code(candidate.get("order", "")))
+            mapped_candidates.append(mapped_candidate)
+        mapped_star_answer = remap_review_id(final_star_input[qid], current[qid], answer)
+        mapped_candidate_orders = [row["order"] for row in mapped_candidates]
+        if len(set(mapped_candidate_orders)) != 24 or set(mapped_candidate_orders) != expected_permutations:
+            raise ValueError(f"Text-mapped final STAR audit lost a permutation for {qid}")
+        if mapped_star_answer != mapped_order[2]:
+            raise ValueError(f"Text-mapped blind STAR answer differs from the third fragment for {qid}")
         changed_alternates = [
-            c for c, candidate_order in zip(candidates, candidate_orders)
+            c for c in mapped_candidates
+            for candidate_order in [c["order"]]
             if str(c.get("judgment", "")).strip().lower() in {"natural", "marginal"}
-            and candidate_order[2] != answer
+            and candidate_order[2] != mapped_star_answer
         ]
         if item.get("alternate_changes_star") or changed_alternates:
             raise ValueError(f"Blind reviewer found an alternate ★ answer for {qid}: {changed_alternates}")
-        if not any(candidate_order == order_code_value and str(c.get("judgment", "")).lower() == "natural"
-                   for c, candidate_order in zip(candidates, candidate_orders)):
+        if not any(c["order"] == mapped_order and str(c.get("judgment", "")).lower() == "natural"
+                   for c in mapped_candidates):
             raise ValueError(f"Reviewer did not classify the intended order as natural for {qid}")
         final_star_answers[qid] = answer
-        final_star_orders[qid] = order_code_value
+        final_star_orders[qid] = mapped_order
         star_permutation_audit.append({
             "questionId": qid,
-            "contentFingerprint": final_star_input[qid].get("contentFingerprint"),
+            "contentFingerprint": compute_question_fingerprint(current[qid]),
+            "historicalSourceFingerprint": final_star_input[qid].get("contentFingerprint"),
             "reviewedPermutations": len(candidates),
-            "reviewerNaturalOrder": order_code_value,
-            "reviewerStarOption": answer,
+            "sourceReviewerNaturalOrder": order_code_value,
+            "reviewerNaturalOrder": mapped_order,
+            "sourceReviewerStarOption": answer,
+            "reviewerStarOption": mapped_star_answer,
             "marginalOrNaturalAlternatesChangingStar": [],
-            "candidateJudgments": candidates,
+            "mappingMethod": "EXACT_FRAGMENT_TEXT_DERIVATION",
+            "candidateJudgments": mapped_candidates,
         })
     expected_final_star_ids = {"N2_07_M8_04", "N2_07_M8_05"}
     assert set(final_star_answers) == set(final_star_input) == expected_final_star_ids, (
@@ -199,19 +260,21 @@ def main() -> None:
         sealed = input_map[qid]
         validate_sealed_item_purity(sealed)
         live_fingerprint = compute_question_fingerprint(q)
-        if sealed.get("contentFingerprint") != live_fingerprint:
-            raise ValueError(f"Final sealed-input fingerprint mismatch: {qid}")
+        assert_text_preserving_remap(qid, sealed, q, remap_rows[qid])
         if qid in final_star_answers:
             reviewer_order = final_star_orders[qid]
-            if q.get("correctAnswer") != final_star_answers[qid]:
+            mapped_answer = remap_review_id(sealed, q, final_star_answers[qid])
+            if q.get("correctAnswer") != mapped_answer:
                 raise ValueError(f"Blind star reviewer answer differs from authored key for {qid}")
             reconstructed = reconstructed_star_sentence(q, reviewer_order)
             if reconstructed != q.get("assembledSentence"):
                 raise ValueError(f"Blind star review order does not reconstruct the current sentence for {qid}")
-        answer = str(answer_map[qid]).strip().upper()
-        options = {str(o["id"]).strip().upper(): str(o["text"]).strip() for o in sealed.get("options", [])}
-        if answer not in options:
-            raise ValueError(f"Reviewer selection {answer!r} is not a sealed option for {qid}")
+        source_answer = str(answer_map[qid]).strip().upper()
+        source_options = {str(o["id"]).strip().upper(): str(o["text"]).strip() for o in sealed.get("options", [])}
+        if source_answer not in source_options:
+            raise ValueError(f"Reviewer selection {source_answer!r} is not a sealed option for {qid}")
+        selected_text = source_options[source_answer]
+        answer = current_id_for_text(q, selected_text)
         record = {
             "id": qid,
             "blindAnswer": answer,
@@ -223,7 +286,10 @@ def main() -> None:
                 POST_TTS_RESPONSE.name if qid in post_tts_answers else
                 PRIMARY_RESPONSE.name
             ),
-            "selectedOptionText": options[answer],
+            "selectedOptionText": selected_text,
+            "originalReviewerSelection": source_answer,
+            "sourceContentFingerprint": sealed.get("contentFingerprint"),
+            "mappingMethod": "EXACT_OPTION_TEXT_DERIVATION",
         }
         grouped["s2" if qid in {it["id"] for it in read_json(ROOT / "qa/blind_items_m07_s2.json")} else
                 "s1_p1" if qid in {it["id"] for it in read_json(ROOT / "qa/blind_items_m07_s1_p1.json")} else
@@ -242,7 +308,7 @@ def main() -> None:
         "",
         "The preserved primary response is an AI sub-agent's answer map to the sealed 105-item inputs. Three items were rewritten after the first review flags and replaced by a sealed three-item revision review. Five star-order items were subsequently redesigned and solved from a separate sealed five-item input. Two more star items were examined through successive sealed, exhaustive permutation reviews: reviewers found answer-changing alternates for M8_04/M8_05, then M8_05 alone, and that item was rewritten before the final two-item review. Those negative reviews remain preserved as raw evidence. The final star options are checked against the third fragment in the returned order and all 24 candidate permutations are required in the final audit.",
         "",
-        "No authored answer key or explanation was included in any review input. The raw response artifacts preserve the reviewer selections as returned. The three `review_answers` files are normalized copies bound to final item fingerprints; they do not add explanations or alter reviewer selections.",
+        "No authored answer key or explanation was included in any review input. Raw response artifacts remain unchanged and preserve the reviewers' original displayed letters. The three `review_answers` files record each original letter, exact selected Japanese option text, derived current letter, source fingerprint and current item fingerprint. Every selection is mapped by `EXACT_OPTION_TEXT_DERIVATION`; this is a transformation of existing evidence, not a new independent review.",
         "",
         "This is independent blind AI linguistic review, not a native-speaker review and not a portable execution attestation. CI should classify these records as content-version checked, not execution-attested.",
         "",

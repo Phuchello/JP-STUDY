@@ -46,6 +46,75 @@ def remap_blind_solve(orig_blind_letter, input_options_dict, current_options_dic
         return remapped_ans, mapping_method, selected_text
     return None, "UNRECOVERABLE", selected_text
 
+
+def derive_normalized_m07_selection(review, source_candidates, current_item):
+    """Validate M07's derived response record against its exact sealed source.
+
+    The M07 normalizer preserves the original reviewer label separately from
+    the current label and stores the exact selected Japanese text. Resolve by
+    that text only after verifying the source fingerprint, source label, and
+    unchanged stimulus/option-text multiset. This safely excludes answer
+    labels from semantic identity while rejecting stale or ambiguous records.
+    """
+    selected_text = str(review.get("selectedOptionText", "")).strip()
+    source_fp = review.get("sourceContentFingerprint")
+    original_label = review.get("originalReviewerSelection")
+    current_fp = compute_question_fingerprint(current_item)
+
+    def sealed_fingerprint(item):
+        # M07 sealed exports carry the fingerprint recorded at export time.
+        # Their historical schema is intentionally distinct from the current
+        # assessment fingerprint function, so prefer the sealed value and use
+        # a recomputation only for compact synthetic fixtures.
+        return item.get("contentFingerprint") or compute_question_fingerprint(item)
+
+    if not selected_text or not source_fp or not original_label:
+        raise ValueError("M07 normalized response lacks selected text, source fingerprint, or original label")
+    if review.get("contentFingerprint") != current_fp:
+        raise ValueError("M07 normalized response is not bound to the current assessment fingerprint")
+
+    source_matches = [
+        item for item in source_candidates
+        if sealed_fingerprint(item) == source_fp
+    ]
+    if not source_matches:
+        raise ValueError("M07 source fingerprint does not match any preserved sealed input")
+
+    current_options = {str(o.get("id")): str(o.get("text", "")).strip()
+                       for o in current_item.get("options", [])}
+    current_matches = [key for key, value in current_options.items() if value == selected_text]
+    if len(current_matches) != 1:
+        raise ValueError("M07 selected Japanese text is missing or non-unique in current options")
+
+    for source_item in source_matches:
+        source_options = {str(o.get("id")): str(o.get("text", "")).strip()
+                          for o in source_item.get("options", [])}
+        if source_options.get(str(original_label)) != selected_text:
+            continue
+        if source_item.get("typeId") != current_item.get("typeId"):
+            continue
+        source_stimulus = str(source_item.get("script") or source_item.get("contextPassage")
+                              or source_item.get("passage") or "").strip()
+        current_stimulus = str(current_item.get("script") or current_item.get("contextPassage")
+                               or current_item.get("passage") or "").strip()
+        if (str(source_item.get("stem") or "").strip() != str(current_item.get("stem") or "").strip()
+                or source_stimulus != current_stimulus):
+            continue
+        source_texts = sorted(source_options.values())
+        current_texts = sorted(current_options.values())
+        if source_texts != current_texts:
+            continue
+        return {
+            "originalLabel": str(original_label),
+            "selectedText": selected_text,
+            "currentLabel": current_matches[0],
+            "sourceFingerprint": source_fp,
+            "currentFingerprint": current_fp,
+            "sourceInputCount": len(source_matches),
+            "mappingMethod": "EXACT_OPTION_TEXT_DERIVATION",
+        }
+    raise ValueError("M07 selected text is not supported by an equivalent fingerprint-matched sealed source")
+
 def run_integrity_audit():
     print("=== Phase 1 & 2: Blind Review Integrity Audit & Semantic Remapping ===")
 
@@ -91,6 +160,7 @@ def run_integrity_audit():
 
     # Load original blind items (the input seen by reviewers)
     blind_inputs = {}
+    blind_input_candidates = {}
     for bif in [
         ROOT / "qa/blind_items_m01_s1_p1.json",
         ROOT / "qa/blind_items_m01_s1_p2.json",
@@ -137,6 +207,7 @@ def run_integrity_audit():
             items = json.loads(bif.read_text(encoding='utf-8'))
             for it in items:
                 blind_inputs[it['id']] = it
+                blind_input_candidates.setdefault(it['id'], []).append(it)
 
     # Load actual production exam files
     exam_items = {}
@@ -165,8 +236,26 @@ def run_integrity_audit():
         orig_blind_ans = rev['blindAnswer']
         orig_justification = rev.get('linguisticJustification', '')
 
+        normalized_m07 = (
+            raw_entry.get("sourceFile", "").startswith("review_answers_m07_")
+            and "selectedOptionText" in rev
+            and "sourceContentFingerprint" in rev
+        )
+        normalized_m07_evidence = None
+        if normalized_m07:
+            normalized_m07_evidence = derive_normalized_m07_selection(
+                rev, blind_input_candidates.get(qid, []), q
+            )
+            orig_blind_ans = normalized_m07_evidence["originalLabel"]
+
         # Original options from reviewer's input
-        if raw_entry.get("sourceFile") == "raw_blind_star_repaired_3.json":
+        if normalized_m07:
+            input_item = next(
+                item for item in blind_input_candidates.get(qid, [])
+                if (item.get("contentFingerprint") or compute_question_fingerprint(item))
+                == normalized_m07_evidence["sourceFingerprint"]
+            )
+        elif raw_entry.get("sourceFile") == "raw_blind_star_repaired_3.json":
             input_item = q
         else:
             input_item = blind_inputs.get(qid, q)
@@ -182,7 +271,8 @@ def run_integrity_audit():
         if is_reordered:
             affected_count += 1
 
-        selected_text = input_options.get(orig_blind_ans)
+        selected_text = (normalized_m07_evidence["selectedText"] if normalized_m07
+                         else input_options.get(orig_blind_ans))
         if not selected_text:
             unrecoverable_count += 1
             derived_records.append({
@@ -196,14 +286,22 @@ def run_integrity_audit():
             })
             continue
 
-        remapped_ans, mapping_method, selected_text = remap_blind_solve(orig_blind_ans, input_options, current_options)
+        if normalized_m07:
+            remapped_ans = normalized_m07_evidence["currentLabel"]
+            mapping_method = normalized_m07_evidence["mappingMethod"]
+        else:
+            remapped_ans, mapping_method, selected_text = remap_blind_solve(orig_blind_ans, input_options, current_options)
         if remapped_ans:
             recoverable_count += (1 if is_reordered else 0)
         else:
             unrecoverable_count += (1 if is_reordered else 0)
 
         # Explicit Provenance Determination (Strict - No Fallback)
-        if explicit_review_fp:
+        if normalized_m07:
+            review_fingerprint = normalized_m07_evidence["currentFingerprint"]
+            fingerprint_match = True
+            provenance = "OPTION_PERMUTATION_REBOUND"
+        elif explicit_review_fp:
             if explicit_review_fp == current_fingerprint:
                 review_fingerprint = explicit_review_fp
                 fingerprint_match = True
@@ -287,6 +385,7 @@ def run_integrity_audit():
             "historicalLetterReference": explanation_mentions,
             "hasLetterInconsistency": has_letter_inconsistency,
             "inconsistencyDetail": inconsistency_detail,
+            "semanticEquivalenceEvidence": normalized_m07_evidence,
             "alternativeDefensibleAnswers": rev.get('alternativeDefensibleAnswers', []),
             "concerns": rev.get('concerns')
         }

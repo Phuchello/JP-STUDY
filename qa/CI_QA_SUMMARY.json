@@ -1,6 +1,6 @@
 {
   "workflow": "Content QA & Adversarial Release Gate",
-  "ciRunTimestamp": "2026-10-21T10:21:42.135531+00:00",
+  "ciRunTimestamp": "2026-10-21T12:00:42.542517+00:00",
   "totalItemsAudited": 1050,
   "totalAudioTracksVerified": 300,
   "gateStatus": "PASS",
@@ -138,12 +138,12 @@
     "N2-MOCK-07": {
       "totalQuestions": 105,
       "section1AnswerDistribution": {
-        "A": 17,
-        "B": 20,
-        "C": 20,
-        "D": 18
+        "B": 17,
+        "C": 19,
+        "A": 23,
+        "D": 16
       },
-      "maxLetterRatio": 0.267,
+      "maxLetterRatio": 0.307,
       "audioReceiptVerified": true,
       "verifiedAudioTracks": 30,
       "technicalStatus": "TECHNICALLY_READY",
@@ -157,12 +157,12 @@
     "N2-MOCK-08": {
       "totalQuestions": 105,
       "section1AnswerDistribution": {
-        "A": 19,
-        "B": 19,
-        "D": 18,
-        "C": 19
+        "C": 22,
+        "D": 16,
+        "A": 20,
+        "B": 17
       },
-      "maxLetterRatio": 0.253,
+      "maxLetterRatio": 0.293,
       "audioReceiptVerified": true,
       "verifiedAudioTracks": 30,
       "technicalStatus": "TECHNICALLY_READY",
@@ -176,12 +176,12 @@
     "N2-MOCK-09": {
       "totalQuestions": 105,
       "section1AnswerDistribution": {
+        "B": 21,
         "A": 19,
-        "B": 19,
-        "D": 18,
-        "C": 19
+        "D": 19,
+        "C": 16
       },
-      "maxLetterRatio": 0.253,
+      "maxLetterRatio": 0.28,
       "audioReceiptVerified": true,
       "verifiedAudioTracks": 30,
       "technicalStatus": "TECHNICALLY_READY",

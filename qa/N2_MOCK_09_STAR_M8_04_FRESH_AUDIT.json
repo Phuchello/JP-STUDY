@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "examId": "N2-MOCK-09",
+  "questionId": "N2_09_M8_04",
+  "status": "FRESH_SINGLE_MODEL_CONTENT_AUDIT",
+  "reviewerProvenance": "Implementation-agent self-review; not independent, human, or native-speaker review. This does not create reviewer consensus.",
+  "reviewBasis": "All 24 current displayed-label orders were reconstructed from the actual current stem and exact fragment texts; the only grammatical sequence is DCAB.",
+  "currentContentFingerprint": "ced54169e52a902f3fbe874f9c50c23253ec220dcd38dae6f7bb5705c273ae71",
+  "sourceQuestionFingerprintMatchesPreRemap": false,
+  "historicalAuditDisposition": {
+    "sourceFile": "raw_blind_m09_agent_response.json",
+    "sourceSha256": "04ef64a597a2fc11821c81e8709b676ff6a314b77c6b2a6b96e3283883bf0bc6",
+    "invalidatedForThisItem": true,
+    "reason": "The archived A-B-C-D naturalSentence describes unrelated content and does not equal the sentence reconstructed from this item’s sealed stem/fragments; the historical permutation judgments cannot certify this item."
+  },
+  "ordersUseCurrentLabels": true,
+  "all24Permutations": [
+    "A-B-C-D: unnatural",
+    "A-B-D-C: unnatural",
+    "A-C-B-D: unnatural",
+    "A-C-D-B: unnatural",
+    "A-D-B-C: unnatural",
+    "A-D-C-B: unnatural",
+    "B-A-C-D: unnatural",
+    "B-A-D-C: unnatural",
+    "B-C-A-D: unnatural",
+    "B-C-D-A: unnatural",
+    "B-D-A-C: unnatural",
+    "B-D-C-A: unnatural",
+    "C-A-B-D: unnatural",
+    "C-A-D-B: unnatural",
+    "C-B-A-D: unnatural",
+    "C-B-D-A: unnatural",
+    "C-D-A-B: unnatural",
+    "C-D-B-A: unnatural",
+    "D-A-B-C: unnatural",
+    "D-A-C-B: unnatural",
+    "D-B-A-C: unnatural",
+    "D-B-C-A: unnatural",
+    "D-C-A-B: natural",
+    "D-C-B-A: unnatural"
+  ],
+  "permutationEvidence": [
+    {
+      "order": "ABCD",
+      "classification": "unnatural",
+      "reconstructedSentence": "議論の経過を後から検証できるようにするには、議事録に残しておくことが反対意見も住民が述べた大切だ。",
+      "rationale": "ことが大切だ must follow the verbal predicate, and the remaining fragments must form the object/predicate structure."
+    },
+    {
+      "order": "ABDC",
+      "classification": "unnatural",
+      "reconstructedSentence": "議論の経過を後から検証できるようにするには、議事録に残しておくことが住民が述べた反対意見も大切だ。",
+      "rationale": "ことが大切だ must follow the verbal predicate, and the remaining fragments must form the object/predicate structure."
+    },
+    {
+      "order": "ACBD",
+      "classification": "unnatural",
+      "reconstructedSentence": "議論の経過を後から検証できるようにするには、議事録に残しておく反対意見もことが住民が述べた大切だ。",
+      "rationale": "ことが大切だ must follow the verbal predicate, and the remaining fragments must form the object/predicate structure."
+    },
+    {
+      "order": "ACDB",
+      "classification": "unnatural",
+      "reconstructedSentence": "議論の経過を後から検証できるようにするには、議事録に残しておく反対意見も住民が述べたことが大切だ。",
+      "rationale": "Although ことが closes the nominalized predicate, the preceding fragments fail to form 住民が述べた反対意見も followed by 議事録に残しておく."
+    },
+    {
+      "order": "ADBC",
+      "classification": "unnatural",
+      "reconstructedSentence": "議論の経過を後から検証できるようにするには、議事録に残しておく住民が述べたことが反対意見も大切だ。",
+      "rationale": "ことが大切だ must follow the verbal predicate, and the remaining fragments must form the object/predicate structure."
+    },
+    {
+      "order": "ADCB",
+      "classification": "unnatural",
+      "reconstructedSentence": "議論の経過を後から検証できるようにするには、議事録に残しておく住民が述べた反対意見もことが大切だ。",
+      "rationale": "Although ことが closes the nominalized predicate, the preceding fragments fail to form 住民が述べた反対意見も followed by 議事録に残しておく."
+    },
+    {
+      "order": "BACD",
+      "classification": "unnatural",
+      "reconstructedSentence": "議論の経過を後から検証できるようにするには、ことが議事録に残しておく反対意見も住民が述べた大切だ。",
+      "rationale": "ことが大切だ must follow the verbal predicate, and the remaining fragments must form the object/predicate structure."
+    },
+    {
+      "order": "BADC",
+      "classification": "unnatural",
+      "reconstructedSentence": "議論の経過を後から検証できるようにするには、ことが議事録に残しておく住民が述べた反対意見も大切だ。",
+      "rationale": "ことが大切だ must follow the verbal predicate, and the remaining fragments must form the object/predicate structure."
+    },
+    {
+      "order": "BCAD",
+      "classification": "unnatural",
+      "reconstructedSentence": "議論の経過を後から検証できるようにするには、ことが反対意見も議事録に残しておく住民が述べた大切だ。",
+      "rationale": "ことが大切だ must follow the verbal predicate, and the remaining fragments must form the object/predicate structure."
+    },
+    {
+      "order": "BCDA",
+      "classification": "unnatural",
+      "reconstructedSentence": "議論の経過を後から検証できるようにするには、ことが反対意見も住民が述べた議事録に残しておく大切だ。",
+      "rationale": "ことが大切だ must follow the verbal predicate, and the remaining fragments must form the object/predicate structure."
+    },
+    {
+      "order": "BDAC",
+      "classification": "unnatural",
+      "reconstructedSentence": "議論の経過を後から検証できるようにするには、ことが住民が述べた議事録に残しておく反対意見も大切だ。",
+      "rationale": "ことが大切だ must follow the verbal predicate, and the remaining fragments must form the object/predicate structure."
+    },
+    {
+      "order": "BDCA",
+      "classification": "unnatural",
+      "reconstructedSentence": "議論の経過を後から検証できるようにするには、ことが住民が述べた反対意見も議事録に残しておく大切だ。",
+      "rationale": "ことが大切だ must follow the verbal predicate, and the remaining fragments must form the object/predicate structure."
+    },
+    {
+      "order": "CABD",
+      "classification": "unnatural",
+      "reconstructedSentence": "議論の経過を後から検証できるようにするには、反対意見も議事録に残しておくことが住民が述べた大切だ。",
+      "rationale": "ことが大切だ must follow the verbal predicate, and the remaining fragments must form the object/predicate structure."
+    },
+    {
+      "order": "CADB",
+      "classification": "unnatural",
+      "reconstructedSentence": "議論の経過を後から検証できるようにするには、反対意見も議事録に残しておく住民が述べたことが大切だ。",
+      "rationale": "Although ことが closes the nominalized predicate, the preceding fragments fail to form 住民が述べた反対意見も followed by 議事録に残しておく."
+    },
+    {
+      "order": "CBAD",
+      "classification": "unnatural",
+      "reconstructedSentence": "議論の経過を後から検証できるようにするには、反対意見もことが議事録に残しておく住民が述べた大切だ。",
+      "rationale": "ことが大切だ must follow the verbal predicate, and the remaining fragments must form the object/predicate structure."
+    },
+    {
+      "order": "CBDA",
+      "classification": "unnatural",
+      "reconstructedSentence": "議論の経過を後から検証できるようにするには、反対意見もことが住民が述べた議事録に残しておく大切だ。",
+      "rationale": "ことが大切だ must follow the verbal predicate, and the remaining fragments must form the object/predicate structure."
+    },
+    {
+      "order": "CDAB",
+      "classification": "unnatural",
+      "reconstructedSentence": "議論の経過を後から検証できるようにするには、反対意見も住民が述べた議事録に残しておくことが大切だ。",
+      "rationale": "Although ことが closes the nominalized predicate, the preceding fragments fail to form 住民が述べた反対意見も followed by 議事録に残しておく."
+    },
+    {
+      "order": "CDBA",
+      "classification": "unnatural",
+      "reconstructedSentence": "議論の経過を後から検証できるようにするには、反対意見も住民が述べたことが議事録に残しておく大切だ。",
+      "rationale": "ことが大切だ must follow the verbal predicate, and the remaining fragments must form the object/predicate structure."
+    },
+    {
+      "order": "DABC",
+      "classification": "unnatural",
+      "reconstructedSentence": "議論の経過を後から検証できるようにするには、住民が述べた議事録に残しておくことが反対意見も大切だ。",
+      "rationale": "ことが大切だ must follow the verbal predicate, and the remaining fragments must form the object/predicate structure."
+    },
+    {
+      "order": "DACB",
+      "classification": "unnatural",
+      "reconstructedSentence": "議論の経過を後から検証できるようにするには、住民が述べた議事録に残しておく反対意見もことが大切だ。",
+      "rationale": "Although ことが closes the nominalized predicate, the preceding fragments fail to form 住民が述べた反対意見も followed by 議事録に残しておく."
+    },
+    {
+      "order": "DBAC",
+      "classification": "unnatural",
+      "reconstructedSentence": "議論の経過を後から検証できるようにするには、住民が述べたことが議事録に残しておく反対意見も大切だ。",
+      "rationale": "ことが大切だ must follow the verbal predicate, and the remaining fragments must form the object/predicate structure."
+    },
+    {
+      "order": "DBCA",
+      "classification": "unnatural",
+      "reconstructedSentence": "議論の経過を後から検証できるようにするには、住民が述べたことが反対意見も議事録に残しておく大切だ。",
+      "rationale": "ことが大切だ must follow the verbal predicate, and the remaining fragments must form the object/predicate structure."
+    },
+    {
+      "order": "DCAB",
+      "classification": "natural",
+      "reconstructedSentence": "議論の経過を後から検証できるようにするには、住民が述べた反対意見も議事録に残しておくことが大切だ。",
+      "rationale": "The relative clause 住民が述べた modifies 反対意見; the whole noun phrase is followed by the predicate 議事録に残しておく, then ことが大切だ."
+    },
+    {
+      "order": "DCBA",
+      "classification": "unnatural",
+      "reconstructedSentence": "議論の経過を後から検証できるようにするには、住民が述べた反対意見もことが議事録に残しておく大切だ。",
+      "rationale": "ことが大切だ must follow the verbal predicate, and the remaining fragments must form the object/predicate structure."
+    }
+  ],
+  "naturalIntendedOrder": "D-C-A-B",
+  "starOption": "A",
+  "plausibleOrders": [
+    {
+      "order": "D-C-A-B",
+      "classification": "natural",
+      "reconstructedSentence": "議論の経過を後から検証できるようにするには、住民が述べた反対意見も議事録に残しておくことが大切だ。"
+    }
+  ],
+  "starChangingNaturalOrMarginalAlternatives": []
+}

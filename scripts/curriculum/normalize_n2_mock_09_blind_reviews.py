@@ -22,6 +22,7 @@ if str(ROOT) not in sys.path:
 
 from scripts.curriculum.blind_review_exporter import validate_sealed_item_purity
 from scripts.curriculum.question_fingerprint import compute_question_fingerprint
+from scripts.curriculum.phase_61_option_remapping import read_manifest
 
 QA = ROOT / "qa"
 EXAM_PATH = ROOT / "data/mock_exams/n2_mock_09.json"
@@ -80,24 +81,82 @@ def order_code(value: str) -> str:
     return "".join(ch for ch in str(value).upper() if ch in "ABCD")
 
 
-def validate_star_audit(qid: str, entry: dict, current_question: dict) -> dict:
+def current_label_for_text(current_question: dict, text: str) -> str:
+    matches = [label for label, option_text in option_map(current_question).items() if option_text == text]
+    if len(matches) != 1:
+        raise ValueError(f"Option text does not map uniquely to current item {current_question.get('id')}.")
+    return matches[0]
+
+
+def remap_order_by_text(source_question: dict, current_question: dict, order: str) -> str:
+    source_options = option_map(source_question)
+    code = order_code(order)
+    if len(code) != 4 or len(set(code)) != 4 or any(label not in source_options for label in code):
+        raise ValueError(f"Malformed historical fragment order for {source_question.get('id')}: {order!r}")
+    return "".join(current_label_for_text(current_question, source_options[label]) for label in code)
+
+
+def reconstruct_star_sentence(question: dict, order: str) -> str:
+    options = option_map(question)
+    slots = re.split(r"（\s*）|★", str(question.get("stem", "")))
+    if len(slots) != 5:
+        raise ValueError(f"Cannot reconstruct four STAR slots for {question.get('id')}.")
+    output = slots[0]
+    for index, label in enumerate(order):
+        output += options[label] + slots[index + 1]
+    return output
+
+
+def validate_text_preserving_remap(qid: str, source_question: dict, current_question: dict, manifest_row: dict) -> None:
+    if str(source_question.get("stem", "")).strip() != str(current_question.get("stem", "")).strip():
+        raise ValueError(f"Stem changed after the reviewed source version for {qid}.")
+    if sorted(option_map(source_question).values()) != sorted(manifest_row.get("originalOptionTexts", [])):
+        raise ValueError(f"Historical source differs from the pre-remap option text set for {qid}.")
+    if sorted(option_map(source_question).values()) != sorted(option_map(current_question).values()):
+        raise ValueError(f"Question choice text changed semantically after review for {qid}.")
+    if source_question.get("typeId") != current_question.get("typeId"):
+        raise ValueError(f"Question type changed after review for {qid}.")
+
+
+def validate_star_audit(qid: str, entry: dict, current_question: dict,
+                        source_question: dict, manifest_row: dict) -> dict:
     """Require all 24 unique permutations and no plausible alternate ★ key."""
+    validate_text_preserving_remap(qid, source_question, current_question, manifest_row)
+    use_current_labels = bool(entry.get("ordersUseCurrentLabels"))
+    map_order = (lambda value: order_code(value)) if use_current_labels else (
+        lambda value: remap_order_by_text(source_question, current_question, order_code(value))
+    )
     if "all24Permutations" in entry:
         rows = []
         for raw in entry["all24Permutations"]:
             match = re.fullmatch(r"\s*([ABCD](?:-[ABCD]){3})\s*:\s*(natural|marginal|unnatural)\s*", raw, re.I)
             if not match:
                 raise ValueError(f"Malformed permutation classification for {qid}: {raw!r}")
-            code = order_code(match.group(1))
-            rows.append({"order": code, "classification": match.group(2).lower()})
+            source_code = order_code(match.group(1))
+            rows.append({"sourceOrder": source_code,
+                         "order": map_order(source_code),
+                         "classification": match.group(2).lower()})
         plausible = entry.get("plausibleOrders", [])
-        sentences = {order_code(x.get("order")): x.get("reconstructedSentence", "") for x in plausible}
-        declared = set(entry.get("starChangingNaturalOrMarginalAlternatives", []))
-        intended = order_code(entry.get("naturalIntendedOrder", ""))
-        selected_star = str(entry.get("starOption", "")).strip().upper()
+        sentences = {map_order(order_code(x.get("order"))):
+                     x.get("reconstructedSentence", "") for x in plausible}
+        declared = {map_order(order_code(x))
+                    for x in entry.get("starChangingNaturalOrMarginalAlternatives", [])}
+        source_intended = order_code(entry.get("naturalIntendedOrder", ""))
+        intended = map_order(source_intended)
+        source_selected_star = str(entry.get("starOption", "")).strip().upper()
+        if use_current_labels:
+            if source_selected_star not in option_map(current_question):
+                raise ValueError(f"Fresh ★ selection is absent from the current item for {qid}.")
+            selected_star = source_selected_star
+        else:
+            source_options = option_map(source_question)
+            if source_selected_star not in source_options:
+                raise ValueError(f"Reviewer ★ selection is absent from the sealed source for {qid}.")
+            selected_star = current_label_for_text(current_question, source_options[source_selected_star])
     else:
         raw_rows = entry.get("permutations", [])
-        rows = [{"order": order_code(x.get("order", "")),
+        rows = [{"sourceOrder": order_code(x.get("order", "")),
+                 "order": map_order(order_code(x.get("order", ""))),
                  "classification": str(x.get("classification", "")).lower(),
                  "sentence": x.get("naturalSentence", "")} for x in raw_rows]
         sentences = {row["order"]: row.get("sentence", "") for row in rows if row.get("sentence")}
@@ -135,9 +194,27 @@ def validate_star_audit(qid: str, entry: dict, current_question: dict) -> dict:
     if declared:
         alternatives.extend(order_code(x) for x in declared)
     if "all24Permutations" in entry:
-        alternatives.extend(order_code(x.get("order", "")) for x in entry.get("plausibleOrders", [])
+        alternatives.extend(map_order(order_code(x.get("order", ""))) for x in entry.get("plausibleOrders", [])
                             if str(x.get("classification", "natural")).lower() in {"natural", "marginal"}
-                            and order_code(x.get("order", ""))[2] != key)
+                            and map_order(order_code(x.get("order", "")))[2] != key)
+        by_order = {row["order"]: row["classification"] for row in rows}
+        for plausible_order, recorded_sentence in sentences.items():
+            if by_order.get(plausible_order) not in {"natural", "marginal"}:
+                raise ValueError(f"A plausible STAR sentence is not classified natural/marginal for {qid}: {plausible_order}")
+            if recorded_sentence and recorded_sentence.strip() != reconstruct_star_sentence(current_question, plausible_order).strip():
+                raise ValueError(f"STAR audit sentence does not reconstruct from current fragments for {qid}: {plausible_order}")
+        for row in entry.get("permutationEvidence", []):
+            order = map_order(order_code(row.get("order", "")))
+            if row.get("reconstructedSentence", "").strip() != reconstruct_star_sentence(current_question, order).strip():
+                raise ValueError(f"Fresh STAR permutation evidence sentence mismatch for {qid}: {order}")
+            matching = next((audit_row for audit_row in rows if audit_row["order"] == order), None)
+            if not matching or str(row.get("classification", "")).lower() != matching["classification"]:
+                raise ValueError(f"Fresh STAR permutation evidence classification mismatch for {qid}: {order}")
+    else:
+        for row in rows:
+            if row["classification"] in {"natural", "marginal"} and row.get("sentence"):
+                if row["sentence"].strip() != reconstruct_star_sentence(current_question, row["order"]).strip():
+                    raise ValueError(f"Historical STAR candidate sentence does not match current fragments for {qid}: {row['order']}")
     alternatives = sorted(set(x for x in alternatives if x))
     return {
         "questionId": qid,
@@ -146,6 +223,11 @@ def validate_star_audit(qid: str, entry: dict, current_question: dict) -> dict:
                                              if row["classification"] in {"natural", "marginal"}),
         "plausibleOrderSentences": sentences,
         "starAnswer": key,
+        "sourceStarAnswer": source_selected_star if "all24Permutations" in entry else "",
+        "sourceIntendedOrder": source_intended if "all24Permutations" in entry else "",
+        "mappingMethod": "EXACT_FRAGMENT_TEXT_DERIVATION",
+        "auditProvenance": entry.get("reviewerProvenance", "PRESERVED_HISTORICAL_REVIEW"),
+        "permutationEvidence": entry.get("permutationEvidence", []),
         "alternateOrdersChangingStar": alternatives,
         "uniqueStarAnswerSupported": not alternatives,
     }
@@ -156,6 +238,7 @@ def main() -> int:
     questions = {q["id"]: q for section in exam["sections"] for q in section["items"]}
     if len(questions) != 105:
         raise ValueError(f"Expected 105 final M09 questions, got {len(questions)}.")
+    remap_rows = read_manifest()["exams"]["N2-MOCK-09"]
 
     # Preserve the exact final exported set before replacing canonical sealed
     # files with a per-item merge of the versions actually reviewed.
@@ -211,6 +294,14 @@ def main() -> int:
         audit = row.get("permutationAudit")
         if audit and row.get("questionId"):
             star_audits[row["questionId"]] = audit
+    fresh_audit_path = QA / "N2_MOCK_09_STAR_M8_04_FRESH_AUDIT.json"
+    fresh_audit = read_json(fresh_audit_path) if fresh_audit_path.exists() else None
+    if fresh_audit:
+        qid = str(fresh_audit.get("questionId", ""))
+        if (qid not in STAR_IDS or qid not in questions
+                or fresh_audit.get("currentContentFingerprint") != compute_question_fingerprint(questions[qid])):
+            raise ValueError("Fresh M09 STAR audit is not bound to the current question version.")
+        star_audits[qid] = fresh_audit
     if set(star_audits) != STAR_IDS:
         raise ValueError(f"Expected star audits for all five M09 star questions; got {sorted(star_audits)}")
 
@@ -246,6 +337,7 @@ def main() -> int:
             raise ValueError(f"Stem changed after the reviewed source version for {qid}.")
         if sorted(source_options.values()) != sorted(current_options.values()):
             raise ValueError(f"Question choice text changed after review for {qid}.")
+        validate_text_preserving_remap(qid, source_item, question, remap_rows[qid])
         expected_passage = str(question.get("contextPassage") or question.get("passage") or question.get("script") or question.get("dialogue") or "").strip()
         source_passage = str(source_item.get("contextPassage") or "").strip()
         if source_passage != expected_passage:
@@ -288,10 +380,12 @@ def main() -> int:
         if not source_fp:
             raise ValueError(f"Missing source content fingerprint for {qid}.")
         if qid in STAR_IDS:
-            audit = validate_star_audit(qid, star_audits[qid], question)
+            audit_input = question if star_audits[qid].get("ordersUseCurrentLabels") else source_item
+            audit = validate_star_audit(qid, star_audits[qid], question, audit_input, remap_rows[qid])
             reviewed_star_ids.add(qid)
             star_results.append({**audit, "reviewVersion": version, "sourceInputFile": source_name,
-                                 "reviewerSelection": selected, "reviewerSelectionText": selected_text})
+                                 "reviewerSelection": selected, "reviewerSelectionText": selected_text,
+                                 "reviewAuditProvenance": audit["auditProvenance"]})
 
         record = {
             "id": qid,
@@ -308,12 +402,14 @@ def main() -> int:
             "contentFingerprint": current_fp,
             "reviewFingerprint": current_fp,
             "sourceInputFingerprint": source_fp,
+            "sourceQuestionFingerprintMatchesPreRemap": source_fp == remap_rows[qid].get("sourceQuestionFingerprint"),
+            "fingerprintDifferenceHandling": "Historical displayed IDs are not treated as semantic identity; exact stem, context, type and option-text set were verified, and the selection was derived by verbatim option text.",
             "computedSourceInputFingerprint": compute_question_fingerprint(source_item),
             "sourceInputFile": source_name,
             "reviewVersion": version,
             "answerAgreementByExactOptionText": agrees,
             "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
-            "mappingMethod": mapping,
+            "mappingMethod": "EXACT_OPTION_TEXT_DERIVATION" if current_options.get(selected) != selected_text else mapping,
             "reviewLimitations": ["AI-assisted review; not human/native-speaker certification"]
                 + (["Listening answer reviewed from sealed transcript; separate playback evidence does not establish pronunciation accuracy"]
                    if int(source_item.get("section", 1)) == 2 else []),
@@ -324,6 +420,7 @@ def main() -> int:
                 "permutationCount": audit["reviewedPermutations"],
                 "naturalOrMarginalAlternativeChangesStarAnswer": not audit["uniqueStarAnswerSupported"],
                 "naturalOrMarginalOrders": audit["naturalOrMarginalOrders"],
+                "auditProvenance": audit["auditProvenance"],
             }
 
         if int(source_item.get("section", 1)) == 2:
@@ -361,7 +458,7 @@ def main() -> int:
     source_hashes = {**v1_hashes, **rev1_hashes, **rev2_hashes, **final_hashes}
     report = {
         "examId": "N2-MOCK-09",
-        "status": "NORMALIZED_VERSION_BOUND_AI_REVIEW" if not mismatch_rows and not concern_rows else "QA_PENDING",
+        "status": "NORMALIZED_WITH_DERIVED_AI_REVIEW_AND_TRANSPARENT_SELF_AUDIT" if not mismatch_rows and not concern_rows else "QA_PENDING",
         "itemCount": len(questions),
         "answerAgreementByExactOptionText": len(questions) - len(mismatch_rows),
         "answerMismatches": mismatch_rows,
@@ -374,6 +471,7 @@ def main() -> int:
         "limitations": [
             "AI-assisted content review is not human/native-speaker review or psychometric calibration.",
             "Original agent responses are preserved unchanged; answers are mapped only by exact option text.",
+            "The archived M09 M8_04 permutation audit contains an unrelated A-B-C-D sentence and was invalidated for that item. A fresh current-version 24-order assessment is an implementation-agent self-review, not independent or human review.",
             "For unchanged items, original reviews were sealed before answer-letter rebalancing; exact text-set and stem checks bind the review to the final items.",
         ],
         "sourceInputSha256": dict(sorted(source_hashes.items())),

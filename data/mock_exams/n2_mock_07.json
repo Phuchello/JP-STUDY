@@ -21,27 +21,27 @@
           "options": [
             {
               "id": "A",
-              "text": "こうふ"
+              "text": "きょうふ"
             },
             {
               "id": "B",
-              "text": "こうぶ"
+              "text": "こうふ"
             },
             {
               "id": "C",
-              "text": "ごうふ"
+              "text": "こうぶ"
             },
             {
               "id": "D",
-              "text": "きょうふ"
+              "text": "ごうふ"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "B",
           "explanation": "交付（こうふ - GIAO PHÓ）: Sự cấp phát, cấp giấy tờ chính thức. Chữ 交 có âm on là こう, 付 có âm on là ふ.",
           "distractorExplanations": {
-            "B": "こうぶ: Sai âm ふ thành đục ぶ.",
-            "C": "ごうふ: Sai âm こう thành đục ごう.",
-            "D": "きょうふ: Nhầm với 恐怖 (きょうふ - khủng bố/sợ hãi)."
+            "A": "きょうふ: Nhầm với 恐怖 (きょうふ - khủng bố/sợ hãi).",
+            "C": "こうぶ: Sai âm ふ thành đục ぶ.",
+            "D": "ごうふ: Sai âm こう thành đục ごう."
           },
           "skill": "Language Knowledge",
           "explanationVi": "交付（こうふ - GIAO PHÓ）: Sự cấp phát, cấp giấy tờ chính thức. Chữ 交 có âm on là こう, 付 có âm on là ふ."
@@ -55,27 +55,27 @@
           "options": [
             {
               "id": "A",
-              "text": "そんしゅ"
+              "text": "しょうしゅ"
             },
             {
               "id": "B",
-              "text": "じゅんしゅ"
-            },
-            {
-              "id": "C",
               "text": "じゅんす"
             },
             {
+              "id": "C",
+              "text": "じゅんしゅ"
+            },
+            {
               "id": "D",
-              "text": "しょうしゅ"
+              "text": "そんしゅ"
             }
           ],
-          "correctAnswer": "B",
+          "correctAnswer": "C",
           "explanation": "遵守（じゅんしゅ - TUÂN THỦ）: Tuân thủ nghiêm ngặt quy định, pháp luật. Chữ 遵 đọc là じゅん, 守 đọc là しゅ.",
           "distractorExplanations": {
-            "A": "そんしゅ: Nhầm chữ 遵 với 尊 (Tôn trong 尊重 そんちょう).",
-            "C": "じゅんす: Sai âm しゅ thành す.",
-            "D": "しょうしゅ: Sai âm じゅん thành しょう."
+            "A": "しょうしゅ: Sai âm じゅん thành しょう.",
+            "B": "じゅんす: Sai âm しゅ thành す.",
+            "D": "そんしゅ: Nhầm chữ 遵 với 尊 (Tôn trong 尊重 そんちょう)."
           },
           "skill": "Language Knowledge",
           "explanationVi": "遵守（じゅんしゅ - TUÂN THỦ）: Tuân thủ nghiêm ngặt quy định, pháp luật. Chữ 遵 đọc là じゅん, 守 đọc là しゅ."
@@ -89,27 +89,27 @@
           "options": [
             {
               "id": "A",
-              "text": "ていのう"
-            },
-            {
-              "id": "B",
-              "text": "ちのう"
-            },
-            {
-              "id": "C",
               "text": "たいのう"
             },
             {
-              "id": "D",
+              "id": "B",
               "text": "たいいれ"
+            },
+            {
+              "id": "C",
+              "text": "ちのう"
+            },
+            {
+              "id": "D",
+              "text": "ていのう"
             }
           ],
-          "correctAnswer": "C",
+          "correctAnswer": "A",
           "explanation": "滞納（たいのう - TRỆ NẠP）: Chậm nộp, nợ đọng tiền thuế, tiền cước. 滞 có âm on là たい, 納 có âm on là のう.",
           "distractorExplanations": {
-            "A": "ていのう: Sai âm たい thành てい.",
-            "B": "ちのう: Nhầm chữ 滞 với 遅 (ち) hoặc âm khác.",
-            "D": "たいいれ: Nhầm âm on のう với âm kun い・れる."
+            "B": "たいいれ: Nhầm âm on のう với âm kun い・れる.",
+            "C": "ちのう: Nhầm chữ 滞 với 遅 (ち) hoặc âm khác.",
+            "D": "ていのう: Sai âm たい thành てい."
           },
           "skill": "Language Knowledge",
           "explanationVi": "滞納（たいのう - TRỆ NẠP）: Chậm nộp, nợ đọng tiền thuế, tiền cước. 滞 có âm on là たい, 納 có âm on là のう."
@@ -123,27 +123,27 @@
           "options": [
             {
               "id": "A",
-              "text": "こうしょ"
-            },
-            {
-              "id": "B",
-              "text": "くじょ"
-            },
-            {
-              "id": "C",
               "text": "きょうじょ"
             },
             {
-              "id": "D",
+              "id": "B",
+              "text": "こうしょ"
+            },
+            {
+              "id": "C",
               "text": "こうじょ"
+            },
+            {
+              "id": "D",
+              "text": "くじょ"
             }
           ],
-          "correctAnswer": "D",
+          "correctAnswer": "C",
           "explanation": "控除（こうじょ - KHỐNG TRỪ）: Khấu trừ (thuế, thu nhập). Chữ 控 có âm on là こう, 除 có âm on là じょ.",
           "distractorExplanations": {
-            "A": "こうしょ: Sai âm じょ thành âm thanh しょ.",
-            "B": "くじょ: Nhầm với 駆除 (くじょ - tiêu diệt, trừ khử côn trùng).",
-            "C": "きょうじょ: Nhầm với 協約 hoặc 援助."
+            "A": "きょうじょ: Nhầm với 協約 hoặc 援助.",
+            "B": "こうしょ: Sai âm じょ thành âm thanh しょ.",
+            "D": "くじょ: Nhầm với 駆除 (くじょ - tiêu diệt, trừ khử côn trùng)."
           },
           "skill": "Language Knowledge",
           "explanationVi": "控除（こうじょ - KHỐNG TRỪ）: Khấu trừ (thuế, thu nhập). Chữ 控 có âm on là こう, 除 có âm on là じょ."
@@ -161,23 +161,23 @@
             },
             {
               "id": "B",
-              "text": "はっき"
+              "text": "ほうき"
             },
             {
               "id": "C",
-              "text": "はいし"
+              "text": "はっき"
             },
             {
               "id": "D",
-              "text": "ほうき"
+              "text": "はいし"
             }
           ],
           "correctAnswer": "A",
           "explanation": "廃棄（はいき - PHẾ KHÍ）: Vứt bỏ, xử lý rác thải lớn, phế thải. Chữ 廃 đọc là はい, 棄 đọc là き.",
           "distractorExplanations": {
-            "B": "はっき: Nhầm sang 発揮 (はっき - phát huy) hoặc 破棄 (はき).",
-            "C": "はいし: Nhầm với 廃止 (はいし - bãi bỏ).",
-            "D": "ほうき: Nhầm với 放棄 (ほうき - từ bỏ, vứt bỏ trách nhiệm)."
+            "B": "ほうき: Nhầm với 放棄 (ほうき - từ bỏ, vứt bỏ trách nhiệm).",
+            "C": "はっき: Nhầm sang 発揮 (はっき - phát huy) hoặc 破棄 (はき).",
+            "D": "はいし: Nhầm với 廃止 (はいし - bãi bỏ)."
           },
           "skill": "Language Knowledge",
           "explanationVi": "廃棄（はいき - PHẾ KHÍ）: Vứt bỏ, xử lý rác thải lớn, phế thải. Chữ 廃 đọc là はい, 棄 đọc là き."
@@ -195,23 +195,23 @@
             },
             {
               "id": "B",
-              "text": "経費"
+              "text": "啓費"
             },
             {
               "id": "C",
-              "text": "係費"
+              "text": "経費"
             },
             {
               "id": "D",
-              "text": "啓費"
+              "text": "係費"
             }
           ],
-          "correctAnswer": "B",
+          "correctAnswer": "C",
           "explanation": "経費（けいひ - KINH PHÍ）: Chi phí, kinh phí công tác.",
           "distractorExplanations": {
             "A": "軽費: Chữ 軽 nghĩa là nhẹ, không dùng trong kinh phí.",
-            "C": "係費: Chữ 係 là liên quan/phụ trách.",
-            "D": "啓費: Chữ 啓 là khai sáng/khởi đầu."
+            "B": "啓費: Chữ 啓 là khai sáng/khởi đầu.",
+            "D": "係費: Chữ 係 là liên quan/phụ trách."
           },
           "skill": "Language Knowledge",
           "explanationVi": "経費（けいひ - KINH PHÍ）: Chi phí, kinh phí công tác."
@@ -225,27 +225,27 @@
           "options": [
             {
               "id": "A",
-              "text": "善正"
-            },
-            {
-              "id": "B",
               "text": "是政"
             },
             {
+              "id": "B",
+              "text": "善制"
+            },
+            {
               "id": "C",
-              "text": "是正"
+              "text": "善正"
             },
             {
               "id": "D",
-              "text": "善制"
+              "text": "是正"
             }
           ],
-          "correctAnswer": "C",
+          "correctAnswer": "D",
           "explanation": "是正（ぜせい - THỊ CHÍNH）: Sự sửa đổi, chấn chỉnh cho đúng đắn (điều chỉnh khuyết điểm, sai lệch).",
           "distractorExplanations": {
-            "A": "善正: Chữ kanji không tạo thành từ này.",
-            "B": "是政: Chữ 政 là chính quyền/chính trị, sai chữ 正.",
-            "D": "善制: Chữ 制 là chế độ/kiểm soát."
+            "A": "是政: Chữ 政 là chính quyền/chính trị, sai chữ 正.",
+            "B": "善制: Chữ 制 là chế độ/kiểm soát.",
+            "C": "善正: Chữ kanji không tạo thành từ này."
           },
           "skill": "Language Knowledge",
           "explanationVi": "是正（ぜせい - THỊ CHÍNH）: Sự sửa đổi, chấn chỉnh cho đúng đắn (điều chỉnh khuyết điểm, sai lệch)."
@@ -259,27 +259,27 @@
           "options": [
             {
               "id": "A",
-              "text": "依任"
+              "text": "委任"
             },
             {
               "id": "B",
-              "text": "頼任"
+              "text": "依任"
             },
             {
               "id": "C",
-              "text": "託任"
+              "text": "頼任"
             },
             {
               "id": "D",
-              "text": "委任"
+              "text": "託任"
             }
           ],
-          "correctAnswer": "D",
+          "correctAnswer": "A",
           "explanation": "委任（いにん - ỦY NHIỆM）: Ủy nhiệm, ủy quyền làm thủ tục hành chính.",
           "distractorExplanations": {
-            "A": "依任: Nhầm chữ 依 (y/phụ thuộc).",
-            "B": "頼任: Chữ 頼 (lại/nhờ cậy) không ghép thành từ này.",
-            "C": "託任: Nhầm sang 託 (thác/giao phó)."
+            "B": "依任: Nhầm chữ 依 (y/phụ thuộc).",
+            "C": "頼任: Chữ 頼 (lại/nhờ cậy) không ghép thành từ này.",
+            "D": "託任: Nhầm sang 託 (thác/giao phó)."
           },
           "skill": "Language Knowledge",
           "explanationVi": "委任（いにん - ỦY NHIỆM）: Ủy nhiệm, ủy quyền làm thủ tục hành chính."
@@ -293,27 +293,27 @@
           "options": [
             {
               "id": "A",
-              "text": "条項"
+              "text": "錠項"
             },
             {
               "id": "B",
-              "text": "条厚"
-            },
-            {
-              "id": "C",
               "text": "状項"
             },
             {
+              "id": "C",
+              "text": "条項"
+            },
+            {
               "id": "D",
-              "text": "錠項"
+              "text": "条厚"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "C",
           "explanation": "条項（じょうこう - ĐIỀU KHOẢN）: Các điều khoản trong hợp đồng, văn bản quy phạm.",
           "distractorExplanations": {
-            "B": "条厚: Chữ 厚 nghĩa là dày, sai chữ 項.",
-            "C": "状項: Chữ 状 nghĩa là tình trạng/hình dáng.",
-            "D": "錠項: Chữ 錠 nghĩa là ổ khóa/viên thuốc."
+            "A": "錠項: Chữ 錠 nghĩa là ổ khóa/viên thuốc.",
+            "B": "状項: Chữ 状 nghĩa là tình trạng/hình dáng.",
+            "D": "条厚: Chữ 厚 nghĩa là dày, sai chữ 項."
           },
           "skill": "Language Knowledge",
           "explanationVi": "条項（じょうこう - ĐIỀU KHOẢN）: Các điều khoản trong hợp đồng, văn bản quy phạm."
@@ -331,22 +331,22 @@
             },
             {
               "id": "B",
-              "text": "提出"
+              "text": "定出"
             },
             {
               "id": "C",
-              "text": "定出"
+              "text": "提出"
             },
             {
               "id": "D",
               "text": "提進"
             }
           ],
-          "correctAnswer": "B",
+          "correctAnswer": "C",
           "explanation": "提出（ていしゅつ - ĐỀ XUẤT/NỘP）: Nộp đơn từ, trình giấy tờ lên cơ quan có thẩm quyền.",
           "distractorExplanations": {
             "A": "提述: Chữ 述 là thuật/kể lại, sai nghĩa.",
-            "C": "定出: Sai chữ 提 thành 定.",
+            "B": "定出: Sai chữ 提 thành 定.",
             "D": "提進: Chữ 進 là tiến lên, không ghép thành từ này."
           },
           "skill": "Language Knowledge",
@@ -365,23 +365,23 @@
             },
             {
               "id": "B",
-              "text": "新"
-            },
-            {
-              "id": "C",
               "text": "再"
             },
             {
-              "id": "D",
+              "id": "C",
               "text": "重"
+            },
+            {
+              "id": "D",
+              "text": "新"
             }
           ],
-          "correctAnswer": "C",
+          "correctAnswer": "B",
           "explanation": "再発行（さいはっこう - TÁI PHÁT HÀNH）: Cấp lại, phát hành lại giấy tờ khi bị mất. Tiền tố 再- (tái).",
           "distractorExplanations": {
             "A": "復: Dùng trong 復旧, 復活, không ghép thành *復発行.",
-            "B": "新: Dùng trong 新発行 (phát hành mới), không mang nghĩa làm lại do mất.",
-            "D": "重: Dùng trong 重複, 重大, không ghép thành *重発行."
+            "C": "重: Dùng trong 重複, 重大, không ghép thành *重発行.",
+            "D": "新: Dùng trong 新発行 (phát hành mới), không mang nghĩa làm lại do mất."
           },
           "skill": "Language Knowledge",
           "explanationVi": "再発行（さいはっこう - TÁI PHÁT HÀNH）: Cấp lại, phát hành lại giấy tờ khi bị mất. Tiền tố 再- (tái)."
@@ -395,27 +395,27 @@
           "options": [
             {
               "id": "A",
-              "text": "経費"
-            },
-            {
-              "id": "B",
               "text": "規程"
             },
             {
+              "id": "B",
+              "text": "手続"
+            },
+            {
               "id": "C",
-              "text": "申請"
+              "text": "経費"
             },
             {
               "id": "D",
-              "text": "手続"
+              "text": "申請"
             }
           ],
-          "correctAnswer": "D",
+          "correctAnswer": "B",
           "explanation": "諸手続（しょてつづき - CHƯ THỦ TỤC）: Các loại thủ tục, nhiều thủ tục hành chính khác nhau. Tiền tố 諸- (chư) ghép với 手続.",
           "distractorExplanations": {
-            "A": "経費: Thường dùng 諸経費 (các khoản kinh phí), nhưng văn cảnh ở đây là đăng ký và nộp thuế nên là các thủ tục.",
-            "B": "規程: Thường dùng 諸規程 ít dùng trong chuỗi hành động hành chính cá nhân.",
-            "C": "申請: Thường ghép 諸申請 ít thông dụng hơn cụm cố định chuẩn 諸手続."
+            "A": "規程: Thường dùng 諸規程 ít dùng trong chuỗi hành động hành chính cá nhân.",
+            "C": "経費: Thường dùng 諸経費 (các khoản kinh phí), nhưng văn cảnh ở đây là đăng ký và nộp thuế nên là các thủ tục.",
+            "D": "申請: Thường ghép 諸申請 ít thông dụng hơn cụm cố định chuẩn 諸手続."
           },
           "skill": "Language Knowledge",
           "explanationVi": "諸手続（しょてつづき - CHƯ THỦ TỤC）: Các loại thủ tục, nhiều thủ tục hành chính khác nhau. Tiền tố 諸- (chư) ghép với 手続."
@@ -429,27 +429,27 @@
           "options": [
             {
               "id": "A",
-              "text": "未"
-            },
-            {
-              "id": "B",
               "text": "不"
             },
             {
+              "id": "B",
+              "text": "未"
+            },
+            {
               "id": "C",
-              "text": "非"
+              "text": "無"
             },
             {
               "id": "D",
-              "text": "無"
+              "text": "非"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "B",
           "explanation": "未納（みのう - VỊ NẠP）: Chưa nộp, còn nợ đọng chưa thanh toán. Tiền tố 未- (chưa).",
           "distractorExplanations": {
-            "B": "不: Biểu thị bất/không (bất an, bất tiện: 不安, 不便, 不払い). Không dùng *不納.",
-            "C": "非: Biểu thị tính phi (phi lý, phi pháp: 非難, 非常).",
-            "D": "無: Biểu thị vô/không có (vô lý, vô hiệu: 無理, 無効). Không dùng *無納."
+            "A": "不: Biểu thị bất/không (bất an, bất tiện: 不安, 不便, 不払い). Không dùng *不納.",
+            "C": "無: Biểu thị vô/không có (vô lý, vô hiệu: 無理, 無効). Không dùng *無納.",
+            "D": "非: Biểu thị tính phi (phi lý, phi pháp: 非難, 非常)."
           },
           "skill": "Language Knowledge",
           "explanationVi": "未納（みのう - VỊ NẠP）: Chưa nộp, còn nợ đọng chưa thanh toán. Tiền tố 未- (chưa)."
@@ -463,27 +463,27 @@
           "options": [
             {
               "id": "A",
-              "text": "所"
-            },
-            {
-              "id": "B",
               "text": "地"
             },
             {
+              "id": "B",
+              "text": "所"
+            },
+            {
               "id": "C",
-              "text": "処"
+              "text": "場"
             },
             {
               "id": "D",
-              "text": "場"
+              "text": "処"
             }
           ],
-          "correctAnswer": "B",
+          "correctAnswer": "A",
           "explanation": "勤務地（きんむち - CẦN VỤ ĐỊA）: Nơi làm việc, địa điểm công tác. Hậu tố -地 (vùng, địa điểm).",
           "distractorExplanations": {
-            "A": "所: Ghép thành 勤務先 (きんむさき) hoặc 事務所 (じむしょ), không dùng *勤務所.",
-            "C": "処: Không dùng làm hậu tố cho từ này.",
-            "D": "場: Dùng trong 職場 (nơi làm việc) hoặc 勤務場所, hậu tố độc lập chuẩn danh mục công chức là 勤務地."
+            "B": "所: Ghép thành 勤務先 (きんむさき) hoặc 事務所 (じむしょ), không dùng *勤務所.",
+            "C": "場: Dùng trong 職場 (nơi làm việc) hoặc 勤務場所, hậu tố độc lập chuẩn danh mục công chức là 勤務地.",
+            "D": "処: Không dùng làm hậu tố cho từ này."
           },
           "skill": "Language Knowledge",
           "explanationVi": "勤務地（きんむち - CẦN VỤ ĐỊA）: Nơi làm việc, địa điểm công tác. Hậu tố -地 (vùng, địa điểm)."
@@ -497,27 +497,27 @@
           "options": [
             {
               "id": "A",
-              "text": "強"
-            },
-            {
-              "id": "B",
-              "text": "上"
-            },
-            {
-              "id": "C",
               "text": "高"
             },
             {
-              "id": "D",
+              "id": "B",
               "text": "超"
+            },
+            {
+              "id": "C",
+              "text": "上"
+            },
+            {
+              "id": "D",
+              "text": "強"
             }
           ],
-          "correctAnswer": "C",
+          "correctAnswer": "A",
           "explanation": "高効率（こうこうりつ - CAO HIỆU SUẤT）: Hiệu suất cao, tiết kiệm năng lượng. Tiền tố 高- (cao).",
           "distractorExplanations": {
-            "A": "強: Dùng trong 強力, 強度, không ghép với 効率.",
-            "B": "上: Không dùng tiền tố 上効率.",
-            "D": "超: Biểu thị siêu (siêu việt, siêu âm: 超音波, 超満員). Cụm tiêu chuẩn kỹ thuật là 高効率."
+            "B": "超: Biểu thị siêu (siêu việt, siêu âm: 超音波, 超満員). Cụm tiêu chuẩn kỹ thuật là 高効率.",
+            "C": "上: Không dùng tiền tố 上効率.",
+            "D": "強: Dùng trong 強力, 強度, không ghép với 効率."
           },
           "skill": "Language Knowledge",
           "explanationVi": "高効率（こうこうりつ - CAO HIỆU SUẤT）: Hiệu suất cao, tiết kiệm năng lượng. Tiền tố 高- (cao)."
@@ -531,27 +531,27 @@
           "options": [
             {
               "id": "A",
-              "text": "窮屈"
+              "text": "迅速"
             },
             {
               "id": "B",
-              "text": "頑固"
-            },
-            {
-              "id": "C",
               "text": "几帳面"
             },
             {
+              "id": "C",
+              "text": "頑固"
+            },
+            {
               "id": "D",
-              "text": "迅速"
+              "text": "窮屈"
             }
           ],
-          "correctAnswer": "D",
+          "correctAnswer": "A",
           "explanation": "迅速（じんそく - TẤN TỐC）: Nhanh chóng, mau lẹ trong xử lý nghiệp vụ.",
           "distractorExplanations": {
-            "A": "窮屈: Chật chội, gò bó, không thoải mái.",
-            "B": "頑固: Cố chấp, bướng bỉnh.",
-            "C": "几帳面: Cẩn thận, ngăn nắp (thường nói về tính cách con người, không ghép tự nhiên với な対応 bằng 迅速)."
+            "B": "几帳面: Cẩn thận, ngăn nắp (thường nói về tính cách con người, không ghép tự nhiên với な対応 bằng 迅速).",
+            "C": "頑固: Cố chấp, bướng bỉnh.",
+            "D": "窮屈: Chật chội, gò bó, không thoải mái."
           },
           "skill": "Language Knowledge",
           "explanationVi": "迅速（じんそく - TẤN TỐC）: Nhanh chóng, mau lẹ trong xử lý nghiệp vụ."
@@ -565,7 +565,7 @@
           "options": [
             {
               "id": "A",
-              "text": "手違い"
+              "text": "手配"
             },
             {
               "id": "B",
@@ -573,18 +573,18 @@
             },
             {
               "id": "C",
-              "text": "手配"
+              "text": "手違い"
             },
             {
               "id": "D",
               "text": "手品"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "C",
           "explanation": "手違い（てちがい）: Sự nhầm lẫn, sai sót trong quá trình xử lý công việc hành chính.",
           "distractorExplanations": {
+            "A": "手配: Sự sắp xếp, chuẩn bị phương tiện/nhân lực.",
             "B": "手間: Công sức, thời gian bỏ ra.",
-            "C": "手配: Sự sắp xếp, chuẩn bị phương tiện/nhân lực.",
             "D": "手品: Trò ảo thuật."
           },
           "skill": "Language Knowledge",
@@ -599,27 +599,27 @@
           "options": [
             {
               "id": "A",
-              "text": "取り持つ"
+              "text": "取り組む"
             },
             {
               "id": "B",
-              "text": "取り合う"
+              "text": "取り持つ"
             },
             {
               "id": "C",
-              "text": "取り入れる"
+              "text": "取り合う"
             },
             {
               "id": "D",
-              "text": "取り組む"
+              "text": "取り入れる"
             }
           ],
-          "correctAnswer": "B",
+          "correctAnswer": "C",
           "explanation": "連絡を取り合う: Giữ liên lạc chặt chẽ hai chiều với nhau.",
           "distractorExplanations": {
-            "A": "取り持つ: Làm trung gian hòa giải.",
-            "C": "取り入れる: Tiếp thu, áp dụng ý kiến.",
-            "D": "取り組む: Nỗ lực, bắt tay vào giải quyết vấn đề."
+            "A": "取り組む: Nỗ lực, bắt tay vào giải quyết vấn đề.",
+            "B": "取り持つ: Làm trung gian hòa giải.",
+            "D": "取り入れる: Tiếp thu, áp dụng ý kiến."
           },
           "skill": "Language Knowledge",
           "explanationVi": "連絡を取り合う: Giữ liên lạc chặt chẽ hai chiều với nhau."
@@ -637,23 +637,23 @@
             },
             {
               "id": "B",
-              "text": "お構い"
+              "text": "迷惑"
             },
             {
               "id": "C",
-              "text": "差し支え"
+              "text": "お構い"
             },
             {
               "id": "D",
-              "text": "迷惑"
+              "text": "差し支え"
             }
           ],
-          "correctAnswer": "C",
+          "correctAnswer": "D",
           "explanation": "差し支え（さしつかえ）: Trở ngại, bất tiện về thời gian biểu. Mẫu lịch sự: ご差し支えがございましたら (Nếu có gì bất tiện/bận).",
           "distractorExplanations": {
             "A": "邪魔: Làm phiền, cản trở.",
-            "B": "お構い: Bận tâm, chăm sóc (như trong お構いなく).",
-            "D": "迷惑: Sự phiền toái; trong kính ngữ thường dùng ご都合 hoặc ご差し支え."
+            "B": "迷惑: Sự phiền toái; trong kính ngữ thường dùng ご都合 hoặc ご差し支え.",
+            "C": "お構い: Bận tâm, chăm sóc (như trong お構いなく)."
           },
           "skill": "Language Knowledge",
           "explanationVi": "差し支え（さしつかえ）: Trở ngại, bất tiện về thời gian biểu. Mẫu lịch sự: ご差し支えがございましたら (Nếu có gì bất tiện/bận)."
@@ -667,27 +667,27 @@
           "options": [
             {
               "id": "A",
-              "text": "適応"
-            },
-            {
-              "id": "B",
               "text": "妥協"
             },
             {
+              "id": "B",
+              "text": "適応"
+            },
+            {
               "id": "C",
-              "text": "余裕"
+              "text": "融通"
             },
             {
               "id": "D",
-              "text": "融通"
+              "text": "余裕"
             }
           ],
-          "correctAnswer": "D",
+          "correctAnswer": "C",
           "explanation": "融通が利く（ゆうづうがきく）: Linh hoạt, cơ động, có thể xoay xở điều chỉnh theo tình huống.",
           "distractorExplanations": {
-            "A": "適応: Thích ứng.",
-            "B": "妥協: Thỏa hiệp, nhượng bộ.",
-            "C": "余裕: Dư dả thời gian/tiền bạc, không đi với cụm が利く."
+            "A": "妥協: Thỏa hiệp, nhượng bộ.",
+            "B": "適応: Thích ứng.",
+            "D": "余裕: Dư dả thời gian/tiền bạc, không đi với cụm が利く."
           },
           "skill": "Language Knowledge",
           "explanationVi": "融通が利く（ゆうづうがきく）: Linh hoạt, cơ động, có thể xoay xở điều chỉnh theo tình huống."
@@ -705,23 +705,23 @@
             },
             {
               "id": "B",
-              "text": "交代"
-            },
-            {
-              "id": "C",
               "text": "短縮"
             },
             {
-              "id": "D",
+              "id": "C",
               "text": "移動"
+            },
+            {
+              "id": "D",
+              "text": "交代"
             }
           ],
           "correctAnswer": "A",
           "explanation": "時差出勤（じさしゅっきん）: Hình thức lệch giờ bắt đầu làm việc để tránh giờ cao điểm; câu này nêu rõ giờ vào làm của từng nhân viên được giãn cách.",
           "distractorExplanations": {
-            "B": "交代出勤 thường chỉ việc thay phiên hoặc làm theo ca, không phải lệch giờ vào làm giữa các nhân viên.",
-            "C": "短縮出勤 gợi việc rút ngắn giờ làm, không phải giãn thời điểm bắt đầu làm.",
-            "D": "移動出勤 không phải cách gọi thông dụng cho lịch bắt đầu làm lệch giờ."
+            "B": "短縮出勤 gợi việc rút ngắn giờ làm, không phải giãn thời điểm bắt đầu làm.",
+            "C": "移動出勤 không phải cách gọi thông dụng cho lịch bắt đầu làm lệch giờ.",
+            "D": "交代出勤 thường chỉ việc thay phiên hoặc làm theo ca, không phải lệch giờ vào làm giữa các nhân viên."
           },
           "skill": "Language Knowledge",
           "explanationVi": "時差出勤（じさしゅっきん）: Hình thức lệch giờ bắt đầu làm việc để tránh giờ cao điểm; câu này nêu rõ giờ vào làm của từng nhân viên được giãn cách."
@@ -735,7 +735,7 @@
           "options": [
             {
               "id": "A",
-              "text": "待遇"
+              "text": "都合"
             },
             {
               "id": "B",
@@ -743,19 +743,19 @@
             },
             {
               "id": "C",
-              "text": "利益"
+              "text": "待遇"
             },
             {
               "id": "D",
-              "text": "都合"
+              "text": "利益"
             }
           ],
           "correctAnswer": "B",
           "explanation": "便宜を図る（べんぎをはかる）: Tạo điều kiện thuận lợi, hỗ trợ tiện ích đặc biệt cho người cần giúp đỡ.",
           "distractorExplanations": {
-            "A": "待遇: Đãi ngộ, chế độ lương bổng.",
-            "C": "利益: Lợi nhuận kinh tế.",
-            "D": "都合: Sự thuận tiện/lịch trình, không đi với cụm を図る theo nghĩa hỗ trợ dịch vụ."
+            "A": "都合: Sự thuận tiện/lịch trình, không đi với cụm を図る theo nghĩa hỗ trợ dịch vụ.",
+            "C": "待遇: Đãi ngộ, chế độ lương bổng.",
+            "D": "利益: Lợi nhuận kinh tế."
           },
           "skill": "Language Knowledge",
           "explanationVi": "便宜を図る（べんぎをはかる）: Tạo điều kiện thuận lợi, hỗ trợ tiện ích đặc biệt cho người cần giúp đỡ."
@@ -769,26 +769,26 @@
           "options": [
             {
               "id": "A",
-              "text": "受理したと知らせること"
-            },
-            {
-              "id": "B",
               "text": "内容を詳しく説明すること"
             },
             {
-              "id": "C",
+              "id": "B",
               "text": "早く出すよう求めること"
+            },
+            {
+              "id": "C",
+              "text": "受理したと知らせること"
             },
             {
               "id": "D",
               "text": "書き直しを命じること"
             }
           ],
-          "correctAnswer": "C",
+          "correctAnswer": "B",
           "explanation": "催促（さいそく）: Hối thúc, yêu cầu thực hiện hoặc nộp gấp.",
           "distractorExplanations": {
-            "A": "Báo đã thụ lý là 受理通知.",
-            "B": "Giải thích nội dung chi tiết là 説明.",
+            "A": "Giải thích nội dung chi tiết là 説明.",
+            "C": "Báo đã thụ lý là 受理通知.",
             "D": "Yêu cầu viết lại là 修正指示."
           },
           "skill": "Language Knowledge",
@@ -803,27 +803,27 @@
           "options": [
             {
               "id": "A",
-              "text": "演説"
-            },
-            {
-              "id": "B",
               "text": "雑談"
             },
             {
+              "id": "B",
+              "text": "演説"
+            },
+            {
               "id": "C",
-              "text": "審査"
+              "text": "協議"
             },
             {
               "id": "D",
-              "text": "協議"
+              "text": "審査"
             }
           ],
-          "correctAnswer": "D",
+          "correctAnswer": "C",
           "explanation": "打ち合わせ（うちあわせ）: Buổi thảo luận, trao đổi bàn bạc trước trong công việc, đồng nghĩa với 協議（きょうぎ）.",
           "distractorExplanations": {
-            "A": "演説: Diễn thuyết.",
-            "B": "雑談: Tán gẫu.",
-            "C": "審査: Thẩm tra, xét duyệt."
+            "A": "雑談: Tán gẫu.",
+            "B": "演説: Diễn thuyết.",
+            "D": "審査: Thẩm tra, xét duyệt."
           },
           "skill": "Language Knowledge",
           "explanationVi": "打ち合わせ（うちあわせ）: Buổi thảo luận, trao đổi bàn bạc trước trong công việc, đồng nghĩa với 協議（きょうぎ）."
@@ -837,11 +837,11 @@
           "options": [
             {
               "id": "A",
-              "text": "中止・延期する"
+              "text": "予定通り実行する"
             },
             {
               "id": "B",
-              "text": "予定通り実行する"
+              "text": "中止・延期する"
             },
             {
               "id": "C",
@@ -852,10 +852,10 @@
               "text": "すぐに開始する"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "B",
           "explanation": "見合わせる（みあわせる）: Tạm dừng, hoãn lại hoặc hủy bỏ do tình hình bất lợi.",
           "distractorExplanations": {
-            "B": "Tiến hành đúng kế hoạch là 実行/決行.",
+            "A": "Tiến hành đúng kế hoạch là 実行/決行.",
             "C": "Mở rộng quy mô là 拡大.",
             "D": "Bắt đầu ngay là 即時開始."
           },
@@ -871,27 +871,27 @@
           "options": [
             {
               "id": "A",
-              "text": "急いで処理するために"
-            },
-            {
-              "id": "B",
-              "text": "間違いがないよう確認するために"
-            },
-            {
-              "id": "C",
               "text": "相手に強く注意を促すために"
             },
             {
-              "id": "D",
+              "id": "B",
               "text": "記録として残すために"
+            },
+            {
+              "id": "C",
+              "text": "間違いがないよう確認するために"
+            },
+            {
+              "id": "D",
+              "text": "急いで処理するために"
             }
           ],
-          "correctAnswer": "B",
+          "correctAnswer": "C",
           "explanation": "念のため（ねんのため）: Làm thêm một bước xác nhận để phòng trường hợp có thiếu sót hoặc nhầm lẫn; trong câu này là kiểm tra đủ giấy tờ trước khi nộp.",
           "distractorExplanations": {
-            "A": "急いで処理するために nêu tốc độ xử lý, không phải việc kiểm tra phòng ngừa.",
-            "C": "相手に強く注意を促すために diễn tả nhắc nhở người khác, gần với 念を押す.",
-            "D": "記録として残すために nêu mục đích lưu hồ sơ, không phải kiểm tra để phòng sai sót."
+            "A": "相手に強く注意を促すために diễn tả nhắc nhở người khác, gần với 念を押す.",
+            "B": "記録として残すために nêu mục đích lưu hồ sơ, không phải kiểm tra để phòng sai sót.",
+            "D": "急いで処理するために nêu tốc độ xử lý, không phải việc kiểm tra phòng ngừa."
           },
           "skill": "Language Knowledge",
           "explanationVi": "念のため（ねんのため）: Làm thêm một bước xác nhận để phòng trường hợp có thiếu sót hoặc nhầm lẫn; trong câu này là kiểm tra đủ giấy tờ trước khi nộp."
@@ -905,11 +905,11 @@
           "options": [
             {
               "id": "A",
-              "text": "永久に"
+              "text": "決して"
             },
             {
               "id": "B",
-              "text": "決して"
+              "text": "完全に完了して"
             },
             {
               "id": "C",
@@ -917,15 +917,15 @@
             },
             {
               "id": "D",
-              "text": "完全に完了して"
+              "text": "永久に"
             }
           ],
           "correctAnswer": "C",
           "explanation": "ひとまず: Tạm thời, trước mắt cứ như thế đã, đồng nghĩa với とりあえず.",
           "distractorExplanations": {
-            "A": "永久に: Vĩnh viễn.",
-            "B": "決して: Tuyệt đối không.",
-            "D": "完全に完了して: Hoàn thành triệt để."
+            "A": "決して: Tuyệt đối không.",
+            "B": "完全に完了して: Hoàn thành triệt để.",
+            "D": "永久に: Vĩnh viễn."
           },
           "skill": "Language Knowledge",
           "explanationVi": "ひとまず: Tạm thời, trước mắt cứ như thế đã, đồng nghĩa với とりあえず."
@@ -939,11 +939,11 @@
           "options": [
             {
               "id": "A",
-              "text": "景気の悪化に伴い、会社の業績が恐縮している。"
+              "text": "マラソン大会で優勝して、恐縮のあまり飛び上がって喜んだ。"
             },
             {
               "id": "B",
-              "text": "マラソン大会で優勝して、恐縮のあまり飛び上がって喜んだ。"
+              "text": "お忙しいところ大変恐縮ですが、アンケートへのご協力をお願い申し上げます。"
             },
             {
               "id": "C",
@@ -951,15 +951,15 @@
             },
             {
               "id": "D",
-              "text": "お忙しいところ大変恐縮ですが、アンケートへのご協力をお願い申し上げます。"
+              "text": "景気の悪化に伴い、会社の業績が恐縮している。"
             }
           ],
-          "correctAnswer": "D",
+          "correctAnswer": "B",
           "explanation": "恐縮（きょうしゅく - KHỦNG SÚC）: Rất áy náy, xin lỗi vì làm phiền người khác khi nhờ vả, yêu cầu trong giao tiếp kính ngữ trang trọng.",
           "distractorExplanations": {
-            "A": "Công ty sa sút hoặc thu hẹp thì dùng 低迷 hoặc 縮小.",
-            "B": "Vui mừng nhảy cẫng lên thì dùng 歓喜 hoặc 大喜び, không dùng 恐縮.",
-            "C": "Dọn dẹp nhanh gọn thì dùng 手際よく hoặc コンパクトに."
+            "A": "Vui mừng nhảy cẫng lên thì dùng 歓喜 hoặc 大喜び, không dùng 恐縮.",
+            "C": "Dọn dẹp nhanh gọn thì dùng 手際よく hoặc コンパクトに.",
+            "D": "Công ty sa sút hoặc thu hẹp thì dùng 低迷 hoặc 縮小."
           },
           "skill": "Language Knowledge",
           "explanationVi": "恐縮（きょうしゅく - KHỦNG SÚC）: Rất áy náy, xin lỗi vì làm phiền người khác khi nhờ vả, yêu cầu trong giao tiếp kính ngữ trang trọng."
@@ -973,27 +973,27 @@
           "options": [
             {
               "id": "A",
-              "text": "今回のヨーロッパ出張は、ドーハを経由してフランクフルトへ向かう航空便を利用する。"
+              "text": "宿題を経由してから、友人と公園へ遊びに出かけた。"
             },
             {
               "id": "B",
-              "text": "雨が激しく降ってきたので、傘を経由して駅まで走った。"
-            },
-            {
-              "id": "C",
               "text": "昨晩は激しい運動をしたので、夕食後にすぐ経由した。"
             },
             {
+              "id": "C",
+              "text": "今回のヨーロッパ出張は、ドーハを経由してフランクフルトへ向かう航空便を利用する。"
+            },
+            {
               "id": "D",
-              "text": "宿題を経由してから、友人と公園へ遊びに出かけた。"
+              "text": "雨が激しく降ってきたので、傘を経由して駅まで走った。"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "C",
           "explanation": "経由（けいゆ - KINH DO）: Quá cảnh, đi qua một trạm/địa điểm trung gian để đến đích.",
           "distractorExplanations": {
-            "B": "Bật ô che mưa thì dùng 傘を差して.",
-            "C": "Nghỉ ngơi hoặc đi ngủ thì dùng 就寝した hoặc 休息した.",
-            "D": "Làm xong bài tập thì dùng 済ませて."
+            "A": "Làm xong bài tập thì dùng 済ませて.",
+            "B": "Nghỉ ngơi hoặc đi ngủ thì dùng 就寝した hoặc 休息した.",
+            "D": "Bật ô che mưa thì dùng 傘を差して."
           },
           "skill": "Language Knowledge",
           "explanationVi": "経由（けいゆ - KINH DO）: Quá cảnh, đi qua một trạm/địa điểm trung gian để đến đích."
@@ -1007,27 +1007,27 @@
           "options": [
             {
               "id": "A",
-              "text": "真冬の寒さに耐えるため、厚手のコートと手袋を負担して外出した。"
+              "text": "週末の読書のために、図書館で学術書を3冊負担して帰宅した。"
             },
             {
               "id": "B",
-              "text": "新しい大型プロジェクトの統括責任者を任され、精神的な負担が重くなった。"
-            },
-            {
-              "id": "C",
               "text": "彼はいつも面白い冗談を言って、周囲の同僚たちを負担させている。"
             },
             {
+              "id": "C",
+              "text": "新しい大型プロジェクトの統括責任者を任され、精神的な負担が重くなった。"
+            },
+            {
               "id": "D",
-              "text": "週末の読書のために、図書館で学術書を3冊負担して帰宅した。"
+              "text": "真冬の寒さに耐えるため、厚手のコートと手袋を負担して外出した。"
             }
           ],
-          "correctAnswer": "B",
+          "correctAnswer": "C",
           "explanation": "負担（ふたん - PHỤ ĐẢM）: Gánh vác trách nhiệm, gánh nặng tâm lý hoặc chi phí tiền bạc.",
           "distractorExplanations": {
-            "A": "Mặc quần áo ấm thì dùng 着用して.",
-            "C": "Làm cho đồng nghiệp cười sảng khoái thì dùng 笑わせている.",
-            "D": "Mượn sách thư viện thì dùng 借りて."
+            "A": "Mượn sách thư viện thì dùng 借りて.",
+            "B": "Làm cho đồng nghiệp cười sảng khoái thì dùng 笑わせている.",
+            "D": "Mặc quần áo ấm thì dùng 着用して."
           },
           "skill": "Language Knowledge",
           "explanationVi": "負担（ふたん - PHỤ ĐẢM）: Gánh vác trách nhiệm, gánh nặng tâm lý hoặc chi phí tiền bạc."
@@ -1041,27 +1041,27 @@
           "options": [
             {
               "id": "A",
-              "text": "大雪の影響で電車のダイヤが配布し、通勤客に影響が出た。"
-            },
-            {
-              "id": "B",
-              "text": "手紙を投函する前に、記念切手を封筒の右上に配布した。"
-            },
-            {
-              "id": "C",
               "text": "市民説明会の会場入口で、来場者全員に防災ガイドブックを配布した。"
             },
             {
-              "id": "D",
+              "id": "B",
               "text": "会議室のテーブルの上に、プロジェクターの電源コードを綺麗に配布した。"
+            },
+            {
+              "id": "C",
+              "text": "大雪の影響で電車のダイヤが配布し、通勤客に影響が出た。"
+            },
+            {
+              "id": "D",
+              "text": "手紙を投函する前に、記念切手を封筒の右上に配布した。"
             }
           ],
-          "correctAnswer": "C",
+          "correctAnswer": "A",
           "explanation": "配布（はいふ - PHỐI PHỐ）: Phát, phát tán tài liệu, sách báo, tờ rơi rộng rãi cho nhiều người.",
           "distractorExplanations": {
-            "A": "Lịch tàu bị xáo trộn, rối loạn thì dùng 乱れ (みだれ).",
-            "B": "Dán tem lên phong bì thì dùng 貼った (はった).",
-            "D": "Bố trí, sắp đặt dây điện thì dùng 配線した hoặc 整頓した."
+            "B": "Bố trí, sắp đặt dây điện thì dùng 配線した hoặc 整頓した.",
+            "C": "Lịch tàu bị xáo trộn, rối loạn thì dùng 乱れ (みだれ).",
+            "D": "Dán tem lên phong bì thì dùng 貼った (はった)."
           },
           "skill": "Language Knowledge",
           "explanationVi": "配布（はいふ - PHỐI PHỐ）: Phát, phát tán tài liệu, sách báo, tờ rơi rộng rãi cho nhiều người."
@@ -1079,11 +1079,11 @@
             },
             {
               "id": "B",
-              "text": "毎朝出勤する途中、近所の知り合いと笑顔で照会を交わしている。"
+              "text": "スープの味付けが薄かったので、塩と胡椒を照会して整えた。"
             },
             {
               "id": "C",
-              "text": "スープの味付けが薄かったので、塩と胡椒を照会して整えた。"
+              "text": "毎朝出勤する途中、近所の知り合いと笑顔で照会を交わしている。"
             },
             {
               "id": "D",
@@ -1094,8 +1094,8 @@
           "explanation": "照会（しょうかい - CHIẾU HỘI）: Tra cứu, đối chiếu thông tin trong cơ sở dữ liệu hoặc hỏi xác minh ở cơ quan chức năng.",
           "distractorExplanations": {
             "A": "Đèn chiếu sáng văn phòng là 照明 (しょうめい).",
-            "B": "Chào hỏi thì dùng 挨拶 (あいさつ).",
-            "C": "Gia giảm gia vị thì dùng 加減して hoặc 調節して."
+            "B": "Gia giảm gia vị thì dùng 加減して hoặc 調節して.",
+            "C": "Chào hỏi thì dùng 挨拶 (あいさつ)."
           },
           "skill": "Language Knowledge",
           "explanationVi": "照会（しょうかい - CHIẾU HỘI）: Tra cứu, đối chiếu thông tin trong cơ sở dữ liệu hoặc hỏi xác minh ở cơ quan chức năng."
@@ -1113,23 +1113,23 @@
             },
             {
               "id": "B",
-              "text": "を契機に"
+              "text": "はおろか"
             },
             {
               "id": "C",
-              "text": "に際して"
+              "text": "を契機に"
             },
             {
               "id": "D",
-              "text": "はおろか"
+              "text": "に際して"
             }
           ],
           "correctAnswer": "A",
           "explanation": "～につけ: Cứ mỗi khi xảy ra việc gì thì lại nảy sinh cảm xúc hoặc suy nghĩ. 住民から感謝の言葉をかけられるにつけ、この仕事を続けてよかったと感じる (cứ mỗi lần được người dân cảm ơn lại thấy mình đã chọn đúng công việc).",
           "distractorExplanations": {
-            "B": "～を契機に nối sau một danh từ để nêu bước ngoặt dẫn đến thay đổi; ở đây cần biểu đạt cảm xúc lặp lại mỗi lần.",
-            "C": "～に際して thường nối sau danh từ/sự kiện để nói 'nhân dịp'; không dùng sau mệnh đề động từ này với nghĩa mỗi lần.",
-            "D": "～はおろか cần cấu trúc nêu A chưa nói đến B; không thể hiện quan hệ lặp lại và cảm xúc trong câu."
+            "B": "～はおろか cần cấu trúc nêu A chưa nói đến B; không thể hiện quan hệ lặp lại và cảm xúc trong câu.",
+            "C": "～を契機に nối sau một danh từ để nêu bước ngoặt dẫn đến thay đổi; ở đây cần biểu đạt cảm xúc lặp lại mỗi lần.",
+            "D": "～に際して thường nối sau danh từ/sự kiện để nói 'nhân dịp'; không dùng sau mệnh đề động từ này với nghĩa mỗi lần."
           },
           "skill": "Language Knowledge",
           "explanationVi": "～につけ: Cứ mỗi khi xảy ra việc gì thì lại nảy sinh cảm xúc hoặc suy nghĩ. 住民から感謝の言葉をかけられるにつけ、この仕事を続けてよかったと感じる (cứ mỗi lần được người dân cảm ơn lại thấy mình đã chọn đúng công việc)."
@@ -1143,11 +1143,11 @@
           "options": [
             {
               "id": "A",
-              "text": "っこない"
+              "text": "つつある"
             },
             {
               "id": "B",
-              "text": "つつある"
+              "text": "っこない"
             },
             {
               "id": "C",
@@ -1158,10 +1158,10 @@
               "text": "ざるを得ない"
             }
           ],
-          "correctAnswer": "B",
+          "correctAnswer": "A",
           "explanation": "動詞マス形＋つつある: Đang dần dần biến đổi theo một hướng nhất định: 着実に進みつつある (đang dần tiến triển đều đặn).",
           "distractorExplanations": {
-            "A": "っこない: Tuyệt đối không thể (khẳng định phủ định mạnh).",
+            "B": "っこない: Tuyệt đối không thể (khẳng định phủ định mạnh).",
             "C": "かねない: Có nguy cơ dẫn tới hậu quả xấu.",
             "D": "ざるを得ない: Buộc phải làm dù không muốn."
           },
@@ -1177,27 +1177,27 @@
           "options": [
             {
               "id": "A",
-              "text": "に相違ない"
+              "text": "からして"
             },
             {
               "id": "B",
-              "text": "を皮切りに"
-            },
-            {
-              "id": "C",
               "text": "を問わず"
             },
             {
+              "id": "C",
+              "text": "を皮切りに"
+            },
+            {
               "id": "D",
-              "text": "からして"
+              "text": "に相違ない"
             }
           ],
-          "correctAnswer": "C",
+          "correctAnswer": "B",
           "explanation": "～を問わず（をとわず）: Bất kể, không phân biệt (tuổi tác, giới tính, quốc tịch): 年齢や国籍を問わず.",
           "distractorExplanations": {
-            "A": "～に相違ない: Chắc chắn là (phán đoán chắc nịch).",
-            "B": "～を皮切りに: Mở đầu bằng một chuỗi hành động phát triển liên tiếp.",
-            "D": "～からして: Ngay từ điểm A đã thấy..."
+            "A": "～からして: Ngay từ điểm A đã thấy...",
+            "C": "～を皮切りに: Mở đầu bằng một chuỗi hành động phát triển liên tiếp.",
+            "D": "～に相違ない: Chắc chắn là (phán đoán chắc nịch)."
           },
           "skill": "Language Knowledge",
           "explanationVi": "～を問わず（をとわず）: Bất kể, không phân biệt (tuổi tác, giới tính, quốc tịch): 年齢や国籍を問わず."
@@ -1211,7 +1211,7 @@
           "options": [
             {
               "id": "A",
-              "text": "に基づき"
+              "text": "をめぐって"
             },
             {
               "id": "B",
@@ -1219,7 +1219,7 @@
             },
             {
               "id": "C",
-              "text": "をめぐって"
+              "text": "に基づき"
             },
             {
               "id": "D",
@@ -1229,9 +1229,9 @@
           "correctAnswer": "D",
           "explanation": "名詞＋を問わず: Bất kể, không phân biệt. Cụm '同じ基準で適用' xác nhận quy định áp dụng như nhau với mọi hình thức tuyển dụng.",
           "distractorExplanations": {
-            "A": "に基づき cần đứng sau căn cứ làm nền tảng cho một hành động; ở đây danh từ 雇用形態 là nhóm được miễn phân biệt, không phải căn cứ áp dụng.",
+            "A": "をめぐって thường nói về tranh luận hoặc vấn đề xoay quanh một chủ đề; không nối được với ý áp dụng quy định đồng nhất.",
             "B": "に応じて sẽ biểu thị tiêu chuẩn thay đổi tùy theo hình thức tuyển dụng, trái với '同じ基準で'.",
-            "C": "をめぐって thường nói về tranh luận hoặc vấn đề xoay quanh một chủ đề; không nối được với ý áp dụng quy định đồng nhất."
+            "C": "に基づき cần đứng sau căn cứ làm nền tảng cho một hành động; ở đây danh từ 雇用形態 là nhóm được miễn phân biệt, không phải căn cứ áp dụng."
           },
           "skill": "Language Knowledge",
           "explanationVi": "名詞＋を問わず: Bất kể, không phân biệt. Cụm '同じ基準で適用' xác nhận quy định áp dụng như nhau với mọi hình thức tuyển dụng."
@@ -1279,7 +1279,7 @@
           "options": [
             {
               "id": "A",
-              "text": "に際して"
+              "text": "に先立ち"
             },
             {
               "id": "B",
@@ -1287,19 +1287,19 @@
             },
             {
               "id": "C",
-              "text": "に先立ち"
+              "text": "につれて"
             },
             {
               "id": "D",
-              "text": "につれて"
+              "text": "に際して"
             }
           ],
           "correctAnswer": "B",
           "explanation": "～に限り: Chỉ giới hạn trong nhóm được nêu. ここでは『図書カードを提示した来庁者に限り』、chỉ người đến làm thủ tục có đưa thẻ thư viện mới được dùng phòng đến 19 giờ.",
           "distractorExplanations": {
-            "A": "～に際して: Nhân dịp một sự kiện; không diễn tả điều kiện giới hạn người được sử dụng.",
-            "C": "～に先立ち: Trước khi một sự kiện diễn ra; không nối điều kiện với quyền sử dụng.",
-            "D": "～につれて: Càng... thì càng...; cần hai biến đổi song song, không phù hợp với điều kiện cấp quyền."
+            "A": "～に先立ち: Trước khi một sự kiện diễn ra; không nối điều kiện với quyền sử dụng.",
+            "C": "～につれて: Càng... thì càng...; cần hai biến đổi song song, không phù hợp với điều kiện cấp quyền.",
+            "D": "～に際して: Nhân dịp một sự kiện; không diễn tả điều kiện giới hạn người được sử dụng."
           },
           "skill": "Language Knowledge",
           "explanationVi": "～に限り: Chỉ giới hạn trong nhóm được nêu. ここでは『図書カードを提示した来庁者に限り』、chỉ người đến làm thủ tục có đưa thẻ thư viện mới được dùng phòng đến 19 giờ."
@@ -1313,26 +1313,26 @@
           "options": [
             {
               "id": "A",
-              "text": "をよそに"
-            },
-            {
-              "id": "B",
               "text": "につけて"
             },
             {
-              "id": "C",
+              "id": "B",
               "text": "につき"
+            },
+            {
+              "id": "C",
+              "text": "をよそに"
             },
             {
               "id": "D",
               "text": "のもとで"
             }
           ],
-          "correctAnswer": "C",
+          "correctAnswer": "B",
           "explanation": "名詞＋につき: Vì lý do... (cách thông báo chính thức trang trọng trên bảng tin công cộng): 点検につき (do kiểm tra định kỳ).",
           "distractorExplanations": {
-            "A": "～をよそに: Mặc kệ, bỏ ngoài tai.",
-            "B": "～につけて: Cứ mỗi lần...",
+            "A": "～につけて: Cứ mỗi lần...",
+            "C": "～をよそに: Mặc kệ, bỏ ngoài tai.",
             "D": "～のもとで: Dưới sự chỉ dẫn/ảnh hưởng của ai."
           },
           "skill": "Language Knowledge",
@@ -1347,27 +1347,27 @@
           "options": [
             {
               "id": "A",
-              "text": "めいた"
-            },
-            {
-              "id": "B",
               "text": "っぽい"
             },
             {
+              "id": "B",
+              "text": "めいた"
+            },
+            {
               "id": "C",
-              "text": "がちな"
+              "text": "げな"
             },
             {
               "id": "D",
-              "text": "げな"
+              "text": "がちな"
             }
           ],
-          "correctAnswer": "D",
+          "correctAnswer": "C",
           "explanation": "イ形容詞語幹/名詞＋げな: Có vẻ, lộ vẻ (tâm trạng biểu lộ ra bên ngoài): 不安げな表情 (vẻ mặt lộ vẻ bất an).",
           "distractorExplanations": {
-            "A": "めいた: Có màu sắc, nhuốm màu (bí mật, xuân sang: 謎めいた).",
-            "B": "っぽい: Thiên về, hay... (dễ nổi cáu, mang tính trẻ con: 怒りっぽい).",
-            "C": "がちな: Thường hay xảy ra xu hướng xấu (hay nghỉ việc: 休みがち)."
+            "A": "っぽい: Thiên về, hay... (dễ nổi cáu, mang tính trẻ con: 怒りっぽい).",
+            "B": "めいた: Có màu sắc, nhuốm màu (bí mật, xuân sang: 謎めいた).",
+            "D": "がちな: Thường hay xảy ra xu hướng xấu (hay nghỉ việc: 休みがち)."
           },
           "skill": "Language Knowledge",
           "explanationVi": "イ形容詞語幹/名詞＋げな: Có vẻ, lộ vẻ (tâm trạng biểu lộ ra bên ngoài): 不安げな表情 (vẻ mặt lộ vẻ bất an)."
@@ -1419,7 +1419,7 @@
             },
             {
               "id": "B",
-              "text": "にあたって"
+              "text": "からして"
             },
             {
               "id": "C",
@@ -1427,15 +1427,15 @@
             },
             {
               "id": "D",
-              "text": "からして"
+              "text": "にあたって"
             }
           ],
-          "correctAnswer": "B",
+          "correctAnswer": "D",
           "explanation": "動詞辞書形＋にあたって: Khi tiến hành, nhân dịp chuẩn bị cho một việc trọng đại: 編成するにあたって.",
           "distractorExplanations": {
             "A": "～を限りに: Cho đến hết... (hạn chót).",
-            "C": "～をおいて: Ngoại trừ người/vật này ra thì không có...",
-            "D": "～からして: Xét ngay từ..."
+            "B": "～からして: Xét ngay từ...",
+            "C": "～をおいて: Ngoại trừ người/vật này ra thì không có..."
           },
           "skill": "Language Knowledge",
           "explanationVi": "動詞辞書形＋にあたって: Khi tiến hành, nhân dịp chuẩn bị cho một việc trọng đại: 編成するにあたって."
@@ -1449,11 +1449,11 @@
           "options": [
             {
               "id": "A",
-              "text": "を通じて"
+              "text": "を抜きにして"
             },
             {
               "id": "B",
-              "text": "にかけては"
+              "text": "を通じて"
             },
             {
               "id": "C",
@@ -1461,15 +1461,15 @@
             },
             {
               "id": "D",
-              "text": "を抜きにして"
+              "text": "にかけては"
             }
           ],
           "correctAnswer": "C",
           "explanation": "名詞＋をめぐって: Xoay quanh một đề tài/tranh luận, ý kiến đối lập: 運営方針をめぐって (xoay quanh phương châm vận hành).",
           "distractorExplanations": {
-            "A": "～を通じて: Thông qua suốt một khoảng thời gian hoặc phương tiện.",
-            "B": "～にかけては: Nếu xét về sở trường/lĩnh vực gì thì không thua ai.",
-            "D": "～を抜きにして: Nếu không có... thì không thể..."
+            "A": "～を抜きにして: Nếu không có... thì không thể...",
+            "B": "～を通じて: Thông qua suốt một khoảng thời gian hoặc phương tiện.",
+            "D": "～にかけては: Nếu xét về sở trường/lĩnh vực gì thì không thua ai."
           },
           "skill": "Language Knowledge",
           "explanationVi": "名詞＋をめぐって: Xoay quanh một đề tài/tranh luận, ý kiến đối lập: 運営方針をめぐって (xoay quanh phương châm vận hành)."
@@ -1483,27 +1483,27 @@
           "options": [
             {
               "id": "A",
-              "text": "極みだ"
+              "text": "賜物にほかならない"
             },
             {
               "id": "B",
-              "text": "きらいがある"
-            },
-            {
-              "id": "C",
               "text": "始末だ"
             },
             {
+              "id": "C",
+              "text": "極みだ"
+            },
+            {
               "id": "D",
-              "text": "賜物にほかならない"
+              "text": "きらいがある"
             }
           ],
-          "correctAnswer": "D",
+          "correctAnswer": "A",
           "explanation": "～にほかならない: Chính là, không gì khác hơn là...: 努力の賜物にほかならない (chính là thành quả từ sự nỗ lực của toàn thể nhân viên).",
           "distractorExplanations": {
-            "A": "～極みだ: Tột cùng của cảm xúc (hạnh phúc, vinh dự: 痛恨の極み).",
-            "B": "～きらいがある: Có xu hướng tật xấu/tiêu cực.",
-            "C": "～始末だ: Rốt cuộc chuốc lấy kết cục tồi tệ."
+            "B": "～始末だ: Rốt cuộc chuốc lấy kết cục tồi tệ.",
+            "C": "～極みだ: Tột cùng của cảm xúc (hạnh phúc, vinh dự: 痛恨の極み).",
+            "D": "～きらいがある: Có xu hướng tật xấu/tiêu cực."
           },
           "skill": "Language Knowledge",
           "explanationVi": "～にほかならない: Chính là, không gì khác hơn là...: 努力の賜物にほかならない (chính là thành quả từ sự nỗ lực của toàn thể nhân viên)."
@@ -1520,28 +1520,29 @@
             },
             {
               "id": "B",
-              "text": "本人確認書類を"
-            },
-            {
-              "id": "C",
               "text": "申請書に必要事項を"
             },
             {
-              "id": "D",
+              "id": "C",
               "text": "窓口へ提出してください"
+            },
+            {
+              "id": "D",
+              "text": "本人確認書類を"
             }
           ],
-          "correctAnswer": "B",
+          "correctAnswer": "D",
           "starPosition": 3,
           "assembledSentence": "証明書を申請する場合は、申請書に必要事項を記入し本人確認書類を窓口へ提出してください。",
-          "explanation": "Trình tự: 申請書に必要事項を (C) -> 記入し (A) -> 本人確認書類を (B) -> 窓口へ提出してください (D). Tân ngữ 必要事項を đi cùng động từ 記入し; tiếp theo là giấy tờ xác minh danh tính làm tân ngữ của 提出してください. Vị trí ★ là 本人確認書類を (B).",
+          "explanation": "Câu hoàn chỉnh: 証明書を申請する場合は、申請書に必要事項を記入し本人確認書類を窓口へ提出してください。 Nghĩa là khi xin cấp giấy chứng nhận, hãy điền thông tin cần thiết vào đơn, rồi nộp giấy tờ xác minh danh tính tại quầy. 必要事項を là tân ngữ của 記入し; sau đó 本人確認書類を là tân ngữ của 提出してください. Mảnh ★ là 本人確認書類を.",
           "distractorExplanations": {
             "A": "記入し nối với tân ngữ 必要事項を trong cụm 申請書に必要事項を記入し; không phải vị trí đánh dấu ★.",
-            "C": "申請書に必要事項を đứng ở vị trí đầu tiên để làm nền cho động từ 記入し.",
-            "D": "窓口へ提出してください là mệnh đề kết thúc câu, đứng sau các tân ngữ cần nộp."
+            "B": "申請書に必要事項を đứng ở vị trí đầu tiên để làm nền cho động từ 記入し.",
+            "C": "窓口へ提出してください là mệnh đề kết thúc câu, đứng sau các tân ngữ cần nộp."
           },
+          "fragmentOrder": "B→A→D→C",
           "skill": "Language Knowledge",
-          "explanationVi": "Trình tự: 申請書に必要事項を (C) -> 記入し (A) -> 本人確認書類を (B) -> 窓口へ提出してください (D). Tân ngữ 必要事項を đi cùng động từ 記入し; tiếp theo là giấy tờ xác minh danh tính làm tân ngữ của 提出してください. Vị trí ★ là 本人確認書類を (B)."
+          "explanationVi": "Câu hoàn chỉnh: 証明書を申請する場合は、申請書に必要事項を記入し本人確認書類を窓口へ提出してください。 Nghĩa là khi xin cấp giấy chứng nhận, hãy điền thông tin cần thiết vào đơn, rồi nộp giấy tờ xác minh danh tính tại quầy. 必要事項を là tân ngữ của 記入し; sau đó 本人確認書類を là tân ngữ của 提出してください. Mảnh ★ là 本人確認書類を."
         },
         {
           "id": "N2_07_M8_02",
@@ -1551,32 +1552,33 @@
           "options": [
             {
               "id": "A",
-              "text": "問わず、"
+              "text": "対象世帯へ"
             },
             {
               "id": "B",
-              "text": "すべての"
+              "text": "問わず、"
             },
             {
               "id": "C",
-              "text": "対象世帯へ"
+              "text": "すべての"
             },
             {
               "id": "D",
               "text": "多寡を"
             }
           ],
-          "correctAnswer": "B",
+          "correctAnswer": "C",
           "starPosition": 3,
           "assembledSentence": "今回の臨時給付金は、世帯所得の多寡を問わず、すべての対象世帯へ一律に支給されます。",
-          "explanation": "Cấu trúc: ～を問わず (không phân biệt). Thứ tự: 多寡を (D) -> 問わず、(A) -> すべての (B) -> 対象世帯へ (C). Câu hoàn chỉnh: 今回の臨時給付金は、世帯所得の多寡を問わず、すべての対象世帯へ一律に支給されます。 Vị trí ngôi sao ★ là すべての (đáp án B).",
+          "explanation": "Câu hoàn chỉnh: 今回の臨時給付金は、世帯所得の多寡を問わず、すべての対象世帯へ一律に支給されます。 Nghĩa là khoản hỗ trợ đột xuất được cấp đồng đều cho mọi hộ đủ điều kiện, không phân biệt thu nhập cao hay thấp. Cấu trúc 多寡を問わず nghĩa là không xét mức độ; すべての bổ nghĩa cho 対象世帯へ. Mảnh ★ là すべての.",
           "distractorExplanations": {
-            "A": "Vị trí 2 (問わず).",
-            "C": "Vị trí 4 (対象世帯へ).",
+            "A": "Vị trí 4 (対象世帯へ).",
+            "B": "Vị trí 2 (問わず).",
             "D": "Vị trí 1 (多寡を)."
           },
+          "fragmentOrder": "D→B→C→A",
           "skill": "Language Knowledge",
-          "explanationVi": "Cấu trúc: ～を問わず (không phân biệt). Thứ tự: 多寡を (D) -> 問わず、(A) -> すべての (B) -> 対象世帯へ (C). Câu hoàn chỉnh: 今回の臨時給付金は、世帯所得の多寡を問わず、すべての対象世帯へ一律に支給されます。 Vị trí ngôi sao ★ là すべての (đáp án B)."
+          "explanationVi": "Câu hoàn chỉnh: 今回の臨時給付金は、世帯所得の多寡を問わず、すべての対象世帯へ一律に支給されます。 Nghĩa là khoản hỗ trợ đột xuất được cấp đồng đều cho mọi hộ đủ điều kiện, không phân biệt thu nhập cao hay thấp. Cấu trúc 多寡を問わず nghĩa là không xét mức độ; すべての bổ nghĩa cho 対象世帯へ. Mảnh ★ là すべての."
         },
         {
           "id": "N2_07_M8_03",
@@ -1594,24 +1596,25 @@
             },
             {
               "id": "C",
-              "text": "事前に受け取っておく"
+              "text": "必要が"
             },
             {
               "id": "D",
-              "text": "必要が"
+              "text": "事前に受け取っておく"
             }
           ],
-          "correctAnswer": "C",
+          "correctAnswer": "D",
           "starPosition": 3,
           "assembledSentence": "代理人として住民票の再発行を申請する場合は、申請者本人が作成した委任状を事前に受け取っておく必要があります。",
-          "explanation": "Trình tự: 申請者本人が作成した (A) bổ nghĩa cho 委任状 (B); 委任状を là tân ngữ của 事前に受け取っておく (C), sau đó là 必要が (D) để tạo 必要があります. Vị trí ★ là 事前に受け取っておく (C).",
+          "explanation": "Câu hoàn chỉnh: 代理人として住民票の再発行を申請する場合は、申請者本人が作成した委任状を事前に受け取っておく必要があります。 Nghĩa là nếu nộp đơn thay người khác, cần nhận trước giấy ủy quyền do chính người nộp đơn lập. Mệnh đề 申請者本人が作成した bổ nghĩa cho 委任状; 委任状を là tân ngữ của 事前に受け取っておく; 必要があります diễn tả sự cần thiết. Mảnh ★ là 事前に受け取っておく.",
           "distractorExplanations": {
             "A": "申請者本人が作成した bổ nghĩa cho 委任状, vì vậy đứng trước cụm này.",
             "B": "委任状を là tân ngữ của 事前に受け取っておく; nó đứng giữa cụm bổ nghĩa và động từ.",
-            "D": "必要が đứng thứ tư để tạo thành cụm cố định 必要があります."
+            "C": "必要が đứng thứ tư để tạo thành cụm cố định 必要があります."
           },
+          "fragmentOrder": "A→B→D→C",
           "skill": "Language Knowledge",
-          "explanationVi": "Trình tự: 申請者本人が作成した (A) bổ nghĩa cho 委任状 (B); 委任状を là tân ngữ của 事前に受け取っておく (C), sau đó là 必要が (D) để tạo 必要があります. Vị trí ★ là 事前に受け取っておく (C)."
+          "explanationVi": "Câu hoàn chỉnh: 代理人として住民票の再発行を申請する場合は、申請者本人が作成した委任状を事前に受け取っておく必要があります。 Nghĩa là nếu nộp đơn thay người khác, cần nhận trước giấy ủy quyền do chính người nộp đơn lập. Mệnh đề 申請者本人が作成した bổ nghĩa cho 委任状; 委任状を là tân ngữ của 事前に受け取っておく; 必要があります diễn tả sự cần thiết. Mảnh ★ là 事前に受け取っておく."
         },
         {
           "id": "N2_07_M8_04",
@@ -1639,14 +1642,15 @@
           "correctAnswer": "D",
           "starPosition": 3,
           "assembledSentence": "会議の議事録を作る際は、単に発言を文字に起こすだけでなく、発言者の意図を正確に読み取ることも大切です。",
-          "explanation": "Cấu trúc 「単に～だけでなく～も」 nối hai việc cần làm song song. 「発言者の意図を」 là tân ngữ của 「正確に読み取る」; cụm động từ + 「ことも」 làm chủ đề đánh giá trước 「大切です」. Trình tự: B -> A -> D -> C; vị trí ★ là 「正確に読み取る」 (D).",
+          "explanation": "Câu hoàn chỉnh: 会議の議事録を作る際は、単に発言を文字に起こすだけでなく、発言者の意図を正確に読み取ることも大切です。 Nghĩa là khi ghi biên bản, ngoài việc chép lại lời nói, cũng cần hiểu đúng ý định của người phát biểu. Cấu trúc 単に～だけでなく～も nối hai việc song song; 発言者の意図を là tân ngữ của 正確に読み取る. Mảnh ★ là 正確に読み取る.",
           "distractorExplanations": {
             "A": "発言者の意図を là tân ngữ, cần đứng trước vị ngữ 正確に読み取る.",
             "B": "単に～だけでなく mở phần thứ nhất của cấu trúc đối sánh và phải đứng trước phần ～も.",
             "C": "ことも danh hóa hành động đọc đúng ý rồi nối với vị ngữ đánh giá 大切です."
           },
+          "fragmentOrder": "B→A→D→C",
           "skill": "Language Knowledge",
-          "explanationVi": "Cấu trúc 「単に～だけでなく～も」 nối hai việc cần làm song song. 「発言者の意図を」 là tân ngữ của 「正確に読み取る」; cụm động từ + 「ことも」 làm chủ đề đánh giá trước 「大切です」. Trình tự: B -> A -> D -> C; vị trí ★ là 「正確に読み取る」 (D)."
+          "explanationVi": "Câu hoàn chỉnh: 会議の議事録を作る際は、単に発言を文字に起こすだけでなく、発言者の意図を正確に読み取ることも大切です。 Nghĩa là khi ghi biên bản, ngoài việc chép lại lời nói, cũng cần hiểu đúng ý định của người phát biểu. Cấu trúc 単に～だけでなく～も nối hai việc song song; 発言者の意図を là tân ngữ của 正確に読み取る. Mảnh ★ là 正確に読み取る."
         },
         {
           "id": "N2_07_M8_05",
@@ -1656,7 +1660,7 @@
           "options": [
             {
               "id": "A",
-              "text": "利用者の利便性を"
+              "text": "可能性が"
             },
             {
               "id": "B",
@@ -1664,24 +1668,25 @@
             },
             {
               "id": "C",
-              "text": "可能性が"
+              "text": "高いと"
             },
             {
               "id": "D",
-              "text": "高いと"
+              "text": "利用者の利便性を"
             }
           ],
-          "correctAnswer": "C",
+          "correctAnswer": "A",
           "starPosition": 3,
           "assembledSentence": "この施策は、利用者の利便性を大幅に高める可能性が高いと予想される。",
-          "explanation": "Trình tự A -> B -> C -> D: 「利用者の利便性を大幅に高める」 bổ nghĩa cho danh từ 「可能性」; cụm cố định 「可能性が高い」 nêu mức độ khả năng và được dẫn bằng 「と」 trước 「予想される」. Vị trí ★ là 「可能性が」 (C).",
+          "explanation": "Câu hoàn chỉnh: この施策は、利用者の利便性を大幅に高める可能性が高いと予想される。 Nghĩa là dự đoán biện pháp này có khả năng cải thiện đáng kể sự tiện lợi cho người dùng. 利用者の利便性を là tân ngữ; 大幅に高める bổ nghĩa cho 可能性; 可能性が高い nối với と予想される. Mảnh ★ là 可能性が.",
           "distractorExplanations": {
-            "A": "利用者の利便性を là tân ngữ của 高める, phải theo sau bổ ngữ 大幅に và trước cụm danh từ 可能性.",
             "B": "大幅に高める là vị ngữ trong mệnh đề bổ nghĩa cho 可能性; 可能性があると予想される là cấu trúc chính.",
-            "D": "高いと kết hợp với 可能性が để tạo cụm 可能性が高いと, bổ nghĩa cho 予想される."
+            "C": "高いと kết hợp với 可能性が để tạo cụm 可能性が高いと, bổ nghĩa cho 予想される.",
+            "D": "利用者の利便性を là tân ngữ của 高める, phải theo sau bổ ngữ 大幅に và trước cụm danh từ 可能性."
           },
+          "fragmentOrder": "D→B→A→C",
           "skill": "Language Knowledge",
-          "explanationVi": "Trình tự A -> B -> C -> D: 「利用者の利便性を大幅に高める」 bổ nghĩa cho danh từ 「可能性」; cụm cố định 「可能性が高い」 nêu mức độ khả năng và được dẫn bằng 「と」 trước 「予想される」. Vị trí ★ là 「可能性が」 (C)."
+          "explanationVi": "Câu hoàn chỉnh: この施策は、利用者の利便性を大幅に高める可能性が高いと予想される。 Nghĩa là dự đoán biện pháp này có khả năng cải thiện đáng kể sự tiện lợi cho người dùng. 利用者の利便性を là tân ngữ; 大幅に高める bổ nghĩa cho 可能性; 可能性が高い nối với と予想される. Mảnh ★ là 可能性が."
         },
         {
           "id": "N2_07_M9_01",
@@ -1692,7 +1697,7 @@
           "options": [
             {
               "id": "A",
-              "text": "ことと存じます"
+              "text": "わけがございません"
             },
             {
               "id": "B",
@@ -1700,19 +1705,19 @@
             },
             {
               "id": "C",
-              "text": "はずがありません"
+              "text": "ことと存じます"
             },
             {
               "id": "D",
-              "text": "わけがございません"
+              "text": "はずがありません"
             }
           ],
           "correctAnswer": "B",
           "explanation": "～こととなりました: Biểu đạt quyết định/chính sách chính thức của cơ quan, tổ chức đối với công chúng.",
           "distractorExplanations": {
-            "A": "ことと存じます: Dùng diễn đạt suy đoán lịch sự về tình hình người nhận thư.",
-            "C": "はずがありません: Chắc chắn không có chuyện (bác bỏ vô lý).",
-            "D": "わけがございません: Không có lý nào."
+            "A": "わけがございません: Không có lý nào.",
+            "C": "ことと存じます: Dùng diễn đạt suy đoán lịch sự về tình hình người nhận thư.",
+            "D": "はずがありません: Chắc chắn không có chuyện (bác bỏ vô lý)."
           },
           "skill": "Language Knowledge",
           "explanationVi": "～こととなりました: Biểu đạt quyết định/chính sách chính thức của cơ quan, tổ chức đối với công chúng."
@@ -1726,27 +1731,27 @@
           "options": [
             {
               "id": "A",
-              "text": "存じます"
-            },
-            {
-              "id": "B",
               "text": "申し上げます"
             },
             {
+              "id": "B",
+              "text": "存じます"
+            },
+            {
               "id": "C",
-              "text": "いただけます"
+              "text": "伺います"
             },
             {
               "id": "D",
-              "text": "伺います"
+              "text": "いただけます"
             }
           ],
-          "correctAnswer": "C",
+          "correctAnswer": "D",
           "explanation": "完了していただけます: Thể khả năng kính ngữ của もらう (quý công dân có thể hoàn tất thủ tục).",
           "distractorExplanations": {
-            "A": "存じます: Nghĩ, cảm thấy (người nói).",
-            "B": "申し上げます: Khiêm nhường ngữ nói về hành động của bản thân cơ quan.",
-            "D": "伺います: Khiêm nhường ngữ hỏi/thăm viếng."
+            "A": "申し上げます: Khiêm nhường ngữ nói về hành động của bản thân cơ quan.",
+            "B": "存じます: Nghĩ, cảm thấy (người nói).",
+            "C": "伺います: Khiêm nhường ngữ hỏi/thăm viếng."
           },
           "skill": "Language Knowledge",
           "explanationVi": "完了していただけます: Thể khả năng kính ngữ của もらう (quý công dân có thể hoàn tất thủ tục)."
@@ -1764,23 +1769,23 @@
             },
             {
               "id": "B",
-              "text": "ところが"
+              "text": "なお"
             },
             {
               "id": "C",
-              "text": "それゆえ"
+              "text": "ところが"
             },
             {
               "id": "D",
-              "text": "なお"
+              "text": "それゆえ"
             }
           ],
-          "correctAnswer": "D",
+          "correctAnswer": "B",
           "explanation": "なお: Từ nối dùng để bổ sung thêm lưu ý quan trọng cần ghi nhớ trong văn bản hành chính.",
           "distractorExplanations": {
             "A": "なぜなら: Bởi vì (giải thích lý do).",
-            "B": "ところが: Tuy nhiên (đối lập bất ngờ).",
-            "C": "それゆえ: Do đó, vì thế (nguyên nhân kết quả trang trọng)."
+            "C": "ところが: Tuy nhiên (đối lập bất ngờ).",
+            "D": "それゆえ: Do đó, vì thế (nguyên nhân kết quả trang trọng)."
           },
           "skill": "Language Knowledge",
           "explanationVi": "なお: Từ nối dùng để bổ sung thêm lưu ý quan trọng cần ghi nhớ trong văn bản hành chính."
@@ -1794,11 +1799,11 @@
           "options": [
             {
               "id": "A",
-              "text": "必要となります"
+              "text": "得ません"
             },
             {
               "id": "B",
-              "text": "得ません"
+              "text": "おかないでしょう"
             },
             {
               "id": "C",
@@ -1806,15 +1811,15 @@
             },
             {
               "id": "D",
-              "text": "おかないでしょう"
+              "text": "必要となります"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "D",
           "explanation": "再設定手続きが必要となります: Khi mã PIN bị quên hoặc chức năng thẻ bị khóa, người dân phải trực tiếp đến quầy để làm thủ tục thiết lập lại.",
           "distractorExplanations": {
-            "B": "得ません: Sai ngữ pháp khi đi trực tiếp với danh từ/trợ từ が.",
-            "C": "かねません: Có nguy cơ xảy ra việc xấu.",
-            "D": "おかないでしょう: Không thể không làm (quyết tâm)."
+            "A": "得ません: Sai ngữ pháp khi đi trực tiếp với danh từ/trợ từ が.",
+            "B": "おかないでしょう: Không thể không làm (quyết tâm).",
+            "C": "かねません: Có nguy cơ xảy ra việc xấu."
           },
           "skill": "Language Knowledge",
           "explanationVi": "再設定手続きが必要となります: Khi mã PIN bị quên hoặc chức năng thẻ bị khóa, người dân phải trực tiếp đến quầy để làm thủ tục thiết lập lại."
@@ -1832,23 +1837,23 @@
             },
             {
               "id": "B",
-              "text": "ご活用くださいますよう"
-            },
-            {
-              "id": "C",
               "text": "ご活用いたしたく"
             },
             {
-              "id": "D",
+              "id": "C",
               "text": "ご活用いただくまいと"
+            },
+            {
+              "id": "D",
+              "text": "ご活用くださいますよう"
             }
           ],
-          "correctAnswer": "B",
+          "correctAnswer": "D",
           "explanation": "ご活用くださいますよう（ごかつようくださいますよう）: Mẫu kính ngữ kêu gọi, kính mong người dân tích cực sử dụng dịch vụ.",
           "distractorExplanations": {
             "A": "ご活用申し上げますよう: Nhầm khiêm nhường ngữ 申し上げる cho hành động của người dân.",
-            "C": "ご活用いたしたく: Bày tỏ mong muốn của người nói.",
-            "D": "いただくまいと: Thể phủ định tuyệt đối."
+            "B": "ご活用いたしたく: Bày tỏ mong muốn của người nói.",
+            "C": "いただくまいと: Thể phủ định tuyệt đối."
           },
           "skill": "Language Knowledge",
           "explanationVi": "ご活用くださいますよう（ごかつようくださいますよう）: Mẫu kính ngữ kêu gọi, kính mong người dân tích cực sử dụng dịch vụ."
@@ -1862,7 +1867,7 @@
           "options": [
             {
               "id": "A",
-              "text": "バックアップ未完了の端末を直ちに総務課へ持参する。"
+              "text": "本日17時までに各自の重要データをクラウド共有ドライブへ保存する。"
             },
             {
               "id": "B",
@@ -1870,22 +1875,22 @@
             },
             {
               "id": "C",
-              "text": "本日17時までに各自の重要データをクラウド共有ドライブへ保存する。"
+              "text": "来週月曜日までPCを使った業務をすべて停止する。"
             },
             {
               "id": "D",
-              "text": "来週月曜日までPCを使った業務をすべて停止する。"
+              "text": "バックアップ未完了の端末を直ちに総務課へ持参する。"
             }
           ],
-          "correctAnswer": "C",
-          "explanation": "Đoạn văn nêu rõ: '各自の重要データにつきまして、本日17時までに所定のクラウド共有ドライブへ退避作業を完了していただきますようお願いいたします'.",
+          "correctAnswer": "A",
+          "explanation": "Thông báo yêu cầu mỗi nhân viên sao lưu dữ liệu quan trọng lên thư mục đám mây dùng chung trước 17 giờ hôm nay, trước đợt cập nhật bảo mật vào thứ Hai tới. Máy chưa sao lưu sẽ bị hoãn cập nhật và xử lý riêng; nhân viên không tự thực hiện cập nhật.",
           "distractorExplanations": {
-            "A": "Không yêu cầu mang máy lên phòng tổng vụ.",
             "B": "Việc cập nhật do hệ thống làm vào thứ 2 tới, nhân viên không tự cài đặt.",
-            "D": "Không có yêu cầu dừng toàn bộ công việc."
+            "C": "Không có yêu cầu dừng toàn bộ công việc.",
+            "D": "Không yêu cầu mang máy lên phòng tổng vụ."
           },
           "skill": "Reading",
-          "explanationVi": "Đoạn văn nêu rõ: '各自の重要データにつきまして、本日17時までに所定のクラウド共有ドライブへ退避作業を完了していただきますようお願いいたします'."
+          "explanationVi": "Thông báo yêu cầu mỗi nhân viên sao lưu dữ liệu quan trọng lên thư mục đám mây dùng chung trước 17 giờ hôm nay, trước đợt cập nhật bảo mật vào thứ Hai tới. Máy chưa sao lưu sẽ bị hoãn cập nhật và xử lý riêng; nhân viên không tự thực hiện cập nhật."
         },
         {
           "id": "N2_07_M10_02",
@@ -1900,23 +1905,23 @@
             },
             {
               "id": "B",
-              "text": "近隣住民の反対により、粗大ゴミの回収自体が来月より全面中止となる。"
+              "text": "来月1日以降は集積場所が北側児童公園前へ移り、予約とシールの貼付が必要になる。"
             },
             {
               "id": "C",
-              "text": "集会所横の集積所は来月以降も事前の連絡なしでいつでも利用できる。"
+              "text": "近隣住民の反対により、粗大ゴミの回収自体が来月より全面中止となる。"
             },
             {
               "id": "D",
-              "text": "来月1日以降は集積場所が北側児童公園前へ移り、予約とシールの貼付が必要になる。"
+              "text": "集会所横の集積所は来月以降も事前の連絡なしでいつでも利用できる。"
             }
           ],
-          "correctAnswer": "D",
+          "correctAnswer": "B",
           "explanation": "Đoạn văn chỉ rõ: từ ngày 1 tháng tới điểm tập kết dời sang cổng công viên phía bắc, bắt buộc đặt lịch trước (qua điện thoại hoặc web) và dán tem thu gom.",
           "distractorExplanations": {
             "A": "Văn bản ghi rõ: 電話またはウェブ予約 (cả điện thoại lẫn web đều được).",
-            "B": "Không hủy bỏ việc thu gom mà chỉ đổi địa điểm.",
-            "C": "Điểm cũ cạnh hội trường sẽ bị đóng, không được để rác cản trở lối đi nữa."
+            "C": "Không hủy bỏ việc thu gom mà chỉ đổi địa điểm.",
+            "D": "Điểm cũ cạnh hội trường sẽ bị đóng, không được để rác cản trở lối đi nữa."
           },
           "skill": "Reading",
           "explanationVi": "Đoạn văn chỉ rõ: từ ngày 1 tháng tới điểm tập kết dời sang cổng công viên phía bắc, bắt buộc đặt lịch trước (qua điện thoại hoặc web) và dán tem thu gom."
@@ -1934,7 +1939,7 @@
             },
             {
               "id": "B",
-              "text": "夏期期間中はすべての商談や式典を含め、常にノージャケットで臨まなければならない。"
+              "text": "公式セレモニーであっても各自の判断でどのような服装をしても問題ない。"
             },
             {
               "id": "C",
@@ -1942,15 +1947,15 @@
             },
             {
               "id": "D",
-              "text": "公式セレモニーであっても各自の判断でどのような服装をしても問題ない。"
+              "text": "夏期期間中はすべての商談や式典を含め、常にノージャケットで臨まなければならない。"
             }
           ],
           "correctAnswer": "A",
           "explanation": "Nội dung chỉ rõ: trong nội bộ khuyến khích không cà vạt/áo khoác, nhưng khi tiếp khách quan trọng hay dự lễ nghi chính thức phải ăn mặc trang trọng phù hợp hoàn cảnh.",
           "distractorExplanations": {
-            "B": "Không bắt buộc mọi cuộc gặp đều không mặc áo khoác.",
+            "B": "Lễ nghi chính thức không được tự ý mặc bừa bãi.",
             "C": "Không hề cấm thắt cà vạt khi gặp khách ngoài.",
-            "D": "Lễ nghi chính thức không được tự ý mặc bừa bãi."
+            "D": "Không bắt buộc mọi cuộc gặp đều không mặc áo khoác."
           },
           "skill": "Reading",
           "explanationVi": "Nội dung chỉ rõ: trong nội bộ khuyến khích không cà vạt/áo khoác, nhưng khi tiếp khách quan trọng hay dự lễ nghi chính thức phải ăn mặc trang trọng phù hợp hoàn cảnh."
@@ -1964,27 +1969,27 @@
           "options": [
             {
               "id": "A",
-              "text": "点検時間中に貯水槽へ立ち会い、清掃作業を手伝う。"
-            },
-            {
-              "id": "B",
               "text": "断水に備えて飲用水や生活用水を汲み置き、蛇口が閉まっているか確認する。"
             },
             {
-              "id": "C",
+              "id": "B",
               "text": "濁り水が出るのを防ぐため、断水時間中にすべての蛇口を開けておく。"
             },
             {
-              "id": "D",
+              "id": "C",
               "text": "11月15日の午後は給水ポンプが停止するため、終日外出する。"
+            },
+            {
+              "id": "D",
+              "text": "点検時間中に貯水槽へ立ち会い、清掃作業を手伝う。"
             }
           ],
-          "correctAnswer": "B",
+          "correctAnswer": "A",
           "explanation": "Thông báo hướng dẫn người dân: khóa chặt vòi nước trước khi cắt nước và tích trữ sẵn nước sinh hoạt/uống.",
           "distractorExplanations": {
-            "A": "Không yêu cầu cư dân đi hỗ trợ cọ rửa bể nước.",
-            "C": "Mở hết vòi nước trong lúc cắt nước sẽ gây tràn nước khi cấp lại.",
-            "D": "Không yêu cầu phải ra khỏi nhà cả ngày."
+            "B": "Mở hết vòi nước trong lúc cắt nước sẽ gây tràn nước khi cấp lại.",
+            "C": "Không yêu cầu phải ra khỏi nhà cả ngày.",
+            "D": "Không yêu cầu cư dân đi hỗ trợ cọ rửa bể nước."
           },
           "skill": "Reading",
           "explanationVi": "Thông báo hướng dẫn người dân: khóa chặt vòi nước trước khi cắt nước và tích trữ sẵn nước sinh hoạt/uống."
@@ -2002,23 +2007,23 @@
             },
             {
               "id": "B",
-              "text": "CDやDVDを含め、すべての資料を正面玄関横の返却ポストに返却できる。"
-            },
-            {
-              "id": "C",
               "text": "図書は返却ポストに投函できるが、CDやDVDは休館明けに窓口へ返却する。"
             },
             {
-              "id": "D",
+              "id": "C",
               "text": "返却ポストは土曜日以降のみ利用可能であり、平日は閉鎖されている。"
+            },
+            {
+              "id": "D",
+              "text": "CDやDVDを含め、すべての資料を正面玄関横の返却ポストに返却できる。"
             }
           ],
-          "correctAnswer": "C",
+          "correctAnswer": "B",
           "explanation": "Đoạn văn nêu rõ: sách thường có thể bỏ vào thùng trả sách, riêng đĩa CD/DVD dễ vỡ nên không được bỏ thùng mà phải chờ mở cửa lại vào thứ Bảy nộp trực tiếp tại quầy.",
           "distractorExplanations": {
             "A": "Sách giấy vẫn được trả vào thùng ngoài cửa.",
-            "B": "Đĩa CD/DVD bị nghiêm cấm bỏ vào hộp trả sách vì sợ hỏng.",
-            "D": "Hộp trả sách mở trong suốt thời gian đóng cửa tạm thời."
+            "C": "Hộp trả sách mở trong suốt thời gian đóng cửa tạm thời.",
+            "D": "Đĩa CD/DVD bị nghiêm cấm bỏ vào hộp trả sách vì sợ hỏng."
           },
           "skill": "Reading",
           "explanationVi": "Đoạn văn nêu rõ: sách thường có thể bỏ vào thùng trả sách, riêng đĩa CD/DVD dễ vỡ nên không được bỏ thùng mà phải chờ mở cửa lại vào thứ Bảy nộp trực tiếp tại quầy."
@@ -2032,15 +2037,15 @@
           "options": [
             {
               "id": "A",
-              "text": "相手の表情や抑揚が自動的にテキスト化され、親近感が増したこと。"
-            },
-            {
-              "id": "B",
               "text": "対面での会議をすべて廃止し、オフィスの賃料を大幅に削減できたこと。"
             },
             {
-              "id": "C",
+              "id": "B",
               "text": "文章のニュアンスが正確に伝わり、指導や修正での誤解がなくなったこと。"
+            },
+            {
+              "id": "C",
+              "text": "相手の表情や抑揚が自動的にテキスト化され、親近感が増したこと。"
             },
             {
               "id": "D",
@@ -2050,9 +2055,9 @@
           "correctAnswer": "D",
           "explanation": "Đoạn 1 nêu: lược bỏ lời chào khuôn mẫu, trao đổi công việc ngắn gọn nhanh chóng giúp nâng cao hiệu suất công việc trong bối cảnh làm từ xa.",
           "distractorExplanations": {
-            "A": "Nội dung bịa đặt không có trong bài.",
-            "B": "Không nói đến việc hủy toàn bộ họp trực tiếp hay giảm tiền thuê văn phòng.",
-            "C": "Trái ngược; nhắn tin ngắn dễ gây hiểu lầm chứ không phải loại bỏ hiểu lầm."
+            "A": "Không nói đến việc hủy toàn bộ họp trực tiếp hay giảm tiền thuê văn phòng.",
+            "B": "Trái ngược; nhắn tin ngắn dễ gây hiểu lầm chứ không phải loại bỏ hiểu lầm.",
+            "C": "Nội dung bịa đặt không có trong bài."
           },
           "skill": "Reading",
           "explanationVi": "Đoạn 1 nêu: lược bỏ lời chào khuôn mẫu, trao đổi công việc ngắn gọn nhanh chóng giúp nâng cao hiệu suất công việc trong bối cảnh làm từ xa."
@@ -2100,11 +2105,11 @@
           "options": [
             {
               "id": "A",
-              "text": "誤解を避けるため、チャットツールの使用を直ちに全面的に禁止すること。"
+              "text": "用件の性質に応じて、チャットだけでなく必要に応じて音声やビデオ会議を使い分けること。"
             },
             {
               "id": "B",
-              "text": "用件の性質に応じて、チャットだけでなく必要に応じて音声やビデオ会議を使い分けること。"
+              "text": "誤解を避けるため、チャットツールの使用を直ちに全面的に禁止すること。"
             },
             {
               "id": "C",
@@ -2115,10 +2120,10 @@
               "text": "複雑な相談であっても、相手の時間を取らないようチャットのみで完結させること。"
             }
           ],
-          "correctAnswer": "B",
+          "correctAnswer": "A",
           "explanation": "Đoạn cuối kết luận: với việc đơn giản thì chat là đủ, nhưng việc phức tạp, nhạy cảm hay dễ bất đồng thì nên kết hợp gọi điện hoặc họp video ngắn.",
           "distractorExplanations": {
-            "A": "Tác giả không hề bảo cấm chat hoàn toàn.",
+            "B": "Tác giả không hề bảo cấm chat hoàn toàn.",
             "C": "Không bảo quay lại email dài dòng.",
             "D": "Trái ngược ý tác giả."
           },
@@ -2134,7 +2139,7 @@
           "options": [
             {
               "id": "A",
-              "text": "証明書の発行費用が完全に無料になり、税金の支払いが不要になった。"
+              "text": "コンビニや自宅から手続きができるようになり、平日の窓口に行かなくても済むようになった。"
             },
             {
               "id": "B",
@@ -2142,18 +2147,18 @@
             },
             {
               "id": "C",
-              "text": "コンビニや自宅から手続きができるようになり、平日の窓口に行かなくても済むようになった。"
+              "text": "証明書の発行費用が完全に無料になり、税金の支払いが不要になった。"
             },
             {
               "id": "D",
               "text": "平日の夜間であっても、市役所本庁舎の全窓口が営業するようになった。"
             }
           ],
-          "correctAnswer": "C",
+          "correctAnswer": "A",
           "explanation": "Đoạn 1 nêu: nhờ phát hành qua cửa hàng tiện lợi và nộp online, người dân có thể làm thủ tục mọi lúc mọi nơi không cần đến quầy vào giờ hành chính ngày thường.",
           "distractorExplanations": {
-            "A": "Không miễn thuế hay miễn phí hoàn toàn.",
             "B": "Không đóng cửa toàn bộ và không cấm trực tiếp.",
+            "C": "Không miễn thuế hay miễn phí hoàn toàn.",
             "D": "Việc giải quyết tiện lợi là nhờ hệ thống số, không phải quầy hành chính mở thâu đêm."
           },
           "skill": "Reading",
@@ -2168,11 +2173,11 @@
           "options": [
             {
               "id": "A",
-              "text": "すべての地域住民の個人情報を外部企業に委託して管理できること。"
+              "text": "定型業務が自動化され、福祉相談などの対面支援に職員が注力できるようになること。"
             },
             {
               "id": "B",
-              "text": "職員の数を半分に削減し、人件費をすべてシステム開発費に回せること。"
+              "text": "すべての地域住民の個人情報を外部企業に委託して管理できること。"
             },
             {
               "id": "C",
@@ -2180,15 +2185,15 @@
             },
             {
               "id": "D",
-              "text": "定型業務が自動化され、福祉相談などの対面支援に職員が注力できるようになること。"
+              "text": "職員の数を半分に削減し、人件費をすべてシステム開発費に回せること。"
             }
           ],
-          "correctAnswer": "D",
+          "correctAnswer": "A",
           "explanation": "Đoạn 2 nêu: tự động hóa các thủ tục định hình giúp nhân viên tập trung vào các công tác chuyên sâu đòi hỏi sự tương tác con người như tư vấn phúc lợi.",
           "distractorExplanations": {
-            "A": "Không nói ủy thác toàn bộ thông tin cá nhân ra ngoài.",
-            "B": "Không nói giảm một nửa biên chế nhân sự.",
-            "C": "Không phải từ chối khiếu nại của dân."
+            "B": "Không nói ủy thác toàn bộ thông tin cá nhân ra ngoài.",
+            "C": "Không phải từ chối khiếu nại của dân.",
+            "D": "Không nói giảm một nửa biên chế nhân sự."
           },
           "skill": "Reading",
           "explanationVi": "Đoạn 2 nêu: tự động hóa các thủ tục định hình giúp nhân viên tập trung vào các công tác chuyên sâu đòi hỏi sự tương tác con người như tư vấn phúc lợi."
@@ -2202,27 +2207,27 @@
           "options": [
             {
               "id": "A",
-              "text": "デジタル化を推進しつつも、高齢者等のために丁寧な対面窓口や支援体制を残すこと。"
-            },
-            {
-              "id": "B",
               "text": "高齢者であっても例外なく全員が独力でスマートフォンを操作できるよう強制すること。"
             },
             {
+              "id": "B",
+              "text": "デジタル化を推進しつつも、高齢者等のために丁寧な対面窓口や支援体制を残すこと。"
+            },
+            {
               "id": "C",
-              "text": "紙の書類による申請を完全に廃止し、窓口業務のコストをゼロにすること。"
+              "text": "デジタル技術の導入を中止し、過去のすべて対面による手続きに戻すこと。"
             },
             {
               "id": "D",
-              "text": "デジタル技術の導入を中止し、過去のすべて対面による手続きに戻すこと。"
+              "text": "紙の書類による申請を完全に廃止し、窓口業務のコストをゼロにすること。"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "B",
           "explanation": "Đoạn cuối nhấn mạnh: để không ai bị bỏ lại phía sau, bên cạnh thúc đẩy công nghệ số vẫn phải duy trì quầy trực tiếp và hỗ trợ người cao tuổi.",
           "distractorExplanations": {
-            "B": "Không bắt ép cưỡng chế người già.",
-            "C": "Không xóa sổ hoàn toàn quầy giấy tờ.",
-            "D": "Không bảo dừng công nghệ quay về thời xưa."
+            "A": "Không bắt ép cưỡng chế người già.",
+            "C": "Không bảo dừng công nghệ quay về thời xưa.",
+            "D": "Không xóa sổ hoàn toàn quầy giấy tờ."
           },
           "skill": "Reading",
           "explanationVi": "Đoạn cuối nhấn mạnh: để không ai bị bỏ lại phía sau, bên cạnh thúc đẩy công nghệ số vẫn phải duy trì quầy trực tiếp và hỗ trợ người cao tuổi."
@@ -2236,27 +2241,27 @@
           "options": [
             {
               "id": "A",
-              "text": "職員が住民からの質問に答える手間を省き、定時で退勤できるようにするため。"
+              "text": "規則を厳しくすることで、申請書類の偽造をすべて物理的に不可能にするため。"
             },
             {
               "id": "B",
-              "text": "安易な例外処理を認めると、行政に対する市民全体の公平な信頼が損なわれるから。"
-            },
-            {
-              "id": "C",
               "text": "窓口での相談件数を減らし、すべての業務をマニュアル化するため。"
             },
             {
+              "id": "C",
+              "text": "職員が住民からの質問に答える手間を省き、定時で退勤できるようにするため。"
+            },
+            {
               "id": "D",
-              "text": "規則を厳しくすることで、申請書類の偽造をすべて物理的に不可能にするため。"
+              "text": "安易な例外処理を認めると、行政に対する市民全体の公平な信頼が損なわれるから。"
             }
           ],
-          "correctAnswer": "B",
+          "correctAnswer": "D",
           "explanation": "Đoạn 1 nêu: nếu dễ dàng xử lý ngoại lệ sai quy định thì sẽ đánh mất sự tin tưởng công bằng của toàn thể người dân đối với nền hành chính.",
           "distractorExplanations": {
-            "A": "Không phải để trốn việc về sớm.",
-            "C": "Không phải để giảm số lượt hỏi đáp của dân.",
-            "D": "Quy tắc nghiêm ngặt là vì tính công bằng minh bạch, không phải cam kết chặn 100% làm giả."
+            "A": "Quy tắc nghiêm ngặt là vì tính công bằng minh bạch, không phải cam kết chặn 100% làm giả.",
+            "B": "Không phải để giảm số lượt hỏi đáp của dân.",
+            "C": "Không phải để trốn việc về sớm."
           },
           "skill": "Reading",
           "explanationVi": "Đoạn 1 nêu: nếu dễ dàng xử lý ngoại lệ sai quy định thì sẽ đánh mất sự tin tưởng công bằng của toàn thể người dân đối với nền hành chính."
@@ -2270,7 +2275,7 @@
           "options": [
             {
               "id": "A",
-              "text": "住民が困っている様子を見たら、規定を無視してその場で特別に受理してあげること。"
+              "text": "他の自治体の窓口へ行くよう指示し、速やかに対応を終了させること。"
             },
             {
               "id": "B",
@@ -2282,15 +2287,15 @@
             },
             {
               "id": "D",
-              "text": "他の自治体の窓口へ行くよう指示し、速やかに対応を終了させること。"
+              "text": "住民が困っている様子を見たら、規定を無視してその場で特別に受理してあげること。"
             }
           ],
           "correctAnswer": "C",
           "explanation": "Đoạn 2 nêu: giải thích lý do quy định kèm theo hướng dẫn giải pháp thay thế, giúp người dân biết cần bổ sung giấy tờ gì và làm ở đâu.",
           "distractorExplanations": {
-            "A": "Tác giả nhấn mạnh không được phá vỡ quy định.",
+            "A": "Đùn đẩy sang nơi khác là vô trách nhiệm.",
             "B": "Tranh cãi gay gắt với dân là sai tác phong.",
-            "D": "Đùn đẩy sang nơi khác là vô trách nhiệm."
+            "D": "Tác giả nhấn mạnh không được phá vỡ quy định."
           },
           "skill": "Reading",
           "explanationVi": "Đoạn 2 nêu: giải thích lý do quy định kèm theo hướng dẫn giải pháp thay thế, giúp người dân biết cần bổ sung giấy tờ gì và làm ở đâu."
@@ -2304,7 +2309,7 @@
           "options": [
             {
               "id": "A",
-              "text": "対面での応対を避け、すべての業務をAIによる自動応答に任せきりにする姿勢。"
+              "text": "すべての権限を住民に委ね、職員自身の判断による説明を放棄する姿勢。"
             },
             {
               "id": "B",
@@ -2312,19 +2317,19 @@
             },
             {
               "id": "C",
-              "text": "すべての権限を住民に委ね、職員自身の判断による説明を放棄する姿勢。"
+              "text": "法の厳格さを守りながらも、困っている住民の立場に立ち、温かく次の行動へ導く姿勢。"
             },
             {
               "id": "D",
-              "text": "法の厳格さを守りながらも、困っている住民の立場に立ち、温かく次の行動へ導く姿勢。"
+              "text": "対面での応対を避け、すべての業務をAIによる自動応答に任せきりにする姿勢。"
             }
           ],
-          "correctAnswer": "D",
+          "correctAnswer": "C",
           "explanation": "Đoạn cuối tóm lược: giữ vững tính chuẩn mực của pháp luật nhưng phải có sự thấu cảm, giải thích có tâm và định hướng hành động cho công dân.",
           "distractorExplanations": {
-            "A": "Không phó mặc hoàn toàn cho máy.",
+            "A": "Không buông bỏ trách nhiệm công vụ.",
             "B": "Tác giả phê phán lối làm việc máy móc.",
-            "C": "Không buông bỏ trách nhiệm công vụ."
+            "D": "Không phó mặc hoàn toàn cho máy."
           },
           "skill": "Reading",
           "explanationVi": "Đoạn cuối tóm lược: giữ vững tính chuẩn mực của pháp luật nhưng phải có sự thấu cảm, giải thích có tâm và định hướng hành động cho công dân."
@@ -2338,7 +2343,7 @@
           "options": [
             {
               "id": "A",
-              "text": "Aはクラウドのバックアップで安全に再開できるとし、Bは停電や障害に備えて紙の原本を残すべきとする。"
+              "text": "AもBも、自然災害への備えとしては紙の台帳だけが唯一の解決策であると述べている。"
             },
             {
               "id": "B",
@@ -2346,19 +2351,19 @@
             },
             {
               "id": "C",
-              "text": "AもBも、自然災害への備えとしては紙の台帳だけが唯一の解決策であると述べている。"
+              "text": "AもBも、サイバー攻撃のリスクがあるため電子化を全面的に撤回すべきだと主張している。"
             },
             {
               "id": "D",
-              "text": "AもBも、サイバー攻撃のリスクがあるため電子化を全面的に撤回すべきだと主張している。"
+              "text": "Aはクラウドのバックアップで安全に再開できるとし、Bは停電や障害に備えて紙の原本を残すべきとする。"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "D",
           "explanation": "Tác giả A cho rằng lưu trữ đám mây giúp phục hồi công việc tức thì sau thiên tai; tác giả B cảnh báo cúp điện hoặc tấn công mạng sẽ làm tê liệt hệ thống số nên cần lưu giữ sổ sách giấy tờ dự phòng.",
           "distractorExplanations": {
+            "A": "A hoàn toàn ủng hộ số hóa đám mây chứ không chuộng giấy.",
             "B": "Bị đảo ngược lập trường giữa A và B.",
-            "C": "A hoàn toàn ủng hộ số hóa đám mây chứ không chuộng giấy.",
-            "D": "Cả hai đều không đòi hủy bỏ số hóa."
+            "C": "Cả hai đều không đòi hủy bỏ số hóa."
           },
           "skill": "Reading",
           "explanationVi": "Tác giả A cho rằng lưu trữ đám mây giúp phục hồi công việc tức thì sau thiên tai; tác giả B cảnh báo cúp điện hoặc tấn công mạng sẽ làm tê liệt hệ thống số nên cần lưu giữ sổ sách giấy tờ dự phòng."
@@ -2372,11 +2377,11 @@
           "options": [
             {
               "id": "A",
-              "text": "両者とも紙の文書の完全廃止を求めており、導入のスピード感についても全く同じ意見である。"
+              "text": "両者とも電子化による業務効率化を認めつつも、Aは即時完全移行を求め、Bは危機管理とのバランスを重視した段階的導入を求めている。"
             },
             {
               "id": "B",
-              "text": "両者とも電子化による業務効率化を認めつつも、Aは即時完全移行を求め、Bは危機管理とのバランスを重視した段階的導入を求めている。"
+              "text": "両者とも紙の文書の完全廃止を求めており、導入のスピード感についても全く同じ意見である。"
             },
             {
               "id": "C",
@@ -2387,10 +2392,10 @@
               "text": "Aは市民向けのサービスのみを対象とし、Bは職員内部の連絡のみを電子化すべきと述べている。"
             }
           ],
-          "correctAnswer": "B",
+          "correctAnswer": "A",
           "explanation": "Cả A và B đều công nhận số hóa mang lại hiệu quả cao. Tuy nhiên A muốn chuyển đổi triệt để tức thì, còn B chủ trương từng bước thận trọng để bảo đảm an ninh dự phòng.",
           "distractorExplanations": {
-            "A": "B không đồng ý bỏ giấy hoàn toàn.",
+            "B": "B không đồng ý bỏ giấy hoàn toàn.",
             "C": "A khẳng định hiệu quả giảm chi phí.",
             "D": "Không phân biệt chia rẽ đối tượng như vậy."
           },
@@ -2406,7 +2411,7 @@
           "options": [
             {
               "id": "A",
-              "text": "集合住宅の建築基準法が改正され、町内会の結成が禁止されたこと。"
+              "text": "プライバシー重視の生活様式に加え、役員の負担や時間の制約があること。"
             },
             {
               "id": "B",
@@ -2414,18 +2419,18 @@
             },
             {
               "id": "C",
-              "text": "プライバシー重視の生活様式に加え、役員の負担や時間の制約があること。"
+              "text": "集合住宅の建築基準法が改正され、町内会の結成が禁止されたこと。"
             },
             {
               "id": "D",
               "text": "若者が地域の防災訓練を完全に不要であると考えていること。"
             }
           ],
-          "correctAnswer": "C",
+          "correctAnswer": "A",
           "explanation": "Đoạn 1 nêu: lối sống coi trọng sự riêng tư cá nhân, gia đình bận rộn cả hai vợ chồng đi làm, cùng với gánh nặng làm cán bộ hội và không có thời gian dự sự kiện.",
           "distractorExplanations": {
-            "A": "Luật không cấm thành lập hội.",
             "B": "Không nói thị xã tăng hội phí.",
+            "C": "Luật không cấm thành lập hội.",
             "D": "Không phải thanh niên cho rằng diễn tập là vô ích."
           },
           "skill": "Reading",
@@ -2440,27 +2445,27 @@
           "options": [
             {
               "id": "A",
-              "text": "公的な避難所は町内会員しか利用できず、非会員は立ち入りが禁止されるから。"
-            },
-            {
-              "id": "B",
               "text": "消防署や警察は災害時に一切出動せず、住民が独力で消火活動を行わなければならないから。"
             },
             {
+              "id": "B",
+              "text": "公的な避難所は町内会員しか利用できず、非会員は立ち入りが禁止されるから。"
+            },
+            {
               "id": "C",
-              "text": "被災した家屋の解体工事を、町内会の役員が無償で請け負う義務があるから。"
+              "text": "公的機関の救助が行き届くまでの間、近隣住民同士の協力で救出や物資配分を支える必要があるから。"
             },
             {
               "id": "D",
-              "text": "公的機関の救助が行き届くまでの間、近隣住民同士の協力で救出や物資配分を支える必要があるから。"
+              "text": "被災した家屋の解体工事を、町内会の役員が無償で請け負う義務があるから。"
             }
           ],
-          "correctAnswer": "D",
+          "correctAnswer": "C",
           "explanation": "Đoạn 2 nêu: ngay sau thảm họa, lực lượng cứu hộ nhà nước (công trợ) chưa thể tới ngay mọi ngóc ngách, nên giai đoạn đầu phải nhờ người dân lân cận cứu nạn và điều phối đồ cứu trợ.",
           "distractorExplanations": {
-            "A": "Nơi lánh nạn công cộng dành cho mọi người, không phân biệt hội viên.",
-            "B": "Cảnh sát và cứu hỏa vẫn làm nhiệm vụ nhưng cần thời gian tiếp cận.",
-            "C": "Hội dân cư không phải công ty phá dỡ nhà miễn phí."
+            "A": "Cảnh sát và cứu hỏa vẫn làm nhiệm vụ nhưng cần thời gian tiếp cận.",
+            "B": "Nơi lánh nạn công cộng dành cho mọi người, không phân biệt hội viên.",
+            "D": "Hội dân cư không phải công ty phá dỡ nhà miễn phí."
           },
           "skill": "Reading",
           "explanationVi": "Đoạn 2 nêu: ngay sau thảm họa, lực lượng cứu hộ nhà nước (công trợ) chưa thể tới ngay mọi ngóc ngách, nên giai đoạn đầu phải nhờ người dân lân cận cứu nạn và điều phối đồ cứu trợ."
@@ -2474,7 +2479,7 @@
           "options": [
             {
               "id": "A",
-              "text": "役員の負担を軽減し行事を整理しつつ、現代に適した形で顔の見える関係を維持すること。"
+              "text": "すべての住民活動をインターネット上の仮想空間だけに限定し、対面での接触をなくすこと。"
             },
             {
               "id": "B",
@@ -2486,15 +2491,15 @@
             },
             {
               "id": "D",
-              "text": "すべての住民活動をインターネット上の仮想空間だけに限定し、対面での接触をなくすこと。"
+              "text": "役員の負担を軽減し行事を整理しつつ、現代に適した形で顔の見える関係を維持すること。"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "D",
           "explanation": "Đoạn cuối nhấn mạnh: không vứt bỏ hội dân cư mà cần cải tiến, tinh gọn sự kiện, số hóa công việc quản lý để giảm gánh nặng mà vẫn giữ được mối quan hệ quen biết xóm giềng.",
           "distractorExplanations": {
+            "A": "Vẫn cần giữ mối quan hệ 'biết mặt nhau' thực tế.",
             "B": "Tác giả chỉ ra một mình nhà nước không thể bao quát hết.",
-            "C": "Không bảo thủ áp đặt phạt vạ.",
-            "D": "Vẫn cần giữ mối quan hệ 'biết mặt nhau' thực tế."
+            "C": "Không bảo thủ áp đặt phạt vạ."
           },
           "skill": "Reading",
           "explanationVi": "Đoạn cuối nhấn mạnh: không vứt bỏ hội dân cư mà cần cải tiến, tinh gọn sự kiện, số hóa công việc quản lý để giảm gánh nặng mà vẫn giữ được mối quan hệ quen biết xóm giềng."
@@ -2516,19 +2521,19 @@
             },
             {
               "id": "C",
-              "text": "6,750円"
+              "text": "10,500円"
             },
             {
               "id": "D",
-              "text": "10,500円"
+              "text": "6,750円"
             }
           ],
           "correctAnswer": "B",
           "explanation": "Đoàn thể thiện nguyện trong thành phố (không phụ thu), 30 người nên chọn Phòng họp số 2 (sức chứa 40 người). Đơn giá 1,500 yên/giờ x 3 giờ = 4,500 yên.",
           "distractorExplanations": {
             "A": "2,400 yên là giá của Phòng họp số 1 (sức chứa chỉ 20 người, không đủ cho 30 người).",
-            "C": "6,750 yên là giá bị tính 1.5 lần ngoại thành/thương mại.",
-            "D": "10,500 yên là giá của Hội trường đa năng (3,500 yên x 3)."
+            "C": "10,500 yên là giá của Hội trường đa năng (3,500 yên x 3).",
+            "D": "6,750 yên là giá bị tính 1.5 lần ngoại thành/thương mại."
           },
           "skill": "Reading",
           "explanationVi": "Đoàn thể thiện nguyện trong thành phố (không phụ thu), 30 người nên chọn Phòng họp số 2 (sức chứa 40 người). Đơn giá 1,500 yên/giờ x 3 giờ = 4,500 yên."
@@ -2542,27 +2547,27 @@
           "options": [
             {
               "id": "A",
-              "text": "台風によりセンターが閉館した場合でも、当日キャンセルは一切返金されない。"
+              "text": "利用日の10日前にキャンセルした場合、手数料として半額が差し引かれる。"
             },
             {
               "id": "B",
-              "text": "利用日の前日にキャンセルしても、理由を問わず全額が返金される。"
+              "text": "台風によりセンターが閉館した場合でも、当日キャンセルは一切返金されない。"
             },
             {
               "id": "C",
-              "text": "利用日の5日前にキャンセルした場合、納付済み料金の50％が返金される。"
+              "text": "利用日の前日にキャンセルしても、理由を問わず全額が返金される。"
             },
             {
               "id": "D",
-              "text": "利用日の10日前にキャンセルした場合、手数料として半額が差し引かれる。"
+              "text": "利用日の5日前にキャンセルした場合、納付済み料金の50％が返金される。"
             }
           ],
-          "correctAnswer": "C",
+          "correctAnswer": "D",
           "explanation": "Quy định nêu: hủy từ 7 ngày đến 2 ngày trước ngày sử dụng thì được hoàn lại 50% tiền (5 ngày trước rơi vào khung này).",
           "distractorExplanations": {
-            "A": "Nếu bão khiến trung tâm phải đóng cửa thì được hoàn 100% bất kể thời điểm.",
-            "B": "Hủy ngày hôm trước hoặc trong ngày thì không được hoàn tiền (0%).",
-            "D": "Hủy từ 8 ngày trở về trước được hoàn lại 100%."
+            "A": "Hủy từ 8 ngày trở về trước được hoàn lại 100%.",
+            "B": "Nếu bão khiến trung tâm phải đóng cửa thì được hoàn 100% bất kể thời điểm.",
+            "C": "Hủy ngày hôm trước hoặc trong ngày thì không được hoàn tiền (0%)."
           },
           "skill": "Reading",
           "explanationVi": "Quy định nêu: hủy từ 7 ngày đến 2 ngày trước ngày sử dụng thì được hoàn lại 50% tiền (5 ngày trước rơi vào khung này)."
@@ -2594,19 +2599,19 @@
             },
             {
               "id": "C",
-              "text": "窓口の端末にマイナンバーカードの暗証番号を入力する。"
+              "text": "転出証明書の紙の原本を窓口で受け取る。"
             },
             {
               "id": "D",
-              "text": "転出証明書の紙の原本を窓口で受け取る。"
+              "text": "窓口の端末にマイナンバーカードの暗証番号を入力する。"
             }
           ],
           "correctAnswer": "A",
           "explanation": "Nữ nhân viên hướng dẫn: trước tiên cần lấy tờ khai số 3 tại bàn hướng dẫn và điền địa chỉ mới cùng ngày chuyển đi ('申請用紙に新住所と転出予定日をご記入いただく必要があります'). Nam công dân xác nhận sẽ đi viết đơn trước ('まず用紙に書いてきます').",
           "distractorExplanations": {
             "B": "Lấy số thứ tự sau khi đã điền xong đơn.",
-            "C": "Nhập mã PIN khi đến lượt gọi số tại quầy.",
-            "D": "Người có thẻ My Number chuyển đi theo dạng đặc thù không cần phát hành giấy chứng nhận chuyển đi bằng giấy."
+            "C": "Người có thẻ My Number chuyển đi theo dạng đặc thù không cần phát hành giấy chứng nhận chuyển đi bằng giấy.",
+            "D": "Nhập mã PIN khi đến lượt gọi số tại quầy."
           },
           "skill": "Listening",
           "explanationVi": "Nữ nhân viên hướng dẫn: trước tiên cần lấy tờ khai số 3 tại bàn hướng dẫn và điền địa chỉ mới cùng ngày chuyển đi ('申請用紙に新住所と転出予定日をご記入いただく必要があります'). Nam công dân xác nhận sẽ đi viết đơn trước ('まず用紙に書いてきます').",
@@ -2637,19 +2642,19 @@
             },
             {
               "id": "C",
-              "text": "座談会記事に記載された開催日時を修正する。"
+              "text": "裏表紙の社内報の印刷部数の数値を変更する。"
             },
             {
               "id": "D",
-              "text": "裏表紙の社内報の印刷部数の数値を変更する。"
+              "text": "座談会記事に記載された開催日時を修正する。"
             }
           ],
           "correctAnswer": "B",
           "explanation": "Trưởng phòng chỉ ra lỗi duy nhất cần sửa: chức vụ của anh Suzuki bài trang 3 bị ghi là 'Phó phòng', trong khi tháng trước đã thăng chức lên 'Trưởng phòng' ('役職名が課長代理になっているよ...課長になっているから直しておいて').",
           "distractorExplanations": {
             "A": "Bố cục ảnh và trình bày được khen đẹp, không cần đổi.",
-            "C": "Ngày giờ tọa đàm đã được duyệt, giữ nguyên.",
-            "D": "Số lượng in đã xác nhận chuẩn với nhà in."
+            "C": "Số lượng in đã xác nhận chuẩn với nhà in.",
+            "D": "Ngày giờ tọa đàm đã được duyệt, giữ nguyên."
           },
           "skill": "Listening",
           "explanationVi": "Trưởng phòng chỉ ra lỗi duy nhất cần sửa: chức vụ của anh Suzuki bài trang 3 bị ghi là 'Phó phòng', trong khi tháng trước đã thăng chức lên 'Trưởng phòng' ('役職名が課長代理になっているよ...課長になっているから直しておいて').",
@@ -2672,27 +2677,27 @@
           "options": [
             {
               "id": "A",
-              "text": "集会所のマイク設備と机の配置を点検する。"
+              "text": "全120戸分の議案書を印刷機で印刷する。"
             },
             {
               "id": "B",
-              "text": "全住戸の郵便受けに議案書の封筒を投函する。"
-            },
-            {
-              "id": "C",
               "text": "議案書に同封する案内状の日付と曜日を確認する。"
             },
             {
+              "id": "C",
+              "text": "集会所のマイク設備と机の配置を点検する。"
+            },
+            {
               "id": "D",
-              "text": "全120戸分の議案書を印刷機で印刷する。"
+              "text": "全住戸の郵便受けに議案書の封筒を投函する。"
             }
           ],
-          "correctAnswer": "C",
+          "correctAnswer": "B",
           "explanation": "Bà chủ tịch yêu cầu kiểm tra kỹ lại ngày tháng và thứ trong giấy hẹn trước khi phát đơn vào hòm thư ('投函する前に、案内状の出欠返信締切日の日付に誤記がないか、もう一度だけ確認してほしいの'). Nam cán bộ xác nhận sẽ đối chiếu ngay lập tức.",
           "distractorExplanations": {
-            "A": "Kiểm tra loa đài hội trường để thứ Bảy trước ngày họp làm sau.",
-            "B": "Phát vào hòm thư chỉ làm sau khi đã kiểm tra xong ngày tháng.",
-            "D": "Việc in 120 bộ đã hoàn tất từ trước."
+            "A": "Việc in 120 bộ đã hoàn tất từ trước.",
+            "C": "Kiểm tra loa đài hội trường để thứ Bảy trước ngày họp làm sau.",
+            "D": "Phát vào hòm thư chỉ làm sau khi đã kiểm tra xong ngày tháng."
           },
           "skill": "Listening",
           "explanationVi": "Bà chủ tịch yêu cầu kiểm tra kỹ lại ngày tháng và thứ trong giấy hẹn trước khi phát đơn vào hòm thư ('投函する前に、案内状の出欠返信締切日の日付に誤記がないか、もう一度だけ確認してほしいの'). Nam cán bộ xác nhận sẽ đối chiếu ngay lập tức.",
@@ -2715,11 +2720,11 @@
           "options": [
             {
               "id": "A",
-              "text": "販売店への正式な注文書と支払請求書。"
+              "text": "ネット通販で購入した商品の領収書。"
             },
             {
               "id": "B",
-              "text": "ネット通販で購入した商品の領収書。"
+              "text": "販売店への正式な注文書と支払請求書。"
             },
             {
               "id": "C",
@@ -2733,8 +2738,8 @@
           "correctAnswer": "D",
           "explanation": "Nữ tiền bối giải thích quy định công ty: thiết bị trên 5 vạn yên phải nộp giấy trình duyệt mua trước (事前購入伺い書) kèm báo giá (見積書) lên trưởng phòng ('事前伺い書を作成して、見積書を添付して部長へ決裁申請を上げてちょうだい').",
           "distractorExplanations": {
-            "A": "Chưa được đặt hàng khi chưa duyệt dự toán.",
-            "B": "Hóa đơn thanh toán sau chỉ áp dụng cho đồ dưới 5 vạn yên.",
+            "A": "Hóa đơn thanh toán sau chỉ áp dụng cho đồ dưới 5 vạn yên.",
+            "B": "Chưa được đặt hàng khi chưa duyệt dự toán.",
             "C": "Không có yêu cầu nộp đơn thanh lý thiết bị cũ."
           },
           "skill": "Listening",
@@ -2758,27 +2763,27 @@
           "options": [
             {
               "id": "A",
-              "text": "第1避難所となっている小学校の体育館。"
+              "text": "本部が設置されている地域センターの救護室。"
             },
             {
               "id": "B",
-              "text": "初期消火体験を行う中央広場のコーナー。"
-            },
-            {
-              "id": "C",
               "text": "訓練機材を保管している消防署の車庫。"
             },
             {
+              "id": "C",
+              "text": "第1避難所となっている小学校の体育館。"
+            },
+            {
               "id": "D",
-              "text": "本部が設置されている地域センターの救護室。"
+              "text": "初期消火体験を行う中央広場のコーナー。"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "C",
           "explanation": "Trưởng ban điều động nhân sự khẩn cấp: điểm lánh nạn trường tiểu học bị thiếu người tiếp đón và hướng dẫn người già do có người ốm đột xuất, nên yêu cầu nữ nhân viên sang đó tiếp viện ngay ('今すぐ小学校の体育館へ行って、受付誘導の応援に入ってくれないか').",
           "distractorExplanations": {
-            "B": "Khu dập lửa quảng trường trung tâm đã có lính cứu hỏa tiếp viện.",
-            "C": "Không phải đi gara trạm cứu hỏa.",
-            "D": "Không đến phòng cứu trợ."
+            "A": "Không đến phòng cứu trợ.",
+            "B": "Không phải đi gara trạm cứu hỏa.",
+            "D": "Khu dập lửa quảng trường trung tâm đã có lính cứu hỏa tiếp viện."
           },
           "skill": "Listening",
           "explanationVi": "Trưởng ban điều động nhân sự khẩn cấp: điểm lánh nạn trường tiểu học bị thiếu người tiếp đón và hướng dẫn người già do có người ốm đột xuất, nên yêu cầu nữ nhân viên sang đó tiếp viện ngay ('今すぐ小学校の体育館へ行って、受付誘導の応援に入ってくれないか').",
@@ -2801,7 +2806,7 @@
           "options": [
             {
               "id": "A",
-              "text": "バスの燃料費を削減し、運行コストを下げるため。"
+              "text": "バスの運転手の不足を解消するため。"
             },
             {
               "id": "B",
@@ -2813,15 +2818,15 @@
             },
             {
               "id": "D",
-              "text": "バスの運転手の不足を解消するため。"
+              "text": "バスの燃料費を削減し、運行コストを下げるため。"
             }
           ],
           "correctAnswer": "B",
           "explanation": "Nam nhân viên nêu rõ lý do quyết định: khảo sát ý kiến cho thấy người cao tuổi gặp khó khăn lớn về đi khám bệnh và đi chợ, nên tuyến xe được uốn qua bệnh viện và siêu thị ('高齢者の通院や日用品の買い物手段がなくて困っているという声が圧倒的に多かったからね').",
           "distractorExplanations": {
-            "A": "Tuyến đường vòng tốn xăng hơn, không phải để giảm chi phí nhiên liệu.",
+            "A": "Không phải để giải quyết thiếu lái xe.",
             "C": "Đã từ bỏ tuyến đường thẳng ngắn nhất.",
-            "D": "Không phải để giải quyết thiếu lái xe."
+            "D": "Tuyến đường vòng tốn xăng hơn, không phải để giảm chi phí nhiên liệu."
           },
           "skill": "Listening",
           "explanationVi": "Nam nhân viên nêu rõ lý do quyết định: khảo sát ý kiến cho thấy người cao tuổi gặp khó khăn lớn về đi khám bệnh và đi chợ, nên tuyến xe được uốn qua bệnh viện và siêu thị ('高齢者の通院や日用品の買い物手段がなくて困っているという声が圧倒的に多かったからね').",
@@ -2844,27 +2849,27 @@
           "options": [
             {
               "id": "A",
-              "text": "在宅勤務中のパソコン画面を常にカメラで録画すること。"
+              "text": "終業後に上司と30分間の反省面談を毎日行うこと。"
             },
             {
               "id": "B",
-              "text": "毎朝8時までに全社員宛てに業務計画メールを送ること。"
+              "text": "在宅勤務中のパソコン画面を常にカメラで録画すること。"
             },
             {
               "id": "C",
-              "text": "15分以上席を離れる際のステータス変更と中抜け登録。"
+              "text": "毎朝8時までに全社員宛てに業務計画メールを送ること。"
             },
             {
               "id": "D",
-              "text": "終業後に上司と30分間の反省面談を毎日行うこと。"
+              "text": "15分以上席を離れる際のステータス変更と中抜け登録。"
             }
           ],
-          "correctAnswer": "C",
+          "correctAnswer": "D",
           "explanation": "Nhân viên nhân sự nhấn mạnh điều đặc biệt cần chú ý: khi rời khỏi bàn máy tính từ 15 phút trở lên vì việc riêng thì bắt buộc đổi trạng thái sang 'vắng mặt' và đăng ký thời gian rời bàn ('15分以上パソコンを離れる場合は、必ずチャットツールのステータスを離席にし、事後にシステムへ中抜け時間を登録してください').",
           "distractorExplanations": {
-            "A": "Không có yêu cầu quay video màn hình liên tục.",
-            "B": "Không yêu cầu gửi email cho toàn thể công ty lúc 8h sáng.",
-            "D": "Không họp kiểm điểm 30 phút mỗi ngày."
+            "A": "Không họp kiểm điểm 30 phút mỗi ngày.",
+            "B": "Không có yêu cầu quay video màn hình liên tục.",
+            "C": "Không yêu cầu gửi email cho toàn thể công ty lúc 8h sáng."
           },
           "skill": "Listening",
           "explanationVi": "Nhân viên nhân sự nhấn mạnh điều đặc biệt cần chú ý: khi rời khỏi bàn máy tính từ 15 phút trở lên vì việc riêng thì bắt buộc đổi trạng thái sang 'vắng mặt' và đăng ký thời gian rời bàn ('15分以上パソコンを離れる場合は、必ずチャットツールのステータスを離席にし、事後にシステムへ中抜け時間を登録してください').",
@@ -2891,23 +2896,23 @@
             },
             {
               "id": "B",
-              "text": "利用申請の締め切り期日を過ぎて申し込んだため。"
+              "text": "受講料を徴収する営利目的の利用に該当したため。"
             },
             {
               "id": "C",
-              "text": "ギターの演奏音が騒音基準を超えていたため。"
+              "text": "利用申請の締め切り期日を過ぎて申し込んだため。"
             },
             {
               "id": "D",
-              "text": "受講料を徴収する営利目的の利用に該当したため。"
+              "text": "ギターの演奏音が騒音基準を超えていたため。"
             }
           ],
-          "correctAnswer": "D",
+          "correctAnswer": "B",
           "explanation": "Nhân viên nhà văn hóa giải thích: cơ sở công cộng phi lợi nhuận cấm các lớp dạy có thu học phí mang tính thương mại/lợi nhuận cá nhân ('営利を目的とした私塾や個人レッスンの事業にはご利用いただけない規定となっております').",
           "distractorExplanations": {
             "A": "Không phải do quá số lượng người.",
-            "B": "Đơn nộp đúng hạn, không quá hạn.",
-            "C": "Chưa xét đến tiêu chuẩn âm thanh."
+            "C": "Đơn nộp đúng hạn, không quá hạn.",
+            "D": "Chưa xét đến tiêu chuẩn âm thanh."
           },
           "skill": "Listening",
           "explanationVi": "Nhân viên nhà văn hóa giải thích: cơ sở công cộng phi lợi nhuận cấm các lớp dạy có thu học phí mang tính thương mại/lợi nhuận cá nhân ('営利を目的とした私塾や個人レッスンの事業にはご利用いただけない規定となっております').",
@@ -2930,27 +2935,27 @@
           "options": [
             {
               "id": "A",
-              "text": "原因を詰問せず、再発防止の行動を自ら考えさせる問いかけ。"
-            },
-            {
-              "id": "B",
               "text": "部下の小さなミスも見逃さずにその場で厳しく叱責すること。"
             },
             {
-              "id": "C",
+              "id": "B",
               "text": "すべての業務指示を詳細なマニュアルにして配布すること。"
             },
             {
-              "id": "D",
+              "id": "C",
               "text": "目標達成度に応じて部下の給与や賞与を厳密に差別化すること。"
+            },
+            {
+              "id": "D",
+              "text": "原因を詰問せず、再発防止の行動を自ら考えさせる問いかけ。"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "D",
           "explanation": "Nam quản lý chia sẻ điều tâm đắc nhất: không truy vấn lý do thất bại trong quá khứ mà hỏi hướng tới tương lai để cấp dưới tự phát hiện giải pháp khắc phục ('部下の自発的な課題発見を促す問いかけ方...次にどうすれば防げると思うかと未来の行動へ意識を向けさせる').",
           "distractorExplanations": {
-            "B": "Quát mắng ngay tại chỗ là điều tác giả khuyên nên tránh.",
-            "C": "Không nói về việc phát cẩm nang chi tiết.",
-            "D": "Không nói về phân hóa thưởng phạt."
+            "A": "Quát mắng ngay tại chỗ là điều tác giả khuyên nên tránh.",
+            "B": "Không nói về việc phát cẩm nang chi tiết.",
+            "C": "Không nói về phân hóa thưởng phạt."
           },
           "skill": "Listening",
           "explanationVi": "Nam quản lý chia sẻ điều tâm đắc nhất: không truy vấn lý do thất bại trong quá khứ mà hỏi hướng tới tương lai để cấp dưới tự phát hiện giải pháp khắc phục ('部下の自発的な課題発見を促す問いかけ方...次にどうすれば防げると思うかと未来の行動へ意識を向けさせる').",
@@ -2973,27 +2978,27 @@
           "options": [
             {
               "id": "A",
-              "text": "ステーション周辺に監視カメラを24時間設置したこと。"
-            },
-            {
-              "id": "B",
               "text": "ゴミ袋を完全に密閉できる折りたたみ式メッシュボックスの配備。"
             },
             {
+              "id": "B",
+              "text": "ゴミの収集時間を朝から夕方へ変更したこと。"
+            },
+            {
               "id": "C",
-              "text": "夜間にカラスを追い払う強力なライトを導入したこと。"
+              "text": "ステーション周辺に監視カメラを24時間設置したこと。"
             },
             {
               "id": "D",
-              "text": "ゴミの収集時間を朝から夕方へ変更したこと。"
+              "text": "夜間にカラスを追い払う強力なライトを導入したこと。"
             }
           ],
-          "correctAnswer": "B",
+          "correctAnswer": "A",
           "explanation": "Báo cáo chỉ rõ biện pháp mới đem lại hiệu quả cao là lồng lưới kim loại dạng gập có thể bao bọc kín rác thải ('折りたたみ式の大型メッシュボックスを試験配備いたしました...ゴミ袋を完全に密閉して四方を囲む構造のため、カラスの被害が劇的に減少しました').",
           "distractorExplanations": {
-            "A": "Không gắn camera giám sát.",
-            "C": "Không dùng đèn đuổi ban đêm.",
-            "D": "Không đổi giờ thu gom rác."
+            "B": "Không đổi giờ thu gom rác.",
+            "C": "Không gắn camera giám sát.",
+            "D": "Không dùng đèn đuổi ban đêm."
           },
           "skill": "Listening",
           "explanationVi": "Báo cáo chỉ rõ biện pháp mới đem lại hiệu quả cao là lồng lưới kim loại dạng gập có thể bao bọc kín rác thải ('折りたたみ式の大型メッシュボックスを試験配備いたしました...ゴミ袋を完全に密閉して四方を囲む構造のため、カラスの被害が劇的に減少しました').",
@@ -3016,27 +3021,27 @@
           "options": [
             {
               "id": "A",
-              "text": "ボランティア参加者全員に日当が支給されるようになったこと。"
-            },
-            {
-              "id": "B",
               "text": "中学生や小学生の参加も認められるようになったこと。"
             },
             {
+              "id": "B",
+              "text": "給水所の作業が廃止され、走路誘導のみの募集になったこと。"
+            },
+            {
               "id": "C",
-              "text": "市外に住んでいる人でもボランティアに応募できるようになったこと。"
+              "text": "ボランティア参加者全員に日当が支給されるようになったこと。"
             },
             {
               "id": "D",
-              "text": "給水所の作業が廃止され、走路誘導のみの募集になったこと。"
+              "text": "市外に住んでいる人でもボランティアに応募できるようになったこと。"
             }
           ],
-          "correctAnswer": "C",
+          "correctAnswer": "D",
           "explanation": "Ban tổ chức nêu rõ điểm mới của năm nay: trước đây chỉ nhận người sống/làm việc trong thành phố, nay mở rộng tiếp nhận cả người sống ngoài thành phố ('今年度より市外在住の方のエントリーも広く受け付けることといたしました').",
           "distractorExplanations": {
-            "A": "Là hoạt động tình nguyện không nhận thù lao ngày.",
-            "B": "Vẫn giữ độ tuổi từ học sinh cấp 3 trở lên, không nhận học sinh cấp 1, 2.",
-            "D": "Vẫn có các nhiệm vụ phân phát nước uống bình thường."
+            "A": "Vẫn giữ độ tuổi từ học sinh cấp 3 trở lên, không nhận học sinh cấp 1, 2.",
+            "B": "Vẫn có các nhiệm vụ phân phát nước uống bình thường.",
+            "C": "Là hoạt động tình nguyện không nhận thù lao ngày."
           },
           "skill": "Listening",
           "explanationVi": "Ban tổ chức nêu rõ điểm mới của năm nay: trước đây chỉ nhận người sống/làm việc trong thành phố, nay mở rộng tiếp nhận cả người sống ngoài thành phố ('今年度より市外在住の方のエントリーも広く受け付けることといたしました').",
@@ -3059,33 +3064,33 @@
           "options": [
             {
               "id": "A",
-              "text": "市内で開催される親子向けイベントの開催案内。"
+              "text": "子育て関連の行政手続きが一箇所でできるようになったこと。"
             },
             {
               "id": "B",
-              "text": "保育園の保育料が全額免除される新しい制度。"
+              "text": "市内で開催される親子向けイベントの開催案内。"
             },
             {
               "id": "C",
-              "text": "市役所本庁舎の耐震改修工事のスケジュール。"
+              "text": "保育園の保育料が全額免除される新しい制度。"
             },
             {
               "id": "D",
-              "text": "子育て関連の行政手続きが一箇所でできるようになったこと。"
+              "text": "市役所本庁舎の耐震改修工事のスケジュール。"
             }
           ],
-          "correctAnswer": "D",
+          "correctAnswer": "A",
           "explanation": "Nhân viên thị xã giới thiệu quầy một cửa mới: gộp toàn bộ các thủ tục con cái vốn phải đi nhiều tầng trước đây lại thành một quầy tổng hợp duy nhất tại tầng 1 ('これらすべての相談や申請を一括して専任スタッフが承ります').",
           "distractorExplanations": {
-            "A": "Không phải thông báo sự kiện vui chơi.",
-            "B": "Không nói miễn học phí nhà trẻ.",
-            "C": "Không phải công trình sửa chữa trụ sở chống động đất."
+            "B": "Không phải thông báo sự kiện vui chơi.",
+            "C": "Không nói miễn học phí nhà trẻ.",
+            "D": "Không phải công trình sửa chữa trụ sở chống động đất."
           },
           "skill": "Listening",
           "explanationVi": "Nhân viên thị xã giới thiệu quầy một cửa mới: gộp toàn bộ các thủ tục con cái vốn phải đi nhiều tầng trước đây lại thành một quầy tổng hợp duy nhất tại tầng 1 ('これらすべての相談や申請を一括して専任スタッフが承ります').",
           "audioUrl": "audio/n2_mock_07/N2_07_M3_L01.mp3",
-          "audioDurationSec": 83.98,
-          "audioSha256": "2984be7b89da499fdb968e4a9b5a3b686a4313accf726437e8b9b0cb6bf49e4c",
+          "audioDurationSec": 83.884,
+          "audioSha256": "392c5e8a2ffae4cff80abeb3c84e9e81b50aa18190350a3aca014128bd8309bc",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
@@ -3102,33 +3107,33 @@
           "options": [
             {
               "id": "A",
-              "text": "法令遵守の徹底と不正を許さない誠実な企業風土の重要性。"
+              "text": "社内ホットラインの電話番号変更の案内。"
             },
             {
               "id": "B",
-              "text": "売上目標を達成するための営業戦略。"
-            },
-            {
-              "id": "C",
               "text": "新入社員の基本マナーと挨拶の徹底。"
             },
             {
+              "id": "C",
+              "text": "法令遵守の徹底と不正を許さない誠実な企業風土の重要性。"
+            },
+            {
               "id": "D",
-              "text": "社内ホットラインの電話番号変更の案内。"
+              "text": "売上目標を達成するための営業戦略。"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "C",
           "explanation": "Tổng giám đốc nhấn mạnh trọng tâm cốt lõi: tuân thủ pháp luật, giữ gìn đạo đức doanh nghiệp, không bao che sai phạm và xây dựng văn hóa công ty minh bạch ('法令遵守と高い倫理観...透明で誠実な組織風土を築くことが、持続的な成長の土台です').",
           "distractorExplanations": {
-            "B": "Doanh số đã đạt rồi, điều muốn nhấn mạnh là đạo đức tuân thủ pháp luật.",
-            "C": "Không nói về tác phong chào hỏi tân binh.",
-            "D": "Không phải thông báo đổi số điện thoại."
+            "A": "Không phải thông báo đổi số điện thoại.",
+            "B": "Không nói về tác phong chào hỏi tân binh.",
+            "D": "Doanh số đã đạt rồi, điều muốn nhấn mạnh là đạo đức tuân thủ pháp luật."
           },
           "skill": "Listening",
           "explanationVi": "Tổng giám đốc nhấn mạnh trọng tâm cốt lõi: tuân thủ pháp luật, giữ gìn đạo đức doanh nghiệp, không bao che sai phạm và xây dựng văn hóa công ty minh bạch ('法令遵守と高い倫理観...透明で誠実な組織風土を築くことが、持続的な成長の土台です').",
           "audioUrl": "audio/n2_mock_07/N2_07_M3_L02.mp3",
-          "audioDurationSec": 86.164,
-          "audioSha256": "ec5143c8344a376837b725b275699faeb68ff5abf819ebc6d355b063f1db01b2",
+          "audioDurationSec": 85.972,
+          "audioSha256": "bb35bd54c386cd6f90075d7f51760ee0592fd522af7483a97b4bbbbe4c1ac3f9",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
@@ -3145,7 +3150,7 @@
           "options": [
             {
               "id": "A",
-              "text": "非常用の食料や飲料水を1週間分備蓄すること。"
+              "text": "避難訓練に地域住民全員が必ず参加すること。"
             },
             {
               "id": "B",
@@ -3153,25 +3158,25 @@
             },
             {
               "id": "C",
-              "text": "避難訓練に地域住民全員が必ず参加すること。"
+              "text": "地震保険に加入して住宅の損害に備えること。"
             },
             {
               "id": "D",
-              "text": "地震保険に加入して住宅の損害に備えること。"
+              "text": "非常用の食料や飲料水を1週間分備蓄すること。"
             }
           ],
           "correctAnswer": "B",
           "explanation": "Chuyên gia phòng chống thiên tai nêu rõ: nguyên nhân gây thương tích chiếm một nửa là đồ đạc đổ ngã, nên bước bảo vệ tính mạng đầu tiên và quan trọng nhất là chằng cố định bàn tủ, giá sách ('家具の固定こそが、命を守るための第一歩なのです').",
           "distractorExplanations": {
-            "A": "Tích trữ đồ ăn thức uống có ích nhưng không phải trọng tâm bài nói.",
-            "C": "Không nói về diễn tập cư dân.",
-            "D": "Không nói về bảo hiểm nhà đất."
+            "A": "Không nói về diễn tập cư dân.",
+            "C": "Không nói về bảo hiểm nhà đất.",
+            "D": "Tích trữ đồ ăn thức uống có ích nhưng không phải trọng tâm bài nói."
           },
           "skill": "Listening",
           "explanationVi": "Chuyên gia phòng chống thiên tai nêu rõ: nguyên nhân gây thương tích chiếm một nửa là đồ đạc đổ ngã, nên bước bảo vệ tính mạng đầu tiên và quan trọng nhất là chằng cố định bàn tủ, giá sách ('家具の固定こそが、命を守るための第一歩なのです').",
           "audioUrl": "audio/n2_mock_07/N2_07_M3_L03.mp3",
-          "audioDurationSec": 87.724,
-          "audioSha256": "e543840c62c978b73a63fc6d0d918fcffb141c3d4480aadd5c6fb226d5ec04f9",
+          "audioDurationSec": 87.7,
+          "audioSha256": "4620bc7f0615bdf3bd2c7ea8fdcc259234f369bb7bf96158794e471427f842ef",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
@@ -3188,11 +3193,11 @@
           "options": [
             {
               "id": "A",
-              "text": "カルチャーセンターの講座受講料の割引制度。"
+              "text": "定年退職後に再就職するための資格取得の方法。"
             },
             {
               "id": "B",
-              "text": "定年退職後に再就職するための資格取得の方法。"
+              "text": "パソコン講座のカリキュラムと操作方法。"
             },
             {
               "id": "C",
@@ -3200,21 +3205,21 @@
             },
             {
               "id": "D",
-              "text": "パソコン講座のカリキュラムと操作方法。"
+              "text": "カルチャーセンターの講座受講料の割引制度。"
             }
           ],
           "correctAnswer": "C",
           "explanation": "Viện trưởng trung tâm văn hóa truyền tải thông điệp: không dừng lại ở học sở thích cá nhân mà biến kiến thức đó thành hoạt động kết nối và cống hiến cho cộng đồng địa phương ('学ぶ喜びを他者とのつながりや社会貢献へと広げていく...そんな充実したセカンドライフ').",
           "distractorExplanations": {
-            "A": "Không nói về chính sách giảm học phí.",
-            "B": "Không nói về thi chứng chỉ để tái tuyển dụng kiếm tiền.",
-            "D": "Lớp máy tính chỉ là một ví dụ minh họa."
+            "A": "Không nói về thi chứng chỉ để tái tuyển dụng kiếm tiền.",
+            "B": "Lớp máy tính chỉ là một ví dụ minh họa.",
+            "D": "Không nói về chính sách giảm học phí."
           },
           "skill": "Listening",
           "explanationVi": "Viện trưởng trung tâm văn hóa truyền tải thông điệp: không dừng lại ở học sở thích cá nhân mà biến kiến thức đó thành hoạt động kết nối và cống hiến cho cộng đồng địa phương ('学ぶ喜びを他者とのつながりや社会貢献へと広げていく...そんな充実したセカンドライフ').",
           "audioUrl": "audio/n2_mock_07/N2_07_M3_L04.mp3",
-          "audioDurationSec": 83.62,
-          "audioSha256": "911f4ecdb2dd0d52f87f2850ba1bdac55b437b2923a6f6e9b28ee6754ad63573",
+          "audioDurationSec": 83.5,
+          "audioSha256": "cfa84e8fb364feffac1e963623bf5812fb90503bf0efca8b7c9e860d7999c8a5",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
@@ -3235,29 +3240,29 @@
             },
             {
               "id": "B",
-              "text": "市内の小児科医院の診療報酬と薬の価格。"
-            },
-            {
-              "id": "C",
               "text": "子育て世帯に対するガソリン代の補助金給付。"
             },
             {
-              "id": "D",
+              "id": "C",
               "text": "夜間や休日の子どもの救急医療を受け入れる体制。"
+            },
+            {
+              "id": "D",
+              "text": "市内の小児科医院の診療報酬と薬の価格。"
             }
           ],
-          "correctAnswer": "D",
+          "correctAnswer": "C",
           "explanation": "Nữ nghị sĩ chất vấn và yêu cầu nâng cấp hệ thống y tế cấp cứu ban đêm và ngày nghỉ cho trẻ nhỏ ('夜間および休日の小児初期救急医療体制について提言いたします...受け入れ体制を抜本的に拡充することを強く求めます').",
           "distractorExplanations": {
             "A": "Không phải công trình mở rộng đường sá.",
-            "B": "Không nói về giá thuốc hay thù lao bác sĩ.",
-            "C": "Việc lái xe sang thành phố bên là dẫn chứng cho sự bất tiện, không phải đòi trợ cấp xăng."
+            "B": "Việc lái xe sang thành phố bên là dẫn chứng cho sự bất tiện, không phải đòi trợ cấp xăng.",
+            "D": "Không nói về giá thuốc hay thù lao bác sĩ."
           },
           "skill": "Listening",
           "explanationVi": "Nữ nghị sĩ chất vấn và yêu cầu nâng cấp hệ thống y tế cấp cứu ban đêm và ngày nghỉ cho trẻ nhỏ ('夜間および休日の小児初期救急医療体制について提言いたします...受け入れ体制を抜本的に拡充することを強く求めます').",
           "audioUrl": "audio/n2_mock_07/N2_07_M3_L05.mp3",
-          "audioDurationSec": 86.5,
-          "audioSha256": "5181c8444292fbb495f60151a2764edfcf794adc3e4bb66874937115eedb45a8",
+          "audioDurationSec": 86.452,
+          "audioSha256": "50d1b6e46fe4323a4aa6a07de0846d5fe29b75908476fd97f457a184c22ed895",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
@@ -3274,7 +3279,7 @@
           "options": [
             {
               "id": "A",
-              "text": "ああ、先ほど目を通して印鑑を押しておいたから、机の上にあるよ。"
+              "text": "はい、私が企画書を白紙に戻すよう指示したはずです。"
             },
             {
               "id": "B",
@@ -3282,20 +3287,20 @@
             },
             {
               "id": "C",
-              "text": "はい、私が企画書を白紙に戻すよう指示したはずです。"
+              "text": "ああ、先ほど目を通して印鑑を押しておいたから、机の上にあるよ。"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "C",
           "explanation": "Nhân viên hỏi xin phê duyệt bản kế hoạch đã trình trước đó. Trưởng phòng đáp hợp lý: đã xem qua và đóng dấu duyệt rồi, để trên bàn ('目を通して印鑑を押しておいたから、机の上にあるよ').",
           "distractorExplanations": {
-            "B": "Lạc đề; nhân viên đang xin duyệt bản đã nộp, không phải bảo đi làm bản mới.",
-            "C": "Vô lý và bất lịch sự."
+            "A": "Vô lý và bất lịch sự.",
+            "B": "Lạc đề; nhân viên đang xin duyệt bản đã nộp, không phải bảo đi làm bản mới."
           },
           "skill": "Listening",
           "explanationVi": "Nhân viên hỏi xin phê duyệt bản kế hoạch đã trình trước đó. Trưởng phòng đáp hợp lý: đã xem qua và đóng dấu duyệt rồi, để trên bàn ('目を通して印鑑を押しておいたから、机の上にあるよ').",
           "audioUrl": "audio/n2_mock_07/N2_07_M4_L01.mp3",
           "audioDurationSec": 33.1,
-          "audioSha256": "5378b2259efa84549850289a4c41bd7b48ba1c17e3f8acc8d9d58d683454e104",
+          "audioSha256": "2fd4478279cd6fb9814650ca545154637c67814bca29790bfc576ed4ac1f17c7",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
@@ -3312,28 +3317,28 @@
           "options": [
             {
               "id": "A",
-              "text": "ええ、資料はすべて破棄してしまったので間に合いません。"
-            },
-            {
-              "id": "B",
               "text": "そうですね、来場者が予想より増えるかもしれませんから、刷っておきます。"
             },
             {
-              "id": "C",
+              "id": "B",
               "text": "いいえ、説明会は昨日無事に終了いたしましたよ。"
+            },
+            {
+              "id": "C",
+              "text": "ええ、資料はすべて破棄してしまったので間に合いません。"
             }
           ],
-          "correctAnswer": "B",
+          "correctAnswer": "A",
           "explanation": "Đồng nghiệp khuyên nên in dôi ra vài bộ tài liệu cho an tâm (念のためもう一部多めに...). Câu đáp tán đồng chuẩn mực: 'Đúng vậy anh ạ, phòng khi người đến đông hơn dự kiến nên em sẽ in thêm' ('刷っておきます').",
           "distractorExplanations": {
-            "A": "Phi lý; tự nhiên lại vứt hết tài liệu.",
-            "C": "Buổi giải trình diễn ra vào ngày mai, không thể nói đã kết thúc hôm qua."
+            "B": "Buổi giải trình diễn ra vào ngày mai, không thể nói đã kết thúc hôm qua.",
+            "C": "Phi lý; tự nhiên lại vứt hết tài liệu."
           },
           "skill": "Listening",
           "explanationVi": "Đồng nghiệp khuyên nên in dôi ra vài bộ tài liệu cho an tâm (念のためもう一部多めに...). Câu đáp tán đồng chuẩn mực: 'Đúng vậy anh ạ, phòng khi người đến đông hơn dự kiến nên em sẽ in thêm' ('刷っておきます').",
           "audioUrl": "audio/n2_mock_07/N2_07_M4_L02.mp3",
           "audioDurationSec": 34.156,
-          "audioSha256": "bfc954a2f533783c015316159d3835ebb4cf4c754d0e5c473fb1ddc1bd9d6a33",
+          "audioSha256": "20fdb73cbb01c253b93ae9c27c16d205bd596702b8c0a21c541727ce4894f85a",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
@@ -3350,28 +3355,28 @@
           "options": [
             {
               "id": "A",
-              "text": "ええ、最初から謝罪の言葉など聞きたくありませんでした。"
+              "text": "どうぞお気になさらないでください。迅速に修正対応していただいたので問題ありませんよ。"
             },
             {
               "id": "B",
-              "text": "はい、これからはもっと言葉遣いを丁寧に勉強してください。"
+              "text": "ええ、最初から謝罪の言葉など聞きたくありませんでした。"
             },
             {
               "id": "C",
-              "text": "どうぞお気になさらないでください。迅速に修正対応していただいたので問題ありませんよ。"
+              "text": "はい、これからはもっと言葉遣いを丁寧に勉強してください。"
             }
           ],
-          "correctAnswer": "C",
+          "correctAnswer": "A",
           "explanation": "Lời xin lỗi hết sức trang trọng vì sơ suất công việc: 何とお詫び申し上げればよいか、言葉もございません. Đáp lại một cách hòa nhã và chuyên nghiệp: 'Xin anh/chị đừng bận tâm, bên anh/chị đã sửa sai rất nhanh chóng nên không sao đâu ạ'.",
           "distractorExplanations": {
-            "A": "Quá thô lỗ và phi lý trong giao tiếp công sở.",
-            "B": "Hiểu nhầm 'không còn lời nào để tạ lỗi' thành 'học lại cách dùng từ'."
+            "B": "Quá thô lỗ và phi lý trong giao tiếp công sở.",
+            "C": "Hiểu nhầm 'không còn lời nào để tạ lỗi' thành 'học lại cách dùng từ'."
           },
           "skill": "Listening",
           "explanationVi": "Lời xin lỗi hết sức trang trọng vì sơ suất công việc: 何とお詫び申し上げればよいか、言葉もございません. Đáp lại một cách hòa nhã và chuyên nghiệp: 'Xin anh/chị đừng bận tâm, bên anh/chị đã sửa sai rất nhanh chóng nên không sao đâu ạ'.",
           "audioUrl": "audio/n2_mock_07/N2_07_M4_L03.mp3",
-          "audioDurationSec": 36.052,
-          "audioSha256": "f081e0cc61cdfaf1c9a961d5f242f4434400c94d1837f1c7af513d41bd001154",
+          "audioDurationSec": 35.932,
+          "audioSha256": "bd1ccfe1b60f93c1139a1b6114e4d1ecbb8439b723cfae975637d67b0aa89118",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
@@ -3388,7 +3393,7 @@
           "options": [
             {
               "id": "A",
-              "text": "先ほどテストを済ませましたが、音声も映像も非常にクリアでしたよ。"
+              "text": "はい、午後からの協議は先週のうちに終わりました。"
             },
             {
               "id": "B",
@@ -3396,20 +3401,20 @@
             },
             {
               "id": "C",
-              "text": "はい、午後からの協議は先週のうちに終わりました。"
+              "text": "先ほどテストを済ませましたが、音声も映像も非常にクリアでしたよ。"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "C",
           "explanation": "Hỏi thăm kết quả chạy thử đường truyền họp online buổi chiều. Câu trả lời chính xác: vừa thử xong, cả hình lẫn tiếng đều rất rõ nét ('音声も映像も非常にクリアでしたよ').",
           "distractorExplanations": {
-            "B": "Tự nhiên nói tháng sau cắt mạng.",
-            "C": "Cuộc họp diễn ra chiều nay, không thể nói đã xong từ tuần trước."
+            "A": "Cuộc họp diễn ra chiều nay, không thể nói đã xong từ tuần trước.",
+            "B": "Tự nhiên nói tháng sau cắt mạng."
           },
           "skill": "Listening",
           "explanationVi": "Hỏi thăm kết quả chạy thử đường truyền họp online buổi chiều. Câu trả lời chính xác: vừa thử xong, cả hình lẫn tiếng đều rất rõ nét ('音声も映像も非常にクリアでしたよ').",
           "audioUrl": "audio/n2_mock_07/N2_07_M4_L04.mp3",
-          "audioDurationSec": 32.02,
-          "audioSha256": "63d8c12f1bbe3cc10a4fef16faaa967b403575234d03533b5b43b40f434fd564",
+          "audioDurationSec": 31.996,
+          "audioSha256": "e324d1a3bc4ac75959cd5750cfc303d3f092dfeb79426696c75a4058b12480ba",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
@@ -3426,7 +3431,7 @@
           "options": [
             {
               "id": "A",
-              "text": "ええ、台風が直撃してくれて本当に助かりましたね。"
+              "text": "うん、来週のお祭りの開催が待ち遠しいね。"
             },
             {
               "id": "B",
@@ -3434,20 +3439,20 @@
             },
             {
               "id": "C",
-              "text": "うん、来週のお祭りの開催が待ち遠しいね。"
+              "text": "ええ、台風が直撃してくれて本当に助かりましたね。"
             }
           ],
           "correctAnswer": "B",
           "explanation": "Mẫu biểu đạt tâm trạng N2: 〜やりきれない (thật buồn bực/không cam lòng). Đồng cảm với sự tiếc nuối: 'Thực sự vậy anh ạ, mọi người chuẩn bị từ mấy tuần trước mà đành chịu, ấm ức thật' ('悔しいよね').",
           "distractorExplanations": {
-            "A": "Nói bão vào giúp ích là vô lý.",
-            "C": "Lễ hội đã bị hủy bỏ do bão, không thể bảo đang ngóng chờ tuần sau."
+            "A": "Lễ hội đã bị hủy bỏ do bão, không thể bảo đang ngóng chờ tuần sau.",
+            "C": "Nói bão vào giúp ích là vô lý."
           },
           "skill": "Listening",
           "explanationVi": "Mẫu biểu đạt tâm trạng N2: 〜やりきれない (thật buồn bực/không cam lòng). Đồng cảm với sự tiếc nuối: 'Thực sự vậy anh ạ, mọi người chuẩn bị từ mấy tuần trước mà đành chịu, ấm ức thật' ('悔しいよね').",
           "audioUrl": "audio/n2_mock_07/N2_07_M4_L05.mp3",
-          "audioDurationSec": 33.34,
-          "audioSha256": "f1f1e6032405ee7ed8d3d2d11cefab4e5a6639e62ab6d7b48f2d6e313a1e4d9a",
+          "audioDurationSec": 33.412,
+          "audioSha256": "91939f229ff530374af63e70d33140fd7910921482ae588844ed9e9e19a2bb91",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
@@ -3468,24 +3473,24 @@
             },
             {
               "id": "B",
-              "text": "はい、書類は明日までにすべて処分しておいてください。"
+              "text": "ええ、ちょうど今手が空いたところですので、拝見しますね。"
             },
             {
               "id": "C",
-              "text": "ええ、ちょうど今手が空いたところですので、拝見しますね。"
+              "text": "はい、書類は明日までにすべて処分しておいてください。"
             }
           ],
-          "correctAnswer": "C",
+          "correctAnswer": "B",
           "explanation": "Nhờ cấp trên hoặc tiền bối xem qua hồ sơ: 目を通していただけないでしょうか. Câu đáp nhận lời lịch sự khiêm nhường: 'Vâng, vừa khéo tôi cũng vừa xong việc, để tôi xem cho nhé' ('拝見しますね').",
           "distractorExplanations": {
             "A": "Cách nói ngô nghê và sai ngữ dụng.",
-            "B": "Kêu vứt tài liệu đi là sai hoàn cảnh."
+            "C": "Kêu vứt tài liệu đi là sai hoàn cảnh."
           },
           "skill": "Listening",
           "explanationVi": "Nhờ cấp trên hoặc tiền bối xem qua hồ sơ: 目を通していただけないでしょうか. Câu đáp nhận lời lịch sự khiêm nhường: 'Vâng, vừa khéo tôi cũng vừa xong việc, để tôi xem cho nhé' ('拝見しますね').",
           "audioUrl": "audio/n2_mock_07/N2_07_M4_L06.mp3",
-          "audioDurationSec": 32.116,
-          "audioSha256": "b12a7c947f9c19f074b8d41721db3cf303d667b5186048ab0b12510a1fc0aa6c",
+          "audioDurationSec": 32.044,
+          "audioSha256": "bf05654b16a07ddf824fb82b5a31c052229b20973d257de87168bdf71d57e624",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
@@ -3502,28 +3507,28 @@
           "options": [
             {
               "id": "A",
-              "text": "申し訳ありません。議論が熱くなって、相手への配慮が足りませんでした。"
+              "text": "ええ、会議は明日から始まる予定なので気をつけます。"
             },
             {
               "id": "B",
-              "text": "はい、もっと厳しい言葉で相手を責め立てるべきでしたね。"
+              "text": "申し訳ありません。議論が熱くなって、相手への配慮が足りませんでした。"
             },
             {
               "id": "C",
-              "text": "ええ、会議は明日から始まる予定なので気をつけます。"
+              "text": "はい、もっと厳しい言葉で相手を責め立てるべきでしたね。"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "B",
           "explanation": "Lời nhắc nhở nhẹ nhàng của đồng nghiệp: 'Cậu nói với đối tác lúc nãy hơi quá lời chăng?'. Câu đáp nhận lỗi biết điều: 'Em xin lỗi, lúc đó tranh luận gay gắt quá nên em thiếu chu đáo với đối tác ạ'.",
           "distractorExplanations": {
-            "B": "Tiếp tục hung hăng chỉ trích đối tác là sai tác phong làm việc.",
-            "C": "Cuộc họp vừa diễn ra rồi chứ không phải ngày mai."
+            "A": "Cuộc họp vừa diễn ra rồi chứ không phải ngày mai.",
+            "C": "Tiếp tục hung hăng chỉ trích đối tác là sai tác phong làm việc."
           },
           "skill": "Listening",
           "explanationVi": "Lời nhắc nhở nhẹ nhàng của đồng nghiệp: 'Cậu nói với đối tác lúc nãy hơi quá lời chăng?'. Câu đáp nhận lỗi biết điều: 'Em xin lỗi, lúc đó tranh luận gay gắt quá nên em thiếu chu đáo với đối tác ạ'.",
           "audioUrl": "audio/n2_mock_07/N2_07_M4_L07.mp3",
-          "audioDurationSec": 33.748,
-          "audioSha256": "d5472a7253fe12fad9b280b72818b3229b2a59a72fc1458003543361e27ea7b5",
+          "audioDurationSec": 33.724,
+          "audioSha256": "09c490b2dce49bca9123b9d6eea2ac7ff3bb681e40233a332232f0207695cb7b",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
@@ -3540,28 +3545,28 @@
           "options": [
             {
               "id": "A",
-              "text": "はい、リーダーの席はすでに他の課長に決まりましたよ。"
-            },
-            {
-              "id": "B",
               "text": "私のような若手でよろしければ、ぜひ喜んで挑戦させてください。"
             },
             {
-              "id": "C",
+              "id": "B",
               "text": "いいえ、広報誌は今年度で廃刊になることが決まりました。"
+            },
+            {
+              "id": "C",
+              "text": "はい、リーダーの席はすでに他の課長に決まりましたよ。"
             }
           ],
-          "correctAnswer": "B",
+          "correctAnswer": "A",
           "explanation": "Lời mời nhận nhiệm vụ quan trọng: 〜気はありませんか. Câu đáp khiêm tốn chuẩn mực của người Nhật: 'Nếu một người trẻ như em mà được tin tưởng thì xin cho em cơ hội được thử sức ạ' ('ぜひ喜んで挑戦させてください').",
           "distractorExplanations": {
-            "A": "Người hỏi đang mở lời mời mình, không thể nói ghế đã chia cho người khác.",
-            "C": "Nói tạp chí bị đình bản là mâu thuẫn với việc đang cải tiến."
+            "B": "Nói tạp chí bị đình bản là mâu thuẫn với việc đang cải tiến.",
+            "C": "Người hỏi đang mở lời mời mình, không thể nói ghế đã chia cho người khác."
           },
           "skill": "Listening",
           "explanationVi": "Lời mời nhận nhiệm vụ quan trọng: 〜気はありませんか. Câu đáp khiêm tốn chuẩn mực của người Nhật: 'Nếu một người trẻ như em mà được tin tưởng thì xin cho em cơ hội được thử sức ạ' ('ぜひ喜んで挑戦させてください').",
           "audioUrl": "audio/n2_mock_07/N2_07_M4_L08.mp3",
-          "audioDurationSec": 32.02,
-          "audioSha256": "e90e87c6d3c43599bf2cdf2465ee1c69bbc8ee40f9defe73397bbb19ee1f8c04",
+          "audioDurationSec": 32.044,
+          "audioSha256": "4af2cbd8add9ad2e648f5336a43dae2e248a5ed267a587aea0f176faff708db6",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
@@ -3578,28 +3583,28 @@
           "options": [
             {
               "id": "A",
-              "text": "いいえ、新システムは来年まで一度も稼働しない予定です。"
-            },
-            {
-              "id": "B",
               "text": "はい、待ち時間が2倍に延びて苦情が殺到しています。"
             },
             {
-              "id": "C",
+              "id": "B",
               "text": "ええ、来庁者の皆様からも混雑が緩和されたと大変好評をいただいております。"
+            },
+            {
+              "id": "C",
+              "text": "いいえ、新システムは来年まで一度も稼働しない予定です。"
             }
           ],
-          "correctAnswer": "C",
+          "correctAnswer": "B",
           "explanation": "Người đối thoại khen ngợi: nghe nói thời gian chờ tại quầy giảm mạnh nhờ hệ thống hẹn trực tuyến mới. Câu đáp xác nhận niềm vui phục vụ: 'Vâng, người dân đến làm thủ tục cũng phản hồi rất tích cực vì quầy thông thoáng hẳn ạ'.",
           "distractorExplanations": {
-            "A": "Hệ thống đang chạy rồi nên mới có kết quả thực tế.",
-            "B": "Mâu thuẫn với vế đầu 'thời gian chờ giảm mạnh'."
+            "A": "Mâu thuẫn với vế đầu 'thời gian chờ giảm mạnh'.",
+            "C": "Hệ thống đang chạy rồi nên mới có kết quả thực tế."
           },
           "skill": "Listening",
           "explanationVi": "Người đối thoại khen ngợi: nghe nói thời gian chờ tại quầy giảm mạnh nhờ hệ thống hẹn trực tuyến mới. Câu đáp xác nhận niềm vui phục vụ: 'Vâng, người dân đến làm thủ tục cũng phản hồi rất tích cực vì quầy thông thoáng hẳn ạ'.",
           "audioUrl": "audio/n2_mock_07/N2_07_M4_L09.mp3",
           "audioDurationSec": 35.14,
-          "audioSha256": "e452946d33e0333eeef7abfd2d31236d615ed78791e25bcacf949fc41c021a93",
+          "audioSha256": "52223ea506e8e315151ea045e38640e63ab896d4cfa44966f1f2625c837ac82b",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
@@ -3616,7 +3621,7 @@
           "options": [
             {
               "id": "A",
-              "text": "ああ、弊社の採算ラインを割り込むことになるから、安易な妥協はできないね。"
+              "text": "ええ、先月すでに取引を完全に停止したはずだよ。"
             },
             {
               "id": "B",
@@ -3624,20 +3629,20 @@
             },
             {
               "id": "C",
-              "text": "ええ、先月すでに取引を完全に停止したはずだよ。"
+              "text": "ああ、弊社の採算ラインを割り込むことになるから、安易な妥協はできないね。"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "C",
           "explanation": "Ngữ pháp N2: 〜わけにはいきませんよね (không thể nào chấp nhận được đúng không ạ). Trưởng phòng đồng tình bảo vệ quyền lợi công ty: 'Ừ, làm vậy sẽ dưới mức hòa vốn nên chúng ta tuyệt đối không thể nhượng bộ dễ dàng' ('安易な妥協はできないね').",
           "distractorExplanations": {
-            "B": "Trái ngược hoàn toàn ý đồ của câu hỏi.",
-            "C": "Đang nhận yêu cầu xem xét đơn giá thì hợp đồng vẫn đang trao đổi."
+            "A": "Đang nhận yêu cầu xem xét đơn giá thì hợp đồng vẫn đang trao đổi.",
+            "B": "Trái ngược hoàn toàn ý đồ của câu hỏi."
           },
           "skill": "Listening",
           "explanationVi": "Ngữ pháp N2: 〜わけにはいきませんよね (không thể nào chấp nhận được đúng không ạ). Trưởng phòng đồng tình bảo vệ quyền lợi công ty: 'Ừ, làm vậy sẽ dưới mức hòa vốn nên chúng ta tuyệt đối không thể nhượng bộ dễ dàng' ('安易な妥協はできないね').",
           "audioUrl": "audio/n2_mock_07/N2_07_M4_L10.mp3",
-          "audioDurationSec": 36.124,
-          "audioSha256": "83d6b083c69855d9d4244b58ead3ef3e5a574d8141a3c28fb0a20b2e8fe537bf",
+          "audioDurationSec": 36.172,
+          "audioSha256": "aa7178b295810aa9e54e66016a14a4ef57e856745eb04d0d81cbb22a9c4a3bf0",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
@@ -3658,24 +3663,24 @@
             },
             {
               "id": "B",
-              "text": "とんでもない、新入社員の個性に合わせて教えるのは毎回手探りで緊張しますよ。"
+              "text": "はい、今年の新入社員は全員研修を辞退して帰宅しました。"
             },
             {
               "id": "C",
-              "text": "はい、今年の新入社員は全員研修を辞退して帰宅しました。"
+              "text": "とんでもない、新入社員の個性に合わせて教えるのは毎回手探りで緊張しますよ。"
             }
           ],
-          "correctAnswer": "B",
+          "correctAnswer": "C",
           "explanation": "Thành ngữ N2: 〜お手の物（おてのもの - sở trường, làm cái là được ngay). Bạn khen ngợi anh Tanaka dạy người mới chắc dễ như trở bàn tay. Đáp lại khiêm tốn: 'Đâu có đâu bạn, mỗi lứa tân binh một tính cách nên lần nào mình cũng phải vừa làm vừa mày mò căng thẳng lắm' ('とんでもない...手探りで緊張しますよ').",
           "distractorExplanations": {
             "A": "Khoe khoang quá đà, bất lịch sự.",
-            "C": "Vô lý; tân binh không bỏ về hết."
+            "B": "Vô lý; tân binh không bỏ về hết."
           },
           "skill": "Listening",
           "explanationVi": "Thành ngữ N2: 〜お手の物（おてのもの - sở trường, làm cái là được ngay). Bạn khen ngợi anh Tanaka dạy người mới chắc dễ như trở bàn tay. Đáp lại khiêm tốn: 'Đâu có đâu bạn, mỗi lứa tân binh một tính cách nên lần nào mình cũng phải vừa làm vừa mày mò căng thẳng lắm' ('とんでもない...手探りで緊張しますよ').",
           "audioUrl": "audio/n2_mock_07/N2_07_M4_L11.mp3",
-          "audioDurationSec": 38.404,
-          "audioSha256": "ea99564c3714df81884693a30325a80367e4257ea51b82edf1eebb88f7240740",
+          "audioDurationSec": 38.212,
+          "audioSha256": "373f7983ac8b1323f95a48e5b945381cac01e3ecdfa725278748dfc4b3472399",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
@@ -3692,7 +3697,7 @@
           "options": [
             {
               "id": "A",
-              "text": "1番の東部文化センター"
+              "text": "3番の青少年スポーツセンター"
             },
             {
               "id": "B",
@@ -3700,18 +3705,18 @@
             },
             {
               "id": "C",
-              "text": "3番の青少年スポーツセンター"
+              "text": "1番の東部文化センター"
             },
             {
               "id": "D",
               "text": "4番の中央公民館"
             }
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "C",
           "explanation": "Buổi biểu diễn kịch cần khán phòng khoảng 200 chỗ ngồi có hệ thống âm thanh, ánh sáng sân khấu chuyên nghiệp. Trung tâm văn hóa Đông bộ (1番) có 250 chỗ, âm thanh ánh sáng đầy đủ tương đương hội trường thành phố.",
           "distractorExplanations": {
+            "A": "Trung tâm thể thao thanh thiếu niên là sàn đệm nhựa thể thao, không có sân khấu kịch.",
             "B": "Trung tâm phúc lợi tổng hợp chỉ có âm thanh ánh sáng đơn giản.",
-            "C": "Trung tâm thể thao thanh thiếu niên là sàn đệm nhựa thể thao, không có sân khấu kịch.",
             "D": "Nhà văn hóa trung tâm chỉ có 100 chỗ và không có đèn sân khấu chuyên dụng."
           },
           "skill": "Listening",
@@ -3743,19 +3748,19 @@
             },
             {
               "id": "C",
-              "text": "3番の青少年スポーツセンター"
+              "text": "4番の中央公民館"
             },
             {
               "id": "D",
-              "text": "4番の中央公民館"
+              "text": "3番の青少年スポーツセンター"
             }
           ],
           "correctAnswer": "B",
           "explanation": "Lớp tập thể dục cho người cao tuổi cần sàn gỗ có tay vịn, có thang máy và bãi đỗ xe rộng rãi. Plaza Phúc lợi tổng hợp (2番) đáp ứng toàn diện: không rào cản, có thang máy, bãi đỗ xe lớn, sàn gỗ giảm chấn và có tay vịn.",
           "distractorExplanations": {
             "A": "Trung tâm văn hóa Đông bộ không có thang máy, chỉ có cầu thang bộ nên người già đi lại nguy hiểm.",
-            "C": "Trung tâm thể thao không có sàn gỗ lát mà dùng đệm nhựa.",
-            "D": "Nhà văn hóa trung tâm chỉ có 5 chỗ đỗ xe."
+            "C": "Nhà văn hóa trung tâm chỉ có 5 chỗ đỗ xe.",
+            "D": "Trung tâm thể thao không có sàn gỗ lát mà dùng đệm nhựa."
           },
           "skill": "Listening",
           "explanationVi": "Lớp tập thể dục cho người cao tuổi cần sàn gỗ có tay vịn, có thang máy và bãi đỗ xe rộng rãi. Plaza Phúc lợi tổng hợp (2番) đáp ứng toàn diện: không rào cản, có thang máy, bãi đỗ xe lớn, sàn gỗ giảm chấn và có tay vịn.",
@@ -3778,27 +3783,27 @@
           "options": [
             {
               "id": "A",
-              "text": "男性は4番（トラベル）、女性は3番（ファミリー）"
+              "text": "男性は2番（ヘルスケア）、女性は3番（ファミリー）"
             },
             {
               "id": "B",
-              "text": "男性は1番（スキルアップ）、女性は4番（トラベル）"
-            },
-            {
-              "id": "C",
               "text": "男性は2番（ヘルスケア）、女性は1番（スキルアップ）"
             },
             {
+              "id": "C",
+              "text": "男性は4番（トラベル）、女性は3番（ファミリー）"
+            },
+            {
               "id": "D",
-              "text": "男性は2番（ヘルスケア）、女性は3番（ファミリー）"
+              "text": "男性は1番（スキルアップ）、女性は4番（トラベル）"
             }
           ],
-          "correctAnswer": "C",
+          "correctAnswer": "B",
           "explanation": "Nam nhân viên muốn đi tập gym khắc phục thiếu vận động -> chọn gói số 2 (Chăm sóc sức khỏe - ヘルスケア). Nữ nhân viên muốn học thêm tiếng Anh thương mại để chuyển sang bộ phận hải ngoại -> chọn gói số 1 (Nâng cao kỹ năng - スキルアップ).",
           "distractorExplanations": {
-            "A": "Sai cả nam và nữ.",
-            "B": "Sai cả nam và nữ.",
-            "D": "Nữ nhân viên không chọn gói hỗ trợ gia đình số 3."
+            "A": "Nữ nhân viên không chọn gói hỗ trợ gia đình số 3.",
+            "C": "Sai cả nam và nữ.",
+            "D": "Sai cả nam và nữ."
           },
           "skill": "Listening",
           "explanationVi": "Nam nhân viên muốn đi tập gym khắc phục thiếu vận động -> chọn gói số 2 (Chăm sóc sức khỏe - ヘルスケア). Nữ nhân viên muốn học thêm tiếng Anh thương mại để chuyển sang bộ phận hải ngoại -> chọn gói số 1 (Nâng cao kỹ năng - スキルアップ).",

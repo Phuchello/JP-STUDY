@@ -2,7 +2,7 @@
 
 The preserved primary response is an AI sub-agent's answer map to the sealed 105-item inputs. Three items were rewritten after the first review flags and replaced by a sealed three-item revision review. Five star-order items were subsequently redesigned and solved from a separate sealed five-item input. Two more star items were examined through successive sealed, exhaustive permutation reviews: reviewers found answer-changing alternates for M8_04/M8_05, then M8_05 alone, and that item was rewritten before the final two-item review. Those negative reviews remain preserved as raw evidence. The final star options are checked against the third fragment in the returned order and all 24 candidate permutations are required in the final audit.
 
-No authored answer key or explanation was included in any review input. The raw response artifacts preserve the reviewer selections as returned. The three `review_answers` files are normalized copies bound to final item fingerprints; they do not add explanations or alter reviewer selections.
+No authored answer key or explanation was included in any review input. Raw response artifacts remain unchanged and preserve the reviewers' original displayed letters. The three `review_answers` files record each original letter, exact selected Japanese option text, derived current letter, source fingerprint and current item fingerprint. Every selection is mapped by `EXACT_OPTION_TEXT_DERIVATION`; this is a transformation of existing evidence, not a new independent review.
 
 This is independent blind AI linguistic review, not a native-speaker review and not a portable execution attestation. CI should classify these records as content-version checked, not execution-attested.
 
@@ -23,13 +23,13 @@ Rejected star revision 10 response SHA-256: `6acd585523df57eae9f30cce38a494f7946
 Rejected star revision 10 sealed-input SHA-256: `f230b55f184d4b4d0fe95a9d047bf1d5871d0d2c68758ae09020e9ba1e0972d1`
 Post-TTS listening response SHA-256: `a967045f0242c8598872920184562c04cd444db1d6b427997582bf43f40158ab`
 Post-TTS listening sealed-input SHA-256: `3961bd4942a52d2e34ce54bd29b6234013d631bfbccc115be0a214d4a0e747d2`
-Current exam SHA-256: `83f5cdb0b372697a38af7e14c4bc81dc85c7af85935d6bf28f85c8c52cf71b36`
+Current exam SHA-256: `4f75bd84d34919cfbed5f1c928d6e5bc12715b42e4c439206078e76e46158c8f`
 Re-reviewed item IDs: `N2_07_M7_01`, `N2_07_M7_06`, `N2_07_M8_01`, `N2_07_M8_02`, `N2_07_M8_03`, `N2_07_M8_04`, `N2_07_M8_05`, `N2_07_M9_04`, `N2_07_M3_L01`, `N2_07_M3_L02`, `N2_07_M3_L03`, `N2_07_M3_L04`, `N2_07_M3_L05`, `N2_07_M4_L01`, `N2_07_M4_L02`, `N2_07_M4_L03`, `N2_07_M4_L04`, `N2_07_M4_L05`, `N2_07_M4_L06`, `N2_07_M4_L07`, `N2_07_M4_L08`, `N2_07_M4_L09`, `N2_07_M4_L10`, `N2_07_M4_L11`
 
 | Normalized response | Count | SHA-256 |
 |---|---:|---|
-| `review_answers_m07_s1_p1.json` | 38 | `33ea6530bf072ed49ee86f7190efaa5a0c244b7e573bd21ecefeb6700c6b0734` |
-| `review_answers_m07_s1_p2.json` | 37 | `bf12d5558ac4a1c3b129d98630eabdbaea5a901ae254b7a1e15306d731dd118c` |
-| `review_answers_m07_s2.json` | 30 | `3edcb49285f5e20a57433b81998ddee6914abfb3139a3e870275e4c9cdb67673` |
+| `review_answers_m07_s1_p1.json` | 38 | `6f5ce6e4c0ab8aa9947b1d524e1db92381f6d53e862fed9be0920ab279633275` |
+| `review_answers_m07_s1_p2.json` | 37 | `4ff54f45e2cae2a7af3f13a287a269ef6f2ce4115b9da3c46b6bdc48ce335b4f` |
+| `review_answers_m07_s2.json` | 30 | `7233b29ed6403464cd6c0f98f33cfbc5645ac0beeace3210efc0e945fa433a13` |
 
 The first blind reviewer noted that `N2_07_M5_L01` and `N2_07_M5_L02` require inference from the stated constraints rather than an explicit final-choice sentence. Their answer remains unique under the dialogue's criteria; this design nuance is retained in the raw response and should be visible in any human content review.

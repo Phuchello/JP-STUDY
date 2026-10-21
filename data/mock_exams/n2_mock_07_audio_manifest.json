@@ -145,210 +145,311 @@
   "N2_07_M3_L01": {
     "questionId": "N2_07_M3_L01",
     "audioUrl": "audio/n2_mock_07/N2_07_M3_L01.mp3",
-    "audioDurationSec": 83.98,
-    "audioSha256": "2984be7b89da499fdb968e4a9b5a3b686a4313accf726437e8b9b0cb6bf49e4c",
-    "audioSizeBytes": 504524,
+    "audioDurationSec": 83.884,
+    "audioSha256": "392c5e8a2ffae4cff80abeb3c84e9e81b50aa18190350a3aca014128bd8309bc",
+    "audioSizeBytes": 503948,
     "audioVerificationStatus": "PLAYBACK_QA_PENDING",
     "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
     "speakerVoices": [
       "ja-JP-NanamiNeural",
       "ja-JP-KeitaNeural"
-    ]
+    ],
+    "spokenOptionTexts": [
+      "子育て関連の行政手続きが一箇所でできるようになったこと。",
+      "市内で開催される親子向けイベントの開催案内。",
+      "保育園の保育料が全額免除される新しい制度。",
+      "市役所本庁舎の耐震改修工事のスケジュール。"
+    ],
+    "spokenOptionsTranscriptSha256": "63517dfde61d0a4c7d68f833d91129940e1e03e06ed641be87d24e5070ad2e8b"
   },
   "N2_07_M3_L02": {
     "questionId": "N2_07_M3_L02",
     "audioUrl": "audio/n2_mock_07/N2_07_M3_L02.mp3",
-    "audioDurationSec": 86.164,
-    "audioSha256": "ec5143c8344a376837b725b275699faeb68ff5abf819ebc6d355b063f1db01b2",
-    "audioSizeBytes": 517628,
+    "audioDurationSec": 85.972,
+    "audioSha256": "bb35bd54c386cd6f90075d7f51760ee0592fd522af7483a97b4bbbbe4c1ac3f9",
+    "audioSizeBytes": 516476,
     "audioVerificationStatus": "PLAYBACK_QA_PENDING",
     "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
     "speakerVoices": [
       "ja-JP-NanamiNeural",
       "ja-JP-KeitaNeural"
-    ]
+    ],
+    "spokenOptionTexts": [
+      "社内ホットラインの電話番号変更の案内。",
+      "新入社員の基本マナーと挨拶の徹底。",
+      "法令遵守の徹底と不正を許さない誠実な企業風土の重要性。",
+      "売上目標を達成するための営業戦略。"
+    ],
+    "spokenOptionsTranscriptSha256": "6d181b3481429c62ffac740fd8e56dfbc79b10c2d806d193cfc196614d615c3c"
   },
   "N2_07_M3_L03": {
     "questionId": "N2_07_M3_L03",
     "audioUrl": "audio/n2_mock_07/N2_07_M3_L03.mp3",
-    "audioDurationSec": 87.724,
-    "audioSha256": "e543840c62c978b73a63fc6d0d918fcffb141c3d4480aadd5c6fb226d5ec04f9",
-    "audioSizeBytes": 526988,
+    "audioDurationSec": 87.7,
+    "audioSha256": "4620bc7f0615bdf3bd2c7ea8fdcc259234f369bb7bf96158794e471427f842ef",
+    "audioSizeBytes": 526844,
     "audioVerificationStatus": "PLAYBACK_QA_PENDING",
     "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
     "speakerVoices": [
       "ja-JP-NanamiNeural",
       "ja-JP-KeitaNeural"
-    ]
+    ],
+    "spokenOptionTexts": [
+      "避難訓練に地域住民全員が必ず参加すること。",
+      "地震によるケガを防ぐために家具を固定すること。",
+      "地震保険に加入して住宅の損害に備えること。",
+      "非常用の食料や飲料水を1週間分備蓄すること。"
+    ],
+    "spokenOptionsTranscriptSha256": "19a945eff61b5fb8e50794b8b18e0e1a394482ba36928a47d462d13c2af470ba"
   },
   "N2_07_M3_L04": {
     "questionId": "N2_07_M3_L04",
     "audioUrl": "audio/n2_mock_07/N2_07_M3_L04.mp3",
-    "audioDurationSec": 83.62,
-    "audioSha256": "911f4ecdb2dd0d52f87f2850ba1bdac55b437b2923a6f6e9b28ee6754ad63573",
-    "audioSizeBytes": 502364,
+    "audioDurationSec": 83.5,
+    "audioSha256": "cfa84e8fb364feffac1e963623bf5812fb90503bf0efca8b7c9e860d7999c8a5",
+    "audioSizeBytes": 501644,
     "audioVerificationStatus": "PLAYBACK_QA_PENDING",
     "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
     "speakerVoices": [
       "ja-JP-NanamiNeural",
       "ja-JP-KeitaNeural"
-    ]
+    ],
+    "spokenOptionTexts": [
+      "定年退職後に再就職するための資格取得の方法。",
+      "パソコン講座のカリキュラムと操作方法。",
+      "退職後の学びを社会貢献や人とのつながりに広げていくこと。",
+      "カルチャーセンターの講座受講料の割引制度。"
+    ],
+    "spokenOptionsTranscriptSha256": "97f41c4f20f01a314e4ef94fe0761f13ac531869223920c05d953557b16a3f37"
   },
   "N2_07_M3_L05": {
     "questionId": "N2_07_M3_L05",
     "audioUrl": "audio/n2_mock_07/N2_07_M3_L05.mp3",
-    "audioDurationSec": 86.5,
-    "audioSha256": "5181c8444292fbb495f60151a2764edfcf794adc3e4bb66874937115eedb45a8",
-    "audioSizeBytes": 519644,
+    "audioDurationSec": 86.452,
+    "audioSha256": "50d1b6e46fe4323a4aa6a07de0846d5fe29b75908476fd97f457a184c22ed895",
+    "audioSizeBytes": 519356,
     "audioVerificationStatus": "PLAYBACK_QA_PENDING",
     "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
     "speakerVoices": [
       "ja-JP-NanamiNeural",
       "ja-JP-KeitaNeural"
-    ]
+    ],
+    "spokenOptionTexts": [
+      "夜間の道路交通渋滞を解消するための道路整備。",
+      "子育て世帯に対するガソリン代の補助金給付。",
+      "夜間や休日の子どもの救急医療を受け入れる体制。",
+      "市内の小児科医院の診療報酬と薬の価格。"
+    ],
+    "spokenOptionsTranscriptSha256": "52d0184e9a71355c8d94d6dd1a9ab788bf1482826ca3edbc3739c64bd5cab5e7"
   },
   "N2_07_M4_L01": {
     "questionId": "N2_07_M4_L01",
     "audioUrl": "audio/n2_mock_07/N2_07_M4_L01.mp3",
     "audioDurationSec": 33.1,
-    "audioSha256": "5378b2259efa84549850289a4c41bd7b48ba1c17e3f8acc8d9d58d683454e104",
+    "audioSha256": "2fd4478279cd6fb9814650ca545154637c67814bca29790bfc576ed4ac1f17c7",
     "audioSizeBytes": 199244,
     "audioVerificationStatus": "PLAYBACK_QA_PENDING",
     "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
     "speakerVoices": [
       "ja-JP-NanamiNeural",
       "ja-JP-KeitaNeural"
-    ]
+    ],
+    "spokenOptionTexts": [
+      "はい、私が企画書を白紙に戻すよう指示したはずです。",
+      "ええ、来週までに企画書を作成して提出してください。",
+      "ああ、先ほど目を通して印鑑を押しておいたから、机の上にあるよ。"
+    ],
+    "spokenOptionsTranscriptSha256": "9ab4983d6a3ca43e216d5f7925e97e047d1c9b8e9913da7a9995b74c1b53b080"
   },
   "N2_07_M4_L02": {
     "questionId": "N2_07_M4_L02",
     "audioUrl": "audio/n2_mock_07/N2_07_M4_L02.mp3",
     "audioDurationSec": 34.156,
-    "audioSha256": "bfc954a2f533783c015316159d3835ebb4cf4c754d0e5c473fb1ddc1bd9d6a33",
+    "audioSha256": "20fdb73cbb01c253b93ae9c27c16d205bd596702b8c0a21c541727ce4894f85a",
     "audioSizeBytes": 205580,
     "audioVerificationStatus": "PLAYBACK_QA_PENDING",
     "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
     "speakerVoices": [
       "ja-JP-NanamiNeural",
       "ja-JP-KeitaNeural"
-    ]
+    ],
+    "spokenOptionTexts": [
+      "そうですね、来場者が予想より増えるかもしれませんから、刷っておきます。",
+      "いいえ、説明会は昨日無事に終了いたしましたよ。",
+      "ええ、資料はすべて破棄してしまったので間に合いません。"
+    ],
+    "spokenOptionsTranscriptSha256": "f2e3247bcdc1d9a6c9147fd34dc574f25b12b1d71e114da7280bda517ab9d615"
   },
   "N2_07_M4_L03": {
     "questionId": "N2_07_M4_L03",
     "audioUrl": "audio/n2_mock_07/N2_07_M4_L03.mp3",
-    "audioDurationSec": 36.052,
-    "audioSha256": "f081e0cc61cdfaf1c9a961d5f242f4434400c94d1837f1c7af513d41bd001154",
-    "audioSizeBytes": 216956,
+    "audioDurationSec": 35.932,
+    "audioSha256": "bd1ccfe1b60f93c1139a1b6114e4d1ecbb8439b723cfae975637d67b0aa89118",
+    "audioSizeBytes": 216236,
     "audioVerificationStatus": "PLAYBACK_QA_PENDING",
     "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
     "speakerVoices": [
       "ja-JP-NanamiNeural",
       "ja-JP-KeitaNeural"
-    ]
+    ],
+    "spokenOptionTexts": [
+      "どうぞお気になさらないでください。迅速に修正対応していただいたので問題ありませんよ。",
+      "ええ、最初から謝罪の言葉など聞きたくありませんでした。",
+      "はい、これからはもっと言葉遣いを丁寧に勉強してください。"
+    ],
+    "spokenOptionsTranscriptSha256": "75e58a8c8481a07ba2c15409cdd703c4619531b2d131ed6d2175b79585a338df"
   },
   "N2_07_M4_L04": {
     "questionId": "N2_07_M4_L04",
     "audioUrl": "audio/n2_mock_07/N2_07_M4_L04.mp3",
-    "audioDurationSec": 32.02,
-    "audioSha256": "63d8c12f1bbe3cc10a4fef16faaa967b403575234d03533b5b43b40f434fd564",
-    "audioSizeBytes": 192764,
+    "audioDurationSec": 31.996,
+    "audioSha256": "e324d1a3bc4ac75959cd5750cfc303d3f092dfeb79426696c75a4058b12480ba",
+    "audioSizeBytes": 192620,
     "audioVerificationStatus": "PLAYBACK_QA_PENDING",
     "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
     "speakerVoices": [
       "ja-JP-NanamiNeural",
       "ja-JP-KeitaNeural"
-    ]
+    ],
+    "spokenOptionTexts": [
+      "はい、午後からの協議は先週のうちに終わりました。",
+      "ええ、インターネット回線は来月解約する予定です。",
+      "先ほどテストを済ませましたが、音声も映像も非常にクリアでしたよ。"
+    ],
+    "spokenOptionsTranscriptSha256": "776c81d2bc87db66fbb8b0a81c3f7d9236409ed05c8d3d547cbe4c9d18554241"
   },
   "N2_07_M4_L05": {
     "questionId": "N2_07_M4_L05",
     "audioUrl": "audio/n2_mock_07/N2_07_M4_L05.mp3",
-    "audioDurationSec": 33.34,
-    "audioSha256": "f1f1e6032405ee7ed8d3d2d11cefab4e5a6639e62ab6d7b48f2d6e313a1e4d9a",
-    "audioSizeBytes": 200684,
+    "audioDurationSec": 33.412,
+    "audioSha256": "91939f229ff530374af63e70d33140fd7910921482ae588844ed9e9e19a2bb91",
+    "audioSizeBytes": 201116,
     "audioVerificationStatus": "PLAYBACK_QA_PENDING",
     "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
     "speakerVoices": [
       "ja-JP-NanamiNeural",
       "ja-JP-KeitaNeural"
-    ]
+    ],
+    "spokenOptionTexts": [
+      "うん、来週のお祭りの開催が待ち遠しいね。",
+      "本当にね。みんなで何週間も前から準備してきたのに、悔しいよね。",
+      "ええ、台風が直撃してくれて本当に助かりましたね。"
+    ],
+    "spokenOptionsTranscriptSha256": "8b424ef7a5472d544385cc3c0d9b78bd7772d5c5b45df860acc149709d444978"
   },
   "N2_07_M4_L06": {
     "questionId": "N2_07_M4_L06",
     "audioUrl": "audio/n2_mock_07/N2_07_M4_L06.mp3",
-    "audioDurationSec": 32.116,
-    "audioSha256": "b12a7c947f9c19f074b8d41721db3cf303d667b5186048ab0b12510a1fc0aa6c",
-    "audioSizeBytes": 193340,
+    "audioDurationSec": 32.044,
+    "audioSha256": "bf05654b16a07ddf824fb82b5a31c052229b20973d257de87168bdf71d57e624",
+    "audioSizeBytes": 192908,
     "audioVerificationStatus": "PLAYBACK_QA_PENDING",
     "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
     "speakerVoices": [
       "ja-JP-NanamiNeural",
       "ja-JP-KeitaNeural"
-    ]
+    ],
+    "spokenOptionTexts": [
+      "いいえ、私は忙しいので誰も見てくれませんよ。",
+      "ええ、ちょうど今手が空いたところですので、拝見しますね。",
+      "はい、書類は明日までにすべて処分しておいてください。"
+    ],
+    "spokenOptionsTranscriptSha256": "6bb06759ef3ff3f5607f4b69e696e0924eea4e6a3bd7374319c49b85a3a739e4"
   },
   "N2_07_M4_L07": {
     "questionId": "N2_07_M4_L07",
     "audioUrl": "audio/n2_mock_07/N2_07_M4_L07.mp3",
-    "audioDurationSec": 33.748,
-    "audioSha256": "d5472a7253fe12fad9b280b72818b3229b2a59a72fc1458003543361e27ea7b5",
-    "audioSizeBytes": 203132,
+    "audioDurationSec": 33.724,
+    "audioSha256": "09c490b2dce49bca9123b9d6eea2ac7ff3bb681e40233a332232f0207695cb7b",
+    "audioSizeBytes": 202988,
     "audioVerificationStatus": "PLAYBACK_QA_PENDING",
     "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
     "speakerVoices": [
       "ja-JP-NanamiNeural",
       "ja-JP-KeitaNeural"
-    ]
+    ],
+    "spokenOptionTexts": [
+      "ええ、会議は明日から始まる予定なので気をつけます。",
+      "申し訳ありません。議論が熱くなって、相手への配慮が足りませんでした。",
+      "はい、もっと厳しい言葉で相手を責め立てるべきでしたね。"
+    ],
+    "spokenOptionsTranscriptSha256": "c70347f346fd068f73f9995fd74aaef7627104466e23adb071ca6ae894710aa3"
   },
   "N2_07_M4_L08": {
     "questionId": "N2_07_M4_L08",
     "audioUrl": "audio/n2_mock_07/N2_07_M4_L08.mp3",
-    "audioDurationSec": 32.02,
-    "audioSha256": "e90e87c6d3c43599bf2cdf2465ee1c69bbc8ee40f9defe73397bbb19ee1f8c04",
-    "audioSizeBytes": 192764,
+    "audioDurationSec": 32.044,
+    "audioSha256": "4af2cbd8add9ad2e648f5336a43dae2e248a5ed267a587aea0f176faff708db6",
+    "audioSizeBytes": 192908,
     "audioVerificationStatus": "PLAYBACK_QA_PENDING",
     "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
     "speakerVoices": [
       "ja-JP-NanamiNeural",
       "ja-JP-KeitaNeural"
-    ]
+    ],
+    "spokenOptionTexts": [
+      "私のような若手でよろしければ、ぜひ喜んで挑戦させてください。",
+      "いいえ、広報誌は今年度で廃刊になることが決まりました。",
+      "はい、リーダーの席はすでに他の課長に決まりましたよ。"
+    ],
+    "spokenOptionsTranscriptSha256": "6ede95e8526e681623240629e7d3567ca3f95b82d70b17700492ca03c89e63f2"
   },
   "N2_07_M4_L09": {
     "questionId": "N2_07_M4_L09",
     "audioUrl": "audio/n2_mock_07/N2_07_M4_L09.mp3",
     "audioDurationSec": 35.14,
-    "audioSha256": "e452946d33e0333eeef7abfd2d31236d615ed78791e25bcacf949fc41c021a93",
+    "audioSha256": "52223ea506e8e315151ea045e38640e63ab896d4cfa44966f1f2625c837ac82b",
     "audioSizeBytes": 211484,
     "audioVerificationStatus": "PLAYBACK_QA_PENDING",
     "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
     "speakerVoices": [
       "ja-JP-NanamiNeural",
       "ja-JP-KeitaNeural"
-    ]
+    ],
+    "spokenOptionTexts": [
+      "はい、待ち時間が2倍に延びて苦情が殺到しています。",
+      "ええ、来庁者の皆様からも混雑が緩和されたと大変好評をいただいております。",
+      "いいえ、新システムは来年まで一度も稼働しない予定です。"
+    ],
+    "spokenOptionsTranscriptSha256": "e5d0925451fef97dda3c54fdc0b79bf27b2acd322f852093e736ad5b39ecdab9"
   },
   "N2_07_M4_L10": {
     "questionId": "N2_07_M4_L10",
     "audioUrl": "audio/n2_mock_07/N2_07_M4_L10.mp3",
-    "audioDurationSec": 36.124,
-    "audioSha256": "83d6b083c69855d9d4244b58ead3ef3e5a574d8141a3c28fb0a20b2e8fe537bf",
-    "audioSizeBytes": 217388,
+    "audioDurationSec": 36.172,
+    "audioSha256": "aa7178b295810aa9e54e66016a14a4ef57e856745eb04d0d81cbb22a9c4a3bf0",
+    "audioSizeBytes": 217676,
     "audioVerificationStatus": "PLAYBACK_QA_PENDING",
     "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
     "speakerVoices": [
       "ja-JP-NanamiNeural",
       "ja-JP-KeitaNeural"
-    ]
+    ],
+    "spokenOptionTexts": [
+      "ええ、先月すでに取引を完全に停止したはずだよ。",
+      "うん、すぐに先方の要求通りに全額値引きの契約書を作成して。",
+      "ああ、弊社の採算ラインを割り込むことになるから、安易な妥協はできないね。"
+    ],
+    "spokenOptionsTranscriptSha256": "f0684be0f2c7f0cc24a0be35de63fd37d56d3aebad5316396deb4cc2415ee00f"
   },
   "N2_07_M4_L11": {
     "questionId": "N2_07_M4_L11",
     "audioUrl": "audio/n2_mock_07/N2_07_M4_L11.mp3",
-    "audioDurationSec": 38.404,
-    "audioSha256": "ea99564c3714df81884693a30325a80367e4257ea51b82edf1eebb88f7240740",
-    "audioSizeBytes": 231068,
+    "audioDurationSec": 38.212,
+    "audioSha256": "373f7983ac8b1323f95a48e5b945381cac01e3ecdfa725278748dfc4b3472399",
+    "audioSizeBytes": 229916,
     "audioVerificationStatus": "PLAYBACK_QA_PENDING",
     "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
     "speakerVoices": [
       "ja-JP-NanamiNeural",
       "ja-JP-KeitaNeural"
-    ]
+    ],
+    "spokenOptionTexts": [
+      "ええ、指導員なんて誰でも目をつぶって簡単にこなせますよ。",
+      "はい、今年の新入社員は全員研修を辞退して帰宅しました。",
+      "とんでもない、新入社員の個性に合わせて教えるのは毎回手探りで緊張しますよ。"
+    ],
+    "spokenOptionsTranscriptSha256": "3d9d571c7a3c8d9159712f2183312fb5eea3de6cb718b43b1a4cdacf57747d6e"
   },
   "N2_07_M5_L01": {
     "questionId": "N2_07_M5_L01",

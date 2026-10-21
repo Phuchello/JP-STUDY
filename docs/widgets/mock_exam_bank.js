@@ -24691,11407 +24691,6 @@ window.JP_MOCK_DATA = {
   ]
 },
 
-  'N2-MOCK-07': {
-  "examId": "N2-MOCK-07",
-  "title": "JLPT N2 Full Mock Exam #07 — Đề thi thử hoàn chỉnh (Kiến thức ngôn ngữ, Đọc hiểu & Nghe hiểu)",
-  "level": "N2",
-  "status": "FULL_MOCK",
-  "durationMinutes": 155,
-  "totalQuestions": 105,
-  "sections": [
-    {
-      "sectionId": "sec-1",
-      "sectionName": "Phần 1: Kiến thức ngôn ngữ & Đọc hiểu (Language Knowledge & Reading)",
-      "durationMinutes": 105,
-      "itemCount": 75,
-      "items": [
-        {
-          "id": "N2_07_M1_01",
-          "typeId": "N2-MO-READ",
-          "category": "Mondai 1: 漢字読み",
-          "stem": "市役所の窓口で住民票の【交付】を申請した。",
-          "targetWord": "交付",
-          "options": [
-            {
-              "id": "A",
-              "text": "こうふ"
-            },
-            {
-              "id": "B",
-              "text": "こうぶ"
-            },
-            {
-              "id": "C",
-              "text": "ごうふ"
-            },
-            {
-              "id": "D",
-              "text": "きょうふ"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "交付（こうふ - GIAO PHÓ）: Sự cấp phát, cấp giấy tờ chính thức. Chữ 交 có âm on là こう, 付 có âm on là ふ.",
-          "distractorExplanations": {
-            "B": "こうぶ: Sai âm ふ thành đục ぶ.",
-            "C": "ごうふ: Sai âm こう thành đục ごう.",
-            "D": "きょうふ: Nhầm với 恐怖 (きょうふ - khủng bố/sợ hãi)."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "交付（こうふ - GIAO PHÓ）: Sự cấp phát, cấp giấy tờ chính thức. Chữ 交 có âm on là こう, 付 có âm on là ふ."
-        },
-        {
-          "id": "N2_07_M1_02",
-          "typeId": "N2-MO-READ",
-          "category": "Mondai 1: 漢字読み",
-          "stem": "公共施設を利用する際は、利用規程を厳格に【遵守】してください。",
-          "targetWord": "遵守",
-          "options": [
-            {
-              "id": "A",
-              "text": "そんしゅ"
-            },
-            {
-              "id": "B",
-              "text": "じゅんしゅ"
-            },
-            {
-              "id": "C",
-              "text": "じゅんす"
-            },
-            {
-              "id": "D",
-              "text": "しょうしゅ"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "遵守（じゅんしゅ - TUÂN THỦ）: Tuân thủ nghiêm ngặt quy định, pháp luật. Chữ 遵 đọc là じゅん, 守 đọc là しゅ.",
-          "distractorExplanations": {
-            "A": "そんしゅ: Nhầm chữ 遵 với 尊 (Tôn trong 尊重 そんちょう).",
-            "C": "じゅんす: Sai âm しゅ thành す.",
-            "D": "しょうしゅ: Sai âm じゅん thành しょう."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "遵守（じゅんしゅ - TUÂN THỦ）: Tuân thủ nghiêm ngặt quy định, pháp luật. Chữ 遵 đọc là じゅん, 守 đọc là しゅ."
-        },
-        {
-          "id": "N2_07_M1_03",
-          "typeId": "N2-MO-READ",
-          "category": "Mondai 1: 漢字読み",
-          "stem": "市民税の【滞納】が続くと、督促状が届く恐れがある。",
-          "targetWord": "滞納",
-          "options": [
-            {
-              "id": "A",
-              "text": "ていのう"
-            },
-            {
-              "id": "B",
-              "text": "ちのう"
-            },
-            {
-              "id": "C",
-              "text": "たいのう"
-            },
-            {
-              "id": "D",
-              "text": "たいいれ"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "滞納（たいのう - TRỆ NẠP）: Chậm nộp, nợ đọng tiền thuế, tiền cước. 滞 có âm on là たい, 納 có âm on là のう.",
-          "distractorExplanations": {
-            "A": "ていのう: Sai âm たい thành てい.",
-            "B": "ちのう: Nhầm chữ 滞 với 遅 (ち) hoặc âm khác.",
-            "D": "たいいれ: Nhầm âm on のう với âm kun い・れる."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "滞納（たいのう - TRỆ NẠP）: Chậm nộp, nợ đọng tiền thuế, tiền cước. 滞 có âm on là たい, 納 có âm on là のう."
-        },
-        {
-          "id": "N2_07_M1_04",
-          "typeId": "N2-MO-READ",
-          "category": "Mondai 1: 漢字読み",
-          "stem": "年末調整の書類を提出して、配偶者【控除】の適用を受けた。",
-          "targetWord": "控除",
-          "options": [
-            {
-              "id": "A",
-              "text": "こうしょ"
-            },
-            {
-              "id": "B",
-              "text": "くじょ"
-            },
-            {
-              "id": "C",
-              "text": "きょうじょ"
-            },
-            {
-              "id": "D",
-              "text": "こうじょ"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "控除（こうじょ - KHỐNG TRỪ）: Khấu trừ (thuế, thu nhập). Chữ 控 có âm on là こう, 除 có âm on là じょ.",
-          "distractorExplanations": {
-            "A": "こうしょ: Sai âm じょ thành âm thanh しょ.",
-            "B": "くじょ: Nhầm với 駆除 (くじょ - tiêu diệt, trừ khử côn trùng).",
-            "C": "きょうじょ: Nhầm với 協約 hoặc 援助."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "控除（こうじょ - KHỐNG TRỪ）: Khấu trừ (thuế, thu nhập). Chữ 控 có âm on là こう, 除 có âm on là じょ."
-        },
-        {
-          "id": "N2_07_M1_05",
-          "typeId": "N2-MO-READ",
-          "category": "Mondai 1: 漢字読み",
-          "stem": "大型家具の【廃棄】処分には、事前の有料申し込みが必要です。",
-          "targetWord": "廃棄",
-          "options": [
-            {
-              "id": "A",
-              "text": "はいき"
-            },
-            {
-              "id": "B",
-              "text": "はっき"
-            },
-            {
-              "id": "C",
-              "text": "はいし"
-            },
-            {
-              "id": "D",
-              "text": "ほうき"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "廃棄（はいき - PHẾ KHÍ）: Vứt bỏ, xử lý rác thải lớn, phế thải. Chữ 廃 đọc là はい, 棄 đọc là き.",
-          "distractorExplanations": {
-            "B": "はっき: Nhầm sang 発揮 (はっき - phát huy) hoặc 破棄 (はき).",
-            "C": "はいし: Nhầm với 廃止 (はいし - bãi bỏ).",
-            "D": "ほうき: Nhầm với 放棄 (ほうき - từ bỏ, vứt bỏ trách nhiệm)."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "廃棄（はいき - PHẾ KHÍ）: Vứt bỏ, xử lý rác thải lớn, phế thải. Chữ 廃 đọc là はい, 棄 đọc là き."
-        },
-        {
-          "id": "N2_07_M2_01",
-          "typeId": "N2-MO-ORTH",
-          "category": "Mondai 2: 表記",
-          "stem": "出張で発生した交通費の【けいひ】を速やかに精算した。",
-          "targetWord": "けいひ",
-          "options": [
-            {
-              "id": "A",
-              "text": "軽費"
-            },
-            {
-              "id": "B",
-              "text": "経費"
-            },
-            {
-              "id": "C",
-              "text": "係費"
-            },
-            {
-              "id": "D",
-              "text": "啓費"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "経費（けいひ - KINH PHÍ）: Chi phí, kinh phí công tác.",
-          "distractorExplanations": {
-            "A": "軽費: Chữ 軽 nghĩa là nhẹ, không dùng trong kinh phí.",
-            "C": "係費: Chữ 係 là liên quan/phụ trách.",
-            "D": "啓費: Chữ 啓 là khai sáng/khởi đầu."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "経費（けいひ - KINH PHÍ）: Chi phí, kinh phí công tác."
-        },
-        {
-          "id": "N2_07_M2_02",
-          "typeId": "N2-MO-ORTH",
-          "category": "Mondai 2: 表記",
-          "stem": "内部監査で指摘された事務の不備について、直ちに【ぜせい】措置を講じた。",
-          "targetWord": "ぜせい",
-          "options": [
-            {
-              "id": "A",
-              "text": "善正"
-            },
-            {
-              "id": "B",
-              "text": "是政"
-            },
-            {
-              "id": "C",
-              "text": "是正"
-            },
-            {
-              "id": "D",
-              "text": "善制"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "是正（ぜせい - THỊ CHÍNH）: Sự sửa đổi, chấn chỉnh cho đúng đắn (điều chỉnh khuyết điểm, sai lệch).",
-          "distractorExplanations": {
-            "A": "善正: Chữ kanji không tạo thành từ này.",
-            "B": "是政: Chữ 政 là chính quyền/chính trị, sai chữ 正.",
-            "D": "善制: Chữ 制 là chế độ/kiểm soát."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "是正（ぜせい - THỊ CHÍNH）: Sự sửa đổi, chấn chỉnh cho đúng đắn (điều chỉnh khuyết điểm, sai lệch)."
-        },
-        {
-          "id": "N2_07_M2_03",
-          "typeId": "N2-MO-ORTH",
-          "category": "Mondai 2: 表記",
-          "stem": "本人が来庁できない場合、正式な書類によって代理人に手続きを【いにん】できる。",
-          "targetWord": "いにん",
-          "options": [
-            {
-              "id": "A",
-              "text": "依任"
-            },
-            {
-              "id": "B",
-              "text": "頼任"
-            },
-            {
-              "id": "C",
-              "text": "託任"
-            },
-            {
-              "id": "D",
-              "text": "委任"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "委任（いにん - ỦY NHIỆM）: Ủy nhiệm, ủy quyền làm thủ tục hành chính.",
-          "distractorExplanations": {
-            "A": "依任: Nhầm chữ 依 (y/phụ thuộc).",
-            "B": "頼任: Chữ 頼 (lại/nhờ cậy) không ghép thành từ này.",
-            "C": "託任: Nhầm sang 託 (thác/giao phó)."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "委任（いにん - ỦY NHIỆM）: Ủy nhiệm, ủy quyền làm thủ tục hành chính."
-        },
-        {
-          "id": "N2_07_M2_04",
-          "typeId": "N2-MO-ORTH",
-          "category": "Mondai 2: 表記",
-          "stem": "業務委託契約書の【じょうこう】を一つずつ慎重に確認した。",
-          "targetWord": "じょうこう",
-          "options": [
-            {
-              "id": "A",
-              "text": "条項"
-            },
-            {
-              "id": "B",
-              "text": "条厚"
-            },
-            {
-              "id": "C",
-              "text": "状項"
-            },
-            {
-              "id": "D",
-              "text": "錠項"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "条項（じょうこう - ĐIỀU KHOẢN）: Các điều khoản trong hợp đồng, văn bản quy phạm.",
-          "distractorExplanations": {
-            "B": "条厚: Chữ 厚 nghĩa là dày, sai chữ 項.",
-            "C": "状項: Chữ 状 nghĩa là tình trạng/hình dáng.",
-            "D": "錠項: Chữ 錠 nghĩa là ổ khóa/viên thuốc."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "条項（じょうこう - ĐIỀU KHOẢN）: Các điều khoản trong hợp đồng, văn bản quy phạm."
-        },
-        {
-          "id": "N2_07_M2_05",
-          "typeId": "N2-MO-ORTH",
-          "category": "Mondai 2: 表記",
-          "stem": "引っ越しの際は、管轄の郵便局へ転居届を速やかに【ていしゅつ】してください。",
-          "targetWord": "ていしゅつ",
-          "options": [
-            {
-              "id": "A",
-              "text": "提述"
-            },
-            {
-              "id": "B",
-              "text": "提出"
-            },
-            {
-              "id": "C",
-              "text": "定出"
-            },
-            {
-              "id": "D",
-              "text": "提進"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "提出（ていしゅつ - ĐỀ XUẤT/NỘP）: Nộp đơn từ, trình giấy tờ lên cơ quan có thẩm quyền.",
-          "distractorExplanations": {
-            "A": "提述: Chữ 述 là thuật/kể lại, sai nghĩa.",
-            "C": "定出: Sai chữ 提 thành 定.",
-            "D": "提進: Chữ 進 là tiến lên, không ghép thành từ này."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "提出（ていしゅつ - ĐỀ XUẤT/NỘP）: Nộp đơn từ, trình giấy tờ lên cơ quan có thẩm quyền."
-        },
-        {
-          "id": "N2_07_M3_01",
-          "typeId": "N2-MO-FORM",
-          "category": "Mondai 3: 語形成",
-          "stem": "紛失した身分証の【（　）発行】を窓口で申請した。",
-          "targetWord": "再発行",
-          "options": [
-            {
-              "id": "A",
-              "text": "復"
-            },
-            {
-              "id": "B",
-              "text": "新"
-            },
-            {
-              "id": "C",
-              "text": "再"
-            },
-            {
-              "id": "D",
-              "text": "重"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "再発行（さいはっこう - TÁI PHÁT HÀNH）: Cấp lại, phát hành lại giấy tờ khi bị mất. Tiền tố 再- (tái).",
-          "distractorExplanations": {
-            "A": "復: Dùng trong 復旧, 復活, không ghép thành *復発行.",
-            "B": "新: Dùng trong 新発行 (phát hành mới), không mang nghĩa làm lại do mất.",
-            "D": "重: Dùng trong 重複, 重大, không ghép thành *重発行."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "再発行（さいはっこう - TÁI PHÁT HÀNH）: Cấp lại, phát hành lại giấy tờ khi bị mất. Tiền tố 再- (tái)."
-        },
-        {
-          "id": "N2_07_M3_02",
-          "typeId": "N2-MO-FORM",
-          "category": "Mondai 3: 語形成",
-          "stem": "会社の設立にあたっては、登記や納税など【諸（　）】を同時に進める必要がある。",
-          "targetWord": "諸手続",
-          "options": [
-            {
-              "id": "A",
-              "text": "経費"
-            },
-            {
-              "id": "B",
-              "text": "規程"
-            },
-            {
-              "id": "C",
-              "text": "申請"
-            },
-            {
-              "id": "D",
-              "text": "手続"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "諸手続（しょてつづき - CHƯ THỦ TỤC）: Các loại thủ tục, nhiều thủ tục hành chính khác nhau. Tiền tố 諸- (chư) ghép với 手続.",
-          "distractorExplanations": {
-            "A": "経費: Thường dùng 諸経費 (các khoản kinh phí), nhưng văn cảnh ở đây là đăng ký và nộp thuế nên là các thủ tục.",
-            "B": "規程: Thường dùng 諸規程 ít dùng trong chuỗi hành động hành chính cá nhân.",
-            "C": "申請: Thường ghép 諸申請 ít thông dụng hơn cụm cố định chuẩn 諸手続."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "諸手続（しょてつづき - CHƯ THỦ TỤC）: Các loại thủ tục, nhiều thủ tục hành chính khác nhau. Tiền tố 諸- (chư) ghép với 手続."
-        },
-        {
-          "id": "N2_07_M3_03",
-          "typeId": "N2-MO-FORM",
-          "category": "Mondai 3: 語形成",
-          "stem": "国民年金に【（　）納】期間があると、将来受け取れる年金額が減額される。",
-          "targetWord": "未納",
-          "options": [
-            {
-              "id": "A",
-              "text": "未"
-            },
-            {
-              "id": "B",
-              "text": "不"
-            },
-            {
-              "id": "C",
-              "text": "非"
-            },
-            {
-              "id": "D",
-              "text": "無"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "未納（みのう - VỊ NẠP）: Chưa nộp, còn nợ đọng chưa thanh toán. Tiền tố 未- (chưa).",
-          "distractorExplanations": {
-            "B": "不: Biểu thị bất/không (bất an, bất tiện: 不安, 不便, 不払い). Không dùng *不納.",
-            "C": "非: Biểu thị tính phi (phi lý, phi pháp: 非難, 非常).",
-            "D": "無: Biểu thị vô/không có (vô lý, vô hiệu: 無理, 無効). Không dùng *無納."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "未納（みのう - VỊ NẠP）: Chưa nộp, còn nợ đọng chưa thanh toán. Tiền tố 未- (chưa)."
-        },
-        {
-          "id": "N2_07_M3_04",
-          "typeId": "N2-MO-FORM",
-          "category": "Mondai 3: 語形成",
-          "stem": "転勤に伴い、来月からの新しい【勤務（　）】へ引っ越す準備を進めている。",
-          "targetWord": "勤務地",
-          "options": [
-            {
-              "id": "A",
-              "text": "所"
-            },
-            {
-              "id": "B",
-              "text": "地"
-            },
-            {
-              "id": "C",
-              "text": "処"
-            },
-            {
-              "id": "D",
-              "text": "場"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "勤務地（きんむち - CẦN VỤ ĐỊA）: Nơi làm việc, địa điểm công tác. Hậu tố -地 (vùng, địa điểm).",
-          "distractorExplanations": {
-            "A": "所: Ghép thành 勤務先 (きんむさき) hoặc 事務所 (じむしょ), không dùng *勤務所.",
-            "C": "処: Không dùng làm hậu tố cho từ này.",
-            "D": "場: Dùng trong 職場 (nơi làm việc) hoặc 勤務場所, hậu tố độc lập chuẩn danh mục công chức là 勤務地."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "勤務地（きんむち - CẦN VỤ ĐỊA）: Nơi làm việc, địa điểm công tác. Hậu tố -地 (vùng, địa điểm)."
-        },
-        {
-          "id": "N2_07_M3_05",
-          "typeId": "N2-MO-FORM",
-          "category": "Mondai 3: 語形成",
-          "stem": "市役所では環境負荷を低減するため、【（　）効率】な照明器具への更新を進めている。",
-          "targetWord": "高効率",
-          "options": [
-            {
-              "id": "A",
-              "text": "強"
-            },
-            {
-              "id": "B",
-              "text": "上"
-            },
-            {
-              "id": "C",
-              "text": "高"
-            },
-            {
-              "id": "D",
-              "text": "超"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "高効率（こうこうりつ - CAO HIỆU SUẤT）: Hiệu suất cao, tiết kiệm năng lượng. Tiền tố 高- (cao).",
-          "distractorExplanations": {
-            "A": "強: Dùng trong 強力, 強度, không ghép với 効率.",
-            "B": "上: Không dùng tiền tố 上効率.",
-            "D": "超: Biểu thị siêu (siêu việt, siêu âm: 超音波, 超満員). Cụm tiêu chuẩn kỹ thuật là 高効率."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "高効率（こうこうりつ - CAO HIỆU SUẤT）: Hiệu suất cao, tiết kiệm năng lượng. Tiền tố 高- (cao)."
-        },
-        {
-          "id": "N2_07_M4_01",
-          "typeId": "N2-MO-CONT",
-          "category": "Mondai 4: 文脈規定",
-          "stem": "住民からの問い合わせに対して、職員が（　）な対応を心がけている。",
-          "targetWord": "迅速",
-          "options": [
-            {
-              "id": "A",
-              "text": "窮屈"
-            },
-            {
-              "id": "B",
-              "text": "頑固"
-            },
-            {
-              "id": "C",
-              "text": "几帳面"
-            },
-            {
-              "id": "D",
-              "text": "迅速"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "迅速（じんそく - TẤN TỐC）: Nhanh chóng, mau lẹ trong xử lý nghiệp vụ.",
-          "distractorExplanations": {
-            "A": "窮屈: Chật chội, gò bó, không thoải mái.",
-            "B": "頑固: Cố chấp, bướng bỉnh.",
-            "C": "几帳面: Cẩn thận, ngăn nắp (thường nói về tính cách con người, không ghép tự nhiên với な対応 bằng 迅速)."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "迅速（じんそく - TẤN TỐC）: Nhanh chóng, mau lẹ trong xử lý nghiệp vụ."
-        },
-        {
-          "id": "N2_07_M4_02",
-          "typeId": "N2-MO-CONT",
-          "category": "Mondai 4: 文脈規定",
-          "stem": "事務処理の（　）により、別の住民の方へ案内通知が誤送されてしまった。",
-          "targetWord": "手違い",
-          "options": [
-            {
-              "id": "A",
-              "text": "手違い"
-            },
-            {
-              "id": "B",
-              "text": "手間"
-            },
-            {
-              "id": "C",
-              "text": "手配"
-            },
-            {
-              "id": "D",
-              "text": "手品"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "手違い（てちがい）: Sự nhầm lẫn, sai sót trong quá trình xử lý công việc hành chính.",
-          "distractorExplanations": {
-            "B": "手間: Công sức, thời gian bỏ ra.",
-            "C": "手配: Sự sắp xếp, chuẩn bị phương tiện/nhân lực.",
-            "D": "手品: Trò ảo thuật."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "手違い（てちがい）: Sự nhầm lẫn, sai sót trong quá trình xử lý công việc hành chính."
-        },
-        {
-          "id": "N2_07_M4_03",
-          "typeId": "N2-MO-CONT",
-          "category": "Mondai 4: 文脈規定",
-          "stem": "業務の遅れが生じないよう、関係部署と密に連絡を（　）必要がある。",
-          "targetWord": "取り合う",
-          "options": [
-            {
-              "id": "A",
-              "text": "取り持つ"
-            },
-            {
-              "id": "B",
-              "text": "取り合う"
-            },
-            {
-              "id": "C",
-              "text": "取り入れる"
-            },
-            {
-              "id": "D",
-              "text": "取り組む"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "連絡を取り合う: Giữ liên lạc chặt chẽ hai chiều với nhau.",
-          "distractorExplanations": {
-            "A": "取り持つ: Làm trung gian hòa giải.",
-            "C": "取り入れる: Tiếp thu, áp dụng ý kiến.",
-            "D": "取り組む: Nỗ lực, bắt tay vào giải quyết vấn đề."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "連絡を取り合う: Giữ liên lạc chặt chẽ hai chiều với nhau."
-        },
-        {
-          "id": "N2_07_M4_04",
-          "typeId": "N2-MO-CONT",
-          "category": "Mondai 4: 文脈規定",
-          "stem": "もし面談の日程にご（　）がございましたら、遠慮なくお知らせください。",
-          "targetWord": "差し支え",
-          "options": [
-            {
-              "id": "A",
-              "text": "邪魔"
-            },
-            {
-              "id": "B",
-              "text": "お構い"
-            },
-            {
-              "id": "C",
-              "text": "差し支え"
-            },
-            {
-              "id": "D",
-              "text": "迷惑"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "差し支え（さしつかえ）: Trở ngại, bất tiện về thời gian biểu. Mẫu lịch sự: ご差し支えがございましたら (Nếu có gì bất tiện/bận).",
-          "distractorExplanations": {
-            "A": "邪魔: Làm phiền, cản trở.",
-            "B": "お構い: Bận tâm, chăm sóc (như trong お構いなく).",
-            "D": "迷惑: Sự phiền toái; trong kính ngữ thường dùng ご都合 hoặc ご差し支え."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "差し支え（さしつかえ）: Trở ngại, bất tiện về thời gian biểu. Mẫu lịch sự: ご差し支えがございましたら (Nếu có gì bất tiện/bận)."
-        },
-        {
-          "id": "N2_07_M4_05",
-          "typeId": "N2-MO-CONT",
-          "category": "Mondai 4: 文脈規定",
-          "stem": "育児や介護と仕事を両立できるよう、勤務時間に（　）の利くフレックスタイム制を導入した。",
-          "targetWord": "融通",
-          "options": [
-            {
-              "id": "A",
-              "text": "適応"
-            },
-            {
-              "id": "B",
-              "text": "妥協"
-            },
-            {
-              "id": "C",
-              "text": "余裕"
-            },
-            {
-              "id": "D",
-              "text": "融通"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "融通が利く（ゆうづうがきく）: Linh hoạt, cơ động, có thể xoay xở điều chỉnh theo tình huống.",
-          "distractorExplanations": {
-            "A": "適応: Thích ứng.",
-            "B": "妥協: Thỏa hiệp, nhượng bộ.",
-            "C": "余裕: Dư dả thời gian/tiền bạc, không đi với cụm が利く."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "融通が利く（ゆうづうがきく）: Linh hoạt, cơ động, có thể xoay xở điều chỉnh theo tình huống."
-        },
-        {
-          "id": "N2_07_M4_06",
-          "typeId": "N2-MO-CONT",
-          "category": "Mondai 4: 文脈規定",
-          "stem": "通勤ラッシュを避けるため、社員ごとに始業時刻を30分ずつずらす「（　）出勤」を導入した。",
-          "targetWord": "時差",
-          "options": [
-            {
-              "id": "A",
-              "text": "時差"
-            },
-            {
-              "id": "B",
-              "text": "交代"
-            },
-            {
-              "id": "C",
-              "text": "短縮"
-            },
-            {
-              "id": "D",
-              "text": "移動"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "時差出勤（じさしゅっきん）: Hình thức lệch giờ bắt đầu làm việc để tránh giờ cao điểm; câu này nêu rõ giờ vào làm của từng nhân viên được giãn cách.",
-          "distractorExplanations": {
-            "B": "交代出勤 thường chỉ việc thay phiên hoặc làm theo ca, không phải lệch giờ vào làm giữa các nhân viên.",
-            "C": "短縮出勤 gợi việc rút ngắn giờ làm, không phải giãn thời điểm bắt đầu làm.",
-            "D": "移動出勤 không phải cách gọi thông dụng cho lịch bắt đầu làm lệch giờ."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "時差出勤（じさしゅっきん）: Hình thức lệch giờ bắt đầu làm việc để tránh giờ cao điểm; câu này nêu rõ giờ vào làm của từng nhân viên được giãn cách."
-        },
-        {
-          "id": "N2_07_M4_07",
-          "typeId": "N2-MO-CONT",
-          "category": "Mondai 4: 文脈規定",
-          "stem": "高齢者や障害をお持ちの方の申請手続きを支援するため、窓口で様々な（　）を図っている。",
-          "targetWord": "便宜",
-          "options": [
-            {
-              "id": "A",
-              "text": "待遇"
-            },
-            {
-              "id": "B",
-              "text": "便宜"
-            },
-            {
-              "id": "C",
-              "text": "利益"
-            },
-            {
-              "id": "D",
-              "text": "都合"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "便宜を図る（べんぎをはかる）: Tạo điều kiện thuận lợi, hỗ trợ tiện ích đặc biệt cho người cần giúp đỡ.",
-          "distractorExplanations": {
-            "A": "待遇: Đãi ngộ, chế độ lương bổng.",
-            "C": "利益: Lợi nhuận kinh tế.",
-            "D": "都合: Sự thuận tiện/lịch trình, không đi với cụm を図る theo nghĩa hỗ trợ dịch vụ."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "便宜を図る（べんぎをはかる）: Tạo điều kiện thuận lợi, hỗ trợ tiện ích đặc biệt cho người cần giúp đỡ."
-        },
-        {
-          "id": "N2_07_M5_01",
-          "typeId": "N2-MO-PARA",
-          "category": "Mondai 5: 言い換え類義",
-          "stem": "未提出の書類について、市役所の担当課から【催促】の電話があった。",
-          "targetWord": "催促",
-          "options": [
-            {
-              "id": "A",
-              "text": "受理したと知らせること"
-            },
-            {
-              "id": "B",
-              "text": "内容を詳しく説明すること"
-            },
-            {
-              "id": "C",
-              "text": "早く出すよう求めること"
-            },
-            {
-              "id": "D",
-              "text": "書き直しを命じること"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "催促（さいそく）: Hối thúc, yêu cầu thực hiện hoặc nộp gấp.",
-          "distractorExplanations": {
-            "A": "Báo đã thụ lý là 受理通知.",
-            "B": "Giải thích nội dung chi tiết là 説明.",
-            "D": "Yêu cầu viết lại là 修正指示."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "催促（さいそく）: Hối thúc, yêu cầu thực hiện hoặc nộp gấp."
-        },
-        {
-          "id": "N2_07_M5_02",
-          "typeId": "N2-MO-PARA",
-          "category": "Mondai 5: 言い換え類義",
-          "stem": "午後から他部署の責任者と今後の業務方針について【打ち合わせ】を行う予定だ。",
-          "targetWord": "打ち合わせ",
-          "options": [
-            {
-              "id": "A",
-              "text": "演説"
-            },
-            {
-              "id": "B",
-              "text": "雑談"
-            },
-            {
-              "id": "C",
-              "text": "審査"
-            },
-            {
-              "id": "D",
-              "text": "協議"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "打ち合わせ（うちあわせ）: Buổi thảo luận, trao đổi bàn bạc trước trong công việc, đồng nghĩa với 協議（きょうぎ）.",
-          "distractorExplanations": {
-            "A": "演説: Diễn thuyết.",
-            "B": "雑談: Tán gẫu.",
-            "C": "審査: Thẩm tra, xét duyệt."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "打ち合わせ（うちあわせ）: Buổi thảo luận, trao đổi bàn bạc trước trong công việc, đồng nghĩa với 協議（きょうぎ）."
-        },
-        {
-          "id": "N2_07_M5_03",
-          "typeId": "N2-MO-PARA",
-          "category": "Mondai 5: 言い換え類義",
-          "stem": "台風の接近に伴い、本日の野外イベントの開催は【見合わせる】ことになった。",
-          "targetWord": "見合わせる",
-          "options": [
-            {
-              "id": "A",
-              "text": "中止・延期する"
-            },
-            {
-              "id": "B",
-              "text": "予定通り実行する"
-            },
-            {
-              "id": "C",
-              "text": "規模を拡大する"
-            },
-            {
-              "id": "D",
-              "text": "すぐに開始する"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "見合わせる（みあわせる）: Tạm dừng, hoãn lại hoặc hủy bỏ do tình hình bất lợi.",
-          "distractorExplanations": {
-            "B": "Tiến hành đúng kế hoạch là 実行/決行.",
-            "C": "Mở rộng quy mô là 拡大.",
-            "D": "Bắt đầu ngay là 即時開始."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "見合わせる（みあわせる）: Tạm dừng, hoãn lại hoặc hủy bỏ do tình hình bất lợi."
-        },
-        {
-          "id": "N2_07_M5_04",
-          "typeId": "N2-MO-PARA",
-          "category": "Mondai 5: 言い換え類義",
-          "stem": "【念のため】、申請書を提出する前に必要な添付書類がそろっているか確かめた。",
-          "targetWord": "念のため",
-          "options": [
-            {
-              "id": "A",
-              "text": "急いで処理するために"
-            },
-            {
-              "id": "B",
-              "text": "間違いがないよう確認するために"
-            },
-            {
-              "id": "C",
-              "text": "相手に強く注意を促すために"
-            },
-            {
-              "id": "D",
-              "text": "記録として残すために"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "念のため（ねんのため）: Làm thêm một bước xác nhận để phòng trường hợp có thiếu sót hoặc nhầm lẫn; trong câu này là kiểm tra đủ giấy tờ trước khi nộp.",
-          "distractorExplanations": {
-            "A": "急いで処理するために nêu tốc độ xử lý, không phải việc kiểm tra phòng ngừa.",
-            "C": "相手に強く注意を促すために diễn tả nhắc nhở người khác, gần với 念を押す.",
-            "D": "記録として残すために nêu mục đích lưu hồ sơ, không phải kiểm tra để phòng sai sót."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "念のため（ねんのため）: Làm thêm một bước xác nhận để phòng trường hợp có thiếu sót hoặc nhầm lẫn; trong câu này là kiểm tra đủ giấy tờ trước khi nộp."
-        },
-        {
-          "id": "N2_07_M5_05",
-          "typeId": "N2-MO-PARA",
-          "category": "Mondai 5: 言い換え類義",
-          "stem": "正式な決裁が下りるまで、【ひとまず】既存のスケジュールで準備を進めておこう。",
-          "targetWord": "ひとまず",
-          "options": [
-            {
-              "id": "A",
-              "text": "永久に"
-            },
-            {
-              "id": "B",
-              "text": "決して"
-            },
-            {
-              "id": "C",
-              "text": "とりあえず"
-            },
-            {
-              "id": "D",
-              "text": "完全に完了して"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "ひとまず: Tạm thời, trước mắt cứ như thế đã, đồng nghĩa với とりあえず.",
-          "distractorExplanations": {
-            "A": "永久に: Vĩnh viễn.",
-            "B": "決して: Tuyệt đối không.",
-            "D": "完全に完了して: Hoàn thành triệt để."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "ひとまず: Tạm thời, trước mắt cứ như thế đã, đồng nghĩa với とりあえず."
-        },
-        {
-          "id": "N2_07_M6_01",
-          "typeId": "N2-MO-USE",
-          "category": "Mondai 6: 用法",
-          "stem": "次の言葉の使い方が最も適切なものを一つ選びなさい。【恐縮】",
-          "targetWord": "恐縮",
-          "options": [
-            {
-              "id": "A",
-              "text": "景気の悪化に伴い、会社の業績が恐縮している。"
-            },
-            {
-              "id": "B",
-              "text": "マラソン大会で優勝して、恐縮のあまり飛び上がって喜んだ。"
-            },
-            {
-              "id": "C",
-              "text": "明日の出張に向けて、部屋の荷物を恐縮にまとめた。"
-            },
-            {
-              "id": "D",
-              "text": "お忙しいところ大変恐縮ですが、アンケートへのご協力をお願い申し上げます。"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "恐縮（きょうしゅく - KHỦNG SÚC）: Rất áy náy, xin lỗi vì làm phiền người khác khi nhờ vả, yêu cầu trong giao tiếp kính ngữ trang trọng.",
-          "distractorExplanations": {
-            "A": "Công ty sa sút hoặc thu hẹp thì dùng 低迷 hoặc 縮小.",
-            "B": "Vui mừng nhảy cẫng lên thì dùng 歓喜 hoặc 大喜び, không dùng 恐縮.",
-            "C": "Dọn dẹp nhanh gọn thì dùng 手際よく hoặc コンパクトに."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "恐縮（きょうしゅく - KHỦNG SÚC）: Rất áy náy, xin lỗi vì làm phiền người khác khi nhờ vả, yêu cầu trong giao tiếp kính ngữ trang trọng."
-        },
-        {
-          "id": "N2_07_M6_02",
-          "typeId": "N2-MO-USE",
-          "category": "Mondai 6: 用法",
-          "stem": "次の言葉の使い方が最も適切なものを一つ選びなさい。【経由】",
-          "targetWord": "経由",
-          "options": [
-            {
-              "id": "A",
-              "text": "今回のヨーロッパ出張は、ドーハを経由してフランクフルトへ向かう航空便を利用する。"
-            },
-            {
-              "id": "B",
-              "text": "雨が激しく降ってきたので、傘を経由して駅まで走った。"
-            },
-            {
-              "id": "C",
-              "text": "昨晩は激しい運動をしたので、夕食後にすぐ経由した。"
-            },
-            {
-              "id": "D",
-              "text": "宿題を経由してから、友人と公園へ遊びに出かけた。"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "経由（けいゆ - KINH DO）: Quá cảnh, đi qua một trạm/địa điểm trung gian để đến đích.",
-          "distractorExplanations": {
-            "B": "Bật ô che mưa thì dùng 傘を差して.",
-            "C": "Nghỉ ngơi hoặc đi ngủ thì dùng 就寝した hoặc 休息した.",
-            "D": "Làm xong bài tập thì dùng 済ませて."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "経由（けいゆ - KINH DO）: Quá cảnh, đi qua một trạm/địa điểm trung gian để đến đích."
-        },
-        {
-          "id": "N2_07_M6_03",
-          "typeId": "N2-MO-USE",
-          "category": "Mondai 6: 用法",
-          "stem": "次の言葉の使い方が最も適切なものを一つ選びなさい。【負担】",
-          "targetWord": "負担",
-          "options": [
-            {
-              "id": "A",
-              "text": "真冬の寒さに耐えるため、厚手のコートと手袋を負担して外出した。"
-            },
-            {
-              "id": "B",
-              "text": "新しい大型プロジェクトの統括責任者を任され、精神的な負担が重くなった。"
-            },
-            {
-              "id": "C",
-              "text": "彼はいつも面白い冗談を言って、周囲の同僚たちを負担させている。"
-            },
-            {
-              "id": "D",
-              "text": "週末の読書のために、図書館で学術書を3冊負担して帰宅した。"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "負担（ふたん - PHỤ ĐẢM）: Gánh vác trách nhiệm, gánh nặng tâm lý hoặc chi phí tiền bạc.",
-          "distractorExplanations": {
-            "A": "Mặc quần áo ấm thì dùng 着用して.",
-            "C": "Làm cho đồng nghiệp cười sảng khoái thì dùng 笑わせている.",
-            "D": "Mượn sách thư viện thì dùng 借りて."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "負担（ふたん - PHỤ ĐẢM）: Gánh vác trách nhiệm, gánh nặng tâm lý hoặc chi phí tiền bạc."
-        },
-        {
-          "id": "N2_07_M6_04",
-          "typeId": "N2-MO-USE",
-          "category": "Mondai 6: 用法",
-          "stem": "次の言葉の使い方が最も適切なものを一つ選びなさい。【配布】",
-          "targetWord": "配布",
-          "options": [
-            {
-              "id": "A",
-              "text": "大雪の影響で電車のダイヤが配布し、通勤客に影響が出た。"
-            },
-            {
-              "id": "B",
-              "text": "手紙を投函する前に、記念切手を封筒の右上に配布した。"
-            },
-            {
-              "id": "C",
-              "text": "市民説明会の会場入口で、来場者全員に防災ガイドブックを配布した。"
-            },
-            {
-              "id": "D",
-              "text": "会議室のテーブルの上に、プロジェクターの電源コードを綺麗に配布した。"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "配布（はいふ - PHỐI PHỐ）: Phát, phát tán tài liệu, sách báo, tờ rơi rộng rãi cho nhiều người.",
-          "distractorExplanations": {
-            "A": "Lịch tàu bị xáo trộn, rối loạn thì dùng 乱れ (みだれ).",
-            "B": "Dán tem lên phong bì thì dùng 貼った (はった).",
-            "D": "Bố trí, sắp đặt dây điện thì dùng 配線した hoặc 整頓した."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "配布（はいふ - PHỐI PHỐ）: Phát, phát tán tài liệu, sách báo, tờ rơi rộng rãi cho nhiều người."
-        },
-        {
-          "id": "N2_07_M6_05",
-          "typeId": "N2-MO-USE",
-          "category": "Mondai 6: 用法",
-          "stem": "次の言葉の使い方が最も適切なものを一つ選びなさい。【照会】",
-          "targetWord": "照会",
-          "options": [
-            {
-              "id": "A",
-              "text": "夜遅くまで残業していたため、オフィスの天井の照会を暗くした。"
-            },
-            {
-              "id": "B",
-              "text": "毎朝出勤する途中、近所の知り合いと笑顔で照会を交わしている。"
-            },
-            {
-              "id": "C",
-              "text": "スープの味付けが薄かったので、塩と胡椒を照会して整えた。"
-            },
-            {
-              "id": "D",
-              "text": "給付金の受給資格を満たしているか、窓口の端末から住民台帳データに照会した。"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "照会（しょうかい - CHIẾU HỘI）: Tra cứu, đối chiếu thông tin trong cơ sở dữ liệu hoặc hỏi xác minh ở cơ quan chức năng.",
-          "distractorExplanations": {
-            "A": "Đèn chiếu sáng văn phòng là 照明 (しょうめい).",
-            "B": "Chào hỏi thì dùng 挨拶 (あいさつ).",
-            "C": "Gia giảm gia vị thì dùng 加減して hoặc 調節して."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "照会（しょうかい - CHIẾU HỘI）: Tra cứu, đối chiếu thông tin trong cơ sở dữ liệu hoặc hỏi xác minh ở cơ quan chức năng."
-        },
-        {
-          "id": "N2_07_M7_01",
-          "typeId": "N2-GR-FORM",
-          "category": "Mondai 7: 文法形式の判断",
-          "stem": "窓口の仕事では、住民から感謝の言葉をかけられる（　）、この仕事を続けてよかったと感じる。",
-          "targetWord": "につけ",
-          "options": [
-            {
-              "id": "A",
-              "text": "につけ"
-            },
-            {
-              "id": "B",
-              "text": "を契機に"
-            },
-            {
-              "id": "C",
-              "text": "に際して"
-            },
-            {
-              "id": "D",
-              "text": "はおろか"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "～につけ: Cứ mỗi khi xảy ra việc gì thì lại nảy sinh cảm xúc hoặc suy nghĩ. 住民から感謝の言葉をかけられるにつけ、この仕事を続けてよかったと感じる (cứ mỗi lần được người dân cảm ơn lại thấy mình đã chọn đúng công việc).",
-          "distractorExplanations": {
-            "B": "～を契機に nối sau một danh từ để nêu bước ngoặt dẫn đến thay đổi; ở đây cần biểu đạt cảm xúc lặp lại mỗi lần.",
-            "C": "～に際して thường nối sau danh từ/sự kiện để nói 'nhân dịp'; không dùng sau mệnh đề động từ này với nghĩa mỗi lần.",
-            "D": "～はおろか cần cấu trúc nêu A chưa nói đến B; không thể hiện quan hệ lặp lại và cảm xúc trong câu."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "～につけ: Cứ mỗi khi xảy ra việc gì thì lại nảy sinh cảm xúc hoặc suy nghĩ. 住民から感謝の言葉をかけられるにつけ、この仕事を続けてよかったと感じる (cứ mỗi lần được người dân cảm ơn lại thấy mình đã chọn đúng công việc)."
-        },
-        {
-          "id": "N2_07_M7_02",
-          "typeId": "N2-GR-FORM",
-          "category": "Mondai 7: 文法形式の判断",
-          "stem": "自治体の窓口業務におけるペーパーレス化は、ここ数年で着実に進み（　）。",
-          "targetWord": "つつある",
-          "options": [
-            {
-              "id": "A",
-              "text": "っこない"
-            },
-            {
-              "id": "B",
-              "text": "つつある"
-            },
-            {
-              "id": "C",
-              "text": "かねない"
-            },
-            {
-              "id": "D",
-              "text": "ざるを得ない"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "動詞マス形＋つつある: Đang dần dần biến đổi theo một hướng nhất định: 着実に進みつつある (đang dần tiến triển đều đặn).",
-          "distractorExplanations": {
-            "A": "っこない: Tuyệt đối không thể (khẳng định phủ định mạnh).",
-            "C": "かねない: Có nguy cơ dẫn tới hậu quả xấu.",
-            "D": "ざるを得ない: Buộc phải làm dù không muốn."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "動詞マス形＋つつある: Đang dần dần biến đổi theo một hướng nhất định: 着実に進みつつある (đang dần tiến triển đều đặn)."
-        },
-        {
-          "id": "N2_07_M7_03",
-          "typeId": "N2-GR-FORM",
-          "category": "Mondai 7: 文法形式の判断",
-          "stem": "本市の総合福祉センターは、年齢や国籍（　）、地域住民であれば誰でも利用可能だ。",
-          "targetWord": "を問わず",
-          "options": [
-            {
-              "id": "A",
-              "text": "に相違ない"
-            },
-            {
-              "id": "B",
-              "text": "を皮切りに"
-            },
-            {
-              "id": "C",
-              "text": "を問わず"
-            },
-            {
-              "id": "D",
-              "text": "からして"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "～を問わず（をとわず）: Bất kể, không phân biệt (tuổi tác, giới tính, quốc tịch): 年齢や国籍を問わず.",
-          "distractorExplanations": {
-            "A": "～に相違ない: Chắc chắn là (phán đoán chắc nịch).",
-            "B": "～を皮切りに: Mở đầu bằng một chuỗi hành động phát triển liên tiếp.",
-            "D": "～からして: Ngay từ điểm A đã thấy..."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "～を問わず（をとわず）: Bất kể, không phân biệt (tuổi tác, giới tính, quốc tịch): 年齢や国籍を問わず."
-        },
-        {
-          "id": "N2_07_M7_04",
-          "typeId": "N2-GR-FORM",
-          "category": "Mondai 7: 文法形式の判断",
-          "stem": "個人情報保護に関する社内規程は、正社員か契約社員かなどの雇用形態（　）、全職員に同じ基準で適用される。",
-          "targetWord": "を問わず",
-          "options": [
-            {
-              "id": "A",
-              "text": "に基づき"
-            },
-            {
-              "id": "B",
-              "text": "に応じて"
-            },
-            {
-              "id": "C",
-              "text": "をめぐって"
-            },
-            {
-              "id": "D",
-              "text": "を問わず"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "名詞＋を問わず: Bất kể, không phân biệt. Cụm '同じ基準で適用' xác nhận quy định áp dụng như nhau với mọi hình thức tuyển dụng.",
-          "distractorExplanations": {
-            "A": "に基づき cần đứng sau căn cứ làm nền tảng cho một hành động; ở đây danh từ 雇用形態 là nhóm được miễn phân biệt, không phải căn cứ áp dụng.",
-            "B": "に応じて sẽ biểu thị tiêu chuẩn thay đổi tùy theo hình thức tuyển dụng, trái với '同じ基準で'.",
-            "C": "をめぐって thường nói về tranh luận hoặc vấn đề xoay quanh một chủ đề; không nối được với ý áp dụng quy định đồng nhất."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "名詞＋を問わず: Bất kể, không phân biệt. Cụm '同じ基準で適用' xác nhận quy định áp dụng như nhau với mọi hình thức tuyển dụng."
-        },
-        {
-          "id": "N2_07_M7_05",
-          "typeId": "N2-GR-FORM",
-          "category": "Mondai 7: 文法形式の判断",
-          "stem": "住民の機密データを扱う業務である以上、確認作業を怠る（　）。",
-          "targetWord": "わけにはいかない",
-          "options": [
-            {
-              "id": "A",
-              "text": "わけにはいかない"
-            },
-            {
-              "id": "B",
-              "text": "にほかならない"
-            },
-            {
-              "id": "C",
-              "text": "にすぎない"
-            },
-            {
-              "id": "D",
-              "text": "ほかはない"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "動詞辞書形＋わけにはいかない: Không thể làm việc đó vì trách nhiệm xã hội, lương tâm, đạo đức: 怠るわけにはいかない (không thể lơ là được).",
-          "distractorExplanations": {
-            "B": "～にほかならない: Chính là, không gì khác ngoài...",
-            "C": "～にすぎない: Chỉ là... không hơn.",
-            "D": "～ほかはない: Không còn cách nào khác ngoài việc..."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "動詞辞書形＋わけにはいかない: Không thể làm việc đó vì trách nhiệm xã hội, lương tâm, đạo đức: 怠るわけにはいかない (không thể lơ là được)."
-        },
-        {
-          "id": "N2_07_M7_06",
-          "typeId": "N2-GR-FORM",
-          "category": "Mondai 7: 文法形式の判断",
-          "stem": "本庁舎の市民交流ラウンジは、図書カードを提示した来庁者（　）、平日午後7時まで利用できます。",
-          "targetWord": "に限り",
-          "options": [
-            {
-              "id": "A",
-              "text": "に際して"
-            },
-            {
-              "id": "B",
-              "text": "に限り"
-            },
-            {
-              "id": "C",
-              "text": "に先立ち"
-            },
-            {
-              "id": "D",
-              "text": "につれて"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "～に限り: Chỉ giới hạn trong nhóm được nêu. ここでは『図書カードを提示した来庁者に限り』、chỉ người đến làm thủ tục có đưa thẻ thư viện mới được dùng phòng đến 19 giờ.",
-          "distractorExplanations": {
-            "A": "～に際して: Nhân dịp một sự kiện; không diễn tả điều kiện giới hạn người được sử dụng.",
-            "C": "～に先立ち: Trước khi một sự kiện diễn ra; không nối điều kiện với quyền sử dụng.",
-            "D": "～につれて: Càng... thì càng...; cần hai biến đổi song song, không phù hợp với điều kiện cấp quyền."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "～に限り: Chỉ giới hạn trong nhóm được nêu. ここでは『図書カードを提示した来庁者に限り』、chỉ người đến làm thủ tục có đưa thẻ thư viện mới được dùng phòng đến 19 giờ."
-        },
-        {
-          "id": "N2_07_M7_07",
-          "typeId": "N2-GR-FORM",
-          "category": "Mondai 7: 文法形式の判断",
-          "stem": "本日は館内電気設備の定期点検（　）、全館休館とさせていただきます。",
-          "targetWord": "につき",
-          "options": [
-            {
-              "id": "A",
-              "text": "をよそに"
-            },
-            {
-              "id": "B",
-              "text": "につけて"
-            },
-            {
-              "id": "C",
-              "text": "につき"
-            },
-            {
-              "id": "D",
-              "text": "のもとで"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "名詞＋につき: Vì lý do... (cách thông báo chính thức trang trọng trên bảng tin công cộng): 点検につき (do kiểm tra định kỳ).",
-          "distractorExplanations": {
-            "A": "～をよそに: Mặc kệ, bỏ ngoài tai.",
-            "B": "～につけて: Cứ mỗi lần...",
-            "D": "～のもとで: Dưới sự chỉ dẫn/ảnh hưởng của ai."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "名詞＋につき: Vì lý do... (cách thông báo chính thức trang trọng trên bảng tin công cộng): 点検につき (do kiểm tra định kỳ)."
-        },
-        {
-          "id": "N2_07_M7_08",
-          "typeId": "N2-GR-FORM",
-          "category": "Mondai 7: 文法形式の判断",
-          "stem": "新任の窓口担当者が、少し不安（　）表情で来庁者の書類に目を通していた。",
-          "targetWord": "げな",
-          "options": [
-            {
-              "id": "A",
-              "text": "めいた"
-            },
-            {
-              "id": "B",
-              "text": "っぽい"
-            },
-            {
-              "id": "C",
-              "text": "がちな"
-            },
-            {
-              "id": "D",
-              "text": "げな"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "イ形容詞語幹/名詞＋げな: Có vẻ, lộ vẻ (tâm trạng biểu lộ ra bên ngoài): 不安げな表情 (vẻ mặt lộ vẻ bất an).",
-          "distractorExplanations": {
-            "A": "めいた: Có màu sắc, nhuốm màu (bí mật, xuân sang: 謎めいた).",
-            "B": "っぽい: Thiên về, hay... (dễ nổi cáu, mang tính trẻ con: 怒りっぽい).",
-            "C": "がちな: Thường hay xảy ra xu hướng xấu (hay nghỉ việc: 休みがち)."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "イ形容詞語幹/名詞＋げな: Có vẻ, lộ vẻ (tâm trạng biểu lộ ra bên ngoài): 不安げな表情 (vẻ mặt lộ vẻ bất an)."
-        },
-        {
-          "id": "N2_07_M7_09",
-          "typeId": "N2-GR-FORM",
-          "category": "Mondai 7: 文法形式の判断",
-          "stem": "これほど複雑な行政手続きを、事前の案内なしに一般市民が一人で理解でき（　）。",
-          "targetWord": "っこない",
-          "options": [
-            {
-              "id": "A",
-              "text": "っこない"
-            },
-            {
-              "id": "B",
-              "text": "かねない"
-            },
-            {
-              "id": "C",
-              "text": "がたい"
-            },
-            {
-              "id": "D",
-              "text": "ざるを得ない"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "動詞マス形＋っこない: Làm sao mà... có thể được (khẳng định dứt khoát sự bất khả thi trong suy nghĩ người nói): 理解できっこない (làm sao mà tự hiểu nổi).",
-          "distractorExplanations": {
-            "B": "かねない: Có khả năng xảy ra nguy cơ xấu.",
-            "C": "がたい: Khó lòng làm được (về mặt tâm lý, cảm xúc: 信じがたい).",
-            "D": "ざるを得ない: Buộc phải..."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "動詞マス形＋っこない: Làm sao mà... có thể được (khẳng định dứt khoát sự bất khả thi trong suy nghĩ người nói): 理解できっこない (làm sao mà tự hiểu nổi)."
-        },
-        {
-          "id": "N2_07_M7_10",
-          "typeId": "N2-GR-FORM",
-          "category": "Mondai 7: 文法形式の判断",
-          "stem": "新年度の予算案を編成する（　）、各地域からの要望事項を詳細に調査した。",
-          "targetWord": "にあたって",
-          "options": [
-            {
-              "id": "A",
-              "text": "を限りに"
-            },
-            {
-              "id": "B",
-              "text": "にあたって"
-            },
-            {
-              "id": "C",
-              "text": "をおいて"
-            },
-            {
-              "id": "D",
-              "text": "からして"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "動詞辞書形＋にあたって: Khi tiến hành, nhân dịp chuẩn bị cho một việc trọng đại: 編成するにあたって.",
-          "distractorExplanations": {
-            "A": "～を限りに: Cho đến hết... (hạn chót).",
-            "C": "～をおいて: Ngoại trừ người/vật này ra thì không có...",
-            "D": "～からして: Xét ngay từ..."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "動詞辞書形＋にあたって: Khi tiến hành, nhân dịp chuẩn bị cho một việc trọng đại: 編成するにあたって."
-        },
-        {
-          "id": "N2_07_M7_11",
-          "typeId": "N2-GR-FORM",
-          "category": "Mondai 7: 文法形式の判断",
-          "stem": "新設予定の児童館の運営方針（　）、地域住民の間で活発な意見交換が行われた。",
-          "targetWord": "をめぐって",
-          "options": [
-            {
-              "id": "A",
-              "text": "を通じて"
-            },
-            {
-              "id": "B",
-              "text": "にかけては"
-            },
-            {
-              "id": "C",
-              "text": "をめぐって"
-            },
-            {
-              "id": "D",
-              "text": "を抜きにして"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "名詞＋をめぐって: Xoay quanh một đề tài/tranh luận, ý kiến đối lập: 運営方針をめぐって (xoay quanh phương châm vận hành).",
-          "distractorExplanations": {
-            "A": "～を通じて: Thông qua suốt một khoảng thời gian hoặc phương tiện.",
-            "B": "～にかけては: Nếu xét về sở trường/lĩnh vực gì thì không thua ai.",
-            "D": "～を抜きにして: Nếu không có... thì không thể..."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "名詞＋をめぐって: Xoay quanh một đề tài/tranh luận, ý kiến đối lập: 運営方針をめぐって (xoay quanh phương châm vận hành)."
-        },
-        {
-          "id": "N2_07_M7_12",
-          "typeId": "N2-GR-FORM",
-          "category": "Mondai 7: 文法形式の判断",
-          "stem": "これほど短期間で窓口の混雑を解消できたのは、全職員の連携と努力の（　）。",
-          "targetWord": "賜物にほかならない",
-          "options": [
-            {
-              "id": "A",
-              "text": "極みだ"
-            },
-            {
-              "id": "B",
-              "text": "きらいがある"
-            },
-            {
-              "id": "C",
-              "text": "始末だ"
-            },
-            {
-              "id": "D",
-              "text": "賜物にほかならない"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "～にほかならない: Chính là, không gì khác hơn là...: 努力の賜物にほかならない (chính là thành quả từ sự nỗ lực của toàn thể nhân viên).",
-          "distractorExplanations": {
-            "A": "～極みだ: Tột cùng của cảm xúc (hạnh phúc, vinh dự: 痛恨の極み).",
-            "B": "～きらいがある: Có xu hướng tật xấu/tiêu cực.",
-            "C": "～始末だ: Rốt cuộc chuốc lấy kết cục tồi tệ."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "～にほかならない: Chính là, không gì khác hơn là...: 努力の賜物にほかならない (chính là thành quả từ sự nỗ lực của toàn thể nhân viên)."
-        },
-        {
-          "id": "N2_07_M8_01",
-          "typeId": "N2-GR-STAR",
-          "category": "Mondai 8: 文の組み立て",
-          "stem": "証明書を申請する場合は、（　　）（　　）★（　　）。",
-          "options": [
-            {
-              "id": "A",
-              "text": "記入し"
-            },
-            {
-              "id": "B",
-              "text": "本人確認書類を"
-            },
-            {
-              "id": "C",
-              "text": "申請書に必要事項を"
-            },
-            {
-              "id": "D",
-              "text": "窓口へ提出してください"
-            }
-          ],
-          "correctAnswer": "B",
-          "starPosition": 3,
-          "assembledSentence": "証明書を申請する場合は、申請書に必要事項を記入し本人確認書類を窓口へ提出してください。",
-          "explanation": "Trình tự: 申請書に必要事項を (C) -> 記入し (A) -> 本人確認書類を (B) -> 窓口へ提出してください (D). Tân ngữ 必要事項を đi cùng động từ 記入し; tiếp theo là giấy tờ xác minh danh tính làm tân ngữ của 提出してください. Vị trí ★ là 本人確認書類を (B).",
-          "distractorExplanations": {
-            "A": "記入し nối với tân ngữ 必要事項を trong cụm 申請書に必要事項を記入し; không phải vị trí đánh dấu ★.",
-            "C": "申請書に必要事項を đứng ở vị trí đầu tiên để làm nền cho động từ 記入し.",
-            "D": "窓口へ提出してください là mệnh đề kết thúc câu, đứng sau các tân ngữ cần nộp."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "Trình tự: 申請書に必要事項を (C) -> 記入し (A) -> 本人確認書類を (B) -> 窓口へ提出してください (D). Tân ngữ 必要事項を đi cùng động từ 記入し; tiếp theo là giấy tờ xác minh danh tính làm tân ngữ của 提出してください. Vị trí ★ là 本人確認書類を (B)."
-        },
-        {
-          "id": "N2_07_M8_02",
-          "typeId": "N2-GR-STAR",
-          "category": "Mondai 8: 文の組み立て",
-          "stem": "今回の臨時給付金は、世帯所得の（　　）（　　）★（　　）一律に支給されます。",
-          "options": [
-            {
-              "id": "A",
-              "text": "問わず、"
-            },
-            {
-              "id": "B",
-              "text": "すべての"
-            },
-            {
-              "id": "C",
-              "text": "対象世帯へ"
-            },
-            {
-              "id": "D",
-              "text": "多寡を"
-            }
-          ],
-          "correctAnswer": "B",
-          "starPosition": 3,
-          "assembledSentence": "今回の臨時給付金は、世帯所得の多寡を問わず、すべての対象世帯へ一律に支給されます。",
-          "explanation": "Cấu trúc: ～を問わず (không phân biệt). Thứ tự: 多寡を (D) -> 問わず、(A) -> すべての (B) -> 対象世帯へ (C). Câu hoàn chỉnh: 今回の臨時給付金は、世帯所得の多寡を問わず、すべての対象世帯へ一律に支給されます。 Vị trí ngôi sao ★ là すべての (đáp án B).",
-          "distractorExplanations": {
-            "A": "Vị trí 2 (問わず).",
-            "C": "Vị trí 4 (対象世帯へ).",
-            "D": "Vị trí 1 (多寡を)."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "Cấu trúc: ～を問わず (không phân biệt). Thứ tự: 多寡を (D) -> 問わず、(A) -> すべての (B) -> 対象世帯へ (C). Câu hoàn chỉnh: 今回の臨時給付金は、世帯所得の多寡を問わず、すべての対象世帯へ一律に支給されます。 Vị trí ngôi sao ★ là すべての (đáp án B)."
-        },
-        {
-          "id": "N2_07_M8_03",
-          "typeId": "N2-GR-STAR",
-          "category": "Mondai 8: 文の組み立て",
-          "stem": "代理人として住民票の再発行を申請する場合は、（　　）（　　）★（　　）あります。",
-          "options": [
-            {
-              "id": "A",
-              "text": "申請者本人が作成した"
-            },
-            {
-              "id": "B",
-              "text": "委任状を"
-            },
-            {
-              "id": "C",
-              "text": "事前に受け取っておく"
-            },
-            {
-              "id": "D",
-              "text": "必要が"
-            }
-          ],
-          "correctAnswer": "C",
-          "starPosition": 3,
-          "assembledSentence": "代理人として住民票の再発行を申請する場合は、申請者本人が作成した委任状を事前に受け取っておく必要があります。",
-          "explanation": "Trình tự: 申請者本人が作成した (A) bổ nghĩa cho 委任状 (B); 委任状を là tân ngữ của 事前に受け取っておく (C), sau đó là 必要が (D) để tạo 必要があります. Vị trí ★ là 事前に受け取っておく (C).",
-          "distractorExplanations": {
-            "A": "申請者本人が作成した bổ nghĩa cho 委任状, vì vậy đứng trước cụm này.",
-            "B": "委任状を là tân ngữ của 事前に受け取っておく; nó đứng giữa cụm bổ nghĩa và động từ.",
-            "D": "必要が đứng thứ tư để tạo thành cụm cố định 必要があります."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "Trình tự: 申請者本人が作成した (A) bổ nghĩa cho 委任状 (B); 委任状を là tân ngữ của 事前に受け取っておく (C), sau đó là 必要が (D) để tạo 必要があります. Vị trí ★ là 事前に受け取っておく (C)."
-        },
-        {
-          "id": "N2_07_M8_04",
-          "typeId": "N2-GR-STAR",
-          "category": "Mondai 8: 文の組み立て",
-          "stem": "会議の議事録を作る際は、（　　）（　　）★（　　）大切です。",
-          "options": [
-            {
-              "id": "A",
-              "text": "発言者の意図を"
-            },
-            {
-              "id": "B",
-              "text": "単に発言を文字に起こすだけでなく、"
-            },
-            {
-              "id": "C",
-              "text": "ことも"
-            },
-            {
-              "id": "D",
-              "text": "正確に読み取る"
-            }
-          ],
-          "correctAnswer": "D",
-          "starPosition": 3,
-          "assembledSentence": "会議の議事録を作る際は、単に発言を文字に起こすだけでなく、発言者の意図を正確に読み取ることも大切です。",
-          "explanation": "Cấu trúc 「単に～だけでなく～も」 nối hai việc cần làm song song. 「発言者の意図を」 là tân ngữ của 「正確に読み取る」; cụm động từ + 「ことも」 làm chủ đề đánh giá trước 「大切です」. Trình tự: B -> A -> D -> C; vị trí ★ là 「正確に読み取る」 (D).",
-          "distractorExplanations": {
-            "A": "発言者の意図を là tân ngữ, cần đứng trước vị ngữ 正確に読み取る.",
-            "B": "単に～だけでなく mở phần thứ nhất của cấu trúc đối sánh và phải đứng trước phần ～も.",
-            "C": "ことも danh hóa hành động đọc đúng ý rồi nối với vị ngữ đánh giá 大切です."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "Cấu trúc 「単に～だけでなく～も」 nối hai việc cần làm song song. 「発言者の意図を」 là tân ngữ của 「正確に読み取る」; cụm động từ + 「ことも」 làm chủ đề đánh giá trước 「大切です」. Trình tự: B -> A -> D -> C; vị trí ★ là 「正確に読み取る」 (D)."
-        },
-        {
-          "id": "N2_07_M8_05",
-          "typeId": "N2-GR-STAR",
-          "category": "Mondai 8: 文の組み立て",
-          "stem": "この施策は、（　　）（　　）★（　　）予想される。",
-          "options": [
-            {
-              "id": "A",
-              "text": "利用者の利便性を"
-            },
-            {
-              "id": "B",
-              "text": "大幅に高める"
-            },
-            {
-              "id": "C",
-              "text": "可能性が"
-            },
-            {
-              "id": "D",
-              "text": "高いと"
-            }
-          ],
-          "correctAnswer": "C",
-          "starPosition": 3,
-          "assembledSentence": "この施策は、利用者の利便性を大幅に高める可能性が高いと予想される。",
-          "explanation": "Trình tự A -> B -> C -> D: 「利用者の利便性を大幅に高める」 bổ nghĩa cho danh từ 「可能性」; cụm cố định 「可能性が高い」 nêu mức độ khả năng và được dẫn bằng 「と」 trước 「予想される」. Vị trí ★ là 「可能性が」 (C).",
-          "distractorExplanations": {
-            "A": "利用者の利便性を là tân ngữ của 高める, phải theo sau bổ ngữ 大幅に và trước cụm danh từ 可能性.",
-            "B": "大幅に高める là vị ngữ trong mệnh đề bổ nghĩa cho 可能性; 可能性があると予想される là cấu trúc chính.",
-            "D": "高いと kết hợp với 可能性が để tạo cụm 可能性が高いと, bổ nghĩa cho 予想される."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "Trình tự A -> B -> C -> D: 「利用者の利便性を大幅に高める」 bổ nghĩa cho danh từ 「可能性」; cụm cố định 「可能性が高い」 nêu mức độ khả năng và được dẫn bằng 「と」 trước 「予想される」. Vị trí ★ là 「可能性が」 (C)."
-        },
-        {
-          "id": "N2_07_M9_01",
-          "typeId": "N2-GR-TEXT",
-          "category": "Mondai 9: 文章の文法",
-          "stem": "文章の文法：【50】に入る最も適切なものはどれか。",
-          "passage": "市民の皆様へ\n緑市役所 市民生活課\n\n　日頃より、本市の市政運営に温かいご理解とご協力を賜り、厚く御礼申し上げます。\n　さて、毎年3月下旬から4月中旬にかけましては、就職や進学、転勤などに伴う引っ越し手続きが集中し、本庁舎および各支所の窓口が大変混雑いたします。窓口で長時間お待ちいただく状況を緩和するため、本年度よりスマートフォンやパソコンから利用可能な「オンライン申請ポータル」の対象業務を大幅に拡大する【50】。\n\n　住民票の写しや課税証明書の発行、転出届の提出などにつきましては、マイナンバーカードをお持ちの方であれば、24時間ご自宅から手続きを完了して【51】。これにより、市役所へ直接ご来庁いただく必要がなくなり、大幅な時間短縮が可能となります。\n\n　【52】、オンライン申請の利用にあたりましては、電子証明書の有効期限が切れていないか事前にご確認いただく必要がございます。もし暗証番号をお忘れの場合やカードの機能停止中である場合は、誠に恐れ入りますが、ご本人様による窓口での再設定手続きが【53】。\n\n　市民の皆様におかれましては、窓口の混雑緩和と待ち時間削減に向け、便利なオンライン手続きを積極的に【54】、何卒ご協力のほどよろしくお願い申し上げます。",
-          "options": [
-            {
-              "id": "A",
-              "text": "ことと存じます"
-            },
-            {
-              "id": "B",
-              "text": "こととなりました"
-            },
-            {
-              "id": "C",
-              "text": "はずがありません"
-            },
-            {
-              "id": "D",
-              "text": "わけがございません"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "～こととなりました: Biểu đạt quyết định/chính sách chính thức của cơ quan, tổ chức đối với công chúng.",
-          "distractorExplanations": {
-            "A": "ことと存じます: Dùng diễn đạt suy đoán lịch sự về tình hình người nhận thư.",
-            "C": "はずがありません: Chắc chắn không có chuyện (bác bỏ vô lý).",
-            "D": "わけがございません: Không có lý nào."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "～こととなりました: Biểu đạt quyết định/chính sách chính thức của cơ quan, tổ chức đối với công chúng."
-        },
-        {
-          "id": "N2_07_M9_02",
-          "typeId": "N2-GR-TEXT",
-          "category": "Mondai 9: 文章の文法",
-          "stem": "文章の文法：【51】に入る最も適切なものはどれか。",
-          "passage": "市民の皆様へ\n緑市役所 市民生活課\n\n　日頃より、本市の市政運営に温かいご理解とご協力を賜り、厚く御礼申し上げます。\n　さて、毎年3月下旬から4月中旬にかけましては、就職や進学、転勤などに伴う引っ越し手続きが集中し、本庁舎および各支所の窓口が大変混雑いたします。窓口で長時間お待ちいただく状況を緩和するため、本年度よりスマートフォンやパソコンから利用可能な「オンライン申請ポータル」の対象業務を大幅に拡大する【50】。\n\n　住民票の写しや課税証明書の発行、転出届の提出などにつきましては、マイナンバーカードをお持ちの方であれば、24時間ご自宅から手続きを完了して【51】。これにより、市役所へ直接ご来庁いただく必要がなくなり、大幅な時間短縮が可能となります。\n\n　【52】、オンライン申請の利用にあたりましては、電子証明書の有効期限が切れていないか事前にご確認いただく必要がございます。もし暗証番号をお忘れの場合やカードの機能停止中である場合は、誠に恐れ入りますが、ご本人様による窓口での再設定手続きが【53】。\n\n　市民の皆様におかれましては、窓口の混雑緩和と待ち時間削減に向け、便利なオンライン手続きを積極的に【54】、何卒ご協力のほどよろしくお願い申し上げます。",
-          "options": [
-            {
-              "id": "A",
-              "text": "存じます"
-            },
-            {
-              "id": "B",
-              "text": "申し上げます"
-            },
-            {
-              "id": "C",
-              "text": "いただけます"
-            },
-            {
-              "id": "D",
-              "text": "伺います"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "完了していただけます: Thể khả năng kính ngữ của もらう (quý công dân có thể hoàn tất thủ tục).",
-          "distractorExplanations": {
-            "A": "存じます: Nghĩ, cảm thấy (người nói).",
-            "B": "申し上げます: Khiêm nhường ngữ nói về hành động của bản thân cơ quan.",
-            "D": "伺います: Khiêm nhường ngữ hỏi/thăm viếng."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "完了していただけます: Thể khả năng kính ngữ của もらう (quý công dân có thể hoàn tất thủ tục)."
-        },
-        {
-          "id": "N2_07_M9_03",
-          "typeId": "N2-GR-TEXT",
-          "category": "Mondai 9: 文章の文法",
-          "stem": "文章の文法：【52】に入る最も適切なものはどれか。",
-          "passage": "市民の皆様へ\n緑市役所 市民生活課\n\n　日頃より、本市の市政運営に温かいご理解とご協力を賜り、厚く御礼申し上げます。\n　さて、毎年3月下旬から4月中旬にかけましては、就職や進学、転勤などに伴う引っ越し手続きが集中し、本庁舎および各支所の窓口が大変混雑いたします。窓口で長時間お待ちいただく状況を緩和するため、本年度よりスマートフォンやパソコンから利用可能な「オンライン申請ポータル」の対象業務を大幅に拡大する【50】。\n\n　住民票の写しや課税証明書の発行、転出届の提出などにつきましては、マイナンバーカードをお持ちの方であれば、24時間ご自宅から手続きを完了して【51】。これにより、市役所へ直接ご来庁いただく必要がなくなり、大幅な時間短縮が可能となります。\n\n　【52】、オンライン申請の利用にあたりましては、電子証明書の有効期限が切れていないか事前にご確認いただく必要がございます。もし暗証番号をお忘れの場合やカードの機能停止中である場合は、誠に恐れ入りますが、ご本人様による窓口での再設定手続きが【53】。\n\n　市民の皆様におかれましては、窓口の混雑緩和と待ち時間削減に向け、便利なオンライン手続きを積極的に【54】、何卒ご協力のほどよろしくお願い申し上げます。",
-          "options": [
-            {
-              "id": "A",
-              "text": "なぜなら"
-            },
-            {
-              "id": "B",
-              "text": "ところが"
-            },
-            {
-              "id": "C",
-              "text": "それゆえ"
-            },
-            {
-              "id": "D",
-              "text": "なお"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "なお: Từ nối dùng để bổ sung thêm lưu ý quan trọng cần ghi nhớ trong văn bản hành chính.",
-          "distractorExplanations": {
-            "A": "なぜなら: Bởi vì (giải thích lý do).",
-            "B": "ところが: Tuy nhiên (đối lập bất ngờ).",
-            "C": "それゆえ: Do đó, vì thế (nguyên nhân kết quả trang trọng)."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "なお: Từ nối dùng để bổ sung thêm lưu ý quan trọng cần ghi nhớ trong văn bản hành chính."
-        },
-        {
-          "id": "N2_07_M9_04",
-          "typeId": "N2-GR-TEXT",
-          "category": "Mondai 9: 文章の文法",
-          "stem": "文章の文法：【53】に入る最も適切なものはどれか。",
-          "passage": "市民の皆様へ\n緑市役所 市民生活課\n\n　日頃より、本市の市政運営に温かいご理解とご協力を賜り、厚く御礼申し上げます。\n　さて、毎年3月下旬から4月中旬にかけましては、就職や進学、転勤などに伴う引っ越し手続きが集中し、本庁舎および各支所の窓口が大変混雑いたします。窓口で長時間お待ちいただく状況を緩和するため、本年度よりスマートフォンやパソコンから利用可能な「オンライン申請ポータル」の対象業務を大幅に拡大する【50】。\n\n　住民票の写しや課税証明書の発行、転出届の提出などにつきましては、マイナンバーカードをお持ちの方であれば、24時間ご自宅から手続きを完了して【51】。これにより、市役所へ直接ご来庁いただく必要がなくなり、大幅な時間短縮が可能となります。\n\n　【52】、オンライン申請の利用にあたりましては、電子証明書の有効期限が切れていないか事前にご確認いただく必要がございます。もし暗証番号をお忘れの場合やカードの機能停止中である場合は、誠に恐れ入りますが、ご本人様による窓口での再設定手続きが【53】。\n\n　市民の皆様におかれましては、窓口の混雑緩和と待ち時間削減に向け、便利なオンライン手続きを積極的に【54】、何卒ご協力のほどよろしくお願い申し上げます。",
-          "options": [
-            {
-              "id": "A",
-              "text": "必要となります"
-            },
-            {
-              "id": "B",
-              "text": "得ません"
-            },
-            {
-              "id": "C",
-              "text": "かねません"
-            },
-            {
-              "id": "D",
-              "text": "おかないでしょう"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "再設定手続きが必要となります: Khi mã PIN bị quên hoặc chức năng thẻ bị khóa, người dân phải trực tiếp đến quầy để làm thủ tục thiết lập lại.",
-          "distractorExplanations": {
-            "B": "得ません: Sai ngữ pháp khi đi trực tiếp với danh từ/trợ từ が.",
-            "C": "かねません: Có nguy cơ xảy ra việc xấu.",
-            "D": "おかないでしょう: Không thể không làm (quyết tâm)."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "再設定手続きが必要となります: Khi mã PIN bị quên hoặc chức năng thẻ bị khóa, người dân phải trực tiếp đến quầy để làm thủ tục thiết lập lại."
-        },
-        {
-          "id": "N2_07_M9_05",
-          "typeId": "N2-GR-TEXT",
-          "category": "Mondai 9: 文章の文法",
-          "stem": "文章の文法：【54】に入る最も適切なものはどれか。",
-          "passage": "市民の皆様へ\n緑市役所 市民生活課\n\n　日頃より、本市の市政運営に温かいご理解とご協力を賜り、厚く御礼申し上げます。\n　さて、毎年3月下旬から4月中旬にかけましては、就職や進学、転勤などに伴う引っ越し手続きが集中し、本庁舎および各支所の窓口が大変混雑いたします。窓口で長時間お待ちいただく状況を緩和するため、本年度よりスマートフォンやパソコンから利用可能な「オンライン申請ポータル」の対象業務を大幅に拡大する【50】。\n\n　住民票の写しや課税証明書の発行、転出届の提出などにつきましては、マイナンバーカードをお持ちの方であれば、24時間ご自宅から手続きを完了して【51】。これにより、市役所へ直接ご来庁いただく必要がなくなり、大幅な時間短縮が可能となります。\n\n　【52】、オンライン申請の利用にあたりましては、電子証明書の有効期限が切れていないか事前にご確認いただく必要がございます。もし暗証番号をお忘れの場合やカードの機能停止中である場合は、誠に恐れ入りますが、ご本人様による窓口での再設定手続きが【53】。\n\n　市民の皆様におかれましては、窓口の混雑緩和と待ち時間削減に向け、便利なオンライン手続きを積極的に【54】、何卒ご協力のほどよろしくお願い申し上げます。",
-          "options": [
-            {
-              "id": "A",
-              "text": "ご活用申し上げますよう"
-            },
-            {
-              "id": "B",
-              "text": "ご活用くださいますよう"
-            },
-            {
-              "id": "C",
-              "text": "ご活用いたしたく"
-            },
-            {
-              "id": "D",
-              "text": "ご活用いただくまいと"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "ご活用くださいますよう（ごかつようくださいますよう）: Mẫu kính ngữ kêu gọi, kính mong người dân tích cực sử dụng dịch vụ.",
-          "distractorExplanations": {
-            "A": "ご活用申し上げますよう: Nhầm khiêm nhường ngữ 申し上げる cho hành động của người dân.",
-            "C": "ご活用いたしたく: Bày tỏ mong muốn của người nói.",
-            "D": "いただくまいと: Thể phủ định tuyệt đối."
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "ご活用くださいますよう（ごかつようくださいますよう）: Mẫu kính ngữ kêu gọi, kính mong người dân tích cực sử dụng dịch vụ."
-        },
-        {
-          "id": "N2_07_M10_01",
-          "typeId": "N2-RD-SHORT",
-          "category": "Mondai 10: 短文読解",
-          "passage": "社員各位\n総務課\n\n　来週月曜日より実施予定の社内PC一斉セキュリティ更新につきまして、一部の業務端末において事前のバックアップが未完了であることが判明いたしました。つきましては、各自の重要データにつきまして、本日17時までに所定のクラウド共有ドライブへ退避作業を完了していただきますようお願いいたします。なお、期日までにバックアップが完了していない端末につきましては、更新処理を一時的に保留とし、個別対応となりますのでご留意ください。",
-          "stem": "この通知によると、社員は何をしなければならないか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "バックアップ未完了の端末を直ちに総務課へ持参する。"
-            },
-            {
-              "id": "B",
-              "text": "来週月曜日に各自のPCのセキュリティ更新作業を直接行う。"
-            },
-            {
-              "id": "C",
-              "text": "本日17時までに各自の重要データをクラウド共有ドライブへ保存する。"
-            },
-            {
-              "id": "D",
-              "text": "来週月曜日までPCを使った業務をすべて停止する。"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "Đoạn văn nêu rõ: '各自の重要データにつきまして、本日17時までに所定のクラウド共有ドライブへ退避作業を完了していただきますようお願いいたします'.",
-          "distractorExplanations": {
-            "A": "Không yêu cầu mang máy lên phòng tổng vụ.",
-            "B": "Việc cập nhật do hệ thống làm vào thứ 2 tới, nhân viên không tự cài đặt.",
-            "D": "Không có yêu cầu dừng toàn bộ công việc."
-          },
-          "skill": "Reading",
-          "explanationVi": "Đoạn văn nêu rõ: '各自の重要データにつきまして、本日17時までに所定のクラウド共有ドライブへ退避作業を完了していただきますようお願いいたします'."
-        },
-        {
-          "id": "N2_07_M10_02",
-          "typeId": "N2-RD-SHORT",
-          "category": "Mondai 10: 短文読解",
-          "passage": "自治会からのお知らせ：粗大ゴミ収集場所の変更について\n　現在、集会所横のスペースを粗大ゴミの一時集積所として運用しておりますが、近隣住民の方々より通行の妨げになるとのご指摘をいただきました。そのため、来月1日収集分より、集積場所を「北側児童公園前ゲート横」へと移転いたします。移転後は、事前に市役所への電話またはウェブ予約を済ませ、所定の収集シールを貼付した物のみ搬出可能となります。無断放置は厳禁ですのでご注意ください。",
-          "stem": "粗大ゴミの出し方について、本文の内容と合っているものはどれか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "市役所への予約は電話のみで受け付け、ウェブ申請は認められない。"
-            },
-            {
-              "id": "B",
-              "text": "近隣住民の反対により、粗大ゴミの回収自体が来月より全面中止となる。"
-            },
-            {
-              "id": "C",
-              "text": "集会所横の集積所は来月以降も事前の連絡なしでいつでも利用できる。"
-            },
-            {
-              "id": "D",
-              "text": "来月1日以降は集積場所が北側児童公園前へ移り、予約とシールの貼付が必要になる。"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "Đoạn văn chỉ rõ: từ ngày 1 tháng tới điểm tập kết dời sang cổng công viên phía bắc, bắt buộc đặt lịch trước (qua điện thoại hoặc web) và dán tem thu gom.",
-          "distractorExplanations": {
-            "A": "Văn bản ghi rõ: 電話またはウェブ予約 (cả điện thoại lẫn web đều được).",
-            "B": "Không hủy bỏ việc thu gom mà chỉ đổi địa điểm.",
-            "C": "Điểm cũ cạnh hội trường sẽ bị đóng, không được để rác cản trở lối đi nữa."
-          },
-          "skill": "Reading",
-          "explanationVi": "Đoạn văn chỉ rõ: từ ngày 1 tháng tới điểm tập kết dời sang cổng công viên phía bắc, bắt buộc đặt lịch trước (qua điện thoại hoặc web) và dán tem thu gom."
-        },
-        {
-          "id": "N2_07_M10_03",
-          "typeId": "N2-RD-SHORT",
-          "category": "Mondai 10: 短文読解",
-          "passage": "夏季の節電対策およびクールビズの実施について\n　地球温暖化防止および電力需給逼迫への対応として、本年度も社内の冷房温度を原則として28度に設定いたします。これに伴い、執務中の服装につきましては、ノーネクタイ・ノージャケットを推奨いたします。ただし、社外のお客様との重要な商談や公式セレモニーに出席される際には、相手方に失礼のないよう、状況に応じた節度ある身だしなみを保つよう心がけてください。",
-          "stem": "執務中の服装について、この会社の方針として最も適切なものはどれか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "社内ではノーネクタイを推奨するが、来客対応や商談では状況に合わせた服装をする。"
-            },
-            {
-              "id": "B",
-              "text": "夏期期間中はすべての商談や式典を含め、常にノージャケットで臨まなければならない。"
-            },
-            {
-              "id": "C",
-              "text": "冷房温度を28度にするため、社外との会議でもネクタイの着用は禁止されている。"
-            },
-            {
-              "id": "D",
-              "text": "公式セレモニーであっても各自の判断でどのような服装をしても問題ない。"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "Nội dung chỉ rõ: trong nội bộ khuyến khích không cà vạt/áo khoác, nhưng khi tiếp khách quan trọng hay dự lễ nghi chính thức phải ăn mặc trang trọng phù hợp hoàn cảnh.",
-          "distractorExplanations": {
-            "B": "Không bắt buộc mọi cuộc gặp đều không mặc áo khoác.",
-            "C": "Không hề cấm thắt cà vạt khi gặp khách ngoài.",
-            "D": "Lễ nghi chính thức không được tự ý mặc bừa bãi."
-          },
-          "skill": "Reading",
-          "explanationVi": "Nội dung chỉ rõ: trong nội bộ khuyến khích không cà vạt/áo khoác, nhưng khi tiếp khách quan trọng hay dự lễ nghi chính thức phải ăn mặc trang trọng phù hợp hoàn cảnh."
-        },
-        {
-          "id": "N2_07_M10_04",
-          "typeId": "N2-RD-SHORT",
-          "category": "Mondai 10: 短文読解",
-          "passage": "マンションにお住まいの皆様へ\n給水設備定期清掃・点検に伴う断水のお知らせ\n\n　下記の日程におきまして、貯水槽の定期清掃および給水ポンプの保守点検を実施いたします。点検作業中は、全戸において水道水の使用ができません。濁り水の発生を防ぐため、断水開始前に蛇口が完全に閉まっていることをご確認いただくとともに、飲用水や生活用水の事前汲み置きをお願い申し上げます。\n\n【断水日時】2026年11月15日（日） 午前10:00 ～ 午後2:00",
-          "stem": "この通知を読んだ住民が事前に行うべきことは何か。",
-          "options": [
-            {
-              "id": "A",
-              "text": "点検時間中に貯水槽へ立ち会い、清掃作業を手伝う。"
-            },
-            {
-              "id": "B",
-              "text": "断水に備えて飲用水や生活用水を汲み置き、蛇口が閉まっているか確認する。"
-            },
-            {
-              "id": "C",
-              "text": "濁り水が出るのを防ぐため、断水時間中にすべての蛇口を開けておく。"
-            },
-            {
-              "id": "D",
-              "text": "11月15日の午後は給水ポンプが停止するため、終日外出する。"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "Thông báo hướng dẫn người dân: khóa chặt vòi nước trước khi cắt nước và tích trữ sẵn nước sinh hoạt/uống.",
-          "distractorExplanations": {
-            "A": "Không yêu cầu cư dân đi hỗ trợ cọ rửa bể nước.",
-            "C": "Mở hết vòi nước trong lúc cắt nước sẽ gây tràn nước khi cấp lại.",
-            "D": "Không yêu cầu phải ra khỏi nhà cả ngày."
-          },
-          "skill": "Reading",
-          "explanationVi": "Thông báo hướng dẫn người dân: khóa chặt vòi nước trước khi cắt nước và tích trữ sẵn nước sinh hoạt/uống."
-        },
-        {
-          "id": "N2_07_M10_05",
-          "typeId": "N2-RD-SHORT",
-          "category": "Mondai 10: 短文読解",
-          "passage": "市民図書館 休館と返却ポスト利用のご案内\n　蔵書点検および館内照明のLED化工事に伴い、来週火曜日から金曜日までの4日間、臨時休館いたします。休館期間中の図書の返却につきましては、正面玄関横の「返却ポスト」をご利用いただけます。ただし、CDやDVDなどの視聴覚資料は破損の危険があるため、返却ポストへの投函はできません。休館明けの土曜日以降に、直接カウンターまでお持ちくださいますようお願い申し上げます。",
-          "stem": "休館中の資料の返却について、正しいものはどれか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "休館期間中は図書を含めていかなる資料の返却も一切受け付けない。"
-            },
-            {
-              "id": "B",
-              "text": "CDやDVDを含め、すべての資料を正面玄関横の返却ポストに返却できる。"
-            },
-            {
-              "id": "C",
-              "text": "図書は返却ポストに投函できるが、CDやDVDは休館明けに窓口へ返却する。"
-            },
-            {
-              "id": "D",
-              "text": "返却ポストは土曜日以降のみ利用可能であり、平日は閉鎖されている。"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "Đoạn văn nêu rõ: sách thường có thể bỏ vào thùng trả sách, riêng đĩa CD/DVD dễ vỡ nên không được bỏ thùng mà phải chờ mở cửa lại vào thứ Bảy nộp trực tiếp tại quầy.",
-          "distractorExplanations": {
-            "A": "Sách giấy vẫn được trả vào thùng ngoài cửa.",
-            "B": "Đĩa CD/DVD bị nghiêm cấm bỏ vào hộp trả sách vì sợ hỏng.",
-            "D": "Hộp trả sách mở trong suốt thời gian đóng cửa tạm thời."
-          },
-          "skill": "Reading",
-          "explanationVi": "Đoạn văn nêu rõ: sách thường có thể bỏ vào thùng trả sách, riêng đĩa CD/DVD dễ vỡ nên không được bỏ thùng mà phải chờ mở cửa lại vào thứ Bảy nộp trực tiếp tại quầy."
-        },
-        {
-          "id": "N2_07_M11_01",
-          "typeId": "N2-RD-MID",
-          "category": "Mondai 11: 中文読解",
-          "passage": "　近年、多くの職場でビジネスチャットツールが導入され、同僚や上司との日常的な情報共有は格段に迅速化した。従来の電子メールのように格式ばった時候の挨拶や宛名書きを省き、要件だけを簡潔にやり取りできる利便性は、テレワークの普及とも相まって業務効率の向上に大きく寄与している。\n\n　しかし、その簡便さゆえに、新たなコミュニケーション上の摩擦が生じていることも見逃せない。文字だけの短いやり取りは、対面であれば声の抑揚や表情から自然に伝わるニュアンスを欠きがちである。そのため、発信者に悪気配がなくても、受信側には冷淡な指示や批判のように受け取られてしまう事例が後を絶たない。特に指導や修正を求めるメッセージでは、感情の行き違いが起こりやすい。\n\n　こうした問題を回避するためには、ツールの特性を過信せず、内容に応じた手段の使い分けが肝要である。単なる事実連絡やスケジュール確認であればチャットで十分だが、複雑な背景を持つ相談や意見の対立が予想される議題については、短時間でも音声通話やビデオ会議を交えるべきである。デジタル化が進む時代だからこそ、相手の心理的負担に配慮した柔軟な意思疎通が求められているのである。",
-          "stem": "ビジネスチャットツールの普及が業務にもたらした利点として、筆者が挙げているものはどれか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "相手の表情や抑揚が自動的にテキスト化され、親近感が増したこと。"
-            },
-            {
-              "id": "B",
-              "text": "対面での会議をすべて廃止し、オフィスの賃料を大幅に削減できたこと。"
-            },
-            {
-              "id": "C",
-              "text": "文章のニュアンスが正確に伝わり、指導や修正での誤解がなくなったこと。"
-            },
-            {
-              "id": "D",
-              "text": "形式的な挨拶を省いて要件を迅速に共有でき、業務の効率が高まったこと。"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "Đoạn 1 nêu: lược bỏ lời chào khuôn mẫu, trao đổi công việc ngắn gọn nhanh chóng giúp nâng cao hiệu suất công việc trong bối cảnh làm từ xa.",
-          "distractorExplanations": {
-            "A": "Nội dung bịa đặt không có trong bài.",
-            "B": "Không nói đến việc hủy toàn bộ họp trực tiếp hay giảm tiền thuê văn phòng.",
-            "C": "Trái ngược; nhắn tin ngắn dễ gây hiểu lầm chứ không phải loại bỏ hiểu lầm."
-          },
-          "skill": "Reading",
-          "explanationVi": "Đoạn 1 nêu: lược bỏ lời chào khuôn mẫu, trao đổi công việc ngắn gọn nhanh chóng giúp nâng cao hiệu suất công việc trong bối cảnh làm từ xa."
-        },
-        {
-          "id": "N2_07_M11_02",
-          "typeId": "N2-RD-MID",
-          "category": "Mondai 11: 中文読解",
-          "passage": "　近年、多くの職場でビジネスチャットツールが導入され、同僚や上司との日常的な情報共有は格段に迅速化した。従来の電子メールのように格式ばった時候の挨拶や宛名書きを省き、要件だけを簡潔にやり取りできる利便性は、テレワークの普及とも相まって業務効率の向上に大きく寄与している。\n\n　しかし、その簡便さゆえに、新たなコミュニケーション上の摩擦が生じていることも見逃せない。文字だけの短いやり取りは、対面であれば声の抑揚や表情から自然に伝わるニュアンスを欠きがちである。そのため、発信者に悪気配がなくても、受信側には冷淡な指示や批判のように受け取られてしまう事例が後を絶たない。特に指導や修正を求めるメッセージでは、感情の行き違いが起こりやすい。\n\n　こうした問題を回避するためには、ツールの特性を過信せず、内容に応じた手段の使い分けが肝要である。単なる事実連絡やスケジュール確認であればチャットで十分だが、複雑な背景を持つ相談や意見の対立が予想される議題については、短時間でも音声通話やビデオ会議を交えるべきである。デジタル化が進む時代だからこそ、相手の心理的負担に配慮した柔軟な意思疎通が求められているのである。",
-          "stem": "チャットツールの利用によって生じる問題点として、本文で指摘されているものは何か。",
-          "options": [
-            {
-              "id": "A",
-              "text": "表情や声の抑揚が伝わらないため、悪気がなくても冷淡に誤解される恐れがあること。"
-            },
-            {
-              "id": "B",
-              "text": "送信エラーが頻発し、重要なスケジュール連絡が相手に届かないこと。"
-            },
-            {
-              "id": "C",
-              "text": "文章が長くなりすぎて、読む側の業務時間が大幅に奪われてしまうこと。"
-            },
-            {
-              "id": "D",
-              "text": "相手が不在の場合にメッセージが自動的に削除されてしまうこと。"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "Đoạn 2 nêu: vì thiếu sắc thái giọng nói và nét mặt nên người nhận dễ cảm thấy tin nhắn cụt ngủn, lạnh lùng hoặc mang tính chỉ trích dù người gửi không có ác ý.",
-          "distractorExplanations": {
-            "B": "Bài viết không đề cập đến lỗi kỹ thuật đường truyền.",
-            "C": "Bài nêu tin nhắn ngắn gọn chứ không phải quá dài.",
-            "D": "Không có thông tin tin nhắn tự xóa."
-          },
-          "skill": "Reading",
-          "explanationVi": "Đoạn 2 nêu: vì thiếu sắc thái giọng nói và nét mặt nên người nhận dễ cảm thấy tin nhắn cụt ngủn, lạnh lùng hoặc mang tính chỉ trích dù người gửi không có ác ý."
-        },
-        {
-          "id": "N2_07_M11_03",
-          "typeId": "N2-RD-MID",
-          "category": "Mondai 11: 中文読解",
-          "passage": "　近年、多くの職場でビジネスチャットツールが導入され、同僚や上司との日常的な情報共有は格段に迅速化した。従来の電子メールのように格式ばった時候の挨拶や宛名書きを省き、要件だけを簡潔にやり取りできる利便性は、テレワークの普及とも相まって業務効率の向上に大きく寄与している。\n\n　しかし、その簡便さゆえに、新たなコミュニケーション上の摩擦が生じていることも見逃せない。文字だけの短いやり取りは、対面であれば声の抑揚や表情から自然に伝わるニュアンスを欠きがちである。そのため、発信者に悪気配がなくても、受信側には冷淡な指示や批判のように受け取られてしまう事例が後を絶たない。特に指導や修正を求めるメッセージでは、感情の行き違いが起こりやすい。\n\n　こうした問題を回避するためには、ツールの特性を過信せず、内容に応じた手段の使い分けが肝要である。単なる事実連絡やスケジュール確認であればチャットで十分だが、複雑な背景を持つ相談や意見の対立が予想される議題については、短時間でも音声通話やビデオ会議を交えるべきである。デジタル化が進む時代だからこそ、相手の心理的負担に配慮した柔軟な意思疎通が求められているのである。",
-          "stem": "筆者が提案する望ましいコミュニケーションのあり方はどのようなものか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "誤解を避けるため、チャットツールの使用を直ちに全面的に禁止すること。"
-            },
-            {
-              "id": "B",
-              "text": "用件の性質に応じて、チャットだけでなく必要に応じて音声やビデオ会議を使い分けること。"
-            },
-            {
-              "id": "C",
-              "text": "業務連絡は常に長文の電子メールで行い、時候の挨拶を徹底すること。"
-            },
-            {
-              "id": "D",
-              "text": "複雑な相談であっても、相手の時間を取らないようチャットのみで完結させること。"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "Đoạn cuối kết luận: với việc đơn giản thì chat là đủ, nhưng việc phức tạp, nhạy cảm hay dễ bất đồng thì nên kết hợp gọi điện hoặc họp video ngắn.",
-          "distractorExplanations": {
-            "A": "Tác giả không hề bảo cấm chat hoàn toàn.",
-            "C": "Không bảo quay lại email dài dòng.",
-            "D": "Trái ngược ý tác giả."
-          },
-          "skill": "Reading",
-          "explanationVi": "Đoạn cuối kết luận: với việc đơn giản thì chat là đủ, nhưng việc phức tạp, nhạy cảm hay dễ bất đồng thì nên kết hợp gọi điện hoặc họp video ngắn."
-        },
-        {
-          "id": "N2_07_M11_04",
-          "typeId": "N2-RD-MID",
-          "category": "Mondai 11: 中文読解",
-          "passage": "　地方自治体における行政サービスのデジタル変革（DX）が加速している。かつては住民票や各種証明書を取得するために、平日の日中に市役所の窓口へ足を運び、長蛇の列に並ぶのが当たり前であった。しかし現在では、マイナンバーカードを用いたコンビニ交付やオンライン申請により、時間や場所を選ばずに諸手続きを行える環境が整備されつつある。\n\n　このデジタル化は、市民の利便性向上のみならず、市役所側の業務負担軽減にも寄与している。定型的な入力作業や証明書発行が自動化されることで、職員は地域福祉の相談や個別支援といった、人にしかできない高度な対面業務に注力できるようになるからである。\n\n　一方で、急速な移行がもたらす「取り残され」への配慮を怠ってはならない。高齢者や情報端末の操作に不慣れな層にとって、オンライン専用の窓口はかえって高い障壁となり得る。真に誰一人取り残さない公共サービスを実現するためには、最先端のデジタル導入を推進する一方で、丁寧な対面窓口や操作支援のサポート体制を併存させることが不可欠である。",
-          "stem": "行政サービスのデジタル化が進んだことで、市民生活はどのように変化したか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "証明書の発行費用が完全に無料になり、税金の支払いが不要になった。"
-            },
-            {
-              "id": "B",
-              "text": "市役所の窓口がすべて閉鎖され、対面での手続きが法律で禁止された。"
-            },
-            {
-              "id": "C",
-              "text": "コンビニや自宅から手続きができるようになり、平日の窓口に行かなくても済むようになった。"
-            },
-            {
-              "id": "D",
-              "text": "平日の夜間であっても、市役所本庁舎の全窓口が営業するようになった。"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "Đoạn 1 nêu: nhờ phát hành qua cửa hàng tiện lợi và nộp online, người dân có thể làm thủ tục mọi lúc mọi nơi không cần đến quầy vào giờ hành chính ngày thường.",
-          "distractorExplanations": {
-            "A": "Không miễn thuế hay miễn phí hoàn toàn.",
-            "B": "Không đóng cửa toàn bộ và không cấm trực tiếp.",
-            "D": "Việc giải quyết tiện lợi là nhờ hệ thống số, không phải quầy hành chính mở thâu đêm."
-          },
-          "skill": "Reading",
-          "explanationVi": "Đoạn 1 nêu: nhờ phát hành qua cửa hàng tiện lợi và nộp online, người dân có thể làm thủ tục mọi lúc mọi nơi không cần đến quầy vào giờ hành chính ngày thường."
-        },
-        {
-          "id": "N2_07_M11_05",
-          "typeId": "N2-RD-MID",
-          "category": "Mondai 11: 中文読解",
-          "passage": "　地方自治体における行政サービスのデジタル変革（DX）が加速している。かつては住民票や各種証明書を取得するために、平日の日中に市役所の窓口へ足を運び、長蛇の列に並ぶのが当たり前であった。しかし現在では、マイナンバーカードを用いたコンビニ交付やオンライン申請により、時間や場所を選ばずに諸手続きを行える環境が整備されつつある。\n\n　このデジタル化は、市民の利便性向上のみならず、市役所側の業務負担軽減にも寄与している。定型的な入力作業や証明書発行が自動化されることで、職員は地域福祉の相談や個別支援といった、人にしかできない高度な対面業務に注力できるようになるからである。\n\n　一方で、急速な移行がもたらす「取り残され」への配慮を怠ってはならない。高齢者や情報端末の操作に不慣れな層にとって、オンライン専用の窓口はかえって高い障壁となり得る。真に誰一人取り残さない公共サービスを実現するためには、最先端のデジタル導入を推進する一方で、丁寧な対面窓口や操作支援のサポート体制を併存させることが不可欠である。",
-          "stem": "自治体側にとって、デジタル化がもたらす最大の利点は何か。",
-          "options": [
-            {
-              "id": "A",
-              "text": "すべての地域住民の個人情報を外部企業に委託して管理できること。"
-            },
-            {
-              "id": "B",
-              "text": "職員の数を半分に削減し、人件費をすべてシステム開発費に回せること。"
-            },
-            {
-              "id": "C",
-              "text": "市民からの苦情や相談を一切受け付けなくてもよくなること。"
-            },
-            {
-              "id": "D",
-              "text": "定型業務が自動化され、福祉相談などの対面支援に職員が注力できるようになること。"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "Đoạn 2 nêu: tự động hóa các thủ tục định hình giúp nhân viên tập trung vào các công tác chuyên sâu đòi hỏi sự tương tác con người như tư vấn phúc lợi.",
-          "distractorExplanations": {
-            "A": "Không nói ủy thác toàn bộ thông tin cá nhân ra ngoài.",
-            "B": "Không nói giảm một nửa biên chế nhân sự.",
-            "C": "Không phải từ chối khiếu nại của dân."
-          },
-          "skill": "Reading",
-          "explanationVi": "Đoạn 2 nêu: tự động hóa các thủ tục định hình giúp nhân viên tập trung vào các công tác chuyên sâu đòi hỏi sự tương tác con người như tư vấn phúc lợi."
-        },
-        {
-          "id": "N2_07_M11_06",
-          "typeId": "N2-RD-MID",
-          "category": "Mondai 11: 中文読解",
-          "passage": "　地方自治体における行政サービスのデジタル変革（DX）が加速している。かつては住民票や各種証明書を取得するために、平日の日中に市役所の窓口へ足を運び、長蛇の列に並ぶのが当たり前であった。しかし現在では、マイナンバーカードを用いたコンビニ交付やオンライン申請により、時間や場所を選ばずに諸手続きを行える環境が整備されつつある。\n\n　このデジタル化は、市民の利便性向上のみならず、市役所側の業務負担軽減にも寄与している。定型的な入力作業や証明書発行が自動化されることで、職員は地域福祉の相談や個別支援といった、人にしかできない高度な対面業務に注力できるようになるからである。\n\n　一方で、急速な移行がもたらす「取り残され」への配慮を怠ってはならない。高齢者や情報端末の操作に不慣れな層にとって、オンライン専用の窓口はかえって高い障壁となり得る。真に誰一人取り残さない公共サービスを実現するためには、最先端のデジタル導入を推進する一方で、丁寧な対面窓口や操作支援のサポート体制を併存させることが不可欠である。",
-          "stem": "行政サービスのデジタル化を進める上で、筆者が最も重要だと主張している点はどれか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "デジタル化を推進しつつも、高齢者等のために丁寧な対面窓口や支援体制を残すこと。"
-            },
-            {
-              "id": "B",
-              "text": "高齢者であっても例外なく全員が独力でスマートフォンを操作できるよう強制すること。"
-            },
-            {
-              "id": "C",
-              "text": "紙の書類による申請を完全に廃止し、窓口業務のコストをゼロにすること。"
-            },
-            {
-              "id": "D",
-              "text": "デジタル技術の導入を中止し、過去のすべて対面による手続きに戻すこと。"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "Đoạn cuối nhấn mạnh: để không ai bị bỏ lại phía sau, bên cạnh thúc đẩy công nghệ số vẫn phải duy trì quầy trực tiếp và hỗ trợ người cao tuổi.",
-          "distractorExplanations": {
-            "B": "Không bắt ép cưỡng chế người già.",
-            "C": "Không xóa sổ hoàn toàn quầy giấy tờ.",
-            "D": "Không bảo dừng công nghệ quay về thời xưa."
-          },
-          "skill": "Reading",
-          "explanationVi": "Đoạn cuối nhấn mạnh: để không ai bị bỏ lại phía sau, bên cạnh thúc đẩy công nghệ số vẫn phải duy trì quầy trực tiếp và hỗ trợ người cao tuổi."
-        },
-        {
-          "id": "N2_07_M11_07",
-          "typeId": "N2-RD-MID",
-          "category": "Mondai 11: 中文読解",
-          "passage": "　公務員や行政窓口の職員には、公平性と正確性が何よりも強く求められる。法令や規則に基づかない例外的な処理を安易に認めてしまえば、市民全体の信頼を損なうことになりかねないからである。そのため、窓口での応対が時に「形式主義」や「杓子定規（しゃくしじょうぎ）」と批判されることがあっても、一定のルールを厳格に順守することは公の責務として不可欠である。\n\n　しかしながら、規則を守ることと、利用者の心情に寄り添うことは決して矛盾するものではない。手続きの不備で書類が受理できない場合でも、単に「規定ですから無理です」と突き放すのと、「恐れ入りますが、法的な要件を満たすためにこの証明書が必要となります。取得にはこのような方法がございます」と丁寧に手順を示すのとでは、利用者が受ける印象は雲泥の差となる。\n\n　真の「質の高い行政サービス」とは、法の厳格さを維持しつつも、説明の言葉に温かみと共感を持たせることにある。ルールを機械的に適用するだけにとどまらず、困っている住民が次にどのような行動を取ればよいのかを導く姿勢こそが、これからの行政従事者に求められているプロフェッショナリズムなのである。",
-          "stem": "行政窓口において、法令や規則の厳格な順守が不可欠とされる理由は何か。",
-          "options": [
-            {
-              "id": "A",
-              "text": "職員が住民からの質問に答える手間を省き、定時で退勤できるようにするため。"
-            },
-            {
-              "id": "B",
-              "text": "安易な例外処理を認めると、行政に対する市民全体の公平な信頼が損なわれるから。"
-            },
-            {
-              "id": "C",
-              "text": "窓口での相談件数を減らし、すべての業務をマニュアル化するため。"
-            },
-            {
-              "id": "D",
-              "text": "規則を厳しくすることで、申請書類の偽造をすべて物理的に不可能にするため。"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "Đoạn 1 nêu: nếu dễ dàng xử lý ngoại lệ sai quy định thì sẽ đánh mất sự tin tưởng công bằng của toàn thể người dân đối với nền hành chính.",
-          "distractorExplanations": {
-            "A": "Không phải để trốn việc về sớm.",
-            "C": "Không phải để giảm số lượt hỏi đáp của dân.",
-            "D": "Quy tắc nghiêm ngặt là vì tính công bằng minh bạch, không phải cam kết chặn 100% làm giả."
-          },
-          "skill": "Reading",
-          "explanationVi": "Đoạn 1 nêu: nếu dễ dàng xử lý ngoại lệ sai quy định thì sẽ đánh mất sự tin tưởng công bằng của toàn thể người dân đối với nền hành chính."
-        },
-        {
-          "id": "N2_07_M11_08",
-          "typeId": "N2-RD-MID",
-          "category": "Mondai 11: 中文読解",
-          "passage": "　公務員や行政窓口の職員には、公平性と正確性が何よりも強く求められる。法令や規則に基づかない例外的な処理を安易に認めてしまえば、市民全体の信頼を損なうことになりかねないからである。そのため、窓口での応対が時に「形式主義」や「杓子定規（しゃくしじょうぎ）」と批判されることがあっても、一定のルールを厳格に順守することは公の責務として不可欠である。\n\n　しかしながら、規則を守ることと、利用者の心情に寄り添うことは決して矛盾するものではない。手続きの不備で書類が受理できない場合でも、単に「規定ですから無理です」と突き放すのと、「恐れ入りますが、法的な要件を満たすためにこの証明書が必要となります。取得にはこのような方法がございます」と丁寧に手順を示すのとでは、利用者が受ける印象は雲泥の差となる。\n\n　真の「質の高い行政サービス」とは、法の厳格さを維持しつつも、説明の言葉に温かみと共感を持たせることにある。ルールを機械的に適用するだけにとどまらず、困っている住民が次にどのような行動を取ればよいのかを導く姿勢こそが、これからの行政従事者に求められているプロフェッショナリズムなのである。",
-          "stem": "書類が受理できない場面での望ましい対応として、筆者が勧めているものはどれか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "住民が困っている様子を見たら、規定を無視してその場で特別に受理してあげること。"
-            },
-            {
-              "id": "B",
-              "text": "規則は規則であると強調し、住民が納得するまで口頭で厳しく反論すること。"
-            },
-            {
-              "id": "C",
-              "text": "断る理由を丁寧に説明した上で、次にどうすれば取得できるか具体的な手順を示すこと。"
-            },
-            {
-              "id": "D",
-              "text": "他の自治体の窓口へ行くよう指示し、速やかに対応を終了させること。"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "Đoạn 2 nêu: giải thích lý do quy định kèm theo hướng dẫn giải pháp thay thế, giúp người dân biết cần bổ sung giấy tờ gì và làm ở đâu.",
-          "distractorExplanations": {
-            "A": "Tác giả nhấn mạnh không được phá vỡ quy định.",
-            "B": "Tranh cãi gay gắt với dân là sai tác phong.",
-            "D": "Đùn đẩy sang nơi khác là vô trách nhiệm."
-          },
-          "skill": "Reading",
-          "explanationVi": "Đoạn 2 nêu: giải thích lý do quy định kèm theo hướng dẫn giải pháp thay thế, giúp người dân biết cần bổ sung giấy tờ gì và làm ở đâu."
-        },
-        {
-          "id": "N2_07_M11_09",
-          "typeId": "N2-RD-MID",
-          "category": "Mondai 11: 中文読解",
-          "passage": "　公務員や行政窓口の職員には、公平性と正確性が何よりも強く求められる。法令や規則に基づかない例外的な処理を安易に認めてしまえば、市民全体の信頼を損なうことになりかねないからである。そのため、窓口での応対が時に「形式主義」や「杓子定規（しゃくしじょうぎ）」と批判されることがあっても、一定のルールを厳格に順守することは公の責務として不可欠である。\n\n　しかしながら、規則を守ることと、利用者の心情に寄り添うことは決して矛盾するものではない。手続きの不備で書類が受理できない場合でも、単に「規定ですから無理です」と突き放すのと、「恐れ入りますが、法的な要件を満たすためにこの証明書が必要となります。取得にはこのような方法がございます」と丁寧に手順を示すのとでは、利用者が受ける印象は雲泥の差となる。\n\n　真の「質の高い行政サービス」とは、法の厳格さを維持しつつも、説明の言葉に温かみと共感を持たせることにある。ルールを機械的に適用するだけにとどまらず、困っている住民が次にどのような行動を取ればよいのかを導く姿勢こそが、これからの行政従事者に求められているプロフェッショナリズムなのである。",
-          "stem": "本文全体を通じて、筆者がこれからの行政従事者に求めている姿勢は何か。",
-          "options": [
-            {
-              "id": "A",
-              "text": "対面での応対を避け、すべての業務をAIによる自動応答に任せきりにする姿勢。"
-            },
-            {
-              "id": "B",
-              "text": "感情を一切排除し、機械のように定められたマニュアルの文言だけを復唱する姿勢。"
-            },
-            {
-              "id": "C",
-              "text": "すべての権限を住民に委ね、職員自身の判断による説明を放棄する姿勢。"
-            },
-            {
-              "id": "D",
-              "text": "法の厳格さを守りながらも、困っている住民の立場に立ち、温かく次の行動へ導く姿勢。"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "Đoạn cuối tóm lược: giữ vững tính chuẩn mực của pháp luật nhưng phải có sự thấu cảm, giải thích có tâm và định hướng hành động cho công dân.",
-          "distractorExplanations": {
-            "A": "Không phó mặc hoàn toàn cho máy.",
-            "B": "Tác giả phê phán lối làm việc máy móc.",
-            "C": "Không buông bỏ trách nhiệm công vụ."
-          },
-          "skill": "Reading",
-          "explanationVi": "Đoạn cuối tóm lược: giữ vững tính chuẩn mực của pháp luật nhưng phải có sự thấu cảm, giải thích có tâm và định hướng hành động cho công dân."
-        },
-        {
-          "id": "N2_07_M12_01",
-          "typeId": "N2-RD-COMP",
-          "category": "Mondai 12: 統合理解",
-          "passage": "［Aの文章］\n　自治体の行政文書を完全に電子化し、ペーパーレスを徹底することは、環境保護と経費削減の観点から急務である。紙の印刷費や保管スペースの削減だけでなく、検索性の向上により過去の事例照会にかかる時間は大幅に短縮される。また、自然災害が発生した際にも、クラウド上にデータが安全にバックアップされていれば、被災後直ちに住民支援業務を再開できる。伝統的な紙への愛着や一時的な移行コストを理由に電子化を遅らせるべきではなく、全庁を挙げて迅速に完全移行を断行すべきである。\n\n［Bの文章］\n　行政手続きの電子化が業務の効率化をもたらすことは疑いようもないが、紙の媒体が持つ独自の安全性や信頼性を軽視してはならない。大規模な停電や通信障害、あるいは深刻なサイバー攻撃が発生した際、デジタルシステムのみに依存した組織は完全に機能不全に陥るリスクを抱えている。重要な公文書や緊急時の住民名簿などについては、万一の事態に備えて物理的な紙の台帳や原本を手元に残しておくことが、危機管理上の賢明な選択である。効率性と安全保障のバランスを見極めた段階的な導入こそが望ましい。",
-          "stem": "災害や非常時におけるデータの取り扱いについて、AとBの主張の違いはどこにあるか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "Aはクラウドのバックアップで安全に再開できるとし、Bは停電や障害に備えて紙の原本を残すべきとする。"
-            },
-            {
-              "id": "B",
-              "text": "Aは紙の保管こそが最も安全だと主張し、Bはクラウド技術への完全依存を推奨している。"
-            },
-            {
-              "id": "C",
-              "text": "AもBも、自然災害への備えとしては紙の台帳だけが唯一の解決策であると述べている。"
-            },
-            {
-              "id": "D",
-              "text": "AもBも、サイバー攻撃のリスクがあるため電子化を全面的に撤回すべきだと主張している。"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "Tác giả A cho rằng lưu trữ đám mây giúp phục hồi công việc tức thì sau thiên tai; tác giả B cảnh báo cúp điện hoặc tấn công mạng sẽ làm tê liệt hệ thống số nên cần lưu giữ sổ sách giấy tờ dự phòng.",
-          "distractorExplanations": {
-            "B": "Bị đảo ngược lập trường giữa A và B.",
-            "C": "A hoàn toàn ủng hộ số hóa đám mây chứ không chuộng giấy.",
-            "D": "Cả hai đều không đòi hủy bỏ số hóa."
-          },
-          "skill": "Reading",
-          "explanationVi": "Tác giả A cho rằng lưu trữ đám mây giúp phục hồi công việc tức thì sau thiên tai; tác giả B cảnh báo cúp điện hoặc tấn công mạng sẽ làm tê liệt hệ thống số nên cần lưu giữ sổ sách giấy tờ dự phòng."
-        },
-        {
-          "id": "N2_07_M12_02",
-          "typeId": "N2-RD-COMP",
-          "category": "Mondai 12: 統合理解",
-          "passage": "［Aの文章］\n　自治体の行政文書を完全に電子化し、ペーパーレスを徹底することは、環境保護と経費削減の観点から急務である。紙の印刷費や保管スペースの削減だけでなく、検索性の向上により過去の事例照会にかかる時間は大幅に短縮される。また、自然災害が発生した際にも、クラウド上にデータが安全にバックアップされていれば、被災後直ちに住民支援業務を再開できる。伝統的な紙への愛着や一時的な移行コストを理由に電子化を遅らせるべきではなく、全庁を挙げて迅速に完全移行を断行すべきである。\n\n［Bの文章］\n　行政手続きの電子化が業務の効率化をもたらすことは疑いようもないが、紙の媒体が持つ独自の安全性や信頼性を軽視してはならない。大規模な停電や通信障害、あるいは深刻なサイバー攻撃が発生した際、デジタルシステムのみに依存した組織は完全に機能不全に陥るリスクを抱えている。重要な公文書や緊急時の住民名簿などについては、万一の事態に備えて物理的な紙の台帳や原本を手元に残しておくことが、危機管理上の賢明な選択である。効率性と安全保障のバランスを見極めた段階的な導入こそが望ましい。",
-          "stem": "行政の電子化（ペーパーレス化）の進め方について、AとBの共通点および相違点として正しいものはどれか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "両者とも紙の文書の完全廃止を求めており、導入のスピード感についても全く同じ意見である。"
-            },
-            {
-              "id": "B",
-              "text": "両者とも電子化による業務効率化を認めつつも、Aは即時完全移行を求め、Bは危機管理とのバランスを重視した段階的導入を求めている。"
-            },
-            {
-              "id": "C",
-              "text": "Aは電子化の経費削減効果を否定しているのに対し、Bは紙の維持費がゼロであると主張している。"
-            },
-            {
-              "id": "D",
-              "text": "Aは市民向けのサービスのみを対象とし、Bは職員内部の連絡のみを電子化すべきと述べている。"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "Cả A và B đều công nhận số hóa mang lại hiệu quả cao. Tuy nhiên A muốn chuyển đổi triệt để tức thì, còn B chủ trương từng bước thận trọng để bảo đảm an ninh dự phòng.",
-          "distractorExplanations": {
-            "A": "B không đồng ý bỏ giấy hoàn toàn.",
-            "C": "A khẳng định hiệu quả giảm chi phí.",
-            "D": "Không phân biệt chia rẽ đối tượng như vậy."
-          },
-          "skill": "Reading",
-          "explanationVi": "Cả A và B đều công nhận số hóa mang lại hiệu quả cao. Tuy nhiên A muốn chuyển đổi triệt để tức thì, còn B chủ trương từng bước thận trọng để bảo đảm an ninh dự phòng."
-        },
-        {
-          "id": "N2_07_M13_01",
-          "typeId": "N2-RD-LONG",
-          "category": "Mondai 13: 長文読解",
-          "passage": "　都市部における住民コミュニティの希薄化が叫ばれて久しい。集合住宅の増加や共働き世帯の一般化、さらには個人のプライバシーを重視する生活様式の浸透に伴い、かつて地域社会の基盤であった「町内会」や「自治会」への加入率は年々低下の一途をたどっている。「役員の負担が重い」「行事に参加する時間がない」といった理由から、若い世代を中心に退会や未加入を選択する住民が増加しているのは紛れもない事実である。\n\n　しかし、この地域の結びつきの低下は、平常時には見えにくい深刻な脆弱性を都市にもたらしている。その最たるものが、大規模災害時における「共助」の機能不全である。地震や水害が発生した直後、行政や消防などの公的救助（公助）の手がすべての被災現場に行き届くには、どうしても一定の時間を要する。その初動段階において、倒壊家屋からの救出や避難所での秩序ある物資配分を支えるのは、近隣住民同士が普段から培ってきた人間関係にほかならない。誰がどこに住んでおり、どの一軒家に支援を要する高齢者がいるかという基礎情報は、日頃のコミュニティ活動を通じてしか共有され得ないのである。\n\n　さらに、平時においても、孤立死の防止や子育て世代の見守りといった地域福祉の課題は、行政の力だけで網羅できるものではない。地域に顔見知りがいるという安心感は、犯罪の抑止や住民の精神的な健康にも目に見えない形で大きく寄与している。\n\n　したがって、私たちは今、町内会組織を単に「過去の慣習」として切り捨てるのではなく、現代の生活実態に即した形で再構築する知恵を絞らねばならない。行事を厳選して役員の業務をデジタル化し、負担を極力軽減しながらも、最低限の「顔の見える関係」を維持する新しいコミュニティのあり方を模索することが、持続可能な都市生活を築く鍵なのである。",
-          "stem": "都市部で町内会や自治会への加入率が低下している背景として、本文で挙げられているものはどれか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "集合住宅の建築基準法が改正され、町内会の結成が禁止されたこと。"
-            },
-            {
-              "id": "B",
-              "text": "市役所がすべての町内会費を値上げし、市民の反発を招いたこと。"
-            },
-            {
-              "id": "C",
-              "text": "プライバシー重視の生活様式に加え、役員の負担や時間の制約があること。"
-            },
-            {
-              "id": "D",
-              "text": "若者が地域の防災訓練を完全に不要であると考えていること。"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "Đoạn 1 nêu: lối sống coi trọng sự riêng tư cá nhân, gia đình bận rộn cả hai vợ chồng đi làm, cùng với gánh nặng làm cán bộ hội và không có thời gian dự sự kiện.",
-          "distractorExplanations": {
-            "A": "Luật không cấm thành lập hội.",
-            "B": "Không nói thị xã tăng hội phí.",
-            "D": "Không phải thanh niên cho rằng diễn tập là vô ích."
-          },
-          "skill": "Reading",
-          "explanationVi": "Đoạn 1 nêu: lối sống coi trọng sự riêng tư cá nhân, gia đình bận rộn cả hai vợ chồng đi làm, cùng với gánh nặng làm cán bộ hội và không có thời gian dự sự kiện."
-        },
-        {
-          "id": "N2_07_M13_02",
-          "typeId": "N2-RD-LONG",
-          "category": "Mondai 13: 長文読解",
-          "passage": "　都市部における住民コミュニティの希薄化が叫ばれて久しい。集合住宅の増加や共働き世帯の一般化、さらには個人のプライバシーを重視する生活様式の浸透に伴い、かつて地域社会の基盤であった「町内会」や「自治会」への加入率は年々低下の一途をたどっている。「役員の負担が重い」「行事に参加する時間がない」といった理由から、若い世代を中心に退会や未加入を選択する住民が増加しているのは紛れもない事実である。\n\n　しかし、この地域の結びつきの低下は、平常時には見えにくい深刻な脆弱性を都市にもたらしている。その最たるものが、大規模災害時における「共助」の機能不全である。地震や水害が発生した直後、行政や消防などの公的救助（公助）の手がすべての被災現場に行き届くには、どうしても一定の時間を要する。その初動段階において、倒壊家屋からの救出や避難所での秩序ある物資配分を支えるのは、近隣住民同士が普段から培ってきた人間関係にほかならない。誰がどこに住んでおり、どの一軒家に支援を要する高齢者がいるかという基礎情報は、日頃のコミュニティ活動を通じてしか共有され得ないのである。\n\n　さらに、平時においても、孤立死の防止や子育て世代の見守りといった地域福祉の課題は、行政の力だけで網羅できるものではない。地域に顔見知りがいるという安心感は、犯罪の抑止や住民の精神的な健康にも目に見えない形で大きく寄与している。\n\n　したがって、私たちは今、町内会組織を単に「過去の慣習」として切り捨てるのではなく、現代の生活実態に即した形で再構築する知恵を絞らねばならない。行事を厳選して役員の業務をデジタル化し、負担を極力軽減しながらも、最低限の「顔の見える関係」を維持する新しいコミュニティのあり方を模索することが、持続可能な都市生活を築く鍵なのである。",
-          "stem": "大規模災害の発生時において、地域コミュニティ（共助）が不可欠とされる最大の理由は何か。",
-          "options": [
-            {
-              "id": "A",
-              "text": "公的な避難所は町内会員しか利用できず、非会員は立ち入りが禁止されるから。"
-            },
-            {
-              "id": "B",
-              "text": "消防署や警察は災害時に一切出動せず、住民が独力で消火活動を行わなければならないから。"
-            },
-            {
-              "id": "C",
-              "text": "被災した家屋の解体工事を、町内会の役員が無償で請け負う義務があるから。"
-            },
-            {
-              "id": "D",
-              "text": "公的機関の救助が行き届くまでの間、近隣住民同士の協力で救出や物資配分を支える必要があるから。"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "Đoạn 2 nêu: ngay sau thảm họa, lực lượng cứu hộ nhà nước (công trợ) chưa thể tới ngay mọi ngóc ngách, nên giai đoạn đầu phải nhờ người dân lân cận cứu nạn và điều phối đồ cứu trợ.",
-          "distractorExplanations": {
-            "A": "Nơi lánh nạn công cộng dành cho mọi người, không phân biệt hội viên.",
-            "B": "Cảnh sát và cứu hỏa vẫn làm nhiệm vụ nhưng cần thời gian tiếp cận.",
-            "C": "Hội dân cư không phải công ty phá dỡ nhà miễn phí."
-          },
-          "skill": "Reading",
-          "explanationVi": "Đoạn 2 nêu: ngay sau thảm họa, lực lượng cứu hộ nhà nước (công trợ) chưa thể tới ngay mọi ngóc ngách, nên giai đoạn đầu phải nhờ người dân lân cận cứu nạn và điều phối đồ cứu trợ."
-        },
-        {
-          "id": "N2_07_M13_03",
-          "typeId": "N2-RD-LONG",
-          "category": "Mondai 13: 長文読解",
-          "passage": "　都市部における住民コミュニティの希薄化が叫ばれて久しい。集合住宅の増加や共働き世帯の一般化、さらには個人のプライバシーを重視する生活様式の浸透に伴い、かつて地域社会の基盤であった「町内会」や「自治会」への加入率は年々低下の一途をたどっている。「役員の負担が重い」「行事に参加する時間がない」といった理由から、若い世代を中心に退会や未加入を選択する住民が増加しているのは紛れもない事実である。\n\n　しかし、この地域の結びつきの低下は、平常時には見えにくい深刻な脆弱性を都市にもたらしている。その最たるものが、大規模災害時における「共助」の機能不全である。地震や水害が発生した直後、行政や消防などの公的救助（公助）の手がすべての被災現場に行き届くには、どうしても一定の時間を要する。その初動段階において、倒壊家屋からの救出や避難所での秩序ある物資配分を支えるのは、近隣住民同士が普段から培ってきた人間関係にほかならない。誰がどこに住んでおり、どの一軒家に支援を要する高齢者がいるかという基礎情報は、日頃のコミュニティ活動を通じてしか共有され得ないのである。\n\n　さらに、平時においても、孤立死の防止や子育て世代の見守りといった地域福祉の課題は、行政の力だけで網羅できるものではない。地域に顔見知りがいるという安心感は、犯罪の抑止や住民の精神的な健康にも目に見えない形で大きく寄与している。\n\n　したがって、私たちは今、町内会組織を単に「過去の慣習」として切り捨てるのではなく、現代の生活実態に即した形で再構築する知恵を絞らねばならない。行事を厳選して役員の業務をデジタル化し、負担を極力軽減しながらも、最低限の「顔の見える関係」を維持する新しいコミュニティのあり方を模索することが、持続可能な都市生活を築く鍵なのである。",
-          "stem": "町内会等の将来像について、筆者が最終的に提案している解決策はどのようなものか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "役員の負担を軽減し行事を整理しつつ、現代に適した形で顔の見える関係を維持すること。"
-            },
-            {
-              "id": "B",
-              "text": "町内会制度を即刻廃止し、すべての地域福祉と防災を行政の税金で賄うこと。"
-            },
-            {
-              "id": "C",
-              "text": "昔ながらの慣習を一切変えずに厳守し、未加入者には厳しい罰則を科すこと。"
-            },
-            {
-              "id": "D",
-              "text": "すべての住民活動をインターネット上の仮想空間だけに限定し、対面での接触をなくすこと。"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "Đoạn cuối nhấn mạnh: không vứt bỏ hội dân cư mà cần cải tiến, tinh gọn sự kiện, số hóa công việc quản lý để giảm gánh nặng mà vẫn giữ được mối quan hệ quen biết xóm giềng.",
-          "distractorExplanations": {
-            "B": "Tác giả chỉ ra một mình nhà nước không thể bao quát hết.",
-            "C": "Không bảo thủ áp đặt phạt vạ.",
-            "D": "Vẫn cần giữ mối quan hệ 'biết mặt nhau' thực tế."
-          },
-          "skill": "Reading",
-          "explanationVi": "Đoạn cuối nhấn mạnh: không vứt bỏ hội dân cư mà cần cải tiến, tinh gọn sự kiện, số hóa công việc quản lý để giảm gánh nặng mà vẫn giữ được mối quan hệ quen biết xóm giềng."
-        },
-        {
-          "id": "N2_07_M14_01",
-          "typeId": "N2-RD-INFO",
-          "category": "Mondai 14: 情報検索",
-          "passage": "市民活動交流センター 施設利用のご案内\n\n【利用区分と基本料金（1時間あたり）】\n・第1会議室（定員20名）：800円（プロジェクター完備・追加料金なし）\n・第2会議室（定員40名）：1,500円（マイク設備あり・追加料金なし）\n・多目的ホール（定員100名）：3,500円（音響・照明装置一式利用は別途1回1,000円）\n※市外在住者または営利目的（入場料徴収・商品の販売等）の利用は、上記料金の1.5倍となります。\n\n【利用申し込みと予約受付期間】\n・受付開始：利用希望日の3か月前の初日（午前9:00）より受付。\n・申込方法：窓口での直接申請、または市の公共施設予約システム（要事前登録）。\n・利用日の7日前までに利用料金の全額納付が必要です（納付完了で本予約確定）。\n\n【予約の変更・キャンセル規定】\n・利用日の8日前までのキャンセル：納付済み利用料金の全額（100％）を返金。\n・利用日の7日前から2日前までのキャンセル：納付済み利用料金の半額（50％）を返金。\n・前日および当日のキャンセル：返金なし（0％）。\n※台風等の自然災害により施設側が閉館を判断した場合は、時期にかかわらず全額返金いたします。",
-          "stem": "市内在住のボランティア団体が、会員30名で第2会議室を平日に3時間利用する場合、利用料金の合計はいくらになるか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "2,400円"
-            },
-            {
-              "id": "B",
-              "text": "4,500円"
-            },
-            {
-              "id": "C",
-              "text": "6,750円"
-            },
-            {
-              "id": "D",
-              "text": "10,500円"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "Đoàn thể thiện nguyện trong thành phố (không phụ thu), 30 người nên chọn Phòng họp số 2 (sức chứa 40 người). Đơn giá 1,500 yên/giờ x 3 giờ = 4,500 yên.",
-          "distractorExplanations": {
-            "A": "2,400 yên là giá của Phòng họp số 1 (sức chứa chỉ 20 người, không đủ cho 30 người).",
-            "C": "6,750 yên là giá bị tính 1.5 lần ngoại thành/thương mại.",
-            "D": "10,500 yên là giá của Hội trường đa năng (3,500 yên x 3)."
-          },
-          "skill": "Reading",
-          "explanationVi": "Đoàn thể thiện nguyện trong thành phố (không phụ thu), 30 người nên chọn Phòng họp số 2 (sức chứa 40 người). Đơn giá 1,500 yên/giờ x 3 giờ = 4,500 yên."
-        },
-        {
-          "id": "N2_07_M14_02",
-          "typeId": "N2-RD-INFO",
-          "category": "Mondai 14: 情報検索",
-          "passage": "市民活動交流センター 施設利用のご案内\n\n【利用区分と基本料金（1時間あたり）】\n・第1会議室（定員20名）：800円（プロジェクター完備・追加料金なし）\n・第2会議室（定員40名）：1,500円（マイク設備あり・追加料金なし）\n・多目的ホール（定員100名）：3,500円（音響・照明装置一式利用は別途1回1,000円）\n※市外在住者または営利目的（入場料徴収・商品の販売等）の利用は、上記料金の1.5倍となります。\n\n【利用申し込みと予約受付期間】\n・受付開始：利用希望日の3か月前の初日（午前9:00）より受付。\n・申込方法：窓口での直接申請、または市の公共施設予約システム（要事前登録）。\n・利用日の7日前までに利用料金の全額納付が必要です（納付完了で本予約確定）。\n\n【予約の変更・キャンセル規定】\n・利用日の8日前までのキャンセル：納付済み利用料金の全額（100％）を返金。\n・利用日の7日前から2日前までのキャンセル：納付済み利用料金の半額（50％）を返金。\n・前日および当日のキャンセル：返金なし（0％）。\n※台風等の自然災害により施設側が閉館を判断した場合は、時期にかかわらず全額返金いたします。",
-          "stem": "予約のキャンセルと返金について、規定に合致しているものはどれか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "台風によりセンターが閉館した場合でも、当日キャンセルは一切返金されない。"
-            },
-            {
-              "id": "B",
-              "text": "利用日の前日にキャンセルしても、理由を問わず全額が返金される。"
-            },
-            {
-              "id": "C",
-              "text": "利用日の5日前にキャンセルした場合、納付済み料金の50％が返金される。"
-            },
-            {
-              "id": "D",
-              "text": "利用日の10日前にキャンセルした場合、手数料として半額が差し引かれる。"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "Quy định nêu: hủy từ 7 ngày đến 2 ngày trước ngày sử dụng thì được hoàn lại 50% tiền (5 ngày trước rơi vào khung này).",
-          "distractorExplanations": {
-            "A": "Nếu bão khiến trung tâm phải đóng cửa thì được hoàn 100% bất kể thời điểm.",
-            "B": "Hủy ngày hôm trước hoặc trong ngày thì không được hoàn tiền (0%).",
-            "D": "Hủy từ 8 ngày trở về trước được hoàn lại 100%."
-          },
-          "skill": "Reading",
-          "explanationVi": "Quy định nêu: hủy từ 7 ngày đến 2 ngày trước ngày sử dụng thì được hoàn lại 50% tiền (5 ngày trước rơi vào khung này)."
-        }
-      ]
-    },
-    {
-      "sectionId": "sec-2",
-      "sectionName": "Phần 2: Nghe hiểu (Listening Comprehension)",
-      "durationMinutes": 50,
-      "itemCount": 30,
-      "audioStatus": "BROWSER_PLAYBACK_VERIFIED",
-      "audioNoticeVi": "30 tệp âm thanh MP3 đã được kiểm tra hash và phát tiến trình thực tế trên trình duyệt máy tính và di động.",
-      "items": [
-        {
-          "id": "N2_07_M1_L01",
-          "typeId": "N2-LIS-TASK",
-          "category": "Mondai 1: 課題理解",
-          "script": "市役所の市民課窓口で、男性と女性の職員が転出届の手続きについて話しています。男性はこの後、まず何をしなければなりませんか。\n\n男：「すみません、来月他県へ引っ越すことになったので、転出の手続きをしたいのですが。」\n女：「ご転出ですね。ご本人様確認のため、マイナンバーカードか運転免許証はお持ちでしょうか。」\n男：「はい、マイナンバーカードを持っています。」\n女：「ありがとうございます。マイナンバーカードをお持ちでしたら、転出証明書の発行を受ける代わりに、カードを用いた特例転出が可能です。ただし、転出届の申請用紙に新住所と転出予定日をご記入いただく必要があります。」\n男：「分かりました。用紙はあちらの記載台にありますか。」\n女：「はい、記載台の『3番』の用紙です。ご記入後、番号札をお取りになってお待ちください。順番が来ましたら、カードの暗証番号を入力していただきます。」\n男：「承知しました。では、まず用紙に書いてきます。」",
-          "stem": "男性はこの後、まず何をしなければなりませんか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "記載台へ行って転出届の申請用紙を記入する。"
-            },
-            {
-              "id": "B",
-              "text": "順番待ちの番号札を取ってロビーで待つ。"
-            },
-            {
-              "id": "C",
-              "text": "窓口の端末にマイナンバーカードの暗証番号を入力する。"
-            },
-            {
-              "id": "D",
-              "text": "転出証明書の紙の原本を窓口で受け取る。"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "Nữ nhân viên hướng dẫn: trước tiên cần lấy tờ khai số 3 tại bàn hướng dẫn và điền địa chỉ mới cùng ngày chuyển đi ('申請用紙に新住所と転出予定日をご記入いただく必要があります'). Nam công dân xác nhận sẽ đi viết đơn trước ('まず用紙に書いてきます').",
-          "distractorExplanations": {
-            "B": "Lấy số thứ tự sau khi đã điền xong đơn.",
-            "C": "Nhập mã PIN khi đến lượt gọi số tại quầy.",
-            "D": "Người có thẻ My Number chuyển đi theo dạng đặc thù không cần phát hành giấy chứng nhận chuyển đi bằng giấy."
-          },
-          "skill": "Listening",
-          "explanationVi": "Nữ nhân viên hướng dẫn: trước tiên cần lấy tờ khai số 3 tại bàn hướng dẫn và điền địa chỉ mới cùng ngày chuyển đi ('申請用紙に新住所と転出予定日をご記入いただく必要があります'). Nam công dân xác nhận sẽ đi viết đơn trước ('まず用紙に書いてきます').",
-          "audioUrl": "audio/n2_mock_07/N2_07_M1_L01.mp3",
-          "audioDurationSec": 87.176,
-          "audioSha256": "ce3df25ee3e0faf4e74d82aece6a8ff02ccb35f19e5c7c41c1428959f1a0bfc2",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ]
-        },
-        {
-          "id": "N2_07_M1_L02",
-          "typeId": "N2-LIS-TASK",
-          "category": "Mondai 1: 課題理解",
-          "script": "会社で、男性の課長と女性社員が来月発行する社内報の原稿について話しています。女性社員はこの後、何を修正しますか。\n\n男：「高橋さん、社内報の最終ゲラ、確認させてもらったよ。レイアウトも写真の配置も見やすくていいね。」\n女：「ありがとうございます、課長。」\n男：「ただね、3ページの『新任マネージャー紹介』の記事なんだけど、営業二課の鈴木さんの役職名が『課長代理』になっているよ。彼は先月の昇進で『課長』になっているから直しておいて。」\n女：「あっ、大変失礼いたしました。すぐに直します。あと、隣の座談会記事の日時ですが、来週月曜日になっていますが大丈夫でしょうか。」\n男：「ああ、そっちは先週の役員会で承認済みだからそのままでいいよ。それと、裏表紙の印刷部数の表記も確認しておいてね。」\n女：「はい、部数は印刷会社に確認済みです。では、役職の箇所を直ちに修正して再出力します。」",
-          "stem": "女性社員はこの後、何を修正しますか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "写真の配置とページレイアウトを変更する。"
-            },
-            {
-              "id": "B",
-              "text": "新任マネージャーの役職名の表記を直す。"
-            },
-            {
-              "id": "C",
-              "text": "座談会記事に記載された開催日時を修正する。"
-            },
-            {
-              "id": "D",
-              "text": "裏表紙の社内報の印刷部数の数値を変更する。"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "Trưởng phòng chỉ ra lỗi duy nhất cần sửa: chức vụ của anh Suzuki bài trang 3 bị ghi là 'Phó phòng', trong khi tháng trước đã thăng chức lên 'Trưởng phòng' ('役職名が課長代理になっているよ...課長になっているから直しておいて').",
-          "distractorExplanations": {
-            "A": "Bố cục ảnh và trình bày được khen đẹp, không cần đổi.",
-            "C": "Ngày giờ tọa đàm đã được duyệt, giữ nguyên.",
-            "D": "Số lượng in đã xác nhận chuẩn với nhà in."
-          },
-          "skill": "Listening",
-          "explanationVi": "Trưởng phòng chỉ ra lỗi duy nhất cần sửa: chức vụ của anh Suzuki bài trang 3 bị ghi là 'Phó phòng', trong khi tháng trước đã thăng chức lên 'Trưởng phòng' ('役職名が課長代理になっているよ...課長になっているから直しておいて').",
-          "audioUrl": "audio/n2_mock_07/N2_07_M1_L02.mp3",
-          "audioDurationSec": 83.104,
-          "audioSha256": "af5ef620b1a6e704b415067db4aa3a4dd0393304a61e65e69d32d13559fafb70",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ]
-        },
-        {
-          "id": "N2_07_M1_L03",
-          "typeId": "N2-LIS-TASK",
-          "category": "Mondai 1: 課題理解",
-          "script": "マンションの集会所で、管理組合の理事長の女性と役員の男性が定期総会の準備について話しています。男性役員はこの後、まず何をしなければなりませんか。\n\n女：「中村さん、来週日曜日の定期総会ですが、議案書の印刷は無事に終わりましたね。」\n男：「はい、全120戸分の印刷と封筒への封入作業は完了しています。」\n女：「助かりました。それで、総会に出席できない住民の方から『委任状』や『議決権行使書』を事前に集める必要がありますね。」\n男：「はい。各住戸の郵便受けに議案書を投函して、回収期日を今週金曜日に設定してあります。」\n女：「ええ。ただ、投函する前に、案内状の出欠返信締切日の日付に誤記がないか、もう一度だけ確認してほしいの。去年、日付の曜日が間違っていて混乱したことがあったから。」\n男：「分かりました。全戸投函を始める前に、案内状の日付と曜日を今すぐ照合します。」\n女：「お願いね。会場のマイク設備や机の配置は前日の土曜日に確認すれば間に合うから。」",
-          "stem": "男性役員はこの後、まず何をしなければなりませんか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "集会所のマイク設備と机の配置を点検する。"
-            },
-            {
-              "id": "B",
-              "text": "全住戸の郵便受けに議案書の封筒を投函する。"
-            },
-            {
-              "id": "C",
-              "text": "議案書に同封する案内状の日付と曜日を確認する。"
-            },
-            {
-              "id": "D",
-              "text": "全120戸分の議案書を印刷機で印刷する。"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "Bà chủ tịch yêu cầu kiểm tra kỹ lại ngày tháng và thứ trong giấy hẹn trước khi phát đơn vào hòm thư ('投函する前に、案内状の出欠返信締切日の日付に誤記がないか、もう一度だけ確認してほしいの'). Nam cán bộ xác nhận sẽ đối chiếu ngay lập tức.",
-          "distractorExplanations": {
-            "A": "Kiểm tra loa đài hội trường để thứ Bảy trước ngày họp làm sau.",
-            "B": "Phát vào hòm thư chỉ làm sau khi đã kiểm tra xong ngày tháng.",
-            "D": "Việc in 120 bộ đã hoàn tất từ trước."
-          },
-          "skill": "Listening",
-          "explanationVi": "Bà chủ tịch yêu cầu kiểm tra kỹ lại ngày tháng và thứ trong giấy hẹn trước khi phát đơn vào hòm thư ('投函する前に、案内状の出欠返信締切日の日付に誤記がないか、もう一度だけ確認してほしいの'). Nam cán bộ xác nhận sẽ đối chiếu ngay lập tức.",
-          "audioUrl": "audio/n2_mock_07/N2_07_M1_L03.mp3",
-          "audioDurationSec": 93.344,
-          "audioSha256": "8ef214bc4dea3e2385159f1fe69e704dd4ba615cdc8aa26a8480ccbb739423d5",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ]
-        },
-        {
-          "id": "N2_07_M1_L04",
-          "typeId": "N2-LIS-TASK",
-          "category": "Mondai 1: 課題理解",
-          "script": "オフィスで、男性社員と女性の先輩社員が部署の備品購入について話しています。男性社員はこの後、まず何を提出しなければなりませんか。\n\n男：「先輩、プロジェクトルームのホワイトボードとプロジェクターの買い替えですが、カタログから候補を選定しました。」\n女：「ありがとう。合計金額はいくらくらいになりそう？」\n男：「2点合わせて約8万円です。」\n女：「うちの会社の規程では、5万円を超える備品を購入する場合、先に発注するんじゃなくて、見積書を添えて『事前購入伺い書』を経理課に出さないといけないのよ。」\n男：「あっ、そうだったんですね。ネット通販の領収書を後から精算すればいいと思っていました。」\n女：「それは5万円未満の場合ね。業者から取り寄せた正式な見積書のPDFがある？」\n男：「はい、先ほど販売店からメールで届きました。」\n女：「じゃあ、社内ポータルから『事前伺い書』を作成して、見積書を添付して部長へ決裁申請を上げてちょうだい。」\n男：「承知しました。すぐに申請データを作成します。」",
-          "stem": "男性社員はこの後、まず何を提出しなければなりませんか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "販売店への正式な注文書と支払請求書。"
-            },
-            {
-              "id": "B",
-              "text": "ネット通販で購入した商品の領収書。"
-            },
-            {
-              "id": "C",
-              "text": "プロジェクトルームの備品廃棄申請書。"
-            },
-            {
-              "id": "D",
-              "text": "見積書を添付した備品の事前購入伺い書。"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "Nữ tiền bối giải thích quy định công ty: thiết bị trên 5 vạn yên phải nộp giấy trình duyệt mua trước (事前購入伺い書) kèm báo giá (見積書) lên trưởng phòng ('事前伺い書を作成して、見積書を添付して部長へ決裁申請を上げてちょうだい').",
-          "distractorExplanations": {
-            "A": "Chưa được đặt hàng khi chưa duyệt dự toán.",
-            "B": "Hóa đơn thanh toán sau chỉ áp dụng cho đồ dưới 5 vạn yên.",
-            "C": "Không có yêu cầu nộp đơn thanh lý thiết bị cũ."
-          },
-          "skill": "Listening",
-          "explanationVi": "Nữ tiền bối giải thích quy định công ty: thiết bị trên 5 vạn yên phải nộp giấy trình duyệt mua trước (事前購入伺い書) kèm báo giá (見積書) lên trưởng phòng ('事前伺い書を作成して、見積書を添付して部長へ決裁申請を上げてちょうだい').",
-          "audioUrl": "audio/n2_mock_07/N2_07_M1_L04.mp3",
-          "audioDurationSec": 90.52,
-          "audioSha256": "d7111e2abd01a74875a906a146a093d1d232e703393fe8958c844d7ded0ce4d7",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ]
-        },
-        {
-          "id": "N2_07_M1_L05",
-          "typeId": "N2-LIS-TASK",
-          "category": "Mondai 1: 課題理解",
-          "script": "地域センターで、訓練本部の男性責任者と女性職員が当日の進行について話しています。女性職員はこの後、どこへ向かわなければなりませんか。\n\n男：「間もなく午前9時から総合防災訓練が始まります。各自の持ち場を確認します。」\n女：「はい、本部長。私は当初、中央広場での初期消火体験コーナーの担当でしたが、予定通りでよろしいでしょうか。」\n男：「あ、実はさっき第1避難所の小学校体育館から連絡があってね。受付の受付名簿の配布と高齢者の誘導スタッフが1名急病で来られなくなったそうなんだ。」\n女：「そうなんですか。それは大変ですね。」\n男：「消火器体験の方は消防署の隊員さんが2名増員されたから大丈夫だ。悪いんだけど、君は今すぐ小学校の体育館へ行って、受付誘導の応援に入ってくれないか。」\n女：「分かりました。避難者名簿の用紙を持って、直ちに小学校へ向かいます。」",
-          "stem": "女性職員はこの後、どこへ向かわなければなりませんか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "第1避難所となっている小学校の体育館。"
-            },
-            {
-              "id": "B",
-              "text": "初期消火体験を行う中央広場のコーナー。"
-            },
-            {
-              "id": "C",
-              "text": "訓練機材を保管している消防署の車庫。"
-            },
-            {
-              "id": "D",
-              "text": "本部が設置されている地域センターの救護室。"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "Trưởng ban điều động nhân sự khẩn cấp: điểm lánh nạn trường tiểu học bị thiếu người tiếp đón và hướng dẫn người già do có người ốm đột xuất, nên yêu cầu nữ nhân viên sang đó tiếp viện ngay ('今すぐ小学校の体育館へ行って、受付誘導の応援に入ってくれないか').",
-          "distractorExplanations": {
-            "B": "Khu dập lửa quảng trường trung tâm đã có lính cứu hỏa tiếp viện.",
-            "C": "Không phải đi gara trạm cứu hỏa.",
-            "D": "Không đến phòng cứu trợ."
-          },
-          "skill": "Listening",
-          "explanationVi": "Trưởng ban điều động nhân sự khẩn cấp: điểm lánh nạn trường tiểu học bị thiếu người tiếp đón và hướng dẫn người già do có người ốm đột xuất, nên yêu cầu nữ nhân viên sang đó tiếp viện ngay ('今すぐ小学校の体育館へ行って、受付誘導の応援に入ってくれないか').",
-          "audioUrl": "audio/n2_mock_07/N2_07_M1_L05.mp3",
-          "audioDurationSec": 81.784,
-          "audioSha256": "7ec4f8c46ac87c49f160c4e3d5eb429ea419d1e193f18bcc2a72c00274ee4835",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ]
-        },
-        {
-          "id": "N2_07_M2_L01",
-          "typeId": "N2-LIS-POINT",
-          "category": "Mondai 2: ポイント理解",
-          "script": "市役所の交通対策課で、男性職員と女性職員がコミュニティバスの見直しについて話しています。今回ルートを変更することになった最大の理由は何ですか。\n\n（6.0秒の無音）\n\n男：「来月から運行が始まる新しいコミュニティバスの巡回ルート、市民説明会でも好評だったね。」\n女：「ええ。当初は駅と市役所を最短距離で結ぶルートを検討していましたが、最終的には総合病院と大型スーパーを経由する大回りルートに変更しましたね。」\n男：「うん。燃料費の高騰や運転手不足の面からは直線ルートの方が望ましかったんだけど、アンケート調査を見たら、高齢者の通院や日用品の買い物手段がなくて困っているという声が圧倒的に多かったからね。」\n女：「そうですね。運行本数を少し減らしてでも、生活に直結する医療機関や商店街へのアクセスを優先した判断は正しかったと思います。」\n男：「ああ。地域の生活インフラとしての役割を一番に考えた結果だね。」",
-          "stem": "今回ルートを変更することになった最大の理由は何ですか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "バスの燃料費を削減し、運行コストを下げるため。"
-            },
-            {
-              "id": "B",
-              "text": "高齢者の通院や買い物の利便性を確保するため。"
-            },
-            {
-              "id": "C",
-              "text": "駅と市役所の間を最短時間で結ぶため。"
-            },
-            {
-              "id": "D",
-              "text": "バスの運転手の不足を解消するため。"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "Nam nhân viên nêu rõ lý do quyết định: khảo sát ý kiến cho thấy người cao tuổi gặp khó khăn lớn về đi khám bệnh và đi chợ, nên tuyến xe được uốn qua bệnh viện và siêu thị ('高齢者の通院や日用品の買い物手段がなくて困っているという声が圧倒的に多かったからね').",
-          "distractorExplanations": {
-            "A": "Tuyến đường vòng tốn xăng hơn, không phải để giảm chi phí nhiên liệu.",
-            "C": "Đã từ bỏ tuyến đường thẳng ngắn nhất.",
-            "D": "Không phải để giải quyết thiếu lái xe."
-          },
-          "skill": "Listening",
-          "explanationVi": "Nam nhân viên nêu rõ lý do quyết định: khảo sát ý kiến cho thấy người cao tuổi gặp khó khăn lớn về đi khám bệnh và đi chợ, nên tuyến xe được uốn qua bệnh viện và siêu thị ('高齢者の通院や日用品の買い物手段がなくて困っているという声が圧倒的に多かったからね').",
-          "audioUrl": "audio/n2_mock_07/N2_07_M2_L01.mp3",
-          "audioDurationSec": 90.76,
-          "audioSha256": "cd53de902b55a8d878a41c434e573082473773d42e24cb24a754bf055a0ec9c5",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ]
-        },
-        {
-          "id": "N2_07_M2_L02",
-          "typeId": "N2-LIS-POINT",
-          "category": "Mondai 2: ポイント理解",
-          "script": "会社で、人事課の女性社員が新入社員にテレワークの留意点について説明しています。勤怠管理において特に注意すべき点として何が挙げられていますか。\n\n（6.0秒の無音）\n\n女：「在宅勤務を行う際の勤怠ルールについて説明します。自宅での作業は通勤のストレスがない反面、私生活との境界が曖昧になりがちです。業務開始と終了の打刻はもちろん必須ですが、それ以上に徹底してほしいのは『途中離席』の申告です。例えば、急な宅配便の受け取りや家事などで15分以上パソコンを離れる場合は、必ずチャットツールのステータスを離席にし、事後にシステムへ中抜け時間を登録してください。これを怠ると、実労働時間の把握ができなくなり、労務管理上のトラブルにつながります。」",
-          "stem": "勤怠管理において特に注意すべき点として何が挙げられていますか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "在宅勤務中のパソコン画面を常にカメラで録画すること。"
-            },
-            {
-              "id": "B",
-              "text": "毎朝8時までに全社員宛てに業務計画メールを送ること。"
-            },
-            {
-              "id": "C",
-              "text": "15分以上席を離れる際のステータス変更と中抜け登録。"
-            },
-            {
-              "id": "D",
-              "text": "終業後に上司と30分間の反省面談を毎日行うこと。"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "Nhân viên nhân sự nhấn mạnh điều đặc biệt cần chú ý: khi rời khỏi bàn máy tính từ 15 phút trở lên vì việc riêng thì bắt buộc đổi trạng thái sang 'vắng mặt' và đăng ký thời gian rời bàn ('15分以上パソコンを離れる場合は、必ずチャットツールのステータスを離席にし、事後にシステムへ中抜け時間を登録してください').",
-          "distractorExplanations": {
-            "A": "Không có yêu cầu quay video màn hình liên tục.",
-            "B": "Không yêu cầu gửi email cho toàn thể công ty lúc 8h sáng.",
-            "D": "Không họp kiểm điểm 30 phút mỗi ngày."
-          },
-          "skill": "Listening",
-          "explanationVi": "Nhân viên nhân sự nhấn mạnh điều đặc biệt cần chú ý: khi rời khỏi bàn máy tính từ 15 phút trở lên vì việc riêng thì bắt buộc đổi trạng thái sang 'vắng mặt' và đăng ký thời gian rời bàn ('15分以上パソコンを離れる場合は、必ずチャットツールのステータスを離席にし、事後にシステムへ中抜け時間を登録してください').",
-          "audioUrl": "audio/n2_mock_07/N2_07_M2_L02.mp3",
-          "audioDurationSec": 77.784,
-          "audioSha256": "4c69b34585ab7db1709c499e5668cf022dfb2004449efbe13979754a1f473a21",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ]
-        },
-        {
-          "id": "N2_07_M2_L03",
-          "typeId": "N2-LIS-POINT",
-          "category": "Mondai 2: ポイント理解",
-          "script": "電話で、市民の男性と公民館の職員が施設利用について話しています。男性の予約申し込みが却下された理由は何ですか。\n\n（6.0秒の無音）\n\n男：「もしもし、先週申し込んだ来月10日の第1会議室の予約結果が『不許可』で届いたのですが、理由を教えていただけますか。」\n女：「はい、お名前とお申し込み内容を確認いたします。……佐藤様ですね。お申し込みいただいた『ギター教室』ですが、講師の方が入場料や受講料を生徒から徴収される予定となっておりますでしょうか。」\n男：「ええ、参加費として1人2,000円集める計画ですが。」\n女：「恐れ入ります。当公民館は社会教育法に基づく公共施設のため、営利を目的とした私塾や個人レッスンの事業にはご利用いただけない規定となっております。サークル等の会員同士の実費割り勘であれば可能ですが、講師報酬を伴う有償講座は対象外となります。」\n男：「ああ、営利目的とみなされたわけですね。理解しました。」",
-          "stem": "男性の予約申し込みが却下された理由は何ですか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "利用希望人数が会議室の定員を超えていたため。"
-            },
-            {
-              "id": "B",
-              "text": "利用申請の締め切り期日を過ぎて申し込んだため。"
-            },
-            {
-              "id": "C",
-              "text": "ギターの演奏音が騒音基準を超えていたため。"
-            },
-            {
-              "id": "D",
-              "text": "受講料を徴収する営利目的の利用に該当したため。"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "Nhân viên nhà văn hóa giải thích: cơ sở công cộng phi lợi nhuận cấm các lớp dạy có thu học phí mang tính thương mại/lợi nhuận cá nhân ('営利を目的とした私塾や個人レッスンの事業にはご利用いただけない規定となっております').",
-          "distractorExplanations": {
-            "A": "Không phải do quá số lượng người.",
-            "B": "Đơn nộp đúng hạn, không quá hạn.",
-            "C": "Chưa xét đến tiêu chuẩn âm thanh."
-          },
-          "skill": "Listening",
-          "explanationVi": "Nhân viên nhà văn hóa giải thích: cơ sở công cộng phi lợi nhuận cấm các lớp dạy có thu học phí mang tính thương mại/lợi nhuận cá nhân ('営利を目的とした私塾や個人レッスンの事業にはご利用いただけない規定となっております').",
-          "audioUrl": "audio/n2_mock_07/N2_07_M2_L03.mp3",
-          "audioDurationSec": 91.192,
-          "audioSha256": "a1aaac3722bbf0752af7a6da8907df57f2f40f6ea01e36e00a5bf2a2765ed7c2",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ]
-        },
-        {
-          "id": "N2_07_M2_L04",
-          "typeId": "N2-LIS-POINT",
-          "category": "Mondai 2: ポイント理解",
-          "script": "会社で、男性社員と女性社員が研修の感想について話しています。男性社員が研修で最も感銘を受けた指導法は何ですか。\n\n（6.0秒の無音）\n\n女：「課長、昨日までの新任管理職研修、いかがでしたか。」\n男：「うん、リーダーシップ論や目標管理の手法など色々学んだけど、一番ハッとさせられたのは『部下の自発的な課題発見を促す問いかけ方』だったよ。」\n女：「問いかけ方、ですか？」\n男：「そう。部下がミスをした時、つい『なぜできなかったのか』と過去の原因を詰問しがちだけど、それだと相手は萎縮して言い訳を探してしまう。そうではなくて、『次にどうすれば防げると思うか』と未来の行動へ意識を向けさせる質問をするんだ。これだけで部下の主体性が全く違ってくるという話にとても納得したよ。」\n女：「なるほど、反省ではなく次の改善策を自分で考えさせるわけですね。」",
-          "stem": "男性社員が研修で最も感銘を受けた指導法は何ですか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "原因を詰問せず、再発防止の行動を自ら考えさせる問いかけ。"
-            },
-            {
-              "id": "B",
-              "text": "部下の小さなミスも見逃さずにその場で厳しく叱責すること。"
-            },
-            {
-              "id": "C",
-              "text": "すべての業務指示を詳細なマニュアルにして配布すること。"
-            },
-            {
-              "id": "D",
-              "text": "目標達成度に応じて部下の給与や賞与を厳密に差別化すること。"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "Nam quản lý chia sẻ điều tâm đắc nhất: không truy vấn lý do thất bại trong quá khứ mà hỏi hướng tới tương lai để cấp dưới tự phát hiện giải pháp khắc phục ('部下の自発的な課題発見を促す問いかけ方...次にどうすれば防げると思うかと未来の行動へ意識を向けさせる').",
-          "distractorExplanations": {
-            "B": "Quát mắng ngay tại chỗ là điều tác giả khuyên nên tránh.",
-            "C": "Không nói về việc phát cẩm nang chi tiết.",
-            "D": "Không nói về phân hóa thưởng phạt."
-          },
-          "skill": "Listening",
-          "explanationVi": "Nam quản lý chia sẻ điều tâm đắc nhất: không truy vấn lý do thất bại trong quá khứ mà hỏi hướng tới tương lai để cấp dưới tự phát hiện giải pháp khắc phục ('部下の自発的な課題発見を促す問いかけ方...次にどうすれば防げると思うかと未来の行動へ意識を向けさせる').",
-          "audioUrl": "audio/n2_mock_07/N2_07_M2_L04.mp3",
-          "audioDurationSec": 82.792,
-          "audioSha256": "18e015ef4796c2e3197c7c8ef140aaab8171cb71e9c0feca4caa145bd7513942",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ]
-        },
-        {
-          "id": "N2_07_M2_L05",
-          "typeId": "N2-LIS-POINT",
-          "category": "Mondai 2: ポイント理解",
-          "script": "町内会の集会で、役員の女性がゴミ集積所の対策について報告しています。今年新しく導入された効果的な対策は何ですか。\n\n（6.0秒の無音）\n\n女：「環境衛生部から、ゴミ収集ステーションのカラス被害対策についてご報告します。これまで防鳥ネットをかぶせていましたが、隙間から突かれて散乱する事例が多発していました。そこで先月より、各ステーションに『折りたたみ式の大型メッシュボックス』を試験配備いたしました。収集日以外はコンパクトに畳んで壁際に収納でき、ゴミ袋を完全に密閉して四方を囲む構造のため、カラスの被害が劇的に減少しました。住民の皆様にもボックス内への確実な収納をお願いいたします。」",
-          "stem": "今年新しく導入された効果的な対策は何ですか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "ステーション周辺に監視カメラを24時間設置したこと。"
-            },
-            {
-              "id": "B",
-              "text": "ゴミ袋を完全に密閉できる折りたたみ式メッシュボックスの配備。"
-            },
-            {
-              "id": "C",
-              "text": "夜間にカラスを追い払う強力なライトを導入したこと。"
-            },
-            {
-              "id": "D",
-              "text": "ゴミの収集時間を朝から夕方へ変更したこと。"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "Báo cáo chỉ rõ biện pháp mới đem lại hiệu quả cao là lồng lưới kim loại dạng gập có thể bao bọc kín rác thải ('折りたたみ式の大型メッシュボックスを試験配備いたしました...ゴミ袋を完全に密閉して四方を囲む構造のため、カラスの被害が劇的に減少しました').",
-          "distractorExplanations": {
-            "A": "Không gắn camera giám sát.",
-            "C": "Không dùng đèn đuổi ban đêm.",
-            "D": "Không đổi giờ thu gom rác."
-          },
-          "skill": "Listening",
-          "explanationVi": "Báo cáo chỉ rõ biện pháp mới đem lại hiệu quả cao là lồng lưới kim loại dạng gập có thể bao bọc kín rác thải ('折りたたみ式の大型メッシュボックスを試験配備いたしました...ゴミ袋を完全に密閉して四方を囲む構造のため、カラスの被害が劇的に減少しました').",
-          "audioUrl": "audio/n2_mock_07/N2_07_M2_L05.mp3",
-          "audioDurationSec": 72.672,
-          "audioSha256": "a0f88f227c9228247a07438c9b883e37d734e93fdc3848fe91630342e675c99e",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ]
-        },
-        {
-          "id": "N2_07_M2_L06",
-          "typeId": "N2-LIS-POINT",
-          "category": "Mondai 2: ポイント理解",
-          "script": "ラジオで、市民マラソン大会の実行委員がボランティア募集について案内しています。今年から変更された募集条件は何ですか。\n\n（6.0秒の無音）\n\n男：「今年で第10回を迎える緑市市民マラソン大会の運営ボランティアを募集しています。給水所でのドリンク配布やコース沿道の走路誘導など、大会を支えていただく大切な役割です。なお、昨年までは『市内在住または在勤・在学の高校生以上』に限定しておりましたが、遠方からの参加希望者が急増したことを受け、今年度より『市外在住の方』のエントリーも広く受け付けることといたしました。緑市のスポーツ振興に熱意のある皆様のご応募をお待ちしております。」",
-          "stem": "今年から変更された募集条件は何ですか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "ボランティア参加者全員に日当が支給されるようになったこと。"
-            },
-            {
-              "id": "B",
-              "text": "中学生や小学生の参加も認められるようになったこと。"
-            },
-            {
-              "id": "C",
-              "text": "市外に住んでいる人でもボランティアに応募できるようになったこと。"
-            },
-            {
-              "id": "D",
-              "text": "給水所の作業が廃止され、走路誘導のみの募集になったこと。"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "Ban tổ chức nêu rõ điểm mới của năm nay: trước đây chỉ nhận người sống/làm việc trong thành phố, nay mở rộng tiếp nhận cả người sống ngoài thành phố ('今年度より市外在住の方のエントリーも広く受け付けることといたしました').",
-          "distractorExplanations": {
-            "A": "Là hoạt động tình nguyện không nhận thù lao ngày.",
-            "B": "Vẫn giữ độ tuổi từ học sinh cấp 3 trở lên, không nhận học sinh cấp 1, 2.",
-            "D": "Vẫn có các nhiệm vụ phân phát nước uống bình thường."
-          },
-          "skill": "Listening",
-          "explanationVi": "Ban tổ chức nêu rõ điểm mới của năm nay: trước đây chỉ nhận người sống/làm việc trong thành phố, nay mở rộng tiếp nhận cả người sống ngoài thành phố ('今年度より市外在住の方のエントリーも広く受け付けることといたしました').",
-          "audioUrl": "audio/n2_mock_07/N2_07_M2_L06.mp3",
-          "audioDurationSec": 64.896,
-          "audioSha256": "16234457e6000d2e8661aea88637c69cc3fd8eb24995393cad739d0de85dcbbb",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ]
-        },
-        {
-          "id": "N2_07_M3_L01",
-          "typeId": "N2-LIS-GIST",
-          "category": "Mondai 3: 概要理解",
-          "script": "テレビの広報番組で、市役所の職員が話しています。\n\n男：「緑市では、子育て世帯の皆様が行政手続きをよりスムーズに行えるよう、今月より市役所本庁舎1階に『こども家庭支援総合窓口』を開設いたしました。これまで、児童手当の申請は市民課、保育園の入所相談は保育支援課、予防接種の問診票は健康増進課と、庁舎内の複数のフロアを回っていただく必要がございました。新しい総合窓口では、これらすべての相談や申請を一括して専任スタッフが承ります。小さなお子様連れでも安心して来庁いただけるよう、キッズスペースや授乳室も併設しておりますので、どうぞお気軽にご利用ください。」\n\n市の職員は何について話していますか。\n1番：子育て関連の行政手続きが一箇所でできるようになったこと\n2番：保育園の保育料が全額免除される新しい制度\n3番：市役所本庁舎の耐震改修工事のスケジュール\n4番：市内で開催される親子向けイベントの開催案内",
-          "stem": "市の職員は何について話していますか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "市内で開催される親子向けイベントの開催案内。"
-            },
-            {
-              "id": "B",
-              "text": "保育園の保育料が全額免除される新しい制度。"
-            },
-            {
-              "id": "C",
-              "text": "市役所本庁舎の耐震改修工事のスケジュール。"
-            },
-            {
-              "id": "D",
-              "text": "子育て関連の行政手続きが一箇所でできるようになったこと。"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "Nhân viên thị xã giới thiệu quầy một cửa mới: gộp toàn bộ các thủ tục con cái vốn phải đi nhiều tầng trước đây lại thành một quầy tổng hợp duy nhất tại tầng 1 ('これらすべての相談や申請を一括して専任スタッフが承ります').",
-          "distractorExplanations": {
-            "A": "Không phải thông báo sự kiện vui chơi.",
-            "B": "Không nói miễn học phí nhà trẻ.",
-            "C": "Không phải công trình sửa chữa trụ sở chống động đất."
-          },
-          "skill": "Listening",
-          "explanationVi": "Nhân viên thị xã giới thiệu quầy một cửa mới: gộp toàn bộ các thủ tục con cái vốn phải đi nhiều tầng trước đây lại thành một quầy tổng hợp duy nhất tại tầng 1 ('これらすべての相談や申請を一括して専任スタッフが承ります').",
-          "audioUrl": "audio/n2_mock_07/N2_07_M3_L01.mp3",
-          "audioDurationSec": 83.98,
-          "audioSha256": "611c01e354a52988c7abcb8bf9fba6d9937c8df25ef40f12833cdcf90736a121",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ]
-        },
-        {
-          "id": "N2_07_M3_L02",
-          "typeId": "N2-LIS-GIST",
-          "category": "Mondai 3: 概要理解",
-          "script": "会社で、朝礼の場で社長が社員に話しています。\n\n男：「皆さん、おはようございます。今期、我が社は売上目標を大幅に達成し、順調な成長を続けています。しかし、業績の拡大と同じくらい、あるいはそれ以上に重要なのは『法令遵守と高い倫理観』です。どんなに優れた製品を世に送り出しても、一度の不正や情報の隠蔽があれば、長年築き上げた企業の社会的信用は一瞬で崩壊します。社内で少しでも疑問に思う慣行や不正の兆候を見かけた際は、決して見て見ぬ振りをせず、社内ホットラインやコンプライアンス相談窓口を迷わず活用してください。透明で誠実な組織風土を築くことが、持続的な成長の土台です。」\n\n社長が最も伝えたいことは何ですか。\n1番：売上目標を達成するための営業戦略\n2番：法令遵守の徹底と不正を許さない誠実な企業風土の重要性\n3番：新入社員の基本マナーと挨拶の徹底\n4番：社内ホットラインの電話番号変更の案内",
-          "stem": "社長が最も伝えたいことは何ですか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "法令遵守の徹底と不正を許さない誠実な企業風土の重要性。"
-            },
-            {
-              "id": "B",
-              "text": "売上目標を達成するための営業戦略。"
-            },
-            {
-              "id": "C",
-              "text": "新入社員の基本マナーと挨拶の徹底。"
-            },
-            {
-              "id": "D",
-              "text": "社内ホットラインの電話番号変更の案内。"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "Tổng giám đốc nhấn mạnh trọng tâm cốt lõi: tuân thủ pháp luật, giữ gìn đạo đức doanh nghiệp, không bao che sai phạm và xây dựng văn hóa công ty minh bạch ('法令遵守と高い倫理観...透明で誠実な組織風土を築くことが、持続的な成長の土台です').",
-          "distractorExplanations": {
-            "B": "Doanh số đã đạt rồi, điều muốn nhấn mạnh là đạo đức tuân thủ pháp luật.",
-            "C": "Không nói về tác phong chào hỏi tân binh.",
-            "D": "Không phải thông báo đổi số điện thoại."
-          },
-          "skill": "Listening",
-          "explanationVi": "Tổng giám đốc nhấn mạnh trọng tâm cốt lõi: tuân thủ pháp luật, giữ gìn đạo đức doanh nghiệp, không bao che sai phạm và xây dựng văn hóa công ty minh bạch ('法令遵守と高い倫理観...透明で誠実な組織風土を築くことが、持続的な成長の土台です').",
-          "audioUrl": "audio/n2_mock_07/N2_07_M3_L02.mp3",
-          "audioDurationSec": 86.164,
-          "audioSha256": "6a8d6e088e1302d2a681717ddebff04bc12215b0e3b69378d4dd0aa0f2a285a0",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ]
-        },
-        {
-          "id": "N2_07_M3_L03",
-          "typeId": "N2-LIS-GIST",
-          "category": "Mondai 3: 概要理解",
-          "script": "地域の集会で、防災専門家が講話を行っています。\n\n女：「皆様、地震への備えと聞くと、非常用持出袋や乾パンの用意を思い浮かべる方が多いと思います。もちろん備蓄も重要ですが、地震発生時の負傷原因の約半数は『家具の転倒や落下物』によるものです。つまり、家具の固定こそが、命を守るための第一歩なのです。寝室に背の高いタンスや本棚を置かないこと、突っ張り棒やL字金具で家具を壁に固定すること、そして食器棚の扉に開き防止ストッパーを付けること。これらは今日からでも実践できる対策です。まずは家の中の危険箇所を点検してみてください。」\n\n防災専門家は何が最も大切だと述べていますか。\n1番：非常用の食料や飲料水を1週間分備蓄すること\n2番：地震によるケガを防ぐために家具を固定すること\n3番：避難訓練に地域住民全員が必ず参加すること\n4番：地震保険に加入して住宅の損害に備えること",
-          "stem": "防災専門家は何が最も大切だと述べていますか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "非常用の食料や飲料水を1週間分備蓄すること。"
-            },
-            {
-              "id": "B",
-              "text": "地震によるケガを防ぐために家具を固定すること。"
-            },
-            {
-              "id": "C",
-              "text": "避難訓練に地域住民全員が必ず参加すること。"
-            },
-            {
-              "id": "D",
-              "text": "地震保険に加入して住宅の損害に備えること。"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "Chuyên gia phòng chống thiên tai nêu rõ: nguyên nhân gây thương tích chiếm một nửa là đồ đạc đổ ngã, nên bước bảo vệ tính mạng đầu tiên và quan trọng nhất là chằng cố định bàn tủ, giá sách ('家具の固定こそが、命を守るための第一歩なのです').",
-          "distractorExplanations": {
-            "A": "Tích trữ đồ ăn thức uống có ích nhưng không phải trọng tâm bài nói.",
-            "C": "Không nói về diễn tập cư dân.",
-            "D": "Không nói về bảo hiểm nhà đất."
-          },
-          "skill": "Listening",
-          "explanationVi": "Chuyên gia phòng chống thiên tai nêu rõ: nguyên nhân gây thương tích chiếm một nửa là đồ đạc đổ ngã, nên bước bảo vệ tính mạng đầu tiên và quan trọng nhất là chằng cố định bàn tủ, giá sách ('家具の固定こそが、命を守るための第一歩なのです').",
-          "audioUrl": "audio/n2_mock_07/N2_07_M3_L03.mp3",
-          "audioDurationSec": 87.724,
-          "audioSha256": "686fe8ea3152058fa7f1aa82abd3e278c91926162fc37aea3a25d67a9d86df5b",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ]
-        },
-        {
-          "id": "N2_07_M3_L04",
-          "typeId": "N2-LIS-GIST",
-          "category": "Mondai 3: 概要理解",
-          "script": "カルチャーセンターの講座説明会で、館長が挨拶をしています。\n\n男：「定年退職を迎えた後、どのように日々を過ごすかは人生の後半における大きなテーマです。趣味を持つことは素晴らしいことですが、当センターでは単に新しい知識や技術を学ぶだけでなく、学んだことを地域に還元する講座に力を入れております。例えば、郷土史を学んだ方が観光ボランティアガイドとして活躍したり、パソコン講座を修了した方がシニア向けのITサポート役を務めたりしています。学ぶ喜びを他者とのつながりや社会貢献へと広げていく、そんな充実したセカンドライフを皆様と共に応援したいと考えております。」\n\n館長は何を伝えたいと考えていますか。\n1番：退職後の学びを社会貢献や人とのつながりに広げていくこと\n2番：定年退職後に再就職するための資格取得の方法\n3番：カルチャーセンターの講座受講料の割引制度\n4番：パソコン講座のカリキュラムと操作方法",
-          "stem": "館長は何を伝えたいと考えていますか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "カルチャーセンターの講座受講料の割引制度。"
-            },
-            {
-              "id": "B",
-              "text": "定年退職後に再就職するための資格取得の方法。"
-            },
-            {
-              "id": "C",
-              "text": "退職後の学びを社会貢献や人とのつながりに広げていくこと。"
-            },
-            {
-              "id": "D",
-              "text": "パソコン講座のカリキュラムと操作方法。"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "Viện trưởng trung tâm văn hóa truyền tải thông điệp: không dừng lại ở học sở thích cá nhân mà biến kiến thức đó thành hoạt động kết nối và cống hiến cho cộng đồng địa phương ('学ぶ喜びを他者とのつながりや社会貢献へと広げていく...そんな充実したセカンドライフ').",
-          "distractorExplanations": {
-            "A": "Không nói về chính sách giảm học phí.",
-            "B": "Không nói về thi chứng chỉ để tái tuyển dụng kiếm tiền.",
-            "D": "Lớp máy tính chỉ là một ví dụ minh họa."
-          },
-          "skill": "Listening",
-          "explanationVi": "Viện trưởng trung tâm văn hóa truyền tải thông điệp: không dừng lại ở học sở thích cá nhân mà biến kiến thức đó thành hoạt động kết nối và cống hiến cho cộng đồng địa phương ('学ぶ喜びを他者とのつながりや社会貢献へと広げていく...そんな充実したセカンドライフ').",
-          "audioUrl": "audio/n2_mock_07/N2_07_M3_L04.mp3",
-          "audioDurationSec": 83.62,
-          "audioSha256": "4a3c753198833653414a611ff8306f664953cd8b224492e1f54e2c34fb63c4ee",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ]
-        },
-        {
-          "id": "N2_07_M3_L05",
-          "typeId": "N2-LIS-GIST",
-          "category": "Mondai 3: 概要理解",
-          "script": "市議会の本会議中継で、議員が質問を行っています。\n\n女：「子育て世代が安心して暮らせるまちづくりの観点から、夜間および休日の小児初期救急医療体制について提言いたします。現在、本市では夜間の急な発熱などに対応できる小児科医院が当番制となっておりますが、当番医の数が限られており、夜間に隣の市の総合病院まで車を走らせなければならないケースが頻発しております。特に小さなお子様を持つ保護者の心理的不安は極めて深刻です。近隣自治体との広域連携やオンライン診療システムの導入を含め、市として夜間小児救急の受け入れ体制を抜本的に拡充することを強く求めます。」\n\n議員は何を改善するよう求めていますか。\n1番：夜間や休日の子どもの救急医療を受け入れる体制\n2番：市内の小児科医院の診療報酬と薬の価格\n3番：子育て世帯に対するガソリン代の補助金給付\n4番：夜間の道路交通渋滞を解消するための道路整備",
-          "stem": "議員は何を改善するよう求めていますか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "夜間の道路交通渋滞を解消するための道路整備。"
-            },
-            {
-              "id": "B",
-              "text": "市内の小児科医院の診療報酬と薬の価格。"
-            },
-            {
-              "id": "C",
-              "text": "子育て世帯に対するガソリン代の補助金給付。"
-            },
-            {
-              "id": "D",
-              "text": "夜間や休日の子どもの救急医療を受け入れる体制。"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "Nữ nghị sĩ chất vấn và yêu cầu nâng cấp hệ thống y tế cấp cứu ban đêm và ngày nghỉ cho trẻ nhỏ ('夜間および休日の小児初期救急医療体制について提言いたします...受け入れ体制を抜本的に拡充することを強く求めます').",
-          "distractorExplanations": {
-            "A": "Không phải công trình mở rộng đường sá.",
-            "B": "Không nói về giá thuốc hay thù lao bác sĩ.",
-            "C": "Việc lái xe sang thành phố bên là dẫn chứng cho sự bất tiện, không phải đòi trợ cấp xăng."
-          },
-          "skill": "Listening",
-          "explanationVi": "Nữ nghị sĩ chất vấn và yêu cầu nâng cấp hệ thống y tế cấp cứu ban đêm và ngày nghỉ cho trẻ nhỏ ('夜間および休日の小児初期救急医療体制について提言いたします...受け入れ体制を抜本的に拡充することを強く求めます').",
-          "audioUrl": "audio/n2_mock_07/N2_07_M3_L05.mp3",
-          "audioDurationSec": 86.5,
-          "audioSha256": "0454d80432bd25d63df6fc9a868e09a62bd1a8ef90547a04fa17defd112b057f",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ]
-        },
-        {
-          "id": "N2_07_M4_L01",
-          "typeId": "N2-LIS-RESP",
-          "category": "Mondai 4: 即時応答",
-          "script": "課長、先ほどお願いした新プロジェクトの企画書の決裁、いただけますでしょうか。",
-          "stem": "課長、先ほどお願いした新プロジェクトの企画書の決裁、いただけますでしょうか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "ああ、先ほど目を通して印鑑を押しておいたから、机の上にあるよ。"
-            },
-            {
-              "id": "B",
-              "text": "ええ、来週までに企画書を作成して提出してください。"
-            },
-            {
-              "id": "C",
-              "text": "はい、私が企画書を白紙に戻すよう指示したはずです。"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "Nhân viên hỏi xin phê duyệt bản kế hoạch đã trình trước đó. Trưởng phòng đáp hợp lý: đã xem qua và đóng dấu duyệt rồi, để trên bàn ('目を通して印鑑を押しておいたから、机の上にあるよ').",
-          "distractorExplanations": {
-            "B": "Lạc đề; nhân viên đang xin duyệt bản đã nộp, không phải bảo đi làm bản mới.",
-            "C": "Vô lý và bất lịch sự."
-          },
-          "skill": "Listening",
-          "explanationVi": "Nhân viên hỏi xin phê duyệt bản kế hoạch đã trình trước đó. Trưởng phòng đáp hợp lý: đã xem qua và đóng dấu duyệt rồi, để trên bàn ('目を通して印鑑を押しておいたから、机の上にあるよ').",
-          "audioUrl": "audio/n2_mock_07/N2_07_M4_L01.mp3",
-          "audioDurationSec": 33.1,
-          "audioSha256": "7a9882bfb38d5da32855960bc3600343001a2ac8b0403730cf0f2efe1b0fb886",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ]
-        },
-        {
-          "id": "N2_07_M4_L02",
-          "typeId": "N2-LIS-RESP",
-          "category": "Mondai 4: 即時応答",
-          "script": "山田さん、明日の市民説明会の配布資料、念のためもう一部多めに刷っておいた方がいいんじゃない？",
-          "stem": "山田さん、明日の市民説明会の配布資料、念のためもう一部多めに刷っておいた方がいいんじゃない？",
-          "options": [
-            {
-              "id": "A",
-              "text": "ええ、資料はすべて破棄してしまったので間に合いません。"
-            },
-            {
-              "id": "B",
-              "text": "そうですね、来場者が予想より増えるかもしれませんから、刷っておきます。"
-            },
-            {
-              "id": "C",
-              "text": "いいえ、説明会は昨日無事に終了いたしましたよ。"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "Đồng nghiệp khuyên nên in dôi ra vài bộ tài liệu cho an tâm (念のためもう一部多めに...). Câu đáp tán đồng chuẩn mực: 'Đúng vậy anh ạ, phòng khi người đến đông hơn dự kiến nên em sẽ in thêm' ('刷っておきます').",
-          "distractorExplanations": {
-            "A": "Phi lý; tự nhiên lại vứt hết tài liệu.",
-            "C": "Buổi giải trình diễn ra vào ngày mai, không thể nói đã kết thúc hôm qua."
-          },
-          "skill": "Listening",
-          "explanationVi": "Đồng nghiệp khuyên nên in dôi ra vài bộ tài liệu cho an tâm (念のためもう一部多めに...). Câu đáp tán đồng chuẩn mực: 'Đúng vậy anh ạ, phòng khi người đến đông hơn dự kiến nên em sẽ in thêm' ('刷っておきます').",
-          "audioUrl": "audio/n2_mock_07/N2_07_M4_L02.mp3",
-          "audioDurationSec": 34.156,
-          "audioSha256": "7ee305d061f9f8ebf08ab417c5db0e7d8db950ad95f57c2e0f587addbe199616",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ]
-        },
-        {
-          "id": "N2_07_M4_L03",
-          "typeId": "N2-LIS-RESP",
-          "category": "Mondai 4: 即時応答",
-          "script": "この度の事務処理の不手際につきまして、何とお詫び申し上げればよいか、言葉もございません。",
-          "stem": "この度の事務処理の不手際につきまして、何とお詫び申し上げればよいか、言葉もございません。",
-          "options": [
-            {
-              "id": "A",
-              "text": "ええ、最初から謝罪の言葉など聞きたくありませんでした。"
-            },
-            {
-              "id": "B",
-              "text": "はい、これからはもっと言葉遣いを丁寧に勉強してください。"
-            },
-            {
-              "id": "C",
-              "text": "どうぞお気になさらないでください。迅速に修正対応していただいたので問題ありませんよ。"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "Lời xin lỗi hết sức trang trọng vì sơ suất công việc: 何とお詫び申し上げればよいか、言葉もございません. Đáp lại một cách hòa nhã và chuyên nghiệp: 'Xin anh/chị đừng bận tâm, bên anh/chị đã sửa sai rất nhanh chóng nên không sao đâu ạ'.",
-          "distractorExplanations": {
-            "A": "Quá thô lỗ và phi lý trong giao tiếp công sở.",
-            "B": "Hiểu nhầm 'không còn lời nào để tạ lỗi' thành 'học lại cách dùng từ'."
-          },
-          "skill": "Listening",
-          "explanationVi": "Lời xin lỗi hết sức trang trọng vì sơ suất công việc: 何とお詫び申し上げればよいか、言葉もございません. Đáp lại một cách hòa nhã và chuyên nghiệp: 'Xin anh/chị đừng bận tâm, bên anh/chị đã sửa sai rất nhanh chóng nên không sao đâu ạ'.",
-          "audioUrl": "audio/n2_mock_07/N2_07_M4_L03.mp3",
-          "audioDurationSec": 36.052,
-          "audioSha256": "bbbfbae96ae8a716e47d86ec1723208fd623ae2c3020c36d452f91b3eebce893",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ]
-        },
-        {
-          "id": "N2_07_M4_L04",
-          "typeId": "N2-LIS-RESP",
-          "category": "Mondai 4: 即時応答",
-          "script": "鈴木さん、午後からの他部署とのオンライン協議、回線の接続テストはどう？",
-          "stem": "鈴木さん、午後からの他部署とのオンライン協議、回線の接続テストはどう？",
-          "options": [
-            {
-              "id": "A",
-              "text": "先ほどテストを済ませましたが、音声も映像も非常にクリアでしたよ。"
-            },
-            {
-              "id": "B",
-              "text": "ええ、インターネット回線は来月解約する予定です。"
-            },
-            {
-              "id": "C",
-              "text": "はい、午後からの協議は先週のうちに終わりました。"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "Hỏi thăm kết quả chạy thử đường truyền họp online buổi chiều. Câu trả lời chính xác: vừa thử xong, cả hình lẫn tiếng đều rất rõ nét ('音声も映像も非常にクリアでしたよ').",
-          "distractorExplanations": {
-            "B": "Tự nhiên nói tháng sau cắt mạng.",
-            "C": "Cuộc họp diễn ra chiều nay, không thể nói đã xong từ tuần trước."
-          },
-          "skill": "Listening",
-          "explanationVi": "Hỏi thăm kết quả chạy thử đường truyền họp online buổi chiều. Câu trả lời chính xác: vừa thử xong, cả hình lẫn tiếng đều rất rõ nét ('音声も映像も非常にクリアでしたよ').",
-          "audioUrl": "audio/n2_mock_07/N2_07_M4_L04.mp3",
-          "audioDurationSec": 32.02,
-          "audioSha256": "16a2e83c7552eebf698fe4674f9fb0fe46342f509c87b8a1c15a19dba494c7fb",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ]
-        },
-        {
-          "id": "N2_07_M4_L05",
-          "typeId": "N2-LIS-RESP",
-          "category": "Mondai 4: 即時応答",
-          "script": "あれほど準備したのに、台風の接近で地域のお祭りが中止になるなんて、やりきれないね。",
-          "stem": "あれほど準備したのに、台風の接近で地域のお祭りが中止になるなんて、やりきれないね。",
-          "options": [
-            {
-              "id": "A",
-              "text": "ええ、台風が直撃してくれて本当に助かりましたね。"
-            },
-            {
-              "id": "B",
-              "text": "本当にね。みんなで何週間も前から準備してきたのに、悔しいよね。"
-            },
-            {
-              "id": "C",
-              "text": "うん、来週のお祭りの開催が待ち遠しいね。"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "Mẫu biểu đạt tâm trạng N2: 〜やりきれない (thật buồn bực/không cam lòng). Đồng cảm với sự tiếc nuối: 'Thực sự vậy anh ạ, mọi người chuẩn bị từ mấy tuần trước mà đành chịu, ấm ức thật' ('悔しいよね').",
-          "distractorExplanations": {
-            "A": "Nói bão vào giúp ích là vô lý.",
-            "C": "Lễ hội đã bị hủy bỏ do bão, không thể bảo đang ngóng chờ tuần sau."
-          },
-          "skill": "Listening",
-          "explanationVi": "Mẫu biểu đạt tâm trạng N2: 〜やりきれない (thật buồn bực/không cam lòng). Đồng cảm với sự tiếc nuối: 'Thực sự vậy anh ạ, mọi người chuẩn bị từ mấy tuần trước mà đành chịu, ấm ức thật' ('悔しいよね').",
-          "audioUrl": "audio/n2_mock_07/N2_07_M4_L05.mp3",
-          "audioDurationSec": 33.34,
-          "audioSha256": "c0c080d26c747dbf2d27c13461ed650e21a892f38a984ace67272f96d2010af7",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ]
-        },
-        {
-          "id": "N2_07_M4_L06",
-          "typeId": "N2-LIS-RESP",
-          "category": "Mondai 4: 即時応答",
-          "script": "お忙しいところ大変恐縮ですが、こちらの申請書類に目を通していただけないでしょうか。",
-          "stem": "お忙しいところ大変恐縮ですが、こちらの申請書類に目を通していただけないでしょうか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "いいえ、私は忙しいので誰も見てくれませんよ。"
-            },
-            {
-              "id": "B",
-              "text": "はい、書類は明日までにすべて処分しておいてください。"
-            },
-            {
-              "id": "C",
-              "text": "ええ、ちょうど今手が空いたところですので、拝見しますね。"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "Nhờ cấp trên hoặc tiền bối xem qua hồ sơ: 目を通していただけないでしょうか. Câu đáp nhận lời lịch sự khiêm nhường: 'Vâng, vừa khéo tôi cũng vừa xong việc, để tôi xem cho nhé' ('拝見しますね').",
-          "distractorExplanations": {
-            "A": "Cách nói ngô nghê và sai ngữ dụng.",
-            "B": "Kêu vứt tài liệu đi là sai hoàn cảnh."
-          },
-          "skill": "Listening",
-          "explanationVi": "Nhờ cấp trên hoặc tiền bối xem qua hồ sơ: 目を通していただけないでしょうか. Câu đáp nhận lời lịch sự khiêm nhường: 'Vâng, vừa khéo tôi cũng vừa xong việc, để tôi xem cho nhé' ('拝見しますね').",
-          "audioUrl": "audio/n2_mock_07/N2_07_M4_L06.mp3",
-          "audioDurationSec": 32.116,
-          "audioSha256": "22ca5a7d1f88262d053ce02c2116fd8d63e9af9aef997cf25c86b7cbb76b4a34",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ]
-        },
-        {
-          "id": "N2_07_M4_L07",
-          "typeId": "N2-LIS-RESP",
-          "category": "Mondai 4: 即時応答",
-          "script": "佐藤さん、さっきの定例会議での発言、ちょっと先方に言い過ぎたんじゃない？",
-          "stem": "佐藤さん、さっきの定例会議での発言、ちょっと先方に言い過ぎたんじゃない？",
-          "options": [
-            {
-              "id": "A",
-              "text": "申し訳ありません。議論が熱くなって、相手への配慮が足りませんでした。"
-            },
-            {
-              "id": "B",
-              "text": "はい、もっと厳しい言葉で相手を責め立てるべきでしたね。"
-            },
-            {
-              "id": "C",
-              "text": "ええ、会議は明日から始まる予定なので気をつけます。"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "Lời nhắc nhở nhẹ nhàng của đồng nghiệp: 'Cậu nói với đối tác lúc nãy hơi quá lời chăng?'. Câu đáp nhận lỗi biết điều: 'Em xin lỗi, lúc đó tranh luận gay gắt quá nên em thiếu chu đáo với đối tác ạ'.",
-          "distractorExplanations": {
-            "B": "Tiếp tục hung hăng chỉ trích đối tác là sai tác phong làm việc.",
-            "C": "Cuộc họp vừa diễn ra rồi chứ không phải ngày mai."
-          },
-          "skill": "Listening",
-          "explanationVi": "Lời nhắc nhở nhẹ nhàng của đồng nghiệp: 'Cậu nói với đối tác lúc nãy hơi quá lời chăng?'. Câu đáp nhận lỗi biết điều: 'Em xin lỗi, lúc đó tranh luận gay gắt quá nên em thiếu chu đáo với đối tác ạ'.",
-          "audioUrl": "audio/n2_mock_07/N2_07_M4_L07.mp3",
-          "audioDurationSec": 33.748,
-          "audioSha256": "7ca5e251c9c91e4ed2c4557e0868089e65ddb95d0a380f5ffda259da0aea2d09",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ]
-        },
-        {
-          "id": "N2_07_M4_L08",
-          "typeId": "N2-LIS-RESP",
-          "category": "Mondai 4: 即時応答",
-          "script": "今回の広報誌リニューアルの担当リーダー、引き受けてくださる気はありませんか。",
-          "stem": "今回の広報誌リニューアルの担当リーダー、引き受けてくださる気はありませんか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "はい、リーダーの席はすでに他の課長に決まりましたよ。"
-            },
-            {
-              "id": "B",
-              "text": "私のような若手でよろしければ、ぜひ喜んで挑戦させてください。"
-            },
-            {
-              "id": "C",
-              "text": "いいえ、広報誌は今年度で廃刊になることが決まりました。"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "Lời mời nhận nhiệm vụ quan trọng: 〜気はありませんか. Câu đáp khiêm tốn chuẩn mực của người Nhật: 'Nếu một người trẻ như em mà được tin tưởng thì xin cho em cơ hội được thử sức ạ' ('ぜひ喜んで挑戦させてください').",
-          "distractorExplanations": {
-            "A": "Người hỏi đang mở lời mời mình, không thể nói ghế đã chia cho người khác.",
-            "C": "Nói tạp chí bị đình bản là mâu thuẫn với việc đang cải tiến."
-          },
-          "skill": "Listening",
-          "explanationVi": "Lời mời nhận nhiệm vụ quan trọng: 〜気はありませんか. Câu đáp khiêm tốn chuẩn mực của người Nhật: 'Nếu một người trẻ như em mà được tin tưởng thì xin cho em cơ hội được thử sức ạ' ('ぜひ喜んで挑戦させてください').",
-          "audioUrl": "audio/n2_mock_07/N2_07_M4_L08.mp3",
-          "audioDurationSec": 32.02,
-          "audioSha256": "9e085aa5b24124ca13ad6bc9be750e9c4adb3e9f3d114b5c6ecbb39b756e643e",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ]
-        },
-        {
-          "id": "N2_07_M4_L09",
-          "typeId": "N2-LIS-RESP",
-          "category": "Mondai 4: 即時応答",
-          "script": "市民窓口の待ち時間、新しいオンライン予約システムのおかげで大幅に短縮されたそうですね。",
-          "stem": "市民窓口の待ち時間、新しいオンライン予約システムのおかげで大幅に短縮されたそうですね。",
-          "options": [
-            {
-              "id": "A",
-              "text": "いいえ、新システムは来年まで一度も稼働しない予定です。"
-            },
-            {
-              "id": "B",
-              "text": "はい、待ち時間が2倍に延びて苦情が殺到しています。"
-            },
-            {
-              "id": "C",
-              "text": "ええ、来庁者の皆様からも混雑が緩和されたと大変好評をいただいております。"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "Người đối thoại khen ngợi: nghe nói thời gian chờ tại quầy giảm mạnh nhờ hệ thống hẹn trực tuyến mới. Câu đáp xác nhận niềm vui phục vụ: 'Vâng, người dân đến làm thủ tục cũng phản hồi rất tích cực vì quầy thông thoáng hẳn ạ'.",
-          "distractorExplanations": {
-            "A": "Hệ thống đang chạy rồi nên mới có kết quả thực tế.",
-            "B": "Mâu thuẫn với vế đầu 'thời gian chờ giảm mạnh'."
-          },
-          "skill": "Listening",
-          "explanationVi": "Người đối thoại khen ngợi: nghe nói thời gian chờ tại quầy giảm mạnh nhờ hệ thống hẹn trực tuyến mới. Câu đáp xác nhận niềm vui phục vụ: 'Vâng, người dân đến làm thủ tục cũng phản hồi rất tích cực vì quầy thông thoáng hẳn ạ'.",
-          "audioUrl": "audio/n2_mock_07/N2_07_M4_L09.mp3",
-          "audioDurationSec": 35.14,
-          "audioSha256": "652844b1a0e9922e3525558f24746bf0296050d29cd4a8f311ad1992d4387552",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ]
-        },
-        {
-          "id": "N2_07_M4_L10",
-          "typeId": "N2-LIS-RESP",
-          "category": "Mondai 4: 即時応答",
-          "script": "部長、取引先から契約単価の引き下げ要求が届きましたが、これを承諾するわけにはいきませんよね。",
-          "stem": "部長、取引先から契約単価の引き下げ要求が届きましたが、これを承諾するわけにはいきませんよね。",
-          "options": [
-            {
-              "id": "A",
-              "text": "ああ、弊社の採算ラインを割り込むことになるから、安易な妥協はできないね。"
-            },
-            {
-              "id": "B",
-              "text": "うん、すぐに先方の要求通りに全額値引きの契約書を作成して。"
-            },
-            {
-              "id": "C",
-              "text": "ええ、先月すでに取引を完全に停止したはずだよ。"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "Ngữ pháp N2: 〜わけにはいきませんよね (không thể nào chấp nhận được đúng không ạ). Trưởng phòng đồng tình bảo vệ quyền lợi công ty: 'Ừ, làm vậy sẽ dưới mức hòa vốn nên chúng ta tuyệt đối không thể nhượng bộ dễ dàng' ('安易な妥協はできないね').",
-          "distractorExplanations": {
-            "B": "Trái ngược hoàn toàn ý đồ của câu hỏi.",
-            "C": "Đang nhận yêu cầu xem xét đơn giá thì hợp đồng vẫn đang trao đổi."
-          },
-          "skill": "Listening",
-          "explanationVi": "Ngữ pháp N2: 〜わけにはいきませんよね (không thể nào chấp nhận được đúng không ạ). Trưởng phòng đồng tình bảo vệ quyền lợi công ty: 'Ừ, làm vậy sẽ dưới mức hòa vốn nên chúng ta tuyệt đối không thể nhượng bộ dễ dàng' ('安易な妥協はできないね').",
-          "audioUrl": "audio/n2_mock_07/N2_07_M4_L10.mp3",
-          "audioDurationSec": 36.124,
-          "audioSha256": "4c06b512aadef3d2e0eca746496e47440d3f9b0e22bb9f0eff372b4179b879ef",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ]
-        },
-        {
-          "id": "N2_07_M4_L11",
-          "typeId": "N2-LIS-RESP",
-          "category": "Mondai 4: 即時応答",
-          "script": "新入社員のOJT指導員、色々と準備が大変そうだけど、指導経験豊富な田中さんならお手の物でしょう？",
-          "stem": "新入社員のOJT指導員、色々と準備が大変そうだけど、指導経験豊富な田中さんならお手の物でしょう？",
-          "options": [
-            {
-              "id": "A",
-              "text": "ええ、指導員なんて誰でも目をつぶって簡単にこなせますよ。"
-            },
-            {
-              "id": "B",
-              "text": "とんでもない、新入社員の個性に合わせて教えるのは毎回手探りで緊張しますよ。"
-            },
-            {
-              "id": "C",
-              "text": "はい、今年の新入社員は全員研修を辞退して帰宅しました。"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "Thành ngữ N2: 〜お手の物（おてのもの - sở trường, làm cái là được ngay). Bạn khen ngợi anh Tanaka dạy người mới chắc dễ như trở bàn tay. Đáp lại khiêm tốn: 'Đâu có đâu bạn, mỗi lứa tân binh một tính cách nên lần nào mình cũng phải vừa làm vừa mày mò căng thẳng lắm' ('とんでもない...手探りで緊張しますよ').",
-          "distractorExplanations": {
-            "A": "Khoe khoang quá đà, bất lịch sự.",
-            "C": "Vô lý; tân binh không bỏ về hết."
-          },
-          "skill": "Listening",
-          "explanationVi": "Thành ngữ N2: 〜お手の物（おてのもの - sở trường, làm cái là được ngay). Bạn khen ngợi anh Tanaka dạy người mới chắc dễ như trở bàn tay. Đáp lại khiêm tốn: 'Đâu có đâu bạn, mỗi lứa tân binh một tính cách nên lần nào mình cũng phải vừa làm vừa mày mò căng thẳng lắm' ('とんでもない...手探りで緊張しますよ').",
-          "audioUrl": "audio/n2_mock_07/N2_07_M4_L11.mp3",
-          "audioDurationSec": 38.404,
-          "audioSha256": "ebc7d4c63c9cb01b67c67a4f00739bfb012b01d7d0cf078e2f4f213a5327e97f",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ]
-        },
-        {
-          "id": "N2_07_M5_L01",
-          "typeId": "N2-LIS-INTEG",
-          "category": "Mondai 5: 統合理解",
-          "script": "市民会館の事務室で、地域団体の代表の男性と女性職員が、会館改修工事期間中の代替施設について話しています。\n\n男：「市民会館が来月から半年間改修工事に入ると聞いて、私どもの団体が定期的に利用している催しの会場を探しているんです。」\n女：「ご不便をおかけして申し訳ありません。どのような用途でご利用になられますか。」\n男：「実は2つの活動がありましてね。1つ目は、地域のアマチュア演劇サークルの『定期公演会』です。音響設備と照明装置が本格的で、客席が200席ほどある舞台ホールが必要です。2つ目は、高齢者向けの『健康ストレッチ体操教室』です。こちらは週に1回、床が板張りで手すりがあり、参加者のためにエレベーターや広い駐車場が完備されている部屋を希望しています。」\n女：「承知いたしました。現在、市内でご利用いただける代替施設は4つございます。\n　まず、1番の『東部文化センター』は、250席のホールがあり、音響や照明は市民会館と同等の充実度です。ただし、エレベーターがなく階段のみの設計となっております。\n　次に、2番の『総合福祉プラザ』は、全館バリアフリーでエレベーターと大型駐車場を備えており、多目的室の床は衝撃吸収のフローリングで手すりも付いています。ただ、舞台装置や音響設備は簡易的なものしかございません。\n　3番の『青少年スポーツセンター』は、広い体育館とトレーニング室がありますが、板張りではなく樹脂マット床で、土足禁止となっております。\n　4番の『中央公民館』は、100席の小ホールと和室がありますが、駐車スペースが5台分しかなく、本格的な舞台照明設備はございません。」\n男：「なるほど。それぞれの条件がよく分かりました。では、演劇サークルの公演会と、高齢者の体操教室の会場をそれぞれ決めたいと思います。」",
-          "stem": "質問1：アマチュア演劇サークルの公演会場として、男性はどの施設を選びますか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "1番の東部文化センター"
-            },
-            {
-              "id": "B",
-              "text": "2番の総合福祉プラザ"
-            },
-            {
-              "id": "C",
-              "text": "3番の青少年スポーツセンター"
-            },
-            {
-              "id": "D",
-              "text": "4番の中央公民館"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "Buổi biểu diễn kịch cần khán phòng khoảng 200 chỗ ngồi có hệ thống âm thanh, ánh sáng sân khấu chuyên nghiệp. Trung tâm văn hóa Đông bộ (1番) có 250 chỗ, âm thanh ánh sáng đầy đủ tương đương hội trường thành phố.",
-          "distractorExplanations": {
-            "B": "Trung tâm phúc lợi tổng hợp chỉ có âm thanh ánh sáng đơn giản.",
-            "C": "Trung tâm thể thao thanh thiếu niên là sàn đệm nhựa thể thao, không có sân khấu kịch.",
-            "D": "Nhà văn hóa trung tâm chỉ có 100 chỗ và không có đèn sân khấu chuyên dụng."
-          },
-          "skill": "Listening",
-          "explanationVi": "Buổi biểu diễn kịch cần khán phòng khoảng 200 chỗ ngồi có hệ thống âm thanh, ánh sáng sân khấu chuyên nghiệp. Trung tâm văn hóa Đông bộ (1番) có 250 chỗ, âm thanh ánh sáng đầy đủ tương đương hội trường thành phố.",
-          "audioUrl": "audio/n2_mock_07/N2_07_M5_L01.mp3",
-          "audioDurationSec": 153.172,
-          "audioSha256": "6fd4512678a0ab813a5b969f34447a91286a8ca8adfd791ee8817345d7c84fbe",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ]
-        },
-        {
-          "id": "N2_07_M5_L02",
-          "typeId": "N2-LIS-INTEG",
-          "category": "Mondai 5: 統合理解",
-          "script": "市民会館の事務室で、地域団体の代表の男性と女性職員が、会館改修工事期間中の代替施設について話しています。\n\n男：「市民会館が来月から半年間改修工事に入ると聞いて、私どもの団体が定期的に利用している催しの会場を探しているんです。」\n女：「ご不便をおかけして申し訳ありません。どのような用途でご利用になられますか。」\n男：「実は2つの活動がありましてね。1つ目は、地域のアマチュア演劇サークルの『定期公演会』です。音響設備と照明装置が本格的で、客席が200席ほどある舞台ホールが必要です。2つ目は、高齢者向けの『健康ストレッチ体操教室』です。こちらは週に1回、床が板張りで手すりがあり、参加者のためにエレベーターや広い駐車場が完備されている部屋を希望しています。」\n女：「承知いたしました。現在、市内でご利用いただける代替施設は4つございます。\n　まず、1番の『東部文化センター』は、250席のホールがあり、音響や照明は市民会館と同等の充実度です。ただし、エレベーターがなく階段のみの設計となっております。\n　次に、2番の『総合福祉プラザ』は、全館バリアフリーでエレベーターと大型駐車場を備えており、多目的室の床は衝撃吸収のフローリングで手すりも付いています。ただ、舞台装置や音響設備は簡易的なものしかございません。\n　3番の『青少年スポーツセンター』は、広い体育館とトレーニング室がありますが、板張りではなく樹脂マット床で、土足禁止となっております。\n　4番の『中央公民館』は、100席の小ホールと和室がありますが、駐車スペースが5台分しかなく、本格的な舞台照明設備はございません。」\n男：「なるほど。それぞれの条件がよく分かりました。では、演劇サークルの公演会と、高齢者の体操教室の会場をそれぞれ決めたいと思います。」",
-          "stem": "質問2：高齢者の健康ストレッチ体操教室の会場として、男性はどの施設を選びますか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "1番の東部文化センター"
-            },
-            {
-              "id": "B",
-              "text": "2番の総合福祉プラザ"
-            },
-            {
-              "id": "C",
-              "text": "3番の青少年スポーツセンター"
-            },
-            {
-              "id": "D",
-              "text": "4番の中央公民館"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "Lớp tập thể dục cho người cao tuổi cần sàn gỗ có tay vịn, có thang máy và bãi đỗ xe rộng rãi. Plaza Phúc lợi tổng hợp (2番) đáp ứng toàn diện: không rào cản, có thang máy, bãi đỗ xe lớn, sàn gỗ giảm chấn và có tay vịn.",
-          "distractorExplanations": {
-            "A": "Trung tâm văn hóa Đông bộ không có thang máy, chỉ có cầu thang bộ nên người già đi lại nguy hiểm.",
-            "C": "Trung tâm thể thao không có sàn gỗ lát mà dùng đệm nhựa.",
-            "D": "Nhà văn hóa trung tâm chỉ có 5 chỗ đỗ xe."
-          },
-          "skill": "Listening",
-          "explanationVi": "Lớp tập thể dục cho người cao tuổi cần sàn gỗ có tay vịn, có thang máy và bãi đỗ xe rộng rãi. Plaza Phúc lợi tổng hợp (2番) đáp ứng toàn diện: không rào cản, có thang máy, bãi đỗ xe lớn, sàn gỗ giảm chấn và có tay vịn.",
-          "audioUrl": "audio/n2_mock_07/N2_07_M5_L02.mp3",
-          "audioDurationSec": 152.02,
-          "audioSha256": "fbf61db4b412588ebc0abd6c8c0dae169c2864f79364215187d27623cdb57818",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ]
-        },
-        {
-          "id": "N2_07_M5_L03",
-          "typeId": "N2-LIS-INTEG",
-          "category": "Mondai 5: 統合理解",
-          "script": "会社で、女性社員と男性社員が新しく導入される福利厚生の選択型支援メニュー（カフェテリアプラン）について話しています。\n\n女：「来期から導入される福利厚生メニューの案内が配られたわね。各自のポイントを使って4つのプランから1つ選べるそうよ。」\n男：「へえ、どんなメニューがあるの？」\n女：「1番の『スキルアップ支援プラン』は、語学学校や資格取得講座の受講料を年最大5万円補助してくれるの。\n　2番の『ヘルスケア促進プラン』は、フィットネスクラブの月会費補助や人間ドックのオプション検査が無料になるわ。\n　3番の『ファミリーサポートプラン』は、育児施設や介護サービスの利用料割引と、家事代行サービスの補助券が出るの。\n　4番の『トラベル・リフレッシュプラン』は、提携リゾートホテルやテーマパークの宿泊費が半額になるチケットがもらえるわ。」\n男：「なるほど。僕は今年、健康診断で運動不足を指摘されたから、ジム通いを習慣にしたいと思っていたんだよね。」\n女：「それならピッタリのプランがあるじゃない！ 私は来年、海外事業部への異動を目指しているから、ビジネス英語のオンラインレッスンを受けたいと思っていたの。」\n男：「お互い自分に一番必要なプランが決まったみたいだね。」\n\n質問：男性社員と女性社員は、それぞれどのプランを選びますか。",
-          "stem": "質問：男性社員と女性社員は、それぞれどのプランを選びますか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "男性は4番（トラベル）、女性は3番（ファミリー）"
-            },
-            {
-              "id": "B",
-              "text": "男性は1番（スキルアップ）、女性は4番（トラベル）"
-            },
-            {
-              "id": "C",
-              "text": "男性は2番（ヘルスケア）、女性は1番（スキルアップ）"
-            },
-            {
-              "id": "D",
-              "text": "男性は2番（ヘルスケア）、女性は3番（ファミリー）"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "Nam nhân viên muốn đi tập gym khắc phục thiếu vận động -> chọn gói số 2 (Chăm sóc sức khỏe - ヘルスケア). Nữ nhân viên muốn học thêm tiếng Anh thương mại để chuyển sang bộ phận hải ngoại -> chọn gói số 1 (Nâng cao kỹ năng - スキルアップ).",
-          "distractorExplanations": {
-            "A": "Sai cả nam và nữ.",
-            "B": "Sai cả nam và nữ.",
-            "D": "Nữ nhân viên không chọn gói hỗ trợ gia đình số 3."
-          },
-          "skill": "Listening",
-          "explanationVi": "Nam nhân viên muốn đi tập gym khắc phục thiếu vận động -> chọn gói số 2 (Chăm sóc sức khỏe - ヘルスケア). Nữ nhân viên muốn học thêm tiếng Anh thương mại để chuyển sang bộ phận hải ngoại -> chọn gói số 1 (Nâng cao kỹ năng - スキルアップ).",
-          "audioUrl": "audio/n2_mock_07/N2_07_M5_L03.mp3",
-          "audioDurationSec": 102.172,
-          "audioSha256": "3cf15d5ab0796aa1aad5baaf542dd996f940e8e2a46ea0e4ff497b3f13c78244",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ]
-        }
-      ]
-    }
-  ]
-},
-  'N2-MOCK-08': {
-  "examId": "N2-MOCK-08",
-  "title": "JLPT N2 Full Mock Exam #08 — Đề thi thử hoàn chỉnh (Kiến thức ngôn ngữ, Đọc hiểu & Nghe hiểu)",
-  "level": "N2",
-  "status": "FULL_MOCK",
-  "durationMinutes": 155,
-  "totalQuestions": 105,
-  "sections": [
-    {
-      "sectionId": "sec-1",
-      "sectionName": "Phần 1: Kiến thức ngôn ngữ & Đọc hiểu (Language Knowledge & Reading)",
-      "durationMinutes": 105,
-      "itemCount": 75,
-      "items": [
-        {
-          "id": "N2_08_M1_01",
-          "typeId": "N2-MO-READ",
-          "category": "Mondai 1: 漢字読み",
-          "stem": "大学の研究班は、新素材の耐久性を実験で【実証】した。",
-          "options": [
-            {
-              "id": "A",
-              "text": "じっしょう"
-            },
-            {
-              "id": "B",
-              "text": "じっせい"
-            },
-            {
-              "id": "C",
-              "text": "じつしょう"
-            },
-            {
-              "id": "D",
-              "text": "じつせい"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "実証（じっしょう）は、事実や効果を証拠によって示すこと。",
-          "distractorExplanations": {
-            "B": "証の音を誤った形です。",
-            "C": "実を『じつ』と読むこの語の誤読です。",
-            "D": "二字の音読みをともに取り違えています。"
-          },
-          "targetWord": "実証",
-          "skill": "Language Knowledge",
-          "explanationVi": "実証（じっしょう）は、事実や効果を証拠によって示すこと。"
-        },
-        {
-          "id": "N2_08_M1_02",
-          "typeId": "N2-MO-READ",
-          "category": "Mondai 1: 漢字読み",
-          "stem": "近年、オンライン授業の活用が【顕著】になってきた。",
-          "options": [
-            {
-              "id": "A",
-              "text": "けんじょ"
-            },
-            {
-              "id": "B",
-              "text": "けんちょ"
-            },
-            {
-              "id": "C",
-              "text": "げんちょ"
-            },
-            {
-              "id": "D",
-              "text": "けんしょう"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "顕著（けんちょ）は、はっきり目立つさま。",
-          "distractorExplanations": {
-            "A": "著は濁らず『ちょ』と読みます。",
-            "C": "顕の読みは『けん』です。",
-            "D": "『けんしょう』では顕著の読みになりません。"
-          },
-          "targetWord": "顕著",
-          "skill": "Language Knowledge",
-          "explanationVi": "顕著（けんちょ）は、はっきり目立つさま。"
-        },
-        {
-          "id": "N2_08_M1_03",
-          "typeId": "N2-MO-READ",
-          "category": "Mondai 1: 漢字読み",
-          "stem": "この分野では、分析対象となるデータが【膨大】だ。",
-          "options": [
-            {
-              "id": "A",
-              "text": "ぼたい"
-            },
-            {
-              "id": "B",
-              "text": "ほうだい"
-            },
-            {
-              "id": "C",
-              "text": "ぼうたい"
-            },
-            {
-              "id": "D",
-              "text": "ぼうだい"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "膨大（ぼうだい）は、量が非常に大きいこと。",
-          "distractorExplanations": {
-            "A": "二字の長音と濁音を落としています。",
-            "B": "膨は『ぼう』と読みます。",
-            "C": "大はこの語で『だい』です。"
-          },
-          "targetWord": "膨大",
-          "skill": "Language Knowledge",
-          "explanationVi": "膨大（ぼうだい）は、量が非常に大きいこと。"
-        },
-        {
-          "id": "N2_08_M1_04",
-          "typeId": "N2-MO-READ",
-          "category": "Mondai 1: 漢字読み",
-          "stem": "審査委員会は、応募された三つの計画を【採択】した。",
-          "options": [
-            {
-              "id": "A",
-              "text": "さいたく"
-            },
-            {
-              "id": "B",
-              "text": "さいだく"
-            },
-            {
-              "id": "C",
-              "text": "さいせき"
-            },
-            {
-              "id": "D",
-              "text": "さいさく"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "採択（さいたく）は、選び取って採用すること。",
-          "distractorExplanations": {
-            "B": "択は濁らず『たく』と読みます。",
-            "C": "択を別の字の音に置き換えています。",
-            "D": "択の音は『さく』ではありません。"
-          },
-          "targetWord": "採択",
-          "skill": "Language Knowledge",
-          "explanationVi": "採択（さいたく）は、選び取って採用すること。"
-        },
-        {
-          "id": "N2_08_M1_05",
-          "typeId": "N2-MO-READ",
-          "category": "Mondai 1: 漢字読み",
-          "stem": "発表資料は、要点を絞って【簡潔】にまとめてください。",
-          "options": [
-            {
-              "id": "A",
-              "text": "かんせつ"
-            },
-            {
-              "id": "B",
-              "text": "かんけつ"
-            },
-            {
-              "id": "C",
-              "text": "けんけつ"
-            },
-            {
-              "id": "D",
-              "text": "かんぜつ"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "簡潔（かんけつ）は、無駄がなく簡単にまとまっているさま。",
-          "distractorExplanations": {
-            "A": "潔の読みを『せつ』とした誤りです。",
-            "C": "簡の音は『かん』です。",
-            "D": "潔はこの語で濁りません。"
-          },
-          "targetWord": "簡潔",
-          "skill": "Language Knowledge",
-          "explanationVi": "簡潔（かんけつ）は、無駄がなく簡単にまとまっているさま。"
-        },
-        {
-          "id": "N2_08_M2_01",
-          "typeId": "N2-MO-ORTH",
-          "category": "Mondai 2: 表記",
-          "stem": "実験を繰り返し、仮説が正しいか【けんしょう】する。",
-          "options": [
-            {
-              "id": "A",
-              "text": "検討"
-            },
-            {
-              "id": "B",
-              "text": "建証"
-            },
-            {
-              "id": "C",
-              "text": "検証"
-            },
-            {
-              "id": "D",
-              "text": "健勝"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "仮説の正しさを確かめるので『検証』です。",
-          "distractorExplanations": {
-            "A": "検討は案をよく考えることです。",
-            "B": "この意味で『建証』とは書きません。",
-            "D": "健勝は健康で元気なことを祝う語です。"
-          },
-          "targetWord": "けんしょう",
-          "skill": "Language Knowledge",
-          "explanationVi": "仮説の正しさを確かめるので『検証』です。"
-        },
-        {
-          "id": "N2_08_M2_02",
-          "typeId": "N2-MO-ORTH",
-          "category": "Mondai 2: 表記",
-          "stem": "開発した教材を来年度から正式に【てきよう】する。",
-          "options": [
-            {
-              "id": "A",
-              "text": "適応"
-            },
-            {
-              "id": "B",
-              "text": "摘用"
-            },
-            {
-              "id": "C",
-              "text": "敵用"
-            },
-            {
-              "id": "D",
-              "text": "適用"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "制度や方法を当てはめる意味は『適用』です。",
-          "distractorExplanations": {
-            "A": "適応は環境などに合わせることです。",
-            "B": "『摘用』はここで使う表記ではありません。",
-            "C": "敵用という表記はありません。"
-          },
-          "targetWord": "てきよう",
-          "skill": "Language Knowledge",
-          "explanationVi": "制度や方法を当てはめる意味は『適用』です。"
-        },
-        {
-          "id": "N2_08_M2_03",
-          "typeId": "N2-MO-ORTH",
-          "category": "Mondai 2: 表記",
-          "stem": "安全管理者は、新しい入室手順を全員に【しじ】した。",
-          "options": [
-            {
-              "id": "A",
-              "text": "指示"
-            },
-            {
-              "id": "B",
-              "text": "支持"
-            },
-            {
-              "id": "C",
-              "text": "私事"
-            },
-            {
-              "id": "D",
-              "text": "師事"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "手順を人に伝えて行わせることは『指示』です。",
-          "distractorExplanations": {
-            "B": "支持は意見や人を支えることです。",
-            "C": "私事は個人的な事柄を指します。",
-            "D": "師事は師と仰ぐ人に弟子入りすることです。"
-          },
-          "targetWord": "しじ",
-          "skill": "Language Knowledge",
-          "explanationVi": "手順を人に伝えて行わせることは『指示』です。"
-        },
-        {
-          "id": "N2_08_M2_04",
-          "typeId": "N2-MO-ORTH",
-          "category": "Mondai 2: 表記",
-          "stem": "研究チームは、測定結果を共同利用する条件について大学間で【こうしょう】を続けた。",
-          "options": [
-            {
-              "id": "A",
-              "text": "校章"
-            },
-            {
-              "id": "B",
-              "text": "交渉"
-            },
-            {
-              "id": "C",
-              "text": "高尚"
-            },
-            {
-              "id": "D",
-              "text": "鉱床"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "条件を話し合って決めることは『交渉』です。",
-          "distractorExplanations": {
-            "A": "校章は学校を表す記章です。",
-            "C": "高尚は考えや趣味の程度が高いことです。",
-            "D": "鉱床は鉱物が集まっている地層です。"
-          },
-          "targetWord": "こうしょう",
-          "skill": "Language Knowledge",
-          "explanationVi": "条件を話し合って決めることは『交渉』です。"
-        },
-        {
-          "id": "N2_08_M2_05",
-          "typeId": "N2-MO-ORTH",
-          "category": "Mondai 2: 表記",
-          "stem": "新しい薬の効果を調べるため、少人数の【じっけん】を行った。",
-          "options": [
-            {
-              "id": "A",
-              "text": "実見"
-            },
-            {
-              "id": "B",
-              "text": "実券"
-            },
-            {
-              "id": "C",
-              "text": "実験"
-            },
-            {
-              "id": "D",
-              "text": "実検"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "条件を設けて効果を調べる活動は『実験』です。",
-          "distractorExplanations": {
-            "A": "実見は実際に見ることを表します。",
-            "B": "実券はこの意味の語ではありません。",
-            "D": "実検という標準表記はありません。"
-          },
-          "targetWord": "じっけん",
-          "skill": "Language Knowledge",
-          "explanationVi": "条件を設けて効果を調べる活動は『実験』です。"
-        },
-        {
-          "id": "N2_08_M3_01",
-          "typeId": "N2-MO-FORM",
-          "category": "Mondai 3: 語形成",
-          "stem": "学会発表の日程が決まっているため、結果はまだ【（　）発表】として扱う。",
-          "options": [
-            {
-              "id": "A",
-              "text": "不"
-            },
-            {
-              "id": "B",
-              "text": "非"
-            },
-            {
-              "id": "C",
-              "text": "無"
-            },
-            {
-              "id": "D",
-              "text": "未"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "まだ発表されていない状態を表す接頭辞は『未』です。",
-          "distractorExplanations": {
-            "A": "不発表はこの意味の一般的な語ではありません。",
-            "B": "非発表は標準的な複合語ではありません。",
-            "C": "無発表とは言いません。"
-          },
-          "targetWord": "未発表",
-          "skill": "Language Knowledge",
-          "explanationVi": "まだ発表されていない状態を表す接頭辞は『未』です。"
-        },
-        {
-          "id": "N2_08_M3_02",
-          "typeId": "N2-MO-FORM",
-          "category": "Mondai 3: 語形成",
-          "stem": "温度を0.1度単位で測れる、【高（　）】のセンサーを開発した。",
-          "options": [
-            {
-              "id": "A",
-              "text": "精度"
-            },
-            {
-              "id": "B",
-              "text": "値"
-            },
-            {
-              "id": "C",
-              "text": "率"
-            },
-            {
-              "id": "D",
-              "text": "度"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "測定の正確さを言う定型語は『高精度』です。",
-          "distractorExplanations": {
-            "B": "高値は値段や数値が高いことです。",
-            "C": "高率は割合の高さで、測定器の正確さではありません。",
-            "D": "高温度は温度が高いという意味になります。"
-          },
-          "targetWord": "高精度",
-          "skill": "Language Knowledge",
-          "explanationVi": "測定の正確さを言う定型語は『高精度』です。"
-        },
-        {
-          "id": "N2_08_M3_03",
-          "typeId": "N2-MO-FORM",
-          "category": "Mondai 3: 語形成",
-          "stem": "学習用の大量の画像から特徴を学び、未登録の画像も分類する【機械（　）】の研究が進んでいる。",
-          "options": [
-            {
-              "id": "A",
-              "text": "化"
-            },
-            {
-              "id": "B",
-              "text": "学習"
-            },
-            {
-              "id": "C",
-              "text": "語"
-            },
-            {
-              "id": "D",
-              "text": "力"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "学習用データから特徴を学び、未知の画像を分類する技術は『機械学習』です。",
-          "distractorExplanations": {
-            "A": "機械化は作業を機械に置き換えることです。",
-            "C": "機械語はコンピューターが直接扱う命令形式です。",
-            "D": "機械力はこの技術を表す名称ではありません。"
-          },
-          "targetWord": "機械学習",
-          "skill": "Language Knowledge",
-          "explanationVi": "学習用データから特徴を学び、未知の画像を分類する技術は『機械学習』です。"
-        },
-        {
-          "id": "N2_08_M3_04",
-          "typeId": "N2-MO-FORM",
-          "category": "Mondai 3: 語形成",
-          "stem": "試作機で見つかった問題を踏まえ、回路を【再（　）】することになった。",
-          "options": [
-            {
-              "id": "A",
-              "text": "構築"
-            },
-            {
-              "id": "B",
-              "text": "建築"
-            },
-            {
-              "id": "C",
-              "text": "設計"
-            },
-            {
-              "id": "D",
-              "text": "作図"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "回路の構造をもう一度考え直すので『再設計』です。",
-          "distractorExplanations": {
-            "A": "再構築は全体を組み直す意味で、回路の設計変更より広い語です。",
-            "B": "建築は建物を建てることです。",
-            "D": "作図は図を描く作業で設計全体とは異なります。"
-          },
-          "targetWord": "再設計",
-          "skill": "Language Knowledge",
-          "explanationVi": "回路の構造をもう一度考え直すので『再設計』です。"
-        },
-        {
-          "id": "N2_08_M3_05",
-          "typeId": "N2-MO-FORM",
-          "category": "Mondai 3: 語形成",
-          "stem": "二つの大学は、感染症の予測モデルについて【共（　）研究】を始めた。",
-          "options": [
-            {
-              "id": "A",
-              "text": "創"
-            },
-            {
-              "id": "B",
-              "text": "通"
-            },
-            {
-              "id": "C",
-              "text": "用"
-            },
-            {
-              "id": "D",
-              "text": "同"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "複数の組織が一緒に進める研究は『共同研究』です。",
-          "distractorExplanations": {
-            "A": "共創は新しい価値を一緒に作る語ですが、『共創研究』とは通常言いません。",
-            "B": "共通研究は同じ性質を持つ研究を意味し、共同で行う意味とは異なります。",
-            "C": "共用研究は一般的な表現ではありません。"
-          },
-          "targetWord": "共同研究",
-          "skill": "Language Knowledge",
-          "explanationVi": "複数の組織が一緒に進める研究は『共同研究』です。"
-        },
-        {
-          "id": "N2_08_M4_01",
-          "typeId": "N2-MO-CONT",
-          "category": "Mondai 4: 文脈規定",
-          "stem": "発表時間が残り一分しかなかったため、演者は結論を（　）述べた。",
-          "options": [
-            {
-              "id": "A",
-              "text": "簡潔に"
-            },
-            {
-              "id": "B",
-              "text": "一律に"
-            },
-            {
-              "id": "C",
-              "text": "率直に"
-            },
-            {
-              "id": "D",
-              "text": "無断で"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "限られた時間で要点を短く述べるので『簡潔に』です。",
-          "distractorExplanations": {
-            "B": "一律には全員に同じ扱いをすることです。",
-            "C": "率直には隠さず正直にという意味で、長さを短くする語ではありません。",
-            "D": "無断では許可なく行う意味で不適切です。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "限られた時間で要点を短く述べるので『簡潔に』です。"
-        },
-        {
-          "id": "N2_08_M4_02",
-          "typeId": "N2-MO-CONT",
-          "category": "Mondai 4: 文脈規定",
-          "stem": "測定値にばらつきが出たため、装置の設定を見直して原因を（　）した。",
-          "options": [
-            {
-              "id": "A",
-              "text": "発表"
-            },
-            {
-              "id": "B",
-              "text": "把握"
-            },
-            {
-              "id": "C",
-              "text": "採択"
-            },
-            {
-              "id": "D",
-              "text": "促進"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "原因をつかむという意味で『把握』が適切です。",
-          "distractorExplanations": {
-            "A": "発表は人に知らせる行為です。",
-            "C": "採択は候補から選ぶことです。",
-            "D": "促進は進みを速めることです。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "原因をつかむという意味で『把握』が適切です。"
-        },
-        {
-          "id": "N2_08_M4_03",
-          "typeId": "N2-MO-CONT",
-          "category": "Mondai 4: 文脈規定",
-          "stem": "講義の動画は、専門用語に字幕を付けることで、内容をより（　）しやすくした。",
-          "options": [
-            {
-              "id": "A",
-              "text": "記録"
-            },
-            {
-              "id": "B",
-              "text": "保存"
-            },
-            {
-              "id": "C",
-              "text": "理解"
-            },
-            {
-              "id": "D",
-              "text": "判断"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "内容を分かるようにするので『理解しやすく』です。",
-          "distractorExplanations": {
-            "A": "記録は後から確認できる形に残すことです。",
-            "B": "保存はデータを保管することです。",
-            "D": "判断は情報から決定することです。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "内容を分かるようにするので『理解しやすく』です。"
-        },
-        {
-          "id": "N2_08_M4_04",
-          "typeId": "N2-MO-CONT",
-          "category": "Mondai 4: 文脈規定",
-          "stem": "共同研究では、研究者同士がデータを（　）し、分析方法を確認した。",
-          "options": [
-            {
-              "id": "A",
-              "text": "削除"
-            },
-            {
-              "id": "B",
-              "text": "回収"
-            },
-            {
-              "id": "C",
-              "text": "拒否"
-            },
-            {
-              "id": "D",
-              "text": "共有"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "双方で同じ情報を使えるようにするので『共有』です。",
-          "distractorExplanations": {
-            "A": "削除はデータを消すことで文意に合いません。",
-            "B": "回収は配った物を集め直すことです。",
-            "C": "拒否は受け入れないことです。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "双方で同じ情報を使えるようにするので『共有』です。"
-        },
-        {
-          "id": "N2_08_M4_05",
-          "typeId": "N2-MO-CONT",
-          "category": "Mondai 4: 文脈規定",
-          "stem": "結果を急いで公表するより、別の条件でも再現できるか（　）することが重要だ。",
-          "options": [
-            {
-              "id": "A",
-              "text": "検討"
-            },
-            {
-              "id": "B",
-              "text": "無視"
-            },
-            {
-              "id": "C",
-              "text": "省略"
-            },
-            {
-              "id": "D",
-              "text": "断念"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "別条件で確かめる必要を考えるので『検討』です。",
-          "distractorExplanations": {
-            "B": "無視は考慮しないことです。",
-            "C": "省略は一部を飛ばすことです。",
-            "D": "断念はあきらめることで、検証前には当たりません。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "別条件で確かめる必要を考えるので『検討』です。"
-        },
-        {
-          "id": "N2_08_M4_06",
-          "typeId": "N2-MO-CONT",
-          "category": "Mondai 4: 文脈規定",
-          "stem": "新しい学習システムを導入したが、操作が複雑で利用が（　）している。",
-          "options": [
-            {
-              "id": "A",
-              "text": "定着"
-            },
-            {
-              "id": "B",
-              "text": "停滞"
-            },
-            {
-              "id": "C",
-              "text": "進出"
-            },
-            {
-              "id": "D",
-              "text": "集中"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "利用の広がりが止まりがちなので『停滞』です。",
-          "distractorExplanations": {
-            "A": "定着は根付いて安定することです。",
-            "C": "進出は新しい市場などへ出ていくことです。",
-            "D": "集中は一か所に集まることです。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "利用の広がりが止まりがちなので『停滞』です。"
-        },
-        {
-          "id": "N2_08_M4_07",
-          "typeId": "N2-MO-CONT",
-          "category": "Mondai 4: 文脈規定",
-          "stem": "発表者は質問の意図を確かめてから、根拠を示しつつ（　）に答えた。",
-          "options": [
-            {
-              "id": "A",
-              "text": "急激"
-            },
-            {
-              "id": "B",
-              "text": "偶然"
-            },
-            {
-              "id": "C",
-              "text": "適切"
-            },
-            {
-              "id": "D",
-              "text": "的外れ"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "質問の意図と根拠に合った応答なので『適切に』です。",
-          "distractorExplanations": {
-            "A": "急激は変化の速さを表し、答え方には使いません。",
-            "B": "偶然はたまたま起きることで、意図を確かめた応答とは合いません。",
-            "D": "的外れは意図から外れた応答で、文の前半と矛盾します。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "質問の意図と根拠に合った応答なので『適切に』です。"
-        },
-        {
-          "id": "N2_08_M5_01",
-          "typeId": "N2-MO-PARA",
-          "category": "Mondai 5: 言い換え類義",
-          "stem": "このデータだけでは、仮説を裏付けるには【不十分】だ。",
-          "options": [
-            {
-              "id": "A",
-              "text": "必要以上だ"
-            },
-            {
-              "id": "B",
-              "text": "かなり確かだ"
-            },
-            {
-              "id": "C",
-              "text": "すでに知られている"
-            },
-            {
-              "id": "D",
-              "text": "十分ではない"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "不十分は必要な水準に達していないことです。",
-          "distractorExplanations": {
-            "A": "過剰という意味で不十分とは異なります。",
-            "B": "確かさが高いという反対の意味です。",
-            "C": "既知かどうかは十分性と別の点です。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "不十分は必要な水準に達していないことです。"
-        },
-        {
-          "id": "N2_08_M5_02",
-          "typeId": "N2-MO-PARA",
-          "category": "Mondai 5: 言い換え類義",
-          "stem": "担当者は利用者の質問に【即座に】答えた。",
-          "options": [
-            {
-              "id": "A",
-              "text": "その場ですぐに"
-            },
-            {
-              "id": "B",
-              "text": "前もって"
-            },
-            {
-              "id": "C",
-              "text": "念入りに"
-            },
-            {
-              "id": "D",
-              "text": "順番に"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "即座には間を置かず直ちにという意味です。",
-          "distractorExplanations": {
-            "B": "前もっては事前の意味です。",
-            "C": "念入りには注意深くという意味です。",
-            "D": "順番には手順を示します。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "即座には間を置かず直ちにという意味です。"
-        },
-        {
-          "id": "N2_08_M5_03",
-          "typeId": "N2-MO-PARA",
-          "category": "Mondai 5: 言い換え類義",
-          "stem": "実験条件を【統一】しなければ、結果を比較できない。",
-          "options": [
-            {
-              "id": "A",
-              "text": "細かく分け"
-            },
-            {
-              "id": "B",
-              "text": "同じにそろえ"
-            },
-            {
-              "id": "C",
-              "text": "新しく変え"
-            },
-            {
-              "id": "D",
-              "text": "一つずつ記録し"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "統一は複数のものを同一の基準にそろえることです。",
-          "distractorExplanations": {
-            "A": "細分化は統一と反対方向の操作です。",
-            "C": "変更だけでは同じ基準になりません。",
-            "D": "記録は保存であり条件をそろえることではありません。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "統一は複数のものを同一の基準にそろえることです。"
-        },
-        {
-          "id": "N2_08_M5_04",
-          "typeId": "N2-MO-PARA",
-          "category": "Mondai 5: 言い換え類義",
-          "stem": "研究室は新しい測定方法を【導入】した。",
-          "options": [
-            {
-              "id": "A",
-              "text": "外部に紹介した"
-            },
-            {
-              "id": "B",
-              "text": "詳しく調べた"
-            },
-            {
-              "id": "C",
-              "text": "使い始めた"
-            },
-            {
-              "id": "D",
-              "text": "使用をやめた"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "導入は新しい方法や制度を取り入れて使い始めることです。",
-          "distractorExplanations": {
-            "A": "紹介は他者に知らせるだけです。",
-            "B": "調査は導入前にも行いますが意味が異なります。",
-            "D": "導入と反対の意味です。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "導入は新しい方法や制度を取り入れて使い始めることです。"
-        },
-        {
-          "id": "N2_08_M5_05",
-          "typeId": "N2-MO-PARA",
-          "category": "Mondai 5: 言い換え類義",
-          "stem": "説明文の表現が【曖昧】で、読み手によって解釈が分かれた。",
-          "options": [
-            {
-              "id": "A",
-              "text": "根拠がない"
-            },
-            {
-              "id": "B",
-              "text": "短すぎる"
-            },
-            {
-              "id": "C",
-              "text": "専門的すぎる"
-            },
-            {
-              "id": "D",
-              "text": "意味がはっきりしない"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "曖昧は意味や境界がはっきりせず、複数の解釈が可能なことです。",
-          "distractorExplanations": {
-            "A": "根拠の有無は曖昧さとは別です。",
-            "B": "長さの問題とは限りません。",
-            "C": "専門性の高さを直接表す語ではありません。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "曖昧は意味や境界がはっきりせず、複数の解釈が可能なことです。"
-        },
-        {
-          "id": "N2_08_M6_01",
-          "typeId": "N2-MO-USE",
-          "category": "Mondai 6: 用法",
-          "stem": "『見込む』の使い方として最も適切なものを選びなさい。",
-          "options": [
-            {
-              "id": "A",
-              "text": "来年度は利用者が増えると見込んで、予算を多めに確保した。"
-            },
-            {
-              "id": "B",
-              "text": "担当者は資料を見込んで、誤字がないか一つずつ確かめた。"
-            },
-            {
-              "id": "C",
-              "text": "学生は実験ノートを見込んで、測定値を報告書に写した。"
-            },
-            {
-              "id": "D",
-              "text": "教授は会議の様子を見込んで、議事録の誤りを確認した。"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "見込むは、将来そうなると予測・期待する意味です。",
-          "distractorExplanations": {
-            "B": "資料を確認する意味なら『目を通す』などを使います。",
-            "C": "ノートを見て転記する意味なら『見込む』とは言いません。",
-            "D": "会議の様子を確認する意味には使いません。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "見込むは、将来そうなると予測・期待する意味です。"
-        },
-        {
-          "id": "N2_08_M6_02",
-          "typeId": "N2-MO-USE",
-          "category": "Mondai 6: 用法",
-          "stem": "『妥当』の使い方として最も適切なものを選びなさい。",
-          "options": [
-            {
-              "id": "A",
-              "text": "彼は妥当な手触りのペンを選び、実験記録に使った。"
-            },
-            {
-              "id": "B",
-              "text": "費用と効果を比べた結果、この価格設定は妥当だと判断された。"
-            },
-            {
-              "id": "C",
-              "text": "研究室では、妥当な香りの洗剤を選んでいる。"
-            },
-            {
-              "id": "D",
-              "text": "講師は妥当な味のコーヒーを飲み、講義を始めた。"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "妥当は事情や基準に照らして適切であることです。",
-          "distractorExplanations": {
-            "A": "手触りの評価には『妥当』を使いません。",
-            "C": "香りの好みを表す語ではありません。",
-            "D": "味の評価を表す語ではありません。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "妥当は事情や基準に照らして適切であることです。"
-        },
-        {
-          "id": "N2_08_M6_03",
-          "typeId": "N2-MO-USE",
-          "category": "Mondai 6: 用法",
-          "stem": "『担う』（責任や役割を引き受ける意味）の使い方として最も適切なものを選びなさい。",
-          "options": [
-            {
-              "id": "A",
-              "text": "彼は発表前に、資料を担って会議室へ運んだ。"
-            },
-            {
-              "id": "B",
-              "text": "温度計が参加者への説明を担っている。"
-            },
-            {
-              "id": "C",
-              "text": "この研究室では、院生が装置の保守を担っている。"
-            },
-            {
-              "id": "D",
-              "text": "彼女は測定値を担って、グラフに書き込んだ。"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "担うは責任や役割を引き受けて果たす意味です。",
-          "distractorExplanations": {
-            "A": "ここでは責任や役割ではなく、物を持ち運ぶ意味で使われています。",
-            "B": "説明を担当する人の役割を表す文脈では、温度計を主語にできません。",
-            "D": "値をグラフへ移す意味には使いません。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "担うは責任や役割を引き受けて果たす意味です。"
-        },
-        {
-          "id": "N2_08_M6_04",
-          "typeId": "N2-MO-USE",
-          "category": "Mondai 6: 用法",
-          "stem": "『補う』の使い方として最も適切なものを選びなさい。",
-          "options": [
-            {
-              "id": "A",
-              "text": "図書館は論文の重さを補って、棚に並べた。"
-            },
-            {
-              "id": "B",
-              "text": "彼は風邪を補う薬を飲み、一週間休んだ。"
-            },
-            {
-              "id": "C",
-              "text": "講師は声を補った状態で、講義を始めた。"
-            },
-            {
-              "id": "D",
-              "text": "欠けている測定値は、追加実験の結果で補った。"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "補うは不足や欠点を埋めて完全に近づける意味です。",
-          "distractorExplanations": {
-            "A": "論文の物理的な重さを補うという用法はありません。",
-            "B": "風邪を治すなら『治す』、予防するなら『予防する』です。",
-            "C": "声を出す様子なら『声を張った』などと表します。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "補うは不足や欠点を埋めて完全に近づける意味です。"
-        },
-        {
-          "id": "N2_08_M6_05",
-          "typeId": "N2-MO-USE",
-          "category": "Mondai 6: 用法",
-          "stem": "『促す』の使い方として最も適切なものを選びなさい。",
-          "options": [
-            {
-              "id": "A",
-              "text": "教授は学生に、データの出典を明記するよう促した。"
-            },
-            {
-              "id": "B",
-              "text": "担当者は研究費の額を促して、申請書に記入した。"
-            },
-            {
-              "id": "C",
-              "text": "画面の色が利用者を促して、表示が変化した。"
-            },
-            {
-              "id": "D",
-              "text": "学生は論文を促して、図書館に返却した。"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "促すは相手に行動をするよう働きかけることです。",
-          "distractorExplanations": {
-            "B": "額を決める意味なら『記入する』『算出する』などを使います。",
-            "C": "画面の色が人に行動を促す文脈として不自然です。",
-            "D": "論文を返す意味には使いません。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "促すは相手に行動をするよう働きかけることです。"
-        },
-        {
-          "id": "N2_08_M7_01",
-          "typeId": "N2-GR-FORM",
-          "category": "Mondai 7: 文法形式の判断",
-          "stem": "この研究は、全国の大学から集めた回答（　）分析を進めている。",
-          "options": [
-            {
-              "id": "A",
-              "text": "を問わず"
-            },
-            {
-              "id": "B",
-              "text": "に基づいて"
-            },
-            {
-              "id": "C",
-              "text": "に先立って"
-            },
-            {
-              "id": "D",
-              "text": "に限って"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "回答を根拠として分析するので『に基づいて』です。",
-          "distractorExplanations": {
-            "A": "『を問わず』は条件を問わない意味です。",
-            "C": "『に先立って』は前に行う意味です。",
-            "D": "『に限って』は範囲を限定します。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "回答を根拠として分析するので『に基づいて』です。"
-        },
-        {
-          "id": "N2_08_M7_02",
-          "typeId": "N2-GR-FORM",
-          "category": "Mondai 7: 文法形式の判断",
-          "stem": "今回の公開講座は、学生（　）、地域の社会人にも開かれている。",
-          "options": [
-            {
-              "id": "A",
-              "text": "を通じて"
-            },
-            {
-              "id": "B",
-              "text": "に際して"
-            },
-            {
-              "id": "C",
-              "text": "に限らず"
-            },
-            {
-              "id": "D",
-              "text": "に応じて"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "学生だけでなく社会人にもという追加は『に限らず』です。",
-          "distractorExplanations": {
-            "A": "『を通じて』は手段や期間です。",
-            "B": "『に際して』は機会・時点を表します。",
-            "D": "『に応じて』は状況に合わせる意味です。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "学生だけでなく社会人にもという追加は『に限らず』です。"
-        },
-        {
-          "id": "N2_08_M7_03",
-          "typeId": "N2-GR-FORM",
-          "category": "Mondai 7: 文法形式の判断",
-          "stem": "通信環境の改善（　）、遠隔地から授業に参加する学生が増えた。",
-          "options": [
-            {
-              "id": "A",
-              "text": "に先立ち"
-            },
-            {
-              "id": "B",
-              "text": "に限り"
-            },
-            {
-              "id": "C",
-              "text": "に反して"
-            },
-            {
-              "id": "D",
-              "text": "に伴い"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "改善と同時に生じた変化なので『に伴い』です。",
-          "distractorExplanations": {
-            "A": "『に先立ち』は先に行う意味です。",
-            "B": "『に限り』は範囲を限定します。",
-            "C": "『に反して』は予想・期待と逆です。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "改善と同時に生じた変化なので『に伴い』です。"
-        },
-        {
-          "id": "N2_08_M7_04",
-          "typeId": "N2-GR-FORM",
-          "category": "Mondai 7: 文法形式の判断",
-          "stem": "この実験では、専攻（　）、希望者なら誰でも機器を見学できる。",
-          "options": [
-            {
-              "id": "A",
-              "text": "にかかわらず"
-            },
-            {
-              "id": "B",
-              "text": "にしたがって"
-            },
-            {
-              "id": "C",
-              "text": "に応じて"
-            },
-            {
-              "id": "D",
-              "text": "をめぐって"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "専攻が何であるかを条件にしないので『にかかわらず』です。",
-          "distractorExplanations": {
-            "B": "『にしたがって』は変化の対応・順序です。",
-            "C": "希望者の状況に合わせる意味にはなりません。",
-            "D": "『をめぐって』は論争の対象です。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "専攻が何であるかを条件にしないので『にかかわらず』です。"
-        },
-        {
-          "id": "N2_08_M7_05",
-          "typeId": "N2-GR-FORM",
-          "category": "Mondai 7: 文法形式の判断",
-          "stem": "測定条件を一つ誤ると、結論を大きく誤解させ（　）。",
-          "options": [
-            {
-              "id": "A",
-              "text": "るにすぎない"
-            },
-            {
-              "id": "B",
-              "text": "るおそれがある"
-            },
-            {
-              "id": "C",
-              "text": "るわけにはいかない"
-            },
-            {
-              "id": "D",
-              "text": "るに決まっている"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "悪い結果が起こる可能性を述べるので『おそれがある』です。",
-          "distractorExplanations": {
-            "A": "『にすぎない』は程度がそれだけだという意味です。",
-            "C": "『わけにはいかない』は事情上できない意味です。",
-            "D": "『に決まっている』は確信を示します。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "悪い結果が起こる可能性を述べるので『おそれがある』です。"
-        },
-        {
-          "id": "N2_08_M7_06",
-          "typeId": "N2-GR-FORM",
-          "category": "Mondai 7: 文法形式の判断",
-          "stem": "新しいアプリを導入したが、すべての学生が以前より便利になった（　）。",
-          "options": [
-            {
-              "id": "A",
-              "text": "どころではない"
-            },
-            {
-              "id": "B",
-              "text": "にほかならない"
-            },
-            {
-              "id": "C",
-              "text": "というわけではない"
-            },
-            {
-              "id": "D",
-              "text": "に限ったことだ"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "一部には改善がない可能性を表す部分否定は『というわけではない』です。",
-          "distractorExplanations": {
-            "A": "『どころではない』は状況が許さない意味です。",
-            "B": "『にほかならない』は断定・強調です。",
-            "D": "この形では自然な文になりません。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "一部には改善がない可能性を表す部分否定は『というわけではない』です。"
-        },
-        {
-          "id": "N2_08_M7_07",
-          "typeId": "N2-GR-FORM",
-          "category": "Mondai 7: 文法形式の判断",
-          "stem": "研究を続ける（　）、最初は見落としていた課題にも気づくようになった。",
-          "options": [
-            {
-              "id": "A",
-              "text": "に先立って"
-            },
-            {
-              "id": "B",
-              "text": "にかけて"
-            },
-            {
-              "id": "C",
-              "text": "において"
-            },
-            {
-              "id": "D",
-              "text": "につれて"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "継続と変化が並行するため『につれて』です。",
-          "distractorExplanations": {
-            "A": "『に先立って』は前後関係です。",
-            "B": "『にかけて』は期間・範囲を示します。",
-            "C": "『において』は場所や場面です。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "継続と変化が並行するため『につれて』です。"
-        },
-        {
-          "id": "N2_08_M7_08",
-          "typeId": "N2-GR-FORM",
-          "category": "Mondai 7: 文法形式の判断",
-          "stem": "彼の発表は専門的な用語が多く、分かりやすい（　）、初学者には難しかった。",
-          "options": [
-            {
-              "id": "A",
-              "text": "どころか"
-            },
-            {
-              "id": "B",
-              "text": "にしては"
-            },
-            {
-              "id": "C",
-              "text": "ばかりか"
-            },
-            {
-              "id": "D",
-              "text": "からには"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "期待された評価とは逆で、むしろ難しいという反対の結果なので『どころか』です。",
-          "distractorExplanations": {
-            "B": "『にしては』は基準から見た意外さです。",
-            "C": "『ばかりか』は追加です。",
-            "D": "『からには』は決意・責任の前提です。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "期待された評価とは逆で、むしろ難しいという反対の結果なので『どころか』です。"
-        },
-        {
-          "id": "N2_08_M7_09",
-          "typeId": "N2-GR-FORM",
-          "category": "Mondai 7: 文法形式の判断",
-          "stem": "複数の研究機関が同じ結果を報告しているので、測定手順に問題はない（　）。",
-          "options": [
-            {
-              "id": "A",
-              "text": "にすぎない"
-            },
-            {
-              "id": "B",
-              "text": "に違いない"
-            },
-            {
-              "id": "C",
-              "text": "に限らない"
-            },
-            {
-              "id": "D",
-              "text": "というものではない"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "根拠から強く推量するので『に違いない』です。",
-          "distractorExplanations": {
-            "A": "『にすぎない』は限定です。",
-            "C": "『に限らない』は限定を否定します。",
-            "D": "一般論を否定する表現で、推量になりません。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "根拠から強く推量するので『に違いない』です。"
-        },
-        {
-          "id": "N2_08_M7_10",
-          "typeId": "N2-GR-FORM",
-          "category": "Mondai 7: 文法形式の判断",
-          "stem": "何度も条件を変えて一日中測定をやり直した（　）、結論に使える結果は一つも得られず、発表は延期になった。",
-          "options": [
-            {
-              "id": "A",
-              "text": "ついでに"
-            },
-            {
-              "id": "B",
-              "text": "ところで"
-            },
-            {
-              "id": "C",
-              "text": "あげく"
-            },
-            {
-              "id": "D",
-              "text": "につれて"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "長く繰り返し試みた末に望ましくない結果となったので『あげく』です。",
-          "distractorExplanations": {
-            "A": "『ついでに』は機会を利用した追加行動を表します。",
-            "B": "『ところで』は話題転換に使い、前の行為の結果にはなりません。",
-            "D": "『につれて』は二つの変化が並行する関係を示し、この文の結果には合いません。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "長く繰り返し試みた末に望ましくない結果となったので『あげく』です。"
-        },
-        {
-          "id": "N2_08_M7_11",
-          "typeId": "N2-GR-FORM",
-          "category": "Mondai 7: 文法形式の判断",
-          "stem": "原資料を確認し（　）、数値の正確さを判断することはできない。",
-          "options": [
-            {
-              "id": "A",
-              "text": "たところで"
-            },
-            {
-              "id": "B",
-              "text": "たとたんに"
-            },
-            {
-              "id": "C",
-              "text": "ないばかりか"
-            },
-            {
-              "id": "D",
-              "text": "ないことには"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "確認がなければ判断できない条件を示すので『ないことには』です。",
-          "distractorExplanations": {
-            "A": "『たところで』はしても無駄という譲歩です。",
-            "B": "『たとたんに』は直後の出来事です。",
-            "C": "『ないばかりか』は追加・強調です。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "確認がなければ判断できない条件を示すので『ないことには』です。"
-        },
-        {
-          "id": "N2_08_M7_12",
-          "typeId": "N2-GR-FORM",
-          "category": "Mondai 7: 文法形式の判断",
-          "stem": "修士課程に入ったばかり（　）、彼女は学会で研究発表を任された。",
-          "options": [
-            {
-              "id": "A",
-              "text": "にしては"
-            },
-            {
-              "id": "B",
-              "text": "だけあって"
-            },
-            {
-              "id": "C",
-              "text": "ものの"
-            },
-            {
-              "id": "D",
-              "text": "ことから"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "経験の浅さを基準にした意外な評価なので『にしては』です。",
-          "distractorExplanations": {
-            "B": "『だけあって』は期待通りの結果を表します。",
-            "C": "『ものの』は逆接です。",
-            "D": "『ことから』は理由・由来です。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "経験の浅さを基準にした意外な評価なので『にしては』です。"
-        },
-        {
-          "id": "N2_08_M8_01",
-          "typeId": "N2-GR-STAR",
-          "category": "Mondai 8: 文の組み立て",
-          "stem": "論文を投稿する前に、（　　）（　　）★（　　）必要がある。",
-          "options": [
-            {
-              "id": "A",
-              "text": "投稿先の"
-            },
-            {
-              "id": "B",
-              "text": "規定を"
-            },
-            {
-              "id": "C",
-              "text": "確認したうえで"
-            },
-            {
-              "id": "D",
-              "text": "原稿を整える"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "『投稿先の規定を確認したうえで原稿を整える』の順に限られます。三番目は『確認したうえで』です。",
-          "distractorExplanations": {
-            "A": "この断片は intended order の 1 番目に置かれ、★の三番目ではありません。",
-            "B": "この断片は intended order の 2 番目に置かれ、★の三番目ではありません。",
-            "D": "この断片は intended order の 4 番目に置かれ、★の三番目ではありません。"
-          },
-          "starPosition": 3,
-          "assembledSentence": "論文を投稿する前に、投稿先の規定を確認したうえで原稿を整える必要がある。",
-          "skill": "Language Knowledge",
-          "explanationVi": "『投稿先の規定を確認したうえで原稿を整える』の順に限られます。三番目は『確認したうえで』です。"
-        },
-        {
-          "id": "N2_08_M8_02",
-          "typeId": "N2-GR-STAR",
-          "category": "Mondai 8: 文の組み立て",
-          "stem": "新しい調査方法を試す前に、（　　）（　　）★（　　）必要がある。",
-          "options": [
-            {
-              "id": "A",
-              "text": "倫理審査を受けて"
-            },
-            {
-              "id": "B",
-              "text": "調査計画が"
-            },
-            {
-              "id": "C",
-              "text": "承認されている"
-            },
-            {
-              "id": "D",
-              "text": "ことを確認する"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "『調査計画が』を主語とする『承認されていること』の状態を確認する。三番目は『承認されている』です。",
-          "distractorExplanations": {
-            "A": "この断片は intended order の 2 番目に置かれ、★の三番目ではありません。",
-            "B": "この断片は intended order の 1 番目に置かれ、★の三番目ではありません。",
-            "D": "この断片は intended order の 4 番目に置かれ、★の三番目ではありません。"
-          },
-          "starPosition": 3,
-          "assembledSentence": "新しい調査方法を試す前に、調査計画が倫理審査を受けて承認されていることを確認する必要がある。",
-          "skill": "Language Knowledge",
-          "explanationVi": "『調査計画が』を主語とする『承認されていること』の状態を確認する。三番目は『承認されている』です。"
-        },
-        {
-          "id": "N2_08_M8_03",
-          "typeId": "N2-GR-STAR",
-          "category": "Mondai 8: 文の組み立て",
-          "stem": "オンライン講義では、（　　）（　　）★（　　）工夫が求められる。",
-          "options": [
-            {
-              "id": "A",
-              "text": "学生が質問しやすい"
-            },
-            {
-              "id": "B",
-              "text": "一方的な説明に"
-            },
-            {
-              "id": "C",
-              "text": "ならないよう"
-            },
-            {
-              "id": "D",
-              "text": "時間を設ける"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "『一方的な説明にならないよう』のあとに具体策を置く。三番目は『学生が質問しやすい』です。",
-          "distractorExplanations": {
-            "B": "この断片は intended order の 1 番目に置かれ、★の三番目ではありません。",
-            "C": "この断片は intended order の 2 番目に置かれ、★の三番目ではありません。",
-            "D": "この断片は intended order の 4 番目に置かれ、★の三番目ではありません。"
-          },
-          "starPosition": 3,
-          "assembledSentence": "オンライン講義では、一方的な説明にならないよう学生が質問しやすい時間を設ける工夫が求められる。",
-          "skill": "Language Knowledge",
-          "explanationVi": "『一方的な説明にならないよう』のあとに具体策を置く。三番目は『学生が質問しやすい』です。"
-        },
-        {
-          "id": "N2_08_M8_04",
-          "typeId": "N2-GR-STAR",
-          "category": "Mondai 8: 文の組み立て",
-          "stem": "機械学習の予測を使う際も、（　　）（　　）★（　　）欠かせない。",
-          "options": [
-            {
-              "id": "A",
-              "text": "誤差の理由を調べることは"
-            },
-            {
-              "id": "B",
-              "text": "人が"
-            },
-            {
-              "id": "C",
-              "text": "結果をそのまま"
-            },
-            {
-              "id": "D",
-              "text": "受け入れず"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "予測をそのまま受け入れない姿勢に続けて、人が誤差の理由を調べる。三番目は『人が』です。",
-          "distractorExplanations": {
-            "A": "この断片は intended order の 4 番目に置かれ、★の三番目ではありません。",
-            "C": "この断片は intended order の 1 番目に置かれ、★の三番目ではありません。",
-            "D": "この断片は intended order の 2 番目に置かれ、★の三番目ではありません。"
-          },
-          "starPosition": 3,
-          "assembledSentence": "機械学習の予測を使う際も、結果をそのまま受け入れず人が誤差の理由を調べることは欠かせない。",
-          "skill": "Language Knowledge",
-          "explanationVi": "予測をそのまま受け入れない姿勢に続けて、人が誤差の理由を調べる。三番目は『人が』です。"
-        },
-        {
-          "id": "N2_08_M8_05",
-          "typeId": "N2-GR-STAR",
-          "category": "Mondai 8: 文の組み立て",
-          "stem": "研究データを公開する前に、（　　）（　　）★（　　）確認した。",
-          "options": [
-            {
-              "id": "A",
-              "text": "個人を特定できる情報が"
-            },
-            {
-              "id": "B",
-              "text": "含まれていないか"
-            },
-            {
-              "id": "C",
-              "text": "別の担当者にも"
-            },
-            {
-              "id": "D",
-              "text": "念のため"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "確認対象を先に述べ、『念のため』の後に別担当者にも確認した。三番目は『念のため』です。",
-          "distractorExplanations": {
-            "A": "この断片は intended order の 1 番目に置かれ、★の三番目ではありません。",
-            "B": "この断片は intended order の 2 番目に置かれ、★の三番目ではありません。",
-            "C": "この断片は intended order の 4 番目に置かれ、★の三番目ではありません。"
-          },
-          "starPosition": 3,
-          "assembledSentence": "研究データを公開する前に、個人を特定できる情報が含まれていないか念のため別の担当者にも確認した。",
-          "skill": "Language Knowledge",
-          "explanationVi": "確認対象を先に述べ、『念のため』の後に別担当者にも確認した。三番目は『念のため』です。"
-        },
-        {
-          "id": "N2_08_M9_01",
-          "typeId": "N2-GR-TEXT",
-          "category": "Mondai 9: 文章の文法",
-          "stem": "文章中の（1）に入るものはどれか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "にほかならない"
-            },
-            {
-              "id": "B",
-              "text": "というわけではない"
-            },
-            {
-              "id": "C",
-              "text": "に決まっている"
-            },
-            {
-              "id": "D",
-              "text": "ことになっている"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "専門語を並べれば十分だとは限らないという否定です。",
-          "distractorExplanations": {
-            "A": "強い断定になり文意に合いません。",
-            "C": "確信を示す形です。",
-            "D": "決定済みの予定を示します。"
-          },
-          "passage": "大学の研究成果を社会に伝えるとき、専門用語をそのまま並べればよい（　1　）。読み手が背景を知らない場合は、用語の意味や研究の目的を補う必要がある。説明を簡単にしすぎると、重要な条件が伝わらなくなる（　2　）ある。どこまで説明するかは、対象となる読者に（　3　）調整すべきだ。さらに、結果だけを示すのではなく、どのような方法で得られたかも説明して（　4　）、初めて読み手が妥当性を検討できる。時間が限られている（　5　）、伝える順番を工夫することが大切だ。",
-          "skill": "Language Knowledge",
-          "explanationVi": "専門語を並べれば十分だとは限らないという否定です。"
-        },
-        {
-          "id": "N2_08_M9_02",
-          "typeId": "N2-GR-TEXT",
-          "category": "Mondai 9: 文章の文法",
-          "stem": "文章中の（2）に入るものはどれか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "ものの"
-            },
-            {
-              "id": "B",
-              "text": "ばかりが"
-            },
-            {
-              "id": "C",
-              "text": "おそれが"
-            },
-            {
-              "id": "D",
-              "text": "わけで"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "悪い結果の可能性なので『おそれがある』です。",
-          "distractorExplanations": {
-            "A": "逆接の接続で名詞『ある』につながりません。",
-            "B": "『ばかりがある』は文法的に不自然です。",
-            "D": "『わけである』は断定で可能性を示しません。"
-          },
-          "passage": "大学の研究成果を社会に伝えるとき、専門用語をそのまま並べればよい（　1　）。読み手が背景を知らない場合は、用語の意味や研究の目的を補う必要がある。説明を簡単にしすぎると、重要な条件が伝わらなくなる（　2　）ある。どこまで説明するかは、対象となる読者に（　3　）調整すべきだ。さらに、結果だけを示すのではなく、どのような方法で得られたかも説明して（　4　）、初めて読み手が妥当性を検討できる。時間が限られている（　5　）、伝える順番を工夫することが大切だ。",
-          "skill": "Language Knowledge",
-          "explanationVi": "悪い結果の可能性なので『おそれがある』です。"
-        },
-        {
-          "id": "N2_08_M9_03",
-          "typeId": "N2-GR-TEXT",
-          "category": "Mondai 9: 文章の文法",
-          "stem": "文章中の（3）に入るものはどれか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "関して"
-            },
-            {
-              "id": "B",
-              "text": "先立って"
-            },
-            {
-              "id": "C",
-              "text": "反して"
-            },
-            {
-              "id": "D",
-              "text": "応じて"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "読者の特徴に合わせて調整するので『に応じて』です。",
-          "distractorExplanations": {
-            "A": "『読者に関して』では調整基準になりません。",
-            "B": "順序を表しません。",
-            "C": "反対の意味です。"
-          },
-          "passage": "大学の研究成果を社会に伝えるとき、専門用語をそのまま並べればよい（　1　）。読み手が背景を知らない場合は、用語の意味や研究の目的を補う必要がある。説明を簡単にしすぎると、重要な条件が伝わらなくなる（　2　）ある。どこまで説明するかは、対象となる読者に（　3　）調整すべきだ。さらに、結果だけを示すのではなく、どのような方法で得られたかも説明して（　4　）、初めて読み手が妥当性を検討できる。時間が限られている（　5　）、伝える順番を工夫することが大切だ。",
-          "skill": "Language Knowledge",
-          "explanationVi": "読者の特徴に合わせて調整するので『に応じて』です。"
-        },
-        {
-          "id": "N2_08_M9_04",
-          "typeId": "N2-GR-TEXT",
-          "category": "Mondai 9: 文章の文法",
-          "stem": "文章中の（4）に入るものはどれか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "おけば"
-            },
-            {
-              "id": "B",
-              "text": "みれば"
-            },
-            {
-              "id": "C",
-              "text": "しまえば"
-            },
-            {
-              "id": "D",
-              "text": "あれば"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "方法の説明を添えることで、という条件・手段を表す『ておく』です。",
-          "distractorExplanations": {
-            "B": "『説明してみれば』は試行を意味し、後件との論理が変わります。",
-            "C": "完了・後悔の含みになります。",
-            "D": "『説明してあれば』では条件の形が不自然です。"
-          },
-          "passage": "大学の研究成果を社会に伝えるとき、専門用語をそのまま並べればよい（　1　）。読み手が背景を知らない場合は、用語の意味や研究の目的を補う必要がある。説明を簡単にしすぎると、重要な条件が伝わらなくなる（　2　）ある。どこまで説明するかは、対象となる読者に（　3　）調整すべきだ。さらに、結果だけを示すのではなく、どのような方法で得られたかも説明して（　4　）、初めて読み手が妥当性を検討できる。時間が限られている（　5　）、伝える順番を工夫することが大切だ。",
-          "skill": "Language Knowledge",
-          "explanationVi": "方法の説明を添えることで、という条件・手段を表す『ておく』です。"
-        },
-        {
-          "id": "N2_08_M9_05",
-          "typeId": "N2-GR-TEXT",
-          "category": "Mondai 9: 文章の文法",
-          "stem": "文章中の（5）に入るものはどれか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "からには"
-            },
-            {
-              "id": "B",
-              "text": "からこそ"
-            },
-            {
-              "id": "C",
-              "text": "からといって"
-            },
-            {
-              "id": "D",
-              "text": "からすると"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "時間が限られているという理由を強調し、情報を整理する重要性を述べるので『からこそ』です。",
-          "distractorExplanations": {
-            "A": "『からには』は当然の責任・決意を導きます。",
-            "C": "『からといって』には通常後件に否定や意外な結果が続きます。",
-            "D": "推測の判断基準を示します。"
-          },
-          "passage": "大学の研究成果を社会に伝えるとき、専門用語をそのまま並べればよい（　1　）。読み手が背景を知らない場合は、用語の意味や研究の目的を補う必要がある。説明を簡単にしすぎると、重要な条件が伝わらなくなる（　2　）ある。どこまで説明するかは、対象となる読者に（　3　）調整すべきだ。さらに、結果だけを示すのではなく、どのような方法で得られたかも説明して（　4　）、初めて読み手が妥当性を検討できる。時間が限られている（　5　）、伝える順番を工夫することが大切だ。",
-          "skill": "Language Knowledge",
-          "explanationVi": "時間が限られているという理由を強調し、情報を整理する重要性を述べるので『からこそ』です。"
-        },
-        {
-          "id": "N2_08_M10_01",
-          "typeId": "N2-RD-SHORT",
-          "category": "Mondai 10: 短文読解",
-          "stem": "科目の入力後、学生が確認すべきことは何か。",
-          "options": [
-            {
-              "id": "A",
-              "text": "入力した直後に登録が確定したかどうか"
-            },
-            {
-              "id": "B",
-              "text": "来週月曜日まで教務課へ行かないこと"
-            },
-            {
-              "id": "C",
-              "text": "担当教員の確認後に来る通知と、入力誤りの早期連絡"
-            },
-            {
-              "id": "D",
-              "text": "教員が入力を代行したかどうか"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "入力は即時確定でなく、来週の通知を待ちますが、間違いがあれば先に教務課へ連絡します。",
-          "distractorExplanations": {
-            "A": "その場で確定されないと明記されています。",
-            "B": "誤りの連絡は通知前でもよいとあります。",
-            "D": "入力は学生が行う案内です。"
-          },
-          "passage": "新しい履修登録システムは、今週から試験運用を始めます。入力した科目はその場で確定されず、担当教員が確認した後、来週月曜日に登録結果を通知します。誤りに気づいた場合は、結果通知を待たずに教務課へ連絡してください。",
-          "skill": "Reading",
-          "explanationVi": "入力は即時確定でなく、来週の通知を待ちますが、間違いがあれば先に教務課へ連絡します。"
-        },
-        {
-          "id": "N2_08_M10_02",
-          "typeId": "N2-RD-SHORT",
-          "category": "Mondai 10: 短文読解",
-          "stem": "更新前に担当者へ連絡する理由は何か。",
-          "options": [
-            {
-              "id": "A",
-              "text": "パソコン更新の費用を研究者で分担するため"
-            },
-            {
-              "id": "B",
-              "text": "記憶装置を購入する申請が必要なため"
-            },
-            {
-              "id": "C",
-              "text": "解析ソフトの利用時間を予約するため"
-            },
-            {
-              "id": "D",
-              "text": "共同データの保存先を変えると他の人が使えない場合があるため"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "共同データは保存先の変更で共有が切れるおそれがあるため、保存前に確認します。",
-          "distractorExplanations": {
-            "A": "費用負担については述べていません。",
-            "B": "記憶装置の購入申請は案内されていません。",
-            "C": "利用時間の予約ではありません。"
-          },
-          "passage": "研究室では共有パソコンの更新を予定している。ただし、更新中は解析ソフトが使えないため、各自のデータを外付け記憶装置に保存しておく必要がある。作業は金曜日の午後に行うが、共同利用のデータは保存先を変更すると他の研究者が開けなくなることがある。保存する前に、担当者へ一声かけてほしい。",
-          "skill": "Reading",
-          "explanationVi": "共同データは保存先の変更で共有が切れるおそれがあるため、保存前に確認します。"
-        },
-        {
-          "id": "N2_08_M10_03",
-          "typeId": "N2-RD-SHORT",
-          "category": "Mondai 10: 短文読解",
-          "stem": "今年、質問時間を変えたのはなぜか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "参加者が理解できない点をその場で解消しやすくするため"
-            },
-            {
-              "id": "B",
-              "text": "講義の終了時刻を早めるため"
-            },
-            {
-              "id": "C",
-              "text": "講師が質問に答える回数を減らすため"
-            },
-            {
-              "id": "D",
-              "text": "話題を一つに限定するため"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "分からない言葉が後の理解を妨げるという声を受け、話題の区切りごとに質問を受けます。",
-          "distractorExplanations": {
-            "B": "講義を早く終えるとは書かれていません。",
-            "C": "質問時間を分散して確保しています。",
-            "D": "話題は複数あります。"
-          },
-          "passage": "公開講座の質問時間は、講義の最後にまとめて設ける予定だった。しかし、参加者から「途中で分からない言葉が出ると、その後の話が頭に入らない」という意見が複数寄せられた。そこで今年は、講師が一つの話題を終えるごとに短い質問時間を挟むことにした。質問が少ない場合も、予定より早く講義を終えるのではなく、次の話題へ進む。",
-          "skill": "Reading",
-          "explanationVi": "分からない言葉が後の理解を妨げるという声を受け、話題の区切りごとに質問を受けます。"
-        },
-        {
-          "id": "N2_08_M10_04",
-          "typeId": "N2-RD-SHORT",
-          "category": "Mondai 10: 短文読解",
-          "stem": "資料が「利用中」と表示された場合、案内が伝えたいことは何か。",
-          "options": [
-            {
-              "id": "A",
-              "text": "端末を買い替えなければならない"
-            },
-            {
-              "id": "B",
-              "text": "契約上の同時利用上限の可能性がある"
-            },
-            {
-              "id": "C",
-              "text": "学外からの利用は認められていない"
-            },
-            {
-              "id": "D",
-              "text": "資料が永久に閲覧できなくなった"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "同時利用人数に上限があると説明されています。",
-          "distractorExplanations": {
-            "A": "端末の故障と決めつけないよう明記しています。",
-            "C": "学外から閲覧できるとあります。",
-            "D": "時間を置いて再アクセスできます。"
-          },
-          "passage": "学内図書館の電子資料は、学外からも閲覧できる。ただし、契約上、同時に利用できる人数には上限がある。画面に「利用中」と表示された場合は、少し時間を置いて再度アクセスするか、別の資料を探してほしい。利用者個人の端末や通信環境に問題があるとは限らない。",
-          "skill": "Reading",
-          "explanationVi": "同時利用人数に上限があると説明されています。"
-        },
-        {
-          "id": "N2_08_M10_05",
-          "typeId": "N2-RD-SHORT",
-          "category": "Mondai 10: 短文読解",
-          "stem": "図表の色を指定したい場合、学生は何をする必要があるか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "掲示日の五日前に口頭で担当者へ伝える"
-            },
-            {
-              "id": "B",
-              "text": "印刷後に色の変更を申し込む"
-            },
-            {
-              "id": "C",
-              "text": "申請書に希望を書き、元画像ファイルを添付する"
-            },
-            {
-              "id": "D",
-              "text": "締切後に印刷室の空きを確認する"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "色の希望は申請書に記入し、元の画像ファイルも添付します。",
-          "distractorExplanations": {
-            "A": "期限は五営業日前までで、口頭連絡のみとは書かれていません。",
-            "B": "希望は印刷前に申請します。",
-            "D": "締切後は受け付けられない場合があります。"
-          },
-          "passage": "研究ポスターの印刷を希望する学生は、掲示予定日の五営業日前までに申請書を提出してください。図表の色や大きさに希望がある場合は、申請書に記入するだけでなく、元の画像ファイルも添付します。締切後の申し込みは、印刷室の予約状況によっては受け付けられません。",
-          "skill": "Reading",
-          "explanationVi": "色の希望は申請書に記入し、元の画像ファイルも添付します。"
-        },
-        {
-          "id": "N2_08_M11_01",
-          "typeId": "N2-RD-MID",
-          "category": "Mondai 11: 中文読解",
-          "stem": "学習支援センターが完成したレポートを必須にしなくなったのはなぜか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "職員がレポートを代筆するため"
-            },
-            {
-              "id": "B",
-              "text": "統計ソフトを廃止したため"
-            },
-            {
-              "id": "C",
-              "text": "相談時間を延長するため"
-            },
-            {
-              "id": "D",
-              "text": "書き始める前に相談したい学生が利用しにくかったため"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "完成物がない段階でも相談したい学生の障壁を下げるためです。",
-          "distractorExplanations": {
-            "A": "職員は代わりに書かないと明記されています。",
-            "B": "統計ソフトの相談は引き続き行います。",
-            "C": "相談時間は短く区切って予約枠を増やしました。"
-          },
-          "passage": "新入生向けの学習支援センターでは、レポートの書き方や統計ソフトの操作を個別に相談できる。以前は、相談者が自分で問題を説明できるよう、完成したレポートを持参することを勧めていた。しかし、書き始める前に相談したい学生にとっては、その条件が利用の妨げになっていた。そこで現在は、課題の説明資料や書きかけのメモだけでも相談を受け付けている。職員は答えを代わりに書くのではなく、学生が自分で次の作業を決められるよう、問いの立て方や資料の探し方を一緒に整理する。相談時間を短く区切って予約枠を増やした結果、利用者は増えたが、相談後に自力で進められたかどうかを確認する仕組みはまだ整っていない。今後は、個人情報を集めすぎない形で、支援の効果を確かめる方法を検討する予定だ。",
-          "skill": "Reading",
-          "explanationVi": "完成物がない段階でも相談したい学生の障壁を下げるためです。"
-        },
-        {
-          "id": "N2_08_M11_02",
-          "typeId": "N2-RD-MID",
-          "category": "Mondai 11: 中文読解",
-          "stem": "職員が相談で目指していることは何か。",
-          "options": [
-            {
-              "id": "A",
-              "text": "学生が次の作業を自分で決められるようにすること"
-            },
-            {
-              "id": "B",
-              "text": "良い評価を得る完成文を渡すこと"
-            },
-            {
-              "id": "C",
-              "text": "相談の回数を減らすこと"
-            },
-            {
-              "id": "D",
-              "text": "同じテーマの資料を配ること"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "問いの立て方や資料の探し方を整理し、自分で進められるようにします。",
-          "distractorExplanations": {
-            "B": "職員は答えを代筆しません。",
-            "C": "予約枠を増やして利用しやすくしました。",
-            "D": "同一資料の配布は述べられていません。"
-          },
-          "passage": "新入生向けの学習支援センターでは、レポートの書き方や統計ソフトの操作を個別に相談できる。以前は、相談者が自分で問題を説明できるよう、完成したレポートを持参することを勧めていた。しかし、書き始める前に相談したい学生にとっては、その条件が利用の妨げになっていた。そこで現在は、課題の説明資料や書きかけのメモだけでも相談を受け付けている。職員は答えを代わりに書くのではなく、学生が自分で次の作業を決められるよう、問いの立て方や資料の探し方を一緒に整理する。相談時間を短く区切って予約枠を増やした結果、利用者は増えたが、相談後に自力で進められたかどうかを確認する仕組みはまだ整っていない。今後は、個人情報を集めすぎない形で、支援の効果を確かめる方法を検討する予定だ。",
-          "skill": "Reading",
-          "explanationVi": "問いの立て方や資料の探し方を整理し、自分で進められるようにします。"
-        },
-        {
-          "id": "N2_08_M11_03",
-          "typeId": "N2-RD-MID",
-          "category": "Mondai 11: 中文読解",
-          "stem": "今後の課題として述べられているのは何か。",
-          "options": [
-            {
-              "id": "A",
-              "text": "相談室を別の建物に移すこと"
-            },
-            {
-              "id": "B",
-              "text": "個人情報に配慮しつつ支援の効果を調べること"
-            },
-            {
-              "id": "C",
-              "text": "予約枠を減らすこと"
-            },
-            {
-              "id": "D",
-              "text": "統計ソフトを全員に購入させること"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "利用者は増えましたが、相談後の自力学習を確かめる方法は未整備です。",
-          "distractorExplanations": {
-            "A": "移転の話はありません。",
-            "C": "予約枠を減らす計画はありません。",
-            "D": "ソフト購入の指示はありません。"
-          },
-          "passage": "新入生向けの学習支援センターでは、レポートの書き方や統計ソフトの操作を個別に相談できる。以前は、相談者が自分で問題を説明できるよう、完成したレポートを持参することを勧めていた。しかし、書き始める前に相談したい学生にとっては、その条件が利用の妨げになっていた。そこで現在は、課題の説明資料や書きかけのメモだけでも相談を受け付けている。職員は答えを代わりに書くのではなく、学生が自分で次の作業を決められるよう、問いの立て方や資料の探し方を一緒に整理する。相談時間を短く区切って予約枠を増やした結果、利用者は増えたが、相談後に自力で進められたかどうかを確認する仕組みはまだ整っていない。今後は、個人情報を集めすぎない形で、支援の効果を確かめる方法を検討する予定だ。",
-          "skill": "Reading",
-          "explanationVi": "利用者は増えましたが、相談後の自力学習を確かめる方法は未整備です。"
-        },
-        {
-          "id": "N2_08_M11_04",
-          "typeId": "N2-RD-MID",
-          "category": "Mondai 11: 中文読解",
-          "stem": "文字記録を復習の補助資料とした理由は何か。",
-          "options": [
-            {
-              "id": "A",
-              "text": "復習時間を長くするため"
-            },
-            {
-              "id": "B",
-              "text": "授業の録音を禁止するため"
-            },
-            {
-              "id": "C",
-              "text": "専門語の誤変換や、記録だけで理解したと思う危険があるため"
-            },
-            {
-              "id": "D",
-              "text": "教員の説明を不要にするため"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "誤変換があり、記録だけで理解したと思い込む危険があるため、講義の代わりではなく補助としました。",
-          "distractorExplanations": {
-            "A": "復習時間が短くなった声が紹介されています。",
-            "B": "録音禁止とは述べられていません。",
-            "D": "授業を不要にする目的ではありません。"
-          },
-          "passage": "ある大学の研究者は、授業中の発言を自動で文字にするシステムを試験導入した。発言を記録できれば、聞き取りが難しかった学生が後から内容を確かめられる。一方、専門用語や人名は誤変換されることがあり、記録だけを読んで内容を理解したつもりになる危険もある。担当教員は、授業前に専門語の一覧を登録し、授業後に誤りを修正してから資料を配る方法を採った。学生には、文字記録を講義そのものの代わりではなく、復習を助ける補助資料として使うよう説明している。試験導入の結果、復習時間が短くなったという声があったが、発言しにくくなったと感じた学生もいた。記録されることへの不安が原因かどうかはまだ分からない。システムの便利さだけで導入を判断せず、使う場面や保存期間について学生と合意する必要があると、研究者は考えている。",
-          "skill": "Reading",
-          "explanationVi": "誤変換があり、記録だけで理解したと思い込む危険があるため、講義の代わりではなく補助としました。"
-        },
-        {
-          "id": "N2_08_M11_05",
-          "typeId": "N2-RD-MID",
-          "category": "Mondai 11: 中文読解",
-          "stem": "試験導入について、本文から分かることはどれか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "全員が発言しやすくなった"
-            },
-            {
-              "id": "B",
-              "text": "学生の不安の原因はすでに特定された"
-            },
-            {
-              "id": "C",
-              "text": "専門語を登録しても誤変換は完全になくなった"
-            },
-            {
-              "id": "D",
-              "text": "便利さの評価だけでは導入の判断に足りない"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "学生の一部は発言しにくさを感じ、原因は未確定です。使い方等の合意も必要です。",
-          "distractorExplanations": {
-            "A": "発言しにくくなった学生もいたとあります。",
-            "B": "不安の原因はまだ分かりません。",
-            "C": "誤変換の完全解消は述べていません。"
-          },
-          "passage": "ある大学の研究者は、授業中の発言を自動で文字にするシステムを試験導入した。発言を記録できれば、聞き取りが難しかった学生が後から内容を確かめられる。一方、専門用語や人名は誤変換されることがあり、記録だけを読んで内容を理解したつもりになる危険もある。担当教員は、授業前に専門語の一覧を登録し、授業後に誤りを修正してから資料を配る方法を採った。学生には、文字記録を講義そのものの代わりではなく、復習を助ける補助資料として使うよう説明している。試験導入の結果、復習時間が短くなったという声があったが、発言しにくくなったと感じた学生もいた。記録されることへの不安が原因かどうかはまだ分からない。システムの便利さだけで導入を判断せず、使う場面や保存期間について学生と合意する必要があると、研究者は考えている。",
-          "skill": "Reading",
-          "explanationVi": "学生の一部は発言しにくさを感じ、原因は未確定です。使い方等の合意も必要です。"
-        },
-        {
-          "id": "N2_08_M11_06",
-          "typeId": "N2-RD-MID",
-          "category": "Mondai 11: 中文読解",
-          "stem": "研究者が今後大切だと考えていることは何か。",
-          "options": [
-            {
-              "id": "A",
-              "text": "使用場面や保存期間を学生と決めること"
-            },
-            {
-              "id": "B",
-              "text": "文字記録を長期間公開すること"
-            },
-            {
-              "id": "C",
-              "text": "全ての発言を試験の評価に使うこと"
-            },
-            {
-              "id": "D",
-              "text": "誤変換の修正を学生に任せること"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "使う場面と保存期間について学生と合意する必要があると述べています。",
-          "distractorExplanations": {
-            "B": "長期間の公開は提案されていません。",
-            "C": "評価利用の話はありません。",
-            "D": "教員が誤りを修正してから資料を配ります。"
-          },
-          "passage": "ある大学の研究者は、授業中の発言を自動で文字にするシステムを試験導入した。発言を記録できれば、聞き取りが難しかった学生が後から内容を確かめられる。一方、専門用語や人名は誤変換されることがあり、記録だけを読んで内容を理解したつもりになる危険もある。担当教員は、授業前に専門語の一覧を登録し、授業後に誤りを修正してから資料を配る方法を採った。学生には、文字記録を講義そのものの代わりではなく、復習を助ける補助資料として使うよう説明している。試験導入の結果、復習時間が短くなったという声があったが、発言しにくくなったと感じた学生もいた。記録されることへの不安が原因かどうかはまだ分からない。システムの便利さだけで導入を判断せず、使う場面や保存期間について学生と合意する必要があると、研究者は考えている。",
-          "skill": "Reading",
-          "explanationVi": "使う場面と保存期間について学生と合意する必要があると述べています。"
-        },
-        {
-          "id": "N2_08_M11_07",
-          "typeId": "N2-RD-MID",
-          "category": "Mondai 11: 中文読解",
-          "stem": "共同チームがデータ本体の前に説明書を作ったのはなぜか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "データを公開しないため"
-            },
-            {
-              "id": "B",
-              "text": "項目や単位などの条件を共有し、解釈の誤りを防ぐため"
-            },
-            {
-              "id": "C",
-              "text": "受け取り側の分析を禁止するため"
-            },
-            {
-              "id": "D",
-              "text": "ファイル数を増やすため"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "項目名・単位・欠測値の扱いを説明し、受け手が条件を理解できるようにしました。",
-          "distractorExplanations": {
-            "A": "データ共有を行うための準備です。",
-            "C": "別角度の分析も共有の利点です。",
-            "D": "ファイル数は目的ではありません。"
-          },
-          "passage": "研究データを他機関と共有すれば、同じ実験を繰り返す費用を抑えたり、別の角度から分析したりできる。しかし、共有すれば必ず研究が早く進むとは限らない。測定機器や記録方法が異なるデータをそのまま組み合わせると、見かけ上の差が機器の違いによるものなのか、実際の現象なのか分からなくなることがある。そのため、ある研究チームは、データ本体を送る前に、項目名、単位、欠測値の扱いを記した説明書を共同で作った。説明書の作成には時間がかかったが、受け取る側が不明点を何度も問い合わせる必要は減ったという。共有の価値は、ファイルを公開した数だけでは測れない。後から利用する人が条件を理解し、結果を適切に解釈できるようにして初めて、データは再利用可能な知識になる。",
-          "skill": "Reading",
-          "explanationVi": "項目名・単位・欠測値の扱いを説明し、受け手が条件を理解できるようにしました。"
-        },
-        {
-          "id": "N2_08_M11_08",
-          "typeId": "N2-RD-MID",
-          "category": "Mondai 11: 中文読解",
-          "stem": "説明書の作成に時間をかけた結果、何が減ったか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "機器の台数"
-            },
-            {
-              "id": "B",
-              "text": "データの測定回数"
-            },
-            {
-              "id": "C",
-              "text": "受け手からの不明点の問い合わせ"
-            },
-            {
-              "id": "D",
-              "text": "共同研究者の人数"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "受け取り側が何度も問い合わせる必要が減ったとあります。",
-          "distractorExplanations": {
-            "A": "機器台数は述べられていません。",
-            "B": "測定回数への影響は述べられていません。",
-            "D": "人数への影響はありません。"
-          },
-          "passage": "研究データを他機関と共有すれば、同じ実験を繰り返す費用を抑えたり、別の角度から分析したりできる。しかし、共有すれば必ず研究が早く進むとは限らない。測定機器や記録方法が異なるデータをそのまま組み合わせると、見かけ上の差が機器の違いによるものなのか、実際の現象なのか分からなくなることがある。そのため、ある研究チームは、データ本体を送る前に、項目名、単位、欠測値の扱いを記した説明書を共同で作った。説明書の作成には時間がかかったが、受け取る側が不明点を何度も問い合わせる必要は減ったという。共有の価値は、ファイルを公開した数だけでは測れない。後から利用する人が条件を理解し、結果を適切に解釈できるようにして初めて、データは再利用可能な知識になる。",
-          "skill": "Reading",
-          "explanationVi": "受け取り側が何度も問い合わせる必要が減ったとあります。"
-        },
-        {
-          "id": "N2_08_M11_09",
-          "typeId": "N2-RD-MID",
-          "category": "Mondai 11: 中文読解",
-          "stem": "筆者が考えるデータ共有の価値は何か。",
-          "options": [
-            {
-              "id": "A",
-              "text": "公開したファイル数を増やすこと"
-            },
-            {
-              "id": "B",
-              "text": "同じ実験を全ての機関で繰り返すこと"
-            },
-            {
-              "id": "C",
-              "text": "共同研究の期間を短くすること"
-            },
-            {
-              "id": "D",
-              "text": "条件を理解した上で結果を適切に再利用できること"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "単なる公開数でなく、条件を理解して適切に解釈・再利用できることが価値です。",
-          "distractorExplanations": {
-            "A": "公開数だけでは測れないと述べています。",
-            "B": "繰り返し費用を抑えることが共有の一例です。",
-            "C": "時間短縮だけを価値とはしていません。"
-          },
-          "passage": "研究データを他機関と共有すれば、同じ実験を繰り返す費用を抑えたり、別の角度から分析したりできる。しかし、共有すれば必ず研究が早く進むとは限らない。測定機器や記録方法が異なるデータをそのまま組み合わせると、見かけ上の差が機器の違いによるものなのか、実際の現象なのか分からなくなることがある。そのため、ある研究チームは、データ本体を送る前に、項目名、単位、欠測値の扱いを記した説明書を共同で作った。説明書の作成には時間がかかったが、受け取る側が不明点を何度も問い合わせる必要は減ったという。共有の価値は、ファイルを公開した数だけでは測れない。後から利用する人が条件を理解し、結果を適切に解釈できるようにして初めて、データは再利用可能な知識になる。",
-          "skill": "Reading",
-          "explanationVi": "単なる公開数でなく、条件を理解して適切に解釈・再利用できることが価値です。"
-        },
-        {
-          "id": "N2_08_M12_01",
-          "typeId": "N2-RD-COMP",
-          "category": "Mondai 12: 統合理解",
-          "stem": "資料Aと資料Bに共通する考えはどれか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "資料の公開を学習に役立てる仕組みも必要だ"
-            },
-            {
-              "id": "B",
-              "text": "資料を公開するだけで授業への参加が十分になる"
-            },
-            {
-              "id": "C",
-              "text": "授業前の資料公開をやめるべきだ"
-            },
-            {
-              "id": "D",
-              "text": "全ての解答例を事前に配るべきだ"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "両者とも事前公開そのものを否定せず、授業やアクセス方法に工夫が必要だと見ています。",
-          "distractorExplanations": {
-            "B": "Aは授業での意見交換を提案しています。",
-            "C": "Bは早期公開に賛成しています。",
-            "D": "Aは解答例を掲載しないとしています。"
-          },
-          "passage": "【資料A　授業担当者への案内】\n来学期から、講義資料は授業前日に学習サイトへ掲載します。学生が予習しやすくなる一方、資料だけを読んで授業に出なくなることを心配する声もあります。そこで、資料には授業で扱う問いを示しますが、解答例は掲載しません。授業では、資料に書かれていない事例を取り上げ、学生同士の意見交換を行ってください。\n\n【資料B　学生委員会の提案】\n講義資料を早く見られることには賛成です。ただし、予習を前提に授業を進めると、アルバイトなどで事前に準備できない学生が不利になる可能性があります。資料を読んでいなくても参加できるよう、授業の冒頭に要点を短く確認する時間を設けてほしいです。また、資料の公開日を科目ごとに変えるのではなく、学習サイトの操作が分かりやすくなるよう、掲載場所を統一してほしいと考えます。",
-          "skill": "Reading",
-          "explanationVi": "両者とも事前公開そのものを否定せず、授業やアクセス方法に工夫が必要だと見ています。"
-        },
-        {
-          "id": "N2_08_M12_02",
-          "typeId": "N2-RD-COMP",
-          "category": "Mondai 12: 統合理解",
-          "stem": "授業資料を事前に読めない学生への対応として、資料Bが求めているものは何か。",
-          "options": [
-            {
-              "id": "A",
-              "text": "予習できない学生の出席を免除する制度"
-            },
-            {
-              "id": "B",
-              "text": "授業冒頭で要点を確認する時間"
-            },
-            {
-              "id": "C",
-              "text": "授業後に解答例を公開すること"
-            },
-            {
-              "id": "D",
-              "text": "全ての授業をオンライン化すること"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "資料Bは事前準備できない学生も参加できるよう、冒頭で要点を確認する時間を希望しています。",
-          "distractorExplanations": {
-            "A": "出席免除の提案はありません。",
-            "C": "解答例については触れていません。",
-            "D": "オンライン化の提案はありません。"
-          },
-          "passage": "【資料A　授業担当者への案内】\n来学期から、講義資料は授業前日に学習サイトへ掲載します。学生が予習しやすくなる一方、資料だけを読んで授業に出なくなることを心配する声もあります。そこで、資料には授業で扱う問いを示しますが、解答例は掲載しません。授業では、資料に書かれていない事例を取り上げ、学生同士の意見交換を行ってください。\n\n【資料B　学生委員会の提案】\n講義資料を早く見られることには賛成です。ただし、予習を前提に授業を進めると、アルバイトなどで事前に準備できない学生が不利になる可能性があります。資料を読んでいなくても参加できるよう、授業の冒頭に要点を短く確認する時間を設けてほしいです。また、資料の公開日を科目ごとに変えるのではなく、学習サイトの操作が分かりやすくなるよう、掲載場所を統一してほしいと考えます。",
-          "skill": "Reading",
-          "explanationVi": "資料Bは事前準備できない学生も参加できるよう、冒頭で要点を確認する時間を希望しています。"
-        },
-        {
-          "id": "N2_08_M13_01",
-          "typeId": "N2-RD-LONG",
-          "category": "Mondai 13: 長文読解",
-          "stem": "筆者が最初に注意していることは何か。",
-          "options": [
-            {
-              "id": "A",
-              "text": "教育に技術を使うと必ず学力が下がること"
-            },
-            {
-              "id": "B",
-              "text": "録画教材を全面的に廃止すること"
-            },
-            {
-              "id": "C",
-              "text": "技術を導入した事実だけを学習改善と同一視しないこと"
-            },
-            {
-              "id": "D",
-              "text": "自動採点を使うと教員が不要になること"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "導入自体と学習改善は同じではないと冒頭で述べています。",
-          "distractorExplanations": {
-            "A": "技術の利点も認めており、必ず悪影響があるとは言いません。",
-            "B": "録画の廃止を求めていません。",
-            "D": "教員不要とは述べていません。"
-          },
-          "passage": "新しい技術が教育に入ると、学び方は便利になる。講義を録画すれば、欠席した学生も後から見られる。自動採点を使えば、教員は基礎問題の採点に費やす時間を減らせる。こうした利点は確かに大きい。しかし、技術を導入したこと自体を、学習の改善と同じものとして扱ってはいけない。\n\n例えば、学習サイトに教材を置いただけで学生が理解できるようになるわけではない。何をどの順番で学ぶのかが分からなければ、教材が増えるほど、かえって必要な情報を探しにくくなることもある。自動採点についても、短い選択問題で正答できたことと、学んだ考え方を別の場面で使えることは同じではない。点数がすぐ返る便利さに注目するあまり、学生がどこで考え違いをしたのかを確かめる機会が失われてはならない。\n\nでは、技術を教育に生かすには何が必要だろうか。まず、解決したい学習上の課題を具体的にすることだ。授業後に復習する時間が取れないのか、資料のどこを読めばよいか分からないのか、質問する相手がいないのかによって、必要な支援は違う。次に、導入前に小さな範囲で試し、利用者の声と学習の成果を合わせて見る。利用回数が増えたという数字だけでは、理解が深まったかは分からない。\n\nそして、技術を使う人が結果を判断する役割を手放さないことも重要である。自動判定が誤った場合に誰が説明するのか、記録された学習情報を誰がどの期間見るのかを、導入前に決めておかなければならない。学習者にとって有益な技術とは、教員や学生の判断を置き換えるものではなく、必要な情報を得て次の行動を選びやすくするものだ。便利さを測るだけでなく、学ぶ人が自分で考える余地を保てているかを問い続ける必要がある。",
-          "skill": "Reading",
-          "explanationVi": "導入自体と学習改善は同じではないと冒頭で述べています。"
-        },
-        {
-          "id": "N2_08_M13_02",
-          "typeId": "N2-RD-LONG",
-          "category": "Mondai 13: 長文読解",
-          "stem": "筆者によると、学習サイトの教材が増えることで起こりうる問題は何か。",
-          "options": [
-            {
-              "id": "A",
-              "text": "学生が教材を印刷できなくなる"
-            },
-            {
-              "id": "B",
-              "text": "自動採点ができなくなる"
-            },
-            {
-              "id": "C",
-              "text": "教員の採点時間が増える"
-            },
-            {
-              "id": "D",
-              "text": "必要な教材を探しにくくなる"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "学ぶ順序が分からないまま教材が増えると、必要な情報を探しにくくなる場合があります。",
-          "distractorExplanations": {
-            "A": "印刷の可否には触れていません。",
-            "B": "サイト教材と自動採点の機能は別です。",
-            "C": "教材数と採点時間の因果は述べていません。"
-          },
-          "passage": "新しい技術が教育に入ると、学び方は便利になる。講義を録画すれば、欠席した学生も後から見られる。自動採点を使えば、教員は基礎問題の採点に費やす時間を減らせる。こうした利点は確かに大きい。しかし、技術を導入したこと自体を、学習の改善と同じものとして扱ってはいけない。\n\n例えば、学習サイトに教材を置いただけで学生が理解できるようになるわけではない。何をどの順番で学ぶのかが分からなければ、教材が増えるほど、かえって必要な情報を探しにくくなることもある。自動採点についても、短い選択問題で正答できたことと、学んだ考え方を別の場面で使えることは同じではない。点数がすぐ返る便利さに注目するあまり、学生がどこで考え違いをしたのかを確かめる機会が失われてはならない。\n\nでは、技術を教育に生かすには何が必要だろうか。まず、解決したい学習上の課題を具体的にすることだ。授業後に復習する時間が取れないのか、資料のどこを読めばよいか分からないのか、質問する相手がいないのかによって、必要な支援は違う。次に、導入前に小さな範囲で試し、利用者の声と学習の成果を合わせて見る。利用回数が増えたという数字だけでは、理解が深まったかは分からない。\n\nそして、技術を使う人が結果を判断する役割を手放さないことも重要である。自動判定が誤った場合に誰が説明するのか、記録された学習情報を誰がどの期間見るのかを、導入前に決めておかなければならない。学習者にとって有益な技術とは、教員や学生の判断を置き換えるものではなく、必要な情報を得て次の行動を選びやすくするものだ。便利さを測るだけでなく、学ぶ人が自分で考える余地を保てているかを問い続ける必要がある。",
-          "skill": "Reading",
-          "explanationVi": "学ぶ順序が分からないまま教材が増えると、必要な情報を探しにくくなる場合があります。"
-        },
-        {
-          "id": "N2_08_M13_03",
-          "typeId": "N2-RD-LONG",
-          "category": "Mondai 13: 長文読解",
-          "stem": "筆者が教育技術に望んでいる役割はどれか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "学習者が必要な情報を得て次の行動を選びやすくすること"
-            },
-            {
-              "id": "B",
-              "text": "利用回数を増やすことを最終目標にすること"
-            },
-            {
-              "id": "C",
-              "text": "教員や学生の判断を完全に置き換えること"
-            },
-            {
-              "id": "D",
-              "text": "学習記録を無期限に保存すること"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "技術は判断を置き換えず、学習者の次の行動を選びやすくする支援とされています。",
-          "distractorExplanations": {
-            "B": "利用回数だけでは成果を測れないと述べています。",
-            "C": "判断の役割を手放さないよう求めています。",
-            "D": "記録の閲覧者・期間は事前に決めるべきとしています。"
-          },
-          "passage": "新しい技術が教育に入ると、学び方は便利になる。講義を録画すれば、欠席した学生も後から見られる。自動採点を使えば、教員は基礎問題の採点に費やす時間を減らせる。こうした利点は確かに大きい。しかし、技術を導入したこと自体を、学習の改善と同じものとして扱ってはいけない。\n\n例えば、学習サイトに教材を置いただけで学生が理解できるようになるわけではない。何をどの順番で学ぶのかが分からなければ、教材が増えるほど、かえって必要な情報を探しにくくなることもある。自動採点についても、短い選択問題で正答できたことと、学んだ考え方を別の場面で使えることは同じではない。点数がすぐ返る便利さに注目するあまり、学生がどこで考え違いをしたのかを確かめる機会が失われてはならない。\n\nでは、技術を教育に生かすには何が必要だろうか。まず、解決したい学習上の課題を具体的にすることだ。授業後に復習する時間が取れないのか、資料のどこを読めばよいか分からないのか、質問する相手がいないのかによって、必要な支援は違う。次に、導入前に小さな範囲で試し、利用者の声と学習の成果を合わせて見る。利用回数が増えたという数字だけでは、理解が深まったかは分からない。\n\nそして、技術を使う人が結果を判断する役割を手放さないことも重要である。自動判定が誤った場合に誰が説明するのか、記録された学習情報を誰がどの期間見るのかを、導入前に決めておかなければならない。学習者にとって有益な技術とは、教員や学生の判断を置き換えるものではなく、必要な情報を得て次の行動を選びやすくするものだ。便利さを測るだけでなく、学ぶ人が自分で考える余地を保てているかを問い続ける必要がある。",
-          "skill": "Reading",
-          "explanationVi": "技術は判断を置き換えず、学習者の次の行動を選びやすくする支援とされています。"
-        },
-        {
-          "id": "N2_08_M14_01",
-          "typeId": "N2-RD-INFO",
-          "category": "Mondai 14: 情報検索",
-          "stem": "金曜日の発表資料相談を希望する博士課程の学生は、何をすればよいか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "予約当日に完成したスライドを提出する"
-            },
-            {
-              "id": "B",
-              "text": "希望日の3日前までに予約し、相談内容を100字以内で入力する"
-            },
-            {
-              "id": "C",
-              "text": "指導教員の確認なしに研究計画を提出する"
-            },
-            {
-              "id": "D",
-              "text": "相談料を支払い、個人情報を含むデータを持参する"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "対象資格を満たす学生は、期限までにサイトから予約し、相談内容を100字以内で入力します。",
-          "distractorExplanations": {
-            "A": "発表資料は完成前でも相談できます。",
-            "C": "研究計画の指導教員確認が対象条件です。",
-            "D": "無料で、個人情報の削除は統計相談の注意です。"
-          },
-          "passage": "【大学院生向け 研究支援プログラム】\n対象：本学の修士・博士課程に在籍し、研究計画が指導教員に確認されている学生\n内容：統計相談、学術論文の検索、研究発表スライドの相談（各回30分）\n開催：火曜 16:00–18:00（統計相談）／水曜 13:00–15:00（論文検索）／金曜 10:00–12:00（発表資料）\n申込：希望日の3日前までに学習支援サイトから予約。相談内容を100字以内で入力する。\n費用：無料。各相談は月2回まで。\n注意：統計相談ではデータの個人情報を削除して持参する。発表資料は完成前でも相談できる。予約変更は前日正午まで。",
-          "skill": "Reading",
-          "explanationVi": "対象資格を満たす学生は、期限までにサイトから予約し、相談内容を100字以内で入力します。"
-        },
-        {
-          "id": "N2_08_M14_02",
-          "typeId": "N2-RD-INFO",
-          "category": "Mondai 14: 情報検索",
-          "stem": "統計相談を予約する際に特に注意することは何か。",
-          "options": [
-            {
-              "id": "A",
-              "text": "相談は水曜日に限られる"
-            },
-            {
-              "id": "B",
-              "text": "月に何度でも利用できる"
-            },
-            {
-              "id": "C",
-              "text": "データから個人情報を削除する"
-            },
-            {
-              "id": "D",
-              "text": "予約変更は当日まで可能である"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "統計相談では個人情報を削除して持参するよう指定されています。",
-          "distractorExplanations": {
-            "A": "統計相談は火曜日です。",
-            "B": "各相談は月2回までです。",
-            "D": "変更は前日正午までです。"
-          },
-          "passage": "【大学院生向け 研究支援プログラム】\n対象：本学の修士・博士課程に在籍し、研究計画が指導教員に確認されている学生\n内容：統計相談、学術論文の検索、研究発表スライドの相談（各回30分）\n開催：火曜 16:00–18:00（統計相談）／水曜 13:00–15:00（論文検索）／金曜 10:00–12:00（発表資料）\n申込：希望日の3日前までに学習支援サイトから予約。相談内容を100字以内で入力する。\n費用：無料。各相談は月2回まで。\n注意：統計相談ではデータの個人情報を削除して持参する。発表資料は完成前でも相談できる。予約変更は前日正午まで。",
-          "skill": "Reading",
-          "explanationVi": "統計相談では個人情報を削除して持参するよう指定されています。"
-        }
-      ]
-    },
-    {
-      "sectionId": "sec-2",
-      "sectionName": "Phần 2: Nghe hiểu (Listening Comprehension)",
-      "durationMinutes": 50,
-      "itemCount": 30,
-      "audioStatus": "BROWSER_PLAYBACK_VERIFIED",
-      "audioNoticeVi": "30 tệp đã khớp SHA-256, giải mã và ghi nhận tiến triển phát trên trình duyệt; chưa có chứng nhận chuyên gia về phát âm.",
-      "items": [
-        {
-          "id": "N2_08_M1_L01",
-          "typeId": "N2-LIS-TASK",
-          "category": "Mondai 1: 課題理解",
-          "script": "大学の研究室で、指導教員と大学院生が倫理審査の申請について話しています。学生はこの後、まず何をしますか。\n\n男：申請書はほぼ完成しました。参加者への説明文も付けてあります。\n女：説明文は分かりやすいけれど、調査を途中でやめても不利益がないことが書かれていないわ。\n男：確かに。データの保管場所は書いてあります。\n女：そこは問題ないわ。まず、参加者がいつでも撤回できることを追記して。それから、質問票の最終版を添えて事務局に出しましょう。\n男：分かりました。説明文を直して、質問票も付けます。",
-          "stem": "男性はまず何をしますか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "参加者が調査を撤回できることを説明文に加える"
-            },
-            {
-              "id": "B",
-              "text": "データの保管場所を変更する"
-            },
-            {
-              "id": "C",
-              "text": "申請書を事務局に提出する"
-            },
-            {
-              "id": "D",
-              "text": "質問票を参加者に配布する"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "まず説明文に参加撤回の権利を追記し、その後に質問票とともに提出します。",
-          "distractorExplanations": {
-            "B": "保管場所は問題ないと確認され、変更指示はありません。",
-            "C": "提出は説明文への追記後に行います。",
-            "D": "質問票は申請書への添付であり、参加者への配布とは言われていません。"
-          },
-          "skill": "Listening",
-          "explanationVi": "まず説明文に参加撤回の権利を追記し、その後に質問票とともに提出します。",
-          "audioUrl": "audio/n2_mock_08/N2_08_M1_L01.mp3",
-          "audioDurationSec": 58.488,
-          "audioSha256": "ca9e7d126a18bed6c1525def2d670c609c61966ba1b362f723e8a1e32629dac3",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_08_M1_L02",
-          "typeId": "N2-LIS-TASK",
-          "category": "Mondai 1: 課題理解",
-          "script": "大学の実験室で、女性の研究員と男性の技術職員が装置の予約について話しています。女性はこの後、何をしますか。\n\n女：明日の午前に分光計を使いたいのですが、予約表には午後と書かれていました。\n男：午後は別の研究班が使います。午前に使うなら、まず今日中に試料の種類を登録してください。\n女：予約の変更は必要ですか。\n男：午前の枠は空いていますから、予約表の時間を直すだけで大丈夫です。装置の校正は私が朝に済ませます。\n女：分かりました。試料を登録して、時間を午前に変更します。",
-          "stem": "女性はこの後、何をしますか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "装置の校正をする"
-            },
-            {
-              "id": "B",
-              "text": "予約時間を午前に直し、試料の種類を登録する"
-            },
-            {
-              "id": "C",
-              "text": "別の研究班に午後の利用を頼む"
-            },
-            {
-              "id": "D",
-              "text": "試料を装置に入れておく"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "午前の利用は可能です。本人は試料登録と予約表の時刻変更を行います。",
-          "distractorExplanations": {
-            "A": "校正は技術職員が朝に行うと言っています。",
-            "C": "午後の枠は別の班が使うため、変更できません。",
-            "D": "試料を装置に入れておく指示はありません。"
-          },
-          "skill": "Listening",
-          "explanationVi": "午前の利用は可能です。本人は試料登録と予約表の時刻変更を行います。",
-          "audioUrl": "audio/n2_mock_08/N2_08_M1_L02.mp3",
-          "audioDurationSec": 56.688,
-          "audioSha256": "1c2ecde5db6e14722c917d8ab8593512219c0705bce74b86494f3eed6248e433",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_08_M1_L03",
-          "typeId": "N2-LIS-TASK",
-          "category": "Mondai 1: 課題理解",
-          "script": "講義の後で、学生と教員がレポートの引用方法について話しています。学生はまず何をしますか。\n\n男：先生、引用した論文の一覧は最後に付けました。\n女：一覧は整っているけれど、本文のどの記述がどの論文に基づくか分かりにくいわ。\n男：ページ番号も必要でしょうか。\n女：直接引用した箇所にはページ番号を付けてください。要約した部分は著者名と出版年があればいいです。締切は来週ですが、まず本文の引用表示を直しましょう。\n男：はい。文献一覧を作り直す前に、本文を確認します。",
-          "stem": "学生はまず何をしますか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "締切を延ばしてもらう"
-            },
-            {
-              "id": "B",
-              "text": "全ての論文を読み直す"
-            },
-            {
-              "id": "C",
-              "text": "本文中の引用表示を修正する"
-            },
-            {
-              "id": "D",
-              "text": "文献一覧を削除する"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "教員は先に本文の引用箇所を明確にするよう指示しています。",
-          "distractorExplanations": {
-            "A": "締切延長の相談は出ていません。",
-            "B": "論文全体を読み直す指示ではなく、引用表示を直します。",
-            "D": "文献一覧は整っていると評価されています。"
-          },
-          "skill": "Listening",
-          "explanationVi": "教員は先に本文の引用箇所を明確にするよう指示しています。",
-          "audioUrl": "audio/n2_mock_08/N2_08_M1_L03.mp3",
-          "audioDurationSec": 55.92,
-          "audioSha256": "18d7733784f105bdd0ec5cf788b516396417a7dc8db37b9f4d8fb34105229dde",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_08_M1_L04",
-          "typeId": "N2-LIS-TASK",
-          "category": "Mondai 1: 課題理解",
-          "script": "大学の講義室で、二人の学生が共同発表の準備について話しています。女性はこの後、何をしますか。\n\n女：スライドの図はできたけれど、文字が小さすぎないかな。\n男：教室の後ろから見ると少し読みにくいね。内容は変えなくていいから、図の説明と文字を大きくしよう。\n女：発表順の表も入れる？\n男：それは先生が配った資料に載っているから、スライドにはいらないよ。\n女：じゃあ、図の文字を直して、今日中に共有フォルダに置くね。",
-          "stem": "女性はこの後、何をしますか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "発表順を調べてスライドに加える"
-            },
-            {
-              "id": "B",
-              "text": "先生に資料を作ってもらう"
-            },
-            {
-              "id": "C",
-              "text": "発表内容を全部書き直す"
-            },
-            {
-              "id": "D",
-              "text": "図の説明と文字を大きくして共有する"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "内容や発表順は変えず、読みにくい図の説明を大きくして共有します。",
-          "distractorExplanations": {
-            "A": "発表順は配布資料にあり、スライドには不要です。",
-            "B": "資料作成を教員に頼む話はありません。",
-            "C": "内容は変えず、図の文字を大きくします。"
-          },
-          "skill": "Listening",
-          "explanationVi": "内容や発表順は変えず、読みにくい図の説明を大きくして共有します。",
-          "audioUrl": "audio/n2_mock_08/N2_08_M1_L04.mp3",
-          "audioDurationSec": 47.28,
-          "audioSha256": "2fac9f908d1b33a565e2ecebb6f9241720c5b79727120fa0b88535da662a81f6",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_08_M1_L05",
-          "typeId": "N2-LIS-TASK",
-          "category": "Mondai 1: 課題理解",
-          "script": "学会発表の準備について、大学院生と研究室の先輩が話しています。大学院生は最初に何をしますか。\n\n女：ポスターの印刷を予約しようと思っています。\n男：その前に、学会の要旨提出が今夜までだよ。ポスターの印刷は採択通知が来てからでも間に合う。\n女：要旨は先生に見てもらっています。\n男：先生から戻ったら、字数を確認してすぐ提出して。図の色を調整するのはその後でいい。\n女：分かりました。まず要旨を出します。",
-          "stem": "大学院生は最初に何をしますか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "要旨の字数を確認して提出する"
-            },
-            {
-              "id": "B",
-              "text": "印刷室の予約を取る"
-            },
-            {
-              "id": "C",
-              "text": "ポスターの色を調整する"
-            },
-            {
-              "id": "D",
-              "text": "採択通知の結果を問い合わせる"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "締切が最も近いのは要旨提出です。字数を確認して今夜までに送ります。",
-          "distractorExplanations": {
-            "B": "まず締切の近い要旨を提出します。",
-            "C": "印刷予約は採択通知後でも間に合うと言われています。",
-            "D": "採択通知を問い合わせるよう指示されていません。"
-          },
-          "skill": "Listening",
-          "explanationVi": "締切が最も近いのは要旨提出です。字数を確認して今夜までに送ります。",
-          "audioUrl": "audio/n2_mock_08/N2_08_M1_L05.mp3",
-          "audioDurationSec": 49.752,
-          "audioSha256": "20309d5af224cfbd178c6d57cdf5c70d78f05442199e076cc25ecb50d447bf8f",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_08_M2_L01",
-          "typeId": "N2-LIS-POINT",
-          "category": "Mondai 2: ポイント理解",
-          "script": "研究会の準備について、教授と学生が話しています。学生は資料をいつまでに送りますか。\n\n男：発表資料の初稿はできましたか。\n女：図の説明を直しているところです。\n男：内容は明日確認できます。ただ、参加者に事前に配るので、今日の午後五時までに共有フォルダへ入れてください。印刷は事務の方が明日の朝にします。\n女：分かりました。五時までに入れます。",
-          "stem": "学生は資料をいつまでに送りますか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "今日の午後五時まで"
-            },
-            {
-              "id": "B",
-              "text": "今日の夜まで"
-            },
-            {
-              "id": "C",
-              "text": "明日の朝まで"
-            },
-            {
-              "id": "D",
-              "text": "研究会の開始後"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "参加者への配布準備のため、今日の午後五時が締切です。",
-          "distractorExplanations": {
-            "B": "夜までではなく午後五時が締切です。",
-            "C": "印刷は明日の朝ですが、学生の提出期限は今日です。",
-            "D": "研究会の後ではなく、事前配布のために送ります。"
-          },
-          "skill": "Listening",
-          "explanationVi": "参加者への配布準備のため、今日の午後五時が締切です。",
-          "audioUrl": "audio/n2_mock_08/N2_08_M2_L01.mp3",
-          "audioDurationSec": 48.896,
-          "audioSha256": "102227fa29ec81e2a1acd494176156144f3b9ce24dcdd4908639bbc5561a8579",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_08_M2_L02",
-          "typeId": "N2-LIS-POINT",
-          "category": "Mondai 2: ポイント理解",
-          "script": "講義の受講方法について、教員が学生に説明しています。録画を見た学生は何をする必要がありますか。\n\n女：出張などで講義を欠席した人は、金曜日までに録画を見てください。ただし、視聴しただけでは出席扱いになりません。学習サイトにある確認問題を提出すると、出席記録に反映されます。質問がある人は、次の授業で聞いてください。",
-          "stem": "録画を見た学生は何をする必要がありますか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "次の授業を欠席する"
-            },
-            {
-              "id": "B",
-              "text": "確認問題を提出する"
-            },
-            {
-              "id": "C",
-              "text": "教員に電話する"
-            },
-            {
-              "id": "D",
-              "text": "録画を自分で編集する"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "録画視聴だけでは出席にならず、サイトの確認問題提出が必要です。",
-          "distractorExplanations": {
-            "A": "録画を見るだけでは出席扱いになりません。",
-            "C": "次の授業で質問するのは任意の案内です。",
-            "D": "録画の編集を学生に求めていません。"
-          },
-          "skill": "Listening",
-          "explanationVi": "録画視聴だけでは出席にならず、サイトの確認問題提出が必要です。",
-          "audioUrl": "audio/n2_mock_08/N2_08_M2_L02.mp3",
-          "audioDurationSec": 47.792,
-          "audioSha256": "b0ef2514b0a42689ad1a9b8242e7b2fcfcf55ce6b6246e055c98b4a86611a1f4",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_08_M2_L03",
-          "typeId": "N2-LIS-POINT",
-          "category": "Mondai 2: ポイント理解",
-          "script": "研究発表のポスターについて、二人の学生が話しています。男性は図をどうすることにしましたか。\n\n女：この図、測定結果が三種類あるのに、線が全部同じ色だね。\n男：白黒で印刷する予定だから、色だけでは区別できないね。\n女：線の種類を変えて、凡例にも説明を入れようか。\n男：そうしよう。データの数字は合っているから、そこは直さなくていい。",
-          "stem": "男性は図をどうすることにしましたか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "測定値そのものを変更する"
-            },
-            {
-              "id": "B",
-              "text": "カラー印刷に切り替える"
-            },
-            {
-              "id": "C",
-              "text": "線の種類を変え、凡例に説明を加える"
-            },
-            {
-              "id": "D",
-              "text": "図をポスターから外す"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "白黒印刷でも区別できるよう線種と凡例を変更し、数字はそのままです。",
-          "distractorExplanations": {
-            "A": "数字は合っているので変更しません。",
-            "B": "白黒印刷のままで、線種を変えます。",
-            "D": "図はポスターに残し、見分けやすくします。"
-          },
-          "skill": "Listening",
-          "explanationVi": "白黒印刷でも区別できるよう線種と凡例を変更し、数字はそのままです。",
-          "audioUrl": "audio/n2_mock_08/N2_08_M2_L03.mp3",
-          "audioDurationSec": 46.952,
-          "audioSha256": "fe1552359730501e716853212af6e8f292d2dd1d1d26c2bbc6d1c74a3fbd593e",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_08_M2_L04",
-          "typeId": "N2-LIS-POINT",
-          "category": "Mondai 2: ポイント理解",
-          "script": "大学の情報担当者が、学生に新しい認証方式を説明しています。学生がパスワードを忘れた場合、まず何をしますか。\n\n男：来月から、学内サービスは二段階認証になります。スマートフォンを交換した人は、古い端末を処分する前に新しい端末を登録してください。パスワードを忘れた場合は、教務課ではなく情報センターの窓口で本人確認を受けてください。",
-          "stem": "パスワードを忘れた学生は、まずどうしますか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "教務課にメールする"
-            },
-            {
-              "id": "B",
-              "text": "古い端末を処分する"
-            },
-            {
-              "id": "C",
-              "text": "新しいパスワードを友人に聞く"
-            },
-            {
-              "id": "D",
-              "text": "情報センターで本人確認を受ける"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "忘れた場合の窓口は情報センターで、本人確認を受けるよう案内されています。",
-          "distractorExplanations": {
-            "A": "手続き先は教務課ではなく情報センターです。",
-            "B": "古い端末の処分は新端末登録の注意で、パスワードを忘れたときの手順ではありません。",
-            "C": "友人にパスワードを聞く方法は案内されていません。"
-          },
-          "skill": "Listening",
-          "explanationVi": "忘れた場合の窓口は情報センターで、本人確認を受けるよう案内されています。",
-          "audioUrl": "audio/n2_mock_08/N2_08_M2_L04.mp3",
-          "audioDurationSec": 46.256,
-          "audioSha256": "f529994386c9c9906b325969308b02426e36cb5b146746eb1934eff0f0e58ab6",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_08_M2_L05",
-          "typeId": "N2-LIS-POINT",
-          "category": "Mondai 2: ポイント理解",
-          "script": "実験データの保存について、研究室の職員が説明しています。共有データを保存する場所はどこですか。\n\n女：個人の作業ファイルは各自の端末に保存して構いません。ただし、共同研究のデータは研究室の共有サーバーに保存してください。個人のクラウドに置くと、メンバーがアクセスできない場合があります。\n男：バックアップはどうしますか。\n女：サーバーは毎晩自動で複製されます。",
-          "stem": "共同研究のデータはどこに保存しますか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "研究室の共有サーバー"
-            },
-            {
-              "id": "B",
-              "text": "個人の端末だけ"
-            },
-            {
-              "id": "C",
-              "text": "各自の個人クラウド"
-            },
-            {
-              "id": "D",
-              "text": "印刷して研究室に保管"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "共同研究データは研究室共有サーバーに保存します。",
-          "distractorExplanations": {
-            "B": "個人端末ではなく共有サーバーに保存します。",
-            "C": "個人クラウドでは他のメンバーが使えない場合があります。",
-            "D": "印刷保管の案内はありません。"
-          },
-          "skill": "Listening",
-          "explanationVi": "共同研究データは研究室共有サーバーに保存します。",
-          "audioUrl": "audio/n2_mock_08/N2_08_M2_L05.mp3",
-          "audioDurationSec": 49.36,
-          "audioSha256": "d7cfe550b19d4025e8d52572425efa52e76e1ebe97a2efdd73e087dc8792d6f8",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_08_M2_L06",
-          "typeId": "N2-LIS-POINT",
-          "category": "Mondai 2: ポイント理解",
-          "script": "学習支援センターの職員が、予約変更について学生に説明しています。予約を変更できるのはいつまでですか。\n\n女：相談予約を変更したい場合は、予約日の前日正午までにサイトで手続きしてください。それを過ぎると、担当者に直接連絡しても変更できません。キャンセルした枠は、ほかの学生が申し込めるようになります。",
-          "stem": "学生はいつまでに予約を変更できますか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "予約日の前日夜まで"
-            },
-            {
-              "id": "B",
-              "text": "予約日の前日正午まで"
-            },
-            {
-              "id": "C",
-              "text": "予約開始の一時間前まで"
-            },
-            {
-              "id": "D",
-              "text": "相談が始まった後"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "予約の変更期限は、予約日の前日正午までと案内されています。",
-          "distractorExplanations": {
-            "A": "変更期限は前日正午です。",
-            "C": "前日の夜ではなく正午までです。",
-            "D": "開始後の変更はできないと説明されています。"
-          },
-          "skill": "Listening",
-          "explanationVi": "予約の変更期限は、予約日の前日正午までと案内されています。",
-          "audioUrl": "audio/n2_mock_08/N2_08_M2_L06.mp3",
-          "audioDurationSec": 44.888,
-          "audioSha256": "ec991fcb993f3ba4d4c105f6fd043ecc19e8d32675cdeaf3229caffdb436c83b",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_08_M3_L01",
-          "typeId": "N2-LIS-SUMM",
-          "category": "Mondai 3: 概要理解",
-          "script": "大学の公開講座で、研究者が人工知能について話しています。何について話していますか。\n\n女：機械学習は、大量の例から共通点を見つけるのが得意です。しかし、入力したデータに偏りがあれば、その偏りを反映した予測を出すことがあります。結果の数値だけを見て判断せず、どんなデータで学習したかを調べることが大切です。\n何について話していますか。",
-          "stem": "話者が最も伝えたいことは何ですか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "機械学習の結果は学習データと合わせて確かめるべきだ"
-            },
-            {
-              "id": "B",
-              "text": "人工知能は大量のデータを必要としない"
-            },
-            {
-              "id": "C",
-              "text": "予測の数値は常に人間より正確だ"
-            },
-            {
-              "id": "D",
-              "text": "機械学習の開発を中止すべきだ"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "話者は、予測の背後にある学習データの偏りを確認する必要性を述べています。",
-          "distractorExplanations": {
-            "B": "話者は技術を中止すべきとは言わず、データの偏りを確認するよう述べています。",
-            "C": "予測は学習データに左右されるため、常に正確とは述べていません。",
-            "D": "人工知能の開発停止を提案していません。"
-          },
-          "skill": "Listening",
-          "explanationVi": "話者は、予測の背後にある学習データの偏りを確認する必要性を述べています。",
-          "audioUrl": "audio/n2_mock_08/N2_08_M3_L01.mp3",
-          "audioDurationSec": 63.22,
-          "audioSha256": "15a528a170e46192637fbf4a419fde26e5ddf1eebed21e338a826a0db3dce5c5",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_08_M3_L02",
-          "typeId": "N2-LIS-SUMM",
-          "category": "Mondai 3: 概要理解",
-          "script": "大学図書館の職員が、電子資料の利用について案内しています。何について話していますか。\n\n男：電子資料は場所を選ばず読めるので便利ですが、契約によって同時に使える人数が限られています。利用中と表示されたときは、端末の故障とは限りません。少し時間を置くか、別の資料を探してください。\n何について話していますか。",
-          "stem": "職員が説明していることは何ですか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "図書館の電子資料を全て廃止する計画"
-            },
-            {
-              "id": "B",
-              "text": "電子資料の同時利用制限と、利用できないときの対応"
-            },
-            {
-              "id": "C",
-              "text": "端末を修理する窓口の場所"
-            },
-            {
-              "id": "D",
-              "text": "紙の本を電子資料に変える方法"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "電子資料の同時利用上限と、利用中表示が出たときの対処を説明しています。",
-          "distractorExplanations": {
-            "A": "同時利用制限はありますが、資料廃止の話ではありません。",
-            "C": "故障窓口の案内ではなく、利用中表示への対処です。",
-            "D": "紙の本を変換する話ではありません。"
-          },
-          "skill": "Listening",
-          "explanationVi": "電子資料の同時利用上限と、利用中表示が出たときの対処を説明しています。",
-          "audioUrl": "audio/n2_mock_08/N2_08_M3_L02.mp3",
-          "audioDurationSec": 58.948,
-          "audioSha256": "43575664e46d8c113b7a2fdc53bc93b65c8d7cba6f0d5b4a14dac03951563399",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_08_M3_L03",
-          "typeId": "N2-LIS-SUMM",
-          "category": "Mondai 3: 概要理解",
-          "script": "研究室の会議で、指導教員が実験結果について話しています。何について話していますか。\n\n男：今回の測定値は予想と違いましたが、すぐに失敗と決める必要はありません。まず機器の設定と試料の状態を確認しましょう。その上で、同じ実験を別の担当者にも行ってもらいます。結果が再現するかどうかを見てから、原因を考えます。\n何について話していますか。",
-          "stem": "教員が勧めていることは何ですか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "予想と違う結果を捨てること"
-            },
-            {
-              "id": "B",
-              "text": "一人の測定結果だけで結論を出すこと"
-            },
-            {
-              "id": "C",
-              "text": "再現性を確かめてから原因を判断すること"
-            },
-            {
-              "id": "D",
-              "text": "機器の設定を記録しないこと"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "予想外の結果を直ちに棄却せず、条件を確認して再現性を調べるよう勧めています。",
-          "distractorExplanations": {
-            "A": "予想外の値を捨てるようには言っていません。",
-            "B": "一人の結果でなく、別の担当者にも再現を確かめます。",
-            "D": "条件を記録しないのでなく、設定を確認します。"
-          },
-          "skill": "Listening",
-          "explanationVi": "予想外の結果を直ちに棄却せず、条件を確認して再現性を調べるよう勧めています。",
-          "audioUrl": "audio/n2_mock_08/N2_08_M3_L03.mp3",
-          "audioDurationSec": 59.74,
-          "audioSha256": "6d2ccfb4fff22978b2fe45347ef117dde04f689b725535de560a0eb4e1c5dcd4",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_08_M3_L04",
-          "typeId": "N2-LIS-SUMM",
-          "category": "Mondai 3: 概要理解",
-          "script": "オンライン授業の改善について、教員が報告しています。何について話していますか。\n\n女：動画を短く分けたところ、学生が必要な部分を見直しやすくなりました。ただ、動画を見ただけで内容を理解したかは分かりません。そこで各動画の後に短い問いを置き、次の授業では答えを説明し合う時間を作りました。視聴回数ではなく、どこでつまずいたかを見て授業を直したいと思います。\n何について話していますか。",
-          "stem": "報告者が重視していることは何ですか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "動画の長さを全て同じにすること"
-            },
-            {
-              "id": "B",
-              "text": "視聴回数を増やすこと"
-            },
-            {
-              "id": "C",
-              "text": "対面授業をなくすこと"
-            },
-            {
-              "id": "D",
-              "text": "学生の理解やつまずきを授業改善に生かすこと"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "動画は手段で、理解度やつまずきを次の授業に反映することが中心です。",
-          "distractorExplanations": {
-            "A": "動画の長さをそろえることは主題ではありません。",
-            "B": "再生回数だけで成果を測らないと述べています。",
-            "C": "対面授業の廃止は提案されていません。"
-          },
-          "skill": "Listening",
-          "explanationVi": "動画は手段で、理解度やつまずきを次の授業に反映することが中心です。",
-          "audioUrl": "audio/n2_mock_08/N2_08_M3_L04.mp3",
-          "audioDurationSec": 63.34,
-          "audioSha256": "841a66ec5ff4555e5a87f76d22822917511b91e0012d3d86c7a7ce0897c6dbba",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_08_M3_L05",
-          "typeId": "N2-LIS-SUMM",
-          "category": "Mondai 3: 概要理解",
-          "script": "研究参加者への説明について、研究者が学生に話しています。何について説明していますか。\n\n女：調査の目的だけでなく、参加しない選択をしても不利益がないことを伝えてください。質問の途中でもやめられること、集めた情報を誰が見るかも説明します。説明文を読んでもらい、分からない点がないか確認してから同意を得ましょう。\n何について話していますか。",
-          "stem": "研究者が説明している注意点は何ですか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "参加者が自由に選べることと、情報の扱いを事前に説明すること"
-            },
-            {
-              "id": "B",
-              "text": "調査に参加しない学生の成績を下げること"
-            },
-            {
-              "id": "C",
-              "text": "質問への回答を途中で変更させないこと"
-            },
-            {
-              "id": "D",
-              "text": "同意を得ずに情報を集めること"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "参加・撤回の自由と情報の取扱いを説明し、理解を確認してから同意を得ます。",
-          "distractorExplanations": {
-            "B": "不参加による不利益はないと説明するので、成績を下げる話ではありません。",
-            "C": "参加者は途中で撤回できます。",
-            "D": "同意を得てから調査を始めます。"
-          },
-          "skill": "Listening",
-          "explanationVi": "参加・撤回の自由と情報の取扱いを説明し、理解を確認してから同意を得ます。",
-          "audioUrl": "audio/n2_mock_08/N2_08_M3_L05.mp3",
-          "audioDurationSec": 63.58,
-          "audioSha256": "16f53dae30df7dd30ee4982dd77d8b639cdd84577c999842517b211007238ce3",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_08_M4_L01",
-          "typeId": "N2-LIS-RESP",
-          "category": "Mondai 4: 即時応答",
-          "script": "問題４、1番。\n男：この図、発表資料に使ってもいいですか。",
-          "stem": "この図、発表資料に使ってもいいですか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "はい、出典を明記すれば構いません。"
-            },
-            {
-              "id": "B",
-              "text": "その図は、発表の最後に載せると見やすいですよ。"
-            },
-            {
-              "id": "C",
-              "text": "図の説明は、口頭でも補ってください。"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "許可を求める質問に、条件付きで許可する返答です。",
-          "distractorExplanations": {
-            "B": "配置の助言には答えず、出典を示せば利用できるかという許可条件にも触れていません。",
-            "C": "説明方法の助言だけで、図を使ってよいかという許可には答えていません。"
-          },
-          "skill": "Listening",
-          "explanationVi": "許可を求める質問に、条件付きで許可する返答です。",
-          "audioUrl": "audio/n2_mock_08/N2_08_M4_L01.mp3",
-          "audioDurationSec": 26.788,
-          "audioSha256": "4b5935f512b8ba35f26cb74003c3026083f3d84d23f524a24aaa7ffff178775f",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_08_M4_L02",
-          "typeId": "N2-LIS-RESP",
-          "category": "Mondai 4: 即時応答",
-          "script": "問題４、2番。\n男：先生、先ほどの説明で分からないところがあったのですが。",
-          "stem": "先生、先ほどの説明で分からないところがあったのですが。",
-          "options": [
-            {
-              "id": "A",
-              "text": "資料の該当ページを、あとで送りますね。"
-            },
-            {
-              "id": "B",
-              "text": "どの部分ですか。もう一度説明しましょうか。"
-            },
-            {
-              "id": "C",
-              "text": "次の授業の質問時間に、まとめて聞いてください。"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "分からない点を伝えられたので、場所を尋ねて説明を申し出るのが自然です。",
-          "distractorExplanations": {
-            "A": "資料を送る申し出だけでは、説明のどの部分が分からないかという話に応じていません。",
-            "C": "質問の機会を案内するだけで、今の理解の難しさに直接応じていません。"
-          },
-          "skill": "Listening",
-          "explanationVi": "分からない点を伝えられたので、場所を尋ねて説明を申し出るのが自然です。",
-          "audioUrl": "audio/n2_mock_08/N2_08_M4_L02.mp3",
-          "audioDurationSec": 28.684,
-          "audioSha256": "28fefd81b296eb0591058618cc054f4aa302c27f33ea3897c7d0c2eebd6641c4",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_08_M4_L03",
-          "typeId": "N2-LIS-RESP",
-          "category": "Mondai 4: 即時応答",
-          "script": "問題４、3番。\n男：この装置は使用後、電源を切っておけばいいですか。",
-          "stem": "この装置は使用後、電源を切っておけばいいですか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "装置の点検日は、扉の内側に書いてあります。"
-            },
-            {
-              "id": "B",
-              "text": "使った時間を、記録簿に記入しておいてください。"
-            },
-            {
-              "id": "C",
-              "text": "いいえ、電源は入れたままにしてください。"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "装置の使用後の扱いを尋ねているので、電源についての指示が適切です。",
-          "distractorExplanations": {
-            "A": "点検日の案内であり、使用後の電源の扱いを示していません。",
-            "B": "使用記録の指示であり、使用後に電源を切るかという確認への返答ではありません。"
-          },
-          "skill": "Listening",
-          "explanationVi": "装置の使用後の扱いを尋ねているので、電源についての指示が適切です。",
-          "audioUrl": "audio/n2_mock_08/N2_08_M4_L03.mp3",
-          "audioDurationSec": 27.964,
-          "audioSha256": "13c1613ddb7d876bad97e25b026abdec27e0427eb5ef5bd0ca5f88ef50c0d041",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_08_M4_L04",
-          "typeId": "N2-LIS-RESP",
-          "category": "Mondai 4: 即時応答",
-          "script": "問題４、4番。\n男：共同発表の担当、私が図の説明をしてもよろしいでしょうか。",
-          "stem": "共同発表の担当、私が図の説明をしてもよろしいでしょうか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "はい、では私は背景の説明を担当します。"
-            },
-            {
-              "id": "B",
-              "text": "では、私はスライドの順番を確認しておきます。"
-            },
-            {
-              "id": "C",
-              "text": "図の出典は、資料の最後にまとめてください。"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "役割分担の申し出に、もう一方の担当を返す応答です。",
-          "distractorExplanations": {
-            "B": "別の準備作業を申し出ていますが、図の説明を担当してよいかへの返答ではありません。",
-            "C": "出典の記載方法を指示していますが、担当の申し出への返答ではありません。"
-          },
-          "skill": "Listening",
-          "explanationVi": "役割分担の申し出に、もう一方の担当を返す応答です。",
-          "audioUrl": "audio/n2_mock_08/N2_08_M4_L04.mp3",
-          "audioDurationSec": 29.38,
-          "audioSha256": "617d0857e29d3bd557982c01761c6b3f5fa40263cba54edfcb648909cad1141f",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_08_M4_L05",
-          "typeId": "N2-LIS-RESP",
-          "category": "Mondai 4: 即時応答",
-          "script": "問題４、5番。\n男：この論文、来週のゼミまでに全部読まないといけませんか。",
-          "stem": "この論文、来週のゼミまでに全部読まないといけませんか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "論文の要点は、ゼミで説明してください。"
-            },
-            {
-              "id": "B",
-              "text": "全部でなくても、担当箇所は読んできてください。"
-            },
-            {
-              "id": "C",
-              "text": "読んだ箇所には、付箋を貼っておいてください。"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "読む範囲を確認する質問に、担当箇所を読むよう答えるのが自然です。",
-          "distractorExplanations": {
-            "A": "発表の指示であり、ゼミまでに読む範囲を尋ねた質問への答えではありません。",
-            "C": "読み方の助言だけで、論文全体を読む必要があるかに答えていません。"
-          },
-          "skill": "Listening",
-          "explanationVi": "読む範囲を確認する質問に、担当箇所を読むよう答えるのが自然です。",
-          "audioUrl": "audio/n2_mock_08/N2_08_M4_L05.mp3",
-          "audioDurationSec": 27.508,
-          "audioSha256": "f21876057e98e5f3631624cd4aca18e83a234ef2f1f971001bd9aecc190434c8",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_08_M4_L06",
-          "typeId": "N2-LIS-RESP",
-          "category": "Mondai 4: 即時応答",
-          "script": "問題４、6番。\n男：すみません、学外からこのデータベースにアクセスできません。",
-          "stem": "すみません、学外からこのデータベースにアクセスできません。",
-          "options": [
-            {
-              "id": "A",
-              "text": "利用可能な時間帯は、図書館のサイトに載っています。"
-            },
-            {
-              "id": "B",
-              "text": "データベースの利用申請は、学期ごとに更新してください。"
-            },
-            {
-              "id": "C",
-              "text": "学内アカウントでログインしているか確認しましたか。"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "アクセスできないという相談なので、認証状態を確認する質問が適切です。",
-          "distractorExplanations": {
-            "A": "利用時間の案内では、学外から接続できない問題を解決できません。",
-            "B": "申請の更新案内であり、現在のログイン状態を確かめる助言ではありません。"
-          },
-          "skill": "Listening",
-          "explanationVi": "アクセスできないという相談なので、認証状態を確認する質問が適切です。",
-          "audioUrl": "audio/n2_mock_08/N2_08_M4_L06.mp3",
-          "audioDurationSec": 29.74,
-          "audioSha256": "9718014901778383a51ce70afd7bdc98bbcfb65dec9ee90ecb64b971fb65dc1e",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_08_M4_L07",
-          "typeId": "N2-LIS-RESP",
-          "category": "Mondai 4: 即時応答",
-          "script": "問題４、7番。\n男：発表の順番、先に決めてしまいましょうか。",
-          "stem": "発表の順番、先に決めてしまいましょうか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "そうですね。時間がかかりそうな人から決めましょう。"
-            },
-            {
-              "id": "B",
-              "text": "発表時間は一人十分です。"
-            },
-            {
-              "id": "C",
-              "text": "順番が決まったら、資料を共有フォルダに置いてください。"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "順番決めの提案に、決め方を提案する返答です。",
-          "distractorExplanations": {
-            "B": "持ち時間の案内だけでは、発表順を今決める提案への返答になりません。",
-            "C": "資料共有の指示で、順番の決め方を提案していません。"
-          },
-          "skill": "Listening",
-          "explanationVi": "順番決めの提案に、決め方を提案する返答です。",
-          "audioUrl": "audio/n2_mock_08/N2_08_M4_L07.mp3",
-          "audioDurationSec": 27.844,
-          "audioSha256": "2befca8dd1a14ea86cf2d5b0aea7ecaed885b3bdeb0f34e37d7576aef51f3b26",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_08_M4_L08",
-          "typeId": "N2-LIS-RESP",
-          "category": "Mondai 4: 即時応答",
-          "script": "問題４、8番。\n男：このグラフは、単位を明記したほうがいいでしょうか。",
-          "stem": "このグラフは、単位を明記したほうがいいでしょうか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "凡例には、各線が何を示すかも書いてください。"
-            },
-            {
-              "id": "B",
-              "text": "そうですね。値の意味が伝わりやすくなります。"
-            },
-            {
-              "id": "C",
-              "text": "目盛りの間隔をそろえると見やすくなります。"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "グラフ表記の確認に、単位を示す利点を述べる応答です。",
-          "distractorExplanations": {
-            "A": "凡例への助言ですが、単位を明記する利点について答えていません。",
-            "C": "目盛りについての助言で、単位の表示を確認した質問への返答ではありません。"
-          },
-          "skill": "Listening",
-          "explanationVi": "グラフ表記の確認に、単位を示す利点を述べる応答です。",
-          "audioUrl": "audio/n2_mock_08/N2_08_M4_L08.mp3",
-          "audioDurationSec": 27.772,
-          "audioSha256": "00ce9df4e7c324130bc360ca7649fcffa2ab42db32b352e8c2f12590daf76182",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_08_M4_L09",
-          "typeId": "N2-LIS-RESP",
-          "category": "Mondai 4: 即時応答",
-          "script": "問題４、9番。\n男：締切が明日だと気づかなくて、まだ申請していないんです。",
-          "stem": "締切が明日だと気づかなくて、まだ申請していないんです。",
-          "options": [
-            {
-              "id": "A",
-              "text": "添付書類はPDF形式で提出してください。"
-            },
-            {
-              "id": "B",
-              "text": "申請書の提出先は、教務課の窓口です。"
-            },
-            {
-              "id": "C",
-              "text": "それなら、今すぐ必要書類をそろえたほうがいいですよ。"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "申請が未完了だと聞き、急いで準備するよう助言するのが自然です。",
-          "distractorExplanations": {
-            "A": "提出形式の指示で、まず必要書類を急いでそろえる助言ではありません。",
-            "B": "提出先の案内だけでは、締切が明日で未申請という状況への助言になりません。"
-          },
-          "skill": "Listening",
-          "explanationVi": "申請が未完了だと聞き、急いで準備するよう助言するのが自然です。",
-          "audioUrl": "audio/n2_mock_08/N2_08_M4_L09.mp3",
-          "audioDurationSec": 29.38,
-          "audioSha256": "7128b7b63689006186af4440c36c98aac6cdaa8fcfb2a8e88cd9a41a1bbcb345",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_08_M4_L10",
-          "typeId": "N2-LIS-RESP",
-          "category": "Mondai 4: 即時応答",
-          "script": "問題４、10番。\n男：この説明、少し専門用語が多すぎませんか。",
-          "stem": "この説明、少し専門用語が多すぎませんか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "では、初めて聞く人にも分かる言葉に直しましょう。"
-            },
-            {
-              "id": "B",
-              "text": "専門用語を使うこと自体は、発表では大切です。"
-            },
-            {
-              "id": "C",
-              "text": "用語の意味は、質問があればその場で説明します。"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "分かりにくさの指摘に対して、表現を直す提案が適切です。",
-          "distractorExplanations": {
-            "B": "用語使用の是非に触れるだけで、説明を分かりやすく直す提案をしていません。",
-            "C": "質問後に説明する方針で、現在の説明を直す提案にはなっていません。"
-          },
-          "skill": "Listening",
-          "explanationVi": "分かりにくさの指摘に対して、表現を直す提案が適切です。",
-          "audioUrl": "audio/n2_mock_08/N2_08_M4_L10.mp3",
-          "audioDurationSec": 28.972,
-          "audioSha256": "33f9f5ff1fea68219c31586334d52bdc0160a134aafc2dad3ed43a03db6279d3",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_08_M4_L11",
-          "typeId": "N2-LIS-RESP",
-          "category": "Mondai 4: 即時応答",
-          "script": "問題４、11番。\n男：教授、実験の結果が予想と違っていたので、失敗だと思います。",
-          "stem": "教授、実験の結果が予想と違っていたので、失敗だと思います。",
-          "options": [
-            {
-              "id": "A",
-              "text": "予想した結果になるまで、測定を続けてみましょう。"
-            },
-            {
-              "id": "B",
-              "text": "そう決める前に、条件と測定手順を確かめてみましょう。"
-            },
-            {
-              "id": "C",
-              "text": "予想と異なる数値は、発表資料から外しておきましょう。"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "予想と異なるだけで失敗と決めず、条件を確認する返答が適切です。",
-          "distractorExplanations": {
-            "A": "予想に合わせて測定を続ける提案で、条件や手順を確かめる返答ではありません。",
-            "C": "異なる結果を隠す提案であり、結果の原因を確認する姿勢と異なります。"
-          },
-          "skill": "Listening",
-          "explanationVi": "予想と異なるだけで失敗と決めず、条件を確認する返答が適切です。",
-          "audioUrl": "audio/n2_mock_08/N2_08_M4_L11.mp3",
-          "audioDurationSec": 31.9,
-          "audioSha256": "992f88d970b4517378e28160455beeaccc914acc4e79124afc8b9f03bc9bea8b",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_08_M5_L01",
-          "typeId": "N2-LIS-INTEG",
-          "category": "Mondai 5: 統合理解",
-          "script": "大学の研究室で、教授と二人の学生が共同調査の進め方について話しています。\n\n女：来月の調査、現地に行く班とオンラインで聞き取りをする班に分ける案はどうでしょう。\n男：対象者の年齢によって、オンラインで答えやすい人とそうでない人がいます。まず、どちらの方法も選べるようにしてはどうですか。\n女：それだと結果を比べるときに方法の違いが影響しませんか。\n男：質問の順番と内容をそろえて、最初に回答方法を記録しておけば、後から違いを確かめられます。\n女：分かりました。では調査票を同じにして、対象者が方法を選べるように説明文を直します。\n質問：二人は調査方法をどうすることにしましたか。",
-          "stem": "二人は調査方法をどうすることにしましたか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "回答者が方法を選べるようにし、方法の違いを記録する"
-            },
-            {
-              "id": "B",
-              "text": "全員を現地調査に参加させる"
-            },
-            {
-              "id": "C",
-              "text": "オンライン回答だけに限定する"
-            },
-            {
-              "id": "D",
-              "text": "質問内容を方法ごとに変える"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "対象者が方法を選べるようにしつつ、同じ質問票を使い回答方法を記録します。",
-          "distractorExplanations": {
-            "B": "現地参加に限定せず、方法を選べるようにします。",
-            "C": "オンラインだけにも限定しません。",
-            "D": "質問内容は同じものを使います。"
-          },
-          "skill": "Listening",
-          "explanationVi": "対象者が方法を選べるようにしつつ、同じ質問票を使い回答方法を記録します。",
-          "audioUrl": "audio/n2_mock_08/N2_08_M5_L01.mp3",
-          "audioDurationSec": 63.084,
-          "audioSha256": "23eb8caf48d589e84b6bc8341273497cecad62a4be351b36333a41d822377dda",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_08_M5_L02",
-          "typeId": "N2-LIS-INTEG",
-          "category": "Mondai 5: 統合理解",
-          "script": "大学の授業改善会議で、教員二人が講義動画の活用について話しています。\n\n男：先月、講義動画を公開したら、再生回数は予想以上でした。これで学生の理解も進んだと言えるでしょうか。\n女：再生回数だけでは分かりません。確認問題の正答率を見ると、用語の説明で間違いが集中しています。\n男：では、動画を長くして説明を増やしますか。\n女：長くするより、用語を図で示して、授業で学生に例を作ってもらいましょう。問題の結果は次の回の説明に使えます。\n男：それなら動画は今の長さのままにして、次回の授業案を直します。\n質問：教員は次に何をしますか。",
-          "stem": "教員は次に何をしますか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "動画を大幅に長くする"
-            },
-            {
-              "id": "B",
-              "text": "図と例を使う授業にし、確認問題の結果を生かす"
-            },
-            {
-              "id": "C",
-              "text": "動画の公開をやめる"
-            },
-            {
-              "id": "D",
-              "text": "再生回数だけを成果として報告する"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "動画の長さは変えず、理解の誤りに合わせて図示と例づくりを授業に入れます。",
-          "distractorExplanations": {
-            "A": "動画は今の長さのままにすると決めています。",
-            "C": "公開は続け、次の授業案を改善します。",
-            "D": "再生回数だけでは理解を判断できないと話しています。"
-          },
-          "skill": "Listening",
-          "explanationVi": "動画の長さは変えず、理解の誤りに合わせて図示と例づくりを授業に入れます。",
-          "audioUrl": "audio/n2_mock_08/N2_08_M5_L02.mp3",
-          "audioDurationSec": 59.868,
-          "audioSha256": "ee676545ec038fe0c50546016f00c6d58362226fb12d4edbdf23130c85ae73dc",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_08_M5_L03",
-          "typeId": "N2-LIS-INTEG",
-          "category": "Mondai 5: 統合理解",
-          "script": "研究発表の準備について、大学院生と指導教員が話しています。\n\n女：発表スライドは完成しました。結論を一枚目に置いたので、短い時間でも伝わると思います。\n男：結論は分かりやすいね。ただ、結果がどの条件で得られたのか、説明が少ない。\n女：時間が限られているので、条件は補足資料に移しましょうか。\n男：聴衆が結論を評価するには、主要な条件は本編にも必要だよ。細かい数値は補足にして、比較した条件だけ一枚追加しよう。\n女：では、結果の前に条件のスライドを入れて、細かい数値は最後にまとめます。\n質問：女性はスライドをどう直しますか。",
-          "stem": "女性はスライドをどう直しますか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "結論を削除し、全ての数値を本編に入れる"
-            },
-            {
-              "id": "B",
-              "text": "条件の説明を全て口頭だけにする"
-            },
-            {
-              "id": "C",
-              "text": "比較条件を本編に一枚加え、細かい数値は補足にする"
-            },
-            {
-              "id": "D",
-              "text": "結果を出す前に調査をやり直す"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "評価に必要な比較条件を本編に加え、細部の数値は補足資料へ移します。",
-          "distractorExplanations": {
-            "A": "結論は残します。全ての数値を本編に入れるのではありません。",
-            "B": "条件の一部は本編に図示します。",
-            "D": "調査をやり直す話ではありません。"
-          },
-          "skill": "Listening",
-          "explanationVi": "評価に必要な比較条件を本編に加え、細部の数値は補足資料へ移します。",
-          "audioUrl": "audio/n2_mock_08/N2_08_M5_L03.mp3",
-          "audioDurationSec": 59.076,
-          "audioSha256": "8cfbda2dfa8237940d7d815140e7d3ae6057a1ade0761a3a0e5ffd0ebc39fbc8",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        }
-      ]
-    }
-  ]
-},
-  'N2-MOCK-09': {
-  "examId": "N2-MOCK-09",
-  "title": "JLPT N2 Full Mock Exam #09 — Đề thi thử hoàn chỉnh (Kiến thức ngôn ngữ, Đọc hiểu & Nghe hiểu)",
-  "level": "N2",
-  "status": "FULL_MOCK",
-  "durationMinutes": 155,
-  "totalQuestions": 105,
-  "sections": [
-    {
-      "sectionId": "sec-1",
-      "sectionName": "Phần 1: Kiến thức ngôn ngữ & Đọc hiểu (Language Knowledge & Reading)",
-      "durationMinutes": 105,
-      "itemCount": 75,
-      "items": [
-        {
-          "id": "N2_09_M1_01",
-          "typeId": "N2-MO-READ",
-          "category": "Mondai 1: 漢字読み",
-          "stem": "自治体は住民の意見を【反映】して計画を修正した。",
-          "options": [
-            {
-              "id": "A",
-              "text": "はんえい"
-            },
-            {
-              "id": "B",
-              "text": "はんよう"
-            },
-            {
-              "id": "C",
-              "text": "ばんえい"
-            },
-            {
-              "id": "D",
-              "text": "はんえ"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "反映（はんえい）は、意見などを計画や結果に表すことです。",
-          "distractorExplanations": {
-            "B": "映を『よう』とは読みません。",
-            "C": "反は『はん』と読みます。",
-            "D": "映の長音を落とした読みです。"
-          },
-          "targetWord": "反映",
-          "skill": "Language Knowledge",
-          "explanationVi": "反映（はんえい）は、意見などを計画や結果に表すことです。"
-        },
-        {
-          "id": "N2_09_M1_02",
-          "typeId": "N2-MO-READ",
-          "category": "Mondai 1: 漢字読み",
-          "stem": "世代間の【隔たり】を縮めるには、対話の機会が必要だ。",
-          "options": [
-            {
-              "id": "A",
-              "text": "かくたり"
-            },
-            {
-              "id": "B",
-              "text": "へだたり"
-            },
-            {
-              "id": "C",
-              "text": "へたり"
-            },
-            {
-              "id": "D",
-              "text": "かたり"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "隔たり（へだたり）は、二者の間にある差や距離です。",
-          "distractorExplanations": {
-            "A": "『かく』は音読みで、この語の読みではありません。",
-            "C": "『へだ』の一部を落としています。",
-            "D": "最初の『へだ』を正しく読めていません。"
-          },
-          "targetWord": "隔たり",
-          "skill": "Language Knowledge",
-          "explanationVi": "隔たり（へだたり）は、二者の間にある差や距離です。"
-        },
-        {
-          "id": "N2_09_M1_03",
-          "typeId": "N2-MO-READ",
-          "category": "Mondai 1: 漢字読み",
-          "stem": "商店街の空き店舗が増え、地域の活気が【衰退】している。",
-          "options": [
-            {
-              "id": "A",
-              "text": "しゅうたい"
-            },
-            {
-              "id": "B",
-              "text": "すいだい"
-            },
-            {
-              "id": "C",
-              "text": "そたい"
-            },
-            {
-              "id": "D",
-              "text": "すいたい"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "衰退（すいたい）は、勢いや規模が弱くなることです。",
-          "distractorExplanations": {
-            "A": "二字の音読みを取り違えています。",
-            "B": "退は濁らず『たい』です。",
-            "C": "衰の読みは『すい』です。"
-          },
-          "targetWord": "衰退",
-          "skill": "Language Knowledge",
-          "explanationVi": "衰退（すいたい）は、勢いや規模が弱くなることです。"
-        },
-        {
-          "id": "N2_09_M1_04",
-          "typeId": "N2-MO-READ",
-          "category": "Mondai 1: 漢字読み",
-          "stem": "この制度を【維持】するには、安定した財源が欠かせない。",
-          "options": [
-            {
-              "id": "A",
-              "text": "いじ"
-            },
-            {
-              "id": "B",
-              "text": "ゆいじ"
-            },
-            {
-              "id": "C",
-              "text": "いち"
-            },
-            {
-              "id": "D",
-              "text": "いし"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "維持（いじ）は、状態を保ち続けることです。",
-          "distractorExplanations": {
-            "B": "維はこの熟語で『い』と読みます。",
-            "C": "持は『じ』です。",
-            "D": "濁音を清音にした誤りです。"
-          },
-          "targetWord": "維持",
-          "skill": "Language Knowledge",
-          "explanationVi": "維持（いじ）は、状態を保ち続けることです。"
-        },
-        {
-          "id": "N2_09_M1_05",
-          "typeId": "N2-MO-READ",
-          "category": "Mondai 1: 漢字読み",
-          "stem": "議論の【焦点】がずれないよう、最初に論点を整理した。",
-          "options": [
-            {
-              "id": "A",
-              "text": "しょうでん"
-            },
-            {
-              "id": "B",
-              "text": "しょうてん"
-            },
-            {
-              "id": "C",
-              "text": "しゅうてん"
-            },
-            {
-              "id": "D",
-              "text": "しょうて"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "焦点（しょうてん）は、議論などの中心となる点です。",
-          "distractorExplanations": {
-            "A": "点は濁らず『てん』です。",
-            "C": "焦の読みは『しょう』です。",
-            "D": "点の『ん』が必要です。"
-          },
-          "targetWord": "焦点",
-          "skill": "Language Knowledge",
-          "explanationVi": "焦点（しょうてん）は、議論などの中心となる点です。"
-        },
-        {
-          "id": "N2_09_M2_01",
-          "typeId": "N2-MO-ORTH",
-          "category": "Mondai 2: 表記",
-          "stem": "世代間の価値観の違いを【ちょうせい】する場が設けられた。",
-          "options": [
-            {
-              "id": "A",
-              "text": "聴政"
-            },
-            {
-              "id": "B",
-              "text": "調製"
-            },
-            {
-              "id": "C",
-              "text": "長勢"
-            },
-            {
-              "id": "D",
-              "text": "調整"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "意見や条件を整える意味なので『調整』です。",
-          "distractorExplanations": {
-            "A": "聴政は政治を聴くことを指す古い語です。",
-            "B": "調製は材料を調合して作ることです。",
-            "C": "この意味の標準表記ではありません。"
-          },
-          "targetWord": "ちょうせい",
-          "skill": "Language Knowledge",
-          "explanationVi": "意見や条件を整える意味なので『調整』です。"
-        },
-        {
-          "id": "N2_09_M2_02",
-          "typeId": "N2-MO-ORTH",
-          "category": "Mondai 2: 表記",
-          "stem": "来場者が集中しないよう、入館時間を【ぶんさん】させた。",
-          "options": [
-            {
-              "id": "A",
-              "text": "分散"
-            },
-            {
-              "id": "B",
-              "text": "分担"
-            },
-            {
-              "id": "C",
-              "text": "分断"
-            },
-            {
-              "id": "D",
-              "text": "分譲"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "人の集中を避け、別々の時間に分けるので『分散』です。",
-          "distractorExplanations": {
-            "B": "分担は仕事を割り振ることです。",
-            "C": "分断はつながりを切ることです。",
-            "D": "分譲は土地や建物を分けて売ることです。"
-          },
-          "targetWord": "ぶんさん",
-          "skill": "Language Knowledge",
-          "explanationVi": "人の集中を避け、別々の時間に分けるので『分散』です。"
-        },
-        {
-          "id": "N2_09_M2_03",
-          "typeId": "N2-MO-ORTH",
-          "category": "Mondai 2: 表記",
-          "stem": "会議では、反対意見も含めて記録を【こうへい】に残す。",
-          "options": [
-            {
-              "id": "A",
-              "text": "公表"
-            },
-            {
-              "id": "B",
-              "text": "公平"
-            },
-            {
-              "id": "C",
-              "text": "工兵"
-            },
-            {
-              "id": "D",
-              "text": "好評"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "偏りなく記録する意味は『公平』です。",
-          "distractorExplanations": {
-            "A": "公表は外部へ発表することです。",
-            "C": "工兵は軍隊の兵科名です。",
-            "D": "好評は高い評価を受けることです。"
-          },
-          "targetWord": "こうへい",
-          "skill": "Language Knowledge",
-          "explanationVi": "偏りなく記録する意味は『公平』です。"
-        },
-        {
-          "id": "N2_09_M2_04",
-          "typeId": "N2-MO-ORTH",
-          "category": "Mondai 2: 表記",
-          "stem": "商店街では、地域の【とくしょく】を生かした催しを開いた。",
-          "options": [
-            {
-              "id": "A",
-              "text": "特食"
-            },
-            {
-              "id": "B",
-              "text": "特職"
-            },
-            {
-              "id": "C",
-              "text": "得色"
-            },
-            {
-              "id": "D",
-              "text": "特色"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "その地域ならではの性質は『特色』です。",
-          "distractorExplanations": {
-            "A": "特食はここで使う語ではありません。",
-            "B": "この意味の標準表記ではありません。",
-            "C": "得色は一般的な表記ではありません。"
-          },
-          "targetWord": "とくしょく",
-          "skill": "Language Knowledge",
-          "explanationVi": "その地域ならではの性質は『特色』です。"
-        },
-        {
-          "id": "N2_09_M2_05",
-          "typeId": "N2-MO-ORTH",
-          "category": "Mondai 2: 表記",
-          "stem": "市は災害時の情報提供を【じゅうじつ】させる方針だ。",
-          "options": [
-            {
-              "id": "A",
-              "text": "充実"
-            },
-            {
-              "id": "B",
-              "text": "重日"
-            },
-            {
-              "id": "C",
-              "text": "従実"
-            },
-            {
-              "id": "D",
-              "text": "充日"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "内容や機能を豊かにする意味は『充実』です。",
-          "distractorExplanations": {
-            "B": "この語の表記ではありません。",
-            "C": "この意味の熟語として使いません。",
-            "D": "標準的な表記ではありません。"
-          },
-          "targetWord": "じゅうじつ",
-          "skill": "Language Knowledge",
-          "explanationVi": "内容や機能を豊かにする意味は『充実』です。"
-        },
-        {
-          "id": "N2_09_M3_01",
-          "typeId": "N2-MO-FORM",
-          "category": "Mondai 3: 語形成",
-          "stem": "人口が減る地域では、若い世代の【（　）流出】を防ぐ施策が課題だ。",
-          "options": [
-            {
-              "id": "A",
-              "text": "逆"
-            },
-            {
-              "id": "B",
-              "text": "人口"
-            },
-            {
-              "id": "C",
-              "text": "未"
-            },
-            {
-              "id": "D",
-              "text": "再"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "人が地域の外へ移る現象は『人口流出』です。",
-          "distractorExplanations": {
-            "A": "逆流出とは言いません。",
-            "C": "未流出は標準的な語ではありません。",
-            "D": "再流出は一度出た人が再び出る意味となり文脈に合いません。"
-          },
-          "targetWord": "人口流出",
-          "skill": "Language Knowledge",
-          "explanationVi": "人が地域の外へ移る現象は『人口流出』です。"
-        },
-        {
-          "id": "N2_09_M3_02",
-          "typeId": "N2-MO-FORM",
-          "category": "Mondai 3: 語形成",
-          "stem": "文化施設の管理を複数の団体で担う【共同（　）】が始まった。",
-          "options": [
-            {
-              "id": "A",
-              "text": "運送"
-            },
-            {
-              "id": "B",
-              "text": "運転"
-            },
-            {
-              "id": "C",
-              "text": "運用"
-            },
-            {
-              "id": "D",
-              "text": "運営"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "団体が協力して施設を管理するので『共同運営』です。",
-          "distractorExplanations": {
-            "A": "運送は物を運ぶことです。",
-            "B": "運転は機械や車を動かすことです。",
-            "C": "運用は仕組みを実際に使うことです。"
-          },
-          "targetWord": "共同運営",
-          "skill": "Language Knowledge",
-          "explanationVi": "団体が協力して施設を管理するので『共同運営』です。"
-        },
-        {
-          "id": "N2_09_M3_03",
-          "typeId": "N2-MO-FORM",
-          "category": "Mondai 3: 語形成",
-          "stem": "住民の声を政策に取り入れるため、【市民（　）】の場を設けた。",
-          "options": [
-            {
-              "id": "A",
-              "text": "参加"
-            },
-            {
-              "id": "B",
-              "text": "参照"
-            },
-            {
-              "id": "C",
-              "text": "参列"
-            },
-            {
-              "id": "D",
-              "text": "参入"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "市民が議論や決定に加わることは『市民参加』です。",
-          "distractorExplanations": {
-            "B": "参照は資料などを見比べることです。",
-            "C": "参列は式典などに出席することです。",
-            "D": "参入は市場などに入ることです。"
-          },
-          "targetWord": "市民参加",
-          "skill": "Language Knowledge",
-          "explanationVi": "市民が議論や決定に加わることは『市民参加』です。"
-        },
-        {
-          "id": "N2_09_M3_04",
-          "typeId": "N2-MO-FORM",
-          "category": "Mondai 3: 語形成",
-          "stem": "商店街では、店主と学生による【新（　）】の企画が話題になった。",
-          "options": [
-            {
-              "id": "A",
-              "text": "商店"
-            },
-            {
-              "id": "B",
-              "text": "商品"
-            },
-            {
-              "id": "C",
-              "text": "商談"
-            },
-            {
-              "id": "D",
-              "text": "商業"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "新しく売り出す品は『新商品』です。",
-          "distractorExplanations": {
-            "A": "新商店は新しい店を指し、品物ではありません。",
-            "C": "商談は取引についての話し合いです。",
-            "D": "商業は売買を行う活動全体です。"
-          },
-          "targetWord": "新商品",
-          "skill": "Language Knowledge",
-          "explanationVi": "新しく売り出す品は『新商品』です。"
-        },
-        {
-          "id": "N2_09_M3_05",
-          "typeId": "N2-MO-FORM",
-          "category": "Mondai 3: 語形成",
-          "stem": "複数の言語で行政情報を出す【多（　）】対応が求められる。",
-          "options": [
-            {
-              "id": "A",
-              "text": "言行"
-            },
-            {
-              "id": "B",
-              "text": "言論"
-            },
-            {
-              "id": "C",
-              "text": "言葉"
-            },
-            {
-              "id": "D",
-              "text": "言語"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "複数の言語を使うことは『多言語』です。",
-          "distractorExplanations": {
-            "A": "言行は言葉と行動です。",
-            "B": "言論は意見を述べることです。",
-            "C": "言葉は発話や語句の意味が広く、固定語は多言語です。"
-          },
-          "targetWord": "多言語",
-          "skill": "Language Knowledge",
-          "explanationVi": "複数の言語を使うことは『多言語』です。"
-        },
-        {
-          "id": "N2_09_M4_01",
-          "typeId": "N2-MO-CONT",
-          "category": "Mondai 4: 文脈規定",
-          "stem": "利用者の希望を聞き、複数の案から現実的な方法を（　）した。",
-          "options": [
-            {
-              "id": "A",
-              "text": "選択"
-            },
-            {
-              "id": "B",
-              "text": "圧縮"
-            },
-            {
-              "id": "C",
-              "text": "分離"
-            },
-            {
-              "id": "D",
-              "text": "反省"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "条件に合う案を選ぶので『選択』です。",
-          "distractorExplanations": {
-            "B": "圧縮は小さくまとめることです。",
-            "C": "分離は一つのものを分けることです。",
-            "D": "反省は自分の行為を振り返ることです。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "条件に合う案を選ぶので『選択』です。"
-        },
-        {
-          "id": "N2_09_M4_02",
-          "typeId": "N2-MO-CONT",
-          "category": "Mondai 4: 文脈規定",
-          "stem": "駅前の工事について、利用者への説明が十分でなく、苦情が（　）した。",
-          "options": [
-            {
-              "id": "A",
-              "text": "交替"
-            },
-            {
-              "id": "B",
-              "text": "続出"
-            },
-            {
-              "id": "C",
-              "text": "維持"
-            },
-            {
-              "id": "D",
-              "text": "反射"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "『苦情が続出した』は、苦情が次々に出たという意味です。",
-          "distractorExplanations": {
-            "A": "交替は担当や位置が入れ替わることです。",
-            "C": "維持は状態を保つことです。",
-            "D": "反射は光などが跳ね返ることです。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "『苦情が続出した』は、苦情が次々に出たという意味です。"
-        },
-        {
-          "id": "N2_09_M4_03",
-          "typeId": "N2-MO-CONT",
-          "category": "Mondai 4: 文脈規定",
-          "stem": "祭りの準備では、経験の長い人だけでなく、初参加の人の意見も（　）した。",
-          "options": [
-            {
-              "id": "A",
-              "text": "省略"
-            },
-            {
-              "id": "B",
-              "text": "回収"
-            },
-            {
-              "id": "C",
-              "text": "尊重"
-            },
-            {
-              "id": "D",
-              "text": "誤解"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "意見を大切に扱うので『尊重』です。",
-          "distractorExplanations": {
-            "A": "省略は一部を省くことです。",
-            "B": "回収は配布物などを集めることです。",
-            "D": "誤解は意味を取り違えることです。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "意見を大切に扱うので『尊重』です。"
-        },
-        {
-          "id": "N2_09_M4_04",
-          "typeId": "N2-MO-CONT",
-          "category": "Mondai 4: 文脈規定",
-          "stem": "資料の数字だけでは判断できないため、聞き取り結果も（　）して検討した。",
-          "options": [
-            {
-              "id": "A",
-              "text": "解消"
-            },
-            {
-              "id": "B",
-              "text": "拒否"
-            },
-            {
-              "id": "C",
-              "text": "予測"
-            },
-            {
-              "id": "D",
-              "text": "考慮"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "別の情報も判断材料に含めるので『考慮』です。",
-          "distractorExplanations": {
-            "A": "解消は問題などをなくすことです。",
-            "B": "拒否は受け入れないことです。",
-            "C": "予測は先のことを見積もることです。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "別の情報も判断材料に含めるので『考慮』です。"
-        },
-        {
-          "id": "N2_09_M4_05",
-          "typeId": "N2-MO-CONT",
-          "category": "Mondai 4: 文脈規定",
-          "stem": "担当者が変わるたびに手続きが異なる状態を、共通の手順で（　）した。",
-          "options": [
-            {
-              "id": "A",
-              "text": "統一"
-            },
-            {
-              "id": "B",
-              "text": "拡張"
-            },
-            {
-              "id": "C",
-              "text": "分裂"
-            },
-            {
-              "id": "D",
-              "text": "延期"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "ばらつきを同じ手順にそろえるので『統一』です。",
-          "distractorExplanations": {
-            "B": "拡張は範囲を広げることです。",
-            "C": "分裂は一つのものが分かれることです。",
-            "D": "延期は予定を後にずらすことです。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "ばらつきを同じ手順にそろえるので『統一』です。"
-        },
-        {
-          "id": "N2_09_M4_06",
-          "typeId": "N2-MO-CONT",
-          "category": "Mondai 4: 文脈規定",
-          "stem": "対立する意見の背景を聞いたことで、議論の目的が少しずつ（　）になった。",
-          "options": [
-            {
-              "id": "A",
-              "text": "平等"
-            },
-            {
-              "id": "B",
-              "text": "明確"
-            },
-            {
-              "id": "C",
-              "text": "急速"
-            },
-            {
-              "id": "D",
-              "text": "大量"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "目的がはっきりしてきたので『明確』です。",
-          "distractorExplanations": {
-            "A": "平等は差をつけないことです。",
-            "C": "急速は進み方が速いことです。",
-            "D": "大量は量が多いことです。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "目的がはっきりしてきたので『明確』です。"
-        },
-        {
-          "id": "N2_09_M4_07",
-          "typeId": "N2-MO-CONT",
-          "category": "Mondai 4: 文脈規定",
-          "stem": "この制度は一部の人に負担が偏る可能性があり、導入には慎重な（　）が必要だ。",
-          "options": [
-            {
-              "id": "A",
-              "text": "分配"
-            },
-            {
-              "id": "B",
-              "text": "観察"
-            },
-            {
-              "id": "C",
-              "text": "判断"
-            },
-            {
-              "id": "D",
-              "text": "到着"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "利害やリスクを考えて決定するため『判断』です。",
-          "distractorExplanations": {
-            "A": "分配は物や役割を分けることです。",
-            "B": "観察は様子を注意して見ることです。",
-            "D": "到着は目的地に着くことです。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "利害やリスクを考えて決定するため『判断』です。"
-        },
-        {
-          "id": "N2_09_M5_01",
-          "typeId": "N2-MO-PARA",
-          "category": "Mondai 5: 言い換え類義",
-          "stem": "市は住民の要望を【踏まえて】、案内方法を見直した。",
-          "options": [
-            {
-              "id": "A",
-              "text": "取り消して"
-            },
-            {
-              "id": "B",
-              "text": "反対して"
-            },
-            {
-              "id": "C",
-              "text": "先送りして"
-            },
-            {
-              "id": "D",
-              "text": "参考にして"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "踏まえては、事情や意見を考慮して行動することです。",
-          "distractorExplanations": {
-            "A": "取り消しては決定を無効にする意味です。",
-            "B": "反対しては意見を受け入れない意味です。",
-            "C": "先送りしては決定を後に延ばす意味です。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "踏まえては、事情や意見を考慮して行動することです。"
-        },
-        {
-          "id": "N2_09_M5_02",
-          "typeId": "N2-MO-PARA",
-          "category": "Mondai 5: 言い換え類義",
-          "stem": "参加者の意見を【募った】ところ、多くの提案が寄せられた。",
-          "options": [
-            {
-              "id": "A",
-              "text": "広く集めた"
-            },
-            {
-              "id": "B",
-              "text": "一つにまとめた"
-            },
-            {
-              "id": "C",
-              "text": "厳しく批判した"
-            },
-            {
-              "id": "D",
-              "text": "細かく分けた"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "募るは広く呼びかけて集めることです。",
-          "distractorExplanations": {
-            "B": "まとめたは複数を整理して一つにすることです。",
-            "C": "批判したは問題点を指摘することです。",
-            "D": "分けたは分類・分割することです。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "募るは広く呼びかけて集めることです。"
-        },
-        {
-          "id": "N2_09_M5_03",
-          "typeId": "N2-MO-PARA",
-          "category": "Mondai 5: 言い換え類義",
-          "stem": "旧来の制度を【見直す】時期に来ている。",
-          "options": [
-            {
-              "id": "A",
-              "text": "そのまま続ける"
-            },
-            {
-              "id": "B",
-              "text": "改めて検討する"
-            },
-            {
-              "id": "C",
-              "text": "早く知らせる"
-            },
-            {
-              "id": "D",
-              "text": "完全に廃止する"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "見直すはもう一度検討し、必要なら改めることです。",
-          "distractorExplanations": {
-            "A": "続けるだけでは再検討を含みません。",
-            "C": "知らせるは伝達で意味が違います。",
-            "D": "廃止は見直しの一つの結論にすぎません。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "見直すはもう一度検討し、必要なら改めることです。"
-        },
-        {
-          "id": "N2_09_M5_04",
-          "typeId": "N2-MO-PARA",
-          "category": "Mondai 5: 言い換え類義",
-          "stem": "二つの案には、費用の面で【大差がない】。",
-          "options": [
-            {
-              "id": "A",
-              "text": "費用がかからない"
-            },
-            {
-              "id": "B",
-              "text": "同じ目的がない"
-            },
-            {
-              "id": "C",
-              "text": "大きな違いがない"
-            },
-            {
-              "id": "D",
-              "text": "片方が優れている"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "大差がないは差が大きくないという意味です。",
-          "distractorExplanations": {
-            "A": "費用がゼロだとは言っていません。",
-            "B": "目的の一致は述べていません。",
-            "D": "優劣の結論はありません。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "大差がないは差が大きくないという意味です。"
-        },
-        {
-          "id": "N2_09_M5_05",
-          "typeId": "N2-MO-PARA",
-          "category": "Mondai 5: 言い換え類義",
-          "stem": "説明会の参加者は、予想を【上回った】。",
-          "options": [
-            {
-              "id": "A",
-              "text": "予想を取り消した"
-            },
-            {
-              "id": "B",
-              "text": "予想と同じだった"
-            },
-            {
-              "id": "C",
-              "text": "予想に届かなかった"
-            },
-            {
-              "id": "D",
-              "text": "予想より多かった"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "上回るは基準・予想より多い、または高いことです。",
-          "distractorExplanations": {
-            "A": "予想を取り消す意味ではありません。",
-            "B": "同じなら上回ったとは言いません。",
-            "C": "届かなかったは反対の関係です。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "上回るは基準・予想より多い、または高いことです。"
-        },
-        {
-          "id": "N2_09_M6_01",
-          "typeId": "N2-MO-USE",
-          "category": "Mondai 6: 用法",
-          "stem": "『促す』の使い方として最もよいものはどれか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "係員は列が進むよう、次の人に前へ進むことを促した。"
-            },
-            {
-              "id": "B",
-              "text": "雨が降ったので、道路が促してぬれた。"
-            },
-            {
-              "id": "C",
-              "text": "彼は本を促して棚に戻した。"
-            },
-            {
-              "id": "D",
-              "text": "会議の開始時刻を促して午後に変更した。"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "促すは相手に行動するよう働きかけることで、Aが自然です。",
-          "distractorExplanations": {
-            "B": "道路がぬれる原因を『促す』とは言いません。",
-            "C": "本を棚に戻す動作には使いません。",
-            "D": "時刻変更は促すの目的語になりません。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "促すは相手に行動するよう働きかけることで、Aが自然です。"
-        },
-        {
-          "id": "N2_09_M6_02",
-          "typeId": "N2-MO-USE",
-          "category": "Mondai 6: 用法",
-          "stem": "『偏る』の使い方として最もよいものはどれか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "彼は駅へ偏って歩いた。"
-            },
-            {
-              "id": "B",
-              "text": "この調査は若い世代の回答に偏っている。"
-            },
-            {
-              "id": "C",
-              "text": "机の上の紙が偏って読めた。"
-            },
-            {
-              "id": "D",
-              "text": "会議は六時に偏って始まった。"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "偏るは一方に集中してバランスを欠くことで、Aが適切です。",
-          "distractorExplanations": {
-            "A": "移動先を表す動詞ではありません。",
-            "C": "読める状態を表しません。",
-            "D": "時刻に始まる意味では使いません。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "偏るは一方に集中してバランスを欠くことで、Aが適切です。"
-        },
-        {
-          "id": "N2_09_M6_03",
-          "typeId": "N2-MO-USE",
-          "category": "Mondai 6: 用法",
-          "stem": "『担う』の使い方として最もよいものはどれか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "道の角を担って右へ曲がった。"
-            },
-            {
-              "id": "B",
-              "text": "寒さを担って上着を着た。"
-            },
-            {
-              "id": "C",
-              "text": "地域の防災を担う団体が、訓練を企画した。"
-            },
-            {
-              "id": "D",
-              "text": "資料を担って読めるようにした。"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "担うは責任・役割を引き受けることで、Aが自然です。",
-          "distractorExplanations": {
-            "A": "曲がる方向を示しません。",
-            "B": "寒さを感じることに使いません。",
-            "D": "資料を読む行為とも結びつきません。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "担うは責任・役割を引き受けることで、Aが自然です。"
-        },
-        {
-          "id": "N2_09_M6_04",
-          "typeId": "N2-MO-USE",
-          "category": "Mondai 6: 用法",
-          "stem": "『見込む』の使い方として最もよいものはどれか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "会場を見込んで祭りを始めた。"
-            },
-            {
-              "id": "B",
-              "text": "彼は窓を見込んで閉めた。"
-            },
-            {
-              "id": "C",
-              "text": "係員は切符を見込んで改札を通った。"
-            },
-            {
-              "id": "D",
-              "text": "市は来年度、利用者が増えると見込んでいる。"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "見込むは将来の数量・状況を予想することで、Aが適切です。",
-          "distractorExplanations": {
-            "A": "会場を準備する意味でもありません。",
-            "B": "窓を見る意味は『見込む』ではありません。",
-            "C": "切符を使う意味ではありません。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "見込むは将来の数量・状況を予想することで、Aが適切です。"
-        },
-        {
-          "id": "N2_09_M6_05",
-          "typeId": "N2-MO-USE",
-          "category": "Mondai 6: 用法",
-          "stem": "『和らぐ』の使い方として最もよいものはどれか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "話し合いの後、両者の緊張が少し和らいだ。"
-            },
-            {
-              "id": "B",
-              "text": "彼は意見を和らいで提出した。"
-            },
-            {
-              "id": "C",
-              "text": "橋が和らいで渡りやすくなった。"
-            },
-            {
-              "id": "D",
-              "text": "荷物を和らいで運んだ。"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "和らぐは緊張・痛み・気候などの程度が弱くなることです。",
-          "distractorExplanations": {
-            "B": "意見を柔らかくするなら『和らげる』などを使います。",
-            "C": "橋の構造には使いません。",
-            "D": "荷物を運ぶ動作には使いません。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "和らぐは緊張・痛み・気候などの程度が弱くなることです。"
-        },
-        {
-          "id": "N2_09_M7_01",
-          "typeId": "N2-GR-FORM",
-          "category": "Mondai 7: 文法形式の判断",
-          "stem": "住民の意見を聞く（　）、計画の弱点が見えてきた。",
-          "options": [
-            {
-              "id": "A",
-              "text": "にとって"
-            },
-            {
-              "id": "B",
-              "text": "につれて"
-            },
-            {
-              "id": "C",
-              "text": "を問わず"
-            },
-            {
-              "id": "D",
-              "text": "に先立って"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "聞き取りの進行とともに変化したので『につれて』です。",
-          "distractorExplanations": {
-            "A": "立場・評価の基準になりません。",
-            "C": "条件に関係しない意味ではありません。",
-            "D": "前に行う意味ではありません。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "聞き取りの進行とともに変化したので『につれて』です。"
-        },
-        {
-          "id": "N2_09_M7_02",
-          "typeId": "N2-GR-FORM",
-          "category": "Mondai 7: 文法形式の判断",
-          "stem": "観光客が増える（　）、ごみの量も増加した。",
-          "options": [
-            {
-              "id": "A",
-              "text": "をめぐって"
-            },
-            {
-              "id": "B",
-              "text": "に限って"
-            },
-            {
-              "id": "C",
-              "text": "に伴って"
-            },
-            {
-              "id": "D",
-              "text": "に反して"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "観光客が増える変化に伴ってごみも増えたので、『に伴って』です。",
-          "distractorExplanations": {
-            "A": "論争の対象ではありません。",
-            "B": "範囲限定ではありません。",
-            "D": "期待と反対ではありません。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "観光客が増える変化に伴ってごみも増えたので、『に伴って』です。"
-        },
-        {
-          "id": "N2_09_M7_03",
-          "typeId": "N2-GR-FORM",
-          "category": "Mondai 7: 文法形式の判断",
-          "stem": "この祭りは、地元の人（　）、近隣の市からも参加者が来る。",
-          "options": [
-            {
-              "id": "A",
-              "text": "に先立ち"
-            },
-            {
-              "id": "B",
-              "text": "に際して"
-            },
-            {
-              "id": "C",
-              "text": "に応じて"
-            },
-            {
-              "id": "D",
-              "text": "に限らず"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "地元の人だけでなく、という追加なので『に限らず』です。",
-          "distractorExplanations": {
-            "A": "前後関係ではありません。",
-            "B": "機会・時点を示しません。",
-            "C": "状況に応じた変化ではありません。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "地元の人だけでなく、という追加なので『に限らず』です。"
-        },
-        {
-          "id": "N2_09_M7_04",
-          "typeId": "N2-GR-FORM",
-          "category": "Mondai 7: 文法形式の判断",
-          "stem": "どの世代の人（　）、分かりやすい案内が必要だ。",
-          "options": [
-            {
-              "id": "A",
-              "text": "にとっても"
-            },
-            {
-              "id": "B",
-              "text": "に限って"
-            },
-            {
-              "id": "C",
-              "text": "を契機に"
-            },
-            {
-              "id": "D",
-              "text": "にしては"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "どの人にもという意味なので『にとっても』です。",
-          "distractorExplanations": {
-            "B": "特定の場合だけではありません。",
-            "C": "きっかけを表しません。",
-            "D": "基準との意外さではありません。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "どの人にもという意味なので『にとっても』です。"
-        },
-        {
-          "id": "N2_09_M7_05",
-          "typeId": "N2-GR-FORM",
-          "category": "Mondai 7: 文法形式の判断",
-          "stem": "調査に協力してもらう（　）、目的と個人情報の扱いを説明した。",
-          "options": [
-            {
-              "id": "A",
-              "text": "にしたがって"
-            },
-            {
-              "id": "B",
-              "text": "にあたって"
-            },
-            {
-              "id": "C",
-              "text": "に反して"
-            },
-            {
-              "id": "D",
-              "text": "に限り"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "協力を依頼する機会に際して説明したので『にあたって』です。",
-          "distractorExplanations": {
-            "A": "順序・変化の対応ではありません。",
-            "C": "予想に反する意味ではありません。",
-            "D": "対象の限定ではありません。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "協力を依頼する機会に際して説明したので『にあたって』です。"
-        },
-        {
-          "id": "N2_09_M7_06",
-          "typeId": "N2-GR-FORM",
-          "category": "Mondai 7: 文法形式の判断",
-          "stem": "結論を急ぐ（　）、異なる立場の意見も確かめるべきだ。",
-          "options": [
-            {
-              "id": "A",
-              "text": "どころか"
-            },
-            {
-              "id": "B",
-              "text": "からには"
-            },
-            {
-              "id": "C",
-              "text": "ことなく"
-            },
-            {
-              "id": "D",
-              "text": "にしたって"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "急がずにという意味の『ことなく』が自然です。",
-          "distractorExplanations": {
-            "A": "程度が予想を超える意味ではありません。",
-            "B": "決意や責任の前提ではありません。",
-            "D": "口語的な譲歩になりません。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "急がずにという意味の『ことなく』が自然です。"
-        },
-        {
-          "id": "N2_09_M7_07",
-          "typeId": "N2-GR-FORM",
-          "category": "Mondai 7: 文法形式の判断",
-          "stem": "制度を変更する（　）、利用者への説明を先に行う。",
-          "options": [
-            {
-              "id": "A",
-              "text": "に限って"
-            },
-            {
-              "id": "B",
-              "text": "に伴って"
-            },
-            {
-              "id": "C",
-              "text": "とともに"
-            },
-            {
-              "id": "D",
-              "text": "に先立って"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "変更の前に説明するので『に先立って』です。",
-          "distractorExplanations": {
-            "A": "対象限定ではありません。",
-            "B": "同時の変化ではありません。",
-            "C": "同時進行の意味ではありません。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "変更の前に説明するので『に先立って』です。"
-        },
-        {
-          "id": "N2_09_M7_08",
-          "typeId": "N2-GR-FORM",
-          "category": "Mondai 7: 文法形式の判断",
-          "stem": "便利さを優先する（　）、支援を必要とする人が使えなくなる場合もある。",
-          "options": [
-            {
-              "id": "A",
-              "text": "一方で"
-            },
-            {
-              "id": "B",
-              "text": "からには"
-            },
-            {
-              "id": "C",
-              "text": "あげく"
-            },
-            {
-              "id": "D",
-              "text": "にすぎず"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "利点とは別の側面を対比するので『一方で』です。",
-          "distractorExplanations": {
-            "B": "責任の前提ではありません。",
-            "C": "長い行為の末の悪い結果ではありません。",
-            "D": "単なる限定ではありません。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "利点とは別の側面を対比するので『一方で』です。"
-        },
-        {
-          "id": "N2_09_M7_09",
-          "typeId": "N2-GR-FORM",
-          "category": "Mondai 7: 文法形式の判断",
-          "stem": "住民が参加しやすい（　）、会場と時間を見直した。",
-          "options": [
-            {
-              "id": "A",
-              "text": "ものの"
-            },
-            {
-              "id": "B",
-              "text": "ように"
-            },
-            {
-              "id": "C",
-              "text": "ばかりに"
-            },
-            {
-              "id": "D",
-              "text": "どころか"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "参加しやすい状態を目的とするので『ように』です。",
-          "distractorExplanations": {
-            "A": "逆接ではありません。",
-            "C": "後悔を招く原因ではありません。",
-            "D": "期待に反する程度ではありません。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "参加しやすい状態を目的とするので『ように』です。"
-        },
-        {
-          "id": "N2_09_M7_10",
-          "typeId": "N2-GR-FORM",
-          "category": "Mondai 7: 文法形式の判断",
-          "stem": "計画の内容を十分に説明しない（　）、合意を得ることは難しい。",
-          "options": [
-            {
-              "id": "A",
-              "text": "にしても"
-            },
-            {
-              "id": "B",
-              "text": "たとたん"
-            },
-            {
-              "id": "C",
-              "text": "ことには"
-            },
-            {
-              "id": "D",
-              "text": "からこそ"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "説明がなければ成立しない条件なので『ないことには』です。",
-          "distractorExplanations": {
-            "A": "譲歩ではありません。",
-            "B": "直後の出来事ではありません。",
-            "D": "理由を強調する形ではありません。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "説明がなければ成立しない条件なので『ないことには』です。"
-        },
-        {
-          "id": "N2_09_M7_11",
-          "typeId": "N2-GR-FORM",
-          "category": "Mondai 7: 文法形式の判断",
-          "stem": "反対意見が出た（　）、担当者は議論を続ける時間を設けた。",
-          "options": [
-            {
-              "id": "A",
-              "text": "を問わず"
-            },
-            {
-              "id": "B",
-              "text": "にしたがい"
-            },
-            {
-              "id": "C",
-              "text": "に先立ち"
-            },
-            {
-              "id": "D",
-              "text": "ことから"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "反対意見を理由として対応したので『ことから』です。",
-          "distractorExplanations": {
-            "A": "条件に関係しない意味ではありません。",
-            "B": "変化の対応ではありません。",
-            "C": "前後関係ではありません。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "反対意見を理由として対応したので『ことから』です。"
-        },
-        {
-          "id": "N2_09_M7_12",
-          "typeId": "N2-GR-FORM",
-          "category": "Mondai 7: 文法形式の判断",
-          "stem": "説明会に出席した（　）、制度を理解できたとは限らない。",
-          "options": [
-            {
-              "id": "A",
-              "text": "からといって"
-            },
-            {
-              "id": "B",
-              "text": "だけあって"
-            },
-            {
-              "id": "C",
-              "text": "にしたがって"
-            },
-            {
-              "id": "D",
-              "text": "以上は"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "出席だけで理解を断定できない部分否定です。",
-          "distractorExplanations": {
-            "B": "期待通りの結果ではありません。",
-            "C": "連動変化ではありません。",
-            "D": "責任・決意の前提ではありません。"
-          },
-          "skill": "Language Knowledge",
-          "explanationVi": "出席だけで理解を断定できない部分否定です。"
-        },
-        {
-          "id": "N2_09_M8_01",
-          "typeId": "N2-GR-STAR",
-          "category": "Mondai 8: 文の組み立て",
-          "stem": "地域の祭りを次世代に引き継ぐには、（　）（　）★（　）大切だ。",
-          "options": [
-            {
-              "id": "A",
-              "text": "地域で受け継がれてきた"
-            },
-            {
-              "id": "B",
-              "text": "行事の意味を"
-            },
-            {
-              "id": "C",
-              "text": "子どもたちに伝える"
-            },
-            {
-              "id": "D",
-              "text": "ことが"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "『地域で受け継がれてきた行事の意味を子どもたちに伝えること』とつながります。三番目は『子どもたちに伝える』です。",
-          "distractorExplanations": {
-            "A": "地域で受け継がれてきたは意図した語順（A→B→C→D）でこの位置に置かれません。",
-            "B": "行事の意味をは意図した語順（A→B→C→D）でこの位置に置かれません。",
-            "D": "ことがは意図した語順（A→B→C→D）でこの位置に置かれません。"
-          },
-          "starPosition": 3,
-          "assembledSentence": "地域の祭りを次世代に引き継ぐには、地域で受け継がれてきた行事の意味を子どもたちに伝えることが大切だ。",
-          "fragmentOrder": "A→B→C→D",
-          "skill": "Language Knowledge",
-          "explanationVi": "『地域で受け継がれてきた行事の意味を子どもたちに伝えること』とつながります。三番目は『子どもたちに伝える』です。"
-        },
-        {
-          "id": "N2_09_M8_02",
-          "typeId": "N2-GR-STAR",
-          "category": "Mondai 8: 文の組み立て",
-          "stem": "異なる意見をまとめる際は、（　）（　）★（　）欠かせない。",
-          "options": [
-            {
-              "id": "A",
-              "text": "結論を急がず"
-            },
-            {
-              "id": "B",
-              "text": "背景を"
-            },
-            {
-              "id": "C",
-              "text": "確かめる"
-            },
-            {
-              "id": "D",
-              "text": "姿勢が"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "『背景を確かめる姿勢』となる順です。三番目は『確かめる』です。",
-          "distractorExplanations": {
-            "A": "結論を急がずは意図した語順（A→B→C→D）でこの位置に置かれません。",
-            "B": "背景をは意図した語順（A→B→C→D）でこの位置に置かれません。",
-            "D": "姿勢がは意図した語順（A→B→C→D）でこの位置に置かれません。"
-          },
-          "starPosition": 3,
-          "assembledSentence": "異なる意見をまとめる際は、結論を急がず背景を確かめる姿勢が欠かせない。",
-          "fragmentOrder": "A→B→C→D",
-          "skill": "Language Knowledge",
-          "explanationVi": "『背景を確かめる姿勢』となる順です。三番目は『確かめる』です。"
-        },
-        {
-          "id": "N2_09_M8_03",
-          "typeId": "N2-GR-STAR",
-          "category": "Mondai 8: 文の組み立て",
-          "stem": "分析結果を正しく解釈するには、（　）（　）★（　）。",
-          "options": [
-            {
-              "id": "A",
-              "text": "回答者が"
-            },
-            {
-              "id": "B",
-              "text": "どの質問に答えたかを"
-            },
-            {
-              "id": "C",
-              "text": "調査記録に残す"
-            },
-            {
-              "id": "D",
-              "text": "必要がある"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "『回答者がどの質問に答えたかを調査記録に残す必要がある』とつながります。三番目は『調査記録に残す』です。",
-          "distractorExplanations": {
-            "A": "回答者がは意図した語順（A→B→C→D）でこの位置に置かれません。",
-            "B": "どの質問に答えたかをは意図した語順（A→B→C→D）でこの位置に置かれません。",
-            "D": "必要があるは意図した語順（A→B→C→D）でこの位置に置かれません。"
-          },
-          "starPosition": 3,
-          "assembledSentence": "分析結果を正しく解釈するには、回答者がどの質問に答えたかを調査記録に残す必要がある。",
-          "fragmentOrder": "A→B→C→D",
-          "skill": "Language Knowledge",
-          "explanationVi": "『回答者がどの質問に答えたかを調査記録に残す必要がある』とつながります。三番目は『調査記録に残す』です。"
-        },
-        {
-          "id": "N2_09_M8_04",
-          "typeId": "N2-GR-STAR",
-          "category": "Mondai 8: 文の組み立て",
-          "stem": "議論の経過を後から検証できるようにするには、（　）（　）★（　）大切だ。",
-          "options": [
-            {
-              "id": "A",
-              "text": "住民が述べた"
-            },
-            {
-              "id": "B",
-              "text": "反対意見も"
-            },
-            {
-              "id": "C",
-              "text": "議事録に残しておく"
-            },
-            {
-              "id": "D",
-              "text": "ことが"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "『住民が述べた反対意見も議事録に残しておくこと』とつながります。三番目は『議事録に残しておく』です。",
-          "distractorExplanations": {
-            "A": "住民が述べたは意図した語順（A→B→C→D）でこの位置に置かれません。",
-            "B": "反対意見もは意図した語順（A→B→C→D）でこの位置に置かれません。",
-            "D": "ことがは意図した語順（A→B→C→D）でこの位置に置かれません。"
-          },
-          "starPosition": 3,
-          "assembledSentence": "議論の経過を後から検証できるようにするには、住民が述べた反対意見も議事録に残しておくことが大切だ。",
-          "fragmentOrder": "A→B→C→D",
-          "skill": "Language Knowledge",
-          "explanationVi": "『住民が述べた反対意見も議事録に残しておくこと』とつながります。三番目は『議事録に残しておく』です。"
-        },
-        {
-          "id": "N2_09_M8_05",
-          "typeId": "N2-GR-STAR",
-          "category": "Mondai 8: 文の組み立て",
-          "stem": "多数決に進む前に、（　）（　）★（　）必要がある。",
-          "options": [
-            {
-              "id": "A",
-              "text": "それぞれの主張を"
-            },
-            {
-              "id": "B",
-              "text": "支える根拠を"
-            },
-            {
-              "id": "C",
-              "text": "比較して"
-            },
-            {
-              "id": "D",
-              "text": "論点を整理する"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "『主張を支える根拠を比較して論点を整理する』の順で、三番目は『比較して』です。",
-          "distractorExplanations": {
-            "A": "それぞれの主張をは意図した語順（A→B→C→D）でこの位置に置かれません。",
-            "B": "支える根拠をは意図した語順（A→B→C→D）でこの位置に置かれません。",
-            "D": "論点を整理するは意図した語順（A→B→C→D）でこの位置に置かれません。"
-          },
-          "starPosition": 3,
-          "assembledSentence": "多数決に進む前に、それぞれの主張を支える根拠を比較して論点を整理する必要がある。",
-          "fragmentOrder": "A→B→C→D",
-          "skill": "Language Knowledge",
-          "explanationVi": "『主張を支える根拠を比較して論点を整理する』の順で、三番目は『比較して』です。"
-        },
-        {
-          "id": "N2_09_M9_01",
-          "typeId": "N2-GR-PARA",
-          "category": "Mondai 9: 文章文法",
-          "stem": "空欄（1）に入れる表現として、文章全体の論理に最も合うものはどれか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "にほかならない"
-            },
-            {
-              "id": "B",
-              "text": "というわけではない"
-            },
-            {
-              "id": "C",
-              "text": "といったところだ"
-            },
-            {
-              "id": "D",
-              "text": "ことになっている"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "外部専門家だけで十分とは言えない部分否定です。",
-          "distractorExplanations": {
-            "A": "強い断定になりません。",
-            "C": "おおよその程度を示す意味ではありません。",
-            "D": "決定済みの予定ではありません。"
-          },
-          "passage": "地域の課題を解決するとき、外から来た専門家の意見だけに頼ればよい（ 1 ）。長く暮らす住民は、統計には表れにくい季節ごとの変化や、以前に試した方法の結果を知っている。一方で、住民の経験が常に正しい（ 2 ）。思い込みや限られた経験によって、別の集団の事情が見落とされることもあるからだ。だからこそ、データと現場の声を（ 3 ）検討し、異なる説明があれば、その違いが生まれた背景を確かめたい。結論を急ぐ（ 4 ）、試行の規模を小さくし、結果を見ながら計画を調整する方法もある。こうした手順を通じて、当事者が納得できる形で決定を（ 5 ）ことができる。",
-          "skill": "Language Knowledge",
-          "explanationVi": "外部専門家だけで十分とは言えない部分否定です。"
-        },
-        {
-          "id": "N2_09_M9_02",
-          "typeId": "N2-GR-PARA",
-          "category": "Mondai 9: 文章文法",
-          "stem": "空欄（2）に入れ、住民の経験への留保を示すものはどれか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "にすぎない"
-            },
-            {
-              "id": "B",
-              "text": "に違いない"
-            },
-            {
-              "id": "C",
-              "text": "とは限らない"
-            },
-            {
-              "id": "D",
-              "text": "にほかならない"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "住民の経験が常に正しいとは限らない、という留保です。",
-          "distractorExplanations": {
-            "A": "程度の限定ではありません。",
-            "B": "強い推量ではありません。",
-            "D": "強い同定ではありません。"
-          },
-          "passage": "地域の課題を解決するとき、外から来た専門家の意見だけに頼ればよい（ 1 ）。長く暮らす住民は、統計には表れにくい季節ごとの変化や、以前に試した方法の結果を知っている。一方で、住民の経験が常に正しい（ 2 ）。思い込みや限られた経験によって、別の集団の事情が見落とされることもあるからだ。だからこそ、データと現場の声を（ 3 ）検討し、異なる説明があれば、その違いが生まれた背景を確かめたい。結論を急ぐ（ 4 ）、試行の規模を小さくし、結果を見ながら計画を調整する方法もある。こうした手順を通じて、当事者が納得できる形で決定を（ 5 ）ことができる。",
-          "skill": "Language Knowledge",
-          "explanationVi": "住民の経験が常に正しいとは限らない、という留保です。"
-        },
-        {
-          "id": "N2_09_M9_03",
-          "typeId": "N2-GR-PARA",
-          "category": "Mondai 9: 文章文法",
-          "stem": "空欄（3）に入れ、データと現場の声を比べる意味を表すものはどれか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "問い直して"
-            },
-            {
-              "id": "B",
-              "text": "切り離して"
-            },
-            {
-              "id": "C",
-              "text": "差し控えて"
-            },
-            {
-              "id": "D",
-              "text": "照らし合わせて"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "データと現場の声を比較・確認するので『照らし合わせて』です。",
-          "distractorExplanations": {
-            "A": "問いを再設定する意味で、ここでは情報比較を表しません。",
-            "B": "別々に扱うと文意に合いません。",
-            "C": "行為を控える意味です。"
-          },
-          "passage": "地域の課題を解決するとき、外から来た専門家の意見だけに頼ればよい（ 1 ）。長く暮らす住民は、統計には表れにくい季節ごとの変化や、以前に試した方法の結果を知っている。一方で、住民の経験が常に正しい（ 2 ）。思い込みや限られた経験によって、別の集団の事情が見落とされることもあるからだ。だからこそ、データと現場の声を（ 3 ）検討し、異なる説明があれば、その違いが生まれた背景を確かめたい。結論を急ぐ（ 4 ）、試行の規模を小さくし、結果を見ながら計画を調整する方法もある。こうした手順を通じて、当事者が納得できる形で決定を（ 5 ）ことができる。",
-          "skill": "Language Knowledge",
-          "explanationVi": "データと現場の声を比較・確認するので『照らし合わせて』です。"
-        },
-        {
-          "id": "N2_09_M9_04",
-          "typeId": "N2-GR-PARA",
-          "category": "Mondai 9: 文章文法",
-          "stem": "空欄（4）の後に続く提案を自然につなぐ表現はどれか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "ことなく"
-            },
-            {
-              "id": "B",
-              "text": "どころか"
-            },
-            {
-              "id": "C",
-              "text": "ばかりに"
-            },
-            {
-              "id": "D",
-              "text": "末に"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "『結論を急ぐことなく』は、急いで結論を出さずに進める意味です。",
-          "distractorExplanations": {
-            "B": "むしろ逆という意味ではありません。",
-            "C": "不注意が招いた悪い結果ではありません。",
-            "D": "長い過程の結末ではありません。"
-          },
-          "passage": "地域の課題を解決するとき、外から来た専門家の意見だけに頼ればよい（ 1 ）。長く暮らす住民は、統計には表れにくい季節ごとの変化や、以前に試した方法の結果を知っている。一方で、住民の経験が常に正しい（ 2 ）。思い込みや限られた経験によって、別の集団の事情が見落とされることもあるからだ。だからこそ、データと現場の声を（ 3 ）検討し、異なる説明があれば、その違いが生まれた背景を確かめたい。結論を急ぐ（ 4 ）、試行の規模を小さくし、結果を見ながら計画を調整する方法もある。こうした手順を通じて、当事者が納得できる形で決定を（ 5 ）ことができる。",
-          "skill": "Language Knowledge",
-          "explanationVi": "『結論を急ぐことなく』は、急いで結論を出さずに進める意味です。"
-        },
-        {
-          "id": "N2_09_M9_05",
-          "typeId": "N2-GR-PARA",
-          "category": "Mondai 9: 文章文法",
-          "stem": "空欄（5）に続く「決定」と最も自然に結びつく動詞はどれか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "向ける"
-            },
-            {
-              "id": "B",
-              "text": "下す"
-            },
-            {
-              "id": "C",
-              "text": "沈める"
-            },
-            {
-              "id": "D",
-              "text": "配る"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "『決定を下す』が自然な連語です。",
-          "distractorExplanations": {
-            "A": "視線や注意を向ける用法です。",
-            "C": "水などに沈める意味です。",
-            "D": "物を分けて渡す意味です。"
-          },
-          "passage": "地域の課題を解決するとき、外から来た専門家の意見だけに頼ればよい（ 1 ）。長く暮らす住民は、統計には表れにくい季節ごとの変化や、以前に試した方法の結果を知っている。一方で、住民の経験が常に正しい（ 2 ）。思い込みや限られた経験によって、別の集団の事情が見落とされることもあるからだ。だからこそ、データと現場の声を（ 3 ）検討し、異なる説明があれば、その違いが生まれた背景を確かめたい。結論を急ぐ（ 4 ）、試行の規模を小さくし、結果を見ながら計画を調整する方法もある。こうした手順を通じて、当事者が納得できる形で決定を（ 5 ）ことができる。",
-          "skill": "Language Knowledge",
-          "explanationVi": "『決定を下す』が自然な連語です。"
-        },
-        {
-          "id": "N2_09_M10_01",
-          "typeId": "N2-RD-SHORT",
-          "category": "Mondai 10: 短文読解",
-          "stem": "市が開館時間の変更をまず試行する理由は何か。",
-          "options": [
-            {
-              "id": "A",
-              "text": "来館者数が十分に増えたか確認するため"
-            },
-            {
-              "id": "B",
-              "text": "利用者の目的を記録しないため"
-            },
-            {
-              "id": "C",
-              "text": "職員を増やす費用と利用状況を確かめるため"
-            },
-            {
-              "id": "D",
-              "text": "全曜日の開館時間をすぐ延ばすため"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "費用がかかるため、曜日を限定して利用状況を見ます。",
-          "distractorExplanations": {
-            "A": "来館者数の減少がきっかけであり、増加済みとは書かれていません。",
-            "B": "目的も記録するとあります。",
-            "D": "まず限定して試す方針です。"
-          },
-          "passage": "市の文化施設では、利用者数の減少を受けて、平日の開館時間を延ばす案が出ている。ただし、職員を増やす費用が必要になるため、まず三か月間、曜日を限定して試すことになった。試行期間中は来館者数だけでなく、利用者が何を目的に来たかも記録する。",
-          "skill": "Reading",
-          "explanationVi": "費用がかかるため、曜日を限定して利用状況を見ます。"
-        },
-        {
-          "id": "N2_09_M10_02",
-          "typeId": "N2-RD-SHORT",
-          "category": "Mondai 10: 短文読解",
-          "stem": "次回の展示で優先されることは何か。",
-          "options": [
-            {
-              "id": "A",
-              "text": "展示数を大幅に増やすこと"
-            },
-            {
-              "id": "B",
-              "text": "地元作家の紹介をやめること"
-            },
-            {
-              "id": "C",
-              "text": "会場を一つに統合すること"
-            },
-            {
-              "id": "D",
-              "text": "場所を示す案内を分かりやすくすること"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "展示数の追加より案内図と共通表示を整えるとあります。",
-          "distractorExplanations": {
-            "A": "次回は展示数を増やすより、と明示されています。",
-            "B": "作家紹介をやめるとは書いていません。",
-            "C": "会場統合ではなく表示の改善です。"
-          },
-          "passage": "商店街の空き店舗を使った展示は、地元作家を紹介する機会になった。一方、会場が分散していて、初めて来た人には場所が分かりにくいという声もあった。次回は展示数を増やすより、案内図と共通の表示を整える予定だ。",
-          "skill": "Reading",
-          "explanationVi": "展示数の追加より案内図と共通表示を整えるとあります。"
-        },
-        {
-          "id": "N2_09_M10_03",
-          "typeId": "N2-RD-SHORT",
-          "category": "Mondai 10: 短文読解",
-          "stem": "主催者が新たに用意することにしたものは何か。",
-          "options": [
-            {
-              "id": "A",
-              "text": "時間がない人でも参加できる短い役割"
-            },
-            {
-              "id": "B",
-              "text": "行事に参加した人への謝礼"
-            },
-            {
-              "id": "C",
-              "text": "知り合いを必ず連れてくる規則"
-            },
-            {
-              "id": "D",
-              "text": "行事の日程を平日に変えること"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "時間と初参加の不安の両方を踏まえ、短時間の役割を用意します。",
-          "distractorExplanations": {
-            "B": "謝礼の話はありません。",
-            "C": "同行者を求めていません。",
-            "D": "日程変更の記述はありません。"
-          },
-          "passage": "ある調査では、地域の行事に参加しない理由として「時間がない」が最も多かった。しかし、自由記述を見ると、仕事の都合だけでなく、初参加で知り合いがいないことへの不安も目立った。主催者は、短時間でも参加できる役割を用意することにした。",
-          "skill": "Reading",
-          "explanationVi": "時間と初参加の不安の両方を踏まえ、短時間の役割を用意します。"
-        },
-        {
-          "id": "N2_09_M10_04",
-          "typeId": "N2-RD-SHORT",
-          "category": "Mondai 10: 短文読解",
-          "stem": "担当職員が説明会の成果だけでは不十分だと考えるのはなぜか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "参加者の理解度を測っていないから"
-            },
-            {
-              "id": "B",
-              "text": "制度の対象者が説明会に来られず、疑問が残るから"
-            },
-            {
-              "id": "C",
-              "text": "回覧板が使えないから"
-            },
-            {
-              "id": "D",
-              "text": "説明会の費用が高すぎるから"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "参加しなかった世帯の疑問が未解決と指摘されています。",
-          "distractorExplanations": {
-            "A": "出席者の理解度は高かったとされています。",
-            "C": "回覧板に加えて相談窓口を設けます。",
-            "D": "費用への言及はありません。"
-          },
-          "passage": "新しいごみ分別制度の説明会には、制度をよく知る人が多く参加した。市は出席者の理解度が高かったことを成果としたが、担当職員は、説明会に来なかった世帯の疑問が残っていると指摘する。今後は回覧板に加え、個別の相談窓口も設けるという。",
-          "skill": "Reading",
-          "explanationVi": "参加しなかった世帯の疑問が未解決と指摘されています。"
-        },
-        {
-          "id": "N2_09_M10_05",
-          "typeId": "N2-RD-SHORT",
-          "category": "Mondai 10: 短文読解",
-          "stem": "写真を公開しない場合、活動では何を残すか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "写真の持ち主の住所"
-            },
-            {
-              "id": "B",
-              "text": "写真を撮影した機器"
-            },
-            {
-              "id": "C",
-              "text": "写真についての説明文"
-            },
-            {
-              "id": "D",
-              "text": "家族全員の署名"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "公開を望まない場合は写真を載せず、説明文だけを残します。",
-          "distractorExplanations": {
-            "A": "住所を残すとはありません。",
-            "B": "撮影機器の記述はありません。",
-            "D": "署名の要件は書かれていません。"
-          },
-          "passage": "地域の歴史を記録する活動では、古い写真の持ち主から公開許可を得る必要がある。保存の価値が高くても、撮影された人や家族が公開を望まない場合は、写真を掲載せず、説明文だけを残す方針だ。",
-          "skill": "Reading",
-          "explanationVi": "公開を望まない場合は写真を載せず、説明文だけを残します。"
-        },
-        {
-          "id": "N2_09_M11_01",
-          "typeId": "N2-RD-MED",
-          "category": "Mondai 11: 中文読解",
-          "stem": "筆者が市民参加の会議で最初に行うべきだとすることは何か。",
-          "options": [
-            {
-              "id": "A",
-              "text": "行政案への賛否を尋ねること"
-            },
-            {
-              "id": "B",
-              "text": "採用できない意見を記録しないこと"
-            },
-            {
-              "id": "C",
-              "text": "参加者が選べる案を一つに絞ること"
-            },
-            {
-              "id": "D",
-              "text": "具体的に困っている場面を聞くこと"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "先に困っている場面を聞くことで、既存案にない課題も発見しやすくなります。",
-          "distractorExplanations": {
-            "A": "賛否だけを尋ねる場ではないと述べています。",
-            "B": "不採用理由を返す重要性が述べられています。",
-            "C": "複数の対応を比べます。"
-          },
-          "passage": "市民参加の会議は、行政が決めた案に賛成か反対かを尋ねる場ではない。課題の見え方は、暮らす場所や働き方によって異なる。会議の冒頭で選択肢を示すと、参加者は既存の枠の中で答えがちになる。まず困っている場面を具体的に聞き、その後で複数の対応を比べるほうが、まだ表に出ていない問題を見つけやすい。意見をすべて採用できなくても、採用しなかった理由を返すことが次の参加につながる。",
-          "skill": "Reading",
-          "explanationVi": "先に困っている場面を聞くことで、既存案にない課題も発見しやすくなります。"
-        },
-        {
-          "id": "N2_09_M11_02",
-          "typeId": "N2-RD-MED",
-          "category": "Mondai 11: 中文読解",
-          "stem": "筆者が伝統行事の変更について重視していることは何か。",
-          "options": [
-            {
-              "id": "A",
-              "text": "行為の意味と変更の影響を担い手と確認すること"
-            },
-            {
-              "id": "B",
-              "text": "行政が変更の範囲を決定すること"
-            },
-            {
-              "id": "C",
-              "text": "すべての手順を一切変えないこと"
-            },
-            {
-              "id": "D",
-              "text": "参加者が減る前に行事を中止すること"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "形式だけでなく意味を確認し、変更の影響を担い手と考えるべきです。",
-          "distractorExplanations": {
-            "B": "一方的な変更を問題視しています。",
-            "C": "形をそのまま守るだけでは途切れる場合があるとしています。",
-            "D": "中止の提案はありません。"
-          },
-          "passage": "伝統行事を続けるために、昔の形をそのまま守ることだけを目標にすると、担い手が減った時に行事自体が途切れてしまうことがある。大切なのは、何のためにその行為をしてきたのかを確かめることだ。例えば、長い行列が地域の人の交流を生んでいたなら、距離を短くしても交流の機会を残す方法は考えられる。ただし、変更を決める側が「現代化」を理由に一方的に簡略化すれば、当事者の誇りを損なう。残す意味と変更の影響を、担い手とともに確かめる必要がある。",
-          "skill": "Reading",
-          "explanationVi": "形式だけでなく意味を確認し、変更の影響を担い手と考えるべきです。"
-        },
-        {
-          "id": "N2_09_M11_03",
-          "typeId": "N2-RD-MED",
-          "category": "Mondai 11: 中文読解",
-          "stem": "この文章で筆者が統計に期待している役割は何か。",
-          "options": [
-            {
-              "id": "A",
-              "text": "政策の正解を自動的に決めること"
-            },
-            {
-              "id": "B",
-              "text": "問いを具体化し、調べる方向を示す材料になること"
-            },
-            {
-              "id": "C",
-              "text": "すべての個人差を一つの数値で表すこと"
-            },
-            {
-              "id": "D",
-              "text": "現場の話を不要にすること"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "統計は結論そのものではなく、問いを具体化する材料と述べています。",
-          "distractorExplanations": {
-            "A": "自動的に答えを出すものではないと結んでいます。",
-            "C": "平均では個別差を説明できないとあります。",
-            "D": "現場の話との照合を求めています。"
-          },
-          "passage": "自治体が公開する統計は、地域全体の傾向を知るのに役立つ。しかし、平均値だけで個々の暮らしを説明できるわけではない。平均所得が上がっていても、特定の年代や地区では下がっているかもしれない。また、数字の定義や調査対象が変われば、前年との単純な比較はできなくなる。数字を政策の根拠にする時は、どの集団の、どの期間のデータかを確認し、現場で聞いた話と食い違う場合にはその理由を調べたい。統計は結論を自動的に出す答えではなく、問いを具体化する材料である。",
-          "skill": "Reading",
-          "explanationVi": "統計は結論そのものではなく、問いを具体化する材料と述べています。"
-        },
-        {
-          "id": "N2_09_M11_04",
-          "typeId": "N2-RD-MED",
-          "category": "Mondai 11: 中文読解",
-          "stem": "この文章から、統計を前年と比較する前に必要な確認は何か。",
-          "options": [
-            {
-              "id": "A",
-              "text": "現場の声を除外できるか"
-            },
-            {
-              "id": "B",
-              "text": "平均値が上昇したか"
-            },
-            {
-              "id": "C",
-              "text": "データの定義と対象が同じか"
-            },
-            {
-              "id": "D",
-              "text": "調査結果を政策に採用したか"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "定義や対象が変われば単純比較できないため、先に確認します。",
-          "distractorExplanations": {
-            "A": "現場の話は照合対象です。",
-            "B": "平均が上がったかだけでは比較可能性は分かりません。",
-            "D": "採用後の話ではありません。"
-          },
-          "passage": "自治体が公開する統計は、地域全体の傾向を知るのに役立つ。しかし、平均値だけで個々の暮らしを説明できるわけではない。平均所得が上がっていても、特定の年代や地区では下がっているかもしれない。また、数字の定義や調査対象が変われば、前年との単純な比較はできなくなる。数字を政策の根拠にする時は、どの集団の、どの期間のデータかを確認し、現場で聞いた話と食い違う場合にはその理由を調べたい。統計は結論を自動的に出す答えではなく、問いを具体化する材料である。",
-          "skill": "Reading",
-          "explanationVi": "定義や対象が変われば単純比較できないため、先に確認します。"
-        },
-        {
-          "id": "N2_09_M11_05",
-          "typeId": "N2-RD-MED",
-          "category": "Mondai 11: 中文読解",
-          "stem": "伝統行事の例で、行列の距離を短くしても残せる可能性があるものは何か。",
-          "options": [
-            {
-              "id": "A",
-              "text": "行政の決定権"
-            },
-            {
-              "id": "B",
-              "text": "観光客の滞在時間"
-            },
-            {
-              "id": "C",
-              "text": "古い衣装の数"
-            },
-            {
-              "id": "D",
-              "text": "地域の人の交流"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "行列が交流を生んでいたなら、距離を短くしても交流機会は残せるとします。",
-          "distractorExplanations": {
-            "A": "決定権について述べていません。",
-            "B": "観光客の滞在時間は触れられていません。",
-            "C": "衣装の話はありません。"
-          },
-          "passage": "伝統行事を続けるために、昔の形をそのまま守ることだけを目標にすると、担い手が減った時に行事自体が途切れてしまうことがある。大切なのは、何のためにその行為をしてきたのかを確かめることだ。例えば、長い行列が地域の人の交流を生んでいたなら、距離を短くしても交流の機会を残す方法は考えられる。ただし、変更を決める側が「現代化」を理由に一方的に簡略化すれば、当事者の誇りを損なう。残す意味と変更の影響を、担い手とともに確かめる必要がある。",
-          "skill": "Reading",
-          "explanationVi": "行列が交流を生んでいたなら、距離を短くしても交流機会は残せるとします。"
-        },
-        {
-          "id": "N2_09_M11_06",
-          "typeId": "N2-RD-MED",
-          "category": "Mondai 11: 中文読解",
-          "stem": "筆者が、会議で不採用の意見にも理由を返すべきだと考えるのはなぜか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "次の参加につながるため"
-            },
-            {
-              "id": "B",
-              "text": "全意見を採用したように見せるため"
-            },
-            {
-              "id": "C",
-              "text": "会議の時間を短くするため"
-            },
-            {
-              "id": "D",
-              "text": "行政案への反対を減らすため"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "採否の理由を伝えることが次の参加につながると明記されています。",
-          "distractorExplanations": {
-            "B": "採用できない意見があることを認めています。",
-            "C": "時間短縮は述べられていません。",
-            "D": "反対を減らす目的ではありません。"
-          },
-          "passage": "市民参加の会議は、行政が決めた案に賛成か反対かを尋ねる場ではない。課題の見え方は、暮らす場所や働き方によって異なる。会議の冒頭で選択肢を示すと、参加者は既存の枠の中で答えがちになる。まず困っている場面を具体的に聞き、その後で複数の対応を比べるほうが、まだ表に出ていない問題を見つけやすい。意見をすべて採用できなくても、採用しなかった理由を返すことが次の参加につながる。",
-          "skill": "Reading",
-          "explanationVi": "採否の理由を伝えることが次の参加につながると明記されています。"
-        },
-        {
-          "id": "N2_09_M11_07",
-          "typeId": "N2-RD-MED",
-          "category": "Mondai 11: 中文読解",
-          "stem": "平均所得が上がっている時にも筆者が確認を求めるのはなぜか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "平均値は必ず誤っているから"
-            },
-            {
-              "id": "B",
-              "text": "一部の年代や地区では異なる傾向かもしれないから"
-            },
-            {
-              "id": "C",
-              "text": "地域統計は公開されていないから"
-            },
-            {
-              "id": "D",
-              "text": "所得の定義は毎年必ず変わるから"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "全体の平均が上がっても、集団ごとに下がる可能性があるとしています。",
-          "distractorExplanations": {
-            "A": "平均値を否定しているのではありません。",
-            "C": "自治体が公開する統計の話です。",
-            "D": "定義が変われば比較できない場合があるという説明です。"
-          },
-          "passage": "自治体が公開する統計は、地域全体の傾向を知るのに役立つ。しかし、平均値だけで個々の暮らしを説明できるわけではない。平均所得が上がっていても、特定の年代や地区では下がっているかもしれない。また、数字の定義や調査対象が変われば、前年との単純な比較はできなくなる。数字を政策の根拠にする時は、どの集団の、どの期間のデータかを確認し、現場で聞いた話と食い違う場合にはその理由を調べたい。統計は結論を自動的に出す答えではなく、問いを具体化する材料である。",
-          "skill": "Reading",
-          "explanationVi": "全体の平均が上がっても、集団ごとに下がる可能性があるとしています。"
-        },
-        {
-          "id": "N2_09_M11_08",
-          "typeId": "N2-RD-MED",
-          "category": "Mondai 11: 中文読解",
-          "stem": "伝統行事を簡略化する場合、筆者が懸念する結果は何か。",
-          "options": [
-            {
-              "id": "A",
-              "text": "行事の費用が増えること"
-            },
-            {
-              "id": "B",
-              "text": "地域の人口が必ず増えること"
-            },
-            {
-              "id": "C",
-              "text": "担い手の誇りが損なわれること"
-            },
-            {
-              "id": "D",
-              "text": "交流が自動的に生まれること"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "変更側が一方的に簡略化すると、当事者の誇りを損なうと述べています。",
-          "distractorExplanations": {
-            "A": "費用への言及はありません。",
-            "B": "人口増加の話はありません。",
-            "D": "交流は行列の意味として残す可能性が述べられています。"
-          },
-          "passage": "伝統行事を続けるために、昔の形をそのまま守ることだけを目標にすると、担い手が減った時に行事自体が途切れてしまうことがある。大切なのは、何のためにその行為をしてきたのかを確かめることだ。例えば、長い行列が地域の人の交流を生んでいたなら、距離を短くしても交流の機会を残す方法は考えられる。ただし、変更を決める側が「現代化」を理由に一方的に簡略化すれば、当事者の誇りを損なう。残す意味と変更の影響を、担い手とともに確かめる必要がある。",
-          "skill": "Reading",
-          "explanationVi": "変更側が一方的に簡略化すると、当事者の誇りを損なうと述べています。"
-        },
-        {
-          "id": "N2_09_M11_09",
-          "typeId": "N2-RD-MED",
-          "category": "Mondai 11: 中文読解",
-          "stem": "筆者が会議の冒頭で選択肢を示すと問題が起きやすいと考えるのはなぜか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "複数の対応を比べられなくなるから"
-            },
-            {
-              "id": "B",
-              "text": "参加者が行政案を知らなくなるから"
-            },
-            {
-              "id": "C",
-              "text": "会議の時間が必ず延びるから"
-            },
-            {
-              "id": "D",
-              "text": "参加者が用意された枠の中だけで答えやすくなるから"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "先に選択肢を示すと既存の枠内で答えがちになり、まだ出ていない課題を見つけにくくなるとしています。",
-          "distractorExplanations": {
-            "A": "複数の対応を比べること自体は後で行うとあります。",
-            "B": "行政案を知らなくなるとは述べていません。",
-            "C": "会議時間への言及はありません。"
-          },
-          "passage": "市民参加の会議は、行政が決めた案に賛成か反対かを尋ねる場ではない。課題の見え方は、暮らす場所や働き方によって異なる。会議の冒頭で選択肢を示すと、参加者は既存の枠の中で答えがちになる。まず困っている場面を具体的に聞き、その後で複数の対応を比べるほうが、まだ表に出ていない問題を見つけやすい。意見をすべて採用できなくても、採用しなかった理由を返すことが次の参加につながる。",
-          "skill": "Reading",
-          "explanationVi": "先に選択肢を示すと既存の枠内で答えがちになり、まだ出ていない課題を見つけにくくなるとしています。"
-        },
-        {
-          "id": "N2_09_M12_01",
-          "typeId": "N2-RD-PAIR",
-          "category": "Mondai 12: 統合理解",
-          "stem": "資料Bの筆者が資料Aの計画について特に求めていることは何か。",
-          "options": [
-            {
-              "id": "A",
-              "text": "立地の違う館でも調べ、利用できない人の理由を聞くこと"
-            },
-            {
-              "id": "B",
-              "text": "追加費用をなくして直ちに全館で実施すること"
-            },
-            {
-              "id": "C",
-              "text": "中央館の調査を中止すること"
-            },
-            {
-              "id": "D",
-              "text": "利用者数だけを基準にすること"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "立地の異なる館での調査と、来館できなかった人の理由の聴取を提案しています。",
-          "distractorExplanations": {
-            "B": "追加費用は資料Aが課題としており、無費用の実施は提案していません。",
-            "C": "中央館での試行自体には反対していません。",
-            "D": "利用者数以外も聞くべきとしています。"
-          },
-          "passage": "【資料A】市立図書館は、平日の閉館時刻を一時間遅らせる案を検討している。仕事帰りに利用できるという要望が複数寄せられたためだ。ただし、夜間の職員配置には追加費用がかかる。まず中央館だけで二か月試し、利用者数と利用目的、職員の業務量を調べてから、継続や他館への拡大を決める。\n\n【資料B】私は閉館時刻を遅らせること自体には賛成だが、中央館だけの結果で全ての館を決めるのは心配だ。駅に近い館と住宅地の館では、夜に来る人も目的も違う。試行の後に拡大を検討するなら、少なくとも立地の異なる館でも短期間の調査をしてほしい。利用者数だけでなく、来館できなかった人の理由も聞けば、必要な対策が見つかると思う。",
-          "skill": "Reading",
-          "explanationVi": "立地の異なる館での調査と、来館できなかった人の理由の聴取を提案しています。"
-        },
-        {
-          "id": "N2_09_M12_02",
-          "typeId": "N2-RD-PAIR",
-          "category": "Mondai 12: 統合理解",
-          "stem": "二つの資料が一致している、図書館の開館時間を見直す手順はどれか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "全ての館で同じ時間に閉館する"
-            },
-            {
-              "id": "B",
-              "text": "試行の結果を見てから拡大などを判断する"
-            },
-            {
-              "id": "C",
-              "text": "利用者の目的は調べなくてよい"
-            },
-            {
-              "id": "D",
-              "text": "職員の負担は無視できる"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "Aは試行後に継続・拡大を判断し、Bも追加調査を経て検討する立場です。",
-          "distractorExplanations": {
-            "A": "一律運用は述べていません。",
-            "C": "目的を調べるのは資料Aの計画です。",
-            "D": "職員業務量を調べるとあります。"
-          },
-          "passage": "【資料A】市立図書館は、平日の閉館時刻を一時間遅らせる案を検討している。仕事帰りに利用できるという要望が複数寄せられたためだ。ただし、夜間の職員配置には追加費用がかかる。まず中央館だけで二か月試し、利用者数と利用目的、職員の業務量を調べてから、継続や他館への拡大を決める。\n\n【資料B】私は閉館時刻を遅らせること自体には賛成だが、中央館だけの結果で全ての館を決めるのは心配だ。駅に近い館と住宅地の館では、夜に来る人も目的も違う。試行の後に拡大を検討するなら、少なくとも立地の異なる館でも短期間の調査をしてほしい。利用者数だけでなく、来館できなかった人の理由も聞けば、必要な対策が見つかると思う。",
-          "skill": "Reading",
-          "explanationVi": "Aは試行後に継続・拡大を判断し、Bも追加調査を経て検討する立場です。"
-        },
-        {
-          "id": "N2_09_M13_01",
-          "typeId": "N2-RD-LONG",
-          "category": "Mondai 13: 長文読解",
-          "stem": "筆者が冒頭で述べている、来場者数だけで判断する問題は何か。",
-          "options": [
-            {
-              "id": "A",
-              "text": "数字が政策説明に使えないこと"
-            },
-            {
-              "id": "B",
-              "text": "観光客の売上は必ず減ること"
-            },
-            {
-              "id": "C",
-              "text": "来場者が増えても住民の生活改善とは限らないこと"
-            },
-            {
-              "id": "D",
-              "text": "イベントが地域の関係を壊すこと"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "来場者増は暮らしの改善と一致せず、混雑などの負担もあり得ます。",
-          "distractorExplanations": {
-            "A": "数字は予算説明に便利と認めています。",
-            "B": "売上が必ず減るとは述べていません。",
-            "D": "全てのイベントが関係を壊すとは言いません。"
-          },
-          "passage": "地域の「にぎわい」を測る方法として、イベントの来場者数や店の売上がよく使われる。数字は変化を追うのに便利であり、予算を決める際にも説明しやすい。しかし、来場者数が増えたからといって、その地域で暮らす人の生活がよくなったとは限らない。観光客が増えた結果、交通が混み、日常の買い物がしにくくなることもある。反対に、派手な催しがなくても、近所で相談できる相手が増えたことを住民が大きな変化と感じる場合もある。\n\nだからといって、数字を使わず、印象だけで政策を評価すればよいということではない。印象は重要な手がかりだが、声の大きい人の経験が地域全体の状況を代表するとは限らない。さらに、同じ催しでも、子育て中の人、高齢者、店を営む人では受け止め方が異なる。誰にとっての変化を知りたいのかを先に決め、来場者数のような数量と、暮らしへの影響を尋ねる聞き取りの両方を用いる必要がある。\n\n評価の時期にも注意が要る。催しの直後に売上が伸びても、数か月後に客足が戻れば、長期的な効果とは言いにくい。一方、地域の人同士の関係が深まる効果は、短い期間の数字には表れにくい。政策の前後だけを比べるのでなく、季節や周辺地域の変化も見て、別の要因が影響していないかを確かめたい。\n\nこうした評価は、施策を成功か失敗かに分けるためだけに行うのではない。予想と異なる結果が出たなら、誰かを責める前に、どの条件が想定と違ったのかを調べる。小規模な試行の段階で課題を見つけられれば、方法を修正したり、対象を限定したりできる。評価の数字を公表する時には、何を測り、何を測れていないのかも伝えるべきだ。数字を説明の終点にするのではなく、次の問いを立てる出発点として扱うことが、住民の納得と継続的な改善につながる。",
-          "skill": "Reading",
-          "explanationVi": "来場者増は暮らしの改善と一致せず、混雑などの負担もあり得ます。"
-        },
-        {
-          "id": "N2_09_M13_02",
-          "typeId": "N2-RD-LONG",
-          "category": "Mondai 13: 長文読解",
-          "stem": "筆者が数量と聞き取りの両方を求める理由は何か。",
-          "options": [
-            {
-              "id": "A",
-              "text": "政策を必ず成功と評価するため"
-            },
-            {
-              "id": "B",
-              "text": "聞き取りは数字より安価だから"
-            },
-            {
-              "id": "C",
-              "text": "全住民が同じ経験をするから"
-            },
-            {
-              "id": "D",
-              "text": "印象だけでも数字だけでも、地域の多様な経験を十分に捉えられないから"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "数量と声を組み合わせ、誰にとっての変化かを把握する必要があります。",
-          "distractorExplanations": {
-            "A": "評価の目的は成功認定だけではありません。",
-            "B": "費用の比較はありません。",
-            "C": "立場による受け止め方の違いが述べられています。"
-          },
-          "passage": "地域の「にぎわい」を測る方法として、イベントの来場者数や店の売上がよく使われる。数字は変化を追うのに便利であり、予算を決める際にも説明しやすい。しかし、来場者数が増えたからといって、その地域で暮らす人の生活がよくなったとは限らない。観光客が増えた結果、交通が混み、日常の買い物がしにくくなることもある。反対に、派手な催しがなくても、近所で相談できる相手が増えたことを住民が大きな変化と感じる場合もある。\n\nだからといって、数字を使わず、印象だけで政策を評価すればよいということではない。印象は重要な手がかりだが、声の大きい人の経験が地域全体の状況を代表するとは限らない。さらに、同じ催しでも、子育て中の人、高齢者、店を営む人では受け止め方が異なる。誰にとっての変化を知りたいのかを先に決め、来場者数のような数量と、暮らしへの影響を尋ねる聞き取りの両方を用いる必要がある。\n\n評価の時期にも注意が要る。催しの直後に売上が伸びても、数か月後に客足が戻れば、長期的な効果とは言いにくい。一方、地域の人同士の関係が深まる効果は、短い期間の数字には表れにくい。政策の前後だけを比べるのでなく、季節や周辺地域の変化も見て、別の要因が影響していないかを確かめたい。\n\nこうした評価は、施策を成功か失敗かに分けるためだけに行うのではない。予想と異なる結果が出たなら、誰かを責める前に、どの条件が想定と違ったのかを調べる。小規模な試行の段階で課題を見つけられれば、方法を修正したり、対象を限定したりできる。評価の数字を公表する時には、何を測り、何を測れていないのかも伝えるべきだ。数字を説明の終点にするのではなく、次の問いを立てる出発点として扱うことが、住民の納得と継続的な改善につながる。",
-          "skill": "Reading",
-          "explanationVi": "数量と声を組み合わせ、誰にとっての変化かを把握する必要があります。"
-        },
-        {
-          "id": "N2_09_M13_03",
-          "typeId": "N2-RD-LONG",
-          "category": "Mondai 13: 長文読解",
-          "stem": "筆者が評価結果を公表するときに求めていることは何か。",
-          "options": [
-            {
-              "id": "A",
-              "text": "測定した範囲と測れていない点も説明すること"
-            },
-            {
-              "id": "B",
-              "text": "成功か失敗かを明確に決めること"
-            },
-            {
-              "id": "C",
-              "text": "効果があった数字だけを載せること"
-            },
-            {
-              "id": "D",
-              "text": "予想外の結果の責任者を示すこと"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "何を測り、何を測れていないのかも伝えるべきと明記しています。",
-          "distractorExplanations": {
-            "B": "評価は二分の判定だけが目的ではないと述べています。",
-            "C": "都合のよい数字だけに絞るとはありません。",
-            "D": "まず責任追及をする考えを否定しています。"
-          },
-          "passage": "地域の「にぎわい」を測る方法として、イベントの来場者数や店の売上がよく使われる。数字は変化を追うのに便利であり、予算を決める際にも説明しやすい。しかし、来場者数が増えたからといって、その地域で暮らす人の生活がよくなったとは限らない。観光客が増えた結果、交通が混み、日常の買い物がしにくくなることもある。反対に、派手な催しがなくても、近所で相談できる相手が増えたことを住民が大きな変化と感じる場合もある。\n\nだからといって、数字を使わず、印象だけで政策を評価すればよいということではない。印象は重要な手がかりだが、声の大きい人の経験が地域全体の状況を代表するとは限らない。さらに、同じ催しでも、子育て中の人、高齢者、店を営む人では受け止め方が異なる。誰にとっての変化を知りたいのかを先に決め、来場者数のような数量と、暮らしへの影響を尋ねる聞き取りの両方を用いる必要がある。\n\n評価の時期にも注意が要る。催しの直後に売上が伸びても、数か月後に客足が戻れば、長期的な効果とは言いにくい。一方、地域の人同士の関係が深まる効果は、短い期間の数字には表れにくい。政策の前後だけを比べるのでなく、季節や周辺地域の変化も見て、別の要因が影響していないかを確かめたい。\n\nこうした評価は、施策を成功か失敗かに分けるためだけに行うのではない。予想と異なる結果が出たなら、誰かを責める前に、どの条件が想定と違ったのかを調べる。小規模な試行の段階で課題を見つけられれば、方法を修正したり、対象を限定したりできる。評価の数字を公表する時には、何を測り、何を測れていないのかも伝えるべきだ。数字を説明の終点にするのではなく、次の問いを立てる出発点として扱うことが、住民の納得と継続的な改善につながる。",
-          "skill": "Reading",
-          "explanationVi": "何を測り、何を測れていないのかも伝えるべきと明記しています。"
-        },
-        {
-          "id": "N2_09_M14_01",
-          "typeId": "N2-RD-INFO",
-          "category": "Mondai 14: 情報検索",
-          "stem": "市内の専門学校に通う17歳の人が、木曜講座に申し込むにはどうすればよいか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "9月14日までに申し込み、希望を第三希望まで選び、理由を200字以内で記入する"
-            },
-            {
-              "id": "B",
-              "text": "9月1日から14日までに申し込み、第二希望まで選び、理由を200字以内で書き、初回までにオンライン登録する"
-            },
-            {
-              "id": "C",
-              "text": "9月14日までに申し込み、第二希望まで選び、理由を200字を超えて記入する"
-            },
-            {
-              "id": "D",
-              "text": "初回講座の後で申し込み、第二希望まで選び、理由を200字以内で記入する"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "対象条件を満たすので、期間内に申し込み、第二希望までと200字以内の理由を提出し、初回までにオンライン登録します。",
-          "distractorExplanations": {
-            "A": "第三希望までとは案内されていません。",
-            "C": "理由は200字以内です。",
-            "D": "申込は講座開始前に行います。"
-          },
-          "passage": "【市民文化講座・秋期】\n対象：市内在住・在勤・在学の16歳以上。初回講座までにオンライン登録が必要。\n講座：火曜「地域の歴史を読む」18:30–20:00、木曜「多文化交流の進め方」19:00–20:30、土曜「伝統芸能の記録」10:00–12:00。\n定員：各講座20人。応募多数の場合は初参加者を優先して抽選。\n申込：9月1日から14日まで。希望講座を第二希望まで選び、200字以内で参加理由を記入する。\n費用：無料。ただし土曜講座の会場までの交通費は自己負担。欠席連絡は前日17時までに事務局へ。",
-          "skill": "Reading",
-          "explanationVi": "対象条件を満たすので、期間内に申し込み、第二希望までと200字以内の理由を提出し、初回までにオンライン登録します。"
-        },
-        {
-          "id": "N2_09_M14_02",
-          "typeId": "N2-RD-INFO",
-          "category": "Mondai 14: 情報検索",
-          "stem": "応募者が定員を超えた場合、どのように参加者を決めるか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "申込順に全員を受け入れる"
-            },
-            {
-              "id": "B",
-              "text": "参加理由が最も長い人を選ぶ"
-            },
-            {
-              "id": "C",
-              "text": "初めて参加する人を優先して抽選する"
-            },
-            {
-              "id": "D",
-              "text": "市外在住者を優先する"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "応募多数なら初参加者を優先して抽選します。",
-          "distractorExplanations": {
-            "A": "定員は各20人です。",
-            "B": "文字数の長さで選ぶとはありません。",
-            "D": "市内関係者が対象です。"
-          },
-          "passage": "【市民文化講座・秋期】\n対象：市内在住・在勤・在学の16歳以上。初回講座までにオンライン登録が必要。\n講座：火曜「地域の歴史を読む」18:30–20:00、木曜「多文化交流の進め方」19:00–20:30、土曜「伝統芸能の記録」10:00–12:00。\n定員：各講座20人。応募多数の場合は初参加者を優先して抽選。\n申込：9月1日から14日まで。希望講座を第二希望まで選び、200字以内で参加理由を記入する。\n費用：無料。ただし土曜講座の会場までの交通費は自己負担。欠席連絡は前日17時までに事務局へ。",
-          "skill": "Reading",
-          "explanationVi": "応募多数なら初参加者を優先して抽選します。"
-        }
-      ]
-    },
-    {
-      "sectionId": "sec-2",
-      "sectionName": "Phần 2: Nghe hiểu (Listening Comprehension)",
-      "durationMinutes": 50,
-      "itemCount": 30,
-      "audioStatus": "BROWSER_PLAYBACK_VERIFIED",
-      "audioNoticeVi": "30 tệp đã khớp SHA-256, giải mã và ghi nhận tiến triển phát trên trình duyệt; chưa có chứng nhận chuyên gia về phát âm.",
-      "items": [
-        {
-          "id": "N2_09_M1_L01",
-          "typeId": "N2-LIS-TASK",
-          "category": "Mondai 1: 課題理解",
-          "script": "市役所の地域振興課で、職員と商店街の担当者が空き店舗の活用について話しています。担当者はまず何をしますか。\n\n女：空き店舗で学生の作品展をしたいのですが、来月の祭りに間に合いますか。\n男：会場は使えます。ただ、作品を置く前に、持ち主と展示期間を確認してください。壁に穴を開ける場合は別の許可も要ります。\n女：作品の運搬はこちらで手配します。\n男：では、まず所有者に期間と展示方法を説明して、書面で了解を取ってください。その後、会場の鍵をお渡しします。\n女：分かりました。先に所有者と条件を確認します。",
-          "stem": "担当者はまず何をしますか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "所有者に展示期間と方法を説明して許可を得る"
-            },
-            {
-              "id": "B",
-              "text": "作品の運搬業者を決める"
-            },
-            {
-              "id": "C",
-              "text": "会場の壁に展示用の穴を開ける"
-            },
-            {
-              "id": "D",
-              "text": "市役所から鍵を受け取って作品を置く"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "作品運搬や鍵の受け取りより前に、所有者へ条件を説明して許可を取ります。",
-          "distractorExplanations": {
-            "B": "運搬は担当者側で手配するとされ、依頼された最初の作業ではありません。",
-            "C": "壁に穴を開ける場合の追加許可は、所有者への確認とは別の条件です。",
-            "D": "鍵は所有者から書面の了解を得た後に渡すと説明されています。"
-          },
-          "skill": "Listening",
-          "explanationVi": "作品運搬や鍵の受け取りより前に、所有者へ条件を説明して許可を取ります。",
-          "audioUrl": "audio/n2_mock_09/N2_09_M1_L01.mp3",
-          "audioDurationSec": 60.024,
-          "audioSha256": "6265cd8f8ae507d2867e2f5231580679d4207d41d81482a069ac64b5ba9886f0",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_09_M1_L02",
-          "typeId": "N2-LIS-TASK",
-          "category": "Mondai 1: 課題理解",
-          "script": "地域の図書館で、司書と利用者が外国語の資料について話しています。司書はこの後、何をしますか。\n\n男：この町に来たばかりで、生活の手続きが分かる資料を探しています。\n女：英語版はありますが、今はベトナム語版を作っているところです。\n男：いつ頃見られますか。\n女：来週、内容の確認が終われば、入口の相談コーナーに置く予定です。ウェブ掲載はその後になります。\n男：では、来週また来ます。\n女：はい。完成したら、まず相談コーナーに置いておきます。",
-          "stem": "司書はこの後、資料をどうしますか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "英語版をすぐにウェブから削除する"
-            },
-            {
-              "id": "B",
-              "text": "確認が済んだ資料を相談コーナーに置く"
-            },
-            {
-              "id": "C",
-              "text": "利用者に翻訳を依頼する"
-            },
-            {
-              "id": "D",
-              "text": "資料を来月まで保管する"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "確認後、まず相談コーナーに置き、ウェブ掲載はその後と説明しています。",
-          "distractorExplanations": {
-            "A": "英語版を削除する話はなく、ベトナム語版は確認後に追加されます。",
-            "C": "翻訳を利用者に頼む指示はなく、資料は司書側で作成中です。",
-            "D": "公開予定は来週の確認後で、来月まで保管するとは言っていません。"
-          },
-          "skill": "Listening",
-          "explanationVi": "確認後、まず相談コーナーに置き、ウェブ掲載はその後と説明しています。",
-          "audioUrl": "audio/n2_mock_09/N2_09_M1_L02.mp3",
-          "audioDurationSec": 52.696,
-          "audioSha256": "0abfee7f701dee17a12a63c559f571001acb7f8a7532c5d17548d561da0c2ab0",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_09_M1_L03",
-          "typeId": "N2-LIS-TASK",
-          "category": "Mondai 1: 課題理解",
-          "script": "町内会の会長と住民が防災訓練について話しています。住民は次に何をしますか。\n\n男：訓練当日は、受付を手伝えばいいですか。\n女：受付も助かりますが、前回は高齢の方への案内が足りませんでした。\n男：私は近所の道をよく知っています。\n女：では、集合場所から避難所までの安全な道を確認して、地図に印を付けてください。受付は別の人に頼みます。\n男：分かりました。まず道を確認します。",
-          "stem": "住民は次に何をしますか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "受付の担当者を探す"
-            },
-            {
-              "id": "B",
-              "text": "避難所に備蓄品を運ぶ"
-            },
-            {
-              "id": "C",
-              "text": "避難経路を確認して地図に示す"
-            },
-            {
-              "id": "D",
-              "text": "訓練を中止する連絡をする"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "会長は住民に道の確認と地図への記入を頼んでいます。",
-          "distractorExplanations": {
-            "A": "受付ではなく、地図に安全な避難経路を示す役を頼まれました。",
-            "B": "備蓄品の運搬は会話に出ていません。",
-            "D": "訓練は中止せず、準備作業を進めています。"
-          },
-          "skill": "Listening",
-          "explanationVi": "会長は住民に道の確認と地図への記入を頼んでいます。",
-          "audioUrl": "audio/n2_mock_09/N2_09_M1_L03.mp3",
-          "audioDurationSec": 47.76,
-          "audioSha256": "bd851fc5db108ce3da771cf242c85503746c72ee3a786c9231a363d3ba734462",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_09_M1_L04",
-          "typeId": "N2-LIS-TASK",
-          "category": "Mondai 1: 課題理解",
-          "script": "市の広報担当者と記者が公共施設の利用案内について話しています。担当者は案内文をどう直しますか。\n\n女：新しい施設の予約方法をウェブに載せました。\n男：申込期限は分かりますが、抽選になる場合があることが見つけにくいですね。\n女：注意書きの最後に書いてあります。\n男：最初に目立つ形で知らせたほうが、利用者が誤解しにくいでしょう。\n女：確かに。抽選の可能性を冒頭にも書きます。\n男：予約ページへのリンクはそのままでいいですね。\n女：はい、そこは変更しません。",
-          "stem": "担当者は案内文をどう直しますか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "申込期限を削除する"
-            },
-            {
-              "id": "B",
-              "text": "施設の利用を先着順だけにする"
-            },
-            {
-              "id": "C",
-              "text": "予約ページへのリンクを外す"
-            },
-            {
-              "id": "D",
-              "text": "抽選の可能性を冒頭にも明記する"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "期限やリンクは変えず、抽選の可能性を目立つ位置に追加します。",
-          "distractorExplanations": {
-            "A": "申込期限は残し、抽選の注意を追加します。",
-            "B": "抽選の可能性を知らせるだけで、先着順への制度変更はありません。",
-            "C": "予約リンクは変更しないと担当者が確認しています。"
-          },
-          "skill": "Listening",
-          "explanationVi": "期限やリンクは変えず、抽選の可能性を目立つ位置に追加します。",
-          "audioUrl": "audio/n2_mock_09/N2_09_M1_L04.mp3",
-          "audioDurationSec": 52.664,
-          "audioSha256": "a9da80c26b740f3191c35f8833d56e968251c7fe0d8dc291a5301dd5e27b0c65",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_09_M1_L05",
-          "typeId": "N2-LIS-TASK",
-          "category": "Mondai 1: 課題理解",
-          "script": "市民講座の担当者と講師が参加者募集について話しています。講師はまず何をしますか。\n\n男：募集を始める前に、講座の内容を詳しく書いた案内を作りたいです。\n女：内容は決まっていますが、対象を高校生に限るか、一般にも開くか決めていません。\n男：昨年は高校生の質問が多かったですね。\n女：今年は地域の人にも参加してもらいたいので、対象を広げます。案内を作る前に、定員と申込方法を確認してください。\n男：分かりました。事務局に定員を聞きます。",
-          "stem": "講師はまず何をしますか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "事務局に定員と申込方法を確認する"
-            },
-            {
-              "id": "B",
-              "text": "講座の内容を変更する"
-            },
-            {
-              "id": "C",
-              "text": "対象を高校生だけに決める"
-            },
-            {
-              "id": "D",
-              "text": "昨年の質問をすべて記録する"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "募集対象を広げる方針のもと、講師は案内作成前に定員と申込方法を確認します。",
-          "distractorExplanations": {
-            "B": "講座内容はすでに決まっており、変更の指示はありません。",
-            "C": "対象は高校生に限らず地域の人にも広げる方針です。",
-            "D": "昨年の質問を集め直すことは、今年の募集準備として頼まれていません。"
-          },
-          "skill": "Listening",
-          "explanationVi": "募集対象を広げる方針のもと、講師は案内作成前に定員と申込方法を確認します。",
-          "audioUrl": "audio/n2_mock_09/N2_09_M1_L05.mp3",
-          "audioDurationSec": 51.48,
-          "audioSha256": "d517f1fa2c17042441a695e59739cc11daf29fb64ed63d00e9bd51b0e9c12672",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_09_M2_L01",
-          "typeId": "N2-LIS-POINT",
-          "category": "Mondai 2: ポイント理解",
-          "script": "市の担当者と商店主が、歩行者天国の実施日について話しています。\n\n女：歩行者天国は、毎月第一日曜にする案でしたね。\n男：はい。ただ、第一日曜は市場の搬入と重なります。\n女：では、第二日曜に移しましょう。開始時間は午前十時のままでいいですか。\n男：ええ。搬入車が通らない時間を確認して、その日で商店会に提案します。",
-          "stem": "歩行者天国はいつ実施する案になりましたか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "毎月第二日曜の午前十時"
-            },
-            {
-              "id": "B",
-              "text": "毎月第一日曜の午前十時"
-            },
-            {
-              "id": "C",
-              "text": "毎月第二土曜の午後"
-            },
-            {
-              "id": "D",
-              "text": "毎月第三日曜の正午"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "市場の搬入を避け、第二日曜に変更します。開始は午前十時のままです。",
-          "distractorExplanations": {
-            "B": "第一日曜は市場の搬入と重なるため、実施日を移します。",
-            "C": "変更するのは日曜日で、土曜日への移動はありません。",
-            "D": "第三日曜や正午にする案は出ていません。"
-          },
-          "skill": "Listening",
-          "explanationVi": "市場の搬入を避け、第二日曜に変更します。開始は午前十時のままです。",
-          "audioUrl": "audio/n2_mock_09/N2_09_M2_L01.mp3",
-          "audioDurationSec": 48.968,
-          "audioSha256": "d21f814071ba4d11db92e119a54f529063067c496f51ff3ccd5442bf92c18edf",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_09_M2_L02",
-          "typeId": "N2-LIS-POINT",
-          "category": "Mondai 2: ポイント理解",
-          "script": "文化施設の館長が、展示室の照明について説明しています。\n\n展示室の照明を新しくするため、今月末から三日間、一階の展示室を閉めます。二階の展示と閲覧室は通常どおり利用できます。作業中も入口の受付は開いています。団体で見学する場合は、前日までに電話で予約してください。",
-          "stem": "工事期間中に利用できるのはどこですか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "一階の展示室だけ"
-            },
-            {
-              "id": "B",
-              "text": "二階の展示と閲覧室"
-            },
-            {
-              "id": "C",
-              "text": "一階と二階の展示室"
-            },
-            {
-              "id": "D",
-              "text": "入口の受付だけ"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "閉鎖するのは一階展示室で、二階展示と閲覧室は通常利用できます。",
-          "distractorExplanations": {
-            "A": "一階展示室は工事のため閉鎖されます。",
-            "C": "一階が使えないため、両方の展示室を利用することはできません。",
-            "D": "入口受付は開いていますが、質問は利用できる場所を尋ねています。"
-          },
-          "skill": "Listening",
-          "explanationVi": "閉鎖するのは一階展示室で、二階展示と閲覧室は通常利用できます。",
-          "audioUrl": "audio/n2_mock_09/N2_09_M2_L02.mp3",
-          "audioDurationSec": 41.744,
-          "audioSha256": "5dccaec89e7b316ba0a0d108c34474103006600a14556f3e379d735d09c36abe",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_09_M2_L03",
-          "typeId": "N2-LIS-POINT",
-          "category": "Mondai 2: ポイント理解",
-          "script": "商店街の会議で、イベントの広報方法について話しています。\n\n男：去年はチラシを一万枚配りましたが、どのくらい来たか分かりませんでした。\n女：今年は枚数を減らして、駅と商店街の入口に案内を出しませんか。\n男：それに加えて、来場者に何を見て知ったか簡単に聞けば、次の宣伝に役立ちますね。\n女：そうしましょう。",
-          "stem": "今年、二人は広報の効果をどう確かめますか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "チラシを前年より多く配る"
-            },
-            {
-              "id": "B",
-              "text": "駅の案内をやめる"
-            },
-            {
-              "id": "C",
-              "text": "来場者に情報を知った経路を尋ねる"
-            },
-            {
-              "id": "D",
-              "text": "来場者数を予測して記録しない"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "来場者にどこで催しを知ったか尋ねる案で一致しています。",
-          "distractorExplanations": {
-            "A": "今年はチラシ枚数を増やさず、減らす案です。",
-            "B": "駅と商店街入口の案内は続ける方針です。",
-            "D": "来場者数を記録しないのでなく、認知経路を聞いて効果を確かめます。"
-          },
-          "skill": "Listening",
-          "explanationVi": "来場者にどこで催しを知ったか尋ねる案で一致しています。",
-          "audioUrl": "audio/n2_mock_09/N2_09_M2_L03.mp3",
-          "audioDurationSec": 44.648,
-          "audioSha256": "3c3ccb614bcb429866de58243e61974414296498aa515f0a3964f97714778ff3",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_09_M2_L04",
-          "typeId": "N2-LIS-POINT",
-          "category": "Mondai 2: ポイント理解",
-          "script": "町内会の担当者が、祭りのごみ処理について話しています。\n\n女：屋台のごみ箱は、会場の中央にまとめる予定です。\n男：中央だけだと、端の人が遠くて道に置くかもしれません。\n女：では、入口と出口にも置きましょう。回収は終了後に一度ではなく、混雑する時間に見回ります。\n男：分かりました。",
-          "stem": "ごみ箱をどう配置しますか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "会場の中央にだけ置く"
-            },
-            {
-              "id": "B",
-              "text": "出口を閉鎖してごみを集める"
-            },
-            {
-              "id": "C",
-              "text": "屋台のそばには置かず、終了後に回収する"
-            },
-            {
-              "id": "D",
-              "text": "入口と出口に置き、混雑時に回収状況を確認する"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "入口・出口にも設置し、混雑時に見回る方針です。",
-          "distractorExplanations": {
-            "A": "中央だけでなく入口と出口にもごみ箱を置きます。",
-            "B": "出口を閉鎖する案は会話にありません。",
-            "C": "屋台のそばを避ける指示はなく、混雑時にも回収状況を見ます。"
-          },
-          "skill": "Listening",
-          "explanationVi": "入口・出口にも設置し、混雑時に見回る方針です。",
-          "audioUrl": "audio/n2_mock_09/N2_09_M2_L04.mp3",
-          "audioDurationSec": 42.224,
-          "audioSha256": "1a6003bbe5215d365709540fa66cb85e07ffa418d557bda39f3c85600c0e9065",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_09_M2_L05",
-          "typeId": "N2-LIS-POINT",
-          "category": "Mondai 2: ポイント理解",
-          "script": "市役所の職員が、多言語の災害情報について説明しています。\n\n災害時の情報は、翻訳文を同時に出すだけでは十分ではありません。専門用語をそのまま訳すと、かえって意味が伝わらない場合があります。市では、まず短い日本語で要点を整理し、その後、地域で使われている言語に翻訳します。内容を確認する時は、翻訳者だけでなく、実際にその言語を使う住民にも読んでもらいます。",
-          "stem": "市が翻訳内容を確認する際に行うことは何ですか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "要点を短い日本語にし、利用者にも確認してもらう"
-            },
-            {
-              "id": "B",
-              "text": "日本語の全文をそのまま翻訳者だけに渡す"
-            },
-            {
-              "id": "C",
-              "text": "災害情報を翻訳せずに出す"
-            },
-            {
-              "id": "D",
-              "text": "専門用語を増やして正確さを高める"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "短い日本語で要点を整理し、翻訳者と実際の利用者の両方で確認します。",
-          "distractorExplanations": {
-            "B": "翻訳者だけでなく、短い日本語で要点をまとめてから確認します。",
-            "C": "翻訳して出す方針で、翻訳を省くとは言っていません。",
-            "D": "専門用語を増やすのでなく、要点を分かりやすく整理します。"
-          },
-          "skill": "Listening",
-          "explanationVi": "短い日本語で要点を整理し、翻訳者と実際の利用者の両方で確認します。",
-          "audioUrl": "audio/n2_mock_09/N2_09_M2_L05.mp3",
-          "audioDurationSec": 49.64,
-          "audioSha256": "1bf80a06fa1932ea6dfd3a5ceecbbfcc91b92c9b5b79c609be3c619c6ded8c7a",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_09_M2_L06",
-          "typeId": "N2-LIS-POINT",
-          "category": "Mondai 2: ポイント理解",
-          "script": "商店街の会長が、空き店舗の展示会の期間について話しています。\n\n男：展示会は一か月続けたいと思います。\n女：参加作家の都合で、全員の作品を一か月置くのは難しいそうです。\n男：では、前半と後半で作品を入れ替えましょう。会場は同じままにできますか。\n女：はい。案内は展示期間を二部に分けて書きます。",
-          "stem": "展示会はどう実施することになりましたか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "会場を二つに分け、全員の作品を一か月展示する"
-            },
-            {
-              "id": "B",
-              "text": "前半と後半で作品を入れ替え、会場は同じにする"
-            },
-            {
-              "id": "C",
-              "text": "展示期間を一週間に短縮する"
-            },
-            {
-              "id": "D",
-              "text": "作家全員の参加を取りやめる"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "作品を二部に分けて入れ替え、同じ会場で続けます。",
-          "distractorExplanations": {
-            "A": "会場を二つに分ける必要はなく、同じ会場を使います。",
-            "C": "期間を一週間に短縮するのでなく、前後半で展示を入れ替えます。",
-            "D": "全作家が不参加になるのでなく、作品の展示時期を分けます。"
-          },
-          "skill": "Listening",
-          "explanationVi": "作品を二部に分けて入れ替え、同じ会場で続けます。",
-          "audioUrl": "audio/n2_mock_09/N2_09_M2_L06.mp3",
-          "audioDurationSec": 45.08,
-          "audioSha256": "70ccac55b03e0cbb273b52ccac62dc13dd77ff4659ebbc823bd4139935675356",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_09_M3_L01",
-          "typeId": "N2-LIS-SUMM",
-          "category": "Mondai 3: 概要理解",
-          "script": "市の広報誌に載せる文章について、編集者が意見を述べています。\n\n近ごろ、地域の情報を短い動画で伝える自治体が増えました。動画は雰囲気を伝えやすい一方で、日時や申込条件を後から探すのが難しいことがあります。だから、動画だけに頼るのではなく、同じ内容を文字でも確認できるようにすることが大切です。見る人の得意な方法に合わせて、複数の伝え方を用意したいと思います。",
-          "stem": "話し手が最も伝えたいことは何ですか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "動画と文字の両方で必要な情報を確認できるようにするべきだ"
-            },
-            {
-              "id": "B",
-              "text": "動画を使った広報をすべて中止するべきだ"
-            },
-            {
-              "id": "C",
-              "text": "自治体の動画は短くすれば十分だ"
-            },
-            {
-              "id": "D",
-              "text": "申込条件を広報誌から削除するべきだ"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "動画の利点を認めつつ、文字でも確認できる複数の伝達方法が必要だと述べています。",
-          "distractorExplanations": {
-            "B": "話し手は動画の雰囲気を伝える利点も認め、併用を提案しています。",
-            "C": "短さだけでなく、日時や条件を文字でも探せることが要点です。",
-            "D": "申込条件は削除でなく、別の形でも確認できるようにします。"
-          },
-          "skill": "Listening",
-          "explanationVi": "動画の利点を認めつつ、文字でも確認できる複数の伝達方法が必要だと述べています。",
-          "audioUrl": "audio/n2_mock_09/N2_09_M3_L01.mp3",
-          "audioDurationSec": 66.508,
-          "audioSha256": "dd0e87c78dd4cb0aee8c0458d6db91ce4ba4061f421e50287187c3c5c6a88e75",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_09_M3_L02",
-          "typeId": "N2-LIS-SUMM",
-          "category": "Mondai 3: 概要理解",
-          "script": "地域の歴史を調べる研究者が、聞き取り調査について話しています。\n\n古い出来事を聞き取る時、話し手の記憶は貴重な資料です。ただし、何十年も前の記憶には、別の時期の経験が混ざることがあります。話を疑うという意味ではありません。写真や新聞など別の資料と照らし合わせ、食い違いがあれば、なぜ違うのかを追加で尋ねることが大切です。証言と記録を比べることで、出来事をより立体的に理解できます。",
-          "stem": "話し手は聞き取りの記録をどう扱うべきだと考えていますか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "証言だけを事実として記録する"
-            },
-            {
-              "id": "B",
-              "text": "他の資料とも比べ、違いの背景を確かめる"
-            },
-            {
-              "id": "C",
-              "text": "記憶を疑って調査をやめる"
-            },
-            {
-              "id": "D",
-              "text": "新聞の内容を証言より常に優先する"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "証言を否定するのでなく、他の資料と照合して相違の理由を確かめます。",
-          "distractorExplanations": {
-            "A": "証言を貴重な資料と評価しており、それだけを唯一の根拠にするとは言いません。",
-            "C": "調査をやめるのではなく、違いがあれば追加で確かめます。",
-            "D": "新聞を常に優先するのでなく、複数資料を照合します。"
-          },
-          "skill": "Listening",
-          "explanationVi": "証言を否定するのでなく、他の資料と照合して相違の理由を確かめます。",
-          "audioUrl": "audio/n2_mock_09/N2_09_M3_L02.mp3",
-          "audioDurationSec": 67.996,
-          "audioSha256": "ac9621d99f3d236acc1295d0506c0525eee86b962ff926479728ddb5ed5cc12f",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_09_M3_L03",
-          "typeId": "N2-LIS-SUMM",
-          "category": "Mondai 3: 概要理解",
-          "script": "商店主が、地域イベントの成果の見方について話しています。\n\n祭りの日の売上が増えると、イベントは成功だと言われます。でも、準備にかかった費用や、通常の営業日に来るお客さんが減っていないかも見ないと、本当に商店のためになったかは分かりません。来場者数だけを目標にせず、店の人と地域の人が何を期待しているのかを先に確認する必要があると思います。",
-          "stem": "話し手はイベントを評価する時、何が必要だと言っていますか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "来場者数を毎年同じにすること"
-            },
-            {
-              "id": "B",
-              "text": "準備費用を記録しないこと"
-            },
-            {
-              "id": "C",
-              "text": "売上の数字だけでなく費用や普段の営業への影響も見ること"
-            },
-            {
-              "id": "D",
-              "text": "地域の人の期待を後から推測すること"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "売上だけでなく費用・通常営業への影響を確かめる必要があると述べます。",
-          "distractorExplanations": {
-            "A": "来場者数だけを目標にしないと明言しています。",
-            "B": "費用も見るべきで、記録しないとは言っていません。",
-            "D": "期待を事前に確認する必要があるという主張で、後から推測するのではありません。"
-          },
-          "skill": "Listening",
-          "explanationVi": "売上だけでなく費用・通常営業への影響を確かめる必要があると述べます。",
-          "audioUrl": "audio/n2_mock_09/N2_09_M3_L03.mp3",
-          "audioDurationSec": 63.244,
-          "audioSha256": "cec6b33326f131a3f66a466ce3697caca1e8ef2b502283e06831056c60cb8d22",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_09_M3_L04",
-          "typeId": "N2-LIS-SUMM",
-          "category": "Mondai 3: 概要理解",
-          "script": "大学の講師が、地域の方言を記録する活動について説明しています。\n\n方言を記録する時、珍しい言葉だけを集めればよいわけではありません。どんな相手に、どの場面で使うかが分からなければ、言葉の働きが見えなくなります。若い人が使わなくなった表現も、年配の人が使う状況を記録し、世代による違いを比べたいのです。言葉を保存するだけでなく、生活との関係を残すことが目的です。",
-          "stem": "この活動の目的は何ですか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "珍しい単語の一覧を作ること"
-            },
-            {
-              "id": "B",
-              "text": "方言を日常会話からなくすこと"
-            },
-            {
-              "id": "C",
-              "text": "若い人に昔の表現だけを使わせること"
-            },
-            {
-              "id": "D",
-              "text": "使われる場面や世代差も含めて記録すること"
-            }
-          ],
-          "correctAnswer": "D",
-          "explanation": "語彙だけでなく、使用場面と世代による違いを含めて生活との関係を記録します。",
-          "distractorExplanations": {
-            "A": "珍しい単語だけでは使用状況が分からないと説明しています。",
-            "B": "方言をなくすのでなく、生活の中でどう使うか記録します。",
-            "C": "若い人に特定表現の使用を義務づける話ではありません。"
-          },
-          "skill": "Listening",
-          "explanationVi": "語彙だけでなく、使用場面と世代による違いを含めて生活との関係を記録します。",
-          "audioUrl": "audio/n2_mock_09/N2_09_M3_L04.mp3",
-          "audioDurationSec": 63.316,
-          "audioSha256": "582964418c4c20390869c5b05928f9ccb7116e1ea5bb5e25ea4afa68ba859c3c",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_09_M3_L05",
-          "typeId": "N2-LIS-SUMM",
-          "category": "Mondai 3: 概要理解",
-          "script": "市議会の委員が、公共施設の利用者調査について話しています。\n\nアンケートで満足度を尋ねるのは大切ですが、それだけで施設の価値を決めるのは難しいでしょう。利用する人は答えられても、交通が不便で来られない人や、施設の存在を知らない人は回答しにくいからです。来館者の意見と合わせて、利用していない人にも届く方法で理由を聞く必要があります。",
-          "stem": "委員が特に問題だと考えているのは何ですか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "利用していない人の意見が調査から抜けやすいこと"
-            },
-            {
-              "id": "B",
-              "text": "満足度アンケートの質問数が多いこと"
-            },
-            {
-              "id": "C",
-              "text": "公共施設が無料であること"
-            },
-            {
-              "id": "D",
-              "text": "来館者の意見を聞きすぎること"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "来館しない人は回答しにくく、調査から抜ける可能性を指摘しています。",
-          "distractorExplanations": {
-            "B": "質問数や長さでなく、利用しない人が調査から抜ける点が問題です。",
-            "C": "施設の無料利用については述べていません。",
-            "D": "来館者の意見を集めること自体に反対していません。"
-          },
-          "skill": "Listening",
-          "explanationVi": "来館しない人は回答しにくく、調査から抜ける可能性を指摘しています。",
-          "audioUrl": "audio/n2_mock_09/N2_09_M3_L05.mp3",
-          "audioDurationSec": 59.572,
-          "audioSha256": "752e9ff1b041af7975b4c1a09a75cdf9f00548ae74e1096c30cbbf01f640e2dc",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_09_M4_L01",
-          "typeId": "N2-LIS-RESP",
-          "category": "Mondai 4: 即時応答",
-          "script": "男：この資料、専門用語が多くて初めて読む人には難しそうですね。",
-          "stem": "この資料、専門用語が多くて初めて読む人には難しそうですね。",
-          "options": [
-            {
-              "id": "A",
-              "text": "では、説明を短い言葉に直してみましょう。"
-            },
-            {
-              "id": "B",
-              "text": "資料室は駅の向かいです。"
-            },
-            {
-              "id": "C",
-              "text": "はい、専門家は今朝帰りました。"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "分かりにくさの指摘に、表現を平易に直す提案が合います。",
-          "distractorExplanations": {
-            "B": "駅の場所の案内で、資料の難しさへの対応にはなりません。",
-            "C": "講師の帰宅時刻は、専門語が多いという指摘と無関係です。"
-          },
-          "skill": "Listening",
-          "explanationVi": "分かりにくさの指摘に、表現を平易に直す提案が合います。",
-          "audioUrl": "audio/n2_mock_09/N2_09_M4_L01.mp3",
-          "audioDurationSec": 26.788,
-          "audioSha256": "7884c1d97e15448acc20b930113d5920ad7163bc5e8bfb70719d9169af3f5c17",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_09_M4_L02",
-          "typeId": "N2-LIS-RESP",
-          "category": "Mondai 4: 即時応答",
-          "script": "女：会場の入口が少し分かりにくかったという声がありました。",
-          "stem": "会場の入口が少し分かりにくかったという声がありました。",
-          "options": [
-            {
-              "id": "A",
-              "text": "入口で昨日の新聞を読みました。"
-            },
-            {
-              "id": "B",
-              "text": "それなら、案内表示を増やしてみませんか。"
-            },
-            {
-              "id": "C",
-              "text": "はい、会場は三年前にできました。"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "案内の分かりにくさには表示改善の提案が自然です。",
-          "distractorExplanations": {
-            "A": "新聞を読む場所の話で、会場の案内表示の改善に答えていません。",
-            "C": "施設ができた時期を伝えるだけでは、入口の分かりにくさを解決しません。"
-          },
-          "skill": "Listening",
-          "explanationVi": "案内の分かりにくさには表示改善の提案が自然です。",
-          "audioUrl": "audio/n2_mock_09/N2_09_M4_L02.mp3",
-          "audioDurationSec": 26.308,
-          "audioSha256": "2817476cf09787541271f21977115f12a7deca400d229351fa638fb60802cd95",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_09_M4_L03",
-          "typeId": "N2-LIS-RESP",
-          "category": "Mondai 4: 即時応答",
-          "script": "男：申し訳ありません、予約した時間に遅れそうです。",
-          "stem": "申し訳ありません、予約した時間に遅れそうです。",
-          "options": [
-            {
-              "id": "A",
-              "text": "はい、時間はいつも同じです。"
-            },
-            {
-              "id": "B",
-              "text": "予約表は先月作りました。"
-            },
-            {
-              "id": "C",
-              "text": "では、到着する時刻が分かったら連絡してください。"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "遅刻の連絡に対して、到着時刻の再連絡を求めるのが適切です。",
-          "distractorExplanations": {
-            "A": "一般的な時間の話で、今回の到着連絡には答えていません。",
-            "B": "予約表の作成時期は、遅れる連絡への次の手順を示していません。"
-          },
-          "skill": "Listening",
-          "explanationVi": "遅刻の連絡に対して、到着時刻の再連絡を求めるのが適切です。",
-          "audioUrl": "audio/n2_mock_09/N2_09_M4_L03.mp3",
-          "audioDurationSec": 26.116,
-          "audioSha256": "fde79975b8476898117a7b82e4ed55d37797e81b09b1e4068deb9a3e8a71b745",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_09_M4_L04",
-          "typeId": "N2-LIS-RESP",
-          "category": "Mondai 4: 即時応答",
-          "script": "女：この行事、若い人の参加が少ないですね。",
-          "stem": "この行事、若い人の参加が少ないですね。",
-          "options": [
-            {
-              "id": "A",
-              "text": "参加しやすい役割や時間を考えてみましょう。"
-            },
-            {
-              "id": "B",
-              "text": "若い木は裏庭に植えました。"
-            },
-            {
-              "id": "C",
-              "text": "はい、参加賞は駅で買えます。"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "参加者が少ない問題には参加条件を工夫する提案が合います。",
-          "distractorExplanations": {
-            "B": "木の植え場所は、若い人の参加が少ないという相談と関係ありません。",
-            "C": "参加賞の購入場所は、参加を増やす方法への提案になりません。"
-          },
-          "skill": "Listening",
-          "explanationVi": "参加者が少ない問題には参加条件を工夫する提案が合います。",
-          "audioUrl": "audio/n2_mock_09/N2_09_M4_L04.mp3",
-          "audioDurationSec": 24.748,
-          "audioSha256": "36791dcd900d6cce5a4f1914bece05374a1f38e5fc65d44da0412af0e7cfb22c",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_09_M4_L05",
-          "typeId": "N2-LIS-RESP",
-          "category": "Mondai 4: 即時応答",
-          "script": "男：この数字だけで、制度の効果があったと言えるでしょうか。",
-          "stem": "この数字だけで、制度の効果があったと言えるでしょうか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "数字は壁の右に書いてあります。"
-            },
-            {
-              "id": "B",
-              "text": "別の地域や期間の結果とも比べてみましょう。"
-            },
-            {
-              "id": "C",
-              "text": "はい、効果は午後に届きます。"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "単一の数値への疑問に、比較材料を増やす提案が自然です。",
-          "distractorExplanations": {
-            "A": "数字の掲示場所を伝えるだけで、評価に使う情報を増やす提案ではありません。",
-            "C": "効果が届くという表現は、根拠の比較に答えていません。"
-          },
-          "skill": "Listening",
-          "explanationVi": "単一の数値への疑問に、比較材料を増やす提案が自然です。",
-          "audioUrl": "audio/n2_mock_09/N2_09_M4_L05.mp3",
-          "audioDurationSec": 25.732,
-          "audioSha256": "ed5bea0dd366a3913dd4c5a05e59f8f5447409114c07e0470c115e4e37442800",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_09_M4_L06",
-          "typeId": "N2-LIS-RESP",
-          "category": "Mondai 4: 即時応答",
-          "script": "女：今日は道路が混んでいるので、集合場所に少し遅れます。",
-          "stem": "今日は道路が混んでいるので、集合場所に少し遅れます。",
-          "options": [
-            {
-              "id": "A",
-              "text": "はい、道は毎日同じです。"
-            },
-            {
-              "id": "B",
-              "text": "集合写真は来週撮ります。"
-            },
-            {
-              "id": "C",
-              "text": "分かりました。着いたら受付に声をかけてください。"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "遅れる連絡を受け、到着後の手順を伝える応答です。",
-          "distractorExplanations": {
-            "A": "道の普段の状態ではなく、今日の到着後の案内を求めています。",
-            "B": "写真撮影の予定は、交通事情による遅刻の連絡と無関係です。"
-          },
-          "skill": "Listening",
-          "explanationVi": "遅れる連絡を受け、到着後の手順を伝える応答です。",
-          "audioUrl": "audio/n2_mock_09/N2_09_M4_L06.mp3",
-          "audioDurationSec": 26.548,
-          "audioSha256": "b13af786e7eef8ea9aa26b8d35612da0e9504f3175a0d06a5e2357fe3ef75512",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_09_M4_L07",
-          "typeId": "N2-LIS-RESP",
-          "category": "Mondai 4: 即時応答",
-          "script": "男：反対意見も会議の記録に残したほうがいいですか。",
-          "stem": "反対意見も会議の記録に残したほうがいいですか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "はい、理由と一緒に記録しておくとよいでしょう。"
-            },
-            {
-              "id": "B",
-              "text": "記録係は二階の部屋です。"
-            },
-            {
-              "id": "C",
-              "text": "いいえ、会議は来月終わります。"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "記録の扱いに関する質問へ、反対意見も理由とともに残す助言です。",
-          "distractorExplanations": {
-            "B": "部屋の場所を案内するだけで、反対意見を記録するかには答えません。",
-            "C": "会議の予定時期では、記録方法への確認に対応できません。"
-          },
-          "skill": "Listening",
-          "explanationVi": "記録の扱いに関する質問へ、反対意見も理由とともに残す助言です。",
-          "audioUrl": "audio/n2_mock_09/N2_09_M4_L07.mp3",
-          "audioDurationSec": 25.54,
-          "audioSha256": "7f29db78c113d39d0771a9824930b527861f915f05ef39e3bd2e057291541258",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_09_M4_L08",
-          "typeId": "N2-LIS-RESP",
-          "category": "Mondai 4: 即時応答",
-          "script": "女：展示の説明文、もう少し短くできませんか。",
-          "stem": "展示の説明文、もう少し短くできませんか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "展示会は午後から始まります。"
-            },
-            {
-              "id": "B",
-              "text": "要点を残して、重複している部分を削りましょう。"
-            },
-            {
-              "id": "C",
-              "text": "はい、短い道を通って帰りました。"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "説明文を短くする相談に、重複部分を削る案が合います。",
-          "distractorExplanations": {
-            "A": "展示会の開始時刻は、説明文を短くする相談と関係ありません。",
-            "C": "道順の「短さ」の話で、文の重複を減らす提案ではありません。"
-          },
-          "skill": "Listening",
-          "explanationVi": "説明文を短くする相談に、重複部分を削る案が合います。",
-          "audioUrl": "audio/n2_mock_09/N2_09_M4_L08.mp3",
-          "audioDurationSec": 26.428,
-          "audioSha256": "c92f07892c1b58f8884546c52ad847d2d983465222b141395fdc636906a46642",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_09_M4_L09",
-          "typeId": "N2-LIS-RESP",
-          "category": "Mondai 4: 即時応答",
-          "script": "男：申込方法が変わったことを、まだ知らない人が多いようです。",
-          "stem": "申込方法が変わったことを、まだ知らない人が多いようです。",
-          "options": [
-            {
-              "id": "A",
-              "text": "はい、知らせは先週食べました。"
-            },
-            {
-              "id": "B",
-              "text": "方法は駅前で練習しました。"
-            },
-            {
-              "id": "C",
-              "text": "では、以前申し込んだ人にも改めて知らせましょう。"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "変更の周知不足には、対象者へ再通知する提案が適切です。",
-          "distractorExplanations": {
-            "A": "食べるという返答は意味が通らず、変更通知にも答えていません。",
-            "B": "練習場所は周知不足の相談と無関係です。"
-          },
-          "skill": "Listening",
-          "explanationVi": "変更の周知不足には、対象者へ再通知する提案が適切です。",
-          "audioUrl": "audio/n2_mock_09/N2_09_M4_L09.mp3",
-          "audioDurationSec": 27.196,
-          "audioSha256": "453ab44ebb27e1da3d1b84659f7d71f9ce6ba5630bad2683f58e97868bc0e78d",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_09_M4_L10",
-          "typeId": "N2-LIS-RESP",
-          "category": "Mondai 4: 即時応答",
-          "script": "女：さっきの説明だと、誰が費用を負担するのか分かりませんでした。",
-          "stem": "さっきの説明だと、誰が費用を負担するのか分かりませんでした。",
-          "options": [
-            {
-              "id": "A",
-              "text": "失礼しました。負担する人と金額をもう一度説明します。"
-            },
-            {
-              "id": "B",
-              "text": "費用は昨日、道を負担しました。"
-            },
-            {
-              "id": "C",
-              "text": "はい、説明書は青い色です。"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "説明不足への指摘を受け、負担者と金額を明確に説明する返答です。",
-          "distractorExplanations": {
-            "B": "費用を道路が負担するという文は、費用負担者を明確にする返答になりません。",
-            "C": "色の情報では、誰がいくら負担するか分かりません。"
-          },
-          "skill": "Listening",
-          "explanationVi": "説明不足への指摘を受け、負担者と金額を明確に説明する返答です。",
-          "audioUrl": "audio/n2_mock_09/N2_09_M4_L10.mp3",
-          "audioDurationSec": 28.66,
-          "audioSha256": "a0d921877f01939bab3e4b045ee32d0c136c681a4bd047652d9955c8edeb2027",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_09_M4_L11",
-          "typeId": "N2-LIS-RESP",
-          "category": "Mondai 4: 即時応答",
-          "script": "男：当日の案内係が一人だけでは足りないかもしれません。",
-          "stem": "当日の案内係が一人だけでは足りないかもしれません。",
-          "options": [
-            {
-              "id": "A",
-              "text": "案内は毎週木曜日に届きます。"
-            },
-            {
-              "id": "B",
-              "text": "そうですね。混みそうな場所にも担当を置きましょう。"
-            },
-            {
-              "id": "C",
-              "text": "はい、一人は数字の一つです。"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "人手不足の可能性に対して、混雑場所にも人員を配置する提案です。",
-          "distractorExplanations": {
-            "A": "案内が届く曜日は、当日の人員不足への対応ではありません。",
-            "C": "一人を数字として扱う冗談で、係員配置の提案になりません。"
-          },
-          "skill": "Listening",
-          "explanationVi": "人手不足の可能性に対して、混雑場所にも人員を配置する提案です。",
-          "audioUrl": "audio/n2_mock_09/N2_09_M4_L11.mp3",
-          "audioDurationSec": 27.004,
-          "audioSha256": "8e3ba4297aff1d52a6ef21f055f05e4c9a138568a247c1421bb06ed1b5beeb6a",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_09_M5_L01",
-          "typeId": "N2-LIS-INTEG",
-          "category": "Mondai 5: 統合理解",
-          "script": "地域の図書館で、司書とボランティアが子ども向け行事の運営について話しています。\n\n女：読み聞かせ会は午後二時に始めます。参加は無料ですが、座席の準備があるので、前日までに予約してください。\n男：子どもが途中で帰っても大丈夫ですか。\n女：もちろんです。保護者は入口で名前だけ記入してください。写真撮影は、他の参加者が写らない場合に限ります。\n男：分かりました。案内には途中退出と撮影の条件も書きます。",
-          "stem": "ボランティアは案内に何を追加しますか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "途中退出と撮影の条件"
-            },
-            {
-              "id": "B",
-              "text": "参加費と開始時刻だけ"
-            },
-            {
-              "id": "C",
-              "text": "予約不要であること"
-            },
-            {
-              "id": "D",
-              "text": "保護者の住所を記入すること"
-            }
-          ],
-          "correctAnswer": "A",
-          "explanation": "話し手は途中退出可能と、他の参加者が写らない場合に限り撮影できると確認しています。",
-          "distractorExplanations": {
-            "B": "開始時刻と費用は説明済みですが、案内に加える内容を尋ねています。",
-            "C": "予約は前日までに必要で、不要とは言っていません。",
-            "D": "保護者は名前を記入し、住所の記入とはされていません。"
-          },
-          "skill": "Listening",
-          "explanationVi": "話し手は途中退出可能と、他の参加者が写らない場合に限り撮影できると確認しています。",
-          "audioUrl": "audio/n2_mock_09/N2_09_M5_L01.mp3",
-          "audioDurationSec": 52.388,
-          "audioSha256": "05928d85608bbf8e402ae493019b0d7bfacc291dc4ca58fc9c43b3ac3293622d",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_09_M5_L02",
-          "typeId": "N2-LIS-INTEG",
-          "category": "Mondai 5: 統合理解",
-          "script": "市の職員と地域の代表が、住民説明会の開催方法について話しています。\n\n男：説明会は平日の午後六時に一度だけ開く予定です。\n女：その時間は仕事で来られない人が多いと思います。内容を録画して後日見られるようにできませんか。\n男：録画はできますが、質問への回答はその場だけになります。\n女：では、後から質問を送れる期間も設けてください。回答はまとめて公開すれば、当日来られない人にも伝わります。\n男：分かりました。開催後一週間、質問を受け付けます。",
-          "stem": "説明会の後、市は何をすることになりましたか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "録画を削除する"
-            },
-            {
-              "id": "B",
-              "text": "質問を一週間受け付け、回答をまとめて公開する"
-            },
-            {
-              "id": "C",
-              "text": "説明会を毎日開催する"
-            },
-            {
-              "id": "D",
-              "text": "参加者だけに個別の回答をする"
-            }
-          ],
-          "correctAnswer": "B",
-          "explanation": "録画に加えて、開催後一週間質問を受け付け、回答をまとめて公開します。",
-          "distractorExplanations": {
-            "A": "録画は残すことになり、削除する案ではありません。",
-            "C": "毎日開催するのではなく、開催後の質問期間を設けます。",
-            "D": "回答は個別でなく、まとめて公開する方針です。"
-          },
-          "skill": "Listening",
-          "explanationVi": "録画に加えて、開催後一週間質問を受け付け、回答をまとめて公開します。",
-          "audioUrl": "audio/n2_mock_09/N2_09_M5_L02.mp3",
-          "audioDurationSec": 55.932,
-          "audioSha256": "225ddd42855903b52e5feebac12a52fdd82f355fb512f40062636fed5eab2277",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        },
-        {
-          "id": "N2_09_M5_L03",
-          "typeId": "N2-LIS-INTEG",
-          "category": "Mondai 5: 統合理解",
-          "script": "商店街で、学生と店主が地域商品の紹介方法について話しています。\n\n女：新しい菓子を売り出すので、店頭に大きなポスターを出したいです。\n男：商品名だけでは、どんな材料を使っているのか分かりません。\n女：地元の果物を使っています。生産者の名前も載せましょうか。\n男：本人に確認した上で、材料の産地と商品の特徴を短く紹介するといいですね。値段はレジの表示を見れば分かります。\n女：では、生産者に掲載の許可を取って説明文を作ります。",
-          "stem": "学生は次に何をしますか。",
-          "options": [
-            {
-              "id": "A",
-              "text": "値段を大きく書いたポスターを先に印刷する"
-            },
-            {
-              "id": "B",
-              "text": "果物の生産を自分で始める"
-            },
-            {
-              "id": "C",
-              "text": "生産者に確認して、産地と特徴の説明文を作る"
-            },
-            {
-              "id": "D",
-              "text": "商品を店頭から下げる"
-            }
-          ],
-          "correctAnswer": "C",
-          "explanation": "生産者の許可を得てから、産地と商品の特徴を短く紹介します。",
-          "distractorExplanations": {
-            "A": "価格はレジ表示で分かるため、ポスターに先に大きく載せる依頼ではありません。",
-            "B": "学生は説明文を作りますが、果物を栽培するとは言っていません。",
-            "D": "商品を店頭から下げる話ではなく、紹介方法を整えます。"
-          },
-          "skill": "Listening",
-          "explanationVi": "生産者の許可を得てから、産地と商品の特徴を短く紹介します。",
-          "audioUrl": "audio/n2_mock_09/N2_09_M5_L03.mp3",
-          "audioDurationSec": 51.876,
-          "audioSha256": "3447c09a3b9aa15221f69340eb8274dab99feb50947bff23c13f8d3b64cb95de",
-          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-          "speakerVoices": [
-            "ja-JP-NanamiNeural",
-            "ja-JP-KeitaNeural"
-          ],
-          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
-        }
-      ]
-    }
-  ]
-},
   'N2-MOCK-10': {
   "examId": "N2-MOCK-10",
   "title": "JLPT N2 Full Mock Exam #10 — Đề thi thử hoàn chỉnh (Kiến thức ngôn ngữ, Đọc hiểu & Nghe hiểu)",
@@ -39927,6 +28526,11417 @@ window.JP_MOCK_DATA = {
           "audioUrl": "audio/n2_mock_10/N2_10_M5_L03.mp3",
           "audioDurationSec": 54.9,
           "audioSha256": "47b836ced4f228eb06af77d5ee80b22ebc1a6db357c6bb7e1e4961b6f900a525",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        }
+      ]
+    }
+  ]
+},
+  'N2-MOCK-07': {
+  "examId": "N2-MOCK-07",
+  "title": "JLPT N2 Full Mock Exam #07 — Đề thi thử hoàn chỉnh (Kiến thức ngôn ngữ, Đọc hiểu & Nghe hiểu)",
+  "level": "N2",
+  "status": "FULL_MOCK",
+  "durationMinutes": 155,
+  "totalQuestions": 105,
+  "sections": [
+    {
+      "sectionId": "sec-1",
+      "sectionName": "Phần 1: Kiến thức ngôn ngữ & Đọc hiểu (Language Knowledge & Reading)",
+      "durationMinutes": 105,
+      "itemCount": 75,
+      "items": [
+        {
+          "id": "N2_07_M1_01",
+          "typeId": "N2-MO-READ",
+          "category": "Mondai 1: 漢字読み",
+          "stem": "市役所の窓口で住民票の【交付】を申請した。",
+          "targetWord": "交付",
+          "options": [
+            {
+              "id": "A",
+              "text": "きょうふ"
+            },
+            {
+              "id": "B",
+              "text": "こうふ"
+            },
+            {
+              "id": "C",
+              "text": "こうぶ"
+            },
+            {
+              "id": "D",
+              "text": "ごうふ"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "交付（こうふ - GIAO PHÓ）: Sự cấp phát, cấp giấy tờ chính thức. Chữ 交 có âm on là こう, 付 có âm on là ふ.",
+          "distractorExplanations": {
+            "A": "きょうふ: Nhầm với 恐怖 (きょうふ - khủng bố/sợ hãi).",
+            "C": "こうぶ: Sai âm ふ thành đục ぶ.",
+            "D": "ごうふ: Sai âm こう thành đục ごう."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "交付（こうふ - GIAO PHÓ）: Sự cấp phát, cấp giấy tờ chính thức. Chữ 交 có âm on là こう, 付 có âm on là ふ."
+        },
+        {
+          "id": "N2_07_M1_02",
+          "typeId": "N2-MO-READ",
+          "category": "Mondai 1: 漢字読み",
+          "stem": "公共施設を利用する際は、利用規程を厳格に【遵守】してください。",
+          "targetWord": "遵守",
+          "options": [
+            {
+              "id": "A",
+              "text": "しょうしゅ"
+            },
+            {
+              "id": "B",
+              "text": "じゅんす"
+            },
+            {
+              "id": "C",
+              "text": "じゅんしゅ"
+            },
+            {
+              "id": "D",
+              "text": "そんしゅ"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "遵守（じゅんしゅ - TUÂN THỦ）: Tuân thủ nghiêm ngặt quy định, pháp luật. Chữ 遵 đọc là じゅん, 守 đọc là しゅ.",
+          "distractorExplanations": {
+            "A": "しょうしゅ: Sai âm じゅん thành しょう.",
+            "B": "じゅんす: Sai âm しゅ thành す.",
+            "D": "そんしゅ: Nhầm chữ 遵 với 尊 (Tôn trong 尊重 そんちょう)."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "遵守（じゅんしゅ - TUÂN THỦ）: Tuân thủ nghiêm ngặt quy định, pháp luật. Chữ 遵 đọc là じゅん, 守 đọc là しゅ."
+        },
+        {
+          "id": "N2_07_M1_03",
+          "typeId": "N2-MO-READ",
+          "category": "Mondai 1: 漢字読み",
+          "stem": "市民税の【滞納】が続くと、督促状が届く恐れがある。",
+          "targetWord": "滞納",
+          "options": [
+            {
+              "id": "A",
+              "text": "たいのう"
+            },
+            {
+              "id": "B",
+              "text": "たいいれ"
+            },
+            {
+              "id": "C",
+              "text": "ちのう"
+            },
+            {
+              "id": "D",
+              "text": "ていのう"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "滞納（たいのう - TRỆ NẠP）: Chậm nộp, nợ đọng tiền thuế, tiền cước. 滞 có âm on là たい, 納 có âm on là のう.",
+          "distractorExplanations": {
+            "B": "たいいれ: Nhầm âm on のう với âm kun い・れる.",
+            "C": "ちのう: Nhầm chữ 滞 với 遅 (ち) hoặc âm khác.",
+            "D": "ていのう: Sai âm たい thành てい."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "滞納（たいのう - TRỆ NẠP）: Chậm nộp, nợ đọng tiền thuế, tiền cước. 滞 có âm on là たい, 納 có âm on là のう."
+        },
+        {
+          "id": "N2_07_M1_04",
+          "typeId": "N2-MO-READ",
+          "category": "Mondai 1: 漢字読み",
+          "stem": "年末調整の書類を提出して、配偶者【控除】の適用を受けた。",
+          "targetWord": "控除",
+          "options": [
+            {
+              "id": "A",
+              "text": "きょうじょ"
+            },
+            {
+              "id": "B",
+              "text": "こうしょ"
+            },
+            {
+              "id": "C",
+              "text": "こうじょ"
+            },
+            {
+              "id": "D",
+              "text": "くじょ"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "控除（こうじょ - KHỐNG TRỪ）: Khấu trừ (thuế, thu nhập). Chữ 控 có âm on là こう, 除 có âm on là じょ.",
+          "distractorExplanations": {
+            "A": "きょうじょ: Nhầm với 協約 hoặc 援助.",
+            "B": "こうしょ: Sai âm じょ thành âm thanh しょ.",
+            "D": "くじょ: Nhầm với 駆除 (くじょ - tiêu diệt, trừ khử côn trùng)."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "控除（こうじょ - KHỐNG TRỪ）: Khấu trừ (thuế, thu nhập). Chữ 控 có âm on là こう, 除 có âm on là じょ."
+        },
+        {
+          "id": "N2_07_M1_05",
+          "typeId": "N2-MO-READ",
+          "category": "Mondai 1: 漢字読み",
+          "stem": "大型家具の【廃棄】処分には、事前の有料申し込みが必要です。",
+          "targetWord": "廃棄",
+          "options": [
+            {
+              "id": "A",
+              "text": "はいき"
+            },
+            {
+              "id": "B",
+              "text": "ほうき"
+            },
+            {
+              "id": "C",
+              "text": "はっき"
+            },
+            {
+              "id": "D",
+              "text": "はいし"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "廃棄（はいき - PHẾ KHÍ）: Vứt bỏ, xử lý rác thải lớn, phế thải. Chữ 廃 đọc là はい, 棄 đọc là き.",
+          "distractorExplanations": {
+            "B": "ほうき: Nhầm với 放棄 (ほうき - từ bỏ, vứt bỏ trách nhiệm).",
+            "C": "はっき: Nhầm sang 発揮 (はっき - phát huy) hoặc 破棄 (はき).",
+            "D": "はいし: Nhầm với 廃止 (はいし - bãi bỏ)."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "廃棄（はいき - PHẾ KHÍ）: Vứt bỏ, xử lý rác thải lớn, phế thải. Chữ 廃 đọc là はい, 棄 đọc là き."
+        },
+        {
+          "id": "N2_07_M2_01",
+          "typeId": "N2-MO-ORTH",
+          "category": "Mondai 2: 表記",
+          "stem": "出張で発生した交通費の【けいひ】を速やかに精算した。",
+          "targetWord": "けいひ",
+          "options": [
+            {
+              "id": "A",
+              "text": "軽費"
+            },
+            {
+              "id": "B",
+              "text": "啓費"
+            },
+            {
+              "id": "C",
+              "text": "経費"
+            },
+            {
+              "id": "D",
+              "text": "係費"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "経費（けいひ - KINH PHÍ）: Chi phí, kinh phí công tác.",
+          "distractorExplanations": {
+            "A": "軽費: Chữ 軽 nghĩa là nhẹ, không dùng trong kinh phí.",
+            "B": "啓費: Chữ 啓 là khai sáng/khởi đầu.",
+            "D": "係費: Chữ 係 là liên quan/phụ trách."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "経費（けいひ - KINH PHÍ）: Chi phí, kinh phí công tác."
+        },
+        {
+          "id": "N2_07_M2_02",
+          "typeId": "N2-MO-ORTH",
+          "category": "Mondai 2: 表記",
+          "stem": "内部監査で指摘された事務の不備について、直ちに【ぜせい】措置を講じた。",
+          "targetWord": "ぜせい",
+          "options": [
+            {
+              "id": "A",
+              "text": "是政"
+            },
+            {
+              "id": "B",
+              "text": "善制"
+            },
+            {
+              "id": "C",
+              "text": "善正"
+            },
+            {
+              "id": "D",
+              "text": "是正"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "是正（ぜせい - THỊ CHÍNH）: Sự sửa đổi, chấn chỉnh cho đúng đắn (điều chỉnh khuyết điểm, sai lệch).",
+          "distractorExplanations": {
+            "A": "是政: Chữ 政 là chính quyền/chính trị, sai chữ 正.",
+            "B": "善制: Chữ 制 là chế độ/kiểm soát.",
+            "C": "善正: Chữ kanji không tạo thành từ này."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "是正（ぜせい - THỊ CHÍNH）: Sự sửa đổi, chấn chỉnh cho đúng đắn (điều chỉnh khuyết điểm, sai lệch)."
+        },
+        {
+          "id": "N2_07_M2_03",
+          "typeId": "N2-MO-ORTH",
+          "category": "Mondai 2: 表記",
+          "stem": "本人が来庁できない場合、正式な書類によって代理人に手続きを【いにん】できる。",
+          "targetWord": "いにん",
+          "options": [
+            {
+              "id": "A",
+              "text": "委任"
+            },
+            {
+              "id": "B",
+              "text": "依任"
+            },
+            {
+              "id": "C",
+              "text": "頼任"
+            },
+            {
+              "id": "D",
+              "text": "託任"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "委任（いにん - ỦY NHIỆM）: Ủy nhiệm, ủy quyền làm thủ tục hành chính.",
+          "distractorExplanations": {
+            "B": "依任: Nhầm chữ 依 (y/phụ thuộc).",
+            "C": "頼任: Chữ 頼 (lại/nhờ cậy) không ghép thành từ này.",
+            "D": "託任: Nhầm sang 託 (thác/giao phó)."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "委任（いにん - ỦY NHIỆM）: Ủy nhiệm, ủy quyền làm thủ tục hành chính."
+        },
+        {
+          "id": "N2_07_M2_04",
+          "typeId": "N2-MO-ORTH",
+          "category": "Mondai 2: 表記",
+          "stem": "業務委託契約書の【じょうこう】を一つずつ慎重に確認した。",
+          "targetWord": "じょうこう",
+          "options": [
+            {
+              "id": "A",
+              "text": "錠項"
+            },
+            {
+              "id": "B",
+              "text": "状項"
+            },
+            {
+              "id": "C",
+              "text": "条項"
+            },
+            {
+              "id": "D",
+              "text": "条厚"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "条項（じょうこう - ĐIỀU KHOẢN）: Các điều khoản trong hợp đồng, văn bản quy phạm.",
+          "distractorExplanations": {
+            "A": "錠項: Chữ 錠 nghĩa là ổ khóa/viên thuốc.",
+            "B": "状項: Chữ 状 nghĩa là tình trạng/hình dáng.",
+            "D": "条厚: Chữ 厚 nghĩa là dày, sai chữ 項."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "条項（じょうこう - ĐIỀU KHOẢN）: Các điều khoản trong hợp đồng, văn bản quy phạm."
+        },
+        {
+          "id": "N2_07_M2_05",
+          "typeId": "N2-MO-ORTH",
+          "category": "Mondai 2: 表記",
+          "stem": "引っ越しの際は、管轄の郵便局へ転居届を速やかに【ていしゅつ】してください。",
+          "targetWord": "ていしゅつ",
+          "options": [
+            {
+              "id": "A",
+              "text": "提述"
+            },
+            {
+              "id": "B",
+              "text": "定出"
+            },
+            {
+              "id": "C",
+              "text": "提出"
+            },
+            {
+              "id": "D",
+              "text": "提進"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "提出（ていしゅつ - ĐỀ XUẤT/NỘP）: Nộp đơn từ, trình giấy tờ lên cơ quan có thẩm quyền.",
+          "distractorExplanations": {
+            "A": "提述: Chữ 述 là thuật/kể lại, sai nghĩa.",
+            "B": "定出: Sai chữ 提 thành 定.",
+            "D": "提進: Chữ 進 là tiến lên, không ghép thành từ này."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "提出（ていしゅつ - ĐỀ XUẤT/NỘP）: Nộp đơn từ, trình giấy tờ lên cơ quan có thẩm quyền."
+        },
+        {
+          "id": "N2_07_M3_01",
+          "typeId": "N2-MO-FORM",
+          "category": "Mondai 3: 語形成",
+          "stem": "紛失した身分証の【（　）発行】を窓口で申請した。",
+          "targetWord": "再発行",
+          "options": [
+            {
+              "id": "A",
+              "text": "復"
+            },
+            {
+              "id": "B",
+              "text": "再"
+            },
+            {
+              "id": "C",
+              "text": "重"
+            },
+            {
+              "id": "D",
+              "text": "新"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "再発行（さいはっこう - TÁI PHÁT HÀNH）: Cấp lại, phát hành lại giấy tờ khi bị mất. Tiền tố 再- (tái).",
+          "distractorExplanations": {
+            "A": "復: Dùng trong 復旧, 復活, không ghép thành *復発行.",
+            "C": "重: Dùng trong 重複, 重大, không ghép thành *重発行.",
+            "D": "新: Dùng trong 新発行 (phát hành mới), không mang nghĩa làm lại do mất."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "再発行（さいはっこう - TÁI PHÁT HÀNH）: Cấp lại, phát hành lại giấy tờ khi bị mất. Tiền tố 再- (tái)."
+        },
+        {
+          "id": "N2_07_M3_02",
+          "typeId": "N2-MO-FORM",
+          "category": "Mondai 3: 語形成",
+          "stem": "会社の設立にあたっては、登記や納税など【諸（　）】を同時に進める必要がある。",
+          "targetWord": "諸手続",
+          "options": [
+            {
+              "id": "A",
+              "text": "規程"
+            },
+            {
+              "id": "B",
+              "text": "手続"
+            },
+            {
+              "id": "C",
+              "text": "経費"
+            },
+            {
+              "id": "D",
+              "text": "申請"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "諸手続（しょてつづき - CHƯ THỦ TỤC）: Các loại thủ tục, nhiều thủ tục hành chính khác nhau. Tiền tố 諸- (chư) ghép với 手続.",
+          "distractorExplanations": {
+            "A": "規程: Thường dùng 諸規程 ít dùng trong chuỗi hành động hành chính cá nhân.",
+            "C": "経費: Thường dùng 諸経費 (các khoản kinh phí), nhưng văn cảnh ở đây là đăng ký và nộp thuế nên là các thủ tục.",
+            "D": "申請: Thường ghép 諸申請 ít thông dụng hơn cụm cố định chuẩn 諸手続."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "諸手続（しょてつづき - CHƯ THỦ TỤC）: Các loại thủ tục, nhiều thủ tục hành chính khác nhau. Tiền tố 諸- (chư) ghép với 手続."
+        },
+        {
+          "id": "N2_07_M3_03",
+          "typeId": "N2-MO-FORM",
+          "category": "Mondai 3: 語形成",
+          "stem": "国民年金に【（　）納】期間があると、将来受け取れる年金額が減額される。",
+          "targetWord": "未納",
+          "options": [
+            {
+              "id": "A",
+              "text": "不"
+            },
+            {
+              "id": "B",
+              "text": "未"
+            },
+            {
+              "id": "C",
+              "text": "無"
+            },
+            {
+              "id": "D",
+              "text": "非"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "未納（みのう - VỊ NẠP）: Chưa nộp, còn nợ đọng chưa thanh toán. Tiền tố 未- (chưa).",
+          "distractorExplanations": {
+            "A": "不: Biểu thị bất/không (bất an, bất tiện: 不安, 不便, 不払い). Không dùng *不納.",
+            "C": "無: Biểu thị vô/không có (vô lý, vô hiệu: 無理, 無効). Không dùng *無納.",
+            "D": "非: Biểu thị tính phi (phi lý, phi pháp: 非難, 非常)."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "未納（みのう - VỊ NẠP）: Chưa nộp, còn nợ đọng chưa thanh toán. Tiền tố 未- (chưa)."
+        },
+        {
+          "id": "N2_07_M3_04",
+          "typeId": "N2-MO-FORM",
+          "category": "Mondai 3: 語形成",
+          "stem": "転勤に伴い、来月からの新しい【勤務（　）】へ引っ越す準備を進めている。",
+          "targetWord": "勤務地",
+          "options": [
+            {
+              "id": "A",
+              "text": "地"
+            },
+            {
+              "id": "B",
+              "text": "所"
+            },
+            {
+              "id": "C",
+              "text": "場"
+            },
+            {
+              "id": "D",
+              "text": "処"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "勤務地（きんむち - CẦN VỤ ĐỊA）: Nơi làm việc, địa điểm công tác. Hậu tố -地 (vùng, địa điểm).",
+          "distractorExplanations": {
+            "B": "所: Ghép thành 勤務先 (きんむさき) hoặc 事務所 (じむしょ), không dùng *勤務所.",
+            "C": "場: Dùng trong 職場 (nơi làm việc) hoặc 勤務場所, hậu tố độc lập chuẩn danh mục công chức là 勤務地.",
+            "D": "処: Không dùng làm hậu tố cho từ này."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "勤務地（きんむち - CẦN VỤ ĐỊA）: Nơi làm việc, địa điểm công tác. Hậu tố -地 (vùng, địa điểm)."
+        },
+        {
+          "id": "N2_07_M3_05",
+          "typeId": "N2-MO-FORM",
+          "category": "Mondai 3: 語形成",
+          "stem": "市役所では環境負荷を低減するため、【（　）効率】な照明器具への更新を進めている。",
+          "targetWord": "高効率",
+          "options": [
+            {
+              "id": "A",
+              "text": "高"
+            },
+            {
+              "id": "B",
+              "text": "超"
+            },
+            {
+              "id": "C",
+              "text": "上"
+            },
+            {
+              "id": "D",
+              "text": "強"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "高効率（こうこうりつ - CAO HIỆU SUẤT）: Hiệu suất cao, tiết kiệm năng lượng. Tiền tố 高- (cao).",
+          "distractorExplanations": {
+            "B": "超: Biểu thị siêu (siêu việt, siêu âm: 超音波, 超満員). Cụm tiêu chuẩn kỹ thuật là 高効率.",
+            "C": "上: Không dùng tiền tố 上効率.",
+            "D": "強: Dùng trong 強力, 強度, không ghép với 効率."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "高効率（こうこうりつ - CAO HIỆU SUẤT）: Hiệu suất cao, tiết kiệm năng lượng. Tiền tố 高- (cao)."
+        },
+        {
+          "id": "N2_07_M4_01",
+          "typeId": "N2-MO-CONT",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "住民からの問い合わせに対して、職員が（　）な対応を心がけている。",
+          "targetWord": "迅速",
+          "options": [
+            {
+              "id": "A",
+              "text": "迅速"
+            },
+            {
+              "id": "B",
+              "text": "几帳面"
+            },
+            {
+              "id": "C",
+              "text": "頑固"
+            },
+            {
+              "id": "D",
+              "text": "窮屈"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "迅速（じんそく - TẤN TỐC）: Nhanh chóng, mau lẹ trong xử lý nghiệp vụ.",
+          "distractorExplanations": {
+            "B": "几帳面: Cẩn thận, ngăn nắp (thường nói về tính cách con người, không ghép tự nhiên với な対応 bằng 迅速).",
+            "C": "頑固: Cố chấp, bướng bỉnh.",
+            "D": "窮屈: Chật chội, gò bó, không thoải mái."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "迅速（じんそく - TẤN TỐC）: Nhanh chóng, mau lẹ trong xử lý nghiệp vụ."
+        },
+        {
+          "id": "N2_07_M4_02",
+          "typeId": "N2-MO-CONT",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "事務処理の（　）により、別の住民の方へ案内通知が誤送されてしまった。",
+          "targetWord": "手違い",
+          "options": [
+            {
+              "id": "A",
+              "text": "手配"
+            },
+            {
+              "id": "B",
+              "text": "手間"
+            },
+            {
+              "id": "C",
+              "text": "手違い"
+            },
+            {
+              "id": "D",
+              "text": "手品"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "手違い（てちがい）: Sự nhầm lẫn, sai sót trong quá trình xử lý công việc hành chính.",
+          "distractorExplanations": {
+            "A": "手配: Sự sắp xếp, chuẩn bị phương tiện/nhân lực.",
+            "B": "手間: Công sức, thời gian bỏ ra.",
+            "D": "手品: Trò ảo thuật."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "手違い（てちがい）: Sự nhầm lẫn, sai sót trong quá trình xử lý công việc hành chính."
+        },
+        {
+          "id": "N2_07_M4_03",
+          "typeId": "N2-MO-CONT",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "業務の遅れが生じないよう、関係部署と密に連絡を（　）必要がある。",
+          "targetWord": "取り合う",
+          "options": [
+            {
+              "id": "A",
+              "text": "取り組む"
+            },
+            {
+              "id": "B",
+              "text": "取り持つ"
+            },
+            {
+              "id": "C",
+              "text": "取り合う"
+            },
+            {
+              "id": "D",
+              "text": "取り入れる"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "連絡を取り合う: Giữ liên lạc chặt chẽ hai chiều với nhau.",
+          "distractorExplanations": {
+            "A": "取り組む: Nỗ lực, bắt tay vào giải quyết vấn đề.",
+            "B": "取り持つ: Làm trung gian hòa giải.",
+            "D": "取り入れる: Tiếp thu, áp dụng ý kiến."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "連絡を取り合う: Giữ liên lạc chặt chẽ hai chiều với nhau."
+        },
+        {
+          "id": "N2_07_M4_04",
+          "typeId": "N2-MO-CONT",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "もし面談の日程にご（　）がございましたら、遠慮なくお知らせください。",
+          "targetWord": "差し支え",
+          "options": [
+            {
+              "id": "A",
+              "text": "邪魔"
+            },
+            {
+              "id": "B",
+              "text": "迷惑"
+            },
+            {
+              "id": "C",
+              "text": "お構い"
+            },
+            {
+              "id": "D",
+              "text": "差し支え"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "差し支え（さしつかえ）: Trở ngại, bất tiện về thời gian biểu. Mẫu lịch sự: ご差し支えがございましたら (Nếu có gì bất tiện/bận).",
+          "distractorExplanations": {
+            "A": "邪魔: Làm phiền, cản trở.",
+            "B": "迷惑: Sự phiền toái; trong kính ngữ thường dùng ご都合 hoặc ご差し支え.",
+            "C": "お構い: Bận tâm, chăm sóc (như trong お構いなく)."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "差し支え（さしつかえ）: Trở ngại, bất tiện về thời gian biểu. Mẫu lịch sự: ご差し支えがございましたら (Nếu có gì bất tiện/bận)."
+        },
+        {
+          "id": "N2_07_M4_05",
+          "typeId": "N2-MO-CONT",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "育児や介護と仕事を両立できるよう、勤務時間に（　）の利くフレックスタイム制を導入した。",
+          "targetWord": "融通",
+          "options": [
+            {
+              "id": "A",
+              "text": "妥協"
+            },
+            {
+              "id": "B",
+              "text": "適応"
+            },
+            {
+              "id": "C",
+              "text": "融通"
+            },
+            {
+              "id": "D",
+              "text": "余裕"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "融通が利く（ゆうづうがきく）: Linh hoạt, cơ động, có thể xoay xở điều chỉnh theo tình huống.",
+          "distractorExplanations": {
+            "A": "妥協: Thỏa hiệp, nhượng bộ.",
+            "B": "適応: Thích ứng.",
+            "D": "余裕: Dư dả thời gian/tiền bạc, không đi với cụm が利く."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "融通が利く（ゆうづうがきく）: Linh hoạt, cơ động, có thể xoay xở điều chỉnh theo tình huống."
+        },
+        {
+          "id": "N2_07_M4_06",
+          "typeId": "N2-MO-CONT",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "通勤ラッシュを避けるため、社員ごとに始業時刻を30分ずつずらす「（　）出勤」を導入した。",
+          "targetWord": "時差",
+          "options": [
+            {
+              "id": "A",
+              "text": "時差"
+            },
+            {
+              "id": "B",
+              "text": "短縮"
+            },
+            {
+              "id": "C",
+              "text": "移動"
+            },
+            {
+              "id": "D",
+              "text": "交代"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "時差出勤（じさしゅっきん）: Hình thức lệch giờ bắt đầu làm việc để tránh giờ cao điểm; câu này nêu rõ giờ vào làm của từng nhân viên được giãn cách.",
+          "distractorExplanations": {
+            "B": "短縮出勤 gợi việc rút ngắn giờ làm, không phải giãn thời điểm bắt đầu làm.",
+            "C": "移動出勤 không phải cách gọi thông dụng cho lịch bắt đầu làm lệch giờ.",
+            "D": "交代出勤 thường chỉ việc thay phiên hoặc làm theo ca, không phải lệch giờ vào làm giữa các nhân viên."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "時差出勤（じさしゅっきん）: Hình thức lệch giờ bắt đầu làm việc để tránh giờ cao điểm; câu này nêu rõ giờ vào làm của từng nhân viên được giãn cách."
+        },
+        {
+          "id": "N2_07_M4_07",
+          "typeId": "N2-MO-CONT",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "高齢者や障害をお持ちの方の申請手続きを支援するため、窓口で様々な（　）を図っている。",
+          "targetWord": "便宜",
+          "options": [
+            {
+              "id": "A",
+              "text": "都合"
+            },
+            {
+              "id": "B",
+              "text": "便宜"
+            },
+            {
+              "id": "C",
+              "text": "待遇"
+            },
+            {
+              "id": "D",
+              "text": "利益"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "便宜を図る（べんぎをはかる）: Tạo điều kiện thuận lợi, hỗ trợ tiện ích đặc biệt cho người cần giúp đỡ.",
+          "distractorExplanations": {
+            "A": "都合: Sự thuận tiện/lịch trình, không đi với cụm を図る theo nghĩa hỗ trợ dịch vụ.",
+            "C": "待遇: Đãi ngộ, chế độ lương bổng.",
+            "D": "利益: Lợi nhuận kinh tế."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "便宜を図る（べんぎをはかる）: Tạo điều kiện thuận lợi, hỗ trợ tiện ích đặc biệt cho người cần giúp đỡ."
+        },
+        {
+          "id": "N2_07_M5_01",
+          "typeId": "N2-MO-PARA",
+          "category": "Mondai 5: 言い換え類義",
+          "stem": "未提出の書類について、市役所の担当課から【催促】の電話があった。",
+          "targetWord": "催促",
+          "options": [
+            {
+              "id": "A",
+              "text": "内容を詳しく説明すること"
+            },
+            {
+              "id": "B",
+              "text": "早く出すよう求めること"
+            },
+            {
+              "id": "C",
+              "text": "受理したと知らせること"
+            },
+            {
+              "id": "D",
+              "text": "書き直しを命じること"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "催促（さいそく）: Hối thúc, yêu cầu thực hiện hoặc nộp gấp.",
+          "distractorExplanations": {
+            "A": "Giải thích nội dung chi tiết là 説明.",
+            "C": "Báo đã thụ lý là 受理通知.",
+            "D": "Yêu cầu viết lại là 修正指示."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "催促（さいそく）: Hối thúc, yêu cầu thực hiện hoặc nộp gấp."
+        },
+        {
+          "id": "N2_07_M5_02",
+          "typeId": "N2-MO-PARA",
+          "category": "Mondai 5: 言い換え類義",
+          "stem": "午後から他部署の責任者と今後の業務方針について【打ち合わせ】を行う予定だ。",
+          "targetWord": "打ち合わせ",
+          "options": [
+            {
+              "id": "A",
+              "text": "雑談"
+            },
+            {
+              "id": "B",
+              "text": "演説"
+            },
+            {
+              "id": "C",
+              "text": "協議"
+            },
+            {
+              "id": "D",
+              "text": "審査"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "打ち合わせ（うちあわせ）: Buổi thảo luận, trao đổi bàn bạc trước trong công việc, đồng nghĩa với 協議（きょうぎ）.",
+          "distractorExplanations": {
+            "A": "雑談: Tán gẫu.",
+            "B": "演説: Diễn thuyết.",
+            "D": "審査: Thẩm tra, xét duyệt."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "打ち合わせ（うちあわせ）: Buổi thảo luận, trao đổi bàn bạc trước trong công việc, đồng nghĩa với 協議（きょうぎ）."
+        },
+        {
+          "id": "N2_07_M5_03",
+          "typeId": "N2-MO-PARA",
+          "category": "Mondai 5: 言い換え類義",
+          "stem": "台風の接近に伴い、本日の野外イベントの開催は【見合わせる】ことになった。",
+          "targetWord": "見合わせる",
+          "options": [
+            {
+              "id": "A",
+              "text": "予定通り実行する"
+            },
+            {
+              "id": "B",
+              "text": "中止・延期する"
+            },
+            {
+              "id": "C",
+              "text": "規模を拡大する"
+            },
+            {
+              "id": "D",
+              "text": "すぐに開始する"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "見合わせる（みあわせる）: Tạm dừng, hoãn lại hoặc hủy bỏ do tình hình bất lợi.",
+          "distractorExplanations": {
+            "A": "Tiến hành đúng kế hoạch là 実行/決行.",
+            "C": "Mở rộng quy mô là 拡大.",
+            "D": "Bắt đầu ngay là 即時開始."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "見合わせる（みあわせる）: Tạm dừng, hoãn lại hoặc hủy bỏ do tình hình bất lợi."
+        },
+        {
+          "id": "N2_07_M5_04",
+          "typeId": "N2-MO-PARA",
+          "category": "Mondai 5: 言い換え類義",
+          "stem": "【念のため】、申請書を提出する前に必要な添付書類がそろっているか確かめた。",
+          "targetWord": "念のため",
+          "options": [
+            {
+              "id": "A",
+              "text": "相手に強く注意を促すために"
+            },
+            {
+              "id": "B",
+              "text": "記録として残すために"
+            },
+            {
+              "id": "C",
+              "text": "間違いがないよう確認するために"
+            },
+            {
+              "id": "D",
+              "text": "急いで処理するために"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "念のため（ねんのため）: Làm thêm một bước xác nhận để phòng trường hợp có thiếu sót hoặc nhầm lẫn; trong câu này là kiểm tra đủ giấy tờ trước khi nộp.",
+          "distractorExplanations": {
+            "A": "相手に強く注意を促すために diễn tả nhắc nhở người khác, gần với 念を押す.",
+            "B": "記録として残すために nêu mục đích lưu hồ sơ, không phải kiểm tra để phòng sai sót.",
+            "D": "急いで処理するために nêu tốc độ xử lý, không phải việc kiểm tra phòng ngừa."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "念のため（ねんのため）: Làm thêm một bước xác nhận để phòng trường hợp có thiếu sót hoặc nhầm lẫn; trong câu này là kiểm tra đủ giấy tờ trước khi nộp."
+        },
+        {
+          "id": "N2_07_M5_05",
+          "typeId": "N2-MO-PARA",
+          "category": "Mondai 5: 言い換え類義",
+          "stem": "正式な決裁が下りるまで、【ひとまず】既存のスケジュールで準備を進めておこう。",
+          "targetWord": "ひとまず",
+          "options": [
+            {
+              "id": "A",
+              "text": "決して"
+            },
+            {
+              "id": "B",
+              "text": "完全に完了して"
+            },
+            {
+              "id": "C",
+              "text": "とりあえず"
+            },
+            {
+              "id": "D",
+              "text": "永久に"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "ひとまず: Tạm thời, trước mắt cứ như thế đã, đồng nghĩa với とりあえず.",
+          "distractorExplanations": {
+            "A": "決して: Tuyệt đối không.",
+            "B": "完全に完了して: Hoàn thành triệt để.",
+            "D": "永久に: Vĩnh viễn."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "ひとまず: Tạm thời, trước mắt cứ như thế đã, đồng nghĩa với とりあえず."
+        },
+        {
+          "id": "N2_07_M6_01",
+          "typeId": "N2-MO-USE",
+          "category": "Mondai 6: 用法",
+          "stem": "次の言葉の使い方が最も適切なものを一つ選びなさい。【恐縮】",
+          "targetWord": "恐縮",
+          "options": [
+            {
+              "id": "A",
+              "text": "マラソン大会で優勝して、恐縮のあまり飛び上がって喜んだ。"
+            },
+            {
+              "id": "B",
+              "text": "お忙しいところ大変恐縮ですが、アンケートへのご協力をお願い申し上げます。"
+            },
+            {
+              "id": "C",
+              "text": "明日の出張に向けて、部屋の荷物を恐縮にまとめた。"
+            },
+            {
+              "id": "D",
+              "text": "景気の悪化に伴い、会社の業績が恐縮している。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "恐縮（きょうしゅく - KHỦNG SÚC）: Rất áy náy, xin lỗi vì làm phiền người khác khi nhờ vả, yêu cầu trong giao tiếp kính ngữ trang trọng.",
+          "distractorExplanations": {
+            "A": "Vui mừng nhảy cẫng lên thì dùng 歓喜 hoặc 大喜び, không dùng 恐縮.",
+            "C": "Dọn dẹp nhanh gọn thì dùng 手際よく hoặc コンパクトに.",
+            "D": "Công ty sa sút hoặc thu hẹp thì dùng 低迷 hoặc 縮小."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "恐縮（きょうしゅく - KHỦNG SÚC）: Rất áy náy, xin lỗi vì làm phiền người khác khi nhờ vả, yêu cầu trong giao tiếp kính ngữ trang trọng."
+        },
+        {
+          "id": "N2_07_M6_02",
+          "typeId": "N2-MO-USE",
+          "category": "Mondai 6: 用法",
+          "stem": "次の言葉の使い方が最も適切なものを一つ選びなさい。【経由】",
+          "targetWord": "経由",
+          "options": [
+            {
+              "id": "A",
+              "text": "宿題を経由してから、友人と公園へ遊びに出かけた。"
+            },
+            {
+              "id": "B",
+              "text": "昨晩は激しい運動をしたので、夕食後にすぐ経由した。"
+            },
+            {
+              "id": "C",
+              "text": "今回のヨーロッパ出張は、ドーハを経由してフランクフルトへ向かう航空便を利用する。"
+            },
+            {
+              "id": "D",
+              "text": "雨が激しく降ってきたので、傘を経由して駅まで走った。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "経由（けいゆ - KINH DO）: Quá cảnh, đi qua một trạm/địa điểm trung gian để đến đích.",
+          "distractorExplanations": {
+            "A": "Làm xong bài tập thì dùng 済ませて.",
+            "B": "Nghỉ ngơi hoặc đi ngủ thì dùng 就寝した hoặc 休息した.",
+            "D": "Bật ô che mưa thì dùng 傘を差して."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "経由（けいゆ - KINH DO）: Quá cảnh, đi qua một trạm/địa điểm trung gian để đến đích."
+        },
+        {
+          "id": "N2_07_M6_03",
+          "typeId": "N2-MO-USE",
+          "category": "Mondai 6: 用法",
+          "stem": "次の言葉の使い方が最も適切なものを一つ選びなさい。【負担】",
+          "targetWord": "負担",
+          "options": [
+            {
+              "id": "A",
+              "text": "週末の読書のために、図書館で学術書を3冊負担して帰宅した。"
+            },
+            {
+              "id": "B",
+              "text": "彼はいつも面白い冗談を言って、周囲の同僚たちを負担させている。"
+            },
+            {
+              "id": "C",
+              "text": "新しい大型プロジェクトの統括責任者を任され、精神的な負担が重くなった。"
+            },
+            {
+              "id": "D",
+              "text": "真冬の寒さに耐えるため、厚手のコートと手袋を負担して外出した。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "負担（ふたん - PHỤ ĐẢM）: Gánh vác trách nhiệm, gánh nặng tâm lý hoặc chi phí tiền bạc.",
+          "distractorExplanations": {
+            "A": "Mượn sách thư viện thì dùng 借りて.",
+            "B": "Làm cho đồng nghiệp cười sảng khoái thì dùng 笑わせている.",
+            "D": "Mặc quần áo ấm thì dùng 着用して."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "負担（ふたん - PHỤ ĐẢM）: Gánh vác trách nhiệm, gánh nặng tâm lý hoặc chi phí tiền bạc."
+        },
+        {
+          "id": "N2_07_M6_04",
+          "typeId": "N2-MO-USE",
+          "category": "Mondai 6: 用法",
+          "stem": "次の言葉の使い方が最も適切なものを一つ選びなさい。【配布】",
+          "targetWord": "配布",
+          "options": [
+            {
+              "id": "A",
+              "text": "市民説明会の会場入口で、来場者全員に防災ガイドブックを配布した。"
+            },
+            {
+              "id": "B",
+              "text": "会議室のテーブルの上に、プロジェクターの電源コードを綺麗に配布した。"
+            },
+            {
+              "id": "C",
+              "text": "大雪の影響で電車のダイヤが配布し、通勤客に影響が出た。"
+            },
+            {
+              "id": "D",
+              "text": "手紙を投函する前に、記念切手を封筒の右上に配布した。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "配布（はいふ - PHỐI PHỐ）: Phát, phát tán tài liệu, sách báo, tờ rơi rộng rãi cho nhiều người.",
+          "distractorExplanations": {
+            "B": "Bố trí, sắp đặt dây điện thì dùng 配線した hoặc 整頓した.",
+            "C": "Lịch tàu bị xáo trộn, rối loạn thì dùng 乱れ (みだれ).",
+            "D": "Dán tem lên phong bì thì dùng 貼った (はった)."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "配布（はいふ - PHỐI PHỐ）: Phát, phát tán tài liệu, sách báo, tờ rơi rộng rãi cho nhiều người."
+        },
+        {
+          "id": "N2_07_M6_05",
+          "typeId": "N2-MO-USE",
+          "category": "Mondai 6: 用法",
+          "stem": "次の言葉の使い方が最も適切なものを一つ選びなさい。【照会】",
+          "targetWord": "照会",
+          "options": [
+            {
+              "id": "A",
+              "text": "夜遅くまで残業していたため、オフィスの天井の照会を暗くした。"
+            },
+            {
+              "id": "B",
+              "text": "スープの味付けが薄かったので、塩と胡椒を照会して整えた。"
+            },
+            {
+              "id": "C",
+              "text": "毎朝出勤する途中、近所の知り合いと笑顔で照会を交わしている。"
+            },
+            {
+              "id": "D",
+              "text": "給付金の受給資格を満たしているか、窓口の端末から住民台帳データに照会した。"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "照会（しょうかい - CHIẾU HỘI）: Tra cứu, đối chiếu thông tin trong cơ sở dữ liệu hoặc hỏi xác minh ở cơ quan chức năng.",
+          "distractorExplanations": {
+            "A": "Đèn chiếu sáng văn phòng là 照明 (しょうめい).",
+            "B": "Gia giảm gia vị thì dùng 加減して hoặc 調節して.",
+            "C": "Chào hỏi thì dùng 挨拶 (あいさつ)."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "照会（しょうかい - CHIẾU HỘI）: Tra cứu, đối chiếu thông tin trong cơ sở dữ liệu hoặc hỏi xác minh ở cơ quan chức năng."
+        },
+        {
+          "id": "N2_07_M7_01",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "窓口の仕事では、住民から感謝の言葉をかけられる（　）、この仕事を続けてよかったと感じる。",
+          "targetWord": "につけ",
+          "options": [
+            {
+              "id": "A",
+              "text": "につけ"
+            },
+            {
+              "id": "B",
+              "text": "はおろか"
+            },
+            {
+              "id": "C",
+              "text": "を契機に"
+            },
+            {
+              "id": "D",
+              "text": "に際して"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "～につけ: Cứ mỗi khi xảy ra việc gì thì lại nảy sinh cảm xúc hoặc suy nghĩ. 住民から感謝の言葉をかけられるにつけ、この仕事を続けてよかったと感じる (cứ mỗi lần được người dân cảm ơn lại thấy mình đã chọn đúng công việc).",
+          "distractorExplanations": {
+            "B": "～はおろか cần cấu trúc nêu A chưa nói đến B; không thể hiện quan hệ lặp lại và cảm xúc trong câu.",
+            "C": "～を契機に nối sau một danh từ để nêu bước ngoặt dẫn đến thay đổi; ở đây cần biểu đạt cảm xúc lặp lại mỗi lần.",
+            "D": "～に際して thường nối sau danh từ/sự kiện để nói 'nhân dịp'; không dùng sau mệnh đề động từ này với nghĩa mỗi lần."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "～につけ: Cứ mỗi khi xảy ra việc gì thì lại nảy sinh cảm xúc hoặc suy nghĩ. 住民から感謝の言葉をかけられるにつけ、この仕事を続けてよかったと感じる (cứ mỗi lần được người dân cảm ơn lại thấy mình đã chọn đúng công việc)."
+        },
+        {
+          "id": "N2_07_M7_02",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "自治体の窓口業務におけるペーパーレス化は、ここ数年で着実に進み（　）。",
+          "targetWord": "つつある",
+          "options": [
+            {
+              "id": "A",
+              "text": "つつある"
+            },
+            {
+              "id": "B",
+              "text": "っこない"
+            },
+            {
+              "id": "C",
+              "text": "かねない"
+            },
+            {
+              "id": "D",
+              "text": "ざるを得ない"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "動詞マス形＋つつある: Đang dần dần biến đổi theo một hướng nhất định: 着実に進みつつある (đang dần tiến triển đều đặn).",
+          "distractorExplanations": {
+            "B": "っこない: Tuyệt đối không thể (khẳng định phủ định mạnh).",
+            "C": "かねない: Có nguy cơ dẫn tới hậu quả xấu.",
+            "D": "ざるを得ない: Buộc phải làm dù không muốn."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "動詞マス形＋つつある: Đang dần dần biến đổi theo một hướng nhất định: 着実に進みつつある (đang dần tiến triển đều đặn)."
+        },
+        {
+          "id": "N2_07_M7_03",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "本市の総合福祉センターは、年齢や国籍（　）、地域住民であれば誰でも利用可能だ。",
+          "targetWord": "を問わず",
+          "options": [
+            {
+              "id": "A",
+              "text": "からして"
+            },
+            {
+              "id": "B",
+              "text": "を問わず"
+            },
+            {
+              "id": "C",
+              "text": "を皮切りに"
+            },
+            {
+              "id": "D",
+              "text": "に相違ない"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "～を問わず（をとわず）: Bất kể, không phân biệt (tuổi tác, giới tính, quốc tịch): 年齢や国籍を問わず.",
+          "distractorExplanations": {
+            "A": "～からして: Ngay từ điểm A đã thấy...",
+            "C": "～を皮切りに: Mở đầu bằng một chuỗi hành động phát triển liên tiếp.",
+            "D": "～に相違ない: Chắc chắn là (phán đoán chắc nịch)."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "～を問わず（をとわず）: Bất kể, không phân biệt (tuổi tác, giới tính, quốc tịch): 年齢や国籍を問わず."
+        },
+        {
+          "id": "N2_07_M7_04",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "個人情報保護に関する社内規程は、正社員か契約社員かなどの雇用形態（　）、全職員に同じ基準で適用される。",
+          "targetWord": "を問わず",
+          "options": [
+            {
+              "id": "A",
+              "text": "をめぐって"
+            },
+            {
+              "id": "B",
+              "text": "に応じて"
+            },
+            {
+              "id": "C",
+              "text": "に基づき"
+            },
+            {
+              "id": "D",
+              "text": "を問わず"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "名詞＋を問わず: Bất kể, không phân biệt. Cụm '同じ基準で適用' xác nhận quy định áp dụng như nhau với mọi hình thức tuyển dụng.",
+          "distractorExplanations": {
+            "A": "をめぐって thường nói về tranh luận hoặc vấn đề xoay quanh một chủ đề; không nối được với ý áp dụng quy định đồng nhất.",
+            "B": "に応じて sẽ biểu thị tiêu chuẩn thay đổi tùy theo hình thức tuyển dụng, trái với '同じ基準で'.",
+            "C": "に基づき cần đứng sau căn cứ làm nền tảng cho một hành động; ở đây danh từ 雇用形態 là nhóm được miễn phân biệt, không phải căn cứ áp dụng."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "名詞＋を問わず: Bất kể, không phân biệt. Cụm '同じ基準で適用' xác nhận quy định áp dụng như nhau với mọi hình thức tuyển dụng."
+        },
+        {
+          "id": "N2_07_M7_05",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "住民の機密データを扱う業務である以上、確認作業を怠る（　）。",
+          "targetWord": "わけにはいかない",
+          "options": [
+            {
+              "id": "A",
+              "text": "わけにはいかない"
+            },
+            {
+              "id": "B",
+              "text": "にほかならない"
+            },
+            {
+              "id": "C",
+              "text": "にすぎない"
+            },
+            {
+              "id": "D",
+              "text": "ほかはない"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "動詞辞書形＋わけにはいかない: Không thể làm việc đó vì trách nhiệm xã hội, lương tâm, đạo đức: 怠るわけにはいかない (không thể lơ là được).",
+          "distractorExplanations": {
+            "B": "～にほかならない: Chính là, không gì khác ngoài...",
+            "C": "～にすぎない: Chỉ là... không hơn.",
+            "D": "～ほかはない: Không còn cách nào khác ngoài việc..."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "動詞辞書形＋わけにはいかない: Không thể làm việc đó vì trách nhiệm xã hội, lương tâm, đạo đức: 怠るわけにはいかない (không thể lơ là được)."
+        },
+        {
+          "id": "N2_07_M7_06",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "本庁舎の市民交流ラウンジは、図書カードを提示した来庁者（　）、平日午後7時まで利用できます。",
+          "targetWord": "に限り",
+          "options": [
+            {
+              "id": "A",
+              "text": "に先立ち"
+            },
+            {
+              "id": "B",
+              "text": "に限り"
+            },
+            {
+              "id": "C",
+              "text": "につれて"
+            },
+            {
+              "id": "D",
+              "text": "に際して"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "～に限り: Chỉ giới hạn trong nhóm được nêu. ここでは『図書カードを提示した来庁者に限り』、chỉ người đến làm thủ tục có đưa thẻ thư viện mới được dùng phòng đến 19 giờ.",
+          "distractorExplanations": {
+            "A": "～に先立ち: Trước khi một sự kiện diễn ra; không nối điều kiện với quyền sử dụng.",
+            "C": "～につれて: Càng... thì càng...; cần hai biến đổi song song, không phù hợp với điều kiện cấp quyền.",
+            "D": "～に際して: Nhân dịp một sự kiện; không diễn tả điều kiện giới hạn người được sử dụng."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "～に限り: Chỉ giới hạn trong nhóm được nêu. ここでは『図書カードを提示した来庁者に限り』、chỉ người đến làm thủ tục có đưa thẻ thư viện mới được dùng phòng đến 19 giờ."
+        },
+        {
+          "id": "N2_07_M7_07",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "本日は館内電気設備の定期点検（　）、全館休館とさせていただきます。",
+          "targetWord": "につき",
+          "options": [
+            {
+              "id": "A",
+              "text": "につけて"
+            },
+            {
+              "id": "B",
+              "text": "につき"
+            },
+            {
+              "id": "C",
+              "text": "をよそに"
+            },
+            {
+              "id": "D",
+              "text": "のもとで"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "名詞＋につき: Vì lý do... (cách thông báo chính thức trang trọng trên bảng tin công cộng): 点検につき (do kiểm tra định kỳ).",
+          "distractorExplanations": {
+            "A": "～につけて: Cứ mỗi lần...",
+            "C": "～をよそに: Mặc kệ, bỏ ngoài tai.",
+            "D": "～のもとで: Dưới sự chỉ dẫn/ảnh hưởng của ai."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "名詞＋につき: Vì lý do... (cách thông báo chính thức trang trọng trên bảng tin công cộng): 点検につき (do kiểm tra định kỳ)."
+        },
+        {
+          "id": "N2_07_M7_08",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "新任の窓口担当者が、少し不安（　）表情で来庁者の書類に目を通していた。",
+          "targetWord": "げな",
+          "options": [
+            {
+              "id": "A",
+              "text": "っぽい"
+            },
+            {
+              "id": "B",
+              "text": "めいた"
+            },
+            {
+              "id": "C",
+              "text": "げな"
+            },
+            {
+              "id": "D",
+              "text": "がちな"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "イ形容詞語幹/名詞＋げな: Có vẻ, lộ vẻ (tâm trạng biểu lộ ra bên ngoài): 不安げな表情 (vẻ mặt lộ vẻ bất an).",
+          "distractorExplanations": {
+            "A": "っぽい: Thiên về, hay... (dễ nổi cáu, mang tính trẻ con: 怒りっぽい).",
+            "B": "めいた: Có màu sắc, nhuốm màu (bí mật, xuân sang: 謎めいた).",
+            "D": "がちな: Thường hay xảy ra xu hướng xấu (hay nghỉ việc: 休みがち)."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "イ形容詞語幹/名詞＋げな: Có vẻ, lộ vẻ (tâm trạng biểu lộ ra bên ngoài): 不安げな表情 (vẻ mặt lộ vẻ bất an)."
+        },
+        {
+          "id": "N2_07_M7_09",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "これほど複雑な行政手続きを、事前の案内なしに一般市民が一人で理解でき（　）。",
+          "targetWord": "っこない",
+          "options": [
+            {
+              "id": "A",
+              "text": "っこない"
+            },
+            {
+              "id": "B",
+              "text": "かねない"
+            },
+            {
+              "id": "C",
+              "text": "がたい"
+            },
+            {
+              "id": "D",
+              "text": "ざるを得ない"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "動詞マス形＋っこない: Làm sao mà... có thể được (khẳng định dứt khoát sự bất khả thi trong suy nghĩ người nói): 理解できっこない (làm sao mà tự hiểu nổi).",
+          "distractorExplanations": {
+            "B": "かねない: Có khả năng xảy ra nguy cơ xấu.",
+            "C": "がたい: Khó lòng làm được (về mặt tâm lý, cảm xúc: 信じがたい).",
+            "D": "ざるを得ない: Buộc phải..."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "動詞マス形＋っこない: Làm sao mà... có thể được (khẳng định dứt khoát sự bất khả thi trong suy nghĩ người nói): 理解できっこない (làm sao mà tự hiểu nổi)."
+        },
+        {
+          "id": "N2_07_M7_10",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "新年度の予算案を編成する（　）、各地域からの要望事項を詳細に調査した。",
+          "targetWord": "にあたって",
+          "options": [
+            {
+              "id": "A",
+              "text": "を限りに"
+            },
+            {
+              "id": "B",
+              "text": "からして"
+            },
+            {
+              "id": "C",
+              "text": "をおいて"
+            },
+            {
+              "id": "D",
+              "text": "にあたって"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "動詞辞書形＋にあたって: Khi tiến hành, nhân dịp chuẩn bị cho một việc trọng đại: 編成するにあたって.",
+          "distractorExplanations": {
+            "A": "～を限りに: Cho đến hết... (hạn chót).",
+            "B": "～からして: Xét ngay từ...",
+            "C": "～をおいて: Ngoại trừ người/vật này ra thì không có..."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "動詞辞書形＋にあたって: Khi tiến hành, nhân dịp chuẩn bị cho một việc trọng đại: 編成するにあたって."
+        },
+        {
+          "id": "N2_07_M7_11",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "新設予定の児童館の運営方針（　）、地域住民の間で活発な意見交換が行われた。",
+          "targetWord": "をめぐって",
+          "options": [
+            {
+              "id": "A",
+              "text": "を抜きにして"
+            },
+            {
+              "id": "B",
+              "text": "を通じて"
+            },
+            {
+              "id": "C",
+              "text": "をめぐって"
+            },
+            {
+              "id": "D",
+              "text": "にかけては"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "名詞＋をめぐって: Xoay quanh một đề tài/tranh luận, ý kiến đối lập: 運営方針をめぐって (xoay quanh phương châm vận hành).",
+          "distractorExplanations": {
+            "A": "～を抜きにして: Nếu không có... thì không thể...",
+            "B": "～を通じて: Thông qua suốt một khoảng thời gian hoặc phương tiện.",
+            "D": "～にかけては: Nếu xét về sở trường/lĩnh vực gì thì không thua ai."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "名詞＋をめぐって: Xoay quanh một đề tài/tranh luận, ý kiến đối lập: 運営方針をめぐって (xoay quanh phương châm vận hành)."
+        },
+        {
+          "id": "N2_07_M7_12",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "これほど短期間で窓口の混雑を解消できたのは、全職員の連携と努力の（　）。",
+          "targetWord": "賜物にほかならない",
+          "options": [
+            {
+              "id": "A",
+              "text": "賜物にほかならない"
+            },
+            {
+              "id": "B",
+              "text": "始末だ"
+            },
+            {
+              "id": "C",
+              "text": "極みだ"
+            },
+            {
+              "id": "D",
+              "text": "きらいがある"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "～にほかならない: Chính là, không gì khác hơn là...: 努力の賜物にほかならない (chính là thành quả từ sự nỗ lực của toàn thể nhân viên).",
+          "distractorExplanations": {
+            "B": "～始末だ: Rốt cuộc chuốc lấy kết cục tồi tệ.",
+            "C": "～極みだ: Tột cùng của cảm xúc (hạnh phúc, vinh dự: 痛恨の極み).",
+            "D": "～きらいがある: Có xu hướng tật xấu/tiêu cực."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "～にほかならない: Chính là, không gì khác hơn là...: 努力の賜物にほかならない (chính là thành quả từ sự nỗ lực của toàn thể nhân viên)."
+        },
+        {
+          "id": "N2_07_M8_01",
+          "typeId": "N2-GR-STAR",
+          "category": "Mondai 8: 文の組み立て",
+          "stem": "証明書を申請する場合は、（　　）（　　）★（　　）。",
+          "options": [
+            {
+              "id": "A",
+              "text": "記入し"
+            },
+            {
+              "id": "B",
+              "text": "申請書に必要事項を"
+            },
+            {
+              "id": "C",
+              "text": "窓口へ提出してください"
+            },
+            {
+              "id": "D",
+              "text": "本人確認書類を"
+            }
+          ],
+          "correctAnswer": "D",
+          "starPosition": 3,
+          "assembledSentence": "証明書を申請する場合は、申請書に必要事項を記入し本人確認書類を窓口へ提出してください。",
+          "explanation": "Câu hoàn chỉnh: 証明書を申請する場合は、申請書に必要事項を記入し本人確認書類を窓口へ提出してください。 Nghĩa là khi xin cấp giấy chứng nhận, hãy điền thông tin cần thiết vào đơn, rồi nộp giấy tờ xác minh danh tính tại quầy. 必要事項を là tân ngữ của 記入し; sau đó 本人確認書類を là tân ngữ của 提出してください. Mảnh ★ là 本人確認書類を.",
+          "distractorExplanations": {
+            "A": "記入し nối với tân ngữ 必要事項を trong cụm 申請書に必要事項を記入し; không phải vị trí đánh dấu ★.",
+            "B": "申請書に必要事項を đứng ở vị trí đầu tiên để làm nền cho động từ 記入し.",
+            "C": "窓口へ提出してください là mệnh đề kết thúc câu, đứng sau các tân ngữ cần nộp."
+          },
+          "fragmentOrder": "B→A→D→C",
+          "skill": "Language Knowledge",
+          "explanationVi": "Câu hoàn chỉnh: 証明書を申請する場合は、申請書に必要事項を記入し本人確認書類を窓口へ提出してください。 Nghĩa là khi xin cấp giấy chứng nhận, hãy điền thông tin cần thiết vào đơn, rồi nộp giấy tờ xác minh danh tính tại quầy. 必要事項を là tân ngữ của 記入し; sau đó 本人確認書類を là tân ngữ của 提出してください. Mảnh ★ là 本人確認書類を."
+        },
+        {
+          "id": "N2_07_M8_02",
+          "typeId": "N2-GR-STAR",
+          "category": "Mondai 8: 文の組み立て",
+          "stem": "今回の臨時給付金は、世帯所得の（　　）（　　）★（　　）一律に支給されます。",
+          "options": [
+            {
+              "id": "A",
+              "text": "対象世帯へ"
+            },
+            {
+              "id": "B",
+              "text": "問わず、"
+            },
+            {
+              "id": "C",
+              "text": "すべての"
+            },
+            {
+              "id": "D",
+              "text": "多寡を"
+            }
+          ],
+          "correctAnswer": "C",
+          "starPosition": 3,
+          "assembledSentence": "今回の臨時給付金は、世帯所得の多寡を問わず、すべての対象世帯へ一律に支給されます。",
+          "explanation": "Câu hoàn chỉnh: 今回の臨時給付金は、世帯所得の多寡を問わず、すべての対象世帯へ一律に支給されます。 Nghĩa là khoản hỗ trợ đột xuất được cấp đồng đều cho mọi hộ đủ điều kiện, không phân biệt thu nhập cao hay thấp. Cấu trúc 多寡を問わず nghĩa là không xét mức độ; すべての bổ nghĩa cho 対象世帯へ. Mảnh ★ là すべての.",
+          "distractorExplanations": {
+            "A": "Vị trí 4 (対象世帯へ).",
+            "B": "Vị trí 2 (問わず).",
+            "D": "Vị trí 1 (多寡を)."
+          },
+          "fragmentOrder": "D→B→C→A",
+          "skill": "Language Knowledge",
+          "explanationVi": "Câu hoàn chỉnh: 今回の臨時給付金は、世帯所得の多寡を問わず、すべての対象世帯へ一律に支給されます。 Nghĩa là khoản hỗ trợ đột xuất được cấp đồng đều cho mọi hộ đủ điều kiện, không phân biệt thu nhập cao hay thấp. Cấu trúc 多寡を問わず nghĩa là không xét mức độ; すべての bổ nghĩa cho 対象世帯へ. Mảnh ★ là すべての."
+        },
+        {
+          "id": "N2_07_M8_03",
+          "typeId": "N2-GR-STAR",
+          "category": "Mondai 8: 文の組み立て",
+          "stem": "代理人として住民票の再発行を申請する場合は、（　　）（　　）★（　　）あります。",
+          "options": [
+            {
+              "id": "A",
+              "text": "申請者本人が作成した"
+            },
+            {
+              "id": "B",
+              "text": "委任状を"
+            },
+            {
+              "id": "C",
+              "text": "必要が"
+            },
+            {
+              "id": "D",
+              "text": "事前に受け取っておく"
+            }
+          ],
+          "correctAnswer": "D",
+          "starPosition": 3,
+          "assembledSentence": "代理人として住民票の再発行を申請する場合は、申請者本人が作成した委任状を事前に受け取っておく必要があります。",
+          "explanation": "Câu hoàn chỉnh: 代理人として住民票の再発行を申請する場合は、申請者本人が作成した委任状を事前に受け取っておく必要があります。 Nghĩa là nếu nộp đơn thay người khác, cần nhận trước giấy ủy quyền do chính người nộp đơn lập. Mệnh đề 申請者本人が作成した bổ nghĩa cho 委任状; 委任状を là tân ngữ của 事前に受け取っておく; 必要があります diễn tả sự cần thiết. Mảnh ★ là 事前に受け取っておく.",
+          "distractorExplanations": {
+            "A": "申請者本人が作成した bổ nghĩa cho 委任状, vì vậy đứng trước cụm này.",
+            "B": "委任状を là tân ngữ của 事前に受け取っておく; nó đứng giữa cụm bổ nghĩa và động từ.",
+            "C": "必要が đứng thứ tư để tạo thành cụm cố định 必要があります."
+          },
+          "fragmentOrder": "A→B→D→C",
+          "skill": "Language Knowledge",
+          "explanationVi": "Câu hoàn chỉnh: 代理人として住民票の再発行を申請する場合は、申請者本人が作成した委任状を事前に受け取っておく必要があります。 Nghĩa là nếu nộp đơn thay người khác, cần nhận trước giấy ủy quyền do chính người nộp đơn lập. Mệnh đề 申請者本人が作成した bổ nghĩa cho 委任状; 委任状を là tân ngữ của 事前に受け取っておく; 必要があります diễn tả sự cần thiết. Mảnh ★ là 事前に受け取っておく."
+        },
+        {
+          "id": "N2_07_M8_04",
+          "typeId": "N2-GR-STAR",
+          "category": "Mondai 8: 文の組み立て",
+          "stem": "会議の議事録を作る際は、（　　）（　　）★（　　）大切です。",
+          "options": [
+            {
+              "id": "A",
+              "text": "発言者の意図を"
+            },
+            {
+              "id": "B",
+              "text": "単に発言を文字に起こすだけでなく、"
+            },
+            {
+              "id": "C",
+              "text": "ことも"
+            },
+            {
+              "id": "D",
+              "text": "正確に読み取る"
+            }
+          ],
+          "correctAnswer": "D",
+          "starPosition": 3,
+          "assembledSentence": "会議の議事録を作る際は、単に発言を文字に起こすだけでなく、発言者の意図を正確に読み取ることも大切です。",
+          "explanation": "Câu hoàn chỉnh: 会議の議事録を作る際は、単に発言を文字に起こすだけでなく、発言者の意図を正確に読み取ることも大切です。 Nghĩa là khi ghi biên bản, ngoài việc chép lại lời nói, cũng cần hiểu đúng ý định của người phát biểu. Cấu trúc 単に～だけでなく～も nối hai việc song song; 発言者の意図を là tân ngữ của 正確に読み取る. Mảnh ★ là 正確に読み取る.",
+          "distractorExplanations": {
+            "A": "発言者の意図を là tân ngữ, cần đứng trước vị ngữ 正確に読み取る.",
+            "B": "単に～だけでなく mở phần thứ nhất của cấu trúc đối sánh và phải đứng trước phần ～も.",
+            "C": "ことも danh hóa hành động đọc đúng ý rồi nối với vị ngữ đánh giá 大切です."
+          },
+          "fragmentOrder": "B→A→D→C",
+          "skill": "Language Knowledge",
+          "explanationVi": "Câu hoàn chỉnh: 会議の議事録を作る際は、単に発言を文字に起こすだけでなく、発言者の意図を正確に読み取ることも大切です。 Nghĩa là khi ghi biên bản, ngoài việc chép lại lời nói, cũng cần hiểu đúng ý định của người phát biểu. Cấu trúc 単に～だけでなく～も nối hai việc song song; 発言者の意図を là tân ngữ của 正確に読み取る. Mảnh ★ là 正確に読み取る."
+        },
+        {
+          "id": "N2_07_M8_05",
+          "typeId": "N2-GR-STAR",
+          "category": "Mondai 8: 文の組み立て",
+          "stem": "この施策は、（　　）（　　）★（　　）予想される。",
+          "options": [
+            {
+              "id": "A",
+              "text": "可能性が"
+            },
+            {
+              "id": "B",
+              "text": "大幅に高める"
+            },
+            {
+              "id": "C",
+              "text": "高いと"
+            },
+            {
+              "id": "D",
+              "text": "利用者の利便性を"
+            }
+          ],
+          "correctAnswer": "A",
+          "starPosition": 3,
+          "assembledSentence": "この施策は、利用者の利便性を大幅に高める可能性が高いと予想される。",
+          "explanation": "Câu hoàn chỉnh: この施策は、利用者の利便性を大幅に高める可能性が高いと予想される。 Nghĩa là dự đoán biện pháp này có khả năng cải thiện đáng kể sự tiện lợi cho người dùng. 利用者の利便性を là tân ngữ; 大幅に高める bổ nghĩa cho 可能性; 可能性が高い nối với と予想される. Mảnh ★ là 可能性が.",
+          "distractorExplanations": {
+            "B": "大幅に高める là vị ngữ trong mệnh đề bổ nghĩa cho 可能性; 可能性があると予想される là cấu trúc chính.",
+            "C": "高いと kết hợp với 可能性が để tạo cụm 可能性が高いと, bổ nghĩa cho 予想される.",
+            "D": "利用者の利便性を là tân ngữ của 高める, phải theo sau bổ ngữ 大幅に và trước cụm danh từ 可能性."
+          },
+          "fragmentOrder": "D→B→A→C",
+          "skill": "Language Knowledge",
+          "explanationVi": "Câu hoàn chỉnh: この施策は、利用者の利便性を大幅に高める可能性が高いと予想される。 Nghĩa là dự đoán biện pháp này có khả năng cải thiện đáng kể sự tiện lợi cho người dùng. 利用者の利便性を là tân ngữ; 大幅に高める bổ nghĩa cho 可能性; 可能性が高い nối với と予想される. Mảnh ★ là 可能性が."
+        },
+        {
+          "id": "N2_07_M9_01",
+          "typeId": "N2-GR-TEXT",
+          "category": "Mondai 9: 文章の文法",
+          "stem": "文章の文法：【50】に入る最も適切なものはどれか。",
+          "passage": "市民の皆様へ\n緑市役所 市民生活課\n\n　日頃より、本市の市政運営に温かいご理解とご協力を賜り、厚く御礼申し上げます。\n　さて、毎年3月下旬から4月中旬にかけましては、就職や進学、転勤などに伴う引っ越し手続きが集中し、本庁舎および各支所の窓口が大変混雑いたします。窓口で長時間お待ちいただく状況を緩和するため、本年度よりスマートフォンやパソコンから利用可能な「オンライン申請ポータル」の対象業務を大幅に拡大する【50】。\n\n　住民票の写しや課税証明書の発行、転出届の提出などにつきましては、マイナンバーカードをお持ちの方であれば、24時間ご自宅から手続きを完了して【51】。これにより、市役所へ直接ご来庁いただく必要がなくなり、大幅な時間短縮が可能となります。\n\n　【52】、オンライン申請の利用にあたりましては、電子証明書の有効期限が切れていないか事前にご確認いただく必要がございます。もし暗証番号をお忘れの場合やカードの機能停止中である場合は、誠に恐れ入りますが、ご本人様による窓口での再設定手続きが【53】。\n\n　市民の皆様におかれましては、窓口の混雑緩和と待ち時間削減に向け、便利なオンライン手続きを積極的に【54】、何卒ご協力のほどよろしくお願い申し上げます。",
+          "options": [
+            {
+              "id": "A",
+              "text": "わけがございません"
+            },
+            {
+              "id": "B",
+              "text": "こととなりました"
+            },
+            {
+              "id": "C",
+              "text": "ことと存じます"
+            },
+            {
+              "id": "D",
+              "text": "はずがありません"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "～こととなりました: Biểu đạt quyết định/chính sách chính thức của cơ quan, tổ chức đối với công chúng.",
+          "distractorExplanations": {
+            "A": "わけがございません: Không có lý nào.",
+            "C": "ことと存じます: Dùng diễn đạt suy đoán lịch sự về tình hình người nhận thư.",
+            "D": "はずがありません: Chắc chắn không có chuyện (bác bỏ vô lý)."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "～こととなりました: Biểu đạt quyết định/chính sách chính thức của cơ quan, tổ chức đối với công chúng."
+        },
+        {
+          "id": "N2_07_M9_02",
+          "typeId": "N2-GR-TEXT",
+          "category": "Mondai 9: 文章の文法",
+          "stem": "文章の文法：【51】に入る最も適切なものはどれか。",
+          "passage": "市民の皆様へ\n緑市役所 市民生活課\n\n　日頃より、本市の市政運営に温かいご理解とご協力を賜り、厚く御礼申し上げます。\n　さて、毎年3月下旬から4月中旬にかけましては、就職や進学、転勤などに伴う引っ越し手続きが集中し、本庁舎および各支所の窓口が大変混雑いたします。窓口で長時間お待ちいただく状況を緩和するため、本年度よりスマートフォンやパソコンから利用可能な「オンライン申請ポータル」の対象業務を大幅に拡大する【50】。\n\n　住民票の写しや課税証明書の発行、転出届の提出などにつきましては、マイナンバーカードをお持ちの方であれば、24時間ご自宅から手続きを完了して【51】。これにより、市役所へ直接ご来庁いただく必要がなくなり、大幅な時間短縮が可能となります。\n\n　【52】、オンライン申請の利用にあたりましては、電子証明書の有効期限が切れていないか事前にご確認いただく必要がございます。もし暗証番号をお忘れの場合やカードの機能停止中である場合は、誠に恐れ入りますが、ご本人様による窓口での再設定手続きが【53】。\n\n　市民の皆様におかれましては、窓口の混雑緩和と待ち時間削減に向け、便利なオンライン手続きを積極的に【54】、何卒ご協力のほどよろしくお願い申し上げます。",
+          "options": [
+            {
+              "id": "A",
+              "text": "申し上げます"
+            },
+            {
+              "id": "B",
+              "text": "存じます"
+            },
+            {
+              "id": "C",
+              "text": "伺います"
+            },
+            {
+              "id": "D",
+              "text": "いただけます"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "完了していただけます: Thể khả năng kính ngữ của もらう (quý công dân có thể hoàn tất thủ tục).",
+          "distractorExplanations": {
+            "A": "申し上げます: Khiêm nhường ngữ nói về hành động của bản thân cơ quan.",
+            "B": "存じます: Nghĩ, cảm thấy (người nói).",
+            "C": "伺います: Khiêm nhường ngữ hỏi/thăm viếng."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "完了していただけます: Thể khả năng kính ngữ của もらう (quý công dân có thể hoàn tất thủ tục)."
+        },
+        {
+          "id": "N2_07_M9_03",
+          "typeId": "N2-GR-TEXT",
+          "category": "Mondai 9: 文章の文法",
+          "stem": "文章の文法：【52】に入る最も適切なものはどれか。",
+          "passage": "市民の皆様へ\n緑市役所 市民生活課\n\n　日頃より、本市の市政運営に温かいご理解とご協力を賜り、厚く御礼申し上げます。\n　さて、毎年3月下旬から4月中旬にかけましては、就職や進学、転勤などに伴う引っ越し手続きが集中し、本庁舎および各支所の窓口が大変混雑いたします。窓口で長時間お待ちいただく状況を緩和するため、本年度よりスマートフォンやパソコンから利用可能な「オンライン申請ポータル」の対象業務を大幅に拡大する【50】。\n\n　住民票の写しや課税証明書の発行、転出届の提出などにつきましては、マイナンバーカードをお持ちの方であれば、24時間ご自宅から手続きを完了して【51】。これにより、市役所へ直接ご来庁いただく必要がなくなり、大幅な時間短縮が可能となります。\n\n　【52】、オンライン申請の利用にあたりましては、電子証明書の有効期限が切れていないか事前にご確認いただく必要がございます。もし暗証番号をお忘れの場合やカードの機能停止中である場合は、誠に恐れ入りますが、ご本人様による窓口での再設定手続きが【53】。\n\n　市民の皆様におかれましては、窓口の混雑緩和と待ち時間削減に向け、便利なオンライン手続きを積極的に【54】、何卒ご協力のほどよろしくお願い申し上げます。",
+          "options": [
+            {
+              "id": "A",
+              "text": "なぜなら"
+            },
+            {
+              "id": "B",
+              "text": "なお"
+            },
+            {
+              "id": "C",
+              "text": "ところが"
+            },
+            {
+              "id": "D",
+              "text": "それゆえ"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "なお: Từ nối dùng để bổ sung thêm lưu ý quan trọng cần ghi nhớ trong văn bản hành chính.",
+          "distractorExplanations": {
+            "A": "なぜなら: Bởi vì (giải thích lý do).",
+            "C": "ところが: Tuy nhiên (đối lập bất ngờ).",
+            "D": "それゆえ: Do đó, vì thế (nguyên nhân kết quả trang trọng)."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "なお: Từ nối dùng để bổ sung thêm lưu ý quan trọng cần ghi nhớ trong văn bản hành chính."
+        },
+        {
+          "id": "N2_07_M9_04",
+          "typeId": "N2-GR-TEXT",
+          "category": "Mondai 9: 文章の文法",
+          "stem": "文章の文法：【53】に入る最も適切なものはどれか。",
+          "passage": "市民の皆様へ\n緑市役所 市民生活課\n\n　日頃より、本市の市政運営に温かいご理解とご協力を賜り、厚く御礼申し上げます。\n　さて、毎年3月下旬から4月中旬にかけましては、就職や進学、転勤などに伴う引っ越し手続きが集中し、本庁舎および各支所の窓口が大変混雑いたします。窓口で長時間お待ちいただく状況を緩和するため、本年度よりスマートフォンやパソコンから利用可能な「オンライン申請ポータル」の対象業務を大幅に拡大する【50】。\n\n　住民票の写しや課税証明書の発行、転出届の提出などにつきましては、マイナンバーカードをお持ちの方であれば、24時間ご自宅から手続きを完了して【51】。これにより、市役所へ直接ご来庁いただく必要がなくなり、大幅な時間短縮が可能となります。\n\n　【52】、オンライン申請の利用にあたりましては、電子証明書の有効期限が切れていないか事前にご確認いただく必要がございます。もし暗証番号をお忘れの場合やカードの機能停止中である場合は、誠に恐れ入りますが、ご本人様による窓口での再設定手続きが【53】。\n\n　市民の皆様におかれましては、窓口の混雑緩和と待ち時間削減に向け、便利なオンライン手続きを積極的に【54】、何卒ご協力のほどよろしくお願い申し上げます。",
+          "options": [
+            {
+              "id": "A",
+              "text": "得ません"
+            },
+            {
+              "id": "B",
+              "text": "おかないでしょう"
+            },
+            {
+              "id": "C",
+              "text": "かねません"
+            },
+            {
+              "id": "D",
+              "text": "必要となります"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "再設定手続きが必要となります: Khi mã PIN bị quên hoặc chức năng thẻ bị khóa, người dân phải trực tiếp đến quầy để làm thủ tục thiết lập lại.",
+          "distractorExplanations": {
+            "A": "得ません: Sai ngữ pháp khi đi trực tiếp với danh từ/trợ từ が.",
+            "B": "おかないでしょう: Không thể không làm (quyết tâm).",
+            "C": "かねません: Có nguy cơ xảy ra việc xấu."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "再設定手続きが必要となります: Khi mã PIN bị quên hoặc chức năng thẻ bị khóa, người dân phải trực tiếp đến quầy để làm thủ tục thiết lập lại."
+        },
+        {
+          "id": "N2_07_M9_05",
+          "typeId": "N2-GR-TEXT",
+          "category": "Mondai 9: 文章の文法",
+          "stem": "文章の文法：【54】に入る最も適切なものはどれか。",
+          "passage": "市民の皆様へ\n緑市役所 市民生活課\n\n　日頃より、本市の市政運営に温かいご理解とご協力を賜り、厚く御礼申し上げます。\n　さて、毎年3月下旬から4月中旬にかけましては、就職や進学、転勤などに伴う引っ越し手続きが集中し、本庁舎および各支所の窓口が大変混雑いたします。窓口で長時間お待ちいただく状況を緩和するため、本年度よりスマートフォンやパソコンから利用可能な「オンライン申請ポータル」の対象業務を大幅に拡大する【50】。\n\n　住民票の写しや課税証明書の発行、転出届の提出などにつきましては、マイナンバーカードをお持ちの方であれば、24時間ご自宅から手続きを完了して【51】。これにより、市役所へ直接ご来庁いただく必要がなくなり、大幅な時間短縮が可能となります。\n\n　【52】、オンライン申請の利用にあたりましては、電子証明書の有効期限が切れていないか事前にご確認いただく必要がございます。もし暗証番号をお忘れの場合やカードの機能停止中である場合は、誠に恐れ入りますが、ご本人様による窓口での再設定手続きが【53】。\n\n　市民の皆様におかれましては、窓口の混雑緩和と待ち時間削減に向け、便利なオンライン手続きを積極的に【54】、何卒ご協力のほどよろしくお願い申し上げます。",
+          "options": [
+            {
+              "id": "A",
+              "text": "ご活用申し上げますよう"
+            },
+            {
+              "id": "B",
+              "text": "ご活用いたしたく"
+            },
+            {
+              "id": "C",
+              "text": "ご活用いただくまいと"
+            },
+            {
+              "id": "D",
+              "text": "ご活用くださいますよう"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "ご活用くださいますよう（ごかつようくださいますよう）: Mẫu kính ngữ kêu gọi, kính mong người dân tích cực sử dụng dịch vụ.",
+          "distractorExplanations": {
+            "A": "ご活用申し上げますよう: Nhầm khiêm nhường ngữ 申し上げる cho hành động của người dân.",
+            "B": "ご活用いたしたく: Bày tỏ mong muốn của người nói.",
+            "C": "いただくまいと: Thể phủ định tuyệt đối."
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "ご活用くださいますよう（ごかつようくださいますよう）: Mẫu kính ngữ kêu gọi, kính mong người dân tích cực sử dụng dịch vụ."
+        },
+        {
+          "id": "N2_07_M10_01",
+          "typeId": "N2-RD-SHORT",
+          "category": "Mondai 10: 短文読解",
+          "passage": "社員各位\n総務課\n\n　来週月曜日より実施予定の社内PC一斉セキュリティ更新につきまして、一部の業務端末において事前のバックアップが未完了であることが判明いたしました。つきましては、各自の重要データにつきまして、本日17時までに所定のクラウド共有ドライブへ退避作業を完了していただきますようお願いいたします。なお、期日までにバックアップが完了していない端末につきましては、更新処理を一時的に保留とし、個別対応となりますのでご留意ください。",
+          "stem": "この通知によると、社員は何をしなければならないか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "本日17時までに各自の重要データをクラウド共有ドライブへ保存する。"
+            },
+            {
+              "id": "B",
+              "text": "来週月曜日に各自のPCのセキュリティ更新作業を直接行う。"
+            },
+            {
+              "id": "C",
+              "text": "来週月曜日までPCを使った業務をすべて停止する。"
+            },
+            {
+              "id": "D",
+              "text": "バックアップ未完了の端末を直ちに総務課へ持参する。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Thông báo yêu cầu mỗi nhân viên sao lưu dữ liệu quan trọng lên thư mục đám mây dùng chung trước 17 giờ hôm nay, trước đợt cập nhật bảo mật vào thứ Hai tới. Máy chưa sao lưu sẽ bị hoãn cập nhật và xử lý riêng; nhân viên không tự thực hiện cập nhật.",
+          "distractorExplanations": {
+            "B": "Việc cập nhật do hệ thống làm vào thứ 2 tới, nhân viên không tự cài đặt.",
+            "C": "Không có yêu cầu dừng toàn bộ công việc.",
+            "D": "Không yêu cầu mang máy lên phòng tổng vụ."
+          },
+          "skill": "Reading",
+          "explanationVi": "Thông báo yêu cầu mỗi nhân viên sao lưu dữ liệu quan trọng lên thư mục đám mây dùng chung trước 17 giờ hôm nay, trước đợt cập nhật bảo mật vào thứ Hai tới. Máy chưa sao lưu sẽ bị hoãn cập nhật và xử lý riêng; nhân viên không tự thực hiện cập nhật."
+        },
+        {
+          "id": "N2_07_M10_02",
+          "typeId": "N2-RD-SHORT",
+          "category": "Mondai 10: 短文読解",
+          "passage": "自治会からのお知らせ：粗大ゴミ収集場所の変更について\n　現在、集会所横のスペースを粗大ゴミの一時集積所として運用しておりますが、近隣住民の方々より通行の妨げになるとのご指摘をいただきました。そのため、来月1日収集分より、集積場所を「北側児童公園前ゲート横」へと移転いたします。移転後は、事前に市役所への電話またはウェブ予約を済ませ、所定の収集シールを貼付した物のみ搬出可能となります。無断放置は厳禁ですのでご注意ください。",
+          "stem": "粗大ゴミの出し方について、本文の内容と合っているものはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "市役所への予約は電話のみで受け付け、ウェブ申請は認められない。"
+            },
+            {
+              "id": "B",
+              "text": "来月1日以降は集積場所が北側児童公園前へ移り、予約とシールの貼付が必要になる。"
+            },
+            {
+              "id": "C",
+              "text": "近隣住民の反対により、粗大ゴミの回収自体が来月より全面中止となる。"
+            },
+            {
+              "id": "D",
+              "text": "集会所横の集積所は来月以降も事前の連絡なしでいつでも利用できる。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Đoạn văn chỉ rõ: từ ngày 1 tháng tới điểm tập kết dời sang cổng công viên phía bắc, bắt buộc đặt lịch trước (qua điện thoại hoặc web) và dán tem thu gom.",
+          "distractorExplanations": {
+            "A": "Văn bản ghi rõ: 電話またはウェブ予約 (cả điện thoại lẫn web đều được).",
+            "C": "Không hủy bỏ việc thu gom mà chỉ đổi địa điểm.",
+            "D": "Điểm cũ cạnh hội trường sẽ bị đóng, không được để rác cản trở lối đi nữa."
+          },
+          "skill": "Reading",
+          "explanationVi": "Đoạn văn chỉ rõ: từ ngày 1 tháng tới điểm tập kết dời sang cổng công viên phía bắc, bắt buộc đặt lịch trước (qua điện thoại hoặc web) và dán tem thu gom."
+        },
+        {
+          "id": "N2_07_M10_03",
+          "typeId": "N2-RD-SHORT",
+          "category": "Mondai 10: 短文読解",
+          "passage": "夏季の節電対策およびクールビズの実施について\n　地球温暖化防止および電力需給逼迫への対応として、本年度も社内の冷房温度を原則として28度に設定いたします。これに伴い、執務中の服装につきましては、ノーネクタイ・ノージャケットを推奨いたします。ただし、社外のお客様との重要な商談や公式セレモニーに出席される際には、相手方に失礼のないよう、状況に応じた節度ある身だしなみを保つよう心がけてください。",
+          "stem": "執務中の服装について、この会社の方針として最も適切なものはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "社内ではノーネクタイを推奨するが、来客対応や商談では状況に合わせた服装をする。"
+            },
+            {
+              "id": "B",
+              "text": "公式セレモニーであっても各自の判断でどのような服装をしても問題ない。"
+            },
+            {
+              "id": "C",
+              "text": "冷房温度を28度にするため、社外との会議でもネクタイの着用は禁止されている。"
+            },
+            {
+              "id": "D",
+              "text": "夏期期間中はすべての商談や式典を含め、常にノージャケットで臨まなければならない。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Nội dung chỉ rõ: trong nội bộ khuyến khích không cà vạt/áo khoác, nhưng khi tiếp khách quan trọng hay dự lễ nghi chính thức phải ăn mặc trang trọng phù hợp hoàn cảnh.",
+          "distractorExplanations": {
+            "B": "Lễ nghi chính thức không được tự ý mặc bừa bãi.",
+            "C": "Không hề cấm thắt cà vạt khi gặp khách ngoài.",
+            "D": "Không bắt buộc mọi cuộc gặp đều không mặc áo khoác."
+          },
+          "skill": "Reading",
+          "explanationVi": "Nội dung chỉ rõ: trong nội bộ khuyến khích không cà vạt/áo khoác, nhưng khi tiếp khách quan trọng hay dự lễ nghi chính thức phải ăn mặc trang trọng phù hợp hoàn cảnh."
+        },
+        {
+          "id": "N2_07_M10_04",
+          "typeId": "N2-RD-SHORT",
+          "category": "Mondai 10: 短文読解",
+          "passage": "マンションにお住まいの皆様へ\n給水設備定期清掃・点検に伴う断水のお知らせ\n\n　下記の日程におきまして、貯水槽の定期清掃および給水ポンプの保守点検を実施いたします。点検作業中は、全戸において水道水の使用ができません。濁り水の発生を防ぐため、断水開始前に蛇口が完全に閉まっていることをご確認いただくとともに、飲用水や生活用水の事前汲み置きをお願い申し上げます。\n\n【断水日時】2026年11月15日（日） 午前10:00 ～ 午後2:00",
+          "stem": "この通知を読んだ住民が事前に行うべきことは何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "断水に備えて飲用水や生活用水を汲み置き、蛇口が閉まっているか確認する。"
+            },
+            {
+              "id": "B",
+              "text": "濁り水が出るのを防ぐため、断水時間中にすべての蛇口を開けておく。"
+            },
+            {
+              "id": "C",
+              "text": "11月15日の午後は給水ポンプが停止するため、終日外出する。"
+            },
+            {
+              "id": "D",
+              "text": "点検時間中に貯水槽へ立ち会い、清掃作業を手伝う。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Thông báo hướng dẫn người dân: khóa chặt vòi nước trước khi cắt nước và tích trữ sẵn nước sinh hoạt/uống.",
+          "distractorExplanations": {
+            "B": "Mở hết vòi nước trong lúc cắt nước sẽ gây tràn nước khi cấp lại.",
+            "C": "Không yêu cầu phải ra khỏi nhà cả ngày.",
+            "D": "Không yêu cầu cư dân đi hỗ trợ cọ rửa bể nước."
+          },
+          "skill": "Reading",
+          "explanationVi": "Thông báo hướng dẫn người dân: khóa chặt vòi nước trước khi cắt nước và tích trữ sẵn nước sinh hoạt/uống."
+        },
+        {
+          "id": "N2_07_M10_05",
+          "typeId": "N2-RD-SHORT",
+          "category": "Mondai 10: 短文読解",
+          "passage": "市民図書館 休館と返却ポスト利用のご案内\n　蔵書点検および館内照明のLED化工事に伴い、来週火曜日から金曜日までの4日間、臨時休館いたします。休館期間中の図書の返却につきましては、正面玄関横の「返却ポスト」をご利用いただけます。ただし、CDやDVDなどの視聴覚資料は破損の危険があるため、返却ポストへの投函はできません。休館明けの土曜日以降に、直接カウンターまでお持ちくださいますようお願い申し上げます。",
+          "stem": "休館中の資料の返却について、正しいものはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "休館期間中は図書を含めていかなる資料の返却も一切受け付けない。"
+            },
+            {
+              "id": "B",
+              "text": "図書は返却ポストに投函できるが、CDやDVDは休館明けに窓口へ返却する。"
+            },
+            {
+              "id": "C",
+              "text": "返却ポストは土曜日以降のみ利用可能であり、平日は閉鎖されている。"
+            },
+            {
+              "id": "D",
+              "text": "CDやDVDを含め、すべての資料を正面玄関横の返却ポストに返却できる。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Đoạn văn nêu rõ: sách thường có thể bỏ vào thùng trả sách, riêng đĩa CD/DVD dễ vỡ nên không được bỏ thùng mà phải chờ mở cửa lại vào thứ Bảy nộp trực tiếp tại quầy.",
+          "distractorExplanations": {
+            "A": "Sách giấy vẫn được trả vào thùng ngoài cửa.",
+            "C": "Hộp trả sách mở trong suốt thời gian đóng cửa tạm thời.",
+            "D": "Đĩa CD/DVD bị nghiêm cấm bỏ vào hộp trả sách vì sợ hỏng."
+          },
+          "skill": "Reading",
+          "explanationVi": "Đoạn văn nêu rõ: sách thường có thể bỏ vào thùng trả sách, riêng đĩa CD/DVD dễ vỡ nên không được bỏ thùng mà phải chờ mở cửa lại vào thứ Bảy nộp trực tiếp tại quầy."
+        },
+        {
+          "id": "N2_07_M11_01",
+          "typeId": "N2-RD-MID",
+          "category": "Mondai 11: 中文読解",
+          "passage": "　近年、多くの職場でビジネスチャットツールが導入され、同僚や上司との日常的な情報共有は格段に迅速化した。従来の電子メールのように格式ばった時候の挨拶や宛名書きを省き、要件だけを簡潔にやり取りできる利便性は、テレワークの普及とも相まって業務効率の向上に大きく寄与している。\n\n　しかし、その簡便さゆえに、新たなコミュニケーション上の摩擦が生じていることも見逃せない。文字だけの短いやり取りは、対面であれば声の抑揚や表情から自然に伝わるニュアンスを欠きがちである。そのため、発信者に悪気配がなくても、受信側には冷淡な指示や批判のように受け取られてしまう事例が後を絶たない。特に指導や修正を求めるメッセージでは、感情の行き違いが起こりやすい。\n\n　こうした問題を回避するためには、ツールの特性を過信せず、内容に応じた手段の使い分けが肝要である。単なる事実連絡やスケジュール確認であればチャットで十分だが、複雑な背景を持つ相談や意見の対立が予想される議題については、短時間でも音声通話やビデオ会議を交えるべきである。デジタル化が進む時代だからこそ、相手の心理的負担に配慮した柔軟な意思疎通が求められているのである。",
+          "stem": "ビジネスチャットツールの普及が業務にもたらした利点として、筆者が挙げているものはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "対面での会議をすべて廃止し、オフィスの賃料を大幅に削減できたこと。"
+            },
+            {
+              "id": "B",
+              "text": "文章のニュアンスが正確に伝わり、指導や修正での誤解がなくなったこと。"
+            },
+            {
+              "id": "C",
+              "text": "相手の表情や抑揚が自動的にテキスト化され、親近感が増したこと。"
+            },
+            {
+              "id": "D",
+              "text": "形式的な挨拶を省いて要件を迅速に共有でき、業務の効率が高まったこと。"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Đoạn 1 nêu: lược bỏ lời chào khuôn mẫu, trao đổi công việc ngắn gọn nhanh chóng giúp nâng cao hiệu suất công việc trong bối cảnh làm từ xa.",
+          "distractorExplanations": {
+            "A": "Không nói đến việc hủy toàn bộ họp trực tiếp hay giảm tiền thuê văn phòng.",
+            "B": "Trái ngược; nhắn tin ngắn dễ gây hiểu lầm chứ không phải loại bỏ hiểu lầm.",
+            "C": "Nội dung bịa đặt không có trong bài."
+          },
+          "skill": "Reading",
+          "explanationVi": "Đoạn 1 nêu: lược bỏ lời chào khuôn mẫu, trao đổi công việc ngắn gọn nhanh chóng giúp nâng cao hiệu suất công việc trong bối cảnh làm từ xa."
+        },
+        {
+          "id": "N2_07_M11_02",
+          "typeId": "N2-RD-MID",
+          "category": "Mondai 11: 中文読解",
+          "passage": "　近年、多くの職場でビジネスチャットツールが導入され、同僚や上司との日常的な情報共有は格段に迅速化した。従来の電子メールのように格式ばった時候の挨拶や宛名書きを省き、要件だけを簡潔にやり取りできる利便性は、テレワークの普及とも相まって業務効率の向上に大きく寄与している。\n\n　しかし、その簡便さゆえに、新たなコミュニケーション上の摩擦が生じていることも見逃せない。文字だけの短いやり取りは、対面であれば声の抑揚や表情から自然に伝わるニュアンスを欠きがちである。そのため、発信者に悪気配がなくても、受信側には冷淡な指示や批判のように受け取られてしまう事例が後を絶たない。特に指導や修正を求めるメッセージでは、感情の行き違いが起こりやすい。\n\n　こうした問題を回避するためには、ツールの特性を過信せず、内容に応じた手段の使い分けが肝要である。単なる事実連絡やスケジュール確認であればチャットで十分だが、複雑な背景を持つ相談や意見の対立が予想される議題については、短時間でも音声通話やビデオ会議を交えるべきである。デジタル化が進む時代だからこそ、相手の心理的負担に配慮した柔軟な意思疎通が求められているのである。",
+          "stem": "チャットツールの利用によって生じる問題点として、本文で指摘されているものは何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "表情や声の抑揚が伝わらないため、悪気がなくても冷淡に誤解される恐れがあること。"
+            },
+            {
+              "id": "B",
+              "text": "送信エラーが頻発し、重要なスケジュール連絡が相手に届かないこと。"
+            },
+            {
+              "id": "C",
+              "text": "文章が長くなりすぎて、読む側の業務時間が大幅に奪われてしまうこと。"
+            },
+            {
+              "id": "D",
+              "text": "相手が不在の場合にメッセージが自動的に削除されてしまうこと。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Đoạn 2 nêu: vì thiếu sắc thái giọng nói và nét mặt nên người nhận dễ cảm thấy tin nhắn cụt ngủn, lạnh lùng hoặc mang tính chỉ trích dù người gửi không có ác ý.",
+          "distractorExplanations": {
+            "B": "Bài viết không đề cập đến lỗi kỹ thuật đường truyền.",
+            "C": "Bài nêu tin nhắn ngắn gọn chứ không phải quá dài.",
+            "D": "Không có thông tin tin nhắn tự xóa."
+          },
+          "skill": "Reading",
+          "explanationVi": "Đoạn 2 nêu: vì thiếu sắc thái giọng nói và nét mặt nên người nhận dễ cảm thấy tin nhắn cụt ngủn, lạnh lùng hoặc mang tính chỉ trích dù người gửi không có ác ý."
+        },
+        {
+          "id": "N2_07_M11_03",
+          "typeId": "N2-RD-MID",
+          "category": "Mondai 11: 中文読解",
+          "passage": "　近年、多くの職場でビジネスチャットツールが導入され、同僚や上司との日常的な情報共有は格段に迅速化した。従来の電子メールのように格式ばった時候の挨拶や宛名書きを省き、要件だけを簡潔にやり取りできる利便性は、テレワークの普及とも相まって業務効率の向上に大きく寄与している。\n\n　しかし、その簡便さゆえに、新たなコミュニケーション上の摩擦が生じていることも見逃せない。文字だけの短いやり取りは、対面であれば声の抑揚や表情から自然に伝わるニュアンスを欠きがちである。そのため、発信者に悪気配がなくても、受信側には冷淡な指示や批判のように受け取られてしまう事例が後を絶たない。特に指導や修正を求めるメッセージでは、感情の行き違いが起こりやすい。\n\n　こうした問題を回避するためには、ツールの特性を過信せず、内容に応じた手段の使い分けが肝要である。単なる事実連絡やスケジュール確認であればチャットで十分だが、複雑な背景を持つ相談や意見の対立が予想される議題については、短時間でも音声通話やビデオ会議を交えるべきである。デジタル化が進む時代だからこそ、相手の心理的負担に配慮した柔軟な意思疎通が求められているのである。",
+          "stem": "筆者が提案する望ましいコミュニケーションのあり方はどのようなものか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "用件の性質に応じて、チャットだけでなく必要に応じて音声やビデオ会議を使い分けること。"
+            },
+            {
+              "id": "B",
+              "text": "誤解を避けるため、チャットツールの使用を直ちに全面的に禁止すること。"
+            },
+            {
+              "id": "C",
+              "text": "業務連絡は常に長文の電子メールで行い、時候の挨拶を徹底すること。"
+            },
+            {
+              "id": "D",
+              "text": "複雑な相談であっても、相手の時間を取らないようチャットのみで完結させること。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Đoạn cuối kết luận: với việc đơn giản thì chat là đủ, nhưng việc phức tạp, nhạy cảm hay dễ bất đồng thì nên kết hợp gọi điện hoặc họp video ngắn.",
+          "distractorExplanations": {
+            "B": "Tác giả không hề bảo cấm chat hoàn toàn.",
+            "C": "Không bảo quay lại email dài dòng.",
+            "D": "Trái ngược ý tác giả."
+          },
+          "skill": "Reading",
+          "explanationVi": "Đoạn cuối kết luận: với việc đơn giản thì chat là đủ, nhưng việc phức tạp, nhạy cảm hay dễ bất đồng thì nên kết hợp gọi điện hoặc họp video ngắn."
+        },
+        {
+          "id": "N2_07_M11_04",
+          "typeId": "N2-RD-MID",
+          "category": "Mondai 11: 中文読解",
+          "passage": "　地方自治体における行政サービスのデジタル変革（DX）が加速している。かつては住民票や各種証明書を取得するために、平日の日中に市役所の窓口へ足を運び、長蛇の列に並ぶのが当たり前であった。しかし現在では、マイナンバーカードを用いたコンビニ交付やオンライン申請により、時間や場所を選ばずに諸手続きを行える環境が整備されつつある。\n\n　このデジタル化は、市民の利便性向上のみならず、市役所側の業務負担軽減にも寄与している。定型的な入力作業や証明書発行が自動化されることで、職員は地域福祉の相談や個別支援といった、人にしかできない高度な対面業務に注力できるようになるからである。\n\n　一方で、急速な移行がもたらす「取り残され」への配慮を怠ってはならない。高齢者や情報端末の操作に不慣れな層にとって、オンライン専用の窓口はかえって高い障壁となり得る。真に誰一人取り残さない公共サービスを実現するためには、最先端のデジタル導入を推進する一方で、丁寧な対面窓口や操作支援のサポート体制を併存させることが不可欠である。",
+          "stem": "行政サービスのデジタル化が進んだことで、市民生活はどのように変化したか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "コンビニや自宅から手続きができるようになり、平日の窓口に行かなくても済むようになった。"
+            },
+            {
+              "id": "B",
+              "text": "市役所の窓口がすべて閉鎖され、対面での手続きが法律で禁止された。"
+            },
+            {
+              "id": "C",
+              "text": "証明書の発行費用が完全に無料になり、税金の支払いが不要になった。"
+            },
+            {
+              "id": "D",
+              "text": "平日の夜間であっても、市役所本庁舎の全窓口が営業するようになった。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Đoạn 1 nêu: nhờ phát hành qua cửa hàng tiện lợi và nộp online, người dân có thể làm thủ tục mọi lúc mọi nơi không cần đến quầy vào giờ hành chính ngày thường.",
+          "distractorExplanations": {
+            "B": "Không đóng cửa toàn bộ và không cấm trực tiếp.",
+            "C": "Không miễn thuế hay miễn phí hoàn toàn.",
+            "D": "Việc giải quyết tiện lợi là nhờ hệ thống số, không phải quầy hành chính mở thâu đêm."
+          },
+          "skill": "Reading",
+          "explanationVi": "Đoạn 1 nêu: nhờ phát hành qua cửa hàng tiện lợi và nộp online, người dân có thể làm thủ tục mọi lúc mọi nơi không cần đến quầy vào giờ hành chính ngày thường."
+        },
+        {
+          "id": "N2_07_M11_05",
+          "typeId": "N2-RD-MID",
+          "category": "Mondai 11: 中文読解",
+          "passage": "　地方自治体における行政サービスのデジタル変革（DX）が加速している。かつては住民票や各種証明書を取得するために、平日の日中に市役所の窓口へ足を運び、長蛇の列に並ぶのが当たり前であった。しかし現在では、マイナンバーカードを用いたコンビニ交付やオンライン申請により、時間や場所を選ばずに諸手続きを行える環境が整備されつつある。\n\n　このデジタル化は、市民の利便性向上のみならず、市役所側の業務負担軽減にも寄与している。定型的な入力作業や証明書発行が自動化されることで、職員は地域福祉の相談や個別支援といった、人にしかできない高度な対面業務に注力できるようになるからである。\n\n　一方で、急速な移行がもたらす「取り残され」への配慮を怠ってはならない。高齢者や情報端末の操作に不慣れな層にとって、オンライン専用の窓口はかえって高い障壁となり得る。真に誰一人取り残さない公共サービスを実現するためには、最先端のデジタル導入を推進する一方で、丁寧な対面窓口や操作支援のサポート体制を併存させることが不可欠である。",
+          "stem": "自治体側にとって、デジタル化がもたらす最大の利点は何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "定型業務が自動化され、福祉相談などの対面支援に職員が注力できるようになること。"
+            },
+            {
+              "id": "B",
+              "text": "すべての地域住民の個人情報を外部企業に委託して管理できること。"
+            },
+            {
+              "id": "C",
+              "text": "市民からの苦情や相談を一切受け付けなくてもよくなること。"
+            },
+            {
+              "id": "D",
+              "text": "職員の数を半分に削減し、人件費をすべてシステム開発費に回せること。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Đoạn 2 nêu: tự động hóa các thủ tục định hình giúp nhân viên tập trung vào các công tác chuyên sâu đòi hỏi sự tương tác con người như tư vấn phúc lợi.",
+          "distractorExplanations": {
+            "B": "Không nói ủy thác toàn bộ thông tin cá nhân ra ngoài.",
+            "C": "Không phải từ chối khiếu nại của dân.",
+            "D": "Không nói giảm một nửa biên chế nhân sự."
+          },
+          "skill": "Reading",
+          "explanationVi": "Đoạn 2 nêu: tự động hóa các thủ tục định hình giúp nhân viên tập trung vào các công tác chuyên sâu đòi hỏi sự tương tác con người như tư vấn phúc lợi."
+        },
+        {
+          "id": "N2_07_M11_06",
+          "typeId": "N2-RD-MID",
+          "category": "Mondai 11: 中文読解",
+          "passage": "　地方自治体における行政サービスのデジタル変革（DX）が加速している。かつては住民票や各種証明書を取得するために、平日の日中に市役所の窓口へ足を運び、長蛇の列に並ぶのが当たり前であった。しかし現在では、マイナンバーカードを用いたコンビニ交付やオンライン申請により、時間や場所を選ばずに諸手続きを行える環境が整備されつつある。\n\n　このデジタル化は、市民の利便性向上のみならず、市役所側の業務負担軽減にも寄与している。定型的な入力作業や証明書発行が自動化されることで、職員は地域福祉の相談や個別支援といった、人にしかできない高度な対面業務に注力できるようになるからである。\n\n　一方で、急速な移行がもたらす「取り残され」への配慮を怠ってはならない。高齢者や情報端末の操作に不慣れな層にとって、オンライン専用の窓口はかえって高い障壁となり得る。真に誰一人取り残さない公共サービスを実現するためには、最先端のデジタル導入を推進する一方で、丁寧な対面窓口や操作支援のサポート体制を併存させることが不可欠である。",
+          "stem": "行政サービスのデジタル化を進める上で、筆者が最も重要だと主張している点はどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "高齢者であっても例外なく全員が独力でスマートフォンを操作できるよう強制すること。"
+            },
+            {
+              "id": "B",
+              "text": "デジタル化を推進しつつも、高齢者等のために丁寧な対面窓口や支援体制を残すこと。"
+            },
+            {
+              "id": "C",
+              "text": "デジタル技術の導入を中止し、過去のすべて対面による手続きに戻すこと。"
+            },
+            {
+              "id": "D",
+              "text": "紙の書類による申請を完全に廃止し、窓口業務のコストをゼロにすること。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Đoạn cuối nhấn mạnh: để không ai bị bỏ lại phía sau, bên cạnh thúc đẩy công nghệ số vẫn phải duy trì quầy trực tiếp và hỗ trợ người cao tuổi.",
+          "distractorExplanations": {
+            "A": "Không bắt ép cưỡng chế người già.",
+            "C": "Không bảo dừng công nghệ quay về thời xưa.",
+            "D": "Không xóa sổ hoàn toàn quầy giấy tờ."
+          },
+          "skill": "Reading",
+          "explanationVi": "Đoạn cuối nhấn mạnh: để không ai bị bỏ lại phía sau, bên cạnh thúc đẩy công nghệ số vẫn phải duy trì quầy trực tiếp và hỗ trợ người cao tuổi."
+        },
+        {
+          "id": "N2_07_M11_07",
+          "typeId": "N2-RD-MID",
+          "category": "Mondai 11: 中文読解",
+          "passage": "　公務員や行政窓口の職員には、公平性と正確性が何よりも強く求められる。法令や規則に基づかない例外的な処理を安易に認めてしまえば、市民全体の信頼を損なうことになりかねないからである。そのため、窓口での応対が時に「形式主義」や「杓子定規（しゃくしじょうぎ）」と批判されることがあっても、一定のルールを厳格に順守することは公の責務として不可欠である。\n\n　しかしながら、規則を守ることと、利用者の心情に寄り添うことは決して矛盾するものではない。手続きの不備で書類が受理できない場合でも、単に「規定ですから無理です」と突き放すのと、「恐れ入りますが、法的な要件を満たすためにこの証明書が必要となります。取得にはこのような方法がございます」と丁寧に手順を示すのとでは、利用者が受ける印象は雲泥の差となる。\n\n　真の「質の高い行政サービス」とは、法の厳格さを維持しつつも、説明の言葉に温かみと共感を持たせることにある。ルールを機械的に適用するだけにとどまらず、困っている住民が次にどのような行動を取ればよいのかを導く姿勢こそが、これからの行政従事者に求められているプロフェッショナリズムなのである。",
+          "stem": "行政窓口において、法令や規則の厳格な順守が不可欠とされる理由は何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "規則を厳しくすることで、申請書類の偽造をすべて物理的に不可能にするため。"
+            },
+            {
+              "id": "B",
+              "text": "窓口での相談件数を減らし、すべての業務をマニュアル化するため。"
+            },
+            {
+              "id": "C",
+              "text": "職員が住民からの質問に答える手間を省き、定時で退勤できるようにするため。"
+            },
+            {
+              "id": "D",
+              "text": "安易な例外処理を認めると、行政に対する市民全体の公平な信頼が損なわれるから。"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Đoạn 1 nêu: nếu dễ dàng xử lý ngoại lệ sai quy định thì sẽ đánh mất sự tin tưởng công bằng của toàn thể người dân đối với nền hành chính.",
+          "distractorExplanations": {
+            "A": "Quy tắc nghiêm ngặt là vì tính công bằng minh bạch, không phải cam kết chặn 100% làm giả.",
+            "B": "Không phải để giảm số lượt hỏi đáp của dân.",
+            "C": "Không phải để trốn việc về sớm."
+          },
+          "skill": "Reading",
+          "explanationVi": "Đoạn 1 nêu: nếu dễ dàng xử lý ngoại lệ sai quy định thì sẽ đánh mất sự tin tưởng công bằng của toàn thể người dân đối với nền hành chính."
+        },
+        {
+          "id": "N2_07_M11_08",
+          "typeId": "N2-RD-MID",
+          "category": "Mondai 11: 中文読解",
+          "passage": "　公務員や行政窓口の職員には、公平性と正確性が何よりも強く求められる。法令や規則に基づかない例外的な処理を安易に認めてしまえば、市民全体の信頼を損なうことになりかねないからである。そのため、窓口での応対が時に「形式主義」や「杓子定規（しゃくしじょうぎ）」と批判されることがあっても、一定のルールを厳格に順守することは公の責務として不可欠である。\n\n　しかしながら、規則を守ることと、利用者の心情に寄り添うことは決して矛盾するものではない。手続きの不備で書類が受理できない場合でも、単に「規定ですから無理です」と突き放すのと、「恐れ入りますが、法的な要件を満たすためにこの証明書が必要となります。取得にはこのような方法がございます」と丁寧に手順を示すのとでは、利用者が受ける印象は雲泥の差となる。\n\n　真の「質の高い行政サービス」とは、法の厳格さを維持しつつも、説明の言葉に温かみと共感を持たせることにある。ルールを機械的に適用するだけにとどまらず、困っている住民が次にどのような行動を取ればよいのかを導く姿勢こそが、これからの行政従事者に求められているプロフェッショナリズムなのである。",
+          "stem": "書類が受理できない場面での望ましい対応として、筆者が勧めているものはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "他の自治体の窓口へ行くよう指示し、速やかに対応を終了させること。"
+            },
+            {
+              "id": "B",
+              "text": "規則は規則であると強調し、住民が納得するまで口頭で厳しく反論すること。"
+            },
+            {
+              "id": "C",
+              "text": "断る理由を丁寧に説明した上で、次にどうすれば取得できるか具体的な手順を示すこと。"
+            },
+            {
+              "id": "D",
+              "text": "住民が困っている様子を見たら、規定を無視してその場で特別に受理してあげること。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Đoạn 2 nêu: giải thích lý do quy định kèm theo hướng dẫn giải pháp thay thế, giúp người dân biết cần bổ sung giấy tờ gì và làm ở đâu.",
+          "distractorExplanations": {
+            "A": "Đùn đẩy sang nơi khác là vô trách nhiệm.",
+            "B": "Tranh cãi gay gắt với dân là sai tác phong.",
+            "D": "Tác giả nhấn mạnh không được phá vỡ quy định."
+          },
+          "skill": "Reading",
+          "explanationVi": "Đoạn 2 nêu: giải thích lý do quy định kèm theo hướng dẫn giải pháp thay thế, giúp người dân biết cần bổ sung giấy tờ gì và làm ở đâu."
+        },
+        {
+          "id": "N2_07_M11_09",
+          "typeId": "N2-RD-MID",
+          "category": "Mondai 11: 中文読解",
+          "passage": "　公務員や行政窓口の職員には、公平性と正確性が何よりも強く求められる。法令や規則に基づかない例外的な処理を安易に認めてしまえば、市民全体の信頼を損なうことになりかねないからである。そのため、窓口での応対が時に「形式主義」や「杓子定規（しゃくしじょうぎ）」と批判されることがあっても、一定のルールを厳格に順守することは公の責務として不可欠である。\n\n　しかしながら、規則を守ることと、利用者の心情に寄り添うことは決して矛盾するものではない。手続きの不備で書類が受理できない場合でも、単に「規定ですから無理です」と突き放すのと、「恐れ入りますが、法的な要件を満たすためにこの証明書が必要となります。取得にはこのような方法がございます」と丁寧に手順を示すのとでは、利用者が受ける印象は雲泥の差となる。\n\n　真の「質の高い行政サービス」とは、法の厳格さを維持しつつも、説明の言葉に温かみと共感を持たせることにある。ルールを機械的に適用するだけにとどまらず、困っている住民が次にどのような行動を取ればよいのかを導く姿勢こそが、これからの行政従事者に求められているプロフェッショナリズムなのである。",
+          "stem": "本文全体を通じて、筆者がこれからの行政従事者に求めている姿勢は何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "すべての権限を住民に委ね、職員自身の判断による説明を放棄する姿勢。"
+            },
+            {
+              "id": "B",
+              "text": "感情を一切排除し、機械のように定められたマニュアルの文言だけを復唱する姿勢。"
+            },
+            {
+              "id": "C",
+              "text": "法の厳格さを守りながらも、困っている住民の立場に立ち、温かく次の行動へ導く姿勢。"
+            },
+            {
+              "id": "D",
+              "text": "対面での応対を避け、すべての業務をAIによる自動応答に任せきりにする姿勢。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Đoạn cuối tóm lược: giữ vững tính chuẩn mực của pháp luật nhưng phải có sự thấu cảm, giải thích có tâm và định hướng hành động cho công dân.",
+          "distractorExplanations": {
+            "A": "Không buông bỏ trách nhiệm công vụ.",
+            "B": "Tác giả phê phán lối làm việc máy móc.",
+            "D": "Không phó mặc hoàn toàn cho máy."
+          },
+          "skill": "Reading",
+          "explanationVi": "Đoạn cuối tóm lược: giữ vững tính chuẩn mực của pháp luật nhưng phải có sự thấu cảm, giải thích có tâm và định hướng hành động cho công dân."
+        },
+        {
+          "id": "N2_07_M12_01",
+          "typeId": "N2-RD-COMP",
+          "category": "Mondai 12: 統合理解",
+          "passage": "［Aの文章］\n　自治体の行政文書を完全に電子化し、ペーパーレスを徹底することは、環境保護と経費削減の観点から急務である。紙の印刷費や保管スペースの削減だけでなく、検索性の向上により過去の事例照会にかかる時間は大幅に短縮される。また、自然災害が発生した際にも、クラウド上にデータが安全にバックアップされていれば、被災後直ちに住民支援業務を再開できる。伝統的な紙への愛着や一時的な移行コストを理由に電子化を遅らせるべきではなく、全庁を挙げて迅速に完全移行を断行すべきである。\n\n［Bの文章］\n　行政手続きの電子化が業務の効率化をもたらすことは疑いようもないが、紙の媒体が持つ独自の安全性や信頼性を軽視してはならない。大規模な停電や通信障害、あるいは深刻なサイバー攻撃が発生した際、デジタルシステムのみに依存した組織は完全に機能不全に陥るリスクを抱えている。重要な公文書や緊急時の住民名簿などについては、万一の事態に備えて物理的な紙の台帳や原本を手元に残しておくことが、危機管理上の賢明な選択である。効率性と安全保障のバランスを見極めた段階的な導入こそが望ましい。",
+          "stem": "災害や非常時におけるデータの取り扱いについて、AとBの主張の違いはどこにあるか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "AもBも、自然災害への備えとしては紙の台帳だけが唯一の解決策であると述べている。"
+            },
+            {
+              "id": "B",
+              "text": "Aは紙の保管こそが最も安全だと主張し、Bはクラウド技術への完全依存を推奨している。"
+            },
+            {
+              "id": "C",
+              "text": "AもBも、サイバー攻撃のリスクがあるため電子化を全面的に撤回すべきだと主張している。"
+            },
+            {
+              "id": "D",
+              "text": "Aはクラウドのバックアップで安全に再開できるとし、Bは停電や障害に備えて紙の原本を残すべきとする。"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Tác giả A cho rằng lưu trữ đám mây giúp phục hồi công việc tức thì sau thiên tai; tác giả B cảnh báo cúp điện hoặc tấn công mạng sẽ làm tê liệt hệ thống số nên cần lưu giữ sổ sách giấy tờ dự phòng.",
+          "distractorExplanations": {
+            "A": "A hoàn toàn ủng hộ số hóa đám mây chứ không chuộng giấy.",
+            "B": "Bị đảo ngược lập trường giữa A và B.",
+            "C": "Cả hai đều không đòi hủy bỏ số hóa."
+          },
+          "skill": "Reading",
+          "explanationVi": "Tác giả A cho rằng lưu trữ đám mây giúp phục hồi công việc tức thì sau thiên tai; tác giả B cảnh báo cúp điện hoặc tấn công mạng sẽ làm tê liệt hệ thống số nên cần lưu giữ sổ sách giấy tờ dự phòng."
+        },
+        {
+          "id": "N2_07_M12_02",
+          "typeId": "N2-RD-COMP",
+          "category": "Mondai 12: 統合理解",
+          "passage": "［Aの文章］\n　自治体の行政文書を完全に電子化し、ペーパーレスを徹底することは、環境保護と経費削減の観点から急務である。紙の印刷費や保管スペースの削減だけでなく、検索性の向上により過去の事例照会にかかる時間は大幅に短縮される。また、自然災害が発生した際にも、クラウド上にデータが安全にバックアップされていれば、被災後直ちに住民支援業務を再開できる。伝統的な紙への愛着や一時的な移行コストを理由に電子化を遅らせるべきではなく、全庁を挙げて迅速に完全移行を断行すべきである。\n\n［Bの文章］\n　行政手続きの電子化が業務の効率化をもたらすことは疑いようもないが、紙の媒体が持つ独自の安全性や信頼性を軽視してはならない。大規模な停電や通信障害、あるいは深刻なサイバー攻撃が発生した際、デジタルシステムのみに依存した組織は完全に機能不全に陥るリスクを抱えている。重要な公文書や緊急時の住民名簿などについては、万一の事態に備えて物理的な紙の台帳や原本を手元に残しておくことが、危機管理上の賢明な選択である。効率性と安全保障のバランスを見極めた段階的な導入こそが望ましい。",
+          "stem": "行政の電子化（ペーパーレス化）の進め方について、AとBの共通点および相違点として正しいものはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "両者とも電子化による業務効率化を認めつつも、Aは即時完全移行を求め、Bは危機管理とのバランスを重視した段階的導入を求めている。"
+            },
+            {
+              "id": "B",
+              "text": "両者とも紙の文書の完全廃止を求めており、導入のスピード感についても全く同じ意見である。"
+            },
+            {
+              "id": "C",
+              "text": "Aは電子化の経費削減効果を否定しているのに対し、Bは紙の維持費がゼロであると主張している。"
+            },
+            {
+              "id": "D",
+              "text": "Aは市民向けのサービスのみを対象とし、Bは職員内部の連絡のみを電子化すべきと述べている。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Cả A và B đều công nhận số hóa mang lại hiệu quả cao. Tuy nhiên A muốn chuyển đổi triệt để tức thì, còn B chủ trương từng bước thận trọng để bảo đảm an ninh dự phòng.",
+          "distractorExplanations": {
+            "B": "B không đồng ý bỏ giấy hoàn toàn.",
+            "C": "A khẳng định hiệu quả giảm chi phí.",
+            "D": "Không phân biệt chia rẽ đối tượng như vậy."
+          },
+          "skill": "Reading",
+          "explanationVi": "Cả A và B đều công nhận số hóa mang lại hiệu quả cao. Tuy nhiên A muốn chuyển đổi triệt để tức thì, còn B chủ trương từng bước thận trọng để bảo đảm an ninh dự phòng."
+        },
+        {
+          "id": "N2_07_M13_01",
+          "typeId": "N2-RD-LONG",
+          "category": "Mondai 13: 長文読解",
+          "passage": "　都市部における住民コミュニティの希薄化が叫ばれて久しい。集合住宅の増加や共働き世帯の一般化、さらには個人のプライバシーを重視する生活様式の浸透に伴い、かつて地域社会の基盤であった「町内会」や「自治会」への加入率は年々低下の一途をたどっている。「役員の負担が重い」「行事に参加する時間がない」といった理由から、若い世代を中心に退会や未加入を選択する住民が増加しているのは紛れもない事実である。\n\n　しかし、この地域の結びつきの低下は、平常時には見えにくい深刻な脆弱性を都市にもたらしている。その最たるものが、大規模災害時における「共助」の機能不全である。地震や水害が発生した直後、行政や消防などの公的救助（公助）の手がすべての被災現場に行き届くには、どうしても一定の時間を要する。その初動段階において、倒壊家屋からの救出や避難所での秩序ある物資配分を支えるのは、近隣住民同士が普段から培ってきた人間関係にほかならない。誰がどこに住んでおり、どの一軒家に支援を要する高齢者がいるかという基礎情報は、日頃のコミュニティ活動を通じてしか共有され得ないのである。\n\n　さらに、平時においても、孤立死の防止や子育て世代の見守りといった地域福祉の課題は、行政の力だけで網羅できるものではない。地域に顔見知りがいるという安心感は、犯罪の抑止や住民の精神的な健康にも目に見えない形で大きく寄与している。\n\n　したがって、私たちは今、町内会組織を単に「過去の慣習」として切り捨てるのではなく、現代の生活実態に即した形で再構築する知恵を絞らねばならない。行事を厳選して役員の業務をデジタル化し、負担を極力軽減しながらも、最低限の「顔の見える関係」を維持する新しいコミュニティのあり方を模索することが、持続可能な都市生活を築く鍵なのである。",
+          "stem": "都市部で町内会や自治会への加入率が低下している背景として、本文で挙げられているものはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "プライバシー重視の生活様式に加え、役員の負担や時間の制約があること。"
+            },
+            {
+              "id": "B",
+              "text": "市役所がすべての町内会費を値上げし、市民の反発を招いたこと。"
+            },
+            {
+              "id": "C",
+              "text": "集合住宅の建築基準法が改正され、町内会の結成が禁止されたこと。"
+            },
+            {
+              "id": "D",
+              "text": "若者が地域の防災訓練を完全に不要であると考えていること。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Đoạn 1 nêu: lối sống coi trọng sự riêng tư cá nhân, gia đình bận rộn cả hai vợ chồng đi làm, cùng với gánh nặng làm cán bộ hội và không có thời gian dự sự kiện.",
+          "distractorExplanations": {
+            "B": "Không nói thị xã tăng hội phí.",
+            "C": "Luật không cấm thành lập hội.",
+            "D": "Không phải thanh niên cho rằng diễn tập là vô ích."
+          },
+          "skill": "Reading",
+          "explanationVi": "Đoạn 1 nêu: lối sống coi trọng sự riêng tư cá nhân, gia đình bận rộn cả hai vợ chồng đi làm, cùng với gánh nặng làm cán bộ hội và không có thời gian dự sự kiện."
+        },
+        {
+          "id": "N2_07_M13_02",
+          "typeId": "N2-RD-LONG",
+          "category": "Mondai 13: 長文読解",
+          "passage": "　都市部における住民コミュニティの希薄化が叫ばれて久しい。集合住宅の増加や共働き世帯の一般化、さらには個人のプライバシーを重視する生活様式の浸透に伴い、かつて地域社会の基盤であった「町内会」や「自治会」への加入率は年々低下の一途をたどっている。「役員の負担が重い」「行事に参加する時間がない」といった理由から、若い世代を中心に退会や未加入を選択する住民が増加しているのは紛れもない事実である。\n\n　しかし、この地域の結びつきの低下は、平常時には見えにくい深刻な脆弱性を都市にもたらしている。その最たるものが、大規模災害時における「共助」の機能不全である。地震や水害が発生した直後、行政や消防などの公的救助（公助）の手がすべての被災現場に行き届くには、どうしても一定の時間を要する。その初動段階において、倒壊家屋からの救出や避難所での秩序ある物資配分を支えるのは、近隣住民同士が普段から培ってきた人間関係にほかならない。誰がどこに住んでおり、どの一軒家に支援を要する高齢者がいるかという基礎情報は、日頃のコミュニティ活動を通じてしか共有され得ないのである。\n\n　さらに、平時においても、孤立死の防止や子育て世代の見守りといった地域福祉の課題は、行政の力だけで網羅できるものではない。地域に顔見知りがいるという安心感は、犯罪の抑止や住民の精神的な健康にも目に見えない形で大きく寄与している。\n\n　したがって、私たちは今、町内会組織を単に「過去の慣習」として切り捨てるのではなく、現代の生活実態に即した形で再構築する知恵を絞らねばならない。行事を厳選して役員の業務をデジタル化し、負担を極力軽減しながらも、最低限の「顔の見える関係」を維持する新しいコミュニティのあり方を模索することが、持続可能な都市生活を築く鍵なのである。",
+          "stem": "大規模災害の発生時において、地域コミュニティ（共助）が不可欠とされる最大の理由は何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "消防署や警察は災害時に一切出動せず、住民が独力で消火活動を行わなければならないから。"
+            },
+            {
+              "id": "B",
+              "text": "公的な避難所は町内会員しか利用できず、非会員は立ち入りが禁止されるから。"
+            },
+            {
+              "id": "C",
+              "text": "公的機関の救助が行き届くまでの間、近隣住民同士の協力で救出や物資配分を支える必要があるから。"
+            },
+            {
+              "id": "D",
+              "text": "被災した家屋の解体工事を、町内会の役員が無償で請け負う義務があるから。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Đoạn 2 nêu: ngay sau thảm họa, lực lượng cứu hộ nhà nước (công trợ) chưa thể tới ngay mọi ngóc ngách, nên giai đoạn đầu phải nhờ người dân lân cận cứu nạn và điều phối đồ cứu trợ.",
+          "distractorExplanations": {
+            "A": "Cảnh sát và cứu hỏa vẫn làm nhiệm vụ nhưng cần thời gian tiếp cận.",
+            "B": "Nơi lánh nạn công cộng dành cho mọi người, không phân biệt hội viên.",
+            "D": "Hội dân cư không phải công ty phá dỡ nhà miễn phí."
+          },
+          "skill": "Reading",
+          "explanationVi": "Đoạn 2 nêu: ngay sau thảm họa, lực lượng cứu hộ nhà nước (công trợ) chưa thể tới ngay mọi ngóc ngách, nên giai đoạn đầu phải nhờ người dân lân cận cứu nạn và điều phối đồ cứu trợ."
+        },
+        {
+          "id": "N2_07_M13_03",
+          "typeId": "N2-RD-LONG",
+          "category": "Mondai 13: 長文読解",
+          "passage": "　都市部における住民コミュニティの希薄化が叫ばれて久しい。集合住宅の増加や共働き世帯の一般化、さらには個人のプライバシーを重視する生活様式の浸透に伴い、かつて地域社会の基盤であった「町内会」や「自治会」への加入率は年々低下の一途をたどっている。「役員の負担が重い」「行事に参加する時間がない」といった理由から、若い世代を中心に退会や未加入を選択する住民が増加しているのは紛れもない事実である。\n\n　しかし、この地域の結びつきの低下は、平常時には見えにくい深刻な脆弱性を都市にもたらしている。その最たるものが、大規模災害時における「共助」の機能不全である。地震や水害が発生した直後、行政や消防などの公的救助（公助）の手がすべての被災現場に行き届くには、どうしても一定の時間を要する。その初動段階において、倒壊家屋からの救出や避難所での秩序ある物資配分を支えるのは、近隣住民同士が普段から培ってきた人間関係にほかならない。誰がどこに住んでおり、どの一軒家に支援を要する高齢者がいるかという基礎情報は、日頃のコミュニティ活動を通じてしか共有され得ないのである。\n\n　さらに、平時においても、孤立死の防止や子育て世代の見守りといった地域福祉の課題は、行政の力だけで網羅できるものではない。地域に顔見知りがいるという安心感は、犯罪の抑止や住民の精神的な健康にも目に見えない形で大きく寄与している。\n\n　したがって、私たちは今、町内会組織を単に「過去の慣習」として切り捨てるのではなく、現代の生活実態に即した形で再構築する知恵を絞らねばならない。行事を厳選して役員の業務をデジタル化し、負担を極力軽減しながらも、最低限の「顔の見える関係」を維持する新しいコミュニティのあり方を模索することが、持続可能な都市生活を築く鍵なのである。",
+          "stem": "町内会等の将来像について、筆者が最終的に提案している解決策はどのようなものか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "すべての住民活動をインターネット上の仮想空間だけに限定し、対面での接触をなくすこと。"
+            },
+            {
+              "id": "B",
+              "text": "町内会制度を即刻廃止し、すべての地域福祉と防災を行政の税金で賄うこと。"
+            },
+            {
+              "id": "C",
+              "text": "昔ながらの慣習を一切変えずに厳守し、未加入者には厳しい罰則を科すこと。"
+            },
+            {
+              "id": "D",
+              "text": "役員の負担を軽減し行事を整理しつつ、現代に適した形で顔の見える関係を維持すること。"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Đoạn cuối nhấn mạnh: không vứt bỏ hội dân cư mà cần cải tiến, tinh gọn sự kiện, số hóa công việc quản lý để giảm gánh nặng mà vẫn giữ được mối quan hệ quen biết xóm giềng.",
+          "distractorExplanations": {
+            "A": "Vẫn cần giữ mối quan hệ 'biết mặt nhau' thực tế.",
+            "B": "Tác giả chỉ ra một mình nhà nước không thể bao quát hết.",
+            "C": "Không bảo thủ áp đặt phạt vạ."
+          },
+          "skill": "Reading",
+          "explanationVi": "Đoạn cuối nhấn mạnh: không vứt bỏ hội dân cư mà cần cải tiến, tinh gọn sự kiện, số hóa công việc quản lý để giảm gánh nặng mà vẫn giữ được mối quan hệ quen biết xóm giềng."
+        },
+        {
+          "id": "N2_07_M14_01",
+          "typeId": "N2-RD-INFO",
+          "category": "Mondai 14: 情報検索",
+          "passage": "市民活動交流センター 施設利用のご案内\n\n【利用区分と基本料金（1時間あたり）】\n・第1会議室（定員20名）：800円（プロジェクター完備・追加料金なし）\n・第2会議室（定員40名）：1,500円（マイク設備あり・追加料金なし）\n・多目的ホール（定員100名）：3,500円（音響・照明装置一式利用は別途1回1,000円）\n※市外在住者または営利目的（入場料徴収・商品の販売等）の利用は、上記料金の1.5倍となります。\n\n【利用申し込みと予約受付期間】\n・受付開始：利用希望日の3か月前の初日（午前9:00）より受付。\n・申込方法：窓口での直接申請、または市の公共施設予約システム（要事前登録）。\n・利用日の7日前までに利用料金の全額納付が必要です（納付完了で本予約確定）。\n\n【予約の変更・キャンセル規定】\n・利用日の8日前までのキャンセル：納付済み利用料金の全額（100％）を返金。\n・利用日の7日前から2日前までのキャンセル：納付済み利用料金の半額（50％）を返金。\n・前日および当日のキャンセル：返金なし（0％）。\n※台風等の自然災害により施設側が閉館を判断した場合は、時期にかかわらず全額返金いたします。",
+          "stem": "市内在住のボランティア団体が、会員30名で第2会議室を平日に3時間利用する場合、利用料金の合計はいくらになるか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "2,400円"
+            },
+            {
+              "id": "B",
+              "text": "4,500円"
+            },
+            {
+              "id": "C",
+              "text": "10,500円"
+            },
+            {
+              "id": "D",
+              "text": "6,750円"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Đoàn thể thiện nguyện trong thành phố (không phụ thu), 30 người nên chọn Phòng họp số 2 (sức chứa 40 người). Đơn giá 1,500 yên/giờ x 3 giờ = 4,500 yên.",
+          "distractorExplanations": {
+            "A": "2,400 yên là giá của Phòng họp số 1 (sức chứa chỉ 20 người, không đủ cho 30 người).",
+            "C": "10,500 yên là giá của Hội trường đa năng (3,500 yên x 3).",
+            "D": "6,750 yên là giá bị tính 1.5 lần ngoại thành/thương mại."
+          },
+          "skill": "Reading",
+          "explanationVi": "Đoàn thể thiện nguyện trong thành phố (không phụ thu), 30 người nên chọn Phòng họp số 2 (sức chứa 40 người). Đơn giá 1,500 yên/giờ x 3 giờ = 4,500 yên."
+        },
+        {
+          "id": "N2_07_M14_02",
+          "typeId": "N2-RD-INFO",
+          "category": "Mondai 14: 情報検索",
+          "passage": "市民活動交流センター 施設利用のご案内\n\n【利用区分と基本料金（1時間あたり）】\n・第1会議室（定員20名）：800円（プロジェクター完備・追加料金なし）\n・第2会議室（定員40名）：1,500円（マイク設備あり・追加料金なし）\n・多目的ホール（定員100名）：3,500円（音響・照明装置一式利用は別途1回1,000円）\n※市外在住者または営利目的（入場料徴収・商品の販売等）の利用は、上記料金の1.5倍となります。\n\n【利用申し込みと予約受付期間】\n・受付開始：利用希望日の3か月前の初日（午前9:00）より受付。\n・申込方法：窓口での直接申請、または市の公共施設予約システム（要事前登録）。\n・利用日の7日前までに利用料金の全額納付が必要です（納付完了で本予約確定）。\n\n【予約の変更・キャンセル規定】\n・利用日の8日前までのキャンセル：納付済み利用料金の全額（100％）を返金。\n・利用日の7日前から2日前までのキャンセル：納付済み利用料金の半額（50％）を返金。\n・前日および当日のキャンセル：返金なし（0％）。\n※台風等の自然災害により施設側が閉館を判断した場合は、時期にかかわらず全額返金いたします。",
+          "stem": "予約のキャンセルと返金について、規定に合致しているものはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "利用日の10日前にキャンセルした場合、手数料として半額が差し引かれる。"
+            },
+            {
+              "id": "B",
+              "text": "台風によりセンターが閉館した場合でも、当日キャンセルは一切返金されない。"
+            },
+            {
+              "id": "C",
+              "text": "利用日の前日にキャンセルしても、理由を問わず全額が返金される。"
+            },
+            {
+              "id": "D",
+              "text": "利用日の5日前にキャンセルした場合、納付済み料金の50％が返金される。"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Quy định nêu: hủy từ 7 ngày đến 2 ngày trước ngày sử dụng thì được hoàn lại 50% tiền (5 ngày trước rơi vào khung này).",
+          "distractorExplanations": {
+            "A": "Hủy từ 8 ngày trở về trước được hoàn lại 100%.",
+            "B": "Nếu bão khiến trung tâm phải đóng cửa thì được hoàn 100% bất kể thời điểm.",
+            "C": "Hủy ngày hôm trước hoặc trong ngày thì không được hoàn tiền (0%)."
+          },
+          "skill": "Reading",
+          "explanationVi": "Quy định nêu: hủy từ 7 ngày đến 2 ngày trước ngày sử dụng thì được hoàn lại 50% tiền (5 ngày trước rơi vào khung này)."
+        }
+      ]
+    },
+    {
+      "sectionId": "sec-2",
+      "sectionName": "Phần 2: Nghe hiểu (Listening Comprehension)",
+      "durationMinutes": 50,
+      "itemCount": 30,
+      "audioStatus": "BROWSER_PLAYBACK_VERIFIED",
+      "audioNoticeVi": "30 tệp đã khớp SHA-256, giải mã và ghi nhận tiến triển phát trên trình duyệt máy tính và di động; chưa có chứng nhận chuyên gia về phát âm.",
+      "items": [
+        {
+          "id": "N2_07_M1_L01",
+          "typeId": "N2-LIS-TASK",
+          "category": "Mondai 1: 課題理解",
+          "script": "市役所の市民課窓口で、男性と女性の職員が転出届の手続きについて話しています。男性はこの後、まず何をしなければなりませんか。\n\n男：「すみません、来月他県へ引っ越すことになったので、転出の手続きをしたいのですが。」\n女：「ご転出ですね。ご本人様確認のため、マイナンバーカードか運転免許証はお持ちでしょうか。」\n男：「はい、マイナンバーカードを持っています。」\n女：「ありがとうございます。マイナンバーカードをお持ちでしたら、転出証明書の発行を受ける代わりに、カードを用いた特例転出が可能です。ただし、転出届の申請用紙に新住所と転出予定日をご記入いただく必要があります。」\n男：「分かりました。用紙はあちらの記載台にありますか。」\n女：「はい、記載台の『3番』の用紙です。ご記入後、番号札をお取りになってお待ちください。順番が来ましたら、カードの暗証番号を入力していただきます。」\n男：「承知しました。では、まず用紙に書いてきます。」",
+          "stem": "男性はこの後、まず何をしなければなりませんか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "記載台へ行って転出届の申請用紙を記入する。"
+            },
+            {
+              "id": "B",
+              "text": "順番待ちの番号札を取ってロビーで待つ。"
+            },
+            {
+              "id": "C",
+              "text": "転出証明書の紙の原本を窓口で受け取る。"
+            },
+            {
+              "id": "D",
+              "text": "窓口の端末にマイナンバーカードの暗証番号を入力する。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Nữ nhân viên hướng dẫn: trước tiên cần lấy tờ khai số 3 tại bàn hướng dẫn và điền địa chỉ mới cùng ngày chuyển đi ('申請用紙に新住所と転出予定日をご記入いただく必要があります'). Nam công dân xác nhận sẽ đi viết đơn trước ('まず用紙に書いてきます').",
+          "distractorExplanations": {
+            "B": "Lấy số thứ tự sau khi đã điền xong đơn.",
+            "C": "Người có thẻ My Number chuyển đi theo dạng đặc thù không cần phát hành giấy chứng nhận chuyển đi bằng giấy.",
+            "D": "Nhập mã PIN khi đến lượt gọi số tại quầy."
+          },
+          "skill": "Listening",
+          "explanationVi": "Nữ nhân viên hướng dẫn: trước tiên cần lấy tờ khai số 3 tại bàn hướng dẫn và điền địa chỉ mới cùng ngày chuyển đi ('申請用紙に新住所と転出予定日をご記入いただく必要があります'). Nam công dân xác nhận sẽ đi viết đơn trước ('まず用紙に書いてきます').",
+          "audioUrl": "audio/n2_mock_07/N2_07_M1_L01.mp3",
+          "audioDurationSec": 87.176,
+          "audioSha256": "ce3df25ee3e0faf4e74d82aece6a8ff02ccb35f19e5c7c41c1428959f1a0bfc2",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_07_M1_L02",
+          "typeId": "N2-LIS-TASK",
+          "category": "Mondai 1: 課題理解",
+          "script": "会社で、男性の課長と女性社員が来月発行する社内報の原稿について話しています。女性社員はこの後、何を修正しますか。\n\n男：「高橋さん、社内報の最終ゲラ、確認させてもらったよ。レイアウトも写真の配置も見やすくていいね。」\n女：「ありがとうございます、課長。」\n男：「ただね、3ページの『新任マネージャー紹介』の記事なんだけど、営業二課の鈴木さんの役職名が『課長代理』になっているよ。彼は先月の昇進で『課長』になっているから直しておいて。」\n女：「あっ、大変失礼いたしました。すぐに直します。あと、隣の座談会記事の日時ですが、来週月曜日になっていますが大丈夫でしょうか。」\n男：「ああ、そっちは先週の役員会で承認済みだからそのままでいいよ。それと、裏表紙の印刷部数の表記も確認しておいてね。」\n女：「はい、部数は印刷会社に確認済みです。では、役職の箇所を直ちに修正して再出力します。」",
+          "stem": "女性社員はこの後、何を修正しますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "写真の配置とページレイアウトを変更する。"
+            },
+            {
+              "id": "B",
+              "text": "新任マネージャーの役職名の表記を直す。"
+            },
+            {
+              "id": "C",
+              "text": "裏表紙の社内報の印刷部数の数値を変更する。"
+            },
+            {
+              "id": "D",
+              "text": "座談会記事に記載された開催日時を修正する。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Trưởng phòng chỉ ra lỗi duy nhất cần sửa: chức vụ của anh Suzuki bài trang 3 bị ghi là 'Phó phòng', trong khi tháng trước đã thăng chức lên 'Trưởng phòng' ('役職名が課長代理になっているよ...課長になっているから直しておいて').",
+          "distractorExplanations": {
+            "A": "Bố cục ảnh và trình bày được khen đẹp, không cần đổi.",
+            "C": "Số lượng in đã xác nhận chuẩn với nhà in.",
+            "D": "Ngày giờ tọa đàm đã được duyệt, giữ nguyên."
+          },
+          "skill": "Listening",
+          "explanationVi": "Trưởng phòng chỉ ra lỗi duy nhất cần sửa: chức vụ của anh Suzuki bài trang 3 bị ghi là 'Phó phòng', trong khi tháng trước đã thăng chức lên 'Trưởng phòng' ('役職名が課長代理になっているよ...課長になっているから直しておいて').",
+          "audioUrl": "audio/n2_mock_07/N2_07_M1_L02.mp3",
+          "audioDurationSec": 83.104,
+          "audioSha256": "af5ef620b1a6e704b415067db4aa3a4dd0393304a61e65e69d32d13559fafb70",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_07_M1_L03",
+          "typeId": "N2-LIS-TASK",
+          "category": "Mondai 1: 課題理解",
+          "script": "マンションの集会所で、管理組合の理事長の女性と役員の男性が定期総会の準備について話しています。男性役員はこの後、まず何をしなければなりませんか。\n\n女：「中村さん、来週日曜日の定期総会ですが、議案書の印刷は無事に終わりましたね。」\n男：「はい、全120戸分の印刷と封筒への封入作業は完了しています。」\n女：「助かりました。それで、総会に出席できない住民の方から『委任状』や『議決権行使書』を事前に集める必要がありますね。」\n男：「はい。各住戸の郵便受けに議案書を投函して、回収期日を今週金曜日に設定してあります。」\n女：「ええ。ただ、投函する前に、案内状の出欠返信締切日の日付に誤記がないか、もう一度だけ確認してほしいの。去年、日付の曜日が間違っていて混乱したことがあったから。」\n男：「分かりました。全戸投函を始める前に、案内状の日付と曜日を今すぐ照合します。」\n女：「お願いね。会場のマイク設備や机の配置は前日の土曜日に確認すれば間に合うから。」",
+          "stem": "男性役員はこの後、まず何をしなければなりませんか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "全120戸分の議案書を印刷機で印刷する。"
+            },
+            {
+              "id": "B",
+              "text": "議案書に同封する案内状の日付と曜日を確認する。"
+            },
+            {
+              "id": "C",
+              "text": "集会所のマイク設備と机の配置を点検する。"
+            },
+            {
+              "id": "D",
+              "text": "全住戸の郵便受けに議案書の封筒を投函する。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Bà chủ tịch yêu cầu kiểm tra kỹ lại ngày tháng và thứ trong giấy hẹn trước khi phát đơn vào hòm thư ('投函する前に、案内状の出欠返信締切日の日付に誤記がないか、もう一度だけ確認してほしいの'). Nam cán bộ xác nhận sẽ đối chiếu ngay lập tức.",
+          "distractorExplanations": {
+            "A": "Việc in 120 bộ đã hoàn tất từ trước.",
+            "C": "Kiểm tra loa đài hội trường để thứ Bảy trước ngày họp làm sau.",
+            "D": "Phát vào hòm thư chỉ làm sau khi đã kiểm tra xong ngày tháng."
+          },
+          "skill": "Listening",
+          "explanationVi": "Bà chủ tịch yêu cầu kiểm tra kỹ lại ngày tháng và thứ trong giấy hẹn trước khi phát đơn vào hòm thư ('投函する前に、案内状の出欠返信締切日の日付に誤記がないか、もう一度だけ確認してほしいの'). Nam cán bộ xác nhận sẽ đối chiếu ngay lập tức.",
+          "audioUrl": "audio/n2_mock_07/N2_07_M1_L03.mp3",
+          "audioDurationSec": 93.344,
+          "audioSha256": "8ef214bc4dea3e2385159f1fe69e704dd4ba615cdc8aa26a8480ccbb739423d5",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_07_M1_L04",
+          "typeId": "N2-LIS-TASK",
+          "category": "Mondai 1: 課題理解",
+          "script": "オフィスで、男性社員と女性の先輩社員が部署の備品購入について話しています。男性社員はこの後、まず何を提出しなければなりませんか。\n\n男：「先輩、プロジェクトルームのホワイトボードとプロジェクターの買い替えですが、カタログから候補を選定しました。」\n女：「ありがとう。合計金額はいくらくらいになりそう？」\n男：「2点合わせて約8万円です。」\n女：「うちの会社の規程では、5万円を超える備品を購入する場合、先に発注するんじゃなくて、見積書を添えて『事前購入伺い書』を経理課に出さないといけないのよ。」\n男：「あっ、そうだったんですね。ネット通販の領収書を後から精算すればいいと思っていました。」\n女：「それは5万円未満の場合ね。業者から取り寄せた正式な見積書のPDFがある？」\n男：「はい、先ほど販売店からメールで届きました。」\n女：「じゃあ、社内ポータルから『事前伺い書』を作成して、見積書を添付して部長へ決裁申請を上げてちょうだい。」\n男：「承知しました。すぐに申請データを作成します。」",
+          "stem": "男性社員はこの後、まず何を提出しなければなりませんか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "ネット通販で購入した商品の領収書。"
+            },
+            {
+              "id": "B",
+              "text": "販売店への正式な注文書と支払請求書。"
+            },
+            {
+              "id": "C",
+              "text": "プロジェクトルームの備品廃棄申請書。"
+            },
+            {
+              "id": "D",
+              "text": "見積書を添付した備品の事前購入伺い書。"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Nữ tiền bối giải thích quy định công ty: thiết bị trên 5 vạn yên phải nộp giấy trình duyệt mua trước (事前購入伺い書) kèm báo giá (見積書) lên trưởng phòng ('事前伺い書を作成して、見積書を添付して部長へ決裁申請を上げてちょうだい').",
+          "distractorExplanations": {
+            "A": "Hóa đơn thanh toán sau chỉ áp dụng cho đồ dưới 5 vạn yên.",
+            "B": "Chưa được đặt hàng khi chưa duyệt dự toán.",
+            "C": "Không có yêu cầu nộp đơn thanh lý thiết bị cũ."
+          },
+          "skill": "Listening",
+          "explanationVi": "Nữ tiền bối giải thích quy định công ty: thiết bị trên 5 vạn yên phải nộp giấy trình duyệt mua trước (事前購入伺い書) kèm báo giá (見積書) lên trưởng phòng ('事前伺い書を作成して、見積書を添付して部長へ決裁申請を上げてちょうだい').",
+          "audioUrl": "audio/n2_mock_07/N2_07_M1_L04.mp3",
+          "audioDurationSec": 90.52,
+          "audioSha256": "d7111e2abd01a74875a906a146a093d1d232e703393fe8958c844d7ded0ce4d7",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_07_M1_L05",
+          "typeId": "N2-LIS-TASK",
+          "category": "Mondai 1: 課題理解",
+          "script": "地域センターで、訓練本部の男性責任者と女性職員が当日の進行について話しています。女性職員はこの後、どこへ向かわなければなりませんか。\n\n男：「間もなく午前9時から総合防災訓練が始まります。各自の持ち場を確認します。」\n女：「はい、本部長。私は当初、中央広場での初期消火体験コーナーの担当でしたが、予定通りでよろしいでしょうか。」\n男：「あ、実はさっき第1避難所の小学校体育館から連絡があってね。受付の受付名簿の配布と高齢者の誘導スタッフが1名急病で来られなくなったそうなんだ。」\n女：「そうなんですか。それは大変ですね。」\n男：「消火器体験の方は消防署の隊員さんが2名増員されたから大丈夫だ。悪いんだけど、君は今すぐ小学校の体育館へ行って、受付誘導の応援に入ってくれないか。」\n女：「分かりました。避難者名簿の用紙を持って、直ちに小学校へ向かいます。」",
+          "stem": "女性職員はこの後、どこへ向かわなければなりませんか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "本部が設置されている地域センターの救護室。"
+            },
+            {
+              "id": "B",
+              "text": "訓練機材を保管している消防署の車庫。"
+            },
+            {
+              "id": "C",
+              "text": "第1避難所となっている小学校の体育館。"
+            },
+            {
+              "id": "D",
+              "text": "初期消火体験を行う中央広場のコーナー。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Trưởng ban điều động nhân sự khẩn cấp: điểm lánh nạn trường tiểu học bị thiếu người tiếp đón và hướng dẫn người già do có người ốm đột xuất, nên yêu cầu nữ nhân viên sang đó tiếp viện ngay ('今すぐ小学校の体育館へ行って、受付誘導の応援に入ってくれないか').",
+          "distractorExplanations": {
+            "A": "Không đến phòng cứu trợ.",
+            "B": "Không phải đi gara trạm cứu hỏa.",
+            "D": "Khu dập lửa quảng trường trung tâm đã có lính cứu hỏa tiếp viện."
+          },
+          "skill": "Listening",
+          "explanationVi": "Trưởng ban điều động nhân sự khẩn cấp: điểm lánh nạn trường tiểu học bị thiếu người tiếp đón và hướng dẫn người già do có người ốm đột xuất, nên yêu cầu nữ nhân viên sang đó tiếp viện ngay ('今すぐ小学校の体育館へ行って、受付誘導の応援に入ってくれないか').",
+          "audioUrl": "audio/n2_mock_07/N2_07_M1_L05.mp3",
+          "audioDurationSec": 81.784,
+          "audioSha256": "7ec4f8c46ac87c49f160c4e3d5eb429ea419d1e193f18bcc2a72c00274ee4835",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_07_M2_L01",
+          "typeId": "N2-LIS-POINT",
+          "category": "Mondai 2: ポイント理解",
+          "script": "市役所の交通対策課で、男性職員と女性職員がコミュニティバスの見直しについて話しています。今回ルートを変更することになった最大の理由は何ですか。\n\n（6.0秒の無音）\n\n男：「来月から運行が始まる新しいコミュニティバスの巡回ルート、市民説明会でも好評だったね。」\n女：「ええ。当初は駅と市役所を最短距離で結ぶルートを検討していましたが、最終的には総合病院と大型スーパーを経由する大回りルートに変更しましたね。」\n男：「うん。燃料費の高騰や運転手不足の面からは直線ルートの方が望ましかったんだけど、アンケート調査を見たら、高齢者の通院や日用品の買い物手段がなくて困っているという声が圧倒的に多かったからね。」\n女：「そうですね。運行本数を少し減らしてでも、生活に直結する医療機関や商店街へのアクセスを優先した判断は正しかったと思います。」\n男：「ああ。地域の生活インフラとしての役割を一番に考えた結果だね。」",
+          "stem": "今回ルートを変更することになった最大の理由は何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "バスの運転手の不足を解消するため。"
+            },
+            {
+              "id": "B",
+              "text": "高齢者の通院や買い物の利便性を確保するため。"
+            },
+            {
+              "id": "C",
+              "text": "駅と市役所の間を最短時間で結ぶため。"
+            },
+            {
+              "id": "D",
+              "text": "バスの燃料費を削減し、運行コストを下げるため。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Nam nhân viên nêu rõ lý do quyết định: khảo sát ý kiến cho thấy người cao tuổi gặp khó khăn lớn về đi khám bệnh và đi chợ, nên tuyến xe được uốn qua bệnh viện và siêu thị ('高齢者の通院や日用品の買い物手段がなくて困っているという声が圧倒的に多かったからね').",
+          "distractorExplanations": {
+            "A": "Không phải để giải quyết thiếu lái xe.",
+            "C": "Đã từ bỏ tuyến đường thẳng ngắn nhất.",
+            "D": "Tuyến đường vòng tốn xăng hơn, không phải để giảm chi phí nhiên liệu."
+          },
+          "skill": "Listening",
+          "explanationVi": "Nam nhân viên nêu rõ lý do quyết định: khảo sát ý kiến cho thấy người cao tuổi gặp khó khăn lớn về đi khám bệnh và đi chợ, nên tuyến xe được uốn qua bệnh viện và siêu thị ('高齢者の通院や日用品の買い物手段がなくて困っているという声が圧倒的に多かったからね').",
+          "audioUrl": "audio/n2_mock_07/N2_07_M2_L01.mp3",
+          "audioDurationSec": 90.76,
+          "audioSha256": "cd53de902b55a8d878a41c434e573082473773d42e24cb24a754bf055a0ec9c5",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_07_M2_L02",
+          "typeId": "N2-LIS-POINT",
+          "category": "Mondai 2: ポイント理解",
+          "script": "会社で、人事課の女性社員が新入社員にテレワークの留意点について説明しています。勤怠管理において特に注意すべき点として何が挙げられていますか。\n\n（6.0秒の無音）\n\n女：「在宅勤務を行う際の勤怠ルールについて説明します。自宅での作業は通勤のストレスがない反面、私生活との境界が曖昧になりがちです。業務開始と終了の打刻はもちろん必須ですが、それ以上に徹底してほしいのは『途中離席』の申告です。例えば、急な宅配便の受け取りや家事などで15分以上パソコンを離れる場合は、必ずチャットツールのステータスを離席にし、事後にシステムへ中抜け時間を登録してください。これを怠ると、実労働時間の把握ができなくなり、労務管理上のトラブルにつながります。」",
+          "stem": "勤怠管理において特に注意すべき点として何が挙げられていますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "終業後に上司と30分間の反省面談を毎日行うこと。"
+            },
+            {
+              "id": "B",
+              "text": "在宅勤務中のパソコン画面を常にカメラで録画すること。"
+            },
+            {
+              "id": "C",
+              "text": "毎朝8時までに全社員宛てに業務計画メールを送ること。"
+            },
+            {
+              "id": "D",
+              "text": "15分以上席を離れる際のステータス変更と中抜け登録。"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Nhân viên nhân sự nhấn mạnh điều đặc biệt cần chú ý: khi rời khỏi bàn máy tính từ 15 phút trở lên vì việc riêng thì bắt buộc đổi trạng thái sang 'vắng mặt' và đăng ký thời gian rời bàn ('15分以上パソコンを離れる場合は、必ずチャットツールのステータスを離席にし、事後にシステムへ中抜け時間を登録してください').",
+          "distractorExplanations": {
+            "A": "Không họp kiểm điểm 30 phút mỗi ngày.",
+            "B": "Không có yêu cầu quay video màn hình liên tục.",
+            "C": "Không yêu cầu gửi email cho toàn thể công ty lúc 8h sáng."
+          },
+          "skill": "Listening",
+          "explanationVi": "Nhân viên nhân sự nhấn mạnh điều đặc biệt cần chú ý: khi rời khỏi bàn máy tính từ 15 phút trở lên vì việc riêng thì bắt buộc đổi trạng thái sang 'vắng mặt' và đăng ký thời gian rời bàn ('15分以上パソコンを離れる場合は、必ずチャットツールのステータスを離席にし、事後にシステムへ中抜け時間を登録してください').",
+          "audioUrl": "audio/n2_mock_07/N2_07_M2_L02.mp3",
+          "audioDurationSec": 77.784,
+          "audioSha256": "4c69b34585ab7db1709c499e5668cf022dfb2004449efbe13979754a1f473a21",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_07_M2_L03",
+          "typeId": "N2-LIS-POINT",
+          "category": "Mondai 2: ポイント理解",
+          "script": "電話で、市民の男性と公民館の職員が施設利用について話しています。男性の予約申し込みが却下された理由は何ですか。\n\n（6.0秒の無音）\n\n男：「もしもし、先週申し込んだ来月10日の第1会議室の予約結果が『不許可』で届いたのですが、理由を教えていただけますか。」\n女：「はい、お名前とお申し込み内容を確認いたします。……佐藤様ですね。お申し込みいただいた『ギター教室』ですが、講師の方が入場料や受講料を生徒から徴収される予定となっておりますでしょうか。」\n男：「ええ、参加費として1人2,000円集める計画ですが。」\n女：「恐れ入ります。当公民館は社会教育法に基づく公共施設のため、営利を目的とした私塾や個人レッスンの事業にはご利用いただけない規定となっております。サークル等の会員同士の実費割り勘であれば可能ですが、講師報酬を伴う有償講座は対象外となります。」\n男：「ああ、営利目的とみなされたわけですね。理解しました。」",
+          "stem": "男性の予約申し込みが却下された理由は何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "利用希望人数が会議室の定員を超えていたため。"
+            },
+            {
+              "id": "B",
+              "text": "受講料を徴収する営利目的の利用に該当したため。"
+            },
+            {
+              "id": "C",
+              "text": "利用申請の締め切り期日を過ぎて申し込んだため。"
+            },
+            {
+              "id": "D",
+              "text": "ギターの演奏音が騒音基準を超えていたため。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Nhân viên nhà văn hóa giải thích: cơ sở công cộng phi lợi nhuận cấm các lớp dạy có thu học phí mang tính thương mại/lợi nhuận cá nhân ('営利を目的とした私塾や個人レッスンの事業にはご利用いただけない規定となっております').",
+          "distractorExplanations": {
+            "A": "Không phải do quá số lượng người.",
+            "C": "Đơn nộp đúng hạn, không quá hạn.",
+            "D": "Chưa xét đến tiêu chuẩn âm thanh."
+          },
+          "skill": "Listening",
+          "explanationVi": "Nhân viên nhà văn hóa giải thích: cơ sở công cộng phi lợi nhuận cấm các lớp dạy có thu học phí mang tính thương mại/lợi nhuận cá nhân ('営利を目的とした私塾や個人レッスンの事業にはご利用いただけない規定となっております').",
+          "audioUrl": "audio/n2_mock_07/N2_07_M2_L03.mp3",
+          "audioDurationSec": 91.192,
+          "audioSha256": "a1aaac3722bbf0752af7a6da8907df57f2f40f6ea01e36e00a5bf2a2765ed7c2",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_07_M2_L04",
+          "typeId": "N2-LIS-POINT",
+          "category": "Mondai 2: ポイント理解",
+          "script": "会社で、男性社員と女性社員が研修の感想について話しています。男性社員が研修で最も感銘を受けた指導法は何ですか。\n\n（6.0秒の無音）\n\n女：「課長、昨日までの新任管理職研修、いかがでしたか。」\n男：「うん、リーダーシップ論や目標管理の手法など色々学んだけど、一番ハッとさせられたのは『部下の自発的な課題発見を促す問いかけ方』だったよ。」\n女：「問いかけ方、ですか？」\n男：「そう。部下がミスをした時、つい『なぜできなかったのか』と過去の原因を詰問しがちだけど、それだと相手は萎縮して言い訳を探してしまう。そうではなくて、『次にどうすれば防げると思うか』と未来の行動へ意識を向けさせる質問をするんだ。これだけで部下の主体性が全く違ってくるという話にとても納得したよ。」\n女：「なるほど、反省ではなく次の改善策を自分で考えさせるわけですね。」",
+          "stem": "男性社員が研修で最も感銘を受けた指導法は何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "部下の小さなミスも見逃さずにその場で厳しく叱責すること。"
+            },
+            {
+              "id": "B",
+              "text": "すべての業務指示を詳細なマニュアルにして配布すること。"
+            },
+            {
+              "id": "C",
+              "text": "目標達成度に応じて部下の給与や賞与を厳密に差別化すること。"
+            },
+            {
+              "id": "D",
+              "text": "原因を詰問せず、再発防止の行動を自ら考えさせる問いかけ。"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Nam quản lý chia sẻ điều tâm đắc nhất: không truy vấn lý do thất bại trong quá khứ mà hỏi hướng tới tương lai để cấp dưới tự phát hiện giải pháp khắc phục ('部下の自発的な課題発見を促す問いかけ方...次にどうすれば防げると思うかと未来の行動へ意識を向けさせる').",
+          "distractorExplanations": {
+            "A": "Quát mắng ngay tại chỗ là điều tác giả khuyên nên tránh.",
+            "B": "Không nói về việc phát cẩm nang chi tiết.",
+            "C": "Không nói về phân hóa thưởng phạt."
+          },
+          "skill": "Listening",
+          "explanationVi": "Nam quản lý chia sẻ điều tâm đắc nhất: không truy vấn lý do thất bại trong quá khứ mà hỏi hướng tới tương lai để cấp dưới tự phát hiện giải pháp khắc phục ('部下の自発的な課題発見を促す問いかけ方...次にどうすれば防げると思うかと未来の行動へ意識を向けさせる').",
+          "audioUrl": "audio/n2_mock_07/N2_07_M2_L04.mp3",
+          "audioDurationSec": 82.792,
+          "audioSha256": "18e015ef4796c2e3197c7c8ef140aaab8171cb71e9c0feca4caa145bd7513942",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_07_M2_L05",
+          "typeId": "N2-LIS-POINT",
+          "category": "Mondai 2: ポイント理解",
+          "script": "町内会の集会で、役員の女性がゴミ集積所の対策について報告しています。今年新しく導入された効果的な対策は何ですか。\n\n（6.0秒の無音）\n\n女：「環境衛生部から、ゴミ収集ステーションのカラス被害対策についてご報告します。これまで防鳥ネットをかぶせていましたが、隙間から突かれて散乱する事例が多発していました。そこで先月より、各ステーションに『折りたたみ式の大型メッシュボックス』を試験配備いたしました。収集日以外はコンパクトに畳んで壁際に収納でき、ゴミ袋を完全に密閉して四方を囲む構造のため、カラスの被害が劇的に減少しました。住民の皆様にもボックス内への確実な収納をお願いいたします。」",
+          "stem": "今年新しく導入された効果的な対策は何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "ゴミ袋を完全に密閉できる折りたたみ式メッシュボックスの配備。"
+            },
+            {
+              "id": "B",
+              "text": "ゴミの収集時間を朝から夕方へ変更したこと。"
+            },
+            {
+              "id": "C",
+              "text": "ステーション周辺に監視カメラを24時間設置したこと。"
+            },
+            {
+              "id": "D",
+              "text": "夜間にカラスを追い払う強力なライトを導入したこと。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Báo cáo chỉ rõ biện pháp mới đem lại hiệu quả cao là lồng lưới kim loại dạng gập có thể bao bọc kín rác thải ('折りたたみ式の大型メッシュボックスを試験配備いたしました...ゴミ袋を完全に密閉して四方を囲む構造のため、カラスの被害が劇的に減少しました').",
+          "distractorExplanations": {
+            "B": "Không đổi giờ thu gom rác.",
+            "C": "Không gắn camera giám sát.",
+            "D": "Không dùng đèn đuổi ban đêm."
+          },
+          "skill": "Listening",
+          "explanationVi": "Báo cáo chỉ rõ biện pháp mới đem lại hiệu quả cao là lồng lưới kim loại dạng gập có thể bao bọc kín rác thải ('折りたたみ式の大型メッシュボックスを試験配備いたしました...ゴミ袋を完全に密閉して四方を囲む構造のため、カラスの被害が劇的に減少しました').",
+          "audioUrl": "audio/n2_mock_07/N2_07_M2_L05.mp3",
+          "audioDurationSec": 72.672,
+          "audioSha256": "a0f88f227c9228247a07438c9b883e37d734e93fdc3848fe91630342e675c99e",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_07_M2_L06",
+          "typeId": "N2-LIS-POINT",
+          "category": "Mondai 2: ポイント理解",
+          "script": "ラジオで、市民マラソン大会の実行委員がボランティア募集について案内しています。今年から変更された募集条件は何ですか。\n\n（6.0秒の無音）\n\n男：「今年で第10回を迎える緑市市民マラソン大会の運営ボランティアを募集しています。給水所でのドリンク配布やコース沿道の走路誘導など、大会を支えていただく大切な役割です。なお、昨年までは『市内在住または在勤・在学の高校生以上』に限定しておりましたが、遠方からの参加希望者が急増したことを受け、今年度より『市外在住の方』のエントリーも広く受け付けることといたしました。緑市のスポーツ振興に熱意のある皆様のご応募をお待ちしております。」",
+          "stem": "今年から変更された募集条件は何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "中学生や小学生の参加も認められるようになったこと。"
+            },
+            {
+              "id": "B",
+              "text": "給水所の作業が廃止され、走路誘導のみの募集になったこと。"
+            },
+            {
+              "id": "C",
+              "text": "ボランティア参加者全員に日当が支給されるようになったこと。"
+            },
+            {
+              "id": "D",
+              "text": "市外に住んでいる人でもボランティアに応募できるようになったこと。"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Ban tổ chức nêu rõ điểm mới của năm nay: trước đây chỉ nhận người sống/làm việc trong thành phố, nay mở rộng tiếp nhận cả người sống ngoài thành phố ('今年度より市外在住の方のエントリーも広く受け付けることといたしました').",
+          "distractorExplanations": {
+            "A": "Vẫn giữ độ tuổi từ học sinh cấp 3 trở lên, không nhận học sinh cấp 1, 2.",
+            "B": "Vẫn có các nhiệm vụ phân phát nước uống bình thường.",
+            "C": "Là hoạt động tình nguyện không nhận thù lao ngày."
+          },
+          "skill": "Listening",
+          "explanationVi": "Ban tổ chức nêu rõ điểm mới của năm nay: trước đây chỉ nhận người sống/làm việc trong thành phố, nay mở rộng tiếp nhận cả người sống ngoài thành phố ('今年度より市外在住の方のエントリーも広く受け付けることといたしました').",
+          "audioUrl": "audio/n2_mock_07/N2_07_M2_L06.mp3",
+          "audioDurationSec": 64.896,
+          "audioSha256": "16234457e6000d2e8661aea88637c69cc3fd8eb24995393cad739d0de85dcbbb",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_07_M3_L01",
+          "typeId": "N2-LIS-GIST",
+          "category": "Mondai 3: 概要理解",
+          "script": "テレビの広報番組で、市役所の職員が話しています。\n\n男：「緑市では、子育て世帯の皆様が行政手続きをよりスムーズに行えるよう、今月より市役所本庁舎1階に『こども家庭支援総合窓口』を開設いたしました。これまで、児童手当の申請は市民課、保育園の入所相談は保育支援課、予防接種の問診票は健康増進課と、庁舎内の複数のフロアを回っていただく必要がございました。新しい総合窓口では、これらすべての相談や申請を一括して専任スタッフが承ります。小さなお子様連れでも安心して来庁いただけるよう、キッズスペースや授乳室も併設しておりますので、どうぞお気軽にご利用ください。」\n\n市の職員は何について話していますか。\n1番：子育て関連の行政手続きが一箇所でできるようになったこと\n2番：保育園の保育料が全額免除される新しい制度\n3番：市役所本庁舎の耐震改修工事のスケジュール\n4番：市内で開催される親子向けイベントの開催案内",
+          "stem": "市の職員は何について話していますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "子育て関連の行政手続きが一箇所でできるようになったこと。"
+            },
+            {
+              "id": "B",
+              "text": "市内で開催される親子向けイベントの開催案内。"
+            },
+            {
+              "id": "C",
+              "text": "保育園の保育料が全額免除される新しい制度。"
+            },
+            {
+              "id": "D",
+              "text": "市役所本庁舎の耐震改修工事のスケジュール。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Nhân viên thị xã giới thiệu quầy một cửa mới: gộp toàn bộ các thủ tục con cái vốn phải đi nhiều tầng trước đây lại thành một quầy tổng hợp duy nhất tại tầng 1 ('これらすべての相談や申請を一括して専任スタッフが承ります').",
+          "distractorExplanations": {
+            "B": "Không phải thông báo sự kiện vui chơi.",
+            "C": "Không nói miễn học phí nhà trẻ.",
+            "D": "Không phải công trình sửa chữa trụ sở chống động đất."
+          },
+          "skill": "Listening",
+          "explanationVi": "Nhân viên thị xã giới thiệu quầy một cửa mới: gộp toàn bộ các thủ tục con cái vốn phải đi nhiều tầng trước đây lại thành một quầy tổng hợp duy nhất tại tầng 1 ('これらすべての相談や申請を一括して専任スタッフが承ります').",
+          "audioUrl": "audio/n2_mock_07/N2_07_M3_L01.mp3",
+          "audioDurationSec": 83.884,
+          "audioSha256": "392c5e8a2ffae4cff80abeb3c84e9e81b50aa18190350a3aca014128bd8309bc",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_07_M3_L02",
+          "typeId": "N2-LIS-GIST",
+          "category": "Mondai 3: 概要理解",
+          "script": "会社で、朝礼の場で社長が社員に話しています。\n\n男：「皆さん、おはようございます。今期、我が社は売上目標を大幅に達成し、順調な成長を続けています。しかし、業績の拡大と同じくらい、あるいはそれ以上に重要なのは『法令遵守と高い倫理観』です。どんなに優れた製品を世に送り出しても、一度の不正や情報の隠蔽があれば、長年築き上げた企業の社会的信用は一瞬で崩壊します。社内で少しでも疑問に思う慣行や不正の兆候を見かけた際は、決して見て見ぬ振りをせず、社内ホットラインやコンプライアンス相談窓口を迷わず活用してください。透明で誠実な組織風土を築くことが、持続的な成長の土台です。」\n\n社長が最も伝えたいことは何ですか。\n1番：売上目標を達成するための営業戦略\n2番：法令遵守の徹底と不正を許さない誠実な企業風土の重要性\n3番：新入社員の基本マナーと挨拶の徹底\n4番：社内ホットラインの電話番号変更の案内",
+          "stem": "社長が最も伝えたいことは何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "社内ホットラインの電話番号変更の案内。"
+            },
+            {
+              "id": "B",
+              "text": "新入社員の基本マナーと挨拶の徹底。"
+            },
+            {
+              "id": "C",
+              "text": "法令遵守の徹底と不正を許さない誠実な企業風土の重要性。"
+            },
+            {
+              "id": "D",
+              "text": "売上目標を達成するための営業戦略。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Tổng giám đốc nhấn mạnh trọng tâm cốt lõi: tuân thủ pháp luật, giữ gìn đạo đức doanh nghiệp, không bao che sai phạm và xây dựng văn hóa công ty minh bạch ('法令遵守と高い倫理観...透明で誠実な組織風土を築くことが、持続的な成長の土台です').",
+          "distractorExplanations": {
+            "A": "Không phải thông báo đổi số điện thoại.",
+            "B": "Không nói về tác phong chào hỏi tân binh.",
+            "D": "Doanh số đã đạt rồi, điều muốn nhấn mạnh là đạo đức tuân thủ pháp luật."
+          },
+          "skill": "Listening",
+          "explanationVi": "Tổng giám đốc nhấn mạnh trọng tâm cốt lõi: tuân thủ pháp luật, giữ gìn đạo đức doanh nghiệp, không bao che sai phạm và xây dựng văn hóa công ty minh bạch ('法令遵守と高い倫理観...透明で誠実な組織風土を築くことが、持続的な成長の土台です').",
+          "audioUrl": "audio/n2_mock_07/N2_07_M3_L02.mp3",
+          "audioDurationSec": 85.972,
+          "audioSha256": "bb35bd54c386cd6f90075d7f51760ee0592fd522af7483a97b4bbbbe4c1ac3f9",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_07_M3_L03",
+          "typeId": "N2-LIS-GIST",
+          "category": "Mondai 3: 概要理解",
+          "script": "地域の集会で、防災専門家が講話を行っています。\n\n女：「皆様、地震への備えと聞くと、非常用持出袋や乾パンの用意を思い浮かべる方が多いと思います。もちろん備蓄も重要ですが、地震発生時の負傷原因の約半数は『家具の転倒や落下物』によるものです。つまり、家具の固定こそが、命を守るための第一歩なのです。寝室に背の高いタンスや本棚を置かないこと、突っ張り棒やL字金具で家具を壁に固定すること、そして食器棚の扉に開き防止ストッパーを付けること。これらは今日からでも実践できる対策です。まずは家の中の危険箇所を点検してみてください。」\n\n防災専門家は何が最も大切だと述べていますか。\n1番：非常用の食料や飲料水を1週間分備蓄すること\n2番：地震によるケガを防ぐために家具を固定すること\n3番：避難訓練に地域住民全員が必ず参加すること\n4番：地震保険に加入して住宅の損害に備えること",
+          "stem": "防災専門家は何が最も大切だと述べていますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "避難訓練に地域住民全員が必ず参加すること。"
+            },
+            {
+              "id": "B",
+              "text": "地震によるケガを防ぐために家具を固定すること。"
+            },
+            {
+              "id": "C",
+              "text": "地震保険に加入して住宅の損害に備えること。"
+            },
+            {
+              "id": "D",
+              "text": "非常用の食料や飲料水を1週間分備蓄すること。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Chuyên gia phòng chống thiên tai nêu rõ: nguyên nhân gây thương tích chiếm một nửa là đồ đạc đổ ngã, nên bước bảo vệ tính mạng đầu tiên và quan trọng nhất là chằng cố định bàn tủ, giá sách ('家具の固定こそが、命を守るための第一歩なのです').",
+          "distractorExplanations": {
+            "A": "Không nói về diễn tập cư dân.",
+            "C": "Không nói về bảo hiểm nhà đất.",
+            "D": "Tích trữ đồ ăn thức uống có ích nhưng không phải trọng tâm bài nói."
+          },
+          "skill": "Listening",
+          "explanationVi": "Chuyên gia phòng chống thiên tai nêu rõ: nguyên nhân gây thương tích chiếm một nửa là đồ đạc đổ ngã, nên bước bảo vệ tính mạng đầu tiên và quan trọng nhất là chằng cố định bàn tủ, giá sách ('家具の固定こそが、命を守るための第一歩なのです').",
+          "audioUrl": "audio/n2_mock_07/N2_07_M3_L03.mp3",
+          "audioDurationSec": 87.7,
+          "audioSha256": "4620bc7f0615bdf3bd2c7ea8fdcc259234f369bb7bf96158794e471427f842ef",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_07_M3_L04",
+          "typeId": "N2-LIS-GIST",
+          "category": "Mondai 3: 概要理解",
+          "script": "カルチャーセンターの講座説明会で、館長が挨拶をしています。\n\n男：「定年退職を迎えた後、どのように日々を過ごすかは人生の後半における大きなテーマです。趣味を持つことは素晴らしいことですが、当センターでは単に新しい知識や技術を学ぶだけでなく、学んだことを地域に還元する講座に力を入れております。例えば、郷土史を学んだ方が観光ボランティアガイドとして活躍したり、パソコン講座を修了した方がシニア向けのITサポート役を務めたりしています。学ぶ喜びを他者とのつながりや社会貢献へと広げていく、そんな充実したセカンドライフを皆様と共に応援したいと考えております。」\n\n館長は何を伝えたいと考えていますか。\n1番：退職後の学びを社会貢献や人とのつながりに広げていくこと\n2番：定年退職後に再就職するための資格取得の方法\n3番：カルチャーセンターの講座受講料の割引制度\n4番：パソコン講座のカリキュラムと操作方法",
+          "stem": "館長は何を伝えたいと考えていますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "定年退職後に再就職するための資格取得の方法。"
+            },
+            {
+              "id": "B",
+              "text": "パソコン講座のカリキュラムと操作方法。"
+            },
+            {
+              "id": "C",
+              "text": "退職後の学びを社会貢献や人とのつながりに広げていくこと。"
+            },
+            {
+              "id": "D",
+              "text": "カルチャーセンターの講座受講料の割引制度。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Viện trưởng trung tâm văn hóa truyền tải thông điệp: không dừng lại ở học sở thích cá nhân mà biến kiến thức đó thành hoạt động kết nối và cống hiến cho cộng đồng địa phương ('学ぶ喜びを他者とのつながりや社会貢献へと広げていく...そんな充実したセカンドライフ').",
+          "distractorExplanations": {
+            "A": "Không nói về thi chứng chỉ để tái tuyển dụng kiếm tiền.",
+            "B": "Lớp máy tính chỉ là một ví dụ minh họa.",
+            "D": "Không nói về chính sách giảm học phí."
+          },
+          "skill": "Listening",
+          "explanationVi": "Viện trưởng trung tâm văn hóa truyền tải thông điệp: không dừng lại ở học sở thích cá nhân mà biến kiến thức đó thành hoạt động kết nối và cống hiến cho cộng đồng địa phương ('学ぶ喜びを他者とのつながりや社会貢献へと広げていく...そんな充実したセカンドライフ').",
+          "audioUrl": "audio/n2_mock_07/N2_07_M3_L04.mp3",
+          "audioDurationSec": 83.5,
+          "audioSha256": "cfa84e8fb364feffac1e963623bf5812fb90503bf0efca8b7c9e860d7999c8a5",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_07_M3_L05",
+          "typeId": "N2-LIS-GIST",
+          "category": "Mondai 3: 概要理解",
+          "script": "市議会の本会議中継で、議員が質問を行っています。\n\n女：「子育て世代が安心して暮らせるまちづくりの観点から、夜間および休日の小児初期救急医療体制について提言いたします。現在、本市では夜間の急な発熱などに対応できる小児科医院が当番制となっておりますが、当番医の数が限られており、夜間に隣の市の総合病院まで車を走らせなければならないケースが頻発しております。特に小さなお子様を持つ保護者の心理的不安は極めて深刻です。近隣自治体との広域連携やオンライン診療システムの導入を含め、市として夜間小児救急の受け入れ体制を抜本的に拡充することを強く求めます。」\n\n議員は何を改善するよう求めていますか。\n1番：夜間や休日の子どもの救急医療を受け入れる体制\n2番：市内の小児科医院の診療報酬と薬の価格\n3番：子育て世帯に対するガソリン代の補助金給付\n4番：夜間の道路交通渋滞を解消するための道路整備",
+          "stem": "議員は何を改善するよう求めていますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "夜間の道路交通渋滞を解消するための道路整備。"
+            },
+            {
+              "id": "B",
+              "text": "子育て世帯に対するガソリン代の補助金給付。"
+            },
+            {
+              "id": "C",
+              "text": "夜間や休日の子どもの救急医療を受け入れる体制。"
+            },
+            {
+              "id": "D",
+              "text": "市内の小児科医院の診療報酬と薬の価格。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Nữ nghị sĩ chất vấn và yêu cầu nâng cấp hệ thống y tế cấp cứu ban đêm và ngày nghỉ cho trẻ nhỏ ('夜間および休日の小児初期救急医療体制について提言いたします...受け入れ体制を抜本的に拡充することを強く求めます').",
+          "distractorExplanations": {
+            "A": "Không phải công trình mở rộng đường sá.",
+            "B": "Việc lái xe sang thành phố bên là dẫn chứng cho sự bất tiện, không phải đòi trợ cấp xăng.",
+            "D": "Không nói về giá thuốc hay thù lao bác sĩ."
+          },
+          "skill": "Listening",
+          "explanationVi": "Nữ nghị sĩ chất vấn và yêu cầu nâng cấp hệ thống y tế cấp cứu ban đêm và ngày nghỉ cho trẻ nhỏ ('夜間および休日の小児初期救急医療体制について提言いたします...受け入れ体制を抜本的に拡充することを強く求めます').",
+          "audioUrl": "audio/n2_mock_07/N2_07_M3_L05.mp3",
+          "audioDurationSec": 86.452,
+          "audioSha256": "50d1b6e46fe4323a4aa6a07de0846d5fe29b75908476fd97f457a184c22ed895",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_07_M4_L01",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "課長、先ほどお願いした新プロジェクトの企画書の決裁、いただけますでしょうか。",
+          "stem": "課長、先ほどお願いした新プロジェクトの企画書の決裁、いただけますでしょうか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "はい、私が企画書を白紙に戻すよう指示したはずです。"
+            },
+            {
+              "id": "B",
+              "text": "ええ、来週までに企画書を作成して提出してください。"
+            },
+            {
+              "id": "C",
+              "text": "ああ、先ほど目を通して印鑑を押しておいたから、机の上にあるよ。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Nhân viên hỏi xin phê duyệt bản kế hoạch đã trình trước đó. Trưởng phòng đáp hợp lý: đã xem qua và đóng dấu duyệt rồi, để trên bàn ('目を通して印鑑を押しておいたから、机の上にあるよ').",
+          "distractorExplanations": {
+            "A": "Vô lý và bất lịch sự.",
+            "B": "Lạc đề; nhân viên đang xin duyệt bản đã nộp, không phải bảo đi làm bản mới."
+          },
+          "skill": "Listening",
+          "explanationVi": "Nhân viên hỏi xin phê duyệt bản kế hoạch đã trình trước đó. Trưởng phòng đáp hợp lý: đã xem qua và đóng dấu duyệt rồi, để trên bàn ('目を通して印鑑を押しておいたから、机の上にあるよ').",
+          "audioUrl": "audio/n2_mock_07/N2_07_M4_L01.mp3",
+          "audioDurationSec": 33.1,
+          "audioSha256": "2fd4478279cd6fb9814650ca545154637c67814bca29790bfc576ed4ac1f17c7",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_07_M4_L02",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "山田さん、明日の市民説明会の配布資料、念のためもう一部多めに刷っておいた方がいいんじゃない？",
+          "stem": "山田さん、明日の市民説明会の配布資料、念のためもう一部多めに刷っておいた方がいいんじゃない？",
+          "options": [
+            {
+              "id": "A",
+              "text": "そうですね、来場者が予想より増えるかもしれませんから、刷っておきます。"
+            },
+            {
+              "id": "B",
+              "text": "いいえ、説明会は昨日無事に終了いたしましたよ。"
+            },
+            {
+              "id": "C",
+              "text": "ええ、資料はすべて破棄してしまったので間に合いません。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Đồng nghiệp khuyên nên in dôi ra vài bộ tài liệu cho an tâm (念のためもう一部多めに...). Câu đáp tán đồng chuẩn mực: 'Đúng vậy anh ạ, phòng khi người đến đông hơn dự kiến nên em sẽ in thêm' ('刷っておきます').",
+          "distractorExplanations": {
+            "B": "Buổi giải trình diễn ra vào ngày mai, không thể nói đã kết thúc hôm qua.",
+            "C": "Phi lý; tự nhiên lại vứt hết tài liệu."
+          },
+          "skill": "Listening",
+          "explanationVi": "Đồng nghiệp khuyên nên in dôi ra vài bộ tài liệu cho an tâm (念のためもう一部多めに...). Câu đáp tán đồng chuẩn mực: 'Đúng vậy anh ạ, phòng khi người đến đông hơn dự kiến nên em sẽ in thêm' ('刷っておきます').",
+          "audioUrl": "audio/n2_mock_07/N2_07_M4_L02.mp3",
+          "audioDurationSec": 34.156,
+          "audioSha256": "20fdb73cbb01c253b93ae9c27c16d205bd596702b8c0a21c541727ce4894f85a",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_07_M4_L03",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "この度の事務処理の不手際につきまして、何とお詫び申し上げればよいか、言葉もございません。",
+          "stem": "この度の事務処理の不手際につきまして、何とお詫び申し上げればよいか、言葉もございません。",
+          "options": [
+            {
+              "id": "A",
+              "text": "どうぞお気になさらないでください。迅速に修正対応していただいたので問題ありませんよ。"
+            },
+            {
+              "id": "B",
+              "text": "ええ、最初から謝罪の言葉など聞きたくありませんでした。"
+            },
+            {
+              "id": "C",
+              "text": "はい、これからはもっと言葉遣いを丁寧に勉強してください。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Lời xin lỗi hết sức trang trọng vì sơ suất công việc: 何とお詫び申し上げればよいか、言葉もございません. Đáp lại một cách hòa nhã và chuyên nghiệp: 'Xin anh/chị đừng bận tâm, bên anh/chị đã sửa sai rất nhanh chóng nên không sao đâu ạ'.",
+          "distractorExplanations": {
+            "B": "Quá thô lỗ và phi lý trong giao tiếp công sở.",
+            "C": "Hiểu nhầm 'không còn lời nào để tạ lỗi' thành 'học lại cách dùng từ'."
+          },
+          "skill": "Listening",
+          "explanationVi": "Lời xin lỗi hết sức trang trọng vì sơ suất công việc: 何とお詫び申し上げればよいか、言葉もございません. Đáp lại một cách hòa nhã và chuyên nghiệp: 'Xin anh/chị đừng bận tâm, bên anh/chị đã sửa sai rất nhanh chóng nên không sao đâu ạ'.",
+          "audioUrl": "audio/n2_mock_07/N2_07_M4_L03.mp3",
+          "audioDurationSec": 35.932,
+          "audioSha256": "bd1ccfe1b60f93c1139a1b6114e4d1ecbb8439b723cfae975637d67b0aa89118",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_07_M4_L04",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "鈴木さん、午後からの他部署とのオンライン協議、回線の接続テストはどう？",
+          "stem": "鈴木さん、午後からの他部署とのオンライン協議、回線の接続テストはどう？",
+          "options": [
+            {
+              "id": "A",
+              "text": "はい、午後からの協議は先週のうちに終わりました。"
+            },
+            {
+              "id": "B",
+              "text": "ええ、インターネット回線は来月解約する予定です。"
+            },
+            {
+              "id": "C",
+              "text": "先ほどテストを済ませましたが、音声も映像も非常にクリアでしたよ。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Hỏi thăm kết quả chạy thử đường truyền họp online buổi chiều. Câu trả lời chính xác: vừa thử xong, cả hình lẫn tiếng đều rất rõ nét ('音声も映像も非常にクリアでしたよ').",
+          "distractorExplanations": {
+            "A": "Cuộc họp diễn ra chiều nay, không thể nói đã xong từ tuần trước.",
+            "B": "Tự nhiên nói tháng sau cắt mạng."
+          },
+          "skill": "Listening",
+          "explanationVi": "Hỏi thăm kết quả chạy thử đường truyền họp online buổi chiều. Câu trả lời chính xác: vừa thử xong, cả hình lẫn tiếng đều rất rõ nét ('音声も映像も非常にクリアでしたよ').",
+          "audioUrl": "audio/n2_mock_07/N2_07_M4_L04.mp3",
+          "audioDurationSec": 31.996,
+          "audioSha256": "e324d1a3bc4ac75959cd5750cfc303d3f092dfeb79426696c75a4058b12480ba",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_07_M4_L05",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "あれほど準備したのに、台風の接近で地域のお祭りが中止になるなんて、やりきれないね。",
+          "stem": "あれほど準備したのに、台風の接近で地域のお祭りが中止になるなんて、やりきれないね。",
+          "options": [
+            {
+              "id": "A",
+              "text": "うん、来週のお祭りの開催が待ち遠しいね。"
+            },
+            {
+              "id": "B",
+              "text": "本当にね。みんなで何週間も前から準備してきたのに、悔しいよね。"
+            },
+            {
+              "id": "C",
+              "text": "ええ、台風が直撃してくれて本当に助かりましたね。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Mẫu biểu đạt tâm trạng N2: 〜やりきれない (thật buồn bực/không cam lòng). Đồng cảm với sự tiếc nuối: 'Thực sự vậy anh ạ, mọi người chuẩn bị từ mấy tuần trước mà đành chịu, ấm ức thật' ('悔しいよね').",
+          "distractorExplanations": {
+            "A": "Lễ hội đã bị hủy bỏ do bão, không thể bảo đang ngóng chờ tuần sau.",
+            "C": "Nói bão vào giúp ích là vô lý."
+          },
+          "skill": "Listening",
+          "explanationVi": "Mẫu biểu đạt tâm trạng N2: 〜やりきれない (thật buồn bực/không cam lòng). Đồng cảm với sự tiếc nuối: 'Thực sự vậy anh ạ, mọi người chuẩn bị từ mấy tuần trước mà đành chịu, ấm ức thật' ('悔しいよね').",
+          "audioUrl": "audio/n2_mock_07/N2_07_M4_L05.mp3",
+          "audioDurationSec": 33.412,
+          "audioSha256": "91939f229ff530374af63e70d33140fd7910921482ae588844ed9e9e19a2bb91",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_07_M4_L06",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "お忙しいところ大変恐縮ですが、こちらの申請書類に目を通していただけないでしょうか。",
+          "stem": "お忙しいところ大変恐縮ですが、こちらの申請書類に目を通していただけないでしょうか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "いいえ、私は忙しいので誰も見てくれませんよ。"
+            },
+            {
+              "id": "B",
+              "text": "ええ、ちょうど今手が空いたところですので、拝見しますね。"
+            },
+            {
+              "id": "C",
+              "text": "はい、書類は明日までにすべて処分しておいてください。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Nhờ cấp trên hoặc tiền bối xem qua hồ sơ: 目を通していただけないでしょうか. Câu đáp nhận lời lịch sự khiêm nhường: 'Vâng, vừa khéo tôi cũng vừa xong việc, để tôi xem cho nhé' ('拝見しますね').",
+          "distractorExplanations": {
+            "A": "Cách nói ngô nghê và sai ngữ dụng.",
+            "C": "Kêu vứt tài liệu đi là sai hoàn cảnh."
+          },
+          "skill": "Listening",
+          "explanationVi": "Nhờ cấp trên hoặc tiền bối xem qua hồ sơ: 目を通していただけないでしょうか. Câu đáp nhận lời lịch sự khiêm nhường: 'Vâng, vừa khéo tôi cũng vừa xong việc, để tôi xem cho nhé' ('拝見しますね').",
+          "audioUrl": "audio/n2_mock_07/N2_07_M4_L06.mp3",
+          "audioDurationSec": 32.044,
+          "audioSha256": "bf05654b16a07ddf824fb82b5a31c052229b20973d257de87168bdf71d57e624",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_07_M4_L07",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "佐藤さん、さっきの定例会議での発言、ちょっと先方に言い過ぎたんじゃない？",
+          "stem": "佐藤さん、さっきの定例会議での発言、ちょっと先方に言い過ぎたんじゃない？",
+          "options": [
+            {
+              "id": "A",
+              "text": "ええ、会議は明日から始まる予定なので気をつけます。"
+            },
+            {
+              "id": "B",
+              "text": "申し訳ありません。議論が熱くなって、相手への配慮が足りませんでした。"
+            },
+            {
+              "id": "C",
+              "text": "はい、もっと厳しい言葉で相手を責め立てるべきでしたね。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Lời nhắc nhở nhẹ nhàng của đồng nghiệp: 'Cậu nói với đối tác lúc nãy hơi quá lời chăng?'. Câu đáp nhận lỗi biết điều: 'Em xin lỗi, lúc đó tranh luận gay gắt quá nên em thiếu chu đáo với đối tác ạ'.",
+          "distractorExplanations": {
+            "A": "Cuộc họp vừa diễn ra rồi chứ không phải ngày mai.",
+            "C": "Tiếp tục hung hăng chỉ trích đối tác là sai tác phong làm việc."
+          },
+          "skill": "Listening",
+          "explanationVi": "Lời nhắc nhở nhẹ nhàng của đồng nghiệp: 'Cậu nói với đối tác lúc nãy hơi quá lời chăng?'. Câu đáp nhận lỗi biết điều: 'Em xin lỗi, lúc đó tranh luận gay gắt quá nên em thiếu chu đáo với đối tác ạ'.",
+          "audioUrl": "audio/n2_mock_07/N2_07_M4_L07.mp3",
+          "audioDurationSec": 33.724,
+          "audioSha256": "09c490b2dce49bca9123b9d6eea2ac7ff3bb681e40233a332232f0207695cb7b",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_07_M4_L08",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "今回の広報誌リニューアルの担当リーダー、引き受けてくださる気はありませんか。",
+          "stem": "今回の広報誌リニューアルの担当リーダー、引き受けてくださる気はありませんか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "私のような若手でよろしければ、ぜひ喜んで挑戦させてください。"
+            },
+            {
+              "id": "B",
+              "text": "いいえ、広報誌は今年度で廃刊になることが決まりました。"
+            },
+            {
+              "id": "C",
+              "text": "はい、リーダーの席はすでに他の課長に決まりましたよ。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Lời mời nhận nhiệm vụ quan trọng: 〜気はありませんか. Câu đáp khiêm tốn chuẩn mực của người Nhật: 'Nếu một người trẻ như em mà được tin tưởng thì xin cho em cơ hội được thử sức ạ' ('ぜひ喜んで挑戦させてください').",
+          "distractorExplanations": {
+            "B": "Nói tạp chí bị đình bản là mâu thuẫn với việc đang cải tiến.",
+            "C": "Người hỏi đang mở lời mời mình, không thể nói ghế đã chia cho người khác."
+          },
+          "skill": "Listening",
+          "explanationVi": "Lời mời nhận nhiệm vụ quan trọng: 〜気はありませんか. Câu đáp khiêm tốn chuẩn mực của người Nhật: 'Nếu một người trẻ như em mà được tin tưởng thì xin cho em cơ hội được thử sức ạ' ('ぜひ喜んで挑戦させてください').",
+          "audioUrl": "audio/n2_mock_07/N2_07_M4_L08.mp3",
+          "audioDurationSec": 32.044,
+          "audioSha256": "4af2cbd8add9ad2e648f5336a43dae2e248a5ed267a587aea0f176faff708db6",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_07_M4_L09",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "市民窓口の待ち時間、新しいオンライン予約システムのおかげで大幅に短縮されたそうですね。",
+          "stem": "市民窓口の待ち時間、新しいオンライン予約システムのおかげで大幅に短縮されたそうですね。",
+          "options": [
+            {
+              "id": "A",
+              "text": "はい、待ち時間が2倍に延びて苦情が殺到しています。"
+            },
+            {
+              "id": "B",
+              "text": "ええ、来庁者の皆様からも混雑が緩和されたと大変好評をいただいております。"
+            },
+            {
+              "id": "C",
+              "text": "いいえ、新システムは来年まで一度も稼働しない予定です。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Người đối thoại khen ngợi: nghe nói thời gian chờ tại quầy giảm mạnh nhờ hệ thống hẹn trực tuyến mới. Câu đáp xác nhận niềm vui phục vụ: 'Vâng, người dân đến làm thủ tục cũng phản hồi rất tích cực vì quầy thông thoáng hẳn ạ'.",
+          "distractorExplanations": {
+            "A": "Mâu thuẫn với vế đầu 'thời gian chờ giảm mạnh'.",
+            "C": "Hệ thống đang chạy rồi nên mới có kết quả thực tế."
+          },
+          "skill": "Listening",
+          "explanationVi": "Người đối thoại khen ngợi: nghe nói thời gian chờ tại quầy giảm mạnh nhờ hệ thống hẹn trực tuyến mới. Câu đáp xác nhận niềm vui phục vụ: 'Vâng, người dân đến làm thủ tục cũng phản hồi rất tích cực vì quầy thông thoáng hẳn ạ'.",
+          "audioUrl": "audio/n2_mock_07/N2_07_M4_L09.mp3",
+          "audioDurationSec": 35.14,
+          "audioSha256": "52223ea506e8e315151ea045e38640e63ab896d4cfa44966f1f2625c837ac82b",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_07_M4_L10",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "部長、取引先から契約単価の引き下げ要求が届きましたが、これを承諾するわけにはいきませんよね。",
+          "stem": "部長、取引先から契約単価の引き下げ要求が届きましたが、これを承諾するわけにはいきませんよね。",
+          "options": [
+            {
+              "id": "A",
+              "text": "ええ、先月すでに取引を完全に停止したはずだよ。"
+            },
+            {
+              "id": "B",
+              "text": "うん、すぐに先方の要求通りに全額値引きの契約書を作成して。"
+            },
+            {
+              "id": "C",
+              "text": "ああ、弊社の採算ラインを割り込むことになるから、安易な妥協はできないね。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Ngữ pháp N2: 〜わけにはいきませんよね (không thể nào chấp nhận được đúng không ạ). Trưởng phòng đồng tình bảo vệ quyền lợi công ty: 'Ừ, làm vậy sẽ dưới mức hòa vốn nên chúng ta tuyệt đối không thể nhượng bộ dễ dàng' ('安易な妥協はできないね').",
+          "distractorExplanations": {
+            "A": "Đang nhận yêu cầu xem xét đơn giá thì hợp đồng vẫn đang trao đổi.",
+            "B": "Trái ngược hoàn toàn ý đồ của câu hỏi."
+          },
+          "skill": "Listening",
+          "explanationVi": "Ngữ pháp N2: 〜わけにはいきませんよね (không thể nào chấp nhận được đúng không ạ). Trưởng phòng đồng tình bảo vệ quyền lợi công ty: 'Ừ, làm vậy sẽ dưới mức hòa vốn nên chúng ta tuyệt đối không thể nhượng bộ dễ dàng' ('安易な妥協はできないね').",
+          "audioUrl": "audio/n2_mock_07/N2_07_M4_L10.mp3",
+          "audioDurationSec": 36.172,
+          "audioSha256": "aa7178b295810aa9e54e66016a14a4ef57e856745eb04d0d81cbb22a9c4a3bf0",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_07_M4_L11",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "新入社員のOJT指導員、色々と準備が大変そうだけど、指導経験豊富な田中さんならお手の物でしょう？",
+          "stem": "新入社員のOJT指導員、色々と準備が大変そうだけど、指導経験豊富な田中さんならお手の物でしょう？",
+          "options": [
+            {
+              "id": "A",
+              "text": "ええ、指導員なんて誰でも目をつぶって簡単にこなせますよ。"
+            },
+            {
+              "id": "B",
+              "text": "はい、今年の新入社員は全員研修を辞退して帰宅しました。"
+            },
+            {
+              "id": "C",
+              "text": "とんでもない、新入社員の個性に合わせて教えるのは毎回手探りで緊張しますよ。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Thành ngữ N2: 〜お手の物（おてのもの - sở trường, làm cái là được ngay). Bạn khen ngợi anh Tanaka dạy người mới chắc dễ như trở bàn tay. Đáp lại khiêm tốn: 'Đâu có đâu bạn, mỗi lứa tân binh một tính cách nên lần nào mình cũng phải vừa làm vừa mày mò căng thẳng lắm' ('とんでもない...手探りで緊張しますよ').",
+          "distractorExplanations": {
+            "A": "Khoe khoang quá đà, bất lịch sự.",
+            "B": "Vô lý; tân binh không bỏ về hết."
+          },
+          "skill": "Listening",
+          "explanationVi": "Thành ngữ N2: 〜お手の物（おてのもの - sở trường, làm cái là được ngay). Bạn khen ngợi anh Tanaka dạy người mới chắc dễ như trở bàn tay. Đáp lại khiêm tốn: 'Đâu có đâu bạn, mỗi lứa tân binh một tính cách nên lần nào mình cũng phải vừa làm vừa mày mò căng thẳng lắm' ('とんでもない...手探りで緊張しますよ').",
+          "audioUrl": "audio/n2_mock_07/N2_07_M4_L11.mp3",
+          "audioDurationSec": 38.212,
+          "audioSha256": "373f7983ac8b1323f95a48e5b945381cac01e3ecdfa725278748dfc4b3472399",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_07_M5_L01",
+          "typeId": "N2-LIS-INTEG",
+          "category": "Mondai 5: 統合理解",
+          "script": "市民会館の事務室で、地域団体の代表の男性と女性職員が、会館改修工事期間中の代替施設について話しています。\n\n男：「市民会館が来月から半年間改修工事に入ると聞いて、私どもの団体が定期的に利用している催しの会場を探しているんです。」\n女：「ご不便をおかけして申し訳ありません。どのような用途でご利用になられますか。」\n男：「実は2つの活動がありましてね。1つ目は、地域のアマチュア演劇サークルの『定期公演会』です。音響設備と照明装置が本格的で、客席が200席ほどある舞台ホールが必要です。2つ目は、高齢者向けの『健康ストレッチ体操教室』です。こちらは週に1回、床が板張りで手すりがあり、参加者のためにエレベーターや広い駐車場が完備されている部屋を希望しています。」\n女：「承知いたしました。現在、市内でご利用いただける代替施設は4つございます。\n　まず、1番の『東部文化センター』は、250席のホールがあり、音響や照明は市民会館と同等の充実度です。ただし、エレベーターがなく階段のみの設計となっております。\n　次に、2番の『総合福祉プラザ』は、全館バリアフリーでエレベーターと大型駐車場を備えており、多目的室の床は衝撃吸収のフローリングで手すりも付いています。ただ、舞台装置や音響設備は簡易的なものしかございません。\n　3番の『青少年スポーツセンター』は、広い体育館とトレーニング室がありますが、板張りではなく樹脂マット床で、土足禁止となっております。\n　4番の『中央公民館』は、100席の小ホールと和室がありますが、駐車スペースが5台分しかなく、本格的な舞台照明設備はございません。」\n男：「なるほど。それぞれの条件がよく分かりました。では、演劇サークルの公演会と、高齢者の体操教室の会場をそれぞれ決めたいと思います。」",
+          "stem": "質問1：アマチュア演劇サークルの公演会場として、男性はどの施設を選びますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "3番の青少年スポーツセンター"
+            },
+            {
+              "id": "B",
+              "text": "2番の総合福祉プラザ"
+            },
+            {
+              "id": "C",
+              "text": "1番の東部文化センター"
+            },
+            {
+              "id": "D",
+              "text": "4番の中央公民館"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Buổi biểu diễn kịch cần khán phòng khoảng 200 chỗ ngồi có hệ thống âm thanh, ánh sáng sân khấu chuyên nghiệp. Trung tâm văn hóa Đông bộ (1番) có 250 chỗ, âm thanh ánh sáng đầy đủ tương đương hội trường thành phố.",
+          "distractorExplanations": {
+            "A": "Trung tâm thể thao thanh thiếu niên là sàn đệm nhựa thể thao, không có sân khấu kịch.",
+            "B": "Trung tâm phúc lợi tổng hợp chỉ có âm thanh ánh sáng đơn giản.",
+            "D": "Nhà văn hóa trung tâm chỉ có 100 chỗ và không có đèn sân khấu chuyên dụng."
+          },
+          "skill": "Listening",
+          "explanationVi": "Buổi biểu diễn kịch cần khán phòng khoảng 200 chỗ ngồi có hệ thống âm thanh, ánh sáng sân khấu chuyên nghiệp. Trung tâm văn hóa Đông bộ (1番) có 250 chỗ, âm thanh ánh sáng đầy đủ tương đương hội trường thành phố.",
+          "audioUrl": "audio/n2_mock_07/N2_07_M5_L01.mp3",
+          "audioDurationSec": 153.172,
+          "audioSha256": "6fd4512678a0ab813a5b969f34447a91286a8ca8adfd791ee8817345d7c84fbe",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_07_M5_L02",
+          "typeId": "N2-LIS-INTEG",
+          "category": "Mondai 5: 統合理解",
+          "script": "市民会館の事務室で、地域団体の代表の男性と女性職員が、会館改修工事期間中の代替施設について話しています。\n\n男：「市民会館が来月から半年間改修工事に入ると聞いて、私どもの団体が定期的に利用している催しの会場を探しているんです。」\n女：「ご不便をおかけして申し訳ありません。どのような用途でご利用になられますか。」\n男：「実は2つの活動がありましてね。1つ目は、地域のアマチュア演劇サークルの『定期公演会』です。音響設備と照明装置が本格的で、客席が200席ほどある舞台ホールが必要です。2つ目は、高齢者向けの『健康ストレッチ体操教室』です。こちらは週に1回、床が板張りで手すりがあり、参加者のためにエレベーターや広い駐車場が完備されている部屋を希望しています。」\n女：「承知いたしました。現在、市内でご利用いただける代替施設は4つございます。\n　まず、1番の『東部文化センター』は、250席のホールがあり、音響や照明は市民会館と同等の充実度です。ただし、エレベーターがなく階段のみの設計となっております。\n　次に、2番の『総合福祉プラザ』は、全館バリアフリーでエレベーターと大型駐車場を備えており、多目的室の床は衝撃吸収のフローリングで手すりも付いています。ただ、舞台装置や音響設備は簡易的なものしかございません。\n　3番の『青少年スポーツセンター』は、広い体育館とトレーニング室がありますが、板張りではなく樹脂マット床で、土足禁止となっております。\n　4番の『中央公民館』は、100席の小ホールと和室がありますが、駐車スペースが5台分しかなく、本格的な舞台照明設備はございません。」\n男：「なるほど。それぞれの条件がよく分かりました。では、演劇サークルの公演会と、高齢者の体操教室の会場をそれぞれ決めたいと思います。」",
+          "stem": "質問2：高齢者の健康ストレッチ体操教室の会場として、男性はどの施設を選びますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "1番の東部文化センター"
+            },
+            {
+              "id": "B",
+              "text": "2番の総合福祉プラザ"
+            },
+            {
+              "id": "C",
+              "text": "4番の中央公民館"
+            },
+            {
+              "id": "D",
+              "text": "3番の青少年スポーツセンター"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Lớp tập thể dục cho người cao tuổi cần sàn gỗ có tay vịn, có thang máy và bãi đỗ xe rộng rãi. Plaza Phúc lợi tổng hợp (2番) đáp ứng toàn diện: không rào cản, có thang máy, bãi đỗ xe lớn, sàn gỗ giảm chấn và có tay vịn.",
+          "distractorExplanations": {
+            "A": "Trung tâm văn hóa Đông bộ không có thang máy, chỉ có cầu thang bộ nên người già đi lại nguy hiểm.",
+            "C": "Nhà văn hóa trung tâm chỉ có 5 chỗ đỗ xe.",
+            "D": "Trung tâm thể thao không có sàn gỗ lát mà dùng đệm nhựa."
+          },
+          "skill": "Listening",
+          "explanationVi": "Lớp tập thể dục cho người cao tuổi cần sàn gỗ có tay vịn, có thang máy và bãi đỗ xe rộng rãi. Plaza Phúc lợi tổng hợp (2番) đáp ứng toàn diện: không rào cản, có thang máy, bãi đỗ xe lớn, sàn gỗ giảm chấn và có tay vịn.",
+          "audioUrl": "audio/n2_mock_07/N2_07_M5_L02.mp3",
+          "audioDurationSec": 152.02,
+          "audioSha256": "fbf61db4b412588ebc0abd6c8c0dae169c2864f79364215187d27623cdb57818",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_07_M5_L03",
+          "typeId": "N2-LIS-INTEG",
+          "category": "Mondai 5: 統合理解",
+          "script": "会社で、女性社員と男性社員が新しく導入される福利厚生の選択型支援メニュー（カフェテリアプラン）について話しています。\n\n女：「来期から導入される福利厚生メニューの案内が配られたわね。各自のポイントを使って4つのプランから1つ選べるそうよ。」\n男：「へえ、どんなメニューがあるの？」\n女：「1番の『スキルアップ支援プラン』は、語学学校や資格取得講座の受講料を年最大5万円補助してくれるの。\n　2番の『ヘルスケア促進プラン』は、フィットネスクラブの月会費補助や人間ドックのオプション検査が無料になるわ。\n　3番の『ファミリーサポートプラン』は、育児施設や介護サービスの利用料割引と、家事代行サービスの補助券が出るの。\n　4番の『トラベル・リフレッシュプラン』は、提携リゾートホテルやテーマパークの宿泊費が半額になるチケットがもらえるわ。」\n男：「なるほど。僕は今年、健康診断で運動不足を指摘されたから、ジム通いを習慣にしたいと思っていたんだよね。」\n女：「それならピッタリのプランがあるじゃない！ 私は来年、海外事業部への異動を目指しているから、ビジネス英語のオンラインレッスンを受けたいと思っていたの。」\n男：「お互い自分に一番必要なプランが決まったみたいだね。」\n\n質問：男性社員と女性社員は、それぞれどのプランを選びますか。",
+          "stem": "質問：男性社員と女性社員は、それぞれどのプランを選びますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "男性は2番（ヘルスケア）、女性は3番（ファミリー）"
+            },
+            {
+              "id": "B",
+              "text": "男性は2番（ヘルスケア）、女性は1番（スキルアップ）"
+            },
+            {
+              "id": "C",
+              "text": "男性は4番（トラベル）、女性は3番（ファミリー）"
+            },
+            {
+              "id": "D",
+              "text": "男性は1番（スキルアップ）、女性は4番（トラベル）"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Nam nhân viên muốn đi tập gym khắc phục thiếu vận động -> chọn gói số 2 (Chăm sóc sức khỏe - ヘルスケア). Nữ nhân viên muốn học thêm tiếng Anh thương mại để chuyển sang bộ phận hải ngoại -> chọn gói số 1 (Nâng cao kỹ năng - スキルアップ).",
+          "distractorExplanations": {
+            "A": "Nữ nhân viên không chọn gói hỗ trợ gia đình số 3.",
+            "C": "Sai cả nam và nữ.",
+            "D": "Sai cả nam và nữ."
+          },
+          "skill": "Listening",
+          "explanationVi": "Nam nhân viên muốn đi tập gym khắc phục thiếu vận động -> chọn gói số 2 (Chăm sóc sức khỏe - ヘルスケア). Nữ nhân viên muốn học thêm tiếng Anh thương mại để chuyển sang bộ phận hải ngoại -> chọn gói số 1 (Nâng cao kỹ năng - スキルアップ).",
+          "audioUrl": "audio/n2_mock_07/N2_07_M5_L03.mp3",
+          "audioDurationSec": 102.172,
+          "audioSha256": "3cf15d5ab0796aa1aad5baaf542dd996f940e8e2a46ea0e4ff497b3f13c78244",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        }
+      ]
+    }
+  ]
+},
+  'N2-MOCK-08': {
+  "examId": "N2-MOCK-08",
+  "title": "JLPT N2 Full Mock Exam #08 — Đề thi thử hoàn chỉnh (Kiến thức ngôn ngữ, Đọc hiểu & Nghe hiểu)",
+  "level": "N2",
+  "status": "FULL_MOCK",
+  "durationMinutes": 155,
+  "totalQuestions": 105,
+  "sections": [
+    {
+      "sectionId": "sec-1",
+      "sectionName": "Phần 1: Kiến thức ngôn ngữ & Đọc hiểu (Language Knowledge & Reading)",
+      "durationMinutes": 105,
+      "itemCount": 75,
+      "items": [
+        {
+          "id": "N2_08_M1_01",
+          "typeId": "N2-MO-READ",
+          "category": "Mondai 1: 漢字読み",
+          "stem": "大学の研究班は、新素材の耐久性を実験で【実証】した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "じつせい"
+            },
+            {
+              "id": "B",
+              "text": "じつしょう"
+            },
+            {
+              "id": "C",
+              "text": "じっしょう"
+            },
+            {
+              "id": "D",
+              "text": "じっせい"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "実証（じっしょう）は、事実や効果を証拠によって示すこと。",
+          "distractorExplanations": {
+            "A": "二字の音読みをともに取り違えています。",
+            "B": "実を『じつ』と読むこの語の誤読です。",
+            "D": "証の音を誤った形です。"
+          },
+          "targetWord": "実証",
+          "explanationVi": "実証（じっしょう）là chứng minh bằng bằng chứng; nhóm nghiên cứu dùng thí nghiệm để xác nhận độ bền của vật liệu mới. Cách đọc chuẩn có âm ngắt nhỏ っ và âm しょう.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M1_02",
+          "typeId": "N2-MO-READ",
+          "category": "Mondai 1: 漢字読み",
+          "stem": "近年、オンライン授業の活用が【顕著】になってきた。",
+          "options": [
+            {
+              "id": "A",
+              "text": "げんちょ"
+            },
+            {
+              "id": "B",
+              "text": "けんしょう"
+            },
+            {
+              "id": "C",
+              "text": "けんちょ"
+            },
+            {
+              "id": "D",
+              "text": "けんじょ"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "顕著（けんちょ）は、はっきり目立つさま。",
+          "distractorExplanations": {
+            "A": "顕の読みは『けん』です。",
+            "B": "『けんしょう』では顕著の読みになりません。",
+            "D": "著は濁らず『ちょ』と読みます。"
+          },
+          "targetWord": "顕著",
+          "explanationVi": "顕著 đọc là けんちょ, nghĩa là nổi bật, dễ nhận thấy. Việc dùng lớp học trực tuyến ngày càng rõ rệt; các cách đọc けんじょ／げんちょ／けんしょう sai âm đầu hoặc âm cuối.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M1_03",
+          "typeId": "N2-MO-READ",
+          "category": "Mondai 1: 漢字読み",
+          "stem": "この分野では、分析対象となるデータが【膨大】だ。",
+          "options": [
+            {
+              "id": "A",
+              "text": "ぼうたい"
+            },
+            {
+              "id": "B",
+              "text": "ぼたい"
+            },
+            {
+              "id": "C",
+              "text": "ほうだい"
+            },
+            {
+              "id": "D",
+              "text": "ぼうだい"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "膨大（ぼうだい）は、量が非常に大きいこと。",
+          "distractorExplanations": {
+            "A": "大はこの語で『だい』です。",
+            "B": "二字の長音と濁音を落としています。",
+            "C": "膨は『ぼう』と読みます。"
+          },
+          "targetWord": "膨大",
+          "explanationVi": "膨大 đọc là ぼうだい, chỉ lượng cực lớn; dữ liệu cần phân tích nhiều đến mức được mô tả là khổng lồ. Hãy nhớ cụm 膨大なデータ, không đọc nhầm ぼうたい hay ほうだい.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M1_04",
+          "typeId": "N2-MO-READ",
+          "category": "Mondai 1: 漢字読み",
+          "stem": "審査委員会は、応募された三つの計画を【採択】した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "さいたく"
+            },
+            {
+              "id": "B",
+              "text": "さいさく"
+            },
+            {
+              "id": "C",
+              "text": "さいせき"
+            },
+            {
+              "id": "D",
+              "text": "さいだく"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "採択（さいたく）は、選び取って採用すること。",
+          "distractorExplanations": {
+            "B": "択の音は『さく』ではありません。",
+            "C": "択を別の字の音に置き換えています。",
+            "D": "択は濁らず『たく』と読みます。"
+          },
+          "targetWord": "採択",
+          "explanationVi": "採択（さいたく）là lựa chọn và chính thức chấp nhận một đề án. Ủy ban đã chọn ba kế hoạch được nộp; 採択 khác 採決（さいけつ: biểu quyết）.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M1_05",
+          "typeId": "N2-MO-READ",
+          "category": "Mondai 1: 漢字読み",
+          "stem": "発表資料は、要点を絞って【簡潔】にまとめてください。",
+          "options": [
+            {
+              "id": "A",
+              "text": "かんけつ"
+            },
+            {
+              "id": "B",
+              "text": "けんけつ"
+            },
+            {
+              "id": "C",
+              "text": "かんせつ"
+            },
+            {
+              "id": "D",
+              "text": "かんぜつ"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "簡潔（かんけつ）は、無駄がなく簡単にまとまっているさま。",
+          "distractorExplanations": {
+            "B": "簡の音は『かん』です。",
+            "C": "潔の読みを『せつ』とした誤りです。",
+            "D": "潔はこの語で濁りません。"
+          },
+          "targetWord": "簡潔",
+          "explanationVi": "簡潔 đọc là かんけつ, nghĩa là ngắn gọn mà đủ ý. Vì tài liệu phải tập trung vào các điểm chính, yêu cầu là trình bày không dài dòng; không đọc thành かんせつ.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M2_01",
+          "typeId": "N2-MO-ORTH",
+          "category": "Mondai 2: 表記",
+          "stem": "実験を繰り返し、仮説が正しいか【けんしょう】する。",
+          "options": [
+            {
+              "id": "A",
+              "text": "健勝"
+            },
+            {
+              "id": "B",
+              "text": "建証"
+            },
+            {
+              "id": "C",
+              "text": "検討"
+            },
+            {
+              "id": "D",
+              "text": "検証"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "仮説の正しさを確かめるので『検証』です。",
+          "distractorExplanations": {
+            "A": "健勝は健康で元気なことを祝う語です。",
+            "B": "この意味で『建証』とは書きません。",
+            "C": "検討は案をよく考えることです。"
+          },
+          "targetWord": "けんしょう",
+          "explanationVi": "仮説が正しいかを確かめる nghĩa là kiểm chứng giả thuyết bằng cách lặp lại thí nghiệm, nên viết 検証. 検討 là xem xét/thảo luận một phương án, chưa hàm ý xác minh bằng dữ liệu.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M2_02",
+          "typeId": "N2-MO-ORTH",
+          "category": "Mondai 2: 表記",
+          "stem": "開発した教材を来年度から正式に【てきよう】する。",
+          "options": [
+            {
+              "id": "A",
+              "text": "適応"
+            },
+            {
+              "id": "B",
+              "text": "摘用"
+            },
+            {
+              "id": "C",
+              "text": "敵用"
+            },
+            {
+              "id": "D",
+              "text": "適用"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "制度や方法を当てはめる意味は『適用』です。",
+          "distractorExplanations": {
+            "A": "適応は環境などに合わせることです。",
+            "B": "『摘用』はここで使う表記ではありません。",
+            "C": "敵用という表記はありません。"
+          },
+          "targetWord": "てきよう",
+          "explanationVi": "適用 là đem quy định, phương pháp hay tài liệu áp vào một trường hợp cụ thể; giáo trình mới sẽ được dùng chính thức từ năm học sau. 適応 thường nói sự thích nghi của người/vật với môi trường.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M2_03",
+          "typeId": "N2-MO-ORTH",
+          "category": "Mondai 2: 表記",
+          "stem": "安全管理者は、新しい入室手順を全員に【しじ】した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "指示"
+            },
+            {
+              "id": "B",
+              "text": "支持"
+            },
+            {
+              "id": "C",
+              "text": "師事"
+            },
+            {
+              "id": "D",
+              "text": "私事"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "手順を人に伝えて行わせることは『指示』です。",
+          "distractorExplanations": {
+            "B": "支持は意見や人を支えることです。",
+            "C": "師事は師と仰ぐ人に弟子入りすることです。",
+            "D": "私事は個人的な事柄を指します。"
+          },
+          "targetWord": "しじ",
+          "explanationVi": "Người phụ trách truyền đạt quy trình vào phòng và yêu cầu mọi người làm theo, nên động từ là 指示 (chỉ thị, hướng dẫn). 支持 là ủng hộ; 師事 là theo học một người thầy.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M2_04",
+          "typeId": "N2-MO-ORTH",
+          "category": "Mondai 2: 表記",
+          "stem": "研究チームは、測定結果を共同利用する条件について大学間で【こうしょう】を続けた。",
+          "options": [
+            {
+              "id": "A",
+              "text": "鉱床"
+            },
+            {
+              "id": "B",
+              "text": "高尚"
+            },
+            {
+              "id": "C",
+              "text": "校章"
+            },
+            {
+              "id": "D",
+              "text": "交渉"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "条件を話し合って決めることは『交渉』です。",
+          "distractorExplanations": {
+            "A": "鉱床は鉱物が集まっている地層です。",
+            "B": "高尚は考えや趣味の程度が高いことです。",
+            "C": "校章は学校を表す記章です。"
+          },
+          "targetWord": "こうしょう",
+          "explanationVi": "Hai trường đang bàn điều kiện để cùng sử dụng kết quả đo, tức là đang đàm phán: 交渉. 校章 là huy hiệu trường; ngữ cảnh thỏa thuận giữa các bên không dùng các từ đồng âm còn lại.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M2_05",
+          "typeId": "N2-MO-ORTH",
+          "category": "Mondai 2: 表記",
+          "stem": "新しい薬の効果を調べるため、少人数の【じっけん】を行った。",
+          "options": [
+            {
+              "id": "A",
+              "text": "実検"
+            },
+            {
+              "id": "B",
+              "text": "実見"
+            },
+            {
+              "id": "C",
+              "text": "実験"
+            },
+            {
+              "id": "D",
+              "text": "実券"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "条件を設けて効果を調べる活動は『実験』です。",
+          "distractorExplanations": {
+            "A": "実検という標準表記はありません。",
+            "B": "実見は実際に見ることを表します。",
+            "D": "実券はこの意味の語ではありません。"
+          },
+          "targetWord": "じっけん",
+          "explanationVi": "少人数の実験 là thí nghiệm với một nhóm nhỏ để khảo sát tác dụng thuốc. Thực hiện có điều kiện và theo dõi kết quả là 実験; 実見 nghĩa là tận mắt thấy, không phải hoạt động kiểm tra giả thuyết.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M3_01",
+          "typeId": "N2-MO-FORM",
+          "category": "Mondai 3: 語形成",
+          "stem": "学会発表の日程が決まっているため、結果はまだ【（　）発表】として扱う。",
+          "options": [
+            {
+              "id": "A",
+              "text": "無"
+            },
+            {
+              "id": "B",
+              "text": "非"
+            },
+            {
+              "id": "C",
+              "text": "不"
+            },
+            {
+              "id": "D",
+              "text": "未"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "まだ発表されていない状態を表す接頭辞は『未』です。",
+          "distractorExplanations": {
+            "A": "無発表とは言いません。",
+            "B": "非発表は標準的な複合語ではありません。",
+            "C": "不発表はこの意味の一般的な語ではありません。"
+          },
+          "targetWord": "未発表",
+          "explanationVi": "未発表 là chưa công bố: lịch hội nghị đã ấn định nhưng kết quả vẫn chưa được đưa ra. 未 biểu thị việc chưa xảy ra; 不／非／無 không tạo thành từ tự nhiên trong cụm này.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M3_02",
+          "typeId": "N2-MO-FORM",
+          "category": "Mondai 3: 語形成",
+          "stem": "温度を0.1度単位で測れる、【高（　）】のセンサーを開発した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "度"
+            },
+            {
+              "id": "B",
+              "text": "値"
+            },
+            {
+              "id": "C",
+              "text": "精度"
+            },
+            {
+              "id": "D",
+              "text": "率"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "測定の正確さを言う定型語は『高精度』です。",
+          "distractorExplanations": {
+            "A": "高温度は温度が高いという意味になります。",
+            "B": "高値は値段や数値が高いことです。",
+            "D": "高率は割合の高さで、測定器の正確さではありません。"
+          },
+          "targetWord": "高精度",
+          "explanationVi": "高精度 là độ chính xác cao; cảm biến đo được tới 0,1 độ nên câu nói về độ chính xác của phép đo. 高値 là giá trị cao, còn 高率 và 高度 không diễn tả độ chính xác của thiết bị.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M3_03",
+          "typeId": "N2-MO-FORM",
+          "category": "Mondai 3: 語形成",
+          "stem": "学習用の大量の画像から特徴を学び、未登録の画像も分類する【機械（　）】の研究が進んでいる。",
+          "options": [
+            {
+              "id": "A",
+              "text": "学習"
+            },
+            {
+              "id": "B",
+              "text": "力"
+            },
+            {
+              "id": "C",
+              "text": "化"
+            },
+            {
+              "id": "D",
+              "text": "語"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "学習用データから特徴を学び、未知の画像を分類する技術は『機械学習』です。",
+          "distractorExplanations": {
+            "B": "機械力はこの技術を表す名称ではありません。",
+            "C": "機械化は作業を機械に置き換えることです。",
+            "D": "機械語はコンピューターが直接扱う命令形式です。"
+          },
+          "targetWord": "機械学習",
+          "explanationVi": "機械学習 (học máy) là công nghệ học đặc trưng từ dữ liệu rồi phân loại hình ảnh chưa đăng ký. Ngữ cảnh mô tả đúng quá trình học từ lượng ảnh lớn, không phải 機械化 (cơ giới hóa).",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M3_04",
+          "typeId": "N2-MO-FORM",
+          "category": "Mondai 3: 語形成",
+          "stem": "試作機で見つかった問題を踏まえ、回路を【再（　）】することになった。",
+          "options": [
+            {
+              "id": "A",
+              "text": "建築"
+            },
+            {
+              "id": "B",
+              "text": "設計"
+            },
+            {
+              "id": "C",
+              "text": "構築"
+            },
+            {
+              "id": "D",
+              "text": "作図"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "回路の構造をもう一度考え直すので『再設計』です。",
+          "distractorExplanations": {
+            "A": "建築は建物を建てることです。",
+            "C": "再構築は全体を組み直す意味で、回路の設計変更より広い語です。",
+            "D": "作図は図を描く作業で設計全体とは異なります。"
+          },
+          "targetWord": "再設計",
+          "explanationVi": "再設計 nghĩa là thiết kế lại mạch sau khi phát hiện vấn đề ở nguyên mẫu. 設計 phù hợp với việc xem lại cấu tạo; 構築 là xây dựng hệ thống, 建築 dành cho kiến trúc công trình.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M3_05",
+          "typeId": "N2-MO-FORM",
+          "category": "Mondai 3: 語形成",
+          "stem": "二つの大学は、感染症の予測モデルについて【共（　）研究】を始めた。",
+          "options": [
+            {
+              "id": "A",
+              "text": "創"
+            },
+            {
+              "id": "B",
+              "text": "用"
+            },
+            {
+              "id": "C",
+              "text": "同"
+            },
+            {
+              "id": "D",
+              "text": "通"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "複数の組織が一緒に進める研究は『共同研究』です。",
+          "distractorExplanations": {
+            "A": "共創は新しい価値を一緒に作る語ですが、『共創研究』とは通常言いません。",
+            "B": "共用研究は一般的な表現ではありません。",
+            "D": "共通研究は同じ性質を持つ研究を意味し、共同で行う意味とは異なります。"
+          },
+          "targetWord": "共同研究",
+          "explanationVi": "共同研究 là nghiên cứu chung do hai trường cùng tiến hành. Phần 共 kết hợp tự nhiên với 同 trong 共同; các từ như 共用研究 không diễn đạt hoạt động nghiên cứu hợp tác này.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M4_01",
+          "typeId": "N2-MO-CONT",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "発表時間が残り一分しかなかったため、演者は結論を（　）述べた。",
+          "options": [
+            {
+              "id": "A",
+              "text": "無断で"
+            },
+            {
+              "id": "B",
+              "text": "率直に"
+            },
+            {
+              "id": "C",
+              "text": "一律に"
+            },
+            {
+              "id": "D",
+              "text": "簡潔に"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "限られた時間で要点を短く述べるので『簡潔に』です。",
+          "distractorExplanations": {
+            "A": "無断では許可なく行う意味で不適切です。",
+            "B": "率直には隠さず正直にという意味で、長さを短くする語ではありません。",
+            "C": "一律には全員に同じ扱いをすることです。"
+          },
+          "explanationVi": "簡潔に述べる là phát biểu ngắn gọn, đúng trọng tâm. Chỉ còn một phút nên diễn giả cần rút gọn kết luận; 率直に nghĩa là thẳng thắn, không nhất thiết ngắn.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M4_02",
+          "typeId": "N2-MO-CONT",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "測定値にばらつきが出たため、装置の設定を見直して原因を（　）した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "促進"
+            },
+            {
+              "id": "B",
+              "text": "採択"
+            },
+            {
+              "id": "C",
+              "text": "発表"
+            },
+            {
+              "id": "D",
+              "text": "把握"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "原因をつかむという意味で『把握』が適切です。",
+          "distractorExplanations": {
+            "A": "促進は進みを速めることです。",
+            "B": "採択は候補から選ぶことです。",
+            "C": "発表は人に知らせる行為です。"
+          },
+          "explanationVi": "Khi số đo dao động, họ xem lại cài đặt để nắm được nguyên nhân: 原因を把握する. 把握 diễn tả việc hiểu/nắm bắt tình hình; 発表 hay 採択 không đi với 原因 trong nghĩa này.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M4_03",
+          "typeId": "N2-MO-CONT",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "講義の動画は、専門用語に字幕を付けることで、内容をより（　）しやすくした。",
+          "options": [
+            {
+              "id": "A",
+              "text": "判断"
+            },
+            {
+              "id": "B",
+              "text": "記録"
+            },
+            {
+              "id": "C",
+              "text": "保存"
+            },
+            {
+              "id": "D",
+              "text": "理解"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "内容を分かるようにするので『理解しやすく』です。",
+          "distractorExplanations": {
+            "A": "判断は情報から決定することです。",
+            "B": "記録は後から確認できる形に残すことです。",
+            "C": "保存はデータを保管することです。"
+          },
+          "explanationVi": "Gắn phụ đề thuật ngữ giúp người xem nắm nội dung, nên kết hợp tự nhiên là 内容を理解しやすくする. 記録／保存 là ghi/lưu lại, còn 判断 là phán đoán chứ không phải hiểu bài giảng.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M4_04",
+          "typeId": "N2-MO-CONT",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "共同研究では、研究者同士がデータを（　）し、分析方法を確認した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "共有"
+            },
+            {
+              "id": "B",
+              "text": "削除"
+            },
+            {
+              "id": "C",
+              "text": "回収"
+            },
+            {
+              "id": "D",
+              "text": "拒否"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "双方で同じ情報を使えるようにするので『共有』です。",
+          "distractorExplanations": {
+            "B": "削除はデータを消すことで文意に合いません。",
+            "C": "回収は配った物を集め直すことです。",
+            "D": "拒否は受け入れないことです。"
+          },
+          "explanationVi": "Trong nghiên cứu chung, các nhà nghiên cứu cùng truy cập dữ liệu rồi đối chiếu cách phân tích, vì vậy họ データを共有する (chia sẻ dữ liệu). 削除／回収／拒否 đều trái với việc cùng sử dụng.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M4_05",
+          "typeId": "N2-MO-CONT",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "結果を急いで公表するより、別の条件でも再現できるか（　）することが重要だ。",
+          "options": [
+            {
+              "id": "A",
+              "text": "断念"
+            },
+            {
+              "id": "B",
+              "text": "無視"
+            },
+            {
+              "id": "C",
+              "text": "検討"
+            },
+            {
+              "id": "D",
+              "text": "省略"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "別条件で確かめる必要を考えるので『検討』です。",
+          "distractorExplanations": {
+            "A": "断念はあきらめることで、検証前には当たりません。",
+            "B": "無視は考慮しないことです。",
+            "D": "省略は一部を飛ばすことです。"
+          },
+          "explanationVi": "Trước khi công bố vội, cần xem xét liệu kết quả có tái lập được trong điều kiện khác hay không: 再現できるか検討する. Bỏ qua, lược đi hoặc từ bỏ sẽ không giải quyết câu hỏi về độ tái lập.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M4_06",
+          "typeId": "N2-MO-CONT",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "新しい学習システムを導入したが、操作が複雑で利用が（　）している。",
+          "options": [
+            {
+              "id": "A",
+              "text": "定着"
+            },
+            {
+              "id": "B",
+              "text": "停滞"
+            },
+            {
+              "id": "C",
+              "text": "進出"
+            },
+            {
+              "id": "D",
+              "text": "集中"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "利用の広がりが止まりがちなので『停滞』です。",
+          "distractorExplanations": {
+            "A": "定着は根付いて安定することです。",
+            "C": "進出は新しい市場などへ出ていくことです。",
+            "D": "集中は一か所に集まることです。"
+          },
+          "explanationVi": "Thao tác phức tạp khiến mức sử dụng khó lan rộng và bị chững lại, diễn đạt bằng 利用が停滞する. 定着 là được sử dụng ổn định; 進出 và 集中 không phù hợp với tiến độ phổ biến của hệ thống.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M4_07",
+          "typeId": "N2-MO-CONT",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "発表者は質問の意図を確かめてから、根拠を示しつつ（　）に答えた。",
+          "options": [
+            {
+              "id": "A",
+              "text": "的外れ"
+            },
+            {
+              "id": "B",
+              "text": "適切"
+            },
+            {
+              "id": "C",
+              "text": "急激"
+            },
+            {
+              "id": "D",
+              "text": "偶然"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "質問の意図と根拠に合った応答なので『適切に』です。",
+          "distractorExplanations": {
+            "A": "的外れは意図から外れた応答で、文の前半と矛盾します。",
+            "C": "急激は変化の速さを表し、答え方には使いません。",
+            "D": "偶然はたまたま起きることで、意図を確かめた応答とは合いません。"
+          },
+          "explanationVi": "Sau khi xác định ý câu hỏi và đưa căn cứ, người thuyết trình trả lời đúng trọng tâm: 適切に答える. 急激 (đột ngột) và 偶然 (tình cờ) không mô tả chất lượng câu trả lời; 的外れ là lạc đề.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M5_01",
+          "typeId": "N2-MO-PARA",
+          "category": "Mondai 5: 言い換え類義",
+          "stem": "このデータだけでは、仮説を裏付けるには【不十分】だ。",
+          "options": [
+            {
+              "id": "A",
+              "text": "かなり確かだ"
+            },
+            {
+              "id": "B",
+              "text": "必要以上だ"
+            },
+            {
+              "id": "C",
+              "text": "すでに知られている"
+            },
+            {
+              "id": "D",
+              "text": "十分ではない"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "不十分は必要な水準に達していないことです。",
+          "distractorExplanations": {
+            "A": "確かさが高いという反対の意味です。",
+            "B": "過剰という意味で不十分とは異なります。",
+            "C": "既知かどうかは十分性と別の点です。"
+          },
+          "explanationVi": "不十分 nghĩa là chưa đạt mức cần thiết. Dữ liệu hiện có chưa đủ để củng cố giả thuyết, nên cách diễn đạt tương đương là “không đầy đủ”; かなり確かだ lại nói mức độ chắc chắn cao.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M5_02",
+          "typeId": "N2-MO-PARA",
+          "category": "Mondai 5: 言い換え類義",
+          "stem": "担当者は利用者の質問に【即座に】答えた。",
+          "options": [
+            {
+              "id": "A",
+              "text": "順番に"
+            },
+            {
+              "id": "B",
+              "text": "念入りに"
+            },
+            {
+              "id": "C",
+              "text": "その場ですぐに"
+            },
+            {
+              "id": "D",
+              "text": "前もって"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "即座には間を置かず直ちにという意味です。",
+          "distractorExplanations": {
+            "A": "順番には手順を示します。",
+            "B": "念入りには注意深くという意味です。",
+            "D": "前もっては事前の意味です。"
+          },
+          "explanationVi": "即座に là ngay tức khắc, không để thời gian trôi qua; người phụ trách trả lời câu hỏi ngay tại chỗ. 前もって là từ trước, 念入りに là kỹ lưỡng, không diễn tả thời điểm trả lời.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M5_03",
+          "typeId": "N2-MO-PARA",
+          "category": "Mondai 5: 言い換え類義",
+          "stem": "実験条件を【統一】しなければ、結果を比較できない。",
+          "options": [
+            {
+              "id": "A",
+              "text": "細かく分け"
+            },
+            {
+              "id": "B",
+              "text": "一つずつ記録し"
+            },
+            {
+              "id": "C",
+              "text": "新しく変え"
+            },
+            {
+              "id": "D",
+              "text": "同じにそろえ"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "統一は複数のものを同一の基準にそろえることです。",
+          "distractorExplanations": {
+            "A": "細分化は統一と反対方向の操作です。",
+            "B": "記録は保存であり条件をそろえることではありません。",
+            "C": "変更だけでは同じ基準になりません。"
+          },
+          "explanationVi": "統一する là đưa nhiều điều kiện về cùng một chuẩn. Nếu điều kiện thí nghiệm không giống nhau, kết quả không thể so sánh công bằng; chia nhỏ hay thay đổi điều kiện sẽ làm chúng khác nhau hơn.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M5_04",
+          "typeId": "N2-MO-PARA",
+          "category": "Mondai 5: 言い換え類義",
+          "stem": "研究室は新しい測定方法を【導入】した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "外部に紹介した"
+            },
+            {
+              "id": "B",
+              "text": "使用をやめた"
+            },
+            {
+              "id": "C",
+              "text": "使い始めた"
+            },
+            {
+              "id": "D",
+              "text": "詳しく調べた"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "導入は新しい方法や制度を取り入れて使い始めることです。",
+          "distractorExplanations": {
+            "A": "紹介は他者に知らせるだけです。",
+            "B": "導入と反対の意味です。",
+            "D": "調査は導入前にも行いますが意味が異なります。"
+          },
+          "explanationVi": "導入する nghĩa là đưa một phương pháp mới vào áp dụng. Phòng thí nghiệm đã bắt đầu sử dụng cách đo mới; giới thiệu ra ngoài hoặc khảo sát nó chưa đồng nghĩa với việc đưa vào vận hành.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M5_05",
+          "typeId": "N2-MO-PARA",
+          "category": "Mondai 5: 言い換え類義",
+          "stem": "説明文の表現が【曖昧】で、読み手によって解釈が分かれた。",
+          "options": [
+            {
+              "id": "A",
+              "text": "意味がはっきりしない"
+            },
+            {
+              "id": "B",
+              "text": "専門的すぎる"
+            },
+            {
+              "id": "C",
+              "text": "根拠がない"
+            },
+            {
+              "id": "D",
+              "text": "短すぎる"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "曖昧は意味や境界がはっきりせず、複数の解釈が可能なことです。",
+          "distractorExplanations": {
+            "B": "専門性の高さを直接表す語ではありません。",
+            "C": "根拠の有無は曖昧さとは別です。",
+            "D": "長さの問題とは限りません。"
+          },
+          "explanationVi": "曖昧 là mơ hồ, ranh giới/ý nghĩa không rõ nên mỗi độc giả hiểu một cách khác nhau. Từ này không có nghĩa là thiếu căn cứ hay quá ngắn; dấu hiệu nằm ở việc cách diễn giải bị chia rẽ.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M6_01",
+          "typeId": "N2-MO-USE",
+          "category": "Mondai 6: 用法",
+          "stem": "『見込む』の使い方として最も適切なものを選びなさい。",
+          "options": [
+            {
+              "id": "A",
+              "text": "来年度は利用者が増えると見込んで、予算を多めに確保した。"
+            },
+            {
+              "id": "B",
+              "text": "担当者は資料を見込んで、誤字がないか一つずつ確かめた。"
+            },
+            {
+              "id": "C",
+              "text": "学生は実験ノートを見込んで、測定値を報告書に写した。"
+            },
+            {
+              "id": "D",
+              "text": "教授は会議の様子を見込んで、議事録の誤りを確認した。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "見込むは、将来そうなると予測・期待する意味です。",
+          "distractorExplanations": {
+            "B": "資料を確認する意味なら『目を通す』などを使います。",
+            "C": "ノートを見て転記する意味なら『見込む』とは言いません。",
+            "D": "会議の様子を確認する意味には使いません。"
+          },
+          "explanationVi": "見込む dùng khi dự đoán hoặc kỳ vọng một kết quả tương lai; dự báo số người dùng sẽ tăng nên họ dành ngân sách cao hơn. Tài liệu hay sổ thí nghiệm phải 調べる／確認する, không thể 見込む.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M6_02",
+          "typeId": "N2-MO-USE",
+          "category": "Mondai 6: 用法",
+          "stem": "『妥当』の使い方として最も適切なものを選びなさい。",
+          "options": [
+            {
+              "id": "A",
+              "text": "研究室では、妥当な香りの洗剤を選んでいる。"
+            },
+            {
+              "id": "B",
+              "text": "講師は妥当な味のコーヒーを飲み、講義を始めた。"
+            },
+            {
+              "id": "C",
+              "text": "費用と効果を比べた結果、この価格設定は妥当だと判断された。"
+            },
+            {
+              "id": "D",
+              "text": "彼は妥当な手触りのペンを選び、実験記録に使った。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "妥当は事情や基準に照らして適切であることです。",
+          "distractorExplanations": {
+            "A": "香りの好みを表す語ではありません。",
+            "B": "味の評価を表す語ではありません。",
+            "D": "手触りの評価には『妥当』を使いません。"
+          },
+          "explanationVi": "妥当 là hợp lý khi đối chiếu với hoàn cảnh hoặc tiêu chuẩn. So chi phí với hiệu quả rồi đánh giá mức giá là hợp lý dùng từ này tự nhiên; cảm giác, mùi và vị thường được mô tả bằng từ khác.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M6_03",
+          "typeId": "N2-MO-USE",
+          "category": "Mondai 6: 用法",
+          "stem": "『担う』（責任や役割を引き受ける意味）の使い方として最も適切なものを選びなさい。",
+          "options": [
+            {
+              "id": "A",
+              "text": "この研究室では、院生が装置の保守を担っている。"
+            },
+            {
+              "id": "B",
+              "text": "彼は発表前に、資料を担って会議室へ運んだ。"
+            },
+            {
+              "id": "C",
+              "text": "温度計が参加者への説明を担っている。"
+            },
+            {
+              "id": "D",
+              "text": "彼女は測定値を担って、グラフに書き込んだ。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "担うは責任や役割を引き受けて果たす意味です。",
+          "distractorExplanations": {
+            "B": "ここでは責任や役割ではなく、物を持ち運ぶ意味で使われています。",
+            "C": "説明を担当する人の役割を表す文脈では、温度計を主語にできません。",
+            "D": "値をグラフへ移す意味には使いません。"
+          },
+          "explanationVi": "担う diễn tả việc đảm nhận và thực hiện một vai trò/trách nhiệm. Nghiên cứu sinh chịu trách nhiệm bảo trì thiết bị; mang tài liệu bằng tay phải dùng 運ぶ, không phải 担う theo nghĩa vai trò.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M6_04",
+          "typeId": "N2-MO-USE",
+          "category": "Mondai 6: 用法",
+          "stem": "『補う』の使い方として最も適切なものを選びなさい。",
+          "options": [
+            {
+              "id": "A",
+              "text": "欠けている測定値は、追加実験の結果で補った。"
+            },
+            {
+              "id": "B",
+              "text": "図書館は論文の重さを補って、棚に並べた。"
+            },
+            {
+              "id": "C",
+              "text": "講師は声を補った状態で、講義を始めた。"
+            },
+            {
+              "id": "D",
+              "text": "彼は風邪を補う薬を飲み、一週間休んだ。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "補うは不足や欠点を埋めて完全に近づける意味です。",
+          "distractorExplanations": {
+            "B": "論文の物理的な重さを補うという用法はありません。",
+            "C": "声を出す様子なら『声を張った』などと表します。",
+            "D": "風邪を治すなら『治す』、予防するなら『予防する』です。"
+          },
+          "explanationVi": "補う là bù vào phần thiếu để hoàn chỉnh hơn. Kết quả thí nghiệm bổ sung lấp các số đo còn thiếu; cân nặng của sách, cảm lạnh hay trạng thái giọng nói không dùng 補う theo cách các câu nhiễu tạo ra.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M6_05",
+          "typeId": "N2-MO-USE",
+          "category": "Mondai 6: 用法",
+          "stem": "『促す』の使い方として最も適切なものを選びなさい。",
+          "options": [
+            {
+              "id": "A",
+              "text": "画面の色が利用者を促して、表示が変化した。"
+            },
+            {
+              "id": "B",
+              "text": "学生は論文を促して、図書館に返却した。"
+            },
+            {
+              "id": "C",
+              "text": "担当者は研究費の額を促して、申請書に記入した。"
+            },
+            {
+              "id": "D",
+              "text": "教授は学生に、データの出典を明記するよう促した。"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "促すは相手に行動をするよう働きかけることです。",
+          "distractorExplanations": {
+            "A": "画面の色が人に行動を促す文脈として不自然です。",
+            "B": "論文を返す意味には使いません。",
+            "C": "額を決める意味なら『記入する』『算出する』などを使います。"
+          },
+          "explanationVi": "促す là khuyến khích/thúc đẩy ai thực hiện hành động. Giáo sư yêu cầu sinh viên ghi nguồn dữ liệu; khoản tiền được ấn định hay cuốn luận văn được trả lại không phải đối tượng để 促す.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M7_01",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "この研究は、全国の大学から集めた回答（　）分析を進めている。",
+          "options": [
+            {
+              "id": "A",
+              "text": "に限って"
+            },
+            {
+              "id": "B",
+              "text": "を問わず"
+            },
+            {
+              "id": "C",
+              "text": "に基づいて"
+            },
+            {
+              "id": "D",
+              "text": "に先立って"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "回答を根拠として分析するので『に基づいて』です。",
+          "distractorExplanations": {
+            "A": "『に限って』は範囲を限定します。",
+            "B": "『を問わず』は条件を問わない意味です。",
+            "D": "『に先立って』は前に行う意味です。"
+          },
+          "explanationVi": "に基づいて nghĩa là dựa trên một căn cứ: phân tích được tiến hành dựa trên câu trả lời thu từ các trường. に先立って là trước khi làm việc khác; を問わず／に限って nói về phạm vi, không nêu căn cứ phân tích.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M7_02",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "今回の公開講座は、学生（　）、地域の社会人にも開かれている。",
+          "options": [
+            {
+              "id": "A",
+              "text": "に限らず"
+            },
+            {
+              "id": "B",
+              "text": "に応じて"
+            },
+            {
+              "id": "C",
+              "text": "に際して"
+            },
+            {
+              "id": "D",
+              "text": "を通じて"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "学生だけでなく社会人にもという追加は『に限らず』です。",
+          "distractorExplanations": {
+            "B": "『に応じて』は状況に合わせる意味です。",
+            "C": "『に際して』は機会・時点を表します。",
+            "D": "『を通じて』は手段や期間です。"
+          },
+          "explanationVi": "学生に限らず、地域の社会人にも nghĩa là không chỉ sinh viên mà cả người đi làm trong vùng cũng được tham dự. に応じて cần một tiêu chí để thay đổi theo; に際して chỉ thời điểm.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M7_03",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "通信環境の改善（　）、遠隔地から授業に参加する学生が増えた。",
+          "options": [
+            {
+              "id": "A",
+              "text": "に先立ち"
+            },
+            {
+              "id": "B",
+              "text": "に伴い"
+            },
+            {
+              "id": "C",
+              "text": "に反して"
+            },
+            {
+              "id": "D",
+              "text": "に限り"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "改善と同時に生じた変化なので『に伴い』です。",
+          "distractorExplanations": {
+            "A": "『に先立ち』は先に行う意味です。",
+            "C": "『に反して』は予想・期待と逆です。",
+            "D": "『に限り』は範囲を限定します。"
+          },
+          "explanationVi": "に伴い nối một thay đổi với thay đổi đi kèm: môi trường mạng được cải thiện và số sinh viên học từ xa tăng. に反して là trái với dự đoán/kỳ vọng, không phải quan hệ đồng biến trong câu.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M7_04",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "この実験では、専攻（　）、希望者なら誰でも機器を見学できる。",
+          "options": [
+            {
+              "id": "A",
+              "text": "にしたがって"
+            },
+            {
+              "id": "B",
+              "text": "にかかわらず"
+            },
+            {
+              "id": "C",
+              "text": "に応じて"
+            },
+            {
+              "id": "D",
+              "text": "をめぐって"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "専攻が何であるかを条件にしないので『にかかわらず』です。",
+          "distractorExplanations": {
+            "A": "『にしたがって』は変化の対応・順序です。",
+            "C": "希望者の状況に合わせる意味にはなりません。",
+            "D": "『をめぐって』は論争の対象です。"
+          },
+          "explanationVi": "専攻にかかわらず nghĩa là không phụ thuộc chuyên ngành; bất cứ ai có nguyện vọng đều được xem thiết bị. にしたがって／に応じて hàm ý thay đổi theo chuyên ngành, trái với 誰でも.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M7_05",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "測定条件を一つ誤ると、結論を大きく誤解させ（　）。",
+          "options": [
+            {
+              "id": "A",
+              "text": "るおそれがある"
+            },
+            {
+              "id": "B",
+              "text": "るにすぎない"
+            },
+            {
+              "id": "C",
+              "text": "るに決まっている"
+            },
+            {
+              "id": "D",
+              "text": "るわけにはいかない"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "悪い結果が起こる可能性を述べるので『おそれがある』です。",
+          "distractorExplanations": {
+            "B": "『にすぎない』は程度がそれだけだという意味です。",
+            "C": "『に決まっている』は確信を示します。",
+            "D": "『わけにはいかない』は事情上できない意味です。"
+          },
+          "explanationVi": "るおそれがある nêu nguy cơ có thể xảy ra. Sai một điều kiện đo có thể làm người đọc hiểu sai kết luận; るに決まっている khẳng định chắc chắn, còn にすぎない giảm nhẹ ý nghĩa.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M7_06",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "新しいアプリを導入したが、すべての学生が以前より便利になった（　）。",
+          "options": [
+            {
+              "id": "A",
+              "text": "にほかならない"
+            },
+            {
+              "id": "B",
+              "text": "どころではない"
+            },
+            {
+              "id": "C",
+              "text": "というわけではない"
+            },
+            {
+              "id": "D",
+              "text": "に限ったことだ"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "一部には改善がない可能性を表す部分否定は『というわけではない』です。",
+          "distractorExplanations": {
+            "A": "『にほかならない』は断定・強調です。",
+            "B": "『どころではない』は状況が許さない意味です。",
+            "D": "この形では自然な文になりません。"
+          },
+          "explanationVi": "というわけではない phủ định một kết luận tuyệt đối: không phải tất cả sinh viên đều thấy ứng dụng tiện hơn. Câu mở bằng すべて nên cần cách nói “không hẳn như vậy”, chứ không phải khẳng định mọi người đều được lợi.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M7_07",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "研究を続ける（　）、最初は見落としていた課題にも気づくようになった。",
+          "options": [
+            {
+              "id": "A",
+              "text": "につれて"
+            },
+            {
+              "id": "B",
+              "text": "において"
+            },
+            {
+              "id": "C",
+              "text": "に先立って"
+            },
+            {
+              "id": "D",
+              "text": "にかけて"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "継続と変化が並行するため『につれて』です。",
+          "distractorExplanations": {
+            "B": "『において』は場所や場面です。",
+            "C": "『に先立って』は前後関係です。",
+            "D": "『にかけて』は期間・範囲を示します。"
+          },
+          "explanationVi": "につれて diễn tả hai biến đổi tiến triển song song. Càng tiếp tục nghiên cứu, họ càng nhận ra những vấn đề trước đây bỏ sót; に先立って có nghĩa là làm trước, không nối hai xu hướng.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M7_08",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "彼の発表は専門的な用語が多く、分かりやすい（　）、初学者には難しかった。",
+          "options": [
+            {
+              "id": "A",
+              "text": "からには"
+            },
+            {
+              "id": "B",
+              "text": "ばかりか"
+            },
+            {
+              "id": "C",
+              "text": "どころか"
+            },
+            {
+              "id": "D",
+              "text": "にしては"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "期待された評価とは逆で、むしろ難しいという反対の結果なので『どころか』です。",
+          "distractorExplanations": {
+            "A": "『からには』は決意・責任の前提です。",
+            "B": "『ばかりか』は追加です。",
+            "D": "『にしては』は基準から見た意外さです。"
+          },
+          "explanationVi": "どころか tạo thế tương phản mạnh: bài phát biểu không những không dễ hiểu mà trái lại còn khó với người mới. ばかりか thiên về bổ sung thêm điều bất ngờ, không diễn tả rõ kết quả ngược kỳ vọng ở đây.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M7_09",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "複数の研究機関が同じ結果を報告しているので、測定手順に問題はない（　）。",
+          "options": [
+            {
+              "id": "A",
+              "text": "というものではない"
+            },
+            {
+              "id": "B",
+              "text": "に限らない"
+            },
+            {
+              "id": "C",
+              "text": "にすぎない"
+            },
+            {
+              "id": "D",
+              "text": "に違いない"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "根拠から強く推量するので『に違いない』です。",
+          "distractorExplanations": {
+            "A": "一般論を否定する表現で、推量になりません。",
+            "B": "『に限らない』は限定を否定します。",
+            "C": "『にすぎない』は限定です。"
+          },
+          "explanationVi": "に違いない biểu thị suy luận mạnh từ căn cứ. Nhiều cơ quan cùng báo cáo một kết quả khiến người nói tin quy trình đo hẳn không có vấn đề; đó vẫn là phán đoán, không phải sự thật tuyệt đối.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M7_10",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "何度も条件を変えて一日中測定をやり直した（　）、結論に使える結果は一つも得られず、発表は延期になった。",
+          "options": [
+            {
+              "id": "A",
+              "text": "につれて"
+            },
+            {
+              "id": "B",
+              "text": "あげく"
+            },
+            {
+              "id": "C",
+              "text": "ついでに"
+            },
+            {
+              "id": "D",
+              "text": "ところで"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "長く繰り返し試みた末に望ましくない結果となったので『あげく』です。",
+          "distractorExplanations": {
+            "A": "『につれて』は二つの変化が並行する関係を示し、この文の結果には合いません。",
+            "C": "『ついでに』は機会を利用した追加行動を表します。",
+            "D": "『ところで』は話題転換に使い、前の行為の結果にはなりません。"
+          },
+          "explanationVi": "あげく diễn tả kết quả cuối cùng, thường không mong muốn, sau một quá trình dài. Đã đo lại suốt ngày nhiều lần mà không có kết quả dùng được, nên hội nghị bị hoãn; ついでに chỉ việc tiện thể làm thêm.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M7_11",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "原資料を確認し（　）、数値の正確さを判断することはできない。",
+          "options": [
+            {
+              "id": "A",
+              "text": "たところで"
+            },
+            {
+              "id": "B",
+              "text": "ないことには"
+            },
+            {
+              "id": "C",
+              "text": "たとたんに"
+            },
+            {
+              "id": "D",
+              "text": "ないばかりか"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "確認がなければ判断できない条件を示すので『ないことには』です。",
+          "distractorExplanations": {
+            "A": "『たところで』はしても無駄という譲歩です。",
+            "C": "『たとたんに』は直後の出来事です。",
+            "D": "『ないばかりか』は追加・強調です。"
+          },
+          "explanationVi": "ないことには tạo điều kiện tiên quyết: nếu không xem tài liệu gốc thì không thể đánh giá độ chính xác. たところで thường nói làm cũng vô ích, còn たとたんに là ngay sau khi một việc xảy ra.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M7_12",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "修士課程に入ったばかり（　）、彼女は学会で研究発表を任された。",
+          "options": [
+            {
+              "id": "A",
+              "text": "だけあって"
+            },
+            {
+              "id": "B",
+              "text": "にしては"
+            },
+            {
+              "id": "C",
+              "text": "ものの"
+            },
+            {
+              "id": "D",
+              "text": "ことから"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "経験の浅さを基準にした意外な評価なので『にしては』です。",
+          "distractorExplanations": {
+            "A": "『だけあって』は期待通りの結果を表します。",
+            "C": "『ものの』は逆接です。",
+            "D": "『ことから』は理由・由来です。"
+          },
+          "explanationVi": "にしては so sánh kết quả với chuẩn kỳ vọng theo hoàn cảnh: mới vào cao học mà đã được giao báo cáo ở hội nghị là đáng kể. だけあって thường nói kết quả xứng với năng lực, không hợp ý bất ngờ này.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M8_01",
+          "typeId": "N2-GR-STAR",
+          "category": "Mondai 8: 文の組み立て",
+          "stem": "論文を投稿する前に、（　　）（　　）★（　　）必要がある。",
+          "options": [
+            {
+              "id": "A",
+              "text": "投稿先の"
+            },
+            {
+              "id": "B",
+              "text": "原稿を整える"
+            },
+            {
+              "id": "C",
+              "text": "確認したうえで"
+            },
+            {
+              "id": "D",
+              "text": "規定を"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "『投稿先の規定を確認したうえで原稿を整える』の順に限られます。三番目は『確認したうえで』です。",
+          "distractorExplanations": {
+            "A": "この断片は intended order の 1 番目に置かれ、★の三番目ではありません。",
+            "B": "この断片は intended order の 4 番目に置かれ、★の三番目ではありません。",
+            "D": "この断片は intended order の 2 番目に置かれ、★の三番目ではありません。"
+          },
+          "starPosition": 3,
+          "assembledSentence": "論文を投稿する前に、投稿先の規定を確認したうえで原稿を整える必要がある。",
+          "fragmentOrder": "A→D→C→B",
+          "explanationVi": "Thứ tự mảnh là 投稿先の規定を → 確認したうえで → 原稿を整える. 投稿先の規定を là tân ngữ của 確認する; たうえで nối bước kiểm tra trước với bước chỉnh bản thảo sau. Mảnh ★ là 「確認したうえで」; câu nói cần xem quy định nơi gửi rồi mới hoàn thiện bài.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M8_02",
+          "typeId": "N2-GR-STAR",
+          "category": "Mondai 8: 文の組み立て",
+          "stem": "新しい調査方法を試す前に、（　　）（　　）★（　　）必要がある。",
+          "options": [
+            {
+              "id": "A",
+              "text": "ことを確認する"
+            },
+            {
+              "id": "B",
+              "text": "倫理審査を受けて"
+            },
+            {
+              "id": "C",
+              "text": "調査計画が"
+            },
+            {
+              "id": "D",
+              "text": "承認されている"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "『調査計画が』を主語とする『承認されていること』の状態を確認する。三番目は『承認されている』です。",
+          "distractorExplanations": {
+            "A": "この断片は intended order の 4 番目に置かれ、★の三番目ではありません。",
+            "B": "この断片は intended order の 2 番目に置かれ、★の三番目ではありません。",
+            "C": "この断片は intended order の 1 番目に置かれ、★の三番目ではありません。"
+          },
+          "starPosition": 3,
+          "assembledSentence": "新しい調査方法を試す前に、調査計画が倫理審査を受けて承認されていることを確認する必要がある。",
+          "fragmentOrder": "C→B→D→A",
+          "explanationVi": "Thứ tự là 調査計画が → 倫理審査を受けて → 承認されている → ことを確認する. が đánh dấu chủ thể của hai vị ngữ nối bằng て; こと danh hóa trạng thái đã được duyệt. Mảnh ★ là 「承認されている」: cần xác nhận kế hoạch đã được hội đồng đạo đức phê duyệt.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M8_03",
+          "typeId": "N2-GR-STAR",
+          "category": "Mondai 8: 文の組み立て",
+          "stem": "オンライン講義では、（　　）（　　）★（　　）工夫が求められる。",
+          "options": [
+            {
+              "id": "A",
+              "text": "ならないよう"
+            },
+            {
+              "id": "B",
+              "text": "学生が質問しやすい"
+            },
+            {
+              "id": "C",
+              "text": "時間を設ける"
+            },
+            {
+              "id": "D",
+              "text": "一方的な説明に"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "『一方的な説明にならないよう』のあとに具体策を置く。三番目は『学生が質問しやすい』です。",
+          "distractorExplanations": {
+            "A": "この断片は intended order の 2 番目に置かれ、★の三番目ではありません。",
+            "C": "この断片は intended order の 4 番目に置かれ、★の三番目ではありません。",
+            "D": "この断片は intended order の 1 番目に置かれ、★の三番目ではありません。"
+          },
+          "starPosition": 3,
+          "assembledSentence": "オンライン講義では、一方的な説明にならないよう学生が質問しやすい時間を設ける工夫が求められる。",
+          "fragmentOrder": "D→A→B→C",
+          "explanationVi": "Thứ tự là 一方的な説明に → ならないよう → 学生が質問しやすい → 時間を設ける. ならないよう nêu mục đích; mệnh đề 学生が質問しやすい bổ nghĩa cho 時間. Mảnh ★ là 「学生が質問しやすい」; câu yêu cầu dành thời gian để sinh viên dễ đặt câu hỏi.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M8_04",
+          "typeId": "N2-GR-STAR",
+          "category": "Mondai 8: 文の組み立て",
+          "stem": "機械学習の予測を使う際も、（　　）（　　）★（　　）欠かせない。",
+          "options": [
+            {
+              "id": "A",
+              "text": "受け入れず"
+            },
+            {
+              "id": "B",
+              "text": "人が"
+            },
+            {
+              "id": "C",
+              "text": "誤差の理由を調べることは"
+            },
+            {
+              "id": "D",
+              "text": "結果をそのまま"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "予測をそのまま受け入れない姿勢に続けて、人が誤差の理由を調べる。三番目は『人が』です。",
+          "distractorExplanations": {
+            "A": "この断片は intended order の 2 番目に置かれ、★の三番目ではありません。",
+            "C": "この断片は intended order の 4 番目に置かれ、★の三番目ではありません。",
+            "D": "この断片は intended order の 1 番目に置かれ、★の三番目ではありません。"
+          },
+          "starPosition": 3,
+          "assembledSentence": "機械学習の予測を使う際も、結果をそのまま受け入れず人が誤差の理由を調べることは欠かせない。",
+          "fragmentOrder": "D→A→B→C",
+          "explanationVi": "Thứ tự là 結果をそのまま → 受け入れず → 人が → 誤差の理由を調べることは. ず nối việc không chấp nhận ngay với việc con người kiểm tra nguyên nhân sai số. Mảnh ★ là 「人が」, chủ thể của việc xem xét; mô hình không thay thế phán đoán của con người.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M8_05",
+          "typeId": "N2-GR-STAR",
+          "category": "Mondai 8: 文の組み立て",
+          "stem": "研究データを公開する前に、（　　）（　　）★（　　）確認した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "別の担当者にも"
+            },
+            {
+              "id": "B",
+              "text": "個人を特定できる情報が"
+            },
+            {
+              "id": "C",
+              "text": "念のため"
+            },
+            {
+              "id": "D",
+              "text": "含まれていないか"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "確認対象を先に述べ、『念のため』の後に別担当者にも確認した。三番目は『念のため』です。",
+          "distractorExplanations": {
+            "A": "この断片は intended order の 4 番目に置かれ、★の三番目ではありません。",
+            "B": "この断片は intended order の 1 番目に置かれ、★の三番目ではありません。",
+            "D": "この断片は intended order の 2 番目に置かれ、★の三番目ではありません。"
+          },
+          "starPosition": 3,
+          "assembledSentence": "研究データを公開する前に、個人を特定できる情報が含まれていないか念のため別の担当者にも確認した。",
+          "fragmentOrder": "B→D→C→A",
+          "explanationVi": "Thứ tự là 個人を特定できる情報が → 含まれていないか → 念のため → 別の担当者にも. ないか nêu điều cần rà soát; 念のため bổ nghĩa cho việc nhờ người khác kiểm tra. Mảnh ★ là 「念のため」: có thêm bước rà soát trước khi công bố dữ liệu.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M9_01",
+          "typeId": "N2-GR-TEXT",
+          "category": "Mondai 9: 文章の文法",
+          "stem": "文章中の（1）に入るものはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "にほかならない"
+            },
+            {
+              "id": "B",
+              "text": "に決まっている"
+            },
+            {
+              "id": "C",
+              "text": "というわけではない"
+            },
+            {
+              "id": "D",
+              "text": "ことになっている"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "専門語を並べれば十分だとは限らないという否定です。",
+          "distractorExplanations": {
+            "A": "強い断定になり文意に合いません。",
+            "B": "確信を示す形です。",
+            "D": "決定済みの予定を示します。"
+          },
+          "passage": "大学の研究成果を社会に伝えるとき、専門用語をそのまま並べればよい（　1　）。読み手が背景を知らない場合は、用語の意味や研究の目的を補う必要がある。説明を簡単にしすぎると、重要な条件が伝わらなくなる（　2　）ある。どこまで説明するかは、対象となる読者に（　3　）調整すべきだ。さらに、結果だけを示すのではなく、どのような方法で得られたかも説明して（　4　）、初めて読み手が妥当性を検討できる。時間が限られている（　5　）、伝える順番を工夫することが大切だ。",
+          "explanationVi": "Ở (1), 専門用語をそのまま並べればよいというわけではない phủ nhận rằng chỉ liệt kê thuật ngữ là đủ. Đoạn sau yêu cầu giải thích nghĩa và mục đích cho độc giả chưa biết bối cảnh; các cách nói khẳng định tuyệt đối không khớp lập luận.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M9_02",
+          "typeId": "N2-GR-TEXT",
+          "category": "Mondai 9: 文章の文法",
+          "stem": "文章中の（2）に入るものはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "ものの"
+            },
+            {
+              "id": "B",
+              "text": "わけで"
+            },
+            {
+              "id": "C",
+              "text": "おそれが"
+            },
+            {
+              "id": "D",
+              "text": "ばかりが"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "悪い結果の可能性なので『おそれがある』です。",
+          "distractorExplanations": {
+            "A": "逆接の接続で名詞『ある』につながりません。",
+            "B": "『わけである』は断定で可能性を示しません。",
+            "D": "『ばかりがある』は文法的に不自然です。"
+          },
+          "passage": "大学の研究成果を社会に伝えるとき、専門用語をそのまま並べればよい（　1　）。読み手が背景を知らない場合は、用語の意味や研究の目的を補う必要がある。説明を簡単にしすぎると、重要な条件が伝わらなくなる（　2　）ある。どこまで説明するかは、対象となる読者に（　3　）調整すべきだ。さらに、結果だけを示すのではなく、どのような方法で得られたかも説明して（　4　）、初めて読み手が妥当性を検討できる。時間が限られている（　5　）、伝える順番を工夫することが大切だ。",
+          "explanationVi": "Ở (2), 説明を簡単にしすぎると重要な条件が伝わらなくなるおそれがある nghĩa là có nguy cơ làm mất các điều kiện quan trọng. おそれがある đi với ある để nêu khả năng tiêu cực, không phải kết quả chắc chắn.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M9_03",
+          "typeId": "N2-GR-TEXT",
+          "category": "Mondai 9: 文章の文法",
+          "stem": "文章中の（3）に入るものはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "応じて"
+            },
+            {
+              "id": "B",
+              "text": "関して"
+            },
+            {
+              "id": "C",
+              "text": "先立って"
+            },
+            {
+              "id": "D",
+              "text": "反して"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "読者の特徴に合わせて調整するので『に応じて』です。",
+          "distractorExplanations": {
+            "B": "『読者に関して』では調整基準になりません。",
+            "C": "順序を表しません。",
+            "D": "反対の意味です。"
+          },
+          "passage": "大学の研究成果を社会に伝えるとき、専門用語をそのまま並べればよい（　1　）。読み手が背景を知らない場合は、用語の意味や研究の目的を補う必要がある。説明を簡単にしすぎると、重要な条件が伝わらなくなる（　2　）ある。どこまで説明するかは、対象となる読者に（　3　）調整すべきだ。さらに、結果だけを示すのではなく、どのような方法で得られたかも説明して（　4　）、初めて読み手が妥当性を検討できる。時間が限られている（　5　）、伝える順番を工夫することが大切だ。",
+          "explanationVi": "対象となる読者に応じて調整する nghĩa là điều chỉnh mức giải thích theo nhóm độc giả. Câu trước phân biệt người biết và chưa biết bối cảnh; に応じて nối sự khác nhau đó với cách trình bày.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M9_04",
+          "typeId": "N2-GR-TEXT",
+          "category": "Mondai 9: 文章の文法",
+          "stem": "文章中の（4）に入るものはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "おけば"
+            },
+            {
+              "id": "B",
+              "text": "あれば"
+            },
+            {
+              "id": "C",
+              "text": "しまえば"
+            },
+            {
+              "id": "D",
+              "text": "みれば"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "方法の説明を添えることで、という条件・手段を表す『ておく』です。",
+          "distractorExplanations": {
+            "B": "『説明してあれば』では条件の形が不自然です。",
+            "C": "完了・後悔の含みになります。",
+            "D": "『説明してみれば』は試行を意味し、後件との論理が変わります。"
+          },
+          "passage": "大学の研究成果を社会に伝えるとき、専門用語をそのまま並べればよい（　1　）。読み手が背景を知らない場合は、用語の意味や研究の目的を補う必要がある。説明を簡単にしすぎると、重要な条件が伝わらなくなる（　2　）ある。どこまで説明するかは、対象となる読者に（　3　）調整すべきだ。さらに、結果だけを示すのではなく、どのような方法で得られたかも説明して（　4　）、初めて読み手が妥当性を検討できる。時間が限られている（　5　）、伝える順番を工夫することが大切だ。",
+          "explanationVi": "方法も説明しておけば nghĩa là nếu trình bày cả phương pháp thì độc giả mới có thể xem xét tính hợp lý của kết quả. ておく ở đây chỉ sự chuẩn bị thông tin trước; các dạng てみる／てしまう không diễn đạt ý đó.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M9_05",
+          "typeId": "N2-GR-TEXT",
+          "category": "Mondai 9: 文章の文法",
+          "stem": "文章中の（5）に入るものはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "からといって"
+            },
+            {
+              "id": "B",
+              "text": "からには"
+            },
+            {
+              "id": "C",
+              "text": "からこそ"
+            },
+            {
+              "id": "D",
+              "text": "からすると"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "時間が限られているという理由を強調し、情報を整理する重要性を述べるので『からこそ』です。",
+          "distractorExplanations": {
+            "A": "『からといって』には通常後件に否定や意外な結果が続きます。",
+            "B": "『からには』は当然の責任・決意を導きます。",
+            "D": "推測の判断基準を示します。"
+          },
+          "passage": "大学の研究成果を社会に伝えるとき、専門用語をそのまま並べればよい（　1　）。読み手が背景を知らない場合は、用語の意味や研究の目的を補う必要がある。説明を簡単にしすぎると、重要な条件が伝わらなくなる（　2　）ある。どこまで説明するかは、対象となる読者に（　3　）調整すべきだ。さらに、結果だけを示すのではなく、どのような方法で得られたかも説明して（　4　）、初めて読み手が妥当性を検討できる。時間が限られている（　5　）、伝える順番を工夫することが大切だ。",
+          "explanationVi": "時間が限られているからこそ nhấn mạnh chính vì thời gian ít nên phải sắp xếp thứ tự truyền đạt. からには nói đã quyết thì phải làm; からこそ phù hợp vì câu sau nêu việc cần làm dựa trên lý do.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_08_M10_01",
+          "typeId": "N2-RD-SHORT",
+          "category": "Mondai 10: 短文読解",
+          "stem": "科目の入力後、学生が確認すべきことは何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "教員が入力を代行したかどうか"
+            },
+            {
+              "id": "B",
+              "text": "担当教員の確認後に来る通知と、入力誤りの早期連絡"
+            },
+            {
+              "id": "C",
+              "text": "入力した直後に登録が確定したかどうか"
+            },
+            {
+              "id": "D",
+              "text": "来週月曜日まで教務課へ行かないこと"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "入力は即時確定でなく、来週の通知を待ちますが、間違いがあれば先に教務課へ連絡します。",
+          "distractorExplanations": {
+            "A": "入力は学生が行う案内です。",
+            "C": "その場で確定されないと明記されています。",
+            "D": "誤りの連絡は通知前でもよいとあります。"
+          },
+          "passage": "新しい履修登録システムは、今週から試験運用を始めます。入力した科目はその場で確定されず、担当教員が確認した後、来週月曜日に登録結果を通知します。誤りに気づいた場合は、結果通知を待たずに教務課へ連絡してください。",
+          "explanationVi": "Thông báo nói môn đã nhập chưa được đăng ký ngay; giảng viên xác nhận rồi kết quả mới được gửi vào thứ Hai tuần sau. Nếu phát hiện sai thì phải báo phòng học vụ trước khi có thông báo, vì vậy cần theo dõi cả kết quả lẫn lỗi nhập liệu.",
+          "skill": "Reading"
+        },
+        {
+          "id": "N2_08_M10_02",
+          "typeId": "N2-RD-SHORT",
+          "category": "Mondai 10: 短文読解",
+          "stem": "更新前に担当者へ連絡する理由は何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "パソコン更新の費用を研究者で分担するため"
+            },
+            {
+              "id": "B",
+              "text": "解析ソフトの利用時間を予約するため"
+            },
+            {
+              "id": "C",
+              "text": "共同データの保存先を変えると他の人が使えない場合があるため"
+            },
+            {
+              "id": "D",
+              "text": "記憶装置を購入する申請が必要なため"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "共同データは保存先の変更で共有が切れるおそれがあるため、保存前に確認します。",
+          "distractorExplanations": {
+            "A": "費用負担については述べていません。",
+            "B": "利用時間の予約ではありません。",
+            "D": "記憶装置の購入申請は案内されていません。"
+          },
+          "passage": "研究室では共有パソコンの更新を予定している。ただし、更新中は解析ソフトが使えないため、各自のデータを外付け記憶装置に保存しておく必要がある。作業は金曜日の午後に行うが、共同利用のデータは保存先を変更すると他の研究者が開けなくなることがある。保存する前に、担当者へ一声かけてほしい。",
+          "explanationVi": "Dữ liệu dùng chung có thể khiến các nhà nghiên cứu khác không mở được nếu đổi nơi lưu. Vì thế phải hỏi người phụ trách trước khi chuyển vị trí; vấn đề là quyền truy cập chung, không phải chi phí mua máy.",
+          "skill": "Reading"
+        },
+        {
+          "id": "N2_08_M10_03",
+          "typeId": "N2-RD-SHORT",
+          "category": "Mondai 10: 短文読解",
+          "stem": "今年、質問時間を変えたのはなぜか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "参加者が理解できない点をその場で解消しやすくするため"
+            },
+            {
+              "id": "B",
+              "text": "講師が質問に答える回数を減らすため"
+            },
+            {
+              "id": "C",
+              "text": "講義の終了時刻を早めるため"
+            },
+            {
+              "id": "D",
+              "text": "話題を一つに限定するため"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "分からない言葉が後の理解を妨げるという声を受け、話題の区切りごとに質問を受けます。",
+          "distractorExplanations": {
+            "B": "質問時間を分散して確保しています。",
+            "C": "講義を早く終えるとは書かれていません。",
+            "D": "話題は複数あります。"
+          },
+          "passage": "公開講座の質問時間は、講義の最後にまとめて設ける予定だった。しかし、参加者から「途中で分からない言葉が出ると、その後の話が頭に入らない」という意見が複数寄せられた。そこで今年は、講師が一つの話題を終えるごとに短い質問時間を挟むことにした。質問が少ない場合も、予定より早く講義を終えるのではなく、次の話題へ進む。",
+          "explanationVi": "Người học nói rằng không hiểu một từ giữa bài thì sẽ khó theo dõi phần sau. Giảng viên đổi sang nhận câu hỏi sau mỗi chủ đề để tháo gỡ ngay; giờ kết thúc không được rút ngắn chỉ vì ít câu hỏi.",
+          "skill": "Reading"
+        },
+        {
+          "id": "N2_08_M10_04",
+          "typeId": "N2-RD-SHORT",
+          "category": "Mondai 10: 短文読解",
+          "stem": "資料が「利用中」と表示された場合、案内が伝えたいことは何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "資料が永久に閲覧できなくなった"
+            },
+            {
+              "id": "B",
+              "text": "学外からの利用は認められていない"
+            },
+            {
+              "id": "C",
+              "text": "端末を買い替えなければならない"
+            },
+            {
+              "id": "D",
+              "text": "契約上の同時利用上限の可能性がある"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "同時利用人数に上限があると説明されています。",
+          "distractorExplanations": {
+            "A": "時間を置いて再アクセスできます。",
+            "B": "学外から閲覧できるとあります。",
+            "C": "端末の故障と決めつけないよう明記しています。"
+          },
+          "passage": "学内図書館の電子資料は、学外からも閲覧できる。ただし、契約上、同時に利用できる人数には上限がある。画面に「利用中」と表示された場合は、少し時間を置いて再度アクセスするか、別の資料を探してほしい。利用者個人の端末や通信環境に問題があるとは限らない。",
+          "explanationVi": "利用中 có thể xuất hiện vì hợp đồng giới hạn số người dùng đồng thời. Thông báo khuyên chờ một lúc hoặc chọn tài liệu khác; nó không kết luận thiết bị cá nhân bị hỏng hay tài liệu bị khóa vĩnh viễn.",
+          "skill": "Reading"
+        },
+        {
+          "id": "N2_08_M10_05",
+          "typeId": "N2-RD-SHORT",
+          "category": "Mondai 10: 短文読解",
+          "stem": "図表の色を指定したい場合、学生は何をする必要があるか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "締切後に印刷室の空きを確認する"
+            },
+            {
+              "id": "B",
+              "text": "掲示日の五日前に口頭で担当者へ伝える"
+            },
+            {
+              "id": "C",
+              "text": "申請書に希望を書き、元画像ファイルを添付する"
+            },
+            {
+              "id": "D",
+              "text": "印刷後に色の変更を申し込む"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "色の希望は申請書に記入し、元の画像ファイルも添付します。",
+          "distractorExplanations": {
+            "A": "締切後は受け付けられない場合があります。",
+            "B": "期限は五営業日前までで、口頭連絡のみとは書かれていません。",
+            "D": "希望は印刷前に申請します。"
+          },
+          "passage": "研究ポスターの印刷を希望する学生は、掲示予定日の五営業日前までに申請書を提出してください。図表の色や大きさに希望がある場合は、申請書に記入するだけでなく、元の画像ファイルも添付します。締切後の申し込みは、印刷室の予約状況によっては受け付けられません。",
+          "explanationVi": "Muốn yêu cầu màu/kích thước biểu đồ, sinh viên phải ghi rõ trong đơn và đính kèm tệp ảnh gốc. Nộp muộn có thể không được nhận do lịch in, nên không thể chờ in xong mới xin đổi màu.",
+          "skill": "Reading"
+        },
+        {
+          "id": "N2_08_M11_01",
+          "typeId": "N2-RD-MID",
+          "category": "Mondai 11: 中文読解",
+          "stem": "学習支援センターが完成したレポートを必須にしなくなったのはなぜか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "相談時間を延長するため"
+            },
+            {
+              "id": "B",
+              "text": "書き始める前に相談したい学生が利用しにくかったため"
+            },
+            {
+              "id": "C",
+              "text": "統計ソフトを廃止したため"
+            },
+            {
+              "id": "D",
+              "text": "職員がレポートを代筆するため"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "完成物がない段階でも相談したい学生の障壁を下げるためです。",
+          "distractorExplanations": {
+            "A": "相談時間は短く区切って予約枠を増やしました。",
+            "C": "統計ソフトの相談は引き続き行います。",
+            "D": "職員は代わりに書かないと明記されています。"
+          },
+          "passage": "新入生向けの学習支援センターでは、レポートの書き方や統計ソフトの操作を個別に相談できる。以前は、相談者が自分で問題を説明できるよう、完成したレポートを持参することを勧めていた。しかし、書き始める前に相談したい学生にとっては、その条件が利用の妨げになっていた。そこで現在は、課題の説明資料や書きかけのメモだけでも相談を受け付けている。職員は答えを代わりに書くのではなく、学生が自分で次の作業を決められるよう、問いの立て方や資料の探し方を一緒に整理する。相談時間を短く区切って予約枠を増やした結果、利用者は増えたが、相談後に自力で進められたかどうかを確認する仕組みはまだ整っていない。今後は、個人情報を集めすぎない形で、支援の効果を確かめる方法を検討する予定だ。",
+          "explanationVi": "Trước đây trung tâm khuyên mang báo cáo hoàn chỉnh, nhưng điều đó cản trở người cần hỏi ngay từ lúc chưa viết. Nay có thể mang đề bài hoặc ghi chú nháp, giúp họ xin hỗ trợ sớm mà không biến buổi tư vấn thành việc viết hộ.",
+          "skill": "Reading"
+        },
+        {
+          "id": "N2_08_M11_02",
+          "typeId": "N2-RD-MID",
+          "category": "Mondai 11: 中文読解",
+          "stem": "職員が相談で目指していることは何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "良い評価を得る完成文を渡すこと"
+            },
+            {
+              "id": "B",
+              "text": "学生が次の作業を自分で決められるようにすること"
+            },
+            {
+              "id": "C",
+              "text": "相談の回数を減らすこと"
+            },
+            {
+              "id": "D",
+              "text": "同じテーマの資料を配ること"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "問いの立て方や資料の探し方を整理し、自分で進められるようにします。",
+          "distractorExplanations": {
+            "A": "職員は答えを代筆しません。",
+            "C": "予約枠を増やして利用しやすくしました。",
+            "D": "同一資料の配布は述べられていません。"
+          },
+          "passage": "新入生向けの学習支援センターでは、レポートの書き方や統計ソフトの操作を個別に相談できる。以前は、相談者が自分で問題を説明できるよう、完成したレポートを持参することを勧めていた。しかし、書き始める前に相談したい学生にとっては、その条件が利用の妨げになっていた。そこで現在は、課題の説明資料や書きかけのメモだけでも相談を受け付けている。職員は答えを代わりに書くのではなく、学生が自分で次の作業を決められるよう、問いの立て方や資料の探し方を一緒に整理する。相談時間を短く区切って予約枠を増やした結果、利用者は増えたが、相談後に自力で進められたかどうかを確認する仕組みはまだ整っていない。今後は、個人情報を集めすぎない形で、支援の効果を確かめる方法を検討する予定だ。",
+          "explanationVi": "Nhân viên cùng sinh viên xác định câu hỏi và tìm tài liệu để người học tự chọn bước tiếp theo. Bài đọc nhấn mạnh hỗ trợ năng lực tự làm, không trao sẵn bài hoàn chỉnh hay đáp án để đạt điểm.",
+          "skill": "Reading"
+        },
+        {
+          "id": "N2_08_M11_03",
+          "typeId": "N2-RD-MID",
+          "category": "Mondai 11: 中文読解",
+          "stem": "今後の課題として述べられているのは何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "個人情報に配慮しつつ支援の効果を調べること"
+            },
+            {
+              "id": "B",
+              "text": "相談室を別の建物に移すこと"
+            },
+            {
+              "id": "C",
+              "text": "予約枠を減らすこと"
+            },
+            {
+              "id": "D",
+              "text": "統計ソフトを全員に購入させること"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "利用者は増えましたが、相談後の自力学習を確かめる方法は未整備です。",
+          "distractorExplanations": {
+            "B": "移転の話はありません。",
+            "C": "予約枠を減らす計画はありません。",
+            "D": "ソフト購入の指示はありません。"
+          },
+          "passage": "新入生向けの学習支援センターでは、レポートの書き方や統計ソフトの操作を個別に相談できる。以前は、相談者が自分で問題を説明できるよう、完成したレポートを持参することを勧めていた。しかし、書き始める前に相談したい学生にとっては、その条件が利用の妨げになっていた。そこで現在は、課題の説明資料や書きかけのメモだけでも相談を受け付けている。職員は答えを代わりに書くのではなく、学生が自分で次の作業を決められるよう、問いの立て方や資料の探し方を一緒に整理する。相談時間を短く区切って予約枠を増やした結果、利用者は増えたが、相談後に自力で進められたかどうかを確認する仕組みはまだ整っていない。今後は、個人情報を集めすぎない形で、支援の効果を確かめる方法を検討する予定だ。",
+          "explanationVi": "Số người dùng dịch vụ tăng nhưng chưa có cách kiểm tra họ có tiếp tục tự học hiệu quả sau buổi tư vấn hay không. Đó là khoảng trống đánh giá; tăng số suất tư vấn không trả lời được hiệu quả dài hạn.",
+          "skill": "Reading"
+        },
+        {
+          "id": "N2_08_M11_04",
+          "typeId": "N2-RD-MID",
+          "category": "Mondai 11: 中文読解",
+          "stem": "文字記録を復習の補助資料とした理由は何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "復習時間を長くするため"
+            },
+            {
+              "id": "B",
+              "text": "教員の説明を不要にするため"
+            },
+            {
+              "id": "C",
+              "text": "授業の録音を禁止するため"
+            },
+            {
+              "id": "D",
+              "text": "専門語の誤変換や、記録だけで理解したと思う危険があるため"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "誤変換があり、記録だけで理解したと思い込む危険があるため、講義の代わりではなく補助としました。",
+          "distractorExplanations": {
+            "A": "復習時間が短くなった声が紹介されています。",
+            "B": "授業を不要にする目的ではありません。",
+            "C": "録音禁止とは述べられていません。"
+          },
+          "passage": "ある大学の研究者は、授業中の発言を自動で文字にするシステムを試験導入した。発言を記録できれば、聞き取りが難しかった学生が後から内容を確かめられる。一方、専門用語や人名は誤変換されることがあり、記録だけを読んで内容を理解したつもりになる危険もある。担当教員は、授業前に専門語の一覧を登録し、授業後に誤りを修正してから資料を配る方法を採った。学生には、文字記録を講義そのものの代わりではなく、復習を助ける補助資料として使うよう説明している。試験導入の結果、復習時間が短くなったという声があったが、発言しにくくなったと感じた学生もいた。記録されることへの不安が原因かどうかはまだ分からない。システムの便利さだけで導入を判断せず、使う場面や保存期間について学生と合意する必要があると、研究者は考えている。",
+          "explanationVi": "Hệ thống nhận dạng có thể viết sai thuật ngữ/tên riêng, và đọc bản chép lại dễ khiến người học tưởng đã hiểu bài. Vì vậy văn bản chỉ là tài liệu ôn lại sau giờ học, không thay thế bài giảng hoặc bản ghi chính xác tuyệt đối.",
+          "skill": "Reading"
+        },
+        {
+          "id": "N2_08_M11_05",
+          "typeId": "N2-RD-MID",
+          "category": "Mondai 11: 中文読解",
+          "stem": "試験導入について、本文から分かることはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "全員が発言しやすくなった"
+            },
+            {
+              "id": "B",
+              "text": "学生の不安の原因はすでに特定された"
+            },
+            {
+              "id": "C",
+              "text": "便利さの評価だけでは導入の判断に足りない"
+            },
+            {
+              "id": "D",
+              "text": "専門語を登録しても誤変換は完全になくなった"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "学生の一部は発言しにくさを感じ、原因は未確定です。使い方等の合意も必要です。",
+          "distractorExplanations": {
+            "A": "発言しにくくなった学生もいたとあります。",
+            "B": "不安の原因はまだ分かりません。",
+            "D": "誤変換の完全解消は述べていません。"
+          },
+          "passage": "ある大学の研究者は、授業中の発言を自動で文字にするシステムを試験導入した。発言を記録できれば、聞き取りが難しかった学生が後から内容を確かめられる。一方、専門用語や人名は誤変換されることがあり、記録だけを読んで内容を理解したつもりになる危険もある。担当教員は、授業前に専門語の一覧を登録し、授業後に誤りを修正してから資料を配る方法を採った。学生には、文字記録を講義そのものの代わりではなく、復習を助ける補助資料として使うよう説明している。試験導入の結果、復習時間が短くなったという声があったが、発言しにくくなったと感じた学生もいた。記録されることへの不安が原因かどうかはまだ分からない。システムの便利さだけで導入を判断せず、使う場面や保存期間について学生と合意する必要があると、研究者は考えている。",
+          "explanationVi": "Bài thử cho thấy thời gian ôn có thể ngắn hơn, nhưng một số sinh viên ngại phát biểu và nguyên nhân còn chưa rõ. Do đó không thể dựa riêng vào sự tiện lợi để kết luận công cụ nên triển khai rộng.",
+          "skill": "Reading"
+        },
+        {
+          "id": "N2_08_M11_06",
+          "typeId": "N2-RD-MID",
+          "category": "Mondai 11: 中文読解",
+          "stem": "研究者が今後大切だと考えていることは何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "全ての発言を試験の評価に使うこと"
+            },
+            {
+              "id": "B",
+              "text": "使用場面や保存期間を学生と決めること"
+            },
+            {
+              "id": "C",
+              "text": "文字記録を長期間公開すること"
+            },
+            {
+              "id": "D",
+              "text": "誤変換の修正を学生に任せること"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "使う場面と保存期間について学生と合意する必要があると述べています。",
+          "distractorExplanations": {
+            "A": "評価利用の話はありません。",
+            "C": "長期間の公開は提案されていません。",
+            "D": "教員が誤りを修正してから資料を配ります。"
+          },
+          "passage": "ある大学の研究者は、授業中の発言を自動で文字にするシステムを試験導入した。発言を記録できれば、聞き取りが難しかった学生が後から内容を確かめられる。一方、専門用語や人名は誤変換されることがあり、記録だけを読んで内容を理解したつもりになる危険もある。担当教員は、授業前に専門語の一覧を登録し、授業後に誤りを修正してから資料を配る方法を採った。学生には、文字記録を講義そのものの代わりではなく、復習を助ける補助資料として使うよう説明している。試験導入の結果、復習時間が短くなったという声があったが、発言しにくくなったと感じた学生もいた。記録されることへの不安が原因かどうかはまだ分からない。システムの便利さだけで導入を判断せず、使う場面や保存期間について学生と合意する必要があると、研究者は考えている。",
+          "explanationVi": "Nhà nghiên cứu cần thống nhất với sinh viên công cụ dùng trong tình huống nào và bản ghi được giữ bao lâu. Đây là cách xử lý quyền riêng tư và mục đích sử dụng; lưu vô thời hạn hoặc dùng mọi phát biểu để chấm điểm đi ngược nội dung.",
+          "skill": "Reading"
+        },
+        {
+          "id": "N2_08_M11_07",
+          "typeId": "N2-RD-MID",
+          "category": "Mondai 11: 中文読解",
+          "stem": "共同チームがデータ本体の前に説明書を作ったのはなぜか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "受け取り側の分析を禁止するため"
+            },
+            {
+              "id": "B",
+              "text": "データを公開しないため"
+            },
+            {
+              "id": "C",
+              "text": "ファイル数を増やすため"
+            },
+            {
+              "id": "D",
+              "text": "項目や単位などの条件を共有し、解釈の誤りを防ぐため"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "項目名・単位・欠測値の扱いを説明し、受け手が条件を理解できるようにしました。",
+          "distractorExplanations": {
+            "A": "別角度の分析も共有の利点です。",
+            "B": "データ共有を行うための準備です。",
+            "C": "ファイル数は目的ではありません。"
+          },
+          "passage": "研究データを他機関と共有すれば、同じ実験を繰り返す費用を抑えたり、別の角度から分析したりできる。しかし、共有すれば必ず研究が早く進むとは限らない。測定機器や記録方法が異なるデータをそのまま組み合わせると、見かけ上の差が機器の違いによるものなのか、実際の現象なのか分からなくなることがある。そのため、ある研究チームは、データ本体を送る前に、項目名、単位、欠測値の扱いを記した説明書を共同で作った。説明書の作成には時間がかかったが、受け取る側が不明点を何度も問い合わせる必要は減ったという。共有の価値は、ファイルを公開した数だけでは測れない。後から利用する人が条件を理解し、結果を適切に解釈できるようにして初めて、データは再利用可能な知識になる。",
+          "explanationVi": "Trước khi ghép dữ liệu từ nơi có thiết bị/phương pháp khác nhau, nhóm ghi rõ tên biến, đơn vị và cách xử lý số liệu thiếu. Tài liệu đi kèm giúp hiểu điều kiện đo, tránh nhầm sai khác do thiết bị thành khác biệt thật.",
+          "skill": "Reading"
+        },
+        {
+          "id": "N2_08_M11_08",
+          "typeId": "N2-RD-MID",
+          "category": "Mondai 11: 中文読解",
+          "stem": "説明書の作成に時間をかけた結果、何が減ったか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "機器の台数"
+            },
+            {
+              "id": "B",
+              "text": "共同研究者の人数"
+            },
+            {
+              "id": "C",
+              "text": "受け手からの不明点の問い合わせ"
+            },
+            {
+              "id": "D",
+              "text": "データの測定回数"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "受け取り側が何度も問い合わせる必要が減ったとあります。",
+          "distractorExplanations": {
+            "A": "機器台数は述べられていません。",
+            "B": "人数への影響はありません。",
+            "D": "測定回数への影響は述べられていません。"
+          },
+          "passage": "研究データを他機関と共有すれば、同じ実験を繰り返す費用を抑えたり、別の角度から分析したりできる。しかし、共有すれば必ず研究が早く進むとは限らない。測定機器や記録方法が異なるデータをそのまま組み合わせると、見かけ上の差が機器の違いによるものなのか、実際の現象なのか分からなくなることがある。そのため、ある研究チームは、データ本体を送る前に、項目名、単位、欠測値の扱いを記した説明書を共同で作った。説明書の作成には時間がかかったが、受け取る側が不明点を何度も問い合わせる必要は減ったという。共有の価値は、ファイルを公開した数だけでは測れない。後から利用する人が条件を理解し、結果を適切に解釈できるようにして初めて、データは再利用可能な知識になる。",
+          "explanationVi": "Đoạn văn nêu rõ sau khi làm tài liệu giải thích, bên nhận ít phải hỏi lại về các điểm chưa rõ. Thời gian chuẩn bị tăng nhưng trao đổi lặp lại giảm; số thiết bị hay số người nghiên cứu không đổi theo thông tin này.",
+          "skill": "Reading"
+        },
+        {
+          "id": "N2_08_M11_09",
+          "typeId": "N2-RD-MID",
+          "category": "Mondai 11: 中文読解",
+          "stem": "筆者が考えるデータ共有の価値は何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "公開したファイル数を増やすこと"
+            },
+            {
+              "id": "B",
+              "text": "条件を理解した上で結果を適切に再利用できること"
+            },
+            {
+              "id": "C",
+              "text": "共同研究の期間を短くすること"
+            },
+            {
+              "id": "D",
+              "text": "同じ実験を全ての機関で繰り返すこと"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "単なる公開数でなく、条件を理解して適切に解釈・再利用できることが価値です。",
+          "distractorExplanations": {
+            "A": "公開数だけでは測れないと述べています。",
+            "C": "時間短縮だけを価値とはしていません。",
+            "D": "繰り返し費用を抑えることが共有の一例です。"
+          },
+          "passage": "研究データを他機関と共有すれば、同じ実験を繰り返す費用を抑えたり、別の角度から分析したりできる。しかし、共有すれば必ず研究が早く進むとは限らない。測定機器や記録方法が異なるデータをそのまま組み合わせると、見かけ上の差が機器の違いによるものなのか、実際の現象なのか分からなくなることがある。そのため、ある研究チームは、データ本体を送る前に、項目名、単位、欠測値の扱いを記した説明書を共同で作った。説明書の作成には時間がかかったが、受け取る側が不明点を何度も問い合わせる必要は減ったという。共有の価値は、ファイルを公開した数だけでは測れない。後から利用する人が条件を理解し、結果を適切に解釈できるようにして初めて、データは再利用可能な知識になる。",
+          "explanationVi": "Tác giả coi giá trị của chia sẻ dữ liệu là khả năng sử dụng lại kết quả đúng cách sau khi hiểu điều kiện và giới hạn đo. Chỉ tăng số tệp được công khai không bảo đảm phân tích sau này hợp lệ.",
+          "skill": "Reading"
+        },
+        {
+          "id": "N2_08_M12_01",
+          "typeId": "N2-RD-COMP",
+          "category": "Mondai 12: 統合理解",
+          "stem": "資料Aと資料Bに共通する考えはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "資料の公開を学習に役立てる仕組みも必要だ"
+            },
+            {
+              "id": "B",
+              "text": "全ての解答例を事前に配るべきだ"
+            },
+            {
+              "id": "C",
+              "text": "授業前の資料公開をやめるべきだ"
+            },
+            {
+              "id": "D",
+              "text": "資料を公開するだけで授業への参加が十分になる"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "両者とも事前公開そのものを否定せず、授業やアクセス方法に工夫が必要だと見ています。",
+          "distractorExplanations": {
+            "B": "Aは解答例を掲載しないとしています。",
+            "C": "Bは早期公開に賛成しています。",
+            "D": "Aは授業での意見交換を提案しています。"
+          },
+          "passage": "【資料A　授業担当者への案内】\n来学期から、講義資料は授業前日に学習サイトへ掲載します。学生が予習しやすくなる一方、資料だけを読んで授業に出なくなることを心配する声もあります。そこで、資料には授業で扱う問いを示しますが、解答例は掲載しません。授業では、資料に書かれていない事例を取り上げ、学生同士の意見交換を行ってください。\n\n【資料B　学生委員会の提案】\n講義資料を早く見られることには賛成です。ただし、予習を前提に授業を進めると、アルバイトなどで事前に準備できない学生が不利になる可能性があります。資料を読んでいなくても参加できるよう、授業の冒頭に要点を短く確認する時間を設けてほしいです。また、資料の公開日を科目ごとに変えるのではなく、学習サイトの操作が分かりやすくなるよう、掲載場所を統一してほしいと考えます。",
+          "explanationVi": "Tài liệu A muốn dùng tài liệu phát trước làm nền cho câu hỏi và trao đổi trên lớp; B đồng ý cho xem sớm nhưng lưu ý người không kịp chuẩn bị sẽ bất lợi. Điểm chung là phải tổ chức lớp sao cho việc công bố trước thực sự hỗ trợ học tập, không thay thế tham gia.",
+          "skill": "Reading"
+        },
+        {
+          "id": "N2_08_M12_02",
+          "typeId": "N2-RD-COMP",
+          "category": "Mondai 12: 統合理解",
+          "stem": "授業資料を事前に読めない学生への対応として、資料Bが求めているものは何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "授業冒頭で要点を確認する時間"
+            },
+            {
+              "id": "B",
+              "text": "授業後に解答例を公開すること"
+            },
+            {
+              "id": "C",
+              "text": "予習できない学生の出席を免除する制度"
+            },
+            {
+              "id": "D",
+              "text": "全ての授業をオンライン化すること"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "資料Bは事前準備できない学生も参加できるよう、冒頭で要点を確認する時間を希望しています。",
+          "distractorExplanations": {
+            "B": "解答例については触れていません。",
+            "C": "出席免除の提案はありません。",
+            "D": "オンライン化の提案はありません。"
+          },
+          "passage": "【資料A　授業担当者への案内】\n来学期から、講義資料は授業前日に学習サイトへ掲載します。学生が予習しやすくなる一方、資料だけを読んで授業に出なくなることを心配する声もあります。そこで、資料には授業で扱う問いを示しますが、解答例は掲載しません。授業では、資料に書かれていない事例を取り上げ、学生同士の意見交換を行ってください。\n\n【資料B　学生委員会の提案】\n講義資料を早く見られることには賛成です。ただし、予習を前提に授業を進めると、アルバイトなどで事前に準備できない学生が不利になる可能性があります。資料を読んでいなくても参加できるよう、授業の冒頭に要点を短く確認する時間を設けてほしいです。また、資料の公開日を科目ごとに変えるのではなく、学習サイトの操作が分かりやすくなるよう、掲載場所を統一してほしいと考えます。",
+          "explanationVi": "Đại diện sinh viên đề xuất dành vài phút đầu giờ để mọi người cùng nắm ý chính, vì không phải ai cũng đọc trước được do công việc. Miễn điểm danh không giúp họ theo kịp nội dung; chuyển toàn bộ lớp lên mạng cũng không được nêu.",
+          "skill": "Reading"
+        },
+        {
+          "id": "N2_08_M13_01",
+          "typeId": "N2-RD-LONG",
+          "category": "Mondai 13: 長文読解",
+          "stem": "筆者が最初に注意していることは何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "技術を導入した事実だけを学習改善と同一視しないこと"
+            },
+            {
+              "id": "B",
+              "text": "録画教材を全面的に廃止すること"
+            },
+            {
+              "id": "C",
+              "text": "自動採点を使うと教員が不要になること"
+            },
+            {
+              "id": "D",
+              "text": "教育に技術を使うと必ず学力が下がること"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "導入自体と学習改善は同じではないと冒頭で述べています。",
+          "distractorExplanations": {
+            "B": "録画の廃止を求めていません。",
+            "C": "教員不要とは述べていません。",
+            "D": "技術の利点も認めており、必ず悪影響があるとは言いません。"
+          },
+          "passage": "新しい技術が教育に入ると、学び方は便利になる。講義を録画すれば、欠席した学生も後から見られる。自動採点を使えば、教員は基礎問題の採点に費やす時間を減らせる。こうした利点は確かに大きい。しかし、技術を導入したこと自体を、学習の改善と同じものとして扱ってはいけない。\n\n例えば、学習サイトに教材を置いただけで学生が理解できるようになるわけではない。何をどの順番で学ぶのかが分からなければ、教材が増えるほど、かえって必要な情報を探しにくくなることもある。自動採点についても、短い選択問題で正答できたことと、学んだ考え方を別の場面で使えることは同じではない。点数がすぐ返る便利さに注目するあまり、学生がどこで考え違いをしたのかを確かめる機会が失われてはならない。\n\nでは、技術を教育に生かすには何が必要だろうか。まず、解決したい学習上の課題を具体的にすることだ。授業後に復習する時間が取れないのか、資料のどこを読めばよいか分からないのか、質問する相手がいないのかによって、必要な支援は違う。次に、導入前に小さな範囲で試し、利用者の声と学習の成果を合わせて見る。利用回数が増えたという数字だけでは、理解が深まったかは分からない。\n\nそして、技術を使う人が結果を判断する役割を手放さないことも重要である。自動判定が誤った場合に誰が説明するのか、記録された学習情報を誰がどの期間見るのかを、導入前に決めておかなければならない。学習者にとって有益な技術とは、教員や学生の判断を置き換えるものではなく、必要な情報を得て次の行動を選びやすくするものだ。便利さを測るだけでなく、学ぶ人が自分で考える余地を保てているかを問い続ける必要がある。",
+          "explanationVi": "Mở đầu thừa nhận lợi ích của ghi hình và chấm tự động, rồi cảnh báo đừng đồng nhất việc cài công nghệ với cải thiện học tập. Tác giả yêu cầu đánh giá người học có hiểu tốt hơn hay không, chứ không kêu gọi cấm công nghệ.",
+          "skill": "Reading"
+        },
+        {
+          "id": "N2_08_M13_02",
+          "typeId": "N2-RD-LONG",
+          "category": "Mondai 13: 長文読解",
+          "stem": "筆者によると、学習サイトの教材が増えることで起こりうる問題は何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "必要な教材を探しにくくなる"
+            },
+            {
+              "id": "B",
+              "text": "学生が教材を印刷できなくなる"
+            },
+            {
+              "id": "C",
+              "text": "教員の採点時間が増える"
+            },
+            {
+              "id": "D",
+              "text": "自動採点ができなくなる"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "学ぶ順序が分からないまま教材が増えると、必要な情報を探しにくくなる場合があります。",
+          "distractorExplanations": {
+            "B": "印刷の可否には触れていません。",
+            "C": "教材数と採点時間の因果は述べていません。",
+            "D": "サイト教材と自動採点の機能は別です。"
+          },
+          "passage": "新しい技術が教育に入ると、学び方は便利になる。講義を録画すれば、欠席した学生も後から見られる。自動採点を使えば、教員は基礎問題の採点に費やす時間を減らせる。こうした利点は確かに大きい。しかし、技術を導入したこと自体を、学習の改善と同じものとして扱ってはいけない。\n\n例えば、学習サイトに教材を置いただけで学生が理解できるようになるわけではない。何をどの順番で学ぶのかが分からなければ、教材が増えるほど、かえって必要な情報を探しにくくなることもある。自動採点についても、短い選択問題で正答できたことと、学んだ考え方を別の場面で使えることは同じではない。点数がすぐ返る便利さに注目するあまり、学生がどこで考え違いをしたのかを確かめる機会が失われてはならない。\n\nでは、技術を教育に生かすには何が必要だろうか。まず、解決したい学習上の課題を具体的にすることだ。授業後に復習する時間が取れないのか、資料のどこを読めばよいか分からないのか、質問する相手がいないのかによって、必要な支援は違う。次に、導入前に小さな範囲で試し、利用者の声と学習の成果を合わせて見る。利用回数が増えたという数字だけでは、理解が深まったかは分からない。\n\nそして、技術を使う人が結果を判断する役割を手放さないことも重要である。自動判定が誤った場合に誰が説明するのか、記録された学習情報を誰がどの期間見るのかを、導入前に決めておかなければならない。学習者にとって有益な技術とは、教員や学生の判断を置き換えるものではなく、必要な情報を得て次の行動を選びやすくするものだ。便利さを測るだけでなく、学ぶ人が自分で考える余地を保てているかを問い続ける必要がある。",
+          "explanationVi": "Nếu kho học liệu tăng mà người học không biết học gì theo thứ tự nào, họ có thể khó tìm đúng tài liệu cần thiết. Vấn đề là tổ chức và định hướng trong kho, không phải in ấn hay khả năng chấm tự động.",
+          "skill": "Reading"
+        },
+        {
+          "id": "N2_08_M13_03",
+          "typeId": "N2-RD-LONG",
+          "category": "Mondai 13: 長文読解",
+          "stem": "筆者が教育技術に望んでいる役割はどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "教員や学生の判断を完全に置き換えること"
+            },
+            {
+              "id": "B",
+              "text": "学習者が必要な情報を得て次の行動を選びやすくすること"
+            },
+            {
+              "id": "C",
+              "text": "学習記録を無期限に保存すること"
+            },
+            {
+              "id": "D",
+              "text": "利用回数を増やすことを最終目標にすること"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "技術は判断を置き換えず、学習者の次の行動を選びやすくする支援とされています。",
+          "distractorExplanations": {
+            "A": "判断の役割を手放さないよう求めています。",
+            "C": "記録の閲覧者・期間は事前に決めるべきとしています。",
+            "D": "利用回数だけでは成果を測れないと述べています。"
+          },
+          "passage": "新しい技術が教育に入ると、学び方は便利になる。講義を録画すれば、欠席した学生も後から見られる。自動採点を使えば、教員は基礎問題の採点に費やす時間を減らせる。こうした利点は確かに大きい。しかし、技術を導入したこと自体を、学習の改善と同じものとして扱ってはいけない。\n\n例えば、学習サイトに教材を置いただけで学生が理解できるようになるわけではない。何をどの順番で学ぶのかが分からなければ、教材が増えるほど、かえって必要な情報を探しにくくなることもある。自動採点についても、短い選択問題で正答できたことと、学んだ考え方を別の場面で使えることは同じではない。点数がすぐ返る便利さに注目するあまり、学生がどこで考え違いをしたのかを確かめる機会が失われてはならない。\n\nでは、技術を教育に生かすには何が必要だろうか。まず、解決したい学習上の課題を具体的にすることだ。授業後に復習する時間が取れないのか、資料のどこを読めばよいか分からないのか、質問する相手がいないのかによって、必要な支援は違う。次に、導入前に小さな範囲で試し、利用者の声と学習の成果を合わせて見る。利用回数が増えたという数字だけでは、理解が深まったかは分からない。\n\nそして、技術を使う人が結果を判断する役割を手放さないことも重要である。自動判定が誤った場合に誰が説明するのか、記録された学習情報を誰がどの期間見るのかを、導入前に決めておかなければならない。学習者にとって有益な技術とは、教員や学生の判断を置き換えるものではなく、必要な情報を得て次の行動を選びやすくするものだ。便利さを測るだけでなく、学ぶ人が自分で考える余地を保てているかを問い続ける必要がある。",
+          "explanationVi": "Tác giả muốn công nghệ giúp người học tìm thông tin cần thiết và chọn bước học tiếp theo; công cụ hỗ trợ chứ không thay giáo viên hay quyết định của người học. Lượt sử dụng cao không phải mục tiêu cuối cùng.",
+          "skill": "Reading"
+        },
+        {
+          "id": "N2_08_M14_01",
+          "typeId": "N2-RD-INFO",
+          "category": "Mondai 14: 情報検索",
+          "stem": "金曜日の発表資料相談を希望する博士課程の学生は、何をすればよいか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "予約当日に完成したスライドを提出する"
+            },
+            {
+              "id": "B",
+              "text": "希望日の3日前までに予約し、相談内容を100字以内で入力する"
+            },
+            {
+              "id": "C",
+              "text": "相談料を支払い、個人情報を含むデータを持参する"
+            },
+            {
+              "id": "D",
+              "text": "指導教員の確認なしに研究計画を提出する"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "対象資格を満たす学生は、期限までにサイトから予約し、相談内容を100字以内で入力します。",
+          "distractorExplanations": {
+            "A": "発表資料は完成前でも相談できます。",
+            "C": "無料で、個人情報の削除は統計相談の注意です。",
+            "D": "研究計画の指導教員確認が対象条件です。"
+          },
+          "passage": "【大学院生向け 研究支援プログラム】\n対象：本学の修士・博士課程に在籍し、研究計画が指導教員に確認されている学生\n内容：統計相談、学術論文の検索、研究発表スライドの相談（各回30分）\n開催：火曜 16:00–18:00（統計相談）／水曜 13:00–15:00（論文検索）／金曜 10:00–12:00（発表資料）\n申込：希望日の3日前までに学習支援サイトから予約。相談内容を100字以内で入力する。\n費用：無料。各相談は月2回まで。\n注意：統計相談ではデータの個人情報を削除して持参する。発表資料は完成前でも相談できる。予約変更は前日正午まで。",
+          "explanationVi": "Sinh viên cao học thuộc diện hỗ trợ có thể đặt lịch qua trang học tập trước ngày tư vấn ít nhất ba ngày và mô tả nhu cầu trong tối đa 100 chữ. Buổi thứ Sáu 10–12 giờ dành cho tư vấn slide; không cần nộp slide hoàn chỉnh hay trả phí.",
+          "skill": "Reading"
+        },
+        {
+          "id": "N2_08_M14_02",
+          "typeId": "N2-RD-INFO",
+          "category": "Mondai 14: 情報検索",
+          "stem": "統計相談を予約する際に特に注意することは何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "相談は水曜日に限られる"
+            },
+            {
+              "id": "B",
+              "text": "予約変更は当日まで可能である"
+            },
+            {
+              "id": "C",
+              "text": "データから個人情報を削除する"
+            },
+            {
+              "id": "D",
+              "text": "月に何度でも利用できる"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "統計相談では個人情報を削除して持参するよう指定されています。",
+          "distractorExplanations": {
+            "A": "統計相談は火曜日です。",
+            "B": "変更は前日正午までです。",
+            "D": "各相談は月2回までです。"
+          },
+          "passage": "【大学院生向け 研究支援プログラム】\n対象：本学の修士・博士課程に在籍し、研究計画が指導教員に確認されている学生\n内容：統計相談、学術論文の検索、研究発表スライドの相談（各回30分）\n開催：火曜 16:00–18:00（統計相談）／水曜 13:00–15:00（論文検索）／金曜 10:00–12:00（発表資料）\n申込：希望日の3日前までに学習支援サイトから予約。相談内容を100字以内で入力する。\n費用：無料。各相談は月2回まで。\n注意：統計相談ではデータの個人情報を削除して持参する。発表資料は完成前でも相談できる。予約変更は前日正午まで。",
+          "explanationVi": "Thông tin riêng tư phải được xóa khỏi dữ liệu trước khi mang tới buổi tư vấn thống kê. Các buổi chỉ được dùng tối đa hai lần mỗi tháng; thứ Tư là tra cứu bài báo, không phải lịch tư vấn thống kê.",
+          "skill": "Reading"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec-2",
+      "sectionName": "Phần 2: Nghe hiểu (Listening Comprehension)",
+      "durationMinutes": 50,
+      "itemCount": 30,
+      "audioStatus": "BROWSER_PLAYBACK_VERIFIED",
+      "audioNoticeVi": "30 tệp đã khớp SHA-256, giải mã và ghi nhận tiến triển phát trên trình duyệt; chưa có chứng nhận chuyên gia về phát âm.",
+      "items": [
+        {
+          "id": "N2_08_M1_L01",
+          "typeId": "N2-LIS-TASK",
+          "category": "Mondai 1: 課題理解",
+          "script": "大学の研究室で、指導教員と大学院生が倫理審査の申請について話しています。学生はこの後、まず何をしますか。\n\n男：申請書はほぼ完成しました。参加者への説明文も付けてあります。\n女：説明文は分かりやすいけれど、調査を途中でやめても不利益がないことが書かれていないわ。\n男：確かに。データの保管場所は書いてあります。\n女：そこは問題ないわ。まず、参加者がいつでも撤回できることを追記して。それから、質問票の最終版を添えて事務局に出しましょう。\n男：分かりました。説明文を直して、質問票も付けます。",
+          "stem": "男性はまず何をしますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "データの保管場所を変更する"
+            },
+            {
+              "id": "B",
+              "text": "申請書を事務局に提出する"
+            },
+            {
+              "id": "C",
+              "text": "質問票を参加者に配布する"
+            },
+            {
+              "id": "D",
+              "text": "参加者が調査を撤回できることを説明文に加える"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "まず説明文に参加撤回の権利を追記し、その後に質問票とともに提出します。",
+          "distractorExplanations": {
+            "A": "保管場所は問題ないと確認され、変更指示はありません。",
+            "B": "提出は説明文への追記後に行います。",
+            "C": "質問票は申請書への添付であり、参加者への配布とは言われていません。"
+          },
+          "explanationVi": "Giảng viên chỉ ra bản giải thích còn thiếu quyền rút khỏi nghiên cứu mà không chịu bất lợi. Việc đầu tiên là bổ sung điều đó; chỉ sau đó sinh viên mới đính kèm bảng hỏi cuối cùng và nộp hồ sơ.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_08/N2_08_M1_L01.mp3",
+          "audioDurationSec": 58.488,
+          "audioSha256": "ca9e7d126a18bed6c1525def2d670c609c61966ba1b362f723e8a1e32629dac3",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M1_L02",
+          "typeId": "N2-LIS-TASK",
+          "category": "Mondai 1: 課題理解",
+          "script": "大学の実験室で、女性の研究員と男性の技術職員が装置の予約について話しています。女性はこの後、何をしますか。\n\n女：明日の午前に分光計を使いたいのですが、予約表には午後と書かれていました。\n男：午後は別の研究班が使います。午前に使うなら、まず今日中に試料の種類を登録してください。\n女：予約の変更は必要ですか。\n男：午前の枠は空いていますから、予約表の時間を直すだけで大丈夫です。装置の校正は私が朝に済ませます。\n女：分かりました。試料を登録して、時間を午前に変更します。",
+          "stem": "女性はこの後、何をしますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "別の研究班に午後の利用を頼む"
+            },
+            {
+              "id": "B",
+              "text": "試料を装置に入れておく"
+            },
+            {
+              "id": "C",
+              "text": "予約時間を午前に直し、試料の種類を登録する"
+            },
+            {
+              "id": "D",
+              "text": "装置の校正をする"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "午前の利用は可能です。本人は試料登録と予約表の時刻変更を行います。",
+          "distractorExplanations": {
+            "A": "午後の枠は別の班が使うため、変更できません。",
+            "B": "試料を装置に入れておく指示はありません。",
+            "D": "校正は技術職員が朝に行うと言っています。"
+          },
+          "explanationVi": "Kỹ thuật viên xác nhận khung buổi sáng còn trống, yêu cầu đăng ký loại mẫu trong hôm nay và sửa giờ trên bảng đặt chỗ. Việc hiệu chuẩn máy do nhân viên thực hiện, nên người nghiên cứu không cần tự làm bước đó.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_08/N2_08_M1_L02.mp3",
+          "audioDurationSec": 56.688,
+          "audioSha256": "1c2ecde5db6e14722c917d8ab8593512219c0705bce74b86494f3eed6248e433",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M1_L03",
+          "typeId": "N2-LIS-TASK",
+          "category": "Mondai 1: 課題理解",
+          "script": "講義の後で、学生と教員がレポートの引用方法について話しています。学生はまず何をしますか。\n\n男：先生、引用した論文の一覧は最後に付けました。\n女：一覧は整っているけれど、本文のどの記述がどの論文に基づくか分かりにくいわ。\n男：ページ番号も必要でしょうか。\n女：直接引用した箇所にはページ番号を付けてください。要約した部分は著者名と出版年があればいいです。締切は来週ですが、まず本文の引用表示を直しましょう。\n男：はい。文献一覧を作り直す前に、本文を確認します。",
+          "stem": "学生はまず何をしますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "締切を延ばしてもらう"
+            },
+            {
+              "id": "B",
+              "text": "全ての論文を読み直す"
+            },
+            {
+              "id": "C",
+              "text": "文献一覧を削除する"
+            },
+            {
+              "id": "D",
+              "text": "本文中の引用表示を修正する"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "教員は先に本文の引用箇所を明確にするよう指示しています。",
+          "distractorExplanations": {
+            "A": "締切延長の相談は出ていません。",
+            "B": "論文全体を読み直す指示ではなく、引用表示を直します。",
+            "C": "文献一覧は整っていると評価されています。"
+          },
+          "explanationVi": "Giảng viên nói trước hết phải chỉ rõ đoạn nào trong thân bài dựa trên tài liệu nào, và thêm số trang cho trích dẫn trực tiếp. Vì vậy sinh viên sửa ký hiệu trích dẫn trong bài trước; danh mục cuối bài chưa phải việc đầu tiên.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_08/N2_08_M1_L03.mp3",
+          "audioDurationSec": 55.92,
+          "audioSha256": "18d7733784f105bdd0ec5cf788b516396417a7dc8db37b9f4d8fb34105229dde",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M1_L04",
+          "typeId": "N2-LIS-TASK",
+          "category": "Mondai 1: 課題理解",
+          "script": "大学の講義室で、二人の学生が共同発表の準備について話しています。女性はこの後、何をしますか。\n\n女：スライドの図はできたけれど、文字が小さすぎないかな。\n男：教室の後ろから見ると少し読みにくいね。内容は変えなくていいから、図の説明と文字を大きくしよう。\n女：発表順の表も入れる？\n男：それは先生が配った資料に載っているから、スライドにはいらないよ。\n女：じゃあ、図の文字を直して、今日中に共有フォルダに置くね。",
+          "stem": "女性はこの後、何をしますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "発表順を調べてスライドに加える"
+            },
+            {
+              "id": "B",
+              "text": "先生に資料を作ってもらう"
+            },
+            {
+              "id": "C",
+              "text": "発表内容を全部書き直す"
+            },
+            {
+              "id": "D",
+              "text": "図の説明と文字を大きくして共有する"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "内容や発表順は変えず、読みにくい図の説明を大きくして共有します。",
+          "distractorExplanations": {
+            "A": "発表順は配布資料にあり、スライドには不要です。",
+            "B": "資料作成を教員に頼む話はありません。",
+            "C": "内容は変えず、図の文字を大きくします。"
+          },
+          "explanationVi": "Hai sinh viên thống nhất giữ nguyên nội dung và thứ tự trình bày, chỉ phóng to chữ cùng chú thích hình để người ngồi cuối phòng đọc được. Sau khi sửa, người nói sẽ tải slide vào thư mục dùng chung trong ngày.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_08/N2_08_M1_L04.mp3",
+          "audioDurationSec": 47.28,
+          "audioSha256": "2fac9f908d1b33a565e2ecebb6f9241720c5b79727120fa0b88535da662a81f6",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M1_L05",
+          "typeId": "N2-LIS-TASK",
+          "category": "Mondai 1: 課題理解",
+          "script": "学会発表の準備について、大学院生と研究室の先輩が話しています。大学院生は最初に何をしますか。\n\n女：ポスターの印刷を予約しようと思っています。\n男：その前に、学会の要旨提出が今夜までだよ。ポスターの印刷は採択通知が来てからでも間に合う。\n女：要旨は先生に見てもらっています。\n男：先生から戻ったら、字数を確認してすぐ提出して。図の色を調整するのはその後でいい。\n女：分かりました。まず要旨を出します。",
+          "stem": "大学院生は最初に何をしますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "ポスターの色を調整する"
+            },
+            {
+              "id": "B",
+              "text": "要旨の字数を確認して提出する"
+            },
+            {
+              "id": "C",
+              "text": "採択通知の結果を問い合わせる"
+            },
+            {
+              "id": "D",
+              "text": "印刷室の予約を取る"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "締切が最も近いのは要旨提出です。字数を確認して今夜までに送ります。",
+          "distractorExplanations": {
+            "A": "印刷予約は採択通知後でも間に合うと言われています。",
+            "C": "採択通知を問い合わせるよう指示されていません。",
+            "D": "まず締切の近い要旨を提出します。"
+          },
+          "explanationVi": "Hạn nộp tóm tắt là tối nay, còn đặt in poster có thể chờ đến khi nhận kết quả tuyển chọn. Vì vậy nghiên cứu sinh kiểm tra giới hạn số chữ và nộp tóm tắt trước, rồi mới chỉnh màu hay đặt in.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_08/N2_08_M1_L05.mp3",
+          "audioDurationSec": 49.752,
+          "audioSha256": "20309d5af224cfbd178c6d57cdf5c70d78f05442199e076cc25ecb50d447bf8f",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M2_L01",
+          "typeId": "N2-LIS-POINT",
+          "category": "Mondai 2: ポイント理解",
+          "script": "研究会の準備について、教授と学生が話しています。学生は資料をいつまでに送りますか。\n\n男：発表資料の初稿はできましたか。\n女：図の説明を直しているところです。\n男：内容は明日確認できます。ただ、参加者に事前に配るので、今日の午後五時までに共有フォルダへ入れてください。印刷は事務の方が明日の朝にします。\n女：分かりました。五時までに入れます。",
+          "stem": "学生は資料をいつまでに送りますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "明日の朝まで"
+            },
+            {
+              "id": "B",
+              "text": "今日の午後五時まで"
+            },
+            {
+              "id": "C",
+              "text": "今日の夜まで"
+            },
+            {
+              "id": "D",
+              "text": "研究会の開始後"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "参加者への配布準備のため、今日の午後五時が締切です。",
+          "distractorExplanations": {
+            "A": "印刷は明日の朝ですが、学生の提出期限は今日です。",
+            "C": "夜までではなく午後五時が締切です。",
+            "D": "研究会の後ではなく、事前配布のために送ります。"
+          },
+          "explanationVi": "Giáo sư cần tài liệu để phát trước cho người dự, nên yêu cầu tải lên thư mục chung trước 17 giờ hôm nay. Việc giáo sư đọc bản nháp vào ngày mai và in vào sáng hôm sau không làm thay đổi hạn nộp này.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_08/N2_08_M2_L01.mp3",
+          "audioDurationSec": 48.896,
+          "audioSha256": "102227fa29ec81e2a1acd494176156144f3b9ce24dcdd4908639bbc5561a8579",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M2_L02",
+          "typeId": "N2-LIS-POINT",
+          "category": "Mondai 2: ポイント理解",
+          "script": "講義の受講方法について、教員が学生に説明しています。録画を見た学生は何をする必要がありますか。\n\n女：出張などで講義を欠席した人は、金曜日までに録画を見てください。ただし、視聴しただけでは出席扱いになりません。学習サイトにある確認問題を提出すると、出席記録に反映されます。質問がある人は、次の授業で聞いてください。",
+          "stem": "録画を見た学生は何をする必要がありますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "教員に電話する"
+            },
+            {
+              "id": "B",
+              "text": "次の授業を欠席する"
+            },
+            {
+              "id": "C",
+              "text": "録画を自分で編集する"
+            },
+            {
+              "id": "D",
+              "text": "確認問題を提出する"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "録画視聴だけでは出席にならず、サイトの確認問題提出が必要です。",
+          "distractorExplanations": {
+            "A": "次の授業で質問するのは任意の案内です。",
+            "B": "録画を見るだけでは出席扱いになりません。",
+            "C": "録画の編集を学生に求めていません。"
+          },
+          "explanationVi": "Nghe bản ghi thôi chưa được tính có mặt; sinh viên còn phải nộp bài kiểm tra ngắn trên trang học tập trước thứ Sáu. Đây là bước xác nhận đã xem và hiểu bài, còn thắc mắc thì có thể hỏi ở buổi sau.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_08/N2_08_M2_L02.mp3",
+          "audioDurationSec": 47.792,
+          "audioSha256": "b0ef2514b0a42689ad1a9b8242e7b2fcfcf55ce6b6246e055c98b4a86611a1f4",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M2_L03",
+          "typeId": "N2-LIS-POINT",
+          "category": "Mondai 2: ポイント理解",
+          "script": "研究発表のポスターについて、二人の学生が話しています。男性は図をどうすることにしましたか。\n\n女：この図、測定結果が三種類あるのに、線が全部同じ色だね。\n男：白黒で印刷する予定だから、色だけでは区別できないね。\n女：線の種類を変えて、凡例にも説明を入れようか。\n男：そうしよう。データの数字は合っているから、そこは直さなくていい。",
+          "stem": "男性は図をどうすることにしましたか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "線の種類を変え、凡例に説明を加える"
+            },
+            {
+              "id": "B",
+              "text": "測定値そのものを変更する"
+            },
+            {
+              "id": "C",
+              "text": "図をポスターから外す"
+            },
+            {
+              "id": "D",
+              "text": "カラー印刷に切り替える"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "白黒印刷でも区別できるよう線種と凡例を変更し、数字はそのままです。",
+          "distractorExplanations": {
+            "B": "数字は合っているので変更しません。",
+            "C": "図はポスターに残し、見分けやすくします。",
+            "D": "白黒印刷のままで、線種を変えます。"
+          },
+          "explanationVi": "Vì poster sẽ in trắng đen, màu không đủ để phân biệt ba chuỗi đo. Họ đổi kiểu nét và bổ sung chú giải, nhưng giữ nguyên các con số vì dữ liệu không sai.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_08/N2_08_M2_L03.mp3",
+          "audioDurationSec": 46.952,
+          "audioSha256": "fe1552359730501e716853212af6e8f292d2dd1d1d26c2bbc6d1c74a3fbd593e",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M2_L04",
+          "typeId": "N2-LIS-POINT",
+          "category": "Mondai 2: ポイント理解",
+          "script": "大学の情報担当者が、学生に新しい認証方式を説明しています。学生がパスワードを忘れた場合、まず何をしますか。\n\n男：来月から、学内サービスは二段階認証になります。スマートフォンを交換した人は、古い端末を処分する前に新しい端末を登録してください。パスワードを忘れた場合は、教務課ではなく情報センターの窓口で本人確認を受けてください。",
+          "stem": "パスワードを忘れた学生は、まずどうしますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "教務課にメールする"
+            },
+            {
+              "id": "B",
+              "text": "新しいパスワードを友人に聞く"
+            },
+            {
+              "id": "C",
+              "text": "情報センターで本人確認を受ける"
+            },
+            {
+              "id": "D",
+              "text": "古い端末を処分する"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "忘れた場合の窓口は情報センターで、本人確認を受けるよう案内されています。",
+          "distractorExplanations": {
+            "A": "手続き先は教務課ではなく情報センターです。",
+            "B": "友人にパスワードを聞く方法は案内されていません。",
+            "D": "古い端末の処分は新端末登録の注意で、パスワードを忘れたときの手順ではありません。"
+          },
+          "explanationVi": "Thông báo phân biệt rõ phòng học vụ với trung tâm thông tin: quên mật khẩu thì đến trung tâm thông tin để xác minh danh tính trước. Đăng ký thiết bị mới chỉ áp dụng cho người đổi điện thoại.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_08/N2_08_M2_L04.mp3",
+          "audioDurationSec": 46.256,
+          "audioSha256": "f529994386c9c9906b325969308b02426e36cb5b146746eb1934eff0f0e58ab6",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M2_L05",
+          "typeId": "N2-LIS-POINT",
+          "category": "Mondai 2: ポイント理解",
+          "script": "実験データの保存について、研究室の職員が説明しています。共有データを保存する場所はどこですか。\n\n女：個人の作業ファイルは各自の端末に保存して構いません。ただし、共同研究のデータは研究室の共有サーバーに保存してください。個人のクラウドに置くと、メンバーがアクセスできない場合があります。\n男：バックアップはどうしますか。\n女：サーバーは毎晩自動で複製されます。",
+          "stem": "共同研究のデータはどこに保存しますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "印刷して研究室に保管"
+            },
+            {
+              "id": "B",
+              "text": "研究室の共有サーバー"
+            },
+            {
+              "id": "C",
+              "text": "各自の個人クラウド"
+            },
+            {
+              "id": "D",
+              "text": "個人の端末だけ"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "共同研究データは研究室共有サーバーに保存します。",
+          "distractorExplanations": {
+            "A": "印刷保管の案内はありません。",
+            "C": "個人クラウドでは他のメンバーが使えない場合があります。",
+            "D": "個人端末ではなく共有サーバーに保存します。"
+          },
+          "explanationVi": "Nhân viên yêu cầu dữ liệu nghiên cứu chung lưu trên máy chủ dùng chung của phòng thí nghiệm để cả nhóm truy cập được. Tệp cá nhân có thể ở máy riêng, còn đám mây cá nhân có thể khiến cộng sự không mở được.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_08/N2_08_M2_L05.mp3",
+          "audioDurationSec": 49.36,
+          "audioSha256": "d7cfe550b19d4025e8d52572425efa52e76e1ebe97a2efdd73e087dc8792d6f8",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M2_L06",
+          "typeId": "N2-LIS-POINT",
+          "category": "Mondai 2: ポイント理解",
+          "script": "学習支援センターの職員が、予約変更について学生に説明しています。予約を変更できるのはいつまでですか。\n\n女：相談予約を変更したい場合は、予約日の前日正午までにサイトで手続きしてください。それを過ぎると、担当者に直接連絡しても変更できません。キャンセルした枠は、ほかの学生が申し込めるようになります。",
+          "stem": "学生はいつまでに予約を変更できますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "予約日の前日正午まで"
+            },
+            {
+              "id": "B",
+              "text": "相談が始まった後"
+            },
+            {
+              "id": "C",
+              "text": "予約日の前日夜まで"
+            },
+            {
+              "id": "D",
+              "text": "予約開始の一時間前まで"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "予約の変更期限は、予約日の前日正午までと案内されています。",
+          "distractorExplanations": {
+            "B": "開始後の変更はできないと説明されています。",
+            "C": "変更期限は前日正午です。",
+            "D": "前日の夜ではなく正午までです。"
+          },
+          "explanationVi": "Hạn đổi lịch là 12 giờ trưa ngày trước buổi hẹn và phải làm trên trang. Qua thời điểm đó, gọi trực tiếp cũng không đổi được; chỗ trống sau khi hủy sẽ dành cho sinh viên khác.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_08/N2_08_M2_L06.mp3",
+          "audioDurationSec": 44.888,
+          "audioSha256": "ec991fcb993f3ba4d4c105f6fd043ecc19e8d32675cdeaf3229caffdb436c83b",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M3_L01",
+          "typeId": "N2-LIS-SUMM",
+          "category": "Mondai 3: 概要理解",
+          "script": "大学の公開講座で、研究者が人工知能について話しています。何について話していますか。\n\n女：機械学習は、大量の例から共通点を見つけるのが得意です。しかし、入力したデータに偏りがあれば、その偏りを反映した予測を出すことがあります。結果の数値だけを見て判断せず、どんなデータで学習したかを調べることが大切です。\n何について話していますか。",
+          "stem": "話者が最も伝えたいことは何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "予測の数値は常に人間より正確だ"
+            },
+            {
+              "id": "B",
+              "text": "機械学習の結果は学習データと合わせて確かめるべきだ"
+            },
+            {
+              "id": "C",
+              "text": "人工知能は大量のデータを必要としない"
+            },
+            {
+              "id": "D",
+              "text": "機械学習の開発を中止すべきだ"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "話者は、予測の背後にある学習データの偏りを確認する必要性を述べています。",
+          "distractorExplanations": {
+            "A": "予測は学習データに左右されるため、常に正確とは述べていません。",
+            "C": "話者は技術を中止すべきとは言わず、データの偏りを確認するよう述べています。",
+            "D": "人工知能の開発停止を提案していません。"
+          },
+          "explanationVi": "Người nói cảnh báo mô hình học máy phản ánh cả độ lệch trong dữ liệu huấn luyện. Khi nghe các lựa chọn, hãy chọn ý yêu cầu xem nguồn dữ liệu cùng kết quả dự đoán, thay vì tin con số đầu ra là khách quan.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_08/N2_08_M3_L01.mp3",
+          "audioDurationSec": 63.244,
+          "audioSha256": "cbbc468523f85dea2df4f1f51ba551c4a84ee2646d8876a1c0ac31a7475a1eac",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M3_L02",
+          "typeId": "N2-LIS-SUMM",
+          "category": "Mondai 3: 概要理解",
+          "script": "大学図書館の職員が、電子資料の利用について案内しています。何について話していますか。\n\n男：電子資料は場所を選ばず読めるので便利ですが、契約によって同時に使える人数が限られています。利用中と表示されたときは、端末の故障とは限りません。少し時間を置くか、別の資料を探してください。\n何について話していますか。",
+          "stem": "職員が説明していることは何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "電子資料の同時利用制限と、利用できないときの対応"
+            },
+            {
+              "id": "B",
+              "text": "図書館の電子資料を全て廃止する計画"
+            },
+            {
+              "id": "C",
+              "text": "端末を修理する窓口の場所"
+            },
+            {
+              "id": "D",
+              "text": "紙の本を電子資料に変える方法"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "電子資料の同時利用上限と、利用中表示が出たときの対処を説明しています。",
+          "distractorExplanations": {
+            "B": "同時利用制限はありますが、資料廃止の話ではありません。",
+            "C": "故障窓口の案内ではなく、利用中表示への対処です。",
+            "D": "紙の本を変換する話ではありません。"
+          },
+          "explanationVi": "Nhân viên giải thích hợp đồng giới hạn số người có thể dùng tài liệu điện tử đồng thời. Khi thấy 利用中, người dùng nên chờ hoặc tìm tài liệu khác; thông báo đó không tự động có nghĩa máy bị hỏng.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_08/N2_08_M3_L02.mp3",
+          "audioDurationSec": 59.02,
+          "audioSha256": "e2c1375958b649c34653c2ce7d20fcf9f7f111eab0acc7b1cb6ef180851f88d1",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M3_L03",
+          "typeId": "N2-LIS-SUMM",
+          "category": "Mondai 3: 概要理解",
+          "script": "研究室の会議で、指導教員が実験結果について話しています。何について話していますか。\n\n男：今回の測定値は予想と違いましたが、すぐに失敗と決める必要はありません。まず機器の設定と試料の状態を確認しましょう。その上で、同じ実験を別の担当者にも行ってもらいます。結果が再現するかどうかを見てから、原因を考えます。\n何について話していますか。",
+          "stem": "教員が勧めていることは何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "一人の測定結果だけで結論を出すこと"
+            },
+            {
+              "id": "B",
+              "text": "機器の設定を記録しないこと"
+            },
+            {
+              "id": "C",
+              "text": "再現性を確かめてから原因を判断すること"
+            },
+            {
+              "id": "D",
+              "text": "予想と違う結果を捨てること"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "予想外の結果を直ちに棄却せず、条件を確認して再現性を調べるよう勧めています。",
+          "distractorExplanations": {
+            "A": "一人の結果でなく、別の担当者にも再現を確かめます。",
+            "B": "条件を記録しないのでなく、設定を確認します。",
+            "D": "予想外の値を捨てるようには言っていません。"
+          },
+          "explanationVi": "Giảng viên không vội gọi kết quả ngoài dự đoán là thất bại: cần kiểm tra cài đặt và mẫu, rồi nhờ người khác lặp lại thí nghiệm. Tính tái lập mới giúp xác định nguyên nhân đáng tin cậy.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_08/N2_08_M3_L03.mp3",
+          "audioDurationSec": 59.716,
+          "audioSha256": "c38643e5816ac4be33c1d72b2c50e31e3d2ab9ae6a05bd44fd7e10cb5dc1e530",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M3_L04",
+          "typeId": "N2-LIS-SUMM",
+          "category": "Mondai 3: 概要理解",
+          "script": "オンライン授業の改善について、教員が報告しています。何について話していますか。\n\n女：動画を短く分けたところ、学生が必要な部分を見直しやすくなりました。ただ、動画を見ただけで内容を理解したかは分かりません。そこで各動画の後に短い問いを置き、次の授業では答えを説明し合う時間を作りました。視聴回数ではなく、どこでつまずいたかを見て授業を直したいと思います。\n何について話していますか。",
+          "stem": "報告者が重視していることは何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "対面授業をなくすこと"
+            },
+            {
+              "id": "B",
+              "text": "動画の長さを全て同じにすること"
+            },
+            {
+              "id": "C",
+              "text": "学生の理解やつまずきを授業改善に生かすこと"
+            },
+            {
+              "id": "D",
+              "text": "視聴回数を増やすこと"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "動画は手段で、理解度やつまずきを次の授業に反映することが中心です。",
+          "distractorExplanations": {
+            "A": "対面授業の廃止は提案されていません。",
+            "B": "動画の長さをそろえることは主題ではありません。",
+            "D": "再生回数だけで成果を測らないと述べています。"
+          },
+          "explanationVi": "Video ngắn giúp xem lại thuận tiện nhưng lượt xem không chứng minh người học đã hiểu. Giáo viên xem câu trả lời và điểm vướng để điều chỉnh phần giải thích trong buổi sau.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_08/N2_08_M3_L04.mp3",
+          "audioDurationSec": 63.412,
+          "audioSha256": "4f4e3a416eeca8037aef284e8e33a61a4866891e583161ddb443238bd3810c22",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M3_L05",
+          "typeId": "N2-LIS-SUMM",
+          "category": "Mondai 3: 概要理解",
+          "script": "研究参加者への説明について、研究者が学生に話しています。何について説明していますか。\n\n女：調査の目的だけでなく、参加しない選択をしても不利益がないことを伝えてください。質問の途中でもやめられること、集めた情報を誰が見るかも説明します。説明文を読んでもらい、分からない点がないか確認してから同意を得ましょう。\n何について話していますか。",
+          "stem": "研究者が説明している注意点は何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "調査に参加しない学生の成績を下げること"
+            },
+            {
+              "id": "B",
+              "text": "質問への回答を途中で変更させないこと"
+            },
+            {
+              "id": "C",
+              "text": "同意を得ずに情報を集めること"
+            },
+            {
+              "id": "D",
+              "text": "参加者が自由に選べることと、情報の扱いを事前に説明すること"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "参加・撤回の自由と情報の取扱いを説明し、理解を確認してから同意を得ます。",
+          "distractorExplanations": {
+            "A": "不参加による不利益はないと説明するので、成績を下げる話ではありません。",
+            "B": "参加者は途中で撤回できます。",
+            "C": "同意を得てから調査を始めます。"
+          },
+          "explanationVi": "Trước khi xin đồng ý, nhà nghiên cứu phải giải thích quyền không tham gia/rút lui và ai được xem dữ liệu, rồi kiểm tra người tham gia đã hiểu. Không được thu thập thông tin trước khi nói rõ cách sử dụng.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_08/N2_08_M3_L05.mp3",
+          "audioDurationSec": 63.532,
+          "audioSha256": "c224e8245796c0e90b6ecb97a361c2f5023588fbc591a8e91bef777a77cbe57c",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M4_L01",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "問題４、1番。\n男：この図、発表資料に使ってもいいですか。",
+          "stem": "この図、発表資料に使ってもいいですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "その図は、発表の最後に載せると見やすいですよ。"
+            },
+            {
+              "id": "B",
+              "text": "はい、出典を明記すれば構いません。"
+            },
+            {
+              "id": "C",
+              "text": "図の説明は、口頭でも補ってください。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "許可を求める質問に、条件付きで許可する返答です。",
+          "distractorExplanations": {
+            "A": "配置の助言には答えず、出典を示せば利用できるかという許可条件にも触れていません。",
+            "C": "説明方法の助言だけで、図を使ってよいかという許可には答えていません。"
+          },
+          "explanationVi": "Câu hỏi xin phép sử dụng hình nhận được sự đồng ý có điều kiện: được dùng miễn là ghi rõ nguồn. Việc nói về vị trí đặt hình hoặc bổ sung lời giải thích không trả lời điều kiện sử dụng.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_08/N2_08_M4_L01.mp3",
+          "audioDurationSec": 26.74,
+          "audioSha256": "3e520f863633ffeb8663ee3a5ed30dfabd9ca83dac8505da630f08b7dd1f563a",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M4_L02",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "問題４、2番。\n男：先生、先ほどの説明で分からないところがあったのですが。",
+          "stem": "先生、先ほどの説明で分からないところがあったのですが。",
+          "options": [
+            {
+              "id": "A",
+              "text": "次の授業の質問時間に、まとめて聞いてください。"
+            },
+            {
+              "id": "B",
+              "text": "どの部分ですか。もう一度説明しましょうか。"
+            },
+            {
+              "id": "C",
+              "text": "資料の該当ページを、あとで送りますね。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "分からない点を伝えられたので、場所を尋ねて説明を申し出るのが自然です。",
+          "distractorExplanations": {
+            "A": "質問の機会を案内するだけで、今の理解の難しさに直接応じていません。",
+            "C": "資料を送る申し出だけでは、説明のどの部分が分からないかという話に応じていません。"
+          },
+          "explanationVi": "Người học báo còn chỗ chưa hiểu; phản hồi tự nhiên là hỏi cụ thể phần nào và đề nghị giải thích lại. Gửi tài liệu sau có thể hữu ích, nhưng chưa xác định được điểm vướng.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_08/N2_08_M4_L02.mp3",
+          "audioDurationSec": 28.684,
+          "audioSha256": "94710e5b88934e9cd95bf0fb2a9ebc892c3e8cbe0b808f5cd7b801d37da2e376",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M4_L03",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "問題４、3番。\n男：この装置は使用後、電源を切っておけばいいですか。",
+          "stem": "この装置は使用後、電源を切っておけばいいですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "使った時間を、記録簿に記入しておいてください。"
+            },
+            {
+              "id": "B",
+              "text": "装置の点検日は、扉の内側に書いてあります。"
+            },
+            {
+              "id": "C",
+              "text": "いいえ、電源は入れたままにしてください。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "装置の使用後の扱いを尋ねているので、電源についての指示が適切です。",
+          "distractorExplanations": {
+            "A": "使用記録の指示であり、使用後に電源を切るかという確認への返答ではありません。",
+            "B": "点検日の案内であり、使用後の電源の扱いを示していません。"
+          },
+          "explanationVi": "Câu hỏi xác nhận có cần tắt thiết bị sau khi dùng không, và đáp lại là không, hãy để nguồn điện bật. Câu trả lời phải xử lý trực tiếp quy trình vận hành, không chỉ nêu ngày kiểm tra.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_08/N2_08_M4_L03.mp3",
+          "audioDurationSec": 28.012,
+          "audioSha256": "dd76a23bbb450b012399ff6dea4d49abbc02c35cfe7b6f1f2e6e7c3c78797e64",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M4_L04",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "問題４、4番。\n男：共同発表の担当、私が図の説明をしてもよろしいでしょうか。",
+          "stem": "共同発表の担当、私が図の説明をしてもよろしいでしょうか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "はい、では私は背景の説明を担当します。"
+            },
+            {
+              "id": "B",
+              "text": "では、私はスライドの順番を確認しておきます。"
+            },
+            {
+              "id": "C",
+              "text": "図の出典は、資料の最後にまとめてください。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "役割分担の申し出に、もう一方の担当を返す応答です。",
+          "distractorExplanations": {
+            "B": "別の準備作業を申し出ていますが、図の説明を担当してよいかへの返答ではありません。",
+            "C": "出典の記載方法を指示していますが、担当の申し出への返答ではありません。"
+          },
+          "explanationVi": "Một người đề nghị nhận phần giải thích hình; người kia đồng ý và nhận phần bối cảnh. Đây là phản hồi phối hợp phân công tương ứng, không phải nhắc lại nội dung bài thuyết trình.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_08/N2_08_M4_L04.mp3",
+          "audioDurationSec": 29.38,
+          "audioSha256": "e1add3134cfde006265c37500f6f19904a3824bb87046030400c5344fa8d33d0",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M4_L05",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "問題４、5番。\n男：この論文、来週のゼミまでに全部読まないといけませんか。",
+          "stem": "この論文、来週のゼミまでに全部読まないといけませんか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "論文の要点は、ゼミで説明してください。"
+            },
+            {
+              "id": "B",
+              "text": "読んだ箇所には、付箋を貼っておいてください。"
+            },
+            {
+              "id": "C",
+              "text": "全部でなくても、担当箇所は読んできてください。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "読む範囲を確認する質問に、担当箇所を読むよう答えるのが自然です。",
+          "distractorExplanations": {
+            "A": "発表の指示であり、ゼミまでに読む範囲を尋ねた質問への答えではありません。",
+            "B": "読み方の助言だけで、論文全体を読む必要があるかに答えていません。"
+          },
+          "explanationVi": "Câu trả lời phân biệt việc đọc toàn bộ bài với phần được phân công: không nhất thiết đọc hết, nhưng phải chuẩn bị đoạn của mình cho buổi seminar. Đây là chỉ dẫn cụ thể hơn câu trả lời có/không.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_08/N2_08_M4_L05.mp3",
+          "audioDurationSec": 27.556,
+          "audioSha256": "f63c9455dd5be9a47e226e57462291fece69afb9c108d4231ac1c671e77b17a3",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M4_L06",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "問題４、6番。\n男：すみません、学外からこのデータベースにアクセスできません。",
+          "stem": "すみません、学外からこのデータベースにアクセスできません。",
+          "options": [
+            {
+              "id": "A",
+              "text": "利用可能な時間帯は、図書館のサイトに載っています。"
+            },
+            {
+              "id": "B",
+              "text": "学内アカウントでログインしているか確認しましたか。"
+            },
+            {
+              "id": "C",
+              "text": "データベースの利用申請は、学期ごとに更新してください。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "アクセスできないという相談なので、認証状態を確認する質問が適切です。",
+          "distractorExplanations": {
+            "A": "利用時間の案内では、学外から接続できない問題を解決できません。",
+            "C": "申請の更新案内であり、現在のログイン状態を確かめる助言ではありません。"
+          },
+          "explanationVi": "Khó truy cập từ ngoài trường có thể do chưa xác thực đúng tài khoản. Hỏi người dùng đã đăng nhập bằng tài khoản nội bộ chưa là bước kiểm tra phù hợp trước khi kết luận cơ sở dữ liệu lỗi.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_08/N2_08_M4_L06.mp3",
+          "audioDurationSec": 29.74,
+          "audioSha256": "96566d537fe542fc032a403a69ffc4b373eb6914b7879cd774b3692da5b17224",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M4_L07",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "問題４、7番。\n男：発表の順番、先に決めてしまいましょうか。",
+          "stem": "発表の順番、先に決めてしまいましょうか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "そうですね。時間がかかりそうな人から決めましょう。"
+            },
+            {
+              "id": "B",
+              "text": "順番が決まったら、資料を共有フォルダに置いてください。"
+            },
+            {
+              "id": "C",
+              "text": "発表時間は一人十分です。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "順番決めの提案に、決め方を提案する返答です。",
+          "distractorExplanations": {
+            "B": "資料共有の指示で、順番の決め方を提案していません。",
+            "C": "持ち時間の案内だけでは、発表順を今決める提案への返答になりません。"
+          },
+          "explanationVi": "Người nghe đồng ý nên quyết định thứ tự và đề xuất bắt đầu với người cần nhiều thời gian. Đây vừa tiếp nhận đề nghị, vừa đưa ra một tiêu chí sắp xếp rõ ràng.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_08/N2_08_M4_L07.mp3",
+          "audioDurationSec": 27.844,
+          "audioSha256": "41f6830fad8c12de7f18048dbe0c43521da28e6095251bd8d6907b46c7f1fb16",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M4_L08",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "問題４、8番。\n男：このグラフは、単位を明記したほうがいいでしょうか。",
+          "stem": "このグラフは、単位を明記したほうがいいでしょうか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "目盛りの間隔をそろえると見やすくなります。"
+            },
+            {
+              "id": "B",
+              "text": "凡例には、各線が何を示すかも書いてください。"
+            },
+            {
+              "id": "C",
+              "text": "そうですね。値の意味が伝わりやすくなります。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "グラフ表記の確認に、単位を示す利点を述べる応答です。",
+          "distractorExplanations": {
+            "A": "目盛りについての助言で、単位の表示を確認した質問への返答ではありません。",
+            "B": "凡例への助言ですが、単位を明記する利点について答えていません。"
+          },
+          "explanationVi": "Ghi đơn vị giúp người đọc hiểu mỗi giá trị biểu thị cái gì. Vì thế phản hồi đồng tình và nêu lý do diễn giải dễ hơn; câu hỏi không phải về màu hay vị trí của biểu đồ.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_08/N2_08_M4_L08.mp3",
+          "audioDurationSec": 27.748,
+          "audioSha256": "3ca14458858db0b84ba6d2d94b44f7831cb3bb628367aab336e0da2a451f348f",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M4_L09",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "問題４、9番。\n男：締切が明日だと気づかなくて、まだ申請していないんです。",
+          "stem": "締切が明日だと気づかなくて、まだ申請していないんです。",
+          "options": [
+            {
+              "id": "A",
+              "text": "申請書の提出先は、教務課の窓口です。"
+            },
+            {
+              "id": "B",
+              "text": "添付書類はPDF形式で提出してください。"
+            },
+            {
+              "id": "C",
+              "text": "それなら、今すぐ必要書類をそろえたほうがいいですよ。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "申請が未完了だと聞き、急いで準備するよう助言するのが自然です。",
+          "distractorExplanations": {
+            "A": "提出先の案内だけでは、締切が明日で未申請という状況への助言になりません。",
+            "B": "提出形式の指示で、まず必要書類を急いでそろえる助言ではありません。"
+          },
+          "explanationVi": "Người nói mới nhận ra chưa nộp đơn dù hạn là ngày mai. Phản hồi hữu ích là chuẩn bị giấy tờ cần thiết ngay, thay vì chỉ an ủi hoặc chờ đến sát hạn.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_08/N2_08_M4_L09.mp3",
+          "audioDurationSec": 29.26,
+          "audioSha256": "c932ac6ff2583cc0f3eb123952ee42a9c2737a8230f72f13e9d283593ea7467c",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M4_L10",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "問題４、10番。\n男：この説明、少し専門用語が多すぎませんか。",
+          "stem": "この説明、少し専門用語が多すぎませんか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "専門用語を使うこと自体は、発表では大切です。"
+            },
+            {
+              "id": "B",
+              "text": "では、初めて聞く人にも分かる言葉に直しましょう。"
+            },
+            {
+              "id": "C",
+              "text": "用語の意味は、質問があればその場で説明します。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "分かりにくさの指摘に対して、表現を直す提案が適切です。",
+          "distractorExplanations": {
+            "A": "用語使用の是非に触れるだけで、説明を分かりやすく直す提案をしていません。",
+            "C": "質問後に説明する方針で、現在の説明を直す提案にはなっていません。"
+          },
+          "explanationVi": "Nhận xét cho rằng phần giải thích có quá nhiều thuật ngữ chuyên môn; đề xuất đổi sang từ dễ hiểu cho người mới nghe xử lý đúng vấn đề. Rút ngắn mà không làm rõ nghĩa chưa chắc giúp ích.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_08/N2_08_M4_L10.mp3",
+          "audioDurationSec": 28.972,
+          "audioSha256": "c74753f405d2d06ab3d925e853b5d2243c8ac65218e4e96b636b7afd33ec175f",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M4_L11",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "問題４、11番。\n男：教授、実験の結果が予想と違っていたので、失敗だと思います。",
+          "stem": "教授、実験の結果が予想と違っていたので、失敗だと思います。",
+          "options": [
+            {
+              "id": "A",
+              "text": "予想と異なる数値は、発表資料から外しておきましょう。"
+            },
+            {
+              "id": "B",
+              "text": "そう決める前に、条件と測定手順を確かめてみましょう。"
+            },
+            {
+              "id": "C",
+              "text": "予想した結果になるまで、測定を続けてみましょう。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "予想と異なるだけで失敗と決めず、条件を確認する返答が適切です。",
+          "distractorExplanations": {
+            "A": "異なる結果を隠す提案であり、結果の原因を確認する姿勢と異なります。",
+            "C": "予想に合わせて測定を続ける提案で、条件や手順を確かめる返答ではありません。"
+          },
+          "explanationVi": "Kết quả khác dự đoán chưa đủ chứng minh thí nghiệm thất bại. Giáo sư khuyên kiểm tra điều kiện và quy trình đo trước, tức trì hoãn kết luận cho đến khi loại trừ sai lệch thực hiện.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_08/N2_08_M4_L11.mp3",
+          "audioDurationSec": 31.948,
+          "audioSha256": "4a736bc0c614bb3c235f87aa683ee26f11e7279effd2b98387281bb13f43a811",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M5_L01",
+          "typeId": "N2-LIS-INTEG",
+          "category": "Mondai 5: 統合理解",
+          "script": "大学の研究室で、教授と二人の学生が共同調査の進め方について話しています。\n\n女：来月の調査、現地に行く班とオンラインで聞き取りをする班に分ける案はどうでしょう。\n男：対象者の年齢によって、オンラインで答えやすい人とそうでない人がいます。まず、どちらの方法も選べるようにしてはどうですか。\n女：それだと結果を比べるときに方法の違いが影響しませんか。\n男：質問の順番と内容をそろえて、最初に回答方法を記録しておけば、後から違いを確かめられます。\n女：分かりました。では調査票を同じにして、対象者が方法を選べるように説明文を直します。\n質問：二人は調査方法をどうすることにしましたか。",
+          "stem": "二人は調査方法をどうすることにしましたか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "全員を現地調査に参加させる"
+            },
+            {
+              "id": "B",
+              "text": "オンライン回答だけに限定する"
+            },
+            {
+              "id": "C",
+              "text": "回答者が方法を選べるようにし、方法の違いを記録する"
+            },
+            {
+              "id": "D",
+              "text": "質問内容を方法ごとに変える"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "対象者が方法を選べるようにしつつ、同じ質問票を使い回答方法を記録します。",
+          "distractorExplanations": {
+            "A": "現地参加に限定せず、方法を選べるようにします。",
+            "B": "オンラインだけにも限定しません。",
+            "D": "質問内容は同じものを使います。"
+          },
+          "explanationVi": "Nhóm cho người trả lời tự chọn phỏng vấn trực tiếp hay trực tuyến, nhưng dùng cùng bộ câu hỏi và ghi lại phương thức. Ghi phương thức giúp đánh giá liệu khác biệt kết quả có liên quan cách trả lời hay không.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_08/N2_08_M5_L01.mp3",
+          "audioDurationSec": 63.084,
+          "audioSha256": "23eb8caf48d589e84b6bc8341273497cecad62a4be351b36333a41d822377dda",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M5_L02",
+          "typeId": "N2-LIS-INTEG",
+          "category": "Mondai 5: 統合理解",
+          "script": "大学の授業改善会議で、教員二人が講義動画の活用について話しています。\n\n男：先月、講義動画を公開したら、再生回数は予想以上でした。これで学生の理解も進んだと言えるでしょうか。\n女：再生回数だけでは分かりません。確認問題の正答率を見ると、用語の説明で間違いが集中しています。\n男：では、動画を長くして説明を増やしますか。\n女：長くするより、用語を図で示して、授業で学生に例を作ってもらいましょう。問題の結果は次の回の説明に使えます。\n男：それなら動画は今の長さのままにして、次回の授業案を直します。\n質問：教員は次に何をしますか。",
+          "stem": "教員は次に何をしますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "動画を大幅に長くする"
+            },
+            {
+              "id": "B",
+              "text": "図と例を使う授業にし、確認問題の結果を生かす"
+            },
+            {
+              "id": "C",
+              "text": "再生回数だけを成果として報告する"
+            },
+            {
+              "id": "D",
+              "text": "動画の公開をやめる"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "動画の長さは変えず、理解の誤りに合わせて図示と例づくりを授業に入れます。",
+          "distractorExplanations": {
+            "A": "動画は今の長さのままにすると決めています。",
+            "C": "再生回数だけでは理解を判断できないと話しています。",
+            "D": "公開は続け、次の授業案を改善します。"
+          },
+          "explanationVi": "Lượt xem video cao nhưng bài kiểm tra cho thấy sinh viên thường sai ở phần thuật ngữ. Thay vì kéo dài video, giáo viên dùng sơ đồ và yêu cầu sinh viên tự nêu ví dụ, rồi dùng kết quả kiểm tra để sửa buổi sau.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_08/N2_08_M5_L02.mp3",
+          "audioDurationSec": 59.868,
+          "audioSha256": "ee676545ec038fe0c50546016f00c6d58362226fb12d4edbdf23130c85ae73dc",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_08_M5_L03",
+          "typeId": "N2-LIS-INTEG",
+          "category": "Mondai 5: 統合理解",
+          "script": "研究発表の準備について、大学院生と指導教員が話しています。\n\n女：発表スライドは完成しました。結論を一枚目に置いたので、短い時間でも伝わると思います。\n男：結論は分かりやすいね。ただ、結果がどの条件で得られたのか、説明が少ない。\n女：時間が限られているので、条件は補足資料に移しましょうか。\n男：聴衆が結論を評価するには、主要な条件は本編にも必要だよ。細かい数値は補足にして、比較した条件だけ一枚追加しよう。\n女：では、結果の前に条件のスライドを入れて、細かい数値は最後にまとめます。\n質問：女性はスライドをどう直しますか。",
+          "stem": "女性はスライドをどう直しますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "結果を出す前に調査をやり直す"
+            },
+            {
+              "id": "B",
+              "text": "条件の説明を全て口頭だけにする"
+            },
+            {
+              "id": "C",
+              "text": "結論を削除し、全ての数値を本編に入れる"
+            },
+            {
+              "id": "D",
+              "text": "比較条件を本編に一枚加え、細かい数値は補足にする"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "評価に必要な比較条件を本編に加え、細部の数値は補足資料へ移します。",
+          "distractorExplanations": {
+            "A": "調査をやり直す話ではありません。",
+            "B": "条件の一部は本編に図示します。",
+            "C": "結論は残します。全ての数値を本編に入れるのではありません。"
+          },
+          "explanationVi": "Người hướng dẫn muốn người nghe biết điều kiện dùng để so sánh kết quả, nên thêm một slide điều kiện vào phần chính. Các số liệu chi tiết chuyển xuống phụ lục để không làm mờ lập luận chính.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_08/N2_08_M5_L03.mp3",
+          "audioDurationSec": 59.076,
+          "audioSha256": "8cfbda2dfa8237940d7d815140e7d3ae6057a1ade0761a3a0e5ffd0ebc39fbc8",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        }
+      ]
+    }
+  ]
+},
+  'N2-MOCK-09': {
+  "examId": "N2-MOCK-09",
+  "title": "JLPT N2 Full Mock Exam #09 — Đề thi thử hoàn chỉnh (Kiến thức ngôn ngữ, Đọc hiểu & Nghe hiểu)",
+  "level": "N2",
+  "status": "FULL_MOCK",
+  "durationMinutes": 155,
+  "totalQuestions": 105,
+  "sections": [
+    {
+      "sectionId": "sec-1",
+      "sectionName": "Phần 1: Kiến thức ngôn ngữ & Đọc hiểu (Language Knowledge & Reading)",
+      "durationMinutes": 105,
+      "itemCount": 75,
+      "items": [
+        {
+          "id": "N2_09_M1_01",
+          "typeId": "N2-MO-READ",
+          "category": "Mondai 1: 漢字読み",
+          "stem": "自治体は住民の意見を【反映】して計画を修正した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "ばんえい"
+            },
+            {
+              "id": "B",
+              "text": "はんえい"
+            },
+            {
+              "id": "C",
+              "text": "はんよう"
+            },
+            {
+              "id": "D",
+              "text": "はんえ"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "反映（はんえい）は、意見などを計画や結果に表すことです。",
+          "distractorExplanations": {
+            "A": "反は『はん』と読みます。",
+            "C": "映を『よう』とは読みません。",
+            "D": "映の長音を落とした読みです。"
+          },
+          "targetWord": "反映",
+          "explanationVi": "反映（はんえい）là đưa ý kiến/tình hình vào nội dung hoặc kết quả. Chính quyền sửa kế hoạch theo ý kiến cư dân; không nhầm với 反応 (phản ứng) hay cách đọc sai của 反映.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M1_02",
+          "typeId": "N2-MO-READ",
+          "category": "Mondai 1: 漢字読み",
+          "stem": "世代間の【隔たり】を縮めるには、対話の機会が必要だ。",
+          "options": [
+            {
+              "id": "A",
+              "text": "へだたり"
+            },
+            {
+              "id": "B",
+              "text": "へたり"
+            },
+            {
+              "id": "C",
+              "text": "かくたり"
+            },
+            {
+              "id": "D",
+              "text": "かたり"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "隔たり（へだたり）は、二者の間にある差や距離です。",
+          "distractorExplanations": {
+            "B": "『へだ』の一部を落としています。",
+            "C": "『かく』は音読みで、この語の読みではありません。",
+            "D": "最初の『へだ』を正しく読めていません。"
+          },
+          "targetWord": "隔たり",
+          "explanationVi": "隔たり đọc là へだたり, chỉ khoảng cách hay chênh lệch giữa hai phía; câu nói cần đối thoại để thu hẹp khác biệt giữa các thế hệ. Những cách đọc gần âm trong lựa chọn không phải âm kun chuẩn của từ này.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M1_03",
+          "typeId": "N2-MO-READ",
+          "category": "Mondai 1: 漢字読み",
+          "stem": "商店街の空き店舗が増え、地域の活気が【衰退】している。",
+          "options": [
+            {
+              "id": "A",
+              "text": "すいたい"
+            },
+            {
+              "id": "B",
+              "text": "しゅうたい"
+            },
+            {
+              "id": "C",
+              "text": "そたい"
+            },
+            {
+              "id": "D",
+              "text": "すいだい"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "衰退（すいたい）は、勢いや規模が弱くなることです。",
+          "distractorExplanations": {
+            "B": "二字の音読みを取り違えています。",
+            "C": "衰の読みは『すい』です。",
+            "D": "退は濁らず『たい』です。"
+          },
+          "targetWord": "衰退",
+          "explanationVi": "衰退 đọc là すいたい, nghĩa là suy giảm về sức sống hoặc quy mô. Cửa hàng bỏ trống tăng và sức sống khu vực yếu đi; đây không phải cách đọc しゅうたい hay すいだい.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M1_04",
+          "typeId": "N2-MO-READ",
+          "category": "Mondai 1: 漢字読み",
+          "stem": "この制度を【維持】するには、安定した財源が欠かせない。",
+          "options": [
+            {
+              "id": "A",
+              "text": "いし"
+            },
+            {
+              "id": "B",
+              "text": "いじ"
+            },
+            {
+              "id": "C",
+              "text": "いち"
+            },
+            {
+              "id": "D",
+              "text": "ゆいじ"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "維持（いじ）は、状態を保ち続けることです。",
+          "distractorExplanations": {
+            "A": "濁音を清音にした誤りです。",
+            "C": "持は『じ』です。",
+            "D": "維はこの熟語で『い』と読みます。"
+          },
+          "targetWord": "維持",
+          "explanationVi": "維持（いじ）là giữ một trạng thái tiếp tục ổn định. Muốn duy trì chế độ cần nguồn thu vững chắc; từ này không đọc ゆいじ hoặc いち.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M1_05",
+          "typeId": "N2-MO-READ",
+          "category": "Mondai 1: 漢字読み",
+          "stem": "議論の【焦点】がずれないよう、最初に論点を整理した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "しょうてん"
+            },
+            {
+              "id": "B",
+              "text": "しょうて"
+            },
+            {
+              "id": "C",
+              "text": "しょうでん"
+            },
+            {
+              "id": "D",
+              "text": "しゅうてん"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "焦点（しょうてん）は、議論などの中心となる点です。",
+          "distractorExplanations": {
+            "B": "点の『ん』が必要です。",
+            "C": "点は濁らず『てん』です。",
+            "D": "焦の読みは『しょう』です。"
+          },
+          "targetWord": "焦点",
+          "explanationVi": "焦点 đọc là しょうてん, nghĩa là trọng tâm của cuộc tranh luận. Sắp xếp luận điểm trước giúp không đi chệch trọng tâm; しゅうてん là 終点 (điểm cuối), không phải 焦点.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M2_01",
+          "typeId": "N2-MO-ORTH",
+          "category": "Mondai 2: 表記",
+          "stem": "世代間の価値観の違いを【ちょうせい】する場が設けられた。",
+          "options": [
+            {
+              "id": "A",
+              "text": "聴政"
+            },
+            {
+              "id": "B",
+              "text": "調整"
+            },
+            {
+              "id": "C",
+              "text": "調製"
+            },
+            {
+              "id": "D",
+              "text": "長勢"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "意見や条件を整える意味なので『調整』です。",
+          "distractorExplanations": {
+            "A": "聴政は政治を聴くことを指す古い語です。",
+            "C": "調製は材料を調合して作ることです。",
+            "D": "この意味の標準表記ではありません。"
+          },
+          "targetWord": "ちょうせい",
+          "explanationVi": "調整 là điều chỉnh để các giá trị hay điều kiện cân bằng hơn; buổi gặp được lập ra để dung hòa khác biệt quan niệm giữa thế hệ. 調製 là pha/chế biến, không phù hợp với điều chỉnh ý kiến.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M2_02",
+          "typeId": "N2-MO-ORTH",
+          "category": "Mondai 2: 表記",
+          "stem": "来場者が集中しないよう、入館時間を【ぶんさん】させた。",
+          "options": [
+            {
+              "id": "A",
+              "text": "分散"
+            },
+            {
+              "id": "B",
+              "text": "分担"
+            },
+            {
+              "id": "C",
+              "text": "分断"
+            },
+            {
+              "id": "D",
+              "text": "分譲"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "人の集中を避け、別々の時間に分けるので『分散』です。",
+          "distractorExplanations": {
+            "B": "分担は仕事を割り振ることです。",
+            "C": "分断はつながりを切ることです。",
+            "D": "分譲は土地や建物を分けて売ることです。"
+          },
+          "targetWord": "ぶんさん",
+          "explanationVi": "Chia giờ vào cửa thành nhiều khung để tránh mọi người đến cùng lúc là 分散 (phân tán). 分担 là chia phần trách nhiệm, còn 分断 là chia cắt thành hai phía.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M2_03",
+          "typeId": "N2-MO-ORTH",
+          "category": "Mondai 2: 表記",
+          "stem": "会議では、反対意見も含めて記録を【こうへい】に残す。",
+          "options": [
+            {
+              "id": "A",
+              "text": "公表"
+            },
+            {
+              "id": "B",
+              "text": "公平"
+            },
+            {
+              "id": "C",
+              "text": "好評"
+            },
+            {
+              "id": "D",
+              "text": "工兵"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "偏りなく記録する意味は『公平』です。",
+          "distractorExplanations": {
+            "A": "公表は外部へ発表することです。",
+            "C": "好評は高い評価を受けることです。",
+            "D": "工兵は軍隊の兵科名です。"
+          },
+          "targetWord": "こうへい",
+          "explanationVi": "Ghi cả ý kiến trái chiều một cách không thiên lệch là 公平. 公表 nghĩa là công bố ra ngoài; câu này nói cách lập biên bản công bằng, không chỉ việc công khai nó.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M2_04",
+          "typeId": "N2-MO-ORTH",
+          "category": "Mondai 2: 表記",
+          "stem": "商店街では、地域の【とくしょく】を生かした催しを開いた。",
+          "options": [
+            {
+              "id": "A",
+              "text": "特食"
+            },
+            {
+              "id": "B",
+              "text": "特職"
+            },
+            {
+              "id": "C",
+              "text": "得色"
+            },
+            {
+              "id": "D",
+              "text": "特色"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "その地域ならではの性質は『特色』です。",
+          "distractorExplanations": {
+            "A": "特食はここで使う語ではありません。",
+            "B": "この意味の標準表記ではありません。",
+            "C": "得色は一般的な表記ではありません。"
+          },
+          "targetWord": "とくしょく",
+          "explanationVi": "特色 là nét đặc trưng riêng của địa phương, được tận dụng để tổ chức lễ hội. 特食／特職／得色 không phải từ viết đúng mang nghĩa này.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M2_05",
+          "typeId": "N2-MO-ORTH",
+          "category": "Mondai 2: 表記",
+          "stem": "市は災害時の情報提供を【じゅうじつ】させる方針だ。",
+          "options": [
+            {
+              "id": "A",
+              "text": "従実"
+            },
+            {
+              "id": "B",
+              "text": "充実"
+            },
+            {
+              "id": "C",
+              "text": "重日"
+            },
+            {
+              "id": "D",
+              "text": "充日"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "内容や機能を豊かにする意味は『充実』です。",
+          "distractorExplanations": {
+            "A": "この意味の熟語として使いません。",
+            "C": "この語の表記ではありません。",
+            "D": "標準的な表記ではありません。"
+          },
+          "targetWord": "じゅうじつ",
+          "explanationVi": "災害時の情報提供を充実させる nghĩa là làm thông tin khi có thảm họa đầy đủ/hữu ích hơn. 充実 thường đi với dịch vụ, nội dung hay chức năng được cải thiện; các dạng còn lại không phải cách viết của từ.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M3_01",
+          "typeId": "N2-MO-FORM",
+          "category": "Mondai 3: 語形成",
+          "stem": "人口が減る地域では、若い世代の【（　）流出】を防ぐ施策が課題だ。",
+          "options": [
+            {
+              "id": "A",
+              "text": "人口"
+            },
+            {
+              "id": "B",
+              "text": "逆"
+            },
+            {
+              "id": "C",
+              "text": "再"
+            },
+            {
+              "id": "D",
+              "text": "未"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "人が地域の外へ移る現象は『人口流出』です。",
+          "distractorExplanations": {
+            "B": "逆流出とは言いません。",
+            "C": "再流出は一度出た人が再び出る意味となり文脈に合いません。",
+            "D": "未流出は標準的な語ではありません。"
+          },
+          "targetWord": "人口流出",
+          "explanationVi": "人口流出 là hiện tượng dân cư chuyển khỏi một khu vực, nên chính sách nhắm tới việc giữ người trẻ lại. 人口 đứng trước 流出 để tạo danh từ ghép; các lựa chọn khác không tạo thuật ngữ phù hợp.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M3_02",
+          "typeId": "N2-MO-FORM",
+          "category": "Mondai 3: 語形成",
+          "stem": "文化施設の管理を複数の団体で担う【共同（　）】が始まった。",
+          "options": [
+            {
+              "id": "A",
+              "text": "運送"
+            },
+            {
+              "id": "B",
+              "text": "運用"
+            },
+            {
+              "id": "C",
+              "text": "運営"
+            },
+            {
+              "id": "D",
+              "text": "運転"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "団体が協力して施設を管理するので『共同運営』です。",
+          "distractorExplanations": {
+            "A": "運送は物を運ぶことです。",
+            "B": "運用は仕組みを実際に使うことです。",
+            "D": "運転は機械や車を動かすことです。"
+          },
+          "targetWord": "共同運営",
+          "explanationVi": "共同運営 nghĩa là nhiều tổ chức cùng quản lý và điều hành một cơ sở văn hóa. 運営 bao gồm vận hành tổ chức/cơ sở; 運転 thường là lái xe hoặc điều khiển máy.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M3_03",
+          "typeId": "N2-MO-FORM",
+          "category": "Mondai 3: 語形成",
+          "stem": "住民の声を政策に取り入れるため、【市民（　）】の場を設けた。",
+          "options": [
+            {
+              "id": "A",
+              "text": "参照"
+            },
+            {
+              "id": "B",
+              "text": "参加"
+            },
+            {
+              "id": "C",
+              "text": "参列"
+            },
+            {
+              "id": "D",
+              "text": "参入"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "市民が議論や決定に加わることは『市民参加』です。",
+          "distractorExplanations": {
+            "A": "参照は資料などを見比べることです。",
+            "C": "参列は式典などに出席することです。",
+            "D": "参入は市場などに入ることです。"
+          },
+          "targetWord": "市民参加",
+          "explanationVi": "市民参加 là sự tham gia của người dân vào thảo luận hoặc quyết định chính sách. Cụm 市民（　）の場 nói đến nơi để cư dân góp tiếng nói, không chỉ tham dự nghi lễ hay gia nhập tổ chức.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M3_04",
+          "typeId": "N2-MO-FORM",
+          "category": "Mondai 3: 語形成",
+          "stem": "商店街では、店主と学生による【新（　）】の企画が話題になった。",
+          "options": [
+            {
+              "id": "A",
+              "text": "商業"
+            },
+            {
+              "id": "B",
+              "text": "商店"
+            },
+            {
+              "id": "C",
+              "text": "商談"
+            },
+            {
+              "id": "D",
+              "text": "商品"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "新しく売り出す品は『新商品』です。",
+          "distractorExplanations": {
+            "A": "商業は売買を行う活動全体です。",
+            "B": "新商店は新しい店を指し、品物ではありません。",
+            "C": "商談は取引についての話し合いです。"
+          },
+          "targetWord": "新商品",
+          "explanationVi": "店主 và sinh viên cùng lên kế hoạch cho sản phẩm mới, vì vậy danh từ ghép là 新商品. 新商談 là cuộc thương lượng mới, không phải mặt hàng được bán ra.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M3_05",
+          "typeId": "N2-MO-FORM",
+          "category": "Mondai 3: 語形成",
+          "stem": "複数の言語で行政情報を出す【多（　）】対応が求められる。",
+          "options": [
+            {
+              "id": "A",
+              "text": "言行"
+            },
+            {
+              "id": "B",
+              "text": "言葉"
+            },
+            {
+              "id": "C",
+              "text": "言論"
+            },
+            {
+              "id": "D",
+              "text": "言語"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "複数の言語を使うことは『多言語』です。",
+          "distractorExplanations": {
+            "A": "言行は言葉と行動です。",
+            "B": "言葉は発話や語句の意味が広く、固定語は多言語です。",
+            "C": "言論は意見を述べることです。"
+          },
+          "targetWord": "多言語",
+          "explanationVi": "多言語対応 là hỗ trợ bằng nhiều ngôn ngữ; câu nói về cung cấp thông tin hành chính cho cư dân. 言語 là ngôn ngữ, còn 言論 chỉ hoạt động phát biểu/bày tỏ ý kiến.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M4_01",
+          "typeId": "N2-MO-CONT",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "利用者の希望を聞き、複数の案から現実的な方法を（　）した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "反省"
+            },
+            {
+              "id": "B",
+              "text": "分離"
+            },
+            {
+              "id": "C",
+              "text": "圧縮"
+            },
+            {
+              "id": "D",
+              "text": "選択"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "条件に合う案を選ぶので『選択』です。",
+          "distractorExplanations": {
+            "A": "反省は自分の行為を振り返ることです。",
+            "B": "分離は一つのものを分けることです。",
+            "C": "圧縮は小さくまとめることです。"
+          },
+          "explanationVi": "Sau khi hỏi mong muốn người dùng, họ chọn phương án thực tế nhất trong vài phương án: 方法を選択する. 圧縮 là nén, 分離 là tách, còn 反省 là tự kiểm điểm.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M4_02",
+          "typeId": "N2-MO-CONT",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "駅前の工事について、利用者への説明が十分でなく、苦情が（　）した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "続出"
+            },
+            {
+              "id": "B",
+              "text": "反射"
+            },
+            {
+              "id": "C",
+              "text": "交替"
+            },
+            {
+              "id": "D",
+              "text": "維持"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "『苦情が続出した』は、苦情が次々に出たという意味です。",
+          "distractorExplanations": {
+            "B": "反射は光などが跳ね返ることです。",
+            "C": "交替は担当や位置が入れ替わることです。",
+            "D": "維持は状態を保つことです。"
+          },
+          "explanationVi": "Giải thích thiếu khiến nhiều khiếu nại xuất hiện liên tiếp; cách kết hợp tự nhiên là 苦情が続出する. 続出 diễn tả hiện tượng xảy ra dồn dập, còn 維持 hay 交替 không hợp với 苦情.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M4_03",
+          "typeId": "N2-MO-CONT",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "祭りの準備では、経験の長い人だけでなく、初参加の人の意見も（　）した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "誤解"
+            },
+            {
+              "id": "B",
+              "text": "尊重"
+            },
+            {
+              "id": "C",
+              "text": "回収"
+            },
+            {
+              "id": "D",
+              "text": "省略"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "意見を大切に扱うので『尊重』です。",
+          "distractorExplanations": {
+            "A": "誤解は意味を取り違えることです。",
+            "C": "回収は配布物などを集めることです。",
+            "D": "省略は一部を省くことです。"
+          },
+          "explanationVi": "Ban tổ chức cần coi trọng ý kiến cả người mới tham gia, vì vậy dùng 意見を尊重する. 回収 là thu hồi, 省略 là lược bỏ; cả hai không thể hiện việc lắng nghe ý kiến.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M4_04",
+          "typeId": "N2-MO-CONT",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "資料の数字だけでは判断できないため、聞き取り結果も（　）して検討した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "考慮"
+            },
+            {
+              "id": "B",
+              "text": "解消"
+            },
+            {
+              "id": "C",
+              "text": "拒否"
+            },
+            {
+              "id": "D",
+              "text": "予測"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "別の情報も判断材料に含めるので『考慮』です。",
+          "distractorExplanations": {
+            "B": "解消は問題などをなくすことです。",
+            "C": "拒否は受け入れないことです。",
+            "D": "予測は先のことを見積もることです。"
+          },
+          "explanationVi": "Ngoài con số, nhóm đưa kết quả phỏng vấn vào làm căn cứ khi xem xét: 聞き取り結果も考慮する. 考慮 nghĩa là cân nhắc; 予測 là dự đoán chứ không phải tính đến dữ liệu đã thu.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M4_05",
+          "typeId": "N2-MO-CONT",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "担当者が変わるたびに手続きが異なる状態を、共通の手順で（　）した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "拡張"
+            },
+            {
+              "id": "B",
+              "text": "延期"
+            },
+            {
+              "id": "C",
+              "text": "分裂"
+            },
+            {
+              "id": "D",
+              "text": "統一"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "ばらつきを同じ手順にそろえるので『統一』です。",
+          "distractorExplanations": {
+            "A": "拡張は範囲を広げることです。",
+            "B": "延期は予定を後にずらすことです。",
+            "C": "分裂は一つのものが分かれることです。"
+          },
+          "explanationVi": "Quy trình thay đổi theo người phụ trách được thay bằng một thủ tục chung, tức là 統一する. 拡張 làm rộng thêm và 分裂 làm chia rẽ, đều không giải quyết sự thiếu nhất quán.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M4_06",
+          "typeId": "N2-MO-CONT",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "対立する意見の背景を聞いたことで、議論の目的が少しずつ（　）になった。",
+          "options": [
+            {
+              "id": "A",
+              "text": "平等"
+            },
+            {
+              "id": "B",
+              "text": "明確"
+            },
+            {
+              "id": "C",
+              "text": "大量"
+            },
+            {
+              "id": "D",
+              "text": "急速"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "目的がはっきりしてきたので『明確』です。",
+          "distractorExplanations": {
+            "A": "平等は差をつけないことです。",
+            "C": "大量は量が多いことです。",
+            "D": "急速は進み方が速いことです。"
+          },
+          "explanationVi": "Nghe lý do đằng sau bất đồng giúp mục đích cuộc thảo luận dần rõ hơn: 目的が明確になる. 平等 là bình đẳng và 大量 là số lượng lớn, không mô tả mức độ rõ ràng.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M4_07",
+          "typeId": "N2-MO-CONT",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "この制度は一部の人に負担が偏る可能性があり、導入には慎重な（　）が必要だ。",
+          "options": [
+            {
+              "id": "A",
+              "text": "分配"
+            },
+            {
+              "id": "B",
+              "text": "到着"
+            },
+            {
+              "id": "C",
+              "text": "判断"
+            },
+            {
+              "id": "D",
+              "text": "観察"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "利害やリスクを考えて決定するため『判断』です。",
+          "distractorExplanations": {
+            "A": "分配は物や役割を分けることです。",
+            "B": "到着は目的地に着くことです。",
+            "D": "観察は様子を注意して見ることです。"
+          },
+          "explanationVi": "Vì chế độ có thể dồn gánh nặng lên một nhóm, cần cân nhắc thận trọng trước khi áp dụng: 慎重な判断. 判断 là quyết định sau khi xem lợi ích/rủi ro; 観察 chỉ là quan sát.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M5_01",
+          "typeId": "N2-MO-PARA",
+          "category": "Mondai 5: 言い換え類義",
+          "stem": "市は住民の要望を【踏まえて】、案内方法を見直した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "先送りして"
+            },
+            {
+              "id": "B",
+              "text": "参考にして"
+            },
+            {
+              "id": "C",
+              "text": "取り消して"
+            },
+            {
+              "id": "D",
+              "text": "反対して"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "踏まえては、事情や意見を考慮して行動することです。",
+          "distractorExplanations": {
+            "A": "先送りしては決定を後に延ばす意味です。",
+            "C": "取り消しては決定を無効にする意味です。",
+            "D": "反対しては意見を受け入れない意味です。"
+          },
+          "explanationVi": "踏まえて nghĩa là cân nhắc một sự kiện/ý kiến làm nền trước khi hành động. Thành phố tham khảo nguyện vọng cư dân rồi sửa cách hướng dẫn; từ này không có nghĩa hủy bỏ hay phản đối.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M5_02",
+          "typeId": "N2-MO-PARA",
+          "category": "Mondai 5: 言い換え類義",
+          "stem": "参加者の意見を【募った】ところ、多くの提案が寄せられた。",
+          "options": [
+            {
+              "id": "A",
+              "text": "細かく分けた"
+            },
+            {
+              "id": "B",
+              "text": "一つにまとめた"
+            },
+            {
+              "id": "C",
+              "text": "厳しく批判した"
+            },
+            {
+              "id": "D",
+              "text": "広く集めた"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "募るは広く呼びかけて集めることです。",
+          "distractorExplanations": {
+            "A": "分けたは分類・分割することです。",
+            "B": "まとめたは複数を整理して一つにすることです。",
+            "C": "批判したは問題点を指摘することです。"
+          },
+          "explanationVi": "募る là kêu gọi rộng rãi để thu thập người, ý kiến hoặc đơn đăng ký. Sau khi hỏi ý kiến người tham gia, nhiều đề xuất được gửi đến; không phải gộp hay phê bình chúng.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M5_03",
+          "typeId": "N2-MO-PARA",
+          "category": "Mondai 5: 言い換え類義",
+          "stem": "旧来の制度を【見直す】時期に来ている。",
+          "options": [
+            {
+              "id": "A",
+              "text": "そのまま続ける"
+            },
+            {
+              "id": "B",
+              "text": "早く知らせる"
+            },
+            {
+              "id": "C",
+              "text": "改めて検討する"
+            },
+            {
+              "id": "D",
+              "text": "完全に廃止する"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "見直すはもう一度検討し、必要なら改めることです。",
+          "distractorExplanations": {
+            "A": "続けるだけでは再検討を含みません。",
+            "B": "知らせるは伝達で意味が違います。",
+            "D": "廃止は見直しの一つの結論にすぎません。"
+          },
+          "explanationVi": "見直す nghĩa là xem xét lại một lần nữa và có thể sửa nếu cần. Câu nói đã đến lúc đánh giá lại chế độ cũ, chứ không hàm ý tiếp tục nguyên trạng hoặc chắc chắn xóa bỏ hoàn toàn.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M5_04",
+          "typeId": "N2-MO-PARA",
+          "category": "Mondai 5: 言い換え類義",
+          "stem": "二つの案には、費用の面で【大差がない】。",
+          "options": [
+            {
+              "id": "A",
+              "text": "大きな違いがない"
+            },
+            {
+              "id": "B",
+              "text": "費用がかからない"
+            },
+            {
+              "id": "C",
+              "text": "片方が優れている"
+            },
+            {
+              "id": "D",
+              "text": "同じ目的がない"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "大差がないは差が大きくないという意味です。",
+          "distractorExplanations": {
+            "B": "費用がゼロだとは言っていません。",
+            "C": "優劣の結論はありません。",
+            "D": "目的の一致は述べていません。"
+          },
+          "explanationVi": "大差がない nghĩa là không có chênh lệch lớn. Cụm の面で giới hạn so sánh vào chi phí; hai phương án vẫn có thể khác nhau ở điểm khác.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M5_05",
+          "typeId": "N2-MO-PARA",
+          "category": "Mondai 5: 言い換え類義",
+          "stem": "説明会の参加者は、予想を【上回った】。",
+          "options": [
+            {
+              "id": "A",
+              "text": "予想を取り消した"
+            },
+            {
+              "id": "B",
+              "text": "予想に届かなかった"
+            },
+            {
+              "id": "C",
+              "text": "予想より多かった"
+            },
+            {
+              "id": "D",
+              "text": "予想と同じだった"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "上回るは基準・予想より多い、または高いことです。",
+          "distractorExplanations": {
+            "A": "予想を取り消す意味ではありません。",
+            "B": "届かなかったは反対の関係です。",
+            "D": "同じなら上回ったとは言いません。"
+          },
+          "explanationVi": "上回る là vượt quá một mốc hoặc dự đoán. Số người đến buổi giải thích cao hơn dự kiến; không phải dự báo bị hủy hay không đạt tới.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M6_01",
+          "typeId": "N2-MO-USE",
+          "category": "Mondai 6: 用法",
+          "stem": "『促す』の使い方として最もよいものはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "会議の開始時刻を促して午後に変更した。"
+            },
+            {
+              "id": "B",
+              "text": "係員は列が進むよう、次の人に前へ進むことを促した。"
+            },
+            {
+              "id": "C",
+              "text": "彼は本を促して棚に戻した。"
+            },
+            {
+              "id": "D",
+              "text": "雨が降ったので、道路が促してぬれた。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "促すは相手に行動するよう働きかけることで、Aが自然です。",
+          "distractorExplanations": {
+            "A": "時刻変更は促すの目的語になりません。",
+            "C": "本を棚に戻す動作には使いません。",
+            "D": "道路がぬれる原因を『促す』とは言いません。"
+          },
+          "explanationVi": "促す là thúc đẩy người khác làm gì đó; nhân viên nhắc người tiếp theo tiến lên để hàng di chuyển. Mưa, quyển sách hay giờ họp không phải tác nhân/người được yêu cầu hành động theo các câu nhiễu.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M6_02",
+          "typeId": "N2-MO-USE",
+          "category": "Mondai 6: 用法",
+          "stem": "『偏る』の使い方として最もよいものはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "この調査は若い世代の回答に偏っている。"
+            },
+            {
+              "id": "B",
+              "text": "机の上の紙が偏って読めた。"
+            },
+            {
+              "id": "C",
+              "text": "彼は駅へ偏って歩いた。"
+            },
+            {
+              "id": "D",
+              "text": "会議は六時に偏って始まった。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "偏るは一方に集中してバランスを欠くことで、Aが適切です。",
+          "distractorExplanations": {
+            "B": "読める状態を表しません。",
+            "C": "移動先を表す動詞ではありません。",
+            "D": "時刻に始まる意味では使いません。"
+          },
+          "explanationVi": "偏る nghĩa là tập trung lệch về một phía, thiếu cân bằng. Câu nói mẫu khảo sát nghiêng về câu trả lời của người trẻ; không dùng từ này để chỉ hướng đi hay thời điểm bắt đầu.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M6_03",
+          "typeId": "N2-MO-USE",
+          "category": "Mondai 6: 用法",
+          "stem": "『担う』の使い方として最もよいものはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "地域の防災を担う団体が、訓練を企画した。"
+            },
+            {
+              "id": "B",
+              "text": "道の角を担って右へ曲がった。"
+            },
+            {
+              "id": "C",
+              "text": "寒さを担って上着を着た。"
+            },
+            {
+              "id": "D",
+              "text": "資料を担って読めるようにした。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "担うは責任・役割を引き受けることで、Aが自然です。",
+          "distractorExplanations": {
+            "B": "曲がる方向を示しません。",
+            "C": "寒さを感じることに使いません。",
+            "D": "資料を読む行為とも結びつきません。"
+          },
+          "explanationVi": "担う diễn tả việc gánh một vai trò/trách nhiệm. Tổ chức đảm nhận công tác phòng chống thiên tai cho khu vực và lên kế hoạch diễn tập; các câu khác dùng 担う sai đối tượng.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M6_04",
+          "typeId": "N2-MO-USE",
+          "category": "Mondai 6: 用法",
+          "stem": "『見込む』の使い方として最もよいものはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "会場を見込んで祭りを始めた。"
+            },
+            {
+              "id": "B",
+              "text": "彼は窓を見込んで閉めた。"
+            },
+            {
+              "id": "C",
+              "text": "市は来年度、利用者が増えると見込んでいる。"
+            },
+            {
+              "id": "D",
+              "text": "係員は切符を見込んで改札を通った。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "見込むは将来の数量・状況を予想することで、Aが適切です。",
+          "distractorExplanations": {
+            "A": "会場を準備する意味でもありません。",
+            "B": "窓を見る意味は『見込む』ではありません。",
+            "D": "切符を使う意味ではありません。"
+          },
+          "explanationVi": "見込む ở đây là dự đoán số người dùng sẽ tăng trong năm tới. Thành phố đưa ra kỳ vọng tương lai; 見込む không có nghĩa nhìn/chọn hội trường, cửa sổ hay vé.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M6_05",
+          "typeId": "N2-MO-USE",
+          "category": "Mondai 6: 用法",
+          "stem": "『和らぐ』の使い方として最もよいものはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "彼は意見を和らいで提出した。"
+            },
+            {
+              "id": "B",
+              "text": "橋が和らいで渡りやすくなった。"
+            },
+            {
+              "id": "C",
+              "text": "荷物を和らいで運んだ。"
+            },
+            {
+              "id": "D",
+              "text": "話し合いの後、両者の緊張が少し和らいだ。"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "和らぐは緊張・痛み・気候などの程度が弱くなることです。",
+          "distractorExplanations": {
+            "A": "意見を柔らかくするなら『和らげる』などを使います。",
+            "B": "橋の構造には使いません。",
+            "C": "荷物を運ぶ動作には使いません。"
+          },
+          "explanationVi": "和らぐ là tự giảm nhẹ về cường độ, như căng thẳng, đau hay thời tiết. Sau buổi nói chuyện, căng thẳng giữa hai bên dịu đi; không dùng dạng tự động này với ý kiến hay hàng hóa.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M7_01",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "住民の意見を聞く（　）、計画の弱点が見えてきた。",
+          "options": [
+            {
+              "id": "A",
+              "text": "にとって"
+            },
+            {
+              "id": "B",
+              "text": "につれて"
+            },
+            {
+              "id": "C",
+              "text": "に先立って"
+            },
+            {
+              "id": "D",
+              "text": "を問わず"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "聞き取りの進行とともに変化したので『につれて』です。",
+          "distractorExplanations": {
+            "A": "立場・評価の基準になりません。",
+            "C": "前に行う意味ではありません。",
+            "D": "条件に関係しない意味ではありません。"
+          },
+          "explanationVi": "につれて nối hai thay đổi diễn ra song song: càng nghe ý kiến cư dân, điểm yếu của kế hoạch càng lộ ra. に先立って là làm trước, không biểu đạt sự tiến triển đồng thời.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M7_02",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "観光客が増える（　）、ごみの量も増加した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "に伴って"
+            },
+            {
+              "id": "B",
+              "text": "をめぐって"
+            },
+            {
+              "id": "C",
+              "text": "に限って"
+            },
+            {
+              "id": "D",
+              "text": "に反して"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "観光客が増える変化に伴ってごみも増えたので、『に伴って』です。",
+          "distractorExplanations": {
+            "B": "論争の対象ではありません。",
+            "C": "範囲限定ではありません。",
+            "D": "期待と反対ではありません。"
+          },
+          "explanationVi": "に伴って nêu sự thay đổi kéo theo một thay đổi khác: lượng khách tăng và lượng rác cũng tăng. に反して là trái với, còn をめぐって chỉ chủ đề tranh luận.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M7_03",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "この祭りは、地元の人（　）、近隣の市からも参加者が来る。",
+          "options": [
+            {
+              "id": "A",
+              "text": "に限らず"
+            },
+            {
+              "id": "B",
+              "text": "に際して"
+            },
+            {
+              "id": "C",
+              "text": "に応じて"
+            },
+            {
+              "id": "D",
+              "text": "に先立ち"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "地元の人だけでなく、という追加なので『に限らず』です。",
+          "distractorExplanations": {
+            "B": "機会・時点を示しません。",
+            "C": "状況に応じた変化ではありません。",
+            "D": "前後関係ではありません。"
+          },
+          "explanationVi": "地元の人に限らず、近隣の市からも nghĩa là không chỉ cư dân địa phương mà người từ thành phố lân cận cũng đến. Đây là mở rộng phạm vi, không nói thời điểm hay tiêu chí thay đổi.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M7_04",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "どの世代の人（　）、分かりやすい案内が必要だ。",
+          "options": [
+            {
+              "id": "A",
+              "text": "を契機に"
+            },
+            {
+              "id": "B",
+              "text": "にしては"
+            },
+            {
+              "id": "C",
+              "text": "に限って"
+            },
+            {
+              "id": "D",
+              "text": "にとっても"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "どの人にもという意味なので『にとっても』です。",
+          "distractorExplanations": {
+            "A": "きっかけを表しません。",
+            "B": "基準との意外さではありません。",
+            "C": "特定の場合だけではありません。"
+          },
+          "explanationVi": "どの世代の人にとっても diễn đạt rằng hướng dẫn dễ hiểu cần thiết đối với mọi thế hệ. にとって đánh dấu đối tượng mà điều gì đó có ý nghĩa/nhu cầu; に限って sẽ giới hạn vào một nhóm.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M7_05",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "調査に協力してもらう（　）、目的と個人情報の扱いを説明した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "にあたって"
+            },
+            {
+              "id": "B",
+              "text": "にしたがって"
+            },
+            {
+              "id": "C",
+              "text": "に限り"
+            },
+            {
+              "id": "D",
+              "text": "に反して"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "協力を依頼する機会に際して説明したので『にあたって』です。",
+          "distractorExplanations": {
+            "B": "順序・変化の対応ではありません。",
+            "C": "対象の限定ではありません。",
+            "D": "予想に反する意味ではありません。"
+          },
+          "explanationVi": "にあたって nghĩa là vào dịp/bước chuẩn bị thực hiện một việc. Trước khi nhờ người dân tham gia khảo sát, nhóm giải thích mục đích và cách xử lý dữ liệu cá nhân.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M7_06",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "結論を急ぐ（　）、異なる立場の意見も確かめるべきだ。",
+          "options": [
+            {
+              "id": "A",
+              "text": "にしたって"
+            },
+            {
+              "id": "B",
+              "text": "どころか"
+            },
+            {
+              "id": "C",
+              "text": "ことなく"
+            },
+            {
+              "id": "D",
+              "text": "からには"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "急がずにという意味の『ことなく』が自然です。",
+          "distractorExplanations": {
+            "A": "口語的な譲歩になりません。",
+            "B": "程度が予想を超える意味ではありません。",
+            "D": "決意や責任の前提ではありません。"
+          },
+          "explanationVi": "急ぐことなく là không vội kết luận; ことなく gắn với dạng từ điển để nói làm việc gì mà không làm việc khác. Câu khuyên kiểm tra quan điểm khác thay vì kết luận hấp tấp.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M7_07",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "制度を変更する（　）、利用者への説明を先に行う。",
+          "options": [
+            {
+              "id": "A",
+              "text": "とともに"
+            },
+            {
+              "id": "B",
+              "text": "に伴って"
+            },
+            {
+              "id": "C",
+              "text": "に限って"
+            },
+            {
+              "id": "D",
+              "text": "に先立って"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "変更の前に説明するので『に先立って』です。",
+          "distractorExplanations": {
+            "A": "同時進行の意味ではありません。",
+            "B": "同時の変化ではありません。",
+            "C": "対象限定ではありません。"
+          },
+          "explanationVi": "に先立って chỉ việc làm trước một sự kiện khác. Trước khi đổi chế độ, cần giải thích cho người dùng; に伴って nói việc đồng thời đi kèm, không làm rõ trình tự trước-sau.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M7_08",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "便利さを優先する（　）、支援を必要とする人が使えなくなる場合もある。",
+          "options": [
+            {
+              "id": "A",
+              "text": "あげく"
+            },
+            {
+              "id": "B",
+              "text": "にすぎず"
+            },
+            {
+              "id": "C",
+              "text": "からには"
+            },
+            {
+              "id": "D",
+              "text": "一方で"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "利点とは別の側面を対比するので『一方で』です。",
+          "distractorExplanations": {
+            "A": "長い行為の末の悪い結果ではありません。",
+            "B": "単なる限定ではありません。",
+            "C": "責任の前提ではありません。"
+          },
+          "explanationVi": "一方で đặt hai mặt cạnh nhau: ưu tiên sự tiện lợi, mặt khác người cần hỗ trợ có thể không dùng được. Câu nêu hệ quả trái chiều, không nói về điều kiện hay kết quả cuối của một chuỗi dài.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M7_09",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "住民が参加しやすい（　）、会場と時間を見直した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "ように"
+            },
+            {
+              "id": "B",
+              "text": "ものの"
+            },
+            {
+              "id": "C",
+              "text": "ばかりに"
+            },
+            {
+              "id": "D",
+              "text": "どころか"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "参加しやすい状態を目的とするので『ように』です。",
+          "distractorExplanations": {
+            "B": "逆接ではありません。",
+            "C": "後悔を招く原因ではありません。",
+            "D": "期待に反する程度ではありません。"
+          },
+          "explanationVi": "住民が参加しやすいように nghĩa là xem lại địa điểm và giờ để cư dân dễ tham gia. ように nêu mục tiêu; ものの là mặc dù, không phù hợp với hành động có chủ đích phía sau.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M7_10",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "計画の内容を十分に説明しない（　）、合意を得ることは難しい。",
+          "options": [
+            {
+              "id": "A",
+              "text": "からこそ"
+            },
+            {
+              "id": "B",
+              "text": "にしても"
+            },
+            {
+              "id": "C",
+              "text": "たとたん"
+            },
+            {
+              "id": "D",
+              "text": "ことには"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "説明がなければ成立しない条件なので『ないことには』です。",
+          "distractorExplanations": {
+            "A": "理由を強調する形ではありません。",
+            "B": "譲歩ではありません。",
+            "C": "直後の出来事ではありません。"
+          },
+          "explanationVi": "ないことには nêu điều kiện không thể thiếu: nếu không giải thích đầy đủ thì khó đạt đồng thuận. Cấu trúc phủ định này nối tự nhiên với 難しい; からこそ nhấn mạnh lý do chứ không phải điều kiện.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M7_11",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "反対意見が出た（　）、担当者は議論を続ける時間を設けた。",
+          "options": [
+            {
+              "id": "A",
+              "text": "を問わず"
+            },
+            {
+              "id": "B",
+              "text": "にしたがい"
+            },
+            {
+              "id": "C",
+              "text": "ことから"
+            },
+            {
+              "id": "D",
+              "text": "に先立ち"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "反対意見を理由として対応したので『ことから』です。",
+          "distractorExplanations": {
+            "A": "条件に関係しない意味ではありません。",
+            "B": "変化の対応ではありません。",
+            "D": "前後関係ではありません。"
+          },
+          "explanationVi": "反対意見が出たことから nghĩa là vì có ý kiến phản đối nên người phụ trách dành thêm thời gian. ことから nêu nguyên nhân/căn cứ của hành động.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M7_12",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "説明会に出席した（　）、制度を理解できたとは限らない。",
+          "options": [
+            {
+              "id": "A",
+              "text": "以上は"
+            },
+            {
+              "id": "B",
+              "text": "からといって"
+            },
+            {
+              "id": "C",
+              "text": "だけあって"
+            },
+            {
+              "id": "D",
+              "text": "にしたがって"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "出席だけで理解を断定できない部分否定です。",
+          "distractorExplanations": {
+            "A": "責任・決意の前提ではありません。",
+            "C": "期待通りの結果ではありません。",
+            "D": "連動変化ではありません。"
+          },
+          "explanationVi": "からといって ngăn suy luận quá mức: chỉ vì đã dự buổi giải thích không có nghĩa là chắc chắn hiểu chế độ. Phần sau phủ định khả năng khái quát, nên không dùng だけあって (quả đúng là).",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M8_01",
+          "typeId": "N2-GR-STAR",
+          "category": "Mondai 8: 文の組み立て",
+          "stem": "地域の祭りを次世代に引き継ぐには、（　）（　）★（　）大切だ。",
+          "options": [
+            {
+              "id": "A",
+              "text": "ことが"
+            },
+            {
+              "id": "B",
+              "text": "行事の意味を"
+            },
+            {
+              "id": "C",
+              "text": "子どもたちに伝える"
+            },
+            {
+              "id": "D",
+              "text": "地域で受け継がれてきた"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "『地域で受け継がれてきた行事の意味を子どもたちに伝えること』とつながります。三番目は『子どもたちに伝える』です。",
+          "distractorExplanations": {
+            "A": "ことがは意図した語順（A→B→C→D）でこの位置に置かれません。",
+            "B": "行事の意味をは意図した語順（A→B→C→D）でこの位置に置かれません。",
+            "D": "地域で受け継がれてきたは意図した語順（A→B→C→D）でこの位置に置かれません。"
+          },
+          "starPosition": 3,
+          "assembledSentence": "地域の祭りを次世代に引き継ぐには、地域で受け継がれてきた行事の意味を子どもたちに伝えることが大切だ。",
+          "fragmentOrder": "D→B→C→A",
+          "explanationVi": "Thứ tự là 地域で受け継がれてきた → 行事の意味を → 子どもたちに伝える → ことが. Cụm đầu bổ nghĩa cho 行事; を đánh dấu ý nghĩa cần truyền đạt, rồi こと danh hóa hành động trước 大切だ. Mảnh ★ là 「子どもたちに伝える」: truyền lại ý nghĩa lễ hội cho trẻ em.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M8_02",
+          "typeId": "N2-GR-STAR",
+          "category": "Mondai 8: 文の組み立て",
+          "stem": "異なる意見をまとめる際は、（　）（　）★（　）欠かせない。",
+          "options": [
+            {
+              "id": "A",
+              "text": "結論を急がず"
+            },
+            {
+              "id": "B",
+              "text": "背景を"
+            },
+            {
+              "id": "C",
+              "text": "姿勢が"
+            },
+            {
+              "id": "D",
+              "text": "確かめる"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "『背景を確かめる姿勢』となる順です。三番目は『確かめる』です。",
+          "distractorExplanations": {
+            "A": "結論を急がずは意図した語順（A→B→C→D）でこの位置に置かれません。",
+            "B": "背景をは意図した語順（A→B→C→D）でこの位置に置かれません。",
+            "C": "姿勢がは意図した語順（A→B→C→D）でこの位置に置かれません。"
+          },
+          "starPosition": 3,
+          "assembledSentence": "異なる意見をまとめる際は、結論を急がず背景を確かめる姿勢が欠かせない。",
+          "fragmentOrder": "A→B→D→C",
+          "explanationVi": "Thứ tự là 結論を急がず → 背景を → 確かめる → 姿勢が. ず nối “không vội kết luận” với hành động kiểm tra bối cảnh; 背景を là tân ngữ của 確かめる. Mảnh ★ là 「確かめる」; cần xác minh bối cảnh trước khi tổng hợp ý kiến.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M8_03",
+          "typeId": "N2-GR-STAR",
+          "category": "Mondai 8: 文の組み立て",
+          "stem": "分析結果を正しく解釈するには、（　）（　）★（　）。",
+          "options": [
+            {
+              "id": "A",
+              "text": "回答者が"
+            },
+            {
+              "id": "B",
+              "text": "どの質問に答えたかを"
+            },
+            {
+              "id": "C",
+              "text": "調査記録に残す"
+            },
+            {
+              "id": "D",
+              "text": "必要がある"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "『回答者がどの質問に答えたかを調査記録に残す必要がある』とつながります。三番目は『調査記録に残す』です。",
+          "distractorExplanations": {
+            "A": "回答者がは意図した語順（A→B→C→D）でこの位置に置かれません。",
+            "B": "どの質問に答えたかをは意図した語順（A→B→C→D）でこの位置に置かれません。",
+            "D": "必要があるは意図した語順（A→B→C→D）でこの位置に置かれません。"
+          },
+          "starPosition": 3,
+          "assembledSentence": "分析結果を正しく解釈するには、回答者がどの質問に答えたかを調査記録に残す必要がある。",
+          "fragmentOrder": "A→B→C→D",
+          "explanationVi": "Thứ tự là 回答者が → どの質問に答えたかを → 調査記録に残す → 必要がある. か biến câu hỏi gián tiếp thành nội dung cần ghi, を đánh dấu nội dung đó; động từ 残す đứng trước 必要がある. Mảnh ★ là 「調査記録に残す」.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M8_04",
+          "typeId": "N2-GR-STAR",
+          "category": "Mondai 8: 文の組み立て",
+          "stem": "議論の経過を後から検証できるようにするには、（　）（　）★（　）大切だ。",
+          "options": [
+            {
+              "id": "A",
+              "text": "議事録に残しておく"
+            },
+            {
+              "id": "B",
+              "text": "ことが"
+            },
+            {
+              "id": "C",
+              "text": "反対意見も"
+            },
+            {
+              "id": "D",
+              "text": "住民が述べた"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "『住民が述べた反対意見も議事録に残しておくこと』とつながります。三番目は『議事録に残しておく』です。",
+          "distractorExplanations": {
+            "B": "ことがは意図した語順（A→B→C→D）でこの位置に置かれません。",
+            "C": "反対意見もは意図した語順（A→B→C→D）でこの位置に置かれません。",
+            "D": "住民が述べたは意図した語順（A→B→C→D）でこの位置に置かれません。"
+          },
+          "starPosition": 3,
+          "assembledSentence": "議論の経過を後から検証できるようにするには、住民が述べた反対意見も議事録に残しておくことが大切だ。",
+          "fragmentOrder": "D→C→A→B",
+          "explanationVi": "Thứ tự là 住民が述べた → 反対意見も → 議事録に残しておく → ことが. Mệnh đề đầu bổ nghĩa cho ý kiến; も nhấn mạnh cả ý kiến phản đối cũng cần lưu. Mảnh ★ là 「議事録に残しておく」 để kiểm chứng diễn biến tranh luận sau này.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M8_05",
+          "typeId": "N2-GR-STAR",
+          "category": "Mondai 8: 文の組み立て",
+          "stem": "多数決に進む前に、（　）（　）★（　）必要がある。",
+          "options": [
+            {
+              "id": "A",
+              "text": "それぞれの主張を"
+            },
+            {
+              "id": "B",
+              "text": "支える根拠を"
+            },
+            {
+              "id": "C",
+              "text": "論点を整理する"
+            },
+            {
+              "id": "D",
+              "text": "比較して"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "『主張を支える根拠を比較して論点を整理する』の順で、三番目は『比較して』です。",
+          "distractorExplanations": {
+            "A": "それぞれの主張をは意図した語順（A→B→C→D）でこの位置に置かれません。",
+            "B": "支える根拠をは意図した語順（A→B→C→D）でこの位置に置かれません。",
+            "C": "論点を整理するは意図した語順（A→B→C→D）でこの位置に置かれません。"
+          },
+          "starPosition": 3,
+          "assembledSentence": "多数決に進む前に、それぞれの主張を支える根拠を比較して論点を整理する必要がある。",
+          "fragmentOrder": "A→B→D→C",
+          "explanationVi": "Thứ tự là それぞれの主張を → 支える根拠を → 比較して → 論点を整理する. 根拠を là tân ngữ của 比較する; て nối việc so sánh với việc sắp xếp luận điểm. Mảnh ★ là 「比較して」; không nên biểu quyết trước khi đối chiếu lý lẽ.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M9_01",
+          "typeId": "N2-GR-PARA",
+          "category": "Mondai 9: 文章文法",
+          "stem": "空欄（1）に入れる表現として、文章全体の論理に最も合うものはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "というわけではない"
+            },
+            {
+              "id": "B",
+              "text": "ことになっている"
+            },
+            {
+              "id": "C",
+              "text": "にほかならない"
+            },
+            {
+              "id": "D",
+              "text": "といったところだ"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "外部専門家だけで十分とは言えない部分否定です。",
+          "distractorExplanations": {
+            "B": "決定済みの予定ではありません。",
+            "C": "強い断定になりません。",
+            "D": "おおよその程度を示す意味ではありません。"
+          },
+          "passage": "地域の課題を解決するとき、外から来た専門家の意見だけに頼ればよい（ 1 ）。長く暮らす住民は、統計には表れにくい季節ごとの変化や、以前に試した方法の結果を知っている。一方で、住民の経験が常に正しい（ 2 ）。思い込みや限られた経験によって、別の集団の事情が見落とされることもあるからだ。だからこそ、データと現場の声を（ 3 ）検討し、異なる説明があれば、その違いが生まれた背景を確かめたい。結論を急ぐ（ 4 ）、試行の規模を小さくし、結果を見ながら計画を調整する方法もある。こうした手順を通じて、当事者が納得できる形で決定を（ 5 ）ことができる。",
+          "explanationVi": "Ở (1), 専門家の意見だけに頼ればよいというわけではない nói rằng không thể chỉ dựa vào chuyên gia bên ngoài. Câu sau giải thích cư dân hiểu biến đổi địa phương mà thống kê khó thể hiện, nên cần dung hòa hai nguồn.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M9_02",
+          "typeId": "N2-GR-PARA",
+          "category": "Mondai 9: 文章文法",
+          "stem": "空欄（2）に入れ、住民の経験への留保を示すものはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "にほかならない"
+            },
+            {
+              "id": "B",
+              "text": "にすぎない"
+            },
+            {
+              "id": "C",
+              "text": "とは限らない"
+            },
+            {
+              "id": "D",
+              "text": "に違いない"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "住民の経験が常に正しいとは限らない、という留保です。",
+          "distractorExplanations": {
+            "A": "強い同定ではありません。",
+            "B": "程度の限定ではありません。",
+            "D": "強い推量ではありません。"
+          },
+          "passage": "地域の課題を解決するとき、外から来た専門家の意見だけに頼ればよい（ 1 ）。長く暮らす住民は、統計には表れにくい季節ごとの変化や、以前に試した方法の結果を知っている。一方で、住民の経験が常に正しい（ 2 ）。思い込みや限られた経験によって、別の集団の事情が見落とされることもあるからだ。だからこそ、データと現場の声を（ 3 ）検討し、異なる説明があれば、その違いが生まれた背景を確かめたい。結論を急ぐ（ 4 ）、試行の規模を小さくし、結果を見ながら計画を調整する方法もある。こうした手順を通じて、当事者が納得できる形で決定を（ 5 ）ことができる。",
+          "explanationVi": "Ở (2), 住民の経験が常に正しいとは限らない đặt giới hạn cho giá trị của kinh nghiệm địa phương. Đoạn tiếp nêu thiên kiến có thể khiến bỏ sót nhóm khác, nên không thể khẳng định kinh nghiệm luôn đúng.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M9_03",
+          "typeId": "N2-GR-PARA",
+          "category": "Mondai 9: 文章文法",
+          "stem": "空欄（3）に入れ、データと現場の声を比べる意味を表すものはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "切り離して"
+            },
+            {
+              "id": "B",
+              "text": "照らし合わせて"
+            },
+            {
+              "id": "C",
+              "text": "差し控えて"
+            },
+            {
+              "id": "D",
+              "text": "問い直して"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "データと現場の声を比較・確認するので『照らし合わせて』です。",
+          "distractorExplanations": {
+            "A": "別々に扱うと文意に合いません。",
+            "C": "行為を控える意味です。",
+            "D": "問いを再設定する意味で、ここでは情報比較を表しません。"
+          },
+          "passage": "地域の課題を解決するとき、外から来た専門家の意見だけに頼ればよい（ 1 ）。長く暮らす住民は、統計には表れにくい季節ごとの変化や、以前に試した方法の結果を知っている。一方で、住民の経験が常に正しい（ 2 ）。思い込みや限られた経験によって、別の集団の事情が見落とされることもあるからだ。だからこそ、データと現場の声を（ 3 ）検討し、異なる説明があれば、その違いが生まれた背景を確かめたい。結論を急ぐ（ 4 ）、試行の規模を小さくし、結果を見ながら計画を調整する方法もある。こうした手順を通じて、当事者が納得できる形で決定を（ 5 ）ことができる。",
+          "explanationVi": "照らし合わせて nghĩa là đặt hai nguồn cạnh nhau để đối chiếu. Câu yêu cầu so sánh dữ liệu với tiếng nói tại hiện trường, rồi tìm lý do nếu chúng khác nhau; 切り離す (tách rời) trái với mục đích đó.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M9_04",
+          "typeId": "N2-GR-PARA",
+          "category": "Mondai 9: 文章文法",
+          "stem": "空欄（4）の後に続く提案を自然につなぐ表現はどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "末に"
+            },
+            {
+              "id": "B",
+              "text": "ことなく"
+            },
+            {
+              "id": "C",
+              "text": "どころか"
+            },
+            {
+              "id": "D",
+              "text": "ばかりに"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "『結論を急ぐことなく』は、急いで結論を出さずに進める意味です。",
+          "distractorExplanations": {
+            "A": "長い過程の結末ではありません。",
+            "C": "むしろ逆という意味ではありません。",
+            "D": "不注意が招いた悪い結果ではありません。"
+          },
+          "passage": "地域の課題を解決するとき、外から来た専門家の意見だけに頼ればよい（ 1 ）。長く暮らす住民は、統計には表れにくい季節ごとの変化や、以前に試した方法の結果を知っている。一方で、住民の経験が常に正しい（ 2 ）。思い込みや限られた経験によって、別の集団の事情が見落とされることもあるからだ。だからこそ、データと現場の声を（ 3 ）検討し、異なる説明があれば、その違いが生まれた背景を確かめたい。結論を急ぐ（ 4 ）、試行の規模を小さくし、結果を見ながら計画を調整する方法もある。こうした手順を通じて、当事者が納得できる形で決定を（ 5 ）ことができる。",
+          "explanationVi": "結論を急ぐことなく nghĩa là không vội kết luận; thay vào đó có thể thử ở quy mô nhỏ rồi điều chỉnh theo kết quả. ことなく nối đúng với hành động tích cực thử nghiệm và điều chỉnh.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M9_05",
+          "typeId": "N2-GR-PARA",
+          "category": "Mondai 9: 文章文法",
+          "stem": "空欄（5）に続く「決定」と最も自然に結びつく動詞はどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "沈める"
+            },
+            {
+              "id": "B",
+              "text": "向ける"
+            },
+            {
+              "id": "C",
+              "text": "下す"
+            },
+            {
+              "id": "D",
+              "text": "配る"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "『決定を下す』が自然な連語です。",
+          "distractorExplanations": {
+            "A": "水などに沈める意味です。",
+            "B": "視線や注意を向ける用法です。",
+            "D": "物を分けて渡す意味です。"
+          },
+          "passage": "地域の課題を解決するとき、外から来た専門家の意見だけに頼ればよい（ 1 ）。長く暮らす住民は、統計には表れにくい季節ごとの変化や、以前に試した方法の結果を知っている。一方で、住民の経験が常に正しい（ 2 ）。思い込みや限られた経験によって、別の集団の事情が見落とされることもあるからだ。だからこそ、データと現場の声を（ 3 ）検討し、異なる説明があれば、その違いが生まれた背景を確かめたい。結論を急ぐ（ 4 ）、試行の規模を小さくし、結果を見ながら計画を調整する方法もある。こうした手順を通じて、当事者が納得できる形で決定を（ 5 ）ことができる。",
+          "explanationVi": "Cụm kết hợp tự nhiên là 決定を下す, nghĩa là đưa ra quyết định. Thử nghiệm quy mô nhỏ và lắng nghe cư dân giúp quyết định cuối cùng được các bên liên quan chấp nhận.",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_09_M10_01",
+          "typeId": "N2-RD-SHORT",
+          "category": "Mondai 10: 短文読解",
+          "stem": "市が開館時間の変更をまず試行する理由は何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "全曜日の開館時間をすぐ延ばすため"
+            },
+            {
+              "id": "B",
+              "text": "職員を増やす費用と利用状況を確かめるため"
+            },
+            {
+              "id": "C",
+              "text": "来館者数が十分に増えたか確認するため"
+            },
+            {
+              "id": "D",
+              "text": "利用者の目的を記録しないため"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "費用がかかるため、曜日を限定して利用状況を見ます。",
+          "distractorExplanations": {
+            "A": "まず限定して試す方針です。",
+            "C": "来館者数の減少がきっかけであり、増加済みとは書かれていません。",
+            "D": "目的も記録するとあります。"
+          },
+          "passage": "市の文化施設では、利用者数の減少を受けて、平日の開館時間を延ばす案が出ている。ただし、職員を増やす費用が必要になるため、まず三か月間、曜日を限定して試すことになった。試行期間中は来館者数だけでなく、利用者が何を目的に来たかも記録する。",
+          "explanationVi": "Kéo dài giờ mở cửa cần thêm nhân viên, nên thành phố chỉ thử ba tháng ở một số ngày. Họ ghi cả số khách lẫn mục đích đến để xem chi phí và cách sử dụng có đáng mở rộng không.",
+          "skill": "Reading"
+        },
+        {
+          "id": "N2_09_M10_02",
+          "typeId": "N2-RD-SHORT",
+          "category": "Mondai 10: 短文読解",
+          "stem": "次回の展示で優先されることは何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "場所を示す案内を分かりやすくすること"
+            },
+            {
+              "id": "B",
+              "text": "地元作家の紹介をやめること"
+            },
+            {
+              "id": "C",
+              "text": "展示数を大幅に増やすこと"
+            },
+            {
+              "id": "D",
+              "text": "会場を一つに統合すること"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "展示数の追加より案内図と共通表示を整えるとあります。",
+          "distractorExplanations": {
+            "B": "作家紹介をやめるとは書いていません。",
+            "C": "次回は展示数を増やすより、と明示されています。",
+            "D": "会場統合ではなく表示の改善です。"
+          },
+          "passage": "商店街の空き店舗を使った展示は、地元作家を紹介する機会になった。一方、会場が分散していて、初めて来た人には場所が分かりにくいという声もあった。次回は展示数を増やすより、案内図と共通の表示を整える予定だ。",
+          "explanationVi": "Khách lần đầu khó tìm các điểm triển lãm nằm rải rác. Vì vậy kế hoạch ưu tiên làm rõ bản đồ và biển chỉ dẫn chung, thay vì tăng số tác phẩm hay dồn mọi địa điểm vào một nơi.",
+          "skill": "Reading"
+        },
+        {
+          "id": "N2_09_M10_03",
+          "typeId": "N2-RD-SHORT",
+          "category": "Mondai 10: 短文読解",
+          "stem": "主催者が新たに用意することにしたものは何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "行事の日程を平日に変えること"
+            },
+            {
+              "id": "B",
+              "text": "行事に参加した人への謝礼"
+            },
+            {
+              "id": "C",
+              "text": "知り合いを必ず連れてくる規則"
+            },
+            {
+              "id": "D",
+              "text": "時間がない人でも参加できる短い役割"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "時間と初参加の不安の両方を踏まえ、短時間の役割を用意します。",
+          "distractorExplanations": {
+            "A": "日程変更の記述はありません。",
+            "B": "謝礼の話はありません。",
+            "C": "同行者を求めていません。"
+          },
+          "passage": "ある調査では、地域の行事に参加しない理由として「時間がない」が最も多かった。しかし、自由記述を見ると、仕事の都合だけでなく、初参加で知り合いがいないことへの不安も目立った。主催者は、短時間でも参加できる役割を用意することにした。",
+          "explanationVi": "Khảo sát cho thấy người vắng mặt không chỉ thiếu thời gian mà còn ngại vì không quen ai. Vai trò ngắn giúp tham gia dễ hơn cả về thời lượng lẫn tâm lý, không bắt người tham gia phải rủ thêm bạn.",
+          "skill": "Reading"
+        },
+        {
+          "id": "N2_09_M10_04",
+          "typeId": "N2-RD-SHORT",
+          "category": "Mondai 10: 短文読解",
+          "stem": "担当職員が説明会の成果だけでは不十分だと考えるのはなぜか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "回覧板が使えないから"
+            },
+            {
+              "id": "B",
+              "text": "制度の対象者が説明会に来られず、疑問が残るから"
+            },
+            {
+              "id": "C",
+              "text": "説明会の費用が高すぎるから"
+            },
+            {
+              "id": "D",
+              "text": "参加者の理解度を測っていないから"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "参加しなかった世帯の疑問が未解決と指摘されています。",
+          "distractorExplanations": {
+            "A": "回覧板に加えて相談窓口を設けます。",
+            "C": "費用への言及はありません。",
+            "D": "出席者の理解度は高かったとされています。"
+          },
+          "passage": "新しいごみ分別制度の説明会には、制度をよく知る人が多く参加した。市は出席者の理解度が高かったことを成果としたが、担当職員は、説明会に来なかった世帯の疑問が残っていると指摘する。今後は回覧板に加え、個別の相談窓口も設けるという。",
+          "explanationVi": "Người đến buổi giải thích vốn đã quan tâm chế độ; những hộ không đến có thể vẫn còn thắc mắc. Vì thế điểm hiểu bài cao trong phòng họp chưa chứng minh toàn bộ đối tượng đã được thông tin đầy đủ.",
+          "skill": "Reading"
+        },
+        {
+          "id": "N2_09_M10_05",
+          "typeId": "N2-RD-SHORT",
+          "category": "Mondai 10: 短文読解",
+          "stem": "写真を公開しない場合、活動では何を残すか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "写真の持ち主の住所"
+            },
+            {
+              "id": "B",
+              "text": "家族全員の署名"
+            },
+            {
+              "id": "C",
+              "text": "写真を撮影した機器"
+            },
+            {
+              "id": "D",
+              "text": "写真についての説明文"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "公開を望まない場合は写真を載せず、説明文だけを残します。",
+          "distractorExplanations": {
+            "A": "住所を残すとはありません。",
+            "B": "署名の要件は書かれていません。",
+            "C": "撮影機器の記述はありません。"
+          },
+          "passage": "地域の歴史を記録する活動では、古い写真の持ち主から公開許可を得る必要がある。保存の価値が高くても、撮影された人や家族が公開を望まない場合は、写真を掲載せず、説明文だけを残す方針だ。",
+          "explanationVi": "Chủ ảnh có quyền từ chối công khai dù tư liệu có giá trị lưu trữ. Khi đó nhóm không đăng ảnh mà giữ phần mô tả bằng chữ, vừa tôn trọng sự đồng ý vừa bảo tồn thông tin lịch sử.",
+          "skill": "Reading"
+        },
+        {
+          "id": "N2_09_M11_01",
+          "typeId": "N2-RD-MED",
+          "category": "Mondai 11: 中文読解",
+          "stem": "筆者が市民参加の会議で最初に行うべきだとすることは何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "採用できない意見を記録しないこと"
+            },
+            {
+              "id": "B",
+              "text": "具体的に困っている場面を聞くこと"
+            },
+            {
+              "id": "C",
+              "text": "行政案への賛否を尋ねること"
+            },
+            {
+              "id": "D",
+              "text": "参加者が選べる案を一つに絞ること"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "先に困っている場面を聞くことで、既存案にない課題も発見しやすくなります。",
+          "distractorExplanations": {
+            "A": "不採用理由を返す重要性が述べられています。",
+            "C": "賛否だけを尋ねる場ではないと述べています。",
+            "D": "複数の対応を比べます。"
+          },
+          "passage": "市民参加の会議は、行政が決めた案に賛成か反対かを尋ねる場ではない。課題の見え方は、暮らす場所や働き方によって異なる。会議の冒頭で選択肢を示すと、参加者は既存の枠の中で答えがちになる。まず困っている場面を具体的に聞き、その後で複数の対応を比べるほうが、まだ表に出ていない問題を見つけやすい。意見をすべて採用できなくても、採用しなかった理由を返すことが次の参加につながる。",
+          "explanationVi": "Tác giả khuyên hỏi trước về tình huống cụ thể khiến người dân gặp khó khăn, rồi mới đưa phương án ra so sánh. Nếu bắt đầu bằng lựa chọn sẵn có, cuộc họp dễ bó hẹp vấn đề trong khung của chính quyền.",
+          "skill": "Reading"
+        },
+        {
+          "id": "N2_09_M11_02",
+          "typeId": "N2-RD-MED",
+          "category": "Mondai 11: 中文読解",
+          "stem": "筆者が伝統行事の変更について重視していることは何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "すべての手順を一切変えないこと"
+            },
+            {
+              "id": "B",
+              "text": "参加者が減る前に行事を中止すること"
+            },
+            {
+              "id": "C",
+              "text": "行政が変更の範囲を決定すること"
+            },
+            {
+              "id": "D",
+              "text": "行為の意味と変更の影響を担い手と確認すること"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "形式だけでなく意味を確認し、変更の影響を担い手と考えるべきです。",
+          "distractorExplanations": {
+            "A": "形をそのまま守るだけでは途切れる場合があるとしています。",
+            "B": "中止の提案はありません。",
+            "C": "一方的な変更を問題視しています。"
+          },
+          "passage": "伝統行事を続けるために、昔の形をそのまま守ることだけを目標にすると、担い手が減った時に行事自体が途切れてしまうことがある。大切なのは、何のためにその行為をしてきたのかを確かめることだ。例えば、長い行列が地域の人の交流を生んでいたなら、距離を短くしても交流の機会を残す方法は考えられる。ただし、変更を決める側が「現代化」を理由に一方的に簡略化すれば、当事者の誇りを損なう。残す意味と変更の影響を、担い手とともに確かめる必要がある。",
+          "explanationVi": "Muốn duy trì lễ hội, trước tiên phải hiểu hành động truyền thống có ý nghĩa gì với người thực hiện. Có thể đổi hình thức cho phù hợp hoàn cảnh, nhưng cần cùng người gìn giữ đánh giá tác động thay vì đơn phương hiện đại hóa.",
+          "skill": "Reading"
+        },
+        {
+          "id": "N2_09_M11_03",
+          "typeId": "N2-RD-MED",
+          "category": "Mondai 11: 中文読解",
+          "stem": "この文章で筆者が統計に期待している役割は何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "すべての個人差を一つの数値で表すこと"
+            },
+            {
+              "id": "B",
+              "text": "現場の話を不要にすること"
+            },
+            {
+              "id": "C",
+              "text": "問いを具体化し、調べる方向を示す材料になること"
+            },
+            {
+              "id": "D",
+              "text": "政策の正解を自動的に決めること"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "統計は結論そのものではなく、問いを具体化する材料と述べています。",
+          "distractorExplanations": {
+            "A": "平均では個別差を説明できないとあります。",
+            "B": "現場の話との照合を求めています。",
+            "D": "自動的に答えを出すものではないと結んでいます。"
+          },
+          "passage": "自治体が公開する統計は、地域全体の傾向を知るのに役立つ。しかし、平均値だけで個々の暮らしを説明できるわけではない。平均所得が上がっていても、特定の年代や地区では下がっているかもしれない。また、数字の定義や調査対象が変われば、前年との単純な比較はできなくなる。数字を政策の根拠にする時は、どの集団の、どの期間のデータかを確認し、現場で聞いた話と食い違う場合にはその理由を調べたい。統計は結論を自動的に出す答えではなく、問いを具体化する材料である。",
+          "explanationVi": "Thống kê hữu ích để nhìn xu hướng chung, nhưng không tự động đưa ra chính sách đúng. Tác giả coi số liệu là chất liệu giúp đặt câu hỏi cụ thể, cần kiểm tra nhóm/thời kỳ và đối chiếu với trải nghiệm thực tế.",
+          "skill": "Reading"
+        },
+        {
+          "id": "N2_09_M11_04",
+          "typeId": "N2-RD-MED",
+          "category": "Mondai 11: 中文読解",
+          "stem": "この文章から、統計を前年と比較する前に必要な確認は何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "データの定義と対象が同じか"
+            },
+            {
+              "id": "B",
+              "text": "調査結果を政策に採用したか"
+            },
+            {
+              "id": "C",
+              "text": "現場の声を除外できるか"
+            },
+            {
+              "id": "D",
+              "text": "平均値が上昇したか"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "定義や対象が変われば単純比較できないため、先に確認します。",
+          "distractorExplanations": {
+            "B": "採用後の話ではありません。",
+            "C": "現場の話は照合対象です。",
+            "D": "平均が上がったかだけでは比較可能性は分かりません。"
+          },
+          "passage": "自治体が公開する統計は、地域全体の傾向を知るのに役立つ。しかし、平均値だけで個々の暮らしを説明できるわけではない。平均所得が上がっていても、特定の年代や地区では下がっているかもしれない。また、数字の定義や調査対象が変われば、前年との単純な比較はできなくなる。数字を政策の根拠にする時は、どの集団の、どの期間のデータかを確認し、現場で聞いた話と食い違う場合にはその理由を調べたい。統計は結論を自動的に出す答えではなく、問いを具体化する材料である。",
+          "explanationVi": "Nếu định nghĩa hoặc nhóm được khảo sát thay đổi thì so sánh năm nay với năm trước có thể sai lệch. Vì vậy phải xác nhận hai bộ dữ liệu đo cùng khái niệm và cùng đối tượng trước khi đọc xu hướng.",
+          "skill": "Reading"
+        },
+        {
+          "id": "N2_09_M11_05",
+          "typeId": "N2-RD-MED",
+          "category": "Mondai 11: 中文読解",
+          "stem": "伝統行事の例で、行列の距離を短くしても残せる可能性があるものは何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "地域の人の交流"
+            },
+            {
+              "id": "B",
+              "text": "行政の決定権"
+            },
+            {
+              "id": "C",
+              "text": "古い衣装の数"
+            },
+            {
+              "id": "D",
+              "text": "観光客の滞在時間"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "行列が交流を生んでいたなら、距離を短くしても交流機会は残せるとします。",
+          "distractorExplanations": {
+            "B": "決定権について述べていません。",
+            "C": "衣装の話はありません。",
+            "D": "観光客の滞在時間は触れられていません。"
+          },
+          "passage": "伝統行事を続けるために、昔の形をそのまま守ることだけを目標にすると、担い手が減った時に行事自体が途切れてしまうことがある。大切なのは、何のためにその行為をしてきたのかを確かめることだ。例えば、長い行列が地域の人の交流を生んでいたなら、距離を短くしても交流の機会を残す方法は考えられる。ただし、変更を決める側が「現代化」を理由に一方的に簡略化すれば、当事者の誇りを損なう。残す意味と変更の影響を、担い手とともに確かめる必要がある。",
+          "explanationVi": "Đoạn văn giải thích hàng dài tạo cơ hội giao lưu trong cộng đồng; rút ngắn quãng đường vẫn có thể giữ cơ hội đó. Điều cần bảo tồn là chức năng kết nối, không nhất thiết mọi chi tiết hình thức cũ.",
+          "skill": "Reading"
+        },
+        {
+          "id": "N2_09_M11_06",
+          "typeId": "N2-RD-MED",
+          "category": "Mondai 11: 中文読解",
+          "stem": "筆者が、会議で不採用の意見にも理由を返すべきだと考えるのはなぜか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "全意見を採用したように見せるため"
+            },
+            {
+              "id": "B",
+              "text": "行政案への反対を減らすため"
+            },
+            {
+              "id": "C",
+              "text": "次の参加につながるため"
+            },
+            {
+              "id": "D",
+              "text": "会議の時間を短くするため"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "採否の理由を伝えることが次の参加につながると明記されています。",
+          "distractorExplanations": {
+            "A": "採用できない意見があることを認めています。",
+            "B": "反対を減らす目的ではありません。",
+            "D": "時間短縮は述べられていません。"
+          },
+          "passage": "市民参加の会議は、行政が決めた案に賛成か反対かを尋ねる場ではない。課題の見え方は、暮らす場所や働き方によって異なる。会議の冒頭で選択肢を示すと、参加者は既存の枠の中で答えがちになる。まず困っている場面を具体的に聞き、その後で複数の対応を比べるほうが、まだ表に出ていない問題を見つけやすい。意見をすべて採用できなくても、採用しなかった理由を返すことが次の参加につながる。",
+          "explanationVi": "Không phải mọi ý kiến đều được chọn, nhưng phản hồi lý do giúp người tham gia hiểu cách cân nhắc và có động lực góp ý lần sau. Im lặng trước ý kiến bị loại mới dễ làm mất niềm tin.",
+          "skill": "Reading"
+        },
+        {
+          "id": "N2_09_M11_07",
+          "typeId": "N2-RD-MED",
+          "category": "Mondai 11: 中文読解",
+          "stem": "平均所得が上がっている時にも筆者が確認を求めるのはなぜか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "地域統計は公開されていないから"
+            },
+            {
+              "id": "B",
+              "text": "平均値は必ず誤っているから"
+            },
+            {
+              "id": "C",
+              "text": "一部の年代や地区では異なる傾向かもしれないから"
+            },
+            {
+              "id": "D",
+              "text": "所得の定義は毎年必ず変わるから"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "全体の平均が上がっても、集団ごとに下がる可能性があるとしています。",
+          "distractorExplanations": {
+            "A": "自治体が公開する統計の話です。",
+            "B": "平均値を否定しているのではありません。",
+            "D": "定義が変われば比較できない場合があるという説明です。"
+          },
+          "passage": "自治体が公開する統計は、地域全体の傾向を知るのに役立つ。しかし、平均値だけで個々の暮らしを説明できるわけではない。平均所得が上がっていても、特定の年代や地区では下がっているかもしれない。また、数字の定義や調査対象が変われば、前年との単純な比較はできなくなる。数字を政策の根拠にする時は、どの集団の、どの期間のデータかを確認し、現場で聞いた話と食い違う場合にはその理由を調べたい。統計は結論を自動的に出す答えではなく、問いを具体化する材料である。",
+          "explanationVi": "Mức trung bình toàn vùng có thể tăng trong khi một nhóm tuổi hay khu vực cụ thể lại giảm. Tác giả yêu cầu nhìn sâu theo nhóm thay vì để con số trung bình che mất chênh lệch.",
+          "skill": "Reading"
+        },
+        {
+          "id": "N2_09_M11_08",
+          "typeId": "N2-RD-MED",
+          "category": "Mondai 11: 中文読解",
+          "stem": "伝統行事を簡略化する場合、筆者が懸念する結果は何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "交流が自動的に生まれること"
+            },
+            {
+              "id": "B",
+              "text": "地域の人口が必ず増えること"
+            },
+            {
+              "id": "C",
+              "text": "行事の費用が増えること"
+            },
+            {
+              "id": "D",
+              "text": "担い手の誇りが損なわれること"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "変更側が一方的に簡略化すると、当事者の誇りを損なうと述べています。",
+          "distractorExplanations": {
+            "A": "交流は行列の意味として残す可能性が述べられています。",
+            "B": "人口増加の話はありません。",
+            "C": "費用への言及はありません。"
+          },
+          "passage": "伝統行事を続けるために、昔の形をそのまま守ることだけを目標にすると、担い手が減った時に行事自体が途切れてしまうことがある。大切なのは、何のためにその行為をしてきたのかを確かめることだ。例えば、長い行列が地域の人の交流を生んでいたなら、距離を短くしても交流の機会を残す方法は考えられる。ただし、変更を決める側が「現代化」を理由に一方的に簡略化すれば、当事者の誇りを損なう。残す意味と変更の影響を、担い手とともに確かめる必要がある。",
+          "explanationVi": "Nếu người quyết định đơn phương cắt gọn nghi thức với lý do hiện đại hóa, người trực tiếp gìn giữ có thể mất đi giá trị và niềm tự hào. Vì vậy cần thảo luận cả ý nghĩa lẫn ảnh hưởng của thay đổi.",
+          "skill": "Reading"
+        },
+        {
+          "id": "N2_09_M11_09",
+          "typeId": "N2-RD-MED",
+          "category": "Mondai 11: 中文読解",
+          "stem": "筆者が会議の冒頭で選択肢を示すと問題が起きやすいと考えるのはなぜか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "会議の時間が必ず延びるから"
+            },
+            {
+              "id": "B",
+              "text": "複数の対応を比べられなくなるから"
+            },
+            {
+              "id": "C",
+              "text": "参加者が用意された枠の中だけで答えやすくなるから"
+            },
+            {
+              "id": "D",
+              "text": "参加者が行政案を知らなくなるから"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "先に選択肢を示すと既存の枠内で答えがちになり、まだ出ていない課題を見つけにくくなるとしています。",
+          "distractorExplanations": {
+            "A": "会議時間への言及はありません。",
+            "B": "複数の対応を比べること自体は後で行うとあります。",
+            "D": "行政案を知らなくなるとは述べていません。"
+          },
+          "passage": "市民参加の会議は、行政が決めた案に賛成か反対かを尋ねる場ではない。課題の見え方は、暮らす場所や働き方によって異なる。会議の冒頭で選択肢を示すと、参加者は既存の枠の中で答えがちになる。まず困っている場面を具体的に聞き、その後で複数の対応を比べるほうが、まだ表に出ていない問題を見つけやすい。意見をすべて採用できなくても、採用しなかった理由を返すことが次の参加につながる。",
+          "explanationVi": "Đưa phương án có sẵn ngay đầu cuộc họp dễ khiến người tham gia chỉ chọn trong khung đó. Hỏi trải nghiệm cụ thể trước giúp phát hiện nhu cầu chưa được liệt kê rồi mới xây dựng lựa chọn.",
+          "skill": "Reading"
+        },
+        {
+          "id": "N2_09_M12_01",
+          "typeId": "N2-RD-PAIR",
+          "category": "Mondai 12: 統合理解",
+          "stem": "資料Bの筆者が資料Aの計画について特に求めていることは何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "追加費用をなくして直ちに全館で実施すること"
+            },
+            {
+              "id": "B",
+              "text": "立地の違う館でも調べ、利用できない人の理由を聞くこと"
+            },
+            {
+              "id": "C",
+              "text": "利用者数だけを基準にすること"
+            },
+            {
+              "id": "D",
+              "text": "中央館の調査を中止すること"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "立地の異なる館での調査と、来館できなかった人の理由の聴取を提案しています。",
+          "distractorExplanations": {
+            "A": "追加費用は資料Aが課題としており、無費用の実施は提案していません。",
+            "C": "利用者数以外も聞くべきとしています。",
+            "D": "中央館での試行自体には反対していません。"
+          },
+          "passage": "【資料A】市立図書館は、平日の閉館時刻を一時間遅らせる案を検討している。仕事帰りに利用できるという要望が複数寄せられたためだ。ただし、夜間の職員配置には追加費用がかかる。まず中央館だけで二か月試し、利用者数と利用目的、職員の業務量を調べてから、継続や他館への拡大を決める。\n\n【資料B】私は閉館時刻を遅らせること自体には賛成だが、中央館だけの結果で全ての館を決めるのは心配だ。駅に近い館と住宅地の館では、夜に来る人も目的も違う。試行の後に拡大を検討するなら、少なくとも立地の異なる館でも短期間の調査をしてほしい。利用者数だけでなく、来館できなかった人の理由も聞けば、必要な対策が見つかると思う。",
+          "explanationVi": "Tài liệu B đồng ý thử đổi giờ nhưng lưu ý kết quả ở thư viện trung tâm không đại diện cho nơi gần ga và khu dân cư. B đề nghị khảo sát thêm ở địa điểm khác và hỏi cả người không đến được, thay vì chỉ đếm lượt khách.",
+          "skill": "Reading"
+        },
+        {
+          "id": "N2_09_M12_02",
+          "typeId": "N2-RD-PAIR",
+          "category": "Mondai 12: 統合理解",
+          "stem": "二つの資料が一致している、図書館の開館時間を見直す手順はどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "全ての館で同じ時間に閉館する"
+            },
+            {
+              "id": "B",
+              "text": "試行の結果を見てから拡大などを判断する"
+            },
+            {
+              "id": "C",
+              "text": "利用者の目的は調べなくてよい"
+            },
+            {
+              "id": "D",
+              "text": "職員の負担は無視できる"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Aは試行後に継続・拡大を判断し、Bも追加調査を経て検討する立場です。",
+          "distractorExplanations": {
+            "A": "一律運用は述べていません。",
+            "C": "目的を調べるのは資料Aの計画です。",
+            "D": "職員業務量を調べるとあります。"
+          },
+          "passage": "【資料A】市立図書館は、平日の閉館時刻を一時間遅らせる案を検討している。仕事帰りに利用できるという要望が複数寄せられたためだ。ただし、夜間の職員配置には追加費用がかかる。まず中央館だけで二か月試し、利用者数と利用目的、職員の業務量を調べてから、継続や他館への拡大を決める。\n\n【資料B】私は閉館時刻を遅らせること自体には賛成だが、中央館だけの結果で全ての館を決めるのは心配だ。駅に近い館と住宅地の館では、夜に来る人も目的も違う。試行の後に拡大を検討するなら、少なくとも立地の異なる館でも短期間の調査をしてほしい。利用者数だけでなく、来館できなかった人の理由も聞けば、必要な対策が見つかると思う。",
+          "explanationVi": "Cả hai bên đều muốn thử nghiệm trước rồi mới quyết định có duy trì hay mở rộng. Tài liệu A nói đo lượt khách, mục đích và khối lượng công việc; B muốn thêm khảo sát nơi khác trước khi kết luận.",
+          "skill": "Reading"
+        },
+        {
+          "id": "N2_09_M13_01",
+          "typeId": "N2-RD-LONG",
+          "category": "Mondai 13: 長文読解",
+          "stem": "筆者が冒頭で述べている、来場者数だけで判断する問題は何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "数字が政策説明に使えないこと"
+            },
+            {
+              "id": "B",
+              "text": "イベントが地域の関係を壊すこと"
+            },
+            {
+              "id": "C",
+              "text": "観光客の売上は必ず減ること"
+            },
+            {
+              "id": "D",
+              "text": "来場者が増えても住民の生活改善とは限らないこと"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "来場者増は暮らしの改善と一致せず、混雑などの負担もあり得ます。",
+          "distractorExplanations": {
+            "A": "数字は予算説明に便利と認めています。",
+            "B": "全てのイベントが関係を壊すとは言いません。",
+            "C": "売上が必ず減るとは述べていません。"
+          },
+          "passage": "地域の「にぎわい」を測る方法として、イベントの来場者数や店の売上がよく使われる。数字は変化を追うのに便利であり、予算を決める際にも説明しやすい。しかし、来場者数が増えたからといって、その地域で暮らす人の生活がよくなったとは限らない。観光客が増えた結果、交通が混み、日常の買い物がしにくくなることもある。反対に、派手な催しがなくても、近所で相談できる相手が増えたことを住民が大きな変化と感じる場合もある。\n\nだからといって、数字を使わず、印象だけで政策を評価すればよいということではない。印象は重要な手がかりだが、声の大きい人の経験が地域全体の状況を代表するとは限らない。さらに、同じ催しでも、子育て中の人、高齢者、店を営む人では受け止め方が異なる。誰にとっての変化を知りたいのかを先に決め、来場者数のような数量と、暮らしへの影響を尋ねる聞き取りの両方を用いる必要がある。\n\n評価の時期にも注意が要る。催しの直後に売上が伸びても、数か月後に客足が戻れば、長期的な効果とは言いにくい。一方、地域の人同士の関係が深まる効果は、短い期間の数字には表れにくい。政策の前後だけを比べるのでなく、季節や周辺地域の変化も見て、別の要因が影響していないかを確かめたい。\n\nこうした評価は、施策を成功か失敗かに分けるためだけに行うのではない。予想と異なる結果が出たなら、誰かを責める前に、どの条件が想定と違ったのかを調べる。小規模な試行の段階で課題を見つけられれば、方法を修正したり、対象を限定したりできる。評価の数字を公表する時には、何を測り、何を測れていないのかも伝えるべきだ。数字を説明の終点にするのではなく、次の問いを立てる出発点として扱うことが、住民の納得と継続的な改善につながる。",
+          "explanationVi": "Tác giả lưu ý lượng khách tăng không đồng nghĩa cư dân sống tốt hơn; đám đông có thể gây tắc đường và khó mua sắm hằng ngày. Chỉ số lượt đến không đại diện cho mọi mặt của chất lượng sống.",
+          "skill": "Reading"
+        },
+        {
+          "id": "N2_09_M13_02",
+          "typeId": "N2-RD-LONG",
+          "category": "Mondai 13: 長文読解",
+          "stem": "筆者が数量と聞き取りの両方を求める理由は何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "全住民が同じ経験をするから"
+            },
+            {
+              "id": "B",
+              "text": "印象だけでも数字だけでも、地域の多様な経験を十分に捉えられないから"
+            },
+            {
+              "id": "C",
+              "text": "政策を必ず成功と評価するため"
+            },
+            {
+              "id": "D",
+              "text": "聞き取りは数字より安価だから"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "数量と声を組み合わせ、誰にとっての変化かを把握する必要があります。",
+          "distractorExplanations": {
+            "A": "立場による受け止め方の違いが述べられています。",
+            "C": "評価の目的は成功認定だけではありません。",
+            "D": "費用の比較はありません。"
+          },
+          "passage": "地域の「にぎわい」を測る方法として、イベントの来場者数や店の売上がよく使われる。数字は変化を追うのに便利であり、予算を決める際にも説明しやすい。しかし、来場者数が増えたからといって、その地域で暮らす人の生活がよくなったとは限らない。観光客が増えた結果、交通が混み、日常の買い物がしにくくなることもある。反対に、派手な催しがなくても、近所で相談できる相手が増えたことを住民が大きな変化と感じる場合もある。\n\nだからといって、数字を使わず、印象だけで政策を評価すればよいということではない。印象は重要な手がかりだが、声の大きい人の経験が地域全体の状況を代表するとは限らない。さらに、同じ催しでも、子育て中の人、高齢者、店を営む人では受け止め方が異なる。誰にとっての変化を知りたいのかを先に決め、来場者数のような数量と、暮らしへの影響を尋ねる聞き取りの両方を用いる必要がある。\n\n評価の時期にも注意が要る。催しの直後に売上が伸びても、数か月後に客足が戻れば、長期的な効果とは言いにくい。一方、地域の人同士の関係が深まる効果は、短い期間の数字には表れにくい。政策の前後だけを比べるのでなく、季節や周辺地域の変化も見て、別の要因が影響していないかを確かめたい。\n\nこうした評価は、施策を成功か失敗かに分けるためだけに行うのではない。予想と異なる結果が出たなら、誰かを責める前に、どの条件が想定と違ったのかを調べる。小規模な試行の段階で課題を見つけられれば、方法を修正したり、対象を限定したりできる。評価の数字を公表する時には、何を測り、何を測れていないのかも伝えるべきだ。数字を説明の終点にするのではなく、次の問いを立てる出発点として扱うことが、住民の納得と継続的な改善につながる。",
+          "explanationVi": "Con số giúp thấy xu hướng nhưng bỏ qua khác biệt trải nghiệm; lời kể thì sâu nhưng người nói nhiều không đại diện cho cả vùng. Kết hợp hai loại bằng chứng giúp xác định thay đổi ảnh hưởng đến ai và theo cách nào.",
+          "skill": "Reading"
+        },
+        {
+          "id": "N2_09_M13_03",
+          "typeId": "N2-RD-LONG",
+          "category": "Mondai 13: 長文読解",
+          "stem": "筆者が評価結果を公表するときに求めていることは何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "予想外の結果の責任者を示すこと"
+            },
+            {
+              "id": "B",
+              "text": "効果があった数字だけを載せること"
+            },
+            {
+              "id": "C",
+              "text": "測定した範囲と測れていない点も説明すること"
+            },
+            {
+              "id": "D",
+              "text": "成功か失敗かを明確に決めること"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "何を測り、何を測れていないのかも伝えるべきと明記しています。",
+          "distractorExplanations": {
+            "A": "まず責任追及をする考えを否定しています。",
+            "B": "都合のよい数字だけに絞るとはありません。",
+            "D": "評価は二分の判定だけが目的ではないと述べています。"
+          },
+          "passage": "地域の「にぎわい」を測る方法として、イベントの来場者数や店の売上がよく使われる。数字は変化を追うのに便利であり、予算を決める際にも説明しやすい。しかし、来場者数が増えたからといって、その地域で暮らす人の生活がよくなったとは限らない。観光客が増えた結果、交通が混み、日常の買い物がしにくくなることもある。反対に、派手な催しがなくても、近所で相談できる相手が増えたことを住民が大きな変化と感じる場合もある。\n\nだからといって、数字を使わず、印象だけで政策を評価すればよいということではない。印象は重要な手がかりだが、声の大きい人の経験が地域全体の状況を代表するとは限らない。さらに、同じ催しでも、子育て中の人、高齢者、店を営む人では受け止め方が異なる。誰にとっての変化を知りたいのかを先に決め、来場者数のような数量と、暮らしへの影響を尋ねる聞き取りの両方を用いる必要がある。\n\n評価の時期にも注意が要る。催しの直後に売上が伸びても、数か月後に客足が戻れば、長期的な効果とは言いにくい。一方、地域の人同士の関係が深まる効果は、短い期間の数字には表れにくい。政策の前後だけを比べるのでなく、季節や周辺地域の変化も見て、別の要因が影響していないかを確かめたい。\n\nこうした評価は、施策を成功か失敗かに分けるためだけに行うのではない。予想と異なる結果が出たなら、誰かを責める前に、どの条件が想定と違ったのかを調べる。小規模な試行の段階で課題を見つけられれば、方法を修正したり、対象を限定したりできる。評価の数字を公表する時には、何を測り、何を測れていないのかも伝えるべきだ。数字を説明の終点にするのではなく、次の問いを立てる出発点として扱うことが、住民の納得と継続的な改善につながる。",
+          "explanationVi": "Khi công bố kết quả, cần nói rõ chỉ số đo phần nào và những gì nó không bao quát. Điều đó ngăn người đọc xem số liệu giới hạn như toàn bộ bằng chứng về thành công hay thất bại.",
+          "skill": "Reading"
+        },
+        {
+          "id": "N2_09_M14_01",
+          "typeId": "N2-RD-INFO",
+          "category": "Mondai 14: 情報検索",
+          "stem": "市内の専門学校に通う17歳の人が、木曜講座に申し込むにはどうすればよいか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "9月14日までに申し込み、希望を第三希望まで選び、理由を200字以内で記入する"
+            },
+            {
+              "id": "B",
+              "text": "9月1日から14日までに申し込み、第二希望まで選び、理由を200字以内で書き、初回までにオンライン登録する"
+            },
+            {
+              "id": "C",
+              "text": "初回講座の後で申し込み、第二希望まで選び、理由を200字以内で記入する"
+            },
+            {
+              "id": "D",
+              "text": "9月14日までに申し込み、第二希望まで選び、理由を200字を超えて記入する"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "対象条件を満たすので、期間内に申し込み、第二希望までと200字以内の理由を提出し、初回までにオンライン登録します。",
+          "distractorExplanations": {
+            "A": "第三希望までとは案内されていません。",
+            "C": "申込は講座開始前に行います。",
+            "D": "理由は200字以内です。"
+          },
+          "passage": "【市民文化講座・秋期】\n対象：市内在住・在勤・在学の16歳以上。初回講座までにオンライン登録が必要。\n講座：火曜「地域の歴史を読む」18:30–20:00、木曜「多文化交流の進め方」19:00–20:30、土曜「伝統芸能の記録」10:00–12:00。\n定員：各講座20人。応募多数の場合は初参加者を優先して抽選。\n申込：9月1日から14日まで。希望講座を第二希望まで選び、200字以内で参加理由を記入する。\n費用：無料。ただし土曜講座の会場までの交通費は自己負担。欠席連絡は前日17時までに事務局へ。",
+          "explanationVi": "Người 17 tuổi đang học ở trường chuyên môn đáp ứng điều kiện từ 16 tuổi nếu thuộc diện cư trú/làm việc/học tập trong thành phố. Cần đăng ký từ 1–14/9, chọn tối đa hai nguyện vọng, viết lý do không quá 200 chữ và hoàn tất đăng ký trực tuyến trước buổi đầu.",
+          "skill": "Reading"
+        },
+        {
+          "id": "N2_09_M14_02",
+          "typeId": "N2-RD-INFO",
+          "category": "Mondai 14: 情報検索",
+          "stem": "応募者が定員を超えた場合、どのように参加者を決めるか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "申込順に全員を受け入れる"
+            },
+            {
+              "id": "B",
+              "text": "市外在住者を優先する"
+            },
+            {
+              "id": "C",
+              "text": "参加理由が最も長い人を選ぶ"
+            },
+            {
+              "id": "D",
+              "text": "初めて参加する人を優先して抽選する"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "応募多数なら初参加者を優先して抽選します。",
+          "distractorExplanations": {
+            "A": "定員は各20人です。",
+            "B": "市内関係者が対象です。",
+            "C": "文字数の長さで選ぶとはありません。"
+          },
+          "passage": "【市民文化講座・秋期】\n対象：市内在住・在勤・在学の16歳以上。初回講座までにオンライン登録が必要。\n講座：火曜「地域の歴史を読む」18:30–20:00、木曜「多文化交流の進め方」19:00–20:30、土曜「伝統芸能の記録」10:00–12:00。\n定員：各講座20人。応募多数の場合は初参加者を優先して抽選。\n申込：9月1日から14日まで。希望講座を第二希望まで選び、200字以内で参加理由を記入する。\n費用：無料。ただし土曜講座の会場までの交通費は自己負担。欠席連絡は前日17時までに事務局へ。",
+          "explanationVi": "Mỗi lớp có 20 chỗ; nếu số người đăng ký vượt quá, ban tổ chức bốc thăm và ưu tiên người tham gia lần đầu. Không phải cứ nộp sớm là được nhận tất cả.",
+          "skill": "Reading"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec-2",
+      "sectionName": "Phần 2: Nghe hiểu (Listening Comprehension)",
+      "durationMinutes": 50,
+      "itemCount": 30,
+      "audioStatus": "BROWSER_PLAYBACK_VERIFIED",
+      "audioNoticeVi": "30 tệp đã khớp SHA-256, giải mã và ghi nhận tiến triển phát trên trình duyệt; chưa có chứng nhận chuyên gia về phát âm.",
+      "items": [
+        {
+          "id": "N2_09_M1_L01",
+          "typeId": "N2-LIS-TASK",
+          "category": "Mondai 1: 課題理解",
+          "script": "市役所の地域振興課で、職員と商店街の担当者が空き店舗の活用について話しています。担当者はまず何をしますか。\n\n女：空き店舗で学生の作品展をしたいのですが、来月の祭りに間に合いますか。\n男：会場は使えます。ただ、作品を置く前に、持ち主と展示期間を確認してください。壁に穴を開ける場合は別の許可も要ります。\n女：作品の運搬はこちらで手配します。\n男：では、まず所有者に期間と展示方法を説明して、書面で了解を取ってください。その後、会場の鍵をお渡しします。\n女：分かりました。先に所有者と条件を確認します。",
+          "stem": "担当者はまず何をしますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "市役所から鍵を受け取って作品を置く"
+            },
+            {
+              "id": "B",
+              "text": "会場の壁に展示用の穴を開ける"
+            },
+            {
+              "id": "C",
+              "text": "所有者に展示期間と方法を説明して許可を得る"
+            },
+            {
+              "id": "D",
+              "text": "作品の運搬業者を決める"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "作品運搬や鍵の受け取りより前に、所有者へ条件を説明して許可を取ります。",
+          "distractorExplanations": {
+            "A": "鍵は所有者から書面の了解を得た後に渡すと説明されています。",
+            "B": "壁に穴を開ける場合の追加許可は、所有者への確認とは別の条件です。",
+            "D": "運搬は担当者側で手配するとされ、依頼された最初の作業ではありません。"
+          },
+          "explanationVi": "Trước khi vận chuyển tác phẩm hay nhận chìa khóa, nhân viên phải giải thích thời gian và cách trưng bày cho chủ cửa hàng rồi xin chấp thuận bằng văn bản. Đây là điều kiện sử dụng mặt bằng; khoan tường còn cần phép riêng.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_09/N2_09_M1_L01.mp3",
+          "audioDurationSec": 60.024,
+          "audioSha256": "6265cd8f8ae507d2867e2f5231580679d4207d41d81482a069ac64b5ba9886f0",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M1_L02",
+          "typeId": "N2-LIS-TASK",
+          "category": "Mondai 1: 課題理解",
+          "script": "地域の図書館で、司書と利用者が外国語の資料について話しています。司書はこの後、何をしますか。\n\n男：この町に来たばかりで、生活の手続きが分かる資料を探しています。\n女：英語版はありますが、今はベトナム語版を作っているところです。\n男：いつ頃見られますか。\n女：来週、内容の確認が終われば、入口の相談コーナーに置く予定です。ウェブ掲載はその後になります。\n男：では、来週また来ます。\n女：はい。完成したら、まず相談コーナーに置いておきます。",
+          "stem": "司書はこの後、資料をどうしますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "資料を来月まで保管する"
+            },
+            {
+              "id": "B",
+              "text": "確認が済んだ資料を相談コーナーに置く"
+            },
+            {
+              "id": "C",
+              "text": "利用者に翻訳を依頼する"
+            },
+            {
+              "id": "D",
+              "text": "英語版をすぐにウェブから削除する"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "確認後、まず相談コーナーに置き、ウェブ掲載はその後と説明しています。",
+          "distractorExplanations": {
+            "A": "公開予定は来週の確認後で、来月まで保管するとは言っていません。",
+            "C": "翻訳を利用者に頼む指示はなく、資料は司書側で作成中です。",
+            "D": "英語版を削除する話はなく、ベトナム語版は確認後に追加されます。"
+          },
+          "explanationVi": "Bản tiếng Việt đang hoàn thiện và sẽ được kiểm tra vào tuần tới. Sau khi xác nhận nội dung, thủ thư đặt bản giấy ở quầy tư vấn trước; trang web chỉ được cập nhật sau bước đó.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_09/N2_09_M1_L02.mp3",
+          "audioDurationSec": 52.696,
+          "audioSha256": "0abfee7f701dee17a12a63c559f571001acb7f8a7532c5d17548d561da0c2ab0",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M1_L03",
+          "typeId": "N2-LIS-TASK",
+          "category": "Mondai 1: 課題理解",
+          "script": "町内会の会長と住民が防災訓練について話しています。住民は次に何をしますか。\n\n男：訓練当日は、受付を手伝えばいいですか。\n女：受付も助かりますが、前回は高齢の方への案内が足りませんでした。\n男：私は近所の道をよく知っています。\n女：では、集合場所から避難所までの安全な道を確認して、地図に印を付けてください。受付は別の人に頼みます。\n男：分かりました。まず道を確認します。",
+          "stem": "住民は次に何をしますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "訓練を中止する連絡をする"
+            },
+            {
+              "id": "B",
+              "text": "避難経路を確認して地図に示す"
+            },
+            {
+              "id": "C",
+              "text": "受付の担当者を探す"
+            },
+            {
+              "id": "D",
+              "text": "避難所に備蓄品を運ぶ"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "会長は住民に道の確認と地図への記入を頼んでいます。",
+          "distractorExplanations": {
+            "A": "訓練は中止せず、準備作業を進めています。",
+            "C": "受付ではなく、地図に安全な避難経路を示す役を頼まれました。",
+            "D": "備蓄品の運搬は会話に出ていません。"
+          },
+          "explanationVi": "Cư dân không cần mang đồ dự trữ hay trực quầy trong nhiệm vụ này. Hội trưởng giao kiểm tra đường an toàn từ điểm tập trung đến nơi trú ẩn và đánh dấu đường trên bản đồ.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_09/N2_09_M1_L03.mp3",
+          "audioDurationSec": 47.76,
+          "audioSha256": "bd851fc5db108ce3da771cf242c85503746c72ee3a786c9231a363d3ba734462",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M1_L04",
+          "typeId": "N2-LIS-TASK",
+          "category": "Mondai 1: 課題理解",
+          "script": "市の広報担当者と記者が公共施設の利用案内について話しています。担当者は案内文をどう直しますか。\n\n女：新しい施設の予約方法をウェブに載せました。\n男：申込期限は分かりますが、抽選になる場合があることが見つけにくいですね。\n女：注意書きの最後に書いてあります。\n男：最初に目立つ形で知らせたほうが、利用者が誤解しにくいでしょう。\n女：確かに。抽選の可能性を冒頭にも書きます。\n男：予約ページへのリンクはそのままでいいですね。\n女：はい、そこは変更しません。",
+          "stem": "担当者は案内文をどう直しますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "抽選の可能性を冒頭にも明記する"
+            },
+            {
+              "id": "B",
+              "text": "施設の利用を先着順だけにする"
+            },
+            {
+              "id": "C",
+              "text": "申込期限を削除する"
+            },
+            {
+              "id": "D",
+              "text": "予約ページへのリンクを外す"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "期限やリンクは変えず、抽選の可能性を目立つ位置に追加します。",
+          "distractorExplanations": {
+            "B": "抽選の可能性を知らせるだけで、先着順への制度変更はありません。",
+            "C": "申込期限は残し、抽選の注意を追加します。",
+            "D": "予約リンクは変更しないと担当者が確認しています。"
+          },
+          "explanationVi": "Người đọc dễ bỏ sót thông tin bốc thăm vì nó nằm cuối chú thích. Người phụ trách sẽ đưa khả năng này lên đầu thông báo; hạn nộp và đường dẫn đặt chỗ vẫn giữ nguyên.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_09/N2_09_M1_L04.mp3",
+          "audioDurationSec": 52.664,
+          "audioSha256": "a9da80c26b740f3191c35f8833d56e968251c7fe0d8dc291a5301dd5e27b0c65",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M1_L05",
+          "typeId": "N2-LIS-TASK",
+          "category": "Mondai 1: 課題理解",
+          "script": "市民講座の担当者と講師が参加者募集について話しています。講師はまず何をしますか。\n\n男：募集を始める前に、講座の内容を詳しく書いた案内を作りたいです。\n女：内容は決まっていますが、対象を高校生に限るか、一般にも開くか決めていません。\n男：昨年は高校生の質問が多かったですね。\n女：今年は地域の人にも参加してもらいたいので、対象を広げます。案内を作る前に、定員と申込方法を確認してください。\n男：分かりました。事務局に定員を聞きます。",
+          "stem": "講師はまず何をしますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "事務局に定員と申込方法を確認する"
+            },
+            {
+              "id": "B",
+              "text": "対象を高校生だけに決める"
+            },
+            {
+              "id": "C",
+              "text": "昨年の質問をすべて記録する"
+            },
+            {
+              "id": "D",
+              "text": "講座の内容を変更する"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "募集対象を広げる方針のもと、講師は案内作成前に定員と申込方法を確認します。",
+          "distractorExplanations": {
+            "B": "対象は高校生に限らず地域の人にも広げる方針です。",
+            "C": "昨年の質問を集め直すことは、今年の募集準備として頼まれていません。",
+            "D": "講座内容はすでに決まっており、変更の指示はありません。"
+          },
+          "explanationVi": "Nội dung lớp đã chốt và năm nay muốn mở cho cư dân nói chung. Trước khi viết quảng cáo, giảng viên cần hỏi văn phòng về sức chứa và cách đăng ký để thông tin tuyển sinh chính xác.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_09/N2_09_M1_L05.mp3",
+          "audioDurationSec": 51.48,
+          "audioSha256": "d517f1fa2c17042441a695e59739cc11daf29fb64ed63d00e9bd51b0e9c12672",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M2_L01",
+          "typeId": "N2-LIS-POINT",
+          "category": "Mondai 2: ポイント理解",
+          "script": "市の担当者と商店主が、歩行者天国の実施日について話しています。\n\n女：歩行者天国は、毎月第一日曜にする案でしたね。\n男：はい。ただ、第一日曜は市場の搬入と重なります。\n女：では、第二日曜に移しましょう。開始時間は午前十時のままでいいですか。\n男：ええ。搬入車が通らない時間を確認して、その日で商店会に提案します。",
+          "stem": "歩行者天国はいつ実施する案になりましたか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "毎月第一日曜の午前十時"
+            },
+            {
+              "id": "B",
+              "text": "毎月第二土曜の午後"
+            },
+            {
+              "id": "C",
+              "text": "毎月第二日曜の午前十時"
+            },
+            {
+              "id": "D",
+              "text": "毎月第三日曜の正午"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "市場の搬入を避け、第二日曜に変更します。開始は午前十時のままです。",
+          "distractorExplanations": {
+            "A": "第一日曜は市場の搬入と重なるため、実施日を移します。",
+            "B": "変更するのは日曜日で、土曜日への移動はありません。",
+            "D": "第三日曜や正午にする案は出ていません。"
+          },
+          "explanationVi": "Chủ nhật đầu tháng trùng lúc chợ nhập hàng nên hai bên chuyển sang Chủ nhật thứ hai. Họ giữ nguyên giờ bắt đầu 10 giờ sáng, không dời sang buổi chiều hay sang thứ Bảy.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_09/N2_09_M2_L01.mp3",
+          "audioDurationSec": 48.968,
+          "audioSha256": "d21f814071ba4d11db92e119a54f529063067c496f51ff3ccd5442bf92c18edf",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M2_L02",
+          "typeId": "N2-LIS-POINT",
+          "category": "Mondai 2: ポイント理解",
+          "script": "文化施設の館長が、展示室の照明について説明しています。\n\n展示室の照明を新しくするため、今月末から三日間、一階の展示室を閉めます。二階の展示と閲覧室は通常どおり利用できます。作業中も入口の受付は開いています。団体で見学する場合は、前日までに電話で予約してください。",
+          "stem": "工事期間中に利用できるのはどこですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "入口の受付だけ"
+            },
+            {
+              "id": "B",
+              "text": "二階の展示と閲覧室"
+            },
+            {
+              "id": "C",
+              "text": "一階と二階の展示室"
+            },
+            {
+              "id": "D",
+              "text": "一階の展示室だけ"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "閉鎖するのは一階展示室で、二階展示と閲覧室は通常利用できます。",
+          "distractorExplanations": {
+            "A": "入口受付は開いていますが、質問は利用できる場所を尋ねています。",
+            "C": "一階が使えないため、両方の展示室を利用することはできません。",
+            "D": "一階展示室は工事のため閉鎖されます。"
+          },
+          "explanationVi": "Trong ba ngày sửa đèn, chỉ phòng triển lãm tầng một đóng cửa. Khu trưng bày tầng hai và phòng đọc vẫn hoạt động bình thường; quầy tiếp tân cũng mở.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_09/N2_09_M2_L02.mp3",
+          "audioDurationSec": 41.744,
+          "audioSha256": "5dccaec89e7b316ba0a0d108c34474103006600a14556f3e379d735d09c36abe",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M2_L03",
+          "typeId": "N2-LIS-POINT",
+          "category": "Mondai 2: ポイント理解",
+          "script": "商店街の会議で、イベントの広報方法について話しています。\n\n男：去年はチラシを一万枚配りましたが、どのくらい来たか分かりませんでした。\n女：今年は枚数を減らして、駅と商店街の入口に案内を出しませんか。\n男：それに加えて、来場者に何を見て知ったか簡単に聞けば、次の宣伝に役立ちますね。\n女：そうしましょう。",
+          "stem": "今年、二人は広報の効果をどう確かめますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "チラシを前年より多く配る"
+            },
+            {
+              "id": "B",
+              "text": "駅の案内をやめる"
+            },
+            {
+              "id": "C",
+              "text": "来場者に情報を知った経路を尋ねる"
+            },
+            {
+              "id": "D",
+              "text": "来場者数を予測して記録しない"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "来場者にどこで催しを知ったか尋ねる案で一致しています。",
+          "distractorExplanations": {
+            "A": "今年はチラシ枚数を増やさず、減らす案です。",
+            "B": "駅と商店街入口の案内は続ける方針です。",
+            "D": "来場者数を記録しないのでなく、認知経路を聞いて効果を確かめます。"
+          },
+          "explanationVi": "Năm trước phát nhiều tờ rơi nhưng không biết người dự biết sự kiện qua đâu. Năm nay họ hỏi khách nguồn thông tin để đánh giá kênh quảng bá nào hiệu quả hơn.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_09/N2_09_M2_L03.mp3",
+          "audioDurationSec": 44.648,
+          "audioSha256": "3c3ccb614bcb429866de58243e61974414296498aa515f0a3964f97714778ff3",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M2_L04",
+          "typeId": "N2-LIS-POINT",
+          "category": "Mondai 2: ポイント理解",
+          "script": "町内会の担当者が、祭りのごみ処理について話しています。\n\n女：屋台のごみ箱は、会場の中央にまとめる予定です。\n男：中央だけだと、端の人が遠くて道に置くかもしれません。\n女：では、入口と出口にも置きましょう。回収は終了後に一度ではなく、混雑する時間に見回ります。\n男：分かりました。",
+          "stem": "ごみ箱をどう配置しますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "出口を閉鎖してごみを集める"
+            },
+            {
+              "id": "B",
+              "text": "屋台のそばには置かず、終了後に回収する"
+            },
+            {
+              "id": "C",
+              "text": "入口と出口に置き、混雑時に回収状況を確認する"
+            },
+            {
+              "id": "D",
+              "text": "会場の中央にだけ置く"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "入口・出口にも設置し、混雑時に見回る方針です。",
+          "distractorExplanations": {
+            "A": "出口を閉鎖する案は会話にありません。",
+            "B": "屋台のそばを避ける指示はなく、混雑時にも回収状況を見ます。",
+            "D": "中央だけでなく入口と出口にもごみ箱を置きます。"
+          },
+          "explanationVi": "Chỉ đặt thùng rác giữa khu vực khiến người ở rìa phải đi xa và có thể vứt rác trên đường. Nhóm đặt thêm ở lối vào/lối ra rồi kiểm tra trong giờ đông, thay vì chỉ thu một lần khi kết thúc.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_09/N2_09_M2_L04.mp3",
+          "audioDurationSec": 42.224,
+          "audioSha256": "1a6003bbe5215d365709540fa66cb85e07ffa418d557bda39f3c85600c0e9065",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M2_L05",
+          "typeId": "N2-LIS-POINT",
+          "category": "Mondai 2: ポイント理解",
+          "script": "市役所の職員が、多言語の災害情報について説明しています。\n\n災害時の情報は、翻訳文を同時に出すだけでは十分ではありません。専門用語をそのまま訳すと、かえって意味が伝わらない場合があります。市では、まず短い日本語で要点を整理し、その後、地域で使われている言語に翻訳します。内容を確認する時は、翻訳者だけでなく、実際にその言語を使う住民にも読んでもらいます。",
+          "stem": "市が翻訳内容を確認する際に行うことは何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "日本語の全文をそのまま翻訳者だけに渡す"
+            },
+            {
+              "id": "B",
+              "text": "災害情報を翻訳せずに出す"
+            },
+            {
+              "id": "C",
+              "text": "専門用語を増やして正確さを高める"
+            },
+            {
+              "id": "D",
+              "text": "要点を短い日本語にし、利用者にも確認してもらう"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "短い日本語で要点を整理し、翻訳者と実際の利用者の両方で確認します。",
+          "distractorExplanations": {
+            "A": "翻訳者だけでなく、短い日本語で要点をまとめてから確認します。",
+            "B": "翻訳して出す方針で、翻訳を省くとは言っていません。",
+            "C": "専門用語を増やすのでなく、要点を分かりやすく整理します。"
+          },
+          "explanationVi": "Để bản dịch dễ hiểu, thành phố trước tiên viết ngắn gọn ý chính bằng tiếng Nhật rồi mới dịch. Cả người dịch lẫn cư dân thật sự dùng ngôn ngữ đó cùng kiểm tra nội dung.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_09/N2_09_M2_L05.mp3",
+          "audioDurationSec": 49.64,
+          "audioSha256": "1bf80a06fa1932ea6dfd3a5ceecbbfcc91b92c9b5b79c609be3c619c6ded8c7a",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M2_L06",
+          "typeId": "N2-LIS-POINT",
+          "category": "Mondai 2: ポイント理解",
+          "script": "商店街の会長が、空き店舗の展示会の期間について話しています。\n\n男：展示会は一か月続けたいと思います。\n女：参加作家の都合で、全員の作品を一か月置くのは難しいそうです。\n男：では、前半と後半で作品を入れ替えましょう。会場は同じままにできますか。\n女：はい。案内は展示期間を二部に分けて書きます。",
+          "stem": "展示会はどう実施することになりましたか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "会場を二つに分け、全員の作品を一か月展示する"
+            },
+            {
+              "id": "B",
+              "text": "作家全員の参加を取りやめる"
+            },
+            {
+              "id": "C",
+              "text": "前半と後半で作品を入れ替え、会場は同じにする"
+            },
+            {
+              "id": "D",
+              "text": "展示期間を一週間に短縮する"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "作品を二部に分けて入れ替え、同じ会場で続けます。",
+          "distractorExplanations": {
+            "A": "会場を二つに分ける必要はなく、同じ会場を使います。",
+            "B": "全作家が不参加になるのでなく、作品の展示時期を分けます。",
+            "D": "期間を一週間に短縮するのでなく、前後半で展示を入れ替えます。"
+          },
+          "explanationVi": "Không thể để tác phẩm của tất cả nghệ sĩ suốt một tháng, nên ban tổ chức chia triển lãm thành hai đợt và thay tác phẩm giữa kỳ. Địa điểm vẫn là cùng một cửa hàng.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_09/N2_09_M2_L06.mp3",
+          "audioDurationSec": 45.08,
+          "audioSha256": "70ccac55b03e0cbb273b52ccac62dc13dd77ff4659ebbc823bd4139935675356",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M3_L01",
+          "typeId": "N2-LIS-SUMM",
+          "category": "Mondai 3: 概要理解",
+          "script": "市の広報誌に載せる文章について、編集者が意見を述べています。\n\n近ごろ、地域の情報を短い動画で伝える自治体が増えました。動画は雰囲気を伝えやすい一方で、日時や申込条件を後から探すのが難しいことがあります。だから、動画だけに頼るのではなく、同じ内容を文字でも確認できるようにすることが大切です。見る人の得意な方法に合わせて、複数の伝え方を用意したいと思います。",
+          "stem": "話し手が最も伝えたいことは何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "動画を使った広報をすべて中止するべきだ"
+            },
+            {
+              "id": "B",
+              "text": "自治体の動画は短くすれば十分だ"
+            },
+            {
+              "id": "C",
+              "text": "動画と文字の両方で必要な情報を確認できるようにするべきだ"
+            },
+            {
+              "id": "D",
+              "text": "申込条件を広報誌から削除するべきだ"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "動画の利点を認めつつ、文字でも確認できる複数の伝達方法が必要だと述べています。",
+          "distractorExplanations": {
+            "A": "話し手は動画の雰囲気を伝える利点も認め、併用を提案しています。",
+            "B": "短さだけでなく、日時や条件を文字でも探せることが要点です。",
+            "D": "申込条件は削除でなく、別の形でも確認できるようにします。"
+          },
+          "explanationVi": "Video truyền tải không khí tốt nhưng khó tra lại giờ và điều kiện đăng ký. Người biên tập muốn cung cấp cùng thông tin ở dạng chữ nữa để người xem có thể tìm và đối chiếu chi tiết.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_09/N2_09_M3_L01.mp3",
+          "audioDurationSec": 66.508,
+          "audioSha256": "1c0b7c4871eb56424337ca7bc20408d60ee2ea6a175fb655d2052a82bf56b33b",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M3_L02",
+          "typeId": "N2-LIS-SUMM",
+          "category": "Mondai 3: 概要理解",
+          "script": "地域の歴史を調べる研究者が、聞き取り調査について話しています。\n\n古い出来事を聞き取る時、話し手の記憶は貴重な資料です。ただし、何十年も前の記憶には、別の時期の経験が混ざることがあります。話を疑うという意味ではありません。写真や新聞など別の資料と照らし合わせ、食い違いがあれば、なぜ違うのかを追加で尋ねることが大切です。証言と記録を比べることで、出来事をより立体的に理解できます。",
+          "stem": "話し手は聞き取りの記録をどう扱うべきだと考えていますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "新聞の内容を証言より常に優先する"
+            },
+            {
+              "id": "B",
+              "text": "記憶を疑って調査をやめる"
+            },
+            {
+              "id": "C",
+              "text": "証言だけを事実として記録する"
+            },
+            {
+              "id": "D",
+              "text": "他の資料とも比べ、違いの背景を確かめる"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "証言を否定するのでなく、他の資料と照合して相違の理由を確かめます。",
+          "distractorExplanations": {
+            "A": "新聞を常に優先するのでなく、複数資料を照合します。",
+            "B": "調査をやめるのではなく、違いがあれば追加で確かめます。",
+            "C": "証言を貴重な資料と評価しており、それだけを唯一の根拠にするとは言いません。"
+          },
+          "explanationVi": "Nhà nghiên cứu xem lời kể là tư liệu quý, nhưng ký ức lâu năm có thể trộn lẫn thời điểm. Đối chiếu ảnh/báo chí và hỏi thêm về chỗ lệch giúp hiểu lý do khác nhau; đó không phải là phủ nhận nhân chứng.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_09/N2_09_M3_L02.mp3",
+          "audioDurationSec": 67.996,
+          "audioSha256": "b4c3d74050f1647f145dbf40b40ffc53634bc2c450c6724f8356ac79e055e698",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M3_L03",
+          "typeId": "N2-LIS-SUMM",
+          "category": "Mondai 3: 概要理解",
+          "script": "商店主が、地域イベントの成果の見方について話しています。\n\n祭りの日の売上が増えると、イベントは成功だと言われます。でも、準備にかかった費用や、通常の営業日に来るお客さんが減っていないかも見ないと、本当に商店のためになったかは分かりません。来場者数だけを目標にせず、店の人と地域の人が何を期待しているのかを先に確認する必要があると思います。",
+          "stem": "話し手はイベントを評価する時、何が必要だと言っていますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "来場者数を毎年同じにすること"
+            },
+            {
+              "id": "B",
+              "text": "売上の数字だけでなく費用や普段の営業への影響も見ること"
+            },
+            {
+              "id": "C",
+              "text": "地域の人の期待を後から推測すること"
+            },
+            {
+              "id": "D",
+              "text": "準備費用を記録しないこと"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "売上だけでなく費用・通常営業への影響を確かめる必要があると述べます。",
+          "distractorExplanations": {
+            "A": "来場者数だけを目標にしないと明言しています。",
+            "C": "期待を事前に確認する必要があるという主張で、後から推測するのではありません。",
+            "D": "費用も見るべきで、記録しないとは言っていません。"
+          },
+          "explanationVi": "Doanh thu ngày hội tăng chưa đủ chứng minh cửa hàng được lợi. Cần tính chi phí chuẩn bị và xem ngày thường có mất khách hay không, đồng thời hiểu mong đợi của người bán lẫn cư dân.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_09/N2_09_M3_L03.mp3",
+          "audioDurationSec": 63.244,
+          "audioSha256": "68bc0e195c2e4cdea820be046db8ee6dbc7143baec2e6d10ebfd37804d1c32ff",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M3_L04",
+          "typeId": "N2-LIS-SUMM",
+          "category": "Mondai 3: 概要理解",
+          "script": "大学の講師が、地域の方言を記録する活動について説明しています。\n\n方言を記録する時、珍しい言葉だけを集めればよいわけではありません。どんな相手に、どの場面で使うかが分からなければ、言葉の働きが見えなくなります。若い人が使わなくなった表現も、年配の人が使う状況を記録し、世代による違いを比べたいのです。言葉を保存するだけでなく、生活との関係を残すことが目的です。",
+          "stem": "この活動の目的は何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "珍しい単語の一覧を作ること"
+            },
+            {
+              "id": "B",
+              "text": "若い人に昔の表現だけを使わせること"
+            },
+            {
+              "id": "C",
+              "text": "方言を日常会話からなくすこと"
+            },
+            {
+              "id": "D",
+              "text": "使われる場面や世代差も含めて記録すること"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "語彙だけでなく、使用場面と世代による違いを含めて生活との関係を記録します。",
+          "distractorExplanations": {
+            "A": "珍しい単語だけでは使用状況が分からないと説明しています。",
+            "B": "若い人に特定表現の使用を義務づける話ではありません。",
+            "C": "方言をなくすのでなく、生活の中でどう使うか記録します。"
+          },
+          "explanationVi": "Mục đích không chỉ là lập danh sách từ lạ. Nhóm ghi cả ai nói với ai, trong hoàn cảnh nào và khác biệt giữa các thế hệ để bảo tồn mối liên hệ của phương ngữ với đời sống.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_09/N2_09_M3_L04.mp3",
+          "audioDurationSec": 63.292,
+          "audioSha256": "6fc77930ea23a10715229df5bc0b6854ecdcb2c641b8800ebd41fb95ec4164cd",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M3_L05",
+          "typeId": "N2-LIS-SUMM",
+          "category": "Mondai 3: 概要理解",
+          "script": "市議会の委員が、公共施設の利用者調査について話しています。\n\nアンケートで満足度を尋ねるのは大切ですが、それだけで施設の価値を決めるのは難しいでしょう。利用する人は答えられても、交通が不便で来られない人や、施設の存在を知らない人は回答しにくいからです。来館者の意見と合わせて、利用していない人にも届く方法で理由を聞く必要があります。",
+          "stem": "委員が特に問題だと考えているのは何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "来館者の意見を聞きすぎること"
+            },
+            {
+              "id": "B",
+              "text": "公共施設が無料であること"
+            },
+            {
+              "id": "C",
+              "text": "利用していない人の意見が調査から抜けやすいこと"
+            },
+            {
+              "id": "D",
+              "text": "満足度アンケートの質問数が多いこと"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "来館しない人は回答しにくく、調査から抜ける可能性を指摘しています。",
+          "distractorExplanations": {
+            "A": "来館者の意見を集めること自体に反対していません。",
+            "B": "施設の無料利用については述べていません。",
+            "D": "質問数や長さでなく、利用しない人が調査から抜ける点が問題です。"
+          },
+          "explanationVi": "Khảo sát tại cơ sở chỉ nghe được người đã đến; người ở xa hoặc chưa biết dịch vụ dễ bị bỏ khỏi mẫu. Ủy viên muốn tìm cách hỏi cả người không sử dụng để đánh giá công bằng hơn.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_09/N2_09_M3_L05.mp3",
+          "audioDurationSec": 59.62,
+          "audioSha256": "bc9bf38c875e3a2dbfd4f2c65dd95283f528d9abbaf8ceaa588311fb43cdb7e1",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M4_L01",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "男：この資料、専門用語が多くて初めて読む人には難しそうですね。",
+          "stem": "この資料、専門用語が多くて初めて読む人には難しそうですね。",
+          "options": [
+            {
+              "id": "A",
+              "text": "資料室は駅の向かいです。"
+            },
+            {
+              "id": "B",
+              "text": "はい、専門家は今朝帰りました。"
+            },
+            {
+              "id": "C",
+              "text": "では、説明を短い言葉に直してみましょう。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "分かりにくさの指摘に、表現を平易に直す提案が合います。",
+          "distractorExplanations": {
+            "A": "駅の場所の案内で、資料の難しさへの対応にはなりません。",
+            "B": "講師の帰宅時刻は、専門語が多いという指摘と無関係です。"
+          },
+          "explanationVi": "Người nói nhận xét tài liệu có nhiều thuật ngữ khó với người đọc lần đầu; phản hồi phù hợp là đề nghị đổi sang cách diễn đạt đơn giản hơn. Các ý còn lại không xử lý độ khó của văn bản.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_09/N2_09_M4_L01.mp3",
+          "audioDurationSec": 26.884,
+          "audioSha256": "9901b2f615f27ee32319d32dd26df971ee890931a99f5724f10689f891b6e452",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M4_L02",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "女：会場の入口が少し分かりにくかったという声がありました。",
+          "stem": "会場の入口が少し分かりにくかったという声がありました。",
+          "options": [
+            {
+              "id": "A",
+              "text": "入口で昨日の新聞を読みました。"
+            },
+            {
+              "id": "B",
+              "text": "はい、会場は三年前にできました。"
+            },
+            {
+              "id": "C",
+              "text": "それなら、案内表示を増やしてみませんか。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "案内の分かりにくさには表示改善の提案が自然です。",
+          "distractorExplanations": {
+            "A": "新聞を読む場所の話で、会場の案内表示の改善に答えていません。",
+            "B": "施設ができた時期を伝えるだけでは、入口の分かりにくさを解決しません。"
+          },
+          "explanationVi": "Phản hồi về lối vào khó tìm nên đề xuất tăng biển chỉ dẫn là giải pháp trực tiếp. Nhắc lịch sử hội trường hay đọc báo không liên quan đến vấn đề định hướng.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_09/N2_09_M4_L02.mp3",
+          "audioDurationSec": 26.284,
+          "audioSha256": "b4cee36c784b59721a8d495d0781edf596108ff009d5fe37927bbb8dd7819c1d",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M4_L03",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "男：申し訳ありません、予約した時間に遅れそうです。",
+          "stem": "申し訳ありません、予約した時間に遅れそうです。",
+          "options": [
+            {
+              "id": "A",
+              "text": "予約表は先月作りました。"
+            },
+            {
+              "id": "B",
+              "text": "では、到着する時刻が分かったら連絡してください。"
+            },
+            {
+              "id": "C",
+              "text": "はい、時間はいつも同じです。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "遅刻の連絡に対して、到着時刻の再連絡を求めるのが適切です。",
+          "distractorExplanations": {
+            "A": "予約表の作成時期は、遅れる連絡への次の手順を示していません。",
+            "C": "一般的な時間の話で、今回の到着連絡には答えていません。"
+          },
+          "explanationVi": "Người nói xin lỗi vì sẽ đến muộn; câu đáp yêu cầu báo lại giờ đến khi biết rõ. Như vậy nhóm có thể điều chỉnh lịch, thay vì trả lời lạc sang thời gian đặt chỗ.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_09/N2_09_M4_L03.mp3",
+          "audioDurationSec": 26.164,
+          "audioSha256": "459f9ec14e67efc272f405e7d51f1da5c9ff36e05ae39efd96e41a7d9aebe509",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M4_L04",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "女：この行事、若い人の参加が少ないですね。",
+          "stem": "この行事、若い人の参加が少ないですね。",
+          "options": [
+            {
+              "id": "A",
+              "text": "参加しやすい役割や時間を考えてみましょう。"
+            },
+            {
+              "id": "B",
+              "text": "はい、参加賞は駅で買えます。"
+            },
+            {
+              "id": "C",
+              "text": "若い木は裏庭に植えました。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "参加者が少ない問題には参加条件を工夫する提案が合います。",
+          "distractorExplanations": {
+            "B": "参加賞の購入場所は、参加を増やす方法への提案になりません。",
+            "C": "木の植え場所は、若い人の参加が少ないという相談と関係ありません。"
+          },
+          "explanationVi": "Ít người trẻ tham gia gợi ý cần xem lại vai trò và khung giờ sao cho dễ dự. Các câu nhiễu chỉ chơi chữ về cây trẻ hoặc phần thưởng, không giải quyết mức tham gia.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_09/N2_09_M4_L04.mp3",
+          "audioDurationSec": 24.748,
+          "audioSha256": "41cdf5e44ca62d929e445eb664f842a121544e0a01dc26877164cfb7e411f62b",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M4_L05",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "男：この数字だけで、制度の効果があったと言えるでしょうか。",
+          "stem": "この数字だけで、制度の効果があったと言えるでしょうか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "別の地域や期間の結果とも比べてみましょう。"
+            },
+            {
+              "id": "B",
+              "text": "数字は壁の右に書いてあります。"
+            },
+            {
+              "id": "C",
+              "text": "はい、効果は午後に届きます。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "単一の数値への疑問に、比較材料を増やす提案が自然です。",
+          "distractorExplanations": {
+            "B": "数字の掲示場所を伝えるだけで、評価に使う情報を増やす提案ではありません。",
+            "C": "効果が届くという表現は、根拠の比較に答えていません。"
+          },
+          "explanationVi": "Người nói nghi ngờ chỉ một con số có đủ chứng minh chính sách hiệu quả không. So sánh kết quả ở địa phương hoặc thời kỳ khác tạo thêm chuẩn đối chiếu; khẳng định ngay sẽ quá vội.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_09/N2_09_M4_L05.mp3",
+          "audioDurationSec": 25.804,
+          "audioSha256": "5b5a7da27df990114144d87086812365c73c63e0c14208d098c69bc7c610363b",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M4_L06",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "女：今日は道路が混んでいるので、集合場所に少し遅れます。",
+          "stem": "今日は道路が混んでいるので、集合場所に少し遅れます。",
+          "options": [
+            {
+              "id": "A",
+              "text": "はい、道は毎日同じです。"
+            },
+            {
+              "id": "B",
+              "text": "分かりました。着いたら受付に声をかけてください。"
+            },
+            {
+              "id": "C",
+              "text": "集合写真は来週撮ります。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "遅れる連絡を受け、到着後の手順を伝える応答です。",
+          "distractorExplanations": {
+            "A": "道の普段の状態ではなく、今日の到着後の案内を求めています。",
+            "C": "写真撮影の予定は、交通事情による遅刻の連絡と無関係です。"
+          },
+          "explanationVi": "Sau khi được báo sẽ đến muộn vì kẹt xe, người nghe xác nhận đã hiểu và chỉ cách làm khi tới nơi: báo cho quầy tiếp tân. Đây là hướng dẫn thực tế tiếp theo.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_09/N2_09_M4_L06.mp3",
+          "audioDurationSec": 26.572,
+          "audioSha256": "91cfb7bc4cc85cf93f2ebfa16cf5415ea0b0032b4b6d1757c3fb7919b488396e",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M4_L07",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "男：反対意見も会議の記録に残したほうがいいですか。",
+          "stem": "反対意見も会議の記録に残したほうがいいですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "いいえ、会議は来月終わります。"
+            },
+            {
+              "id": "B",
+              "text": "はい、理由と一緒に記録しておくとよいでしょう。"
+            },
+            {
+              "id": "C",
+              "text": "記録係は二階の部屋です。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "記録の扱いに関する質問へ、反対意見も理由とともに残す助言です。",
+          "distractorExplanations": {
+            "A": "会議の予定時期では、記録方法への確認に対応できません。",
+            "C": "部屋の場所を案内するだけで、反対意見を記録するかには答えません。"
+          },
+          "explanationVi": "Nên ghi cả ý kiến phản đối cùng lý do để biên bản phản ánh quá trình cân nhắc đầy đủ. Chỉ ghi kết luận sẽ khiến người đọc sau này không hiểu vì sao có bất đồng.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_09/N2_09_M4_L07.mp3",
+          "audioDurationSec": 25.468,
+          "audioSha256": "b6966d5b95ec91cdfff0699a66e940c962f4da85ee6ab1e8928ea6f5977529ef",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M4_L08",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "女：展示の説明文、もう少し短くできませんか。",
+          "stem": "展示の説明文、もう少し短くできませんか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "要点を残して、重複している部分を削りましょう。"
+            },
+            {
+              "id": "B",
+              "text": "はい、短い道を通って帰りました。"
+            },
+            {
+              "id": "C",
+              "text": "展示会は午後から始まります。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "説明文を短くする相談に、重複部分を削る案が合います。",
+          "distractorExplanations": {
+            "B": "道順の「短さ」の話で、文の重複を減らす提案ではありません。",
+            "C": "展示会の開始時刻は、説明文を短くする相談と関係ありません。"
+          },
+          "explanationVi": "Muốn rút ngắn chú thích triển lãm thì giữ ý chính và bỏ phần lặp. Đề xuất này trực tiếp sửa độ dài mà không làm mất thông tin cần thiết.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_09/N2_09_M4_L08.mp3",
+          "audioDurationSec": 26.356,
+          "audioSha256": "e5bc6b80d2cfdb529737d7e374abb50917e353aeeff814d09b868ab73d9bf3e5",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M4_L09",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "男：申込方法が変わったことを、まだ知らない人が多いようです。",
+          "stem": "申込方法が変わったことを、まだ知らない人が多いようです。",
+          "options": [
+            {
+              "id": "A",
+              "text": "はい、知らせは先週食べました。"
+            },
+            {
+              "id": "B",
+              "text": "では、以前申し込んだ人にも改めて知らせましょう。"
+            },
+            {
+              "id": "C",
+              "text": "方法は駅前で練習しました。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "変更の周知不足には、対象者へ再通知する提案が適切です。",
+          "distractorExplanations": {
+            "A": "食べるという返答は意味が通らず、変更通知にも答えていません。",
+            "C": "練習場所は周知不足の相談と無関係です。"
+          },
+          "explanationVi": "Nhiều người chưa biết thủ tục đăng ký đổi, gồm cả người đã nộp theo cách cũ. Vì vậy cần gửi thông báo lại cho nhóm đó, không chỉ đăng phương thức mới ở một nơi.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_09/N2_09_M4_L09.mp3",
+          "audioDurationSec": 27.172,
+          "audioSha256": "521aed5a58b3f7b04425f03abc8579e1054e788eb36816fe308ef0899bd35de6",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M4_L10",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "女：さっきの説明だと、誰が費用を負担するのか分かりませんでした。",
+          "stem": "さっきの説明だと、誰が費用を負担するのか分かりませんでした。",
+          "options": [
+            {
+              "id": "A",
+              "text": "はい、説明書は青い色です。"
+            },
+            {
+              "id": "B",
+              "text": "費用は昨日、道を負担しました。"
+            },
+            {
+              "id": "C",
+              "text": "失礼しました。負担する人と金額をもう一度説明します。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "説明不足への指摘を受け、負担者と金額を明確に説明する返答です。",
+          "distractorExplanations": {
+            "A": "色の情報では、誰がいくら負担するか分かりません。",
+            "B": "費用を道路が負担するという文は、費用負担者を明確にする返答になりません。"
+          },
+          "explanationVi": "Người nghe chỉ ra lời giải thích chưa nói rõ ai trả tiền; đáp lại trước hết xin lỗi và sẽ nói lại cả người chịu phí lẫn số tiền. Đó là hai chi tiết đang thiếu.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_09/N2_09_M4_L10.mp3",
+          "audioDurationSec": 28.66,
+          "audioSha256": "3e884b3bd73b1eee0d996b30650cc18641c306801b253aec4f5a4050f71f8137",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M4_L11",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "男：当日の案内係が一人だけでは足りないかもしれません。",
+          "stem": "当日の案内係が一人だけでは足りないかもしれません。",
+          "options": [
+            {
+              "id": "A",
+              "text": "案内は毎週木曜日に届きます。"
+            },
+            {
+              "id": "B",
+              "text": "はい、一人は数字の一つです。"
+            },
+            {
+              "id": "C",
+              "text": "そうですね。混みそうな場所にも担当を置きましょう。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "人手不足の可能性に対して、混雑場所にも人員を配置する提案です。",
+          "distractorExplanations": {
+            "A": "案内が届く曜日は、当日の人員不足への対応ではありません。",
+            "B": "一人を数字として扱う冗談で、係員配置の提案になりません。"
+          },
+          "explanationVi": "Lo ngại một hướng dẫn viên không đủ nhân lực được xử lý bằng cách bố trí thêm người ở khu vực dễ đông. Đây là biện pháp cụ thể phù hợp với nguy cơ ùn tắc.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_09/N2_09_M4_L11.mp3",
+          "audioDurationSec": 27.028,
+          "audioSha256": "4f3496cc106131c61460442495363433fc651bc5fb585a4f50d79d333167417f",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M5_L01",
+          "typeId": "N2-LIS-INTEG",
+          "category": "Mondai 5: 統合理解",
+          "script": "地域の図書館で、司書とボランティアが子ども向け行事の運営について話しています。\n\n女：読み聞かせ会は午後二時に始めます。参加は無料ですが、座席の準備があるので、前日までに予約してください。\n男：子どもが途中で帰っても大丈夫ですか。\n女：もちろんです。保護者は入口で名前だけ記入してください。写真撮影は、他の参加者が写らない場合に限ります。\n男：分かりました。案内には途中退出と撮影の条件も書きます。",
+          "stem": "ボランティアは案内に何を追加しますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "途中退出と撮影の条件"
+            },
+            {
+              "id": "B",
+              "text": "保護者の住所を記入すること"
+            },
+            {
+              "id": "C",
+              "text": "参加費と開始時刻だけ"
+            },
+            {
+              "id": "D",
+              "text": "予約不要であること"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "話し手は途中退出可能と、他の参加者が写らない場合に限り撮影できると確認しています。",
+          "distractorExplanations": {
+            "B": "保護者は名前を記入し、住所の記入とはされていません。",
+            "C": "開始時刻と費用は説明済みですが、案内に加える内容を尋ねています。",
+            "D": "予約は前日までに必要で、不要とは言っていません。"
+          },
+          "explanationVi": "Hai điều cần thêm vào hướng dẫn là khách có thể rời giữa chừng và điều kiện chụp ảnh: chỉ chụp khi người tham gia khác không lọt vào ảnh. Phần thời gian/miễn phí đã có trong thông báo.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_09/N2_09_M5_L01.mp3",
+          "audioDurationSec": 52.388,
+          "audioSha256": "05928d85608bbf8e402ae493019b0d7bfacc291dc4ca58fc9c43b3ac3293622d",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M5_L02",
+          "typeId": "N2-LIS-INTEG",
+          "category": "Mondai 5: 統合理解",
+          "script": "市の職員と地域の代表が、住民説明会の開催方法について話しています。\n\n男：説明会は平日の午後六時に一度だけ開く予定です。\n女：その時間は仕事で来られない人が多いと思います。内容を録画して後日見られるようにできませんか。\n男：録画はできますが、質問への回答はその場だけになります。\n女：では、後から質問を送れる期間も設けてください。回答はまとめて公開すれば、当日来られない人にも伝わります。\n男：分かりました。開催後一週間、質問を受け付けます。",
+          "stem": "説明会の後、市は何をすることになりましたか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "説明会を毎日開催する"
+            },
+            {
+              "id": "B",
+              "text": "参加者だけに個別の回答をする"
+            },
+            {
+              "id": "C",
+              "text": "録画を削除する"
+            },
+            {
+              "id": "D",
+              "text": "質問を一週間受け付け、回答をまとめて公開する"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "録画に加えて、開催後一週間質問を受け付け、回答をまとめて公開します。",
+          "distractorExplanations": {
+            "A": "毎日開催するのではなく、開催後の質問期間を設けます。",
+            "B": "回答は個別でなく、まとめて公開する方針です。",
+            "C": "録画は残すことになり、削除する案ではありません。"
+          },
+          "explanationVi": "Không phải ai cũng đến được buổi họp một lần vào chiều ngày thường. Thành phố sẽ nhận câu hỏi trong một tuần sau đó rồi công bố câu trả lời chung, bên cạnh bản ghi hình.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_09/N2_09_M5_L02.mp3",
+          "audioDurationSec": 55.932,
+          "audioSha256": "225ddd42855903b52e5feebac12a52fdd82f355fb512f40062636fed5eab2277",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M5_L03",
+          "typeId": "N2-LIS-INTEG",
+          "category": "Mondai 5: 統合理解",
+          "script": "商店街で、学生と店主が地域商品の紹介方法について話しています。\n\n女：新しい菓子を売り出すので、店頭に大きなポスターを出したいです。\n男：商品名だけでは、どんな材料を使っているのか分かりません。\n女：地元の果物を使っています。生産者の名前も載せましょうか。\n男：本人に確認した上で、材料の産地と商品の特徴を短く紹介するといいですね。値段はレジの表示を見れば分かります。\n女：では、生産者に掲載の許可を取って説明文を作ります。",
+          "stem": "学生は次に何をしますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "生産者に確認して、産地と特徴の説明文を作る"
+            },
+            {
+              "id": "B",
+              "text": "果物の生産を自分で始める"
+            },
+            {
+              "id": "C",
+              "text": "商品を店頭から下げる"
+            },
+            {
+              "id": "D",
+              "text": "値段を大きく書いたポスターを先に印刷する"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "生産者の許可を得てから、産地と商品の特徴を短く紹介します。",
+          "distractorExplanations": {
+            "B": "学生は説明文を作りますが、果物を栽培するとは言っていません。",
+            "C": "商品を店頭から下げる話ではなく、紹介方法を整えます。",
+            "D": "価格はレジ表示で分かるため、ポスターに先に大きく載せる依頼ではありません。"
+          },
+          "explanationVi": "Trước khi dùng tên người sản xuất, sinh viên phải xin phép họ. Sau đó viết ngắn về nguồn gốc nguyên liệu và đặc điểm sản phẩm; giá đã được hiển thị tại quầy.",
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_09/N2_09_M5_L03.mp3",
+          "audioDurationSec": 51.876,
+          "audioSha256": "3447c09a3b9aa15221f69340eb8274dab99feb50947bff23c13f8d3b64cb95de",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",

@@ -1458,7 +1458,7 @@ def get_n2_mock_07_sec1_items():
     "correctAnswer": "B",
     "starPosition": 3,
     "assembledSentence": "証明書を申請する場合は、申請書に必要事項を記入し本人確認書類を窓口へ提出してください。",
-    "explanation": "Trình tự: 申請書に必要事項を (C) -> 記入し (A) -> 本人確認書類を (B) -> 窓口へ提出してください (D). Tân ngữ 必要事項を đi cùng động từ 記入し; tiếp theo là giấy tờ xác minh danh tính làm tân ngữ của 提出してください. Vị trí ★ là 本人確認書類を (B).",
+    "explanation": "Câu hoàn chỉnh: 証明書を申請する場合は、申請書に必要事項を記入し本人確認書類を窓口へ提出してください。 Nghĩa là khi xin cấp giấy chứng nhận, hãy điền thông tin cần thiết vào đơn, rồi nộp giấy tờ xác minh danh tính tại quầy. 必要事項を là tân ngữ của 記入し; sau đó 本人確認書類を là tân ngữ của 提出してください. Mảnh ★ là 本人確認書類を.",
     "distractorExplanations": {
       "A": "記入し nối với tân ngữ 必要事項を trong cụm 申請書に必要事項を記入し; không phải vị trí đánh dấu ★.",
       "C": "申請書に必要事項を đứng ở vị trí đầu tiên để làm nền cho động từ 記入し.",
@@ -1491,7 +1491,7 @@ def get_n2_mock_07_sec1_items():
     "correctAnswer": "B",
     "starPosition": 3,
     "assembledSentence": "今回の臨時給付金は、世帯所得の多寡を問わず、すべての対象世帯へ一律に支給されます。",
-    "explanation": "Cấu trúc: ～を問わず (không phân biệt). Thứ tự: 多寡を (D) -> 問わず、(A) -> すべての (B) -> 対象世帯へ (C). Câu hoàn chỉnh: 今回の臨時給付金は、世帯所得の多寡を問わず、すべての対象世帯へ一律に支給されます。 Vị trí ngôi sao ★ là すべての (đáp án B).",
+    "explanation": "Câu hoàn chỉnh: 今回の臨時給付金は、世帯所得の多寡を問わず、すべての対象世帯へ一律に支給されます。 Nghĩa là khoản hỗ trợ đột xuất được cấp đồng đều cho mọi hộ đủ điều kiện, không phân biệt thu nhập cao hay thấp. Cấu trúc 多寡を問わず nghĩa là không xét mức độ; すべての bổ nghĩa cho 対象世帯へ. Mảnh ★ là すべての.",
     "distractorExplanations": {
       "A": "Vị trí 2 (問わず).",
       "C": "Vị trí 4 (対象世帯へ).",
@@ -1524,7 +1524,7 @@ def get_n2_mock_07_sec1_items():
     "correctAnswer": "C",
     "starPosition": 3,
     "assembledSentence": "代理人として住民票の再発行を申請する場合は、申請者本人が作成した委任状を事前に受け取っておく必要があります。",
-    "explanation": "Trình tự: 申請者本人が作成した (A) bổ nghĩa cho 委任状 (B); 委任状を là tân ngữ của 事前に受け取っておく (C), sau đó là 必要が (D) để tạo 必要があります. Vị trí ★ là 事前に受け取っておく (C).",
+    "explanation": "Câu hoàn chỉnh: 代理人として住民票の再発行を申請する場合は、申請者本人が作成した委任状を事前に受け取っておく必要があります。 Nghĩa là nếu nộp đơn thay người khác, cần nhận trước giấy ủy quyền do chính người nộp đơn lập. Mệnh đề 申請者本人が作成した bổ nghĩa cho 委任状; 委任状を là tân ngữ của 事前に受け取っておく; 必要があります diễn tả sự cần thiết. Mảnh ★ là 事前に受け取っておく.",
     "distractorExplanations": {
       "A": "申請者本人が作成した bổ nghĩa cho 委任状, vì vậy đứng trước cụm này.",
       "B": "委任状を là tân ngữ của 事前に受け取っておく; nó đứng giữa cụm bổ nghĩa và động từ.",
@@ -1557,7 +1557,7 @@ def get_n2_mock_07_sec1_items():
     "correctAnswer": "D",
     "starPosition": 3,
     "assembledSentence": "会議の議事録を作る際は、単に発言を文字に起こすだけでなく、発言者の意図を正確に読み取ることも大切です。",
-    "explanation": "Cấu trúc 「単に～だけでなく～も」 nối hai việc cần làm song song. 「発言者の意図を」 là tân ngữ của 「正確に読み取る」; cụm động từ + 「ことも」 làm chủ đề đánh giá trước 「大切です」. Trình tự: B -> A -> D -> C; vị trí ★ là 「正確に読み取る」 (D).",
+    "explanation": "Câu hoàn chỉnh: 会議の議事録を作る際は、単に発言を文字に起こすだけでなく、発言者の意図を正確に読み取ることも大切です。 Nghĩa là khi ghi biên bản, ngoài việc chép lại lời nói, cũng cần hiểu đúng ý định của người phát biểu. Cấu trúc 単に～だけでなく～も nối hai việc song song; 発言者の意図を là tân ngữ của 正確に読み取る. Mảnh ★ là 正確に読み取る.",
     "distractorExplanations": {
       "A": "発言者の意図を là tân ngữ, cần đứng trước vị ngữ 正確に読み取る.",
       "B": "単に～だけでなく mở phần thứ nhất của cấu trúc đối sánh và phải đứng trước phần ～も.",
@@ -1590,7 +1590,7 @@ def get_n2_mock_07_sec1_items():
     "correctAnswer": "C",
     "starPosition": 3,
     "assembledSentence": "この施策は、利用者の利便性を大幅に高める可能性が高いと予想される。",
-    "explanation": "Trình tự A -> B -> C -> D: 「利用者の利便性を大幅に高める」 bổ nghĩa cho danh từ 「可能性」; cụm cố định 「可能性が高い」 nêu mức độ khả năng và được dẫn bằng 「と」 trước 「予想される」. Vị trí ★ là 「可能性が」 (C).",
+    "explanation": "Câu hoàn chỉnh: この施策は、利用者の利便性を大幅に高める可能性が高いと予想される。 Nghĩa là dự đoán biện pháp này có khả năng cải thiện đáng kể sự tiện lợi cho người dùng. 利用者の利便性を là tân ngữ; 大幅に高める bổ nghĩa cho 可能性; 可能性が高い nối với と予想される. Mảnh ★ là 可能性が.",
     "distractorExplanations": {
       "A": "利用者の利便性を là tân ngữ của 高める, phải theo sau bổ ngữ 大幅に và trước cụm danh từ 可能性.",
       "B": "大幅に高める là vị ngữ trong mệnh đề bổ nghĩa cho 可能性; 可能性があると予想される là cấu trúc chính.",
@@ -1782,7 +1782,7 @@ def get_n2_mock_07_sec1_items():
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Đoạn văn nêu rõ: '各自の重要データにつきまして、本日17時までに所定のクラウド共有ドライブへ退避作業を完了していただきますようお願いいたします'.",
+    "explanation": "Thông báo yêu cầu mỗi nhân viên sao lưu dữ liệu quan trọng lên thư mục đám mây dùng chung trước 17 giờ hôm nay, trước đợt cập nhật bảo mật vào thứ Hai tới. Máy chưa sao lưu sẽ bị hoãn cập nhật và xử lý riêng; nhân viên không tự thực hiện cập nhật.",
     "distractorExplanations": {
       "A": "Không yêu cầu mang máy lên phòng tổng vụ.",
       "B": "Việc cập nhật do hệ thống làm vào thứ 2 tới, nhân viên không tự cài đặt.",

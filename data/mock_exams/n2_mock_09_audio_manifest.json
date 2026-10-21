@@ -146,209 +146,310 @@
     "questionId": "N2_09_M3_L01",
     "audioUrl": "audio/n2_mock_09/N2_09_M3_L01.mp3",
     "audioDurationSec": 66.508,
-    "audioSha256": "dd0e87c78dd4cb0aee8c0458d6db91ce4ba4061f421e50287187c3c5c6a88e75",
+    "audioSha256": "1c0b7c4871eb56424337ca7bc20408d60ee2ea6a175fb655d2052a82bf56b33b",
     "audioSizeBytes": 399692,
     "audioVerificationStatus": "PLAYBACK_QA_PENDING",
     "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
     "speakerVoices": [
       "ja-JP-NanamiNeural",
       "ja-JP-KeitaNeural"
-    ]
+    ],
+    "spokenOptionTexts": [
+      "動画を使った広報をすべて中止するべきだ",
+      "自治体の動画は短くすれば十分だ",
+      "動画と文字の両方で必要な情報を確認できるようにするべきだ",
+      "申込条件を広報誌から削除するべきだ"
+    ],
+    "spokenOptionsTranscriptSha256": "663ef4c642b7d1d06b5074010fae12b503ae5dc6d3fbd36b9ef3654a3322cd80"
   },
   "N2_09_M3_L02": {
     "questionId": "N2_09_M3_L02",
     "audioUrl": "audio/n2_mock_09/N2_09_M3_L02.mp3",
     "audioDurationSec": 67.996,
-    "audioSha256": "ac9621d99f3d236acc1295d0506c0525eee86b962ff926479728ddb5ed5cc12f",
+    "audioSha256": "b4c3d74050f1647f145dbf40b40ffc53634bc2c450c6724f8356ac79e055e698",
     "audioSizeBytes": 408620,
     "audioVerificationStatus": "PLAYBACK_QA_PENDING",
     "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
     "speakerVoices": [
       "ja-JP-NanamiNeural",
       "ja-JP-KeitaNeural"
-    ]
+    ],
+    "spokenOptionTexts": [
+      "新聞の内容を証言より常に優先する",
+      "記憶を疑って調査をやめる",
+      "証言だけを事実として記録する",
+      "他の資料とも比べ、違いの背景を確かめる"
+    ],
+    "spokenOptionsTranscriptSha256": "bbdb45499647e74c33074f28ef6bdeed8281ca840b788e59536dbda61cb341c3"
   },
   "N2_09_M3_L03": {
     "questionId": "N2_09_M3_L03",
     "audioUrl": "audio/n2_mock_09/N2_09_M3_L03.mp3",
     "audioDurationSec": 63.244,
-    "audioSha256": "cec6b33326f131a3f66a466ce3697caca1e8ef2b502283e06831056c60cb8d22",
+    "audioSha256": "68bc0e195c2e4cdea820be046db8ee6dbc7143baec2e6d10ebfd37804d1c32ff",
     "audioSizeBytes": 380108,
     "audioVerificationStatus": "PLAYBACK_QA_PENDING",
     "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
     "speakerVoices": [
       "ja-JP-NanamiNeural",
       "ja-JP-KeitaNeural"
-    ]
+    ],
+    "spokenOptionTexts": [
+      "来場者数を毎年同じにすること",
+      "売上の数字だけでなく費用や普段の営業への影響も見ること",
+      "地域の人の期待を後から推測すること",
+      "準備費用を記録しないこと"
+    ],
+    "spokenOptionsTranscriptSha256": "0d145f48be83b4adecb15ca86df9abbc389eba15f2c833c228380fefb5d41e11"
   },
   "N2_09_M3_L04": {
     "questionId": "N2_09_M3_L04",
     "audioUrl": "audio/n2_mock_09/N2_09_M3_L04.mp3",
-    "audioDurationSec": 63.316,
-    "audioSha256": "582964418c4c20390869c5b05928f9ccb7116e1ea5bb5e25ea4afa68ba859c3c",
-    "audioSizeBytes": 380540,
+    "audioDurationSec": 63.292,
+    "audioSha256": "6fc77930ea23a10715229df5bc0b6854ecdcb2c641b8800ebd41fb95ec4164cd",
+    "audioSizeBytes": 380396,
     "audioVerificationStatus": "PLAYBACK_QA_PENDING",
     "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
     "speakerVoices": [
       "ja-JP-NanamiNeural",
       "ja-JP-KeitaNeural"
-    ]
+    ],
+    "spokenOptionTexts": [
+      "珍しい単語の一覧を作ること",
+      "若い人に昔の表現だけを使わせること",
+      "方言を日常会話からなくすこと",
+      "使われる場面や世代差も含めて記録すること"
+    ],
+    "spokenOptionsTranscriptSha256": "9fb5cde8106c6ba7431d4082e00d9aad3d150217eaad1e2833c58c468fc2ee57"
   },
   "N2_09_M3_L05": {
     "questionId": "N2_09_M3_L05",
     "audioUrl": "audio/n2_mock_09/N2_09_M3_L05.mp3",
-    "audioDurationSec": 59.572,
-    "audioSha256": "752e9ff1b041af7975b4c1a09a75cdf9f00548ae74e1096c30cbbf01f640e2dc",
-    "audioSizeBytes": 358076,
+    "audioDurationSec": 59.62,
+    "audioSha256": "bc9bf38c875e3a2dbfd4f2c65dd95283f528d9abbaf8ceaa588311fb43cdb7e1",
+    "audioSizeBytes": 358364,
     "audioVerificationStatus": "PLAYBACK_QA_PENDING",
     "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
     "speakerVoices": [
       "ja-JP-NanamiNeural",
       "ja-JP-KeitaNeural"
-    ]
+    ],
+    "spokenOptionTexts": [
+      "来館者の意見を聞きすぎること",
+      "公共施設が無料であること",
+      "利用していない人の意見が調査から抜けやすいこと",
+      "満足度アンケートの質問数が多いこと"
+    ],
+    "spokenOptionsTranscriptSha256": "0039c8e5663165e30a8a6bf89c368c7041b7a19393195f0e24b1bb8844616cbe"
   },
   "N2_09_M4_L01": {
     "questionId": "N2_09_M4_L01",
     "audioUrl": "audio/n2_mock_09/N2_09_M4_L01.mp3",
-    "audioDurationSec": 26.788,
-    "audioSha256": "7884c1d97e15448acc20b930113d5920ad7163bc5e8bfb70719d9169af3f5c17",
-    "audioSizeBytes": 161372,
+    "audioDurationSec": 26.884,
+    "audioSha256": "9901b2f615f27ee32319d32dd26df971ee890931a99f5724f10689f891b6e452",
+    "audioSizeBytes": 161948,
     "audioVerificationStatus": "PLAYBACK_QA_PENDING",
     "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
     "speakerVoices": [
       "ja-JP-NanamiNeural",
       "ja-JP-KeitaNeural"
-    ]
+    ],
+    "spokenOptionTexts": [
+      "資料室は駅の向かいです。",
+      "はい、専門家は今朝帰りました。",
+      "では、説明を短い言葉に直してみましょう。"
+    ],
+    "spokenOptionsTranscriptSha256": "435e3d58c25648fdfe9811d7ee3caed2922b1e972e78566d3264a7e57ee6e19c"
   },
   "N2_09_M4_L02": {
     "questionId": "N2_09_M4_L02",
     "audioUrl": "audio/n2_mock_09/N2_09_M4_L02.mp3",
-    "audioDurationSec": 26.308,
-    "audioSha256": "2817476cf09787541271f21977115f12a7deca400d229351fa638fb60802cd95",
-    "audioSizeBytes": 158492,
+    "audioDurationSec": 26.284,
+    "audioSha256": "b4cee36c784b59721a8d495d0781edf596108ff009d5fe37927bbb8dd7819c1d",
+    "audioSizeBytes": 158348,
     "audioVerificationStatus": "PLAYBACK_QA_PENDING",
     "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
     "speakerVoices": [
       "ja-JP-NanamiNeural",
       "ja-JP-KeitaNeural"
-    ]
+    ],
+    "spokenOptionTexts": [
+      "入口で昨日の新聞を読みました。",
+      "はい、会場は三年前にできました。",
+      "それなら、案内表示を増やしてみませんか。"
+    ],
+    "spokenOptionsTranscriptSha256": "ce1ad8c566cd4955171612e3d21009d7fd399c015bfc8c26e0743b1dd1e00df6"
   },
   "N2_09_M4_L03": {
     "questionId": "N2_09_M4_L03",
     "audioUrl": "audio/n2_mock_09/N2_09_M4_L03.mp3",
-    "audioDurationSec": 26.116,
-    "audioSha256": "fde79975b8476898117a7b82e4ed55d37797e81b09b1e4068deb9a3e8a71b745",
-    "audioSizeBytes": 157340,
+    "audioDurationSec": 26.164,
+    "audioSha256": "459f9ec14e67efc272f405e7d51f1da5c9ff36e05ae39efd96e41a7d9aebe509",
+    "audioSizeBytes": 157628,
     "audioVerificationStatus": "PLAYBACK_QA_PENDING",
     "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
     "speakerVoices": [
       "ja-JP-NanamiNeural",
       "ja-JP-KeitaNeural"
-    ]
+    ],
+    "spokenOptionTexts": [
+      "予約表は先月作りました。",
+      "では、到着する時刻が分かったら連絡してください。",
+      "はい、時間はいつも同じです。"
+    ],
+    "spokenOptionsTranscriptSha256": "6f0e1abccdf380845e9cfd4facaa2077132d6e3fa84283794c8f5bb1f32f3ae4"
   },
   "N2_09_M4_L04": {
     "questionId": "N2_09_M4_L04",
     "audioUrl": "audio/n2_mock_09/N2_09_M4_L04.mp3",
     "audioDurationSec": 24.748,
-    "audioSha256": "36791dcd900d6cce5a4f1914bece05374a1f38e5fc65d44da0412af0e7cfb22c",
+    "audioSha256": "41cdf5e44ca62d929e445eb664f842a121544e0a01dc26877164cfb7e411f62b",
     "audioSizeBytes": 149132,
     "audioVerificationStatus": "PLAYBACK_QA_PENDING",
     "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
     "speakerVoices": [
       "ja-JP-NanamiNeural",
       "ja-JP-KeitaNeural"
-    ]
+    ],
+    "spokenOptionTexts": [
+      "参加しやすい役割や時間を考えてみましょう。",
+      "はい、参加賞は駅で買えます。",
+      "若い木は裏庭に植えました。"
+    ],
+    "spokenOptionsTranscriptSha256": "cddc8a1ac385063f32315573e88d12a09b177c07897a2781dfaf08446f8c6448"
   },
   "N2_09_M4_L05": {
     "questionId": "N2_09_M4_L05",
     "audioUrl": "audio/n2_mock_09/N2_09_M4_L05.mp3",
-    "audioDurationSec": 25.732,
-    "audioSha256": "ed5bea0dd366a3913dd4c5a05e59f8f5447409114c07e0470c115e4e37442800",
-    "audioSizeBytes": 155036,
+    "audioDurationSec": 25.804,
+    "audioSha256": "5b5a7da27df990114144d87086812365c73c63e0c14208d098c69bc7c610363b",
+    "audioSizeBytes": 155468,
     "audioVerificationStatus": "PLAYBACK_QA_PENDING",
     "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
     "speakerVoices": [
       "ja-JP-NanamiNeural",
       "ja-JP-KeitaNeural"
-    ]
+    ],
+    "spokenOptionTexts": [
+      "別の地域や期間の結果とも比べてみましょう。",
+      "数字は壁の右に書いてあります。",
+      "はい、効果は午後に届きます。"
+    ],
+    "spokenOptionsTranscriptSha256": "35ae6b1251f08f6335be5836dead8cb68f6ef5f5362a487907bca0ac4e371028"
   },
   "N2_09_M4_L06": {
     "questionId": "N2_09_M4_L06",
     "audioUrl": "audio/n2_mock_09/N2_09_M4_L06.mp3",
-    "audioDurationSec": 26.548,
-    "audioSha256": "b13af786e7eef8ea9aa26b8d35612da0e9504f3175a0d06a5e2357fe3ef75512",
-    "audioSizeBytes": 159932,
+    "audioDurationSec": 26.572,
+    "audioSha256": "91cfb7bc4cc85cf93f2ebfa16cf5415ea0b0032b4b6d1757c3fb7919b488396e",
+    "audioSizeBytes": 160076,
     "audioVerificationStatus": "PLAYBACK_QA_PENDING",
     "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
     "speakerVoices": [
       "ja-JP-NanamiNeural",
       "ja-JP-KeitaNeural"
-    ]
+    ],
+    "spokenOptionTexts": [
+      "はい、道は毎日同じです。",
+      "分かりました。着いたら受付に声をかけてください。",
+      "集合写真は来週撮ります。"
+    ],
+    "spokenOptionsTranscriptSha256": "8f32a6b9af537f097286ab3bcb23b9dcac9418142aa6114cffa3bba41323924f"
   },
   "N2_09_M4_L07": {
     "questionId": "N2_09_M4_L07",
     "audioUrl": "audio/n2_mock_09/N2_09_M4_L07.mp3",
-    "audioDurationSec": 25.54,
-    "audioSha256": "7f29db78c113d39d0771a9824930b527861f915f05ef39e3bd2e057291541258",
-    "audioSizeBytes": 153884,
+    "audioDurationSec": 25.468,
+    "audioSha256": "b6966d5b95ec91cdfff0699a66e940c962f4da85ee6ab1e8928ea6f5977529ef",
+    "audioSizeBytes": 153452,
     "audioVerificationStatus": "PLAYBACK_QA_PENDING",
     "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
     "speakerVoices": [
       "ja-JP-NanamiNeural",
       "ja-JP-KeitaNeural"
-    ]
+    ],
+    "spokenOptionTexts": [
+      "いいえ、会議は来月終わります。",
+      "はい、理由と一緒に記録しておくとよいでしょう。",
+      "記録係は二階の部屋です。"
+    ],
+    "spokenOptionsTranscriptSha256": "5c06fe09d4722bc604d5a64a464abaa5d9b9c997d519ffa6fd9d308527a210b7"
   },
   "N2_09_M4_L08": {
     "questionId": "N2_09_M4_L08",
     "audioUrl": "audio/n2_mock_09/N2_09_M4_L08.mp3",
-    "audioDurationSec": 26.428,
-    "audioSha256": "c92f07892c1b58f8884546c52ad847d2d983465222b141395fdc636906a46642",
-    "audioSizeBytes": 159212,
+    "audioDurationSec": 26.356,
+    "audioSha256": "e5bc6b80d2cfdb529737d7e374abb50917e353aeeff814d09b868ab73d9bf3e5",
+    "audioSizeBytes": 158780,
     "audioVerificationStatus": "PLAYBACK_QA_PENDING",
     "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
     "speakerVoices": [
       "ja-JP-NanamiNeural",
       "ja-JP-KeitaNeural"
-    ]
+    ],
+    "spokenOptionTexts": [
+      "要点を残して、重複している部分を削りましょう。",
+      "はい、短い道を通って帰りました。",
+      "展示会は午後から始まります。"
+    ],
+    "spokenOptionsTranscriptSha256": "d5889b6cc0369e69030df5aaa5f0ab8ab83c8a09b771e93c11145cf2e333892d"
   },
   "N2_09_M4_L09": {
     "questionId": "N2_09_M4_L09",
     "audioUrl": "audio/n2_mock_09/N2_09_M4_L09.mp3",
-    "audioDurationSec": 27.196,
-    "audioSha256": "453ab44ebb27e1da3d1b84659f7d71f9ce6ba5630bad2683f58e97868bc0e78d",
-    "audioSizeBytes": 163820,
+    "audioDurationSec": 27.172,
+    "audioSha256": "521aed5a58b3f7b04425f03abc8579e1054e788eb36816fe308ef0899bd35de6",
+    "audioSizeBytes": 163676,
     "audioVerificationStatus": "PLAYBACK_QA_PENDING",
     "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
     "speakerVoices": [
       "ja-JP-NanamiNeural",
       "ja-JP-KeitaNeural"
-    ]
+    ],
+    "spokenOptionTexts": [
+      "はい、知らせは先週食べました。",
+      "では、以前申し込んだ人にも改めて知らせましょう。",
+      "方法は駅前で練習しました。"
+    ],
+    "spokenOptionsTranscriptSha256": "64c6ab2cd77a1580b31a1bb0b816793ad376f30852408e22df8f526c6ac5c630"
   },
   "N2_09_M4_L10": {
     "questionId": "N2_09_M4_L10",
     "audioUrl": "audio/n2_mock_09/N2_09_M4_L10.mp3",
     "audioDurationSec": 28.66,
-    "audioSha256": "a0d921877f01939bab3e4b045ee32d0c136c681a4bd047652d9955c8edeb2027",
+    "audioSha256": "3e884b3bd73b1eee0d996b30650cc18641c306801b253aec4f5a4050f71f8137",
     "audioSizeBytes": 172604,
     "audioVerificationStatus": "PLAYBACK_QA_PENDING",
     "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
     "speakerVoices": [
       "ja-JP-NanamiNeural",
       "ja-JP-KeitaNeural"
-    ]
+    ],
+    "spokenOptionTexts": [
+      "はい、説明書は青い色です。",
+      "費用は昨日、道を負担しました。",
+      "失礼しました。負担する人と金額をもう一度説明します。"
+    ],
+    "spokenOptionsTranscriptSha256": "ca7a80a796b14393dfd9ca016ab50376c7de19ad2f7efdb59f3b44ade23fb2a8"
   },
   "N2_09_M4_L11": {
     "questionId": "N2_09_M4_L11",
     "audioUrl": "audio/n2_mock_09/N2_09_M4_L11.mp3",
-    "audioDurationSec": 27.004,
-    "audioSha256": "8e3ba4297aff1d52a6ef21f055f05e4c9a138568a247c1421bb06ed1b5beeb6a",
-    "audioSizeBytes": 162668,
+    "audioDurationSec": 27.028,
+    "audioSha256": "4f3496cc106131c61460442495363433fc651bc5fb585a4f50d79d333167417f",
+    "audioSizeBytes": 162812,
     "audioVerificationStatus": "PLAYBACK_QA_PENDING",
     "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
     "speakerVoices": [
       "ja-JP-NanamiNeural",
       "ja-JP-KeitaNeural"
-    ]
+    ],
+    "spokenOptionTexts": [
+      "案内は毎週木曜日に届きます。",
+      "はい、一人は数字の一つです。",
+      "そうですね。混みそうな場所にも担当を置きましょう。"
+    ],
+    "spokenOptionsTranscriptSha256": "a8eb8435a3201ce2588e59500c9630953102f9a0b03f3d28f81641ced7f3c9fd"
   },
   "N2_09_M5_L01": {
     "questionId": "N2_09_M5_L01",

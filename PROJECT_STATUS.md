@@ -1,5 +1,13 @@
 # Trạng thái dự án — 21/10/2026
 
+## Phase 6.1 — sửa chất lượng nội dung N2-MOCK-07–09 (kiểm định cục bộ; chờ GitHub Actions)
+
+- **Phạm vi:** bổ sung 210 giải thích tiếng Việt riêng cho 105 câu của #08 và 105 câu của #09; xáo trộn lại thứ tự lựa chọn của 315 câu trong #07–09 theo văn bản phương án, giữ nguyên nội dung và đáp án ngữ nghĩa; giữ #10 không đổi.
+- **Độ phủ và tính đúng:** cả bốn đề #07–10 đạt 105/105 giải thích tiếng Việt có ý nghĩa. So khớp câu trả lời theo văn bản gốc cho 315 câu đã đổi thứ tự: 0 sai lệch. Mẫu trùng vị trí đáp án Section 1 giữa #08/#09 giảm từ 63/75 xuống 19/75. Các bộ dựng #07–09, kiểm tra mẫu đáp án và xác minh 48 audio lựa chọn đọc thành tiếng đều đạt.
+- **Kiểm định tương tác:** 180/180 bài unit/regression, 9/9 kiểm tra ngữ nghĩa runtime, E2E #07–10 trên trình duyệt, và dynamic release audit 10/10 đề (1050/1050 câu) đạt cục bộ. `content-qa.yml` nay có thêm validator Phase 6.1, E2E/runtime #08 và deep audio #08.
+- **Giới hạn M09:** hồ sơ STAR M8_04 cũ dùng câu lắp ghép không liên quan tới mảnh câu hiện hành. Bản kiểm tra mới liệt kê cả 24 thứ tự và chỉ ra 0 lựa chọn thay thế làm đổi đáp án, nhưng đây là tự kiểm tra của tác tử triển khai, không phải phản biện độc lập hay xác nhận của người bản ngữ. Tệp giữ rõ giới hạn này; xác nhận độc lập/người bản ngữ vẫn đang chờ.
+- **Trạng thái phát hành:** sửa đổi đã qua các kiểm tra cục bộ; GitHub Actions và triển khai Pages cho checkpoint này chưa được xác nhận. AI review và phát lại audio không chứng nhận trình độ người bản ngữ hoặc hiệu chuẩn tâm trắc học JLPT.
+
 ## Phase 6 — N2 full mock production checkpoint (21/10/2026)
 
 - **N2-MOCK-07 — `VERIFIED` practice resource**: published at the preceding checkpoint (`62940e452856817a08884ac229f6f98302f466f3`). This checkpoint refreshes the spoken-choice audio for 16 M3/M4 items after their response wording changed. All 30 tracks now pass real desktop and mobile Chromium decode/playback-progress checks; the 105-item structural, version-bound blind-review, linguistic, acoustic and release audit passes 105/105. Local full-mock E2E also passes with 0 browser errors. This is not an official or psychometrically calibrated JLPT form.

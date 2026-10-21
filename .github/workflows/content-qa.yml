@@ -79,6 +79,10 @@ jobs:
         run: |
           python scripts/curriculum/audit_all_active_mocks_dynamically.py
 
+      - name: Verify Phase 6.1 content, answer remaps, and audio evidence
+        run: |
+          python scripts/curriculum/validate_phase_61_content_quality.py
+
 
       # 12. Run full unit and regression test suite
       - name: Run full regression test suite
@@ -95,15 +99,22 @@ jobs:
       - name: Run N2-MOCK-07 browser regression
         run: node scripts/tests/test_n2_mock_07_e2e.cjs
 
+      - name: Run N2-MOCK-08 browser regression
+        run: node scripts/tests/test_n2_mock_08_e2e.cjs
+
       - name: Run N2-MOCK-09 browser regression
         run: node scripts/tests/test_n2_mock_09_e2e.cjs
 
       - name: Run N2-MOCK-10 browser regression
         run: node scripts/tests/test_n2_mock_10_e2e.cjs
 
+      - name: Run Phase 6.1 runtime semantic regression
+        run: node scripts/tests/test_phase_61_runtime_semantics.cjs
+
       - name: Verify released mock listening audio in Chromium
         run: |
           node scripts/tests/verify_n2_mock_07_audio_deep.cjs
+          node scripts/tests/verify_n2_mock_08_audio_deep.cjs
           node scripts/tests/verify_n2_mock_09_audio_deep.cjs
           node scripts/tests/verify_n2_mock_10_audio_deep.cjs
 

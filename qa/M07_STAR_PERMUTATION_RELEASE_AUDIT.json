@@ -4,500 +4,556 @@
     {
       "questionId": "N2_07_M8_04",
       "contentFingerprint": "7d4a346b3d85f7e99353f36c0ecba5b0f4b2a296db0762e71dd3d623a87ad53f",
+      "historicalSourceFingerprint": "7d4a346b3d85f7e99353f36c0ecba5b0f4b2a296db0762e71dd3d623a87ad53f",
       "reviewedPermutations": 24,
+      "sourceReviewerNaturalOrder": "BADC",
       "reviewerNaturalOrder": "BADC",
+      "sourceReviewerStarOption": "D",
       "reviewerStarOption": "D",
       "marginalOrNaturalAlternatesChangingStar": [],
+      "mappingMethod": "EXACT_FRAGMENT_TEXT_DERIVATION",
       "candidateJudgments": [
         {
-          "order": [
+          "order": "ABCD",
+          "judgment": "invalid",
+          "short_reason": "C must follow D to nominalize the action.",
+          "sourceOptionOrder": [
             "A",
             "B",
             "C",
             "D"
-          ],
-          "judgment": "invalid",
-          "short_reason": "C must follow D to nominalize the action."
+          ]
         },
         {
-          "order": [
-            "A",
-            "B",
-            "D",
-            "C"
-          ],
+          "order": "ABDC",
           "judgment": "marginal",
-          "short_reason": "A can be read as a fronted object of D across B, though awkwardly."
+          "short_reason": "A can be read as a fronted object of D across B, though awkwardly.",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
         },
         {
-          "order": [
+          "order": "ACBD",
+          "judgment": "invalid",
+          "short_reason": "C is misplaced before its verb D.",
+          "sourceOptionOrder": [
             "A",
             "C",
             "B",
             "D"
-          ],
-          "judgment": "invalid",
-          "short_reason": "C is misplaced before its verb D."
+          ]
         },
         {
-          "order": [
+          "order": "ACDB",
+          "judgment": "invalid",
+          "short_reason": "C is misplaced before D, and B cannot close the sentence.",
+          "sourceOptionOrder": [
             "A",
             "C",
             "D",
             "B"
-          ],
-          "judgment": "invalid",
-          "short_reason": "C is misplaced before D, and B cannot close the sentence."
+          ]
         },
         {
-          "order": [
+          "order": "ADBC",
+          "judgment": "invalid",
+          "short_reason": "B interrupts the verb and its nominalizer.",
+          "sourceOptionOrder": [
             "A",
             "D",
             "B",
             "C"
-          ],
-          "judgment": "invalid",
-          "short_reason": "B interrupts the verb and its nominalizer."
+          ]
         },
         {
-          "order": [
+          "order": "ADCB",
+          "judgment": "invalid",
+          "short_reason": "B comes after the nominalized action it should introduce.",
+          "sourceOptionOrder": [
             "A",
             "D",
             "C",
             "B"
-          ],
-          "judgment": "invalid",
-          "short_reason": "B comes after the nominalized action it should introduce."
+          ]
         },
         {
-          "order": [
+          "order": "BACD",
+          "judgment": "invalid",
+          "short_reason": "C must follow D to nominalize the action.",
+          "sourceOptionOrder": [
             "B",
             "A",
             "C",
             "D"
-          ],
-          "judgment": "invalid",
-          "short_reason": "C must follow D to nominalize the action."
+          ]
         },
         {
-          "order": [
-            "B",
-            "A",
-            "D",
-            "C"
-          ],
+          "order": "BADC",
           "judgment": "natural",
-          "short_reason": "B introduces the contrast, followed by the action and its nominalizer."
+          "short_reason": "B introduces the contrast, followed by the action and its nominalizer.",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
         },
         {
-          "order": [
+          "order": "BCAD",
+          "judgment": "invalid",
+          "short_reason": "C cannot follow B, and D lacks its object in the right order.",
+          "sourceOptionOrder": [
             "B",
             "C",
             "A",
             "D"
-          ],
-          "judgment": "invalid",
-          "short_reason": "C cannot follow B, and D lacks its object in the right order."
+          ]
         },
         {
-          "order": [
+          "order": "BCDA",
+          "judgment": "invalid",
+          "short_reason": "C cannot follow B, and A trails its verb.",
+          "sourceOptionOrder": [
             "B",
             "C",
             "D",
             "A"
-          ],
-          "judgment": "invalid",
-          "short_reason": "C cannot follow B, and A trails its verb."
+          ]
         },
         {
-          "order": [
+          "order": "BDAC",
+          "judgment": "invalid",
+          "short_reason": "D precedes its object A, and C cannot nominalize this sequence.",
+          "sourceOptionOrder": [
             "B",
             "D",
             "A",
             "C"
-          ],
-          "judgment": "invalid",
-          "short_reason": "D precedes its object A, and C cannot nominalize this sequence."
+          ]
         },
         {
-          "order": [
+          "order": "BDCA",
+          "judgment": "invalid",
+          "short_reason": "D precedes its object A, which is stranded after C.",
+          "sourceOptionOrder": [
             "B",
             "D",
             "C",
             "A"
-          ],
-          "judgment": "invalid",
-          "short_reason": "D precedes its object A, which is stranded after C."
+          ]
         },
         {
-          "order": [
+          "order": "CABD",
+          "judgment": "invalid",
+          "short_reason": "C cannot begin the contrast or nominalize a later verb.",
+          "sourceOptionOrder": [
             "C",
             "A",
             "B",
             "D"
-          ],
-          "judgment": "invalid",
-          "short_reason": "C cannot begin the contrast or nominalize a later verb."
+          ]
         },
         {
-          "order": [
+          "order": "CADB",
+          "judgment": "invalid",
+          "short_reason": "C precedes the action it should nominalize.",
+          "sourceOptionOrder": [
             "C",
             "A",
             "D",
             "B"
-          ],
-          "judgment": "invalid",
-          "short_reason": "C precedes the action it should nominalize."
+          ]
         },
         {
-          "order": [
+          "order": "CBAD",
+          "judgment": "invalid",
+          "short_reason": "C cannot begin the contrast, and B is misplaced.",
+          "sourceOptionOrder": [
             "C",
             "B",
             "A",
             "D"
-          ],
-          "judgment": "invalid",
-          "short_reason": "C cannot begin the contrast, and B is misplaced."
+          ]
         },
         {
-          "order": [
+          "order": "CBDA",
+          "judgment": "invalid",
+          "short_reason": "C cannot begin the contrast, and D precedes its object.",
+          "sourceOptionOrder": [
             "C",
             "B",
             "D",
             "A"
-          ],
-          "judgment": "invalid",
-          "short_reason": "C cannot begin the contrast, and D precedes its object."
+          ]
         },
         {
-          "order": [
+          "order": "CDAB",
+          "judgment": "invalid",
+          "short_reason": "C precedes D, and A trails its verb.",
+          "sourceOptionOrder": [
             "C",
             "D",
             "A",
             "B"
-          ],
-          "judgment": "invalid",
-          "short_reason": "C precedes D, and A trails its verb."
+          ]
         },
         {
-          "order": [
+          "order": "CDBA",
+          "judgment": "invalid",
+          "short_reason": "C precedes D, while B and A are misplaced.",
+          "sourceOptionOrder": [
             "C",
             "D",
             "B",
             "A"
-          ],
-          "judgment": "invalid",
-          "short_reason": "C precedes D, while B and A are misplaced."
+          ]
         },
         {
-          "order": [
+          "order": "DABC",
+          "judgment": "invalid",
+          "short_reason": "D precedes its object, and B interrupts the action nominalization.",
+          "sourceOptionOrder": [
             "D",
             "A",
             "B",
             "C"
-          ],
-          "judgment": "invalid",
-          "short_reason": "D precedes its object, and B interrupts the action nominalization."
+          ]
         },
         {
-          "order": [
+          "order": "DACB",
+          "judgment": "invalid",
+          "short_reason": "D precedes its object, and B comes after the nominalized action.",
+          "sourceOptionOrder": [
             "D",
             "A",
             "C",
             "B"
-          ],
-          "judgment": "invalid",
-          "short_reason": "D precedes its object, and B comes after the nominalized action."
+          ]
         },
         {
-          "order": [
+          "order": "DBAC",
+          "judgment": "invalid",
+          "short_reason": "D precedes its object, and B cannot follow the verb this way.",
+          "sourceOptionOrder": [
             "D",
             "B",
             "A",
             "C"
-          ],
-          "judgment": "invalid",
-          "short_reason": "D precedes its object, and B cannot follow the verb this way."
+          ]
         },
         {
-          "order": [
+          "order": "DBCA",
+          "judgment": "invalid",
+          "short_reason": "D precedes its object, which is stranded after C.",
+          "sourceOptionOrder": [
             "D",
             "B",
             "C",
             "A"
-          ],
-          "judgment": "invalid",
-          "short_reason": "D precedes its object, which is stranded after C."
+          ]
         },
         {
-          "order": [
+          "order": "DCAB",
+          "judgment": "invalid",
+          "short_reason": "D precedes its object, and B comes too late.",
+          "sourceOptionOrder": [
             "D",
             "C",
             "A",
             "B"
-          ],
-          "judgment": "invalid",
-          "short_reason": "D precedes its object, and B comes too late."
+          ]
         },
         {
-          "order": [
+          "order": "DCBA",
+          "judgment": "invalid",
+          "short_reason": "D precedes its object, and B and A are misplaced.",
+          "sourceOptionOrder": [
             "D",
             "C",
             "B",
             "A"
-          ],
-          "judgment": "invalid",
-          "short_reason": "D precedes its object, and B and A are misplaced."
+          ]
         }
       ]
     },
     {
       "questionId": "N2_07_M8_05",
-      "contentFingerprint": "9f48b7c6ee96348644bbf2e122ade3d8f973783bd67989eb6430ec8fa5ee293a",
+      "contentFingerprint": "67d6a30a43d85a0604fc5f01f024d042407ad04b1f2cc589efaf238a915fa066",
+      "historicalSourceFingerprint": "9f48b7c6ee96348644bbf2e122ade3d8f973783bd67989eb6430ec8fa5ee293a",
       "reviewedPermutations": 24,
-      "reviewerNaturalOrder": "ABCD",
-      "reviewerStarOption": "C",
+      "sourceReviewerNaturalOrder": "ABCD",
+      "reviewerNaturalOrder": "DBAC",
+      "sourceReviewerStarOption": "C",
+      "reviewerStarOption": "A",
       "marginalOrNaturalAlternatesChangingStar": [],
+      "mappingMethod": "EXACT_FRAGMENT_TEXT_DERIVATION",
       "candidateJudgments": [
         {
-          "order": [
-            "A",
-            "B",
-            "C",
-            "D"
-          ],
+          "order": "DBAC",
           "judgment": "natural",
-          "short_reason": "A is B's object; C and D form the likelihood prediction."
+          "short_reason": "A is B's object; C and D form the likelihood prediction.",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
         },
         {
-          "order": [
+          "order": "DBCA",
+          "judgment": "invalid",
+          "short_reason": "D must follow C to form 「可能性が高いと」.",
+          "sourceOptionOrder": [
             "A",
             "B",
             "D",
             "C"
-          ],
-          "judgment": "invalid",
-          "short_reason": "D must follow C to form 「可能性が高いと」."
+          ]
         },
         {
-          "order": [
+          "order": "DABC",
+          "judgment": "invalid",
+          "short_reason": "C appears before the action that should modify it.",
+          "sourceOptionOrder": [
             "A",
             "C",
             "B",
             "D"
-          ],
-          "judgment": "invalid",
-          "short_reason": "C appears before the action that should modify it."
+          ]
         },
         {
-          "order": [
+          "order": "DACB",
+          "judgment": "invalid",
+          "short_reason": "B cannot follow the completed prediction clause.",
+          "sourceOptionOrder": [
             "A",
             "C",
             "D",
             "B"
-          ],
-          "judgment": "invalid",
-          "short_reason": "B cannot follow the completed prediction clause."
+          ]
         },
         {
-          "order": [
+          "order": "DCBA",
+          "judgment": "invalid",
+          "short_reason": "D is misplaced before the possibility phrase.",
+          "sourceOptionOrder": [
             "A",
             "D",
             "B",
             "C"
-          ],
-          "judgment": "invalid",
-          "short_reason": "D is misplaced before the possibility phrase."
+          ]
         },
         {
-          "order": [
+          "order": "DCAB",
+          "judgment": "invalid",
+          "short_reason": "D precedes C and B trails the prediction.",
+          "sourceOptionOrder": [
             "A",
             "D",
             "C",
             "B"
-          ],
-          "judgment": "invalid",
-          "short_reason": "D precedes C and B trails the prediction."
+          ]
         },
         {
-          "order": [
+          "order": "BDAC",
+          "judgment": "invalid",
+          "short_reason": "B precedes its object A.",
+          "sourceOptionOrder": [
             "B",
             "A",
             "C",
             "D"
-          ],
-          "judgment": "invalid",
-          "short_reason": "B precedes its object A."
+          ]
         },
         {
-          "order": [
+          "order": "BDCA",
+          "judgment": "invalid",
+          "short_reason": "B precedes its object, and D cannot precede C.",
+          "sourceOptionOrder": [
             "B",
             "A",
             "D",
             "C"
-          ],
-          "judgment": "invalid",
-          "short_reason": "B precedes its object, and D cannot precede C."
+          ]
         },
         {
-          "order": [
+          "order": "BADC",
+          "judgment": "invalid",
+          "short_reason": "B's object is misplaced after C.",
+          "sourceOptionOrder": [
             "B",
             "C",
             "A",
             "D"
-          ],
-          "judgment": "invalid",
-          "short_reason": "B's object is misplaced after C."
+          ]
         },
         {
-          "order": [
+          "order": "BACD",
+          "judgment": "invalid",
+          "short_reason": "B's object is misplaced, and A trails the prediction.",
+          "sourceOptionOrder": [
             "B",
             "C",
             "D",
             "A"
-          ],
-          "judgment": "invalid",
-          "short_reason": "B's object is misplaced, and A trails the prediction."
+          ]
         },
         {
-          "order": [
+          "order": "BCDA",
+          "judgment": "invalid",
+          "short_reason": "B precedes its object, and D is misplaced.",
+          "sourceOptionOrder": [
             "B",
             "D",
             "A",
             "C"
-          ],
-          "judgment": "invalid",
-          "short_reason": "B precedes its object, and D is misplaced."
+          ]
         },
         {
-          "order": [
+          "order": "BCAD",
+          "judgment": "invalid",
+          "short_reason": "B precedes its object, and D precedes C.",
+          "sourceOptionOrder": [
             "B",
             "D",
             "C",
             "A"
-          ],
-          "judgment": "invalid",
-          "short_reason": "B precedes its object, and D precedes C."
+          ]
         },
         {
-          "order": [
+          "order": "ADBC",
+          "judgment": "invalid",
+          "short_reason": "C appears before the action it should nominalize.",
+          "sourceOptionOrder": [
             "C",
             "A",
             "B",
             "D"
-          ],
-          "judgment": "invalid",
-          "short_reason": "C appears before the action it should nominalize."
+          ]
         },
         {
-          "order": [
+          "order": "ADCB",
+          "judgment": "invalid",
+          "short_reason": "C precedes B, and B cannot trail D.",
+          "sourceOptionOrder": [
             "C",
             "A",
             "D",
             "B"
-          ],
-          "judgment": "invalid",
-          "short_reason": "C precedes B, and B cannot trail D."
+          ]
         },
         {
-          "order": [
+          "order": "ABDC",
+          "judgment": "invalid",
+          "short_reason": "C appears before the action, and B precedes its object.",
+          "sourceOptionOrder": [
             "C",
             "B",
             "A",
             "D"
-          ],
-          "judgment": "invalid",
-          "short_reason": "C appears before the action, and B precedes its object."
+          ]
         },
         {
-          "order": [
+          "order": "ABCD",
+          "judgment": "invalid",
+          "short_reason": "C precedes the action, and A trails the prediction.",
+          "sourceOptionOrder": [
             "C",
             "B",
             "D",
             "A"
-          ],
-          "judgment": "invalid",
-          "short_reason": "C precedes the action, and A trails the prediction."
+          ]
         },
         {
-          "order": [
+          "order": "ACDB",
+          "judgment": "invalid",
+          "short_reason": "A and B follow the completed possibility prediction.",
+          "sourceOptionOrder": [
             "C",
             "D",
             "A",
             "B"
-          ],
-          "judgment": "invalid",
-          "short_reason": "A and B follow the completed possibility prediction."
+          ]
         },
         {
-          "order": [
+          "order": "ACBD",
+          "judgment": "invalid",
+          "short_reason": "C and D form the prediction before the action and its object.",
+          "sourceOptionOrder": [
             "C",
             "D",
             "B",
             "A"
-          ],
-          "judgment": "invalid",
-          "short_reason": "C and D form the prediction before the action and its object."
+          ]
         },
         {
-          "order": [
+          "order": "CDBA",
+          "judgment": "invalid",
+          "short_reason": "D must follow C; B also precedes its object.",
+          "sourceOptionOrder": [
             "D",
             "A",
             "B",
             "C"
-          ],
-          "judgment": "invalid",
-          "short_reason": "D must follow C; B also precedes its object."
+          ]
         },
         {
-          "order": [
+          "order": "CDAB",
+          "judgment": "invalid",
+          "short_reason": "D precedes C, and B trails the possibility phrase.",
+          "sourceOptionOrder": [
             "D",
             "A",
             "C",
             "B"
-          ],
-          "judgment": "invalid",
-          "short_reason": "D precedes C, and B trails the possibility phrase."
+          ]
         },
         {
-          "order": [
+          "order": "CBDA",
+          "judgment": "invalid",
+          "short_reason": "D is misplaced, and B precedes its object.",
+          "sourceOptionOrder": [
             "D",
             "B",
             "A",
             "C"
-          ],
-          "judgment": "invalid",
-          "short_reason": "D is misplaced, and B precedes its object."
+          ]
         },
         {
-          "order": [
+          "order": "CBAD",
+          "judgment": "invalid",
+          "short_reason": "D is misplaced, and A trails the prediction.",
+          "sourceOptionOrder": [
             "D",
             "B",
             "C",
             "A"
-          ],
-          "judgment": "invalid",
-          "short_reason": "D is misplaced, and A trails the prediction."
+          ]
         },
         {
-          "order": [
+          "order": "CADB",
+          "judgment": "invalid",
+          "short_reason": "D precedes C, and A and B follow the prediction.",
+          "sourceOptionOrder": [
             "D",
             "C",
             "A",
             "B"
-          ],
-          "judgment": "invalid",
-          "short_reason": "D precedes C, and A and B follow the prediction."
+          ]
         },
         {
-          "order": [
+          "order": "CABD",
+          "judgment": "invalid",
+          "short_reason": "D precedes C, and B precedes its object after the prediction.",
+          "sourceOptionOrder": [
             "D",
             "C",
             "B",
             "A"
-          ],
-          "judgment": "invalid",
-          "short_reason": "D precedes C, and B precedes its object after the prediction."
+          ]
         }
       ]
     }

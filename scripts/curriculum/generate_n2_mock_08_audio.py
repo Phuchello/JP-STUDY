@@ -32,6 +32,7 @@ VOICE_NARRATOR = 'ja-JP-NanamiNeural'
 
 sys.path.insert(0, str(ROOT))
 from scripts.curriculum.bank_data.n2_mock_08_listening import get_n2_mock_08_listening_items
+from scripts.curriculum.phase_61_option_remapping import apply_remapping
 import edge_tts
 
 def get_audio_duration_and_check(file_path):
@@ -244,6 +245,9 @@ async def build_item_audio(q, item_idx, total_items):
 
     print(f"  -> Generated {out_filename}: {duration:.2f}s, {file_size:,} bytes, sha256={sha256[:12]}...")
 
+    spoken_choice_types = {'N2-LIS-SUMM', 'N2-LIS-OUTL', 'N2-LIS-GIST', 'N2-LIS-RESP'}
+    spoken_options = [str(option['text']).strip() for option in q.get('options', [])] if q.get('typeId') in spoken_choice_types else []
+    spoken_transcript = '\n'.join(f"{index + 1}番、{text}" for index, text in enumerate(spoken_options))
     return {
         "questionId": qid,
         "audioUrl": f"audio/n2_mock_08/{out_filename}",
@@ -252,7 +256,9 @@ async def build_item_audio(q, item_idx, total_items):
         "audioSizeBytes": file_size,
         "audioVerificationStatus": "PLAYBACK_QA_PENDING",
         "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
-        "speakerVoices": [VOICE_FEMALE, VOICE_MALE]
+        "speakerVoices": [VOICE_FEMALE, VOICE_MALE],
+        "spokenOptionTexts": spoken_options,
+        "spokenOptionsTranscriptSha256": hashlib.sha256(spoken_transcript.encode('utf-8')).hexdigest() if spoken_options else ""
     }
 
 async def main():
@@ -260,7 +266,7 @@ async def main():
     AUDIO_OUT_DIR.mkdir(parents=True, exist_ok=True)
     TEMP_DIR.mkdir(parents=True, exist_ok=True)
 
-    all_items = get_n2_mock_08_listening_items()
+    all_items = apply_remapping("N2-MOCK-08", get_n2_mock_08_listening_items(), apply_explanations=False)
     rebuild_spoken_choices = sys.argv[1:] == ["--rebuild-spoken-choice-tracks"]
     rebuild_mondai4_only = sys.argv[1:] == ["--rebuild-mondai4-only"]
     if rebuild_spoken_choices or rebuild_mondai4_only:

@@ -1,6 +1,6 @@
 {
   "examId": "N2-MOCK-08",
-  "generatedAt": "2026-10-21T03:24:31.815Z",
+  "generatedAt": "2026-10-21T11:59:01.653Z",
   "browser": "Google Chrome installed on local test host, headless",
   "viewport": "1280x800 desktop; 390x844 mobile emulation",
   "catalog": "Public practice entry and full/listening launch links are present and verified in the local browser",
@@ -35,7 +35,7 @@
     {
       "name": "mondai_4_three_choices",
       "passed": true,
-      "details": "A\nはい、出典を明記すれば構いません。 | B\nその図は、発表の最後に載せると見やすいですよ。 | C\n図の説明は、口頭でも補ってください。"
+      "details": "A\nその図は、発表の最後に載せると見やすいですよ。 | B\nはい、出典を明記すれば構いません。 | C\n図の説明は、口頭でも補ってください。"
     },
     {
       "name": "combined_score_and_review",

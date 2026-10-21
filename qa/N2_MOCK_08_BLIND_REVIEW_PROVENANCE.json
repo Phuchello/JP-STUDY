@@ -10,8 +10,8 @@
     "v4": 1
   },
   "mappingMethods": {
-    "DIRECT_IDENTITY": 102,
-    "EXACT_OPTION_TEXT_REMAP": 3
+    "DIRECT_IDENTITY": 29,
+    "EXACT_OPTION_TEXT_REMAP": 76
   },
   "transcriptBoundListeningItems": [
     "N2_08_M1_L01",
@@ -84,8 +84,8 @@
     "blind_items_m08_s2.json": "d891cc418e88caae4920ab069ad9363cfe1f798c7ba5c21cefd1b930c911a0a2"
   },
   "normalizedFiles": {
-    "raw_blind_m08_s1_p1.json": "e64339900e292c55f916115d49347b56f789c9c1ef2adc54d62c16ee141d185c",
-    "raw_blind_m08_s1_p2.json": "c315a77524bd85b159a7dda14fc4534a860a4d1378ac4f1190c90bd931fdcd00",
-    "raw_blind_m08_s2.json": "c415fe8ab4167d59987bc15bdb0334d11e78d4a4a0aa87501dca759f68a97a2a"
+    "raw_blind_m08_s1_p1.json": "f8d4e28f0f246656bf47e0fbd776fe0ef34f10963f52fa5dd21c993b38fbc3a9",
+    "raw_blind_m08_s1_p2.json": "59392a6c9018d83f9dcf5b176d52a4de302f994cfd7772cb707d89267ff9a9b5",
+    "raw_blind_m08_s2.json": "10e31af412c84f32e879870609809f95099ee9e90d24dfd18fc810cf0e0c71da"
   }
 }

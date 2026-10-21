@@ -1,0 +1,167 @@
+{
+  "status": "PASS",
+  "browser": "Chromium headless",
+  "viewport": "1280x800",
+  "checks": [
+    {
+      "examId": "N2-MOCK-07",
+      "check": "catalog_and_responder_links",
+      "passed": true,
+      "links": [
+        "https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mock&mockId=N2-MOCK-07",
+        "https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mock&mockId=N2-MOCK-07&section=2"
+      ]
+    },
+    {
+      "examId": "N2-MOCK-08",
+      "check": "catalog_and_responder_links",
+      "passed": true,
+      "links": [
+        "https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mock&mockId=N2-MOCK-08",
+        "https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mock&mockId=N2-MOCK-08&section=2"
+      ]
+    },
+    {
+      "examId": "N2-MOCK-09",
+      "check": "catalog_and_responder_links",
+      "passed": true,
+      "links": [
+        "https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mock&mockId=N2-MOCK-09",
+        "https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mock&mockId=N2-MOCK-09&section=2"
+      ]
+    },
+    {
+      "examId": "N2-MOCK-07",
+      "check": "active_quiz_no_leaks_scoring_and_semantic_review",
+      "passed": true,
+      "active": {
+        "mockId": "N2-MOCK-07",
+        "questionCount": 75,
+        "renderedOptions": [
+          "A\nきょうふ",
+          "B\nこうふ",
+          "C\nこうぶ",
+          "D\nごうふ"
+        ],
+        "explanationVisible": false,
+        "transcriptVisible": false
+      },
+      "probe": {
+        "correctQuestionId": "N2_07_M1_01",
+        "wrongQuestionId": "N2_07_M1_02",
+        "wrongAnswer": "A",
+        "correctAnswer": "C",
+        "correctText": "じゅんしゅ",
+        "explanation": "遵守（じゅんしゅ - TUÂN THỦ）: Tuân thủ nghiêm ngặt quy định, pháp luật. Chữ 遵 đọc là じゅん, 守 đọc là しゅ."
+      },
+      "score": "KẾT QUẢ PHẦN 1: 1 / 75 CÂU (1%)",
+      "reviewCardContainsCorrectText": true
+    },
+    {
+      "examId": "N2-MOCK-07",
+      "check": "listening_no_transcript_leak_and_mondai4_choices",
+      "passed": true,
+      "listening": {
+        "count": 30,
+        "audioUrl": "audio/n2_mock_07/N2_07_M1_L01.mp3",
+        "transcript": "市役所の市民課窓口で、男性と女性の職員が転出届の手続きについて話しています。男性はこの後、まず何をしなければなりませんか。\n\n男：「すみません、来月他県へ引っ越すことになったので、転出の手続きをしたいのですが。」\n女：「ご転出ですね。ご本人様確認のため、マイナンバーカードか運転免許証はお持ちでしょうか。」\n男：「はい、マイナンバーカードを持っています。」\n女：「ありがとうございます。マイナンバーカードをお持ちでしたら、転出証明書の発行を受ける代わりに、カードを用いた特例転出が可能です。ただし、転出届の申請用紙に新住所と転出予定日をご記入いただく必要があります。」\n男：「分かりました。用紙はあちらの記載台にありますか。」\n女：「はい、記載台の『3番』の用紙です。ご記入後、番号札をお取りになってお待ちください。順番が来ましたら、カードの暗証番号を入力していただきます。」\n男：「承知しました。では、まず用紙に書いてきます。」",
+        "explanation": "Nữ nhân viên hướng dẫn: trước tiên cần lấy tờ khai số 3 tại bàn hướng dẫn và điền địa chỉ mới cùng ngày chuyển đi ('申請用紙に新住所と転出予定日をご記入いただく必要があります'). Nam công dân xác nhận sẽ đi viết đơn trước ('まず用紙に書いてきます').",
+        "reviewVisible": false,
+        "transcriptVisible": false
+      },
+      "m4": {
+        "index": 16,
+        "optionCount": 3
+      }
+    },
+    {
+      "examId": "N2-MOCK-08",
+      "check": "active_quiz_no_leaks_scoring_and_semantic_review",
+      "passed": true,
+      "active": {
+        "mockId": "N2-MOCK-08",
+        "questionCount": 75,
+        "renderedOptions": [
+          "A\nじつせい",
+          "B\nじつしょう",
+          "C\nじっしょう",
+          "D\nじっせい"
+        ],
+        "explanationVisible": false,
+        "transcriptVisible": false
+      },
+      "probe": {
+        "correctQuestionId": "N2_08_M1_01",
+        "wrongQuestionId": "N2_08_M1_02",
+        "wrongAnswer": "A",
+        "correctAnswer": "C",
+        "correctText": "けんちょ",
+        "explanation": "顕著 đọc là けんちょ, nghĩa là nổi bật, dễ nhận thấy. Việc dùng lớp học trực tuyến ngày càng rõ rệt; các cách đọc けんじょ／げんちょ／けんしょう sai âm đầu hoặc âm cuối."
+      },
+      "score": "KẾT QUẢ PHẦN 1: 1 / 75 CÂU (1%)",
+      "reviewCardContainsCorrectText": true
+    },
+    {
+      "examId": "N2-MOCK-08",
+      "check": "listening_no_transcript_leak_and_mondai4_choices",
+      "passed": true,
+      "listening": {
+        "count": 30,
+        "audioUrl": "audio/n2_mock_08/N2_08_M1_L01.mp3",
+        "transcript": "大学の研究室で、指導教員と大学院生が倫理審査の申請について話しています。学生はこの後、まず何をしますか。\n\n男：申請書はほぼ完成しました。参加者への説明文も付けてあります。\n女：説明文は分かりやすいけれど、調査を途中でやめても不利益がないことが書かれていないわ。\n男：確かに。データの保管場所は書いてあります。\n女：そこは問題ないわ。まず、参加者がいつでも撤回できることを追記して。それから、質問票の最終版を添えて事務局に出しましょう。\n男：分かりました。説明文を直して、質問票も付けます。",
+        "explanation": "Giảng viên chỉ ra bản giải thích còn thiếu quyền rút khỏi nghiên cứu mà không chịu bất lợi. Việc đầu tiên là bổ sung điều đó; chỉ sau đó sinh viên mới đính kèm bảng hỏi cuối cùng và nộp hồ sơ.",
+        "reviewVisible": false,
+        "transcriptVisible": false
+      },
+      "m4": {
+        "index": 16,
+        "optionCount": 3
+      }
+    },
+    {
+      "examId": "N2-MOCK-09",
+      "check": "active_quiz_no_leaks_scoring_and_semantic_review",
+      "passed": true,
+      "active": {
+        "mockId": "N2-MOCK-09",
+        "questionCount": 75,
+        "renderedOptions": [
+          "A\nばんえい",
+          "B\nはんえい",
+          "C\nはんよう",
+          "D\nはんえ"
+        ],
+        "explanationVisible": false,
+        "transcriptVisible": false
+      },
+      "probe": {
+        "correctQuestionId": "N2_09_M1_01",
+        "wrongQuestionId": "N2_09_M1_02",
+        "wrongAnswer": "B",
+        "correctAnswer": "A",
+        "correctText": "へだたり",
+        "explanation": "隔たり đọc là へだたり, chỉ khoảng cách hay chênh lệch giữa hai phía; câu nói cần đối thoại để thu hẹp khác biệt giữa các thế hệ. Những cách đọc gần âm trong lựa chọn không phải âm kun chuẩn của từ này."
+      },
+      "score": "KẾT QUẢ PHẦN 1: 1 / 75 CÂU (1%)",
+      "reviewCardContainsCorrectText": true
+    },
+    {
+      "examId": "N2-MOCK-09",
+      "check": "listening_no_transcript_leak_and_mondai4_choices",
+      "passed": true,
+      "listening": {
+        "count": 30,
+        "audioUrl": "audio/n2_mock_09/N2_09_M1_L01.mp3",
+        "transcript": "市役所の地域振興課で、職員と商店街の担当者が空き店舗の活用について話しています。担当者はまず何をしますか。\n\n女：空き店舗で学生の作品展をしたいのですが、来月の祭りに間に合いますか。\n男：会場は使えます。ただ、作品を置く前に、持ち主と展示期間を確認してください。壁に穴を開ける場合は別の許可も要ります。\n女：作品の運搬はこちらで手配します。\n男：では、まず所有者に期間と展示方法を説明して、書面で了解を取ってください。その後、会場の鍵をお渡しします。\n女：分かりました。先に所有者と条件を確認します。",
+        "explanation": "Trước khi vận chuyển tác phẩm hay nhận chìa khóa, nhân viên phải giải thích thời gian và cách trưng bày cho chủ cửa hàng rồi xin chấp thuận bằng văn bản. Đây là điều kiện sử dụng mặt bằng; khoan tường còn cần phép riêng.",
+        "reviewVisible": false,
+        "transcriptVisible": false
+      },
+      "m4": {
+        "index": 16,
+        "optionCount": 3
+      }
+    }
+  ],
+  "pageErrors": []
+}

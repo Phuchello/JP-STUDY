@@ -16,6 +16,7 @@ sys.path.insert(0, str(ROOT))
 from scripts.curriculum.bank_data.n2_mock_07_data import get_n2_mock_07_sec1_items
 from scripts.curriculum.bank_data.n2_mock_07_listening import get_n2_mock_07_listening_items
 from scripts.curriculum.acoustic_assurance import evaluate_audio_track_assurance
+from scripts.curriculum.phase_61_option_remapping import apply_remapping
 
 def build_full_mock_07():
     print("=== Compiling JLPT N2 Full Mock #07 ===")
@@ -24,6 +25,7 @@ def build_full_mock_07():
 
     sec2_items = get_n2_mock_07_listening_items()
     print(f"Loaded {len(sec2_items)} items for Section 2.")
+    apply_remapping("N2-MOCK-07", sec1_items + sec2_items)
 
     # The practice engine uses this field to split the section score into
     # Language Knowledge and Reading. Without it, Reading is reported as 0/0.

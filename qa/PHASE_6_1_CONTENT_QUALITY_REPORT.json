@@ -1,0 +1,1328 @@
+{
+  "status": "PASS_WITH_TRANSPARENT_SELF_AUDIT_LIMITATION",
+  "startingHead": "3b7f84d29ff554a228e4d57600634d88551d91e9",
+  "exams": {
+    "N2-MOCK-07": {
+      "questionCount": 105,
+      "vietnameseExplanationCount": 105,
+      "missingOrInvalidVietnameseExplanations": 0,
+      "answerPatternMetrics": {
+        "answerCounts": {
+          "A": 29,
+          "B": 28,
+          "C": 28,
+          "D": 20
+        },
+        "section1Counts": {
+          "A": 23,
+          "B": 17,
+          "C": 19,
+          "D": 16
+        },
+        "longestCycleOrShortPattern": {
+          "length": 7,
+          "period": 3,
+          "start": 23,
+          "pattern": "CBC"
+        },
+        "section1LongestCycleOrShortPattern": {
+          "length": 7,
+          "period": 3,
+          "start": 23,
+          "pattern": "CBC"
+        },
+        "longestSameAnswerRun": {
+          "length": 4,
+          "answer": "A",
+          "start": 60
+        },
+        "starAnswers": "DCDDA",
+        "starCounts": {
+          "A": 1,
+          "C": 1,
+          "D": 3
+        }
+      },
+      "remapping": {
+        "questionsVerified": 105,
+        "displayOrdersChanged": 101,
+        "displayOrdersUnchanged": 4,
+        "semanticKeyMismatches": 0,
+        "starQuestions": 5
+      },
+      "versionBoundReviewMappings": 105
+    },
+    "N2-MOCK-08": {
+      "questionCount": 105,
+      "vietnameseExplanationCount": 105,
+      "missingOrInvalidVietnameseExplanations": 0,
+      "answerPatternMetrics": {
+        "answerCounts": {
+          "A": 25,
+          "B": 27,
+          "C": 31,
+          "D": 22
+        },
+        "section1Counts": {
+          "A": 20,
+          "B": 17,
+          "C": 22,
+          "D": 16
+        },
+        "longestCycleOrShortPattern": {
+          "length": 7,
+          "period": 4,
+          "start": 42,
+          "pattern": "BBCD"
+        },
+        "section1LongestCycleOrShortPattern": {
+          "length": 7,
+          "period": 4,
+          "start": 42,
+          "pattern": "BBCD"
+        },
+        "longestSameAnswerRun": {
+          "length": 4,
+          "answer": "A",
+          "start": 68
+        },
+        "starAnswers": "CDBBC",
+        "starCounts": {
+          "B": 2,
+          "C": 2,
+          "D": 1
+        }
+      },
+      "remapping": {
+        "questionsVerified": 105,
+        "displayOrdersChanged": 100,
+        "displayOrdersUnchanged": 5,
+        "semanticKeyMismatches": 0,
+        "starQuestions": 5
+      },
+      "versionBoundReviewMappings": 105
+    },
+    "N2-MOCK-09": {
+      "questionCount": 105,
+      "vietnameseExplanationCount": 105,
+      "missingOrInvalidVietnameseExplanations": 0,
+      "answerPatternMetrics": {
+        "answerCounts": {
+          "A": 26,
+          "B": 29,
+          "C": 27,
+          "D": 23
+        },
+        "section1Counts": {
+          "A": 19,
+          "B": 21,
+          "C": 16,
+          "D": 19
+        },
+        "longestCycleOrShortPattern": {
+          "length": 6,
+          "period": 2,
+          "start": 2,
+          "pattern": "AB"
+        },
+        "section1LongestCycleOrShortPattern": {
+          "length": 6,
+          "period": 2,
+          "start": 2,
+          "pattern": "AB"
+        },
+        "longestSameAnswerRun": {
+          "length": 3,
+          "answer": "D",
+          "start": 13
+        },
+        "starAnswers": "CDCAD",
+        "starCounts": {
+          "A": 1,
+          "C": 2,
+          "D": 2
+        }
+      },
+      "remapping": {
+        "questionsVerified": 105,
+        "displayOrdersChanged": 100,
+        "displayOrdersUnchanged": 5,
+        "semanticKeyMismatches": 0,
+        "starQuestions": 5
+      },
+      "versionBoundReviewMappings": 105
+    },
+    "N2-MOCK-10": {
+      "questionCount": 105,
+      "vietnameseExplanationCount": 105,
+      "missingOrInvalidVietnameseExplanations": 0,
+      "answerPatternMetrics": {
+        "answerCounts": {
+          "A": 27,
+          "B": 28,
+          "C": 28,
+          "D": 22
+        },
+        "section1Counts": {
+          "A": 18,
+          "B": 19,
+          "C": 20,
+          "D": 18
+        },
+        "longestCycleOrShortPattern": {
+          "length": 7,
+          "period": 4,
+          "start": 27,
+          "pattern": "CBAB"
+        },
+        "section1LongestCycleOrShortPattern": {
+          "length": 7,
+          "period": 4,
+          "start": 27,
+          "pattern": "CBAB"
+        },
+        "longestSameAnswerRun": {
+          "length": 3,
+          "answer": "C",
+          "start": 6
+        },
+        "starAnswers": "CDBCC",
+        "starCounts": {
+          "B": 1,
+          "C": 3,
+          "D": 1
+        }
+      },
+      "remapping": null,
+      "versionBoundReviewMappings": null
+    }
+  },
+  "beforeAnswerPatternMetrics": {
+    "N2-MOCK-07": {
+      "answerCounts": {
+        "A": 26,
+        "B": 29,
+        "C": 28,
+        "D": 22
+      },
+      "section1Counts": {
+        "A": 17,
+        "B": 20,
+        "C": 20,
+        "D": 18
+      },
+      "longestCycleOrShortPattern": {
+        "length": 44,
+        "period": 4,
+        "start": 0,
+        "pattern": "ABCD"
+      },
+      "section1LongestCycleOrShortPattern": {
+        "length": 44,
+        "period": 4,
+        "start": 0,
+        "pattern": "ABCD"
+      },
+      "longestSameAnswerRun": {
+        "length": 2,
+        "answer": "B",
+        "start": 44
+      },
+      "starAnswers": "BBCDC",
+      "starCounts": {
+        "B": 2,
+        "C": 2,
+        "D": 1
+      }
+    },
+    "N2-MOCK-08": {
+      "answerCounts": {
+        "A": 30,
+        "B": 28,
+        "C": 26,
+        "D": 21
+      },
+      "section1Counts": {
+        "A": 19,
+        "B": 19,
+        "C": 19,
+        "D": 18
+      },
+      "longestCycleOrShortPattern": {
+        "length": 42,
+        "period": 4,
+        "start": 2,
+        "pattern": "DABC"
+      },
+      "section1LongestCycleOrShortPattern": {
+        "length": 42,
+        "period": 4,
+        "start": 2,
+        "pattern": "DABC"
+      },
+      "longestSameAnswerRun": {
+        "length": 2,
+        "answer": "C",
+        "start": 44
+      },
+      "starAnswers": "CCABD",
+      "starCounts": {
+        "A": 1,
+        "B": 1,
+        "C": 2,
+        "D": 1
+      }
+    },
+    "N2-MOCK-09": {
+      "answerCounts": {
+        "A": 30,
+        "B": 28,
+        "C": 26,
+        "D": 21
+      },
+      "section1Counts": {
+        "A": 19,
+        "B": 19,
+        "C": 19,
+        "D": 18
+      },
+      "longestCycleOrShortPattern": {
+        "length": 30,
+        "period": 4,
+        "start": 14,
+        "pattern": "DABC"
+      },
+      "section1LongestCycleOrShortPattern": {
+        "length": 30,
+        "period": 4,
+        "start": 14,
+        "pattern": "DABC"
+      },
+      "longestSameAnswerRun": {
+        "length": 5,
+        "answer": "C",
+        "start": 44
+      },
+      "starAnswers": "CCCCC",
+      "starCounts": {
+        "C": 5
+      }
+    }
+  },
+  "afterAnswerPatternMetrics": {
+    "N2-MOCK-07": {
+      "answerCounts": {
+        "A": 29,
+        "B": 28,
+        "C": 28,
+        "D": 20
+      },
+      "section1Counts": {
+        "A": 23,
+        "B": 17,
+        "C": 19,
+        "D": 16
+      },
+      "longestCycleOrShortPattern": {
+        "length": 7,
+        "period": 3,
+        "start": 23,
+        "pattern": "CBC"
+      },
+      "section1LongestCycleOrShortPattern": {
+        "length": 7,
+        "period": 3,
+        "start": 23,
+        "pattern": "CBC"
+      },
+      "longestSameAnswerRun": {
+        "length": 4,
+        "answer": "A",
+        "start": 60
+      },
+      "starAnswers": "DCDDA",
+      "starCounts": {
+        "A": 1,
+        "C": 1,
+        "D": 3
+      }
+    },
+    "N2-MOCK-08": {
+      "answerCounts": {
+        "A": 25,
+        "B": 27,
+        "C": 31,
+        "D": 22
+      },
+      "section1Counts": {
+        "A": 20,
+        "B": 17,
+        "C": 22,
+        "D": 16
+      },
+      "longestCycleOrShortPattern": {
+        "length": 7,
+        "period": 4,
+        "start": 42,
+        "pattern": "BBCD"
+      },
+      "section1LongestCycleOrShortPattern": {
+        "length": 7,
+        "period": 4,
+        "start": 42,
+        "pattern": "BBCD"
+      },
+      "longestSameAnswerRun": {
+        "length": 4,
+        "answer": "A",
+        "start": 68
+      },
+      "starAnswers": "CDBBC",
+      "starCounts": {
+        "B": 2,
+        "C": 2,
+        "D": 1
+      }
+    },
+    "N2-MOCK-09": {
+      "answerCounts": {
+        "A": 26,
+        "B": 29,
+        "C": 27,
+        "D": 23
+      },
+      "section1Counts": {
+        "A": 19,
+        "B": 21,
+        "C": 16,
+        "D": 19
+      },
+      "longestCycleOrShortPattern": {
+        "length": 6,
+        "period": 2,
+        "start": 2,
+        "pattern": "AB"
+      },
+      "section1LongestCycleOrShortPattern": {
+        "length": 6,
+        "period": 2,
+        "start": 2,
+        "pattern": "AB"
+      },
+      "longestSameAnswerRun": {
+        "length": 3,
+        "answer": "D",
+        "start": 13
+      },
+      "starAnswers": "CDCAD",
+      "starCounts": {
+        "A": 1,
+        "C": 2,
+        "D": 2
+      }
+    }
+  },
+  "beforeN2Mock08Vs09Section1PositionMatches": 63,
+  "afterN2Mock08Vs09Section1PositionMatches": 19,
+  "remappedItems": 315,
+  "semanticAnswerMismatches": 0,
+  "freshLinguisticReviewItems": [
+    "N2_09_M8_04"
+  ],
+  "freshLinguisticReviewCount": 1,
+  "freshReviewEvidence": {
+    "questionId": "N2_09_M8_04",
+    "all24PermutationsReconstructed": 24,
+    "answerChangingDefensibleAlternatives": 0,
+    "independentOrHumanReviewObtained": false,
+    "provenance": "Implementation-agent self-review; not independent, human, or native-speaker review. This does not create reviewer consensus."
+  },
+  "localizationExamples": [
+    {
+      "examId": "N2-MOCK-08",
+      "questionId": "N2_08_M1_01",
+      "before": "実証（じっしょう）は、事実や効果を証拠によって示すこと。",
+      "after": "実証（じっしょう）là chứng minh bằng bằng chứng; nhóm nghiên cứu dùng thí nghiệm để xác nhận độ bền của vật liệu mới. Cách đọc chuẩn có âm ngắt nhỏ っ và âm しょう."
+    },
+    {
+      "examId": "N2-MOCK-08",
+      "questionId": "N2_08_M8_03",
+      "before": "『一方的な説明にならないよう』のあとに具体策を置く。三番目は『学生が質問しやすい』です。",
+      "after": "Thứ tự là 一方的な説明に → ならないよう → 学生が質問しやすい → 時間を設ける. ならないよう nêu mục đích; mệnh đề 学生が質問しやすい bổ nghĩa cho 時間. Mảnh ★ là 「学生が質問しやすい」; câu yêu cầu dành thời gian để sinh viên dễ đặt câu hỏi."
+    },
+    {
+      "examId": "N2-MOCK-09",
+      "questionId": "N2_09_M10_01",
+      "before": "費用がかかるため、曜日を限定して利用状況を見ます。",
+      "after": "Kéo dài giờ mở cửa cần thêm nhân viên, nên thành phố chỉ thử ba tháng ở một số ngày. Họ ghi cả số khách lẫn mục đích đến để xem chi phí và cách sử dụng có đáng mở rộng không."
+    }
+  ],
+  "audioVerification": {
+    "schemaVersion": 1,
+    "status": "PASS",
+    "method": "Actual MP3 SHA-256, ffprobe duration, full ffmpeg decode, exact displayed/spoken option order and transcript digest, plus 30/30 Chromium desktop/mobile playback receipts per exam.",
+    "exams": {
+      "N2-MOCK-07": {
+        "audioManifestEntries": 30,
+        "spokenChoiceTracks": 16,
+        "technicalChecksPassed": 16,
+        "changedSha256Count": 16,
+        "browserPlaybackStatus": "PASS (30/30 tracks; 16 changed tracks verified on desktop and mobile)"
+      },
+      "N2-MOCK-08": {
+        "audioManifestEntries": 30,
+        "spokenChoiceTracks": 16,
+        "technicalChecksPassed": 16,
+        "changedSha256Count": 16,
+        "browserPlaybackStatus": "PASS (30/30 tracks; 16 changed tracks verified on desktop and mobile)"
+      },
+      "N2-MOCK-09": {
+        "audioManifestEntries": 30,
+        "spokenChoiceTracks": 16,
+        "technicalChecksPassed": 16,
+        "changedSha256Count": 16,
+        "browserPlaybackStatus": "PASS (30/30 tracks; 16 changed tracks verified on desktop and mobile)"
+      }
+    },
+    "tracks": [
+      {
+        "examId": "N2-MOCK-07",
+        "questionId": "N2_07_M3_L01",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "2984be7b89da499fdb968e4a9b5a3b686a4313accf726437e8b9b0cb6bf49e4c",
+        "audioSha256": "392c5e8a2ffae4cff80abeb3c84e9e81b50aa18190350a3aca014128bd8309bc",
+        "audioSha256Changed": true,
+        "durationSec": 83.884,
+        "orderedOptionTexts": [
+          "子育て関連の行政手続きが一箇所でできるようになったこと。",
+          "市内で開催される親子向けイベントの開催案内。",
+          "保育園の保育料が全額免除される新しい制度。",
+          "市役所本庁舎の耐震改修工事のスケジュール。"
+        ],
+        "spokenOptionsTranscriptSha256": "63517dfde61d0a4c7d68f833d91129940e1e03e06ed641be87d24e5070ad2e8b",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_07_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-07",
+        "questionId": "N2_07_M3_L02",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "ec5143c8344a376837b725b275699faeb68ff5abf819ebc6d355b063f1db01b2",
+        "audioSha256": "bb35bd54c386cd6f90075d7f51760ee0592fd522af7483a97b4bbbbe4c1ac3f9",
+        "audioSha256Changed": true,
+        "durationSec": 85.972,
+        "orderedOptionTexts": [
+          "社内ホットラインの電話番号変更の案内。",
+          "新入社員の基本マナーと挨拶の徹底。",
+          "法令遵守の徹底と不正を許さない誠実な企業風土の重要性。",
+          "売上目標を達成するための営業戦略。"
+        ],
+        "spokenOptionsTranscriptSha256": "6d181b3481429c62ffac740fd8e56dfbc79b10c2d806d193cfc196614d615c3c",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_07_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-07",
+        "questionId": "N2_07_M3_L03",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "e543840c62c978b73a63fc6d0d918fcffb141c3d4480aadd5c6fb226d5ec04f9",
+        "audioSha256": "4620bc7f0615bdf3bd2c7ea8fdcc259234f369bb7bf96158794e471427f842ef",
+        "audioSha256Changed": true,
+        "durationSec": 87.7,
+        "orderedOptionTexts": [
+          "避難訓練に地域住民全員が必ず参加すること。",
+          "地震によるケガを防ぐために家具を固定すること。",
+          "地震保険に加入して住宅の損害に備えること。",
+          "非常用の食料や飲料水を1週間分備蓄すること。"
+        ],
+        "spokenOptionsTranscriptSha256": "19a945eff61b5fb8e50794b8b18e0e1a394482ba36928a47d462d13c2af470ba",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_07_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-07",
+        "questionId": "N2_07_M3_L04",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "911f4ecdb2dd0d52f87f2850ba1bdac55b437b2923a6f6e9b28ee6754ad63573",
+        "audioSha256": "cfa84e8fb364feffac1e963623bf5812fb90503bf0efca8b7c9e860d7999c8a5",
+        "audioSha256Changed": true,
+        "durationSec": 83.5,
+        "orderedOptionTexts": [
+          "定年退職後に再就職するための資格取得の方法。",
+          "パソコン講座のカリキュラムと操作方法。",
+          "退職後の学びを社会貢献や人とのつながりに広げていくこと。",
+          "カルチャーセンターの講座受講料の割引制度。"
+        ],
+        "spokenOptionsTranscriptSha256": "97f41c4f20f01a314e4ef94fe0761f13ac531869223920c05d953557b16a3f37",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_07_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-07",
+        "questionId": "N2_07_M3_L05",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "5181c8444292fbb495f60151a2764edfcf794adc3e4bb66874937115eedb45a8",
+        "audioSha256": "50d1b6e46fe4323a4aa6a07de0846d5fe29b75908476fd97f457a184c22ed895",
+        "audioSha256Changed": true,
+        "durationSec": 86.452,
+        "orderedOptionTexts": [
+          "夜間の道路交通渋滞を解消するための道路整備。",
+          "子育て世帯に対するガソリン代の補助金給付。",
+          "夜間や休日の子どもの救急医療を受け入れる体制。",
+          "市内の小児科医院の診療報酬と薬の価格。"
+        ],
+        "spokenOptionsTranscriptSha256": "52d0184e9a71355c8d94d6dd1a9ab788bf1482826ca3edbc3739c64bd5cab5e7",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_07_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-07",
+        "questionId": "N2_07_M4_L01",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "5378b2259efa84549850289a4c41bd7b48ba1c17e3f8acc8d9d58d683454e104",
+        "audioSha256": "2fd4478279cd6fb9814650ca545154637c67814bca29790bfc576ed4ac1f17c7",
+        "audioSha256Changed": true,
+        "durationSec": 33.1,
+        "orderedOptionTexts": [
+          "はい、私が企画書を白紙に戻すよう指示したはずです。",
+          "ええ、来週までに企画書を作成して提出してください。",
+          "ああ、先ほど目を通して印鑑を押しておいたから、机の上にあるよ。"
+        ],
+        "spokenOptionsTranscriptSha256": "9ab4983d6a3ca43e216d5f7925e97e047d1c9b8e9913da7a9995b74c1b53b080",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_07_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-07",
+        "questionId": "N2_07_M4_L02",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "bfc954a2f533783c015316159d3835ebb4cf4c754d0e5c473fb1ddc1bd9d6a33",
+        "audioSha256": "20fdb73cbb01c253b93ae9c27c16d205bd596702b8c0a21c541727ce4894f85a",
+        "audioSha256Changed": true,
+        "durationSec": 34.156,
+        "orderedOptionTexts": [
+          "そうですね、来場者が予想より増えるかもしれませんから、刷っておきます。",
+          "いいえ、説明会は昨日無事に終了いたしましたよ。",
+          "ええ、資料はすべて破棄してしまったので間に合いません。"
+        ],
+        "spokenOptionsTranscriptSha256": "f2e3247bcdc1d9a6c9147fd34dc574f25b12b1d71e114da7280bda517ab9d615",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_07_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-07",
+        "questionId": "N2_07_M4_L03",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "f081e0cc61cdfaf1c9a961d5f242f4434400c94d1837f1c7af513d41bd001154",
+        "audioSha256": "bd1ccfe1b60f93c1139a1b6114e4d1ecbb8439b723cfae975637d67b0aa89118",
+        "audioSha256Changed": true,
+        "durationSec": 35.932,
+        "orderedOptionTexts": [
+          "どうぞお気になさらないでください。迅速に修正対応していただいたので問題ありませんよ。",
+          "ええ、最初から謝罪の言葉など聞きたくありませんでした。",
+          "はい、これからはもっと言葉遣いを丁寧に勉強してください。"
+        ],
+        "spokenOptionsTranscriptSha256": "75e58a8c8481a07ba2c15409cdd703c4619531b2d131ed6d2175b79585a338df",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_07_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-07",
+        "questionId": "N2_07_M4_L04",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "63d8c12f1bbe3cc10a4fef16faaa967b403575234d03533b5b43b40f434fd564",
+        "audioSha256": "e324d1a3bc4ac75959cd5750cfc303d3f092dfeb79426696c75a4058b12480ba",
+        "audioSha256Changed": true,
+        "durationSec": 31.996,
+        "orderedOptionTexts": [
+          "はい、午後からの協議は先週のうちに終わりました。",
+          "ええ、インターネット回線は来月解約する予定です。",
+          "先ほどテストを済ませましたが、音声も映像も非常にクリアでしたよ。"
+        ],
+        "spokenOptionsTranscriptSha256": "776c81d2bc87db66fbb8b0a81c3f7d9236409ed05c8d3d547cbe4c9d18554241",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_07_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-07",
+        "questionId": "N2_07_M4_L05",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "f1f1e6032405ee7ed8d3d2d11cefab4e5a6639e62ab6d7b48f2d6e313a1e4d9a",
+        "audioSha256": "91939f229ff530374af63e70d33140fd7910921482ae588844ed9e9e19a2bb91",
+        "audioSha256Changed": true,
+        "durationSec": 33.412,
+        "orderedOptionTexts": [
+          "うん、来週のお祭りの開催が待ち遠しいね。",
+          "本当にね。みんなで何週間も前から準備してきたのに、悔しいよね。",
+          "ええ、台風が直撃してくれて本当に助かりましたね。"
+        ],
+        "spokenOptionsTranscriptSha256": "8b424ef7a5472d544385cc3c0d9b78bd7772d5c5b45df860acc149709d444978",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_07_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-07",
+        "questionId": "N2_07_M4_L06",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "b12a7c947f9c19f074b8d41721db3cf303d667b5186048ab0b12510a1fc0aa6c",
+        "audioSha256": "bf05654b16a07ddf824fb82b5a31c052229b20973d257de87168bdf71d57e624",
+        "audioSha256Changed": true,
+        "durationSec": 32.044,
+        "orderedOptionTexts": [
+          "いいえ、私は忙しいので誰も見てくれませんよ。",
+          "ええ、ちょうど今手が空いたところですので、拝見しますね。",
+          "はい、書類は明日までにすべて処分しておいてください。"
+        ],
+        "spokenOptionsTranscriptSha256": "6bb06759ef3ff3f5607f4b69e696e0924eea4e6a3bd7374319c49b85a3a739e4",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_07_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-07",
+        "questionId": "N2_07_M4_L07",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "d5472a7253fe12fad9b280b72818b3229b2a59a72fc1458003543361e27ea7b5",
+        "audioSha256": "09c490b2dce49bca9123b9d6eea2ac7ff3bb681e40233a332232f0207695cb7b",
+        "audioSha256Changed": true,
+        "durationSec": 33.724,
+        "orderedOptionTexts": [
+          "ええ、会議は明日から始まる予定なので気をつけます。",
+          "申し訳ありません。議論が熱くなって、相手への配慮が足りませんでした。",
+          "はい、もっと厳しい言葉で相手を責め立てるべきでしたね。"
+        ],
+        "spokenOptionsTranscriptSha256": "c70347f346fd068f73f9995fd74aaef7627104466e23adb071ca6ae894710aa3",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_07_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-07",
+        "questionId": "N2_07_M4_L08",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "e90e87c6d3c43599bf2cdf2465ee1c69bbc8ee40f9defe73397bbb19ee1f8c04",
+        "audioSha256": "4af2cbd8add9ad2e648f5336a43dae2e248a5ed267a587aea0f176faff708db6",
+        "audioSha256Changed": true,
+        "durationSec": 32.044,
+        "orderedOptionTexts": [
+          "私のような若手でよろしければ、ぜひ喜んで挑戦させてください。",
+          "いいえ、広報誌は今年度で廃刊になることが決まりました。",
+          "はい、リーダーの席はすでに他の課長に決まりましたよ。"
+        ],
+        "spokenOptionsTranscriptSha256": "6ede95e8526e681623240629e7d3567ca3f95b82d70b17700492ca03c89e63f2",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_07_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-07",
+        "questionId": "N2_07_M4_L09",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "e452946d33e0333eeef7abfd2d31236d615ed78791e25bcacf949fc41c021a93",
+        "audioSha256": "52223ea506e8e315151ea045e38640e63ab896d4cfa44966f1f2625c837ac82b",
+        "audioSha256Changed": true,
+        "durationSec": 35.14,
+        "orderedOptionTexts": [
+          "はい、待ち時間が2倍に延びて苦情が殺到しています。",
+          "ええ、来庁者の皆様からも混雑が緩和されたと大変好評をいただいております。",
+          "いいえ、新システムは来年まで一度も稼働しない予定です。"
+        ],
+        "spokenOptionsTranscriptSha256": "e5d0925451fef97dda3c54fdc0b79bf27b2acd322f852093e736ad5b39ecdab9",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_07_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-07",
+        "questionId": "N2_07_M4_L10",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "83d6b083c69855d9d4244b58ead3ef3e5a574d8141a3c28fb0a20b2e8fe537bf",
+        "audioSha256": "aa7178b295810aa9e54e66016a14a4ef57e856745eb04d0d81cbb22a9c4a3bf0",
+        "audioSha256Changed": true,
+        "durationSec": 36.172,
+        "orderedOptionTexts": [
+          "ええ、先月すでに取引を完全に停止したはずだよ。",
+          "うん、すぐに先方の要求通りに全額値引きの契約書を作成して。",
+          "ああ、弊社の採算ラインを割り込むことになるから、安易な妥協はできないね。"
+        ],
+        "spokenOptionsTranscriptSha256": "f0684be0f2c7f0cc24a0be35de63fd37d56d3aebad5316396deb4cc2415ee00f",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_07_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-07",
+        "questionId": "N2_07_M4_L11",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "ea99564c3714df81884693a30325a80367e4257ea51b82edf1eebb88f7240740",
+        "audioSha256": "373f7983ac8b1323f95a48e5b945381cac01e3ecdfa725278748dfc4b3472399",
+        "audioSha256Changed": true,
+        "durationSec": 38.212,
+        "orderedOptionTexts": [
+          "ええ、指導員なんて誰でも目をつぶって簡単にこなせますよ。",
+          "はい、今年の新入社員は全員研修を辞退して帰宅しました。",
+          "とんでもない、新入社員の個性に合わせて教えるのは毎回手探りで緊張しますよ。"
+        ],
+        "spokenOptionsTranscriptSha256": "3d9d571c7a3c8d9159712f2183312fb5eea3de6cb718b43b1a4cdacf57747d6e",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_07_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-08",
+        "questionId": "N2_08_M3_L01",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "15a528a170e46192637fbf4a419fde26e5ddf1eebed21e338a826a0db3dce5c5",
+        "audioSha256": "cbbc468523f85dea2df4f1f51ba551c4a84ee2646d8876a1c0ac31a7475a1eac",
+        "audioSha256Changed": true,
+        "durationSec": 63.244,
+        "orderedOptionTexts": [
+          "予測の数値は常に人間より正確だ",
+          "機械学習の結果は学習データと合わせて確かめるべきだ",
+          "人工知能は大量のデータを必要としない",
+          "機械学習の開発を中止すべきだ"
+        ],
+        "spokenOptionsTranscriptSha256": "0f23f844ec2fbc6b0b097eab5dabbdbd465411807dcb0a68d17ca5a56c363357",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_08_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-08",
+        "questionId": "N2_08_M3_L02",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "43575664e46d8c113b7a2fdc53bc93b65c8d7cba6f0d5b4a14dac03951563399",
+        "audioSha256": "e2c1375958b649c34653c2ce7d20fcf9f7f111eab0acc7b1cb6ef180851f88d1",
+        "audioSha256Changed": true,
+        "durationSec": 59.02,
+        "orderedOptionTexts": [
+          "電子資料の同時利用制限と、利用できないときの対応",
+          "図書館の電子資料を全て廃止する計画",
+          "端末を修理する窓口の場所",
+          "紙の本を電子資料に変える方法"
+        ],
+        "spokenOptionsTranscriptSha256": "dbbcea29c93b1f3aa5d3141c46bdde5115eb889340b70a109c140a6d6f1576da",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_08_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-08",
+        "questionId": "N2_08_M3_L03",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "6d2ccfb4fff22978b2fe45347ef117dde04f689b725535de560a0eb4e1c5dcd4",
+        "audioSha256": "c38643e5816ac4be33c1d72b2c50e31e3d2ab9ae6a05bd44fd7e10cb5dc1e530",
+        "audioSha256Changed": true,
+        "durationSec": 59.716,
+        "orderedOptionTexts": [
+          "一人の測定結果だけで結論を出すこと",
+          "機器の設定を記録しないこと",
+          "再現性を確かめてから原因を判断すること",
+          "予想と違う結果を捨てること"
+        ],
+        "spokenOptionsTranscriptSha256": "8647ce645873d02a3d9cf7588e87d07f26acbe2333722fce0d7d12a5a188d18c",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_08_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-08",
+        "questionId": "N2_08_M3_L04",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "841a66ec5ff4555e5a87f76d22822917511b91e0012d3d86c7a7ce0897c6dbba",
+        "audioSha256": "4f4e3a416eeca8037aef284e8e33a61a4866891e583161ddb443238bd3810c22",
+        "audioSha256Changed": true,
+        "durationSec": 63.412,
+        "orderedOptionTexts": [
+          "対面授業をなくすこと",
+          "動画の長さを全て同じにすること",
+          "学生の理解やつまずきを授業改善に生かすこと",
+          "視聴回数を増やすこと"
+        ],
+        "spokenOptionsTranscriptSha256": "ad0c712d2de978399e3f0aa589bdc507f3925d56dd2ef8a9960152c8d9ee3c33",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_08_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-08",
+        "questionId": "N2_08_M3_L05",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "16f53dae30df7dd30ee4982dd77d8b639cdd84577c999842517b211007238ce3",
+        "audioSha256": "c224e8245796c0e90b6ecb97a361c2f5023588fbc591a8e91bef777a77cbe57c",
+        "audioSha256Changed": true,
+        "durationSec": 63.532,
+        "orderedOptionTexts": [
+          "調査に参加しない学生の成績を下げること",
+          "質問への回答を途中で変更させないこと",
+          "同意を得ずに情報を集めること",
+          "参加者が自由に選べることと、情報の扱いを事前に説明すること"
+        ],
+        "spokenOptionsTranscriptSha256": "05b33560f5e43816f7f7fc6b7caa878bb2dded4e6cdd4968962c1d017c394a4c",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_08_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-08",
+        "questionId": "N2_08_M4_L01",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "4b5935f512b8ba35f26cb74003c3026083f3d84d23f524a24aaa7ffff178775f",
+        "audioSha256": "3e520f863633ffeb8663ee3a5ed30dfabd9ca83dac8505da630f08b7dd1f563a",
+        "audioSha256Changed": true,
+        "durationSec": 26.74,
+        "orderedOptionTexts": [
+          "その図は、発表の最後に載せると見やすいですよ。",
+          "はい、出典を明記すれば構いません。",
+          "図の説明は、口頭でも補ってください。"
+        ],
+        "spokenOptionsTranscriptSha256": "52910a5ea3d1d62c93a3e2a39e09342ae73df91391c9dcc840e93a1b9710656c",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_08_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-08",
+        "questionId": "N2_08_M4_L02",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "28fefd81b296eb0591058618cc054f4aa302c27f33ea3897c7d0c2eebd6641c4",
+        "audioSha256": "94710e5b88934e9cd95bf0fb2a9ebc892c3e8cbe0b808f5cd7b801d37da2e376",
+        "audioSha256Changed": true,
+        "durationSec": 28.684,
+        "orderedOptionTexts": [
+          "次の授業の質問時間に、まとめて聞いてください。",
+          "どの部分ですか。もう一度説明しましょうか。",
+          "資料の該当ページを、あとで送りますね。"
+        ],
+        "spokenOptionsTranscriptSha256": "3ea9ece9fc39db355ee6e786a8c39776420488a6073076fa9fcb39b858311010",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_08_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-08",
+        "questionId": "N2_08_M4_L03",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "13c1613ddb7d876bad97e25b026abdec27e0427eb5ef5bd0ca5f88ef50c0d041",
+        "audioSha256": "dd76a23bbb450b012399ff6dea4d49abbc02c35cfe7b6f1f2e6e7c3c78797e64",
+        "audioSha256Changed": true,
+        "durationSec": 28.012,
+        "orderedOptionTexts": [
+          "使った時間を、記録簿に記入しておいてください。",
+          "装置の点検日は、扉の内側に書いてあります。",
+          "いいえ、電源は入れたままにしてください。"
+        ],
+        "spokenOptionsTranscriptSha256": "92d5b38b11e02db4fd827f043e527757f687d1d7289828d195f91730123084db",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_08_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-08",
+        "questionId": "N2_08_M4_L04",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "617d0857e29d3bd557982c01761c6b3f5fa40263cba54edfcb648909cad1141f",
+        "audioSha256": "e1add3134cfde006265c37500f6f19904a3824bb87046030400c5344fa8d33d0",
+        "audioSha256Changed": true,
+        "durationSec": 29.38,
+        "orderedOptionTexts": [
+          "はい、では私は背景の説明を担当します。",
+          "では、私はスライドの順番を確認しておきます。",
+          "図の出典は、資料の最後にまとめてください。"
+        ],
+        "spokenOptionsTranscriptSha256": "5ea21e15d5558db3e0e6305966f19568f9437d1e2fac24ff43d6078924463eda",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_08_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-08",
+        "questionId": "N2_08_M4_L05",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "f21876057e98e5f3631624cd4aca18e83a234ef2f1f971001bd9aecc190434c8",
+        "audioSha256": "f63c9455dd5be9a47e226e57462291fece69afb9c108d4231ac1c671e77b17a3",
+        "audioSha256Changed": true,
+        "durationSec": 27.556,
+        "orderedOptionTexts": [
+          "論文の要点は、ゼミで説明してください。",
+          "読んだ箇所には、付箋を貼っておいてください。",
+          "全部でなくても、担当箇所は読んできてください。"
+        ],
+        "spokenOptionsTranscriptSha256": "37000e832db5784e461f0a4690fda9a521970ebac1644c1bb2215d070f69aed6",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_08_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-08",
+        "questionId": "N2_08_M4_L06",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "9718014901778383a51ce70afd7bdc98bbcfb65dec9ee90ecb64b971fb65dc1e",
+        "audioSha256": "96566d537fe542fc032a403a69ffc4b373eb6914b7879cd774b3692da5b17224",
+        "audioSha256Changed": true,
+        "durationSec": 29.74,
+        "orderedOptionTexts": [
+          "利用可能な時間帯は、図書館のサイトに載っています。",
+          "学内アカウントでログインしているか確認しましたか。",
+          "データベースの利用申請は、学期ごとに更新してください。"
+        ],
+        "spokenOptionsTranscriptSha256": "21c2994a1502e3097feb580f8752165cf09edf57e39541b731d4bf486f03f72f",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_08_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-08",
+        "questionId": "N2_08_M4_L07",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "2befca8dd1a14ea86cf2d5b0aea7ecaed885b3bdeb0f34e37d7576aef51f3b26",
+        "audioSha256": "41f6830fad8c12de7f18048dbe0c43521da28e6095251bd8d6907b46c7f1fb16",
+        "audioSha256Changed": true,
+        "durationSec": 27.844,
+        "orderedOptionTexts": [
+          "そうですね。時間がかかりそうな人から決めましょう。",
+          "順番が決まったら、資料を共有フォルダに置いてください。",
+          "発表時間は一人十分です。"
+        ],
+        "spokenOptionsTranscriptSha256": "882d55c0f1d6647b96bc1684de5976211858572ec9b2a7396eda9329c16f3402",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_08_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-08",
+        "questionId": "N2_08_M4_L08",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "00ce9df4e7c324130bc360ca7649fcffa2ab42db32b352e8c2f12590daf76182",
+        "audioSha256": "3ca14458858db0b84ba6d2d94b44f7831cb3bb628367aab336e0da2a451f348f",
+        "audioSha256Changed": true,
+        "durationSec": 27.748,
+        "orderedOptionTexts": [
+          "目盛りの間隔をそろえると見やすくなります。",
+          "凡例には、各線が何を示すかも書いてください。",
+          "そうですね。値の意味が伝わりやすくなります。"
+        ],
+        "spokenOptionsTranscriptSha256": "99e279226873adefdb544e4ffeb76c25d2acbd0945bc2421f059daff32949ff3",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_08_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-08",
+        "questionId": "N2_08_M4_L09",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "7128b7b63689006186af4440c36c98aac6cdaa8fcfb2a8e88cd9a41a1bbcb345",
+        "audioSha256": "c932ac6ff2583cc0f3eb123952ee42a9c2737a8230f72f13e9d283593ea7467c",
+        "audioSha256Changed": true,
+        "durationSec": 29.26,
+        "orderedOptionTexts": [
+          "申請書の提出先は、教務課の窓口です。",
+          "添付書類はPDF形式で提出してください。",
+          "それなら、今すぐ必要書類をそろえたほうがいいですよ。"
+        ],
+        "spokenOptionsTranscriptSha256": "b1dc68f6aa1f7dd51222229e06921da036aa2cf2bc4ca4d14879dc0b017f79dc",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_08_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-08",
+        "questionId": "N2_08_M4_L10",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "33f9f5ff1fea68219c31586334d52bdc0160a134aafc2dad3ed43a03db6279d3",
+        "audioSha256": "c74753f405d2d06ab3d925e853b5d2243c8ac65218e4e96b636b7afd33ec175f",
+        "audioSha256Changed": true,
+        "durationSec": 28.972,
+        "orderedOptionTexts": [
+          "専門用語を使うこと自体は、発表では大切です。",
+          "では、初めて聞く人にも分かる言葉に直しましょう。",
+          "用語の意味は、質問があればその場で説明します。"
+        ],
+        "spokenOptionsTranscriptSha256": "115e89187de4fccf22b58caa7ef1769769abc57d53b7c7072cf0e00fc8f3cef2",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_08_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-08",
+        "questionId": "N2_08_M4_L11",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "992f88d970b4517378e28160455beeaccc914acc4e79124afc8b9f03bc9bea8b",
+        "audioSha256": "4a736bc0c614bb3c235f87aa683ee26f11e7279effd2b98387281bb13f43a811",
+        "audioSha256Changed": true,
+        "durationSec": 31.948,
+        "orderedOptionTexts": [
+          "予想と異なる数値は、発表資料から外しておきましょう。",
+          "そう決める前に、条件と測定手順を確かめてみましょう。",
+          "予想した結果になるまで、測定を続けてみましょう。"
+        ],
+        "spokenOptionsTranscriptSha256": "6b25705e770f9d41fcd788506092817c54a2303bc37ee3ac82deef59addbcb36",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_08_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-09",
+        "questionId": "N2_09_M3_L01",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "dd0e87c78dd4cb0aee8c0458d6db91ce4ba4061f421e50287187c3c5c6a88e75",
+        "audioSha256": "1c0b7c4871eb56424337ca7bc20408d60ee2ea6a175fb655d2052a82bf56b33b",
+        "audioSha256Changed": true,
+        "durationSec": 66.508,
+        "orderedOptionTexts": [
+          "動画を使った広報をすべて中止するべきだ",
+          "自治体の動画は短くすれば十分だ",
+          "動画と文字の両方で必要な情報を確認できるようにするべきだ",
+          "申込条件を広報誌から削除するべきだ"
+        ],
+        "spokenOptionsTranscriptSha256": "663ef4c642b7d1d06b5074010fae12b503ae5dc6d3fbd36b9ef3654a3322cd80",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_09_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-09",
+        "questionId": "N2_09_M3_L02",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "ac9621d99f3d236acc1295d0506c0525eee86b962ff926479728ddb5ed5cc12f",
+        "audioSha256": "b4c3d74050f1647f145dbf40b40ffc53634bc2c450c6724f8356ac79e055e698",
+        "audioSha256Changed": true,
+        "durationSec": 67.996,
+        "orderedOptionTexts": [
+          "新聞の内容を証言より常に優先する",
+          "記憶を疑って調査をやめる",
+          "証言だけを事実として記録する",
+          "他の資料とも比べ、違いの背景を確かめる"
+        ],
+        "spokenOptionsTranscriptSha256": "bbdb45499647e74c33074f28ef6bdeed8281ca840b788e59536dbda61cb341c3",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_09_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-09",
+        "questionId": "N2_09_M3_L03",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "cec6b33326f131a3f66a466ce3697caca1e8ef2b502283e06831056c60cb8d22",
+        "audioSha256": "68bc0e195c2e4cdea820be046db8ee6dbc7143baec2e6d10ebfd37804d1c32ff",
+        "audioSha256Changed": true,
+        "durationSec": 63.244,
+        "orderedOptionTexts": [
+          "来場者数を毎年同じにすること",
+          "売上の数字だけでなく費用や普段の営業への影響も見ること",
+          "地域の人の期待を後から推測すること",
+          "準備費用を記録しないこと"
+        ],
+        "spokenOptionsTranscriptSha256": "0d145f48be83b4adecb15ca86df9abbc389eba15f2c833c228380fefb5d41e11",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_09_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-09",
+        "questionId": "N2_09_M3_L04",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "582964418c4c20390869c5b05928f9ccb7116e1ea5bb5e25ea4afa68ba859c3c",
+        "audioSha256": "6fc77930ea23a10715229df5bc0b6854ecdcb2c641b8800ebd41fb95ec4164cd",
+        "audioSha256Changed": true,
+        "durationSec": 63.292,
+        "orderedOptionTexts": [
+          "珍しい単語の一覧を作ること",
+          "若い人に昔の表現だけを使わせること",
+          "方言を日常会話からなくすこと",
+          "使われる場面や世代差も含めて記録すること"
+        ],
+        "spokenOptionsTranscriptSha256": "9fb5cde8106c6ba7431d4082e00d9aad3d150217eaad1e2833c58c468fc2ee57",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_09_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-09",
+        "questionId": "N2_09_M3_L05",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "752e9ff1b041af7975b4c1a09a75cdf9f00548ae74e1096c30cbbf01f640e2dc",
+        "audioSha256": "bc9bf38c875e3a2dbfd4f2c65dd95283f528d9abbaf8ceaa588311fb43cdb7e1",
+        "audioSha256Changed": true,
+        "durationSec": 59.62,
+        "orderedOptionTexts": [
+          "来館者の意見を聞きすぎること",
+          "公共施設が無料であること",
+          "利用していない人の意見が調査から抜けやすいこと",
+          "満足度アンケートの質問数が多いこと"
+        ],
+        "spokenOptionsTranscriptSha256": "0039c8e5663165e30a8a6bf89c368c7041b7a19393195f0e24b1bb8844616cbe",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_09_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-09",
+        "questionId": "N2_09_M4_L01",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "7884c1d97e15448acc20b930113d5920ad7163bc5e8bfb70719d9169af3f5c17",
+        "audioSha256": "9901b2f615f27ee32319d32dd26df971ee890931a99f5724f10689f891b6e452",
+        "audioSha256Changed": true,
+        "durationSec": 26.884,
+        "orderedOptionTexts": [
+          "資料室は駅の向かいです。",
+          "はい、専門家は今朝帰りました。",
+          "では、説明を短い言葉に直してみましょう。"
+        ],
+        "spokenOptionsTranscriptSha256": "435e3d58c25648fdfe9811d7ee3caed2922b1e972e78566d3264a7e57ee6e19c",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_09_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-09",
+        "questionId": "N2_09_M4_L02",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "2817476cf09787541271f21977115f12a7deca400d229351fa638fb60802cd95",
+        "audioSha256": "b4cee36c784b59721a8d495d0781edf596108ff009d5fe37927bbb8dd7819c1d",
+        "audioSha256Changed": true,
+        "durationSec": 26.284,
+        "orderedOptionTexts": [
+          "入口で昨日の新聞を読みました。",
+          "はい、会場は三年前にできました。",
+          "それなら、案内表示を増やしてみませんか。"
+        ],
+        "spokenOptionsTranscriptSha256": "ce1ad8c566cd4955171612e3d21009d7fd399c015bfc8c26e0743b1dd1e00df6",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_09_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-09",
+        "questionId": "N2_09_M4_L03",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "fde79975b8476898117a7b82e4ed55d37797e81b09b1e4068deb9a3e8a71b745",
+        "audioSha256": "459f9ec14e67efc272f405e7d51f1da5c9ff36e05ae39efd96e41a7d9aebe509",
+        "audioSha256Changed": true,
+        "durationSec": 26.164,
+        "orderedOptionTexts": [
+          "予約表は先月作りました。",
+          "では、到着する時刻が分かったら連絡してください。",
+          "はい、時間はいつも同じです。"
+        ],
+        "spokenOptionsTranscriptSha256": "6f0e1abccdf380845e9cfd4facaa2077132d6e3fa84283794c8f5bb1f32f3ae4",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_09_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-09",
+        "questionId": "N2_09_M4_L04",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "36791dcd900d6cce5a4f1914bece05374a1f38e5fc65d44da0412af0e7cfb22c",
+        "audioSha256": "41cdf5e44ca62d929e445eb664f842a121544e0a01dc26877164cfb7e411f62b",
+        "audioSha256Changed": true,
+        "durationSec": 24.748,
+        "orderedOptionTexts": [
+          "参加しやすい役割や時間を考えてみましょう。",
+          "はい、参加賞は駅で買えます。",
+          "若い木は裏庭に植えました。"
+        ],
+        "spokenOptionsTranscriptSha256": "cddc8a1ac385063f32315573e88d12a09b177c07897a2781dfaf08446f8c6448",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_09_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-09",
+        "questionId": "N2_09_M4_L05",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "ed5bea0dd366a3913dd4c5a05e59f8f5447409114c07e0470c115e4e37442800",
+        "audioSha256": "5b5a7da27df990114144d87086812365c73c63e0c14208d098c69bc7c610363b",
+        "audioSha256Changed": true,
+        "durationSec": 25.804,
+        "orderedOptionTexts": [
+          "別の地域や期間の結果とも比べてみましょう。",
+          "数字は壁の右に書いてあります。",
+          "はい、効果は午後に届きます。"
+        ],
+        "spokenOptionsTranscriptSha256": "35ae6b1251f08f6335be5836dead8cb68f6ef5f5362a487907bca0ac4e371028",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_09_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-09",
+        "questionId": "N2_09_M4_L06",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "b13af786e7eef8ea9aa26b8d35612da0e9504f3175a0d06a5e2357fe3ef75512",
+        "audioSha256": "91cfb7bc4cc85cf93f2ebfa16cf5415ea0b0032b4b6d1757c3fb7919b488396e",
+        "audioSha256Changed": true,
+        "durationSec": 26.572,
+        "orderedOptionTexts": [
+          "はい、道は毎日同じです。",
+          "分かりました。着いたら受付に声をかけてください。",
+          "集合写真は来週撮ります。"
+        ],
+        "spokenOptionsTranscriptSha256": "8f32a6b9af537f097286ab3bcb23b9dcac9418142aa6114cffa3bba41323924f",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_09_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-09",
+        "questionId": "N2_09_M4_L07",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "7f29db78c113d39d0771a9824930b527861f915f05ef39e3bd2e057291541258",
+        "audioSha256": "b6966d5b95ec91cdfff0699a66e940c962f4da85ee6ab1e8928ea6f5977529ef",
+        "audioSha256Changed": true,
+        "durationSec": 25.468,
+        "orderedOptionTexts": [
+          "いいえ、会議は来月終わります。",
+          "はい、理由と一緒に記録しておくとよいでしょう。",
+          "記録係は二階の部屋です。"
+        ],
+        "spokenOptionsTranscriptSha256": "5c06fe09d4722bc604d5a64a464abaa5d9b9c997d519ffa6fd9d308527a210b7",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_09_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-09",
+        "questionId": "N2_09_M4_L08",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "c92f07892c1b58f8884546c52ad847d2d983465222b141395fdc636906a46642",
+        "audioSha256": "e5bc6b80d2cfdb529737d7e374abb50917e353aeeff814d09b868ab73d9bf3e5",
+        "audioSha256Changed": true,
+        "durationSec": 26.356,
+        "orderedOptionTexts": [
+          "要点を残して、重複している部分を削りましょう。",
+          "はい、短い道を通って帰りました。",
+          "展示会は午後から始まります。"
+        ],
+        "spokenOptionsTranscriptSha256": "d5889b6cc0369e69030df5aaa5f0ab8ab83c8a09b771e93c11145cf2e333892d",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_09_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-09",
+        "questionId": "N2_09_M4_L09",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "453ab44ebb27e1da3d1b84659f7d71f9ce6ba5630bad2683f58e97868bc0e78d",
+        "audioSha256": "521aed5a58b3f7b04425f03abc8579e1054e788eb36816fe308ef0899bd35de6",
+        "audioSha256Changed": true,
+        "durationSec": 27.172,
+        "orderedOptionTexts": [
+          "はい、知らせは先週食べました。",
+          "では、以前申し込んだ人にも改めて知らせましょう。",
+          "方法は駅前で練習しました。"
+        ],
+        "spokenOptionsTranscriptSha256": "64c6ab2cd77a1580b31a1bb0b816793ad376f30852408e22df8f526c6ac5c630",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_09_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-09",
+        "questionId": "N2_09_M4_L10",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "a0d921877f01939bab3e4b045ee32d0c136c681a4bd047652d9955c8edeb2027",
+        "audioSha256": "3e884b3bd73b1eee0d996b30650cc18641c306801b253aec4f5a4050f71f8137",
+        "audioSha256Changed": true,
+        "durationSec": 28.66,
+        "orderedOptionTexts": [
+          "はい、説明書は青い色です。",
+          "費用は昨日、道を負担しました。",
+          "失礼しました。負担する人と金額をもう一度説明します。"
+        ],
+        "spokenOptionsTranscriptSha256": "ca7a80a796b14393dfd9ca016ab50376c7de19ad2f7efdb59f3b44ade23fb2a8",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_09_AUDIO_PLAYBACK_RECEIPT.json"
+      },
+      {
+        "examId": "N2-MOCK-09",
+        "questionId": "N2_09_M4_L11",
+        "status": "BROWSER_PLAYBACK_VERIFIED",
+        "previousAudioSha256": "8e3ba4297aff1d52a6ef21f055f05e4c9a138568a247c1421bb06ed1b5beeb6a",
+        "audioSha256": "4f3496cc106131c61460442495363433fc651bc5fb585a4f50d79d333167417f",
+        "audioSha256Changed": true,
+        "durationSec": 27.028,
+        "orderedOptionTexts": [
+          "案内は毎週木曜日に届きます。",
+          "はい、一人は数字の一つです。",
+          "そうですね。混みそうな場所にも担当を置きましょう。"
+        ],
+        "spokenOptionsTranscriptSha256": "a8eb8435a3201ce2588e59500c9630953102f9a0b03f3d28f81641ced7f3c9fd",
+        "browserPlaybackStatus": "PASS",
+        "browserPlaybackReceipt": "N2_MOCK_09_AUDIO_PLAYBACK_RECEIPT.json"
+      }
+    ]
+  },
+  "n2Mock10UnchangedFromBaseline": true,
+  "limitations": [
+    "Vietnamese language checks are heuristic regression screens, not native-language editorial certification.",
+    "Blind-review mappings preserve historical selections and do not create new independent reviews.",
+    "The M09 M8_04 24-order recheck is a transparent implementation-agent self-review, not independent human/native-speaker validation.",
+    "Pattern screens flag risk signals; they do not certify answer quality or psychometric calibration."
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "examId": "N2-MOCK-07",
-  "generatedAt": "2026-10-21T10:19:16.523Z",
+  "generatedAt": "2026-10-21T11:58:58.961Z",
   "browser": "Google Chrome installed on local test host, headless",
   "viewport": "1280x800 desktop; 390x844 mobile emulation",
   "catalog": "Intentionally remains IN_DEVELOPMENT and hidden from public launch until release gate passes",
@@ -30,7 +30,7 @@
     {
       "name": "mondai_4_three_choices",
       "passed": true,
-      "details": "A\nああ、先ほど目を通して印鑑を押しておいたから、机の上にあるよ。 | B\nええ、来週までに企画書を作成して提出してください。 | C\nはい、私が企画書を白紙に戻すよう指示したはずです。"
+      "details": "A\nはい、私が企画書を白紙に戻すよう指示したはずです。 | B\nええ、来週までに企画書を作成して提出してください。 | C\nああ、先ほど目を通して印鑑を押しておいたから、机の上にあるよ。"
     },
     {
       "name": "combined_score_and_review",
