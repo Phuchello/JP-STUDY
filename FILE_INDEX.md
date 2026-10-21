@@ -931,7 +931,7 @@ Snapshot 2026-10-21. VERIFIED is scoped verification, not JLPT certification. Hi
 | [scripts/tests/test_n2_mock_06_grammar_regressions.py](scripts/tests/test_n2_mock_06_grammar_regressions.py) | QA_PENDING |
 | [scripts/tests/test_n2_mock_06_star_permutations.py](scripts/tests/test_n2_mock_06_star_permutations.py) | QA_PENDING |
 | [scripts/tests/test_n2_mock_07_e2e.cjs](scripts/tests/test_n2_mock_07_e2e.cjs) | VERIFIED |
-| [scripts/tests/test_n2_mock_08_e2e.cjs](scripts/tests/test_n2_mock_08_e2e.cjs) | QA_PENDING |
+| [scripts/tests/test_n2_mock_08_e2e.cjs](scripts/tests/test_n2_mock_08_e2e.cjs) | VERIFIED |
 | [scripts/tests/test_n2_mock_09_e2e.cjs](scripts/tests/test_n2_mock_09_e2e.cjs) | VERIFIED |
 | [scripts/tests/test_n2_mock_10_e2e.cjs](scripts/tests/test_n2_mock_10_e2e.cjs) | VERIFIED |
 | [scripts/tests/test_n2_mock_10_sealed_hash.py](scripts/tests/test_n2_mock_10_sealed_hash.py) | QA_PENDING |

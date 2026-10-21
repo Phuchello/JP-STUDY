@@ -2,7 +2,7 @@
   "snapshotDate": "2026-10-21",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
   "fileCountExcludingManifest": 954,
-  "totalBytesExcludingManifest": 148013763,
+  "totalBytesExcludingManifest": 148014020,
   "files": [
     {
       "path": ".gitattributes",
@@ -2796,8 +2796,8 @@
     },
     {
       "path": "FILE_INDEX.md",
-      "bytes": 94450,
-      "sha256": "8059cc343860730ce87be94b3a586630023ab9f8bca5df97f612cc2bfe5dfffa",
+      "bytes": 94448,
+      "sha256": "3de96ff4c078da3d04c0d5ccf4c0a19b0c87750eb95db7ff4f93a3d9a4f9859a",
       "status": "VERIFIED"
     },
     {
@@ -3318,8 +3318,8 @@
     },
     {
       "path": "qa/file_status.json",
-      "bytes": 25726,
-      "sha256": "3752db7a731ba071c1752823066d6cf4c9d5143426c21bc4b9f7be41f05eaa2c",
+      "bytes": 25781,
+      "sha256": "dc4968db1d701204547eb554e31888264b172c6fda522c1d820cf1ae6400724e",
       "status": "VERIFIED"
     },
     {
@@ -3823,7 +3823,7 @@
     {
       "path": "qa/N2_MOCK_08_E2E_REPORT.json",
       "bytes": 2207,
-      "sha256": "ac5597caf0422aa842b135667325ab6023607563c5f37faadfeaa1efb5a3f0f2",
+      "sha256": "b71e005691f97255a7e2fffa278ba9fa85c5887499f0127d5da4c1cb54e8eb85",
       "status": "VERIFIED"
     },
     {
@@ -5562,9 +5562,9 @@
     },
     {
       "path": "scripts/tests/test_n2_mock_08_e2e.cjs",
-      "bytes": 8146,
-      "sha256": "dfa1de7562d928aa871af91ce7624c6c813a4206817a774749be360e8737790d",
-      "status": "QA_PENDING"
+      "bytes": 8350,
+      "sha256": "c1159b6751d65293389b1af049e0025720c478a44a4778343809190b1fd21cc4",
+      "status": "VERIFIED"
     },
     {
       "path": "scripts/tests/test_n2_mock_09_e2e.cjs",

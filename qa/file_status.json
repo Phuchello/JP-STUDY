@@ -455,5 +455,6 @@
   "scripts/curriculum/generate_n2_mock_07_audio.py": "VERIFIED",
   "docs/audio/n2_mock_08/N2_08_M3_L05.mp3": "VERIFIED",
   "qa/N2_MOCK_09_STAR_M8_04_FRESH_AUDIT.json": "QA_PENDING",
-  "qa/PHASE_6_1_CONTENT_QUALITY_REPORT.json": "QA_PENDING"
+  "qa/PHASE_6_1_CONTENT_QUALITY_REPORT.json": "QA_PENDING",
+  "scripts/tests/test_n2_mock_08_e2e.cjs": "VERIFIED"
 }
