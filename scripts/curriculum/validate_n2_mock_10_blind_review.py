@@ -27,6 +27,18 @@ def sha256(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def compatible_text_sha256(data: bytes) -> set[str]:
+    """Return hashes for the exact bytes under Git's LF/CRLF checkout conversion.
+
+    The reviewer report is bound to the source file as read on Windows, while
+    GitHub Actions checks out text files with LF. Accept only the two equivalent
+    newline encodings; all JSON content bytes remain covered by the digest.
+    """
+    lf_bytes = data.replace(b"\r\n", b"\n")
+    crlf_bytes = lf_bytes.replace(b"\n", b"\r\n")
+    return {hashlib.sha256(candidate).hexdigest() for candidate in (data, lf_bytes, crlf_bytes)}
+
+
 def load(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
 
@@ -39,8 +51,8 @@ def main() -> int:
     if not PROVENANCE.is_file():
         fail("provenance report is missing")
     report = load(PROVENANCE)
-    sealed_hash = sha256(SEALED)
-    if report.get("examId") != "N2-MOCK-10" or report.get("sealedInputSha256") != sealed_hash:
+    sealed_hashes = compatible_text_sha256(SEALED.read_bytes())
+    if report.get("examId") != "N2-MOCK-10" or report.get("sealedInputSha256") not in sealed_hashes:
         fail("review report is not bound to the current sealed-input SHA-256")
     if not re.fullmatch(r"[0-9a-f]{64}", str(report.get("reviewerResponseSha256", ""))):
         fail("raw reviewer response hash is missing or malformed")
