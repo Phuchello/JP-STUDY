@@ -2,7 +2,7 @@
   "snapshotDate": "2026-10-21",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
   "fileCountExcludingManifest": 882,
-  "totalBytesExcludingManifest": 136846882,
+  "totalBytesExcludingManifest": 136847612,
   "files": [
     {
       "path": ".gitattributes",
@@ -3553,7 +3553,7 @@
     {
       "path": "qa/N2_MOCK_07_AUDIO_PLAYBACK_RECEIPT.json",
       "bytes": 30257,
-      "sha256": "97f08f7ec1e30b9075d86a78e3aa330c216b8e10b5427e69979f7b7cea3771e0",
+      "sha256": "69e9c5af160a7ba7fcbf00973d5314f1e450f2282736ee90fdd56a76125cde7b",
       "status": "VERIFIED"
     },
     {
@@ -3565,13 +3565,13 @@
     {
       "path": "qa/N2_MOCK_07_DEEP_AUDIO_PLAYBACK_REPORT.md",
       "bytes": 4187,
-      "sha256": "34f4f70a2fc39a4847a5f2cb22b42579e3b4d0949e37e9b026352706ce887153",
+      "sha256": "0db270b892e7e4e3896c2c597f6b7f0907394022844352ef7a36f1e34c296a34",
       "status": "VERIFIED"
     },
     {
       "path": "qa/N2_MOCK_07_E2E_REPORT.json",
       "bytes": 1956,
-      "sha256": "4a7fb12ac904b18817125f15a63349b81b4c3a3531fa12e79fd237c64c8d60b8",
+      "sha256": "1f93124126067b688f167bf7c04ecdbe3de380008bef922e8567811394665d41",
       "status": "VERIFIED"
     },
     {
@@ -3631,7 +3631,7 @@
     {
       "path": "qa/N2_MOCK_09_AUDIO_PLAYBACK_RECEIPT.json",
       "bytes": 30255,
-      "sha256": "b12c99f0b76bbc577fe6a2c666326b9127f45a2be3d9837b0f81f53b6d082785",
+      "sha256": "686c7466851967fc6bd8611ca88527566fd3c9bdc56623725286e8bcd39656d7",
       "status": "VERIFIED"
     },
     {
@@ -3643,13 +3643,13 @@
     {
       "path": "qa/N2_MOCK_09_DEEP_AUDIO_PLAYBACK_REPORT.md",
       "bytes": 4188,
-      "sha256": "85b61785dc93753695d4a7719f46ea2c3969c77dc52c647b70d5ee4b1c04e791",
+      "sha256": "9aa36f28b3284c40d87b4c74ce599f74bd65d379bf68b85e997a70bab6a76387",
       "status": "VERIFIED"
     },
     {
       "path": "qa/N2_MOCK_09_E2E_REPORT.json",
       "bytes": 2174,
-      "sha256": "e49f937707f5622518a5cc39e6decfcaed027bde81ddc5e1efa638ec7c53f696",
+      "sha256": "5d433d5fbc0c121b0a7059ce2424783be5aa5620548ef90d5641992ca5511cb3",
       "status": "VERIFIED"
     },
     {
@@ -5154,8 +5154,8 @@
     },
     {
       "path": "scripts/tests/test_n2_mock_07_e2e.cjs",
-      "bytes": 7235,
-      "sha256": "509f7309c2eee88c8202d9d46e9914e572dd447aa82357954b4d63c030b4707b",
+      "bytes": 7355,
+      "sha256": "95967d7017e706c42aee628bd1e3a34e37a70d502fa92ceb4dc8efcef54d0097",
       "status": "VERIFIED"
     },
     {
@@ -5166,8 +5166,8 @@
     },
     {
       "path": "scripts/tests/test_n2_mock_09_e2e.cjs",
-      "bytes": 8146,
-      "sha256": "938d24b27f9154dcb00b0e0695eab5874328a78104ac90c08ec45ea2f9c9be17",
+      "bytes": 8350,
+      "sha256": "7071280727d401345c7cab1b345b6fac7f7a316dfb2a241d0df75e732e1ad40d",
       "status": "VERIFIED"
     },
     {
@@ -5250,8 +5250,8 @@
     },
     {
       "path": "scripts/tests/verify_n2_mock_07_audio_deep.cjs",
-      "bytes": 11678,
-      "sha256": "94fdc293263a07fe168e69ca665211edd551e61620d6bd09b8b1bd29b49b3ed9",
+      "bytes": 11880,
+      "sha256": "4538607e9480fef05b35969d0acf4a025c8e052c26525d26bc808c4e3d1a61dd",
       "status": "VERIFIED"
     },
     {
@@ -5262,8 +5262,8 @@
     },
     {
       "path": "scripts/tests/verify_n2_mock_09_audio_deep.cjs",
-      "bytes": 12273,
-      "sha256": "6222042ca80f7ed1db98fe4bf1ec895ad4fdfc656a712b073750354c74e95981",
+      "bytes": 12477,
+      "sha256": "49eb758738bc0cbf612723b4d33c428f97399783b4dc63f908a1a6614b1dce26",
       "status": "VERIFIED"
     },
     {

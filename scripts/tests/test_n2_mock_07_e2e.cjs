@@ -1,5 +1,4 @@
-// Focused browser E2E for N2-MOCK-07. The catalog card intentionally remains
-// unpublished while this test exercises the locally integrated exam data.
+// Focused browser E2E for the published N2-MOCK-07 practice resource.
 const { chromium } = require('playwright');
 const path = require('path');
 const fs = require('fs');
@@ -8,10 +7,12 @@ const assert = require('assert/strict');
 const ROOT = path.resolve(__dirname, '../..');
 const ENGINE_URL = 'file:///' + path.join(ROOT, 'docs/widgets/practice_engine.html').replaceAll('\\', '/') + '?mode=mock&mockId=N2-MOCK-07';
 const REPORT_PATH = path.join(ROOT, 'qa/N2_MOCK_07_E2E_REPORT.json');
+const SYSTEM_CHROME = 'C:/Program Files/Google/Chrome/Application/chrome.exe';
+const CHROME_PATH = process.env.CHROME_PATH || (process.platform === 'win32' && fs.existsSync(SYSTEM_CHROME) ? SYSTEM_CHROME : undefined);
 
 async function main() {
   const browser = await chromium.launch({
-    executablePath: 'C:/Program Files/Google/Chrome/Application/chrome.exe',
+    ...(CHROME_PATH ? { executablePath: CHROME_PATH } : {}),
     headless: true,
     args: ['--autoplay-policy=no-user-gesture-required', '--allow-file-access-from-files']
   });
