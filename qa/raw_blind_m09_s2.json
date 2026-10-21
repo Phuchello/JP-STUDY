@@ -1,0 +1,924 @@
+[
+  {
+    "id": "N2_09_M1_L01",
+    "blindAnswer": "A",
+    "remappedBlindAnswer": "A",
+    "originalReviewerSelection": "A",
+    "selectedOptionText": "所有者に展示期間と方法を説明して許可を得る",
+    "linguisticJustification": "会話台本では、所有者に展示期間と方法を説明して書面で了解を得る。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。",
+      "音声は未聴取。会話台本のみで判断。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Listening answers were reviewed from the sealed transcript; the separate browser receipt verifies hash, decode and playback progression, not pronunciation or speech-content certification.",
+      "Reviewer asked about the A-D option-label mapping. The sealed M09 prompt asks for one choice, the web UI displays the same A-D identifiers, and final answers were mapped by exact option text."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "156a0355eff6e30f4bfeaa49063005484e012e911fd79fbaa46f66e9806a5143",
+    "reviewFingerprint": "156a0355eff6e30f4bfeaa49063005484e012e911fd79fbaa46f66e9806a5143",
+    "sourceInputFingerprint": "156a0355eff6e30f4bfeaa49063005484e012e911fd79fbaa46f66e9806a5143",
+    "computedSourceInputFingerprint": "9ce704a30f780cd8d5dc7a3162c3223050664af04b910e64556f52754db5d0f9",
+    "sourceInputFile": "blind_items_m09_v1_s2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification",
+      "Listening answer reviewed from sealed transcript; separate playback evidence does not establish pronunciation accuracy"
+    ]
+  },
+  {
+    "id": "N2_09_M1_L02",
+    "blindAnswer": "B",
+    "remappedBlindAnswer": "B",
+    "originalReviewerSelection": "B",
+    "selectedOptionText": "確認が済んだ資料を相談コーナーに置く",
+    "linguisticJustification": "台本では、確認後にベトナム語資料を入口の相談コーナーに置く。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。",
+      "音声は未聴取。会話台本のみで判断。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Listening answers were reviewed from the sealed transcript; the separate browser receipt verifies hash, decode and playback progression, not pronunciation or speech-content certification.",
+      "Reviewer asked about the A-D option-label mapping. The sealed M09 prompt asks for one choice, the web UI displays the same A-D identifiers, and final answers were mapped by exact option text."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "c1b63d8cbd483cd48aaa26571e3cc06e6f43f00400df4084ee46841a9354e01d",
+    "reviewFingerprint": "c1b63d8cbd483cd48aaa26571e3cc06e6f43f00400df4084ee46841a9354e01d",
+    "sourceInputFingerprint": "c1b63d8cbd483cd48aaa26571e3cc06e6f43f00400df4084ee46841a9354e01d",
+    "computedSourceInputFingerprint": "6366e6c524fac4ea3969091cd8085afe5b1a9d4c1ff561ece96b0c656ea9869c",
+    "sourceInputFile": "blind_items_m09_v1_s2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification",
+      "Listening answer reviewed from sealed transcript; separate playback evidence does not establish pronunciation accuracy"
+    ]
+  },
+  {
+    "id": "N2_09_M1_L03",
+    "blindAnswer": "C",
+    "remappedBlindAnswer": "C",
+    "originalReviewerSelection": "C",
+    "selectedOptionText": "避難経路を確認して地図に示す",
+    "linguisticJustification": "台本では、安全な避難経路を確認して地図に示すよう頼まれている。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。",
+      "音声は未聴取。会話台本のみで判断。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Listening answers were reviewed from the sealed transcript; the separate browser receipt verifies hash, decode and playback progression, not pronunciation or speech-content certification.",
+      "Reviewer asked about the A-D option-label mapping. The sealed M09 prompt asks for one choice, the web UI displays the same A-D identifiers, and final answers were mapped by exact option text."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "e59db8dd064017f7b7ffcf07390e634e3dc4e10c4896a672060e1e49aa8851bb",
+    "reviewFingerprint": "e59db8dd064017f7b7ffcf07390e634e3dc4e10c4896a672060e1e49aa8851bb",
+    "sourceInputFingerprint": "e59db8dd064017f7b7ffcf07390e634e3dc4e10c4896a672060e1e49aa8851bb",
+    "computedSourceInputFingerprint": "9402be95118b6d775d64bb481de647ce1c96e98a4d18edd1b5b264b60e764e1c",
+    "sourceInputFile": "blind_items_m09_v1_s2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification",
+      "Listening answer reviewed from sealed transcript; separate playback evidence does not establish pronunciation accuracy"
+    ]
+  },
+  {
+    "id": "N2_09_M1_L04",
+    "blindAnswer": "D",
+    "remappedBlindAnswer": "D",
+    "originalReviewerSelection": "D",
+    "selectedOptionText": "抽選の可能性を冒頭にも明記する",
+    "linguisticJustification": "台本では、抽選の可能性を案内文の冒頭にも記載する。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。",
+      "音声は未聴取。会話台本のみで判断。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Listening answers were reviewed from the sealed transcript; the separate browser receipt verifies hash, decode and playback progression, not pronunciation or speech-content certification.",
+      "Reviewer asked about the A-D option-label mapping. The sealed M09 prompt asks for one choice, the web UI displays the same A-D identifiers, and final answers were mapped by exact option text."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "0b0ec413cb8330341547d5a279345740e3d5de3e32c4a761d3d939390430b70a",
+    "reviewFingerprint": "0b0ec413cb8330341547d5a279345740e3d5de3e32c4a761d3d939390430b70a",
+    "sourceInputFingerprint": "0b0ec413cb8330341547d5a279345740e3d5de3e32c4a761d3d939390430b70a",
+    "computedSourceInputFingerprint": "c2b3fb87a1ead778399bcea86e17a23dcf68b4ac0725aeb8878c22b30660a444",
+    "sourceInputFile": "blind_items_m09_v1_s2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification",
+      "Listening answer reviewed from sealed transcript; separate playback evidence does not establish pronunciation accuracy"
+    ]
+  },
+  {
+    "id": "N2_09_M1_L05",
+    "blindAnswer": "A",
+    "remappedBlindAnswer": "A",
+    "originalReviewerSelection": "A",
+    "selectedOptionText": "事務局に定員と申込方法を確認する",
+    "linguisticJustification": "台本では、募集案内作成前に定員と申込方法を確認する。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。",
+      "音声は未聴取。会話台本のみで判断。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Listening answers were reviewed from the sealed transcript; the separate browser receipt verifies hash, decode and playback progression, not pronunciation or speech-content certification.",
+      "Reviewer asked about the A-D option-label mapping. The sealed M09 prompt asks for one choice, the web UI displays the same A-D identifiers, and final answers were mapped by exact option text."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "566ca35786abea446c0e4c1d86c8668b1c3352ee03833b71acf18b380977f624",
+    "reviewFingerprint": "566ca35786abea446c0e4c1d86c8668b1c3352ee03833b71acf18b380977f624",
+    "sourceInputFingerprint": "566ca35786abea446c0e4c1d86c8668b1c3352ee03833b71acf18b380977f624",
+    "computedSourceInputFingerprint": "87224c310c67cad1f6720bf83d72f11fe5a37c9494ca79c5400a3e22d9c4c2ea",
+    "sourceInputFile": "blind_items_m09_v1_s2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification",
+      "Listening answer reviewed from sealed transcript; separate playback evidence does not establish pronunciation accuracy"
+    ]
+  },
+  {
+    "id": "N2_09_M2_L01",
+    "blindAnswer": "A",
+    "remappedBlindAnswer": "A",
+    "originalReviewerSelection": "A",
+    "selectedOptionText": "毎月第二日曜の午前十時",
+    "linguisticJustification": "台本では、第一日曜から第二日曜へ移し、午前十時は維持する。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。",
+      "音声は未聴取。会話台本のみで判断。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Listening answers were reviewed from the sealed transcript; the separate browser receipt verifies hash, decode and playback progression, not pronunciation or speech-content certification.",
+      "Reviewer asked about the A-D option-label mapping. The sealed M09 prompt asks for one choice, the web UI displays the same A-D identifiers, and final answers were mapped by exact option text."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "f9e509b1e9d90ff597252ae41b1613b6183085db0aa06607c40dbe9c364ac1e3",
+    "reviewFingerprint": "f9e509b1e9d90ff597252ae41b1613b6183085db0aa06607c40dbe9c364ac1e3",
+    "sourceInputFingerprint": "f9e509b1e9d90ff597252ae41b1613b6183085db0aa06607c40dbe9c364ac1e3",
+    "computedSourceInputFingerprint": "d33266678ffb4804d794a2017fb557187ef58780ecc81ad1f9b9e5a30481a7d4",
+    "sourceInputFile": "blind_items_m09_v1_s2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification",
+      "Listening answer reviewed from sealed transcript; separate playback evidence does not establish pronunciation accuracy"
+    ]
+  },
+  {
+    "id": "N2_09_M2_L02",
+    "blindAnswer": "B",
+    "remappedBlindAnswer": "B",
+    "originalReviewerSelection": "B",
+    "selectedOptionText": "二階の展示と閲覧室",
+    "linguisticJustification": "台本では、一階の展示室は閉まるが二階の展示と閲覧室は利用できる。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。",
+      "音声は未聴取。会話台本のみで判断。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Listening answers were reviewed from the sealed transcript; the separate browser receipt verifies hash, decode and playback progression, not pronunciation or speech-content certification.",
+      "Reviewer asked about the A-D option-label mapping. The sealed M09 prompt asks for one choice, the web UI displays the same A-D identifiers, and final answers were mapped by exact option text."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "80c421ded6d337a5b239fdbb3a2e35cf2291c59f136f3db3a0f019bc85c9c00b",
+    "reviewFingerprint": "80c421ded6d337a5b239fdbb3a2e35cf2291c59f136f3db3a0f019bc85c9c00b",
+    "sourceInputFingerprint": "80c421ded6d337a5b239fdbb3a2e35cf2291c59f136f3db3a0f019bc85c9c00b",
+    "computedSourceInputFingerprint": "77db194cb532ac1c7852e55345234d5f15d5244483dc5f2f866e265b7cab80d0",
+    "sourceInputFile": "blind_items_m09_v1_s2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification",
+      "Listening answer reviewed from sealed transcript; separate playback evidence does not establish pronunciation accuracy"
+    ]
+  },
+  {
+    "id": "N2_09_M2_L03",
+    "blindAnswer": "C",
+    "remappedBlindAnswer": "C",
+    "originalReviewerSelection": "C",
+    "selectedOptionText": "来場者に情報を知った経路を尋ねる",
+    "linguisticJustification": "台本では、来場者に何を見てイベントを知ったか尋ねる。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。",
+      "音声は未聴取。会話台本のみで判断。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Listening answers were reviewed from the sealed transcript; the separate browser receipt verifies hash, decode and playback progression, not pronunciation or speech-content certification.",
+      "Reviewer asked about the A-D option-label mapping. The sealed M09 prompt asks for one choice, the web UI displays the same A-D identifiers, and final answers were mapped by exact option text."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "cbf573f2529e38560d1a84a4ceafca6d31d0f8354dee6e636578deefdebdc112",
+    "reviewFingerprint": "cbf573f2529e38560d1a84a4ceafca6d31d0f8354dee6e636578deefdebdc112",
+    "sourceInputFingerprint": "cbf573f2529e38560d1a84a4ceafca6d31d0f8354dee6e636578deefdebdc112",
+    "computedSourceInputFingerprint": "eb635e53a72b0ec6aa4c6ee05b9466866dc26fae00b1ddba7f74aeb7e8bb9d1a",
+    "sourceInputFile": "blind_items_m09_v1_s2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification",
+      "Listening answer reviewed from sealed transcript; separate playback evidence does not establish pronunciation accuracy"
+    ]
+  },
+  {
+    "id": "N2_09_M2_L04",
+    "blindAnswer": "D",
+    "remappedBlindAnswer": "D",
+    "originalReviewerSelection": "D",
+    "selectedOptionText": "入口と出口に置き、混雑時に回収状況を確認する",
+    "linguisticJustification": "台本では、入口と出口にもごみ箱を置き、混雑時に回収状況を見回る。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。",
+      "音声は未聴取。会話台本のみで判断。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Listening answers were reviewed from the sealed transcript; the separate browser receipt verifies hash, decode and playback progression, not pronunciation or speech-content certification.",
+      "Reviewer asked about the A-D option-label mapping. The sealed M09 prompt asks for one choice, the web UI displays the same A-D identifiers, and final answers were mapped by exact option text."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "aafda9c7eda75992f37053e883b51f0f5b88f25f5cc64f832515f00dc667f7ca",
+    "reviewFingerprint": "aafda9c7eda75992f37053e883b51f0f5b88f25f5cc64f832515f00dc667f7ca",
+    "sourceInputFingerprint": "aafda9c7eda75992f37053e883b51f0f5b88f25f5cc64f832515f00dc667f7ca",
+    "computedSourceInputFingerprint": "4938d9858b907e699c335abc2c9d0fd3c58cbc9814362e1c3fde84a0dfc3f123",
+    "sourceInputFile": "blind_items_m09_v1_s2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification",
+      "Listening answer reviewed from sealed transcript; separate playback evidence does not establish pronunciation accuracy"
+    ]
+  },
+  {
+    "id": "N2_09_M2_L05",
+    "blindAnswer": "A",
+    "remappedBlindAnswer": "A",
+    "originalReviewerSelection": "A",
+    "selectedOptionText": "要点を短い日本語にし、利用者にも確認してもらう",
+    "linguisticJustification": "台本では、要点を短い日本語で整理し、実際に使う住民にも翻訳を読んでもらう。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。",
+      "音声は未聴取。会話台本のみで判断。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Listening answers were reviewed from the sealed transcript; the separate browser receipt verifies hash, decode and playback progression, not pronunciation or speech-content certification.",
+      "Reviewer asked about the A-D option-label mapping. The sealed M09 prompt asks for one choice, the web UI displays the same A-D identifiers, and final answers were mapped by exact option text."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "20e99a68cbbc20d27f0f1a8f774884ca56304a16a5d7a68086682f7544567dea",
+    "reviewFingerprint": "20e99a68cbbc20d27f0f1a8f774884ca56304a16a5d7a68086682f7544567dea",
+    "sourceInputFingerprint": "20e99a68cbbc20d27f0f1a8f774884ca56304a16a5d7a68086682f7544567dea",
+    "computedSourceInputFingerprint": "e94edabae520a9f8bb4cd1cdda410f0b446e16fbd1434370ef7df8803dc2d1db",
+    "sourceInputFile": "blind_items_m09_v1_s2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification",
+      "Listening answer reviewed from sealed transcript; separate playback evidence does not establish pronunciation accuracy"
+    ]
+  },
+  {
+    "id": "N2_09_M2_L06",
+    "blindAnswer": "B",
+    "remappedBlindAnswer": "B",
+    "originalReviewerSelection": "B",
+    "selectedOptionText": "前半と後半で作品を入れ替え、会場は同じにする",
+    "linguisticJustification": "台本では、同じ会場で前半と後半の作品を入れ替える。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。",
+      "音声は未聴取。会話台本のみで判断。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Listening answers were reviewed from the sealed transcript; the separate browser receipt verifies hash, decode and playback progression, not pronunciation or speech-content certification.",
+      "Reviewer asked about the A-D option-label mapping. The sealed M09 prompt asks for one choice, the web UI displays the same A-D identifiers, and final answers were mapped by exact option text."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "2c22cdfaf0319e4255c92d9c7a74426014e0ed50f5ae245fa10d933b0651bd80",
+    "reviewFingerprint": "2c22cdfaf0319e4255c92d9c7a74426014e0ed50f5ae245fa10d933b0651bd80",
+    "sourceInputFingerprint": "2c22cdfaf0319e4255c92d9c7a74426014e0ed50f5ae245fa10d933b0651bd80",
+    "computedSourceInputFingerprint": "14b3d259e303aac999c05325a8b4a330c02f69c31be938eda3ed9b5fd1dd9f36",
+    "sourceInputFile": "blind_items_m09_v1_s2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification",
+      "Listening answer reviewed from sealed transcript; separate playback evidence does not establish pronunciation accuracy"
+    ]
+  },
+  {
+    "id": "N2_09_M3_L01",
+    "blindAnswer": "A",
+    "remappedBlindAnswer": "A",
+    "originalReviewerSelection": "A",
+    "selectedOptionText": "動画と文字の両方で必要な情報を確認できるようにするべきだ",
+    "linguisticJustification": "台本では、動画だけでなく文字でも必要情報を確認できるようにする。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "音声は未聴取。会話台本のみで判断。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Listening answers were reviewed from the sealed transcript; the separate browser receipt verifies hash, decode and playback progression, not pronunciation or speech-content certification."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "9ccb66819049422ae73c7edb776333215e1895466dd01d7fe4feb69467983199",
+    "reviewFingerprint": "9ccb66819049422ae73c7edb776333215e1895466dd01d7fe4feb69467983199",
+    "sourceInputFingerprint": "9ccb66819049422ae73c7edb776333215e1895466dd01d7fe4feb69467983199",
+    "computedSourceInputFingerprint": "2dc5dbe822fa8305799f8580d16691f53eec3382bbe9dacb5a6cbb5623cebe74",
+    "sourceInputFile": "blind_items_m09_v1_s2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification",
+      "Listening answer reviewed from sealed transcript; separate playback evidence does not establish pronunciation accuracy"
+    ]
+  },
+  {
+    "id": "N2_09_M3_L02",
+    "blindAnswer": "B",
+    "remappedBlindAnswer": "B",
+    "originalReviewerSelection": "B",
+    "selectedOptionText": "他の資料とも比べ、違いの背景を確かめる",
+    "linguisticJustification": "台本では、証言を他の資料と照合し、食い違いの背景を確かめる。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "音声は未聴取。会話台本のみで判断。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Listening answers were reviewed from the sealed transcript; the separate browser receipt verifies hash, decode and playback progression, not pronunciation or speech-content certification."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "a44729889fa005de37d401d9a141d89b58256d1d506e6c13629275dee3e163fb",
+    "reviewFingerprint": "a44729889fa005de37d401d9a141d89b58256d1d506e6c13629275dee3e163fb",
+    "sourceInputFingerprint": "a44729889fa005de37d401d9a141d89b58256d1d506e6c13629275dee3e163fb",
+    "computedSourceInputFingerprint": "c23b25a0d40bd3a47fc11a69f0ef40e4060f1962605e34b619f4ecd930e6dee4",
+    "sourceInputFile": "blind_items_m09_v1_s2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification",
+      "Listening answer reviewed from sealed transcript; separate playback evidence does not establish pronunciation accuracy"
+    ]
+  },
+  {
+    "id": "N2_09_M3_L03",
+    "blindAnswer": "C",
+    "remappedBlindAnswer": "C",
+    "originalReviewerSelection": "C",
+    "selectedOptionText": "売上の数字だけでなく費用や普段の営業への影響も見ること",
+    "linguisticJustification": "台本では、費用や通常営業への影響も含めてイベントを評価する。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "音声は未聴取。会話台本のみで判断。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Listening answers were reviewed from the sealed transcript; the separate browser receipt verifies hash, decode and playback progression, not pronunciation or speech-content certification."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "12279d9b49e2562c7ecc51c8217a21ed8409dfd0f17508cd00412bfa10549a48",
+    "reviewFingerprint": "12279d9b49e2562c7ecc51c8217a21ed8409dfd0f17508cd00412bfa10549a48",
+    "sourceInputFingerprint": "12279d9b49e2562c7ecc51c8217a21ed8409dfd0f17508cd00412bfa10549a48",
+    "computedSourceInputFingerprint": "91ab3c4d6a2eeeba281e5c2626421609f4d465ce8f001768684f212284506d42",
+    "sourceInputFile": "blind_items_m09_v1_s2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification",
+      "Listening answer reviewed from sealed transcript; separate playback evidence does not establish pronunciation accuracy"
+    ]
+  },
+  {
+    "id": "N2_09_M3_L04",
+    "blindAnswer": "D",
+    "remappedBlindAnswer": "D",
+    "originalReviewerSelection": "D",
+    "selectedOptionText": "使われる場面や世代差も含めて記録すること",
+    "linguisticJustification": "台本では、使う場面や世代差も含めて方言を記録する。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "音声は未聴取。会話台本のみで判断。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Listening answers were reviewed from the sealed transcript; the separate browser receipt verifies hash, decode and playback progression, not pronunciation or speech-content certification."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "aa5b19ded953dce1f5cee8cd81760229d1ba798247a6f85f5786c517d4010d1a",
+    "reviewFingerprint": "aa5b19ded953dce1f5cee8cd81760229d1ba798247a6f85f5786c517d4010d1a",
+    "sourceInputFingerprint": "aa5b19ded953dce1f5cee8cd81760229d1ba798247a6f85f5786c517d4010d1a",
+    "computedSourceInputFingerprint": "3f469011fe1e1a0f47f8c813832dfc1c0452efad6d38b152c293f9748e7a9f13",
+    "sourceInputFile": "blind_items_m09_v1_s2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification",
+      "Listening answer reviewed from sealed transcript; separate playback evidence does not establish pronunciation accuracy"
+    ]
+  },
+  {
+    "id": "N2_09_M3_L05",
+    "blindAnswer": "A",
+    "remappedBlindAnswer": "A",
+    "originalReviewerSelection": "A",
+    "selectedOptionText": "利用していない人の意見が調査から抜けやすいこと",
+    "linguisticJustification": "台本では、利用していない人の意見が調査から抜けやすい点を問題にしている。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "音声は未聴取。会話台本のみで判断。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Listening answers were reviewed from the sealed transcript; the separate browser receipt verifies hash, decode and playback progression, not pronunciation or speech-content certification."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "67a78010014917c3bb18471947409d3e1e928d9f47e7845a577e472f46a8165b",
+    "reviewFingerprint": "67a78010014917c3bb18471947409d3e1e928d9f47e7845a577e472f46a8165b",
+    "sourceInputFingerprint": "67a78010014917c3bb18471947409d3e1e928d9f47e7845a577e472f46a8165b",
+    "computedSourceInputFingerprint": "7adb0c2050ac97ed351e16174bc88894dd442570c5ceafb2092ac4dc49df028a",
+    "sourceInputFile": "blind_items_m09_v1_s2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification",
+      "Listening answer reviewed from sealed transcript; separate playback evidence does not establish pronunciation accuracy"
+    ]
+  },
+  {
+    "id": "N2_09_M4_L01",
+    "blindAnswer": "A",
+    "remappedBlindAnswer": "A",
+    "originalReviewerSelection": "A",
+    "selectedOptionText": "では、説明を短い言葉に直してみましょう。",
+    "linguisticJustification": "専門用語を短い言葉に直す提案が、難しさへの応答として適切。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "音声は未聴取。会話台本のみで判断。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Listening answers were reviewed from the sealed transcript; the separate browser receipt verifies hash, decode and playback progression, not pronunciation or speech-content certification."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "75430bdd5a71883ac06b59df09e7f3aa8a8b6fc258bd88c90cde93862a586125",
+    "reviewFingerprint": "75430bdd5a71883ac06b59df09e7f3aa8a8b6fc258bd88c90cde93862a586125",
+    "sourceInputFingerprint": "75430bdd5a71883ac06b59df09e7f3aa8a8b6fc258bd88c90cde93862a586125",
+    "computedSourceInputFingerprint": "8385933172e74eca96c02dbf6748b3429ad12c4f59307e9a7b269120db930b94",
+    "sourceInputFile": "blind_items_m09_v1_s2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification",
+      "Listening answer reviewed from sealed transcript; separate playback evidence does not establish pronunciation accuracy"
+    ]
+  },
+  {
+    "id": "N2_09_M4_L02",
+    "blindAnswer": "B",
+    "remappedBlindAnswer": "B",
+    "originalReviewerSelection": "B",
+    "selectedOptionText": "それなら、案内表示を増やしてみませんか。",
+    "linguisticJustification": "入口が分かりにくいという指摘への改善案として案内表示を増やす。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "音声は未聴取。会話台本のみで判断。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Listening answers were reviewed from the sealed transcript; the separate browser receipt verifies hash, decode and playback progression, not pronunciation or speech-content certification."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "4d63a04290918264ac555e87e2bd14523f3c658bccecd84f65f660491bcd42de",
+    "reviewFingerprint": "4d63a04290918264ac555e87e2bd14523f3c658bccecd84f65f660491bcd42de",
+    "sourceInputFingerprint": "4d63a04290918264ac555e87e2bd14523f3c658bccecd84f65f660491bcd42de",
+    "computedSourceInputFingerprint": "bdd229f6f1e9c1cb2d527a86d579443b928cc388fb3b497157471fcebfa38266",
+    "sourceInputFile": "blind_items_m09_v1_s2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification",
+      "Listening answer reviewed from sealed transcript; separate playback evidence does not establish pronunciation accuracy"
+    ]
+  },
+  {
+    "id": "N2_09_M4_L03",
+    "blindAnswer": "C",
+    "remappedBlindAnswer": "C",
+    "originalReviewerSelection": "C",
+    "selectedOptionText": "では、到着する時刻が分かったら連絡してください。",
+    "linguisticJustification": "遅刻の連絡には到着時刻が分かったら知らせてほしいと応じている。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "音声は未聴取。会話台本のみで判断。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Listening answers were reviewed from the sealed transcript; the separate browser receipt verifies hash, decode and playback progression, not pronunciation or speech-content certification."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "db91b88040e414384a08263a34aad5ef0c9e09a54018bde9574ebb442bd8fafc",
+    "reviewFingerprint": "db91b88040e414384a08263a34aad5ef0c9e09a54018bde9574ebb442bd8fafc",
+    "sourceInputFingerprint": "db91b88040e414384a08263a34aad5ef0c9e09a54018bde9574ebb442bd8fafc",
+    "computedSourceInputFingerprint": "eb08922e0d472037f54ec20134a3ebc327ad2af67cc57e772f1e2fdbadc19590",
+    "sourceInputFile": "blind_items_m09_v1_s2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification",
+      "Listening answer reviewed from sealed transcript; separate playback evidence does not establish pronunciation accuracy"
+    ]
+  },
+  {
+    "id": "N2_09_M4_L04",
+    "blindAnswer": "A",
+    "remappedBlindAnswer": "A",
+    "originalReviewerSelection": "A",
+    "selectedOptionText": "参加しやすい役割や時間を考えてみましょう。",
+    "linguisticJustification": "若者が参加しやすい役割や時間を検討する提案が話題に合う。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "音声は未聴取。会話台本のみで判断。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Listening answers were reviewed from the sealed transcript; the separate browser receipt verifies hash, decode and playback progression, not pronunciation or speech-content certification."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "6fb49c77925de3d6cb93b9b7fb77fdcc8dc8e4e9c2697f3c62ff01a5fe141c28",
+    "reviewFingerprint": "6fb49c77925de3d6cb93b9b7fb77fdcc8dc8e4e9c2697f3c62ff01a5fe141c28",
+    "sourceInputFingerprint": "6fb49c77925de3d6cb93b9b7fb77fdcc8dc8e4e9c2697f3c62ff01a5fe141c28",
+    "computedSourceInputFingerprint": "5d7aedfd174ea3a15869e17388ce4a38ecd28b3c4b69e2982464689c71c241bb",
+    "sourceInputFile": "blind_items_m09_v1_s2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification",
+      "Listening answer reviewed from sealed transcript; separate playback evidence does not establish pronunciation accuracy"
+    ]
+  },
+  {
+    "id": "N2_09_M4_L05",
+    "blindAnswer": "B",
+    "remappedBlindAnswer": "B",
+    "originalReviewerSelection": "B",
+    "selectedOptionText": "別の地域や期間の結果とも比べてみましょう。",
+    "linguisticJustification": "効果を判断するには別地域や別期間の結果とも比べる提案が適切。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "音声は未聴取。会話台本のみで判断。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Listening answers were reviewed from the sealed transcript; the separate browser receipt verifies hash, decode and playback progression, not pronunciation or speech-content certification."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "6dcb1ebdd6cd5d47a66554ca57c5fc149e61c14f878e8bf4bd140f87235f8165",
+    "reviewFingerprint": "6dcb1ebdd6cd5d47a66554ca57c5fc149e61c14f878e8bf4bd140f87235f8165",
+    "sourceInputFingerprint": "6dcb1ebdd6cd5d47a66554ca57c5fc149e61c14f878e8bf4bd140f87235f8165",
+    "computedSourceInputFingerprint": "7ec5cded21cd06385a4433f086a10aa6ee1fd31bfd19fb5506abfa0cf323b0b0",
+    "sourceInputFile": "blind_items_m09_v1_s2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification",
+      "Listening answer reviewed from sealed transcript; separate playback evidence does not establish pronunciation accuracy"
+    ]
+  },
+  {
+    "id": "N2_09_M4_L06",
+    "blindAnswer": "C",
+    "remappedBlindAnswer": "C",
+    "originalReviewerSelection": "C",
+    "selectedOptionText": "分かりました。着いたら受付に声をかけてください。",
+    "linguisticJustification": "遅れる連絡を受け、到着後に受付へ声をかけるよう案内している。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "音声は未聴取。会話台本のみで判断。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Listening answers were reviewed from the sealed transcript; the separate browser receipt verifies hash, decode and playback progression, not pronunciation or speech-content certification."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "47be701c0d77a2f929d5b84f4576f0246f8024a56563991486466d6908a1381d",
+    "reviewFingerprint": "47be701c0d77a2f929d5b84f4576f0246f8024a56563991486466d6908a1381d",
+    "sourceInputFingerprint": "47be701c0d77a2f929d5b84f4576f0246f8024a56563991486466d6908a1381d",
+    "computedSourceInputFingerprint": "1a12bd044f2a9fb6b4520af82c45409d1b5f0bf4e715edaa8319f9d46cbe6e64",
+    "sourceInputFile": "blind_items_m09_v1_s2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification",
+      "Listening answer reviewed from sealed transcript; separate playback evidence does not establish pronunciation accuracy"
+    ]
+  },
+  {
+    "id": "N2_09_M4_L07",
+    "blindAnswer": "A",
+    "remappedBlindAnswer": "A",
+    "originalReviewerSelection": "A",
+    "selectedOptionText": "はい、理由と一緒に記録しておくとよいでしょう。",
+    "linguisticJustification": "反対意見も理由と一緒に記録するのが質問への直接的な応答。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "音声は未聴取。会話台本のみで判断。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Listening answers were reviewed from the sealed transcript; the separate browser receipt verifies hash, decode and playback progression, not pronunciation or speech-content certification."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "9d3a3b5304259218ca71100b5037ed9a1c9a5dbd5edcdf8d619fc514a670d304",
+    "reviewFingerprint": "9d3a3b5304259218ca71100b5037ed9a1c9a5dbd5edcdf8d619fc514a670d304",
+    "sourceInputFingerprint": "9d3a3b5304259218ca71100b5037ed9a1c9a5dbd5edcdf8d619fc514a670d304",
+    "computedSourceInputFingerprint": "d69341d16efe3d135946c6bc0b0822bddc143aa60fdea53d6f6ed61159e8cc36",
+    "sourceInputFile": "blind_items_m09_v1_s2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification",
+      "Listening answer reviewed from sealed transcript; separate playback evidence does not establish pronunciation accuracy"
+    ]
+  },
+  {
+    "id": "N2_09_M4_L08",
+    "blindAnswer": "B",
+    "remappedBlindAnswer": "B",
+    "originalReviewerSelection": "B",
+    "selectedOptionText": "要点を残して、重複している部分を削りましょう。",
+    "linguisticJustification": "要点を残し重複部分を削るのは説明文を短くする提案。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "音声は未聴取。会話台本のみで判断。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Listening answers were reviewed from the sealed transcript; the separate browser receipt verifies hash, decode and playback progression, not pronunciation or speech-content certification."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "9d16fd61fde7afb23cdaae96fb2d0197fe1ec47521e5574982e999b9518f45b7",
+    "reviewFingerprint": "9d16fd61fde7afb23cdaae96fb2d0197fe1ec47521e5574982e999b9518f45b7",
+    "sourceInputFingerprint": "9d16fd61fde7afb23cdaae96fb2d0197fe1ec47521e5574982e999b9518f45b7",
+    "computedSourceInputFingerprint": "4caaa57170e7bc8ec7b033b80c7b41fc494c6204b372ea65742888e65bed7858",
+    "sourceInputFile": "blind_items_m09_v1_s2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification",
+      "Listening answer reviewed from sealed transcript; separate playback evidence does not establish pronunciation accuracy"
+    ]
+  },
+  {
+    "id": "N2_09_M4_L09",
+    "blindAnswer": "C",
+    "remappedBlindAnswer": "C",
+    "originalReviewerSelection": "C",
+    "selectedOptionText": "では、以前申し込んだ人にも改めて知らせましょう。",
+    "linguisticJustification": "申込変更を知らない人に改めて知らせる提案が適切。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "音声は未聴取。会話台本のみで判断。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Listening answers were reviewed from the sealed transcript; the separate browser receipt verifies hash, decode and playback progression, not pronunciation or speech-content certification."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "d646c4ded3bfdc1522d13b83cad9d3b71885d232397a68c16ea789e9a2933a9a",
+    "reviewFingerprint": "d646c4ded3bfdc1522d13b83cad9d3b71885d232397a68c16ea789e9a2933a9a",
+    "sourceInputFingerprint": "d646c4ded3bfdc1522d13b83cad9d3b71885d232397a68c16ea789e9a2933a9a",
+    "computedSourceInputFingerprint": "1765f715e85cfc3d4751cef79c7274e9def749a347354e291fa537085e10b285",
+    "sourceInputFile": "blind_items_m09_v1_s2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification",
+      "Listening answer reviewed from sealed transcript; separate playback evidence does not establish pronunciation accuracy"
+    ]
+  },
+  {
+    "id": "N2_09_M4_L10",
+    "blindAnswer": "A",
+    "remappedBlindAnswer": "A",
+    "originalReviewerSelection": "A",
+    "selectedOptionText": "失礼しました。負担する人と金額をもう一度説明します。",
+    "linguisticJustification": "説明不足への謝罪と、負担者・金額を再説明する対応。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "音声は未聴取。会話台本のみで判断。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Listening answers were reviewed from the sealed transcript; the separate browser receipt verifies hash, decode and playback progression, not pronunciation or speech-content certification."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "0f97289739ae5ec289822a6bd53c9d1ee65b67cb02868efccab52183ddabdfb8",
+    "reviewFingerprint": "0f97289739ae5ec289822a6bd53c9d1ee65b67cb02868efccab52183ddabdfb8",
+    "sourceInputFingerprint": "0f97289739ae5ec289822a6bd53c9d1ee65b67cb02868efccab52183ddabdfb8",
+    "computedSourceInputFingerprint": "b69d5bd4d7300544d86895db8cb1dddc6f90ac50763e61ef2a9a2b3af9697e80",
+    "sourceInputFile": "blind_items_m09_v1_s2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification",
+      "Listening answer reviewed from sealed transcript; separate playback evidence does not establish pronunciation accuracy"
+    ]
+  },
+  {
+    "id": "N2_09_M4_L11",
+    "blindAnswer": "B",
+    "remappedBlindAnswer": "B",
+    "originalReviewerSelection": "B",
+    "selectedOptionText": "そうですね。混みそうな場所にも担当を置きましょう。",
+    "linguisticJustification": "案内係不足への対応として混雑場所にも担当を配置する。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "音声は未聴取。会話台本のみで判断。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Listening answers were reviewed from the sealed transcript; the separate browser receipt verifies hash, decode and playback progression, not pronunciation or speech-content certification."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "0963dc0797e6fcfafaabd5e0530ab2022c6daaa25160f6ddb0ebfa562a56f674",
+    "reviewFingerprint": "0963dc0797e6fcfafaabd5e0530ab2022c6daaa25160f6ddb0ebfa562a56f674",
+    "sourceInputFingerprint": "0963dc0797e6fcfafaabd5e0530ab2022c6daaa25160f6ddb0ebfa562a56f674",
+    "computedSourceInputFingerprint": "3149471e60ec0330d6db919910c2be2d46c1f524ae47331b99a725afe40a4925",
+    "sourceInputFile": "blind_items_m09_v1_s2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification",
+      "Listening answer reviewed from sealed transcript; separate playback evidence does not establish pronunciation accuracy"
+    ]
+  },
+  {
+    "id": "N2_09_M5_L01",
+    "blindAnswer": "A",
+    "remappedBlindAnswer": "A",
+    "originalReviewerSelection": "A",
+    "selectedOptionText": "途中退出と撮影の条件",
+    "linguisticJustification": "台本の最後に途中退出と撮影条件を案内に書くと述べる。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "音声は未聴取。会話台本のみで判断。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Listening answers were reviewed from the sealed transcript; the separate browser receipt verifies hash, decode and playback progression, not pronunciation or speech-content certification."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "91589feb0bc4df81a83919f5a7d48e2f8591e8c4dd7a3b895b35d2e18877914e",
+    "reviewFingerprint": "91589feb0bc4df81a83919f5a7d48e2f8591e8c4dd7a3b895b35d2e18877914e",
+    "sourceInputFingerprint": "91589feb0bc4df81a83919f5a7d48e2f8591e8c4dd7a3b895b35d2e18877914e",
+    "computedSourceInputFingerprint": "ed8620a63490967e304cc48d75edad8b73951a12da0862de91b4fe310b2cfdd9",
+    "sourceInputFile": "blind_items_m09_v1_s2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification",
+      "Listening answer reviewed from sealed transcript; separate playback evidence does not establish pronunciation accuracy"
+    ]
+  },
+  {
+    "id": "N2_09_M5_L02",
+    "blindAnswer": "B",
+    "remappedBlindAnswer": "B",
+    "originalReviewerSelection": "B",
+    "selectedOptionText": "質問を一週間受け付け、回答をまとめて公開する",
+    "linguisticJustification": "台本では開催後一週間質問を受け付け、回答をまとめて公開する。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "音声は未聴取。会話台本のみで判断。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Listening answers were reviewed from the sealed transcript; the separate browser receipt verifies hash, decode and playback progression, not pronunciation or speech-content certification."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "099d56e76bbfc1b6e51353b073fdbe8f4a62a315c97abbb56b8a5260e0f04add",
+    "reviewFingerprint": "099d56e76bbfc1b6e51353b073fdbe8f4a62a315c97abbb56b8a5260e0f04add",
+    "sourceInputFingerprint": "099d56e76bbfc1b6e51353b073fdbe8f4a62a315c97abbb56b8a5260e0f04add",
+    "computedSourceInputFingerprint": "75ef73414e01e84f35c05875c22f3677fd460197f7c26b059254454061e045b8",
+    "sourceInputFile": "blind_items_m09_v1_s2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification",
+      "Listening answer reviewed from sealed transcript; separate playback evidence does not establish pronunciation accuracy"
+    ]
+  },
+  {
+    "id": "N2_09_M5_L03",
+    "blindAnswer": "C",
+    "remappedBlindAnswer": "C",
+    "originalReviewerSelection": "C",
+    "selectedOptionText": "生産者に確認して、産地と特徴の説明文を作る",
+    "linguisticJustification": "台本では生産者に許可を取り、産地と商品の特徴を説明文にする。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "音声は未聴取。会話台本のみで判断。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Listening answers were reviewed from the sealed transcript; the separate browser receipt verifies hash, decode and playback progression, not pronunciation or speech-content certification."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "a8501678e27359e62d6d1189c02ae0e52829d0015dcfe26edec27c7011e00fe4",
+    "reviewFingerprint": "a8501678e27359e62d6d1189c02ae0e52829d0015dcfe26edec27c7011e00fe4",
+    "sourceInputFingerprint": "a8501678e27359e62d6d1189c02ae0e52829d0015dcfe26edec27c7011e00fe4",
+    "computedSourceInputFingerprint": "7dbe3f06f906e132189e2f3e7c8d9fa25bc541e49a4bdc7d736c603110141ca4",
+    "sourceInputFile": "blind_items_m09_v1_s2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification",
+      "Listening answer reviewed from sealed transcript; separate playback evidence does not establish pronunciation accuracy"
+    ]
+  }
+]

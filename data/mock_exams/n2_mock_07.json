@@ -2575,7 +2575,7 @@
       "durationMinutes": 50,
       "itemCount": 30,
       "audioStatus": "BROWSER_PLAYBACK_VERIFIED",
-      "audioNoticeVi": "30 tệp âm thanh MP3 đã được kiểm tra hash và phát tiến trình thực tế trên trình duyệt máy tính và di động.",
+      "audioNoticeVi": "30 tệp đã khớp SHA-256, giải mã và ghi nhận tiến triển phát trên trình duyệt máy tính và di động; chưa có chứng nhận chuyên gia về phát âm.",
       "items": [
         {
           "id": "N2_07_M1_L01",
@@ -2613,12 +2613,12 @@
           "audioUrl": "audio/n2_mock_07/N2_07_M1_L01.mp3",
           "audioDurationSec": 87.176,
           "audioSha256": "ce3df25ee3e0faf4e74d82aece6a8ff02ccb35f19e5c7c41c1428959f1a0bfc2",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
             "ja-JP-KeitaNeural"
-          ]
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
         },
         {
           "id": "N2_07_M1_L02",
@@ -2656,12 +2656,12 @@
           "audioUrl": "audio/n2_mock_07/N2_07_M1_L02.mp3",
           "audioDurationSec": 83.104,
           "audioSha256": "af5ef620b1a6e704b415067db4aa3a4dd0393304a61e65e69d32d13559fafb70",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
             "ja-JP-KeitaNeural"
-          ]
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
         },
         {
           "id": "N2_07_M1_L03",
@@ -2699,12 +2699,12 @@
           "audioUrl": "audio/n2_mock_07/N2_07_M1_L03.mp3",
           "audioDurationSec": 93.344,
           "audioSha256": "8ef214bc4dea3e2385159f1fe69e704dd4ba615cdc8aa26a8480ccbb739423d5",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
             "ja-JP-KeitaNeural"
-          ]
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
         },
         {
           "id": "N2_07_M1_L04",
@@ -2742,12 +2742,12 @@
           "audioUrl": "audio/n2_mock_07/N2_07_M1_L04.mp3",
           "audioDurationSec": 90.52,
           "audioSha256": "d7111e2abd01a74875a906a146a093d1d232e703393fe8958c844d7ded0ce4d7",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
             "ja-JP-KeitaNeural"
-          ]
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
         },
         {
           "id": "N2_07_M1_L05",
@@ -2785,12 +2785,12 @@
           "audioUrl": "audio/n2_mock_07/N2_07_M1_L05.mp3",
           "audioDurationSec": 81.784,
           "audioSha256": "7ec4f8c46ac87c49f160c4e3d5eb429ea419d1e193f18bcc2a72c00274ee4835",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
             "ja-JP-KeitaNeural"
-          ]
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
         },
         {
           "id": "N2_07_M2_L01",
@@ -2828,12 +2828,12 @@
           "audioUrl": "audio/n2_mock_07/N2_07_M2_L01.mp3",
           "audioDurationSec": 90.76,
           "audioSha256": "cd53de902b55a8d878a41c434e573082473773d42e24cb24a754bf055a0ec9c5",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
             "ja-JP-KeitaNeural"
-          ]
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
         },
         {
           "id": "N2_07_M2_L02",
@@ -2871,12 +2871,12 @@
           "audioUrl": "audio/n2_mock_07/N2_07_M2_L02.mp3",
           "audioDurationSec": 77.784,
           "audioSha256": "4c69b34585ab7db1709c499e5668cf022dfb2004449efbe13979754a1f473a21",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
             "ja-JP-KeitaNeural"
-          ]
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
         },
         {
           "id": "N2_07_M2_L03",
@@ -2914,12 +2914,12 @@
           "audioUrl": "audio/n2_mock_07/N2_07_M2_L03.mp3",
           "audioDurationSec": 91.192,
           "audioSha256": "a1aaac3722bbf0752af7a6da8907df57f2f40f6ea01e36e00a5bf2a2765ed7c2",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
             "ja-JP-KeitaNeural"
-          ]
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
         },
         {
           "id": "N2_07_M2_L04",
@@ -2957,12 +2957,12 @@
           "audioUrl": "audio/n2_mock_07/N2_07_M2_L04.mp3",
           "audioDurationSec": 82.792,
           "audioSha256": "18e015ef4796c2e3197c7c8ef140aaab8171cb71e9c0feca4caa145bd7513942",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
             "ja-JP-KeitaNeural"
-          ]
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
         },
         {
           "id": "N2_07_M2_L05",
@@ -3000,12 +3000,12 @@
           "audioUrl": "audio/n2_mock_07/N2_07_M2_L05.mp3",
           "audioDurationSec": 72.672,
           "audioSha256": "a0f88f227c9228247a07438c9b883e37d734e93fdc3848fe91630342e675c99e",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
             "ja-JP-KeitaNeural"
-          ]
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
         },
         {
           "id": "N2_07_M2_L06",
@@ -3043,12 +3043,12 @@
           "audioUrl": "audio/n2_mock_07/N2_07_M2_L06.mp3",
           "audioDurationSec": 64.896,
           "audioSha256": "16234457e6000d2e8661aea88637c69cc3fd8eb24995393cad739d0de85dcbbb",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
             "ja-JP-KeitaNeural"
-          ]
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
         },
         {
           "id": "N2_07_M3_L01",
@@ -3085,13 +3085,13 @@
           "explanationVi": "Nhân viên thị xã giới thiệu quầy một cửa mới: gộp toàn bộ các thủ tục con cái vốn phải đi nhiều tầng trước đây lại thành một quầy tổng hợp duy nhất tại tầng 1 ('これらすべての相談や申請を一括して専任スタッフが承ります').",
           "audioUrl": "audio/n2_mock_07/N2_07_M3_L01.mp3",
           "audioDurationSec": 83.98,
-          "audioSha256": "611c01e354a52988c7abcb8bf9fba6d9937c8df25ef40f12833cdcf90736a121",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+          "audioSha256": "2984be7b89da499fdb968e4a9b5a3b686a4313accf726437e8b9b0cb6bf49e4c",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
             "ja-JP-KeitaNeural"
-          ]
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
         },
         {
           "id": "N2_07_M3_L02",
@@ -3128,13 +3128,13 @@
           "explanationVi": "Tổng giám đốc nhấn mạnh trọng tâm cốt lõi: tuân thủ pháp luật, giữ gìn đạo đức doanh nghiệp, không bao che sai phạm và xây dựng văn hóa công ty minh bạch ('法令遵守と高い倫理観...透明で誠実な組織風土を築くことが、持続的な成長の土台です').",
           "audioUrl": "audio/n2_mock_07/N2_07_M3_L02.mp3",
           "audioDurationSec": 86.164,
-          "audioSha256": "6a8d6e088e1302d2a681717ddebff04bc12215b0e3b69378d4dd0aa0f2a285a0",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+          "audioSha256": "ec5143c8344a376837b725b275699faeb68ff5abf819ebc6d355b063f1db01b2",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
             "ja-JP-KeitaNeural"
-          ]
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
         },
         {
           "id": "N2_07_M3_L03",
@@ -3171,13 +3171,13 @@
           "explanationVi": "Chuyên gia phòng chống thiên tai nêu rõ: nguyên nhân gây thương tích chiếm một nửa là đồ đạc đổ ngã, nên bước bảo vệ tính mạng đầu tiên và quan trọng nhất là chằng cố định bàn tủ, giá sách ('家具の固定こそが、命を守るための第一歩なのです').",
           "audioUrl": "audio/n2_mock_07/N2_07_M3_L03.mp3",
           "audioDurationSec": 87.724,
-          "audioSha256": "686fe8ea3152058fa7f1aa82abd3e278c91926162fc37aea3a25d67a9d86df5b",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+          "audioSha256": "e543840c62c978b73a63fc6d0d918fcffb141c3d4480aadd5c6fb226d5ec04f9",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
             "ja-JP-KeitaNeural"
-          ]
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
         },
         {
           "id": "N2_07_M3_L04",
@@ -3214,13 +3214,13 @@
           "explanationVi": "Viện trưởng trung tâm văn hóa truyền tải thông điệp: không dừng lại ở học sở thích cá nhân mà biến kiến thức đó thành hoạt động kết nối và cống hiến cho cộng đồng địa phương ('学ぶ喜びを他者とのつながりや社会貢献へと広げていく...そんな充実したセカンドライフ').",
           "audioUrl": "audio/n2_mock_07/N2_07_M3_L04.mp3",
           "audioDurationSec": 83.62,
-          "audioSha256": "4a3c753198833653414a611ff8306f664953cd8b224492e1f54e2c34fb63c4ee",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+          "audioSha256": "911f4ecdb2dd0d52f87f2850ba1bdac55b437b2923a6f6e9b28ee6754ad63573",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
             "ja-JP-KeitaNeural"
-          ]
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
         },
         {
           "id": "N2_07_M3_L05",
@@ -3257,13 +3257,13 @@
           "explanationVi": "Nữ nghị sĩ chất vấn và yêu cầu nâng cấp hệ thống y tế cấp cứu ban đêm và ngày nghỉ cho trẻ nhỏ ('夜間および休日の小児初期救急医療体制について提言いたします...受け入れ体制を抜本的に拡充することを強く求めます').",
           "audioUrl": "audio/n2_mock_07/N2_07_M3_L05.mp3",
           "audioDurationSec": 86.5,
-          "audioSha256": "0454d80432bd25d63df6fc9a868e09a62bd1a8ef90547a04fa17defd112b057f",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+          "audioSha256": "5181c8444292fbb495f60151a2764edfcf794adc3e4bb66874937115eedb45a8",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
             "ja-JP-KeitaNeural"
-          ]
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
         },
         {
           "id": "N2_07_M4_L01",
@@ -3295,13 +3295,13 @@
           "explanationVi": "Nhân viên hỏi xin phê duyệt bản kế hoạch đã trình trước đó. Trưởng phòng đáp hợp lý: đã xem qua và đóng dấu duyệt rồi, để trên bàn ('目を通して印鑑を押しておいたから、机の上にあるよ').",
           "audioUrl": "audio/n2_mock_07/N2_07_M4_L01.mp3",
           "audioDurationSec": 33.1,
-          "audioSha256": "7a9882bfb38d5da32855960bc3600343001a2ac8b0403730cf0f2efe1b0fb886",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+          "audioSha256": "5378b2259efa84549850289a4c41bd7b48ba1c17e3f8acc8d9d58d683454e104",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
             "ja-JP-KeitaNeural"
-          ]
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
         },
         {
           "id": "N2_07_M4_L02",
@@ -3333,13 +3333,13 @@
           "explanationVi": "Đồng nghiệp khuyên nên in dôi ra vài bộ tài liệu cho an tâm (念のためもう一部多めに...). Câu đáp tán đồng chuẩn mực: 'Đúng vậy anh ạ, phòng khi người đến đông hơn dự kiến nên em sẽ in thêm' ('刷っておきます').",
           "audioUrl": "audio/n2_mock_07/N2_07_M4_L02.mp3",
           "audioDurationSec": 34.156,
-          "audioSha256": "7ee305d061f9f8ebf08ab417c5db0e7d8db950ad95f57c2e0f587addbe199616",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+          "audioSha256": "bfc954a2f533783c015316159d3835ebb4cf4c754d0e5c473fb1ddc1bd9d6a33",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
             "ja-JP-KeitaNeural"
-          ]
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
         },
         {
           "id": "N2_07_M4_L03",
@@ -3371,13 +3371,13 @@
           "explanationVi": "Lời xin lỗi hết sức trang trọng vì sơ suất công việc: 何とお詫び申し上げればよいか、言葉もございません. Đáp lại một cách hòa nhã và chuyên nghiệp: 'Xin anh/chị đừng bận tâm, bên anh/chị đã sửa sai rất nhanh chóng nên không sao đâu ạ'.",
           "audioUrl": "audio/n2_mock_07/N2_07_M4_L03.mp3",
           "audioDurationSec": 36.052,
-          "audioSha256": "bbbfbae96ae8a716e47d86ec1723208fd623ae2c3020c36d452f91b3eebce893",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+          "audioSha256": "f081e0cc61cdfaf1c9a961d5f242f4434400c94d1837f1c7af513d41bd001154",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
             "ja-JP-KeitaNeural"
-          ]
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
         },
         {
           "id": "N2_07_M4_L04",
@@ -3409,13 +3409,13 @@
           "explanationVi": "Hỏi thăm kết quả chạy thử đường truyền họp online buổi chiều. Câu trả lời chính xác: vừa thử xong, cả hình lẫn tiếng đều rất rõ nét ('音声も映像も非常にクリアでしたよ').",
           "audioUrl": "audio/n2_mock_07/N2_07_M4_L04.mp3",
           "audioDurationSec": 32.02,
-          "audioSha256": "16a2e83c7552eebf698fe4674f9fb0fe46342f509c87b8a1c15a19dba494c7fb",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+          "audioSha256": "63d8c12f1bbe3cc10a4fef16faaa967b403575234d03533b5b43b40f434fd564",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
             "ja-JP-KeitaNeural"
-          ]
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
         },
         {
           "id": "N2_07_M4_L05",
@@ -3447,13 +3447,13 @@
           "explanationVi": "Mẫu biểu đạt tâm trạng N2: 〜やりきれない (thật buồn bực/không cam lòng). Đồng cảm với sự tiếc nuối: 'Thực sự vậy anh ạ, mọi người chuẩn bị từ mấy tuần trước mà đành chịu, ấm ức thật' ('悔しいよね').",
           "audioUrl": "audio/n2_mock_07/N2_07_M4_L05.mp3",
           "audioDurationSec": 33.34,
-          "audioSha256": "c0c080d26c747dbf2d27c13461ed650e21a892f38a984ace67272f96d2010af7",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+          "audioSha256": "f1f1e6032405ee7ed8d3d2d11cefab4e5a6639e62ab6d7b48f2d6e313a1e4d9a",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
             "ja-JP-KeitaNeural"
-          ]
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
         },
         {
           "id": "N2_07_M4_L06",
@@ -3485,13 +3485,13 @@
           "explanationVi": "Nhờ cấp trên hoặc tiền bối xem qua hồ sơ: 目を通していただけないでしょうか. Câu đáp nhận lời lịch sự khiêm nhường: 'Vâng, vừa khéo tôi cũng vừa xong việc, để tôi xem cho nhé' ('拝見しますね').",
           "audioUrl": "audio/n2_mock_07/N2_07_M4_L06.mp3",
           "audioDurationSec": 32.116,
-          "audioSha256": "22ca5a7d1f88262d053ce02c2116fd8d63e9af9aef997cf25c86b7cbb76b4a34",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+          "audioSha256": "b12a7c947f9c19f074b8d41721db3cf303d667b5186048ab0b12510a1fc0aa6c",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
             "ja-JP-KeitaNeural"
-          ]
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
         },
         {
           "id": "N2_07_M4_L07",
@@ -3523,13 +3523,13 @@
           "explanationVi": "Lời nhắc nhở nhẹ nhàng của đồng nghiệp: 'Cậu nói với đối tác lúc nãy hơi quá lời chăng?'. Câu đáp nhận lỗi biết điều: 'Em xin lỗi, lúc đó tranh luận gay gắt quá nên em thiếu chu đáo với đối tác ạ'.",
           "audioUrl": "audio/n2_mock_07/N2_07_M4_L07.mp3",
           "audioDurationSec": 33.748,
-          "audioSha256": "7ca5e251c9c91e4ed2c4557e0868089e65ddb95d0a380f5ffda259da0aea2d09",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+          "audioSha256": "d5472a7253fe12fad9b280b72818b3229b2a59a72fc1458003543361e27ea7b5",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
             "ja-JP-KeitaNeural"
-          ]
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
         },
         {
           "id": "N2_07_M4_L08",
@@ -3561,13 +3561,13 @@
           "explanationVi": "Lời mời nhận nhiệm vụ quan trọng: 〜気はありませんか. Câu đáp khiêm tốn chuẩn mực của người Nhật: 'Nếu một người trẻ như em mà được tin tưởng thì xin cho em cơ hội được thử sức ạ' ('ぜひ喜んで挑戦させてください').",
           "audioUrl": "audio/n2_mock_07/N2_07_M4_L08.mp3",
           "audioDurationSec": 32.02,
-          "audioSha256": "9e085aa5b24124ca13ad6bc9be750e9c4adb3e9f3d114b5c6ecbb39b756e643e",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+          "audioSha256": "e90e87c6d3c43599bf2cdf2465ee1c69bbc8ee40f9defe73397bbb19ee1f8c04",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
             "ja-JP-KeitaNeural"
-          ]
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
         },
         {
           "id": "N2_07_M4_L09",
@@ -3599,13 +3599,13 @@
           "explanationVi": "Người đối thoại khen ngợi: nghe nói thời gian chờ tại quầy giảm mạnh nhờ hệ thống hẹn trực tuyến mới. Câu đáp xác nhận niềm vui phục vụ: 'Vâng, người dân đến làm thủ tục cũng phản hồi rất tích cực vì quầy thông thoáng hẳn ạ'.",
           "audioUrl": "audio/n2_mock_07/N2_07_M4_L09.mp3",
           "audioDurationSec": 35.14,
-          "audioSha256": "652844b1a0e9922e3525558f24746bf0296050d29cd4a8f311ad1992d4387552",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+          "audioSha256": "e452946d33e0333eeef7abfd2d31236d615ed78791e25bcacf949fc41c021a93",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
             "ja-JP-KeitaNeural"
-          ]
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
         },
         {
           "id": "N2_07_M4_L10",
@@ -3637,13 +3637,13 @@
           "explanationVi": "Ngữ pháp N2: 〜わけにはいきませんよね (không thể nào chấp nhận được đúng không ạ). Trưởng phòng đồng tình bảo vệ quyền lợi công ty: 'Ừ, làm vậy sẽ dưới mức hòa vốn nên chúng ta tuyệt đối không thể nhượng bộ dễ dàng' ('安易な妥協はできないね').",
           "audioUrl": "audio/n2_mock_07/N2_07_M4_L10.mp3",
           "audioDurationSec": 36.124,
-          "audioSha256": "4c06b512aadef3d2e0eca746496e47440d3f9b0e22bb9f0eff372b4179b879ef",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+          "audioSha256": "83d6b083c69855d9d4244b58ead3ef3e5a574d8141a3c28fb0a20b2e8fe537bf",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
             "ja-JP-KeitaNeural"
-          ]
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
         },
         {
           "id": "N2_07_M4_L11",
@@ -3675,13 +3675,13 @@
           "explanationVi": "Thành ngữ N2: 〜お手の物（おてのもの - sở trường, làm cái là được ngay). Bạn khen ngợi anh Tanaka dạy người mới chắc dễ như trở bàn tay. Đáp lại khiêm tốn: 'Đâu có đâu bạn, mỗi lứa tân binh một tính cách nên lần nào mình cũng phải vừa làm vừa mày mò căng thẳng lắm' ('とんでもない...手探りで緊張しますよ').",
           "audioUrl": "audio/n2_mock_07/N2_07_M4_L11.mp3",
           "audioDurationSec": 38.404,
-          "audioSha256": "ebc7d4c63c9cb01b67c67a4f00739bfb012b01d7d0cf078e2f4f213a5327e97f",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+          "audioSha256": "ea99564c3714df81884693a30325a80367e4257ea51b82edf1eebb88f7240740",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
             "ja-JP-KeitaNeural"
-          ]
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
         },
         {
           "id": "N2_07_M5_L01",
@@ -3719,12 +3719,12 @@
           "audioUrl": "audio/n2_mock_07/N2_07_M5_L01.mp3",
           "audioDurationSec": 153.172,
           "audioSha256": "6fd4512678a0ab813a5b969f34447a91286a8ca8adfd791ee8817345d7c84fbe",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
             "ja-JP-KeitaNeural"
-          ]
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
         },
         {
           "id": "N2_07_M5_L02",
@@ -3762,12 +3762,12 @@
           "audioUrl": "audio/n2_mock_07/N2_07_M5_L02.mp3",
           "audioDurationSec": 152.02,
           "audioSha256": "fbf61db4b412588ebc0abd6c8c0dae169c2864f79364215187d27623cdb57818",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
             "ja-JP-KeitaNeural"
-          ]
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
         },
         {
           "id": "N2_07_M5_L03",
@@ -3805,12 +3805,12 @@
           "audioUrl": "audio/n2_mock_07/N2_07_M5_L03.mp3",
           "audioDurationSec": 102.172,
           "audioSha256": "3cf15d5ab0796aa1aad5baaf542dd996f940e8e2a46ea0e4ff497b3f13c78244",
-          "audioVerificationStatus": "PLAYBACK_QA_PENDING",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",
             "ja-JP-KeitaNeural"
-          ]
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
         }
       ]
     }

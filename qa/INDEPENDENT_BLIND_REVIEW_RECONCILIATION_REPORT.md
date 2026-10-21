@@ -1,9 +1,9 @@
-# JP-STUDY — 840-Question Adversarial Blind Review Reconciliation Report
+# JP-STUDY — 945-Question Adversarial Blind Review Reconciliation Report
 
-**Target Exams:** `N2-MOCK-01`, `N2-MOCK-02`, `N2-MOCK-03`, `N2-MOCK-04`, `N2-MOCK-05`, `N2-MOCK-06`, `N2-MOCK-07`, `N2-MOCK-08` (840 total items)
+**Target Exams:** `N2-MOCK-01`, `N2-MOCK-02`, `N2-MOCK-03`, `N2-MOCK-04`, `N2-MOCK-05`, `N2-MOCK-06`, `N2-MOCK-07`, `N2-MOCK-08`, `N2-MOCK-09` (945 total items)
 **Assurance Framework:** Independent Blind Review & Explicit Provenance Model  
 **Audit Timestamp:** 2026-10-19  
-**Completed Solves:** 840 / 840
+**Completed Solves:** 945 / 945
 
 ---
 
@@ -11,11 +11,11 @@
 
 | Metric | Count | Percentage | Status |
 |---|:---:|:---:|:---:|
-| **Total Evaluated Items** | 840 | 100.0% | COMPLETE |
-| **Blind Reviewer Responses Loaded** | 840 | 100.0% | VERSION-CHECKED |
-| **Exact Agreement (`AGREEMENT`)** | 826 | 98.3% | AUDITED |
+| **Total Evaluated Items** | 945 | 100.0% | COMPLETE |
+| **Blind Reviewer Responses Loaded** | 945 | 100.0% | VERSION-CHECKED |
+| **Exact Agreement (`AGREEMENT`)** | 931 | 98.5% | AUDITED |
 | **Agreed with Nuance Warnings (`REVIEW_AGREED_WITH_WARNINGS`)** | 0 | 0.0% | AUDITED |
-| **Grammar Defects Confirmed & Repaired** | 14 | 1.7% | REPAIRED |
+| **Grammar Defects Confirmed & Repaired** | 14 | 1.5% | REPAIRED |
 | **Key Mismatches (`KEY_MISMATCH`)** | 0 | 0.0% | AUDITED |
 | **Unverified / Pending Solves** | 0 | 0.0% | NONE |
 
@@ -40,7 +40,7 @@
 - **`N2_07_M9_04`**: Changed the option to '必要となります'; the sealed revision solve selected A as the natural completion. (Defect: AWKWARD COLLOCATION: The original option phrased a required administrative procedure as '避けられません', which was unnatural in context.)
 
 ### B. Key Mismatches
-- *Zero key mismatches detected across all 840 discovered items.*
+- *Zero key mismatches detected across all 945 discovered items.*
 
 ### C. Ambiguous Questions / Distractor Nuance Warnings
 - *Zero unresolved competing answers or distractor overlaps remain.*
@@ -101,4 +101,4 @@
 | N2-MOCK-01 | `N2-G8-004` | Grammar | **A** | **A** | `A` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
 | N2-MOCK-01 | `N2-G8-005` | Grammar | **C** | **C** | `C` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
 | N2-MOCK-01 | `N2-G9-001` | Grammar | **C** | **C** | `C` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| ... | ... | *(remaining 790 items in CSV and JSON ledgers)* | ... | ... | ... | ... | ... | ... |
+| ... | ... | *(remaining 895 items in CSV and JSON ledgers)* | ... | ... | ... | ... | ... | ... |

@@ -126,18 +126,18 @@ window.JP_MOCK_REGISTRY = {
     },
     {
       "mockId": "N2-MOCK-09",
-      "title": "JLPT N2 Full Mock Exam #09",
+      "title": "JLPT N2 Practice Mock Exam #09",
       "level": "N2",
-      "status": "IN_DEVELOPMENT",
-      "badgeText": "IN DEVELOPMENT · ĐANG BIÊN SOẠN",
-      "badgeClass": "status-dev",
+      "status": "FULL_MOCK",
+      "badgeText": "PRACTICE MOCK · AI REVIEWED · 105 CÂU",
+      "badgeClass": "status-ready",
       "durationMinutes": 155,
       "totalQuestions": 105,
       "section1Count": 75,
       "section2Count": 30,
-      "releaseDate": "Kỳ thi 12/2026 (Đợt 3)",
-      "description": "Bộ đề mô phỏng đợt thi số 09. Đang trong quy trình biên soạn chuẩn hóa ngữ cảnh và kịch bản nghe hiểu.",
-      "playable": false
+      "releaseDate": "21/10/2026",
+      "description": "Đề luyện tập nguyên bản về xã hội, văn hóa, lập luận và diễn giải quan điểm; có 30 MP3 đã kiểm tra hash và phát trên trình duyệt. AI đã rà đáp án từ kịch bản nghe; chưa có chứng nhận chuyên gia/người bản ngữ. Không phải đề JLPT chính thức.",
+      "playable": true
     },
     {
       "mockId": "N2-MOCK-10",
@@ -32287,6 +32287,3800 @@ window.JP_MOCK_DATA = {
           "audioUrl": "audio/n2_mock_08/N2_08_M5_L03.mp3",
           "audioDurationSec": 59.076,
           "audioSha256": "8cfbda2dfa8237940d7d815140e7d3ae6057a1ade0761a3a0e5ffd0ebc39fbc8",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        }
+      ]
+    }
+  ]
+},
+  'N2-MOCK-09': {
+  "examId": "N2-MOCK-09",
+  "title": "JLPT N2 Full Mock Exam #09 — Đề thi thử hoàn chỉnh (Kiến thức ngôn ngữ, Đọc hiểu & Nghe hiểu)",
+  "level": "N2",
+  "status": "FULL_MOCK",
+  "durationMinutes": 155,
+  "totalQuestions": 105,
+  "sections": [
+    {
+      "sectionId": "sec-1",
+      "sectionName": "Phần 1: Kiến thức ngôn ngữ & Đọc hiểu (Language Knowledge & Reading)",
+      "durationMinutes": 105,
+      "itemCount": 75,
+      "items": [
+        {
+          "id": "N2_09_M1_01",
+          "typeId": "N2-MO-READ",
+          "category": "Mondai 1: 漢字読み",
+          "stem": "自治体は住民の意見を【反映】して計画を修正した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "はんえい"
+            },
+            {
+              "id": "B",
+              "text": "はんよう"
+            },
+            {
+              "id": "C",
+              "text": "ばんえい"
+            },
+            {
+              "id": "D",
+              "text": "はんえ"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "反映（はんえい）は、意見などを計画や結果に表すことです。",
+          "distractorExplanations": {
+            "B": "映を『よう』とは読みません。",
+            "C": "反は『はん』と読みます。",
+            "D": "映の長音を落とした読みです。"
+          },
+          "targetWord": "反映",
+          "skill": "Language Knowledge",
+          "explanationVi": "反映（はんえい）は、意見などを計画や結果に表すことです。"
+        },
+        {
+          "id": "N2_09_M1_02",
+          "typeId": "N2-MO-READ",
+          "category": "Mondai 1: 漢字読み",
+          "stem": "世代間の【隔たり】を縮めるには、対話の機会が必要だ。",
+          "options": [
+            {
+              "id": "A",
+              "text": "かくたり"
+            },
+            {
+              "id": "B",
+              "text": "へだたり"
+            },
+            {
+              "id": "C",
+              "text": "へたり"
+            },
+            {
+              "id": "D",
+              "text": "かたり"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "隔たり（へだたり）は、二者の間にある差や距離です。",
+          "distractorExplanations": {
+            "A": "『かく』は音読みで、この語の読みではありません。",
+            "C": "『へだ』の一部を落としています。",
+            "D": "最初の『へだ』を正しく読めていません。"
+          },
+          "targetWord": "隔たり",
+          "skill": "Language Knowledge",
+          "explanationVi": "隔たり（へだたり）は、二者の間にある差や距離です。"
+        },
+        {
+          "id": "N2_09_M1_03",
+          "typeId": "N2-MO-READ",
+          "category": "Mondai 1: 漢字読み",
+          "stem": "商店街の空き店舗が増え、地域の活気が【衰退】している。",
+          "options": [
+            {
+              "id": "A",
+              "text": "しゅうたい"
+            },
+            {
+              "id": "B",
+              "text": "すいだい"
+            },
+            {
+              "id": "C",
+              "text": "そたい"
+            },
+            {
+              "id": "D",
+              "text": "すいたい"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "衰退（すいたい）は、勢いや規模が弱くなることです。",
+          "distractorExplanations": {
+            "A": "二字の音読みを取り違えています。",
+            "B": "退は濁らず『たい』です。",
+            "C": "衰の読みは『すい』です。"
+          },
+          "targetWord": "衰退",
+          "skill": "Language Knowledge",
+          "explanationVi": "衰退（すいたい）は、勢いや規模が弱くなることです。"
+        },
+        {
+          "id": "N2_09_M1_04",
+          "typeId": "N2-MO-READ",
+          "category": "Mondai 1: 漢字読み",
+          "stem": "この制度を【維持】するには、安定した財源が欠かせない。",
+          "options": [
+            {
+              "id": "A",
+              "text": "いじ"
+            },
+            {
+              "id": "B",
+              "text": "ゆいじ"
+            },
+            {
+              "id": "C",
+              "text": "いち"
+            },
+            {
+              "id": "D",
+              "text": "いし"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "維持（いじ）は、状態を保ち続けることです。",
+          "distractorExplanations": {
+            "B": "維はこの熟語で『い』と読みます。",
+            "C": "持は『じ』です。",
+            "D": "濁音を清音にした誤りです。"
+          },
+          "targetWord": "維持",
+          "skill": "Language Knowledge",
+          "explanationVi": "維持（いじ）は、状態を保ち続けることです。"
+        },
+        {
+          "id": "N2_09_M1_05",
+          "typeId": "N2-MO-READ",
+          "category": "Mondai 1: 漢字読み",
+          "stem": "議論の【焦点】がずれないよう、最初に論点を整理した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "しょうでん"
+            },
+            {
+              "id": "B",
+              "text": "しょうてん"
+            },
+            {
+              "id": "C",
+              "text": "しゅうてん"
+            },
+            {
+              "id": "D",
+              "text": "しょうて"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "焦点（しょうてん）は、議論などの中心となる点です。",
+          "distractorExplanations": {
+            "A": "点は濁らず『てん』です。",
+            "C": "焦の読みは『しょう』です。",
+            "D": "点の『ん』が必要です。"
+          },
+          "targetWord": "焦点",
+          "skill": "Language Knowledge",
+          "explanationVi": "焦点（しょうてん）は、議論などの中心となる点です。"
+        },
+        {
+          "id": "N2_09_M2_01",
+          "typeId": "N2-MO-ORTH",
+          "category": "Mondai 2: 表記",
+          "stem": "世代間の価値観の違いを【ちょうせい】する場が設けられた。",
+          "options": [
+            {
+              "id": "A",
+              "text": "聴政"
+            },
+            {
+              "id": "B",
+              "text": "調製"
+            },
+            {
+              "id": "C",
+              "text": "長勢"
+            },
+            {
+              "id": "D",
+              "text": "調整"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "意見や条件を整える意味なので『調整』です。",
+          "distractorExplanations": {
+            "A": "聴政は政治を聴くことを指す古い語です。",
+            "B": "調製は材料を調合して作ることです。",
+            "C": "この意味の標準表記ではありません。"
+          },
+          "targetWord": "ちょうせい",
+          "skill": "Language Knowledge",
+          "explanationVi": "意見や条件を整える意味なので『調整』です。"
+        },
+        {
+          "id": "N2_09_M2_02",
+          "typeId": "N2-MO-ORTH",
+          "category": "Mondai 2: 表記",
+          "stem": "来場者が集中しないよう、入館時間を【ぶんさん】させた。",
+          "options": [
+            {
+              "id": "A",
+              "text": "分散"
+            },
+            {
+              "id": "B",
+              "text": "分担"
+            },
+            {
+              "id": "C",
+              "text": "分断"
+            },
+            {
+              "id": "D",
+              "text": "分譲"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "人の集中を避け、別々の時間に分けるので『分散』です。",
+          "distractorExplanations": {
+            "B": "分担は仕事を割り振ることです。",
+            "C": "分断はつながりを切ることです。",
+            "D": "分譲は土地や建物を分けて売ることです。"
+          },
+          "targetWord": "ぶんさん",
+          "skill": "Language Knowledge",
+          "explanationVi": "人の集中を避け、別々の時間に分けるので『分散』です。"
+        },
+        {
+          "id": "N2_09_M2_03",
+          "typeId": "N2-MO-ORTH",
+          "category": "Mondai 2: 表記",
+          "stem": "会議では、反対意見も含めて記録を【こうへい】に残す。",
+          "options": [
+            {
+              "id": "A",
+              "text": "公表"
+            },
+            {
+              "id": "B",
+              "text": "公平"
+            },
+            {
+              "id": "C",
+              "text": "工兵"
+            },
+            {
+              "id": "D",
+              "text": "好評"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "偏りなく記録する意味は『公平』です。",
+          "distractorExplanations": {
+            "A": "公表は外部へ発表することです。",
+            "C": "工兵は軍隊の兵科名です。",
+            "D": "好評は高い評価を受けることです。"
+          },
+          "targetWord": "こうへい",
+          "skill": "Language Knowledge",
+          "explanationVi": "偏りなく記録する意味は『公平』です。"
+        },
+        {
+          "id": "N2_09_M2_04",
+          "typeId": "N2-MO-ORTH",
+          "category": "Mondai 2: 表記",
+          "stem": "商店街では、地域の【とくしょく】を生かした催しを開いた。",
+          "options": [
+            {
+              "id": "A",
+              "text": "特食"
+            },
+            {
+              "id": "B",
+              "text": "特職"
+            },
+            {
+              "id": "C",
+              "text": "得色"
+            },
+            {
+              "id": "D",
+              "text": "特色"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "その地域ならではの性質は『特色』です。",
+          "distractorExplanations": {
+            "A": "特食はここで使う語ではありません。",
+            "B": "この意味の標準表記ではありません。",
+            "C": "得色は一般的な表記ではありません。"
+          },
+          "targetWord": "とくしょく",
+          "skill": "Language Knowledge",
+          "explanationVi": "その地域ならではの性質は『特色』です。"
+        },
+        {
+          "id": "N2_09_M2_05",
+          "typeId": "N2-MO-ORTH",
+          "category": "Mondai 2: 表記",
+          "stem": "市は災害時の情報提供を【じゅうじつ】させる方針だ。",
+          "options": [
+            {
+              "id": "A",
+              "text": "充実"
+            },
+            {
+              "id": "B",
+              "text": "重日"
+            },
+            {
+              "id": "C",
+              "text": "従実"
+            },
+            {
+              "id": "D",
+              "text": "充日"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "内容や機能を豊かにする意味は『充実』です。",
+          "distractorExplanations": {
+            "B": "この語の表記ではありません。",
+            "C": "この意味の熟語として使いません。",
+            "D": "標準的な表記ではありません。"
+          },
+          "targetWord": "じゅうじつ",
+          "skill": "Language Knowledge",
+          "explanationVi": "内容や機能を豊かにする意味は『充実』です。"
+        },
+        {
+          "id": "N2_09_M3_01",
+          "typeId": "N2-MO-FORM",
+          "category": "Mondai 3: 語形成",
+          "stem": "人口が減る地域では、若い世代の【（　）流出】を防ぐ施策が課題だ。",
+          "options": [
+            {
+              "id": "A",
+              "text": "逆"
+            },
+            {
+              "id": "B",
+              "text": "人口"
+            },
+            {
+              "id": "C",
+              "text": "未"
+            },
+            {
+              "id": "D",
+              "text": "再"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "人が地域の外へ移る現象は『人口流出』です。",
+          "distractorExplanations": {
+            "A": "逆流出とは言いません。",
+            "C": "未流出は標準的な語ではありません。",
+            "D": "再流出は一度出た人が再び出る意味となり文脈に合いません。"
+          },
+          "targetWord": "人口流出",
+          "skill": "Language Knowledge",
+          "explanationVi": "人が地域の外へ移る現象は『人口流出』です。"
+        },
+        {
+          "id": "N2_09_M3_02",
+          "typeId": "N2-MO-FORM",
+          "category": "Mondai 3: 語形成",
+          "stem": "文化施設の管理を複数の団体で担う【共同（　）】が始まった。",
+          "options": [
+            {
+              "id": "A",
+              "text": "運送"
+            },
+            {
+              "id": "B",
+              "text": "運転"
+            },
+            {
+              "id": "C",
+              "text": "運用"
+            },
+            {
+              "id": "D",
+              "text": "運営"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "団体が協力して施設を管理するので『共同運営』です。",
+          "distractorExplanations": {
+            "A": "運送は物を運ぶことです。",
+            "B": "運転は機械や車を動かすことです。",
+            "C": "運用は仕組みを実際に使うことです。"
+          },
+          "targetWord": "共同運営",
+          "skill": "Language Knowledge",
+          "explanationVi": "団体が協力して施設を管理するので『共同運営』です。"
+        },
+        {
+          "id": "N2_09_M3_03",
+          "typeId": "N2-MO-FORM",
+          "category": "Mondai 3: 語形成",
+          "stem": "住民の声を政策に取り入れるため、【市民（　）】の場を設けた。",
+          "options": [
+            {
+              "id": "A",
+              "text": "参加"
+            },
+            {
+              "id": "B",
+              "text": "参照"
+            },
+            {
+              "id": "C",
+              "text": "参列"
+            },
+            {
+              "id": "D",
+              "text": "参入"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "市民が議論や決定に加わることは『市民参加』です。",
+          "distractorExplanations": {
+            "B": "参照は資料などを見比べることです。",
+            "C": "参列は式典などに出席することです。",
+            "D": "参入は市場などに入ることです。"
+          },
+          "targetWord": "市民参加",
+          "skill": "Language Knowledge",
+          "explanationVi": "市民が議論や決定に加わることは『市民参加』です。"
+        },
+        {
+          "id": "N2_09_M3_04",
+          "typeId": "N2-MO-FORM",
+          "category": "Mondai 3: 語形成",
+          "stem": "商店街では、店主と学生による【新（　）】の企画が話題になった。",
+          "options": [
+            {
+              "id": "A",
+              "text": "商店"
+            },
+            {
+              "id": "B",
+              "text": "商品"
+            },
+            {
+              "id": "C",
+              "text": "商談"
+            },
+            {
+              "id": "D",
+              "text": "商業"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "新しく売り出す品は『新商品』です。",
+          "distractorExplanations": {
+            "A": "新商店は新しい店を指し、品物ではありません。",
+            "C": "商談は取引についての話し合いです。",
+            "D": "商業は売買を行う活動全体です。"
+          },
+          "targetWord": "新商品",
+          "skill": "Language Knowledge",
+          "explanationVi": "新しく売り出す品は『新商品』です。"
+        },
+        {
+          "id": "N2_09_M3_05",
+          "typeId": "N2-MO-FORM",
+          "category": "Mondai 3: 語形成",
+          "stem": "複数の言語で行政情報を出す【多（　）】対応が求められる。",
+          "options": [
+            {
+              "id": "A",
+              "text": "言行"
+            },
+            {
+              "id": "B",
+              "text": "言論"
+            },
+            {
+              "id": "C",
+              "text": "言葉"
+            },
+            {
+              "id": "D",
+              "text": "言語"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "複数の言語を使うことは『多言語』です。",
+          "distractorExplanations": {
+            "A": "言行は言葉と行動です。",
+            "B": "言論は意見を述べることです。",
+            "C": "言葉は発話や語句の意味が広く、固定語は多言語です。"
+          },
+          "targetWord": "多言語",
+          "skill": "Language Knowledge",
+          "explanationVi": "複数の言語を使うことは『多言語』です。"
+        },
+        {
+          "id": "N2_09_M4_01",
+          "typeId": "N2-MO-CONT",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "利用者の希望を聞き、複数の案から現実的な方法を（　）した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "選択"
+            },
+            {
+              "id": "B",
+              "text": "圧縮"
+            },
+            {
+              "id": "C",
+              "text": "分離"
+            },
+            {
+              "id": "D",
+              "text": "反省"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "条件に合う案を選ぶので『選択』です。",
+          "distractorExplanations": {
+            "B": "圧縮は小さくまとめることです。",
+            "C": "分離は一つのものを分けることです。",
+            "D": "反省は自分の行為を振り返ることです。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "条件に合う案を選ぶので『選択』です。"
+        },
+        {
+          "id": "N2_09_M4_02",
+          "typeId": "N2-MO-CONT",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "駅前の工事について、利用者への説明が十分でなく、苦情が（　）した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "交替"
+            },
+            {
+              "id": "B",
+              "text": "続出"
+            },
+            {
+              "id": "C",
+              "text": "維持"
+            },
+            {
+              "id": "D",
+              "text": "反射"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "『苦情が続出した』は、苦情が次々に出たという意味です。",
+          "distractorExplanations": {
+            "A": "交替は担当や位置が入れ替わることです。",
+            "C": "維持は状態を保つことです。",
+            "D": "反射は光などが跳ね返ることです。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "『苦情が続出した』は、苦情が次々に出たという意味です。"
+        },
+        {
+          "id": "N2_09_M4_03",
+          "typeId": "N2-MO-CONT",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "祭りの準備では、経験の長い人だけでなく、初参加の人の意見も（　）した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "省略"
+            },
+            {
+              "id": "B",
+              "text": "回収"
+            },
+            {
+              "id": "C",
+              "text": "尊重"
+            },
+            {
+              "id": "D",
+              "text": "誤解"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "意見を大切に扱うので『尊重』です。",
+          "distractorExplanations": {
+            "A": "省略は一部を省くことです。",
+            "B": "回収は配布物などを集めることです。",
+            "D": "誤解は意味を取り違えることです。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "意見を大切に扱うので『尊重』です。"
+        },
+        {
+          "id": "N2_09_M4_04",
+          "typeId": "N2-MO-CONT",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "資料の数字だけでは判断できないため、聞き取り結果も（　）して検討した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "解消"
+            },
+            {
+              "id": "B",
+              "text": "拒否"
+            },
+            {
+              "id": "C",
+              "text": "予測"
+            },
+            {
+              "id": "D",
+              "text": "考慮"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "別の情報も判断材料に含めるので『考慮』です。",
+          "distractorExplanations": {
+            "A": "解消は問題などをなくすことです。",
+            "B": "拒否は受け入れないことです。",
+            "C": "予測は先のことを見積もることです。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "別の情報も判断材料に含めるので『考慮』です。"
+        },
+        {
+          "id": "N2_09_M4_05",
+          "typeId": "N2-MO-CONT",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "担当者が変わるたびに手続きが異なる状態を、共通の手順で（　）した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "統一"
+            },
+            {
+              "id": "B",
+              "text": "拡張"
+            },
+            {
+              "id": "C",
+              "text": "分裂"
+            },
+            {
+              "id": "D",
+              "text": "延期"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "ばらつきを同じ手順にそろえるので『統一』です。",
+          "distractorExplanations": {
+            "B": "拡張は範囲を広げることです。",
+            "C": "分裂は一つのものが分かれることです。",
+            "D": "延期は予定を後にずらすことです。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "ばらつきを同じ手順にそろえるので『統一』です。"
+        },
+        {
+          "id": "N2_09_M4_06",
+          "typeId": "N2-MO-CONT",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "対立する意見の背景を聞いたことで、議論の目的が少しずつ（　）になった。",
+          "options": [
+            {
+              "id": "A",
+              "text": "平等"
+            },
+            {
+              "id": "B",
+              "text": "明確"
+            },
+            {
+              "id": "C",
+              "text": "急速"
+            },
+            {
+              "id": "D",
+              "text": "大量"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "目的がはっきりしてきたので『明確』です。",
+          "distractorExplanations": {
+            "A": "平等は差をつけないことです。",
+            "C": "急速は進み方が速いことです。",
+            "D": "大量は量が多いことです。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "目的がはっきりしてきたので『明確』です。"
+        },
+        {
+          "id": "N2_09_M4_07",
+          "typeId": "N2-MO-CONT",
+          "category": "Mondai 4: 文脈規定",
+          "stem": "この制度は一部の人に負担が偏る可能性があり、導入には慎重な（　）が必要だ。",
+          "options": [
+            {
+              "id": "A",
+              "text": "分配"
+            },
+            {
+              "id": "B",
+              "text": "観察"
+            },
+            {
+              "id": "C",
+              "text": "判断"
+            },
+            {
+              "id": "D",
+              "text": "到着"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "利害やリスクを考えて決定するため『判断』です。",
+          "distractorExplanations": {
+            "A": "分配は物や役割を分けることです。",
+            "B": "観察は様子を注意して見ることです。",
+            "D": "到着は目的地に着くことです。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "利害やリスクを考えて決定するため『判断』です。"
+        },
+        {
+          "id": "N2_09_M5_01",
+          "typeId": "N2-MO-PARA",
+          "category": "Mondai 5: 言い換え類義",
+          "stem": "市は住民の要望を【踏まえて】、案内方法を見直した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "取り消して"
+            },
+            {
+              "id": "B",
+              "text": "反対して"
+            },
+            {
+              "id": "C",
+              "text": "先送りして"
+            },
+            {
+              "id": "D",
+              "text": "参考にして"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "踏まえては、事情や意見を考慮して行動することです。",
+          "distractorExplanations": {
+            "A": "取り消しては決定を無効にする意味です。",
+            "B": "反対しては意見を受け入れない意味です。",
+            "C": "先送りしては決定を後に延ばす意味です。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "踏まえては、事情や意見を考慮して行動することです。"
+        },
+        {
+          "id": "N2_09_M5_02",
+          "typeId": "N2-MO-PARA",
+          "category": "Mondai 5: 言い換え類義",
+          "stem": "参加者の意見を【募った】ところ、多くの提案が寄せられた。",
+          "options": [
+            {
+              "id": "A",
+              "text": "広く集めた"
+            },
+            {
+              "id": "B",
+              "text": "一つにまとめた"
+            },
+            {
+              "id": "C",
+              "text": "厳しく批判した"
+            },
+            {
+              "id": "D",
+              "text": "細かく分けた"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "募るは広く呼びかけて集めることです。",
+          "distractorExplanations": {
+            "B": "まとめたは複数を整理して一つにすることです。",
+            "C": "批判したは問題点を指摘することです。",
+            "D": "分けたは分類・分割することです。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "募るは広く呼びかけて集めることです。"
+        },
+        {
+          "id": "N2_09_M5_03",
+          "typeId": "N2-MO-PARA",
+          "category": "Mondai 5: 言い換え類義",
+          "stem": "旧来の制度を【見直す】時期に来ている。",
+          "options": [
+            {
+              "id": "A",
+              "text": "そのまま続ける"
+            },
+            {
+              "id": "B",
+              "text": "改めて検討する"
+            },
+            {
+              "id": "C",
+              "text": "早く知らせる"
+            },
+            {
+              "id": "D",
+              "text": "完全に廃止する"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "見直すはもう一度検討し、必要なら改めることです。",
+          "distractorExplanations": {
+            "A": "続けるだけでは再検討を含みません。",
+            "C": "知らせるは伝達で意味が違います。",
+            "D": "廃止は見直しの一つの結論にすぎません。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "見直すはもう一度検討し、必要なら改めることです。"
+        },
+        {
+          "id": "N2_09_M5_04",
+          "typeId": "N2-MO-PARA",
+          "category": "Mondai 5: 言い換え類義",
+          "stem": "二つの案には、費用の面で【大差がない】。",
+          "options": [
+            {
+              "id": "A",
+              "text": "費用がかからない"
+            },
+            {
+              "id": "B",
+              "text": "同じ目的がない"
+            },
+            {
+              "id": "C",
+              "text": "大きな違いがない"
+            },
+            {
+              "id": "D",
+              "text": "片方が優れている"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "大差がないは差が大きくないという意味です。",
+          "distractorExplanations": {
+            "A": "費用がゼロだとは言っていません。",
+            "B": "目的の一致は述べていません。",
+            "D": "優劣の結論はありません。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "大差がないは差が大きくないという意味です。"
+        },
+        {
+          "id": "N2_09_M5_05",
+          "typeId": "N2-MO-PARA",
+          "category": "Mondai 5: 言い換え類義",
+          "stem": "説明会の参加者は、予想を【上回った】。",
+          "options": [
+            {
+              "id": "A",
+              "text": "予想を取り消した"
+            },
+            {
+              "id": "B",
+              "text": "予想と同じだった"
+            },
+            {
+              "id": "C",
+              "text": "予想に届かなかった"
+            },
+            {
+              "id": "D",
+              "text": "予想より多かった"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "上回るは基準・予想より多い、または高いことです。",
+          "distractorExplanations": {
+            "A": "予想を取り消す意味ではありません。",
+            "B": "同じなら上回ったとは言いません。",
+            "C": "届かなかったは反対の関係です。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "上回るは基準・予想より多い、または高いことです。"
+        },
+        {
+          "id": "N2_09_M6_01",
+          "typeId": "N2-MO-USE",
+          "category": "Mondai 6: 用法",
+          "stem": "『促す』の使い方として最もよいものはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "係員は列が進むよう、次の人に前へ進むことを促した。"
+            },
+            {
+              "id": "B",
+              "text": "雨が降ったので、道路が促してぬれた。"
+            },
+            {
+              "id": "C",
+              "text": "彼は本を促して棚に戻した。"
+            },
+            {
+              "id": "D",
+              "text": "会議の開始時刻を促して午後に変更した。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "促すは相手に行動するよう働きかけることで、Aが自然です。",
+          "distractorExplanations": {
+            "B": "道路がぬれる原因を『促す』とは言いません。",
+            "C": "本を棚に戻す動作には使いません。",
+            "D": "時刻変更は促すの目的語になりません。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "促すは相手に行動するよう働きかけることで、Aが自然です。"
+        },
+        {
+          "id": "N2_09_M6_02",
+          "typeId": "N2-MO-USE",
+          "category": "Mondai 6: 用法",
+          "stem": "『偏る』の使い方として最もよいものはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "彼は駅へ偏って歩いた。"
+            },
+            {
+              "id": "B",
+              "text": "この調査は若い世代の回答に偏っている。"
+            },
+            {
+              "id": "C",
+              "text": "机の上の紙が偏って読めた。"
+            },
+            {
+              "id": "D",
+              "text": "会議は六時に偏って始まった。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "偏るは一方に集中してバランスを欠くことで、Aが適切です。",
+          "distractorExplanations": {
+            "A": "移動先を表す動詞ではありません。",
+            "C": "読める状態を表しません。",
+            "D": "時刻に始まる意味では使いません。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "偏るは一方に集中してバランスを欠くことで、Aが適切です。"
+        },
+        {
+          "id": "N2_09_M6_03",
+          "typeId": "N2-MO-USE",
+          "category": "Mondai 6: 用法",
+          "stem": "『担う』の使い方として最もよいものはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "道の角を担って右へ曲がった。"
+            },
+            {
+              "id": "B",
+              "text": "寒さを担って上着を着た。"
+            },
+            {
+              "id": "C",
+              "text": "地域の防災を担う団体が、訓練を企画した。"
+            },
+            {
+              "id": "D",
+              "text": "資料を担って読めるようにした。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "担うは責任・役割を引き受けることで、Aが自然です。",
+          "distractorExplanations": {
+            "A": "曲がる方向を示しません。",
+            "B": "寒さを感じることに使いません。",
+            "D": "資料を読む行為とも結びつきません。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "担うは責任・役割を引き受けることで、Aが自然です。"
+        },
+        {
+          "id": "N2_09_M6_04",
+          "typeId": "N2-MO-USE",
+          "category": "Mondai 6: 用法",
+          "stem": "『見込む』の使い方として最もよいものはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "会場を見込んで祭りを始めた。"
+            },
+            {
+              "id": "B",
+              "text": "彼は窓を見込んで閉めた。"
+            },
+            {
+              "id": "C",
+              "text": "係員は切符を見込んで改札を通った。"
+            },
+            {
+              "id": "D",
+              "text": "市は来年度、利用者が増えると見込んでいる。"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "見込むは将来の数量・状況を予想することで、Aが適切です。",
+          "distractorExplanations": {
+            "A": "会場を準備する意味でもありません。",
+            "B": "窓を見る意味は『見込む』ではありません。",
+            "C": "切符を使う意味ではありません。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "見込むは将来の数量・状況を予想することで、Aが適切です。"
+        },
+        {
+          "id": "N2_09_M6_05",
+          "typeId": "N2-MO-USE",
+          "category": "Mondai 6: 用法",
+          "stem": "『和らぐ』の使い方として最もよいものはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "話し合いの後、両者の緊張が少し和らいだ。"
+            },
+            {
+              "id": "B",
+              "text": "彼は意見を和らいで提出した。"
+            },
+            {
+              "id": "C",
+              "text": "橋が和らいで渡りやすくなった。"
+            },
+            {
+              "id": "D",
+              "text": "荷物を和らいで運んだ。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "和らぐは緊張・痛み・気候などの程度が弱くなることです。",
+          "distractorExplanations": {
+            "B": "意見を柔らかくするなら『和らげる』などを使います。",
+            "C": "橋の構造には使いません。",
+            "D": "荷物を運ぶ動作には使いません。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "和らぐは緊張・痛み・気候などの程度が弱くなることです。"
+        },
+        {
+          "id": "N2_09_M7_01",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "住民の意見を聞く（　）、計画の弱点が見えてきた。",
+          "options": [
+            {
+              "id": "A",
+              "text": "にとって"
+            },
+            {
+              "id": "B",
+              "text": "につれて"
+            },
+            {
+              "id": "C",
+              "text": "を問わず"
+            },
+            {
+              "id": "D",
+              "text": "に先立って"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "聞き取りの進行とともに変化したので『につれて』です。",
+          "distractorExplanations": {
+            "A": "立場・評価の基準になりません。",
+            "C": "条件に関係しない意味ではありません。",
+            "D": "前に行う意味ではありません。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "聞き取りの進行とともに変化したので『につれて』です。"
+        },
+        {
+          "id": "N2_09_M7_02",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "観光客が増える（　）、ごみの量も増加した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "をめぐって"
+            },
+            {
+              "id": "B",
+              "text": "に限って"
+            },
+            {
+              "id": "C",
+              "text": "に伴って"
+            },
+            {
+              "id": "D",
+              "text": "に反して"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "観光客が増える変化に伴ってごみも増えたので、『に伴って』です。",
+          "distractorExplanations": {
+            "A": "論争の対象ではありません。",
+            "B": "範囲限定ではありません。",
+            "D": "期待と反対ではありません。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "観光客が増える変化に伴ってごみも増えたので、『に伴って』です。"
+        },
+        {
+          "id": "N2_09_M7_03",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "この祭りは、地元の人（　）、近隣の市からも参加者が来る。",
+          "options": [
+            {
+              "id": "A",
+              "text": "に先立ち"
+            },
+            {
+              "id": "B",
+              "text": "に際して"
+            },
+            {
+              "id": "C",
+              "text": "に応じて"
+            },
+            {
+              "id": "D",
+              "text": "に限らず"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "地元の人だけでなく、という追加なので『に限らず』です。",
+          "distractorExplanations": {
+            "A": "前後関係ではありません。",
+            "B": "機会・時点を示しません。",
+            "C": "状況に応じた変化ではありません。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "地元の人だけでなく、という追加なので『に限らず』です。"
+        },
+        {
+          "id": "N2_09_M7_04",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "どの世代の人（　）、分かりやすい案内が必要だ。",
+          "options": [
+            {
+              "id": "A",
+              "text": "にとっても"
+            },
+            {
+              "id": "B",
+              "text": "に限って"
+            },
+            {
+              "id": "C",
+              "text": "を契機に"
+            },
+            {
+              "id": "D",
+              "text": "にしては"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "どの人にもという意味なので『にとっても』です。",
+          "distractorExplanations": {
+            "B": "特定の場合だけではありません。",
+            "C": "きっかけを表しません。",
+            "D": "基準との意外さではありません。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "どの人にもという意味なので『にとっても』です。"
+        },
+        {
+          "id": "N2_09_M7_05",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "調査に協力してもらう（　）、目的と個人情報の扱いを説明した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "にしたがって"
+            },
+            {
+              "id": "B",
+              "text": "にあたって"
+            },
+            {
+              "id": "C",
+              "text": "に反して"
+            },
+            {
+              "id": "D",
+              "text": "に限り"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "協力を依頼する機会に際して説明したので『にあたって』です。",
+          "distractorExplanations": {
+            "A": "順序・変化の対応ではありません。",
+            "C": "予想に反する意味ではありません。",
+            "D": "対象の限定ではありません。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "協力を依頼する機会に際して説明したので『にあたって』です。"
+        },
+        {
+          "id": "N2_09_M7_06",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "結論を急ぐ（　）、異なる立場の意見も確かめるべきだ。",
+          "options": [
+            {
+              "id": "A",
+              "text": "どころか"
+            },
+            {
+              "id": "B",
+              "text": "からには"
+            },
+            {
+              "id": "C",
+              "text": "ことなく"
+            },
+            {
+              "id": "D",
+              "text": "にしたって"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "急がずにという意味の『ことなく』が自然です。",
+          "distractorExplanations": {
+            "A": "程度が予想を超える意味ではありません。",
+            "B": "決意や責任の前提ではありません。",
+            "D": "口語的な譲歩になりません。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "急がずにという意味の『ことなく』が自然です。"
+        },
+        {
+          "id": "N2_09_M7_07",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "制度を変更する（　）、利用者への説明を先に行う。",
+          "options": [
+            {
+              "id": "A",
+              "text": "に限って"
+            },
+            {
+              "id": "B",
+              "text": "に伴って"
+            },
+            {
+              "id": "C",
+              "text": "とともに"
+            },
+            {
+              "id": "D",
+              "text": "に先立って"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "変更の前に説明するので『に先立って』です。",
+          "distractorExplanations": {
+            "A": "対象限定ではありません。",
+            "B": "同時の変化ではありません。",
+            "C": "同時進行の意味ではありません。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "変更の前に説明するので『に先立って』です。"
+        },
+        {
+          "id": "N2_09_M7_08",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "便利さを優先する（　）、支援を必要とする人が使えなくなる場合もある。",
+          "options": [
+            {
+              "id": "A",
+              "text": "一方で"
+            },
+            {
+              "id": "B",
+              "text": "からには"
+            },
+            {
+              "id": "C",
+              "text": "あげく"
+            },
+            {
+              "id": "D",
+              "text": "にすぎず"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "利点とは別の側面を対比するので『一方で』です。",
+          "distractorExplanations": {
+            "B": "責任の前提ではありません。",
+            "C": "長い行為の末の悪い結果ではありません。",
+            "D": "単なる限定ではありません。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "利点とは別の側面を対比するので『一方で』です。"
+        },
+        {
+          "id": "N2_09_M7_09",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "住民が参加しやすい（　）、会場と時間を見直した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "ものの"
+            },
+            {
+              "id": "B",
+              "text": "ように"
+            },
+            {
+              "id": "C",
+              "text": "ばかりに"
+            },
+            {
+              "id": "D",
+              "text": "どころか"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "参加しやすい状態を目的とするので『ように』です。",
+          "distractorExplanations": {
+            "A": "逆接ではありません。",
+            "C": "後悔を招く原因ではありません。",
+            "D": "期待に反する程度ではありません。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "参加しやすい状態を目的とするので『ように』です。"
+        },
+        {
+          "id": "N2_09_M7_10",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "計画の内容を十分に説明しない（　）、合意を得ることは難しい。",
+          "options": [
+            {
+              "id": "A",
+              "text": "にしても"
+            },
+            {
+              "id": "B",
+              "text": "たとたん"
+            },
+            {
+              "id": "C",
+              "text": "ことには"
+            },
+            {
+              "id": "D",
+              "text": "からこそ"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "説明がなければ成立しない条件なので『ないことには』です。",
+          "distractorExplanations": {
+            "A": "譲歩ではありません。",
+            "B": "直後の出来事ではありません。",
+            "D": "理由を強調する形ではありません。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "説明がなければ成立しない条件なので『ないことには』です。"
+        },
+        {
+          "id": "N2_09_M7_11",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "反対意見が出た（　）、担当者は議論を続ける時間を設けた。",
+          "options": [
+            {
+              "id": "A",
+              "text": "を問わず"
+            },
+            {
+              "id": "B",
+              "text": "にしたがい"
+            },
+            {
+              "id": "C",
+              "text": "に先立ち"
+            },
+            {
+              "id": "D",
+              "text": "ことから"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "反対意見を理由として対応したので『ことから』です。",
+          "distractorExplanations": {
+            "A": "条件に関係しない意味ではありません。",
+            "B": "変化の対応ではありません。",
+            "C": "前後関係ではありません。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "反対意見を理由として対応したので『ことから』です。"
+        },
+        {
+          "id": "N2_09_M7_12",
+          "typeId": "N2-GR-FORM",
+          "category": "Mondai 7: 文法形式の判断",
+          "stem": "説明会に出席した（　）、制度を理解できたとは限らない。",
+          "options": [
+            {
+              "id": "A",
+              "text": "からといって"
+            },
+            {
+              "id": "B",
+              "text": "だけあって"
+            },
+            {
+              "id": "C",
+              "text": "にしたがって"
+            },
+            {
+              "id": "D",
+              "text": "以上は"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "出席だけで理解を断定できない部分否定です。",
+          "distractorExplanations": {
+            "B": "期待通りの結果ではありません。",
+            "C": "連動変化ではありません。",
+            "D": "責任・決意の前提ではありません。"
+          },
+          "skill": "Language Knowledge",
+          "explanationVi": "出席だけで理解を断定できない部分否定です。"
+        },
+        {
+          "id": "N2_09_M8_01",
+          "typeId": "N2-GR-STAR",
+          "category": "Mondai 8: 文の組み立て",
+          "stem": "地域の祭りを次世代に引き継ぐには、（　）（　）★（　）大切だ。",
+          "options": [
+            {
+              "id": "A",
+              "text": "地域で受け継がれてきた"
+            },
+            {
+              "id": "B",
+              "text": "行事の意味を"
+            },
+            {
+              "id": "C",
+              "text": "子どもたちに伝える"
+            },
+            {
+              "id": "D",
+              "text": "ことが"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "『地域で受け継がれてきた行事の意味を子どもたちに伝えること』とつながります。三番目は『子どもたちに伝える』です。",
+          "distractorExplanations": {
+            "A": "地域で受け継がれてきたは意図した語順（A→B→C→D）でこの位置に置かれません。",
+            "B": "行事の意味をは意図した語順（A→B→C→D）でこの位置に置かれません。",
+            "D": "ことがは意図した語順（A→B→C→D）でこの位置に置かれません。"
+          },
+          "starPosition": 3,
+          "assembledSentence": "地域の祭りを次世代に引き継ぐには、地域で受け継がれてきた行事の意味を子どもたちに伝えることが大切だ。",
+          "fragmentOrder": "A→B→C→D",
+          "skill": "Language Knowledge",
+          "explanationVi": "『地域で受け継がれてきた行事の意味を子どもたちに伝えること』とつながります。三番目は『子どもたちに伝える』です。"
+        },
+        {
+          "id": "N2_09_M8_02",
+          "typeId": "N2-GR-STAR",
+          "category": "Mondai 8: 文の組み立て",
+          "stem": "異なる意見をまとめる際は、（　）（　）★（　）欠かせない。",
+          "options": [
+            {
+              "id": "A",
+              "text": "結論を急がず"
+            },
+            {
+              "id": "B",
+              "text": "背景を"
+            },
+            {
+              "id": "C",
+              "text": "確かめる"
+            },
+            {
+              "id": "D",
+              "text": "姿勢が"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "『背景を確かめる姿勢』となる順です。三番目は『確かめる』です。",
+          "distractorExplanations": {
+            "A": "結論を急がずは意図した語順（A→B→C→D）でこの位置に置かれません。",
+            "B": "背景をは意図した語順（A→B→C→D）でこの位置に置かれません。",
+            "D": "姿勢がは意図した語順（A→B→C→D）でこの位置に置かれません。"
+          },
+          "starPosition": 3,
+          "assembledSentence": "異なる意見をまとめる際は、結論を急がず背景を確かめる姿勢が欠かせない。",
+          "fragmentOrder": "A→B→C→D",
+          "skill": "Language Knowledge",
+          "explanationVi": "『背景を確かめる姿勢』となる順です。三番目は『確かめる』です。"
+        },
+        {
+          "id": "N2_09_M8_03",
+          "typeId": "N2-GR-STAR",
+          "category": "Mondai 8: 文の組み立て",
+          "stem": "分析結果を正しく解釈するには、（　）（　）★（　）。",
+          "options": [
+            {
+              "id": "A",
+              "text": "回答者が"
+            },
+            {
+              "id": "B",
+              "text": "どの質問に答えたかを"
+            },
+            {
+              "id": "C",
+              "text": "調査記録に残す"
+            },
+            {
+              "id": "D",
+              "text": "必要がある"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "『回答者がどの質問に答えたかを調査記録に残す必要がある』とつながります。三番目は『調査記録に残す』です。",
+          "distractorExplanations": {
+            "A": "回答者がは意図した語順（A→B→C→D）でこの位置に置かれません。",
+            "B": "どの質問に答えたかをは意図した語順（A→B→C→D）でこの位置に置かれません。",
+            "D": "必要があるは意図した語順（A→B→C→D）でこの位置に置かれません。"
+          },
+          "starPosition": 3,
+          "assembledSentence": "分析結果を正しく解釈するには、回答者がどの質問に答えたかを調査記録に残す必要がある。",
+          "fragmentOrder": "A→B→C→D",
+          "skill": "Language Knowledge",
+          "explanationVi": "『回答者がどの質問に答えたかを調査記録に残す必要がある』とつながります。三番目は『調査記録に残す』です。"
+        },
+        {
+          "id": "N2_09_M8_04",
+          "typeId": "N2-GR-STAR",
+          "category": "Mondai 8: 文の組み立て",
+          "stem": "議論の経過を後から検証できるようにするには、（　）（　）★（　）大切だ。",
+          "options": [
+            {
+              "id": "A",
+              "text": "住民が述べた"
+            },
+            {
+              "id": "B",
+              "text": "反対意見も"
+            },
+            {
+              "id": "C",
+              "text": "議事録に残しておく"
+            },
+            {
+              "id": "D",
+              "text": "ことが"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "『住民が述べた反対意見も議事録に残しておくこと』とつながります。三番目は『議事録に残しておく』です。",
+          "distractorExplanations": {
+            "A": "住民が述べたは意図した語順（A→B→C→D）でこの位置に置かれません。",
+            "B": "反対意見もは意図した語順（A→B→C→D）でこの位置に置かれません。",
+            "D": "ことがは意図した語順（A→B→C→D）でこの位置に置かれません。"
+          },
+          "starPosition": 3,
+          "assembledSentence": "議論の経過を後から検証できるようにするには、住民が述べた反対意見も議事録に残しておくことが大切だ。",
+          "fragmentOrder": "A→B→C→D",
+          "skill": "Language Knowledge",
+          "explanationVi": "『住民が述べた反対意見も議事録に残しておくこと』とつながります。三番目は『議事録に残しておく』です。"
+        },
+        {
+          "id": "N2_09_M8_05",
+          "typeId": "N2-GR-STAR",
+          "category": "Mondai 8: 文の組み立て",
+          "stem": "多数決に進む前に、（　）（　）★（　）必要がある。",
+          "options": [
+            {
+              "id": "A",
+              "text": "それぞれの主張を"
+            },
+            {
+              "id": "B",
+              "text": "支える根拠を"
+            },
+            {
+              "id": "C",
+              "text": "比較して"
+            },
+            {
+              "id": "D",
+              "text": "論点を整理する"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "『主張を支える根拠を比較して論点を整理する』の順で、三番目は『比較して』です。",
+          "distractorExplanations": {
+            "A": "それぞれの主張をは意図した語順（A→B→C→D）でこの位置に置かれません。",
+            "B": "支える根拠をは意図した語順（A→B→C→D）でこの位置に置かれません。",
+            "D": "論点を整理するは意図した語順（A→B→C→D）でこの位置に置かれません。"
+          },
+          "starPosition": 3,
+          "assembledSentence": "多数決に進む前に、それぞれの主張を支える根拠を比較して論点を整理する必要がある。",
+          "fragmentOrder": "A→B→C→D",
+          "skill": "Language Knowledge",
+          "explanationVi": "『主張を支える根拠を比較して論点を整理する』の順で、三番目は『比較して』です。"
+        },
+        {
+          "id": "N2_09_M9_01",
+          "typeId": "N2-GR-PARA",
+          "category": "Mondai 9: 文章文法",
+          "stem": "空欄（1）に入れる表現として、文章全体の論理に最も合うものはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "にほかならない"
+            },
+            {
+              "id": "B",
+              "text": "というわけではない"
+            },
+            {
+              "id": "C",
+              "text": "といったところだ"
+            },
+            {
+              "id": "D",
+              "text": "ことになっている"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "外部専門家だけで十分とは言えない部分否定です。",
+          "distractorExplanations": {
+            "A": "強い断定になりません。",
+            "C": "おおよその程度を示す意味ではありません。",
+            "D": "決定済みの予定ではありません。"
+          },
+          "passage": "地域の課題を解決するとき、外から来た専門家の意見だけに頼ればよい（ 1 ）。長く暮らす住民は、統計には表れにくい季節ごとの変化や、以前に試した方法の結果を知っている。一方で、住民の経験が常に正しい（ 2 ）。思い込みや限られた経験によって、別の集団の事情が見落とされることもあるからだ。だからこそ、データと現場の声を（ 3 ）検討し、異なる説明があれば、その違いが生まれた背景を確かめたい。結論を急ぐ（ 4 ）、試行の規模を小さくし、結果を見ながら計画を調整する方法もある。こうした手順を通じて、当事者が納得できる形で決定を（ 5 ）ことができる。",
+          "skill": "Language Knowledge",
+          "explanationVi": "外部専門家だけで十分とは言えない部分否定です。"
+        },
+        {
+          "id": "N2_09_M9_02",
+          "typeId": "N2-GR-PARA",
+          "category": "Mondai 9: 文章文法",
+          "stem": "空欄（2）に入れ、住民の経験への留保を示すものはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "にすぎない"
+            },
+            {
+              "id": "B",
+              "text": "に違いない"
+            },
+            {
+              "id": "C",
+              "text": "とは限らない"
+            },
+            {
+              "id": "D",
+              "text": "にほかならない"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "住民の経験が常に正しいとは限らない、という留保です。",
+          "distractorExplanations": {
+            "A": "程度の限定ではありません。",
+            "B": "強い推量ではありません。",
+            "D": "強い同定ではありません。"
+          },
+          "passage": "地域の課題を解決するとき、外から来た専門家の意見だけに頼ればよい（ 1 ）。長く暮らす住民は、統計には表れにくい季節ごとの変化や、以前に試した方法の結果を知っている。一方で、住民の経験が常に正しい（ 2 ）。思い込みや限られた経験によって、別の集団の事情が見落とされることもあるからだ。だからこそ、データと現場の声を（ 3 ）検討し、異なる説明があれば、その違いが生まれた背景を確かめたい。結論を急ぐ（ 4 ）、試行の規模を小さくし、結果を見ながら計画を調整する方法もある。こうした手順を通じて、当事者が納得できる形で決定を（ 5 ）ことができる。",
+          "skill": "Language Knowledge",
+          "explanationVi": "住民の経験が常に正しいとは限らない、という留保です。"
+        },
+        {
+          "id": "N2_09_M9_03",
+          "typeId": "N2-GR-PARA",
+          "category": "Mondai 9: 文章文法",
+          "stem": "空欄（3）に入れ、データと現場の声を比べる意味を表すものはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "問い直して"
+            },
+            {
+              "id": "B",
+              "text": "切り離して"
+            },
+            {
+              "id": "C",
+              "text": "差し控えて"
+            },
+            {
+              "id": "D",
+              "text": "照らし合わせて"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "データと現場の声を比較・確認するので『照らし合わせて』です。",
+          "distractorExplanations": {
+            "A": "問いを再設定する意味で、ここでは情報比較を表しません。",
+            "B": "別々に扱うと文意に合いません。",
+            "C": "行為を控える意味です。"
+          },
+          "passage": "地域の課題を解決するとき、外から来た専門家の意見だけに頼ればよい（ 1 ）。長く暮らす住民は、統計には表れにくい季節ごとの変化や、以前に試した方法の結果を知っている。一方で、住民の経験が常に正しい（ 2 ）。思い込みや限られた経験によって、別の集団の事情が見落とされることもあるからだ。だからこそ、データと現場の声を（ 3 ）検討し、異なる説明があれば、その違いが生まれた背景を確かめたい。結論を急ぐ（ 4 ）、試行の規模を小さくし、結果を見ながら計画を調整する方法もある。こうした手順を通じて、当事者が納得できる形で決定を（ 5 ）ことができる。",
+          "skill": "Language Knowledge",
+          "explanationVi": "データと現場の声を比較・確認するので『照らし合わせて』です。"
+        },
+        {
+          "id": "N2_09_M9_04",
+          "typeId": "N2-GR-PARA",
+          "category": "Mondai 9: 文章文法",
+          "stem": "空欄（4）の後に続く提案を自然につなぐ表現はどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "ことなく"
+            },
+            {
+              "id": "B",
+              "text": "どころか"
+            },
+            {
+              "id": "C",
+              "text": "ばかりに"
+            },
+            {
+              "id": "D",
+              "text": "末に"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "『結論を急ぐことなく』は、急いで結論を出さずに進める意味です。",
+          "distractorExplanations": {
+            "B": "むしろ逆という意味ではありません。",
+            "C": "不注意が招いた悪い結果ではありません。",
+            "D": "長い過程の結末ではありません。"
+          },
+          "passage": "地域の課題を解決するとき、外から来た専門家の意見だけに頼ればよい（ 1 ）。長く暮らす住民は、統計には表れにくい季節ごとの変化や、以前に試した方法の結果を知っている。一方で、住民の経験が常に正しい（ 2 ）。思い込みや限られた経験によって、別の集団の事情が見落とされることもあるからだ。だからこそ、データと現場の声を（ 3 ）検討し、異なる説明があれば、その違いが生まれた背景を確かめたい。結論を急ぐ（ 4 ）、試行の規模を小さくし、結果を見ながら計画を調整する方法もある。こうした手順を通じて、当事者が納得できる形で決定を（ 5 ）ことができる。",
+          "skill": "Language Knowledge",
+          "explanationVi": "『結論を急ぐことなく』は、急いで結論を出さずに進める意味です。"
+        },
+        {
+          "id": "N2_09_M9_05",
+          "typeId": "N2-GR-PARA",
+          "category": "Mondai 9: 文章文法",
+          "stem": "空欄（5）に続く「決定」と最も自然に結びつく動詞はどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "向ける"
+            },
+            {
+              "id": "B",
+              "text": "下す"
+            },
+            {
+              "id": "C",
+              "text": "沈める"
+            },
+            {
+              "id": "D",
+              "text": "配る"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "『決定を下す』が自然な連語です。",
+          "distractorExplanations": {
+            "A": "視線や注意を向ける用法です。",
+            "C": "水などに沈める意味です。",
+            "D": "物を分けて渡す意味です。"
+          },
+          "passage": "地域の課題を解決するとき、外から来た専門家の意見だけに頼ればよい（ 1 ）。長く暮らす住民は、統計には表れにくい季節ごとの変化や、以前に試した方法の結果を知っている。一方で、住民の経験が常に正しい（ 2 ）。思い込みや限られた経験によって、別の集団の事情が見落とされることもあるからだ。だからこそ、データと現場の声を（ 3 ）検討し、異なる説明があれば、その違いが生まれた背景を確かめたい。結論を急ぐ（ 4 ）、試行の規模を小さくし、結果を見ながら計画を調整する方法もある。こうした手順を通じて、当事者が納得できる形で決定を（ 5 ）ことができる。",
+          "skill": "Language Knowledge",
+          "explanationVi": "『決定を下す』が自然な連語です。"
+        },
+        {
+          "id": "N2_09_M10_01",
+          "typeId": "N2-RD-SHORT",
+          "category": "Mondai 10: 短文読解",
+          "stem": "市が開館時間の変更をまず試行する理由は何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "来館者数が十分に増えたか確認するため"
+            },
+            {
+              "id": "B",
+              "text": "利用者の目的を記録しないため"
+            },
+            {
+              "id": "C",
+              "text": "職員を増やす費用と利用状況を確かめるため"
+            },
+            {
+              "id": "D",
+              "text": "全曜日の開館時間をすぐ延ばすため"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "費用がかかるため、曜日を限定して利用状況を見ます。",
+          "distractorExplanations": {
+            "A": "来館者数の減少がきっかけであり、増加済みとは書かれていません。",
+            "B": "目的も記録するとあります。",
+            "D": "まず限定して試す方針です。"
+          },
+          "passage": "市の文化施設では、利用者数の減少を受けて、平日の開館時間を延ばす案が出ている。ただし、職員を増やす費用が必要になるため、まず三か月間、曜日を限定して試すことになった。試行期間中は来館者数だけでなく、利用者が何を目的に来たかも記録する。",
+          "skill": "Reading",
+          "explanationVi": "費用がかかるため、曜日を限定して利用状況を見ます。"
+        },
+        {
+          "id": "N2_09_M10_02",
+          "typeId": "N2-RD-SHORT",
+          "category": "Mondai 10: 短文読解",
+          "stem": "次回の展示で優先されることは何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "展示数を大幅に増やすこと"
+            },
+            {
+              "id": "B",
+              "text": "地元作家の紹介をやめること"
+            },
+            {
+              "id": "C",
+              "text": "会場を一つに統合すること"
+            },
+            {
+              "id": "D",
+              "text": "場所を示す案内を分かりやすくすること"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "展示数の追加より案内図と共通表示を整えるとあります。",
+          "distractorExplanations": {
+            "A": "次回は展示数を増やすより、と明示されています。",
+            "B": "作家紹介をやめるとは書いていません。",
+            "C": "会場統合ではなく表示の改善です。"
+          },
+          "passage": "商店街の空き店舗を使った展示は、地元作家を紹介する機会になった。一方、会場が分散していて、初めて来た人には場所が分かりにくいという声もあった。次回は展示数を増やすより、案内図と共通の表示を整える予定だ。",
+          "skill": "Reading",
+          "explanationVi": "展示数の追加より案内図と共通表示を整えるとあります。"
+        },
+        {
+          "id": "N2_09_M10_03",
+          "typeId": "N2-RD-SHORT",
+          "category": "Mondai 10: 短文読解",
+          "stem": "主催者が新たに用意することにしたものは何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "時間がない人でも参加できる短い役割"
+            },
+            {
+              "id": "B",
+              "text": "行事に参加した人への謝礼"
+            },
+            {
+              "id": "C",
+              "text": "知り合いを必ず連れてくる規則"
+            },
+            {
+              "id": "D",
+              "text": "行事の日程を平日に変えること"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "時間と初参加の不安の両方を踏まえ、短時間の役割を用意します。",
+          "distractorExplanations": {
+            "B": "謝礼の話はありません。",
+            "C": "同行者を求めていません。",
+            "D": "日程変更の記述はありません。"
+          },
+          "passage": "ある調査では、地域の行事に参加しない理由として「時間がない」が最も多かった。しかし、自由記述を見ると、仕事の都合だけでなく、初参加で知り合いがいないことへの不安も目立った。主催者は、短時間でも参加できる役割を用意することにした。",
+          "skill": "Reading",
+          "explanationVi": "時間と初参加の不安の両方を踏まえ、短時間の役割を用意します。"
+        },
+        {
+          "id": "N2_09_M10_04",
+          "typeId": "N2-RD-SHORT",
+          "category": "Mondai 10: 短文読解",
+          "stem": "担当職員が説明会の成果だけでは不十分だと考えるのはなぜか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "参加者の理解度を測っていないから"
+            },
+            {
+              "id": "B",
+              "text": "制度の対象者が説明会に来られず、疑問が残るから"
+            },
+            {
+              "id": "C",
+              "text": "回覧板が使えないから"
+            },
+            {
+              "id": "D",
+              "text": "説明会の費用が高すぎるから"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "参加しなかった世帯の疑問が未解決と指摘されています。",
+          "distractorExplanations": {
+            "A": "出席者の理解度は高かったとされています。",
+            "C": "回覧板に加えて相談窓口を設けます。",
+            "D": "費用への言及はありません。"
+          },
+          "passage": "新しいごみ分別制度の説明会には、制度をよく知る人が多く参加した。市は出席者の理解度が高かったことを成果としたが、担当職員は、説明会に来なかった世帯の疑問が残っていると指摘する。今後は回覧板に加え、個別の相談窓口も設けるという。",
+          "skill": "Reading",
+          "explanationVi": "参加しなかった世帯の疑問が未解決と指摘されています。"
+        },
+        {
+          "id": "N2_09_M10_05",
+          "typeId": "N2-RD-SHORT",
+          "category": "Mondai 10: 短文読解",
+          "stem": "写真を公開しない場合、活動では何を残すか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "写真の持ち主の住所"
+            },
+            {
+              "id": "B",
+              "text": "写真を撮影した機器"
+            },
+            {
+              "id": "C",
+              "text": "写真についての説明文"
+            },
+            {
+              "id": "D",
+              "text": "家族全員の署名"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "公開を望まない場合は写真を載せず、説明文だけを残します。",
+          "distractorExplanations": {
+            "A": "住所を残すとはありません。",
+            "B": "撮影機器の記述はありません。",
+            "D": "署名の要件は書かれていません。"
+          },
+          "passage": "地域の歴史を記録する活動では、古い写真の持ち主から公開許可を得る必要がある。保存の価値が高くても、撮影された人や家族が公開を望まない場合は、写真を掲載せず、説明文だけを残す方針だ。",
+          "skill": "Reading",
+          "explanationVi": "公開を望まない場合は写真を載せず、説明文だけを残します。"
+        },
+        {
+          "id": "N2_09_M11_01",
+          "typeId": "N2-RD-MED",
+          "category": "Mondai 11: 中文読解",
+          "stem": "筆者が市民参加の会議で最初に行うべきだとすることは何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "行政案への賛否を尋ねること"
+            },
+            {
+              "id": "B",
+              "text": "採用できない意見を記録しないこと"
+            },
+            {
+              "id": "C",
+              "text": "参加者が選べる案を一つに絞ること"
+            },
+            {
+              "id": "D",
+              "text": "具体的に困っている場面を聞くこと"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "先に困っている場面を聞くことで、既存案にない課題も発見しやすくなります。",
+          "distractorExplanations": {
+            "A": "賛否だけを尋ねる場ではないと述べています。",
+            "B": "不採用理由を返す重要性が述べられています。",
+            "C": "複数の対応を比べます。"
+          },
+          "passage": "市民参加の会議は、行政が決めた案に賛成か反対かを尋ねる場ではない。課題の見え方は、暮らす場所や働き方によって異なる。会議の冒頭で選択肢を示すと、参加者は既存の枠の中で答えがちになる。まず困っている場面を具体的に聞き、その後で複数の対応を比べるほうが、まだ表に出ていない問題を見つけやすい。意見をすべて採用できなくても、採用しなかった理由を返すことが次の参加につながる。",
+          "skill": "Reading",
+          "explanationVi": "先に困っている場面を聞くことで、既存案にない課題も発見しやすくなります。"
+        },
+        {
+          "id": "N2_09_M11_02",
+          "typeId": "N2-RD-MED",
+          "category": "Mondai 11: 中文読解",
+          "stem": "筆者が伝統行事の変更について重視していることは何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "行為の意味と変更の影響を担い手と確認すること"
+            },
+            {
+              "id": "B",
+              "text": "行政が変更の範囲を決定すること"
+            },
+            {
+              "id": "C",
+              "text": "すべての手順を一切変えないこと"
+            },
+            {
+              "id": "D",
+              "text": "参加者が減る前に行事を中止すること"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "形式だけでなく意味を確認し、変更の影響を担い手と考えるべきです。",
+          "distractorExplanations": {
+            "B": "一方的な変更を問題視しています。",
+            "C": "形をそのまま守るだけでは途切れる場合があるとしています。",
+            "D": "中止の提案はありません。"
+          },
+          "passage": "伝統行事を続けるために、昔の形をそのまま守ることだけを目標にすると、担い手が減った時に行事自体が途切れてしまうことがある。大切なのは、何のためにその行為をしてきたのかを確かめることだ。例えば、長い行列が地域の人の交流を生んでいたなら、距離を短くしても交流の機会を残す方法は考えられる。ただし、変更を決める側が「現代化」を理由に一方的に簡略化すれば、当事者の誇りを損なう。残す意味と変更の影響を、担い手とともに確かめる必要がある。",
+          "skill": "Reading",
+          "explanationVi": "形式だけでなく意味を確認し、変更の影響を担い手と考えるべきです。"
+        },
+        {
+          "id": "N2_09_M11_03",
+          "typeId": "N2-RD-MED",
+          "category": "Mondai 11: 中文読解",
+          "stem": "この文章で筆者が統計に期待している役割は何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "政策の正解を自動的に決めること"
+            },
+            {
+              "id": "B",
+              "text": "問いを具体化し、調べる方向を示す材料になること"
+            },
+            {
+              "id": "C",
+              "text": "すべての個人差を一つの数値で表すこと"
+            },
+            {
+              "id": "D",
+              "text": "現場の話を不要にすること"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "統計は結論そのものではなく、問いを具体化する材料と述べています。",
+          "distractorExplanations": {
+            "A": "自動的に答えを出すものではないと結んでいます。",
+            "C": "平均では個別差を説明できないとあります。",
+            "D": "現場の話との照合を求めています。"
+          },
+          "passage": "自治体が公開する統計は、地域全体の傾向を知るのに役立つ。しかし、平均値だけで個々の暮らしを説明できるわけではない。平均所得が上がっていても、特定の年代や地区では下がっているかもしれない。また、数字の定義や調査対象が変われば、前年との単純な比較はできなくなる。数字を政策の根拠にする時は、どの集団の、どの期間のデータかを確認し、現場で聞いた話と食い違う場合にはその理由を調べたい。統計は結論を自動的に出す答えではなく、問いを具体化する材料である。",
+          "skill": "Reading",
+          "explanationVi": "統計は結論そのものではなく、問いを具体化する材料と述べています。"
+        },
+        {
+          "id": "N2_09_M11_04",
+          "typeId": "N2-RD-MED",
+          "category": "Mondai 11: 中文読解",
+          "stem": "この文章から、統計を前年と比較する前に必要な確認は何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "現場の声を除外できるか"
+            },
+            {
+              "id": "B",
+              "text": "平均値が上昇したか"
+            },
+            {
+              "id": "C",
+              "text": "データの定義と対象が同じか"
+            },
+            {
+              "id": "D",
+              "text": "調査結果を政策に採用したか"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "定義や対象が変われば単純比較できないため、先に確認します。",
+          "distractorExplanations": {
+            "A": "現場の話は照合対象です。",
+            "B": "平均が上がったかだけでは比較可能性は分かりません。",
+            "D": "採用後の話ではありません。"
+          },
+          "passage": "自治体が公開する統計は、地域全体の傾向を知るのに役立つ。しかし、平均値だけで個々の暮らしを説明できるわけではない。平均所得が上がっていても、特定の年代や地区では下がっているかもしれない。また、数字の定義や調査対象が変われば、前年との単純な比較はできなくなる。数字を政策の根拠にする時は、どの集団の、どの期間のデータかを確認し、現場で聞いた話と食い違う場合にはその理由を調べたい。統計は結論を自動的に出す答えではなく、問いを具体化する材料である。",
+          "skill": "Reading",
+          "explanationVi": "定義や対象が変われば単純比較できないため、先に確認します。"
+        },
+        {
+          "id": "N2_09_M11_05",
+          "typeId": "N2-RD-MED",
+          "category": "Mondai 11: 中文読解",
+          "stem": "伝統行事の例で、行列の距離を短くしても残せる可能性があるものは何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "行政の決定権"
+            },
+            {
+              "id": "B",
+              "text": "観光客の滞在時間"
+            },
+            {
+              "id": "C",
+              "text": "古い衣装の数"
+            },
+            {
+              "id": "D",
+              "text": "地域の人の交流"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "行列が交流を生んでいたなら、距離を短くしても交流機会は残せるとします。",
+          "distractorExplanations": {
+            "A": "決定権について述べていません。",
+            "B": "観光客の滞在時間は触れられていません。",
+            "C": "衣装の話はありません。"
+          },
+          "passage": "伝統行事を続けるために、昔の形をそのまま守ることだけを目標にすると、担い手が減った時に行事自体が途切れてしまうことがある。大切なのは、何のためにその行為をしてきたのかを確かめることだ。例えば、長い行列が地域の人の交流を生んでいたなら、距離を短くしても交流の機会を残す方法は考えられる。ただし、変更を決める側が「現代化」を理由に一方的に簡略化すれば、当事者の誇りを損なう。残す意味と変更の影響を、担い手とともに確かめる必要がある。",
+          "skill": "Reading",
+          "explanationVi": "行列が交流を生んでいたなら、距離を短くしても交流機会は残せるとします。"
+        },
+        {
+          "id": "N2_09_M11_06",
+          "typeId": "N2-RD-MED",
+          "category": "Mondai 11: 中文読解",
+          "stem": "筆者が、会議で不採用の意見にも理由を返すべきだと考えるのはなぜか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "次の参加につながるため"
+            },
+            {
+              "id": "B",
+              "text": "全意見を採用したように見せるため"
+            },
+            {
+              "id": "C",
+              "text": "会議の時間を短くするため"
+            },
+            {
+              "id": "D",
+              "text": "行政案への反対を減らすため"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "採否の理由を伝えることが次の参加につながると明記されています。",
+          "distractorExplanations": {
+            "B": "採用できない意見があることを認めています。",
+            "C": "時間短縮は述べられていません。",
+            "D": "反対を減らす目的ではありません。"
+          },
+          "passage": "市民参加の会議は、行政が決めた案に賛成か反対かを尋ねる場ではない。課題の見え方は、暮らす場所や働き方によって異なる。会議の冒頭で選択肢を示すと、参加者は既存の枠の中で答えがちになる。まず困っている場面を具体的に聞き、その後で複数の対応を比べるほうが、まだ表に出ていない問題を見つけやすい。意見をすべて採用できなくても、採用しなかった理由を返すことが次の参加につながる。",
+          "skill": "Reading",
+          "explanationVi": "採否の理由を伝えることが次の参加につながると明記されています。"
+        },
+        {
+          "id": "N2_09_M11_07",
+          "typeId": "N2-RD-MED",
+          "category": "Mondai 11: 中文読解",
+          "stem": "平均所得が上がっている時にも筆者が確認を求めるのはなぜか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "平均値は必ず誤っているから"
+            },
+            {
+              "id": "B",
+              "text": "一部の年代や地区では異なる傾向かもしれないから"
+            },
+            {
+              "id": "C",
+              "text": "地域統計は公開されていないから"
+            },
+            {
+              "id": "D",
+              "text": "所得の定義は毎年必ず変わるから"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "全体の平均が上がっても、集団ごとに下がる可能性があるとしています。",
+          "distractorExplanations": {
+            "A": "平均値を否定しているのではありません。",
+            "C": "自治体が公開する統計の話です。",
+            "D": "定義が変われば比較できない場合があるという説明です。"
+          },
+          "passage": "自治体が公開する統計は、地域全体の傾向を知るのに役立つ。しかし、平均値だけで個々の暮らしを説明できるわけではない。平均所得が上がっていても、特定の年代や地区では下がっているかもしれない。また、数字の定義や調査対象が変われば、前年との単純な比較はできなくなる。数字を政策の根拠にする時は、どの集団の、どの期間のデータかを確認し、現場で聞いた話と食い違う場合にはその理由を調べたい。統計は結論を自動的に出す答えではなく、問いを具体化する材料である。",
+          "skill": "Reading",
+          "explanationVi": "全体の平均が上がっても、集団ごとに下がる可能性があるとしています。"
+        },
+        {
+          "id": "N2_09_M11_08",
+          "typeId": "N2-RD-MED",
+          "category": "Mondai 11: 中文読解",
+          "stem": "伝統行事を簡略化する場合、筆者が懸念する結果は何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "行事の費用が増えること"
+            },
+            {
+              "id": "B",
+              "text": "地域の人口が必ず増えること"
+            },
+            {
+              "id": "C",
+              "text": "担い手の誇りが損なわれること"
+            },
+            {
+              "id": "D",
+              "text": "交流が自動的に生まれること"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "変更側が一方的に簡略化すると、当事者の誇りを損なうと述べています。",
+          "distractorExplanations": {
+            "A": "費用への言及はありません。",
+            "B": "人口増加の話はありません。",
+            "D": "交流は行列の意味として残す可能性が述べられています。"
+          },
+          "passage": "伝統行事を続けるために、昔の形をそのまま守ることだけを目標にすると、担い手が減った時に行事自体が途切れてしまうことがある。大切なのは、何のためにその行為をしてきたのかを確かめることだ。例えば、長い行列が地域の人の交流を生んでいたなら、距離を短くしても交流の機会を残す方法は考えられる。ただし、変更を決める側が「現代化」を理由に一方的に簡略化すれば、当事者の誇りを損なう。残す意味と変更の影響を、担い手とともに確かめる必要がある。",
+          "skill": "Reading",
+          "explanationVi": "変更側が一方的に簡略化すると、当事者の誇りを損なうと述べています。"
+        },
+        {
+          "id": "N2_09_M11_09",
+          "typeId": "N2-RD-MED",
+          "category": "Mondai 11: 中文読解",
+          "stem": "筆者が会議の冒頭で選択肢を示すと問題が起きやすいと考えるのはなぜか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "複数の対応を比べられなくなるから"
+            },
+            {
+              "id": "B",
+              "text": "参加者が行政案を知らなくなるから"
+            },
+            {
+              "id": "C",
+              "text": "会議の時間が必ず延びるから"
+            },
+            {
+              "id": "D",
+              "text": "参加者が用意された枠の中だけで答えやすくなるから"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "先に選択肢を示すと既存の枠内で答えがちになり、まだ出ていない課題を見つけにくくなるとしています。",
+          "distractorExplanations": {
+            "A": "複数の対応を比べること自体は後で行うとあります。",
+            "B": "行政案を知らなくなるとは述べていません。",
+            "C": "会議時間への言及はありません。"
+          },
+          "passage": "市民参加の会議は、行政が決めた案に賛成か反対かを尋ねる場ではない。課題の見え方は、暮らす場所や働き方によって異なる。会議の冒頭で選択肢を示すと、参加者は既存の枠の中で答えがちになる。まず困っている場面を具体的に聞き、その後で複数の対応を比べるほうが、まだ表に出ていない問題を見つけやすい。意見をすべて採用できなくても、採用しなかった理由を返すことが次の参加につながる。",
+          "skill": "Reading",
+          "explanationVi": "先に選択肢を示すと既存の枠内で答えがちになり、まだ出ていない課題を見つけにくくなるとしています。"
+        },
+        {
+          "id": "N2_09_M12_01",
+          "typeId": "N2-RD-PAIR",
+          "category": "Mondai 12: 統合理解",
+          "stem": "資料Bの筆者が資料Aの計画について特に求めていることは何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "立地の違う館でも調べ、利用できない人の理由を聞くこと"
+            },
+            {
+              "id": "B",
+              "text": "追加費用をなくして直ちに全館で実施すること"
+            },
+            {
+              "id": "C",
+              "text": "中央館の調査を中止すること"
+            },
+            {
+              "id": "D",
+              "text": "利用者数だけを基準にすること"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "立地の異なる館での調査と、来館できなかった人の理由の聴取を提案しています。",
+          "distractorExplanations": {
+            "B": "追加費用は資料Aが課題としており、無費用の実施は提案していません。",
+            "C": "中央館での試行自体には反対していません。",
+            "D": "利用者数以外も聞くべきとしています。"
+          },
+          "passage": "【資料A】市立図書館は、平日の閉館時刻を一時間遅らせる案を検討している。仕事帰りに利用できるという要望が複数寄せられたためだ。ただし、夜間の職員配置には追加費用がかかる。まず中央館だけで二か月試し、利用者数と利用目的、職員の業務量を調べてから、継続や他館への拡大を決める。\n\n【資料B】私は閉館時刻を遅らせること自体には賛成だが、中央館だけの結果で全ての館を決めるのは心配だ。駅に近い館と住宅地の館では、夜に来る人も目的も違う。試行の後に拡大を検討するなら、少なくとも立地の異なる館でも短期間の調査をしてほしい。利用者数だけでなく、来館できなかった人の理由も聞けば、必要な対策が見つかると思う。",
+          "skill": "Reading",
+          "explanationVi": "立地の異なる館での調査と、来館できなかった人の理由の聴取を提案しています。"
+        },
+        {
+          "id": "N2_09_M12_02",
+          "typeId": "N2-RD-PAIR",
+          "category": "Mondai 12: 統合理解",
+          "stem": "二つの資料が一致している、図書館の開館時間を見直す手順はどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "全ての館で同じ時間に閉館する"
+            },
+            {
+              "id": "B",
+              "text": "試行の結果を見てから拡大などを判断する"
+            },
+            {
+              "id": "C",
+              "text": "利用者の目的は調べなくてよい"
+            },
+            {
+              "id": "D",
+              "text": "職員の負担は無視できる"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Aは試行後に継続・拡大を判断し、Bも追加調査を経て検討する立場です。",
+          "distractorExplanations": {
+            "A": "一律運用は述べていません。",
+            "C": "目的を調べるのは資料Aの計画です。",
+            "D": "職員業務量を調べるとあります。"
+          },
+          "passage": "【資料A】市立図書館は、平日の閉館時刻を一時間遅らせる案を検討している。仕事帰りに利用できるという要望が複数寄せられたためだ。ただし、夜間の職員配置には追加費用がかかる。まず中央館だけで二か月試し、利用者数と利用目的、職員の業務量を調べてから、継続や他館への拡大を決める。\n\n【資料B】私は閉館時刻を遅らせること自体には賛成だが、中央館だけの結果で全ての館を決めるのは心配だ。駅に近い館と住宅地の館では、夜に来る人も目的も違う。試行の後に拡大を検討するなら、少なくとも立地の異なる館でも短期間の調査をしてほしい。利用者数だけでなく、来館できなかった人の理由も聞けば、必要な対策が見つかると思う。",
+          "skill": "Reading",
+          "explanationVi": "Aは試行後に継続・拡大を判断し、Bも追加調査を経て検討する立場です。"
+        },
+        {
+          "id": "N2_09_M13_01",
+          "typeId": "N2-RD-LONG",
+          "category": "Mondai 13: 長文読解",
+          "stem": "筆者が冒頭で述べている、来場者数だけで判断する問題は何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "数字が政策説明に使えないこと"
+            },
+            {
+              "id": "B",
+              "text": "観光客の売上は必ず減ること"
+            },
+            {
+              "id": "C",
+              "text": "来場者が増えても住民の生活改善とは限らないこと"
+            },
+            {
+              "id": "D",
+              "text": "イベントが地域の関係を壊すこと"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "来場者増は暮らしの改善と一致せず、混雑などの負担もあり得ます。",
+          "distractorExplanations": {
+            "A": "数字は予算説明に便利と認めています。",
+            "B": "売上が必ず減るとは述べていません。",
+            "D": "全てのイベントが関係を壊すとは言いません。"
+          },
+          "passage": "地域の「にぎわい」を測る方法として、イベントの来場者数や店の売上がよく使われる。数字は変化を追うのに便利であり、予算を決める際にも説明しやすい。しかし、来場者数が増えたからといって、その地域で暮らす人の生活がよくなったとは限らない。観光客が増えた結果、交通が混み、日常の買い物がしにくくなることもある。反対に、派手な催しがなくても、近所で相談できる相手が増えたことを住民が大きな変化と感じる場合もある。\n\nだからといって、数字を使わず、印象だけで政策を評価すればよいということではない。印象は重要な手がかりだが、声の大きい人の経験が地域全体の状況を代表するとは限らない。さらに、同じ催しでも、子育て中の人、高齢者、店を営む人では受け止め方が異なる。誰にとっての変化を知りたいのかを先に決め、来場者数のような数量と、暮らしへの影響を尋ねる聞き取りの両方を用いる必要がある。\n\n評価の時期にも注意が要る。催しの直後に売上が伸びても、数か月後に客足が戻れば、長期的な効果とは言いにくい。一方、地域の人同士の関係が深まる効果は、短い期間の数字には表れにくい。政策の前後だけを比べるのでなく、季節や周辺地域の変化も見て、別の要因が影響していないかを確かめたい。\n\nこうした評価は、施策を成功か失敗かに分けるためだけに行うのではない。予想と異なる結果が出たなら、誰かを責める前に、どの条件が想定と違ったのかを調べる。小規模な試行の段階で課題を見つけられれば、方法を修正したり、対象を限定したりできる。評価の数字を公表する時には、何を測り、何を測れていないのかも伝えるべきだ。数字を説明の終点にするのではなく、次の問いを立てる出発点として扱うことが、住民の納得と継続的な改善につながる。",
+          "skill": "Reading",
+          "explanationVi": "来場者増は暮らしの改善と一致せず、混雑などの負担もあり得ます。"
+        },
+        {
+          "id": "N2_09_M13_02",
+          "typeId": "N2-RD-LONG",
+          "category": "Mondai 13: 長文読解",
+          "stem": "筆者が数量と聞き取りの両方を求める理由は何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "政策を必ず成功と評価するため"
+            },
+            {
+              "id": "B",
+              "text": "聞き取りは数字より安価だから"
+            },
+            {
+              "id": "C",
+              "text": "全住民が同じ経験をするから"
+            },
+            {
+              "id": "D",
+              "text": "印象だけでも数字だけでも、地域の多様な経験を十分に捉えられないから"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "数量と声を組み合わせ、誰にとっての変化かを把握する必要があります。",
+          "distractorExplanations": {
+            "A": "評価の目的は成功認定だけではありません。",
+            "B": "費用の比較はありません。",
+            "C": "立場による受け止め方の違いが述べられています。"
+          },
+          "passage": "地域の「にぎわい」を測る方法として、イベントの来場者数や店の売上がよく使われる。数字は変化を追うのに便利であり、予算を決める際にも説明しやすい。しかし、来場者数が増えたからといって、その地域で暮らす人の生活がよくなったとは限らない。観光客が増えた結果、交通が混み、日常の買い物がしにくくなることもある。反対に、派手な催しがなくても、近所で相談できる相手が増えたことを住民が大きな変化と感じる場合もある。\n\nだからといって、数字を使わず、印象だけで政策を評価すればよいということではない。印象は重要な手がかりだが、声の大きい人の経験が地域全体の状況を代表するとは限らない。さらに、同じ催しでも、子育て中の人、高齢者、店を営む人では受け止め方が異なる。誰にとっての変化を知りたいのかを先に決め、来場者数のような数量と、暮らしへの影響を尋ねる聞き取りの両方を用いる必要がある。\n\n評価の時期にも注意が要る。催しの直後に売上が伸びても、数か月後に客足が戻れば、長期的な効果とは言いにくい。一方、地域の人同士の関係が深まる効果は、短い期間の数字には表れにくい。政策の前後だけを比べるのでなく、季節や周辺地域の変化も見て、別の要因が影響していないかを確かめたい。\n\nこうした評価は、施策を成功か失敗かに分けるためだけに行うのではない。予想と異なる結果が出たなら、誰かを責める前に、どの条件が想定と違ったのかを調べる。小規模な試行の段階で課題を見つけられれば、方法を修正したり、対象を限定したりできる。評価の数字を公表する時には、何を測り、何を測れていないのかも伝えるべきだ。数字を説明の終点にするのではなく、次の問いを立てる出発点として扱うことが、住民の納得と継続的な改善につながる。",
+          "skill": "Reading",
+          "explanationVi": "数量と声を組み合わせ、誰にとっての変化かを把握する必要があります。"
+        },
+        {
+          "id": "N2_09_M13_03",
+          "typeId": "N2-RD-LONG",
+          "category": "Mondai 13: 長文読解",
+          "stem": "筆者が評価結果を公表するときに求めていることは何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "測定した範囲と測れていない点も説明すること"
+            },
+            {
+              "id": "B",
+              "text": "成功か失敗かを明確に決めること"
+            },
+            {
+              "id": "C",
+              "text": "効果があった数字だけを載せること"
+            },
+            {
+              "id": "D",
+              "text": "予想外の結果の責任者を示すこと"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "何を測り、何を測れていないのかも伝えるべきと明記しています。",
+          "distractorExplanations": {
+            "B": "評価は二分の判定だけが目的ではないと述べています。",
+            "C": "都合のよい数字だけに絞るとはありません。",
+            "D": "まず責任追及をする考えを否定しています。"
+          },
+          "passage": "地域の「にぎわい」を測る方法として、イベントの来場者数や店の売上がよく使われる。数字は変化を追うのに便利であり、予算を決める際にも説明しやすい。しかし、来場者数が増えたからといって、その地域で暮らす人の生活がよくなったとは限らない。観光客が増えた結果、交通が混み、日常の買い物がしにくくなることもある。反対に、派手な催しがなくても、近所で相談できる相手が増えたことを住民が大きな変化と感じる場合もある。\n\nだからといって、数字を使わず、印象だけで政策を評価すればよいということではない。印象は重要な手がかりだが、声の大きい人の経験が地域全体の状況を代表するとは限らない。さらに、同じ催しでも、子育て中の人、高齢者、店を営む人では受け止め方が異なる。誰にとっての変化を知りたいのかを先に決め、来場者数のような数量と、暮らしへの影響を尋ねる聞き取りの両方を用いる必要がある。\n\n評価の時期にも注意が要る。催しの直後に売上が伸びても、数か月後に客足が戻れば、長期的な効果とは言いにくい。一方、地域の人同士の関係が深まる効果は、短い期間の数字には表れにくい。政策の前後だけを比べるのでなく、季節や周辺地域の変化も見て、別の要因が影響していないかを確かめたい。\n\nこうした評価は、施策を成功か失敗かに分けるためだけに行うのではない。予想と異なる結果が出たなら、誰かを責める前に、どの条件が想定と違ったのかを調べる。小規模な試行の段階で課題を見つけられれば、方法を修正したり、対象を限定したりできる。評価の数字を公表する時には、何を測り、何を測れていないのかも伝えるべきだ。数字を説明の終点にするのではなく、次の問いを立てる出発点として扱うことが、住民の納得と継続的な改善につながる。",
+          "skill": "Reading",
+          "explanationVi": "何を測り、何を測れていないのかも伝えるべきと明記しています。"
+        },
+        {
+          "id": "N2_09_M14_01",
+          "typeId": "N2-RD-INFO",
+          "category": "Mondai 14: 情報検索",
+          "stem": "市内の専門学校に通う17歳の人が、木曜講座に申し込むにはどうすればよいか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "9月14日までに申し込み、希望を第三希望まで選び、理由を200字以内で記入する"
+            },
+            {
+              "id": "B",
+              "text": "9月1日から14日までに申し込み、第二希望まで選び、理由を200字以内で書き、初回までにオンライン登録する"
+            },
+            {
+              "id": "C",
+              "text": "9月14日までに申し込み、第二希望まで選び、理由を200字を超えて記入する"
+            },
+            {
+              "id": "D",
+              "text": "初回講座の後で申し込み、第二希望まで選び、理由を200字以内で記入する"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "対象条件を満たすので、期間内に申し込み、第二希望までと200字以内の理由を提出し、初回までにオンライン登録します。",
+          "distractorExplanations": {
+            "A": "第三希望までとは案内されていません。",
+            "C": "理由は200字以内です。",
+            "D": "申込は講座開始前に行います。"
+          },
+          "passage": "【市民文化講座・秋期】\n対象：市内在住・在勤・在学の16歳以上。初回講座までにオンライン登録が必要。\n講座：火曜「地域の歴史を読む」18:30–20:00、木曜「多文化交流の進め方」19:00–20:30、土曜「伝統芸能の記録」10:00–12:00。\n定員：各講座20人。応募多数の場合は初参加者を優先して抽選。\n申込：9月1日から14日まで。希望講座を第二希望まで選び、200字以内で参加理由を記入する。\n費用：無料。ただし土曜講座の会場までの交通費は自己負担。欠席連絡は前日17時までに事務局へ。",
+          "skill": "Reading",
+          "explanationVi": "対象条件を満たすので、期間内に申し込み、第二希望までと200字以内の理由を提出し、初回までにオンライン登録します。"
+        },
+        {
+          "id": "N2_09_M14_02",
+          "typeId": "N2-RD-INFO",
+          "category": "Mondai 14: 情報検索",
+          "stem": "応募者が定員を超えた場合、どのように参加者を決めるか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "申込順に全員を受け入れる"
+            },
+            {
+              "id": "B",
+              "text": "参加理由が最も長い人を選ぶ"
+            },
+            {
+              "id": "C",
+              "text": "初めて参加する人を優先して抽選する"
+            },
+            {
+              "id": "D",
+              "text": "市外在住者を優先する"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "応募多数なら初参加者を優先して抽選します。",
+          "distractorExplanations": {
+            "A": "定員は各20人です。",
+            "B": "文字数の長さで選ぶとはありません。",
+            "D": "市内関係者が対象です。"
+          },
+          "passage": "【市民文化講座・秋期】\n対象：市内在住・在勤・在学の16歳以上。初回講座までにオンライン登録が必要。\n講座：火曜「地域の歴史を読む」18:30–20:00、木曜「多文化交流の進め方」19:00–20:30、土曜「伝統芸能の記録」10:00–12:00。\n定員：各講座20人。応募多数の場合は初参加者を優先して抽選。\n申込：9月1日から14日まで。希望講座を第二希望まで選び、200字以内で参加理由を記入する。\n費用：無料。ただし土曜講座の会場までの交通費は自己負担。欠席連絡は前日17時までに事務局へ。",
+          "skill": "Reading",
+          "explanationVi": "応募多数なら初参加者を優先して抽選します。"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec-2",
+      "sectionName": "Phần 2: Nghe hiểu (Listening Comprehension)",
+      "durationMinutes": 50,
+      "itemCount": 30,
+      "audioStatus": "BROWSER_PLAYBACK_VERIFIED",
+      "audioNoticeVi": "30 tệp đã khớp SHA-256, giải mã và ghi nhận tiến triển phát trên trình duyệt; chưa có chứng nhận chuyên gia về phát âm.",
+      "items": [
+        {
+          "id": "N2_09_M1_L01",
+          "typeId": "N2-LIS-TASK",
+          "category": "Mondai 1: 課題理解",
+          "script": "市役所の地域振興課で、職員と商店街の担当者が空き店舗の活用について話しています。担当者はまず何をしますか。\n\n女：空き店舗で学生の作品展をしたいのですが、来月の祭りに間に合いますか。\n男：会場は使えます。ただ、作品を置く前に、持ち主と展示期間を確認してください。壁に穴を開ける場合は別の許可も要ります。\n女：作品の運搬はこちらで手配します。\n男：では、まず所有者に期間と展示方法を説明して、書面で了解を取ってください。その後、会場の鍵をお渡しします。\n女：分かりました。先に所有者と条件を確認します。",
+          "stem": "担当者はまず何をしますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "所有者に展示期間と方法を説明して許可を得る"
+            },
+            {
+              "id": "B",
+              "text": "作品の運搬業者を決める"
+            },
+            {
+              "id": "C",
+              "text": "会場の壁に展示用の穴を開ける"
+            },
+            {
+              "id": "D",
+              "text": "市役所から鍵を受け取って作品を置く"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "作品運搬や鍵の受け取りより前に、所有者へ条件を説明して許可を取ります。",
+          "distractorExplanations": {
+            "B": "運搬は担当者側で手配するとされ、依頼された最初の作業ではありません。",
+            "C": "壁に穴を開ける場合の追加許可は、所有者への確認とは別の条件です。",
+            "D": "鍵は所有者から書面の了解を得た後に渡すと説明されています。"
+          },
+          "skill": "Listening",
+          "explanationVi": "作品運搬や鍵の受け取りより前に、所有者へ条件を説明して許可を取ります。",
+          "audioUrl": "audio/n2_mock_09/N2_09_M1_L01.mp3",
+          "audioDurationSec": 60.024,
+          "audioSha256": "6265cd8f8ae507d2867e2f5231580679d4207d41d81482a069ac64b5ba9886f0",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M1_L02",
+          "typeId": "N2-LIS-TASK",
+          "category": "Mondai 1: 課題理解",
+          "script": "地域の図書館で、司書と利用者が外国語の資料について話しています。司書はこの後、何をしますか。\n\n男：この町に来たばかりで、生活の手続きが分かる資料を探しています。\n女：英語版はありますが、今はベトナム語版を作っているところです。\n男：いつ頃見られますか。\n女：来週、内容の確認が終われば、入口の相談コーナーに置く予定です。ウェブ掲載はその後になります。\n男：では、来週また来ます。\n女：はい。完成したら、まず相談コーナーに置いておきます。",
+          "stem": "司書はこの後、資料をどうしますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "英語版をすぐにウェブから削除する"
+            },
+            {
+              "id": "B",
+              "text": "確認が済んだ資料を相談コーナーに置く"
+            },
+            {
+              "id": "C",
+              "text": "利用者に翻訳を依頼する"
+            },
+            {
+              "id": "D",
+              "text": "資料を来月まで保管する"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "確認後、まず相談コーナーに置き、ウェブ掲載はその後と説明しています。",
+          "distractorExplanations": {
+            "A": "英語版を削除する話はなく、ベトナム語版は確認後に追加されます。",
+            "C": "翻訳を利用者に頼む指示はなく、資料は司書側で作成中です。",
+            "D": "公開予定は来週の確認後で、来月まで保管するとは言っていません。"
+          },
+          "skill": "Listening",
+          "explanationVi": "確認後、まず相談コーナーに置き、ウェブ掲載はその後と説明しています。",
+          "audioUrl": "audio/n2_mock_09/N2_09_M1_L02.mp3",
+          "audioDurationSec": 52.696,
+          "audioSha256": "0abfee7f701dee17a12a63c559f571001acb7f8a7532c5d17548d561da0c2ab0",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M1_L03",
+          "typeId": "N2-LIS-TASK",
+          "category": "Mondai 1: 課題理解",
+          "script": "町内会の会長と住民が防災訓練について話しています。住民は次に何をしますか。\n\n男：訓練当日は、受付を手伝えばいいですか。\n女：受付も助かりますが、前回は高齢の方への案内が足りませんでした。\n男：私は近所の道をよく知っています。\n女：では、集合場所から避難所までの安全な道を確認して、地図に印を付けてください。受付は別の人に頼みます。\n男：分かりました。まず道を確認します。",
+          "stem": "住民は次に何をしますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "受付の担当者を探す"
+            },
+            {
+              "id": "B",
+              "text": "避難所に備蓄品を運ぶ"
+            },
+            {
+              "id": "C",
+              "text": "避難経路を確認して地図に示す"
+            },
+            {
+              "id": "D",
+              "text": "訓練を中止する連絡をする"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "会長は住民に道の確認と地図への記入を頼んでいます。",
+          "distractorExplanations": {
+            "A": "受付ではなく、地図に安全な避難経路を示す役を頼まれました。",
+            "B": "備蓄品の運搬は会話に出ていません。",
+            "D": "訓練は中止せず、準備作業を進めています。"
+          },
+          "skill": "Listening",
+          "explanationVi": "会長は住民に道の確認と地図への記入を頼んでいます。",
+          "audioUrl": "audio/n2_mock_09/N2_09_M1_L03.mp3",
+          "audioDurationSec": 47.76,
+          "audioSha256": "bd851fc5db108ce3da771cf242c85503746c72ee3a786c9231a363d3ba734462",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M1_L04",
+          "typeId": "N2-LIS-TASK",
+          "category": "Mondai 1: 課題理解",
+          "script": "市の広報担当者と記者が公共施設の利用案内について話しています。担当者は案内文をどう直しますか。\n\n女：新しい施設の予約方法をウェブに載せました。\n男：申込期限は分かりますが、抽選になる場合があることが見つけにくいですね。\n女：注意書きの最後に書いてあります。\n男：最初に目立つ形で知らせたほうが、利用者が誤解しにくいでしょう。\n女：確かに。抽選の可能性を冒頭にも書きます。\n男：予約ページへのリンクはそのままでいいですね。\n女：はい、そこは変更しません。",
+          "stem": "担当者は案内文をどう直しますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "申込期限を削除する"
+            },
+            {
+              "id": "B",
+              "text": "施設の利用を先着順だけにする"
+            },
+            {
+              "id": "C",
+              "text": "予約ページへのリンクを外す"
+            },
+            {
+              "id": "D",
+              "text": "抽選の可能性を冒頭にも明記する"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "期限やリンクは変えず、抽選の可能性を目立つ位置に追加します。",
+          "distractorExplanations": {
+            "A": "申込期限は残し、抽選の注意を追加します。",
+            "B": "抽選の可能性を知らせるだけで、先着順への制度変更はありません。",
+            "C": "予約リンクは変更しないと担当者が確認しています。"
+          },
+          "skill": "Listening",
+          "explanationVi": "期限やリンクは変えず、抽選の可能性を目立つ位置に追加します。",
+          "audioUrl": "audio/n2_mock_09/N2_09_M1_L04.mp3",
+          "audioDurationSec": 52.664,
+          "audioSha256": "a9da80c26b740f3191c35f8833d56e968251c7fe0d8dc291a5301dd5e27b0c65",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M1_L05",
+          "typeId": "N2-LIS-TASK",
+          "category": "Mondai 1: 課題理解",
+          "script": "市民講座の担当者と講師が参加者募集について話しています。講師はまず何をしますか。\n\n男：募集を始める前に、講座の内容を詳しく書いた案内を作りたいです。\n女：内容は決まっていますが、対象を高校生に限るか、一般にも開くか決めていません。\n男：昨年は高校生の質問が多かったですね。\n女：今年は地域の人にも参加してもらいたいので、対象を広げます。案内を作る前に、定員と申込方法を確認してください。\n男：分かりました。事務局に定員を聞きます。",
+          "stem": "講師はまず何をしますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "事務局に定員と申込方法を確認する"
+            },
+            {
+              "id": "B",
+              "text": "講座の内容を変更する"
+            },
+            {
+              "id": "C",
+              "text": "対象を高校生だけに決める"
+            },
+            {
+              "id": "D",
+              "text": "昨年の質問をすべて記録する"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "募集対象を広げる方針のもと、講師は案内作成前に定員と申込方法を確認します。",
+          "distractorExplanations": {
+            "B": "講座内容はすでに決まっており、変更の指示はありません。",
+            "C": "対象は高校生に限らず地域の人にも広げる方針です。",
+            "D": "昨年の質問を集め直すことは、今年の募集準備として頼まれていません。"
+          },
+          "skill": "Listening",
+          "explanationVi": "募集対象を広げる方針のもと、講師は案内作成前に定員と申込方法を確認します。",
+          "audioUrl": "audio/n2_mock_09/N2_09_M1_L05.mp3",
+          "audioDurationSec": 51.48,
+          "audioSha256": "d517f1fa2c17042441a695e59739cc11daf29fb64ed63d00e9bd51b0e9c12672",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M2_L01",
+          "typeId": "N2-LIS-POINT",
+          "category": "Mondai 2: ポイント理解",
+          "script": "市の担当者と商店主が、歩行者天国の実施日について話しています。\n\n女：歩行者天国は、毎月第一日曜にする案でしたね。\n男：はい。ただ、第一日曜は市場の搬入と重なります。\n女：では、第二日曜に移しましょう。開始時間は午前十時のままでいいですか。\n男：ええ。搬入車が通らない時間を確認して、その日で商店会に提案します。",
+          "stem": "歩行者天国はいつ実施する案になりましたか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "毎月第二日曜の午前十時"
+            },
+            {
+              "id": "B",
+              "text": "毎月第一日曜の午前十時"
+            },
+            {
+              "id": "C",
+              "text": "毎月第二土曜の午後"
+            },
+            {
+              "id": "D",
+              "text": "毎月第三日曜の正午"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "市場の搬入を避け、第二日曜に変更します。開始は午前十時のままです。",
+          "distractorExplanations": {
+            "B": "第一日曜は市場の搬入と重なるため、実施日を移します。",
+            "C": "変更するのは日曜日で、土曜日への移動はありません。",
+            "D": "第三日曜や正午にする案は出ていません。"
+          },
+          "skill": "Listening",
+          "explanationVi": "市場の搬入を避け、第二日曜に変更します。開始は午前十時のままです。",
+          "audioUrl": "audio/n2_mock_09/N2_09_M2_L01.mp3",
+          "audioDurationSec": 48.968,
+          "audioSha256": "d21f814071ba4d11db92e119a54f529063067c496f51ff3ccd5442bf92c18edf",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M2_L02",
+          "typeId": "N2-LIS-POINT",
+          "category": "Mondai 2: ポイント理解",
+          "script": "文化施設の館長が、展示室の照明について説明しています。\n\n展示室の照明を新しくするため、今月末から三日間、一階の展示室を閉めます。二階の展示と閲覧室は通常どおり利用できます。作業中も入口の受付は開いています。団体で見学する場合は、前日までに電話で予約してください。",
+          "stem": "工事期間中に利用できるのはどこですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "一階の展示室だけ"
+            },
+            {
+              "id": "B",
+              "text": "二階の展示と閲覧室"
+            },
+            {
+              "id": "C",
+              "text": "一階と二階の展示室"
+            },
+            {
+              "id": "D",
+              "text": "入口の受付だけ"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "閉鎖するのは一階展示室で、二階展示と閲覧室は通常利用できます。",
+          "distractorExplanations": {
+            "A": "一階展示室は工事のため閉鎖されます。",
+            "C": "一階が使えないため、両方の展示室を利用することはできません。",
+            "D": "入口受付は開いていますが、質問は利用できる場所を尋ねています。"
+          },
+          "skill": "Listening",
+          "explanationVi": "閉鎖するのは一階展示室で、二階展示と閲覧室は通常利用できます。",
+          "audioUrl": "audio/n2_mock_09/N2_09_M2_L02.mp3",
+          "audioDurationSec": 41.744,
+          "audioSha256": "5dccaec89e7b316ba0a0d108c34474103006600a14556f3e379d735d09c36abe",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M2_L03",
+          "typeId": "N2-LIS-POINT",
+          "category": "Mondai 2: ポイント理解",
+          "script": "商店街の会議で、イベントの広報方法について話しています。\n\n男：去年はチラシを一万枚配りましたが、どのくらい来たか分かりませんでした。\n女：今年は枚数を減らして、駅と商店街の入口に案内を出しませんか。\n男：それに加えて、来場者に何を見て知ったか簡単に聞けば、次の宣伝に役立ちますね。\n女：そうしましょう。",
+          "stem": "今年、二人は広報の効果をどう確かめますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "チラシを前年より多く配る"
+            },
+            {
+              "id": "B",
+              "text": "駅の案内をやめる"
+            },
+            {
+              "id": "C",
+              "text": "来場者に情報を知った経路を尋ねる"
+            },
+            {
+              "id": "D",
+              "text": "来場者数を予測して記録しない"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "来場者にどこで催しを知ったか尋ねる案で一致しています。",
+          "distractorExplanations": {
+            "A": "今年はチラシ枚数を増やさず、減らす案です。",
+            "B": "駅と商店街入口の案内は続ける方針です。",
+            "D": "来場者数を記録しないのでなく、認知経路を聞いて効果を確かめます。"
+          },
+          "skill": "Listening",
+          "explanationVi": "来場者にどこで催しを知ったか尋ねる案で一致しています。",
+          "audioUrl": "audio/n2_mock_09/N2_09_M2_L03.mp3",
+          "audioDurationSec": 44.648,
+          "audioSha256": "3c3ccb614bcb429866de58243e61974414296498aa515f0a3964f97714778ff3",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M2_L04",
+          "typeId": "N2-LIS-POINT",
+          "category": "Mondai 2: ポイント理解",
+          "script": "町内会の担当者が、祭りのごみ処理について話しています。\n\n女：屋台のごみ箱は、会場の中央にまとめる予定です。\n男：中央だけだと、端の人が遠くて道に置くかもしれません。\n女：では、入口と出口にも置きましょう。回収は終了後に一度ではなく、混雑する時間に見回ります。\n男：分かりました。",
+          "stem": "ごみ箱をどう配置しますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "会場の中央にだけ置く"
+            },
+            {
+              "id": "B",
+              "text": "出口を閉鎖してごみを集める"
+            },
+            {
+              "id": "C",
+              "text": "屋台のそばには置かず、終了後に回収する"
+            },
+            {
+              "id": "D",
+              "text": "入口と出口に置き、混雑時に回収状況を確認する"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "入口・出口にも設置し、混雑時に見回る方針です。",
+          "distractorExplanations": {
+            "A": "中央だけでなく入口と出口にもごみ箱を置きます。",
+            "B": "出口を閉鎖する案は会話にありません。",
+            "C": "屋台のそばを避ける指示はなく、混雑時にも回収状況を見ます。"
+          },
+          "skill": "Listening",
+          "explanationVi": "入口・出口にも設置し、混雑時に見回る方針です。",
+          "audioUrl": "audio/n2_mock_09/N2_09_M2_L04.mp3",
+          "audioDurationSec": 42.224,
+          "audioSha256": "1a6003bbe5215d365709540fa66cb85e07ffa418d557bda39f3c85600c0e9065",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M2_L05",
+          "typeId": "N2-LIS-POINT",
+          "category": "Mondai 2: ポイント理解",
+          "script": "市役所の職員が、多言語の災害情報について説明しています。\n\n災害時の情報は、翻訳文を同時に出すだけでは十分ではありません。専門用語をそのまま訳すと、かえって意味が伝わらない場合があります。市では、まず短い日本語で要点を整理し、その後、地域で使われている言語に翻訳します。内容を確認する時は、翻訳者だけでなく、実際にその言語を使う住民にも読んでもらいます。",
+          "stem": "市が翻訳内容を確認する際に行うことは何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "要点を短い日本語にし、利用者にも確認してもらう"
+            },
+            {
+              "id": "B",
+              "text": "日本語の全文をそのまま翻訳者だけに渡す"
+            },
+            {
+              "id": "C",
+              "text": "災害情報を翻訳せずに出す"
+            },
+            {
+              "id": "D",
+              "text": "専門用語を増やして正確さを高める"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "短い日本語で要点を整理し、翻訳者と実際の利用者の両方で確認します。",
+          "distractorExplanations": {
+            "B": "翻訳者だけでなく、短い日本語で要点をまとめてから確認します。",
+            "C": "翻訳して出す方針で、翻訳を省くとは言っていません。",
+            "D": "専門用語を増やすのでなく、要点を分かりやすく整理します。"
+          },
+          "skill": "Listening",
+          "explanationVi": "短い日本語で要点を整理し、翻訳者と実際の利用者の両方で確認します。",
+          "audioUrl": "audio/n2_mock_09/N2_09_M2_L05.mp3",
+          "audioDurationSec": 49.64,
+          "audioSha256": "1bf80a06fa1932ea6dfd3a5ceecbbfcc91b92c9b5b79c609be3c619c6ded8c7a",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M2_L06",
+          "typeId": "N2-LIS-POINT",
+          "category": "Mondai 2: ポイント理解",
+          "script": "商店街の会長が、空き店舗の展示会の期間について話しています。\n\n男：展示会は一か月続けたいと思います。\n女：参加作家の都合で、全員の作品を一か月置くのは難しいそうです。\n男：では、前半と後半で作品を入れ替えましょう。会場は同じままにできますか。\n女：はい。案内は展示期間を二部に分けて書きます。",
+          "stem": "展示会はどう実施することになりましたか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "会場を二つに分け、全員の作品を一か月展示する"
+            },
+            {
+              "id": "B",
+              "text": "前半と後半で作品を入れ替え、会場は同じにする"
+            },
+            {
+              "id": "C",
+              "text": "展示期間を一週間に短縮する"
+            },
+            {
+              "id": "D",
+              "text": "作家全員の参加を取りやめる"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "作品を二部に分けて入れ替え、同じ会場で続けます。",
+          "distractorExplanations": {
+            "A": "会場を二つに分ける必要はなく、同じ会場を使います。",
+            "C": "期間を一週間に短縮するのでなく、前後半で展示を入れ替えます。",
+            "D": "全作家が不参加になるのでなく、作品の展示時期を分けます。"
+          },
+          "skill": "Listening",
+          "explanationVi": "作品を二部に分けて入れ替え、同じ会場で続けます。",
+          "audioUrl": "audio/n2_mock_09/N2_09_M2_L06.mp3",
+          "audioDurationSec": 45.08,
+          "audioSha256": "70ccac55b03e0cbb273b52ccac62dc13dd77ff4659ebbc823bd4139935675356",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M3_L01",
+          "typeId": "N2-LIS-SUMM",
+          "category": "Mondai 3: 概要理解",
+          "script": "市の広報誌に載せる文章について、編集者が意見を述べています。\n\n近ごろ、地域の情報を短い動画で伝える自治体が増えました。動画は雰囲気を伝えやすい一方で、日時や申込条件を後から探すのが難しいことがあります。だから、動画だけに頼るのではなく、同じ内容を文字でも確認できるようにすることが大切です。見る人の得意な方法に合わせて、複数の伝え方を用意したいと思います。",
+          "stem": "話し手が最も伝えたいことは何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "動画と文字の両方で必要な情報を確認できるようにするべきだ"
+            },
+            {
+              "id": "B",
+              "text": "動画を使った広報をすべて中止するべきだ"
+            },
+            {
+              "id": "C",
+              "text": "自治体の動画は短くすれば十分だ"
+            },
+            {
+              "id": "D",
+              "text": "申込条件を広報誌から削除するべきだ"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "動画の利点を認めつつ、文字でも確認できる複数の伝達方法が必要だと述べています。",
+          "distractorExplanations": {
+            "B": "話し手は動画の雰囲気を伝える利点も認め、併用を提案しています。",
+            "C": "短さだけでなく、日時や条件を文字でも探せることが要点です。",
+            "D": "申込条件は削除でなく、別の形でも確認できるようにします。"
+          },
+          "skill": "Listening",
+          "explanationVi": "動画の利点を認めつつ、文字でも確認できる複数の伝達方法が必要だと述べています。",
+          "audioUrl": "audio/n2_mock_09/N2_09_M3_L01.mp3",
+          "audioDurationSec": 66.508,
+          "audioSha256": "dd0e87c78dd4cb0aee8c0458d6db91ce4ba4061f421e50287187c3c5c6a88e75",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M3_L02",
+          "typeId": "N2-LIS-SUMM",
+          "category": "Mondai 3: 概要理解",
+          "script": "地域の歴史を調べる研究者が、聞き取り調査について話しています。\n\n古い出来事を聞き取る時、話し手の記憶は貴重な資料です。ただし、何十年も前の記憶には、別の時期の経験が混ざることがあります。話を疑うという意味ではありません。写真や新聞など別の資料と照らし合わせ、食い違いがあれば、なぜ違うのかを追加で尋ねることが大切です。証言と記録を比べることで、出来事をより立体的に理解できます。",
+          "stem": "話し手は聞き取りの記録をどう扱うべきだと考えていますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "証言だけを事実として記録する"
+            },
+            {
+              "id": "B",
+              "text": "他の資料とも比べ、違いの背景を確かめる"
+            },
+            {
+              "id": "C",
+              "text": "記憶を疑って調査をやめる"
+            },
+            {
+              "id": "D",
+              "text": "新聞の内容を証言より常に優先する"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "証言を否定するのでなく、他の資料と照合して相違の理由を確かめます。",
+          "distractorExplanations": {
+            "A": "証言を貴重な資料と評価しており、それだけを唯一の根拠にするとは言いません。",
+            "C": "調査をやめるのではなく、違いがあれば追加で確かめます。",
+            "D": "新聞を常に優先するのでなく、複数資料を照合します。"
+          },
+          "skill": "Listening",
+          "explanationVi": "証言を否定するのでなく、他の資料と照合して相違の理由を確かめます。",
+          "audioUrl": "audio/n2_mock_09/N2_09_M3_L02.mp3",
+          "audioDurationSec": 67.996,
+          "audioSha256": "ac9621d99f3d236acc1295d0506c0525eee86b962ff926479728ddb5ed5cc12f",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M3_L03",
+          "typeId": "N2-LIS-SUMM",
+          "category": "Mondai 3: 概要理解",
+          "script": "商店主が、地域イベントの成果の見方について話しています。\n\n祭りの日の売上が増えると、イベントは成功だと言われます。でも、準備にかかった費用や、通常の営業日に来るお客さんが減っていないかも見ないと、本当に商店のためになったかは分かりません。来場者数だけを目標にせず、店の人と地域の人が何を期待しているのかを先に確認する必要があると思います。",
+          "stem": "話し手はイベントを評価する時、何が必要だと言っていますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "来場者数を毎年同じにすること"
+            },
+            {
+              "id": "B",
+              "text": "準備費用を記録しないこと"
+            },
+            {
+              "id": "C",
+              "text": "売上の数字だけでなく費用や普段の営業への影響も見ること"
+            },
+            {
+              "id": "D",
+              "text": "地域の人の期待を後から推測すること"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "売上だけでなく費用・通常営業への影響を確かめる必要があると述べます。",
+          "distractorExplanations": {
+            "A": "来場者数だけを目標にしないと明言しています。",
+            "B": "費用も見るべきで、記録しないとは言っていません。",
+            "D": "期待を事前に確認する必要があるという主張で、後から推測するのではありません。"
+          },
+          "skill": "Listening",
+          "explanationVi": "売上だけでなく費用・通常営業への影響を確かめる必要があると述べます。",
+          "audioUrl": "audio/n2_mock_09/N2_09_M3_L03.mp3",
+          "audioDurationSec": 63.244,
+          "audioSha256": "cec6b33326f131a3f66a466ce3697caca1e8ef2b502283e06831056c60cb8d22",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M3_L04",
+          "typeId": "N2-LIS-SUMM",
+          "category": "Mondai 3: 概要理解",
+          "script": "大学の講師が、地域の方言を記録する活動について説明しています。\n\n方言を記録する時、珍しい言葉だけを集めればよいわけではありません。どんな相手に、どの場面で使うかが分からなければ、言葉の働きが見えなくなります。若い人が使わなくなった表現も、年配の人が使う状況を記録し、世代による違いを比べたいのです。言葉を保存するだけでなく、生活との関係を残すことが目的です。",
+          "stem": "この活動の目的は何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "珍しい単語の一覧を作ること"
+            },
+            {
+              "id": "B",
+              "text": "方言を日常会話からなくすこと"
+            },
+            {
+              "id": "C",
+              "text": "若い人に昔の表現だけを使わせること"
+            },
+            {
+              "id": "D",
+              "text": "使われる場面や世代差も含めて記録すること"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "語彙だけでなく、使用場面と世代による違いを含めて生活との関係を記録します。",
+          "distractorExplanations": {
+            "A": "珍しい単語だけでは使用状況が分からないと説明しています。",
+            "B": "方言をなくすのでなく、生活の中でどう使うか記録します。",
+            "C": "若い人に特定表現の使用を義務づける話ではありません。"
+          },
+          "skill": "Listening",
+          "explanationVi": "語彙だけでなく、使用場面と世代による違いを含めて生活との関係を記録します。",
+          "audioUrl": "audio/n2_mock_09/N2_09_M3_L04.mp3",
+          "audioDurationSec": 63.316,
+          "audioSha256": "582964418c4c20390869c5b05928f9ccb7116e1ea5bb5e25ea4afa68ba859c3c",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M3_L05",
+          "typeId": "N2-LIS-SUMM",
+          "category": "Mondai 3: 概要理解",
+          "script": "市議会の委員が、公共施設の利用者調査について話しています。\n\nアンケートで満足度を尋ねるのは大切ですが、それだけで施設の価値を決めるのは難しいでしょう。利用する人は答えられても、交通が不便で来られない人や、施設の存在を知らない人は回答しにくいからです。来館者の意見と合わせて、利用していない人にも届く方法で理由を聞く必要があります。",
+          "stem": "委員が特に問題だと考えているのは何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "利用していない人の意見が調査から抜けやすいこと"
+            },
+            {
+              "id": "B",
+              "text": "満足度アンケートの質問数が多いこと"
+            },
+            {
+              "id": "C",
+              "text": "公共施設が無料であること"
+            },
+            {
+              "id": "D",
+              "text": "来館者の意見を聞きすぎること"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "来館しない人は回答しにくく、調査から抜ける可能性を指摘しています。",
+          "distractorExplanations": {
+            "B": "質問数や長さでなく、利用しない人が調査から抜ける点が問題です。",
+            "C": "施設の無料利用については述べていません。",
+            "D": "来館者の意見を集めること自体に反対していません。"
+          },
+          "skill": "Listening",
+          "explanationVi": "来館しない人は回答しにくく、調査から抜ける可能性を指摘しています。",
+          "audioUrl": "audio/n2_mock_09/N2_09_M3_L05.mp3",
+          "audioDurationSec": 59.572,
+          "audioSha256": "752e9ff1b041af7975b4c1a09a75cdf9f00548ae74e1096c30cbbf01f640e2dc",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M4_L01",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "男：この資料、専門用語が多くて初めて読む人には難しそうですね。",
+          "stem": "この資料、専門用語が多くて初めて読む人には難しそうですね。",
+          "options": [
+            {
+              "id": "A",
+              "text": "では、説明を短い言葉に直してみましょう。"
+            },
+            {
+              "id": "B",
+              "text": "資料室は駅の向かいです。"
+            },
+            {
+              "id": "C",
+              "text": "はい、専門家は今朝帰りました。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "分かりにくさの指摘に、表現を平易に直す提案が合います。",
+          "distractorExplanations": {
+            "B": "駅の場所の案内で、資料の難しさへの対応にはなりません。",
+            "C": "講師の帰宅時刻は、専門語が多いという指摘と無関係です。"
+          },
+          "skill": "Listening",
+          "explanationVi": "分かりにくさの指摘に、表現を平易に直す提案が合います。",
+          "audioUrl": "audio/n2_mock_09/N2_09_M4_L01.mp3",
+          "audioDurationSec": 26.788,
+          "audioSha256": "7884c1d97e15448acc20b930113d5920ad7163bc5e8bfb70719d9169af3f5c17",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M4_L02",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "女：会場の入口が少し分かりにくかったという声がありました。",
+          "stem": "会場の入口が少し分かりにくかったという声がありました。",
+          "options": [
+            {
+              "id": "A",
+              "text": "入口で昨日の新聞を読みました。"
+            },
+            {
+              "id": "B",
+              "text": "それなら、案内表示を増やしてみませんか。"
+            },
+            {
+              "id": "C",
+              "text": "はい、会場は三年前にできました。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "案内の分かりにくさには表示改善の提案が自然です。",
+          "distractorExplanations": {
+            "A": "新聞を読む場所の話で、会場の案内表示の改善に答えていません。",
+            "C": "施設ができた時期を伝えるだけでは、入口の分かりにくさを解決しません。"
+          },
+          "skill": "Listening",
+          "explanationVi": "案内の分かりにくさには表示改善の提案が自然です。",
+          "audioUrl": "audio/n2_mock_09/N2_09_M4_L02.mp3",
+          "audioDurationSec": 26.308,
+          "audioSha256": "2817476cf09787541271f21977115f12a7deca400d229351fa638fb60802cd95",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M4_L03",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "男：申し訳ありません、予約した時間に遅れそうです。",
+          "stem": "申し訳ありません、予約した時間に遅れそうです。",
+          "options": [
+            {
+              "id": "A",
+              "text": "はい、時間はいつも同じです。"
+            },
+            {
+              "id": "B",
+              "text": "予約表は先月作りました。"
+            },
+            {
+              "id": "C",
+              "text": "では、到着する時刻が分かったら連絡してください。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "遅刻の連絡に対して、到着時刻の再連絡を求めるのが適切です。",
+          "distractorExplanations": {
+            "A": "一般的な時間の話で、今回の到着連絡には答えていません。",
+            "B": "予約表の作成時期は、遅れる連絡への次の手順を示していません。"
+          },
+          "skill": "Listening",
+          "explanationVi": "遅刻の連絡に対して、到着時刻の再連絡を求めるのが適切です。",
+          "audioUrl": "audio/n2_mock_09/N2_09_M4_L03.mp3",
+          "audioDurationSec": 26.116,
+          "audioSha256": "fde79975b8476898117a7b82e4ed55d37797e81b09b1e4068deb9a3e8a71b745",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M4_L04",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "女：この行事、若い人の参加が少ないですね。",
+          "stem": "この行事、若い人の参加が少ないですね。",
+          "options": [
+            {
+              "id": "A",
+              "text": "参加しやすい役割や時間を考えてみましょう。"
+            },
+            {
+              "id": "B",
+              "text": "若い木は裏庭に植えました。"
+            },
+            {
+              "id": "C",
+              "text": "はい、参加賞は駅で買えます。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "参加者が少ない問題には参加条件を工夫する提案が合います。",
+          "distractorExplanations": {
+            "B": "木の植え場所は、若い人の参加が少ないという相談と関係ありません。",
+            "C": "参加賞の購入場所は、参加を増やす方法への提案になりません。"
+          },
+          "skill": "Listening",
+          "explanationVi": "参加者が少ない問題には参加条件を工夫する提案が合います。",
+          "audioUrl": "audio/n2_mock_09/N2_09_M4_L04.mp3",
+          "audioDurationSec": 24.748,
+          "audioSha256": "36791dcd900d6cce5a4f1914bece05374a1f38e5fc65d44da0412af0e7cfb22c",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M4_L05",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "男：この数字だけで、制度の効果があったと言えるでしょうか。",
+          "stem": "この数字だけで、制度の効果があったと言えるでしょうか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "数字は壁の右に書いてあります。"
+            },
+            {
+              "id": "B",
+              "text": "別の地域や期間の結果とも比べてみましょう。"
+            },
+            {
+              "id": "C",
+              "text": "はい、効果は午後に届きます。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "単一の数値への疑問に、比較材料を増やす提案が自然です。",
+          "distractorExplanations": {
+            "A": "数字の掲示場所を伝えるだけで、評価に使う情報を増やす提案ではありません。",
+            "C": "効果が届くという表現は、根拠の比較に答えていません。"
+          },
+          "skill": "Listening",
+          "explanationVi": "単一の数値への疑問に、比較材料を増やす提案が自然です。",
+          "audioUrl": "audio/n2_mock_09/N2_09_M4_L05.mp3",
+          "audioDurationSec": 25.732,
+          "audioSha256": "ed5bea0dd366a3913dd4c5a05e59f8f5447409114c07e0470c115e4e37442800",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M4_L06",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "女：今日は道路が混んでいるので、集合場所に少し遅れます。",
+          "stem": "今日は道路が混んでいるので、集合場所に少し遅れます。",
+          "options": [
+            {
+              "id": "A",
+              "text": "はい、道は毎日同じです。"
+            },
+            {
+              "id": "B",
+              "text": "集合写真は来週撮ります。"
+            },
+            {
+              "id": "C",
+              "text": "分かりました。着いたら受付に声をかけてください。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "遅れる連絡を受け、到着後の手順を伝える応答です。",
+          "distractorExplanations": {
+            "A": "道の普段の状態ではなく、今日の到着後の案内を求めています。",
+            "B": "写真撮影の予定は、交通事情による遅刻の連絡と無関係です。"
+          },
+          "skill": "Listening",
+          "explanationVi": "遅れる連絡を受け、到着後の手順を伝える応答です。",
+          "audioUrl": "audio/n2_mock_09/N2_09_M4_L06.mp3",
+          "audioDurationSec": 26.548,
+          "audioSha256": "b13af786e7eef8ea9aa26b8d35612da0e9504f3175a0d06a5e2357fe3ef75512",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M4_L07",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "男：反対意見も会議の記録に残したほうがいいですか。",
+          "stem": "反対意見も会議の記録に残したほうがいいですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "はい、理由と一緒に記録しておくとよいでしょう。"
+            },
+            {
+              "id": "B",
+              "text": "記録係は二階の部屋です。"
+            },
+            {
+              "id": "C",
+              "text": "いいえ、会議は来月終わります。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "記録の扱いに関する質問へ、反対意見も理由とともに残す助言です。",
+          "distractorExplanations": {
+            "B": "部屋の場所を案内するだけで、反対意見を記録するかには答えません。",
+            "C": "会議の予定時期では、記録方法への確認に対応できません。"
+          },
+          "skill": "Listening",
+          "explanationVi": "記録の扱いに関する質問へ、反対意見も理由とともに残す助言です。",
+          "audioUrl": "audio/n2_mock_09/N2_09_M4_L07.mp3",
+          "audioDurationSec": 25.54,
+          "audioSha256": "7f29db78c113d39d0771a9824930b527861f915f05ef39e3bd2e057291541258",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M4_L08",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "女：展示の説明文、もう少し短くできませんか。",
+          "stem": "展示の説明文、もう少し短くできませんか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "展示会は午後から始まります。"
+            },
+            {
+              "id": "B",
+              "text": "要点を残して、重複している部分を削りましょう。"
+            },
+            {
+              "id": "C",
+              "text": "はい、短い道を通って帰りました。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "説明文を短くする相談に、重複部分を削る案が合います。",
+          "distractorExplanations": {
+            "A": "展示会の開始時刻は、説明文を短くする相談と関係ありません。",
+            "C": "道順の「短さ」の話で、文の重複を減らす提案ではありません。"
+          },
+          "skill": "Listening",
+          "explanationVi": "説明文を短くする相談に、重複部分を削る案が合います。",
+          "audioUrl": "audio/n2_mock_09/N2_09_M4_L08.mp3",
+          "audioDurationSec": 26.428,
+          "audioSha256": "c92f07892c1b58f8884546c52ad847d2d983465222b141395fdc636906a46642",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M4_L09",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "男：申込方法が変わったことを、まだ知らない人が多いようです。",
+          "stem": "申込方法が変わったことを、まだ知らない人が多いようです。",
+          "options": [
+            {
+              "id": "A",
+              "text": "はい、知らせは先週食べました。"
+            },
+            {
+              "id": "B",
+              "text": "方法は駅前で練習しました。"
+            },
+            {
+              "id": "C",
+              "text": "では、以前申し込んだ人にも改めて知らせましょう。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "変更の周知不足には、対象者へ再通知する提案が適切です。",
+          "distractorExplanations": {
+            "A": "食べるという返答は意味が通らず、変更通知にも答えていません。",
+            "B": "練習場所は周知不足の相談と無関係です。"
+          },
+          "skill": "Listening",
+          "explanationVi": "変更の周知不足には、対象者へ再通知する提案が適切です。",
+          "audioUrl": "audio/n2_mock_09/N2_09_M4_L09.mp3",
+          "audioDurationSec": 27.196,
+          "audioSha256": "453ab44ebb27e1da3d1b84659f7d71f9ce6ba5630bad2683f58e97868bc0e78d",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M4_L10",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "女：さっきの説明だと、誰が費用を負担するのか分かりませんでした。",
+          "stem": "さっきの説明だと、誰が費用を負担するのか分かりませんでした。",
+          "options": [
+            {
+              "id": "A",
+              "text": "失礼しました。負担する人と金額をもう一度説明します。"
+            },
+            {
+              "id": "B",
+              "text": "費用は昨日、道を負担しました。"
+            },
+            {
+              "id": "C",
+              "text": "はい、説明書は青い色です。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "説明不足への指摘を受け、負担者と金額を明確に説明する返答です。",
+          "distractorExplanations": {
+            "B": "費用を道路が負担するという文は、費用負担者を明確にする返答になりません。",
+            "C": "色の情報では、誰がいくら負担するか分かりません。"
+          },
+          "skill": "Listening",
+          "explanationVi": "説明不足への指摘を受け、負担者と金額を明確に説明する返答です。",
+          "audioUrl": "audio/n2_mock_09/N2_09_M4_L10.mp3",
+          "audioDurationSec": 28.66,
+          "audioSha256": "a0d921877f01939bab3e4b045ee32d0c136c681a4bd047652d9955c8edeb2027",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M4_L11",
+          "typeId": "N2-LIS-RESP",
+          "category": "Mondai 4: 即時応答",
+          "script": "男：当日の案内係が一人だけでは足りないかもしれません。",
+          "stem": "当日の案内係が一人だけでは足りないかもしれません。",
+          "options": [
+            {
+              "id": "A",
+              "text": "案内は毎週木曜日に届きます。"
+            },
+            {
+              "id": "B",
+              "text": "そうですね。混みそうな場所にも担当を置きましょう。"
+            },
+            {
+              "id": "C",
+              "text": "はい、一人は数字の一つです。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "人手不足の可能性に対して、混雑場所にも人員を配置する提案です。",
+          "distractorExplanations": {
+            "A": "案内が届く曜日は、当日の人員不足への対応ではありません。",
+            "C": "一人を数字として扱う冗談で、係員配置の提案になりません。"
+          },
+          "skill": "Listening",
+          "explanationVi": "人手不足の可能性に対して、混雑場所にも人員を配置する提案です。",
+          "audioUrl": "audio/n2_mock_09/N2_09_M4_L11.mp3",
+          "audioDurationSec": 27.004,
+          "audioSha256": "8e3ba4297aff1d52a6ef21f055f05e4c9a138568a247c1421bb06ed1b5beeb6a",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M5_L01",
+          "typeId": "N2-LIS-INTEG",
+          "category": "Mondai 5: 統合理解",
+          "script": "地域の図書館で、司書とボランティアが子ども向け行事の運営について話しています。\n\n女：読み聞かせ会は午後二時に始めます。参加は無料ですが、座席の準備があるので、前日までに予約してください。\n男：子どもが途中で帰っても大丈夫ですか。\n女：もちろんです。保護者は入口で名前だけ記入してください。写真撮影は、他の参加者が写らない場合に限ります。\n男：分かりました。案内には途中退出と撮影の条件も書きます。",
+          "stem": "ボランティアは案内に何を追加しますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "途中退出と撮影の条件"
+            },
+            {
+              "id": "B",
+              "text": "参加費と開始時刻だけ"
+            },
+            {
+              "id": "C",
+              "text": "予約不要であること"
+            },
+            {
+              "id": "D",
+              "text": "保護者の住所を記入すること"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "話し手は途中退出可能と、他の参加者が写らない場合に限り撮影できると確認しています。",
+          "distractorExplanations": {
+            "B": "開始時刻と費用は説明済みですが、案内に加える内容を尋ねています。",
+            "C": "予約は前日までに必要で、不要とは言っていません。",
+            "D": "保護者は名前を記入し、住所の記入とはされていません。"
+          },
+          "skill": "Listening",
+          "explanationVi": "話し手は途中退出可能と、他の参加者が写らない場合に限り撮影できると確認しています。",
+          "audioUrl": "audio/n2_mock_09/N2_09_M5_L01.mp3",
+          "audioDurationSec": 52.388,
+          "audioSha256": "05928d85608bbf8e402ae493019b0d7bfacc291dc4ca58fc9c43b3ac3293622d",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M5_L02",
+          "typeId": "N2-LIS-INTEG",
+          "category": "Mondai 5: 統合理解",
+          "script": "市の職員と地域の代表が、住民説明会の開催方法について話しています。\n\n男：説明会は平日の午後六時に一度だけ開く予定です。\n女：その時間は仕事で来られない人が多いと思います。内容を録画して後日見られるようにできませんか。\n男：録画はできますが、質問への回答はその場だけになります。\n女：では、後から質問を送れる期間も設けてください。回答はまとめて公開すれば、当日来られない人にも伝わります。\n男：分かりました。開催後一週間、質問を受け付けます。",
+          "stem": "説明会の後、市は何をすることになりましたか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "録画を削除する"
+            },
+            {
+              "id": "B",
+              "text": "質問を一週間受け付け、回答をまとめて公開する"
+            },
+            {
+              "id": "C",
+              "text": "説明会を毎日開催する"
+            },
+            {
+              "id": "D",
+              "text": "参加者だけに個別の回答をする"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "録画に加えて、開催後一週間質問を受け付け、回答をまとめて公開します。",
+          "distractorExplanations": {
+            "A": "録画は残すことになり、削除する案ではありません。",
+            "C": "毎日開催するのではなく、開催後の質問期間を設けます。",
+            "D": "回答は個別でなく、まとめて公開する方針です。"
+          },
+          "skill": "Listening",
+          "explanationVi": "録画に加えて、開催後一週間質問を受け付け、回答をまとめて公開します。",
+          "audioUrl": "audio/n2_mock_09/N2_09_M5_L02.mp3",
+          "audioDurationSec": 55.932,
+          "audioSha256": "225ddd42855903b52e5feebac12a52fdd82f355fb512f40062636fed5eab2277",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_09_M5_L03",
+          "typeId": "N2-LIS-INTEG",
+          "category": "Mondai 5: 統合理解",
+          "script": "商店街で、学生と店主が地域商品の紹介方法について話しています。\n\n女：新しい菓子を売り出すので、店頭に大きなポスターを出したいです。\n男：商品名だけでは、どんな材料を使っているのか分かりません。\n女：地元の果物を使っています。生産者の名前も載せましょうか。\n男：本人に確認した上で、材料の産地と商品の特徴を短く紹介するといいですね。値段はレジの表示を見れば分かります。\n女：では、生産者に掲載の許可を取って説明文を作ります。",
+          "stem": "学生は次に何をしますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "値段を大きく書いたポスターを先に印刷する"
+            },
+            {
+              "id": "B",
+              "text": "果物の生産を自分で始める"
+            },
+            {
+              "id": "C",
+              "text": "生産者に確認して、産地と特徴の説明文を作る"
+            },
+            {
+              "id": "D",
+              "text": "商品を店頭から下げる"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "生産者の許可を得てから、産地と商品の特徴を短く紹介します。",
+          "distractorExplanations": {
+            "A": "価格はレジ表示で分かるため、ポスターに先に大きく載せる依頼ではありません。",
+            "B": "学生は説明文を作りますが、果物を栽培するとは言っていません。",
+            "D": "商品を店頭から下げる話ではなく、紹介方法を整えます。"
+          },
+          "skill": "Listening",
+          "explanationVi": "生産者の許可を得てから、産地と商品の特徴を短く紹介します。",
+          "audioUrl": "audio/n2_mock_09/N2_09_M5_L03.mp3",
+          "audioDurationSec": 51.876,
+          "audioSha256": "3447c09a3b9aa15221f69340eb8274dab99feb50947bff23c13f8d3b64cb95de",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",

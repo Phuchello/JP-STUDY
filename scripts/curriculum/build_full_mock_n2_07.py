@@ -15,6 +15,7 @@ sys.path.insert(0, str(ROOT))
 
 from scripts.curriculum.bank_data.n2_mock_07_data import get_n2_mock_07_sec1_items
 from scripts.curriculum.bank_data.n2_mock_07_listening import get_n2_mock_07_listening_items
+from scripts.curriculum.acoustic_assurance import evaluate_audio_track_assurance
 
 def build_full_mock_07():
     print("=== Compiling JLPT N2 Full Mock #07 ===")
@@ -57,6 +58,17 @@ def build_full_mock_07():
     else:
         print("Audio manifest not found yet, applying default audio paths.")
 
+    receipt_path = ROOT / 'qa/N2_MOCK_07_AUDIO_PLAYBACK_RECEIPT.json'
+    receipt_tracks = {}
+    if receipt_path.exists():
+        with open(receipt_path, 'r', encoding='utf-8') as f:
+            receipt_data = json.load(f)
+        receipt_tracks = {
+            row.get('questionId'): row
+            for row in receipt_data.get('results', [])
+            if isinstance(row, dict) and row.get('questionId')
+        }
+
     for q in sec2_items:
         qid = q['id']
         if qid in audio_manifest:
@@ -64,14 +76,23 @@ def build_full_mock_07():
             q['audioUrl'] = meta['audioUrl']
             q['audioDurationSec'] = meta['audioDurationSec']
             q['audioSha256'] = meta['audioSha256']
-            q['audioVerificationStatus'] = "PLAYBACK_QA_PENDING"
             q['audioSourceType'] = meta['audioSourceType']
             q['speakerVoices'] = meta['speakerVoices']
         else:
             q['audioUrl'] = f"audio/n2_mock_07/{qid}.mp3"
-            q['audioVerificationStatus'] = "PLAYBACK_QA_PENDING"
             q['audioSourceType'] = "NEURAL_TTS_MULTI_VOICE"
             q['speakerVoices'] = ["ja-JP-NanamiNeural", "ja-JP-KeitaNeural"]
+        meta = audio_manifest.get(qid, {})
+        receipt = receipt_tracks.get(qid, {})
+        asset_path = ROOT / 'docs' / q['audioUrl']
+        assurance = evaluate_audio_track_assurance(
+            {"questionId": qid, "audioSha256": meta.get('audioSha256', q.get('audioSha256', ''))},
+            receipt,
+            asset_path,
+        )
+        q['audioVerificationStatus'] = (
+            "BROWSER_PLAYBACK_VERIFIED" if assurance["BROWSER_PLAYBACK_VERIFIED"] else "PLAYBACK_QA_PENDING"
+        )
 
     mock = {
         "examId": "N2-MOCK-07",
@@ -93,8 +114,16 @@ def build_full_mock_07():
                 "sectionName": "Phần 2: Nghe hiểu (Listening Comprehension)",
                 "durationMinutes": 50,
                 "itemCount": len(sec2_items),
-                "audioStatus": "BROWSER_PLAYBACK_VERIFIED",
-                "audioNoticeVi": "30 tệp âm thanh MP3 đã được kiểm tra hash và phát tiến trình thực tế trên trình duyệt máy tính và di động.",
+                "audioStatus": (
+                    "BROWSER_PLAYBACK_VERIFIED"
+                    if sec2_items and all(q.get("audioVerificationStatus") == "BROWSER_PLAYBACK_VERIFIED" for q in sec2_items)
+                    else "PLAYBACK_QA_PENDING"
+                ),
+                "audioNoticeVi": (
+                    "30 tệp đã khớp SHA-256, giải mã và ghi nhận tiến triển phát trên trình duyệt máy tính và di động; chưa có chứng nhận chuyên gia về phát âm."
+                    if sec2_items and all(q.get("audioVerificationStatus") == "BROWSER_PLAYBACK_VERIFIED" for q in sec2_items)
+                    else "Một số tệp chưa có đủ bằng chứng hash và phát thực tế trên trình duyệt."
+                ),
                 "items": sec2_items
             }
         ]

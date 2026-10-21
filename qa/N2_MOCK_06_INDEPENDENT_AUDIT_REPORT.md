@@ -1,14 +1,14 @@
 # JLPT N2 FULL MOCK #06 — CONTENT QUALITY & RELEASE AUDIT REPORT
 
-**Audit Date:** 2026-10-21  
-**Exam Target:** N2-MOCK-06 (105 items: 75 Section 1 + 30 Section 2)  
-**Assurance Model:** 5-Level Evidence Framework with Decoupled 8-Field Schema  
-**Technical practice status:** `TECHNICALLY_READY · AI_AUDITED`  
-**Official Certification Status:** `HUMAN_REVIEW_REQUIRED`  
+**Audit Date:** 2026-10-21
+**Exam Target:** N2-MOCK-06 (105 items: 75 Section 1 + 30 Section 2)
+**Assurance Model:** 5-Level Evidence Framework with Decoupled 8-Field Schema
+**Technical practice status:** `TECHNICALLY_READY · AI_AUDITED`
+**Official Certification Status:** `HUMAN_REVIEW_REQUIRED`
 
 > [!IMPORTANT]
 > **Transparency & Provenance Notice:**
-> This examination passed automated structure and scoring checks, version-matched sealed-input AI answer reconciliation, and browser playback checks for all 30 MP3 tracks. The M07 answer-map responses do not include full written justifications, and their execution is not independently attested in portable CI evidence. No native-speaker or human-expert review has been completed; this remains a practice resource, not an official or psychometrically calibrated JLPT form.
+> This examination passed automated structure/scoring checks, version-matched sealed-input AI answer reconciliation, and browser playback checks for all 30 MP3 tracks. AI review is not human or native-speaker certification. Listening items were reviewed from their scripts; browser receipts verify asset integrity and playback progression, not pronunciation quality. This is a practice resource, not an official or psychometrically calibrated JLPT form.
 
 ---
 
@@ -147,4 +147,4 @@
 2. **Acoustic Fidelity:** All 30 listening audio files in `docs/audio/n2_mock_06/` decode with finite positive durations and show actual current-time advancement in desktop and mobile Chromium playback, recorded in `qa/N2_MOCK_06_AUDIO_PLAYBACK_RECEIPT.json`.
 3. **Modality & Security:** Spoken dialogue transcripts and prompt text leaks are completely removed from the test environment during active examination. Mondai 4 enforces the official 3-choice spoken format (`1番`, `2番`, `3番`).
 4. **Interruption & State Management:** Session history is saved in `localStorage`. Standalone Section 2 attempts do not inherit stale Section 1 data; drafts older than 4 hours are invalidated.
-5. **Pedagogical Integrity:** Structurally valid items cannot receive `AI_VERIFIED_PASS` without a matching response in the stored version-bound sealed-input review ledger. Confirmed grammatical defects and distractor ambiguities have been repaired, revision-solved, and audited; human/native-speaker certification remains outstanding.
+5. **Pedagogical Integrity:** Structurally valid items cannot receive `AI_VERIFIED_PASS` without a matching response in the stored version-bound sealed-input review ledger. No unresolved answer-key mismatch or multiple-answer permutation was found in this exam. AI review and item difficulty remain subject to qualified human assessment; human/native-speaker certification remains outstanding.

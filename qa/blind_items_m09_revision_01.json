@@ -1,0 +1,212 @@
+[
+  {
+    "id": "N2_09_M3_02",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-FORM",
+    "category": "Mondai 3: 語形成",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "文化施設の管理を複数の団体で担う【共同（　）】が始まった。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "運送"
+      },
+      {
+        "id": "B",
+        "text": "運転"
+      },
+      {
+        "id": "C",
+        "text": "運用"
+      },
+      {
+        "id": "D",
+        "text": "運営"
+      }
+    ],
+    "contentFingerprint": "9e5eb0561b49873836f8b4dacfa35bdc7dd13b0edf8d7596b0cb16d7c2c03390"
+  },
+  {
+    "id": "N2_09_M7_02",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-GR-FORM",
+    "category": "Mondai 7: 文法形式の判断",
+    "taskInstructions": "次の文の（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+    "stem": "観光客が増える（　）、ごみの量も増加した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "をめぐって"
+      },
+      {
+        "id": "B",
+        "text": "に限って"
+      },
+      {
+        "id": "C",
+        "text": "に伴って"
+      },
+      {
+        "id": "D",
+        "text": "に反して"
+      }
+    ],
+    "contentFingerprint": "688039b1214e18a59e77fb81ecfd4ca515b16c24e8ca176c0b519f7797c91450"
+  },
+  {
+    "id": "N2_09_M8_01",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-GR-STAR",
+    "category": "Mondai 8: 文の組み立て",
+    "taskInstructions": "次の文の ★ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+    "stem": "地域の祭りを次世代に引き継ぐには、（　）（　）★（　）大切だ。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "地域で受け継がれてきた"
+      },
+      {
+        "id": "B",
+        "text": "行事の意味を"
+      },
+      {
+        "id": "C",
+        "text": "子どもたちに伝える"
+      },
+      {
+        "id": "D",
+        "text": "ことが"
+      }
+    ],
+    "contentFingerprint": "c33359a93fdf5f2154ad46fab03bc29315c533303811d3d0aa65acb47078d6e3"
+  },
+  {
+    "id": "N2_09_M8_03",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-GR-STAR",
+    "category": "Mondai 8: 文の組み立て",
+    "taskInstructions": "次の文の ★ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+    "stem": "分析結果を正しく解釈するには、（　）（　）★（　）。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "回答者が"
+      },
+      {
+        "id": "B",
+        "text": "どの質問に答えたかを"
+      },
+      {
+        "id": "C",
+        "text": "調査記録に残す"
+      },
+      {
+        "id": "D",
+        "text": "必要がある"
+      }
+    ],
+    "contentFingerprint": "791056c05d831c5e3fa1e0ae34c674179d3269c34e7e97b2498681a4a1a59133"
+  },
+  {
+    "id": "N2_09_M8_04",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-GR-STAR",
+    "category": "Mondai 8: 文の組み立て",
+    "taskInstructions": "次の文の ★ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+    "stem": "議論の経過を後から検証できるようにするには、（　）（　）★（　）大切だ。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "住民が述べた"
+      },
+      {
+        "id": "B",
+        "text": "反対意見も"
+      },
+      {
+        "id": "C",
+        "text": "議事録に残しておく"
+      },
+      {
+        "id": "D",
+        "text": "ことが"
+      }
+    ],
+    "contentFingerprint": "67d55bd6f4d8651515e05e85b7fb769732193999d1ff94344850a30b639dfb6d"
+  },
+  {
+    "id": "N2_09_M11_06",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-MED",
+    "category": "Mondai 11: 中文読解",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "筆者が、会議で不採用の意見にも理由を返すべきだと考えるのはなぜか。",
+    "contextPassage": "市民参加の会議は、行政が決めた案に賛成か反対かを尋ねる場ではない。課題の見え方は、暮らす場所や働き方によって異なる。会議の冒頭で選択肢を示すと、参加者は既存の枠の中で答えがちになる。まず困っている場面を具体的に聞き、その後で複数の対応を比べるほうが、まだ表に出ていない問題を見つけやすい。意見をすべて採用できなくても、採用しなかった理由を返すことが次の参加につながる。",
+    "options": [
+      {
+        "id": "A",
+        "text": "次の参加につながるため"
+      },
+      {
+        "id": "B",
+        "text": "全意見を採用したように見せるため"
+      },
+      {
+        "id": "C",
+        "text": "会議の時間を短くするため"
+      },
+      {
+        "id": "D",
+        "text": "行政案への反対を減らすため"
+      }
+    ],
+    "contentFingerprint": "c4bf6361d3c1fcb1fa4cee132ac9c27e706fdedaffc134ad14532ea6b6c040bc"
+  },
+  {
+    "id": "N2_09_M14_01",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Reading",
+    "typeId": "N2-RD-INFO",
+    "category": "Mondai 14: 情報検索",
+    "taskInstructions": "次の案内を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+    "stem": "市内の専門学校に通う17歳の人が、木曜講座に申し込むにはどうすればよいか。",
+    "contextPassage": "【市民文化講座・秋期】\n対象：市内在住・在勤・在学の16歳以上。初回講座までにオンライン登録が必要。\n講座：火曜「地域の歴史を読む」18:30–20:00、木曜「多文化交流の進め方」19:00–20:30、土曜「伝統芸能の記録」10:00–12:00。\n定員：各講座20人。応募多数の場合は初参加者を優先して抽選。\n申込：9月1日から14日まで。希望講座を第二希望まで選び、200字以内で参加理由を記入する。\n費用：無料。ただし土曜講座の会場までの交通費は自己負担。欠席連絡は前日17時までに事務局へ。",
+    "options": [
+      {
+        "id": "A",
+        "text": "9月14日までに申し込み、希望を第三希望まで選び、理由を200字以内で記入する"
+      },
+      {
+        "id": "B",
+        "text": "9月1日から14日までに申し込み、第二希望まで選び、理由を200字以内で記入する"
+      },
+      {
+        "id": "C",
+        "text": "9月14日までに申し込み、第二希望まで選び、理由を200字を超えて記入する"
+      },
+      {
+        "id": "D",
+        "text": "初回講座の後で申し込み、第二希望まで選び、理由を200字以内で記入する"
+      }
+    ],
+    "contentFingerprint": "0bd76aef950908467ec2d881bcf83168a700def50903f7d7c0b449a9f14fdaf4"
+  }
+]

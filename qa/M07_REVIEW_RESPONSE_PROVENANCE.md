@@ -21,13 +21,15 @@ Rejected star revision 9 response SHA-256: `54343ccc8e4103933c82f7b92796393d775c
 Rejected star revision 9 sealed-input SHA-256: `017eec6d050e4a09d95ef9725dd0fc34e4ce7ccaf788a200b80853721466d49e`
 Rejected star revision 10 response SHA-256: `6acd585523df57eae9f30cce38a494f7946f18be42bdb8fcc45155c78f3c4379`
 Rejected star revision 10 sealed-input SHA-256: `f230b55f184d4b4d0fe95a9d047bf1d5871d0d2c68758ae09020e9ba1e0972d1`
-Current exam SHA-256: `81248751aeaf578efc85c7649c03b53338cd1afb3f884168bf701a3d5df7bb06`
-Re-reviewed item IDs: `N2_07_M7_01`, `N2_07_M7_06`, `N2_07_M8_01`, `N2_07_M8_02`, `N2_07_M8_03`, `N2_07_M8_04`, `N2_07_M8_05`, `N2_07_M9_04`
+Post-TTS listening response SHA-256: `a967045f0242c8598872920184562c04cd444db1d6b427997582bf43f40158ab`
+Post-TTS listening sealed-input SHA-256: `3961bd4942a52d2e34ce54bd29b6234013d631bfbccc115be0a214d4a0e747d2`
+Current exam SHA-256: `83f5cdb0b372697a38af7e14c4bc81dc85c7af85935d6bf28f85c8c52cf71b36`
+Re-reviewed item IDs: `N2_07_M7_01`, `N2_07_M7_06`, `N2_07_M8_01`, `N2_07_M8_02`, `N2_07_M8_03`, `N2_07_M8_04`, `N2_07_M8_05`, `N2_07_M9_04`, `N2_07_M3_L01`, `N2_07_M3_L02`, `N2_07_M3_L03`, `N2_07_M3_L04`, `N2_07_M3_L05`, `N2_07_M4_L01`, `N2_07_M4_L02`, `N2_07_M4_L03`, `N2_07_M4_L04`, `N2_07_M4_L05`, `N2_07_M4_L06`, `N2_07_M4_L07`, `N2_07_M4_L08`, `N2_07_M4_L09`, `N2_07_M4_L10`, `N2_07_M4_L11`
 
 | Normalized response | Count | SHA-256 |
 |---|---:|---|
 | `review_answers_m07_s1_p1.json` | 38 | `33ea6530bf072ed49ee86f7190efaa5a0c244b7e573bd21ecefeb6700c6b0734` |
 | `review_answers_m07_s1_p2.json` | 37 | `bf12d5558ac4a1c3b129d98630eabdbaea5a901ae254b7a1e15306d731dd118c` |
-| `review_answers_m07_s2.json` | 30 | `419c06030860b776723a7ec49ad74f65c753dc26f0f882b5089c428a33c98426` |
+| `review_answers_m07_s2.json` | 30 | `3edcb49285f5e20a57433b81998ddee6914abfb3139a3e870275e4c9cdb67673` |
 
 The first blind reviewer noted that `N2_07_M5_L01` and `N2_07_M5_L02` require inference from the stated constraints rather than an explicit final-choice sentence. Their answer remains unique under the dialogue's criteria; this design nuance is retained in the raw response and should be visible in any human content review.

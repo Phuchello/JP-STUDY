@@ -261,11 +261,11 @@ async function runDeepAudioVerification() {
   console.log(`\nWrote Playback Receipt to: ${RECEIPT_OUT}`);
 
   // 6. Build Markdown Report
-  let md = `# JLPT N2 Mock Exam #04 — Deep Audio Playback & Decoding Verification Report\n\n`;
-  md += `**Execution Timestamp:** ${receipt.verifiedAt}\n`;
+  let md = `# JLPT N2 Mock Exam #07 — Deep Audio Playback & Decoding Verification Report\n\n`;
+  md += `**Execution Timestamp:** ${receipt.generatedAt}\n`;
   md += `**Environment:** Chromium Browser Engine (Desktop & Mobile 390px emulation)\n`;
   md += `**Scope:** All 30 Listening Tracks (${trackKeys[0]} to ${trackKeys[trackKeys.length - 1]})\n`;
-  md += `**Overall Result:** ${receipt.allPassed ? '✅ 100% PASS (BROWSER_PLAYBACK_VERIFIED)' : '❌ FAIL'}\n\n`;
+  md += `**Overall Result:** ${receipt.overallPlaybackVerified ? '✅ 100% PASS (BROWSER_PLAYBACK_VERIFIED)' : '❌ FAIL'}\n\n`;
 
   md += `## Tier Breakdown\n\n`;
   const tiers = {};

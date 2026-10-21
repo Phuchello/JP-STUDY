@@ -1,0 +1,1031 @@
+[
+  {
+    "id": "N2_09_M7_07",
+    "blindAnswer": "D",
+    "remappedBlindAnswer": "D",
+    "originalReviewerSelection": "D",
+    "selectedOptionText": "に先立って",
+    "linguisticJustification": "制度変更に先立って利用者に説明する、という順序。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Reviewer asked about the A-D option-label mapping. The sealed M09 prompt asks for one choice, the web UI displays the same A-D identifiers, and final answers were mapped by exact option text."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "bccf6ce4c9c2ec15759b06ba468b691b5102968d3d099e49af6c4cb7b72e4b4a",
+    "reviewFingerprint": "bccf6ce4c9c2ec15759b06ba468b691b5102968d3d099e49af6c4cb7b72e4b4a",
+    "sourceInputFingerprint": "bccf6ce4c9c2ec15759b06ba468b691b5102968d3d099e49af6c4cb7b72e4b4a",
+    "computedSourceInputFingerprint": "bccf6ce4c9c2ec15759b06ba468b691b5102968d3d099e49af6c4cb7b72e4b4a",
+    "sourceInputFile": "blind_items_m09_v1_s1_p2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification"
+    ]
+  },
+  {
+    "id": "N2_09_M7_08",
+    "blindAnswer": "A",
+    "remappedBlindAnswer": "A",
+    "originalReviewerSelection": "A",
+    "selectedOptionText": "一方で",
+    "linguisticJustification": "便利さを優先する一方で、支援が必要な人には不利益もあるという対比。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Reviewer asked about the A-D option-label mapping. The sealed M09 prompt asks for one choice, the web UI displays the same A-D identifiers, and final answers were mapped by exact option text."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "c0d1d3b76eded42ef793fb09f323f27941e83650044f4ab47e611d9d6d71149b",
+    "reviewFingerprint": "c0d1d3b76eded42ef793fb09f323f27941e83650044f4ab47e611d9d6d71149b",
+    "sourceInputFingerprint": "c0d1d3b76eded42ef793fb09f323f27941e83650044f4ab47e611d9d6d71149b",
+    "computedSourceInputFingerprint": "c0d1d3b76eded42ef793fb09f323f27941e83650044f4ab47e611d9d6d71149b",
+    "sourceInputFile": "blind_items_m09_v1_s1_p2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification"
+    ]
+  },
+  {
+    "id": "N2_09_M7_09",
+    "blindAnswer": "B",
+    "remappedBlindAnswer": "B",
+    "originalReviewerSelection": "B",
+    "selectedOptionText": "ように",
+    "linguisticJustification": "参加しやすいように会場や時間を見直した、という目的。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Reviewer asked about the A-D option-label mapping. The sealed M09 prompt asks for one choice, the web UI displays the same A-D identifiers, and final answers were mapped by exact option text."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "2c829c662864a2dc0b8702cdf81e68aefb926519479d4bbb0ef5d895bdf3a1ac",
+    "reviewFingerprint": "2c829c662864a2dc0b8702cdf81e68aefb926519479d4bbb0ef5d895bdf3a1ac",
+    "sourceInputFingerprint": "2c829c662864a2dc0b8702cdf81e68aefb926519479d4bbb0ef5d895bdf3a1ac",
+    "computedSourceInputFingerprint": "2c829c662864a2dc0b8702cdf81e68aefb926519479d4bbb0ef5d895bdf3a1ac",
+    "sourceInputFile": "blind_items_m09_v1_s1_p2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification"
+    ]
+  },
+  {
+    "id": "N2_09_M7_10",
+    "blindAnswer": "C",
+    "remappedBlindAnswer": "C",
+    "originalReviewerSelection": "C",
+    "selectedOptionText": "ことには",
+    "linguisticJustification": "「説明しないことには合意を得るのは難しい」は必要条件を表す。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Reviewer asked about the A-D option-label mapping. The sealed M09 prompt asks for one choice, the web UI displays the same A-D identifiers, and final answers were mapped by exact option text."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "a824f42919065b168d6b11c1c464effdc589428496c985a899a8b2c6c6712617",
+    "reviewFingerprint": "a824f42919065b168d6b11c1c464effdc589428496c985a899a8b2c6c6712617",
+    "sourceInputFingerprint": "a824f42919065b168d6b11c1c464effdc589428496c985a899a8b2c6c6712617",
+    "computedSourceInputFingerprint": "a824f42919065b168d6b11c1c464effdc589428496c985a899a8b2c6c6712617",
+    "sourceInputFile": "blind_items_m09_v1_s1_p2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification"
+    ]
+  },
+  {
+    "id": "N2_09_M7_11",
+    "blindAnswer": "D",
+    "remappedBlindAnswer": "D",
+    "originalReviewerSelection": "D",
+    "selectedOptionText": "ことから",
+    "linguisticJustification": "反対意見が出たことから議論を続けた、という原因・理由。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Reviewer asked about the A-D option-label mapping. The sealed M09 prompt asks for one choice, the web UI displays the same A-D identifiers, and final answers were mapped by exact option text."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "77783ef36d88358542a532fb245002e1f256b772e525ddb82bb965290e990ff5",
+    "reviewFingerprint": "77783ef36d88358542a532fb245002e1f256b772e525ddb82bb965290e990ff5",
+    "sourceInputFingerprint": "77783ef36d88358542a532fb245002e1f256b772e525ddb82bb965290e990ff5",
+    "computedSourceInputFingerprint": "77783ef36d88358542a532fb245002e1f256b772e525ddb82bb965290e990ff5",
+    "sourceInputFile": "blind_items_m09_v1_s1_p2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification"
+    ]
+  },
+  {
+    "id": "N2_09_M7_12",
+    "blindAnswer": "A",
+    "remappedBlindAnswer": "A",
+    "originalReviewerSelection": "A",
+    "selectedOptionText": "からといって",
+    "linguisticJustification": "出席したからといって理解できたとは限らない、という譲歩・否定。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Reviewer asked about the A-D option-label mapping. The sealed M09 prompt asks for one choice, the web UI displays the same A-D identifiers, and final answers were mapped by exact option text."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "20b9b033bbacf335cfb69444b401ee7aeb4c7d6636787d801abab110e5a94fd0",
+    "reviewFingerprint": "20b9b033bbacf335cfb69444b401ee7aeb4c7d6636787d801abab110e5a94fd0",
+    "sourceInputFingerprint": "20b9b033bbacf335cfb69444b401ee7aeb4c7d6636787d801abab110e5a94fd0",
+    "computedSourceInputFingerprint": "20b9b033bbacf335cfb69444b401ee7aeb4c7d6636787d801abab110e5a94fd0",
+    "sourceInputFile": "blind_items_m09_v1_s1_p2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification"
+    ]
+  },
+  {
+    "id": "N2_09_M8_01",
+    "blindAnswer": "C",
+    "remappedBlindAnswer": "C",
+    "originalReviewerSelection": "C",
+    "selectedOptionText": "子どもたちに伝える",
+    "linguisticJustification": "AがBの「行事」を修飾し、BをCが受け、Cの動詞句をDの「こと」が名詞化する A-B-C-D が自然です。★は3番目の C です。",
+    "confidence": 0.98,
+    "concerns": [],
+    "reviewerNotes": [],
+    "nonBlockingReviewNotes": [],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "c33359a93fdf5f2154ad46fab03bc29315c533303811d3d0aa65acb47078d6e3",
+    "reviewFingerprint": "c33359a93fdf5f2154ad46fab03bc29315c533303811d3d0aa65acb47078d6e3",
+    "sourceInputFingerprint": "c33359a93fdf5f2154ad46fab03bc29315c533303811d3d0aa65acb47078d6e3",
+    "computedSourceInputFingerprint": "c33359a93fdf5f2154ad46fab03bc29315c533303811d3d0aa65acb47078d6e3",
+    "sourceInputFile": "blind_items_m09_revision_01.json",
+    "reviewVersion": "revision_01",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification"
+    ],
+    "permutationAudit": {
+      "permutationCount": 24,
+      "naturalOrMarginalAlternativeChangesStarAnswer": false,
+      "naturalOrMarginalOrders": [
+        "ABCD"
+      ]
+    }
+  },
+  {
+    "id": "N2_09_M8_02",
+    "blindAnswer": "C",
+    "remappedBlindAnswer": "C",
+    "originalReviewerSelection": "C",
+    "selectedOptionText": "確かめる",
+    "linguisticJustification": "結論を急がず背景を確かめる姿勢、の順で文が自然につながる。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Reviewer asked about the A-D option-label mapping. The sealed M09 prompt asks for one choice, the web UI displays the same A-D identifiers, and final answers were mapped by exact option text."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "7d686b34a66aeb35fcee52ef2caf247dfd5ba518f899ae6feba4581b7fd565a8",
+    "reviewFingerprint": "7d686b34a66aeb35fcee52ef2caf247dfd5ba518f899ae6feba4581b7fd565a8",
+    "sourceInputFingerprint": "7d686b34a66aeb35fcee52ef2caf247dfd5ba518f899ae6feba4581b7fd565a8",
+    "computedSourceInputFingerprint": "7d686b34a66aeb35fcee52ef2caf247dfd5ba518f899ae6feba4581b7fd565a8",
+    "sourceInputFile": "blind_items_m09_v1_s1_p2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification"
+    ],
+    "permutationAudit": {
+      "permutationCount": 24,
+      "naturalOrMarginalAlternativeChangesStarAnswer": false,
+      "naturalOrMarginalOrders": [
+        "ABCD"
+      ]
+    }
+  },
+  {
+    "id": "N2_09_M8_03",
+    "blindAnswer": "C",
+    "remappedBlindAnswer": "C",
+    "originalReviewerSelection": "C",
+    "selectedOptionText": "調査記録に残す",
+    "linguisticJustification": "「回答者がどの質問に答えたかを」が記録する内容を示し、Cの動詞句にDの「必要がある」が続きます。★は3番目の C です。",
+    "confidence": 0.96,
+    "concerns": [],
+    "reviewerNotes": [],
+    "nonBlockingReviewNotes": [],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "791056c05d831c5e3fa1e0ae34c674179d3269c34e7e97b2498681a4a1a59133",
+    "reviewFingerprint": "791056c05d831c5e3fa1e0ae34c674179d3269c34e7e97b2498681a4a1a59133",
+    "sourceInputFingerprint": "791056c05d831c5e3fa1e0ae34c674179d3269c34e7e97b2498681a4a1a59133",
+    "computedSourceInputFingerprint": "791056c05d831c5e3fa1e0ae34c674179d3269c34e7e97b2498681a4a1a59133",
+    "sourceInputFile": "blind_items_m09_revision_01.json",
+    "reviewVersion": "revision_01",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification"
+    ],
+    "permutationAudit": {
+      "permutationCount": 24,
+      "naturalOrMarginalAlternativeChangesStarAnswer": false,
+      "naturalOrMarginalOrders": [
+        "ABCD",
+        "BACD"
+      ]
+    }
+  },
+  {
+    "id": "N2_09_M8_04",
+    "blindAnswer": "C",
+    "remappedBlindAnswer": "C",
+    "originalReviewerSelection": "C",
+    "selectedOptionText": "議事録に残しておく",
+    "linguisticJustification": "AがBの「反対意見」を修飾し、その意見をCで記録に残す内容をDの「こと」が名詞化します。★は3番目の C です。",
+    "confidence": 0.98,
+    "concerns": [],
+    "reviewerNotes": [],
+    "nonBlockingReviewNotes": [],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "67d55bd6f4d8651515e05e85b7fb769732193999d1ff94344850a30b639dfb6d",
+    "reviewFingerprint": "67d55bd6f4d8651515e05e85b7fb769732193999d1ff94344850a30b639dfb6d",
+    "sourceInputFingerprint": "67d55bd6f4d8651515e05e85b7fb769732193999d1ff94344850a30b639dfb6d",
+    "computedSourceInputFingerprint": "67d55bd6f4d8651515e05e85b7fb769732193999d1ff94344850a30b639dfb6d",
+    "sourceInputFile": "blind_items_m09_revision_01.json",
+    "reviewVersion": "revision_01",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification"
+    ],
+    "permutationAudit": {
+      "permutationCount": 24,
+      "naturalOrMarginalAlternativeChangesStarAnswer": false,
+      "naturalOrMarginalOrders": [
+        "ABCD"
+      ]
+    }
+  },
+  {
+    "id": "N2_09_M8_05",
+    "blindAnswer": "C",
+    "remappedBlindAnswer": "C",
+    "originalReviewerSelection": "C",
+    "selectedOptionText": "比較して",
+    "linguisticJustification": "主張を支える根拠を比較して論点を整理する、の順で自然。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Reviewer asked about the A-D option-label mapping. The sealed M09 prompt asks for one choice, the web UI displays the same A-D identifiers, and final answers were mapped by exact option text."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "1869100b8dac9429851cb64e65fb63d884ed78b01558c31efa209e4ae9797780",
+    "reviewFingerprint": "1869100b8dac9429851cb64e65fb63d884ed78b01558c31efa209e4ae9797780",
+    "sourceInputFingerprint": "1869100b8dac9429851cb64e65fb63d884ed78b01558c31efa209e4ae9797780",
+    "computedSourceInputFingerprint": "1869100b8dac9429851cb64e65fb63d884ed78b01558c31efa209e4ae9797780",
+    "sourceInputFile": "blind_items_m09_v1_s1_p2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification"
+    ],
+    "permutationAudit": {
+      "permutationCount": 24,
+      "naturalOrMarginalAlternativeChangesStarAnswer": false,
+      "naturalOrMarginalOrders": [
+        "ABCD"
+      ]
+    }
+  },
+  {
+    "id": "N2_09_M9_01",
+    "blindAnswer": "B",
+    "remappedBlindAnswer": "B",
+    "originalReviewerSelection": "B",
+    "selectedOptionText": "というわけではない",
+    "linguisticJustification": "専門家の意見だけに頼ればよい、という断定を否定する「というわけではない」が合う。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [],
+    "nonBlockingReviewNotes": [],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "44c62fcff70bdc3bc71760860083fbd9e012b83a0f4d6506357c9373a1b3b5dc",
+    "reviewFingerprint": "44c62fcff70bdc3bc71760860083fbd9e012b83a0f4d6506357c9373a1b3b5dc",
+    "sourceInputFingerprint": "44c62fcff70bdc3bc71760860083fbd9e012b83a0f4d6506357c9373a1b3b5dc",
+    "computedSourceInputFingerprint": "bf1db0ec9974f0193cf613a66642ed54ecce70d451e940767b20b43127298e55",
+    "sourceInputFile": "blind_items_m09_v1_s1_p2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification"
+    ]
+  },
+  {
+    "id": "N2_09_M9_02",
+    "blindAnswer": "C",
+    "remappedBlindAnswer": "C",
+    "originalReviewerSelection": "C",
+    "selectedOptionText": "とは限らない",
+    "linguisticJustification": "「常に正しいとは限らない」が直後の留保説明と一致する。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [],
+    "nonBlockingReviewNotes": [],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "b211d4708b8603ce232b5dc14bd2b01af6b39fb531ba257df17ff948f994a7b8",
+    "reviewFingerprint": "b211d4708b8603ce232b5dc14bd2b01af6b39fb531ba257df17ff948f994a7b8",
+    "sourceInputFingerprint": "b211d4708b8603ce232b5dc14bd2b01af6b39fb531ba257df17ff948f994a7b8",
+    "computedSourceInputFingerprint": "369e92b5e8b21170fa4a9f60ef29ecb6471ba38bde4dea4e6cac50f5cb3e54e2",
+    "sourceInputFile": "blind_items_m09_v1_s1_p2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification"
+    ]
+  },
+  {
+    "id": "N2_09_M9_03",
+    "blindAnswer": "D",
+    "remappedBlindAnswer": "D",
+    "originalReviewerSelection": "D",
+    "selectedOptionText": "照らし合わせて",
+    "linguisticJustification": "データと現場の声を照らし合わせて検討する、という意味。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [],
+    "nonBlockingReviewNotes": [],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "a8dafa2430483c0ab08f5ac0ae14b9e74f7b3999810420ff6a9761754338cd78",
+    "reviewFingerprint": "a8dafa2430483c0ab08f5ac0ae14b9e74f7b3999810420ff6a9761754338cd78",
+    "sourceInputFingerprint": "a8dafa2430483c0ab08f5ac0ae14b9e74f7b3999810420ff6a9761754338cd78",
+    "computedSourceInputFingerprint": "a3faf4721004de1eb80b9aabff00d73688d7716737d641b6edf66f6a38fb6319",
+    "sourceInputFile": "blind_items_m09_v1_s1_p2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification"
+    ]
+  },
+  {
+    "id": "N2_09_M9_04",
+    "blindAnswer": "A",
+    "remappedBlindAnswer": "A",
+    "originalReviewerSelection": "A",
+    "selectedOptionText": "ことなく",
+    "linguisticJustification": "結論を急ぐことなく試行を行う、という提案のつなぎ方が自然。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [],
+    "nonBlockingReviewNotes": [],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "3fb2535edcb89b92180b20d77227e6693b52ae90ad48dbac2049cb0fabedf9a3",
+    "reviewFingerprint": "3fb2535edcb89b92180b20d77227e6693b52ae90ad48dbac2049cb0fabedf9a3",
+    "sourceInputFingerprint": "3fb2535edcb89b92180b20d77227e6693b52ae90ad48dbac2049cb0fabedf9a3",
+    "computedSourceInputFingerprint": "2fb398cd6ad34c43a42973241ddbf54280238e71545f4decfa890d9fc8b8191c",
+    "sourceInputFile": "blind_items_m09_v1_s1_p2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification"
+    ]
+  },
+  {
+    "id": "N2_09_M9_05",
+    "blindAnswer": "B",
+    "remappedBlindAnswer": "B",
+    "originalReviewerSelection": "B",
+    "selectedOptionText": "下す",
+    "linguisticJustification": "「決定を下す」が自然な連語。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [],
+    "nonBlockingReviewNotes": [],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "a76ee9888de76cdddf883c17c5d26173fcd940e6713f3fe4360747715b3f9d4e",
+    "reviewFingerprint": "a76ee9888de76cdddf883c17c5d26173fcd940e6713f3fe4360747715b3f9d4e",
+    "sourceInputFingerprint": "a76ee9888de76cdddf883c17c5d26173fcd940e6713f3fe4360747715b3f9d4e",
+    "computedSourceInputFingerprint": "fb8254ab97d42cff0c743f4edd78b3d30019fbeb55b4575a063d17e481488711",
+    "sourceInputFile": "blind_items_m09_v1_s1_p2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification"
+    ]
+  },
+  {
+    "id": "N2_09_M10_01",
+    "blindAnswer": "C",
+    "remappedBlindAnswer": "C",
+    "originalReviewerSelection": "C",
+    "selectedOptionText": "職員を増やす費用と利用状況を確かめるため",
+    "linguisticJustification": "試行で職員増員の費用と来館状況・利用目的を確認するため。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Reviewer asked about the A-D option-label mapping. The sealed M09 prompt asks for one choice, the web UI displays the same A-D identifiers, and final answers were mapped by exact option text."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "d4661380be240c31b6e8d52d697935dae84b8339a5c167efcbf6a5b7dba56f4b",
+    "reviewFingerprint": "d4661380be240c31b6e8d52d697935dae84b8339a5c167efcbf6a5b7dba56f4b",
+    "sourceInputFingerprint": "d4661380be240c31b6e8d52d697935dae84b8339a5c167efcbf6a5b7dba56f4b",
+    "computedSourceInputFingerprint": "27f9373ef008f90d5307891663009a9c244ccf333ede2b3ce0c449283c50e131",
+    "sourceInputFile": "blind_items_m09_v1_s1_p2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification"
+    ]
+  },
+  {
+    "id": "N2_09_M10_02",
+    "blindAnswer": "D",
+    "remappedBlindAnswer": "D",
+    "originalReviewerSelection": "D",
+    "selectedOptionText": "場所を示す案内を分かりやすくすること",
+    "linguisticJustification": "次回は展示数より案内図や共通表示を整えるとある。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Reviewer asked about the A-D option-label mapping. The sealed M09 prompt asks for one choice, the web UI displays the same A-D identifiers, and final answers were mapped by exact option text."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "b41cd8957d5963eab457066e1ecfaae924b5b3476b4513ba72c553b5600af482",
+    "reviewFingerprint": "b41cd8957d5963eab457066e1ecfaae924b5b3476b4513ba72c553b5600af482",
+    "sourceInputFingerprint": "b41cd8957d5963eab457066e1ecfaae924b5b3476b4513ba72c553b5600af482",
+    "computedSourceInputFingerprint": "04964bc00b33a9e86760093ecf8e0299f92fcc7c96922d4e551ffb2e78df2244",
+    "sourceInputFile": "blind_items_m09_v1_s1_p2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification"
+    ]
+  },
+  {
+    "id": "N2_09_M10_03",
+    "blindAnswer": "A",
+    "remappedBlindAnswer": "A",
+    "originalReviewerSelection": "A",
+    "selectedOptionText": "時間がない人でも参加できる短い役割",
+    "linguisticJustification": "短時間でも参加できる役割を用意すると明記されている。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Reviewer asked about the A-D option-label mapping. The sealed M09 prompt asks for one choice, the web UI displays the same A-D identifiers, and final answers were mapped by exact option text."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "19d98be7f1b46f524a2e437a15389435d31392862cb1e584e8eac01f067e4cc0",
+    "reviewFingerprint": "19d98be7f1b46f524a2e437a15389435d31392862cb1e584e8eac01f067e4cc0",
+    "sourceInputFingerprint": "19d98be7f1b46f524a2e437a15389435d31392862cb1e584e8eac01f067e4cc0",
+    "computedSourceInputFingerprint": "9fa0327318ddc044a0a9e61cf3e129055f99ef3ab2b8ab48e8671f7dfb1e281b",
+    "sourceInputFile": "blind_items_m09_v1_s1_p2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification"
+    ]
+  },
+  {
+    "id": "N2_09_M10_04",
+    "blindAnswer": "B",
+    "remappedBlindAnswer": "B",
+    "originalReviewerSelection": "B",
+    "selectedOptionText": "制度の対象者が説明会に来られず、疑問が残るから",
+    "linguisticJustification": "説明会に来なかった世帯の疑問が残っているため。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Reviewer asked about the A-D option-label mapping. The sealed M09 prompt asks for one choice, the web UI displays the same A-D identifiers, and final answers were mapped by exact option text."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "dc5f650d8b0d3888ec540dcb8bbabfd8a5e60a206661c0dfd729fddbd82842b9",
+    "reviewFingerprint": "dc5f650d8b0d3888ec540dcb8bbabfd8a5e60a206661c0dfd729fddbd82842b9",
+    "sourceInputFingerprint": "dc5f650d8b0d3888ec540dcb8bbabfd8a5e60a206661c0dfd729fddbd82842b9",
+    "computedSourceInputFingerprint": "147b30d14df495905aa821e93d120871af5d804c6ee3c15ebac0cc2d13b042ef",
+    "sourceInputFile": "blind_items_m09_v1_s1_p2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification"
+    ]
+  },
+  {
+    "id": "N2_09_M10_05",
+    "blindAnswer": "C",
+    "remappedBlindAnswer": "C",
+    "originalReviewerSelection": "C",
+    "selectedOptionText": "写真についての説明文",
+    "linguisticJustification": "公開しない写真については写真の説明文だけを残す方針。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Reviewer asked about the A-D option-label mapping. The sealed M09 prompt asks for one choice, the web UI displays the same A-D identifiers, and final answers were mapped by exact option text."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "76aedac9e18637614bb5f9dbcbb443d0cd504d172cd3f2b9b3000e3086d2cf19",
+    "reviewFingerprint": "76aedac9e18637614bb5f9dbcbb443d0cd504d172cd3f2b9b3000e3086d2cf19",
+    "sourceInputFingerprint": "76aedac9e18637614bb5f9dbcbb443d0cd504d172cd3f2b9b3000e3086d2cf19",
+    "computedSourceInputFingerprint": "69fa2b695d545bde582ff0c7a7b4189c645a16a98ca6f3b522d4eba22f79f237",
+    "sourceInputFile": "blind_items_m09_v1_s1_p2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification"
+    ]
+  },
+  {
+    "id": "N2_09_M11_01",
+    "blindAnswer": "D",
+    "remappedBlindAnswer": "D",
+    "originalReviewerSelection": "D",
+    "selectedOptionText": "具体的に困っている場面を聞くこと",
+    "linguisticJustification": "選択肢を先に示さず、まず具体的に困っている場面を聞く。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [],
+    "nonBlockingReviewNotes": [],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "1e8e69a07b92e47f0c473a27a82cf3be409907afe6bf84bc81d270fb3eed2e36",
+    "reviewFingerprint": "1e8e69a07b92e47f0c473a27a82cf3be409907afe6bf84bc81d270fb3eed2e36",
+    "sourceInputFingerprint": "1e8e69a07b92e47f0c473a27a82cf3be409907afe6bf84bc81d270fb3eed2e36",
+    "computedSourceInputFingerprint": "91466ac0e2ebcc4c5e7edf12e6119f92c43dbc26632d17adeb5b82941cdafbc1",
+    "sourceInputFile": "blind_items_m09_v1_s1_p2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification"
+    ]
+  },
+  {
+    "id": "N2_09_M11_02",
+    "blindAnswer": "A",
+    "remappedBlindAnswer": "A",
+    "originalReviewerSelection": "A",
+    "selectedOptionText": "行為の意味と変更の影響を担い手と確認すること",
+    "linguisticJustification": "行事の意味と変更の影響を担い手と確かめる点が中心。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [],
+    "nonBlockingReviewNotes": [],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "53a6c0093b4e148f86dfe30d750e322ee16659088e3844eb258219e613a10ac2",
+    "reviewFingerprint": "53a6c0093b4e148f86dfe30d750e322ee16659088e3844eb258219e613a10ac2",
+    "sourceInputFingerprint": "53a6c0093b4e148f86dfe30d750e322ee16659088e3844eb258219e613a10ac2",
+    "computedSourceInputFingerprint": "bd62d9ed98e6938aaafb225f1bf780fee8132d7453a9dd6fffe7f3e64af87a73",
+    "sourceInputFile": "blind_items_m09_v1_s1_p2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification"
+    ]
+  },
+  {
+    "id": "N2_09_M11_03",
+    "blindAnswer": "B",
+    "remappedBlindAnswer": "B",
+    "originalReviewerSelection": "B",
+    "selectedOptionText": "問いを具体化し、調べる方向を示す材料になること",
+    "linguisticJustification": "統計は結論そのものではなく、問いを具体化する材料。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [],
+    "nonBlockingReviewNotes": [],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "334a1103e9ad1a8df110acb55582d46430d384702e0ff827c72bacc63a4c2121",
+    "reviewFingerprint": "334a1103e9ad1a8df110acb55582d46430d384702e0ff827c72bacc63a4c2121",
+    "sourceInputFingerprint": "334a1103e9ad1a8df110acb55582d46430d384702e0ff827c72bacc63a4c2121",
+    "computedSourceInputFingerprint": "e1cc01ce3a5bc767d60ef66572a5e1f1eb13fdc57c36bd2debc56d8d555ac07b",
+    "sourceInputFile": "blind_items_m09_v1_s1_p2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification"
+    ]
+  },
+  {
+    "id": "N2_09_M11_04",
+    "blindAnswer": "C",
+    "remappedBlindAnswer": "C",
+    "originalReviewerSelection": "C",
+    "selectedOptionText": "データの定義と対象が同じか",
+    "linguisticJustification": "前年比較の前に数字の定義と調査対象の変化を確認する。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [],
+    "nonBlockingReviewNotes": [],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "9a4382bcdb7f491e16a8a1ac2fc8a1f761aa124386a2b7163b048cde2fca1571",
+    "reviewFingerprint": "9a4382bcdb7f491e16a8a1ac2fc8a1f761aa124386a2b7163b048cde2fca1571",
+    "sourceInputFingerprint": "9a4382bcdb7f491e16a8a1ac2fc8a1f761aa124386a2b7163b048cde2fca1571",
+    "computedSourceInputFingerprint": "12a0f01ee644fd94d52a2dcf786b39af112cf04aa598af8d006d72caf45f972f",
+    "sourceInputFile": "blind_items_m09_v1_s1_p2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification"
+    ]
+  },
+  {
+    "id": "N2_09_M11_05",
+    "blindAnswer": "D",
+    "remappedBlindAnswer": "D",
+    "originalReviewerSelection": "D",
+    "selectedOptionText": "地域の人の交流",
+    "linguisticJustification": "行列を短くしても地域の人の交流を残せる可能性がある。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [],
+    "nonBlockingReviewNotes": [],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "9ae430f90c0d21f7f225793a73237d6fb2d04eaccd35c713375545e59956adb1",
+    "reviewFingerprint": "9ae430f90c0d21f7f225793a73237d6fb2d04eaccd35c713375545e59956adb1",
+    "sourceInputFingerprint": "9ae430f90c0d21f7f225793a73237d6fb2d04eaccd35c713375545e59956adb1",
+    "computedSourceInputFingerprint": "9d09ab9db8a5ebf3186f313e032409b081eb91eb99c20984af8b28e312707677",
+    "sourceInputFile": "blind_items_m09_v1_s1_p2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification"
+    ]
+  },
+  {
+    "id": "N2_09_M11_06",
+    "blindAnswer": "A",
+    "remappedBlindAnswer": "A",
+    "originalReviewerSelection": "A",
+    "selectedOptionText": "次の参加につながるため",
+    "linguisticJustification": "本文に「採用しなかった理由を返すことが次の参加につながる」と明記されています。",
+    "confidence": 0.99,
+    "concerns": [],
+    "reviewerNotes": [],
+    "nonBlockingReviewNotes": [],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "c4bf6361d3c1fcb1fa4cee132ac9c27e706fdedaffc134ad14532ea6b6c040bc",
+    "reviewFingerprint": "c4bf6361d3c1fcb1fa4cee132ac9c27e706fdedaffc134ad14532ea6b6c040bc",
+    "sourceInputFingerprint": "c4bf6361d3c1fcb1fa4cee132ac9c27e706fdedaffc134ad14532ea6b6c040bc",
+    "computedSourceInputFingerprint": "249f97ed1b32bab27d3ce33b5d5d27f1024fe9f7fb95bb9bc83ca3e1e9bdee03",
+    "sourceInputFile": "blind_items_m09_revision_01.json",
+    "reviewVersion": "revision_01",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification"
+    ]
+  },
+  {
+    "id": "N2_09_M11_07",
+    "blindAnswer": "B",
+    "remappedBlindAnswer": "B",
+    "originalReviewerSelection": "B",
+    "selectedOptionText": "一部の年代や地区では異なる傾向かもしれないから",
+    "linguisticJustification": "平均値が上がっても年代や地区で異なる傾向がありうるため。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [],
+    "nonBlockingReviewNotes": [],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "4eeee6057f4b73cf463e61368451d5b241d2041179665d4ea05cd51c4ee14895",
+    "reviewFingerprint": "4eeee6057f4b73cf463e61368451d5b241d2041179665d4ea05cd51c4ee14895",
+    "sourceInputFingerprint": "4eeee6057f4b73cf463e61368451d5b241d2041179665d4ea05cd51c4ee14895",
+    "computedSourceInputFingerprint": "8d357c20712894f532cb79d3faf89ddfdec3c16b28fe565c477bc8675ff5d6ca",
+    "sourceInputFile": "blind_items_m09_v1_s1_p2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification"
+    ]
+  },
+  {
+    "id": "N2_09_M11_08",
+    "blindAnswer": "C",
+    "remappedBlindAnswer": "C",
+    "originalReviewerSelection": "C",
+    "selectedOptionText": "担い手の誇りが損なわれること",
+    "linguisticJustification": "一方的な簡略化は担い手の誇りを損なうと本文にある。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [],
+    "nonBlockingReviewNotes": [],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "dff6f26437c273dc06e960c9d47216bf043829886be9ad3ffc46bac85b42f98f",
+    "reviewFingerprint": "dff6f26437c273dc06e960c9d47216bf043829886be9ad3ffc46bac85b42f98f",
+    "sourceInputFingerprint": "dff6f26437c273dc06e960c9d47216bf043829886be9ad3ffc46bac85b42f98f",
+    "computedSourceInputFingerprint": "baf48a2462aa762807e44bb376e59a631ff467c5d96e13dc8be45a50361e08ce",
+    "sourceInputFile": "blind_items_m09_v1_s1_p2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification"
+    ]
+  },
+  {
+    "id": "N2_09_M11_09",
+    "blindAnswer": "D",
+    "remappedBlindAnswer": "D",
+    "originalReviewerSelection": "D",
+    "selectedOptionText": "参加者が用意された枠の中だけで答えやすくなるから",
+    "linguisticJustification": "冒頭で選択肢を示すと参加者が既存の枠内で答えがちになる。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [],
+    "nonBlockingReviewNotes": [],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "d3650ebe1ea9104befc80a4a9b30988e2772dd495653acfd22af629a0d033b20",
+    "reviewFingerprint": "d3650ebe1ea9104befc80a4a9b30988e2772dd495653acfd22af629a0d033b20",
+    "sourceInputFingerprint": "d3650ebe1ea9104befc80a4a9b30988e2772dd495653acfd22af629a0d033b20",
+    "computedSourceInputFingerprint": "c3bcdff2b174d88a555928ddf2302d56aec16807161fbc36ca3393aaadfd6ac7",
+    "sourceInputFile": "blind_items_m09_v1_s1_p2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification"
+    ]
+  },
+  {
+    "id": "N2_09_M12_01",
+    "blindAnswer": "A",
+    "remappedBlindAnswer": "A",
+    "originalReviewerSelection": "A",
+    "selectedOptionText": "立地の違う館でも調べ、利用できない人の理由を聞くこと",
+    "linguisticJustification": "資料Bは立地の異なる館と利用できない人の理由も調べるよう求める。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [],
+    "nonBlockingReviewNotes": [],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "2e3fd8cf86436ea62bd911660662021515ac0f374a7b39faf5a86b0d7f3153c0",
+    "reviewFingerprint": "2e3fd8cf86436ea62bd911660662021515ac0f374a7b39faf5a86b0d7f3153c0",
+    "sourceInputFingerprint": "2e3fd8cf86436ea62bd911660662021515ac0f374a7b39faf5a86b0d7f3153c0",
+    "computedSourceInputFingerprint": "1c20e676320375821396ce959aa834524a13cdc7d0621e10fa0a3cec82b26c52",
+    "sourceInputFile": "blind_items_m09_v1_s1_p2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification"
+    ]
+  },
+  {
+    "id": "N2_09_M12_02",
+    "blindAnswer": "B",
+    "remappedBlindAnswer": "B",
+    "originalReviewerSelection": "B",
+    "selectedOptionText": "試行の結果を見てから拡大などを判断する",
+    "linguisticJustification": "両資料とも試行の結果を見てから継続や拡大を判断する。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [],
+    "nonBlockingReviewNotes": [],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "7f52553c110f2718a6b03bb3d52d5a415897551db8d2596c05ab0237fc82be61",
+    "reviewFingerprint": "7f52553c110f2718a6b03bb3d52d5a415897551db8d2596c05ab0237fc82be61",
+    "sourceInputFingerprint": "7f52553c110f2718a6b03bb3d52d5a415897551db8d2596c05ab0237fc82be61",
+    "computedSourceInputFingerprint": "3650fa1a7ef047e931c8dbacb2d6102d2a03c99da94c61c2764fb67f4189f8bb",
+    "sourceInputFile": "blind_items_m09_v1_s1_p2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification"
+    ]
+  },
+  {
+    "id": "N2_09_M13_01",
+    "blindAnswer": "C",
+    "remappedBlindAnswer": "C",
+    "originalReviewerSelection": "C",
+    "selectedOptionText": "来場者が増えても住民の生活改善とは限らないこと",
+    "linguisticJustification": "来場者数が増えても住民の生活がよくなるとは限らないと冒頭で述べる。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Reviewer asked about the A-D option-label mapping. The sealed M09 prompt asks for one choice, the web UI displays the same A-D identifiers, and final answers were mapped by exact option text."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "6d691b104ab6af6e1608a39b9eb23c13a0582731c0c5234cd122fb96a773554d",
+    "reviewFingerprint": "6d691b104ab6af6e1608a39b9eb23c13a0582731c0c5234cd122fb96a773554d",
+    "sourceInputFingerprint": "6d691b104ab6af6e1608a39b9eb23c13a0582731c0c5234cd122fb96a773554d",
+    "computedSourceInputFingerprint": "30be7bf6105e1a2f03681ff22e55c0faf0d15f9939685ad9a99e5b0b89a89e8a",
+    "sourceInputFile": "blind_items_m09_v1_s1_p2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification"
+    ]
+  },
+  {
+    "id": "N2_09_M13_02",
+    "blindAnswer": "D",
+    "remappedBlindAnswer": "D",
+    "originalReviewerSelection": "D",
+    "selectedOptionText": "印象だけでも数字だけでも、地域の多様な経験を十分に捉えられないから",
+    "linguisticJustification": "数量だけでも印象だけでも多様な経験を十分に捉えられないため。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Reviewer asked about the A-D option-label mapping. The sealed M09 prompt asks for one choice, the web UI displays the same A-D identifiers, and final answers were mapped by exact option text."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "cb88d5287fe9222dda2295ba5c1bb94d9206cd7ebce3895a7fd1cfda2be82382",
+    "reviewFingerprint": "cb88d5287fe9222dda2295ba5c1bb94d9206cd7ebce3895a7fd1cfda2be82382",
+    "sourceInputFingerprint": "cb88d5287fe9222dda2295ba5c1bb94d9206cd7ebce3895a7fd1cfda2be82382",
+    "computedSourceInputFingerprint": "153fe534c159de4d59bc5747cd741d6ecc987942f904b035adb2bd228e92b8cc",
+    "sourceInputFile": "blind_items_m09_v1_s1_p2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification"
+    ]
+  },
+  {
+    "id": "N2_09_M13_03",
+    "blindAnswer": "A",
+    "remappedBlindAnswer": "A",
+    "originalReviewerSelection": "A",
+    "selectedOptionText": "測定した範囲と測れていない点も説明すること",
+    "linguisticJustification": "測定したことに加え、測れていない点も伝えるべきだとある。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Reviewer asked about the A-D option-label mapping. The sealed M09 prompt asks for one choice, the web UI displays the same A-D identifiers, and final answers were mapped by exact option text."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "449c3c54181f64487ebd5e7e7f9fbfae77037e312529c70af9f4a79fa88257d9",
+    "reviewFingerprint": "449c3c54181f64487ebd5e7e7f9fbfae77037e312529c70af9f4a79fa88257d9",
+    "sourceInputFingerprint": "449c3c54181f64487ebd5e7e7f9fbfae77037e312529c70af9f4a79fa88257d9",
+    "computedSourceInputFingerprint": "e80d85e262a17317754d3d0fd6cd7e4de1713a62d3dc6b46b636f2180df332c5",
+    "sourceInputFile": "blind_items_m09_v1_s1_p2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification"
+    ]
+  },
+  {
+    "id": "N2_09_M14_01",
+    "blindAnswer": "B",
+    "remappedBlindAnswer": "B",
+    "originalReviewerSelection": "B",
+    "selectedOptionText": "9月1日から14日までに申し込み、第二希望まで選び、理由を200字以内で書き、初回までにオンライン登録する",
+    "linguisticJustification": "市内の専門学校に通う17歳は対象条件を満たします。申込期間は9月1日から14日までで、第二希望まで選び、理由を200字以内で記入したうえ、初回までにオンライン登録が必要です。",
+    "confidence": 0.99,
+    "concerns": [],
+    "reviewerNotes": [],
+    "nonBlockingReviewNotes": [],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "615313056bd8edf2eaef87d59e83a5fa89b37793c3f98d4f162687a17804deca",
+    "reviewFingerprint": "615313056bd8edf2eaef87d59e83a5fa89b37793c3f98d4f162687a17804deca",
+    "sourceInputFingerprint": "615313056bd8edf2eaef87d59e83a5fa89b37793c3f98d4f162687a17804deca",
+    "computedSourceInputFingerprint": "ccd64a6208465e30c46bc6db832d9d29f682887b8500f83ef4b6359afc82b55e",
+    "sourceInputFile": "blind_items_m09_revision_02.json",
+    "reviewVersion": "revision_02",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification"
+    ]
+  },
+  {
+    "id": "N2_09_M14_02",
+    "blindAnswer": "C",
+    "remappedBlindAnswer": "C",
+    "originalReviewerSelection": "C",
+    "selectedOptionText": "初めて参加する人を優先して抽選する",
+    "linguisticJustification": "応募多数の場合は初参加者を優先して抽選すると案内にある。",
+    "confidence": "high",
+    "concerns": [],
+    "reviewerNotes": [
+      "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+    ],
+    "nonBlockingReviewNotes": [
+      "Reviewer asked about the A-D option-label mapping. The sealed M09 prompt asks for one choice, the web UI displays the same A-D identifiers, and final answers were mapped by exact option text."
+    ],
+    "alternativeDefensibleAnswers": [],
+    "contentFingerprint": "37ecba970f5df02923e15cbcfc019402502f9aef22a0b2dbd58a82ad1fd7a78e",
+    "reviewFingerprint": "37ecba970f5df02923e15cbcfc019402502f9aef22a0b2dbd58a82ad1fd7a78e",
+    "sourceInputFingerprint": "37ecba970f5df02923e15cbcfc019402502f9aef22a0b2dbd58a82ad1fd7a78e",
+    "computedSourceInputFingerprint": "05807d08bbbcfab36eadd13c25267a05587c060de4a3bd742e83bd2c76922403",
+    "sourceInputFile": "blind_items_m09_v1_s1_p2.json",
+    "reviewVersion": "v1",
+    "answerAgreementByExactOptionText": true,
+    "reviewerProvenance": "AI_ASSISTED_BLIND_REVIEW; VERSION_BOUND_EXACT_OPTION_TEXT_MAPPED",
+    "mappingMethod": "DIRECT_IDENTITY",
+    "reviewLimitations": [
+      "AI-assisted review; not human/native-speaker certification"
+    ]
+  }
+]

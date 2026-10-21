@@ -79,113 +79,113 @@
   {
     "id": "N2_07_M3_L01",
     "blindAnswer": "D",
-    "contentFingerprint": "b54825ab0a5d94b5ff4e141dfe38fa391708ff06a0788ff984ed10210553afc8",
-    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "contentFingerprint": "01d21c5db7511b9e7745b014e43414a499885e09f2faf564ad11f15bd6de9cd4",
+    "responseSource": "raw_blind_m07_listening_revision_after_tts_response.json",
     "selectedOptionText": "子育て関連の行政手続きが一箇所でできるようになったこと。"
   },
   {
     "id": "N2_07_M3_L02",
     "blindAnswer": "A",
-    "contentFingerprint": "e89810e3e627f611e2f72356668b4bc2985bc993815aa0d19133c1081c968deb",
-    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "contentFingerprint": "7da0ea65762df9464ad94cf76589b319a67426de9ba231fe4f4a984befef90e9",
+    "responseSource": "raw_blind_m07_listening_revision_after_tts_response.json",
     "selectedOptionText": "法令遵守の徹底と不正を許さない誠実な企業風土の重要性。"
   },
   {
     "id": "N2_07_M3_L03",
     "blindAnswer": "B",
-    "contentFingerprint": "8cd67548d2dc7f95e2bd1f170cee54d706cbb21add428515cf854326cbe1c611",
-    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "contentFingerprint": "9852aa1fb621199dab833ed93826fd58fc7c2cf9affb76a05230f47b89ad1220",
+    "responseSource": "raw_blind_m07_listening_revision_after_tts_response.json",
     "selectedOptionText": "地震によるケガを防ぐために家具を固定すること。"
   },
   {
     "id": "N2_07_M3_L04",
     "blindAnswer": "C",
-    "contentFingerprint": "41f7aef31097910ec69621a24f446f6b5563452ccbdbcf18df0f43cba71a79fe",
-    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "contentFingerprint": "66c5b1d8e0290dce69a075c193473d88de93e0b25aa80b66059aa27fc00a129e",
+    "responseSource": "raw_blind_m07_listening_revision_after_tts_response.json",
     "selectedOptionText": "退職後の学びを社会貢献や人とのつながりに広げていくこと。"
   },
   {
     "id": "N2_07_M3_L05",
     "blindAnswer": "D",
-    "contentFingerprint": "cdad9185f8c48818e5ad703bbdd2240e69743ef365544b72cd07284cd86a7cea",
-    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "contentFingerprint": "e5983fe855e5748d539e51339a0cd3b58b977e6650d01af34018b02e90d8463c",
+    "responseSource": "raw_blind_m07_listening_revision_after_tts_response.json",
     "selectedOptionText": "夜間や休日の子どもの救急医療を受け入れる体制。"
   },
   {
     "id": "N2_07_M4_L01",
     "blindAnswer": "A",
-    "contentFingerprint": "f575bd9b596571b3c2d18a9ab8b0a3683ab66888e67af2d222416a60a04e84a6",
-    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "contentFingerprint": "ec6829516f3e9cf763fe6d554cd61808fbad579f0fb53c91b970fe9f8264f585",
+    "responseSource": "raw_blind_m07_listening_revision_after_tts_response.json",
     "selectedOptionText": "ああ、先ほど目を通して印鑑を押しておいたから、机の上にあるよ。"
   },
   {
     "id": "N2_07_M4_L02",
     "blindAnswer": "B",
-    "contentFingerprint": "9616bbc58077c1051d27908b071099b1faacee4d5a16ccf2f03feaa9c89b4d81",
-    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "contentFingerprint": "52cbc24f9f05f567f86c5e8bfca9ed512315dcc53ddadacc74ec508165cb450e",
+    "responseSource": "raw_blind_m07_listening_revision_after_tts_response.json",
     "selectedOptionText": "そうですね、来場者が予想より増えるかもしれませんから、刷っておきます。"
   },
   {
     "id": "N2_07_M4_L03",
     "blindAnswer": "C",
-    "contentFingerprint": "56ded84698d3c7e50c75e00ec487fe9087d72c939147d08a6ea4da93cbe3bda5",
-    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "contentFingerprint": "acf87a2cf57389bb6a101adb036ec6fd511f2f3457b922f802842a4abf103668",
+    "responseSource": "raw_blind_m07_listening_revision_after_tts_response.json",
     "selectedOptionText": "どうぞお気になさらないでください。迅速に修正対応していただいたので問題ありませんよ。"
   },
   {
     "id": "N2_07_M4_L04",
     "blindAnswer": "A",
-    "contentFingerprint": "407aea34e0f9c9f409f1a125eb16b906fdb66ea31c14aa105b2d36d1001b4745",
-    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "contentFingerprint": "9ede9d291a03961063e28041687e1e19791865c70ffb10da92b9c2d7ce9bda5b",
+    "responseSource": "raw_blind_m07_listening_revision_after_tts_response.json",
     "selectedOptionText": "先ほどテストを済ませましたが、音声も映像も非常にクリアでしたよ。"
   },
   {
     "id": "N2_07_M4_L05",
     "blindAnswer": "B",
-    "contentFingerprint": "40c09d8e00e6c416d14bfcc90f727f21df4422c911bb42c6d92d2d211c64c437",
-    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "contentFingerprint": "c6c955f50169c2b3d676debcf8b89654040464fe113377a535e7a3b54082213f",
+    "responseSource": "raw_blind_m07_listening_revision_after_tts_response.json",
     "selectedOptionText": "本当にね。みんなで何週間も前から準備してきたのに、悔しいよね。"
   },
   {
     "id": "N2_07_M4_L06",
     "blindAnswer": "C",
-    "contentFingerprint": "fd91b18621d99f97a126e833e132a2c734bc84bc06bf3eb79dd1d43b9c97fe00",
-    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "contentFingerprint": "0848bbd233a50ef8e1312025d05c96795bceb8cc4b0a370166fc03beb5d04cdd",
+    "responseSource": "raw_blind_m07_listening_revision_after_tts_response.json",
     "selectedOptionText": "ええ、ちょうど今手が空いたところですので、拝見しますね。"
   },
   {
     "id": "N2_07_M4_L07",
     "blindAnswer": "A",
-    "contentFingerprint": "56cc29e46693654d39f3276e6fa099c21d25e552dcd3c825249b9896ffbf1efd",
-    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "contentFingerprint": "62a8dd3f2a6ddbc44813465f267aa4baec9f8dcf37cfe73bb1a041df9bcb59b6",
+    "responseSource": "raw_blind_m07_listening_revision_after_tts_response.json",
     "selectedOptionText": "申し訳ありません。議論が熱くなって、相手への配慮が足りませんでした。"
   },
   {
     "id": "N2_07_M4_L08",
     "blindAnswer": "B",
-    "contentFingerprint": "5061867abb21a2565755d4b3054f74849bcba9768fb6f9943f873c284266773b",
-    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "contentFingerprint": "fc103150335ddb78d433a78a27c10a40fc2b4f5936f93fd8476fef68eb62b8a2",
+    "responseSource": "raw_blind_m07_listening_revision_after_tts_response.json",
     "selectedOptionText": "私のような若手でよろしければ、ぜひ喜んで挑戦させてください。"
   },
   {
     "id": "N2_07_M4_L09",
     "blindAnswer": "C",
-    "contentFingerprint": "4ceb33d1d4691918dec0401068ad623d569598eb1c59d5f92bbb9630ea5d1f90",
-    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "contentFingerprint": "650b3383f671d9b142cfe937593d9bfa199b59ba6c2062cb5b804fa7a95b05ac",
+    "responseSource": "raw_blind_m07_listening_revision_after_tts_response.json",
     "selectedOptionText": "ええ、来庁者の皆様からも混雑が緩和されたと大変好評をいただいております。"
   },
   {
     "id": "N2_07_M4_L10",
     "blindAnswer": "A",
-    "contentFingerprint": "c0122047e62479150edab8c8d9e005db0cc3d3f01cf271f3f7fbcc280800e575",
-    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "contentFingerprint": "9fa9009c5244df7311928c68f0b3c3f99574415b40fb7927f6bb71621d46d5f2",
+    "responseSource": "raw_blind_m07_listening_revision_after_tts_response.json",
     "selectedOptionText": "ああ、弊社の採算ラインを割り込むことになるから、安易な妥協はできないね。"
   },
   {
     "id": "N2_07_M4_L11",
     "blindAnswer": "B",
-    "contentFingerprint": "fe6f5774772dcbd12557027fc01e1596a63f974655b2f8643420f96e75056165",
-    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "contentFingerprint": "e059d6566af3b0e0723f45aee71aca0eee0297d0c1061c4558cc0e672efe1442",
+    "responseSource": "raw_blind_m07_listening_revision_after_tts_response.json",
     "selectedOptionText": "とんでもない、新入社員の個性に合わせて教えるのは毎回手探りで緊張しますよ。"
   },
   {

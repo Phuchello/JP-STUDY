@@ -1,5 +1,6 @@
 """Validate the public snapshot. Writes results only under ignored tmp/."""
 from pathlib import Path
+from datetime import date
 from xml.etree import ElementTree as ET
 from urllib.parse import unquote,urlsplit
 import json,hashlib,re,zipfile,os
@@ -59,7 +60,7 @@ def main():
     inv=load('qa/source_inventory.json');ck('All 299 source files classified',len(inv['files'])==299 and all(x.get('disposition') and x.get('sha256') and x.get('status') in ['DRAFT','QA_PENDING','VERIFIED'] for x in inv['files']))
     for n in ['engine_tests.json','browser_tests.json','edge_flow_tests.json']:
         result=load('qa/current/'+n);tests=result if isinstance(result,list) else result['tests'];ck('Current rerun passes '+n,all(x['ok'] for x in tests))
-    report={'snapshotDate':'2026-10-15','checks':checks,'passed':sum(x['ok'] for x in checks),'failed':sum(not x['ok'] for x in checks),'workbooks':wb_stats,'publicFileCount':len(actual)+1,'publicBytesIncludingManifest':sum(p.stat().st_size for p in actual.values())+(ROOT/'MANIFEST.json').stat().st_size}
+    report={'snapshotDate':date.today().isoformat(),'checks':checks,'passed':sum(x['ok'] for x in checks),'failed':sum(not x['ok'] for x in checks),'workbooks':wb_stats,'publicFileCount':len(actual)+1,'publicBytesIncludingManifest':sum(p.stat().st_size for p in actual.values())+(ROOT/'MANIFEST.json').stat().st_size}
     (OUT/'publication_validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');print(json.dumps({'checks':len(checks),'passed':report['passed'],'failures':[x for x in checks if not x['ok']],'files':report['publicFileCount'],'bytes':report['publicBytesIncludingManifest']},ensure_ascii=False))
     return 1 if report['failed'] else 0
 if __name__=='__main__':raise SystemExit(main())

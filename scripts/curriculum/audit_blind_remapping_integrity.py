@@ -121,6 +121,7 @@ def run_integrity_audit():
         ROOT / "qa/blind_items_m07_star_revision_10.json",
         ROOT / "qa/blind_items_m07_star_revision_11.json",
         ROOT / "qa/blind_items_m07_star_revision_12.json",
+        ROOT / "qa/blind_items_m07_listening_revision_after_tts.json",
         ROOT / "qa/blind_items_m08_s1_p1.json",
         ROOT / "qa/blind_items_m08_s1_p2.json",
         ROOT / "qa/blind_items_m08_s2.json",

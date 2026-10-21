@@ -1,6 +1,6 @@
 {
   "examId": "N2-MOCK-07",
-  "generatedAt": "2026-10-21T02:30:26.807Z",
+  "generatedAt": "2026-10-21T04:12:24.648Z",
   "browser": "Google Chrome installed on local test host, headless",
   "viewport": "1280x800 desktop; 390x844 mobile emulation",
   "catalog": "Intentionally remains IN_DEVELOPMENT and hidden from public launch until release gate passes",

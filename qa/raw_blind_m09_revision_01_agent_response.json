@@ -1,0 +1,192 @@
+{
+  "reviewDisclosure": "AI-assisted blind review based only on the sealed item JSON. This is not a human or native-speaker review. The sealed revision contains no listening items; no audio was reviewed.",
+  "answers": [
+    {
+      "questionId": "N2_09_M3_02",
+      "selectedOption": "D",
+      "selectedOptionText": "運営",
+      "japaneseJustification": "文化施設の管理や活動を複数の団体が共同して行うことは「共同運営」と表すのが最も自然です。",
+      "confidence": 0.97,
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M7_02",
+      "selectedOption": "C",
+      "selectedOptionText": "に伴って",
+      "japaneseJustification": "観光客の増加に連動してごみの量も増えたという変化の並行・関連を表すため、「に伴って」が適切です。",
+      "confidence": 0.99,
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M8_01",
+      "selectedOption": "C",
+      "selectedOptionText": "子どもたちに伝える",
+      "japaneseJustification": "AがBの「行事」を修飾し、BをCが受け、Cの動詞句をDの「こと」が名詞化する A-B-C-D が自然です。★は3番目の C です。",
+      "confidence": 0.98,
+      "concerns": [],
+      "permutationAudit": {
+        "naturalIntendedOrder": "A-B-C-D",
+        "starOption": "C",
+        "starOptionText": "子どもたちに伝える",
+        "plausibleOrders": [
+          {
+            "order": "A-B-C-D",
+            "classification": "natural",
+            "starOption": "C",
+            "reconstructedSentence": "地域の祭りを次世代に引き継ぐには、地域で受け継がれてきた行事の意味を子どもたちに伝えることが大切だ。"
+          }
+        ],
+        "all24Permutations": [
+          "A-B-C-D: natural",
+          "A-B-D-C: unnatural",
+          "A-C-B-D: unnatural",
+          "A-C-D-B: unnatural",
+          "A-D-B-C: unnatural",
+          "A-D-C-B: unnatural",
+          "B-A-C-D: unnatural",
+          "B-A-D-C: unnatural",
+          "B-C-A-D: unnatural",
+          "B-C-D-A: unnatural",
+          "B-D-A-C: unnatural",
+          "B-D-C-A: unnatural",
+          "C-A-B-D: unnatural",
+          "C-A-D-B: unnatural",
+          "C-B-A-D: unnatural",
+          "C-B-D-A: unnatural",
+          "C-D-A-B: unnatural",
+          "C-D-B-A: unnatural",
+          "D-A-B-C: unnatural",
+          "D-A-C-B: unnatural",
+          "D-B-A-C: unnatural",
+          "D-B-C-A: unnatural",
+          "D-C-A-B: unnatural",
+          "D-C-B-A: unnatural"
+        ],
+        "starChangingNaturalOrMarginalAlternatives": [],
+        "classificationNote": "A must modify the following noun 行事, B is the object of C, and C must precede the nominalizer D. The other orders break these relations or leave the main clause without a predicate. No marginal order was identified."
+      }
+    },
+    {
+      "questionId": "N2_09_M8_03",
+      "selectedOption": "C",
+      "selectedOptionText": "調査記録に残す",
+      "japaneseJustification": "「回答者がどの質問に答えたかを」が記録する内容を示し、Cの動詞句にDの「必要がある」が続きます。★は3番目の C です。",
+      "confidence": 0.96,
+      "concerns": [],
+      "permutationAudit": {
+        "naturalIntendedOrder": "A-B-C-D",
+        "starOption": "C",
+        "starOptionText": "調査記録に残す",
+        "plausibleOrders": [
+          {
+            "order": "A-B-C-D",
+            "classification": "natural",
+            "starOption": "C",
+            "reconstructedSentence": "分析結果を正しく解釈するには、回答者がどの質問に答えたかを調査記録に残す必要がある。"
+          },
+          {
+            "order": "B-A-C-D",
+            "classification": "natural",
+            "starOption": "C",
+            "reconstructedSentence": "分析結果を正しく解釈するには、どの質問に答えたかを回答者が調査記録に残す必要がある。"
+          }
+        ],
+        "all24Permutations": [
+          "A-B-C-D: natural",
+          "A-B-D-C: unnatural",
+          "A-C-B-D: unnatural",
+          "A-C-D-B: unnatural",
+          "A-D-B-C: unnatural",
+          "A-D-C-B: unnatural",
+          "B-A-C-D: natural",
+          "B-A-D-C: unnatural",
+          "B-C-A-D: unnatural",
+          "B-C-D-A: unnatural",
+          "B-D-A-C: unnatural",
+          "B-D-C-A: unnatural",
+          "C-A-B-D: unnatural",
+          "C-A-D-B: unnatural",
+          "C-B-A-D: unnatural",
+          "C-B-D-A: unnatural",
+          "C-D-A-B: unnatural",
+          "C-D-B-A: unnatural",
+          "D-A-B-C: unnatural",
+          "D-A-C-B: unnatural",
+          "D-B-A-C: unnatural",
+          "D-B-C-A: unnatural",
+          "D-C-A-B: unnatural",
+          "D-C-B-A: unnatural"
+        ],
+        "starChangingNaturalOrMarginalAlternatives": [],
+        "classificationNote": "B may be placed before or after the embedded-clause subject A; both orders leave C in the third position and D after the predicate. Other orders disrupt the embedded clause or the predicate-to-必要がある construction. No marginal order was identified."
+      }
+    },
+    {
+      "questionId": "N2_09_M8_04",
+      "selectedOption": "C",
+      "selectedOptionText": "議事録に残しておく",
+      "japaneseJustification": "AがBの「反対意見」を修飾し、その意見をCで記録に残す内容をDの「こと」が名詞化します。★は3番目の C です。",
+      "confidence": 0.98,
+      "concerns": [],
+      "permutationAudit": {
+        "naturalIntendedOrder": "A-B-C-D",
+        "starOption": "C",
+        "starOptionText": "議事録に残しておく",
+        "plausibleOrders": [
+          {
+            "order": "A-B-C-D",
+            "classification": "natural",
+            "starOption": "C",
+            "reconstructedSentence": "議論の経過を後から検証できるようにするには、住民が述べた反対意見も議事録に残しておくことが大切だ。"
+          }
+        ],
+        "all24Permutations": [
+          "A-B-C-D: natural",
+          "A-B-D-C: unnatural",
+          "A-C-B-D: unnatural",
+          "A-C-D-B: unnatural",
+          "A-D-B-C: unnatural",
+          "A-D-C-B: unnatural",
+          "B-A-C-D: unnatural",
+          "B-A-D-C: unnatural",
+          "B-C-A-D: unnatural",
+          "B-C-D-A: unnatural",
+          "B-D-A-C: unnatural",
+          "B-D-C-A: unnatural",
+          "C-A-B-D: unnatural",
+          "C-A-D-B: unnatural",
+          "C-B-A-D: unnatural",
+          "C-B-D-A: unnatural",
+          "C-D-A-B: unnatural",
+          "C-D-B-A: unnatural",
+          "D-A-B-C: unnatural",
+          "D-A-C-B: unnatural",
+          "D-B-A-C: unnatural",
+          "D-B-C-A: unnatural",
+          "D-C-A-B: unnatural",
+          "D-C-B-A: unnatural"
+        ],
+        "starChangingNaturalOrMarginalAlternatives": [],
+        "classificationNote": "A must directly modify B, which is marked as the object of C; C then precedes the nominalizer D. Other orders break the modifier, object, or predicate relation. No marginal order was identified."
+      }
+    },
+    {
+      "questionId": "N2_09_M11_06",
+      "selectedOption": "A",
+      "selectedOptionText": "次の参加につながるため",
+      "japaneseJustification": "本文に「採用しなかった理由を返すことが次の参加につながる」と明記されています。",
+      "confidence": 0.99,
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M14_01",
+      "selectedOption": "B",
+      "selectedOptionText": "9月1日から14日までに申し込み、第二希望まで選び、理由を200字以内で記入する",
+      "japaneseJustification": "17歳で市内の専門学校に通う人は「市内在学の16歳以上」の対象に当たり、Bが申込期間、希望数、理由の字数を案内どおり示しています。",
+      "confidence": 0.94,
+      "concerns": [
+        "案内には初回講座までのオンライン登録も必要とありますが、選択肢にはその条件がありません。Bが申込要領に最も合うものの、手続き全体への回答としては情報が一部欠けています。"
+      ]
+    }
+  ]
+}

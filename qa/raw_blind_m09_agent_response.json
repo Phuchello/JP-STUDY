@@ -1,0 +1,1612 @@
+{
+  "examId": "N2-MOCK-09",
+  "reviewerType": "AI_ASSISTED_BLIND_REVIEW",
+  "items": [
+    {
+      "questionId": "N2_09_M1_01",
+      "selectedOption": "A",
+      "selectedOptionText": "はんえい",
+      "justification": "「反映」は意見を計画に取り入れる意味で、読みは「はんえい」。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M1_02",
+      "selectedOption": "D",
+      "selectedOptionText": "へだたり",
+      "justification": "「隔たり」の読みは「へだたり」で、世代間の差を指す。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M1_03",
+      "selectedOption": "A",
+      "selectedOptionText": "すいたい",
+      "justification": "「衰退」の読みは「すいたい」。地域の活気が弱まる文脈にも合う。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M1_04",
+      "selectedOption": "B",
+      "selectedOptionText": "いじ",
+      "justification": "「維持」の読みは「いじ」。制度を保つという文脈に合う。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M1_05",
+      "selectedOption": "D",
+      "selectedOptionText": "しょうてん",
+      "justification": "「焦点」の読みは「しょうてん」。議論の中心点を指す。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M2_01",
+      "selectedOption": "A",
+      "selectedOptionText": "調整",
+      "justification": "価値観の違いを調整するという意味なので「調整」。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M2_02",
+      "selectedOption": "B",
+      "selectedOptionText": "分散",
+      "justification": "入館時間を分散させて来場者の集中を避ける文脈なので「分散」。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M2_03",
+      "selectedOption": "D",
+      "selectedOptionText": "公平",
+      "justification": "反対意見も含めて公平に記録する、という意味。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M2_04",
+      "selectedOption": "A",
+      "selectedOptionText": "特色",
+      "justification": "地域の特色を生かす、という自然な語の組み合わせ。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M2_05",
+      "selectedOption": "B",
+      "selectedOptionText": "充実",
+      "justification": "情報提供を充実させる、という定型的な表現。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M3_01",
+      "selectedOption": "D",
+      "selectedOptionText": "人口",
+      "justification": "「人口流出」は人々が地域外へ移ることを表し、若い世代の流出を防ぐ文脈に合う。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M3_02",
+      "selectedOption": "A",
+      "selectedOptionText": "運営",
+      "justification": "「共同運営」は複数団体で施設を運営すること。",
+      "confidence": "high",
+      "concerns": [
+        "「運営する共同運営」は意味は通るが、「運営」が重なりやや冗長。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M3_03",
+      "selectedOption": "B",
+      "selectedOptionText": "参加",
+      "justification": "住民の声を政策に反映する場は「市民参加」の場。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M3_04",
+      "selectedOption": "C",
+      "selectedOptionText": "商品",
+      "justification": "店主と学生が企画するものとして「新商品」が自然。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M3_05",
+      "selectedOption": "D",
+      "selectedOptionText": "言語",
+      "justification": "複数言語で情報を出す対応は「多言語対応」。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M4_01",
+      "selectedOption": "A",
+      "selectedOptionText": "選択",
+      "justification": "複数案から現実的な方法を選択する文脈。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M4_02",
+      "selectedOption": "B",
+      "selectedOptionText": "続出",
+      "justification": "説明不足の結果として苦情が続出した、が自然。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M4_03",
+      "selectedOption": "C",
+      "selectedOptionText": "尊重",
+      "justification": "初参加者の意見も尊重した、という意味。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M4_04",
+      "selectedOption": "D",
+      "selectedOptionText": "考慮",
+      "justification": "聞き取り結果を考慮して検討する、という意味で合う。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M4_05",
+      "selectedOption": "A",
+      "selectedOptionText": "統一",
+      "justification": "異なる手続きを共通手順に統一した、という文脈。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M4_06",
+      "selectedOption": "B",
+      "selectedOptionText": "明確",
+      "justification": "背景を聞くことで議論の目的が明確になる。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M4_07",
+      "selectedOption": "C",
+      "selectedOptionText": "判断",
+      "justification": "導入前には慎重な判断が必要、という自然な表現。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M5_01",
+      "selectedOption": "D",
+      "selectedOptionText": "参考にして",
+      "justification": "「踏まえて」は要望を考慮・参考にして進める意味。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M5_02",
+      "selectedOption": "A",
+      "selectedOptionText": "広く集めた",
+      "justification": "意見を募るとは、広く集めること。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M5_03",
+      "selectedOption": "B",
+      "selectedOptionText": "改めて検討する",
+      "justification": "制度を見直すとは、改めて検討すること。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M5_04",
+      "selectedOption": "C",
+      "selectedOptionText": "大きな違いがない",
+      "justification": "「大差がない」は大きな違いがないという意味。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M5_05",
+      "selectedOption": "D",
+      "selectedOptionText": "予想より多かった",
+      "justification": "参加者数が予想を上回った、は予想より多かったという意味。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M6_01",
+      "selectedOption": "A",
+      "selectedOptionText": "係員は列が進むよう、次の人に前へ進むことを促した。",
+      "justification": "「促す」は相手に行動するよう働きかけること。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M6_02",
+      "selectedOption": "B",
+      "selectedOptionText": "この調査は若い世代の回答に偏っている。",
+      "justification": "回答が若い世代に偏る、は一部に集中する意味で正しい。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M6_03",
+      "selectedOption": "C",
+      "selectedOptionText": "地域の防災を担う団体が、訓練を企画した。",
+      "justification": "「防災を担う」は防災の役割や責任を引き受けること。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M6_04",
+      "selectedOption": "D",
+      "selectedOptionText": "市は来年度、利用者が増えると見込んでいる。",
+      "justification": "利用者が増えると見込む、は将来の見通しを立てる意味。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M6_05",
+      "selectedOption": "A",
+      "selectedOptionText": "話し合いの後、両者の緊張が少し和らいだ。",
+      "justification": "緊張が和らぐ、は緊張が弱まるという自然な用法。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M7_01",
+      "selectedOption": "B",
+      "selectedOptionText": "につれて",
+      "justification": "意見を聞くにつれて弱点が見えてきた、という変化の進行を表す。",
+      "confidence": "high",
+      "concerns": [
+        "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M7_02",
+      "selectedOption": "C",
+      "selectedOptionText": "に伴って",
+      "justification": "意図はCと推測するが、「増えたに伴って」は接続が不自然で、他の選択肢も入らない。修正なしでは正答が成立しない可能性がある。",
+      "confidence": "low",
+      "concerns": [
+        "「に伴って」は通常、名詞または辞書形に接続するため「増えたに伴って」は不自然。文を「観光客が増える（　）」等に直す必要がある。",
+        "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M7_03",
+      "selectedOption": "D",
+      "selectedOptionText": "に限らず",
+      "justification": "「地元の人に限らず、近隣市からも」と範囲を広げている。",
+      "confidence": "high",
+      "concerns": [
+        "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M7_04",
+      "selectedOption": "A",
+      "selectedOptionText": "にとっても",
+      "justification": "「どの世代の人にとっても」が文意に合う。",
+      "confidence": "high",
+      "concerns": [
+        "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M7_05",
+      "selectedOption": "B",
+      "selectedOptionText": "にあたって",
+      "justification": "調査協力を依頼するにあたって、事前説明をしたという順序。",
+      "confidence": "high",
+      "concerns": [
+        "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M7_06",
+      "selectedOption": "C",
+      "selectedOptionText": "ことなく",
+      "justification": "「結論を急ぐことなく」は急がないで、という意味。",
+      "confidence": "high",
+      "concerns": [
+        "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M7_07",
+      "selectedOption": "D",
+      "selectedOptionText": "に先立って",
+      "justification": "制度変更に先立って利用者に説明する、という順序。",
+      "confidence": "high",
+      "concerns": [
+        "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M7_08",
+      "selectedOption": "A",
+      "selectedOptionText": "一方で",
+      "justification": "便利さを優先する一方で、支援が必要な人には不利益もあるという対比。",
+      "confidence": "high",
+      "concerns": [
+        "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M7_09",
+      "selectedOption": "B",
+      "selectedOptionText": "ように",
+      "justification": "参加しやすいように会場や時間を見直した、という目的。",
+      "confidence": "high",
+      "concerns": [
+        "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M7_10",
+      "selectedOption": "C",
+      "selectedOptionText": "ことには",
+      "justification": "「説明しないことには合意を得るのは難しい」は必要条件を表す。",
+      "confidence": "high",
+      "concerns": [
+        "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M7_11",
+      "selectedOption": "D",
+      "selectedOptionText": "ことから",
+      "justification": "反対意見が出たことから議論を続けた、という原因・理由。",
+      "confidence": "high",
+      "concerns": [
+        "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M7_12",
+      "selectedOption": "A",
+      "selectedOptionText": "からといって",
+      "justification": "出席したからといって理解できたとは限らない、という譲歩・否定。",
+      "confidence": "high",
+      "concerns": [
+        "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M8_01",
+      "selectedOption": "C",
+      "selectedOptionText": "参加できる",
+      "justification": "若い世代が運営に参加できる仕組みを整える、が最も素直な語順。",
+      "confidence": "medium",
+      "concerns": [
+        "BCAD「運営に参加できる若い世代が仕組みを整える」など別の語順も文として成立し、★の位置が変わる。",
+        "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M8_02",
+      "selectedOption": "C",
+      "selectedOptionText": "確かめる",
+      "justification": "結論を急がず背景を確かめる姿勢、の順で文が自然につながる。",
+      "confidence": "high",
+      "concerns": [
+        "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M8_03",
+      "selectedOption": "C",
+      "selectedOptionText": "利用者に",
+      "justification": "誰が情報を必要としているかを利用者への聞き取りで確認する、が自然な読み。",
+      "confidence": "medium",
+      "concerns": [
+        "「聞き取りで」を先頭や「利用者に」の後に置く語順も自然に読め、★の位置が変わるため一意性に懸念。",
+        "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M8_04",
+      "selectedOption": "C",
+      "selectedOptionText": "分けて",
+      "justification": "聞いた内容を事実と意見に分けて記録する、が自然な順序。",
+      "confidence": "medium",
+      "concerns": [
+        "「事実と意見に分けて住民から聞いた内容を記録する」も自然で、★の位置が変わる。",
+        "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M8_05",
+      "selectedOption": "C",
+      "selectedOptionText": "比較して",
+      "justification": "主張を支える根拠を比較して論点を整理する、の順で自然。",
+      "confidence": "high",
+      "concerns": [
+        "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M9_01",
+      "selectedOption": "B",
+      "selectedOptionText": "というわけではない",
+      "justification": "専門家の意見だけに頼ればよい、という断定を否定する「というわけではない」が合う。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M9_02",
+      "selectedOption": "C",
+      "selectedOptionText": "とは限らない",
+      "justification": "「常に正しいとは限らない」が直後の留保説明と一致する。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M9_03",
+      "selectedOption": "D",
+      "selectedOptionText": "照らし合わせて",
+      "justification": "データと現場の声を照らし合わせて検討する、という意味。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M9_04",
+      "selectedOption": "A",
+      "selectedOptionText": "ことなく",
+      "justification": "結論を急ぐことなく試行を行う、という提案のつなぎ方が自然。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M9_05",
+      "selectedOption": "B",
+      "selectedOptionText": "下す",
+      "justification": "「決定を下す」が自然な連語。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M10_01",
+      "selectedOption": "C",
+      "selectedOptionText": "職員を増やす費用と利用状況を確かめるため",
+      "justification": "試行で職員増員の費用と来館状況・利用目的を確認するため。",
+      "confidence": "high",
+      "concerns": [
+        "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M10_02",
+      "selectedOption": "D",
+      "selectedOptionText": "場所を示す案内を分かりやすくすること",
+      "justification": "次回は展示数より案内図や共通表示を整えるとある。",
+      "confidence": "high",
+      "concerns": [
+        "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M10_03",
+      "selectedOption": "A",
+      "selectedOptionText": "時間がない人でも参加できる短い役割",
+      "justification": "短時間でも参加できる役割を用意すると明記されている。",
+      "confidence": "high",
+      "concerns": [
+        "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M10_04",
+      "selectedOption": "B",
+      "selectedOptionText": "制度の対象者が説明会に来られず、疑問が残るから",
+      "justification": "説明会に来なかった世帯の疑問が残っているため。",
+      "confidence": "high",
+      "concerns": [
+        "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M10_05",
+      "selectedOption": "C",
+      "selectedOptionText": "写真についての説明文",
+      "justification": "公開しない写真については写真の説明文だけを残す方針。",
+      "confidence": "high",
+      "concerns": [
+        "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M11_01",
+      "selectedOption": "D",
+      "selectedOptionText": "具体的に困っている場面を聞くこと",
+      "justification": "選択肢を先に示さず、まず具体的に困っている場面を聞く。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M11_02",
+      "selectedOption": "A",
+      "selectedOptionText": "行為の意味と変更の影響を担い手と確認すること",
+      "justification": "行事の意味と変更の影響を担い手と確かめる点が中心。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M11_03",
+      "selectedOption": "B",
+      "selectedOptionText": "問いを具体化し、調べる方向を示す材料になること",
+      "justification": "統計は結論そのものではなく、問いを具体化する材料。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M11_04",
+      "selectedOption": "C",
+      "selectedOptionText": "データの定義と対象が同じか",
+      "justification": "前年比較の前に数字の定義と調査対象の変化を確認する。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M11_05",
+      "selectedOption": "D",
+      "selectedOptionText": "地域の人の交流",
+      "justification": "行列を短くしても地域の人の交流を残せる可能性がある。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M11_06",
+      "selectedOption": "A",
+      "selectedOptionText": "次の参加への信頼につながるため",
+      "justification": "本文は理由を返すことが次の参加につながると述べている。",
+      "confidence": "high",
+      "concerns": [
+        "選択肢の「信頼」は本文に明記されず、「次の参加につながる」の補足的な言い換え。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M11_07",
+      "selectedOption": "B",
+      "selectedOptionText": "一部の年代や地区では異なる傾向かもしれないから",
+      "justification": "平均値が上がっても年代や地区で異なる傾向がありうるため。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M11_08",
+      "selectedOption": "C",
+      "selectedOptionText": "担い手の誇りが損なわれること",
+      "justification": "一方的な簡略化は担い手の誇りを損なうと本文にある。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M11_09",
+      "selectedOption": "D",
+      "selectedOptionText": "参加者が用意された枠の中だけで答えやすくなるから",
+      "justification": "冒頭で選択肢を示すと参加者が既存の枠内で答えがちになる。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M12_01",
+      "selectedOption": "A",
+      "selectedOptionText": "立地の違う館でも調べ、利用できない人の理由を聞くこと",
+      "justification": "資料Bは立地の異なる館と利用できない人の理由も調べるよう求める。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M12_02",
+      "selectedOption": "B",
+      "selectedOptionText": "試行の結果を見てから拡大などを判断する",
+      "justification": "両資料とも試行の結果を見てから継続や拡大を判断する。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_09_M13_01",
+      "selectedOption": "C",
+      "selectedOptionText": "来場者が増えても住民の生活改善とは限らないこと",
+      "justification": "来場者数が増えても住民の生活がよくなるとは限らないと冒頭で述べる。",
+      "confidence": "high",
+      "concerns": [
+        "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M13_02",
+      "selectedOption": "D",
+      "selectedOptionText": "印象だけでも数字だけでも、地域の多様な経験を十分に捉えられないから",
+      "justification": "数量だけでも印象だけでも多様な経験を十分に捉えられないため。",
+      "confidence": "high",
+      "concerns": [
+        "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M13_03",
+      "selectedOption": "A",
+      "selectedOptionText": "測定した範囲と測れていない点も説明すること",
+      "justification": "測定したことに加え、測れていない点も伝えるべきだとある。",
+      "confidence": "high",
+      "concerns": [
+        "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M14_01",
+      "selectedOption": "B",
+      "selectedOptionText": "9月14日までに登録し、希望を第二まで選んで理由を書く",
+      "justification": "市内の専門学校に在学する17歳は対象内。9月14日までに申し込み、希望順位と理由を記入する。",
+      "confidence": "medium",
+      "concerns": [
+        "案内はオンライン登録を初回までとしている一方、申込期間は9月14日まで。選択肢Bの「9月14日までに登録」は両条件を混同し、また「希望を第二まで」は表現が不明瞭。",
+        "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M14_02",
+      "selectedOption": "C",
+      "selectedOptionText": "初めて参加する人を優先して抽選する",
+      "justification": "応募多数の場合は初参加者を優先して抽選すると案内にある。",
+      "confidence": "high",
+      "concerns": [
+        "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M1_L01",
+      "selectedOption": "A",
+      "selectedOptionText": "所有者に展示期間と方法を説明して許可を得る",
+      "justification": "会話台本では、所有者に展示期間と方法を説明して書面で了解を得る。",
+      "confidence": "high",
+      "concerns": [
+        "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。",
+        "音声は未聴取。会話台本のみで判断。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M1_L02",
+      "selectedOption": "B",
+      "selectedOptionText": "確認が済んだ資料を相談コーナーに置く",
+      "justification": "台本では、確認後にベトナム語資料を入口の相談コーナーに置く。",
+      "confidence": "high",
+      "concerns": [
+        "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。",
+        "音声は未聴取。会話台本のみで判断。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M1_L03",
+      "selectedOption": "C",
+      "selectedOptionText": "避難経路を確認して地図に示す",
+      "justification": "台本では、安全な避難経路を確認して地図に示すよう頼まれている。",
+      "confidence": "high",
+      "concerns": [
+        "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。",
+        "音声は未聴取。会話台本のみで判断。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M1_L04",
+      "selectedOption": "D",
+      "selectedOptionText": "抽選の可能性を冒頭にも明記する",
+      "justification": "台本では、抽選の可能性を案内文の冒頭にも記載する。",
+      "confidence": "high",
+      "concerns": [
+        "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。",
+        "音声は未聴取。会話台本のみで判断。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M1_L05",
+      "selectedOption": "A",
+      "selectedOptionText": "事務局に定員と申込方法を確認する",
+      "justification": "台本では、募集案内作成前に定員と申込方法を確認する。",
+      "confidence": "high",
+      "concerns": [
+        "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。",
+        "音声は未聴取。会話台本のみで判断。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M2_L01",
+      "selectedOption": "A",
+      "selectedOptionText": "毎月第二日曜の午前十時",
+      "justification": "台本では、第一日曜から第二日曜へ移し、午前十時は維持する。",
+      "confidence": "high",
+      "concerns": [
+        "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。",
+        "音声は未聴取。会話台本のみで判断。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M2_L02",
+      "selectedOption": "B",
+      "selectedOptionText": "二階の展示と閲覧室",
+      "justification": "台本では、一階の展示室は閉まるが二階の展示と閲覧室は利用できる。",
+      "confidence": "high",
+      "concerns": [
+        "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。",
+        "音声は未聴取。会話台本のみで判断。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M2_L03",
+      "selectedOption": "C",
+      "selectedOptionText": "来場者に情報を知った経路を尋ねる",
+      "justification": "台本では、来場者に何を見てイベントを知ったか尋ねる。",
+      "confidence": "high",
+      "concerns": [
+        "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。",
+        "音声は未聴取。会話台本のみで判断。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M2_L04",
+      "selectedOption": "D",
+      "selectedOptionText": "入口と出口に置き、混雑時に回収状況を確認する",
+      "justification": "台本では、入口と出口にもごみ箱を置き、混雑時に回収状況を見回る。",
+      "confidence": "high",
+      "concerns": [
+        "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。",
+        "音声は未聴取。会話台本のみで判断。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M2_L05",
+      "selectedOption": "A",
+      "selectedOptionText": "要点を短い日本語にし、利用者にも確認してもらう",
+      "justification": "台本では、要点を短い日本語で整理し、実際に使う住民にも翻訳を読んでもらう。",
+      "confidence": "high",
+      "concerns": [
+        "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。",
+        "音声は未聴取。会話台本のみで判断。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M2_L06",
+      "selectedOption": "B",
+      "selectedOptionText": "前半と後半で作品を入れ替え、会場は同じにする",
+      "justification": "台本では、同じ会場で前半と後半の作品を入れ替える。",
+      "confidence": "high",
+      "concerns": [
+        "設問指示は1〜4から選択だが、sealed itemの選択肢IDはA〜D。表示上の番号とIDの対応を確認したい。",
+        "音声は未聴取。会話台本のみで判断。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M3_L01",
+      "selectedOption": "A",
+      "selectedOptionText": "動画と文字の両方で必要な情報を確認できるようにするべきだ",
+      "justification": "台本では、動画だけでなく文字でも必要情報を確認できるようにする。",
+      "confidence": "high",
+      "concerns": [
+        "音声は未聴取。会話台本のみで判断。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M3_L02",
+      "selectedOption": "B",
+      "selectedOptionText": "他の資料とも比べ、違いの背景を確かめる",
+      "justification": "台本では、証言を他の資料と照合し、食い違いの背景を確かめる。",
+      "confidence": "high",
+      "concerns": [
+        "音声は未聴取。会話台本のみで判断。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M3_L03",
+      "selectedOption": "C",
+      "selectedOptionText": "売上の数字だけでなく費用や普段の営業への影響も見ること",
+      "justification": "台本では、費用や通常営業への影響も含めてイベントを評価する。",
+      "confidence": "high",
+      "concerns": [
+        "音声は未聴取。会話台本のみで判断。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M3_L04",
+      "selectedOption": "D",
+      "selectedOptionText": "使われる場面や世代差も含めて記録すること",
+      "justification": "台本では、使う場面や世代差も含めて方言を記録する。",
+      "confidence": "high",
+      "concerns": [
+        "音声は未聴取。会話台本のみで判断。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M3_L05",
+      "selectedOption": "A",
+      "selectedOptionText": "利用していない人の意見が調査から抜けやすいこと",
+      "justification": "台本では、利用していない人の意見が調査から抜けやすい点を問題にしている。",
+      "confidence": "high",
+      "concerns": [
+        "音声は未聴取。会話台本のみで判断。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M4_L01",
+      "selectedOption": "A",
+      "selectedOptionText": "では、説明を短い言葉に直してみましょう。",
+      "justification": "専門用語を短い言葉に直す提案が、難しさへの応答として適切。",
+      "confidence": "high",
+      "concerns": [
+        "音声は未聴取。会話台本のみで判断。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M4_L02",
+      "selectedOption": "B",
+      "selectedOptionText": "それなら、案内表示を増やしてみませんか。",
+      "justification": "入口が分かりにくいという指摘への改善案として案内表示を増やす。",
+      "confidence": "high",
+      "concerns": [
+        "音声は未聴取。会話台本のみで判断。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M4_L03",
+      "selectedOption": "C",
+      "selectedOptionText": "では、到着する時刻が分かったら連絡してください。",
+      "justification": "遅刻の連絡には到着時刻が分かったら知らせてほしいと応じている。",
+      "confidence": "high",
+      "concerns": [
+        "音声は未聴取。会話台本のみで判断。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M4_L04",
+      "selectedOption": "A",
+      "selectedOptionText": "参加しやすい役割や時間を考えてみましょう。",
+      "justification": "若者が参加しやすい役割や時間を検討する提案が話題に合う。",
+      "confidence": "high",
+      "concerns": [
+        "音声は未聴取。会話台本のみで判断。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M4_L05",
+      "selectedOption": "B",
+      "selectedOptionText": "別の地域や期間の結果とも比べてみましょう。",
+      "justification": "効果を判断するには別地域や別期間の結果とも比べる提案が適切。",
+      "confidence": "high",
+      "concerns": [
+        "音声は未聴取。会話台本のみで判断。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M4_L06",
+      "selectedOption": "C",
+      "selectedOptionText": "分かりました。着いたら受付に声をかけてください。",
+      "justification": "遅れる連絡を受け、到着後に受付へ声をかけるよう案内している。",
+      "confidence": "high",
+      "concerns": [
+        "音声は未聴取。会話台本のみで判断。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M4_L07",
+      "selectedOption": "A",
+      "selectedOptionText": "はい、理由と一緒に記録しておくとよいでしょう。",
+      "justification": "反対意見も理由と一緒に記録するのが質問への直接的な応答。",
+      "confidence": "high",
+      "concerns": [
+        "音声は未聴取。会話台本のみで判断。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M4_L08",
+      "selectedOption": "B",
+      "selectedOptionText": "要点を残して、重複している部分を削りましょう。",
+      "justification": "要点を残し重複部分を削るのは説明文を短くする提案。",
+      "confidence": "high",
+      "concerns": [
+        "音声は未聴取。会話台本のみで判断。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M4_L09",
+      "selectedOption": "C",
+      "selectedOptionText": "では、以前申し込んだ人にも改めて知らせましょう。",
+      "justification": "申込変更を知らない人に改めて知らせる提案が適切。",
+      "confidence": "high",
+      "concerns": [
+        "音声は未聴取。会話台本のみで判断。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M4_L10",
+      "selectedOption": "A",
+      "selectedOptionText": "失礼しました。負担する人と金額をもう一度説明します。",
+      "justification": "説明不足への謝罪と、負担者・金額を再説明する対応。",
+      "confidence": "high",
+      "concerns": [
+        "音声は未聴取。会話台本のみで判断。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M4_L11",
+      "selectedOption": "B",
+      "selectedOptionText": "そうですね。混みそうな場所にも担当を置きましょう。",
+      "justification": "案内係不足への対応として混雑場所にも担当を配置する。",
+      "confidence": "high",
+      "concerns": [
+        "音声は未聴取。会話台本のみで判断。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M5_L01",
+      "selectedOption": "A",
+      "selectedOptionText": "途中退出と撮影の条件",
+      "justification": "台本の最後に途中退出と撮影条件を案内に書くと述べる。",
+      "confidence": "high",
+      "concerns": [
+        "音声は未聴取。会話台本のみで判断。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M5_L02",
+      "selectedOption": "B",
+      "selectedOptionText": "質問を一週間受け付け、回答をまとめて公開する",
+      "justification": "台本では開催後一週間質問を受け付け、回答をまとめて公開する。",
+      "confidence": "high",
+      "concerns": [
+        "音声は未聴取。会話台本のみで判断。"
+      ]
+    },
+    {
+      "questionId": "N2_09_M5_L03",
+      "selectedOption": "C",
+      "selectedOptionText": "生産者に確認して、産地と特徴の説明文を作る",
+      "justification": "台本では生産者に許可を取り、産地と商品の特徴を説明文にする。",
+      "confidence": "high",
+      "concerns": [
+        "音声は未聴取。会話台本のみで判断。"
+      ]
+    }
+  ],
+  "starPermutationAudits": [
+    {
+      "questionId": "N2_09_M8_01",
+      "permutations": [
+        {
+          "order": "A→B→C→D",
+          "classification": "natural",
+          "naturalSentence": "地域の祭りを続けるには、若い世代が運営に参加できる仕組みを整える必要がある。"
+        },
+        {
+          "order": "A→B→D→C",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "A→C→B→D",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "A→C→D→B",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "A→D→B→C",
+          "classification": "marginal",
+          "naturalSentence": "地域の祭りを続けるには、若い世代が仕組みを整える運営に参加できる必要がある。"
+        },
+        {
+          "order": "A→D→C→B",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "B→A→C→D",
+          "classification": "natural",
+          "naturalSentence": "地域の祭りを続けるには、運営に若い世代が参加できる仕組みを整える必要がある。"
+        },
+        {
+          "order": "B→A→D→C",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "B→C→A→D",
+          "classification": "natural",
+          "naturalSentence": "地域の祭りを続けるには、運営に参加できる若い世代が仕組みを整える必要がある。"
+        },
+        {
+          "order": "B→C→D→A",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "B→D→A→C",
+          "classification": "marginal",
+          "naturalSentence": "地域の祭りを続けるには、運営に仕組みを整える若い世代が参加できる必要がある。"
+        },
+        {
+          "order": "B→D→C→A",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "C→A→B→D",
+          "classification": "marginal",
+          "naturalSentence": "地域の祭りを続けるには、参加できる若い世代が運営に仕組みを整える必要がある。"
+        },
+        {
+          "order": "C→A→D→B",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "C→B→A→D",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "C→B→D→A",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "C→D→A→B",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "C→D→B→A",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "D→A→B→C",
+          "classification": "marginal",
+          "naturalSentence": "地域の祭りを続けるには、仕組みを整える若い世代が運営に参加できる必要がある。"
+        },
+        {
+          "order": "D→A→C→B",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "D→B→A→C",
+          "classification": "marginal",
+          "naturalSentence": "地域の祭りを続けるには、仕組みを整える運営に若い世代が参加できる必要がある。"
+        },
+        {
+          "order": "D→B→C→A",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "D→C→A→B",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "D→C→B→A",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        }
+      ],
+      "naturalOrMarginalAlternativeChangesStarAnswer": true
+    },
+    {
+      "questionId": "N2_09_M8_02",
+      "permutations": [
+        {
+          "order": "A→B→C→D",
+          "classification": "natural",
+          "naturalSentence": "異なる意見をまとめる際は、結論を急がず背景を確かめる姿勢が欠かせない。"
+        },
+        {
+          "order": "A→B→D→C",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "A→C→B→D",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "A→C→D→B",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "A→D→B→C",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "A→D→C→B",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "B→A→C→D",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "B→A→D→C",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "B→C→A→D",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "B→C→D→A",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "B→D→A→C",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "B→D→C→A",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "C→A→B→D",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "C→A→D→B",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "C→B→A→D",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "C→B→D→A",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "C→D→A→B",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "C→D→B→A",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "D→A→B→C",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "D→A→C→B",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "D→B→A→C",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "D→B→C→A",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "D→C→A→B",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "D→C→B→A",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        }
+      ],
+      "naturalOrMarginalAlternativeChangesStarAnswer": false
+    },
+    {
+      "questionId": "N2_09_M8_03",
+      "permutations": [
+        {
+          "order": "A→B→C→D",
+          "classification": "natural",
+          "naturalSentence": "案内を多言語化する前に、誰が情報を必要としているか利用者に聞き取りで確認した。"
+        },
+        {
+          "order": "A→B→D→C",
+          "classification": "natural",
+          "naturalSentence": "案内を多言語化する前に、誰が情報を必要としているか聞き取りで利用者に確認した。"
+        },
+        {
+          "order": "A→C→B→D",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "A→C→D→B",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "A→D→B→C",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "A→D→C→B",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "B→A→C→D",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "B→A→D→C",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "B→C→A→D",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "B→C→D→A",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "B→D→A→C",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "B→D→C→A",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "C→A→B→D",
+          "classification": "natural",
+          "naturalSentence": "案内を多言語化する前に、利用者に誰が情報を必要としているか聞き取りで確認した。"
+        },
+        {
+          "order": "C→A→D→B",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "C→B→A→D",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "C→B→D→A",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "C→D→A→B",
+          "classification": "marginal",
+          "naturalSentence": "案内を多言語化する前に、利用者に聞き取りで誰が情報を必要としているか確認した。"
+        },
+        {
+          "order": "C→D→B→A",
+          "classification": "marginal",
+          "naturalSentence": "案内を多言語化する前に、利用者に聞き取りで必要としているか誰が情報を確認した。"
+        },
+        {
+          "order": "D→A→B→C",
+          "classification": "natural",
+          "naturalSentence": "案内を多言語化する前に、聞き取りで誰が情報を必要としているか利用者に確認した。"
+        },
+        {
+          "order": "D→A→C→B",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "D→B→A→C",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "D→B→C→A",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "D→C→A→B",
+          "classification": "natural",
+          "naturalSentence": "案内を多言語化する前に、聞き取りで利用者に誰が情報を必要としているか確認した。"
+        },
+        {
+          "order": "D→C→B→A",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        }
+      ],
+      "naturalOrMarginalAlternativeChangesStarAnswer": true
+    },
+    {
+      "questionId": "N2_09_M8_04",
+      "permutations": [
+        {
+          "order": "A→B→C→D",
+          "classification": "natural",
+          "naturalSentence": "証言を整理する際は、住民から聞いた内容を事実と意見に分けて記録する必要がある。"
+        },
+        {
+          "order": "A→B→D→C",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "A→C→B→D",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "A→C→D→B",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "A→D→B→C",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "A→D→C→B",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "B→A→C→D",
+          "classification": "marginal",
+          "naturalSentence": "証言を整理する際は、事実と意見に住民から聞いた内容を分けて記録する必要がある。"
+        },
+        {
+          "order": "B→A→D→C",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "B→C→A→D",
+          "classification": "natural",
+          "naturalSentence": "証言を整理する際は、事実と意見に分けて住民から聞いた内容を記録する必要がある。"
+        },
+        {
+          "order": "B→C→D→A",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "B→D→A→C",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "B→D→C→A",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "C→A→B→D",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "C→A→D→B",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "C→B→A→D",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "C→B→D→A",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "C→D→A→B",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "C→D→B→A",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "D→A→B→C",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "D→A→C→B",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "D→B→A→C",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "D→B→C→A",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "D→C→A→B",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "D→C→B→A",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        }
+      ],
+      "naturalOrMarginalAlternativeChangesStarAnswer": true
+    },
+    {
+      "questionId": "N2_09_M8_05",
+      "permutations": [
+        {
+          "order": "A→B→C→D",
+          "classification": "natural",
+          "naturalSentence": "多数決に進む前に、それぞれの主張を支える根拠を比較して論点を整理する必要がある。"
+        },
+        {
+          "order": "A→B→D→C",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "A→C→B→D",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "A→C→D→B",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "A→D→B→C",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "A→D→C→B",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "B→A→C→D",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "B→A→D→C",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "B→C→A→D",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "B→C→D→A",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "B→D→A→C",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "B→D→C→A",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "C→A→B→D",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "C→A→D→B",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "C→B→A→D",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "C→B→D→A",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "C→D→A→B",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "C→D→B→A",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "D→A→B→C",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "D→A→C→B",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "D→B→A→C",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "D→B→C→A",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "D→C→A→B",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        },
+        {
+          "order": "D→C→B→A",
+          "classification": "unnatural",
+          "naturalSentence": ""
+        }
+      ],
+      "naturalOrMarginalAlternativeChangesStarAnswer": false
+    }
+  ]
+}

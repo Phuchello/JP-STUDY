@@ -1,0 +1,56 @@
+{
+  "examId": "N2-MOCK-09",
+  "generatedAt": "2026-10-21T04:11:34.507Z",
+  "browser": "Google Chrome installed on local test host, headless",
+  "viewport": "1280x800 desktop; 390x844 mobile emulation",
+  "catalog": "Public practice entry and full/listening launch links are present and verified in the local browser",
+  "checkCount": 9,
+  "allPassed": true,
+  "checks": [
+    {
+      "name": "catalog_entry_and_responder_links",
+      "passed": true,
+      "details": "[\"https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mock&mockId=N2-MOCK-09\",\"https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mock&mockId=N2-MOCK-09&section=2\"]"
+    },
+    {
+      "name": "section_1_launch",
+      "passed": true,
+      "details": "{\"mockId\":\"N2-MOCK-09\",\"count\":75,\"duration\":6300,\"section\":0,\"firstId\":\"N2_09_M1_01\"}"
+    },
+    {
+      "name": "section_1_scoring_and_draft",
+      "passed": true,
+      "details": "{\"score\":\"KẾT QUẢ PHẦN 1: 50 / 75 CÂU (67%)\",\"savedDraft\":true}"
+    },
+    {
+      "name": "break_screen",
+      "passed": true,
+      "details": "break is visible after Section 1"
+    },
+    {
+      "name": "section_2_launch_and_audio_mapping",
+      "passed": true,
+      "details": "{\"count\":30,\"duration\":3000,\"section\":1,\"audioUrl\":\"audio/n2_mock_09/N2_09_M1_L01.mp3\",\"mondai4Index\":16}"
+    },
+    {
+      "name": "mondai_4_three_choices",
+      "passed": true,
+      "details": "A\nでは、説明を短い言葉に直してみましょう。 | B\n資料室は駅の向かいです。 | C\nはい、専門家は今朝帰りました。"
+    },
+    {
+      "name": "combined_score_and_review",
+      "passed": true,
+      "details": "{\"score\":\"KẾT QUẢ BÀI THI: 70 / 105 CÂU (67%)\",\"draftCleared\":true,\"reviewCards\":30,\"audioTags\":30,\"transcripts\":30,\"explanationsVisible\":true}"
+    },
+    {
+      "name": "mobile_390px_layout",
+      "passed": true,
+      "details": "{\"audio\":true,\"optionCount\":4,\"viewportWidth\":390,\"pageWidth\":390}"
+    },
+    {
+      "name": "browser_console_page_errors",
+      "passed": true,
+      "details": "0"
+    }
+  ]
+}

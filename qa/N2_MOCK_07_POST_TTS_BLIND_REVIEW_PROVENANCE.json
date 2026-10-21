@@ -1,0 +1,16 @@
+{
+  "examId": "N2-MOCK-07",
+  "scope": "16 listening items whose audio was refreshed after spoken response option text changed: M3 L01-L05 and M4 L01-L11",
+  "reviewType": "independent blind transcript-based linguistic review",
+  "reviewerInput": "blind_items_m07_listening_revision_after_tts.json",
+  "reviewResponse": "raw_blind_m07_listening_revision_after_tts_response.json",
+  "sealedInputSha256": "3961bd4942a52d2e34ce54bd29b6234013d631bfbccc115be0a214d4a0e747d2",
+  "responseSha256": "a967045f0242c8598872920184562c04cd444db1d6b427997582bf43f40158ab",
+  "versionBinding": "All 16 answers were checked against their current question IDs, current visible option IDs and exact option text, and current assessment fingerprints before being merged into review_answers_m07_s2.json.",
+  "reconciliation": "16/16 exact selected-option-text and authored-key matches; 0 reviewer concerns.",
+  "limitations": [
+    "Review was blind to the answer key and explanations.",
+    "Review covered the Japanese scripts/transcripts and visible options; reviewer did not audition audio.",
+    "Playback evidence is independently recorded in N2_MOCK_07_AUDIO_PLAYBACK_RECEIPT.json and does not certify pronunciation or prosody."
+  ]
+}

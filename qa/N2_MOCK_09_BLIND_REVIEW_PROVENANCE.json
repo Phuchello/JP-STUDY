@@ -1,0 +1,138 @@
+{
+  "examId": "N2-MOCK-09",
+  "status": "NORMALIZED_VERSION_BOUND_AI_REVIEW",
+  "itemCount": 105,
+  "answerAgreementByExactOptionText": 105,
+  "answerMismatches": [],
+  "unresolvedReviewerConcerns": [],
+  "reviewVersions": {
+    "revision_01": 6,
+    "revision_02": 1,
+    "v1": 98
+  },
+  "mappingMethods": {
+    "DIRECT_IDENTITY": 93,
+    "EXACT_OPTION_TEXT_REMAP": 12
+  },
+  "starPermutationAudits": [
+    {
+      "questionId": "N2_09_M8_01",
+      "reviewedPermutations": 24,
+      "naturalOrMarginalOrders": [
+        "ABCD"
+      ],
+      "plausibleOrderSentences": {
+        "ABCD": "地域の祭りを次世代に引き継ぐには、地域で受け継がれてきた行事の意味を子どもたちに伝えることが大切だ。"
+      },
+      "starAnswer": "C",
+      "alternateOrdersChangingStar": [],
+      "uniqueStarAnswerSupported": true,
+      "reviewVersion": "revision_01",
+      "sourceInputFile": "blind_items_m09_revision_01.json",
+      "reviewerSelection": "C",
+      "reviewerSelectionText": "子どもたちに伝える"
+    },
+    {
+      "questionId": "N2_09_M8_02",
+      "reviewedPermutations": 24,
+      "naturalOrMarginalOrders": [
+        "ABCD"
+      ],
+      "plausibleOrderSentences": {
+        "ABCD": "異なる意見をまとめる際は、結論を急がず背景を確かめる姿勢が欠かせない。"
+      },
+      "starAnswer": "C",
+      "alternateOrdersChangingStar": [],
+      "uniqueStarAnswerSupported": true,
+      "reviewVersion": "v1",
+      "sourceInputFile": "blind_items_m09_v1_s1_p2.json",
+      "reviewerSelection": "C",
+      "reviewerSelectionText": "確かめる"
+    },
+    {
+      "questionId": "N2_09_M8_03",
+      "reviewedPermutations": 24,
+      "naturalOrMarginalOrders": [
+        "ABCD",
+        "BACD"
+      ],
+      "plausibleOrderSentences": {
+        "ABCD": "分析結果を正しく解釈するには、回答者がどの質問に答えたかを調査記録に残す必要がある。",
+        "BACD": "分析結果を正しく解釈するには、どの質問に答えたかを回答者が調査記録に残す必要がある。"
+      },
+      "starAnswer": "C",
+      "alternateOrdersChangingStar": [],
+      "uniqueStarAnswerSupported": true,
+      "reviewVersion": "revision_01",
+      "sourceInputFile": "blind_items_m09_revision_01.json",
+      "reviewerSelection": "C",
+      "reviewerSelectionText": "調査記録に残す"
+    },
+    {
+      "questionId": "N2_09_M8_04",
+      "reviewedPermutations": 24,
+      "naturalOrMarginalOrders": [
+        "ABCD"
+      ],
+      "plausibleOrderSentences": {
+        "ABCD": "議論の経過を後から検証できるようにするには、住民が述べた反対意見も議事録に残しておくことが大切だ。"
+      },
+      "starAnswer": "C",
+      "alternateOrdersChangingStar": [],
+      "uniqueStarAnswerSupported": true,
+      "reviewVersion": "revision_01",
+      "sourceInputFile": "blind_items_m09_revision_01.json",
+      "reviewerSelection": "C",
+      "reviewerSelectionText": "議事録に残しておく"
+    },
+    {
+      "questionId": "N2_09_M8_05",
+      "reviewedPermutations": 24,
+      "naturalOrMarginalOrders": [
+        "ABCD"
+      ],
+      "plausibleOrderSentences": {
+        "ABCD": "多数決に進む前に、それぞれの主張を支える根拠を比較して論点を整理する必要がある。"
+      },
+      "starAnswer": "C",
+      "alternateOrdersChangingStar": [],
+      "uniqueStarAnswerSupported": true,
+      "reviewVersion": "v1",
+      "sourceInputFile": "blind_items_m09_v1_s1_p2.json",
+      "reviewerSelection": "C",
+      "reviewerSelectionText": "比較して"
+    }
+  ],
+  "starAuditRequirement": "Each item enumerates all 24 orders; every natural/marginal alternative was retained. No alternative may change the keyed ★ answer.",
+  "listeningTranscriptSourceVerification": "All 30 sealed transcripts equal the source scripts used for TTS; the browser playback receipt is separate and does not certify pronunciation.",
+  "limitations": [
+    "AI-assisted content review is not human/native-speaker review or psychometric calibration.",
+    "Original agent responses are preserved unchanged; answers are mapped only by exact option text.",
+    "For unchanged items, original reviews were sealed before answer-letter rebalancing; exact text-set and stem checks bind the review to the final items."
+  ],
+  "sourceInputSha256": {
+    "blind_items_m09_revision_01.json": "2d6393c824b892011fdded124f6dfae7d9d8d911dbef2a38d4a95c86f4940859",
+    "blind_items_m09_revision_02.json": "6884d0a1a71a2fcd0b50fe9d564ee336152e2ab1fac53f4b027c5147cf820326",
+    "blind_items_m09_v1_s1_p1.json": "9cb6170f89ade5d626fb30d48261fe916e59a764e0a5b43aa0075c013e62e89d",
+    "blind_items_m09_v1_s1_p2.json": "e05e7799f982be99a4e65417b269eb5157dc3a9a1e90084757b14e0055d1897e",
+    "blind_items_m09_v1_s2.json": "d7a868d75fe84ce87f3ac084d12d21f8007556585c82b38839ab9962f973c1e5",
+    "blind_items_m09_v3_final_export_s1_p1.json": "47a42ee8695c4100366e302f7379afe7ee2670beb468a3b0682347141f30927d",
+    "blind_items_m09_v3_final_export_s1_p2.json": "c839306360b3e1fc641a4b46d01a1fdb6f4bcbad72509ecc260a6ea20b615f49",
+    "blind_items_m09_v3_final_export_s2.json": "d7a868d75fe84ce87f3ac084d12d21f8007556585c82b38839ab9962f973c1e5"
+  },
+  "responseSha256": {
+    "raw_blind_m09_agent_response.json": "04ef64a597a2fc11821c81e8709b676ff6a314b77c6b2a6b96e3283883bf0bc6",
+    "raw_blind_m09_revision_01_agent_response.json": "6217ae04c10f31a64178c19b38c86a05ac9fd69705e35fa6aaea0959a5187d56",
+    "raw_blind_m09_revision_02_agent_response.json": "f5a2aa61d25cda96a02505945b16a55eab78d3eb7898bc85cc18b6ce1ba6e77e"
+  },
+  "mergedInputSha256": {
+    "blind_items_m09_s1_p1.json": "99708e0855ad83acfd6125f4f7149e061943bc7b1f903b6fa93e7788fc49e39b",
+    "blind_items_m09_s1_p2.json": "876fb147a5c398c83e0ad3cacf516ae0da27b33e843440d8237a4c6211757cbe",
+    "blind_items_m09_s2.json": "a2f3583b16627c425d52b163af29d2a11cd12e5f2e403f33e2e7dbcdf97cc785"
+  },
+  "normalizedRawSha256": {
+    "raw_blind_m09_s1_p1.json": "1dd610d7c6f305ec1ed7465ed582f4e93cdc055d7b6b6a9b1208950bc627ed03",
+    "raw_blind_m09_s1_p2.json": "7e93c1926f96127d9328ae4b6a07d30d90b3b28ba258b78a631ccfa05be45af5",
+    "raw_blind_m09_s2.json": "71c56f222d7ac60970cd840a0545002cd5e37486820debbcb096201497a4bbdf"
+  }
+}

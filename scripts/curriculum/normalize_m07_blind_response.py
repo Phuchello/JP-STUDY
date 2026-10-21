@@ -34,6 +34,8 @@ STAR_REVISION_9_RESPONSE = ROOT / "qa/raw_blind_m07_star_revision_9_response.jso
 STAR_REVISION_9_INPUT = ROOT / "qa/blind_items_m07_star_revision_9.json"
 STAR_REVISION_10_RESPONSE = ROOT / "qa/raw_blind_m07_star_revision_10_response.json"
 STAR_REVISION_10_INPUT = ROOT / "qa/blind_items_m07_star_revision_10.json"
+POST_TTS_RESPONSE = ROOT / "qa/raw_blind_m07_listening_revision_after_tts_response.json"
+POST_TTS_INPUT = ROOT / "qa/blind_items_m07_listening_revision_after_tts.json"
 
 
 def read_json(path: Path):
@@ -80,6 +82,35 @@ def main() -> None:
             primary_inputs[item["id"]] = item
     assert set(primary_inputs) == set(current), "Primary sealed-input IDs differ from the exam"
     assert set(primary_answers) == set(current), "Primary blind response is not exactly 105 items"
+
+    # Listening text and spoken choices were refreshed with the audio tracks.
+    # Re-solve only those changed items from a fresh key-free sealed export so
+    # the final answer ledger is bound to the actual current audio hashes.
+    post_tts_input = {item["id"]: item for item in read_json(POST_TTS_INPUT)}
+    post_tts_output = read_json(POST_TTS_RESPONSE)
+    post_tts_rows = post_tts_output.get("items", [])
+    post_tts_answers = {item["questionId"]: item for item in post_tts_rows}
+    expected_post_tts_ids = {
+        *(f"N2_07_M3_L{i:02d}" for i in range(1, 6)),
+        *(f"N2_07_M4_L{i:02d}" for i in range(1, 12)),
+    }
+    if set(post_tts_input) != expected_post_tts_ids or set(post_tts_answers) != expected_post_tts_ids:
+        raise ValueError("Post-TTS sealed review must cover exactly the refreshed M3/M4 items")
+    for qid, sealed in post_tts_input.items():
+        validate_sealed_item_purity(sealed)
+        if sealed.get("contentFingerprint") != compute_question_fingerprint(current[qid]):
+            raise ValueError(f"Post-TTS sealed-input fingerprint mismatch: {qid}")
+        answer = post_tts_answers[qid]
+        if answer.get("concerns"):
+            raise ValueError(f"Post-TTS reviewer raised an unresolved concern for {qid}")
+        option = str(answer.get("selectedOption", "")).strip().upper()
+        selected_text = str(answer.get("selectedOptionText", "")).strip()
+        sealed_options = {str(o["id"]).strip().upper(): str(o["text"]).strip()
+                          for o in sealed.get("options", [])}
+        if option not in sealed_options or sealed_options[option] != selected_text:
+            raise ValueError(f"Post-TTS selected option/text mismatch: {qid}")
+    primary_inputs.update(post_tts_input)
+    primary_answers.update({qid: item["selectedOption"] for qid, item in post_tts_answers.items()})
 
     revision_output = read_json(REVISION_RESPONSE)
     revision_input = {item["id"]: item for item in read_json(REVISION_INPUT)}
@@ -159,6 +190,7 @@ def main() -> None:
     input_map.update(revision_input)
     input_map.update(star_revision_input)
     input_map.update(final_star_input)
+    input_map.update(post_tts_input)
     assert len(answer_map) == 105
 
     grouped = defaultdict(list)
@@ -188,6 +220,7 @@ def main() -> None:
                 FINAL_STAR_RESPONSE.name if qid in final_star_answers else
                 STAR_REVISION_RESPONSE.name if qid in star_revision_answers else
                 REVISION_RESPONSE.name if qid in revision_answers else
+                POST_TTS_RESPONSE.name if qid in post_tts_answers else
                 PRIMARY_RESPONSE.name
             ),
             "selectedOptionText": options[answer],
@@ -195,7 +228,7 @@ def main() -> None:
         grouped["s2" if qid in {it["id"] for it in read_json(ROOT / "qa/blind_items_m07_s2.json")} else
                 "s1_p1" if qid in {it["id"] for it in read_json(ROOT / "qa/blind_items_m07_s1_p1.json")} else
                 "s1_p2"].append(record)
-        if qid in revision_answers or qid in star_revision_answers or qid in final_star_answers:
+        if qid in revision_answers or qid in star_revision_answers or qid in final_star_answers or qid in post_tts_answers:
             changed_items.append(qid)
 
     outputs = []
@@ -228,6 +261,8 @@ def main() -> None:
         f"Rejected star revision 9 sealed-input SHA-256: `{sha256(STAR_REVISION_9_INPUT)}`",
         f"Rejected star revision 10 response SHA-256: `{sha256(STAR_REVISION_10_RESPONSE)}`",
         f"Rejected star revision 10 sealed-input SHA-256: `{sha256(STAR_REVISION_10_INPUT)}`",
+        f"Post-TTS listening response SHA-256: `{sha256(POST_TTS_RESPONSE)}`",
+        f"Post-TTS listening sealed-input SHA-256: `{sha256(POST_TTS_INPUT)}`",
         f"Current exam SHA-256: `{sha256(EXAM_PATH)}`",
         f"Re-reviewed item IDs: {', '.join(f'`{qid}`' for qid in changed_items)}",
         "",
@@ -245,7 +280,7 @@ def main() -> None:
         json.dumps({"reviewSource": FINAL_STAR_RESPONSE.name, "items": star_permutation_audit}, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8"
     )
-    print(f"Normalized 105 preserved answers; 3 came from the grammar revision, 5 from the first sealed star revision, and 2 from the final sealed star revision. Wrote {len(outputs)} version-bound files.")
+    print(f"Normalized 105 preserved answers; the 16 refreshed M3/M4 listening items came from the new sealed post-TTS review. Wrote {len(outputs)} version-bound files.")
 
 
 if __name__ == "__main__":

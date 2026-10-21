@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-10-21 — Phase 6 N2-MOCK-09 Production and M07 Audio Alignment
+
+- Completed N2-MOCK-09 as an original 105-item practice exam (75 written, 30 listening) with 30 real Japanese MP3 assets. Added the exam data to the runtime bank and enabled its full-exam and listening-only catalog links with explicit practice/AI-review disclosures.
+- Recorded version-bound blind review for all 105 M09 items, including current sealed revisions and permutation review for star arrangements. No key mismatches or unresolved answer-changing alternatives remain; human/native-speaker review is still pending.
+- Verified all 30 M09 MP3s in desktop and mobile Chromium for hash, decode and playback progression; full mock E2E passes with correct section sizes/timers, scoring, review and 390px layout.
+- Rebuilt 16 M07 M3/M4 spoken-choice tracks after option wording was aligned, preserved the other 14 tracks, and bound the fresh blind review to the current audio fingerprints. M07 release audit passes 105/105.
+- Added M07/M09 full-mock E2E and audio playback checks to the GitHub Actions workflow.
+
 ## 2026-10-17 — Phase 3.7 False Authentication Boundary Removal, 3-Environment Gates & Pilot Delivery
 
 - **P0 Elimination of False Python Authentication Boundary (`reconcile_blind_review.py`)**:

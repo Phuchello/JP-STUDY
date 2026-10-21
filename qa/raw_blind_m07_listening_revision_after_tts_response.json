@@ -1,0 +1,138 @@
+{
+  "examId": "N2-MOCK-07",
+  "reviewerType": "independent_blind_transcript_based_linguistic_review",
+  "limitations": [
+    "Reviewed only the sealed item text (stem, script/context passage, and visible options); no authored exam, answer key, explanations, or prior QA responses were consulted.",
+    "This is transcript-based linguistic review only. No audio was auditioned, and pronunciation, prosody, pacing, or TTS rendering is not certified."
+  ],
+  "items": [
+    {
+      "questionId": "N2_07_M3_L01",
+      "selectedOption": "D",
+      "selectedOptionText": "子育て関連の行政手続きが一箇所でできるようになったこと。",
+      "japaneseJustification": "児童手当、保育園相談、予防接種の手続きを一括で扱う総合窓口を新設したという案内が全体の主旨です。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_07_M3_L02",
+      "selectedOption": "A",
+      "selectedOptionText": "法令遵守の徹底と不正を許さない誠実な企業風土の重要性。",
+      "japaneseJustification": "売上の達成よりも法令遵守と倫理を重視し、不正を見過ごさず相談窓口を使うよう呼びかけています。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_07_M3_L03",
+      "selectedOption": "B",
+      "selectedOptionText": "地震によるケガを防ぐために家具を固定すること。",
+      "japaneseJustification": "備蓄も必要だと認めたうえで、負傷を防ぐ第一歩として家具の固定を強調しています。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_07_M3_L04",
+      "selectedOption": "C",
+      "selectedOptionText": "退職後の学びを社会貢献や人とのつながりに広げていくこと。",
+      "japaneseJustification": "講座で学んだことを地域の案内やIT支援に生かし、学びを社会参加へ広げる方針です。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_07_M3_L05",
+      "selectedOption": "D",
+      "selectedOptionText": "夜間や休日の子どもの救急医療を受け入れる体制。",
+      "japaneseJustification": "議員は夜間小児救急の受け入れが不足している問題を挙げ、体制の抜本的拡充を求めています。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_07_M4_L01",
+      "selectedOption": "A",
+      "selectedOptionText": "ああ、先ほど目を通して印鑑を押しておいたから、机の上にあるよ。",
+      "japaneseJustification": "依頼された企画書の決裁について、すでに確認・押印したと直接答えています。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_07_M4_L02",
+      "selectedOption": "B",
+      "selectedOptionText": "そうですね、来場者が予想より増えるかもしれませんから、刷っておきます。",
+      "japaneseJustification": "提案に同意し、来場者増加の可能性を理由に追加印刷すると答えています。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_07_M4_L03",
+      "selectedOption": "C",
+      "selectedOptionText": "どうぞお気になさらないでください。迅速に修正対応していただいたので問題ありませんよ。",
+      "japaneseJustification": "謝罪に対して、修正が迅速だったので問題ないと相手を安心させる返答です。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_07_M4_L04",
+      "selectedOption": "A",
+      "selectedOptionText": "先ほどテストを済ませましたが、音声も映像も非常にクリアでしたよ。",
+      "japaneseJustification": "接続テストの状況を尋ねられており、実施済みで結果も良好だと答えています。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_07_M4_L05",
+      "selectedOption": "B",
+      "selectedOptionText": "本当にね。みんなで何週間も前から準備してきたのに、悔しいよね。",
+      "japaneseJustification": "祭りの中止を残念がる話者に共感し、準備してきたのに悔しいと応じています。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_07_M4_L06",
+      "selectedOption": "C",
+      "selectedOptionText": "ええ、ちょうど今手が空いたところですので、拝見しますね。",
+      "japaneseJustification": "書類に目を通してほしいという依頼を受け、今確認すると答えています。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_07_M4_L07",
+      "selectedOption": "A",
+      "selectedOptionText": "申し訳ありません。議論が熱くなって、相手への配慮が足りませんでした。",
+      "japaneseJustification": "言い過ぎたのではという指摘を認め、配慮が不足したと謝っています。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_07_M4_L08",
+      "selectedOption": "B",
+      "selectedOptionText": "私のような若手でよろしければ、ぜひ喜んで挑戦させてください。",
+      "japaneseJustification": "リーダーを引き受けないかという申し出を、謙虚な表現で快諾しています。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_07_M4_L09",
+      "selectedOption": "C",
+      "selectedOptionText": "ええ、来庁者の皆様からも混雑が緩和されたと大変好評をいただいております。",
+      "japaneseJustification": "待ち時間短縮の話を受け、来庁者からも混雑緩和が好評だと肯定しています。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_07_M4_L10",
+      "selectedOption": "A",
+      "selectedOptionText": "ああ、弊社の採算ラインを割り込むことになるから、安易な妥協はできないね。",
+      "japaneseJustification": "相手の値下げ要求を承諾できないという確認に同意し、採算上の理由を説明しています。",
+      "confidence": "high",
+      "concerns": []
+    },
+    {
+      "questionId": "N2_07_M4_L11",
+      "selectedOption": "B",
+      "selectedOptionText": "とんでもない、新入社員の個性に合わせて教えるのは毎回手探りで緊張しますよ。",
+      "japaneseJustification": "「お手の物でしょう」という評価に対し、謙遜しつつ指導の難しさを述べる自然な応答です。",
+      "confidence": "high",
+      "concerns": []
+    }
+  ]
+}

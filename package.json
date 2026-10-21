@@ -6,7 +6,9 @@
   "scripts": {
     "test:smoke": "node scripts/tests/smoke_browser_e2e.cjs",
     "test:m04": "node scripts/tests/test_n2_mock_04_e2e.cjs",
-    "test:m05": "node scripts/tests/test_n2_mock_05_e2e.cjs"
+    "test:m05": "node scripts/tests/test_n2_mock_05_e2e.cjs",
+    "test:m07": "node scripts/tests/test_n2_mock_07_e2e.cjs",
+    "test:m09": "node scripts/tests/test_n2_mock_09_e2e.cjs"
   },
   "devDependencies": {
     "playwright": "^1.49.0"

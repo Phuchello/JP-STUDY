@@ -1,0 +1,1142 @@
+[
+  {
+    "id": "N2_09_M1_01",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-READ",
+    "category": "Mondai 1: 漢字読み",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "自治体は住民の意見を【反映】して計画を修正した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "はんえい"
+      },
+      {
+        "id": "B",
+        "text": "はんよう"
+      },
+      {
+        "id": "C",
+        "text": "ばんえい"
+      },
+      {
+        "id": "D",
+        "text": "はんえ"
+      }
+    ],
+    "contentFingerprint": "b48560f1d502634e49311268d527622a29e57a3212713af134cfed9b359d7104"
+  },
+  {
+    "id": "N2_09_M1_02",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-READ",
+    "category": "Mondai 1: 漢字読み",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "世代間の【隔たり】を縮めるには、対話の機会が必要だ。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "かくたり"
+      },
+      {
+        "id": "B",
+        "text": "へだたり"
+      },
+      {
+        "id": "C",
+        "text": "へたり"
+      },
+      {
+        "id": "D",
+        "text": "かたり"
+      }
+    ],
+    "contentFingerprint": "304f586d46221486ba955da9bc7c61b0ab8b32aba7a8ea254867e270febed63b"
+  },
+  {
+    "id": "N2_09_M1_03",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-READ",
+    "category": "Mondai 1: 漢字読み",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "商店街の空き店舗が増え、地域の活気が【衰退】している。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "しゅうたい"
+      },
+      {
+        "id": "B",
+        "text": "すいだい"
+      },
+      {
+        "id": "C",
+        "text": "そたい"
+      },
+      {
+        "id": "D",
+        "text": "すいたい"
+      }
+    ],
+    "contentFingerprint": "9fafb4f79470fbff0220aa5ea1c94eef0b00397cb6a7dd376e83b6d26251ac3d"
+  },
+  {
+    "id": "N2_09_M1_04",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-READ",
+    "category": "Mondai 1: 漢字読み",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "この制度を【維持】するには、安定した財源が欠かせない。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "いじ"
+      },
+      {
+        "id": "B",
+        "text": "ゆいじ"
+      },
+      {
+        "id": "C",
+        "text": "いち"
+      },
+      {
+        "id": "D",
+        "text": "いし"
+      }
+    ],
+    "contentFingerprint": "7649177f3d8207cde99ac45ef096dae110f157d3892f8e84a82a1d93e18ee9b9"
+  },
+  {
+    "id": "N2_09_M1_05",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-READ",
+    "category": "Mondai 1: 漢字読み",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "議論の【焦点】がずれないよう、最初に論点を整理した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "しょうでん"
+      },
+      {
+        "id": "B",
+        "text": "しょうてん"
+      },
+      {
+        "id": "C",
+        "text": "しゅうてん"
+      },
+      {
+        "id": "D",
+        "text": "しょうて"
+      }
+    ],
+    "contentFingerprint": "02b70067dabefeb36855898d4f3ab33739ed0ac457f8f54dff228a333daee554"
+  },
+  {
+    "id": "N2_09_M2_01",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-ORTH",
+    "category": "Mondai 2: 表記",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "世代間の価値観の違いを【ちょうせい】する場が設けられた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "聴政"
+      },
+      {
+        "id": "B",
+        "text": "調製"
+      },
+      {
+        "id": "C",
+        "text": "長勢"
+      },
+      {
+        "id": "D",
+        "text": "調整"
+      }
+    ],
+    "contentFingerprint": "8991bdfd8efbb1f7f839be86aeca45b722dd861d8ad486972d8d3743cf223c29"
+  },
+  {
+    "id": "N2_09_M2_02",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-ORTH",
+    "category": "Mondai 2: 表記",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "来場者が集中しないよう、入館時間を【ぶんさん】させた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "分散"
+      },
+      {
+        "id": "B",
+        "text": "分担"
+      },
+      {
+        "id": "C",
+        "text": "分断"
+      },
+      {
+        "id": "D",
+        "text": "分譲"
+      }
+    ],
+    "contentFingerprint": "e03733287765ce4fe3d49a56ac42ef0a56e2c49951f97429320d1ed46b74e822"
+  },
+  {
+    "id": "N2_09_M2_03",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-ORTH",
+    "category": "Mondai 2: 表記",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "会議では、反対意見も含めて記録を【こうへい】に残す。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "公表"
+      },
+      {
+        "id": "B",
+        "text": "公平"
+      },
+      {
+        "id": "C",
+        "text": "工兵"
+      },
+      {
+        "id": "D",
+        "text": "好評"
+      }
+    ],
+    "contentFingerprint": "cc849430a920ade309bdfdb9c68acab3f9356df7b7ebb0a506f3fb137477daae"
+  },
+  {
+    "id": "N2_09_M2_04",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-ORTH",
+    "category": "Mondai 2: 表記",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "商店街では、地域の【とくしょく】を生かした催しを開いた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "特食"
+      },
+      {
+        "id": "B",
+        "text": "特職"
+      },
+      {
+        "id": "C",
+        "text": "得色"
+      },
+      {
+        "id": "D",
+        "text": "特色"
+      }
+    ],
+    "contentFingerprint": "8cf1b16444875b0c12aa73f238fe51335bf5b57f8d4cf89e3a496e81befa1b1e"
+  },
+  {
+    "id": "N2_09_M2_05",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-ORTH",
+    "category": "Mondai 2: 表記",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "市は災害時の情報提供を【じゅうじつ】させる方針だ。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "充実"
+      },
+      {
+        "id": "B",
+        "text": "重日"
+      },
+      {
+        "id": "C",
+        "text": "従実"
+      },
+      {
+        "id": "D",
+        "text": "充日"
+      }
+    ],
+    "contentFingerprint": "bd0ca3b67b40d344b8d82bc03121fa46789f6ae074821199325dd8906035237c"
+  },
+  {
+    "id": "N2_09_M3_01",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-FORM",
+    "category": "Mondai 3: 語形成",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "人口が減る地域では、若い世代の【（　）流出】を防ぐ施策が課題だ。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "逆"
+      },
+      {
+        "id": "B",
+        "text": "人口"
+      },
+      {
+        "id": "C",
+        "text": "未"
+      },
+      {
+        "id": "D",
+        "text": "再"
+      }
+    ],
+    "contentFingerprint": "9507e8994f1b93ebb56ecd908d068092f89993e89951a88277f1f9735a9283a9"
+  },
+  {
+    "id": "N2_09_M3_02",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-FORM",
+    "category": "Mondai 3: 語形成",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "文化施設の管理を複数の団体で担う【共同（　）】が始まった。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "運送"
+      },
+      {
+        "id": "B",
+        "text": "運転"
+      },
+      {
+        "id": "C",
+        "text": "運用"
+      },
+      {
+        "id": "D",
+        "text": "運営"
+      }
+    ],
+    "contentFingerprint": "9e5eb0561b49873836f8b4dacfa35bdc7dd13b0edf8d7596b0cb16d7c2c03390"
+  },
+  {
+    "id": "N2_09_M3_03",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-FORM",
+    "category": "Mondai 3: 語形成",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "住民の声を政策に取り入れるため、【市民（　）】の場を設けた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "参加"
+      },
+      {
+        "id": "B",
+        "text": "参照"
+      },
+      {
+        "id": "C",
+        "text": "参列"
+      },
+      {
+        "id": "D",
+        "text": "参入"
+      }
+    ],
+    "contentFingerprint": "405e6be5eca1c9146b068135bfd34611b13391cfa3958aabf6c108b0556f71ca"
+  },
+  {
+    "id": "N2_09_M3_04",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-FORM",
+    "category": "Mondai 3: 語形成",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "商店街では、店主と学生による【新（　）】の企画が話題になった。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "商店"
+      },
+      {
+        "id": "B",
+        "text": "商品"
+      },
+      {
+        "id": "C",
+        "text": "商談"
+      },
+      {
+        "id": "D",
+        "text": "商業"
+      }
+    ],
+    "contentFingerprint": "015b6b66d2b61e8e4be052db4febc7da2e79cfb19393d2378a358b4477b32e12"
+  },
+  {
+    "id": "N2_09_M3_05",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-FORM",
+    "category": "Mondai 3: 語形成",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "複数の言語で行政情報を出す【多（　）】対応が求められる。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "言行"
+      },
+      {
+        "id": "B",
+        "text": "言論"
+      },
+      {
+        "id": "C",
+        "text": "言葉"
+      },
+      {
+        "id": "D",
+        "text": "言語"
+      }
+    ],
+    "contentFingerprint": "c4620149c5f33a7e94fb65ff1e6311b574a3411b8fb60b8cac2358c288bd6dfc"
+  },
+  {
+    "id": "N2_09_M4_01",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-CONT",
+    "category": "Mondai 4: 文脈規定",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "利用者の希望を聞き、複数の案から現実的な方法を（　）した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "選択"
+      },
+      {
+        "id": "B",
+        "text": "圧縮"
+      },
+      {
+        "id": "C",
+        "text": "分離"
+      },
+      {
+        "id": "D",
+        "text": "反省"
+      }
+    ],
+    "contentFingerprint": "2ea4427236c2d9d16230da8412ed2725927539f92fbe8b06977bb51878a60c0a"
+  },
+  {
+    "id": "N2_09_M4_02",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-CONT",
+    "category": "Mondai 4: 文脈規定",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "駅前の工事について、利用者への説明が十分でなく、苦情が（　）した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "交替"
+      },
+      {
+        "id": "B",
+        "text": "続出"
+      },
+      {
+        "id": "C",
+        "text": "維持"
+      },
+      {
+        "id": "D",
+        "text": "反射"
+      }
+    ],
+    "contentFingerprint": "a5ca45d773c25b1f32e1f45abb19337191fe9358851a0382443e82c97da6f9ff"
+  },
+  {
+    "id": "N2_09_M4_03",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-CONT",
+    "category": "Mondai 4: 文脈規定",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "祭りの準備では、経験の長い人だけでなく、初参加の人の意見も（　）した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "省略"
+      },
+      {
+        "id": "B",
+        "text": "回収"
+      },
+      {
+        "id": "C",
+        "text": "尊重"
+      },
+      {
+        "id": "D",
+        "text": "誤解"
+      }
+    ],
+    "contentFingerprint": "cd4b7f9347ebda9cf94f2b4cfbbca565d9f57b9235eed669a6595eb42228c302"
+  },
+  {
+    "id": "N2_09_M4_04",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-CONT",
+    "category": "Mondai 4: 文脈規定",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "資料の数字だけでは判断できないため、聞き取り結果も（　）して検討した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "解消"
+      },
+      {
+        "id": "B",
+        "text": "拒否"
+      },
+      {
+        "id": "C",
+        "text": "予測"
+      },
+      {
+        "id": "D",
+        "text": "考慮"
+      }
+    ],
+    "contentFingerprint": "3bebca2f1418bbaaa01b6b94f8a9389900a277f5dc1e7c9f2dc834b077b30613"
+  },
+  {
+    "id": "N2_09_M4_05",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-CONT",
+    "category": "Mondai 4: 文脈規定",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "担当者が変わるたびに手続きが異なる状態を、共通の手順で（　）した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "統一"
+      },
+      {
+        "id": "B",
+        "text": "拡張"
+      },
+      {
+        "id": "C",
+        "text": "分裂"
+      },
+      {
+        "id": "D",
+        "text": "延期"
+      }
+    ],
+    "contentFingerprint": "8624e3304b81e7ae3e6e2d217f502d8cb3f0262168387b3c6878d48e211b10b6"
+  },
+  {
+    "id": "N2_09_M4_06",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-CONT",
+    "category": "Mondai 4: 文脈規定",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "対立する意見の背景を聞いたことで、議論の目的が少しずつ（　）になった。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "平等"
+      },
+      {
+        "id": "B",
+        "text": "明確"
+      },
+      {
+        "id": "C",
+        "text": "急速"
+      },
+      {
+        "id": "D",
+        "text": "大量"
+      }
+    ],
+    "contentFingerprint": "cb30f5a12ee00c4502063924f315cf929345e947e086e71f55935a5350c50240"
+  },
+  {
+    "id": "N2_09_M4_07",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-CONT",
+    "category": "Mondai 4: 文脈規定",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "この制度は一部の人に負担が偏る可能性があり、導入には慎重な（　）が必要だ。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "分配"
+      },
+      {
+        "id": "B",
+        "text": "観察"
+      },
+      {
+        "id": "C",
+        "text": "判断"
+      },
+      {
+        "id": "D",
+        "text": "到着"
+      }
+    ],
+    "contentFingerprint": "834af7a3753b7cbce2355f83061ec1b2ba2692d2611288255c3acf977f8a9660"
+  },
+  {
+    "id": "N2_09_M5_01",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-PARA",
+    "category": "Mondai 5: 言い換え類義",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "市は住民の要望を【踏まえて】、案内方法を見直した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "取り消して"
+      },
+      {
+        "id": "B",
+        "text": "反対して"
+      },
+      {
+        "id": "C",
+        "text": "先送りして"
+      },
+      {
+        "id": "D",
+        "text": "参考にして"
+      }
+    ],
+    "contentFingerprint": "13019eba702315a1f07a3b3c69a4e10415ca6bbf21c0c852ec8c4e7d75864120"
+  },
+  {
+    "id": "N2_09_M5_02",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-PARA",
+    "category": "Mondai 5: 言い換え類義",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "参加者の意見を【募った】ところ、多くの提案が寄せられた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "広く集めた"
+      },
+      {
+        "id": "B",
+        "text": "一つにまとめた"
+      },
+      {
+        "id": "C",
+        "text": "厳しく批判した"
+      },
+      {
+        "id": "D",
+        "text": "細かく分けた"
+      }
+    ],
+    "contentFingerprint": "0f3f3b78cb62d3e8183b652fe02f3c0c8b4e75b604354164cb35adeb355565dc"
+  },
+  {
+    "id": "N2_09_M5_03",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-PARA",
+    "category": "Mondai 5: 言い換え類義",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "旧来の制度を【見直す】時期に来ている。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "そのまま続ける"
+      },
+      {
+        "id": "B",
+        "text": "改めて検討する"
+      },
+      {
+        "id": "C",
+        "text": "早く知らせる"
+      },
+      {
+        "id": "D",
+        "text": "完全に廃止する"
+      }
+    ],
+    "contentFingerprint": "ddbfa3fac460bd0d2d39e0f279ed4854843164916ddbcbbf59525d404df7410a"
+  },
+  {
+    "id": "N2_09_M5_04",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-PARA",
+    "category": "Mondai 5: 言い換え類義",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "二つの案には、費用の面で【大差がない】。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "費用がかからない"
+      },
+      {
+        "id": "B",
+        "text": "同じ目的がない"
+      },
+      {
+        "id": "C",
+        "text": "大きな違いがない"
+      },
+      {
+        "id": "D",
+        "text": "片方が優れている"
+      }
+    ],
+    "contentFingerprint": "9d69114e68cab75930353d455eec01f6282541d3c5fc4146f5623d1a0d73993f"
+  },
+  {
+    "id": "N2_09_M5_05",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-PARA",
+    "category": "Mondai 5: 言い換え類義",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "説明会の参加者は、予想を【上回った】。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "予想を取り消した"
+      },
+      {
+        "id": "B",
+        "text": "予想と同じだった"
+      },
+      {
+        "id": "C",
+        "text": "予想に届かなかった"
+      },
+      {
+        "id": "D",
+        "text": "予想より多かった"
+      }
+    ],
+    "contentFingerprint": "7ccfba9ba684acfe12c03b85676e12734fbbf499d1a3aab9797ef09036501fd1"
+  },
+  {
+    "id": "N2_09_M6_01",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-USE",
+    "category": "Mondai 6: 用法",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "『促す』の使い方として最もよいものはどれか。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "係員は列が進むよう、次の人に前へ進むことを促した。"
+      },
+      {
+        "id": "B",
+        "text": "雨が降ったので、道路が促してぬれた。"
+      },
+      {
+        "id": "C",
+        "text": "彼は本を促して棚に戻した。"
+      },
+      {
+        "id": "D",
+        "text": "会議の開始時刻を促して午後に変更した。"
+      }
+    ],
+    "contentFingerprint": "e05a65a0b2ff28170a3990692b3afffe957671f68ac621c72e7f8b93b2898710"
+  },
+  {
+    "id": "N2_09_M6_02",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-USE",
+    "category": "Mondai 6: 用法",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "『偏る』の使い方として最もよいものはどれか。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "彼は駅へ偏って歩いた。"
+      },
+      {
+        "id": "B",
+        "text": "この調査は若い世代の回答に偏っている。"
+      },
+      {
+        "id": "C",
+        "text": "机の上の紙が偏って読めた。"
+      },
+      {
+        "id": "D",
+        "text": "会議は六時に偏って始まった。"
+      }
+    ],
+    "contentFingerprint": "9f1553244790b6ac73a4f1f6d0613d2bf5c329e7082287c12d04f5ba78785706"
+  },
+  {
+    "id": "N2_09_M6_03",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-USE",
+    "category": "Mondai 6: 用法",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "『担う』の使い方として最もよいものはどれか。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "道の角を担って右へ曲がった。"
+      },
+      {
+        "id": "B",
+        "text": "寒さを担って上着を着た。"
+      },
+      {
+        "id": "C",
+        "text": "地域の防災を担う団体が、訓練を企画した。"
+      },
+      {
+        "id": "D",
+        "text": "資料を担って読めるようにした。"
+      }
+    ],
+    "contentFingerprint": "e469efb647120723ea3e6c884b5277fb50a861c75d5f8bc17b336eb831908382"
+  },
+  {
+    "id": "N2_09_M6_04",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-USE",
+    "category": "Mondai 6: 用法",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "『見込む』の使い方として最もよいものはどれか。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "会場を見込んで祭りを始めた。"
+      },
+      {
+        "id": "B",
+        "text": "彼は窓を見込んで閉めた。"
+      },
+      {
+        "id": "C",
+        "text": "係員は切符を見込んで改札を通った。"
+      },
+      {
+        "id": "D",
+        "text": "市は来年度、利用者が増えると見込んでいる。"
+      }
+    ],
+    "contentFingerprint": "5a276f8148f5763ef6feb3163cc82fd93609a57d635e38a0b01c6b4c5631cc26"
+  },
+  {
+    "id": "N2_09_M6_05",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-MO-USE",
+    "category": "Mondai 6: 用法",
+    "taskInstructions": "最もよいものを一つ選びなさい。",
+    "stem": "『和らぐ』の使い方として最もよいものはどれか。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "話し合いの後、両者の緊張が少し和らいだ。"
+      },
+      {
+        "id": "B",
+        "text": "彼は意見を和らいで提出した。"
+      },
+      {
+        "id": "C",
+        "text": "橋が和らいで渡りやすくなった。"
+      },
+      {
+        "id": "D",
+        "text": "荷物を和らいで運んだ。"
+      }
+    ],
+    "contentFingerprint": "a26ed8047aea631fe3703f3f23beeba66d50ea25b1adbbf4964f914cc859419f"
+  },
+  {
+    "id": "N2_09_M7_01",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-GR-FORM",
+    "category": "Mondai 7: 文法形式の判断",
+    "taskInstructions": "次の文の（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+    "stem": "住民の意見を聞く（　）、計画の弱点が見えてきた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "にとって"
+      },
+      {
+        "id": "B",
+        "text": "につれて"
+      },
+      {
+        "id": "C",
+        "text": "を問わず"
+      },
+      {
+        "id": "D",
+        "text": "に先立って"
+      }
+    ],
+    "contentFingerprint": "6b300d585a98ae2d77350fc4a1a07451f817968d6acd8580ea862611b091401e"
+  },
+  {
+    "id": "N2_09_M7_02",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-GR-FORM",
+    "category": "Mondai 7: 文法形式の判断",
+    "taskInstructions": "次の文の（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+    "stem": "観光客が増える（　）、ごみの量も増加した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "をめぐって"
+      },
+      {
+        "id": "B",
+        "text": "に限って"
+      },
+      {
+        "id": "C",
+        "text": "に伴って"
+      },
+      {
+        "id": "D",
+        "text": "に反して"
+      }
+    ],
+    "contentFingerprint": "688039b1214e18a59e77fb81ecfd4ca515b16c24e8ca176c0b519f7797c91450"
+  },
+  {
+    "id": "N2_09_M7_03",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-GR-FORM",
+    "category": "Mondai 7: 文法形式の判断",
+    "taskInstructions": "次の文の（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+    "stem": "この祭りは、地元の人（　）、近隣の市からも参加者が来る。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "に先立ち"
+      },
+      {
+        "id": "B",
+        "text": "に際して"
+      },
+      {
+        "id": "C",
+        "text": "に応じて"
+      },
+      {
+        "id": "D",
+        "text": "に限らず"
+      }
+    ],
+    "contentFingerprint": "89831e2bdd8bdbac6678e3bf023c9d9238e6d57453ae21b6ad828aa2369c5600"
+  },
+  {
+    "id": "N2_09_M7_04",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-GR-FORM",
+    "category": "Mondai 7: 文法形式の判断",
+    "taskInstructions": "次の文の（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+    "stem": "どの世代の人（　）、分かりやすい案内が必要だ。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "にとっても"
+      },
+      {
+        "id": "B",
+        "text": "に限って"
+      },
+      {
+        "id": "C",
+        "text": "を契機に"
+      },
+      {
+        "id": "D",
+        "text": "にしては"
+      }
+    ],
+    "contentFingerprint": "43b46059c72902fb0bdf3a829cd82b2060a0045d8285957dbf3b4791e922d649"
+  },
+  {
+    "id": "N2_09_M7_05",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-GR-FORM",
+    "category": "Mondai 7: 文法形式の判断",
+    "taskInstructions": "次の文の（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+    "stem": "調査に協力してもらう（　）、目的と個人情報の扱いを説明した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "にしたがって"
+      },
+      {
+        "id": "B",
+        "text": "にあたって"
+      },
+      {
+        "id": "C",
+        "text": "に反して"
+      },
+      {
+        "id": "D",
+        "text": "に限り"
+      }
+    ],
+    "contentFingerprint": "ca05ec3530ecd403cfe34b6b2f1f98344c9edb52457e1479e02f36fe1de21a38"
+  },
+  {
+    "id": "N2_09_M7_06",
+    "examId": "N2-MOCK-09",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-GR-FORM",
+    "category": "Mondai 7: 文法形式の判断",
+    "taskInstructions": "次の文の（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+    "stem": "結論を急ぐ（　）、異なる立場の意見も確かめるべきだ。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "どころか"
+      },
+      {
+        "id": "B",
+        "text": "からには"
+      },
+      {
+        "id": "C",
+        "text": "ことなく"
+      },
+      {
+        "id": "D",
+        "text": "にしたって"
+      }
+    ],
+    "contentFingerprint": "eb9a296a8584310cb2a0aa40dfea36d8315ad6529bfc8cc7bbef1098a5337960"
+  }
+]
