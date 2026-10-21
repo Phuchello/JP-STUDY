@@ -1,0 +1,40 @@
+{
+  "examId": "N2-MOCK-08",
+  "status": "LIVE_DEPLOYMENT_VERIFIED",
+  "verifiedAtUtc": "2026-10-21T03:24:39Z",
+  "commitSha": "ab15b1ddcc3195a8d8154842a7c063cd0333b0a7",
+  "actionsRun": {
+    "url": "https://github.com/Phuchello/JP-STUDY/actions/runs/39538124153",
+    "status": "success",
+    "contentQaJob": "success",
+    "gatedPagesDeployment": "success"
+  },
+  "browser": "Google Chrome headless with network access",
+  "catalog": {
+    "url": "https://phuchello.github.io/JP-STUDY/widgets/jlpt_exam_catalog.html",
+    "httpStatus": 200,
+    "practiceEntryVisible": true,
+    "fullMockHref": "https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mock&mockId=N2-MOCK-08",
+    "listeningHref": "https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mock&mockId=N2-MOCK-08&section=2"
+  },
+  "exam": {
+    "url": "https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mock&mockId=N2-MOCK-08",
+    "httpStatus": 200,
+    "mockId": "N2-MOCK-08",
+    "section1QuestionCount": 75,
+    "section1TimerSeconds": 6300,
+    "firstQuestionId": "N2_08_M1_01"
+  },
+  "liveAudio": {
+    "url": "https://phuchello.github.io/JP-STUDY/audio/n2_mock_08/N2_08_M1_L01.mp3",
+    "httpStatus": 200,
+    "decodedDurationSeconds": 58.488,
+    "playbackAdvanced": true,
+    "observedCurrentTimeSeconds": 0.078546
+  },
+  "browserPageErrors": [],
+  "limitations": [
+    "This verifies deployment and playability, not Japanese pronunciation quality.",
+    "The examination is an AI-reviewed practice resource and has no human/native-speaker certification or psychometric calibration."
+  ]
+}

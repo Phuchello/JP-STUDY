@@ -1,8 +1,8 @@
 {
   "snapshotDate": "2026-10-15",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
-  "fileCountExcludingManifest": 813,
-  "totalBytesExcludingManifest": 127064289,
+  "fileCountExcludingManifest": 814,
+  "totalBytesExcludingManifest": 127066311,
   "files": [
     {
       "path": ".gitattributes",
@@ -2412,8 +2412,8 @@
     },
     {
       "path": "FILE_INDEX.md",
-      "bytes": 80621,
-      "sha256": "417a9457a14f8a61f449728e6b4b87e813b2dca5b741b988e2a083db9b986608",
+      "bytes": 80727,
+      "sha256": "25a848b4f392decff3e17830ff64c2e6958c716efee7b99792736cbbf63d8462",
       "status": "VERIFIED"
     },
     {
@@ -2448,8 +2448,8 @@
     },
     {
       "path": "PROJECT_STATUS.md",
-      "bytes": 38821,
-      "sha256": "ac1964db1f940f1d45da400d9876c87eddf959416ed47a99a1acdf352818a5bd",
+      "bytes": 39066,
+      "sha256": "b18fd096a00c0553716b5b6dbbbeb68a29207473d7a6f18ed34bd3d8988098dd",
       "status": "VERIFIED"
     },
     {
@@ -3318,14 +3318,20 @@
     },
     {
       "path": "qa/N2_MOCK_08_E2E_REPORT.json",
-      "bytes": 2200,
-      "sha256": "e759e3ddd7881531cac241cd15ee5f23850660214dbf25659c3add673edeaead",
+      "bytes": 2207,
+      "sha256": "12f8cf48c060e7b121e5186ea4d4c4804a5bc1fb94a72797687b78767622eb7c",
       "status": "QA_PENDING"
     },
     {
       "path": "qa/N2_MOCK_08_INDEPENDENT_AUDIT_REPORT.md",
       "bytes": 32726,
       "sha256": "8bcec8886da2f7ffb2dcb4e1e844c737d8feb911d857f6ca8bd8dec125c45e75",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "qa/N2_MOCK_08_LIVE_DEPLOYMENT_RECEIPT.json",
+      "bytes": 1657,
+      "sha256": "8d191ddd99d79f54386b0f15ec092a6ab34e88a0552c75cf5b69d5fee171ac4b",
       "status": "QA_PENDING"
     },
     {
@@ -4758,8 +4764,8 @@
     },
     {
       "path": "scripts/tests/test_n2_mock_08_e2e.cjs",
-      "bytes": 8139,
-      "sha256": "6326325a0d9f469c45ca8c65887a8c3ee2157990aeb5cdd0b165686d2c68fa3f",
+      "bytes": 8146,
+      "sha256": "dfa1de7562d928aa871af91ce7624c6c813a4206817a774749be360e8737790d",
       "status": "QA_PENDING"
     },
     {

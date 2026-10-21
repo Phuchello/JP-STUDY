@@ -139,7 +139,7 @@ async function main() {
       generatedAt: new Date().toISOString(),
       browser: 'Google Chrome installed on local test host, headless',
       viewport: '1280x800 desktop; 390x844 mobile emulation',
-      catalog: 'Intentionally remains IN_DEVELOPMENT and hidden from public launch until release gate passes',
+      catalog: 'Public practice entry and full/listening launch links are present and verified in the local browser',
       checkCount: checks.length,
       allPassed: true,
       checks
