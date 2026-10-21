@@ -2,7 +2,7 @@
   "snapshotDate": "2026-10-21",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
   "fileCountExcludingManifest": 954,
-  "totalBytesExcludingManifest": 148019901,
+  "totalBytesExcludingManifest": 148013763,
   "files": [
     {
       "path": ".gitattributes",
@@ -3247,7 +3247,7 @@
     {
       "path": "qa/CI_QA_SUMMARY.json",
       "bytes": 7480,
-      "sha256": "22865e49e26a24243ec682b1d1921fa0c4f7013a82f03a469dc92fb4ca44a4ce",
+      "sha256": "254f5851078a97b146f7ad598624004676441abaecf59ffe39b1d07a91fe75df",
       "status": "VERIFIED"
     },
     {
@@ -3942,8 +3942,8 @@
     },
     {
       "path": "qa/PHASE_6_1_OPTION_REMAP_MANIFEST.json",
-      "bytes": 323915,
-      "sha256": "3fe5c36e1182021e2b512c0a3114eb4b5157fa4d75b6ac509395fe2625502ab9",
+      "bytes": 317497,
+      "sha256": "3e79cc553b77f7cd86c9e83bf62e7df09afde245841f75331027b65c12866a1d",
       "status": "VERIFIED"
     },
     {
@@ -5256,8 +5256,8 @@
     },
     {
       "path": "scripts/curriculum/prepare_phase_61_remapping_manifest.py",
-      "bytes": 6040,
-      "sha256": "21e748b680e547cd63483d0407d611fbddbd78b433afcbceb43ac6d5f72d583c",
+      "bytes": 6576,
+      "sha256": "2a6e2ad0a0b9ed1dcd4729bdc1a04d43b8d189c05ad58c36f31e6dbc1baaeb8e",
       "status": "VERIFIED"
     },
     {
@@ -5346,8 +5346,8 @@
     },
     {
       "path": "scripts/curriculum/validate_phase_61_content_quality.py",
-      "bytes": 12790,
-      "sha256": "9861f94d201cf1b2a1a0e2e2c610056d3b6081fad8964202440b93dcbbc3f411",
+      "bytes": 12534,
+      "sha256": "bfb8030f59e72167d8082f726736f2681e0d5f7b54afde7a05b653c5d3bcc82c",
       "status": "VERIFIED"
     },
     {

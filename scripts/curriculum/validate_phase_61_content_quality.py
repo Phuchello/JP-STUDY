@@ -2,8 +2,8 @@
 from __future__ import annotations
 
 import json
+import hashlib
 import re
-import subprocess
 import sys
 from pathlib import Path
 
@@ -38,11 +38,6 @@ def questions(exam: dict) -> dict[str, dict]:
     if [len(section.get("items", [])) for section in exam.get("sections", [])] != [75, 30]:
         raise ValueError(f"{exam.get('examId')}: expected 75/30 section structure.")
     return indexed
-
-
-def git_json(ref: str, path: str) -> dict:
-    raw = subprocess.check_output(["git", "show", f"{ref}:{path}"], cwd=ROOT)
-    return json.loads(raw.decode("utf-8"))
 
 
 def star_sentence(question: dict, order: list[str], option_texts: dict[str, str]) -> str:
@@ -159,11 +154,11 @@ def main() -> int:
         raise ValueError("Answer-pattern screens failed: " + "; ".join(defects))
     before = {exam_id: manifest["beforeMetrics"][exam_id] for exam_id in manifest["exams"]}
     after = {exam_id: answer_pattern_metrics(exams[exam_id]) for exam_id in manifest["exams"]}
-    before_08 = git_json(BASE_SHA, "data/mock_exams/n2_mock_08.json")
-    before_09 = git_json(BASE_SHA, "data/mock_exams/n2_mock_09.json")
-    before_08_s1 = before_08["sections"][0]["items"]
-    before_09_s1 = before_09["sections"][0]["items"]
-    before_08_09_matches = sum(a["correctAnswer"] == b["correctAnswer"] for a, b in zip(before_08_s1, before_09_s1))
+    before_08_keys = [manifest["exams"]["N2-MOCK-08"][q["id"]]["originalCorrectId"]
+                      for q in exams["N2-MOCK-08"]["sections"][0]["items"]]
+    before_09_keys = [manifest["exams"]["N2-MOCK-09"][q["id"]]["originalCorrectId"]
+                      for q in exams["N2-MOCK-09"]["sections"][0]["items"]]
+    before_08_09_matches = sum(a == b for a, b in zip(before_08_keys, before_09_keys))
     after_08_s1 = exams["N2-MOCK-08"]["sections"][0]["items"]
     after_09_s1 = exams["N2-MOCK-09"]["sections"][0]["items"]
     after_08_09_matches = sum(a["correctAnswer"] == b["correctAnswer"] for a, b in zip(after_08_s1, after_09_s1))
@@ -171,9 +166,8 @@ def main() -> int:
         raise ValueError(f"Unexpected Phase 6.1 baseline/remap totals: alignment={before_08_09_matches}, remapped={semantic_remap_totals}.")
     if audio_receipt.get("status") != "PASS" or sum(row["spokenChoiceTracks"] for row in audio_receipt["exams"].values()) != 48:
         raise ValueError("48 changed spoken-choice audio tracks lack full technical/browser evidence.")
-    n2_10_unchanged = subprocess.check_output(
-        ["git", "show", f"{BASE_SHA}:data/mock_exams/n2_mock_10.json"], cwd=ROOT
-    ) == (ROOT / "data/mock_exams/n2_mock_10.json").read_bytes()
+    n2_10_bytes = (ROOT / "data/mock_exams/n2_mock_10.json").read_bytes()
+    n2_10_unchanged = hashlib.sha256(n2_10_bytes).hexdigest() == manifest.get("baselineN2Mock10Sha256")
     if not n2_10_unchanged:
         raise ValueError("N2-MOCK-10 changed during this Phase 6.1 task.")
 
@@ -209,15 +203,14 @@ def main() -> int:
             "Pattern screens flag risk signals; they do not certify answer quality or psychometric calibration.",
         ],
     }
-    for number, qid in ((8, "N2_08_M1_01"), (8, "N2_08_M8_03"), (9, "N2_09_M10_01")):
-        old_exam = git_json(BASE_SHA, f"data/mock_exams/n2_mock_{number:02}.json")
-        old_questions = questions(old_exam)
-        current_question = exams[f"N2-MOCK-{number:02}"]
+    for exam_id, qid in (("N2-MOCK-08", "N2_08_M1_01"),
+                         ("N2-MOCK-08", "N2_08_M8_03"),
+                         ("N2-MOCK-09", "N2_09_M10_01")):
         report["localizationExamples"].append({
-            "examId": f"N2-MOCK-{number:02}",
+            "examId": exam_id,
             "questionId": qid,
-            "before": old_questions[qid].get("explanationVi", ""),
-            "after": questions(current_question)[qid].get("explanationVi", ""),
+            "before": manifest["baselineExplanationExamples"][qid],
+            "after": questions(exams[exam_id])[qid].get("explanationVi", ""),
         })
     REPORT_PATH.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({"status": report["status"],

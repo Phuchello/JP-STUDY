@@ -48,6 +48,7 @@ def create_manifest(salt: int) -> dict:
     exams = {}
     before_metrics = {}
     simulated = {}
+    baseline_explanation_examples = {}
     for number in (7, 8, 9):
         exam_id = f"N2-MOCK-{number:02}"
         path = ROOT / f"data/mock_exams/n2_mock_{number:02}.json"
@@ -77,6 +78,8 @@ def create_manifest(salt: int) -> dict:
                         "N2-LIS-SUMM", "N2-LIS-OUTL", "N2-LIS-GIST", "N2-LIS-RESP"
                     } else "NOT_SPOKEN",
                 }
+                if q["id"] in {"N2_08_M1_01", "N2_08_M8_03", "N2_09_M10_01"}:
+                    baseline_explanation_examples[q["id"]] = q.get("explanationVi", "")
                 if q.get("typeId") == "N2-GR-STAR":
                     fragment_order = _star_fragment_order(q)
                     if len(fragment_order) != 4 or len(set(fragment_order)) != 4:
@@ -93,6 +96,10 @@ def create_manifest(salt: int) -> dict:
         "purpose": "Reproducible text-preserving display-label remap; raw reviewer artifacts remain immutable.",
         "method": "Independent SHA-256-derived Python PRNG seed per exam/question; Fisher-Yates shuffle; no target quota.",
         "salt": salt,
+        "baselineN2Mock10Sha256": hashlib.sha256(
+            (ROOT / "data/mock_exams/n2_mock_10.json").read_bytes()
+        ).hexdigest(),
+        "baselineExplanationExamples": baseline_explanation_examples,
         "exams": exams,
         "beforeMetrics": before_metrics,
         "afterMetrics": {exam_id: answer_pattern_metrics(exam) for exam_id, exam in simulated.items()},
@@ -101,6 +108,8 @@ def create_manifest(salt: int) -> dict:
 
 def main() -> None:
     output = ROOT / "qa/PHASE_6_1_OPTION_REMAP_MANIFEST.json"
+    if output.exists():
+        raise FileExistsError(f"Refusing to overwrite the Phase 6.1 source baseline: {output}")
     for salt in range(10000):
         manifest = create_manifest(salt)
         exams = {}
