@@ -20,14 +20,17 @@
     "raw_blind_m06_s1_p1.json": "c577cc2417af9fba8b19aaac5a13f01b3746eb38a4f2c8d49c20c533e7817799",
     "raw_blind_m06_s1_p2.json": "9d8221b97af5b38d1c1f7176e8bfba63795ca28912c800bbd14501e508d81bd8",
     "raw_blind_m06_s2.json": "b220b9c458bdce2c7e4a2691a10c9ce0907aca0da9a1dec3b0465286fa3d6243",
+    "review_answers_m07_s1_p1.json": "33ea6530bf072ed49ee86f7190efaa5a0c244b7e573bd21ecefeb6700c6b0734",
+    "review_answers_m07_s1_p2.json": "bf12d5558ac4a1c3b129d98630eabdbaea5a901ae254b7a1e15306d731dd118c",
+    "review_answers_m07_s2.json": "419c06030860b776723a7ec49ad74f65c753dc26f0f882b5089c428a33c98426",
     "raw_blind_star_repaired_3.json": "45ab0ba1bad83384bade7f3946a8c3654074a6e5cda6e4b04f3168ac18731ca1",
     "raw_blind_repaired_5.json": "fbf8d578575f26cc9375d3274d42698b6b0d3a2a84c529bc17956c954386c7ab"
   },
-  "derivedArtifactHash": "9d70e64531c863aaade8927dad8c69effe6f1d8550d3a1798ad473a1f47df781",
-  "totalQuestionsAudited": 630,
+  "derivedArtifactHash": "5dc6503491319f7b9cdcd9458123745f8dee2801db44f23ed86a3dd8b14bf3ca",
+  "totalQuestionsAudited": 735,
   "provenanceBreakdown": {
     "RECONSTRUCTED_FROM_ARCHIVED_INPUT": 287,
-    "FRESH_REVIEW_VERIFIED": 324,
+    "REVIEW_CONTENT_VERSION_VERIFIED": 429,
     "OPTION_PERMUTATION_REBOUND": 19
   },
   "totalReorderedQuestions": 19,

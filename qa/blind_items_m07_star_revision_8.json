@@ -1,0 +1,62 @@
+[
+  {
+    "id": "N2_07_M8_04",
+    "examId": "N2-MOCK-07",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-GR-STAR",
+    "category": "Mondai 8: 文の組み立て",
+    "taskInstructions": "次の文の ★ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+    "stem": "会議の議事録を作る際は、（　　）（　　）★（　　）大切です。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "発言者の意図を"
+      },
+      {
+        "id": "B",
+        "text": "単に発言を文字に起こすだけでなく、"
+      },
+      {
+        "id": "C",
+        "text": "ことも"
+      },
+      {
+        "id": "D",
+        "text": "正確に読み取る"
+      }
+    ],
+    "contentFingerprint": "7d4a346b3d85f7e99353f36c0ecba5b0f4b2a296db0762e71dd3d623a87ad53f"
+  },
+  {
+    "id": "N2_07_M8_05",
+    "examId": "N2-MOCK-07",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-GR-STAR",
+    "category": "Mondai 8: 文の組み立て",
+    "taskInstructions": "次の文の ★ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+    "stem": "会議で示された資料だけでは、（　　）（　　）★（　　）わけではない。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "すべての提案が"
+      },
+      {
+        "id": "B",
+        "text": "実現可能だという"
+      },
+      {
+        "id": "C",
+        "text": "ことを"
+      },
+      {
+        "id": "D",
+        "text": "示している"
+      }
+    ],
+    "contentFingerprint": "c4d2f75b2b31e312c025e278245836a4f6875b13c17e92411f87f9755b4af5b8"
+  }
+]

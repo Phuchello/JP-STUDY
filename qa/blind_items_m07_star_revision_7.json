@@ -1,0 +1,62 @@
+[
+  {
+    "id": "N2_07_M8_04",
+    "examId": "N2-MOCK-07",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-GR-STAR",
+    "category": "Mondai 8: 文の組み立て",
+    "taskInstructions": "次の文の ★ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+    "stem": "会議の議事録を作る際は、（　　）（　　）★（　　）大切です。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "発言者の意図を"
+      },
+      {
+        "id": "B",
+        "text": "単に発言を文字に起こすだけでなく、"
+      },
+      {
+        "id": "C",
+        "text": "ことも"
+      },
+      {
+        "id": "D",
+        "text": "正確に読み取る"
+      }
+    ],
+    "contentFingerprint": "7d4a346b3d85f7e99353f36c0ecba5b0f4b2a296db0762e71dd3d623a87ad53f"
+  },
+  {
+    "id": "N2_07_M8_05",
+    "examId": "N2-MOCK-07",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-GR-STAR",
+    "category": "Mondai 8: 文の組み立て",
+    "taskInstructions": "次の文の ★ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+    "stem": "機密書類を取り扱う際は、（　　）（　　）★（　　）。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "所定の場所に"
+      },
+      {
+        "id": "B",
+        "text": "社外へ持ち出すことが"
+      },
+      {
+        "id": "C",
+        "text": "保管してください"
+      },
+      {
+        "id": "D",
+        "text": "禁止されているため、"
+      }
+    ],
+    "contentFingerprint": "ac029c81254f630fdd9793c5457b2b53e1d922f8f1b02c49fc34c22f231477a4"
+  }
+]

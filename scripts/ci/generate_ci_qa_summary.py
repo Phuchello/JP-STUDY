@@ -118,13 +118,28 @@ def evaluate_all_exams(exit_on_failure=False):
 
             if receipt_file.exists():
                 receipt = json.loads(receipt_file.read_text(encoding='utf-8'))
-                raw_tracks = receipt.get('tracks', {})
-                if isinstance(raw_tracks, dict):
-                    receipt_tracks_map = raw_tracks
-                elif isinstance(raw_tracks, list):
-                    receipt_tracks_map = {t.get('questionId', f"{mid}_L{i:02d}"): t for i, t in enumerate(raw_tracks, 1)}
+                # Prefer the detailed browser rows. The compact `tracks` map
+                # may contain only self-declared status fields and cannot
+                # establish decoding or real playback progression.
+                detailed_rows = receipt.get('results', [])
+                if isinstance(detailed_rows, list) and detailed_rows:
+                    receipt_tracks_map = {
+                        row.get('questionId') or row.get('id') or row.get('qid'): row
+                        for row in detailed_rows
+                        if isinstance(row, dict) and (row.get('questionId') or row.get('id') or row.get('qid'))
+                    }
                 else:
-                    receipt_tracks_map = {}
+                    raw_tracks = receipt.get('tracks', {})
+                    if isinstance(raw_tracks, dict):
+                        receipt_tracks_map = raw_tracks
+                    elif isinstance(raw_tracks, list):
+                        receipt_tracks_map = {
+                            t.get('questionId') or t.get('id') or t.get('qid'): t
+                            for t in raw_tracks
+                            if isinstance(t, dict) and (t.get('questionId') or t.get('id') or t.get('qid'))
+                        }
+                    else:
+                        receipt_tracks_map = {}
 
                 # Evaluate each track across the 5 acoustic tiers
                 exam_audio_passed = True
@@ -290,8 +305,13 @@ def evaluate_all_exams(exit_on_failure=False):
             "fingerprintMatches": dict(fingerprint_matches)
         },
         "evaluationLayers": {
-            "aiBlindReviewVerified": True if (is_gate_pass and total_items > 0) else False,
+            "versionBoundReviewConsistency": "VERIFIED" if (total_items > 0 and fp_mismatches == 0 and review_required == 0 and quarantined == 0) else "INCOMPLETE_OR_BLOCKED",
+            "independentExecutionProvenance": "SEE_PER_MOCK_SEMANTIC_QA_STATUS; NO_UNATTESTED_HOST_LOGS_PROMOTED",
             "humanExpertCertification": "PENDING_HUMAN_PANEL",
+            "reviewEvidenceByMock": {
+                exam_id: metrics["semanticQaStatus"]
+                for exam_id, metrics in mock_metrics.items()
+            },
             "failClosedPublicationEnforced": True
         },
         "releaseCertification": "TECHNICALLY_READY · REVIEW_PROVENANCE_GUARDED" if is_gate_pass else "BLOCKED_FAIL_CLOSED"

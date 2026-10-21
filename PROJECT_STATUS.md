@@ -1,4 +1,10 @@
-# Trạng thái dự án — 17/10/2026
+# Trạng thái dự án — 21/10/2026
+
+## Phase 6 — N2 full mock production checkpoint (21/10/2026)
+
+- **N2-MOCK-07 — `QA_PENDING` for publication**: the local build contains 75 Section 1 questions, 30 Listening questions and 30 original MP3 assets. Structural, key, content-review consistency, audio-hash/playback and browser E2E checks passed locally. The 105-item assessment has version-matched AI answer-review evidence; no portable reviewer-execution attestation, human/native-speaker certification or psychometric calibration is claimed. Public release remains pending GitHub checkpoint, Actions and Pages verification.
+- **N2-MOCK-08–10 — `DRAFT`**: production has not started.
+- The M07 blueprint is a JP-STUDY practice design; its 75/30 item allocation is not represented as an official JLPT question-count requirement.
 
 ## Phase 4 — Chuyển dịch trọng tâm toàn diện: Mục tiêu JLPT N2 (Tháng 12/2026) & Củng cố N3 (Curriculum Priority Realignment)
 

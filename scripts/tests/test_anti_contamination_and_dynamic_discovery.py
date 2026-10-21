@@ -26,6 +26,7 @@ import shutil
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -45,6 +46,7 @@ from scripts.curriculum.review_provenance import (
     ReviewProvenanceValidator,
     compute_object_hash
 )
+from scripts.curriculum.review_provenance import REPORTED_REVIEW_BATCHES
 from scripts.curriculum.discovery import (
     discover_active_n2_mocks,
     verify_downstream_id_consistency
@@ -369,7 +371,12 @@ class TestAntiContaminationAndDynamicDiscovery(unittest.TestCase):
     def test_fixture_3_dynamic_discovery_consistency_check(self):
         """Fixture 3: Consistency checker detects if an active mock's questions are missing from review/ledger."""
         mocks = discover_active_n2_mocks()
-        self.assertEqual(len(mocks), 6)
+        # Discovery is intentionally dynamic: a newly authored mock may be
+        # present before its downstream review/catalog records are complete.
+        # Assert the established baseline still exists without freezing the
+        # expected repository count at six.
+        self.assertGreaterEqual(len(mocks), 6)
+        self.assertIn("06", {mock.mock_num for mock in mocks})
 
         # Synthetic review and ledger missing questions from N2-MOCK-06
         partial_reviews = [{"questionId": f"N2_01_Q{i:02d}"} for i in range(1, 106)]
@@ -431,57 +438,101 @@ class TestAntiContaminationAndDynamicDiscovery(unittest.TestCase):
         self.assertFalse(res["isCertified"], "Exam ID or unverified attestation must not grant certification")
         self.assertNotEqual(res["status"], "INDEPENDENT_REVIEW_ATTESTED")
 
+    def test_local_host_log_does_not_attest_portable_review(self):
+        """Host-local traces must not raise the committed CI evidence level."""
+        sealed_path = self.temp_dir / "sealed_portable_review_test.json"
+        sealed_path.write_text(json.dumps([{
+            "id": self.sample_q["id"],
+            "options": [{"id": "A", "text": "one"}]
+        }]), encoding="utf-8")
+        batch_key = "TEST_REPORTED_REVIEW_NOT_PORTABLE"
+        REPORTED_REVIEW_BATCHES[batch_key] = {
+            "sealedInputFile": str(sealed_path),
+            "reviewOutputFile": "not-used-in-test.json",
+            "conversationId": "host-log-present-test",
+            "itemCount": 1
+        }
+        self.addCleanup(REPORTED_REVIEW_BATCHES.pop, batch_key, None)
+
+        with patch.object(ReviewProvenanceValidator, "inspect_execution_host_log", return_value={
+            "exists": True, "sha256": "local-only", "stepCount": 99
+        }) as local_log:
+            result = ReviewProvenanceValidator.classify_review_provenance(
+                question_item=self.sample_q,
+                review_record=self.sample_b_info,
+                current_fingerprint=self.sample_fp
+            )
+        self.assertEqual(result["status"], "REVIEW_EXECUTION_REPORTED_NOT_ATTESTED")
+        self.assertFalse(result["isCertified"])
+        local_log.assert_not_called()
+
     def test_acoustic_negative_file_only_fails_browser_playback(self):
-        """Negative test: Receipt with only file existence fails BROWSER_PLAYBACK_VERIFIED."""
+        """Self-declared tier, playback flag, and duration do not prove progress."""
         sample_mp3 = self.temp_dir / "sample_track.mp3"
         sample_mp3.write_bytes(b"dummy mp3 frame data for acoustic tier testing")
         real_sha = hashlib.sha256(sample_mp3.read_bytes()).hexdigest()
-        track_meta = {"audioSha256": real_sha}
-        receipt_track = {"audioFileExists": True}
+        track_meta = {"questionId": "TEST_L01", "audioSha256": real_sha}
+        receipt_track = {
+            "questionId": "TEST_L01",
+            "expectedSha256": real_sha,
+            "computedSha256": real_sha,
+            "sha256Match": True,
+            "browserDecodedDurationSec": 80,
+            "durationSec": 80,
+            "browserPlaybackVerified": True,
+            "acousticTier": "BROWSER_PLAYBACK_VERIFIED",
+        }
 
         res = evaluate_audio_track_assurance(track_meta, receipt_track, sample_mp3)
         self.assertFalse(res["BROWSER_PLAYBACK_VERIFIED"])
-        self.assertEqual(res["highestTier"], "AUDIO_HASH_VERIFIED")
+        self.assertEqual(res["highestTier"], "AUDIO_DECODES")
+        self.assertIn("current-time advancement", res["failureReason"] or "")
 
     def test_acoustic_negative_duration_only_fails_browser_playback(self):
         """Negative test: Receipt with only duration does not reach BROWSER_PLAYBACK_VERIFIED."""
         sample_mp3 = self.temp_dir / "sample_track.mp3"
         sample_mp3.write_bytes(b"dummy mp3 frame data for acoustic tier testing")
         real_sha = hashlib.sha256(sample_mp3.read_bytes()).hexdigest()
-        track_meta = {"audioSha256": real_sha}
-        receipt_track = {"audioFileExists": True, "durationSec": 50.0}
+        track_meta = {"questionId": "TEST_L01", "audioSha256": real_sha}
+        receipt_track = {
+            "questionId": "TEST_L01",
+            "expectedSha256": real_sha,
+            "computedSha256": real_sha,
+            "sha256Match": True,
+            "durationSec": 50.0,
+        }
 
         res = evaluate_audio_track_assurance(track_meta, receipt_track, sample_mp3)
         self.assertFalse(res["BROWSER_PLAYBACK_VERIFIED"])
-        self.assertIn("Browser audio decoding", res["failureReason"] or "")
+        self.assertIn("Browser decoding", res["failureReason"] or "")
 
     def test_acoustic_negative_corrupted_hash(self):
         """Negative test: Corrupted MP3 hash fails AUDIO_HASH_VERIFIED."""
         sample_mp3 = self.temp_dir / "sample_track.mp3"
         sample_mp3.write_bytes(b"dummy mp3 frame data for acoustic tier testing")
-        track_meta = {"audioSha256": "wrong_expected_sha256_deadbeef"}
+        track_meta = {"questionId": "TEST_L01", "audioSha256": "wrong_expected_sha256_deadbeef"}
         receipt_track = {"audioFileExists": True}
 
         res = evaluate_audio_track_assurance(track_meta, receipt_track, sample_mp3)
         self.assertFalse(res["AUDIO_HASH_VERIFIED"])
         self.assertEqual(res["highestTier"], "AUDIO_FILE_EXISTS")
 
-    def test_acoustic_positive_real_playback_advancement(self):
-        """Positive test: Real playback advancement achieves BROWSER_PLAYBACK_VERIFIED."""
+    def test_acoustic_positive_detailed_playback_advancement(self):
+        """Detailed receipt with the exact ID/hash and progress evidence passes."""
         sample_mp3 = self.temp_dir / "sample_track.mp3"
         sample_mp3.write_bytes(b"dummy mp3 frame data for acoustic tier testing")
         real_sha = hashlib.sha256(sample_mp3.read_bytes()).hexdigest()
-        track_meta = {"audioSha256": real_sha}
+        track_meta = {"questionId": "TEST_L01", "audioSha256": real_sha}
         receipt_track = {
-            "audioSha256": real_sha,
-            "loaded": True,
-            "browserPlaybackVerified": True,
-            "playbackDesktop": {
-                "loaded": True,
-                "played": True,
-                "timeAdvanced": True,
-                "currentTime": 1.25
-            }
+            "questionId": "TEST_L01",
+            "expectedSha256": real_sha,
+            "computedSha256": real_sha,
+            "sha256Match": True,
+            "browserDecodedDurationSec": 50.0,
+            "desktopPlaybackAdvanced": True,
+            "mobilePlaybackAdvanced": False,
+            "desktopError": None,
+            "mobileError": None,
         }
 
         res = evaluate_audio_track_assurance(track_meta, receipt_track, sample_mp3)
@@ -489,6 +540,45 @@ class TestAntiContaminationAndDynamicDiscovery(unittest.TestCase):
         self.assertTrue(res["AUDIO_HASH_VERIFIED"])
         self.assertTrue(res["AUDIO_DECODES"])
         self.assertTrue(res["BROWSER_PLAYBACK_VERIFIED"])
+        self.assertEqual(res["highestTier"], "BROWSER_PLAYBACK_VERIFIED")
+
+    def test_acoustic_negative_receipt_question_id_mismatch(self):
+        sample_mp3 = self.temp_dir / "sample_track.mp3"
+        sample_mp3.write_bytes(b"dummy mp3 frame data for acoustic tier testing")
+        real_sha = hashlib.sha256(sample_mp3.read_bytes()).hexdigest()
+        res = evaluate_audio_track_assurance(
+            {"questionId": "TEST_L01", "audioSha256": real_sha},
+            {
+                "questionId": "OTHER_L01",
+                "expectedSha256": real_sha,
+                "computedSha256": real_sha,
+                "sha256Match": True,
+                "browserDecodedDurationSec": 50,
+                "desktopPlaybackAdvanced": True,
+            },
+            sample_mp3,
+        )
+        self.assertFalse(res["BROWSER_PLAYBACK_VERIFIED"])
+        self.assertIn("question ID", res["failureReason"] or "")
+
+    def test_acoustic_positive_current_m06_detailed_receipt(self):
+        manifest_file = ROOT / "data/mock_exams/n2_mock_06_audio_manifest.json"
+        receipt_file = ROOT / "qa/N2_MOCK_06_AUDIO_PLAYBACK_RECEIPT.json"
+        manifest = json.loads(manifest_file.read_text(encoding="utf-8"))
+        if isinstance(manifest, list):
+            manifest_rows = manifest
+        elif "tracks" in manifest:
+            manifest_rows = manifest["tracks"]
+        else:
+            manifest_rows = list(manifest.values())
+        qid = "N2_06_M1_L01"
+        track_meta = next(row for row in manifest_rows if (row.get("questionId") or row.get("id")) == qid)
+        receipt = json.loads(receipt_file.read_text(encoding="utf-8"))
+        receipt_track = next(row for row in receipt["results"] if row.get("questionId") == qid)
+        audio_path = ROOT / "docs" / track_meta["audioUrl"]
+
+        res = evaluate_audio_track_assurance(track_meta, receipt_track, audio_path)
+        self.assertTrue(res["BROWSER_PLAYBACK_VERIFIED"], res["failureReason"])
         self.assertEqual(res["highestTier"], "BROWSER_PLAYBACK_VERIFIED")
 
 

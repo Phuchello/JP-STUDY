@@ -1,14 +1,14 @@
-# JLPT N2 FULL MOCK #01 — 4-TIER CONTENT QUALITY & AUDIT REPORT
+# JLPT N2 FULL MOCK #01 — CONTENT QUALITY & RELEASE AUDIT REPORT
 
-**Audit Date:** 2026-10-19  
+**Audit Date:** 2026-10-21  
 **Exam Target:** N2-MOCK-01 (105 items: 75 Section 1 + 30 Section 2)  
-**Assurance Model:** 4-Tier Explicit Evidence Framework with Decoupled 8-Field Schema  
-**Certified Technical Release Status:** `TECHNICALLY_READY · AI_AUDITED`  
+**Assurance Model:** 5-Level Evidence Framework with Decoupled 8-Field Schema  
+**Technical practice status:** `TECHNICALLY_READY · AI_AUDITED`  
 **Official Certification Status:** `HUMAN_REVIEW_REQUIRED`  
 
 > [!IMPORTANT]
 > **Transparency & Provenance Notice:**
-> This examination has been structurally validated through automated pipelines, linguistically verified through independent AI blind-solving subagents with full justification ledgers, and acoustically verified in headless Chromium. In accordance with platform governance, **automated AI review is never misrepresented as certified human expert review**. Qualified native-speaker and JEES-certified human review remains a distinct prerequisite for official certification.
+> This examination passed automated structure and scoring checks, version-matched sealed-input AI answer reconciliation, and browser playback checks for all 30 MP3 tracks. The M07 answer-map responses do not include full written justifications, and their execution is not independently attested in portable CI evidence. No native-speaker or human-expert review has been completed; this remains a practice resource, not an official or psychometrically calibrated JLPT form.
 
 ---
 
@@ -17,8 +17,8 @@
 | Assurance Level | Evaluated Scope | Method & Evidence | Status | Details |
 |---|---|---|:---:|---|
 | **1. STRUCTURAL_QA** | All 105 Items | Automated schema, ID, key & option uniqueness validation | **PASS** | 105/105 passed (0 structural anomalies) |
-| **2. BLIND_SOLVE_RECONCILIATION** | All 105 Items | Independent blind solve matching against authored keys | **AUDITED** | 105/105 verified in ledger (0 key mismatches) |
-| **3. LINGUISTIC_QA** | All 105 Items | AI blind-review justification + distractor plausibility gate | **AI_VERIFIED** | 105/105 passed gate (0 generic boilerplates) |
+| **2. BLIND_SOLVE_RECONCILIATION** | All 105 Items | Sealed-input AI reviewer answers compared with authored keys | **VERSION-MATCHED** | 105/105 responses match current item versions (0 key mismatches) |
+| **3. LINGUISTIC_QA** | All 105 Items | AI reviewer answer comparison + explanation/distractor structure checks | **AI-REVIEWED** | 105/105 passed the technical gate (0 generic boilerplates) |
 | **4. ACOUSTIC_QA** | 30 Listening Items | Playwright Chromium real audio playback receipts (Desktop & Mobile) | **BROWSER_PLAYBACK_VERIFIED** | 30/30 playable MP3s verified in Chromium headless |
 | **5. INDEPENDENT_HUMAN_REVIEW** | All 105 Items | Native Japanese assessment committee / Human proctoring | **HUMAN_REVIEW_REQUIRED** | Reserved for qualified human educator review |
 
@@ -63,18 +63,18 @@
 | 33 | `N2-G7-001` | **D** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `RECONSTRUCTED_FROM_ARCHIVED_INPUT`: Conf: HIGH; 「名詞＋に際して」は「〜の機会に当たって／〜に先立って」を意味する改まった表現。「開会に際して一言ご挨拶を申し... | ✅ READY |
 | 34 | `N2-G7-002` | **A** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `RECONSTRUCTED_FROM_ARCHIVED_INPUT`: Conf: HIGH; 「名詞＋を契機に（して）」は「ある出来事を好機・転機として、新しい展開や心理的広がりが生じる」ことを表す。留学... | ✅ READY |
 | 35 | `N2-G7-003` | **D** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `RECONSTRUCTED_FROM_ARCHIVED_INPUT`: Conf: HIGH; 「動詞未然形＋ざるを得ない（認めざるを得ない）」は「客観的な状況から判断して、他に選択肢がなく、やむを得ずそう... | ✅ READY |
-| 36 | `N2-G7-004` | **C** | `PASS` | `GRAMMATICAL_DEFECT_RESOLVED` | `REPAIRED_MATCH` | `REPAIRED_AND_VERIFIED` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `FRESH_REVIEW_VERIFIED`: Conf: HIGH; 「名詞＋のみならず」は「〜だけでなく、さらに他も」と並列・付加を表す文型。「英語のみならず、フランス語や中国語... | ✅ READY |
+| 36 | `N2-G7-004` | **C** | `PASS` | `GRAMMATICAL_DEFECT_RESOLVED` | `REPAIRED_MATCH` | `REPAIRED_AND_VERIFIED` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `REVIEW_CONTENT_VERSION_VERIFIED`: Conf: HIGH; 「名詞＋のみならず」は「〜だけでなく、さらに他も」と並列・付加を表す文型。「英語のみならず、フランス語や中国語... | ✅ READY |
 | 37 | `N2-G7-005` | **D** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `RECONSTRUCTED_FROM_ARCHIVED_INPUT`: Conf: HIGH; 「名詞＋にほかならない」は「まさにそれである、それ以外の何ものでもない」と理由・原因を断定・強調する文型。「努... | ✅ READY |
 | 38 | `N2-G7-006` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `RECONSTRUCTED_FROM_ARCHIVED_INPUT`: Conf: HIGH; 「単なる〜にすぎない」は「ただの〜だけで、大したものではない」と程度や重要性を低く限定するN2重要文型。「あま... | ✅ READY |
 | 39 | `N2-G7-007` | **D** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `RECONSTRUCTED_FROM_ARCHIVED_INPUT`: Conf: HIGH; The verb stem before the blank is 「読め」 (the potential m... | ✅ READY |
 | 40 | `N2-G7-008` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `RECONSTRUCTED_FROM_ARCHIVED_INPUT`: Conf: HIGH; The construction 「〜には、...ものがある」 is an established N2 ex... | ✅ READY |
 | 41 | `N2-G7-009` | **B** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `RECONSTRUCTED_FROM_ARCHIVED_INPUT`: Conf: HIGH; The pattern 「〜にこたえて」（に応えて） means 'in response to / meet... | ✅ READY |
-| 42 | `N2-G7-010` | **D** | `PASS` | `GRAMMATICAL_DEFECT_RESOLVED` | `REPAIRED_MATCH` | `REPAIRED_AND_VERIFIED` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `FRESH_REVIEW_VERIFIED`: Conf: HIGH; 「〜反面」は、ある事柄の一面を認めた上で、それと対照的な別の面（主に問題点や短所）を述べる文型。「な形容詞語幹... | ✅ READY |
-| 43 | `N2-G7-011` | **D** | `PASS` | `GRAMMATICAL_DEFECT_RESOLVED` | `REPAIRED_MATCH` | `REPAIRED_AND_VERIFIED` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `FRESH_REVIEW_VERIFIED`: Conf: HIGH; 「〜にかかわらず」は「〜に関係なく、条件に左右されずに」という意味を表す文型。「経験の有無にかかわらず」という... | ✅ READY |
+| 42 | `N2-G7-010` | **D** | `PASS` | `GRAMMATICAL_DEFECT_RESOLVED` | `REPAIRED_MATCH` | `REPAIRED_AND_VERIFIED` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `REVIEW_CONTENT_VERSION_VERIFIED`: Conf: HIGH; 「〜反面」は、ある事柄の一面を認めた上で、それと対照的な別の面（主に問題点や短所）を述べる文型。「な形容詞語幹... | ✅ READY |
+| 43 | `N2-G7-011` | **D** | `PASS` | `GRAMMATICAL_DEFECT_RESOLVED` | `REPAIRED_MATCH` | `REPAIRED_AND_VERIFIED` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `REVIEW_CONTENT_VERSION_VERIFIED`: Conf: HIGH; 「〜にかかわらず」は「〜に関係なく、条件に左右されずに」という意味を表す文型。「経験の有無にかかわらず」という... | ✅ READY |
 | 44 | `N2-G7-012` | **A** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `RECONSTRUCTED_FROM_ARCHIVED_INPUT`: Conf: HIGH; The N2 grammar pattern 「〜を問わず」 means 'regardless of / i... | ✅ READY |
 | 45 | `N2-G8-001` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `RECONSTRUCTED_FROM_ARCHIVED_INPUT`: Conf: HIGH; The grammatically coherent sentence is: 「新製品の 売れ行き(A) 次... | ✅ READY |
 | 46 | `N2-G8-002` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `RECONSTRUCTED_FROM_ARCHIVED_INPUT`: Conf: HIGH; The grammatically coherent sentence is: 「どんなに 困難な(A) 状況... | ✅ READY |
-| 47 | `N2-G8-003` | **C** | `PASS` | `GRAMMATICAL_DEFECT_RESOLVED` | `REPAIRED_MATCH` | `REPAIRED_AND_VERIFIED` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `FRESH_REVIEW_VERIFIED`: Conf: HIGH; 【文構造の分析】文頭「この計画は、予算の」に続く4つの節片：A「都合上、」、B「当初の」、C「予定通りに」、D... | ✅ READY |
+| 47 | `N2-G8-003` | **C** | `PASS` | `GRAMMATICAL_DEFECT_RESOLVED` | `REPAIRED_MATCH` | `REPAIRED_AND_VERIFIED` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `REVIEW_CONTENT_VERSION_VERIFIED`: Conf: HIGH; 【文構造の分析】文頭「この計画は、予算の」に続く4つの節片：A「都合上、」、B「当初の」、C「予定通りに」、D... | ✅ READY |
 | 48 | `N2-G8-004` | **A** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `RECONSTRUCTED_FROM_ARCHIVED_INPUT`: Conf: HIGH; The grammatically coherent sentence is: 「長年の 研究の(D) 末に(... | ✅ READY |
 | 49 | `N2-G8-005` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `RECONSTRUCTED_FROM_ARCHIVED_INPUT`: Conf: HIGH; The grammatically coherent sentence is: 「彼は 多忙を(B) 極める(... | ✅ READY |
 | 50 | `N2-G9-001` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `RECONSTRUCTED_FROM_ARCHIVED_INPUT`: Conf: HIGH; The passage describes a prevalent societal tendency in ... | ✅ READY |
@@ -139,7 +139,7 @@
 ## 3. Findings, Non-Equivalence & Governance Disclosures
 
 1. **Scoring Equivalence:** Raw diagnostic performance ($X/105$, $X/54$, $X/21$, $X/30$) is the authoritative primary metric. Any linear 0–180 score is strictly an internal reference estimate and must carry the explicit disclaimer: *'Điểm quy đổi tham khảo của JP-STUDY — KHÔNG phải điểm chuẩn hóa JLPT chính thức'*. Official JLPT scaled scores utilize Item Response Theory (IRT).
-2. **Acoustic Fidelity:** All 30 listening audio files in `docs/audio/n2_mock_01/` decode with finite positive durations and trigger genuine `timeupdate` playback events in Chromium headless, confirmed by signed test receipt `qa/N2_MOCK_01_AUDIO_PLAYBACK_RECEIPT.json`.
+2. **Acoustic Fidelity:** All 30 listening audio files in `docs/audio/n2_mock_01/` decode with finite positive durations and show actual current-time advancement in desktop and mobile Chromium playback, recorded in `qa/N2_MOCK_01_AUDIO_PLAYBACK_RECEIPT.json`.
 3. **Modality & Security:** Spoken dialogue transcripts and prompt text leaks are completely removed from the test environment during active examination. Mondai 4 enforces the official 3-choice spoken format (`1番`, `2番`, `3番`).
 4. **Interruption & State Management:** Session history is saved in `localStorage`. Standalone Section 2 attempts do not inherit stale Section 1 data; drafts older than 4 hours are invalidated.
-5. **Pedagogical Integrity:** Structurally valid items cannot receive `AI_VERIFIED_PASS` without explicit backing in the stored independent blind review ledger. Confirmed grammatical defects and distractor ambiguities have been repaired, regression-tested, and audited.
+5. **Pedagogical Integrity:** Structurally valid items cannot receive `AI_VERIFIED_PASS` without a matching response in the stored version-bound sealed-input review ledger. Confirmed grammatical defects and distractor ambiguities have been repaired, revision-solved, and audited; human/native-speaker certification remains outstanding.

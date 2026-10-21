@@ -1,0 +1,74 @@
+{
+  "items": [
+    {
+      "id": "N2_07_M8_04",
+      "natural_order": "BADC",
+      "star_option": "D",
+      "alternate_changes_star": false,
+      "flags": [
+        "A-B-D-C is a marginal fronting of the object phrase; it preserves D at ★."
+      ],
+      "candidates": [
+        {"order": "ABCD", "judgment": "invalid", "short_reason": "The object marker を is followed by ことも, with no predicate connecting them."},
+        {"order": "ABDC", "judgment": "marginal", "short_reason": "The object phrase is fronted across the contrast clause; D can still predicate on it."},
+        {"order": "ACBD", "judgment": "invalid", "short_reason": "The object phrase is followed by ことも before its predicate."},
+        {"order": "ACDB", "judgment": "invalid", "short_reason": "ことも is misplaced before the object and the contrast clause trails unfinished."},
+        {"order": "ADBC", "judgment": "invalid", "short_reason": "The contrast clause interrupts the verb and nominalizer sequence."},
+        {"order": "ADCB", "judgment": "invalid", "short_reason": "The contrast clause follows the completed ことも phrase and remains unmatched."},
+        {"order": "BACD", "judgment": "invalid", "short_reason": "The object phrase is followed by ことも before its predicate."},
+        {"order": "BADC", "judgment": "natural", "short_reason": "The contrast clause leads into the object, verb, and nominalizer in a natural order."},
+        {"order": "BCAD", "judgment": "invalid", "short_reason": "ことも has no preceding predicate to nominalize."},
+        {"order": "BCDA", "judgment": "invalid", "short_reason": "ことも is misplaced and the object marker ends the clause without a predicate."},
+        {"order": "BDAC", "judgment": "invalid", "short_reason": "The object phrase follows the verb, then をことも is ungrammatical."},
+        {"order": "BDCA", "judgment": "invalid", "short_reason": "ことも is followed by a stranded object phrase."},
+        {"order": "CABD", "judgment": "invalid", "short_reason": "ことも lacks a preceding predicate and the final verb has no well-formed object."},
+        {"order": "CADB", "judgment": "invalid", "short_reason": "ことも lacks a preceding predicate and the contrast clause is left trailing."},
+        {"order": "CBAD", "judgment": "invalid", "short_reason": "ことも lacks a preceding predicate and the object phrase is stranded."},
+        {"order": "CBDA", "judgment": "invalid", "short_reason": "ことも lacks a preceding predicate and the object marker has no predicate."},
+        {"order": "CDAB", "judgment": "invalid", "short_reason": "ことも lacks a preceding clause, and the contrast clause trails unfinished."},
+        {"order": "CDBA", "judgment": "invalid", "short_reason": "ことも lacks a preceding clause and the object phrase is stranded."},
+        {"order": "DABC", "judgment": "invalid", "short_reason": "D can modify 発言者, but the resulting phrase cannot take ことも after を."},
+        {"order": "DACB", "judgment": "invalid", "short_reason": "The object marker is followed by ことも, and the contrast clause trails unfinished."},
+        {"order": "DBAC", "judgment": "invalid", "short_reason": "The verb is followed by the contrast clause and then a stranded object phrase."},
+        {"order": "DBCA", "judgment": "invalid", "short_reason": "The verb and ことも are separated, and the object phrase is stranded."},
+        {"order": "DCAB", "judgment": "invalid", "short_reason": "ことも is followed by a stranded object phrase and an unfinished contrast clause."},
+        {"order": "DCBA", "judgment": "invalid", "short_reason": "ことも is followed by an unfinished contrast clause and a stranded object phrase."}
+      ]
+    },
+    {
+      "id": "N2_07_M8_05",
+      "natural_order": "BDAC",
+      "star_option": "A",
+      "alternate_changes_star": true,
+      "flags": [
+        "A-B-D-C is marginal: the location phrase can be fronted to modify 保管してください across the reason clause, changing ★ to D."
+      ],
+      "candidates": [
+        {"order": "ABCD", "judgment": "invalid", "short_reason": "The imperative interrupts the subject and reason clause; the sentence ends with an unfinished reason."},
+        {"order": "ABDC", "judgment": "marginal", "short_reason": "The location phrase is fronted to modify the final imperative across the reason clause."},
+        {"order": "ACBD", "judgment": "invalid", "short_reason": "The imperative precedes an unfinished subject and reason clause."},
+        {"order": "ACDB", "judgment": "invalid", "short_reason": "The reason clause lacks its subject before the imperative, and B is stranded."},
+        {"order": "ADBC", "judgment": "invalid", "short_reason": "The reason predicate appears before its subject; the imperative then lacks a location phrase."},
+        {"order": "ADCB", "judgment": "invalid", "short_reason": "The reason predicate appears before its subject and B is stranded."},
+        {"order": "BACD", "judgment": "invalid", "short_reason": "The imperative interrupts the reason clause and the sentence ends with an unfinished reason."},
+        {"order": "BADC", "judgment": "invalid", "short_reason": "The location phrase awkwardly intervenes in the reason clause; it cannot naturally modify the final imperative."},
+        {"order": "BCAD", "judgment": "invalid", "short_reason": "The imperative interrupts the subject and the sentence ends with an unfinished reason."},
+        {"order": "BCDA", "judgment": "invalid", "short_reason": "The imperative interrupts the reason clause and the location phrase is stranded at the end."},
+        {"order": "BDAC", "judgment": "natural", "short_reason": "The prohibition gives the reason, followed by the location and storage instruction."},
+        {"order": "BDCA", "judgment": "invalid", "short_reason": "The location phrase is stranded after the imperative without an afterthought break."},
+        {"order": "CABD", "judgment": "invalid", "short_reason": "The imperative precedes the subject and reason clause, which is left unfinished."},
+        {"order": "CADB", "judgment": "invalid", "short_reason": "The reason predicate precedes its subject, and B is stranded."},
+        {"order": "CBAD", "judgment": "invalid", "short_reason": "The imperative precedes an unfinished subject and reason clause."},
+        {"order": "CBDA", "judgment": "invalid", "short_reason": "The imperative precedes the reason clause, which ends unfinished; the location phrase is stranded."},
+        {"order": "CDAB", "judgment": "invalid", "short_reason": "The imperative precedes the reason predicate and its subject."},
+        {"order": "CDBA", "judgment": "invalid", "short_reason": "The reason clause is inverted and unfinished, with the location phrase stranded."},
+        {"order": "DABC", "judgment": "invalid", "short_reason": "The reason predicate precedes its subject; the location phrase does not repair the sequence."},
+        {"order": "DACB", "judgment": "invalid", "short_reason": "The reason predicate precedes its subject and B is stranded."},
+        {"order": "DBAC", "judgment": "invalid", "short_reason": "The reason predicate precedes its subject, leaving no well-formed reason clause."},
+        {"order": "DBCA", "judgment": "invalid", "short_reason": "The reason predicate precedes its subject and the location phrase is stranded."},
+        {"order": "DCAB", "judgment": "invalid", "short_reason": "The reason predicate precedes its subject, and the imperative and location phrase are misplaced."},
+        {"order": "DCBA", "judgment": "invalid", "short_reason": "The reason predicate precedes its subject; the remaining sequence does not form a clause."}
+      ]
+    }
+  ]
+}

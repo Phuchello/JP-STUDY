@@ -1,0 +1,51 @@
+{
+  "examId": "N2-MOCK-07",
+  "generatedAt": "2026-10-21T02:30:26.807Z",
+  "browser": "Google Chrome installed on local test host, headless",
+  "viewport": "1280x800 desktop; 390x844 mobile emulation",
+  "catalog": "Intentionally remains IN_DEVELOPMENT and hidden from public launch until release gate passes",
+  "checkCount": 8,
+  "allPassed": true,
+  "checks": [
+    {
+      "name": "section_1_launch",
+      "passed": true,
+      "details": "{\"mockId\":\"N2-MOCK-07\",\"count\":75,\"duration\":6300,\"section\":0,\"firstId\":\"N2_07_M1_01\"}"
+    },
+    {
+      "name": "section_1_scoring_and_draft",
+      "passed": true,
+      "details": "{\"score\":\"KẾT QUẢ PHẦN 1: 50 / 75 CÂU (67%)\",\"savedDraft\":true}"
+    },
+    {
+      "name": "break_screen",
+      "passed": true,
+      "details": "break is visible after Section 1"
+    },
+    {
+      "name": "section_2_launch_and_audio_mapping",
+      "passed": true,
+      "details": "{\"count\":30,\"duration\":3000,\"section\":1,\"audioUrl\":\"audio/n2_mock_07/N2_07_M1_L01.mp3\",\"mondai4Index\":16}"
+    },
+    {
+      "name": "mondai_4_three_choices",
+      "passed": true,
+      "details": "A\nああ、先ほど目を通して印鑑を押しておいたから、机の上にあるよ。 | B\nええ、来週までに企画書を作成して提出してください。 | C\nはい、私が企画書を白紙に戻すよう指示したはずです。"
+    },
+    {
+      "name": "combined_score_and_review",
+      "passed": true,
+      "details": "{\"score\":\"KẾT QUẢ BÀI THI: 70 / 105 CÂU (67%)\",\"draftCleared\":true,\"reviewCards\":30,\"audioTags\":30,\"transcripts\":30,\"explanationsVisible\":true}"
+    },
+    {
+      "name": "mobile_390px_layout",
+      "passed": true,
+      "details": "{\"audio\":true,\"optionCount\":4,\"viewportWidth\":390,\"pageWidth\":390}"
+    },
+    {
+      "name": "browser_console_page_errors",
+      "passed": true,
+      "details": "0"
+    }
+  ]
+}

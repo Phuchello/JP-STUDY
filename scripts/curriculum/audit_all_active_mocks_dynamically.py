@@ -78,9 +78,13 @@ def audit_single_discovered_mock(mock_num_str: str, exam_file: Path, catalog_htm
                 failures.append(f"{mid}: Mondai 4 question {qid} has {len(opts)} options (strictly 3 required)")
 
     # 5.5 Check Independent Review Evidence
-    raw_p1 = ROOT / f"qa/raw_blind_m{mock_num_str}_s1_p1.json"
-    raw_p2 = ROOT / f"qa/raw_blind_m{mock_num_str}_s1_p2.json"
-    raw_s2 = ROOT / f"qa/raw_blind_m{mock_num_str}_s2.json"
+    mock_info = next((m for m in discover_active_n2_mocks() if m.mock_num == mock_num_str), None)
+    if mock_info:
+        raw_p1, raw_p2, raw_s2 = mock_info.raw_blind_review_paths
+    else:
+        raw_p1 = ROOT / f"qa/raw_blind_m{mock_num_str}_s1_p1.json"
+        raw_p2 = ROOT / f"qa/raw_blind_m{mock_num_str}_s1_p2.json"
+        raw_s2 = ROOT / f"qa/raw_blind_m{mock_num_str}_s2.json"
     if not (raw_p1.exists() and raw_p2.exists() and raw_s2.exists()):
         missing_revs = [p.name for p in [raw_p1, raw_p2, raw_s2] if not p.exists()]
         failures.append(f"{mid}: Missing independent review evidence: {', '.join(missing_revs)}")

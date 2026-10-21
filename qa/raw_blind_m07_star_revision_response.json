@@ -1,0 +1,45 @@
+{
+  "items": [
+    {
+      "id": "N2_07_M8_01",
+      "natural_order": ["C", "A", "B", "D"],
+      "reconstruction": "申請書に必要事項を記入し、本人確認書類を窓口へ提出してください。",
+      "star_option": "B",
+      "alternate_changes_star": false,
+      "issue": null
+    },
+    {
+      "id": "N2_07_M8_02",
+      "natural_order": ["D", "A", "B", "C"],
+      "reconstruction": "世帯所得の多寡を問わず、すべての対象世帯へ一律に支給されます。",
+      "star_option": "B",
+      "alternate_changes_star": false,
+      "issue": null
+    },
+    {
+      "id": "N2_07_M8_03",
+      "natural_order": ["A", "B", "C", "D"],
+      "reconstruction": "申請者本人が作成した委任状を事前に受け取っておく必要があります。",
+      "star_option": "C",
+      "alternate_changes_star": false,
+      "issue": null
+    },
+    {
+      "id": "N2_07_M8_04",
+      "natural_order": ["A", "B", "D", "C"],
+      "reconstruction": "必要書類に記載された提出期限を確認したうえで、手続きを進めてください。",
+      "star_option": "D",
+      "alternate_changes_star": false,
+      "issue": null
+    },
+    {
+      "id": "N2_07_M8_05",
+      "natural_order": ["B", "D", "A", "C"],
+      "reconstruction": "社外へ持ち出すことが禁止されているため、指定された場所で保管してください。",
+      "star_option": "A",
+      "alternate_changes_star": false,
+      "issue": null
+    }
+  ],
+  "overall_issue": null
+}

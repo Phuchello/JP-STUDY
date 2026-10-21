@@ -1,9 +1,9 @@
-# JP-STUDY — 630-Question Adversarial Blind Review Reconciliation Report
+# JP-STUDY — 735-Question Adversarial Blind Review Reconciliation Report
 
-**Target Exams:** `N2-MOCK-01`, `N2-MOCK-02`, `N2-MOCK-03`, `N2-MOCK-04`, `N2-MOCK-05`, `N2-MOCK-06` (630 total items)  
+**Target Exams:** `N2-MOCK-01`, `N2-MOCK-02`, `N2-MOCK-03`, `N2-MOCK-04`, `N2-MOCK-05`, `N2-MOCK-06`, `N2-MOCK-07` (735 total items)  
 **Assurance Framework:** Independent Blind Review & Explicit Provenance Model  
 **Audit Timestamp:** 2026-10-19  
-**Completed Solves:** 630 / 630  
+**Completed Solves:** 735 / 735  
 
 ---
 
@@ -11,11 +11,11 @@
 
 | Metric | Count | Percentage | Status |
 |---|:---:|:---:|:---:|
-| **Total Evaluated Items** | 630 | 100.0% | COMPLETE |
-| **Independent Blind Solves Loaded** | 630 | 100.0% | VERIFIED |
-| **Exact Agreement (`AGREEMENT`)** | 619 | 98.3% | AUDITED |
+| **Total Evaluated Items** | 735 | 100.0% | COMPLETE |
+| **Blind Reviewer Responses Loaded** | 735 | 100.0% | VERSION-CHECKED |
+| **Exact Agreement (`AGREEMENT`)** | 721 | 98.1% | AUDITED |
 | **Agreed with Nuance Warnings (`REVIEW_AGREED_WITH_WARNINGS`)** | 0 | 0.0% | AUDITED |
-| **Grammar Defects Confirmed & Repaired** | 11 | 1.7% | REPAIRED |
+| **Grammar Defects Confirmed & Repaired** | 14 | 1.9% | REPAIRED |
 | **Key Mismatches (`KEY_MISMATCH`)** | 0 | 0.0% | AUDITED |
 | **Unverified / Pending Solves** | 0 | 0.0% | NONE |
 
@@ -35,9 +35,12 @@
 - **`N2_02_M8_01`**: Replaced chunks with ['一人ひとりの', '意識改革なくしては', '市民', '到底']. Only permutation C-A-B-D is grammatical. Star: B. (Defect: SENTENCE ASSEMBLY AMBIGUITY: Adverb '何より' in chunk D allowed alternative clause-initial placement.)
 - **`N2_02_M8_04`**: Replaced chunks with ['人々の', '生活の', '及ぶ', '隅々にまで']. Only permutation A-B-D-C is grammatical. Star: D. (Defect: SENTENCE ASSEMBLY AMBIGUITY: Two adnominal modifiers allowed competing permutations for modifying '変革'.)
 - **`N2_03_M8_05`**: Anchored topic clause to stem and structured predicate into strict collocation: D (周囲の助言に) -> C (素直に耳を傾け、) -> A (地道に努力を) [★] -> B (重ねてきた) 賜物だ. Only permutation D-C-A-B is grammatical; Star is A. (Defect: SENTENCE ASSEMBLY AMBIGUITY: Adverbial modifier '誰よりも' allowed competing scrambling orders A-D-B-C (Star: B) and A-B-C-D (Star: C).)
+- **`N2_07_M7_01`**: Rewrote the sentence around the repeated experience '感謝の言葉をかけられるにつけ'; the blind revision solve selected A (につけ) as the sole natural completion. (Defect: AMBIGUOUS GRAMMAR CONTEXT: 'に際して' and 'を契機に' both fit an event-based implementation sentence.)
+- **`N2_07_M7_06`**: Rewrote the eligibility clause so '来庁者に限り' is the sole natural completion; the sealed revision solve selected B (に限り). (Defect: AMBIGUOUS GRAMMAR CONTEXT: '折' and '際' both complete お越しの折／際 naturally.)
+- **`N2_07_M9_04`**: Changed the option to '必要となります'; the sealed revision solve selected A as the natural completion. (Defect: AWKWARD COLLOCATION: The original option phrased a required administrative procedure as '避けられません', which was unnatural in context.)
 
 ### B. Key Mismatches
-- *Zero key mismatches detected across all 210 items.*
+- *Zero key mismatches detected across all 735 discovered items.*
 
 ### C. Ambiguous Questions / Distractor Nuance Warnings
 - *Zero unresolved competing answers or distractor overlaps remain.*
@@ -98,4 +101,4 @@
 | N2-MOCK-01 | `N2-G8-004` | Grammar | **A** | **A** | `A` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
 | N2-MOCK-01 | `N2-G8-005` | Grammar | **C** | **C** | `C` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
 | N2-MOCK-01 | `N2-G9-001` | Grammar | **C** | **C** | `C` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| ... | ... | *(remaining 580 items in CSV and JSON ledgers)* | ... | ... | ... | ... | ... | ... |
+| ... | ... | *(remaining 685 items in CSV and JSON ledgers)* | ... | ... | ... | ... | ... | ... |

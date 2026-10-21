@@ -42,16 +42,17 @@ def compute_file_sha256(file_path: Path) -> str:
 
 KNOWN_CONTAMINATED_MOCKS = {"N2-MOCK-04", "N2-MOCK-05"}
 
-# Verified Sealed Review Batches
-# Each batch is bound to exact sealed inputs, expected reviewer outputs, and execution references
-VERIFIED_REVIEW_BATCHES: Dict[str, Dict[str, Any]] = {
+# Reported Sealed Review Batches
+# These references identify the sealed input and reviewer response. They do not
+# attest isolated execution; a local host log is not portable CI evidence.
+REPORTED_REVIEW_BATCHES: Dict[str, Dict[str, Any]] = {
     "N2-MOCK-06_s1_p1": {
         "batchId": "batch-20261020-m06-p1",
         "sealedInputFile": "qa/blind_items_m06_s1_p1.json",
         "reviewOutputFile": "qa/raw_blind_m06_s1_p1.json",
         "conversationId": "1080af9c-3d6d-45eb-8357-7db7a47c9508",
         "itemCount": 38,
-        "isolationVerified": True
+        "executionEvidence": "reported-not-attested"
     },
     "N2-MOCK-06_s1_p2": {
         "batchId": "batch-20261020-m06-p2",
@@ -59,7 +60,7 @@ VERIFIED_REVIEW_BATCHES: Dict[str, Dict[str, Any]] = {
         "reviewOutputFile": "qa/raw_blind_m06_s1_p2.json",
         "conversationId": "df59f05f-d971-4a7c-bf7b-4079ad1e41ac",
         "itemCount": 37,
-        "isolationVerified": True
+        "executionEvidence": "reported-not-attested"
     },
     "N2-MOCK-06_s2": {
         "batchId": "batch-20261020-m06-s2",
@@ -67,7 +68,7 @@ VERIFIED_REVIEW_BATCHES: Dict[str, Dict[str, Any]] = {
         "reviewOutputFile": "qa/raw_blind_m06_s2.json",
         "conversationId": "5f93c328-840c-4a5d-8ce2-a0449d53f057",
         "itemCount": 30,
-        "isolationVerified": True
+        "executionEvidence": "reported-not-attested"
     },
     "REPAIRED_6": {
         "batchId": "batch-20261016-repaired-6",
@@ -75,7 +76,7 @@ VERIFIED_REVIEW_BATCHES: Dict[str, Dict[str, Any]] = {
         "reviewOutputFile": "qa/raw_blind_review_repaired_6.json",
         "conversationId": "cbfb8289-5e9d-4efa-84e7-d2710a0d4843",
         "itemCount": 6,
-        "isolationVerified": True
+        "executionEvidence": "reported-not-attested"
     }
 }
 
@@ -85,8 +86,8 @@ class ReviewProvenanceValidator:
 
     @classmethod
     def register_review_batch(cls, batch_key: str, batch_meta: Dict[str, Any]):
-        """Dynamically registers an attested review execution batch."""
-        VERIFIED_REVIEW_BATCHES[batch_key] = batch_meta
+        """Dynamically registers a reported review batch reference."""
+        REPORTED_REVIEW_BATCHES[batch_key] = batch_meta
 
     @staticmethod
     def inspect_execution_host_log(conversation_id: str) -> Dict[str, Any]:
@@ -179,12 +180,12 @@ class ReviewProvenanceValidator:
         if execution_attestation:
             cid = execution_attestation.get('conversationId')
             sealed_file = execution_attestation.get('sealedInputFile')
-            if cid and sealed_file and execution_attestation.get('isolationVerified'):
+            if cid and sealed_file:
                 matching_batch = execution_attestation
 
         # Otherwise look up in verified review batches registry
         if not matching_batch:
-            for b_key, b_meta in VERIFIED_REVIEW_BATCHES.items():
+            for b_key, b_meta in REPORTED_REVIEW_BATCHES.items():
                 sealed_path = ROOT / b_meta["sealedInputFile"]
                 if sealed_path.exists():
                     try:
@@ -220,24 +221,16 @@ class ReviewProvenanceValidator:
                     "reason": f"Sealed input purity violation: {e}"
                 }
 
-            # Verify execution host log attestation
+            # A host-local log is not portable evidence: a CI runner cannot
+            # verify that user's machine state. Keep this at reported status
+            # unless a future repository-verifiable attestation is implemented.
             cid = matching_batch.get("conversationId", "")
-            host_log = cls.inspect_execution_host_log(cid)
-            
-            if host_log["exists"]:
-                return {
-                    "qid": qid,
-                    "status": "INDEPENDENT_REVIEW_ATTESTED",
-                    "isCertified": True,
-                    "reason": f"Traceable, isolated blind execution verified (conversation {cid[:8]}..., log steps: {host_log['stepCount']})."
-                }
-            else:
-                return {
-                    "qid": qid,
-                    "status": "REVIEW_EXECUTION_REPORTED_NOT_ATTESTED",
-                    "isCertified": False,
-                    "reason": f"Execution reference {cid[:8]}... reported, but host log unverified in current runner environment."
-                }
+            return {
+                "qid": qid,
+                "status": "REVIEW_EXECUTION_REPORTED_NOT_ATTESTED",
+                "isCertified": False,
+                "reason": f"Execution reference {cid[:8]}... is reported, but no portable execution attestation is available."
+            }
 
         # 6. Content version verified but execution unproven
         return {

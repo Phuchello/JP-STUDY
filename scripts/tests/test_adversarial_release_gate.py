@@ -245,6 +245,15 @@ class TestAdversarialReleaseGate(unittest.TestCase):
 
         receipt_tracks = {
             "N2-MUT-L02": {
+                "questionId": "N2-MUT-L02",
+                "expectedSha256": orig_sha,
+                "computedSha256": orig_sha,
+                "sha256Match": True,
+                "browserDecodedDurationSec": 50.0,
+                "desktopPlaybackAdvanced": True,
+                "mobilePlaybackAdvanced": False,
+                "desktopError": None,
+                "mobileError": None,
                 "audioSha256": orig_sha,
                 "audioDecodes": True,
                 "browserPlaybackVerified": True
@@ -252,6 +261,8 @@ class TestAdversarialReleaseGate(unittest.TestCase):
         }
         manifest_tracks = {
             "N2-MUT-L02": {
+                "questionId": "N2-MUT-L02",
+                "audioSha256": orig_sha,
                 "sha256": orig_sha
             }
         }
@@ -288,7 +299,8 @@ class TestAdversarialReleaseGate(unittest.TestCase):
 
         # 3. Playback failure mutation
         audio_path.write_bytes(orig_bytes)
-        receipt_tracks["N2-MUT-L02"]["browserPlaybackVerified"] = False
+        receipt_tracks["N2-MUT-L02"]["desktopPlaybackAdvanced"] = False
+        receipt_tracks["N2-MUT-L02"]["browserPlaybackVerified"] = True
         fail_status = evaluate_acoustic_status(
             qid="N2-MUT-L02",
             audio_url=f"audio/{audio_fn}",

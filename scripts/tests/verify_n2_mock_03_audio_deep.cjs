@@ -26,6 +26,7 @@ async function runDeepAudioVerification() {
   const itemMap = new Map(examItems.map(item => [item.id, item]));
 
   const browser = await chromium.launch({
+    executablePath: 'C:/Program Files/Google/Chrome/Application/chrome.exe',
     headless: true,
     args: ['--autoplay-policy=no-user-gesture-required', '--allow-file-access-from-files']
   });
@@ -255,7 +256,9 @@ async function runDeepAudioVerification() {
       mobileViewport: '390x844 (Mobile Emulation)',
       audioContextPolicy: 'no-user-gesture-required'
     },
-    tracks: tracksReceipt
+    tracks: tracksReceipt,
+    // Preserve the per-question browser measurements used by the release gate.
+    results
   };
 
   fs.writeFileSync(RECEIPT_OUT, JSON.stringify(receiptData, null, 2), 'utf-8');

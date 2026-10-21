@@ -24,6 +24,12 @@ class MockExamInfo:
     @property
     def raw_blind_review_paths(self) -> List[Path]:
         m = self.mock_num
+        if m == "07":
+            return [
+                ROOT / "qa/review_answers_m07_s1_p1.json",
+                ROOT / "qa/review_answers_m07_s1_p2.json",
+                ROOT / "qa/review_answers_m07_s2.json"
+            ]
         return [
             ROOT / f"qa/raw_blind_m{m}_s1_p1.json",
             ROOT / f"qa/raw_blind_m{m}_s1_p2.json",

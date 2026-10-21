@@ -1,0 +1,23 @@
+{
+  "review_type": "standalone AI linguistic review; no native-speaker or external review",
+  "items": [
+    {
+      "id": "N2_07_M7_01",
+      "answer": {"option": "A", "text": "につけ"},
+      "exactly_one_natural_answer": true,
+      "flags": []
+    },
+    {
+      "id": "N2_07_M7_06",
+      "answer": {"option": "B", "text": "に限り"},
+      "exactly_one_natural_answer": true,
+      "flags": []
+    },
+    {
+      "id": "N2_07_M9_04",
+      "answer": {"option": "A", "text": "必要となります"},
+      "exactly_one_natural_answer": true,
+      "flags": []
+    }
+  ]
+}

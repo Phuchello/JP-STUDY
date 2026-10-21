@@ -110,6 +110,26 @@ def run_integrity_audit():
         ROOT / "qa/blind_items_m06_s1_p1.json",
         ROOT / "qa/blind_items_m06_s1_p2.json",
         ROOT / "qa/blind_items_m06_s2.json",
+        ROOT / "qa/blind_items_m07_s1_p1.json",
+        ROOT / "qa/blind_items_m07_s1_p2.json",
+        ROOT / "qa/blind_items_m07_s2.json",
+        ROOT / "qa/blind_items_m07_revision_3.json",
+        ROOT / "qa/blind_items_m07_star_revision_5.json",
+        ROOT / "qa/blind_items_m07_star_revision_7.json",
+        ROOT / "qa/blind_items_m07_star_revision_8.json",
+        ROOT / "qa/blind_items_m07_star_revision_9.json",
+        ROOT / "qa/blind_items_m07_star_revision_10.json",
+        ROOT / "qa/blind_items_m07_star_revision_11.json",
+        ROOT / "qa/blind_items_m07_star_revision_12.json",
+        ROOT / "qa/blind_items_m08_s1_p1.json",
+        ROOT / "qa/blind_items_m08_s1_p2.json",
+        ROOT / "qa/blind_items_m08_s2.json",
+        ROOT / "qa/blind_items_m09_s1_p1.json",
+        ROOT / "qa/blind_items_m09_s1_p2.json",
+        ROOT / "qa/blind_items_m09_s2.json",
+        ROOT / "qa/blind_items_m10_s1_p1.json",
+        ROOT / "qa/blind_items_m10_s1_p2.json",
+        ROOT / "qa/blind_items_m10_s2.json",
         ROOT / "qa/blind_items_repaired_5.json",
     ]:
         if bif.exists():
@@ -186,7 +206,7 @@ def run_integrity_audit():
             if explicit_review_fp == current_fingerprint:
                 review_fingerprint = explicit_review_fp
                 fingerprint_match = True
-                provenance = "FRESH_REVIEW_VERIFIED"
+                provenance = "REVIEW_CONTENT_VERSION_VERIFIED"
             else:
                 review_fingerprint = explicit_review_fp
                 fingerprint_match = False

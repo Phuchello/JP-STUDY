@@ -1,14 +1,14 @@
-# JLPT N2 FULL MOCK #02 — 4-TIER CONTENT QUALITY & AUDIT REPORT
+# JLPT N2 FULL MOCK #02 — CONTENT QUALITY & RELEASE AUDIT REPORT
 
-**Audit Date:** 2026-10-19  
+**Audit Date:** 2026-10-21  
 **Exam Target:** N2-MOCK-02 (105 items: 75 Section 1 + 30 Section 2)  
-**Assurance Model:** 4-Tier Explicit Evidence Framework with Decoupled 8-Field Schema  
-**Certified Technical Release Status:** `TECHNICALLY_READY · AI_AUDITED`  
+**Assurance Model:** 5-Level Evidence Framework with Decoupled 8-Field Schema  
+**Technical practice status:** `TECHNICALLY_READY · AI_AUDITED`  
 **Official Certification Status:** `HUMAN_REVIEW_REQUIRED`  
 
 > [!IMPORTANT]
 > **Transparency & Provenance Notice:**
-> This examination has been structurally validated through automated pipelines, linguistically verified through independent AI blind-solving subagents with full justification ledgers, and acoustically verified in headless Chromium. In accordance with platform governance, **automated AI review is never misrepresented as certified human expert review**. Qualified native-speaker and JEES-certified human review remains a distinct prerequisite for official certification.
+> This examination passed automated structure and scoring checks, version-matched sealed-input AI answer reconciliation, and browser playback checks for all 30 MP3 tracks. The M07 answer-map responses do not include full written justifications, and their execution is not independently attested in portable CI evidence. No native-speaker or human-expert review has been completed; this remains a practice resource, not an official or psychometrically calibrated JLPT form.
 
 ---
 
@@ -17,8 +17,8 @@
 | Assurance Level | Evaluated Scope | Method & Evidence | Status | Details |
 |---|---|---|:---:|---|
 | **1. STRUCTURAL_QA** | All 105 Items | Automated schema, ID, key & option uniqueness validation | **PASS** | 105/105 passed (0 structural anomalies) |
-| **2. BLIND_SOLVE_RECONCILIATION** | All 105 Items | Independent blind solve matching against authored keys | **AUDITED** | 105/105 verified in ledger (0 key mismatches) |
-| **3. LINGUISTIC_QA** | All 105 Items | AI blind-review justification + distractor plausibility gate | **AI_VERIFIED** | 105/105 passed gate (0 generic boilerplates) |
+| **2. BLIND_SOLVE_RECONCILIATION** | All 105 Items | Sealed-input AI reviewer answers compared with authored keys | **VERSION-MATCHED** | 105/105 responses match current item versions (0 key mismatches) |
+| **3. LINGUISTIC_QA** | All 105 Items | AI reviewer answer comparison + explanation/distractor structure checks | **AI-REVIEWED** | 105/105 passed the technical gate (0 generic boilerplates) |
 | **4. ACOUSTIC_QA** | 30 Listening Items | Playwright Chromium real audio playback receipts (Desktop & Mobile) | **BROWSER_PLAYBACK_VERIFIED** | 30/30 playable MP3s verified in Chromium headless |
 | **5. INDEPENDENT_HUMAN_REVIEW** | All 105 Items | Native Japanese assessment committee / Human proctoring | **HUMAN_REVIEW_REQUIRED** | Reserved for qualified human educator review |
 
@@ -48,7 +48,7 @@
 | 18 | `N2_02_M4_03` | **A** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `OPTION_PERMUTATION_REBOUND`: Conf: HIGH; The standard adverb collocating with train timetable di... | ✅ READY |
 | 19 | `N2_02_M4_04` | **D** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `OPTION_PERMUTATION_REBOUND`: Conf: HIGH; Describing an academic paper structure that is thorough... | ✅ READY |
 | 20 | `N2_02_M4_05` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `RECONSTRUCTED_FROM_ARCHIVED_INPUT`: Conf: HIGH; The idiom for pulling ahead of or opening a lead over c... | ✅ READY |
-| 21 | `N2_02_M4_06` | **B** | `PASS` | `GRAMMATICAL_DEFECT_RESOLVED` | `REPAIRED_MATCH` | `REPAIRED_AND_VERIFIED` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `FRESH_REVIEW_VERIFIED`: Conf: HIGH; 「にこやか」は笑顔で親しみやすい様子を表す副詞的用法（にこやかに挨拶する）で、初対面の相手への好印象という文脈... | ✅ READY |
+| 21 | `N2_02_M4_06` | **B** | `PASS` | `GRAMMATICAL_DEFECT_RESOLVED` | `REPAIRED_MATCH` | `REPAIRED_AND_VERIFIED` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `REVIEW_CONTENT_VERSION_VERIFIED`: Conf: HIGH; 「にこやか」は笑顔で親しみやすい様子を表す副詞的用法（にこやかに挨拶する）で、初対面の相手への好印象という文脈... | ✅ READY |
 | 22 | `N2_02_M4_07` | **D** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `OPTION_PERMUTATION_REBOUND`: Conf: HIGH; The fixed expression for being trapped/confined inside ... | ✅ READY |
 | 23 | `N2_02_M5_01` | **A** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `OPTION_PERMUTATION_REBOUND`: Conf: HIGH; The adverb 『ざっと』 means briefly, roughly, or cursorily (... | ✅ READY |
 | 24 | `N2_02_M5_02` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `RECONSTRUCTED_FROM_ARCHIVED_INPUT`: Conf: HIGH; 『皮肉』 refers to sarcasm, cynicism, or snide remarks. The... | ✅ READY |
@@ -65,17 +65,17 @@
 | 35 | `N2_02_M7_03` | **D** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `OPTION_PERMUTATION_REBOUND`: Conf: HIGH; Following the premise 『事態がここまで悪化した以上、もはや……』 (now that t... | ✅ READY |
 | 36 | `N2_02_M7_04` | **B** | `PASS` | `GRAMMATICAL_DEFECT_RESOLVED` | `REPAIRED_MATCH` | `REPAIRED_AND_VERIFIED` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `RECONSTRUCTED_FROM_ARCHIVED_INPUT`: Conf: HIGH; The grammar pattern 〜ならでは（の） denotes something uniquely... | ✅ READY |
 | 37 | `N2_02_M7_05` | **C** | `PASS` | `GRAMMATICAL_DEFECT_RESOLVED` | `REPAIRED_MATCH` | `REPAIRED_AND_VERIFIED` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `RECONSTRUCTED_FROM_ARCHIVED_INPUT`: Conf: HIGH; The suffix 〜がたい attaches to the masu-stem of cognitive ... | ✅ READY |
-| 38 | `N2_02_M7_06` | **A** | `PASS` | `GRAMMATICAL_DEFECT_RESOLVED` | `REPAIRED_MATCH` | `REPAIRED_AND_VERIFIED` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `FRESH_REVIEW_VERIFIED`: Conf: HIGH; 「どんなに〜ようと（も）」は「いくら〜しても」という逆接の譲歩を表す文型。「どんなに科学技術が進歩しようと、自... | ✅ READY |
+| 38 | `N2_02_M7_06` | **A** | `PASS` | `GRAMMATICAL_DEFECT_RESOLVED` | `REPAIRED_MATCH` | `REPAIRED_AND_VERIFIED` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `REVIEW_CONTENT_VERSION_VERIFIED`: Conf: HIGH; 「どんなに〜ようと（も）」は「いくら〜しても」という逆接の譲歩を表す文型。「どんなに科学技術が進歩しようと、自... | ✅ READY |
 | 39 | `N2_02_M7_07` | **D** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `OPTION_PERMUTATION_REBOUND`: Conf: HIGH; 「休むどころか食事をする時間すらない」という文脈において、「〜どころか」は「〜は言うまでもなく／〜はおろかそれ... | ✅ READY |
 | 40 | `N2_02_M7_08` | **A** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `RECONSTRUCTED_FROM_ARCHIVED_INPUT`: Conf: HIGH; 「〜から見て（から見ると）」は、判断・推量の根拠や視点を表す文法形式（〜を判断材料として考えると）である。「こ... | ✅ READY |
 | 41 | `N2_02_M7_09` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `OPTION_PERMUTATION_REBOUND`: Conf: HIGH; 「ご要望に応じて」はビジネス表現としても定番のコロケーション。「〜に応じて」は「〜という条件・希望・変化に合わ... | ✅ READY |
 | 42 | `N2_02_M7_10` | **D** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `OPTION_PERMUTATION_REBOUND`: Conf: HIGH; 目上の相手（部長）の動作（企画書を見る・読む）に対する適切な敬語表現が問われている。「見る」の尊敬語は「ご覧に... | ✅ READY |
 | 43 | `N2_02_M7_11` | **A** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `RECONSTRUCTED_FROM_ARCHIVED_INPUT`: Conf: HIGH; 「あんなに温厚な田中さんが声を荒らげるなんて」という強い根拠に基づき、「よほどのことがあったに違いない（間違い... | ✅ READY |
 | 44 | `N2_02_M7_12` | **B** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `RECONSTRUCTED_FROM_ARCHIVED_INPUT`: Conf: HIGH; 「〜なくしては（〜ない）」は、「〜がなければ…は成り立たない／不可能だ」を表すN2必須文法形式。「チーム全員の... | ✅ READY |
-| 45 | `N2_02_M8_01` | **B** | `PASS` | `GRAMMATICAL_DEFECT_RESOLVED` | `REPAIRED_MATCH` | `REPAIRED_AND_VERIFIED` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `FRESH_REVIEW_VERIFIED`: Conf: HIGH; 【文構造の分析】文頭「環境問題の解決には、行政だけでなく」に続く4つの節片：A「一人ひとりの」、B「意識改革な... | ✅ READY |
+| 45 | `N2_02_M8_01` | **B** | `PASS` | `GRAMMATICAL_DEFECT_RESOLVED` | `REPAIRED_MATCH` | `REPAIRED_AND_VERIFIED` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `REVIEW_CONTENT_VERSION_VERIFIED`: Conf: HIGH; 【文構造の分析】文頭「環境問題の解決には、行政だけでなく」に続く4つの節片：A「一人ひとりの」、B「意識改革な... | ✅ READY |
 | 46 | `N2_02_M8_02` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `RECONSTRUCTED_FROM_ARCHIVED_INPUT`: Conf: HIGH; 「いかに〜（よ）うと／〜あろうと」（どんなに〜であっても）という相関構文より「いかに（D）困難があろうと（B）... | ✅ READY |
 | 47 | `N2_02_M8_03` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `RECONSTRUCTED_FROM_ARCHIVED_INPUT`: Conf: HIGH; 述語末尾の「〜言えない」に呼応して「十分とは（B）言えない」が確定する。前半は「極めて（A）大切だが（D）」と... | ✅ READY |
-| 48 | `N2_02_M8_04` | **D** | `PASS` | `GRAMMATICAL_DEFECT_RESOLVED` | `REPAIRED_MATCH` | `REPAIRED_AND_VERIFIED` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `FRESH_REVIEW_VERIFIED`: Conf: HIGH; 【文構造の分析】文頭「現代社会において、インターネットの普及は」に続く4つの節片：A「人々の」、B「生活の」、... | ✅ READY |
+| 48 | `N2_02_M8_04` | **D** | `PASS` | `GRAMMATICAL_DEFECT_RESOLVED` | `REPAIRED_MATCH` | `REPAIRED_AND_VERIFIED` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `REVIEW_CONTENT_VERSION_VERIFIED`: Conf: HIGH; 【文構造の分析】文頭「現代社会において、インターネットの普及は」に続く4つの節片：A「人々の」、B「生活の」、... | ✅ READY |
 | 49 | `N2_02_M8_05` | **D** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `RECONSTRUCTED_FROM_ARCHIVED_INPUT`: Conf: HIGH; 「〜に負うところが大きい」（〜のおかげである部分が大きい）という慣用文型を用いる問題。「監督の（B）的確な指導... | ✅ READY |
 | 50 | `N2_02_M9_01` | **A** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `RECONSTRUCTED_FROM_ARCHIVED_INPUT`: Conf: HIGH; 主語が「能力の低下が」という事象名詞であり、社会一般的な動向・懸念を客観的に叙述する受動態「懸念されている」が... | ✅ READY |
 | 51 | `N2_02_M9_02` | **B** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `RECONSTRUCTED_FROM_ARCHIVED_INPUT`: Conf: HIGH; 手段・媒介を表す「〜を通じて（〜を通して）」が文脈に適合する。「登場人物の葛藤に寄り添うことを通じて（手段）、... | ✅ READY |
@@ -139,7 +139,7 @@
 ## 3. Findings, Non-Equivalence & Governance Disclosures
 
 1. **Scoring Equivalence:** Raw diagnostic performance ($X/105$, $X/54$, $X/21$, $X/30$) is the authoritative primary metric. Any linear 0–180 score is strictly an internal reference estimate and must carry the explicit disclaimer: *'Điểm quy đổi tham khảo của JP-STUDY — KHÔNG phải điểm chuẩn hóa JLPT chính thức'*. Official JLPT scaled scores utilize Item Response Theory (IRT).
-2. **Acoustic Fidelity:** All 30 listening audio files in `docs/audio/n2_mock_02/` decode with finite positive durations and trigger genuine `timeupdate` playback events in Chromium headless, confirmed by signed test receipt `qa/N2_MOCK_02_AUDIO_PLAYBACK_RECEIPT.json`.
+2. **Acoustic Fidelity:** All 30 listening audio files in `docs/audio/n2_mock_02/` decode with finite positive durations and show actual current-time advancement in desktop and mobile Chromium playback, recorded in `qa/N2_MOCK_02_AUDIO_PLAYBACK_RECEIPT.json`.
 3. **Modality & Security:** Spoken dialogue transcripts and prompt text leaks are completely removed from the test environment during active examination. Mondai 4 enforces the official 3-choice spoken format (`1番`, `2番`, `3番`).
 4. **Interruption & State Management:** Session history is saved in `localStorage`. Standalone Section 2 attempts do not inherit stale Section 1 data; drafts older than 4 hours are invalidated.
-5. **Pedagogical Integrity:** Structurally valid items cannot receive `AI_VERIFIED_PASS` without explicit backing in the stored independent blind review ledger. Confirmed grammatical defects and distractor ambiguities have been repaired, regression-tested, and audited.
+5. **Pedagogical Integrity:** Structurally valid items cannot receive `AI_VERIFIED_PASS` without a matching response in the stored version-bound sealed-input review ledger. Confirmed grammatical defects and distractor ambiguities have been repaired, revision-solved, and audited; human/native-speaker certification remains outstanding.

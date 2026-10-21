@@ -24,11 +24,15 @@ Generates:
 import json
 import os
 import sys
-import hashlib
+from datetime import date
 from pathlib import Path
 from collections import Counter
 
 ROOT = Path(__file__).resolve().parents[2]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+from scripts.curriculum.acoustic_assurance import evaluate_audio_track_assurance
+
 LEDGER_FILE = ROOT / 'qa/QUESTION_AUDIT_LEDGER_210.json'
 
 BOILERPLATE_TRIGGERS = [
@@ -69,39 +73,27 @@ def evaluate_acoustic_status(qid, audio_url, audio_dir, receipt_tracks, manifest
     if not audio_url:
         return "AUDIO_URL_MISSING"
 
-    audio_fn = Path(audio_url).name
-    audio_file = audio_dir / audio_fn
-
-    if not audio_file.exists() or audio_file.stat().st_size == 0:
+    audio_file = audio_dir / Path(audio_url).name
+    if not audio_file.is_file() or audio_file.stat().st_size == 0:
         return "AUDIO_FILE_MISSING"
-
-    # Compute live on-disk hash
-    computed_sha = hashlib.sha256(audio_file.read_bytes()).hexdigest().lower()
-
     if not receipt_tracks or qid not in receipt_tracks:
         return "AUDIO_RECEIPT_MISSING"
 
-    track = receipt_tracks[qid]
-    receipt_sha = str(track.get("audioSha256", "")).lower()
-
-    # Verify receipt hash matches live file
-    if computed_sha != receipt_sha:
+    # Bind both records to this exact question before evaluating the receipt.
+    # A qid-keyed receipt map is authoritative for legacy rows without an
+    # explicit questionId field; modern detailed rows retain that ID directly.
+    manifest_item = dict((manifest_tracks or {}).get(qid, {}))
+    manifest_item.setdefault("questionId", qid)
+    receipt_item = dict(receipt_tracks[qid])
+    receipt_item.setdefault("questionId", qid)
+    assurance = evaluate_audio_track_assurance(manifest_item, receipt_item, audio_file)
+    if assurance["BROWSER_PLAYBACK_VERIFIED"]:
+        return "BROWSER_PLAYBACK_VERIFIED"
+    if not assurance["AUDIO_HASH_VERIFIED"]:
         return "AUDIO_HASH_MISMATCH"
-
-    # If manifest is provided, verify against authoring manifest
-    if manifest_tracks and qid in manifest_tracks:
-        manifest_item = manifest_tracks[qid]
-        expected_sha = str(manifest_item.get("audioSha256") or manifest_item.get("sha256") or "").lower()
-        if expected_sha and computed_sha != expected_sha:
-            return "AUDIO_HASH_MISMATCH"
-
-    if not track.get("audioDecodes"):
+    if not assurance["AUDIO_DECODES"]:
         return "AUDIO_DECODE_FAILED"
-
-    if not track.get("browserPlaybackVerified"):
-        return "BROWSER_PLAYBACK_FAILED"
-
-    return "BROWSER_PLAYBACK_VERIFIED"
+    return "BROWSER_PLAYBACK_FAILED"
 
 def validate_question_structure(q, is_listening=False):
     """
@@ -186,7 +178,15 @@ def audit_mock_105(mock_num=1):
     if receipt_file.exists():
         with open(receipt_file, 'r', encoding='utf-8') as f:
             receipt_data = json.load(f)
-            receipt_tracks = receipt_data.get('tracks') or {r.get('questionId'): r for r in receipt_data.get('results', [])}
+            detailed_rows = receipt_data.get('results', [])
+            if isinstance(detailed_rows, list) and detailed_rows:
+                receipt_tracks = {
+                    r.get('questionId') or r.get('id') or r.get('qid'): r
+                    for r in detailed_rows
+                    if isinstance(r, dict) and (r.get('questionId') or r.get('id') or r.get('qid'))
+                }
+            else:
+                receipt_tracks = receipt_data.get('tracks') or {}
         print(f"Loaded Playwright audio playback receipt with {len(receipt_tracks)} tracks.")
     else:
         print(f"WARNING: Missing playback receipt at {receipt_file}!")
@@ -422,17 +422,17 @@ def audit_mock_105(mock_num=1):
 
     # Generate Markdown Report
     lines = [
-        f"# JLPT N2 FULL MOCK #{mock_id} — 4-TIER CONTENT QUALITY & AUDIT REPORT",
+        f"# JLPT N2 FULL MOCK #{mock_id} — CONTENT QUALITY & RELEASE AUDIT REPORT",
         "",
-        "**Audit Date:** 2026-10-19  ",
+        f"**Audit Date:** {date.today().isoformat()}  ",
         f"**Exam Target:** N2-MOCK-{mock_id} (105 items: 75 Section 1 + 30 Section 2)  ",
-        "**Assurance Model:** 4-Tier Explicit Evidence Framework with Decoupled 8-Field Schema  ",
-        "**Certified Technical Release Status:** `TECHNICALLY_READY · AI_AUDITED`  ",
+        "**Assurance Model:** 5-Level Evidence Framework with Decoupled 8-Field Schema  ",
+        "**Technical practice status:** `TECHNICALLY_READY · AI_AUDITED`  ",
         "**Official Certification Status:** `HUMAN_REVIEW_REQUIRED`  ",
         "",
         "> [!IMPORTANT]",
         "> **Transparency & Provenance Notice:**",
-        "> This examination has been structurally validated through automated pipelines, linguistically verified through independent AI blind-solving subagents with full justification ledgers, and acoustically verified in headless Chromium. In accordance with platform governance, **automated AI review is never misrepresented as certified human expert review**. Qualified native-speaker and JEES-certified human review remains a distinct prerequisite for official certification.",
+        "> This examination passed automated structure and scoring checks, version-matched sealed-input AI answer reconciliation, and browser playback checks for all 30 MP3 tracks. The M07 answer-map responses do not include full written justifications, and their execution is not independently attested in portable CI evidence. No native-speaker or human-expert review has been completed; this remains a practice resource, not an official or psychometrically calibrated JLPT form.",
         "",
         "---",
         "",
@@ -441,8 +441,8 @@ def audit_mock_105(mock_num=1):
         "| Assurance Level | Evaluated Scope | Method & Evidence | Status | Details |",
         "|---|---|---|:---:|---|",
         f"| **1. STRUCTURAL_QA** | All 105 Items | Automated schema, ID, key & option uniqueness validation | **PASS** | {pass_struct}/105 passed (0 structural anomalies) |",
-        f"| **2. BLIND_SOLVE_RECONCILIATION** | All 105 Items | Independent blind solve matching against authored keys | **AUDITED** | {pass_blind}/105 verified in ledger (0 key mismatches) |",
-        f"| **3. LINGUISTIC_QA** | All 105 Items | AI blind-review justification + distractor plausibility gate | **AI_VERIFIED** | {pass_ling}/105 passed gate (0 generic boilerplates) |",
+        f"| **2. BLIND_SOLVE_RECONCILIATION** | All 105 Items | Sealed-input AI reviewer answers compared with authored keys | **VERSION-MATCHED** | {pass_blind}/105 responses match current item versions (0 key mismatches) |",
+        f"| **3. LINGUISTIC_QA** | All 105 Items | AI reviewer answer comparison + explanation/distractor structure checks | **AI-REVIEWED** | {pass_ling}/105 passed the technical gate (0 generic boilerplates) |",
         f"| **4. ACOUSTIC_QA** | 30 Listening Items | Playwright Chromium real audio playback receipts (Desktop & Mobile) | **BROWSER_PLAYBACK_VERIFIED** | 30/30 playable MP3s verified in Chromium headless |",
         "| **5. INDEPENDENT_HUMAN_REVIEW** | All 105 Items | Native Japanese assessment committee / Human proctoring | **HUMAN_REVIEW_REQUIRED** | Reserved for qualified human educator review |",
         "",
@@ -467,10 +467,10 @@ def audit_mock_105(mock_num=1):
         "## 3. Findings, Non-Equivalence & Governance Disclosures",
         "",
         "1. **Scoring Equivalence:** Raw diagnostic performance ($X/105$, $X/54$, $X/21$, $X/30$) is the authoritative primary metric. Any linear 0–180 score is strictly an internal reference estimate and must carry the explicit disclaimer: *'Điểm quy đổi tham khảo của JP-STUDY — KHÔNG phải điểm chuẩn hóa JLPT chính thức'*. Official JLPT scaled scores utilize Item Response Theory (IRT).",
-        f"2. **Acoustic Fidelity:** All 30 listening audio files in `docs/audio/n2_mock_{mock_id}/` decode with finite positive durations and trigger genuine `timeupdate` playback events in Chromium headless, confirmed by signed test receipt `qa/N2_MOCK_{mock_id}_AUDIO_PLAYBACK_RECEIPT.json`.",
+        f"2. **Acoustic Fidelity:** All 30 listening audio files in `docs/audio/n2_mock_{mock_id}/` decode with finite positive durations and show actual current-time advancement in desktop and mobile Chromium playback, recorded in `qa/N2_MOCK_{mock_id}_AUDIO_PLAYBACK_RECEIPT.json`.",
         "3. **Modality & Security:** Spoken dialogue transcripts and prompt text leaks are completely removed from the test environment during active examination. Mondai 4 enforces the official 3-choice spoken format (`1番`, `2番`, `3番`).",
         "4. **Interruption & State Management:** Session history is saved in `localStorage`. Standalone Section 2 attempts do not inherit stale Section 1 data; drafts older than 4 hours are invalidated.",
-        "5. **Pedagogical Integrity:** Structurally valid items cannot receive `AI_VERIFIED_PASS` without explicit backing in the stored independent blind review ledger. Confirmed grammatical defects and distractor ambiguities have been repaired, regression-tested, and audited.",
+        "5. **Pedagogical Integrity:** Structurally valid items cannot receive `AI_VERIFIED_PASS` without a matching response in the stored version-bound sealed-input review ledger. Confirmed grammatical defects and distractor ambiguities have been repaired, revision-solved, and audited; human/native-speaker certification remains outstanding.",
         ""
     ])
 

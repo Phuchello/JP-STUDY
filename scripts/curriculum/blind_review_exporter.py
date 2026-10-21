@@ -80,7 +80,10 @@ def export_exam_blind_inputs(exam_path: Path, output_dir: Path):
             "category": q.get("category", ""),
             "taskInstructions": JLPT_INSTRUCTIONS.get(tid, "最もよいものを一つ選びなさい。"),
             "stem": q.get("stem", ""),
-            "contextPassage": q.get("contextPassage") or q.get("dialogue") or q.get("script", None),
+            # Section 1 reading items store shared texts under `passage`; keep
+            # them in the sealed reviewer input so reading questions are
+            # independently answerable without exposing keys or explanations.
+            "contextPassage": q.get("contextPassage") or q.get("passage") or q.get("dialogue") or q.get("script", None),
             "options": [{"id": o["id"], "text": o["text"]} for o in q.get("options", [])],
             "contentFingerprint": compute_question_fingerprint(q)
         }

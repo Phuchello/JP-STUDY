@@ -1,0 +1,75 @@
+{
+  "items": [
+    {
+      "id": "N2_07_M8_04",
+      "natural_order": ["B", "A", "D", "C"],
+      "star_option": "D",
+      "alternate_changes_star": false,
+      "flags": [
+        "A-B-D-C is marginally interpretable with 発言者の意図を as a fronted object, but the objects in the two coordinated actions do not align; its third chunk is still D."
+      ],
+      "candidates": [
+        {"order": ["A", "B", "C", "D"], "judgment": "invalid", "short_reason": "ことも appears before the verb it nominalizes."},
+        {"order": ["A", "B", "D", "C"], "judgment": "marginal", "short_reason": "A can be read as a fronted object of 読み取る, but the coordinated objects do not align."},
+        {"order": ["A", "C", "B", "D"], "judgment": "invalid", "short_reason": "ことも does not attach to a preceding verb."},
+        {"order": ["A", "C", "D", "B"], "judgment": "invalid", "short_reason": "ことも precedes its verb, and だけでなく is misplaced."},
+        {"order": ["A", "D", "B", "C"], "judgment": "invalid", "short_reason": "だけでなく interrupts the verb and its nominalizer."},
+        {"order": ["A", "D", "C", "B"], "judgment": "invalid", "short_reason": "The だけでなく clause follows the completed nominalized action."},
+        {"order": ["B", "A", "C", "D"], "judgment": "invalid", "short_reason": "ことも comes between the object and its verb."},
+        {"order": ["B", "A", "D", "C"], "judgment": "natural", "short_reason": "The だけでなく clause is followed by the object, verb, and nominalizer."},
+        {"order": ["B", "C", "A", "D"], "judgment": "invalid", "short_reason": "ことも cannot follow だけでなく here, and the object lacks its verb."},
+        {"order": ["B", "C", "D", "A"], "judgment": "invalid", "short_reason": "ことも is misplaced, and the object follows the verb."},
+        {"order": ["B", "D", "A", "C"], "judgment": "invalid", "short_reason": "The verb precedes its object, while ことも lacks a suitable attachment."},
+        {"order": ["B", "D", "C", "A"], "judgment": "invalid", "short_reason": "The object follows its verb, and the final object is stranded."},
+        {"order": ["C", "A", "B", "D"], "judgment": "invalid", "short_reason": "ことも has no preceding action to nominalize."},
+        {"order": ["C", "A", "D", "B"], "judgment": "invalid", "short_reason": "ことも is unattached, and だけでなく is misplaced."},
+        {"order": ["C", "B", "A", "D"], "judgment": "invalid", "short_reason": "The sentence starts with unattached ことも."},
+        {"order": ["C", "B", "D", "A"], "judgment": "invalid", "short_reason": "ことも is unattached, and the object follows the verb."},
+        {"order": ["C", "D", "A", "B"], "judgment": "invalid", "short_reason": "ことも is unattached, and だけでなく comes after the action."},
+        {"order": ["C", "D", "B", "A"], "judgment": "invalid", "short_reason": "ことも is unattached; the object and だけでなく clause are misplaced."},
+        {"order": ["D", "A", "B", "C"], "judgment": "invalid", "short_reason": "The verb precedes its object, and the nominalizer is misplaced."},
+        {"order": ["D", "A", "C", "B"], "judgment": "invalid", "short_reason": "The verb precedes its object, and だけでなく is misplaced."},
+        {"order": ["D", "B", "A", "C"], "judgment": "invalid", "short_reason": "The verb precedes its object, and だけでなく interrupts the clause."},
+        {"order": ["D", "B", "C", "A"], "judgment": "invalid", "short_reason": "The verb precedes its object, and the final object is stranded."},
+        {"order": ["D", "C", "A", "B"], "judgment": "invalid", "short_reason": "The nominalized action is followed by an unattached object and だけでなく."},
+        {"order": ["D", "C", "B", "A"], "judgment": "invalid", "short_reason": "The nominalizer is followed by だけでなく, leaving the object stranded."}
+      ]
+    },
+    {
+      "id": "N2_07_M8_05",
+      "natural_order": ["A", "B", "C", "D"],
+      "star_option": "C",
+      "alternate_changes_star": true,
+      "flags": [
+        "B-C-A-D is a natural alternative: it makes すべての提案 the subject of 示している, so the third chunk is A.",
+        "C-D-A-B is marginally possible as a relative clause modifying すべての提案, with こと referring to context; its third chunk is also A."
+      ],
+      "candidates": [
+        {"order": ["A", "B", "C", "D"], "judgment": "natural", "short_reason": "The materials do not necessarily indicate that all proposals are feasible."},
+        {"order": ["A", "B", "D", "C"], "judgment": "invalid", "short_reason": "という is followed by 示している before its required ことを."},
+        {"order": ["A", "C", "B", "D"], "judgment": "invalid", "short_reason": "ことを precedes the assertion it nominalizes."},
+        {"order": ["A", "C", "D", "B"], "judgment": "invalid", "short_reason": "ことを precedes its content, leaving the final assertion unattached."},
+        {"order": ["A", "D", "B", "C"], "judgment": "invalid", "short_reason": "示している is followed by an incompatible assertion and a stranded ことを."},
+        {"order": ["A", "D", "C", "B"], "judgment": "invalid", "short_reason": "The object phrase is followed by an assertion that cannot predicate it."},
+        {"order": ["B", "A", "C", "D"], "judgment": "invalid", "short_reason": "The subject is followed by ことを without the assertion it should nominalize."},
+        {"order": ["B", "A", "D", "C"], "judgment": "invalid", "short_reason": "という modifies the subject awkwardly, and ことを is stranded after the verb."},
+        {"order": ["B", "C", "A", "D"], "judgment": "natural", "short_reason": "The proposals are the subject of 示している, with feasibility as its object."},
+        {"order": ["B", "C", "D", "A"], "judgment": "invalid", "short_reason": "The object and verb are followed by a subject with no predicate."},
+        {"order": ["B", "D", "A", "C"], "judgment": "invalid", "short_reason": "という cannot be followed directly by 示している in this construction."},
+        {"order": ["B", "D", "C", "A"], "judgment": "invalid", "short_reason": "という is followed by the verb before its nominalized object."},
+        {"order": ["C", "A", "B", "D"], "judgment": "invalid", "short_reason": "ことを comes before its assertion and cannot introduce the clause."},
+        {"order": ["C", "A", "D", "B"], "judgment": "invalid", "short_reason": "ことを is unattached, and the final assertion cannot take it as an object."},
+        {"order": ["C", "B", "A", "D"], "judgment": "invalid", "short_reason": "ことを precedes the content it nominalizes."},
+        {"order": ["C", "B", "D", "A"], "judgment": "invalid", "short_reason": "ことを precedes its content, and the subject follows the verb."},
+        {"order": ["C", "D", "A", "B"], "judgment": "marginal", "short_reason": "ことを示している can modify proposals, but こと lacks a clear antecedent."},
+        {"order": ["C", "D", "B", "A"], "judgment": "invalid", "short_reason": "The relative-clause verb is followed by an assertion before its subject."},
+        {"order": ["D", "A", "B", "C"], "judgment": "invalid", "short_reason": "示している modifies the subject awkwardly, and ことを is stranded."},
+        {"order": ["D", "A", "C", "B"], "judgment": "invalid", "short_reason": "ことを follows the subject without its content or a governing verb."},
+        {"order": ["D", "B", "A", "C"], "judgment": "invalid", "short_reason": "The two predicates do not form a coherent clause, and ことを is stranded."},
+        {"order": ["D", "B", "C", "A"], "judgment": "invalid", "short_reason": "という appears after 示している, leaving the clause incomplete."},
+        {"order": ["D", "C", "A", "B"], "judgment": "invalid", "short_reason": "The marked object is stranded before a separate assertion."},
+        {"order": ["D", "C", "B", "A"], "judgment": "invalid", "short_reason": "The object phrase is followed by an assertion and a subject without a viable predicate."}
+      ]
+    }
+  ]
+}

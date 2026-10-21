@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 """
-JP-STUDY: 210-QUESTION ADVERSARIAL BLIND REVIEW RECONCILIATION ENGINE
-Reconciles independent blind solves from subagents against authored answer keys
-for N2-MOCK-01 (105 items) and N2-MOCK-02 (105 items).
+JP-STUDY: DYNAMIC ADVERSARIAL BLIND REVIEW RECONCILIATION ENGINE
+Reconciles preserved blind reviewer responses against authored answer keys
+for every active N2 mock discovered from the repository.
 
 Generates:
-1. qa/QUESTION_AUDIT_LEDGER_210.json
-2. qa/QUESTION_AUDIT_LEDGER_210.csv
+1. qa/QUESTION_AUDIT_LEDGER.json
+2. qa/QUESTION_AUDIT_LEDGER.csv
 3. qa/INDEPENDENT_BLIND_REVIEW_RECONCILIATION_REPORT.md
 """
 import json
@@ -102,6 +102,27 @@ KNOWN_REPAIRS = {
         "defect": "SENTENCE ASSEMBLY AMBIGUITY: Adverbial modifier '誰よりも' allowed competing scrambling orders A-D-B-C (Star: B) and A-B-C-D (Star: C).",
         "actionTaken": "Anchored topic clause to stem and structured predicate into strict collocation: D (周囲の助言に) -> C (素直に耳を傾け、) -> A (地道に努力を) [★] -> B (重ねてきた) 賜物だ. Only permutation D-C-A-B is grammatical; Star is A.",
         "changed": True
+    },
+    "N2_07_M7_01": {
+        "originalStem": "新システムの本格導入（　）、全社的なセキュリティ講習会を実施することになった。",
+        "repairedStem": "窓口の仕事では、住民から感謝の言葉をかけられる（　）、この仕事を続けてよかったと感じる。",
+        "defect": "AMBIGUOUS GRAMMAR CONTEXT: 'に際して' and 'を契機に' both fit an event-based implementation sentence.",
+        "actionTaken": "Rewrote the sentence around the repeated experience '感謝の言葉をかけられるにつけ'; the blind revision solve selected A (につけ) as the sole natural completion.",
+        "changed": True
+    },
+    "N2_07_M7_06": {
+        "originalStem": "近隣の支所へお越しの（　）は、ぜひ新設された市民交流ラウンジにもお立ち寄りください。",
+        "repairedStem": "本庁舎の市民交流ラウンジは、図書カードを提示した来庁者（　）、平日午後7時まで利用できます。",
+        "defect": "AMBIGUOUS GRAMMAR CONTEXT: '折' and '際' both complete お越しの折／際 naturally.",
+        "actionTaken": "Rewrote the eligibility clause so '来庁者に限り' is the sole natural completion; the sealed revision solve selected B (に限り).",
+        "changed": True
+    },
+    "N2_07_M9_04": {
+        "originalStem": "再設定手続きが避けられません。",
+        "repairedStem": "再設定手続きが必要となります。",
+        "defect": "AWKWARD COLLOCATION: The original option phrased a required administrative procedure as '避けられません', which was unnatural in context.",
+        "actionTaken": "Changed the option to '必要となります'; the sealed revision solve selected A as the natural completion.",
+        "changed": True
     }
 }
 
@@ -157,7 +178,7 @@ def reconcile_question_item(q, b_info, repair_info=None):
     selected_text = b_info.get('selectedText', '')
     mapping_method = b_info.get('mappingMethod', 'DIRECT_IDENTITY')
     has_letter_inconsistency = b_info.get('hasLetterInconsistency', False)
-    confidence = b_info.get('confidence', 'HIGH')
+    confidence = b_info.get('confidence') or 'NOT_REPORTED'
     justification = b_info.get('verbatimReviewerExplanation') or b_info.get('linguisticJustification', '')
     alt_answers = b_info.get('alternativeDefensibleAnswers', [])
     concerns = b_info.get('concerns')
@@ -364,7 +385,7 @@ def reconcile_all(all_items=None, blind_map=None, write_artifacts=True):
         "| Metric | Count | Percentage | Status |",
         "|---|:---:|:---:|:---:|",
         f"| **Total Evaluated Items** | {total_evaluated} | 100.0% | COMPLETE |",
-        f"| **Independent Blind Solves Loaded** | {len(blind_map)} | {pct(len(blind_map)):.1f}% | {'VERIFIED' if len(blind_map)>=total_evaluated else 'IN_PROGRESS'} |",
+        f"| **Blind Reviewer Responses Loaded** | {len(blind_map)} | {pct(len(blind_map)):.1f}% | {'VERSION-CHECKED' if len(blind_map)>=total_evaluated else 'IN_PROGRESS'} |",
         f"| **Exact Agreement (`AGREEMENT`)** | {class_counts['AGREEMENT']} | {pct(class_counts['AGREEMENT']):.1f}% | AUDITED |",
         f"| **Agreed with Nuance Warnings (`REVIEW_AGREED_WITH_WARNINGS`)** | {class_counts['REVIEW_AGREED_WITH_WARNINGS']} | {pct(class_counts['REVIEW_AGREED_WITH_WARNINGS']):.1f}% | AUDITED |",
         f"| **Grammar Defects Confirmed & Repaired** | {class_counts['GRAMMATICAL_DEFECT_RESOLVED']} | {pct(class_counts['GRAMMATICAL_DEFECT_RESOLVED']):.1f}% | REPAIRED |",
@@ -390,7 +411,7 @@ def reconcile_all(all_items=None, blind_map=None, write_artifacts=True):
         for ik in issue_groups["Incorrect keys"]:
             report_lines.append(f"- **`{ik['id']}`**: Authored `{ik['stored']}` vs Blind `{ik['blind']}`. Justification: {ik['justification']}")
     else:
-        report_lines.append("- *Zero key mismatches detected across all 210 items.*")
+        report_lines.append(f"- *Zero key mismatches detected across all {total_evaluated} discovered items.*")
 
     report_lines.extend([
         "",

@@ -1,0 +1,261 @@
+[
+  {
+    "id": "N2_07_M7_07",
+    "blindAnswer": "C",
+    "contentFingerprint": "719707a8d7cd928868e2f103530265b624f55fc4c9ac647587f5e0ea11e00382",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "につき"
+  },
+  {
+    "id": "N2_07_M7_08",
+    "blindAnswer": "D",
+    "contentFingerprint": "f93398df7e6a075d144531a95efd892f17e679d01f845ff0e932c57d484d8b38",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "げな"
+  },
+  {
+    "id": "N2_07_M7_09",
+    "blindAnswer": "A",
+    "contentFingerprint": "460dceeb8f92a13628ff3d5405d947c864efca976eb167939d78ba0368e866c3",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "っこない"
+  },
+  {
+    "id": "N2_07_M7_10",
+    "blindAnswer": "B",
+    "contentFingerprint": "9aa39c31cc00260ad47e6b8d8ebc6aea24b790007373ca950bcbeae29c358de4",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "にあたって"
+  },
+  {
+    "id": "N2_07_M7_11",
+    "blindAnswer": "C",
+    "contentFingerprint": "ec70dd7843367d0f0695206a476f2d8cfe8a9f5b94d5aa875e8df71e97f3404c",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "をめぐって"
+  },
+  {
+    "id": "N2_07_M7_12",
+    "blindAnswer": "D",
+    "contentFingerprint": "64db522f8c7cf43b9266ec6c200b42058f24c5b06cdd1d2d8e1596511acf5204",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "賜物にほかならない"
+  },
+  {
+    "id": "N2_07_M8_01",
+    "blindAnswer": "B",
+    "contentFingerprint": "2605638085a3632d88fd1786056570a95b8f0c676992cda626e13d4ef62990cb",
+    "responseSource": "raw_blind_m07_star_revision_response.json",
+    "selectedOptionText": "本人確認書類を"
+  },
+  {
+    "id": "N2_07_M8_02",
+    "blindAnswer": "B",
+    "contentFingerprint": "5b91b2919da0f730bb13e63ecfede61dabadfe4813fcafaf5f6ae61a34f1557f",
+    "responseSource": "raw_blind_m07_star_revision_response.json",
+    "selectedOptionText": "すべての"
+  },
+  {
+    "id": "N2_07_M8_03",
+    "blindAnswer": "C",
+    "contentFingerprint": "eb6b1774255d24be1a9b9b291d01ce5d45096249fae730c86dffe2ae0076b795",
+    "responseSource": "raw_blind_m07_star_revision_response.json",
+    "selectedOptionText": "事前に受け取っておく"
+  },
+  {
+    "id": "N2_07_M8_04",
+    "blindAnswer": "D",
+    "contentFingerprint": "7d4a346b3d85f7e99353f36c0ecba5b0f4b2a296db0762e71dd3d623a87ad53f",
+    "responseSource": "raw_blind_m07_star_revision_12_response.json",
+    "selectedOptionText": "正確に読み取る"
+  },
+  {
+    "id": "N2_07_M8_05",
+    "blindAnswer": "C",
+    "contentFingerprint": "9f48b7c6ee96348644bbf2e122ade3d8f973783bd67989eb6430ec8fa5ee293a",
+    "responseSource": "raw_blind_m07_star_revision_12_response.json",
+    "selectedOptionText": "可能性が"
+  },
+  {
+    "id": "N2_07_M9_01",
+    "blindAnswer": "B",
+    "contentFingerprint": "02ebe82cae933a678cc45d7d639cdf371affc1e548f1f923dc9ce7ff1e1d993e",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "こととなりました"
+  },
+  {
+    "id": "N2_07_M9_02",
+    "blindAnswer": "C",
+    "contentFingerprint": "59e9bed6ca1c4b274801976a4ea8fb2d7d1a4c09067ecec43e88213beb7047ac",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "いただけます"
+  },
+  {
+    "id": "N2_07_M9_03",
+    "blindAnswer": "D",
+    "contentFingerprint": "bfe9af6a7a5c97be442a0916a5844395f7aa109d3d0a270770daed6eb805b84c",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "なお"
+  },
+  {
+    "id": "N2_07_M9_04",
+    "blindAnswer": "A",
+    "contentFingerprint": "545b8d0144457b294d8c518c74799ed7f78acc9a7c1b46af93f0ee13951169d6",
+    "responseSource": "raw_blind_m07_revision_response.json",
+    "selectedOptionText": "必要となります"
+  },
+  {
+    "id": "N2_07_M9_05",
+    "blindAnswer": "B",
+    "contentFingerprint": "8c856deb925bf5415f6456a523ef27e55baaf4aab7415fae5c53ccb4ad764952",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "ご活用くださいますよう"
+  },
+  {
+    "id": "N2_07_M10_01",
+    "blindAnswer": "C",
+    "contentFingerprint": "e1b4f5e701e9569326a7664b74896913a33e65349b6917abce8b06cb18a4ba14",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "本日17時までに各自の重要データをクラウド共有ドライブへ保存する。"
+  },
+  {
+    "id": "N2_07_M10_02",
+    "blindAnswer": "D",
+    "contentFingerprint": "553675c22431181f4484c48c1f328541f9e79d2579efc898b24a15619ffddd97",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "来月1日以降は集積場所が北側児童公園前へ移り、予約とシールの貼付が必要になる。"
+  },
+  {
+    "id": "N2_07_M10_03",
+    "blindAnswer": "A",
+    "contentFingerprint": "e746682bd70bbc89ad467f69ee325ef69e5f364d031f41792eaa0049f10ce8b0",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "社内ではノーネクタイを推奨するが、来客対応や商談では状況に合わせた服装をする。"
+  },
+  {
+    "id": "N2_07_M10_04",
+    "blindAnswer": "B",
+    "contentFingerprint": "2658f07389a0319067641879143a22d36cb6c42f0117270a062ddeeb4be788fd",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "断水に備えて飲用水や生活用水を汲み置き、蛇口が閉まっているか確認する。"
+  },
+  {
+    "id": "N2_07_M10_05",
+    "blindAnswer": "C",
+    "contentFingerprint": "79722cde082cfe9e58311469f04ca31bb29b1f47f355a8f49c0d7e22907f9712",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "図書は返却ポストに投函できるが、CDやDVDは休館明けに窓口へ返却する。"
+  },
+  {
+    "id": "N2_07_M11_01",
+    "blindAnswer": "D",
+    "contentFingerprint": "6d157016b012dc048dd5eb91b2a65b2620abe5cb791ac00c055e61bced4f5f64",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "形式的な挨拶を省いて要件を迅速に共有でき、業務の効率が高まったこと。"
+  },
+  {
+    "id": "N2_07_M11_02",
+    "blindAnswer": "A",
+    "contentFingerprint": "ba0b53aa71e8cb37f075b2d4366d339560ef5ca0318be169fa810ac2da340a98",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "表情や声の抑揚が伝わらないため、悪気がなくても冷淡に誤解される恐れがあること。"
+  },
+  {
+    "id": "N2_07_M11_03",
+    "blindAnswer": "B",
+    "contentFingerprint": "6ec27e5ab3166ea2727ec5c1e5f8b7ff174ac6d5356b783b91d97a31f9163b6c",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "用件の性質に応じて、チャットだけでなく必要に応じて音声やビデオ会議を使い分けること。"
+  },
+  {
+    "id": "N2_07_M11_04",
+    "blindAnswer": "C",
+    "contentFingerprint": "05ba8191185678973717ded19b9cf38b276e3ad50363e56961ddf6800421d017",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "コンビニや自宅から手続きができるようになり、平日の窓口に行かなくても済むようになった。"
+  },
+  {
+    "id": "N2_07_M11_05",
+    "blindAnswer": "D",
+    "contentFingerprint": "772210d79a2f662c47f162aea8bf2a084b21beb80f5fe3e719619b26e2cf5359",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "定型業務が自動化され、福祉相談などの対面支援に職員が注力できるようになること。"
+  },
+  {
+    "id": "N2_07_M11_06",
+    "blindAnswer": "A",
+    "contentFingerprint": "11a1bdf52fa634a9267b862ddb9a5270fd81773bf5664378bc893d688ef1b72d",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "デジタル化を推進しつつも、高齢者等のために丁寧な対面窓口や支援体制を残すこと。"
+  },
+  {
+    "id": "N2_07_M11_07",
+    "blindAnswer": "B",
+    "contentFingerprint": "1d6c5e8f7d1356717006452ad942eb7a06ce7114a699c49401907302af753378",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "安易な例外処理を認めると、行政に対する市民全体の公平な信頼が損なわれるから。"
+  },
+  {
+    "id": "N2_07_M11_08",
+    "blindAnswer": "C",
+    "contentFingerprint": "7471a4492b1dfb1e78b5ef5fb09c17b6a9f98adde97b4199ef70ba84368ede7f",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "断る理由を丁寧に説明した上で、次にどうすれば取得できるか具体的な手順を示すこと。"
+  },
+  {
+    "id": "N2_07_M11_09",
+    "blindAnswer": "D",
+    "contentFingerprint": "69e744ef8992b23a8fee6bdc71c5ac999dda63c861dabe822c567c43a840f9ec",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "法の厳格さを守りながらも、困っている住民の立場に立ち、温かく次の行動へ導く姿勢。"
+  },
+  {
+    "id": "N2_07_M12_01",
+    "blindAnswer": "A",
+    "contentFingerprint": "9fd74821ffaff1360bd2564eda9dead70101d715dadfbfa216907b81fec3343c",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "Aはクラウドのバックアップで安全に再開できるとし、Bは停電や障害に備えて紙の原本を残すべきとする。"
+  },
+  {
+    "id": "N2_07_M12_02",
+    "blindAnswer": "B",
+    "contentFingerprint": "d1257f163b1224d903f321ba30894854c901aa857ef824161848549145891617",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "両者とも電子化による業務効率化を認めつつも、Aは即時完全移行を求め、Bは危機管理とのバランスを重視した段階的導入を求めている。"
+  },
+  {
+    "id": "N2_07_M13_01",
+    "blindAnswer": "C",
+    "contentFingerprint": "6f686dacf3f6f964ac3cdb4f70a206da90c8799355714a5735204e941199c93a",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "プライバシー重視の生活様式に加え、役員の負担や時間の制約があること。"
+  },
+  {
+    "id": "N2_07_M13_02",
+    "blindAnswer": "D",
+    "contentFingerprint": "630212d5c2c870b2a467b974304b8748c52d6fbcfffd4b22a0cbfc2bbb2621d4",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "公的機関の救助が行き届くまでの間、近隣住民同士の協力で救出や物資配分を支える必要があるから。"
+  },
+  {
+    "id": "N2_07_M13_03",
+    "blindAnswer": "A",
+    "contentFingerprint": "782fee4606d813b5d500d44af30893728e17932d20a88c6f09a2704eb34951ee",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "役員の負担を軽減し行事を整理しつつ、現代に適した形で顔の見える関係を維持すること。"
+  },
+  {
+    "id": "N2_07_M14_01",
+    "blindAnswer": "B",
+    "contentFingerprint": "59f0d8f4c5ce4d4c146ea34f83cc90ec5527c7372b692a31da9be7adccec0fe9",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "4,500円"
+  },
+  {
+    "id": "N2_07_M14_02",
+    "blindAnswer": "C",
+    "contentFingerprint": "de367806b83379448a31077c33c6d9a2e74ed4f8487c2a31ce8f37f9c8a2d7fb",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "利用日の5日前にキャンセルした場合、納付済み料金の50％が返金される。"
+  }
+]

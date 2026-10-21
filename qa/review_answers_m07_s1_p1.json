@@ -1,0 +1,268 @@
+[
+  {
+    "id": "N2_07_M1_01",
+    "blindAnswer": "A",
+    "contentFingerprint": "f6c507ac7b0ff56db1ca24f20cb23ca8039a6bfcec512ccaf422b2885fe74332",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "こうふ"
+  },
+  {
+    "id": "N2_07_M1_02",
+    "blindAnswer": "B",
+    "contentFingerprint": "a4bf6d93b0b69ee10a5fd9a278b4fb00a640f2ea20ffdcd025b4d1baaaa24d94",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "じゅんしゅ"
+  },
+  {
+    "id": "N2_07_M1_03",
+    "blindAnswer": "C",
+    "contentFingerprint": "6faa37a2d053a97a73f17bf1226f95f3a0b0b11815ce58a20acaacc214f95efa",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "たいのう"
+  },
+  {
+    "id": "N2_07_M1_04",
+    "blindAnswer": "D",
+    "contentFingerprint": "be65e7803447d582d5bcc8aaea58803159589ef9d708da72778b4e6c757c82f3",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "こうじょ"
+  },
+  {
+    "id": "N2_07_M1_05",
+    "blindAnswer": "A",
+    "contentFingerprint": "89625e71229ffb7aa1f7eb0514af0bfe4c5fc5c59118fad1cee9e65435221c5e",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "はいき"
+  },
+  {
+    "id": "N2_07_M2_01",
+    "blindAnswer": "B",
+    "contentFingerprint": "735a7bc4eb5a1ba7ac851ad853d5b0d4d33c081e67e6ee67869ce3f88789b1c2",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "経費"
+  },
+  {
+    "id": "N2_07_M2_02",
+    "blindAnswer": "C",
+    "contentFingerprint": "22d68cfd6c5a4fbad88932a2fb3d679b30c1e885799a33b6f016dd37ad785a52",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "是正"
+  },
+  {
+    "id": "N2_07_M2_03",
+    "blindAnswer": "D",
+    "contentFingerprint": "7f0bed864a7a83d73f05b5b8b22645b62a4c84139ca0a2f048572e2142d31d7c",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "委任"
+  },
+  {
+    "id": "N2_07_M2_04",
+    "blindAnswer": "A",
+    "contentFingerprint": "80ae9f22a527a935f03a0cd08b25d0454289d4ec066c5831342dafa3a8024004",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "条項"
+  },
+  {
+    "id": "N2_07_M2_05",
+    "blindAnswer": "B",
+    "contentFingerprint": "caf0f6f968c2283c4889bc4ba5020e16ded8b7401c43fdd4154420e4f9150edf",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "提出"
+  },
+  {
+    "id": "N2_07_M3_01",
+    "blindAnswer": "C",
+    "contentFingerprint": "fbcb4291c4f101494cdc32391c143ddcd534a59669aaaf2a080ec78d9a84292c",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "再"
+  },
+  {
+    "id": "N2_07_M3_02",
+    "blindAnswer": "D",
+    "contentFingerprint": "533c82095ffe50f48cce23fc3d2463ca115bf0bf705b0e0d54b10d53be30a617",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "手続"
+  },
+  {
+    "id": "N2_07_M3_03",
+    "blindAnswer": "A",
+    "contentFingerprint": "2d0d9c8f23b6c55874af25712292c9c92e81f95c6b252da85410ae986cf3fe23",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "未"
+  },
+  {
+    "id": "N2_07_M3_04",
+    "blindAnswer": "B",
+    "contentFingerprint": "88fd12ffd305ec42a4af57e22cc527851a6fcd2c813655975aea1efba495ab22",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "地"
+  },
+  {
+    "id": "N2_07_M3_05",
+    "blindAnswer": "C",
+    "contentFingerprint": "e03874b33ead1bd909da0ea2e9b47e7f81b6d1985eb7f5b0e6b8cfad79d45ff3",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "高"
+  },
+  {
+    "id": "N2_07_M4_01",
+    "blindAnswer": "D",
+    "contentFingerprint": "2ddf88b9d5daff539b6de98b4b994dedf63ae47286ef7c0be35279f832762d32",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "迅速"
+  },
+  {
+    "id": "N2_07_M4_02",
+    "blindAnswer": "A",
+    "contentFingerprint": "486df3f7f0f1d7f07c34711c385860ea6bca13f2a5fbd1b9fbf2615264b9ee37",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "手違い"
+  },
+  {
+    "id": "N2_07_M4_03",
+    "blindAnswer": "B",
+    "contentFingerprint": "e16ce537d387ca28df45964269e5f328c0c7390ccf850136ef5a64b5c066e7e9",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "取り合う"
+  },
+  {
+    "id": "N2_07_M4_04",
+    "blindAnswer": "C",
+    "contentFingerprint": "e60f769333e57630cd11ce23bd7559e641a9ef2587dd4591eb87b4b3c550b874",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "差し支え"
+  },
+  {
+    "id": "N2_07_M4_05",
+    "blindAnswer": "D",
+    "contentFingerprint": "e1669637bd1f99a27fda557ae4d4f4548ca78cbe2e026def9fde4dff7ac0a50e",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "融通"
+  },
+  {
+    "id": "N2_07_M4_06",
+    "blindAnswer": "A",
+    "contentFingerprint": "7cba25e9ca3024de9af9a8e2edb7c244edb952379e3962b704d9ea2e62dfa64b",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "時差"
+  },
+  {
+    "id": "N2_07_M4_07",
+    "blindAnswer": "B",
+    "contentFingerprint": "776ab3e6a06447ca6e86c178e0b6da473d83c5cfee39b6d54254c3db82a024e7",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "便宜"
+  },
+  {
+    "id": "N2_07_M5_01",
+    "blindAnswer": "C",
+    "contentFingerprint": "fadf95c0484e441cb3b04a51add2b93723528347dc8e952bd5018f8cdd34bcc6",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "早く出すよう求めること"
+  },
+  {
+    "id": "N2_07_M5_02",
+    "blindAnswer": "D",
+    "contentFingerprint": "af818084a3b7268240b7d80da234a2be17a6a57294d055a1f091adec3ed88835",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "協議"
+  },
+  {
+    "id": "N2_07_M5_03",
+    "blindAnswer": "A",
+    "contentFingerprint": "6f163882f63f04768c614aa973ec7a5f51277537c541d9b099e4c44557993f7a",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "中止・延期する"
+  },
+  {
+    "id": "N2_07_M5_04",
+    "blindAnswer": "B",
+    "contentFingerprint": "d0d4add3c65a4ad94a7dfd3bb221397aa4ca583da83e026ebb285038ec12ca14",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "間違いがないよう確認するために"
+  },
+  {
+    "id": "N2_07_M5_05",
+    "blindAnswer": "C",
+    "contentFingerprint": "426e875752e2feb0756460af5f5fa7e44884e2f142536def41f65e2a91f993ce",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "とりあえず"
+  },
+  {
+    "id": "N2_07_M6_01",
+    "blindAnswer": "D",
+    "contentFingerprint": "69e39709c20293652e022ec127be662cceb0940fce11bf4e6503c69235a31778",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "お忙しいところ大変恐縮ですが、アンケートへのご協力をお願い申し上げます。"
+  },
+  {
+    "id": "N2_07_M6_02",
+    "blindAnswer": "A",
+    "contentFingerprint": "ce6bbd2344ddb288dcfaf1ae60c0da54d6b244b0a60005b252b101bbf6751e6b",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "今回のヨーロッパ出張は、ドーハを経由してフランクフルトへ向かう航空便を利用する。"
+  },
+  {
+    "id": "N2_07_M6_03",
+    "blindAnswer": "B",
+    "contentFingerprint": "42609217d36bba0a14d76a22a8de13afb2c9b2f8b5f8f9e583aa37e5eebcf706",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "新しい大型プロジェクトの統括責任者を任され、精神的な負担が重くなった。"
+  },
+  {
+    "id": "N2_07_M6_04",
+    "blindAnswer": "C",
+    "contentFingerprint": "394fe8195816dbf4a4e1c0d881a1898249f588b1df330f66832fe44462a95082",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "市民説明会の会場入口で、来場者全員に防災ガイドブックを配布した。"
+  },
+  {
+    "id": "N2_07_M6_05",
+    "blindAnswer": "D",
+    "contentFingerprint": "6724ae15986519deb5dd0c1dfcf80c607981b765900b6857b77914871f63a3f2",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "給付金の受給資格を満たしているか、窓口の端末から住民台帳データに照会した。"
+  },
+  {
+    "id": "N2_07_M7_01",
+    "blindAnswer": "A",
+    "contentFingerprint": "ed3cddc806b0018817845b333652fcb21214df596fa378fb24d059b1a85ac0f8",
+    "responseSource": "raw_blind_m07_revision_response.json",
+    "selectedOptionText": "につけ"
+  },
+  {
+    "id": "N2_07_M7_02",
+    "blindAnswer": "B",
+    "contentFingerprint": "e1f7d2e361324de21f9a8fbce75f37487a93b1596a016473f0a7d01d997ad93f",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "つつある"
+  },
+  {
+    "id": "N2_07_M7_03",
+    "blindAnswer": "C",
+    "contentFingerprint": "35095fd6141fab76f0f70a76d605dbc294cb0ced20fb61097601010e8b6b189f",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "を問わず"
+  },
+  {
+    "id": "N2_07_M7_04",
+    "blindAnswer": "D",
+    "contentFingerprint": "8d2e8b54958e86dccf82ac476af1edf70fd3f91bce170b89ba1b951099056d50",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "を問わず"
+  },
+  {
+    "id": "N2_07_M7_05",
+    "blindAnswer": "A",
+    "contentFingerprint": "65681c80c00f4409694dbfe5f08dab6df9682ac0c62a00b1fb68105d07ce53a0",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "わけにはいかない"
+  },
+  {
+    "id": "N2_07_M7_06",
+    "blindAnswer": "B",
+    "contentFingerprint": "4840204f924cba966b8e13e2dea25a46b5416014358d37dec7ce443353fbfa7a",
+    "responseSource": "raw_blind_m07_revision_response.json",
+    "selectedOptionText": "に限り"
+  }
+]

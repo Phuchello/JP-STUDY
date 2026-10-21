@@ -1,0 +1,152 @@
+[
+  {
+    "id": "N2_07_M8_01",
+    "examId": "N2-MOCK-07",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-GR-STAR",
+    "category": "Mondai 8: 文の組み立て",
+    "taskInstructions": "次の文の ★ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+    "stem": "証明書を申請する場合は、（　　）（　　）★（　　）。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "記入し"
+      },
+      {
+        "id": "B",
+        "text": "本人確認書類を"
+      },
+      {
+        "id": "C",
+        "text": "申請書に必要事項を"
+      },
+      {
+        "id": "D",
+        "text": "窓口へ提出してください"
+      }
+    ],
+    "contentFingerprint": "2605638085a3632d88fd1786056570a95b8f0c676992cda626e13d4ef62990cb"
+  },
+  {
+    "id": "N2_07_M8_02",
+    "examId": "N2-MOCK-07",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-GR-STAR",
+    "category": "Mondai 8: 文の組み立て",
+    "taskInstructions": "次の文の ★ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+    "stem": "今回の臨時給付金は、世帯所得の（　　）（　　）★（　　）一律に支給されます。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "問わず、"
+      },
+      {
+        "id": "B",
+        "text": "すべての"
+      },
+      {
+        "id": "C",
+        "text": "対象世帯へ"
+      },
+      {
+        "id": "D",
+        "text": "多寡を"
+      }
+    ],
+    "contentFingerprint": "5b91b2919da0f730bb13e63ecfede61dabadfe4813fcafaf5f6ae61a34f1557f"
+  },
+  {
+    "id": "N2_07_M8_03",
+    "examId": "N2-MOCK-07",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-GR-STAR",
+    "category": "Mondai 8: 文の組み立て",
+    "taskInstructions": "次の文の ★ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+    "stem": "代理人として住民票の再発行を申請する場合は、（　　）（　　）★（　　）あります。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "申請者本人が作成した"
+      },
+      {
+        "id": "B",
+        "text": "委任状を"
+      },
+      {
+        "id": "C",
+        "text": "事前に受け取っておく"
+      },
+      {
+        "id": "D",
+        "text": "必要が"
+      }
+    ],
+    "contentFingerprint": "eb6b1774255d24be1a9b9b291d01ce5d45096249fae730c86dffe2ae0076b795"
+  },
+  {
+    "id": "N2_07_M8_04",
+    "examId": "N2-MOCK-07",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-GR-STAR",
+    "category": "Mondai 8: 文の組み立て",
+    "taskInstructions": "次の文の ★ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+    "stem": "申請を行う前に、（　　）（　　）★（　　）。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "必要書類に記載された"
+      },
+      {
+        "id": "B",
+        "text": "提出期限を"
+      },
+      {
+        "id": "C",
+        "text": "手続きを進めてください"
+      },
+      {
+        "id": "D",
+        "text": "確認したうえで"
+      }
+    ],
+    "contentFingerprint": "a175fd511b1104ecad9b65ddd06d5bbcb335b2c410976671d0241d78ce1b6aa0"
+  },
+  {
+    "id": "N2_07_M8_05",
+    "examId": "N2-MOCK-07",
+    "section": 1,
+    "skill": "Language Knowledge",
+    "typeId": "N2-GR-STAR",
+    "category": "Mondai 8: 文の組み立て",
+    "taskInstructions": "次の文の ★ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+    "stem": "機密文書については、（　　）（　　）★（　　）。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "指定された場所で"
+      },
+      {
+        "id": "B",
+        "text": "社外へ持ち出すことが"
+      },
+      {
+        "id": "C",
+        "text": "保管してください"
+      },
+      {
+        "id": "D",
+        "text": "禁止されているため、"
+      }
+    ],
+    "contentFingerprint": "3c688ae572a7fbb2b251a6c71f8c51863316cfb5cb284049bbf878ec839e7530"
+  }
+]

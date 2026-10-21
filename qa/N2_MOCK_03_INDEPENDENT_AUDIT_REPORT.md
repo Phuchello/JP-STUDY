@@ -1,14 +1,14 @@
-# JLPT N2 FULL MOCK #03 — 4-TIER CONTENT QUALITY & AUDIT REPORT
+# JLPT N2 FULL MOCK #03 — CONTENT QUALITY & RELEASE AUDIT REPORT
 
-**Audit Date:** 2026-10-19  
+**Audit Date:** 2026-10-21  
 **Exam Target:** N2-MOCK-03 (105 items: 75 Section 1 + 30 Section 2)  
-**Assurance Model:** 4-Tier Explicit Evidence Framework with Decoupled 8-Field Schema  
-**Certified Technical Release Status:** `TECHNICALLY_READY · AI_AUDITED`  
+**Assurance Model:** 5-Level Evidence Framework with Decoupled 8-Field Schema  
+**Technical practice status:** `TECHNICALLY_READY · AI_AUDITED`  
 **Official Certification Status:** `HUMAN_REVIEW_REQUIRED`  
 
 > [!IMPORTANT]
 > **Transparency & Provenance Notice:**
-> This examination has been structurally validated through automated pipelines, linguistically verified through independent AI blind-solving subagents with full justification ledgers, and acoustically verified in headless Chromium. In accordance with platform governance, **automated AI review is never misrepresented as certified human expert review**. Qualified native-speaker and JEES-certified human review remains a distinct prerequisite for official certification.
+> This examination passed automated structure and scoring checks, version-matched sealed-input AI answer reconciliation, and browser playback checks for all 30 MP3 tracks. The M07 answer-map responses do not include full written justifications, and their execution is not independently attested in portable CI evidence. No native-speaker or human-expert review has been completed; this remains a practice resource, not an official or psychometrically calibrated JLPT form.
 
 ---
 
@@ -17,8 +17,8 @@
 | Assurance Level | Evaluated Scope | Method & Evidence | Status | Details |
 |---|---|---|:---:|---|
 | **1. STRUCTURAL_QA** | All 105 Items | Automated schema, ID, key & option uniqueness validation | **PASS** | 105/105 passed (0 structural anomalies) |
-| **2. BLIND_SOLVE_RECONCILIATION** | All 105 Items | Independent blind solve matching against authored keys | **AUDITED** | 105/105 verified in ledger (0 key mismatches) |
-| **3. LINGUISTIC_QA** | All 105 Items | AI blind-review justification + distractor plausibility gate | **AI_VERIFIED** | 105/105 passed gate (0 generic boilerplates) |
+| **2. BLIND_SOLVE_RECONCILIATION** | All 105 Items | Sealed-input AI reviewer answers compared with authored keys | **VERSION-MATCHED** | 105/105 responses match current item versions (0 key mismatches) |
+| **3. LINGUISTIC_QA** | All 105 Items | AI reviewer answer comparison + explanation/distractor structure checks | **AI-REVIEWED** | 105/105 passed the technical gate (0 generic boilerplates) |
 | **4. ACOUSTIC_QA** | 30 Listening Items | Playwright Chromium real audio playback receipts (Desktop & Mobile) | **BROWSER_PLAYBACK_VERIFIED** | 30/30 playable MP3s verified in Chromium headless |
 | **5. INDEPENDENT_HUMAN_REVIEW** | All 105 Items | Native Japanese assessment committee / Human proctoring | **HUMAN_REVIEW_REQUIRED** | Reserved for qualified human educator review |
 
@@ -76,7 +76,7 @@
 | 46 | `N2_03_M8_02` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `RECONSTRUCTED_FROM_ARCHIVED_INPUT`: Conf: HIGH; 「どんなに〜（よ）うとも」の相関呼応により「どんなに科学技術が発展しようとも、（A）」が確定し、主節主語「私た... | ✅ READY |
 | 47 | `N2_03_M8_03` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `RECONSTRUCTED_FROM_ARCHIVED_INPUT`: Conf: HIGH; 「〜にとどまらず（〜だけでなく）」の構文より「個人の過失に（A）とどまらず、（B）」が結びつき、後半は「組織全... | ✅ READY |
 | 48 | `N2_03_M8_04` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `RECONSTRUCTED_FROM_ARCHIVED_INPUT`: Conf: HIGH; 文脈は「プロの演奏家として観客の前に立つからには、日々の地道な練習を怠ってはならない」。［観客の前に（A）］［... | ✅ READY |
-| 49 | `N2_03_M8_05` | **D** | `PASS` | `GRAMMATICAL_DEFECT_RESOLVED` | `REPAIRED_MATCH` | `REPAIRED_AND_VERIFIED` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `FRESH_REVIEW_VERIFIED`: Conf: HIGH; 文脈は「彼がこれほど短期間で大きな成果を上げられたのは、周囲の助言に（C）素直に従い、（A）地道に積み重ねた（... | ✅ READY |
+| 49 | `N2_03_M8_05` | **D** | `PASS` | `GRAMMATICAL_DEFECT_RESOLVED` | `REPAIRED_MATCH` | `REPAIRED_AND_VERIFIED` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `REVIEW_CONTENT_VERSION_VERIFIED`: Conf: HIGH; 文脈は「彼がこれほど短期間で大きな成果を上げられたのは、周囲の助言に（C）素直に従い、（A）地道に積み重ねた（... | ✅ READY |
 | 50 | `N2_03_M9_01` | **A** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `RECONSTRUCTED_FROM_ARCHIVED_INPUT`: Conf: HIGH; 前文で在宅勤務の利点（通勤ストレス解放、時間の有効活用）を述べた後、後文で「自宅という私的な空間で長時間高い集... | ✅ READY |
 | 51 | `N2_03_M9_02` | **B** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `RECONSTRUCTED_FROM_ARCHIVED_INPUT`: Conf: HIGH; 「気合で集中しようと力むのではなく、要因を物理的に遠ざける工夫（ 47 ）」という対比構造において、筆者が提言... | ✅ READY |
 | 52 | `N2_03_M9_03` | **C** | `PASS` | `AGREEMENT` | `EXACT_MATCH` | `AI_VERIFIED_PASS` | `N/A (Written Section)` | `HUMAN_REVIEW_REQUIRED` | `RECONSTRUCTED_FROM_ARCHIVED_INPUT`: Conf: HIGH; 「一定時間集中したら意図的に小休止を挟む（手段・方法）」によって「持続的なパフォーマンスを発揮できるようになる... | ✅ READY |
@@ -139,7 +139,7 @@
 ## 3. Findings, Non-Equivalence & Governance Disclosures
 
 1. **Scoring Equivalence:** Raw diagnostic performance ($X/105$, $X/54$, $X/21$, $X/30$) is the authoritative primary metric. Any linear 0–180 score is strictly an internal reference estimate and must carry the explicit disclaimer: *'Điểm quy đổi tham khảo của JP-STUDY — KHÔNG phải điểm chuẩn hóa JLPT chính thức'*. Official JLPT scaled scores utilize Item Response Theory (IRT).
-2. **Acoustic Fidelity:** All 30 listening audio files in `docs/audio/n2_mock_03/` decode with finite positive durations and trigger genuine `timeupdate` playback events in Chromium headless, confirmed by signed test receipt `qa/N2_MOCK_03_AUDIO_PLAYBACK_RECEIPT.json`.
+2. **Acoustic Fidelity:** All 30 listening audio files in `docs/audio/n2_mock_03/` decode with finite positive durations and show actual current-time advancement in desktop and mobile Chromium playback, recorded in `qa/N2_MOCK_03_AUDIO_PLAYBACK_RECEIPT.json`.
 3. **Modality & Security:** Spoken dialogue transcripts and prompt text leaks are completely removed from the test environment during active examination. Mondai 4 enforces the official 3-choice spoken format (`1番`, `2番`, `3番`).
 4. **Interruption & State Management:** Session history is saved in `localStorage`. Standalone Section 2 attempts do not inherit stale Section 1 data; drafts older than 4 hours are invalidated.
-5. **Pedagogical Integrity:** Structurally valid items cannot receive `AI_VERIFIED_PASS` without explicit backing in the stored independent blind review ledger. Confirmed grammatical defects and distractor ambiguities have been repaired, regression-tested, and audited.
+5. **Pedagogical Integrity:** Structurally valid items cannot receive `AI_VERIFIED_PASS` without a matching response in the stored version-bound sealed-input review ledger. Confirmed grammatical defects and distractor ambiguities have been repaired, revision-solved, and audited; human/native-speaker certification remains outstanding.

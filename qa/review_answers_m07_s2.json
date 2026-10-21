@@ -1,0 +1,212 @@
+[
+  {
+    "id": "N2_07_M1_L01",
+    "blindAnswer": "A",
+    "contentFingerprint": "336a23219bd7f0ca4994c6f313096bd90ff5637982d30b820f08091701bb838d",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "記載台へ行って転出届の申請用紙を記入する。"
+  },
+  {
+    "id": "N2_07_M1_L02",
+    "blindAnswer": "B",
+    "contentFingerprint": "313a8ce94a17c8ce3c5f9b64868a607466d1132a52241dff3ecdb09f0f468322",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "新任マネージャーの役職名の表記を直す。"
+  },
+  {
+    "id": "N2_07_M1_L03",
+    "blindAnswer": "C",
+    "contentFingerprint": "daa7682b707552f24015364e770e51909a088ecadac0686090198d750503d026",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "議案書に同封する案内状の日付と曜日を確認する。"
+  },
+  {
+    "id": "N2_07_M1_L04",
+    "blindAnswer": "D",
+    "contentFingerprint": "3b7bb145d8daa8176603d008ad6e9585b87da4f35450a3a2d895120bc76b720f",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "見積書を添付した備品の事前購入伺い書。"
+  },
+  {
+    "id": "N2_07_M1_L05",
+    "blindAnswer": "A",
+    "contentFingerprint": "cc2dff54efbe71abc76e1f97dd3dc57ba2ab1d4781cb8540539155bedee09447",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "第1避難所となっている小学校の体育館。"
+  },
+  {
+    "id": "N2_07_M2_L01",
+    "blindAnswer": "B",
+    "contentFingerprint": "f992cec1677ec1be47f4074d7b231e51fca6830a81af7ab57c00d5616e5ca00b",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "高齢者の通院や買い物の利便性を確保するため。"
+  },
+  {
+    "id": "N2_07_M2_L02",
+    "blindAnswer": "C",
+    "contentFingerprint": "cd85e42aac5b04858e3ce8a795b080234d09d49723f65aedf38a21c529b8cf9b",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "15分以上席を離れる際のステータス変更と中抜け登録。"
+  },
+  {
+    "id": "N2_07_M2_L03",
+    "blindAnswer": "D",
+    "contentFingerprint": "d734019138dc86387371ecb61d460b10f072edc2eb374dc708b2fb97c2b6ef4d",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "受講料を徴収する営利目的の利用に該当したため。"
+  },
+  {
+    "id": "N2_07_M2_L04",
+    "blindAnswer": "A",
+    "contentFingerprint": "b708da874eddedff226f619cd9294277434a284e661277ee13c3b48b232c5fe2",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "原因を詰問せず、再発防止の行動を自ら考えさせる問いかけ。"
+  },
+  {
+    "id": "N2_07_M2_L05",
+    "blindAnswer": "B",
+    "contentFingerprint": "ba2b1abfa41646d42d44e8abb928cdfd399216702a4667d32987c01c18551872",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "ゴミ袋を完全に密閉できる折りたたみ式メッシュボックスの配備。"
+  },
+  {
+    "id": "N2_07_M2_L06",
+    "blindAnswer": "C",
+    "contentFingerprint": "a127dce15342df27896db661e6fa7370245fe75e77930110768128751a80fd47",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "市外に住んでいる人でもボランティアに応募できるようになったこと。"
+  },
+  {
+    "id": "N2_07_M3_L01",
+    "blindAnswer": "D",
+    "contentFingerprint": "b54825ab0a5d94b5ff4e141dfe38fa391708ff06a0788ff984ed10210553afc8",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "子育て関連の行政手続きが一箇所でできるようになったこと。"
+  },
+  {
+    "id": "N2_07_M3_L02",
+    "blindAnswer": "A",
+    "contentFingerprint": "e89810e3e627f611e2f72356668b4bc2985bc993815aa0d19133c1081c968deb",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "法令遵守の徹底と不正を許さない誠実な企業風土の重要性。"
+  },
+  {
+    "id": "N2_07_M3_L03",
+    "blindAnswer": "B",
+    "contentFingerprint": "8cd67548d2dc7f95e2bd1f170cee54d706cbb21add428515cf854326cbe1c611",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "地震によるケガを防ぐために家具を固定すること。"
+  },
+  {
+    "id": "N2_07_M3_L04",
+    "blindAnswer": "C",
+    "contentFingerprint": "41f7aef31097910ec69621a24f446f6b5563452ccbdbcf18df0f43cba71a79fe",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "退職後の学びを社会貢献や人とのつながりに広げていくこと。"
+  },
+  {
+    "id": "N2_07_M3_L05",
+    "blindAnswer": "D",
+    "contentFingerprint": "cdad9185f8c48818e5ad703bbdd2240e69743ef365544b72cd07284cd86a7cea",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "夜間や休日の子どもの救急医療を受け入れる体制。"
+  },
+  {
+    "id": "N2_07_M4_L01",
+    "blindAnswer": "A",
+    "contentFingerprint": "f575bd9b596571b3c2d18a9ab8b0a3683ab66888e67af2d222416a60a04e84a6",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "ああ、先ほど目を通して印鑑を押しておいたから、机の上にあるよ。"
+  },
+  {
+    "id": "N2_07_M4_L02",
+    "blindAnswer": "B",
+    "contentFingerprint": "9616bbc58077c1051d27908b071099b1faacee4d5a16ccf2f03feaa9c89b4d81",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "そうですね、来場者が予想より増えるかもしれませんから、刷っておきます。"
+  },
+  {
+    "id": "N2_07_M4_L03",
+    "blindAnswer": "C",
+    "contentFingerprint": "56ded84698d3c7e50c75e00ec487fe9087d72c939147d08a6ea4da93cbe3bda5",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "どうぞお気になさらないでください。迅速に修正対応していただいたので問題ありませんよ。"
+  },
+  {
+    "id": "N2_07_M4_L04",
+    "blindAnswer": "A",
+    "contentFingerprint": "407aea34e0f9c9f409f1a125eb16b906fdb66ea31c14aa105b2d36d1001b4745",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "先ほどテストを済ませましたが、音声も映像も非常にクリアでしたよ。"
+  },
+  {
+    "id": "N2_07_M4_L05",
+    "blindAnswer": "B",
+    "contentFingerprint": "40c09d8e00e6c416d14bfcc90f727f21df4422c911bb42c6d92d2d211c64c437",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "本当にね。みんなで何週間も前から準備してきたのに、悔しいよね。"
+  },
+  {
+    "id": "N2_07_M4_L06",
+    "blindAnswer": "C",
+    "contentFingerprint": "fd91b18621d99f97a126e833e132a2c734bc84bc06bf3eb79dd1d43b9c97fe00",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "ええ、ちょうど今手が空いたところですので、拝見しますね。"
+  },
+  {
+    "id": "N2_07_M4_L07",
+    "blindAnswer": "A",
+    "contentFingerprint": "56cc29e46693654d39f3276e6fa099c21d25e552dcd3c825249b9896ffbf1efd",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "申し訳ありません。議論が熱くなって、相手への配慮が足りませんでした。"
+  },
+  {
+    "id": "N2_07_M4_L08",
+    "blindAnswer": "B",
+    "contentFingerprint": "5061867abb21a2565755d4b3054f74849bcba9768fb6f9943f873c284266773b",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "私のような若手でよろしければ、ぜひ喜んで挑戦させてください。"
+  },
+  {
+    "id": "N2_07_M4_L09",
+    "blindAnswer": "C",
+    "contentFingerprint": "4ceb33d1d4691918dec0401068ad623d569598eb1c59d5f92bbb9630ea5d1f90",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "ええ、来庁者の皆様からも混雑が緩和されたと大変好評をいただいております。"
+  },
+  {
+    "id": "N2_07_M4_L10",
+    "blindAnswer": "A",
+    "contentFingerprint": "c0122047e62479150edab8c8d9e005db0cc3d3f01cf271f3f7fbcc280800e575",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "ああ、弊社の採算ラインを割り込むことになるから、安易な妥協はできないね。"
+  },
+  {
+    "id": "N2_07_M4_L11",
+    "blindAnswer": "B",
+    "contentFingerprint": "fe6f5774772dcbd12557027fc01e1596a63f974655b2f8643420f96e75056165",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "とんでもない、新入社員の個性に合わせて教えるのは毎回手探りで緊張しますよ。"
+  },
+  {
+    "id": "N2_07_M5_L01",
+    "blindAnswer": "A",
+    "contentFingerprint": "46999a8242bb81a86a963efe8188e05b9f60109d39d5b371ebb22ee5fd9028ca",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "1番の東部文化センター"
+  },
+  {
+    "id": "N2_07_M5_L02",
+    "blindAnswer": "B",
+    "contentFingerprint": "3ba3a1683f4b6f36fd14168430a50b7be4919615642bfc003b252e69e14c00d9",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "2番の総合福祉プラザ"
+  },
+  {
+    "id": "N2_07_M5_L03",
+    "blindAnswer": "C",
+    "contentFingerprint": "0d066bbc6dafe9e055fdfbd672a1229f5f52e2d3a6f5a2719497b95ec08fa22d",
+    "responseSource": "raw_blind_m07_fresh_agent_response.json",
+    "selectedOptionText": "男性は2番（ヘルスケア）、女性は1番（スキルアップ）"
+  }
+]
