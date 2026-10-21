@@ -2,12 +2,12 @@
   "snapshotDate": "2026-10-21",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
   "fileCountExcludingManifest": 1017,
-  "totalBytesExcludingManifest": 157000469,
+  "totalBytesExcludingManifest": 157000573,
   "files": [
     {
       "path": ".gitattributes",
-      "bytes": 288,
-      "sha256": "e1e83a8a98f4ac7fd16c757a6fb9080167751df1189ab66f39f33f91454d87f2",
+      "bytes": 392,
+      "sha256": "527607a8350850a6f1444053930970ca5e69c726077f1ea014cea99153dc928c",
       "status": "VERIFIED"
     },
     {
