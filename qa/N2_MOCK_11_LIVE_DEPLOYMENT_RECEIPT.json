@@ -1,0 +1,46 @@
+{
+  "examId": "N2-MOCK-11",
+  "deployedCommit": "83d651ff5ccec2267119a2db811d43b21648eee2",
+  "githubActionsRun": "https://github.com/Phuchello/JP-STUDY/actions/runs/39613376720",
+  "githubActionsRunNumber": 28,
+  "runStatusAtVerification": "in_progress",
+  "runConclusionAtVerification": null,
+  "contentQaJob": "success",
+  "gatedPagesDeployment": "success",
+  "observedAtUtc": "2026-10-21T14:18:36+00:00",
+  "catalogUrl": "https://phuchello.github.io/JP-STUDY/widgets/jlpt_exam_catalog.html",
+  "fullExamUrl": "https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mock&mockId=N2-MOCK-11",
+  "listeningUrl": "https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mock&mockId=N2-MOCK-11&section=2",
+  "checks": [
+    {
+      "name": "public_catalog_entry_and_links",
+      "result": "PASS",
+      "evidence": "Live catalog identifies Practice Mock Exam #11 and exposes full-exam and listening-only links with the expected mockId. The catalog also marks #12–#20 as in development."
+    },
+    {
+      "name": "public_full_exam_route",
+      "result": "PASS",
+      "evidence": "Direct public route loaded N2-MOCK-11 at question 1 of 75 with the 105-minute section timer and four rendered options; no answer key or explanation was exposed during the attempt."
+    },
+    {
+      "name": "public_listening_route",
+      "result": "PASS",
+      "evidence": "Direct public route loaded 30 listening questions; the first item is N2_11_M1_L01, its audio player reports 35.584 seconds, and the transcript remains hidden during the attempt."
+    },
+    {
+      "name": "public_audio_playback_progression",
+      "result": "PASS",
+      "evidence": "On the live listening route, N2_11_M1_L01 loaded from the public Pages audio URL, reached readyState 4, and progressed to 13.063 seconds of 35.584 seconds while the player remained in active playback."
+    },
+    {
+      "name": "required_github_actions_jobs",
+      "result": "PASS_WITH_RUN_FINALIZATION_PENDING",
+      "evidence": "The GitHub API reported Content QA & Release Gate Verification and Gated Deployment to GitHub Pages as completed with success, including all steps. At the same observation time the run-level status remained in_progress with no conclusion, so overall run finalization is not claimed."
+    }
+  ],
+  "limitations": [
+    "Live CDN playback was observed for the first public track only. All 30 tracks separately passed repository hash checks and desktop/mobile Chromium playback QA; live playback of every CDN asset is not claimed.",
+    "AI blind review is not human/native-speaker certification. No psychometric calibration, official JLPT approval, or pronunciation/prosody certification is claimed.",
+    "The two required Actions jobs and the Pages deployment completed successfully, but GitHub still reported the workflow run itself as in_progress at the recorded verification time."
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "snapshotDate": "2026-10-21",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
-  "fileCountExcludingManifest": 1017,
-  "totalBytesExcludingManifest": 157000390,
+  "fileCountExcludingManifest": 1018,
+  "totalBytesExcludingManifest": 157005284,
   "files": [
     {
       "path": ".gitattributes",
@@ -456,8 +456,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 36347,
-      "sha256": "753d9fce9058e2bb96aa10e0a075e94c4f6014d8535f2a27e7d4da0032272790",
+      "bytes": 37398,
+      "sha256": "121ce2129b1abf3b4010f8fa87b65e36590e6c80955756f663a4501458fdf26d",
       "status": "VERIFIED"
     },
     {
@@ -2988,8 +2988,8 @@
     },
     {
       "path": "FILE_INDEX.md",
-      "bytes": 100758,
-      "sha256": "507d3d4faeb6e1669eed95c820cc8f5b25523ddfc4258da5fa7de52bae9ceab9",
+      "bytes": 100858,
+      "sha256": "01e824850a530f57e4f2f0b6c5e4fe73eba12a2076756396ec1085db3d8dd826",
       "status": "VERIFIED"
     },
     {
@@ -3024,9 +3024,9 @@
     },
     {
       "path": "PROJECT_STATUS.md",
-      "bytes": 46728,
-      "sha256": "f4950ae02f9d554fb9e3897aaaee60eb70cb8264a90459a1852121ad2d3568f4",
-      "status": "QA_PENDING"
+      "bytes": 47155,
+      "sha256": "b5e510a4d3fb365aaf97db55f4bc9ffb5b59b27455c6dbeb1ad93ec1c7ff858f",
+      "status": "VERIFIED"
     },
     {
       "path": "PUBLICATION_POLICY.md",
@@ -3570,8 +3570,8 @@
     },
     {
       "path": "qa/file_status.json",
-      "bytes": 29715,
-      "sha256": "75d8937d572313172a8ba809a06e7dfc460f39b0568a66f26463efdda7b9ee8a",
+      "bytes": 29771,
+      "sha256": "d6a986068d4fa115fffdfe037b9463bba80d135dd79429d5d0157d446853f972",
       "status": "VERIFIED"
     },
     {
@@ -4211,6 +4211,12 @@
       "status": "VERIFIED"
     },
     {
+      "path": "qa/N2_MOCK_11_LIVE_DEPLOYMENT_RECEIPT.json",
+      "bytes": 2903,
+      "sha256": "1fd9ec8df6a59e6c672f3fb4c9f4e65992abe67caedf7ff4a7f15e0434668ad4",
+      "status": "VERIFIED"
+    },
+    {
       "path": "qa/N2_MOCK_11_ORIGINALITY_AUDIT.json",
       "bytes": 5770,
       "sha256": "7b880123d17a439a9c800d795bd5d51a94b715b87cfb14b2c0209082ee74dab4",
@@ -4248,9 +4254,9 @@
     },
     {
       "path": "qa/PHASE_7_COVERAGE_MATRIX.md",
-      "bytes": 7986,
-      "sha256": "ff36f8847d4b26c716e9c6fae687842dc73bcfcb2338faf17869e8270951a254",
-      "status": "QA_PENDING"
+      "bytes": 8343,
+      "sha256": "462c7a5977dcbb0cabff4c7473c6a1015dfcd57fc7beddf77c02aa5026a937cf",
+      "status": "VERIFIED"
     },
     {
       "path": "qa/PRACTICE_RELEASE_GATE.md",

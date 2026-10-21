@@ -31,14 +31,14 @@ The repository baseline had ten 105-item payloads. N2-MOCK-11 now uses the same 
 - **Content:** 105/105 questions have Vietnamese explanations; 75/75 Section 1 and 30/30 listening questions match the internal blueprint. Editorial difficulty is 102 accessible-N2 and 3 challenging-N2 tags; these are not calibrated candidate statistics. Section 1 answer positions are A19/B18/C20/D18; longest same-letter run is 3 (DDD), longest detected repeated short-period segment is length 6, period 3 (`DAA`). STAR answer labels are `ACCDC`; all 120 fragment permutations were retained in review evidence. The 9 focused negative-control release tests pass.
 - **Review:** 105/105 exact semantic mappings match current fingerprints. Evidence is version-bound AI blind review with no portable execution attestation; there is no native-speaker or human panel certification. A minor wording/style note on M9_02 was retained after a second blind pass; neither reviewer proposed a competing answer.
 - **Originality:** Compared with #01–10, 0 reading-passage 5-gram overlaps, 0 listening-script 5-gram overlaps, 0 exact distractor-set repeats and 0 audio SHA-256 repeats. Three exact stems and five near-stem hits are generic JLPT prompt frames; these are disclosed, not counted as repeated passages/scripts. The two repeated wrong-option sets initially found were repaired and the final audit reports zero.
-- **Audio and runtime:** 30 original MP3s have manifest hashes and passed desktop/mobile Chromium decode and playback-progress checks (30/30); this verifies file mapping/playback, not pronunciation or prosody. Full player E2E passed with scoring, history, review/explanations, timer flow, transcript hiding and narrow viewport checks. Local automated regression: 189/189 unit tests passed after redirecting temp files into the workspace. GitHub Actions and Pages deployment are still pending at this checkpoint.
+- **Audio and runtime:** 30 original MP3s have manifest hashes and passed desktop/mobile Chromium decode and playback-progress checks (30/30); this verifies file mapping/playback, not pronunciation or prosody. Full player E2E passed with scoring, history, review/explanations, timer flow, transcript hiding and narrow viewport checks. Local automated regression: 189/189 unit tests passed after redirecting temp files into the workspace. Public catalog, full and listening routes were opened. The first CDN MP3 reached 13.063/35.584 seconds during playback. Both required jobs in [Actions run 39613376720](https://github.com/Phuchello/JP-STUDY/actions/runs/39613376720) completed successfully, including Pages deployment; the run-level API still returned `in_progress`, so that overall conclusion is left pending. Evidence: [`N2_MOCK_11_LIVE_DEPLOYMENT_RECEIPT.json`](N2_MOCK_11_LIVE_DEPLOYMENT_RECEIPT.json).
 
 ## Phase 7 gates and status
 
 | Exam | Intended theme | Production state |
 |---|---|---|
-| 11 | Workplace and professional communication | `QA_PENDING` publication: 105/105 items and Vietnamese explanations, 30 MP3s, version-bound blind reconciliation, originality audit, player E2E, deep audio playback, and local gates pass. Pending GitHub Actions, Pages deployment, and public-route verification. |
-| 12 | Society, environment and public life | Not started. |
+| 11 | Workplace and professional communication | `VERIFIED` deployed practice resource: 105/105 items and Vietnamese explanations, 30 MP3s, version-bound blind reconciliation, originality audit, player E2E, deep audio playback, local gates, both required Actions jobs, Pages deployment, and public routes pass. Run-level finalization remains reported as in progress. |
+| 12 | Society, environment and public life | Not started; next in sequence. |
 | 13 | Education, media and technology | Not started. |
 | 14 | Comprehensive, higher challenge | Not started. |
 
@@ -46,4 +46,4 @@ Release is fail-closed: exact 105-item blueprint, unique IDs, four-option/key in
 
 ## Checkpoint for continuation
 
-Finish the public release verification for #11, then continue to #12 (society, environment and public life), #13 (education, media and technology), and #14 (comprehensive challenge) sequentially. Do not begin #15. Keep #11 `QA_PENDING` for publication until GitHub Actions, Pages and public routes have been directly verified; its local QA evidence and remaining limitations are recorded above.
+Continue with #12 (society, environment and public life), #13 (education, media and technology), and #14 (comprehensive challenge) sequentially. Do not begin #15. #11 is a deployed practice resource; its route/audio evidence and run-level finalization caveat are recorded above.

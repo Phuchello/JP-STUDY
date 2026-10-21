@@ -17,7 +17,7 @@
   "GEMINI_CHUA_LOI.md": "VERIFIED",
   "GOOGLE_SITES_UI_QA.md": "VERIFIED",
   "MANIFEST.json": "VERIFIED",
-  "PROJECT_STATUS.md": "QA_PENDING",
+  "PROJECT_STATUS.md": "VERIFIED",
   "PUBLICATION_POLICY.md": "VERIFIED",
   "QUIZ_FORMS/README.md": "VERIFIED",
   "QUIZ_FORMS/answer_mapping.csv": "VERIFIED",
@@ -467,7 +467,7 @@
   "qa/N2_MOCK_11_E2E_REPORT.json": "VERIFIED",
   "qa/N2_MOCK_11_INDEPENDENT_AUDIT_REPORT.md": "VERIFIED",
   "qa/N2_MOCK_11_ORIGINALITY_AUDIT.json": "VERIFIED",
-  "qa/PHASE_7_COVERAGE_MATRIX.md": "QA_PENDING",
+  "qa/PHASE_7_COVERAGE_MATRIX.md": "VERIFIED",
   "scripts/curriculum/add_mock_11_to_bank.py": "VERIFIED",
   "scripts/curriculum/audit_all_active_mocks_dynamically.py": "VERIFIED",
   "scripts/curriculum/audit_n2_mock_105_questions.py": "VERIFIED",
@@ -523,5 +523,6 @@
   "qa/blind_review_m11_revision5_sanitized.json": "VERIFIED",
   "qa/blind_review_m11_revision6_delta_sanitized.json": "VERIFIED",
   "qa/blind_review_m11_revision7_delta_sanitized.json": "VERIFIED",
-  "qa/blind_review_m11_revision8_delta_sanitized.json": "VERIFIED"
+  "qa/blind_review_m11_revision8_delta_sanitized.json": "VERIFIED",
+  "qa/N2_MOCK_11_LIVE_DEPLOYMENT_RECEIPT.json": "VERIFIED"
 }

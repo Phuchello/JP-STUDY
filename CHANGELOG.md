@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-10-21 — Phase 7 N2-MOCK-11 production and public release verification
+
+- Published N2-MOCK-11 as a complete original practice exam: 75 Language Knowledge/Reading questions, 30 Listening questions, 105 Vietnamese explanations, and 30 new MP3 assets.
+- Passed local release validation, the 189-test suite, dynamic 11-exam audit, M11 browser E2E, all 9 focused negative controls, and 30/30 desktop/mobile audio playback checks. AI blind review is version-bound but has no portable execution attestation; human/native-speaker review and psychometric calibration are not claimed.
+- Gated Pages deployment for commit `83d651ff5ccec2267119a2db811d43b21648eee2` completed successfully. The public catalog, full exam, listening route and first live MP3 playback progression were verified. Both required Actions jobs succeeded; the run-level status still showed `in_progress` at observation time. See `qa/N2_MOCK_11_LIVE_DEPLOYMENT_RECEIPT.json`.
+- Next production item is N2-MOCK-12. N2-MOCK-13 and #14 remain unstarted; N2-MOCK-15 is out of scope.
+
 ## 2026-10-21 — Phase 6 N2-MOCK-09 Production and M07 Audio Alignment
 
 - Completed N2-MOCK-09 as an original 105-item practice exam (75 written, 30 listening) with 30 real Japanese MP3 assets. Added the exam data to the runtime bank and enabled its full-exam and listening-only catalog links with explicit practice/AI-review disclosures.

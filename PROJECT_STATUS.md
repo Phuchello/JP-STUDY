@@ -1,13 +1,14 @@
 # Trạng thái dự án — 21/10/2026
 
-## Phase 7 — N2-MOCK-11 (đã qua cổng QA cục bộ; chờ CI/Pages)
+## Phase 7 — sản xuất N2-MOCK-11 → N2-MOCK-14
 
 - **Nội dung:** #11 có đủ 75 câu Language Knowledge/Reading và 30 câu Listening (105/105), cùng 105 giải thích tiếng Việt. Phân bổ Section 1: A19/B18/C20/D18; chuỗi đáp án liên tiếp dài nhất là 3, mẫu ngắn lặp dài nhất được bộ phát hiện ghi nhận là 6 ký tự, chu kỳ 3 (`DAA`). 5 câu STAR có đáp án `ACCDC`; giữ đủ đánh giá 120 hoán vị.
 - **Đối chiếu:** 105/105 câu khớp ngữ nghĩa theo phiên bản hiện tại và fingerprint. Đây là AI blind review có phiên bản gắn với nội dung, nhưng **không có portable execution attestation**, không phải chứng nhận người bản ngữ/chuyên gia. Ghi chú văn phong nhỏ ở `N2_11_M9_02` được giữ lại; vòng xem lại thứ hai không đề xuất đáp án thay thế.
 - **Tính nguyên bản:** so với #01–10: không trùng passage đọc theo ngưỡng audit, script nghe, bộ distractor hoàn chỉnh hay SHA audio. Audit ghi 3 prompt stem trùng nguyên văn và 5 stem gần giống thuộc khung hỏi JLPT dùng chung; không có trùng passage/script. Hai bộ distractor từng lặp ở bản trước đã được thay và kiểm tra lại.
-- **Audio/runtime:** 30 MP3 có hash manifest; cả 30 vượt qua phát lại desktop và mobile Chromium. E2E player #11 và 9 kiểm thử âm tính đều đạt; kiểm thử bộ đầy đủ đạt 188/188 khi thư mục temp đặt trong workspace. Đây là bằng chứng kỹ thuật phát/tải/chấm bài, không xác nhận chất lượng phát âm hoặc hiệu chuẩn độ khó.
-- **Trạng thái phát hành:** tích hợp cục bộ và các cổng QA cục bộ đạt (189/189 unit tests, 9/9 negative-control tests, dynamic audit 11/11); **chưa xác nhận** GitHub Actions, Pages hay đường dẫn công khai cho #11 tại checkpoint này. Không quảng bá như một đề đã phát hành cho tới khi hoàn tất các kiểm tra đó. Coverage đầy đủ ở [`qa/PHASE_7_COVERAGE_MATRIX.md`](qa/PHASE_7_COVERAGE_MATRIX.md).
-- **Tiếp tục:** sau khi kiểm tra CI/Pages và URL thật của #11, chuyển sang #12 → #13 → #14 theo thứ tự. Chưa tạo #12–14 và không bắt đầu #15.
+- **Audio/runtime:** 30 MP3 có hash manifest; cả 30 vượt qua phát lại desktop và mobile Chromium. E2E player #11 và 9 kiểm thử âm tính đều đạt; bộ kiểm thử đầy đủ đạt 189/189 khi thư mục temp đặt trong workspace. Đây là bằng chứng kỹ thuật phát/tải/chấm bài, không xác nhận chất lượng phát âm hoặc hiệu chuẩn độ khó.
+- **Trạng thái phát hành:** #11 đã được deploy và xác minh trực tiếp ở catalog, route 75 câu và route nghe 30 câu; MP3 công khai đầu tiên phát tiến đến 13.063/35.584 giây. Cả hai job bắt buộc trong [Actions run 39613376720](https://github.com/Phuchello/JP-STUDY/actions/runs/39613376720) báo `success`, kể cả deploy Pages. GitHub vẫn báo trạng thái tổng của run là `in_progress` tại thời điểm ghi nhận nên không tuyên bố run-level `success`. Receipt: [`qa/N2_MOCK_11_LIVE_DEPLOYMENT_RECEIPT.json`](qa/N2_MOCK_11_LIVE_DEPLOYMENT_RECEIPT.json).
+- **Giới hạn:** 30/30 MP3 qua hash và playback QA desktop/mobile; chỉ track đầu được quan sát phát trực tiếp trên CDN. AI blind review không có portable execution attestation, không phải xác nhận người bản ngữ hay hiệu chuẩn tâm trắc học.
+- **Tiếp tục:** #11 là đề hoàn chỉnh đã deploy; #12 là đề kế tiếp, chưa bắt đầu; #13–14 chưa bắt đầu. Tiếp tục theo thứ tự và không tạo #15.
 
 ## Phase 6.1 — sửa chất lượng nội dung N2-MOCK-07–09 (đã phát hành và xác minh live)
 
