@@ -1,0 +1,42 @@
+{
+  "examId": "N2-MOCK-09",
+  "deployedCommit": "02474356f2747c8991ab0aaf4325691148d84b86",
+  "githubActionsRun": "https://github.com/Phuchello/JP-STUDY/actions/runs/39543187530",
+  "actionsConclusion": "success",
+  "gatedPagesDeployment": "success",
+  "observedAtUtc": "2026-10-21T04:20:12.209582+00:00",
+  "catalogUrl": "https://phuchello.github.io/JP-STUDY/widgets/jlpt_exam_catalog.html",
+  "fullExamUrl": "https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mock&mockId=N2-MOCK-09",
+  "listeningUrl": "https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mock&mockId=N2-MOCK-09&section=2",
+  "checks": [
+    {
+      "name": "public_catalog_entry",
+      "result": "PASS",
+      "evidence": "AI-reviewed practice badge and full/listening links are visible"
+    },
+    {
+      "name": "public_full_exam_route",
+      "result": "PASS",
+      "evidence": "N2-MOCK-09 loaded with 75 questions and 105:00 section timer"
+    },
+    {
+      "name": "public_listening_route",
+      "result": "PASS",
+      "evidence": "30 questions and 50:00 timer; first item N2_09_M1_L01"
+    },
+    {
+      "name": "public_audio_load",
+      "result": "PASS",
+      "evidence": "N2_09_M1_L01.mp3 loaded; duration 60.024 seconds; readyState 4"
+    },
+    {
+      "name": "public_audio_playback_progress",
+      "result": "PASS",
+      "evidence": "Browser currentTime advanced from 0.000 to 1.417 seconds; playback was active with no media error"
+    }
+  ],
+  "limitations": [
+    "Practice content was reviewed by AI; no human or native-speaker certification is claimed.",
+    "This proves the listed public routes and first audio asset at observation time; it is not a psychometric validation."
+  ]
+}

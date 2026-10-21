@@ -7,6 +7,7 @@
 - Verified all 30 M09 MP3s in desktop and mobile Chromium for hash, decode and playback progression; full mock E2E passes with correct section sizes/timers, scoring, review and 390px layout.
 - Rebuilt 16 M07 M3/M4 spoken-choice tracks after option wording was aligned, preserved the other 14 tracks, and bound the fresh blind review to the current audio fingerprints. M07 release audit passes 105/105.
 - Added M07/M09 full-mock E2E and audio playback checks to the GitHub Actions workflow.
+- Published M09 through the gated GitHub Pages workflow at `02474356f2747c8991ab0aaf4325691148d84b86` (Actions run [39543187530](https://github.com/Phuchello/JP-STUDY/actions/runs/39543187530)); live catalog, full route, 30-question listening route and actual public MP3 playback progression were verified.
 
 ## 2026-10-17 — Phase 3.7 False Authentication Boundary Removal, 3-Environment Gates & Pilot Delivery
 

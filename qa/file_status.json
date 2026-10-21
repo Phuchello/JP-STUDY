@@ -346,5 +346,6 @@
   "scripts/curriculum/add_mock_09_to_bank.py": "DRAFT",
   "scripts/curriculum/generate_n2_mock_09_audio.py": "DRAFT",
   "scripts/curriculum/build_full_mock_n2_09.py": "DRAFT",
-  "scripts/curriculum/bank_data/n2_mock_09_data.py": "DRAFT"
+  "scripts/curriculum/bank_data/n2_mock_09_data.py": "DRAFT",
+  "qa/N2_MOCK_09_LIVE_DEPLOYMENT_RECEIPT.json": "VERIFIED"
 }

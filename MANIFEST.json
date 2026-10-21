@@ -1,8 +1,8 @@
 {
   "snapshotDate": "2026-10-21",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
-  "fileCountExcludingManifest": 882,
-  "totalBytesExcludingManifest": 136847612,
+  "fileCountExcludingManifest": 883,
+  "totalBytesExcludingManifest": 136850162,
   "files": [
     {
       "path": ".gitattributes",
@@ -456,8 +456,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 36040,
-      "sha256": "c000658d0e91678479575284b9c1d2f8e57c2c27ca92325133441b38799a6c21",
+      "bytes": 36347,
+      "sha256": "753d9fce9058e2bb96aa10e0a075e94c4f6014d8535f2a27e7d4da0032272790",
       "status": "VERIFIED"
     },
     {
@@ -2604,8 +2604,8 @@
     },
     {
       "path": "FILE_INDEX.md",
-      "bytes": 87265,
-      "sha256": "b050f2aa7e39dabe6fa83c52202a45a4929f50e26fd2dafeb9979f02bf1c457e",
+      "bytes": 87369,
+      "sha256": "2b45b17df2da2362177cd7ddf49cefc36242283e1aa181ead3b93de97c07ce67",
       "status": "VERIFIED"
     },
     {
@@ -2640,8 +2640,8 @@
     },
     {
       "path": "PROJECT_STATUS.md",
-      "bytes": 39984,
-      "sha256": "2ee48c31612ce6c79439cb5d7550531cc867ad75a9614262a02045662d051322",
+      "bytes": 40342,
+      "sha256": "6bfbc5870539e1c3787b83770289653a2e24586daeec32ff8c233e921e6fa4fa",
       "status": "VERIFIED"
     },
     {
@@ -3102,8 +3102,8 @@
     },
     {
       "path": "qa/file_status.json",
-      "bytes": 19498,
-      "sha256": "0903f021e9bf9eb61a8d608758cc44a43733efce11cbff8867b75e68d2b60916",
+      "bytes": 19558,
+      "sha256": "2a48ea017a31b0653641b430402a01cffcc3f2bc209cf3e377038704c4e1668e",
       "status": "VERIFIED"
     },
     {
@@ -3656,6 +3656,12 @@
       "path": "qa/N2_MOCK_09_INDEPENDENT_AUDIT_REPORT.md",
       "bytes": 34827,
       "sha256": "216c67317e1f38e5b6c71372a768a72ffcf04b87a03dc555780166dd0beed975",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/N2_MOCK_09_LIVE_DEPLOYMENT_RECEIPT.json",
+      "bytes": 1721,
+      "sha256": "417523a3e4821a70421e11253250f7a38dbc9c0a9bdecc13f27577ae3fcf82dd",
       "status": "VERIFIED"
     },
     {
