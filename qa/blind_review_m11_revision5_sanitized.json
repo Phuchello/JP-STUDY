@@ -1,0 +1,2150 @@
+{
+  "artifactType": "SANITIZED_PUBLICATION_PROJECTION",
+  "sourceRawSha256": "a3fb34a88b03321023859552534854d7e07ec6bdcc0cff85016cd39bb780eaa1",
+  "sourceRawBytesLocallyRetained": true,
+  "pathRedaction": "Absolute local filesystem paths replaced with repository-relative artifact paths; all reviewer answers, fingerprints, rationales, STAR judgments, and validation fields preserved.",
+  "response": {
+    "reportVersion": "1.0",
+    "reviewType": "fresh blind review from current sealed key-free input; no authored key consulted",
+    "sealedInputPath": "qa/blind_items_m11_final.json",
+    "sealedInputSha256Before": "48CE1A7F13228B96860D4D2641C0B0A4F29305F6E13FB63016D644C2A7B6A3BE",
+    "sealedInputSha256After": "48CE1A7F13228B96860D4D2641C0B0A4F29305F6E13FB63016D644C2A7B6A3BE",
+    "answers": [
+      {
+        "questionId": "N2_11_M1_01",
+        "contentFingerprint": "a06b2fd97200fe6dee2793bf395b2b39b2f0b73b35cce528995d51234240d9fe",
+        "selectedOptionId": "D",
+        "exactOptionText": "きんとう",
+        "rationaleJapanese": "「均等」は「きんとう」と読む。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M1_02",
+        "contentFingerprint": "858daf2c35702be96f1ec2eda59c7854f40c23f2b968f87b4c0a629a81eee25a",
+        "selectedOptionId": "D",
+        "exactOptionText": "しょうごう",
+        "rationaleJapanese": "「照合」の読みは「しょうごう」である。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M1_03",
+        "contentFingerprint": "4020f1f0e99d676050c4695258dff3c002e36080a060b2c4119e45ca75977d12",
+        "selectedOptionId": "D",
+        "exactOptionText": "ゆうせん",
+        "rationaleJapanese": "「優先」は「ゆうせん」と読む。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M1_04",
+        "contentFingerprint": "0038630ef7ae18e4dcf482c5b20157eac211ff0ead6d7bb73c0db39fb3d9e9a1",
+        "selectedOptionId": "C",
+        "exactOptionText": "あらためる",
+        "rationaleJapanese": "「改める」の読みは「あらためる」。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M1_05",
+        "contentFingerprint": "7ca42ec2671760e83889ac1ebc6e059e822dbe9cdbaaf63f2cc505cca6a955bd",
+        "selectedOptionId": "B",
+        "exactOptionText": "ふまえて",
+        "rationaleJapanese": "「踏まえて」は「ふまえて」と読む。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M2_01",
+        "contentFingerprint": "2e4a2c82d799b3ff9c0d59f8f6bc2123338d44b52636bea66dcc0d9cff6958cf",
+        "selectedOptionId": "C",
+        "exactOptionText": "確認",
+        "rationaleJapanese": "見積もり金額を確かめる語は「確認」。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M2_02",
+        "contentFingerprint": "010a815f4b3c5d0a920253c5c8d8759b3a715b124903873c420dba301264efee",
+        "selectedOptionId": "C",
+        "exactOptionText": "提示",
+        "rationaleJapanese": "社員証を見せることは「提示」と表記する。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M2_03",
+        "contentFingerprint": "68ebfa212b3055527b3ade97f946a72f9eb5794d486c194d76bee177d42161e7",
+        "selectedOptionId": "C",
+        "exactOptionText": "修正",
+        "rationaleJapanese": "資料の誤りを直す場合は「修正」。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M2_04",
+        "contentFingerprint": "5e2b2afd247293431e8e74b7e7155a3e6bd34d9753b21a7af17d9589c3078d18",
+        "selectedOptionId": "B",
+        "exactOptionText": "公平",
+        "rationaleJapanese": "全社員に公平に説明する、という意味と読みが合う。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M2_05",
+        "contentFingerprint": "228709dff560708ee71c4938dc7e3b640dc1f58a90be5ad3fc2b3ffba22fde52",
+        "selectedOptionId": "D",
+        "exactOptionText": "通知",
+        "rationaleJapanese": "結果を知らせることは「通知」。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M3_01",
+        "contentFingerprint": "312dae8e714814131b82997df49430a7bda75c0dd34ab2668cf371ca632952e6",
+        "selectedOptionId": "B",
+        "exactOptionText": "返信",
+        "rationaleJapanese": "取引先への回答を送る行為は「返信する」。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M3_02",
+        "contentFingerprint": "0e5ab317825129e5dd49ffea24f9b726a4ba336e1aad1aa50e5c4ef3be41e939",
+        "selectedOptionId": "A",
+        "exactOptionText": "応じて",
+        "rationaleJapanese": "参加者数に合わせて印刷するので「人数に応じて」。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M3_03",
+        "contentFingerprint": "e977336fc16efb0c023067819ca9a2594421cdc6347a04a623772023a75d8500",
+        "selectedOptionId": "A",
+        "exactOptionText": "検討",
+        "rationaleJapanese": "案を採用するか考えることは「検討する」。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M3_04",
+        "contentFingerprint": "9806491c995e2f6937edc8763ec5011e4e61cc9c640898a929a62046f36f8eb2",
+        "selectedOptionId": "C",
+        "exactOptionText": "連絡",
+        "rationaleJapanese": "変更を関係者に知らせるには「連絡する」。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M3_05",
+        "contentFingerprint": "f9e1dc39ebcf8cdd77823ff915f801a076c218e821add171605c257fcb489a64",
+        "selectedOptionId": "D",
+        "exactOptionText": "保留",
+        "rationaleJapanese": "確認が終わるまで支払いを進めず一時停止する意味は「保留」。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M4_01",
+        "contentFingerprint": "0d6f9b138acfc043012abd07545784400d857b9f97dd726f9996496fbe03acbe",
+        "selectedOptionId": "B",
+        "exactOptionText": "調整",
+        "rationaleJapanese": "予定を調整して急な依頼に対応する。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M4_02",
+        "contentFingerprint": "95e184880254793c6b94d12a4b1a016191bf40facccbc241590e8282884fada5",
+        "selectedOptionId": "B",
+        "exactOptionText": "考慮",
+        "rationaleJapanese": "反対意見を判断材料として考慮したうえで結論を出す。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M4_03",
+        "contentFingerprint": "23293fb90c18a6fbf9e659defe7eea64cb9887099cfaf638b1c309b34bfb5842",
+        "selectedOptionId": "A",
+        "exactOptionText": "試行",
+        "rationaleJapanese": "手順を小規模に試すことは「試行」。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M4_04",
+        "contentFingerprint": "89b1b8f5b03e3964afec6cbc2706cb6b677b3e01769f47de01c8ecf79f674adc",
+        "selectedOptionId": "B",
+        "exactOptionText": "代理",
+        "rationaleJapanese": "休みの担当者に代わって務めるのは「代理」。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M4_05",
+        "contentFingerprint": "7bb2d1bd9c4478cdc13a7b7163c3c71460498f98e52253875297b4e81caaea25",
+        "selectedOptionId": "D",
+        "exactOptionText": "改善",
+        "rationaleJapanese": "利用者の意見を受けて運用をよくするので「改善」。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M4_06",
+        "contentFingerprint": "eab84fc46923f1c64bb51fe7e655709b0864008914ac20aa9819601ad29f27bc",
+        "selectedOptionId": "A",
+        "exactOptionText": "録音",
+        "rationaleJapanese": "ICレコーダーで会議音声を記録する行為は「録音」。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M4_07",
+        "contentFingerprint": "b14b4a4273702cd0f21038fa0c8773a5ed272c0705ee3f04d8cce0f89572fcee",
+        "selectedOptionId": "A",
+        "exactOptionText": "見直し",
+        "rationaleJapanese": "締め切りに間に合わせるため作業順を再検討するので「見直し」。",
+        "confidence": "medium",
+        "alternateDefensibleAnswers": [],
+        "concerns": [
+          "「順番を見直しした」はややくだけた業務表現で、「見直した」または「見直しをした」の方が整った言い方。"
+        ]
+      },
+      {
+        "questionId": "N2_11_M5_01",
+        "contentFingerprint": "a53757561db2d7a9a9d626c0d59ca5520b99113c42fcad741afea327035c3233",
+        "selectedOptionId": "D",
+        "exactOptionText": "発言を参考にして",
+        "rationaleJapanese": "発言を踏まえるとは、発言を参考にして計画を練ること。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M5_02",
+        "contentFingerprint": "fa799a41b92ed4d17146bdfb07ddf87f1d982980bb0336c9799e3c5e0ecb75df",
+        "selectedOptionId": "A",
+        "exactOptionText": "現場の状況に合っている",
+        "rationaleJapanese": "「状況に即している」は現場の状況に合っていること。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M5_03",
+        "contentFingerprint": "4695ba6311e239ef5db298b4791cd7e4ec3fc165d74f1219c1668e721d0590ba",
+        "selectedOptionId": "A",
+        "exactOptionText": "足りないところを埋めるため",
+        "rationaleJapanese": "不足を補うとは足りない部分を埋めること。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M5_04",
+        "contentFingerprint": "2c15385f9b2e69d6717ed741529b5a03dbca20ceda0d11204983a4671c34459c",
+        "selectedOptionId": "C",
+        "exactOptionText": "協力している",
+        "rationaleJapanese": "部署が連携することは協力すること。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M5_05",
+        "contentFingerprint": "dd9bf95a919ba2c5266fb314ce7ba41d4cd1750a07ae7a03d1695508b70f9230",
+        "selectedOptionId": "A",
+        "exactOptionText": "予定より早く進めた",
+        "rationaleJapanese": "作業を前倒しするとは予定より早めて進めること。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M6_01",
+        "contentFingerprint": "ca47ef0565679aa43c525236da47c6a0157f6ebaba7f9a781273dbaaabe239d9",
+        "selectedOptionId": "D",
+        "exactOptionText": "費用対効果を確認できないため、新制度の導入は見送られた。",
+        "rationaleJapanese": "新制度の導入を費用対効果が不明なため実施しない、という計画見送りの用法。",
+        "confidence": "medium",
+        "alternateDefensibleAnswers": [
+          {
+            "optionId": "B",
+            "exactOptionText": "対応策を見送って、問題を解決した。"
+          }
+        ],
+        "concerns": [
+          "B「対応策を見送る」も、対応策を実行しない意味で自然に使え、指定された意味に合致しうる。Dは最も明確だが、Bも正答と解釈できるため要再検討。"
+        ]
+      },
+      {
+        "questionId": "N2_11_M6_02",
+        "contentFingerprint": "ad80c8f2522f86614db7d19765bc6d0e8b8cf53e0a13b2cfbfa31a1ac1806920",
+        "selectedOptionId": "A",
+        "exactOptionText": "その時間では、打ち合わせに差し支えます。",
+        "rationaleJapanese": "時間が打ち合わせに支障を来す、という用法。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M6_03",
+        "contentFingerprint": "740c23097984bd9fd63e5857498ef52572ad43d016e69a2f8947401a54bdf3ae",
+        "selectedOptionId": "B",
+        "exactOptionText": "各部署の意見を取りまとめて報告書にした。",
+        "rationaleJapanese": "複数部署の意見を集約して報告書にするのが「取りまとめる」。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M6_04",
+        "contentFingerprint": "f2fcbee9ee72da3081e5947ae2a9551455f68700b7ffdfe3bec7dbe953666c72",
+        "selectedOptionId": "B",
+        "exactOptionText": "今月は問い合わせが増えると見込んで人員を増やした。",
+        "rationaleJapanese": "問い合わせ増加を予測して人員を増やすため「見込む」が合う。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M6_05",
+        "contentFingerprint": "1c06e40bb0c061629952b5bbed150df77131b6e8b907067077261449abc2d44f",
+        "selectedOptionId": "C",
+        "exactOptionText": "連絡の行き違いで、二人が別の会場へ向かった。",
+        "rationaleJapanese": "連絡の食い違いによって別会場へ向かったという用法。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M7_01",
+        "contentFingerprint": "3fbb621066c7e97331b32e8dd97018dfd7edbe8c3a015352dd109eb6dc47be4c",
+        "selectedOptionId": "A",
+        "exactOptionText": "したほうがいい",
+        "rationaleJapanese": "送付前に確認することを勧める「したほうがいい」が自然。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M7_02",
+        "contentFingerprint": "506249fb5cae4d710a1c8a98bdfef0342979d80598e12e88619b5a41d84b1ab0",
+        "selectedOptionId": "C",
+        "exactOptionText": "うえで",
+        "rationaleJapanese": "説明した後で規則を適用するので「うえで」。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M7_03",
+        "contentFingerprint": "6002297410c500fa76b9643e6f877f4ccd0bb45c73f96de808cf395856f58fcd",
+        "selectedOptionId": "B",
+        "exactOptionText": "ことには",
+        "rationaleJapanese": "「変更しないことには解決できない」は必要条件を表す。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M7_04",
+        "contentFingerprint": "3c6ac9ea763535a41520b0f244259b7ec01ca28b74334ebbfbe11e2f21775d34",
+        "selectedOptionId": "D",
+        "exactOptionText": "ものの",
+        "rationaleJapanese": "説明はしたが伝達確認は未了、という逆接に「ものの」が合う。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M7_05",
+        "contentFingerprint": "8151dbba6fd064f50db5e0cd062cf39967034a3ca77d4119d7500d6bf4536878",
+        "selectedOptionId": "C",
+        "exactOptionText": "うえで",
+        "rationaleJapanese": "必要事項をすべて記入した後で提出するので「うえで」。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M7_06",
+        "contentFingerprint": "ba4ad813a2b90f248056c0feb43c0127212d46ea66eaf10b53b42f894840f649",
+        "selectedOptionId": "C",
+        "exactOptionText": "わけではない",
+        "rationaleJapanese": "予算が少なくても品質を下げてよいとは限らない。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M7_07",
+        "contentFingerprint": "bcf856d22a32eb1480c15d50c8495f293cda8463189d9f773a21e22a954a54b7",
+        "selectedOptionId": "A",
+        "exactOptionText": "ながらも",
+        "rationaleJapanese": "経験が浅いが丁寧に進める、という逆接の「ながらも」。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M7_08",
+        "contentFingerprint": "445091b85281a49d497d70de9e4bcd9616c7e322bb2cb9ad6693103b480df54e",
+        "selectedOptionId": "A",
+        "exactOptionText": "にあたって",
+        "rationaleJapanese": "議事録の共有を行う際に権限を確認するので「にあたって」。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M7_09",
+        "contentFingerprint": "31de1f993b6a682f1997ef46b486bc9a0ddbd8f2fac024d40fc8e66f5037ee01",
+        "selectedOptionId": "D",
+        "exactOptionText": "せいか",
+        "rationaleJapanese": "説明が分かりにくいため質問が増えているのかもしれない、という「せいか」。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M7_10",
+        "contentFingerprint": "96af80ffedb748e773cfe4d3b1a1701bd24ac6decde8278606524434bb6abe15",
+        "selectedOptionId": "B",
+        "exactOptionText": "ように",
+        "rationaleJapanese": "遅れないように毎日進捗を確認した、という目的。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M7_11",
+        "contentFingerprint": "0e53d37ddb28ff621318738d7b6b45863e24cc9dbe7fb071ef4aa377e079272d",
+        "selectedOptionId": "C",
+        "exactOptionText": "応じて",
+        "rationaleJapanese": "方針を状況に応じて見直すという意味。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M7_12",
+        "contentFingerprint": "a949fce7e662548b57d0977f9c78f73ee038e6daea4f1eae7242965d10cef6ea",
+        "selectedOptionId": "C",
+        "exactOptionText": "とともに",
+        "rationaleJapanese": "数字の確認と出典明記を併せて求める「とともに」。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M8_01",
+        "contentFingerprint": "b622894c88c2a38d66338792de8406e9f729cbc2c257364bc6f8859c05a0bb0d",
+        "selectedOptionId": "A",
+        "exactOptionText": "その結果、差があった場合は取引先に確認してから",
+        "rationaleJapanese": "請求額を注文記録と照合した結果、差があれば取引先に確認し、その後修正案を作るという指示になる。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M8_02",
+        "contentFingerprint": "7ede7bfc581e1346988b7575273c35ec2be78cb08d75e1499b4fec1c17f67942",
+        "selectedOptionId": "C",
+        "exactOptionText": "ことのほうが",
+        "rationaleJapanese": "「結論を急ぐより、根拠を確かめることのほうが大切だ」という比較構文。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M8_03",
+        "contentFingerprint": "58d64c36a69b088204c3028da6daa96b9e9f1b1a709679713ca5705fc7167e45",
+        "selectedOptionId": "C",
+        "exactOptionText": "差があれば取引先に確認してから",
+        "rationaleJapanese": "請求額を照合し、差異がある場合は確認してから支払いを進める流れ。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M8_04",
+        "contentFingerprint": "78686f5b16e89601fc214d382f9e20dead45091b7f34ab5d406be14c932be242",
+        "selectedOptionId": "D",
+        "exactOptionText": "項目ごとに照合し、",
+        "rationaleJapanese": "申請書と原本の数字を項目ごとに照合し、相違があれば申請者に確認する判断。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M8_05",
+        "contentFingerprint": "81fa7d32ae3795c10cdd7517a2b68c0d74c3a6d39d8cb6acaf710c3ad2aea40b",
+        "selectedOptionId": "C",
+        "exactOptionText": "姿勢を保つ",
+        "rationaleJapanese": "相手の立場を理解しようとする姿勢を保つことが必要、という文。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M9_01",
+        "contentFingerprint": "fd6a3ab8bf83e44c0a63963d8c075b20aad650ad232eb96997f230256a188281",
+        "selectedOptionId": "C",
+        "exactOptionText": "というわけではない",
+        "rationaleJapanese": "情報を多く書けばよいというわけではない、という文意。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M9_02",
+        "contentFingerprint": "940bfa37b649b04651f1ab69e35576e6010db9bfc95b0f0561615c27d2462336",
+        "selectedOptionId": "B",
+        "exactOptionText": "とともに",
+        "rationaleJapanese": "発言理由を記録するとともに、後で決定根拠を確認しやすくなる。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M9_03",
+        "contentFingerprint": "0ee444c837e9991f2433bbf1a2f8f6d86050e8617af44d397688bbfc40f40ddd",
+        "selectedOptionId": "B",
+        "exactOptionText": "ことには",
+        "rationaleJapanese": "再現条件を調べないことには解決の手がかりが得られない。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M9_04",
+        "contentFingerprint": "7cd88a7b0161c3536d83cc7f8a0457f5df44c768c944141474b1f56291e5686a",
+        "selectedOptionId": "C",
+        "exactOptionText": "に先立って",
+        "rationaleJapanese": "本格運用を始める前に試すので「に先立って」。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M9_05",
+        "contentFingerprint": "9f0e3fea4dc3acdd8b09c2cba93327d056a8bbbf39bef4984fa4a44c0a9f5e21",
+        "selectedOptionId": "D",
+        "exactOptionText": "以上",
+        "rationaleJapanese": "条件が前回と異なる以上、単純比較を避けるべきだ。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M10_01",
+        "contentFingerprint": "fb94900eb9d4649834cd0c7cd98b8402d1a049dcf241f66e8966fdbd342d51e8",
+        "selectedOptionId": "D",
+        "exactOptionText": "ファイルの新旧を区別しやすくするため",
+        "rationaleJapanese": "日付と版番号でファイルの新旧を区別しやすくするため。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M10_02",
+        "contentFingerprint": "10bdbe6d09f534db61651c2d1b22acbac6713148e302bab23b2dab616a5ceaa9",
+        "selectedOptionId": "B",
+        "exactOptionText": "不明な金額を推測で処理しないため",
+        "rationaleJapanese": "不明な金額を推測で入力せず、先方に確認するため。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M10_03",
+        "contentFingerprint": "1fc1f36cda9da2e908e68b848f3e16946f67d1eb345c519843a54c178e89b61f",
+        "selectedOptionId": "A",
+        "exactOptionText": "名前が映る場面を編集する",
+        "rationaleJapanese": "参加者名が映る場面を編集で削除してから共有する。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M10_04",
+        "contentFingerprint": "99421216d90621f061443800ed56570b880a0d9378e992190f2c8fb407847379",
+        "selectedOptionId": "A",
+        "exactOptionText": "参加者が旧会場へ行かないようにするため",
+        "rationaleJapanese": "旧会場へ向かう人が出ないよう訂正版を再送した。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M10_05",
+        "contentFingerprint": "8efd71d6c632afe02a6af1b2f6f7db17a707fd2a69d9e2e1c3bef7674098806a",
+        "selectedOptionId": "A",
+        "exactOptionText": "次月の業務量を見積もるため",
+        "rationaleJapanese": "記録を翌月の業務量見積もりに利用するため。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M11_01",
+        "contentFingerprint": "3e4b73c2ce96c6037c5709f10d57bdfd69ec09d96728a4ff3facb18c2d41285f",
+        "selectedOptionId": "B",
+        "exactOptionText": "未完了の作業・確認日・連絡先",
+        "rationaleJapanese": "表には未完了作業、次の確認日、連絡先をまとめている。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M11_02",
+        "contentFingerprint": "41f8f2990dc858e9d19d079910f5516d5a4f3dcd513318b3e1bb5c42fd35bf1e",
+        "selectedOptionId": "A",
+        "exactOptionText": "更新しないと情報が古くなるから",
+        "rationaleJapanese": "更新しなければ表の情報が古くなるため。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M11_03",
+        "contentFingerprint": "991327f58096665690ec82e4bf9c438c323b8e826f83164123ffef1baea5c4de",
+        "selectedOptionId": "D",
+        "exactOptionText": "表に加えて口頭の引き継ぎも行う",
+        "rationaleJapanese": "例外的判断が要る案件は表に加えて口頭の引き継ぎも行う。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M11_04",
+        "contentFingerprint": "2fbfb21e9c91e30eaf462e8709126616ef41ad9cb70d4ef4cc7254dd57c5abd5",
+        "selectedOptionId": "A",
+        "exactOptionText": "参加者が事前に資料を読んでいないこと",
+        "rationaleJapanese": "事前に資料を読まない参加者が前提確認に時間を費やすため。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M11_05",
+        "contentFingerprint": "df3405afc82eca8990b2d188b090ac9d77b9166a10f5bf8fa0c87648242942bb",
+        "selectedOptionId": "C",
+        "exactOptionText": "資料を読み、疑問点を一つ用意する",
+        "rationaleJapanese": "会議前に資料を読み、疑問点を一つ書いておく。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M11_06",
+        "contentFingerprint": "ec39c0760398f47f555296bcf9ed8fe7ebd1a7c4c1e3f31de4c1c05bd129ad99",
+        "selectedOptionId": "D",
+        "exactOptionText": "準備にかける負担を抑えるため",
+        "rationaleJapanese": "準備にかける負担を抑えるため資料を二ページ以内にした。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M11_07",
+        "contentFingerprint": "67eb677a4bdd9ff47f03197a9a5431fb39b31eeaf6c2c61ed6b37fc52498a9bd",
+        "selectedOptionId": "B",
+        "exactOptionText": "報告した人が責められると感じる職場",
+        "rationaleJapanese": "報告者が責められると感じる職場ほど小さな失敗を隠しやすい。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M11_08",
+        "contentFingerprint": "93bbeb1ef47feeb511ea3cf05f1aed49a4bbc56e67a7b1764bb8506f36edbd25",
+        "selectedOptionId": "D",
+        "exactOptionText": "事実と影響の範囲",
+        "rationaleJapanese": "報告後にまず事実と影響範囲を確認する。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M11_09",
+        "contentFingerprint": "6db3b4ebbf7a99fe2f43c0a800a40d9c07617e7fb67a550485085e23027d6b22",
+        "selectedOptionId": "C",
+        "exactOptionText": "失敗の原因を区別し、改善可能な点を直すこと",
+        "rationaleJapanese": "意図的違反と手順・情報不足の失敗を区別し、改善点を直すことが目的。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M12_01",
+        "contentFingerprint": "54462237dcc46a914996ed2ca55b491b8aa71ca3a78132c2b1da6b0036aa1696",
+        "selectedOptionId": "A",
+        "exactOptionText": "Bコース",
+        "rationaleJapanese": "新人で昼休みにオンライン希望の木村さんには、全社員向け昼のオンラインBコースが最も合う。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M12_02",
+        "contentFingerprint": "cd0a1c1768657873f0c861dcdc5d07e5856d43a3cd10f0ae1787947078efd9bf",
+        "selectedOptionId": "D",
+        "exactOptionText": "Cコースだけ",
+        "rationaleJapanese": "管理職向けのCコースは金曜開催で、木曜昼に会議がある佐藤さんの予定と重ならない。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M13_01",
+        "contentFingerprint": "6a7025b3e0359cf22becc8ded41f6cc0f1a54dd7446fdbe3f3f6f5cb0bbedf3a",
+        "selectedOptionId": "B",
+        "exactOptionText": "時間に表れにくい仕事や例外対応があるから",
+        "rationaleJapanese": "時間だけを基準にすると例外対応や利用者への説明など、数字に出にくい仕事が抜ける。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M13_02",
+        "contentFingerprint": "a82506fe2a82b618ff02ce338baf09b6452aad2425af9207dcf770804ac74f9a",
+        "selectedOptionId": "C",
+        "exactOptionText": "回答者と非回答者で関心や経験が異なる場合があるから",
+        "rationaleJapanese": "回答者と非回答者では制度への関心や利用経験が異なる可能性がある。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M13_03",
+        "contentFingerprint": "5cd94d40a7203d95b87252ae41f799f0750db1a0ff60dda59ffa688da0fd8471",
+        "selectedOptionId": "B",
+        "exactOptionText": "重要な意味の区別が失われることがあるから",
+        "rationaleJapanese": "用語を全て平易語にすると重要な意味の区別まで失われることがある。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M14_01",
+        "contentFingerprint": "a89435e99df9db808182c5328090bdcf7cc713178814b7ac9e56befce23e685f",
+        "selectedOptionId": "B",
+        "exactOptionText": "6月12日（金）17時",
+        "rationaleJapanese": "申込メールは6月12日（金）17時までに送る。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M14_02",
+        "contentFingerprint": "5846f25dc54ab59b1fd566cf56c0df3ea91c4db7c1579cfebd0ca73282e667f5",
+        "selectedOptionId": "D",
+        "exactOptionText": "西館から連絡通路で東館へ行く",
+        "rationaleJapanese": "西館から連絡通路を利用して東館へ行く。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M1_L01",
+        "contentFingerprint": "262efb287904947bf4d6db795d9dcf717f947929e7ec710653e52cd77ffc553f",
+        "selectedOptionId": "D",
+        "exactOptionText": "在庫と印刷の状況を確認する",
+        "rationaleJapanese": "まず在庫と印刷の残りを確認するよう指示されている。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M1_L02",
+        "contentFingerprint": "ec6005ddb39438e0e71284ce0d2ce87564d3bd81cd4de85b4a4470a804f773ef",
+        "selectedOptionId": "C",
+        "exactOptionText": "製品の使い方を説明する資料",
+        "rationaleJapanese": "使い方を説明する資料から準備するよう求められた。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M1_L03",
+        "contentFingerprint": "0253281f65778231a38fbc72947d2eefe3f494aa43c183d8abd18744ea2eca67",
+        "selectedOptionId": "B",
+        "exactOptionText": "訂正した申込書を担当者にメールする",
+        "rationaleJapanese": "訂正箇所が分かるようにして、申込書を担当者へメールする。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M1_L04",
+        "contentFingerprint": "4ee581d98d3fbdcaf003a08e2915d9a6c38bcc7e4af6fc4a2fd8fea2e872191c",
+        "selectedOptionId": "B",
+        "exactOptionText": "参加者一覧と招待先のアドレスを確認する",
+        "rationaleJapanese": "参加者一覧と招待先アドレスを照合するのが最初の作業。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M1_L05",
+        "contentFingerprint": "6017c7d6e2e94b24476c34bcf27bc889abe70ca7712dac5590c73716253d781e",
+        "selectedOptionId": "C",
+        "exactOptionText": "出張記録で経路と金額を確かめる",
+        "rationaleJapanese": "領収書がないので、出張記録で経路と支払額を確認する。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M2_L01",
+        "contentFingerprint": "92dbd3f3f37a7fd7f412a59443571fc1517657b8ace27c57c0a59045200ef2a6",
+        "selectedOptionId": "B",
+        "exactOptionText": "抽選で参加者を決める",
+        "rationaleJapanese": "申込者が多い場合は抽選すると説明されている。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M2_L02",
+        "contentFingerprint": "6b0b8f72251d47375feb94b95761519961a2317e9744559721c1c46341b8ba85",
+        "selectedOptionId": "C",
+        "exactOptionText": "直帰する日の退勤時",
+        "rationaleJapanese": "直帰する人は帰宅時ではなく、その日の退勤時に入力する。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M2_L03",
+        "contentFingerprint": "7ff703bcb7e2b752c96744b2018ad28a0440898252069f65af7f64bcba0f0191",
+        "selectedOptionId": "A",
+        "exactOptionText": "確認中と担当者を記して提出する",
+        "rationaleJapanese": "未確認なら確認中と担当者を書いて提出し、後で確定版に差し替える。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M2_L04",
+        "contentFingerprint": "fe8fc7337e00fb0e76b51f0629f6d74a5ad1fa40fec565434e9a8c9db4507d97",
+        "selectedOptionId": "B",
+        "exactOptionText": "一覧に記入して残す",
+        "rationaleJapanese": "削除可否を判断できない資料は一覧に記入して残す。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M2_L05",
+        "contentFingerprint": "6ccd6c31da64a2bdec38fe577760f2a343e26a19bbff419347c783dd25e22a03",
+        "selectedOptionId": "C",
+        "exactOptionText": "原則として予約前に上司の承認を受ける",
+        "rationaleJapanese": "宿泊出張は原則として予約前に上司の承認を受ける。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M2_L06",
+        "contentFingerprint": "c77c86846afb272fc52e8660265de5e53ee0b4d92b8775ec715496ce6be43cf5",
+        "selectedOptionId": "A",
+        "exactOptionText": "通常の状態で持参する",
+        "rationaleJapanese": "端末は初期化せず、通常の状態で持参する。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M3_L01",
+        "contentFingerprint": "ecd179deb2a151a90a0590063b945615efe7ba165497f1ff011d593788751b8d",
+        "selectedOptionId": "C",
+        "exactOptionText": "研修後の仕事での変化も評価に含める",
+        "rationaleJapanese": "研修後に実務で生じた行動や相談の変化も評価に含める。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M3_L02",
+        "contentFingerprint": "bb86ad35346a7978acc7ffc7d16d3c1089a24faac1acadbba58742a12165ff91",
+        "selectedOptionId": "A",
+        "exactOptionText": "内容と対応状況を共有可能な形で残すべきだ",
+        "rationaleJapanese": "要望の内容と対応状況を共通の記録に残すべきだと話している。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M3_L03",
+        "contentFingerprint": "e47cf2249f844d521dc50ab45aa4f0ac0b0d1729518d5a83ab47ee2f17780279",
+        "selectedOptionId": "A",
+        "exactOptionText": "例外や未確定事項も伝えること",
+        "rationaleJapanese": "例外時の判断先や未確定事項も引き継ぐことを重視する。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M3_L04",
+        "contentFingerprint": "f28f62a0bb9e818f5f6b252be09945adacec51ece1919cb9263c44a406b2104c",
+        "selectedOptionId": "D",
+        "exactOptionText": "専門用語の説明と見出し・例を組み合わせる",
+        "rationaleJapanese": "専門用語に短い説明を付け、見出しや例も工夫する。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M3_L05",
+        "contentFingerprint": "73829d6f54c16bad000fbc866e0aef9eb0b46c5f85fe57908e11a64a31a37503",
+        "selectedOptionId": "B",
+        "exactOptionText": "議題を事前共有し、考える時間を設ける",
+        "rationaleJapanese": "議題と質問を事前共有し、会議中に考える時間を設ける。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M4_L01",
+        "contentFingerprint": "fc055c96b7537b58f66d6e95ad7d2d4ba83f84f555ca710e040fc6274dc5b2bc",
+        "selectedOptionId": "A",
+        "exactOptionText": "ありがとうございます。確認します。",
+        "rationaleJapanese": "資料共有への礼を述べ、確認すると返す。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M4_L02",
+        "contentFingerprint": "0f31cb91a1487ea89496a860a3efe8f4c2a4768490bd22a738f2b4f5f85154a6",
+        "selectedOptionId": "A",
+        "exactOptionText": "かしこまりました。すぐにお送りします。",
+        "rationaleJapanese": "再送依頼に応じ、すぐ送ると伝える。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M4_L03",
+        "contentFingerprint": "e409824efb29f4bc76ddf76ab24c7fa82d76ea0aea50c66a2308e89e7b3dc4e0",
+        "selectedOptionId": "C",
+        "exactOptionText": "お願いします。助かります。",
+        "rationaleJapanese": "説明を申し出た相手に依頼する返答。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M4_L04",
+        "contentFingerprint": "52951e7d45527ef7f7dada957a3b5e4634df4674009933518a83bf91c4fa5931",
+        "selectedOptionId": "B",
+        "exactOptionText": "承知しました。別の日程を調整しましょう。",
+        "rationaleJapanese": "欠席連絡を受けて別日程を調整すると返す。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M4_L05",
+        "contentFingerprint": "4ca340181d1aecb2d8d2574a026ec5e30e1c7f7b634b900a611f6b8216022b58",
+        "selectedOptionId": "B",
+        "exactOptionText": "確認して、必要なら修正します。",
+        "rationaleJapanese": "数字の相違を確認し、必要なら修正すると応答する。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M4_L06",
+        "contentFingerprint": "cbc941ab8c7b11d91076fd2431176dea85e2a624a4fb90b09ca9b9e207c5677b",
+        "selectedOptionId": "B",
+        "exactOptionText": "はい、金曜の17時までです。",
+        "rationaleJapanese": "締切が金曜17時までだと確認する返答。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M4_L07",
+        "contentFingerprint": "006c4d349f383f9222e61c6183f528e777834fc33bece1b04275f369e38e30f3",
+        "selectedOptionId": "C",
+        "exactOptionText": "はい、必要な資料も一緒に渡しました。",
+        "rationaleJapanese": "引き継ぎが済み、必要資料も渡したと答えている。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M4_L08",
+        "contentFingerprint": "a6aeda14737bc12594a82d25658db41e0ec0c47dc48560b2bab080e4bc13fd3e",
+        "selectedOptionId": "A",
+        "exactOptionText": "分かりました。今日中に目を通します。",
+        "rationaleJapanese": "メール確認を引き受け、今日中に読むと返す。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M4_L09",
+        "contentFingerprint": "87608aa16624ee271d26a8005572cdb03bc4f49cb3f81b060c9219d78f7262e1",
+        "selectedOptionId": "A",
+        "exactOptionText": "別の候補日も確認してみてください。",
+        "rationaleJapanese": "予約できない場合に別候補日を確認するよう助言する。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M4_L10",
+        "contentFingerprint": "64e5a9dbdf954a1b368a2fe98ad99113c6daffd3742112d90eff987d9b7ffb1c",
+        "selectedOptionId": "B",
+        "exactOptionText": "では、広い会場に変更できるか確認しましょう。",
+        "rationaleJapanese": "参加者増加に合わせて広い会場へ変更できるか確認する提案。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M4_L11",
+        "contentFingerprint": "f964bf89262fb69afbd1a9692fba2be6bce627daff1720b4615c3b1a82305b1b",
+        "selectedOptionId": "C",
+        "exactOptionText": "総務部の受付に出してください。",
+        "rationaleJapanese": "総務部の受付へ出すよう提出先を案内する。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M5_L01",
+        "contentFingerprint": "baffa097eaeff7165dbc0d09c8b82a0acde1138b157e5f4466dd09b271408873",
+        "selectedOptionId": "D",
+        "exactOptionText": "木曜日の午前",
+        "rationaleJapanese": "講師が火曜午後は不可、木曜午前なら調整可能と合意した。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M5_L02",
+        "contentFingerprint": "01c80f83a71652398153da9907bee9e6e964c8d6815fe84cff44b02a82c077fd",
+        "selectedOptionId": "A",
+        "exactOptionText": "研修を短縮し、必要な部署には追加説明を提案する",
+        "rationaleJapanese": "研修を短縮し、操作が難しい部署には追加説明する案。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M5_L03",
+        "contentFingerprint": "5624eb6703c25566165b1aa8dd999ef7de60c1f62f5e6915edb338cfcebd97bb",
+        "selectedOptionId": "D",
+        "exactOptionText": "基本機能を説明し、詳細を別紙にして質問時間を設ける",
+        "rationaleJapanese": "基本機能を説明し、詳細は別紙に分け、最後に質問時間を確保する。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      }
+    ],
+    "starAudits": [
+      {
+        "questionId": "N2_11_M8_01",
+        "canonicalNaturalOrder": "BCAD",
+        "keyedThirdOptionId": "A",
+        "keyedThirdOptionText": "その結果、差があった場合は取引先に確認してから",
+        "naturalOrMarginalOrders": [
+          {
+            "permutation": "BCAD",
+            "resultingStarOptionId": "A",
+            "resultingStarOptionText": "その結果、差があった場合は取引先に確認してから"
+          }
+        ],
+        "alternateDefensibleSequences": [],
+        "naturalOrMarginalOrdersShareKeyedThird": true,
+        "permutationFindings": [
+          {
+            "permutation": "ABCD",
+            "reconstructedJapanese": "担当者は、その結果、差があった場合は取引先に確認してからまず請求書の金額を★注文記録と照合し、修正案を作ると指示した。",
+            "resultingStarOptionId": "C",
+            "resultingStarOptionText": "注文記録と照合し、",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "Bの目的語はCの照合動作を要し、Aの結果節は照合後、Dの修正案より前に置く必要がある。"
+          },
+          {
+            "permutation": "ABDC",
+            "reconstructedJapanese": "担当者は、その結果、差があった場合は取引先に確認してからまず請求書の金額を★修正案を作る注文記録と照合し、と指示した。",
+            "resultingStarOptionId": "D",
+            "resultingStarOptionText": "修正案を作る",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "Bの目的語はCの照合動作を要し、Aの結果節は照合後、Dの修正案より前に置く必要がある。"
+          },
+          {
+            "permutation": "ACBD",
+            "reconstructedJapanese": "担当者は、その結果、差があった場合は取引先に確認してから注文記録と照合し、★まず請求書の金額を修正案を作ると指示した。",
+            "resultingStarOptionId": "B",
+            "resultingStarOptionText": "まず請求書の金額を",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "Bの目的語はCの照合動作を要し、Aの結果節は照合後、Dの修正案より前に置く必要がある。"
+          },
+          {
+            "permutation": "ACDB",
+            "reconstructedJapanese": "担当者は、その結果、差があった場合は取引先に確認してから注文記録と照合し、★修正案を作るまず請求書の金額をと指示した。",
+            "resultingStarOptionId": "D",
+            "resultingStarOptionText": "修正案を作る",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "Bの目的語はCの照合動作を要し、Aの結果節は照合後、Dの修正案より前に置く必要がある。"
+          },
+          {
+            "permutation": "ADBC",
+            "reconstructedJapanese": "担当者は、その結果、差があった場合は取引先に確認してから修正案を作る★まず請求書の金額を注文記録と照合し、と指示した。",
+            "resultingStarOptionId": "B",
+            "resultingStarOptionText": "まず請求書の金額を",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "Bの目的語はCの照合動作を要し、Aの結果節は照合後、Dの修正案より前に置く必要がある。"
+          },
+          {
+            "permutation": "ADCB",
+            "reconstructedJapanese": "担当者は、その結果、差があった場合は取引先に確認してから修正案を作る★注文記録と照合し、まず請求書の金額をと指示した。",
+            "resultingStarOptionId": "C",
+            "resultingStarOptionText": "注文記録と照合し、",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "Bの目的語はCの照合動作を要し、Aの結果節は照合後、Dの修正案より前に置く必要がある。"
+          },
+          {
+            "permutation": "BACD",
+            "reconstructedJapanese": "担当者は、まず請求書の金額をその結果、差があった場合は取引先に確認してから★注文記録と照合し、修正案を作ると指示した。",
+            "resultingStarOptionId": "C",
+            "resultingStarOptionText": "注文記録と照合し、",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "Bの目的語はCの照合動作を要し、Aの結果節は照合後、Dの修正案より前に置く必要がある。"
+          },
+          {
+            "permutation": "BADC",
+            "reconstructedJapanese": "担当者は、まず請求書の金額をその結果、差があった場合は取引先に確認してから★修正案を作る注文記録と照合し、と指示した。",
+            "resultingStarOptionId": "D",
+            "resultingStarOptionText": "修正案を作る",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "Bの目的語はCの照合動作を要し、Aの結果節は照合後、Dの修正案より前に置く必要がある。"
+          },
+          {
+            "permutation": "BCAD",
+            "reconstructedJapanese": "担当者は、まず請求書の金額を注文記録と照合し、★その結果、差があった場合は取引先に確認してから修正案を作ると指示した。",
+            "resultingStarOptionId": "A",
+            "resultingStarOptionText": "その結果、差があった場合は取引先に確認してから",
+            "naturalness": "natural",
+            "rationaleJapanese": "「金額を」から照合動作、結果節、修正案へ進む接続が自然。期待連鎖はB→C→A→D。"
+          },
+          {
+            "permutation": "BCDA",
+            "reconstructedJapanese": "担当者は、まず請求書の金額を注文記録と照合し、★修正案を作るその結果、差があった場合は取引先に確認してからと指示した。",
+            "resultingStarOptionId": "D",
+            "resultingStarOptionText": "修正案を作る",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "Bの目的語はCの照合動作を要し、Aの結果節は照合後、Dの修正案より前に置く必要がある。"
+          },
+          {
+            "permutation": "BDAC",
+            "reconstructedJapanese": "担当者は、まず請求書の金額を修正案を作る★その結果、差があった場合は取引先に確認してから注文記録と照合し、と指示した。",
+            "resultingStarOptionId": "A",
+            "resultingStarOptionText": "その結果、差があった場合は取引先に確認してから",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "Bの目的語はCの照合動作を要し、Aの結果節は照合後、Dの修正案より前に置く必要がある。"
+          },
+          {
+            "permutation": "BDCA",
+            "reconstructedJapanese": "担当者は、まず請求書の金額を修正案を作る★注文記録と照合し、その結果、差があった場合は取引先に確認してからと指示した。",
+            "resultingStarOptionId": "C",
+            "resultingStarOptionText": "注文記録と照合し、",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "Bの目的語はCの照合動作を要し、Aの結果節は照合後、Dの修正案より前に置く必要がある。"
+          },
+          {
+            "permutation": "CABD",
+            "reconstructedJapanese": "担当者は、注文記録と照合し、その結果、差があった場合は取引先に確認してから★まず請求書の金額を修正案を作ると指示した。",
+            "resultingStarOptionId": "B",
+            "resultingStarOptionText": "まず請求書の金額を",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "Bの目的語はCの照合動作を要し、Aの結果節は照合後、Dの修正案より前に置く必要がある。"
+          },
+          {
+            "permutation": "CADB",
+            "reconstructedJapanese": "担当者は、注文記録と照合し、その結果、差があった場合は取引先に確認してから★修正案を作るまず請求書の金額をと指示した。",
+            "resultingStarOptionId": "D",
+            "resultingStarOptionText": "修正案を作る",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "Bの目的語はCの照合動作を要し、Aの結果節は照合後、Dの修正案より前に置く必要がある。"
+          },
+          {
+            "permutation": "CBAD",
+            "reconstructedJapanese": "担当者は、注文記録と照合し、まず請求書の金額を★その結果、差があった場合は取引先に確認してから修正案を作ると指示した。",
+            "resultingStarOptionId": "A",
+            "resultingStarOptionText": "その結果、差があった場合は取引先に確認してから",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "Bの目的語はCの照合動作を要し、Aの結果節は照合後、Dの修正案より前に置く必要がある。"
+          },
+          {
+            "permutation": "CBDA",
+            "reconstructedJapanese": "担当者は、注文記録と照合し、まず請求書の金額を★修正案を作るその結果、差があった場合は取引先に確認してからと指示した。",
+            "resultingStarOptionId": "D",
+            "resultingStarOptionText": "修正案を作る",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "Bの目的語はCの照合動作を要し、Aの結果節は照合後、Dの修正案より前に置く必要がある。"
+          },
+          {
+            "permutation": "CDAB",
+            "reconstructedJapanese": "担当者は、注文記録と照合し、修正案を作る★その結果、差があった場合は取引先に確認してからまず請求書の金額をと指示した。",
+            "resultingStarOptionId": "A",
+            "resultingStarOptionText": "その結果、差があった場合は取引先に確認してから",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "Bの目的語はCの照合動作を要し、Aの結果節は照合後、Dの修正案より前に置く必要がある。"
+          },
+          {
+            "permutation": "CDBA",
+            "reconstructedJapanese": "担当者は、注文記録と照合し、修正案を作る★まず請求書の金額をその結果、差があった場合は取引先に確認してからと指示した。",
+            "resultingStarOptionId": "B",
+            "resultingStarOptionText": "まず請求書の金額を",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "Bの目的語はCの照合動作を要し、Aの結果節は照合後、Dの修正案より前に置く必要がある。"
+          },
+          {
+            "permutation": "DABC",
+            "reconstructedJapanese": "担当者は、修正案を作るその結果、差があった場合は取引先に確認してから★まず請求書の金額を注文記録と照合し、と指示した。",
+            "resultingStarOptionId": "B",
+            "resultingStarOptionText": "まず請求書の金額を",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "Bの目的語はCの照合動作を要し、Aの結果節は照合後、Dの修正案より前に置く必要がある。"
+          },
+          {
+            "permutation": "DACB",
+            "reconstructedJapanese": "担当者は、修正案を作るその結果、差があった場合は取引先に確認してから★注文記録と照合し、まず請求書の金額をと指示した。",
+            "resultingStarOptionId": "C",
+            "resultingStarOptionText": "注文記録と照合し、",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "Bの目的語はCの照合動作を要し、Aの結果節は照合後、Dの修正案より前に置く必要がある。"
+          },
+          {
+            "permutation": "DBAC",
+            "reconstructedJapanese": "担当者は、修正案を作るまず請求書の金額を★その結果、差があった場合は取引先に確認してから注文記録と照合し、と指示した。",
+            "resultingStarOptionId": "A",
+            "resultingStarOptionText": "その結果、差があった場合は取引先に確認してから",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "Bの目的語はCの照合動作を要し、Aの結果節は照合後、Dの修正案より前に置く必要がある。"
+          },
+          {
+            "permutation": "DBCA",
+            "reconstructedJapanese": "担当者は、修正案を作るまず請求書の金額を★注文記録と照合し、その結果、差があった場合は取引先に確認してからと指示した。",
+            "resultingStarOptionId": "C",
+            "resultingStarOptionText": "注文記録と照合し、",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "Bの目的語はCの照合動作を要し、Aの結果節は照合後、Dの修正案より前に置く必要がある。"
+          },
+          {
+            "permutation": "DCAB",
+            "reconstructedJapanese": "担当者は、修正案を作る注文記録と照合し、★その結果、差があった場合は取引先に確認してからまず請求書の金額をと指示した。",
+            "resultingStarOptionId": "A",
+            "resultingStarOptionText": "その結果、差があった場合は取引先に確認してから",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "Bの目的語はCの照合動作を要し、Aの結果節は照合後、Dの修正案より前に置く必要がある。"
+          },
+          {
+            "permutation": "DCBA",
+            "reconstructedJapanese": "担当者は、修正案を作る注文記録と照合し、★まず請求書の金額をその結果、差があった場合は取引先に確認してからと指示した。",
+            "resultingStarOptionId": "B",
+            "resultingStarOptionText": "まず請求書の金額を",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "Bの目的語はCの照合動作を要し、Aの結果節は照合後、Dの修正案より前に置く必要がある。"
+          }
+        ]
+      },
+      {
+        "questionId": "N2_11_M8_02",
+        "canonicalNaturalOrder": "ABCD",
+        "keyedThirdOptionId": "C",
+        "keyedThirdOptionText": "ことのほうが",
+        "naturalOrMarginalOrders": [
+          {
+            "permutation": "ABCD",
+            "resultingStarOptionId": "C",
+            "resultingStarOptionText": "ことのほうが"
+          }
+        ],
+        "alternateDefensibleSequences": [],
+        "naturalOrMarginalOrdersShareKeyedThird": true,
+        "permutationFindings": [
+          {
+            "permutation": "ABCD",
+            "reconstructedJapanese": "部長は、結論を急ぐより根拠を確かめる★ことのほうが大切だと述べた。",
+            "resultingStarOptionId": "C",
+            "resultingStarOptionText": "ことのほうが",
+            "naturalness": "natural",
+            "rationaleJapanese": "「AよりBことのほうがDだ」の比較構文が完成する。"
+          },
+          {
+            "permutation": "ABDC",
+            "reconstructedJapanese": "部長は、結論を急ぐより根拠を確かめる★大切だことのほうがと述べた。",
+            "resultingStarOptionId": "D",
+            "resultingStarOptionText": "大切だ",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "比較句A、動作B、名詞化C、評価述語Dの係り順が崩れている。"
+          },
+          {
+            "permutation": "ACBD",
+            "reconstructedJapanese": "部長は、結論を急ぐよりことのほうが★根拠を確かめる大切だと述べた。",
+            "resultingStarOptionId": "B",
+            "resultingStarOptionText": "根拠を確かめる",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "比較句A、動作B、名詞化C、評価述語Dの係り順が崩れている。"
+          },
+          {
+            "permutation": "ACDB",
+            "reconstructedJapanese": "部長は、結論を急ぐよりことのほうが★大切だ根拠を確かめると述べた。",
+            "resultingStarOptionId": "D",
+            "resultingStarOptionText": "大切だ",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "比較句A、動作B、名詞化C、評価述語Dの係り順が崩れている。"
+          },
+          {
+            "permutation": "ADBC",
+            "reconstructedJapanese": "部長は、結論を急ぐより大切だ★根拠を確かめることのほうがと述べた。",
+            "resultingStarOptionId": "B",
+            "resultingStarOptionText": "根拠を確かめる",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "比較句A、動作B、名詞化C、評価述語Dの係り順が崩れている。"
+          },
+          {
+            "permutation": "ADCB",
+            "reconstructedJapanese": "部長は、結論を急ぐより大切だ★ことのほうが根拠を確かめると述べた。",
+            "resultingStarOptionId": "C",
+            "resultingStarOptionText": "ことのほうが",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "比較句A、動作B、名詞化C、評価述語Dの係り順が崩れている。"
+          },
+          {
+            "permutation": "BACD",
+            "reconstructedJapanese": "部長は、根拠を確かめる結論を急ぐより★ことのほうが大切だと述べた。",
+            "resultingStarOptionId": "C",
+            "resultingStarOptionText": "ことのほうが",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "比較句A、動作B、名詞化C、評価述語Dの係り順が崩れている。"
+          },
+          {
+            "permutation": "BADC",
+            "reconstructedJapanese": "部長は、根拠を確かめる結論を急ぐより★大切だことのほうがと述べた。",
+            "resultingStarOptionId": "D",
+            "resultingStarOptionText": "大切だ",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "比較句A、動作B、名詞化C、評価述語Dの係り順が崩れている。"
+          },
+          {
+            "permutation": "BCAD",
+            "reconstructedJapanese": "部長は、根拠を確かめることのほうが★結論を急ぐより大切だと述べた。",
+            "resultingStarOptionId": "A",
+            "resultingStarOptionText": "結論を急ぐより",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "比較句A、動作B、名詞化C、評価述語Dの係り順が崩れている。"
+          },
+          {
+            "permutation": "BCDA",
+            "reconstructedJapanese": "部長は、根拠を確かめることのほうが★大切だ結論を急ぐよりと述べた。",
+            "resultingStarOptionId": "D",
+            "resultingStarOptionText": "大切だ",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "比較句A、動作B、名詞化C、評価述語Dの係り順が崩れている。"
+          },
+          {
+            "permutation": "BDAC",
+            "reconstructedJapanese": "部長は、根拠を確かめる大切だ★結論を急ぐよりことのほうがと述べた。",
+            "resultingStarOptionId": "A",
+            "resultingStarOptionText": "結論を急ぐより",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "比較句A、動作B、名詞化C、評価述語Dの係り順が崩れている。"
+          },
+          {
+            "permutation": "BDCA",
+            "reconstructedJapanese": "部長は、根拠を確かめる大切だ★ことのほうが結論を急ぐよりと述べた。",
+            "resultingStarOptionId": "C",
+            "resultingStarOptionText": "ことのほうが",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "比較句A、動作B、名詞化C、評価述語Dの係り順が崩れている。"
+          },
+          {
+            "permutation": "CABD",
+            "reconstructedJapanese": "部長は、ことのほうが結論を急ぐより★根拠を確かめる大切だと述べた。",
+            "resultingStarOptionId": "B",
+            "resultingStarOptionText": "根拠を確かめる",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "比較句A、動作B、名詞化C、評価述語Dの係り順が崩れている。"
+          },
+          {
+            "permutation": "CADB",
+            "reconstructedJapanese": "部長は、ことのほうが結論を急ぐより★大切だ根拠を確かめると述べた。",
+            "resultingStarOptionId": "D",
+            "resultingStarOptionText": "大切だ",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "比較句A、動作B、名詞化C、評価述語Dの係り順が崩れている。"
+          },
+          {
+            "permutation": "CBAD",
+            "reconstructedJapanese": "部長は、ことのほうが根拠を確かめる★結論を急ぐより大切だと述べた。",
+            "resultingStarOptionId": "A",
+            "resultingStarOptionText": "結論を急ぐより",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "比較句A、動作B、名詞化C、評価述語Dの係り順が崩れている。"
+          },
+          {
+            "permutation": "CBDA",
+            "reconstructedJapanese": "部長は、ことのほうが根拠を確かめる★大切だ結論を急ぐよりと述べた。",
+            "resultingStarOptionId": "D",
+            "resultingStarOptionText": "大切だ",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "比較句A、動作B、名詞化C、評価述語Dの係り順が崩れている。"
+          },
+          {
+            "permutation": "CDAB",
+            "reconstructedJapanese": "部長は、ことのほうが大切だ★結論を急ぐより根拠を確かめると述べた。",
+            "resultingStarOptionId": "A",
+            "resultingStarOptionText": "結論を急ぐより",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "比較句A、動作B、名詞化C、評価述語Dの係り順が崩れている。"
+          },
+          {
+            "permutation": "CDBA",
+            "reconstructedJapanese": "部長は、ことのほうが大切だ★根拠を確かめる結論を急ぐよりと述べた。",
+            "resultingStarOptionId": "B",
+            "resultingStarOptionText": "根拠を確かめる",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "比較句A、動作B、名詞化C、評価述語Dの係り順が崩れている。"
+          },
+          {
+            "permutation": "DABC",
+            "reconstructedJapanese": "部長は、大切だ結論を急ぐより★根拠を確かめることのほうがと述べた。",
+            "resultingStarOptionId": "B",
+            "resultingStarOptionText": "根拠を確かめる",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "比較句A、動作B、名詞化C、評価述語Dの係り順が崩れている。"
+          },
+          {
+            "permutation": "DACB",
+            "reconstructedJapanese": "部長は、大切だ結論を急ぐより★ことのほうが根拠を確かめると述べた。",
+            "resultingStarOptionId": "C",
+            "resultingStarOptionText": "ことのほうが",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "比較句A、動作B、名詞化C、評価述語Dの係り順が崩れている。"
+          },
+          {
+            "permutation": "DBAC",
+            "reconstructedJapanese": "部長は、大切だ根拠を確かめる★結論を急ぐよりことのほうがと述べた。",
+            "resultingStarOptionId": "A",
+            "resultingStarOptionText": "結論を急ぐより",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "比較句A、動作B、名詞化C、評価述語Dの係り順が崩れている。"
+          },
+          {
+            "permutation": "DBCA",
+            "reconstructedJapanese": "部長は、大切だ根拠を確かめる★ことのほうが結論を急ぐよりと述べた。",
+            "resultingStarOptionId": "C",
+            "resultingStarOptionText": "ことのほうが",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "比較句A、動作B、名詞化C、評価述語Dの係り順が崩れている。"
+          },
+          {
+            "permutation": "DCAB",
+            "reconstructedJapanese": "部長は、大切だことのほうが★結論を急ぐより根拠を確かめると述べた。",
+            "resultingStarOptionId": "A",
+            "resultingStarOptionText": "結論を急ぐより",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "比較句A、動作B、名詞化C、評価述語Dの係り順が崩れている。"
+          },
+          {
+            "permutation": "DCBA",
+            "reconstructedJapanese": "部長は、大切だことのほうが★根拠を確かめる結論を急ぐよりと述べた。",
+            "resultingStarOptionId": "B",
+            "resultingStarOptionText": "根拠を確かめる",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "比較句A、動作B、名詞化C、評価述語Dの係り順が崩れている。"
+          }
+        ]
+      },
+      {
+        "questionId": "N2_11_M8_03",
+        "canonicalNaturalOrder": "ABCD",
+        "keyedThirdOptionId": "C",
+        "keyedThirdOptionText": "差があれば取引先に確認してから",
+        "naturalOrMarginalOrders": [
+          {
+            "permutation": "ABCD",
+            "resultingStarOptionId": "C",
+            "resultingStarOptionText": "差があれば取引先に確認してから"
+          }
+        ],
+        "alternateDefensibleSequences": [],
+        "naturalOrMarginalOrdersShareKeyedThird": true,
+        "permutationFindings": [
+          {
+            "permutation": "ABCD",
+            "reconstructedJapanese": "担当者は、まず請求書の金額を注文記録と照合し、★差があれば取引先に確認してから支払いの手続きを進めると決めた。",
+            "resultingStarOptionId": "C",
+            "resultingStarOptionText": "差があれば取引先に確認してから",
+            "naturalness": "natural",
+            "rationaleJapanese": "請求額を照合し、条件時の確認を経て支払いへ進む接続が自然。"
+          },
+          {
+            "permutation": "ABDC",
+            "reconstructedJapanese": "担当者は、まず請求書の金額を注文記録と照合し、★支払いの手続きを進める差があれば取引先に確認してからと決めた。",
+            "resultingStarOptionId": "D",
+            "resultingStarOptionText": "支払いの手続きを進める",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「金額を」と照合動詞、条件節「してから」と帰結の順序が合わない。"
+          },
+          {
+            "permutation": "ACBD",
+            "reconstructedJapanese": "担当者は、まず請求書の金額を差があれば取引先に確認してから★注文記録と照合し、支払いの手続きを進めると決めた。",
+            "resultingStarOptionId": "B",
+            "resultingStarOptionText": "注文記録と照合し、",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「金額を」と照合動詞、条件節「してから」と帰結の順序が合わない。"
+          },
+          {
+            "permutation": "ACDB",
+            "reconstructedJapanese": "担当者は、まず請求書の金額を差があれば取引先に確認してから★支払いの手続きを進める注文記録と照合し、と決めた。",
+            "resultingStarOptionId": "D",
+            "resultingStarOptionText": "支払いの手続きを進める",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「金額を」と照合動詞、条件節「してから」と帰結の順序が合わない。"
+          },
+          {
+            "permutation": "ADBC",
+            "reconstructedJapanese": "担当者は、まず請求書の金額を支払いの手続きを進める★注文記録と照合し、差があれば取引先に確認してからと決めた。",
+            "resultingStarOptionId": "B",
+            "resultingStarOptionText": "注文記録と照合し、",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「金額を」と照合動詞、条件節「してから」と帰結の順序が合わない。"
+          },
+          {
+            "permutation": "ADCB",
+            "reconstructedJapanese": "担当者は、まず請求書の金額を支払いの手続きを進める★差があれば取引先に確認してから注文記録と照合し、と決めた。",
+            "resultingStarOptionId": "C",
+            "resultingStarOptionText": "差があれば取引先に確認してから",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「金額を」と照合動詞、条件節「してから」と帰結の順序が合わない。"
+          },
+          {
+            "permutation": "BACD",
+            "reconstructedJapanese": "担当者は、注文記録と照合し、まず請求書の金額を★差があれば取引先に確認してから支払いの手続きを進めると決めた。",
+            "resultingStarOptionId": "C",
+            "resultingStarOptionText": "差があれば取引先に確認してから",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「金額を」と照合動詞、条件節「してから」と帰結の順序が合わない。"
+          },
+          {
+            "permutation": "BADC",
+            "reconstructedJapanese": "担当者は、注文記録と照合し、まず請求書の金額を★支払いの手続きを進める差があれば取引先に確認してからと決めた。",
+            "resultingStarOptionId": "D",
+            "resultingStarOptionText": "支払いの手続きを進める",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「金額を」と照合動詞、条件節「してから」と帰結の順序が合わない。"
+          },
+          {
+            "permutation": "BCAD",
+            "reconstructedJapanese": "担当者は、注文記録と照合し、差があれば取引先に確認してから★まず請求書の金額を支払いの手続きを進めると決めた。",
+            "resultingStarOptionId": "A",
+            "resultingStarOptionText": "まず請求書の金額を",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「金額を」と照合動詞、条件節「してから」と帰結の順序が合わない。"
+          },
+          {
+            "permutation": "BCDA",
+            "reconstructedJapanese": "担当者は、注文記録と照合し、差があれば取引先に確認してから★支払いの手続きを進めるまず請求書の金額をと決めた。",
+            "resultingStarOptionId": "D",
+            "resultingStarOptionText": "支払いの手続きを進める",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「金額を」と照合動詞、条件節「してから」と帰結の順序が合わない。"
+          },
+          {
+            "permutation": "BDAC",
+            "reconstructedJapanese": "担当者は、注文記録と照合し、支払いの手続きを進める★まず請求書の金額を差があれば取引先に確認してからと決めた。",
+            "resultingStarOptionId": "A",
+            "resultingStarOptionText": "まず請求書の金額を",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「金額を」と照合動詞、条件節「してから」と帰結の順序が合わない。"
+          },
+          {
+            "permutation": "BDCA",
+            "reconstructedJapanese": "担当者は、注文記録と照合し、支払いの手続きを進める★差があれば取引先に確認してからまず請求書の金額をと決めた。",
+            "resultingStarOptionId": "C",
+            "resultingStarOptionText": "差があれば取引先に確認してから",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「金額を」と照合動詞、条件節「してから」と帰結の順序が合わない。"
+          },
+          {
+            "permutation": "CABD",
+            "reconstructedJapanese": "担当者は、差があれば取引先に確認してからまず請求書の金額を★注文記録と照合し、支払いの手続きを進めると決めた。",
+            "resultingStarOptionId": "B",
+            "resultingStarOptionText": "注文記録と照合し、",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「金額を」と照合動詞、条件節「してから」と帰結の順序が合わない。"
+          },
+          {
+            "permutation": "CADB",
+            "reconstructedJapanese": "担当者は、差があれば取引先に確認してからまず請求書の金額を★支払いの手続きを進める注文記録と照合し、と決めた。",
+            "resultingStarOptionId": "D",
+            "resultingStarOptionText": "支払いの手続きを進める",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「金額を」と照合動詞、条件節「してから」と帰結の順序が合わない。"
+          },
+          {
+            "permutation": "CBAD",
+            "reconstructedJapanese": "担当者は、差があれば取引先に確認してから注文記録と照合し、★まず請求書の金額を支払いの手続きを進めると決めた。",
+            "resultingStarOptionId": "A",
+            "resultingStarOptionText": "まず請求書の金額を",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「金額を」と照合動詞、条件節「してから」と帰結の順序が合わない。"
+          },
+          {
+            "permutation": "CBDA",
+            "reconstructedJapanese": "担当者は、差があれば取引先に確認してから注文記録と照合し、★支払いの手続きを進めるまず請求書の金額をと決めた。",
+            "resultingStarOptionId": "D",
+            "resultingStarOptionText": "支払いの手続きを進める",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「金額を」と照合動詞、条件節「してから」と帰結の順序が合わない。"
+          },
+          {
+            "permutation": "CDAB",
+            "reconstructedJapanese": "担当者は、差があれば取引先に確認してから支払いの手続きを進める★まず請求書の金額を注文記録と照合し、と決めた。",
+            "resultingStarOptionId": "A",
+            "resultingStarOptionText": "まず請求書の金額を",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「金額を」と照合動詞、条件節「してから」と帰結の順序が合わない。"
+          },
+          {
+            "permutation": "CDBA",
+            "reconstructedJapanese": "担当者は、差があれば取引先に確認してから支払いの手続きを進める★注文記録と照合し、まず請求書の金額をと決めた。",
+            "resultingStarOptionId": "B",
+            "resultingStarOptionText": "注文記録と照合し、",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「金額を」と照合動詞、条件節「してから」と帰結の順序が合わない。"
+          },
+          {
+            "permutation": "DABC",
+            "reconstructedJapanese": "担当者は、支払いの手続きを進めるまず請求書の金額を★注文記録と照合し、差があれば取引先に確認してからと決めた。",
+            "resultingStarOptionId": "B",
+            "resultingStarOptionText": "注文記録と照合し、",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「金額を」と照合動詞、条件節「してから」と帰結の順序が合わない。"
+          },
+          {
+            "permutation": "DACB",
+            "reconstructedJapanese": "担当者は、支払いの手続きを進めるまず請求書の金額を★差があれば取引先に確認してから注文記録と照合し、と決めた。",
+            "resultingStarOptionId": "C",
+            "resultingStarOptionText": "差があれば取引先に確認してから",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「金額を」と照合動詞、条件節「してから」と帰結の順序が合わない。"
+          },
+          {
+            "permutation": "DBAC",
+            "reconstructedJapanese": "担当者は、支払いの手続きを進める注文記録と照合し、★まず請求書の金額を差があれば取引先に確認してからと決めた。",
+            "resultingStarOptionId": "A",
+            "resultingStarOptionText": "まず請求書の金額を",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「金額を」と照合動詞、条件節「してから」と帰結の順序が合わない。"
+          },
+          {
+            "permutation": "DBCA",
+            "reconstructedJapanese": "担当者は、支払いの手続きを進める注文記録と照合し、★差があれば取引先に確認してからまず請求書の金額をと決めた。",
+            "resultingStarOptionId": "C",
+            "resultingStarOptionText": "差があれば取引先に確認してから",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「金額を」と照合動詞、条件節「してから」と帰結の順序が合わない。"
+          },
+          {
+            "permutation": "DCAB",
+            "reconstructedJapanese": "担当者は、支払いの手続きを進める差があれば取引先に確認してから★まず請求書の金額を注文記録と照合し、と決めた。",
+            "resultingStarOptionId": "A",
+            "resultingStarOptionText": "まず請求書の金額を",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「金額を」と照合動詞、条件節「してから」と帰結の順序が合わない。"
+          },
+          {
+            "permutation": "DCBA",
+            "reconstructedJapanese": "担当者は、支払いの手続きを進める差があれば取引先に確認してから★注文記録と照合し、まず請求書の金額をと決めた。",
+            "resultingStarOptionId": "B",
+            "resultingStarOptionText": "注文記録と照合し、",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「金額を」と照合動詞、条件節「してから」と帰結の順序が合わない。"
+          }
+        ]
+      },
+      {
+        "questionId": "N2_11_M8_04",
+        "canonicalNaturalOrder": "ABDC",
+        "keyedThirdOptionId": "D",
+        "keyedThirdOptionText": "項目ごとに照合し、",
+        "naturalOrMarginalOrders": [
+          {
+            "permutation": "ABDC",
+            "resultingStarOptionId": "D",
+            "resultingStarOptionText": "項目ごとに照合し、"
+          },
+          {
+            "permutation": "BADC",
+            "resultingStarOptionId": "D",
+            "resultingStarOptionText": "項目ごとに照合し、"
+          }
+        ],
+        "alternateDefensibleSequences": [
+          {
+            "permutation": "BADC",
+            "resultingStarOptionId": "D",
+            "resultingStarOptionText": "項目ごとに照合し、"
+          }
+        ],
+        "naturalOrMarginalOrdersShareKeyedThird": true,
+        "permutationFindings": [
+          {
+            "permutation": "ABCD",
+            "reconstructedJapanese": "担当者は、申請書に記された数字と原本の数字を★その結果、違いがある項目は申請者に確認する必要がある項目ごとに照合し、と判断した。",
+            "resultingStarOptionId": "C",
+            "resultingStarOptionText": "その結果、違いがある項目は申請者に確認する必要がある",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "A/Bの格助詞と照合動詞D、結果を表すCの結び付きが崩れている。"
+          },
+          {
+            "permutation": "ABDC",
+            "reconstructedJapanese": "担当者は、申請書に記された数字と原本の数字を★項目ごとに照合し、その結果、違いがある項目は申請者に確認する必要があると判断した。",
+            "resultingStarOptionId": "D",
+            "resultingStarOptionText": "項目ごとに照合し、",
+            "naturalness": "natural",
+            "rationaleJapanese": "申請書と原本の数字を比べる目的語・比較対象を並べ、照合後に結果を示す。"
+          },
+          {
+            "permutation": "ACBD",
+            "reconstructedJapanese": "担当者は、申請書に記された数字とその結果、違いがある項目は申請者に確認する必要がある★原本の数字を項目ごとに照合し、と判断した。",
+            "resultingStarOptionId": "B",
+            "resultingStarOptionText": "原本の数字を",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "A/Bの格助詞と照合動詞D、結果を表すCの結び付きが崩れている。"
+          },
+          {
+            "permutation": "ACDB",
+            "reconstructedJapanese": "担当者は、申請書に記された数字とその結果、違いがある項目は申請者に確認する必要がある★項目ごとに照合し、原本の数字をと判断した。",
+            "resultingStarOptionId": "D",
+            "resultingStarOptionText": "項目ごとに照合し、",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "A/Bの格助詞と照合動詞D、結果を表すCの結び付きが崩れている。"
+          },
+          {
+            "permutation": "ADBC",
+            "reconstructedJapanese": "担当者は、申請書に記された数字と項目ごとに照合し、★原本の数字をその結果、違いがある項目は申請者に確認する必要があると判断した。",
+            "resultingStarOptionId": "B",
+            "resultingStarOptionText": "原本の数字を",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "A/Bの格助詞と照合動詞D、結果を表すCの結び付きが崩れている。"
+          },
+          {
+            "permutation": "ADCB",
+            "reconstructedJapanese": "担当者は、申請書に記された数字と項目ごとに照合し、★その結果、違いがある項目は申請者に確認する必要がある原本の数字をと判断した。",
+            "resultingStarOptionId": "C",
+            "resultingStarOptionText": "その結果、違いがある項目は申請者に確認する必要がある",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "A/Bの格助詞と照合動詞D、結果を表すCの結び付きが崩れている。"
+          },
+          {
+            "permutation": "BACD",
+            "reconstructedJapanese": "担当者は、原本の数字を申請書に記された数字と★その結果、違いがある項目は申請者に確認する必要がある項目ごとに照合し、と判断した。",
+            "resultingStarOptionId": "C",
+            "resultingStarOptionText": "その結果、違いがある項目は申請者に確認する必要がある",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "A/Bの格助詞と照合動詞D、結果を表すCの結び付きが崩れている。"
+          },
+          {
+            "permutation": "BADC",
+            "reconstructedJapanese": "担当者は、原本の数字を申請書に記された数字と★項目ごとに照合し、その結果、違いがある項目は申請者に確認する必要があると判断した。",
+            "resultingStarOptionId": "D",
+            "resultingStarOptionText": "項目ごとに照合し、",
+            "naturalness": "natural",
+            "rationaleJapanese": "目的語と比較対象の順を入れ替えても「数字を数字と照合する」が成立する。"
+          },
+          {
+            "permutation": "BCAD",
+            "reconstructedJapanese": "担当者は、原本の数字をその結果、違いがある項目は申請者に確認する必要がある★申請書に記された数字と項目ごとに照合し、と判断した。",
+            "resultingStarOptionId": "A",
+            "resultingStarOptionText": "申請書に記された数字と",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "A/Bの格助詞と照合動詞D、結果を表すCの結び付きが崩れている。"
+          },
+          {
+            "permutation": "BCDA",
+            "reconstructedJapanese": "担当者は、原本の数字をその結果、違いがある項目は申請者に確認する必要がある★項目ごとに照合し、申請書に記された数字とと判断した。",
+            "resultingStarOptionId": "D",
+            "resultingStarOptionText": "項目ごとに照合し、",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "A/Bの格助詞と照合動詞D、結果を表すCの結び付きが崩れている。"
+          },
+          {
+            "permutation": "BDAC",
+            "reconstructedJapanese": "担当者は、原本の数字を項目ごとに照合し、★申請書に記された数字とその結果、違いがある項目は申請者に確認する必要があると判断した。",
+            "resultingStarOptionId": "A",
+            "resultingStarOptionText": "申請書に記された数字と",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "A/Bの格助詞と照合動詞D、結果を表すCの結び付きが崩れている。"
+          },
+          {
+            "permutation": "BDCA",
+            "reconstructedJapanese": "担当者は、原本の数字を項目ごとに照合し、★その結果、違いがある項目は申請者に確認する必要がある申請書に記された数字とと判断した。",
+            "resultingStarOptionId": "C",
+            "resultingStarOptionText": "その結果、違いがある項目は申請者に確認する必要がある",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "A/Bの格助詞と照合動詞D、結果を表すCの結び付きが崩れている。"
+          },
+          {
+            "permutation": "CABD",
+            "reconstructedJapanese": "担当者は、その結果、違いがある項目は申請者に確認する必要がある申請書に記された数字と★原本の数字を項目ごとに照合し、と判断した。",
+            "resultingStarOptionId": "B",
+            "resultingStarOptionText": "原本の数字を",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "A/Bの格助詞と照合動詞D、結果を表すCの結び付きが崩れている。"
+          },
+          {
+            "permutation": "CADB",
+            "reconstructedJapanese": "担当者は、その結果、違いがある項目は申請者に確認する必要がある申請書に記された数字と★項目ごとに照合し、原本の数字をと判断した。",
+            "resultingStarOptionId": "D",
+            "resultingStarOptionText": "項目ごとに照合し、",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "A/Bの格助詞と照合動詞D、結果を表すCの結び付きが崩れている。"
+          },
+          {
+            "permutation": "CBAD",
+            "reconstructedJapanese": "担当者は、その結果、違いがある項目は申請者に確認する必要がある原本の数字を★申請書に記された数字と項目ごとに照合し、と判断した。",
+            "resultingStarOptionId": "A",
+            "resultingStarOptionText": "申請書に記された数字と",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "A/Bの格助詞と照合動詞D、結果を表すCの結び付きが崩れている。"
+          },
+          {
+            "permutation": "CBDA",
+            "reconstructedJapanese": "担当者は、その結果、違いがある項目は申請者に確認する必要がある原本の数字を★項目ごとに照合し、申請書に記された数字とと判断した。",
+            "resultingStarOptionId": "D",
+            "resultingStarOptionText": "項目ごとに照合し、",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "A/Bの格助詞と照合動詞D、結果を表すCの結び付きが崩れている。"
+          },
+          {
+            "permutation": "CDAB",
+            "reconstructedJapanese": "担当者は、その結果、違いがある項目は申請者に確認する必要がある項目ごとに照合し、★申請書に記された数字と原本の数字をと判断した。",
+            "resultingStarOptionId": "A",
+            "resultingStarOptionText": "申請書に記された数字と",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "A/Bの格助詞と照合動詞D、結果を表すCの結び付きが崩れている。"
+          },
+          {
+            "permutation": "CDBA",
+            "reconstructedJapanese": "担当者は、その結果、違いがある項目は申請者に確認する必要がある項目ごとに照合し、★原本の数字を申請書に記された数字とと判断した。",
+            "resultingStarOptionId": "B",
+            "resultingStarOptionText": "原本の数字を",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "A/Bの格助詞と照合動詞D、結果を表すCの結び付きが崩れている。"
+          },
+          {
+            "permutation": "DABC",
+            "reconstructedJapanese": "担当者は、項目ごとに照合し、申請書に記された数字と★原本の数字をその結果、違いがある項目は申請者に確認する必要があると判断した。",
+            "resultingStarOptionId": "B",
+            "resultingStarOptionText": "原本の数字を",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "A/Bの格助詞と照合動詞D、結果を表すCの結び付きが崩れている。"
+          },
+          {
+            "permutation": "DACB",
+            "reconstructedJapanese": "担当者は、項目ごとに照合し、申請書に記された数字と★その結果、違いがある項目は申請者に確認する必要がある原本の数字をと判断した。",
+            "resultingStarOptionId": "C",
+            "resultingStarOptionText": "その結果、違いがある項目は申請者に確認する必要がある",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "A/Bの格助詞と照合動詞D、結果を表すCの結び付きが崩れている。"
+          },
+          {
+            "permutation": "DBAC",
+            "reconstructedJapanese": "担当者は、項目ごとに照合し、原本の数字を★申請書に記された数字とその結果、違いがある項目は申請者に確認する必要があると判断した。",
+            "resultingStarOptionId": "A",
+            "resultingStarOptionText": "申請書に記された数字と",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "A/Bの格助詞と照合動詞D、結果を表すCの結び付きが崩れている。"
+          },
+          {
+            "permutation": "DBCA",
+            "reconstructedJapanese": "担当者は、項目ごとに照合し、原本の数字を★その結果、違いがある項目は申請者に確認する必要がある申請書に記された数字とと判断した。",
+            "resultingStarOptionId": "C",
+            "resultingStarOptionText": "その結果、違いがある項目は申請者に確認する必要がある",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "A/Bの格助詞と照合動詞D、結果を表すCの結び付きが崩れている。"
+          },
+          {
+            "permutation": "DCAB",
+            "reconstructedJapanese": "担当者は、項目ごとに照合し、その結果、違いがある項目は申請者に確認する必要がある★申請書に記された数字と原本の数字をと判断した。",
+            "resultingStarOptionId": "A",
+            "resultingStarOptionText": "申請書に記された数字と",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "A/Bの格助詞と照合動詞D、結果を表すCの結び付きが崩れている。"
+          },
+          {
+            "permutation": "DCBA",
+            "reconstructedJapanese": "担当者は、項目ごとに照合し、その結果、違いがある項目は申請者に確認する必要がある★原本の数字を申請書に記された数字とと判断した。",
+            "resultingStarOptionId": "B",
+            "resultingStarOptionText": "原本の数字を",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "A/Bの格助詞と照合動詞D、結果を表すCの結び付きが崩れている。"
+          }
+        ]
+      },
+      {
+        "questionId": "N2_11_M8_05",
+        "canonicalNaturalOrder": "ABCD",
+        "keyedThirdOptionId": "C",
+        "keyedThirdOptionText": "姿勢を保つ",
+        "naturalOrMarginalOrders": [
+          {
+            "permutation": "ABCD",
+            "resultingStarOptionId": "C",
+            "resultingStarOptionText": "姿勢を保つ"
+          }
+        ],
+        "alternateDefensibleSequences": [],
+        "naturalOrMarginalOrdersShareKeyedThird": true,
+        "permutationFindings": [
+          {
+            "permutation": "ABCD",
+            "reconstructedJapanese": "意見が異なる場合も、相手の立場を理解しようとする★姿勢を保つことは必要だ。",
+            "resultingStarOptionId": "C",
+            "resultingStarOptionText": "姿勢を保つ",
+            "naturalness": "natural",
+            "rationaleJapanese": "「立場を理解しようとする姿勢を保つことは必要だ」の修飾・名詞化が自然。"
+          },
+          {
+            "permutation": "ABDC",
+            "reconstructedJapanese": "意見が異なる場合も、相手の立場を理解しようとする★ことは姿勢を保つ必要だ。",
+            "resultingStarOptionId": "D",
+            "resultingStarOptionText": "ことは",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「立場を」「理解しようとする」「姿勢を保つ」「ことは」の修飾順が成立しにくい。"
+          },
+          {
+            "permutation": "ACBD",
+            "reconstructedJapanese": "意見が異なる場合も、相手の立場を姿勢を保つ★理解しようとすることは必要だ。",
+            "resultingStarOptionId": "B",
+            "resultingStarOptionText": "理解しようとする",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「立場を」「理解しようとする」「姿勢を保つ」「ことは」の修飾順が成立しにくい。"
+          },
+          {
+            "permutation": "ACDB",
+            "reconstructedJapanese": "意見が異なる場合も、相手の立場を姿勢を保つ★ことは理解しようとする必要だ。",
+            "resultingStarOptionId": "D",
+            "resultingStarOptionText": "ことは",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「立場を」「理解しようとする」「姿勢を保つ」「ことは」の修飾順が成立しにくい。"
+          },
+          {
+            "permutation": "ADBC",
+            "reconstructedJapanese": "意見が異なる場合も、相手の立場をことは★理解しようとする姿勢を保つ必要だ。",
+            "resultingStarOptionId": "B",
+            "resultingStarOptionText": "理解しようとする",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「立場を」「理解しようとする」「姿勢を保つ」「ことは」の修飾順が成立しにくい。"
+          },
+          {
+            "permutation": "ADCB",
+            "reconstructedJapanese": "意見が異なる場合も、相手の立場をことは★姿勢を保つ理解しようとする必要だ。",
+            "resultingStarOptionId": "C",
+            "resultingStarOptionText": "姿勢を保つ",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「立場を」「理解しようとする」「姿勢を保つ」「ことは」の修飾順が成立しにくい。"
+          },
+          {
+            "permutation": "BACD",
+            "reconstructedJapanese": "意見が異なる場合も、理解しようとする相手の立場を★姿勢を保つことは必要だ。",
+            "resultingStarOptionId": "C",
+            "resultingStarOptionText": "姿勢を保つ",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「立場を」「理解しようとする」「姿勢を保つ」「ことは」の修飾順が成立しにくい。"
+          },
+          {
+            "permutation": "BADC",
+            "reconstructedJapanese": "意見が異なる場合も、理解しようとする相手の立場を★ことは姿勢を保つ必要だ。",
+            "resultingStarOptionId": "D",
+            "resultingStarOptionText": "ことは",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「立場を」「理解しようとする」「姿勢を保つ」「ことは」の修飾順が成立しにくい。"
+          },
+          {
+            "permutation": "BCAD",
+            "reconstructedJapanese": "意見が異なる場合も、理解しようとする姿勢を保つ★相手の立場をことは必要だ。",
+            "resultingStarOptionId": "A",
+            "resultingStarOptionText": "相手の立場を",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「立場を」「理解しようとする」「姿勢を保つ」「ことは」の修飾順が成立しにくい。"
+          },
+          {
+            "permutation": "BCDA",
+            "reconstructedJapanese": "意見が異なる場合も、理解しようとする姿勢を保つ★ことは相手の立場を必要だ。",
+            "resultingStarOptionId": "D",
+            "resultingStarOptionText": "ことは",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「立場を」「理解しようとする」「姿勢を保つ」「ことは」の修飾順が成立しにくい。"
+          },
+          {
+            "permutation": "BDAC",
+            "reconstructedJapanese": "意見が異なる場合も、理解しようとすることは★相手の立場を姿勢を保つ必要だ。",
+            "resultingStarOptionId": "A",
+            "resultingStarOptionText": "相手の立場を",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「立場を」「理解しようとする」「姿勢を保つ」「ことは」の修飾順が成立しにくい。"
+          },
+          {
+            "permutation": "BDCA",
+            "reconstructedJapanese": "意見が異なる場合も、理解しようとすることは★姿勢を保つ相手の立場を必要だ。",
+            "resultingStarOptionId": "C",
+            "resultingStarOptionText": "姿勢を保つ",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「立場を」「理解しようとする」「姿勢を保つ」「ことは」の修飾順が成立しにくい。"
+          },
+          {
+            "permutation": "CABD",
+            "reconstructedJapanese": "意見が異なる場合も、姿勢を保つ相手の立場を★理解しようとすることは必要だ。",
+            "resultingStarOptionId": "B",
+            "resultingStarOptionText": "理解しようとする",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「立場を」「理解しようとする」「姿勢を保つ」「ことは」の修飾順が成立しにくい。"
+          },
+          {
+            "permutation": "CADB",
+            "reconstructedJapanese": "意見が異なる場合も、姿勢を保つ相手の立場を★ことは理解しようとする必要だ。",
+            "resultingStarOptionId": "D",
+            "resultingStarOptionText": "ことは",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「立場を」「理解しようとする」「姿勢を保つ」「ことは」の修飾順が成立しにくい。"
+          },
+          {
+            "permutation": "CBAD",
+            "reconstructedJapanese": "意見が異なる場合も、姿勢を保つ理解しようとする★相手の立場をことは必要だ。",
+            "resultingStarOptionId": "A",
+            "resultingStarOptionText": "相手の立場を",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「立場を」「理解しようとする」「姿勢を保つ」「ことは」の修飾順が成立しにくい。"
+          },
+          {
+            "permutation": "CBDA",
+            "reconstructedJapanese": "意見が異なる場合も、姿勢を保つ理解しようとする★ことは相手の立場を必要だ。",
+            "resultingStarOptionId": "D",
+            "resultingStarOptionText": "ことは",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「立場を」「理解しようとする」「姿勢を保つ」「ことは」の修飾順が成立しにくい。"
+          },
+          {
+            "permutation": "CDAB",
+            "reconstructedJapanese": "意見が異なる場合も、姿勢を保つことは★相手の立場を理解しようとする必要だ。",
+            "resultingStarOptionId": "A",
+            "resultingStarOptionText": "相手の立場を",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「立場を」「理解しようとする」「姿勢を保つ」「ことは」の修飾順が成立しにくい。"
+          },
+          {
+            "permutation": "CDBA",
+            "reconstructedJapanese": "意見が異なる場合も、姿勢を保つことは★理解しようとする相手の立場を必要だ。",
+            "resultingStarOptionId": "B",
+            "resultingStarOptionText": "理解しようとする",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「立場を」「理解しようとする」「姿勢を保つ」「ことは」の修飾順が成立しにくい。"
+          },
+          {
+            "permutation": "DABC",
+            "reconstructedJapanese": "意見が異なる場合も、ことは相手の立場を★理解しようとする姿勢を保つ必要だ。",
+            "resultingStarOptionId": "B",
+            "resultingStarOptionText": "理解しようとする",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「立場を」「理解しようとする」「姿勢を保つ」「ことは」の修飾順が成立しにくい。"
+          },
+          {
+            "permutation": "DACB",
+            "reconstructedJapanese": "意見が異なる場合も、ことは相手の立場を★姿勢を保つ理解しようとする必要だ。",
+            "resultingStarOptionId": "C",
+            "resultingStarOptionText": "姿勢を保つ",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「立場を」「理解しようとする」「姿勢を保つ」「ことは」の修飾順が成立しにくい。"
+          },
+          {
+            "permutation": "DBAC",
+            "reconstructedJapanese": "意見が異なる場合も、ことは理解しようとする★相手の立場を姿勢を保つ必要だ。",
+            "resultingStarOptionId": "A",
+            "resultingStarOptionText": "相手の立場を",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「立場を」「理解しようとする」「姿勢を保つ」「ことは」の修飾順が成立しにくい。"
+          },
+          {
+            "permutation": "DBCA",
+            "reconstructedJapanese": "意見が異なる場合も、ことは理解しようとする★姿勢を保つ相手の立場を必要だ。",
+            "resultingStarOptionId": "C",
+            "resultingStarOptionText": "姿勢を保つ",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「立場を」「理解しようとする」「姿勢を保つ」「ことは」の修飾順が成立しにくい。"
+          },
+          {
+            "permutation": "DCAB",
+            "reconstructedJapanese": "意見が異なる場合も、ことは姿勢を保つ★相手の立場を理解しようとする必要だ。",
+            "resultingStarOptionId": "A",
+            "resultingStarOptionText": "相手の立場を",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「立場を」「理解しようとする」「姿勢を保つ」「ことは」の修飾順が成立しにくい。"
+          },
+          {
+            "permutation": "DCBA",
+            "reconstructedJapanese": "意見が異なる場合も、ことは姿勢を保つ★理解しようとする相手の立場を必要だ。",
+            "resultingStarOptionId": "B",
+            "resultingStarOptionText": "理解しようとする",
+            "naturalness": "ungrammatical/incomplete",
+            "rationaleJapanese": "「立場を」「理解しようとする」「姿勢を保つ」「ことは」の修飾順が成立しにくい。"
+          }
+        ]
+      }
+    ],
+    "likelyKeyMismatches": [],
+    "authoredKeyComparisonPerformed": false,
+    "reviewNotes": [
+      "全105問を今回のシール済み入力の文、文脈、選択肢から独立に解いた。",
+      "星印5問は各24通りを再構成して分類した。自然または許容可能な語順が生む第三片は各問で一致する。",
+      "著者キーを参照していないため、キー一致の認証はしていない。解釈上の懸念は個別項目に記した。"
+    ],
+    "validation": {
+      "itemCount": 105,
+      "uniqueAnswerMappings": 105,
+      "exactSelectedOptionTextRetrievedFromInput": true,
+      "starItemCount": 5,
+      "totalPermutationFindings": 120,
+      "uniquePermutationsPerStarItem": 24,
+      "allNaturalOrMarginalOrdersShareKeyedThird": true,
+      "authoredKeyComparisonPerformed": false,
+      "inputHashUnchanged": true
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "artifactType": "SANITIZED_PUBLICATION_PROJECTION",
+  "sourceRawSha256": "d15e1f26ee6befa81a2d5d25b06c204b46c1ff2e6d6ff3dfe833501752b74658",
+  "sourceRawBytesLocallyRetained": true,
+  "pathRedaction": "Local paths removed; answer content preserved exactly.",
+  "response": {
+    "reviewType": "blind_delta_solve",
+    "inputSha256": "266ff88bc8e20376a00c888c8a9e9ac7fcccbab7062b2c6259053404d72b2662",
+    "inputSha256MatchedBeforeAndAfter": true,
+    "captureTimeUtc": "2026-10-21T13:45:22Z",
+    "answers": [
+      {
+        "questionId": "N2_11_M9_02",
+        "selectedOptionId": "B",
+        "exactOptionText": "とともに",
+        "rationaleJapanese": "「とともに」は動詞の辞書形に続き、理由を記録することと後で根拠を確認しやすくなることの併行・関連を表す。逆接や先行の意味は合わない。",
+        "confidence": "中",
+        "alternateDefensibleAnswers": [],
+        "concerns": [
+          "「とともに」は因果を明示する接続ではなく、併行・付加のニュアンスが中心。因果関係として読ませる点に軽い文体上の曖昧さはあるが、他の選択肢よりBが明確に適切。"
+        ]
+      },
+      {
+        "questionId": "N2_11_M9_04",
+        "selectedOptionId": "C",
+        "exactOptionText": "に先立って",
+        "rationaleJapanese": "本格運用より前に社員へ試してもらい、表示を直すという準備段階を表すため「に先立って」が合う。",
+        "confidence": "高",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      }
+    ]
+  }
+}

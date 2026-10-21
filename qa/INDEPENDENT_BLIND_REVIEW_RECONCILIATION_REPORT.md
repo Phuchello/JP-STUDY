@@ -1,9 +1,9 @@
-# JP-STUDY — 1050-Question Adversarial Blind Review Reconciliation Report
+# JP-STUDY — 1155-Question Version-Bound Review Reconciliation Report
 
-**Target Exams:** `N2-MOCK-01`, `N2-MOCK-02`, `N2-MOCK-03`, `N2-MOCK-04`, `N2-MOCK-05`, `N2-MOCK-06`, `N2-MOCK-07`, `N2-MOCK-08`, `N2-MOCK-09`, `N2-MOCK-10` (1050 total items)
-**Assurance Framework:** Independent Blind Review & Explicit Provenance Model  
-**Audit Timestamp:** 2026-10-19  
-**Completed Solves:** 1050 / 1050
+**Target Exams:** `N2-MOCK-01`, `N2-MOCK-02`, `N2-MOCK-03`, `N2-MOCK-04`, `N2-MOCK-05`, `N2-MOCK-06`, `N2-MOCK-07`, `N2-MOCK-08`, `N2-MOCK-09`, `N2-MOCK-10`, `N2-MOCK-11` (1155 total items)
+**Assurance Framework:** Historical reconstructed answer mappings plus validated current-version M11 AI blind responses; exact text is reconciled without claiming portable execution attestation.
+**Audit Timestamp:** 2026-10-21
+**Version-Bound Answer Rows Loaded:** 1155 / 1155
 
 ---
 
@@ -11,13 +11,15 @@
 
 | Metric | Count | Percentage | Status |
 |---|:---:|:---:|:---:|
-| **Total Evaluated Items** | 1050 | 100.0% | COMPLETE |
-| **Blind Reviewer Responses Loaded** | 1050 | 100.0% | VERSION-CHECKED |
-| **Exact Agreement (`AGREEMENT`)** | 1036 | 98.7% | AUDITED |
+| **Total Evaluated Items** | 1155 | 100.0% | COMPLETE |
+| **Version-Bound Answer Rows Loaded** | 1155 | 100.0% | VERSION-CHECKED |
+| **Exact Agreement (`AGREEMENT`)** | 1141 | 98.8% | AUDITED |
 | **Agreed with Nuance Warnings (`REVIEW_AGREED_WITH_WARNINGS`)** | 0 | 0.0% | AUDITED |
-| **Grammar Defects Confirmed & Repaired** | 14 | 1.3% | REPAIRED |
+| **Grammar Defects Confirmed & Repaired** | 14 | 1.2% | REPAIRED |
 | **Key Mismatches (`KEY_MISMATCH`)** | 0 | 0.0% | AUDITED |
 | **Unverified / Pending Solves** | 0 | 0.0% | NONE |
+
+> Provenance scope: historical rows retain their source classification; the 105 M11 rows are validated against the current key-free sealed input and exact fingerprints. M11 uses 96 unchanged revision-5 rows, 7 revision-6 deltas, 1 current revision-7 delta and 1 current revision-8 delta; one revision-7 row was superseded and remains preserved. This is AI review evidence without a portable execution attestation or native-speaker certification.
 
 ---
 
@@ -40,10 +42,14 @@
 - **`N2_07_M9_04`**: Changed the option to '必要となります'; the sealed revision solve selected A as the natural completion. (Defect: AWKWARD COLLOCATION: The original option phrased a required administrative procedure as '避けられません', which was unnatural in context.)
 
 ### B. Key Mismatches
-- *Zero key mismatches detected across all 1050 discovered items.*
+- *Zero key mismatches detected across all 1155 discovered items.*
 
 ### C. Ambiguous Questions / Distractor Nuance Warnings
 - *Zero unresolved competing answers or distractor overlaps remain.*
+
+### D. Reviewer notes without a proposed alternate answer
+- **`N2_11_M2_05`**: ['「保障」は安全や権利を守る意味で近いが、品質の保証期間を約束する場合は「保証」が明確で、同程度に自然な別解ではない。']
+- **`N2_11_M9_02`**: ['A「ものの」も形の上では接続できるが逆接を表し、文脈と明示された添加関係に合わないため、同等の別解とは判断しない。']
 
 ---
 
@@ -101,4 +107,4 @@
 | N2-MOCK-01 | `N2-G8-004` | Grammar | **A** | **A** | `A` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
 | N2-MOCK-01 | `N2-G8-005` | Grammar | **C** | **C** | `C` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
 | N2-MOCK-01 | `N2-G9-001` | Grammar | **C** | **C** | `C` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| ... | ... | *(remaining 1000 items in CSV and JSON ledgers)* | ... | ... | ... | ... | ... | ... |
+| ... | ... | *(remaining 1105 items in CSV and JSON ledgers)* | ... | ... | ... | ... | ... | ... |

@@ -394,7 +394,14 @@ def run_integrity_audit():
     # Output derived semantic blind reviews
     derived_out = ROOT / "qa/DERIVED_SEMANTIC_BLIND_REVIEWS.json"
     derived_out.write_text(json.dumps(derived_records, ensure_ascii=False, indent=2), encoding='utf-8')
-    print(f"Saved derived semantic blind reviews to: {derived_out}")
+    # Merge the newer M11 workflow only after its dedicated sealed-input,
+    # exact-text, fingerprint, and provenance contract has passed. This is a
+    # derived adapter, never a synthetic raw reviewer response.
+    from scripts.curriculum.reconcile_mock_blind_review import load_derived_blind_results
+    complete_review_map = load_derived_blind_results()
+    derived_records = list(complete_review_map.values())
+    derived_out.write_text(json.dumps(derived_records, ensure_ascii=False, indent=2), encoding='utf-8')
+    print(f"Saved validated historical + version-bound review mappings to: {derived_out}")
 
     from collections import Counter
     prov_counts = Counter(r.get('reviewerProvenance') for r in derived_records)
@@ -406,6 +413,7 @@ def run_integrity_audit():
         "rawEvidenceHashes": raw_file_hashes,
         "derivedArtifactHash": sha256_file(derived_out),
         "totalQuestionsAudited": len(derived_records),
+        "m11VersionBoundRowsIncluded": sum(1 for row in derived_records if row.get("reviewerProvenance") == "AI_BLIND_VERSION_BOUND_NO_PORTABLE_ATTESTATION"),
         "provenanceBreakdown": dict(prov_counts),
         "totalReorderedQuestions": affected_count,
         "recoverableSemanticMappings": recoverable_count,

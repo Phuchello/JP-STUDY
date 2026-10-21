@@ -1,0 +1,26 @@
+{
+  "artifactType": "SANITIZED_PUBLICATION_PROJECTION",
+  "sourceRawSha256": "44161b28baf5cacc8af33577f346c00d85bba3ae8cb9245564dd4f23e4c02af7",
+  "sourceRawBytesLocallyRetained": true,
+  "pathRedaction": "Local paths removed; answer content preserved exactly.",
+  "response": {
+    "reviewType": "blind_delta_solve",
+    "inputSha256": "4a1c1e7c40dafd910ab7960a56d0253491699039d011814229a0359560a31024",
+    "inputSha256MatchedBeforeAndAfter": true,
+    "captureTimeUtc": "2026-10-21T13:46:53Z",
+    "answers": [
+      {
+        "questionId": "N2_11_M9_02",
+        "selectedOptionId": "B",
+        "exactOptionText": "とともに",
+        "rationaleJapanese": "「理由を記録する」と「懸念点も残す」を並べる添加関係を表せる。後半の「も」と、二つの事項を記録する文脈に合う。",
+        "confidence": "high",
+        "confidenceScore": 0.98,
+        "alternateDefensibleAnswers": [],
+        "concerns": [
+          "A「ものの」も形の上では接続できるが逆接を表し、文脈と明示された添加関係に合わないため、同等の別解とは判断しない。"
+        ]
+      }
+    ]
+  }
+}

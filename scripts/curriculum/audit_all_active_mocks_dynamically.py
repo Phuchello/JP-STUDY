@@ -22,6 +22,11 @@ if str(ROOT) not in sys.path:
 from scripts.curriculum.audit_n2_mock_105_questions import audit_mock_105
 from scripts.curriculum.acoustic_assurance import evaluate_audio_track_assurance
 from scripts.curriculum.discovery import discover_active_n2_mocks
+from scripts.curriculum.mock_exam_release_checks import (
+    validate_full_mock_blueprint,
+    validate_star_fragment_integrity,
+    validate_version_bound_reconciliation,
+)
 
 def sha256_file(path: Path) -> str:
     h = hashlib.sha256()
@@ -47,6 +52,8 @@ def audit_single_discovered_mock(mock_num_str: str, exam_file: Path, catalog_htm
     # 2. Check exam ID
     if data.get('examId') != mid:
         failures.append(f"{mid}: Exam ID mismatch: expected '{mid}', got '{data.get('examId')}'")
+
+    failures.extend(f"{mid}: {issue}" for issue in validate_full_mock_blueprint(data))
 
     # 3. Check Blueprint Completeness (75 + 30 = 105)
     sections = data.get('sections', [])
@@ -86,9 +93,30 @@ def audit_single_discovered_mock(mock_num_str: str, exam_file: Path, catalog_htm
         raw_p1 = ROOT / f"qa/raw_blind_m{mock_num_str}_s1_p1.json"
         raw_p2 = ROOT / f"qa/raw_blind_m{mock_num_str}_s1_p2.json"
         raw_s2 = ROOT / f"qa/raw_blind_m{mock_num_str}_s2.json"
-    if not (raw_p1.exists() and raw_p2.exists() and raw_s2.exists()):
-        missing_revs = [p.name for p in [raw_p1, raw_p2, raw_s2] if not p.exists()]
-        failures.append(f"{mid}: Missing independent review evidence: {', '.join(missing_revs)}")
+    if raw_p1.exists() and raw_p2.exists() and raw_s2.exists():
+        pass
+    else:
+        # Generic version-bound reconciliation contract for new review workflows.
+        # This is evidence discovery by artifact shape, not a mock-number exemption.
+        report_file = ROOT / f"qa/N2_MOCK_{mock_num_str}_BLIND_RECONCILIATION.json"
+        sealed_file = ROOT / f"qa/blind_items_m{int(mock_num_str)}_final.json"
+        if report_file.is_file() and sealed_file.is_file():
+            try:
+                reconciliation = json.loads(report_file.read_text(encoding="utf-8"))
+                sealed_input = json.loads(sealed_file.read_text(encoding="utf-8"))
+                failures.extend(
+                    f"{mid}: {issue}"
+                    for issue in validate_version_bound_reconciliation(reconciliation, data, sealed_input)
+                )
+            except Exception as e:
+                failures.append(f"{mid}: Version-bound reviewer reconciliation could not be validated: {e}")
+        else:
+            missing_revs = [p.name for p in [raw_p1, raw_p2, raw_s2] if not p.exists()]
+            failures.append(f"{mid}: Missing independent review evidence and version-bound reconciliation: {', '.join(missing_revs)}")
+
+    stars = [q for q in sec1_items if q.get("typeId") == "N2-GR-STAR"]
+    if stars and all(q.get("starValidationSchema") == "DISPLAYED_FRAGMENT_ORDER_V1" for q in stars):
+        failures.extend(f"{mid}: {issue}" for issue in validate_star_fragment_integrity(data))
 
     # 6. Check Audio Manifest and Real MP3 Files
     manifest_file = exam_file.parent / f"n2_mock_{mock_num_str}_audio_manifest.json"

@@ -1,0 +1,655 @@
+{
+  "artifactType": "SANITIZED_PUBLICATION_PROJECTION",
+  "sourceRawSha256": "1e9cb4a39253a2c942cbe376ee0fccf2584122be35970984e8bf0659f7648bd7",
+  "sourceRawBytesLocallyRetained": true,
+  "pathRedaction": "Absolute local filesystem paths replaced with repository-relative artifact paths; all reviewer answers, fingerprints, rationales, STAR judgments, and validation fields preserved.",
+  "response": {
+    "reportVersion": "1.0",
+    "reviewType": "delta blind review tied to unchanged rev5 fingerprints; not a fresh 105-item solve",
+    "sealedInputPath": "qa/blind_items_m11_final.json",
+    "sealedInputSha256Before": "1488CC61FB394FA3AC04D5031B350EE2A28F4853543324E42A811615CFA0AE4F",
+    "sealedInputSha256After": "1488CC61FB394FA3AC04D5031B350EE2A28F4853543324E42A811615CFA0AE4F",
+    "referenceRawResponsePath": "qa/blind_review_m11_revision5_sanitized.json",
+    "referenceRawResponseSha256": "A3FB34A88B03321023859552534854D7E07EC6BDCC0CFF85016CD39BB780EAA1",
+    "referenceSealedInputSha256": "48CE1A7F13228B96860D4D2641C0B0A4F29305F6E13FB63016D644C2A7B6A3BE",
+    "changedItemAnswers": [
+      {
+        "questionId": "N2_11_M2_01",
+        "contentFingerprint": "6a0b6891db0739b230892c8aacef37707a2f130f77e05bd3ce5566b6bed7ccd4",
+        "selectedOptionId": "C",
+        "exactOptionText": "交渉",
+        "rationaleJapanese": "納期について取引先と条件を話し合うことは「交渉する」。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M2_02",
+        "contentFingerprint": "a24bf5d6ad717e332e37a7efbfe5db98ae103d42dae30da28a2845f094786e44",
+        "selectedOptionId": "C",
+        "exactOptionText": "干渉",
+        "rationaleJapanese": "他部署の業務に必要以上に立ち入る意味は「干渉する」。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M2_03",
+        "contentFingerprint": "5e58f7033430219fe42bac463bdec67e8486be627e34e4e6bd6d31505c098f4a",
+        "selectedOptionId": "C",
+        "exactOptionText": "校正",
+        "rationaleJapanese": "誤字脱字を専門担当者に確認・修正してもらう作業は「校正」。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M2_04",
+        "contentFingerprint": "d2d829eb27f694b008ba149ef94b9a37494dfb75345300b6191bec5e6cc5f5b7",
+        "selectedOptionId": "B",
+        "exactOptionText": "検討",
+        "rationaleJapanese": "複数案を比較してよく考えたうえで決定することは「検討」。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M2_05",
+        "contentFingerprint": "3fc40d7edc5280d2e364f63f3e47492c0c8199d640a551fbf4e2106d2b9ad714",
+        "selectedOptionId": "D",
+        "exactOptionText": "保証",
+        "rationaleJapanese": "部品の品質を一定期間請け合う文脈では「保証する」が標準的。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": [
+          "「保障」は安全や権利を守る意味で近いが、品質の保証期間を約束する場合は「保証」が明確で、同程度に自然な別解ではない。"
+        ]
+      },
+      {
+        "questionId": "N2_11_M4_07",
+        "contentFingerprint": "7df206ae781f983213e557e2c8212d2dfbc5f1bffd27e71e8ddea1791397a3b7",
+        "selectedOptionId": "A",
+        "exactOptionText": "見直した",
+        "rationaleJapanese": "締め切りに間に合わせるため作業順を再検討するので「見直した」。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      },
+      {
+        "questionId": "N2_11_M6_01",
+        "contentFingerprint": "246c5971b332fbc89cdb48e2662a7522a00223b644699a21d5849fecf430a88b",
+        "selectedOptionId": "D",
+        "exactOptionText": "費用対効果を確認できないため、新制度の導入は見送られた。",
+        "rationaleJapanese": "新制度の導入計画を今回は実施しないという意味の「見送る」の例である。",
+        "confidence": "high",
+        "alternateDefensibleAnswers": [],
+        "concerns": []
+      }
+    ],
+    "fingerprintComparison": {
+      "currentItemCount": 105,
+      "referenceItemCount": 105,
+      "unchangedFingerprintMatchCount": 98,
+      "changedFingerprintCount": 7,
+      "changedQuestionIds": [
+        "N2_11_M2_01",
+        "N2_11_M2_02",
+        "N2_11_M2_03",
+        "N2_11_M2_04",
+        "N2_11_M2_05",
+        "N2_11_M4_07",
+        "N2_11_M6_01"
+      ],
+      "unchangedFingerprintMatches": [
+        {
+          "questionId": "N2_11_M1_01",
+          "contentFingerprint": "a06b2fd97200fe6dee2793bf395b2b39b2f0b73b35cce528995d51234240d9fe"
+        },
+        {
+          "questionId": "N2_11_M1_02",
+          "contentFingerprint": "858daf2c35702be96f1ec2eda59c7854f40c23f2b968f87b4c0a629a81eee25a"
+        },
+        {
+          "questionId": "N2_11_M1_03",
+          "contentFingerprint": "4020f1f0e99d676050c4695258dff3c002e36080a060b2c4119e45ca75977d12"
+        },
+        {
+          "questionId": "N2_11_M1_04",
+          "contentFingerprint": "0038630ef7ae18e4dcf482c5b20157eac211ff0ead6d7bb73c0db39fb3d9e9a1"
+        },
+        {
+          "questionId": "N2_11_M1_05",
+          "contentFingerprint": "7ca42ec2671760e83889ac1ebc6e059e822dbe9cdbaaf63f2cc505cca6a955bd"
+        },
+        {
+          "questionId": "N2_11_M3_01",
+          "contentFingerprint": "312dae8e714814131b82997df49430a7bda75c0dd34ab2668cf371ca632952e6"
+        },
+        {
+          "questionId": "N2_11_M3_02",
+          "contentFingerprint": "0e5ab317825129e5dd49ffea24f9b726a4ba336e1aad1aa50e5c4ef3be41e939"
+        },
+        {
+          "questionId": "N2_11_M3_03",
+          "contentFingerprint": "e977336fc16efb0c023067819ca9a2594421cdc6347a04a623772023a75d8500"
+        },
+        {
+          "questionId": "N2_11_M3_04",
+          "contentFingerprint": "9806491c995e2f6937edc8763ec5011e4e61cc9c640898a929a62046f36f8eb2"
+        },
+        {
+          "questionId": "N2_11_M3_05",
+          "contentFingerprint": "f9e1dc39ebcf8cdd77823ff915f801a076c218e821add171605c257fcb489a64"
+        },
+        {
+          "questionId": "N2_11_M4_01",
+          "contentFingerprint": "0d6f9b138acfc043012abd07545784400d857b9f97dd726f9996496fbe03acbe"
+        },
+        {
+          "questionId": "N2_11_M4_02",
+          "contentFingerprint": "95e184880254793c6b94d12a4b1a016191bf40facccbc241590e8282884fada5"
+        },
+        {
+          "questionId": "N2_11_M4_03",
+          "contentFingerprint": "23293fb90c18a6fbf9e659defe7eea64cb9887099cfaf638b1c309b34bfb5842"
+        },
+        {
+          "questionId": "N2_11_M4_04",
+          "contentFingerprint": "89b1b8f5b03e3964afec6cbc2706cb6b677b3e01769f47de01c8ecf79f674adc"
+        },
+        {
+          "questionId": "N2_11_M4_05",
+          "contentFingerprint": "7bb2d1bd9c4478cdc13a7b7163c3c71460498f98e52253875297b4e81caaea25"
+        },
+        {
+          "questionId": "N2_11_M4_06",
+          "contentFingerprint": "eab84fc46923f1c64bb51fe7e655709b0864008914ac20aa9819601ad29f27bc"
+        },
+        {
+          "questionId": "N2_11_M5_01",
+          "contentFingerprint": "a53757561db2d7a9a9d626c0d59ca5520b99113c42fcad741afea327035c3233"
+        },
+        {
+          "questionId": "N2_11_M5_02",
+          "contentFingerprint": "fa799a41b92ed4d17146bdfb07ddf87f1d982980bb0336c9799e3c5e0ecb75df"
+        },
+        {
+          "questionId": "N2_11_M5_03",
+          "contentFingerprint": "4695ba6311e239ef5db298b4791cd7e4ec3fc165d74f1219c1668e721d0590ba"
+        },
+        {
+          "questionId": "N2_11_M5_04",
+          "contentFingerprint": "2c15385f9b2e69d6717ed741529b5a03dbca20ceda0d11204983a4671c34459c"
+        },
+        {
+          "questionId": "N2_11_M5_05",
+          "contentFingerprint": "dd9bf95a919ba2c5266fb314ce7ba41d4cd1750a07ae7a03d1695508b70f9230"
+        },
+        {
+          "questionId": "N2_11_M6_02",
+          "contentFingerprint": "ad80c8f2522f86614db7d19765bc6d0e8b8cf53e0a13b2cfbfa31a1ac1806920"
+        },
+        {
+          "questionId": "N2_11_M6_03",
+          "contentFingerprint": "740c23097984bd9fd63e5857498ef52572ad43d016e69a2f8947401a54bdf3ae"
+        },
+        {
+          "questionId": "N2_11_M6_04",
+          "contentFingerprint": "f2fcbee9ee72da3081e5947ae2a9551455f68700b7ffdfe3bec7dbe953666c72"
+        },
+        {
+          "questionId": "N2_11_M6_05",
+          "contentFingerprint": "1c06e40bb0c061629952b5bbed150df77131b6e8b907067077261449abc2d44f"
+        },
+        {
+          "questionId": "N2_11_M7_01",
+          "contentFingerprint": "3fbb621066c7e97331b32e8dd97018dfd7edbe8c3a015352dd109eb6dc47be4c"
+        },
+        {
+          "questionId": "N2_11_M7_02",
+          "contentFingerprint": "506249fb5cae4d710a1c8a98bdfef0342979d80598e12e88619b5a41d84b1ab0"
+        },
+        {
+          "questionId": "N2_11_M7_03",
+          "contentFingerprint": "6002297410c500fa76b9643e6f877f4ccd0bb45c73f96de808cf395856f58fcd"
+        },
+        {
+          "questionId": "N2_11_M7_04",
+          "contentFingerprint": "3c6ac9ea763535a41520b0f244259b7ec01ca28b74334ebbfbe11e2f21775d34"
+        },
+        {
+          "questionId": "N2_11_M7_05",
+          "contentFingerprint": "8151dbba6fd064f50db5e0cd062cf39967034a3ca77d4119d7500d6bf4536878"
+        },
+        {
+          "questionId": "N2_11_M7_06",
+          "contentFingerprint": "ba4ad813a2b90f248056c0feb43c0127212d46ea66eaf10b53b42f894840f649"
+        },
+        {
+          "questionId": "N2_11_M7_07",
+          "contentFingerprint": "bcf856d22a32eb1480c15d50c8495f293cda8463189d9f773a21e22a954a54b7"
+        },
+        {
+          "questionId": "N2_11_M7_08",
+          "contentFingerprint": "445091b85281a49d497d70de9e4bcd9616c7e322bb2cb9ad6693103b480df54e"
+        },
+        {
+          "questionId": "N2_11_M7_09",
+          "contentFingerprint": "31de1f993b6a682f1997ef46b486bc9a0ddbd8f2fac024d40fc8e66f5037ee01"
+        },
+        {
+          "questionId": "N2_11_M7_10",
+          "contentFingerprint": "96af80ffedb748e773cfe4d3b1a1701bd24ac6decde8278606524434bb6abe15"
+        },
+        {
+          "questionId": "N2_11_M7_11",
+          "contentFingerprint": "0e53d37ddb28ff621318738d7b6b45863e24cc9dbe7fb071ef4aa377e079272d"
+        },
+        {
+          "questionId": "N2_11_M7_12",
+          "contentFingerprint": "a949fce7e662548b57d0977f9c78f73ee038e6daea4f1eae7242965d10cef6ea"
+        },
+        {
+          "questionId": "N2_11_M8_01",
+          "contentFingerprint": "b622894c88c2a38d66338792de8406e9f729cbc2c257364bc6f8859c05a0bb0d"
+        },
+        {
+          "questionId": "N2_11_M8_02",
+          "contentFingerprint": "7ede7bfc581e1346988b7575273c35ec2be78cb08d75e1499b4fec1c17f67942"
+        },
+        {
+          "questionId": "N2_11_M8_03",
+          "contentFingerprint": "58d64c36a69b088204c3028da6daa96b9e9f1b1a709679713ca5705fc7167e45"
+        },
+        {
+          "questionId": "N2_11_M8_04",
+          "contentFingerprint": "78686f5b16e89601fc214d382f9e20dead45091b7f34ab5d406be14c932be242"
+        },
+        {
+          "questionId": "N2_11_M8_05",
+          "contentFingerprint": "81fa7d32ae3795c10cdd7517a2b68c0d74c3a6d39d8cb6acaf710c3ad2aea40b"
+        },
+        {
+          "questionId": "N2_11_M9_01",
+          "contentFingerprint": "fd6a3ab8bf83e44c0a63963d8c075b20aad650ad232eb96997f230256a188281"
+        },
+        {
+          "questionId": "N2_11_M9_02",
+          "contentFingerprint": "940bfa37b649b04651f1ab69e35576e6010db9bfc95b0f0561615c27d2462336"
+        },
+        {
+          "questionId": "N2_11_M9_03",
+          "contentFingerprint": "0ee444c837e9991f2433bbf1a2f8f6d86050e8617af44d397688bbfc40f40ddd"
+        },
+        {
+          "questionId": "N2_11_M9_04",
+          "contentFingerprint": "7cd88a7b0161c3536d83cc7f8a0457f5df44c768c944141474b1f56291e5686a"
+        },
+        {
+          "questionId": "N2_11_M9_05",
+          "contentFingerprint": "9f0e3fea4dc3acdd8b09c2cba93327d056a8bbbf39bef4984fa4a44c0a9f5e21"
+        },
+        {
+          "questionId": "N2_11_M10_01",
+          "contentFingerprint": "fb94900eb9d4649834cd0c7cd98b8402d1a049dcf241f66e8966fdbd342d51e8"
+        },
+        {
+          "questionId": "N2_11_M10_02",
+          "contentFingerprint": "10bdbe6d09f534db61651c2d1b22acbac6713148e302bab23b2dab616a5ceaa9"
+        },
+        {
+          "questionId": "N2_11_M10_03",
+          "contentFingerprint": "1fc1f36cda9da2e908e68b848f3e16946f67d1eb345c519843a54c178e89b61f"
+        },
+        {
+          "questionId": "N2_11_M10_04",
+          "contentFingerprint": "99421216d90621f061443800ed56570b880a0d9378e992190f2c8fb407847379"
+        },
+        {
+          "questionId": "N2_11_M10_05",
+          "contentFingerprint": "8efd71d6c632afe02a6af1b2f6f7db17a707fd2a69d9e2e1c3bef7674098806a"
+        },
+        {
+          "questionId": "N2_11_M11_01",
+          "contentFingerprint": "3e4b73c2ce96c6037c5709f10d57bdfd69ec09d96728a4ff3facb18c2d41285f"
+        },
+        {
+          "questionId": "N2_11_M11_02",
+          "contentFingerprint": "41f8f2990dc858e9d19d079910f5516d5a4f3dcd513318b3e1bb5c42fd35bf1e"
+        },
+        {
+          "questionId": "N2_11_M11_03",
+          "contentFingerprint": "991327f58096665690ec82e4bf9c438c323b8e826f83164123ffef1baea5c4de"
+        },
+        {
+          "questionId": "N2_11_M11_04",
+          "contentFingerprint": "2fbfb21e9c91e30eaf462e8709126616ef41ad9cb70d4ef4cc7254dd57c5abd5"
+        },
+        {
+          "questionId": "N2_11_M11_05",
+          "contentFingerprint": "df3405afc82eca8990b2d188b090ac9d77b9166a10f5bf8fa0c87648242942bb"
+        },
+        {
+          "questionId": "N2_11_M11_06",
+          "contentFingerprint": "ec39c0760398f47f555296bcf9ed8fe7ebd1a7c4c1e3f31de4c1c05bd129ad99"
+        },
+        {
+          "questionId": "N2_11_M11_07",
+          "contentFingerprint": "67eb677a4bdd9ff47f03197a9a5431fb39b31eeaf6c2c61ed6b37fc52498a9bd"
+        },
+        {
+          "questionId": "N2_11_M11_08",
+          "contentFingerprint": "93bbeb1ef47feeb511ea3cf05f1aed49a4bbc56e67a7b1764bb8506f36edbd25"
+        },
+        {
+          "questionId": "N2_11_M11_09",
+          "contentFingerprint": "6db3b4ebbf7a99fe2f43c0a800a40d9c07617e7fb67a550485085e23027d6b22"
+        },
+        {
+          "questionId": "N2_11_M12_01",
+          "contentFingerprint": "54462237dcc46a914996ed2ca55b491b8aa71ca3a78132c2b1da6b0036aa1696"
+        },
+        {
+          "questionId": "N2_11_M12_02",
+          "contentFingerprint": "cd0a1c1768657873f0c861dcdc5d07e5856d43a3cd10f0ae1787947078efd9bf"
+        },
+        {
+          "questionId": "N2_11_M13_01",
+          "contentFingerprint": "6a7025b3e0359cf22becc8ded41f6cc0f1a54dd7446fdbe3f3f6f5cb0bbedf3a"
+        },
+        {
+          "questionId": "N2_11_M13_02",
+          "contentFingerprint": "a82506fe2a82b618ff02ce338baf09b6452aad2425af9207dcf770804ac74f9a"
+        },
+        {
+          "questionId": "N2_11_M13_03",
+          "contentFingerprint": "5cd94d40a7203d95b87252ae41f799f0750db1a0ff60dda59ffa688da0fd8471"
+        },
+        {
+          "questionId": "N2_11_M14_01",
+          "contentFingerprint": "a89435e99df9db808182c5328090bdcf7cc713178814b7ac9e56befce23e685f"
+        },
+        {
+          "questionId": "N2_11_M14_02",
+          "contentFingerprint": "5846f25dc54ab59b1fd566cf56c0df3ea91c4db7c1579cfebd0ca73282e667f5"
+        },
+        {
+          "questionId": "N2_11_M1_L01",
+          "contentFingerprint": "262efb287904947bf4d6db795d9dcf717f947929e7ec710653e52cd77ffc553f"
+        },
+        {
+          "questionId": "N2_11_M1_L02",
+          "contentFingerprint": "ec6005ddb39438e0e71284ce0d2ce87564d3bd81cd4de85b4a4470a804f773ef"
+        },
+        {
+          "questionId": "N2_11_M1_L03",
+          "contentFingerprint": "0253281f65778231a38fbc72947d2eefe3f494aa43c183d8abd18744ea2eca67"
+        },
+        {
+          "questionId": "N2_11_M1_L04",
+          "contentFingerprint": "4ee581d98d3fbdcaf003a08e2915d9a6c38bcc7e4af6fc4a2fd8fea2e872191c"
+        },
+        {
+          "questionId": "N2_11_M1_L05",
+          "contentFingerprint": "6017c7d6e2e94b24476c34bcf27bc889abe70ca7712dac5590c73716253d781e"
+        },
+        {
+          "questionId": "N2_11_M2_L01",
+          "contentFingerprint": "92dbd3f3f37a7fd7f412a59443571fc1517657b8ace27c57c0a59045200ef2a6"
+        },
+        {
+          "questionId": "N2_11_M2_L02",
+          "contentFingerprint": "6b0b8f72251d47375feb94b95761519961a2317e9744559721c1c46341b8ba85"
+        },
+        {
+          "questionId": "N2_11_M2_L03",
+          "contentFingerprint": "7ff703bcb7e2b752c96744b2018ad28a0440898252069f65af7f64bcba0f0191"
+        },
+        {
+          "questionId": "N2_11_M2_L04",
+          "contentFingerprint": "fe8fc7337e00fb0e76b51f0629f6d74a5ad1fa40fec565434e9a8c9db4507d97"
+        },
+        {
+          "questionId": "N2_11_M2_L05",
+          "contentFingerprint": "6ccd6c31da64a2bdec38fe577760f2a343e26a19bbff419347c783dd25e22a03"
+        },
+        {
+          "questionId": "N2_11_M2_L06",
+          "contentFingerprint": "c77c86846afb272fc52e8660265de5e53ee0b4d92b8775ec715496ce6be43cf5"
+        },
+        {
+          "questionId": "N2_11_M3_L01",
+          "contentFingerprint": "ecd179deb2a151a90a0590063b945615efe7ba165497f1ff011d593788751b8d"
+        },
+        {
+          "questionId": "N2_11_M3_L02",
+          "contentFingerprint": "bb86ad35346a7978acc7ffc7d16d3c1089a24faac1acadbba58742a12165ff91"
+        },
+        {
+          "questionId": "N2_11_M3_L03",
+          "contentFingerprint": "e47cf2249f844d521dc50ab45aa4f0ac0b0d1729518d5a83ab47ee2f17780279"
+        },
+        {
+          "questionId": "N2_11_M3_L04",
+          "contentFingerprint": "f28f62a0bb9e818f5f6b252be09945adacec51ece1919cb9263c44a406b2104c"
+        },
+        {
+          "questionId": "N2_11_M3_L05",
+          "contentFingerprint": "73829d6f54c16bad000fbc866e0aef9eb0b46c5f85fe57908e11a64a31a37503"
+        },
+        {
+          "questionId": "N2_11_M4_L01",
+          "contentFingerprint": "fc055c96b7537b58f66d6e95ad7d2d4ba83f84f555ca710e040fc6274dc5b2bc"
+        },
+        {
+          "questionId": "N2_11_M4_L02",
+          "contentFingerprint": "0f31cb91a1487ea89496a860a3efe8f4c2a4768490bd22a738f2b4f5f85154a6"
+        },
+        {
+          "questionId": "N2_11_M4_L03",
+          "contentFingerprint": "e409824efb29f4bc76ddf76ab24c7fa82d76ea0aea50c66a2308e89e7b3dc4e0"
+        },
+        {
+          "questionId": "N2_11_M4_L04",
+          "contentFingerprint": "52951e7d45527ef7f7dada957a3b5e4634df4674009933518a83bf91c4fa5931"
+        },
+        {
+          "questionId": "N2_11_M4_L05",
+          "contentFingerprint": "4ca340181d1aecb2d8d2574a026ec5e30e1c7f7b634b900a611f6b8216022b58"
+        },
+        {
+          "questionId": "N2_11_M4_L06",
+          "contentFingerprint": "cbc941ab8c7b11d91076fd2431176dea85e2a624a4fb90b09ca9b9e207c5677b"
+        },
+        {
+          "questionId": "N2_11_M4_L07",
+          "contentFingerprint": "006c4d349f383f9222e61c6183f528e777834fc33bece1b04275f369e38e30f3"
+        },
+        {
+          "questionId": "N2_11_M4_L08",
+          "contentFingerprint": "a6aeda14737bc12594a82d25658db41e0ec0c47dc48560b2bab080e4bc13fd3e"
+        },
+        {
+          "questionId": "N2_11_M4_L09",
+          "contentFingerprint": "87608aa16624ee271d26a8005572cdb03bc4f49cb3f81b060c9219d78f7262e1"
+        },
+        {
+          "questionId": "N2_11_M4_L10",
+          "contentFingerprint": "64e5a9dbdf954a1b368a2fe98ad99113c6daffd3742112d90eff987d9b7ffb1c"
+        },
+        {
+          "questionId": "N2_11_M4_L11",
+          "contentFingerprint": "f964bf89262fb69afbd1a9692fba2be6bce627daff1720b4615c3b1a82305b1b"
+        },
+        {
+          "questionId": "N2_11_M5_L01",
+          "contentFingerprint": "baffa097eaeff7165dbc0d09c8b82a0acde1138b157e5f4466dd09b271408873"
+        },
+        {
+          "questionId": "N2_11_M5_L02",
+          "contentFingerprint": "01c80f83a71652398153da9907bee9e6e964c8d6815fe84cff44b02a82c077fd"
+        },
+        {
+          "questionId": "N2_11_M5_L03",
+          "contentFingerprint": "5624eb6703c25566165b1aa8dd999ef7de60c1f62f5e6915edb338cfcebd97bb"
+        }
+      ],
+      "changedFingerprints": [
+        {
+          "questionId": "N2_11_M2_01",
+          "priorFingerprint": "2e4a2c82d799b3ff9c0d59f8f6bc2123338d44b52636bea66dcc0d9cff6958cf",
+          "currentFingerprint": "6a0b6891db0739b230892c8aacef37707a2f130f77e05bd3ce5566b6bed7ccd4"
+        },
+        {
+          "questionId": "N2_11_M2_02",
+          "priorFingerprint": "010a815f4b3c5d0a920253c5c8d8759b3a715b124903873c420dba301264efee",
+          "currentFingerprint": "a24bf5d6ad717e332e37a7efbfe5db98ae103d42dae30da28a2845f094786e44"
+        },
+        {
+          "questionId": "N2_11_M2_03",
+          "priorFingerprint": "68ebfa212b3055527b3ade97f946a72f9eb5794d486c194d76bee177d42161e7",
+          "currentFingerprint": "5e58f7033430219fe42bac463bdec67e8486be627e34e4e6bd6d31505c098f4a"
+        },
+        {
+          "questionId": "N2_11_M2_04",
+          "priorFingerprint": "5e2b2afd247293431e8e74b7e7155a3e6bd34d9753b21a7af17d9589c3078d18",
+          "currentFingerprint": "d2d829eb27f694b008ba149ef94b9a37494dfb75345300b6191bec5e6cc5f5b7"
+        },
+        {
+          "questionId": "N2_11_M2_05",
+          "priorFingerprint": "228709dff560708ee71c4938dc7e3b640dc1f58a90be5ad3fc2b3ffba22fde52",
+          "currentFingerprint": "3fc40d7edc5280d2e364f63f3e47492c0c8199d640a551fbf4e2106d2b9ad714"
+        },
+        {
+          "questionId": "N2_11_M4_07",
+          "priorFingerprint": "b14b4a4273702cd0f21038fa0c8773a5ed272c0705ee3f04d8cce0f89572fcee",
+          "currentFingerprint": "7df206ae781f983213e557e2c8212d2dfbc5f1bffd27e71e8ddea1791397a3b7"
+        },
+        {
+          "questionId": "N2_11_M6_01",
+          "priorFingerprint": "ca47ef0565679aa43c525236da47c6a0157f6ebaba7f9a781273dbaaabe239d9",
+          "currentFingerprint": "246c5971b332fbc89cdb48e2662a7522a00223b644699a21d5849fecf430a88b"
+        }
+      ]
+    },
+    "unchangedStarFingerprintConfirmation": [
+      {
+        "questionId": "N2_11_M8_01",
+        "currentContentFingerprint": "b622894c88c2a38d66338792de8406e9f729cbc2c257364bc6f8859c05a0bb0d",
+        "rev5ContentFingerprint": "b622894c88c2a38d66338792de8406e9f729cbc2c257364bc6f8859c05a0bb0d",
+        "fingerprintUnchanged": true,
+        "priorPermutationCount": 24,
+        "priorUniquePermutationCount": 24,
+        "priorKeyedThirdOptionId": "A",
+        "priorNaturalOrMarginalOrders": [
+          {
+            "permutation": "BCAD",
+            "resultingStarOptionId": "A",
+            "resultingStarOptionText": "その結果、差があった場合は取引先に確認してから"
+          }
+        ],
+        "priorAlternateDefensibleSequences": [],
+        "naturalOrMarginalOrdersShareKeyedThird": true,
+        "priorPermutationFindingsRetained": true
+      },
+      {
+        "questionId": "N2_11_M8_02",
+        "currentContentFingerprint": "7ede7bfc581e1346988b7575273c35ec2be78cb08d75e1499b4fec1c17f67942",
+        "rev5ContentFingerprint": "7ede7bfc581e1346988b7575273c35ec2be78cb08d75e1499b4fec1c17f67942",
+        "fingerprintUnchanged": true,
+        "priorPermutationCount": 24,
+        "priorUniquePermutationCount": 24,
+        "priorKeyedThirdOptionId": "C",
+        "priorNaturalOrMarginalOrders": [
+          {
+            "permutation": "ABCD",
+            "resultingStarOptionId": "C",
+            "resultingStarOptionText": "ことのほうが"
+          }
+        ],
+        "priorAlternateDefensibleSequences": [],
+        "naturalOrMarginalOrdersShareKeyedThird": true,
+        "priorPermutationFindingsRetained": true
+      },
+      {
+        "questionId": "N2_11_M8_03",
+        "currentContentFingerprint": "58d64c36a69b088204c3028da6daa96b9e9f1b1a709679713ca5705fc7167e45",
+        "rev5ContentFingerprint": "58d64c36a69b088204c3028da6daa96b9e9f1b1a709679713ca5705fc7167e45",
+        "fingerprintUnchanged": true,
+        "priorPermutationCount": 24,
+        "priorUniquePermutationCount": 24,
+        "priorKeyedThirdOptionId": "C",
+        "priorNaturalOrMarginalOrders": [
+          {
+            "permutation": "ABCD",
+            "resultingStarOptionId": "C",
+            "resultingStarOptionText": "差があれば取引先に確認してから"
+          }
+        ],
+        "priorAlternateDefensibleSequences": [],
+        "naturalOrMarginalOrdersShareKeyedThird": true,
+        "priorPermutationFindingsRetained": true
+      },
+      {
+        "questionId": "N2_11_M8_04",
+        "currentContentFingerprint": "78686f5b16e89601fc214d382f9e20dead45091b7f34ab5d406be14c932be242",
+        "rev5ContentFingerprint": "78686f5b16e89601fc214d382f9e20dead45091b7f34ab5d406be14c932be242",
+        "fingerprintUnchanged": true,
+        "priorPermutationCount": 24,
+        "priorUniquePermutationCount": 24,
+        "priorKeyedThirdOptionId": "D",
+        "priorNaturalOrMarginalOrders": [
+          {
+            "permutation": "ABDC",
+            "resultingStarOptionId": "D",
+            "resultingStarOptionText": "項目ごとに照合し、"
+          },
+          {
+            "permutation": "BADC",
+            "resultingStarOptionId": "D",
+            "resultingStarOptionText": "項目ごとに照合し、"
+          }
+        ],
+        "priorAlternateDefensibleSequences": [
+          {
+            "permutation": "BADC",
+            "resultingStarOptionId": "D",
+            "resultingStarOptionText": "項目ごとに照合し、"
+          }
+        ],
+        "naturalOrMarginalOrdersShareKeyedThird": true,
+        "priorPermutationFindingsRetained": true
+      },
+      {
+        "questionId": "N2_11_M8_05",
+        "currentContentFingerprint": "81fa7d32ae3795c10cdd7517a2b68c0d74c3a6d39d8cb6acaf710c3ad2aea40b",
+        "rev5ContentFingerprint": "81fa7d32ae3795c10cdd7517a2b68c0d74c3a6d39d8cb6acaf710c3ad2aea40b",
+        "fingerprintUnchanged": true,
+        "priorPermutationCount": 24,
+        "priorUniquePermutationCount": 24,
+        "priorKeyedThirdOptionId": "C",
+        "priorNaturalOrMarginalOrders": [
+          {
+            "permutation": "ABCD",
+            "resultingStarOptionId": "C",
+            "resultingStarOptionText": "姿勢を保つ"
+          }
+        ],
+        "priorAlternateDefensibleSequences": [],
+        "naturalOrMarginalOrdersShareKeyedThird": true,
+        "priorPermutationFindingsRetained": true
+      }
+    ],
+    "likelyKeyMismatches": [],
+    "authoredKeyComparisonPerformed": false,
+    "validation": {
+      "changedAnswerCount": 7,
+      "exactSelectedOptionTextRetrievedFromCurrentInput": true,
+      "unchangedFingerprintMatchCount": 98,
+      "fiveStarFingerprintsUnchanged": true,
+      "retainedPriorStarPermutationFindings": 120.0,
+      "currentInputHashUnchanged": true,
+      "fresh105ItemSolveClaimed": false
+    }
+  }
+}

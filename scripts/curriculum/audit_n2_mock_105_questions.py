@@ -32,6 +32,7 @@ ROOT = Path(__file__).resolve().parents[2]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 from scripts.curriculum.acoustic_assurance import evaluate_audio_track_assurance
+from scripts.curriculum.mock_exam_release_checks import validate_version_bound_reconciliation
 
 LEDGER_FILE = ROOT / 'qa/QUESTION_AUDIT_LEDGER_210.json'
 
@@ -51,8 +52,43 @@ def load_reconciliation_ledger():
     if not ledger_path.exists():
         raise FileNotFoundError(f"Missing ledger file: {ledger_path}. Run reconcile_mock_blind_review.py first.")
     with open(ledger_path, 'r', encoding='utf-8') as f:
-        ledger = json.load(f)
-    return {entry['questionId']: entry for entry in ledger}
+        ledger = {entry['questionId']: entry for entry in json.load(f)}
+
+    # New blind-review workflows publish a sanitized, fingerprint-bound
+    # semantic reconciliation instead of editing the historical 210-row
+    # ledger. Validate the same generic evidence contract before converting
+    # those derived rows into the legacy audit shape.
+    for report_path in sorted((ROOT / 'qa').glob('N2_MOCK_*_BLIND_RECONCILIATION.json')):
+        try:
+            report = json.loads(report_path.read_text(encoding='utf-8'))
+            exam_id = str(report.get('examId', ''))
+            number = exam_id.rsplit('-', 1)[-1]
+            exam_path = ROOT / f'data/mock_exams/n2_mock_{number.lower()}.json'
+            sealed_path = ROOT / f'qa/blind_items_m{int(number)}_final.json'
+            if not exam_path.is_file() or not sealed_path.is_file():
+                continue
+            exam = json.loads(exam_path.read_text(encoding='utf-8'))
+            sealed = json.loads(sealed_path.read_text(encoding='utf-8'))
+            if validate_version_bound_reconciliation(report, exam, sealed):
+                continue
+            for row in report.get('rows', []):
+                qid = row.get('questionId')
+                ledger[qid] = {
+                    'questionId': qid,
+                    'reconciliationClassification': 'AGREEMENT' if row.get('semanticTextAgreement') is True else 'KEY_MISMATCH',
+                    'finalDisposition': 'AI_SEMANTIC_VERIFIED' if row.get('semanticTextAgreement') is True else 'QUARANTINED',
+                    'independentProposedAnswer': row.get('currentDisplayedOptionId'),
+                    'confidence': row.get('confidence') or 'HIGH',
+                    'linguisticJustification': row.get('rationaleJapanese', ''),
+                    'reviewerProvenance': 'AI blind response; version-bound; portable execution attestation unavailable',
+                    'contentFingerprint': row.get('contentFingerprint'),
+                    'fingerprintMatch': True,
+                }
+        except (OSError, ValueError, TypeError):
+            # Fail closed: the dynamic release audit separately reports that
+            # a missing or malformed version-bound review blocks the exam.
+            continue
+    return ledger
 
 
 ALLOWED_STRUCTURAL_STATUSES = {"PASS"}

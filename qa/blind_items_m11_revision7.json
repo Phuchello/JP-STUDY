@@ -1,0 +1,2898 @@
+[
+  {
+    "id": "N2_11_M1_01",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-MO-READ",
+    "category": "漢字読み",
+    "stem": "新しい勤務表は、部門間の負担を【均等】にする目的で作られた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "ぎんどう"
+      },
+      {
+        "id": "B",
+        "text": "ぎんとう"
+      },
+      {
+        "id": "C",
+        "text": "きんどう"
+      },
+      {
+        "id": "D",
+        "text": "きんとう"
+      }
+    ],
+    "contentFingerprint": "a06b2fd97200fe6dee2793bf395b2b39b2f0b73b35cce528995d51234240d9fe"
+  },
+  {
+    "id": "N2_11_M1_02",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-MO-READ",
+    "category": "漢字読み",
+    "stem": "担当者は、提出された申請書の内容を【照合】している。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "てらこう"
+      },
+      {
+        "id": "B",
+        "text": "てらごう"
+      },
+      {
+        "id": "C",
+        "text": "しょうこう"
+      },
+      {
+        "id": "D",
+        "text": "しょうごう"
+      }
+    ],
+    "contentFingerprint": "858daf2c35702be96f1ec2eda59c7854f40c23f2b968f87b4c0a629a81eee25a"
+  },
+  {
+    "id": "N2_11_M1_03",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-MO-READ",
+    "category": "漢字読み",
+    "stem": "会議では、費用の削減より安全性を【優先】することになった。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "ゆうぜん"
+      },
+      {
+        "id": "B",
+        "text": "ゆぜん"
+      },
+      {
+        "id": "C",
+        "text": "ゆせん"
+      },
+      {
+        "id": "D",
+        "text": "ゆうせん"
+      }
+    ],
+    "contentFingerprint": "4020f1f0e99d676050c4695258dff3c002e36080a060b2c4119e45ca75977d12"
+  },
+  {
+    "id": "N2_11_M1_04",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-MO-READ",
+    "category": "漢字読み",
+    "stem": "先方の希望を確認したうえで、契約の条件を【改める】。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "ためらう"
+      },
+      {
+        "id": "B",
+        "text": "ためらえる"
+      },
+      {
+        "id": "C",
+        "text": "あらためる"
+      },
+      {
+        "id": "D",
+        "text": "あらたえる"
+      }
+    ],
+    "contentFingerprint": "0038630ef7ae18e4dcf482c5b20157eac211ff0ead6d7bb73c0db39fb3d9e9a1"
+  },
+  {
+    "id": "N2_11_M1_05",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-MO-READ",
+    "category": "漢字読み",
+    "stem": "この研修は、各自の経験を【踏まえて】進める。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "ふまって"
+      },
+      {
+        "id": "B",
+        "text": "ふまえて"
+      },
+      {
+        "id": "C",
+        "text": "ふみえて"
+      },
+      {
+        "id": "D",
+        "text": "ふんまえて"
+      }
+    ],
+    "contentFingerprint": "7ca42ec2671760e83889ac1ebc6e059e822dbe9cdbaaf63f2cc505cca6a955bd"
+  },
+  {
+    "id": "N2_11_M2_01",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-MO-ORTH",
+    "category": "表記",
+    "stem": "営業担当者は、納期について取引先と【こうしょう】した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "公称"
+      },
+      {
+        "id": "B",
+        "text": "口承"
+      },
+      {
+        "id": "C",
+        "text": "交渉"
+      },
+      {
+        "id": "D",
+        "text": "高尚"
+      }
+    ],
+    "contentFingerprint": "6a0b6891db0739b230892c8aacef37707a2f130f77e05bd3ce5566b6bed7ccd4"
+  },
+  {
+    "id": "N2_11_M2_02",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-MO-ORTH",
+    "category": "表記",
+    "stem": "他部署の業務に必要以上に【かんしょう】しないよう、責任範囲を明確にした。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "感傷"
+      },
+      {
+        "id": "B",
+        "text": "緩衝"
+      },
+      {
+        "id": "C",
+        "text": "干渉"
+      },
+      {
+        "id": "D",
+        "text": "鑑賞"
+      }
+    ],
+    "contentFingerprint": "a24bf5d6ad717e332e37a7efbfe5db98ae103d42dae30da28a2845f094786e44"
+  },
+  {
+    "id": "N2_11_M2_03",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-MO-ORTH",
+    "category": "表記",
+    "stem": "公開前に、原稿の誤字脱字を専門担当者に【こうせい】してもらった。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "構成"
+      },
+      {
+        "id": "B",
+        "text": "公正"
+      },
+      {
+        "id": "C",
+        "text": "校正"
+      },
+      {
+        "id": "D",
+        "text": "更生"
+      }
+    ],
+    "contentFingerprint": "5e58f7033430219fe42bac463bdec67e8486be627e34e4e6bd6d31505c098f4a"
+  },
+  {
+    "id": "N2_11_M2_04",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-MO-ORTH",
+    "category": "表記",
+    "stem": "複数の案を十分に【けんとう】したうえで、実行する案を決めた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "見当"
+      },
+      {
+        "id": "B",
+        "text": "検討"
+      },
+      {
+        "id": "C",
+        "text": "健闘"
+      },
+      {
+        "id": "D",
+        "text": "拳闘"
+      }
+    ],
+    "contentFingerprint": "d2d829eb27f694b008ba149ef94b9a37494dfb75345300b6191bec5e6cc5f5b7"
+  },
+  {
+    "id": "N2_11_M2_05",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-MO-ORTH",
+    "category": "表記",
+    "stem": "当社は、修理期間中に交換した部品の品質を一年間【ほしょう】します。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "補償"
+      },
+      {
+        "id": "B",
+        "text": "保障"
+      },
+      {
+        "id": "C",
+        "text": "歩哨"
+      },
+      {
+        "id": "D",
+        "text": "保証"
+      }
+    ],
+    "contentFingerprint": "3fc40d7edc5280d2e364f63f3e47492c0c8199d640a551fbf4e2106d2b9ad714"
+  },
+  {
+    "id": "N2_11_M3_01",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-MO-FORM",
+    "category": "文脈規定",
+    "stem": "取引先への回答は、内容を確認してから（　）する。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "返済"
+      },
+      {
+        "id": "B",
+        "text": "返信"
+      },
+      {
+        "id": "C",
+        "text": "返還"
+      },
+      {
+        "id": "D",
+        "text": "返却"
+      }
+    ],
+    "contentFingerprint": "312dae8e714814131b82997df49430a7bda75c0dd34ab2668cf371ca632952e6"
+  },
+  {
+    "id": "N2_11_M3_02",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-MO-FORM",
+    "category": "文脈規定",
+    "stem": "説明会の資料は、参加者の人数に（　）して印刷した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "応じて"
+      },
+      {
+        "id": "B",
+        "text": "沿って"
+      },
+      {
+        "id": "C",
+        "text": "対して"
+      },
+      {
+        "id": "D",
+        "text": "伴って"
+      }
+    ],
+    "contentFingerprint": "0e5ab317825129e5dd49ffea24f9b726a4ba336e1aad1aa50e5c4ef3be41e939"
+  },
+  {
+    "id": "N2_11_M3_03",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-MO-FORM",
+    "category": "文脈規定",
+    "stem": "部長は、新しい案を採用するかどうか（　）している。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "検討"
+      },
+      {
+        "id": "B",
+        "text": "観察"
+      },
+      {
+        "id": "C",
+        "text": "反省"
+      },
+      {
+        "id": "D",
+        "text": "想像"
+      }
+    ],
+    "contentFingerprint": "e977336fc16efb0c023067819ca9a2594421cdc6347a04a623772023a75d8500"
+  },
+  {
+    "id": "N2_11_M3_04",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-MO-FORM",
+    "category": "文脈規定",
+    "stem": "会議の開始時刻が変更されたため、関係者へすぐに（　）した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "交際"
+      },
+      {
+        "id": "B",
+        "text": "応対"
+      },
+      {
+        "id": "C",
+        "text": "連絡"
+      },
+      {
+        "id": "D",
+        "text": "接続"
+      }
+    ],
+    "contentFingerprint": "9806491c995e2f6937edc8763ec5011e4e61cc9c640898a929a62046f36f8eb2"
+  },
+  {
+    "id": "N2_11_M3_05",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-MO-FORM",
+    "category": "文脈規定",
+    "stem": "請求額が契約金額と違っていたため、確認が済むまで支払いの手続きはいったん（　）とした。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "撤回"
+      },
+      {
+        "id": "B",
+        "text": "完了"
+      },
+      {
+        "id": "C",
+        "text": "継続"
+      },
+      {
+        "id": "D",
+        "text": "保留"
+      }
+    ],
+    "contentFingerprint": "f9e1dc39ebcf8cdd77823ff915f801a076c218e821add171605c257fcb489a64"
+  },
+  {
+    "id": "N2_11_M4_01",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-MO-CONT",
+    "category": "文脈規定",
+    "stem": "急な依頼だったが、担当者は予定を（　）して対応してくれた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "調節"
+      },
+      {
+        "id": "B",
+        "text": "調整"
+      },
+      {
+        "id": "C",
+        "text": "整理"
+      },
+      {
+        "id": "D",
+        "text": "整列"
+      }
+    ],
+    "contentFingerprint": "0d6f9b138acfc043012abd07545784400d857b9f97dd726f9996496fbe03acbe"
+  },
+  {
+    "id": "N2_11_M4_02",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-MO-CONT",
+    "category": "文脈規定",
+    "stem": "会議では、反対意見も（　）したうえで結論を出した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "考案"
+      },
+      {
+        "id": "B",
+        "text": "考慮"
+      },
+      {
+        "id": "C",
+        "text": "考察"
+      },
+      {
+        "id": "D",
+        "text": "予想"
+      }
+    ],
+    "contentFingerprint": "95e184880254793c6b94d12a4b1a016191bf40facccbc241590e8282884fada5"
+  },
+  {
+    "id": "N2_11_M4_03",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-MO-CONT",
+    "category": "文脈規定",
+    "stem": "この手順を一度に変えるのではなく、小さく（　）して効果を確かめる。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "試行"
+      },
+      {
+        "id": "B",
+        "text": "試着"
+      },
+      {
+        "id": "C",
+        "text": "試食"
+      },
+      {
+        "id": "D",
+        "text": "試験"
+      }
+    ],
+    "contentFingerprint": "23293fb90c18a6fbf9e659defe7eea64cb9887099cfaf638b1c309b34bfb5842"
+  },
+  {
+    "id": "N2_11_M4_04",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-MO-CONT",
+    "category": "文脈規定",
+    "stem": "担当者が休みなので、同じ部署の者が（　）を務めます。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "代用"
+      },
+      {
+        "id": "B",
+        "text": "代理"
+      },
+      {
+        "id": "C",
+        "text": "代表"
+      },
+      {
+        "id": "D",
+        "text": "交代"
+      }
+    ],
+    "contentFingerprint": "89b1b8f5b03e3964afec6cbc2706cb6b677b3e01769f47de01c8ecf79f674adc"
+  },
+  {
+    "id": "N2_11_M4_05",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-MO-CONT",
+    "category": "文脈規定",
+    "stem": "新制度の開始後も、利用者の意見を集めて運用を（　）していく。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "改定"
+      },
+      {
+        "id": "B",
+        "text": "改造"
+      },
+      {
+        "id": "C",
+        "text": "改訳"
+      },
+      {
+        "id": "D",
+        "text": "改善"
+      }
+    ],
+    "contentFingerprint": "7bb2d1bd9c4478cdc13a7b7163c3c71460498f98e52253875297b4e81caaea25"
+  },
+  {
+    "id": "N2_11_M4_06",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-MO-CONT",
+    "category": "文脈規定",
+    "stem": "議事録を正確に作るため、会議の音声をICレコーダーで（　）した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "録音"
+      },
+      {
+        "id": "B",
+        "text": "記念"
+      },
+      {
+        "id": "C",
+        "text": "記憶"
+      },
+      {
+        "id": "D",
+        "text": "記載"
+      }
+    ],
+    "contentFingerprint": "eab84fc46923f1c64bb51fe7e655709b0864008914ac20aa9819601ad29f27bc"
+  },
+  {
+    "id": "N2_11_M4_07",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-MO-CONT",
+    "category": "文脈規定",
+    "stem": "締め切りを守るため、作業の順番を（　）。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "見直した"
+      },
+      {
+        "id": "B",
+        "text": "見送った"
+      },
+      {
+        "id": "C",
+        "text": "見逃した"
+      },
+      {
+        "id": "D",
+        "text": "見込んだ"
+      }
+    ],
+    "contentFingerprint": "7df206ae781f983213e557e2c8212d2dfbc5f1bffd27e71e8ddea1791397a3b7"
+  },
+  {
+    "id": "N2_11_M5_01",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-MO-PARA",
+    "category": "言い換え",
+    "stem": "担当者は、会議での発言を踏まえて計画を練り直した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "発言を聞き流して"
+      },
+      {
+        "id": "B",
+        "text": "発言を先送りして"
+      },
+      {
+        "id": "C",
+        "text": "発言を取り消して"
+      },
+      {
+        "id": "D",
+        "text": "発言を参考にして"
+      }
+    ],
+    "contentFingerprint": "a53757561db2d7a9a9d626c0d59ca5520b99113c42fcad741afea327035c3233"
+  },
+  {
+    "id": "N2_11_M5_02",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-MO-PARA",
+    "category": "言い換え",
+    "stem": "この案は、現場の状況に即している。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "現場の状況に合っている"
+      },
+      {
+        "id": "B",
+        "text": "現場の状況を避けている"
+      },
+      {
+        "id": "C",
+        "text": "現場の状況を隠している"
+      },
+      {
+        "id": "D",
+        "text": "現場の状況を変えている"
+      }
+    ],
+    "contentFingerprint": "fa799a41b92ed4d17146bdfb07ddf87f1d982980bb0336c9799e3c5e0ecb75df"
+  },
+  {
+    "id": "N2_11_M5_03",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-MO-PARA",
+    "category": "言い換え",
+    "stem": "説明の不足を補うため、担当者が後から資料を添付した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "足りないところを埋めるため"
+      },
+      {
+        "id": "B",
+        "text": "誤りを目立たせるため"
+      },
+      {
+        "id": "C",
+        "text": "内容を短くするため"
+      },
+      {
+        "id": "D",
+        "text": "順番を入れ替えるため"
+      }
+    ],
+    "contentFingerprint": "4695ba6311e239ef5db298b4791cd7e4ec3fc165d74f1219c1668e721d0590ba"
+  },
+  {
+    "id": "N2_11_M5_04",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-MO-PARA",
+    "category": "言い換え",
+    "stem": "両部署は、共通の目標に向けて連携している。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "交代している"
+      },
+      {
+        "id": "B",
+        "text": "分離している"
+      },
+      {
+        "id": "C",
+        "text": "協力している"
+      },
+      {
+        "id": "D",
+        "text": "競争している"
+      }
+    ],
+    "contentFingerprint": "2c15385f9b2e69d6717ed741529b5a03dbca20ceda0d11204983a4671c34459c"
+  },
+  {
+    "id": "N2_11_M5_05",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-MO-PARA",
+    "category": "言い換え",
+    "stem": "担当者は、期限に間に合うよう作業を前倒しした。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "予定より早く進めた"
+      },
+      {
+        "id": "B",
+        "text": "予定を後に延ばした"
+      },
+      {
+        "id": "C",
+        "text": "予定をなかったことにした"
+      },
+      {
+        "id": "D",
+        "text": "予定どおりに止めた"
+      }
+    ],
+    "contentFingerprint": "dd9bf95a919ba2c5266fb314ce7ba41d4cd1750a07ae7a03d1695508b70f9230"
+  },
+  {
+    "id": "N2_11_M6_01",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-MO-USE",
+    "category": "語の用法",
+    "stem": "「見送る」が「計画の実施を今回はしない」という意味で使われている文はどれか。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "駅で取引先の社員を見送った。"
+      },
+      {
+        "id": "B",
+        "text": "決定を見送ったので、予定どおりすぐに実施した。"
+      },
+      {
+        "id": "C",
+        "text": "会議資料を見送ってから、参加者に配った。"
+      },
+      {
+        "id": "D",
+        "text": "費用対効果を確認できないため、新制度の導入は見送られた。"
+      }
+    ],
+    "contentFingerprint": "246c5971b332fbc89cdb48e2662a7522a00223b644699a21d5849fecf430a88b"
+  },
+  {
+    "id": "N2_11_M6_02",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-MO-USE",
+    "category": "語の用法",
+    "stem": "「差し支える」の使い方として最もよいものを選びなさい。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "その時間では、打ち合わせに差し支えます。"
+      },
+      {
+        "id": "B",
+        "text": "彼は差し支える性格で有名だ。"
+      },
+      {
+        "id": "C",
+        "text": "資料を差し支えて棚に入れた。"
+      },
+      {
+        "id": "D",
+        "text": "説明を差し支えて分かりやすくした。"
+      }
+    ],
+    "contentFingerprint": "ad80c8f2522f86614db7d19765bc6d0e8b8cf53e0a13b2cfbfa31a1ac1806920"
+  },
+  {
+    "id": "N2_11_M6_03",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-MO-USE",
+    "category": "語の用法",
+    "stem": "「取りまとめる」の使い方として最もよいものを選びなさい。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "古い机を取りまとめて修理した。"
+      },
+      {
+        "id": "B",
+        "text": "各部署の意見を取りまとめて報告書にした。"
+      },
+      {
+        "id": "C",
+        "text": "昼食を取りまとめて食べた。"
+      },
+      {
+        "id": "D",
+        "text": "社員証を取りまとめて首に掛けた。"
+      }
+    ],
+    "contentFingerprint": "740c23097984bd9fd63e5857498ef52572ad43d016e69a2f8947401a54bdf3ae"
+  },
+  {
+    "id": "N2_11_M6_04",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-MO-USE",
+    "category": "語の用法",
+    "stem": "「見込む」の使い方として最もよいものを選びなさい。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "相手の顔を見込んであいさつした。"
+      },
+      {
+        "id": "B",
+        "text": "今月は問い合わせが増えると見込んで人員を増やした。"
+      },
+      {
+        "id": "C",
+        "text": "紙の端を見込んで切った。"
+      },
+      {
+        "id": "D",
+        "text": "窓から景色を見込んだ。"
+      }
+    ],
+    "contentFingerprint": "f2fcbee9ee72da3081e5947ae2a9551455f68700b7ffdfe3bec7dbe953666c72"
+  },
+  {
+    "id": "N2_11_M6_05",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-MO-USE",
+    "category": "語の用法",
+    "stem": "「行き違い」の使い方として最もよいものを選びなさい。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "書類を行き違いに並べて保管した。"
+      },
+      {
+        "id": "B",
+        "text": "意見の行き違いをすべて同じにした。"
+      },
+      {
+        "id": "C",
+        "text": "連絡の行き違いで、二人が別の会場へ向かった。"
+      },
+      {
+        "id": "D",
+        "text": "電車の行き違いを見て乗車券を買った。"
+      }
+    ],
+    "contentFingerprint": "1c06e40bb0c061629952b5bbed150df77131b6e8b907067077261449abc2d44f"
+  },
+  {
+    "id": "N2_11_M7_01",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "文法形式",
+    "stem": "担当者は、資料を送る前に数字に誤りがないか確認（　）。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "したほうがいい"
+      },
+      {
+        "id": "B",
+        "text": "する一方だ"
+      },
+      {
+        "id": "C",
+        "text": "するまでもない"
+      },
+      {
+        "id": "D",
+        "text": "したところだ"
+      }
+    ],
+    "contentFingerprint": "3fbb621066c7e97331b32e8dd97018dfd7edbe8c3a015352dd109eb6dc47be4c"
+  },
+  {
+    "id": "N2_11_M7_02",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "文法形式",
+    "stem": "新しい規則は、全員に説明した（　）適用される。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "ものなら"
+      },
+      {
+        "id": "B",
+        "text": "ところを"
+      },
+      {
+        "id": "C",
+        "text": "うえで"
+      },
+      {
+        "id": "D",
+        "text": "ばかりに"
+      }
+    ],
+    "contentFingerprint": "506249fb5cae4d710a1c8a98bdfef0342979d80598e12e88619b5a41d84b1ab0"
+  },
+  {
+    "id": "N2_11_M7_03",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "文法形式",
+    "stem": "この不具合は、設定を変更しない（　）解決できない。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "ものの"
+      },
+      {
+        "id": "B",
+        "text": "ことには"
+      },
+      {
+        "id": "C",
+        "text": "ばかりか"
+      },
+      {
+        "id": "D",
+        "text": "ところで"
+      }
+    ],
+    "contentFingerprint": "6002297410c500fa76b9643e6f877f4ccd0bb45c73f96de808cf395856f58fcd"
+  },
+  {
+    "id": "N2_11_M7_04",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "文法形式",
+    "stem": "取引先には予定変更を説明した（　）、関係者全員に伝わったかどうか確認できていない。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "だけに"
+      },
+      {
+        "id": "B",
+        "text": "うえで"
+      },
+      {
+        "id": "C",
+        "text": "ために"
+      },
+      {
+        "id": "D",
+        "text": "ものの"
+      }
+    ],
+    "contentFingerprint": "3c6ac9ea763535a41520b0f244259b7ec01ca28b74334ebbfbe11e2f21775d34"
+  },
+  {
+    "id": "N2_11_M7_05",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "文法形式",
+    "stem": "申請書は、必要事項をすべて記入した（　）提出してください。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "につれて"
+      },
+      {
+        "id": "B",
+        "text": "に際して"
+      },
+      {
+        "id": "C",
+        "text": "うえで"
+      },
+      {
+        "id": "D",
+        "text": "どころか"
+      }
+    ],
+    "contentFingerprint": "8151dbba6fd064f50db5e0cd062cf39967034a3ca77d4119d7500d6bf4536878"
+  },
+  {
+    "id": "N2_11_M7_06",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "文法形式",
+    "stem": "予算が限られているからといって、品質を下げてよい（　）。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "にほかならない"
+      },
+      {
+        "id": "B",
+        "text": "ものがある"
+      },
+      {
+        "id": "C",
+        "text": "わけではない"
+      },
+      {
+        "id": "D",
+        "text": "にすぎない"
+      }
+    ],
+    "contentFingerprint": "ba4ad813a2b90f248056c0feb43c0127212d46ea66eaf10b53b42f894840f649"
+  },
+  {
+    "id": "N2_11_M7_07",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "文法形式",
+    "stem": "新しい担当者は、経験が浅い（　）仕事を丁寧に進めている。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "ながらも"
+      },
+      {
+        "id": "B",
+        "text": "に応じて"
+      },
+      {
+        "id": "C",
+        "text": "だけあって"
+      },
+      {
+        "id": "D",
+        "text": "としたら"
+      }
+    ],
+    "contentFingerprint": "bcf856d22a32eb1480c15d50c8495f293cda8463189d9f773a21e22a954a54b7"
+  },
+  {
+    "id": "N2_11_M7_08",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "文法形式",
+    "stem": "会議の議事録を共有する（　）、閲覧権限を確認してください。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "にあたって"
+      },
+      {
+        "id": "B",
+        "text": "に限って"
+      },
+      {
+        "id": "C",
+        "text": "に沿って"
+      },
+      {
+        "id": "D",
+        "text": "に応えて"
+      }
+    ],
+    "contentFingerprint": "445091b85281a49d497d70de9e4bcd9616c7e322bb2cb9ad6693103b480df54e"
+  },
+  {
+    "id": "N2_11_M7_09",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "文法形式",
+    "stem": "説明が分かりにくい（　）、質問が増えている。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "ついでに"
+      },
+      {
+        "id": "B",
+        "text": "ものなら"
+      },
+      {
+        "id": "C",
+        "text": "ばかりか"
+      },
+      {
+        "id": "D",
+        "text": "せいか"
+      }
+    ],
+    "contentFingerprint": "31de1f993b6a682f1997ef46b486bc9a0ddbd8f2fac024d40fc8e66f5037ee01"
+  },
+  {
+    "id": "N2_11_M7_10",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "文法形式",
+    "stem": "担当者は、期限に遅れない（　）毎日進捗を確認した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "ものを"
+      },
+      {
+        "id": "B",
+        "text": "ように"
+      },
+      {
+        "id": "C",
+        "text": "ばかりに"
+      },
+      {
+        "id": "D",
+        "text": "だけに"
+      }
+    ],
+    "contentFingerprint": "96af80ffedb748e773cfe4d3b1a1701bd24ac6decde8278606524434bb6abe15"
+  },
+  {
+    "id": "N2_11_M7_11",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "文法形式",
+    "stem": "一度決めた方針でも、状況に（　）見直す必要がある。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "基づいて"
+      },
+      {
+        "id": "B",
+        "text": "反して"
+      },
+      {
+        "id": "C",
+        "text": "応じて"
+      },
+      {
+        "id": "D",
+        "text": "先立って"
+      }
+    ],
+    "contentFingerprint": "0e53d37ddb28ff621318738d7b6b45863e24cc9dbe7fb071ef4aa377e079272d"
+  },
+  {
+    "id": "N2_11_M7_12",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "文法形式",
+    "stem": "資料の数字の正確さを確認する（　）、出典も明記してください。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "ばかりに"
+      },
+      {
+        "id": "B",
+        "text": "どころか"
+      },
+      {
+        "id": "C",
+        "text": "とともに"
+      },
+      {
+        "id": "D",
+        "text": "に対して"
+      }
+    ],
+    "contentFingerprint": "a949fce7e662548b57d0977f9c78f73ee038e6daea4f1eae7242965d10cef6ea"
+  },
+  {
+    "id": "N2_11_M8_01",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-GR-STAR",
+    "category": "文の組み立て",
+    "stem": "担当者は、★と指示した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "その結果、差があった場合は取引先に確認してから"
+      },
+      {
+        "id": "B",
+        "text": "まず請求書の金額を"
+      },
+      {
+        "id": "C",
+        "text": "注文記録と照合し、"
+      },
+      {
+        "id": "D",
+        "text": "修正案を作る"
+      }
+    ],
+    "contentFingerprint": "b622894c88c2a38d66338792de8406e9f729cbc2c257364bc6f8859c05a0bb0d"
+  },
+  {
+    "id": "N2_11_M8_02",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-GR-STAR",
+    "category": "文の組み立て",
+    "stem": "部長は、★と述べた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "結論を急ぐより"
+      },
+      {
+        "id": "B",
+        "text": "根拠を確かめる"
+      },
+      {
+        "id": "C",
+        "text": "ことのほうが"
+      },
+      {
+        "id": "D",
+        "text": "大切だ"
+      }
+    ],
+    "contentFingerprint": "7ede7bfc581e1346988b7575273c35ec2be78cb08d75e1499b4fec1c17f67942"
+  },
+  {
+    "id": "N2_11_M8_03",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-GR-STAR",
+    "category": "文の組み立て",
+    "stem": "担当者は、★と決めた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "まず請求書の金額を"
+      },
+      {
+        "id": "B",
+        "text": "注文記録と照合し、"
+      },
+      {
+        "id": "C",
+        "text": "差があれば取引先に確認してから"
+      },
+      {
+        "id": "D",
+        "text": "支払いの手続きを進める"
+      }
+    ],
+    "contentFingerprint": "58d64c36a69b088204c3028da6daa96b9e9f1b1a709679713ca5705fc7167e45"
+  },
+  {
+    "id": "N2_11_M8_04",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-GR-STAR",
+    "category": "文の組み立て",
+    "stem": "担当者は、★と判断した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "申請書に記された数字と"
+      },
+      {
+        "id": "B",
+        "text": "原本の数字を"
+      },
+      {
+        "id": "C",
+        "text": "その結果、違いがある項目は申請者に確認する必要がある"
+      },
+      {
+        "id": "D",
+        "text": "項目ごとに照合し、"
+      }
+    ],
+    "contentFingerprint": "78686f5b16e89601fc214d382f9e20dead45091b7f34ab5d406be14c932be242"
+  },
+  {
+    "id": "N2_11_M8_05",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-GR-STAR",
+    "category": "文の組み立て",
+    "stem": "意見が異なる場合も、★必要だ。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "相手の立場を"
+      },
+      {
+        "id": "B",
+        "text": "理解しようとする"
+      },
+      {
+        "id": "C",
+        "text": "姿勢を保つ"
+      },
+      {
+        "id": "D",
+        "text": "ことは"
+      }
+    ],
+    "contentFingerprint": "81fa7d32ae3795c10cdd7517a2b68c0d74c3a6d39d8cb6acaf710c3ad2aea40b"
+  },
+  {
+    "id": "N2_11_M9_01",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-GR-PARA",
+    "category": "文章文法",
+    "stem": "文中の（　）に入る最もよいものを選びなさい。",
+    "contextPassage": "社内連絡は、速さだけでなく、相手が後から確認できる形で残すことも大切だ。口頭で決めた内容を短く記録しておけば、担当者の認識がずれるのを防ぎやすい。ただし、情報を多く書けばよい（　46　）。読む人に必要な点を選び、期限と担当を明確にしたい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "にちがいない"
+      },
+      {
+        "id": "B",
+        "text": "にほかならない"
+      },
+      {
+        "id": "C",
+        "text": "というわけではない"
+      },
+      {
+        "id": "D",
+        "text": "といってもよい"
+      }
+    ],
+    "contentFingerprint": "fd6a3ab8bf83e44c0a63963d8c075b20aad650ad232eb96997f230256a188281"
+  },
+  {
+    "id": "N2_11_M9_02",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-GR-PARA",
+    "category": "文章文法",
+    "stem": "文中の（　）に入る最もよいものを選びなさい。",
+    "contextPassage": "会議で出た意見は、賛成か反対かだけで分類すると、背景にある条件が見えにくくなる。発言の理由を記録する（　）、後で決定の根拠を確認しやすくなる。",
+    "options": [
+      {
+        "id": "A",
+        "text": "ものの"
+      },
+      {
+        "id": "B",
+        "text": "とともに"
+      },
+      {
+        "id": "C",
+        "text": "に反して"
+      },
+      {
+        "id": "D",
+        "text": "に先立って"
+      }
+    ],
+    "contentFingerprint": "36831c90c2ba2e12b4cc8319480ba13068fada71fe5f10213f35364e90325a2b"
+  },
+  {
+    "id": "N2_11_M9_03",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-GR-PARA",
+    "category": "文章文法",
+    "stem": "文中の（　）に入る最もよいものを選びなさい。",
+    "contextPassage": "社内システムの不具合が続いているが、原因はまだ分からない。保存した操作記録を確認し、再現条件を一つずつ調べない（　）解決の手がかりが得られない。",
+    "options": [
+      {
+        "id": "A",
+        "text": "どころか"
+      },
+      {
+        "id": "B",
+        "text": "ことには"
+      },
+      {
+        "id": "C",
+        "text": "ものなら"
+      },
+      {
+        "id": "D",
+        "text": "にすぎず"
+      }
+    ],
+    "contentFingerprint": "0ee444c837e9991f2433bbf1a2f8f6d86050e8617af44d397688bbfc40f40ddd"
+  },
+  {
+    "id": "N2_11_M9_04",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-GR-PARA",
+    "category": "文章文法",
+    "stem": "文中の（　）に入る最もよいものを選びなさい。",
+    "contextPassage": "顧客向けの新しい申込画面を公開する前に、誤入力が起きないか確かめる必要がある。本格運用（　）、数人の社員に試してもらい、分かりにくい表示を直すことにした。",
+    "options": [
+      {
+        "id": "A",
+        "text": "に限って"
+      },
+      {
+        "id": "B",
+        "text": "を通じて"
+      },
+      {
+        "id": "C",
+        "text": "に先立って"
+      },
+      {
+        "id": "D",
+        "text": "に反して"
+      }
+    ],
+    "contentFingerprint": "3d3af90b2a42dff8da7007b521d7f31d6f1223f3f5649390f75c879ed1215929"
+  },
+  {
+    "id": "N2_11_M9_05",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-GR-PARA",
+    "category": "文章文法",
+    "stem": "文中の（　）に入る最もよいものを選びなさい。",
+    "contextPassage": "報告書に載せる数値は、集計した時期や対象者によって意味が変わる。調査条件が前回と異なる（　）、二つの割合だけを並べて単純に比較するべきではない。",
+    "options": [
+      {
+        "id": "A",
+        "text": "につれて"
+      },
+      {
+        "id": "B",
+        "text": "に際して"
+      },
+      {
+        "id": "C",
+        "text": "に先立って"
+      },
+      {
+        "id": "D",
+        "text": "以上"
+      }
+    ],
+    "contentFingerprint": "9f0e3fea4dc3acdd8b09c2cba93327d056a8bbbf39bef4984fa4a44c0a9f5e21"
+  },
+  {
+    "id": "N2_11_M10_01",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-RD-SHORT",
+    "category": "短文読解",
+    "stem": "担当者が版番号を付けるよう求めたのはなぜか。",
+    "contextPassage": "部署で新しい共有フォルダーを使い始めた。ファイル名だけでは内容が分かりにくいため、担当者は作成日と版番号も付けるよう依頼した。",
+    "options": [
+      {
+        "id": "A",
+        "text": "共有を停止するため"
+      },
+      {
+        "id": "B",
+        "text": "作成者を隠すため"
+      },
+      {
+        "id": "C",
+        "text": "保存容量を小さくするため"
+      },
+      {
+        "id": "D",
+        "text": "ファイルの新旧を区別しやすくするため"
+      }
+    ],
+    "contentFingerprint": "fb94900eb9d4649834cd0c7cd98b8402d1a049dcf241f66e8966fdbd342d51e8"
+  },
+  {
+    "id": "N2_11_M10_02",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-RD-SHORT",
+    "category": "短文読解",
+    "stem": "担当者はなぜ先方へ問い合わせたのか。",
+    "contextPassage": "取引先から届いた見積書に不明な項目があった。担当者は金額を推測して入力せず、該当箇所を示して先方へ問い合わせた。",
+    "options": [
+      {
+        "id": "A",
+        "text": "見積書を作り直すため"
+      },
+      {
+        "id": "B",
+        "text": "不明な金額を推測で処理しないため"
+      },
+      {
+        "id": "C",
+        "text": "取引をすぐに断るため"
+      },
+      {
+        "id": "D",
+        "text": "項目をすべて削除するため"
+      }
+    ],
+    "contentFingerprint": "10bdbe6d09f534db61651c2d1b22acbac6713148e302bab23b2dab616a5ceaa9"
+  },
+  {
+    "id": "N2_11_M10_03",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-RD-SHORT",
+    "category": "短文読解",
+    "stem": "公開前に行う作業は何か。",
+    "contextPassage": "社内研修の録画を公開することになった。講師は、参加者の名前が映っている場面を編集で削除してから共有してほしいと依頼した。",
+    "options": [
+      {
+        "id": "A",
+        "text": "名前が映る場面を編集する"
+      },
+      {
+        "id": "B",
+        "text": "講師の説明を削除する"
+      },
+      {
+        "id": "C",
+        "text": "参加者全員に録画を再撮影してもらう"
+      },
+      {
+        "id": "D",
+        "text": "研修をもう一度開催する"
+      }
+    ],
+    "contentFingerprint": "1fc1f36cda9da2e908e68b848f3e16946f67d1eb345c519843a54c178e89b61f"
+  },
+  {
+    "id": "N2_11_M10_04",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-RD-SHORT",
+    "category": "短文読解",
+    "stem": "担当者が訂正版を送ったのはなぜか。",
+    "contextPassage": "会議の出席者が急に増えたため、総務担当者は部屋を変更した。すでに送った案内には旧会場が書かれていたので、訂正した案内をもう一度送った。",
+    "options": [
+      {
+        "id": "A",
+        "text": "参加者が旧会場へ行かないようにするため"
+      },
+      {
+        "id": "B",
+        "text": "出席者を減らすため"
+      },
+      {
+        "id": "C",
+        "text": "会議の内容を変更するため"
+      },
+      {
+        "id": "D",
+        "text": "部屋の予約を取り消すため"
+      }
+    ],
+    "contentFingerprint": "99421216d90621f061443800ed56570b880a0d9378e992190f2c8fb407847379"
+  },
+  {
+    "id": "N2_11_M10_05",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-RD-SHORT",
+    "category": "短文読解",
+    "stem": "予定外の対応時間を記録する目的は何か。",
+    "contextPassage": "担当者は、毎週の報告書に作業時間だけでなく、予定外の対応に使った時間も記録した。翌月、業務量の見積もりにその記録を利用する予定だ。",
+    "options": [
+      {
+        "id": "A",
+        "text": "次月の業務量を見積もるため"
+      },
+      {
+        "id": "B",
+        "text": "勤務時間を短く見せるため"
+      },
+      {
+        "id": "C",
+        "text": "報告書のページ数を増やすため"
+      },
+      {
+        "id": "D",
+        "text": "予定外の仕事をなくしたと示すため"
+      }
+    ],
+    "contentFingerprint": "8efd71d6c632afe02a6af1b2f6f7db17a707fd2a69d9e2e1c3bef7674098806a"
+  },
+  {
+    "id": "N2_11_M11_01",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-RD-MED",
+    "category": "中長文読解",
+    "stem": "この部署が表にまとめている情報はどれか。",
+    "contextPassage": "【引き継ぎの方法】\n担当者が休暇を取るとき、仕事の状況を口頭で伝えるだけでは、細かな条件が抜けることがある。そこで、ある部署では、未完了の作業、次に確認する日、連絡先を一枚の表にまとめることにした。\n表を作っても、更新しなければ情報は古くなる。作業が終わった人がその日のうちに状態を直し、次の担当者が朝に確認する手順も決めた。\nこの方法を始めてから、休暇中の担当者に電話で確認する回数は減った。ただし、例外的な判断が必要な案件は、表だけで済ませず、引き継ぎの時間を設けている。",
+    "options": [
+      {
+        "id": "A",
+        "text": "社員の評価・給与・勤続年数"
+      },
+      {
+        "id": "B",
+        "text": "未完了の作業・確認日・連絡先"
+      },
+      {
+        "id": "C",
+        "text": "休暇の理由・旅行先・帰宅日"
+      },
+      {
+        "id": "D",
+        "text": "会議の全記録・出席者の住所"
+      }
+    ],
+    "contentFingerprint": "3e4b73c2ce96c6037c5709f10d57bdfd69ec09d96728a4ff3facb18c2d41285f"
+  },
+  {
+    "id": "N2_11_M11_02",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-RD-MED",
+    "category": "中長文読解",
+    "stem": "表を作るだけでは十分でないのはなぜか。",
+    "contextPassage": "【引き継ぎの方法】\n担当者が休暇を取るとき、仕事の状況を口頭で伝えるだけでは、細かな条件が抜けることがある。そこで、ある部署では、未完了の作業、次に確認する日、連絡先を一枚の表にまとめることにした。\n表を作っても、更新しなければ情報は古くなる。作業が終わった人がその日のうちに状態を直し、次の担当者が朝に確認する手順も決めた。\nこの方法を始めてから、休暇中の担当者に電話で確認する回数は減った。ただし、例外的な判断が必要な案件は、表だけで済ませず、引き継ぎの時間を設けている。",
+    "options": [
+      {
+        "id": "A",
+        "text": "更新しないと情報が古くなるから"
+      },
+      {
+        "id": "B",
+        "text": "表には連絡先を書けないから"
+      },
+      {
+        "id": "C",
+        "text": "全員が同じ仕事をするから"
+      },
+      {
+        "id": "D",
+        "text": "朝に確認する時間がないから"
+      }
+    ],
+    "contentFingerprint": "41f8f2990dc858e9d19d079910f5516d5a4f3dcd513318b3e1bb5c42fd35bf1e"
+  },
+  {
+    "id": "N2_11_M11_03",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-RD-MED",
+    "category": "中長文読解",
+    "stem": "例外的な判断が必要な案件はどうするか。",
+    "contextPassage": "【引き継ぎの方法】\n担当者が休暇を取るとき、仕事の状況を口頭で伝えるだけでは、細かな条件が抜けることがある。そこで、ある部署では、未完了の作業、次に確認する日、連絡先を一枚の表にまとめることにした。\n表を作っても、更新しなければ情報は古くなる。作業が終わった人がその日のうちに状態を直し、次の担当者が朝に確認する手順も決めた。\nこの方法を始めてから、休暇中の担当者に電話で確認する回数は減った。ただし、例外的な判断が必要な案件は、表だけで済ませず、引き継ぎの時間を設けている。",
+    "options": [
+      {
+        "id": "A",
+        "text": "表から削除する"
+      },
+      {
+        "id": "B",
+        "text": "担当者が戻るまで放置する"
+      },
+      {
+        "id": "C",
+        "text": "別部署にすべて任せる"
+      },
+      {
+        "id": "D",
+        "text": "表に加えて口頭の引き継ぎも行う"
+      }
+    ],
+    "contentFingerprint": "991327f58096665690ec82e4bf9c438c323b8e826f83164123ffef1baea5c4de"
+  },
+  {
+    "id": "N2_11_M11_04",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-RD-MED",
+    "category": "中長文読解",
+    "stem": "会議で前提の確認に時間がかかる原因は何か。",
+    "contextPassage": "【短い会議の準備】\n会議を短くするために、開始時刻だけを厳守しても、議論がまとまるとは限らない。参加者が資料を読まずに集まると、前提の確認に時間を使い、決めるべき点に進めないからだ。\nあるチームは、会議の前日までに資料を共有し、各自が疑問点を一つ書いておく方法を試した。会議では説明を繰り返さず、質問と選択肢の比較から始める。\nこれにより会議時間は平均して短くなったが、準備に時間をかけすぎる人もいた。そのため、資料は結論と判断材料を中心に二ページ以内とし、詳細は必要な人だけが参照する別紙に分けた。",
+    "options": [
+      {
+        "id": "A",
+        "text": "参加者が事前に資料を読んでいないこと"
+      },
+      {
+        "id": "B",
+        "text": "開始時刻を守っていること"
+      },
+      {
+        "id": "C",
+        "text": "疑問点を一つ書くこと"
+      },
+      {
+        "id": "D",
+        "text": "資料が二ページ以内であること"
+      }
+    ],
+    "contentFingerprint": "2fbfb21e9c91e30eaf462e8709126616ef41ad9cb70d4ef4cc7254dd57c5abd5"
+  },
+  {
+    "id": "N2_11_M11_05",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-RD-MED",
+    "category": "中長文読解",
+    "stem": "チームが会議前に参加者へ求めたことは何か。",
+    "contextPassage": "【短い会議の準備】\n会議を短くするために、開始時刻だけを厳守しても、議論がまとまるとは限らない。参加者が資料を読まずに集まると、前提の確認に時間を使い、決めるべき点に進めないからだ。\nあるチームは、会議の前日までに資料を共有し、各自が疑問点を一つ書いておく方法を試した。会議では説明を繰り返さず、質問と選択肢の比較から始める。\nこれにより会議時間は平均して短くなったが、準備に時間をかけすぎる人もいた。そのため、資料は結論と判断材料を中心に二ページ以内とし、詳細は必要な人だけが参照する別紙に分けた。",
+    "options": [
+      {
+        "id": "A",
+        "text": "詳細な別紙を全員で作る"
+      },
+      {
+        "id": "B",
+        "text": "会議時間を各自で延長する"
+      },
+      {
+        "id": "C",
+        "text": "資料を読み、疑問点を一つ用意する"
+      },
+      {
+        "id": "D",
+        "text": "結論を決めてから会議に出る"
+      }
+    ],
+    "contentFingerprint": "df3405afc82eca8990b2d188b090ac9d77b9166a10f5bf8fa0c87648242942bb"
+  },
+  {
+    "id": "N2_11_M11_06",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-RD-MED",
+    "category": "中長文読解",
+    "stem": "資料を二ページ以内にした理由は何か。",
+    "contextPassage": "【短い会議の準備】\n会議を短くするために、開始時刻だけを厳守しても、議論がまとまるとは限らない。参加者が資料を読まずに集まると、前提の確認に時間を使い、決めるべき点に進めないからだ。\nあるチームは、会議の前日までに資料を共有し、各自が疑問点を一つ書いておく方法を試した。会議では説明を繰り返さず、質問と選択肢の比較から始める。\nこれにより会議時間は平均して短くなったが、準備に時間をかけすぎる人もいた。そのため、資料は結論と判断材料を中心に二ページ以内とし、詳細は必要な人だけが参照する別紙に分けた。",
+    "options": [
+      {
+        "id": "A",
+        "text": "判断材料を隠すため"
+      },
+      {
+        "id": "B",
+        "text": "会議の回数を増やすため"
+      },
+      {
+        "id": "C",
+        "text": "質問を禁止するため"
+      },
+      {
+        "id": "D",
+        "text": "準備にかける負担を抑えるため"
+      }
+    ],
+    "contentFingerprint": "ec39c0760398f47f555296bcf9ed8fe7ebd1a7c4c1e3f31de4c1c05bd129ad99"
+  },
+  {
+    "id": "N2_11_M11_07",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-RD-MED",
+    "category": "中長文読解",
+    "stem": "小さな失敗が隠されやすいのはどんな職場か。",
+    "contextPassage": "【相談しやすい職場】\n仕事上の失敗を早く共有すれば、問題が大きくなる前に対応できる。しかし、報告した人が責められると感じる職場では、小さな失敗ほど隠されやすい。\nある会社では、報告を受けた上司が、まず事実と影響範囲を確認し、個人の評価とは分けて再発防止を話し合うようにした。報告した人にも、原因を振り返る作業に参加してもらう。\nこの仕組みは、責任をなくすためのものではない。意図的な違反と、手順や情報が不足して起きた失敗を区別し、改善できる点を組織で直すことを目的としている。",
+    "options": [
+      {
+        "id": "A",
+        "text": "失敗の影響範囲を記録する職場"
+      },
+      {
+        "id": "B",
+        "text": "報告した人が責められると感じる職場"
+      },
+      {
+        "id": "C",
+        "text": "報告を受けて事実を確かめる職場"
+      },
+      {
+        "id": "D",
+        "text": "上司が再発防止を話し合う職場"
+      }
+    ],
+    "contentFingerprint": "67eb677a4bdd9ff47f03197a9a5431fb39b31eeaf6c2c61ed6b37fc52498a9bd"
+  },
+  {
+    "id": "N2_11_M11_08",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-RD-MED",
+    "category": "中長文読解",
+    "stem": "会社が報告後にまず確認するのは何か。",
+    "contextPassage": "【相談しやすい職場】\n仕事上の失敗を早く共有すれば、問題が大きくなる前に対応できる。しかし、報告した人が責められると感じる職場では、小さな失敗ほど隠されやすい。\nある会社では、報告を受けた上司が、まず事実と影響範囲を確認し、個人の評価とは分けて再発防止を話し合うようにした。報告した人にも、原因を振り返る作業に参加してもらう。\nこの仕組みは、責任をなくすためのものではない。意図的な違反と、手順や情報が不足して起きた失敗を区別し、改善できる点を組織で直すことを目的としている。",
+    "options": [
+      {
+        "id": "A",
+        "text": "次の会議の日程"
+      },
+      {
+        "id": "B",
+        "text": "他社での処分例"
+      },
+      {
+        "id": "C",
+        "text": "報告した人の昇進希望"
+      },
+      {
+        "id": "D",
+        "text": "事実と影響の範囲"
+      }
+    ],
+    "contentFingerprint": "93bbeb1ef47feeb511ea3cf05f1aed49a4bbc56e67a7b1764bb8506f36edbd25"
+  },
+  {
+    "id": "N2_11_M11_09",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-RD-MED",
+    "category": "中長文読解",
+    "stem": "この仕組みの目的は何か。",
+    "contextPassage": "【相談しやすい職場】\n仕事上の失敗を早く共有すれば、問題が大きくなる前に対応できる。しかし、報告した人が責められると感じる職場では、小さな失敗ほど隠されやすい。\nある会社では、報告を受けた上司が、まず事実と影響範囲を確認し、個人の評価とは分けて再発防止を話し合うようにした。報告した人にも、原因を振り返る作業に参加してもらう。\nこの仕組みは、責任をなくすためのものではない。意図的な違反と、手順や情報が不足して起きた失敗を区別し、改善できる点を組織で直すことを目的としている。",
+    "options": [
+      {
+        "id": "A",
+        "text": "誰にも責任を問わないこと"
+      },
+      {
+        "id": "B",
+        "text": "報告者だけに再発防止を任せること"
+      },
+      {
+        "id": "C",
+        "text": "失敗の原因を区別し、改善可能な点を直すこと"
+      },
+      {
+        "id": "D",
+        "text": "すべての失敗を意図的な違反とすること"
+      }
+    ],
+    "contentFingerprint": "6db3b4ebbf7a99fe2f43c0a800a40d9c07617e7fb67a550485085e23027d6b22"
+  },
+  {
+    "id": "N2_11_M12_01",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-RD-PAIR",
+    "category": "統合理解",
+    "stem": "木村さんの希望に最も合うコースはどれか。",
+    "contextPassage": "【社内研修の案内】\nAコース：火曜 18:00–19:30。新人向け。対面。申込締切は前週金曜。\nBコース：木曜 12:00–13:00。全社員向け。オンライン。申込締切は前日正午。\nCコース：金曜 17:30–19:00。管理職向け。対面。申込締切は水曜。\n\n【受講者の希望】\n木村さんは新人で、昼休みにオンラインで受けたい。佐藤さんは管理職で、木曜の昼は別の会議がある。",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bコース"
+      },
+      {
+        "id": "B",
+        "text": "Cコース"
+      },
+      {
+        "id": "C",
+        "text": "どのコースも合う"
+      },
+      {
+        "id": "D",
+        "text": "Aコース"
+      }
+    ],
+    "contentFingerprint": "54462237dcc46a914996ed2ca55b491b8aa71ca3a78132c2b1da6b0036aa1696"
+  },
+  {
+    "id": "N2_11_M12_02",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-RD-PAIR",
+    "category": "統合理解",
+    "stem": "佐藤さんが参加できる可能性のあるコースはどれか。",
+    "contextPassage": "【社内研修の案内】\nAコース：火曜 18:00–19:30。新人向け。対面。申込締切は前週金曜。\nBコース：木曜 12:00–13:00。全社員向け。オンライン。申込締切は前日正午。\nCコース：金曜 17:30–19:00。管理職向け。対面。申込締切は水曜。\n\n【受講者の希望】\n木村さんは新人で、昼休みにオンラインで受けたい。佐藤さんは管理職で、木曜の昼は別の会議がある。",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bコースだけ"
+      },
+      {
+        "id": "B",
+        "text": "Aコースだけ"
+      },
+      {
+        "id": "C",
+        "text": "BとCの両方"
+      },
+      {
+        "id": "D",
+        "text": "Cコースだけ"
+      }
+    ],
+    "contentFingerprint": "cd0a1c1768657873f0c861dcdc5d07e5856d43a3cd10f0ae1787947078efd9bf"
+  },
+  {
+    "id": "N2_11_M13_01",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-RD-LONG",
+    "category": "長文読解",
+    "stem": "筆者が、作業時間だけを基準にできないと考える理由は何か。",
+    "contextPassage": "【業務改善の進め方】\n業務を改善しようとするとき、現場で時間がかかっている作業をすべて機械に置き換えればよい、と考えられることがある。しかし、作業時間だけを基準にすると、例外への対応や利用者への説明など、数字に表れにくい仕事が抜け落ちる。\nある企業では、まず一週間、作業の種類と発生する条件を記録した。次に、繰り返しが多く、判断基準が明確な仕事から自動化を試した。担当者は、例外が起きた場合に誰が確認するかを決め、利用者にも変更点を説明した。\n試験運用の結果、入力作業は減った一方、確認に時間がかかるケースも見つかった。企業は自動化の対象を広げる前に、そのケースがどの条件で生じるかを整理した。改善は、導入した技術の数ではなく、仕事全体が安全で分かりやすくなったかで判断する必要がある。",
+    "options": [
+      {
+        "id": "A",
+        "text": "記録を取ると改善が遅れるから"
+      },
+      {
+        "id": "B",
+        "text": "時間に表れにくい仕事や例外対応があるから"
+      },
+      {
+        "id": "C",
+        "text": "機械は繰り返し作業を処理できないから"
+      },
+      {
+        "id": "D",
+        "text": "利用者への説明は不要だから"
+      }
+    ],
+    "contentFingerprint": "6a7025b3e0359cf22becc8ded41f6cc0f1a54dd7446fdbe3f3f6f5cb0bbedf3a"
+  },
+  {
+    "id": "N2_11_M13_02",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-RD-LONG",
+    "category": "長文読解",
+    "stem": "回答数が多くても結果に注意が必要なのはなぜか。",
+    "contextPassage": "【意見を集める意味】\n新しい制度を作る際、利用者へのアンケートは広く意見を集める手段として便利である。ただし、回答数が多いからといって、結果がそのまま全利用者の考えを表すとは限らない。回答する人としない人では、制度への関心や利用経験が異なる可能性があるからだ。\n市の担当者は、アンケートの結果を読むとき、回答者の年齢や利用頻度を確認し、回答しなかった人にも短い聞き取りを行った。さらに、自由記述に書かれた具体例を分類し、数字だけでは見えない困りごとを調べた。\nこのような調査には時間がかかる。だからといって、数字を捨てる必要はない。数字で傾向をつかみ、別の方法でその理由を確かめることで、制度のどこを直すべきかをより適切に判断できる。",
+    "options": [
+      {
+        "id": "A",
+        "text": "アンケートでは数字を計算できないから"
+      },
+      {
+        "id": "B",
+        "text": "利用頻度は制度と関係がないから"
+      },
+      {
+        "id": "C",
+        "text": "回答者と非回答者で関心や経験が異なる場合があるから"
+      },
+      {
+        "id": "D",
+        "text": "自由記述には具体例が含まれないから"
+      }
+    ],
+    "contentFingerprint": "a82506fe2a82b618ff02ce338baf09b6452aad2425af9207dcf770804ac74f9a"
+  },
+  {
+    "id": "N2_11_M13_03",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-RD-LONG",
+    "category": "長文読解",
+    "stem": "筆者が専門用語をすべて置き換える方法に注意を促すのはなぜか。",
+    "contextPassage": "【専門知識を伝える】\n専門家が持つ知識を社会に伝えるには、正確さを保ちながら、受け手が理解できる形にする工夫がいる。用語をすべて簡単な言葉に置き換えるだけでは、重要な区別まで失われることがある。\n博物館の解説チームは、専門用語を残す場合、短い説明と具体例をすぐ近くに置くようにした。また、来館者がどこで立ち止まり、どの説明を読み直すかを観察し、文章の順番や図の位置を調整した。\n伝え方を変えることは、内容を薄めることではない。何を理解してほしいのかを先に決め、必要な情報へ段階的に導くことである。受け手の反応を確かめながら説明を直す作業は、公開後も続ける必要がある。",
+    "options": [
+      {
+        "id": "A",
+        "text": "専門家の知識を公開できなくなるから"
+      },
+      {
+        "id": "B",
+        "text": "重要な意味の区別が失われることがあるから"
+      },
+      {
+        "id": "C",
+        "text": "来館者は図を読むことができないから"
+      },
+      {
+        "id": "D",
+        "text": "文章の順番を調整できなくなるから"
+      }
+    ],
+    "contentFingerprint": "5cd94d40a7203d95b87252ae41f799f0750db1a0ff60dda59ffa688da0fd8471"
+  },
+  {
+    "id": "N2_11_M14_01",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-RD-INFO",
+    "category": "情報検索",
+    "stem": "参加を希望する人が申込メールを送る期限はいつか。",
+    "contextPassage": "【社外向け説明会・会場案内】\n日時：6月18日（木） 18:30–20:00（受付18:00から）\n会場：東館4階 会議室A。受付は東館1階。西館からは連絡通路を利用。\n対象：取引先・協力会社。事前申込制、定員40名。\n申込：6月12日（金）17:00までに社内窓口へメール。申込後、参加可否を6月15日（月）までに返信。\n資料：当日配布。オンライン配信なし。遅れて到着する場合は、受付に電話すること。",
+    "options": [
+      {
+        "id": "A",
+        "text": "6月15日（月）まで"
+      },
+      {
+        "id": "B",
+        "text": "6月12日（金）17時"
+      },
+      {
+        "id": "C",
+        "text": "6月18日（木）18時"
+      },
+      {
+        "id": "D",
+        "text": "6月18日（木）18時30分"
+      }
+    ],
+    "contentFingerprint": "a89435e99df9db808182c5328090bdcf7cc713178814b7ac9e56befce23e685f"
+  },
+  {
+    "id": "N2_11_M14_02",
+    "examId": "N2-MOCK-11",
+    "section": 1,
+    "typeId": "N2-RD-INFO",
+    "category": "情報検索",
+    "stem": "西館から会場へ行く人は、どのように移動するか。",
+    "contextPassage": "【社外向け説明会・会場案内】\n日時：6月18日（木） 18:30–20:00（受付18:00から）\n会場：東館4階 会議室A。受付は東館1階。西館からは連絡通路を利用。\n対象：取引先・協力会社。事前申込制、定員40名。\n申込：6月12日（金）17:00までに社内窓口へメール。申込後、参加可否を6月15日（月）までに返信。\n資料：当日配布。オンライン配信なし。遅れて到着する場合は、受付に電話すること。",
+    "options": [
+      {
+        "id": "A",
+        "text": "東館4階で直接受付をする"
+      },
+      {
+        "id": "B",
+        "text": "オンライン配信に接続する"
+      },
+      {
+        "id": "C",
+        "text": "東館1階の受付から階段だけを使う"
+      },
+      {
+        "id": "D",
+        "text": "西館から連絡通路で東館へ行く"
+      }
+    ],
+    "contentFingerprint": "5846f25dc54ab59b1fd566cf56c0df3ea91c4db7c1579cfebd0ca73282e667f5"
+  },
+  {
+    "id": "N2_11_M1_L01",
+    "examId": "N2-MOCK-11",
+    "section": 2,
+    "typeId": "N2-LIS-TASK",
+    "category": "課題理解",
+    "stem": "社員はまず何をしますか。",
+    "contextPassage": "会社で、社員と課長が取引先への納品について話しています。\n女：先方から、資料を一日早く届けてほしいと連絡がありました。\n男：分かりました。まず在庫と印刷の残りを確認してください。全部そろわない場合は、分けて送ってよいか先方に聞きましょう。\n女：確認してから、今日中に返事をします。",
+    "options": [
+      {
+        "id": "A",
+        "text": "課長に納品を断るよう伝える"
+      },
+      {
+        "id": "B",
+        "text": "先方に新しい見積書を依頼する"
+      },
+      {
+        "id": "C",
+        "text": "資料をすぐ一括で発送する"
+      },
+      {
+        "id": "D",
+        "text": "在庫と印刷の状況を確認する"
+      }
+    ],
+    "contentFingerprint": "262efb287904947bf4d6db795d9dcf717f947929e7ec710653e52cd77ffc553f"
+  },
+  {
+    "id": "N2_11_M1_L02",
+    "examId": "N2-MOCK-11",
+    "section": 2,
+    "typeId": "N2-LIS-TASK",
+    "category": "課題理解",
+    "stem": "男性はまず何を準備しますか。",
+    "contextPassage": "営業部で、二人の社員が訪問準備について話しています。\n男：明日の訪問先には、新しい製品の資料を持っていきますか。\n女：はい。ただ、先方はまだ仕様を知らないので、価格表を先に見せるより、使い方を説明する資料から準備してください。\n男：分かりました。説明の順番も確認します。",
+    "options": [
+      {
+        "id": "A",
+        "text": "先方に渡す契約書"
+      },
+      {
+        "id": "B",
+        "text": "訪問日を変更する連絡"
+      },
+      {
+        "id": "C",
+        "text": "製品の使い方を説明する資料"
+      },
+      {
+        "id": "D",
+        "text": "値下げを決めるための表"
+      }
+    ],
+    "contentFingerprint": "ec6005ddb39438e0e71284ce0d2ce87564d3bd81cd4de85b4a4470a804f773ef"
+  },
+  {
+    "id": "N2_11_M1_L03",
+    "examId": "N2-MOCK-11",
+    "section": 2,
+    "typeId": "N2-LIS-TASK",
+    "category": "課題理解",
+    "stem": "女性はこの後どうしますか。",
+    "contextPassage": "会社の人事担当者と社員が研修の申込みについて話しています。\n女：来月の研修に参加したいのですが、申込書の所属欄を間違えました。\n男：締切は明日ですから、今の申込みを取り消して出し直す必要はありません。訂正した欄が分かるようにして、私にメールで送ってください。\n女：分かりました。今日中に送ります。",
+    "options": [
+      {
+        "id": "A",
+        "text": "締切後に人事部へ電話する"
+      },
+      {
+        "id": "B",
+        "text": "訂正した申込書を担当者にメールする"
+      },
+      {
+        "id": "C",
+        "text": "申込みを取り消して来月に延期する"
+      },
+      {
+        "id": "D",
+        "text": "上司に研修参加を断ってもらう"
+      }
+    ],
+    "contentFingerprint": "0253281f65778231a38fbc72947d2eefe3f494aa43c183d8abd18744ea2eca67"
+  },
+  {
+    "id": "N2_11_M1_L04",
+    "examId": "N2-MOCK-11",
+    "section": 2,
+    "typeId": "N2-LIS-TASK",
+    "category": "課題理解",
+    "stem": "男性はまず何をしますか。",
+    "contextPassage": "職場で、社員と上司が会議の準備について話しています。\n男：会議室の予約はできましたが、オンライン参加者には招待が届いていないようです。\n女：資料の修正より先に、参加者一覧と招待先のアドレスを照らし合わせてください。送信後、届かなかった人がいないか確認しましょう。\n男：はい、一覧から確認します。",
+    "options": [
+      {
+        "id": "A",
+        "text": "会議室の予約を取り消す"
+      },
+      {
+        "id": "B",
+        "text": "参加者一覧と招待先のアドレスを確認する"
+      },
+      {
+        "id": "C",
+        "text": "資料を印刷して全員に郵送する"
+      },
+      {
+        "id": "D",
+        "text": "オンライン会議を中止する"
+      }
+    ],
+    "contentFingerprint": "4ee581d98d3fbdcaf003a08e2915d9a6c38bcc7e4af6fc4a2fd8fea2e872191c"
+  },
+  {
+    "id": "N2_11_M1_L05",
+    "examId": "N2-MOCK-11",
+    "section": 2,
+    "typeId": "N2-LIS-TASK",
+    "category": "課題理解",
+    "stem": "女性はまず何をしますか。",
+    "contextPassage": "会社で、担当者と先輩が出張後の精算について話しています。\n女：出張の交通費を精算したいのですが、領収書を一枚なくしました。\n男：まず経路と支払額を出張記録で確認し、領収書がない理由を申請欄に書いてください。金額を記憶だけで入力しないでください。\n女：記録を見てから申請します。",
+    "options": [
+      {
+        "id": "A",
+        "text": "出張そのものを取り消す"
+      },
+      {
+        "id": "B",
+        "text": "同僚に領収書を借りる"
+      },
+      {
+        "id": "C",
+        "text": "出張記録で経路と金額を確かめる"
+      },
+      {
+        "id": "D",
+        "text": "概算の金額で精算を申請する"
+      }
+    ],
+    "contentFingerprint": "6017c7d6e2e94b24476c34bcf27bc889abe70ca7712dac5590c73716253d781e"
+  },
+  {
+    "id": "N2_11_M2_L01",
+    "examId": "N2-MOCK-11",
+    "section": 2,
+    "typeId": "N2-LIS-POINT",
+    "category": "ポイント理解",
+    "stem": "研修の参加者が多い場合、どのように決まりますか。",
+    "contextPassage": "社内放送で、研修の申込み方法について説明しています。\n女：新しい顧客対応研修は、来月から水曜と金曜に行います。各回の定員は二十名で、申込者が多い場合は抽選です。希望する人は今週の金曜までに社内フォームへ入力してください。結果は来週月曜にメールで知らせます。",
+    "options": [
+      {
+        "id": "A",
+        "text": "二回とも全員が参加する"
+      },
+      {
+        "id": "B",
+        "text": "抽選で参加者を決める"
+      },
+      {
+        "id": "C",
+        "text": "上司の推薦だけで決める"
+      },
+      {
+        "id": "D",
+        "text": "申込順に定員まで受け付ける"
+      }
+    ],
+    "contentFingerprint": "92dbd3f3f37a7fd7f412a59443571fc1517657b8ace27c57c0a59045200ef2a6"
+  },
+  {
+    "id": "N2_11_M2_L02",
+    "examId": "N2-MOCK-11",
+    "section": 2,
+    "typeId": "N2-LIS-POINT",
+    "category": "ポイント理解",
+    "stem": "外出先から直帰する人は、いつ退勤を入力しますか。",
+    "contextPassage": "会社で、社員が新しい勤怠システムの使い方を説明しています。\n男：勤怠システムが来週切り替わります。出勤時は入口の端末で打刻してください。外出先から直帰する人は、帰宅後ではなく、退勤時にスマートフォンから入力します。打刻を忘れた場合は、翌営業日の午前中までに上司へ修正を申請してください。",
+    "options": [
+      {
+        "id": "A",
+        "text": "帰宅した翌朝"
+      },
+      {
+        "id": "B",
+        "text": "週末にまとめて入力する"
+      },
+      {
+        "id": "C",
+        "text": "直帰する日の退勤時"
+      },
+      {
+        "id": "D",
+        "text": "翌営業日に上司が入力する"
+      }
+    ],
+    "contentFingerprint": "6b0b8f72251d47375feb94b95761519961a2317e9744559721c1c46341b8ba85"
+  },
+  {
+    "id": "N2_11_M2_L03",
+    "examId": "N2-MOCK-11",
+    "section": 2,
+    "typeId": "N2-LIS-POINT",
+    "category": "ポイント理解",
+    "stem": "金曜までに数字が確認できない場合、どうしますか。",
+    "contextPassage": "職場で、上司と社員が報告書の提出について話しています。\n女：報告書は金曜の夕方までに提出してください。数字の根拠がまだ確認できない場合は、空欄にせず、確認中と書いてその項目の担当者を記してください。月曜の会議前に確定版へ差し替えれば大丈夫です。",
+    "options": [
+      {
+        "id": "A",
+        "text": "確認中と担当者を記して提出する"
+      },
+      {
+        "id": "B",
+        "text": "空欄にして提出する"
+      },
+      {
+        "id": "C",
+        "text": "提出を月曜まで延期する"
+      },
+      {
+        "id": "D",
+        "text": "数字を予想して記入する"
+      }
+    ],
+    "contentFingerprint": "7ff703bcb7e2b752c96744b2018ad28a0440898252069f65af7f64bcba0f0191"
+  },
+  {
+    "id": "N2_11_M2_L04",
+    "examId": "N2-MOCK-11",
+    "section": 2,
+    "typeId": "N2-LIS-POINT",
+    "category": "ポイント理解",
+    "stem": "判断できない資料はどうしますか。",
+    "contextPassage": "社内連絡で、共有フォルダーの整理について話しています。\n男：共有フォルダーの古い資料を整理します。削除するのは、同じ内容の複製で、かつ保存期限を過ぎたものだけです。判断できない資料は消さずに、今週中に一覧へ記入してください。来週、各部署に確認してから処理します。",
+    "options": [
+      {
+        "id": "A",
+        "text": "保存期限を変更して公開する"
+      },
+      {
+        "id": "B",
+        "text": "一覧に記入して残す"
+      },
+      {
+        "id": "C",
+        "text": "個人のフォルダーへ移す"
+      },
+      {
+        "id": "D",
+        "text": "今週中に削除する"
+      }
+    ],
+    "contentFingerprint": "fe8fc7337e00fb0e76b51f0629f6d74a5ad1fa40fec565434e9a8c9db4507d97"
+  },
+  {
+    "id": "N2_11_M2_L05",
+    "examId": "N2-MOCK-11",
+    "section": 2,
+    "typeId": "N2-LIS-POINT",
+    "category": "ポイント理解",
+    "stem": "宿泊を伴う出張で必要な手続きは何ですか。",
+    "contextPassage": "会社で、担当者が出張精算の新しいルールを説明しています。\n女：宿泊を伴う出張では、予約前に上司の承認を受けてください。急な予定変更で先に予約した場合は、翌営業日までに理由と予約内容を申請します。交通費だけの出張には、この事前承認は必要ありません。",
+    "options": [
+      {
+        "id": "A",
+        "text": "宿泊後に予約先を変更する"
+      },
+      {
+        "id": "B",
+        "text": "理由にかかわらず予約を禁止する"
+      },
+      {
+        "id": "C",
+        "text": "原則として予約前に上司の承認を受ける"
+      },
+      {
+        "id": "D",
+        "text": "すべての交通費を翌週に申請する"
+      }
+    ],
+    "contentFingerprint": "6ccd6c31da64a2bdec38fe577760f2a343e26a19bbff419347c783dd25e22a03"
+  },
+  {
+    "id": "N2_11_M2_L06",
+    "examId": "N2-MOCK-11",
+    "section": 2,
+    "typeId": "N2-LIS-POINT",
+    "category": "ポイント理解",
+    "stem": "点検の日に端末をどうしますか。",
+    "contextPassage": "社内放送で、情報セキュリティの点検について説明しています。\n男：今週から、社外で会社の資料を扱う端末の点検を行います。対象者には個別に日時を連絡します。点検当日は、端末を初期化せず、通常どおりの状態で持参してください。個人の写真やデータを会社の共有先へ移す必要はありません。",
+    "options": [
+      {
+        "id": "A",
+        "text": "通常の状態で持参する"
+      },
+      {
+        "id": "B",
+        "text": "初期化してから持参する"
+      },
+      {
+        "id": "C",
+        "text": "連絡がなくても全員が同時に来る"
+      },
+      {
+        "id": "D",
+        "text": "個人データを共有先へ移す"
+      }
+    ],
+    "contentFingerprint": "c77c86846afb272fc52e8660265de5e53ee0b4d92b8775ec715496ce6be43cf5"
+  },
+  {
+    "id": "N2_11_M3_L01",
+    "examId": "N2-MOCK-11",
+    "section": 2,
+    "typeId": "N2-LIS-SUMM",
+    "category": "概要理解",
+    "stem": "話し手が最も伝えたいことは何ですか。",
+    "contextPassage": "会社の研修担当者が、社内研修の振り返りについて話しています。\n社員研修では、受講直後に満足度を聞くだけでなく、実際の仕事で何を試したかを後から確認することが大切です。研修の評価を一つの数字だけで決めず、職場での行動や相談の変化も見て、次回の内容を調整したいと思います。",
+    "options": [
+      {
+        "id": "A",
+        "text": "研修を毎回同じ内容にする"
+      },
+      {
+        "id": "B",
+        "text": "研修の満足度調査をなくす"
+      },
+      {
+        "id": "C",
+        "text": "研修後の仕事での変化も評価に含める"
+      },
+      {
+        "id": "D",
+        "text": "受講者の人数だけで成果を決める"
+      }
+    ],
+    "contentFingerprint": "ecd179deb2a151a90a0590063b945615efe7ba165497f1ff011d593788751b8d"
+  },
+  {
+    "id": "N2_11_M3_L02",
+    "examId": "N2-MOCK-11",
+    "section": 2,
+    "typeId": "N2-LIS-SUMM",
+    "category": "概要理解",
+    "stem": "話し手は要望の記録についてどう考えていますか。",
+    "contextPassage": "営業部の社員が、顧客から届く要望の共有について話しています。\n顧客からの要望は、担当者一人が記憶しているだけでは、部署全体の対応に生かせません。個人情報を必要以上に共有しないよう注意しながら、要望の内容と対応状況を共通の記録に残すべきです。記録を定期的に見直せば、同じ問い合わせへの説明もそろえやすくなります。",
+    "options": [
+      {
+        "id": "A",
+        "text": "内容と対応状況を共有可能な形で残すべきだ"
+      },
+      {
+        "id": "B",
+        "text": "個人情報を含めすべて全社員に公開すべきだ"
+      },
+      {
+        "id": "C",
+        "text": "担当者の記憶に任せるべきだ"
+      },
+      {
+        "id": "D",
+        "text": "同じ問い合わせにも毎回別の説明をすべきだ"
+      }
+    ],
+    "contentFingerprint": "bb86ad35346a7978acc7ffc7d16d3c1089a24faac1acadbba58742a12165ff91"
+  },
+  {
+    "id": "N2_11_M3_L03",
+    "examId": "N2-MOCK-11",
+    "section": 2,
+    "typeId": "N2-LIS-SUMM",
+    "category": "概要理解",
+    "stem": "話し手は引き継ぎで何を重視していますか。",
+    "contextPassage": "職場の管理職が、業務の引き継ぎについて話しています。\n引き継ぎを文書にすれば、それだけで十分だと思われがちです。しかし、手順書には通常の流れしか書かれていないことがあります。例外が起きたときの判断先や、まだ確定していない点も伝えておけば、後任者が誤った前提で作業を進めるのを防げます。",
+    "options": [
+      {
+        "id": "A",
+        "text": "例外や未確定事項も伝えること"
+      },
+      {
+        "id": "B",
+        "text": "確定した内容だけを共有すること"
+      },
+      {
+        "id": "C",
+        "text": "後任者にすべての判断を任せること"
+      },
+      {
+        "id": "D",
+        "text": "手順書を作らず口頭だけで済ませること"
+      }
+    ],
+    "contentFingerprint": "e47cf2249f844d521dc50ab45aa4f0ac0b0d1729518d5a83ab47ee2f17780279"
+  },
+  {
+    "id": "N2_11_M3_L04",
+    "examId": "N2-MOCK-11",
+    "section": 2,
+    "typeId": "N2-LIS-SUMM",
+    "category": "概要理解",
+    "stem": "話し手が勧めていることは何ですか。",
+    "contextPassage": "会社の広報担当者が、社外向け文書の表現について話しています。\n専門用語を減らすことは大事ですが、内容を簡単にしすぎると、条件の違いが正確に伝わらない場合があります。用語を残すときは短い説明を加え、読み手が自分に関係する条件を見つけられるよう見出しや例を工夫するのがよいでしょう。",
+    "options": [
+      {
+        "id": "A",
+        "text": "読み手に用語を自分で調べてもらう"
+      },
+      {
+        "id": "B",
+        "text": "条件の違いをなくして文章を短くする"
+      },
+      {
+        "id": "C",
+        "text": "社外向け文書では具体例を避ける"
+      },
+      {
+        "id": "D",
+        "text": "専門用語の説明と見出し・例を組み合わせる"
+      }
+    ],
+    "contentFingerprint": "f28f62a0bb9e818f5f6b252be09945adacec51ece1919cb9263c44a406b2104c"
+  },
+  {
+    "id": "N2_11_M3_L05",
+    "examId": "N2-MOCK-11",
+    "section": 2,
+    "typeId": "N2-LIS-SUMM",
+    "category": "概要理解",
+    "stem": "話し手はどうすればよいと考えていますか。",
+    "contextPassage": "社員が、会議で発言を増やす方法について話しています。\n会議で全員に順番に意見を聞けば、発言の機会は平等になります。ただ、考えをまとめるのに時間がかかる人は、その場ですぐに答えにくいこともあります。事前に議題と質問を共有し、会議では個人で考える時間を少し設けると、発言の量だけでなく内容も豊かになると思います。",
+    "options": [
+      {
+        "id": "A",
+        "text": "会議では質問をしない"
+      },
+      {
+        "id": "B",
+        "text": "議題を事前共有し、考える時間を設ける"
+      },
+      {
+        "id": "C",
+        "text": "発言の回数だけで会議を評価する"
+      },
+      {
+        "id": "D",
+        "text": "全員に準備なしで即答を求める"
+      }
+    ],
+    "contentFingerprint": "73829d6f54c16bad000fbc866e0aef9eb0b46c5f85fe57908e11a64a31a37503"
+  },
+  {
+    "id": "N2_11_M4_L01",
+    "examId": "N2-MOCK-11",
+    "section": 2,
+    "typeId": "N2-LIS-RESP",
+    "category": "即時応答",
+    "stem": "会議の資料、先ほど共有フォルダーに入れておきました。",
+    "contextPassage": "会議の資料、先ほど共有フォルダーに入れておきました。",
+    "options": [
+      {
+        "id": "A",
+        "text": "ありがとうございます。確認します。"
+      },
+      {
+        "id": "B",
+        "text": "いいえ、昨日は休みでした。"
+      },
+      {
+        "id": "C",
+        "text": "では、会議室を予約します。"
+      }
+    ],
+    "contentFingerprint": "fc055c96b7537b58f66d6e95ad7d2d4ba83f84f555ca710e040fc6274dc5b2bc"
+  },
+  {
+    "id": "N2_11_M4_L02",
+    "examId": "N2-MOCK-11",
+    "section": 2,
+    "typeId": "N2-LIS-RESP",
+    "category": "即時応答",
+    "stem": "恐れ入りますが、こちらの見積書をもう一度送っていただけますか。",
+    "contextPassage": "恐れ入りますが、こちらの見積書をもう一度送っていただけますか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "かしこまりました。すぐにお送りします。"
+      },
+      {
+        "id": "B",
+        "text": "見積書は二階の会議室です。"
+      },
+      {
+        "id": "C",
+        "text": "はい、先週の木曜に伺いました。"
+      }
+    ],
+    "contentFingerprint": "0f31cb91a1487ea89496a860a3efe8f4c2a4768490bd22a738f2b4f5f85154a6"
+  },
+  {
+    "id": "N2_11_M4_L03",
+    "examId": "N2-MOCK-11",
+    "section": 2,
+    "typeId": "N2-LIS-RESP",
+    "category": "即時応答",
+    "stem": "この件は、私から先方に説明しておきましょうか。",
+    "contextPassage": "この件は、私から先方に説明しておきましょうか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "説明書は机の上にありません。"
+      },
+      {
+        "id": "B",
+        "text": "先方は駅の向こうです。"
+      },
+      {
+        "id": "C",
+        "text": "お願いします。助かります。"
+      }
+    ],
+    "contentFingerprint": "e409824efb29f4bc76ddf76ab24c7fa82d76ea0aea50c66a2308e89e7b3dc4e0"
+  },
+  {
+    "id": "N2_11_M4_L04",
+    "examId": "N2-MOCK-11",
+    "section": 2,
+    "typeId": "N2-LIS-RESP",
+    "category": "即時応答",
+    "stem": "すみません、今日は急な用事で打ち合わせに出られなくなりました。",
+    "contextPassage": "すみません、今日は急な用事で打ち合わせに出られなくなりました。",
+    "options": [
+      {
+        "id": "A",
+        "text": "はい、会議は昨日終わりました。"
+      },
+      {
+        "id": "B",
+        "text": "承知しました。別の日程を調整しましょう。"
+      },
+      {
+        "id": "C",
+        "text": "では、資料を印刷してください。"
+      }
+    ],
+    "contentFingerprint": "52951e7d45527ef7f7dada957a3b5e4634df4674009933518a83bf91c4fa5931"
+  },
+  {
+    "id": "N2_11_M4_L05",
+    "examId": "N2-MOCK-11",
+    "section": 2,
+    "typeId": "N2-LIS-RESP",
+    "category": "即時応答",
+    "stem": "この数字、前回の報告書と違っているようですが。",
+    "contextPassage": "この数字、前回の報告書と違っているようですが。",
+    "options": [
+      {
+        "id": "A",
+        "text": "では、担当者を駅まで送りましょう。"
+      },
+      {
+        "id": "B",
+        "text": "確認して、必要なら修正します。"
+      },
+      {
+        "id": "C",
+        "text": "はい、報告書は会議室にあります。"
+      }
+    ],
+    "contentFingerprint": "4ca340181d1aecb2d8d2574a026ec5e30e1c7f7b634b900a611f6b8216022b58"
+  },
+  {
+    "id": "N2_11_M4_L06",
+    "examId": "N2-MOCK-11",
+    "section": 2,
+    "typeId": "N2-LIS-RESP",
+    "category": "即時応答",
+    "stem": "先ほどの説明で、申請の締切は金曜日まででしたよね。",
+    "contextPassage": "先ほどの説明で、申請の締切は金曜日まででしたよね。",
+    "options": [
+      {
+        "id": "A",
+        "text": "ええ、説明は来週から始まります。"
+      },
+      {
+        "id": "B",
+        "text": "はい、金曜の17時までです。"
+      },
+      {
+        "id": "C",
+        "text": "いいえ、申請書は青い紙です。"
+      }
+    ],
+    "contentFingerprint": "cbc941ab8c7b11d91076fd2431176dea85e2a624a4fb90b09ca9b9e207c5677b"
+  },
+  {
+    "id": "N2_11_M4_L07",
+    "examId": "N2-MOCK-11",
+    "section": 2,
+    "typeId": "N2-LIS-RESP",
+    "category": "即時応答",
+    "stem": "新しい担当者への引き継ぎは、もう済みましたか。",
+    "contextPassage": "新しい担当者への引き継ぎは、もう済みましたか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "いいえ、資料は昨日届きました。"
+      },
+      {
+        "id": "B",
+        "text": "ええ、担当者は来月の会議室です。"
+      },
+      {
+        "id": "C",
+        "text": "はい、必要な資料も一緒に渡しました。"
+      }
+    ],
+    "contentFingerprint": "006c4d349f383f9222e61c6183f528e777834fc33bece1b04275f369e38e30f3"
+  },
+  {
+    "id": "N2_11_M4_L08",
+    "examId": "N2-MOCK-11",
+    "section": 2,
+    "typeId": "N2-LIS-RESP",
+    "category": "即時応答",
+    "stem": "お忙しいところ申し訳ありませんが、このメールを確認していただけますか。",
+    "contextPassage": "お忙しいところ申し訳ありませんが、このメールを確認していただけますか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "分かりました。今日中に目を通します。"
+      },
+      {
+        "id": "B",
+        "text": "申し訳ありません、メールは駅にあります。"
+      },
+      {
+        "id": "C",
+        "text": "はい、昨日は忙しくありませんでした。"
+      }
+    ],
+    "contentFingerprint": "a6aeda14737bc12594a82d25658db41e0ec0c47dc48560b2bab080e4bc13fd3e"
+  },
+  {
+    "id": "N2_11_M4_L09",
+    "examId": "N2-MOCK-11",
+    "section": 2,
+    "typeId": "N2-LIS-RESP",
+    "category": "即時応答",
+    "stem": "会場の予約が取れなかった場合は、どうすればいいでしょうか。",
+    "contextPassage": "会場の予約が取れなかった場合は、どうすればいいでしょうか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "別の候補日も確認してみてください。"
+      },
+      {
+        "id": "B",
+        "text": "はい、会場はもう出発しました。"
+      },
+      {
+        "id": "C",
+        "text": "予約は先週の資料を読みました。"
+      }
+    ],
+    "contentFingerprint": "87608aa16624ee271d26a8005572cdb03bc4f49cb3f81b060c9219d78f7262e1"
+  },
+  {
+    "id": "N2_11_M4_L10",
+    "examId": "N2-MOCK-11",
+    "section": 2,
+    "typeId": "N2-LIS-RESP",
+    "category": "即時応答",
+    "stem": "説明会の参加者が予定より多くなりそうです。",
+    "contextPassage": "説明会の参加者が予定より多くなりそうです。",
+    "options": [
+      {
+        "id": "A",
+        "text": "そうですね、参加者は来週の金曜です。"
+      },
+      {
+        "id": "B",
+        "text": "では、広い会場に変更できるか確認しましょう。"
+      },
+      {
+        "id": "C",
+        "text": "いいえ、説明会は書類を読みました。"
+      }
+    ],
+    "contentFingerprint": "64e5a9dbdf954a1b368a2fe98ad99113c6daffd3742112d90eff987d9b7ffb1c"
+  },
+  {
+    "id": "N2_11_M4_L11",
+    "examId": "N2-MOCK-11",
+    "section": 2,
+    "typeId": "N2-LIS-RESP",
+    "category": "即時応答",
+    "stem": "この書類、どこに提出すればよいか分かりますか。",
+    "contextPassage": "この書類、どこに提出すればよいか分かりますか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "はい、昨日は提出しませんでした。"
+      },
+      {
+        "id": "B",
+        "text": "書類は午後から雨でしょう。"
+      },
+      {
+        "id": "C",
+        "text": "総務部の受付に出してください。"
+      }
+    ],
+    "contentFingerprint": "f964bf89262fb69afbd1a9692fba2be6bce627daff1720b4615c3b1a82305b1b"
+  },
+  {
+    "id": "N2_11_M5_L01",
+    "examId": "N2-MOCK-11",
+    "section": 2,
+    "typeId": "N2-LIS-INTEG",
+    "category": "統合理解",
+    "stem": "研修はいつ行うことになりましたか。",
+    "contextPassage": "会社で、二人の社員が研修の運営について話しています。\n男：来月の研修、会議室を予約しました。火曜の午後なら広い部屋が使えます。\n女：ただ、講師は火曜の午後に別の予定があるそうです。木曜なら参加できますが、広い部屋は取れませんでした。\n男：参加者は十二人ですから、小さい部屋でも入れますよ。\n女：では木曜の午前に変更して、講師にも確認します。\n男：お願いします。資料の締切はそのままで大丈夫です。",
+    "options": [
+      {
+        "id": "A",
+        "text": "木曜日の午後"
+      },
+      {
+        "id": "B",
+        "text": "金曜日の午前"
+      },
+      {
+        "id": "C",
+        "text": "火曜日の午後"
+      },
+      {
+        "id": "D",
+        "text": "木曜日の午前"
+      }
+    ],
+    "contentFingerprint": "baffa097eaeff7165dbc0d09c8b82a0acde1138b157e5f4466dd09b271408873"
+  },
+  {
+    "id": "N2_11_M5_L02",
+    "examId": "N2-MOCK-11",
+    "section": 2,
+    "typeId": "N2-LIS-INTEG",
+    "category": "統合理解",
+    "stem": "女性は提案書をどのように直しますか。",
+    "contextPassage": "会社で、上司と社員が取引先への提案について話しています。\n女：提案書の初稿ができました。費用を抑えるため、導入時の研修を省いた案も作りました。\n男：先方はシステムに詳しい人が少ないと聞いています。研修をなくすと、開始後の問い合わせが増えるかもしれません。\n女：では研修は短くして、操作が難しい部署だけ追加説明を行う案にします。\n男：いいですね。費用の差も分かるように二案を並べてください。",
+    "options": [
+      {
+        "id": "A",
+        "text": "研修を短縮し、必要な部署には追加説明を提案する"
+      },
+      {
+        "id": "B",
+        "text": "研修をすべてなくし、費用だけを示す"
+      },
+      {
+        "id": "C",
+        "text": "全員に同じ長さの研修を追加する"
+      },
+      {
+        "id": "D",
+        "text": "問い合わせへの対応を先方に任せる"
+      }
+    ],
+    "contentFingerprint": "01c80f83a71652398153da9907bee9e6e964c8d6815fe84cff44b02a82c077fd"
+  },
+  {
+    "id": "N2_11_M5_L03",
+    "examId": "N2-MOCK-11",
+    "section": 2,
+    "typeId": "N2-LIS-INTEG",
+    "category": "統合理解",
+    "stem": "二人が合意した説明会の進め方はどれか。",
+    "contextPassage": "会社で、社員二人が顧客向け説明会の準備について話しています。\n男：説明会の資料は、製品の機能を全部載せた方がいいでしょうか。\n女：時間が限られていますから、利用開始に必要な機能を中心にしましょう。詳細は後で読める別紙に分けられます。\n男：質問の時間も残したいですね。\n女：はい。説明を短くして、最後に十五分確保しましょう。\n男：では、資料の構成を今日中に直します。",
+    "options": [
+      {
+        "id": "A",
+        "text": "説明を延長し、質問は後日メールで受け付ける"
+      },
+      {
+        "id": "B",
+        "text": "詳細だけを配り、説明は行わない"
+      },
+      {
+        "id": "C",
+        "text": "全機能を説明し、質問時間をなくす"
+      },
+      {
+        "id": "D",
+        "text": "基本機能を説明し、詳細を別紙にして質問時間を設ける"
+      }
+    ],
+    "contentFingerprint": "5624eb6703c25566165b1aa8dd999ef7de60c1f62f5e6915edb338cfcebd97bb"
+  }
+]

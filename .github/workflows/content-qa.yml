@@ -64,6 +64,11 @@ jobs:
         run: |
           python scripts/curriculum/validate_n2_mock_10_blind_review.py
 
+      - name: Verify N2-MOCK-11 version-bound blind and originality
+        run: |
+          python scripts/curriculum/validate_n2_mock_11_blind_review.py
+          python scripts/curriculum/audit_n2_mock_11_originality.py
+
       # 7. Validate question-version content fingerprints
       - name: Validate question-version content fingerprints
         run: |
@@ -108,6 +113,9 @@ jobs:
       - name: Run N2-MOCK-10 browser regression
         run: node scripts/tests/test_n2_mock_10_e2e.cjs
 
+      - name: Run N2-MOCK-11 browser regression
+        run: node scripts/tests/test_n2_mock_11_e2e.cjs
+
       - name: Run Phase 6.1 runtime semantic regression
         run: node scripts/tests/test_phase_61_runtime_semantics.cjs
 
@@ -117,6 +125,7 @@ jobs:
           node scripts/tests/verify_n2_mock_08_audio_deep.cjs
           node scripts/tests/verify_n2_mock_09_audio_deep.cjs
           node scripts/tests/verify_n2_mock_10_audio_deep.cjs
+          node scripts/tests/verify_n2_mock_11_audio_deep.cjs
 
       # 14. Produce machine-readable QA summary
       - name: Generate machine-readable CI QA summary

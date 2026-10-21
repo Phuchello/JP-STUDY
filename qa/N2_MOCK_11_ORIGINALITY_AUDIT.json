@@ -1,0 +1,207 @@
+{
+  "examId": "N2-MOCK-11",
+  "status": "VERIFIED_CROSS_EXAM_AUDIT",
+  "comparisonScope": "All 105 current M11 items against all 1,050 items in N2-MOCK-01 through N2-MOCK-10.",
+  "exactStemMatches": {
+    "count": 3,
+    "matches": [
+      {
+        "questionId": "N2_11_M1_L04",
+        "priorExamId": "N2-MOCK-08",
+        "priorQuestionId": "N2_08_M1_L01",
+        "stem": "男性はまず何をしますか。"
+      },
+      {
+        "questionId": "N2_11_M3_L01",
+        "priorExamId": "N2-MOCK-09",
+        "priorQuestionId": "N2_09_M3_L01",
+        "stem": "話し手が最も伝えたいことは何ですか。"
+      },
+      {
+        "questionId": "N2_11_M3_L01",
+        "priorExamId": "N2-MOCK-10",
+        "priorQuestionId": "N2_10_M3_L01",
+        "stem": "話し手が最も伝えたいことは何ですか。"
+      }
+    ],
+    "interpretation": "The repeated wording is limited to generic JLPT prompt frames (first action / main point); passage, script, options, and tested content remain distinct."
+  },
+  "nearStemMatches": {
+    "threshold": 0.58,
+    "metric": "Jaccard 3-gram after punctuation/spacing normalization",
+    "count": 5,
+    "matches": [
+      {
+        "questionId": "N2_11_M6_04",
+        "priorExamId": "N2-MOCK-08",
+        "priorQuestionId": "N2_08_M6_01",
+        "similarity3Gram": 0.64,
+        "stem": "「見込む」の使い方として最もよいものを選びなさい。",
+        "priorStem": "『見込む』の使い方として最も適切なものを選びなさい。"
+      },
+      {
+        "questionId": "N2_11_M6_04",
+        "priorExamId": "N2-MOCK-09",
+        "priorQuestionId": "N2_09_M6_04",
+        "similarity3Gram": 0.583,
+        "stem": "「見込む」の使い方として最もよいものを選びなさい。",
+        "priorStem": "『見込む』の使い方として最もよいものはどれか。"
+      },
+      {
+        "questionId": "N2_11_M3_L01",
+        "priorExamId": "N2-MOCK-07",
+        "priorQuestionId": "N2_07_M3_L02",
+        "similarity3Gram": 0.706,
+        "stem": "話し手が最も伝えたいことは何ですか。",
+        "priorStem": "社長が最も伝えたいことは何ですか。"
+      },
+      {
+        "questionId": "N2_11_M3_L01",
+        "priorExamId": "N2-MOCK-08",
+        "priorQuestionId": "N2_08_M3_L01",
+        "similarity3Gram": 0.706,
+        "stem": "話し手が最も伝えたいことは何ですか。",
+        "priorStem": "話者が最も伝えたいことは何ですか。"
+      },
+      {
+        "questionId": "N2_11_M3_L04",
+        "priorExamId": "N2-MOCK-08",
+        "priorQuestionId": "N2_08_M3_L03",
+        "similarity3Gram": 0.688,
+        "stem": "話し手が勧めていることは何ですか。",
+        "priorStem": "教員が勧めていることは何ですか。"
+      }
+    ]
+  },
+  "readingPassageOverlaps": {
+    "threshold": 0.25,
+    "metric": "Jaccard 5-gram",
+    "count": 0,
+    "matches": []
+  },
+  "listeningScriptOverlaps": {
+    "threshold": 0.25,
+    "metric": "Jaccard 5-gram",
+    "count": 0,
+    "matches": []
+  },
+  "exactDistractorSetMatches": {
+    "count": 0,
+    "matches": []
+  },
+  "grammarDistribution": {
+    "current": {
+      "N2-GR-FORM": 12,
+      "N2-GR-PARA": 5,
+      "N2-GR-STAR": 5
+    },
+    "priorByExam": {
+      "N2-MOCK-01": {
+        "N2-GR-CLOZ": 5,
+        "N2-GR-FORM": 12,
+        "N2-GR-STAR": 5
+      },
+      "N2-MOCK-02": {
+        "N2-GR-FORM": 12,
+        "N2-GR-STAR": 5,
+        "N2-GR-TEXT": 5
+      },
+      "N2-MOCK-03": {
+        "N2-GR-SENT": 12,
+        "N2-GR-STAR": 5,
+        "N2-GR-TEXT": 5
+      },
+      "N2-MOCK-04": {
+        "N2-GR-SENT": 12,
+        "N2-GR-STAR": 5,
+        "N2-GR-TXT": 5
+      },
+      "N2-MOCK-05": {
+        "N2-GR-SENT": 12,
+        "N2-GR-STAR": 5,
+        "N2-GR-TXT": 5
+      },
+      "N2-MOCK-06": {
+        "N2-GR-FORM": 12,
+        "N2-GR-STAR": 5,
+        "N2-GR-TEXT": 5
+      },
+      "N2-MOCK-07": {
+        "N2-GR-FORM": 12,
+        "N2-GR-STAR": 5,
+        "N2-GR-TEXT": 5
+      },
+      "N2-MOCK-08": {
+        "N2-GR-FORM": 12,
+        "N2-GR-STAR": 5,
+        "N2-GR-TEXT": 5
+      },
+      "N2-MOCK-09": {
+        "N2-GR-FORM": 12,
+        "N2-GR-PARA": 5,
+        "N2-GR-STAR": 5
+      },
+      "N2-MOCK-10": {
+        "N2-GR-FORM": 12,
+        "N2-GR-PARA": 5,
+        "N2-GR-STAR": 5
+      }
+    }
+  },
+  "topicTagDistribution": {
+    "workplace": 97,
+    "workplace-and-public-communication": 3,
+    "workplace-communication": 5
+  },
+  "priorTopicComparability": "Mocks 01-10 do not consistently store topic tags; the documented prior themes are qualitative and cannot support a like-for-like numeric concentration comparison.",
+  "audioSha256Duplicates": {
+    "count": 0,
+    "matches": []
+  },
+  "answerPositionMetrics": {
+    "answerCounts": {
+      "A": 28,
+      "B": 27,
+      "C": 28,
+      "D": 22
+    },
+    "section1Counts": {
+      "A": 19,
+      "B": 18,
+      "C": 20,
+      "D": 18
+    },
+    "longestCycleOrShortPattern": {
+      "length": 6,
+      "period": 3,
+      "start": 19,
+      "pattern": "DAA"
+    },
+    "section1LongestCycleOrShortPattern": {
+      "length": 6,
+      "period": 3,
+      "start": 19,
+      "pattern": "DAA"
+    },
+    "longestSameAnswerRun": {
+      "length": 3,
+      "answer": "D",
+      "start": 0
+    },
+    "starAnswers": "ACCDC",
+    "starCounts": {
+      "A": 1,
+      "C": 3,
+      "D": 1
+    }
+  },
+  "difficultyTags": {
+    "2": 102,
+    "3": 3
+  },
+  "limits": [
+    "Near-template thresholds are heuristic screens, not proof of plagiarism or originality.",
+    "Content originality is distinct from repeated JLPT instruction frames.",
+    "The JLPT's official item counts are not inferred from this internal mock blueprint."
+  ]
+}
