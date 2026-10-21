@@ -543,6 +543,7 @@ Snapshot 2026-10-21. VERIFIED is scoped verification, not JLPT certification. Hi
 | [qa/N2_MOCK_10_LIVE_DEPLOYMENT_RECEIPT.json](qa/N2_MOCK_10_LIVE_DEPLOYMENT_RECEIPT.json) | QA_PENDING |
 | [qa/PHASE_6_1_AUDIO_VERIFICATION.json](qa/PHASE_6_1_AUDIO_VERIFICATION.json) | VERIFIED |
 | [qa/PHASE_6_1_CONTENT_QUALITY_REPORT.json](qa/PHASE_6_1_CONTENT_QUALITY_REPORT.json) | QA_PENDING |
+| [qa/PHASE_6_1_LIVE_DEPLOYMENT_RECEIPT.json](qa/PHASE_6_1_LIVE_DEPLOYMENT_RECEIPT.json) | VERIFIED |
 | [qa/PHASE_6_1_OPTION_REMAP_MANIFEST.json](qa/PHASE_6_1_OPTION_REMAP_MANIFEST.json) | VERIFIED |
 | [qa/PHASE_6_1_RUNTIME_SEMANTICS_REPORT.json](qa/PHASE_6_1_RUNTIME_SEMANTICS_REPORT.json) | VERIFIED |
 | [qa/PRACTICE_RELEASE_GATE.md](qa/PRACTICE_RELEASE_GATE.md) | VERIFIED |
@@ -951,7 +952,7 @@ Snapshot 2026-10-21. VERIFIED is scoped verification, not JLPT certification. Hi
 | [scripts/tests/verify_n2_mock_05_audio_deep.cjs](scripts/tests/verify_n2_mock_05_audio_deep.cjs) | QA_PENDING |
 | [scripts/tests/verify_n2_mock_06_audio_deep.cjs](scripts/tests/verify_n2_mock_06_audio_deep.cjs) | QA_PENDING |
 | [scripts/tests/verify_n2_mock_07_audio_deep.cjs](scripts/tests/verify_n2_mock_07_audio_deep.cjs) | VERIFIED |
-| [scripts/tests/verify_n2_mock_08_audio_deep.cjs](scripts/tests/verify_n2_mock_08_audio_deep.cjs) | QA_PENDING |
+| [scripts/tests/verify_n2_mock_08_audio_deep.cjs](scripts/tests/verify_n2_mock_08_audio_deep.cjs) | VERIFIED |
 | [scripts/tests/verify_n2_mock_09_audio_deep.cjs](scripts/tests/verify_n2_mock_09_audio_deep.cjs) | VERIFIED |
 | [scripts/tests/verify_n2_mock_10_audio_deep.cjs](scripts/tests/verify_n2_mock_10_audio_deep.cjs) | VERIFIED |
 | [scripts/update_manifest.py](scripts/update_manifest.py) | VERIFIED |

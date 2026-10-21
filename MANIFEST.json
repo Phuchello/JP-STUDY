@@ -1,8 +1,8 @@
 {
   "snapshotDate": "2026-10-21",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
-  "fileCountExcludingManifest": 954,
-  "totalBytesExcludingManifest": 148014728,
+  "fileCountExcludingManifest": 955,
+  "totalBytesExcludingManifest": 148017255,
   "files": [
     {
       "path": ".gitattributes",
@@ -2796,8 +2796,8 @@
     },
     {
       "path": "FILE_INDEX.md",
-      "bytes": 94448,
-      "sha256": "3de96ff4c078da3d04c0d5ccf4c0a19b0c87750eb95db7ff4f93a3d9a4f9859a",
+      "bytes": 94548,
+      "sha256": "a1ada49194929b424d126c6422ededff86852c0732bf2c834f6e15302b797a7c",
       "status": "VERIFIED"
     },
     {
@@ -2832,8 +2832,8 @@
     },
     {
       "path": "PROJECT_STATUS.md",
-      "bytes": 43980,
-      "sha256": "55389d5ca4979ba2f6b650817baf2c3fa53b9959c52356de49f62090ede5eb49",
+      "bytes": 44396,
+      "sha256": "a15321b7eb907b010966c7f8353dfd85de652e1a365c077ffa1da2c44ff35288",
       "status": "VERIFIED"
     },
     {
@@ -3318,8 +3318,8 @@
     },
     {
       "path": "qa/file_status.json",
-      "bytes": 25781,
-      "sha256": "dc4968db1d701204547eb554e31888264b172c6fda522c1d820cf1ae6400724e",
+      "bytes": 25904,
+      "sha256": "ccda22a4d75c0f4d61ed0d41cf1f9d6f236ee8b91802da4bc808474f860e47b4",
       "status": "VERIFIED"
     },
     {
@@ -3939,6 +3939,12 @@
       "bytes": 57939,
       "sha256": "867ab88e643104dea10d6424e2b597a8a966b4a03513b98a5d0847e3d5f2f808",
       "status": "QA_PENDING"
+    },
+    {
+      "path": "qa/PHASE_6_1_LIVE_DEPLOYMENT_RECEIPT.json",
+      "bytes": 1888,
+      "sha256": "414c8abfe3f3dcb9876d151aeae8953b07b60c4786bb7cf002fd36fe5366d284",
+      "status": "VERIFIED"
     },
     {
       "path": "qa/PHASE_6_1_OPTION_REMAP_MANIFEST.json",
@@ -5684,7 +5690,7 @@
       "path": "scripts/tests/verify_n2_mock_08_audio_deep.cjs",
       "bytes": 12477,
       "sha256": "e166438f44c12d399d3e9ce69646ffda9eebfb4ed384c2835c7d986c7a194584",
-      "status": "QA_PENDING"
+      "status": "VERIFIED"
     },
     {
       "path": "scripts/tests/verify_n2_mock_09_audio_deep.cjs",

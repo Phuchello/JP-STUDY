@@ -1,0 +1,38 @@
+{
+  "phase": "6.1",
+  "scope": ["N2-MOCK-07", "N2-MOCK-08", "N2-MOCK-09"],
+  "deployedCommit": "b8d2cd12cd4b58b3fd49ab659f3375891361332a",
+  "githubActionsRun": "https://github.com/Phuchello/JP-STUDY/actions/runs/39597560851",
+  "githubActionsRunNumber": 24,
+  "actionsConclusion": "success",
+  "contentQaJob": "success",
+  "gatedPagesDeployment": "success",
+  "observedAtUtc": "2026-10-21T12:15:08Z",
+  "catalogUrl": "https://phuchello.github.io/JP-STUDY/widgets/jlpt_exam_catalog.html",
+  "checks": [
+    {
+      "name": "public_catalog_entries_and_links",
+      "result": "PASS",
+      "evidence": "The public catalog visibly lists N2-MOCK-07, N2-MOCK-08 and N2-MOCK-09 and provides full-exam links with the matching mockId values."
+    },
+    {
+      "name": "public_full_exam_routes",
+      "result": "PASS",
+      "evidence": "All three public routes loaded the matching first question ID (N2_07_M1_01, N2_08_M1_01 and N2_09_M1_01), showed Câu 1 / 75 and 105:00, and rendered four answer choices. No answer key or explanation was visible during the active attempt."
+    },
+    {
+      "name": "live_browser_errors",
+      "result": "PASS",
+      "evidence": "Zero browser console errors were observed while opening the three public full-exam routes."
+    },
+    {
+      "name": "gated_release_workflow",
+      "result": "PASS",
+      "evidence": "Content QA & Release Gate Verification and Gated Deployment to GitHub Pages completed successfully in Actions run 39597560851."
+    }
+  ],
+  "limitations": [
+    "The live check verified catalog links and initial full-exam screens. No scored public submission was made, so live result persistence was not tested in this browser session.",
+    "The mocks are practice materials, not official JLPT forms. AI review, self-audit and browser playback do not constitute independent native-speaker review or psychometric calibration."
+  ]
+}
