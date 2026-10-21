@@ -1,0 +1,392 @@
+{
+  "N2_10_M1_L01": {
+    "questionId": "N2_10_M1_L01",
+    "audioUrl": "audio/n2_mock_10/N2_10_M1_L01.mp3",
+    "audioDurationSec": 43.136,
+    "audioSha256": "819ff93a539e740412259e7d5a2dbf27a27b8d59de135e8bb612773f13f8d8f9",
+    "audioSizeBytes": 259436,
+    "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ]
+  },
+  "N2_10_M1_L02": {
+    "questionId": "N2_10_M1_L02",
+    "audioUrl": "audio/n2_mock_10/N2_10_M1_L02.mp3",
+    "audioDurationSec": 47.304,
+    "audioSha256": "0ce86c2fd470b86c6a1a701a8e7e3da2d6b7274c236694487af03602de7d749c",
+    "audioSizeBytes": 284348,
+    "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ]
+  },
+  "N2_10_M1_L03": {
+    "questionId": "N2_10_M1_L03",
+    "audioUrl": "audio/n2_mock_10/N2_10_M1_L03.mp3",
+    "audioDurationSec": 44.072,
+    "audioSha256": "f409a03ce06364be38b782a6579844cb755acd1dda3472804cf46631c03c8ead",
+    "audioSizeBytes": 265052,
+    "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ]
+  },
+  "N2_10_M1_L04": {
+    "questionId": "N2_10_M1_L04",
+    "audioUrl": "audio/n2_mock_10/N2_10_M1_L04.mp3",
+    "audioDurationSec": 39.032,
+    "audioSha256": "3e0fa3977f570bf1769b004d06ebde3f15dc6edf3d34f68c7c11f1bf121a50c7",
+    "audioSizeBytes": 234812,
+    "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ]
+  },
+  "N2_10_M1_L05": {
+    "questionId": "N2_10_M1_L05",
+    "audioUrl": "audio/n2_mock_10/N2_10_M1_L05.mp3",
+    "audioDurationSec": 43.736,
+    "audioSha256": "b5adb18d54522b234b62f52b2ba357bd3c79af9a1eacf9b51917a28da9afcb34",
+    "audioSizeBytes": 263036,
+    "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ]
+  },
+  "N2_10_M2_L01": {
+    "questionId": "N2_10_M2_L01",
+    "audioUrl": "audio/n2_mock_10/N2_10_M2_L01.mp3",
+    "audioDurationSec": 44.24,
+    "audioSha256": "da6c1199f114e404fd58f298f833c0e544aca96710e635503561c6bb8762ab6a",
+    "audioSizeBytes": 266060,
+    "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ]
+  },
+  "N2_10_M2_L02": {
+    "questionId": "N2_10_M2_L02",
+    "audioUrl": "audio/n2_mock_10/N2_10_M2_L02.mp3",
+    "audioDurationSec": 40.544,
+    "audioSha256": "85bf12e8cff8e9385a527b66193e2755fbf4fd6d4f56835357d95b89ee9719f6",
+    "audioSizeBytes": 243884,
+    "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ]
+  },
+  "N2_10_M2_L03": {
+    "questionId": "N2_10_M2_L03",
+    "audioUrl": "audio/n2_mock_10/N2_10_M2_L03.mp3",
+    "audioDurationSec": 50.216,
+    "audioSha256": "b23a5c0ee1fa05a9b46d868bfd2451bf4074377ea3ef11e93cc9f9bc86fe1e90",
+    "audioSizeBytes": 301916,
+    "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ]
+  },
+  "N2_10_M2_L04": {
+    "questionId": "N2_10_M2_L04",
+    "audioUrl": "audio/n2_mock_10/N2_10_M2_L04.mp3",
+    "audioDurationSec": 47.456,
+    "audioSha256": "82450bb2718ef014db28191e85849229dd1cf430c53f9a5967ed45246169e5ff",
+    "audioSizeBytes": 285356,
+    "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ]
+  },
+  "N2_10_M2_L05": {
+    "questionId": "N2_10_M2_L05",
+    "audioUrl": "audio/n2_mock_10/N2_10_M2_L05.mp3",
+    "audioDurationSec": 45.728,
+    "audioSha256": "0e3efb79fdf39f49597806647f7d20cf5f4e2b595d62e74875f09c0f5c131493",
+    "audioSizeBytes": 274988,
+    "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ]
+  },
+  "N2_10_M2_L06": {
+    "questionId": "N2_10_M2_L06",
+    "audioUrl": "audio/n2_mock_10/N2_10_M2_L06.mp3",
+    "audioDurationSec": 43.616,
+    "audioSha256": "e766897b48b9465431b7ba0f9dcd0ee1d9ae3f51bb72a568a1da1ab1d2f41ecb",
+    "audioSizeBytes": 262316,
+    "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ]
+  },
+  "N2_10_M3_L01": {
+    "questionId": "N2_10_M3_L01",
+    "audioUrl": "audio/n2_mock_10/N2_10_M3_L01.mp3",
+    "audioDurationSec": 72.028,
+    "audioSha256": "2765c6ed09b87093f88a5a37b37c2831fd20635943550edab84faec5b290b34d",
+    "audioSizeBytes": 432812,
+    "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ]
+  },
+  "N2_10_M3_L02": {
+    "questionId": "N2_10_M3_L02",
+    "audioUrl": "audio/n2_mock_10/N2_10_M3_L02.mp3",
+    "audioDurationSec": 75.46,
+    "audioSha256": "99939580736e829c462992de3d5b739e29814f8edaff93a5fced6740655c84cf",
+    "audioSizeBytes": 453404,
+    "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ]
+  },
+  "N2_10_M3_L03": {
+    "questionId": "N2_10_M3_L03",
+    "audioUrl": "audio/n2_mock_10/N2_10_M3_L03.mp3",
+    "audioDurationSec": 75.244,
+    "audioSha256": "32ed049780e11c4d1bab02faf77076afa35368858baa118adcfb1e8f7d6c4cba",
+    "audioSizeBytes": 452108,
+    "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ]
+  },
+  "N2_10_M3_L04": {
+    "questionId": "N2_10_M3_L04",
+    "audioUrl": "audio/n2_mock_10/N2_10_M3_L04.mp3",
+    "audioDurationSec": 69.772,
+    "audioSha256": "17eafcd5378248ac880330b562abbca0f288d53f14968f3f4bc904bfc35b050c",
+    "audioSizeBytes": 419276,
+    "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ]
+  },
+  "N2_10_M3_L05": {
+    "questionId": "N2_10_M3_L05",
+    "audioUrl": "audio/n2_mock_10/N2_10_M3_L05.mp3",
+    "audioDurationSec": 76.084,
+    "audioSha256": "ef9c2d9ced6326d6620fb8f7898970bcb41b90f718f28b34a52d694f9cbee235",
+    "audioSizeBytes": 457148,
+    "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ]
+  },
+  "N2_10_M4_L01": {
+    "questionId": "N2_10_M4_L01",
+    "audioUrl": "audio/n2_mock_10/N2_10_M4_L01.mp3",
+    "audioDurationSec": 36.148,
+    "audioSha256": "3f50889369efb045a017ee96825d3762c261d6980afe09f83037b1dfa09beb4b",
+    "audioSizeBytes": 217532,
+    "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ]
+  },
+  "N2_10_M4_L02": {
+    "questionId": "N2_10_M4_L02",
+    "audioUrl": "audio/n2_mock_10/N2_10_M4_L02.mp3",
+    "audioDurationSec": 37.66,
+    "audioSha256": "bbfbda61a796246d3968df0cb9cdd9e607d8d200e976ca27dbb41f54a36c9573",
+    "audioSizeBytes": 226604,
+    "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ]
+  },
+  "N2_10_M4_L03": {
+    "questionId": "N2_10_M4_L03",
+    "audioUrl": "audio/n2_mock_10/N2_10_M4_L03.mp3",
+    "audioDurationSec": 36.316,
+    "audioSha256": "6cf56bd94c097a9090711a02912996f07f78b5f4ddc85b08ccac5a811b5b5a5c",
+    "audioSizeBytes": 218540,
+    "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ]
+  },
+  "N2_10_M4_L04": {
+    "questionId": "N2_10_M4_L04",
+    "audioUrl": "audio/n2_mock_10/N2_10_M4_L04.mp3",
+    "audioDurationSec": 35.908,
+    "audioSha256": "36d183be5db705ebcd4d3a24cf423e0699d6594b6681cb85aac08b8c19597f5a",
+    "audioSizeBytes": 216092,
+    "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ]
+  },
+  "N2_10_M4_L05": {
+    "questionId": "N2_10_M4_L05",
+    "audioUrl": "audio/n2_mock_10/N2_10_M4_L05.mp3",
+    "audioDurationSec": 36.22,
+    "audioSha256": "d9c5b0a61592c3eae5d3e83a40866dd382a0bc6e951981ddb421135530788b39",
+    "audioSizeBytes": 217964,
+    "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ]
+  },
+  "N2_10_M4_L06": {
+    "questionId": "N2_10_M4_L06",
+    "audioUrl": "audio/n2_mock_10/N2_10_M4_L06.mp3",
+    "audioDurationSec": 38.956,
+    "audioSha256": "f36565aca0a272a1d50dfdb0293413b20c55cac75057bebc883a42629682ae1a",
+    "audioSizeBytes": 234380,
+    "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ]
+  },
+  "N2_10_M4_L07": {
+    "questionId": "N2_10_M4_L07",
+    "audioUrl": "audio/n2_mock_10/N2_10_M4_L07.mp3",
+    "audioDurationSec": 38.284,
+    "audioSha256": "95b6456a41b9928e876d7a05c10d564f16f1c59f393f2b0f3d32f3a2a7c832e7",
+    "audioSizeBytes": 230348,
+    "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ]
+  },
+  "N2_10_M4_L08": {
+    "questionId": "N2_10_M4_L08",
+    "audioUrl": "audio/n2_mock_10/N2_10_M4_L08.mp3",
+    "audioDurationSec": 36.532,
+    "audioSha256": "a3ec3c61a4fd56f3333920c6d6df7b79a2601856022dfad20d1db00654dc229e",
+    "audioSizeBytes": 219836,
+    "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ]
+  },
+  "N2_10_M4_L09": {
+    "questionId": "N2_10_M4_L09",
+    "audioUrl": "audio/n2_mock_10/N2_10_M4_L09.mp3",
+    "audioDurationSec": 35.788,
+    "audioSha256": "8e17127bd402d2b9990333f3b3ea6100053102ef86b21799ab00a0cf7ef45cfa",
+    "audioSizeBytes": 215372,
+    "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ]
+  },
+  "N2_10_M4_L10": {
+    "questionId": "N2_10_M4_L10",
+    "audioUrl": "audio/n2_mock_10/N2_10_M4_L10.mp3",
+    "audioDurationSec": 37.444,
+    "audioSha256": "9a53c2fdfee5536ea9a60c9554594adbc5e2a56318d24fd82ed1d96d8ed81502",
+    "audioSizeBytes": 225308,
+    "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ]
+  },
+  "N2_10_M4_L11": {
+    "questionId": "N2_10_M4_L11",
+    "audioUrl": "audio/n2_mock_10/N2_10_M4_L11.mp3",
+    "audioDurationSec": 37.732,
+    "audioSha256": "ae3a7ce6b40c4f6a33719b7296a1a98c01a1bcc1ae74574797eb56dfd62a4957",
+    "audioSizeBytes": 227036,
+    "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ]
+  },
+  "N2_10_M5_L01": {
+    "questionId": "N2_10_M5_L01",
+    "audioUrl": "audio/n2_mock_10/N2_10_M5_L01.mp3",
+    "audioDurationSec": 53.124,
+    "audioSha256": "2da2fabef23619d172aeb406cace789fae0d00d7b3788880f7d5b77e01cdfc8b",
+    "audioSizeBytes": 319340,
+    "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ]
+  },
+  "N2_10_M5_L02": {
+    "questionId": "N2_10_M5_L02",
+    "audioUrl": "audio/n2_mock_10/N2_10_M5_L02.mp3",
+    "audioDurationSec": 54.996,
+    "audioSha256": "4bd42614dbd6feb7cb174357c30687f68ac90c6e512abad944a0f419c9b264da",
+    "audioSizeBytes": 330572,
+    "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ]
+  },
+  "N2_10_M5_L03": {
+    "questionId": "N2_10_M5_L03",
+    "audioUrl": "audio/n2_mock_10/N2_10_M5_L03.mp3",
+    "audioDurationSec": 54.9,
+    "audioSha256": "47b836ced4f228eb06af77d5ee80b22ebc1a6db357c6bb7e1e4961b6f900a525",
+    "audioSizeBytes": 329996,
+    "audioVerificationStatus": "PLAYBACK_QA_PENDING",
+    "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+    "speakerVoices": [
+      "ja-JP-NanamiNeural",
+      "ja-JP-KeitaNeural"
+    ]
+  }
+}

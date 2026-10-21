@@ -1,0 +1,1104 @@
+[
+  {
+    "id": "N2_10_M1_01",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-READ",
+    "category": "Mondai 1: 漢字読み",
+    "taskInstructions": "下線部の言葉の読み方として最もよいものを一つ選びなさい。",
+    "stem": "講演会には専門分野の【聴衆】が集まった。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "ていしゅう"
+      },
+      {
+        "id": "B",
+        "text": "ちょうしゅう"
+      },
+      {
+        "id": "C",
+        "text": "ちょうしゅ"
+      },
+      {
+        "id": "D",
+        "text": "ちょうじゅう"
+      }
+    ],
+    "contentFingerprint": "74d9a263ceddec67bf9b374a610d1cd29290267f7c421d401c01f9e295c369b0"
+  },
+  {
+    "id": "N2_10_M1_02",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-READ",
+    "category": "Mondai 1: 漢字読み",
+    "taskInstructions": "下線部の言葉の読み方として最もよいものを一つ選びなさい。",
+    "stem": "研究者は新素材の耐久性を【検証】した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "げんしょう"
+      },
+      {
+        "id": "B",
+        "text": "けんじょう"
+      },
+      {
+        "id": "C",
+        "text": "けんしょう"
+      },
+      {
+        "id": "D",
+        "text": "けんそう"
+      }
+    ],
+    "contentFingerprint": "2428adea4dc252cca82ba85ec5c7cc70f43327bf5512a438f054091881cb9d71"
+  },
+  {
+    "id": "N2_10_M1_03",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-READ",
+    "category": "Mondai 1: 漢字読み",
+    "taskInstructions": "下線部の言葉の読み方として最もよいものを一つ選びなさい。",
+    "stem": "試作品の【耐久】性を確かめる試験を行う。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "たいく"
+      },
+      {
+        "id": "B",
+        "text": "たいぐう"
+      },
+      {
+        "id": "C",
+        "text": "だいきゅう"
+      },
+      {
+        "id": "D",
+        "text": "たいきゅう"
+      }
+    ],
+    "contentFingerprint": "ef19a68b9d196f67e5d0548b3f79dbf78ebdd1a742e74a8c7965f9f2b00e61a7"
+  },
+  {
+    "id": "N2_10_M1_04",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-READ",
+    "category": "Mondai 1: 漢字読み",
+    "taskInstructions": "下線部の言葉の読み方として最もよいものを一つ選びなさい。",
+    "stem": "駅前の歩道は幅が狭く、朝は特に【混雑】する。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "こんざつ"
+      },
+      {
+        "id": "B",
+        "text": "こうざつ"
+      },
+      {
+        "id": "C",
+        "text": "こんせつ"
+      },
+      {
+        "id": "D",
+        "text": "こんさつ"
+      }
+    ],
+    "contentFingerprint": "56a0e6da731ce14ce7ca1f5e240805cbcf741bfbb83e05c4598937ac3de251d9"
+  },
+  {
+    "id": "N2_10_M1_05",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-READ",
+    "category": "Mondai 1: 漢字読み",
+    "taskInstructions": "下線部の言葉の読み方として最もよいものを一つ選びなさい。",
+    "stem": "新しい制度の【概要】を利用者に説明した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "がいよう"
+      },
+      {
+        "id": "B",
+        "text": "かいよう"
+      },
+      {
+        "id": "C",
+        "text": "がいようう"
+      },
+      {
+        "id": "D",
+        "text": "がいおう"
+      }
+    ],
+    "contentFingerprint": "995faf38fa25b6ff3ca4bf8101f2d5983d1a2bf1c7de79f2bc2a225ba1ea612d"
+  },
+  {
+    "id": "N2_10_M2_01",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-ORTH",
+    "category": "Mondai 2: 表記",
+    "taskInstructions": "下線部の言葉を漢字で書くとき、最もよいものを一つ選びなさい。",
+    "stem": "次年度の予算について、自治体と【こうしょう】を続けている。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "高尚"
+      },
+      {
+        "id": "B",
+        "text": "交渉"
+      },
+      {
+        "id": "C",
+        "text": "鉱床"
+      },
+      {
+        "id": "D",
+        "text": "工廠"
+      }
+    ],
+    "contentFingerprint": "250ac21bf053f3e430ad0bfe97978a7abab6aad0dcc2014c6a9140f016119c61"
+  },
+  {
+    "id": "N2_10_M2_02",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-ORTH",
+    "category": "Mondai 2: 表記",
+    "taskInstructions": "下線部の言葉を漢字で書くとき、最もよいものを一つ選びなさい。",
+    "stem": "事故による損失を、契約に基づいて【ほしょう】する。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "歩哨"
+      },
+      {
+        "id": "B",
+        "text": "保証"
+      },
+      {
+        "id": "C",
+        "text": "補償"
+      },
+      {
+        "id": "D",
+        "text": "保障"
+      }
+    ],
+    "contentFingerprint": "ecbee2d8c33666edcf63db193ed48c91db14aa7275466dc35805864112cef72b"
+  },
+  {
+    "id": "N2_10_M2_03",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-ORTH",
+    "category": "Mondai 2: 表記",
+    "taskInstructions": "下線部の言葉を漢字で書くとき、最もよいものを一つ選びなさい。",
+    "stem": "調査の【しんこう】を妨げないよう、質問項目を整理した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "信仰"
+      },
+      {
+        "id": "B",
+        "text": "振興"
+      },
+      {
+        "id": "C",
+        "text": "進行"
+      },
+      {
+        "id": "D",
+        "text": "新興"
+      }
+    ],
+    "contentFingerprint": "52fe0d774e827b7f434cc1133c86dd95e6a04902854d6fd52407f238a38745e9"
+  },
+  {
+    "id": "N2_10_M2_04",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-ORTH",
+    "category": "Mondai 2: 表記",
+    "taskInstructions": "下線部の言葉を漢字で書くとき、最もよいものを一つ選びなさい。",
+    "stem": "会談では、互いの国内政策に【かんしょう】しないことを確認した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "鑑賞"
+      },
+      {
+        "id": "B",
+        "text": "感傷"
+      },
+      {
+        "id": "C",
+        "text": "干渉"
+      },
+      {
+        "id": "D",
+        "text": "観賞"
+      }
+    ],
+    "contentFingerprint": "24d8e767e8ddc8c38d869d6017f0debea77f8f6c4b59ad3e8bb8bc666754ea30"
+  },
+  {
+    "id": "N2_10_M2_05",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-ORTH",
+    "category": "Mondai 2: 表記",
+    "taskInstructions": "下線部の言葉を漢字で書くとき、最もよいものを一つ選びなさい。",
+    "stem": "取り寄せの可否を判断するため、担当者は近隣店舗に商品の在庫状況を【しょうかい】した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "紹介"
+      },
+      {
+        "id": "B",
+        "text": "詳解"
+      },
+      {
+        "id": "C",
+        "text": "商会"
+      },
+      {
+        "id": "D",
+        "text": "照会"
+      }
+    ],
+    "contentFingerprint": "9c982e1304b2915e9468b7705bd8271bcd04cbbf78b08000408a20fb435faaf5"
+  },
+  {
+    "id": "N2_10_M3_01",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-FORM",
+    "category": "Mondai 3: 語形成",
+    "taskInstructions": "文脈に合う語を一つ選びなさい。",
+    "stem": "論文全体の【こうせい】を見直し、章の順番を入れ替えた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "構成"
+      },
+      {
+        "id": "B",
+        "text": "後世"
+      },
+      {
+        "id": "C",
+        "text": "厚生"
+      },
+      {
+        "id": "D",
+        "text": "公正"
+      }
+    ],
+    "contentFingerprint": "5ef31ddfceaf2394a46491a45da4de34b26d6e4e2b10c170a8131be4bdd50199"
+  },
+  {
+    "id": "N2_10_M3_02",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-FORM",
+    "category": "Mondai 3: 語形成",
+    "taskInstructions": "文脈に合う語を一つ選びなさい。",
+    "stem": "測定値は装置の設定を【とういつ】してから比べる。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "同一"
+      },
+      {
+        "id": "B",
+        "text": "統逸"
+      },
+      {
+        "id": "C",
+        "text": "統一"
+      },
+      {
+        "id": "D",
+        "text": "当一"
+      }
+    ],
+    "contentFingerprint": "7b266a2e09d307d6315754c180f3778ad50c07ca7d4f803822fdea3822848846"
+  },
+  {
+    "id": "N2_10_M3_03",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-FORM",
+    "category": "Mondai 3: 語形成",
+    "taskInstructions": "文脈に合う語を一つ選びなさい。",
+    "stem": "研究報告では、結論に至った【かてい】も説明する。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "課程"
+      },
+      {
+        "id": "B",
+        "text": "仮定"
+      },
+      {
+        "id": "C",
+        "text": "家庭"
+      },
+      {
+        "id": "D",
+        "text": "過程"
+      }
+    ],
+    "contentFingerprint": "3c75e3f06510c16e7cc64c20bbe14a7dc8ef2c0a191d585b59346909238e7034"
+  },
+  {
+    "id": "N2_10_M3_04",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-FORM",
+    "category": "Mondai 3: 語形成",
+    "taskInstructions": "文脈に合う語を一つ選びなさい。",
+    "stem": "参加者の希望を【はんえい】した案を作成した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "反映"
+      },
+      {
+        "id": "B",
+        "text": "半影"
+      },
+      {
+        "id": "C",
+        "text": "反営"
+      },
+      {
+        "id": "D",
+        "text": "繁栄"
+      }
+    ],
+    "contentFingerprint": "b688d63c34b0c72168459cc30c453d5b2264e123c99854d2e4e2c4f9ccea95c8"
+  },
+  {
+    "id": "N2_10_M3_05",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-FORM",
+    "category": "Mondai 3: 語形成",
+    "taskInstructions": "文脈に合う語を一つ選びなさい。",
+    "stem": "長期間使えるよう、部品の【こうかん】を簡単にした。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "好感"
+      },
+      {
+        "id": "B",
+        "text": "交歓"
+      },
+      {
+        "id": "C",
+        "text": "交感"
+      },
+      {
+        "id": "D",
+        "text": "交換"
+      }
+    ],
+    "contentFingerprint": "cb6cc5e8f4cb47aca4663910c502aa1bca35bd7dea4a5536a3c6bab819d6a95d"
+  },
+  {
+    "id": "N2_10_M4_01",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-CONT",
+    "category": "Mondai 4: 文脈規定",
+    "taskInstructions": "文脈に合う語を一つ選びなさい。",
+    "stem": "部品を交換する前に、必要な工具を（　）しておく必要がある。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "用意"
+      },
+      {
+        "id": "B",
+        "text": "採用"
+      },
+      {
+        "id": "C",
+        "text": "使用"
+      },
+      {
+        "id": "D",
+        "text": "利用"
+      }
+    ],
+    "contentFingerprint": "9609990694d27fe64eefe2f27ae386330c4f5b1cccfe55f3ade006a4cba7ba98"
+  },
+  {
+    "id": "N2_10_M4_02",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-CONT",
+    "category": "Mondai 4: 文脈規定",
+    "taskInstructions": "文脈に合う語を一つ選びなさい。",
+    "stem": "説明書を読んでも分からない場合は、担当者に（　）してください。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "相談"
+      },
+      {
+        "id": "B",
+        "text": "予告"
+      },
+      {
+        "id": "C",
+        "text": "発表"
+      },
+      {
+        "id": "D",
+        "text": "報告"
+      }
+    ],
+    "contentFingerprint": "559ab5d66f95b50cf3156130b5922be3fe167acfcea246ffa92742f74e80e723"
+  },
+  {
+    "id": "N2_10_M4_03",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-CONT",
+    "category": "Mondai 4: 文脈規定",
+    "taskInstructions": "文脈に合う語を一つ選びなさい。",
+    "stem": "会議の記録には、決定事項とその（　）を残しておく。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "範囲"
+      },
+      {
+        "id": "B",
+        "text": "原因"
+      },
+      {
+        "id": "C",
+        "text": "経路"
+      },
+      {
+        "id": "D",
+        "text": "根拠"
+      }
+    ],
+    "contentFingerprint": "c3377042650c77d0b9701bf134d1d4debb9f58cf051ceb47ff9d3a7d90d4f452"
+  },
+  {
+    "id": "N2_10_M4_04",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-CONT",
+    "category": "Mondai 4: 文脈規定",
+    "taskInstructions": "文脈に合う語を一つ選びなさい。",
+    "stem": "担当者は重複する表現を削り、要点を保ったまま、利用者が理解しやすいよう内容を（　）にまとめた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "詳細"
+      },
+      {
+        "id": "B",
+        "text": "簡潔"
+      },
+      {
+        "id": "C",
+        "text": "一律"
+      },
+      {
+        "id": "D",
+        "text": "個別"
+      }
+    ],
+    "contentFingerprint": "f57ddb440eebb3dd128997136ba5a8b502031da667085888924d228eee2a2e2e"
+  },
+  {
+    "id": "N2_10_M4_05",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-CONT",
+    "category": "Mondai 4: 文脈規定",
+    "taskInstructions": "文脈に合う語を一つ選びなさい。",
+    "stem": "雨の影響で日程を（　）したため、参加者へ連絡した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "中断"
+      },
+      {
+        "id": "B",
+        "text": "延期"
+      },
+      {
+        "id": "C",
+        "text": "延長"
+      },
+      {
+        "id": "D",
+        "text": "短縮"
+      }
+    ],
+    "contentFingerprint": "d633a691e613df7039ee551011906477c46c9d9ed03ffb5d855ae6b7e3eaa337"
+  },
+  {
+    "id": "N2_10_M4_06",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-CONT",
+    "category": "Mondai 4: 文脈規定",
+    "taskInstructions": "文脈に合う語を一つ選びなさい。",
+    "stem": "予算が限られているため、全ての希望に（　）ことはできない。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "伴う"
+      },
+      {
+        "id": "B",
+        "text": "備える"
+      },
+      {
+        "id": "C",
+        "text": "応じる"
+      },
+      {
+        "id": "D",
+        "text": "至る"
+      }
+    ],
+    "contentFingerprint": "033214991f63e447de13a20e1b57173021bc2163124f0a526b61d04bab55719b"
+  },
+  {
+    "id": "N2_10_M4_07",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-CONT",
+    "category": "Mondai 4: 文脈規定",
+    "taskInstructions": "文脈に合う語を一つ選びなさい。",
+    "stem": "調査結果を一つの地域だけに当てはめず、人口・交通・費用を合わせて（　）に考える。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "個別"
+      },
+      {
+        "id": "B",
+        "text": "総合的"
+      },
+      {
+        "id": "C",
+        "text": "単独"
+      },
+      {
+        "id": "D",
+        "text": "部分的"
+      }
+    ],
+    "contentFingerprint": "abacb1fc2cc799f4ce0df5b9ee7a54ba55b8ece67f6404a0383373309ecee1c6"
+  },
+  {
+    "id": "N2_10_M5_01",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-PARA",
+    "category": "Mondai 5: 言い換え類義",
+    "taskInstructions": "下線部の意味に最も近いものを一つ選びなさい。",
+    "stem": "この素材は熱に【強い】。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "熱の影響を受けやすい"
+      },
+      {
+        "id": "B",
+        "text": "熱の影響を受けにくい"
+      },
+      {
+        "id": "C",
+        "text": "熱で性質が変化しやすい"
+      },
+      {
+        "id": "D",
+        "text": "熱を伝えやすい"
+      }
+    ],
+    "contentFingerprint": "59637263faba0b9d1f1cab110f28e635303147c41857c17d2bf37fc2c0061053"
+  },
+  {
+    "id": "N2_10_M5_02",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-PARA",
+    "category": "Mondai 5: 言い換え類義",
+    "taskInstructions": "下線部の意味に最も近いものを一つ選びなさい。",
+    "stem": "担当者は【念のため】、もう一度数値を確認した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "急いで"
+      },
+      {
+        "id": "B",
+        "text": "確認の代わりに"
+      },
+      {
+        "id": "C",
+        "text": "万一に備えて"
+      },
+      {
+        "id": "D",
+        "text": "必要がないのに"
+      }
+    ],
+    "contentFingerprint": "d7a446ab5ed30a3ad09015e644ae700cef3ddd437e2dc90299ac79839c9c643f"
+  },
+  {
+    "id": "N2_10_M5_03",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-PARA",
+    "category": "Mondai 5: 言い換え類義",
+    "taskInstructions": "下線部の意味に最も近いものを一つ選びなさい。",
+    "stem": "この方法は【従来】の手順と大きく異なる。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "簡略化された"
+      },
+      {
+        "id": "B",
+        "text": "これから採用する"
+      },
+      {
+        "id": "C",
+        "text": "一時的な"
+      },
+      {
+        "id": "D",
+        "text": "これまでの"
+      }
+    ],
+    "contentFingerprint": "e4e291c7de6791ad9b1a464ef228d8d4dc5cb1661a8dcc3f8b657cf2b4aec873"
+  },
+  {
+    "id": "N2_10_M5_04",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-PARA",
+    "category": "Mondai 5: 言い換え類義",
+    "taskInstructions": "下線部の意味に最も近いものを一つ選びなさい。",
+    "stem": "暴風警報が解除されるまで、屋外作業の実施を【見合わせる】ことにした。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "警報が解除されるまで作業を延期する"
+      },
+      {
+        "id": "B",
+        "text": "作業計画そのものを取りやめる"
+      },
+      {
+        "id": "C",
+        "text": "屋外作業を別の人に任せる"
+      },
+      {
+        "id": "D",
+        "text": "警報が出ている間に作業を始める"
+      }
+    ],
+    "contentFingerprint": "ac7cce86ce480b43f65a0a023e63881d0053fd194737632a13751e403d00133d"
+  },
+  {
+    "id": "N2_10_M5_05",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-PARA",
+    "category": "Mondai 5: 言い換え類義",
+    "taskInstructions": "下線部の意味に最も近いものを一つ選びなさい。",
+    "stem": "新しい案は費用の面で【現実的ではない】。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "以前から使われている"
+      },
+      {
+        "id": "B",
+        "text": "多くの人に知られている"
+      },
+      {
+        "id": "C",
+        "text": "細部まで決まっている"
+      },
+      {
+        "id": "D",
+        "text": "実際の条件では実行しにくい"
+      }
+    ],
+    "contentFingerprint": "fca3de723f86f32485de6bad43a30d8469ac5fcd8bfdcc64502b27263cbb8653"
+  },
+  {
+    "id": "N2_10_M6_01",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-USE",
+    "category": "Mondai 6: 用法",
+    "taskInstructions": "語の使い方として最もよいものを一つ選びなさい。",
+    "stem": "「妥当」の使い方として最もよいものはどれか。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "参加者の年齢に妥当して、案内の文字を大きくした。"
+      },
+      {
+        "id": "B",
+        "text": "担当者は見積額を妥当し、予算を確定した。"
+      },
+      {
+        "id": "C",
+        "text": "費用と対象年齢を踏まえると、この計画は妥当と言える。"
+      },
+      {
+        "id": "D",
+        "text": "この計画の妥当を検討し、実施日を決めた。"
+      }
+    ],
+    "contentFingerprint": "e6ea2fad5b23f81064a13ff41cede1089f780571c0fc5fb270c0dfea1df7f774"
+  },
+  {
+    "id": "N2_10_M6_02",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-USE",
+    "category": "Mondai 6: 用法",
+    "taskInstructions": "語の使い方として最もよいものを一つ選びなさい。",
+    "stem": "「促す」の使い方として最もよいものはどれか。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "案内板は利用者に申請書を促していた。"
+      },
+      {
+        "id": "B",
+        "text": "担当者は利用者に、締切前に申請するよう促した。"
+      },
+      {
+        "id": "C",
+        "text": "担当者は利用者へ、申請の締切を促した。"
+      },
+      {
+        "id": "D",
+        "text": "利用者は窓口で申請の順番を促した。"
+      }
+    ],
+    "contentFingerprint": "b526dafd9764baa29bd40d40a4ddd2f29636c4a631cbcb960d56e8d85abd7164"
+  },
+  {
+    "id": "N2_10_M6_03",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-USE",
+    "category": "Mondai 6: 用法",
+    "taskInstructions": "語の使い方として最もよいものを一つ選びなさい。",
+    "stem": "「見込む」を将来の数値を予測する意味で使っている文はどれか。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "来年度は利用者が二割増えると見込んでいる。"
+      },
+      {
+        "id": "B",
+        "text": "資料の内容を見込んで、会議の要点を記録した。"
+      },
+      {
+        "id": "C",
+        "text": "捜査本部は、集めた証拠から彼を事件の関係者と見込んでいる。"
+      },
+      {
+        "id": "D",
+        "text": "社長は若手社員の実力を見込んで、責任ある仕事を任せた。"
+      }
+    ],
+    "contentFingerprint": "05d1a5660941808895304d1adaf8d43c87a7618ae8db6dc8b8b4272857f4886f"
+  },
+  {
+    "id": "N2_10_M6_04",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-USE",
+    "category": "Mondai 6: 用法",
+    "taskInstructions": "語の使い方として最もよいものを一つ選びなさい。",
+    "stem": "「補う」を説明の情報不足に図を追加する意味で使っている文はどれか。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "説明が足りない図を補い、文章を短くした。"
+      },
+      {
+        "id": "B",
+        "text": "説明の不足を図で補い、利用者が手順を理解しやすくした。"
+      },
+      {
+        "id": "C",
+        "text": "説明を図に補い、利用者が手順を理解しやすくした。"
+      },
+      {
+        "id": "D",
+        "text": "図の不足を説明で補い、利用者が手順を理解しやすくした。"
+      }
+    ],
+    "contentFingerprint": "2aa172a0af19ab2c56dde1b3c382962c1f4d9ae236f3894de8689c9a06dedbcf"
+  },
+  {
+    "id": "N2_10_M6_05",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-USE",
+    "category": "Mondai 6: 用法",
+    "taskInstructions": "語の使い方として最もよいものを一つ選びなさい。",
+    "stem": "「備える」を将来の事態に前もって準備する意味で使っている文はどれか。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "新しい施設には、非常用発電機が備えられている。"
+      },
+      {
+        "id": "B",
+        "text": "この端末は、停電時にも使える大容量バッテリーを備えている。"
+      },
+      {
+        "id": "C",
+        "text": "大雨に備えて、避難経路と連絡方法を確認した。"
+      },
+      {
+        "id": "D",
+        "text": "彼女は専門知識と豊富な経験を備えた講師だ。"
+      }
+    ],
+    "contentFingerprint": "56cc93e1474a3807998483bd00f4700a5ff5f58f437eae16ca99e1fe1d44c2dc"
+  },
+  {
+    "id": "N2_10_M7_01",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "Mondai 7: 文法形式の判断",
+    "taskInstructions": "文の（　）に入る最もよいものを一つ選びなさい。",
+    "stem": "調査を始める（　）、参加者に目的と所要時間を説明した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "に反して"
+      },
+      {
+        "id": "B",
+        "text": "にあたって"
+      },
+      {
+        "id": "C",
+        "text": "に限って"
+      },
+      {
+        "id": "D",
+        "text": "を問わず"
+      }
+    ],
+    "contentFingerprint": "18b81f1c8942a5e977871670dd393b8aa432175a4c9c735ddf08c5b7582a8942"
+  },
+  {
+    "id": "N2_10_M7_02",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "Mondai 7: 文法形式の判断",
+    "taskInstructions": "文の（　）に入る最もよいものを一つ選びなさい。",
+    "stem": "測定方法を確認する（　）、結果を公表してはならない。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "ことなく"
+      },
+      {
+        "id": "B",
+        "text": "たとたん"
+      },
+      {
+        "id": "C",
+        "text": "一方で"
+      },
+      {
+        "id": "D",
+        "text": "だけあって"
+      }
+    ],
+    "contentFingerprint": "e7c8cde279b8a17c5622b0da6d9aca4e4f7ef9b7aa9f93481d719407cd364d99"
+  },
+  {
+    "id": "N2_10_M7_03",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "Mondai 7: 文法形式の判断",
+    "taskInstructions": "文の（　）に入る最もよいものを一つ選びなさい。",
+    "stem": "参加人数が予想を大きく上回った（　）、受付を二か所に分けた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "に限り"
+      },
+      {
+        "id": "B",
+        "text": "とともに"
+      },
+      {
+        "id": "C",
+        "text": "に先立って"
+      },
+      {
+        "id": "D",
+        "text": "ことから"
+      }
+    ],
+    "contentFingerprint": "911c88089cf26c76d966f81db6d6fc27bf7d13651e33b5471fb4e1ba1d4635d3"
+  },
+  {
+    "id": "N2_10_M7_04",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "Mondai 7: 文法形式の判断",
+    "taskInstructions": "文の（　）に入る最もよいものを一つ選びなさい。",
+    "stem": "複数の案を比べた（　）、費用だけでなく使いやすさも考慮した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "とはいえ"
+      },
+      {
+        "id": "B",
+        "text": "に伴い"
+      },
+      {
+        "id": "C",
+        "text": "に応じて"
+      },
+      {
+        "id": "D",
+        "text": "上で"
+      }
+    ],
+    "contentFingerprint": "6e8d94a64499386325b20c320affab1b1384c338868c2f174fa5a9e35e1d8f87"
+  },
+  {
+    "id": "N2_10_M7_05",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "Mondai 7: 文法形式の判断",
+    "taskInstructions": "文の（　）に入る最もよいものを一つ選びなさい。",
+    "stem": "説明の内容は専門家（　）、初めて聞く人にも伝わるよう工夫した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "に限らず"
+      },
+      {
+        "id": "B",
+        "text": "にとって"
+      },
+      {
+        "id": "C",
+        "text": "に限って"
+      },
+      {
+        "id": "D",
+        "text": "にしては"
+      }
+    ],
+    "contentFingerprint": "0b674338c9bf0459a35d801eab211bdeae6b38a162423a2bb4d988c11c8ea8a1"
+  },
+  {
+    "id": "N2_10_M7_06",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "Mondai 7: 文法形式の判断",
+    "taskInstructions": "文の（　）に入る最もよいものを一つ選びなさい。",
+    "stem": "災害時に備えて、飲料水は多めに準備しておく（　）。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "わけにはいかない"
+      },
+      {
+        "id": "B",
+        "text": "に越したことはない"
+      },
+      {
+        "id": "C",
+        "text": "どころではない"
+      },
+      {
+        "id": "D",
+        "text": "きらいがある"
+      }
+    ],
+    "contentFingerprint": "98013309b41b5f30b0d95291a896a2ac3c68ab388451e42fa16b49742c1845dd"
+  }
+]

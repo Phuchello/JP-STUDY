@@ -23,12 +23,15 @@ const fs = require('fs');
 const assert = require('assert/strict');
 
 const ROOT = path.resolve(__dirname, '../..');
+const SYSTEM_CHROME = 'C:/Program Files/Google/Chrome/Application/chrome.exe';
+const CHROME_PATH = process.env.CHROME_PATH || (process.platform === 'win32' && fs.existsSync(SYSTEM_CHROME) ? SYSTEM_CHROME : undefined);
 const CATALOG_URL = 'file:///' + path.join(ROOT, 'docs/widgets/jlpt_exam_catalog.html').replaceAll('\\', '/');
 const ENGINE_URL = 'file:///' + path.join(ROOT, 'docs/widgets/practice_engine.html').replaceAll('\\', '/');
 
 async function runBrowserSmoke() {
   console.log('=== FAST CI BROWSER SMOKE TEST (15 CRITICAL FLOWS) ===');
   const browser = await chromium.launch({
+    ...(CHROME_PATH ? { executablePath: CHROME_PATH } : {}),
     headless: true,
     args: ['--autoplay-policy=no-user-gesture-required', '--allow-file-access-from-files']
   });

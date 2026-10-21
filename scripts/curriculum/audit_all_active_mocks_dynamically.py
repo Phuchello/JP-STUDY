@@ -20,6 +20,7 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from scripts.curriculum.audit_n2_mock_105_questions import audit_mock_105
+from scripts.curriculum.acoustic_assurance import evaluate_audio_track_assurance
 from scripts.curriculum.discovery import discover_active_n2_mocks
 
 def sha256_file(path: Path) -> str:
@@ -122,12 +123,49 @@ def audit_single_discovered_mock(mock_num_str: str, exam_file: Path, catalog_htm
         failures.append(f"{mid}: Missing audio playback receipt {receipt_file.name}")
     else:
         receipt = json.loads(receipt_file.read_text(encoding='utf-8'))
-        tracks = receipt.get('tracks', {})
+        detailed_rows = receipt.get('results', [])
+        tracks = {}
+        if isinstance(detailed_rows, list) and detailed_rows:
+            for row in detailed_rows:
+                if not isinstance(row, dict):
+                    continue
+                qid = row.get('questionId') or row.get('id') or row.get('qid')
+                if qid and qid not in tracks:
+                    tracks[qid] = row
+                elif qid:
+                    failures.append(f"{mid}: Duplicate playback receipt row for {qid}")
+        else:
+            legacy_tracks = receipt.get('tracks', {})
+            if isinstance(legacy_tracks, dict):
+                for qid, row in legacy_tracks.items():
+                    if isinstance(row, dict):
+                        bound_row = dict(row)
+                        bound_row.setdefault('questionId', qid)
+                        tracks[qid] = bound_row
         if len(tracks) != 30:
             failures.append(f"{mid}: Audio playback receipt has {len(tracks)} tracks (expected 30)")
-        verified_count = sum(1 for t in tracks.values() if t.get('browserPlaybackVerified'))
+
+        manifest_tracks = {}
+        if manifest_file.exists():
+            manifest_raw = json.loads(manifest_file.read_text(encoding='utf-8'))
+            if isinstance(manifest_raw, list):
+                manifest_tracks = {
+                    row.get('id') or row.get('qid') or row.get('questionId'): row
+                    for row in manifest_raw if isinstance(row, dict)
+                }
+            elif isinstance(manifest_raw, dict):
+                manifest_tracks = manifest_raw.get('tracks', manifest_raw)
+        verified_count = 0
+        for qid, row in tracks.items():
+            meta = dict(manifest_tracks.get(qid, {}))
+            meta.setdefault('questionId', qid)
+            rel_url = meta.get('audioUrl', '')
+            live_mp3 = ROOT / 'docs' / rel_url if rel_url else audio_dir / f"{qid}.mp3"
+            assurance = evaluate_audio_track_assurance(meta, row, live_mp3)
+            if assurance['BROWSER_PLAYBACK_VERIFIED']:
+                verified_count += 1
         if verified_count != 30:
-            failures.append(f"{mid}: Only {verified_count}/30 audio tracks verified browser playback")
+            failures.append(f"{mid}: Only {verified_count}/30 audio tracks have ID-bound hash, decode, and playback-progression evidence")
 
     # 8. Check Catalog and Mock Exam Bank
     if mid not in catalog_html:

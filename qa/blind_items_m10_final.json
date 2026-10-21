@@ -1,0 +1,3003 @@
+[
+  {
+    "id": "N2_10_M1_01",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-READ",
+    "category": "Mondai 1: 漢字読み",
+    "taskInstructions": "下線部の言葉の読み方として最もよいものを一つ選びなさい。",
+    "stem": "講演会には専門分野の【聴衆】が集まった。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "ていしゅう"
+      },
+      {
+        "id": "B",
+        "text": "ちょうしゅう"
+      },
+      {
+        "id": "C",
+        "text": "ちょうしゅ"
+      },
+      {
+        "id": "D",
+        "text": "ちょうじゅう"
+      }
+    ],
+    "contentFingerprint": "74d9a263ceddec67bf9b374a610d1cd29290267f7c421d401c01f9e295c369b0"
+  },
+  {
+    "id": "N2_10_M1_02",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-READ",
+    "category": "Mondai 1: 漢字読み",
+    "taskInstructions": "下線部の言葉の読み方として最もよいものを一つ選びなさい。",
+    "stem": "研究者は新素材の耐久性を【検証】した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "げんしょう"
+      },
+      {
+        "id": "B",
+        "text": "けんじょう"
+      },
+      {
+        "id": "C",
+        "text": "けんしょう"
+      },
+      {
+        "id": "D",
+        "text": "けんそう"
+      }
+    ],
+    "contentFingerprint": "2428adea4dc252cca82ba85ec5c7cc70f43327bf5512a438f054091881cb9d71"
+  },
+  {
+    "id": "N2_10_M1_03",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-READ",
+    "category": "Mondai 1: 漢字読み",
+    "taskInstructions": "下線部の言葉の読み方として最もよいものを一つ選びなさい。",
+    "stem": "試作品の【耐久】性を確かめる試験を行う。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "たいく"
+      },
+      {
+        "id": "B",
+        "text": "たいぐう"
+      },
+      {
+        "id": "C",
+        "text": "だいきゅう"
+      },
+      {
+        "id": "D",
+        "text": "たいきゅう"
+      }
+    ],
+    "contentFingerprint": "ef19a68b9d196f67e5d0548b3f79dbf78ebdd1a742e74a8c7965f9f2b00e61a7"
+  },
+  {
+    "id": "N2_10_M1_04",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-READ",
+    "category": "Mondai 1: 漢字読み",
+    "taskInstructions": "下線部の言葉の読み方として最もよいものを一つ選びなさい。",
+    "stem": "駅前の歩道は幅が狭く、朝は特に【混雑】する。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "こんざつ"
+      },
+      {
+        "id": "B",
+        "text": "こうざつ"
+      },
+      {
+        "id": "C",
+        "text": "こんせつ"
+      },
+      {
+        "id": "D",
+        "text": "こんさつ"
+      }
+    ],
+    "contentFingerprint": "56a0e6da731ce14ce7ca1f5e240805cbcf741bfbb83e05c4598937ac3de251d9"
+  },
+  {
+    "id": "N2_10_M1_05",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-READ",
+    "category": "Mondai 1: 漢字読み",
+    "taskInstructions": "下線部の言葉の読み方として最もよいものを一つ選びなさい。",
+    "stem": "新しい制度の【概要】を利用者に説明した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "がいよう"
+      },
+      {
+        "id": "B",
+        "text": "かいよう"
+      },
+      {
+        "id": "C",
+        "text": "がいようう"
+      },
+      {
+        "id": "D",
+        "text": "がいおう"
+      }
+    ],
+    "contentFingerprint": "995faf38fa25b6ff3ca4bf8101f2d5983d1a2bf1c7de79f2bc2a225ba1ea612d"
+  },
+  {
+    "id": "N2_10_M2_01",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-ORTH",
+    "category": "Mondai 2: 表記",
+    "taskInstructions": "下線部の言葉を漢字で書くとき、最もよいものを一つ選びなさい。",
+    "stem": "次年度の予算について、自治体と【こうしょう】を続けている。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "高尚"
+      },
+      {
+        "id": "B",
+        "text": "交渉"
+      },
+      {
+        "id": "C",
+        "text": "鉱床"
+      },
+      {
+        "id": "D",
+        "text": "工廠"
+      }
+    ],
+    "contentFingerprint": "250ac21bf053f3e430ad0bfe97978a7abab6aad0dcc2014c6a9140f016119c61"
+  },
+  {
+    "id": "N2_10_M2_02",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-ORTH",
+    "category": "Mondai 2: 表記",
+    "taskInstructions": "下線部の言葉を漢字で書くとき、最もよいものを一つ選びなさい。",
+    "stem": "事故による損失を、契約に基づいて【ほしょう】する。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "歩哨"
+      },
+      {
+        "id": "B",
+        "text": "保証"
+      },
+      {
+        "id": "C",
+        "text": "補償"
+      },
+      {
+        "id": "D",
+        "text": "保障"
+      }
+    ],
+    "contentFingerprint": "ecbee2d8c33666edcf63db193ed48c91db14aa7275466dc35805864112cef72b"
+  },
+  {
+    "id": "N2_10_M2_03",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-ORTH",
+    "category": "Mondai 2: 表記",
+    "taskInstructions": "下線部の言葉を漢字で書くとき、最もよいものを一つ選びなさい。",
+    "stem": "調査の【しんこう】を妨げないよう、質問項目を整理した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "信仰"
+      },
+      {
+        "id": "B",
+        "text": "振興"
+      },
+      {
+        "id": "C",
+        "text": "進行"
+      },
+      {
+        "id": "D",
+        "text": "新興"
+      }
+    ],
+    "contentFingerprint": "52fe0d774e827b7f434cc1133c86dd95e6a04902854d6fd52407f238a38745e9"
+  },
+  {
+    "id": "N2_10_M2_04",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-ORTH",
+    "category": "Mondai 2: 表記",
+    "taskInstructions": "下線部の言葉を漢字で書くとき、最もよいものを一つ選びなさい。",
+    "stem": "会談では、互いの国内政策に【かんしょう】しないことを確認した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "鑑賞"
+      },
+      {
+        "id": "B",
+        "text": "感傷"
+      },
+      {
+        "id": "C",
+        "text": "干渉"
+      },
+      {
+        "id": "D",
+        "text": "観賞"
+      }
+    ],
+    "contentFingerprint": "24d8e767e8ddc8c38d869d6017f0debea77f8f6c4b59ad3e8bb8bc666754ea30"
+  },
+  {
+    "id": "N2_10_M2_05",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-ORTH",
+    "category": "Mondai 2: 表記",
+    "taskInstructions": "下線部の言葉を漢字で書くとき、最もよいものを一つ選びなさい。",
+    "stem": "取り寄せの可否を判断するため、担当者は近隣店舗に商品の在庫状況を【しょうかい】した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "紹介"
+      },
+      {
+        "id": "B",
+        "text": "詳解"
+      },
+      {
+        "id": "C",
+        "text": "商会"
+      },
+      {
+        "id": "D",
+        "text": "照会"
+      }
+    ],
+    "contentFingerprint": "9c982e1304b2915e9468b7705bd8271bcd04cbbf78b08000408a20fb435faaf5"
+  },
+  {
+    "id": "N2_10_M3_01",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-FORM",
+    "category": "Mondai 3: 語形成",
+    "taskInstructions": "文脈に合う語を一つ選びなさい。",
+    "stem": "論文全体の【こうせい】を見直し、章の順番を入れ替えた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "構成"
+      },
+      {
+        "id": "B",
+        "text": "後世"
+      },
+      {
+        "id": "C",
+        "text": "厚生"
+      },
+      {
+        "id": "D",
+        "text": "公正"
+      }
+    ],
+    "contentFingerprint": "5ef31ddfceaf2394a46491a45da4de34b26d6e4e2b10c170a8131be4bdd50199"
+  },
+  {
+    "id": "N2_10_M3_02",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-FORM",
+    "category": "Mondai 3: 語形成",
+    "taskInstructions": "文脈に合う語を一つ選びなさい。",
+    "stem": "測定値は装置の設定を【とういつ】してから比べる。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "同一"
+      },
+      {
+        "id": "B",
+        "text": "統逸"
+      },
+      {
+        "id": "C",
+        "text": "統一"
+      },
+      {
+        "id": "D",
+        "text": "当一"
+      }
+    ],
+    "contentFingerprint": "7b266a2e09d307d6315754c180f3778ad50c07ca7d4f803822fdea3822848846"
+  },
+  {
+    "id": "N2_10_M3_03",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-FORM",
+    "category": "Mondai 3: 語形成",
+    "taskInstructions": "文脈に合う語を一つ選びなさい。",
+    "stem": "研究報告では、結論に至った【かてい】も説明する。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "課程"
+      },
+      {
+        "id": "B",
+        "text": "仮定"
+      },
+      {
+        "id": "C",
+        "text": "家庭"
+      },
+      {
+        "id": "D",
+        "text": "過程"
+      }
+    ],
+    "contentFingerprint": "3c75e3f06510c16e7cc64c20bbe14a7dc8ef2c0a191d585b59346909238e7034"
+  },
+  {
+    "id": "N2_10_M3_04",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-FORM",
+    "category": "Mondai 3: 語形成",
+    "taskInstructions": "文脈に合う語を一つ選びなさい。",
+    "stem": "参加者の希望を【はんえい】した案を作成した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "反映"
+      },
+      {
+        "id": "B",
+        "text": "半影"
+      },
+      {
+        "id": "C",
+        "text": "反営"
+      },
+      {
+        "id": "D",
+        "text": "繁栄"
+      }
+    ],
+    "contentFingerprint": "b688d63c34b0c72168459cc30c453d5b2264e123c99854d2e4e2c4f9ccea95c8"
+  },
+  {
+    "id": "N2_10_M3_05",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-FORM",
+    "category": "Mondai 3: 語形成",
+    "taskInstructions": "文脈に合う語を一つ選びなさい。",
+    "stem": "長期間使えるよう、部品の【こうかん】を簡単にした。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "好感"
+      },
+      {
+        "id": "B",
+        "text": "交歓"
+      },
+      {
+        "id": "C",
+        "text": "交感"
+      },
+      {
+        "id": "D",
+        "text": "交換"
+      }
+    ],
+    "contentFingerprint": "cb6cc5e8f4cb47aca4663910c502aa1bca35bd7dea4a5536a3c6bab819d6a95d"
+  },
+  {
+    "id": "N2_10_M4_01",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-CONT",
+    "category": "Mondai 4: 文脈規定",
+    "taskInstructions": "文脈に合う語を一つ選びなさい。",
+    "stem": "部品を交換する前に、必要な工具を（　）しておく必要がある。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "用意"
+      },
+      {
+        "id": "B",
+        "text": "採用"
+      },
+      {
+        "id": "C",
+        "text": "使用"
+      },
+      {
+        "id": "D",
+        "text": "利用"
+      }
+    ],
+    "contentFingerprint": "9609990694d27fe64eefe2f27ae386330c4f5b1cccfe55f3ade006a4cba7ba98"
+  },
+  {
+    "id": "N2_10_M4_02",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-CONT",
+    "category": "Mondai 4: 文脈規定",
+    "taskInstructions": "文脈に合う語を一つ選びなさい。",
+    "stem": "説明書を読んでも分からない場合は、担当者に（　）してください。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "相談"
+      },
+      {
+        "id": "B",
+        "text": "予告"
+      },
+      {
+        "id": "C",
+        "text": "発表"
+      },
+      {
+        "id": "D",
+        "text": "報告"
+      }
+    ],
+    "contentFingerprint": "559ab5d66f95b50cf3156130b5922be3fe167acfcea246ffa92742f74e80e723"
+  },
+  {
+    "id": "N2_10_M4_03",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-CONT",
+    "category": "Mondai 4: 文脈規定",
+    "taskInstructions": "文脈に合う語を一つ選びなさい。",
+    "stem": "会議の記録には、決定事項とその（　）を残しておく。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "範囲"
+      },
+      {
+        "id": "B",
+        "text": "原因"
+      },
+      {
+        "id": "C",
+        "text": "経路"
+      },
+      {
+        "id": "D",
+        "text": "根拠"
+      }
+    ],
+    "contentFingerprint": "c3377042650c77d0b9701bf134d1d4debb9f58cf051ceb47ff9d3a7d90d4f452"
+  },
+  {
+    "id": "N2_10_M4_04",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-CONT",
+    "category": "Mondai 4: 文脈規定",
+    "taskInstructions": "文脈に合う語を一つ選びなさい。",
+    "stem": "担当者は重複する表現を削り、要点を保ったまま、利用者が理解しやすいよう内容を（　）にまとめた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "詳細"
+      },
+      {
+        "id": "B",
+        "text": "簡潔"
+      },
+      {
+        "id": "C",
+        "text": "一律"
+      },
+      {
+        "id": "D",
+        "text": "個別"
+      }
+    ],
+    "contentFingerprint": "f57ddb440eebb3dd128997136ba5a8b502031da667085888924d228eee2a2e2e"
+  },
+  {
+    "id": "N2_10_M4_05",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-CONT",
+    "category": "Mondai 4: 文脈規定",
+    "taskInstructions": "文脈に合う語を一つ選びなさい。",
+    "stem": "雨の影響で日程を（　）したため、参加者へ連絡した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "中断"
+      },
+      {
+        "id": "B",
+        "text": "延期"
+      },
+      {
+        "id": "C",
+        "text": "延長"
+      },
+      {
+        "id": "D",
+        "text": "短縮"
+      }
+    ],
+    "contentFingerprint": "d633a691e613df7039ee551011906477c46c9d9ed03ffb5d855ae6b7e3eaa337"
+  },
+  {
+    "id": "N2_10_M4_06",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-CONT",
+    "category": "Mondai 4: 文脈規定",
+    "taskInstructions": "文脈に合う語を一つ選びなさい。",
+    "stem": "予算が限られているため、全ての希望に（　）ことはできない。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "伴う"
+      },
+      {
+        "id": "B",
+        "text": "備える"
+      },
+      {
+        "id": "C",
+        "text": "応じる"
+      },
+      {
+        "id": "D",
+        "text": "至る"
+      }
+    ],
+    "contentFingerprint": "033214991f63e447de13a20e1b57173021bc2163124f0a526b61d04bab55719b"
+  },
+  {
+    "id": "N2_10_M4_07",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-CONT",
+    "category": "Mondai 4: 文脈規定",
+    "taskInstructions": "文脈に合う語を一つ選びなさい。",
+    "stem": "調査結果を一つの地域だけに当てはめず、人口・交通・費用を合わせて（　）に考える。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "個別"
+      },
+      {
+        "id": "B",
+        "text": "総合的"
+      },
+      {
+        "id": "C",
+        "text": "単独"
+      },
+      {
+        "id": "D",
+        "text": "部分的"
+      }
+    ],
+    "contentFingerprint": "abacb1fc2cc799f4ce0df5b9ee7a54ba55b8ece67f6404a0383373309ecee1c6"
+  },
+  {
+    "id": "N2_10_M5_01",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-PARA",
+    "category": "Mondai 5: 言い換え類義",
+    "taskInstructions": "下線部の意味に最も近いものを一つ選びなさい。",
+    "stem": "この素材は熱に【強い】。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "熱の影響を受けやすい"
+      },
+      {
+        "id": "B",
+        "text": "熱の影響を受けにくい"
+      },
+      {
+        "id": "C",
+        "text": "熱で性質が変化しやすい"
+      },
+      {
+        "id": "D",
+        "text": "熱を伝えやすい"
+      }
+    ],
+    "contentFingerprint": "59637263faba0b9d1f1cab110f28e635303147c41857c17d2bf37fc2c0061053"
+  },
+  {
+    "id": "N2_10_M5_02",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-PARA",
+    "category": "Mondai 5: 言い換え類義",
+    "taskInstructions": "下線部の意味に最も近いものを一つ選びなさい。",
+    "stem": "担当者は【念のため】、もう一度数値を確認した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "急いで"
+      },
+      {
+        "id": "B",
+        "text": "確認の代わりに"
+      },
+      {
+        "id": "C",
+        "text": "万一に備えて"
+      },
+      {
+        "id": "D",
+        "text": "必要がないのに"
+      }
+    ],
+    "contentFingerprint": "d7a446ab5ed30a3ad09015e644ae700cef3ddd437e2dc90299ac79839c9c643f"
+  },
+  {
+    "id": "N2_10_M5_03",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-PARA",
+    "category": "Mondai 5: 言い換え類義",
+    "taskInstructions": "下線部の意味に最も近いものを一つ選びなさい。",
+    "stem": "この方法は【従来】の手順と大きく異なる。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "簡略化された"
+      },
+      {
+        "id": "B",
+        "text": "これから採用する"
+      },
+      {
+        "id": "C",
+        "text": "一時的な"
+      },
+      {
+        "id": "D",
+        "text": "これまでの"
+      }
+    ],
+    "contentFingerprint": "e4e291c7de6791ad9b1a464ef228d8d4dc5cb1661a8dcc3f8b657cf2b4aec873"
+  },
+  {
+    "id": "N2_10_M5_04",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-PARA",
+    "category": "Mondai 5: 言い換え類義",
+    "taskInstructions": "下線部の意味に最も近いものを一つ選びなさい。",
+    "stem": "暴風警報が解除されるまで、屋外作業の実施を【見合わせる】ことにした。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "警報が解除されるまで作業を延期する"
+      },
+      {
+        "id": "B",
+        "text": "作業計画そのものを取りやめる"
+      },
+      {
+        "id": "C",
+        "text": "屋外作業を別の人に任せる"
+      },
+      {
+        "id": "D",
+        "text": "警報が出ている間に作業を始める"
+      }
+    ],
+    "contentFingerprint": "ac7cce86ce480b43f65a0a023e63881d0053fd194737632a13751e403d00133d"
+  },
+  {
+    "id": "N2_10_M5_05",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-PARA",
+    "category": "Mondai 5: 言い換え類義",
+    "taskInstructions": "下線部の意味に最も近いものを一つ選びなさい。",
+    "stem": "新しい案は費用の面で【現実的ではない】。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "以前から使われている"
+      },
+      {
+        "id": "B",
+        "text": "多くの人に知られている"
+      },
+      {
+        "id": "C",
+        "text": "細部まで決まっている"
+      },
+      {
+        "id": "D",
+        "text": "実際の条件では実行しにくい"
+      }
+    ],
+    "contentFingerprint": "fca3de723f86f32485de6bad43a30d8469ac5fcd8bfdcc64502b27263cbb8653"
+  },
+  {
+    "id": "N2_10_M6_01",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-USE",
+    "category": "Mondai 6: 用法",
+    "taskInstructions": "語の使い方として最もよいものを一つ選びなさい。",
+    "stem": "「妥当」の使い方として最もよいものはどれか。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "参加者の年齢に妥当して、案内の文字を大きくした。"
+      },
+      {
+        "id": "B",
+        "text": "担当者は見積額を妥当し、予算を確定した。"
+      },
+      {
+        "id": "C",
+        "text": "費用と対象年齢を踏まえると、この計画は妥当と言える。"
+      },
+      {
+        "id": "D",
+        "text": "この計画の妥当を検討し、実施日を決めた。"
+      }
+    ],
+    "contentFingerprint": "e6ea2fad5b23f81064a13ff41cede1089f780571c0fc5fb270c0dfea1df7f774"
+  },
+  {
+    "id": "N2_10_M6_02",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-USE",
+    "category": "Mondai 6: 用法",
+    "taskInstructions": "語の使い方として最もよいものを一つ選びなさい。",
+    "stem": "「促す」の使い方として最もよいものはどれか。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "案内板は利用者に申請書を促していた。"
+      },
+      {
+        "id": "B",
+        "text": "担当者は利用者に、締切前に申請するよう促した。"
+      },
+      {
+        "id": "C",
+        "text": "担当者は利用者へ、申請の締切を促した。"
+      },
+      {
+        "id": "D",
+        "text": "利用者は窓口で申請の順番を促した。"
+      }
+    ],
+    "contentFingerprint": "b526dafd9764baa29bd40d40a4ddd2f29636c4a631cbcb960d56e8d85abd7164"
+  },
+  {
+    "id": "N2_10_M6_03",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-USE",
+    "category": "Mondai 6: 用法",
+    "taskInstructions": "語の使い方として最もよいものを一つ選びなさい。",
+    "stem": "「見込む」を将来の数値を予測する意味で使っている文はどれか。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "来年度は利用者が二割増えると見込んでいる。"
+      },
+      {
+        "id": "B",
+        "text": "資料の内容を見込んで、会議の要点を記録した。"
+      },
+      {
+        "id": "C",
+        "text": "捜査本部は、集めた証拠から彼を事件の関係者と見込んでいる。"
+      },
+      {
+        "id": "D",
+        "text": "社長は若手社員の実力を見込んで、責任ある仕事を任せた。"
+      }
+    ],
+    "contentFingerprint": "05d1a5660941808895304d1adaf8d43c87a7618ae8db6dc8b8b4272857f4886f"
+  },
+  {
+    "id": "N2_10_M6_04",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-USE",
+    "category": "Mondai 6: 用法",
+    "taskInstructions": "語の使い方として最もよいものを一つ選びなさい。",
+    "stem": "「補う」を説明の情報不足に図を追加する意味で使っている文はどれか。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "説明が足りない図を補い、文章を短くした。"
+      },
+      {
+        "id": "B",
+        "text": "説明の不足を図で補い、利用者が手順を理解しやすくした。"
+      },
+      {
+        "id": "C",
+        "text": "説明を図に補い、利用者が手順を理解しやすくした。"
+      },
+      {
+        "id": "D",
+        "text": "図の不足を説明で補い、利用者が手順を理解しやすくした。"
+      }
+    ],
+    "contentFingerprint": "2aa172a0af19ab2c56dde1b3c382962c1f4d9ae236f3894de8689c9a06dedbcf"
+  },
+  {
+    "id": "N2_10_M6_05",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-MO-USE",
+    "category": "Mondai 6: 用法",
+    "taskInstructions": "語の使い方として最もよいものを一つ選びなさい。",
+    "stem": "「備える」を将来の事態に前もって準備する意味で使っている文はどれか。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "新しい施設には、非常用発電機が備えられている。"
+      },
+      {
+        "id": "B",
+        "text": "この端末は、停電時にも使える大容量バッテリーを備えている。"
+      },
+      {
+        "id": "C",
+        "text": "大雨に備えて、避難経路と連絡方法を確認した。"
+      },
+      {
+        "id": "D",
+        "text": "彼女は専門知識と豊富な経験を備えた講師だ。"
+      }
+    ],
+    "contentFingerprint": "56cc93e1474a3807998483bd00f4700a5ff5f58f437eae16ca99e1fe1d44c2dc"
+  },
+  {
+    "id": "N2_10_M7_01",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "Mondai 7: 文法形式の判断",
+    "taskInstructions": "文の（　）に入る最もよいものを一つ選びなさい。",
+    "stem": "調査を始める（　）、参加者に目的と所要時間を説明した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "に反して"
+      },
+      {
+        "id": "B",
+        "text": "にあたって"
+      },
+      {
+        "id": "C",
+        "text": "に限って"
+      },
+      {
+        "id": "D",
+        "text": "を問わず"
+      }
+    ],
+    "contentFingerprint": "18b81f1c8942a5e977871670dd393b8aa432175a4c9c735ddf08c5b7582a8942"
+  },
+  {
+    "id": "N2_10_M7_02",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "Mondai 7: 文法形式の判断",
+    "taskInstructions": "文の（　）に入る最もよいものを一つ選びなさい。",
+    "stem": "測定方法を確認する（　）、結果を公表してはならない。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "ことなく"
+      },
+      {
+        "id": "B",
+        "text": "たとたん"
+      },
+      {
+        "id": "C",
+        "text": "一方で"
+      },
+      {
+        "id": "D",
+        "text": "だけあって"
+      }
+    ],
+    "contentFingerprint": "e7c8cde279b8a17c5622b0da6d9aca4e4f7ef9b7aa9f93481d719407cd364d99"
+  },
+  {
+    "id": "N2_10_M7_03",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "Mondai 7: 文法形式の判断",
+    "taskInstructions": "文の（　）に入る最もよいものを一つ選びなさい。",
+    "stem": "参加人数が予想を大きく上回った（　）、受付を二か所に分けた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "に限り"
+      },
+      {
+        "id": "B",
+        "text": "とともに"
+      },
+      {
+        "id": "C",
+        "text": "に先立って"
+      },
+      {
+        "id": "D",
+        "text": "ことから"
+      }
+    ],
+    "contentFingerprint": "911c88089cf26c76d966f81db6d6fc27bf7d13651e33b5471fb4e1ba1d4635d3"
+  },
+  {
+    "id": "N2_10_M7_04",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "Mondai 7: 文法形式の判断",
+    "taskInstructions": "文の（　）に入る最もよいものを一つ選びなさい。",
+    "stem": "複数の案を比べた（　）、費用だけでなく使いやすさも考慮した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "とはいえ"
+      },
+      {
+        "id": "B",
+        "text": "に伴い"
+      },
+      {
+        "id": "C",
+        "text": "に応じて"
+      },
+      {
+        "id": "D",
+        "text": "上で"
+      }
+    ],
+    "contentFingerprint": "6e8d94a64499386325b20c320affab1b1384c338868c2f174fa5a9e35e1d8f87"
+  },
+  {
+    "id": "N2_10_M7_05",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "Mondai 7: 文法形式の判断",
+    "taskInstructions": "文の（　）に入る最もよいものを一つ選びなさい。",
+    "stem": "説明の内容は専門家（　）、初めて聞く人にも伝わるよう工夫した。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "に限らず"
+      },
+      {
+        "id": "B",
+        "text": "にとって"
+      },
+      {
+        "id": "C",
+        "text": "に限って"
+      },
+      {
+        "id": "D",
+        "text": "にしては"
+      }
+    ],
+    "contentFingerprint": "0b674338c9bf0459a35d801eab211bdeae6b38a162423a2bb4d988c11c8ea8a1"
+  },
+  {
+    "id": "N2_10_M7_06",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "Mondai 7: 文法形式の判断",
+    "taskInstructions": "文の（　）に入る最もよいものを一つ選びなさい。",
+    "stem": "災害時に備えて、飲料水は多めに準備しておく（　）。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "わけにはいかない"
+      },
+      {
+        "id": "B",
+        "text": "に越したことはない"
+      },
+      {
+        "id": "C",
+        "text": "どころではない"
+      },
+      {
+        "id": "D",
+        "text": "きらいがある"
+      }
+    ],
+    "contentFingerprint": "98013309b41b5f30b0d95291a896a2ac3c68ab388451e42fa16b49742c1845dd"
+  },
+  {
+    "id": "N2_10_M7_07",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "Mondai 7: 文法形式の判断",
+    "taskInstructions": "文の（　）に入る最もよいものを一つ選びなさい。",
+    "stem": "担当者は利用者の声に（　）、案内表示の位置を変えた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "限って"
+      },
+      {
+        "id": "B",
+        "text": "反して"
+      },
+      {
+        "id": "C",
+        "text": "問わず"
+      },
+      {
+        "id": "D",
+        "text": "応じて"
+      }
+    ],
+    "contentFingerprint": "50b84a218de41c29e87f4f4842b0d3dc24c24d3d523d60e92d02677e80996d0b"
+  },
+  {
+    "id": "N2_10_M7_08",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "Mondai 7: 文法形式の判断",
+    "taskInstructions": "文の（　）に入る最もよいものを一つ選びなさい。",
+    "stem": "点検が終わり（　）、設備の運転を再開する予定だ。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "とたん"
+      },
+      {
+        "id": "B",
+        "text": "ことから"
+      },
+      {
+        "id": "C",
+        "text": "以上"
+      },
+      {
+        "id": "D",
+        "text": "次第"
+      }
+    ],
+    "contentFingerprint": "b846a574a58053225086798e824a6ce6d08c8919d5ccde3c675540b15fbdb72e"
+  },
+  {
+    "id": "N2_10_M7_09",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "Mondai 7: 文法形式の判断",
+    "taskInstructions": "文の（　）に入る最もよいものを一つ選びなさい。",
+    "stem": "この薬は眠気を（　）、運転前に服用しないでください。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "伴うどころか"
+      },
+      {
+        "id": "B",
+        "text": "伴うにあたって"
+      },
+      {
+        "id": "C",
+        "text": "伴うことがあるため"
+      },
+      {
+        "id": "D",
+        "text": "伴う一方で"
+      }
+    ],
+    "contentFingerprint": "40fa8a97ab36f6cc8057db693d6664a5de9c3af051754f1a4e6443145089b907"
+  },
+  {
+    "id": "N2_10_M7_10",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "Mondai 7: 文法形式の判断",
+    "taskInstructions": "文の（　）に入る最もよいものを一つ選びなさい。",
+    "stem": "参加者が少ない（　）、講座の内容が役立たないとは言えない。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "ばかりに"
+      },
+      {
+        "id": "B",
+        "text": "とあって"
+      },
+      {
+        "id": "C",
+        "text": "からといって"
+      },
+      {
+        "id": "D",
+        "text": "からして"
+      }
+    ],
+    "contentFingerprint": "d856c9e62a6d499a5d074990a06dc360e5e9ca37a61f0ecae38fe8bd4fdbc9be"
+  },
+  {
+    "id": "N2_10_M7_11",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "Mondai 7: 文法形式の判断",
+    "taskInstructions": "文の（　）に入る最もよいものを一つ選びなさい。",
+    "stem": "利用者の年齢が上がる（　）、必要とされる案内の文字も大きくしている。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "につれて"
+      },
+      {
+        "id": "B",
+        "text": "に先立って"
+      },
+      {
+        "id": "C",
+        "text": "に反して"
+      },
+      {
+        "id": "D",
+        "text": "を問わず"
+      }
+    ],
+    "contentFingerprint": "3f34016fef58b1816f4be8b90da03527ffa45be98c73a8753d9bffa4649d7da9"
+  },
+  {
+    "id": "N2_10_M7_12",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "Mondai 7: 文法形式の判断",
+    "taskInstructions": "文の（　）に入る最もよいものを一つ選びなさい。",
+    "stem": "この方式は操作が簡単な（　）、修理には専門知識が要る。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "に先立ち"
+      },
+      {
+        "id": "B",
+        "text": "反面"
+      },
+      {
+        "id": "C",
+        "text": "からこそ"
+      },
+      {
+        "id": "D",
+        "text": "だけに"
+      }
+    ],
+    "contentFingerprint": "c45cbb5dcb98c31cdfba6582d41174b5d740eca7766dc17e05457f1b55370e8f"
+  },
+  {
+    "id": "N2_10_M8_01",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-GR-STAR",
+    "category": "Mondai 8: 文の組み立て",
+    "taskInstructions": "文の★に入る語句を一つ選びなさい。",
+    "stem": "市の担当課は、（　）（　）★（　）と決めた。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "窓口で利用者が迷いやすい場所を"
+      },
+      {
+        "id": "B",
+        "text": "職員が聞き取りで確認し、記録した後、"
+      },
+      {
+        "id": "C",
+        "text": "その記録を基に案内表示の変更案を"
+      },
+      {
+        "id": "D",
+        "text": "委員会に提出する"
+      }
+    ],
+    "contentFingerprint": "c4e8d7718635a4e1e69bb92baa9f4da35c460ec1493302ba4ff1526bfbfbe373"
+  },
+  {
+    "id": "N2_10_M8_02",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-GR-STAR",
+    "category": "Mondai 8: 文の組み立て",
+    "taskInstructions": "文の★に入る語句を一つ選びなさい。",
+    "stem": "研究室では、（　）（　）★（　）ことにしている。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "先行研究で示された結果が"
+      },
+      {
+        "id": "B",
+        "text": "報告書に結論を記載する"
+      },
+      {
+        "id": "C",
+        "text": "同じ条件の実験で再現できるかどうかを"
+      },
+      {
+        "id": "D",
+        "text": "別の研究者が確かめたうえで"
+      }
+    ],
+    "contentFingerprint": "869d4054f5f221aa18f348a5eb2d85253f3daf7de5a80523a084f67ccd96af23"
+  },
+  {
+    "id": "N2_10_M8_03",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-GR-STAR",
+    "category": "Mondai 8: 文の組み立て",
+    "taskInstructions": "文の★に入る語句を一つ選びなさい。",
+    "stem": "記録係は、（　）（　）★（　）ようにしている。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "まず会議の録音を書き起こし、"
+      },
+      {
+        "id": "B",
+        "text": "その議事録案を参加者に確認してもらってから"
+      },
+      {
+        "id": "C",
+        "text": "議事録の決定事項と次回までの課題を確定する"
+      },
+      {
+        "id": "D",
+        "text": "発言者名を付けた議事録案を作り、"
+      }
+    ],
+    "contentFingerprint": "46c01526a51315da668620deae7a85656cc1a9e6dc685d8f72ea6c6394875f3f"
+  },
+  {
+    "id": "N2_10_M8_04",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-GR-STAR",
+    "category": "Mondai 8: 文の組み立て",
+    "taskInstructions": "文の★に入る語句を一つ選びなさい。",
+    "stem": "担当者は、各部署から届いた申請一覧を受け取ったら（　）（　）★（　）ことにしている。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "記載内容を"
+      },
+      {
+        "id": "B",
+        "text": "原本と一項目ずつ照合して相違点を洗い出し、"
+      },
+      {
+        "id": "C",
+        "text": "該当部署にその理由を"
+      },
+      {
+        "id": "D",
+        "text": "問い合わせる"
+      }
+    ],
+    "contentFingerprint": "860b910bf2c86228e5ecf5f9e97dce1b7a17368f95fd9e201f73915aa517b8d8"
+  },
+  {
+    "id": "N2_10_M8_05",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-GR-STAR",
+    "category": "Mondai 8: 文の組み立て",
+    "taskInstructions": "文の★に入る語句を一つ選びなさい。",
+    "stem": "窓口では、（　）（　）★（　）ことにしている。",
+    "contextPassage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "申請書に記入漏れが見つかったら、"
+      },
+      {
+        "id": "B",
+        "text": "その項目を"
+      },
+      {
+        "id": "C",
+        "text": "申請者に記入してもらってから"
+      },
+      {
+        "id": "D",
+        "text": "申請を受理する"
+      }
+    ],
+    "contentFingerprint": "4ba5aee7c0b1fb9953dfd5dabe0e82429e0e99de5bc1bfabead1dc0406153898"
+  },
+  {
+    "id": "N2_10_M9_01",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-GR-PARA",
+    "category": "Mondai 9: 文章文法",
+    "taskInstructions": "文章中の空欄に入る最もよいものを一つ選びなさい。",
+    "stem": "（　）に入る最もよいものはどれか。",
+    "contextPassage": "新しい装置を導入する際には、操作の説明だけでなく、故障した場合の連絡先も示す必要がある。導入後に利用者が戸惑わない（　）、実際の作業を想定した案内を用意しておきたい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "ばかりに"
+      },
+      {
+        "id": "B",
+        "text": "ものの"
+      },
+      {
+        "id": "C",
+        "text": "ように"
+      },
+      {
+        "id": "D",
+        "text": "どころか"
+      }
+    ],
+    "contentFingerprint": "5cec2e42be2d9105e6803099b138f7fd76ef4ef8cfe6974ac3f589d8835da1cd"
+  },
+  {
+    "id": "N2_10_M9_02",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-GR-PARA",
+    "category": "Mondai 9: 文章文法",
+    "taskInstructions": "文章中の空欄に入る最もよいものを一つ選びなさい。",
+    "stem": "（　）に入る最もよいものはどれか。",
+    "contextPassage": "展示を見た人の感想は、作品の評価だけを示すものではない。会場の照明や説明文が理解を助けたかどうかも含まれる。記録した感想（　）、展示前で立ち止まった時間も分析することにした。",
+    "options": [
+      {
+        "id": "A",
+        "text": "につれて"
+      },
+      {
+        "id": "B",
+        "text": "とともに"
+      },
+      {
+        "id": "C",
+        "text": "にあたって"
+      },
+      {
+        "id": "D",
+        "text": "に際して"
+      }
+    ],
+    "contentFingerprint": "342e7916928872cd942f3544e10e8e6ccfcf74327c11f7ef78b899db39a9174c"
+  },
+  {
+    "id": "N2_10_M9_03",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-GR-PARA",
+    "category": "Mondai 9: 文章文法",
+    "taskInstructions": "文章中の空欄に入る最もよいものを一つ選びなさい。",
+    "stem": "（　）に入る最もよいものはどれか。",
+    "contextPassage": "測定値が予想と違った場合、すぐに装置の故障と考えるのは早い。試料の保存状態や担当者の操作を確認しても、明確な問題が見つからないことがある。手元に残っているのは装置の設定履歴だけで、追加測定を行う時間もない。担当者は原因を特定するため、設定履歴を詳しく調べる（　）。",
+    "options": [
+      {
+        "id": "A",
+        "text": "はずがない"
+      },
+      {
+        "id": "B",
+        "text": "わけにもいかない"
+      },
+      {
+        "id": "C",
+        "text": "までもない"
+      },
+      {
+        "id": "D",
+        "text": "よりほかない"
+      }
+    ],
+    "contentFingerprint": "e27d4fe970eee4233e1ab86c84f475d1cb706c3a2e3c3bdd0ea45dfd78662373"
+  },
+  {
+    "id": "N2_10_M9_04",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-GR-PARA",
+    "category": "Mondai 9: 文章文法",
+    "taskInstructions": "文章中の空欄に入る最もよいものを一つ選びなさい。",
+    "stem": "（　）に入る最もよいものはどれか。",
+    "contextPassage": "地域ごとに交通事情は異なる。ある場所で効果があった方法も、別の場所で同じ結果になるとは限らない。別の地域への本格導入（　）、現地の状況を確かめて小規模に試す必要がある。",
+    "options": [
+      {
+        "id": "A",
+        "text": "に反して"
+      },
+      {
+        "id": "B",
+        "text": "以上は"
+      },
+      {
+        "id": "C",
+        "text": "に先立って"
+      },
+      {
+        "id": "D",
+        "text": "どころか"
+      }
+    ],
+    "contentFingerprint": "316eb1b9fea1534dee6dcd59b2f042ba2988382603ea9a5923e3ed3fe365b9b4"
+  },
+  {
+    "id": "N2_10_M9_05",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-GR-PARA",
+    "category": "Mondai 9: 文章文法",
+    "taskInstructions": "文章中の空欄に入る最もよいものを一つ選びなさい。",
+    "stem": "（　）に入る最もよいものはどれか。",
+    "contextPassage": "担当者は数値の変化を説明する時、測定条件の変更も報告した。条件が前回と異なる（　）、数値だけを単純に比べて結論を出すべきではない。",
+    "options": [
+      {
+        "id": "A",
+        "text": "以上"
+      },
+      {
+        "id": "B",
+        "text": "に際して"
+      },
+      {
+        "id": "C",
+        "text": "に先立って"
+      },
+      {
+        "id": "D",
+        "text": "に限って"
+      }
+    ],
+    "contentFingerprint": "7fe06bbbe1c8ce188e7920e49c23c986932fb6ebdc4762c1a82e4b98ceabe046"
+  },
+  {
+    "id": "N2_10_M10_01",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-RD-SHORT",
+    "category": "Mondai 10: 短文読解",
+    "taskInstructions": "文章を読んで、問いの答えとして最もよいものを一つ選びなさい。",
+    "stem": "試行後、医師は何を基準に他の診療科への拡大を判断しますか。",
+    "contextPassage": "市立病院は、待ち時間を短くするために診療予約の間隔を見直している。予約枠を詰めれば一日に診られる人数は増えるが、診察が長引いた際には後の患者を待たせ、急な相談を受ける余裕もなくなる。そこで内科の一部で二か月間試し、診察人数に加えて、予定からの遅れや当日受付の件数も記録することにした。医師は、数字を見て問題がなければ他の診療科へ広げるとしている。",
+    "options": [
+      {
+        "id": "A",
+        "text": "診察人数だけでなく、遅れや当日受付への影響も確認する"
+      },
+      {
+        "id": "B",
+        "text": "急な相談を受ける患者も、今後はすべて予約制にする"
+      },
+      {
+        "id": "C",
+        "text": "待ち時間が短くなる間隔を選び、全診療科の枠を一度に変える"
+      },
+      {
+        "id": "D",
+        "text": "試行前後で平均待ち時間に差がなければ、見直しを中止する"
+      }
+    ],
+    "contentFingerprint": "bb54f70521ad3d33ce5ca7b226dbf757bbd0cd6f0ce493a8ba2d1de7acb5bc58"
+  },
+  {
+    "id": "N2_10_M10_02",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-RD-SHORT",
+    "category": "Mondai 10: 短文読解",
+    "taskInstructions": "文章を読んで、問いの答えとして最もよいものを一つ選びなさい。",
+    "stem": "発表に必要な試料を最初の一か月は対象外にするのはなぜですか。",
+    "contextPassage": "大学の実験室では、新しい分析装置を学生にも使わせることになった。ただし、最初の一か月は、学会発表に間に合わせる必要がある試料を測定対象から外す。新しい装置は手順が従来と異なり、経験者でも設定の確認に時間がかかるためだ。教員は、練習用試料で操作を繰り返せば誤りを減らせると見ている。測定後は従来装置との結果の差も記録し、使い分けの基準を作る予定である。",
+    "options": [
+      {
+        "id": "A",
+        "text": "新装置は設定の確認に時間がかかり、発表期限に影響する恐れがあるから"
+      },
+      {
+        "id": "B",
+        "text": "学生が新装置で測定した結果は、学会発表では使えないと決まっているから"
+      },
+      {
+        "id": "C",
+        "text": "新装置では発表用試料の精度を保証できず、使い分け基準がないから"
+      },
+      {
+        "id": "D",
+        "text": "従来装置との比較が終わるまでは、新装置を試料に使わない方針だから"
+      }
+    ],
+    "contentFingerprint": "c9bcd65c5efae1bf834f25a955fc007b0354bdcdaa6cc3280cd920025eb15a3c"
+  },
+  {
+    "id": "N2_10_M10_03",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-RD-SHORT",
+    "category": "Mondai 10: 短文読解",
+    "taskInstructions": "文章を読んで、問いの答えとして最もよいものを一つ選びなさい。",
+    "stem": "包装を軽くする案を決める際、評価に含めるべきことは何ですか。",
+    "contextPassage": "食品メーカーは、輸送時の燃料を減らすため、包装材を軽くする案を検討している。ただし、包装が薄いと商品が傷み、返品や廃棄が増える恐れもある。これまでの試験では、材料が軽くなっても、箱の角に圧力がかかる商品では破損が増えた。そこで材料の使用量だけでなく、店頭に届くまでの破損率や再配送の回数も測り、環境と流通の両面から評価することにした。",
+    "options": [
+      {
+        "id": "A",
+        "text": "角の補強を変えず、破損した商品だけ再配送する"
+      },
+      {
+        "id": "B",
+        "text": "材料の軽さと、配送後の破損や再配送への影響を合わせて見る"
+      },
+      {
+        "id": "C",
+        "text": "試験結果に関係なく、すべての商品で包装を厚くする"
+      },
+      {
+        "id": "D",
+        "text": "再配送の回数だけを基準にし、材料の量や廃棄は比べない"
+      }
+    ],
+    "contentFingerprint": "7ed6d902143af7ac156c6432cb0a475d9a49e8d53f0aefd9a49e29453d49a3be"
+  },
+  {
+    "id": "N2_10_M10_04",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-RD-SHORT",
+    "category": "Mondai 10: 短文読解",
+    "taskInstructions": "文章を読んで、問いの答えとして最もよいものを一つ選びなさい。",
+    "stem": "学校が関心を示しているのに、施設が予約枠をすぐ増やさないのはなぜですか。",
+    "contextPassage": "市のスポーツ施設は、平日の昼間に空きが多いことから近隣の学校に利用を提案した。学校も関心を示したが、施設まで往復で五十分かかるため、授業時間のうち実際に運動できる時間は短くなる。施設は希望者がいるという理由だけで予約枠を増やさず、移動、着替え、準備を含めた必要時間を試算し、授業の一部として無理なく使えるか確認するという。",
+    "options": [
+      {
+        "id": "A",
+        "text": "移動や準備を含め、授業時間内に運動時間を確保できるか確認するため"
+      },
+      {
+        "id": "B",
+        "text": "学校側が施設の備品を購入し、授業で管理できるか確かめるため"
+      },
+      {
+        "id": "C",
+        "text": "学校が利用できる曜日や学期がまだ決まっていないため"
+      },
+      {
+        "id": "D",
+        "text": "昼間の空きが一時的なものか、数週間追加で調べるため"
+      }
+    ],
+    "contentFingerprint": "bf9dc95fc747a92257c4417631adde5efbff91f0afb2785dbbd9991556c52441"
+  },
+  {
+    "id": "N2_10_M10_05",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-RD-SHORT",
+    "category": "Mondai 10: 短文読解",
+    "taskInstructions": "文章を読んで、問いの答えとして最もよいものを一つ選びなさい。",
+    "stem": "担当者が満足度だけで研修の効果を判断しないのはなぜですか。",
+    "contextPassage": "職場研修の担当者は、受講直後に『分かりやすかった』と答えた人が多くても、研修の効果を判断するには不十分だと考えている。受講者が実際の仕事で方法を使う機会があったかを確かめず、数週間後に同じアンケートをしても、満足度の変化しか分からないからだ。そこで上司にも短い聞き取りを行い、学んだ手順を使った場面と、使えなかった理由を記録することにした。",
+    "options": [
+      {
+        "id": "A",
+        "text": "学んだ方法を仕事で使えた場面と、使えなかった理由を確かめるため"
+      },
+      {
+        "id": "B",
+        "text": "上司に受講者の理解度を評価してもらうため"
+      },
+      {
+        "id": "C",
+        "text": "直後の理解度が最も高かった受講者の仕事ぶりを調べるため"
+      },
+      {
+        "id": "D",
+        "text": "同じアンケートを後日実施し、受講者の印象の変化を比べるため"
+      }
+    ],
+    "contentFingerprint": "8ddfe9c34aff32196386155ad300852a756a0e89f7241889bc184b4f732fd1b2"
+  },
+  {
+    "id": "N2_10_M11_01",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-RD-MED",
+    "category": "Mondai 11: 中文読解",
+    "taskInstructions": "文章を読んで、問いの答えとして最もよいものを一つ選びなさい。",
+    "stem": "筆者が技術を導入する前に重視すべきだと考えることは何か。",
+    "contextPassage": "新しい技術を職場に導入する時、操作方法を全員に説明すれば十分だと思われがちだ。しかし、同じ機能でも担当業務や経験によって使う場面は異なる。利用者が困っている作業を知らずに機能を足すと、入力欄や確認手順が増え、かえって負担になる場合がある。以前、報告書を自動作成する仕組みを導入した職場では、元の数字を別の表にも入力する必要が生じ、完成までの時間が長くなった。そこで担当者は、作業の様子を観察し、どの情報を何度入力しているのかを調べた。その結果、報告書の形式よりも入力経路を統一することが先決だと分かった。技術を使う目的を決めずに、目立つ機能だけを追加しても問題は解決しない。導入前に利用者の声を聞き、どの課題を解決するのかを明らかにするべきだ。導入後は作業時間だけでなく、質問や手戻りが増えていないかも確かめたい。さらに導入前後を比べる際は、処理件数や担当人数などの条件が同じかを確認し、数字の変化を技術の効果と決めつけない姿勢が必要である。",
+    "options": [
+      {
+        "id": "A",
+        "text": "導入する機能をできるだけ多く選ぶこと"
+      },
+      {
+        "id": "B",
+        "text": "導入前の作業時間を測らず、導入後だけを評価すること"
+      },
+      {
+        "id": "C",
+        "text": "担当者全員が同じ経験を持つようにすること"
+      },
+      {
+        "id": "D",
+        "text": "利用者の作業上の課題を把握し、技術を使う目的を定めること"
+      }
+    ],
+    "contentFingerprint": "c0c66142184277838dd4dea02a2433f93b4eb24d980d723ea7cae2a040b6c437"
+  },
+  {
+    "id": "N2_10_M11_02",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-RD-MED",
+    "category": "Mondai 11: 中文読解",
+    "taskInstructions": "文章を読んで、問いの答えとして最もよいものを一つ選びなさい。",
+    "stem": "自動作成の仕組みを導入した職場で、完成までの時間が長くなったのはなぜか。",
+    "contextPassage": "新しい技術を職場に導入する時、操作方法を全員に説明すれば十分だと思われがちだ。しかし、同じ機能でも担当業務や経験によって使う場面は異なる。利用者が困っている作業を知らずに機能を足すと、入力欄や確認手順が増え、かえって負担になる場合がある。以前、報告書を自動作成する仕組みを導入した職場では、元の数字を別の表にも入力する必要が生じ、完成までの時間が長くなった。そこで担当者は、作業の様子を観察し、どの情報を何度入力しているのかを調べた。その結果、報告書の形式よりも入力経路を統一することが先決だと分かった。技術を使う目的を決めずに、目立つ機能だけを追加しても問題は解決しない。導入前に利用者の声を聞き、どの課題を解決するのかを明らかにするべきだ。導入後は作業時間だけでなく、質問や手戻りが増えていないかも確かめたい。さらに導入前後を比べる際は、処理件数や担当人数などの条件が同じかを確認し、数字の変化を技術の効果と決めつけない姿勢が必要である。",
+    "options": [
+      {
+        "id": "A",
+        "text": "利用者が新しい機能の使用を拒んだから"
+      },
+      {
+        "id": "B",
+        "text": "導入後に担当人数を減らして評価したから"
+      },
+      {
+        "id": "C",
+        "text": "自動作成後の内容を別の表にも入力する作業が生じたから"
+      },
+      {
+        "id": "D",
+        "text": "報告書に必要な数字を集めるのをやめたから"
+      }
+    ],
+    "contentFingerprint": "33e61830ea7dd29e00c5f252dc01bc4d883054888e48159e357e5df45504120a"
+  },
+  {
+    "id": "N2_10_M11_03",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-RD-MED",
+    "category": "Mondai 11: 中文読解",
+    "taskInstructions": "文章を読んで、問いの答えとして最もよいものを一つ選びなさい。",
+    "stem": "筆者が導入後に評価したい点として最も合うものは何か。",
+    "contextPassage": "新しい技術を職場に導入する時、操作方法を全員に説明すれば十分だと思われがちだ。しかし、同じ機能でも担当業務や経験によって使う場面は異なる。利用者が困っている作業を知らずに機能を足すと、入力欄や確認手順が増え、かえって負担になる場合がある。以前、報告書を自動作成する仕組みを導入した職場では、元の数字を別の表にも入力する必要が生じ、完成までの時間が長くなった。そこで担当者は、作業の様子を観察し、どの情報を何度入力しているのかを調べた。その結果、報告書の形式よりも入力経路を統一することが先決だと分かった。技術を使う目的を決めずに、目立つ機能だけを追加しても問題は解決しない。導入前に利用者の声を聞き、どの課題を解決するのかを明らかにするべきだ。導入後は作業時間だけでなく、質問や手戻りが増えていないかも確かめたい。さらに導入前後を比べる際は、処理件数や担当人数などの条件が同じかを確認し、数字の変化を技術の効果と決めつけない姿勢が必要である。",
+    "options": [
+      {
+        "id": "A",
+        "text": "作業時間に加え、質問ややり直しの増減と比較条件"
+      },
+      {
+        "id": "B",
+        "text": "導入後に自動作成した報告書の総数だけ"
+      },
+      {
+        "id": "C",
+        "text": "製品を開発した会社の規模と機能の数"
+      },
+      {
+        "id": "D",
+        "text": "利用者の年齢構成だけ"
+      }
+    ],
+    "contentFingerprint": "554e448c9b5eb63bdb6f59d1ea6169230fe84d770c8a7216cfa5d1455c6bfa9e"
+  },
+  {
+    "id": "N2_10_M11_04",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-RD-MED",
+    "category": "Mondai 11: 中文読解",
+    "taskInstructions": "文章を読んで、問いの答えとして最もよいものを一つ選びなさい。",
+    "stem": "筆者が科学館の展示を作る際に大切だと考えることは何か。",
+    "contextPassage": "科学館の展示は、正しい知識を伝えるだけでなく、来館者が自分で試す機会を作ることも大切だ。説明を読んで終わる展示では、知識が生活のどこにつながるのか分からない人もいる。例えば光の反射なら、鏡の角度を変えると見える範囲がどう変わるかを確かめられる装置を置ける。ただし、操作を複雑にしすぎると、何を確かめる展示なのかが伝わらなくなる。展示を作る側は、学習目標を決めた後、来館者の年齢や滞在時間に合わせ、どの操作をすれば気づきを得られるかを考える必要がある。説明文は、その発見を支える役割として使えばよい。来館者の反応を観察し、狙った気づきが得られなかった場合には、装置や説明の順序を見直すこともできる。",
+    "options": [
+      {
+        "id": "A",
+        "text": "すべての来館者に同じ説明方法を用いること"
+      },
+      {
+        "id": "B",
+        "text": "学習目標に沿い、来館者が試して気づける操作を設計すること"
+      },
+      {
+        "id": "C",
+        "text": "展示物の操作を複雑にし、来館者に長く考えさせること"
+      },
+      {
+        "id": "D",
+        "text": "説明文をなくし、知識を来館者自身に調べてもらうこと"
+      }
+    ],
+    "contentFingerprint": "b421114a481ef18d05e41b4bcf81991bfaee2ecd8d15c9cec364b37fc361d477"
+  },
+  {
+    "id": "N2_10_M11_05",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-RD-MED",
+    "category": "Mondai 11: 中文読解",
+    "taskInstructions": "文章を読んで、問いの答えとして最もよいものを一つ選びなさい。",
+    "stem": "鏡を使う展示で、来館者が確かめることとして示されているのは何か。",
+    "contextPassage": "科学館の展示は、正しい知識を伝えるだけでなく、来館者が自分で試す機会を作ることも大切だ。説明を読んで終わる展示では、知識が生活のどこにつながるのか分からない人もいる。例えば光の反射なら、鏡の角度を変えると見える範囲がどう変わるかを確かめられる装置を置ける。ただし、操作を複雑にしすぎると、何を確かめる展示なのかが伝わらなくなる。展示を作る側は、学習目標を決めた後、来館者の年齢や滞在時間に合わせ、どの操作をすれば気づきを得られるかを考える必要がある。説明文は、その発見を支える役割として使えばよい。来館者の反応を観察し、狙った気づきが得られなかった場合には、装置や説明の順序を見直すこともできる。",
+    "options": [
+      {
+        "id": "A",
+        "text": "鏡の材料による光の色の違い"
+      },
+      {
+        "id": "B",
+        "text": "鏡の角度と、そこから見える範囲の関係"
+      },
+      {
+        "id": "C",
+        "text": "説明文を読んだ人と読まない人の記憶の差"
+      },
+      {
+        "id": "D",
+        "text": "展示室の照明が来館者の視力に与える影響"
+      }
+    ],
+    "contentFingerprint": "7c01b681c5284f8fe74057ad21f2ed89cae11eac117ac6eaa08c409aa0e50d59"
+  },
+  {
+    "id": "N2_10_M11_06",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-RD-MED",
+    "category": "Mondai 11: 中文読解",
+    "taskInstructions": "文章を読んで、問いの答えとして最もよいものを一つ選びなさい。",
+    "stem": "筆者の考えに従うと、学習目標を決めた後に展示を作る側が検討すべきことは何か。",
+    "contextPassage": "科学館の展示は、正しい知識を伝えるだけでなく、来館者が自分で試す機会を作ることも大切だ。説明を読んで終わる展示では、知識が生活のどこにつながるのか分からない人もいる。例えば光の反射なら、鏡の角度を変えると見える範囲がどう変わるかを確かめられる装置を置ける。ただし、操作を複雑にしすぎると、何を確かめる展示なのかが伝わらなくなる。展示を作る側は、学習目標を決めた後、来館者の年齢や滞在時間に合わせ、どの操作をすれば気づきを得られるかを考える必要がある。説明文は、その発見を支える役割として使えばよい。来館者の反応を観察し、狙った気づきが得られなかった場合には、装置や説明の順序を見直すこともできる。",
+    "options": [
+      {
+        "id": "A",
+        "text": "来館者がどのように操作すれば狙った発見に至るか"
+      },
+      {
+        "id": "B",
+        "text": "説明文をできるだけ詳しくする順番"
+      },
+      {
+        "id": "C",
+        "text": "来館者の反応にかかわらず装置を固定すること"
+      },
+      {
+        "id": "D",
+        "text": "展示の運営費を最初に回収する方法"
+      }
+    ],
+    "contentFingerprint": "7fcf1ea573a2708e92929d57cf7c65c1a35ed4421ea3eaf30f6929ea6804320e"
+  },
+  {
+    "id": "N2_10_M11_07",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-RD-MED",
+    "category": "Mondai 11: 中文読解",
+    "taskInstructions": "文章を読んで、問いの答えとして最もよいものを一つ選びなさい。",
+    "stem": "筆者が地元食材の供給について問題になり得ると考えていることは何か。",
+    "contextPassage": "学校給食に地元の農産物を取り入れる取り組みでは、地域で生産された食材を使うことが注目される。しかし、収穫時期や量は天候に左右され、献立を決めた日に必要な数がそろうとは限らない。予定を共有して使える食材に合わせて献立を調整すれば、生産者にも学校にも無理が少ない。食材の名前や栽培方法を子どもに伝えることは、食べ物が届くまでの仕事を知る機会にもなる。一方、使用率だけを毎年の目標にすると、供給が不安定な時に現場が数字を優先してしまう恐れがある。学校は生産者と相談し、安定して納入できる品目から始め、天候による変更も授業で説明する予定だ。地元食材を使う量を競うより、供給を続ける仕組みと学びの機会を育てることが重要である。",
+    "options": [
+      {
+        "id": "A",
+        "text": "食材の名前を伝えると子どもが調理を拒むこと"
+      },
+      {
+        "id": "B",
+        "text": "天候による収穫の変化で、予定日に必要量をそろえられないこと"
+      },
+      {
+        "id": "C",
+        "text": "生産者が栽培方法を説明できないこと"
+      },
+      {
+        "id": "D",
+        "text": "学校が献立を毎日作り直さなければならないこと"
+      }
+    ],
+    "contentFingerprint": "3935db1cbf23cb1ddf71f8b006789c2c3f652329409b30e4e995a6c7d4e7422e"
+  },
+  {
+    "id": "N2_10_M11_08",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-RD-MED",
+    "category": "Mondai 11: 中文読解",
+    "taskInstructions": "文章を読んで、問いの答えとして最もよいものを一つ選びなさい。",
+    "stem": "学校が納入予定を生産者と共有することで得られる効果は何か。",
+    "contextPassage": "学校給食に地元の農産物を取り入れる取り組みでは、地域で生産された食材を使うことが注目される。しかし、収穫時期や量は天候に左右され、献立を決めた日に必要な数がそろうとは限らない。予定を共有して使える食材に合わせて献立を調整すれば、生産者にも学校にも無理が少ない。食材の名前や栽培方法を子どもに伝えることは、食べ物が届くまでの仕事を知る機会にもなる。一方、使用率だけを毎年の目標にすると、供給が不安定な時に現場が数字を優先してしまう恐れがある。学校は生産者と相談し、安定して納入できる品目から始め、天候による変更も授業で説明する予定だ。地元食材を使う量を競うより、供給を続ける仕組みと学びの機会を育てることが重要である。",
+    "options": [
+      {
+        "id": "A",
+        "text": "生産者が給食の調理を担当できる"
+      },
+      {
+        "id": "B",
+        "text": "天候に左右されない収穫を実現できる"
+      },
+      {
+        "id": "C",
+        "text": "納入可能な品目に合わせて献立を調整しやすくなる"
+      },
+      {
+        "id": "D",
+        "text": "食材の使用率を必ず前年より高くできる"
+      }
+    ],
+    "contentFingerprint": "0851a72db2d3364cb609280eb2b53d7d42a2dfd84f31cb05102683a3474840ce"
+  },
+  {
+    "id": "N2_10_M11_09",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-RD-MED",
+    "category": "Mondai 11: 中文読解",
+    "taskInstructions": "文章を読んで、問いの答えとして最もよいものを一つ選びなさい。",
+    "stem": "筆者が使用率だけを目標にしないよう求めているのはなぜか。",
+    "contextPassage": "学校給食に地元の農産物を取り入れる取り組みでは、地域で生産された食材を使うことが注目される。しかし、収穫時期や量は天候に左右され、献立を決めた日に必要な数がそろうとは限らない。予定を共有して使える食材に合わせて献立を調整すれば、生産者にも学校にも無理が少ない。食材の名前や栽培方法を子どもに伝えることは、食べ物が届くまでの仕事を知る機会にもなる。一方、使用率だけを毎年の目標にすると、供給が不安定な時に現場が数字を優先してしまう恐れがある。学校は生産者と相談し、安定して納入できる品目から始め、天候による変更も授業で説明する予定だ。地元食材を使う量を競うより、供給を続ける仕組みと学びの機会を育てることが重要である。",
+    "options": [
+      {
+        "id": "A",
+        "text": "生産者の利益と学校の利益が必ず対立するから"
+      },
+      {
+        "id": "B",
+        "text": "子どもが食材の産地に関心を持たないから"
+      },
+      {
+        "id": "C",
+        "text": "地元食材を使うと献立の栄養が不足するから"
+      },
+      {
+        "id": "D",
+        "text": "天候による供給の変化を無視すると現場に無理が生じるから"
+      }
+    ],
+    "contentFingerprint": "046bd4190de5bffce8800871bee234fe253d1b5c0792762a6b3be9e4457523b1"
+  },
+  {
+    "id": "N2_10_M12_01",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-RD-PAIR",
+    "category": "Mondai 12: 統合理解",
+    "taskInstructions": "二つの資料を読んで、問いの答えとして最もよいものを一つ選びなさい。",
+    "stem": "資料Bの筆者が資料Aの計画に加えるよう求めていることは何か。",
+    "contextPassage": "【資料A】市の科学館は、親子が実験を体験できるよう、館内の実験室を月二回開放する計画を立てている。対象は小学生と保護者で、申込時に参加者の年齢と希望する実験を記入してもらう。安全上、各回の定員は十五組とし、開始前に職員が器具の扱いを説明する。実施後は参加者に短いアンケートを行い、説明の分かりやすさや次に試したい内容を尋ねる。回答は年齢や実験の種類ごとに整理し、職員数に限りがあるため開催日を増やす前に、まず半年間の参加状況を見て運営方法を検討する。\n\n【資料B】実験室を開放する目的には賛成だが、平日の開催だけでは仕事や習い事のために参加できない家庭がある。月二回のうち一回は休日にしてほしい。また、参加者の感想だけを集めても、申し込みが定員を超えた時に参加できなかった家庭が何を希望していたかは分からない。申込時に希望日や参加できない理由も尋ねれば、曜日を変えるべきか、定員を見直すべきかを判断しやすくなる。休日開催には職員配置の調整も必要だが、運営側には開催回数をただ増やすのではなく、参加できる人の幅を広げる方法を確かめてほしい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "安全説明を省いて実験時間を長くすること"
+      },
+      {
+        "id": "B",
+        "text": "月一回を休日にし、参加できなかった家庭の希望も調べること"
+      },
+      {
+        "id": "C",
+        "text": "申込制をやめ、希望者全員を同じ回に受け入れること"
+      },
+      {
+        "id": "D",
+        "text": "参加者へのアンケートを中止すること"
+      }
+    ],
+    "contentFingerprint": "d845e684787c7a5ca27cb9a1a12b04702e15c0216a0ac938d62ed239945c3d9d"
+  },
+  {
+    "id": "N2_10_M12_02",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-RD-PAIR",
+    "category": "Mondai 12: 統合理解",
+    "taskInstructions": "二つの資料を読んで、問いの答えとして最もよいものを一つ選びなさい。",
+    "stem": "資料Aと資料Bの両方に共通する考えは何か。",
+    "contextPassage": "【資料A】市の科学館は、親子が実験を体験できるよう、館内の実験室を月二回開放する計画を立てている。対象は小学生と保護者で、申込時に参加者の年齢と希望する実験を記入してもらう。安全上、各回の定員は十五組とし、開始前に職員が器具の扱いを説明する。実施後は参加者に短いアンケートを行い、説明の分かりやすさや次に試したい内容を尋ねる。回答は年齢や実験の種類ごとに整理し、職員数に限りがあるため開催日を増やす前に、まず半年間の参加状況を見て運営方法を検討する。\n\n【資料B】実験室を開放する目的には賛成だが、平日の開催だけでは仕事や習い事のために参加できない家庭がある。月二回のうち一回は休日にしてほしい。また、参加者の感想だけを集めても、申し込みが定員を超えた時に参加できなかった家庭が何を希望していたかは分からない。申込時に希望日や参加できない理由も尋ねれば、曜日を変えるべきか、定員を見直すべきかを判断しやすくなる。休日開催には職員配置の調整も必要だが、運営側には開催回数をただ増やすのではなく、参加できる人の幅を広げる方法を確かめてほしい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "開催回数を増やすことを最優先にする"
+      },
+      {
+        "id": "B",
+        "text": "平日だけの開催を今後も続ける"
+      },
+      {
+        "id": "C",
+        "text": "参加の状況を調べ、次の運営方法を検討する"
+      },
+      {
+        "id": "D",
+        "text": "希望者が多ければ安全説明を短縮する"
+      }
+    ],
+    "contentFingerprint": "18fbfe351af61c34ec4f516baf9dac2a23c8b433b586f616fe3774a9be94048a"
+  },
+  {
+    "id": "N2_10_M13_01",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-RD-LONG",
+    "category": "Mondai 13: 長文読解",
+    "taskInstructions": "文章を読んで、問いの答えとして最もよいものを一つ選びなさい。",
+    "stem": "筆者が平均待ち時間だけを見ることに問題があるとするのはなぜか。",
+    "contextPassage": "新しい製品や制度を評価する時、導入前に立てた目標が達成されたかを見ることは欠かせない。例えば、窓口の待ち時間を短くするために予約制を始めたなら、平均待ち時間を測れば、目標に近づいたかを確かめられる。しかし、平均だけでは、一部の利用者が長く待たされた事実が隠れることがある。また、予約が苦手な人が窓口を使わなくなれば、記録上の待ち時間は短く見えても、サービスが改善したとは言い切れない。\n\nそのため、評価では何を数えたかだけでなく、数えられなかった人や状況も考える必要がある。利用者への聞き取りは、数字の理由を理解する助けになる。ただし、数人の意見を全体の傾向とみなすのも危険だ。年代や利用目的など、どの人の声なのかを明らかにし、数量の結果と組み合わせて考えたい。\n\nさらに、導入直後の結果だけで判断しないことも重要だ。担当者が操作に慣れるまで時間がかかったり、利用者が新しい方法を知るまで数か月かかったりする。短期間で変化が見られなくても、すぐに効果がないと結論づけるべきではない。一方、長く続ければ必ずよくなると期待するのも適切ではない。事前に確認する時期を決め、途中で予想外の負担が生じた場合には、その理由を調べる。\n\nまた、導入前後を比べる時には、季節や利用者数などの条件が大きく異ならないかを確認したい。例えば、繁忙期に導入した制度の待ち時間が長くなっても、制度だけが原因とは限らない。可能であれば、似た条件の期間や窓口とも比べ、どの変化が制度に関係していそうかを慎重に見る必要がある。現場の担当者が感じる負担も参考になるが、その声だけで全体を判断せず、記録と合わせて考える。\n\n評価は、計画を成功か失敗かに分けるためだけのものではない。結果を見て方法を修正し、対象を絞ったり支援を加えたりするためにも使える。公表する時は、達成できた目標と残った課題の両方を伝え、測定の限界も説明したい。数字を結論として閉じるのではなく、次に何を確かめるかを決める材料にすることで、利用者が納得できる改善につながる。",
+    "options": [
+      {
+        "id": "A",
+        "text": "数字を測るには専門家が必要だから"
+      },
+      {
+        "id": "B",
+        "text": "予約制では平均値を計算できないから"
+      },
+      {
+        "id": "C",
+        "text": "待ち時間を測ると予約制が使えなくなるから"
+      },
+      {
+        "id": "D",
+        "text": "一部の利用者が使わなくなったことなどが見えなくなるから"
+      }
+    ],
+    "contentFingerprint": "a930650c5bfa6eed282102c144b02987c5664dc29cc3f451156ee6187c7c7e0f"
+  },
+  {
+    "id": "N2_10_M13_02",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-RD-LONG",
+    "category": "Mondai 13: 長文読解",
+    "taskInstructions": "文章を読んで、問いの答えとして最もよいものを一つ選びなさい。",
+    "stem": "聞き取りの結果を数字と組み合わせる時、筆者が注意を求めていることは何か。",
+    "contextPassage": "新しい製品や制度を評価する時、導入前に立てた目標が達成されたかを見ることは欠かせない。例えば、窓口の待ち時間を短くするために予約制を始めたなら、平均待ち時間を測れば、目標に近づいたかを確かめられる。しかし、平均だけでは、一部の利用者が長く待たされた事実が隠れることがある。また、予約が苦手な人が窓口を使わなくなれば、記録上の待ち時間は短く見えても、サービスが改善したとは言い切れない。\n\nそのため、評価では何を数えたかだけでなく、数えられなかった人や状況も考える必要がある。利用者への聞き取りは、数字の理由を理解する助けになる。ただし、数人の意見を全体の傾向とみなすのも危険だ。年代や利用目的など、どの人の声なのかを明らかにし、数量の結果と組み合わせて考えたい。\n\nさらに、導入直後の結果だけで判断しないことも重要だ。担当者が操作に慣れるまで時間がかかったり、利用者が新しい方法を知るまで数か月かかったりする。短期間で変化が見られなくても、すぐに効果がないと結論づけるべきではない。一方、長く続ければ必ずよくなると期待するのも適切ではない。事前に確認する時期を決め、途中で予想外の負担が生じた場合には、その理由を調べる。\n\nまた、導入前後を比べる時には、季節や利用者数などの条件が大きく異ならないかを確認したい。例えば、繁忙期に導入した制度の待ち時間が長くなっても、制度だけが原因とは限らない。可能であれば、似た条件の期間や窓口とも比べ、どの変化が制度に関係していそうかを慎重に見る必要がある。現場の担当者が感じる負担も参考になるが、その声だけで全体を判断せず、記録と合わせて考える。\n\n評価は、計画を成功か失敗かに分けるためだけのものではない。結果を見て方法を修正し、対象を絞ったり支援を加えたりするためにも使える。公表する時は、達成できた目標と残った課題の両方を伝え、測定の限界も説明したい。数字を結論として閉じるのではなく、次に何を確かめるかを決める材料にすることで、利用者が納得できる改善につながる。",
+    "options": [
+      {
+        "id": "A",
+        "text": "数字の結果を聞き取りより優先すること"
+      },
+      {
+        "id": "B",
+        "text": "人数を必ず一万人以上にすること"
+      },
+      {
+        "id": "C",
+        "text": "利用目的を記録しないこと"
+      },
+      {
+        "id": "D",
+        "text": "誰の意見なのかを明らかにすること"
+      }
+    ],
+    "contentFingerprint": "fbfbc0a3a639e46237bc7ff84795e9422c4133ad1d77b343956f17027de9ff22"
+  },
+  {
+    "id": "N2_10_M13_03",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-RD-LONG",
+    "category": "Mondai 13: 長文読解",
+    "taskInstructions": "文章を読んで、問いの答えとして最もよいものを一つ選びなさい。",
+    "stem": "筆者が評価結果を公表する時に求めていることは何か。",
+    "contextPassage": "新しい製品や制度を評価する時、導入前に立てた目標が達成されたかを見ることは欠かせない。例えば、窓口の待ち時間を短くするために予約制を始めたなら、平均待ち時間を測れば、目標に近づいたかを確かめられる。しかし、平均だけでは、一部の利用者が長く待たされた事実が隠れることがある。また、予約が苦手な人が窓口を使わなくなれば、記録上の待ち時間は短く見えても、サービスが改善したとは言い切れない。\n\nそのため、評価では何を数えたかだけでなく、数えられなかった人や状況も考える必要がある。利用者への聞き取りは、数字の理由を理解する助けになる。ただし、数人の意見を全体の傾向とみなすのも危険だ。年代や利用目的など、どの人の声なのかを明らかにし、数量の結果と組み合わせて考えたい。\n\nさらに、導入直後の結果だけで判断しないことも重要だ。担当者が操作に慣れるまで時間がかかったり、利用者が新しい方法を知るまで数か月かかったりする。短期間で変化が見られなくても、すぐに効果がないと結論づけるべきではない。一方、長く続ければ必ずよくなると期待するのも適切ではない。事前に確認する時期を決め、途中で予想外の負担が生じた場合には、その理由を調べる。\n\nまた、導入前後を比べる時には、季節や利用者数などの条件が大きく異ならないかを確認したい。例えば、繁忙期に導入した制度の待ち時間が長くなっても、制度だけが原因とは限らない。可能であれば、似た条件の期間や窓口とも比べ、どの変化が制度に関係していそうかを慎重に見る必要がある。現場の担当者が感じる負担も参考になるが、その声だけで全体を判断せず、記録と合わせて考える。\n\n評価は、計画を成功か失敗かに分けるためだけのものではない。結果を見て方法を修正し、対象を絞ったり支援を加えたりするためにも使える。公表する時は、達成できた目標と残った課題の両方を伝え、測定の限界も説明したい。数字を結論として閉じるのではなく、次に何を確かめるかを決める材料にすることで、利用者が納得できる改善につながる。",
+    "options": [
+      {
+        "id": "A",
+        "text": "結果を出さず次の計画だけ説明すること"
+      },
+      {
+        "id": "B",
+        "text": "達成した点だけを伝えること"
+      },
+      {
+        "id": "C",
+        "text": "失敗した担当者を明らかにすること"
+      },
+      {
+        "id": "D",
+        "text": "測定の限界と残る課題も示すこと"
+      }
+    ],
+    "contentFingerprint": "693226afbffc94c35ac4caa0167b0fdb0afad2c7a78ed8c17f791977c7e75102"
+  },
+  {
+    "id": "N2_10_M14_01",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-RD-INFO",
+    "category": "Mondai 14: 情報検索",
+    "taskInstructions": "案内を読んで、問いの答えとして最もよいものを一つ選びなさい。",
+    "stem": "市内の高校に通う16歳の人が水曜講座に申し込むには、どうすればよいか。",
+    "contextPassage": "【市立科学館・秋の公開講座】\n対象：市内在住・在勤・在学の高校生以上。高校生は保護者の同意が必要。\n講座：月曜「身近な気象データ」18:00–19:30（館内）／水曜「素材と環境」18:30–20:00（実験室）／土曜「星空観察」19:00–21:00（郊外観測所）。\n定員：各講座18人。応募が定員を超えた場合は初参加者を優先し、残りを抽選で決定。\n申込：10月2日から16日まで。希望する講座を一つ選び、参加理由を150字以内で記入する。郵送の場合は16日必着。\n参加費：無料。土曜講座の観測所までの交通費は自己負担。水曜講座は汚れてもよい服装で参加する。\n参加者には10月20日までにメールで結果を知らせる。参加が決まった人は初回の前日までに確認フォームを送信すること。欠席連絡は開催日の前日17時まで。\n申込方法は専用フォーム、館内窓口、郵送のいずれかとする。申込時に氏名、年齢、住所、連絡先を記入し、同じ人が複数の方法で申し込むことはできない。\n講座の内容は天候や機材の状態により変更する場合がある。変更時は登録メールへ連絡するため、申込後にメールアドレスを変更した人は事務局へ知らせてほしい。受付は開始15分前から行い、開始後の入室は安全説明の都合で認めない。",
+    "options": [
+      {
+        "id": "A",
+        "text": "土曜講座を選び、申込前に観測所までの交通費を払う"
+      },
+      {
+        "id": "B",
+        "text": "保護者の同意を得て、水曜講座を一つ選び、10月16日までに150字以内の理由を添えて申し込む"
+      },
+      {
+        "id": "C",
+        "text": "10月20日までに二つの講座を申し込み、理由を150字以上で書く"
+      },
+      {
+        "id": "D",
+        "text": "水曜講座に当選した後で初めて申し込み、参加理由を提出する"
+      }
+    ],
+    "contentFingerprint": "e49b3996e87d2e76b055a7ff788527df059f6e74936d10c529438f13457cf5e6"
+  },
+  {
+    "id": "N2_10_M14_02",
+    "examId": "N2-MOCK-10",
+    "section": 1,
+    "typeId": "N2-RD-INFO",
+    "category": "Mondai 14: 情報検索",
+    "taskInstructions": "案内を読んで、問いの答えとして最もよいものを一つ選びなさい。",
+    "stem": "応募者が定員を超えた時、申込者のうち初参加者でない人はどう扱われるか。",
+    "contextPassage": "【市立科学館・秋の公開講座】\n対象：市内在住・在勤・在学の高校生以上。高校生は保護者の同意が必要。\n講座：月曜「身近な気象データ」18:00–19:30（館内）／水曜「素材と環境」18:30–20:00（実験室）／土曜「星空観察」19:00–21:00（郊外観測所）。\n定員：各講座18人。応募が定員を超えた場合は初参加者を優先し、残りを抽選で決定。\n申込：10月2日から16日まで。希望する講座を一つ選び、参加理由を150字以内で記入する。郵送の場合は16日必着。\n参加費：無料。土曜講座の観測所までの交通費は自己負担。水曜講座は汚れてもよい服装で参加する。\n参加者には10月20日までにメールで結果を知らせる。参加が決まった人は初回の前日までに確認フォームを送信すること。欠席連絡は開催日の前日17時まで。\n申込方法は専用フォーム、館内窓口、郵送のいずれかとする。申込時に氏名、年齢、住所、連絡先を記入し、同じ人が複数の方法で申し込むことはできない。\n講座の内容は天候や機材の状態により変更する場合がある。変更時は登録メールへ連絡するため、申込後にメールアドレスを変更した人は事務局へ知らせてほしい。受付は開始15分前から行い、開始後の入室は安全説明の都合で認めない。",
+    "options": [
+      {
+        "id": "A",
+        "text": "申込日が早ければ優先的に参加できる"
+      },
+      {
+        "id": "B",
+        "text": "希望する講座を二つまで選び直せる"
+      },
+      {
+        "id": "C",
+        "text": "初参加者を決めた後、残った枠について抽選の対象になる"
+      },
+      {
+        "id": "D",
+        "text": "当選者が辞退するまで全員に結果を知らせない"
+      }
+    ],
+    "contentFingerprint": "6241d34044c2725e09f04ac92bdcea312ef17a6f7035bc7bc99e128d3b6bf04b"
+  },
+  {
+    "id": "N2_10_M1_L01",
+    "examId": "N2-MOCK-10",
+    "section": 2,
+    "typeId": "N2-LIS-TASK",
+    "category": "Mondai 1: 課題理解",
+    "taskInstructions": "課題理解：音声を聞き、必要な行動を一つ選びなさい。",
+    "stem": "学生はまず何をしますか。",
+    "contextPassage": "大学の研究室で、学生と指導教員が発表資料について話しています。\n\n女：発表用のグラフはできました。色を増やせば、三つの条件の違いがもっと目立つと思います。\n男：色を増やす前に、白黒で印刷しても区別できるか確かめてください。会場の資料は白黒です。\n女：では、線の種類も変えてみます。\n男：そうですね。その後で、説明の順番を私と確認しましょう。",
+    "options": [
+      {
+        "id": "A",
+        "text": "条件の数を減らして、新しい測定結果をまとめる"
+      },
+      {
+        "id": "B",
+        "text": "色を増やしたグラフを作り、印刷して見え方を確かめる"
+      },
+      {
+        "id": "C",
+        "text": "グラフを白黒で印刷し、三つの条件を区別できるか確かめる"
+      },
+      {
+        "id": "D",
+        "text": "説明の順番を指導教員と先に相談して決める"
+      }
+    ],
+    "contentFingerprint": "62f3ab6b045f35a9095febeb1456bdb950a817152e3dd251b0c9ead0291475dd"
+  },
+  {
+    "id": "N2_10_M1_L02",
+    "examId": "N2-MOCK-10",
+    "section": 2,
+    "typeId": "N2-LIS-TASK",
+    "category": "Mondai 1: 課題理解",
+    "taskInstructions": "課題理解：音声を聞き、必要な行動を一つ選びなさい。",
+    "stem": "職員はこの後、何をしますか。",
+    "contextPassage": "市の窓口で、利用者と職員が転入手続きについて話しています。\n\n男：住所変更の書類は書けましたが、健康保険の手続きもここでできますか。\n女：はい。ただ、保険証をお持ちでない場合は、前の住所の保険資格が分かる書類が必要です。\n男：今日は持ってきていません。\n女：では、先に住所変更を受け付けます。書類が届いたら、保険の窓口へお越しください。\n男：分かりました。住所の手続きからお願いします。",
+    "options": [
+      {
+        "id": "A",
+        "text": "保険の手続きが済むまで、住所変更の申請を保留にする"
+      },
+      {
+        "id": "B",
+        "text": "前住所の資格を電話で確認してから、住所変更を受け付ける"
+      },
+      {
+        "id": "C",
+        "text": "住所変更を先に受け付け、書類が届いた後に保険窓口へ案内する"
+      },
+      {
+        "id": "D",
+        "text": "保険資格が分かる書類がないまま、保険証を発行する"
+      }
+    ],
+    "contentFingerprint": "f4eb2a25a65cccc75066af57504427a37ef8e108d38d68fd1e8ceaff6b3b159a"
+  },
+  {
+    "id": "N2_10_M1_L03",
+    "examId": "N2-MOCK-10",
+    "section": 2,
+    "typeId": "N2-LIS-TASK",
+    "category": "Mondai 1: 課題理解",
+    "taskInstructions": "課題理解：音声を聞き、必要な行動を一つ選びなさい。",
+    "stem": "著者は何をしますか。",
+    "contextPassage": "出版社で、編集者と著者が原稿の修正について話しています。\n\n女：用語を統一した修正版を送りました。図の説明も短くしています。\n男：本文では『利用者』、図では『使用者』になっていますね。どちらかにそろえてください。\n女：分かりました。締め切りは明日ですが、図の説明も戻したほうがいいですか。\n男：説明は今の長さで十分です。用語だけ直して、今日中に再送してください。",
+    "options": [
+      {
+        "id": "A",
+        "text": "用語を統一せず、修正版を明日の締め切りまで保留する"
+      },
+      {
+        "id": "B",
+        "text": "用語をそろえ、図の説明は今の長さのまま今日中に再送する"
+      },
+      {
+        "id": "C",
+        "text": "図の説明を元の長さに戻し、締め切り後に再送する"
+      },
+      {
+        "id": "D",
+        "text": "図を削除して、本文だけを今日中に再送する"
+      }
+    ],
+    "contentFingerprint": "16920682f43c1fa7975c7e0ec992cb6a580c98d68d0448406933ccedd8b4983e"
+  },
+  {
+    "id": "N2_10_M1_L04",
+    "examId": "N2-MOCK-10",
+    "section": 2,
+    "typeId": "N2-LIS-TASK",
+    "category": "Mondai 1: 課題理解",
+    "taskInstructions": "課題理解：音声を聞き、必要な行動を一つ選びなさい。",
+    "stem": "旅行者はどうしますか。",
+    "contextPassage": "駅の案内所で、旅行者と係員が列車の運休について話しています。\n\n男：山間部の列車が止まっているそうですが、空港へ行けますか。\n女：空港線は通常どおりです。山間部へ向かう快速だけが運休しています。\n男：空港線はこのホームから乗れますか。\n女：いいえ、二番線です。改札を出る必要はありません。発車まで十分あります。",
+    "options": [
+      {
+        "id": "A",
+        "text": "空港線も運休していると判断し、旅行日程を変更する"
+      },
+      {
+        "id": "B",
+        "text": "運休中の快速が再開するまで、現在のホームで待つ"
+      },
+      {
+        "id": "C",
+        "text": "改札を出ずに二番線へ移動し、空港線に乗る"
+      },
+      {
+        "id": "D",
+        "text": "改札を出て、空港へ行くバス乗り場を探す"
+      }
+    ],
+    "contentFingerprint": "75ac00046d15a51b4305a63e0b59408ec6261f3726cf92f27e874289b3e5bceb"
+  },
+  {
+    "id": "N2_10_M1_L05",
+    "examId": "N2-MOCK-10",
+    "section": 2,
+    "typeId": "N2-LIS-TASK",
+    "category": "Mondai 1: 課題理解",
+    "taskInstructions": "課題理解：音声を聞き、必要な行動を一つ選びなさい。",
+    "stem": "担当者は何を変更しますか。",
+    "contextPassage": "職場で、担当者と同僚がオンライン会議の準備について話しています。\n\n女：資料のリンクを参加者に送りました。画面共有の確認も済んでいます。\n男：外部の方は会社のアカウントを持っていないので、そのリンクでは入れないそうです。\n女：では、招待方法を変えます。会議の開始時刻は予定どおりでよいですか。\n男：はい。資料はそのまま使えますから、参加用の案内だけ送り直してください。",
+    "options": [
+      {
+        "id": "A",
+        "text": "外部の方が使える参加用の案内を送り直す"
+      },
+      {
+        "id": "B",
+        "text": "画面共有用の資料を修正し、全員へ再送する"
+      },
+      {
+        "id": "C",
+        "text": "会議の開始時刻を外部参加者に合わせて遅らせる"
+      },
+      {
+        "id": "D",
+        "text": "外部参加者に会社アカウントを作成してもらう"
+      }
+    ],
+    "contentFingerprint": "f77b8a0c07d99bf3a09e0fb54f8bd6378812d22e57201f8254248b9e2ddc115e"
+  },
+  {
+    "id": "N2_10_M2_L01",
+    "examId": "N2-MOCK-10",
+    "section": 2,
+    "typeId": "N2-LIS-POINT",
+    "category": "Mondai 2: ポイント理解",
+    "taskInstructions": "ポイント理解：音声を聞き、指定された点について一つ選びなさい。",
+    "stem": "申し込みが定員を超えた場合、参加者はどう決まりますか。",
+    "contextPassage": "地域センターの担当者が、講座の申し込み方法を説明しています。\n\n春の講座は、昨年まで電話で申し込みを受け付けていましたが、今年からウェブと窓口のどちらでも申し込めます。定員を超えた場合は、申込順ではなく抽選です。結果は締め切りから三日後にメールで知らせます。メールを利用できない方は、窓口で結果を確認してください。",
+    "options": [
+      {
+        "id": "A",
+        "text": "昨年の参加者を優先し、残りを新規申込から選ぶ"
+      },
+      {
+        "id": "B",
+        "text": "抽選で決まり、締め切り三日後にメールまたは窓口で結果を確認できる"
+      },
+      {
+        "id": "C",
+        "text": "窓口で申し込んだ人を先にし、残りの枠を抽選にする"
+      },
+      {
+        "id": "D",
+        "text": "申込順に決め、当選者には電話で知らせる"
+      }
+    ],
+    "contentFingerprint": "7dafa5cb96ea3c03ed6511200bc1a45384cda2aca129d8f09d048acfa63379bb"
+  },
+  {
+    "id": "N2_10_M2_L02",
+    "examId": "N2-MOCK-10",
+    "section": 2,
+    "typeId": "N2-LIS-POINT",
+    "category": "Mondai 2: ポイント理解",
+    "taskInstructions": "ポイント理解：音声を聞き、指定された点について一つ選びなさい。",
+    "stem": "利用者が午後五時半までにすることは何ですか。",
+    "contextPassage": "市立図書館の館内放送です。\n\n本日午後六時から、二階の閲覧室で空調設備の点検を行います。作業中も閲覧室の本は利用できますが、窓側の席は午後五時半までに空けてください。一階の返却ポストと自動貸出機は通常どおり使えます。点検は午後七時半までに終わる予定です。",
+    "options": [
+      {
+        "id": "A",
+        "text": "点検が始まる前に、二階の本をすべて返す"
+      },
+      {
+        "id": "B",
+        "text": "窓側の席を午後五時半までに空ける"
+      },
+      {
+        "id": "C",
+        "text": "点検が終わるまで、図書館から退出する"
+      },
+      {
+        "id": "D",
+        "text": "点検時刻に合わせて、自動貸出機を停止する"
+      }
+    ],
+    "contentFingerprint": "732d510084f842f8fe1401e1f1632bc499aaaa4ba3116c1e2c5033c70b14ff06"
+  },
+  {
+    "id": "N2_10_M2_L03",
+    "examId": "N2-MOCK-10",
+    "section": 2,
+    "typeId": "N2-LIS-POINT",
+    "category": "Mondai 2: ポイント理解",
+    "taskInstructions": "ポイント理解：音声を聞き、指定された点について一つ選びなさい。",
+    "stem": "社員は研修の後、何をしますか。",
+    "contextPassage": "会社の研修担当者と社員が、研修後の報告について話しています。\n\n女：研修の感想は、今日のうちにフォームへ入力してください。\n男：業務で試した結果も、同じフォームに書くのでしょうか。\n女：それは一か月後に確認します。まず、研修で紹介した方法を一つ選んで、実際に試した時の記録を残しておいてください。\n男：分かりました。感想と実践記録は別に提出するんですね。",
+    "options": [
+      {
+        "id": "A",
+        "text": "今日中に感想を入力し、試した方法の記録を残しておく"
+      },
+      {
+        "id": "B",
+        "text": "方法を一つ試すが、記録は一か月後まで残さない"
+      },
+      {
+        "id": "C",
+        "text": "感想も実践結果も一か月後にまとめて提出する"
+      },
+      {
+        "id": "D",
+        "text": "実践結果を口頭で伝え、フォームには入力しない"
+      }
+    ],
+    "contentFingerprint": "034e98057b2360e225c4c5f1dd1c254e2ddf5216e4b9800139b1129e336e5d26"
+  },
+  {
+    "id": "N2_10_M2_L04",
+    "examId": "N2-MOCK-10",
+    "section": 2,
+    "typeId": "N2-LIS-POINT",
+    "category": "Mondai 2: ポイント理解",
+    "taskInstructions": "ポイント理解：音声を聞き、指定された点について一つ選びなさい。",
+    "stem": "二人は改善案の効果をどう調べますか。",
+    "contextPassage": "市役所の窓口改善について、職員二人が話しています。\n\n男：番号札を導入してから、順番への問い合わせは減りました。\n女：ただ、手続きに時間がかかる人がいると、後の窓口が空いていても列が伸びます。\n男：書類を書く場所を窓口の横に移せば、相談が必要な人だけ職員を呼べそうです。\n女：まず一週間試して、待ち時間と職員への質問数を記録しましょう。",
+    "options": [
+      {
+        "id": "A",
+        "text": "窓口を減らし、利用者に記入から提出まで任せる"
+      },
+      {
+        "id": "B",
+        "text": "番号札はそのままにし、順番への問い合わせ数だけ調べる"
+      },
+      {
+        "id": "C",
+        "text": "記入場所を移して一週間試し、待ち時間と職員への質問数を記録する"
+      },
+      {
+        "id": "D",
+        "text": "一週間後に利用者の年齢を調べ、待ち時間の記録は省く"
+      }
+    ],
+    "contentFingerprint": "5797f6c34db95426c2ac44d8948d53cb3a007da892c33f77546f3673acb785d3"
+  },
+  {
+    "id": "N2_10_M2_L05",
+    "examId": "N2-MOCK-10",
+    "section": 2,
+    "typeId": "N2-LIS-POINT",
+    "category": "Mondai 2: ポイント理解",
+    "taskInstructions": "ポイント理解：音声を聞き、指定された点について一つ選びなさい。",
+    "stem": "講座の録画に含まれるのはどの部分ですか。",
+    "contextPassage": "大学の公開講座について、運営担当者が説明しています。\n\n講座の録画は、受講者が復習できるよう二週間公開します。ただし、質疑応答には個人の研究内容が含まれることがあるため、録画には講義部分だけを残します。配布資料は公開期間が終わった後も、登録者が閲覧できます。質問への回答は、個人情報を除いて別のページに掲載します。",
+    "options": [
+      {
+        "id": "A",
+        "text": "配布資料と質問への回答だけを録画に含める"
+      },
+      {
+        "id": "B",
+        "text": "講義部分だけを録画し、質問への回答は別ページに掲載する"
+      },
+      {
+        "id": "C",
+        "text": "質疑応答だけを録画し、講義は資料で確認してもらう"
+      },
+      {
+        "id": "D",
+        "text": "講義と、個人情報を除いた質疑応答を一つの録画にする"
+      }
+    ],
+    "contentFingerprint": "0f0c4a4801a26edbed63eb7ba7840cb6af79c0ba1ed6765bced8031d279a035c"
+  },
+  {
+    "id": "N2_10_M2_L06",
+    "examId": "N2-MOCK-10",
+    "section": 2,
+    "typeId": "N2-LIS-POINT",
+    "category": "Mondai 2: ポイント理解",
+    "taskInstructions": "ポイント理解：音声を聞き、指定された点について一つ選びなさい。",
+    "stem": "住民は断水の後、どうすればよいですか。",
+    "contextPassage": "集合住宅の管理会社からのお知らせです。\n\n来週の火曜日に、受水槽の清掃を行います。午前九時から正午までは断水しますので、必要な水は前日までにご用意ください。作業時間は予定より早く終わる場合がありますが、終了の連絡があるまでは蛇口を使用しないでください。清掃後、最初に出る水は数秒流してからお使いください。",
+    "options": [
+      {
+        "id": "A",
+        "text": "作業後、最初に出る水を数秒流してから使う"
+      },
+      {
+        "id": "B",
+        "text": "正午になったら、すぐに洗濯機を動かす"
+      },
+      {
+        "id": "C",
+        "text": "断水が始まる朝に、必要な水を用意する"
+      },
+      {
+        "id": "D",
+        "text": "終了の連絡が来る前に、蛇口を開いて水を確かめる"
+      }
+    ],
+    "contentFingerprint": "1dbef4299e6ffdbfbaa498a44f4f92aba203d277e18ee6772c7ab79ad41ab1fe"
+  },
+  {
+    "id": "N2_10_M3_L01",
+    "examId": "N2-MOCK-10",
+    "section": 2,
+    "typeId": "N2-LIS-SUMM",
+    "category": "Mondai 3: 概要理解",
+    "taskInstructions": "概要理解：音声を聞き、話し手の主張や要点を一つ選びなさい。",
+    "stem": "話し手が最も伝えたいことは何ですか。",
+    "contextPassage": "市の広報担当者が、行政情報の伝え方について話しています。\n\n短い動画は、場所の雰囲気や作業の様子を伝えるのに向いています。しかし、申込期限や対象条件のように後から確認したい情報は、動画の中だけだと探しにくいことがあります。動画をやめる必要はありませんが、重要な条件は文字でも一覧にして、同じページから見られるようにしたいです。情報の種類に合わせて媒体を組み合わせることが大切です。",
+    "options": [
+      {
+        "id": "A",
+        "text": "作業や場所は動画で伝え、後から確認する条件は文字でも載せる"
+      },
+      {
+        "id": "B",
+        "text": "申込条件は利用者ごとに別の連絡方法で伝える"
+      },
+      {
+        "id": "C",
+        "text": "申込条件も含め、行政情報をすべて動画だけで知らせる"
+      },
+      {
+        "id": "D",
+        "text": "動画をやめ、行政情報を文字の一覧だけで知らせる"
+      }
+    ],
+    "contentFingerprint": "ec7391d8cc1a762df2b2ddb49dc546db94bcb7ac40e5d141016cf7f164e293d3"
+  },
+  {
+    "id": "N2_10_M3_L02",
+    "examId": "N2-MOCK-10",
+    "section": 2,
+    "typeId": "N2-LIS-SUMM",
+    "category": "Mondai 3: 概要理解",
+    "taskInstructions": "概要理解：音声を聞き、話し手の主張や要点を一つ選びなさい。",
+    "stem": "話し手は調査の数字をどう扱うべきだと考えていますか。",
+    "contextPassage": "大学の研究者が、調査結果の読み方について話しています。\n\nある調査で満足度が上がったとしても、それだけで新しい制度が成功したとは言えません。回答した人がどのような人たちか、制度を利用しなかった人がどれほどいるかも確認する必要があります。数字を疑うのではなく、数字が表している範囲を確かめるのです。質問の仕方や調査時期も記録しておけば、次の調査と比べる時に変化の理由を考えやすくなります。",
+    "options": [
+      {
+        "id": "A",
+        "text": "質問や調査時期の記録を省き、結果の数字だけを比べる"
+      },
+      {
+        "id": "B",
+        "text": "満足度が上がれば成功とみなし、回答者の構成は考えない"
+      },
+      {
+        "id": "C",
+        "text": "回答しなかった人を対象から外し、回答者の数字だけを比べる"
+      },
+      {
+        "id": "D",
+        "text": "回答者の属性や非利用者の割合も確かめ、数字が示す範囲を見て解釈する"
+      }
+    ],
+    "contentFingerprint": "c10f888a54e1c8ea039f8849988f576bff671f2738c4bee08a8f7cce1345f8a0"
+  },
+  {
+    "id": "N2_10_M3_L03",
+    "examId": "N2-MOCK-10",
+    "section": 2,
+    "typeId": "N2-LIS-SUMM",
+    "category": "Mondai 3: 概要理解",
+    "taskInstructions": "概要理解：音声を聞き、話し手の主張や要点を一つ選びなさい。",
+    "stem": "話し手が導入前に求めていることは何ですか。",
+    "contextPassage": "企業の技術担当者が、生成AIの導入について説明しています。\n\n作業を速くできるからといって、すべての業務に同じ道具を使うのがよいとは限りません。誤りがそのまま顧客に伝わると困る仕事では、人が確認する手順を残す必要があります。一方、社内向けの案内文の下書きなら、担当者が内容を直す前提で試しやすいでしょう。導入するかどうかを決める前に、仕事ごとの危険と確認方法を整理してほしいと思います。",
+    "options": [
+      {
+        "id": "A",
+        "text": "誤りが顧客に伝わる仕事も含め、全て同じ手順で導入する"
+      },
+      {
+        "id": "B",
+        "text": "業務ごとの危険を整理し、必要な人の確認方法を決める"
+      },
+      {
+        "id": "C",
+        "text": "社内向けの下書きから試し、人による確認は最初から省く"
+      },
+      {
+        "id": "D",
+        "text": "利用回数を先に増やし、問題が起きてから確認方法を考える"
+      }
+    ],
+    "contentFingerprint": "9b46d7aabe742ae945fb8c1adb12627594ec6e20b557ea9f2c3ee16a8a139f00"
+  },
+  {
+    "id": "N2_10_M3_L04",
+    "examId": "N2-MOCK-10",
+    "section": 2,
+    "typeId": "N2-LIS-SUMM",
+    "category": "Mondai 3: 概要理解",
+    "taskInstructions": "概要理解：音声を聞き、話し手の主張や要点を一つ選びなさい。",
+    "stem": "話し手は展示の説明で何を重視していますか。",
+    "contextPassage": "地域の博物館員が、展示の説明について話しています。\n\n専門用語を使わないようにするだけでは、説明が分かりやすくなるとは限りません。例えば、道具の名前を簡単な言葉に置き換えても、何に使われたのかが書かれていなければ、来館者は形を見ても役割を想像できないでしょう。説明文を作る時は、用語の難しさを調整すると同時に、当時の生活のどの場面で使われたかを示したいです。",
+    "options": [
+      {
+        "id": "A",
+        "text": "来館者が用途を自分で調べる前提で、説明を減らす"
+      },
+      {
+        "id": "B",
+        "text": "専門用語は残したまま、道具の名称だけ短くする"
+      },
+      {
+        "id": "C",
+        "text": "難しい用語を調整し、当時の生活でどう使われたかも示す"
+      },
+      {
+        "id": "D",
+        "text": "道具の名前を置き換えるが、使われた場面は説明しない"
+      }
+    ],
+    "contentFingerprint": "edaee595a480a0c219438ec3784e15a49a49bd391c94a8c4a136b285285b3772"
+  },
+  {
+    "id": "N2_10_M3_L05",
+    "examId": "N2-MOCK-10",
+    "section": 2,
+    "typeId": "N2-LIS-SUMM",
+    "category": "Mondai 3: 概要理解",
+    "taskInstructions": "概要理解：音声を聞き、話し手の主張や要点を一つ選びなさい。",
+    "stem": "話し手の意見に最も近いものはどれですか。",
+    "contextPassage": "交通政策を研究する専門家が、地域バスの利用者数について話しています。\n\n利用者が少ない路線をすぐ廃止すると、通院や買い物の手段を失う人が出るかもしれません。利用者数は重要な情報ですが、乗車人数だけでは必要性を判断しきれないのです。時間帯を変えれば利用しやすくなるのか、予約制なら運行を維持できるのか、地域の人と試してみる方法があります。続けるかやめるかを決める前に、別の運行方法を検討してほしいです。",
+    "options": [
+      {
+        "id": "A",
+        "text": "通院利用を調べる前に、利用者が少ない路線を廃止する"
+      },
+      {
+        "id": "B",
+        "text": "予約制なら、どの地域でも利用が増えると想定する"
+      },
+      {
+        "id": "C",
+        "text": "利用人数は見ず、予算だけで路線の継続を決める"
+      },
+      {
+        "id": "D",
+        "text": "乗車人数だけで決めず、地域の人と別の運行方法も試す"
+      }
+    ],
+    "contentFingerprint": "13641ea426ce4ff0dd24c44f54322d75915a6fac5a2e5db286f1ad2bc923abbd"
+  },
+  {
+    "id": "N2_10_M4_L01",
+    "examId": "N2-MOCK-10",
+    "section": 2,
+    "typeId": "N2-LIS-RESP",
+    "category": "Mondai 4: 即時応答",
+    "taskInstructions": "即時応答：短い問いかけを聞き、最も自然な返答を一つ選びなさい。",
+    "stem": "この資料は専門用語が多く、住民に伝わりにくいですね。配布前に本文を直すなら、どこを変えましょうか。",
+    "contextPassage": "問題４、1番。\n男：この資料は専門用語が多く、住民に伝わりにくいですね。配布前に本文を直すなら、どこを変えましょうか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "用語一覧を最後に付け、本文は変えずに配りましょう。"
+      },
+      {
+        "id": "B",
+        "text": "難しい語を言い換え、図や具体例も加えて本文を直しましょう。"
+      },
+      {
+        "id": "C",
+        "text": "用語はそのままにして、資料の色や文字の大きさを調整しましょう。"
+      }
+    ],
+    "contentFingerprint": "3b288d72aac5bb7cc91907aa933b9a241d02781683048eb7b486648052792d31"
+  },
+  {
+    "id": "N2_10_M4_L02",
+    "examId": "N2-MOCK-10",
+    "section": 2,
+    "typeId": "N2-LIS-RESP",
+    "category": "Mondai 4: 即時応答",
+    "taskInstructions": "即時応答：短い問いかけを聞き、最も自然な返答を一つ選びなさい。",
+    "stem": "来週の説明会の駅前会場が使えなくなったそうです。参加者に知らせる前に、次に何を確認しますか。",
+    "contextPassage": "問題４、2番。\n女：来週の説明会の駅前会場が使えなくなったそうです。参加者に知らせる前に、次に何を確認しますか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "会場が使えないことだけ先に知らせ、場所は後日連絡しましょう。"
+      },
+      {
+        "id": "B",
+        "text": "空いている候補会場を確認し、決まってから参加者に連絡しましょう。"
+      },
+      {
+        "id": "C",
+        "text": "新しい会場が決まるまでは、説明会の日程も変更しましょう。"
+      }
+    ],
+    "contentFingerprint": "0f05abfc6117aa649b81142f1234b80414cc47eca1a6c05739390ace40911b3f"
+  },
+  {
+    "id": "N2_10_M4_L03",
+    "examId": "N2-MOCK-10",
+    "section": 2,
+    "typeId": "N2-LIS-RESP",
+    "category": "Mondai 4: 即時応答",
+    "taskInstructions": "即時応答：短い問いかけを聞き、最も自然な返答を一つ選びなさい。",
+    "stem": "議事録には決定事項だけでなく、保留中の点と次に確認する人も残した方がいいですか。",
+    "contextPassage": "問題４、3番。\n男：議事録には決定事項だけでなく、保留中の点と次に確認する人も残した方がいいですか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "決定した内容だけを記録し、保留点は次回の会議で確認しましょう。"
+      },
+      {
+        "id": "B",
+        "text": "次の会議日時と出席者を追記すれば、議事録として十分です。"
+      },
+      {
+        "id": "C",
+        "text": "保留中の点と次に確認する担当者も、項目ごとに残してください。"
+      }
+    ],
+    "contentFingerprint": "1bc472e5aa020f1a97da410c0e1c5adf898600974e6551c97ddec3806596d369"
+  },
+  {
+    "id": "N2_10_M4_L04",
+    "examId": "N2-MOCK-10",
+    "section": 2,
+    "typeId": "N2-LIS-RESP",
+    "category": "Mondai 4: 即時応答",
+    "taskInstructions": "即時応答：短い問いかけを聞き、最も自然な返答を一つ選びなさい。",
+    "stem": "雨の日に入口の案内表示が見えにくいという声がありました。表示の場所を変えて原因を確かめるなら、どうしましょう。",
+    "contextPassage": "問題４、4番。\n女：雨の日に入口の案内表示が見えにくいという声がありました。表示の場所を変えて原因を確かめるなら、どうしましょう。",
+    "options": [
+      {
+        "id": "A",
+        "text": "屋根の下にも表示を置き、雨でも見えるか確かめましょう。"
+      },
+      {
+        "id": "B",
+        "text": "表示の文字を大きくし、同じ場所で雨の日の見え方を比べましょう。"
+      },
+      {
+        "id": "C",
+        "text": "表示は動かさず、防水素材に替えて様子を見ましょう。"
+      }
+    ],
+    "contentFingerprint": "40caf3207aa3b11ec592cec1b49d6567297e7797c865b73d9214835092063f59"
+  },
+  {
+    "id": "N2_10_M4_L05",
+    "examId": "N2-MOCK-10",
+    "section": 2,
+    "typeId": "N2-LIS-RESP",
+    "category": "Mondai 4: 即時応答",
+    "taskInstructions": "即時応答：短い問いかけを聞き、最も自然な返答を一つ選びなさい。",
+    "stem": "予定より早く作業が終わる可能性があります。終了時刻の変更で影響を受ける人には、今から連絡したほうがいいですか。",
+    "contextPassage": "問題４、5番。\n男：予定より早く作業が終わる可能性があります。終了時刻の変更で影響を受ける人には、今から連絡したほうがいいですか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "作業が終わった後で、掲示板に結果だけ載せましょう。"
+      },
+      {
+        "id": "B",
+        "text": "変更が確定してから、作業に関わる担当者だけに知らせましょう。"
+      },
+      {
+        "id": "C",
+        "text": "はい、終了時刻が変わる可能性を関係者に知らせましょう。"
+      }
+    ],
+    "contentFingerprint": "80e64ef9ab5ae9f19619910e5e25fc321e659558bab35cff79a60edcdde416fc"
+  },
+  {
+    "id": "N2_10_M4_L06",
+    "examId": "N2-MOCK-10",
+    "section": 2,
+    "typeId": "N2-LIS-RESP",
+    "category": "Mondai 4: 即時応答",
+    "taskInstructions": "即時応答：短い問いかけを聞き、最も自然な返答を一つ選びなさい。",
+    "stem": "調査の回答が少ないので公表するか迷っています。公表する場合、読み手に何を説明する必要がありますか。",
+    "contextPassage": "問題４、6番。\n女：調査の回答が少ないので公表するか迷っています。公表する場合、読み手に何を説明する必要がありますか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "追加回答を集めるまで、これまでの結果は分析せずに保管しましょう。"
+      },
+      {
+        "id": "B",
+        "text": "回答数と対象者の偏りを示し、結果の限界を添えて公表を検討しましょう。"
+      },
+      {
+        "id": "C",
+        "text": "回答が少ないことは触れず、全体の傾向として結果を示しましょう。"
+      }
+    ],
+    "contentFingerprint": "4609811321ead3b46df2b4a116a14a7eda32608a60b8a13060e59bf1a914ec40"
+  },
+  {
+    "id": "N2_10_M4_L07",
+    "examId": "N2-MOCK-10",
+    "section": 2,
+    "typeId": "N2-LIS-RESP",
+    "category": "Mondai 4: 即時応答",
+    "taskInstructions": "即時応答：短い問いかけを聞き、最も自然な返答を一つ選びなさい。",
+    "stem": "申込書に提出先が二つ記載され、利用者が迷うそうです。案内を直すとき、先に行うことは何ですか。",
+    "contextPassage": "問題４、7番。\n男：申込書に提出先が二つ記載され、利用者が迷うそうです。案内を直すとき、先に行うことは何ですか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "正式な提出先を一つに決め、古い案内も合わせて修正しましょう。"
+      },
+      {
+        "id": "B",
+        "text": "申込書によって提出先を使い分け、二つの案内を残しましょう。"
+      },
+      {
+        "id": "C",
+        "text": "最初に書かれた提出先を残し、もう一方の案内だけ消しましょう。"
+      }
+    ],
+    "contentFingerprint": "674a74b20ceddd9295d4994c1495a319d550b1bc4c628a8cb5ef29e152f99606"
+  },
+  {
+    "id": "N2_10_M4_L08",
+    "examId": "N2-MOCK-10",
+    "section": 2,
+    "typeId": "N2-LIS-RESP",
+    "category": "Mondai 4: 即時応答",
+    "taskInstructions": "即時応答：短い問いかけを聞き、最も自然な返答を一つ選びなさい。",
+    "stem": "新しい予約システムで利用者が操作に迷う画面を特定して、案内を直したいですね。まず何を聞きますか。",
+    "contextPassage": "問題４、8番。\n女：新しい予約システムで利用者が操作に迷う画面を特定して、案内を直したいですね。まず何を聞きますか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "以前の予約方法へ戻し、利用者には変更を知らせましょう。"
+      },
+      {
+        "id": "B",
+        "text": "全利用者に同じ操作説明を送り、個別の質問は受けないようにしましょう。"
+      },
+      {
+        "id": "C",
+        "text": "どの画面のどの操作で止まったか、具体的に聞きましょう。"
+      }
+    ],
+    "contentFingerprint": "5fcbd6498a59e02ceca217c82feadad7854ddf476aa434829cee93c486ae1bbf"
+  },
+  {
+    "id": "N2_10_M4_L09",
+    "examId": "N2-MOCK-10",
+    "section": 2,
+    "typeId": "N2-LIS-RESP",
+    "category": "Mondai 4: 即時応答",
+    "taskInstructions": "即時応答：短い問いかけを聞き、最も自然な返答を一つ選びなさい。",
+    "stem": "会場後方では説明の声が聞き取りにくかったそうです。次回は音響と座席の条件を確かめたいですね。",
+    "contextPassage": "問題４、9番。\n男：会場後方では説明の声が聞き取りにくかったそうです。次回は音響と座席の条件を確かめたいですね。",
+    "options": [
+      {
+        "id": "A",
+        "text": "次回はマイクの音量と座席の配置を確認しましょう。"
+      },
+      {
+        "id": "B",
+        "text": "後方の参加者には、説明資料を大きく印刷して渡しましょう。"
+      },
+      {
+        "id": "C",
+        "text": "説明を録音して後から配り、会場の音量は変えずにおきましょう。"
+      }
+    ],
+    "contentFingerprint": "5c73adda8ef1b7d90766b3c4bbb94b7da0abfec76473e68dc753648a258751cd"
+  },
+  {
+    "id": "N2_10_M4_L10",
+    "examId": "N2-MOCK-10",
+    "section": 2,
+    "typeId": "N2-LIS-RESP",
+    "category": "Mondai 4: 即時応答",
+    "taskInstructions": "即時応答：短い問いかけを聞き、最も自然な返答を一つ選びなさい。",
+    "stem": "去年と今年の調査時期が異なる比較結果を報告書に載せます。読み手に誤解されないよう何を加えますか。",
+    "contextPassage": "問題４、10番。\n女：去年と今年の調査時期が異なる比較結果を報告書に載せます。読み手に誤解されないよう何を加えますか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "調査時期の違いを記し、単純比較できない可能性も説明しましょう。"
+      },
+      {
+        "id": "B",
+        "text": "回答者の数が近いので、時期の違いには触れずに比較しましょう。"
+      },
+      {
+        "id": "C",
+        "text": "今年の結果だけを載せ、去年の調査結果は報告書から外しましょう。"
+      }
+    ],
+    "contentFingerprint": "e8bc3464c59b1b6ebdaa5517e003b0f8351bdedb7c6ed0cbe6e5c0d65e59384b"
+  },
+  {
+    "id": "N2_10_M4_L11",
+    "examId": "N2-MOCK-10",
+    "section": 2,
+    "typeId": "N2-LIS-RESP",
+    "category": "Mondai 4: 即時応答",
+    "taskInstructions": "即時応答：短い問いかけを聞き、最も自然な返答を一つ選びなさい。",
+    "stem": "説明会に申し込んだのに確認メールが届かなかった人がいます。原因を調べるため、何を確認しますか。",
+    "contextPassage": "問題４、11番。\n男：説明会に申し込んだのに確認メールが届かなかった人がいます。原因を調べるため、何を確認しますか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "全員に同じ確認メールを再送し、届いたかどうかは後で尋ねましょう。"
+      },
+      {
+        "id": "B",
+        "text": "申込記録と入力されたメールアドレスを確認しましょう。"
+      },
+      {
+        "id": "C",
+        "text": "本人にもう一度申し込んでもらい、最初の記録は確認しないでおきましょう。"
+      }
+    ],
+    "contentFingerprint": "a9a6505e2b1cf3fe1c32a403bebc828827e67a2fed5c07f3f89157ae4fb62329"
+  },
+  {
+    "id": "N2_10_M5_L01",
+    "examId": "N2-MOCK-10",
+    "section": 2,
+    "typeId": "N2-LIS-INTEG",
+    "category": "Mondai 5: 統合理解",
+    "taskInstructions": "統合理解：会話を聞き、複数の情報を合わせて答えを一つ選びなさい。",
+    "stem": "二人は次回、何を比べますか。",
+    "contextPassage": "市民向けイベントの担当者二人が、アンケート結果について話しています。\n\n女：参加者の満足度は高かったですが、受付で待ったという意見が目立ちました。\n男：受付の列は開始直後に集中していましたね。\n女：事前に申し込み内容を確認しておけば、当日の記入を減らせるかもしれません。\n男：ただ、スマートフォンを使わない人もいます。紙の受付も残して、次回は二つの方法を比べましょう。\n女：では、受付時間と待ち時間を記録して、参加者の感想も聞きます。",
+    "options": [
+      {
+        "id": "A",
+        "text": "参加費を無料にするかどうか"
+      },
+      {
+        "id": "B",
+        "text": "受付の担当者数だけ"
+      },
+      {
+        "id": "C",
+        "text": "イベントの開催日と会場"
+      },
+      {
+        "id": "D",
+        "text": "事前確認を使う受付と紙の受付"
+      }
+    ],
+    "contentFingerprint": "9da35e61f4c0190602492132be14c34e298b4d41d4d5518d77b10d328359f61e"
+  },
+  {
+    "id": "N2_10_M5_L02",
+    "examId": "N2-MOCK-10",
+    "section": 2,
+    "typeId": "N2-LIS-INTEG",
+    "category": "Mondai 5: 統合理解",
+    "taskInstructions": "統合理解：会話を聞き、複数の情報を合わせて答えを一つ選びなさい。",
+    "stem": "学生は何を変更しますか。",
+    "contextPassage": "大学の研究室で、研究者と学生が発表会の準備について話しています。\n\n男：発表資料は完成しました。図の出典も付けてあります。\n女：ありがとう。発表時間が八分なので、背景の説明を少し短くできそうです。\n男：結論を先に出すのはどうでしょう。\n女：結論は最後に残しましょう。背景を一分短くして、方法の説明に時間を回してください。質問への回答は練習で確認します。\n男：分かりました。図と結論は変えず、説明時間を調整します。",
+    "options": [
+      {
+        "id": "A",
+        "text": "結論を発表の最初に移す"
+      },
+      {
+        "id": "B",
+        "text": "図の出典を削除する"
+      },
+      {
+        "id": "C",
+        "text": "発表時間を八分から十分にする"
+      },
+      {
+        "id": "D",
+        "text": "背景を短くし、方法の説明を長くする"
+      }
+    ],
+    "contentFingerprint": "22f035b7945ca35e83765b407b9f89cafa4229608cf04590d40eab186bd0bae6"
+  },
+  {
+    "id": "N2_10_M5_L03",
+    "examId": "N2-MOCK-10",
+    "section": 2,
+    "typeId": "N2-LIS-INTEG",
+    "category": "Mondai 5: 統合理解",
+    "taskInstructions": "統合理解：会話を聞き、複数の情報を合わせて答えを一つ選びなさい。",
+    "stem": "二人が次に行うことは何ですか。",
+    "contextPassage": "集合住宅の住民代表と管理会社の担当者が、防災備蓄について話しています。\n\n女：備蓄品の一覧を作りましたが、保存期限が分からない物があります。\n男：購入した日だけでなく、交換する時期も記録しましょう。\n女：保管場所は一階の倉庫でよいですか。\n男：浸水の心配があるので、飲料水と非常用電源は二階へ移してください。その他の物は一階で構いません。移動後に住民向けの地図も更新しましょう。\n女：分かりました。期限と交換時期を一覧に加え、指定された物を移動します。",
+    "options": [
+      {
+        "id": "A",
+        "text": "飲料水と非常用電源を二階へ移し、備蓄一覧に交換時期を加え、地図も更新する"
+      },
+      {
+        "id": "B",
+        "text": "期限を確認せず住民向け地図だけを更新する"
+      },
+      {
+        "id": "C",
+        "text": "すべての備蓄品を処分する"
+      },
+      {
+        "id": "D",
+        "text": "倉庫を一階から地下へ移す"
+      }
+    ],
+    "contentFingerprint": "8bd932a458871389a278ff1159ecb2237d323c0e5a46b2d01947e9c5e296c665"
+  }
+]

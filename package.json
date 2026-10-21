@@ -8,7 +8,9 @@
     "test:m04": "node scripts/tests/test_n2_mock_04_e2e.cjs",
     "test:m05": "node scripts/tests/test_n2_mock_05_e2e.cjs",
     "test:m07": "node scripts/tests/test_n2_mock_07_e2e.cjs",
-    "test:m09": "node scripts/tests/test_n2_mock_09_e2e.cjs"
+    "test:m09": "node scripts/tests/test_n2_mock_09_e2e.cjs",
+    "test:m10": "node scripts/tests/test_n2_mock_10_e2e.cjs",
+    "test:m10:audio": "node scripts/tests/verify_n2_mock_10_audio_deep.cjs"
   },
   "devDependencies": {
     "playwright": "^1.49.0"

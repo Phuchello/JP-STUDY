@@ -1,8 +1,8 @@
 {
   "snapshotDate": "2026-10-21",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
-  "fileCountExcludingManifest": 883,
-  "totalBytesExcludingManifest": 136850162,
+  "fileCountExcludingManifest": 939,
+  "totalBytesExcludingManifest": 147157460,
   "files": [
     {
       "path": ".gitattributes",
@@ -12,8 +12,8 @@
     },
     {
       "path": ".github/workflows/content-qa.yml",
-      "bytes": 4326,
-      "sha256": "da29ad995af7f26a73cddb9f7d85b7565d849f9b7ae4c7c381f938908e54c5e9",
+      "bytes": 4649,
+      "sha256": "6e319fac5171c73929c2ec7c3c6a58ac7497d589129d0a58103818521c7046f2",
       "status": "QA_PENDING"
     },
     {
@@ -638,6 +638,18 @@
       "path": "data/mock_exams/n2_mock_09_audio_manifest.json",
       "bytes": 13797,
       "sha256": "b2639ad412f4797972337acacbb999a25394b80d9159f1c5699a37b0234233f8",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "data/mock_exams/n2_mock_10.json",
+      "bytes": 249896,
+      "sha256": "4ce0791635eb4ee380bd004a5bd06556ebe85a344fc67ac2b908469420c4521d",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "data/mock_exams/n2_mock_10_audio_manifest.json",
+      "bytes": 13797,
+      "sha256": "9707221a90fdd5de62761ff3f2c98d0e749645e0ad614ee2d5e50a031828ea2a",
       "status": "VERIFIED"
     },
     {
@@ -2465,6 +2477,186 @@
       "status": "VERIFIED"
     },
     {
+      "path": "docs/audio/n2_mock_10/N2_10_M1_L01.mp3",
+      "bytes": 259436,
+      "sha256": "819ff93a539e740412259e7d5a2dbf27a27b8d59de135e8bb612773f13f8d8f9",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "docs/audio/n2_mock_10/N2_10_M1_L02.mp3",
+      "bytes": 284348,
+      "sha256": "0ce86c2fd470b86c6a1a701a8e7e3da2d6b7274c236694487af03602de7d749c",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "docs/audio/n2_mock_10/N2_10_M1_L03.mp3",
+      "bytes": 265052,
+      "sha256": "f409a03ce06364be38b782a6579844cb755acd1dda3472804cf46631c03c8ead",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "docs/audio/n2_mock_10/N2_10_M1_L04.mp3",
+      "bytes": 234812,
+      "sha256": "3e0fa3977f570bf1769b004d06ebde3f15dc6edf3d34f68c7c11f1bf121a50c7",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "docs/audio/n2_mock_10/N2_10_M1_L05.mp3",
+      "bytes": 263036,
+      "sha256": "b5adb18d54522b234b62f52b2ba357bd3c79af9a1eacf9b51917a28da9afcb34",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "docs/audio/n2_mock_10/N2_10_M2_L01.mp3",
+      "bytes": 266060,
+      "sha256": "da6c1199f114e404fd58f298f833c0e544aca96710e635503561c6bb8762ab6a",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "docs/audio/n2_mock_10/N2_10_M2_L02.mp3",
+      "bytes": 243884,
+      "sha256": "85bf12e8cff8e9385a527b66193e2755fbf4fd6d4f56835357d95b89ee9719f6",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "docs/audio/n2_mock_10/N2_10_M2_L03.mp3",
+      "bytes": 301916,
+      "sha256": "b23a5c0ee1fa05a9b46d868bfd2451bf4074377ea3ef11e93cc9f9bc86fe1e90",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "docs/audio/n2_mock_10/N2_10_M2_L04.mp3",
+      "bytes": 285356,
+      "sha256": "82450bb2718ef014db28191e85849229dd1cf430c53f9a5967ed45246169e5ff",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "docs/audio/n2_mock_10/N2_10_M2_L05.mp3",
+      "bytes": 274988,
+      "sha256": "0e3efb79fdf39f49597806647f7d20cf5f4e2b595d62e74875f09c0f5c131493",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "docs/audio/n2_mock_10/N2_10_M2_L06.mp3",
+      "bytes": 262316,
+      "sha256": "e766897b48b9465431b7ba0f9dcd0ee1d9ae3f51bb72a568a1da1ab1d2f41ecb",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "docs/audio/n2_mock_10/N2_10_M3_L01.mp3",
+      "bytes": 432812,
+      "sha256": "2765c6ed09b87093f88a5a37b37c2831fd20635943550edab84faec5b290b34d",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "docs/audio/n2_mock_10/N2_10_M3_L02.mp3",
+      "bytes": 453404,
+      "sha256": "99939580736e829c462992de3d5b739e29814f8edaff93a5fced6740655c84cf",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "docs/audio/n2_mock_10/N2_10_M3_L03.mp3",
+      "bytes": 452108,
+      "sha256": "32ed049780e11c4d1bab02faf77076afa35368858baa118adcfb1e8f7d6c4cba",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "docs/audio/n2_mock_10/N2_10_M3_L04.mp3",
+      "bytes": 419276,
+      "sha256": "17eafcd5378248ac880330b562abbca0f288d53f14968f3f4bc904bfc35b050c",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "docs/audio/n2_mock_10/N2_10_M3_L05.mp3",
+      "bytes": 457148,
+      "sha256": "ef9c2d9ced6326d6620fb8f7898970bcb41b90f718f28b34a52d694f9cbee235",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "docs/audio/n2_mock_10/N2_10_M4_L01.mp3",
+      "bytes": 217532,
+      "sha256": "3f50889369efb045a017ee96825d3762c261d6980afe09f83037b1dfa09beb4b",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "docs/audio/n2_mock_10/N2_10_M4_L02.mp3",
+      "bytes": 226604,
+      "sha256": "bbfbda61a796246d3968df0cb9cdd9e607d8d200e976ca27dbb41f54a36c9573",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "docs/audio/n2_mock_10/N2_10_M4_L03.mp3",
+      "bytes": 218540,
+      "sha256": "6cf56bd94c097a9090711a02912996f07f78b5f4ddc85b08ccac5a811b5b5a5c",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "docs/audio/n2_mock_10/N2_10_M4_L04.mp3",
+      "bytes": 216092,
+      "sha256": "36d183be5db705ebcd4d3a24cf423e0699d6594b6681cb85aac08b8c19597f5a",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "docs/audio/n2_mock_10/N2_10_M4_L05.mp3",
+      "bytes": 217964,
+      "sha256": "d9c5b0a61592c3eae5d3e83a40866dd382a0bc6e951981ddb421135530788b39",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "docs/audio/n2_mock_10/N2_10_M4_L06.mp3",
+      "bytes": 234380,
+      "sha256": "f36565aca0a272a1d50dfdb0293413b20c55cac75057bebc883a42629682ae1a",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "docs/audio/n2_mock_10/N2_10_M4_L07.mp3",
+      "bytes": 230348,
+      "sha256": "95b6456a41b9928e876d7a05c10d564f16f1c59f393f2b0f3d32f3a2a7c832e7",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "docs/audio/n2_mock_10/N2_10_M4_L08.mp3",
+      "bytes": 219836,
+      "sha256": "a3ec3c61a4fd56f3333920c6d6df7b79a2601856022dfad20d1db00654dc229e",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "docs/audio/n2_mock_10/N2_10_M4_L09.mp3",
+      "bytes": 215372,
+      "sha256": "8e17127bd402d2b9990333f3b3ea6100053102ef86b21799ab00a0cf7ef45cfa",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "docs/audio/n2_mock_10/N2_10_M4_L10.mp3",
+      "bytes": 225308,
+      "sha256": "9a53c2fdfee5536ea9a60c9554594adbc5e2a56318d24fd82ed1d96d8ed81502",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "docs/audio/n2_mock_10/N2_10_M4_L11.mp3",
+      "bytes": 227036,
+      "sha256": "ae3a7ce6b40c4f6a33719b7296a1a98c01a1bcc1ae74574797eb56dfd62a4957",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "docs/audio/n2_mock_10/N2_10_M5_L01.mp3",
+      "bytes": 319340,
+      "sha256": "2da2fabef23619d172aeb406cace789fae0d00d7b3788880f7d5b77e01cdfc8b",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "docs/audio/n2_mock_10/N2_10_M5_L02.mp3",
+      "bytes": 330572,
+      "sha256": "4bd42614dbd6feb7cb174357c30687f68ac90c6e512abad944a0f419c9b264da",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "docs/audio/n2_mock_10/N2_10_M5_L03.mp3",
+      "bytes": 329996,
+      "sha256": "47b836ced4f228eb06af77d5ee80b22ebc1a6db357c6bb7e1e4961b6f900a525",
+      "status": "VERIFIED"
+    },
+    {
       "path": "docs/index.html",
       "bytes": 1393,
       "sha256": "40efbbd54d676c8a39de55e670874f30c5dfe449199bf376dd6e282a1ad397d0",
@@ -2484,8 +2676,8 @@
     },
     {
       "path": "docs/widgets/jlpt_exam_catalog.html",
-      "bytes": 82878,
-      "sha256": "03dc8ab330942fe5b0890bcf05afe2cbabff43c21f987cd479315514fd3599e8",
+      "bytes": 83629,
+      "sha256": "401039272f91bfbbe747e24fc616386158de462fe04a6fbbcd2e80e134badf40",
       "status": "VERIFIED"
     },
     {
@@ -2508,8 +2700,8 @@
     },
     {
       "path": "docs/widgets/mock_exam_bank.js",
-      "bytes": 2459584,
-      "sha256": "49d0e0780d1348574ed6b60d02447dc1ffacc9e859af672b4fe7301237abeff9",
+      "bytes": 2713592,
+      "sha256": "8b90b1d761249a281a84a89851d602cd987a43914402c4fffeff3cfa133e5b33",
       "status": "VERIFIED"
     },
     {
@@ -2604,8 +2796,8 @@
     },
     {
       "path": "FILE_INDEX.md",
-      "bytes": 87369,
-      "sha256": "2b45b17df2da2362177cd7ddf49cefc36242283e1aa181ead3b93de97c07ce67",
+      "bytes": 92833,
+      "sha256": "4b52fd1790a05709133a73eaf89ba90acc5701499104b1c624767416337c237d",
       "status": "VERIFIED"
     },
     {
@@ -2634,14 +2826,14 @@
     },
     {
       "path": "package.json",
-      "bytes": 503,
-      "sha256": "0e629a917d70533a330cceb6b5a701e4a7cbe267df8bd3c201176516a4b422e4",
-      "status": "QA_PENDING"
+      "bytes": 642,
+      "sha256": "bf0308ebfbdc92709342c2507f391aafb058b4a19a12474e0f723a826309a251",
+      "status": "VERIFIED"
     },
     {
       "path": "PROJECT_STATUS.md",
-      "bytes": 40342,
-      "sha256": "6bfbc5870539e1c3787b83770289653a2e24586daeec32ff8c233e921e6fa4fa",
+      "bytes": 41336,
+      "sha256": "c7fa118fc09192da04df91ca8c7d4b7f5e2499525cd4c20842f146c23945b360",
       "status": "VERIFIED"
     },
     {
@@ -2975,6 +3167,30 @@
       "status": "QA_PENDING"
     },
     {
+      "path": "qa/blind_items_m10_final.json",
+      "bytes": 134427,
+      "sha256": "7dd0851b58c2039c9367aeb1c50bdbc49722787f89b44656b3dd9d6611f0eac6",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/blind_items_m10_s1_p1.json",
+      "bytes": 30832,
+      "sha256": "06a4b342cacd97ec8d1d6949eeffccc36b739f568c101f799abc975e64193664",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/blind_items_m10_s1_p2.json",
+      "bytes": 61297,
+      "sha256": "f9c6b490de2584f6c6396221b6a8d4e48bd3cea45fbf0c1a7bfe4f03e5bd8726",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/blind_items_m10_s2.json",
+      "bytes": 42308,
+      "sha256": "da634bbd20351de90694c7166ef739753766f9653fb2ae6cfeafda14e04972de",
+      "status": "VERIFIED"
+    },
+    {
       "path": "qa/blind_items_repaired_5.json",
       "bytes": 2399,
       "sha256": "370056e322aadbc8d80bd0dc22af7e9bc9ee991010c0d64cadfdffaecb02838f",
@@ -2994,8 +3210,8 @@
     },
     {
       "path": "qa/BLIND_REVIEW_INTEGRITY_AUDIT.json",
-      "bytes": 8730,
-      "sha256": "3496f05033ab6540fafb503b024108276a551e2f96e414c1f47ac61c39268447",
+      "bytes": 9031,
+      "sha256": "ca437817f0536a84433891a5fd5e7601d3990e77ee7c58065ac6c592768723cc",
       "status": "VERIFIED"
     },
     {
@@ -3030,8 +3246,8 @@
     },
     {
       "path": "qa/CI_QA_SUMMARY.json",
-      "bytes": 6859,
-      "sha256": "abe29e3c8cc79174152347fb617f791be51097bc5dc2054a213b433dcc38b1d4",
+      "bytes": 7481,
+      "sha256": "ed725af5169794e0c1f997482e9ef9b1b13645bbb4df26c9ac5ecdde44fda916",
       "status": "VERIFIED"
     },
     {
@@ -3066,8 +3282,8 @@
     },
     {
       "path": "qa/DERIVED_SEMANTIC_BLIND_REVIEWS.json",
-      "bytes": 1496633,
-      "sha256": "32a14f02c60d7fb843425fb337546497df058373b221638ececa703a0979cac1",
+      "bytes": 1642858,
+      "sha256": "8f99b514918a24d57b03fa17995d9d517eaaf4cb6b02d38ae1a3c2277c894f91",
       "status": "VERIFIED"
     },
     {
@@ -3102,8 +3318,8 @@
     },
     {
       "path": "qa/file_status.json",
-      "bytes": 19558,
-      "sha256": "2a48ea017a31b0653641b430402a01cffcc3f2bc209cf3e377038704c4e1668e",
+      "bytes": 23281,
+      "sha256": "5241db49c93d7f364b1590154f54eb1249b4b99f02a316e4e6ecad6eb9f3f287",
       "status": "VERIFIED"
     },
     {
@@ -3408,8 +3624,8 @@
     },
     {
       "path": "qa/INDEPENDENT_BLIND_REVIEW_RECONCILIATION_REPORT.md",
-      "bytes": 11940,
-      "sha256": "97c3d285b3f72ab224ae1e5a3c5b0cc701cbd071e010d41aa7b719acb456011d",
+      "bytes": 11963,
+      "sha256": "50af4e5443d1bc9198428fb5526ed3c43a55925c813ad5c87138fd2a8dbb2297",
       "status": "VERIFIED"
     },
     {
@@ -3571,7 +3787,7 @@
     {
       "path": "qa/N2_MOCK_07_E2E_REPORT.json",
       "bytes": 1956,
-      "sha256": "1f93124126067b688f167bf7c04ecdbe3de380008bef922e8567811394665d41",
+      "sha256": "1eda8e9da30db1177e6fed1f95c09bdfe0f0f382e3831377e1b89d4f798c1bb3",
       "status": "VERIFIED"
     },
     {
@@ -3649,7 +3865,7 @@
     {
       "path": "qa/N2_MOCK_09_E2E_REPORT.json",
       "bytes": 2174,
-      "sha256": "5d433d5fbc0c121b0a7059ce2424783be5aa5620548ef90d5641992ca5511cb3",
+      "sha256": "a369836d84acc2866bf536bf234672c76d0237d8c5ee1f3e7e90fc1b1d0145b9",
       "status": "VERIFIED"
     },
     {
@@ -3662,6 +3878,42 @@
       "path": "qa/N2_MOCK_09_LIVE_DEPLOYMENT_RECEIPT.json",
       "bytes": 1721,
       "sha256": "417523a3e4821a70421e11253250f7a38dbc9c0a9bdecc13f27577ae3fcf82dd",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/N2_MOCK_10_AUDIO_PLAYBACK_RECEIPT.json",
+      "bytes": 47402,
+      "sha256": "44d8cc0779b8c22d1ada3d1cff4180541d13c9f5a914b34b9786d6c168208d30",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/N2_MOCK_10_BLIND_REVIEW_PROVENANCE.json",
+      "bytes": 52860,
+      "sha256": "0a0c9e80e3c4e97a762216bc80f7ad076772cdf79279cae9be265b695b75cd51",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/N2_MOCK_10_CONTENT_REVIEW_REPORT.md",
+      "bytes": 2508,
+      "sha256": "80f40b2b7dc22fad6f142259aa6bd184782145dc8d8eb0d6a9f86dd6d82df6b6",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/N2_MOCK_10_DEEP_AUDIO_PLAYBACK_REPORT.md",
+      "bytes": 1750,
+      "sha256": "f06594365676eadcd01b278d0ee2e2e3627494cd27d7b2c9742aa76e8e648921",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/N2_MOCK_10_E2E_REPORT.json",
+      "bytes": 2272,
+      "sha256": "f7c88252271bf0624520229bb0aa80ade8e32f1e5d043301f94dd2331cdac83d",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/N2_MOCK_10_INDEPENDENT_AUDIT_REPORT.md",
+      "bytes": 34479,
+      "sha256": "f14204ad54f451f025f24b5eaed61b4f0675563d9b82c047b8987e27a0b194e5",
       "status": "VERIFIED"
     },
     {
@@ -3684,26 +3936,26 @@
     },
     {
       "path": "qa/QUESTION_AUDIT_LEDGER.csv",
-      "bytes": 710978,
-      "sha256": "97e011a46bc6fb1d6e01eec8a880508295f93d8abc3f54c999da97be5afdca9c",
+      "bytes": 769912,
+      "sha256": "8061ea3cedee89121e369d54aa4070de7d0a5f35a74d40c58b2bbb2313b06ccf",
       "status": "VERIFIED"
     },
     {
       "path": "qa/QUESTION_AUDIT_LEDGER.json",
-      "bytes": 1326181,
-      "sha256": "ccf6d9f59c576a32fcfef57d8bfeb401aff1004852cff2d9dde4bce0b5f518a0",
+      "bytes": 1453575,
+      "sha256": "abe024923c09bac201600992c0ac83543df817c9e1595f50c639ced398cd7a97",
       "status": "VERIFIED"
     },
     {
       "path": "qa/QUESTION_AUDIT_LEDGER_210.csv",
-      "bytes": 710978,
-      "sha256": "97e011a46bc6fb1d6e01eec8a880508295f93d8abc3f54c999da97be5afdca9c",
+      "bytes": 769912,
+      "sha256": "8061ea3cedee89121e369d54aa4070de7d0a5f35a74d40c58b2bbb2313b06ccf",
       "status": "VERIFIED"
     },
     {
       "path": "qa/QUESTION_AUDIT_LEDGER_210.json",
-      "bytes": 1326181,
-      "sha256": "ccf6d9f59c576a32fcfef57d8bfeb401aff1004852cff2d9dde4bce0b5f518a0",
+      "bytes": 1453575,
+      "sha256": "abe024923c09bac201600992c0ac83543df817c9e1595f50c639ced398cd7a97",
       "status": "VERIFIED"
     },
     {
@@ -3968,6 +4220,24 @@
       "path": "qa/raw_blind_m09_s2.json",
       "bytes": 53635,
       "sha256": "71c56f222d7ac60970cd840a0545002cd5e37486820debbcb096201497a4bbdf",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/raw_blind_m10_s1_p1.json",
+      "bytes": 18580,
+      "sha256": "e0800e8b4243be038a704fb9d2438573183613236dee69f1f8d3250e669eca10",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/raw_blind_m10_s1_p2.json",
+      "bytes": 20252,
+      "sha256": "734c4a5fc96edc09c9b518788ef212ceea025e5c4483dc179933721e3768f012",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/raw_blind_m10_s2.json",
+      "bytes": 17231,
+      "sha256": "f6a42e78a7756cd62e5b807193a4c0d6085bf350988670a53ab36548a51f42df",
       "status": "VERIFIED"
     },
     {
@@ -4403,6 +4673,12 @@
       "status": "DRAFT"
     },
     {
+      "path": "scripts/curriculum/add_mock_10_to_bank.py",
+      "bytes": 2377,
+      "sha256": "291feb434880a1386c3dd687c42076c3c368ac05fc3a6112581f9118938d5faf",
+      "status": "VERIFIED"
+    },
+    {
       "path": "scripts/curriculum/anti_contamination_audit.py",
       "bytes": 4412,
       "sha256": "60e881735d203b90c9d8e812ebfebdd90178c6769749085202125f1e8cc66297",
@@ -4428,8 +4704,8 @@
     },
     {
       "path": "scripts/curriculum/audit_all_active_mocks_dynamically.py",
-      "bytes": 8291,
-      "sha256": "3a1405e7381d08f899028ce03339c45bb96059f18f08914e787be3056c93fbf8",
+      "bytes": 10162,
+      "sha256": "7fc434c5b42161309c410f52474265fc4c03308ce77299467aa098bbbc912cff",
       "status": "QA_PENDING"
     },
     {
@@ -4595,6 +4871,24 @@
       "status": "DRAFT"
     },
     {
+      "path": "scripts/curriculum/bank_data/n2_mock_10_data.py",
+      "bytes": 65309,
+      "sha256": "3e697b30fc9481c5e4d37fe9189730105ab11b72809f75fb6ead64190784c031",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "scripts/curriculum/bank_data/n2_mock_10_explanations_vi.py",
+      "bytes": 19153,
+      "sha256": "03f69fa4576946b4e0966670bb6603115179a970fc2a04f82ce91573663716c1",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "scripts/curriculum/bank_data/n2_mock_10_listening.py",
+      "bytes": 47067,
+      "sha256": "b79185cf32d843becaec24c9b204bd2afebb62e22fecc5d1ab0e193095e8532b",
+      "status": "VERIFIED"
+    },
+    {
       "path": "scripts/curriculum/bank_data/n2_reading_listening.py",
       "bytes": 99041,
       "sha256": "e0cd16343984f56c1d2ac7f49af56e51955afae9b3bae4d6651e166a300df402",
@@ -4679,6 +4973,12 @@
       "status": "DRAFT"
     },
     {
+      "path": "scripts/curriculum/build_full_mock_n2_10.py",
+      "bytes": 5910,
+      "sha256": "3db710b9026622811040a1f332933ef13a7c70b2ac347833ea301d36bf92455b",
+      "status": "VERIFIED"
+    },
+    {
       "path": "scripts/curriculum/build_mock_system.py",
       "bytes": 58943,
       "sha256": "41fb7deaa6e25a61911f0fb0da2de06ba9af515705b394ef9ff5ffada84fb284",
@@ -4755,6 +5055,12 @@
       "bytes": 2041,
       "sha256": "8c387da7210d955b1d0fb4046348a4d4115f74670783ce3cf0ddea3cae0d9e8b",
       "status": "QA_PENDING"
+    },
+    {
+      "path": "scripts/curriculum/export_n2_mock_10_final_blind.py",
+      "bytes": 4680,
+      "sha256": "b90b012ec352e2f6161a1925c64ddb86908ecebde743847de5b600a84c8b3190",
+      "status": "VERIFIED"
     },
     {
       "path": "scripts/curriculum/export_pilot_payload.py",
@@ -4835,6 +5141,12 @@
       "status": "DRAFT"
     },
     {
+      "path": "scripts/curriculum/generate_n2_mock_10_audio.py",
+      "bytes": 12358,
+      "sha256": "42a5af70ab1d171f0ec406415ea15664b1ef7a758c933a5c1a3431f16cff2636",
+      "status": "VERIFIED"
+    },
+    {
       "path": "scripts/curriculum/generate_ncr.py",
       "bytes": 535,
       "sha256": "6ddbcd2e95de85827a6f691c576793511f2078b765a513f8fb868788855fbac1",
@@ -4881,6 +5193,12 @@
       "bytes": 21530,
       "sha256": "22456c78916b93e32c1a376fc70e3dfe0bc2340b25e049afaa0fcf17270c7c55",
       "status": "DRAFT"
+    },
+    {
+      "path": "scripts/curriculum/normalize_n2_mock_10_blind_reviews.py",
+      "bytes": 21962,
+      "sha256": "80678c03e44af81a7d81f066ff22410b3635e8f708963bdd8f71a49cca5141db",
+      "status": "VERIFIED"
     },
     {
       "path": "scripts/curriculum/question_fingerprint.py",
@@ -4961,6 +5279,12 @@
       "status": "QA_PENDING"
     },
     {
+      "path": "scripts/curriculum/validate_n2_mock_10_blind_review.py",
+      "bytes": 8539,
+      "sha256": "a0efd4179ae03bd295100d43b1cca4bc695c51017433d81ba9e6c526f59d5f51",
+      "status": "VERIFIED"
+    },
+    {
       "path": "scripts/curriculum/verify_rebuild_invariance.py",
       "bytes": 16882,
       "sha256": "86a18a49dd017d456dc2d06a590d897ef274c2e4c6d9e58b5d5dd272191ec8b1",
@@ -5028,9 +5352,9 @@
     },
     {
       "path": "scripts/tests/smoke_browser_e2e.cjs",
-      "bytes": 11229,
-      "sha256": "b3a999882de53b08b1979ea44c9ee41138dcc8123be34f1a00d8da9c5381dfbc",
-      "status": "QA_PENDING"
+      "bytes": 11508,
+      "sha256": "a8a5e0aab605d1f0f19c7912f63a3548483444371ab4d5aa3a77310f3f12c9f8",
+      "status": "VERIFIED"
     },
     {
       "path": "scripts/tests/smoke_engine_playwright.cjs",
@@ -5177,6 +5501,12 @@
       "status": "VERIFIED"
     },
     {
+      "path": "scripts/tests/test_n2_mock_10_e2e.cjs",
+      "bytes": 10319,
+      "sha256": "b651348f101aa100e8fe31dd4ededc402912e2a64d65d9fff9b9250ac7a90af7",
+      "status": "VERIFIED"
+    },
+    {
       "path": "scripts/tests/test_practice_engine_bank.py",
       "bytes": 6859,
       "sha256": "89460bc2bb9cc2724e246fe43204db355daeb3d09f68a6480386269ce7e6ad12",
@@ -5270,6 +5600,12 @@
       "path": "scripts/tests/verify_n2_mock_09_audio_deep.cjs",
       "bytes": 12477,
       "sha256": "49eb758738bc0cbf612723b4d33c428f97399783b4dc63f908a1a6614b1dce26",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "scripts/tests/verify_n2_mock_10_audio_deep.cjs",
+      "bytes": 7482,
+      "sha256": "d1905cc6ad51449c10f5a2b2c3f7d25f237d7f5fd57101b16f2da3de59528d08",
       "status": "VERIFIED"
     },
     {

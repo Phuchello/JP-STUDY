@@ -1,0 +1,853 @@
+{
+  "examId": "N2-MOCK-10",
+  "status": "REVIEW_CONTENT_VERSION_VERIFIED",
+  "reviewerType": "Independent AI blind reviewer",
+  "itemCount": 105,
+  "selectedAnswerCount": 105,
+  "exactOptionIdAndTextMappings": 105,
+  "sealedInputSha256": "7dd0851b58c2039c9367aeb1c50bdbc49722787f89b44656b3dd9d6611f0eac6",
+  "reviewerResponseSha256": "b48a5eaddec29b3a55cd2baebc18c265d1668ad980ab34a256c8b3b479720266",
+  "reviewerResponseRetainedOutsideRepository": true,
+  "sealedInputPurityValidated": true,
+  "reviewMethod": "Independent AI review of sealed text/options",
+  "reviewerResponseSelfCheck": {
+    "answerCount": 105,
+    "uniqueQuestionMappings": 105,
+    "exactOptionTextMatches": true,
+    "starItemCount": 5,
+    "permutationCount": 120,
+    "uniquePermutationsPerStarItem": true,
+    "inputHashBefore": "7dd0851b58c2039c9367aeb1c50bdbc49722787f89b44656b3dd9d6611f0eac6",
+    "inputHashAfter": "7dd0851b58c2039c9367aeb1c50bdbc49722787f89b44656b3dd9d6611f0eac6"
+  },
+  "reviewerTaskScope": "Fresh independent reviewer was instructed to use only this exact sealed input and not consult answer keys, authored explanations, source, or previous QA. No external process audit is claimed.",
+  "listeningReviewScope": "Transcript-based content review; separate browser receipt checks exact manifest hash, decode and playback progression, not pronunciation.",
+  "limitations": [
+    "AI-assisted review is not human/native-speaker review, official JLPT approval, or psychometric calibration.",
+    "Original unmodified reviewer JSON is retained outside the repository; normalized records preserve the exact selections, text, rationale, concerns, and permutation judgments without the local file path."
+  ],
+  "starPermutationAudits": [
+    {
+      "questionId": "N2_10_M8_01",
+      "reviewedPermutationCount": 24,
+      "intendedOrder": "ABCD",
+      "selectedOptionId": "C",
+      "naturalOrMarginalOrders": [
+        {
+          "order": "ABCD",
+          "starOptionId": "C",
+          "classification": "natural",
+          "assembledSentence": "市の担当課は、窓口で利用者が迷いやすい場所を職員が聞き取りで確認し、記録した後、★その記録を基に案内表示の変更案を委員会に提出すると決めた。"
+        }
+      ],
+      "allPermutationJudgments": [
+        {
+          "order": "ABCD",
+          "starOptionId": "C",
+          "classification": "natural",
+          "assembledSentence": "市の担当課は、窓口で利用者が迷いやすい場所を職員が聞き取りで確認し、記録した後、★その記録を基に案内表示の変更案を委員会に提出すると決めた。"
+        },
+        {
+          "order": "ABDC",
+          "starOptionId": "D",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "市の担当課は、窓口で利用者が迷いやすい場所を職員が聞き取りで確認し、記録した後、★委員会に提出するその記録を基に案内表示の変更案をと決めた。"
+        },
+        {
+          "order": "ACBD",
+          "starOptionId": "B",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "市の担当課は、窓口で利用者が迷いやすい場所をその記録を基に案内表示の変更案を★職員が聞き取りで確認し、記録した後、委員会に提出すると決めた。"
+        },
+        {
+          "order": "ACDB",
+          "starOptionId": "D",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "市の担当課は、窓口で利用者が迷いやすい場所をその記録を基に案内表示の変更案を★委員会に提出する職員が聞き取りで確認し、記録した後、と決めた。"
+        },
+        {
+          "order": "ADBC",
+          "starOptionId": "B",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "市の担当課は、窓口で利用者が迷いやすい場所を委員会に提出する★職員が聞き取りで確認し、記録した後、その記録を基に案内表示の変更案をと決めた。"
+        },
+        {
+          "order": "ADCB",
+          "starOptionId": "C",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "市の担当課は、窓口で利用者が迷いやすい場所を委員会に提出する★その記録を基に案内表示の変更案を職員が聞き取りで確認し、記録した後、と決めた。"
+        },
+        {
+          "order": "BACD",
+          "starOptionId": "C",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "市の担当課は、職員が聞き取りで確認し、記録した後、窓口で利用者が迷いやすい場所を★その記録を基に案内表示の変更案を委員会に提出すると決めた。"
+        },
+        {
+          "order": "BADC",
+          "starOptionId": "D",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "市の担当課は、職員が聞き取りで確認し、記録した後、窓口で利用者が迷いやすい場所を★委員会に提出するその記録を基に案内表示の変更案をと決めた。"
+        },
+        {
+          "order": "BCAD",
+          "starOptionId": "A",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "市の担当課は、職員が聞き取りで確認し、記録した後、その記録を基に案内表示の変更案を★窓口で利用者が迷いやすい場所を委員会に提出すると決めた。"
+        },
+        {
+          "order": "BCDA",
+          "starOptionId": "D",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "市の担当課は、職員が聞き取りで確認し、記録した後、その記録を基に案内表示の変更案を★委員会に提出する窓口で利用者が迷いやすい場所をと決めた。"
+        },
+        {
+          "order": "BDAC",
+          "starOptionId": "A",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "市の担当課は、職員が聞き取りで確認し、記録した後、委員会に提出する★窓口で利用者が迷いやすい場所をその記録を基に案内表示の変更案をと決めた。"
+        },
+        {
+          "order": "BDCA",
+          "starOptionId": "C",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "市の担当課は、職員が聞き取りで確認し、記録した後、委員会に提出する★その記録を基に案内表示の変更案を窓口で利用者が迷いやすい場所をと決めた。"
+        },
+        {
+          "order": "CABD",
+          "starOptionId": "B",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "市の担当課は、その記録を基に案内表示の変更案を窓口で利用者が迷いやすい場所を★職員が聞き取りで確認し、記録した後、委員会に提出すると決めた。"
+        },
+        {
+          "order": "CADB",
+          "starOptionId": "D",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "市の担当課は、その記録を基に案内表示の変更案を窓口で利用者が迷いやすい場所を★委員会に提出する職員が聞き取りで確認し、記録した後、と決めた。"
+        },
+        {
+          "order": "CBAD",
+          "starOptionId": "A",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "市の担当課は、その記録を基に案内表示の変更案を職員が聞き取りで確認し、記録した後、★窓口で利用者が迷いやすい場所を委員会に提出すると決めた。"
+        },
+        {
+          "order": "CBDA",
+          "starOptionId": "D",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "市の担当課は、その記録を基に案内表示の変更案を職員が聞き取りで確認し、記録した後、★委員会に提出する窓口で利用者が迷いやすい場所をと決めた。"
+        },
+        {
+          "order": "CDAB",
+          "starOptionId": "A",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "市の担当課は、その記録を基に案内表示の変更案を委員会に提出する★窓口で利用者が迷いやすい場所を職員が聞き取りで確認し、記録した後、と決めた。"
+        },
+        {
+          "order": "CDBA",
+          "starOptionId": "B",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "市の担当課は、その記録を基に案内表示の変更案を委員会に提出する★職員が聞き取りで確認し、記録した後、窓口で利用者が迷いやすい場所をと決めた。"
+        },
+        {
+          "order": "DABC",
+          "starOptionId": "B",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "市の担当課は、委員会に提出する窓口で利用者が迷いやすい場所を★職員が聞き取りで確認し、記録した後、その記録を基に案内表示の変更案をと決めた。"
+        },
+        {
+          "order": "DACB",
+          "starOptionId": "C",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "市の担当課は、委員会に提出する窓口で利用者が迷いやすい場所を★その記録を基に案内表示の変更案を職員が聞き取りで確認し、記録した後、と決めた。"
+        },
+        {
+          "order": "DBAC",
+          "starOptionId": "A",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "市の担当課は、委員会に提出する職員が聞き取りで確認し、記録した後、★窓口で利用者が迷いやすい場所をその記録を基に案内表示の変更案をと決めた。"
+        },
+        {
+          "order": "DBCA",
+          "starOptionId": "C",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "市の担当課は、委員会に提出する職員が聞き取りで確認し、記録した後、★その記録を基に案内表示の変更案を窓口で利用者が迷いやすい場所をと決めた。"
+        },
+        {
+          "order": "DCAB",
+          "starOptionId": "A",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "市の担当課は、委員会に提出するその記録を基に案内表示の変更案を★窓口で利用者が迷いやすい場所を職員が聞き取りで確認し、記録した後、と決めた。"
+        },
+        {
+          "order": "DCBA",
+          "starOptionId": "B",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "市の担当課は、委員会に提出するその記録を基に案内表示の変更案を★職員が聞き取りで確認し、記録した後、窓口で利用者が迷いやすい場所をと決めた。"
+        }
+      ],
+      "alternateChangesReviewedAnswer": false
+    },
+    {
+      "questionId": "N2_10_M8_02",
+      "reviewedPermutationCount": 24,
+      "intendedOrder": "ACDB",
+      "selectedOptionId": "D",
+      "naturalOrMarginalOrders": [
+        {
+          "order": "ACDB",
+          "starOptionId": "D",
+          "classification": "natural",
+          "assembledSentence": "研究室では、先行研究で示された結果が同じ条件の実験で再現できるかどうかを★別の研究者が確かめたうえで報告書に結論を記載することにしている。"
+        }
+      ],
+      "allPermutationJudgments": [
+        {
+          "order": "ABCD",
+          "starOptionId": "C",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "研究室では、先行研究で示された結果が報告書に結論を記載する★同じ条件の実験で再現できるかどうかを別の研究者が確かめたうえでことにしている。"
+        },
+        {
+          "order": "ABDC",
+          "starOptionId": "D",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "研究室では、先行研究で示された結果が報告書に結論を記載する★別の研究者が確かめたうえで同じ条件の実験で再現できるかどうかをことにしている。"
+        },
+        {
+          "order": "ACBD",
+          "starOptionId": "B",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "研究室では、先行研究で示された結果が同じ条件の実験で再現できるかどうかを★報告書に結論を記載する別の研究者が確かめたうえでことにしている。"
+        },
+        {
+          "order": "ACDB",
+          "starOptionId": "D",
+          "classification": "natural",
+          "assembledSentence": "研究室では、先行研究で示された結果が同じ条件の実験で再現できるかどうかを★別の研究者が確かめたうえで報告書に結論を記載することにしている。"
+        },
+        {
+          "order": "ADBC",
+          "starOptionId": "B",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "研究室では、先行研究で示された結果が別の研究者が確かめたうえで★報告書に結論を記載する同じ条件の実験で再現できるかどうかをことにしている。"
+        },
+        {
+          "order": "ADCB",
+          "starOptionId": "C",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "研究室では、先行研究で示された結果が別の研究者が確かめたうえで★同じ条件の実験で再現できるかどうかを報告書に結論を記載することにしている。"
+        },
+        {
+          "order": "BACD",
+          "starOptionId": "C",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "研究室では、報告書に結論を記載する先行研究で示された結果が★同じ条件の実験で再現できるかどうかを別の研究者が確かめたうえでことにしている。"
+        },
+        {
+          "order": "BADC",
+          "starOptionId": "D",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "研究室では、報告書に結論を記載する先行研究で示された結果が★別の研究者が確かめたうえで同じ条件の実験で再現できるかどうかをことにしている。"
+        },
+        {
+          "order": "BCAD",
+          "starOptionId": "A",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "研究室では、報告書に結論を記載する同じ条件の実験で再現できるかどうかを★先行研究で示された結果が別の研究者が確かめたうえでことにしている。"
+        },
+        {
+          "order": "BCDA",
+          "starOptionId": "D",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "研究室では、報告書に結論を記載する同じ条件の実験で再現できるかどうかを★別の研究者が確かめたうえで先行研究で示された結果がことにしている。"
+        },
+        {
+          "order": "BDAC",
+          "starOptionId": "A",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "研究室では、報告書に結論を記載する別の研究者が確かめたうえで★先行研究で示された結果が同じ条件の実験で再現できるかどうかをことにしている。"
+        },
+        {
+          "order": "BDCA",
+          "starOptionId": "C",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "研究室では、報告書に結論を記載する別の研究者が確かめたうえで★同じ条件の実験で再現できるかどうかを先行研究で示された結果がことにしている。"
+        },
+        {
+          "order": "CABD",
+          "starOptionId": "B",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "研究室では、同じ条件の実験で再現できるかどうかを先行研究で示された結果が★報告書に結論を記載する別の研究者が確かめたうえでことにしている。"
+        },
+        {
+          "order": "CADB",
+          "starOptionId": "D",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "研究室では、同じ条件の実験で再現できるかどうかを先行研究で示された結果が★別の研究者が確かめたうえで報告書に結論を記載することにしている。"
+        },
+        {
+          "order": "CBAD",
+          "starOptionId": "A",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "研究室では、同じ条件の実験で再現できるかどうかを報告書に結論を記載する★先行研究で示された結果が別の研究者が確かめたうえでことにしている。"
+        },
+        {
+          "order": "CBDA",
+          "starOptionId": "D",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "研究室では、同じ条件の実験で再現できるかどうかを報告書に結論を記載する★別の研究者が確かめたうえで先行研究で示された結果がことにしている。"
+        },
+        {
+          "order": "CDAB",
+          "starOptionId": "A",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "研究室では、同じ条件の実験で再現できるかどうかを別の研究者が確かめたうえで★先行研究で示された結果が報告書に結論を記載することにしている。"
+        },
+        {
+          "order": "CDBA",
+          "starOptionId": "B",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "研究室では、同じ条件の実験で再現できるかどうかを別の研究者が確かめたうえで★報告書に結論を記載する先行研究で示された結果がことにしている。"
+        },
+        {
+          "order": "DABC",
+          "starOptionId": "B",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "研究室では、別の研究者が確かめたうえで先行研究で示された結果が★報告書に結論を記載する同じ条件の実験で再現できるかどうかをことにしている。"
+        },
+        {
+          "order": "DACB",
+          "starOptionId": "C",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "研究室では、別の研究者が確かめたうえで先行研究で示された結果が★同じ条件の実験で再現できるかどうかを報告書に結論を記載することにしている。"
+        },
+        {
+          "order": "DBAC",
+          "starOptionId": "A",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "研究室では、別の研究者が確かめたうえで報告書に結論を記載する★先行研究で示された結果が同じ条件の実験で再現できるかどうかをことにしている。"
+        },
+        {
+          "order": "DBCA",
+          "starOptionId": "C",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "研究室では、別の研究者が確かめたうえで報告書に結論を記載する★同じ条件の実験で再現できるかどうかを先行研究で示された結果がことにしている。"
+        },
+        {
+          "order": "DCAB",
+          "starOptionId": "A",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "研究室では、別の研究者が確かめたうえで同じ条件の実験で再現できるかどうかを★先行研究で示された結果が報告書に結論を記載することにしている。"
+        },
+        {
+          "order": "DCBA",
+          "starOptionId": "B",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "研究室では、別の研究者が確かめたうえで同じ条件の実験で再現できるかどうかを★報告書に結論を記載する先行研究で示された結果がことにしている。"
+        }
+      ],
+      "alternateChangesReviewedAnswer": false
+    },
+    {
+      "questionId": "N2_10_M8_03",
+      "reviewedPermutationCount": 24,
+      "intendedOrder": "ADBC",
+      "selectedOptionId": "B",
+      "naturalOrMarginalOrders": [
+        {
+          "order": "ADBC",
+          "starOptionId": "B",
+          "classification": "natural",
+          "assembledSentence": "記録係は、まず会議の録音を書き起こし、発言者名を付けた議事録案を作り、★その議事録案を参加者に確認してもらってから議事録の決定事項と次回までの課題を確定するようにしている。"
+        }
+      ],
+      "allPermutationJudgments": [
+        {
+          "order": "ABCD",
+          "starOptionId": "C",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "記録係は、まず会議の録音を書き起こし、その議事録案を参加者に確認してもらってから★議事録の決定事項と次回までの課題を確定する発言者名を付けた議事録案を作り、ようにしている。"
+        },
+        {
+          "order": "ABDC",
+          "starOptionId": "D",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "記録係は、まず会議の録音を書き起こし、その議事録案を参加者に確認してもらってから★発言者名を付けた議事録案を作り、議事録の決定事項と次回までの課題を確定するようにしている。"
+        },
+        {
+          "order": "ACBD",
+          "starOptionId": "B",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "記録係は、まず会議の録音を書き起こし、議事録の決定事項と次回までの課題を確定する★その議事録案を参加者に確認してもらってから発言者名を付けた議事録案を作り、ようにしている。"
+        },
+        {
+          "order": "ACDB",
+          "starOptionId": "D",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "記録係は、まず会議の録音を書き起こし、議事録の決定事項と次回までの課題を確定する★発言者名を付けた議事録案を作り、その議事録案を参加者に確認してもらってからようにしている。"
+        },
+        {
+          "order": "ADBC",
+          "starOptionId": "B",
+          "classification": "natural",
+          "assembledSentence": "記録係は、まず会議の録音を書き起こし、発言者名を付けた議事録案を作り、★その議事録案を参加者に確認してもらってから議事録の決定事項と次回までの課題を確定するようにしている。"
+        },
+        {
+          "order": "ADCB",
+          "starOptionId": "C",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "記録係は、まず会議の録音を書き起こし、発言者名を付けた議事録案を作り、★議事録の決定事項と次回までの課題を確定するその議事録案を参加者に確認してもらってからようにしている。"
+        },
+        {
+          "order": "BACD",
+          "starOptionId": "C",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "記録係は、その議事録案を参加者に確認してもらってからまず会議の録音を書き起こし、★議事録の決定事項と次回までの課題を確定する発言者名を付けた議事録案を作り、ようにしている。"
+        },
+        {
+          "order": "BADC",
+          "starOptionId": "D",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "記録係は、その議事録案を参加者に確認してもらってからまず会議の録音を書き起こし、★発言者名を付けた議事録案を作り、議事録の決定事項と次回までの課題を確定するようにしている。"
+        },
+        {
+          "order": "BCAD",
+          "starOptionId": "A",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "記録係は、その議事録案を参加者に確認してもらってから議事録の決定事項と次回までの課題を確定する★まず会議の録音を書き起こし、発言者名を付けた議事録案を作り、ようにしている。"
+        },
+        {
+          "order": "BCDA",
+          "starOptionId": "D",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "記録係は、その議事録案を参加者に確認してもらってから議事録の決定事項と次回までの課題を確定する★発言者名を付けた議事録案を作り、まず会議の録音を書き起こし、ようにしている。"
+        },
+        {
+          "order": "BDAC",
+          "starOptionId": "A",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "記録係は、その議事録案を参加者に確認してもらってから発言者名を付けた議事録案を作り、★まず会議の録音を書き起こし、議事録の決定事項と次回までの課題を確定するようにしている。"
+        },
+        {
+          "order": "BDCA",
+          "starOptionId": "C",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "記録係は、その議事録案を参加者に確認してもらってから発言者名を付けた議事録案を作り、★議事録の決定事項と次回までの課題を確定するまず会議の録音を書き起こし、ようにしている。"
+        },
+        {
+          "order": "CABD",
+          "starOptionId": "B",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "記録係は、議事録の決定事項と次回までの課題を確定するまず会議の録音を書き起こし、★その議事録案を参加者に確認してもらってから発言者名を付けた議事録案を作り、ようにしている。"
+        },
+        {
+          "order": "CADB",
+          "starOptionId": "D",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "記録係は、議事録の決定事項と次回までの課題を確定するまず会議の録音を書き起こし、★発言者名を付けた議事録案を作り、その議事録案を参加者に確認してもらってからようにしている。"
+        },
+        {
+          "order": "CBAD",
+          "starOptionId": "A",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "記録係は、議事録の決定事項と次回までの課題を確定するその議事録案を参加者に確認してもらってから★まず会議の録音を書き起こし、発言者名を付けた議事録案を作り、ようにしている。"
+        },
+        {
+          "order": "CBDA",
+          "starOptionId": "D",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "記録係は、議事録の決定事項と次回までの課題を確定するその議事録案を参加者に確認してもらってから★発言者名を付けた議事録案を作り、まず会議の録音を書き起こし、ようにしている。"
+        },
+        {
+          "order": "CDAB",
+          "starOptionId": "A",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "記録係は、議事録の決定事項と次回までの課題を確定する発言者名を付けた議事録案を作り、★まず会議の録音を書き起こし、その議事録案を参加者に確認してもらってからようにしている。"
+        },
+        {
+          "order": "CDBA",
+          "starOptionId": "B",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "記録係は、議事録の決定事項と次回までの課題を確定する発言者名を付けた議事録案を作り、★その議事録案を参加者に確認してもらってからまず会議の録音を書き起こし、ようにしている。"
+        },
+        {
+          "order": "DABC",
+          "starOptionId": "B",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "記録係は、発言者名を付けた議事録案を作り、まず会議の録音を書き起こし、★その議事録案を参加者に確認してもらってから議事録の決定事項と次回までの課題を確定するようにしている。"
+        },
+        {
+          "order": "DACB",
+          "starOptionId": "C",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "記録係は、発言者名を付けた議事録案を作り、まず会議の録音を書き起こし、★議事録の決定事項と次回までの課題を確定するその議事録案を参加者に確認してもらってからようにしている。"
+        },
+        {
+          "order": "DBAC",
+          "starOptionId": "A",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "記録係は、発言者名を付けた議事録案を作り、その議事録案を参加者に確認してもらってから★まず会議の録音を書き起こし、議事録の決定事項と次回までの課題を確定するようにしている。"
+        },
+        {
+          "order": "DBCA",
+          "starOptionId": "C",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "記録係は、発言者名を付けた議事録案を作り、その議事録案を参加者に確認してもらってから★議事録の決定事項と次回までの課題を確定するまず会議の録音を書き起こし、ようにしている。"
+        },
+        {
+          "order": "DCAB",
+          "starOptionId": "A",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "記録係は、発言者名を付けた議事録案を作り、議事録の決定事項と次回までの課題を確定する★まず会議の録音を書き起こし、その議事録案を参加者に確認してもらってからようにしている。"
+        },
+        {
+          "order": "DCBA",
+          "starOptionId": "B",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "記録係は、発言者名を付けた議事録案を作り、議事録の決定事項と次回までの課題を確定する★その議事録案を参加者に確認してもらってからまず会議の録音を書き起こし、ようにしている。"
+        }
+      ],
+      "alternateChangesReviewedAnswer": false
+    },
+    {
+      "questionId": "N2_10_M8_04",
+      "reviewedPermutationCount": 24,
+      "intendedOrder": "ABCD",
+      "selectedOptionId": "C",
+      "naturalOrMarginalOrders": [
+        {
+          "order": "ABCD",
+          "starOptionId": "C",
+          "classification": "natural",
+          "assembledSentence": "担当者は、各部署から届いた申請一覧を受け取ったら記載内容を原本と一項目ずつ照合して相違点を洗い出し、★該当部署にその理由を問い合わせることにしている。"
+        }
+      ],
+      "allPermutationJudgments": [
+        {
+          "order": "ABCD",
+          "starOptionId": "C",
+          "classification": "natural",
+          "assembledSentence": "担当者は、各部署から届いた申請一覧を受け取ったら記載内容を原本と一項目ずつ照合して相違点を洗い出し、★該当部署にその理由を問い合わせることにしている。"
+        },
+        {
+          "order": "ABDC",
+          "starOptionId": "D",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "担当者は、各部署から届いた申請一覧を受け取ったら記載内容を原本と一項目ずつ照合して相違点を洗い出し、★問い合わせる該当部署にその理由をことにしている。"
+        },
+        {
+          "order": "ACBD",
+          "starOptionId": "B",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "担当者は、各部署から届いた申請一覧を受け取ったら記載内容を該当部署にその理由を★原本と一項目ずつ照合して相違点を洗い出し、問い合わせることにしている。"
+        },
+        {
+          "order": "ACDB",
+          "starOptionId": "D",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "担当者は、各部署から届いた申請一覧を受け取ったら記載内容を該当部署にその理由を★問い合わせる原本と一項目ずつ照合して相違点を洗い出し、ことにしている。"
+        },
+        {
+          "order": "ADBC",
+          "starOptionId": "B",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "担当者は、各部署から届いた申請一覧を受け取ったら記載内容を問い合わせる★原本と一項目ずつ照合して相違点を洗い出し、該当部署にその理由をことにしている。"
+        },
+        {
+          "order": "ADCB",
+          "starOptionId": "C",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "担当者は、各部署から届いた申請一覧を受け取ったら記載内容を問い合わせる★該当部署にその理由を原本と一項目ずつ照合して相違点を洗い出し、ことにしている。"
+        },
+        {
+          "order": "BACD",
+          "starOptionId": "C",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "担当者は、各部署から届いた申請一覧を受け取ったら原本と一項目ずつ照合して相違点を洗い出し、記載内容を★該当部署にその理由を問い合わせることにしている。"
+        },
+        {
+          "order": "BADC",
+          "starOptionId": "D",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "担当者は、各部署から届いた申請一覧を受け取ったら原本と一項目ずつ照合して相違点を洗い出し、記載内容を★問い合わせる該当部署にその理由をことにしている。"
+        },
+        {
+          "order": "BCAD",
+          "starOptionId": "A",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "担当者は、各部署から届いた申請一覧を受け取ったら原本と一項目ずつ照合して相違点を洗い出し、該当部署にその理由を★記載内容を問い合わせることにしている。"
+        },
+        {
+          "order": "BCDA",
+          "starOptionId": "D",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "担当者は、各部署から届いた申請一覧を受け取ったら原本と一項目ずつ照合して相違点を洗い出し、該当部署にその理由を★問い合わせる記載内容をことにしている。"
+        },
+        {
+          "order": "BDAC",
+          "starOptionId": "A",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "担当者は、各部署から届いた申請一覧を受け取ったら原本と一項目ずつ照合して相違点を洗い出し、問い合わせる★記載内容を該当部署にその理由をことにしている。"
+        },
+        {
+          "order": "BDCA",
+          "starOptionId": "C",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "担当者は、各部署から届いた申請一覧を受け取ったら原本と一項目ずつ照合して相違点を洗い出し、問い合わせる★該当部署にその理由を記載内容をことにしている。"
+        },
+        {
+          "order": "CABD",
+          "starOptionId": "B",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "担当者は、各部署から届いた申請一覧を受け取ったら該当部署にその理由を記載内容を★原本と一項目ずつ照合して相違点を洗い出し、問い合わせることにしている。"
+        },
+        {
+          "order": "CADB",
+          "starOptionId": "D",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "担当者は、各部署から届いた申請一覧を受け取ったら該当部署にその理由を記載内容を★問い合わせる原本と一項目ずつ照合して相違点を洗い出し、ことにしている。"
+        },
+        {
+          "order": "CBAD",
+          "starOptionId": "A",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "担当者は、各部署から届いた申請一覧を受け取ったら該当部署にその理由を原本と一項目ずつ照合して相違点を洗い出し、★記載内容を問い合わせることにしている。"
+        },
+        {
+          "order": "CBDA",
+          "starOptionId": "D",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "担当者は、各部署から届いた申請一覧を受け取ったら該当部署にその理由を原本と一項目ずつ照合して相違点を洗い出し、★問い合わせる記載内容をことにしている。"
+        },
+        {
+          "order": "CDAB",
+          "starOptionId": "A",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "担当者は、各部署から届いた申請一覧を受け取ったら該当部署にその理由を問い合わせる★記載内容を原本と一項目ずつ照合して相違点を洗い出し、ことにしている。"
+        },
+        {
+          "order": "CDBA",
+          "starOptionId": "B",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "担当者は、各部署から届いた申請一覧を受け取ったら該当部署にその理由を問い合わせる★原本と一項目ずつ照合して相違点を洗い出し、記載内容をことにしている。"
+        },
+        {
+          "order": "DABC",
+          "starOptionId": "B",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "担当者は、各部署から届いた申請一覧を受け取ったら問い合わせる記載内容を★原本と一項目ずつ照合して相違点を洗い出し、該当部署にその理由をことにしている。"
+        },
+        {
+          "order": "DACB",
+          "starOptionId": "C",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "担当者は、各部署から届いた申請一覧を受け取ったら問い合わせる記載内容を★該当部署にその理由を原本と一項目ずつ照合して相違点を洗い出し、ことにしている。"
+        },
+        {
+          "order": "DBAC",
+          "starOptionId": "A",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "担当者は、各部署から届いた申請一覧を受け取ったら問い合わせる原本と一項目ずつ照合して相違点を洗い出し、★記載内容を該当部署にその理由をことにしている。"
+        },
+        {
+          "order": "DBCA",
+          "starOptionId": "C",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "担当者は、各部署から届いた申請一覧を受け取ったら問い合わせる原本と一項目ずつ照合して相違点を洗い出し、★該当部署にその理由を記載内容をことにしている。"
+        },
+        {
+          "order": "DCAB",
+          "starOptionId": "A",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "担当者は、各部署から届いた申請一覧を受け取ったら問い合わせる該当部署にその理由を★記載内容を原本と一項目ずつ照合して相違点を洗い出し、ことにしている。"
+        },
+        {
+          "order": "DCBA",
+          "starOptionId": "B",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "担当者は、各部署から届いた申請一覧を受け取ったら問い合わせる該当部署にその理由を★原本と一項目ずつ照合して相違点を洗い出し、記載内容をことにしている。"
+        }
+      ],
+      "alternateChangesReviewedAnswer": false
+    },
+    {
+      "questionId": "N2_10_M8_05",
+      "reviewedPermutationCount": 24,
+      "intendedOrder": "ABCD",
+      "selectedOptionId": "C",
+      "naturalOrMarginalOrders": [
+        {
+          "order": "ABCD",
+          "starOptionId": "C",
+          "classification": "natural",
+          "assembledSentence": "窓口では、申請書に記入漏れが見つかったら、その項目を★申請者に記入してもらってから申請を受理することにしている。"
+        }
+      ],
+      "allPermutationJudgments": [
+        {
+          "order": "ABCD",
+          "starOptionId": "C",
+          "classification": "natural",
+          "assembledSentence": "窓口では、申請書に記入漏れが見つかったら、その項目を★申請者に記入してもらってから申請を受理することにしている。"
+        },
+        {
+          "order": "ABDC",
+          "starOptionId": "D",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "窓口では、申請書に記入漏れが見つかったら、その項目を★申請を受理する申請者に記入してもらってからことにしている。"
+        },
+        {
+          "order": "ACBD",
+          "starOptionId": "B",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "窓口では、申請書に記入漏れが見つかったら、申請者に記入してもらってから★その項目を申請を受理することにしている。"
+        },
+        {
+          "order": "ACDB",
+          "starOptionId": "D",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "窓口では、申請書に記入漏れが見つかったら、申請者に記入してもらってから★申請を受理するその項目をことにしている。"
+        },
+        {
+          "order": "ADBC",
+          "starOptionId": "B",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "窓口では、申請書に記入漏れが見つかったら、申請を受理する★その項目を申請者に記入してもらってからことにしている。"
+        },
+        {
+          "order": "ADCB",
+          "starOptionId": "C",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "窓口では、申請書に記入漏れが見つかったら、申請を受理する★申請者に記入してもらってからその項目をことにしている。"
+        },
+        {
+          "order": "BACD",
+          "starOptionId": "C",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "窓口では、その項目を申請書に記入漏れが見つかったら、★申請者に記入してもらってから申請を受理することにしている。"
+        },
+        {
+          "order": "BADC",
+          "starOptionId": "D",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "窓口では、その項目を申請書に記入漏れが見つかったら、★申請を受理する申請者に記入してもらってからことにしている。"
+        },
+        {
+          "order": "BCAD",
+          "starOptionId": "A",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "窓口では、その項目を申請者に記入してもらってから★申請書に記入漏れが見つかったら、申請を受理することにしている。"
+        },
+        {
+          "order": "BCDA",
+          "starOptionId": "D",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "窓口では、その項目を申請者に記入してもらってから★申請を受理する申請書に記入漏れが見つかったら、ことにしている。"
+        },
+        {
+          "order": "BDAC",
+          "starOptionId": "A",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "窓口では、その項目を申請を受理する★申請書に記入漏れが見つかったら、申請者に記入してもらってからことにしている。"
+        },
+        {
+          "order": "BDCA",
+          "starOptionId": "C",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "窓口では、その項目を申請を受理する★申請者に記入してもらってから申請書に記入漏れが見つかったら、ことにしている。"
+        },
+        {
+          "order": "CABD",
+          "starOptionId": "B",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "窓口では、申請者に記入してもらってから申請書に記入漏れが見つかったら、★その項目を申請を受理することにしている。"
+        },
+        {
+          "order": "CADB",
+          "starOptionId": "D",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "窓口では、申請者に記入してもらってから申請書に記入漏れが見つかったら、★申請を受理するその項目をことにしている。"
+        },
+        {
+          "order": "CBAD",
+          "starOptionId": "A",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "窓口では、申請者に記入してもらってからその項目を★申請書に記入漏れが見つかったら、申請を受理することにしている。"
+        },
+        {
+          "order": "CBDA",
+          "starOptionId": "D",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "窓口では、申請者に記入してもらってからその項目を★申請を受理する申請書に記入漏れが見つかったら、ことにしている。"
+        },
+        {
+          "order": "CDAB",
+          "starOptionId": "A",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "窓口では、申請者に記入してもらってから申請を受理する★申請書に記入漏れが見つかったら、その項目をことにしている。"
+        },
+        {
+          "order": "CDBA",
+          "starOptionId": "B",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "窓口では、申請者に記入してもらってから申請を受理する★その項目を申請書に記入漏れが見つかったら、ことにしている。"
+        },
+        {
+          "order": "DABC",
+          "starOptionId": "B",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "窓口では、申請を受理する申請書に記入漏れが見つかったら、★その項目を申請者に記入してもらってからことにしている。"
+        },
+        {
+          "order": "DACB",
+          "starOptionId": "C",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "窓口では、申請を受理する申請書に記入漏れが見つかったら、★申請者に記入してもらってからその項目をことにしている。"
+        },
+        {
+          "order": "DBAC",
+          "starOptionId": "A",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "窓口では、申請を受理するその項目を★申請書に記入漏れが見つかったら、申請者に記入してもらってからことにしている。"
+        },
+        {
+          "order": "DBCA",
+          "starOptionId": "C",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "窓口では、申請を受理するその項目を★申請者に記入してもらってから申請書に記入漏れが見つかったら、ことにしている。"
+        },
+        {
+          "order": "DCAB",
+          "starOptionId": "A",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "窓口では、申請を受理する申請者に記入してもらってから★申請書に記入漏れが見つかったら、その項目をことにしている。"
+        },
+        {
+          "order": "DCBA",
+          "starOptionId": "B",
+          "classification": "ungrammatical_or_incomplete",
+          "assembledSentence": "窓口では、申請を受理する申請者に記入してもらってから★その項目を申請書に記入漏れが見つかったら、ことにしている。"
+        }
+      ],
+      "alternateChangesReviewedAnswer": false
+    }
+  ],
+  "unresolvedStarAlternativesChangingAnswer": [],
+  "normalizedArtifactSha256": {
+    "blind_items_m10_s1_p1.json": "06a4b342cacd97ec8d1d6949eeffccc36b739f568c101f799abc975e64193664",
+    "blind_items_m10_s1_p2.json": "f9c6b490de2584f6c6396221b6a8d4e48bd3cea45fbf0c1a7bfe4f03e5bd8726",
+    "blind_items_m10_s2.json": "da634bbd20351de90694c7166ef739753766f9653fb2ae6cfeafda14e04972de",
+    "raw_blind_m10_s1_p1.json": "e0800e8b4243be038a704fb9d2438573183613236dee69f1f8d3250e669eca10",
+    "raw_blind_m10_s1_p2.json": "734c4a5fc96edc09c9b518788ef212ceea025e5c4483dc179933721e3768f012",
+    "raw_blind_m10_s2.json": "f6a42e78a7756cd62e5b807193a4c0d6085bf350988670a53ab36548a51f42df"
+  },
+  "normalizedCounts": {
+    "s1_p1": 38,
+    "s1_p2": 37,
+    "s2": 30
+  },
+  "reconciledAgreementCount": 105,
+  "unresolvedAnswerConcernCount": 0,
+  "unresolvedStarAlternativeCount": 0
+}

@@ -29,14 +29,17 @@
     "raw_blind_m09_s1_p1.json": "1dd610d7c6f305ec1ed7465ed582f4e93cdc055d7b6b6a9b1208950bc627ed03",
     "raw_blind_m09_s1_p2.json": "7e93c1926f96127d9328ae4b6a07d30d90b3b28ba258b78a631ccfa05be45af5",
     "raw_blind_m09_s2.json": "71c56f222d7ac60970cd840a0545002cd5e37486820debbcb096201497a4bbdf",
+    "raw_blind_m10_s1_p1.json": "e0800e8b4243be038a704fb9d2438573183613236dee69f1f8d3250e669eca10",
+    "raw_blind_m10_s1_p2.json": "734c4a5fc96edc09c9b518788ef212ceea025e5c4483dc179933721e3768f012",
+    "raw_blind_m10_s2.json": "f6a42e78a7756cd62e5b807193a4c0d6085bf350988670a53ab36548a51f42df",
     "raw_blind_star_repaired_3.json": "45ab0ba1bad83384bade7f3946a8c3654074a6e5cda6e4b04f3168ac18731ca1",
     "raw_blind_repaired_5.json": "fbf8d578575f26cc9375d3274d42698b6b0d3a2a84c529bc17956c954386c7ab"
   },
-  "derivedArtifactHash": "32a14f02c60d7fb843425fb337546497df058373b221638ececa703a0979cac1",
-  "totalQuestionsAudited": 945,
+  "derivedArtifactHash": "8f99b514918a24d57b03fa17995d9d517eaaf4cb6b02d38ae1a3c2277c894f91",
+  "totalQuestionsAudited": 1050,
   "provenanceBreakdown": {
     "RECONSTRUCTED_FROM_ARCHIVED_INPUT": 287,
-    "REVIEW_CONTENT_VERSION_VERIFIED": 639,
+    "REVIEW_CONTENT_VERSION_VERIFIED": 744,
     "OPTION_PERMUTATION_REBOUND": 19
   },
   "totalReorderedQuestions": 34,
