@@ -72,7 +72,9 @@ class TestN2Mock11ReleaseGuards(unittest.TestCase):
         self.assertFalse(assurance["BROWSER_PLAYBACK_VERIFIED"])
 
     def test_wrong_audio_sha256_is_rejected(self):
-        with tempfile.TemporaryDirectory(dir=ROOT / "tmp/phase7") as folder:
+        temp_root = ROOT / "tmp/phase7"
+        temp_root.mkdir(parents=True, exist_ok=True)
+        with tempfile.TemporaryDirectory(dir=temp_root) as folder:
             mp3 = Path(folder) / "fixture.mp3"
             mp3.write_bytes(b"synthetic audio bytes")
             assurance = evaluate_audio_track_assurance(

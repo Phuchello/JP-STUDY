@@ -2,7 +2,7 @@
   "snapshotDate": "2026-10-21",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
   "fileCountExcludingManifest": 1017,
-  "totalBytesExcludingManifest": 157000573,
+  "totalBytesExcludingManifest": 157000390,
   "files": [
     {
       "path": ".gitattributes",
@@ -3498,8 +3498,8 @@
     },
     {
       "path": "qa/CI_QA_SUMMARY.json",
-      "bytes": 8093,
-      "sha256": "95d4d33d3ccc1f6de1dee69e59643ac5f7aa724a4ddae7a42d9fda5a6d8ef9c8",
+      "bytes": 7827,
+      "sha256": "d1fa5fe641de2c3afa8e921882879e550d1f4ccc55a7bdb0a57e59f090422768",
       "status": "QA_PENDING"
     },
     {
@@ -5952,8 +5952,8 @@
     },
     {
       "path": "scripts/tests/test_n2_mock_11_release_guards.py",
-      "bytes": 5659,
-      "sha256": "a7272ca91b2f4dd21779a60d2871532d89bdd82c50cf565a1692becc918ee9b4",
+      "bytes": 5742,
+      "sha256": "0d267df3ba1af891799836f952a604dd8c4901f52dd52d0a3586bafe6887b4f9",
       "status": "VERIFIED"
     },
     {
