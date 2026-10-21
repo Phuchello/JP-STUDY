@@ -1,6 +1,6 @@
 # N2-MOCK-10 — content and release evidence
 
-**Local release status:** `VERIFIED` practice resource; GitHub Pages publication is pending the authorized checkpoint push and gated deployment. This is an original practice mock, not an official JLPT paper.
+**Release status:** `VERIFIED` deployed practice resource. GitHub Actions run [39584679240](https://github.com/Phuchello/JP-STUDY/actions/runs/39584679240) passed the content gate and gated Pages deployment for release payload commit `2df7db585912636ca8cfec7e7f9b6e084251eee9`. Live catalog, full exam, listening route, and the first public MP3 were verified; see [`N2_MOCK_10_LIVE_DEPLOYMENT_RECEIPT.json`](N2_MOCK_10_LIVE_DEPLOYMENT_RECEIPT.json). This is an original practice mock, not an official JLPT paper.
 
 ## Content and review
 
@@ -20,4 +20,4 @@
 
 ## Scope and limitations
 
-Listening content review used the sealed Japanese scripts/options; the separate browser receipt verifies file hashes and playback. The assessment remains a practice resource with no human/native-speaker review or psychometric calibration. Local integration is complete; public access is not claimed until GitHub Actions and the live Pages URLs are verified.
+Listening content review used the sealed Japanese scripts/options; local Chromium checks verified all 30 files and playback progression, while the live receipt verifies the first public track at observation time. The assessment remains a practice resource with no human/native-speaker review or psychometric calibration.

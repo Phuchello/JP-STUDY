@@ -1,8 +1,8 @@
 {
   "snapshotDate": "2026-10-21",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
-  "fileCountExcludingManifest": 939,
-  "totalBytesExcludingManifest": 147157460,
+  "fileCountExcludingManifest": 941,
+  "totalBytesExcludingManifest": 147161441,
   "files": [
     {
       "path": ".gitattributes",
@@ -2796,8 +2796,8 @@
     },
     {
       "path": "FILE_INDEX.md",
-      "bytes": 92833,
-      "sha256": "4b52fd1790a05709133a73eaf89ba90acc5701499104b1c624767416337c237d",
+      "bytes": 93049,
+      "sha256": "bdbcc89026a13a788d736085b41d8648cfe40f2c758acb7f1c99ae98c9565212",
       "status": "VERIFIED"
     },
     {
@@ -2832,8 +2832,8 @@
     },
     {
       "path": "PROJECT_STATUS.md",
-      "bytes": 41336,
-      "sha256": "c7fa118fc09192da04df91ca8c7d4b7f5e2499525cd4c20842f146c23945b360",
+      "bytes": 41539,
+      "sha256": "1b99015b68cde9145eab328e52fd2f0128bbdc8a23cf8fdc296de176744a1b52",
       "status": "VERIFIED"
     },
     {
@@ -3894,8 +3894,8 @@
     },
     {
       "path": "qa/N2_MOCK_10_CONTENT_REVIEW_REPORT.md",
-      "bytes": 2508,
-      "sha256": "80f40b2b7dc22fad6f142259aa6bd184782145dc8d8eb0d6a9f86dd6d82df6b6",
+      "bytes": 2776,
+      "sha256": "0b4fb36133195682781b6fc313607b404a48ada6ac6ac84ae24fe7efec815537",
       "status": "VERIFIED"
     },
     {
@@ -3915,6 +3915,12 @@
       "bytes": 34479,
       "sha256": "f14204ad54f451f025f24b5eaed61b4f0675563d9b82c047b8987e27a0b194e5",
       "status": "VERIFIED"
+    },
+    {
+      "path": "qa/N2_MOCK_10_LIVE_DEPLOYMENT_RECEIPT.json",
+      "bytes": 2101,
+      "sha256": "321c5b10865ec707d2a17fd52eeef6135a4beb2e06bf2ef438138b526756d8a3",
+      "status": "QA_PENDING"
     },
     {
       "path": "qa/PRACTICE_RELEASE_GATE.md",
@@ -5142,8 +5148,8 @@
     },
     {
       "path": "scripts/curriculum/generate_n2_mock_10_audio.py",
-      "bytes": 12358,
-      "sha256": "42a5af70ab1d171f0ec406415ea15664b1ef7a758c933a5c1a3431f16cff2636",
+      "bytes": 12055,
+      "sha256": "418aa8aecb55bca026d0a2da8352f4907564eaf6a8dd466dccedbf04182c87d6",
       "status": "VERIFIED"
     },
     {
@@ -5280,8 +5286,8 @@
     },
     {
       "path": "scripts/curriculum/validate_n2_mock_10_blind_review.py",
-      "bytes": 8539,
-      "sha256": "a0efd4179ae03bd295100d43b1cca4bc695c51017433d81ba9e6c526f59d5f51",
+      "bytes": 9215,
+      "sha256": "1bad8d68627a3d3a0de16df715cfff11063c763e09f06222fad477e4d49c2a2c",
       "status": "VERIFIED"
     },
     {
@@ -5505,6 +5511,12 @@
       "bytes": 10319,
       "sha256": "b651348f101aa100e8fe31dd4ededc402912e2a64d65d9fff9b9250ac7a90af7",
       "status": "VERIFIED"
+    },
+    {
+      "path": "scripts/tests/test_n2_mock_10_sealed_hash.py",
+      "bytes": 820,
+      "sha256": "c38d96cfc02bda70e622e7ea6dd9a682970ca1a037ab032b58447882d9c77e98",
+      "status": "QA_PENDING"
     },
     {
       "path": "scripts/tests/test_practice_engine_bank.py",

@@ -1,0 +1,44 @@
+{
+  "examId": "N2-MOCK-10",
+  "deployedCommit": "2df7db585912636ca8cfec7e7f9b6e084251eee9",
+  "githubActionsRun": "https://github.com/Phuchello/JP-STUDY/actions/runs/39584679240",
+  "githubActionsRunNumber": 19,
+  "actionsConclusion": "success",
+  "contentQaJob": "success",
+  "gatedPagesDeployment": "success",
+  "observedAtUtc": "2026-10-21T10:30:50+00:00",
+  "catalogUrl": "https://phuchello.github.io/JP-STUDY/widgets/jlpt_exam_catalog.html",
+  "fullExamUrl": "https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mock&mockId=N2-MOCK-10",
+  "listeningUrl": "https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mock&mockId=N2-MOCK-10&section=2",
+  "checks": [
+    {
+      "name": "public_catalog_entry_and_links",
+      "result": "PASS",
+      "evidence": "Catalog visibly identifies Practice Mock #10 and exposes full-exam and listening-only links with the expected mockId."
+    },
+    {
+      "name": "public_full_exam_route",
+      "result": "PASS",
+      "evidence": "N2-MOCK-10 loaded directly with 75 questions and a 105:00 section timer."
+    },
+    {
+      "name": "public_listening_route",
+      "result": "PASS",
+      "evidence": "Listening-only route loaded 30 questions at 50:00; first item is N2_10_M1_L01 and its player reports 43.136 seconds."
+    },
+    {
+      "name": "public_audio_playback_activation",
+      "result": "PASS",
+      "evidence": "The first public player entered active playback (pause control visible); the GitHub Actions Chromium audio step also passed."
+    },
+    {
+      "name": "gated_release_workflow",
+      "result": "PASS",
+      "evidence": "Content QA & Release Gate Verification and Gated Deployment to GitHub Pages both completed successfully in Actions run 39584679240."
+    }
+  ],
+  "limitations": [
+    "The browser observation verifies the first public audio asset at observation time; all 30 tracks passed repository and Chromium QA, but live CDN playback of every track is not claimed.",
+    "AI review is not human/native-speaker certification, official JLPT approval, or psychometric calibration."
+  ]
+}

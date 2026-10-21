@@ -539,6 +539,7 @@ Snapshot 2026-10-21. VERIFIED is scoped verification, not JLPT certification. Hi
 | [qa/N2_MOCK_10_DEEP_AUDIO_PLAYBACK_REPORT.md](qa/N2_MOCK_10_DEEP_AUDIO_PLAYBACK_REPORT.md) | VERIFIED |
 | [qa/N2_MOCK_10_E2E_REPORT.json](qa/N2_MOCK_10_E2E_REPORT.json) | VERIFIED |
 | [qa/N2_MOCK_10_INDEPENDENT_AUDIT_REPORT.md](qa/N2_MOCK_10_INDEPENDENT_AUDIT_REPORT.md) | VERIFIED |
+| [qa/N2_MOCK_10_LIVE_DEPLOYMENT_RECEIPT.json](qa/N2_MOCK_10_LIVE_DEPLOYMENT_RECEIPT.json) | QA_PENDING |
 | [qa/PRACTICE_RELEASE_GATE.md](qa/PRACTICE_RELEASE_GATE.md) | VERIFIED |
 | [qa/PUBLICATION_QA.md](qa/PUBLICATION_QA.md) | VERIFIED |
 | [qa/PUBLIC_REPO_DATA_EXPOSURE_AUDIT.md](qa/PUBLIC_REPO_DATA_EXPOSURE_AUDIT.md) | VERIFIED |
@@ -922,6 +923,7 @@ Snapshot 2026-10-21. VERIFIED is scoped verification, not JLPT certification. Hi
 | [scripts/tests/test_n2_mock_08_e2e.cjs](scripts/tests/test_n2_mock_08_e2e.cjs) | QA_PENDING |
 | [scripts/tests/test_n2_mock_09_e2e.cjs](scripts/tests/test_n2_mock_09_e2e.cjs) | VERIFIED |
 | [scripts/tests/test_n2_mock_10_e2e.cjs](scripts/tests/test_n2_mock_10_e2e.cjs) | VERIFIED |
+| [scripts/tests/test_n2_mock_10_sealed_hash.py](scripts/tests/test_n2_mock_10_sealed_hash.py) | QA_PENDING |
 | [scripts/tests/test_practice_engine_bank.py](scripts/tests/test_practice_engine_bank.py) | QA_PENDING |
 | [scripts/tests/test_preview.cjs](scripts/tests/test_preview.cjs) | VERIFIED |
 | [scripts/tests/test_qa_adversarial_mutations.py](scripts/tests/test_qa_adversarial_mutations.py) | VERIFIED |
