@@ -2,7 +2,7 @@
   "snapshotDate": "2026-10-22",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
   "fileCountExcludingManifest": 1129,
-  "totalBytesExcludingManifest": 175176105,
+  "totalBytesExcludingManifest": 175176102,
   "files": [
     {
       "path": ".gitattributes",
@@ -3895,7 +3895,7 @@
     {
       "path": "qa/CI_QA_SUMMARY.json",
       "bytes": 9318,
-      "sha256": "389ce0be06b36e9771b89ea685d837c1d9b0ba9a2fea7485541da46e2671b043",
+      "sha256": "9083cee732ad0c1ca89258e42edd8bc353671ae77b5c0afae27b85d90e24fb97",
       "status": "VERIFIED"
     },
     {
@@ -4681,7 +4681,7 @@
     {
       "path": "qa/N2_MOCK_13_E2E_REPORT.json",
       "bytes": 2084,
-      "sha256": "2dc83eabc6fb0a798619dbd73ba5a2305ecefc8a2ad365322365ee7451664ba3",
+      "sha256": "71f84c2ee504d7de47f85cb5ff026eee8b8a2b0e33ab7dd6498807afeaaae842",
       "status": "VERIFIED"
     },
     {
@@ -6600,8 +6600,8 @@
     },
     {
       "path": "scripts/tests/test_n2_mock_13_e2e.cjs",
-      "bytes": 9736,
-      "sha256": "5b45899442d36bdd0422f0ecdeae742de8baa61c7985c7328999c72bd4b635d8",
+      "bytes": 9733,
+      "sha256": "4e7b9e7403263c0197bcc1e5ee2231078683f57e9320af54f43ea399a155267f",
       "status": "VERIFIED"
     },
     {

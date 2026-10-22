@@ -1,11 +1,11 @@
-// Browser E2E for the private M13 candidate in the real practice engine.
+// Browser E2E for the integrated M13 exam in the real practice engine.
 const { chromium } = require('playwright');
 const path = require('path');
 const fs = require('fs');
 const assert = require('node:assert/strict');
 
 const ROOT = path.resolve(__dirname, '../..');
-const EXAM_PATH = process.env.N2_MOCK_13_EXAM_PATH || path.join(ROOT, 'tmp/phase7/n2_mock_13_draft.json');
+const EXAM_PATH = process.env.N2_MOCK_13_EXAM_PATH || path.join(ROOT, 'data/mock_exams/n2_mock_13.json');
 const ENGINE_PATH = path.join(ROOT, 'docs/widgets/practice_engine.html');
 const REPORT_PATH = path.join(ROOT, 'qa/N2_MOCK_13_E2E_REPORT.json');
 const SYSTEM_CHROME = 'C:/Program Files/Google/Chrome/Application/chrome.exe';

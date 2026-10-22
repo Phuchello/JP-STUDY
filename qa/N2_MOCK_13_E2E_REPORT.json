@@ -3,7 +3,7 @@
   "status": "PASS_LOCAL_E2E",
   "scope": "local practice-engine interaction with private candidate injection; not catalog or live-site verification",
   "qaData": true,
-  "generatedAt": "2026-10-22T02:23:01.509Z",
+  "generatedAt": "2026-10-22T02:28:07.695Z",
   "browser": "Local Chromium Headless via Playwright",
   "viewport": "1280x800 and 390x844",
   "candidateInjection": "N2-MOCK-13 loaded into JP_MOCK_DATA before launchMockExamSafely",
