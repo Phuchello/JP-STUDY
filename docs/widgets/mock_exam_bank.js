@@ -186,19 +186,19 @@ window.JP_MOCK_REGISTRY = {
 },
     {
       "mockId": "N2-MOCK-13",
-      "title": "JLPT N2 Full Mock Exam #13",
+      "title": "JLPT N2 Practice Mock Exam #13 — Education, Media & Technology",
       "level": "N2",
-      "status": "IN_DEVELOPMENT",
-      "badgeText": "IN DEVELOPMENT · ĐANG BIÊN SOẠN",
-      "badgeClass": "status-dev",
+      "status": "FULL_MOCK",
+      "badgeText": "PRACTICE MOCK · AI BLIND-REVIEWED · 105 CÂU",
+      "badgeClass": "status-ready",
       "durationMinutes": 155,
       "totalQuestions": 105,
       "section1Count": 75,
       "section2Count": 30,
-      "releaseDate": "Kỳ thi 12/2026 (Đợt 4)",
-      "description": "Bộ đề mô phỏng đợt thi số 13. Đang trong quy trình biên soạn chuẩn hóa ngữ cảnh và kịch bản nghe hiểu.",
-      "playable": false
-    },
+      "releaseDate": "22/10/2026",
+      "description": "Đề luyện tập nguyên bản về giáo dục, truyền thông và công nghệ; gồm 32 câu Từ vựng/Kanji, 22 Ngữ pháp, 21 Đọc hiểu và 30 câu Nghe có MP3. AI đã rà soát mù theo phiên bản; đây không phải đề JLPT chính thức, chưa có chứng nhận người bản ngữ hoặc hiệu chuẩn tâm trắc.",
+      "playable": true
+},
     {
       "mockId": "N2-MOCK-14",
       "title": "JLPT N2 Full Mock Exam #14",
@@ -48433,6 +48433,4252 @@ window.JP_MOCK_DATA = {
           "audioUrl": "audio/n2_mock_12/N2_12_M5_L03.mp3",
           "audioDurationSec": 51.156,
           "audioSha256": "2fafcfb41db6c324437e13a163be229ffa8f92bf74f89fc863cb199d3126d2ec",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        }
+      ]
+    }
+  ]
+},
+  'N2-MOCK-13': {
+  "examId": "N2-MOCK-13",
+  "title": "JLPT N2 Practice Mock Exam #13 — Education, Media & Technology",
+  "level": "N2",
+  "status": "FULL_MOCK",
+  "releaseGateStatus": "REVIEW_CONTENT_VERSION_VERIFIED",
+  "durationMinutes": 155,
+  "totalQuestions": 105,
+  "sections": [
+    {
+      "sectionId": "sec-1",
+      "sectionName": "Phần 1: Kiến thức ngôn ngữ & Đọc hiểu",
+      "durationMinutes": 105,
+      "itemCount": 75,
+      "items": [
+        {
+          "id": "N2_13_M1_01",
+          "level": "N2",
+          "typeId": "N2-MO-READ",
+          "category": "漢字読み",
+          "stem": "論文では、結論を支える【根拠】を具体的に示す必要がある。",
+          "options": [
+            {
+              "id": "A",
+              "text": "こんぎょ"
+            },
+            {
+              "id": "B",
+              "text": "こんきょ"
+            },
+            {
+              "id": "C",
+              "text": "ごんぎょ"
+            },
+            {
+              "id": "D",
+              "text": "ごんきょ"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "正解は「こんきょ」です。",
+          "explanationVi": "根拠（こんきょ） nghĩa là căn cứ hoặc bằng chứng hỗ trợ một nhận định. Trong câu, đó là thông tin làm cơ sở cho kết luận của bài luận.",
+          "distractorExplanations": {
+            "A": "Phương án «こんぎょ» không phù hợp với dữ kiện hoặc cấu trúc của câu. 根拠（こんきょ） nghĩa là căn cứ hoặc bằng chứng hỗ trợ một nhận định. Trong câu, đó là thông tin làm cơ sở cho kết luận của bài luận.",
+            "C": "Phương án «ごんぎょ» không phù hợp với dữ kiện hoặc cấu trúc của câu. 根拠（こんきょ） nghĩa là căn cứ hoặc bằng chứng hỗ trợ một nhận định. Trong câu, đó là thông tin làm cơ sở cho kết luận của bài luận.",
+            "D": "Phương án «ごんきょ» không phù hợp với dữ kiện hoặc cấu trúc của câu. 根拠（こんきょ） nghĩa là căn cứ hoặc bằng chứng hỗ trợ một nhận định. Trong câu, đó là thông tin làm cơ sở cho kết luận của bài luận."
+          },
+          "topicTag": "education-media",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge",
+          "targetKanji": "根拠"
+        },
+        {
+          "id": "N2_13_M1_02",
+          "level": "N2",
+          "typeId": "N2-MO-READ",
+          "category": "漢字読み",
+          "stem": "地域の教材づくりに長年【携わって】きた先生に話を聞いた。",
+          "options": [
+            {
+              "id": "A",
+              "text": "たずさって"
+            },
+            {
+              "id": "B",
+              "text": "たずさわって"
+            },
+            {
+              "id": "C",
+              "text": "たずらって"
+            },
+            {
+              "id": "D",
+              "text": "たずなって"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "正解は「たずさわって」です。",
+          "explanationVi": "携わる（たずさわる） nghĩa là tham gia hoặc đảm nhiệm một công việc, hoạt động. Ở đây, giáo viên đã có thời gian tham gia biên soạn tài liệu.",
+          "distractorExplanations": {
+            "A": "Phương án «たずさって» không phù hợp với dữ kiện hoặc cấu trúc của câu. 携わる（たずさわる） nghĩa là tham gia hoặc đảm nhiệm một công việc, hoạt động. Ở đây, giáo viên đã có thời gian tham gia biên soạn tài liệu.",
+            "C": "Phương án «たずらって» không phù hợp với dữ kiện hoặc cấu trúc của câu. 携わる（たずさわる） nghĩa là tham gia hoặc đảm nhiệm một công việc, hoạt động. Ở đây, giáo viên đã có thời gian tham gia biên soạn tài liệu.",
+            "D": "Phương án «たずなって» không phù hợp với dữ kiện hoặc cấu trúc của câu. 携わる（たずさわる） nghĩa là tham gia hoặc đảm nhiệm một công việc, hoạt động. Ở đây, giáo viên đã có thời gian tham gia biên soạn tài liệu."
+          },
+          "topicTag": "education-media",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge",
+          "targetKanji": "携わって"
+        },
+        {
+          "id": "N2_13_M1_03",
+          "level": "N2",
+          "typeId": "N2-MO-READ",
+          "category": "漢字読み",
+          "stem": "音声認識の技術は、大学の講義でも少しずつ【普及】している。",
+          "options": [
+            {
+              "id": "A",
+              "text": "ふきゅう"
+            },
+            {
+              "id": "B",
+              "text": "ふっきゅう"
+            },
+            {
+              "id": "C",
+              "text": "ふきゅ"
+            },
+            {
+              "id": "D",
+              "text": "ふっきゅ"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "正解は「ふきゅう」です。",
+          "explanationVi": "普及（ふきゅう） là việc một công nghệ hoặc phương pháp được sử dụng rộng rãi. Cách đọc đúng là ふきゅう.",
+          "distractorExplanations": {
+            "B": "Phương án «ふっきゅう» không phù hợp với dữ kiện hoặc cấu trúc của câu. 普及（ふきゅう） là việc một công nghệ hoặc phương pháp được sử dụng rộng rãi. Cách đọc đúng là ふきゅう.",
+            "C": "Phương án «ふきゅ» không phù hợp với dữ kiện hoặc cấu trúc của câu. 普及（ふきゅう） là việc một công nghệ hoặc phương pháp được sử dụng rộng rãi. Cách đọc đúng là ふきゅう.",
+            "D": "Phương án «ふっきゅ» không phù hợp với dữ kiện hoặc cấu trúc của câu. 普及（ふきゅう） là việc một công nghệ hoặc phương pháp được sử dụng rộng rãi. Cách đọc đúng là ふきゅう."
+          },
+          "topicTag": "education-media",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge",
+          "targetKanji": "普及"
+        },
+        {
+          "id": "N2_13_M1_04",
+          "level": "N2",
+          "typeId": "N2-MO-READ",
+          "category": "漢字読み",
+          "stem": "教員は、学生が自分で問いを立てるよう【促した】。",
+          "options": [
+            {
+              "id": "A",
+              "text": "うるおした"
+            },
+            {
+              "id": "B",
+              "text": "うながせた"
+            },
+            {
+              "id": "C",
+              "text": "そくした"
+            },
+            {
+              "id": "D",
+              "text": "うながした"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "正解は「うながした」です。",
+          "explanationVi": "促す（うながす） nghĩa là khuyến khích hoặc thúc đẩy người khác hành động. Giáo viên khuyến khích sinh viên tự đặt câu hỏi.",
+          "distractorExplanations": {
+            "A": "Phương án «うるおした» không phù hợp với dữ kiện hoặc cấu trúc của câu. 促す（うながす） nghĩa là khuyến khích hoặc thúc đẩy người khác hành động. Giáo viên khuyến khích sinh viên tự đặt câu hỏi.",
+            "B": "Phương án «うながせた» không phù hợp với dữ kiện hoặc cấu trúc của câu. 促す（うながす） nghĩa là khuyến khích hoặc thúc đẩy người khác hành động. Giáo viên khuyến khích sinh viên tự đặt câu hỏi.",
+            "C": "Phương án «そくした» không phù hợp với dữ kiện hoặc cấu trúc của câu. 促す（うながす） nghĩa là khuyến khích hoặc thúc đẩy người khác hành động. Giáo viên khuyến khích sinh viên tự đặt câu hỏi."
+          },
+          "topicTag": "education-media",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge",
+          "targetKanji": "促した"
+        },
+        {
+          "id": "N2_13_M1_05",
+          "level": "N2",
+          "typeId": "N2-MO-READ",
+          "category": "漢字読み",
+          "stem": "発表時間が限られているため、調査方法の説明を一部【省略】した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "しょうやく"
+            },
+            {
+              "id": "B",
+              "text": "せいりゃく"
+            },
+            {
+              "id": "C",
+              "text": "せいりょう"
+            },
+            {
+              "id": "D",
+              "text": "しょうりゃく"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "正解は「しょうりゃく」です。",
+          "explanationVi": "省略（しょうりゃく） là lược bỏ một phần để nội dung ngắn gọn hơn. Ở đây, người nói rút bớt phần giải thích vì thời gian trình bày có hạn.",
+          "distractorExplanations": {
+            "A": "Phương án «しょうやく» không phù hợp với dữ kiện hoặc cấu trúc của câu. 省略（しょうりゃく） là lược bỏ một phần để nội dung ngắn gọn hơn. Ở đây, người nói rút bớt phần giải thích vì thời gian trình bày có hạn.",
+            "B": "Phương án «せいりゃく» không phù hợp với dữ kiện hoặc cấu trúc của câu. 省略（しょうりゃく） là lược bỏ một phần để nội dung ngắn gọn hơn. Ở đây, người nói rút bớt phần giải thích vì thời gian trình bày có hạn.",
+            "C": "Phương án «せいりょう» không phù hợp với dữ kiện hoặc cấu trúc của câu. 省略（しょうりゃく） là lược bỏ một phần để nội dung ngắn gọn hơn. Ở đây, người nói rút bớt phần giải thích vì thời gian trình bày có hạn."
+          },
+          "topicTag": "education-media",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge",
+          "targetKanji": "省略"
+        },
+        {
+          "id": "N2_13_M2_01",
+          "level": "N2",
+          "typeId": "N2-MO-ORTH",
+          "category": "表記",
+          "stem": "学生は、公開講座の内容を友人にも【しょうかい】した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "照会"
+            },
+            {
+              "id": "B",
+              "text": "紹介"
+            },
+            {
+              "id": "C",
+              "text": "商会"
+            },
+            {
+              "id": "D",
+              "text": "招待"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "正解は「紹介」です。",
+          "explanationVi": "紹介（しょうかい） là giới thiệu hoặc chia sẻ thông tin về một người, sự vật hay hoạt động. Trong câu, người nói giới thiệu khóa học cho bạn.",
+          "distractorExplanations": {
+            "A": "Phương án «照会» không phù hợp với dữ kiện hoặc cấu trúc của câu. 紹介（しょうかい） là giới thiệu hoặc chia sẻ thông tin về một người, sự vật hay hoạt động. Trong câu, người nói giới thiệu khóa học cho bạn.",
+            "C": "Phương án «商会» không phù hợp với dữ kiện hoặc cấu trúc của câu. 紹介（しょうかい） là giới thiệu hoặc chia sẻ thông tin về một người, sự vật hay hoạt động. Trong câu, người nói giới thiệu khóa học cho bạn.",
+            "D": "Phương án «招待» không phù hợp với dữ kiện hoặc cấu trúc của câu. 紹介（しょうかい） là giới thiệu hoặc chia sẻ thông tin về một người, sự vật hay hoạt động. Trong câu, người nói giới thiệu khóa học cho bạn."
+          },
+          "topicTag": "education-media",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge",
+          "readingTarget": "しょうかい"
+        },
+        {
+          "id": "N2_13_M2_02",
+          "level": "N2",
+          "typeId": "N2-MO-ORTH",
+          "category": "表記",
+          "stem": "調査結果の信頼性を高めるため、複数の資料を【しょうごう】した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "称号"
+            },
+            {
+              "id": "B",
+              "text": "商号"
+            },
+            {
+              "id": "C",
+              "text": "照合"
+            },
+            {
+              "id": "D",
+              "text": "消耗"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "正解は「照合」です。",
+          "explanationVi": "照合（しょうごう） là đối chiếu nhiều thông tin để kiểm tra xem chúng có khớp nhau không. Câu nói về việc so sánh các tài liệu.",
+          "distractorExplanations": {
+            "A": "Phương án «称号» không phù hợp với dữ kiện hoặc cấu trúc của câu. 照合（しょうごう） là đối chiếu nhiều thông tin để kiểm tra xem chúng có khớp nhau không. Câu nói về việc so sánh các tài liệu.",
+            "B": "Phương án «商号» không phù hợp với dữ kiện hoặc cấu trúc của câu. 照合（しょうごう） là đối chiếu nhiều thông tin để kiểm tra xem chúng có khớp nhau không. Câu nói về việc so sánh các tài liệu.",
+            "D": "Phương án «消耗» không phù hợp với dữ kiện hoặc cấu trúc của câu. 照合（しょうごう） là đối chiếu nhiều thông tin để kiểm tra xem chúng có khớp nhau không. Câu nói về việc so sánh các tài liệu."
+          },
+          "topicTag": "education-media",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge",
+          "readingTarget": "しょうごう"
+        },
+        {
+          "id": "N2_13_M2_03",
+          "level": "N2",
+          "typeId": "N2-MO-ORTH",
+          "category": "表記",
+          "stem": "大学は、遠隔授業用の機材を各教室に【せっち】した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "折衷"
+            },
+            {
+              "id": "B",
+              "text": "節制"
+            },
+            {
+              "id": "C",
+              "text": "設置"
+            },
+            {
+              "id": "D",
+              "text": "接地"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "正解は「設置」です。",
+          "explanationVi": "設置（せっち） nghĩa là lắp đặt hoặc bố trí thiết bị tại một địa điểm. Thiết bị được đặt sẵn trong từng phòng học.",
+          "distractorExplanations": {
+            "A": "Phương án «折衷» không phù hợp với dữ kiện hoặc cấu trúc của câu. 設置（せっち） nghĩa là lắp đặt hoặc bố trí thiết bị tại một địa điểm. Thiết bị được đặt sẵn trong từng phòng học.",
+            "B": "Phương án «節制» không phù hợp với dữ kiện hoặc cấu trúc của câu. 設置（せっち） nghĩa là lắp đặt hoặc bố trí thiết bị tại một địa điểm. Thiết bị được đặt sẵn trong từng phòng học.",
+            "D": "Phương án «接地» không phù hợp với dữ kiện hoặc cấu trúc của câu. 設置（せっち） nghĩa là lắp đặt hoặc bố trí thiết bị tại một địa điểm. Thiết bị được đặt sẵn trong từng phòng học."
+          },
+          "topicTag": "education-media",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge",
+          "readingTarget": "せっち"
+        },
+        {
+          "id": "N2_13_M2_04",
+          "level": "N2",
+          "typeId": "N2-MO-ORTH",
+          "category": "表記",
+          "stem": "研究チームは、実験の条件をそろえて結果を【さいげん】できるか調べた。",
+          "options": [
+            {
+              "id": "A",
+              "text": "再現"
+            },
+            {
+              "id": "B",
+              "text": "再現像"
+            },
+            {
+              "id": "C",
+              "text": "再建"
+            },
+            {
+              "id": "D",
+              "text": "再現性"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "正解は「再現」です。",
+          "explanationVi": "再現（さいげん） là tạo lại cùng một kết quả trong cùng điều kiện. Nhóm nghiên cứu đang kiểm tra xem thí nghiệm có thể lặp lại hay không.",
+          "distractorExplanations": {
+            "B": "Phương án «再現像» không phù hợp với dữ kiện hoặc cấu trúc của câu. 再現（さいげん） là tạo lại cùng một kết quả trong cùng điều kiện. Nhóm nghiên cứu đang kiểm tra xem thí nghiệm có thể lặp lại hay không.",
+            "C": "Phương án «再建» không phù hợp với dữ kiện hoặc cấu trúc của câu. 再現（さいげん） là tạo lại cùng một kết quả trong cùng điều kiện. Nhóm nghiên cứu đang kiểm tra xem thí nghiệm có thể lặp lại hay không.",
+            "D": "Phương án «再現性» không phù hợp với dữ kiện hoặc cấu trúc của câu. 再現（さいげん） là tạo lại cùng một kết quả trong cùng điều kiện. Nhóm nghiên cứu đang kiểm tra xem thí nghiệm có thể lặp lại hay không."
+          },
+          "topicTag": "education-media",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge",
+          "readingTarget": "さいげん"
+        },
+        {
+          "id": "N2_13_M2_05",
+          "level": "N2",
+          "typeId": "N2-MO-ORTH",
+          "category": "表記",
+          "stem": "授業の改善には、学生の【しゅたいてき】な参加が欠かせない。",
+          "options": [
+            {
+              "id": "A",
+              "text": "主観的"
+            },
+            {
+              "id": "B",
+              "text": "主体的"
+            },
+            {
+              "id": "C",
+              "text": "集中的"
+            },
+            {
+              "id": "D",
+              "text": "周辺的"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "正解は「主体的」です。",
+          "explanationVi": "主体的（しゅたいてき） mô tả việc tự mình chủ động hành động. Câu nhấn mạnh sinh viên cần tích cực tham gia bằng ý chí của mình.",
+          "distractorExplanations": {
+            "A": "Phương án «主観的» không phù hợp với dữ kiện hoặc cấu trúc của câu. 主体的（しゅたいてき） mô tả việc tự mình chủ động hành động. Câu nhấn mạnh sinh viên cần tích cực tham gia bằng ý chí của mình.",
+            "C": "Phương án «集中的» không phù hợp với dữ kiện hoặc cấu trúc của câu. 主体的（しゅたいてき） mô tả việc tự mình chủ động hành động. Câu nhấn mạnh sinh viên cần tích cực tham gia bằng ý chí của mình.",
+            "D": "Phương án «周辺的» không phù hợp với dữ kiện hoặc cấu trúc của câu. 主体的（しゅたいてき） mô tả việc tự mình chủ động hành động. Câu nhấn mạnh sinh viên cần tích cực tham gia bằng ý chí của mình."
+          },
+          "topicTag": "education-media",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge",
+          "readingTarget": "しゅたいてき"
+        },
+        {
+          "id": "N2_13_M3_01",
+          "level": "N2",
+          "typeId": "N2-MO-FORM",
+          "category": "語形成",
+          "stem": "大学は、別々のサーバーに保存された資料を学内ポータルの一つの検索窓から探せるよう、検索先の【　】を進めている。",
+          "options": [
+            {
+              "id": "A",
+              "text": "標準化"
+            },
+            {
+              "id": "B",
+              "text": "電子化"
+            },
+            {
+              "id": "C",
+              "text": "分散化"
+            },
+            {
+              "id": "D",
+              "text": "一元化"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "正解は「一元化」です。",
+          "explanationVi": "一元化 là tập trung nhiều nguồn vào một đầu mối; ở đây là tìm tài liệu trên nhiều máy chủ qua một ô tìm kiếm. 電子化 là số hóa, 標準化 là chuẩn hóa, còn 分散化 là phân tán nên không diễn tả việc gom về một đầu mối.",
+          "distractorExplanations": {
+            "A": "Phương án «標準化» không phù hợp với dữ kiện hoặc cấu trúc của câu. 一元化 là tập trung nhiều nguồn vào một đầu mối; ở đây là tìm tài liệu trên nhiều máy chủ qua một ô tìm kiếm. 電子化 là số hóa, 標準化 là chuẩn hóa, còn 分散化 là phân tán nên không diễn tả việc gom về một đầu mối.",
+            "B": "Phương án «電子化» không phù hợp với dữ kiện hoặc cấu trúc của câu. 一元化 là tập trung nhiều nguồn vào một đầu mối; ở đây là tìm tài liệu trên nhiều máy chủ qua một ô tìm kiếm. 電子化 là số hóa, 標準化 là chuẩn hóa, còn 分散化 là phân tán nên không diễn tả việc gom về một đầu mối.",
+            "C": "Phương án «分散化» không phù hợp với dữ kiện hoặc cấu trúc của câu. 一元化 là tập trung nhiều nguồn vào một đầu mối; ở đây là tìm tài liệu trên nhiều máy chủ qua một ô tìm kiếm. 電子化 là số hóa, 標準化 là chuẩn hóa, còn 分散化 là phân tán nên không diễn tả việc gom về một đầu mối."
+          },
+          "topicTag": "learning-technology",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_13_M3_02",
+          "level": "N2",
+          "typeId": "N2-MO-FORM",
+          "category": "語形成",
+          "stem": "答案に見られた誤りを、知識不足・設問の読み違い・時間不足の三つに【　】し、原因に合わせて対策を立てた。",
+          "options": [
+            {
+              "id": "A",
+              "text": "分類"
+            },
+            {
+              "id": "B",
+              "text": "分析"
+            },
+            {
+              "id": "C",
+              "text": "集計"
+            },
+            {
+              "id": "D",
+              "text": "比較"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "正解は「分類」です。",
+          "explanationVi": "分類 là xếp các nội dung vào nhóm theo đặc điểm chung. Bài yêu cầu chia lỗi bài làm theo ba nguyên nhân để chọn cách hỗ trợ phù hợp.",
+          "distractorExplanations": {
+            "B": "Phương án «分析» không phù hợp với dữ kiện hoặc cấu trúc của câu. 分類 là xếp các nội dung vào nhóm theo đặc điểm chung. Bài yêu cầu chia lỗi bài làm theo ba nguyên nhân để chọn cách hỗ trợ phù hợp.",
+            "C": "Phương án «集計» không phù hợp với dữ kiện hoặc cấu trúc của câu. 分類 là xếp các nội dung vào nhóm theo đặc điểm chung. Bài yêu cầu chia lỗi bài làm theo ba nguyên nhân để chọn cách hỗ trợ phù hợp.",
+            "D": "Phương án «比較» không phù hợp với dữ kiện hoặc cấu trúc của câu. 分類 là xếp các nội dung vào nhóm theo đặc điểm chung. Bài yêu cầu chia lỗi bài làm theo ba nguyên nhân để chọn cách hỗ trợ phù hợp."
+          },
+          "topicTag": "learning-technology",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_13_M3_03",
+          "level": "N2",
+          "typeId": "N2-MO-FORM",
+          "category": "語形成",
+          "stem": "授業動画の字幕は、専門用語の意味を理解しやすくし、学習の進行を【　】する効果がある。",
+          "options": [
+            {
+              "id": "A",
+              "text": "阻害"
+            },
+            {
+              "id": "B",
+              "text": "遅延"
+            },
+            {
+              "id": "C",
+              "text": "促進"
+            },
+            {
+              "id": "D",
+              "text": "抑制"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "正解は「促進」です。",
+          "explanationVi": "促進 là thúc đẩy một quá trình tiến triển. Phụ đề giúp người học nắm nghĩa thuật ngữ và làm cho việc học tiến triển thuận lợi hơn.",
+          "distractorExplanations": {
+            "A": "Phương án «阻害» không phù hợp với dữ kiện hoặc cấu trúc của câu. 促進 là thúc đẩy một quá trình tiến triển. Phụ đề giúp người học nắm nghĩa thuật ngữ và làm cho việc học tiến triển thuận lợi hơn.",
+            "B": "Phương án «遅延» không phù hợp với dữ kiện hoặc cấu trúc của câu. 促進 là thúc đẩy một quá trình tiến triển. Phụ đề giúp người học nắm nghĩa thuật ngữ và làm cho việc học tiến triển thuận lợi hơn.",
+            "D": "Phương án «抑制» không phù hợp với dữ kiện hoặc cấu trúc của câu. 促進 là thúc đẩy một quá trình tiến triển. Phụ đề giúp người học nắm nghĩa thuật ngữ và làm cho việc học tiến triển thuận lợi hơn."
+          },
+          "topicTag": "learning-technology",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_13_M3_04",
+          "level": "N2",
+          "typeId": "N2-MO-FORM",
+          "category": "語形成",
+          "stem": "資料と原文を【　】し、数字や固有名詞の転記ミスがないか調べた。",
+          "options": [
+            {
+              "id": "A",
+              "text": "照合"
+            },
+            {
+              "id": "B",
+              "text": "集計"
+            },
+            {
+              "id": "C",
+              "text": "掲載"
+            },
+            {
+              "id": "D",
+              "text": "要約"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "正解は「照合」です。",
+          "explanationVi": "照合 là đặt hai nguồn cạnh nhau để kiểm tra chúng có khớp không. So sánh tài liệu với nguyên bản giúp phát hiện lỗi chép số liệu hoặc tên riêng.",
+          "distractorExplanations": {
+            "B": "Phương án «集計» không phù hợp với dữ kiện hoặc cấu trúc của câu. 照合 là đặt hai nguồn cạnh nhau để kiểm tra chúng có khớp không. So sánh tài liệu với nguyên bản giúp phát hiện lỗi chép số liệu hoặc tên riêng.",
+            "C": "Phương án «掲載» không phù hợp với dữ kiện hoặc cấu trúc của câu. 照合 là đặt hai nguồn cạnh nhau để kiểm tra chúng có khớp không. So sánh tài liệu với nguyên bản giúp phát hiện lỗi chép số liệu hoặc tên riêng.",
+            "D": "Phương án «要約» không phù hợp với dữ kiện hoặc cấu trúc của câu. 照合 là đặt hai nguồn cạnh nhau để kiểm tra chúng có khớp không. So sánh tài liệu với nguyên bản giúp phát hiện lỗi chép số liệu hoặc tên riêng."
+          },
+          "topicTag": "learning-technology",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_13_M3_05",
+          "level": "N2",
+          "typeId": "N2-MO-FORM",
+          "category": "語形成",
+          "stem": "原文の意図を取り違えて、別の意味にしてしまう【　】は、自動翻訳でも起こりうる。",
+          "options": [
+            {
+              "id": "A",
+              "text": "直訳"
+            },
+            {
+              "id": "B",
+              "text": "和訳"
+            },
+            {
+              "id": "C",
+              "text": "意訳"
+            },
+            {
+              "id": "D",
+              "text": "誤訳"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "正解は「誤訳」です。",
+          "explanationVi": "誤訳 là lỗi dịch làm sai ý của nguyên bản. Câu mô tả việc hiểu nhầm chủ ý rồi truyền đạt thành một nghĩa khác; 意訳, 直訳 và 和訳 tự chúng không có nghĩa là dịch sai.",
+          "distractorExplanations": {
+            "A": "Phương án «直訳» không phù hợp với dữ kiện hoặc cấu trúc của câu. 誤訳 là lỗi dịch làm sai ý của nguyên bản. Câu mô tả việc hiểu nhầm chủ ý rồi truyền đạt thành một nghĩa khác; 意訳, 直訳 và 和訳 tự chúng không có nghĩa là dịch sai.",
+            "B": "Phương án «和訳» không phù hợp với dữ kiện hoặc cấu trúc của câu. 誤訳 là lỗi dịch làm sai ý của nguyên bản. Câu mô tả việc hiểu nhầm chủ ý rồi truyền đạt thành một nghĩa khác; 意訳, 直訳 và 和訳 tự chúng không có nghĩa là dịch sai.",
+            "C": "Phương án «意訳» không phù hợp với dữ kiện hoặc cấu trúc của câu. 誤訳 là lỗi dịch làm sai ý của nguyên bản. Câu mô tả việc hiểu nhầm chủ ý rồi truyền đạt thành một nghĩa khác; 意訳, 直訳 và 和訳 tự chúng không có nghĩa là dịch sai."
+          },
+          "topicTag": "learning-technology",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_13_M4_01",
+          "level": "N2",
+          "typeId": "N2-MO-CONT",
+          "category": "文脈規定",
+          "stem": "この調査では、回答者の年齢や専攻を【　】して結果を分析した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "考察"
+            },
+            {
+              "id": "B",
+              "text": "考案"
+            },
+            {
+              "id": "C",
+              "text": "考慮"
+            },
+            {
+              "id": "D",
+              "text": "推測"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "正解は「考慮」です。",
+          "explanationVi": "考慮する nghĩa là cân nhắc và tính một yếu tố vào quyết định. Tuổi và chuyên ngành được đưa vào khi phân tích kết quả.",
+          "distractorExplanations": {
+            "A": "Phương án «考察» không phù hợp với dữ kiện hoặc cấu trúc của câu. 考慮する nghĩa là cân nhắc và tính một yếu tố vào quyết định. Tuổi và chuyên ngành được đưa vào khi phân tích kết quả.",
+            "B": "Phương án «考案» không phù hợp với dữ kiện hoặc cấu trúc của câu. 考慮する nghĩa là cân nhắc và tính một yếu tố vào quyết định. Tuổi và chuyên ngành được đưa vào khi phân tích kết quả.",
+            "D": "Phương án «推測» không phù hợp với dữ kiện hoặc cấu trúc của câu. 考慮する nghĩa là cân nhắc và tính một yếu tố vào quyết định. Tuổi và chuyên ngành được đưa vào khi phân tích kết quả."
+          },
+          "topicTag": "media-literacy",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_13_M4_02",
+          "level": "N2",
+          "typeId": "N2-MO-CONT",
+          "category": "文脈規定",
+          "stem": "編集部は、記事の見出しが本文の内容を正確に【　】しているか確認した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "反映"
+            },
+            {
+              "id": "B",
+              "text": "反応"
+            },
+            {
+              "id": "C",
+              "text": "反省"
+            },
+            {
+              "id": "D",
+              "text": "反発"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "正解は「反映」です。",
+          "explanationVi": "反映する nghĩa là thể hiện nội dung hoặc trạng thái ở một thứ khác. Ban biên tập kiểm tra xem tiêu đề có phản ánh đúng bài viết không.",
+          "distractorExplanations": {
+            "B": "Phương án «反応» không phù hợp với dữ kiện hoặc cấu trúc của câu. 反映する nghĩa là thể hiện nội dung hoặc trạng thái ở một thứ khác. Ban biên tập kiểm tra xem tiêu đề có phản ánh đúng bài viết không.",
+            "C": "Phương án «反省» không phù hợp với dữ kiện hoặc cấu trúc của câu. 反映する nghĩa là thể hiện nội dung hoặc trạng thái ở một thứ khác. Ban biên tập kiểm tra xem tiêu đề có phản ánh đúng bài viết không.",
+            "D": "Phương án «反発» không phù hợp với dữ kiện hoặc cấu trúc của câu. 反映する nghĩa là thể hiện nội dung hoặc trạng thái ở một thứ khác. Ban biên tập kiểm tra xem tiêu đề có phản ánh đúng bài viết không."
+          },
+          "topicTag": "media-literacy",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_13_M4_03",
+          "level": "N2",
+          "typeId": "N2-MO-CONT",
+          "category": "文脈規定",
+          "stem": "研究データの一部に誤りが見つかり、論文の公開はいったん【　】。",
+          "options": [
+            {
+              "id": "A",
+              "text": "見習われた"
+            },
+            {
+              "id": "B",
+              "text": "見届けられた"
+            },
+            {
+              "id": "C",
+              "text": "見送られた"
+            },
+            {
+              "id": "D",
+              "text": "見逃された"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "正解は「見送られた」です。",
+          "explanationVi": "見送る ở đây nghĩa là tạm hoãn hoặc chưa thực hiện kế hoạch. Bài nghiên cứu chưa được công bố sau khi phát hiện lỗi.",
+          "distractorExplanations": {
+            "A": "Phương án «見習われた» không phù hợp với dữ kiện hoặc cấu trúc của câu. 見送る ở đây nghĩa là tạm hoãn hoặc chưa thực hiện kế hoạch. Bài nghiên cứu chưa được công bố sau khi phát hiện lỗi.",
+            "B": "Phương án «見届けられた» không phù hợp với dữ kiện hoặc cấu trúc của câu. 見送る ở đây nghĩa là tạm hoãn hoặc chưa thực hiện kế hoạch. Bài nghiên cứu chưa được công bố sau khi phát hiện lỗi.",
+            "D": "Phương án «見逃された» không phù hợp với dữ kiện hoặc cấu trúc của câu. 見送る ở đây nghĩa là tạm hoãn hoặc chưa thực hiện kế hoạch. Bài nghiên cứu chưa được công bố sau khi phát hiện lỗi."
+          },
+          "topicTag": "media-literacy",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_13_M4_04",
+          "level": "N2",
+          "typeId": "N2-MO-CONT",
+          "category": "文脈規定",
+          "stem": "アプリを選ぶ前に、利用規約と個人情報の扱いを【　】しておこう。",
+          "options": [
+            {
+              "id": "A",
+              "text": "確保"
+            },
+            {
+              "id": "B",
+              "text": "確信"
+            },
+            {
+              "id": "C",
+              "text": "確定"
+            },
+            {
+              "id": "D",
+              "text": "確認"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "正解は「確認」です。",
+          "explanationVi": "確認する là kiểm tra để biết nội dung có chính xác hay không. Câu khuyên đọc kỹ quy định và cách xử lý dữ liệu cá nhân.",
+          "distractorExplanations": {
+            "A": "Phương án «確保» không phù hợp với dữ kiện hoặc cấu trúc của câu. 確認する là kiểm tra để biết nội dung có chính xác hay không. Câu khuyên đọc kỹ quy định và cách xử lý dữ liệu cá nhân.",
+            "B": "Phương án «確信» không phù hợp với dữ kiện hoặc cấu trúc của câu. 確認する là kiểm tra để biết nội dung có chính xác hay không. Câu khuyên đọc kỹ quy định và cách xử lý dữ liệu cá nhân.",
+            "C": "Phương án «確定» không phù hợp với dữ kiện hoặc cấu trúc của câu. 確認する là kiểm tra để biết nội dung có chính xác hay không. Câu khuyên đọc kỹ quy định và cách xử lý dữ liệu cá nhân."
+          },
+          "topicTag": "media-literacy",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_13_M4_05",
+          "level": "N2",
+          "typeId": "N2-MO-CONT",
+          "category": "文脈規定",
+          "stem": "発言の一部だけを切り取ると、話し手の意図が【　】ことがある。",
+          "options": [
+            {
+              "id": "A",
+              "text": "整えられる"
+            },
+            {
+              "id": "B",
+              "text": "補われる"
+            },
+            {
+              "id": "C",
+              "text": "受け継がれる"
+            },
+            {
+              "id": "D",
+              "text": "損なわれる"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "正解は「損なわれる」です。",
+          "explanationVi": "損なう nghĩa là làm tổn hại hoặc làm mất đi giá trị, trạng thái vốn có. Cắt rời phát ngôn có thể khiến ý định của người nói bị sai lệch.",
+          "distractorExplanations": {
+            "A": "Phương án «整えられる» không phù hợp với dữ kiện hoặc cấu trúc của câu. 損なう nghĩa là làm tổn hại hoặc làm mất đi giá trị, trạng thái vốn có. Cắt rời phát ngôn có thể khiến ý định của người nói bị sai lệch.",
+            "B": "Phương án «補われる» không phù hợp với dữ kiện hoặc cấu trúc của câu. 損なう nghĩa là làm tổn hại hoặc làm mất đi giá trị, trạng thái vốn có. Cắt rời phát ngôn có thể khiến ý định của người nói bị sai lệch.",
+            "C": "Phương án «受け継がれる» không phù hợp với dữ kiện hoặc cấu trúc của câu. 損なう nghĩa là làm tổn hại hoặc làm mất đi giá trị, trạng thái vốn có. Cắt rời phát ngôn có thể khiến ý định của người nói bị sai lệch."
+          },
+          "topicTag": "media-literacy",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_13_M4_06",
+          "level": "N2",
+          "typeId": "N2-MO-CONT",
+          "category": "文脈規定",
+          "stem": "教授は、結論を急がず別の説明も【　】するよう学生に求めた。",
+          "options": [
+            {
+              "id": "A",
+              "text": "検査"
+            },
+            {
+              "id": "B",
+              "text": "検討"
+            },
+            {
+              "id": "C",
+              "text": "検索"
+            },
+            {
+              "id": "D",
+              "text": "研修"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "正解は「検討」です。",
+          "explanationVi": "検討する là xem xét kỹ nhiều khả năng hoặc phương án. Giáo sư yêu cầu sinh viên cân nhắc một cách giải thích khác.",
+          "distractorExplanations": {
+            "A": "Phương án «検査» không phù hợp với dữ kiện hoặc cấu trúc của câu. 検討する là xem xét kỹ nhiều khả năng hoặc phương án. Giáo sư yêu cầu sinh viên cân nhắc một cách giải thích khác.",
+            "C": "Phương án «検索» không phù hợp với dữ kiện hoặc cấu trúc của câu. 検討する là xem xét kỹ nhiều khả năng hoặc phương án. Giáo sư yêu cầu sinh viên cân nhắc một cách giải thích khác.",
+            "D": "Phương án «研修» không phù hợp với dữ kiện hoặc cấu trúc của câu. 検討する là xem xét kỹ nhiều khả năng hoặc phương án. Giáo sư yêu cầu sinh viên cân nhắc một cách giải thích khác."
+          },
+          "topicTag": "media-literacy",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_13_M4_07",
+          "level": "N2",
+          "typeId": "N2-MO-CONT",
+          "category": "文脈規定",
+          "stem": "授業用のサイトは、初めて使う学生にも操作しやすいよう【　】されている。",
+          "options": [
+            {
+              "id": "A",
+              "text": "配属"
+            },
+            {
+              "id": "B",
+              "text": "配置"
+            },
+            {
+              "id": "C",
+              "text": "配布"
+            },
+            {
+              "id": "D",
+              "text": "配慮"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "正解は「配慮」です。",
+          "explanationVi": "配慮 là quan tâm đến hoàn cảnh của người khác khi thiết kế hay hành động. Trang học được làm dễ dùng cho sinh viên mới.",
+          "distractorExplanations": {
+            "A": "Phương án «配属» không phù hợp với dữ kiện hoặc cấu trúc của câu. 配慮 là quan tâm đến hoàn cảnh của người khác khi thiết kế hay hành động. Trang học được làm dễ dùng cho sinh viên mới.",
+            "B": "Phương án «配置» không phù hợp với dữ kiện hoặc cấu trúc của câu. 配慮 là quan tâm đến hoàn cảnh của người khác khi thiết kế hay hành động. Trang học được làm dễ dùng cho sinh viên mới.",
+            "C": "Phương án «配布» không phù hợp với dữ kiện hoặc cấu trúc của câu. 配慮 là quan tâm đến hoàn cảnh của người khác khi thiết kế hay hành động. Trang học được làm dễ dùng cho sinh viên mới."
+          },
+          "topicTag": "media-literacy",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_13_M5_01",
+          "level": "N2",
+          "typeId": "N2-MO-PARA",
+          "category": "言い換え",
+          "stem": "研究の再現性を確保するには、手順を【明記】することが重要だ。",
+          "options": [
+            {
+              "id": "A",
+              "text": "簡潔に省略する"
+            },
+            {
+              "id": "B",
+              "text": "はっきり書き記す"
+            },
+            {
+              "id": "C",
+              "text": "口頭だけで伝える"
+            },
+            {
+              "id": "D",
+              "text": "結果を先に決める"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "正解は「はっきり書き記す」です。",
+          "explanationVi": "明記する nghĩa là viết rõ ràng để người đọc có thể xác nhận. Ghi cụ thể các bước giúp người khác kiểm chứng cách làm.",
+          "distractorExplanations": {
+            "A": "Phương án «簡潔に省略する» không phù hợp với dữ kiện hoặc cấu trúc của câu. 明記する nghĩa là viết rõ ràng để người đọc có thể xác nhận. Ghi cụ thể các bước giúp người khác kiểm chứng cách làm.",
+            "C": "Phương án «口頭だけで伝える» không phù hợp với dữ kiện hoặc cấu trúc của câu. 明記する nghĩa là viết rõ ràng để người đọc có thể xác nhận. Ghi cụ thể các bước giúp người khác kiểm chứng cách làm.",
+            "D": "Phương án «結果を先に決める» không phù hợp với dữ kiện hoặc cấu trúc của câu. 明記する nghĩa là viết rõ ràng để người đọc có thể xác nhận. Ghi cụ thể các bước giúp người khác kiểm chứng cách làm."
+          },
+          "topicTag": "academic-communication",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_13_M5_02",
+          "level": "N2",
+          "typeId": "N2-MO-PARA",
+          "category": "言い換え",
+          "stem": "学生の意見を【踏まえて】、次年度の講義計画を見直した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "先回りして"
+            },
+            {
+              "id": "B",
+              "text": "誇張して"
+            },
+            {
+              "id": "C",
+              "text": "参考にして"
+            },
+            {
+              "id": "D",
+              "text": "無視して"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "正解は「参考にして」です。",
+          "explanationVi": "踏まえて nghĩa là dựa trên hoặc cân nhắc thông tin đã có. Kế hoạch bài giảng được sửa sau khi tính đến ý kiến sinh viên.",
+          "distractorExplanations": {
+            "A": "Phương án «先回りして» không phù hợp với dữ kiện hoặc cấu trúc của câu. 踏まえて nghĩa là dựa trên hoặc cân nhắc thông tin đã có. Kế hoạch bài giảng được sửa sau khi tính đến ý kiến sinh viên.",
+            "B": "Phương án «誇張して» không phù hợp với dữ kiện hoặc cấu trúc của câu. 踏まえて nghĩa là dựa trên hoặc cân nhắc thông tin đã có. Kế hoạch bài giảng được sửa sau khi tính đến ý kiến sinh viên.",
+            "D": "Phương án «無視して» không phù hợp với dữ kiện hoặc cấu trúc của câu. 踏まえて nghĩa là dựa trên hoặc cân nhắc thông tin đã có. Kế hoạch bài giảng được sửa sau khi tính đến ý kiến sinh viên."
+          },
+          "topicTag": "academic-communication",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_13_M5_03",
+          "level": "N2",
+          "typeId": "N2-MO-PARA",
+          "category": "言い換え",
+          "stem": "誤りが広がる前に、運営側は投稿を【訂正】した。",
+          "options": [
+            {
+              "id": "A",
+              "text": "いったん隠した"
+            },
+            {
+              "id": "B",
+              "text": "別の場所へ移した"
+            },
+            {
+              "id": "C",
+              "text": "正しい内容に改めた"
+            },
+            {
+              "id": "D",
+              "text": "短くまとめ直した"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "正解は「正しい内容に改めた」です。",
+          "explanationVi": "訂正 là sửa nội dung sai thành nội dung đúng. Người quản lý chỉnh lại bài đăng trước khi thông tin sai lan rộng.",
+          "distractorExplanations": {
+            "A": "Phương án «いったん隠した» không phù hợp với dữ kiện hoặc cấu trúc của câu. 訂正 là sửa nội dung sai thành nội dung đúng. Người quản lý chỉnh lại bài đăng trước khi thông tin sai lan rộng.",
+            "B": "Phương án «別の場所へ移した» không phù hợp với dữ kiện hoặc cấu trúc của câu. 訂正 là sửa nội dung sai thành nội dung đúng. Người quản lý chỉnh lại bài đăng trước khi thông tin sai lan rộng.",
+            "D": "Phương án «短くまとめ直した» không phù hợp với dữ kiện hoặc cấu trúc của câu. 訂正 là sửa nội dung sai thành nội dung đúng. Người quản lý chỉnh lại bài đăng trước khi thông tin sai lan rộng."
+          },
+          "topicTag": "academic-communication",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_13_M5_04",
+          "level": "N2",
+          "typeId": "N2-MO-PARA",
+          "category": "言い換え",
+          "stem": "講義の要点を【把握】してから、質問をまとめてください。",
+          "options": [
+            {
+              "id": "A",
+              "text": "資料を配る"
+            },
+            {
+              "id": "B",
+              "text": "全体を理解する"
+            },
+            {
+              "id": "C",
+              "text": "発言を記録する"
+            },
+            {
+              "id": "D",
+              "text": "一部を暗記する"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "正解は「全体を理解する」です。",
+          "explanationVi": "把握する là nắm được nội dung tổng thể hoặc các điểm chính. Người học cần hiểu trọng tâm bài giảng trước khi tổng hợp câu hỏi.",
+          "distractorExplanations": {
+            "A": "Phương án «資料を配る» không phù hợp với dữ kiện hoặc cấu trúc của câu. 把握する là nắm được nội dung tổng thể hoặc các điểm chính. Người học cần hiểu trọng tâm bài giảng trước khi tổng hợp câu hỏi.",
+            "C": "Phương án «発言を記録する» không phù hợp với dữ kiện hoặc cấu trúc của câu. 把握する là nắm được nội dung tổng thể hoặc các điểm chính. Người học cần hiểu trọng tâm bài giảng trước khi tổng hợp câu hỏi.",
+            "D": "Phương án «一部を暗記する» không phù hợp với dữ kiện hoặc cấu trúc của câu. 把握する là nắm được nội dung tổng thể hoặc các điểm chính. Người học cần hiểu trọng tâm bài giảng trước khi tổng hợp câu hỏi."
+          },
+          "topicTag": "academic-communication",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_13_M5_05",
+          "level": "N2",
+          "typeId": "N2-MO-PARA",
+          "category": "言い換え",
+          "stem": "利用者の声を受けて、検索画面の表示が【改善】された。",
+          "options": [
+            {
+              "id": "A",
+              "text": "前の状態に戻された"
+            },
+            {
+              "id": "B",
+              "text": "一部の人にだけ公開された"
+            },
+            {
+              "id": "C",
+              "text": "別の機能に置き換えられた"
+            },
+            {
+              "id": "D",
+              "text": "より使いやすく改められた"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "正解は「より使いやすく改められた」です。",
+          "explanationVi": "改善 là sửa vấn đề để tình trạng trở nên tốt hơn. Màn hình tìm kiếm được điều chỉnh để dễ sử dụng hơn.",
+          "distractorExplanations": {
+            "A": "Phương án «前の状態に戻された» không phù hợp với dữ kiện hoặc cấu trúc của câu. 改善 là sửa vấn đề để tình trạng trở nên tốt hơn. Màn hình tìm kiếm được điều chỉnh để dễ sử dụng hơn.",
+            "B": "Phương án «一部の人にだけ公開された» không phù hợp với dữ kiện hoặc cấu trúc của câu. 改善 là sửa vấn đề để tình trạng trở nên tốt hơn. Màn hình tìm kiếm được điều chỉnh để dễ sử dụng hơn.",
+            "C": "Phương án «別の機能に置き換えられた» không phù hợp với dữ kiện hoặc cấu trúc của câu. 改善 là sửa vấn đề để tình trạng trở nên tốt hơn. Màn hình tìm kiếm được điều chỉnh để dễ sử dụng hơn."
+          },
+          "topicTag": "academic-communication",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_13_M6_01",
+          "level": "N2",
+          "typeId": "N2-MO-USE",
+          "category": "用法",
+          "stem": "新しい資料を公開する前に、個人情報が含まれていないか慎重に確認した。「慎重に確認した」とはどういうことか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "別の人に判断を任せ、自分では内容を見なかった。"
+            },
+            {
+              "id": "B",
+              "text": "誤りや問題を避けるため、注意を払いながら確かめた。"
+            },
+            {
+              "id": "C",
+              "text": "細かい点を気にせず、短時間で大まかに見た。"
+            },
+            {
+              "id": "D",
+              "text": "確認する時期を遅らせるため、後日に回した。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "正解は「誤りや問題を避けるため、注意を払いながら確かめた。」です。",
+          "explanationVi": "慎重に確認する nghĩa là kiểm tra cẩn thận để tránh sai sót hoặc rủi ro. Tài liệu được rà soát trước khi công bố để không lộ thông tin cá nhân.",
+          "distractorExplanations": {
+            "A": "Phương án «別の人に判断を任せ、自分では内容を見なかった。» không phù hợp với dữ kiện hoặc cấu trúc của câu. 慎重に確認する nghĩa là kiểm tra cẩn thận để tránh sai sót hoặc rủi ro. Tài liệu được rà soát trước khi công bố để không lộ thông tin cá nhân.",
+            "C": "Phương án «細かい点を気にせず、短時間で大まかに見た。» không phù hợp với dữ kiện hoặc cấu trúc của câu. 慎重に確認する nghĩa là kiểm tra cẩn thận để tránh sai sót hoặc rủi ro. Tài liệu được rà soát trước khi công bố để không lộ thông tin cá nhân.",
+            "D": "Phương án «確認する時期を遅らせるため、後日に回した。» không phù hợp với dữ kiện hoặc cấu trúc của câu. 慎重に確認する nghĩa là kiểm tra cẩn thận để tránh sai sót hoặc rủi ro. Tài liệu được rà soát trước khi công bố để không lộ thông tin cá nhân."
+          },
+          "topicTag": "academic-communication",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_13_M6_02",
+          "level": "N2",
+          "typeId": "N2-MO-USE",
+          "category": "用法",
+          "stem": "参加者は前回より増えると見込んで、会場を広めに予約した。「見込んで」とはどういうことか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "実際に参加者が増えたことを確認して。"
+            },
+            {
+              "id": "B",
+              "text": "参加者数が増えるだろうと予測して。"
+            },
+            {
+              "id": "C",
+              "text": "前回と同じ人数になるよう調整して。"
+            },
+            {
+              "id": "D",
+              "text": "参加者数を増やす目的で告知して。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "正解は「参加者数が増えるだろうと予測して。」です。",
+          "explanationVi": "見込む trong câu này là dự đoán điều sẽ xảy ra. Người tổ chức dự tính số người tham gia tăng nên đặt phòng rộng hơn.",
+          "distractorExplanations": {
+            "A": "Phương án «実際に参加者が増えたことを確認して。» không phù hợp với dữ kiện hoặc cấu trúc của câu. 見込む trong câu này là dự đoán điều sẽ xảy ra. Người tổ chức dự tính số người tham gia tăng nên đặt phòng rộng hơn.",
+            "C": "Phương án «前回と同じ人数になるよう調整して。» không phù hợp với dữ kiện hoặc cấu trúc của câu. 見込む trong câu này là dự đoán điều sẽ xảy ra. Người tổ chức dự tính số người tham gia tăng nên đặt phòng rộng hơn.",
+            "D": "Phương án «参加者数を増やす目的で告知して。» không phù hợp với dữ kiện hoặc cấu trúc của câu. 見込む trong câu này là dự đoán điều sẽ xảy ra. Người tổ chức dự tính số người tham gia tăng nên đặt phòng rộng hơn."
+          },
+          "topicTag": "academic-communication",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_13_M6_03",
+          "level": "N2",
+          "typeId": "N2-MO-USE",
+          "category": "用法",
+          "stem": "学生の理解度に応じて、補足資料の量を変えている。「理解度に応じて」とはどういうことか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "学生から求められた量をそのまま配って。"
+            },
+            {
+              "id": "B",
+              "text": "理解度の違いに合わせて資料の量を調整して。"
+            },
+            {
+              "id": "C",
+              "text": "理解度にかかわらず全員に同じ量を決めて。"
+            },
+            {
+              "id": "D",
+              "text": "教員の好みに合わせて量を変更して。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "正解は「理解度の違いに合わせて資料の量を調整して。」です。",
+          "explanationVi": "～に応じて nghĩa là điều chỉnh cách xử lý theo một điều kiện hoặc mức độ. Lượng tài liệu được thay đổi theo mức độ hiểu bài của sinh viên.",
+          "distractorExplanations": {
+            "A": "Phương án «学生から求められた量をそのまま配って。» không phù hợp với dữ kiện hoặc cấu trúc của câu. ～に応じて nghĩa là điều chỉnh cách xử lý theo một điều kiện hoặc mức độ. Lượng tài liệu được thay đổi theo mức độ hiểu bài của sinh viên.",
+            "C": "Phương án «理解度にかかわらず全員に同じ量を決めて。» không phù hợp với dữ kiện hoặc cấu trúc của câu. ～に応じて nghĩa là điều chỉnh cách xử lý theo một điều kiện hoặc mức độ. Lượng tài liệu được thay đổi theo mức độ hiểu bài của sinh viên.",
+            "D": "Phương án «教員の好みに合わせて量を変更して。» không phù hợp với dữ kiện hoặc cấu trúc của câu. ～に応じて nghĩa là điều chỉnh cách xử lý theo một điều kiện hoặc mức độ. Lượng tài liệu được thay đổi theo mức độ hiểu bài của sinh viên."
+          },
+          "topicTag": "academic-communication",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_13_M6_04",
+          "level": "N2",
+          "typeId": "N2-MO-USE",
+          "category": "用法",
+          "stem": "図表だけでは伝わりにくい点を、本文の説明で補った。「補った」とはどういうことか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "図表に足りない説明を文章で加えた。"
+            },
+            {
+              "id": "B",
+              "text": "図表と重なる説明を削り、文章を短くした。"
+            },
+            {
+              "id": "C",
+              "text": "図表の数値の誤りを見つけ、正しい数字に直した。"
+            },
+            {
+              "id": "D",
+              "text": "図表を文章に置き換え、図を掲載しなかった。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "正解は「図表に足りない説明を文章で加えた。」です。",
+          "explanationVi": "補う là thêm phần còn thiếu để nội dung đầy đủ hơn. Phần giải thích bằng chữ bổ sung thông tin khó truyền đạt qua biểu đồ.",
+          "distractorExplanations": {
+            "B": "Phương án «図表と重なる説明を削り、文章を短くした。» không phù hợp với dữ kiện hoặc cấu trúc của câu. 補う là thêm phần còn thiếu để nội dung đầy đủ hơn. Phần giải thích bằng chữ bổ sung thông tin khó truyền đạt qua biểu đồ.",
+            "C": "Phương án «図表の数値の誤りを見つけ、正しい数字に直した。» không phù hợp với dữ kiện hoặc cấu trúc của câu. 補う là thêm phần còn thiếu để nội dung đầy đủ hơn. Phần giải thích bằng chữ bổ sung thông tin khó truyền đạt qua biểu đồ.",
+            "D": "Phương án «図表を文章に置き換え、図を掲載しなかった。» không phù hợp với dữ kiện hoặc cấu trúc của câu. 補う là thêm phần còn thiếu để nội dung đầy đủ hơn. Phần giải thích bằng chữ bổ sung thông tin khó truyền đạt qua biểu đồ."
+          },
+          "topicTag": "academic-communication",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_13_M6_05",
+          "level": "N2",
+          "typeId": "N2-MO-USE",
+          "category": "用法",
+          "stem": "重複している説明を省き、報告書を読みやすくした。「省き」とはどういうことか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "同じ内容を別の言い方で書き直した。"
+            },
+            {
+              "id": "B",
+              "text": "説明の順番を入れ替えた。"
+            },
+            {
+              "id": "C",
+              "text": "重なっている説明を取り除いた。"
+            },
+            {
+              "id": "D",
+              "text": "情報の根拠を新たに追加した。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "正解は「重なっている説明を取り除いた。」です。",
+          "explanationVi": "省く nghĩa là bỏ đi phần không cần thiết. Báo cáo được rút gọn bằng cách xóa phần giải thích bị lặp.",
+          "distractorExplanations": {
+            "A": "Phương án «同じ内容を別の言い方で書き直した。» không phù hợp với dữ kiện hoặc cấu trúc của câu. 省く nghĩa là bỏ đi phần không cần thiết. Báo cáo được rút gọn bằng cách xóa phần giải thích bị lặp.",
+            "B": "Phương án «説明の順番を入れ替えた。» không phù hợp với dữ kiện hoặc cấu trúc của câu. 省く nghĩa là bỏ đi phần không cần thiết. Báo cáo được rút gọn bằng cách xóa phần giải thích bị lặp.",
+            "D": "Phương án «情報の根拠を新たに追加した。» không phù hợp với dữ kiện hoặc cấu trúc của câu. 省く nghĩa là bỏ đi phần không cần thiết. Báo cáo được rút gọn bằng cách xóa phần giải thích bị lặp."
+          },
+          "topicTag": "academic-communication",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_13_M7_01",
+          "level": "N2",
+          "typeId": "N2-GR-FORM",
+          "category": "文法形式",
+          "stem": "引用した資料の出典を示さないまま、研究成果を公開する（　）。",
+          "options": [
+            {
+              "id": "A",
+              "text": "わけにはいかない"
+            },
+            {
+              "id": "B",
+              "text": "ところだった"
+            },
+            {
+              "id": "C",
+              "text": "にすぎない"
+            },
+            {
+              "id": "D",
+              "text": "にほかならない"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "正解は「わけにはいかない」です。",
+          "explanationVi": "わけにはいかない diễn tả việc không thể làm vì lý do đạo đức hoặc trách nhiệm. Không thể công bố kết quả nghiên cứu mà không ghi nguồn.",
+          "distractorExplanations": {
+            "B": "Phương án «ところだった» không phù hợp với dữ kiện hoặc cấu trúc của câu. わけにはいかない diễn tả việc không thể làm vì lý do đạo đức hoặc trách nhiệm. Không thể công bố kết quả nghiên cứu mà không ghi nguồn.",
+            "C": "Phương án «にすぎない» không phù hợp với dữ kiện hoặc cấu trúc của câu. わけにはいかない diễn tả việc không thể làm vì lý do đạo đức hoặc trách nhiệm. Không thể công bố kết quả nghiên cứu mà không ghi nguồn.",
+            "D": "Phương án «にほかならない» không phù hợp với dữ kiện hoặc cấu trúc của câu. わけにはいかない diễn tả việc không thể làm vì lý do đạo đức hoặc trách nhiệm. Không thể công bố kết quả nghiên cứu mà không ghi nguồn."
+          },
+          "topicTag": "grammar",
+          "difficultyBand": 3,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_13_M7_02",
+          "level": "N2",
+          "typeId": "N2-GR-FORM",
+          "category": "文法形式",
+          "stem": "このアプリは便利だが、利用者の声を聞かずに設計した（　）、操作で迷う人が多い。",
+          "options": [
+            {
+              "id": "A",
+              "text": "ついでに"
+            },
+            {
+              "id": "B",
+              "text": "ものなら"
+            },
+            {
+              "id": "C",
+              "text": "だけあって"
+            },
+            {
+              "id": "D",
+              "text": "ばかりに"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "正解は「ばかりに」です。",
+          "explanationVi": "ばかりに diễn tả nguyên nhân dẫn đến kết quả không mong muốn. Vì không hỏi ý kiến người dùng nên nhiều người lúng túng khi thao tác.",
+          "distractorExplanations": {
+            "A": "Phương án «ついでに» không phù hợp với dữ kiện hoặc cấu trúc của câu. ばかりに diễn tả nguyên nhân dẫn đến kết quả không mong muốn. Vì không hỏi ý kiến người dùng nên nhiều người lúng túng khi thao tác.",
+            "B": "Phương án «ものなら» không phù hợp với dữ kiện hoặc cấu trúc của câu. ばかりに diễn tả nguyên nhân dẫn đến kết quả không mong muốn. Vì không hỏi ý kiến người dùng nên nhiều người lúng túng khi thao tác.",
+            "C": "Phương án «だけあって» không phù hợp với dữ kiện hoặc cấu trúc của câu. ばかりに diễn tả nguyên nhân dẫn đến kết quả không mong muốn. Vì không hỏi ý kiến người dùng nên nhiều người lúng túng khi thao tác."
+          },
+          "topicTag": "grammar",
+          "difficultyBand": 3,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_13_M7_03",
+          "level": "N2",
+          "typeId": "N2-GR-FORM",
+          "category": "文法形式",
+          "stem": "講義を録画して学内に公開した（　）、欠席した学生が後から内容を確認できるようになった。",
+          "options": [
+            {
+              "id": "A",
+              "text": "に先立って"
+            },
+            {
+              "id": "B",
+              "text": "からといって"
+            },
+            {
+              "id": "C",
+              "text": "ものの"
+            },
+            {
+              "id": "D",
+              "text": "ことによって"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "正解は「ことによって」です。",
+          "explanationVi": "ことによって nêu phương tiện hoặc nguyên nhân tạo ra kết quả. Nhờ ghi hình và công bố bài giảng, sinh viên vắng mặt có thể xem lại.",
+          "distractorExplanations": {
+            "A": "Phương án «に先立って» không phù hợp với dữ kiện hoặc cấu trúc của câu. ことによって nêu phương tiện hoặc nguyên nhân tạo ra kết quả. Nhờ ghi hình và công bố bài giảng, sinh viên vắng mặt có thể xem lại.",
+            "B": "Phương án «からといって» không phù hợp với dữ kiện hoặc cấu trúc của câu. ことによって nêu phương tiện hoặc nguyên nhân tạo ra kết quả. Nhờ ghi hình và công bố bài giảng, sinh viên vắng mặt có thể xem lại.",
+            "C": "Phương án «ものの» không phù hợp với dữ kiện hoặc cấu trúc của câu. ことによって nêu phương tiện hoặc nguyên nhân tạo ra kết quả. Nhờ ghi hình và công bố bài giảng, sinh viên vắng mặt có thể xem lại."
+          },
+          "topicTag": "grammar",
+          "difficultyBand": 3,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_13_M7_04",
+          "level": "N2",
+          "typeId": "N2-GR-FORM",
+          "category": "文法形式",
+          "stem": "同じ資料でも、前後の文脈が示されているかどうか（　）、読者の受け取り方は変わる。",
+          "options": [
+            {
+              "id": "A",
+              "text": "かと思うと"
+            },
+            {
+              "id": "B",
+              "text": "にあたって"
+            },
+            {
+              "id": "C",
+              "text": "に違いなく"
+            },
+            {
+              "id": "D",
+              "text": "によって"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "正解は「によって」です。",
+          "explanationVi": "にしたがって diễn tả hai thay đổi xảy ra tương ứng. Khi bối cảnh được trình bày khác đi, cách người đọc hiểu tài liệu cũng thay đổi.",
+          "distractorExplanations": {
+            "A": "Phương án «かと思うと» không phù hợp với dữ kiện hoặc cấu trúc của câu. にしたがって diễn tả hai thay đổi xảy ra tương ứng. Khi bối cảnh được trình bày khác đi, cách người đọc hiểu tài liệu cũng thay đổi.",
+            "B": "Phương án «にあたって» không phù hợp với dữ kiện hoặc cấu trúc của câu. にしたがって diễn tả hai thay đổi xảy ra tương ứng. Khi bối cảnh được trình bày khác đi, cách người đọc hiểu tài liệu cũng thay đổi.",
+            "C": "Phương án «に違いなく» không phù hợp với dữ kiện hoặc cấu trúc của câu. にしたがって diễn tả hai thay đổi xảy ra tương ứng. Khi bối cảnh được trình bày khác đi, cách người đọc hiểu tài liệu cũng thay đổi."
+          },
+          "topicTag": "grammar",
+          "difficultyBand": 3,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_13_M7_05",
+          "level": "N2",
+          "typeId": "N2-GR-FORM",
+          "category": "文法形式",
+          "stem": "調査対象が少ない（　）といって、結果を無価値だと決めつけることはできない。",
+          "options": [
+            {
+              "id": "A",
+              "text": "以上"
+            },
+            {
+              "id": "B",
+              "text": "わりに"
+            },
+            {
+              "id": "C",
+              "text": "から"
+            },
+            {
+              "id": "D",
+              "text": "ことから"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "正解は「から」です。",
+          "explanationVi": "～からといって phủ định việc kết luận chỉ dựa trên một lý do. Mẫu khảo sát nhỏ không có nghĩa là kết quả hoàn toàn vô giá trị.",
+          "distractorExplanations": {
+            "A": "Phương án «以上» không phù hợp với dữ kiện hoặc cấu trúc của câu. ～からといって phủ định việc kết luận chỉ dựa trên một lý do. Mẫu khảo sát nhỏ không có nghĩa là kết quả hoàn toàn vô giá trị.",
+            "B": "Phương án «わりに» không phù hợp với dữ kiện hoặc cấu trúc của câu. ～からといって phủ định việc kết luận chỉ dựa trên một lý do. Mẫu khảo sát nhỏ không có nghĩa là kết quả hoàn toàn vô giá trị.",
+            "D": "Phương án «ことから» không phù hợp với dữ kiện hoặc cấu trúc của câu. ～からといって phủ định việc kết luận chỉ dựa trên một lý do. Mẫu khảo sát nhỏ không có nghĩa là kết quả hoàn toàn vô giá trị."
+          },
+          "topicTag": "grammar",
+          "difficultyBand": 3,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_13_M7_06",
+          "level": "N2",
+          "typeId": "N2-GR-FORM",
+          "category": "文法形式",
+          "stem": "研究データを共有する（　）、匿名化の方法を先に決める必要がある。",
+          "options": [
+            {
+              "id": "A",
+              "text": "に限って"
+            },
+            {
+              "id": "B",
+              "text": "にとって"
+            },
+            {
+              "id": "C",
+              "text": "にあたって"
+            },
+            {
+              "id": "D",
+              "text": "に沿って"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "正解は「にあたって」です。",
+          "explanationVi": "にあたって nghĩa là khi bắt đầu thực hiện một việc quan trọng. Cách ẩn danh dữ liệu cần được quyết định trước lúc chia sẻ.",
+          "distractorExplanations": {
+            "A": "Phương án «に限って» không phù hợp với dữ kiện hoặc cấu trúc của câu. にあたって nghĩa là khi bắt đầu thực hiện một việc quan trọng. Cách ẩn danh dữ liệu cần được quyết định trước lúc chia sẻ.",
+            "B": "Phương án «にとって» không phù hợp với dữ kiện hoặc cấu trúc của câu. にあたって nghĩa là khi bắt đầu thực hiện một việc quan trọng. Cách ẩn danh dữ liệu cần được quyết định trước lúc chia sẻ.",
+            "D": "Phương án «に沿って» không phù hợp với dữ kiện hoặc cấu trúc của câu. にあたって nghĩa là khi bắt đầu thực hiện một việc quan trọng. Cách ẩn danh dữ liệu cần được quyết định trước lúc chia sẻ."
+          },
+          "topicTag": "grammar",
+          "difficultyBand": 3,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_13_M7_07",
+          "level": "N2",
+          "typeId": "N2-GR-FORM",
+          "category": "文法形式",
+          "stem": "この辞書サイトは、専門家の監修を受けている（　）、語義の説明が比較的詳しい。",
+          "options": [
+            {
+              "id": "A",
+              "text": "ものの"
+            },
+            {
+              "id": "B",
+              "text": "だけあって"
+            },
+            {
+              "id": "C",
+              "text": "にもかかわらず"
+            },
+            {
+              "id": "D",
+              "text": "かと思うと"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "正解は「だけあって」です。",
+          "explanationVi": "だけあって đánh giá kết quả là xứng đáng với nguyên nhân nêu trước. Từ điển được chuyên gia kiểm duyệt nên phần giải nghĩa khá chi tiết.",
+          "distractorExplanations": {
+            "A": "Phương án «ものの» không phù hợp với dữ kiện hoặc cấu trúc của câu. だけあって đánh giá kết quả là xứng đáng với nguyên nhân nêu trước. Từ điển được chuyên gia kiểm duyệt nên phần giải nghĩa khá chi tiết.",
+            "C": "Phương án «にもかかわらず» không phù hợp với dữ kiện hoặc cấu trúc của câu. だけあって đánh giá kết quả là xứng đáng với nguyên nhân nêu trước. Từ điển được chuyên gia kiểm duyệt nên phần giải nghĩa khá chi tiết.",
+            "D": "Phương án «かと思うと» không phù hợp với dữ kiện hoặc cấu trúc của câu. だけあって đánh giá kết quả là xứng đáng với nguyên nhân nêu trước. Từ điển được chuyên gia kiểm duyệt nên phần giải nghĩa khá chi tiết."
+          },
+          "topicTag": "grammar",
+          "difficultyBand": 3,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_13_M7_08",
+          "level": "N2",
+          "typeId": "N2-GR-FORM",
+          "category": "文法形式",
+          "stem": "利用規約を読まずに登録した（　）、あとでデータの公開範囲を変更できないと分かった。",
+          "options": [
+            {
+              "id": "A",
+              "text": "につれて"
+            },
+            {
+              "id": "B",
+              "text": "に先立って"
+            },
+            {
+              "id": "C",
+              "text": "からには"
+            },
+            {
+              "id": "D",
+              "text": "ばかりに"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "正解は「ばかりに」です。",
+          "explanationVi": "ばかりに nêu nguyên nhân gây ra một bất lợi. Vì đăng ký mà không đọc quy định, người dùng mới biết sau đó rằng không thể đổi phạm vi công khai dữ liệu.",
+          "distractorExplanations": {
+            "A": "Phương án «につれて» không phù hợp với dữ kiện hoặc cấu trúc của câu. ばかりに nêu nguyên nhân gây ra một bất lợi. Vì đăng ký mà không đọc quy định, người dùng mới biết sau đó rằng không thể đổi phạm vi công khai dữ liệu.",
+            "B": "Phương án «に先立って» không phù hợp với dữ kiện hoặc cấu trúc của câu. ばかりに nêu nguyên nhân gây ra một bất lợi. Vì đăng ký mà không đọc quy định, người dùng mới biết sau đó rằng không thể đổi phạm vi công khai dữ liệu.",
+            "C": "Phương án «からには» không phù hợp với dữ kiện hoặc cấu trúc của câu. ばかりに nêu nguyên nhân gây ra một bất lợi. Vì đăng ký mà không đọc quy định, người dùng mới biết sau đó rằng không thể đổi phạm vi công khai dữ liệu."
+          },
+          "topicTag": "grammar",
+          "difficultyBand": 3,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_13_M7_09",
+          "level": "N2",
+          "typeId": "N2-GR-FORM",
+          "category": "文法形式",
+          "stem": "学生が質問しやすい環境を作る（　）、匿名フォームを設ける大学もある。",
+          "options": [
+            {
+              "id": "A",
+              "text": "どころか"
+            },
+            {
+              "id": "B",
+              "text": "からして"
+            },
+            {
+              "id": "C",
+              "text": "に反して"
+            },
+            {
+              "id": "D",
+              "text": "ために"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "正解は「ために」です。",
+          "explanationVi": "ために diễn tả mục đích. Biểu mẫu ẩn danh được tạo ra nhằm giúp sinh viên dễ đặt câu hỏi hơn.",
+          "distractorExplanations": {
+            "A": "Phương án «どころか» không phù hợp với dữ kiện hoặc cấu trúc của câu. ために diễn tả mục đích. Biểu mẫu ẩn danh được tạo ra nhằm giúp sinh viên dễ đặt câu hỏi hơn.",
+            "B": "Phương án «からして» không phù hợp với dữ kiện hoặc cấu trúc của câu. ために diễn tả mục đích. Biểu mẫu ẩn danh được tạo ra nhằm giúp sinh viên dễ đặt câu hỏi hơn.",
+            "C": "Phương án «に反して» không phù hợp với dữ kiện hoặc cấu trúc của câu. ために diễn tả mục đích. Biểu mẫu ẩn danh được tạo ra nhằm giúp sinh viên dễ đặt câu hỏi hơn."
+          },
+          "topicTag": "grammar",
+          "difficultyBand": 3,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_13_M7_10",
+          "level": "N2",
+          "typeId": "N2-GR-FORM",
+          "category": "文法形式",
+          "stem": "検索結果の上位にある（　）、必ずしも信頼できる情報とは限らない。",
+          "options": [
+            {
+              "id": "A",
+              "text": "からといって"
+            },
+            {
+              "id": "B",
+              "text": "からには"
+            },
+            {
+              "id": "C",
+              "text": "だけあって"
+            },
+            {
+              "id": "D",
+              "text": "にかかわらず"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "正解は「からといって」です。",
+          "explanationVi": "からといって～とは限らない nghĩa là không thể khẳng định chỉ vì lý do đó. Thứ hạng tìm kiếm cao không bảo đảm thông tin đáng tin.",
+          "distractorExplanations": {
+            "B": "Phương án «からには» không phù hợp với dữ kiện hoặc cấu trúc của câu. からといって～とは限らない nghĩa là không thể khẳng định chỉ vì lý do đó. Thứ hạng tìm kiếm cao không bảo đảm thông tin đáng tin.",
+            "C": "Phương án «だけあって» không phù hợp với dữ kiện hoặc cấu trúc của câu. からといって～とは限らない nghĩa là không thể khẳng định chỉ vì lý do đó. Thứ hạng tìm kiếm cao không bảo đảm thông tin đáng tin.",
+            "D": "Phương án «にかかわらず» không phù hợp với dữ kiện hoặc cấu trúc của câu. からといって～とは限らない nghĩa là không thể khẳng định chỉ vì lý do đó. Thứ hạng tìm kiếm cao không bảo đảm thông tin đáng tin."
+          },
+          "topicTag": "grammar",
+          "difficultyBand": 3,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_13_M7_11",
+          "level": "N2",
+          "typeId": "N2-GR-FORM",
+          "category": "文法形式",
+          "stem": "私が一年生だったころ、担当の先生は、難しい質問を受けてもすぐ答えを示さず、学生が自分で考え終わるまで待った（　）。",
+          "options": [
+            {
+              "id": "A",
+              "text": "というより"
+            },
+            {
+              "id": "B",
+              "text": "わけだ"
+            },
+            {
+              "id": "C",
+              "text": "ものだ"
+            },
+            {
+              "id": "D",
+              "text": "ところだ"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "正解は「ものだ」です。",
+          "explanationVi": "ものだ trong ngữ cảnh này hồi tưởng một thói quen trong quá khứ. Cụm “khi tôi học năm nhất” cho biết thời điểm giáo viên thường chờ sinh viên tự suy nghĩ.",
+          "distractorExplanations": {
+            "A": "Phương án «というより» không phù hợp với dữ kiện hoặc cấu trúc của câu. ものだ trong ngữ cảnh này hồi tưởng một thói quen trong quá khứ. Cụm “khi tôi học năm nhất” cho biết thời điểm giáo viên thường chờ sinh viên tự suy nghĩ.",
+            "B": "Phương án «わけだ» không phù hợp với dữ kiện hoặc cấu trúc của câu. ものだ trong ngữ cảnh này hồi tưởng một thói quen trong quá khứ. Cụm “khi tôi học năm nhất” cho biết thời điểm giáo viên thường chờ sinh viên tự suy nghĩ.",
+            "D": "Phương án «ところだ» không phù hợp với dữ kiện hoặc cấu trúc của câu. ものだ trong ngữ cảnh này hồi tưởng một thói quen trong quá khứ. Cụm “khi tôi học năm nhất” cho biết thời điểm giáo viên thường chờ sinh viên tự suy nghĩ."
+          },
+          "topicTag": "grammar",
+          "difficultyBand": 3,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_13_M7_12",
+          "level": "N2",
+          "typeId": "N2-GR-FORM",
+          "category": "文法形式",
+          "stem": "翻訳結果をそのまま提出する（　）、文脈に合わない表現が残ることがある。",
+          "options": [
+            {
+              "id": "A",
+              "text": "と"
+            },
+            {
+              "id": "B",
+              "text": "ものの"
+            },
+            {
+              "id": "C",
+              "text": "次第"
+            },
+            {
+              "id": "D",
+              "text": "うちに"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "正解は「と」です。",
+          "explanationVi": "と nối một điều kiện với kết quả thường xảy ra. Nếu nộp nguyên bản dịch, có thể vẫn còn cách diễn đạt không hợp ngữ cảnh.",
+          "distractorExplanations": {
+            "B": "Phương án «ものの» không phù hợp với dữ kiện hoặc cấu trúc của câu. と nối một điều kiện với kết quả thường xảy ra. Nếu nộp nguyên bản dịch, có thể vẫn còn cách diễn đạt không hợp ngữ cảnh.",
+            "C": "Phương án «次第» không phù hợp với dữ kiện hoặc cấu trúc của câu. と nối một điều kiện với kết quả thường xảy ra. Nếu nộp nguyên bản dịch, có thể vẫn còn cách diễn đạt không hợp ngữ cảnh.",
+            "D": "Phương án «うちに» không phù hợp với dữ kiện hoặc cấu trúc của câu. と nối một điều kiện với kết quả thường xảy ra. Nếu nộp nguyên bản dịch, có thể vẫn còn cách diễn đạt không hợp ngữ cảnh."
+          },
+          "topicTag": "grammar",
+          "difficultyBand": 3,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_13_M8_01",
+          "level": "N2",
+          "typeId": "N2-GR-STAR",
+          "category": "文の組み立て",
+          "stem": "次の文を完成させるとき、★に入る部分はどれか。\n（　　）（　　）★（　　）",
+          "options": [
+            {
+              "id": "A",
+              "text": "明示することによって"
+            },
+            {
+              "id": "B",
+              "text": "研究者は"
+            },
+            {
+              "id": "C",
+              "text": "数値の出典を"
+            },
+            {
+              "id": "D",
+              "text": "読者が結果を確かめられるようにした。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "語句の係り受けを確認して文を組み立てます。",
+          "explanationVi": "Câu hoàn chỉnh nói rằng nhà nghiên cứu nêu rõ nguồn số liệu để người đọc kiểm tra kết quả. Cụm 明示することによって chỉ phương tiện, rồi nối tự nhiên với phần kết quả phía sau.",
+          "distractorExplanations": {
+            "B": "Phương án «研究者は» không phù hợp với dữ kiện hoặc cấu trúc của câu. Câu hoàn chỉnh nói rằng nhà nghiên cứu nêu rõ nguồn số liệu để người đọc kiểm tra kết quả. Cụm 明示することによって chỉ phương tiện, rồi nối tự nhiên với phần kết quả phía sau.",
+            "C": "Phương án «数値の出典を» không phù hợp với dữ kiện hoặc cấu trúc của câu. Câu hoàn chỉnh nói rằng nhà nghiên cứu nêu rõ nguồn số liệu để người đọc kiểm tra kết quả. Cụm 明示することによって chỉ phương tiện, rồi nối tự nhiên với phần kết quả phía sau.",
+            "D": "Phương án «読者が結果を確かめられるようにした。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Câu hoàn chỉnh nói rằng nhà nghiên cứu nêu rõ nguồn số liệu để người đọc kiểm tra kết quả. Cụm 明示することによって chỉ phương tiện, rồi nối tự nhiên với phần kết quả phía sau."
+          },
+          "topicTag": "education-media",
+          "difficultyBand": 2,
+          "assembledSentence": "研究者は数値の出典を明示することによって読者が結果を確かめられるようにした。",
+          "starredOptionText": "明示することによって",
+          "starPosition": 3,
+          "fragmentOrder": "B→C→A→D",
+          "starValidationSchema": "DISPLAYED_FRAGMENT_ORDER_V1",
+          "distractorStrategy": "語順・係り受け",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_13_M8_02",
+          "level": "N2",
+          "typeId": "N2-GR-STAR",
+          "category": "文の組み立て",
+          "stem": "次の文を完成させるとき、★に入る部分はどれか。\n（　　）（　　）★（　　）",
+          "options": [
+            {
+              "id": "A",
+              "text": "合わせて"
+            },
+            {
+              "id": "B",
+              "text": "調整する必要がある。"
+            },
+            {
+              "id": "C",
+              "text": "説明の順序を"
+            },
+            {
+              "id": "D",
+              "text": "学生の理解度に"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "語句の係り受けを確認して文を組み立てます。",
+          "explanationVi": "Câu hoàn chỉnh là “cần điều chỉnh thứ tự giải thích theo mức độ hiểu bài của sinh viên”. に合わせて nêu tiêu chí điều chỉnh, sau đó tân ngữ 説明の順序を được nối với động từ.",
+          "distractorExplanations": {
+            "A": "Phương án «合わせて» không phù hợp với dữ kiện hoặc cấu trúc của câu. Câu hoàn chỉnh là “cần điều chỉnh thứ tự giải thích theo mức độ hiểu bài của sinh viên”. に合わせて nêu tiêu chí điều chỉnh, sau đó tân ngữ 説明の順序を được nối với động từ.",
+            "B": "Phương án «調整する必要がある。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Câu hoàn chỉnh là “cần điều chỉnh thứ tự giải thích theo mức độ hiểu bài của sinh viên”. に合わせて nêu tiêu chí điều chỉnh, sau đó tân ngữ 説明の順序を được nối với động từ.",
+            "D": "Phương án «学生の理解度に» không phù hợp với dữ kiện hoặc cấu trúc của câu. Câu hoàn chỉnh là “cần điều chỉnh thứ tự giải thích theo mức độ hiểu bài của sinh viên”. に合わせて nêu tiêu chí điều chỉnh, sau đó tân ngữ 説明の順序を được nối với động từ."
+          },
+          "topicTag": "education-media",
+          "difficultyBand": 2,
+          "assembledSentence": "学生の理解度に合わせて説明の順序を調整する必要がある。",
+          "starredOptionText": "説明の順序を",
+          "starPosition": 3,
+          "fragmentOrder": "D→A→C→B",
+          "starValidationSchema": "DISPLAYED_FRAGMENT_ORDER_V1",
+          "distractorStrategy": "語順・係り受け",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_13_M8_03",
+          "level": "N2",
+          "typeId": "N2-GR-STAR",
+          "category": "文の組み立て",
+          "stem": "次の文を完成させるとき、★に入る部分はどれか。\n（　　）（　　）★（　　）",
+          "options": [
+            {
+              "id": "A",
+              "text": "記事の見出しだけで"
+            },
+            {
+              "id": "B",
+              "text": "内容を判断するのではなく"
+            },
+            {
+              "id": "C",
+              "text": "確認したほうがよい。"
+            },
+            {
+              "id": "D",
+              "text": "本文と出典も"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "語句の係り受けを確認して文を組み立てます。",
+          "explanationVi": "Ý câu là không chỉ dựa vào tiêu đề mà còn kiểm tra nội dung bài và nguồn trích dẫn. Cụm 本文と出典も đứng trước phần khuyên nên xác nhận.",
+          "distractorExplanations": {
+            "A": "Phương án «記事の見出しだけで» không phù hợp với dữ kiện hoặc cấu trúc của câu. Ý câu là không chỉ dựa vào tiêu đề mà còn kiểm tra nội dung bài và nguồn trích dẫn. Cụm 本文と出典も đứng trước phần khuyên nên xác nhận.",
+            "B": "Phương án «内容を判断するのではなく» không phù hợp với dữ kiện hoặc cấu trúc của câu. Ý câu là không chỉ dựa vào tiêu đề mà còn kiểm tra nội dung bài và nguồn trích dẫn. Cụm 本文と出典も đứng trước phần khuyên nên xác nhận.",
+            "C": "Phương án «確認したほうがよい。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Ý câu là không chỉ dựa vào tiêu đề mà còn kiểm tra nội dung bài và nguồn trích dẫn. Cụm 本文と出典も đứng trước phần khuyên nên xác nhận."
+          },
+          "topicTag": "education-media",
+          "difficultyBand": 2,
+          "assembledSentence": "記事の見出しだけで内容を判断するのではなく本文と出典も確認したほうがよい。",
+          "starredOptionText": "本文と出典も",
+          "starPosition": 3,
+          "fragmentOrder": "A→B→D→C",
+          "starValidationSchema": "DISPLAYED_FRAGMENT_ORDER_V1",
+          "distractorStrategy": "語順・係り受け",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_13_M8_04",
+          "level": "N2",
+          "typeId": "N2-GR-STAR",
+          "category": "文の組み立て",
+          "stem": "次の文を完成させるとき、★に入る部分はどれか。\n（　　）（　　）★（　　）",
+          "options": [
+            {
+              "id": "A",
+              "text": "新しい機能を"
+            },
+            {
+              "id": "B",
+              "text": "利用者の負担が"
+            },
+            {
+              "id": "C",
+              "text": "増えないか検討した。"
+            },
+            {
+              "id": "D",
+              "text": "導入する前に"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "語句の係り受けを確認して文を組み立てます。",
+          "explanationVi": "Câu nói cần kiểm tra trước khi thêm chức năng mới xem gánh nặng cho người dùng có tăng không. Mệnh đề chứa 増えないか diễn tả điều cần xác nhận.",
+          "distractorExplanations": {
+            "A": "Phương án «新しい機能を» không phù hợp với dữ kiện hoặc cấu trúc của câu. Câu nói cần kiểm tra trước khi thêm chức năng mới xem gánh nặng cho người dùng có tăng không. Mệnh đề chứa 増えないか diễn tả điều cần xác nhận.",
+            "C": "Phương án «増えないか検討した。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Câu nói cần kiểm tra trước khi thêm chức năng mới xem gánh nặng cho người dùng có tăng không. Mệnh đề chứa 増えないか diễn tả điều cần xác nhận.",
+            "D": "Phương án «導入する前に» không phù hợp với dữ kiện hoặc cấu trúc của câu. Câu nói cần kiểm tra trước khi thêm chức năng mới xem gánh nặng cho người dùng có tăng không. Mệnh đề chứa 増えないか diễn tả điều cần xác nhận."
+          },
+          "topicTag": "education-media",
+          "difficultyBand": 2,
+          "assembledSentence": "新しい機能を導入する前に利用者の負担が増えないか検討した。",
+          "starredOptionText": "利用者の負担が",
+          "starPosition": 3,
+          "fragmentOrder": "A→D→B→C",
+          "starValidationSchema": "DISPLAYED_FRAGMENT_ORDER_V1",
+          "distractorStrategy": "語順・係り受け",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_13_M8_05",
+          "level": "N2",
+          "typeId": "N2-GR-STAR",
+          "category": "文の組み立て",
+          "stem": "次の文を完成させるとき、★に入る部分はどれか。\n（　　）（　　）★（　　）",
+          "options": [
+            {
+              "id": "A",
+              "text": "複数の資料を"
+            },
+            {
+              "id": "B",
+              "text": "記事の内容を"
+            },
+            {
+              "id": "C",
+              "text": "照合したうえで"
+            },
+            {
+              "id": "D",
+              "text": "公開することにした。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "語句の係り受けを確認して文を組み立てます。",
+          "explanationVi": "Câu hoàn chỉnh yêu cầu đối chiếu nhiều tài liệu trước rồi mới công bố nội dung bài viết. Cụm 複数の資料を照合したうえで nêu việc cần hoàn tất trước hành động sau.",
+          "distractorExplanations": {
+            "A": "Phương án «複数の資料を» không phù hợp với dữ kiện hoặc cấu trúc của câu. Câu hoàn chỉnh yêu cầu đối chiếu nhiều tài liệu trước rồi mới công bố nội dung bài viết. Cụm 複数の資料を照合したうえで nêu việc cần hoàn tất trước hành động sau.",
+            "C": "Phương án «照合したうえで» không phù hợp với dữ kiện hoặc cấu trúc của câu. Câu hoàn chỉnh yêu cầu đối chiếu nhiều tài liệu trước rồi mới công bố nội dung bài viết. Cụm 複数の資料を照合したうえで nêu việc cần hoàn tất trước hành động sau.",
+            "D": "Phương án «公開することにした。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Câu hoàn chỉnh yêu cầu đối chiếu nhiều tài liệu trước rồi mới công bố nội dung bài viết. Cụm 複数の資料を照合したうえで nêu việc cần hoàn tất trước hành động sau."
+          },
+          "topicTag": "education-media",
+          "difficultyBand": 2,
+          "assembledSentence": "複数の資料を照合したうえで記事の内容を公開することにした。",
+          "starredOptionText": "記事の内容を",
+          "starPosition": 3,
+          "fragmentOrder": "A→C→B→D",
+          "starValidationSchema": "DISPLAYED_FRAGMENT_ORDER_V1",
+          "distractorStrategy": "語順・係り受け",
+          "skill": "Language Knowledge"
+        },
+        {
+          "id": "N2_13_M9_01",
+          "level": "N2",
+          "typeId": "N2-GR-PARA",
+          "category": "文章文法",
+          "stem": "【１】に入る表現はどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "うえに"
+            },
+            {
+              "id": "B",
+              "text": "ものなら"
+            },
+            {
+              "id": "C",
+              "text": "あげく"
+            },
+            {
+              "id": "D",
+              "text": "一方で"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "正解は「一方で」です。",
+          "explanationVi": "一方で dùng để đối chiếu hai mặt khác nhau. Đoạn văn nêu lợi ích của video ghi hình rồi chuyển sang lo ngại về mức độ tham gia trên lớp.",
+          "distractorExplanations": {
+            "A": "Phương án «うえに» không phù hợp với dữ kiện hoặc cấu trúc của câu. 一方で dùng để đối chiếu hai mặt khác nhau. Đoạn văn nêu lợi ích của video ghi hình rồi chuyển sang lo ngại về mức độ tham gia trên lớp.",
+            "B": "Phương án «ものなら» không phù hợp với dữ kiện hoặc cấu trúc của câu. 一方で dùng để đối chiếu hai mặt khác nhau. Đoạn văn nêu lợi ích của video ghi hình rồi chuyển sang lo ngại về mức độ tham gia trên lớp.",
+            "C": "Phương án «あげく» không phù hợp với dữ kiện hoặc cấu trúc của câu. 一方で dùng để đối chiếu hai mặt khác nhau. Đoạn văn nêu lợi ích của video ghi hình rồi chuyển sang lo ngại về mức độ tham gia trên lớp."
+          },
+          "topicTag": "learning-support",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge",
+          "contextPassage": "大学の学習支援室では、授業の録画を希望する学生が増えたことを受け、利用方法を見直した。録画は欠席者の復習に役立つ（　１　）、教室で集中して聞く機会を弱める心配もある。そこで、公開期間を二週間に限り、授業資料と合わせて提供することにした。映像を見れば内容を理解できる（　２　）、質問や議論に参加しなくてよいということではない。担当者は、学生が録画を復習の補助として使う（　３　）、分からない点を授業後に相談するよう案内している。この方法が効果を上げるかどうかは、利用数（　４　）なく、学生の振り返りも確認しなければ分からない。学期末の結果を見て、支援の形をさらに調整する（　５　）。",
+          "passage": "大学の学習支援室では、授業の録画を希望する学生が増えたことを受け、利用方法を見直した。録画は欠席者の復習に役立つ（　１　）、教室で集中して聞く機会を弱める心配もある。そこで、公開期間を二週間に限り、授業資料と合わせて提供することにした。映像を見れば内容を理解できる（　２　）、質問や議論に参加しなくてよいということではない。担当者は、学生が録画を復習の補助として使う（　３　）、分からない点を授業後に相談するよう案内している。この方法が効果を上げるかどうかは、利用数（　４　）なく、学生の振り返りも確認しなければ分からない。学期末の結果を見て、支援の形をさらに調整する（　５　）。"
+        },
+        {
+          "id": "N2_13_M9_02",
+          "level": "N2",
+          "typeId": "N2-GR-PARA",
+          "category": "文章文法",
+          "stem": "【２】に入る表現はどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "からには"
+            },
+            {
+              "id": "B",
+              "text": "からといって"
+            },
+            {
+              "id": "C",
+              "text": "に先立って"
+            },
+            {
+              "id": "D",
+              "text": "に応じて"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "正解は「からといって」です。",
+          "explanationVi": "からといって～ということではない phủ định kết luận vội vàng. Việc xem video giúp hiểu bài không có nghĩa là không cần đặt câu hỏi hay thảo luận.",
+          "distractorExplanations": {
+            "A": "Phương án «からには» không phù hợp với dữ kiện hoặc cấu trúc của câu. からといって～ということではない phủ định kết luận vội vàng. Việc xem video giúp hiểu bài không có nghĩa là không cần đặt câu hỏi hay thảo luận.",
+            "C": "Phương án «に先立って» không phù hợp với dữ kiện hoặc cấu trúc của câu. からといって～ということではない phủ định kết luận vội vàng. Việc xem video giúp hiểu bài không có nghĩa là không cần đặt câu hỏi hay thảo luận.",
+            "D": "Phương án «に応じて» không phù hợp với dữ kiện hoặc cấu trúc của câu. からといって～ということではない phủ định kết luận vội vàng. Việc xem video giúp hiểu bài không có nghĩa là không cần đặt câu hỏi hay thảo luận."
+          },
+          "topicTag": "learning-support",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge",
+          "contextPassage": "大学の学習支援室では、授業の録画を希望する学生が増えたことを受け、利用方法を見直した。録画は欠席者の復習に役立つ（　１　）、教室で集中して聞く機会を弱める心配もある。そこで、公開期間を二週間に限り、授業資料と合わせて提供することにした。映像を見れば内容を理解できる（　２　）、質問や議論に参加しなくてよいということではない。担当者は、学生が録画を復習の補助として使う（　３　）、分からない点を授業後に相談するよう案内している。この方法が効果を上げるかどうかは、利用数（　４　）なく、学生の振り返りも確認しなければ分からない。学期末の結果を見て、支援の形をさらに調整する（　５　）。",
+          "passage": "大学の学習支援室では、授業の録画を希望する学生が増えたことを受け、利用方法を見直した。録画は欠席者の復習に役立つ（　１　）、教室で集中して聞く機会を弱める心配もある。そこで、公開期間を二週間に限り、授業資料と合わせて提供することにした。映像を見れば内容を理解できる（　２　）、質問や議論に参加しなくてよいということではない。担当者は、学生が録画を復習の補助として使う（　３　）、分からない点を授業後に相談するよう案内している。この方法が効果を上げるかどうかは、利用数（　４　）なく、学生の振り返りも確認しなければ分からない。学期末の結果を見て、支援の形をさらに調整する（　５　）。"
+        },
+        {
+          "id": "N2_13_M9_03",
+          "level": "N2",
+          "typeId": "N2-GR-PARA",
+          "category": "文章文法",
+          "stem": "【３】に入る表現はどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "とともに"
+            },
+            {
+              "id": "B",
+              "text": "末に"
+            },
+            {
+              "id": "C",
+              "text": "ばかりか"
+            },
+            {
+              "id": "D",
+              "text": "に対して"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "正解は「とともに」です。",
+          "explanationVi": "とともに ở đây diễn tả hai việc được làm song song. Người học dùng video như tài liệu bổ trợ và hỏi lại những điểm chưa rõ.",
+          "distractorExplanations": {
+            "B": "Phương án «末に» không phù hợp với dữ kiện hoặc cấu trúc của câu. とともに ở đây diễn tả hai việc được làm song song. Người học dùng video như tài liệu bổ trợ và hỏi lại những điểm chưa rõ.",
+            "C": "Phương án «ばかりか» không phù hợp với dữ kiện hoặc cấu trúc của câu. とともに ở đây diễn tả hai việc được làm song song. Người học dùng video như tài liệu bổ trợ và hỏi lại những điểm chưa rõ.",
+            "D": "Phương án «に対して» không phù hợp với dữ kiện hoặc cấu trúc của câu. とともに ở đây diễn tả hai việc được làm song song. Người học dùng video như tài liệu bổ trợ và hỏi lại những điểm chưa rõ."
+          },
+          "topicTag": "learning-support",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge",
+          "contextPassage": "大学の学習支援室では、授業の録画を希望する学生が増えたことを受け、利用方法を見直した。録画は欠席者の復習に役立つ（　１　）、教室で集中して聞く機会を弱める心配もある。そこで、公開期間を二週間に限り、授業資料と合わせて提供することにした。映像を見れば内容を理解できる（　２　）、質問や議論に参加しなくてよいということではない。担当者は、学生が録画を復習の補助として使う（　３　）、分からない点を授業後に相談するよう案内している。この方法が効果を上げるかどうかは、利用数（　４　）なく、学生の振り返りも確認しなければ分からない。学期末の結果を見て、支援の形をさらに調整する（　５　）。",
+          "passage": "大学の学習支援室では、授業の録画を希望する学生が増えたことを受け、利用方法を見直した。録画は欠席者の復習に役立つ（　１　）、教室で集中して聞く機会を弱める心配もある。そこで、公開期間を二週間に限り、授業資料と合わせて提供することにした。映像を見れば内容を理解できる（　２　）、質問や議論に参加しなくてよいということではない。担当者は、学生が録画を復習の補助として使う（　３　）、分からない点を授業後に相談するよう案内している。この方法が効果を上げるかどうかは、利用数（　４　）なく、学生の振り返りも確認しなければ分からない。学期末の結果を見て、支援の形をさらに調整する（　５　）。"
+        },
+        {
+          "id": "N2_13_M9_04",
+          "level": "N2",
+          "typeId": "N2-GR-PARA",
+          "category": "文章文法",
+          "stem": "【４】に入る表現はどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "を通じて"
+            },
+            {
+              "id": "B",
+              "text": "とはいえ"
+            },
+            {
+              "id": "C",
+              "text": "だけで"
+            },
+            {
+              "id": "D",
+              "text": "に限って"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "正解は「だけで」です。",
+          "explanationVi": "だけでなく bổ sung thêm một tiêu chí đánh giá. Ngoài số lượt sử dụng, cần xem cả phần tự đánh giá của sinh viên.",
+          "distractorExplanations": {
+            "A": "Phương án «を通じて» không phù hợp với dữ kiện hoặc cấu trúc của câu. だけでなく bổ sung thêm một tiêu chí đánh giá. Ngoài số lượt sử dụng, cần xem cả phần tự đánh giá của sinh viên.",
+            "B": "Phương án «とはいえ» không phù hợp với dữ kiện hoặc cấu trúc của câu. だけでなく bổ sung thêm một tiêu chí đánh giá. Ngoài số lượt sử dụng, cần xem cả phần tự đánh giá của sinh viên.",
+            "D": "Phương án «に限って» không phù hợp với dữ kiện hoặc cấu trúc của câu. だけでなく bổ sung thêm một tiêu chí đánh giá. Ngoài số lượt sử dụng, cần xem cả phần tự đánh giá của sinh viên."
+          },
+          "topicTag": "learning-support",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge",
+          "contextPassage": "大学の学習支援室では、授業の録画を希望する学生が増えたことを受け、利用方法を見直した。録画は欠席者の復習に役立つ（　１　）、教室で集中して聞く機会を弱める心配もある。そこで、公開期間を二週間に限り、授業資料と合わせて提供することにした。映像を見れば内容を理解できる（　２　）、質問や議論に参加しなくてよいということではない。担当者は、学生が録画を復習の補助として使う（　３　）、分からない点を授業後に相談するよう案内している。この方法が効果を上げるかどうかは、利用数（　４　）なく、学生の振り返りも確認しなければ分からない。学期末の結果を見て、支援の形をさらに調整する（　５　）。",
+          "passage": "大学の学習支援室では、授業の録画を希望する学生が増えたことを受け、利用方法を見直した。録画は欠席者の復習に役立つ（　１　）、教室で集中して聞く機会を弱める心配もある。そこで、公開期間を二週間に限り、授業資料と合わせて提供することにした。映像を見れば内容を理解できる（　２　）、質問や議論に参加しなくてよいということではない。担当者は、学生が録画を復習の補助として使う（　３　）、分からない点を授業後に相談するよう案内している。この方法が効果を上げるかどうかは、利用数（　４　）なく、学生の振り返りも確認しなければ分からない。学期末の結果を見て、支援の形をさらに調整する（　５　）。"
+        },
+        {
+          "id": "N2_13_M9_05",
+          "level": "N2",
+          "typeId": "N2-GR-PARA",
+          "category": "文章文法",
+          "stem": "【５】に入る表現はどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "に違いない"
+            },
+            {
+              "id": "B",
+              "text": "どころではない"
+            },
+            {
+              "id": "C",
+              "text": "ことにしている"
+            },
+            {
+              "id": "D",
+              "text": "ものではない"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "正解は「ことにしている」です。",
+          "explanationVi": "ことにしている diễn tả một phương châm được duy trì. Trung tâm sẽ điều chỉnh hình thức hỗ trợ dựa trên kết quả cuối học kỳ.",
+          "distractorExplanations": {
+            "A": "Phương án «に違いない» không phù hợp với dữ kiện hoặc cấu trúc của câu. ことにしている diễn tả một phương châm được duy trì. Trung tâm sẽ điều chỉnh hình thức hỗ trợ dựa trên kết quả cuối học kỳ.",
+            "B": "Phương án «どころではない» không phù hợp với dữ kiện hoặc cấu trúc của câu. ことにしている diễn tả một phương châm được duy trì. Trung tâm sẽ điều chỉnh hình thức hỗ trợ dựa trên kết quả cuối học kỳ.",
+            "D": "Phương án «ものではない» không phù hợp với dữ kiện hoặc cấu trúc của câu. ことにしている diễn tả một phương châm được duy trì. Trung tâm sẽ điều chỉnh hình thức hỗ trợ dựa trên kết quả cuối học kỳ."
+          },
+          "topicTag": "learning-support",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Language Knowledge",
+          "contextPassage": "大学の学習支援室では、授業の録画を希望する学生が増えたことを受け、利用方法を見直した。録画は欠席者の復習に役立つ（　１　）、教室で集中して聞く機会を弱める心配もある。そこで、公開期間を二週間に限り、授業資料と合わせて提供することにした。映像を見れば内容を理解できる（　２　）、質問や議論に参加しなくてよいということではない。担当者は、学生が録画を復習の補助として使う（　３　）、分からない点を授業後に相談するよう案内している。この方法が効果を上げるかどうかは、利用数（　４　）なく、学生の振り返りも確認しなければ分からない。学期末の結果を見て、支援の形をさらに調整する（　５　）。",
+          "passage": "大学の学習支援室では、授業の録画を希望する学生が増えたことを受け、利用方法を見直した。録画は欠席者の復習に役立つ（　１　）、教室で集中して聞く機会を弱める心配もある。そこで、公開期間を二週間に限り、授業資料と合わせて提供することにした。映像を見れば内容を理解できる（　２　）、質問や議論に参加しなくてよいということではない。担当者は、学生が録画を復習の補助として使う（　３　）、分からない点を授業後に相談するよう案内している。この方法が効果を上げるかどうかは、利用数（　４　）なく、学生の振り返りも確認しなければ分からない。学期末の結果を見て、支援の形をさらに調整する（　５　）。"
+        },
+        {
+          "id": "N2_13_M10_01",
+          "level": "N2",
+          "typeId": "N2-RD-SHORT",
+          "category": "短文読解",
+          "stem": "この掲示板について正しいものはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "教員は投稿のたびにすぐ返事をする。"
+            },
+            {
+              "id": "B",
+              "text": "成績の相談も匿名で投稿すれば、教員が個別に回答する。"
+            },
+            {
+              "id": "C",
+              "text": "質問は名前を出さずに投稿できるが、回答まで時間がかかることがある。"
+            },
+            {
+              "id": "D",
+              "text": "掲示板には授業以外の相談だけを投稿する。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "正解は「質問は名前を出さずに投稿できるが、回答まで時間がかかることがある。」です。",
+          "explanationVi": "Bảng tin cho phép đăng câu hỏi ẩn danh nhưng giáo viên chỉ trả lời hai lần mỗi tuần, nên không phải lúc nào cũng có phản hồi ngay. Vấn đề điểm số hay thông tin cá nhân cần gửi đến bộ phận phụ trách.",
+          "distractorExplanations": {
+            "A": "Phương án «教員は投稿のたびにすぐ返事をする。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Bảng tin cho phép đăng câu hỏi ẩn danh nhưng giáo viên chỉ trả lời hai lần mỗi tuần, nên không phải lúc nào cũng có phản hồi ngay. Vấn đề điểm số hay thông tin cá nhân cần gửi đến bộ phận phụ trách.",
+            "B": "Phương án «成績の相談も匿名で投稿すれば、教員が個別に回答する。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Bảng tin cho phép đăng câu hỏi ẩn danh nhưng giáo viên chỉ trả lời hai lần mỗi tuần, nên không phải lúc nào cũng có phản hồi ngay. Vấn đề điểm số hay thông tin cá nhân cần gửi đến bộ phận phụ trách.",
+            "D": "Phương án «掲示板には授業以外の相談だけを投稿する。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Bảng tin cho phép đăng câu hỏi ẩn danh nhưng giáo viên chỉ trả lời hai lần mỗi tuần, nên không phải lúc nào cũng có phản hồi ngay. Vấn đề điểm số hay thông tin cá nhân cần gửi đến bộ phận phụ trách."
+          },
+          "topicTag": "education-media",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Reading",
+          "contextPassage": "学内の質問掲示板では、授業内容に関する質問を匿名で投稿できる。教員は週に二回まとめて回答するため、すぐに返事が来るとは限らない。個人の成績や相談内容は投稿せず、担当窓口へ連絡するよう案内されている。",
+          "passage": "学内の質問掲示板では、授業内容に関する質問を匿名で投稿できる。教員は週に二回まとめて回答するため、すぐに返事が来るとは限らない。個人の成績や相談内容は投稿せず、担当窓口へ連絡するよう案内されている。"
+        },
+        {
+          "id": "N2_13_M10_02",
+          "level": "N2",
+          "typeId": "N2-RD-SHORT",
+          "category": "短文読解",
+          "stem": "図書館が質問を表示する主な目的は何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "次年度に契約する電子書籍の量を検討するため"
+            },
+            {
+              "id": "B",
+              "text": "個人別の読書記録を公開するため"
+            },
+            {
+              "id": "C",
+              "text": "回答しなかった利用者の貸出しを止めるため"
+            },
+            {
+              "id": "D",
+              "text": "今月中に全員の購入希望を集めるため"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "正解は「次年度に契約する電子書籍の量を検討するため」です。",
+          "explanationVi": "Khảo sát nhằm tìm hiểu tình hình sử dụng sách điện tử để quyết định số lượng gia hạn cho năm sau. Trả lời là tự nguyện và khảo sát không thu thập thông tin cá nhân.",
+          "distractorExplanations": {
+            "B": "Phương án «個人別の読書記録を公開するため» không phù hợp với dữ kiện hoặc cấu trúc của câu. Khảo sát nhằm tìm hiểu tình hình sử dụng sách điện tử để quyết định số lượng gia hạn cho năm sau. Trả lời là tự nguyện và khảo sát không thu thập thông tin cá nhân.",
+            "C": "Phương án «回答しなかった利用者の貸出しを止めるため» không phù hợp với dữ kiện hoặc cấu trúc của câu. Khảo sát nhằm tìm hiểu tình hình sử dụng sách điện tử để quyết định số lượng gia hạn cho năm sau. Trả lời là tự nguyện và khảo sát không thu thập thông tin cá nhân.",
+            "D": "Phương án «今月中に全員の購入希望を集めるため» không phù hợp với dữ kiện hoặc cấu trúc của câu. Khảo sát nhằm tìm hiểu tình hình sử dụng sách điện tử để quyết định số lượng gia hạn cho năm sau. Trả lời là tự nguyện và khảo sát không thu thập thông tin cá nhân."
+          },
+          "topicTag": "education-media",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Reading",
+          "contextPassage": "図書館は、電子書籍の利用状況を調べるため、来月から三か月間、貸出画面に簡単な質問を表示する。回答は任意で、個人を特定する情報は集めない。調査結果は、次年度の契約冊数を決める資料として使う予定だ。",
+          "passage": "図書館は、電子書籍の利用状況を調べるため、来月から三か月間、貸出画面に簡単な質問を表示する。回答は任意で、個人を特定する情報は集めない。調査結果は、次年度の契約冊数を決める資料として使う予定だ。"
+        },
+        {
+          "id": "N2_13_M10_03",
+          "level": "N2",
+          "typeId": "N2-RD-SHORT",
+          "category": "短文読解",
+          "stem": "学生が誤りを報告するときに必要なことは何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "担当部署に電話して即時修正を求める。"
+            },
+            {
+              "id": "B",
+              "text": "誤りの場所と正しい表現を書く。"
+            },
+            {
+              "id": "C",
+              "text": "報告した学生の名前を全員に知らせる。"
+            },
+            {
+              "id": "D",
+              "text": "修正されるまで動画を視聴できない。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "正解は「誤りの場所と正しい表現を書く。」です。",
+          "explanationVi": "Người báo lỗi cần ghi cả vị trí sai và cách viết đúng. Bộ phận phụ trách xác nhận trước khi sửa; nếu chưa thể sửa ngay, trang sẽ hiển thị ngày dự kiến.",
+          "distractorExplanations": {
+            "A": "Phương án «担当部署に電話して即時修正を求める。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Người báo lỗi cần ghi cả vị trí sai và cách viết đúng. Bộ phận phụ trách xác nhận trước khi sửa; nếu chưa thể sửa ngay, trang sẽ hiển thị ngày dự kiến.",
+            "C": "Phương án «報告した学生の名前を全員に知らせる。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Người báo lỗi cần ghi cả vị trí sai và cách viết đúng. Bộ phận phụ trách xác nhận trước khi sửa; nếu chưa thể sửa ngay, trang sẽ hiển thị ngày dự kiến.",
+            "D": "Phương án «修正されるまで動画を視聴できない。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Người báo lỗi cần ghi cả vị trí sai và cách viết đúng. Bộ phận phụ trách xác nhận trước khi sửa; nếu chưa thể sửa ngay, trang sẽ hiển thị ngày dự kiến."
+          },
+          "topicTag": "education-media",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Reading",
+          "contextPassage": "大学の動画配信サービスでは、講義映像の冒頭に字幕の誤りを報告するボタンを設けた。報告は担当部署が確認し、すぐに修正できない場合は、訂正予定日を画面に表示する。学生は誤りの箇所と正しい表現の両方を記入する必要がある。",
+          "passage": "大学の動画配信サービスでは、講義映像の冒頭に字幕の誤りを報告するボタンを設けた。報告は担当部署が確認し、すぐに修正できない場合は、訂正予定日を画面に表示する。学生は誤りの箇所と正しい表現の両方を記入する必要がある。"
+        },
+        {
+          "id": "N2_13_M10_04",
+          "level": "N2",
+          "typeId": "N2-RD-SHORT",
+          "category": "短文読解",
+          "stem": "このサービスでできることはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "図書館のデータベースを使わず全文を読める。"
+            },
+            {
+              "id": "B",
+              "text": "掲載日を省いて記事の出典を隠す。"
+            },
+            {
+              "id": "C",
+              "text": "見出しや要約を授業内の比較に使う。"
+            },
+            {
+              "id": "D",
+              "text": "保存した記事全文を外部サイトへ自由に転載する。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "正解は「見出しや要約を授業内の比較に使う。」です。",
+          "explanationVi": "Hệ thống chỉ lưu tiêu đề, ngày và bản tóm tắt để so sánh trong lớp. Muốn đọc toàn văn phải dùng cơ sở dữ liệu có giấy phép; không được tải ra ngoài.",
+          "distractorExplanations": {
+            "A": "Phương án «図書館のデータベースを使わず全文を読める。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Hệ thống chỉ lưu tiêu đề, ngày và bản tóm tắt để so sánh trong lớp. Muốn đọc toàn văn phải dùng cơ sở dữ liệu có giấy phép; không được tải ra ngoài.",
+            "B": "Phương án «掲載日を省いて記事の出典を隠す。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Hệ thống chỉ lưu tiêu đề, ngày và bản tóm tắt để so sánh trong lớp. Muốn đọc toàn văn phải dùng cơ sở dữ liệu có giấy phép; không được tải ra ngoài.",
+            "D": "Phương án «保存した記事全文を外部サイトへ自由に転載する。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Hệ thống chỉ lưu tiêu đề, ngày và bản tóm tắt để so sánh trong lớp. Muốn đọc toàn văn phải dùng cơ sở dữ liệu có giấy phép; không được tải ra ngoài."
+          },
+          "topicTag": "education-media",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Reading",
+          "contextPassage": "新聞記事の保存サービスは、記事の全文ではなく見出し、掲載日、要約を記録する。全文が必要な場合は、図書館の契約データベースで検索する。保存した要約は授業内での比較に使えるが、外部サイトへ転載してはならない。",
+          "passage": "新聞記事の保存サービスは、記事の全文ではなく見出し、掲載日、要約を記録する。全文が必要な場合は、図書館の契約データベースで検索する。保存した要約は授業内での比較に使えるが、外部サイトへ転載してはならない。"
+        },
+        {
+          "id": "N2_13_M10_05",
+          "level": "N2",
+          "typeId": "N2-RD-SHORT",
+          "category": "短文読解",
+          "stem": "このアプリについて正しいものはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "学習記録は一年間保存される。"
+            },
+            {
+              "id": "B",
+              "text": "試験前には自動的に通知が増える。"
+            },
+            {
+              "id": "C",
+              "text": "通知は一日に何度でも届く。"
+            },
+            {
+              "id": "D",
+              "text": "通知の曜日や時刻を自分で変更できる。"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "正解は「通知の曜日や時刻を自分で変更できる。」です。",
+          "explanationVi": "Người dùng có thể đổi ngày, giờ nhận thông báo hoặc tắt thông báo. Không có chức năng tăng thông báo trước kỳ thi và lịch sử chỉ được lưu 30 ngày.",
+          "distractorExplanations": {
+            "A": "Phương án «学習記録は一年間保存される。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Người dùng có thể đổi ngày, giờ nhận thông báo hoặc tắt thông báo. Không có chức năng tăng thông báo trước kỳ thi và lịch sử chỉ được lưu 30 ngày.",
+            "B": "Phương án «試験前には自動的に通知が増える。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Người dùng có thể đổi ngày, giờ nhận thông báo hoặc tắt thông báo. Không có chức năng tăng thông báo trước kỳ thi và lịch sử chỉ được lưu 30 ngày.",
+            "C": "Phương án «通知は一日に何度でも届く。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Người dùng có thể đổi ngày, giờ nhận thông báo hoặc tắt thông báo. Không có chức năng tăng thông báo trước kỳ thi và lịch sử chỉ được lưu 30 ngày."
+          },
+          "topicTag": "education-media",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Reading",
+          "contextPassage": "学習アプリの通知は、初期設定では午後九時に届く。利用者は設定画面で曜日と時刻を変更でき、通知を止めることもできる。試験前だけ通知を増やす機能はなく、学習記録の表示期間は三十日間である。",
+          "passage": "学習アプリの通知は、初期設定では午後九時に届く。利用者は設定画面で曜日と時刻を変更でき、通知を止めることもできる。試験前だけ通知を増やす機能はなく、学習記録の表示期間は三十日間である。"
+        },
+        {
+          "id": "N2_13_M11_01",
+          "level": "N2",
+          "typeId": "N2-RD-MED",
+          "category": "中文読解",
+          "stem": "動画の評価で最も重視されているのは何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "再生回数と視聴時間"
+            },
+            {
+              "id": "B",
+              "text": "説明の正確さと論理の流れ"
+            },
+            {
+              "id": "C",
+              "text": "編集技術の新しさ"
+            },
+            {
+              "id": "D",
+              "text": "教員の説明をどれだけ短くできたか"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "正解は「説明の正確さと論理の流れ」です。",
+          "explanationVi": "Video của sinh viên là tài liệu nhập môn, không thay thế phần giảng của giáo viên. Vì chạy đua lượt xem có thể làm nội dung thiên về trình diễn, việc đánh giá tập trung vào tính chính xác và mạch giải thích.",
+          "distractorExplanations": {
+            "A": "Phương án «再生回数と視聴時間» không phù hợp với dữ kiện hoặc cấu trúc của câu. Video của sinh viên là tài liệu nhập môn, không thay thế phần giảng của giáo viên. Vì chạy đua lượt xem có thể làm nội dung thiên về trình diễn, việc đánh giá tập trung vào tính chính xác và mạch giải thích.",
+            "C": "Phương án «編集技術の新しさ» không phù hợp với dữ kiện hoặc cấu trúc của câu. Video của sinh viên là tài liệu nhập môn, không thay thế phần giảng của giáo viên. Vì chạy đua lượt xem có thể làm nội dung thiên về trình diễn, việc đánh giá tập trung vào tính chính xác và mạch giải thích.",
+            "D": "Phương án «教員の説明をどれだけ短くできたか» không phù hợp với dữ kiện hoặc cấu trúc của câu. Video của sinh viên là tài liệu nhập môn, không thay thế phần giảng của giáo viên. Vì chạy đua lượt xem có thể làm nội dung thiên về trình diễn, việc đánh giá tập trung vào tính chính xác và mạch giải thích."
+          },
+          "topicTag": "education-media",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Reading",
+          "contextPassage": "大学の授業で、学生が作った解説動画を教材として使う試みが始まった。動画は教員の説明を置き換えるのではなく、初めて学ぶ人が疑問を整理するために用いる。公開前には別の学生が内容を確認し、誤りがあれば制作者と相談して修正する。再生回数を競わせると、分かりやすさより目立つ演出が優先される恐れがあるため、評価は内容の正確さと説明の筋道を中心に行う。",
+          "passage": "大学の授業で、学生が作った解説動画を教材として使う試みが始まった。動画は教員の説明を置き換えるのではなく、初めて学ぶ人が疑問を整理するために用いる。公開前には別の学生が内容を確認し、誤りがあれば制作者と相談して修正する。再生回数を競わせると、分かりやすさより目立つ演出が優先される恐れがあるため、評価は内容の正確さと説明の筋道を中心に行う。"
+        },
+        {
+          "id": "N2_13_M11_02",
+          "level": "N2",
+          "typeId": "N2-RD-MED",
+          "category": "中文読解",
+          "stem": "大学が公開期間を延長しない理由は何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "動画の保存費用を削減するため"
+            },
+            {
+              "id": "B",
+              "text": "試験問題が外へ広がる可能性を抑えるため"
+            },
+            {
+              "id": "C",
+              "text": "章見出しを付ける作業が終わっていないため"
+            },
+            {
+              "id": "D",
+              "text": "学生の意見を聞かない方針だから"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "正解は「試験問題が外へ広がる可能性を抑えるため」です。",
+          "explanationVi": "Trường đã thêm tiêu đề chương và liên kết để tìm video dễ hơn, nhưng giữ nguyên thời hạn xem nhằm hạn chế đề thi bị phát tán ra ngoài.",
+          "distractorExplanations": {
+            "A": "Phương án «動画の保存費用を削減するため» không phù hợp với dữ kiện hoặc cấu trúc của câu. Trường đã thêm tiêu đề chương và liên kết để tìm video dễ hơn, nhưng giữ nguyên thời hạn xem nhằm hạn chế đề thi bị phát tán ra ngoài.",
+            "C": "Phương án «章見出しを付ける作業が終わっていないため» không phù hợp với dữ kiện hoặc cấu trúc của câu. Trường đã thêm tiêu đề chương và liên kết để tìm video dễ hơn, nhưng giữ nguyên thời hạn xem nhằm hạn chế đề thi bị phát tán ra ngoài.",
+            "D": "Phương án «学生の意見を聞かない方針だから» không phù hợp với dữ kiện hoặc cấu trúc của câu. Trường đã thêm tiêu đề chương và liên kết để tìm video dễ hơn, nhưng giữ nguyên thời hạn xem nhằm hạn chế đề thi bị phát tán ra ngoài."
+          },
+          "topicTag": "education-media",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Reading",
+          "contextPassage": "ある大学は、授業録画を希望者だけに公開していたが、学生から「どこに何があるか分かりにくい」と意見が出た。そこで動画に章見出しを付け、授業資料から該当箇所へ移動できるリンクを設けた。一方、映像の公開期間を延ばす要望には応じず、試験問題が外部に広がる可能性を避けるため、学期末から二週間後に視聴できなくする方針を維持した。",
+          "passage": "ある大学は、授業録画を希望者だけに公開していたが、学生から「どこに何があるか分かりにくい」と意見が出た。そこで動画に章見出しを付け、授業資料から該当箇所へ移動できるリンクを設けた。一方、映像の公開期間を延ばす要望には応じず、試験問題が外部に広がる可能性を避けるため、学期末から二週間後に視聴できなくする方針を維持した。"
+        },
+        {
+          "id": "N2_13_M11_03",
+          "level": "N2",
+          "typeId": "N2-RD-MED",
+          "category": "中文読解",
+          "stem": "編集部が読者に示そうとしていることは何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "確認済みの点と未確認の点の違い"
+            },
+            {
+              "id": "B",
+              "text": "話題になった情報はすべて事実だという判断"
+            },
+            {
+              "id": "C",
+              "text": "画像の出所を記事から隠す方法"
+            },
+            {
+              "id": "D",
+              "text": "投稿者の発言を編集部が代わりに作る理由"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "正解は「確認済みの点と未確認の点の違い」です。",
+          "explanationVi": "Ban biên tập muốn phân biệt rõ điều đã xác minh với điều chưa xác minh. Nhờ vậy, độc giả có thể tự đánh giá độ tin cậy của thông tin.",
+          "distractorExplanations": {
+            "B": "Phương án «話題になった情報はすべて事実だという判断» không phù hợp với dữ kiện hoặc cấu trúc của câu. Ban biên tập muốn phân biệt rõ điều đã xác minh với điều chưa xác minh. Nhờ vậy, độc giả có thể tự đánh giá độ tin cậy của thông tin.",
+            "C": "Phương án «画像の出所を記事から隠す方法» không phù hợp với dữ kiện hoặc cấu trúc của câu. Ban biên tập muốn phân biệt rõ điều đã xác minh với điều chưa xác minh. Nhờ vậy, độc giả có thể tự đánh giá độ tin cậy của thông tin.",
+            "D": "Phương án «投稿者の発言を編集部が代わりに作る理由» không phù hợp với dữ kiện hoặc cấu trúc của câu. Ban biên tập muốn phân biệt rõ điều đã xác minh với điều chưa xác minh. Nhờ vậy, độc giả có thể tự đánh giá độ tin cậy của thông tin."
+          },
+          "topicTag": "education-media",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Reading",
+          "contextPassage": "学生新聞の編集部は、SNSで話題になった情報を記事にする際、投稿の画面を保存するだけでは不十分だと考えている。投稿者に確認を取ったうえで、日時や場所を別の資料と照らし、画像が過去の出来事から再利用されていないかも調べる。確認できない点は記事に残し、読者が確定した事実と未確認の情報を区別できるようにする。",
+          "passage": "学生新聞の編集部は、SNSで話題になった情報を記事にする際、投稿の画面を保存するだけでは不十分だと考えている。投稿者に確認を取ったうえで、日時や場所を別の資料と照らし、画像が過去の出来事から再利用されていないかも調べる。確認できない点は記事に残し、読者が確定した事実と未確認の情報を区別できるようにする。"
+        },
+        {
+          "id": "N2_13_M11_04",
+          "level": "N2",
+          "typeId": "N2-RD-MED",
+          "category": "中文読解",
+          "stem": "教員の字幕に対する考え方として最も適切なものはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "自動字幕は常に正しいので、報告制度は不要だ。"
+            },
+            {
+              "id": "B",
+              "text": "字幕は便利な補助だが、重要点は別の資料でも確認すべきだ。"
+            },
+            {
+              "id": "C",
+              "text": "誤りを報告すれば、どの授業でもその日に直る。"
+            },
+            {
+              "id": "D",
+              "text": "専門用語を授業から取り除けば字幕は不要になる。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "正解は「字幕は便利な補助だが、重要点は別の資料でも確認すべきだ。」です。",
+          "explanationVi": "Phụ đề tự động hữu ích nhưng có thể nhận dạng sai thuật ngữ và tên riêng. Giáo viên khuyên kiểm tra điểm quan trọng bằng bản ghi âm hoặc tài liệu; việc sửa ngay trong ngày không được bảo đảm.",
+          "distractorExplanations": {
+            "A": "Phương án «自動字幕は常に正しいので、報告制度は不要だ。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Phụ đề tự động hữu ích nhưng có thể nhận dạng sai thuật ngữ và tên riêng. Giáo viên khuyên kiểm tra điểm quan trọng bằng bản ghi âm hoặc tài liệu; việc sửa ngay trong ngày không được bảo đảm.",
+            "C": "Phương án «誤りを報告すれば、どの授業でもその日に直る。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Phụ đề tự động hữu ích nhưng có thể nhận dạng sai thuật ngữ và tên riêng. Giáo viên khuyên kiểm tra điểm quan trọng bằng bản ghi âm hoặc tài liệu; việc sửa ngay trong ngày không được bảo đảm.",
+            "D": "Phương án «専門用語を授業から取り除けば字幕は不要になる。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Phụ đề tự động hữu ích nhưng có thể nhận dạng sai thuật ngữ và tên riêng. Giáo viên khuyên kiểm tra điểm quan trọng bằng bản ghi âm hoặc tài liệu; việc sửa ngay trong ngày không được bảo đảm."
+          },
+          "topicTag": "education-media",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Reading",
+          "contextPassage": "講義で自動字幕を使う学生が増えたため、教員は誤認識の例を授業資料に加えた。学生には、専門用語や固有名詞が正しく表示されるとは限らないことを説明し、重要な箇所は録音や配布資料でも確かめるよう伝えた。字幕の誤りを報告する仕組みも設けたが、字幕を一語ずつ直す作業は人手が必要なので、すべての授業で即日反映する約束はしていない。",
+          "passage": "講義で自動字幕を使う学生が増えたため、教員は誤認識の例を授業資料に加えた。学生には、専門用語や固有名詞が正しく表示されるとは限らないことを説明し、重要な箇所は録音や配布資料でも確かめるよう伝えた。字幕の誤りを報告する仕組みも設けたが、字幕を一語ずつ直す作業は人手が必要なので、すべての授業で即日反映する約束はしていない。"
+        },
+        {
+          "id": "N2_13_M11_05",
+          "level": "N2",
+          "typeId": "N2-RD-MED",
+          "category": "中文読解",
+          "stem": "入力方法を変えた主な理由は何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "振り返りの内容を成績に反映するため"
+            },
+            {
+              "id": "B",
+              "text": "アプリの利用料を学生から集めるため"
+            },
+            {
+              "id": "C",
+              "text": "記録量の競争が理解より優先されるのを防ぐため"
+            },
+            {
+              "id": "D",
+              "text": "毎日の学習時間を正確に記録することを強制するため"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "正解は「記録量の競争が理解より優先されるのを防ぐため」です。",
+          "explanationVi": "Thi đua về thời gian nhập liệu có thể khiến sinh viên ưu tiên số ghi nhận hơn việc hiểu bài. Vì vậy, khoa thử cách viết phản hồi hằng tuần về điều đã làm được và cách học tiếp theo.",
+          "distractorExplanations": {
+            "A": "Phương án «振り返りの内容を成績に反映するため» không phù hợp với dữ kiện hoặc cấu trúc của câu. Thi đua về thời gian nhập liệu có thể khiến sinh viên ưu tiên số ghi nhận hơn việc hiểu bài. Vì vậy, khoa thử cách viết phản hồi hằng tuần về điều đã làm được và cách học tiếp theo.",
+            "B": "Phương án «アプリの利用料を学生から集めるため» không phù hợp với dữ kiện hoặc cấu trúc của câu. Thi đua về thời gian nhập liệu có thể khiến sinh viên ưu tiên số ghi nhận hơn việc hiểu bài. Vì vậy, khoa thử cách viết phản hồi hằng tuần về điều đã làm được và cách học tiếp theo.",
+            "D": "Phương án «毎日の学習時間を正確に記録することを強制するため» không phù hợp với dữ kiện hoặc cấu trúc của câu. Thi đua về thời gian nhập liệu có thể khiến sinh viên ưu tiên số ghi nhận hơn việc hiểu bài. Vì vậy, khoa thử cách viết phản hồi hằng tuần về điều đã làm được và cách học tiếp theo."
+          },
+          "topicTag": "education-media",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Reading",
+          "contextPassage": "学習記録アプリを導入した学科では、学生が毎日の学習時間を入力する方式をやめ、週ごとに振り返りを書く方法を試している。入力時間を競うと、実際の理解より記録を増やす行動が起きるという意見があったからだ。振り返りでは、できたことだけでなく、次週に試す方法も書く。教員は記録を成績には用いず、支援が必要な学生を本人と相談する手がかりにする。",
+          "passage": "学習記録アプリを導入した学科では、学生が毎日の学習時間を入力する方式をやめ、週ごとに振り返りを書く方法を試している。入力時間を競うと、実際の理解より記録を増やす行動が起きるという意見があったからだ。振り返りでは、できたことだけでなく、次週に試す方法も書く。教員は記録を成績には用いず、支援が必要な学生を本人と相談する手がかりにする。"
+        },
+        {
+          "id": "N2_13_M11_06",
+          "level": "N2",
+          "typeId": "N2-RD-MED",
+          "category": "中文読解",
+          "stem": "研究室が一般向け要約で大切にしていることは何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "読みやすくしながら、分かった範囲と限界を伝える"
+            },
+            {
+              "id": "B",
+              "text": "対象者数に関係なく断定的な見出しを付ける"
+            },
+            {
+              "id": "C",
+              "text": "追加検証の必要性を省き、成果だけを強調する"
+            },
+            {
+              "id": "D",
+              "text": "専門用語を残し、研究結果を広く一般化する"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "正解は「読みやすくしながら、分かった範囲と限界を伝える」です。",
+          "explanationVi": "Phòng nghiên cứu dùng từ dễ hiểu nhưng vẫn nêu phạm vi nghiên cứu và giới hạn cần kiểm chứng. Mục tiêu là vừa dễ đọc vừa chính xác.",
+          "distractorExplanations": {
+            "B": "Phương án «対象者数に関係なく断定的な見出しを付ける» không phù hợp với dữ kiện hoặc cấu trúc của câu. Phòng nghiên cứu dùng từ dễ hiểu nhưng vẫn nêu phạm vi nghiên cứu và giới hạn cần kiểm chứng. Mục tiêu là vừa dễ đọc vừa chính xác.",
+            "C": "Phương án «追加検証の必要性を省き、成果だけを強調する» không phù hợp với dữ kiện hoặc cấu trúc của câu. Phòng nghiên cứu dùng từ dễ hiểu nhưng vẫn nêu phạm vi nghiên cứu và giới hạn cần kiểm chứng. Mục tiêu là vừa dễ đọc vừa chính xác.",
+            "D": "Phương án «専門用語を残し、研究結果を広く一般化する» không phù hợp với dữ kiện hoặc cấu trúc của câu. Phòng nghiên cứu dùng từ dễ hiểu nhưng vẫn nêu phạm vi nghiên cứu và giới hạn cần kiểm chứng. Mục tiêu là vừa dễ đọc vừa chính xác."
+          },
+          "topicTag": "education-media",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Reading",
+          "contextPassage": "研究室のウェブサイトでは、論文の要約を一般向けに載せている。専門用語を簡単な言葉に置き換える一方で、研究で確かめた範囲を超えて「この方法なら必ず改善する」と書かないようにしている。対象者が限られている場合や、追加の検証が必要な場合も、要約の末尾に記す。読みやすさを高めることと、研究の限界を隠さないことは両立できるという考えだ。",
+          "passage": "研究室のウェブサイトでは、論文の要約を一般向けに載せている。専門用語を簡単な言葉に置き換える一方で、研究で確かめた範囲を超えて「この方法なら必ず改善する」と書かないようにしている。対象者が限られている場合や、追加の検証が必要な場合も、要約の末尾に記す。読みやすさを高めることと、研究の限界を隠さないことは両立できるという考えだ。"
+        },
+        {
+          "id": "N2_13_M11_07",
+          "level": "N2",
+          "typeId": "N2-RD-MED",
+          "category": "中文読解",
+          "stem": "大学が確認画面を二か所に設けた理由は何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "担当部署が申請を受け付けないため"
+            },
+            {
+              "id": "B",
+              "text": "添付ファイルの種類を一つに限定するため"
+            },
+            {
+              "id": "C",
+              "text": "申請の操作数を増やして利用者を減らすため"
+            },
+            {
+              "id": "D",
+              "text": "提出後に修正できない手続きで誤りを防ぐため"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "正解は「提出後に修正できない手続きで誤りを防ぐため」です。",
+          "explanationVi": "Đơn đăng ký không thể sửa sau khi gửi thường bị đính kèm nhầm tài liệu. Biểu mẫu mới nhắc kiểm tra các điểm chính lúc bắt đầu và trước khi gửi, đồng thời nêu cách xử lý nếu lỡ gửi sai.",
+          "distractorExplanations": {
+            "A": "Phương án «担当部署が申請を受け付けないため» không phù hợp với dữ kiện hoặc cấu trúc của câu. Đơn đăng ký không thể sửa sau khi gửi thường bị đính kèm nhầm tài liệu. Biểu mẫu mới nhắc kiểm tra các điểm chính lúc bắt đầu và trước khi gửi, đồng thời nêu cách xử lý nếu lỡ gửi sai.",
+            "B": "Phương án «添付ファイルの種類を一つに限定するため» không phù hợp với dữ kiện hoặc cấu trúc của câu. Đơn đăng ký không thể sửa sau khi gửi thường bị đính kèm nhầm tài liệu. Biểu mẫu mới nhắc kiểm tra các điểm chính lúc bắt đầu và trước khi gửi, đồng thời nêu cách xử lý nếu lỡ gửi sai.",
+            "C": "Phương án «申請の操作数を増やして利用者を減らすため» không phù hợp với dữ kiện hoặc cấu trúc của câu. Đơn đăng ký không thể sửa sau khi gửi thường bị đính kèm nhầm tài liệu. Biểu mẫu mới nhắc kiểm tra các điểm chính lúc bắt đầu và trước khi gửi, đồng thời nêu cách xử lý nếu lỡ gửi sai."
+          },
+          "topicTag": "education-media",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Reading",
+          "contextPassage": "大学の電子申請では、提出後に内容を修正できない手続きがある。以前は警告文が最後の画面にしかなかったが、学生が添付ファイルを間違える例が続いたため、申請を始める前と送信直前の二か所に確認を表示するようにした。担当部署は、操作を増やすと面倒だという意見も受け、確認画面に必要な項目だけを短く示し、戻って修正する方法も同じ画面に置いた。",
+          "passage": "大学の電子申請では、提出後に内容を修正できない手続きがある。以前は警告文が最後の画面にしかなかったが、学生が添付ファイルを間違える例が続いたため、申請を始める前と送信直前の二か所に確認を表示するようにした。担当部署は、操作を増やすと面倒だという意見も受け、確認画面に必要な項目だけを短く示し、戻って修正する方法も同じ画面に置いた。"
+        },
+        {
+          "id": "N2_13_M11_08",
+          "level": "N2",
+          "typeId": "N2-RD-MED",
+          "category": "中文読解",
+          "stem": "コメント活動の評価方法を変えた理由は何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "コメントの数より、根拠を考えて読み直す過程を重視するため"
+            },
+            {
+              "id": "B",
+              "text": "短いコメントを禁止し、すべて長文にするため"
+            },
+            {
+              "id": "C",
+              "text": "学生が論文を読まなくても点を取れるようにするため"
+            },
+            {
+              "id": "D",
+              "text": "教員が学生の意見を評価しないため"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "正解は「コメントの数より、根拠を考えて読み直す過程を重視するため」です。",
+          "explanationVi": "Khi tăng số lượng góp ý, nhiều nhận xét trở nên ngắn và thiếu căn cứ. Nhóm biên tập chuyển sang coi trọng lý do, cách kiểm tra và quá trình đọc lại.",
+          "distractorExplanations": {
+            "B": "Phương án «短いコメントを禁止し、すべて長文にするため» không phù hợp với dữ kiện hoặc cấu trúc của câu. Khi tăng số lượng góp ý, nhiều nhận xét trở nên ngắn và thiếu căn cứ. Nhóm biên tập chuyển sang coi trọng lý do, cách kiểm tra và quá trình đọc lại.",
+            "C": "Phương án «学生が論文を読まなくても点を取れるようにするため» không phù hợp với dữ kiện hoặc cấu trúc của câu. Khi tăng số lượng góp ý, nhiều nhận xét trở nên ngắn và thiếu căn cứ. Nhóm biên tập chuyển sang coi trọng lý do, cách kiểm tra và quá trình đọc lại.",
+            "D": "Phương án «教員が学生の意見を評価しないため» không phù hợp với dữ kiện hoặc cấu trúc của câu. Khi tăng số lượng góp ý, nhiều nhận xét trở nên ngắn và thiếu căn cứ. Nhóm biên tập chuyển sang coi trọng lý do, cách kiểm tra và quá trình đọc lại."
+          },
+          "topicTag": "education-media",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Reading",
+          "contextPassage": "ある授業では、学生同士で論文を読んでコメントする活動を行っている。コメント数を評価すると、短い指摘を大量に書く学生が増えたため、現在は一つのコメントに「どの記述への指摘か」「なぜ気になったか」「どのような資料があれば確かめられるか」を含めるよう求めている。教員は全員の意見を同じ基準で採点するのではなく、コメントを受けて読み直した記録も見ている。",
+          "passage": "ある授業では、学生同士で論文を読んでコメントする活動を行っている。コメント数を評価すると、短い指摘を大量に書く学生が増えたため、現在は一つのコメントに「どの記述への指摘か」「なぜ気になったか」「どのような資料があれば確かめられるか」を含めるよう求めている。教員は全員の意見を同じ基準で採点するのではなく、コメントを受けて読み直した記録も見ている。"
+        },
+        {
+          "id": "N2_13_M11_09",
+          "level": "N2",
+          "typeId": "N2-RD-MED",
+          "category": "中文読解",
+          "stem": "大学の相談窓口の方針として最も適切なものはどれか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "端末履歴を消せない学生の相談を受け付けない"
+            },
+            {
+              "id": "B",
+              "text": "対面相談をやめてアンケートだけで支援する"
+            },
+            {
+              "id": "C",
+              "text": "オンラインを唯一の窓口にして利用件数を増やす"
+            },
+            {
+              "id": "D",
+              "text": "異なる事情に合わせて複数の相談方法を残す"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "正解は「異なる事情に合わせて複数の相談方法を残す」です。",
+          "explanationVi": "Một số sinh viên không phù hợp với hình thức trực tuyến nên trường vẫn giữ lựa chọn gọi điện và đặt lịch gặp trực tiếp. Hiệu quả được đánh giá qua cả số lượt dùng lẫn phản hồi ẩn danh.",
+          "distractorExplanations": {
+            "A": "Phương án «端末履歴を消せない学生の相談を受け付けない» không phù hợp với dữ kiện hoặc cấu trúc của câu. Một số sinh viên không phù hợp với hình thức trực tuyến nên trường vẫn giữ lựa chọn gọi điện và đặt lịch gặp trực tiếp. Hiệu quả được đánh giá qua cả số lượt dùng lẫn phản hồi ẩn danh.",
+            "B": "Phương án «対面相談をやめてアンケートだけで支援する» không phù hợp với dữ kiện hoặc cấu trúc của câu. Một số sinh viên không phù hợp với hình thức trực tuyến nên trường vẫn giữ lựa chọn gọi điện và đặt lịch gặp trực tiếp. Hiệu quả được đánh giá qua cả số lượt dùng lẫn phản hồi ẩn danh.",
+            "C": "Phương án «オンラインを唯一の窓口にして利用件数を増やす» không phù hợp với dữ kiện hoặc cấu trúc của câu. Một số sinh viên không phù hợp với hình thức trực tuyến nên trường vẫn giữ lựa chọn gọi điện và đặt lịch gặp trực tiếp. Hiệu quả được đánh giá qua cả số lượt dùng lẫn phản hồi ẩn danh."
+          },
+          "topicTag": "education-media",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Reading",
+          "contextPassage": "地方の大学は、オンライン相談窓口を試験導入した。対面相談が難しい学生が利用できる一方、文章で状況を説明しにくい人や、端末を共有していて履歴を残したくない人もいる。大学はオンライン窓口を唯一の相談方法にせず、電話と対面予約も続けることにした。利用件数だけでは支援の効果を判断できないため、利用後の匿名アンケートも参考にする。",
+          "passage": "地方の大学は、オンライン相談窓口を試験導入した。対面相談が難しい学生が利用できる一方、文章で状況を説明しにくい人や、端末を共有していて履歴を残したくない人もいる。大学はオンライン窓口を唯一の相談方法にせず、電話と対面予約も続けることにした。利用件数だけでは支援の効果を判断できないため、利用後の匿名アンケートも参考にする。"
+        },
+        {
+          "id": "N2_13_M12_01",
+          "level": "N2",
+          "typeId": "N2-RD-PAIR",
+          "category": "統合理解",
+          "stem": "AとBがともに扱っているのはどの点か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "著作権に関係なくすべて公開すること。"
+            },
+            {
+              "id": "B",
+              "text": "授業資料をどの期間、誰が閲覧できるようにするか。"
+            },
+            {
+              "id": "C",
+              "text": "卒業後も全資料を無期限で公開すること。"
+            },
+            {
+              "id": "D",
+              "text": "保存期間を必ず一年に統一すること。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "正解は「授業資料をどの期間、誰が閲覧できるようにするか。」です。",
+          "explanationVi": "A quy định thời hạn lưu và người được xem tài liệu; B muốn kéo dài thời hạn và cho phép xem sau khi tốt nghiệp. Cả hai cùng bàn về thời gian lưu và đối tượng có quyền truy cập.",
+          "distractorExplanations": {
+            "A": "Phương án «著作権に関係なくすべて公開すること。» không phù hợp với dữ kiện hoặc cấu trúc của câu. A quy định thời hạn lưu và người được xem tài liệu; B muốn kéo dài thời hạn và cho phép xem sau khi tốt nghiệp. Cả hai cùng bàn về thời gian lưu và đối tượng có quyền truy cập.",
+            "C": "Phương án «卒業後も全資料を無期限で公開すること。» không phù hợp với dữ kiện hoặc cấu trúc của câu. A quy định thời hạn lưu và người được xem tài liệu; B muốn kéo dài thời hạn và cho phép xem sau khi tốt nghiệp. Cả hai cùng bàn về thời gian lưu và đối tượng có quyền truy cập.",
+            "D": "Phương án «保存期間を必ず一年に統一すること。» không phù hợp với dữ kiện hoặc cấu trúc của câu. A quy định thời hạn lưu và người được xem tài liệu; B muốn kéo dài thời hạn và cho phép xem sau khi tốt nghiệp. Cả hai cùng bàn về thời gian lưu và đối tượng có quyền truy cập."
+          },
+          "topicTag": "academic-policy",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Reading",
+          "contextPassage": "【A】大学は来年度から、全学共通の授業資料保管サービスを導入する。資料は授業終了から一年間保存し、教員が必要と認めた場合に限って延長する。学生は在学中、学内アカウントから閲覧できる。\n【B】学生会は、資料を長く残すだけでなく、卒業後も見返せる仕組みを求めている。保存期間を決める前に、著作権や個人情報への配慮を含めて学生・教員双方の意見を聞くべきだとして、説明会を開く予定だ。",
+          "passage": "【A】大学は来年度から、全学共通の授業資料保管サービスを導入する。資料は授業終了から一年間保存し、教員が必要と認めた場合に限って延長する。学生は在学中、学内アカウントから閲覧できる。\n【B】学生会は、資料を長く残すだけでなく、卒業後も見返せる仕組みを求めている。保存期間を決める前に、著作権や個人情報への配慮を含めて学生・教員双方の意見を聞くべきだとして、説明会を開く予定だ。"
+        },
+        {
+          "id": "N2_13_M12_02",
+          "level": "N2",
+          "typeId": "N2-RD-PAIR",
+          "category": "統合理解",
+          "stem": "資料保存に関するAとBの違いは何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "Aは教員の延長を認めず、Bは学生の利用を禁止している。"
+            },
+            {
+              "id": "B",
+              "text": "Aは著作権を検討し、Bは個人情報を無視している。"
+            },
+            {
+              "id": "C",
+              "text": "Aはすでに期間を決め、Bは決定前に関係者の意見を集めようとしている。"
+            },
+            {
+              "id": "D",
+              "text": "Aは卒業後の公開を約束し、Bは保存に反対している。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "正解は「Aはすでに期間を決め、Bは決定前に関係者の意見を集めようとしている。」です。",
+          "explanationVi": "A đã ấn định thời hạn một năm cùng điều kiện gia hạn. B muốn lấy ý kiến các bên trước khi quyết định, chứ chưa kết luận rằng mọi tài liệu phải công khai vô thời hạn.",
+          "distractorExplanations": {
+            "A": "Phương án «Aは教員の延長を認めず、Bは学生の利用を禁止している。» không phù hợp với dữ kiện hoặc cấu trúc của câu. A đã ấn định thời hạn một năm cùng điều kiện gia hạn. B muốn lấy ý kiến các bên trước khi quyết định, chứ chưa kết luận rằng mọi tài liệu phải công khai vô thời hạn.",
+            "B": "Phương án «Aは著作権を検討し、Bは個人情報を無視している。» không phù hợp với dữ kiện hoặc cấu trúc của câu. A đã ấn định thời hạn một năm cùng điều kiện gia hạn. B muốn lấy ý kiến các bên trước khi quyết định, chứ chưa kết luận rằng mọi tài liệu phải công khai vô thời hạn.",
+            "D": "Phương án «Aは卒業後の公開を約束し、Bは保存に反対している。» không phù hợp với dữ kiện hoặc cấu trúc của câu. A đã ấn định thời hạn một năm cùng điều kiện gia hạn. B muốn lấy ý kiến các bên trước khi quyết định, chứ chưa kết luận rằng mọi tài liệu phải công khai vô thời hạn."
+          },
+          "topicTag": "academic-policy",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Reading",
+          "contextPassage": "【A】大学は来年度から、全学共通の授業資料保管サービスを導入する。資料は授業終了から一年間保存し、教員が必要と認めた場合に限って延長する。学生は在学中、学内アカウントから閲覧できる。\n【B】学生会は、資料を長く残すだけでなく、卒業後も見返せる仕組みを求めている。保存期間を決める前に、著作権や個人情報への配慮を含めて学生・教員双方の意見を聞くべきだとして、説明会を開く予定だ。",
+          "passage": "【A】大学は来年度から、全学共通の授業資料保管サービスを導入する。資料は授業終了から一年間保存し、教員が必要と認めた場合に限って延長する。学生は在学中、学内アカウントから閲覧できる。\n【B】学生会は、資料を長く残すだけでなく、卒業後も見返せる仕組みを求めている。保存期間を決める前に、著作権や個人情報への配慮を含めて学生・教員双方の意見を聞くべきだとして、説明会を開く予定だ。"
+        },
+        {
+          "id": "N2_13_M13_01",
+          "level": "N2",
+          "typeId": "N2-RD-LONG",
+          "category": "長文読解",
+          "stem": "広報チームが最初に研究者へ尋ねることは何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "専門用語をいくつ削れるか"
+            },
+            {
+              "id": "B",
+              "text": "誰に何を理解してほしいか"
+            },
+            {
+              "id": "C",
+              "text": "研究の限界をすべて削除できるか"
+            },
+            {
+              "id": "D",
+              "text": "どの媒体なら再生数を伸ばせるか"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "正解は「誰に何を理解してほしいか」です。",
+          "explanationVi": "Nhóm truyền thông trước tiên hỏi nội dung nào cần được hiểu và ai là người nghe, rồi chọn một thông điệp trọng tâm. Mục tiêu không phải tăng lượt xem hay xóa hết thuật ngữ.",
+          "distractorExplanations": {
+            "A": "Phương án «専門用語をいくつ削れるか» không phù hợp với dữ kiện hoặc cấu trúc của câu. Nhóm truyền thông trước tiên hỏi nội dung nào cần được hiểu và ai là người nghe, rồi chọn một thông điệp trọng tâm. Mục tiêu không phải tăng lượt xem hay xóa hết thuật ngữ.",
+            "C": "Phương án «研究の限界をすべて削除できるか» không phù hợp với dữ kiện hoặc cấu trúc của câu. Nhóm truyền thông trước tiên hỏi nội dung nào cần được hiểu và ai là người nghe, rồi chọn một thông điệp trọng tâm. Mục tiêu không phải tăng lượt xem hay xóa hết thuật ngữ.",
+            "D": "Phương án «どの媒体なら再生数を伸ばせるか» không phù hợp với dữ kiện hoặc cấu trúc của câu. Nhóm truyền thông trước tiên hỏi nội dung nào cần được hiểu và ai là người nghe, rồi chọn một thông điệp trọng tâm. Mục tiêu không phải tăng lượt xem hay xóa hết thuật ngữ."
+          },
+          "topicTag": "research-communication",
+          "difficultyBand": 3,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Reading",
+          "contextPassage": "近年、研究成果を専門家以外にも伝える「サイエンス・コミュニケーション」が大学で重視されている。研究者が成果を発表する場は学会や論文に限られず、公開講座、学校との連携、短い動画などにも広がった。ただし、届ける相手が広がるほど、専門用語を言い換えるだけでは十分でなくなる。研究で確かめられたことと、まだ仮説にとどまることを分け、対象や条件に限りがある場合はそれも説明しなければならない。一方で、限界を細かく列挙しすぎると、聞き手が何を持ち帰ればよいか分からなくなるという指摘もある。そのため、ある大学の広報チームは、まず研究者に「誰に、何を理解してほしいか」を尋ね、伝える中心を一つ決めるようにした。そのうえで、専門家以外の学生が原稿を読み、初見で意味が取れなかった箇所を伝える。研究者は誤解を招く断定表現を直し、必要な限界は本文に残しつつ、細かな方法や追加資料を別のページに分ける。この方法は情報を削ること自体が目的ではない。読み手が中心的な知見とその適用範囲をつかみ、詳しく知りたい場合は根拠へ進めるよう、説明の順番を設計する試みである。",
+          "passage": "近年、研究成果を専門家以外にも伝える「サイエンス・コミュニケーション」が大学で重視されている。研究者が成果を発表する場は学会や論文に限られず、公開講座、学校との連携、短い動画などにも広がった。ただし、届ける相手が広がるほど、専門用語を言い換えるだけでは十分でなくなる。研究で確かめられたことと、まだ仮説にとどまることを分け、対象や条件に限りがある場合はそれも説明しなければならない。一方で、限界を細かく列挙しすぎると、聞き手が何を持ち帰ればよいか分からなくなるという指摘もある。そのため、ある大学の広報チームは、まず研究者に「誰に、何を理解してほしいか」を尋ね、伝える中心を一つ決めるようにした。そのうえで、専門家以外の学生が原稿を読み、初見で意味が取れなかった箇所を伝える。研究者は誤解を招く断定表現を直し、必要な限界は本文に残しつつ、細かな方法や追加資料を別のページに分ける。この方法は情報を削ること自体が目的ではない。読み手が中心的な知見とその適用範囲をつかみ、詳しく知りたい場合は根拠へ進めるよう、説明の順番を設計する試みである。"
+        },
+        {
+          "id": "N2_13_M13_02",
+          "level": "N2",
+          "typeId": "N2-RD-LONG",
+          "category": "長文読解",
+          "stem": "本文によると、学生に原稿を読んでもらう目的は何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "研究の限界を隠すため"
+            },
+            {
+              "id": "B",
+              "text": "追加資料を公開しないため"
+            },
+            {
+              "id": "C",
+              "text": "専門家以外が初めて読んで分かりにくい箇所を見つけるため"
+            },
+            {
+              "id": "D",
+              "text": "研究者の代わりに結論を決めるため"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "正解は「専門家以外が初めて読んで分かりにくい箇所を見つけるため」です。",
+          "explanationVi": "Sinh viên ngoài chuyên ngành chỉ ra chỗ khó hiểu khi đọc lần đầu. Nhóm dùng phản hồi đó để kiểm tra liệu người nghe phổ thông có theo kịp hay không.",
+          "distractorExplanations": {
+            "A": "Phương án «研究の限界を隠すため» không phù hợp với dữ kiện hoặc cấu trúc của câu. Sinh viên ngoài chuyên ngành chỉ ra chỗ khó hiểu khi đọc lần đầu. Nhóm dùng phản hồi đó để kiểm tra liệu người nghe phổ thông có theo kịp hay không.",
+            "B": "Phương án «追加資料を公開しないため» không phù hợp với dữ kiện hoặc cấu trúc của câu. Sinh viên ngoài chuyên ngành chỉ ra chỗ khó hiểu khi đọc lần đầu. Nhóm dùng phản hồi đó để kiểm tra liệu người nghe phổ thông có theo kịp hay không.",
+            "D": "Phương án «研究者の代わりに結論を決めるため» không phù hợp với dữ kiện hoặc cấu trúc của câu. Sinh viên ngoài chuyên ngành chỉ ra chỗ khó hiểu khi đọc lần đầu. Nhóm dùng phản hồi đó để kiểm tra liệu người nghe phổ thông có theo kịp hay không."
+          },
+          "topicTag": "research-communication",
+          "difficultyBand": 3,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Reading",
+          "contextPassage": "近年、研究成果を専門家以外にも伝える「サイエンス・コミュニケーション」が大学で重視されている。研究者が成果を発表する場は学会や論文に限られず、公開講座、学校との連携、短い動画などにも広がった。ただし、届ける相手が広がるほど、専門用語を言い換えるだけでは十分でなくなる。研究で確かめられたことと、まだ仮説にとどまることを分け、対象や条件に限りがある場合はそれも説明しなければならない。一方で、限界を細かく列挙しすぎると、聞き手が何を持ち帰ればよいか分からなくなるという指摘もある。そのため、ある大学の広報チームは、まず研究者に「誰に、何を理解してほしいか」を尋ね、伝える中心を一つ決めるようにした。そのうえで、専門家以外の学生が原稿を読み、初見で意味が取れなかった箇所を伝える。研究者は誤解を招く断定表現を直し、必要な限界は本文に残しつつ、細かな方法や追加資料を別のページに分ける。この方法は情報を削ること自体が目的ではない。読み手が中心的な知見とその適用範囲をつかみ、詳しく知りたい場合は根拠へ進めるよう、説明の順番を設計する試みである。",
+          "passage": "近年、研究成果を専門家以外にも伝える「サイエンス・コミュニケーション」が大学で重視されている。研究者が成果を発表する場は学会や論文に限られず、公開講座、学校との連携、短い動画などにも広がった。ただし、届ける相手が広がるほど、専門用語を言い換えるだけでは十分でなくなる。研究で確かめられたことと、まだ仮説にとどまることを分け、対象や条件に限りがある場合はそれも説明しなければならない。一方で、限界を細かく列挙しすぎると、聞き手が何を持ち帰ればよいか分からなくなるという指摘もある。そのため、ある大学の広報チームは、まず研究者に「誰に、何を理解してほしいか」を尋ね、伝える中心を一つ決めるようにした。そのうえで、専門家以外の学生が原稿を読み、初見で意味が取れなかった箇所を伝える。研究者は誤解を招く断定表現を直し、必要な限界は本文に残しつつ、細かな方法や追加資料を別のページに分ける。この方法は情報を削ること自体が目的ではない。読み手が中心的な知見とその適用範囲をつかみ、詳しく知りたい場合は根拠へ進めるよう、説明の順番を設計する試みである。"
+        },
+        {
+          "id": "N2_13_M13_03",
+          "level": "N2",
+          "typeId": "N2-RD-LONG",
+          "category": "長文読解",
+          "stem": "この方法について筆者が述べていることは何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "すべての研究方法を本文に詳しく載せるべきだ。"
+            },
+            {
+              "id": "B",
+              "text": "限界を示すと聞き手が混乱するため、説明から除く。"
+            },
+            {
+              "id": "C",
+              "text": "情報を短くすることより、中心と適用範囲を分かりやすく示すことを目指す。"
+            },
+            {
+              "id": "D",
+              "text": "専門家以外に研究成果を伝える必要はない。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "正解は「情報を短くすることより、中心と適用範囲を分かりやすく示すことを目指す。」です。",
+          "explanationVi": "Tác giả không chủ trương chỉ rút ngắn thông tin; cần nêu rõ kết quả chính và phạm vi áp dụng, đồng thời chỉ đường đến căn cứ chi tiết.",
+          "distractorExplanations": {
+            "A": "Phương án «すべての研究方法を本文に詳しく載せるべきだ。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Tác giả không chủ trương chỉ rút ngắn thông tin; cần nêu rõ kết quả chính và phạm vi áp dụng, đồng thời chỉ đường đến căn cứ chi tiết.",
+            "B": "Phương án «限界を示すと聞き手が混乱するため、説明から除く。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Tác giả không chủ trương chỉ rút ngắn thông tin; cần nêu rõ kết quả chính và phạm vi áp dụng, đồng thời chỉ đường đến căn cứ chi tiết.",
+            "D": "Phương án «専門家以外に研究成果を伝える必要はない。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Tác giả không chủ trương chỉ rút ngắn thông tin; cần nêu rõ kết quả chính và phạm vi áp dụng, đồng thời chỉ đường đến căn cứ chi tiết."
+          },
+          "topicTag": "research-communication",
+          "difficultyBand": 3,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Reading",
+          "contextPassage": "近年、研究成果を専門家以外にも伝える「サイエンス・コミュニケーション」が大学で重視されている。研究者が成果を発表する場は学会や論文に限られず、公開講座、学校との連携、短い動画などにも広がった。ただし、届ける相手が広がるほど、専門用語を言い換えるだけでは十分でなくなる。研究で確かめられたことと、まだ仮説にとどまることを分け、対象や条件に限りがある場合はそれも説明しなければならない。一方で、限界を細かく列挙しすぎると、聞き手が何を持ち帰ればよいか分からなくなるという指摘もある。そのため、ある大学の広報チームは、まず研究者に「誰に、何を理解してほしいか」を尋ね、伝える中心を一つ決めるようにした。そのうえで、専門家以外の学生が原稿を読み、初見で意味が取れなかった箇所を伝える。研究者は誤解を招く断定表現を直し、必要な限界は本文に残しつつ、細かな方法や追加資料を別のページに分ける。この方法は情報を削ること自体が目的ではない。読み手が中心的な知見とその適用範囲をつかみ、詳しく知りたい場合は根拠へ進めるよう、説明の順番を設計する試みである。",
+          "passage": "近年、研究成果を専門家以外にも伝える「サイエンス・コミュニケーション」が大学で重視されている。研究者が成果を発表する場は学会や論文に限られず、公開講座、学校との連携、短い動画などにも広がった。ただし、届ける相手が広がるほど、専門用語を言い換えるだけでは十分でなくなる。研究で確かめられたことと、まだ仮説にとどまることを分け、対象や条件に限りがある場合はそれも説明しなければならない。一方で、限界を細かく列挙しすぎると、聞き手が何を持ち帰ればよいか分からなくなるという指摘もある。そのため、ある大学の広報チームは、まず研究者に「誰に、何を理解してほしいか」を尋ね、伝える中心を一つ決めるようにした。そのうえで、専門家以外の学生が原稿を読み、初見で意味が取れなかった箇所を伝える。研究者は誤解を招く断定表現を直し、必要な限界は本文に残しつつ、細かな方法や追加資料を別のページに分ける。この方法は情報を削ること自体が目的ではない。読み手が中心的な知見とその適用範囲をつかみ、詳しく知りたい場合は根拠へ進めるよう、説明の順番を設計する試みである。"
+        },
+        {
+          "id": "N2_13_M14_01",
+          "level": "N2",
+          "typeId": "N2-RD-INFO",
+          "category": "情報検索",
+          "stem": "発表用スライドを昼休みに短時間見てもらいたい学生は、いつどこへ行けばよいか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "金曜日、メディアセンター1階"
+            },
+            {
+              "id": "B",
+              "text": "水曜日、本館2階"
+            },
+            {
+              "id": "C",
+              "text": "火曜日、メディアセンター3階"
+            },
+            {
+              "id": "D",
+              "text": "月曜日、本館2階"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "正解は「水曜日、本館2階」です。",
+          "explanationVi": "Buổi góp ý trang trình chiếu diễn ra thứ Tư, từ 12:20 đến 12:50, tại phòng hỗ trợ học tập ở tầng hai tòa nhà chính.",
+          "distractorExplanations": {
+            "A": "Phương án «金曜日、メディアセンター1階» không phù hợp với dữ kiện hoặc cấu trúc của câu. Buổi góp ý trang trình chiếu diễn ra thứ Tư, từ 12:20 đến 12:50, tại phòng hỗ trợ học tập ở tầng hai tòa nhà chính.",
+            "C": "Phương án «火曜日、メディアセンター3階» không phù hợp với dữ kiện hoặc cấu trúc của câu. Buổi góp ý trang trình chiếu diễn ra thứ Tư, từ 12:20 đến 12:50, tại phòng hỗ trợ học tập ở tầng hai tòa nhà chính.",
+            "D": "Phương án «月曜日、本館2階» không phù hợp với dữ kiện hoặc cấu trúc của câu. Buổi góp ý trang trình chiếu diễn ra thứ Tư, từ 12:20 đến 12:50, tại phòng hỗ trợ học tập ở tầng hai tòa nhà chính."
+          },
+          "topicTag": "student-services",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Reading",
+          "contextPassage": "【学習支援イベント（予約不要・学生証を持参）】\n月 12:10–12:50 レポートの構成相談（本館2階 学習支援室）\n火 16:30–17:15 文献検索の基礎（メディアセンター3階、先着20名）\n水 12:20–12:50 発表スライドの見直し（本館2階 学習支援室）\n木 15:00–16:00 引用と著作権の相談（オンライン、開始10分前までに学内ポータルの相談ページから事前登録）\n金 12:10–12:40 学習アプリの使い方（メディアセンター1階、端末貸出あり）\n※個別相談は一人15分。火曜日の講座は満席の場合、次回を案内します。",
+          "passage": "【学習支援イベント（予約不要・学生証を持参）】\n月 12:10–12:50 レポートの構成相談（本館2階 学習支援室）\n火 16:30–17:15 文献検索の基礎（メディアセンター3階、先着20名）\n水 12:20–12:50 発表スライドの見直し（本館2階 学習支援室）\n木 15:00–16:00 引用と著作権の相談（オンライン、開始10分前までに学内ポータルの相談ページから事前登録）\n金 12:10–12:40 学習アプリの使い方（メディアセンター1階、端末貸出あり）\n※個別相談は一人15分。火曜日の講座は満席の場合、次回を案内します。"
+        },
+        {
+          "id": "N2_13_M14_02",
+          "level": "N2",
+          "typeId": "N2-RD-INFO",
+          "category": "情報検索",
+          "stem": "引用や著作権について相談したい。木曜のオンライン相談に参加するために必要なことは何か。",
+          "options": [
+            {
+              "id": "A",
+              "text": "月曜日に本館で15分の相談を予約する。"
+            },
+            {
+              "id": "B",
+              "text": "火曜日にメディアセンターで整理券を受け取る。"
+            },
+            {
+              "id": "C",
+              "text": "学生証を持たずに金曜日の端末を借りる。"
+            },
+            {
+              "id": "D",
+              "text": "開始10分前までに、学内ポータルの相談ページから事前登録する。"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "正解は「開始10分前までに、学内ポータルの相談ページから事前登録する。」です。",
+          "explanationVi": "Buổi tư vấn trích dẫn và bản quyền diễn ra trực tuyến vào thứ Năm. Cần đăng ký trước trên trang tư vấn của cổng trường muộn nhất 10 phút trước giờ bắt đầu.",
+          "distractorExplanations": {
+            "A": "Phương án «月曜日に本館で15分の相談を予約する。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Buổi tư vấn trích dẫn và bản quyền diễn ra trực tuyến vào thứ Năm. Cần đăng ký trước trên trang tư vấn của cổng trường muộn nhất 10 phút trước giờ bắt đầu.",
+            "B": "Phương án «火曜日にメディアセンターで整理券を受け取る。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Buổi tư vấn trích dẫn và bản quyền diễn ra trực tuyến vào thứ Năm. Cần đăng ký trước trên trang tư vấn của cổng trường muộn nhất 10 phút trước giờ bắt đầu.",
+            "C": "Phương án «学生証を持たずに金曜日の端末を借りる。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Buổi tư vấn trích dẫn và bản quyền diễn ra trực tuyến vào thứ Năm. Cần đăng ký trước trên trang tư vấn của cổng trường muộn nhất 10 phút trước giờ bắt đầu."
+          },
+          "topicTag": "student-services",
+          "difficultyBand": 2,
+          "distractorStrategy": "意味・文脈・文法形式の対比",
+          "skill": "Reading",
+          "contextPassage": "【学習支援イベント（予約不要・学生証を持参）】\n月 12:10–12:50 レポートの構成相談（本館2階 学習支援室）\n火 16:30–17:15 文献検索の基礎（メディアセンター3階、先着20名）\n水 12:20–12:50 発表スライドの見直し（本館2階 学習支援室）\n木 15:00–16:00 引用と著作権の相談（オンライン、開始10分前までに学内ポータルの相談ページから事前登録）\n金 12:10–12:40 学習アプリの使い方（メディアセンター1階、端末貸出あり）\n※個別相談は一人15分。火曜日の講座は満席の場合、次回を案内します。",
+          "passage": "【学習支援イベント（予約不要・学生証を持参）】\n月 12:10–12:50 レポートの構成相談（本館2階 学習支援室）\n火 16:30–17:15 文献検索の基礎（メディアセンター3階、先着20名）\n水 12:20–12:50 発表スライドの見直し（本館2階 学習支援室）\n木 15:00–16:00 引用と著作権の相談（オンライン、開始10分前までに学内ポータルの相談ページから事前登録）\n金 12:10–12:40 学習アプリの使い方（メディアセンター1階、端末貸出あり）\n※個別相談は一人15分。火曜日の講座は満席の場合、次回を案内します。"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec-2",
+      "sectionName": "Phần 2: Nghe hiểu",
+      "durationMinutes": 50,
+      "itemCount": 30,
+      "audioStatus": "BROWSER_PLAYBACK_VERIFIED",
+      "audioNoticeVi": "Audio tiếng Nhật được tạo bằng giọng TTS tổng hợp. Cả 30 MP3 đã khớp manifest, giải mã được và phát tiến trên Chromium desktop và mobile emulation; giọng đọc chưa được chứng nhận bởi người bản ngữ.",
+      "items": [
+        {
+          "id": "N2_13_M1_L01",
+          "level": "N2",
+          "typeId": "N2-LIS-TASK",
+          "category": "課題理解",
+          "script": "大学で、教員と学生が発表資料について話しています。\n女：明日の発表ですが、グラフの出典がまだ確認できていません。今夜、資料を提出してもいいでしょうか。\n男：出典を確認せずに配るのは避けたいですね。まず元の調査報告を探して、見つからなければグラフを外すか私に相談してください。",
+          "contextPassage": "大学で、教員と学生が発表資料について話しています。\n女：明日の発表ですが、グラフの出典がまだ確認できていません。今夜、資料を提出してもいいでしょうか。\n男：出典を確認せずに配るのは避けたいですね。まず元の調査報告を探して、見つからなければグラフを外すか私に相談してください。",
+          "stem": "学生はまず何をしますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "先生に資料の印刷を頼む"
+            },
+            {
+              "id": "B",
+              "text": "確認していないグラフを全員に送る"
+            },
+            {
+              "id": "C",
+              "text": "発表の日程を来週に変更する"
+            },
+            {
+              "id": "D",
+              "text": "グラフの出典を元の調査報告で調べる"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "正解は「グラフの出典を元の調査報告で調べる」です。",
+          "explanationVi": "Giảng viên yêu cầu không phát tài liệu khi chưa xác nhận nguồn biểu đồ. Sinh viên sẽ tìm báo cáo khảo sát gốc trước; nếu không tìm được thì hỏi lại giảng viên.",
+          "distractorExplanations": {
+            "A": "Phương án «先生に資料の印刷を頼む» không phù hợp với dữ kiện hoặc cấu trúc của câu. Giảng viên yêu cầu không phát tài liệu khi chưa xác nhận nguồn biểu đồ. Sinh viên sẽ tìm báo cáo khảo sát gốc trước; nếu không tìm được thì hỏi lại giảng viên.",
+            "B": "Phương án «確認していないグラフを全員に送る» không phù hợp với dữ kiện hoặc cấu trúc của câu. Giảng viên yêu cầu không phát tài liệu khi chưa xác nhận nguồn biểu đồ. Sinh viên sẽ tìm báo cáo khảo sát gốc trước; nếu không tìm được thì hỏi lại giảng viên.",
+            "C": "Phương án «発表の日程を来週に変更する» không phù hợp với dữ kiện hoặc cấu trúc của câu. Giảng viên yêu cầu không phát tài liệu khi chưa xác nhận nguồn biểu đồ. Sinh viên sẽ tìm báo cáo khảo sát gốc trước; nếu không tìm được thì hỏi lại giảng viên."
+          },
+          "topicTag": "campus-life",
+          "difficultyBand": 2,
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_13/N2_13_M1_L01.mp3",
+          "audioDurationSec": 34.704,
+          "audioSha256": "cd1ab0849469280e451b564d0687479014470202b4ff473754b997f4c9c0166e",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_13_M1_L02",
+          "level": "N2",
+          "typeId": "N2-LIS-TASK",
+          "category": "課題理解",
+          "script": "図書館で、学生と職員が電子書籍について話しています。\n男：この本を今すぐ読みたいのですが、貸出中と表示されています。\n女：予約できますが、順番が来るまで少しかかりそうです。急ぎなら、同じ内容の紙の本が別館にあるか検索してみてください。\n男：では、まず所蔵状況を調べます。",
+          "contextPassage": "図書館で、学生と職員が電子書籍について話しています。\n男：この本を今すぐ読みたいのですが、貸出中と表示されています。\n女：予約できますが、順番が来るまで少しかかりそうです。急ぎなら、同じ内容の紙の本が別館にあるか検索してみてください。\n男：では、まず所蔵状況を調べます。",
+          "stem": "男の人はまず何をしますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "別館へ電話して返却を急がせる"
+            },
+            {
+              "id": "B",
+              "text": "別館に紙の本があるか検索する"
+            },
+            {
+              "id": "C",
+              "text": "電子書籍を購入する"
+            },
+            {
+              "id": "D",
+              "text": "予約を取り消す"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "正解は「別館に紙の本があるか検索する」です。",
+          "explanationVi": "Đặt trước có thể phải chờ, nên người đàn ông chọn phương án nhanh hơn là tìm cuốn sách giấy ở thư viện cơ sở phụ.",
+          "distractorExplanations": {
+            "A": "Phương án «別館へ電話して返却を急がせる» không phù hợp với dữ kiện hoặc cấu trúc của câu. Đặt trước có thể phải chờ, nên người đàn ông chọn phương án nhanh hơn là tìm cuốn sách giấy ở thư viện cơ sở phụ.",
+            "C": "Phương án «電子書籍を購入する» không phù hợp với dữ kiện hoặc cấu trúc của câu. Đặt trước có thể phải chờ, nên người đàn ông chọn phương án nhanh hơn là tìm cuốn sách giấy ở thư viện cơ sở phụ.",
+            "D": "Phương án «予約を取り消す» không phù hợp với dữ kiện hoặc cấu trúc của câu. Đặt trước có thể phải chờ, nên người đàn ông chọn phương án nhanh hơn là tìm cuốn sách giấy ở thư viện cơ sở phụ."
+          },
+          "topicTag": "campus-life",
+          "difficultyBand": 2,
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_13/N2_13_M1_L02.mp3",
+          "audioDurationSec": 35.056,
+          "audioSha256": "b0cc718928c9abaab81a3699428167171fbd98de775f0e6387d6c9c903a737a1",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_13_M1_L03",
+          "level": "N2",
+          "typeId": "N2-LIS-TASK",
+          "category": "課題理解",
+          "script": "大学の研究室で、二人の学生が調査データを確認しています。\n女：アンケートの表、人数が前の版と違うみたい。\n男：集計し直したからだと思う。でも、欠席者の回答が入ったかはまだ分からない。\n女：まず回答一覧と集計表を照らし合わせよう。\n男：そうだね。先生に送るのは確認してからにしよう。",
+          "contextPassage": "大学の研究室で、二人の学生が調査データを確認しています。\n女：アンケートの表、人数が前の版と違うみたい。\n男：集計し直したからだと思う。でも、欠席者の回答が入ったかはまだ分からない。\n女：まず回答一覧と集計表を照らし合わせよう。\n男：そうだね。先生に送るのは確認してからにしよう。",
+          "stem": "二人はまず何をしますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "先生に前の版だけを送る"
+            },
+            {
+              "id": "B",
+              "text": "新しい回答を追加で集める"
+            },
+            {
+              "id": "C",
+              "text": "数字が合わないまま報告書を公開する"
+            },
+            {
+              "id": "D",
+              "text": "回答一覧と集計表を照合する"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "正解は「回答一覧と集計表を照合する」です。",
+          "explanationVi": "Sau khi tính lại, họ chưa rõ bảng có tính câu trả lời của người vắng mặt không. Họ thống nhất đối chiếu danh sách câu trả lời với bảng tổng hợp trước khi gửi.",
+          "distractorExplanations": {
+            "A": "Phương án «先生に前の版だけを送る» không phù hợp với dữ kiện hoặc cấu trúc của câu. Sau khi tính lại, họ chưa rõ bảng có tính câu trả lời của người vắng mặt không. Họ thống nhất đối chiếu danh sách câu trả lời với bảng tổng hợp trước khi gửi.",
+            "B": "Phương án «新しい回答を追加で集める» không phù hợp với dữ kiện hoặc cấu trúc của câu. Sau khi tính lại, họ chưa rõ bảng có tính câu trả lời của người vắng mặt không. Họ thống nhất đối chiếu danh sách câu trả lời với bảng tổng hợp trước khi gửi.",
+            "C": "Phương án «数字が合わないまま報告書を公開する» không phù hợp với dữ kiện hoặc cấu trúc của câu. Sau khi tính lại, họ chưa rõ bảng có tính câu trả lời của người vắng mặt không. Họ thống nhất đối chiếu danh sách câu trả lời với bảng tổng hợp trước khi gửi."
+          },
+          "topicTag": "campus-life",
+          "difficultyBand": 2,
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_13/N2_13_M1_L03.mp3",
+          "audioDurationSec": 37.04,
+          "audioSha256": "20bec693529d6d80b0803a8d87afd1b543f321474c483fbceb0fec48710f5957",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_13_M1_L04",
+          "level": "N2",
+          "typeId": "N2-LIS-TASK",
+          "category": "課題理解",
+          "script": "学生と職員がオンライン授業の録画について話しています。\n男：先週の録画を見ようとしたら、音声が途中で切れていました。\n女：配信担当に連絡しましたか。\n男：はい。修正版は明日の午後に出るそうです。今は講義資料だけ公開されています。\n女：それなら、今日の課題は資料を読んで進めて、分からないところをメモしておきましょう。",
+          "contextPassage": "学生と職員がオンライン授業の録画について話しています。\n男：先週の録画を見ようとしたら、音声が途中で切れていました。\n女：配信担当に連絡しましたか。\n男：はい。修正版は明日の午後に出るそうです。今は講義資料だけ公開されています。\n女：それなら、今日の課題は資料を読んで進めて、分からないところをメモしておきましょう。",
+          "stem": "男の人は今日、まず何をしますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "修正版の録画が出るまで課題を提出する"
+            },
+            {
+              "id": "B",
+              "text": "公開済みの講義資料で課題を進める"
+            },
+            {
+              "id": "C",
+              "text": "音声の編集方法を担当者に教える"
+            },
+            {
+              "id": "D",
+              "text": "講義資料を配信サイトから削除する"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "正解は「公開済みの講義資料で課題を進める」です。",
+          "explanationVi": "Bản ghi hình đã sửa chỉ có vào ngày mai, còn tài liệu bài giảng có thể dùng ngay. Sinh viên sẽ làm bài bằng tài liệu và ghi lại điểm chưa hiểu.",
+          "distractorExplanations": {
+            "A": "Phương án «修正版の録画が出るまで課題を提出する» không phù hợp với dữ kiện hoặc cấu trúc của câu. Bản ghi hình đã sửa chỉ có vào ngày mai, còn tài liệu bài giảng có thể dùng ngay. Sinh viên sẽ làm bài bằng tài liệu và ghi lại điểm chưa hiểu.",
+            "C": "Phương án «音声の編集方法を担当者に教える» không phù hợp với dữ kiện hoặc cấu trúc của câu. Bản ghi hình đã sửa chỉ có vào ngày mai, còn tài liệu bài giảng có thể dùng ngay. Sinh viên sẽ làm bài bằng tài liệu và ghi lại điểm chưa hiểu.",
+            "D": "Phương án «講義資料を配信サイトから削除する» không phù hợp với dữ kiện hoặc cấu trúc của câu. Bản ghi hình đã sửa chỉ có vào ngày mai, còn tài liệu bài giảng có thể dùng ngay. Sinh viên sẽ làm bài bằng tài liệu và ghi lại điểm chưa hiểu."
+          },
+          "topicTag": "campus-life",
+          "difficultyBand": 2,
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_13/N2_13_M1_L04.mp3",
+          "audioDurationSec": 39.08,
+          "audioSha256": "27895ff110b87a5fb757adc0fca256259d834d31a0ab69d4dfefcb98a90f5029",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_13_M1_L05",
+          "level": "N2",
+          "typeId": "N2-LIS-TASK",
+          "category": "課題理解",
+          "script": "大学の広報室で、学生と職員がイベント告知について相談しています。\n女：研究紹介会のポスター、今日中に公開したいです。\n男：会場は決まりましたが、参加対象の書き方がまだ曖昧ですね。高校生も参加できるか、研究室に確認してから載せましょう。\n女：では、先に確認のメールを送ります。",
+          "contextPassage": "大学の広報室で、学生と職員がイベント告知について相談しています。\n女：研究紹介会のポスター、今日中に公開したいです。\n男：会場は決まりましたが、参加対象の書き方がまだ曖昧ですね。高校生も参加できるか、研究室に確認してから載せましょう。\n女：では、先に確認のメールを送ります。",
+          "stem": "女の人はまず何をしますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "ポスターを確認せず公開する"
+            },
+            {
+              "id": "B",
+              "text": "会場を別の建物に変更する"
+            },
+            {
+              "id": "C",
+              "text": "対象を大学院生だけに決める"
+            },
+            {
+              "id": "D",
+              "text": "参加対象を研究室に確認する"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "正解は「参加対象を研究室に確認する」です。",
+          "explanationVi": "Đối tượng được dự buổi giới thiệu chưa rõ, nên nữ sinh sẽ hỏi phòng nghiên cứu qua email trước khi công bố thông báo.",
+          "distractorExplanations": {
+            "A": "Phương án «ポスターを確認せず公開する» không phù hợp với dữ kiện hoặc cấu trúc của câu. Đối tượng được dự buổi giới thiệu chưa rõ, nên nữ sinh sẽ hỏi phòng nghiên cứu qua email trước khi công bố thông báo.",
+            "B": "Phương án «会場を別の建物に変更する» không phù hợp với dữ kiện hoặc cấu trúc của câu. Đối tượng được dự buổi giới thiệu chưa rõ, nên nữ sinh sẽ hỏi phòng nghiên cứu qua email trước khi công bố thông báo.",
+            "C": "Phương án «対象を大学院生だけに決める» không phù hợp với dữ kiện hoặc cấu trúc của câu. Đối tượng được dự buổi giới thiệu chưa rõ, nên nữ sinh sẽ hỏi phòng nghiên cứu qua email trước khi công bố thông báo."
+          },
+          "topicTag": "campus-life",
+          "difficultyBand": 2,
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_13/N2_13_M1_L05.mp3",
+          "audioDurationSec": 36.016,
+          "audioSha256": "22fae597f5564608b5e2a25c5aef05edb8e0763433a9aef1195ec6e6ce923078",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_13_M2_L01",
+          "level": "N2",
+          "typeId": "N2-LIS-POINT",
+          "category": "ポイント理解",
+          "script": "大学の授業担当者が、レポート提出について説明しています。\nレポートは来週金曜日の午後五時までに学内ポータルから提出してください。ファイル形式はPDFに限ります。提出後に内容を差し替えることはできませんが、締切前なら一度取り下げて再提出できます。",
+          "contextPassage": "大学の授業担当者が、レポート提出について説明しています。\nレポートは来週金曜日の午後五時までに学内ポータルから提出してください。ファイル形式はPDFに限ります。提出後に内容を差し替えることはできませんが、締切前なら一度取り下げて再提出できます。",
+          "stem": "提出方法について、学生が注意すべきことは何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "PDFで締切までに提出し、直す場合は締切前に再提出する"
+            },
+            {
+              "id": "B",
+              "text": "紙に印刷して教員室へ持参する"
+            },
+            {
+              "id": "C",
+              "text": "ファイル形式は指定されていない"
+            },
+            {
+              "id": "D",
+              "text": "締切後も自由に内容を差し替えられる"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "正解は「PDFで締切までに提出し、直す場合は締切前に再提出する」です。",
+          "explanationVi": "Bài phải nộp dưới dạng PDF trước 17 giờ thứ Sáu. Không thể ghi đè sau khi nộp, nhưng có thể rút lại và nộp bản mới trước hạn.",
+          "distractorExplanations": {
+            "B": "Phương án «紙に印刷して教員室へ持参する» không phù hợp với dữ kiện hoặc cấu trúc của câu. Bài phải nộp dưới dạng PDF trước 17 giờ thứ Sáu. Không thể ghi đè sau khi nộp, nhưng có thể rút lại và nộp bản mới trước hạn.",
+            "C": "Phương án «ファイル形式は指定されていない» không phù hợp với dữ kiện hoặc cấu trúc của câu. Bài phải nộp dưới dạng PDF trước 17 giờ thứ Sáu. Không thể ghi đè sau khi nộp, nhưng có thể rút lại và nộp bản mới trước hạn.",
+            "D": "Phương án «締切後も自由に内容を差し替えられる» không phù hợp với dữ kiện hoặc cấu trúc của câu. Bài phải nộp dưới dạng PDF trước 17 giờ thứ Sáu. Không thể ghi đè sau khi nộp, nhưng có thể rút lại và nộp bản mới trước hạn."
+          },
+          "topicTag": "student-services",
+          "difficultyBand": 2,
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_13/N2_13_M2_L01.mp3",
+          "audioDurationSec": 38.84,
+          "audioSha256": "5f372b9b1a0213214868b9da93981386698b0ababa6a82ae41457a6750e37fdc",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_13_M2_L02",
+          "level": "N2",
+          "typeId": "N2-LIS-POINT",
+          "category": "ポイント理解",
+          "script": "図書館員が、新しい文献検索講座について案内しています。\n講座は火曜日の午後四時半から、メディアセンター三階で行います。予約は不要ですが、端末の台数に限りがあるため、実習を希望する人は開始時刻までに来てください。途中から参加する場合は見学のみとなります。",
+          "contextPassage": "図書館員が、新しい文献検索講座について案内しています。\n講座は火曜日の午後四時半から、メディアセンター三階で行います。予約は不要ですが、端末の台数に限りがあるため、実習を希望する人は開始時刻までに来てください。途中から参加する場合は見学のみとなります。",
+          "stem": "実習をしたい人はどうすればよいですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "事前に電話で個別予約する"
+            },
+            {
+              "id": "B",
+              "text": "途中から参加して端末を借りる"
+            },
+            {
+              "id": "C",
+              "text": "別の日に図書館員を訪ねる"
+            },
+            {
+              "id": "D",
+              "text": "開始時刻までに会場へ来る"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "正解は「開始時刻までに会場へ来る」です。",
+          "explanationVi": "Không cần đăng ký nhưng số máy tính có hạn. Người muốn làm thực hành phải đến đúng giờ bắt đầu; người đến muộn chỉ được dự thính.",
+          "distractorExplanations": {
+            "A": "Phương án «事前に電話で個別予約する» không phù hợp với dữ kiện hoặc cấu trúc của câu. Không cần đăng ký nhưng số máy tính có hạn. Người muốn làm thực hành phải đến đúng giờ bắt đầu; người đến muộn chỉ được dự thính.",
+            "B": "Phương án «途中から参加して端末を借りる» không phù hợp với dữ kiện hoặc cấu trúc của câu. Không cần đăng ký nhưng số máy tính có hạn. Người muốn làm thực hành phải đến đúng giờ bắt đầu; người đến muộn chỉ được dự thính.",
+            "C": "Phương án «別の日に図書館員を訪ねる» không phù hợp với dữ kiện hoặc cấu trúc của câu. Không cần đăng ký nhưng số máy tính có hạn. Người muốn làm thực hành phải đến đúng giờ bắt đầu; người đến muộn chỉ được dự thính."
+          },
+          "topicTag": "student-services",
+          "difficultyBand": 2,
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_13/N2_13_M2_L02.mp3",
+          "audioDurationSec": 38.504,
+          "audioSha256": "3cb776dcdba4daa8a08abbd5cd67bd0eab64ca7ad14c788b978d13af788d69bd",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_13_M2_L03",
+          "level": "N2",
+          "typeId": "N2-LIS-POINT",
+          "category": "ポイント理解",
+          "script": "教授が、授業で使う自動翻訳について話しています。\n翻訳ツールは下訳を作るには便利ですが、専門用語や否定の範囲を誤ることがあります。特に引用部分は原文を確かめてください。翻訳文をそのまま提出するのではなく、意味を確認したうえで自分の文章に直すことが大切です。",
+          "contextPassage": "教授が、授業で使う自動翻訳について話しています。\n翻訳ツールは下訳を作るには便利ですが、専門用語や否定の範囲を誤ることがあります。特に引用部分は原文を確かめてください。翻訳文をそのまま提出するのではなく、意味を確認したうえで自分の文章に直すことが大切です。",
+          "stem": "教授が特に注意するよう求めていることは何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "自動翻訳の文章をそのまま提出する"
+            },
+            {
+              "id": "B",
+              "text": "翻訳ツールを一切使わない"
+            },
+            {
+              "id": "C",
+              "text": "否定表現の確認は必要ない"
+            },
+            {
+              "id": "D",
+              "text": "引用や専門語は原文と照らし、意味を確かめる"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "正解は「引用や専門語は原文と照らし、意味を確かめる」です。",
+          "explanationVi": "Bản dịch tự động có thể sai thuật ngữ và câu phủ định. Người học cần kiểm tra phần trích dẫn với nguyên bản và tự xác nhận nghĩa của bản dịch.",
+          "distractorExplanations": {
+            "A": "Phương án «自動翻訳の文章をそのまま提出する» không phù hợp với dữ kiện hoặc cấu trúc của câu. Bản dịch tự động có thể sai thuật ngữ và câu phủ định. Người học cần kiểm tra phần trích dẫn với nguyên bản và tự xác nhận nghĩa của bản dịch.",
+            "B": "Phương án «翻訳ツールを一切使わない» không phù hợp với dữ kiện hoặc cấu trúc của câu. Bản dịch tự động có thể sai thuật ngữ và câu phủ định. Người học cần kiểm tra phần trích dẫn với nguyên bản và tự xác nhận nghĩa của bản dịch.",
+            "C": "Phương án «否定表現の確認は必要ない» không phù hợp với dữ kiện hoặc cấu trúc của câu. Bản dịch tự động có thể sai thuật ngữ và câu phủ định. Người học cần kiểm tra phần trích dẫn với nguyên bản và tự xác nhận nghĩa của bản dịch."
+          },
+          "topicTag": "student-services",
+          "difficultyBand": 2,
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_13/N2_13_M2_L03.mp3",
+          "audioDurationSec": 40.04,
+          "audioSha256": "d2abfe1b0df1354365482bf18abf30d2ab3b9518d81810b80271634f5c827f17",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_13_M2_L04",
+          "level": "N2",
+          "typeId": "N2-LIS-POINT",
+          "category": "ポイント理解",
+          "script": "大学の広報担当者が、研究成果の紹介記事について説明しています。\n記事は専門外の人にも読めるよう、難しい語を言い換えています。ただし、結果が限られた条件で得られた場合、その条件を省いて一般的な効果のように書くことはできません。短くする場合も、対象者や調査期間は残す方針です。",
+          "contextPassage": "大学の広報担当者が、研究成果の紹介記事について説明しています。\n記事は専門外の人にも読めるよう、難しい語を言い換えています。ただし、結果が限られた条件で得られた場合、その条件を省いて一般的な効果のように書くことはできません。短くする場合も、対象者や調査期間は残す方針です。",
+          "stem": "記事を短くするとき、広報担当者が残すものは何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "結果が得られた対象や調査期間"
+            },
+            {
+              "id": "B",
+              "text": "研究者の個人的な感想"
+            },
+            {
+              "id": "C",
+              "text": "実験に関係のない背景説明"
+            },
+            {
+              "id": "D",
+              "text": "すべての専門用語"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "正解は「結果が得られた対象や調査期間」です。",
+          "explanationVi": "Dù viết lại cho dễ đọc, không được bỏ đối tượng khảo sát hay thời gian khảo sát vì người đọc cần chúng để hiểu phạm vi kết quả.",
+          "distractorExplanations": {
+            "B": "Phương án «研究者の個人的な感想» không phù hợp với dữ kiện hoặc cấu trúc của câu. Dù viết lại cho dễ đọc, không được bỏ đối tượng khảo sát hay thời gian khảo sát vì người đọc cần chúng để hiểu phạm vi kết quả.",
+            "C": "Phương án «実験に関係のない背景説明» không phù hợp với dữ kiện hoặc cấu trúc của câu. Dù viết lại cho dễ đọc, không được bỏ đối tượng khảo sát hay thời gian khảo sát vì người đọc cần chúng để hiểu phạm vi kết quả.",
+            "D": "Phương án «すべての専門用語» không phù hợp với dữ kiện hoặc cấu trúc của câu. Dù viết lại cho dễ đọc, không được bỏ đối tượng khảo sát hay thời gian khảo sát vì người đọc cần chúng để hiểu phạm vi kết quả."
+          },
+          "topicTag": "student-services",
+          "difficultyBand": 2,
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_13/N2_13_M2_L04.mp3",
+          "audioDurationSec": 42.8,
+          "audioSha256": "cf4ea000e320de437e0db27f57b8c69bb28e684a2ffe579a786b2ce2c488969e",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_13_M2_L05",
+          "level": "N2",
+          "typeId": "N2-LIS-POINT",
+          "category": "ポイント理解",
+          "script": "授業で、学生が共有データの扱いについて確認しています。\n共有フォルダーには、授業の課題に必要な資料だけを置いてください。学生の氏名や連絡先を含むファイルは、アクセス権を限定して別の場所に保存します。課題が終わった後は、不要な複製を消す前に担当教員へ確認してください。",
+          "contextPassage": "授業で、学生が共有データの扱いについて確認しています。\n共有フォルダーには、授業の課題に必要な資料だけを置いてください。学生の氏名や連絡先を含むファイルは、アクセス権を限定して別の場所に保存します。課題が終わった後は、不要な複製を消す前に担当教員へ確認してください。",
+          "stem": "学生が共有フォルダーに置いてはいけないものは何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "教員が共有を認めた教材"
+            },
+            {
+              "id": "B",
+              "text": "個人情報を含まない参考リンク"
+            },
+            {
+              "id": "C",
+              "text": "授業課題に必要な一般資料"
+            },
+            {
+              "id": "D",
+              "text": "氏名や連絡先が含まれたファイル"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "正解は「氏名や連絡先が含まれたファイル」です。",
+          "explanationVi": "Tệp có tên hoặc thông tin liên lạc phải được lưu ở nơi chỉ người được phép mới có thể truy cập.",
+          "distractorExplanations": {
+            "A": "Phương án «教員が共有を認めた教材» không phù hợp với dữ kiện hoặc cấu trúc của câu. Tệp có tên hoặc thông tin liên lạc phải được lưu ở nơi chỉ người được phép mới có thể truy cập.",
+            "B": "Phương án «個人情報を含まない参考リンク» không phù hợp với dữ kiện hoặc cấu trúc của câu. Tệp có tên hoặc thông tin liên lạc phải được lưu ở nơi chỉ người được phép mới có thể truy cập.",
+            "C": "Phương án «授業課題に必要な一般資料» không phù hợp với dữ kiện hoặc cấu trúc của câu. Tệp có tên hoặc thông tin liên lạc phải được lưu ở nơi chỉ người được phép mới có thể truy cập."
+          },
+          "topicTag": "student-services",
+          "difficultyBand": 2,
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_13/N2_13_M2_L05.mp3",
+          "audioDurationSec": 40.088,
+          "audioSha256": "cb446155647d5566ba37a4c1b064949c3a744e7c95d3061a9b0d6e1ecd3e2a4b",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_13_M2_L06",
+          "level": "N2",
+          "typeId": "N2-LIS-POINT",
+          "category": "ポイント理解",
+          "script": "学生支援室が、新しい相談予約システムについて案内しています。\n予約画面では、相談内容を詳しく書く必要はありません。希望する時間と、対面かオンラインかを選んでください。緊急性の高い相談は予約画面ではなく、受付時間内に電話で連絡してください。予約の変更は前日までできます。",
+          "contextPassage": "学生支援室が、新しい相談予約システムについて案内しています。\n予約画面では、相談内容を詳しく書く必要はありません。希望する時間と、対面かオンラインかを選んでください。緊急性の高い相談は予約画面ではなく、受付時間内に電話で連絡してください。予約の変更は前日までできます。",
+          "stem": "急いで相談したい学生はどうすればよいですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "予約画面に詳しい事情を入力する"
+            },
+            {
+              "id": "B",
+              "text": "翌日まで待ってオンライン予約をする"
+            },
+            {
+              "id": "C",
+              "text": "受付時間内に電話する"
+            },
+            {
+              "id": "D",
+              "text": "前日を過ぎてから時間を変更する"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "正解は「受付時間内に電話する」です。",
+          "explanationVi": "Tư vấn khẩn cấp không nhận qua biểu mẫu đặt lịch; sinh viên cần gọi điện trong giờ tiếp nhận.",
+          "distractorExplanations": {
+            "A": "Phương án «予約画面に詳しい事情を入力する» không phù hợp với dữ kiện hoặc cấu trúc của câu. Tư vấn khẩn cấp không nhận qua biểu mẫu đặt lịch; sinh viên cần gọi điện trong giờ tiếp nhận.",
+            "B": "Phương án «翌日まで待ってオンライン予約をする» không phù hợp với dữ kiện hoặc cấu trúc của câu. Tư vấn khẩn cấp không nhận qua biểu mẫu đặt lịch; sinh viên cần gọi điện trong giờ tiếp nhận.",
+            "D": "Phương án «前日を過ぎてから時間を変更する» không phù hợp với dữ kiện hoặc cấu trúc của câu. Tư vấn khẩn cấp không nhận qua biểu mẫu đặt lịch; sinh viên cần gọi điện trong giờ tiếp nhận."
+          },
+          "topicTag": "student-services",
+          "difficultyBand": 2,
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_13/N2_13_M2_L06.mp3",
+          "audioDurationSec": 41.624,
+          "audioSha256": "3a0d96af1f70ed3db52affb41ec6ef6370c9d93e2c9d0036bc9fc66a6adb5340",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_13_M3_L01",
+          "level": "N2",
+          "typeId": "N2-LIS-SUMM",
+          "category": "概要理解",
+          "script": "大学の教員が、授業後の質問対応について話しています。\n以前は、質問がある学生に授業後すぐ研究室へ来てもらっていました。しかし、質問をまとめてから来る学生や、他の人の質問も参考にしたい学生がいます。そこで、週に一度、授業サイトに質問を投稿できる時間を設けます。全てに個別回答するのではなく、複数の学生に共通する疑問を次の授業で取り上げる予定です。",
+          "contextPassage": "大学の教員が、授業後の質問対応について話しています。\n以前は、質問がある学生に授業後すぐ研究室へ来てもらっていました。しかし、質問をまとめてから来る学生や、他の人の質問も参考にしたい学生がいます。そこで、週に一度、授業サイトに質問を投稿できる時間を設けます。全てに個別回答するのではなく、複数の学生に共通する疑問を次の授業で取り上げる予定です。",
+          "stem": "教員が取り入れようとしている方法は何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "質問を受け付けず、教科書を読むよう求める"
+            },
+            {
+              "id": "B",
+              "text": "研究室で質問した学生だけに答える"
+            },
+            {
+              "id": "C",
+              "text": "授業後すぐに全質問へ個別回答する"
+            },
+            {
+              "id": "D",
+              "text": "共通する疑問を集め、次の授業で説明する"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "正解は「共通する疑問を集め、次の授業で説明する」です。",
+          "explanationVi": "Giảng viên sẽ thu câu hỏi trên trang lớp, gom những thắc mắc chung rồi giải thích trong buổi học kế tiếp, thay vì trả lời riêng từng câu.",
+          "distractorExplanations": {
+            "A": "Phương án «質問を受け付けず、教科書を読むよう求める» không phù hợp với dữ kiện hoặc cấu trúc của câu. Giảng viên sẽ thu câu hỏi trên trang lớp, gom những thắc mắc chung rồi giải thích trong buổi học kế tiếp, thay vì trả lời riêng từng câu.",
+            "B": "Phương án «研究室で質問した学生だけに答える» không phù hợp với dữ kiện hoặc cấu trúc của câu. Giảng viên sẽ thu câu hỏi trên trang lớp, gom những thắc mắc chung rồi giải thích trong buổi học kế tiếp, thay vì trả lời riêng từng câu.",
+            "C": "Phương án «授業後すぐに全質問へ個別回答する» không phù hợp với dữ kiện hoặc cấu trúc của câu. Giảng viên sẽ thu câu hỏi trên trang lớp, gom những thắc mắc chung rồi giải thích trong buổi học kế tiếp, thay vì trả lời riêng từng câu."
+          },
+          "topicTag": "learning-technology",
+          "difficultyBand": 3,
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_13/N2_13_M3_L01.mp3",
+          "audioDurationSec": 66.316,
+          "audioSha256": "5333901c2bb737d061b190b9a9f3fb403cad176e4ad3e97c229ba1c76f0b4baf",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_13_M3_L02",
+          "level": "N2",
+          "typeId": "N2-LIS-SUMM",
+          "category": "概要理解",
+          "script": "大学図書館の職員が、新聞記事の検索サービスについて説明しています。\n検索サービスには多くの記事が登録されていますが、検索結果の順番だけで情報の重要さが決まるわけではありません。授業で使う場合は、掲載日、記事の目的、引用元を確認し、別の新聞や公的資料と比べることも勧めています。検索の便利さを生かしながら、結果をそのまま結論にしないことが大切です。",
+          "contextPassage": "大学図書館の職員が、新聞記事の検索サービスについて説明しています。\n検索サービスには多くの記事が登録されていますが、検索結果の順番だけで情報の重要さが決まるわけではありません。授業で使う場合は、掲載日、記事の目的、引用元を確認し、別の新聞や公的資料と比べることも勧めています。検索の便利さを生かしながら、結果をそのまま結論にしないことが大切です。",
+          "stem": "職員が最も伝えたいことは何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "検索順位が高い記事をそのまま引用する"
+            },
+            {
+              "id": "B",
+              "text": "記事の掲載日や目的は確認しなくてよい"
+            },
+            {
+              "id": "C",
+              "text": "新聞記事より検索サービスを使わない"
+            },
+            {
+              "id": "D",
+              "text": "検索結果は手がかりにし、出典や別資料も確かめる"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "正解は「検索結果は手がかりにし、出典や別資料も確かめる」です。",
+          "explanationVi": "Kết quả tìm kiếm chỉ là gợi ý. Cần kiểm tra ngày đăng, mục đích, nguồn trích dẫn và so sánh với tài liệu khác.",
+          "distractorExplanations": {
+            "A": "Phương án «検索順位が高い記事をそのまま引用する» không phù hợp với dữ kiện hoặc cấu trúc của câu. Kết quả tìm kiếm chỉ là gợi ý. Cần kiểm tra ngày đăng, mục đích, nguồn trích dẫn và so sánh với tài liệu khác.",
+            "B": "Phương án «記事の掲載日や目的は確認しなくてよい» không phù hợp với dữ kiện hoặc cấu trúc của câu. Kết quả tìm kiếm chỉ là gợi ý. Cần kiểm tra ngày đăng, mục đích, nguồn trích dẫn và so sánh với tài liệu khác.",
+            "C": "Phương án «新聞記事より検索サービスを使わない» không phù hợp với dữ kiện hoặc cấu trúc của câu. Kết quả tìm kiếm chỉ là gợi ý. Cần kiểm tra ngày đăng, mục đích, nguồn trích dẫn và so sánh với tài liệu khác."
+          },
+          "topicTag": "learning-technology",
+          "difficultyBand": 3,
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_13/N2_13_M3_L02.mp3",
+          "audioDurationSec": 66.388,
+          "audioSha256": "89ee30b204e137d865f2da651a0df62c025bbec38d7f722c0ca739b60e4f27bf",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_13_M3_L03",
+          "level": "N2",
+          "typeId": "N2-LIS-SUMM",
+          "category": "概要理解",
+          "script": "学生が、学習用アプリの通知について発表しています。\n通知を増やせば学習時間が必ず伸びると考えていましたが、試験期間には通知を消す学生もいました。調査では、通知の多さより、本人が目標と時間を選べることが続けやすさと関係しているようです。次の試験では、通知を一律に送るのではなく、学生が自分で設定できる機能を試す予定です。",
+          "contextPassage": "学生が、学習用アプリの通知について発表しています。\n通知を増やせば学習時間が必ず伸びると考えていましたが、試験期間には通知を消す学生もいました。調査では、通知の多さより、本人が目標と時間を選べることが続けやすさと関係しているようです。次の試験では、通知を一律に送るのではなく、学生が自分で設定できる機能を試す予定です。",
+          "stem": "学生が次に試そうとしていることは何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "通知を全員の端末から削除すること"
+            },
+            {
+              "id": "B",
+              "text": "学生が自分で通知の設定を選べる機能"
+            },
+            {
+              "id": "C",
+              "text": "学習時間をアプリで強制的に記録する方法"
+            },
+            {
+              "id": "D",
+              "text": "試験期間に通知を一日中送る方法"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "正解は「学生が自分で通知の設定を選べる機能」です。",
+          "explanationVi": "Số thông báo không quyết định việc học có tiếp tục hay không; việc tự chọn mục tiêu và thời gian có liên quan hơn. Sinh viên sẽ thử chức năng tự chọn cách cài đặt thông báo.",
+          "distractorExplanations": {
+            "A": "Phương án «通知を全員の端末から削除すること» không phù hợp với dữ kiện hoặc cấu trúc của câu. Số thông báo không quyết định việc học có tiếp tục hay không; việc tự chọn mục tiêu và thời gian có liên quan hơn. Sinh viên sẽ thử chức năng tự chọn cách cài đặt thông báo.",
+            "C": "Phương án «学習時間をアプリで強制的に記録する方法» không phù hợp với dữ kiện hoặc cấu trúc của câu. Số thông báo không quyết định việc học có tiếp tục hay không; việc tự chọn mục tiêu và thời gian có liên quan hơn. Sinh viên sẽ thử chức năng tự chọn cách cài đặt thông báo.",
+            "D": "Phương án «試験期間に通知を一日中送る方法» không phù hợp với dữ kiện hoặc cấu trúc của câu. Số thông báo không quyết định việc học có tiếp tục hay không; việc tự chọn mục tiêu và thời gian có liên quan hơn. Sinh viên sẽ thử chức năng tự chọn cách cài đặt thông báo."
+          },
+          "topicTag": "learning-technology",
+          "difficultyBand": 3,
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_13/N2_13_M3_L03.mp3",
+          "audioDurationSec": 63.292,
+          "audioSha256": "02567979a5bec7f72fb40deae4a389b262b2fc5410472ee79c5f3723b8eb6e2e",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_13_M3_L04",
+          "level": "N2",
+          "typeId": "N2-LIS-SUMM",
+          "category": "概要理解",
+          "script": "研究者が、生成AIを使った文献要約について話しています。\n要約を作る時間は短くなりましたが、引用文献にない主張が含まれる例もありました。研究室では、要約を読むだけで文献を読んだことにせず、重要な主張は元の論文の該当箇所を確かめる手順を加えました。AIの利用を禁止するのではなく、確認が必要な場所を人が見つける方法を整えたいと考えています。",
+          "contextPassage": "研究者が、生成AIを使った文献要約について話しています。\n要約を作る時間は短くなりましたが、引用文献にない主張が含まれる例もありました。研究室では、要約を読むだけで文献を読んだことにせず、重要な主張は元の論文の該当箇所を確かめる手順を加えました。AIの利用を禁止するのではなく、確認が必要な場所を人が見つける方法を整えたいと考えています。",
+          "stem": "研究者はAI要約をどのように使いたいと考えていますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "誤りがあるので研究室では一切禁止する"
+            },
+            {
+              "id": "B",
+              "text": "要約にある情報は出典を見ずに引用する"
+            },
+            {
+              "id": "C",
+              "text": "文献を読む代わりにせず、重要な主張を原文で確かめる"
+            },
+            {
+              "id": "D",
+              "text": "確認作業をなくして要約の数を増やす"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "正解は「文献を読む代わりにせず、重要な主張を原文で確かめる」です。",
+          "explanationVi": "Bản tóm tắt AI có thể thêm nhận định không có trong bài gốc. Người nghiên cứu dùng nó làm công cụ hỗ trợ nhưng kiểm tra các luận điểm quan trọng trong bài luận ban đầu.",
+          "distractorExplanations": {
+            "A": "Phương án «誤りがあるので研究室では一切禁止する» không phù hợp với dữ kiện hoặc cấu trúc của câu. Bản tóm tắt AI có thể thêm nhận định không có trong bài gốc. Người nghiên cứu dùng nó làm công cụ hỗ trợ nhưng kiểm tra các luận điểm quan trọng trong bài luận ban đầu.",
+            "B": "Phương án «要約にある情報は出典を見ずに引用する» không phù hợp với dữ kiện hoặc cấu trúc của câu. Bản tóm tắt AI có thể thêm nhận định không có trong bài gốc. Người nghiên cứu dùng nó làm công cụ hỗ trợ nhưng kiểm tra các luận điểm quan trọng trong bài luận ban đầu.",
+            "D": "Phương án «確認作業をなくして要約の数を増やす» không phù hợp với dữ kiện hoặc cấu trúc của câu. Bản tóm tắt AI có thể thêm nhận định không có trong bài gốc. Người nghiên cứu dùng nó làm công cụ hỗ trợ nhưng kiểm tra các luận điểm quan trọng trong bài luận ban đầu."
+          },
+          "topicTag": "learning-technology",
+          "difficultyBand": 3,
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_13/N2_13_M3_L04.mp3",
+          "audioDurationSec": 66.364,
+          "audioSha256": "8ffe6d77672be3a05722460d0aeb96429276187ef2cc29438b787e2a1ea500e4",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_13_M3_L05",
+          "level": "N2",
+          "typeId": "N2-LIS-SUMM",
+          "category": "概要理解",
+          "script": "大学の担当者が、オンライン授業の教材公開について説明しています。\n教材を公開すれば、時間割の都合で授業に出られない学生も学べます。ただし、公開資料を増やすだけでは、どこから学び直せばよいか分からないという声もありました。そこで、授業ごとに「まず確認する資料」と「理解を深める資料」を分け、学習の順番が分かる案内を付けることにしました。",
+          "contextPassage": "大学の担当者が、オンライン授業の教材公開について説明しています。\n教材を公開すれば、時間割の都合で授業に出られない学生も学べます。ただし、公開資料を増やすだけでは、どこから学び直せばよいか分からないという声もありました。そこで、授業ごとに「まず確認する資料」と「理解を深める資料」を分け、学習の順番が分かる案内を付けることにしました。",
+          "stem": "担当者が改善したい点は何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "教材の量ではなく、学ぶ順序が分かるようにする"
+            },
+            {
+              "id": "B",
+              "text": "授業に出られない学生の利用を制限する"
+            },
+            {
+              "id": "C",
+              "text": "オンライン教材を全て削除する"
+            },
+            {
+              "id": "D",
+              "text": "資料を増やして案内を付けない"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "正解は「教材の量ではなく、学ぶ順序が分かるようにする」です。",
+          "explanationVi": "Chỉ đăng thêm tài liệu chưa giải quyết được vấn đề không biết bắt đầu từ đâu. Người phụ trách sẽ chỉ rõ thứ tự xem tài liệu cơ bản rồi đến tài liệu mở rộng.",
+          "distractorExplanations": {
+            "B": "Phương án «授業に出られない学生の利用を制限する» không phù hợp với dữ kiện hoặc cấu trúc của câu. Chỉ đăng thêm tài liệu chưa giải quyết được vấn đề không biết bắt đầu từ đâu. Người phụ trách sẽ chỉ rõ thứ tự xem tài liệu cơ bản rồi đến tài liệu mở rộng.",
+            "C": "Phương án «オンライン教材を全て削除する» không phù hợp với dữ kiện hoặc cấu trúc của câu. Chỉ đăng thêm tài liệu chưa giải quyết được vấn đề không biết bắt đầu từ đâu. Người phụ trách sẽ chỉ rõ thứ tự xem tài liệu cơ bản rồi đến tài liệu mở rộng.",
+            "D": "Phương án «資料を増やして案内を付けない» không phù hợp với dữ kiện hoặc cấu trúc của câu. Chỉ đăng thêm tài liệu chưa giải quyết được vấn đề không biết bắt đầu từ đâu. Người phụ trách sẽ chỉ rõ thứ tự xem tài liệu cơ bản rồi đến tài liệu mở rộng."
+          },
+          "topicTag": "learning-technology",
+          "difficultyBand": 3,
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_13/N2_13_M3_L05.mp3",
+          "audioDurationSec": 60.364,
+          "audioSha256": "4d40828b3c2e99675b5f1c90463ecc15522fe719d095705302c59c376d4a5ed3",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_13_M4_L01",
+          "level": "N2",
+          "typeId": "N2-LIS-RESP",
+          "category": "即時応答",
+          "script": "録画の視聴期限を確認したいのですが、学内ポータルのどの画面を見れば分かりますか。",
+          "contextPassage": "録画の視聴期限を確認したいのですが、学内ポータルのどの画面を見れば分かりますか。",
+          "stem": "録画の視聴期限を確認したいのですが、学内ポータルのどの画面を見れば分かりますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "試験が終わるまで公開されます。"
+            },
+            {
+              "id": "B",
+              "text": "各科目ページの「録画」欄に表示されています。"
+            },
+            {
+              "id": "C",
+              "text": "講義資料と同じ期間まで見られます。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "正解は「各科目ページの「録画」欄に表示されています。」です。",
+          "explanationVi": "Người hỏi hỏi rõ phải mở màn hình nào để xem hạn nghe nhìn bản ghi. Câu trả lời chỉ đúng địa điểm cụ thể: mục “録画” trên trang từng môn; hai lựa chọn còn lại chỉ nói về thời hạn, không nói nơi tra cứu.",
+          "distractorExplanations": {
+            "A": "Phương án «試験が終わるまで公開されます。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Người hỏi hỏi rõ phải mở màn hình nào để xem hạn nghe nhìn bản ghi. Câu trả lời chỉ đúng địa điểm cụ thể: mục “録画” trên trang từng môn; hai lựa chọn còn lại chỉ nói về thời hạn, không nói nơi tra cứu.",
+            "C": "Phương án «講義資料と同じ期間まで見られます。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Người hỏi hỏi rõ phải mở màn hình nào để xem hạn nghe nhìn bản ghi. Câu trả lời chỉ đúng địa điểm cụ thể: mục “録画” trên trang từng môn; hai lựa chọn còn lại chỉ nói về thời hạn, không nói nơi tra cứu."
+          },
+          "topicTag": "campus-life",
+          "difficultyBand": 2,
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_13/N2_13_M4_L01.mp3",
+          "audioDurationSec": 28.276,
+          "audioSha256": "671f2c0fa7de7d03ad5ad1d1852e214c1c34ea612217054252cd5d4a82e1f8f9",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_13_M4_L02",
+          "level": "N2",
+          "typeId": "N2-LIS-RESP",
+          "category": "即時応答",
+          "script": "研究発表の申し込み、締め切りを一日過ぎてしまったんですが。",
+          "contextPassage": "研究発表の申し込み、締め切りを一日過ぎてしまったんですが。",
+          "stem": "研究発表の申し込み、締め切りを一日過ぎてしまったんですが。",
+          "options": [
+            {
+              "id": "A",
+              "text": "締め切りは来週の金曜日です。"
+            },
+            {
+              "id": "B",
+              "text": "まず担当窓口に連絡して、受け付け可能か確認してください。"
+            },
+            {
+              "id": "C",
+              "text": "申込書はオンラインで提出できます。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "正解は「まず担当窓口に連絡して、受け付け可能か確認してください。」です。",
+          "explanationVi": "Vì thời hạn đăng ký đã qua, cách phù hợp là hỏi bộ phận phụ trách xem họ còn nhận hồ sơ hay không.",
+          "distractorExplanations": {
+            "A": "Phương án «締め切りは来週の金曜日です。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Vì thời hạn đăng ký đã qua, cách phù hợp là hỏi bộ phận phụ trách xem họ còn nhận hồ sơ hay không.",
+            "C": "Phương án «申込書はオンラインで提出できます。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Vì thời hạn đăng ký đã qua, cách phù hợp là hỏi bộ phận phụ trách xem họ còn nhận hồ sơ hay không."
+          },
+          "topicTag": "campus-life",
+          "difficultyBand": 2,
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_13/N2_13_M4_L02.mp3",
+          "audioDurationSec": 28.18,
+          "audioSha256": "218dbf4c66444211a5ce22a6beda9cadca25907206c025c8f8b885c5c5e94d9b",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_13_M4_L03",
+          "level": "N2",
+          "typeId": "N2-LIS-RESP",
+          "category": "即時応答",
+          "script": "このポータルで、前の学期の成績も確認できますか。",
+          "contextPassage": "このポータルで、前の学期の成績も確認できますか。",
+          "stem": "このポータルで、前の学期の成績も確認できますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "学期を選ぶと、その期間の講義録画が表示されます。"
+            },
+            {
+              "id": "B",
+              "text": "はい、成績メニューから学期を選んでください。"
+            },
+            {
+              "id": "C",
+              "text": "成績は担当教員からメールで届きます。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "正解は「はい、成績メニューから学期を選んでください。」です。",
+          "explanationVi": "Người hỏi muốn xem điểm kỳ trước. Hướng dẫn chọn học kỳ trong mục điểm số trả lời trực tiếp câu hỏi.",
+          "distractorExplanations": {
+            "A": "Phương án «学期を選ぶと、その期間の講義録画が表示されます。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Người hỏi muốn xem điểm kỳ trước. Hướng dẫn chọn học kỳ trong mục điểm số trả lời trực tiếp câu hỏi.",
+            "C": "Phương án «成績は担当教員からメールで届きます。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Người hỏi muốn xem điểm kỳ trước. Hướng dẫn chọn học kỳ trong mục điểm số trả lời trực tiếp câu hỏi."
+          },
+          "topicTag": "campus-life",
+          "difficultyBand": 2,
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_13/N2_13_M4_L03.mp3",
+          "audioDurationSec": 28.564,
+          "audioSha256": "82eebba48c44986075e962c886aaf4a55a960823ccf241e401b8f8a7328610c2",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_13_M4_L04",
+          "level": "N2",
+          "typeId": "N2-LIS-RESP",
+          "category": "即時応答",
+          "script": "自動字幕に誤りがあった場合、どこから報告できますか。",
+          "contextPassage": "自動字幕に誤りがあった場合、どこから報告できますか。",
+          "stem": "自動字幕に誤りがあった場合、どこから報告できますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "授業資料の誤りは担当教員へメールしてください。"
+            },
+            {
+              "id": "B",
+              "text": "動画の字幕設定から表示速度を変更できます。"
+            },
+            {
+              "id": "C",
+              "text": "動画の下にある「誤りを報告」を選んでください。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "正解は「動画の下にある「誤りを報告」を選んでください。」です。",
+          "explanationVi": "Người hỏi cần biết nơi báo lỗi phụ đề, nên hướng dẫn chọn nút “Báo lỗi” ngay dưới video là phù hợp.",
+          "distractorExplanations": {
+            "A": "Phương án «授業資料の誤りは担当教員へメールしてください。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Người hỏi cần biết nơi báo lỗi phụ đề, nên hướng dẫn chọn nút “Báo lỗi” ngay dưới video là phù hợp.",
+            "B": "Phương án «動画の字幕設定から表示速度を変更できます。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Người hỏi cần biết nơi báo lỗi phụ đề, nên hướng dẫn chọn nút “Báo lỗi” ngay dưới video là phù hợp."
+          },
+          "topicTag": "campus-life",
+          "difficultyBand": 2,
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_13/N2_13_M4_L04.mp3",
+          "audioDurationSec": 28.948,
+          "audioSha256": "3cb85d68ed372548702fb14ea719baff46f3b77fb714972d658f68643127f4b7",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_13_M4_L05",
+          "level": "N2",
+          "typeId": "N2-LIS-RESP",
+          "category": "即時応答",
+          "script": "先生、引用したウェブ記事にページ番号がない場合はどう書けばいいでしょうか。",
+          "contextPassage": "先生、引用したウェブ記事にページ番号がない場合はどう書けばいいでしょうか。",
+          "stem": "先生、引用したウェブ記事にページ番号がない場合はどう書けばいいでしょうか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "ページ番号は記事の最後に表示されています。"
+            },
+            {
+              "id": "B",
+              "text": "引用元のURLだけを書けば十分です。"
+            },
+            {
+              "id": "C",
+              "text": "ページ番号の代わりに、公開日や見出しなど指定の情報を記してください。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "正解は「ページ番号の代わりに、公開日や見出しなど指定の情報を記してください。」です。",
+          "explanationVi": "Khi trang web không có số trang, có thể dùng ngày đăng hoặc tiêu đề theo quy định trích dẫn để định vị nguồn.",
+          "distractorExplanations": {
+            "A": "Phương án «ページ番号は記事の最後に表示されています。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Khi trang web không có số trang, có thể dùng ngày đăng hoặc tiêu đề theo quy định trích dẫn để định vị nguồn.",
+            "B": "Phương án «引用元のURLだけを書けば十分です。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Khi trang web không có số trang, có thể dùng ngày đăng hoặc tiêu đề theo quy định trích dẫn để định vị nguồn."
+          },
+          "topicTag": "campus-life",
+          "difficultyBand": 2,
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_13/N2_13_M4_L05.mp3",
+          "audioDurationSec": 31.516,
+          "audioSha256": "7fbcc246d3d2188416c6ce8a2dbc0ac8738d0d20b3998a2f9913629f5c6d2893",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_13_M4_L06",
+          "level": "N2",
+          "typeId": "N2-LIS-RESP",
+          "category": "即時応答",
+          "script": "今日の文献検索講座、途中から参加して実習できますか。",
+          "contextPassage": "今日の文献検索講座、途中から参加して実習できますか。",
+          "stem": "今日の文献検索講座、途中から参加して実習できますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "実習用の端末は講座の最後に借りられます。"
+            },
+            {
+              "id": "B",
+              "text": "端末を使う実習は開始時刻までに来た人が対象です。"
+            },
+            {
+              "id": "C",
+              "text": "途中からでも見学には参加できます。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "正解は「端末を使う実習は開始時刻までに来た人が対象です。」です。",
+          "explanationVi": "Muốn làm thực hành trên máy tính phải có mặt từ đầu giờ; người đến giữa buổi chỉ được quan sát.",
+          "distractorExplanations": {
+            "A": "Phương án «実習用の端末は講座の最後に借りられます。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Muốn làm thực hành trên máy tính phải có mặt từ đầu giờ; người đến giữa buổi chỉ được quan sát.",
+            "C": "Phương án «途中からでも見学には参加できます。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Muốn làm thực hành trên máy tính phải có mặt từ đầu giờ; người đến giữa buổi chỉ được quan sát."
+          },
+          "topicTag": "campus-life",
+          "difficultyBand": 2,
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_13/N2_13_M4_L06.mp3",
+          "audioDurationSec": 28.588,
+          "audioSha256": "35aceb75545937f5fb34e6f4484497821867c6a50c8d9179b9a3107c68cfdfeb",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_13_M4_L07",
+          "level": "N2",
+          "typeId": "N2-LIS-RESP",
+          "category": "即時応答",
+          "script": "このアプリは通知の曜日と時刻を自分で変更できると聞きました。変更するには、どこを開けばいいですか。",
+          "contextPassage": "このアプリは通知の曜日と時刻を自分で変更できると聞きました。変更するには、どこを開けばいいですか。",
+          "stem": "このアプリは通知の曜日と時刻を自分で変更できると聞きました。変更するには、どこを開けばいいですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "設定画面で曜日と時刻を変更できますよ。"
+            },
+            {
+              "id": "B",
+              "text": "個別には変えられませんが、全て停止できます。"
+            },
+            {
+              "id": "C",
+              "text": "通知は月曜と木曜の午前中に送られます。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "正解は「設定画面で曜日と時刻を変更できますよ。」です。",
+          "explanationVi": "Người dùng muốn đổi giờ thông báo, nên hướng dẫn vào phần cài đặt để chỉnh ngày trong tuần và thời gian là phù hợp.",
+          "distractorExplanations": {
+            "B": "Phương án «個別には変えられませんが、全て停止できます。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Người dùng muốn đổi giờ thông báo, nên hướng dẫn vào phần cài đặt để chỉnh ngày trong tuần và thời gian là phù hợp.",
+            "C": "Phương án «通知は月曜と木曜の午前中に送られます。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Người dùng muốn đổi giờ thông báo, nên hướng dẫn vào phần cài đặt để chỉnh ngày trong tuần và thời gian là phù hợp."
+          },
+          "topicTag": "campus-life",
+          "difficultyBand": 2,
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_13/N2_13_M4_L07.mp3",
+          "audioDurationSec": 31.924,
+          "audioSha256": "2b21ba79031abe21f69bdda1285715ba3b8e9e70262dbbc01efa76a96d5b9a41",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_13_M4_L08",
+          "level": "N2",
+          "typeId": "N2-LIS-RESP",
+          "category": "即時応答",
+          "script": "レポートの締切は今夜で、まだ三時間あります。提出済みのファイルを間違えたかもしれないので、正しいものに直したいです。",
+          "contextPassage": "レポートの締切は今夜で、まだ三時間あります。提出済みのファイルを間違えたかもしれないので、正しいものに直したいです。",
+          "stem": "レポートの締切は今夜で、まだ三時間あります。提出済みのファイルを間違えたかもしれないので、正しいものに直したいです。",
+          "options": [
+            {
+              "id": "A",
+              "text": "提出済みのファイル名だけなら変更できます。"
+            },
+            {
+              "id": "B",
+              "text": "締切後は再提出できませんが、担当者が提出内容を確認できます。"
+            },
+            {
+              "id": "C",
+              "text": "締切前なら、いったん取り下げて正しいファイルを再提出できます。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "正解は「締切前なら、いったん取り下げて正しいファイルを再提出できます。」です。",
+          "explanationVi": "Nếu còn trước hạn, người nộp có thể rút tệp sai rồi nộp lại tệp đúng.",
+          "distractorExplanations": {
+            "A": "Phương án «提出済みのファイル名だけなら変更できます。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Nếu còn trước hạn, người nộp có thể rút tệp sai rồi nộp lại tệp đúng.",
+            "B": "Phương án «締切後は再提出できませんが、担当者が提出内容を確認できます。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Nếu còn trước hạn, người nộp có thể rút tệp sai rồi nộp lại tệp đúng."
+          },
+          "topicTag": "campus-life",
+          "difficultyBand": 2,
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_13/N2_13_M4_L08.mp3",
+          "audioDurationSec": 36.892,
+          "audioSha256": "3771066b8c4a46ea5e36737c2ff5eec971359f46b22bb8dc3f8d1f8f719132fe",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_13_M4_L09",
+          "level": "N2",
+          "typeId": "N2-LIS-RESP",
+          "category": "即時応答",
+          "script": "オンライン相談の予約をしたいのですが、相談内容を詳しく書く必要がありますか。",
+          "contextPassage": "オンライン相談の予約をしたいのですが、相談内容を詳しく書く必要がありますか。",
+          "stem": "オンライン相談の予約をしたいのですが、相談内容を詳しく書く必要がありますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "相談内容は予約した後でも変更できます。"
+            },
+            {
+              "id": "B",
+              "text": "いいえ、希望時間と対面かオンラインかを選べば大丈夫です。"
+            },
+            {
+              "id": "C",
+              "text": "詳しい事情を書けば、担当者が資料を準備します。"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "正解は「いいえ、希望時間と対面かオンラインかを選べば大丈夫です。」です。",
+          "explanationVi": "Câu hỏi là có cần mô tả chi tiết nội dung tư vấn không. Câu trả lời cho biết không cần, chỉ chọn giờ và hình thức gặp.",
+          "distractorExplanations": {
+            "A": "Phương án «相談内容は予約した後でも変更できます。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Câu hỏi là có cần mô tả chi tiết nội dung tư vấn không. Câu trả lời cho biết không cần, chỉ chọn giờ và hình thức gặp.",
+            "C": "Phương án «詳しい事情を書けば、担当者が資料を準備します。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Câu hỏi là có cần mô tả chi tiết nội dung tư vấn không. Câu trả lời cho biết không cần, chỉ chọn giờ và hình thức gặp."
+          },
+          "topicTag": "campus-life",
+          "difficultyBand": 2,
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_13/N2_13_M4_L09.mp3",
+          "audioDurationSec": 31.612,
+          "audioSha256": "b2975351502fa1668b5dc4a29a586e51f4bdbf7c648e3e1f5685dfd4b74118fa",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_13_M4_L10",
+          "level": "N2",
+          "typeId": "N2-LIS-RESP",
+          "category": "即時応答",
+          "script": "学内ルールでは、氏名を消しても個人情報が残る資料は共有フォルダーに置けないそうです。氏名付きの一覧はどこに保存すればいいですか。",
+          "contextPassage": "学内ルールでは、氏名を消しても個人情報が残る資料は共有フォルダーに置けないそうです。氏名付きの一覧はどこに保存すればいいですか。",
+          "stem": "学内ルールでは、氏名を消しても個人情報が残る資料は共有フォルダーに置けないそうです。氏名付きの一覧はどこに保存すればいいですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "共有フォルダーはリンクを知っている人が閲覧できます。"
+            },
+            {
+              "id": "B",
+              "text": "共有する前に、氏名だけ削除しておいてください。"
+            },
+            {
+              "id": "C",
+              "text": "閲覧者を限定した別の場所に保存してください。"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "正解は「閲覧者を限定した別の場所に保存してください。」です。",
+          "explanationVi": "Tệp chứa tên sinh viên không nên để ở thư mục chia sẻ chung; cần chuyển sang nơi giới hạn người xem.",
+          "distractorExplanations": {
+            "A": "Phương án «共有フォルダーはリンクを知っている人が閲覧できます。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Tệp chứa tên sinh viên không nên để ở thư mục chia sẻ chung; cần chuyển sang nơi giới hạn người xem.",
+            "B": "Phương án «共有する前に、氏名だけ削除しておいてください。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Tệp chứa tên sinh viên không nên để ở thư mục chia sẻ chung; cần chuyển sang nơi giới hạn người xem."
+          },
+          "topicTag": "campus-life",
+          "difficultyBand": 2,
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_13/N2_13_M4_L10.mp3",
+          "audioDurationSec": 35.476,
+          "audioSha256": "43271ec1e9bb98a1e1bf19cf2e480c2fbf957a2152f45c9ec465f43cc58cdffc",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_13_M4_L11",
+          "level": "N2",
+          "typeId": "N2-LIS-RESP",
+          "category": "即時応答",
+          "script": "案内には公開講座の会場は本館と書いてありますが、何階でしょうか。",
+          "contextPassage": "案内には公開講座の会場は本館と書いてありますが、何階でしょうか。",
+          "stem": "案内には公開講座の会場は本館と書いてありますが、何階でしょうか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "本館の二階です。受付は入口の右側にあります。"
+            },
+            {
+              "id": "B",
+              "text": "受付は本館の一階にあります。"
+            },
+            {
+              "id": "C",
+              "text": "メディアセンターの三階です。"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "正解は「本館の二階です。受付は入口の右側にあります。」です。",
+          "explanationVi": "Người hỏi cần biết tầng của địa điểm. Câu trả lời nêu tầng hai tòa nhà chính và vị trí quầy tiếp tân.",
+          "distractorExplanations": {
+            "B": "Phương án «受付は本館の一階にあります。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Người hỏi cần biết tầng của địa điểm. Câu trả lời nêu tầng hai tòa nhà chính và vị trí quầy tiếp tân.",
+            "C": "Phương án «メディアセンターの三階です。» không phù hợp với dữ kiện hoặc cấu trúc của câu. Người hỏi cần biết tầng của địa điểm. Câu trả lời nêu tầng hai tòa nhà chính và vị trí quầy tiếp tân."
+          },
+          "topicTag": "campus-life",
+          "difficultyBand": 2,
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_13/N2_13_M4_L11.mp3",
+          "audioDurationSec": 28.636,
+          "audioSha256": "f2f3f3ef221e5e7233c90c4ab118fc915cd69f19bbf50e1c0f56046a9482b2f7",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_13_M5_L01",
+          "level": "N2",
+          "typeId": "N2-LIS-INTEG",
+          "category": "統合理解",
+          "script": "大学の教員と学生が、授業アンケートの結果を発表する準備をしています。\n女：結果のグラフを明日の授業で見せたいんですが、学年ごとの回答数に差があります。\n男：人数だけを比べると誤解されそうですね。割合も併記して、回答しなかった学生がいることを説明しましょう。\n女：自由記述はどうしますか。\n男：名前や授業名が分かる部分を取り除き、意見の傾向だけを短くまとめてください。\n女：それでは、個別の引用は載せないことにします。",
+          "contextPassage": "大学の教員と学生が、授業アンケートの結果を発表する準備をしています。\n女：結果のグラフを明日の授業で見せたいんですが、学年ごとの回答数に差があります。\n男：人数だけを比べると誤解されそうですね。割合も併記して、回答しなかった学生がいることを説明しましょう。\n女：自由記述はどうしますか。\n男：名前や授業名が分かる部分を取り除き、意見の傾向だけを短くまとめてください。\n女：それでは、個別の引用は載せないことにします。",
+          "stem": "女の学生は発表資料をどう直しますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "グラフを取りやめ、授業アンケートの原票を配る"
+            },
+            {
+              "id": "B",
+              "text": "学年別の人数だけを大きく表示し、自由記述を全て名前付きで載せる"
+            },
+            {
+              "id": "C",
+              "text": "回答しなかった学生を除いて、結果を確定したものとして示す"
+            },
+            {
+              "id": "D",
+              "text": "回答割合と未回答の説明を加え、自由記述は匿名化して傾向をまとめる"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "正解は「回答割合と未回答の説明を加え、自由記述は匿名化して傾向をまとめる」です。",
+          "explanationVi": "Để tránh hiểu sai do số người trả lời khác nhau, cần nêu tỷ lệ và số người chưa trả lời. Ý kiến tự do phải được ẩn danh và tổng hợp theo xu hướng.",
+          "distractorExplanations": {
+            "A": "Phương án «グラフを取りやめ、授業アンケートの原票を配る» không phù hợp với dữ kiện hoặc cấu trúc của câu. Để tránh hiểu sai do số người trả lời khác nhau, cần nêu tỷ lệ và số người chưa trả lời. Ý kiến tự do phải được ẩn danh và tổng hợp theo xu hướng.",
+            "B": "Phương án «学年別の人数だけを大きく表示し、自由記述を全て名前付きで載せる» không phù hợp với dữ kiện hoặc cấu trúc của câu. Để tránh hiểu sai do số người trả lời khác nhau, cần nêu tỷ lệ và số người chưa trả lời. Ý kiến tự do phải được ẩn danh và tổng hợp theo xu hướng.",
+            "C": "Phương án «回答しなかった学生を除いて、結果を確定したものとして示す» không phù hợp với dữ kiện hoặc cấu trúc của câu. Để tránh hiểu sai do số người trả lời khác nhau, cần nêu tỷ lệ và số người chưa trả lời. Ý kiến tự do phải được ẩn danh và tổng hợp theo xu hướng."
+          },
+          "topicTag": "media-literacy",
+          "difficultyBand": 3,
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_13/N2_13_M5_L01.mp3",
+          "audioDurationSec": 52.02,
+          "audioSha256": "e46d757cdd2ccb47f7189d962d28b8ff3bf0ef31f98de1650ffd19f9bbdb4595",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_13_M5_L02",
+          "level": "N2",
+          "typeId": "N2-LIS-INTEG",
+          "category": "統合理解",
+          "script": "学生二人が、学内ニュースの投稿を授業で紹介する方法を相談しています。\n男：昨日の投稿、写真もあるし本当だと思う。授業の資料に入れていいかな。\n女：写真が昔の別の場所のものかもしれないよ。投稿者の説明だけでなく、掲載日と撮影場所を確認して、大学の発表とも比べよう。\n男：確認が終わる前に資料を作る必要があるんだけど。\n女：確認できていない点はそう書けばいいよ。確かめられなかったら、事実の例としては使わず、情報の確認方法を考える題材にしよう。",
+          "contextPassage": "学生二人が、学内ニュースの投稿を授業で紹介する方法を相談しています。\n男：昨日の投稿、写真もあるし本当だと思う。授業の資料に入れていいかな。\n女：写真が昔の別の場所のものかもしれないよ。投稿者の説明だけでなく、掲載日と撮影場所を確認して、大学の発表とも比べよう。\n男：確認が終わる前に資料を作る必要があるんだけど。\n女：確認できていない点はそう書けばいいよ。確かめられなかったら、事実の例としては使わず、情報の確認方法を考える題材にしよう。",
+          "stem": "二人は投稿をどのように扱うことにしましたか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "写真があるので内容を確定情報として紹介する"
+            },
+            {
+              "id": "B",
+              "text": "投稿者に連絡せず、大学の発表だけを削除する"
+            },
+            {
+              "id": "C",
+              "text": "確認できない情報は出典を隠して資料に載せる"
+            },
+            {
+              "id": "D",
+              "text": "出所や日時を確認し、未確認なら事実の例と断定しない"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "正解は「出所や日時を確認し、未確認なら事実の例と断定しない」です。",
+          "explanationVi": "Không thể tin ảnh chỉ vì bài đăng có ảnh; cần xác minh nguồn và thời điểm. Nếu chưa xác minh được thì không khẳng định đó là sự thật, mà dùng làm bài tập về cách kiểm chứng.",
+          "distractorExplanations": {
+            "A": "Phương án «写真があるので内容を確定情報として紹介する» không phù hợp với dữ kiện hoặc cấu trúc của câu. Không thể tin ảnh chỉ vì bài đăng có ảnh; cần xác minh nguồn và thời điểm. Nếu chưa xác minh được thì không khẳng định đó là sự thật, mà dùng làm bài tập về cách kiểm chứng.",
+            "B": "Phương án «投稿者に連絡せず、大学の発表だけを削除する» không phù hợp với dữ kiện hoặc cấu trúc của câu. Không thể tin ảnh chỉ vì bài đăng có ảnh; cần xác minh nguồn và thời điểm. Nếu chưa xác minh được thì không khẳng định đó là sự thật, mà dùng làm bài tập về cách kiểm chứng.",
+            "C": "Phương án «確認できない情報は出典を隠して資料に載せる» không phù hợp với dữ kiện hoặc cấu trúc của câu. Không thể tin ảnh chỉ vì bài đăng có ảnh; cần xác minh nguồn và thời điểm. Nếu chưa xác minh được thì không khẳng định đó là sự thật, mà dùng làm bài tập về cách kiểm chứng."
+          },
+          "topicTag": "media-literacy",
+          "difficultyBand": 3,
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_13/N2_13_M5_L02.mp3",
+          "audioDurationSec": 55.076,
+          "audioSha256": "8f6898dce78b26368257e6dc83fb2ec3fc3cdc7a4878e6fc57cdedb55510f813",
+          "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
+          "speakerVoices": [
+            "ja-JP-NanamiNeural",
+            "ja-JP-KeitaNeural"
+          ],
+          "audioVerificationStatus": "BROWSER_PLAYBACK_VERIFIED"
+        },
+        {
+          "id": "N2_13_M5_L03",
+          "level": "N2",
+          "typeId": "N2-LIS-INTEG",
+          "category": "統合理解",
+          "script": "大学の担当者と学生が、新しい学習支援サービスの試験運用について話しています。\n女：次の学期から、質問に答えるチャットサービスを試すそうですね。\n男：はい。ただ、全員に使わせると不安を感じる人もいるので、まず希望者だけにします。回答に誤りがあった場合の報告窓口も用意します。\n女：効果は利用人数で判断しますか。\n男：人数だけではなく、どんな質問で役立ったか、回答を読んで解決できたかも、個人が分からない形で調べます。\n女：では、学生には目的とデータの扱いを先に説明しましょう。",
+          "contextPassage": "大学の担当者と学生が、新しい学習支援サービスの試験運用について話しています。\n女：次の学期から、質問に答えるチャットサービスを試すそうですね。\n男：はい。ただ、全員に使わせると不安を感じる人もいるので、まず希望者だけにします。回答に誤りがあった場合の報告窓口も用意します。\n女：効果は利用人数で判断しますか。\n男：人数だけではなく、どんな質問で役立ったか、回答を読んで解決できたかも、個人が分からない形で調べます。\n女：では、学生には目的とデータの扱いを先に説明しましょう。",
+          "stem": "試験運用の評価方法として、担当者は何を考えていますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "希望しない学生にも利用を義務付ける"
+            },
+            {
+              "id": "B",
+              "text": "利用人数だけを成績として集計する"
+            },
+            {
+              "id": "C",
+              "text": "誤りの報告窓口を設けず回答を自動で信頼する"
+            },
+            {
+              "id": "D",
+              "text": "利用数に加え、役立った場面や問題解決も匿名で調べる"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "正解は「利用数に加え、役立った場面や問題解決も匿名で調べる」です。",
+          "explanationVi": "Nhóm sẽ xem ngoài số người dùng còn có tình huống nào được hỗ trợ và vấn đề có được giải quyết hay không, đồng thời giữ dữ liệu ở dạng không nhận diện cá nhân.",
+          "distractorExplanations": {
+            "A": "Phương án «希望しない学生にも利用を義務付ける» không phù hợp với dữ kiện hoặc cấu trúc của câu. Nhóm sẽ xem ngoài số người dùng còn có tình huống nào được hỗ trợ và vấn đề có được giải quyết hay không, đồng thời giữ dữ liệu ở dạng không nhận diện cá nhân.",
+            "B": "Phương án «利用人数だけを成績として集計する» không phù hợp với dữ kiện hoặc cấu trúc của câu. Nhóm sẽ xem ngoài số người dùng còn có tình huống nào được hỗ trợ và vấn đề có được giải quyết hay không, đồng thời giữ dữ liệu ở dạng không nhận diện cá nhân.",
+            "C": "Phương án «誤りの報告窓口を設けず回答を自動で信頼する» không phù hợp với dữ kiện hoặc cấu trúc của câu. Nhóm sẽ xem ngoài số người dùng còn có tình huống nào được hỗ trợ và vấn đề có được giải quyết hay không, đồng thời giữ dữ liệu ở dạng không nhận diện cá nhân."
+          },
+          "topicTag": "media-literacy",
+          "difficultyBand": 3,
+          "skill": "Listening",
+          "audioUrl": "audio/n2_mock_13/N2_13_M5_L03.mp3",
+          "audioDurationSec": 59.364,
+          "audioSha256": "3b9fca1a533f515576874652d725f8cd2176839812e6b3a78ee8ffd9247561c6",
           "audioSourceType": "NEURAL_TTS_MULTI_VOICE",
           "speakerVoices": [
             "ja-JP-NanamiNeural",

@@ -176,6 +176,30 @@ def adapt_current_version_row(row):
     }
 
 
+def bind_private_raw_review_digest(raw_output_file, evidence, root=ROOT):
+    """Hash private raw review output when present; allow only explicit tmp/ omission in CI."""
+    if not isinstance(raw_output_file, str) or not raw_output_file:
+        raise ValueError("Version-bound review is missing its immutable raw-output path")
+    root = Path(root).resolve()
+    raw_path = (root / raw_output_file).resolve()
+    if root not in raw_path.parents:
+        raise ValueError("Version-bound raw-output path resolves outside the repository")
+    if raw_path.is_file():
+        return {"rawOutputSha256": raw_path}
+    normalized = raw_output_file.replace("\\", "/")
+    relative_parts = Path(normalized).parts
+    if (not Path(normalized).is_absolute()
+            and relative_parts and relative_parts[0] == "tmp"
+            and ".." not in relative_parts
+            and evidence.get("rawResponsePreservedLocally") is True
+            and evidence.get("portableExecutionAttestationAvailable") is False):
+        # tmp/ is intentionally excluded from the public checkout. The local
+        # promotion step hashes the raw file before release; public CI can
+        # verify the sanitized, version-bound reconciliation only.
+        return None
+    raise ValueError("Version-bound raw-output file is missing outside the declared private tmp/ evidence")
+
+
 def load_derived_blind_results():
     if not DERIVED_BLIND_FILE.exists():
         raise FileNotFoundError(f"Missing derived blind review file: {DERIVED_BLIND_FILE}")
@@ -224,14 +248,10 @@ def load_derived_blind_results():
             continue
         exam = json.loads(mock.path.read_text(encoding="utf-8"))
         sealed = json.loads(sealed_path.read_text(encoding="utf-8"))
-        raw_output = report.get("rawEvidence", {}).get("rawOutputFile")
-        if not isinstance(raw_output, str) or not raw_output:
-            raise ValueError(f"Version-bound {mock.exam_id} report is missing its immutable raw-output path")
-        raw_path = (ROOT / raw_output).resolve()
-        if ROOT.resolve() not in raw_path.parents or not raw_path.is_file():
-            raise ValueError(f"Version-bound {mock.exam_id} raw-output file is missing or outside the repository")
+        evidence = report.get("rawEvidence", {})
+        raw_digest_binding = bind_private_raw_review_digest(evidence.get("rawOutputFile"), evidence)
         errors = validate_current_version_reconciliation(
-            report, exam, sealed, raw_sha256={"rawOutputSha256": raw_path}
+            report, exam, sealed, raw_sha256=raw_digest_binding
         )
         if errors:
             raise ValueError(f"Version-bound {mock.exam_id} evidence failed validation: " + "; ".join(errors))

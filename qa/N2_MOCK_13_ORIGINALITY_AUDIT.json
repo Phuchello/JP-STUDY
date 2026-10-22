@@ -1,0 +1,304 @@
+{
+  "examId": "N2-MOCK-13",
+  "status": "VERIFIED_CROSS_EXAM_AUDIT",
+  "comparisonScope": "All 105 current M13 items against all 1,260 items in N2-MOCK-01 through N2-MOCK-12.",
+  "exactStemMatches": {
+    "count": 27,
+    "matches": [
+      {
+        "questionId": "N2_13_M8_01",
+        "priorExamId": "N2-MOCK-12",
+        "priorQuestionId": "N2_12_M8_01",
+        "stem": "次の文を完成させるとき、★に入る部分はどれか。\n（　　）（　　）★（　　）"
+      },
+      {
+        "questionId": "N2_13_M8_01",
+        "priorExamId": "N2-MOCK-12",
+        "priorQuestionId": "N2_12_M8_02",
+        "stem": "次の文を完成させるとき、★に入る部分はどれか。\n（　　）（　　）★（　　）"
+      },
+      {
+        "questionId": "N2_13_M8_01",
+        "priorExamId": "N2-MOCK-12",
+        "priorQuestionId": "N2_12_M8_03",
+        "stem": "次の文を完成させるとき、★に入る部分はどれか。\n（　　）（　　）★（　　）"
+      },
+      {
+        "questionId": "N2_13_M8_01",
+        "priorExamId": "N2-MOCK-12",
+        "priorQuestionId": "N2_12_M8_04",
+        "stem": "次の文を完成させるとき、★に入る部分はどれか。\n（　　）（　　）★（　　）"
+      },
+      {
+        "questionId": "N2_13_M8_01",
+        "priorExamId": "N2-MOCK-12",
+        "priorQuestionId": "N2_12_M8_05",
+        "stem": "次の文を完成させるとき、★に入る部分はどれか。\n（　　）（　　）★（　　）"
+      },
+      {
+        "questionId": "N2_13_M8_02",
+        "priorExamId": "N2-MOCK-12",
+        "priorQuestionId": "N2_12_M8_01",
+        "stem": "次の文を完成させるとき、★に入る部分はどれか。\n（　　）（　　）★（　　）"
+      },
+      {
+        "questionId": "N2_13_M8_02",
+        "priorExamId": "N2-MOCK-12",
+        "priorQuestionId": "N2_12_M8_02",
+        "stem": "次の文を完成させるとき、★に入る部分はどれか。\n（　　）（　　）★（　　）"
+      },
+      {
+        "questionId": "N2_13_M8_02",
+        "priorExamId": "N2-MOCK-12",
+        "priorQuestionId": "N2_12_M8_03",
+        "stem": "次の文を完成させるとき、★に入る部分はどれか。\n（　　）（　　）★（　　）"
+      },
+      {
+        "questionId": "N2_13_M8_02",
+        "priorExamId": "N2-MOCK-12",
+        "priorQuestionId": "N2_12_M8_04",
+        "stem": "次の文を完成させるとき、★に入る部分はどれか。\n（　　）（　　）★（　　）"
+      },
+      {
+        "questionId": "N2_13_M8_02",
+        "priorExamId": "N2-MOCK-12",
+        "priorQuestionId": "N2_12_M8_05",
+        "stem": "次の文を完成させるとき、★に入る部分はどれか。\n（　　）（　　）★（　　）"
+      },
+      {
+        "questionId": "N2_13_M8_03",
+        "priorExamId": "N2-MOCK-12",
+        "priorQuestionId": "N2_12_M8_01",
+        "stem": "次の文を完成させるとき、★に入る部分はどれか。\n（　　）（　　）★（　　）"
+      },
+      {
+        "questionId": "N2_13_M8_03",
+        "priorExamId": "N2-MOCK-12",
+        "priorQuestionId": "N2_12_M8_02",
+        "stem": "次の文を完成させるとき、★に入る部分はどれか。\n（　　）（　　）★（　　）"
+      },
+      {
+        "questionId": "N2_13_M8_03",
+        "priorExamId": "N2-MOCK-12",
+        "priorQuestionId": "N2_12_M8_03",
+        "stem": "次の文を完成させるとき、★に入る部分はどれか。\n（　　）（　　）★（　　）"
+      },
+      {
+        "questionId": "N2_13_M8_03",
+        "priorExamId": "N2-MOCK-12",
+        "priorQuestionId": "N2_12_M8_04",
+        "stem": "次の文を完成させるとき、★に入る部分はどれか。\n（　　）（　　）★（　　）"
+      },
+      {
+        "questionId": "N2_13_M8_03",
+        "priorExamId": "N2-MOCK-12",
+        "priorQuestionId": "N2_12_M8_05",
+        "stem": "次の文を完成させるとき、★に入る部分はどれか。\n（　　）（　　）★（　　）"
+      },
+      {
+        "questionId": "N2_13_M8_04",
+        "priorExamId": "N2-MOCK-12",
+        "priorQuestionId": "N2_12_M8_01",
+        "stem": "次の文を完成させるとき、★に入る部分はどれか。\n（　　）（　　）★（　　）"
+      },
+      {
+        "questionId": "N2_13_M8_04",
+        "priorExamId": "N2-MOCK-12",
+        "priorQuestionId": "N2_12_M8_02",
+        "stem": "次の文を完成させるとき、★に入る部分はどれか。\n（　　）（　　）★（　　）"
+      },
+      {
+        "questionId": "N2_13_M8_04",
+        "priorExamId": "N2-MOCK-12",
+        "priorQuestionId": "N2_12_M8_03",
+        "stem": "次の文を完成させるとき、★に入る部分はどれか。\n（　　）（　　）★（　　）"
+      },
+      {
+        "questionId": "N2_13_M8_04",
+        "priorExamId": "N2-MOCK-12",
+        "priorQuestionId": "N2_12_M8_04",
+        "stem": "次の文を完成させるとき、★に入る部分はどれか。\n（　　）（　　）★（　　）"
+      },
+      {
+        "questionId": "N2_13_M8_04",
+        "priorExamId": "N2-MOCK-12",
+        "priorQuestionId": "N2_12_M8_05",
+        "stem": "次の文を完成させるとき、★に入る部分はどれか。\n（　　）（　　）★（　　）"
+      },
+      {
+        "questionId": "N2_13_M8_05",
+        "priorExamId": "N2-MOCK-12",
+        "priorQuestionId": "N2_12_M8_01",
+        "stem": "次の文を完成させるとき、★に入る部分はどれか。\n（　　）（　　）★（　　）"
+      },
+      {
+        "questionId": "N2_13_M8_05",
+        "priorExamId": "N2-MOCK-12",
+        "priorQuestionId": "N2_12_M8_02",
+        "stem": "次の文を完成させるとき、★に入る部分はどれか。\n（　　）（　　）★（　　）"
+      },
+      {
+        "questionId": "N2_13_M8_05",
+        "priorExamId": "N2-MOCK-12",
+        "priorQuestionId": "N2_12_M8_03",
+        "stem": "次の文を完成させるとき、★に入る部分はどれか。\n（　　）（　　）★（　　）"
+      },
+      {
+        "questionId": "N2_13_M8_05",
+        "priorExamId": "N2-MOCK-12",
+        "priorQuestionId": "N2_12_M8_04",
+        "stem": "次の文を完成させるとき、★に入る部分はどれか。\n（　　）（　　）★（　　）"
+      },
+      {
+        "questionId": "N2_13_M8_05",
+        "priorExamId": "N2-MOCK-12",
+        "priorQuestionId": "N2_12_M8_05",
+        "stem": "次の文を完成させるとき、★に入る部分はどれか。\n（　　）（　　）★（　　）"
+      },
+      {
+        "questionId": "N2_13_M1_L01",
+        "priorExamId": "N2-MOCK-08",
+        "priorQuestionId": "N2_08_M1_L03",
+        "stem": "学生はまず何をしますか。"
+      },
+      {
+        "questionId": "N2_13_M1_L01",
+        "priorExamId": "N2-MOCK-10",
+        "priorQuestionId": "N2_10_M1_L01",
+        "stem": "学生はまず何をしますか。"
+      }
+    ],
+    "interpretation": "Review repeated generic JLPT prompt frames; confirm passages, scripts, options, and tested content remain distinct."
+  },
+  "nearStemMatches": {
+    "threshold": 0.58,
+    "metric": "Jaccard 3-gram after punctuation/spacing normalization",
+    "count": 6,
+    "matches": [
+      {
+        "questionId": "N2_13_M3_L02",
+        "priorExamId": "N2-MOCK-07",
+        "priorQuestionId": "N2_07_M3_L02",
+        "similarity3Gram": 0.75,
+        "stem": "職員が最も伝えたいことは何ですか。",
+        "priorStem": "社長が最も伝えたいことは何ですか。"
+      },
+      {
+        "questionId": "N2_13_M3_L02",
+        "priorExamId": "N2-MOCK-08",
+        "priorQuestionId": "N2_08_M3_L01",
+        "similarity3Gram": 0.75,
+        "stem": "職員が最も伝えたいことは何ですか。",
+        "priorStem": "話者が最も伝えたいことは何ですか。"
+      },
+      {
+        "questionId": "N2_13_M3_L02",
+        "priorExamId": "N2-MOCK-09",
+        "priorQuestionId": "N2_09_M3_L01",
+        "similarity3Gram": 0.706,
+        "stem": "職員が最も伝えたいことは何ですか。",
+        "priorStem": "話し手が最も伝えたいことは何ですか。"
+      },
+      {
+        "questionId": "N2_13_M3_L02",
+        "priorExamId": "N2-MOCK-10",
+        "priorQuestionId": "N2_10_M3_L01",
+        "similarity3Gram": 0.706,
+        "stem": "職員が最も伝えたいことは何ですか。",
+        "priorStem": "話し手が最も伝えたいことは何ですか。"
+      },
+      {
+        "questionId": "N2_13_M3_L02",
+        "priorExamId": "N2-MOCK-11",
+        "priorQuestionId": "N2_11_M3_L01",
+        "similarity3Gram": 0.706,
+        "stem": "職員が最も伝えたいことは何ですか。",
+        "priorStem": "話し手が最も伝えたいことは何ですか。"
+      },
+      {
+        "questionId": "N2_13_M3_L02",
+        "priorExamId": "N2-MOCK-12",
+        "priorQuestionId": "N2_12_M3_L01",
+        "similarity3Gram": 0.706,
+        "stem": "職員が最も伝えたいことは何ですか。",
+        "priorStem": "話し手が最も伝えたいことは何ですか。"
+      }
+    ]
+  },
+  "readingPassageOverlaps": {
+    "threshold": 0.25,
+    "metric": "Jaccard 5-gram",
+    "count": 0,
+    "matches": []
+  },
+  "listeningScriptOverlaps": {
+    "threshold": 0.25,
+    "metric": "Jaccard 5-gram",
+    "count": 0,
+    "matches": []
+  },
+  "exactDistractorSetMatches": {
+    "count": 0,
+    "matches": []
+  },
+  "grammarDistribution": {
+    "N2-GR-FORM": 12,
+    "N2-GR-PARA": 5,
+    "N2-GR-STAR": 5
+  },
+  "topicTagDistribution": {
+    "academic-communication": 10,
+    "academic-policy": 2,
+    "campus-life": 16,
+    "education-media": 29,
+    "grammar": 12,
+    "learning-support": 5,
+    "learning-technology": 10,
+    "media-literacy": 10,
+    "research-communication": 3,
+    "student-services": 8
+  },
+  "answerPositionMetrics": {
+    "answerCounts": {
+      "A": 20,
+      "B": 29,
+      "C": 26,
+      "D": 30
+    },
+    "section1Counts": {
+      "A": 15,
+      "B": 21,
+      "C": 20,
+      "D": 19
+    },
+    "longestCycleOrShortPattern": {
+      "length": 6,
+      "period": 3,
+      "start": 79,
+      "pattern": "DAD"
+    },
+    "section1LongestCycleOrShortPattern": {
+      "length": 5,
+      "period": 3,
+      "start": 12,
+      "pattern": "CAD"
+    },
+    "longestSameAnswerRun": {
+      "length": 3,
+      "answer": "B",
+      "start": 27
+    },
+    "starAnswers": "ACDBB",
+    "starCounts": {
+      "A": 1,
+      "B": 2,
+      "C": 1,
+      "D": 1
+    }
+  },
+  "limits": [
+    "Near-template thresholds are heuristic screens, not proof of plagiarism or originality.",
+    "Generic JLPT instruction frames may repeat while tested content remains original.",
+    "No claim is made about official JLPT scoring or item-count equivalence."
+  ]
+}

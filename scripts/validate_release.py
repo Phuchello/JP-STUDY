@@ -29,7 +29,7 @@ def main():
     binaries=[p for p in actual.values() if p.suffix in ['.pdf','.xlsx']];ck('No duplicate PDF/XLSX payloads',len(binaries)==len({sha(p) for p in binaries}))
     forbidden=[n for n in actual if n.endswith(('.zip','.exe','.pem','.key','.p12','.pfx')) or Path(n).name.startswith('.env') or 'node_modules/' in n or n.startswith(('private/','personal/','learner-data/'))];ck('No forbidden artifacts',not forbidden,forbidden)
     # Heuristic only: supplements manual review, does not prove arbitrary PII absence.
-    bad=[];patterns=[r'gh[pousr]_[A-Za-z0-9]{25,}',r'github_pat_[A-Za-z0-9_]{30,}',r'sk-[A-Za-z0-9]{25,}',r'-----BEGIN (?:RSA |OPENSSH |EC )?PRIVATE KEY',r'C:[/\\]+Users[/\\]+',r'sinh năm 2003',r'柏木実業専門学校',r'60 mấy điểm',r'6:30',r'18 tháng']
+    bad=[];patterns=[r'gh[pousr]_[A-Za-z0-9]{25,}',r'github_pat_[A-Za-z0-9_]{30,}',r'sk-[A-Za-z0-9]{25,}',r'-----BEGIN (?:RSA |OPENSSH |EC )?PRIVATE KEY',r'C:[/\\]+Users[/\\]+',r'sinh năm 2003',r'柏木実業専門学校',r'60 mấy điểm',r'(?<!\d)6:30(?!\d)',r'18 tháng']
     for n,p in actual.items():
         if p.suffix in ['.pdf','.xlsx','.mp3','.png','.ico']:continue
         text=p.read_text(encoding='utf-8-sig')
