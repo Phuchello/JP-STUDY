@@ -133,23 +133,18 @@ def get_n2_mock_14_sec1_items(seed=202614):
     for i, (stem, options, key, vi) in enumerate(rows, 23):
         q.append(_item(f"N2_14_M1_{i:02}", "N2-MO-PARA", "言い換え", stem, options, key, vi, difficulty=2))
 
-    # Usage: 5, choose the sentence where the target word is used naturally.
+    # Usage: authentic sentence-use selection. The prompt names the target
+    # word but does not disclose a gloss; only one sentence uses it naturally.
     rows = [
-        ("見込む", ["来月の利用者数は、現在より一割ほど増えると見込まれている。", "人事部は、若手社員の力を見込んで新しい業務を任せた。", "彼女は相手の経験を見込んで、細かな説明を省いた。", "展望台から谷を見込むと、遠くに集落が見えた。"], 0, "Ở đây, 見込む mang nghĩa dự đoán số lượng hoặc kết quả trong tương lai. Câu 1 dự báo lượng người sử dụng tăng; câu 2 và 3 dùng theo nghĩa đánh giá năng lực, còn câu 4 là nhìn xuống thung lũng."),
-        ("妥当", ["費用と効果を考えれば、この価格設定は妥当だと思う。", "担当者は、資料の誤りを妥当に直してから再提出した。", "式典の雰囲気に妥当な服装を選んだ。", "説明の妥当を確かめるため、別の資料と比べた。"], 0, "妥当 chỉ nhận định một điều hợp lý khi xét căn cứ và điều kiện. Câu 1 đánh giá giá bán dựa trên chi phí và hiệu quả. Các câu còn lại dùng không tự nhiên: sửa sai thường nói 適切に直す, trang phục thường là ふさわしい, còn danh từ cần dạng 妥当性."),
-        ("見合わせる", ["安全が確認できるまで、運行を見合わせます。", "二つの見積書を見合わせて、金額が違う箇所を調べた。", "会議の冒頭、二人は顔を見合わせてから発言した。", "駅で旧友と顔を見合わせ、近況を話した。"], 0, "Câu 1 dùng 見合わせる với nghĩa tạm dừng vận hành cho đến khi xác nhận an toàn. 見積書を見合わせる là đối chiếu tài liệu; 顔を見合わせる nghĩa là nhìn nhau."),
-        ("余裕", ["予定より早く着いたので、出発まで時間に余裕がある。", "彼は厳しい質問にも心の余裕を失わずに答えた。", "相手を安心させるため、彼女は余裕のある表情を見せた。", "意見が対立しても、部長は余裕のある態度を崩さなかった。"], 0, "Câu 1 nói còn thời gian rảnh trước giờ khởi hành. Các câu khác dùng 余裕 theo nghĩa bình tĩnh, thoải mái về tinh thần hoặc thái độ, không phải khoảng thời gian còn lại."),
-        ("負担", ["手続きが簡単になり、利用者の負担が軽くなった。", "出張に必要な交通費は会社が負担する。", "会場の準備にかかった費用を主催者側が負担した。", "彼は重い荷物の一部を交代で負担した。"], 0, "負担 ở câu 1 là công sức và phiền hà mà người dùng phải chịu khi làm thủ tục. Các câu khác nói đến việc chi trả chi phí hoặc gánh phần tải trọng vật lý."),
+        ("見込む", ["来年度は利用者が一割ほど増えると見込んで、受付時間を延長した。", "来年度は利用者の一割ほど増えるを見込んで、受付時間を延長した。", "人事部は若手社員に力を見込んで、新しい業務を任せた。", "展望台に谷を見込むと、遠くに集落が見えた。"], 0, "Câu A dùng đúng mẫu 「利用者が一割ほど増えると見込む」 để dự báo tình hình tương lai. B dùng 「を」 sai với mệnh đề 「増える」; C phải nói 「若手社員の力を見込む」; D dùng sai trợ từ chỉ điểm nhìn và động từ này không tự nhiên với cảnh nhìn xuống thung lũng."),
+        ("妥当", ["複数の見積もりと効果を比べた結果、この価格設定は妥当だと判断した。", "担当者は、資料の誤りに妥当したと判断し、修正を依頼した。", "説明が妥当だ確かめるため、別の資料と比べた。", "この説明は、確認済みの事実を妥当している。"], 0, "Câu A đánh giá mức giá là hợp lý dựa trên chi phí và hiệu quả. 妥当 thường dùng như danh từ/tính từ đuôi な trong 「妥当だ・妥当な」; 妥当する cũng có thể dùng với nghĩa phù hợp/đúng, nhưng không đi với tân ngữ を như câu D. Câu B không kết hợp tự nhiên 妥当する với 「資料の誤り」; câu C thiếu と trong 「説明が妥当だと確かめる」."),
+        ("見合わせる", ["安全を確認するため、鉄道会社は一部路線の運行を見合わせた。", "担当者は二つの資料に見合わせて、数字の違いを調べた。", "参加者は申込書を事務局へ見合わせて、確認を待った。", "担当者は悪天候を見合わせて、開催を延期した。"], 0, "Câu A dùng tự nhiên cụm 「運行を見合わせる」 để nói tạm dừng chạy tàu vì an toàn. B sai trợ từ với 資料, C dùng 見合わせる không phù hợp với việc nộp đơn, còn D dùng thời tiết làm đối tượng của động từ; cần nói 「悪天候を受けて開催を見合わせた」."),
+        ("余裕", ["受付開始まで三十分あるので、時間に余裕をもって会場へ向かった。", "受付開始まで三十分あるので、時間を余裕をもって会場へ向かった。", "受付開始まで三十分あるので、余裕に時間をもって会場へ向かった。", "受付開始まで三十分あるので、余裕な時間をもって会場へ向かった。"], 0, "Câu A dùng đúng cách nói 「時間に余裕をもって」. B lặp trợ từ を; C dùng 余裕 như trạng từ với に; D dùng dạng định ngữ 「余裕な」 thay vì cách nói tự nhiên 「余裕のある時間」."),
+        ("負担", ["申請書の記入欄を減らし、利用者の負担を軽くした。", "出張に必要な交通費に会社が負担した。", "主催者側を会場の準備費用が負担した。", "彼は重い荷物に一部を負担して運んだ。"], 0, "Câu A dùng tự nhiên 「利用者の負担を軽くする」, nghĩa là giảm công sức và phiền hà khi làm thủ tục. Các câu còn lại đảo sai chủ thể và đối tượng: cần nói 「会社が交通費を負担する」, 「主催者側が費用を負担する」; với hành lý thì dùng 「運ぶ」."),
     ]
     for i, (word, options, key, vi) in enumerate(rows, 28):
-        meaning = {
-            "見込む": "将来の数量・結果を予測する",
-            "妥当": "根拠や条件に照らして無理がない",
-            "見合わせる": "事情が解決するまで一時的に止める",
-            "余裕": "予定時刻までに使える時間が残っている",
-            "負担": "利用者が行う手間や労力",
-        }[word]
-        q.append(_item(f"N2_14_M1_{i:02}", "N2-MO-USE", "用法", f"次の文の【{word}】を「{meaning}」という意味で使っているものはどれか。", options, key, vi, difficulty=2))
+        stem = f"次の文の【{word}】の使い方として、最も自然なものはどれか。"
+        q.append(_item(f"N2_14_M1_{i:02}", "N2-MO-USE", "用法", stem, options, key, vi, difficulty=2))
 
     # Sentence grammar: 12
     rows = [

@@ -667,7 +667,9 @@ Snapshot 2026-10-22. VERIFIED is scoped verification, not JLPT certification. Hi
 | [qa/PHASE_6_1_LIVE_DEPLOYMENT_RECEIPT.json](qa/PHASE_6_1_LIVE_DEPLOYMENT_RECEIPT.json) | VERIFIED |
 | [qa/PHASE_6_1_OPTION_REMAP_MANIFEST.json](qa/PHASE_6_1_OPTION_REMAP_MANIFEST.json) | VERIFIED |
 | [qa/PHASE_6_1_RUNTIME_SEMANTICS_REPORT.json](qa/PHASE_6_1_RUNTIME_SEMANTICS_REPORT.json) | VERIFIED |
+| [qa/PHASE_7_1_CANDIDATE_E2E_REPORT.json](qa/PHASE_7_1_CANDIDATE_E2E_REPORT.json) | VERIFIED |
 | [qa/PHASE_7_1_CANDIDATE_REPAIR_QA.md](qa/PHASE_7_1_CANDIDATE_REPAIR_QA.md) | QA_PENDING |
+| [qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261022.json](qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261022.json) | QA_PENDING |
 | [qa/PHASE_7_COVERAGE_MATRIX.md](qa/PHASE_7_COVERAGE_MATRIX.md) | VERIFIED |
 | [qa/PRACTICE_RELEASE_GATE.md](qa/PRACTICE_RELEASE_GATE.md) | VERIFIED |
 | [qa/PUBLICATION_QA.md](qa/PUBLICATION_QA.md) | VERIFIED |
@@ -1121,6 +1123,7 @@ Snapshot 2026-10-22. VERIFIED is scoped verification, not JLPT certification. Hi
 | [scripts/tests/test_n2_mock_14_draft_authoring.py](scripts/tests/test_n2_mock_14_draft_authoring.py) | VERIFIED |
 | [scripts/tests/test_phase_61_content_quality.py](scripts/tests/test_phase_61_content_quality.py) | VERIFIED |
 | [scripts/tests/test_phase_61_runtime_semantics.cjs](scripts/tests/test_phase_61_runtime_semantics.cjs) | VERIFIED |
+| [scripts/tests/test_phase_71_candidate_content.py](scripts/tests/test_phase_71_candidate_content.py) | VERIFIED |
 | [scripts/tests/test_practice_engine_bank.py](scripts/tests/test_practice_engine_bank.py) | QA_PENDING |
 | [scripts/tests/test_preview.cjs](scripts/tests/test_preview.cjs) | VERIFIED |
 | [scripts/tests/test_private_review_raw_binding.py](scripts/tests/test_private_review_raw_binding.py) | VERIFIED |

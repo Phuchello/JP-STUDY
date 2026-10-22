@@ -89,3 +89,29 @@ def test_m14_star_questions_show_four_slots_and_enumerate_all_permutations():
     malformed["stem"] = "担当者は、★と指示した。"
     assert not validate_star_structure(malformed)[0]
 
+
+def test_m14_usage_items_are_unglossed_and_have_bound_natural_sentences():
+    items = [item for item in get_n2_mock_14_sec1_items()
+             if item["typeId"] == "N2-MO-USE"]
+    assert [item["id"] for item in items] == [f"N2_14_M1_{n:02}" for n in range(28, 33)]
+    expected = {
+        "N2_14_M1_28": "来年度は利用者が一割ほど増えると見込んで、受付時間を延長した。",
+        "N2_14_M1_29": "複数の見積もりと効果を比べた結果、この価格設定は妥当だと判断した。",
+        "N2_14_M1_30": "安全を確認するため、鉄道会社は一部路線の運行を見合わせた。",
+        "N2_14_M1_31": "受付開始まで三十分あるので、時間に余裕をもって会場へ向かった。",
+        "N2_14_M1_32": "申請書の記入欄を減らし、利用者の負担を軽くした。",
+    }
+    for item in items:
+        assert "という意味" not in item["stem"]
+        assert "意味は" not in item["stem"]
+        assert len(item["options"]) == 4
+        assert len({option["text"] for option in item["options"]}) == 4
+        keyed = next(option["text"] for option in item["options"]
+                     if option["id"] == item["correctAnswer"])
+        assert keyed == expected[item["id"]]
+
+    datum = next(item for item in items if item["id"] == "N2_14_M1_29")
+    assert any("事実を妥当している" in option["text"] for option in datum["options"])
+    assert any("説明が妥当だ確かめる" in option["text"] for option in datum["options"])
+    assert "妥当する" in datum["explanationVi"]
+

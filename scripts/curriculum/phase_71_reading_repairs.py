@@ -184,14 +184,8 @@ MEDIUM_READING_CONTINUATIONS = {
 SHORT_READING_CONTINUATIONS = {
     "N2_11_M10_01": "\n\nこの表記を始めてから、担当者は版番号の小さい資料を最新版として送る間違いを減らせた。旧版を消すのではなく、必要な記録として残しながら、新しい版を名前で見つけられるようにしている。",
     "N2_11_M10_02": "\n\n問い合わせ中の欄には「確認待ち」と記し、回答を受けた日も残すことにした。過去の案件に似ているという理由だけで金額を確定すると、後から条件の違いに気づく恐れがあるためだ。",
-    "N2_11_M10_03": "\n\n共有先の範囲も確認し、社外に不要な画面が含まれていないか公開前に二人で点検する。個人情報を処理しても、研修の説明と必要な資料は残す方針である。",
-    "N2_11_M10_04": "\n\n再送した案内には変更した会場を目立つ形で記し、参加者が保存した古い案内と区別できるようにした。会場以外の情報を変えないことで、開始時間や議題を誤解させないようにしている。",
     "N2_11_M10_05": "\n\n翌月には記録と実績を比べ、計画から漏れやすい対応が何かを確かめる。記録方法が担当者の負担になっていないかも確認し、予測に必要な項目だけを残すことにした。",
     "N2_12_M10_01": "\n\n相談の内容によっては担当窓口が異なるため、来庁後は入口の案内板を見て該当する番号札を取る。延長日に利用できる手続きの一覧は、市のウェブサイトにも掲載している。",
-    "N2_12_M10_02": "\n\n利用できるのは西側入口から入った芝生広場など、閉鎖区域以外の場所である。作業員の指示に従い、立入禁止の表示がある東側通路には入らないよう呼びかけている。",
-    "N2_12_M10_03": "\n\n回収後は担当者が食品の包装と期限を確かめ、条件に合うものを世帯ごとに分けて届ける。開封済みのものや期限が近いものは受け取れないため、持ち込む前に表示を確認してほしい。",
-    "N2_12_M10_04": "\n\n水泳教室の参加者には変更後の日程を別途知らせる。通常営業は二十三日に再開するが、振替教室は二十五日に行うため、休館と教室の日付を混同しないよう案内している。",
-    "N2_12_M10_05": "\n\n出発が早まっても、利用者が停車場所で待つ時間が大きく変わらないよう各地区の予定は維持する。回る順番だけは以前と異なるため、利用者には新しい掲示を確認してから出かけるよう伝えている。",
     "N2_13_M10_01": "\n\n質問は他の学生も読めるため、個人名や具体的な相談事情を書くと、匿名でも本人が分かる場合がある。担当窓口では個別情報を含む相談を受け付け、掲示板は授業内容を共有して確認する場として使い分ける。",
     "N2_13_M10_02": "\n\n質問への回答は任意で、回答しないことによる貸出制限もない。回答者の記録を集める調査ではないため、利用者ごとの読書履歴を作ることも目的としていない。図書館は三か月間の回答を集計し、利用状況を契約の検討に役立てる。",
     "N2_13_M10_03": "\n\n報告を受けても、担当部署が録音を確認するまでは、入力された表現が正しいとは限らない。そのため報告後すぐの修正を約束せず、確認に時間がかかる場合は予定日だけを先に知らせる。動画の視聴を止める必要はない。",
@@ -208,6 +202,160 @@ LONG_READING_CONTINUATIONS = {
     "N2_11_M13_03": "\n\n説明を直すとき、チームは読み手が誤解した箇所だけでなく、誤解が生じた理由も検討した。専門用語の定義が先に必要だったのか、例が一般的すぎて展示物とのつながりが見えなかったのかによって、直す場所は変わるからだ。ある来館者の反応だけを基準にすると、別の読み手にはかえって分かりにくくなる場合もある。そこで、複数の職員や来館者の反応を比べ、展示の目的に照らして修正案を決める。どの説明を残すかは専門家が確認し、読みやすさを高めても、根拠のない内容に置き換えないようにしている。",
     **{f"N2_12_M13_{i:02}": "\n\n市は試験結果を比較する際、雨量や季節、工事区間の違いを記録し、一度の大雨や一種類の生き物の観察だけで結論を出さない方針だ。水害への備えは住民の安全に関わるため、環境面でよい変化が見られても、避難や堤防の機能を弱める案は採用できない。反対に、短期的な維持費だけを見ると、将来の修繕費や生態系への影響を見落とす可能性がある。観察会で寄せられた意見は、専門家の測定結果と並べて検討し、どの条件で利点と課題が現れたかを設計資料に残す。" for i in range(1, 4)},
     **{f"N2_13_M13_{i:02}": "\n\n公開後も、質問や誤解が多かった箇所を記録し、次の講座や動画の原稿に反映する。説明を分けて載せた場合は、中心の文章から方法や追加資料へ移れるリンクを確かめ、読み手が根拠にたどり着けるようにする。研究者は、やさしい表現に変えたことで条件や不確実性が消えていないかを最終確認する。広報チームは一度の原稿を完成版とみなさず、専門家の正確さの確認と、初めて読む人の理解度の確認を繰り返すことが必要だと考えている。" for i in range(1, 4)},
+}
+
+# Focused question-level repairs after editorial review. These preserve IDs and
+# answer bindings while replacing weak or ambiguous distractors. The source
+# fingerprint changes with the resulting question text; prior reviews remain
+# attached only to their historical versions.
+QUESTION_REVISIONS = {
+    "N2_11_M10_01": {
+        "optionsById": {"A": "修正者ごとに保存先を分けること", "B": "古い版を削除し、最新版だけを残すこと", "C": "ファイルを開いてから新旧を確認すること", "D": "ファイルを開かなくても、新旧を見分けること"},
+        "explanationVi": "Ngày tạo và số phiên bản được ghi ngay trên tên tệp, nên người dùng nhận ra bản mới trước khi mở. Bài đọc nói các bản cũ vẫn được giữ; việc lưu riêng theo người sửa hoặc mở tệp để kiểm tra không phải mục tiêu.",
+    },
+    "N2_11_M10_02": {
+        "optionsById": {"A": "見積書の金額は前回と同じ条件だと確認できたから", "B": "条件が同じとは限らず、過去の金額を当てはめられないから", "C": "見積書の総額が変わったと分かったから", "D": "取引を断る判断がすでに済んでいたから"},
+        "explanationVi": "Con số trước đây chỉ giống về bề ngoài; điều kiện giao hàng có thể khác. Người phụ trách xác minh trước khi dùng số chưa rõ căn cứ, chứ không xác nhận điều kiện giống nhau hay quyết định hủy giao dịch.",
+    },
+    "N2_11_M10_03": {
+        "optionsById": {"A": "個人が特定される情報を社外に公開しないため", "B": "社外共有用に動画の長さを一定にするため", "C": "研修の説明を削除し、社員名だけを残すため", "D": "画面に映った社員名の読み方を字幕に加えるため"},
+        "explanationVi": "Vì video được chia sẻ ra ngoài công ty, tên và thông báo có thể nhận diện nhân viên nên cần cắt hoặc làm mờ. Nội dung đào tạo vẫn được giữ lại; độ dài và cách đọc tên không phải lý do.",
+    },
+    "N2_11_M10_04": {
+        "optionsById": {"A": "旧会場の情報で参加者が遅れるのを防ぐこと", "B": "開始時刻と議題も変更したと知らせること", "C": "参加者を減らして小さい部屋に戻すこと", "D": "会議を中止し、予約を取り消したと伝えること"},
+        "explanationVi": "Một số người đã lưu thông báo cũ; gửi bản đính chính để họ đến đúng phòng. Giờ và chương trình không đổi, cuộc họp cũng không bị hủy.",
+    },
+    "N2_11_M10_05": {
+        "optionsById": {"A": "次月の業務量や必要な人員を現実に近く見積もるため", "B": "担当者ごとの処理速度を比較するため", "C": "予定外の仕事を翌月には発生させないと示すため", "D": "計画に含めるのは予定作業だけにするため"},
+        "explanationVi": "Ghi cả thời gian phát sinh giúp dự báo khối lượng và nhân lực tháng sau sát thực tế. Bài đọc loại trừ việc xếp hạng cá nhân; việc ghi chép không thể chứng minh rằng tháng sau sẽ không có việc phát sinh.",
+    },
+    "N2_11_M11_01": {
+        "optionsById": {"A": "未完了の作業・担当者・完了予定日", "B": "未完了の作業・次に確認する日・連絡先", "C": "完了した作業・評価・休暇予定", "D": "取引先との全記録・社員の個人予定"},
+        "explanationVi": "Bảng ghi việc chưa hoàn tất, ngày cần kiểm tra tiếp và thông tin liên hệ. Đây là các mục được nêu trực tiếp; nó không phải bảng đánh giá nhân viên hay lưu toàn bộ hồ sơ giao dịch.",
+    },
+    "N2_11_M11_02": {
+        "stem": "作業の状態をその日のうちに更新する手順を設けたのはなぜか。",
+        "optionsById": {"A": "更新しないと、表の情報が古くなるため", "B": "例外的な案件も表だけで判断できるようにするため", "C": "顧客情報を全員に共有するため", "D": "次の担当者が朝に確認する必要をなくすため"},
+        "explanationVi": "Nếu không cập nhật sau khi xử lý, bảng sẽ không phản ánh tình trạng mới. Việc này giúp người nhận kiểm tra buổi sáng; các vụ ngoại lệ vẫn cần thời gian bàn giao trực tiếp.",
+    },
+    "N2_11_M11_03": {
+        "optionsById": {"A": "表から外し、元の担当者が戻るまで保留する", "B": "表に記録すれば、口頭での引き継ぎは行わない", "C": "判断を別部署にすべて任せる", "D": "表に加えて、引き継ぎの時間を設ける"},
+        "explanationVi": "Với vụ cần phán đoán ngoại lệ, bài đọc nói bảng không đủ và cần dành thời gian bàn giao trực tiếp. Nhóm không bỏ vụ việc, chờ người cũ quay lại hay chuyển toàn bộ trách nhiệm đi nơi khác.",
+    },
+    "N2_11_M11_04": {
+        "optionsById": {"A": "参加者が資料を読まずに集まり、前提確認から始めていたこと", "B": "開始時刻を守ることを優先し、質問を後回しにしたこと", "C": "会議前に資料と疑問点を共有していたこと", "D": "資料を二ページ以内に制限していたこと"},
+        "explanationVi": "Người tham dự chưa đọc tài liệu nên phải thống nhất lại tiền đề trong cuộc họp. Việc chia sẻ tài liệu và ghi câu hỏi là biện pháp được thử sau đó, không phải nguyên nhân của thời gian xác nhận kéo dài.",
+    },
+    "N2_11_M11_05": {
+        "stem": "会議を質問や選択肢の比較から始めるため、チームが事前に求めたことは何か。",
+        "optionsById": {"A": "結論を決めてから会議に参加する", "B": "全員で詳細な別紙を作成する", "C": "資料を読み、疑問点を一つ用意する", "D": "会議後に疑問点をまとめて送る"},
+        "explanationVi": "Nhóm gửi tài liệu trước và yêu cầu mỗi người ghi sẵn một câu hỏi để cuộc họp bắt đầu bằng câu hỏi và so sánh lựa chọn. Không yêu cầu người tham gia quyết định trước hoặc viết phụ lục chi tiết.",
+    },
+    "N2_11_M11_06": {
+        "optionsById": {"A": "全員が同じ時間だけ資料を読むようにするため", "B": "判断材料を別紙へ移し、主資料から外すため", "C": "会議で質問を出さないようにするため", "D": "準備の負担を抑え、判断点を見つけやすくするため"},
+        "explanationVi": "Một số người mất quá nhiều thời gian chuẩn bị và khó biết cần quyết định gì. Giới hạn hai trang giữ trọng tâm trong tài liệu chính, còn chi tiết đưa vào phụ lục.",
+    },
+    "N2_11_M11_07": {
+        "optionsById": {"A": "報告後に事実や影響範囲を確かめる職場", "B": "報告した人が責められると感じる職場", "C": "対策の実行状況を月ごとに確かめる職場", "D": "意図的な違反と手順上の失敗を区別する職場"},
+        "explanationVi": "Khi người báo cáo nghĩ rằng mình sẽ bị trách, họ dễ giấu lỗi nhỏ. Việc xác minh sự việc, theo dõi biện pháp và phân biệt lỗi cố ý với lỗi quy trình là các cách ứng xử được công ty áp dụng.",
+    },
+    "N2_11_M11_08": {
+        "optionsById": {"A": "報告者の評価を先に見直す", "B": "処分を決めてから影響範囲を調べる", "C": "再発防止策を決めてから事実を確認する", "D": "まず事実と影響の範囲を確かめる"},
+        "explanationVi": "Sau khi nhận báo cáo, cấp quản lý trước hết xác minh sự việc và phạm vi ảnh hưởng. Việc phân tích nguyên nhân, trách nhiệm và phòng ngừa tái diễn đến sau bước xác minh này.",
+    },
+    "N2_11_M11_09": {
+        "optionsById": {"A": "失敗を報告した人の責任をすべて免除する", "B": "報告件数を増やすことだけを目標にする", "C": "原因を区別し、組織で改善できる点を直す", "D": "意図の有無にかかわらず、すべて処分する"},
+        "explanationVi": "Cơ chế không xóa bỏ trách nhiệm hay chỉ đếm báo cáo. Nó phân biệt vi phạm cố ý với lỗi do quy trình/thông tin để sửa những điểm tổ chức có thể cải thiện.",
+    },
+    "N2_11_M13_01": {
+        "optionsById": {"A": "定型作業でも入力時間はまったく減らなかったため", "B": "時間短縮だけでなく、例外時の確認と利用者への影響も見るため", "C": "利用者への説明は対象を広げた後に行うため", "D": "機械に任せた仕事には記録が必要ないため"},
+        "explanationVi": "Thử nghiệm giảm nhập liệu nhưng một số điều kiện lại làm khâu xác nhận lâu hơn. Công ty kiểm tra ngoại lệ, tác động đến người dùng và công việc phát sinh trước khi mở rộng.",
+    },
+    "N2_11_M13_02": {
+        "optionsById": {"A": "回答数が多ければ、全利用者の意見とみなせるため", "B": "聞き取りの結果でアンケートの数値をすべて置き換えるため", "C": "回答の偏りや、数字だけでは分からない理由を確かめるため", "D": "回答しなかった人を制度の対象から外すため"},
+        "explanationVi": "Số lượng trả lời không bảo đảm đại diện cho mọi người; khảo sát và phỏng vấn ngắn bổ sung cho nhau để tìm thiên lệch cũng như nguyên nhân cụ thể. Bài đọc không loại bỏ khảo sát hay người không trả lời.",
+    },
+    "N2_11_M13_03": {
+        "optionsById": {"A": "専門用語をすべて削除し、図だけで説明する", "B": "中心を定め、必要な専門語に説明を添え、反応を見て直す", "C": "一人の来館者の反応を優先し、専門家の確認を省く", "D": "読みやすさを優先し、根拠の確認を省く"},
+        "explanationVi": "Nhóm xác định ý trung tâm, giải thích thuật ngữ cần giữ và dùng phản hồi của nhiều người để sửa thứ tự. Chuyên gia vẫn kiểm tra độ chính xác; không xóa hết thuật ngữ hay dựa vào một người đọc duy nhất.",
+    },
+    "N2_12_M11_01": {
+        "optionsById": {"A": "値下げ前後の販売数だけで事業の効果を決めるため", "B": "店ごとに異なる表示を残し、選び方を店員に任せるため", "C": "利用者が値引きの程度を比べやすくするため", "D": "すべての商品を同じ価格で販売するため"},
+        "explanationVi": "Người mua nói khó chọn vì không biết mức giảm của từng cửa hàng. Ba mức hiển thị thống nhất giúp so sánh dễ hơn; nó không cố định giá hoặc thay thế việc đánh giá lượng rác thực phẩm.",
+    },
+    "N2_12_M11_02": {
+        "stem": "表示をそろえた後、店員側に起きた変化はどれか。",
+        "optionsById": {"A": "購入者が値引きの程度を比べる機会がなくなった", "B": "店ごとに割引率を独自に決めるようになった", "C": "売れ残りや廃棄がなくなった", "D": "値引きについての説明が短くなった"},
+        "explanationVi": "Câu hỏi giới hạn vào thay đổi phía nhân viên: cách trình bày thống nhất giúp họ giải thích ngắn hơn. Người mua cũng so sánh dễ hơn, nhưng đó là thay đổi ở phía khách hàng.",
+    },
+    "N2_12_M11_03": {
+        "stem": "市が販売数だけでなく廃棄量や利用者の意見も見るのはなぜか。",
+        "optionsById": {"A": "参加店の売上順位で、協力の程度を決めるため", "B": "表示が分かりやすければ、廃棄量も必ず減ると示すため", "C": "表示の分かりやすさと食品ロス削減の効果を分けて評価するため", "D": "利用者全員の希望を一つの商品に反映するため"},
+        "explanationVi": "Hiển thị dễ hiểu chưa chứng minh rằng lượng thực phẩm bị bỏ đi đã giảm. Thành phố dự định kết hợp lượng bán, lượng bỏ đi và ý kiến người dùng để đánh giá riêng hiệu quả của chương trình.",
+    },
+    "N2_12_M11_04": {
+        "optionsById": {"A": "病院が町外へ移転し、旧路線を使えなくなったため", "B": "利用が少ない日も、決まった路線を運行する費用がかかっていたため", "C": "運転手を増やし、全停留所を同時に回るため", "D": "すべての停留所をなくす方針になったため"},
+        "explanationVi": "Xe buýt chạy cố định vẫn phát sinh chi phí vào những ngày ít người đi. Xe đặt trước là cách thay thế một phần tuyến để phù hợp nhu cầu; văn bản không nói bệnh viện chuyển đi hay toàn bộ điểm dừng bị bỏ.",
+    },
+    "N2_12_M11_05": {
+        "optionsById": {"A": "朝の遅れをなくすため、運転手を増やす", "B": "予約を不要にして、当日乗車へ切り替える", "C": "運行範囲を縮め、予約できる地区を減らす", "D": "予約方法が分かりにくいという声に対応する"},
+        "explanationVi": "町 kéo dài giờ nhận đặt qua điện thoại sau khi người dân nói cách đặt khó hiểu. Đây là điều chỉnh hướng dẫn/tiếp nhận, không phải bỏ đặt chỗ hay sửa lịch xe buổi sáng.",
+    },
+    "N2_12_M11_06": {
+        "optionsById": {"A": "全ての地区を同じ時刻に運行すること", "B": "以前の路線を費用に関係なく完全に再現すること", "C": "費用を最小にすることだけ", "D": "通院や通学に必要な時間帯を保ちつつ、運行範囲を考えること"},
+        "explanationVi": "Thành phố cân nhắc nhu cầu đi khám và đi học cùng chi phí, nhân lực và ý kiến người dùng/đơn vị vận hành. Bài đọc bác bỏ việc tối thiểu hóa chi phí như tiêu chí duy nhất.",
+    },
+    "N2_12_M11_07": {
+        "optionsById": {"A": "各館の書棚に同じ本をすべてそろえること", "B": "予約取消しを防ぐため貸出期間を一律に延ばすこと", "C": "配送をなくし、中央館での受け取りに戻すこと", "D": "予約した本を受け取るまでの待ち時間を短くすること"},
+        "explanationVi": "Việc đặt sách về nhiều chi nhánh và dùng hệ thống chung nhằm rút ngắn thời gian chờ nhận sách. Đoạn văn vẫn nói chi phí giao nhận và nhu cầu từng chi nhánh cần được cân nhắc.",
+    },
+    "N2_12_M11_08": {
+        "optionsById": {"A": "需要が本や館によって偏り、購入冊数を決めにくい", "B": "導入後、平均待ち日数が必ず長くなった", "C": "共通システムで各館の所蔵状況を確認できない", "D": "利用者の希望を聞けず、配送費だけで決める"},
+        "explanationVi": "平均日 chờ đã giảm nhưng nhu cầu của một số sách tập trung ở vài chi nhánh nên quyết định mua thêm khó hơn. Hệ thống chung và việc lấy ý kiến người dùng vẫn hoạt động.",
+    },
+    "N2_12_M11_09": {
+        "stem": "貸出件数だけでは分からないため、図書館が所蔵数の調整に使う情報は何か。",
+        "optionsById": {"A": "本の大きさと棚の空きだけ", "B": "貸出数・予約取消し・待ち時間・希望する受取館など", "C": "貸出件数だけ", "D": "配送費だけ"},
+        "explanationVi": "Số lượt mượn không cho biết vì sao người đọc hủy đặt hoặc muốn nhận sách ở chi nhánh nào. Vì vậy thư viện kết hợp số liệu mượn, hủy đặt, thời gian chờ và ý kiến người dùng.",
+    },
+    "N2_12_M13_01": {
+        "optionsById": {"A": "下流の流れが遅くなり、魚の産卵場所が増えた", "B": "住民の要望を受け、環境団体が工事の中止を決めた", "C": "草刈り費用が下がり、植物を残す必要がなくなった", "D": "下流の流れが速まり、魚の産卵場所が減っていた"},
+        "explanationVi": "Khảo sát cho thấy dòng chảy phía hạ lưu nhanh hơn và bãi cạn nơi cá đẻ trứng bị thu hẹp; đó là kết quả khiến thành phố xem lại kế hoạch. Ý kiến cư dân và nhóm môi trường là phần tranh luận sau đó.",
+    },
+    "N2_12_M13_02": {
+        "optionsById": {"A": "草刈りや水位に関する懸念を、小さな区間で確かめるため", "B": "環境面の効果だけで本格工事の範囲を直ちに決めるため", "C": "観察会を行わず、住民の意見を集めないため", "D": "維持費だけを比べ、環境や安全面は調べないため"},
+        "explanationVi": "Thử nghiệm quy mô nhỏ giúp kiểm tra thực tế lo ngại về cỏ, tầm nhìn và mực nước trước khi quyết định phạm vi công trình. Thành phố vẫn đánh giá cả an toàn, chi phí và hệ sinh thái.",
+    },
+    "N2_12_M13_03": {
+        "optionsById": {"A": "観察結果は参考にとどめ、設計には反映しない", "B": "住民の記録も用いるが、複数の基準を合わせて評価する", "C": "参加人数が多ければ、計画の安全性も証明される", "D": "専門家の測定より、住民の印象だけを優先する"},
+        "explanationVi": "Quan sát của cư dân được đưa vào thiết kế, nhưng số người tham gia không tự chứng minh phương án an toàn. Thành phố đặt ý kiến tại chỗ cạnh số liệu chuyên gia và đánh giá nhiều tiêu chí.",
+    },
+    "N2_13_M10_03": {
+        "optionsById": {"A": "誤りの位置だけを示し、正しい表現は担当部署に調べてもらう", "B": "誤りの箇所と正しい表現の両方を書く", "C": "正しい表現だけを書き、字幕の位置は示さない", "D": "訂正予定日が表示されるまで報告を待つ"},
+        "explanationVi": "Báo cáo cần nêu cả vị trí sai lẫn cách viết đúng để bộ phận phụ trách xác minh và sửa. Chỉ gửi một trong hai thông tin sẽ khó tìm hoặc kiểm tra đúng chỗ.",
+    },
+    "N2_13_M11_03": {
+        "stem": "読者が情報の確かさを判断できるよう、編集部が記事で明らかにしていることは何か。",
+        "optionsById": {"A": "確認できた事実と、まだ確認できていない情報の違い", "B": "話題になった投稿はすべて事実だという判断", "C": "食い違う資料の一方を削除した理由", "D": "投稿者の発言を編集部が作り直した内容"},
+        "explanationVi": "Ban biên tập tách điều đã xác minh khỏi điều còn chưa rõ để độc giả tự đánh giá mức đáng tin. Họ giữ dấu vết về nguồn và sai khác, không xóa đi hay tự viết lại phát biểu.",
+    },
+    "N2_13_M11_07": {
+        "stem": "確認の機会を設けながら操作を増やし過ぎないため、大学が行った工夫はどれか。",
+        "optionsById": {"A": "提出後に窓口が全ての申請を修正する", "B": "添付ファイルの種類を一つに限定する", "C": "送信のたびに同じ警告を何度も表示する", "D": "提出先と添付名を示し、必要な場面に確認を絞る"},
+        "explanationVi": "Đại học hiển thị cụ thể nơi nộp và tên tệp ở các điểm quan trọng, đồng thời không lặp cảnh báo không cần thiết. Cách này vừa giúp ngăn gửi nhầm vừa tránh tạo quá nhiều thao tác.",
+    },
+    "N2_13_M11_08": {
+        "optionsById": {"A": "コメント数より、根拠を考えて論文を読み直す過程を重視する", "B": "短いコメントを全て禁止し、長さだけで評価する", "C": "指摘を受けたら、理由にかかわらず必ず採用させる", "D": "学生同士のコメントを使わず、教員だけで読む"},
+        "explanationVi": "Nhóm chuyển từ đếm bình luận sang xem người viết có nêu căn cứ và đọc lại để cân nhắc hay không. Người nhận không buộc phải làm theo mọi góp ý; điều quan trọng là quá trình đánh giá có lý do.",
+    },
+    "N2_13_M11_09": {
+        "optionsById": {"A": "履歴を残したくない人には相談を受け付けない", "B": "オンラインだけに集約し、他の方法をなくす", "C": "利用件数が増えれば、問題が解決したと判断する", "D": "異なる事情に合わせて複数の相談方法を残し、使いにくさも調べる"},
+        "explanationVi": "Sinh viên gặp những trở ngại khác nhau với viết trực tuyến hoặc chia sẻ thiết bị. Đại học giữ cả điện thoại và gặp trực tiếp, đồng thời hỏi ẩn danh về điểm hữu ích và khó dùng.",
+    },
+    "N2_13_M13_03": {
+        "optionsById": {"A": "詳しい研究方法をすべて中心の文章に載せる", "B": "限界や不確実性は読み手が混乱するので省く", "C": "中心となる知見と適用範囲を示し、詳しい根拠へ進めるようにする", "D": "専門家以外には研究成果を伝えない"},
+        "explanationVi": "Mục tiêu là giúp người đọc nắm ý chính và phạm vi áp dụng, rồi có thể mở phần phương pháp/tài liệu chi tiết. Bài đọc không yêu cầu đưa mọi chi tiết vào phần chính hay xóa giới hạn nghiên cứu.",
+    },
 }
 
 
@@ -272,4 +420,35 @@ def apply_phase_71_reading_repairs(items):
         if "explanationVi" in patch:
             item["explanation"] = patch["explanationVi"]
             item["explanationVi"] = patch["explanationVi"]
+
+    revisions = {
+        qid: revision for qid, revision in QUESTION_REVISIONS.items()
+        if any(qid.startswith(f"N2_{mock_number}_") for mock_number in mock_numbers)
+    }
+    missing_revisions = sorted(set(revisions) - set(by_id))
+    if missing_revisions:
+        raise ValueError("Phase 7.1 question revision IDs missing: " + ", ".join(missing_revisions))
+    for qid, revision in revisions.items():
+        item = by_id[qid]
+        if "stem" in revision:
+            item["stem"] = revision["stem"]
+        if "optionsById" in revision:
+            options_by_id = {option.get("id"): option for option in item.get("options", [])}
+            replacement = revision["optionsById"]
+            if set(replacement) != set(options_by_id) or len(options_by_id) != 4:
+                raise ValueError(f"{qid}: question revision must cover exactly four existing options")
+            if item.get("correctAnswer") not in replacement:
+                raise ValueError(f"{qid}: question revision would unbind the answer key")
+            for option_id, text in replacement.items():
+                options_by_id[option_id]["text"] = text
+            if len({option["text"] for option in item["options"]}) != 4:
+                raise ValueError(f"{qid}: revised options must be distinct")
+        if "explanationVi" in revision:
+            item["explanation"] = revision["explanationVi"]
+            item["explanationVi"] = revision["explanationVi"]
+            if "optionsById" in revision:
+                item["distractorExplanations"] = {
+                    option["id"]: f"Phương án «{option['text']}» không phù hợp với bài đọc. {revision['explanationVi']}"
+                    for option in item["options"] if option["id"] != item["correctAnswer"]
+                }
     return items
