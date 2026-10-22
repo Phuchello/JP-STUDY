@@ -7,3 +7,5 @@ deliverables/phase3/JAPANESE_PATTERN_LIBRARY/* -text
 deliverables/phase3/ANSWER_KEY_AND_EXPLANATIONS/validated_keys.json -text
 qa/blind_items_m11_revision7_delta.json -text -diff
 qa/blind_items_m11_revision8_delta.json -text -diff
+/qa/blind_items_m*_final.json -text
+/qa/raw_blind_responses/*.json -text -diff
