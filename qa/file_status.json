@@ -524,5 +524,6 @@
   "qa/blind_review_m11_revision6_delta_sanitized.json": "VERIFIED",
   "qa/blind_review_m11_revision7_delta_sanitized.json": "VERIFIED",
   "qa/blind_review_m11_revision8_delta_sanitized.json": "VERIFIED",
-  "qa/N2_MOCK_11_LIVE_DEPLOYMENT_RECEIPT.json": "VERIFIED"
+  "qa/N2_MOCK_11_LIVE_DEPLOYMENT_RECEIPT.json": "VERIFIED",
+  "qa/N2_MOCK_12_LIVE_DEPLOYMENT_RECEIPT.json": "VERIFIED"
 }

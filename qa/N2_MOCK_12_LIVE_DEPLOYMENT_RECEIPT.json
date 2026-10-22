@@ -1,0 +1,51 @@
+{
+  "examId": "N2-MOCK-12",
+  "deployedCommit": "dd48481f98057ef6baf5a2ac4d2a46563e917d06",
+  "githubActionsRun": "https://github.com/Phuchello/JP-STUDY/actions/runs/39706097933",
+  "githubActionsRunNumber": 31,
+  "runStatusAtVerification": "completed",
+  "runConclusionAtVerification": "success",
+  "contentQaJob": "success",
+  "gatedPagesDeployment": "success",
+  "observedAtUtc": "2026-10-22T01:34:45+00:00",
+  "catalogUrl": "https://phuchello.github.io/JP-STUDY/widgets/jlpt_exam_catalog.html",
+  "fullExamUrl": "https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mock&mockId=N2-MOCK-12",
+  "listeningUrl": "https://phuchello.github.io/JP-STUDY/widgets/practice_engine.html?mode=mock&mockId=N2-MOCK-12&section=2",
+  "checks": [
+    {
+      "name": "public_catalog_entry_and_links",
+      "result": "PASS",
+      "evidence": "The live catalog identifies Practice Mock Exam #12 and exposes full-exam and listening-only links with the expected mockId. #13 and later remain marked in development."
+    },
+    {
+      "name": "public_full_exam_route",
+      "result": "PASS",
+      "evidence": "The public route loaded N2-MOCK-12 at question 1 of 75 with a 105:00 section timer and rendered choices. No answer key, explanation, or listening transcript was exposed during the active attempt."
+    },
+    {
+      "name": "public_listening_route",
+      "result": "PASS",
+      "evidence": "The public listening route loaded 30 items with a 50:00 timer. Its first item is N2_12_M1_L01; the player loaded the public MP3, reported 40.072 seconds and readyState 4."
+    },
+    {
+      "name": "public_audio_playback_progression",
+      "result": "PASS",
+      "evidence": "In the live browser, after starting the public player at 18.467 seconds, playback advanced to 20.266 seconds and remained active. This verifies only the observed first track on the public CDN."
+    },
+    {
+      "name": "first_public_audio_sha256",
+      "result": "PASS",
+      "sha256": "305302e243d7405f00d86184d3e1a184e3f9f36ad28fa2a07401a8cc3b27a3cb",
+      "evidence": "The repository MP3 bytes match the SHA-256 in the M12 audio manifest; the same manifested asset URL loaded in the public player."
+    },
+    {
+      "name": "required_github_actions_jobs",
+      "result": "PASS",
+      "evidence": "The run-level status and conclusion are completed/success. Content QA & Release Gate Verification and Gated Deployment to GitHub Pages both completed successfully."
+    }
+  ],
+  "limitations": [
+    "Live CDN playback was observed for the first public track only. All 30 tracks separately passed repository hash, decode, and Chromium playback QA; live playback of every CDN asset is not claimed.",
+    "AI blind review is not human/native-speaker certification. No psychometric calibration, official JLPT approval, or pronunciation/prosody certification is claimed."
+  ]
+}
