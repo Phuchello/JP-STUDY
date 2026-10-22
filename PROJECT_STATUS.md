@@ -1,4 +1,4 @@
-# Trạng thái dự án — 21/10/2026
+# Trạng thái dự án — 22/10/2026
 
 ## Phase 7 — sản xuất N2-MOCK-11 → N2-MOCK-14
 
@@ -8,7 +8,10 @@
 - **Audio/runtime:** 30 MP3 có hash manifest; cả 30 vượt qua phát lại desktop và mobile Chromium. E2E player #11 và 9 kiểm thử âm tính đều đạt; bộ kiểm thử đầy đủ đạt 189/189 khi thư mục temp đặt trong workspace. Đây là bằng chứng kỹ thuật phát/tải/chấm bài, không xác nhận chất lượng phát âm hoặc hiệu chuẩn độ khó.
 - **Trạng thái phát hành:** #11 đã được deploy và xác minh trực tiếp ở catalog, route 75 câu và route nghe 30 câu; MP3 công khai đầu tiên phát tiến đến 13.063/35.584 giây. Cả hai job bắt buộc trong [Actions run 39613376720](https://github.com/Phuchello/JP-STUDY/actions/runs/39613376720) báo `success`, kể cả deploy Pages. GitHub vẫn báo trạng thái tổng của run là `in_progress` tại thời điểm ghi nhận nên không tuyên bố run-level `success`. Receipt: [`qa/N2_MOCK_11_LIVE_DEPLOYMENT_RECEIPT.json`](qa/N2_MOCK_11_LIVE_DEPLOYMENT_RECEIPT.json).
 - **Giới hạn:** 30/30 MP3 qua hash và playback QA desktop/mobile; chỉ track đầu được quan sát phát trực tiếp trên CDN. AI blind review không có portable execution attestation, không phải xác nhận người bản ngữ hay hiệu chuẩn tâm trắc học.
-- **Tiếp tục:** #11 là đề hoàn chỉnh đã deploy; #12 là đề kế tiếp, chưa bắt đầu; #13–14 chưa bắt đầu. Tiếp tục theo thứ tự và không tạo #15.
+- **N2-MOCK-12 — xã hội, môi trường và đời sống công cộng:** đã hoàn tất 75 + 30 câu và 105 giải thích tiếng Việt. Phân bổ đáp án Section 1: A18/B19/C16/D22; chuỗi cùng chữ dài nhất là 3; STAR `BADBA`. AI blind review theo bản nội dung hiện tại đạt 105/105 khớp, 0 đáp án thay thế còn mở (103 mức tin cậy cao, 2 trung bình); không có portable execution attestation hay chứng nhận người bản ngữ. Bốn lần trả lời gốc được lưu bất biến, trong đó ba bản cũ ghi rõ đã bị bản sửa sau thay thế.
+- **N2-MOCK-12 — audio và QA:** 30 MP3 gốc, 30/30 hash, giải mã và phát tiến triển trên Chromium desktop/mobile. E2E đạt với timer, ẩn transcript, chấm điểm, lịch sử, xem lại lỗi, giải thích tiếng Việt, Mondai 4 ba lựa chọn và viewport 390px. Audit nguyên bản so với #01–11: 0 trùng passage/script/audio hash; 9 stem trùng và 27 gần giống là prompt/khung JLPT chung; 3 bộ distractor lặp được ghi nhận. 199/199 unit/regression và dynamic audit 12/12 đề đạt sau khi sửa CI summary để nạp bằng chứng version-bound theo cơ chế discovery.
+- **Trạng thái phát hành:** #12 đã qua release gate cục bộ, có catalog và route tích hợp trong working tree; commit, Actions, Pages và kiểm tra live vẫn đang chờ. #11 vẫn là đề mới nhất đã deploy và xác minh công khai.
+- **Tiếp tục:** #11 đã deploy; #12 sẵn sàng commit/deploy; #13–14 chưa bắt đầu. Tiếp tục theo thứ tự, không tạo #15.
 
 ## Phase 6.1 — sửa chất lượng nội dung N2-MOCK-07–09 (đã phát hành và xác minh live)
 

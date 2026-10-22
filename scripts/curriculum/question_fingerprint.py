@@ -114,6 +114,25 @@ def compute_question_fingerprint(q, root_dir=None):
     """
     return compute_assessment_version_fingerprint(q, root_dir=root_dir)
 
+
+def compute_spoken_content_fingerprint(q):
+    """Bind a listening item to the exact script, prompt, and spoken choices.
+
+    Mondai 3 and 4 speak the displayed choices in order, so their option text
+    must be included. Other listening formats do not speak the choices.
+    """
+    spoken_choice_types = {"N2-LIS-SUMM", "N2-LIS-OUTL", "N2-LIS-GIST", "N2-LIS-RESP"}
+    payload = {
+        "id": str(q.get("id", "")).strip(),
+        "typeId": str(q.get("typeId", "")).strip(),
+        "script": str(q.get("script") or q.get("dialogue") or q.get("contextPassage") or "").strip(),
+        "stem": str(q.get("stem", "")).strip(),
+        "spokenOptions": [str(option.get("text", "")).strip() for option in q.get("options", [])]
+        if q.get("typeId") in spoken_choice_types else [],
+    }
+    canonical = json.dumps(payload, sort_keys=True, ensure_ascii=False)
+    return hashlib.sha256(canonical.encode("utf-8")).hexdigest()
+
 def compute_option_text_fingerprint(options):
     """
     Computes a hash of the set of option texts (ignoring order/labels).

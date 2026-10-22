@@ -48,10 +48,16 @@ class TestDeploymentFailClosed(unittest.TestCase):
         Verify that generate_ci_qa_summary fails closed (sys.exit(1)) when quarantined items exist.
         """
         from scripts.ci.generate_ci_qa_summary import generate_ci_qa_summary
+        from scripts.curriculum.discovery import discover_active_n2_mocks, load_all_active_mock_questions
         # Clean run must succeed
         summary = generate_ci_qa_summary()
         self.assertEqual(summary['gateStatus'], 'PASS')
         self.assertEqual(summary['quarantinedCount'], 0)
+        # Newly discovered current-version review artifacts must enter both
+        # semantic provenance and exact downstream ID reconciliation.
+        self.assertEqual(summary['idConsistency']['totalReviewRecords'], len(load_all_active_mock_questions(discover_active_n2_mocks())))
+        self.assertEqual(summary['idConsistency']['missingInReview'], [])
+        self.assertEqual(summary['mockBreakdown']['N2-MOCK-12']['semanticQaStatus'], 'REVIEW_CONTENT_VERSION_VERIFIED')
 
 
 if __name__ == "__main__":

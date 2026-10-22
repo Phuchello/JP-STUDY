@@ -121,3 +121,87 @@ def validate_version_bound_reconciliation(report: dict, exam: dict, sealed_input
             if str(expected).lower() != actual:
                 errors.append(f"captured raw response digest does not match local immutable evidence: {name}")
     return errors
+
+
+CURRENT_VERSION_REVIEW_SCHEMA = "CURRENT_VERSION_TEXT_RECONCILIATION_V1"
+AI_REVIEW_PROVENANCE_LIMIT = (
+    "AI blind-review artifacts have no portable execution attestation and do not constitute native-speaker certification."
+)
+
+
+def validate_current_version_reconciliation(report: dict, exam: dict, sealed_input: list[dict],
+                                            raw_sha256: dict[str, str] | None = None) -> list[str]:
+    """Validate a key-free, exact-option-text review of one current exam version.
+
+    The report proves content-version binding and semantic answer agreement. It
+    does not certify the reviewer as a human linguist or native speaker.
+    """
+    errors = []
+    if report.get("schema") != CURRENT_VERSION_REVIEW_SCHEMA:
+        errors.append(f"review schema must be {CURRENT_VERSION_REVIEW_SCHEMA}")
+    if report.get("status") != "REVIEW_CONTENT_VERSION_VERIFIED":
+        errors.append("review report is not marked REVIEW_CONTENT_VERSION_VERIFIED")
+    if report.get("examId") != exam.get("examId"):
+        errors.append("review report examId does not match the current exam")
+    if report.get("reviewProvenanceLimit") != AI_REVIEW_PROVENANCE_LIMIT:
+        errors.append("review limitations are missing or overstate independent attestation")
+
+    questions = {q.get("id"): q for section in exam.get("sections", []) for q in section.get("items", [])}
+    sealed_by_id = {row.get("id"): row for row in sealed_input}
+    review_by_id = {row.get("questionId"): row for row in report.get("rows", [])}
+    count = len(questions)
+    if count == 0 or len(sealed_by_id) != count or len(review_by_id) != count:
+        errors.append("current exam, key-free sealed input, and review rows must have equal unique question counts")
+        return errors
+    if set(questions) != set(sealed_by_id) or set(questions) != set(review_by_id):
+        errors.append("current exam, key-free sealed input, and review question IDs do not match")
+
+    summary = report.get("summary", {})
+    if summary.get("reviewedItems") != count:
+        errors.append("summary does not account for every current question")
+    if summary.get("semanticAgreementCount") != count or summary.get("semanticMismatchCount") != 0:
+        errors.append("release requires exact semantic agreement for every item and zero mismatches")
+    if summary.get("unresolvedAmbiguityCount") != 0:
+        errors.append("release requires zero unresolved answer ambiguities")
+
+    evidence = report.get("rawEvidence", {})
+    for field in ("sealedInputSha256", "rawOutputSha256"):
+        if not re.fullmatch(r"[0-9a-fA-F]{64}", str(evidence.get(field, ""))):
+            errors.append(f"raw review evidence is missing a valid {field}")
+    if evidence.get("inputHashMatchedBeforeAndAfter") is not True:
+        errors.append("sealed input hash stability is not recorded")
+    if evidence.get("rawResponsePreservedLocally") is not True:
+        errors.append("raw reviewer response preservation is not recorded")
+    if evidence.get("portableExecutionAttestationAvailable") is not False:
+        errors.append("portable execution-attestation limitation is not explicit")
+
+    for qid, q in questions.items():
+        row = review_by_id.get(qid)
+        sealed = sealed_by_id.get(qid)
+        if not row or not sealed:
+            continue
+        fingerprint = compute_question_fingerprint(q)
+        if row.get("contentFingerprint") != fingerprint or sealed.get("contentFingerprint") != fingerprint:
+            errors.append(f"{qid}: current fingerprint is stale")
+        exact_text = row.get("rawReviewerExactOptionText")
+        current_matches = [opt for opt in q.get("options", []) if opt.get("text") == exact_text]
+        sealed_matches = [opt for opt in sealed.get("options", []) if opt.get("text") == exact_text]
+        if len(current_matches) != 1 or len(sealed_matches) != 1:
+            errors.append(f"{qid}: selected exact option text does not map uniquely in current and sealed choices")
+            continue
+        correct = next((opt for opt in q.get("options", []) if opt.get("id") == q.get("correctAnswer")), None)
+        if (current_matches[0].get("id") != row.get("currentDisplayedOptionId")
+                or row.get("authoredCorrectOptionId") != q.get("correctAnswer")
+                or not correct or correct.get("text") != exact_text
+                or row.get("semanticTextAgreement") is not True):
+            errors.append(f"{qid}: reviewer text, displayed key, and authored answer do not agree")
+        if row.get("alternateDefensibleAnswers"):
+            errors.append(f"{qid}: unresolved alternative defensible answer is recorded")
+
+    if raw_sha256:
+        for name, path in raw_sha256.items():
+            actual = hashlib.sha256(Path(path).read_bytes()).hexdigest()
+            expected = evidence.get(name)
+            if str(expected).lower() != actual:
+                errors.append(f"captured raw response digest does not match local evidence: {name}")
+    return errors

@@ -1,0 +1,978 @@
+{
+  "inputSha256BeforeReview": "1E511A9381EA08E13069B4D2F79943BB90781BF8FD9AD78785101CA75421314F",
+  "inputSha256AfterReview": "1E511A9381EA08E13069B4D2F79943BB90781BF8FD9AD78785101CA75421314F",
+  "audioSeparatelyHeardOrChecked": false,
+  "itemCount": 105,
+  "uniqueItemCount": 105,
+  "confidenceCounts": {
+    "高": 104,
+    "中": 1,
+    "低": 0
+  },
+  "ambiguityCount": 1,
+  "starFocusedItemIds": [
+    "N2_12_M8_01",
+    "N2_12_M8_02",
+    "N2_12_M8_03",
+    "N2_12_M8_04",
+    "N2_12_M8_05"
+  ],
+  "continuousTextGrammarFocusedItemIds": [
+    "N2_12_M9_01",
+    "N2_12_M9_02",
+    "N2_12_M9_03",
+    "N2_12_M9_04",
+    "N2_12_M9_05"
+  ],
+  "responses": [
+    {
+      "itemId": "N2_12_M1_01",
+      "selectedOptionId": "C",
+      "selectedOptionText": "じっし",
+      "confidence": "高",
+      "rationaleJa": "「実施」は「じっし」と読む。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M1_02",
+      "selectedOptionId": "A",
+      "selectedOptionText": "きゅうげき",
+      "confidence": "高",
+      "rationaleJa": "「急激」の読みは「きゅうげき」。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M1_03",
+      "selectedOptionId": "C",
+      "selectedOptionText": "いじ",
+      "confidence": "高",
+      "rationaleJa": "「維持」は「いじ」と読む。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M1_04",
+      "selectedOptionId": "B",
+      "selectedOptionText": "こうじた",
+      "confidence": "高",
+      "rationaleJa": "「講じた」は「こうじた」と読む。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M1_05",
+      "selectedOptionId": "B",
+      "selectedOptionText": "さい",
+      "confidence": "高",
+      "rationaleJa": "「差異」は「さい」と読む。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M2_01",
+      "selectedOptionId": "C",
+      "selectedOptionText": "供給",
+      "confidence": "高",
+      "rationaleJa": "避難所に水を届ける意味なので「供給」。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M2_02",
+      "selectedOptionId": "D",
+      "selectedOptionText": "改善",
+      "confidence": "高",
+      "rationaleJa": "問題点を直す案は「改善案」。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M2_03",
+      "selectedOptionId": "B",
+      "selectedOptionText": "増設",
+      "confidence": "高",
+      "rationaleJa": "案内表示を新たに設けるので「増設」。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M2_04",
+      "selectedOptionId": "C",
+      "selectedOptionText": "更新",
+      "confidence": "高",
+      "rationaleJa": "サイトの情報を新しいものにする「更新」。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M2_05",
+      "selectedOptionId": "A",
+      "selectedOptionText": "重視",
+      "confidence": "高",
+      "rationaleJa": "利用目的を分析の重視対象にしている。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M3_01",
+      "selectedOptionId": "D",
+      "selectedOptionText": "化",
+      "confidence": "高",
+      "rationaleJa": "「効率化を進める」という語の組み合わせ。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M3_02",
+      "selectedOptionId": "B",
+      "selectedOptionText": "可能性",
+      "confidence": "高",
+      "rationaleJa": "地域間で確保するのは「比較可能性」。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M3_03",
+      "selectedOptionId": "B",
+      "selectedOptionText": "化",
+      "confidence": "高",
+      "rationaleJa": "予約をオンライン化する文脈。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M3_04",
+      "selectedOptionId": "A",
+      "selectedOptionText": "性",
+      "confidence": "高",
+      "rationaleJa": "自分で手続きを進める性質は「自主性」。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M3_05",
+      "selectedOptionId": "C",
+      "selectedOptionText": "感",
+      "confidence": "高",
+      "rationaleJa": "住民同士のつながりを表す「連帯感」。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M4_01",
+      "selectedOptionId": "C",
+      "selectedOptionText": "規制",
+      "confidence": "高",
+      "rationaleJa": "点検終了まで通行を制限するため「規制」。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M4_02",
+      "selectedOptionId": "D",
+      "selectedOptionText": "開設",
+      "confidence": "高",
+      "rationaleJa": "避難所は「開設」する。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M4_03",
+      "selectedOptionId": "B",
+      "selectedOptionText": "見直して",
+      "confidence": "高",
+      "rationaleJa": "危険な点を再検討してから工事する。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M4_04",
+      "selectedOptionId": "D",
+      "selectedOptionText": "比較",
+      "confidence": "高",
+      "rationaleJa": "同じ方式で地域間の傾向を「比較」できる。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M4_05",
+      "selectedOptionId": "A",
+      "selectedOptionText": "設置",
+      "confidence": "高",
+      "rationaleJa": "調整池という施設を新設するので「設置」。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M4_06",
+      "selectedOptionId": "C",
+      "selectedOptionText": "説明",
+      "confidence": "高",
+      "rationaleJa": "内容を分かりやすく伝えるのは「説明」。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M4_07",
+      "selectedOptionId": "A",
+      "selectedOptionText": "再検討",
+      "confidence": "高",
+      "rationaleJa": "利用減少を受け運行方法を再度検討する。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M5_01",
+      "selectedOptionId": "C",
+      "selectedOptionText": "要望を考慮して",
+      "confidence": "高",
+      "rationaleJa": "「踏まえて」は要望を考慮して、の意味。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M5_02",
+      "selectedOptionId": "A",
+      "selectedOptionText": "利用状況に合っている",
+      "confidence": "高",
+      "rationaleJa": "「状況に即している」は状況に合うこと。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M5_03",
+      "selectedOptionId": "B",
+      "selectedOptionText": "負担を小さくする",
+      "confidence": "高",
+      "rationaleJa": "軽減するとは負担を小さくすること。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M5_04",
+      "selectedOptionId": "B",
+      "selectedOptionText": "結論をすぐに出さず、後で判断することにした",
+      "confidence": "高",
+      "rationaleJa": "保留はすぐ結論を出さず後で判断すること。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M5_05",
+      "selectedOptionId": "C",
+      "selectedOptionText": "地区に関係なく",
+      "confidence": "高",
+      "rationaleJa": "「地区を問わず」は地区に関係なく、の意味。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M6_01",
+      "selectedOptionId": "A",
+      "selectedOptionText": "強風のため、橋の補修工事は安全が確認できるまで見合わせた。",
+      "confidence": "高",
+      "rationaleJa": "安全確認まで工事の実施を控えている。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M6_02",
+      "selectedOptionId": "A",
+      "selectedOptionText": "坂道の多い地区では、徒歩での買い物が高齢者の負担になっている。",
+      "confidence": "高",
+      "rationaleJa": "徒歩の買い物が高齢者にかける労力・不便を指す。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M6_03",
+      "selectedOptionId": "D",
+      "selectedOptionText": "町長は彼の調整力を見込んで、地域協議会の委員長を任せた。",
+      "confidence": "高",
+      "rationaleJa": "調整力を評価して委員長の役割を任せている。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M6_04",
+      "selectedOptionId": "D",
+      "selectedOptionText": "専門家は、市民団体からの講演依頼に応じた。",
+      "confidence": "高",
+      "rationaleJa": "講演依頼を引き受ける意味で使われている。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M6_05",
+      "selectedOptionId": "D",
+      "selectedOptionText": "住民の寄付が、閉鎖の危機にあった図書館の活動を支えた。",
+      "confidence": "高",
+      "rationaleJa": "寄付が図書館の活動継続を助けている。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M7_01",
+      "selectedOptionId": "B",
+      "selectedOptionText": "ものの",
+      "confidence": "高",
+      "rationaleJa": "人口減少の事実と新店増加を対比する「ものの」。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M7_02",
+      "selectedOptionId": "A",
+      "selectedOptionText": "かねない",
+      "confidence": "高",
+      "rationaleJa": "被害拡大の望ましくない可能性を表す「かねない」。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M7_03",
+      "selectedOptionId": "D",
+      "selectedOptionText": "ことによって",
+      "confidence": "高",
+      "rationaleJa": "記録したことを改善点発見の手段として示す。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M7_04",
+      "selectedOptionId": "C",
+      "selectedOptionText": "を問わず",
+      "confidence": "高",
+      "rationaleJa": "年齢に関係なく参加できるという意味。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M7_05",
+      "selectedOptionId": "D",
+      "selectedOptionText": "に限らず",
+      "confidence": "高",
+      "rationaleJa": "春だけでなく秋も楽しめるという意味。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M7_06",
+      "selectedOptionId": "B",
+      "selectedOptionText": "うえで",
+      "confidence": "高",
+      "rationaleJa": "安全確認をした後で許可したことを示す。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M7_07",
+      "selectedOptionId": "A",
+      "selectedOptionText": "に伴って",
+      "confidence": "高",
+      "rationaleJa": "条例改正に伴う変更を述べている。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M7_08",
+      "selectedOptionId": "D",
+      "selectedOptionText": "からといって",
+      "confidence": "高",
+      "rationaleJa": "中心部に住むだけで車なし生活が可能とは限らない。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M7_09",
+      "selectedOptionId": "A",
+      "selectedOptionText": "でなく",
+      "confidence": "高",
+      "rationaleJa": "自治体だけではなく住民にも必要という並列。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M7_10",
+      "selectedOptionId": "D",
+      "selectedOptionText": "わたって",
+      "confidence": "高",
+      "rationaleJa": "複数地域にわたり三年間続いたという意味。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M7_11",
+      "selectedOptionId": "B",
+      "selectedOptionText": "にとどまらず",
+      "confidence": "高",
+      "rationaleJa": "交通手段の選択に限定されず公平さにも関係する。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M7_12",
+      "selectedOptionId": "D",
+      "selectedOptionText": "からには",
+      "confidence": "高",
+      "rationaleJa": "決めた以上、定期確認をしてほしいという意味。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M8_01",
+      "selectedOptionId": "B",
+      "selectedOptionText": "確認し、",
+      "confidence": "高",
+      "rationaleJa": "「書類を受付で」の後に「確認し」が続く。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M8_02",
+      "selectedOptionId": "A",
+      "selectedOptionText": "公開前に担当者が確認し、",
+      "confidence": "高",
+      "rationaleJa": "集計後、公開前に担当者が個人情報を確認する流れ。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M8_03",
+      "selectedOptionId": "D",
+      "selectedOptionText": "事前に確認し、",
+      "confidence": "高",
+      "rationaleJa": "指定避難場所を事前に確認してから備える流れ。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M8_04",
+      "selectedOptionId": "B",
+      "selectedOptionText": "食料品を届けるための移動販売車を導入し、",
+      "confidence": "高",
+      "rationaleJa": "市が移動販売車を導入し、その車を週二回運行する。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M8_05",
+      "selectedOptionId": "A",
+      "selectedOptionText": "将来の維持費も",
+      "confidence": "高",
+      "rationaleJa": "短期費用に加え将来の維持費も比較対象となる。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M9_01",
+      "selectedOptionId": "B",
+      "selectedOptionText": "ものの",
+      "confidence": "中",
+      "rationaleJa": "利用者増加と希望どおり乗れない状況の対比を「ものの」で結ぶのが自然。",
+      "alternativeDefensibleOptionTexts": [
+        "ばかりか"
+      ],
+      "concerns": [
+        "「ばかりか」も添加関係として成立する余地があり、文脈上は逆接を明示する「ものの」が最も自然。"
+      ]
+    },
+    {
+      "itemId": "N2_12_M9_02",
+      "selectedOptionId": "D",
+      "selectedOptionText": "ことによって",
+      "confidence": "高",
+      "rationaleJa": "事前周知と時間設定によって予定を立てやすくなる。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M9_03",
+      "selectedOptionId": "D",
+      "selectedOptionText": "に応じて",
+      "confidence": "高",
+      "rationaleJa": "人口構成などの条件に応じ施設規模を調整する。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M9_04",
+      "selectedOptionId": "A",
+      "selectedOptionText": "からといって",
+      "confidence": "高",
+      "rationaleJa": "設置したからといって問題がすべて解決するわけではない。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M9_05",
+      "selectedOptionId": "A",
+      "selectedOptionText": "だけでなく",
+      "confidence": "高",
+      "rationaleJa": "利点だけでなく課題も共有する構文。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M10_01",
+      "selectedOptionId": "D",
+      "selectedOptionText": "通常時間に来られない人も利用できる",
+      "confidence": "高",
+      "rationaleJa": "通常時間に来られない人も水曜延長窓口を利用できる。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M10_02",
+      "selectedOptionId": "C",
+      "selectedOptionText": "西側の入口から入る",
+      "confidence": "高",
+      "rationaleJa": "東側通路が使えないため西側入口を使う。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M10_03",
+      "selectedOptionId": "A",
+      "selectedOptionText": "交流センターに未開封で期限まで一週間以上ある食品を持っていく",
+      "confidence": "高",
+      "rationaleJa": "場所・未開封・期限・受付時間の条件に合う。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M10_04",
+      "selectedOptionId": "B",
+      "selectedOptionText": "入館券の期限は延長される",
+      "confidence": "高",
+      "rationaleJa": "休館中は通常入館券の有効期限が延長される。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M10_05",
+      "selectedOptionId": "B",
+      "selectedOptionText": "図書館を出発する時刻",
+      "confidence": "高",
+      "rationaleJa": "各地区時刻等は変わらず、出発だけ十五分早まる。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M11_01",
+      "selectedOptionId": "C",
+      "selectedOptionText": "値引きの程度を利用者が比べやすくするため",
+      "confidence": "高",
+      "rationaleJa": "利用者が値引きの程度を比較しやすくするため。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M11_02",
+      "selectedOptionId": "D",
+      "selectedOptionText": "店員が説明する時間が短くなった",
+      "confidence": "高",
+      "rationaleJa": "表示統一後、店員の説明が短くなった。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M11_03",
+      "selectedOptionId": "C",
+      "selectedOptionText": "廃棄量や利用者の意見も含む複数の情報",
+      "confidence": "高",
+      "rationaleJa": "売れ残りだけでなく廃棄量と利用者意見も見る。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M11_04",
+      "selectedOptionId": "B",
+      "selectedOptionText": "利用が少ない日も定時運行の費用がかかっていたため",
+      "confidence": "高",
+      "rationaleJa": "利用が少ない日も固定ルートの運行費がかかっていた。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M11_05",
+      "selectedOptionId": "D",
+      "selectedOptionText": "予約方法が分かりにくいという声に対応するため",
+      "confidence": "高",
+      "rationaleJa": "予約方法が分かりにくいという声に応じた。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M11_06",
+      "selectedOptionId": "D",
+      "selectedOptionText": "通院・通学に必要な時間帯を保てるか",
+      "confidence": "高",
+      "rationaleJa": "費用だけでなく通院・通学に必要な時間帯を重視。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M11_07",
+      "selectedOptionId": "D",
+      "selectedOptionText": "予約本を受け取るまでの待ち時間を減らすため",
+      "confidence": "高",
+      "rationaleJa": "分館受取までの待ち時間を短くするため。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M11_08",
+      "selectedOptionId": "A",
+      "selectedOptionText": "人気の偏りがあり、購入冊数を決めにくい",
+      "confidence": "高",
+      "rationaleJa": "館ごとに人気が偏り、追加購入数の判断が難しい。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M11_09",
+      "selectedOptionId": "B",
+      "selectedOptionText": "貸出・取消し・利用者希望など",
+      "confidence": "高",
+      "rationaleJa": "貸出件数に加えて取消しや利用者希望も確認する。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M12_01",
+      "selectedOptionId": "C",
+      "selectedOptionText": "駐車場のあり方を考える際、車が必要な人への配慮も欠かせない",
+      "confidence": "高",
+      "rationaleJa": "両者とも車が必要な人への配慮を認めている。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M12_02",
+      "selectedOptionId": "D",
+      "selectedOptionText": "Aは駐車場削減を進める案を示し、Bは影響を測ってから決める段階的な案を示す",
+      "confidence": "高",
+      "rationaleJa": "Aは削減案、Bは影響測定後に決める段階案を示す。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M13_01",
+      "selectedOptionId": "D",
+      "selectedOptionText": "下流の流れが速まり、魚の産卵場所が減っていた",
+      "confidence": "高",
+      "rationaleJa": "下流の流れが速まり、魚の産卵場所が減った。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M13_02",
+      "selectedOptionId": "A",
+      "selectedOptionText": "草刈りや水位への懸念を実際に確かめるため",
+      "confidence": "高",
+      "rationaleJa": "草刈り費用や水位への懸念を小区間で検証するため。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M13_03",
+      "selectedOptionId": "B",
+      "selectedOptionText": "住民の観察を記録として使うが、評価は複数の基準で行う",
+      "confidence": "高",
+      "rationaleJa": "観察記録を設計に生かしつつ複数基準で評価する。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M14_01",
+      "selectedOptionId": "C",
+      "selectedOptionText": "6月10日までに申し込み、先着順で参加する",
+      "confidence": "高",
+      "rationaleJa": "期限までの申込みと先着順という条件に合う。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M14_02",
+      "selectedOptionId": "C",
+      "selectedOptionText": "避難所の確認と非常持出品",
+      "confidence": "高",
+      "rationaleJa": "講座内容は避難所確認と非常持出品の選び方。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M1_L01",
+      "selectedOptionId": "D",
+      "selectedOptionText": "施工会社に検査時刻を確認する",
+      "confidence": "高",
+      "rationaleJa": "女性は最初に施工会社へ検査時刻を確認する。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M1_L02",
+      "selectedOptionId": "B",
+      "selectedOptionText": "自治会館の予約状況を確認する",
+      "confidence": "高",
+      "rationaleJa": "男性が最初に会館の予約状況を確認すると述べる。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M1_L03",
+      "selectedOptionId": "D",
+      "selectedOptionText": "乗り換え案内を更新する",
+      "confidence": "高",
+      "rationaleJa": "まず乗り換え案内を更新すると話している。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M1_L04",
+      "selectedOptionId": "A",
+      "selectedOptionText": "申込み人数を確認する",
+      "confidence": "高",
+      "rationaleJa": "隣室を相談する前に申込み人数を数える。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M1_L05",
+      "selectedOptionId": "D",
+      "selectedOptionText": "気象情報と川の水位を調べる",
+      "confidence": "高",
+      "rationaleJa": "延期等を決める前に気象情報と水位を確認する。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M2_L01",
+      "selectedOptionId": "B",
+      "selectedOptionText": "袋に分けて職員に渡す",
+      "confidence": "高",
+      "rationaleJa": "液漏れ電池は袋に分けて職員に直接渡す。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M2_L02",
+      "selectedOptionId": "D",
+      "selectedOptionText": "建物の外の専用区画",
+      "confidence": "高",
+      "rationaleJa": "ペット同伴者は建物外の専用区画へ案内される。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M2_L03",
+      "selectedOptionId": "D",
+      "selectedOptionText": "本が届く前",
+      "confidence": "高",
+      "rationaleJa": "受取場所変更は本が届く前に行う。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M2_L04",
+      "selectedOptionId": "C",
+      "selectedOptionText": "本人の委任状",
+      "confidence": "高",
+      "rationaleJa": "代理人には本人の委任状が追加で必要。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M2_L05",
+      "selectedOptionId": "C",
+      "selectedOptionText": "マイボトル",
+      "confidence": "高",
+      "rationaleJa": "原則としてマイボトルを持参する。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M2_L06",
+      "selectedOptionId": "D",
+      "selectedOptionText": "今月二十五日までに電話する",
+      "confidence": "高",
+      "rationaleJa": "今月二十五日までに電話で申し込む。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M3_L01",
+      "selectedOptionId": "A",
+      "selectedOptionText": "利用記録を基に、駅前以外も含めて配置場所を見直す",
+      "confidence": "高",
+      "rationaleJa": "利用記録を基に駅前以外も配置を見直すのが要点。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M3_L02",
+      "selectedOptionId": "A",
+      "selectedOptionText": "作業後の交流を大切にし、初参加者も会話に入れる仕組みを作る",
+      "confidence": "高",
+      "rationaleJa": "交流を重視し初参加者も会話に入れる仕組みを考える。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M3_L03",
+      "selectedOptionId": "C",
+      "selectedOptionText": "発電と消費の時間差を踏まえ、蓄電や地域内利用も組み合わせる",
+      "confidence": "高",
+      "rationaleJa": "安定供給には蓄電と地域内利用も組み合わせる。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M3_L04",
+      "selectedOptionId": "B",
+      "selectedOptionText": "信頼できる窓口や資料を案内し、利用者が情報を選べるようにする",
+      "confidence": "高",
+      "rationaleJa": "信頼できる窓口・資料を案内し自ら選べるようにする。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M3_L05",
+      "selectedOptionId": "D",
+      "selectedOptionText": "周辺施設も紹介し、訪問先や時間帯を地域内に分散させる",
+      "confidence": "高",
+      "rationaleJa": "周辺施設や時間帯を紹介し訪問を地域内に分散する。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M4_L01",
+      "selectedOptionId": "B",
+      "selectedOptionText": "はい、午後の便でお持ちします。",
+      "confidence": "高",
+      "rationaleJa": "今日中に届けられるかへの肯定的な返答。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M4_L02",
+      "selectedOptionId": "A",
+      "selectedOptionText": "ご連絡ありがとうございます。まず申請書を確認し、必要な手続きを改めてご案内します。",
+      "confidence": "高",
+      "rationaleJa": "遅延の連絡を受け、まず書類確認と手続案内をする。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M4_L03",
+      "selectedOptionId": "A",
+      "selectedOptionText": "はい、片側交互通行で運行しています。",
+      "confidence": "高",
+      "rationaleJa": "通行可否を尋ねており、通行可能との回答。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M4_L04",
+      "selectedOptionId": "C",
+      "selectedOptionText": "いいえ、市の案内どおり回収箱に入れてください。",
+      "confidence": "高",
+      "rationaleJa": "市の案内どおり回収箱に入れるよう訂正している。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M4_L05",
+      "selectedOptionId": "C",
+      "selectedOptionText": "はい。保護者と一緒なら参加できます。",
+      "confidence": "高",
+      "rationaleJa": "子どもも保護者同伴なら参加できる。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M4_L06",
+      "selectedOptionId": "B",
+      "selectedOptionText": "駐車場がないので、公共交通をご利用ください。",
+      "confidence": "高",
+      "rationaleJa": "駐車場はなく公共交通を使うよう案内。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M4_L07",
+      "selectedOptionId": "C",
+      "selectedOptionText": "本が届く前なら、ウェブサイトから変更できます。",
+      "confidence": "高",
+      "rationaleJa": "本が届く前ならウェブサイトから変更できる。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M4_L08",
+      "selectedOptionId": "A",
+      "selectedOptionText": "利用目的や時間帯を調べてから、対応を検討しましょう。",
+      "confidence": "高",
+      "rationaleJa": "利用目的・時間帯を先に調べる提案。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M4_L09",
+      "selectedOptionId": "C",
+      "selectedOptionText": "今月二十五日までにお願いします。",
+      "confidence": "高",
+      "rationaleJa": "期限を尋ねており、今月二十五日という回答。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M4_L10",
+      "selectedOptionId": "A",
+      "selectedOptionText": "体育館の東側にあります。案内表示を見てください。",
+      "confidence": "高",
+      "rationaleJa": "入口の場所を尋ねており、東側との案内。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M4_L11",
+      "selectedOptionId": "B",
+      "selectedOptionText": "はい、紙コップを用意していますが、数に限りがあります。",
+      "confidence": "高",
+      "rationaleJa": "マイボトルなしでも紙コップを使える。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M5_L01",
+      "selectedOptionId": "C",
+      "selectedOptionText": "西側の通りだけ",
+      "confidence": "高",
+      "rationaleJa": "屋台は西側だけに並べると合意した。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M5_L02",
+      "selectedOptionId": "C",
+      "selectedOptionText": "朝の便を一つ増やし、午後は予約に応じて小型車にする",
+      "confidence": "高",
+      "rationaleJa": "朝を一便増やし午後は予約に応じて小型車にする。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    },
+    {
+      "itemId": "N2_12_M5_L03",
+      "selectedOptionId": "B",
+      "selectedOptionText": "給水所を一時間長く開け、補充担当を決める",
+      "confidence": "高",
+      "rationaleJa": "一時間延長し補充担当を決める案で合意した。",
+      "alternativeDefensibleOptionTexts": [],
+      "concerns": []
+    }
+  ]
+}

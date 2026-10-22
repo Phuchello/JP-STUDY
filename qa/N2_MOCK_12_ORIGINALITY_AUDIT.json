@@ -1,0 +1,498 @@
+{
+  "examId": "N2-MOCK-12",
+  "status": "VERIFIED_CROSS_EXAM_AUDIT",
+  "comparisonScope": "All 105 current M12 items against all 1,155 items in N2-MOCK-01 through N2-MOCK-11.",
+  "exactStemMatches": {
+    "count": 9,
+    "matches": [
+      {
+        "questionId": "N2_12_M1_L01",
+        "priorExamId": "N2-MOCK-11",
+        "priorQuestionId": "N2_11_M1_L05",
+        "stem": "女性はまず何をしますか。"
+      },
+      {
+        "questionId": "N2_12_M1_L02",
+        "priorExamId": "N2-MOCK-08",
+        "priorQuestionId": "N2_08_M1_L01",
+        "stem": "男性はまず何をしますか。"
+      },
+      {
+        "questionId": "N2_12_M1_L02",
+        "priorExamId": "N2-MOCK-11",
+        "priorQuestionId": "N2_11_M1_L04",
+        "stem": "男性はまず何をしますか。"
+      },
+      {
+        "questionId": "N2_12_M1_L04",
+        "priorExamId": "N2-MOCK-08",
+        "priorQuestionId": "N2_08_M1_L01",
+        "stem": "男性はまず何をしますか。"
+      },
+      {
+        "questionId": "N2_12_M1_L04",
+        "priorExamId": "N2-MOCK-11",
+        "priorQuestionId": "N2_11_M1_L04",
+        "stem": "男性はまず何をしますか。"
+      },
+      {
+        "questionId": "N2_12_M1_L05",
+        "priorExamId": "N2-MOCK-11",
+        "priorQuestionId": "N2_11_M1_L05",
+        "stem": "女性はまず何をしますか。"
+      },
+      {
+        "questionId": "N2_12_M3_L01",
+        "priorExamId": "N2-MOCK-09",
+        "priorQuestionId": "N2_09_M3_L01",
+        "stem": "話し手が最も伝えたいことは何ですか。"
+      },
+      {
+        "questionId": "N2_12_M3_L01",
+        "priorExamId": "N2-MOCK-10",
+        "priorQuestionId": "N2_10_M3_L01",
+        "stem": "話し手が最も伝えたいことは何ですか。"
+      },
+      {
+        "questionId": "N2_12_M3_L01",
+        "priorExamId": "N2-MOCK-11",
+        "priorQuestionId": "N2_11_M3_L01",
+        "stem": "話し手が最も伝えたいことは何ですか。"
+      }
+    ],
+    "interpretation": "The repeated wording is limited to generic JLPT prompt frames (first action / main point); passage, script, options, and tested content remain distinct."
+  },
+  "nearStemMatches": {
+    "threshold": 0.58,
+    "metric": "Jaccard 3-gram after punctuation/spacing normalization",
+    "count": 27,
+    "matches": [
+      {
+        "questionId": "N2_12_M9_01",
+        "priorExamId": "N2-MOCK-03",
+        "priorQuestionId": "N2_03_M9_01",
+        "similarity3Gram": 0.706,
+        "stem": "文中の（　）に入る最も適切なものはどれか。",
+        "priorStem": "（ 46 ）に入る最も適切なものはどれか。"
+      },
+      {
+        "questionId": "N2_12_M9_01",
+        "priorExamId": "N2-MOCK-03",
+        "priorQuestionId": "N2_03_M9_02",
+        "similarity3Gram": 0.706,
+        "stem": "文中の（　）に入る最も適切なものはどれか。",
+        "priorStem": "（ 47 ）に入る最も適切なものはどれか。"
+      },
+      {
+        "questionId": "N2_12_M9_01",
+        "priorExamId": "N2-MOCK-03",
+        "priorQuestionId": "N2_03_M9_03",
+        "similarity3Gram": 0.706,
+        "stem": "文中の（　）に入る最も適切なものはどれか。",
+        "priorStem": "（ 48 ）に入る最も適切なものはどれか。"
+      },
+      {
+        "questionId": "N2_12_M9_01",
+        "priorExamId": "N2-MOCK-03",
+        "priorQuestionId": "N2_03_M9_04",
+        "similarity3Gram": 0.706,
+        "stem": "文中の（　）に入る最も適切なものはどれか。",
+        "priorStem": "（ 49 ）に入る最も適切なものはどれか。"
+      },
+      {
+        "questionId": "N2_12_M9_01",
+        "priorExamId": "N2-MOCK-03",
+        "priorQuestionId": "N2_03_M9_05",
+        "similarity3Gram": 0.706,
+        "stem": "文中の（　）に入る最も適切なものはどれか。",
+        "priorStem": "（ 50 ）に入る最も適切なものはどれか。"
+      },
+      {
+        "questionId": "N2_12_M9_02",
+        "priorExamId": "N2-MOCK-03",
+        "priorQuestionId": "N2_03_M9_01",
+        "similarity3Gram": 0.706,
+        "stem": "文中の（　）に入る最も適切なものはどれか。",
+        "priorStem": "（ 46 ）に入る最も適切なものはどれか。"
+      },
+      {
+        "questionId": "N2_12_M9_02",
+        "priorExamId": "N2-MOCK-03",
+        "priorQuestionId": "N2_03_M9_02",
+        "similarity3Gram": 0.706,
+        "stem": "文中の（　）に入る最も適切なものはどれか。",
+        "priorStem": "（ 47 ）に入る最も適切なものはどれか。"
+      },
+      {
+        "questionId": "N2_12_M9_02",
+        "priorExamId": "N2-MOCK-03",
+        "priorQuestionId": "N2_03_M9_03",
+        "similarity3Gram": 0.706,
+        "stem": "文中の（　）に入る最も適切なものはどれか。",
+        "priorStem": "（ 48 ）に入る最も適切なものはどれか。"
+      },
+      {
+        "questionId": "N2_12_M9_02",
+        "priorExamId": "N2-MOCK-03",
+        "priorQuestionId": "N2_03_M9_04",
+        "similarity3Gram": 0.706,
+        "stem": "文中の（　）に入る最も適切なものはどれか。",
+        "priorStem": "（ 49 ）に入る最も適切なものはどれか。"
+      },
+      {
+        "questionId": "N2_12_M9_02",
+        "priorExamId": "N2-MOCK-03",
+        "priorQuestionId": "N2_03_M9_05",
+        "similarity3Gram": 0.706,
+        "stem": "文中の（　）に入る最も適切なものはどれか。",
+        "priorStem": "（ 50 ）に入る最も適切なものはどれか。"
+      },
+      {
+        "questionId": "N2_12_M9_03",
+        "priorExamId": "N2-MOCK-03",
+        "priorQuestionId": "N2_03_M9_01",
+        "similarity3Gram": 0.706,
+        "stem": "文中の（　）に入る最も適切なものはどれか。",
+        "priorStem": "（ 46 ）に入る最も適切なものはどれか。"
+      },
+      {
+        "questionId": "N2_12_M9_03",
+        "priorExamId": "N2-MOCK-03",
+        "priorQuestionId": "N2_03_M9_02",
+        "similarity3Gram": 0.706,
+        "stem": "文中の（　）に入る最も適切なものはどれか。",
+        "priorStem": "（ 47 ）に入る最も適切なものはどれか。"
+      },
+      {
+        "questionId": "N2_12_M9_03",
+        "priorExamId": "N2-MOCK-03",
+        "priorQuestionId": "N2_03_M9_03",
+        "similarity3Gram": 0.706,
+        "stem": "文中の（　）に入る最も適切なものはどれか。",
+        "priorStem": "（ 48 ）に入る最も適切なものはどれか。"
+      },
+      {
+        "questionId": "N2_12_M9_03",
+        "priorExamId": "N2-MOCK-03",
+        "priorQuestionId": "N2_03_M9_04",
+        "similarity3Gram": 0.706,
+        "stem": "文中の（　）に入る最も適切なものはどれか。",
+        "priorStem": "（ 49 ）に入る最も適切なものはどれか。"
+      },
+      {
+        "questionId": "N2_12_M9_03",
+        "priorExamId": "N2-MOCK-03",
+        "priorQuestionId": "N2_03_M9_05",
+        "similarity3Gram": 0.706,
+        "stem": "文中の（　）に入る最も適切なものはどれか。",
+        "priorStem": "（ 50 ）に入る最も適切なものはどれか。"
+      },
+      {
+        "questionId": "N2_12_M9_04",
+        "priorExamId": "N2-MOCK-03",
+        "priorQuestionId": "N2_03_M9_01",
+        "similarity3Gram": 0.706,
+        "stem": "文中の（　）に入る最も適切なものはどれか。",
+        "priorStem": "（ 46 ）に入る最も適切なものはどれか。"
+      },
+      {
+        "questionId": "N2_12_M9_04",
+        "priorExamId": "N2-MOCK-03",
+        "priorQuestionId": "N2_03_M9_02",
+        "similarity3Gram": 0.706,
+        "stem": "文中の（　）に入る最も適切なものはどれか。",
+        "priorStem": "（ 47 ）に入る最も適切なものはどれか。"
+      },
+      {
+        "questionId": "N2_12_M9_04",
+        "priorExamId": "N2-MOCK-03",
+        "priorQuestionId": "N2_03_M9_03",
+        "similarity3Gram": 0.706,
+        "stem": "文中の（　）に入る最も適切なものはどれか。",
+        "priorStem": "（ 48 ）に入る最も適切なものはどれか。"
+      },
+      {
+        "questionId": "N2_12_M9_04",
+        "priorExamId": "N2-MOCK-03",
+        "priorQuestionId": "N2_03_M9_04",
+        "similarity3Gram": 0.706,
+        "stem": "文中の（　）に入る最も適切なものはどれか。",
+        "priorStem": "（ 49 ）に入る最も適切なものはどれか。"
+      },
+      {
+        "questionId": "N2_12_M9_04",
+        "priorExamId": "N2-MOCK-03",
+        "priorQuestionId": "N2_03_M9_05",
+        "similarity3Gram": 0.706,
+        "stem": "文中の（　）に入る最も適切なものはどれか。",
+        "priorStem": "（ 50 ）に入る最も適切なものはどれか。"
+      },
+      {
+        "questionId": "N2_12_M9_05",
+        "priorExamId": "N2-MOCK-03",
+        "priorQuestionId": "N2_03_M9_01",
+        "similarity3Gram": 0.706,
+        "stem": "文中の（　）に入る最も適切なものはどれか。",
+        "priorStem": "（ 46 ）に入る最も適切なものはどれか。"
+      },
+      {
+        "questionId": "N2_12_M9_05",
+        "priorExamId": "N2-MOCK-03",
+        "priorQuestionId": "N2_03_M9_02",
+        "similarity3Gram": 0.706,
+        "stem": "文中の（　）に入る最も適切なものはどれか。",
+        "priorStem": "（ 47 ）に入る最も適切なものはどれか。"
+      },
+      {
+        "questionId": "N2_12_M9_05",
+        "priorExamId": "N2-MOCK-03",
+        "priorQuestionId": "N2_03_M9_03",
+        "similarity3Gram": 0.706,
+        "stem": "文中の（　）に入る最も適切なものはどれか。",
+        "priorStem": "（ 48 ）に入る最も適切なものはどれか。"
+      },
+      {
+        "questionId": "N2_12_M9_05",
+        "priorExamId": "N2-MOCK-03",
+        "priorQuestionId": "N2_03_M9_04",
+        "similarity3Gram": 0.706,
+        "stem": "文中の（　）に入る最も適切なものはどれか。",
+        "priorStem": "（ 49 ）に入る最も適切なものはどれか。"
+      },
+      {
+        "questionId": "N2_12_M9_05",
+        "priorExamId": "N2-MOCK-03",
+        "priorQuestionId": "N2_03_M9_05",
+        "similarity3Gram": 0.706,
+        "stem": "文中の（　）に入る最も適切なものはどれか。",
+        "priorStem": "（ 50 ）に入る最も適切なものはどれか。"
+      },
+      {
+        "questionId": "N2_12_M3_L01",
+        "priorExamId": "N2-MOCK-07",
+        "priorQuestionId": "N2_07_M3_L02",
+        "similarity3Gram": 0.706,
+        "stem": "話し手が最も伝えたいことは何ですか。",
+        "priorStem": "社長が最も伝えたいことは何ですか。"
+      },
+      {
+        "questionId": "N2_12_M3_L01",
+        "priorExamId": "N2-MOCK-08",
+        "priorQuestionId": "N2_08_M3_L01",
+        "similarity3Gram": 0.706,
+        "stem": "話し手が最も伝えたいことは何ですか。",
+        "priorStem": "話者が最も伝えたいことは何ですか。"
+      }
+    ]
+  },
+  "readingPassageOverlaps": {
+    "threshold": 0.25,
+    "metric": "Jaccard 5-gram",
+    "count": 0,
+    "matches": []
+  },
+  "listeningScriptOverlaps": {
+    "threshold": 0.25,
+    "metric": "Jaccard 5-gram",
+    "count": 0,
+    "matches": []
+  },
+  "exactDistractorSetMatches": {
+    "count": 3,
+    "matches": [
+      [
+        {
+          "examId": "N2-MOCK-12",
+          "questionId": "N2_12_M3_01",
+          "texts": [
+            "性",
+            "的",
+            "者"
+          ]
+        },
+        {
+          "examId": "N2-MOCK-12",
+          "questionId": "N2_12_M3_03",
+          "texts": [
+            "性",
+            "的",
+            "者"
+          ]
+        }
+      ],
+      [
+        {
+          "examId": "N2-MOCK-12",
+          "questionId": "N2_12_M3_02",
+          "texts": [
+            "化",
+            "的",
+            "者"
+          ]
+        },
+        {
+          "examId": "N2-MOCK-12",
+          "questionId": "N2_12_M3_04",
+          "texts": [
+            "化",
+            "的",
+            "者"
+          ]
+        },
+        {
+          "examId": "N2-MOCK-12",
+          "questionId": "N2_12_M3_05",
+          "texts": [
+            "化",
+            "的",
+            "者"
+          ]
+        }
+      ],
+      [
+        {
+          "examId": "N2-MOCK-12",
+          "questionId": "N2_12_M7_11",
+          "texts": [
+            "に先立って",
+            "に限って",
+            "を問わず"
+          ]
+        },
+        {
+          "examId": "N2-MOCK-08",
+          "questionId": "N2_08_M7_01",
+          "texts": [
+            "に先立って",
+            "に限って",
+            "を問わず"
+          ]
+        }
+      ]
+    ]
+  },
+  "grammarDistribution": {
+    "current": {
+      "N2-GR-FORM": 12,
+      "N2-GR-PARA": 5,
+      "N2-GR-STAR": 5
+    },
+    "priorByExam": {
+      "N2-MOCK-01": {
+        "N2-GR-CLOZ": 5,
+        "N2-GR-FORM": 12,
+        "N2-GR-STAR": 5
+      },
+      "N2-MOCK-02": {
+        "N2-GR-FORM": 12,
+        "N2-GR-STAR": 5,
+        "N2-GR-TEXT": 5
+      },
+      "N2-MOCK-03": {
+        "N2-GR-SENT": 12,
+        "N2-GR-STAR": 5,
+        "N2-GR-TEXT": 5
+      },
+      "N2-MOCK-04": {
+        "N2-GR-SENT": 12,
+        "N2-GR-STAR": 5,
+        "N2-GR-TXT": 5
+      },
+      "N2-MOCK-05": {
+        "N2-GR-SENT": 12,
+        "N2-GR-STAR": 5,
+        "N2-GR-TXT": 5
+      },
+      "N2-MOCK-06": {
+        "N2-GR-FORM": 12,
+        "N2-GR-STAR": 5,
+        "N2-GR-TEXT": 5
+      },
+      "N2-MOCK-07": {
+        "N2-GR-FORM": 12,
+        "N2-GR-STAR": 5,
+        "N2-GR-TEXT": 5
+      },
+      "N2-MOCK-08": {
+        "N2-GR-FORM": 12,
+        "N2-GR-STAR": 5,
+        "N2-GR-TEXT": 5
+      },
+      "N2-MOCK-09": {
+        "N2-GR-FORM": 12,
+        "N2-GR-PARA": 5,
+        "N2-GR-STAR": 5
+      },
+      "N2-MOCK-10": {
+        "N2-GR-FORM": 12,
+        "N2-GR-PARA": 5,
+        "N2-GR-STAR": 5
+      },
+      "N2-MOCK-11": {
+        "N2-GR-FORM": 12,
+        "N2-GR-PARA": 5,
+        "N2-GR-STAR": 5
+      }
+    }
+  },
+  "topicTagDistribution": {
+    "community": 20,
+    "environment": 5,
+    "environment-policy": 3,
+    "public-life": 42,
+    "public-policy": 14,
+    "public-service": 19,
+    "transport": 2
+  },
+  "priorTopicComparability": "Mocks 01-10 do not consistently store topic tags; the documented prior themes are qualitative and cannot support a like-for-like numeric concentration comparison.",
+  "audioSha256Duplicates": {
+    "count": 0,
+    "matches": []
+  },
+  "answerPositionMetrics": {
+    "answerCounts": {
+      "A": 25,
+      "B": 26,
+      "C": 25,
+      "D": 29
+    },
+    "section1Counts": {
+      "A": 18,
+      "B": 19,
+      "C": 16,
+      "D": 22
+    },
+    "longestCycleOrShortPattern": {
+      "length": 7,
+      "period": 4,
+      "start": 75,
+      "pattern": "DBDA"
+    },
+    "section1LongestCycleOrShortPattern": {
+      "length": 6,
+      "period": 3,
+      "start": 43,
+      "pattern": "DBA"
+    },
+    "longestSameAnswerRun": {
+      "length": 3,
+      "answer": "D",
+      "start": 29
+    },
+    "starAnswers": "BADBA",
+    "starCounts": {
+      "A": 2,
+      "B": 2,
+      "D": 1
+    }
+  },
+  "difficultyTags": {
+    "2": 80,
+    "3": 25
+  },
+  "limits": [
+    "Near-template thresholds are heuristic screens, not proof of plagiarism or originality.",
+    "Content originality is distinct from repeated JLPT instruction frames.",
+    "The JLPT's official item counts are not inferred from this internal mock blueprint."
+  ]
+}

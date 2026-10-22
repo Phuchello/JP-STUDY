@@ -1,8 +1,8 @@
 {
   "workflow": "Content QA & Adversarial Release Gate",
-  "ciRunTimestamp": "2026-10-21T13:54:09.466451+00:00",
-  "totalItemsAudited": 1155,
-  "totalAudioTracksVerified": 330,
+  "ciRunTimestamp": "2026-10-22T01:28:27.078525+00:00",
+  "totalItemsAudited": 1260,
+  "totalAudioTracksVerified": 360,
   "gateStatus": "PASS",
   "gateFailures": [],
   "quarantinedCount": 0,
@@ -10,11 +10,11 @@
   "fingerprintMismatches": 0,
   "idConsistency": {
     "isConsistent": true,
-    "totalDiscoveredQuestions": 1155,
-    "totalReviewRecords": 1155,
-    "totalLedgerRecords": 1155,
-    "totalDiscoveredMocks": 11,
-    "totalCatalogMocks": 11,
+    "totalDiscoveredQuestions": 1260,
+    "totalReviewRecords": 1260,
+    "totalLedgerRecords": 1260,
+    "totalDiscoveredMocks": 12,
+    "totalCatalogMocks": 12,
     "missingInReview": [],
     "missingInLedger": [],
     "missingInCatalog": []
@@ -229,19 +229,38 @@
       },
       "keyMismatches": 0,
       "humanPanelStatus": "PENDING_HUMAN_PANEL"
+    },
+    "N2-MOCK-12": {
+      "totalQuestions": 105,
+      "section1AnswerDistribution": {
+        "C": 16,
+        "A": 18,
+        "B": 19,
+        "D": 22
+      },
+      "maxLetterRatio": 0.293,
+      "audioReceiptVerified": true,
+      "verifiedAudioTracks": 30,
+      "technicalStatus": "TECHNICALLY_READY",
+      "semanticQaStatus": "REVIEW_CONTENT_VERSION_VERIFIED",
+      "provenanceBreakdown": {
+        "REVIEW_CONTENT_VERSION_VERIFIED": 105
+      },
+      "keyMismatches": 0,
+      "humanPanelStatus": "PENDING_HUMAN_PANEL"
     }
   },
   "ledgerMetrics": {
     "dispositions": {
-      "AI_SEMANTIC_VERIFIED": 1141,
+      "AI_SEMANTIC_VERIFIED": 1246,
       "REPAIRED_AND_VERIFIED": 14
     },
     "classifications": {
-      "AGREEMENT": 1141,
+      "AGREEMENT": 1246,
       "GRAMMATICAL_DEFECT_RESOLVED": 14
     },
     "fingerprintMatches": {
-      "true": 1155
+      "true": 1260
     }
   },
   "evaluationLayers": {
@@ -259,7 +278,8 @@
       "N2-MOCK-08": "REVIEW_CONTENT_VERSION_VERIFIED",
       "N2-MOCK-09": "REVIEW_CONTENT_VERSION_VERIFIED",
       "N2-MOCK-10": "REVIEW_CONTENT_VERSION_VERIFIED",
-      "N2-MOCK-11": "REVIEW_CONTENT_VERSION_VERIFIED"
+      "N2-MOCK-11": "REVIEW_CONTENT_VERSION_VERIFIED",
+      "N2-MOCK-12": "REVIEW_CONTENT_VERSION_VERIFIED"
     },
     "failClosedPublicationEnforced": true
   },

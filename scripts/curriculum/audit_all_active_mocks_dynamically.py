@@ -23,6 +23,8 @@ from scripts.curriculum.audit_n2_mock_105_questions import audit_mock_105
 from scripts.curriculum.acoustic_assurance import evaluate_audio_track_assurance
 from scripts.curriculum.discovery import discover_active_n2_mocks
 from scripts.curriculum.mock_exam_release_checks import (
+    CURRENT_VERSION_REVIEW_SCHEMA,
+    validate_current_version_reconciliation,
     validate_full_mock_blueprint,
     validate_star_fragment_integrity,
     validate_version_bound_reconciliation,
@@ -104,10 +106,12 @@ def audit_single_discovered_mock(mock_num_str: str, exam_file: Path, catalog_htm
             try:
                 reconciliation = json.loads(report_file.read_text(encoding="utf-8"))
                 sealed_input = json.loads(sealed_file.read_text(encoding="utf-8"))
-                failures.extend(
-                    f"{mid}: {issue}"
-                    for issue in validate_version_bound_reconciliation(reconciliation, data, sealed_input)
+                validator = (
+                    validate_current_version_reconciliation
+                    if reconciliation.get("schema") == CURRENT_VERSION_REVIEW_SCHEMA
+                    else validate_version_bound_reconciliation
                 )
+                failures.extend(f"{mid}: {issue}" for issue in validator(reconciliation, data, sealed_input))
             except Exception as e:
                 failures.append(f"{mid}: Version-bound reviewer reconciliation could not be validated: {e}")
         else:

@@ -36,6 +36,7 @@ from scripts.curriculum.discovery import (
 from scripts.curriculum.anti_contamination_audit import audit_repository_anti_contamination
 from scripts.curriculum.review_provenance import ReviewProvenanceValidator
 from scripts.curriculum.acoustic_assurance import evaluate_audio_track_assurance
+from scripts.curriculum.reconcile_mock_blind_review import load_derived_blind_results
 
 def evaluate_all_exams(exit_on_failure=False):
     gate_failures = []
@@ -46,16 +47,21 @@ def evaluate_all_exams(exit_on_failure=False):
         gate_failures.append("No mock exams discovered in data/mock_exams")
 
     # Load all derived reviews for provenance lookup
-    derived_reviews_file = ROOT / "qa/DERIVED_SEMANTIC_BLIND_REVIEWS.json"
     reviews_by_qid = {}
     review_records = []
-    if derived_reviews_file.exists():
-        derived_data = json.loads(derived_reviews_file.read_text(encoding='utf-8'))
-        review_records = derived_data if isinstance(derived_data, list) else derived_data.get('reviews', [])
-        for r in review_records:
-            qid = r.get('questionId') or r.get('id')
-            if qid:
-                reviews_by_qid[qid] = r
+    try:
+        # Use the same fail-closed discovery and version-bound validators as
+        # the shared audit ledger. Reading only the historical derived JSON
+        # silently omitted newly released, dynamically discovered exams.
+        validated_reviews = load_derived_blind_results()
+        review_records = list(validated_reviews.values())
+        reviews_by_qid = {
+            (r.get('questionId') or r.get('id')): r
+            for r in review_records
+            if r.get('questionId') or r.get('id')
+        }
+    except Exception as exc:
+        gate_failures.append(f"Unable to load validated review evidence: {exc}")
 
     mock_metrics = {}
     total_items = 0

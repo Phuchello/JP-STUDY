@@ -1,9 +1,9 @@
-# JP-STUDY — 1155-Question Version-Bound Review Reconciliation Report
+# JP-STUDY — 1260-Question Version-Bound Review Reconciliation Report
 
-**Target Exams:** `N2-MOCK-01`, `N2-MOCK-02`, `N2-MOCK-03`, `N2-MOCK-04`, `N2-MOCK-05`, `N2-MOCK-06`, `N2-MOCK-07`, `N2-MOCK-08`, `N2-MOCK-09`, `N2-MOCK-10`, `N2-MOCK-11` (1155 total items)
+**Target Exams:** `N2-MOCK-01`, `N2-MOCK-02`, `N2-MOCK-03`, `N2-MOCK-04`, `N2-MOCK-05`, `N2-MOCK-06`, `N2-MOCK-07`, `N2-MOCK-08`, `N2-MOCK-09`, `N2-MOCK-10`, `N2-MOCK-11`, `N2-MOCK-12` (1260 total items)
 **Assurance Framework:** Historical reconstructed answer mappings plus validated current-version M11 AI blind responses; exact text is reconciled without claiming portable execution attestation.
-**Audit Timestamp:** 2026-10-21
-**Version-Bound Answer Rows Loaded:** 1155 / 1155
+**Audit Timestamp:** 2026-10-22
+**Version-Bound Answer Rows Loaded:** 1260 / 1260
 
 ---
 
@@ -11,11 +11,11 @@
 
 | Metric | Count | Percentage | Status |
 |---|:---:|:---:|:---:|
-| **Total Evaluated Items** | 1155 | 100.0% | COMPLETE |
-| **Version-Bound Answer Rows Loaded** | 1155 | 100.0% | VERSION-CHECKED |
-| **Exact Agreement (`AGREEMENT`)** | 1141 | 98.8% | AUDITED |
+| **Total Evaluated Items** | 1260 | 100.0% | COMPLETE |
+| **Version-Bound Answer Rows Loaded** | 1260 | 100.0% | VERSION-CHECKED |
+| **Exact Agreement (`AGREEMENT`)** | 1246 | 98.9% | AUDITED |
 | **Agreed with Nuance Warnings (`REVIEW_AGREED_WITH_WARNINGS`)** | 0 | 0.0% | AUDITED |
-| **Grammar Defects Confirmed & Repaired** | 14 | 1.2% | REPAIRED |
+| **Grammar Defects Confirmed & Repaired** | 14 | 1.1% | REPAIRED |
 | **Key Mismatches (`KEY_MISMATCH`)** | 0 | 0.0% | AUDITED |
 | **Unverified / Pending Solves** | 0 | 0.0% | NONE |
 
@@ -42,7 +42,7 @@
 - **`N2_07_M9_04`**: Changed the option to '必要となります'; the sealed revision solve selected A as the natural completion. (Defect: AWKWARD COLLOCATION: The original option phrased a required administrative procedure as '避けられません', which was unnatural in context.)
 
 ### B. Key Mismatches
-- *Zero key mismatches detected across all 1155 discovered items.*
+- *Zero key mismatches detected across all 1260 discovered items.*
 
 ### C. Ambiguous Questions / Distractor Nuance Warnings
 - *Zero unresolved competing answers or distractor overlaps remain.*
@@ -107,4 +107,4 @@
 | N2-MOCK-01 | `N2-G8-004` | Grammar | **A** | **A** | `A` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
 | N2-MOCK-01 | `N2-G8-005` | Grammar | **C** | **C** | `C` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
 | N2-MOCK-01 | `N2-G9-001` | Grammar | **C** | **C** | `C` | `DIRECT_IDENTITY` | `AGREEMENT` | `AI_SEMANTIC_VERIFIED` |
-| ... | ... | *(remaining 1105 items in CSV and JSON ledgers)* | ... | ... | ... | ... | ... | ... |
+| ... | ... | *(remaining 1210 items in CSV and JSON ledgers)* | ... | ... | ... | ... | ... | ... |

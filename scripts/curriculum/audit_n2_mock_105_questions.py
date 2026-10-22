@@ -32,7 +32,11 @@ ROOT = Path(__file__).resolve().parents[2]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 from scripts.curriculum.acoustic_assurance import evaluate_audio_track_assurance
-from scripts.curriculum.mock_exam_release_checks import validate_version_bound_reconciliation
+from scripts.curriculum.mock_exam_release_checks import (
+    CURRENT_VERSION_REVIEW_SCHEMA,
+    validate_current_version_reconciliation,
+    validate_version_bound_reconciliation,
+)
 
 LEDGER_FILE = ROOT / 'qa/QUESTION_AUDIT_LEDGER_210.json'
 
@@ -69,7 +73,12 @@ def load_reconciliation_ledger():
                 continue
             exam = json.loads(exam_path.read_text(encoding='utf-8'))
             sealed = json.loads(sealed_path.read_text(encoding='utf-8'))
-            if validate_version_bound_reconciliation(report, exam, sealed):
+            validator = (
+                validate_current_version_reconciliation
+                if report.get('schema') == CURRENT_VERSION_REVIEW_SCHEMA
+                else validate_version_bound_reconciliation
+            )
+            if validator(report, exam, sealed):
                 continue
             for row in report.get('rows', []):
                 qid = row.get('questionId')

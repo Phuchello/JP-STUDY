@@ -22,7 +22,11 @@ if str(ROOT) not in sys.path:
 
 from scripts.curriculum.question_fingerprint import compute_question_fingerprint
 from scripts.curriculum.discovery import discover_active_n2_mocks, load_all_active_mock_questions, verify_downstream_id_consistency
-from scripts.curriculum.mock_exam_release_checks import validate_version_bound_reconciliation
+from scripts.curriculum.mock_exam_release_checks import (
+    CURRENT_VERSION_REVIEW_SCHEMA,
+    validate_current_version_reconciliation,
+    validate_version_bound_reconciliation,
+)
 
 DERIVED_BLIND_FILE = ROOT / "qa/DERIVED_SEMANTIC_BLIND_REVIEWS.json"
 VERSION_BOUND_M11_FILE = ROOT / "qa/N2_MOCK_11_BLIND_RECONCILIATION.json"
@@ -147,7 +151,26 @@ def adapt_version_bound_m11_row(row):
         "fingerprintMatch": True,
         "mappingMethod": "EXACT_OPTION_TEXT_TO_CURRENT_DISPLAYED_ID",
         "reviewerProvenance": "AI_BLIND_VERSION_BOUND_NO_PORTABLE_ATTESTATION",
-        "verbatimReviewerExplanation": row.get("rationaleJapanese", ""),
+        "verbatimReviewerExplanation": row.get("rationaleJa", row.get("rationaleJapanese", "")),
+        "alternativeDefensibleAnswers": row.get("alternateDefensibleAnswers", []),
+        "concerns": row.get("concerns") or [],
+    }
+
+
+def adapt_current_version_row(row):
+    """Adapt an exact-text current-version review row to the shared QA ledger."""
+    return {
+        "questionId": row["questionId"],
+        "originalBlindAnswer": row.get("rawReviewerSelectedOptionId"),
+        "selectedText": row.get("rawReviewerExactOptionText", ""),
+        "remappedBlindAnswer": row.get("currentDisplayedOptionId"),
+        "confidence": str(row.get("confidence") or "NOT_REPORTED").upper(),
+        "contentFingerprint": row.get("contentFingerprint"),
+        "reviewFingerprint": row.get("contentFingerprint"),
+        "fingerprintMatch": True,
+        "mappingMethod": "EXACT_OPTION_TEXT_TO_CURRENT_DISPLAYED_ID",
+        "reviewerProvenance": "AI_BLIND_VERSION_BOUND_NO_PORTABLE_ATTESTATION",
+        "verbatimReviewerExplanation": row.get("rationaleJa", row.get("rationaleJapanese", "")),
         "alternativeDefensibleAnswers": row.get("alternateDefensibleAnswers", []),
         "concerns": row.get("concerns") or [],
     }
@@ -185,6 +208,46 @@ def load_derived_blind_results():
             else:
                 blind_map[qid] = expected
         print(f"Validated {len(report['rows'])} version-bound M11 answer rows; provenance has no portable attestation.")
+
+    # Current-version review reports use one generic schema and are discovered
+    # by file shape for every active mock, so future exams enter the same path.
+    for mock in discover_active_n2_mocks():
+        if mock.mock_num == "11":
+            continue  # M11 retains its already established chained revision format above.
+        report_path = ROOT / f"qa/N2_MOCK_{mock.mock_num}_BLIND_RECONCILIATION.json"
+        sealed_path = ROOT / f"qa/blind_items_m{int(mock.mock_num)}_final.json"
+        if not (report_path.is_file() and sealed_path.is_file()):
+            continue
+        with report_path.open("r", encoding="utf-8") as f:
+            report = json.load(f)
+        if report.get("schema") != CURRENT_VERSION_REVIEW_SCHEMA:
+            continue
+        exam = json.loads(mock.path.read_text(encoding="utf-8"))
+        sealed = json.loads(sealed_path.read_text(encoding="utf-8"))
+        raw_output = report.get("rawEvidence", {}).get("rawOutputFile")
+        if not isinstance(raw_output, str) or not raw_output:
+            raise ValueError(f"Version-bound {mock.exam_id} report is missing its immutable raw-output path")
+        raw_path = (ROOT / raw_output).resolve()
+        if ROOT.resolve() not in raw_path.parents or not raw_path.is_file():
+            raise ValueError(f"Version-bound {mock.exam_id} raw-output file is missing or outside the repository")
+        errors = validate_current_version_reconciliation(
+            report, exam, sealed, raw_sha256={"rawOutputSha256": raw_path}
+        )
+        if errors:
+            raise ValueError(f"Version-bound {mock.exam_id} evidence failed validation: " + "; ".join(errors))
+        for row in report["rows"]:
+            qid = row["questionId"]
+            expected = adapt_current_version_row(row)
+            if qid in blind_map:
+                current = blind_map[qid]
+                compare_fields = ("originalBlindAnswer", "selectedText", "remappedBlindAnswer",
+                                  "contentFingerprint", "reviewFingerprint", "reviewerProvenance",
+                                  "verbatimReviewerExplanation", "alternativeDefensibleAnswers", "concerns")
+                if any(current.get(field) != expected.get(field) for field in compare_fields):
+                    raise ValueError(f"Existing derived {mock.exam_id} row conflicts with validated version-bound review: {qid}")
+            else:
+                blind_map[qid] = expected
+        print(f"Validated {len(report['rows'])} version-bound {mock.exam_id} answer rows; provenance has no portable attestation.")
     print(f"Loaded {len(blind_map)} derived/version-bound review rows from {DERIVED_BLIND_FILE.name} and M11 reconciliation")
     return blind_map
 
