@@ -581,5 +581,6 @@
   "docs/audio/n2_mock_13/N2_13_M5_L03.mp3": "VERIFIED",
   "scripts/tests/test_private_review_raw_binding.py": "VERIFIED",
   "scripts/curriculum/validate_mock_uniqueness.py": "VERIFIED",
-  "scripts/tests/test_mock_uniqueness_signatures.py": "VERIFIED"
+  "scripts/tests/test_mock_uniqueness_signatures.py": "VERIFIED",
+  "qa/N2_MOCK_13_LIVE_DEPLOYMENT_RECEIPT.json": "VERIFIED"
 }

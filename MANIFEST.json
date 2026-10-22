@@ -1,8 +1,8 @@
 {
   "snapshotDate": "2026-10-22",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
-  "fileCountExcludingManifest": 1129,
-  "totalBytesExcludingManifest": 175176102,
+  "fileCountExcludingManifest": 1130,
+  "totalBytesExcludingManifest": 175180326,
   "files": [
     {
       "path": ".gitattributes",
@@ -456,8 +456,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 38938,
-      "sha256": "f1ef8a8add77618563832fc97f9f30a9899f226a2a0eaf75fa4291d7fb5adccd",
+      "bytes": 39343,
+      "sha256": "3873f99d8b9d9ee0047013838c41700ad38f9c0f450d60e598021fa8ef2b1d64",
       "status": "VERIFIED"
     },
     {
@@ -3372,8 +3372,8 @@
     },
     {
       "path": "FILE_INDEX.md",
-      "bytes": 112162,
-      "sha256": "0d2422d3d1d50ab460bf948cf6c662697b5f0a83085b1bdbeeff40cfb6742da9",
+      "bytes": 112266,
+      "sha256": "870c5a32297c9a4e2f7a4eb37dca5e8f6bfa0a9831a0e493403c5e6479ddf245",
       "status": "VERIFIED"
     },
     {
@@ -3408,8 +3408,8 @@
     },
     {
       "path": "PROJECT_STATUS.md",
-      "bytes": 50420,
-      "sha256": "436ed1a000d0eb7ac0e617457bfc8a45a11c509276de5e51787911372b1a2b96",
+      "bytes": 50448,
+      "sha256": "51677f40c229fcd8de496bab4d3bcea4d0bf69ff3705bb32f7423cdff04e528d",
       "status": "VERIFIED"
     },
     {
@@ -3966,8 +3966,8 @@
     },
     {
       "path": "qa/file_status.json",
-      "bytes": 33094,
-      "sha256": "56c02032ef4241b1283bdffc6180acbb952aec13e3bc5f813e59597e6394c827",
+      "bytes": 33740,
+      "sha256": "afdc5d0e16d8e7566cd991134a35bbc00c81e05f45d47870a9679b2234e87496",
       "status": "VERIFIED"
     },
     {
@@ -4688,6 +4688,12 @@
       "path": "qa/N2_MOCK_13_INDEPENDENT_AUDIT_REPORT.md",
       "bytes": 30161,
       "sha256": "9fd1e56fc89fbfef5fb3411b84962f6537804a5d00f9edf7f52ff12d4051ae9e",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "qa/N2_MOCK_13_LIVE_DEPLOYMENT_RECEIPT.json",
+      "bytes": 3041,
+      "sha256": "99511f1b43d9c4117613eeefb4f5f4b4f96d4c3a162fa224e76e03f576be7a07",
       "status": "VERIFIED"
     },
     {
