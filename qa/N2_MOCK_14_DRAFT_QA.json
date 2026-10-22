@@ -50,6 +50,14 @@
     "focusedDraftTests": "3/3 PASS",
     "fullRegressionSuite": "209/209 PASS"
   },
+  "hostedCi": {
+    "runId": 39713199888,
+    "url": "https://github.com/Phuchello/JP-STUDY/actions/runs/39713199888",
+    "commit": "6f13861fc3d9c5a9f408ead23645707a4e6e4455",
+    "jobConclusion": "success",
+    "successfulSteps": 31,
+    "scope": "Repository release gates and existing released-mock regressions passed; M14 remains outside the active bank and was not evaluated as a release candidate."
+  },
   "exactPriorOverlapAgainstN2Mocks01To13": {
     "readingPassages": 0,
     "listeningScripts": 0,
