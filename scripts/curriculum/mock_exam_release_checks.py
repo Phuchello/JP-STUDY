@@ -37,7 +37,19 @@ def validate_star_fragment_integrity(exam: dict) -> list[str]:
                 errors.append(f"{qid}: fragmentOrder must arrange all four displayed fragments once")
                 continue
             fragments = [options[label] for label in labels]
-            if "".join(fragments) != q.get("assembledSentence"):
+            joined = "".join(fragments)
+            # Newer candidates preserve the full reconstructed sentence,
+            # including fixed stem context and terminal punctuation. Older
+            # items stored only the four selectable fragments.
+            stem = str(q.get("stem", ""))
+            slot_pattern = re.compile(r"（[\s　]*★[\s　]*）|（[\s　]*）|★")
+            slots = list(slot_pattern.finditer(stem))
+            reconstructed = None
+            if len(slots) == 4:
+                reconstructed = stem
+                for match, fragment in reversed(list(zip(slots, fragments, strict=True))):
+                    reconstructed = reconstructed[:match.start()] + fragment + reconstructed[match.end():]
+            if q.get("assembledSentence") not in {joined, reconstructed}:
                 errors.append(f"{qid}: fragment order does not reconstruct assembledSentence")
             if options.get(str(q.get("correctAnswer"))) != fragments[2]:
                 errors.append(f"{qid}: authored key is not the third fragment at ★")

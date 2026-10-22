@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import random
 from scripts.curriculum.bank_data.n2_mock_14_explanations_vi import apply_vietnamese_explanations
+from scripts.curriculum.phase_71_star_repairs import apply_phase_71_star_repairs
 
 LETTERS = "ABCD"
 
@@ -134,14 +135,21 @@ def get_n2_mock_14_sec1_items(seed=202614):
 
     # Usage: 5, choose the sentence where the target word is used naturally.
     rows = [
-        ("見込む", ["来月の利用者数は、現在より一割ほど増えると見込まれている。", "会議の資料を見込んで、机の上に置いた。", "約束の時間を見込んで、相手に謝った。", "窓から外を見込むと、駅が見えた。"], 0, "見込む dùng với nghĩa dự đoán hoặc ước tính một kết quả tương lai. Câu 1 dự báo số người sử dụng tăng; các câu khác ghép từ sai nghĩa hoặc sai kết hợp."),
-        ("妥当", ["費用と効果を考えれば、この価格は妥当だと思う。", "妥当な雨が降ったので、試合を中止した。", "彼は妥当に駅まで歩いて行った。", "忘れ物を妥当に届けてくれた。"], 0, "妥当 là hợp lý, thích đáng khi xét dữ kiện. Câu 1 đánh giá mức giá dựa trên chi phí và hiệu quả."),
-        ("見合わせる", ["安全が確認できるまで、運行を見合わせます。", "相手の顔を見合わせて、駅を出た。", "荷物を見合わせてから、棚に置いた。", "仕事の予定を見合わせるように、紙を配った。"], 0, "見合わせる có nghĩa tạm ngừng hoặc hoãn một việc. Câu 1 tạm dừng vận hành đến khi xác nhận an toàn."),
-        ("余裕", ["予定より早く着いたので、出発まで時間に余裕がある。", "この機械は余裕を食べるために使う。", "余裕な道路を選んで走った。", "会議の余裕を修理した。"], 0, "余裕 chỉ phần thời gian, tiền bạc hoặc năng lực còn dư. Câu 1 nói còn thời gian trước giờ khởi hành."),
-        ("負担", ["手続きが簡単になり、利用者の負担が軽くなった。", "負担な色を選んで部屋を明るくした。", "説明を負担して全員に配った。", "駅の負担が混んでいた。"], 0, "負担 nghĩa là gánh nặng hoặc trách nhiệm phải chịu. 負担が軽くなる là cách kết hợp tự nhiên khi thủ tục bớt phiền."),
+        ("見込む", ["来月の利用者数は、現在より一割ほど増えると見込まれている。", "人事部は、若手社員の力を見込んで新しい業務を任せた。", "彼女は相手の経験を見込んで、細かな説明を省いた。", "展望台から谷を見込むと、遠くに集落が見えた。"], 0, "Ở đây, 見込む mang nghĩa dự đoán số lượng hoặc kết quả trong tương lai. Câu 1 dự báo lượng người sử dụng tăng; câu 2 và 3 dùng theo nghĩa đánh giá năng lực, còn câu 4 là nhìn xuống thung lũng."),
+        ("妥当", ["費用と効果を考えれば、この価格設定は妥当だと思う。", "担当者は、資料の誤りを妥当に直してから再提出した。", "式典の雰囲気に妥当な服装を選んだ。", "説明の妥当を確かめるため、別の資料と比べた。"], 0, "妥当 chỉ nhận định một điều hợp lý khi xét căn cứ và điều kiện. Câu 1 đánh giá giá bán dựa trên chi phí và hiệu quả. Các câu còn lại dùng không tự nhiên: sửa sai thường nói 適切に直す, trang phục thường là ふさわしい, còn danh từ cần dạng 妥当性."),
+        ("見合わせる", ["安全が確認できるまで、運行を見合わせます。", "二つの見積書を見合わせて、金額が違う箇所を調べた。", "会議の冒頭、二人は顔を見合わせてから発言した。", "駅で旧友と顔を見合わせ、近況を話した。"], 0, "Câu 1 dùng 見合わせる với nghĩa tạm dừng vận hành cho đến khi xác nhận an toàn. 見積書を見合わせる là đối chiếu tài liệu; 顔を見合わせる nghĩa là nhìn nhau."),
+        ("余裕", ["予定より早く着いたので、出発まで時間に余裕がある。", "彼は厳しい質問にも心の余裕を失わずに答えた。", "相手を安心させるため、彼女は余裕のある表情を見せた。", "意見が対立しても、部長は余裕のある態度を崩さなかった。"], 0, "Câu 1 nói còn thời gian rảnh trước giờ khởi hành. Các câu khác dùng 余裕 theo nghĩa bình tĩnh, thoải mái về tinh thần hoặc thái độ, không phải khoảng thời gian còn lại."),
+        ("負担", ["手続きが簡単になり、利用者の負担が軽くなった。", "出張に必要な交通費は会社が負担する。", "会場の準備にかかった費用を主催者側が負担した。", "彼は重い荷物の一部を交代で負担した。"], 0, "負担 ở câu 1 là công sức và phiền hà mà người dùng phải chịu khi làm thủ tục. Các câu khác nói đến việc chi trả chi phí hoặc gánh phần tải trọng vật lý."),
     ]
     for i, (word, options, key, vi) in enumerate(rows, 28):
-        q.append(_item(f"N2_14_M1_{i:02}", "N2-MO-USE", "用法", f"次の言葉の使い方として最もよいものはどれか。\n【{word}】", options, key, vi, difficulty=2))
+        meaning = {
+            "見込む": "将来の数量・結果を予測する",
+            "妥当": "根拠や条件に照らして無理がない",
+            "見合わせる": "事情が解決するまで一時的に止める",
+            "余裕": "予定時刻までに使える時間が残っている",
+            "負担": "利用者が行う手間や労力",
+        }[word]
+        q.append(_item(f"N2_14_M1_{i:02}", "N2-MO-USE", "用法", f"次の文の【{word}】を「{meaning}」という意味で使っているものはどれか。", options, key, vi, difficulty=2))
 
     # Sentence grammar: 12
     rows = [
@@ -166,7 +174,7 @@ def get_n2_mock_14_sec1_items(seed=202614):
         (["予算を", "見直した", "うえで", "計画を実行した"], [0, 1, 2, 3], "Câu hoàn chỉnh là 予算を見直したうえで計画を実行した. ★ là うえで, nối việc rà soát ngân sách với hành động triển khai kế hoạch."),
         (["説明を", "聞いた", "から", "質問することにした"], [0, 1, 2, 3], "Câu hoàn chỉnh là 説明を聞いたから質問することにした (nghe giải thích rồi mới quyết định hỏi). ★ nằm ở cụm から, nối nguyên nhân hoặc căn cứ với quyết định."),
         (["条件を", "満たしている", "場合に", "申し込める"], [0, 1, 2, 3], "Câu hoàn chỉnh là 条件を満たしている場合に申し込める. ★ là 場合に, đứng sau mệnh đề điều kiện và trước khả năng đăng ký."),
-        (["担当者に", "確認した", "ところ", "別の方法が見つかった"], [0, 1, 2, 3], "Câu hoàn chỉnh là 担当者に確認したところ別の方法が見つかった. ★ là ところ, dùng để dẫn kết quả phát hiện sau khi thử hoặc hỏi."),
+        (["担当者が", "記録を調べた", "ところ", "申請の誤りに気づいた"], [0, 1, 2, 3], "Câu hoàn chỉnh là 担当者が記録を調べたところ申請の誤りに気づいた. ところ nối hành động kiểm tra với kết quả được phát hiện sau đó; cụm này đứng ở vị trí ★ thứ ba."),
         (["参加者の", "意見を", "参考にしながら", "内容を整えた"], [0, 1, 2, 3], "Câu hoàn chỉnh là 参加者の意見を参考にしながら内容を整えた. ★ là 参考にしながら, nối căn cứ tham khảo với hành động chỉnh sửa."),
     ]
     for i, (fragments, order, vi) in enumerate(stars, 45):
@@ -261,4 +269,4 @@ def get_n2_mock_14_sec1_items(seed=202614):
         item["id"] = f"N2_14_M1_{index:02}"
     if len(q) != 75:
         raise ValueError(f"M14 Section 1 must contain 75 items, got {len(q)}")
-    return apply_vietnamese_explanations(q)
+    return apply_phase_71_star_repairs(apply_vietnamese_explanations(q))

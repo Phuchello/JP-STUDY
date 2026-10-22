@@ -7,6 +7,8 @@ before it is copied into the public mock bank.
 from __future__ import annotations
 
 import random
+from scripts.curriculum.phase_71_reading_repairs import apply_phase_71_reading_repairs
+from scripts.curriculum.phase_71_star_repairs import apply_phase_71_star_repairs
 
 LETTERS = "ABCD"
 _rng = random.Random(202612)
@@ -358,4 +360,4 @@ def get_n2_mock_12_sec1_items(seed=48):
 
     if len(q) != 75 or len({item["id"] for item in q}) != 75:
         raise ValueError(f"M12 Section 1 must contain 75 unique items; got {len(q)}")
-    return q
+    return apply_phase_71_reading_repairs(apply_phase_71_star_repairs(q))

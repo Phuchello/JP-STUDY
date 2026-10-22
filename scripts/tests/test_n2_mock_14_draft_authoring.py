@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """Structural and localization checks for the private M14 authoring draft."""
 from collections import Counter
+import copy
 
 from scripts.curriculum.bank_data.n2_mock_14_data import get_n2_mock_14_sec1_items
 from scripts.curriculum.bank_data.n2_mock_14_listening import get_n2_mock_14_listening_items
@@ -13,6 +14,7 @@ from scripts.curriculum.mock_exam_release_checks import (
     validate_full_mock_blueprint,
     validate_star_fragment_integrity,
 )
+from scripts.curriculum.audit_star_permutations import validate_star_structure
 
 
 def make_draft():
@@ -70,4 +72,20 @@ def test_m14_draft_explanations_stars_and_answer_patterns_pass_shared_guards():
     assert not validate_answer_letter_references(exam)
     assert not validate_star_fragment_integrity(exam)
     assert not pattern_defects({"N2-MOCK-14": exam})
+
+
+def test_m14_star_questions_show_four_slots_and_enumerate_all_permutations():
+    exam = make_draft()
+    stars = [item for item in exam["sections"][0]["items"] if item["typeId"] == "N2-GR-STAR"]
+    assert len(stars) == 5
+    for item in stars:
+        assert item.get("contextPassage")
+        assert item["stem"].count("★") == 1
+        valid, reason, data = validate_star_structure(item)
+        assert valid, f"{item['id']}: {reason}"
+        assert len(data["permutations"]) == 24
+
+    malformed = copy.deepcopy(stars[0])
+    malformed["stem"] = "担当者は、★と指示した。"
+    assert not validate_star_structure(malformed)[0]
 

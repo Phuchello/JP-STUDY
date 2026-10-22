@@ -1,0 +1,48 @@
+{
+  "examId": "N2-MOCK-14",
+  "status": "PASS_LOCAL_E2E",
+  "scope": "local practice-engine interaction with private candidate injection; not catalog or live-site verification",
+  "qaData": true,
+  "generatedAt": "2026-10-22T04:51:15.337Z",
+  "browser": "Local Chromium Headless via Playwright",
+  "viewport": "1280x800 and 390x844",
+  "candidateInjection": "N2-MOCK-14 loaded into JP_MOCK_DATA before launchMockExamSafely",
+  "checks": [
+    {
+      "name": "section_1_launch",
+      "passed": true,
+      "details": "{\"mockId\":\"N2-MOCK-14\",\"count\":75,\"durationSec\":6300,\"firstId\":\"N2_14_M1_01\",\"optionsRendered\":4,\"transcriptVisible\":false}"
+    },
+    {
+      "name": "section_1_scoring_review_unanswered",
+      "passed": true,
+      "details": "{\"score\":\"KẾT QUẢ PHẦN 1: 60 / 75 CÂU (80%)\",\"savedDraft\":true,\"reviewCards\":75,\"unansweredCards\":5}"
+    },
+    {
+      "name": "listening_launch_audio_and_transcript_hidden",
+      "passed": true,
+      "details": "{\"count\":30,\"durationSec\":3000,\"firstId\":\"N2_14_M1_L01\",\"audioUrl\":\"audio/n2_mock_14/N2_14_M1_L01.mp3\",\"audioSource\":\"../audio/n2_mock_14/N2_14_M1_L01.mp3\",\"optionsRendered\":4,\"transcriptVisible\":false}"
+    },
+    {
+      "name": "mondai_4_three_choice_render",
+      "passed": true,
+      "details": "11 items each have 3 choices; UI renders 3"
+    },
+    {
+      "name": "full_mock_scoring_history_mistake_review",
+      "passed": true,
+      "details": "{\"score\":\"KẾT QUẢ BÀI THI: 80 / 105 CÂU (76%)\",\"historyTotal\":105,\"historyCorrect\":80,\"historyMockId\":\"N2-MOCK-14\",\"historyMode\":\"FULL_MOCK\",\"wrongItems\":10,\"reviewCards\":30,\"vietnameseExplanation\":true,\"sec1DraftCleared\":true}"
+    },
+    {
+      "name": "browser_page_errors",
+      "passed": true,
+      "details": "0"
+    },
+    {
+      "name": "mobile_390px_mock_usability",
+      "passed": true,
+      "details": "{\"viewportWidth\":390,\"documentWidth\":390,\"horizontalOverflow\":false,\"renderedOptions\":4,\"questionVisible\":true}"
+    }
+  ],
+  "allPassed": true
+}

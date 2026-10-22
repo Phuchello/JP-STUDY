@@ -658,12 +658,16 @@ Snapshot 2026-10-22. VERIFIED is scoped verification, not JLPT certification. Hi
 | [qa/N2_MOCK_13_INDEPENDENT_AUDIT_REPORT.md](qa/N2_MOCK_13_INDEPENDENT_AUDIT_REPORT.md) | VERIFIED |
 | [qa/N2_MOCK_13_LIVE_DEPLOYMENT_RECEIPT.json](qa/N2_MOCK_13_LIVE_DEPLOYMENT_RECEIPT.json) | VERIFIED |
 | [qa/N2_MOCK_13_ORIGINALITY_AUDIT.json](qa/N2_MOCK_13_ORIGINALITY_AUDIT.json) | VERIFIED |
+| [qa/N2_MOCK_14_AUDIO_PLAYBACK_RECEIPT.json](qa/N2_MOCK_14_AUDIO_PLAYBACK_RECEIPT.json) | QA_PENDING |
+| [qa/N2_MOCK_14_AUDIO_PLAYBACK_REPORT.md](qa/N2_MOCK_14_AUDIO_PLAYBACK_REPORT.md) | QA_PENDING |
 | [qa/N2_MOCK_14_DRAFT_QA.json](qa/N2_MOCK_14_DRAFT_QA.json) | DRAFT |
+| [qa/N2_MOCK_14_E2E_REPORT.json](qa/N2_MOCK_14_E2E_REPORT.json) | QA_PENDING |
 | [qa/PHASE_6_1_AUDIO_VERIFICATION.json](qa/PHASE_6_1_AUDIO_VERIFICATION.json) | VERIFIED |
 | [qa/PHASE_6_1_CONTENT_QUALITY_REPORT.json](qa/PHASE_6_1_CONTENT_QUALITY_REPORT.json) | QA_PENDING |
 | [qa/PHASE_6_1_LIVE_DEPLOYMENT_RECEIPT.json](qa/PHASE_6_1_LIVE_DEPLOYMENT_RECEIPT.json) | VERIFIED |
 | [qa/PHASE_6_1_OPTION_REMAP_MANIFEST.json](qa/PHASE_6_1_OPTION_REMAP_MANIFEST.json) | VERIFIED |
 | [qa/PHASE_6_1_RUNTIME_SEMANTICS_REPORT.json](qa/PHASE_6_1_RUNTIME_SEMANTICS_REPORT.json) | VERIFIED |
+| [qa/PHASE_7_1_CANDIDATE_REPAIR_QA.md](qa/PHASE_7_1_CANDIDATE_REPAIR_QA.md) | QA_PENDING |
 | [qa/PHASE_7_COVERAGE_MATRIX.md](qa/PHASE_7_COVERAGE_MATRIX.md) | VERIFIED |
 | [qa/PRACTICE_RELEASE_GATE.md](qa/PRACTICE_RELEASE_GATE.md) | VERIFIED |
 | [qa/PUBLICATION_QA.md](qa/PUBLICATION_QA.md) | VERIFIED |
@@ -1048,6 +1052,8 @@ Snapshot 2026-10-22. VERIFIED is scoped verification, not JLPT certification. Hi
 | [scripts/curriculum/normalize_n2_mock_09_blind_reviews.py](scripts/curriculum/normalize_n2_mock_09_blind_reviews.py) | VERIFIED |
 | [scripts/curriculum/normalize_n2_mock_10_blind_reviews.py](scripts/curriculum/normalize_n2_mock_10_blind_reviews.py) | VERIFIED |
 | [scripts/curriculum/phase_61_option_remapping.py](scripts/curriculum/phase_61_option_remapping.py) | VERIFIED |
+| [scripts/curriculum/phase_71_reading_repairs.py](scripts/curriculum/phase_71_reading_repairs.py) | DRAFT |
+| [scripts/curriculum/phase_71_star_repairs.py](scripts/curriculum/phase_71_star_repairs.py) | DRAFT |
 | [scripts/curriculum/prepare_phase_61_remapping_manifest.py](scripts/curriculum/prepare_phase_61_remapping_manifest.py) | VERIFIED |
 | [scripts/curriculum/promote_n2_mock_13.py](scripts/curriculum/promote_n2_mock_13.py) | VERIFIED |
 | [scripts/curriculum/question_fingerprint.py](scripts/curriculum/question_fingerprint.py) | QA_PENDING |

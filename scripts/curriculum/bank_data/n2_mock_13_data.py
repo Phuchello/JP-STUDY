@@ -8,6 +8,8 @@ from __future__ import annotations
 
 import random
 from scripts.curriculum.bank_data.n2_mock_13_explanations_vi import apply_vietnamese_explanations
+from scripts.curriculum.phase_71_reading_repairs import apply_phase_71_reading_repairs
+from scripts.curriculum.phase_71_star_repairs import apply_phase_71_star_repairs
 
 LETTERS = "ABCD"
 
@@ -271,4 +273,5 @@ def get_n2_mock_13_sec1_items(seed=202615):
 
     if len(q) != 75 or len({row["id"] for row in q}) != 75:
         raise AssertionError(f"M13 Section 1 count/ID failure: {len(q)}")
-    return apply_vietnamese_explanations(q)
+    apply_vietnamese_explanations(q)
+    return apply_phase_71_reading_repairs(apply_phase_71_star_repairs(q))

@@ -1,7 +1,7 @@
 {
   "examId": "N2-MOCK-14",
   "status": "DRAFT_NOT_FOR_RELEASE",
-  "scope": "Local authoring and structural checks only",
+  "scope": "Current private authoring candidate, local media QA, and local browser tests only; no active-bank, catalog, or live-site release.",
   "draftPayload": "tmp/phase7/n2_mock_14_draft.json (ignored local file)",
   "questionCounts": {
     "section1": 75,
@@ -45,10 +45,13 @@
     "validAnswerBindings": "PASS",
     "vietnameseExplanationValidation": "PASS",
     "answerLetterReferenceValidation": "PASS",
-    "starFragmentIntegrity": "PASS",
+    "starFragmentIntegrity": "PASS_STRUCTURAL_ONLY",
     "answerPatternCheck": "PASS",
-    "focusedDraftTests": "3/3 PASS",
-    "fullRegressionSuite": "209/209 PASS"
+    "focusedDraftTests": "4/4 PASS",
+    "fullRegressionSuite": "210/210 PASS (2026-10-22)",
+    "candidateBuilders": "4/4 PASS",
+    "candidateBrowserE2E": "M11-M13 7/7 each; M14 7/7 local",
+    "starChromiumRender": "20/20 PASS across M11-M14"
   },
   "hostedCi": {
     "runId": 39713199888,
@@ -64,15 +67,42 @@
     "completeOptionSets": 0
   },
   "review": {
-    "independentCurrentVersionReview": "NOT_YET_AVAILABLE",
+    "independentCurrentVersionReview": "NOT_AVAILABLE",
     "nativeSpeakerReview": "NOT_PERFORMED",
-    "psychometricCalibration": "NOT_PERFORMED"
+    "psychometricCalibration": "NOT_PERFORMED",
+    "priorReviewTransferredToChangedContent": false,
+    "semanticStarUniqueness": "PENDING_INDEPENDENT_REVIEW",
+    "currentVersionKeyFreeInputs": {
+      "status": "PREPARED_ONLY_NO_REVIEW_RESPONSE",
+      "itemsPerExam": 105,
+      "storage": "ignored tmp/phase7; not in public repository snapshot",
+      "sha256": {
+        "M11": "916024dd38cfebd88c77c226ef93ff7032d3d1405e3012555aacbb7c95443bca",
+        "M12": "df19e99e7006c11d058360022afd50efa62cfd408badaa41f817dbfb12361a8d",
+        "M13": "d87bb66e4556838baf27616b36110f4dafa0730f7055790e1ca0ec7197585514",
+        "M14": "e21577a6e6b4c6f31b81b055988732d0a44a97e616ff5021bb8c2c3ac964117e"
+      },
+      "existingTrackedReviewInputsMutated": false
+    }
   },
   "audio": {
-    "mp3Generated": 0,
+    "ttsProviderAuthorization": "USER_APPROVED_M14_SCOPED",
+    "provider": "Microsoft Edge TTS",
+    "scriptsTransmitted": 30,
+    "mp3Generated": 30,
     "mp3Required": 30,
-    "ttsProviderAuthorization": "M14_SCOPED_REQUEST_PENDING",
-    "audioPlaybackQa": "NOT_PERFORMED"
+    "manifestAndSpokenSourceFingerprints": "30/30 MATCHED_CURRENT_SYNTHESIS_INPUT",
+    "sha256": "30/30 VERIFIED_AGAINST_ACTUAL_BYTES",
+    "completeDecode": "30/30 PASS",
+    "duration": "30/30 MEASURED_AND_MATCHED",
+    "chromiumDesktopPlayback": "30/30 ADVANCED",
+    "chromiumMobilePlayback": "30/30 ADVANCED",
+    "choiceBearingSynthesisInputs": "16/16 PRESERVE_CURRENT_SOURCE_ORDER",
+    "mondai4ChoiceCount": "11/11 HAVE THREE DISPLAYED AND SPOKEN CHOICES IN SOURCE",
+    "humanAcousticReview": "NOT_PERFORMED",
+    "publicRedistributionRights": "UNCONFIRMED",
+    "publicAudioPublished": false,
+    "privateAssetDirectory": "tmp/phase7/n2_mock_14_audio_private/"
   },
   "integrationAndRelease": {
     "mockBankIntegrated": false,
@@ -80,14 +110,56 @@
     "publicPagesRelease": false
   },
   "knownConcerns": [
-    "Five N2-MO-USE items have distractors that are too easy or insufficiently natural; revise before content review and release.",
-    "No independent reviewer has evaluated the current M14 version.",
-    "Listening answer-to-audio alignment, MP3 decoding, hashes, duration, and browser playback remain unverified because no audio was generated."
+    "No fresh independent blind review exists for the revised Reading and STAR content or current M14 candidate.",
+    "No native-speaker or human acoustic assessment has been performed.",
+    "Several revised medium/long passages remain shorter than the JLPT guide approximate examples; see the passage-length table. Length alone is not an acceptance criterion.",
+    "Redistribution rights for public release of Edge Read Aloud MP3 output are unconfirmed; M14 media and its manifest remain outside the public repository snapshot.",
+    "Current GitHub Actions and GitHub Pages have not been run for this checkpoint.",
+    "M11-M13 reading repairs remain source candidates and have not replaced active exam JSON or browser bank data."
   ],
   "nextActions": [
-    "Improve the five Usage items and repeat the content checks.",
-    "Obtain independent review of the sealed, key-isolated current version; preserve raw evidence without claiming attestation that is not available.",
-    "After M14-specific TTS authorization, generate 30 tracks and verify actual bytes, manifest, decoding, durations, spoken-choice order, and Chromium playback.",
-    "Run integration and browser regression checks, then use the normal gated release only after all required evidence passes."
-  ]
+    "Obtain fresh key-free, version-bound independent review for materially changed Reading and STAR items; preserve original responses and concerns.",
+    "Confirm rights for public distribution of M14 audio before adding MP3 files to the repository, or obtain authorization for a suitable licensed workflow.",
+    "After all release gates pass, integrate only approved content, run release and browser/live checks, then verify Actions and Pages."
+  ],
+  "readingRepairs": {
+    "scope": "Candidate sources only; published M11-M13 JSON and browser bank remain unchanged.",
+    "readingItemsChanged": 51,
+    "itemsChangedPerMock": {
+      "M11": 17,
+      "M12": 17,
+      "M13": 17
+    },
+    "distinctShortMediumLongPassagesChanged": 35,
+    "pairAndInformationItemsReviewedUnchanged": 12,
+    "m11ChoiceSetsRewritten": 8,
+    "m11DistractorTextsRewritten": 24,
+    "answerLettersChanged": 0,
+    "lengthMethod": "Distinct passage strings counted once; Unicode code points including punctuation/headings; internal comparisons, not JLPT cutoffs.",
+    "detailedEvidence": "qa/PHASE_7_1_CANDIDATE_REPAIR_QA.md",
+    "freshIndependentReview": "PENDING"
+  },
+  "star": {
+    "m11ItemsReformatted": 5,
+    "m12ItemsRegressionChecked": 5,
+    "m13ItemsRegressionChecked": 5,
+    "m14ItemsReformattedAndChecked": 5,
+    "strictStructuralValidation": "20/20 PASS; 24 permutations enumerated per item",
+    "chromiumRender": "20/20 PASS",
+    "semanticUniqueness": "PENDING_INDEPENDENT_REVIEW",
+    "m11RepeatedInvoiceScenario": "REMOVED_FROM_N2_11_M8_03"
+  },
+  "hostedCiForCurrentChanges": {
+    "status": "NOT_RUN_PENDING_PUSH"
+  },
+  "previousDraftCi": {
+    "runId": 39713199888,
+    "url": "https://github.com/Phuchello/JP-STUDY/actions/runs/39713199888",
+    "commit": "6f13861fc3d9c5a9f408ead23645707a4e6e4455",
+    "scope": "Prior draft only; does not validate the current Phase 7.1 changes."
+  },
+  "priorOverlapAudit": {
+    "status": "STALE_AFTER_CONTENT_REVISIONS",
+    "previousAuditHadZeroExactReadingPassageListeningScriptOrCompleteOptionSetMatches": "Historical only; rerun before release."
+  }
 }

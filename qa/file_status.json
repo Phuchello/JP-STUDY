@@ -589,5 +589,11 @@
   "scripts/curriculum/build_full_mock_n2_14.py": "DRAFT",
   "scripts/curriculum/generate_n2_mock_14_audio.py": "DRAFT",
   "scripts/tests/test_n2_mock_14_draft_authoring.py": "VERIFIED",
-  "qa/N2_MOCK_14_DRAFT_QA.json": "DRAFT"
+  "qa/N2_MOCK_14_DRAFT_QA.json": "DRAFT",
+  "scripts/curriculum/phase_71_reading_repairs.py": "DRAFT",
+  "scripts/curriculum/phase_71_star_repairs.py": "DRAFT",
+  "qa/PHASE_7_1_CANDIDATE_REPAIR_QA.md": "QA_PENDING",
+  "qa/N2_MOCK_14_AUDIO_PLAYBACK_RECEIPT.json": "QA_PENDING",
+  "qa/N2_MOCK_14_AUDIO_PLAYBACK_REPORT.md": "QA_PENDING",
+  "qa/N2_MOCK_14_E2E_REPORT.json": "QA_PENDING"
 }

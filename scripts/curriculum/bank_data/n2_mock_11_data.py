@@ -7,6 +7,8 @@ unreviewed until a key-free, fingerprint-bound review is reconciled.
 from __future__ import annotations
 
 from scripts.curriculum.bank_data.n2_mock_11_explanations_vi import apply_vietnamese_explanations
+from scripts.curriculum.phase_71_reading_repairs import apply_phase_71_reading_repairs
+from scripts.curriculum.phase_71_star_repairs import apply_phase_71_star_repairs
 
 import hashlib
 
@@ -132,11 +134,11 @@ def get_n2_mock_11_sec1_items():
 
     # M8: sentence composition (5), option strings are complete fragment orders.
     rows = [
-        ("担当者は、★と指示した。", ["その結果、差があった場合は取引先に確認してから", "まず請求書の金額を", "注文記録と照合し、", "修正案を作る"], "A", ["まず請求書の金額を", "注文記録と照合し、", "その結果、差があった場合は取引先に確認してから", "修正案を作る"]),
-        ("部長は、★と述べた。", ["結論を急ぐより", "根拠を確かめる", "ことのほうが", "大切だ"], "C", ["結論を急ぐより", "根拠を確かめる", "ことのほうが", "大切だ"]),
-        ("担当者は、★と決めた。", ["まず請求書の金額を", "注文記録と照合し、", "差があれば取引先に確認してから", "支払いの手続きを進める"], "C", ["まず請求書の金額を", "注文記録と照合し、", "差があれば取引先に確認してから", "支払いの手続きを進める"]),
-        ("担当者は、★と判断した。", ["申請書に記された数字と", "原本の数字を", "その結果、違いがある項目は申請者に確認する必要がある", "項目ごとに照合し、"], "D", ["申請書に記された数字と", "原本の数字を", "項目ごとに照合し、", "その結果、違いがある項目は申請者に確認する必要がある"]),
-        ("意見が異なる場合も、★必要だ。", ["相手の立場を", "理解しようとする", "姿勢を保つ", "ことは"], "C", ["相手の立場を", "理解しようとする", "姿勢を保つ", "ことは"]),
+        ("担当者は、（　　）（　　）（　★　）（　　）よう指示した。", ["その結果、差があった場合は取引先に確認して", "まず請求書の金額を", "注文記録と照合し、", "修正案を作る"], "A", ["まず請求書の金額を", "注文記録と照合し、", "その結果、差があった場合は取引先に確認して", "修正案を作る"]),
+        ("部長は、（　　）（　　）（　★　）（　　）と述べた。", ["結論を急ぐより", "根拠を確かめる", "ことのほうが", "大切だ"], "C", ["結論を急ぐより", "根拠を確かめる", "ことのほうが", "大切だ"]),
+        ("今回の問題について、（　　）（　　）（　★　）（　　）。", ["取引先への回答を急ぐより", "まず社内で事実を確認する", "必要があると", "課長は説明した"], "C", ["取引先への回答を急ぐより", "まず社内で事実を確認する", "必要があると", "課長は説明した"]),
+        ("担当者は、（　　）（　　）（　★　）（　　）と判断した。", ["申請書に記された数字と", "原本の数字を", "その結果、違いがある項目は申請者に確認する必要がある", "項目ごとに照合し、"], "D", ["申請書に記された数字と", "原本の数字を", "項目ごとに照合し、", "その結果、違いがある項目は申請者に確認する必要がある"]),
+        ("意見が異なる場合も、（　　）（　　）（　★　）（　　）必要だ。", ["相手の立場を", "理解しようとする", "姿勢を保つ", "ことは"], "C", ["相手の立場を", "理解しようとする", "姿勢を保つ", "ことは"]),
     ]
     for i, (stem, opts, key, order) in enumerate(rows, 1):
         fragment_ids = {text: LETTERS[j] for j, text in enumerate(opts)}
@@ -244,4 +246,4 @@ def get_n2_mock_11_sec1_items():
     if len(q) != 75 or len({item["id"] for item in q}) != 75:
         raise ValueError(f"M11 Section 1 blueprint failure: {len(q)}")
     apply_vietnamese_explanations(q)
-    return q
+    return apply_phase_71_reading_repairs(apply_phase_71_star_repairs(q))
