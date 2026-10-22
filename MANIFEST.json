@@ -1,8 +1,8 @@
 {
   "snapshotDate": "2026-10-22",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
-  "fileCountExcludingManifest": 1128,
-  "totalBytesExcludingManifest": 175173472,
+  "fileCountExcludingManifest": 1129,
+  "totalBytesExcludingManifest": 175176105,
   "files": [
     {
       "path": ".gitattributes",
@@ -456,8 +456,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 38680,
-      "sha256": "8a66600480171fae8b50131d5128a32970d1f827aa2e76981f7d5843a390cd4d",
+      "bytes": 38938,
+      "sha256": "f1ef8a8add77618563832fc97f9f30a9899f226a2a0eaf75fa4291d7fb5adccd",
       "status": "VERIFIED"
     },
     {
@@ -3372,8 +3372,8 @@
     },
     {
       "path": "FILE_INDEX.md",
-      "bytes": 112048,
-      "sha256": "19879e995be846c252ec4cd6942fd00d19b48ba7600b857adc4641e2f2802be1",
+      "bytes": 112162,
+      "sha256": "0d2422d3d1d50ab460bf948cf6c662697b5f0a83085b1bdbeeff40cfb6742da9",
       "status": "VERIFIED"
     },
     {
@@ -3408,8 +3408,8 @@
     },
     {
       "path": "PROJECT_STATUS.md",
-      "bytes": 50403,
-      "sha256": "92d4e896151984c6220ed88e6f22e0dcc53ecbdf054ff48fb3c28dbbe44f9538",
+      "bytes": 50420,
+      "sha256": "436ed1a000d0eb7ac0e617457bfc8a45a11c509276de5e51787911372b1a2b96",
       "status": "VERIFIED"
     },
     {
@@ -3895,7 +3895,7 @@
     {
       "path": "qa/CI_QA_SUMMARY.json",
       "bytes": 9318,
-      "sha256": "6d11177ea3b08a2b5243b8b140774822af7d13a2ee07c3ea9f833a8573082210",
+      "sha256": "389ce0be06b36e9771b89ea685d837c1d9b0ba9a2fea7485541da46e2671b043",
       "status": "VERIFIED"
     },
     {
@@ -3966,8 +3966,8 @@
     },
     {
       "path": "qa/file_status.json",
-      "bytes": 32964,
-      "sha256": "0b83ebc93b870c3adcfeca076b93b3aba24eb90fd9a4377c1184c803b5b2f7d4",
+      "bytes": 33094,
+      "sha256": "56c02032ef4241b1283bdffc6180acbb952aec13e3bc5f813e59597e6394c827",
       "status": "VERIFIED"
     },
     {
@@ -6300,9 +6300,9 @@
     },
     {
       "path": "scripts/curriculum/validate_mock_uniqueness.py",
-      "bytes": 6812,
-      "sha256": "e5d10110808d3a7fb0910dca2325aaeac79ead24134d71e7d3a4ac51df022b0d",
-      "status": "QA_PENDING"
+      "bytes": 7356,
+      "sha256": "14023de5b3500296180c8df54e4993a9f9db72df4e3a1e0069d44f8f1c0052d2",
+      "status": "VERIFIED"
     },
     {
       "path": "scripts/curriculum/validate_n2_mock_10_blind_review.py",
@@ -6482,6 +6482,12 @@
       "path": "scripts/tests/test_engine.cjs",
       "bytes": 9664,
       "sha256": "c8bdf19389574e04dc2ea890eb696dd69fd99cfa0c69ccc944cba1e2d3c330c4",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "scripts/tests/test_mock_uniqueness_signatures.py",
+      "bytes": 1570,
+      "sha256": "dd20f87af1799418dafcbaca79552034fc399c17da4bb25d1bc29b95d7eb13a6",
       "status": "VERIFIED"
     },
     {

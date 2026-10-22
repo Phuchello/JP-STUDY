@@ -4,7 +4,8 @@
 
 - Completed the original Education, Media & Technology practice mock with 75 Section 1 questions, 30 Listening questions, and 105 Vietnamese explanations. The Section 1 answer distribution is A15/B21/C20/D19; the longest same-letter run is 3 and the five STAR keys are `ACDBB`.
 - Version-bound key-isolated AI review covered 105/105 items with no semantic mismatch, unresolved answer ambiguity, or reviewer concern. The public reconciliation binds to the sealed content version; original raw reviewer output stays in ignored local `tmp/`, and no portable execution attestation or native-speaker certification is claimed.
-- All 30 generated MP3s match current transcript/prompt/choice fingerprints and manifest SHA-256, decode with matching durations, and progress in desktop and mobile Chromium. Local exam E2E passed 7/7 checks; the dynamic audit passed all 13 current exams and the unit suite passed 203/203 after adding private-review evidence handling.
+- All 30 generated MP3s match current transcript/prompt/choice fingerprints and manifest SHA-256, decode with matching durations, and progress in desktop and mobile Chromium. Local exam E2E passed 7/7 checks; the dynamic audit passed all 13 current exams and the unit suite passed 206/206 after adding private-review evidence and STAR uniqueness checks.
+- The shared uniqueness gate now compares STAR questions by their fragment content after the standardized instruction frame; tests preserve rejection of identical STAR content while permitting different questions with the same JLPT prompt.
 - Cross-exam audit found no repeated reading passages, Listening scripts, or exact distractor sets; it records 27 generic JLPT prompt-frame matches and 6 near matches. Public GitHub Pages release remains pending the checkpoint workflow and live-site verification.
 
 ## 2026-10-21 — Phase 7 N2-MOCK-11 production and public release verification

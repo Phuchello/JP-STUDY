@@ -1055,7 +1055,7 @@ Snapshot 2026-10-22. VERIFIED is scoped verification, not JLPT certification. Hi
 | [scripts/curriculum/split_blind_items.py](scripts/curriculum/split_blind_items.py) | QA_PENDING |
 | [scripts/curriculum/sync_blind_answers.py](scripts/curriculum/sync_blind_answers.py) | QA_PENDING |
 | [scripts/curriculum/update_mock_04_in_bank.py](scripts/curriculum/update_mock_04_in_bank.py) | QA_PENDING |
-| [scripts/curriculum/validate_mock_uniqueness.py](scripts/curriculum/validate_mock_uniqueness.py) | QA_PENDING |
+| [scripts/curriculum/validate_mock_uniqueness.py](scripts/curriculum/validate_mock_uniqueness.py) | VERIFIED |
 | [scripts/curriculum/validate_n2_mock_10_blind_review.py](scripts/curriculum/validate_n2_mock_10_blind_review.py) | VERIFIED |
 | [scripts/curriculum/validate_n2_mock_11_blind_review.py](scripts/curriculum/validate_n2_mock_11_blind_review.py) | VERIFIED |
 | [scripts/curriculum/validate_n2_mock_12_release.py](scripts/curriculum/validate_n2_mock_12_release.py) | QA_PENDING |
@@ -1085,6 +1085,7 @@ Snapshot 2026-10-22. VERIFIED is scoped verification, not JLPT certification. Hi
 | [scripts/tests/test_deployment_fail_closed.py](scripts/tests/test_deployment_fail_closed.py) | QA_PENDING |
 | [scripts/tests/test_edge_flows.cjs](scripts/tests/test_edge_flows.cjs) | VERIFIED |
 | [scripts/tests/test_engine.cjs](scripts/tests/test_engine.cjs) | VERIFIED |
+| [scripts/tests/test_mock_uniqueness_signatures.py](scripts/tests/test_mock_uniqueness_signatures.py) | VERIFIED |
 | [scripts/tests/test_n2_mock_02_e2e.cjs](scripts/tests/test_n2_mock_02_e2e.cjs) | QA_PENDING |
 | [scripts/tests/test_n2_mock_03_e2e.cjs](scripts/tests/test_n2_mock_03_e2e.cjs) | QA_PENDING |
 | [scripts/tests/test_n2_mock_03_star_permutations.py](scripts/tests/test_n2_mock_03_star_permutations.py) | QA_PENDING |

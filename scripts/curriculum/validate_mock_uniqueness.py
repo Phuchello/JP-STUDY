@@ -92,10 +92,11 @@ def validate_uniqueness():
 
             # Cross-check stems against previous mocks
             if q.get('skill') != 'Listening' and len(stem) > 5:
+                signature = stem_collision_signature(q)
                 for prev_name, prev_stems in mock_stems_map.items():
-                    if stem in prev_stems:
+                    if signature in prev_stems:
                         errors.append(f"[{name}] Stem collision with {prev_name} [{qid}]: '{stem[:40]}...'")
-                mock_stems[stem] = qid
+                mock_stems[signature] = qid
 
             # Cross-check passages against previous mocks
             if passage:
@@ -156,6 +157,16 @@ def validate_uniqueness():
         print("  - 100% options, keys, explanations, and distractor rationale verified")
         print(f"  - 100% audio files exist on disk and mapped for Section 2 ({len(loaded_mocks)*30}/{len(loaded_mocks)*30})")
         print("Quality gate status: PASS")
+
+
+def stem_collision_signature(question):
+    """Compare STAR items by their actual fragments, not the shared JLPT instruction frame."""
+    stem = ' '.join(str(question.get('stem') or '').split())
+    if question.get('typeId') == 'N2-GR-STAR':
+        fragments = tuple(sorted(' '.join(str(option.get('text') or '').split())
+                                 for option in question.get('options', [])))
+        return ('STAR_CONTENT', stem, fragments)
+    return ('STEM', stem)
 
 if __name__ == '__main__':
     validate_uniqueness()
