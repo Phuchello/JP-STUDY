@@ -109,9 +109,36 @@ def test_m14_usage_items_are_unglossed_and_have_bound_natural_sentences():
         keyed = next(option["text"] for option in item["options"]
                      if option["id"] == item["correctAnswer"])
         assert keyed == expected[item["id"]]
+        assert all(option["text"].endswith("。") for option in item["options"])
 
-    datum = next(item for item in items if item["id"] == "N2_14_M1_29")
-    assert any("事実を妥当している" in option["text"] for option in datum["options"])
-    assert any("説明が妥当だ確かめる" in option["text"] for option in datum["options"])
-    assert "妥当する" in datum["explanationVi"]
+    target_display = {
+        "N2_14_M1_28": ("見込む", "見込"), "N2_14_M1_29": ("妥当", "妥当"),
+        "N2_14_M1_30": ("見合わせる", "見合わせ"), "N2_14_M1_31": ("余裕", "余裕"),
+        "N2_14_M1_32": ("負担", "負担"),
+    }
+    for item in items:
+        display, inflected = target_display[item["id"]]
+        assert f"【{display}】" in item["stem"]
+        assert all(inflected in option["text"] for option in item["options"])
+
+    expected_distractors = {
+        "N2_14_M1_28": ("前年の報告書を見込んで", "利用者の意見を見込んで", "本人確認書類を見込んで"),
+        "N2_14_M1_29": ("代替路も安全基準を満たさない", "市の上限を大幅に超え", "比較条件に重大な誤り"),
+        "N2_14_M1_30": ("住民から届いた要望を見合わせて", "前年の実施報告を見合わせて", "身分証を見合わせて"),
+        "N2_14_M1_32": ("交通費の負担を受け取った", "会場費の負担を請求書として", "不安を負担し"),
+    }
+    for item in items:
+        option_texts = [option["text"] for option in item["options"]]
+        for phrase in expected_distractors.get(item["id"], ()):
+            assert any(phrase in text for text in option_texts)
+
+    miawaseru = next(item for item in items if item["id"] == "N2_14_M1_30")
+    assert any("住民から届いた要望" in option["text"] for option in miawaseru["options"])
+    burden = next(item for item in items if item["id"] == "N2_14_M1_32")
+    assert any("利用者が抱える不安を負担し" in option["text"] for option in burden["options"])
+    for item in items:
+        wrong_ids = {option["id"] for option in item["options"]} - {item["correctAnswer"]}
+        assert set(item["distractorExplanations"]) == wrong_ids
+        assert len(set(item["distractorExplanations"].values())) == 3
+        assert all(len(text) >= 25 for text in item["distractorExplanations"].values())
 

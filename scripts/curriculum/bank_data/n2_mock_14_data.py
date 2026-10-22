@@ -133,18 +133,94 @@ def get_n2_mock_14_sec1_items(seed=202614):
     for i, (stem, options, key, vi) in enumerate(rows, 23):
         q.append(_item(f"N2_14_M1_{i:02}", "N2-MO-PARA", "言い換え", stem, options, key, vi, difficulty=2))
 
-    # Usage: authentic sentence-use selection. The prompt names the target
-    # word but does not disclose a gloss; only one sentence uses it naturally.
+    # Usage: the stem gives no gloss. Distractors use complete sentences and
+    # test lexical fit, reference, or context rather than repeated particle swaps.
     rows = [
-        ("見込む", ["来年度は利用者が一割ほど増えると見込んで、受付時間を延長した。", "来年度は利用者の一割ほど増えるを見込んで、受付時間を延長した。", "人事部は若手社員に力を見込んで、新しい業務を任せた。", "展望台に谷を見込むと、遠くに集落が見えた。"], 0, "Câu A dùng đúng mẫu 「利用者が一割ほど増えると見込む」 để dự báo tình hình tương lai. B dùng 「を」 sai với mệnh đề 「増える」; C phải nói 「若手社員の力を見込む」; D dùng sai trợ từ chỉ điểm nhìn và động từ này không tự nhiên với cảnh nhìn xuống thung lũng."),
-        ("妥当", ["複数の見積もりと効果を比べた結果、この価格設定は妥当だと判断した。", "担当者は、資料の誤りに妥当したと判断し、修正を依頼した。", "説明が妥当だ確かめるため、別の資料と比べた。", "この説明は、確認済みの事実を妥当している。"], 0, "Câu A đánh giá mức giá là hợp lý dựa trên chi phí và hiệu quả. 妥当 thường dùng như danh từ/tính từ đuôi な trong 「妥当だ・妥当な」; 妥当する cũng có thể dùng với nghĩa phù hợp/đúng, nhưng không đi với tân ngữ を như câu D. Câu B không kết hợp tự nhiên 妥当する với 「資料の誤り」; câu C thiếu と trong 「説明が妥当だと確かめる」."),
-        ("見合わせる", ["安全を確認するため、鉄道会社は一部路線の運行を見合わせた。", "担当者は二つの資料に見合わせて、数字の違いを調べた。", "参加者は申込書を事務局へ見合わせて、確認を待った。", "担当者は悪天候を見合わせて、開催を延期した。"], 0, "Câu A dùng tự nhiên cụm 「運行を見合わせる」 để nói tạm dừng chạy tàu vì an toàn. B sai trợ từ với 資料, C dùng 見合わせる không phù hợp với việc nộp đơn, còn D dùng thời tiết làm đối tượng của động từ; cần nói 「悪天候を受けて開催を見合わせた」."),
-        ("余裕", ["受付開始まで三十分あるので、時間に余裕をもって会場へ向かった。", "受付開始まで三十分あるので、時間を余裕をもって会場へ向かった。", "受付開始まで三十分あるので、余裕に時間をもって会場へ向かった。", "受付開始まで三十分あるので、余裕な時間をもって会場へ向かった。"], 0, "Câu A dùng đúng cách nói 「時間に余裕をもって」. B lặp trợ từ を; C dùng 余裕 như trạng từ với に; D dùng dạng định ngữ 「余裕な」 thay vì cách nói tự nhiên 「余裕のある時間」."),
-        ("負担", ["申請書の記入欄を減らし、利用者の負担を軽くした。", "出張に必要な交通費に会社が負担した。", "主催者側を会場の準備費用が負担した。", "彼は重い荷物に一部を負担して運んだ。"], 0, "Câu A dùng tự nhiên 「利用者の負担を軽くする」, nghĩa là giảm công sức và phiền hà khi làm thủ tục. Các câu còn lại đảo sai chủ thể và đối tượng: cần nói 「会社が交通費を負担する」, 「主催者側が費用を負担する」; với hành lý thì dùng 「運ぶ」."),
+        (
+            "見込む",
+            [
+                "来年度は利用者が一割ほど増えると見込んで、受付時間を延長した。",
+                "担当者は、前年の報告書を見込んで、今年の集計表に誤りがないか確認した。",
+                "調査で集まった利用者の意見を見込んで、案内文の表現を改めた。",
+                "担当者は、申請者の本人確認書類を見込んで、氏名を照合した。",
+            ],
+            0,
+            "Ở câu đúng, 「見込む」 diễn tả ước tính trước lượng người dùng tương lai; dự báo tăng là căn cứ để kéo dài giờ tiếp nhận.",
+            {
+                1: "「見込む」 diễn tả dự đoán hoặc tính trước một kết quả; ở đây báo cáo năm trước được dùng để tra cứu và kiểm tra bảng mới. 「前年の報告書を参照して」 mới khớp với quan hệ giữa hai tài liệu.",
+                2: "Các ý kiến đã được thu thập rồi và được dùng làm căn cứ sửa văn bản; cách kết hợp tự nhiên là 「意見を踏まえて」 hoặc 「参考にして」. 「見込む」 hướng tới dự đoán, kỳ vọng hoặc tính trước điều sẽ xảy ra.",
+                3: "本人確認書類を使って氏名を確かめるのは照合・確認であり、将来の値を予測したり事前に計算へ入れたりすることではありません。「書類を確認して」などが自然です。",
+            },
+        ),
+        (
+            "妥当",
+            [
+                "複数の見積もりと効果を比べた結果、この価格設定は妥当だと判断した。",
+                "避難経路の一部が通行止めで、代替路も安全基準を満たさないと確認されたが、担当者はこの経路が妥当だと判断した。",
+                "料金が市の上限を大幅に超え、制度上認められないと分かっていたが、担当者は妥当な価格設定だと説明した。",
+                "比較条件に重大な誤りがあると判明した後も、委員会はその結論が妥当だと発表した。",
+            ],
+            0,
+            "Câu đúng dùng 「妥当だ」 để đánh giá mức giá phù hợp sau khi đối chiếu nhiều báo giá và hiệu quả. 妥当 là tính từ đuôi な, thường dùng để nhận xét lựa chọn, quyết định, mức giá hoặc phương án có căn cứ.",
+            {
+                1: "妥当 nghĩa là hợp lý hoặc phù hợp. Đoạn câu nêu tuyến thay thế không đạt tiêu chuẩn an toàn, nên đánh giá chính tuyến đó là 妥当 đi ngược dữ kiện đã xác nhận; cần chọn tuyến khác hoặc kiểm tra lại.",
+                2: "Câu cho biết mức phí vượt xa giới hạn và không được phép theo quy định. Gọi mức phí đó là 妥当 mâu thuẫn với điều kiện áp dụng; phương án hợp lý cần nằm trong giới hạn và có căn cứ đánh giá.",
+                3: "Kết luận dựa trên điều kiện so sánh có sai sót nghiêm trọng chưa đủ căn cứ để gọi là 妥当. Câu nêu chính lỗi trong dữ liệu nhưng vẫn khẳng định kết luận hợp lý, nên cách dùng không phù hợp với ngữ cảnh.",
+            },
+        ),
+        (
+            "見合わせる",
+            [
+                "安全を確認するため、鉄道会社は一部路線の運行を見合わせた。",
+                "担当者は、住民から届いた要望を見合わせて、利用案内の文面に反映した。",
+                "担当者は、前年の実施報告を見合わせて、今回の集計結果を公表した。",
+                "係員は、窓口で提示された身分証を見合わせて、申請者の氏名を確認した。",
+            ],
+            0,
+            "Câu đúng dùng kết hợp thông dụng 「運行を見合わせる」: tạm ngừng vận hành để kiểm tra an toàn.",
+            {
+                1: "Ý kiến được đưa vào nội dung hướng dẫn, tức là được tiếp thu hoặc dùng làm căn cứ; câu không nói đến việc đối chiếu hai ý kiến hay tạm dừng yêu cầu. 「要望を踏まえて」 diễn tả đúng quan hệ này.",
+                2: "Báo cáo năm trước chỉ là nguồn để tra cứu khi trình bày kết quả mới; không có tài liệu thứ hai để đặt cạnh nhau và cũng không có hoạt động nào bị hoãn. 「報告を参照して」 phù hợp hơn.",
+                3: "Một giấy tờ tùy thân được dùng để xác nhận tên người nộp đơn, không phải để so sánh hai tài liệu hoặc tạm dừng việc kiểm tra. 「身分証を確認して」 là cách kết hợp tự nhiên.",
+            },
+        ),
+        (
+            "余裕",
+            [
+                "受付開始まで三十分あるので、時間に余裕をもって会場へ向かった。",
+                "作業には三時間かかると見積もられ、締切まで一時間しかないが、担当者は作業時間に十分な余裕があると報告した。",
+                "予算を使い切ったと記録した一方で、会計担当者は予算に余裕が残っていると説明した。",
+                "席に空きが一つもないと確認した後、担当者は会場に十分な余裕があると案内した。",
+            ],
+            0,
+            "Câu đúng dùng cụm 「時間に余裕をもって」 để nói có khoảng thời gian dự phòng nên có thể đi đến địa điểm mà không phải vội.",
+            {
+                1: "Công việc được ước tính cần ba giờ nhưng hạn chỉ còn một giờ; vì vậy không thể có đủ khoảng thời gian dự phòng. 「余裕がある」 tự nhiên về kết hợp từ, nhưng mâu thuẫn rõ với số liệu trong câu.",
+                2: "Đã dùng hết ngân sách thì không thể đồng thời còn khoản dư. 「予算に余裕が残る」 là kết hợp đúng về mặt từ vựng, nhưng tình huống được nêu tự mâu thuẫn.",
+                3: "Không còn ghế trống thì không thể nói hội trường còn đủ chỗ. 「会場に余裕がある」 dùng được khi còn sức chứa, nhưng dữ kiện ngay trước đó loại trừ cách dùng ấy.",
+            },
+        ),
+        (
+            "負担",
+            [
+                "申請書の記入欄を減らし、利用者の負担を軽くした。",
+                "出張者は、会社から交通費の負担を受け取った後、領収書を経理へ提出した。",
+                "主催者は、会場費の負担を請求書として参加者に郵送した。",
+                "相談員は、利用者が抱える不安を負担し、安心して話せる窓口を整えた。",
+            ],
+            0,
+            "Câu đúng dùng 「利用者の負担を軽くする」 để nói việc giảm công sức và phiền hà mà người làm đơn phải chịu.",
+            {
+                1: "Người đi công tác có thể được hoàn lại tiền, nhưng thứ được nhận là khoản hoàn trả/交通費, không phải 「負担」 (nghĩa vụ hoặc gánh nặng). Tự nhiên hơn: 「交通費の精算金を受け取った」.",
+                2: "請求書 là chứng từ yêu cầu thanh toán; không thể gửi 「負担」 như thể đó là một hóa đơn. Cần nêu khoản phí/chi phí và yêu cầu người nhận thanh toán, thay vì dùng tên gọi gánh nặng làm tài liệu.",
+                3: "Người tư vấn có thể 「不安を受け止める」 hoặc giúp giảm nỗi lo, nhưng 「不安を負担する」 không phải kết hợp tự nhiên. 負担 thường là chi phí, trách nhiệm, nghĩa vụ hoặc công việc nặng phải gánh.",
+            },
+        ),
     ]
-    for i, (word, options, key, vi) in enumerate(rows, 28):
+    for i, (word, options, key, vi, notes) in enumerate(rows, 28):
         stem = f"次の文の【{word}】の使い方として、最も自然なものはどれか。"
-        q.append(_item(f"N2_14_M1_{i:02}", "N2-MO-USE", "用法", stem, options, key, vi, difficulty=2))
+        q.append(_item(f"N2_14_M1_{i:02}", "N2-MO-USE", "用法", stem, options, key, vi,
+                       difficulty=2, distractor_notes=notes))
 
     # Sentence grammar: 12
     rows = [

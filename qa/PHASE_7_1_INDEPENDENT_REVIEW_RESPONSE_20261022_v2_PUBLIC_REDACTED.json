@@ -1,0 +1,451 @@
+{
+  "reviewer": "Independent subagent; AI content review, not native-speaker certification",
+  "packetId": "PHASE-7.1-CANDIDATE-2026-10-22-v2",
+  "packetSha256": "ff902960be3e65b6962829695db1c055d15b8fa080e5d1853e2229ed73f12b6d",
+  "pathUsed": "qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261022_v2.json",
+  "pathNote": "The repository-relative packet matched the expected SHA-256 recorded by the reviewer.",
+  "itemCount": 61,
+  "overallDisposition": "Revision recommended. The 51 Reading items and five STAR items have clear best answers. The 用法 set needs attention, especially 見合わせる and 余裕, where distractors can be defended by alternate meanings or natural collocations.",
+  "items": [
+    {
+      "id": "N2_11_M8_01",
+      "selected": "A",
+      "reason": "B-C-A-D gives a coherent instruction: compare the invoice amount with the order record, then check any discrepancy and prepare a correction.",
+      "alternateDefensible": false,
+      "concern": "Order is clear; the distractors are easy to reject."
+    },
+    {
+      "id": "N2_11_M8_02",
+      "selected": "C",
+      "reason": "A-B-C-D forms 「結論を急ぐより、根拠を確かめることのほうが大切だ」.",
+      "alternateDefensible": false,
+      "concern": "Natural sentence; other orders do not fit the grammar."
+    },
+    {
+      "id": "N2_11_M8_03",
+      "selected": "C",
+      "reason": "A-B-C-D forms a grammatical reported statement: confirm the facts internally before rushing to answer the business partner.",
+      "alternateDefensible": false,
+      "concern": "Natural, though 「急ぐよりまず」 is slightly compressed."
+    },
+    {
+      "id": "N2_11_M8_04",
+      "selected": "D",
+      "reason": "A-B-D-C yields the intended sequence: compare the figures item by item, then confirm differences with the applicant.",
+      "alternateDefensible": false,
+      "concern": "Understandable; 「申請書の数字を原本の数字と照合し」 would be a cleaner particle pattern."
+    },
+    {
+      "id": "N2_11_M8_05",
+      "selected": "C",
+      "reason": "A-B-C-D gives 「相手の立場を理解しようとする姿勢を保つことは必要だ」.",
+      "alternateDefensible": false,
+      "concern": "Natural and uniquely ordered."
+    },
+    {
+      "id": "N2_11_M10_01",
+      "selected": "D",
+      "reason": "The passage says the date and version number let staff distinguish old and new files before opening them.",
+      "alternateDefensible": false,
+      "concern": "Clear alignment; distractors are straightforward."
+    },
+    {
+      "id": "N2_11_M10_02",
+      "selected": "B",
+      "reason": "The passage warns that changed delivery conditions can change the price, so a prior amount cannot safely fill the unexplained blank.",
+      "alternateDefensible": false,
+      "concern": "Clear alignment; most distractors contradict or add unsupported facts."
+    },
+    {
+      "id": "N2_11_M10_03",
+      "selected": "A",
+      "reason": "Names and notifications could identify individuals, so those parts are removed or blurred before external sharing.",
+      "alternateDefensible": false,
+      "concern": "Clear and direct."
+    },
+    {
+      "id": "N2_11_M10_04",
+      "selected": "A",
+      "reason": "The passage explicitly says the corrected venue notice was resent to prevent people arriving late with the old information.",
+      "alternateDefensible": false,
+      "concern": "Clear; distractors introduce changes the text says were not made."
+    },
+    {
+      "id": "N2_11_M10_05",
+      "selected": "A",
+      "reason": "The recorded unplanned work is used to forecast next month’s workload and staffing.",
+      "alternateDefensible": false,
+      "concern": "Clear alignment; the distractors are comparatively easy."
+    },
+    {
+      "id": "N2_11_M11_01",
+      "selected": "B",
+      "reason": "The passage lists unfinished work, the next check date, and contact information as the table’s contents.",
+      "alternateDefensible": false,
+      "concern": "Exact support in the opening paragraph."
+    },
+    {
+      "id": "N2_11_M11_02",
+      "selected": "A",
+      "reason": "The passage states that information becomes outdated if the table is not updated.",
+      "alternateDefensible": false,
+      "concern": "Direct retrieval; distractors are clearly contradicted."
+    },
+    {
+      "id": "N2_11_M11_03",
+      "selected": "D",
+      "reason": "For cases requiring exceptional judgment, the passage says to hold a handoff meeting in addition to using the table.",
+      "alternateDefensible": false,
+      "concern": "Direct support."
+    },
+    {
+      "id": "N2_11_M11_04",
+      "selected": "A",
+      "reason": "The passage attributes wasted meeting time to participants arriving without reading the materials, so they must first establish the premises.",
+      "alternateDefensible": false,
+      "concern": "Clear cause-and-effect alignment."
+    },
+    {
+      "id": "N2_11_M11_05",
+      "selected": "C",
+      "reason": "The team shared materials before the meeting and asked each participant to prepare one question.",
+      "alternateDefensible": false,
+      "concern": "Direct support."
+    },
+    {
+      "id": "N2_11_M11_06",
+      "selected": "D",
+      "reason": "The two-page limit was meant to curb over-preparation and keep the decision point visible.",
+      "alternateDefensible": false,
+      "concern": "Good paraphrase; other choices misstate the stated aim."
+    },
+    {
+      "id": "N2_11_M11_07",
+      "selected": "B",
+      "reason": "The opening sentence says small failures are more likely to be hidden where people feel they will be blamed for reporting them.",
+      "alternateDefensible": false,
+      "concern": "Direct retrieval."
+    },
+    {
+      "id": "N2_11_M11_08",
+      "selected": "D",
+      "reason": "The passage says the manager first checks the facts and the scope of impact.",
+      "alternateDefensible": false,
+      "concern": "Direct retrieval; distractors reverse the sequence."
+    },
+    {
+      "id": "N2_11_M11_09",
+      "selected": "C",
+      "reason": "The stated purpose is to distinguish causes and fix organizational problems that can be improved.",
+      "alternateDefensible": false,
+      "concern": "Good summary; distractors use absolute claims."
+    },
+    {
+      "id": "N2_11_M13_01",
+      "selected": "B",
+      "reason": "The company delays expansion after finding that some conditions add verification work; it evaluates exceptions and effects on users alongside time savings.",
+      "alternateDefensible": false,
+      "concern": "Supported synthesis, though the answer closely restates the passage."
+    },
+    {
+      "id": "N2_11_M13_02",
+      "selected": "C",
+      "reason": "Interviews help uncover response bias and reasons that the survey numbers alone do not explain.",
+      "alternateDefensible": false,
+      "concern": "Strong alignment; distractors are plainly unsupported."
+    },
+    {
+      "id": "N2_11_M13_03",
+      "selected": "B",
+      "reason": "The museum sets a central idea, explains necessary specialist terms, observes readers, and revises the exhibit text.",
+      "alternateDefensible": false,
+      "concern": "Good summary; wrong choices are mostly extreme opposites."
+    },
+    {
+      "id": "N2_12_M10_01",
+      "selected": "D",
+      "reason": "The extended Wednesday hours are intended for people who cannot visit during ordinary weekday hours.",
+      "alternateDefensible": false,
+      "concern": "Clear notice-reading item; low inference demand."
+    },
+    {
+      "id": "N2_12_M10_02",
+      "selected": "C",
+      "reason": "The east path is closed, while visitors may enter from the west entrance and use the lawn area.",
+      "alternateDefensible": false,
+      "concern": "Clear notice-reading item."
+    },
+    {
+      "id": "N2_12_M10_03",
+      "selected": "A",
+      "reason": "The food must go to the exchange center, be unopened, and have at least a week before its expiry date.",
+      "alternateDefensible": false,
+      "concern": "Clear; the conditions distinguish the correct option."
+    },
+    {
+      "id": "N2_12_M10_04",
+      "selected": "B",
+      "reason": "The passage says ticket validity will be extended for the days the pool was unavailable.",
+      "alternateDefensible": false,
+      "concern": "Clear notice-reading item."
+    },
+    {
+      "id": "N2_12_M10_05",
+      "selected": "B",
+      "reason": "The library’s departure time moves 15 minutes earlier; district arrival times and dwell times stay the same.",
+      "alternateDefensible": false,
+      "concern": "Clear contrast among the listed times."
+    },
+    {
+      "id": "N2_12_M11_01",
+      "selected": "C",
+      "reason": "The city standardized discount labels so customers could compare the size of the discount more easily.",
+      "alternateDefensible": false,
+      "concern": "Direct support; distractors are easy."
+    },
+    {
+      "id": "N2_12_M11_02",
+      "selected": "D",
+      "reason": "The passage says staff explanations became shorter after the labels were standardized.",
+      "alternateDefensible": false,
+      "concern": "Direct retrieval."
+    },
+    {
+      "id": "N2_12_M11_03",
+      "selected": "C",
+      "reason": "The city evaluates clarity separately from food-waste reduction, using sales, waste, and user feedback.",
+      "alternateDefensible": false,
+      "concern": "Good alignment with the distinction in the passage."
+    },
+    {
+      "id": "N2_12_M11_04",
+      "selected": "B",
+      "reason": "The fixed bus route cost money even on days with few passengers, prompting the demand-based shared vehicle.",
+      "alternateDefensible": false,
+      "concern": "Direct support."
+    },
+    {
+      "id": "N2_12_M11_05",
+      "selected": "D",
+      "reason": "The town extended phone booking hours in response to complaints that the reservation process was unclear.",
+      "alternateDefensible": false,
+      "concern": "Direct support; distractors describe unmentioned changes."
+    },
+    {
+      "id": "N2_12_M11_06",
+      "selected": "D",
+      "reason": "The town weighs costs while preserving service at times needed for medical visits and school travel.",
+      "alternateDefensible": false,
+      "concern": "Good paraphrase."
+    },
+    {
+      "id": "N2_12_M11_07",
+      "selected": "D",
+      "reason": "The library changed the system to shorten the wait for reserved books.",
+      "alternateDefensible": false,
+      "concern": "Direct support."
+    },
+    {
+      "id": "N2_12_M11_08",
+      "selected": "A",
+      "reason": "Demand varies by book and branch, making it hard to decide how many additional copies to buy.",
+      "alternateDefensible": false,
+      "concern": "Direct support."
+    },
+    {
+      "id": "N2_12_M11_09",
+      "selected": "B",
+      "reason": "The passage uses circulation, cancellations, wait times, and preferred pickup branches to inform stock adjustments.",
+      "alternateDefensible": false,
+      "concern": "Good synthesis; 「など」 appropriately signals a summary."
+    },
+    {
+      "id": "N2_12_M13_01",
+      "selected": "D",
+      "reason": "The survey found faster downstream flow and a reduction in shallow fish spawning areas.",
+      "alternateDefensible": false,
+      "concern": "Direct alignment."
+    },
+    {
+      "id": "N2_12_M13_02",
+      "selected": "A",
+      "reason": "The small trial lets the city check concerns about mowing frequency and water-level changes before deciding the wider plan.",
+      "alternateDefensible": false,
+      "concern": "Clear synthesis; other options contradict the passage."
+    },
+    {
+      "id": "N2_12_M13_03",
+      "selected": "B",
+      "reason": "Resident observations inform the design, while safety, maintenance costs, and ecological change are assessed together.",
+      "alternateDefensible": false,
+      "concern": "Good summary of the evaluation approach."
+    },
+    {
+      "id": "N2_13_M10_01",
+      "selected": "C",
+      "reason": "Posts may be anonymous, and the teacher answers in batches twice a week, so a quick reply is not assured.",
+      "alternateDefensible": false,
+      "concern": "Clear alignment; distractors are easy."
+    },
+    {
+      "id": "N2_13_M10_02",
+      "selected": "A",
+      "reason": "The answers will help determine the number of electronic book licenses for the following year.",
+      "alternateDefensible": false,
+      "concern": "Direct retrieval."
+    },
+    {
+      "id": "N2_13_M10_03",
+      "selected": "B",
+      "reason": "A report must include both the location of the subtitle error and the proposed correct wording.",
+      "alternateDefensible": false,
+      "concern": "Direct retrieval."
+    },
+    {
+      "id": "N2_13_M10_04",
+      "selected": "C",
+      "reason": "Saved headlines and summaries may be used for comparison in class; full text and external republication are restricted.",
+      "alternateDefensible": false,
+      "concern": "Clear, though the correct choice closely mirrors the passage."
+    },
+    {
+      "id": "N2_13_M10_05",
+      "selected": "D",
+      "reason": "Users can change notification days and times in settings.",
+      "alternateDefensible": false,
+      "concern": "Direct retrieval."
+    },
+    {
+      "id": "N2_13_M11_01",
+      "selected": "B",
+      "reason": "The evaluation focuses on whether beginners can follow the explanation and whether it presents supporting evidence.",
+      "alternateDefensible": false,
+      "concern": "Clear; other options focus on measures the passage rejects."
+    },
+    {
+      "id": "N2_13_M11_02",
+      "selected": "B",
+      "reason": "The university keeps the viewing deadline to reduce the risk of exam questions spreading outside the intended period.",
+      "alternateDefensible": false,
+      "concern": "Direct support."
+    },
+    {
+      "id": "N2_13_M11_03",
+      "selected": "A",
+      "reason": "The article distinguishes confirmed facts from unconfirmed information and retains points it could not verify.",
+      "alternateDefensible": false,
+      "concern": "Strong alignment."
+    },
+    {
+      "id": "N2_13_M11_04",
+      "selected": "B",
+      "reason": "Subtitles are a useful aid, but students should check important points against recordings or handouts.",
+      "alternateDefensible": false,
+      "concern": "Direct summary."
+    },
+    {
+      "id": "N2_13_M11_05",
+      "selected": "C",
+      "reason": "The change addresses the risk that competition over recorded hours will displace attention to learning and understanding.",
+      "alternateDefensible": false,
+      "concern": "Good alignment."
+    },
+    {
+      "id": "N2_13_M11_06",
+      "selected": "A",
+      "reason": "The lab makes the summary readable while stating the study’s scope, limits, and need for further verification.",
+      "alternateDefensible": false,
+      "concern": "Direct summary."
+    },
+    {
+      "id": "N2_13_M11_07",
+      "selected": "D",
+      "reason": "The application gives the destination and attachment name, and shows checks at selected points rather than repeatedly.",
+      "alternateDefensible": false,
+      "concern": "Good synthesis; distractors are mostly obviously unsuitable."
+    },
+    {
+      "id": "N2_13_M11_08",
+      "selected": "A",
+      "reason": "The new rubric values evidence-based review and revision rather than the number of comments.",
+      "alternateDefensible": false,
+      "concern": "Direct summary."
+    },
+    {
+      "id": "N2_13_M11_09",
+      "selected": "D",
+      "reason": "The university retains online, phone, and in-person options and also investigates usability problems.",
+      "alternateDefensible": false,
+      "concern": "Good summary."
+    },
+    {
+      "id": "N2_13_M13_01",
+      "selected": "B",
+      "reason": "The team first asks whom the researcher wants to reach and what they should understand.",
+      "alternateDefensible": false,
+      "concern": "Direct retrieval."
+    },
+    {
+      "id": "N2_13_M13_02",
+      "selected": "C",
+      "reason": "Non-specialist students identify passages they cannot understand on a first reading.",
+      "alternateDefensible": false,
+      "concern": "Direct retrieval."
+    },
+    {
+      "id": "N2_13_M13_03",
+      "selected": "C",
+      "reason": "The method foregrounds the central finding and its scope, then lets readers follow links to detailed evidence.",
+      "alternateDefensible": false,
+      "concern": "Good summary; distractors are clear contradictions."
+    },
+    {
+      "id": "N2_14_M1_28",
+      "selected": "C",
+      "reason": "見込む naturally expresses an expected future increase: the user count is projected to rise by about ten percent.",
+      "alternateDefensible": false,
+      "concern": "The other options call for verbs such as 参照する, 踏まえる, or report an estimate rather than an actual result."
+    },
+    {
+      "id": "N2_14_M1_29",
+      "selected": "A",
+      "reason": "妥当だ is the natural predicate for a price judged reasonable after comparing estimates and effects.",
+      "alternateDefensible": false,
+      "concern": "The distractors use 妥当 as a verb or bare noun where 妥当性 would be more idiomatic."
+    },
+    {
+      "id": "N2_14_M1_30",
+      "selected": "B",
+      "reason": "見合わせる naturally means suspending train service while safety is checked.",
+      "alternateDefensible": true,
+      "alternate": "D can be read as comparing stakeholders’ views, a separate sense of 見合わせる, though 「意見を見合わせて」 is less idiomatic than 「意見を突き合わせて」.",
+      "concern": "The item risks testing recognition of the suspension sense alone; replace D with a clearly incorrect use."
+    },
+    {
+      "id": "N2_14_M1_31",
+      "selected": "C",
+      "reason": "時間に余裕をもって is a natural expression for allowing sufficient time before the reception begins.",
+      "alternateDefensible": true,
+      "alternate": "A uses 「予算に余裕が残っている」 naturally; D’s 「会場に十分な余裕がある」 can also be natural for spaciousness. Their surrounding statements create contradictions, so the item can be solved by logic rather than lexical use.",
+      "concern": "This is the strongest issue in the packet: multiple distractors use 余裕 naturally, and B also makes 十分 ambiguous between “sufficient” and “ten minutes.”"
+    },
+    {
+      "id": "N2_14_M1_32",
+      "selected": "A",
+      "reason": "Reducing application fields naturally lightens the administrative burden on users.",
+      "alternateDefensible": false,
+      "concern": "C’s 「荷物の負担」 is awkward and its causal link to lifting the load alone is unclear. D begins with a natural use of 負担 but ends with an incorrect particle pattern."
+    }
+  ],
+  "disagreementsAndUncertainties": [
+    "N2_14_M1_30: D is plausible under the compare sense of 見合わせる, even though B is the canonical and most natural option in this context.",
+    "N2_14_M1_31: A and D contain natural collocations with 余裕; their contradictions make them poor lexical distractors.",
+    "N2_14_M1_32: C is a borderline physical-load interpretation of 負担, but the complete sentence is awkward and does not clearly express a coherent situation."
+  ],
+  "limitations": "Review used only the learner-visible text and choices in the hash-verified packet. No answer key, source material, prior review, or native-speaker certification was used. This is an AI content review; subtle native-speaker judgments may differ.",
+  "publicationRedaction": {
+    "scope": "Replaced the machine-local absolute path only; reviewer judgments and packet fingerprint are unchanged.",
+    "sourceRawSha256": "022DCF3C1D43441AD7C7FDBE33865CD395C7882BDE672EE33C81265EB4EAFFF1",
+    "sourceRetainedLocally": "tmp/phase71_private_review_archive/PHASE_7_1_INDEPENDENT_REVIEW_RESPONSE_20261022_v2.original.json"
+  }
+}

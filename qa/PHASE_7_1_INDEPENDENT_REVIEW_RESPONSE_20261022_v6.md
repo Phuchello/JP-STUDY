@@ -1,0 +1,102 @@
+# Independent blind editorial review — Phase 7.1 packet v6
+
+Packet: PHASE_7_1_FRESH_REVIEW_PACKET_20261022_v6.json  
+Packet SHA-256: 7da03d691cc94c6f9cdbd5620ea57b1a1c4b9c49c8b046704a8114690b74d5ce
+
+## Scope and limitations
+
+I reviewed all 51 Reading items, all five STAR sentence-ordering items, and all five M14 Word Usage items (Q28–Q32), using only the learner-visible text, passages, stems, and options in the packet. The option letters below are my independent editorial selections, not author keys. I considered passage fit, Japanese usage and naturalness, distractor strength, and whether a second choice could reasonably be defended.
+
+This is an independent AI editorial review, not native-speaker certification. Japanese nuance judgments, especially on the noted Word Usage items, should be confirmed by a qualified Japanese-language editor before treating this as a language certification. I did not inspect source code, answer keys, explanations, other repository files, or prior review responses, and I used no external references.
+
+## Reading — N2-MOCK-11
+
+| Item | Best option | Editorial assessment |
+|---|---|---|
+| N2_11_M10_01 | D | The filename rule lets staff distinguish old from new before opening a file. A–C conflict with the described rule or its result; the match is clear. |
+| N2_11_M10_02 | B | Delivery conditions may differ, so a similar past amount cannot safely fill the unexplained field. The other choices contradict the passage or invent a decision; B is clear. |
+| N2_11_M10_03 | A | The passage asks staff to remove or blur identifying details before external sharing. B–D introduce goals not stated; A is uniquely supported. |
+| N2_11_M10_04 | A | Only the venue changed, and the correction prevents attendees from going to the old room. B–D add changes or actions the passage rules out. |
+| N2_11_M10_05 | A | The recorded unexpected work informs next month’s workload and staffing estimates. B contradicts the explicit non-evaluation purpose; C and D do not state the goal. |
+| N2_11_M11_01 | B | The table is expressly said to contain unfinished work, the next check date, and a contact. The other combinations do not match. |
+| N2_11_M11_02 | A | The passage says unupdated information becomes stale. The remaining choices contradict the stated workflow or privacy limit. |
+| N2_11_M11_03 | D | Exceptional cases receive a handoff meeting in addition to the table. The answer is explicit and the alternatives are contradicted. |
+| N2_11_M11_04 | A | Participants arriving without reading the material spend meeting time establishing the premises. The other options describe the later trial or unrelated measures. |
+| N2_11_M11_05 | C | Before the meeting, each person reads the material and writes one question. The other choices reverse or replace that preparation. |
+| N2_11_M11_06 | D | The passage links the page limit to avoiding excessive preparation and keeping the decision points accessible. The other choices misstate the purpose. |
+| N2_11_M11_07 | B | The passage directly says small failures are more likely to be hidden when people feel blamed for reporting them. Clear. |
+| N2_11_M11_08 | D | The first step is to check the facts and scope of impact. The alternatives reverse the sequence or put evaluation first. |
+| N2_11_M11_09 | C | The system distinguishes causes and fixes organizational problems that can be improved. A, B, and D conflict with explicit statements. |
+| N2_11_M13_01 | B | The company expands automation only after checking exceptions, new work, safety, and user effects as well as time savings. The other choices contradict those safeguards. |
+| N2_11_M13_02 | C | Combining survey results with interviews helps uncover response bias and reasons numbers alone cannot show. A, B, and D are ruled out. |
+| N2_11_M13_03 | B | The museum team sets a central message, explains retained specialist terms, and revises from multiple readers’ reactions while preserving factual support. The alternatives contradict this approach. |
+
+## Reading — N2-MOCK-12
+
+| Item | Best option | Editorial assessment |
+|---|---|---|
+| N2_12_M10_01 | D | The extension is intended for people who cannot come during regular hours. A–C conflict with the stated schedule or access conditions. The correct choice is clear, though it could state the Wednesday-to-7-p.m. detail more directly. |
+| N2_12_M10_02 | C | The east path is closed, while the west entrance and lawn remain available. Only C matches. |
+| N2_12_M10_03 | A | Donations go to the exchange center and must be unopened with at least a week before expiry. The other options violate the place, time, or condition. |
+| N2_12_M10_04 | B | The ticket validity is extended for the closure days, with no user procedure required. The other choices are contradicted. |
+| N2_12_M10_05 | B | The library’s departure time moves 15 minutes earlier; the district arrival schedule and stop durations are kept. The other choices are explicitly excluded. The phrase about adjusting local times while preserving the current schedule is slightly awkward and could be clearer. |
+| N2_12_M11_01 | C | Standardized discount labels make the discount amount easier to compare. The other choices describe effects or policies the passage rejects. |
+| N2_12_M11_02 | D | The passage explicitly says staff explanations became shorter. Clear. |
+| N2_12_M11_03 | C | Sales alone cannot establish waste reduction or user experience, so the city separates clarity of labels from food-loss outcomes. C states this distinction. |
+| N2_12_M11_04 | B | The former fixed-route bus incurred operating costs even on low-use days. The other choices invent circumstances or contradict the passage. |
+| N2_12_M11_05 | D | The town extended phone hours in response to complaints that reservations were hard to make. Clear. |
+| N2_12_M11_06 | D | The town weighs keeping needed time periods available alongside operating conditions and costs. A–C misstate its decision criteria. |
+| N2_12_M11_07 | D | The library revised the system to shorten waits for reserved books. The passage says average wait days fell after the change. |
+| N2_12_M11_08 | A | Demand varies by title and branch, making the number of copies to buy difficult to decide. The other choices contradict reported results or remaining information. |
+| N2_12_M11_09 | B | The passage combines lending, cancellations, wait times, and preferred pickup locations when adjusting holdings. The other choices omit relevant evidence. |
+| N2_12_M13_01 | D | The survey found faster downstream flow and fewer shallow fish spawning areas. The other choices are not the finding that prompted the review. |
+| N2_12_M13_02 | A | A small trial lets the city check concerns about vegetation maintenance and water levels. The alternatives contradict the trial’s stated purpose. |
+| N2_12_M13_03 | B | Residents’ observations inform design, while safety, cost, and ecological changes are considered together. A–D each omit or distort that combined assessment. |
+
+## Reading — N2-MOCK-13
+
+| Item | Best option | Editorial assessment |
+|---|---|---|
+| N2_13_M10_01 | C | Questions can be posted anonymously, and replies may take time because teachers respond twice weekly. The other choices contradict the stated limits. |
+| N2_13_M10_02 | A | The answers will inform next year’s e-book contract quantities. The other choices are explicitly disclaimed or unsupported. |
+| N2_13_M10_03 | B | Students must provide both the location of the error and the correct wording. The requirement is stated directly. |
+| N2_13_M10_04 | C | Saved headlines and summaries can be used for comparisons in class; full-text use follows database terms. Only C is supported. |
+| N2_13_M10_05 | D | Users can change notification days and times in settings. The other choices conflict with stated limits. |
+| N2_13_M11_01 | B | The evaluation favors accurate, evidence-based explanations that beginners can follow. B is the strongest paraphrase; its phrase “logical flow” is broader than the passage’s explicit criteria, so a closer wording would improve precision. |
+| N2_13_M11_02 | B | The university limits access duration to reduce the chance that exam questions spread. Clear. |
+| N2_13_M11_03 | A | The article distinguishes confirmed facts from unconfirmed information and retains unresolved points. The other choices conceal or replace that distinction. |
+| N2_13_M11_04 | B | Captions are useful support, but important content should also be checked against audio or handouts. Clear. |
+| N2_13_M11_05 | C | The change discourages competition over the amount recorded from displacing attention to learning and understanding. The other choices reverse the stated rationale. |
+| N2_13_M11_06 | A | The summary should be readable while preserving the research’s supported scope and limitations. The other choices contradict the passage. |
+| N2_13_M11_07 | D | The university names the file and destination and limits prompts to necessary decision points. The other choices conflict with the described design. |
+| N2_13_M11_08 | A | The new evaluation values evidence-based review and reconsideration over comment count. The other options misstate the process. |
+| N2_13_M11_09 | D | The university retains several consultation modes and investigates usability barriers. A–C contradict the passage’s stated policy. |
+| N2_13_M13_01 | B | The team first asks who should understand what. The passage quotes this question directly. |
+| N2_13_M13_02 | C | Non-specialist students identify places that are hard to understand on a first read. Clear. |
+| N2_13_M13_03 | C | The method foregrounds the central finding and its scope while providing access to supporting detail. The other choices reverse the stated approach. |
+
+## STAR — N2-MOCK-11
+
+| Item | Best option in ★ slot | Editorial assessment |
+|---|---|---|
+| N2_11_M8_01 | A | The natural order is B → C → A → D: “まず請求書の金額を注文記録と照合し、その結果、差があった場合は取引先に確認して修正案を作る.” A occupies the ★ slot. The sentence is coherent; no other ordering gives a comparably natural sequence. |
+| N2_11_M8_02 | C | A → B → C → D gives “結論を急ぐより根拠を確かめることのほうが大切だ.” This is grammatical and natural, with C in the ★ slot. |
+| N2_11_M8_03 | C | A → B → C → D gives “取引先への回答を急ぐより、まず社内で事実を確認する必要があると課長は説明した.” This fits the context and places C at ★. |
+| N2_11_M8_04 | D | A → B → D → C gives “申請書に記された数字が原本の記録と一致するかどうかを項目ごとに確かめ、違いがあれば申請者に確認する必要があると判断した.” This is the coherent grammatical ordering; D is at ★. |
+| N2_11_M8_05 | C | A → B → C → D gives “相手の立場を理解しようとする姿勢を保つことは必要だ.” It is natural and fits the context; C occupies ★. |
+
+## M14 Word Usage — N2-MOCK-14 Q28–Q32
+
+| Item | Best option | Editorial assessment |
+|---|---|---|
+| N2_14_M1_28 | C | 見込む naturally expresses anticipating a roughly ten-percent increase. A, B, and D use 見込む where 確認する, 踏まえる, or 参照する would fit better. The choice is clear. |
+| N2_14_M1_29 | A | 妥当 naturally describes a price judged reasonable after comparison. B–D state facts that undermine the judgment, making the intended contrast easy to eliminate by logic. A is the best use, though “複数の見積もりと効果を比べた” is slightly awkward; “見積額と期待される効果を比べた” would be more idiomatic. |
+| N2_14_M1_30 | B, with a wording concern | 見合わせる is idiomatic here in the sense of suspending train service. A and D would more naturally use 照合する or 踏まえる. C is a weaker distractor: 見合わせる can also mean compare, and a reader might infer an unstated comparison between the prior report and current figures. Because the sentence does not explicitly mark what is being compared, B is the only clearly idiomatic choice, but C should be checked by a Japanese-language editor for possible defensibility. |
+| N2_14_M1_31 | C | 時間に余裕をもって is a natural use of 余裕. A, B, and D each contradict their own stated budget, time, or seating facts, so the answer can be found through factual consistency without distinguishing the word’s lexical use. C is clear, but the distractors make this a weak test of usage. |
+| N2_14_M1_32 | A | 利用者の負担を軽くする is a natural collocation. B would require wording such as 交通費の支給を受ける; C and D misuse 負担. A is clear. |
+
+## Overall concerns
+
+The Reading answers are consistently aligned to the passages, and I found no Reading item with a genuinely defensible second answer. Several short-reading distractors are weak because they introduce unrelated actions or directly reverse one explicit sentence, which lowers discrimination while leaving the intended choice clear.
+
+The main item-specific wording concerns are N2_12_M10_05’s phrasing about adjusting arrival times while preserving the schedule, N2_13_M11_01’s broad paraphrase of the evaluation criteria, and N2_14_M1_29’s slightly awkward comparison phrase. M14 Q29 and Q31 rely heavily on contradictions within the options; Q31 in particular does not require much lexical discrimination. M14 Q30 has a possible secondary reading in C that merits native-speaker review.

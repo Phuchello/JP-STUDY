@@ -1,6 +1,26 @@
 {
-  "scope": "local Chromium candidate injection only; no active bank, remote site, audio, or live deployment",
+  "scope": "Local Chromium candidate injection only. Active bank and released JSON/JS were not modified; no live deployment, network content, or audio was tested or loaded.",
+  "baseCommit": "46fbd3bfcbbac6f56f8ce0263ce4d85b437c9316",
+  "localHeadDuringTest": "46fbd3bfcbbac6f56f8ce0263ce4d85b437c9316",
+  "browser": "Installed Google Chrome via Playwright launcher; headless",
   "syntheticResponses": true,
+  "candidateSourceSha256": {
+    "scripts/curriculum/phase_71_reading_repairs.py": "0b6f9b39b654c304ea8ec8c9a36f1fca8ad8ee0fcfe81cb9d4eaf28eef898fc3",
+    "scripts/curriculum/phase_71_reading_rationales.py": "a5f72e70a46a8774dc33ff04a113613d073d1846f4ea05021818cadf0b9132c1",
+    "scripts/curriculum/phase_71_star_repairs.py": "7b3347c56d3f6ee70c8cd0b4095c4fc1de3d34064a08295a1c9bddf44eb17fec",
+    "scripts/curriculum/bank_data/n2_mock_11_data.py": "8a7ea46cbed2112b54828244179643d898e87a9a82ea00935296e5affd2d0041",
+    "scripts/curriculum/bank_data/n2_mock_11_explanations_vi.py": "2f6b368a0651d74c7f31cae7874cfe501994e5e255475dc897c333f9d16b27e5",
+    "scripts/curriculum/bank_data/n2_mock_12_data.py": "9d9bc3371934870e8eecc8cd967b75b50e2fc8250c33babe6eb9d7c5723a0fc6",
+    "scripts/curriculum/bank_data/n2_mock_13_data.py": "6a2616900ed71697759101f2a0147d0ffa2d467fe616b7350ce934afca71a617",
+    "scripts/curriculum/bank_data/n2_mock_14_data.py": "99a4123c1e7156e11c78b76bbf7e4534a3e769f52a695061a4b653ead76124e1"
+  },
+  "candidateFixtureSha256": {
+    "tmp/phase7/candidate_e2e/n2_mock_11_candidate.json": "e9392e5b49ebd87c15428a0fc3c0dceb97b0513b3dc8e68e20cd52dff035c6ed",
+    "tmp/phase7/candidate_e2e/n2_mock_12_candidate.json": "366e657b7054f079aee0ecb2a99964cf0c253243a3fe8492929446073390b1ac",
+    "tmp/phase7/candidate_e2e/n2_mock_13_candidate.json": "ef4c9dfff1a3a1b8288f33508a27a5d34b3194639093540043c8a14df0292962",
+    "tmp/phase7/candidate_e2e/n2_mock_14_candidate.json": "2778c5d0062ef7bc90bf0c2946db94731f5102a50d4b474d66992d8081e9f40c"
+  },
+  "runnerSha256": "b31a8bb2ee1cb032e40095bda2e96f42cd4831ae23d815204231b06d7729b061",
   "results": [
     {
       "examId": "N2-MOCK-11",
@@ -11,12 +31,19 @@
       "unansweredCount": 1,
       "mistakeReviewCards": 75,
       "feedback": true,
+      "selectedWrongExplanationShown": true,
+      "feedbackQuestionId": "N2_11_M1_01",
+      "desktop": {
+        "width": 1280,
+        "documentWidth": 1280
+      },
       "mobile": {
         "width": 390,
         "documentWidth": 390,
         "optionCount": 4
       },
-      "pageErrors": 0
+      "pageErrors": 0,
+      "consoleErrors": 0
     },
     {
       "examId": "N2-MOCK-12",
@@ -27,12 +54,19 @@
       "unansweredCount": 1,
       "mistakeReviewCards": 75,
       "feedback": true,
+      "selectedWrongExplanationShown": true,
+      "feedbackQuestionId": "N2_12_M1_01",
+      "desktop": {
+        "width": 1280,
+        "documentWidth": 1280
+      },
       "mobile": {
         "width": 390,
         "documentWidth": 390,
         "optionCount": 4
       },
-      "pageErrors": 0
+      "pageErrors": 0,
+      "consoleErrors": 0
     },
     {
       "examId": "N2-MOCK-13",
@@ -43,12 +77,19 @@
       "unansweredCount": 1,
       "mistakeReviewCards": 75,
       "feedback": true,
+      "selectedWrongExplanationShown": true,
+      "feedbackQuestionId": "N2_13_M1_01",
+      "desktop": {
+        "width": 1280,
+        "documentWidth": 1280
+      },
       "mobile": {
         "width": 390,
         "documentWidth": 390,
         "optionCount": 4
       },
-      "pageErrors": 0
+      "pageErrors": 0,
+      "consoleErrors": 0
     },
     {
       "examId": "N2-MOCK-14",
@@ -59,30 +100,21 @@
       "unansweredCount": 1,
       "mistakeReviewCards": 75,
       "feedback": true,
+      "selectedWrongExplanationShown": true,
+      "feedbackQuestionId": "N2_14_M1_29",
+      "desktop": {
+        "width": 1280,
+        "documentWidth": 1280
+      },
       "mobile": {
         "width": 390,
         "documentWidth": 390,
         "optionCount": 4
       },
-      "pageErrors": 0
+      "pageErrors": 0,
+      "consoleErrors": 0
     }
   ],
-  "baseCommit": "c830f3a0c3759cca861be7b6125a6c440c7a0011",
-  "candidateSourceSha256": {
-    "scripts/curriculum/phase_71_reading_repairs.py": "8f57d83dba57021c3192b676a69de0613d4dae7ef7f75a70b2659b8b5a027237",
-    "scripts/curriculum/phase_71_star_repairs.py": "7b3347c56d3f6ee70c8cd0b4095c4fc1de3d34064a08295a1c9bddf44eb17fec",
-    "scripts/curriculum/bank_data/n2_mock_11_data.py": "2b73cb8d2b2d9ff51c59595b4f2deee2b9d90b98ec494f276434bd9173f04331",
-    "scripts/curriculum/bank_data/n2_mock_12_data.py": "9d9bc3371934870e8eecc8cd967b75b50e2fc8250c33babe6eb9d7c5723a0fc6",
-    "scripts/curriculum/bank_data/n2_mock_13_data.py": "6a2616900ed71697759101f2a0147d0ffa2d467fe616b7350ce934afca71a617",
-    "scripts/curriculum/bank_data/n2_mock_14_data.py": "ee06beda792d6ce12aa1047f9842ce25726470882749a45e37719aaf74826c87"
-  },
-  "candidateFixtureSha256": {
-    "tmp/phase7/candidate_e2e/n2_mock_11_candidate.json": "bc35a572428b42a38faf24c2503e095ece855ddbe63e8db7c0195df64c894a61",
-    "tmp/phase7/candidate_e2e/n2_mock_12_candidate.json": "174005aee00cc58ab83244918feaf5fa51b2799f3180f1f18f5043c7c7dc3527",
-    "tmp/phase7/candidate_e2e/n2_mock_13_candidate.json": "2a14e742ef02c012fa1edaee08d151b1bd8cf87e17ef3f037c79d4c701c968b9",
-    "tmp/phase7/candidate_e2e/n2_mock_14_candidate.json": "ddd4dbbf80202b4a28dfea5e82f6942b58c1451938222b8a63fd6c0987208d0d"
-  },
-  "runnerSha256": "02c9b16deb4e0cc1ca8b37ebb0bb48bc443270afa4f2cadb2a49c4b52e7f66ab",
-  "browser": "Installed Google Chrome, headless via Playwright",
-  "fixtureNotes": "M11-M13 retained their published listening section only to satisfy the local full-mock schema; M14 used an M13 listening-section fixture. Only Section 1 was launched; no listening audio was selected or played."
+  "generatedAt": "2026-10-22T14:08:04.581165+00:00",
+  "runnerPath": "tmp/phase7/candidate_e2e/phase71_candidate_e2e.cjs"
 }

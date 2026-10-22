@@ -54,7 +54,7 @@ EXPLANATIONS_VI = {
     "N2_11_M8_01": "Thứ tự là まず請求書の金額を → 注文記録と照合し → その結果、差があった場合は取引先に確認して → 修正案を作る. Sau bốn ô, よう指示した hoàn thành câu chỉ dẫn. Cụm ★ là vị trí thứ ba và chỉ kết quả sau khi đối chiếu.",
     "N2_11_M8_02": "結論を急ぐより根拠を確かめることのほうが大切だ tạo cấu trúc so sánh: kiểm tra căn cứ quan trọng hơn vội kết luận. Cụm ことのほうが đứng thứ ba.",
     "N2_11_M8_03": "Thứ tự là 取引先への回答を急ぐより → まず社内で事実を確認する → 必要があると → 課長は説明した. Câu nhấn mạnh việc xác minh trong nội bộ trước khi vội trả lời đối tác; cụm ★ 必要があると đứng ở ô thứ ba.",
-    "N2_11_M8_04": "Thứ tự là 申請書に記された数字と → 原本の数字を → 項目ごとに照合し → その結果、違いがある項目は申請者に確認する必要がある. Cụm thứ ba hoàn tất động từ 照合する trước khi nêu kết quả.",
+    "N2_11_M8_04": "Câu hoàn chỉnh là 申請書に記された数字が原本の記録と一致するかどうかを項目ごとに確かめ、違いがあれば申請者に確認する必要がある. 「申請書に記された数字が」 nêu chủ ngữ của 「一致するかどうか」; mệnh đề này kết thúc bằng 「を」 và làm đối tượng cho 「確かめる」. Cụm ★「項目ごとに確かめ、」 đứng ở vị trí thứ ba và nối sang bước xử lý sai khác.",
     "N2_11_M8_05": "Thứ tự là 相手の立場を → 理解しようとする → 姿勢を保つ → ことは必要だ. Cụm 姿勢を保つ hoàn thành ý “giữ thái độ cố gắng hiểu lập trường của đối phương” và đứng ở vị trí thứ ba.",
     "N2_11_M9_01": "というわけではない phủ định việc kết luận tuyệt đối rằng thông tin càng nhiều thì liên lạc càng tốt. Đoạn văn chuyển sang yêu cầu chọn thông tin người đọc thật sự cần.",
     "N2_11_M9_02": "とともに ở đây nối hai nội dung song song trong biên bản: ghi lại lý do của từng ý kiến và lưu cả mối lo cụ thể được nêu ra. ものの diễn tả nhượng bộ, còn に先立って nói về thứ tự trước sau; chúng không diễn đạt quan hệ bổ sung giữa hai mục cần lưu.",

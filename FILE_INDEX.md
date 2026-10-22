@@ -670,6 +670,16 @@ Snapshot 2026-10-22. VERIFIED is scoped verification, not JLPT certification. Hi
 | [qa/PHASE_7_1_CANDIDATE_E2E_REPORT.json](qa/PHASE_7_1_CANDIDATE_E2E_REPORT.json) | VERIFIED |
 | [qa/PHASE_7_1_CANDIDATE_REPAIR_QA.md](qa/PHASE_7_1_CANDIDATE_REPAIR_QA.md) | QA_PENDING |
 | [qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261022.json](qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261022.json) | QA_PENDING |
+| [qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261022_v2.json](qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261022_v2.json) | QA_PENDING |
+| [qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261022_v3.json](qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261022_v3.json) | QA_PENDING |
+| [qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261022_v4.json](qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261022_v4.json) | QA_PENDING |
+| [qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261022_v5.json](qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261022_v5.json) | QA_PENDING |
+| [qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261022_v6.json](qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261022_v6.json) | QA_PENDING |
+| [qa/PHASE_7_1_INDEPENDENT_REVIEW_RESPONSE_20261022_v2_PUBLIC_REDACTED.json](qa/PHASE_7_1_INDEPENDENT_REVIEW_RESPONSE_20261022_v2_PUBLIC_REDACTED.json) | VERIFIED |
+| [qa/PHASE_7_1_INDEPENDENT_REVIEW_RESPONSE_20261022_v3.md](qa/PHASE_7_1_INDEPENDENT_REVIEW_RESPONSE_20261022_v3.md) | VERIFIED |
+| [qa/PHASE_7_1_INDEPENDENT_REVIEW_RESPONSE_20261022_v4.md](qa/PHASE_7_1_INDEPENDENT_REVIEW_RESPONSE_20261022_v4.md) | VERIFIED |
+| [qa/PHASE_7_1_INDEPENDENT_REVIEW_RESPONSE_20261022_v5.md](qa/PHASE_7_1_INDEPENDENT_REVIEW_RESPONSE_20261022_v5.md) | VERIFIED |
+| [qa/PHASE_7_1_INDEPENDENT_REVIEW_RESPONSE_20261022_v6.md](qa/PHASE_7_1_INDEPENDENT_REVIEW_RESPONSE_20261022_v6.md) | VERIFIED |
 | [qa/PHASE_7_COVERAGE_MATRIX.md](qa/PHASE_7_COVERAGE_MATRIX.md) | VERIFIED |
 | [qa/PRACTICE_RELEASE_GATE.md](qa/PRACTICE_RELEASE_GATE.md) | VERIFIED |
 | [qa/PUBLICATION_QA.md](qa/PUBLICATION_QA.md) | VERIFIED |
@@ -1025,6 +1035,7 @@ Snapshot 2026-10-22. VERIFIED is scoped verification, not JLPT certification. Hi
 | [scripts/curriculum/export_n2_mock_11_final_blind.py](scripts/curriculum/export_n2_mock_11_final_blind.py) | DRAFT |
 | [scripts/curriculum/export_n2_mock_12_final_blind.py](scripts/curriculum/export_n2_mock_12_final_blind.py) | QA_PENDING |
 | [scripts/curriculum/export_n2_mock_13_final_blind.py](scripts/curriculum/export_n2_mock_13_final_blind.py) | DRAFT |
+| [scripts/curriculum/export_phase_71_candidate_packet.py](scripts/curriculum/export_phase_71_candidate_packet.py) | DRAFT |
 | [scripts/curriculum/export_pilot_payload.py](scripts/curriculum/export_pilot_payload.py) | QA_PENDING |
 | [scripts/curriculum/generate_m04_blind_reviews.py](scripts/curriculum/generate_m04_blind_reviews.py) | QA_PENDING |
 | [scripts/curriculum/generate_m05_blind_reviews.py](scripts/curriculum/generate_m05_blind_reviews.py) | QA_PENDING |
@@ -1054,6 +1065,7 @@ Snapshot 2026-10-22. VERIFIED is scoped verification, not JLPT certification. Hi
 | [scripts/curriculum/normalize_n2_mock_09_blind_reviews.py](scripts/curriculum/normalize_n2_mock_09_blind_reviews.py) | VERIFIED |
 | [scripts/curriculum/normalize_n2_mock_10_blind_reviews.py](scripts/curriculum/normalize_n2_mock_10_blind_reviews.py) | VERIFIED |
 | [scripts/curriculum/phase_61_option_remapping.py](scripts/curriculum/phase_61_option_remapping.py) | VERIFIED |
+| [scripts/curriculum/phase_71_reading_rationales.py](scripts/curriculum/phase_71_reading_rationales.py) | DRAFT |
 | [scripts/curriculum/phase_71_reading_repairs.py](scripts/curriculum/phase_71_reading_repairs.py) | DRAFT |
 | [scripts/curriculum/phase_71_star_repairs.py](scripts/curriculum/phase_71_star_repairs.py) | DRAFT |
 | [scripts/curriculum/prepare_phase_61_remapping_manifest.py](scripts/curriculum/prepare_phase_61_remapping_manifest.py) | VERIFIED |

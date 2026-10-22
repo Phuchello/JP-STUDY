@@ -7,6 +7,11 @@ authoring candidates from the tracked source banks.
 """
 from __future__ import annotations
 
+from scripts.curriculum.phase_71_reading_rationales import (
+    DISTRACTOR_RATIONALES,
+    validate_distractor_rationales,
+)
+
 
 PATCHES = {
     # M11 short reading: add a real workplace context and plausible competing
@@ -31,24 +36,24 @@ PATCHES = {
         "passage": "社内研修の録画を、後日、社外の参加者にも共有することになった。映像には講師の説明だけでなく、画面共有に映った社員名や通知も残っている。講師は、個人が特定される場面を切るかぼかし、内容を確認してから共有するよう依頼した。研修の説明自体は残し、公開前に個人情報だけを点検する手順にした。",
         "stem": "講師が名前の映る場面を共有前に処理するよう求めた主な理由は何か。",
         "correctText": "個人が特定される情報を社外に公開しないため",
-        "distractors": ["動画の再生時間を短くするため", "研修内容を別のテーマに変更するため", "字幕の誤りをすべて自動修正するため"],
-        "distractorRationales": ["編集対象は個人が映る部分で、再生時間の短縮は目的ではありません。", "講師は説明を削除せず、研修内容を残すようにしています。", "字幕や自動修正について本文に記述はありません。"],
+        "distractors": ["社外向けの映像を一定の長さに整えるため", "研修の説明を外部向けに全面的に書き換えるため", "社員名の読み方を字幕で補足し、視聴者に正確に伝えるため"],
+        "distractorRationales": ["編集する場面は社員名や通知が映る箇所です。動画の長さを一定にする作業は本文の目的ではありません。", "講師は研修の説明自体を残すよう依頼しています。内容を全面的に書き換える話ではありません。", "名前は字幕で補うのではなく、切るかぼかして個人を特定できないようにします。"],
         "explanationVi": "Video sẽ được chia sẻ ra ngoài công ty. Tên nhân viên và thông báo hiện trên màn hình có thể nhận diện cá nhân, nên cần che hoặc cắt chúng trước khi phát hành; nội dung đào tạo vẫn được giữ lại.",
     },
     "N2_11_M10_04": {
         "passage": "会議の参加希望が増え、総務担当者は全員が入れる別の部屋に変更した。最初の案内はすでに送ってあり、何人かは旧会場の情報を保存していた。そこで総務は、時間と議題は変えず、会場だけを訂正した案内を再送した。古い情報のまま来て会議に遅れる人を防ぐためである。",
         "stem": "担当者が訂正版を再送した狙いは何か。",
         "correctText": "旧会場へ行ってしまう参加者を防ぐこと",
-        "distractors": ["参加希望者を減らして部屋を小さくすること", "会議の開始時刻と議題を変更すること", "予約した部屋を取り消して会議を中止すること"],
-        "distractorRationales": ["部屋は参加者全員が入れる場所へ変更したとあります。", "時間と議題は変更していないと明記されています。", "会議は中止ではなく、新しい会場で行う予定です。"],
+        "distractors": ["参加希望者が増えたことを知らせ、追加の申込みを受けること", "会場変更に合わせ、開始時刻と議題も更新して伝えること", "新しい会場の定員に合わせ、参加者数を再調整すること"],
+        "distractorRationales": ["参加希望者を募り直すとは書かれていません。再送の直接の理由は、旧会場の情報を持つ人が間違った場所へ行くのを防ぐことです。", "本文では時間と議題は変更しないと明記されています。訂正するのは会場情報だけです。", "総務は希望者全員が入れる部屋へ変更しています。参加者を減らす手続きや再調整には触れていません。"],
         "explanationVi": "Thông báo đầu tiên còn ghi phòng cũ và một số người đã lưu lại. Gửi bản sửa giúp họ không đến nhầm địa điểm và bị trễ cuộc họp; giờ họp và nội dung vẫn giữ nguyên.",
     },
     "N2_11_M10_05": {
         "passage": "毎週の報告では予定作業の時間だけでなく、急な問い合わせや手直しに使った時間も記録することにした。予定外の作業は月によって差があり、計画時の見積もりから漏れやすい。担当者はこの記録を翌月の業務量や人員の予測に使うが、個人の処理速度を評価する目的には使わない。",
         "stem": "予定外の対応時間を記録する主な目的は何か。",
         "correctText": "次月の業務量や必要な人員を現実に近く見積もるため",
-        "distractors": ["個人ごとの作業速度を順位づけるため", "報告書に記載するページ数を増やすため", "予定外の仕事がなくなったと証明するため"],
-        "distractorRationales": ["本文では個人の処理速度の評価には使わないと明記しています。", "記録は次月の見積もりに使うもので、報告書を長くする目的ではありません。", "急な作業は月ごとに発生すると説明されています。"],
+        "distractors": ["予定外の対応にかかった時間を、担当者ごとの人事評価に反映するため", "翌月にも起きる急な仕事をなくす手順を決めるため", "計画した作業と突発的な対応を、別々の報告欄で管理するため"],
+        "distractorRationales": ["時間の記録は個人の処理速度を評価する目的には使わないと本文で区別しています。", "記録の目的は次月の業務量や人員の見積もりです。突発的な仕事をなくす方法を決めるとは書かれていません。", "本文は両方の時間を記録すると述べていますが、欄を分けることは目的として示していません。"],
         "explanationVi": "Việc phát sinh thay đổi theo từng tháng và dễ bị bỏ sót khi lập kế hoạch. Ghi cả thời gian đó giúp dự báo khối lượng công việc và nhân lực tháng sau sát thực tế hơn; không dùng để xếp hạng tốc độ cá nhân.",
     },
     # M11 long reading: build the reasoning chain and ask for synthesis rather
@@ -218,15 +223,15 @@ QUESTION_REVISIONS = {
         "explanationVi": "Con số trước đây chỉ giống về bề ngoài; điều kiện giao hàng có thể khác. Người phụ trách xác minh trước khi dùng số chưa rõ căn cứ, chứ không xác nhận điều kiện giống nhau hay quyết định hủy giao dịch.",
     },
     "N2_11_M10_03": {
-        "optionsById": {"A": "個人が特定される情報を社外に公開しないため", "B": "社外共有用に動画の長さを一定にするため", "C": "研修の説明を削除し、社員名だけを残すため", "D": "画面に映った社員名の読み方を字幕に加えるため"},
+        "optionsById": {"A": "個人が特定される情報を社外に公開しないため", "B": "社外向けの映像を一定の長さに整えるため", "C": "研修の説明を外部向けに全面的に書き換えるため", "D": "社員名の読み方を字幕で補足し、視聴者に正確に伝えるため"},
         "explanationVi": "Vì video được chia sẻ ra ngoài công ty, tên và thông báo có thể nhận diện nhân viên nên cần cắt hoặc làm mờ. Nội dung đào tạo vẫn được giữ lại; độ dài và cách đọc tên không phải lý do.",
     },
     "N2_11_M10_04": {
-        "optionsById": {"A": "旧会場の情報で参加者が遅れるのを防ぐこと", "B": "開始時刻と議題も変更したと知らせること", "C": "参加者を減らして小さい部屋に戻すこと", "D": "会議を中止し、予約を取り消したと伝えること"},
+        "optionsById": {"A": "旧会場の情報で参加者が遅れるのを防ぐこと", "B": "参加希望者が増えたことを知らせ、追加の申込みを受けること", "C": "会場変更に合わせ、開始時刻と議題も更新して伝えること", "D": "新しい会場の定員に合わせ、参加者数を再調整すること"},
         "explanationVi": "Một số người đã lưu thông báo cũ; gửi bản đính chính để họ đến đúng phòng. Giờ và chương trình không đổi, cuộc họp cũng không bị hủy.",
     },
     "N2_11_M10_05": {
-        "optionsById": {"A": "次月の業務量や必要な人員を現実に近く見積もるため", "B": "担当者ごとの処理速度を比較するため", "C": "予定外の仕事を翌月には発生させないと示すため", "D": "計画に含めるのは予定作業だけにするため"},
+        "optionsById": {"A": "次月の業務量や必要な人員を現実に近く見積もるため", "B": "予定外の対応にかかった時間を、担当者ごとの人事評価に反映するため", "C": "翌月にも起きる急な仕事をなくす手順を決めるため", "D": "計画した作業と突発的な対応を、別々の報告欄で管理するため"},
         "explanationVi": "Ghi cả thời gian phát sinh giúp dự báo khối lượng và nhân lực tháng sau sát thực tế. Bài đọc loại trừ việc xếp hạng cá nhân; việc ghi chép không thể chứng minh rằng tháng sau sẽ không có việc phát sinh.",
     },
     "N2_11_M11_01": {
@@ -319,15 +324,15 @@ QUESTION_REVISIONS = {
         "explanationVi": "Số lượt mượn không cho biết vì sao người đọc hủy đặt hoặc muốn nhận sách ở chi nhánh nào. Vì vậy thư viện kết hợp số liệu mượn, hủy đặt, thời gian chờ và ý kiến người dùng.",
     },
     "N2_12_M13_01": {
-        "optionsById": {"A": "下流の流れが遅くなり、魚の産卵場所が増えた", "B": "住民の要望を受け、環境団体が工事の中止を決めた", "C": "草刈り費用が下がり、植物を残す必要がなくなった", "D": "下流の流れが速まり、魚の産卵場所が減っていた"},
+        "optionsById": {"A": "護岸工事の結果、避難範囲が広がり、住民から水位を保つよう求められた", "B": "市が住民の要望を受け、環境団体に工事中止の判断を任せた", "C": "草刈り費用が予想より下がり、植物を残す必要がなくなった", "D": "下流の流れが速まり、魚の産卵場所が減っていた"},
         "explanationVi": "Khảo sát cho thấy dòng chảy phía hạ lưu nhanh hơn và bãi cạn nơi cá đẻ trứng bị thu hẹp; đó là kết quả khiến thành phố xem lại kế hoạch. Ý kiến cư dân và nhóm môi trường là phần tranh luận sau đó.",
     },
     "N2_12_M13_02": {
-        "optionsById": {"A": "草刈りや水位に関する懸念を、小さな区間で確かめるため", "B": "環境面の効果だけで本格工事の範囲を直ちに決めるため", "C": "観察会を行わず、住民の意見を集めないため", "D": "維持費だけを比べ、環境や安全面は調べないため"},
+        "optionsById": {"A": "草刈りや水位に関する懸念を、小さな区間で確かめるため", "B": "本工事の効果を早く確認するため、試験結果を待たずに全区間へ広げる", "C": "草刈りの費用だけを比べ、生態系や安全性は試験対象にしない", "D": "市民の観察会を開かず、専門家の測定だけで案を決める"},
         "explanationVi": "Thử nghiệm quy mô nhỏ giúp kiểm tra thực tế lo ngại về cỏ, tầm nhìn và mực nước trước khi quyết định phạm vi công trình. Thành phố vẫn đánh giá cả an toàn, chi phí và hệ sinh thái.",
     },
     "N2_12_M13_03": {
-        "optionsById": {"A": "観察結果は参考にとどめ、設計には反映しない", "B": "住民の記録も用いるが、複数の基準を合わせて評価する", "C": "参加人数が多ければ、計画の安全性も証明される", "D": "専門家の測定より、住民の印象だけを優先する"},
+        "optionsById": {"A": "住民の記録を設計に取り入れるが、安全性や維持費の評価とは切り離す", "B": "住民の記録も用いるが、複数の基準を合わせて評価する", "C": "参加人数の多さを基準に、案の安全性を判断する", "D": "専門家の測定と住民の観察のうち、人数の多い側の意見を採用する"},
         "explanationVi": "Quan sát của cư dân được đưa vào thiết kế, nhưng số người tham gia không tự chứng minh phương án an toàn. Thành phố đặt ý kiến tại chỗ cạnh số liệu chuyên gia và đánh giá nhiều tiêu chí.",
     },
     "N2_13_M10_03": {
@@ -336,7 +341,7 @@ QUESTION_REVISIONS = {
     },
     "N2_13_M11_03": {
         "stem": "読者が情報の確かさを判断できるよう、編集部が記事で明らかにしていることは何か。",
-        "optionsById": {"A": "確認できた事実と、まだ確認できていない情報の違い", "B": "話題になった投稿はすべて事実だという判断", "C": "食い違う資料の一方を削除した理由", "D": "投稿者の発言を編集部が作り直した内容"},
+        "optionsById": {"A": "確認できた事実と、まだ確認できていない情報の違い", "B": "投稿が広く共有されているかどうかを、事実確認の代わりに示すこと", "C": "確認できなかった点を記事から外し、確定した内容だけに整理した経緯", "D": "投稿の表現を編集部が要約し、発信者に代わって見解を示した内容"},
         "explanationVi": "Ban biên tập tách điều đã xác minh khỏi điều còn chưa rõ để độc giả tự đánh giá mức đáng tin. Họ giữ dấu vết về nguồn và sai khác, không xóa đi hay tự viết lại phát biểu.",
     },
     "N2_13_M11_07": {
@@ -345,15 +350,15 @@ QUESTION_REVISIONS = {
         "explanationVi": "Đại học hiển thị cụ thể nơi nộp và tên tệp ở các điểm quan trọng, đồng thời không lặp cảnh báo không cần thiết. Cách này vừa giúp ngăn gửi nhầm vừa tránh tạo quá nhiều thao tác.",
     },
     "N2_13_M11_08": {
-        "optionsById": {"A": "コメント数より、根拠を考えて論文を読み直す過程を重視する", "B": "短いコメントを全て禁止し、長さだけで評価する", "C": "指摘を受けたら、理由にかかわらず必ず採用させる", "D": "学生同士のコメントを使わず、教員だけで読む"},
+        "optionsById": {"A": "コメント数より、根拠を考えて論文を読み直す過程を重視する", "B": "コメントの長さや資料の数をそろえ、形式面の統一を評価する", "C": "指摘を受けた学生が、理由を問わず修正を採用したかを見る", "D": "教員が論文を先に修正し、学生同士のコメントを省く"},
         "explanationVi": "Nhóm chuyển từ đếm bình luận sang xem người viết có nêu căn cứ và đọc lại để cân nhắc hay không. Người nhận không buộc phải làm theo mọi góp ý; điều quan trọng là quá trình đánh giá có lý do.",
     },
     "N2_13_M11_09": {
-        "optionsById": {"A": "履歴を残したくない人には相談を受け付けない", "B": "オンラインだけに集約し、他の方法をなくす", "C": "利用件数が増えれば、問題が解決したと判断する", "D": "異なる事情に合わせて複数の相談方法を残し、使いにくさも調べる"},
+        "optionsById": {"A": "履歴が残る心配がある人には、相談窓口を案内しない", "B": "オンラインの利用が増えたら、電話と対面を縮小する", "C": "相談方法ごとの利用件数だけで配置を決め、匿名の意見は使わない", "D": "異なる事情に合わせて複数の相談方法を残し、使いにくさも調べる"},
         "explanationVi": "Sinh viên gặp những trở ngại khác nhau với viết trực tuyến hoặc chia sẻ thiết bị. Đại học giữ cả điện thoại và gặp trực tiếp, đồng thời hỏi ẩn danh về điểm hữu ích và khó dùng.",
     },
     "N2_13_M13_03": {
-        "optionsById": {"A": "詳しい研究方法をすべて中心の文章に載せる", "B": "限界や不確実性は読み手が混乱するので省く", "C": "中心となる知見と適用範囲を示し、詳しい根拠へ進めるようにする", "D": "専門家以外には研究成果を伝えない"},
+        "optionsById": {"A": "方法と限界を中心の文章にすべて集め、追加資料のページは設けない", "B": "専門用語を言い換えれば、対象や条件の制約は説明しなくてよい", "C": "中心となる知見と適用範囲を示し、詳しい根拠へ進めるようにする", "D": "専門家以外の読み手には見せず、正確性を研究者だけで確認する"},
         "explanationVi": "Mục tiêu là giúp người đọc nắm ý chính và phạm vi áp dụng, rồi có thể mở phần phương pháp/tài liệu chi tiết. Bài đọc không yêu cầu đưa mọi chi tiết vào phần chính hay xóa giới hạn nghiên cứu.",
     },
 }
@@ -446,9 +451,19 @@ def apply_phase_71_reading_repairs(items):
         if "explanationVi" in revision:
             item["explanation"] = revision["explanationVi"]
             item["explanationVi"] = revision["explanationVi"]
-            if "optionsById" in revision:
-                item["distractorExplanations"] = {
-                    option["id"]: f"Phương án «{option['text']}» không phù hợp với bài đọc. {revision['explanationVi']}"
-                    for option in item["options"] if option["id"] != item["correctAnswer"]
-                }
+    applicable_revisions = {
+        qid: revision for qid, revision in revisions.items()
+        if qid in DISTRACTOR_RATIONALES
+    }
+    for qid in applicable_revisions:
+        item = by_id[qid]
+        item["distractorExplanations"] = {
+            option_id: record[1]
+            for option_id, record in DISTRACTOR_RATIONALES[qid].items()
+        }
+    rationale_errors = validate_distractor_rationales(
+        [by_id[qid] for qid in applicable_revisions], applicable_revisions
+    )
+    if rationale_errors:
+        raise ValueError("Phase 7.1 distractor rationale validation failed: " + "; ".join(rationale_errors))
     return items
