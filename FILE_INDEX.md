@@ -658,6 +658,7 @@ Snapshot 2026-10-22. VERIFIED is scoped verification, not JLPT certification. Hi
 | [qa/N2_MOCK_13_INDEPENDENT_AUDIT_REPORT.md](qa/N2_MOCK_13_INDEPENDENT_AUDIT_REPORT.md) | VERIFIED |
 | [qa/N2_MOCK_13_LIVE_DEPLOYMENT_RECEIPT.json](qa/N2_MOCK_13_LIVE_DEPLOYMENT_RECEIPT.json) | VERIFIED |
 | [qa/N2_MOCK_13_ORIGINALITY_AUDIT.json](qa/N2_MOCK_13_ORIGINALITY_AUDIT.json) | VERIFIED |
+| [qa/N2_MOCK_14_DRAFT_QA.json](qa/N2_MOCK_14_DRAFT_QA.json) | DRAFT |
 | [qa/PHASE_6_1_AUDIO_VERIFICATION.json](qa/PHASE_6_1_AUDIO_VERIFICATION.json) | VERIFIED |
 | [qa/PHASE_6_1_CONTENT_QUALITY_REPORT.json](qa/PHASE_6_1_CONTENT_QUALITY_REPORT.json) | QA_PENDING |
 | [qa/PHASE_6_1_LIVE_DEPLOYMENT_RECEIPT.json](qa/PHASE_6_1_LIVE_DEPLOYMENT_RECEIPT.json) | VERIFIED |
@@ -976,6 +977,9 @@ Snapshot 2026-10-22. VERIFIED is scoped verification, not JLPT certification. Hi
 | [scripts/curriculum/bank_data/n2_mock_13_data.py](scripts/curriculum/bank_data/n2_mock_13_data.py) | DRAFT |
 | [scripts/curriculum/bank_data/n2_mock_13_explanations_vi.py](scripts/curriculum/bank_data/n2_mock_13_explanations_vi.py) | DRAFT |
 | [scripts/curriculum/bank_data/n2_mock_13_listening.py](scripts/curriculum/bank_data/n2_mock_13_listening.py) | DRAFT |
+| [scripts/curriculum/bank_data/n2_mock_14_data.py](scripts/curriculum/bank_data/n2_mock_14_data.py) | DRAFT |
+| [scripts/curriculum/bank_data/n2_mock_14_explanations_vi.py](scripts/curriculum/bank_data/n2_mock_14_explanations_vi.py) | DRAFT |
+| [scripts/curriculum/bank_data/n2_mock_14_listening.py](scripts/curriculum/bank_data/n2_mock_14_listening.py) | DRAFT |
 | [scripts/curriculum/bank_data/n2_reading_listening.py](scripts/curriculum/bank_data/n2_reading_listening.py) | QA_PENDING |
 | [scripts/curriculum/bank_data/n3_data.py](scripts/curriculum/bank_data/n3_data.py) | QA_PENDING |
 | [scripts/curriculum/bank_data/n3_reading_listening.py](scripts/curriculum/bank_data/n3_reading_listening.py) | QA_PENDING |
@@ -994,6 +998,7 @@ Snapshot 2026-10-22. VERIFIED is scoped verification, not JLPT certification. Hi
 | [scripts/curriculum/build_full_mock_n2_11.py](scripts/curriculum/build_full_mock_n2_11.py) | DRAFT |
 | [scripts/curriculum/build_full_mock_n2_12.py](scripts/curriculum/build_full_mock_n2_12.py) | QA_PENDING |
 | [scripts/curriculum/build_full_mock_n2_13.py](scripts/curriculum/build_full_mock_n2_13.py) | DRAFT |
+| [scripts/curriculum/build_full_mock_n2_14.py](scripts/curriculum/build_full_mock_n2_14.py) | DRAFT |
 | [scripts/curriculum/build_mock_system.py](scripts/curriculum/build_mock_system.py) | QA_PENDING |
 | [scripts/curriculum/build_n2_mock_08_star_permutation_audit.py](scripts/curriculum/build_n2_mock_08_star_permutation_audit.py) | QA_PENDING |
 | [scripts/curriculum/build_practice_sets.py](scripts/curriculum/build_practice_sets.py) | VERIFIED |
@@ -1031,6 +1036,7 @@ Snapshot 2026-10-22. VERIFIED is scoped verification, not JLPT certification. Hi
 | [scripts/curriculum/generate_n2_mock_11_audio.py](scripts/curriculum/generate_n2_mock_11_audio.py) | DRAFT |
 | [scripts/curriculum/generate_n2_mock_12_audio.py](scripts/curriculum/generate_n2_mock_12_audio.py) | QA_PENDING |
 | [scripts/curriculum/generate_n2_mock_13_audio.py](scripts/curriculum/generate_n2_mock_13_audio.py) | DRAFT |
+| [scripts/curriculum/generate_n2_mock_14_audio.py](scripts/curriculum/generate_n2_mock_14_audio.py) | DRAFT |
 | [scripts/curriculum/generate_ncr.py](scripts/curriculum/generate_ncr.py) | QA_PENDING |
 | [scripts/curriculum/generate_practice_release_gate.py](scripts/curriculum/generate_practice_release_gate.py) | VERIFIED |
 | [scripts/curriculum/generate_unlimited_practice_bank.py](scripts/curriculum/generate_unlimited_practice_bank.py) | QA_PENDING |
@@ -1106,6 +1112,7 @@ Snapshot 2026-10-22. VERIFIED is scoped verification, not JLPT certification. Hi
 | [scripts/tests/test_n2_mock_12_e2e.cjs](scripts/tests/test_n2_mock_12_e2e.cjs) | QA_PENDING |
 | [scripts/tests/test_n2_mock_12_release_guards.py](scripts/tests/test_n2_mock_12_release_guards.py) | QA_PENDING |
 | [scripts/tests/test_n2_mock_13_e2e.cjs](scripts/tests/test_n2_mock_13_e2e.cjs) | VERIFIED |
+| [scripts/tests/test_n2_mock_14_draft_authoring.py](scripts/tests/test_n2_mock_14_draft_authoring.py) | VERIFIED |
 | [scripts/tests/test_phase_61_content_quality.py](scripts/tests/test_phase_61_content_quality.py) | VERIFIED |
 | [scripts/tests/test_phase_61_runtime_semantics.cjs](scripts/tests/test_phase_61_runtime_semantics.cjs) | VERIFIED |
 | [scripts/tests/test_practice_engine_bank.py](scripts/tests/test_practice_engine_bank.py) | QA_PENDING |

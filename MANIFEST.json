@@ -1,8 +1,8 @@
 {
   "snapshotDate": "2026-10-22",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
-  "fileCountExcludingManifest": 1130,
-  "totalBytesExcludingManifest": 175180326,
+  "fileCountExcludingManifest": 1137,
+  "totalBytesExcludingManifest": 175272933,
   "files": [
     {
       "path": ".gitattributes",
@@ -456,8 +456,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 39343,
-      "sha256": "3873f99d8b9d9ee0047013838c41700ad38f9c0f450d60e598021fa8ef2b1d64",
+      "bytes": 40548,
+      "sha256": "1c41ae6777d89c87fa240b86806b39cbd84ac11704c869d9c2780a01949f1f25",
       "status": "VERIFIED"
     },
     {
@@ -3372,8 +3372,8 @@
     },
     {
       "path": "FILE_INDEX.md",
-      "bytes": 112266,
-      "sha256": "870c5a32297c9a4e2f7a4eb37dca5e8f6bfa0a9831a0e493403c5e6479ddf245",
+      "bytes": 113032,
+      "sha256": "74334ee5ecf740d5f619edc169e3f569e79ce32bfd3807154cf0395d5ac8b024",
       "status": "VERIFIED"
     },
     {
@@ -3408,8 +3408,8 @@
     },
     {
       "path": "PROJECT_STATUS.md",
-      "bytes": 50448,
-      "sha256": "51677f40c229fcd8de496bab4d3bcea4d0bf69ff3705bb32f7423cdff04e528d",
+      "bytes": 51413,
+      "sha256": "d0c6993a1f632aa98a0e331f0b283a6324ab86367b1d78a18eadb88163401898",
       "status": "VERIFIED"
     },
     {
@@ -3894,8 +3894,8 @@
     },
     {
       "path": "qa/CI_QA_SUMMARY.json",
-      "bytes": 9318,
-      "sha256": "9083cee732ad0c1ca89258e42edd8bc353671ae77b5c0afae27b85d90e24fb97",
+      "bytes": 9012,
+      "sha256": "160c93a798003a492cf8131a65feb6202441d79a3d3b8b7e1b207f0e4e98197e",
       "status": "VERIFIED"
     },
     {
@@ -3966,8 +3966,8 @@
     },
     {
       "path": "qa/file_status.json",
-      "bytes": 33740,
-      "sha256": "afdc5d0e16d8e7566cd991134a35bbc00c81e05f45d47870a9679b2234e87496",
+      "bytes": 34175,
+      "sha256": "7b2bafdf544f10c85b5be9159154aeae1e4534c7f750f81d6c92fbba370c677b",
       "status": "VERIFIED"
     },
     {
@@ -4701,6 +4701,12 @@
       "bytes": 11050,
       "sha256": "5dabd757b6b691942dc8f488cb16d6dc89119993f4721ca5291d68de2cf996ec",
       "status": "VERIFIED"
+    },
+    {
+      "path": "qa/N2_MOCK_14_DRAFT_QA.json",
+      "bytes": 2806,
+      "sha256": "7278c56651c7e92ef52fa5db3357ea0679e4a0f8059cc88841355f02b2d04e3c",
+      "status": "DRAFT"
     },
     {
       "path": "qa/PHASE_6_1_AUDIO_VERIFICATION.json",
@@ -5825,6 +5831,24 @@
       "status": "DRAFT"
     },
     {
+      "path": "scripts/curriculum/bank_data/n2_mock_14_data.py",
+      "bytes": 41633,
+      "sha256": "60d88f176cf83a0dacf78175c72be0a0fbfe80ee35f0b3c25c255f4ef32155dc",
+      "status": "DRAFT"
+    },
+    {
+      "path": "scripts/curriculum/bank_data/n2_mock_14_explanations_vi.py",
+      "bytes": 11971,
+      "sha256": "ab317d7c61348faf628c7170ad19b1cc9e1313e3828effea4daa4cc5a4e3c624",
+      "status": "DRAFT"
+    },
+    {
+      "path": "scripts/curriculum/bank_data/n2_mock_14_listening.py",
+      "bytes": 25535,
+      "sha256": "20856540eec75bdea9880b4bf76dc68ff778544be253514c225cc2c4eb60ceed",
+      "status": "DRAFT"
+    },
+    {
       "path": "scripts/curriculum/bank_data/n2_reading_listening.py",
       "bytes": 99041,
       "sha256": "e0cd16343984f56c1d2ac7f49af56e51955afae9b3bae4d6651e166a300df402",
@@ -5930,6 +5954,12 @@
       "path": "scripts/curriculum/build_full_mock_n2_13.py",
       "bytes": 5434,
       "sha256": "80239037a03f9297f4415bab464e0025b4f29c4a53abc0cc099541f7b9f94e89",
+      "status": "DRAFT"
+    },
+    {
+      "path": "scripts/curriculum/build_full_mock_n2_14.py",
+      "bytes": 3169,
+      "sha256": "246ff1071010fa2abb7420a3cb3f58b03674ec50f65e50de07fd73d69a6ffc60",
       "status": "DRAFT"
     },
     {
@@ -6152,6 +6182,12 @@
       "path": "scripts/curriculum/generate_n2_mock_13_audio.py",
       "bytes": 2627,
       "sha256": "3df569cac2c45b18a7cdc0d66474c1ec06102c97281bc88772d619f051ce818e",
+      "status": "DRAFT"
+    },
+    {
+      "path": "scripts/curriculum/generate_n2_mock_14_audio.py",
+      "bytes": 1406,
+      "sha256": "2c76f290496836e5274361af560a314fe747de5df1007828b3063f85099bf2ca",
       "status": "DRAFT"
     },
     {
@@ -6608,6 +6644,12 @@
       "path": "scripts/tests/test_n2_mock_13_e2e.cjs",
       "bytes": 9733,
       "sha256": "4e7b9e7403263c0197bcc1e5ee2231078683f57e9320af54f43ea399a155267f",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "scripts/tests/test_n2_mock_14_draft_authoring.py",
+      "bytes": 3022,
+      "sha256": "c0104eed54a2c5b835dd85d88616a2cfebfa1ebe44e474867f14e6513e3a52ed",
       "status": "VERIFIED"
     },
     {

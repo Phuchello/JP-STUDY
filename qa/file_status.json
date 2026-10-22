@@ -582,5 +582,12 @@
   "scripts/tests/test_private_review_raw_binding.py": "VERIFIED",
   "scripts/curriculum/validate_mock_uniqueness.py": "VERIFIED",
   "scripts/tests/test_mock_uniqueness_signatures.py": "VERIFIED",
-  "qa/N2_MOCK_13_LIVE_DEPLOYMENT_RECEIPT.json": "VERIFIED"
+  "qa/N2_MOCK_13_LIVE_DEPLOYMENT_RECEIPT.json": "VERIFIED",
+  "scripts/curriculum/bank_data/n2_mock_14_data.py": "DRAFT",
+  "scripts/curriculum/bank_data/n2_mock_14_listening.py": "DRAFT",
+  "scripts/curriculum/bank_data/n2_mock_14_explanations_vi.py": "DRAFT",
+  "scripts/curriculum/build_full_mock_n2_14.py": "DRAFT",
+  "scripts/curriculum/generate_n2_mock_14_audio.py": "DRAFT",
+  "scripts/tests/test_n2_mock_14_draft_authoring.py": "VERIFIED",
+  "qa/N2_MOCK_14_DRAFT_QA.json": "DRAFT"
 }

@@ -1,0 +1,85 @@
+{
+  "examId": "N2-MOCK-14",
+  "status": "DRAFT_NOT_FOR_RELEASE",
+  "scope": "Local authoring and structural checks only",
+  "draftPayload": "tmp/phase7/n2_mock_14_draft.json (ignored local file)",
+  "questionCounts": {
+    "section1": 75,
+    "listeningScripts": 30,
+    "total": 105,
+    "vietnameseExplanationsValidated": 105
+  },
+  "section1TypeCounts": {
+    "N2-MO-READ": 5,
+    "N2-MO-ORTH": 5,
+    "N2-MO-FORM": 5,
+    "N2-MO-CONT": 7,
+    "N2-MO-PARA": 5,
+    "N2-MO-USE": 5,
+    "N2-GR-FORM": 12,
+    "N2-GR-STAR": 5,
+    "N2-GR-PARA": 5,
+    "N2-RD-SHORT": 5,
+    "N2-RD-MED": 9,
+    "N2-RD-PAIR": 2,
+    "N2-RD-LONG": 3,
+    "N2-RD-INFO": 2
+  },
+  "listeningTypeCounts": {
+    "N2-LIS-TASK": 5,
+    "N2-LIS-POINT": 6,
+    "N2-LIS-SUMM": 5,
+    "N2-LIS-RESP": 11,
+    "N2-LIS-INTEG": 3
+  },
+  "section1AnswerDistribution": {
+    "A": 19,
+    "B": 21,
+    "C": 20,
+    "D": 15
+  },
+  "longestSameAnswerRun": 4,
+  "sharedChecks": {
+    "fullMockBlueprint": "PASS",
+    "uniqueIdsAndDistinctChoices": "PASS",
+    "validAnswerBindings": "PASS",
+    "vietnameseExplanationValidation": "PASS",
+    "answerLetterReferenceValidation": "PASS",
+    "starFragmentIntegrity": "PASS",
+    "answerPatternCheck": "PASS",
+    "focusedDraftTests": "3/3 PASS",
+    "fullRegressionSuite": "209/209 PASS"
+  },
+  "exactPriorOverlapAgainstN2Mocks01To13": {
+    "readingPassages": 0,
+    "listeningScripts": 0,
+    "completeOptionSets": 0
+  },
+  "review": {
+    "independentCurrentVersionReview": "NOT_YET_AVAILABLE",
+    "nativeSpeakerReview": "NOT_PERFORMED",
+    "psychometricCalibration": "NOT_PERFORMED"
+  },
+  "audio": {
+    "mp3Generated": 0,
+    "mp3Required": 30,
+    "ttsProviderAuthorization": "M14_SCOPED_REQUEST_PENDING",
+    "audioPlaybackQa": "NOT_PERFORMED"
+  },
+  "integrationAndRelease": {
+    "mockBankIntegrated": false,
+    "catalogPublished": false,
+    "publicPagesRelease": false
+  },
+  "knownConcerns": [
+    "Five N2-MO-USE items have distractors that are too easy or insufficiently natural; revise before content review and release.",
+    "No independent reviewer has evaluated the current M14 version.",
+    "Listening answer-to-audio alignment, MP3 decoding, hashes, duration, and browser playback remain unverified because no audio was generated."
+  ],
+  "nextActions": [
+    "Improve the five Usage items and repeat the content checks.",
+    "Obtain independent review of the sealed, key-isolated current version; preserve raw evidence without claiming attestation that is not available.",
+    "After M14-specific TTS authorization, generate 30 tracks and verify actual bytes, manifest, decoding, durations, spoken-choice order, and Chromium playback.",
+    "Run integration and browser regression checks, then use the normal gated release only after all required evidence passes."
+  ]
+}

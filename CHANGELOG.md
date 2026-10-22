@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-22 — Phase 7 N2-MOCK-14 authoring checkpoint (draft only)
+
+- Authored 75 Section 1 items and 30 original Listening scripts for a comprehensive challenge mock, with 105 learner-facing Vietnamese explanations. The local draft passes shared blueprint, STAR, answer-reference, localization, and answer-pattern checks; 3 focused draft tests and the full 209-test suite pass. Exact comparisons against N2-MOCK-01–13 found no repeated reading passage, Listening script, or complete option set.
+- The structure follows the official [JLPT N2 test sections and item categories](https://www.jlpt.jp/e/guideline/testsections.html): 105 minutes for Language Knowledge/Reading and 50 minutes for Listening. The repository’s exact 75/30 count is a practice blueprint, not an official JLPT question-count requirement.
+- This remains `IN_DEVELOPMENT`: no MP3s or independent current-version review exist, and nothing is integrated into the public bank or catalog. Five Usage items still need more plausible distractors. See [`qa/N2_MOCK_14_DRAFT_QA.json`](qa/N2_MOCK_14_DRAFT_QA.json); continue with distractor repair, independent review, then audio after the M14-specific TTS authorization is answered.
+
 ## 2026-10-22 — Phase 7 N2-MOCK-13 production checkpoint
 
 - Completed the original Education, Media & Technology practice mock with 75 Section 1 questions, 30 Listening questions, and 105 Vietnamese explanations. The Section 1 answer distribution is A15/B21/C20/D19; the longest same-letter run is 3 and the five STAR keys are `ACDBB`.
