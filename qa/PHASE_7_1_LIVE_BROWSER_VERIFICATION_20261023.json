@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-10-23",
+  "repository": "Phuchello/JP-STUDY",
+  "commitSha": "dcb737f059ffa8caa3530ec44eecdd215d9a1d90",
+  "workflow": {
+    "runNumber": 45,
+    "runId": 39971096214,
+    "url": "https://github.com/Phuchello/JP-STUDY/actions/runs/39971096214",
+    "contentQaConclusion": "success",
+    "pagesDeploymentConclusion": "success",
+    "blindIntegrityStep": "success",
+    "m11M12M13StrictGates": "success",
+    "candidateReadingFeedbackChromium": "success",
+    "releasedListeningAudioChromium": "success"
+  },
+  "liveBrowser": {
+    "catalogUrl": "https://phuchello.github.io/JP-STUDY/widgets/jlpt_exam_catalog.html",
+    "activeMocks": "N2-MOCK-01 through N2-MOCK-13",
+    "m14": "visible as an in-development card with a disabled control; no launch link",
+    "m15": "visible as a disabled in-development catalog placeholder; no new mock content was started",
+    "readingRoutes": [
+      {
+        "mockId": "N2-MOCK-11",
+        "questionId": "N2_11_M10_01",
+        "questionPosition": "55/75",
+        "routeLoaded": true,
+        "passageAndOptionsVisible": true,
+        "answerOrExplanationVisibleBeforeSubmission": false
+      },
+      {
+        "mockId": "N2-MOCK-12",
+        "questionId": "N2_12_M11_01",
+        "questionPosition": "60/75",
+        "routeLoaded": true,
+        "passageAndOptionsVisible": true,
+        "answerOrExplanationVisibleBeforeSubmission": false
+      },
+      {
+        "mockId": "N2-MOCK-13",
+        "questionId": "N2_13_M11_01",
+        "questionPosition": "60/75",
+        "routeLoaded": true,
+        "passageAndOptionsVisible": true,
+        "answerOrExplanationVisibleBeforeSubmission": false
+      }
+    ],
+    "m11StarItems": [
+      {"questionId": "N2_11_M8_01", "questionPosition": "45/75", "fourSlotsDisplayed": true, "fourFragmentsDisplayed": true},
+      {"questionId": "N2_11_M8_02", "questionPosition": "46/75", "fourSlotsDisplayed": true, "fourFragmentsDisplayed": true},
+      {"questionId": "N2_11_M8_03", "questionPosition": "47/75", "fourSlotsDisplayed": true, "fourFragmentsDisplayed": true},
+      {"questionId": "N2_11_M8_04", "questionPosition": "48/75", "fourSlotsDisplayed": true, "fourFragmentsDisplayed": true},
+      {"questionId": "N2_11_M8_05", "questionPosition": "49/75", "fourSlotsDisplayed": true, "fourFragmentsDisplayed": true}
+    ],
+    "listeningSample": {
+      "mockId": "N2-MOCK-11",
+      "questionId": "N2_11_M1_L01",
+      "durationSeconds": 35.584,
+      "playerEnteredPlayingState": true
+    },
+    "liveSubmission": {
+      "performed": false,
+      "reason": "Submitting on the existing learner browser writes attempt/mistake state to localStorage. No learner history was changed. The exact-commit hosted Chromium feedback test passed; a separate shell-launched browser could not resolve the public host in this network-restricted environment, and no DNS workaround was used."
+    }
+  },
+  "scopeLimit": "Live learner-visible routes and one listening player were checked in the browser. Post-submission feedback was verified by local and hosted Chromium E2E for this commit, not by submitting in the user's existing browser profile. No answer key, learner data, TTS content, or private audio was transmitted."
+}

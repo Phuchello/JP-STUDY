@@ -1,8 +1,8 @@
 {
   "snapshotDate": "2026-10-23",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
-  "fileCountExcludingManifest": 1203,
-  "totalBytesExcludingManifest": 180257190,
+  "fileCountExcludingManifest": 1204,
+  "totalBytesExcludingManifest": 180263486,
   "files": [
     {
       "path": ".gitattributes",
@@ -3372,8 +3372,8 @@
     },
     {
       "path": "FILE_INDEX.md",
-      "bytes": 121134,
-      "sha256": "ecf0d176b47e818b610bb01eacf4683c3bb46d14b4f5c78aece52af7051db8b3",
+      "bytes": 121260,
+      "sha256": "3cf802b978221cf6fc76f85b7419fccc3b6dc4f0e966de6b02e698e07b017307",
       "status": "VERIFIED"
     },
     {
@@ -3408,8 +3408,8 @@
     },
     {
       "path": "PROJECT_STATUS.md",
-      "bytes": 56951,
-      "sha256": "97a79f0a26c7156724fe3d44860f65473fc4170ec14b59489e76476416b8cd62",
+      "bytes": 57813,
+      "sha256": "840186c6fb3ff631e897acfb2b64f55c5cb625ab8687a95049d32f2368a5725a",
       "status": "VERIFIED"
     },
     {
@@ -4854,8 +4854,8 @@
     },
     {
       "path": "qa/PHASE_7_1_CI_EVIDENCE_RECONCILIATION_20261023.md",
-      "bytes": 8967,
-      "sha256": "e9b66e95fb8dd457c15fc8117dae2d23f4bb68cee48168321486ed2b1531aff4",
+      "bytes": 11028,
+      "sha256": "8c74904153ec9e5f760848699a69bb1d5d1ab55bec3996df45cf21a938c9cf77",
       "status": "QA_PENDING"
     },
     {
@@ -5037,6 +5037,12 @@
       "bytes": 13586,
       "sha256": "dd7be49427875f5dcdb7c946d47bc03b9ca5e1a146e34e814fddd3f5c2414331",
       "status": "VERIFIED"
+    },
+    {
+      "path": "qa/PHASE_7_1_LIVE_BROWSER_VERIFICATION_20261023.json",
+      "bytes": 3247,
+      "sha256": "d4bcd1d14c28fd898a8b5dc15cde65e25afb2572bffd24259a64a220885bae2f",
+      "status": "QA_PENDING"
     },
     {
       "path": "qa/PHASE_7_1_M11_CURRENT_DELTA_PACKET_20261023_v1.json",
