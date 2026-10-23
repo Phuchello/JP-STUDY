@@ -1,4 +1,14 @@
-# Trạng thái dự án — 22/10/2026
+# Trạng thái dự án — 23/10/2026
+
+### Phase 7.1 — final closure (candidate-only; Track A BLOCKED)
+
+- Starting local `HEAD` and GitHub `main`: `312b5b39f8e1d3d06548e6945a6b7f4ee7365b15`. Final closure evidence: [`qa/PHASE_7_1_FINAL_CLOSURE_20261023.md`](qa/PHASE_7_1_FINAL_CLOSURE_20261023.md). GitHub API verified the starting SHA; local fetch was unavailable due DNS. No published exam JSON/JS, active-bank representation, or audio was changed.
+- The final clean M14 Q29–31 packet and raw AI response are fingerprint-bound in [`qa/PHASE_7_1_FINAL_REVIEW_PROVENANCE_20261023.json`](qa/PHASE_7_1_FINAL_REVIEW_PROVENANCE_20261023.json). The reviewer selected A/B/A. Q31's Vietnamese distractor rationales are now bound to the correct shuffled options. This remains AI editorial QA, not native-speaker certification.
+- Audited all 51 M11–M13 Reading items; current candidate has 36 revision mappings and 108 exact-option-bound Vietnamese distractor rationales. M12 Q05 wording and M13 Q13 evaluation criteria received focused follow-up. All five M11 STAR items pass 24 permutations each; the duplicated invoice scenario is gone. Local synthetic candidate Chromium feedback checks passed for `N2_11_M10_01`, `N2_12_M11_01`, and `N2_13_M11_01` on desktop and 390px mobile. This is not live-site verification.
+- Latest base hosted CI at `312b5b3` passed 210 unittest tests; after the final rationale binding repair, local runs passed 217 pytest cases plus 131 subtests, 212 unittest tests, and focused 11 tests plus 131 subtests. Current-version 105-row candidate review receipts are still absent and M11's existing validator is pinned to review layers 5–8, so Track A remains **BLOCKED** and unpublished.
+- M14 content is **READY_FOR_NEXT_GATE**; public release remains **BLOCKED** until TTS authorization provenance and public audio redistribution rights are documented. No TTS, audio generation, public M14 payload, or M15 work.
+
+### Historical status — 22/10/2026
 
 ### Phase 7.1 — candidate content QA (QA_PENDING; release gate BLOCKED)
 

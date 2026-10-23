@@ -1,6 +1,6 @@
 # File index
 
-Snapshot 2026-10-22. VERIFIED is scoped verification, not JLPT certification. Historical QA describes its original checkpoint; DRAFT source scripts are not supported release commands. New files default to QA_PENDING until reviewed in qa/file_status.json.
+Snapshot 2026-10-23. VERIFIED is scoped verification, not JLPT certification. Historical QA describes its original checkpoint; DRAFT source scripts are not supported release commands. New files default to QA_PENDING until reviewed in qa/file_status.json.
 
 | File | Status |
 |---|---|
@@ -669,17 +669,30 @@ Snapshot 2026-10-22. VERIFIED is scoped verification, not JLPT certification. Hi
 | [qa/PHASE_6_1_RUNTIME_SEMANTICS_REPORT.json](qa/PHASE_6_1_RUNTIME_SEMANTICS_REPORT.json) | VERIFIED |
 | [qa/PHASE_7_1_CANDIDATE_E2E_REPORT.json](qa/PHASE_7_1_CANDIDATE_E2E_REPORT.json) | VERIFIED |
 | [qa/PHASE_7_1_CANDIDATE_REPAIR_QA.md](qa/PHASE_7_1_CANDIDATE_REPAIR_QA.md) | QA_PENDING |
+| [qa/PHASE_7_1_FINAL_CLOSURE_20261023.md](qa/PHASE_7_1_FINAL_CLOSURE_20261023.md) | VERIFIED |
+| [qa/PHASE_7_1_FINAL_REVIEW_PROVENANCE_20261023.json](qa/PHASE_7_1_FINAL_REVIEW_PROVENANCE_20261023.json) | VERIFIED |
 | [qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261022.json](qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261022.json) | QA_PENDING |
 | [qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261022_v2.json](qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261022_v2.json) | QA_PENDING |
 | [qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261022_v3.json](qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261022_v3.json) | QA_PENDING |
 | [qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261022_v4.json](qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261022_v4.json) | QA_PENDING |
 | [qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261022_v5.json](qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261022_v5.json) | QA_PENDING |
 | [qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261022_v6.json](qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261022_v6.json) | QA_PENDING |
+| [qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261023_v10.json](qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261023_v10.json) | QA_PENDING |
+| [qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261023_v11.json](qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261023_v11.json) | VERIFIED |
+| [qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261023_v7.json](qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261023_v7.json) | VERIFIED |
+| [qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261023_v8.json](qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261023_v8.json) | VERIFIED |
+| [qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261023_v9.json](qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261023_v9.json) | VERIFIED |
+| [qa/PHASE_7_1_FRESH_REVIEW_RAW_20261023_v10.md](qa/PHASE_7_1_FRESH_REVIEW_RAW_20261023_v10.md) | QA_PENDING |
+| [qa/PHASE_7_1_FRESH_REVIEW_RAW_20261023_v11.md](qa/PHASE_7_1_FRESH_REVIEW_RAW_20261023_v11.md) | VERIFIED |
+| [qa/PHASE_7_1_FRESH_REVIEW_RAW_20261023_v7.md](qa/PHASE_7_1_FRESH_REVIEW_RAW_20261023_v7.md) | VERIFIED |
+| [qa/PHASE_7_1_FRESH_REVIEW_RAW_20261023_v8.md](qa/PHASE_7_1_FRESH_REVIEW_RAW_20261023_v8.md) | VERIFIED |
+| [qa/PHASE_7_1_FRESH_REVIEW_RAW_20261023_v9.md](qa/PHASE_7_1_FRESH_REVIEW_RAW_20261023_v9.md) | VERIFIED |
 | [qa/PHASE_7_1_INDEPENDENT_REVIEW_RESPONSE_20261022_v2_PUBLIC_REDACTED.json](qa/PHASE_7_1_INDEPENDENT_REVIEW_RESPONSE_20261022_v2_PUBLIC_REDACTED.json) | VERIFIED |
 | [qa/PHASE_7_1_INDEPENDENT_REVIEW_RESPONSE_20261022_v3.md](qa/PHASE_7_1_INDEPENDENT_REVIEW_RESPONSE_20261022_v3.md) | VERIFIED |
 | [qa/PHASE_7_1_INDEPENDENT_REVIEW_RESPONSE_20261022_v4.md](qa/PHASE_7_1_INDEPENDENT_REVIEW_RESPONSE_20261022_v4.md) | VERIFIED |
 | [qa/PHASE_7_1_INDEPENDENT_REVIEW_RESPONSE_20261022_v5.md](qa/PHASE_7_1_INDEPENDENT_REVIEW_RESPONSE_20261022_v5.md) | VERIFIED |
 | [qa/PHASE_7_1_INDEPENDENT_REVIEW_RESPONSE_20261022_v6.md](qa/PHASE_7_1_INDEPENDENT_REVIEW_RESPONSE_20261022_v6.md) | VERIFIED |
+| [qa/PHASE_7_1_READING_FEEDBACK_E2E_20261023.json](qa/PHASE_7_1_READING_FEEDBACK_E2E_20261023.json) | VERIFIED |
 | [qa/PHASE_7_COVERAGE_MATRIX.md](qa/PHASE_7_COVERAGE_MATRIX.md) | VERIFIED |
 | [qa/PRACTICE_RELEASE_GATE.md](qa/PRACTICE_RELEASE_GATE.md) | VERIFIED |
 | [qa/PUBLICATION_QA.md](qa/PUBLICATION_QA.md) | VERIFIED |
@@ -1035,7 +1048,9 @@ Snapshot 2026-10-22. VERIFIED is scoped verification, not JLPT certification. Hi
 | [scripts/curriculum/export_n2_mock_11_final_blind.py](scripts/curriculum/export_n2_mock_11_final_blind.py) | DRAFT |
 | [scripts/curriculum/export_n2_mock_12_final_blind.py](scripts/curriculum/export_n2_mock_12_final_blind.py) | QA_PENDING |
 | [scripts/curriculum/export_n2_mock_13_final_blind.py](scripts/curriculum/export_n2_mock_13_final_blind.py) | DRAFT |
+| [scripts/curriculum/export_phase_71_candidate_browser_fixtures.py](scripts/curriculum/export_phase_71_candidate_browser_fixtures.py) | DRAFT |
 | [scripts/curriculum/export_phase_71_candidate_packet.py](scripts/curriculum/export_phase_71_candidate_packet.py) | DRAFT |
+| [scripts/curriculum/export_phase_71_final_delta_packet.py](scripts/curriculum/export_phase_71_final_delta_packet.py) | DRAFT |
 | [scripts/curriculum/export_pilot_payload.py](scripts/curriculum/export_pilot_payload.py) | QA_PENDING |
 | [scripts/curriculum/generate_m04_blind_reviews.py](scripts/curriculum/generate_m04_blind_reviews.py) | QA_PENDING |
 | [scripts/curriculum/generate_m05_blind_reviews.py](scripts/curriculum/generate_m05_blind_reviews.py) | QA_PENDING |
@@ -1136,6 +1151,7 @@ Snapshot 2026-10-22. VERIFIED is scoped verification, not JLPT certification. Hi
 | [scripts/tests/test_phase_61_content_quality.py](scripts/tests/test_phase_61_content_quality.py) | VERIFIED |
 | [scripts/tests/test_phase_61_runtime_semantics.cjs](scripts/tests/test_phase_61_runtime_semantics.cjs) | VERIFIED |
 | [scripts/tests/test_phase_71_candidate_content.py](scripts/tests/test_phase_71_candidate_content.py) | VERIFIED |
+| [scripts/tests/test_phase_71_candidate_reading_feedback.cjs](scripts/tests/test_phase_71_candidate_reading_feedback.cjs) | VERIFIED |
 | [scripts/tests/test_practice_engine_bank.py](scripts/tests/test_practice_engine_bank.py) | QA_PENDING |
 | [scripts/tests/test_preview.cjs](scripts/tests/test_preview.cjs) | VERIFIED |
 | [scripts/tests/test_private_review_raw_binding.py](scripts/tests/test_private_review_raw_binding.py) | VERIFIED |

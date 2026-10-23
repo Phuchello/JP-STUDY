@@ -111,6 +111,11 @@ jobs:
           npx playwright install chromium --with-deps
           node scripts/tests/smoke_browser_e2e.cjs
 
+      - name: Verify Phase 7.1 revised Reading feedback in Chromium
+        run: |
+          python scripts/curriculum/export_phase_71_candidate_browser_fixtures.py
+          node scripts/tests/test_phase_71_candidate_reading_feedback.cjs
+
       - name: Run N2-MOCK-07 browser regression
         run: node scripts/tests/test_n2_mock_07_e2e.cjs
 

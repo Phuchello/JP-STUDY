@@ -101,14 +101,14 @@ PATCHES = {
         "explanationVi": "Hồ bơi đóng cửa từ ngày 20 đến 22, mở lại ngày 23; lớp học được chuyển sang ngày 25. Hạn vé vào cửa kéo dài theo số ngày không sử dụng và người mua không cần làm thủ tục.",
     },
     "N2_12_M10_05": {
-        "passage": "移動図書館は、道路工事に合わせ、来月から山側の三地区を回る順番を変える。道路事情を避けるため図書館の出発時刻は十五分早めるが、各地区での到着時刻と滞在時間は調整して現在の予定を保つ。新しい巡回順は停車場所の掲示と市の案内で確認できる。",
-        "explanationVi": "Thứ tự đi qua ba khu vực thay đổi, còn giờ đến và thời gian dừng được điều chỉnh để giữ như hiện tại. Chỉ giờ xe rời thư viện sớm hơn 15 phút; thứ tự mới có trên thông báo.",
+        "passage": "移動図書館は、道路工事に合わせ、来月から山側の三地区を回る順番を変える。迂回で移動時間が延びても各地区の到着予定時刻を保てるよう、図書館の出発時刻をこれまでより十五分早める。各地区での滞在時間は変えない。新しい巡回順は停車場所の掲示と市の案内で確認できる。",
+        "explanationVi": "Xe thư viện đổi thứ tự đi qua ba khu vực. Vì đường vòng làm thời gian di chuyển dài hơn, xe xuất phát sớm hơn 15 phút để giữ giờ đến dự kiến; thời gian dừng tại mỗi khu vực không đổi.",
     },
     # M13 medium reading: expand each compact text with relevant cause,
     # limitation, or counter-consideration; preserve the existing keyed task.
     "N2_13_M11_01": {
         "passage": "大学の授業で、学生が作った解説動画を教材として使う試みが始まった。動画は教員の説明を置き換えるものではなく、初めて学ぶ人が疑問を整理し、授業で質問しやすくするために用いる。公開前には別の学生が出典や説明の順序も確かめ、誤りがあれば制作者と相談して直す。再生回数を競わせると、目立つ演出や短さが優先され、内容の正確さが後回しになる恐れがある。そのため、評価では、初学者が要点を追えるか、根拠を示して説明しているかを中心に見ることにした。",
-        "explanationVi": "Video chỉ hỗ trợ người mới sắp xếp thắc mắc chứ không thay bài giảng. Vì lượt xem có thể khuyến khích trình diễn hơn nội dung, nhóm đánh giá độ chính xác và mạch giải thích, đồng thời kiểm tra nguồn trước khi đăng.",
+        "explanationVi": "Video hỗ trợ người mới sắp xếp câu hỏi; nhóm đánh giá người học có theo được ý chính và phần giải thích có nêu căn cứ hay không. Chạy theo lượt xem có thể khiến trình diễn hoặc độ ngắn lấn át nội dung.",
     },
     "N2_13_M11_02": {
         "passage": "ある大学は、授業録画を希望者だけに公開していたが、学生から「どこに何があるか分かりにくい」と意見が出た。そこで、動画に章見出しを付け、授業資料から該当箇所へ移動できるリンクを設けた。一方、映像の公開期間を延ばす要望には応じず、試験問題が外部に広がる可能性を避けるため、学期末から二週間後に視聴できなくする方針を維持した。大学は、探しやすさの改善と閲覧範囲の管理は別々に考える必要があるとして、録画を教材として残す期間を長くする案は採用しなかった。",
@@ -360,6 +360,15 @@ QUESTION_REVISIONS = {
     "N2_13_M13_03": {
         "optionsById": {"A": "方法と限界を中心の文章にすべて集め、追加資料のページは設けない", "B": "専門用語を言い換えれば、対象や条件の制約は説明しなくてよい", "C": "中心となる知見と適用範囲を示し、詳しい根拠へ進めるようにする", "D": "専門家以外の読み手には見せず、正確性を研究者だけで確認する"},
         "explanationVi": "Mục tiêu là giúp người đọc nắm ý chính và phạm vi áp dụng, rồi có thể mở phần phương pháp/tài liệu chi tiết. Bài đọc không yêu cầu đưa mọi chi tiết vào phần chính hay xóa giới hạn nghiên cứu.",
+    },
+    "N2_13_M11_01": {
+        "optionsById": {
+            "A": "再生回数と視聴時間",
+            "B": "初学者が要点を追えるか、根拠を示して説明しているか",
+            "C": "編集技術の新しさ",
+            "D": "教員の説明をどれだけ短くできたか",
+        },
+        "explanationVi": "Video được đánh giá dựa trên việc người mới có theo được các ý chính và phần giải thích có nêu căn cứ hay không. Đếm lượt xem hoặc rút ngắn bài giảng không phải tiêu chí nêu trong bài.",
     },
 }
 

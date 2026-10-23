@@ -158,6 +158,11 @@ DISTRACTOR_RATIONALES = {
         "C": ("正しい表現だけを書き、字幕の位置は示さない", "Chỉ có cách viết đúng sẽ không cho biết câu phụ đề nào cần kiểm tra; biểu mẫu yêu cầu cả vị trí."),
         "D": ("訂正予定日が表示されるまで報告を待つ", "Sinh viên có thể báo lỗi ngay. Ngày dự kiến chỉ được hiển thị nếu việc xác minh và sửa cần thêm thời gian."),
     },
+    "N2_13_M11_01": {
+        "A": ("再生回数と視聴時間", "Bài đọc nêu nguy cơ chạy theo lượt xem khiến phần trình diễn nổi bật hơn nội dung. Vì vậy số lượt xem và thời lượng xem không phải tiêu chí đánh giá được chọn."),
+        "C": ("編集技術の新しさ", "Bài đọc không đánh giá video theo kỹ thuật dựng mới hay cũ. Tiêu chí được nêu là người mới theo được ý chính và lời giải thích có căn cứ."),
+        "D": ("教員の説明をどれだけ短くできたか", "Video được dùng để hỗ trợ người mới đặt câu hỏi, không thay thế phần giảng của giáo viên. Độ ngắn của bài giảng không phải tiêu chí đánh giá video."),
+    },
     "N2_13_M11_03": {
         "B": ("投稿が広く共有されているかどうかを、事実確認の代わりに示すこと", "Độ lan truyền không chứng minh tính đúng. Biên tập viên kiểm tra người đăng, thời gian, địa điểm, ảnh và nguồn độc lập."),
         "C": ("確認できなかった点を記事から外し、確定した内容だけに整理した経緯", "Bài yêu cầu giữ cả điểm chưa xác nhận và chênh lệch giữa tài liệu để độc giả tự đánh giá; không xóa chúng khỏi dấu vết bài viết."),

@@ -1,5 +1,7 @@
 # Phase 7.1 — candidate content audit and release gate
 
+> Historical snapshot from 2026-10-22. Its counts, starting SHA, and release concerns describe that checkpoint. The final 2026-10-23 findings and current gate decision are in [`PHASE_7_1_FINAL_CLOSURE_20261023.md`](PHASE_7_1_FINAL_CLOSURE_20261023.md); this historical record is preserved unchanged below.
+
 **Snapshot:** 2026-10-22
 **Starting `HEAD` / verified remote `main`:** `46fbd3bfcbbac6f56f8ce0263ce4d85b437c9316`
 **Gate:** **BLOCKED — candidate only; not approved for release**

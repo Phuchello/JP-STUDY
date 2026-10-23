@@ -1,0 +1,155 @@
+{
+  "scope": "Local Chromium; candidate injection with synthetic responses only; no published bank, public-site content, audio, or learner records changed.",
+  "browser": "Playwright Chromium headless",
+  "fixtureSource": "scripts/curriculum/export_phase_71_candidate_browser_fixtures.py",
+  "generatedAt": "2026-10-23T11:16:30.842Z",
+  "sourceSha256": {
+    "scripts/curriculum/phase_71_reading_repairs.py": "5244fc2a1b0b1cdbeeb96d7f6e1448930f3ff0d88eba1a7d83d7b2a975ecfb50",
+    "scripts/curriculum/phase_71_reading_rationales.py": "cf66451dcf2c1bb9a482988a7a91427ceed1ec9902f78b8295abed127a2a2109",
+    "scripts/curriculum/bank_data/n2_mock_11_data.py": "8a7ea46cbed2112b54828244179643d898e87a9a82ea00935296e5affd2d0041",
+    "scripts/curriculum/bank_data/n2_mock_12_data.py": "9d9bc3371934870e8eecc8cd967b75b50e2fc8250c33babe6eb9d7c5723a0fc6",
+    "scripts/curriculum/bank_data/n2_mock_13_data.py": "6a2616900ed71697759101f2a0147d0ffa2d467fe616b7350ce934afca71a617"
+  },
+  "fixtureSha256": {
+    "tmp/phase7/candidate_e2e/n2_mock_11_candidate.json": "c64e43909398f19e139bfb3916ef6573c396760d17270df2ebd89ff6e4cbc278",
+    "tmp/phase7/candidate_e2e/n2_mock_12_candidate.json": "8b2fcf922c6258246b820d3df3f207fa6ced6805073b3337a04ec37c1b3e2d42",
+    "tmp/phase7/candidate_e2e/n2_mock_13_candidate.json": "574be40c9ce975930ca89cc265026efaf5ee56114d93027d264bf6d358e774ea"
+  },
+  "runnerSha256": "1eca7fa78b1fa71b250468530825f60074fb9bff26fc09006ea002054c27ee95",
+  "syntheticResponses": true,
+  "allPassed": true,
+  "results": [
+    {
+      "examId": "N2-MOCK-11",
+      "questionId": "N2_11_M10_01",
+      "selectedWrongOptionId": "A",
+      "otherWrongOptionId": "B",
+      "correctOptionId": "D",
+      "selectedExplanationSha256": "34e63c1eaf06971b2f7e7e8d9bbd50a64f64a238b48c09e175320e9941b16271",
+      "otherExplanationSha256": "b959a3ea96b2b1927370a56bdbf8d84638de12199446fefacbd8b0550499d994",
+      "generalExplanationSha256": "04fe616550ebd9f44b8f38428610383c991027c4b143c8174c5b11e146a77565",
+      "beforeSubmit": {
+        "visibleText": "Câu 55 / 75\n⏱️ 105:00\nNộp bài ngay\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50\n51\n52\n53\n54\n55\n56\n57\n58\n59\n60\n61\n62\n63\n64\n65\n66\n67\n68\n69\n70\n71\n72\n73\n74\n75\nN2\nUNDEFINED\nN2-RD-SHORT\nID: N2_11_M10_01\n部署では複数の担当者が同じ共有フォルダーを使い、修正のたびに別名で保存していた。そのため似たファイルが並び、開いて内容を確かめるまで最新版が分からないことがあった。担当者は、作成日と版番号をファイル名に入れるルールを設け、ファイルを開く前に新旧を区別できるようにした。\n\nこの表記を始めてから、担当者は版番号の小さい資料を最新版として送る間違いを減らせた。旧版を消すのではなく、必要な記録として残しながら、新しい版を名前で見つけられるようにしている。\n作成日と版番号を付けることで、担当者ができるようにしたことは何か。\nA\n修正者ごとに保存先を分けること\nB\n古い版を削除し、最新版だけを残すこと\nC\nファイルを開いてから新旧を確認すること\nD\nファイルを開かなくても、新旧を見分けること\n◀ Câu trước\nCâu tiếp theo ▶\nNỘP BÀI",
+        "optionCount": 4,
+        "markedCorrect": 0,
+        "markedIncorrect": 0,
+        "explanationBoxActive": false,
+        "selectedRationaleVisible": false,
+        "generalExplanationVisible": false,
+        "keyLabelVisible": false
+      },
+      "displayedSelectedExplanationExact": true,
+      "displayedOtherWrongExplanationExact": true,
+      "correctAnswerAndGeneralExplanationDisplayed": true,
+      "score": "KẾT QUẢ PHẦN 1: 73 / 75 CÂU (97%)",
+      "desktop": {
+        "width": 1280,
+        "documentWidth": 1280
+      },
+      "mobileQuestion": {
+        "width": 390,
+        "documentWidth": 390,
+        "optionCount": 4
+      },
+      "mobileReview": {
+        "width": 390,
+        "documentWidth": 390
+      },
+      "pageErrors": 0,
+      "consoleErrors": 0,
+      "screenshotSha256": {
+        "desktopQuestion": "deebfac053ff424dacf956d954a5ccad0afaa632a4b7d6a3cdc18e61310f9a3d",
+        "mobileQuestion": "37639cc334f96298088bb41c693be9af7d5f5fbbe99a30e37f92ff3e06fe004c",
+        "mobileReview": "b3e66724d784d500819c2926aa2abfbd85271f7b4b15db24dd062c17b5d50efe"
+      }
+    },
+    {
+      "examId": "N2-MOCK-12",
+      "questionId": "N2_12_M11_01",
+      "selectedWrongOptionId": "A",
+      "otherWrongOptionId": "B",
+      "correctOptionId": "C",
+      "selectedExplanationSha256": "e62caed3e474b16f27691f6a9dcb4647b9168149cdde91456b13141d8d12c25c",
+      "otherExplanationSha256": "ec4a2eae7801166f1e53a63d64e726de48fb489e16420de7a14989814bb0c520",
+      "generalExplanationSha256": "374af7d104fede80b911832db0bce5c66ec23cb4191ffbc236d3c25fe496976d",
+      "beforeSubmit": {
+        "visibleText": "Câu 60 / 75\n⏱️ 105:00\nNộp bài ngay\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50\n51\n52\n53\n54\n55\n56\n57\n58\n59\n60\n61\n62\n63\n64\n65\n66\n67\n68\n69\n70\n71\n72\n73\n74\n75\nN2\nLANGUAGE KNOWLEDGE\nN2-RD-MED\nID: N2_12_M11_01\n市の環境課は、家庭ごみの量を減らすため、食品ロス対策の実証事業を始めた。協力店では、閉店前に残った食品を割引して販売する。市は当初、値引きの割合を店ごとに任せていたが、利用者から「どの程度安くなるか分からず、選びにくい」という声が出た。そこで、割引率を三段階の表示にそろえたところ、買い手が比較しやすくなり、店員の説明も短くなった。\nただし、食品ごとに期限や保存状態、売れ残りやすい時間帯は異なる。表示が同じでも値引きの価値が同じように受け取られるとは限らず、値下げだけで需要が生まれるわけでもない。実証事業では、値下げ前後の販売数だけでなく、廃棄量が減ったか、購入者が必要な量を選べたかも店から聞き取る。市は、売れ残りの件数、廃棄量、利用者の意見を合わせて確認し、事業を続けるか判断する予定である。価格表示の分かりやすさと食品ロスの削減効果を分けて評価する必要がある。\n市が割引率の表示をそろえたのはなぜか。\nA\n値下げ前後の販売数だけで事業の効果を決めるため\nB\n店ごとに異なる表示を残し、選び方を店員に任せるため\nC\n利用者が値引きの程度を比べやすくするため\nD\nすべての商品を同じ価格で販売するため\n◀ Câu trước\nCâu tiếp theo ▶\nNỘP BÀI",
+        "optionCount": 4,
+        "markedCorrect": 0,
+        "markedIncorrect": 0,
+        "explanationBoxActive": false,
+        "selectedRationaleVisible": false,
+        "generalExplanationVisible": false,
+        "keyLabelVisible": false
+      },
+      "displayedSelectedExplanationExact": true,
+      "displayedOtherWrongExplanationExact": true,
+      "correctAnswerAndGeneralExplanationDisplayed": true,
+      "score": "KẾT QUẢ PHẦN 1: 73 / 75 CÂU (97%)",
+      "desktop": {
+        "width": 1280,
+        "documentWidth": 1280
+      },
+      "mobileQuestion": {
+        "width": 390,
+        "documentWidth": 390,
+        "optionCount": 4
+      },
+      "mobileReview": {
+        "width": 390,
+        "documentWidth": 390
+      },
+      "pageErrors": 0,
+      "consoleErrors": 0,
+      "screenshotSha256": {
+        "desktopQuestion": "a72c43b16bf08f6d35024fd88ba0a2a4c2e0493da020601556131ef25c7f7177",
+        "mobileQuestion": "2ad90e40c1a26c88f1abc1a7ef21699f17db807a179371550c5ac1a9eb597d24",
+        "mobileReview": "c126d366faaedf55c9896f779b0953c6c16660cde965e1c43d4f02ab6ffb6c5e"
+      }
+    },
+    {
+      "examId": "N2-MOCK-13",
+      "questionId": "N2_13_M11_01",
+      "selectedWrongOptionId": "A",
+      "otherWrongOptionId": "C",
+      "correctOptionId": "B",
+      "selectedExplanationSha256": "0b303c88029aba5acb06bdc44b2bb82d6306a5dab201678811a7fde636e19936",
+      "otherExplanationSha256": "39915cfb14f7363419e9ea21d40f0df6687ea177fe09e285d8e150bf11a044b6",
+      "generalExplanationSha256": "93c85243e5d5f1c09df510127ab0634aa3c0cb6f1e5530e1f42294496cf0b6be",
+      "beforeSubmit": {
+        "visibleText": "Câu 60 / 75\n⏱️ 105:00\nNộp bài ngay\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50\n51\n52\n53\n54\n55\n56\n57\n58\n59\n60\n61\n62\n63\n64\n65\n66\n67\n68\n69\n70\n71\n72\n73\n74\n75\nN2\nLANGUAGE KNOWLEDGE\nN2-RD-MED\nID: N2_13_M11_01\n大学の授業で、学生が作った解説動画を教材として使う試みが始まった。動画は教員の説明を置き換えるものではなく、初めて学ぶ人が疑問を整理し、授業で質問しやすくするために用いる。公開前には別の学生が出典や説明の順序も確かめ、誤りがあれば制作者と相談して直す。再生回数を競わせると、目立つ演出や短さが優先され、内容の正確さが後回しになる恐れがある。そのため、評価では、初学者が要点を追えるか、根拠を示して説明しているかを中心に見ることにした。\n\n教員は公開後の感想だけでなく、授業で同じ誤解が減ったかも確かめる予定だ。ただし成績が上がっても動画だけの効果とは限らず、課題の説明や授業内容が変わった可能性もある。作成者には根拠資料、更新日、変更点を記録してもらい、古い情報が残った場合は新しい版への案内を付ける。\n動画の評価で最も重視されているのは何か。\nA\n再生回数と視聴時間\nB\n初学者が要点を追えるか、根拠を示して説明しているか\nC\n編集技術の新しさ\nD\n教員の説明をどれだけ短くできたか\n◀ Câu trước\nCâu tiếp theo ▶\nNỘP BÀI",
+        "optionCount": 4,
+        "markedCorrect": 0,
+        "markedIncorrect": 0,
+        "explanationBoxActive": false,
+        "selectedRationaleVisible": false,
+        "generalExplanationVisible": false,
+        "keyLabelVisible": false
+      },
+      "displayedSelectedExplanationExact": true,
+      "displayedOtherWrongExplanationExact": true,
+      "correctAnswerAndGeneralExplanationDisplayed": true,
+      "score": "KẾT QUẢ PHẦN 1: 73 / 75 CÂU (97%)",
+      "desktop": {
+        "width": 1280,
+        "documentWidth": 1280
+      },
+      "mobileQuestion": {
+        "width": 390,
+        "documentWidth": 390,
+        "optionCount": 4
+      },
+      "mobileReview": {
+        "width": 390,
+        "documentWidth": 390
+      },
+      "pageErrors": 0,
+      "consoleErrors": 0,
+      "screenshotSha256": {
+        "desktopQuestion": "2a387472996cbb26dc25c1c1a873ce135e6f7c2f46e26a933998fb7c8d9ddfb8",
+        "mobileQuestion": "51a20d42bf0124fb9f46bde87d817e8d67affaeae5d9a168733436d5a86e19e0",
+        "mobileReview": "58d7d0bb9dd3ade7f080740ede4aa1a41c562687db7891c090c8addc0eff849b"
+      }
+    }
+  ]
+}

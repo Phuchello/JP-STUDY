@@ -1,0 +1,59 @@
+{
+  "schema": "PHASE_7_1_FRESH_BLIND_REVIEW_PROVENANCE_V1",
+  "reviewDate": "2026-10-23",
+  "scope": "Final M14 Word Usage candidate items N2_14_M1_29 through N2_14_M1_31; text-only editorial review.",
+  "reviewer": {
+    "identity": "/root/phase71_m14_final_blind_review_v11",
+    "type": "separate Codex AI QA agent",
+    "qualifiedHumanOrNativeSpeaker": false,
+    "portableExecutionAttestationAvailable": false
+  },
+  "packet": {
+    "path": "qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261023_v11.json",
+    "sha256": "a2fa45738792769fe52bfe035a05155f2a322d4fa0ac829c307d8cac93963727",
+    "containsOnlyLearnerVisibleTextAndFingerprints": true,
+    "containsAnswerKeys": false,
+    "containsExplanations": false,
+    "containsEditorialHints": false,
+    "containsSourceHashes": false,
+    "itemFingerprints": {
+      "N2_14_M1_29": "704dcf862f0ce894a4e91dff8a6df71a35cbebcf690b4853e9266c4a53d84da9",
+      "N2_14_M1_30": "696fed8601845c2ec7004f99f5b19f833ca2c25683ca8eb88f9b582552f91c8f",
+      "N2_14_M1_31": "d0a5ac58d5d68dc0ddf3c9619589977982cecbb3b61f00e85ede9d65f58be49f"
+    }
+  },
+  "rawResponse": {
+    "path": "qa/PHASE_7_1_FRESH_REVIEW_RAW_20261023_v11.md",
+    "sha256": "9be97c4df021deb67d5de364f1350f9ef01fda2cd23a4b16cc9cb9491ea2c635",
+    "storedVerbatim": true
+  },
+  "results": [
+    {
+      "questionId": "N2_14_M1_29",
+      "selectedOptionId": "A",
+      "alternateDefensibleAnswer": false,
+      "concern": "B-D are understandable but awkward collocations for sensory descriptions."
+    },
+    {
+      "questionId": "N2_14_M1_30",
+      "selectedOptionId": "B",
+      "alternateDefensibleAnswer": false,
+      "concern": "A/C permit a weak inferred comparison reading, but no second comparison object is stated and neither is as natural as B."
+    },
+    {
+      "questionId": "N2_14_M1_31",
+      "selectedOptionId": "A",
+      "alternateDefensibleAnswer": false,
+      "concern": "C/D are somewhat repetitive; all three distractors remain less natural than the time-buffer use in A."
+    }
+  ],
+  "limitations": [
+    "AI editorial opinion is not qualified linguistic certification.",
+    "The reviewer received no keys, explanations, prior selections, or author concerns.",
+    "A subsequent correction to Q31 Vietnamese explanation-to-option binding did not change the reviewer packet's stem, options, or content fingerprint."
+  ],
+  "supersededEvidence": {
+    "packet": "qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261023_v10.json",
+    "reason": "Its Q30 distractor still admitted the dictionary-listed wait-for-opportunity sense; preserved unchanged and not used for the final Q30 result."
+  }
+}

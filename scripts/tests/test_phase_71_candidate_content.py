@@ -9,11 +9,17 @@ from scripts.curriculum.audit_star_permutations import validate_star_structure
 from scripts.curriculum.bank_data.n2_mock_11_data import get_n2_mock_11_sec1_items
 from scripts.curriculum.bank_data.n2_mock_12_data import get_n2_mock_12_sec1_items
 from scripts.curriculum.bank_data.n2_mock_13_data import get_n2_mock_13_sec1_items
+from scripts.curriculum.bank_data.n2_mock_14_data import get_n2_mock_14_sec1_items
 from scripts.curriculum.phase_71_reading_repairs import QUESTION_REVISIONS
 from scripts.curriculum.phase_71_reading_rationales import (
     DISTRACTOR_RATIONALES,
     validate_distractor_rationales,
 )
+from scripts.curriculum.export_phase_71_final_delta_packet import (
+    TARGET_IDS as FINAL_DELTA_IDS,
+    build_final_delta_packet,
+)
+from scripts.curriculum.question_fingerprint import compute_question_fingerprint
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -21,6 +27,34 @@ READING_TYPES = {"N2-RD-SHORT", "N2-RD-MED", "N2-RD-LONG"}
 
 
 class Phase71CandidateContentTests(unittest.TestCase):
+    def test_final_delta_blind_packet_contains_only_clean_version_bound_items(self):
+        packet = build_final_delta_packet()
+        self.assertIsInstance(packet, list)
+        self.assertEqual({item["id"] for item in packet}, FINAL_DELTA_IDS)
+        allowed_fields = {
+            "id", "skill", "category", "taskInstructions", "contextPassage",
+            "stem", "options", "contentFingerprint",
+        }
+        self.assertTrue(all(set(item) == allowed_fields for item in packet))
+        forbidden_fields = {
+            "correctAnswer", "answerKey", "explanation", "explanationVi",
+            "distractorExplanations", "knownEditorialConcern", "sourceSha256",
+            "reviewStatus", "reviewerSelections", "intendedDistractorLogic",
+        }
+        candidate_items = {
+            q["id"]: q
+            for builder in (get_n2_mock_12_sec1_items, get_n2_mock_13_sec1_items,
+                            get_n2_mock_14_sec1_items)
+            for q in builder()
+            if q["id"] in FINAL_DELTA_IDS
+        }
+        for item in packet:
+            with self.subTest(question_id=item["id"]):
+                self.assertFalse(forbidden_fields.intersection(item))
+                self.assertEqual(len(item["options"]), 4)
+                self.assertEqual(item["contentFingerprint"],
+                                 compute_question_fingerprint(candidate_items[item["id"]]))
+
     def test_all_51_reading_items_keep_ids_keys_and_complete_bindings(self):
         for number, builder in (
             (11, get_n2_mock_11_sec1_items),
@@ -61,7 +95,7 @@ class Phase71CandidateContentTests(unittest.TestCase):
             12: get_n2_mock_12_sec1_items,
             13: get_n2_mock_13_sec1_items,
         }
-        self.assertEqual(len(QUESTION_REVISIONS), 35)
+        self.assertEqual(len(QUESTION_REVISIONS), 36)
         for question_id, revision in QUESTION_REVISIONS.items():
             number = int(question_id.split("_")[1])
             item = next(x for x in builders[number]() if x["id"] == question_id)
@@ -99,7 +133,7 @@ class Phase71CandidateContentTests(unittest.TestCase):
                     self.assertEqual(explanations[option_id], record[1])
                     self.assertGreaterEqual(len(explanations[option_id]), 25)
                 explanation_count += len(explanations)
-        self.assertEqual(explanation_count, 105)
+        self.assertEqual(explanation_count, 108)
         self.assertEqual(validate_distractor_rationales(reviewed_items, reviewed_revisions), [])
 
         stale_item = copy.deepcopy(reviewed_items[0])
@@ -165,6 +199,22 @@ class Phase71CandidateContentTests(unittest.TestCase):
         self.assertEqual(figure_check["assembledSentence"],
                          "担当者は、申請書に記された数字が原本の記録と一致するかどうかを項目ごとに確かめ、違いがあれば申請者に確認する必要があると判断した。")
         self.assertEqual(figure_check["starredOptionText"], "項目ごとに確かめ、")
+
+    def test_phase_71_reading_follow_up_repairs_preserve_causal_and_criterion_alignment(self):
+        q12 = next(item for item in get_n2_mock_12_sec1_items()
+                   if item["id"] == "N2_12_M10_05")
+        self.assertIn("迂回で移動時間が延びても各地区の到着予定時刻を保てるよう", q12["contextPassage"])
+        self.assertIn("出発時刻をこれまでより十五分早める", q12["contextPassage"])
+        self.assertIn("滞在時間は変えない", q12["contextPassage"])
+        self.assertEqual(q12["correctAnswer"], "B")
+
+        q13 = next(item for item in get_n2_mock_13_sec1_items()
+                   if item["id"] == "N2_13_M11_01")
+        options = {option["id"]: option["text"] for option in q13["options"]}
+        self.assertEqual(options["B"], "初学者が要点を追えるか、根拠を示して説明しているか")
+        self.assertIn("初学者が要点を追えるか", q13["contextPassage"])
+        self.assertIn("根拠を示して説明しているか", q13["contextPassage"])
+        self.assertEqual(q13["correctAnswer"], "B")
 
 
 if __name__ == "__main__":

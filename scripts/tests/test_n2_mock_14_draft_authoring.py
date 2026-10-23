@@ -96,9 +96,9 @@ def test_m14_usage_items_are_unglossed_and_have_bound_natural_sentences():
     assert [item["id"] for item in items] == [f"N2_14_M1_{n:02}" for n in range(28, 33)]
     expected = {
         "N2_14_M1_28": "来年度は利用者が一割ほど増えると見込んで、受付時間を延長した。",
-        "N2_14_M1_29": "複数の見積もりと効果を比べた結果、この価格設定は妥当だと判断した。",
+        "N2_14_M1_29": "複数社の見積額と各案に期待される効果を比べた結果、この価格設定は妥当だと判断した。",
         "N2_14_M1_30": "安全を確認するため、鉄道会社は一部路線の運行を見合わせた。",
-        "N2_14_M1_31": "受付開始まで三十分あるので、時間に余裕をもって会場へ向かった。",
+        "N2_14_M1_31": "集合時刻に間に合うよう、移動時間に三十分の余裕を持たせた。",
         "N2_14_M1_32": "申請書の記入欄を減らし、利用者の負担を軽くした。",
     }
     for item in items:
@@ -123,8 +123,9 @@ def test_m14_usage_items_are_unglossed_and_have_bound_natural_sentences():
 
     expected_distractors = {
         "N2_14_M1_28": ("前年の報告書を見込んで", "利用者の意見を見込んで", "本人確認書類を見込んで"),
-        "N2_14_M1_29": ("代替路も安全基準を満たさない", "市の上限を大幅に超え", "比較条件に重大な誤り"),
-        "N2_14_M1_30": ("住民から届いた要望を見合わせて", "前年の実施報告を見合わせて", "身分証を見合わせて"),
+        "N2_14_M1_29": ("スープに妥当な味", "妥当な声で", "妥当な香り"),
+        "N2_14_M1_30": ("雲の動きを見合わせ", "案内図を見合わせ", "一枚の申請書を見合わせ"),
+        "N2_14_M1_31": ("余裕の名札", "余裕を二十部多く刷った", "余裕の電池"),
         "N2_14_M1_32": ("交通費の負担を受け取った", "会場費の負担を請求書として", "不安を負担し"),
     }
     for item in items:
@@ -133,7 +134,36 @@ def test_m14_usage_items_are_unglossed_and_have_bound_natural_sentences():
             assert any(phrase in text for text in option_texts)
 
     miawaseru = next(item for item in items if item["id"] == "N2_14_M1_30")
-    assert any("住民から届いた要望" in option["text"] for option in miawaseru["options"])
+    miawaseru_wrong = [option["text"] for option in miawaseru["options"]
+                       if option["id"] != miawaseru["correctAnswer"]]
+    assert all(not any(token in text for token in ("前年", "今回", "互いに", "比較", "照らし合わせ"))
+               for text in miawaseru_wrong)
+    assert "運行を見合わせた" in next(option["text"] for option in miawaseru["options"]
+                                      if option["id"] == miawaseru["correctAnswer"])
+    assert all("時機" not in text and "機会" not in text
+               for text in miawaseru_wrong)
+    q29 = next(item for item in items if item["id"] == "N2_14_M1_29")
+    q29_wrong = [option["text"] for option in q29["options"]
+                 if option["id"] != q29["correctAnswer"]]
+    assert all(not any(token in text for token in ("通行止め", "上限", "誤り", "超え", "締切"))
+               for text in q29_wrong)
+    q31 = next(item for item in items if item["id"] == "N2_14_M1_31")
+    q31_wrong = [option["text"] for option in q31["options"]
+                 if option["id"] != q31["correctAnswer"]]
+    assert all(not any(token in text for token in ("使い切", "しかない", "空きが一つも", "三時間かかる"))
+               for text in q31_wrong)
+    assert "三十分の余裕を持たせた" in next(option["text"] for option in q31["options"]
+                                             if option["id"] == q31["correctAnswer"])
+    q31_rationale_by_text = {
+        option["text"]: q31["distractorExplanations"][option["id"]]
+        for option in q31["options"] if option["id"] != q31["correctAnswer"]
+    }
+    assert "二十部多く" in next(rationale for text, rationale in q31_rationale_by_text.items()
+                                if "二十部多く刷った" in text)
+    assert "予備の名札" in next(rationale for text, rationale in q31_rationale_by_text.items()
+                                if "余裕の名札" in text)
+    assert "予備の電池" in next(rationale for text, rationale in q31_rationale_by_text.items()
+                                if "余裕の電池" in text)
     burden = next(item for item in items if item["id"] == "N2_14_M1_32")
     assert any("利用者が抱える不安を負担し" in option["text"] for option in burden["options"])
     for item in items:
