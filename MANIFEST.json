@@ -2,7 +2,7 @@
   "snapshotDate": "2026-10-23",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
   "fileCountExcludingManifest": 1174,
-  "totalBytesExcludingManifest": 176359009,
+  "totalBytesExcludingManifest": 176359900,
   "files": [
     {
       "path": ".gitattributes",
@@ -3408,8 +3408,8 @@
     },
     {
       "path": "PROJECT_STATUS.md",
-      "bytes": 56584,
-      "sha256": "6b2af790bcac1d66e4f9d4db9864ee15892d7a67cd6ee1711d25e7791147fb04",
+      "bytes": 56981,
+      "sha256": "855bd5392ba92e1543ba1aee152886c2129b8de25fbe9861c49fc6662ab77495",
       "status": "VERIFIED"
     },
     {
@@ -4770,8 +4770,8 @@
     },
     {
       "path": "qa/PHASE_7_1_FINAL_CLOSURE_20261023.md",
-      "bytes": 13529,
-      "sha256": "29d282cbfbcb23a12fd957f8fabd7a68036f10f48e87e93e82ddf3ec01842f69",
+      "bytes": 14023,
+      "sha256": "550df448b5adc526e0530159943ca19a10822522ca7f4e7299358b5ded1d570a",
       "status": "VERIFIED"
     },
     {
