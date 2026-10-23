@@ -1,13 +1,13 @@
 {
   "snapshotDate": "2026-10-23",
   "scope": "Public repository files, excluding this manifest itself; no .git/dependencies/tmp",
-  "fileCountExcludingManifest": 1196,
-  "totalBytesExcludingManifest": 179302571,
+  "fileCountExcludingManifest": 1203,
+  "totalBytesExcludingManifest": 180257190,
   "files": [
     {
       "path": ".gitattributes",
-      "bytes": 471,
-      "sha256": "74c2924281af6f2bf14f6154fe881ef6c4e6fd2816ba5cbc62d0175bdaf424b6",
+      "bytes": 708,
+      "sha256": "0248baaafe30d22e3700124287d988a1e3eb2277fe478c21fe2c946127b8c946",
       "status": "VERIFIED"
     },
     {
@@ -3372,8 +3372,8 @@
     },
     {
       "path": "FILE_INDEX.md",
-      "bytes": 120128,
-      "sha256": "fefe4262e9e283249f980c08e356f67b8b46464f7d395cf6099426dbe5bb342e",
+      "bytes": 121134,
+      "sha256": "ecf0d176b47e818b610bb01eacf4683c3bb46d14b4f5c78aece52af7051db8b3",
       "status": "VERIFIED"
     },
     {
@@ -3408,8 +3408,8 @@
     },
     {
       "path": "PROJECT_STATUS.md",
-      "bytes": 56258,
-      "sha256": "19f95fd1ac6e96fdb0e604888899bd0fbb8cd1d5dc987d68a1f65b0ba2df7a6b",
+      "bytes": 56951,
+      "sha256": "97a79f0a26c7156724fe3d44860f65473fc4170ec14b59489e76476416b8cd62",
       "status": "VERIFIED"
     },
     {
@@ -3913,7 +3913,7 @@
     {
       "path": "qa/CI_QA_SUMMARY.json",
       "bytes": 9318,
-      "sha256": "bfe529c93f6f7587f2ebb0b44853f62e416f1beaf1d2a1acc6d29476e0b15ad1",
+      "sha256": "57a0c065ad5e6c20b13ca3cd64966d67b669929e83242de3f97ac8ea0e4389a9",
       "status": "VERIFIED"
     },
     {
@@ -4620,8 +4620,8 @@
     },
     {
       "path": "qa/N2_MOCK_11_INDEPENDENT_AUDIT_REPORT.md",
-      "bytes": 38666,
-      "sha256": "e8e17a0cb77afb05c6f746dc3a3e27085955b81dbfcc4321b9db383cd89295ae",
+      "bytes": 38521,
+      "sha256": "83ac39a92dac0c150f63af4964c6cdef4df444def01f84b4487789ecbf0de5c8",
       "status": "VERIFIED"
     },
     {
@@ -4638,8 +4638,8 @@
     },
     {
       "path": "qa/N2_MOCK_11_PHASE71_CANDIDATE_RECONCILIATION.json",
-      "bytes": 445319,
-      "sha256": "06249f8558245a1a4ed5be23cee59f01d10ed9494b2cb705bc5376ecad256d79",
+      "bytes": 446736,
+      "sha256": "11f53796197a555e0db37571ed986d62ffbd05ec7bdec9c9550aba6e3e376bc8",
       "status": "VERIFIED"
     },
     {
@@ -4680,8 +4680,8 @@
     },
     {
       "path": "qa/N2_MOCK_12_INDEPENDENT_AUDIT_REPORT.md",
-      "bytes": 38666,
-      "sha256": "7314d12c2611ff7cb1813aa61c7f9c2789e32eac3b12f3d3008eee8729dee60d",
+      "bytes": 38521,
+      "sha256": "52b991b9479500a773543fce2c87b48efd3c265008f8c64264afad5d675b7909",
       "status": "QA_PENDING"
     },
     {
@@ -4698,8 +4698,8 @@
     },
     {
       "path": "qa/N2_MOCK_12_PHASE71_CANDIDATE_RECONCILIATION.json",
-      "bytes": 325837,
-      "sha256": "c7d48fc50d1441f80ac120aa158975842b0ef91cce8cf582586c9e9c86c9263f",
+      "bytes": 327026,
+      "sha256": "476683e94453b09e52103b3e477a807ecf95f69127b0bc9a065a997eb1424091",
       "status": "VERIFIED"
     },
     {
@@ -4734,8 +4734,8 @@
     },
     {
       "path": "qa/N2_MOCK_13_INDEPENDENT_AUDIT_REPORT.md",
-      "bytes": 38666,
-      "sha256": "dde6d0aa92c7e1512832bf51f643b3a47d884557d83d5920a131b8834173af2f",
+      "bytes": 38521,
+      "sha256": "39fdc059dd811b4951706ce30cc0ac44ce10e17adcaa2f8d74d9e5e3dcd9497a",
       "status": "VERIFIED"
     },
     {
@@ -4752,8 +4752,8 @@
     },
     {
       "path": "qa/N2_MOCK_13_PHASE71_CANDIDATE_RECONCILIATION.json",
-      "bytes": 348306,
-      "sha256": "4ae213e1fb918f02b2eb71418cbb0fd98705454f64e2d6e1c48ee93ed01e3ec8",
+      "bytes": 349457,
+      "sha256": "b4de9f5afcdf700fe0fee4cff4911483421bf2df9a7507530f0e1aa20d1a8b9a",
       "status": "VERIFIED"
     },
     {
@@ -4784,6 +4784,30 @@
       "path": "qa/N2_MOCK_14_E2E_REPORT.json",
       "bytes": 2084,
       "sha256": "b520cdbaac08e336136570e7136004f30cf5550d46865bf35ac7b0dbf037c545",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "qa/phase71_immutable_originals/independent_review_response_20261022_v6.raw",
+      "bytes": 13586,
+      "sha256": "dd7be49427875f5dcdb7c946d47bc03b9ca5e1a146e34e814fddd3f5c2414331",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "qa/phase71_immutable_originals/n2_mock_11_pre_release_baseline.raw",
+      "bytes": 308893,
+      "sha256": "6cc5a46a65a8b44ca886901a9dc26a355854c9cf349f8eee8b629b6edea248fc",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "qa/phase71_immutable_originals/n2_mock_12_pre_release_baseline.raw",
+      "bytes": 286413,
+      "sha256": "40ef9bf626bdb69df502fa8549b87b94c2add680bc316fcbb23fa8719975ac76",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "qa/phase71_immutable_originals/n2_mock_13_pre_release_baseline.raw",
+      "bytes": 307073,
+      "sha256": "c6d92cb8f541a9d7815fa348103e021437d0742b2f57df0e8bb1d9e507d9d001",
       "status": "QA_PENDING"
     },
     {
@@ -4826,6 +4850,18 @@
       "path": "qa/PHASE_7_1_CANDIDATE_REPAIR_QA.md",
       "bytes": 16021,
       "sha256": "452f8c4cf3ead731adb367921d1dad76df2772b5a617b36fb279867c9265c5d6",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "qa/PHASE_7_1_CI_EVIDENCE_RECONCILIATION_20261023.md",
+      "bytes": 8967,
+      "sha256": "e9b66e95fb8dd457c15fc8117dae2d23f4bb68cee48168321486ed2b1531aff4",
+      "status": "QA_PENDING"
+    },
+    {
+      "path": "qa/PHASE_7_1_CI_RECOVERY_BROWSER_E2E_20261023.json",
+      "bytes": 11582,
+      "sha256": "d0bb896b541680003c0d45e0d89c99564353345577282fdb958cea923e8f9910",
       "status": "QA_PENDING"
     },
     {
@@ -6276,8 +6312,8 @@
     },
     {
       "path": "scripts/curriculum/build_phase_71_candidate_reconciliation.py",
-      "bytes": 36695,
-      "sha256": "781c7bdae55624b2a22680fb6c3fb5c66adc8ce933c4356de52e841d560dd98e",
+      "bytes": 41580,
+      "sha256": "1e1094af5ddb000f27f76b372387e7173e8287c0468aef020d01cfac4279b5cc",
       "status": "VERIFIED"
     },
     {
@@ -6993,6 +7029,12 @@
       "bytes": 9174,
       "sha256": "2a7a36ffa2af385e557fe18c25ff5cd2c15948d8ef940d1e82d32bd6cd1f4954",
       "status": "VERIFIED"
+    },
+    {
+      "path": "scripts/tests/test_phase71_evidence_representation.py",
+      "bytes": 7962,
+      "sha256": "fe5fda685e3592a69c044b773edf838b46c2af72add3b1bb75e84fccffd9e6f9",
+      "status": "QA_PENDING"
     },
     {
       "path": "scripts/tests/test_phase_61_content_quality.py",

@@ -29,13 +29,20 @@ from scripts.curriculum.question_fingerprint import compute_question_fingerprint
 
 EXAMS = (11, 12, 13)
 V6_PACKET = "qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261022_v6.json"
-V6_RAW = "qa/PHASE_7_1_INDEPENDENT_REVIEW_RESPONSE_20261022_v6.md"
+V6_RAW = "qa/phase71_immutable_originals/independent_review_response_20261022_v6.raw"
+V6_READABLE = "qa/PHASE_7_1_INDEPENDENT_REVIEW_RESPONSE_20261022_v6.md"
 V8_PACKET = "qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261023_v8.json"
 V8_RAW = "qa/PHASE_7_1_FINAL_REVIEW_V8_RAW_20261023_v1.json"
 STAR_PACKET = "qa/PHASE_7_1_M12_M13_STAR_DELTA_PACKET_20261023_v1.json"
 STAR_RAW = "qa/PHASE_7_1_M12_M13_STAR_DELTA_RAW_20261023_v1.json"
 DELTA_PACKET = "qa/PHASE_7_1_FINAL_INTEGRATION_DELTA_PACKET_20261023_v1.json"
 DELTA_RAW = "qa/PHASE_7_1_FINAL_INTEGRATION_DELTA_RAW_20261023_v1.json"
+BASELINE_ARCHIVES = {
+    11: "qa/phase71_immutable_originals/n2_mock_11_pre_release_baseline.raw",
+    12: "qa/phase71_immutable_originals/n2_mock_12_pre_release_baseline.raw",
+    13: "qa/phase71_immutable_originals/n2_mock_13_pre_release_baseline.raw",
+}
+V6_CAPTURE_SHA256 = "dd7be49427875f5dcdb7c946d47bc03b9ca5e1a146e34e814fddd3f5c2414331"
 
 
 def read_json(path: Path) -> Any:
@@ -48,6 +55,44 @@ def digest_bytes(data: bytes) -> str:
 
 def digest_file(path: Path) -> str:
     return digest_bytes(path.read_bytes())
+
+
+def canonical_text_bytes(data: bytes) -> bytes:
+    """Return UTF-8 text with CRLF and lone CR line endings represented as LF."""
+    data.decode("utf-8", errors="strict")
+    return data.replace(b"\r\n", b"\n").replace(b"\r", b"\n")
+
+
+def validate_preserved_text_pair(
+    readable_path: Path, archive_path: Path, expected_archive_sha256: str
+) -> list[str]:
+    """Bind a readable Git text file to an exact binary-preserved capture."""
+    errors: list[str] = []
+    if not readable_path.is_file():
+        return [f"readable evidence is missing: {readable_path}"]
+    if not archive_path.is_file():
+        return [f"preserved byte archive is missing: {archive_path}"]
+    archived = archive_path.read_bytes()
+    if digest_bytes(archived) != expected_archive_sha256:
+        errors.append(f"preserved byte archive digest mismatch: {archive_path}")
+    try:
+        readable_canonical = canonical_text_bytes(readable_path.read_bytes())
+        archive_canonical = canonical_text_bytes(archived)
+    except UnicodeDecodeError:
+        errors.append(f"evidence is not valid UTF-8 text: {archive_path}")
+    else:
+        if readable_canonical != archive_canonical:
+            errors.append(f"readable evidence content differs from preserved capture: {readable_path}")
+    return errors
+
+
+def validate_file_digest(path: Path, expected_sha256: str, label: str) -> list[str]:
+    """Fail closed when a referenced packet or response is missing or changed."""
+    if not path.is_file():
+        return [f"{label} is missing: {path}"]
+    if digest_file(path) != expected_sha256:
+        return [f"{label} digest mismatch: {path}"]
+    return []
 
 
 def rel(path: Path) -> str:
@@ -121,6 +166,11 @@ def v6_letters(raw_path: Path) -> dict[str, str]:
 def response_registry() -> dict[str, dict]:
     registry: dict[str, dict] = {}
     v6_packet_path, v6_raw_path = ROOT / V6_PACKET, ROOT / V6_RAW
+    archive_errors = validate_preserved_text_pair(
+        ROOT / V6_READABLE, v6_raw_path, V6_CAPTURE_SHA256
+    )
+    if archive_errors:
+        raise ValueError("v6 raw response archive failed validation: " + "; ".join(archive_errors))
     v6_hash = digest_file(v6_packet_path)
     v6_raw_text = v6_raw_path.read_text(encoding="utf-8")
     v6_recorded = re.search(r"Packet SHA-256:\s*([0-9a-f]{64})", v6_raw_text, re.IGNORECASE)
@@ -456,12 +506,29 @@ def build_receipt(exam_number: int, registry: dict[str, dict], write: bool = Tru
 
     snapshot_bytes = (json.dumps(snapshot, ensure_ascii=False, indent=2) + "\n").encode("utf-8")
     v6_raw_path = ROOT / V6_RAW
+    baseline_archive_path = ROOT / BASELINE_ARCHIVES[exam_number]
+    prior_receipt_path = ROOT / f"qa/N2_MOCK_{exam_number:02d}_PHASE71_CANDIDATE_RECONCILIATION.json"
+    prior_receipt = read_json(prior_receipt_path) if prior_receipt_path.is_file() else {}
+    captured_baseline_sha256 = prior_receipt.get("releasedBaselineSha256")
+    if not captured_baseline_sha256:
+        captured_baseline_sha256 = digest_file(baseline_archive_path)
+    baseline_pair_errors = validate_preserved_text_pair(
+        baseline_path, baseline_archive_path, captured_baseline_sha256
+    )
+    if baseline_pair_errors:
+        raise ValueError(f"{exam_id}: baseline provenance failed: " + "; ".join(baseline_pair_errors))
+    prior_v6_capture_hash = prior_receipt.get("rawEvidence", {}).get("rawOutputSha256")
+    if prior_v6_capture_hash and prior_v6_capture_hash != digest_file(v6_raw_path):
+        raise ValueError(f"{exam_id}: preserved v6 capture digest differs from the prior receipt")
     # The primary raw-output field names one preserved response; every other
     # response used by this receipt is enumerated and checked separately.
     raw_evidence = {
         "sealedInputSha256": digest_bytes(snapshot_bytes),
         "rawOutputSha256": digest_file(v6_raw_path),
         "rawOutputFile": V6_RAW,
+        "readableResponseFile": V6_READABLE,
+        "readableResponseCanonicalSha256": digest_bytes(canonical_text_bytes((ROOT / V6_READABLE).read_bytes())),
+        "rawByteArchiveContract": "UTF-8 capture bytes preserved exactly; readable companion is compared after CRLF/CR-to-LF canonicalization.",
         "rawResponsePreservedLocally": True,
         "inputHashMatchedBeforeAndAfter": True,
         "inputHashMatchMethod": "Reviewer-recorded packet SHA-256 matches the preserved packet; explicit before/after captures are checked where the raw response includes them.",
@@ -479,8 +546,10 @@ def build_receipt(exam_number: int, registry: dict[str, dict], write: bool = Tru
         "reviewScopeLimit": "Content version and answer semantics only; not native-speaker certification, JLPT calibration, or portable execution attestation.",
         "candidatePathAtBuild": rel(candidate_path),
         "candidateExamSha256AtBuild": digest_file(candidate_path),
-        "releasedBaselinePath": rel(baseline_path) if baseline_path.is_file() else rel(published_path),
-        "releasedBaselineSha256": digest_file(baseline_path if baseline_path.is_file() else published_path),
+        "releasedBaselinePath": rel(baseline_path),
+        "releasedBaselineSha256": captured_baseline_sha256,
+        "releasedBaselineArchivePath": rel(baseline_archive_path),
+        "releasedBaselineCanonicalSha256": digest_bytes(canonical_text_bytes(baseline_path.read_bytes())),
         "summary": {
             "reviewedItems": len(rows),
             "semanticAgreementCount": sum(row["semanticTextAgreement"] for row in rows),
@@ -530,9 +599,25 @@ def validate_receipt(exam_number: int, registry: dict[str, dict], source: str = 
         errors.append(f"{exam_id}: receipt schema/status mismatch")
     if report.get("reviewProvenanceLimit") != AI_REVIEW_PROVENANCE_LIMIT:
         errors.append(f"{exam_id}: reviewer limitations missing or overstated")
-    baseline_path = ROOT / report.get("releasedBaselinePath", "")
-    if (not baseline_path.is_file()
-            or digest_file(baseline_path) != report.get("releasedBaselineSha256")):
+    baseline_path = (ROOT / report.get("releasedBaselinePath", "")).resolve()
+    baseline_archive_path = (ROOT / report.get("releasedBaselineArchivePath", "")).resolve()
+    try:
+        baseline_path.relative_to(ROOT.resolve())
+        baseline_archive_path.relative_to(ROOT.resolve())
+    except ValueError:
+        errors.append(f"{exam_id}: baseline evidence path resolves outside the repository")
+    else:
+        pair_errors = validate_preserved_text_pair(
+            baseline_path,
+            baseline_archive_path,
+            report.get("releasedBaselineSha256", ""),
+        )
+        errors.extend(f"{exam_id}: {error}" for error in pair_errors)
+        if (baseline_path.is_file()
+                and digest_bytes(canonical_text_bytes(baseline_path.read_bytes()))
+                != report.get("releasedBaselineCanonicalSha256")):
+            errors.append(f"{exam_id}: canonical pre-Phase-7.1 baseline snapshot is missing or changed")
+    if not baseline_path.is_file() or not baseline_archive_path.is_file():
         errors.append(f"{exam_id}: exact pre-Phase-7.1 public baseline snapshot is missing or changed")
     if digest_file(exam_path) != report.get("candidateExamSha256AtBuild"):
         errors.append(f"{exam_id}: receipt does not bind the exact current candidate/published exam bytes")
@@ -546,9 +631,16 @@ def validate_receipt(exam_number: int, registry: dict[str, dict], source: str = 
     # current-version checks. The shared validator remains fail-closed and
     # unchanged; this wrapper supplies the additional multi-packet checks.
     for source_file in report.get("rawEvidence", {}).get("sourceFiles", []):
-        path = ROOT / source_file.get("path", "")
-        if not path.is_file() or digest_file(path) != source_file.get("sha256"):
-            errors.append(f"{exam_id}: source evidence digest does not match: {source_file.get('path')}")
+        path = (ROOT / source_file.get("path", "")).resolve()
+        try:
+            path.relative_to(ROOT.resolve())
+        except ValueError:
+            errors.append(f"{exam_id}: source evidence path resolves outside the repository")
+            continue
+        errors.extend(
+            f"{exam_id}: {error}"
+            for error in validate_file_digest(path, source_file.get("sha256", ""), "source evidence")
+        )
     for qid, (question, section_number) in questions.items():
         row, sealed_row = rows[qid], sealed_rows[qid]
         fp = compute_question_fingerprint(question)
@@ -589,10 +681,14 @@ def validate_receipt(exam_number: int, registry: dict[str, dict], source: str = 
                 errors.append(f"{qid}: current-version packet or raw response is missing")
                 continue
             packet_hash = digest_file(packet_path)
-            if (packet_hash != spec.get("packetSha256") or row.get("reviewPacketSha256") != packet_hash
+            source_digest_errors = validate_file_digest(
+                packet_path, spec.get("packetSha256", ""), f"{qid} review packet"
+            ) + validate_file_digest(
+                raw_path, row.get("rawReviewerResponseSha256", ""), f"{qid} raw response"
+            )
+            if (source_digest_errors or row.get("reviewPacketSha256") != packet_hash
                     or row.get("reviewPacketPath") != spec.get("packetPath")
-                    or row.get("rawReviewerResponseReference") != spec.get("rawPath")
-                    or digest_file(raw_path) != row.get("rawReviewerResponseSha256")):
+                    or row.get("rawReviewerResponseReference") != spec.get("rawPath")):
                 errors.append(f"{qid}: packet/raw response binding differs from the preserved evidence")
             packet_item = packet_rows(packet_path).get(qid)
             if not packet_item or fingerprint_from_packet(packet_item, question) != fp or packet_item.get("contentFingerprint") != fp:

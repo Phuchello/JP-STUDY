@@ -8,4 +8,8 @@ deliverables/phase3/ANSWER_KEY_AND_EXPLANATIONS/validated_keys.json -text
 qa/blind_items_m11_revision7_delta.json -text -diff
 qa/blind_items_m11_revision8_delta.json -text -diff
 /qa/blind_items_m*_final.json -text
+# Exact Phase 7.1 capture bytes are archived as evidence. Keep these opaque
+# copies byte-for-byte on every platform; their readable companions remain
+# ordinary LF-normalized text above.
+qa/phase71_immutable_originals/*.raw -text -diff
 /qa/raw_blind_responses/*.json -text -diff

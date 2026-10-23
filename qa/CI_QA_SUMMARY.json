@@ -1,6 +1,6 @@
 {
   "workflow": "Content QA & Adversarial Release Gate",
-  "ciRunTimestamp": "2026-10-23T13:25:50.528786+00:00",
+  "ciRunTimestamp": "2026-10-23T14:32:07.886879+00:00",
   "totalItemsAudited": 1365,
   "totalAudioTracksVerified": 390,
   "gateStatus": "PASS",
