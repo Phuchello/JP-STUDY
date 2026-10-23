@@ -213,7 +213,19 @@ def run_integrity_audit():
     exam_items = {}
     discovered_mocks = discover_active_n2_mocks()
     for m in discovered_mocks:
-        m_data = json.loads(m.path.read_text(encoding='utf-8'))
+        exam_path = m.path
+        receipt_path = ROOT / f"qa/N2_MOCK_{m.mock_num}_PHASE71_CANDIDATE_RECONCILIATION.json"
+        baseline_path = ROOT / f"qa/n2_mock_{m.mock_num.lower()}_phase71_pre_release_baseline.json"
+        if receipt_path.is_file() and baseline_path.is_file():
+            active = json.loads(m.path.read_text(encoding='utf-8'))
+            receipt = json.loads(receipt_path.read_text(encoding='utf-8'))
+            if (active.get("releaseGateStatus") == "REVIEW_CONTENT_VERSION_VERIFIED"
+                    and sha256_file(m.path) == receipt.get("candidateExamSha256AtBuild")):
+                # Preserve the historical raw-review audit against the release
+                # those reviewers actually saw. Current Phase 7.1 candidate
+                # provenance is checked separately by its 315-row gate.
+                exam_path = baseline_path
+        m_data = json.loads(exam_path.read_text(encoding='utf-8'))
         for sec in m_data['sections']:
             for q in sec['items']:
                 exam_items[q['id']] = q
@@ -413,7 +425,10 @@ def run_integrity_audit():
         "rawEvidenceHashes": raw_file_hashes,
         "derivedArtifactHash": sha256_file(derived_out),
         "totalQuestionsAudited": len(derived_records),
-        "m11VersionBoundRowsIncluded": sum(1 for row in derived_records if row.get("reviewerProvenance") == "AI_BLIND_VERSION_BOUND_NO_PORTABLE_ATTESTATION"),
+        "currentVersionBoundRowsIncluded": sum(1 for row in derived_records if row.get("reviewerProvenance") in {
+            "AI_BLIND_VERSION_BOUND_NO_PORTABLE_ATTESTATION",
+            "PHASE71_VERSION_BOUND_AI_NO_PORTABLE_ATTESTATION",
+        }),
         "provenanceBreakdown": dict(prov_counts),
         "totalReorderedQuestions": affected_count,
         "recoverableSemanticMappings": recoverable_count,

@@ -1,0 +1,12 @@
+{
+  "schema": "PHASE71_REVIEW_RAW_ENVELOPE_REDACTION_V1",
+  "reviewFile": "qa/PHASE_7_1_FINAL_INTEGRATION_DELTA_RAW_20261023_v1.json",
+  "originalEnvelopeSha256": "250fb811710ce3c0993858a80755a3dd3732fa216ee6675eceb965b9bdf5f57b",
+  "publishedEnvelopeSha256": "7e7e0fabbd70b122fd4befde1cd80facc0ac763f7712adee07b26ef499dbbe2e",
+  "responseField": "items",
+  "originalResponsePayloadSha256": "a4811ae8770f7617b04e48c60210887d537d25290060c312bae4dcdb6718128c",
+  "publishedResponsePayloadSha256": "a4811ae8770f7617b04e48c60210887d537d25290060c312bae4dcdb6718128c",
+  "changedEnvelopeField": "input.packetPath",
+  "reason": "Removed machine-local absolute path metadata before publication; the reviewer response payload is byte-semantically unchanged.",
+  "originalEnvelopePreservedLocally": "tmp/phase7/phase71_original_raw/PHASE_7_1_FINAL_INTEGRATION_DELTA_RAW_20261023_v1.json"
+}

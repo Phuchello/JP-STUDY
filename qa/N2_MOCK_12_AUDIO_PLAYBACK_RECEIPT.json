@@ -2,7 +2,7 @@
   "examId": "N2-MOCK-12",
   "status": "VERIFIED_AUDIO_PLAYBACK",
   "qaData": true,
-  "generatedAt": "2026-10-22T01:25:22.865Z",
+  "generatedAt": "2026-10-23T13:17:47.574Z",
   "totalTracks": 30,
   "verifiedPlaybackCount": 30,
   "overallPlaybackVerified": true,
@@ -31,7 +31,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 40.072,
-        "currentTime": 0.053862,
+        "currentTime": 0.088437,
         "error": null
       },
       "mobile": {
@@ -39,7 +39,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 40.072,
-        "currentTime": 0.09586,
+        "currentTime": 0.072202,
         "error": null
       },
       "playbackDesktop": {
@@ -47,7 +47,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 40.072,
-        "currentTime": 0.053862,
+        "currentTime": 0.088437,
         "error": null
       },
       "playbackMobile": {
@@ -55,7 +55,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 40.072,
-        "currentTime": 0.09586,
+        "currentTime": 0.072202,
         "error": null
       },
       "desktopPlaybackAdvanced": true,
@@ -82,7 +82,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 38.128,
-        "currentTime": 0.069597,
+        "currentTime": 0.064477,
         "error": null
       },
       "mobile": {
@@ -90,7 +90,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 38.128,
-        "currentTime": 0.064487,
+        "currentTime": 0.075175,
         "error": null
       },
       "playbackDesktop": {
@@ -98,7 +98,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 38.128,
-        "currentTime": 0.069597,
+        "currentTime": 0.064477,
         "error": null
       },
       "playbackMobile": {
@@ -106,7 +106,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 38.128,
-        "currentTime": 0.064487,
+        "currentTime": 0.075175,
         "error": null
       },
       "desktopPlaybackAdvanced": true,
@@ -133,7 +133,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 40.12,
-        "currentTime": 0.059562,
+        "currentTime": 0.060119,
         "error": null
       },
       "mobile": {
@@ -141,7 +141,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 40.12,
-        "currentTime": 0.059689,
+        "currentTime": 0.112002,
         "error": null
       },
       "playbackDesktop": {
@@ -149,7 +149,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 40.12,
-        "currentTime": 0.059562,
+        "currentTime": 0.060119,
         "error": null
       },
       "playbackMobile": {
@@ -157,7 +157,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 40.12,
-        "currentTime": 0.059689,
+        "currentTime": 0.112002,
         "error": null
       },
       "desktopPlaybackAdvanced": true,
@@ -184,7 +184,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 38.728,
-        "currentTime": 0.053371,
+        "currentTime": 0.069014,
         "error": null
       },
       "mobile": {
@@ -192,7 +192,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 38.728,
-        "currentTime": 0.074818,
+        "currentTime": 0.064654,
         "error": null
       },
       "playbackDesktop": {
@@ -200,7 +200,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 38.728,
-        "currentTime": 0.053371,
+        "currentTime": 0.069014,
         "error": null
       },
       "playbackMobile": {
@@ -208,7 +208,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 38.728,
-        "currentTime": 0.074818,
+        "currentTime": 0.064654,
         "error": null
       },
       "desktopPlaybackAdvanced": true,
@@ -235,7 +235,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 38.752,
-        "currentTime": 0.052299,
+        "currentTime": 0.059793,
         "error": null
       },
       "mobile": {
@@ -243,7 +243,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 38.752,
-        "currentTime": 0.073756,
+        "currentTime": 0.055313,
         "error": null
       },
       "playbackDesktop": {
@@ -251,7 +251,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 38.752,
-        "currentTime": 0.052299,
+        "currentTime": 0.059793,
         "error": null
       },
       "playbackMobile": {
@@ -259,7 +259,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 38.752,
-        "currentTime": 0.073756,
+        "currentTime": 0.055313,
         "error": null
       },
       "desktopPlaybackAdvanced": true,
@@ -286,7 +286,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 37.4,
-        "currentTime": 0.070642,
+        "currentTime": 0.057,
         "error": null
       },
       "mobile": {
@@ -294,7 +294,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 37.4,
-        "currentTime": 0.070764,
+        "currentTime": 0.067641,
         "error": null
       },
       "playbackDesktop": {
@@ -302,7 +302,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 37.4,
-        "currentTime": 0.070642,
+        "currentTime": 0.057,
         "error": null
       },
       "playbackMobile": {
@@ -310,7 +310,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 37.4,
-        "currentTime": 0.070764,
+        "currentTime": 0.067641,
         "error": null
       },
       "desktopPlaybackAdvanced": true,
@@ -337,7 +337,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 38.072,
-        "currentTime": 0.067425,
+        "currentTime": 0.055416,
         "error": null
       },
       "mobile": {
@@ -345,7 +345,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 38.072,
-        "currentTime": 0.067461,
+        "currentTime": 0.060315,
         "error": null
       },
       "playbackDesktop": {
@@ -353,7 +353,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 38.072,
-        "currentTime": 0.067425,
+        "currentTime": 0.055416,
         "error": null
       },
       "playbackMobile": {
@@ -361,7 +361,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 38.072,
-        "currentTime": 0.067461,
+        "currentTime": 0.060315,
         "error": null
       },
       "desktopPlaybackAdvanced": true,
@@ -388,7 +388,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 39.8,
-        "currentTime": 0.077797,
+        "currentTime": 0.060346,
         "error": null
       },
       "mobile": {
@@ -396,7 +396,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 39.8,
-        "currentTime": 0.06268,
+        "currentTime": 0.055593,
         "error": null
       },
       "playbackDesktop": {
@@ -404,7 +404,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 39.8,
-        "currentTime": 0.077797,
+        "currentTime": 0.060346,
         "error": null
       },
       "playbackMobile": {
@@ -412,7 +412,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 39.8,
-        "currentTime": 0.06268,
+        "currentTime": 0.055593,
         "error": null
       },
       "desktopPlaybackAdvanced": true,
@@ -439,7 +439,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 37.232,
-        "currentTime": 0.079896,
+        "currentTime": 0.059571,
         "error": null
       },
       "mobile": {
@@ -447,7 +447,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 37.232,
-        "currentTime": 0.064487,
+        "currentTime": 0.057246,
         "error": null
       },
       "playbackDesktop": {
@@ -455,7 +455,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 37.232,
-        "currentTime": 0.079896,
+        "currentTime": 0.059571,
         "error": null
       },
       "playbackMobile": {
@@ -463,7 +463,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 37.232,
-        "currentTime": 0.064487,
+        "currentTime": 0.057246,
         "error": null
       },
       "desktopPlaybackAdvanced": true,
@@ -490,7 +490,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 39.776,
-        "currentTime": 0.054346,
+        "currentTime": 0.054055,
         "error": null
       },
       "mobile": {
@@ -498,7 +498,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 39.776,
-        "currentTime": 0.064879,
+        "currentTime": 0.054258,
         "error": null
       },
       "playbackDesktop": {
@@ -506,7 +506,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 39.776,
-        "currentTime": 0.054346,
+        "currentTime": 0.054055,
         "error": null
       },
       "playbackMobile": {
@@ -514,7 +514,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 39.776,
-        "currentTime": 0.064879,
+        "currentTime": 0.054258,
         "error": null
       },
       "desktopPlaybackAdvanced": true,
@@ -541,7 +541,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 36.032,
-        "currentTime": 0.072028,
+        "currentTime": 0.071199,
         "error": null
       },
       "mobile": {
@@ -549,7 +549,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 36.032,
-        "currentTime": 0.061189,
+        "currentTime": 0.066095,
         "error": null
       },
       "playbackDesktop": {
@@ -557,7 +557,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 36.032,
-        "currentTime": 0.072028,
+        "currentTime": 0.071199,
         "error": null
       },
       "playbackMobile": {
@@ -565,7 +565,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 36.032,
-        "currentTime": 0.061189,
+        "currentTime": 0.066095,
         "error": null
       },
       "desktopPlaybackAdvanced": true,
@@ -592,7 +592,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 68.212,
-        "currentTime": 0.10941,
+        "currentTime": 0.061708,
         "error": null
       },
       "mobile": {
@@ -600,7 +600,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 68.212,
-        "currentTime": 0.058396,
+        "currentTime": 0.061901,
         "error": null
       },
       "playbackDesktop": {
@@ -608,7 +608,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 68.212,
-        "currentTime": 0.10941,
+        "currentTime": 0.061708,
         "error": null
       },
       "playbackMobile": {
@@ -616,7 +616,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 68.212,
-        "currentTime": 0.058396,
+        "currentTime": 0.061901,
         "error": null
       },
       "desktopPlaybackAdvanced": true,
@@ -643,7 +643,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 68.26,
-        "currentTime": 0.063727,
+        "currentTime": 0.056506,
         "error": null
       },
       "mobile": {
@@ -651,7 +651,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 68.26,
-        "currentTime": 0.053488,
+        "currentTime": 0.056692,
         "error": null
       },
       "playbackDesktop": {
@@ -659,7 +659,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 68.26,
-        "currentTime": 0.063727,
+        "currentTime": 0.056506,
         "error": null
       },
       "playbackMobile": {
@@ -667,7 +667,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 68.26,
-        "currentTime": 0.053488,
+        "currentTime": 0.056692,
         "error": null
       },
       "desktopPlaybackAdvanced": true,
@@ -694,7 +694,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 69.508,
-        "currentTime": 0.059245,
+        "currentTime": 0.052726,
         "error": null
       },
       "mobile": {
@@ -702,7 +702,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 69.508,
-        "currentTime": 0.069914,
+        "currentTime": 0.07388,
         "error": null
       },
       "playbackDesktop": {
@@ -710,7 +710,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 69.508,
-        "currentTime": 0.059245,
+        "currentTime": 0.052726,
         "error": null
       },
       "playbackMobile": {
@@ -718,7 +718,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 69.508,
-        "currentTime": 0.069914,
+        "currentTime": 0.07388,
         "error": null
       },
       "desktopPlaybackAdvanced": true,
@@ -745,7 +745,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 70.708,
-        "currentTime": 0.071349,
+        "currentTime": 0.10966,
         "error": null
       },
       "mobile": {
@@ -753,7 +753,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 70.708,
-        "currentTime": 0.066336,
+        "currentTime": 0.069615,
         "error": null
       },
       "playbackDesktop": {
@@ -761,7 +761,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 70.708,
-        "currentTime": 0.071349,
+        "currentTime": 0.10966,
         "error": null
       },
       "playbackMobile": {
@@ -769,7 +769,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 70.708,
-        "currentTime": 0.066336,
+        "currentTime": 0.069615,
         "error": null
       },
       "desktopPlaybackAdvanced": true,
@@ -796,7 +796,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 67.852,
-        "currentTime": 0.066668,
+        "currentTime": 0.062979,
         "error": null
       },
       "mobile": {
@@ -804,7 +804,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 67.852,
-        "currentTime": 0.055903,
+        "currentTime": 0.063173,
         "error": null
       },
       "playbackDesktop": {
@@ -812,7 +812,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 67.852,
-        "currentTime": 0.066668,
+        "currentTime": 0.062979,
         "error": null
       },
       "playbackMobile": {
@@ -820,7 +820,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 67.852,
-        "currentTime": 0.055903,
+        "currentTime": 0.063173,
         "error": null
       },
       "desktopPlaybackAdvanced": true,
@@ -847,7 +847,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 29.284,
-        "currentTime": 0.076106,
+        "currentTime": 0.07318,
         "error": null
       },
       "mobile": {
@@ -855,7 +855,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 29.284,
-        "currentTime": 0.074781,
+        "currentTime": 0.070299,
         "error": null
       },
       "playbackDesktop": {
@@ -863,7 +863,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 29.284,
-        "currentTime": 0.076106,
+        "currentTime": 0.07318,
         "error": null
       },
       "playbackMobile": {
@@ -871,7 +871,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 29.284,
-        "currentTime": 0.074781,
+        "currentTime": 0.070299,
         "error": null
       },
       "desktopPlaybackAdvanced": true,
@@ -898,7 +898,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 35.788,
-        "currentTime": 0.050521,
+        "currentTime": 0.111085,
         "error": null
       },
       "mobile": {
@@ -906,7 +906,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 35.788,
-        "currentTime": 0.071875,
+        "currentTime": 0.070001,
         "error": null
       },
       "playbackDesktop": {
@@ -914,7 +914,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 35.788,
-        "currentTime": 0.050521,
+        "currentTime": 0.111085,
         "error": null
       },
       "playbackMobile": {
@@ -922,7 +922,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 35.788,
-        "currentTime": 0.071875,
+        "currentTime": 0.070001,
         "error": null
       },
       "desktopPlaybackAdvanced": true,
@@ -949,7 +949,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 28.612,
-        "currentTime": 0.065947,
+        "currentTime": 0.065967,
         "error": null
       },
       "mobile": {
@@ -957,7 +957,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 28.612,
-        "currentTime": 0.060152,
+        "currentTime": 0.065664,
         "error": null
       },
       "playbackDesktop": {
@@ -965,7 +965,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 28.612,
-        "currentTime": 0.065947,
+        "currentTime": 0.065967,
         "error": null
       },
       "playbackMobile": {
@@ -973,7 +973,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 28.612,
-        "currentTime": 0.060152,
+        "currentTime": 0.065664,
         "error": null
       },
       "desktopPlaybackAdvanced": true,
@@ -1000,7 +1000,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 32.236,
-        "currentTime": 0.05562,
+        "currentTime": 0.061563,
         "error": null
       },
       "mobile": {
@@ -1008,7 +1008,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 32.236,
-        "currentTime": 0.070781,
+        "currentTime": 0.061531,
         "error": null
       },
       "playbackDesktop": {
@@ -1016,7 +1016,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 32.236,
-        "currentTime": 0.05562,
+        "currentTime": 0.061563,
         "error": null
       },
       "playbackMobile": {
@@ -1024,7 +1024,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 32.236,
-        "currentTime": 0.070781,
+        "currentTime": 0.061531,
         "error": null
       },
       "desktopPlaybackAdvanced": true,
@@ -1051,7 +1051,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 29.236,
-        "currentTime": 0.066881,
+        "currentTime": 0.057134,
         "error": null
       },
       "mobile": {
@@ -1059,7 +1059,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 29.236,
-        "currentTime": 0.066911,
+        "currentTime": 0.057007,
         "error": null
       },
       "playbackDesktop": {
@@ -1067,7 +1067,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 29.236,
-        "currentTime": 0.066881,
+        "currentTime": 0.057134,
         "error": null
       },
       "playbackMobile": {
@@ -1075,7 +1075,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 29.236,
-        "currentTime": 0.066911,
+        "currentTime": 0.057007,
         "error": null
       },
       "desktopPlaybackAdvanced": true,
@@ -1102,7 +1102,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 28.42,
-        "currentTime": 0.062471,
+        "currentTime": 0.05337,
         "error": null
       },
       "mobile": {
@@ -1110,7 +1110,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 28.42,
-        "currentTime": 0.077686,
+        "currentTime": 0.074641,
         "error": null
       },
       "playbackDesktop": {
@@ -1118,7 +1118,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 28.42,
-        "currentTime": 0.062471,
+        "currentTime": 0.05337,
         "error": null
       },
       "playbackMobile": {
@@ -1126,7 +1126,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 28.42,
-        "currentTime": 0.077686,
+        "currentTime": 0.074641,
         "error": null
       },
       "desktopPlaybackAdvanced": true,
@@ -1153,7 +1153,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 30.82,
-        "currentTime": 0.054211,
+        "currentTime": 0.070804,
         "error": null
       },
       "mobile": {
@@ -1161,7 +1161,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 30.82,
-        "currentTime": 0.054187,
+        "currentTime": 0.070736,
         "error": null
       },
       "playbackDesktop": {
@@ -1169,7 +1169,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 30.82,
-        "currentTime": 0.054211,
+        "currentTime": 0.070804,
         "error": null
       },
       "playbackMobile": {
@@ -1177,7 +1177,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 30.82,
-        "currentTime": 0.054187,
+        "currentTime": 0.070736,
         "error": null
       },
       "desktopPlaybackAdvanced": true,
@@ -1204,7 +1204,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 33.388,
-        "currentTime": 0.067414,
+        "currentTime": 0.061659,
         "error": null
       },
       "mobile": {
@@ -1212,7 +1212,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 33.388,
-        "currentTime": 0.072783,
+        "currentTime": 0.06643,
         "error": null
       },
       "playbackDesktop": {
@@ -1220,7 +1220,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 33.388,
-        "currentTime": 0.067414,
+        "currentTime": 0.061659,
         "error": null
       },
       "playbackMobile": {
@@ -1228,7 +1228,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 33.388,
-        "currentTime": 0.072783,
+        "currentTime": 0.06643,
         "error": null
       },
       "desktopPlaybackAdvanced": true,
@@ -1255,7 +1255,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 27.052,
-        "currentTime": 0.062188,
+        "currentTime": 0.058846,
         "error": null
       },
       "mobile": {
@@ -1263,7 +1263,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 27.052,
-        "currentTime": 0.062543,
+        "currentTime": 0.058818,
         "error": null
       },
       "playbackDesktop": {
@@ -1271,7 +1271,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 27.052,
-        "currentTime": 0.062188,
+        "currentTime": 0.058846,
         "error": null
       },
       "playbackMobile": {
@@ -1279,7 +1279,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 27.052,
-        "currentTime": 0.062543,
+        "currentTime": 0.058818,
         "error": null
       },
       "desktopPlaybackAdvanced": true,
@@ -1306,7 +1306,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 29.26,
-        "currentTime": 0.060086,
+        "currentTime": 0.055699,
         "error": null
       },
       "mobile": {
@@ -1314,7 +1314,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 29.26,
-        "currentTime": 0.060118,
+        "currentTime": 0.077012,
         "error": null
       },
       "playbackDesktop": {
@@ -1322,7 +1322,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 29.26,
-        "currentTime": 0.060086,
+        "currentTime": 0.055699,
         "error": null
       },
       "playbackMobile": {
@@ -1330,7 +1330,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 29.26,
-        "currentTime": 0.060118,
+        "currentTime": 0.077012,
         "error": null
       },
       "desktopPlaybackAdvanced": true,
@@ -1357,7 +1357,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 29.332,
-        "currentTime": 0.070327,
+        "currentTime": 0.053158,
         "error": null
       },
       "mobile": {
@@ -1365,7 +1365,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 29.332,
-        "currentTime": 0.054852,
+        "currentTime": 0.074488,
         "error": null
       },
       "playbackDesktop": {
@@ -1373,7 +1373,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 29.332,
-        "currentTime": 0.070327,
+        "currentTime": 0.053158,
         "error": null
       },
       "playbackMobile": {
@@ -1381,7 +1381,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 29.332,
-        "currentTime": 0.054852,
+        "currentTime": 0.074488,
         "error": null
       },
       "desktopPlaybackAdvanced": true,
@@ -1408,7 +1408,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 51.452,
-        "currentTime": 0.065828,
+        "currentTime": 0.05031,
         "error": null
       },
       "mobile": {
@@ -1416,7 +1416,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 51.452,
-        "currentTime": 0.065872,
+        "currentTime": 0.071594,
         "error": null
       },
       "playbackDesktop": {
@@ -1424,7 +1424,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 51.452,
-        "currentTime": 0.065828,
+        "currentTime": 0.05031,
         "error": null
       },
       "playbackMobile": {
@@ -1432,7 +1432,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 51.452,
-        "currentTime": 0.065872,
+        "currentTime": 0.071594,
         "error": null
       },
       "desktopPlaybackAdvanced": true,
@@ -1459,7 +1459,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 60.252,
-        "currentTime": 0.060304,
+        "currentTime": 0.063032,
         "error": null
       },
       "mobile": {
@@ -1467,7 +1467,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 60.252,
-        "currentTime": 0.060231,
+        "currentTime": 0.068325,
         "error": null
       },
       "playbackDesktop": {
@@ -1475,7 +1475,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 60.252,
-        "currentTime": 0.060304,
+        "currentTime": 0.063032,
         "error": null
       },
       "playbackMobile": {
@@ -1483,7 +1483,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 60.252,
-        "currentTime": 0.060231,
+        "currentTime": 0.068325,
         "error": null
       },
       "desktopPlaybackAdvanced": true,
@@ -1510,7 +1510,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 51.156,
-        "currentTime": 0.071108,
+        "currentTime": 0.059206,
         "error": null
       },
       "mobile": {
@@ -1518,7 +1518,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 51.156,
-        "currentTime": 0.055732,
+        "currentTime": 0.075274,
         "error": null
       },
       "playbackDesktop": {
@@ -1526,7 +1526,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 51.156,
-        "currentTime": 0.071108,
+        "currentTime": 0.059206,
         "error": null
       },
       "playbackMobile": {
@@ -1534,7 +1534,7 @@
         "played": true,
         "timeAdvanced": true,
         "duration": 51.156,
-        "currentTime": 0.055732,
+        "currentTime": 0.075274,
         "error": null
       },
       "desktopPlaybackAdvanced": true,

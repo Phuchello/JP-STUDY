@@ -1,0 +1,103 @@
+{
+  "reviewer": {
+    "identity": "Separate Codex AI editorial reviewer",
+    "certification": "AI editorial review only; not native-speaker or human certification"
+  },
+  "input": {
+    "packetPath": "qa/PHASE_7_1_FINAL_INTEGRATION_DELTA_PACKET_20261023_v1.json",
+    "sha256": "98ef4ff37ef3f40b851a47619ccfd313d57e712f0be8f7a0c5ade570d0bcc699",
+    "keyExcluded": true,
+    "keyUse": "No answer key or other review artifact was consulted; review used only the supplied key-free packet."
+  },
+  "items": [
+    {
+      "id": "N2_12_M8_05",
+      "selectedAnswer": {
+        "optionId": "A",
+        "exactDisplayedOptionText": "比較の対象に加える",
+        "fullFragmentOrder": [
+          "初期費用だけで判断せず、",
+          "将来の維持費も",
+          "比較の対象に加える",
+          "必要がある。"
+        ],
+        "reconstructedSentence": "初期費用だけで判断せず、将来の維持費も比較の対象に加える必要がある。"
+      },
+      "defensibleAlternativeOrders": [],
+      "alternativeChangesThirdSlot": false,
+      "rationale": "The fragments form a natural sentence: the initial cost should not be the sole basis for judgment, and future maintenance costs also need to be included in the comparison. The context explicitly says multiple public-project proposals will be compared on future maintenance costs, so the sentence fits. The order is effectively constrained by the clause opener, the topic-marked object, the predicate, and the sentence-final 必要がある。",
+      "japaneseNaturalness": "Natural and grammatically well formed.",
+      "passageContextFit": "Strong; it restates the stated policy in fuller form.",
+      "answerUniqueness": "High. No other fragment order makes a natural, contextually coherent sentence.",
+      "distractorPlausibility": "The fragments are individually plausible, and their syntactic dependencies make the ordering task meaningful. The short context supports the meaning without giving the complete wording.",
+      "inferentialDepth": "Low to moderate; mainly requires recognizing clause and predicate relationships, with a direct context match.",
+      "confidence": "High",
+      "concerns": "No material concern."
+    },
+    {
+      "id": "N2_13_M8_02",
+      "selectedAnswer": {
+        "optionId": "C",
+        "exactDisplayedOptionText": "考慮して説明の順序を",
+        "fullFragmentOrder": [
+          "教員は学生の理解度だけでなく、",
+          "授業の目的も",
+          "考慮して説明の順序を",
+          "調整する必要がある。"
+        ],
+        "reconstructedSentence": "教員は学生の理解度だけでなく、授業の目的も考慮して説明の順序を調整する必要がある。"
+      },
+      "defensibleAlternativeOrders": [],
+      "alternativeChangesThirdSlot": false,
+      "rationale": "The 「だけでなく…も」 construction pairs 学生の理解度 with 授業の目的; 考慮して then takes those considerations as its basis, while 説明の順序を調整する completes the predicate. The passage says explanations are adapted to students' comprehension, making the added consideration of lesson purpose a coherent elaboration.",
+      "japaneseNaturalness": "Natural and grammatically well formed.",
+      "passageContextFit": "Good; it extends the passage's point about adapting explanations to student understanding. Lesson purpose is an additional, reasonable consideration rather than a detail stated verbatim.",
+      "answerUniqueness": "High. The paired focus markers and predicate dependencies strongly constrain the order.",
+      "distractorPlausibility": "The fragments are plausible components of a sentence, and their placement tests the scope of 「だけでなく…も」 and the link between 考慮して and 調整する.",
+      "inferentialDepth": "Low to moderate; the item primarily tests grammatical assembly, with a modest contextual inference that lesson purpose is also relevant.",
+      "confidence": "High",
+      "concerns": "The passage mentions student understanding but not lesson purpose directly; the proposed sentence remains a natural and relevant extension."
+    },
+    {
+      "id": "N2_13_M8_05",
+      "selectedAnswer": {
+        "optionId": "B",
+        "exactDisplayedOptionText": "照合したうえで、",
+        "fullFragmentOrder": [
+          "編集部は、記事の内容を",
+          "複数の資料と",
+          "照合したうえで、",
+          "公開することにした。"
+        ],
+        "reconstructedSentence": "編集部は、記事の内容を複数の資料と照合したうえで、公開することにした。"
+      },
+      "defensibleAlternativeOrders": [],
+      "alternativeChangesThirdSlot": false,
+      "rationale": "記事の内容を is the object, 複数の資料と supplies the comparison partner, and 照合したうえで leads naturally to the decision to publish. This matches the passage's description of checking information against other materials before publication. Putting 複数の資料と before 編集部は would instead make the materials part of the subject with the editorial department, yielding an implausible reading in this context, not a defensible alternative.",
+      "japaneseNaturalness": "Natural and grammatically well formed in the selected order.",
+      "passageContextFit": "Strong; the sentence directly reflects the described pre-publication verification practice.",
+      "answerUniqueness": "High. The object, comparison phrase, and sequential predicate determine the order. A reordered reading that treats the materials as co-subjects is semantically implausible here.",
+      "distractorPlausibility": "The fragments are all natural sentence parts; choosing their order depends on recognizing the object and the に相当する comparison phrase marked by と.",
+      "inferentialDepth": "Low to moderate; it tests grammatical dependencies and a direct connection to the passage.",
+      "confidence": "High",
+      "concerns": "No material concern."
+    },
+    {
+      "id": "N2_13_M11_03",
+      "selectedAnswer": {
+        "optionId": "A",
+        "exactDisplayedOptionText": "確認できた事実と、まだ確認できていない情報の違い"
+      },
+      "defensibleAlternatives": [],
+      "alternativeChangesAnswer": false,
+      "rationale": "The passage says the article separates confirmed facts from unconfirmed information and retains points that could not be verified so readers can judge reliability. Option A captures that reporting method. B substitutes social sharing for verification, C contradicts the explicit decision to retain unconfirmed points, and D attributes a viewpoint to the editor that the passage does not describe.",
+      "japaneseNaturalness": "The question and all four option phrases are understandable and natural as reading-comprehension choices. Option A is concise and directly answers the question.",
+      "passageContextFit": "Very strong; the answer directly paraphrases the article's stated method.",
+      "answerUniqueness": "Very high; the passage explicitly supports A and rules out C, while B and D are unsupported.",
+      "distractorPlausibility": "The distractors represent recognizable reporting errors or unsupported interpretations. C is especially plausible at a glance but is directly contradicted by the passage; B and D are less plausible because the passage emphasizes verification and reader judgment.",
+      "inferentialDepth": "Low; the answer is a close paraphrase of an explicit sentence. It checks comprehension but requires little synthesis across the passage.",
+      "confidence": "High",
+      "concerns": "The correct option closely echoes the passage's explicit distinction, so the item has limited inferential depth. Distractor B is comparatively easy to reject because it introduces social reach as a substitute for fact checking, which the passage never suggests."
+    }
+  ]
+}

@@ -340,7 +340,7 @@ QUESTION_REVISIONS = {
         "explanationVi": "Báo cáo cần nêu cả vị trí sai lẫn cách viết đúng để bộ phận phụ trách xác minh và sửa. Chỉ gửi một trong hai thông tin sẽ khó tìm hoặc kiểm tra đúng chỗ.",
     },
     "N2_13_M11_03": {
-        "stem": "読者が情報の確かさを判断できるよう、編集部が記事で明らかにしていることは何か。",
+        "stem": "記事では、確認の結果を読者にどのように示しているか。",
         "optionsById": {"A": "確認できた事実と、まだ確認できていない情報の違い", "B": "投稿が広く共有されているかどうかを、事実確認の代わりに示すこと", "C": "確認できなかった点を記事から外し、確定した内容だけに整理した経緯", "D": "投稿の表現を編集部が要約し、発信者に代わって見解を示した内容"},
         "explanationVi": "Ban biên tập tách điều đã xác minh khỏi điều còn chưa rõ để độc giả tự đánh giá mức đáng tin. Họ giữ dấu vết về nguồn và sai khác, không xóa đi hay tự viết lại phát biểu.",
     },

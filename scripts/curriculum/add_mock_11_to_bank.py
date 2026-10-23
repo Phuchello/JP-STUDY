@@ -120,6 +120,8 @@ def main() -> None:
     items = [q for section in sections for q in section.get("items", [])]
     if exam.get("examId") != KEY or exam.get("status") != "FULL_MOCK":
         raise ValueError("Only a promoted FULL_MOCK may be added to the playable bank")
+    if exam.get("releaseGateStatus") != "REVIEW_CONTENT_VERSION_VERIFIED":
+        raise ValueError("M11 current-version content review gate has not passed")
     if [len(section.get("items", [])) for section in sections] != [75, 30] or len(items) != 105:
         raise ValueError("M11 integration requires exactly 75 + 30 questions")
     if any(q.get("audioVerificationStatus") != "BROWSER_PLAYBACK_VERIFIED" for q in sections[1]["items"]):

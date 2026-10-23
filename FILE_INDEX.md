@@ -644,6 +644,8 @@ Snapshot 2026-10-23. VERIFIED is scoped verification, not JLPT certification. Hi
 | [qa/N2_MOCK_11_INDEPENDENT_AUDIT_REPORT.md](qa/N2_MOCK_11_INDEPENDENT_AUDIT_REPORT.md) | VERIFIED |
 | [qa/N2_MOCK_11_LIVE_DEPLOYMENT_RECEIPT.json](qa/N2_MOCK_11_LIVE_DEPLOYMENT_RECEIPT.json) | VERIFIED |
 | [qa/N2_MOCK_11_ORIGINALITY_AUDIT.json](qa/N2_MOCK_11_ORIGINALITY_AUDIT.json) | VERIFIED |
+| [qa/N2_MOCK_11_PHASE71_CANDIDATE_RECONCILIATION.json](qa/N2_MOCK_11_PHASE71_CANDIDATE_RECONCILIATION.json) | VERIFIED |
+| [qa/N2_MOCK_11_PHASE71_HISTORICAL_RECONCILIATION.json](qa/N2_MOCK_11_PHASE71_HISTORICAL_RECONCILIATION.json) | VERIFIED |
 | [qa/N2_MOCK_12_AUDIO_PLAYBACK_RECEIPT.json](qa/N2_MOCK_12_AUDIO_PLAYBACK_RECEIPT.json) | QA_PENDING |
 | [qa/N2_MOCK_12_AUDIO_PLAYBACK_REPORT.md](qa/N2_MOCK_12_AUDIO_PLAYBACK_REPORT.md) | QA_PENDING |
 | [qa/N2_MOCK_12_BLIND_RECONCILIATION.json](qa/N2_MOCK_12_BLIND_RECONCILIATION.json) | QA_PENDING |
@@ -651,6 +653,7 @@ Snapshot 2026-10-23. VERIFIED is scoped verification, not JLPT certification. Hi
 | [qa/N2_MOCK_12_INDEPENDENT_AUDIT_REPORT.md](qa/N2_MOCK_12_INDEPENDENT_AUDIT_REPORT.md) | QA_PENDING |
 | [qa/N2_MOCK_12_LIVE_DEPLOYMENT_RECEIPT.json](qa/N2_MOCK_12_LIVE_DEPLOYMENT_RECEIPT.json) | VERIFIED |
 | [qa/N2_MOCK_12_ORIGINALITY_AUDIT.json](qa/N2_MOCK_12_ORIGINALITY_AUDIT.json) | QA_PENDING |
+| [qa/N2_MOCK_12_PHASE71_CANDIDATE_RECONCILIATION.json](qa/N2_MOCK_12_PHASE71_CANDIDATE_RECONCILIATION.json) | VERIFIED |
 | [qa/N2_MOCK_13_AUDIO_PLAYBACK_RECEIPT.json](qa/N2_MOCK_13_AUDIO_PLAYBACK_RECEIPT.json) | VERIFIED |
 | [qa/N2_MOCK_13_AUDIO_PLAYBACK_REPORT.md](qa/N2_MOCK_13_AUDIO_PLAYBACK_REPORT.md) | VERIFIED |
 | [qa/N2_MOCK_13_BLIND_RECONCILIATION.json](qa/N2_MOCK_13_BLIND_RECONCILIATION.json) | VERIFIED |
@@ -658,6 +661,7 @@ Snapshot 2026-10-23. VERIFIED is scoped verification, not JLPT certification. Hi
 | [qa/N2_MOCK_13_INDEPENDENT_AUDIT_REPORT.md](qa/N2_MOCK_13_INDEPENDENT_AUDIT_REPORT.md) | VERIFIED |
 | [qa/N2_MOCK_13_LIVE_DEPLOYMENT_RECEIPT.json](qa/N2_MOCK_13_LIVE_DEPLOYMENT_RECEIPT.json) | VERIFIED |
 | [qa/N2_MOCK_13_ORIGINALITY_AUDIT.json](qa/N2_MOCK_13_ORIGINALITY_AUDIT.json) | VERIFIED |
+| [qa/N2_MOCK_13_PHASE71_CANDIDATE_RECONCILIATION.json](qa/N2_MOCK_13_PHASE71_CANDIDATE_RECONCILIATION.json) | VERIFIED |
 | [qa/N2_MOCK_14_AUDIO_PLAYBACK_RECEIPT.json](qa/N2_MOCK_14_AUDIO_PLAYBACK_RECEIPT.json) | QA_PENDING |
 | [qa/N2_MOCK_14_AUDIO_PLAYBACK_REPORT.md](qa/N2_MOCK_14_AUDIO_PLAYBACK_REPORT.md) | QA_PENDING |
 | [qa/N2_MOCK_14_DRAFT_QA.json](qa/N2_MOCK_14_DRAFT_QA.json) | DRAFT |
@@ -669,8 +673,14 @@ Snapshot 2026-10-23. VERIFIED is scoped verification, not JLPT certification. Hi
 | [qa/PHASE_6_1_RUNTIME_SEMANTICS_REPORT.json](qa/PHASE_6_1_RUNTIME_SEMANTICS_REPORT.json) | VERIFIED |
 | [qa/PHASE_7_1_CANDIDATE_E2E_REPORT.json](qa/PHASE_7_1_CANDIDATE_E2E_REPORT.json) | VERIFIED |
 | [qa/PHASE_7_1_CANDIDATE_REPAIR_QA.md](qa/PHASE_7_1_CANDIDATE_REPAIR_QA.md) | QA_PENDING |
-| [qa/PHASE_7_1_FINAL_CLOSURE_20261023.md](qa/PHASE_7_1_FINAL_CLOSURE_20261023.md) | VERIFIED |
+| [qa/PHASE_7_1_FINAL_CLOSURE_20261023.md](qa/PHASE_7_1_FINAL_CLOSURE_20261023.md) | QA_PENDING |
+| [qa/PHASE_7_1_FINAL_INTEGRATION_DELTA_PACKET_20261023_v1.json](qa/PHASE_7_1_FINAL_INTEGRATION_DELTA_PACKET_20261023_v1.json) | VERIFIED |
+| [qa/PHASE_7_1_FINAL_INTEGRATION_DELTA_RAW_20261023_v1.json](qa/PHASE_7_1_FINAL_INTEGRATION_DELTA_RAW_20261023_v1.json) | VERIFIED |
+| [qa/PHASE_7_1_FINAL_INTEGRATION_DELTA_RAW_20261023_v1.redaction_provenance.json](qa/PHASE_7_1_FINAL_INTEGRATION_DELTA_RAW_20261023_v1.redaction_provenance.json) | VERIFIED |
+| [qa/PHASE_7_1_FINAL_RELEASE_INTEGRATION_20261023.md](qa/PHASE_7_1_FINAL_RELEASE_INTEGRATION_20261023.md) | QA_PENDING |
 | [qa/PHASE_7_1_FINAL_REVIEW_PROVENANCE_20261023.json](qa/PHASE_7_1_FINAL_REVIEW_PROVENANCE_20261023.json) | VERIFIED |
+| [qa/PHASE_7_1_FINAL_REVIEW_V8_RAW_20261023_v1.json](qa/PHASE_7_1_FINAL_REVIEW_V8_RAW_20261023_v1.json) | VERIFIED |
+| [qa/PHASE_7_1_FINAL_REVIEW_V8_RAW_20261023_v1.redaction_provenance.json](qa/PHASE_7_1_FINAL_REVIEW_V8_RAW_20261023_v1.redaction_provenance.json) | VERIFIED |
 | [qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261022.json](qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261022.json) | QA_PENDING |
 | [qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261022_v2.json](qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261022_v2.json) | QA_PENDING |
 | [qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261022_v3.json](qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261022_v3.json) | QA_PENDING |
@@ -692,6 +702,11 @@ Snapshot 2026-10-23. VERIFIED is scoped verification, not JLPT certification. Hi
 | [qa/PHASE_7_1_INDEPENDENT_REVIEW_RESPONSE_20261022_v4.md](qa/PHASE_7_1_INDEPENDENT_REVIEW_RESPONSE_20261022_v4.md) | VERIFIED |
 | [qa/PHASE_7_1_INDEPENDENT_REVIEW_RESPONSE_20261022_v5.md](qa/PHASE_7_1_INDEPENDENT_REVIEW_RESPONSE_20261022_v5.md) | VERIFIED |
 | [qa/PHASE_7_1_INDEPENDENT_REVIEW_RESPONSE_20261022_v6.md](qa/PHASE_7_1_INDEPENDENT_REVIEW_RESPONSE_20261022_v6.md) | VERIFIED |
+| [qa/PHASE_7_1_M11_CURRENT_DELTA_PACKET_20261023_v1.json](qa/PHASE_7_1_M11_CURRENT_DELTA_PACKET_20261023_v1.json) | QA_PENDING |
+| [qa/PHASE_7_1_M12_CURRENT_DELTA_PACKET_20261023_v1.json](qa/PHASE_7_1_M12_CURRENT_DELTA_PACKET_20261023_v1.json) | QA_PENDING |
+| [qa/PHASE_7_1_M12_M13_STAR_DELTA_PACKET_20261023_v1.json](qa/PHASE_7_1_M12_M13_STAR_DELTA_PACKET_20261023_v1.json) | VERIFIED |
+| [qa/PHASE_7_1_M12_M13_STAR_DELTA_RAW_20261023_v1.json](qa/PHASE_7_1_M12_M13_STAR_DELTA_RAW_20261023_v1.json) | VERIFIED |
+| [qa/PHASE_7_1_M13_CURRENT_DELTA_PACKET_20261023_v1.json](qa/PHASE_7_1_M13_CURRENT_DELTA_PACKET_20261023_v1.json) | QA_PENDING |
 | [qa/PHASE_7_1_READING_FEEDBACK_E2E_20261023.json](qa/PHASE_7_1_READING_FEEDBACK_E2E_20261023.json) | VERIFIED |
 | [qa/PHASE_7_COVERAGE_MATRIX.md](qa/PHASE_7_COVERAGE_MATRIX.md) | VERIFIED |
 | [qa/PRACTICE_RELEASE_GATE.md](qa/PRACTICE_RELEASE_GATE.md) | VERIFIED |
@@ -768,13 +783,16 @@ Snapshot 2026-10-23. VERIFIED is scoped verification, not JLPT certification. Hi
 | [qa/blind_items_m10_s1_p2.json](qa/blind_items_m10_s1_p2.json) | VERIFIED |
 | [qa/blind_items_m10_s2.json](qa/blind_items_m10_s2.json) | VERIFIED |
 | [qa/blind_items_m11_final.json](qa/blind_items_m11_final.json) | VERIFIED |
+| [qa/blind_items_m11_phase71_candidate.json](qa/blind_items_m11_phase71_candidate.json) | VERIFIED |
 | [qa/blind_items_m11_revision6.json](qa/blind_items_m11_revision6.json) | VERIFIED |
 | [qa/blind_items_m11_revision7.json](qa/blind_items_m11_revision7.json) | VERIFIED |
 | [qa/blind_items_m11_revision7_delta.json](qa/blind_items_m11_revision7_delta.json) | VERIFIED |
 | [qa/blind_items_m11_revision8.json](qa/blind_items_m11_revision8.json) | VERIFIED |
 | [qa/blind_items_m11_revision8_delta.json](qa/blind_items_m11_revision8_delta.json) | VERIFIED |
 | [qa/blind_items_m12_final.json](qa/blind_items_m12_final.json) | QA_PENDING |
+| [qa/blind_items_m12_phase71_candidate.json](qa/blind_items_m12_phase71_candidate.json) | VERIFIED |
 | [qa/blind_items_m13_final.json](qa/blind_items_m13_final.json) | VERIFIED |
+| [qa/blind_items_m13_phase71_candidate.json](qa/blind_items_m13_phase71_candidate.json) | VERIFIED |
 | [qa/blind_items_repaired_5.json](qa/blind_items_repaired_5.json) | QA_PENDING |
 | [qa/blind_review_dataset.json](qa/blind_review_dataset.json) | VERIFIED |
 | [qa/blind_review_dataset_210.json](qa/blind_review_dataset_210.json) | QA_PENDING |
@@ -845,6 +863,9 @@ Snapshot 2026-10-23. VERIFIED is scoped verification, not JLPT certification. Hi
 | [qa/historical_baseline/m06_pre_repair/raw_blind_m06_s1_p1.json](qa/historical_baseline/m06_pre_repair/raw_blind_m06_s1_p1.json) | QA_PENDING |
 | [qa/historical_baseline/m06_pre_repair/raw_blind_m06_s1_p2.json](qa/historical_baseline/m06_pre_repair/raw_blind_m06_s1_p2.json) | QA_PENDING |
 | [qa/historical_baseline/m06_pre_repair/raw_blind_m06_s2.json](qa/historical_baseline/m06_pre_repair/raw_blind_m06_s2.json) | QA_PENDING |
+| [qa/n2_mock_11_phase71_pre_release_baseline.json](qa/n2_mock_11_phase71_pre_release_baseline.json) | VERIFIED |
+| [qa/n2_mock_12_phase71_pre_release_baseline.json](qa/n2_mock_12_phase71_pre_release_baseline.json) | VERIFIED |
+| [qa/n2_mock_13_phase71_pre_release_baseline.json](qa/n2_mock_13_phase71_pre_release_baseline.json) | VERIFIED |
 | [qa/raw_blind_m01_s1_p1.json](qa/raw_blind_m01_s1_p1.json) | QA_PENDING |
 | [qa/raw_blind_m01_s1_p2.json](qa/raw_blind_m01_s1_p2.json) | QA_PENDING |
 | [qa/raw_blind_m01_s2.json](qa/raw_blind_m01_s2.json) | QA_PENDING |
@@ -1030,6 +1051,7 @@ Snapshot 2026-10-23. VERIFIED is scoped verification, not JLPT certification. Hi
 | [scripts/curriculum/build_full_mock_n2_14.py](scripts/curriculum/build_full_mock_n2_14.py) | DRAFT |
 | [scripts/curriculum/build_mock_system.py](scripts/curriculum/build_mock_system.py) | QA_PENDING |
 | [scripts/curriculum/build_n2_mock_08_star_permutation_audit.py](scripts/curriculum/build_n2_mock_08_star_permutation_audit.py) | QA_PENDING |
+| [scripts/curriculum/build_phase_71_candidate_reconciliation.py](scripts/curriculum/build_phase_71_candidate_reconciliation.py) | VERIFIED |
 | [scripts/curriculum/build_practice_sets.py](scripts/curriculum/build_practice_sets.py) | VERIFIED |
 | [scripts/curriculum/build_provenance_manifest.py](scripts/curriculum/build_provenance_manifest.py) | VERIFIED |
 | [scripts/curriculum/content_fingerprint.py](scripts/curriculum/content_fingerprint.py) | VERIFIED |

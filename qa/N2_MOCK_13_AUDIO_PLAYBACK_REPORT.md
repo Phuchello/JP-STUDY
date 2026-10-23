@@ -1,6 +1,6 @@
 # N2-MOCK-13 — Browser Audio Playback QA
 
-Generated: 2026-10-22T02:15:01.635Z
+Generated: 2026-10-23T13:17:55.733Z
 Scope: 30 M13 tracks, decoded and played in desktop and mobile-emulated Chromium.
 Result: 30/30 passed. This confirms browser decoding/playback and file mapping; it does not certify pronunciation or naturalness.
 

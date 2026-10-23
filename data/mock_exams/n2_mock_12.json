@@ -1656,7 +1656,7 @@
           "level": "N2",
           "typeId": "N2-GR-STAR",
           "category": "文の組み立て",
-          "stem": "次の文を完成させるとき、★に入る部分はどれか。\n（　　）（　　）★（　　）",
+          "stem": "（　　　）（　　　）（　★　）（　　　）。",
           "options": [
             {
               "id": "A",
@@ -1679,26 +1679,28 @@
           "explanation": "語句の係り受けを確認して文を組み立てます。",
           "explanationVi": "Cụm ★ là 「確認し、」. Câu hoàn chỉnh: 申請者が提出した書類を受付で確認し、不足があればその場で知らせた. 「申請者が提出した」 là mệnh đề bổ nghĩa cho 書類を; tân ngữ này phải đứng trước động từ 確認し、. Phần kết nêu hành động tiếp theo nếu giấy tờ thiếu.",
           "distractorExplanations": {
-            "A": "Cụm «不足があればその場で知らせた» không chiếm vị trí ★ trong trật tự tự nhiên. Cụm ★ là 「確認し、」. Câu hoàn chỉnh: 申請者が提出した書類を受付で確認し、不足があればその場で知らせた. 「申請者が提出した」 là mệnh đề bổ nghĩa cho 書類を; tân ngữ này phải đứng trước động từ 確認し、. Phần kết nêu hành động tiếp theo nếu giấy tờ thiếu.",
-            "C": "Cụm «申請者が提出した» không chiếm vị trí ★ trong trật tự tự nhiên. Cụm ★ là 「確認し、」. Câu hoàn chỉnh: 申請者が提出した書類を受付で確認し、不足があればその場で知らせた. 「申請者が提出した」 là mệnh đề bổ nghĩa cho 書類を; tân ngữ này phải đứng trước động từ 確認し、. Phần kết nêu hành động tiếp theo nếu giấy tờ thiếu.",
-            "D": "Cụm «書類を受付で» không chiếm vị trí ★ trong trật tự tự nhiên. Cụm ★ là 「確認し、」. Câu hoàn chỉnh: 申請者が提出した書類を受付で確認し、不足があればその場で知らせた. 「申請者が提出した」 là mệnh đề bổ nghĩa cho 書類を; tân ngữ này phải đứng trước động từ 確認し、. Phần kết nêu hành động tiếp theo nếu giấy tờ thiếu."
+            "A": "Cụm «不足があればその場で知らせた» không chiếm vị trí ★ trong trật tự tự nhiên. Cụm ★ là 「確認し、」. Câu hoàn chỉnh: 申請者が提出した書類を受付で確認し、不足があればその場で知らせた。. 「申請者が提出した」 là mệnh đề bổ nghĩa cho 書類を; tân ngữ này phải đứng trước động từ 確認し、. Phần kết nêu hành động tiếp theo nếu giấy tờ thiếu.",
+            "C": "Cụm «申請者が提出した» không chiếm vị trí ★ trong trật tự tự nhiên. Cụm ★ là 「確認し、」. Câu hoàn chỉnh: 申請者が提出した書類を受付で確認し、不足があればその場で知らせた。. 「申請者が提出した」 là mệnh đề bổ nghĩa cho 書類を; tân ngữ này phải đứng trước động từ 確認し、. Phần kết nêu hành động tiếp theo nếu giấy tờ thiếu.",
+            "D": "Cụm «書類を受付で» không chiếm vị trí ★ trong trật tự tự nhiên. Cụm ★ là 「確認し、」. Câu hoàn chỉnh: 申請者が提出した書類を受付で確認し、不足があればその場で知らせた。. 「申請者が提出した」 là mệnh đề bổ nghĩa cho 書類を; tân ngữ này phải đứng trước động từ 確認し、. Phần kết nêu hành động tiếp theo nếu giấy tờ thiếu."
           },
           "topicTag": "community",
           "difficultyBand": 2,
-          "assembledSentence": "申請者が提出した書類を受付で確認し、不足があればその場で知らせた",
+          "assembledSentence": "申請者が提出した書類を受付で確認し、不足があればその場で知らせた。",
           "starredOptionText": "確認し、",
           "starPosition": 3,
           "fragmentOrder": "C→D→B→A",
           "starValidationSchema": "DISPLAYED_FRAGMENT_ORDER_V1",
           "distractorStrategy": "語順・係り受け",
-          "skill": "Language Knowledge"
+          "skill": "Language Knowledge",
+          "contextPassage": "窓口では、書類に不足があるときの案内方法を統一することになった。",
+          "passage": "窓口では、書類に不足があるときの案内方法を統一することになった。"
         },
         {
           "id": "N2_12_M8_02",
           "level": "N2",
           "typeId": "N2-GR-STAR",
           "category": "文の組み立て",
-          "stem": "次の文を完成させるとき、★に入る部分はどれか。\n（　　）（　　）★（　　）",
+          "stem": "（　　　）（　　　）（　★　）（　　　）。",
           "options": [
             {
               "id": "A",
@@ -1721,26 +1723,28 @@
           "explanation": "語句の係り受けを確認して文を組み立てます。",
           "explanationVi": "Cụm ★ là 「公開前に担当者が確認し、」. Câu hoàn chỉnh: まず回答を集計し、個人情報が含まれていないか公開前に担当者が確認し、必要に応じて該当箇所を修正する. Mệnh đề nghi vấn với 「ないか」 làm nội dung được kiểm tra nên phải đứng trước 「確認し」; nếu cần thì chỉnh sửa sau đó.",
           "distractorExplanations": {
-            "B": "Cụm «必要に応じて該当箇所を修正する» không chiếm vị trí ★ trong trật tự tự nhiên. Cụm ★ là 「公開前に担当者が確認し、」. Câu hoàn chỉnh: まず回答を集計し、個人情報が含まれていないか公開前に担当者が確認し、必要に応じて該当箇所を修正する. Mệnh đề nghi vấn với 「ないか」 làm nội dung được kiểm tra nên phải đứng trước 「確認し」; nếu cần thì chỉnh sửa sau đó.",
-            "C": "Cụm «まず回答を集計し、» không chiếm vị trí ★ trong trật tự tự nhiên. Cụm ★ là 「公開前に担当者が確認し、」. Câu hoàn chỉnh: まず回答を集計し、個人情報が含まれていないか公開前に担当者が確認し、必要に応じて該当箇所を修正する. Mệnh đề nghi vấn với 「ないか」 làm nội dung được kiểm tra nên phải đứng trước 「確認し」; nếu cần thì chỉnh sửa sau đó.",
-            "D": "Cụm «個人情報が含まれていないか» không chiếm vị trí ★ trong trật tự tự nhiên. Cụm ★ là 「公開前に担当者が確認し、」. Câu hoàn chỉnh: まず回答を集計し、個人情報が含まれていないか公開前に担当者が確認し、必要に応じて該当箇所を修正する. Mệnh đề nghi vấn với 「ないか」 làm nội dung được kiểm tra nên phải đứng trước 「確認し」; nếu cần thì chỉnh sửa sau đó."
+            "B": "Cụm «必要に応じて該当箇所を修正する» không chiếm vị trí ★ trong trật tự tự nhiên. Cụm ★ là 「公開前に担当者が確認し、」. Câu hoàn chỉnh: まず回答を集計し、個人情報が含まれていないか公開前に担当者が確認し、必要に応じて該当箇所を修正する。. Mệnh đề nghi vấn với 「ないか」 làm nội dung được kiểm tra nên phải đứng trước 「確認し」; nếu cần thì chỉnh sửa sau đó.",
+            "C": "Cụm «まず回答を集計し、» không chiếm vị trí ★ trong trật tự tự nhiên. Cụm ★ là 「公開前に担当者が確認し、」. Câu hoàn chỉnh: まず回答を集計し、個人情報が含まれていないか公開前に担当者が確認し、必要に応じて該当箇所を修正する。. Mệnh đề nghi vấn với 「ないか」 làm nội dung được kiểm tra nên phải đứng trước 「確認し」; nếu cần thì chỉnh sửa sau đó.",
+            "D": "Cụm «個人情報が含まれていないか» không chiếm vị trí ★ trong trật tự tự nhiên. Cụm ★ là 「公開前に担当者が確認し、」. Câu hoàn chỉnh: まず回答を集計し、個人情報が含まれていないか公開前に担当者が確認し、必要に応じて該当箇所を修正する。. Mệnh đề nghi vấn với 「ないか」 làm nội dung được kiểm tra nên phải đứng trước 「確認し」; nếu cần thì chỉnh sửa sau đó."
           },
           "topicTag": "community",
           "difficultyBand": 2,
-          "assembledSentence": "まず回答を集計し、個人情報が含まれていないか公開前に担当者が確認し、必要に応じて該当箇所を修正する",
+          "assembledSentence": "まず回答を集計し、個人情報が含まれていないか公開前に担当者が確認し、必要に応じて該当箇所を修正する。",
           "starredOptionText": "公開前に担当者が確認し、",
           "starPosition": 3,
           "fragmentOrder": "C→D→A→B",
           "starValidationSchema": "DISPLAYED_FRAGMENT_ORDER_V1",
           "distractorStrategy": "語順・係り受け",
-          "skill": "Language Knowledge"
+          "skill": "Language Knowledge",
+          "contextPassage": "市の広報課は、調査結果を公表する前の確認手順を決めた。",
+          "passage": "市の広報課は、調査結果を公表する前の確認手順を決めた。"
         },
         {
           "id": "N2_12_M8_03",
           "level": "N2",
           "typeId": "N2-GR-STAR",
           "category": "文の組み立て",
-          "stem": "次の文を完成させるとき、★に入る部分はどれか。\n（　　）（　　）★（　　）",
+          "stem": "（　　　）（　　　）（　★　）（　　　）。",
           "options": [
             {
               "id": "A",
@@ -1763,26 +1767,28 @@
           "explanation": "語句の係り受けを確認して文を組み立てます。",
           "explanationVi": "Cụm ★ là 「事前に確認し、」. Câu hoàn chỉnh: 市が指定した避難場所を事前に確認し、必要な物資を準備しておく. 「市が指定した」 bổ nghĩa trực tiếp cho danh từ 避難場所; tân ngữ 避難場所を phải đứng trước động từ 確認し、, rồi mới đến hành động chuẩn bị vật dụng cần thiết.",
           "distractorExplanations": {
-            "A": "Cụm «避難場所を» không chiếm vị trí ★ trong trật tự tự nhiên. Cụm ★ là 「事前に確認し、」. Câu hoàn chỉnh: 市が指定した避難場所を事前に確認し、必要な物資を準備しておく. 「市が指定した」 bổ nghĩa trực tiếp cho danh từ 避難場所; tân ngữ 避難場所を phải đứng trước động từ 確認し、, rồi mới đến hành động chuẩn bị vật dụng cần thiết.",
-            "B": "Cụm «必要な物資を準備しておく» không chiếm vị trí ★ trong trật tự tự nhiên. Cụm ★ là 「事前に確認し、」. Câu hoàn chỉnh: 市が指定した避難場所を事前に確認し、必要な物資を準備しておく. 「市が指定した」 bổ nghĩa trực tiếp cho danh từ 避難場所; tân ngữ 避難場所を phải đứng trước động từ 確認し、, rồi mới đến hành động chuẩn bị vật dụng cần thiết.",
-            "C": "Cụm «市が指定した» không chiếm vị trí ★ trong trật tự tự nhiên. Cụm ★ là 「事前に確認し、」. Câu hoàn chỉnh: 市が指定した避難場所を事前に確認し、必要な物資を準備しておく. 「市が指定した」 bổ nghĩa trực tiếp cho danh từ 避難場所; tân ngữ 避難場所を phải đứng trước động từ 確認し、, rồi mới đến hành động chuẩn bị vật dụng cần thiết."
+            "A": "Cụm «避難場所を» không chiếm vị trí ★ trong trật tự tự nhiên. Cụm ★ là 「事前に確認し、」. Câu hoàn chỉnh: 市が指定した避難場所を事前に確認し、必要な物資を準備しておく。. 「市が指定した」 bổ nghĩa trực tiếp cho danh từ 避難場所; tân ngữ 避難場所を phải đứng trước động từ 確認し、, rồi mới đến hành động chuẩn bị vật dụng cần thiết.",
+            "B": "Cụm «必要な物資を準備しておく» không chiếm vị trí ★ trong trật tự tự nhiên. Cụm ★ là 「事前に確認し、」. Câu hoàn chỉnh: 市が指定した避難場所を事前に確認し、必要な物資を準備しておく。. 「市が指定した」 bổ nghĩa trực tiếp cho danh từ 避難場所; tân ngữ 避難場所を phải đứng trước động từ 確認し、, rồi mới đến hành động chuẩn bị vật dụng cần thiết.",
+            "C": "Cụm «市が指定した» không chiếm vị trí ★ trong trật tự tự nhiên. Cụm ★ là 「事前に確認し、」. Câu hoàn chỉnh: 市が指定した避難場所を事前に確認し、必要な物資を準備しておく。. 「市が指定した」 bổ nghĩa trực tiếp cho danh từ 避難場所; tân ngữ 避難場所を phải đứng trước động từ 確認し、, rồi mới đến hành động chuẩn bị vật dụng cần thiết."
           },
           "topicTag": "community",
           "difficultyBand": 2,
-          "assembledSentence": "市が指定した避難場所を事前に確認し、必要な物資を準備しておく",
+          "assembledSentence": "市が指定した避難場所を事前に確認し、必要な物資を準備しておく。",
           "starredOptionText": "事前に確認し、",
           "starPosition": 3,
           "fragmentOrder": "C→A→D→B",
           "starValidationSchema": "DISPLAYED_FRAGMENT_ORDER_V1",
           "distractorStrategy": "語順・係り受け",
-          "skill": "Language Knowledge"
+          "skill": "Language Knowledge",
+          "contextPassage": "地域では災害に備え、各世帯が必要な準備を進めている。",
+          "passage": "地域では災害に備え、各世帯が必要な準備を進めている。"
         },
         {
           "id": "N2_12_M8_04",
           "level": "N2",
           "typeId": "N2-GR-STAR",
           "category": "文の組み立て",
-          "stem": "次の文を完成させるとき、★に入る部分はどれか。\n（　　）（　　）★（　　）",
+          "stem": "（　　　）（　　　）（　★　）（　　　）。",
           "options": [
             {
               "id": "A",
@@ -1805,61 +1811,65 @@
           "explanation": "語句の係り受けを確認して文を組み立てます。",
           "explanationVi": "Cụm ★ là 「食料品を届けるための移動販売車を導入し、」. Câu hoàn chỉnh: 市は買い物が難しい人に食料品を届けるための移動販売車を導入し、週に二回運行する. Cụm 「人に」 gắn với hành động giao thực phẩm; 「週に二回運行する」 nêu tần suất vận hành sau khi xe được đưa vào.",
           "distractorExplanations": {
-            "A": "Cụm «買い物が難しい人に» không chiếm vị trí ★ trong trật tự tự nhiên. Cụm ★ là 「食料品を届けるための移動販売車を導入し、」. Câu hoàn chỉnh: 市は買い物が難しい人に食料品を届けるための移動販売車を導入し、週に二回運行する. Cụm 「人に」 gắn với hành động giao thực phẩm; 「週に二回運行する」 nêu tần suất vận hành sau khi xe được đưa vào.",
-            "C": "Cụm «市は» không chiếm vị trí ★ trong trật tự tự nhiên. Cụm ★ là 「食料品を届けるための移動販売車を導入し、」. Câu hoàn chỉnh: 市は買い物が難しい人に食料品を届けるための移動販売車を導入し、週に二回運行する. Cụm 「人に」 gắn với hành động giao thực phẩm; 「週に二回運行する」 nêu tần suất vận hành sau khi xe được đưa vào.",
-            "D": "Cụm «週に二回運行する» không chiếm vị trí ★ trong trật tự tự nhiên. Cụm ★ là 「食料品を届けるための移動販売車を導入し、」. Câu hoàn chỉnh: 市は買い物が難しい人に食料品を届けるための移動販売車を導入し、週に二回運行する. Cụm 「人に」 gắn với hành động giao thực phẩm; 「週に二回運行する」 nêu tần suất vận hành sau khi xe được đưa vào."
+            "A": "Cụm «買い物が難しい人に» không chiếm vị trí ★ trong trật tự tự nhiên. Cụm ★ là 「食料品を届けるための移動販売車を導入し、」. Câu hoàn chỉnh: 市は買い物が難しい人に食料品を届けるための移動販売車を導入し、週に二回運行する。. Cụm 「人に」 gắn với hành động giao thực phẩm; 「週に二回運行する」 nêu tần suất vận hành sau khi xe được đưa vào.",
+            "C": "Cụm «市は» không chiếm vị trí ★ trong trật tự tự nhiên. Cụm ★ là 「食料品を届けるための移動販売車を導入し、」. Câu hoàn chỉnh: 市は買い物が難しい人に食料品を届けるための移動販売車を導入し、週に二回運行する。. Cụm 「人に」 gắn với hành động giao thực phẩm; 「週に二回運行する」 nêu tần suất vận hành sau khi xe được đưa vào.",
+            "D": "Cụm «週に二回運行する» không chiếm vị trí ★ trong trật tự tự nhiên. Cụm ★ là 「食料品を届けるための移動販売車を導入し、」. Câu hoàn chỉnh: 市は買い物が難しい人に食料品を届けるための移動販売車を導入し、週に二回運行する。. Cụm 「人に」 gắn với hành động giao thực phẩm; 「週に二回運行する」 nêu tần suất vận hành sau khi xe được đưa vào."
           },
           "topicTag": "community",
           "difficultyBand": 2,
-          "assembledSentence": "市は買い物が難しい人に食料品を届けるための移動販売車を導入し、週に二回運行する",
+          "assembledSentence": "市は買い物が難しい人に食料品を届けるための移動販売車を導入し、週に二回運行する。",
           "starredOptionText": "食料品を届けるための移動販売車を導入し、",
           "starPosition": 3,
           "fragmentOrder": "C→A→B→D",
           "starValidationSchema": "DISPLAYED_FRAGMENT_ORDER_V1",
           "distractorStrategy": "語順・係り受け",
-          "skill": "Language Knowledge"
+          "skill": "Language Knowledge",
+          "contextPassage": "市は、食料を買いにくい地域の住民を支援する方法を検討した。",
+          "passage": "市は、食料を買いにくい地域の住民を支援する方法を検討した。"
         },
         {
           "id": "N2_12_M8_05",
           "level": "N2",
           "typeId": "N2-GR-STAR",
           "category": "文の組み立て",
-          "stem": "次の文を完成させるとき、★に入る部分はどれか。\n（　　）（　　）★（　　）",
+          "stem": "（　　　）（　　　）（　★　）（　　　）",
           "options": [
             {
               "id": "A",
-              "text": "将来の維持費も"
+              "text": "比較の対象に加える"
             },
             {
               "id": "B",
-              "text": "比較したうえで決める"
+              "text": "必要がある。"
             },
             {
               "id": "C",
-              "text": "短期的な費用だけでなく"
+              "text": "将来の維持費も"
             },
             {
               "id": "D",
-              "text": "複数の案が出た場合には"
+              "text": "初期費用だけで判断せず、"
             }
           ],
           "correctAnswer": "A",
           "explanation": "語句の係り受けを確認して文を組み立てます。",
-          "explanationVi": "Cụm ★ là 「将来の維持費も」. Câu hoàn chỉnh: 複数の案が出た場合には短期的な費用だけでなく将来の維持費も比較したうえで決める. Cấu trúc だけでなく…も ghép hai khoản phí làm đối tượng so sánh trước động từ 決める.",
+          "explanationVi": "Cụm ★ là 「比較の対象に加える」. Câu hoàn chỉnh: 初期費用だけで判断せず、将来の維持費も比較の対象に加える必要がある。 Cấu trúc 「だけで…ず、…も」 buộc phần 初期費用 đi trước 将来の維持費; cụm ★ nối tân ngữ này với vị ngữ, sau đó 必要がある nêu điều cần làm.",
           "distractorExplanations": {
-            "B": "Cụm «比較したうえで決める» không chiếm vị trí ★ trong trật tự tự nhiên. Cụm ★ là 「将来の維持費も」. Câu hoàn chỉnh: 複数の案が出た場合には短期的な費用だけでなく将来の維持費も比較したうえで決める. Cấu trúc だけでなく…も ghép hai khoản phí làm đối tượng so sánh trước động từ 決める.",
-            "C": "Cụm «短期的な費用だけでなく» không chiếm vị trí ★ trong trật tự tự nhiên. Cụm ★ là 「将来の維持費も」. Câu hoàn chỉnh: 複数の案が出た場合には短期的な費用だけでなく将来の維持費も比較したうえで決める. Cấu trúc だけでなく…も ghép hai khoản phí làm đối tượng so sánh trước động từ 決める.",
-            "D": "Cụm «複数の案が出た場合には» không chiếm vị trí ★ trong trật tự tự nhiên. Cụm ★ là 「将来の維持費も」. Câu hoàn chỉnh: 複数の案が出た場合には短期的な費用だけでなく将来の維持費も比較したうえで決める. Cấu trúc だけでなく…も ghép hai khoản phí làm đối tượng so sánh trước động từ 決める."
+            "B": "Cụm «必要がある。» không chiếm vị trí ★ trong trật tự tự nhiên. Cụm ★ là 「比較の対象に加える」. Câu hoàn chỉnh: 初期費用だけで判断せず、将来の維持費も比較の対象に加える必要がある。 Cấu trúc 「だけで…ず、…も」 buộc phần 初期費用 đi trước 将来の維持費; cụm ★ nối tân ngữ này với vị ngữ, sau đó 必要がある nêu điều cần làm.",
+            "C": "Cụm «将来の維持費も» không chiếm vị trí ★ trong trật tự tự nhiên. Cụm ★ là 「比較の対象に加える」. Câu hoàn chỉnh: 初期費用だけで判断せず、将来の維持費も比較の対象に加える必要がある。 Cấu trúc 「だけで…ず、…も」 buộc phần 初期費用 đi trước 将来の維持費; cụm ★ nối tân ngữ này với vị ngữ, sau đó 必要がある nêu điều cần làm.",
+            "D": "Cụm «初期費用だけで判断せず、» không chiếm vị trí ★ trong trật tự tự nhiên. Cụm ★ là 「比較の対象に加える」. Câu hoàn chỉnh: 初期費用だけで判断せず、将来の維持費も比較の対象に加える必要がある。 Cấu trúc 「だけで…ず、…も」 buộc phần 初期費用 đi trước 将来の維持費; cụm ★ nối tân ngữ này với vị ngữ, sau đó 必要がある nêu điều cần làm."
           },
           "topicTag": "community",
           "difficultyBand": 2,
-          "assembledSentence": "複数の案が出た場合には短期的な費用だけでなく将来の維持費も比較したうえで決める",
-          "starredOptionText": "将来の維持費も",
+          "assembledSentence": "初期費用だけで判断せず、将来の維持費も比較の対象に加える必要がある。",
+          "starredOptionText": "比較の対象に加える",
           "starPosition": 3,
           "fragmentOrder": "D→C→A→B",
           "starValidationSchema": "DISPLAYED_FRAGMENT_ORDER_V1",
           "distractorStrategy": "語順・係り受け",
-          "skill": "Language Knowledge"
+          "skill": "Language Knowledge",
+          "contextPassage": "複数の公共事業案について、将来の維持費も比べる方針になった。",
+          "passage": "複数の公共事業案について、将来の維持費も比べる方針になった。"
         },
         {
           "id": "N2_12_M9_01",
@@ -2081,8 +2091,8 @@
             }
           ],
           "correctAnswer": "D",
-          "explanation": "正解は「通常時間に来られない人も利用できる」です。",
-          "explanationVi": "Thứ Tư mở muộn để người không thể đến trong giờ thường cũng sử dụng được. Bài đọc nói không cần đặt chỗ và một số giấy tờ cần quầy khác.",
+          "explanation": "Thứ Tư được kéo dài giờ tiếp nhận để người không thể đến trong giờ thường có thêm lựa chọn. Không cần đặt trước, nhưng một số giấy tờ vẫn phải làm tại quầy khác.",
+          "explanationVi": "Thứ Tư được kéo dài giờ tiếp nhận để người không thể đến trong giờ thường có thêm lựa chọn. Không cần đặt trước, nhưng một số giấy tờ vẫn phải làm tại quầy khác.",
           "distractorExplanations": {
             "A": "Phương án «毎日午後七時まで開く» không khớp với dữ kiện được hỏi. Thứ Tư mở muộn để người không thể đến trong giờ thường cũng sử dụng được. Bài đọc nói không cần đặt chỗ và một số giấy tờ cần quầy khác.",
             "B": "Phương án «すべての証明書を同じ窓口で申請できる» không khớp với dữ kiện được hỏi. Thứ Tư mở muộn để người không thể đến trong giờ thường cũng sử dụng được. Bài đọc nói không cần đặt chỗ và một số giấy tờ cần quầy khác.",
@@ -2092,8 +2102,8 @@
           "difficultyBand": 2,
           "distractorStrategy": "意味・文脈の対比",
           "skill": "Reading",
-          "contextPassage": "市役所の窓口は、来月から毎週水曜日だけ午後七時まで開く。通常の受付時間に来られない人が対象で、予約は不要。ただし、証明書の一部は別の窓口で申請する必要がある。",
-          "passage": "市役所の窓口は、来月から毎週水曜日だけ午後七時まで開く。通常の受付時間に来られない人が対象で、予約は不要。ただし、証明書の一部は別の窓口で申請する必要がある。"
+          "contextPassage": "市役所では、平日の受付時間に来られない勤務者から相談が寄せられたため、来月から毎週水曜日だけ午後七時まで窓口を延長する。予約は不要で、相談や証明書の申請に利用できる。ただし、戸籍関係など一部の証明書は別の窓口で扱うため、来庁後に案内を確認してほしい。\n\n相談の内容によっては担当窓口が異なるため、来庁後は入口の案内板を見て該当する番号札を取る。延長日に利用できる手続きの一覧は、市のウェブサイトにも掲載している。",
+          "passage": "市役所では、平日の受付時間に来られない勤務者から相談が寄せられたため、来月から毎週水曜日だけ午後七時まで窓口を延長する。予約は不要で、相談や証明書の申請に利用できる。ただし、戸籍関係など一部の証明書は別の窓口で扱うため、来庁後に案内を確認してほしい。\n\n相談の内容によっては担当窓口が異なるため、来庁後は入口の案内板を見て該当する番号札を取る。延長日に利用できる手続きの一覧は、市のウェブサイトにも掲載している。"
         },
         {
           "id": "N2_12_M10_02",
@@ -2120,8 +2130,8 @@
             }
           ],
           "correctAnswer": "C",
-          "explanation": "正解は「西側の入口から入る」です。",
-          "explanationVi": "Trong lúc cắt tỉa cây, lối phía đông bị đóng nhưng lối phía tây vẫn mở. Nếu mưa, công việc chuyển sang tuần sau và thành phố thông báo trên trang web.",
+          "explanation": "Trong lúc cắt tỉa, lối phía Đông đóng nhưng công viên vẫn vào được từ cổng phía Tây. Nếu mưa, việc bị hoãn sang tuần sau; ngày mới được thông báo trên trang web và bảng ở cổng.",
+          "explanationVi": "Trong lúc cắt tỉa, lối phía Đông đóng nhưng công viên vẫn vào được từ cổng phía Tây. Nếu mưa, việc bị hoãn sang tuần sau; ngày mới được thông báo trên trang web và bảng ở cổng.",
           "distractorExplanations": {
             "A": "Phương án «雨でも予定どおり作業する» không khớp với dữ kiện được hỏi. Trong lúc cắt tỉa cây, lối phía đông bị đóng nhưng lối phía tây vẫn mở. Nếu mưa, công việc chuyển sang tuần sau và thành phố thông báo trên trang web.",
             "B": "Phương án «東側の通路を使う» không khớp với dữ kiện được hỏi. Trong lúc cắt tỉa cây, lối phía đông bị đóng nhưng lối phía tây vẫn mở. Nếu mưa, công việc chuyển sang tuần sau và thành phố thông báo trên trang web.",
@@ -2131,8 +2141,8 @@
           "difficultyBand": 2,
           "distractorStrategy": "意味・文脈の対比",
           "skill": "Reading",
-          "contextPassage": "町内の公園では、今週末に樹木の剪定を行う。作業中は東側の通路を通れないが、西側の入口は利用できる。雨の場合は翌週に延期し、変更は市のウェブサイトに掲載する。",
-          "passage": "町内の公園では、今週末に樹木の剪定を行う。作業中は東側の通路を通れないが、西側の入口は利用できる。雨の場合は翌週に延期し、変更は市のウェブサイトに掲載する。"
+          "contextPassage": "町内の公園では今週末、遊歩道沿いの樹木を剪定する。作業中は東側の通路を閉鎖するが、西側入口から入って芝生広場を利用することはできる。雨天時は安全のため翌週に延期し、実施日が変わった場合は市のウェブサイトと公園入口の掲示で知らせる。",
+          "passage": "町内の公園では今週末、遊歩道沿いの樹木を剪定する。作業中は東側の通路を閉鎖するが、西側入口から入って芝生広場を利用することはできる。雨天時は安全のため翌週に延期し、実施日が変わった場合は市のウェブサイトと公園入口の掲示で知らせる。"
         },
         {
           "id": "N2_12_M10_03",
@@ -2159,8 +2169,8 @@
             }
           ],
           "correctAnswer": "A",
-          "explanation": "正解は「交流センターに未開封で期限まで一週間以上ある食品を持っていく」です。",
-          "explanationVi": "Điểm nhận là trung tâm giao lưu cạnh thư viện, không phải cửa chính thư viện. Thực phẩm phải chưa mở và còn hạn ít nhất một tuần; việc nhận chỉ diễn ra ngày thường từ 9 giờ đến 17 giờ. Vì vậy phương án đúng giữ đủ cả địa điểm, tình trạng bao bì và hạn sử dụng; phương án còn lại sai một trong các điều kiện này.",
+          "explanation": "Hộp quyên góp nằm ở trung tâm giao lưu cạnh thư viện. Chỉ nhận thực phẩm chưa mở, còn hạn ít nhất một tuần và được mang đến vào ngày thường từ 9 giờ đến 17 giờ.",
+          "explanationVi": "Hộp quyên góp nằm ở trung tâm giao lưu cạnh thư viện. Chỉ nhận thực phẩm chưa mở, còn hạn ít nhất một tuần và được mang đến vào ngày thường từ 9 giờ đến 17 giờ.",
           "distractorExplanations": {
             "B": "Phương án «交流センターに未開封品を平日の午後六時に持っていく» không khớp với dữ kiện được hỏi. Điểm nhận là trung tâm giao lưu cạnh thư viện, không phải cửa chính thư viện. Thực phẩm phải chưa mở và còn hạn ít nhất một tuần; việc nhận chỉ diễn ra ngày thường từ 9 giờ đến 17 giờ. Vì vậy phương án đúng giữ đủ cả địa điểm, tình trạng bao bì và hạn sử dụng; phương án còn lại sai một trong các điều kiện này.",
             "C": "Phương án «図書館の正面入口に未開封品を持っていく» không khớp với dữ kiện được hỏi. Điểm nhận là trung tâm giao lưu cạnh thư viện, không phải cửa chính thư viện. Thực phẩm phải chưa mở và còn hạn ít nhất một tuần; việc nhận chỉ diễn ra ngày thường từ 9 giờ đến 17 giờ. Vì vậy phương án đúng giữ đủ cả địa điểm, tình trạng bao bì và hạn sử dụng; phương án còn lại sai một trong các điều kiện này.",
@@ -2170,8 +2180,8 @@
           "difficultyBand": 2,
           "distractorStrategy": "意味・文脈の対比",
           "skill": "Reading",
-          "contextPassage": "食品回収の箱は、図書館の正面入口ではなく、隣の交流センターに置かれている。未開封で期限まで一週間以上ある食品を、平日の午前九時から午後五時に受け付ける。",
-          "passage": "食品回収の箱は、図書館の正面入口ではなく、隣の交流センターに置かれている。未開封で期限まで一週間以上ある食品を、平日の午前九時から午後五時に受け付ける。"
+          "contextPassage": "地域の団体は、まだ食べられる食品を集め、必要な世帯へ届けるため回収を行う。回収箱は図書館の正面ではなく、隣の交流センターに置く。未開封で期限まで一週間以上ある食品のみ、平日の午前九時から午後五時に受け付ける。",
+          "passage": "地域の団体は、まだ食べられる食品を集め、必要な世帯へ届けるため回収を行う。回収箱は図書館の正面ではなく、隣の交流センターに置く。未開封で期限まで一週間以上ある食品のみ、平日の午前九時から午後五時に受け付ける。"
         },
         {
           "id": "N2_12_M10_04",
@@ -2198,8 +2208,8 @@
             }
           ],
           "correctAnswer": "B",
-          "explanation": "正解は「入館券の期限は延長される」です。",
-          "explanationVi": "Hồ bơi đóng cửa từ ngày 20 đến 22. Lớp bơi được học bù vào ngày 25, còn hạn vé vào cửa được kéo dài trong thời gian đóng cửa.",
+          "explanation": "Hồ bơi đóng cửa từ ngày 20 đến 22, mở lại ngày 23; lớp học được chuyển sang ngày 25. Hạn vé vào cửa kéo dài theo số ngày không sử dụng và người mua không cần làm thủ tục.",
+          "explanationVi": "Hồ bơi đóng cửa từ ngày 20 đến 22, mở lại ngày 23; lớp học được chuyển sang ngày 25. Hạn vé vào cửa kéo dài theo số ngày không sử dụng và người mua không cần làm thủ tục.",
           "distractorExplanations": {
             "A": "Phương án «休館は二十五日まで続く» không khớp với dữ kiện được hỏi. Hồ bơi đóng cửa từ ngày 20 đến 22. Lớp bơi được học bù vào ngày 25, còn hạn vé vào cửa được kéo dài trong thời gian đóng cửa.",
             "C": "Phương án «点検中も通常どおり利用できる» không khớp với dữ kiện được hỏi. Hồ bơi đóng cửa từ ngày 20 đến 22. Lớp bơi được học bù vào ngày 25, còn hạn vé vào cửa được kéo dài trong thời gian đóng cửa.",
@@ -2209,8 +2219,8 @@
           "difficultyBand": 2,
           "distractorStrategy": "意味・文脈の対比",
           "skill": "Reading",
-          "contextPassage": "市民プールは設備点検のため、二十日から二十二日まで休館する。水泳教室の振替日は二十五日で、通常の入館券は休館中も有効期限が延長される。",
-          "passage": "市民プールは設備点検のため、二十日から二十二日まで休館する。水泳教室の振替日は二十五日で、通常の入館券は休館中も有効期限が延長される。"
+          "contextPassage": "市民プールは設備点検のため二十日から二十二日まで休館する。期間中に予定していた水泳教室は二十五日に振り替える。通常の入館券は使えなかった日数分だけ有効期限を延長するため、利用者が窓口で手続きをする必要はない。点検後の営業は二十三日から再開する。",
+          "passage": "市民プールは設備点検のため二十日から二十二日まで休館する。期間中に予定していた水泳教室は二十五日に振り替える。通常の入館券は使えなかった日数分だけ有効期限を延長するため、利用者が窓口で手続きをする必要はない。点検後の営業は二十三日から再開する。"
         },
         {
           "id": "N2_12_M10_05",
@@ -2237,8 +2247,8 @@
             }
           ],
           "correctAnswer": "B",
-          "explanation": "正解は「図書館を出発する時刻」です。",
-          "explanationVi": "Thứ tự ghé thăm được đổi, nhưng giờ đến và thời lượng dừng ở từng khu vẫn giữ nguyên. Chỉ giờ xe rời thư viện được chuyển sớm hơn 15 phút.",
+          "explanation": "Xe thư viện đổi thứ tự đi qua ba khu vực. Vì đường vòng làm thời gian di chuyển dài hơn, xe xuất phát sớm hơn 15 phút để giữ giờ đến dự kiến; thời gian dừng tại mỗi khu vực không đổi.",
+          "explanationVi": "Xe thư viện đổi thứ tự đi qua ba khu vực. Vì đường vòng làm thời gian di chuyển dài hơn, xe xuất phát sớm hơn 15 phút để giữ giờ đến dự kiến; thời gian dừng tại mỗi khu vực không đổi.",
           "distractorExplanations": {
             "A": "Phương án «各地区に着く時刻» không khớp với dữ kiện được hỏi. Thứ tự ghé thăm được đổi, nhưng giờ đến và thời lượng dừng ở từng khu vẫn giữ nguyên. Chỉ giờ xe rời thư viện được chuyển sớm hơn 15 phút.",
             "C": "Phương án «巡回する地区の数» không khớp với dữ kiện được hỏi. Thứ tự ghé thăm được đổi, nhưng giờ đến và thời lượng dừng ở từng khu vẫn giữ nguyên. Chỉ giờ xe rời thư viện được chuyển sớm hơn 15 phút.",
@@ -2248,8 +2258,8 @@
           "difficultyBand": 2,
           "distractorStrategy": "意味・文脈の対比",
           "skill": "Reading",
-          "contextPassage": "移動図書館は、来月から山側の三地区を回る順番を変更する。各地区での到着時刻と滞在時間は現在のままにし、巡回順の変更に伴い、図書館を出る時刻だけを十五分早める。",
-          "passage": "移動図書館は、来月から山側の三地区を回る順番を変更する。各地区での到着時刻と滞在時間は現在のままにし、巡回順の変更に伴い、図書館を出る時刻だけを十五分早める。"
+          "contextPassage": "移動図書館は、道路工事に合わせ、来月から山側の三地区を回る順番を変える。迂回で移動時間が延びても各地区の到着予定時刻を保てるよう、図書館の出発時刻をこれまでより十五分早める。各地区での滞在時間は変えない。新しい巡回順は停車場所の掲示と市の案内で確認できる。",
+          "passage": "移動図書館は、道路工事に合わせ、来月から山側の三地区を回る順番を変える。迂回で移動時間が延びても各地区の到着予定時刻を保てるよう、図書館の出発時刻をこれまでより十五分早める。各地区での滞在時間は変えない。新しい巡回順は停車場所の掲示と市の案内で確認できる。"
         },
         {
           "id": "N2_12_M11_01",
@@ -2260,113 +2270,113 @@
           "options": [
             {
               "id": "A",
-              "text": "すべての商品を無料にするため"
+              "text": "値下げ前後の販売数だけで事業の効果を決めるため"
             },
             {
               "id": "B",
-              "text": "店員の説明を詳しくするため"
+              "text": "店ごとに異なる表示を残し、選び方を店員に任せるため"
             },
             {
               "id": "C",
-              "text": "値引きの程度を利用者が比べやすくするため"
+              "text": "利用者が値引きの程度を比べやすくするため"
             },
             {
               "id": "D",
-              "text": "店ごとの販売時間を同じにするため"
+              "text": "すべての商品を同じ価格で販売するため"
             }
           ],
           "correctAnswer": "C",
-          "explanation": "正解は「値引きの程度を利用者が比べやすくするため」です。",
-          "explanationVi": "Người dùng khó chọn vì không biết mức giảm giá ở từng cửa hàng. Thành phố thống nhất cách ghi thành ba mức để khách dễ so sánh.",
+          "explanation": "Người mua nói khó chọn vì không biết mức giảm của từng cửa hàng. Ba mức hiển thị thống nhất giúp so sánh dễ hơn; nó không cố định giá hoặc thay thế việc đánh giá lượng rác thực phẩm.",
+          "explanationVi": "Người mua nói khó chọn vì không biết mức giảm của từng cửa hàng. Ba mức hiển thị thống nhất giúp so sánh dễ hơn; nó không cố định giá hoặc thay thế việc đánh giá lượng rác thực phẩm.",
           "distractorExplanations": {
-            "A": "Phương án «すべての商品を無料にするため» không khớp với dữ kiện được hỏi. Người dùng khó chọn vì không biết mức giảm giá ở từng cửa hàng. Thành phố thống nhất cách ghi thành ba mức để khách dễ so sánh.",
-            "B": "Phương án «店員の説明を詳しくするため» không khớp với dữ kiện được hỏi. Người dùng khó chọn vì không biết mức giảm giá ở từng cửa hàng. Thành phố thống nhất cách ghi thành ba mức để khách dễ so sánh.",
-            "D": "Phương án «店ごとの販売時間を同じにするため» không khớp với dữ kiện được hỏi. Người dùng khó chọn vì không biết mức giảm giá ở từng cửa hàng. Thành phố thống nhất cách ghi thành ba mức để khách dễ so sánh."
+            "A": "Thành phố còn xem lượng bỏ đi và ý kiến người mua; họ không kết luận hiệu quả chỉ từ số bán.",
+            "B": "Khách hàng khó chọn vì cách giảm giá khác nhau giữa cửa hàng. Thành phố thống nhất ba mức hiển thị thay vì giữ cách riêng.",
+            "D": "Thống nhất mức biểu thị giảm giá không có nghĩa bán mọi thực phẩm cùng giá; giá trị và tình trạng mỗi món vẫn khác nhau."
           },
           "topicTag": "public-policy",
           "difficultyBand": 2,
           "distractorStrategy": "意味・文脈の対比",
           "skill": "Reading",
-          "contextPassage": "市の環境課は、家庭ごみの量を減らすため、食品ロス対策の実証事業を始めた。協力店では、閉店前に残った食品を割引して販売する。市は当初、値引きの割合を店ごとに任せていたが、利用者から『どの程度安くなるか分からず、選びにくい』という声が出た。そこで、割引率を三段階の表示にそろえたところ、買い手が比較しやすくなり、店員の説明も短くなった。一方、すべての商品を同じ割合で値引きすると、保存可能な日数の違いが反映されないという課題も残った。市は、売れ残りの件数だけでなく、廃棄量と利用者の意見も確認し、事業を続けるか判断する予定である。",
-          "passage": "市の環境課は、家庭ごみの量を減らすため、食品ロス対策の実証事業を始めた。協力店では、閉店前に残った食品を割引して販売する。市は当初、値引きの割合を店ごとに任せていたが、利用者から『どの程度安くなるか分からず、選びにくい』という声が出た。そこで、割引率を三段階の表示にそろえたところ、買い手が比較しやすくなり、店員の説明も短くなった。一方、すべての商品を同じ割合で値引きすると、保存可能な日数の違いが反映されないという課題も残った。市は、売れ残りの件数だけでなく、廃棄量と利用者の意見も確認し、事業を続けるか判断する予定である。"
+          "contextPassage": "市の環境課は、家庭ごみの量を減らすため、食品ロス対策の実証事業を始めた。協力店では、閉店前に残った食品を割引して販売する。市は当初、値引きの割合を店ごとに任せていたが、利用者から「どの程度安くなるか分からず、選びにくい」という声が出た。そこで、割引率を三段階の表示にそろえたところ、買い手が比較しやすくなり、店員の説明も短くなった。\nただし、食品ごとに期限や保存状態、売れ残りやすい時間帯は異なる。表示が同じでも値引きの価値が同じように受け取られるとは限らず、値下げだけで需要が生まれるわけでもない。実証事業では、値下げ前後の販売数だけでなく、廃棄量が減ったか、購入者が必要な量を選べたかも店から聞き取る。市は、売れ残りの件数、廃棄量、利用者の意見を合わせて確認し、事業を続けるか判断する予定である。価格表示の分かりやすさと食品ロスの削減効果を分けて評価する必要がある。",
+          "passage": "市の環境課は、家庭ごみの量を減らすため、食品ロス対策の実証事業を始めた。協力店では、閉店前に残った食品を割引して販売する。市は当初、値引きの割合を店ごとに任せていたが、利用者から「どの程度安くなるか分からず、選びにくい」という声が出た。そこで、割引率を三段階の表示にそろえたところ、買い手が比較しやすくなり、店員の説明も短くなった。\nただし、食品ごとに期限や保存状態、売れ残りやすい時間帯は異なる。表示が同じでも値引きの価値が同じように受け取られるとは限らず、値下げだけで需要が生まれるわけでもない。実証事業では、値下げ前後の販売数だけでなく、廃棄量が減ったか、購入者が必要な量を選べたかも店から聞き取る。市は、売れ残りの件数、廃棄量、利用者の意見を合わせて確認し、事業を続けるか判断する予定である。価格表示の分かりやすさと食品ロスの削減効果を分けて評価する必要がある。"
         },
         {
           "id": "N2_12_M11_02",
           "level": "N2",
           "typeId": "N2-RD-MED",
           "category": "中文読解",
-          "stem": "表示をそろえた後に起きた変化はどれか。",
+          "stem": "表示をそろえた後、店員側に起きた変化はどれか。",
           "options": [
             {
               "id": "A",
-              "text": "廃棄量がゼロになった"
+              "text": "購入者が値引きの程度を比べる機会がなくなった"
             },
             {
               "id": "B",
-              "text": "保存日数の差が解消された"
+              "text": "店ごとに割引率を独自に決めるようになった"
             },
             {
               "id": "C",
-              "text": "すべての商品を同じ割合で値引きすることにした"
+              "text": "売れ残りや廃棄がなくなった"
             },
             {
               "id": "D",
-              "text": "店員が説明する時間が短くなった"
+              "text": "値引きについての説明が短くなった"
             }
           ],
           "correctAnswer": "D",
-          "explanation": "正解は「店員が説明する時間が短くなった」です。",
-          "explanationVi": "Sau khi thống nhất cách hiển thị theo ba mức, khách dễ so sánh hơn và nhân viên giảm thời gian giải thích. Thành phố chưa quyết định cùng một tỷ lệ giảm giá cho mọi món; đó vẫn là vấn đề cần xem xét.",
+          "explanation": "Câu hỏi giới hạn vào thay đổi phía nhân viên: cách trình bày thống nhất giúp họ giải thích ngắn hơn. Người mua cũng so sánh dễ hơn, nhưng đó là thay đổi ở phía khách hàng.",
+          "explanationVi": "Câu hỏi giới hạn vào thay đổi phía nhân viên: cách trình bày thống nhất giúp họ giải thích ngắn hơn. Người mua cũng so sánh dễ hơn, nhưng đó là thay đổi ở phía khách hàng.",
           "distractorExplanations": {
-            "A": "Phương án «廃棄量がゼロになった» không khớp với dữ kiện được hỏi. Sau khi thống nhất cách hiển thị theo ba mức, khách dễ so sánh hơn và nhân viên giảm thời gian giải thích. Thành phố chưa quyết định cùng một tỷ lệ giảm giá cho mọi món; đó vẫn là vấn đề cần xem xét.",
-            "B": "Phương án «保存日数の差が解消された» không khớp với dữ kiện được hỏi. Sau khi thống nhất cách hiển thị theo ba mức, khách dễ so sánh hơn và nhân viên giảm thời gian giải thích. Thành phố chưa quyết định cùng một tỷ lệ giảm giá cho mọi món; đó vẫn là vấn đề cần xem xét.",
-            "C": "本文 chỉ nêu đây là vấn đề còn tồn tại nếu mọi sản phẩm dùng cùng tỷ lệ giảm; thành phố chưa quyết định làm như vậy."
+            "A": "Sau khi thống nhất cách hiển thị, người mua so sánh dễ hơn; cơ hội so sánh không biến mất.",
+            "B": "Đây là cách làm ban đầu. Sau thay đổi, mức giảm được trình bày theo ba cấp độ chung.",
+            "C": "Chương trình đang đo xem lượng bỏ đi có giảm hay không; chưa có kết luận rằng thực phẩm dư hoặc rác đã biến mất."
           },
           "topicTag": "public-policy",
           "difficultyBand": 2,
           "distractorStrategy": "意味・文脈の対比",
           "skill": "Reading",
-          "contextPassage": "市の環境課は、家庭ごみの量を減らすため、食品ロス対策の実証事業を始めた。協力店では、閉店前に残った食品を割引して販売する。市は当初、値引きの割合を店ごとに任せていたが、利用者から『どの程度安くなるか分からず、選びにくい』という声が出た。そこで、割引率を三段階の表示にそろえたところ、買い手が比較しやすくなり、店員の説明も短くなった。一方、すべての商品を同じ割合で値引きすると、保存可能な日数の違いが反映されないという課題も残った。市は、売れ残りの件数だけでなく、廃棄量と利用者の意見も確認し、事業を続けるか判断する予定である。",
-          "passage": "市の環境課は、家庭ごみの量を減らすため、食品ロス対策の実証事業を始めた。協力店では、閉店前に残った食品を割引して販売する。市は当初、値引きの割合を店ごとに任せていたが、利用者から『どの程度安くなるか分からず、選びにくい』という声が出た。そこで、割引率を三段階の表示にそろえたところ、買い手が比較しやすくなり、店員の説明も短くなった。一方、すべての商品を同じ割合で値引きすると、保存可能な日数の違いが反映されないという課題も残った。市は、売れ残りの件数だけでなく、廃棄量と利用者の意見も確認し、事業を続けるか判断する予定である。"
+          "contextPassage": "市の環境課は、家庭ごみの量を減らすため、食品ロス対策の実証事業を始めた。協力店では、閉店前に残った食品を割引して販売する。市は当初、値引きの割合を店ごとに任せていたが、利用者から「どの程度安くなるか分からず、選びにくい」という声が出た。そこで、割引率を三段階の表示にそろえたところ、買い手が比較しやすくなり、店員の説明も短くなった。\nただし、食品ごとに期限や保存状態、売れ残りやすい時間帯は異なる。表示が同じでも値引きの価値が同じように受け取られるとは限らず、値下げだけで需要が生まれるわけでもない。実証事業では、値下げ前後の販売数だけでなく、廃棄量が減ったか、購入者が必要な量を選べたかも店から聞き取る。市は、売れ残りの件数、廃棄量、利用者の意見を合わせて確認し、事業を続けるか判断する予定である。価格表示の分かりやすさと食品ロスの削減効果を分けて評価する必要がある。",
+          "passage": "市の環境課は、家庭ごみの量を減らすため、食品ロス対策の実証事業を始めた。協力店では、閉店前に残った食品を割引して販売する。市は当初、値引きの割合を店ごとに任せていたが、利用者から「どの程度安くなるか分からず、選びにくい」という声が出た。そこで、割引率を三段階の表示にそろえたところ、買い手が比較しやすくなり、店員の説明も短くなった。\nただし、食品ごとに期限や保存状態、売れ残りやすい時間帯は異なる。表示が同じでも値引きの価値が同じように受け取られるとは限らず、値下げだけで需要が生まれるわけでもない。実証事業では、値下げ前後の販売数だけでなく、廃棄量が減ったか、購入者が必要な量を選べたかも店から聞き取る。市は、売れ残りの件数、廃棄量、利用者の意見を合わせて確認し、事業を続けるか判断する予定である。価格表示の分かりやすさと食品ロスの削減効果を分けて評価する必要がある。"
         },
         {
           "id": "N2_12_M11_03",
           "level": "N2",
           "typeId": "N2-RD-MED",
           "category": "中文読解",
-          "stem": "市が今後判断する際に見るものは何か。",
+          "stem": "市が販売数だけでなく廃棄量や利用者の意見も見るのはなぜか。",
           "options": [
             {
               "id": "A",
-              "text": "参加店の売上順位"
+              "text": "参加店の売上順位で、協力の程度を決めるため"
             },
             {
               "id": "B",
-              "text": "売れ残り件数だけ"
+              "text": "表示が分かりやすければ、廃棄量も必ず減ると示すため"
             },
             {
               "id": "C",
-              "text": "廃棄量や利用者の意見も含む複数の情報"
+              "text": "表示の分かりやすさと食品ロス削減の効果を分けて評価するため"
             },
             {
               "id": "D",
-              "text": "商品の価格だけ"
+              "text": "利用者全員の希望を一つの商品に反映するため"
             }
           ],
           "correctAnswer": "C",
-          "explanation": "正解は「廃棄量や利用者の意見も含む複数の情報」です。",
-          "explanationVi": "Khi quyết định tiếp tục dự án, thành phố sẽ xem cả số lượng bán sót, lượng thực phẩm bị thải bỏ và ý kiến người dùng.",
+          "explanation": "Hiển thị dễ hiểu chưa chứng minh rằng lượng thực phẩm bị bỏ đi đã giảm. Thành phố dự định kết hợp lượng bán, lượng bỏ đi và ý kiến người dùng để đánh giá riêng hiệu quả của chương trình.",
+          "explanationVi": "Hiển thị dễ hiểu chưa chứng minh rằng lượng thực phẩm bị bỏ đi đã giảm. Thành phố dự định kết hợp lượng bán, lượng bỏ đi và ý kiến người dùng để đánh giá riêng hiệu quả của chương trình.",
           "distractorExplanations": {
-            "A": "Phương án «参加店の売上順位» không khớp với dữ kiện được hỏi. Khi quyết định tiếp tục dự án, thành phố sẽ xem cả số lượng bán sót, lượng thực phẩm bị thải bỏ và ý kiến người dùng.",
-            "B": "Phương án «売れ残り件数だけ» không khớp với dữ kiện được hỏi. Khi quyết định tiếp tục dự án, thành phố sẽ xem cả số lượng bán sót, lượng thực phẩm bị thải bỏ và ý kiến người dùng.",
-            "D": "Phương án «商品の価格だけ» không khớp với dữ kiện được hỏi. Khi quyết định tiếp tục dự án, thành phố sẽ xem cả số lượng bán sót, lượng thực phẩm bị thải bỏ và ý kiến người dùng."
+            "A": "Bài không xếp hạng cửa hàng; họ kiểm tra đồng thời lượng bán, lượng bỏ đi và ý kiến người mua.",
+            "B": "Đoạn cuối yêu cầu tách độ dễ hiểu của nhãn khỏi hiệu quả giảm lãng phí; nhãn rõ không bảo đảm lượng bỏ đi giảm.",
+            "D": "Ý kiến người mua là một nguồn đánh giá, không phải yêu cầu làm một sản phẩm đáp ứng tất cả mọi người."
           },
           "topicTag": "public-policy",
           "difficultyBand": 2,
           "distractorStrategy": "意味・文脈の対比",
           "skill": "Reading",
-          "contextPassage": "市の環境課は、家庭ごみの量を減らすため、食品ロス対策の実証事業を始めた。協力店では、閉店前に残った食品を割引して販売する。市は当初、値引きの割合を店ごとに任せていたが、利用者から『どの程度安くなるか分からず、選びにくい』という声が出た。そこで、割引率を三段階の表示にそろえたところ、買い手が比較しやすくなり、店員の説明も短くなった。一方、すべての商品を同じ割合で値引きすると、保存可能な日数の違いが反映されないという課題も残った。市は、売れ残りの件数だけでなく、廃棄量と利用者の意見も確認し、事業を続けるか判断する予定である。",
-          "passage": "市の環境課は、家庭ごみの量を減らすため、食品ロス対策の実証事業を始めた。協力店では、閉店前に残った食品を割引して販売する。市は当初、値引きの割合を店ごとに任せていたが、利用者から『どの程度安くなるか分からず、選びにくい』という声が出た。そこで、割引率を三段階の表示にそろえたところ、買い手が比較しやすくなり、店員の説明も短くなった。一方、すべての商品を同じ割合で値引きすると、保存可能な日数の違いが反映されないという課題も残った。市は、売れ残りの件数だけでなく、廃棄量と利用者の意見も確認し、事業を続けるか判断する予定である。"
+          "contextPassage": "市の環境課は、家庭ごみの量を減らすため、食品ロス対策の実証事業を始めた。協力店では、閉店前に残った食品を割引して販売する。市は当初、値引きの割合を店ごとに任せていたが、利用者から「どの程度安くなるか分からず、選びにくい」という声が出た。そこで、割引率を三段階の表示にそろえたところ、買い手が比較しやすくなり、店員の説明も短くなった。\nただし、食品ごとに期限や保存状態、売れ残りやすい時間帯は異なる。表示が同じでも値引きの価値が同じように受け取られるとは限らず、値下げだけで需要が生まれるわけでもない。実証事業では、値下げ前後の販売数だけでなく、廃棄量が減ったか、購入者が必要な量を選べたかも店から聞き取る。市は、売れ残りの件数、廃棄量、利用者の意見を合わせて確認し、事業を続けるか判断する予定である。価格表示の分かりやすさと食品ロスの削減効果を分けて評価する必要がある。",
+          "passage": "市の環境課は、家庭ごみの量を減らすため、食品ロス対策の実証事業を始めた。協力店では、閉店前に残った食品を割引して販売する。市は当初、値引きの割合を店ごとに任せていたが、利用者から「どの程度安くなるか分からず、選びにくい」という声が出た。そこで、割引率を三段階の表示にそろえたところ、買い手が比較しやすくなり、店員の説明も短くなった。\nただし、食品ごとに期限や保存状態、売れ残りやすい時間帯は異なる。表示が同じでも値引きの価値が同じように受け取られるとは限らず、値下げだけで需要が生まれるわけでもない。実証事業では、値下げ前後の販売数だけでなく、廃棄量が減ったか、購入者が必要な量を選べたかも店から聞き取る。市は、売れ残りの件数、廃棄量、利用者の意見を合わせて確認し、事業を続けるか判断する予定である。価格表示の分かりやすさと食品ロスの削減効果を分けて評価する必要がある。"
         },
         {
           "id": "N2_12_M11_04",
@@ -2377,35 +2387,35 @@
           "options": [
             {
               "id": "A",
-              "text": "病院が町外に移転したため"
+              "text": "病院が町外へ移転し、旧路線を使えなくなったため"
             },
             {
               "id": "B",
-              "text": "利用が少ない日も定時運行の費用がかかっていたため"
+              "text": "利用が少ない日も、決まった路線を運行する費用がかかっていたため"
             },
             {
               "id": "C",
-              "text": "運転手を増やすため"
+              "text": "運転手を増やし、全停留所を同時に回るため"
             },
             {
               "id": "D",
-              "text": "全ての停留所をなくすため"
+              "text": "すべての停留所をなくす方針になったため"
             }
           ],
           "correctAnswer": "B",
-          "explanation": "正解は「利用が少ない日も定時運行の費用がかかっていたため」です。",
-          "explanationVi": "Xe ghép chuyến được đưa vào vì xe buýt theo giờ cố định vẫn tốn chi phí vào những ngày ít khách.",
+          "explanation": "Xe buýt chạy cố định vẫn phát sinh chi phí vào những ngày ít người đi. Xe đặt trước là cách thay thế một phần tuyến để phù hợp nhu cầu; văn bản không nói bệnh viện chuyển đi hay toàn bộ điểm dừng bị bỏ.",
+          "explanationVi": "Xe buýt chạy cố định vẫn phát sinh chi phí vào những ngày ít người đi. Xe đặt trước là cách thay thế một phần tuyến để phù hợp nhu cầu; văn bản không nói bệnh viện chuyển đi hay toàn bộ điểm dừng bị bỏ.",
           "distractorExplanations": {
-            "A": "Phương án «病院が町外に移転したため» không khớp với dữ kiện được hỏi. Xe ghép chuyến được đưa vào vì xe buýt theo giờ cố định vẫn tốn chi phí vào những ngày ít khách.",
-            "C": "Phương án «運転手を増やすため» không khớp với dữ kiện được hỏi. Xe ghép chuyến được đưa vào vì xe buýt theo giờ cố định vẫn tốn chi phí vào những ngày ít khách.",
-            "D": "Phương án «全ての停留所をなくすため» không khớp với dữ kiện được hỏi. Xe ghép chuyến được đưa vào vì xe buýt theo giờ cố định vẫn tốn chi phí vào những ngày ít khách."
+            "A": "Bệnh viện vẫn được nêu là điểm gần đó để lên xuống; lý do chuyển xe là xe buýt chạy tuyến cố định tốn chi phí cả ngày ít khách.",
+            "C": "Mô hình mới đi qua các khu có đặt chỗ. Bài nêu thiếu nhân lực và chi phí là hạn chế của phương án tăng chuyến.",
+            "D": "Chỉ một phần xe buýt được đổi sang xe đặt trước; không có thông báo xóa toàn bộ điểm dừng."
           },
           "topicTag": "public-policy",
           "difficultyBand": 2,
           "distractorStrategy": "意味・文脈の対比",
           "skill": "Reading",
-          "contextPassage": "山間部の移動手段を守るため、町は路線バスの一部を予約制の乗合車に切り替えた。従来のバスは決まった時刻に全ての停留所を回るため、利用者が少ない日も運行費がかかっていた。乗合車は予約のあった地区を通り、病院や買い物施設の近くで乗り降りできる。開始直後は予約方法が分かりにくいという声があり、町は電話の受付時間を延ばし、停留所にも説明を掲示した。利用者は増えたが、予約が重なる朝には希望時刻から遅れる場合がある。町は、費用だけを基準にせず、通院や通学に必要な時間帯が確保できているかを見ながら、運行範囲を調整する考えだ。",
-          "passage": "山間部の移動手段を守るため、町は路線バスの一部を予約制の乗合車に切り替えた。従来のバスは決まった時刻に全ての停留所を回るため、利用者が少ない日も運行費がかかっていた。乗合車は予約のあった地区を通り、病院や買い物施設の近くで乗り降りできる。開始直後は予約方法が分かりにくいという声があり、町は電話の受付時間を延ばし、停留所にも説明を掲示した。利用者は増えたが、予約が重なる朝には希望時刻から遅れる場合がある。町は、費用だけを基準にせず、通院や通学に必要な時間帯が確保できているかを見ながら、運行範囲を調整する考えだ。"
+          "contextPassage": "山間部の移動手段を守るため、町は路線バスの一部を予約制の乗合車に切り替えた。従来のバスは決まった時刻に全ての停留所を回るため、利用者が少ない日も運行費がかかっていた。乗合車は予約のあった地区を通り、病院や買い物施設の近くで乗り降りできる。開始直後は予約方法が分かりにくいという声があり、町は電話の受付時間を延ばし、停留所にも説明を掲示した。\n利用者は増えたが、予約が重なる朝には希望時刻から遅れる場合がある。利用者数だけを成果とすると、予約できずにあきらめた人や到着の遅れを見落とす。町は地区別の予約件数、希望時刻との差、通院や通学への影響を記録し、運転手の負担も聞くことにした。朝の便を増やせば遅れを減らせる一方、費用と人員が必要になるため、乗降地点や受付方法を調整する案も比べる。費用だけを基準にせず、必要な時間帯が保てているかを見ながら、利用者と運行担当者の意見をもとに運行範囲を決める考えだ。",
+          "passage": "山間部の移動手段を守るため、町は路線バスの一部を予約制の乗合車に切り替えた。従来のバスは決まった時刻に全ての停留所を回るため、利用者が少ない日も運行費がかかっていた。乗合車は予約のあった地区を通り、病院や買い物施設の近くで乗り降りできる。開始直後は予約方法が分かりにくいという声があり、町は電話の受付時間を延ばし、停留所にも説明を掲示した。\n利用者は増えたが、予約が重なる朝には希望時刻から遅れる場合がある。利用者数だけを成果とすると、予約できずにあきらめた人や到着の遅れを見落とす。町は地区別の予約件数、希望時刻との差、通院や通学への影響を記録し、運転手の負担も聞くことにした。朝の便を増やせば遅れを減らせる一方、費用と人員が必要になるため、乗降地点や受付方法を調整する案も比べる。費用だけを基準にせず、必要な時間帯が保てているかを見ながら、利用者と運行担当者の意見をもとに運行範囲を決める考えだ。"
         },
         {
           "id": "N2_12_M11_05",
@@ -2416,35 +2426,35 @@
           "options": [
             {
               "id": "A",
-              "text": "朝の遅れを隠すため"
+              "text": "朝の遅れをなくすため、運転手を増やす"
             },
             {
               "id": "B",
-              "text": "運行範囲を縮めるため"
+              "text": "予約を不要にして、当日乗車へ切り替える"
             },
             {
               "id": "C",
-              "text": "予約を不要にするため"
+              "text": "運行範囲を縮め、予約できる地区を減らす"
             },
             {
               "id": "D",
-              "text": "予約方法が分かりにくいという声に対応するため"
+              "text": "予約方法が分かりにくいという声に対応する"
             }
           ],
           "correctAnswer": "D",
-          "explanation": "正解は「予約方法が分かりにくいという声に対応するため」です。",
-          "explanationVi": "Người dân khó đặt chỗ, vì vậy thị trấn kéo dài giờ nhận cuộc gọi và treo hướng dẫn tại điểm dừng.",
+          "explanation": "町 kéo dài giờ nhận đặt qua điện thoại sau khi người dân nói cách đặt khó hiểu. Đây là điều chỉnh hướng dẫn/tiếp nhận, không phải bỏ đặt chỗ hay sửa lịch xe buổi sáng.",
+          "explanationVi": "町 kéo dài giờ nhận đặt qua điện thoại sau khi người dân nói cách đặt khó hiểu. Đây là điều chỉnh hướng dẫn/tiếp nhận, không phải bỏ đặt chỗ hay sửa lịch xe buổi sáng.",
           "distractorExplanations": {
-            "A": "Phương án «朝の遅れを隠すため» không khớp với dữ kiện được hỏi. Người dân khó đặt chỗ, vì vậy thị trấn kéo dài giờ nhận cuộc gọi và treo hướng dẫn tại điểm dừng.",
-            "B": "Phương án «運行範囲を縮めるため» không khớp với dữ kiện được hỏi. Người dân khó đặt chỗ, vì vậy thị trấn kéo dài giờ nhận cuộc gọi và treo hướng dẫn tại điểm dừng.",
-            "C": "Phương án «予約を不要にするため» không khớp với dữ kiện được hỏi. Người dân khó đặt chỗ, vì vậy thị trấn kéo dài giờ nhận cuộc gọi và treo hướng dẫn tại điểm dừng."
+            "A": "Việc kéo dài giờ điện thoại xử lý phản hồi rằng cách đặt xe khó hiểu; tăng tài xế là phương án khác được cân nhắc cho giờ cao điểm.",
+            "B": "Dịch vụ vẫn là xe ghép có đặt trước; bài không nói bỏ đặt chỗ.",
+            "C": "Thị trấn đăng hướng dẫn ở điểm dừng và kéo dài giờ nhận điện thoại để người dân hiểu cách đặt, không giảm khu vực phục vụ."
           },
           "topicTag": "public-policy",
           "difficultyBand": 2,
           "distractorStrategy": "意味・文脈の対比",
           "skill": "Reading",
-          "contextPassage": "山間部の移動手段を守るため、町は路線バスの一部を予約制の乗合車に切り替えた。従来のバスは決まった時刻に全ての停留所を回るため、利用者が少ない日も運行費がかかっていた。乗合車は予約のあった地区を通り、病院や買い物施設の近くで乗り降りできる。開始直後は予約方法が分かりにくいという声があり、町は電話の受付時間を延ばし、停留所にも説明を掲示した。利用者は増えたが、予約が重なる朝には希望時刻から遅れる場合がある。町は、費用だけを基準にせず、通院や通学に必要な時間帯が確保できているかを見ながら、運行範囲を調整する考えだ。",
-          "passage": "山間部の移動手段を守るため、町は路線バスの一部を予約制の乗合車に切り替えた。従来のバスは決まった時刻に全ての停留所を回るため、利用者が少ない日も運行費がかかっていた。乗合車は予約のあった地区を通り、病院や買い物施設の近くで乗り降りできる。開始直後は予約方法が分かりにくいという声があり、町は電話の受付時間を延ばし、停留所にも説明を掲示した。利用者は増えたが、予約が重なる朝には希望時刻から遅れる場合がある。町は、費用だけを基準にせず、通院や通学に必要な時間帯が確保できているかを見ながら、運行範囲を調整する考えだ。"
+          "contextPassage": "山間部の移動手段を守るため、町は路線バスの一部を予約制の乗合車に切り替えた。従来のバスは決まった時刻に全ての停留所を回るため、利用者が少ない日も運行費がかかっていた。乗合車は予約のあった地区を通り、病院や買い物施設の近くで乗り降りできる。開始直後は予約方法が分かりにくいという声があり、町は電話の受付時間を延ばし、停留所にも説明を掲示した。\n利用者は増えたが、予約が重なる朝には希望時刻から遅れる場合がある。利用者数だけを成果とすると、予約できずにあきらめた人や到着の遅れを見落とす。町は地区別の予約件数、希望時刻との差、通院や通学への影響を記録し、運転手の負担も聞くことにした。朝の便を増やせば遅れを減らせる一方、費用と人員が必要になるため、乗降地点や受付方法を調整する案も比べる。費用だけを基準にせず、必要な時間帯が保てているかを見ながら、利用者と運行担当者の意見をもとに運行範囲を決める考えだ。",
+          "passage": "山間部の移動手段を守るため、町は路線バスの一部を予約制の乗合車に切り替えた。従来のバスは決まった時刻に全ての停留所を回るため、利用者が少ない日も運行費がかかっていた。乗合車は予約のあった地区を通り、病院や買い物施設の近くで乗り降りできる。開始直後は予約方法が分かりにくいという声があり、町は電話の受付時間を延ばし、停留所にも説明を掲示した。\n利用者は増えたが、予約が重なる朝には希望時刻から遅れる場合がある。利用者数だけを成果とすると、予約できずにあきらめた人や到着の遅れを見落とす。町は地区別の予約件数、希望時刻との差、通院や通学への影響を記録し、運転手の負担も聞くことにした。朝の便を増やせば遅れを減らせる一方、費用と人員が必要になるため、乗降地点や受付方法を調整する案も比べる。費用だけを基準にせず、必要な時間帯が保てているかを見ながら、利用者と運行担当者の意見をもとに運行範囲を決める考えだ。"
         },
         {
           "id": "N2_12_M11_06",
@@ -2455,11 +2465,11 @@
           "options": [
             {
               "id": "A",
-              "text": "すべての利用者を同時に運ぶこと"
+              "text": "全ての地区を同じ時刻に運行すること"
             },
             {
               "id": "B",
-              "text": "以前の路線を完全に再現すること"
+              "text": "以前の路線を費用に関係なく完全に再現すること"
             },
             {
               "id": "C",
@@ -2467,23 +2477,23 @@
             },
             {
               "id": "D",
-              "text": "通院・通学に必要な時間帯を保てるか"
+              "text": "通院や通学に必要な時間帯を保ちつつ、運行範囲を考えること"
             }
           ],
           "correctAnswer": "D",
-          "explanation": "正解は「通院・通学に必要な時間帯を保てるか」です。",
-          "explanationVi": "Thị trấn sẽ cân nhắc liệu những khung giờ cần thiết cho việc đi khám và đi học có được duy trì hay không, chứ không chỉ nhìn chi phí.",
+          "explanation": "Thành phố cân nhắc nhu cầu đi khám và đi học cùng chi phí, nhân lực và ý kiến người dùng/đơn vị vận hành. Bài đọc bác bỏ việc tối thiểu hóa chi phí như tiêu chí duy nhất.",
+          "explanationVi": "Thành phố cân nhắc nhu cầu đi khám và đi học cùng chi phí, nhân lực và ý kiến người dùng/đơn vị vận hành. Bài đọc bác bỏ việc tối thiểu hóa chi phí như tiêu chí duy nhất.",
           "distractorExplanations": {
-            "A": "Phương án «すべての利用者を同時に運ぶこと» không khớp với dữ kiện được hỏi. Thị trấn sẽ cân nhắc liệu những khung giờ cần thiết cho việc đi khám và đi học có được duy trì hay không, chứ không chỉ nhìn chi phí.",
-            "B": "Phương án «以前の路線を完全に再現すること» không khớp với dữ kiện được hỏi. Thị trấn sẽ cân nhắc liệu những khung giờ cần thiết cho việc đi khám và đi học có được duy trì hay không, chứ không chỉ nhìn chi phí.",
-            "C": "Phương án «費用を最小にすることだけ» không khớp với dữ kiện được hỏi. Thị trấn sẽ cân nhắc liệu những khung giờ cần thiết cho việc đi khám và đi học có được duy trì hay không, chứ không chỉ nhìn chi phí."
+            "A": "Mục tiêu là giữ các khung giờ cần cho khám bệnh và đi học; không yêu cầu mọi khu có cùng giờ chạy.",
+            "B": "Thị trấn so sánh chi phí, nhân lực và nhu cầu; họ không định khôi phục toàn bộ tuyến cũ bất kể ngân sách.",
+            "C": "Đoạn cuối nói rõ không chỉ lấy chi phí làm tiêu chí; thời gian cần thiết và ý kiến người dùng cũng được xem xét."
           },
           "topicTag": "public-policy",
           "difficultyBand": 2,
           "distractorStrategy": "意味・文脈の対比",
           "skill": "Reading",
-          "contextPassage": "山間部の移動手段を守るため、町は路線バスの一部を予約制の乗合車に切り替えた。従来のバスは決まった時刻に全ての停留所を回るため、利用者が少ない日も運行費がかかっていた。乗合車は予約のあった地区を通り、病院や買い物施設の近くで乗り降りできる。開始直後は予約方法が分かりにくいという声があり、町は電話の受付時間を延ばし、停留所にも説明を掲示した。利用者は増えたが、予約が重なる朝には希望時刻から遅れる場合がある。町は、費用だけを基準にせず、通院や通学に必要な時間帯が確保できているかを見ながら、運行範囲を調整する考えだ。",
-          "passage": "山間部の移動手段を守るため、町は路線バスの一部を予約制の乗合車に切り替えた。従来のバスは決まった時刻に全ての停留所を回るため、利用者が少ない日も運行費がかかっていた。乗合車は予約のあった地区を通り、病院や買い物施設の近くで乗り降りできる。開始直後は予約方法が分かりにくいという声があり、町は電話の受付時間を延ばし、停留所にも説明を掲示した。利用者は増えたが、予約が重なる朝には希望時刻から遅れる場合がある。町は、費用だけを基準にせず、通院や通学に必要な時間帯が確保できているかを見ながら、運行範囲を調整する考えだ。"
+          "contextPassage": "山間部の移動手段を守るため、町は路線バスの一部を予約制の乗合車に切り替えた。従来のバスは決まった時刻に全ての停留所を回るため、利用者が少ない日も運行費がかかっていた。乗合車は予約のあった地区を通り、病院や買い物施設の近くで乗り降りできる。開始直後は予約方法が分かりにくいという声があり、町は電話の受付時間を延ばし、停留所にも説明を掲示した。\n利用者は増えたが、予約が重なる朝には希望時刻から遅れる場合がある。利用者数だけを成果とすると、予約できずにあきらめた人や到着の遅れを見落とす。町は地区別の予約件数、希望時刻との差、通院や通学への影響を記録し、運転手の負担も聞くことにした。朝の便を増やせば遅れを減らせる一方、費用と人員が必要になるため、乗降地点や受付方法を調整する案も比べる。費用だけを基準にせず、必要な時間帯が保てているかを見ながら、利用者と運行担当者の意見をもとに運行範囲を決める考えだ。",
+          "passage": "山間部の移動手段を守るため、町は路線バスの一部を予約制の乗合車に切り替えた。従来のバスは決まった時刻に全ての停留所を回るため、利用者が少ない日も運行費がかかっていた。乗合車は予約のあった地区を通り、病院や買い物施設の近くで乗り降りできる。開始直後は予約方法が分かりにくいという声があり、町は電話の受付時間を延ばし、停留所にも説明を掲示した。\n利用者は増えたが、予約が重なる朝には希望時刻から遅れる場合がある。利用者数だけを成果とすると、予約できずにあきらめた人や到着の遅れを見落とす。町は地区別の予約件数、希望時刻との差、通院や通学への影響を記録し、運転手の負担も聞くことにした。朝の便を増やせば遅れを減らせる一方、費用と人員が必要になるため、乗降地点や受付方法を調整する案も比べる。費用だけを基準にせず、必要な時間帯が保てているかを見ながら、利用者と運行担当者の意見をもとに運行範囲を決める考えだ。"
         },
         {
           "id": "N2_12_M11_07",
@@ -2494,35 +2504,35 @@
           "options": [
             {
               "id": "A",
-              "text": "分館の貸し出しを停止するため"
+              "text": "各館の書棚に同じ本をすべてそろえること"
             },
             {
               "id": "B",
-              "text": "利用者の予約を取り消すため"
+              "text": "予約取消しを防ぐため貸出期間を一律に延ばすこと"
             },
             {
               "id": "C",
-              "text": "本を中央館だけに集めるため"
+              "text": "配送をなくし、中央館での受け取りに戻すこと"
             },
             {
               "id": "D",
-              "text": "予約本を受け取るまでの待ち時間を減らすため"
+              "text": "予約した本を受け取るまでの待ち時間を短くすること"
             }
           ],
           "correctAnswer": "D",
-          "explanation": "正解は「予約本を受け取るまでの待ち時間を減らすため」です。",
-          "explanationVi": "Thư viện muốn giảm thời gian chờ nhận sách đã đặt, vốn trước đó kéo dài do sách được chuyển tới chi nhánh không thường xuyên.",
+          "explanation": "Việc đặt sách về nhiều chi nhánh và dùng hệ thống chung nhằm rút ngắn thời gian chờ nhận sách. Đoạn văn vẫn nói chi phí giao nhận và nhu cầu từng chi nhánh cần được cân nhắc.",
+          "explanationVi": "Việc đặt sách về nhiều chi nhánh và dùng hệ thống chung nhằm rút ngắn thời gian chờ nhận sách. Đoạn văn vẫn nói chi phí giao nhận và nhu cầu từng chi nhánh cần được cân nhắc.",
           "distractorExplanations": {
-            "A": "Phương án «分館の貸し出しを停止するため» không khớp với dữ kiện được hỏi. Thư viện muốn giảm thời gian chờ nhận sách đã đặt, vốn trước đó kéo dài do sách được chuyển tới chi nhánh không thường xuyên.",
-            "B": "Phương án «利用者の予約を取り消すため» không khớp với dữ kiện được hỏi. Thư viện muốn giảm thời gian chờ nhận sách đã đặt, vốn trước đó kéo dài do sách được chuyển tới chi nhánh không thường xuyên.",
-            "C": "Phương án «本を中央館だけに集めるため» không khớp với dữ kiện được hỏi. Thư viện muốn giảm thời gian chờ nhận sách đã đặt, vốn trước đó kéo dài do sách được chuyển tới chi nhánh không thường xuyên."
+            "A": "Thư viện chỉ đặt thêm các sách được đặt nhiều ở nhiều chi nhánh; không mua toàn bộ danh mục giống nhau cho mọi nơi.",
+            "B": "Thay đổi tập trung vào vị trí sách và hệ thống kiểm tra tình trạng mượn; không sửa thời hạn mượn.",
+            "C": "Việc chuyển sách giữa các thư viện vẫn là một phần dịch vụ. Hệ thống mới giúp giảm thời gian chờ nhận sách."
           },
           "topicTag": "public-policy",
           "difficultyBand": 2,
           "distractorStrategy": "意味・文脈の対比",
           "skill": "Reading",
-          "contextPassage": "市の図書館では、利用者が本を予約して受け取る仕組みを見直した。以前は中央館に届いた本を分館へ運ぶ回数が限られており、受け取りまで長く待つ場合があった。そこで、予約が多い本は複数館に置き、各館の貸し出し状況を共通システムで確認できるようにした。導入後、平均待ち日数は短くなったが、利用が一部の館に集中する本もあり、追加購入の判断が難しい。図書館は貸し出し件数だけでなく、予約の取り消しや利用者の希望も見ながら、所蔵数を調整する方針である。",
-          "passage": "市の図書館では、利用者が本を予約して受け取る仕組みを見直した。以前は中央館に届いた本を分館へ運ぶ回数が限られており、受け取りまで長く待つ場合があった。そこで、予約が多い本は複数館に置き、各館の貸し出し状況を共通システムで確認できるようにした。導入後、平均待ち日数は短くなったが、利用が一部の館に集中する本もあり、追加購入の判断が難しい。図書館は貸し出し件数だけでなく、予約の取り消しや利用者の希望も見ながら、所蔵数を調整する方針である。"
+          "contextPassage": "市の図書館では、利用者が本を予約して受け取る仕組みを見直した。以前は中央館に届いた本を分館へ運ぶ回数が限られており、受け取りまで長く待つ場合があった。そこで、予約が多い本は複数館に置き、各館の貸し出し状況を共通システムで確認できるようにした。導入後、平均待ち日数は短くなったが、利用が一部の館に集中する本もあり、追加購入の判断が難しい。\n予約が集中する時期には、学校の課題や話題作の需要が短期間に変化する。図書館は館ごとの貸出数を一か月単位で比べ、予約取消しが多い本については、冊数を増やす前に待ち時間や受け取り場所を確かめる。貸し出し件数だけでは、予約を取り消した理由や希望する受取館までは分からないため、利用者の意見も集める方針だ。共通システムは本の所在を探しやすくするが、配送回数を増やせば費用もかかる。便利さだけで運用を決めず、複数の情報を見ながら所蔵数を調整する。",
+          "passage": "市の図書館では、利用者が本を予約して受け取る仕組みを見直した。以前は中央館に届いた本を分館へ運ぶ回数が限られており、受け取りまで長く待つ場合があった。そこで、予約が多い本は複数館に置き、各館の貸し出し状況を共通システムで確認できるようにした。導入後、平均待ち日数は短くなったが、利用が一部の館に集中する本もあり、追加購入の判断が難しい。\n予約が集中する時期には、学校の課題や話題作の需要が短期間に変化する。図書館は館ごとの貸出数を一か月単位で比べ、予約取消しが多い本については、冊数を増やす前に待ち時間や受け取り場所を確かめる。貸し出し件数だけでは、予約を取り消した理由や希望する受取館までは分からないため、利用者の意見も集める方針だ。共通システムは本の所在を探しやすくするが、配送回数を増やせば費用もかかる。便利さだけで運用を決めず、複数の情報を見ながら所蔵数を調整する。"
         },
         {
           "id": "N2_12_M11_08",
@@ -2533,74 +2543,74 @@
           "options": [
             {
               "id": "A",
-              "text": "人気の偏りがあり、購入冊数を決めにくい"
+              "text": "需要が本や館によって偏り、購入冊数を決めにくい"
             },
             {
               "id": "B",
-              "text": "平均待ち日数が必ず長くなった"
+              "text": "導入後、平均待ち日数が必ず長くなった"
             },
             {
               "id": "C",
-              "text": "利用者の希望を聞けなくなった"
+              "text": "共通システムで各館の所蔵状況を確認できない"
             },
             {
               "id": "D",
-              "text": "予約システムが全館で使えない"
+              "text": "利用者の希望を聞けず、配送費だけで決める"
             }
           ],
           "correctAnswer": "A",
-          "explanation": "正解は「人気の偏りがあり、購入冊数を決めにくい」です。",
-          "explanationVi": "Thời gian chờ đã giảm, nhưng nhu cầu tập trung ở một số chi nhánh khiến thư viện khó quyết định có mua thêm sách hay không.",
+          "explanation": "平均日 chờ đã giảm nhưng nhu cầu của một số sách tập trung ở vài chi nhánh nên quyết định mua thêm khó hơn. Hệ thống chung và việc lấy ý kiến người dùng vẫn hoạt động.",
+          "explanationVi": "平均日 chờ đã giảm nhưng nhu cầu của một số sách tập trung ở vài chi nhánh nên quyết định mua thêm khó hơn. Hệ thống chung và việc lấy ý kiến người dùng vẫn hoạt động.",
           "distractorExplanations": {
-            "B": "Phương án «平均待ち日数が必ず長くなった» không khớp với dữ kiện được hỏi. Thời gian chờ đã giảm, nhưng nhu cầu tập trung ở một số chi nhánh khiến thư viện khó quyết định có mua thêm sách hay không.",
-            "C": "Phương án «利用者の希望を聞けなくなった» không khớp với dữ kiện được hỏi. Thời gian chờ đã giảm, nhưng nhu cầu tập trung ở một số chi nhánh khiến thư viện khó quyết định có mua thêm sách hay không.",
-            "D": "Phương án «予約システムが全館で使えない» không khớp với dữ kiện được hỏi. Thời gian chờ đã giảm, nhưng nhu cầu tập trung ở một số chi nhánh khiến thư viện khó quyết định có mua thêm sách hay không."
+            "B": "Bài nói số ngày chờ trung bình đã ngắn hơn. Vấn đề còn lại là nhu cầu của một số sách tập trung ở vài chi nhánh.",
+            "C": "Hệ thống chung được giới thiệu chính để xem tình trạng sách ở từng thư viện; trở ngại là quyết định số lượng mua thêm.",
+            "D": "Thư viện dự định lấy ý kiến người dùng và cân nhắc nhiều chỉ số, gồm nhu cầu và phí giao nhận."
           },
           "topicTag": "public-policy",
           "difficultyBand": 2,
           "distractorStrategy": "意味・文脈の対比",
           "skill": "Reading",
-          "contextPassage": "市の図書館では、利用者が本を予約して受け取る仕組みを見直した。以前は中央館に届いた本を分館へ運ぶ回数が限られており、受け取りまで長く待つ場合があった。そこで、予約が多い本は複数館に置き、各館の貸し出し状況を共通システムで確認できるようにした。導入後、平均待ち日数は短くなったが、利用が一部の館に集中する本もあり、追加購入の判断が難しい。図書館は貸し出し件数だけでなく、予約の取り消しや利用者の希望も見ながら、所蔵数を調整する方針である。",
-          "passage": "市の図書館では、利用者が本を予約して受け取る仕組みを見直した。以前は中央館に届いた本を分館へ運ぶ回数が限られており、受け取りまで長く待つ場合があった。そこで、予約が多い本は複数館に置き、各館の貸し出し状況を共通システムで確認できるようにした。導入後、平均待ち日数は短くなったが、利用が一部の館に集中する本もあり、追加購入の判断が難しい。図書館は貸し出し件数だけでなく、予約の取り消しや利用者の希望も見ながら、所蔵数を調整する方針である。"
+          "contextPassage": "市の図書館では、利用者が本を予約して受け取る仕組みを見直した。以前は中央館に届いた本を分館へ運ぶ回数が限られており、受け取りまで長く待つ場合があった。そこで、予約が多い本は複数館に置き、各館の貸し出し状況を共通システムで確認できるようにした。導入後、平均待ち日数は短くなったが、利用が一部の館に集中する本もあり、追加購入の判断が難しい。\n予約が集中する時期には、学校の課題や話題作の需要が短期間に変化する。図書館は館ごとの貸出数を一か月単位で比べ、予約取消しが多い本については、冊数を増やす前に待ち時間や受け取り場所を確かめる。貸し出し件数だけでは、予約を取り消した理由や希望する受取館までは分からないため、利用者の意見も集める方針だ。共通システムは本の所在を探しやすくするが、配送回数を増やせば費用もかかる。便利さだけで運用を決めず、複数の情報を見ながら所蔵数を調整する。",
+          "passage": "市の図書館では、利用者が本を予約して受け取る仕組みを見直した。以前は中央館に届いた本を分館へ運ぶ回数が限られており、受け取りまで長く待つ場合があった。そこで、予約が多い本は複数館に置き、各館の貸し出し状況を共通システムで確認できるようにした。導入後、平均待ち日数は短くなったが、利用が一部の館に集中する本もあり、追加購入の判断が難しい。\n予約が集中する時期には、学校の課題や話題作の需要が短期間に変化する。図書館は館ごとの貸出数を一か月単位で比べ、予約取消しが多い本については、冊数を増やす前に待ち時間や受け取り場所を確かめる。貸し出し件数だけでは、予約を取り消した理由や希望する受取館までは分からないため、利用者の意見も集める方針だ。共通システムは本の所在を探しやすくするが、配送回数を増やせば費用もかかる。便利さだけで運用を決めず、複数の情報を見ながら所蔵数を調整する。"
         },
         {
           "id": "N2_12_M11_09",
           "level": "N2",
           "typeId": "N2-RD-MED",
           "category": "中文読解",
-          "stem": "所蔵数を調整する際に図書館が見る情報は何か。",
+          "stem": "貸出件数だけでは分からないため、図書館が所蔵数の調整に使う情報は何か。",
           "options": [
             {
               "id": "A",
-              "text": "館の建物の広さだけ"
+              "text": "本の大きさと棚の空きだけ"
             },
             {
               "id": "B",
-              "text": "貸出・取消し・利用者希望など"
+              "text": "貸出数・予約取消し・待ち時間・希望する受取館など"
             },
             {
               "id": "C",
-              "text": "貸し出し件数だけ"
+              "text": "貸出件数だけ"
             },
             {
               "id": "D",
-              "text": "職員の勤務年数"
+              "text": "配送費だけ"
             }
           ],
           "correctAnswer": "B",
-          "explanation": "正解は「貸出・取消し・利用者希望など」です。",
-          "explanationVi": "Khi điều chỉnh số lượng sách, thư viện xem cả số lượt mượn, lượt hủy đặt chỗ và mong muốn của bạn đọc.",
+          "explanation": "Số lượt mượn không cho biết vì sao người đọc hủy đặt hoặc muốn nhận sách ở chi nhánh nào. Vì vậy thư viện kết hợp số liệu mượn, hủy đặt, thời gian chờ và ý kiến người dùng.",
+          "explanationVi": "Số lượt mượn không cho biết vì sao người đọc hủy đặt hoặc muốn nhận sách ở chi nhánh nào. Vì vậy thư viện kết hợp số liệu mượn, hủy đặt, thời gian chờ và ý kiến người dùng.",
           "distractorExplanations": {
-            "A": "Phương án «館の建物の広さだけ» không khớp với dữ kiện được hỏi. Khi điều chỉnh số lượng sách, thư viện xem cả số lượt mượn, lượt hủy đặt chỗ và mong muốn của bạn đọc.",
-            "C": "Phương án «貸し出し件数だけ» không khớp với dữ kiện được hỏi. Khi điều chỉnh số lượng sách, thư viện xem cả số lượt mượn, lượt hủy đặt chỗ và mong muốn của bạn đọc.",
-            "D": "Phương án «職員の勤務年数» không khớp với dữ kiện được hỏi. Khi điều chỉnh số lượng sách, thư viện xem cả số lượt mượn, lượt hủy đặt chỗ và mong muốn của bạn đọc."
+            "A": "Kích thước sách và chỗ trống trên kệ không cho biết sách nào bị hủy đặt, thời gian chờ hay chi nhánh người đọc muốn nhận.",
+            "C": "Câu hỏi nhấn mạnh dữ liệu ngoài lượt mượn; bài bổ sung hủy đặt, thời gian chờ, nơi nhận mong muốn và ý kiến người dùng.",
+            "D": "Phí giao nhận là một yếu tố vận hành nhưng không giải thích được nhu cầu ở từng chi nhánh hay lý do hủy đặt."
           },
           "topicTag": "public-policy",
           "difficultyBand": 2,
           "distractorStrategy": "意味・文脈の対比",
           "skill": "Reading",
-          "contextPassage": "市の図書館では、利用者が本を予約して受け取る仕組みを見直した。以前は中央館に届いた本を分館へ運ぶ回数が限られており、受け取りまで長く待つ場合があった。そこで、予約が多い本は複数館に置き、各館の貸し出し状況を共通システムで確認できるようにした。導入後、平均待ち日数は短くなったが、利用が一部の館に集中する本もあり、追加購入の判断が難しい。図書館は貸し出し件数だけでなく、予約の取り消しや利用者の希望も見ながら、所蔵数を調整する方針である。",
-          "passage": "市の図書館では、利用者が本を予約して受け取る仕組みを見直した。以前は中央館に届いた本を分館へ運ぶ回数が限られており、受け取りまで長く待つ場合があった。そこで、予約が多い本は複数館に置き、各館の貸し出し状況を共通システムで確認できるようにした。導入後、平均待ち日数は短くなったが、利用が一部の館に集中する本もあり、追加購入の判断が難しい。図書館は貸し出し件数だけでなく、予約の取り消しや利用者の希望も見ながら、所蔵数を調整する方針である。"
+          "contextPassage": "市の図書館では、利用者が本を予約して受け取る仕組みを見直した。以前は中央館に届いた本を分館へ運ぶ回数が限られており、受け取りまで長く待つ場合があった。そこで、予約が多い本は複数館に置き、各館の貸し出し状況を共通システムで確認できるようにした。導入後、平均待ち日数は短くなったが、利用が一部の館に集中する本もあり、追加購入の判断が難しい。\n予約が集中する時期には、学校の課題や話題作の需要が短期間に変化する。図書館は館ごとの貸出数を一か月単位で比べ、予約取消しが多い本については、冊数を増やす前に待ち時間や受け取り場所を確かめる。貸し出し件数だけでは、予約を取り消した理由や希望する受取館までは分からないため、利用者の意見も集める方針だ。共通システムは本の所在を探しやすくするが、配送回数を増やせば費用もかかる。便利さだけで運用を決めず、複数の情報を見ながら所蔵数を調整する。",
+          "passage": "市の図書館では、利用者が本を予約して受け取る仕組みを見直した。以前は中央館に届いた本を分館へ運ぶ回数が限られており、受け取りまで長く待つ場合があった。そこで、予約が多い本は複数館に置き、各館の貸し出し状況を共通システムで確認できるようにした。導入後、平均待ち日数は短くなったが、利用が一部の館に集中する本もあり、追加購入の判断が難しい。\n予約が集中する時期には、学校の課題や話題作の需要が短期間に変化する。図書館は館ごとの貸出数を一か月単位で比べ、予約取消しが多い本については、冊数を増やす前に待ち時間や受け取り場所を確かめる。貸し出し件数だけでは、予約を取り消した理由や希望する受取館までは分からないため、利用者の意見も集める方針だ。共通システムは本の所在を探しやすくするが、配送回数を増やせば費用もかかる。便利さだけで運用を決めず、複数の情報を見ながら所蔵数を調整する。"
         },
         {
           "id": "N2_12_M12_01",
@@ -2689,15 +2699,15 @@
           "options": [
             {
               "id": "A",
-              "text": "川幅が広がりすぎて船が通れなくなった"
+              "text": "護岸工事の結果、避難範囲が広がり、住民から水位を保つよう求められた"
             },
             {
               "id": "B",
-              "text": "環境団体が工事の中止を決定した"
+              "text": "市が住民の要望を受け、環境団体に工事中止の判断を任せた"
             },
             {
               "id": "C",
-              "text": "草刈りの費用が十年前より下がった"
+              "text": "草刈り費用が予想より下がり、植物を残す必要がなくなった"
             },
             {
               "id": "D",
@@ -2705,19 +2715,19 @@
             }
           ],
           "correctAnswer": "D",
-          "explanation": "正解は「下流の流れが速まり、魚の産卵場所が減っていた」です。",
-          "explanationVi": "Khảo sát cho thấy dòng nước ở hạ lưu chảy nhanh hơn và những vùng nước nông, nơi cá đẻ trứng, đã giảm đi.",
+          "explanation": "Khảo sát cho thấy dòng chảy phía hạ lưu nhanh hơn và bãi cạn nơi cá đẻ trứng bị thu hẹp; đó là kết quả khiến thành phố xem lại kế hoạch. Ý kiến cư dân và nhóm môi trường là phần tranh luận sau đó.",
+          "explanationVi": "Khảo sát cho thấy dòng chảy phía hạ lưu nhanh hơn và bãi cạn nơi cá đẻ trứng bị thu hẹp; đó là kết quả khiến thành phố xem lại kế hoạch. Ý kiến cư dân và nhóm môi trường là phần tranh luận sau đó.",
           "distractorExplanations": {
-            "A": "Phương án «川幅が広がりすぎて船が通れなくなった» không khớp với dữ kiện được hỏi. Khảo sát cho thấy dòng nước ở hạ lưu chảy nhanh hơn và những vùng nước nông, nơi cá đẻ trứng, đã giảm đi.",
-            "B": "Phương án «環境団体が工事の中止を決定した» không khớp với dữ kiện được hỏi. Khảo sát cho thấy dòng nước ở hạ lưu chảy nhanh hơn và những vùng nước nông, nơi cá đẻ trứng, đã giảm đi.",
-            "C": "Phương án «草刈りの費用が十年前より下がった» không khớp với dữ kiện được hỏi. Khảo sát cho thấy dòng nước ở hạ lưu chảy nhanh hơn và những vùng nước nông, nơi cá đẻ trứng, đã giảm đi."
+            "A": "Kết quả khảo sát được nêu là dòng chảy hạ lưu nhanh hơn và bãi nông nơi cá đẻ trứng giảm. Yêu cầu về phạm vi sơ tán không xuất hiện trong đoạn này.",
+            "B": "Thành phố không trao quyền quyết định cho một nhóm. Họ tự thử nghiệm quy mô nhỏ để cân nhắc ý kiến cư dân, nhóm môi trường và số liệu.",
+            "C": "Người dân lo chi phí cắt cỏ có thể tăng; không có kết quả cho thấy chi phí giảm hay cây cối không cần giữ."
           },
           "topicTag": "environment-policy",
           "difficultyBand": 3,
           "distractorStrategy": "意味・文脈の対比",
           "skill": "Reading",
-          "contextPassage": "市は、十年前から続けてきた河川沿いの護岸工事を一部見直すことにした。これまでは大雨による浸水を防ぐため、川幅を広げ、岸をコンクリートで固める計画を中心に進めていた。しかし、最近の調査で、工事区間の下流では流れが速くなり、魚が産卵する浅瀬が減っていることが分かった。そこで市は、堤防を高くするだけでなく、川の一部に水が広がる場所を設け、植物が育つ岸辺を残す案を検討している。\n\nこの案に対して、近くに住む人の中には、植物を残すと草刈りの費用が増え、見通しも悪くなるのではないかと心配する声がある。一方、環境団体は、川の流れを複数に分ければ生き物のすみかを守りながら水害に備えられると期待している。市は、どちらか一方の意見だけで決めず、草刈りの頻度や水位の変化を小さな区間で確かめることにした。\n\n試験区間では、地元の住民にも月一回の観察会に参加してもらう。観察会は専門知識を持つ人だけの調査ではなく、普段川を利用する人が変化に気づき、記録を共有する機会でもある。市は、観察結果を工事の設計に反映させるが、参加人数の多さだけで案の良し悪しを判断しない。安全性、維持費、生態系の変化を合わせて評価し、二年後に本格工事の範囲を決める予定だ。",
-          "passage": "市は、十年前から続けてきた河川沿いの護岸工事を一部見直すことにした。これまでは大雨による浸水を防ぐため、川幅を広げ、岸をコンクリートで固める計画を中心に進めていた。しかし、最近の調査で、工事区間の下流では流れが速くなり、魚が産卵する浅瀬が減っていることが分かった。そこで市は、堤防を高くするだけでなく、川の一部に水が広がる場所を設け、植物が育つ岸辺を残す案を検討している。\n\nこの案に対して、近くに住む人の中には、植物を残すと草刈りの費用が増え、見通しも悪くなるのではないかと心配する声がある。一方、環境団体は、川の流れを複数に分ければ生き物のすみかを守りながら水害に備えられると期待している。市は、どちらか一方の意見だけで決めず、草刈りの頻度や水位の変化を小さな区間で確かめることにした。\n\n試験区間では、地元の住民にも月一回の観察会に参加してもらう。観察会は専門知識を持つ人だけの調査ではなく、普段川を利用する人が変化に気づき、記録を共有する機会でもある。市は、観察結果を工事の設計に反映させるが、参加人数の多さだけで案の良し悪しを判断しない。安全性、維持費、生態系の変化を合わせて評価し、二年後に本格工事の範囲を決める予定だ。"
+          "contextPassage": "市は、十年前から続けてきた河川沿いの護岸工事を一部見直すことにした。これまでは大雨による浸水を防ぐため、川幅を広げ、岸をコンクリートで固める計画を中心に進めていた。しかし、最近の調査で、工事区間の下流では流れが速くなり、魚が産卵する浅瀬が減っていることが分かった。そこで市は、堤防を高くするだけでなく、川の一部に水が広がる場所を設け、植物が育つ岸辺を残す案を検討している。\n\nこの案に対して、近くに住む人の中には、植物を残すと草刈りの費用が増え、見通しも悪くなるのではないかと心配する声がある。一方、環境団体は、川の流れを複数に分ければ生き物のすみかを守りながら水害に備えられると期待している。市は、どちらか一方の意見だけで決めず、草刈りの頻度や水位の変化を小さな区間で確かめることにした。\n\n試験区間では、地元の住民にも月一回の観察会に参加してもらう。観察会は専門知識を持つ人だけの調査ではなく、普段川を利用する人が変化に気づき、記録を共有する機会でもある。市は、観察結果を工事の設計に反映させるが、参加人数の多さだけで案の良し悪しを判断しない。安全性、維持費、生態系の変化を合わせて評価し、二年後に本格工事の範囲を決める予定だ。\n\n市は試験結果を比較する際、雨量や季節、工事区間の違いを記録し、一度の大雨や一種類の生き物の観察だけで結論を出さない方針だ。水害への備えは住民の安全に関わるため、環境面でよい変化が見られても、避難や堤防の機能を弱める案は採用できない。反対に、短期的な維持費だけを見ると、将来の修繕費や生態系への影響を見落とす可能性がある。観察会で寄せられた意見は、専門家の測定結果と並べて検討し、どの条件で利点と課題が現れたかを設計資料に残す。",
+          "passage": "市は、十年前から続けてきた河川沿いの護岸工事を一部見直すことにした。これまでは大雨による浸水を防ぐため、川幅を広げ、岸をコンクリートで固める計画を中心に進めていた。しかし、最近の調査で、工事区間の下流では流れが速くなり、魚が産卵する浅瀬が減っていることが分かった。そこで市は、堤防を高くするだけでなく、川の一部に水が広がる場所を設け、植物が育つ岸辺を残す案を検討している。\n\nこの案に対して、近くに住む人の中には、植物を残すと草刈りの費用が増え、見通しも悪くなるのではないかと心配する声がある。一方、環境団体は、川の流れを複数に分ければ生き物のすみかを守りながら水害に備えられると期待している。市は、どちらか一方の意見だけで決めず、草刈りの頻度や水位の変化を小さな区間で確かめることにした。\n\n試験区間では、地元の住民にも月一回の観察会に参加してもらう。観察会は専門知識を持つ人だけの調査ではなく、普段川を利用する人が変化に気づき、記録を共有する機会でもある。市は、観察結果を工事の設計に反映させるが、参加人数の多さだけで案の良し悪しを判断しない。安全性、維持費、生態系の変化を合わせて評価し、二年後に本格工事の範囲を決める予定だ。\n\n市は試験結果を比較する際、雨量や季節、工事区間の違いを記録し、一度の大雨や一種類の生き物の観察だけで結論を出さない方針だ。水害への備えは住民の安全に関わるため、環境面でよい変化が見られても、避難や堤防の機能を弱める案は採用できない。反対に、短期的な維持費だけを見ると、将来の修繕費や生態系への影響を見落とす可能性がある。観察会で寄せられた意見は、専門家の測定結果と並べて検討し、どの条件で利点と課題が現れたかを設計資料に残す。"
         },
         {
           "id": "N2_12_M13_02",
@@ -2728,35 +2738,35 @@
           "options": [
             {
               "id": "A",
-              "text": "草刈りや水位への懸念を実際に確かめるため"
+              "text": "草刈りや水位に関する懸念を、小さな区間で確かめるため"
             },
             {
               "id": "B",
-              "text": "住民の意見を集めずに済ませるため"
+              "text": "本工事の効果を早く確認するため、試験結果を待たずに全区間へ広げる"
             },
             {
               "id": "C",
-              "text": "本格工事の範囲をすぐに決定するため"
+              "text": "草刈りの費用だけを比べ、生態系や安全性は試験対象にしない"
             },
             {
               "id": "D",
-              "text": "環境団体の案をそのまま採用するため"
+              "text": "市民の観察会を開かず、専門家の測定だけで案を決める"
             }
           ],
           "correctAnswer": "A",
-          "explanation": "正解は「草刈りや水位への懸念を実際に確かめるため」です。",
-          "explanationVi": "Người dân lo chi phí cắt cỏ và tầm nhìn; tổ chức môi trường kỳ vọng bảo vệ sinh cảnh. Thử nghiệm nhỏ giúp kiểm tra cả hai điều.",
+          "explanation": "Thử nghiệm quy mô nhỏ giúp kiểm tra thực tế lo ngại về cỏ, tầm nhìn và mực nước trước khi quyết định phạm vi công trình. Thành phố vẫn đánh giá cả an toàn, chi phí và hệ sinh thái.",
+          "explanationVi": "Thử nghiệm quy mô nhỏ giúp kiểm tra thực tế lo ngại về cỏ, tầm nhìn và mực nước trước khi quyết định phạm vi công trình. Thành phố vẫn đánh giá cả an toàn, chi phí và hệ sinh thái.",
           "distractorExplanations": {
-            "B": "Phương án «住民の意見を集めずに済ませるため» không khớp với dữ kiện được hỏi. Người dân lo chi phí cắt cỏ và tầm nhìn; tổ chức môi trường kỳ vọng bảo vệ sinh cảnh. Thử nghiệm nhỏ giúp kiểm tra cả hai điều.",
-            "C": "Phương án «本格工事の範囲をすぐに決定するため» không khớp với dữ kiện được hỏi. Người dân lo chi phí cắt cỏ và tầm nhìn; tổ chức môi trường kỳ vọng bảo vệ sinh cảnh. Thử nghiệm nhỏ giúp kiểm tra cả hai điều.",
-            "D": "Phương án «環境団体の案をそのまま採用するため» không khớp với dữ kiện được hỏi. Người dân lo chi phí cắt cỏ và tầm nhìn; tổ chức môi trường kỳ vọng bảo vệ sinh cảnh. Thử nghiệm nhỏ giúp kiểm tra cả hai điều."
+            "B": "Thành phố muốn kiểm tra trước trong một đoạn nhỏ và dự định hai năm sau mới quyết định phạm vi công trình chính.",
+            "C": "Thử nghiệm xem cả tần suất cắt cỏ và biến động mực nước; quyết định cuối cùng cân nhắc an toàn, chi phí và hệ sinh thái.",
+            "D": "Người dân tham gia quan sát hàng tháng và chia sẻ ghi chép. Thành phố đối chiếu ý kiến này với đo đạc chuyên môn."
           },
           "topicTag": "environment-policy",
           "difficultyBand": 3,
           "distractorStrategy": "意味・文脈の対比",
           "skill": "Reading",
-          "contextPassage": "市は、十年前から続けてきた河川沿いの護岸工事を一部見直すことにした。これまでは大雨による浸水を防ぐため、川幅を広げ、岸をコンクリートで固める計画を中心に進めていた。しかし、最近の調査で、工事区間の下流では流れが速くなり、魚が産卵する浅瀬が減っていることが分かった。そこで市は、堤防を高くするだけでなく、川の一部に水が広がる場所を設け、植物が育つ岸辺を残す案を検討している。\n\nこの案に対して、近くに住む人の中には、植物を残すと草刈りの費用が増え、見通しも悪くなるのではないかと心配する声がある。一方、環境団体は、川の流れを複数に分ければ生き物のすみかを守りながら水害に備えられると期待している。市は、どちらか一方の意見だけで決めず、草刈りの頻度や水位の変化を小さな区間で確かめることにした。\n\n試験区間では、地元の住民にも月一回の観察会に参加してもらう。観察会は専門知識を持つ人だけの調査ではなく、普段川を利用する人が変化に気づき、記録を共有する機会でもある。市は、観察結果を工事の設計に反映させるが、参加人数の多さだけで案の良し悪しを判断しない。安全性、維持費、生態系の変化を合わせて評価し、二年後に本格工事の範囲を決める予定だ。",
-          "passage": "市は、十年前から続けてきた河川沿いの護岸工事を一部見直すことにした。これまでは大雨による浸水を防ぐため、川幅を広げ、岸をコンクリートで固める計画を中心に進めていた。しかし、最近の調査で、工事区間の下流では流れが速くなり、魚が産卵する浅瀬が減っていることが分かった。そこで市は、堤防を高くするだけでなく、川の一部に水が広がる場所を設け、植物が育つ岸辺を残す案を検討している。\n\nこの案に対して、近くに住む人の中には、植物を残すと草刈りの費用が増え、見通しも悪くなるのではないかと心配する声がある。一方、環境団体は、川の流れを複数に分ければ生き物のすみかを守りながら水害に備えられると期待している。市は、どちらか一方の意見だけで決めず、草刈りの頻度や水位の変化を小さな区間で確かめることにした。\n\n試験区間では、地元の住民にも月一回の観察会に参加してもらう。観察会は専門知識を持つ人だけの調査ではなく、普段川を利用する人が変化に気づき、記録を共有する機会でもある。市は、観察結果を工事の設計に反映させるが、参加人数の多さだけで案の良し悪しを判断しない。安全性、維持費、生態系の変化を合わせて評価し、二年後に本格工事の範囲を決める予定だ。"
+          "contextPassage": "市は、十年前から続けてきた河川沿いの護岸工事を一部見直すことにした。これまでは大雨による浸水を防ぐため、川幅を広げ、岸をコンクリートで固める計画を中心に進めていた。しかし、最近の調査で、工事区間の下流では流れが速くなり、魚が産卵する浅瀬が減っていることが分かった。そこで市は、堤防を高くするだけでなく、川の一部に水が広がる場所を設け、植物が育つ岸辺を残す案を検討している。\n\nこの案に対して、近くに住む人の中には、植物を残すと草刈りの費用が増え、見通しも悪くなるのではないかと心配する声がある。一方、環境団体は、川の流れを複数に分ければ生き物のすみかを守りながら水害に備えられると期待している。市は、どちらか一方の意見だけで決めず、草刈りの頻度や水位の変化を小さな区間で確かめることにした。\n\n試験区間では、地元の住民にも月一回の観察会に参加してもらう。観察会は専門知識を持つ人だけの調査ではなく、普段川を利用する人が変化に気づき、記録を共有する機会でもある。市は、観察結果を工事の設計に反映させるが、参加人数の多さだけで案の良し悪しを判断しない。安全性、維持費、生態系の変化を合わせて評価し、二年後に本格工事の範囲を決める予定だ。\n\n市は試験結果を比較する際、雨量や季節、工事区間の違いを記録し、一度の大雨や一種類の生き物の観察だけで結論を出さない方針だ。水害への備えは住民の安全に関わるため、環境面でよい変化が見られても、避難や堤防の機能を弱める案は採用できない。反対に、短期的な維持費だけを見ると、将来の修繕費や生態系への影響を見落とす可能性がある。観察会で寄せられた意見は、専門家の測定結果と並べて検討し、どの条件で利点と課題が現れたかを設計資料に残す。",
+          "passage": "市は、十年前から続けてきた河川沿いの護岸工事を一部見直すことにした。これまでは大雨による浸水を防ぐため、川幅を広げ、岸をコンクリートで固める計画を中心に進めていた。しかし、最近の調査で、工事区間の下流では流れが速くなり、魚が産卵する浅瀬が減っていることが分かった。そこで市は、堤防を高くするだけでなく、川の一部に水が広がる場所を設け、植物が育つ岸辺を残す案を検討している。\n\nこの案に対して、近くに住む人の中には、植物を残すと草刈りの費用が増え、見通しも悪くなるのではないかと心配する声がある。一方、環境団体は、川の流れを複数に分ければ生き物のすみかを守りながら水害に備えられると期待している。市は、どちらか一方の意見だけで決めず、草刈りの頻度や水位の変化を小さな区間で確かめることにした。\n\n試験区間では、地元の住民にも月一回の観察会に参加してもらう。観察会は専門知識を持つ人だけの調査ではなく、普段川を利用する人が変化に気づき、記録を共有する機会でもある。市は、観察結果を工事の設計に反映させるが、参加人数の多さだけで案の良し悪しを判断しない。安全性、維持費、生態系の変化を合わせて評価し、二年後に本格工事の範囲を決める予定だ。\n\n市は試験結果を比較する際、雨量や季節、工事区間の違いを記録し、一度の大雨や一種類の生き物の観察だけで結論を出さない方針だ。水害への備えは住民の安全に関わるため、環境面でよい変化が見られても、避難や堤防の機能を弱める案は採用できない。反対に、短期的な維持費だけを見ると、将来の修繕費や生態系への影響を見落とす可能性がある。観察会で寄せられた意見は、専門家の測定結果と並べて検討し、どの条件で利点と課題が現れたかを設計資料に残す。"
         },
         {
           "id": "N2_12_M13_03",
@@ -2767,35 +2777,35 @@
           "options": [
             {
               "id": "A",
-              "text": "観察結果は工事設計に反映しない"
+              "text": "住民の記録を設計に取り入れるが、安全性や維持費の評価とは切り離す"
             },
             {
               "id": "B",
-              "text": "住民の観察を記録として使うが、評価は複数の基準で行う"
+              "text": "住民の記録も用いるが、複数の基準を合わせて評価する"
             },
             {
               "id": "C",
-              "text": "専門家以外は川の変化を記録できない"
+              "text": "参加人数の多さを基準に、案の安全性を判断する"
             },
             {
               "id": "D",
-              "text": "参加人数が多ければ計画の安全性も証明される"
+              "text": "専門家の測定と住民の観察のうち、人数の多い側の意見を採用する"
             }
           ],
           "correctAnswer": "B",
-          "explanation": "正解は「住民の観察を記録として使うが、評価は複数の基準で行う」です。",
-          "explanationVi": "Cư dân có thể ghi nhận thay đổi để hỗ trợ thiết kế, nhưng thành phố còn đánh giá an toàn, chi phí duy trì và hệ sinh thái; số người tham gia không phải tiêu chí duy nhất.",
+          "explanation": "Quan sát của cư dân được đưa vào thiết kế, nhưng số người tham gia không tự chứng minh phương án an toàn. Thành phố đặt ý kiến tại chỗ cạnh số liệu chuyên gia và đánh giá nhiều tiêu chí.",
+          "explanationVi": "Quan sát của cư dân được đưa vào thiết kế, nhưng số người tham gia không tự chứng minh phương án an toàn. Thành phố đặt ý kiến tại chỗ cạnh số liệu chuyên gia và đánh giá nhiều tiêu chí.",
           "distractorExplanations": {
-            "A": "Phương án «観察結果は工事設計に反映しない» không khớp với dữ kiện được hỏi. Cư dân có thể ghi nhận thay đổi để hỗ trợ thiết kế, nhưng thành phố còn đánh giá an toàn, chi phí duy trì và hệ sinh thái; số người tham gia không phải tiêu chí duy nhất.",
-            "C": "Phương án «専門家以外は川の変化を記録できない» không khớp với dữ kiện được hỏi. Cư dân có thể ghi nhận thay đổi để hỗ trợ thiết kế, nhưng thành phố còn đánh giá an toàn, chi phí duy trì và hệ sinh thái; số người tham gia không phải tiêu chí duy nhất.",
-            "D": "Phương án «参加人数が多ければ計画の安全性も証明される» không khớp với dữ kiện được hỏi. Cư dân có thể ghi nhận thay đổi để hỗ trợ thiết kế, nhưng thành phố còn đánh giá an toàn, chi phí duy trì và hệ sinh thái; số người tham gia không phải tiêu chí duy nhất."
+            "A": "Ghi chép của người dân được đưa vào thiết kế, nhưng đánh giá cuối cùng vẫn kết hợp an toàn, chi phí bảo trì và thay đổi hệ sinh thái.",
+            "C": "Bài nói rõ số người tham gia đông không tự chứng minh phương án an toàn; đây chỉ là một nguồn quan sát.",
+            "D": "Thành phố đặt quan sát cư dân cạnh kết quả đo của chuyên gia và giữ cả điều kiện, lợi ích lẫn rủi ro trong hồ sơ; không chọn theo số người."
           },
           "topicTag": "environment-policy",
           "difficultyBand": 3,
           "distractorStrategy": "意味・文脈の対比",
           "skill": "Reading",
-          "contextPassage": "市は、十年前から続けてきた河川沿いの護岸工事を一部見直すことにした。これまでは大雨による浸水を防ぐため、川幅を広げ、岸をコンクリートで固める計画を中心に進めていた。しかし、最近の調査で、工事区間の下流では流れが速くなり、魚が産卵する浅瀬が減っていることが分かった。そこで市は、堤防を高くするだけでなく、川の一部に水が広がる場所を設け、植物が育つ岸辺を残す案を検討している。\n\nこの案に対して、近くに住む人の中には、植物を残すと草刈りの費用が増え、見通しも悪くなるのではないかと心配する声がある。一方、環境団体は、川の流れを複数に分ければ生き物のすみかを守りながら水害に備えられると期待している。市は、どちらか一方の意見だけで決めず、草刈りの頻度や水位の変化を小さな区間で確かめることにした。\n\n試験区間では、地元の住民にも月一回の観察会に参加してもらう。観察会は専門知識を持つ人だけの調査ではなく、普段川を利用する人が変化に気づき、記録を共有する機会でもある。市は、観察結果を工事の設計に反映させるが、参加人数の多さだけで案の良し悪しを判断しない。安全性、維持費、生態系の変化を合わせて評価し、二年後に本格工事の範囲を決める予定だ。",
-          "passage": "市は、十年前から続けてきた河川沿いの護岸工事を一部見直すことにした。これまでは大雨による浸水を防ぐため、川幅を広げ、岸をコンクリートで固める計画を中心に進めていた。しかし、最近の調査で、工事区間の下流では流れが速くなり、魚が産卵する浅瀬が減っていることが分かった。そこで市は、堤防を高くするだけでなく、川の一部に水が広がる場所を設け、植物が育つ岸辺を残す案を検討している。\n\nこの案に対して、近くに住む人の中には、植物を残すと草刈りの費用が増え、見通しも悪くなるのではないかと心配する声がある。一方、環境団体は、川の流れを複数に分ければ生き物のすみかを守りながら水害に備えられると期待している。市は、どちらか一方の意見だけで決めず、草刈りの頻度や水位の変化を小さな区間で確かめることにした。\n\n試験区間では、地元の住民にも月一回の観察会に参加してもらう。観察会は専門知識を持つ人だけの調査ではなく、普段川を利用する人が変化に気づき、記録を共有する機会でもある。市は、観察結果を工事の設計に反映させるが、参加人数の多さだけで案の良し悪しを判断しない。安全性、維持費、生態系の変化を合わせて評価し、二年後に本格工事の範囲を決める予定だ。"
+          "contextPassage": "市は、十年前から続けてきた河川沿いの護岸工事を一部見直すことにした。これまでは大雨による浸水を防ぐため、川幅を広げ、岸をコンクリートで固める計画を中心に進めていた。しかし、最近の調査で、工事区間の下流では流れが速くなり、魚が産卵する浅瀬が減っていることが分かった。そこで市は、堤防を高くするだけでなく、川の一部に水が広がる場所を設け、植物が育つ岸辺を残す案を検討している。\n\nこの案に対して、近くに住む人の中には、植物を残すと草刈りの費用が増え、見通しも悪くなるのではないかと心配する声がある。一方、環境団体は、川の流れを複数に分ければ生き物のすみかを守りながら水害に備えられると期待している。市は、どちらか一方の意見だけで決めず、草刈りの頻度や水位の変化を小さな区間で確かめることにした。\n\n試験区間では、地元の住民にも月一回の観察会に参加してもらう。観察会は専門知識を持つ人だけの調査ではなく、普段川を利用する人が変化に気づき、記録を共有する機会でもある。市は、観察結果を工事の設計に反映させるが、参加人数の多さだけで案の良し悪しを判断しない。安全性、維持費、生態系の変化を合わせて評価し、二年後に本格工事の範囲を決める予定だ。\n\n市は試験結果を比較する際、雨量や季節、工事区間の違いを記録し、一度の大雨や一種類の生き物の観察だけで結論を出さない方針だ。水害への備えは住民の安全に関わるため、環境面でよい変化が見られても、避難や堤防の機能を弱める案は採用できない。反対に、短期的な維持費だけを見ると、将来の修繕費や生態系への影響を見落とす可能性がある。観察会で寄せられた意見は、専門家の測定結果と並べて検討し、どの条件で利点と課題が現れたかを設計資料に残す。",
+          "passage": "市は、十年前から続けてきた河川沿いの護岸工事を一部見直すことにした。これまでは大雨による浸水を防ぐため、川幅を広げ、岸をコンクリートで固める計画を中心に進めていた。しかし、最近の調査で、工事区間の下流では流れが速くなり、魚が産卵する浅瀬が減っていることが分かった。そこで市は、堤防を高くするだけでなく、川の一部に水が広がる場所を設け、植物が育つ岸辺を残す案を検討している。\n\nこの案に対して、近くに住む人の中には、植物を残すと草刈りの費用が増え、見通しも悪くなるのではないかと心配する声がある。一方、環境団体は、川の流れを複数に分ければ生き物のすみかを守りながら水害に備えられると期待している。市は、どちらか一方の意見だけで決めず、草刈りの頻度や水位の変化を小さな区間で確かめることにした。\n\n試験区間では、地元の住民にも月一回の観察会に参加してもらう。観察会は専門知識を持つ人だけの調査ではなく、普段川を利用する人が変化に気づき、記録を共有する機会でもある。市は、観察結果を工事の設計に反映させるが、参加人数の多さだけで案の良し悪しを判断しない。安全性、維持費、生態系の変化を合わせて評価し、二年後に本格工事の範囲を決める予定だ。\n\n市は試験結果を比較する際、雨量や季節、工事区間の違いを記録し、一度の大雨や一種類の生き物の観察だけで結論を出さない方針だ。水害への備えは住民の安全に関わるため、環境面でよい変化が見られても、避難や堤防の機能を弱める案は採用できない。反対に、短期的な維持費だけを見ると、将来の修繕費や生態系への影響を見落とす可能性がある。観察会で寄せられた意見は、専門家の測定結果と並べて検討し、どの条件で利点と課題が現れたかを設計資料に残す。"
         },
         {
           "id": "N2_12_M14_01",

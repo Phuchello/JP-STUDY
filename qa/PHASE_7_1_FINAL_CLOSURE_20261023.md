@@ -1,5 +1,9 @@
 # Phase 7.1 final closure and controlled release decision
 
+> **Current update:** The candidate-only/blocked decision below predates final release integration and is superseded. Current receipt reconciliation, local test results, and release state are in [`PHASE_7_1_FINAL_RELEASE_INTEGRATION_20261023.md`](PHASE_7_1_FINAL_RELEASE_INTEGRATION_20261023.md). Hosted CI and live verification are still pending.
+
+## Prior candidate-only closure (superseded by final integration)
+
 **Date:** 2026-10-23
 **Starting `main` / local `HEAD`:** `312b5b39f8e1d3d06548e6945a6b7f4ee7365b15`
 **Scope:** M11–M13 Reading/STAR candidate closure and M14 Q29–31 Word Usage repair.

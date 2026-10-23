@@ -1,0 +1,302 @@
+{
+  "schema": "JP_STUDY_PHASE_7_1_STAR_DELTA_RAW_REVIEW_V1",
+  "reviewer": {
+    "identity": "Codex independent blind reviewer",
+    "type": "independent Japanese item reviewer"
+  },
+  "reviewedPacketId": "PHASE-7.1-M12-M13-STAR-DELTA-2026-10-23-v1",
+  "reviewedPacketSha256": "7dc1dcb60d0965b5cd47617c0bd9c893a1cc4053e29826d030a4a18cfc5ae8a6",
+  "inputHashBefore": "7dc1dcb60d0965b5cd47617c0bd9c893a1cc4053e29826d030a4a18cfc5ae8a6",
+  "inputHashAfter": "7dc1dcb60d0965b5cd47617c0bd9c893a1cc4053e29826d030a4a18cfc5ae8a6",
+  "summary": {
+    "itemsReviewed": 10,
+    "clearSingleBestReconstruction": 6,
+    "itemsWithDefensibleAlternateOrder": 4,
+    "keyDataUsed": false,
+    "note": "Independent judgments from the learner-visible text and fragments in the identified packet only. Several alternate sequences change which fragment occupies the star; see item-level records."
+  },
+  "results": [
+    {
+      "id": "N2_12_M8_01",
+      "selectedOrder": [
+        {"optionId": "C", "text": "申請者が提出した"},
+        {"optionId": "D", "text": "書類を受付で"},
+        {"optionId": "B", "text": "確認し、"},
+        {"optionId": "A", "text": "不足があればその場で知らせた"}
+      ],
+      "fullSentence": "申請者が提出した書類を受付で確認し、不足があればその場で知らせた。",
+      "thirdSlot": {"optionId": "B", "text": "確認し、"},
+      "rationale": {
+        "ja": "「申請者が提出した」が「書類」を修飾し、「書類を受付で」が「確認し」の目的語と場所になる。後半が確認後の対応を表し、文脈にも自然につながる。",
+        "en": "C modifies 書類; D supplies the object and location for 確認し; A gives the resulting action. The sequence fits the context naturally."
+      },
+      "contextFit": "high",
+      "naturalness": "natural",
+      "alternateDefensibleOrders": [],
+      "concerns": []
+    },
+    {
+      "id": "N2_12_M8_02",
+      "selectedOrder": [
+        {"optionId": "C", "text": "まず回答を集計し、"},
+        {"optionId": "D", "text": "個人情報が含まれていないか"},
+        {"optionId": "A", "text": "公開前に担当者が確認し、"},
+        {"optionId": "B", "text": "必要に応じて該当箇所を修正する"}
+      ],
+      "fullSentence": "まず回答を集計し、個人情報が含まれていないか公開前に担当者が確認し、必要に応じて該当箇所を修正する。",
+      "thirdSlot": {"optionId": "A", "text": "公開前に担当者が確認し、"},
+      "rationale": {
+        "ja": "「個人情報が含まれていないか」が「確認し」の内容を表し、「必要に応じて」が修正の条件になる。「まず」によって集計が先行することも示される。",
+        "en": "D is the embedded question governed by 確認し, and B is the follow-up action. まず makes C the first step."
+      },
+      "contextFit": "high",
+      "naturalness": "slightly awkward but acceptable",
+      "alternateDefensibleOrders": [],
+      "concerns": [
+        "The supplied fragments place the embedded question before the time phrase and subject, yielding a somewhat heavy clause; the meaning remains clear."
+      ]
+    },
+    {
+      "id": "N2_12_M8_03",
+      "selectedOrder": [
+        {"optionId": "C", "text": "市が指定した"},
+        {"optionId": "A", "text": "避難場所を"},
+        {"optionId": "D", "text": "事前に確認し、"},
+        {"optionId": "B", "text": "必要な物資を準備しておく"}
+      ],
+      "fullSentence": "市が指定した避難場所を事前に確認し、必要な物資を準備しておく。",
+      "thirdSlot": {"optionId": "D", "text": "事前に確認し、"},
+      "rationale": {
+        "ja": "「市が指定した避難場所」が自然な名詞句となり、確認と物資の準備という災害への備えが続く。",
+        "en": "C-A forms the noun phrase 市が指定した避難場所; D and B then state two natural preparedness actions."
+      },
+      "contextFit": "high",
+      "naturalness": "natural",
+      "alternateDefensibleOrders": [],
+      "concerns": []
+    },
+    {
+      "id": "N2_12_M8_04",
+      "selectedOrder": [
+        {"optionId": "C", "text": "市は"},
+        {"optionId": "A", "text": "買い物が難しい人に"},
+        {"optionId": "B", "text": "食料品を届けるための移動販売車を導入し、"},
+        {"optionId": "D", "text": "週に二回運行する"}
+      ],
+      "fullSentence": "市は買い物が難しい人に食料品を届けるための移動販売車を導入し、週に二回運行する。",
+      "thirdSlot": {"optionId": "B", "text": "食料品を届けるための移動販売車を導入し、"},
+      "rationale": {
+        "ja": "「市は」が主題、「買い物が難しい人に」が届け先を示し、移動販売車の導入と運行頻度が続く。",
+        "en": "C is the subject, A marks the intended recipients, B introduces the vehicle, and D states its operating frequency."
+      },
+      "contextFit": "high",
+      "naturalness": "natural",
+      "alternateDefensibleOrders": [],
+      "concerns": []
+    },
+    {
+      "id": "N2_12_M8_05",
+      "selectedOrder": [
+        {"optionId": "D", "text": "複数の案が出た場合には"},
+        {"optionId": "C", "text": "短期的な費用だけでなく"},
+        {"optionId": "A", "text": "将来の維持費も"},
+        {"optionId": "B", "text": "比較したうえで決める"}
+      ],
+      "fullSentence": "複数の案が出た場合には短期的な費用だけでなく将来の維持費も比較したうえで決める。",
+      "thirdSlot": {"optionId": "A", "text": "将来の維持費も"},
+      "rationale": {
+        "ja": "「短期的な費用だけでなく」と「将来の維持費も」が対になり、複数案の選択条件も文頭で明確になる。",
+        "en": "C and A form the paired contrast of short-term costs and future maintenance costs; D sets the condition for comparing and deciding."
+      },
+      "contextFit": "high",
+      "naturalness": "natural",
+      "alternateDefensibleOrders": [
+        {
+          "order": [
+            {"optionId": "C", "text": "短期的な費用だけでなく"},
+            {"optionId": "A", "text": "将来の維持費も"},
+            {"optionId": "D", "text": "複数の案が出た場合には"},
+            {"optionId": "B", "text": "比較したうえで決める"}
+          ],
+          "fullSentence": "短期的な費用だけでなく将来の維持費も複数の案が出た場合には比較したうえで決める。",
+          "thirdSlot": {"optionId": "D", "text": "複数の案が出た場合には"},
+          "status": "grammatical and semantically defensible; somewhat less smooth information order",
+          "rationale": "The conditional clause can modify the comparison predicate after the paired objects; it preserves the same general meaning but changes the star fragment."
+        },
+        {
+          "order": [
+            {"optionId": "C", "text": "短期的な費用だけでなく"},
+            {"optionId": "D", "text": "複数の案が出た場合には"},
+            {"optionId": "A", "text": "将来の維持費も"},
+            {"optionId": "B", "text": "比較したうえで決める"}
+          ],
+          "fullSentence": "短期的な費用だけでなく複数の案が出た場合には将来の維持費も比較したうえで決める。",
+          "thirdSlot": {"optionId": "A", "text": "将来の維持費も"},
+          "status": "grammatical and semantically defensible, though the condition interrupts the paired phrase",
+          "rationale": "The conditional can be read as a sentence-level modifier inserted between the two contrasted costs."
+        }
+      ],
+      "concerns": [
+        "More than one fragment order is defensible. The first alternate changes the fragment in the star position, so the item does not have a uniquely determined star answer."
+      ]
+    },
+    {
+      "id": "N2_13_M8_01",
+      "selectedOrder": [
+        {"optionId": "B", "text": "研究者は"},
+        {"optionId": "C", "text": "数値の出典を"},
+        {"optionId": "A", "text": "明示することによって"},
+        {"optionId": "D", "text": "読者が結果を確かめられるようにした。"}
+      ],
+      "fullSentence": "研究者は数値の出典を明示することによって読者が結果を確かめられるようにした。",
+      "thirdSlot": {"optionId": "A", "text": "明示することによって"},
+      "rationale": {
+        "ja": "研究者が出典を明示する方法と、その結果として読者が検証できるようになることが、文法・意味の両面で明確につながる。",
+        "en": "The researchers explicitly identify the source of the figures, thereby enabling readers to verify the result. This is the clearest order."
+      },
+      "contextFit": "high",
+      "naturalness": "natural",
+      "alternateDefensibleOrders": [
+        {
+          "order": [
+            {"optionId": "C", "text": "数値の出典を"},
+            {"optionId": "B", "text": "研究者は"},
+            {"optionId": "A", "text": "明示することによって"},
+            {"optionId": "D", "text": "読者が結果を確かめられるようにした。"}
+          ],
+          "fullSentence": "数値の出典を研究者は明示することによって読者が結果を確かめられるようにした。",
+          "thirdSlot": {"optionId": "A", "text": "明示することによって"},
+          "status": "grammatical but marked",
+          "rationale": "Object-before-subject order is possible with contrastive/topic は, though no contrast is established here and the canonical order is substantially more natural."
+        }
+      ],
+      "concerns": [
+        "A marked topicalized word order is possible, but it does not change the star fragment."
+      ]
+    },
+    {
+      "id": "N2_13_M8_02",
+      "selectedOrder": [
+        {"optionId": "D", "text": "学生の理解度に"},
+        {"optionId": "A", "text": "合わせて"},
+        {"optionId": "C", "text": "説明の順序を"},
+        {"optionId": "B", "text": "調整する必要がある。"}
+      ],
+      "fullSentence": "学生の理解度に合わせて説明の順序を調整する必要がある。",
+      "thirdSlot": {"optionId": "C", "text": "説明の順序を"},
+      "rationale": {
+        "ja": "「学生の理解度に合わせて」が調整の基準を示し、「説明の順序を調整する」と続く。最も自然な語順ではCが三番目になる。",
+        "en": "D-A is the natural manner phrase, followed by the object C and predicate B. In this best order, C occupies the star."
+      },
+      "contextFit": "high",
+      "naturalness": "natural",
+      "alternateDefensibleOrders": [
+        {
+          "order": [
+            {"optionId": "C", "text": "説明の順序を"},
+            {"optionId": "D", "text": "学生の理解度に"},
+            {"optionId": "A", "text": "合わせて"},
+            {"optionId": "B", "text": "調整する必要がある。"}
+          ],
+          "fullSentence": "説明の順序を学生の理解度に合わせて調整する必要がある。",
+          "thirdSlot": {"optionId": "A", "text": "合わせて"},
+          "status": "grammatical and natural",
+          "rationale": "Japanese permits the object before the manner phrase; this is a coherent and natural sequence with a different star fragment."
+        },
+        {
+          "order": [
+            {"optionId": "D", "text": "学生の理解度に"},
+            {"optionId": "C", "text": "説明の順序を"},
+            {"optionId": "A", "text": "合わせて"},
+            {"optionId": "B", "text": "調整する必要がある。"}
+          ],
+          "fullSentence": "学生の理解度に説明の順序を合わせて調整する必要がある。",
+          "thirdSlot": {"optionId": "A", "text": "合わせて"},
+          "status": "grammatical, less natural than the selected order",
+          "rationale": "The two case-marked phrases can precede 合わせて, but the selected order is smoother and avoids the clunky sequence 合わせて調整."
+        }
+      ],
+      "concerns": [
+        "Multiple natural orders are available and at least one changes the fragment in the star position; the star answer is not uniquely determined."
+      ]
+    },
+    {
+      "id": "N2_13_M8_03",
+      "selectedOrder": [
+        {"optionId": "A", "text": "記事の見出しだけで"},
+        {"optionId": "B", "text": "内容を判断するのではなく"},
+        {"optionId": "D", "text": "本文と出典も"},
+        {"optionId": "C", "text": "確認したほうがよい。"}
+      ],
+      "fullSentence": "記事の見出しだけで内容を判断するのではなく本文と出典も確認したほうがよい。",
+      "thirdSlot": {"optionId": "D", "text": "本文と出典も"},
+      "rationale": {
+        "ja": "「見出しだけで判断するのではなく」と「本文と出典も確認する」が自然な対比を作り、編集部の呼びかけと合う。",
+        "en": "The sentence contrasts judging from the headline alone with also checking the body and sources, directly matching the context."
+      },
+      "contextFit": "high",
+      "naturalness": "natural",
+      "alternateDefensibleOrders": [],
+      "concerns": []
+    },
+    {
+      "id": "N2_13_M8_04",
+      "selectedOrder": [
+        {"optionId": "A", "text": "新しい機能を"},
+        {"optionId": "D", "text": "導入する前に"},
+        {"optionId": "B", "text": "利用者の負担が"},
+        {"optionId": "C", "text": "増えないか検討した。"}
+      ],
+      "fullSentence": "新しい機能を導入する前に利用者の負担が増えないか検討した。",
+      "thirdSlot": {"optionId": "B", "text": "利用者の負担が"},
+      "rationale": {
+        "ja": "「新しい機能を導入する前に」が時を示し、「利用者の負担が増えないか」が検討内容になる。",
+        "en": "A-D forms the pre-introduction time clause; B-C states what was examined."
+      },
+      "contextFit": "high",
+      "naturalness": "natural",
+      "alternateDefensibleOrders": [],
+      "concerns": []
+    },
+    {
+      "id": "N2_13_M8_05",
+      "selectedOrder": [
+        {"optionId": "A", "text": "複数の資料を"},
+        {"optionId": "C", "text": "照合したうえで"},
+        {"optionId": "B", "text": "記事の内容を"},
+        {"optionId": "D", "text": "公開することにした。"}
+      ],
+      "fullSentence": "複数の資料を照合したうえで記事の内容を公開することにした。",
+      "thirdSlot": {"optionId": "B", "text": "記事の内容を"},
+      "rationale": {
+        "ja": "提示された助詞のままなら、「複数の資料を照合したうえで」が自然に成立し、その後に「記事の内容を公開する」と続けられる。文脈との大意のつながりはある。",
+        "en": "Given the supplied particles, A-C is the cleanest grammatical phrase (cross-check multiple sources), followed by publishing the article's content. It broadly fits the context."
+      },
+      "contextFit": "medium",
+      "naturalness": "grammatical, but intended relation is underspecified",
+      "alternateDefensibleOrders": [
+        {
+          "order": [
+            {"optionId": "B", "text": "記事の内容を"},
+            {"optionId": "C", "text": "照合したうえで"},
+            {"optionId": "A", "text": "複数の資料を"},
+            {"optionId": "D", "text": "公開することにした。"}
+          ],
+          "fullSentence": "記事の内容を照合したうえで複数の資料を公開することにした。",
+          "thirdSlot": {"optionId": "A", "text": "複数の資料を"},
+          "status": "grammatical and semantically coherent as a different claim; poor fit to the supplied context",
+          "rationale": "This makes article content the object of 照合 and the documents the object of 公開. It is a coherent sentence, but it does not express the contextual action of checking sources before publishing article content."
+        }
+      ],
+      "concerns": [
+        "The likely contextual meaning is to compare the article's contents against multiple sources, but the fragments provide を for both objects and no と/に phrase for the comparison target. No offered sequence expresses that relation cleanly.",
+        "A grammatically coherent alternate order exists with a different meaning and a different star fragment, so the item is ambiguous and has only medium contextual fit."
+      ]
+    }
+  ],
+  "completion": {
+    "requiredItems": 10,
+    "completedItems": 10,
+    "allPacketIdsIncluded": true
+  }
+}

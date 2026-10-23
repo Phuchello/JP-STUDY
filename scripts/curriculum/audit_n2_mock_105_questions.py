@@ -97,6 +97,52 @@ def load_reconciliation_ledger():
             # Fail closed: the dynamic release audit separately reports that
             # a missing or malformed version-bound review blocks the exam.
             continue
+
+    # Phase 7.1 uses a separate immutable, 105-row receipt per exam so the
+    # prior released-version blind artifacts remain untouched. Validate its
+    # exact packets/raw responses before allowing it to supersede a historical
+    # ledger row for the same question ID.
+    from scripts.curriculum.build_phase_71_candidate_reconciliation import (
+        response_registry,
+        validate_receipt as validate_phase71_receipt,
+    )
+    registry = response_registry()
+    for exam_number in (11, 12, 13):
+        report_path = ROOT / f'qa/N2_MOCK_{exam_number:02d}_PHASE71_CANDIDATE_RECONCILIATION.json'
+        sealed_path = ROOT / f'qa/blind_items_m{exam_number:02d}_phase71_candidate.json'
+        exam_path = ROOT / f'data/mock_exams/n2_mock_{exam_number:02d}.json'
+        if not (report_path.is_file() and sealed_path.is_file() and exam_path.is_file()):
+            continue
+        errors = validate_phase71_receipt(exam_number, registry, source='published')
+        if errors:
+            continue
+        report = json.loads(report_path.read_text(encoding='utf-8'))
+        exam = json.loads(exam_path.read_text(encoding='utf-8'))
+        sealed = json.loads(sealed_path.read_text(encoding='utf-8'))
+        if validate_current_version_reconciliation(report, exam, sealed):
+            continue
+        for row in report.get('rows', []):
+            qid = row.get('questionId')
+            concerns = row.get('editorialConcerns', [])
+            agrees = (row.get('releaseEligible') is True
+                      and row.get('semanticTextAgreement') is True
+                      and row.get('rawReviewerExactOptionText') == row.get('currentKeyedOptionExactText'))
+            evidence_text = 'Exact reviewer-selected option text matches the current key.'
+            if concerns:
+                evidence_text += ' Disclosed editorial concerns: ' + ' | '.join(str(item) for item in concerns)
+            ledger[qid] = {
+                'questionId': qid,
+                'reconciliationClassification': 'AGREEMENT' if agrees else 'KEY_MISMATCH',
+                'finalDisposition': 'AI_SEMANTIC_VERIFIED' if agrees else 'QUARANTINED',
+                'independentProposedAnswer': row.get('reviewerSelectedOptionId'),
+                'confidence': row.get('reviewEvidenceSource', {}).get('confidence') or 'NOT_REPORTED',
+                'linguisticJustification': evidence_text,
+                'reviewerProvenance': 'Phase 7.1 version-bound AI editorial response; portable execution attestation unavailable',
+                'contentFingerprint': row.get('contentFingerprint'),
+                'fingerprintMatch': True,
+                'editorialConcerns': concerns,
+                'reviewReceiptPath': report_path.relative_to(ROOT).as_posix(),
+            }
     return ledger
 
 

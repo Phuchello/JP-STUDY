@@ -35,14 +35,14 @@
     "raw_blind_star_repaired_3.json": "45ab0ba1bad83384bade7f3946a8c3654074a6e5cda6e4b04f3168ac18731ca1",
     "raw_blind_repaired_5.json": "fbf8d578575f26cc9375d3274d42698b6b0d3a2a84c529bc17956c954386c7ab"
   },
-  "derivedArtifactHash": "867a2eb836183dd835bb82b67eeb5286e244280f956056bc782f824a9832bd15",
-  "totalQuestionsAudited": 1155,
-  "m11VersionBoundRowsIncluded": 105,
+  "derivedArtifactHash": "d4e4525838eac90101dcb1ee701dce5fead5a8e6c377c777129b040546b1532d",
+  "totalQuestionsAudited": 1365,
+  "currentVersionBoundRowsIncluded": 315,
   "provenanceBreakdown": {
     "RECONSTRUCTED_FROM_ARCHIVED_INPUT": 287,
     "REVIEW_CONTENT_VERSION_VERIFIED": 639,
     "OPTION_PERMUTATION_REBOUND": 124,
-    "AI_BLIND_VERSION_BOUND_NO_PORTABLE_ATTESTATION": 105
+    "PHASE71_VERSION_BOUND_AI_NO_PORTABLE_ATTESTATION": 315
   },
   "totalReorderedQuestions": 321,
   "recoverableSemanticMappings": 321,

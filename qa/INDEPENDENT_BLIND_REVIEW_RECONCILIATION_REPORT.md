@@ -2,7 +2,7 @@
 
 **Target Exams:** `N2-MOCK-01`, `N2-MOCK-02`, `N2-MOCK-03`, `N2-MOCK-04`, `N2-MOCK-05`, `N2-MOCK-06`, `N2-MOCK-07`, `N2-MOCK-08`, `N2-MOCK-09`, `N2-MOCK-10`, `N2-MOCK-11`, `N2-MOCK-12`, `N2-MOCK-13` (1365 total items)
 **Assurance Framework:** Historical reconstructed answer mappings plus validated current-version M11 AI blind responses; exact text is reconciled without claiming portable execution attestation.
-**Audit Timestamp:** 2026-10-22
+**Audit Timestamp:** 2026-10-23
 **Version-Bound Answer Rows Loaded:** 1365 / 1365
 
 ---
@@ -50,6 +50,12 @@
 ### D. Reviewer notes without a proposed alternate answer
 - **`N2_11_M2_05`**: ['「保障」は安全や権利を守る意味で近いが、品質の保証期間を約束する場合は「保証」が明確で、同程度に自然な別解ではない。']
 - **`N2_11_M9_02`**: ['A「ものの」も形の上では接続できるが逆接を表し、文脈と明示された添加関係に合わないため、同等の別解とは判断しない。']
+- **`N2_12_M8_02`**: ['The supplied fragments place the embedded question before the time phrase and subject, yielding a somewhat heavy clause; the meaning remains clear.']
+- **`N2_12_M10_05`**: ['The item is clear. Packet metadata labels the skill as Language Knowledge although the category and task are reading comprehension; this may be a metadata classification issue.']
+- **`N2_13_M8_01`**: ['A marked topicalized word order is possible, but it does not change the star fragment.']
+- **`N2_13_M8_02`**: ['The passage mentions student understanding but not lesson purpose directly; the proposed sentence remains a natural and relevant extension.']
+- **`N2_13_M11_01`**: ['The answer is stated almost verbatim, so inferential demand is low. Packet metadata labels the skill as Language Knowledge although the category and task are reading comprehension; this may be a metadata classification issue.']
+- **`N2_13_M11_03`**: ["The correct option closely echoes the passage's explicit distinction, so the item has limited inferential depth. Distractor B is comparatively easy to reject because it introduces social reach as a substitute for fact checking, which the passage never suggests."]
 
 ---
 

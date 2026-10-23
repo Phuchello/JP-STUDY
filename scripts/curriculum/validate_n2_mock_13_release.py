@@ -26,8 +26,12 @@ from scripts.curriculum.mock_exam_release_checks import (
 from scripts.curriculum.question_fingerprint import compute_spoken_content_fingerprint
 
 EXAM_PATH = ROOT / "data/mock_exams/n2_mock_13.json"
-SEALED_PATH = ROOT / "qa/blind_items_m13_final.json"
-REVIEW_PATH = ROOT / "qa/N2_MOCK_13_BLIND_RECONCILIATION.json"
+_EXAM = json.loads(EXAM_PATH.read_text(encoding="utf-8")) if EXAM_PATH.is_file() else {}
+_PHASE71_RECEIPT = ROOT / "qa/N2_MOCK_13_PHASE71_CANDIDATE_RECONCILIATION.json"
+_PHASE71 = (_EXAM.get("releaseGateStatus") == "REVIEW_CONTENT_VERSION_VERIFIED" and _PHASE71_RECEIPT.is_file()
+            and hashlib.sha256(EXAM_PATH.read_bytes()).hexdigest() == json.loads(_PHASE71_RECEIPT.read_text(encoding="utf-8")).get("candidateExamSha256AtBuild"))
+SEALED_PATH = ROOT / ("qa/blind_items_m13_phase71_candidate.json" if _PHASE71 else "qa/blind_items_m13_final.json")
+REVIEW_PATH = ROOT / ("qa/N2_MOCK_13_PHASE71_CANDIDATE_RECONCILIATION.json" if _PHASE71 else "qa/N2_MOCK_13_BLIND_RECONCILIATION.json")
 MANIFEST_PATH = ROOT / "data/mock_exams/n2_mock_13_audio_manifest.json"
 RECEIPT_PATH = ROOT / "qa/N2_MOCK_13_AUDIO_PLAYBACK_RECEIPT.json"
 ORIGINALITY_PATH = ROOT / "qa/N2_MOCK_13_ORIGINALITY_AUDIT.json"
@@ -115,11 +119,12 @@ def main() -> int:
 
     raw_info = review.get("rawEvidence", {})
     raw_rel = str(raw_info.get("rawOutputFile", ""))
-    if raw_info.get("rawResponsePreservedLocally") is not True or not raw_rel.startswith("tmp/"):
-        errors.append("Review must state that immutable raw output remains in ignored local tmp")
+    required_raw_prefix = "qa/" if _PHASE71 else "tmp/"
+    if raw_info.get("rawResponsePreservedLocally") is not True or not raw_rel.startswith(required_raw_prefix):
+        errors.append("Review must reference the immutable raw response in its declared evidence location")
     else:
         raw_path = (ROOT / raw_rel).resolve()
-        if raw_path.is_file() and sha256(raw_path) != raw_info.get("rawOutputSha256"):
+        if not raw_path.is_file() or sha256(raw_path) != raw_info.get("rawOutputSha256"):
             errors.append("Available local raw review file does not match its recorded SHA-256")
 
     if errors:

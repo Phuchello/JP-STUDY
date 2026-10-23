@@ -1,6 +1,6 @@
 # N2-MOCK-11 — Browser Audio Playback QA
 
-Generated: 2026-10-21T13:49:31.948Z
+Generated: 2026-10-23T13:17:39.226Z
 Scope: 30 M11 tracks, decoded and played in desktop and mobile-emulated Chromium.
 Result: 30/30 passed. This confirms browser decoding/playback and file mapping; it does not certify pronunciation or naturalness.
 

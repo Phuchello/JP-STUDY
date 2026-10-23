@@ -1646,11 +1646,11 @@
           "level": "N2",
           "typeId": "N2-GR-STAR",
           "category": "文の組み立て",
-          "stem": "担当者は、★と指示した。",
+          "stem": "担当者は、（　　）（　　）（　★　）（　　）よう指示した。",
           "options": [
             {
               "id": "A",
-              "text": "その結果、差があった場合は取引先に確認してから"
+              "text": "その結果、差があった場合は取引先に確認して"
             },
             {
               "id": "B",
@@ -1666,21 +1666,23 @@
             }
           ],
           "correctAnswer": "A",
-          "explanation": "意味と文法の両面から、修飾語を被修飾語の前に置くと自然な文になります。 Ở câu này, cụm «その結果、差があった場合は取引先に確認してから» đứng ở vị trí thứ ba; câu hoàn chỉnh là «まず請求書の金額を注文記録と照合し、その結果、差があった場合は取引先に確認してから修正案を作る». Hãy kiểm tra cả trật tự cụm từ và quan hệ bổ nghĩa trước khi chọn.",
-          "explanationVi": "Thứ tự là まず請求書の金額を → 注文記録と照合し → その結果、差があった場合は取引先に確認してから → 修正案を作る. Cụm đứng thứ ba là その結果…; từ này cần kết quả đối chiếu ở cụm trước.",
+          "explanation": "意味と文法の両面から、修飾語を被修飾語の前に置くと自然な文になります。 Ở câu này, cụm «その結果、差があった場合は取引先に確認して» đứng ở vị trí thứ ba; câu hoàn chỉnh là «まず請求書の金額を注文記録と照合し、その結果、差があった場合は取引先に確認して修正案を作る». Hãy kiểm tra cả trật tự cụm từ và quan hệ bổ nghĩa trước khi chọn.",
+          "explanationVi": "Thứ tự là まず請求書の金額を → 注文記録と照合し → その結果、差があった場合は取引先に確認して → 修正案を作る. Sau bốn ô, よう指示した hoàn thành câu chỉ dẫn. Cụm ★ là vị trí thứ ba và chỉ kết quả sau khi đối chiếu.",
           "distractorExplanations": {
-            "B": "«まず請求書の金額を» không nằm ở vị trí ★ trong chuỗi tạo câu tự nhiên. Trật tự đúng là B → C → A → D; cụm thứ ba là «その結果、差があった場合は取引先に確認してから». Câu hoàn chỉnh: まず請求書の金額を注文記録と照合し、その結果、差があった場合は取引先に確認してから修正案を作る。",
-            "C": "«注文記録と照合し、» không nằm ở vị trí ★ trong chuỗi tạo câu tự nhiên. Trật tự đúng là B → C → A → D; cụm thứ ba là «その結果、差があった場合は取引先に確認してから». Câu hoàn chỉnh: まず請求書の金額を注文記録と照合し、その結果、差があった場合は取引先に確認してから修正案を作る。",
-            "D": "«修正案を作る» không nằm ở vị trí ★ trong chuỗi tạo câu tự nhiên. Trật tự đúng là B → C → A → D; cụm thứ ba là «その結果、差があった場合は取引先に確認してから». Câu hoàn chỉnh: まず請求書の金額を注文記録と照合し、その結果、差があった場合は取引先に確認してから修正案を作る。"
+            "B": "«まず請求書の金額を» không nằm ở vị trí ★ trong chuỗi tạo câu tự nhiên. Trật tự đúng là B → C → A → D; cụm thứ ba là «その結果、差があった場合は取引先に確認して». Câu hoàn chỉnh: 担当者は、まず請求書の金額を注文記録と照合し、その結果、差があった場合は取引先に確認して修正案を作るよう指示した。。",
+            "C": "«注文記録と照合し、» không nằm ở vị trí ★ trong chuỗi tạo câu tự nhiên. Trật tự đúng là B → C → A → D; cụm thứ ba là «その結果、差があった場合は取引先に確認して». Câu hoàn chỉnh: 担当者は、まず請求書の金額を注文記録と照合し、その結果、差があった場合は取引先に確認して修正案を作るよう指示した。。",
+            "D": "«修正案を作る» không nằm ở vị trí ★ trong chuỗi tạo câu tự nhiên. Trật tự đúng là B → C → A → D; cụm thứ ba là «その結果、差があった場合は取引先に確認して». Câu hoàn chỉnh: 担当者は、まず請求書の金額を注文記録と照合し、その結果、差があった場合は取引先に確認して修正案を作るよう指示した。。"
           },
           "topicTag": "workplace",
           "difficultyBand": 2,
-          "assembledSentence": "まず請求書の金額を注文記録と照合し、その結果、差があった場合は取引先に確認してから修正案を作る",
-          "starredOptionText": "その結果、差があった場合は取引先に確認してから",
+          "assembledSentence": "担当者は、まず請求書の金額を注文記録と照合し、その結果、差があった場合は取引先に確認して修正案を作るよう指示した。",
+          "starredOptionText": "その結果、差があった場合は取引先に確認して",
           "starPosition": 3,
           "fragmentOrder": "B→C→A→D",
           "starValidationSchema": "DISPLAYED_FRAGMENT_ORDER_V1",
           "distractorStrategy": "語順・係り受け",
+          "contextPassage": "経理部では、支払前に請求内容を確かめる手順を見直している。",
+          "passage": "経理部では、支払前に請求内容を確かめる手順を見直している。",
           "skill": "Language Knowledge"
         },
         {
@@ -1688,7 +1690,7 @@
           "level": "N2",
           "typeId": "N2-GR-STAR",
           "category": "文の組み立て",
-          "stem": "部長は、★と述べた。",
+          "stem": "部長は、（　　）（　　）（　★　）（　　）と述べた。",
           "options": [
             {
               "id": "A",
@@ -1711,18 +1713,20 @@
           "explanation": "意味と文法の両面から、修飾語を被修飾語の前に置くと自然な文になります。 Ở câu này, cụm «ことのほうが» đứng ở vị trí thứ ba; câu hoàn chỉnh là «結論を急ぐより根拠を確かめることのほうが大切だ». Hãy kiểm tra cả trật tự cụm từ và quan hệ bổ nghĩa trước khi chọn.",
           "explanationVi": "結論を急ぐより根拠を確かめることのほうが大切だ tạo cấu trúc so sánh: kiểm tra căn cứ quan trọng hơn vội kết luận. Cụm ことのほうが đứng thứ ba.",
           "distractorExplanations": {
-            "A": "«結論を急ぐより» không nằm ở vị trí ★ trong chuỗi tạo câu tự nhiên. Trật tự đúng là A → B → C → D; cụm thứ ba là «ことのほうが». Câu hoàn chỉnh: 結論を急ぐより根拠を確かめることのほうが大切だ。",
-            "B": "«根拠を確かめる» không nằm ở vị trí ★ trong chuỗi tạo câu tự nhiên. Trật tự đúng là A → B → C → D; cụm thứ ba là «ことのほうが». Câu hoàn chỉnh: 結論を急ぐより根拠を確かめることのほうが大切だ。",
-            "D": "«大切だ» không nằm ở vị trí ★ trong chuỗi tạo câu tự nhiên. Trật tự đúng là A → B → C → D; cụm thứ ba là «ことのほうが». Câu hoàn chỉnh: 結論を急ぐより根拠を確かめることのほうが大切だ。"
+            "A": "«結論を急ぐより» không nằm ở vị trí ★ trong chuỗi tạo câu tự nhiên. Trật tự đúng là A → B → C → D; cụm thứ ba là «ことのほうが». Câu hoàn chỉnh: 部長は、結論を急ぐより根拠を確かめることのほうが大切だと述べた。。",
+            "B": "«根拠を確かめる» không nằm ở vị trí ★ trong chuỗi tạo câu tự nhiên. Trật tự đúng là A → B → C → D; cụm thứ ba là «ことのほうが». Câu hoàn chỉnh: 部長は、結論を急ぐより根拠を確かめることのほうが大切だと述べた。。",
+            "D": "«大切だ» không nằm ở vị trí ★ trong chuỗi tạo câu tự nhiên. Trật tự đúng là A → B → C → D; cụm thứ ba là «ことのほうが». Câu hoàn chỉnh: 部長は、結論を急ぐより根拠を確かめることのほうが大切だと述べた。。"
           },
           "topicTag": "workplace",
           "difficultyBand": 2,
-          "assembledSentence": "結論を急ぐより根拠を確かめることのほうが大切だ",
+          "assembledSentence": "部長は、結論を急ぐより根拠を確かめることのほうが大切だと述べた。",
           "starredOptionText": "ことのほうが",
           "starPosition": 3,
           "fragmentOrder": "A→B→C→D",
           "starValidationSchema": "DISPLAYED_FRAGMENT_ORDER_V1",
           "distractorStrategy": "語順・係り受け",
+          "contextPassage": "会議では、報告の結論を早く出すべきだという意見が出た。",
+          "passage": "会議では、報告の結論を早く出すべきだという意見が出た。",
           "skill": "Language Knowledge"
         },
         {
@@ -1730,41 +1734,43 @@
           "level": "N2",
           "typeId": "N2-GR-STAR",
           "category": "文の組み立て",
-          "stem": "担当者は、★と決めた。",
+          "stem": "今回の問題について、（　　）（　　）（　★　）（　　）。",
           "options": [
             {
               "id": "A",
-              "text": "まず請求書の金額を"
+              "text": "取引先への回答を急ぐより"
             },
             {
               "id": "B",
-              "text": "注文記録と照合し、"
+              "text": "まず社内で事実を確認する"
             },
             {
               "id": "C",
-              "text": "差があれば取引先に確認してから"
+              "text": "必要があると"
             },
             {
               "id": "D",
-              "text": "支払いの手続きを進める"
+              "text": "課長は説明した"
             }
           ],
           "correctAnswer": "C",
-          "explanation": "意味と文法の両面から、修飾語を被修飾語の前に置くと自然な文になります。 Ở câu này, cụm «差があれば取引先に確認してから» đứng ở vị trí thứ ba; câu hoàn chỉnh là «まず請求書の金額を注文記録と照合し、差があれば取引先に確認してから支払いの手続きを進める». Hãy kiểm tra cả trật tự cụm từ và quan hệ bổ nghĩa trước khi chọn.",
-          "explanationVi": "Thứ tự đúng là まず請求書の金額を → 注文記録と照合し → 差があれば取引先に確認してから → 支払いの手続きを進める. Cụm thứ ba nêu điều kiện xử lý sau khi phát hiện chênh lệch.",
+          "explanation": "意味と文法の両面から、修飾語を被修飾語の前に置くと自然な文になります。 Ở câu này, cụm «必要があると» đứng ở vị trí thứ ba; câu hoàn chỉnh là «取引先への回答を急ぐよりまず社内で事実を確認する必要があると課長は説明した». Hãy kiểm tra cả trật tự cụm từ và quan hệ bổ nghĩa trước khi chọn.",
+          "explanationVi": "Thứ tự là 取引先への回答を急ぐより → まず社内で事実を確認する → 必要があると → 課長は説明した. Câu nhấn mạnh việc xác minh trong nội bộ trước khi vội trả lời đối tác; cụm ★ 必要があると đứng ở ô thứ ba.",
           "distractorExplanations": {
-            "A": "«まず請求書の金額を» không nằm ở vị trí ★ trong chuỗi tạo câu tự nhiên. Trật tự đúng là A → B → C → D; cụm thứ ba là «差があれば取引先に確認してから». Câu hoàn chỉnh: まず請求書の金額を注文記録と照合し、差があれば取引先に確認してから支払いの手続きを進める。",
-            "B": "«注文記録と照合し、» không nằm ở vị trí ★ trong chuỗi tạo câu tự nhiên. Trật tự đúng là A → B → C → D; cụm thứ ba là «差があれば取引先に確認してから». Câu hoàn chỉnh: まず請求書の金額を注文記録と照合し、差があれば取引先に確認してから支払いの手続きを進める。",
-            "D": "«支払いの手続きを進める» không nằm ở vị trí ★ trong chuỗi tạo câu tự nhiên. Trật tự đúng là A → B → C → D; cụm thứ ba là «差があれば取引先に確認してから». Câu hoàn chỉnh: まず請求書の金額を注文記録と照合し、差があれば取引先に確認してから支払いの手続きを進める。"
+            "A": "«取引先への回答を急ぐより» không nằm ở vị trí ★ trong chuỗi tạo câu tự nhiên. Trật tự đúng là A → B → C → D; cụm thứ ba là «必要があると». Câu hoàn chỉnh: 今回の問題について、取引先への回答を急ぐよりまず社内で事実を確認する必要があると課長は説明した。。",
+            "B": "«まず社内で事実を確認する» không nằm ở vị trí ★ trong chuỗi tạo câu tự nhiên. Trật tự đúng là A → B → C → D; cụm thứ ba là «必要があると». Câu hoàn chỉnh: 今回の問題について、取引先への回答を急ぐよりまず社内で事実を確認する必要があると課長は説明した。。",
+            "D": "«課長は説明した» không nằm ở vị trí ★ trong chuỗi tạo câu tự nhiên. Trật tự đúng là A → B → C → D; cụm thứ ba là «必要があると». Câu hoàn chỉnh: 今回の問題について、取引先への回答を急ぐよりまず社内で事実を確認する必要があると課長は説明した。。"
           },
           "topicTag": "workplace",
           "difficultyBand": 2,
-          "assembledSentence": "まず請求書の金額を注文記録と照合し、差があれば取引先に確認してから支払いの手続きを進める",
-          "starredOptionText": "差があれば取引先に確認してから",
+          "assembledSentence": "今回の問題について、取引先への回答を急ぐよりまず社内で事実を確認する必要があると課長は説明した。",
+          "starredOptionText": "必要があると",
           "starPosition": 3,
           "fragmentOrder": "A→B→C→D",
           "starValidationSchema": "DISPLAYED_FRAGMENT_ORDER_V1",
           "distractorStrategy": "語順・係り受け",
+          "contextPassage": "先方に説明する前に、まず事実関係を調べることになった。",
+          "passage": "先方に説明する前に、まず事実関係を調べることになった。",
           "skill": "Language Knowledge"
         },
         {
@@ -1772,41 +1778,43 @@
           "level": "N2",
           "typeId": "N2-GR-STAR",
           "category": "文の組み立て",
-          "stem": "担当者は、★と判断した。",
+          "stem": "担当者は、（　　）（　　）（　★　）（　　）と判断した。",
           "options": [
             {
               "id": "A",
-              "text": "申請書に記された数字と"
+              "text": "申請書に記された数字が"
             },
             {
               "id": "B",
-              "text": "原本の数字を"
+              "text": "原本の記録と一致するかどうかを"
             },
             {
               "id": "C",
-              "text": "その結果、違いがある項目は申請者に確認する必要がある"
+              "text": "違いがあれば申請者に確認する必要がある"
             },
             {
               "id": "D",
-              "text": "項目ごとに照合し、"
+              "text": "項目ごとに確かめ、"
             }
           ],
           "correctAnswer": "D",
-          "explanation": "意味と文法の両面から、修飾語を被修飾語の前に置くと自然な文になります。 Ở câu này, cụm «項目ごとに照合し、» đứng ở vị trí thứ ba; câu hoàn chỉnh là «申請書に記された数字と原本の数字を項目ごとに照合し、その結果、違いがある項目は申請者に確認する必要がある». Hãy kiểm tra cả trật tự cụm từ và quan hệ bổ nghĩa trước khi chọn.",
-          "explanationVi": "Thứ tự là 申請書に記された数字と → 原本の数字を → 項目ごとに照合し → その結果、違いがある項目は申請者に確認する必要がある. Cụm thứ ba hoàn tất động từ 照合する trước khi nêu kết quả.",
+          "explanation": "意味と文法の両面から、修飾語を被修飾語の前に置くと自然な文になります。 Ở câu này, cụm «項目ごとに確かめ、» đứng ở vị trí thứ ba; câu hoàn chỉnh là «申請書に記された数字が原本の記録と一致するかどうかを項目ごとに確かめ、違いがあれば申請者に確認する必要がある». Hãy kiểm tra cả trật tự cụm từ và quan hệ bổ nghĩa trước khi chọn.",
+          "explanationVi": "Câu hoàn chỉnh là 申請書に記された数字が原本の記録と一致するかどうかを項目ごとに確かめ、違いがあれば申請者に確認する必要がある. 「申請書に記された数字が」 nêu chủ ngữ của 「一致するかどうか」; mệnh đề này kết thúc bằng 「を」 và làm đối tượng cho 「確かめる」. Cụm ★「項目ごとに確かめ、」 đứng ở vị trí thứ ba và nối sang bước xử lý sai khác.",
           "distractorExplanations": {
-            "A": "«申請書に記された数字と» không nằm ở vị trí ★ trong chuỗi tạo câu tự nhiên. Trật tự đúng là A → B → D → C; cụm thứ ba là «項目ごとに照合し、». Câu hoàn chỉnh: 申請書に記された数字と原本の数字を項目ごとに照合し、その結果、違いがある項目は申請者に確認する必要がある。",
-            "B": "«原本の数字を» không nằm ở vị trí ★ trong chuỗi tạo câu tự nhiên. Trật tự đúng là A → B → D → C; cụm thứ ba là «項目ごとに照合し、». Câu hoàn chỉnh: 申請書に記された数字と原本の数字を項目ごとに照合し、その結果、違いがある項目は申請者に確認する必要がある。",
-            "C": "«その結果、違いがある項目は申請者に確認する必要がある» không nằm ở vị trí ★ trong chuỗi tạo câu tự nhiên. Trật tự đúng là A → B → D → C; cụm thứ ba là «項目ごとに照合し、». Câu hoàn chỉnh: 申請書に記された数字と原本の数字を項目ごとに照合し、その結果、違いがある項目は申請者に確認する必要がある。"
+            "A": "«申請書に記された数字が» không nằm ở vị trí ★ trong chuỗi tạo câu tự nhiên. Trật tự đúng là A → B → D → C; cụm thứ ba là «項目ごとに確かめ、». Câu hoàn chỉnh: 担当者は、申請書に記された数字が原本の記録と一致するかどうかを項目ごとに確かめ、違いがあれば申請者に確認する必要があると判断した。。",
+            "B": "«原本の記録と一致するかどうかを» không nằm ở vị trí ★ trong chuỗi tạo câu tự nhiên. Trật tự đúng là A → B → D → C; cụm thứ ba là «項目ごとに確かめ、». Câu hoàn chỉnh: 担当者は、申請書に記された数字が原本の記録と一致するかどうかを項目ごとに確かめ、違いがあれば申請者に確認する必要があると判断した。。",
+            "C": "«違いがあれば申請者に確認する必要がある» không nằm ở vị trí ★ trong chuỗi tạo câu tự nhiên. Trật tự đúng là A → B → D → C; cụm thứ ba là «項目ごとに確かめ、». Câu hoàn chỉnh: 担当者は、申請書に記された数字が原本の記録と一致するかどうかを項目ごとに確かめ、違いがあれば申請者に確認する必要があると判断した。。"
           },
           "topicTag": "workplace",
           "difficultyBand": 2,
-          "assembledSentence": "申請書に記された数字と原本の数字を項目ごとに照合し、その結果、違いがある項目は申請者に確認する必要がある",
-          "starredOptionText": "項目ごとに照合し、",
+          "assembledSentence": "担当者は、申請書に記された数字が原本の記録と一致するかどうかを項目ごとに確かめ、違いがあれば申請者に確認する必要があると判断した。",
+          "starredOptionText": "項目ごとに確かめ、",
           "starPosition": 3,
           "fragmentOrder": "A→B→D→C",
           "starValidationSchema": "DISPLAYED_FRAGMENT_ORDER_V1",
           "distractorStrategy": "語順・係り受け",
+          "contextPassage": "申請書と添付された原本の数値が一致しない場合がある。",
+          "passage": "申請書と添付された原本の数値が一致しない場合がある。",
           "skill": "Language Knowledge"
         },
         {
@@ -1814,7 +1822,7 @@
           "level": "N2",
           "typeId": "N2-GR-STAR",
           "category": "文の組み立て",
-          "stem": "意見が異なる場合も、★必要だ。",
+          "stem": "意見が異なる場合も、（　　）（　　）（　★　）（　　）必要だ。",
           "options": [
             {
               "id": "A",
@@ -1837,18 +1845,20 @@
           "explanation": "意味と文法の両面から、修飾語を被修飾語の前に置くと自然な文になります。 Ở câu này, cụm «姿勢を保つ» đứng ở vị trí thứ ba; câu hoàn chỉnh là «相手の立場を理解しようとする姿勢を保つことは». Hãy kiểm tra cả trật tự cụm từ và quan hệ bổ nghĩa trước khi chọn.",
           "explanationVi": "Thứ tự là 相手の立場を → 理解しようとする → 姿勢を保つ → ことは必要だ. Cụm 姿勢を保つ hoàn thành ý “giữ thái độ cố gắng hiểu lập trường của đối phương” và đứng ở vị trí thứ ba.",
           "distractorExplanations": {
-            "A": "«相手の立場を» không nằm ở vị trí ★ trong chuỗi tạo câu tự nhiên. Trật tự đúng là A → B → C → D; cụm thứ ba là «姿勢を保つ». Câu hoàn chỉnh: 相手の立場を理解しようとする姿勢を保つことは。",
-            "B": "«理解しようとする» không nằm ở vị trí ★ trong chuỗi tạo câu tự nhiên. Trật tự đúng là A → B → C → D; cụm thứ ba là «姿勢を保つ». Câu hoàn chỉnh: 相手の立場を理解しようとする姿勢を保つことは。",
-            "D": "«ことは» không nằm ở vị trí ★ trong chuỗi tạo câu tự nhiên. Trật tự đúng là A → B → C → D; cụm thứ ba là «姿勢を保つ». Câu hoàn chỉnh: 相手の立場を理解しようとする姿勢を保つことは。"
+            "A": "«相手の立場を» không nằm ở vị trí ★ trong chuỗi tạo câu tự nhiên. Trật tự đúng là A → B → C → D; cụm thứ ba là «姿勢を保つ». Câu hoàn chỉnh: 意見が異なる場合も、相手の立場を理解しようとする姿勢を保つことは必要だ。。",
+            "B": "«理解しようとする» không nằm ở vị trí ★ trong chuỗi tạo câu tự nhiên. Trật tự đúng là A → B → C → D; cụm thứ ba là «姿勢を保つ». Câu hoàn chỉnh: 意見が異なる場合も、相手の立場を理解しようとする姿勢を保つことは必要だ。。",
+            "D": "«ことは» không nằm ở vị trí ★ trong chuỗi tạo câu tự nhiên. Trật tự đúng là A → B → C → D; cụm thứ ba là «姿勢を保つ». Câu hoàn chỉnh: 意見が異なる場合も、相手の立場を理解しようとする姿勢を保つことは必要だ。。"
           },
           "topicTag": "workplace",
           "difficultyBand": 2,
-          "assembledSentence": "相手の立場を理解しようとする姿勢を保つことは",
+          "assembledSentence": "意見が異なる場合も、相手の立場を理解しようとする姿勢を保つことは必要だ。",
           "starredOptionText": "姿勢を保つ",
           "starPosition": 3,
           "fragmentOrder": "A→B→C→D",
           "starValidationSchema": "DISPLAYED_FRAGMENT_ORDER_V1",
           "distractorStrategy": "語順・係り受け",
+          "contextPassage": "職場で意見が分かれたときの話し合い方が課題になっている。",
+          "passage": "職場で意見が分かれたときの話し合い方が課題になっている。",
           "skill": "Language Knowledge"
         },
         {
@@ -2051,38 +2061,38 @@
           "level": "N2",
           "typeId": "N2-RD-SHORT",
           "category": "短文読解",
-          "stem": "担当者が版番号を付けるよう求めたのはなぜか。",
+          "stem": "作成日と版番号を付けることで、担当者ができるようにしたことは何か。",
           "options": [
             {
               "id": "A",
-              "text": "共有を停止するため"
+              "text": "修正者ごとに保存先を分けること"
             },
             {
               "id": "B",
-              "text": "作成者を隠すため"
+              "text": "古い版を削除し、最新版だけを残すこと"
             },
             {
               "id": "C",
-              "text": "保存容量を小さくするため"
+              "text": "ファイルを開いてから新旧を確認すること"
             },
             {
               "id": "D",
-              "text": "ファイルの新旧を区別しやすくするため"
+              "text": "ファイルを開かなくても、新旧を見分けること"
             }
           ],
           "correctAnswer": "D",
-          "explanation": "日付と版番号を付けると、どのファイルが新しいか確認しやすくなります。",
-          "explanationVi": "Ngày tạo và số phiên bản giúp nhân viên nhận ra tệp nào mới hơn khi tên tệp chưa đủ rõ. Mục đích được nêu là phân biệt độ mới của tệp, không phải giảm dung lượng.",
+          "explanation": "Ngày tạo và số phiên bản được ghi ngay trên tên tệp, nên người dùng nhận ra bản mới trước khi mở. Bài đọc nói các bản cũ vẫn được giữ; việc lưu riêng theo người sửa hoặc mở tệp để kiểm tra không phải mục tiêu.",
+          "explanationVi": "Ngày tạo và số phiên bản được ghi ngay trên tên tệp, nên người dùng nhận ra bản mới trước khi mở. Bài đọc nói các bản cũ vẫn được giữ; việc lưu riêng theo người sửa hoặc mở tệp để kiểm tra không phải mục tiêu.",
           "distractorExplanations": {
-            "A": "«共有を停止するため» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Ngày tạo và số phiên bản giúp nhân viên nhận ra tệp nào mới hơn khi tên tệp chưa đủ rõ. Mục đích được nêu là phân biệt độ mới của tệp, không phải giảm dung lượng. Phương án này thêm hoặc đổi chi tiết so với thông tin đó.",
-            "B": "«作成者を隠すため» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Ngày tạo và số phiên bản giúp nhân viên nhận ra tệp nào mới hơn khi tên tệp chưa đủ rõ. Mục đích được nêu là phân biệt độ mới của tệp, không phải giảm dung lượng. Phương án này thêm hoặc đổi chi tiết so với thông tin đó.",
-            "C": "«保存容量を小さくするため» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Ngày tạo và số phiên bản giúp nhân viên nhận ra tệp nào mới hơn khi tên tệp chưa đủ rõ. Mục đích được nêu là phân biệt độ mới của tệp, không phải giảm dung lượng. Phương án này thêm hoặc đổi chi tiết so với thông tin đó."
+            "A": "Bài đọc nói mọi người vẫn dùng chung một thư mục. Quy tắc mới thay đổi tên tệp, không chia nơi lưu theo người sửa.",
+            "B": "Đoạn sau nói rõ bản cũ vẫn được giữ làm hồ sơ. Mục tiêu là nhận ra bản mới qua tên tệp, không xóa các phiên bản cũ.",
+            "C": "Vấn đề ban đầu là phải mở từng tệp mới biết bản nào mới. Cách ghi ngày và số phiên bản giúp phân biệt trước khi mở."
           },
           "topicTag": "workplace",
           "difficultyBand": 2,
           "distractorStrategy": "目的・因果の取り違え",
-          "passage": "部署で新しい共有フォルダーを使い始めた。ファイル名だけでは内容が分かりにくいため、担当者は作成日と版番号も付けるよう依頼した。",
-          "contextPassage": "部署で新しい共有フォルダーを使い始めた。ファイル名だけでは内容が分かりにくいため、担当者は作成日と版番号も付けるよう依頼した。",
+          "passage": "部署では複数の担当者が同じ共有フォルダーを使い、修正のたびに別名で保存していた。そのため似たファイルが並び、開いて内容を確かめるまで最新版が分からないことがあった。担当者は、作成日と版番号をファイル名に入れるルールを設け、ファイルを開く前に新旧を区別できるようにした。\n\nこの表記を始めてから、担当者は版番号の小さい資料を最新版として送る間違いを減らせた。旧版を消すのではなく、必要な記録として残しながら、新しい版を名前で見つけられるようにしている。",
+          "contextPassage": "部署では複数の担当者が同じ共有フォルダーを使い、修正のたびに別名で保存していた。そのため似たファイルが並び、開いて内容を確かめるまで最新版が分からないことがあった。担当者は、作成日と版番号をファイル名に入れるルールを設け、ファイルを開く前に新旧を区別できるようにした。\n\nこの表記を始めてから、担当者は版番号の小さい資料を最新版として送る間違いを減らせた。旧版を消すのではなく、必要な記録として残しながら、新しい版を名前で見つけられるようにしている。",
           "skill": "Reading"
         },
         {
@@ -2090,38 +2100,38 @@
           "level": "N2",
           "typeId": "N2-RD-SHORT",
           "category": "短文読解",
-          "stem": "担当者はなぜ先方へ問い合わせたのか。",
+          "stem": "担当者が金額を入力する前に先方へ確認したのはなぜか。",
           "options": [
             {
               "id": "A",
-              "text": "見積書を作り直すため"
+              "text": "見積書の金額は前回と同じ条件だと確認できたから"
             },
             {
               "id": "B",
-              "text": "不明な金額を推測で処理しないため"
+              "text": "条件が同じとは限らず、過去の金額を当てはめられないから"
             },
             {
               "id": "C",
-              "text": "取引をすぐに断るため"
+              "text": "見積書の総額が変わったと分かったから"
             },
             {
               "id": "D",
-              "text": "項目をすべて削除するため"
+              "text": "取引を断る判断がすでに済んでいたから"
             }
           ],
           "correctAnswer": "B",
-          "explanation": "金額を推測せず、根拠を確認してから入力しようとしています。",
-          "explanationVi": "Người phụ trách không tự đoán khoản tiền chưa rõ mà đánh dấu chỗ cần hỏi đối tác. Chi tiết này cho thấy họ muốn tránh nhập một con số không có căn cứ.",
+          "explanation": "Con số trước đây chỉ giống về bề ngoài; điều kiện giao hàng có thể khác. Người phụ trách xác minh trước khi dùng số chưa rõ căn cứ, chứ không xác nhận điều kiện giống nhau hay quyết định hủy giao dịch.",
+          "explanationVi": "Con số trước đây chỉ giống về bề ngoài; điều kiện giao hàng có thể khác. Người phụ trách xác minh trước khi dùng số chưa rõ căn cứ, chứ không xác nhận điều kiện giống nhau hay quyết định hủy giao dịch.",
           "distractorExplanations": {
-            "A": "«見積書を作り直すため» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Người phụ trách không tự đoán khoản tiền chưa rõ mà đánh dấu chỗ cần hỏi đối tác. Chi tiết này cho thấy họ muốn tránh nhập một con số không có căn cứ. Phương án này thêm hoặc đổi chi tiết so với thông tin đó.",
-            "C": "«取引をすぐに断るため» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Người phụ trách không tự đoán khoản tiền chưa rõ mà đánh dấu chỗ cần hỏi đối tác. Chi tiết này cho thấy họ muốn tránh nhập một con số không có căn cứ. Phương án này thêm hoặc đổi chi tiết so với thông tin đó.",
-            "D": "«項目をすべて削除するため» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Người phụ trách không tự đoán khoản tiền chưa rõ mà đánh dấu chỗ cần hỏi đối tác. Chi tiết này cho thấy họ muốn tránh nhập một con số không có căn cứ. Phương án này thêm hoặc đổi chi tiết so với thông tin đó."
+            "A": "Người phụ trách chưa xác nhận điều kiện giống nhau; bài đọc nói điều kiện giao hàng thay đổi thì số tiền cũng có thể đổi.",
+            "C": "Chỉ có một khoản thiếu giải thích cần hỏi lại. Không có thông tin cho biết tổng tiền đã thay đổi.",
+            "D": "Người phụ trách vẫn hỏi căn cứ của khoản tiền và tạm không dùng nó để tính giá thành; bài không nói đã quyết định từ chối giao dịch."
           },
           "topicTag": "workplace",
           "difficultyBand": 2,
           "distractorStrategy": "目的・因果の取り違え",
-          "passage": "取引先から届いた見積書に不明な項目があった。担当者は金額を推測して入力せず、該当箇所を示して先方へ問い合わせた。",
-          "contextPassage": "取引先から届いた見積書に不明な項目があった。担当者は金額を推測して入力せず、該当箇所を示して先方へ問い合わせた。",
+          "passage": "取引先から届いた見積書に、説明のない金額が一つあった。以前の案件と似た数字ではあったが、納品条件が変われば金額も変わる。担当者は過去の数字を空欄に当てはめず、該当箇所を示して先方へ問い合わせた。確認が取れるまでは、その金額を社内の原価計算にも使わないようチームに伝えた。\n\n問い合わせ中の欄には「確認待ち」と記し、回答を受けた日も残すことにした。過去の案件に似ているという理由だけで金額を確定すると、後から条件の違いに気づく恐れがあるためだ。",
+          "contextPassage": "取引先から届いた見積書に、説明のない金額が一つあった。以前の案件と似た数字ではあったが、納品条件が変われば金額も変わる。担当者は過去の数字を空欄に当てはめず、該当箇所を示して先方へ問い合わせた。確認が取れるまでは、その金額を社内の原価計算にも使わないようチームに伝えた。\n\n問い合わせ中の欄には「確認待ち」と記し、回答を受けた日も残すことにした。過去の案件に似ているという理由だけで金額を確定すると、後から条件の違いに気づく恐れがあるためだ。",
           "skill": "Reading"
         },
         {
@@ -2129,38 +2139,38 @@
           "level": "N2",
           "typeId": "N2-RD-SHORT",
           "category": "短文読解",
-          "stem": "公開前に行う作業は何か。",
+          "stem": "講師が名前の映る場面を共有前に処理するよう求めた主な理由は何か。",
           "options": [
             {
               "id": "A",
-              "text": "名前が映る場面を編集する"
+              "text": "個人が特定される情報を社外に公開しないため"
             },
             {
               "id": "B",
-              "text": "講師の説明を削除する"
+              "text": "社外向けの映像を一定の長さに整えるため"
             },
             {
               "id": "C",
-              "text": "参加者全員に録画を再撮影してもらう"
+              "text": "研修の説明を外部向けに全面的に書き換えるため"
             },
             {
               "id": "D",
-              "text": "研修をもう一度開催する"
+              "text": "社員名の読み方を字幕で補足し、視聴者に正確に伝えるため"
             }
           ],
           "correctAnswer": "A",
-          "explanation": "参加者名が映る場面を削除してから公開すると指定されています。",
-          "explanationVi": "Giảng viên yêu cầu xóa cảnh có tên người tham gia trước khi chia sẻ video. Đây là bước bảo vệ thông tin cá nhân trước khi công bố.",
+          "explanation": "Vì video được chia sẻ ra ngoài công ty, tên và thông báo có thể nhận diện nhân viên nên cần cắt hoặc làm mờ. Nội dung đào tạo vẫn được giữ lại; độ dài và cách đọc tên không phải lý do.",
+          "explanationVi": "Vì video được chia sẻ ra ngoài công ty, tên và thông báo có thể nhận diện nhân viên nên cần cắt hoặc làm mờ. Nội dung đào tạo vẫn được giữ lại; độ dài và cách đọc tên không phải lý do.",
           "distractorExplanations": {
-            "B": "«講師の説明を削除する» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Giảng viên yêu cầu xóa cảnh có tên người tham gia trước khi chia sẻ video. Đây là bước bảo vệ thông tin cá nhân trước khi công bố. Phương án này thêm hoặc đổi chi tiết so với thông tin đó.",
-            "C": "«参加者全員に録画を再撮影してもらう» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Giảng viên yêu cầu xóa cảnh có tên người tham gia trước khi chia sẻ video. Đây là bước bảo vệ thông tin cá nhân trước khi công bố. Phương án này thêm hoặc đổi chi tiết so với thông tin đó.",
-            "D": "«研修をもう一度開催する» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Giảng viên yêu cầu xóa cảnh có tên người tham gia trước khi chia sẻ video. Đây là bước bảo vệ thông tin cá nhân trước khi công bố. Phương án này thêm hoặc đổi chi tiết so với thông tin đó."
+            "B": "Các cảnh cần xử lý là cảnh có tên nhân viên hoặc thông báo. Thời lượng video không được nêu là mục tiêu chỉnh sửa.",
+            "C": "Giảng viên yêu cầu giữ phần giải thích đào tạo và chỉ kiểm tra thông tin nhận diện cá nhân; không yêu cầu viết lại nội dung.",
+            "D": "Tên nhân viên được che hoặc cắt để tránh nhận diện, không được bổ sung cách đọc vào phụ đề."
           },
           "topicTag": "workplace",
           "difficultyBand": 2,
           "distractorStrategy": "目的・因果の取り違え",
-          "passage": "社内研修の録画を公開することになった。講師は、参加者の名前が映っている場面を編集で削除してから共有してほしいと依頼した。",
-          "contextPassage": "社内研修の録画を公開することになった。講師は、参加者の名前が映っている場面を編集で削除してから共有してほしいと依頼した。",
+          "passage": "社内研修の録画を、後日、社外の参加者にも共有することになった。映像には講師の説明だけでなく、画面共有に映った社員名や通知も残っている。講師は、個人が特定される場面を切るかぼかし、内容を確認してから共有するよう依頼した。研修の説明自体は残し、公開前に個人情報だけを点検する手順にした。",
+          "contextPassage": "社内研修の録画を、後日、社外の参加者にも共有することになった。映像には講師の説明だけでなく、画面共有に映った社員名や通知も残っている。講師は、個人が特定される場面を切るかぼかし、内容を確認してから共有するよう依頼した。研修の説明自体は残し、公開前に個人情報だけを点検する手順にした。",
           "skill": "Reading"
         },
         {
@@ -2168,38 +2178,38 @@
           "level": "N2",
           "typeId": "N2-RD-SHORT",
           "category": "短文読解",
-          "stem": "担当者が訂正版を送ったのはなぜか。",
+          "stem": "担当者が訂正版を再送した狙いは何か。",
           "options": [
             {
               "id": "A",
-              "text": "参加者が旧会場へ行かないようにするため"
+              "text": "旧会場の情報で参加者が遅れるのを防ぐこと"
             },
             {
               "id": "B",
-              "text": "出席者を減らすため"
+              "text": "参加希望者が増えたことを知らせ、追加の申込みを受けること"
             },
             {
               "id": "C",
-              "text": "会議の内容を変更するため"
+              "text": "会場変更に合わせ、開始時刻と議題も更新して伝えること"
             },
             {
               "id": "D",
-              "text": "部屋の予約を取り消すため"
+              "text": "新しい会場の定員に合わせ、参加者数を再調整すること"
             }
           ],
           "correctAnswer": "A",
-          "explanation": "旧会場の案内を見た参加者が誤った場所へ行くのを防ぐためです。",
-          "explanationVi": "Thông báo cũ còn ghi địa điểm cũ sau khi phòng họp đổi. Gửi bản sửa giúp người tham gia không đi nhầm tới địa điểm trước đó.",
+          "explanation": "Một số người đã lưu thông báo cũ; gửi bản đính chính để họ đến đúng phòng. Giờ và chương trình không đổi, cuộc họp cũng không bị hủy.",
+          "explanationVi": "Một số người đã lưu thông báo cũ; gửi bản đính chính để họ đến đúng phòng. Giờ và chương trình không đổi, cuộc họp cũng không bị hủy.",
           "distractorExplanations": {
-            "B": "«出席者を減らすため» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Thông báo cũ còn ghi địa điểm cũ sau khi phòng họp đổi. Gửi bản sửa giúp người tham gia không đi nhầm tới địa điểm trước đó. Phương án này thêm hoặc đổi chi tiết so với thông tin đó.",
-            "C": "«会議の内容を変更するため» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Thông báo cũ còn ghi địa điểm cũ sau khi phòng họp đổi. Gửi bản sửa giúp người tham gia không đi nhầm tới địa điểm trước đó. Phương án này thêm hoặc đổi chi tiết so với thông tin đó.",
-            "D": "«部屋の予約を取り消すため» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Thông báo cũ còn ghi địa điểm cũ sau khi phòng họp đổi. Gửi bản sửa giúp người tham gia không đi nhầm tới địa điểm trước đó. Phương án này thêm hoặc đổi chi tiết so với thông tin đó."
+            "B": "Bài chỉ nói gửi lại thông tin đã sửa sau khi đổi phòng. Không mở thêm lượt đăng ký; mục tiêu trực tiếp là tránh người dựa vào địa điểm cũ.",
+            "C": "Giờ và chủ đề họp được giữ nguyên; bản sửa chỉ đổi địa điểm.",
+            "D": "Phòng mới được chọn để tất cả người muốn dự đều có chỗ. Không có thủ tục giảm hoặc xếp lại người tham gia."
           },
           "topicTag": "workplace",
           "difficultyBand": 2,
           "distractorStrategy": "目的・因果の取り違え",
-          "passage": "会議の出席者が急に増えたため、総務担当者は部屋を変更した。すでに送った案内には旧会場が書かれていたので、訂正した案内をもう一度送った。",
-          "contextPassage": "会議の出席者が急に増えたため、総務担当者は部屋を変更した。すでに送った案内には旧会場が書かれていたので、訂正した案内をもう一度送った。",
+          "passage": "会議の参加希望が増え、総務担当者は全員が入れる別の部屋に変更した。最初の案内はすでに送ってあり、何人かは旧会場の情報を保存していた。そこで総務は、時間と議題は変えず、会場だけを訂正した案内を再送した。古い情報のまま来て会議に遅れる人を防ぐためである。",
+          "contextPassage": "会議の参加希望が増え、総務担当者は全員が入れる別の部屋に変更した。最初の案内はすでに送ってあり、何人かは旧会場の情報を保存していた。そこで総務は、時間と議題は変えず、会場だけを訂正した案内を再送した。古い情報のまま来て会議に遅れる人を防ぐためである。",
           "skill": "Reading"
         },
         {
@@ -2207,38 +2217,38 @@
           "level": "N2",
           "typeId": "N2-RD-SHORT",
           "category": "短文読解",
-          "stem": "予定外の対応時間を記録する目的は何か。",
+          "stem": "予定外の対応時間を記録する主な目的は何か。",
           "options": [
             {
               "id": "A",
-              "text": "次月の業務量を見積もるため"
+              "text": "次月の業務量や必要な人員を現実に近く見積もるため"
             },
             {
               "id": "B",
-              "text": "勤務時間を短く見せるため"
+              "text": "予定外の対応にかかった時間を、担当者ごとの人事評価に反映するため"
             },
             {
               "id": "C",
-              "text": "報告書のページ数を増やすため"
+              "text": "翌月にも起きる急な仕事をなくす手順を決めるため"
             },
             {
               "id": "D",
-              "text": "予定外の仕事をなくしたと示すため"
+              "text": "計画した作業と突発的な対応を、別々の報告欄で管理するため"
             }
           ],
           "correctAnswer": "A",
-          "explanation": "記録は翌月の業務量の見積もりに使うと明示されています。",
-          "explanationVi": "Thời gian xử lý việc phát sinh sẽ được dùng vào tháng sau để ước lượng khối lượng công việc. Mục tiêu là cải thiện dự báo, không phải tính lương hay đánh giá cá nhân.",
+          "explanation": "Ghi cả thời gian phát sinh giúp dự báo khối lượng và nhân lực tháng sau sát thực tế. Bài đọc loại trừ việc xếp hạng cá nhân; việc ghi chép không thể chứng minh rằng tháng sau sẽ không có việc phát sinh.",
+          "explanationVi": "Ghi cả thời gian phát sinh giúp dự báo khối lượng và nhân lực tháng sau sát thực tế. Bài đọc loại trừ việc xếp hạng cá nhân; việc ghi chép không thể chứng minh rằng tháng sau sẽ không có việc phát sinh.",
           "distractorExplanations": {
-            "B": "«勤務時間を短く見せるため» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Thời gian xử lý việc phát sinh sẽ được dùng vào tháng sau để ước lượng khối lượng công việc. Mục tiêu là cải thiện dự báo, không phải tính lương hay đánh giá cá nhân. Phương án này thêm hoặc đổi chi tiết so với thông tin đó.",
-            "C": "«報告書のページ数を増やすため» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Thời gian xử lý việc phát sinh sẽ được dùng vào tháng sau để ước lượng khối lượng công việc. Mục tiêu là cải thiện dự báo, không phải tính lương hay đánh giá cá nhân. Phương án này thêm hoặc đổi chi tiết so với thông tin đó.",
-            "D": "«予定外の仕事をなくしたと示すため» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Thời gian xử lý việc phát sinh sẽ được dùng vào tháng sau để ước lượng khối lượng công việc. Mục tiêu là cải thiện dự báo, không phải tính lương hay đánh giá cá nhân. Phương án này thêm hoặc đổi chi tiết so với thông tin đó."
+            "B": "Bài loại trừ việc dùng số liệu để đánh giá tốc độ xử lý từng người. Dữ liệu phục vụ dự báo công việc và nhân lực tháng sau.",
+            "C": "Việc phát sinh thay đổi theo từng tháng; ghi thời gian không đồng nghĩa có thể loại bỏ các sự việc đó.",
+            "D": "Bài nói ghi cả giờ làm theo kế hoạch lẫn giờ phát sinh để dự báo khối lượng. Việc chia chúng thành các ô báo cáo riêng không được nêu là mục tiêu."
           },
           "topicTag": "workplace",
           "difficultyBand": 2,
           "distractorStrategy": "目的・因果の取り違え",
-          "passage": "担当者は、毎週の報告書に作業時間だけでなく、予定外の対応に使った時間も記録した。翌月、業務量の見積もりにその記録を利用する予定だ。",
-          "contextPassage": "担当者は、毎週の報告書に作業時間だけでなく、予定外の対応に使った時間も記録した。翌月、業務量の見積もりにその記録を利用する予定だ。",
+          "passage": "毎週の報告では予定作業の時間だけでなく、急な問い合わせや手直しに使った時間も記録することにした。予定外の作業は月によって差があり、計画時の見積もりから漏れやすい。担当者はこの記録を翌月の業務量や人員の予測に使うが、個人の処理速度を評価する目的には使わない。\n\n翌月には記録と実績を比べ、計画から漏れやすい対応が何かを確かめる。記録方法が担当者の負担になっていないかも確認し、予測に必要な項目だけを残すことにした。",
+          "contextPassage": "毎週の報告では予定作業の時間だけでなく、急な問い合わせや手直しに使った時間も記録することにした。予定外の作業は月によって差があり、計画時の見積もりから漏れやすい。担当者はこの記録を翌月の業務量や人員の予測に使うが、個人の処理速度を評価する目的には使わない。\n\n翌月には記録と実績を比べ、計画から漏れやすい対応が何かを確かめる。記録方法が担当者の負担になっていないかも確認し、予測に必要な項目だけを残すことにした。",
           "skill": "Reading"
         },
         {
@@ -2250,34 +2260,34 @@
           "options": [
             {
               "id": "A",
-              "text": "社員の評価・給与・勤続年数"
+              "text": "未完了の作業・担当者・完了予定日"
             },
             {
               "id": "B",
-              "text": "未完了の作業・確認日・連絡先"
+              "text": "未完了の作業・次に確認する日・連絡先"
             },
             {
               "id": "C",
-              "text": "休暇の理由・旅行先・帰宅日"
+              "text": "完了した作業・評価・休暇予定"
             },
             {
               "id": "D",
-              "text": "会議の全記録・出席者の住所"
+              "text": "取引先との全記録・社員の個人予定"
             }
           ],
           "correctAnswer": "B",
-          "explanation": "本文に表へ記載する三項目が明記されています。",
-          "explanationVi": "Bảng bàn giao gồm việc chưa xong, ngày cần kiểm tra tiếp theo và thông tin liên hệ. Bài đọc liệt kê đúng ba trường này.",
+          "explanation": "Bảng ghi việc chưa hoàn tất, ngày cần kiểm tra tiếp và thông tin liên hệ. Đây là các mục được nêu trực tiếp; nó không phải bảng đánh giá nhân viên hay lưu toàn bộ hồ sơ giao dịch.",
+          "explanationVi": "Bảng ghi việc chưa hoàn tất, ngày cần kiểm tra tiếp và thông tin liên hệ. Đây là các mục được nêu trực tiếp; nó không phải bảng đánh giá nhân viên hay lưu toàn bộ hồ sơ giao dịch.",
           "distractorExplanations": {
-            "A": "«社員の評価・給与・勤続年数» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Bảng bàn giao gồm việc chưa xong, ngày cần kiểm tra tiếp theo và thông tin liên hệ. Bài đọc liệt kê đúng ba trường này. Phương án này thêm hoặc đổi chi tiết so với thông tin đó.",
-            "C": "«休暇の理由・旅行先・帰宅日» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Bảng bàn giao gồm việc chưa xong, ngày cần kiểm tra tiếp theo và thông tin liên hệ. Bài đọc liệt kê đúng ba trường này. Phương án này thêm hoặc đổi chi tiết so với thông tin đó.",
-            "D": "«会議の全記録・出席者の住所» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Bảng bàn giao gồm việc chưa xong, ngày cần kiểm tra tiếp theo và thông tin liên hệ. Bài đọc liệt kê đúng ba trường này. Phương án này thêm hoặc đổi chi tiết so với thông tin đó."
+            "A": "Bài nêu ngày cần kiểm tra tiếp, không phải ngày dự kiến hoàn tất; bảng cũng không liệt kê riêng người phụ trách theo lựa chọn này.",
+            "C": "Bảng tập trung vào việc chưa xong để bàn giao. Đánh giá nhân viên và lịch nghỉ không phải các mục được nêu.",
+            "D": "Đoạn cuối còn giới hạn người được xem để tránh chia sẻ quá mức thông tin khách hàng; bảng không chứa toàn bộ hồ sơ và lịch cá nhân."
           },
           "topicTag": "workplace",
           "difficultyBand": 2,
           "distractorStrategy": "明示情報・因果・筆者目的",
-          "passage": "【引き継ぎの方法】\n担当者が休暇を取るとき、仕事の状況を口頭で伝えるだけでは、細かな条件が抜けることがある。そこで、ある部署では、未完了の作業、次に確認する日、連絡先を一枚の表にまとめることにした。\n表を作っても、更新しなければ情報は古くなる。作業が終わった人がその日のうちに状態を直し、次の担当者が朝に確認する手順も決めた。\nこの方法を始めてから、休暇中の担当者に電話で確認する回数は減った。ただし、例外的な判断が必要な案件は、表だけで済ませず、引き継ぎの時間を設けている。",
-          "contextPassage": "【引き継ぎの方法】\n担当者が休暇を取るとき、仕事の状況を口頭で伝えるだけでは、細かな条件が抜けることがある。そこで、ある部署では、未完了の作業、次に確認する日、連絡先を一枚の表にまとめることにした。\n表を作っても、更新しなければ情報は古くなる。作業が終わった人がその日のうちに状態を直し、次の担当者が朝に確認する手順も決めた。\nこの方法を始めてから、休暇中の担当者に電話で確認する回数は減った。ただし、例外的な判断が必要な案件は、表だけで済ませず、引き継ぎの時間を設けている。",
+          "passage": "【引き継ぎの方法】\n担当者が休暇を取るとき、仕事の状況を口頭で伝えるだけでは、細かな条件が抜けることがある。そこで、ある部署では、未完了の作業、次に確認する日、連絡先を一枚の表にまとめることにした。\n表を作っても、更新しなければ情報は古くなる。作業が終わった人がその日のうちに状態を直し、次の担当者が朝に確認する手順も決めた。\n運用を始めた月には、引き継ぎの漏れが起きた案件を全員で振り返り、表に書く項目を整理した。相手の返事を待っている案件には、返事を待つ期限と、連絡がない場合に誰がどう確認するかを分けて記す。これにより、休暇中の担当者に電話で尋ねる回数が減り、期限の近い作業も朝の時点で把握しやすくなった。一方、項目を増やし過ぎると更新に時間がかかり、重要点が見えにくくなる。決定済みの手順は簡潔にし、例外的な判断が必要な案件は表だけで済ませず、引き継ぎの時間を設けている。顧客情報を必要以上に共有しないよう、閲覧できる人も限っている。",
+          "contextPassage": "【引き継ぎの方法】\n担当者が休暇を取るとき、仕事の状況を口頭で伝えるだけでは、細かな条件が抜けることがある。そこで、ある部署では、未完了の作業、次に確認する日、連絡先を一枚の表にまとめることにした。\n表を作っても、更新しなければ情報は古くなる。作業が終わった人がその日のうちに状態を直し、次の担当者が朝に確認する手順も決めた。\n運用を始めた月には、引き継ぎの漏れが起きた案件を全員で振り返り、表に書く項目を整理した。相手の返事を待っている案件には、返事を待つ期限と、連絡がない場合に誰がどう確認するかを分けて記す。これにより、休暇中の担当者に電話で尋ねる回数が減り、期限の近い作業も朝の時点で把握しやすくなった。一方、項目を増やし過ぎると更新に時間がかかり、重要点が見えにくくなる。決定済みの手順は簡潔にし、例外的な判断が必要な案件は表だけで済ませず、引き継ぎの時間を設けている。顧客情報を必要以上に共有しないよう、閲覧できる人も限っている。",
           "skill": "Reading"
         },
         {
@@ -2285,38 +2295,38 @@
           "level": "N2",
           "typeId": "N2-RD-MED",
           "category": "中長文読解",
-          "stem": "表を作るだけでは十分でないのはなぜか。",
+          "stem": "作業の状態をその日のうちに更新する手順を設けたのはなぜか。",
           "options": [
             {
               "id": "A",
-              "text": "更新しないと情報が古くなるから"
+              "text": "更新しないと、表の情報が古くなるため"
             },
             {
               "id": "B",
-              "text": "表には連絡先を書けないから"
+              "text": "例外的な案件も表だけで判断できるようにするため"
             },
             {
               "id": "C",
-              "text": "全員が同じ仕事をするから"
+              "text": "顧客情報を全員に共有するため"
             },
             {
               "id": "D",
-              "text": "朝に確認する時間がないから"
+              "text": "次の担当者が朝に確認する必要をなくすため"
             }
           ],
           "correctAnswer": "A",
-          "explanation": "第二段落の初めに更新しなければ情報が古くなるとあります。",
-          "explanationVi": "Nếu không cập nhật trạng thái, bảng nhanh chóng trở thành thông tin cũ. Vì vậy người xử lý cần sửa bảng trong ngày và người nhận kiểm tra vào sáng hôm sau.",
+          "explanation": "Nếu không cập nhật sau khi xử lý, bảng sẽ không phản ánh tình trạng mới. Việc này giúp người nhận kiểm tra buổi sáng; các vụ ngoại lệ vẫn cần thời gian bàn giao trực tiếp.",
+          "explanationVi": "Nếu không cập nhật sau khi xử lý, bảng sẽ không phản ánh tình trạng mới. Việc này giúp người nhận kiểm tra buổi sáng; các vụ ngoại lệ vẫn cần thời gian bàn giao trực tiếp.",
           "distractorExplanations": {
-            "B": "«表には連絡先を書けないから» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Nếu không cập nhật trạng thái, bảng nhanh chóng trở thành thông tin cũ. Vì vậy người xử lý cần sửa bảng trong ngày và người nhận kiểm tra vào sáng hôm sau. Phương án này thêm hoặc đổi chi tiết so với thông tin đó.",
-            "C": "«全員が同じ仕事をするから» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Nếu không cập nhật trạng thái, bảng nhanh chóng trở thành thông tin cũ. Vì vậy người xử lý cần sửa bảng trong ngày và người nhận kiểm tra vào sáng hôm sau. Phương án này thêm hoặc đổi chi tiết so với thông tin đó.",
-            "D": "«朝に確認する時間がないから» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Nếu không cập nhật trạng thái, bảng nhanh chóng trở thành thông tin cũ. Vì vậy người xử lý cần sửa bảng trong ngày và người nhận kiểm tra vào sáng hôm sau. Phương án này thêm hoặc đổi chi tiết so với thông tin đó."
+            "B": "Bài nói các vụ cần phán đoán ngoại lệ không thể xử lý chỉ bằng bảng; họ vẫn dành thời gian bàn giao.",
+            "C": "Quyền xem bị giới hạn để không chia sẻ quá mức thông tin khách hàng; cập nhật trạng thái không nhằm mở quyền cho mọi người.",
+            "D": "Quy trình mới yêu cầu người nhận kiểm tra bảng vào buổi sáng. Cập nhật trong ngày giúp thông tin lúc đó không bị cũ."
           },
           "topicTag": "workplace",
           "difficultyBand": 2,
           "distractorStrategy": "明示情報・因果・筆者目的",
-          "passage": "【引き継ぎの方法】\n担当者が休暇を取るとき、仕事の状況を口頭で伝えるだけでは、細かな条件が抜けることがある。そこで、ある部署では、未完了の作業、次に確認する日、連絡先を一枚の表にまとめることにした。\n表を作っても、更新しなければ情報は古くなる。作業が終わった人がその日のうちに状態を直し、次の担当者が朝に確認する手順も決めた。\nこの方法を始めてから、休暇中の担当者に電話で確認する回数は減った。ただし、例外的な判断が必要な案件は、表だけで済ませず、引き継ぎの時間を設けている。",
-          "contextPassage": "【引き継ぎの方法】\n担当者が休暇を取るとき、仕事の状況を口頭で伝えるだけでは、細かな条件が抜けることがある。そこで、ある部署では、未完了の作業、次に確認する日、連絡先を一枚の表にまとめることにした。\n表を作っても、更新しなければ情報は古くなる。作業が終わった人がその日のうちに状態を直し、次の担当者が朝に確認する手順も決めた。\nこの方法を始めてから、休暇中の担当者に電話で確認する回数は減った。ただし、例外的な判断が必要な案件は、表だけで済ませず、引き継ぎの時間を設けている。",
+          "passage": "【引き継ぎの方法】\n担当者が休暇を取るとき、仕事の状況を口頭で伝えるだけでは、細かな条件が抜けることがある。そこで、ある部署では、未完了の作業、次に確認する日、連絡先を一枚の表にまとめることにした。\n表を作っても、更新しなければ情報は古くなる。作業が終わった人がその日のうちに状態を直し、次の担当者が朝に確認する手順も決めた。\n運用を始めた月には、引き継ぎの漏れが起きた案件を全員で振り返り、表に書く項目を整理した。相手の返事を待っている案件には、返事を待つ期限と、連絡がない場合に誰がどう確認するかを分けて記す。これにより、休暇中の担当者に電話で尋ねる回数が減り、期限の近い作業も朝の時点で把握しやすくなった。一方、項目を増やし過ぎると更新に時間がかかり、重要点が見えにくくなる。決定済みの手順は簡潔にし、例外的な判断が必要な案件は表だけで済ませず、引き継ぎの時間を設けている。顧客情報を必要以上に共有しないよう、閲覧できる人も限っている。",
+          "contextPassage": "【引き継ぎの方法】\n担当者が休暇を取るとき、仕事の状況を口頭で伝えるだけでは、細かな条件が抜けることがある。そこで、ある部署では、未完了の作業、次に確認する日、連絡先を一枚の表にまとめることにした。\n表を作っても、更新しなければ情報は古くなる。作業が終わった人がその日のうちに状態を直し、次の担当者が朝に確認する手順も決めた。\n運用を始めた月には、引き継ぎの漏れが起きた案件を全員で振り返り、表に書く項目を整理した。相手の返事を待っている案件には、返事を待つ期限と、連絡がない場合に誰がどう確認するかを分けて記す。これにより、休暇中の担当者に電話で尋ねる回数が減り、期限の近い作業も朝の時点で把握しやすくなった。一方、項目を増やし過ぎると更新に時間がかかり、重要点が見えにくくなる。決定済みの手順は簡潔にし、例外的な判断が必要な案件は表だけで済ませず、引き継ぎの時間を設けている。顧客情報を必要以上に共有しないよう、閲覧できる人も限っている。",
           "skill": "Reading"
         },
         {
@@ -2328,34 +2338,34 @@
           "options": [
             {
               "id": "A",
-              "text": "表から削除する"
+              "text": "表から外し、元の担当者が戻るまで保留する"
             },
             {
               "id": "B",
-              "text": "担当者が戻るまで放置する"
+              "text": "表に記録すれば、口頭での引き継ぎは行わない"
             },
             {
               "id": "C",
-              "text": "別部署にすべて任せる"
+              "text": "判断を別部署にすべて任せる"
             },
             {
               "id": "D",
-              "text": "表に加えて口頭の引き継ぎも行う"
+              "text": "表に加えて、引き継ぎの時間を設ける"
             }
           ],
           "correctAnswer": "D",
-          "explanation": "最後に、表だけで済ませず引き継ぎ時間を設けると述べています。",
-          "explanationVi": "Bài đọc nói các trường hợp cần quyết định ngoại lệ không thể chỉ dựa vào bảng; nhóm vẫn bố trí thời gian bàn giao trực tiếp.",
+          "explanation": "Với vụ cần phán đoán ngoại lệ, bài đọc nói bảng không đủ và cần dành thời gian bàn giao trực tiếp. Nhóm không bỏ vụ việc, chờ người cũ quay lại hay chuyển toàn bộ trách nhiệm đi nơi khác.",
+          "explanationVi": "Với vụ cần phán đoán ngoại lệ, bài đọc nói bảng không đủ và cần dành thời gian bàn giao trực tiếp. Nhóm không bỏ vụ việc, chờ người cũ quay lại hay chuyển toàn bộ trách nhiệm đi nơi khác.",
           "distractorExplanations": {
-            "A": "«表から削除する» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Bài đọc nói các trường hợp cần quyết định ngoại lệ không thể chỉ dựa vào bảng; nhóm vẫn bố trí thời gian bàn giao trực tiếp. Phương án này thêm hoặc đổi chi tiết so với thông tin đó.",
-            "B": "«担当者が戻るまで放置する» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Bài đọc nói các trường hợp cần quyết định ngoại lệ không thể chỉ dựa vào bảng; nhóm vẫn bố trí thời gian bàn giao trực tiếp. Phương án này thêm hoặc đổi chi tiết so với thông tin đó.",
-            "C": "«別部署にすべて任せる» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Bài đọc nói các trường hợp cần quyết định ngoại lệ không thể chỉ dựa vào bảng; nhóm vẫn bố trí thời gian bàn giao trực tiếp. Phương án này thêm hoặc đổi chi tiết so với thông tin đó."
+            "A": "Bài yêu cầu xử lý ngoại lệ bằng buổi bàn giao bổ sung, không giữ nguyên vụ việc chờ người nghỉ quay lại.",
+            "B": "Tác giả nói rõ các vụ cần quyết định ngoại lệ không thể chỉ dựa vào bảng; phải dành thời gian bàn giao.",
+            "C": "Trách nhiệm xử lý vẫn ở bộ phận đang bàn giao. Bài không nói chuyển toàn bộ quyết định sang phòng ban khác."
           },
           "topicTag": "workplace",
           "difficultyBand": 2,
           "distractorStrategy": "明示情報・因果・筆者目的",
-          "passage": "【引き継ぎの方法】\n担当者が休暇を取るとき、仕事の状況を口頭で伝えるだけでは、細かな条件が抜けることがある。そこで、ある部署では、未完了の作業、次に確認する日、連絡先を一枚の表にまとめることにした。\n表を作っても、更新しなければ情報は古くなる。作業が終わった人がその日のうちに状態を直し、次の担当者が朝に確認する手順も決めた。\nこの方法を始めてから、休暇中の担当者に電話で確認する回数は減った。ただし、例外的な判断が必要な案件は、表だけで済ませず、引き継ぎの時間を設けている。",
-          "contextPassage": "【引き継ぎの方法】\n担当者が休暇を取るとき、仕事の状況を口頭で伝えるだけでは、細かな条件が抜けることがある。そこで、ある部署では、未完了の作業、次に確認する日、連絡先を一枚の表にまとめることにした。\n表を作っても、更新しなければ情報は古くなる。作業が終わった人がその日のうちに状態を直し、次の担当者が朝に確認する手順も決めた。\nこの方法を始めてから、休暇中の担当者に電話で確認する回数は減った。ただし、例外的な判断が必要な案件は、表だけで済ませず、引き継ぎの時間を設けている。",
+          "passage": "【引き継ぎの方法】\n担当者が休暇を取るとき、仕事の状況を口頭で伝えるだけでは、細かな条件が抜けることがある。そこで、ある部署では、未完了の作業、次に確認する日、連絡先を一枚の表にまとめることにした。\n表を作っても、更新しなければ情報は古くなる。作業が終わった人がその日のうちに状態を直し、次の担当者が朝に確認する手順も決めた。\n運用を始めた月には、引き継ぎの漏れが起きた案件を全員で振り返り、表に書く項目を整理した。相手の返事を待っている案件には、返事を待つ期限と、連絡がない場合に誰がどう確認するかを分けて記す。これにより、休暇中の担当者に電話で尋ねる回数が減り、期限の近い作業も朝の時点で把握しやすくなった。一方、項目を増やし過ぎると更新に時間がかかり、重要点が見えにくくなる。決定済みの手順は簡潔にし、例外的な判断が必要な案件は表だけで済ませず、引き継ぎの時間を設けている。顧客情報を必要以上に共有しないよう、閲覧できる人も限っている。",
+          "contextPassage": "【引き継ぎの方法】\n担当者が休暇を取るとき、仕事の状況を口頭で伝えるだけでは、細かな条件が抜けることがある。そこで、ある部署では、未完了の作業、次に確認する日、連絡先を一枚の表にまとめることにした。\n表を作っても、更新しなければ情報は古くなる。作業が終わった人がその日のうちに状態を直し、次の担当者が朝に確認する手順も決めた。\n運用を始めた月には、引き継ぎの漏れが起きた案件を全員で振り返り、表に書く項目を整理した。相手の返事を待っている案件には、返事を待つ期限と、連絡がない場合に誰がどう確認するかを分けて記す。これにより、休暇中の担当者に電話で尋ねる回数が減り、期限の近い作業も朝の時点で把握しやすくなった。一方、項目を増やし過ぎると更新に時間がかかり、重要点が見えにくくなる。決定済みの手順は簡潔にし、例外的な判断が必要な案件は表だけで済ませず、引き継ぎの時間を設けている。顧客情報を必要以上に共有しないよう、閲覧できる人も限っている。",
           "skill": "Reading"
         },
         {
@@ -2367,34 +2377,34 @@
           "options": [
             {
               "id": "A",
-              "text": "参加者が事前に資料を読んでいないこと"
+              "text": "参加者が資料を読まずに集まり、前提確認から始めていたこと"
             },
             {
               "id": "B",
-              "text": "開始時刻を守っていること"
+              "text": "開始時刻を守ることを優先し、質問を後回しにしたこと"
             },
             {
               "id": "C",
-              "text": "疑問点を一つ書くこと"
+              "text": "会議前に資料と疑問点を共有していたこと"
             },
             {
               "id": "D",
-              "text": "資料が二ページ以内であること"
+              "text": "資料を二ページ以内に制限していたこと"
             }
           ],
           "correctAnswer": "A",
-          "explanation": "第一段落で、資料を読まずに集まることが原因と説明しています。",
-          "explanationVi": "Người tham dự chưa đọc tài liệu nên cuộc họp phải dành thời gian thống nhất lại các tiền đề, khiến chưa thể vào phần cần quyết định.",
+          "explanation": "Người tham dự chưa đọc tài liệu nên phải thống nhất lại tiền đề trong cuộc họp. Việc chia sẻ tài liệu và ghi câu hỏi là biện pháp được thử sau đó, không phải nguyên nhân của thời gian xác nhận kéo dài.",
+          "explanationVi": "Người tham dự chưa đọc tài liệu nên phải thống nhất lại tiền đề trong cuộc họp. Việc chia sẻ tài liệu và ghi câu hỏi là biện pháp được thử sau đó, không phải nguyên nhân của thời gian xác nhận kéo dài.",
           "distractorExplanations": {
-            "B": "«開始時刻を守っていること» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Người tham dự chưa đọc tài liệu nên cuộc họp phải dành thời gian thống nhất lại các tiền đề, khiến chưa thể vào phần cần quyết định. Phương án này thêm hoặc đổi chi tiết so với thông tin đó.",
-            "C": "«疑問点を一つ書くこと» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Người tham dự chưa đọc tài liệu nên cuộc họp phải dành thời gian thống nhất lại các tiền đề, khiến chưa thể vào phần cần quyết định. Phương án này thêm hoặc đổi chi tiết so với thông tin đó.",
-            "D": "«資料が二ページ以内であること» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Người tham dự chưa đọc tài liệu nên cuộc họp phải dành thời gian thống nhất lại các tiền đề, khiến chưa thể vào phần cần quyết định. Phương án này thêm hoặc đổi chi tiết so với thông tin đó."
+            "B": "Nguyên nhân được nêu là người dự đến mà chưa đọc tài liệu nên phải xác nhận tiền đề. Việc trì hoãn câu hỏi không được nói đến.",
+            "C": "Chia sẻ trước và chuẩn bị câu hỏi là cách nhóm thử sau khi nhận ra vấn đề, không phải nguyên nhân ban đầu.",
+            "D": "Giới hạn hai trang được áp dụng về sau để giảm gánh nặng chuẩn bị; nguyên nhân ban đầu là tài liệu chưa được đọc."
           },
           "topicTag": "workplace",
           "difficultyBand": 2,
           "distractorStrategy": "明示情報・因果・筆者目的",
-          "passage": "【短い会議の準備】\n会議を短くするために、開始時刻だけを厳守しても、議論がまとまるとは限らない。参加者が資料を読まずに集まると、前提の確認に時間を使い、決めるべき点に進めないからだ。\nあるチームは、会議の前日までに資料を共有し、各自が疑問点を一つ書いておく方法を試した。会議では説明を繰り返さず、質問と選択肢の比較から始める。\nこれにより会議時間は平均して短くなったが、準備に時間をかけすぎる人もいた。そのため、資料は結論と判断材料を中心に二ページ以内とし、詳細は必要な人だけが参照する別紙に分けた。",
-          "contextPassage": "【短い会議の準備】\n会議を短くするために、開始時刻だけを厳守しても、議論がまとまるとは限らない。参加者が資料を読まずに集まると、前提の確認に時間を使い、決めるべき点に進めないからだ。\nあるチームは、会議の前日までに資料を共有し、各自が疑問点を一つ書いておく方法を試した。会議では説明を繰り返さず、質問と選択肢の比較から始める。\nこれにより会議時間は平均して短くなったが、準備に時間をかけすぎる人もいた。そのため、資料は結論と判断材料を中心に二ページ以内とし、詳細は必要な人だけが参照する別紙に分けた。",
+          "passage": "【短い会議の準備】\n会議を短くするために、開始時刻だけを厳守しても、議論がまとまるとは限らない。参加者が資料を読まずに集まると、前提の確認に時間を使い、決めるべき点に進めないからだ。\nあるチームは、会議の前日までに資料を共有し、各自が疑問点を一つ書いておく方法を試した。会議では説明を繰り返さず、質問と選択肢の比較から始める。\nこの方法を一か月試すと、会議そのものの時間だけでなく、終了後に決定事項を聞き直す連絡も少なくなった。一方、資料の読み込みに慣れていない人からは、どこを判断すればよいか分からないという声があった。そこで資料の先頭に「今日決めること」と「持ち帰ること」を明記し、会議の冒頭には必要最低限の前提を確認する時間を残した。準備に時間をかけ過ぎる人もいたため、資料は結論と判断材料を中心に二ページ以内とし、詳細は必要な人だけが参照する別紙に分けた。事前読解を求めても、全員が同じ知識を持つとは限らないためである。",
+          "contextPassage": "【短い会議の準備】\n会議を短くするために、開始時刻だけを厳守しても、議論がまとまるとは限らない。参加者が資料を読まずに集まると、前提の確認に時間を使い、決めるべき点に進めないからだ。\nあるチームは、会議の前日までに資料を共有し、各自が疑問点を一つ書いておく方法を試した。会議では説明を繰り返さず、質問と選択肢の比較から始める。\nこの方法を一か月試すと、会議そのものの時間だけでなく、終了後に決定事項を聞き直す連絡も少なくなった。一方、資料の読み込みに慣れていない人からは、どこを判断すればよいか分からないという声があった。そこで資料の先頭に「今日決めること」と「持ち帰ること」を明記し、会議の冒頭には必要最低限の前提を確認する時間を残した。準備に時間をかけ過ぎる人もいたため、資料は結論と判断材料を中心に二ページ以内とし、詳細は必要な人だけが参照する別紙に分けた。事前読解を求めても、全員が同じ知識を持つとは限らないためである。",
           "skill": "Reading"
         },
         {
@@ -2402,15 +2412,15 @@
           "level": "N2",
           "typeId": "N2-RD-MED",
           "category": "中長文読解",
-          "stem": "チームが会議前に参加者へ求めたことは何か。",
+          "stem": "会議を質問や選択肢の比較から始めるため、チームが事前に求めたことは何か。",
           "options": [
             {
               "id": "A",
-              "text": "詳細な別紙を全員で作る"
+              "text": "結論を決めてから会議に参加する"
             },
             {
               "id": "B",
-              "text": "会議時間を各自で延長する"
+              "text": "全員で詳細な別紙を作成する"
             },
             {
               "id": "C",
@@ -2418,22 +2428,22 @@
             },
             {
               "id": "D",
-              "text": "結論を決めてから会議に出る"
+              "text": "会議後に疑問点をまとめて送る"
             }
           ],
           "correctAnswer": "C",
-          "explanation": "前日までに資料を共有し、各自が疑問点を書く方法を試しました。",
-          "explanationVi": "Nhóm gửi tài liệu trước một ngày và yêu cầu mỗi người ghi sẵn một câu hỏi. Mục tiêu là bắt đầu cuộc họp bằng câu hỏi và so sánh lựa chọn.",
+          "explanation": "Nhóm gửi tài liệu trước và yêu cầu mỗi người ghi sẵn một câu hỏi để cuộc họp bắt đầu bằng câu hỏi và so sánh lựa chọn. Không yêu cầu người tham gia quyết định trước hoặc viết phụ lục chi tiết.",
+          "explanationVi": "Nhóm gửi tài liệu trước và yêu cầu mỗi người ghi sẵn một câu hỏi để cuộc họp bắt đầu bằng câu hỏi và so sánh lựa chọn. Không yêu cầu người tham gia quyết định trước hoặc viết phụ lục chi tiết.",
           "distractorExplanations": {
-            "A": "«詳細な別紙を全員で作る» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Nhóm gửi tài liệu trước một ngày và yêu cầu mỗi người ghi sẵn một câu hỏi. Mục tiêu là bắt đầu cuộc họp bằng câu hỏi và so sánh lựa chọn. Phương án này thêm hoặc đổi chi tiết so với thông tin đó.",
-            "B": "«会議時間を各自で延長する» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Nhóm gửi tài liệu trước một ngày và yêu cầu mỗi người ghi sẵn một câu hỏi. Mục tiêu là bắt đầu cuộc họp bằng câu hỏi và so sánh lựa chọn. Phương án này thêm hoặc đổi chi tiết so với thông tin đó.",
-            "D": "«結論を決めてから会議に出る» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Nhóm gửi tài liệu trước một ngày và yêu cầu mỗi người ghi sẵn một câu hỏi. Mục tiêu là bắt đầu cuộc họp bằng câu hỏi và so sánh lựa chọn. Phương án này thêm hoặc đổi chi tiết so với thông tin đó."
+            "A": "Nhóm muốn mọi người chuẩn bị một câu hỏi, không yêu cầu họ quyết định trước khi nghe thảo luận.",
+            "B": "Tài liệu chi tiết được tách thành phụ lục cho người cần xem; người dự không được yêu cầu cùng viết phụ lục.",
+            "D": "Câu hỏi cần được chuẩn bị trước để cuộc họp bắt đầu bằng trao đổi; gửi sau cuộc họp không phục vụ mục tiêu đó."
           },
           "topicTag": "workplace",
           "difficultyBand": 2,
           "distractorStrategy": "明示情報・因果・筆者目的",
-          "passage": "【短い会議の準備】\n会議を短くするために、開始時刻だけを厳守しても、議論がまとまるとは限らない。参加者が資料を読まずに集まると、前提の確認に時間を使い、決めるべき点に進めないからだ。\nあるチームは、会議の前日までに資料を共有し、各自が疑問点を一つ書いておく方法を試した。会議では説明を繰り返さず、質問と選択肢の比較から始める。\nこれにより会議時間は平均して短くなったが、準備に時間をかけすぎる人もいた。そのため、資料は結論と判断材料を中心に二ページ以内とし、詳細は必要な人だけが参照する別紙に分けた。",
-          "contextPassage": "【短い会議の準備】\n会議を短くするために、開始時刻だけを厳守しても、議論がまとまるとは限らない。参加者が資料を読まずに集まると、前提の確認に時間を使い、決めるべき点に進めないからだ。\nあるチームは、会議の前日までに資料を共有し、各自が疑問点を一つ書いておく方法を試した。会議では説明を繰り返さず、質問と選択肢の比較から始める。\nこれにより会議時間は平均して短くなったが、準備に時間をかけすぎる人もいた。そのため、資料は結論と判断材料を中心に二ページ以内とし、詳細は必要な人だけが参照する別紙に分けた。",
+          "passage": "【短い会議の準備】\n会議を短くするために、開始時刻だけを厳守しても、議論がまとまるとは限らない。参加者が資料を読まずに集まると、前提の確認に時間を使い、決めるべき点に進めないからだ。\nあるチームは、会議の前日までに資料を共有し、各自が疑問点を一つ書いておく方法を試した。会議では説明を繰り返さず、質問と選択肢の比較から始める。\nこの方法を一か月試すと、会議そのものの時間だけでなく、終了後に決定事項を聞き直す連絡も少なくなった。一方、資料の読み込みに慣れていない人からは、どこを判断すればよいか分からないという声があった。そこで資料の先頭に「今日決めること」と「持ち帰ること」を明記し、会議の冒頭には必要最低限の前提を確認する時間を残した。準備に時間をかけ過ぎる人もいたため、資料は結論と判断材料を中心に二ページ以内とし、詳細は必要な人だけが参照する別紙に分けた。事前読解を求めても、全員が同じ知識を持つとは限らないためである。",
+          "contextPassage": "【短い会議の準備】\n会議を短くするために、開始時刻だけを厳守しても、議論がまとまるとは限らない。参加者が資料を読まずに集まると、前提の確認に時間を使い、決めるべき点に進めないからだ。\nあるチームは、会議の前日までに資料を共有し、各自が疑問点を一つ書いておく方法を試した。会議では説明を繰り返さず、質問と選択肢の比較から始める。\nこの方法を一か月試すと、会議そのものの時間だけでなく、終了後に決定事項を聞き直す連絡も少なくなった。一方、資料の読み込みに慣れていない人からは、どこを判断すればよいか分からないという声があった。そこで資料の先頭に「今日決めること」と「持ち帰ること」を明記し、会議の冒頭には必要最低限の前提を確認する時間を残した。準備に時間をかけ過ぎる人もいたため、資料は結論と判断材料を中心に二ページ以内とし、詳細は必要な人だけが参照する別紙に分けた。事前読解を求めても、全員が同じ知識を持つとは限らないためである。",
           "skill": "Reading"
         },
         {
@@ -2445,34 +2455,34 @@
           "options": [
             {
               "id": "A",
-              "text": "判断材料を隠すため"
+              "text": "全員が同じ時間だけ資料を読むようにするため"
             },
             {
               "id": "B",
-              "text": "会議の回数を増やすため"
+              "text": "判断材料を別紙へ移し、主資料から外すため"
             },
             {
               "id": "C",
-              "text": "質問を禁止するため"
+              "text": "会議で質問を出さないようにするため"
             },
             {
               "id": "D",
-              "text": "準備にかける負担を抑えるため"
+              "text": "準備の負担を抑え、判断点を見つけやすくするため"
             }
           ],
           "correctAnswer": "D",
-          "explanation": "準備に時間をかけすぎる人がいたため、資料量を絞りました。",
-          "explanationVi": "Một số người mất quá nhiều thời gian chuẩn bị, nên nhóm giới hạn tài liệu chính trong hai trang và chuyển chi tiết sang phụ lục dành cho người cần xem.",
+          "explanation": "Một số người mất quá nhiều thời gian chuẩn bị và khó biết cần quyết định gì. Giới hạn hai trang giữ trọng tâm trong tài liệu chính, còn chi tiết đưa vào phụ lục.",
+          "explanationVi": "Một số người mất quá nhiều thời gian chuẩn bị và khó biết cần quyết định gì. Giới hạn hai trang giữ trọng tâm trong tài liệu chính, còn chi tiết đưa vào phụ lục.",
           "distractorExplanations": {
-            "A": "«判断材料を隠すため» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Một số người mất quá nhiều thời gian chuẩn bị, nên nhóm giới hạn tài liệu chính trong hai trang và chuyển chi tiết sang phụ lục dành cho người cần xem. Phương án này thêm hoặc đổi chi tiết so với thông tin đó.",
-            "B": "«会議の回数を増やすため» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Một số người mất quá nhiều thời gian chuẩn bị, nên nhóm giới hạn tài liệu chính trong hai trang và chuyển chi tiết sang phụ lục dành cho người cần xem. Phương án này thêm hoặc đổi chi tiết so với thông tin đó.",
-            "C": "«質問を禁止するため» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Một số người mất quá nhiều thời gian chuẩn bị, nên nhóm giới hạn tài liệu chính trong hai trang và chuyển chi tiết sang phụ lục dành cho người cần xem. Phương án này thêm hoặc đổi chi tiết so với thông tin đó."
+            "A": "Giới hạn độ dài không đảm bảo mọi người đọc cùng thời lượng; lý do là giảm thời gian chuẩn bị quá mức.",
+            "B": "Chỉ chi tiết dành cho người cần mới đưa sang phụ lục. Kết luận và căn cứ cần quyết định vẫn ở tài liệu chính.",
+            "C": "Câu hỏi là một phần của cách họp mới; tài liệu ngắn giúp tìm điểm cần quyết định, không nhằm ngăn đặt câu hỏi."
           },
           "topicTag": "workplace",
           "difficultyBand": 2,
           "distractorStrategy": "明示情報・因果・筆者目的",
-          "passage": "【短い会議の準備】\n会議を短くするために、開始時刻だけを厳守しても、議論がまとまるとは限らない。参加者が資料を読まずに集まると、前提の確認に時間を使い、決めるべき点に進めないからだ。\nあるチームは、会議の前日までに資料を共有し、各自が疑問点を一つ書いておく方法を試した。会議では説明を繰り返さず、質問と選択肢の比較から始める。\nこれにより会議時間は平均して短くなったが、準備に時間をかけすぎる人もいた。そのため、資料は結論と判断材料を中心に二ページ以内とし、詳細は必要な人だけが参照する別紙に分けた。",
-          "contextPassage": "【短い会議の準備】\n会議を短くするために、開始時刻だけを厳守しても、議論がまとまるとは限らない。参加者が資料を読まずに集まると、前提の確認に時間を使い、決めるべき点に進めないからだ。\nあるチームは、会議の前日までに資料を共有し、各自が疑問点を一つ書いておく方法を試した。会議では説明を繰り返さず、質問と選択肢の比較から始める。\nこれにより会議時間は平均して短くなったが、準備に時間をかけすぎる人もいた。そのため、資料は結論と判断材料を中心に二ページ以内とし、詳細は必要な人だけが参照する別紙に分けた。",
+          "passage": "【短い会議の準備】\n会議を短くするために、開始時刻だけを厳守しても、議論がまとまるとは限らない。参加者が資料を読まずに集まると、前提の確認に時間を使い、決めるべき点に進めないからだ。\nあるチームは、会議の前日までに資料を共有し、各自が疑問点を一つ書いておく方法を試した。会議では説明を繰り返さず、質問と選択肢の比較から始める。\nこの方法を一か月試すと、会議そのものの時間だけでなく、終了後に決定事項を聞き直す連絡も少なくなった。一方、資料の読み込みに慣れていない人からは、どこを判断すればよいか分からないという声があった。そこで資料の先頭に「今日決めること」と「持ち帰ること」を明記し、会議の冒頭には必要最低限の前提を確認する時間を残した。準備に時間をかけ過ぎる人もいたため、資料は結論と判断材料を中心に二ページ以内とし、詳細は必要な人だけが参照する別紙に分けた。事前読解を求めても、全員が同じ知識を持つとは限らないためである。",
+          "contextPassage": "【短い会議の準備】\n会議を短くするために、開始時刻だけを厳守しても、議論がまとまるとは限らない。参加者が資料を読まずに集まると、前提の確認に時間を使い、決めるべき点に進めないからだ。\nあるチームは、会議の前日までに資料を共有し、各自が疑問点を一つ書いておく方法を試した。会議では説明を繰り返さず、質問と選択肢の比較から始める。\nこの方法を一か月試すと、会議そのものの時間だけでなく、終了後に決定事項を聞き直す連絡も少なくなった。一方、資料の読み込みに慣れていない人からは、どこを判断すればよいか分からないという声があった。そこで資料の先頭に「今日決めること」と「持ち帰ること」を明記し、会議の冒頭には必要最低限の前提を確認する時間を残した。準備に時間をかけ過ぎる人もいたため、資料は結論と判断材料を中心に二ページ以内とし、詳細は必要な人だけが参照する別紙に分けた。事前読解を求めても、全員が同じ知識を持つとは限らないためである。",
           "skill": "Reading"
         },
         {
@@ -2484,7 +2494,7 @@
           "options": [
             {
               "id": "A",
-              "text": "失敗の影響範囲を記録する職場"
+              "text": "報告後に事実や影響範囲を確かめる職場"
             },
             {
               "id": "B",
@@ -2492,26 +2502,26 @@
             },
             {
               "id": "C",
-              "text": "報告を受けて事実を確かめる職場"
+              "text": "対策の実行状況を月ごとに確かめる職場"
             },
             {
               "id": "D",
-              "text": "上司が再発防止を話し合う職場"
+              "text": "意図的な違反と手順上の失敗を区別する職場"
             }
           ],
           "correctAnswer": "B",
-          "explanation": "第一段落にその理由が述べられています。",
-          "explanationVi": "Khi nhân viên cảm thấy sẽ bị trách nếu báo cáo, họ có xu hướng giấu lỗi nhỏ. Tác giả nêu cảm nhận bị đổ lỗi là nguyên nhân trực tiếp.",
+          "explanation": "Khi người báo cáo nghĩ rằng mình sẽ bị trách, họ dễ giấu lỗi nhỏ. Việc xác minh sự việc, theo dõi biện pháp và phân biệt lỗi cố ý với lỗi quy trình là các cách ứng xử được công ty áp dụng.",
+          "explanationVi": "Khi người báo cáo nghĩ rằng mình sẽ bị trách, họ dễ giấu lỗi nhỏ. Việc xác minh sự việc, theo dõi biện pháp và phân biệt lỗi cố ý với lỗi quy trình là các cách ứng xử được công ty áp dụng.",
           "distractorExplanations": {
-            "A": "«失敗の影響範囲を記録する職場» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Khi nhân viên cảm thấy sẽ bị trách nếu báo cáo, họ có xu hướng giấu lỗi nhỏ. Tác giả nêu cảm nhận bị đổ lỗi là nguyên nhân trực tiếp. Phương án này thêm hoặc đổi chi tiết so với thông tin đó.",
-            "C": "«報告を受けて事実を確かめる職場» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Khi nhân viên cảm thấy sẽ bị trách nếu báo cáo, họ có xu hướng giấu lỗi nhỏ. Tác giả nêu cảm nhận bị đổ lỗi là nguyên nhân trực tiếp. Phương án này thêm hoặc đổi chi tiết so với thông tin đó.",
-            "D": "«上司が再発防止を話し合う職場» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Khi nhân viên cảm thấy sẽ bị trách nếu báo cáo, họ có xu hướng giấu lỗi nhỏ. Tác giả nêu cảm nhận bị đổ lỗi là nguyên nhân trực tiếp. Phương án này thêm hoặc đổi chi tiết so với thông tin đó."
+            "A": "Việc xác minh là quy trình công ty dùng để xử lý báo cáo; thái độ khiến lỗi nhỏ bị giấu là người báo cáo sợ bị trách.",
+            "C": "Theo dõi biện pháp hàng tháng là hoạt động sau báo cáo, nhằm cải thiện hệ thống chứ không tạo tâm lý sợ báo lỗi.",
+            "D": "Công ty phân biệt vi phạm cố ý với lỗi quy trình để sửa nguyên nhân tổ chức; đây là cách ứng xử hỗ trợ báo cáo, không phải điều làm người ta giấu lỗi."
           },
           "topicTag": "workplace",
           "difficultyBand": 2,
           "distractorStrategy": "明示情報・因果・筆者目的",
-          "passage": "【相談しやすい職場】\n仕事上の失敗を早く共有すれば、問題が大きくなる前に対応できる。しかし、報告した人が責められると感じる職場では、小さな失敗ほど隠されやすい。\nある会社では、報告を受けた上司が、まず事実と影響範囲を確認し、個人の評価とは分けて再発防止を話し合うようにした。報告した人にも、原因を振り返る作業に参加してもらう。\nこの仕組みは、責任をなくすためのものではない。意図的な違反と、手順や情報が不足して起きた失敗を区別し、改善できる点を組織で直すことを目的としている。",
-          "contextPassage": "【相談しやすい職場】\n仕事上の失敗を早く共有すれば、問題が大きくなる前に対応できる。しかし、報告した人が責められると感じる職場では、小さな失敗ほど隠されやすい。\nある会社では、報告を受けた上司が、まず事実と影響範囲を確認し、個人の評価とは分けて再発防止を話し合うようにした。報告した人にも、原因を振り返る作業に参加してもらう。\nこの仕組みは、責任をなくすためのものではない。意図的な違反と、手順や情報が不足して起きた失敗を区別し、改善できる点を組織で直すことを目的としている。",
+          "passage": "【相談しやすい職場】\n仕事上の失敗を早く共有すれば、問題が大きくなる前に対応できる。しかし、報告した人が責められると感じる職場では、小さな失敗ほど隠されやすい。\nある会社では、報告を受けた上司が、まず事実と影響範囲を確認し、個人の評価とは分けて再発防止を話し合うようにした。報告した人にも、原因を振り返る作業に参加してもらう。\n報告後は、起きた事実、影響を受けた相手、手順が守られていたかを分けて記録する。確認不足が原因なら、チェック表や担当の割り振りを見直す。意図的な規則違反なら就業規則に沿って対応するが、いずれの場合も再発防止の議論は続ける。会社は報告件数だけを目標にせず、決めた対策が実行されたかも月ごとに確認している。この仕組みは責任をなくすためのものではない。意図的な違反と、手順や情報が不足して起きた失敗を区別し、改善できる点を組織で直すことを目的としている。",
+          "contextPassage": "【相談しやすい職場】\n仕事上の失敗を早く共有すれば、問題が大きくなる前に対応できる。しかし、報告した人が責められると感じる職場では、小さな失敗ほど隠されやすい。\nある会社では、報告を受けた上司が、まず事実と影響範囲を確認し、個人の評価とは分けて再発防止を話し合うようにした。報告した人にも、原因を振り返る作業に参加してもらう。\n報告後は、起きた事実、影響を受けた相手、手順が守られていたかを分けて記録する。確認不足が原因なら、チェック表や担当の割り振りを見直す。意図的な規則違反なら就業規則に沿って対応するが、いずれの場合も再発防止の議論は続ける。会社は報告件数だけを目標にせず、決めた対策が実行されたかも月ごとに確認している。この仕組みは責任をなくすためのものではない。意図的な違反と、手順や情報が不足して起きた失敗を区別し、改善できる点を組織で直すことを目的としている。",
           "skill": "Reading"
         },
         {
@@ -2523,34 +2533,34 @@
           "options": [
             {
               "id": "A",
-              "text": "次の会議の日程"
+              "text": "報告者の評価を先に見直す"
             },
             {
               "id": "B",
-              "text": "他社での処分例"
+              "text": "処分を決めてから影響範囲を調べる"
             },
             {
               "id": "C",
-              "text": "報告した人の昇進希望"
+              "text": "再発防止策を決めてから事実を確認する"
             },
             {
               "id": "D",
-              "text": "事実と影響の範囲"
+              "text": "まず事実と影響の範囲を確かめる"
             }
           ],
           "correctAnswer": "D",
-          "explanation": "第二段落では、事実と影響範囲を先に確認するとあります。",
-          "explanationVi": "Sau khi nhận báo cáo, quản lý trước tiên kiểm tra sự việc thực tế và phạm vi ảnh hưởng, rồi mới bàn về phòng ngừa tái diễn.",
+          "explanation": "Sau khi nhận báo cáo, cấp quản lý trước hết xác minh sự việc và phạm vi ảnh hưởng. Việc phân tích nguyên nhân, trách nhiệm và phòng ngừa tái diễn đến sau bước xác minh này.",
+          "explanationVi": "Sau khi nhận báo cáo, cấp quản lý trước hết xác minh sự việc và phạm vi ảnh hưởng. Việc phân tích nguyên nhân, trách nhiệm và phòng ngừa tái diễn đến sau bước xác minh này.",
           "distractorExplanations": {
-            "A": "«次の会議の日程» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Sau khi nhận báo cáo, quản lý trước tiên kiểm tra sự việc thực tế và phạm vi ảnh hưởng, rồi mới bàn về phòng ngừa tái diễn. Phương án này thêm hoặc đổi chi tiết so với thông tin đó.",
-            "B": "«他社での処分例» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Sau khi nhận báo cáo, quản lý trước tiên kiểm tra sự việc thực tế và phạm vi ảnh hưởng, rồi mới bàn về phòng ngừa tái diễn. Phương án này thêm hoặc đổi chi tiết so với thông tin đó.",
-            "C": "«報告した人の昇進希望» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Sau khi nhận báo cáo, quản lý trước tiên kiểm tra sự việc thực tế và phạm vi ảnh hưởng, rồi mới bàn về phòng ngừa tái diễn. Phương án này thêm hoặc đổi chi tiết so với thông tin đó."
+            "A": "Bài nói cấp trên trước hết xác minh sự việc và phạm vi ảnh hưởng; đánh giá cá nhân được tách khỏi bước này.",
+            "B": "Thứ tự bị đảo: phải xác định sự việc và người bị ảnh hưởng trước rồi mới xử lý nguyên nhân hoặc vi phạm.",
+            "C": "Đây cũng là đảo trình tự. Không thể chọn biện pháp phòng ngừa trước khi biết chính xác điều gì đã xảy ra."
           },
           "topicTag": "workplace",
           "difficultyBand": 2,
           "distractorStrategy": "明示情報・因果・筆者目的",
-          "passage": "【相談しやすい職場】\n仕事上の失敗を早く共有すれば、問題が大きくなる前に対応できる。しかし、報告した人が責められると感じる職場では、小さな失敗ほど隠されやすい。\nある会社では、報告を受けた上司が、まず事実と影響範囲を確認し、個人の評価とは分けて再発防止を話し合うようにした。報告した人にも、原因を振り返る作業に参加してもらう。\nこの仕組みは、責任をなくすためのものではない。意図的な違反と、手順や情報が不足して起きた失敗を区別し、改善できる点を組織で直すことを目的としている。",
-          "contextPassage": "【相談しやすい職場】\n仕事上の失敗を早く共有すれば、問題が大きくなる前に対応できる。しかし、報告した人が責められると感じる職場では、小さな失敗ほど隠されやすい。\nある会社では、報告を受けた上司が、まず事実と影響範囲を確認し、個人の評価とは分けて再発防止を話し合うようにした。報告した人にも、原因を振り返る作業に参加してもらう。\nこの仕組みは、責任をなくすためのものではない。意図的な違反と、手順や情報が不足して起きた失敗を区別し、改善できる点を組織で直すことを目的としている。",
+          "passage": "【相談しやすい職場】\n仕事上の失敗を早く共有すれば、問題が大きくなる前に対応できる。しかし、報告した人が責められると感じる職場では、小さな失敗ほど隠されやすい。\nある会社では、報告を受けた上司が、まず事実と影響範囲を確認し、個人の評価とは分けて再発防止を話し合うようにした。報告した人にも、原因を振り返る作業に参加してもらう。\n報告後は、起きた事実、影響を受けた相手、手順が守られていたかを分けて記録する。確認不足が原因なら、チェック表や担当の割り振りを見直す。意図的な規則違反なら就業規則に沿って対応するが、いずれの場合も再発防止の議論は続ける。会社は報告件数だけを目標にせず、決めた対策が実行されたかも月ごとに確認している。この仕組みは責任をなくすためのものではない。意図的な違反と、手順や情報が不足して起きた失敗を区別し、改善できる点を組織で直すことを目的としている。",
+          "contextPassage": "【相談しやすい職場】\n仕事上の失敗を早く共有すれば、問題が大きくなる前に対応できる。しかし、報告した人が責められると感じる職場では、小さな失敗ほど隠されやすい。\nある会社では、報告を受けた上司が、まず事実と影響範囲を確認し、個人の評価とは分けて再発防止を話し合うようにした。報告した人にも、原因を振り返る作業に参加してもらう。\n報告後は、起きた事実、影響を受けた相手、手順が守られていたかを分けて記録する。確認不足が原因なら、チェック表や担当の割り振りを見直す。意図的な規則違反なら就業規則に沿って対応するが、いずれの場合も再発防止の議論は続ける。会社は報告件数だけを目標にせず、決めた対策が実行されたかも月ごとに確認している。この仕組みは責任をなくすためのものではない。意図的な違反と、手順や情報が不足して起きた失敗を区別し、改善できる点を組織で直すことを目的としている。",
           "skill": "Reading"
         },
         {
@@ -2562,34 +2572,34 @@
           "options": [
             {
               "id": "A",
-              "text": "誰にも責任を問わないこと"
+              "text": "失敗を報告した人の責任をすべて免除する"
             },
             {
               "id": "B",
-              "text": "報告者だけに再発防止を任せること"
+              "text": "報告件数を増やすことだけを目標にする"
             },
             {
               "id": "C",
-              "text": "失敗の原因を区別し、改善可能な点を直すこと"
+              "text": "原因を区別し、組織で改善できる点を直す"
             },
             {
               "id": "D",
-              "text": "すべての失敗を意図的な違反とすること"
+              "text": "意図の有無にかかわらず、すべて処分する"
             }
           ],
           "correctAnswer": "C",
-          "explanation": "最後の段落で、責任をなくすのではなく原因を区別し組織で改善すると説明しています。",
-          "explanationVi": "Cơ chế không xóa bỏ trách nhiệm; nó phân biệt vi phạm cố ý với lỗi do thiếu quy trình/thông tin để tìm phần có thể cải thiện ở cấp tổ chức.",
+          "explanation": "Cơ chế không xóa bỏ trách nhiệm hay chỉ đếm báo cáo. Nó phân biệt vi phạm cố ý với lỗi do quy trình/thông tin để sửa những điểm tổ chức có thể cải thiện.",
+          "explanationVi": "Cơ chế không xóa bỏ trách nhiệm hay chỉ đếm báo cáo. Nó phân biệt vi phạm cố ý với lỗi do quy trình/thông tin để sửa những điểm tổ chức có thể cải thiện.",
           "distractorExplanations": {
-            "A": "«誰にも責任を問わないこと» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Cơ chế không xóa bỏ trách nhiệm; nó phân biệt vi phạm cố ý với lỗi do thiếu quy trình/thông tin để tìm phần có thể cải thiện ở cấp tổ chức. Phương án này thêm hoặc đổi chi tiết so với thông tin đó.",
-            "B": "«報告者だけに再発防止を任せること» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Cơ chế không xóa bỏ trách nhiệm; nó phân biệt vi phạm cố ý với lỗi do thiếu quy trình/thông tin để tìm phần có thể cải thiện ở cấp tổ chức. Phương án này thêm hoặc đổi chi tiết so với thông tin đó.",
-            "D": "«すべての失敗を意図的な違反とすること» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Cơ chế không xóa bỏ trách nhiệm; nó phân biệt vi phạm cố ý với lỗi do thiếu quy trình/thông tin để tìm phần có thể cải thiện ở cấp tổ chức. Phương án này thêm hoặc đổi chi tiết so với thông tin đó."
+            "A": "Bài nói rõ cơ chế không xóa trách nhiệm; vi phạm cố ý vẫn được xử lý theo nội quy.",
+            "B": "Công ty không chỉ đếm số báo cáo mà còn kiểm tra hàng tháng xem biện pháp đã thực hiện chưa.",
+            "D": "Cơ chế phân biệt hành vi cố ý với lỗi do thủ tục hoặc thiếu thông tin; không xử phạt mọi trường hợp như nhau."
           },
           "topicTag": "workplace",
           "difficultyBand": 2,
           "distractorStrategy": "明示情報・因果・筆者目的",
-          "passage": "【相談しやすい職場】\n仕事上の失敗を早く共有すれば、問題が大きくなる前に対応できる。しかし、報告した人が責められると感じる職場では、小さな失敗ほど隠されやすい。\nある会社では、報告を受けた上司が、まず事実と影響範囲を確認し、個人の評価とは分けて再発防止を話し合うようにした。報告した人にも、原因を振り返る作業に参加してもらう。\nこの仕組みは、責任をなくすためのものではない。意図的な違反と、手順や情報が不足して起きた失敗を区別し、改善できる点を組織で直すことを目的としている。",
-          "contextPassage": "【相談しやすい職場】\n仕事上の失敗を早く共有すれば、問題が大きくなる前に対応できる。しかし、報告した人が責められると感じる職場では、小さな失敗ほど隠されやすい。\nある会社では、報告を受けた上司が、まず事実と影響範囲を確認し、個人の評価とは分けて再発防止を話し合うようにした。報告した人にも、原因を振り返る作業に参加してもらう。\nこの仕組みは、責任をなくすためのものではない。意図的な違反と、手順や情報が不足して起きた失敗を区別し、改善できる点を組織で直すことを目的としている。",
+          "passage": "【相談しやすい職場】\n仕事上の失敗を早く共有すれば、問題が大きくなる前に対応できる。しかし、報告した人が責められると感じる職場では、小さな失敗ほど隠されやすい。\nある会社では、報告を受けた上司が、まず事実と影響範囲を確認し、個人の評価とは分けて再発防止を話し合うようにした。報告した人にも、原因を振り返る作業に参加してもらう。\n報告後は、起きた事実、影響を受けた相手、手順が守られていたかを分けて記録する。確認不足が原因なら、チェック表や担当の割り振りを見直す。意図的な規則違反なら就業規則に沿って対応するが、いずれの場合も再発防止の議論は続ける。会社は報告件数だけを目標にせず、決めた対策が実行されたかも月ごとに確認している。この仕組みは責任をなくすためのものではない。意図的な違反と、手順や情報が不足して起きた失敗を区別し、改善できる点を組織で直すことを目的としている。",
+          "contextPassage": "【相談しやすい職場】\n仕事上の失敗を早く共有すれば、問題が大きくなる前に対応できる。しかし、報告した人が責められると感じる職場では、小さな失敗ほど隠されやすい。\nある会社では、報告を受けた上司が、まず事実と影響範囲を確認し、個人の評価とは分けて再発防止を話し合うようにした。報告した人にも、原因を振り返る作業に参加してもらう。\n報告後は、起きた事実、影響を受けた相手、手順が守られていたかを分けて記録する。確認不足が原因なら、チェック表や担当の割り振りを見直す。意図的な規則違反なら就業規則に沿って対応するが、いずれの場合も再発防止の議論は続ける。会社は報告件数だけを目標にせず、決めた対策が実行されたかも月ごとに確認している。この仕組みは責任をなくすためのものではない。意図的な違反と、手順や情報が不足して起きた失敗を区別し、改善できる点を組織で直すことを目的としている。",
           "skill": "Reading"
         },
         {
@@ -2675,38 +2685,38 @@
           "level": "N2",
           "typeId": "N2-RD-LONG",
           "category": "長文読解",
-          "stem": "筆者が、作業時間だけを基準にできないと考える理由は何か。",
+          "stem": "この企業が自動化の対象を段階的に広げようとしているのはなぜか。",
           "options": [
             {
               "id": "A",
-              "text": "記録を取ると改善が遅れるから"
+              "text": "定型作業でも入力時間はまったく減らなかったため"
             },
             {
               "id": "B",
-              "text": "時間に表れにくい仕事や例外対応があるから"
+              "text": "時間短縮だけでなく、例外時の確認と利用者への影響も見るため"
             },
             {
               "id": "C",
-              "text": "機械は繰り返し作業を処理できないから"
+              "text": "利用者への説明は対象を広げた後に行うため"
             },
             {
               "id": "D",
-              "text": "利用者への説明は不要だから"
+              "text": "機械に任せた仕事には記録が必要ないため"
             }
           ],
           "correctAnswer": "B",
-          "explanation": "第一段落は例外対応や説明など、時間だけでは評価できない業務を挙げています。",
-          "explanationVi": "Thời gian xử lý không phản ánh các ngoại lệ hay việc giải thích cho người dùng. Tự động hóa chỉ dựa vào số phút có thể bỏ sót những phần việc quan trọng này.",
+          "explanation": "Thử nghiệm giảm nhập liệu nhưng một số điều kiện lại làm khâu xác nhận lâu hơn. Công ty kiểm tra ngoại lệ, tác động đến người dùng và công việc phát sinh trước khi mở rộng.",
+          "explanationVi": "Thử nghiệm giảm nhập liệu nhưng một số điều kiện lại làm khâu xác nhận lâu hơn. Công ty kiểm tra ngoại lệ, tác động đến người dùng và công việc phát sinh trước khi mở rộng.",
           "distractorExplanations": {
-            "A": "«記録を取ると改善が遅れるから» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Thời gian xử lý không phản ánh các ngoại lệ hay việc giải thích cho người dùng. Tự động hóa chỉ dựa vào số phút có thể bỏ sót những phần việc quan trọng này. Phương án này thêm hoặc đổi chi tiết so với thông tin đó.",
-            "C": "«機械は繰り返し作業を処理できないから» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Thời gian xử lý không phản ánh các ngoại lệ hay việc giải thích cho người dùng. Tự động hóa chỉ dựa vào số phút có thể bỏ sót những phần việc quan trọng này. Phương án này thêm hoặc đổi chi tiết so với thông tin đó.",
-            "D": "«利用者への説明は不要だから» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Thời gian xử lý không phản ánh các ngoại lệ hay việc giải thích cho người dùng. Tự động hóa chỉ dựa vào số phút có thể bỏ sót những phần việc quan trọng này. Phương án này thêm hoặc đổi chi tiết so với thông tin đó."
+            "A": "Thử nghiệm cho thấy thời gian nhập liệu giảm. Vấn đề khiến công ty chưa mở rộng là một số điều kiện làm khâu xác nhận lâu hơn.",
+            "C": "Người dùng được giải thích thay đổi và nơi hỏi trước khi mở rộng. Công ty kiểm tra tác động này từ giai đoạn thử.",
+            "D": "Công ty yêu cầu ghi loại việc, điều kiện, quyết định và việc mới phát sinh sau tự động hóa để đánh giá toàn bộ quy trình."
           },
           "topicTag": "workplace-and-public-communication",
           "difficultyBand": 3,
           "distractorStrategy": "主張・根拠の対応",
-          "passage": "【業務改善の進め方】\n業務を改善しようとするとき、現場で時間がかかっている作業をすべて機械に置き換えればよい、と考えられることがある。しかし、作業時間だけを基準にすると、例外への対応や利用者への説明など、数字に表れにくい仕事が抜け落ちる。\nある企業では、まず一週間、作業の種類と発生する条件を記録した。次に、繰り返しが多く、判断基準が明確な仕事から自動化を試した。担当者は、例外が起きた場合に誰が確認するかを決め、利用者にも変更点を説明した。\n試験運用の結果、入力作業は減った一方、確認に時間がかかるケースも見つかった。企業は自動化の対象を広げる前に、そのケースがどの条件で生じるかを整理した。改善は、導入した技術の数ではなく、仕事全体が安全で分かりやすくなったかで判断する必要がある。",
-          "contextPassage": "【業務改善の進め方】\n業務を改善しようとするとき、現場で時間がかかっている作業をすべて機械に置き換えればよい、と考えられることがある。しかし、作業時間だけを基準にすると、例外への対応や利用者への説明など、数字に表れにくい仕事が抜け落ちる。\nある企業では、まず一週間、作業の種類と発生する条件を記録した。次に、繰り返しが多く、判断基準が明確な仕事から自動化を試した。担当者は、例外が起きた場合に誰が確認するかを決め、利用者にも変更点を説明した。\n試験運用の結果、入力作業は減った一方、確認に時間がかかるケースも見つかった。企業は自動化の対象を広げる前に、そのケースがどの条件で生じるかを整理した。改善は、導入した技術の数ではなく、仕事全体が安全で分かりやすくなったかで判断する必要がある。",
+          "passage": "【業務改善の進め方】\n業務を改善するとき、時間のかかる作業をすべて機械に置き換えればよい、と考えられることがある。しかし作業時間だけを基準にすると、例外への対応、利用者への説明、入力後の確認など、数字に表れにくい仕事が抜け落ちる。短縮した時間が大きくても、別の確認作業が増えれば、仕事全体が効率化したとは言えない。\n\nある企業では、まず一週間、作業の種類と発生条件、誰がどの判断をしているかを記録した。その後、繰り返しが多く判断基準の明確な作業から自動化を試した。例外が起きた場合に誰が確認するかを決め、利用者にも変更点と問い合わせ先を説明した。\n\n試験運用では入力作業が減った一方、特定の条件では確認に時間がかかることが分かった。企業は自動化の対象をすぐに広げず、その条件を調べ、記録にない仕事がないか現場にも聞いた。改善は導入した技術の数や一部の作業時間だけでなく、安全性、利用者への影響、仕事全体の分かりやすさを合わせて判断する方針である。\n\n評価の際には、導入前後の時間だけを比べるのではなく、確認の差し戻しが何件あったか、利用者から同じ問い合わせが増えていないかも見る。担当者が変わった後に問題が起きた場合は、その人の習熟度だけで説明せず、説明資料や例外手順が十分だったかを調べる。現場の担当者には、機械に任せた後に新しく生じた作業も記録してもらう。もし安全性や利用者への影響が想定より悪ければ、対象を広げずに設定を戻す選択肢も残している。",
+          "contextPassage": "【業務改善の進め方】\n業務を改善するとき、時間のかかる作業をすべて機械に置き換えればよい、と考えられることがある。しかし作業時間だけを基準にすると、例外への対応、利用者への説明、入力後の確認など、数字に表れにくい仕事が抜け落ちる。短縮した時間が大きくても、別の確認作業が増えれば、仕事全体が効率化したとは言えない。\n\nある企業では、まず一週間、作業の種類と発生条件、誰がどの判断をしているかを記録した。その後、繰り返しが多く判断基準の明確な作業から自動化を試した。例外が起きた場合に誰が確認するかを決め、利用者にも変更点と問い合わせ先を説明した。\n\n試験運用では入力作業が減った一方、特定の条件では確認に時間がかかることが分かった。企業は自動化の対象をすぐに広げず、その条件を調べ、記録にない仕事がないか現場にも聞いた。改善は導入した技術の数や一部の作業時間だけでなく、安全性、利用者への影響、仕事全体の分かりやすさを合わせて判断する方針である。\n\n評価の際には、導入前後の時間だけを比べるのではなく、確認の差し戻しが何件あったか、利用者から同じ問い合わせが増えていないかも見る。担当者が変わった後に問題が起きた場合は、その人の習熟度だけで説明せず、説明資料や例外手順が十分だったかを調べる。現場の担当者には、機械に任せた後に新しく生じた作業も記録してもらう。もし安全性や利用者への影響が想定より悪ければ、対象を広げずに設定を戻す選択肢も残している。",
           "skill": "Reading"
         },
         {
@@ -2714,38 +2724,38 @@
           "level": "N2",
           "typeId": "N2-RD-LONG",
           "category": "長文読解",
-          "stem": "回答数が多くても結果に注意が必要なのはなぜか。",
+          "stem": "アンケートと聞き取りを組み合わせる主な理由は何か。",
           "options": [
             {
               "id": "A",
-              "text": "アンケートでは数字を計算できないから"
+              "text": "回答数が多ければ、全利用者の意見とみなせるため"
             },
             {
               "id": "B",
-              "text": "利用頻度は制度と関係がないから"
+              "text": "聞き取りの結果でアンケートの数値をすべて置き換えるため"
             },
             {
               "id": "C",
-              "text": "回答者と非回答者で関心や経験が異なる場合があるから"
+              "text": "回答の偏りや、数字だけでは分からない理由を確かめるため"
             },
             {
               "id": "D",
-              "text": "自由記述には具体例が含まれないから"
+              "text": "回答しなかった人を制度の対象から外すため"
             }
           ],
           "correctAnswer": "C",
-          "explanation": "回答する人としない人の特徴が違う可能性を筆者が指摘しています。",
-          "explanationVi": "Người trả lời và người không trả lời khảo sát có thể khác nhau về mức quan tâm hoặc kinh nghiệm sử dụng. Vì vậy số lượng phản hồi lớn chưa chắc đại diện cho toàn bộ người dùng.",
+          "explanation": "Số lượng trả lời không bảo đảm đại diện cho mọi người; khảo sát và phỏng vấn ngắn bổ sung cho nhau để tìm thiên lệch cũng như nguyên nhân cụ thể. Bài đọc không loại bỏ khảo sát hay người không trả lời.",
+          "explanationVi": "Số lượng trả lời không bảo đảm đại diện cho mọi người; khảo sát và phỏng vấn ngắn bổ sung cho nhau để tìm thiên lệch cũng như nguyên nhân cụ thể. Bài đọc không loại bỏ khảo sát hay người không trả lời.",
           "distractorExplanations": {
-            "A": "«アンケートでは数字を計算できないから» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Người trả lời và người không trả lời khảo sát có thể khác nhau về mức quan tâm hoặc kinh nghiệm sử dụng. Vì vậy số lượng phản hồi lớn chưa chắc đại diện cho toàn bộ người dùng. Phương án này thêm hoặc đổi chi tiết so với thông tin đó.",
-            "B": "«利用頻度は制度と関係がないから» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Người trả lời và người không trả lời khảo sát có thể khác nhau về mức quan tâm hoặc kinh nghiệm sử dụng. Vì vậy số lượng phản hồi lớn chưa chắc đại diện cho toàn bộ người dùng. Phương án này thêm hoặc đổi chi tiết so với thông tin đó.",
-            "D": "«自由記述には具体例が含まれないから» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Người trả lời và người không trả lời khảo sát có thể khác nhau về mức quan tâm hoặc kinh nghiệm sử dụng. Vì vậy số lượng phản hồi lớn chưa chắc đại diện cho toàn bộ người dùng. Phương án này thêm hoặc đổi chi tiết so với thông tin đó."
+            "A": "Bài cảnh báo số phản hồi nhiều vẫn có thể thiên lệch vì nhóm quan tâm hoặc có kinh nghiệm thường trả lời nhiều hơn.",
+            "B": "Thành phố giữ số liệu khảo sát để nắm xu hướng rồi dùng phỏng vấn bổ sung bối cảnh; không bỏ toàn bộ số liệu.",
+            "D": "Người không trả lời cũng được mời phỏng vấn ngắn. Họ không bị loại khỏi đối tượng của chính sách."
           },
           "topicTag": "workplace-and-public-communication",
           "difficultyBand": 3,
           "distractorStrategy": "主張・根拠の対応",
-          "passage": "【意見を集める意味】\n新しい制度を作る際、利用者へのアンケートは広く意見を集める手段として便利である。ただし、回答数が多いからといって、結果がそのまま全利用者の考えを表すとは限らない。回答する人としない人では、制度への関心や利用経験が異なる可能性があるからだ。\n市の担当者は、アンケートの結果を読むとき、回答者の年齢や利用頻度を確認し、回答しなかった人にも短い聞き取りを行った。さらに、自由記述に書かれた具体例を分類し、数字だけでは見えない困りごとを調べた。\nこのような調査には時間がかかる。だからといって、数字を捨てる必要はない。数字で傾向をつかみ、別の方法でその理由を確かめることで、制度のどこを直すべきかをより適切に判断できる。",
-          "contextPassage": "【意見を集める意味】\n新しい制度を作る際、利用者へのアンケートは広く意見を集める手段として便利である。ただし、回答数が多いからといって、結果がそのまま全利用者の考えを表すとは限らない。回答する人としない人では、制度への関心や利用経験が異なる可能性があるからだ。\n市の担当者は、アンケートの結果を読むとき、回答者の年齢や利用頻度を確認し、回答しなかった人にも短い聞き取りを行った。さらに、自由記述に書かれた具体例を分類し、数字だけでは見えない困りごとを調べた。\nこのような調査には時間がかかる。だからといって、数字を捨てる必要はない。数字で傾向をつかみ、別の方法でその理由を確かめることで、制度のどこを直すべきかをより適切に判断できる。",
+          "passage": "【意見を集める意味】\n新しい制度を作る際、アンケートは広く意見を集めるのに便利である。ただし回答数が多くても、結果がそのまま全利用者の考えを表すとは限らない。制度に関心が強い人や利用経験の多い人ほど回答し、忙しい人や制度を知らない人は回答しない可能性があるからだ。\n\n市の担当者は、回答を年齢や利用頻度ごとに分け、どの層から返事が少ないかを確かめた。さらに、回答しなかった人にも短い聞き取りを行い、自由記述に出た具体例を「手続き」「費用」「利用時間」などに分類した。数字だけでは、何に困っているのか、どの条件で問題が起きるのか分かりにくい場合がある。\n\nこうした確認には時間がかかるが、アンケートの数字を捨てる必要はない。数字で全体の傾向をつかみ、別の方法で回答の偏りや理由を確かめれば、制度のどこを直すべきかをより適切に判断できる。市は調査の限界も公表し、得られた意見を全利用者の総意だと扱わないことにした。\n\n調査の案内を紙だけで配ると、施設を利用しない人に届きにくい。そこで市は、窓口、郵送、ウェブの複数の方法を用意し、回答にかかる時間も短くした。それでも、返事のない人の事情をすべて把握することはできないため、聞き取りの対象は年齢や利用頻度が異なる人から選ぶ。質問の順番によって答えが変わる可能性も考え、職員同士で質問文を確認してから実施する。市は結果を公表するとき、集めた回答の数と方法を示し、調査で分かった範囲と分からなかった点を分けて説明する。",
+          "contextPassage": "【意見を集める意味】\n新しい制度を作る際、アンケートは広く意見を集めるのに便利である。ただし回答数が多くても、結果がそのまま全利用者の考えを表すとは限らない。制度に関心が強い人や利用経験の多い人ほど回答し、忙しい人や制度を知らない人は回答しない可能性があるからだ。\n\n市の担当者は、回答を年齢や利用頻度ごとに分け、どの層から返事が少ないかを確かめた。さらに、回答しなかった人にも短い聞き取りを行い、自由記述に出た具体例を「手続き」「費用」「利用時間」などに分類した。数字だけでは、何に困っているのか、どの条件で問題が起きるのか分かりにくい場合がある。\n\nこうした確認には時間がかかるが、アンケートの数字を捨てる必要はない。数字で全体の傾向をつかみ、別の方法で回答の偏りや理由を確かめれば、制度のどこを直すべきかをより適切に判断できる。市は調査の限界も公表し、得られた意見を全利用者の総意だと扱わないことにした。\n\n調査の案内を紙だけで配ると、施設を利用しない人に届きにくい。そこで市は、窓口、郵送、ウェブの複数の方法を用意し、回答にかかる時間も短くした。それでも、返事のない人の事情をすべて把握することはできないため、聞き取りの対象は年齢や利用頻度が異なる人から選ぶ。質問の順番によって答えが変わる可能性も考え、職員同士で質問文を確認してから実施する。市は結果を公表するとき、集めた回答の数と方法を示し、調査で分かった範囲と分からなかった点を分けて説明する。",
           "skill": "Reading"
         },
         {
@@ -2753,38 +2763,38 @@
           "level": "N2",
           "typeId": "N2-RD-LONG",
           "category": "長文読解",
-          "stem": "筆者が専門用語をすべて置き換える方法に注意を促すのはなぜか。",
+          "stem": "博物館の説明を改善する際の考えとして、本文に合うものはどれか。",
           "options": [
             {
               "id": "A",
-              "text": "専門家の知識を公開できなくなるから"
+              "text": "専門用語をすべて削除し、図だけで説明する"
             },
             {
               "id": "B",
-              "text": "重要な意味の区別が失われることがあるから"
+              "text": "中心を定め、必要な専門語に説明を添え、反応を見て直す"
             },
             {
               "id": "C",
-              "text": "来館者は図を読むことができないから"
+              "text": "一人の来館者の反応を優先し、専門家の確認を省く"
             },
             {
               "id": "D",
-              "text": "文章の順番を調整できなくなるから"
+              "text": "読みやすさを優先し、根拠の確認を省く"
             }
           ],
           "correctAnswer": "B",
-          "explanation": "易しい語への置換だけでは、重要な区別まで消える場合があると説明しています。",
-          "explanationVi": "Đổi mọi thuật ngữ thành từ đơn giản có thể làm mất những phân biệt quan trọng. Tác giả đề xuất giữ thuật ngữ cần thiết và giải thích bằng ví dụ gần đó.",
+          "explanation": "Nhóm xác định ý trung tâm, giải thích thuật ngữ cần giữ và dùng phản hồi của nhiều người để sửa thứ tự. Chuyên gia vẫn kiểm tra độ chính xác; không xóa hết thuật ngữ hay dựa vào một người đọc duy nhất.",
+          "explanationVi": "Nhóm xác định ý trung tâm, giải thích thuật ngữ cần giữ và dùng phản hồi của nhiều người để sửa thứ tự. Chuyên gia vẫn kiểm tra độ chính xác; không xóa hết thuật ngữ hay dựa vào một người đọc duy nhất.",
           "distractorExplanations": {
-            "A": "«専門家の知識を公開できなくなるから» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Đổi mọi thuật ngữ thành từ đơn giản có thể làm mất những phân biệt quan trọng. Tác giả đề xuất giữ thuật ngữ cần thiết và giải thích bằng ví dụ gần đó. Phương án này thêm hoặc đổi chi tiết so với thông tin đó.",
-            "C": "«来館者は図を読むことができないから» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Đổi mọi thuật ngữ thành từ đơn giản có thể làm mất những phân biệt quan trọng. Tác giả đề xuất giữ thuật ngữ cần thiết và giải thích bằng ví dụ gần đó. Phương án này thêm hoặc đổi chi tiết so với thông tin đó.",
-            "D": "«文章の順番を調整できなくなるから» không được đoạn văn hỗ trợ. Căn cứ cần đối chiếu là: Đổi mọi thuật ngữ thành từ đơn giản có thể làm mất những phân biệt quan trọng. Tác giả đề xuất giữ thuật ngữ cần thiết và giải thích bằng ví dụ gần đó. Phương án này thêm hoặc đổi chi tiết so với thông tin đó."
+            "A": "Bài cảnh báo thay hết thuật ngữ có thể làm mất phân biệt chuyên môn; nhóm giữ thuật ngữ cần thiết và thêm giải thích.",
+            "C": "Nhóm so sánh phản hồi của nhiều người và chuyên gia vẫn kiểm tra nội dung để giữ độ chính xác.",
+            "D": "Mục tiêu là cân bằng dễ hiểu với chính xác; phản hồi độc giả giúp sửa cách trình bày chứ không thay thế kiểm chứng."
           },
           "topicTag": "workplace-and-public-communication",
           "difficultyBand": 3,
           "distractorStrategy": "主張・根拠の対応",
-          "passage": "【専門知識を伝える】\n専門家が持つ知識を社会に伝えるには、正確さを保ちながら、受け手が理解できる形にする工夫がいる。用語をすべて簡単な言葉に置き換えるだけでは、重要な区別まで失われることがある。\n博物館の解説チームは、専門用語を残す場合、短い説明と具体例をすぐ近くに置くようにした。また、来館者がどこで立ち止まり、どの説明を読み直すかを観察し、文章の順番や図の位置を調整した。\n伝え方を変えることは、内容を薄めることではない。何を理解してほしいのかを先に決め、必要な情報へ段階的に導くことである。受け手の反応を確かめながら説明を直す作業は、公開後も続ける必要がある。",
-          "contextPassage": "【専門知識を伝える】\n専門家が持つ知識を社会に伝えるには、正確さを保ちながら、受け手が理解できる形にする工夫がいる。用語をすべて簡単な言葉に置き換えるだけでは、重要な区別まで失われることがある。\n博物館の解説チームは、専門用語を残す場合、短い説明と具体例をすぐ近くに置くようにした。また、来館者がどこで立ち止まり、どの説明を読み直すかを観察し、文章の順番や図の位置を調整した。\n伝え方を変えることは、内容を薄めることではない。何を理解してほしいのかを先に決め、必要な情報へ段階的に導くことである。受け手の反応を確かめながら説明を直す作業は、公開後も続ける必要がある。",
+          "passage": "【専門知識を伝える】\n専門家の知識を社会に伝えるには、正確さを保ちながら、受け手が理解できる形にする工夫がいる。用語をすべて簡単な言葉に置き換えると、専門上の区別まで失われることがある。一方、説明を省き専門用語だけを並べれば、初めて読む人は何が重要かつかみにくい。\n\n博物館の解説チームは、展示の中心となる考えを先に決め、専門用語を残す場合は短い説明や具体例をすぐ近くに置いた。公開前には専門外の職員にも読んでもらい、意味が取れなかった箇所を記録した。来館者がどこで立ち止まり、どの説明を読み直すかも観察し、文章の順番や図の位置を調整した。\n\n伝え方を変えることは、内容を薄めることではない。何を理解してほしいかを明確にし、必要な情報へ段階的に導くことである。受け手の反応を確かめながら説明を直す作業は、公開後も続ける必要がある。\n\n説明を直すとき、チームは読み手が誤解した箇所だけでなく、誤解が生じた理由も検討した。専門用語の定義が先に必要だったのか、例が一般的すぎて展示物とのつながりが見えなかったのかによって、直す場所は変わるからだ。ある来館者の反応だけを基準にすると、別の読み手にはかえって分かりにくくなる場合もある。そこで、複数の職員や来館者の反応を比べ、展示の目的に照らして修正案を決める。どの説明を残すかは専門家が確認し、読みやすさを高めても、根拠のない内容に置き換えないようにしている。",
+          "contextPassage": "【専門知識を伝える】\n専門家の知識を社会に伝えるには、正確さを保ちながら、受け手が理解できる形にする工夫がいる。用語をすべて簡単な言葉に置き換えると、専門上の区別まで失われることがある。一方、説明を省き専門用語だけを並べれば、初めて読む人は何が重要かつかみにくい。\n\n博物館の解説チームは、展示の中心となる考えを先に決め、専門用語を残す場合は短い説明や具体例をすぐ近くに置いた。公開前には専門外の職員にも読んでもらい、意味が取れなかった箇所を記録した。来館者がどこで立ち止まり、どの説明を読み直すかも観察し、文章の順番や図の位置を調整した。\n\n伝え方を変えることは、内容を薄めることではない。何を理解してほしいかを明確にし、必要な情報へ段階的に導くことである。受け手の反応を確かめながら説明を直す作業は、公開後も続ける必要がある。\n\n説明を直すとき、チームは読み手が誤解した箇所だけでなく、誤解が生じた理由も検討した。専門用語の定義が先に必要だったのか、例が一般的すぎて展示物とのつながりが見えなかったのかによって、直す場所は変わるからだ。ある来館者の反応だけを基準にすると、別の読み手にはかえって分かりにくくなる場合もある。そこで、複数の職員や来館者の反応を比べ、展示の目的に照らして修正案を決める。どの説明を残すかは専門家が確認し、読みやすさを高めても、根拠のない内容に置き換えないようにしている。",
           "skill": "Reading"
         },
         {
@@ -4232,19 +4242,5 @@
         }
       ]
     }
-  ],
-  "publicationNoticeVi": "Đề luyện tập tự biên soạn theo bố cục JP-STUDY 75/30; không phải đề JLPT chính thức hoặc được JEES chứng thực. Đáp án được AI blind review đối chiếu theo fingerprint phiên bản; chưa có portable execution attestation, chứng nhận người bản ngữ hay hiệu chuẩn tâm trắc.",
-  "reviewProvenance": {
-    "status": "REVIEW_CONTENT_VERSION_VERIFIED",
-    "sealedInputSha256": "64c0c4bea2d1f816919b437d37c7cda4ea5613c8c9902ef35504c7d4b8a61516",
-    "currentVersionItems": 105,
-    "revision5UnchangedItems": 96,
-    "revision6DeltaItems": 7,
-    "revision7CurrentDeltaItems": 1,
-    "revision8CurrentDeltaItems": 1,
-    "supersededReviewRows": 1,
-    "exactSemanticMatches": 105,
-    "portableExecutionAttestation": false,
-    "nativeSpeakerCertification": false
-  }
+  ]
 }

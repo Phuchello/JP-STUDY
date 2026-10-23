@@ -3,7 +3,7 @@
   "status": "PASS_LOCAL_E2E",
   "scope": "local catalog + exam interaction only; not live-site verification",
   "qaData": true,
-  "generatedAt": "2026-10-21T13:49:17.383Z",
+  "generatedAt": "2026-10-23T13:16:27.132Z",
   "browser": "Local Chromium Headless via Playwright",
   "viewport": "1280x800 and 390x844",
   "catalogIntegration": "integrated JP_MOCK_DATA plus direct mode=mock&mockId=N2-MOCK-11 URL route",

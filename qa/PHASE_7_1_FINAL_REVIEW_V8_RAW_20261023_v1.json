@@ -1,0 +1,69 @@
+{
+  "reviewer": "Separate Codex AI editorial reviewer",
+  "scope": "Reviewed only N2_12_M10_05 and N2_13_M11_01 from the specified packet. No keys, explanations, prior responses, repository sources, or other QA files were consulted.",
+  "packet": {
+    "path": "qa/PHASE_7_1_FRESH_REVIEW_PACKET_20261023_v8.json",
+    "expectedSha256": "4460c8ad2976c19a561f92a35f8f15ec8f3c834d60fb6d7cf4fdf119925da44f",
+    "sha256BeforeReview": "4460c8ad2976c19a561f92a35f8f15ec8f3c834d60fb6d7cf4fdf119925da44f",
+    "sha256AfterReview": "4460c8ad2976c19a561f92a35f8f15ec8f3c834d60fb6d7cf4fdf119925da44f",
+    "matchesExpected": true
+  },
+  "items": [
+    {
+      "id": "N2_12_M10_05",
+      "selectedOptionId": "B",
+      "exactDisplayedOptionText": "図書館を出発する時刻",
+      "rationale": "The passage says the library will leave fifteen minutes earlier so that scheduled arrival times at each district can be maintained despite the detour. It also explicitly says the time spent at each district will not change. Therefore, the changed time is the library's departure time.",
+      "japaneseNaturalness": "The passage and question read naturally. The wording about leaving earlier to preserve scheduled arrival times is clear, and the question appropriately narrows the issue to times.",
+      "alignment": "Strong passage-question alignment. The answer is stated directly and tests whether the reader distinguishes departure time from arrival time and stop duration.",
+      "uniqueness": "High. Only B names the time explicitly changed. The passage says arrival times are preserved and stay duration is unchanged; the number of districts is also unchanged.",
+      "plausibleAlternatives": [
+        {
+          "optionId": "A",
+          "exactDisplayedOptionText": "各地区に着く時刻",
+          "assessment": "A may seem plausible because the passage discusses arrival schedules, but those times are to be maintained, not changed."
+        },
+        {
+          "optionId": "C",
+          "exactDisplayedOptionText": "巡回する地区の数",
+          "assessment": "The route order changes, but the passage continues to specify the same three districts; this is not a time change."
+        },
+        {
+          "optionId": "D",
+          "exactDisplayedOptionText": "各地区での滞在時間",
+          "assessment": "The passage explicitly says the time spent in each district will not change."
+        }
+      ],
+      "confidence": "High",
+      "concerns": "The item is clear. Packet metadata labels the skill as Language Knowledge although the category and task are reading comprehension; this may be a metadata classification issue."
+    },
+    {
+      "id": "N2_13_M11_01",
+      "selectedOptionId": "B",
+      "exactDisplayedOptionText": "初学者が要点を追えるか、根拠を示して説明しているか",
+      "rationale": "The passage directly states that evaluation will focus on whether beginners can follow the main points and whether explanations provide supporting grounds. It contrasts this with competing on play counts, which could prioritize showy presentation or brevity over accuracy.",
+      "japaneseNaturalness": "The passage, question, and options are natural and clear. The selected option is a compact, faithful paraphrase of the stated evaluation criteria.",
+      "alignment": "Strong passage-question alignment. The question asks what evaluation emphasizes, and the answer is explicitly given in the first paragraph.",
+      "uniqueness": "Very high. B matches the two stated criteria. A is rejected by the passage's warning about play counts; C and D are unsupported and run against the stated purpose of the videos.",
+      "plausibleAlternatives": [
+        {
+          "optionId": "A",
+          "exactDisplayedOptionText": "再生回数と視聴時間",
+          "assessment": "Play counts are explicitly described as a poor basis for competition; viewing time is not given as an evaluation criterion."
+        },
+        {
+          "optionId": "C",
+          "exactDisplayedOptionText": "編集技術の新しさ",
+          "assessment": "The passage warns that conspicuous presentation can take priority, but it does not identify editing novelty as a criterion."
+        },
+        {
+          "optionId": "D",
+          "exactDisplayedOptionText": "教員の説明をどれだけ短くできたか",
+          "assessment": "The videos are not intended to replace teachers' explanations, and shortening them is not given as an evaluation goal."
+        }
+      ],
+      "confidence": "High",
+      "concerns": "The answer is stated almost verbatim, so inferential demand is low. Packet metadata labels the skill as Language Knowledge although the category and task are reading comprehension; this may be a metadata classification issue."
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "schema": "JP_STUDY_PHASE_7_1_FINAL_INTEGRATION_KEY_FREE_PACKET_V1",
+  "packetId": "PHASE-7.1-FINAL-INTEGRATION-DELTA-2026-10-23-v1",
+  "baseCommit": "1c3a3c99c2c395bf1e1d18e10f4a59161f0e4873",
+  "status": "PENDING_INDEPENDENT_REVIEW",
+  "keyExcluded": true,
+  "candidateExamSha256": {
+    "N2-MOCK-12": "6c2847d5bbbca2fb6b98c93ac3ef3f31100f5ff436da40b37061e75c6c90cad8",
+    "N2-MOCK-13": "a0090733850533557146bcc02bec45e43ab2770b03391368606e770287f1a1f6"
+  },
+  "itemCount": 4,
+  "items": [
+    {
+      "id": "N2_12_M8_05",
+      "typeId": "N2-GR-STAR",
+      "category": "文の組み立て",
+      "stem": "（　　　）（　　　）（　★　）（　　　）",
+      "options": [
+        {
+          "id": "A",
+          "text": "比較の対象に加える"
+        },
+        {
+          "id": "B",
+          "text": "必要がある。"
+        },
+        {
+          "id": "C",
+          "text": "将来の維持費も"
+        },
+        {
+          "id": "D",
+          "text": "初期費用だけで判断せず、"
+        }
+      ],
+      "examId": "N2-MOCK-12",
+      "skill": "Language Knowledge",
+      "contextPassage": "複数の公共事業案について、将来の維持費も比べる方針になった。",
+      "reviewTask": "Reconstruct the natural full sentence. Report the exact option text in the third (★) slot and any defensible alternative order, including whether it changes the third-slot choice.",
+      "contentFingerprint": "da2b457fa7e2148e7013e199440b0593dde8d75b98ff7d18b08f92b78b3d1faa"
+    },
+    {
+      "id": "N2_13_M8_02",
+      "typeId": "N2-GR-STAR",
+      "category": "文の組み立て",
+      "stem": "（　　　）（　　　）（　★　）（　　　）",
+      "options": [
+        {
+          "id": "A",
+          "text": "授業の目的も"
+        },
+        {
+          "id": "B",
+          "text": "調整する必要がある。"
+        },
+        {
+          "id": "C",
+          "text": "考慮して説明の順序を"
+        },
+        {
+          "id": "D",
+          "text": "教員は学生の理解度だけでなく、"
+        }
+      ],
+      "examId": "N2-MOCK-13",
+      "skill": "Language Knowledge",
+      "contextPassage": "授業では、学生の理解度に合わせて説明を工夫することになった。",
+      "reviewTask": "Reconstruct the natural full sentence. Report the exact option text in the third (★) slot and any defensible alternative order, including whether it changes the third-slot choice.",
+      "contentFingerprint": "a8a893789b3320a3c0f33a0e34974555b8a67c7f96cf82a726d61d632a8ad520"
+    },
+    {
+      "id": "N2_13_M8_05",
+      "typeId": "N2-GR-STAR",
+      "category": "文の組み立て",
+      "stem": "（　　　）（　　　）（　★　）（　　　）",
+      "options": [
+        {
+          "id": "A",
+          "text": "編集部は、記事の内容を"
+        },
+        {
+          "id": "B",
+          "text": "照合したうえで、"
+        },
+        {
+          "id": "C",
+          "text": "複数の資料と"
+        },
+        {
+          "id": "D",
+          "text": "公開することにした。"
+        }
+      ],
+      "examId": "N2-MOCK-13",
+      "skill": "Language Knowledge",
+      "contextPassage": "編集部では、記事を公開する前に複数の資料を確認している。",
+      "reviewTask": "Reconstruct the natural full sentence. Report the exact option text in the third (★) slot and any defensible alternative order, including whether it changes the third-slot choice.",
+      "contentFingerprint": "15541e4d8c8773ea6759956bfabc01233023fa92c7ce1a546d78465a21ec195b"
+    },
+    {
+      "id": "N2_13_M11_03",
+      "typeId": "N2-RD-MED",
+      "category": "中文読解",
+      "stem": "記事では、確認の結果を読者にどのように示しているか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "確認できた事実と、まだ確認できていない情報の違い"
+        },
+        {
+          "id": "B",
+          "text": "投稿が広く共有されているかどうかを、事実確認の代わりに示すこと"
+        },
+        {
+          "id": "C",
+          "text": "確認できなかった点を記事から外し、確定した内容だけに整理した経緯"
+        },
+        {
+          "id": "D",
+          "text": "投稿の表現を編集部が要約し、発信者に代わって見解を示した内容"
+        }
+      ],
+      "examId": "N2-MOCK-13",
+      "skill": "Reading",
+      "contextPassage": "学生新聞の編集部は、SNSで話題になった情報を記事にする際、投稿画面を保存するだけでは不十分だと考えている。投稿者に確認を取り、日時や場所を別の資料と照らすほか、画像が過去の出来事から再利用されていないかも調べる。確認できた情報でも、別の資料と食い違う場合はその違いを記録し、すぐに一つの説明へまとめない。記事では、確定した事実と未確認の情報を分け、確認が取れなかった点も残す。読者が情報の確かさを自分で判断できるようにするためである。\n\n事実が食い違うときに一方を消すと、後から訂正の経緯を確かめられない。編集部は資料の公開日、発信者、掲載日時を記録し、訂正時には訂正履歴へのリンクを付ける。取材を急ぐ場合でも未確認情報にはその旨を示し、複数の人で掲載前に確認する。読者が判断する手がかりを残すことを、話題の速さを追うことより優先している。",
+      "reviewTask": "Select the single best displayed option by exact text. Assess passage fit, inferential depth, naturalness, distractors, and any defensible alternative.",
+      "contentFingerprint": "b7d0c6013db589eb2ed50fc8c4c634b1b045ac90b55b06d0063cc29ad4ef4e40"
+    }
+  ],
+  "reviewerInstructions": "Use only this packet. Do not seek or infer author keys from source files or prior review records. Return one best answer by exact option text for each item; explain evidence, Japanese naturalness, passage/question fit, distractor plausibility, all defensible alternatives, and confidence. For STAR, list the full fragment order and third-slot text for each defensible order. Preserve concerns verbatim; this is AI editorial review, not native-speaker certification."
+}

@@ -1,0 +1,2898 @@
+[
+  {
+    "id": "N2_12_M1_01",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-MO-READ",
+    "category": "漢字読み",
+    "stem": "市は新しい分別方法を試すため、三つの地区でその方法を【実施】することにした。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "じつじ"
+      },
+      {
+        "id": "B",
+        "text": "じつし"
+      },
+      {
+        "id": "C",
+        "text": "じっし"
+      },
+      {
+        "id": "D",
+        "text": "じっじ"
+      }
+    ],
+    "contentFingerprint": "840e527d816084aa3f8b7cd78e692fc1b8b9598da7b73963f8624856626686cd"
+  },
+  {
+    "id": "N2_12_M1_02",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-MO-READ",
+    "category": "漢字読み",
+    "stem": "台風の後、川の水位が【急激】に上がったため、住民に注意を呼びかけた。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "きゅうげき"
+      },
+      {
+        "id": "B",
+        "text": "きゅうげっき"
+      },
+      {
+        "id": "C",
+        "text": "きゅげき"
+      },
+      {
+        "id": "D",
+        "text": "きゅうけき"
+      }
+    ],
+    "contentFingerprint": "0fceb9707578f5b7219325cc2452a18aebbf11840ea9e9a37019a6d9495401bd"
+  },
+  {
+    "id": "N2_12_M1_03",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-MO-READ",
+    "category": "漢字読み",
+    "stem": "町内会は、古い遊歩道の【維持】に必要な費用を見直している。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "ゆいし"
+      },
+      {
+        "id": "B",
+        "text": "ゆいじ"
+      },
+      {
+        "id": "C",
+        "text": "いじ"
+      },
+      {
+        "id": "D",
+        "text": "いし"
+      }
+    ],
+    "contentFingerprint": "496bbe9311f7f7a41ffd863fecaa747264d4f1fb726f855c963d73ed162a1aa3"
+  },
+  {
+    "id": "N2_12_M1_04",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-MO-READ",
+    "category": "漢字読み",
+    "stem": "自治体は、空き家の増加を防ぐ対策を【講じた】。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "こうした"
+      },
+      {
+        "id": "B",
+        "text": "こうじた"
+      },
+      {
+        "id": "C",
+        "text": "こういた"
+      },
+      {
+        "id": "D",
+        "text": "こうじいた"
+      }
+    ],
+    "contentFingerprint": "b1e2bd3980e56b178caedb82130e0ba1b5bcebacacef574f83dbe56c678142aa"
+  },
+  {
+    "id": "N2_12_M1_05",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-MO-READ",
+    "category": "漢字読み",
+    "stem": "この調査は、世代による意識の【差異】を明らかにする目的で行われた。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "しゃえ"
+      },
+      {
+        "id": "B",
+        "text": "さい"
+      },
+      {
+        "id": "C",
+        "text": "さえ"
+      },
+      {
+        "id": "D",
+        "text": "しゃい"
+      }
+    ],
+    "contentFingerprint": "d0688acc431966757b57247719a034b6fcb3f6eb7c8d1e9caa3dd713b5b3f2aa"
+  },
+  {
+    "id": "N2_12_M2_01",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-MO-ORTH",
+    "category": "表記",
+    "stem": "市は、災害時に水を各避難所へ【きょうきゅう】する計画を作った。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "共有"
+      },
+      {
+        "id": "B",
+        "text": "教育"
+      },
+      {
+        "id": "C",
+        "text": "供給"
+      },
+      {
+        "id": "D",
+        "text": "協力"
+      }
+    ],
+    "contentFingerprint": "f4e87523a2b1a3d3f4b573861cf42c8c5d28d1d4072272b83aecb16df159b02f"
+  },
+  {
+    "id": "N2_12_M2_02",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-MO-ORTH",
+    "category": "表記",
+    "stem": "制度の問題点を直すため、利用者の意見を反映した【かいぜん】案をまとめた。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "回線"
+      },
+      {
+        "id": "B",
+        "text": "開戦"
+      },
+      {
+        "id": "C",
+        "text": "改選"
+      },
+      {
+        "id": "D",
+        "text": "改善"
+      }
+    ],
+    "contentFingerprint": "33f111ee178536fd1ab4f52cc7e5d831a0bc7dbd748ef65b3b1cadfeffb81542"
+  },
+  {
+    "id": "N2_12_M2_03",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-MO-ORTH",
+    "category": "表記",
+    "stem": "観光客が増えたため、駅前に案内表示を新たに【ぞうせつ】した。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "増築"
+      },
+      {
+        "id": "B",
+        "text": "増設"
+      },
+      {
+        "id": "C",
+        "text": "増員"
+      },
+      {
+        "id": "D",
+        "text": "増刷"
+      }
+    ],
+    "contentFingerprint": "ab6ec169fb2af4eac9719d04c984d1d91cce478f81766e4bf39880133ab9b270"
+  },
+  {
+    "id": "N2_12_M2_04",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-MO-ORTH",
+    "category": "表記",
+    "stem": "市は、災害時の避難所情報をウェブサイトで【こうしん】した。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "後進"
+      },
+      {
+        "id": "B",
+        "text": "交信"
+      },
+      {
+        "id": "C",
+        "text": "更新"
+      },
+      {
+        "id": "D",
+        "text": "行進"
+      }
+    ],
+    "contentFingerprint": "9b2375abd955631ec76665cbf1525033f37cf6e3b0c390669ce735f11e935c7f"
+  },
+  {
+    "id": "N2_12_M2_05",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-MO-ORTH",
+    "category": "表記",
+    "stem": "調査では、年齢ではなく利用目的を【じゅうし】して分析した。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "重視"
+      },
+      {
+        "id": "B",
+        "text": "従事"
+      },
+      {
+        "id": "C",
+        "text": "重示"
+      },
+      {
+        "id": "D",
+        "text": "充実"
+      }
+    ],
+    "contentFingerprint": "5bbb424c8d09ec56d70b67e6db05990bcf21385bed5fc9906844ca26129ec3e0"
+  },
+  {
+    "id": "N2_12_M3_01",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-MO-FORM",
+    "category": "語形成",
+    "stem": "人口の減少に備えて、行政サービスの効率（　）を進める。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "性"
+      },
+      {
+        "id": "B",
+        "text": "的"
+      },
+      {
+        "id": "C",
+        "text": "者"
+      },
+      {
+        "id": "D",
+        "text": "化"
+      }
+    ],
+    "contentFingerprint": "82c3516f4ad32f454261e3b7a351b53b2ed3c70eff5fc6f166f39cbf71637363"
+  },
+  {
+    "id": "N2_12_M3_02",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-MO-FORM",
+    "category": "語形成",
+    "stem": "地域間で比較（　）を確保するため、各地で同じ質問を使って調査した。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "化"
+      },
+      {
+        "id": "B",
+        "text": "可能性"
+      },
+      {
+        "id": "C",
+        "text": "者"
+      },
+      {
+        "id": "D",
+        "text": "的"
+      }
+    ],
+    "contentFingerprint": "d6d4d00af87dba72dc2a1a1ebf6e0390b55bd6f5850dbee2fbe621fcc9f2071d"
+  },
+  {
+    "id": "N2_12_M3_03",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-MO-FORM",
+    "category": "語形成",
+    "stem": "公共施設の予約をオンライン（　）し、窓口の混雑を減らした。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "性"
+      },
+      {
+        "id": "B",
+        "text": "化"
+      },
+      {
+        "id": "C",
+        "text": "者"
+      },
+      {
+        "id": "D",
+        "text": "的"
+      }
+    ],
+    "contentFingerprint": "08c292f9cd6b176faec635579b95122524167b0e0fc6485a647e784e57ef15ce"
+  },
+  {
+    "id": "N2_12_M3_04",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-MO-FORM",
+    "category": "語形成",
+    "stem": "この制度は、利用者が自分で手続きを進められる自主（　）を重視する。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "性"
+      },
+      {
+        "id": "B",
+        "text": "化"
+      },
+      {
+        "id": "C",
+        "text": "的"
+      },
+      {
+        "id": "D",
+        "text": "者"
+      }
+    ],
+    "contentFingerprint": "9284925e4336efe8c5cf191d3e056ea962e3842913d1b2136305b6da40109d78"
+  },
+  {
+    "id": "N2_12_M3_05",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-MO-FORM",
+    "category": "語形成",
+    "stem": "地域の清掃活動を通じて、住民の連帯（　）が高まった。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "的"
+      },
+      {
+        "id": "B",
+        "text": "者"
+      },
+      {
+        "id": "C",
+        "text": "感"
+      },
+      {
+        "id": "D",
+        "text": "化"
+      }
+    ],
+    "contentFingerprint": "82e13a8bbbbeba8e008d400ca3ac6083f6e77a838271290dbe5256665a1312a1"
+  },
+  {
+    "id": "N2_12_M4_01",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-MO-CONT",
+    "category": "文脈規定",
+    "stem": "橋の点検が終わるまで、車両の通行を（　）することになった。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "抑止"
+      },
+      {
+        "id": "B",
+        "text": "許可"
+      },
+      {
+        "id": "C",
+        "text": "規制"
+      },
+      {
+        "id": "D",
+        "text": "統制"
+      }
+    ],
+    "contentFingerprint": "0547527054dc45d781b84c492e52269a8943beb07f59f2550a6829367599d01f"
+  },
+  {
+    "id": "N2_12_M4_02",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-MO-CONT",
+    "category": "文脈規定",
+    "stem": "大雨の予報を受け、市は避難所を早めに（　）した。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "展開"
+      },
+      {
+        "id": "B",
+        "text": "公開"
+      },
+      {
+        "id": "C",
+        "text": "開発"
+      },
+      {
+        "id": "D",
+        "text": "開設"
+      }
+    ],
+    "contentFingerprint": "1a42e530ce2baa4f0564a499857c321393ef3fe13cde00839eb3104390a769f1"
+  },
+  {
+    "id": "N2_12_M4_03",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-MO-CONT",
+    "category": "文脈規定",
+    "stem": "歩道が狭く危険なため、設計を（　）から工事を始める。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "見落として"
+      },
+      {
+        "id": "B",
+        "text": "見直して"
+      },
+      {
+        "id": "C",
+        "text": "見送って"
+      },
+      {
+        "id": "D",
+        "text": "見合わせて"
+      }
+    ],
+    "contentFingerprint": "339732b35072ea05cdf5aeddda5fa8c870cfb2ee75ec37711cf1dba64b32ff6b"
+  },
+  {
+    "id": "N2_12_M4_04",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-MO-CONT",
+    "category": "文脈規定",
+    "stem": "二つの地区で同じ質問と集計方法を使い、回答傾向を地域間で（　）できるようにした。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "記録"
+      },
+      {
+        "id": "B",
+        "text": "照合"
+      },
+      {
+        "id": "C",
+        "text": "検証"
+      },
+      {
+        "id": "D",
+        "text": "比較"
+      }
+    ],
+    "contentFingerprint": "5cca82da8bc6d1b445c5ef204557028e06148e8b3c058a1baa690916ea6104aa"
+  },
+  {
+    "id": "N2_12_M4_05",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-MO-CONT",
+    "category": "文脈規定",
+    "stem": "大雨対策として、公園の地下に雨水をためる調整池を（　）した。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "設置"
+      },
+      {
+        "id": "B",
+        "text": "指定"
+      },
+      {
+        "id": "C",
+        "text": "設定"
+      },
+      {
+        "id": "D",
+        "text": "制定"
+      }
+    ],
+    "contentFingerprint": "a653ef6c73c482090088362a5358f7157c6d0ba5d1a57f6f66f8c12221981e1e"
+  },
+  {
+    "id": "N2_12_M4_06",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-MO-CONT",
+    "category": "文脈規定",
+    "stem": "住民説明会では、専門用語を避け、内容を分かりやすく（　）した。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "解釈"
+      },
+      {
+        "id": "B",
+        "text": "解決"
+      },
+      {
+        "id": "C",
+        "text": "説明"
+      },
+      {
+        "id": "D",
+        "text": "解消"
+      }
+    ],
+    "contentFingerprint": "ea41e8c99a6aceb6243795c2d9afd999daa33cfa615aaa8262307b7c7830fb4b"
+  },
+  {
+    "id": "N2_12_M4_07",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-MO-CONT",
+    "category": "文脈規定",
+    "stem": "利用者の減少が続いた路線について、市は運行方法を（　）する。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "再検討"
+      },
+      {
+        "id": "B",
+        "text": "再生産"
+      },
+      {
+        "id": "C",
+        "text": "再現"
+      },
+      {
+        "id": "D",
+        "text": "再生"
+      }
+    ],
+    "contentFingerprint": "44cca28ff3d774ecd515efa2f5b437aab7988209a1658073290f18386785c45f"
+  },
+  {
+    "id": "N2_12_M5_01",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-MO-PARA",
+    "category": "言い換え",
+    "stem": "市は、住民の要望を踏まえて公園の設備を改修した。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "要望を誇張して"
+      },
+      {
+        "id": "B",
+        "text": "要望を取り消して"
+      },
+      {
+        "id": "C",
+        "text": "要望を考慮して"
+      },
+      {
+        "id": "D",
+        "text": "要望を先送りして"
+      }
+    ],
+    "contentFingerprint": "962283b79433d28bd3221c7aee33ba8182bd030df3edaff4d0b1908e15e9c9e2"
+  },
+  {
+    "id": "N2_12_M5_02",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-MO-PARA",
+    "category": "言い換え",
+    "stem": "この運行計画は、実際の利用状況に即している。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "利用状況に合っている"
+      },
+      {
+        "id": "B",
+        "text": "利用状況を増やしている"
+      },
+      {
+        "id": "C",
+        "text": "利用状況を隠している"
+      },
+      {
+        "id": "D",
+        "text": "利用状況を無視している"
+      }
+    ],
+    "contentFingerprint": "986615c88b9b9faa463184b522f03b8fb968edc695447df9341a40d08ac2c358"
+  },
+  {
+    "id": "N2_12_M5_03",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-MO-PARA",
+    "category": "言い換え",
+    "stem": "作業の負担を軽減するため、申請書の項目を減らした。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "負担を予測する"
+      },
+      {
+        "id": "B",
+        "text": "負担を小さくする"
+      },
+      {
+        "id": "C",
+        "text": "負担を引き受ける"
+      },
+      {
+        "id": "D",
+        "text": "負担を均等にする"
+      }
+    ],
+    "contentFingerprint": "7c640748ee24748a3178677258fde70dea86abe795f7aec1341d1ce899896b8a"
+  },
+  {
+    "id": "N2_12_M5_04",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-MO-PARA",
+    "category": "言い換え",
+    "stem": "一部の住民から異論が出たため、決定を保留した。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "決定を正式に発表した"
+      },
+      {
+        "id": "B",
+        "text": "結論をすぐに出さず、後で判断することにした"
+      },
+      {
+        "id": "C",
+        "text": "決定を取り消した"
+      },
+      {
+        "id": "D",
+        "text": "決定を急いだ"
+      }
+    ],
+    "contentFingerprint": "7b8b70d2419da59e306cc6e005aa1532af1352f7ba8fd747b529c56367694667"
+  },
+  {
+    "id": "N2_12_M5_05",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-MO-PARA",
+    "category": "言い換え",
+    "stem": "新しい制度は、地区を問わず利用できる。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "地区と比較して"
+      },
+      {
+        "id": "B",
+        "text": "地区を通過して"
+      },
+      {
+        "id": "C",
+        "text": "地区に関係なく"
+      },
+      {
+        "id": "D",
+        "text": "地区を限定して"
+      }
+    ],
+    "contentFingerprint": "80d327a3779fa9bb1a3b04427ef624ff4af37fa0f9f4b4ca7438848b63e82a28"
+  },
+  {
+    "id": "N2_12_M6_01",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-MO-USE",
+    "category": "用法",
+    "stem": "「見合わせる」が「実施を一時的に控える」という意味で使われている文はどれか。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "強風のため、橋の補修工事は安全が確認できるまで見合わせた。"
+      },
+      {
+        "id": "B",
+        "text": "会議の後、二人は顔を見合わせて驚いた。"
+      },
+      {
+        "id": "C",
+        "text": "支出額を昨年度の記録と見合わせ、差を調べた。"
+      },
+      {
+        "id": "D",
+        "text": "担当者は二つの資料を見合わせ、違いを確認した。"
+      }
+    ],
+    "contentFingerprint": "34cca585fd6abd6fbe14634331a4646226c01bb6f597bed2c363fa5066f09fff"
+  },
+  {
+    "id": "N2_12_M6_02",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-MO-USE",
+    "category": "用法",
+    "stem": "「負担」が「人にかかる労力や不便」という意味で使われている文はどれか。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "坂道の多い地区では、徒歩での買い物が高齢者の負担になっている。"
+      },
+      {
+        "id": "B",
+        "text": "修理費は市が全額負担する。"
+      },
+      {
+        "id": "C",
+        "text": "保険料の一部を会社が負担する。"
+      },
+      {
+        "id": "D",
+        "text": "施設の維持費の負担割合を住民と市で決めた。"
+      }
+    ],
+    "contentFingerprint": "0ec23d89e33b74e5d71d04935bcfb6a23a622cf09760bec2ebf62dc63a359a05"
+  },
+  {
+    "id": "N2_12_M6_03",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-MO-USE",
+    "category": "用法",
+    "stem": "「見込む」が「能力を評価して役割を任せる」という意味で使われている文はどれか。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "窓から向かいの山を見込むことができる。"
+      },
+      {
+        "id": "B",
+        "text": "事業費には維持費も見込んでおく。"
+      },
+      {
+        "id": "C",
+        "text": "市は来年の来場者を二万人と見込んでいる。"
+      },
+      {
+        "id": "D",
+        "text": "町長は彼の調整力を見込んで、地域協議会の委員長を任せた。"
+      }
+    ],
+    "contentFingerprint": "9b2e80ee0ae47a675e9e0fe48d01abe6152175d2221c610ea58cb31f2745f198"
+  },
+  {
+    "id": "N2_12_M6_04",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-MO-USE",
+    "category": "用法",
+    "stem": "「応じる」が「依頼を引き受ける」という意味で使われている文はどれか。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "市は人口の変化に応じて、窓口の数を調整した。"
+      },
+      {
+        "id": "B",
+        "text": "利用者数に応じて、バスの本数を増やした。"
+      },
+      {
+        "id": "C",
+        "text": "体調に応じて、運動の量を変えてください。"
+      },
+      {
+        "id": "D",
+        "text": "専門家は、市民団体からの講演依頼に応じた。"
+      }
+    ],
+    "contentFingerprint": "4e5400f64f4ceaac86d24687b8828b646ce8743a0ac8b65270dab1a3f4c2bc9f"
+  },
+  {
+    "id": "N2_12_M6_05",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-MO-USE",
+    "category": "用法",
+    "stem": "「支える」が「活動を続けられるよう助ける」という意味で使われている文はどれか。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "橋脚が道路の重さを支えている。"
+      },
+      {
+        "id": "B",
+        "text": "担当者は重い箱を両手で支えて運んだ。"
+      },
+      {
+        "id": "C",
+        "text": "手すりを支えにして階段を下りた。"
+      },
+      {
+        "id": "D",
+        "text": "住民の寄付が、閉鎖の危機にあった図書館の活動を支えた。"
+      }
+    ],
+    "contentFingerprint": "6ff65c0e74c8651dc30d57d0f075a81995e5583b716c2961a8a7b51777ee3e56"
+  },
+  {
+    "id": "N2_12_M7_01",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "文法形式",
+    "stem": "市の統計では、人口が減っているのは事実である（　）、駅前の商店街には新しい店が増えている。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "どころか"
+      },
+      {
+        "id": "B",
+        "text": "ものの"
+      },
+      {
+        "id": "C",
+        "text": "ばかりに"
+      },
+      {
+        "id": "D",
+        "text": "からには"
+      }
+    ],
+    "contentFingerprint": "9ff8a090f0b7129dc543faba7939c5184b6551bd34de814cc360cec32b659af0"
+  },
+  {
+    "id": "N2_12_M7_02",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "文法形式",
+    "stem": "対策を先延ばしにすると、被害がさらに広がり（　）。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "かねない"
+      },
+      {
+        "id": "B",
+        "text": "がたい"
+      },
+      {
+        "id": "C",
+        "text": "きれない"
+      },
+      {
+        "id": "D",
+        "text": "かける"
+      }
+    ],
+    "contentFingerprint": "19c7e48d75c5d0c24b2f967cf1e28fefd5900d23c1edeb2d4dc86beda9c3a091"
+  },
+  {
+    "id": "N2_12_M7_03",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "文法形式",
+    "stem": "利用者の声を記録した（　）、必要な改善点をすぐに見つけられた。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "ことなしに"
+      },
+      {
+        "id": "B",
+        "text": "うちに"
+      },
+      {
+        "id": "C",
+        "text": "ものの"
+      },
+      {
+        "id": "D",
+        "text": "ことによって"
+      }
+    ],
+    "contentFingerprint": "1c1dae3cfb64e45f745fe9d00b5acd75e8058cd05a22190125885dd2764d999a"
+  },
+  {
+    "id": "N2_12_M7_04",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "文法形式",
+    "stem": "年齢（　）、希望する人は誰でも防災講座に参加できる。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "に限って"
+      },
+      {
+        "id": "B",
+        "text": "に沿って"
+      },
+      {
+        "id": "C",
+        "text": "を問わず"
+      },
+      {
+        "id": "D",
+        "text": "に対して"
+      }
+    ],
+    "contentFingerprint": "40a29bdf94786811411a7d093a247bc2d508aa341511491805d11fce5d8e22e6"
+  },
+  {
+    "id": "N2_12_M7_05",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "文法形式",
+    "stem": "この公園は、春の花（　）秋の紅葉も楽しめる。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "に先立ち"
+      },
+      {
+        "id": "B",
+        "text": "を通して"
+      },
+      {
+        "id": "C",
+        "text": "に応じて"
+      },
+      {
+        "id": "D",
+        "text": "に限らず"
+      }
+    ],
+    "contentFingerprint": "edfc5e0524b7498c66dcbb38ad43fb0ef7975abdcb3b8102834535d18e8ddc38"
+  },
+  {
+    "id": "N2_12_M7_06",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "文法形式",
+    "stem": "安全性を確かめた（　）、市は新しい遊具の設置を許可した。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "うちに"
+      },
+      {
+        "id": "B",
+        "text": "うえで"
+      },
+      {
+        "id": "C",
+        "text": "とはいえ"
+      },
+      {
+        "id": "D",
+        "text": "ものの"
+      }
+    ],
+    "contentFingerprint": "8eeb254e11b44f3be52801bfe5e84f45fbca8cf0a6278b688d1fbedf70cae241"
+  },
+  {
+    "id": "N2_12_M7_07",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "文法形式",
+    "stem": "条例の改正（　）、ごみの出し方も一部変更される。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "に伴って"
+      },
+      {
+        "id": "B",
+        "text": "に先立って"
+      },
+      {
+        "id": "C",
+        "text": "を問わず"
+      },
+      {
+        "id": "D",
+        "text": "とともにして"
+      }
+    ],
+    "contentFingerprint": "5cd2f0ea1ddf5cbbd5e9f037ade4c5a46a32291ce14709d35e027ee1dcd28c77"
+  },
+  {
+    "id": "N2_12_M7_08",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "文法形式",
+    "stem": "町の中心部に住んでいる（　）、車を使わずに生活できるとは限らない。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "に応じて"
+      },
+      {
+        "id": "B",
+        "text": "どころか"
+      },
+      {
+        "id": "C",
+        "text": "ものなら"
+      },
+      {
+        "id": "D",
+        "text": "からといって"
+      }
+    ],
+    "contentFingerprint": "57234b3f21ba3f03f0cdc4a2ed48ce8a7ce7e104245007c54d36faacb47b404d"
+  },
+  {
+    "id": "N2_12_M7_09",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "文法形式",
+    "stem": "災害への備えは、自治体だけ（　）住民一人ひとりにも必要だ。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "でなく"
+      },
+      {
+        "id": "B",
+        "text": "にかけて"
+      },
+      {
+        "id": "C",
+        "text": "を通じて"
+      },
+      {
+        "id": "D",
+        "text": "に比べて"
+      }
+    ],
+    "contentFingerprint": "b92e807d4e243b402a91098b05ff58403f3a4cfb59f70df0c3ce28d7b491f695"
+  },
+  {
+    "id": "N2_12_M7_10",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "文法形式",
+    "stem": "この調査は、複数の地域に（　）三年間続けられた。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "向けて"
+      },
+      {
+        "id": "B",
+        "text": "対して"
+      },
+      {
+        "id": "C",
+        "text": "限って"
+      },
+      {
+        "id": "D",
+        "text": "わたって"
+      }
+    ],
+    "contentFingerprint": "66998f04ad14bedf2bea4140dc1468021f6bbd814c9719860bbcc765e6fba01f"
+  },
+  {
+    "id": "N2_12_M7_11",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "文法形式",
+    "stem": "公共交通の維持をめぐる議論は、交通手段の選択（　）地域の公平さにも関係する。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "に限って"
+      },
+      {
+        "id": "B",
+        "text": "にとどまらず"
+      },
+      {
+        "id": "C",
+        "text": "に先立って"
+      },
+      {
+        "id": "D",
+        "text": "を問わず"
+      }
+    ],
+    "contentFingerprint": "bfa148bcff41884c413917007722e24b8bb56897985560c5f70241c7cab6b03c"
+  },
+  {
+    "id": "N2_12_M7_12",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-GR-FORM",
+    "category": "文法形式",
+    "stem": "市の防災情報を受け取ると決めた（　）、登録した住所が正しいか定期的に確認してほしい。",
+    "contextPassage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "にしても"
+      },
+      {
+        "id": "B",
+        "text": "からといって"
+      },
+      {
+        "id": "C",
+        "text": "ことだから"
+      },
+      {
+        "id": "D",
+        "text": "からには"
+      }
+    ],
+    "contentFingerprint": "82702f7851a64eb6396ba4531aabaa02d5e37bc2b4740d4e129547f9375aa88a"
+  },
+  {
+    "id": "N2_12_M8_01",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-GR-STAR",
+    "category": "文の組み立て",
+    "stem": "（　　　）（　　　）（　★　）（　　　）。",
+    "contextPassage": "窓口では、書類に不足があるときの案内方法を統一することになった。",
+    "options": [
+      {
+        "id": "A",
+        "text": "不足があればその場で知らせた"
+      },
+      {
+        "id": "B",
+        "text": "確認し、"
+      },
+      {
+        "id": "C",
+        "text": "申請者が提出した"
+      },
+      {
+        "id": "D",
+        "text": "書類を受付で"
+      }
+    ],
+    "contentFingerprint": "cadc151ea243c22abb9d309785554d2bd4820d4f4295b21364765c8f1b47bd09"
+  },
+  {
+    "id": "N2_12_M8_02",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-GR-STAR",
+    "category": "文の組み立て",
+    "stem": "（　　　）（　　　）（　★　）（　　　）。",
+    "contextPassage": "市の広報課は、調査結果を公表する前の確認手順を決めた。",
+    "options": [
+      {
+        "id": "A",
+        "text": "公開前に担当者が確認し、"
+      },
+      {
+        "id": "B",
+        "text": "必要に応じて該当箇所を修正する"
+      },
+      {
+        "id": "C",
+        "text": "まず回答を集計し、"
+      },
+      {
+        "id": "D",
+        "text": "個人情報が含まれていないか"
+      }
+    ],
+    "contentFingerprint": "9be0273df699694ffc4ad4769bbf692dd7c0642de4017a92241e2c37bb4a519e"
+  },
+  {
+    "id": "N2_12_M8_03",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-GR-STAR",
+    "category": "文の組み立て",
+    "stem": "（　　　）（　　　）（　★　）（　　　）。",
+    "contextPassage": "地域では災害に備え、各世帯が必要な準備を進めている。",
+    "options": [
+      {
+        "id": "A",
+        "text": "避難場所を"
+      },
+      {
+        "id": "B",
+        "text": "必要な物資を準備しておく"
+      },
+      {
+        "id": "C",
+        "text": "市が指定した"
+      },
+      {
+        "id": "D",
+        "text": "事前に確認し、"
+      }
+    ],
+    "contentFingerprint": "f2bffd78193d6718336e5c96e3914ab300bf4588f769b9f34c1ec25f79a65408"
+  },
+  {
+    "id": "N2_12_M8_04",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-GR-STAR",
+    "category": "文の組み立て",
+    "stem": "（　　　）（　　　）（　★　）（　　　）。",
+    "contextPassage": "市は、食料を買いにくい地域の住民を支援する方法を検討した。",
+    "options": [
+      {
+        "id": "A",
+        "text": "買い物が難しい人に"
+      },
+      {
+        "id": "B",
+        "text": "食料品を届けるための移動販売車を導入し、"
+      },
+      {
+        "id": "C",
+        "text": "市は"
+      },
+      {
+        "id": "D",
+        "text": "週に二回運行する"
+      }
+    ],
+    "contentFingerprint": "470dba0e69271f1e68476ba4eb4efcee6cfa8ef6703474e33693dc3421a0fc3b"
+  },
+  {
+    "id": "N2_12_M8_05",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-GR-STAR",
+    "category": "文の組み立て",
+    "stem": "（　　　）（　　　）（　★　）（　　　）",
+    "contextPassage": "複数の公共事業案について、将来の維持費も比べる方針になった。",
+    "options": [
+      {
+        "id": "A",
+        "text": "比較の対象に加える"
+      },
+      {
+        "id": "B",
+        "text": "必要がある。"
+      },
+      {
+        "id": "C",
+        "text": "将来の維持費も"
+      },
+      {
+        "id": "D",
+        "text": "初期費用だけで判断せず、"
+      }
+    ],
+    "contentFingerprint": "da2b457fa7e2148e7013e199440b0593dde8d75b98ff7d18b08f92b78b3d1faa"
+  },
+  {
+    "id": "N2_12_M9_01",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-GR-PARA",
+    "category": "文章文法",
+    "stem": "文中の（　）に入る最も適切なものはどれか。",
+    "contextPassage": "市は、高齢者向けの予約制乗合車について、時間帯ごとの利用状況を調査した。朝は予約が多く、夕方は空席が目立つことが分かった。調査結果（　）、朝の便を一つ増やし、夕方の一部を予約制の小型車に変更する案を示した。実施後も、乗車できなかった人の数を確認するという。",
+    "options": [
+      {
+        "id": "A",
+        "text": "に先立って"
+      },
+      {
+        "id": "B",
+        "text": "を踏まえて"
+      },
+      {
+        "id": "C",
+        "text": "を通じて"
+      },
+      {
+        "id": "D",
+        "text": "を問わず"
+      }
+    ],
+    "contentFingerprint": "9a8fa9cbc3e32d717f7144803652ecda4c72d70900f138ada79e5fbae56062c0"
+  },
+  {
+    "id": "N2_12_M9_02",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-GR-PARA",
+    "category": "文章文法",
+    "stem": "文中の（　）に入る最も適切なものはどれか。",
+    "contextPassage": "地域の清掃活動は、参加者を集めるだけでは続かない。作業の内容を事前に知らせ、無理のない時間に設定する（　）、初めて参加する人も予定を立てやすくなる。",
+    "options": [
+      {
+        "id": "A",
+        "text": "どころか"
+      },
+      {
+        "id": "B",
+        "text": "ものなら"
+      },
+      {
+        "id": "C",
+        "text": "に限らず"
+      },
+      {
+        "id": "D",
+        "text": "ことによって"
+      }
+    ],
+    "contentFingerprint": "a659e2e32472bbd3e76acfaec9450d7520acdd7456c4da51fc167e0143f5501a"
+  },
+  {
+    "id": "N2_12_M9_03",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-GR-PARA",
+    "category": "文章文法",
+    "stem": "文中の（　）に入る最も適切なものはどれか。",
+    "contextPassage": "公共施設の再編では、全ての地域に同じ基準を当てはめるのではなく、利用者の移動距離や地域ごとの人口構成（　）施設の規模を調整する必要がある。",
+    "options": [
+      {
+        "id": "A",
+        "text": "に加えて"
+      },
+      {
+        "id": "B",
+        "text": "を通じて"
+      },
+      {
+        "id": "C",
+        "text": "に先立って"
+      },
+      {
+        "id": "D",
+        "text": "に応じて"
+      }
+    ],
+    "contentFingerprint": "2819b6691a381eef76ae1925552c3215f71b78be8059107b0c13f89c5b47a690"
+  },
+  {
+    "id": "N2_12_M9_04",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-GR-PARA",
+    "category": "文章文法",
+    "stem": "文中の（　）に入る最も適切なものはどれか。",
+    "contextPassage": "再生可能エネルギーの設備を増やすと、発電量の変動に対応する工夫も求められる。設備を設置した（　）、地域の電力問題がすべて解決するわけではない。",
+    "options": [
+      {
+        "id": "A",
+        "text": "からといって"
+      },
+      {
+        "id": "B",
+        "text": "どころか"
+      },
+      {
+        "id": "C",
+        "text": "にしたがって"
+      },
+      {
+        "id": "D",
+        "text": "ばかりに"
+      }
+    ],
+    "contentFingerprint": "5fadd938fd86bfe6ae8b194c0be2bdeab8a503f3c8db82080b171421bde0d048"
+  },
+  {
+    "id": "N2_12_M9_05",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-GR-PARA",
+    "category": "文章文法",
+    "stem": "文中の（　）に入る最も適切なものはどれか。",
+    "contextPassage": "住民向けの説明会では、計画の利点を伝える一方、工事中の騒音や通行制限も説明した。利点（　）課題も共有することで、参加者が判断しやすくなる。",
+    "options": [
+      {
+        "id": "A",
+        "text": "だけでなく"
+      },
+      {
+        "id": "B",
+        "text": "どころか"
+      },
+      {
+        "id": "C",
+        "text": "に限って"
+      },
+      {
+        "id": "D",
+        "text": "に先立ち"
+      }
+    ],
+    "contentFingerprint": "5dc46c0d2f6e0c42aca8151df33be6463157035a4bb80588b422cb71f4720228"
+  },
+  {
+    "id": "N2_12_M10_01",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-RD-SHORT",
+    "category": "短文読解",
+    "stem": "水曜日の延長時間について、本文と合うものはどれか。",
+    "contextPassage": "市役所では、平日の受付時間に来られない勤務者から相談が寄せられたため、来月から毎週水曜日だけ午後七時まで窓口を延長する。予約は不要で、相談や証明書の申請に利用できる。ただし、戸籍関係など一部の証明書は別の窓口で扱うため、来庁後に案内を確認してほしい。\n\n相談の内容によっては担当窓口が異なるため、来庁後は入口の案内板を見て該当する番号札を取る。延長日に利用できる手続きの一覧は、市のウェブサイトにも掲載している。",
+    "options": [
+      {
+        "id": "A",
+        "text": "毎日午後七時まで開く"
+      },
+      {
+        "id": "B",
+        "text": "すべての証明書を同じ窓口で申請できる"
+      },
+      {
+        "id": "C",
+        "text": "予約をした人だけが利用できる"
+      },
+      {
+        "id": "D",
+        "text": "通常時間に来られない人も利用できる"
+      }
+    ],
+    "contentFingerprint": "77bc7e709a35f5afd150f32de3309d89e714b55965adf5f4e2b8033963e1b856"
+  },
+  {
+    "id": "N2_12_M10_02",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-RD-SHORT",
+    "category": "短文読解",
+    "stem": "作業中、公園を利用する人はどうすればよいか。",
+    "contextPassage": "町内の公園では今週末、遊歩道沿いの樹木を剪定する。作業中は東側の通路を閉鎖するが、西側入口から入って芝生広場を利用することはできる。雨天時は安全のため翌週に延期し、実施日が変わった場合は市のウェブサイトと公園入口の掲示で知らせる。",
+    "options": [
+      {
+        "id": "A",
+        "text": "雨でも予定どおり作業する"
+      },
+      {
+        "id": "B",
+        "text": "東側の通路を使う"
+      },
+      {
+        "id": "C",
+        "text": "西側の入口から入る"
+      },
+      {
+        "id": "D",
+        "text": "変更を電話でのみ確認する"
+      }
+    ],
+    "contentFingerprint": "0521af62a09d52cb804dcf91e362352bc9086a7e16c86bee0c45d490c1bb169c"
+  },
+  {
+    "id": "N2_12_M10_03",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-RD-SHORT",
+    "category": "短文読解",
+    "stem": "食品を持ち込む場所と条件はどれか。",
+    "contextPassage": "地域の団体は、まだ食べられる食品を集め、必要な世帯へ届けるため回収を行う。回収箱は図書館の正面ではなく、隣の交流センターに置く。未開封で期限まで一週間以上ある食品のみ、平日の午前九時から午後五時に受け付ける。",
+    "options": [
+      {
+        "id": "A",
+        "text": "交流センターに未開封で期限まで一週間以上ある食品を持っていく"
+      },
+      {
+        "id": "B",
+        "text": "交流センターに未開封品を平日の午後六時に持っていく"
+      },
+      {
+        "id": "C",
+        "text": "図書館の正面入口に未開封品を持っていく"
+      },
+      {
+        "id": "D",
+        "text": "交流センターに開封済みだが期限内の食品を持っていく"
+      }
+    ],
+    "contentFingerprint": "d562ffe179d491797709d29ece8e040b00b6ad2cf0ead291fdcb4df8b3c44f1e"
+  },
+  {
+    "id": "N2_12_M10_04",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-RD-SHORT",
+    "category": "短文読解",
+    "stem": "休館に伴う対応として正しいものはどれか。",
+    "contextPassage": "市民プールは設備点検のため二十日から二十二日まで休館する。期間中に予定していた水泳教室は二十五日に振り替える。通常の入館券は使えなかった日数分だけ有効期限を延長するため、利用者が窓口で手続きをする必要はない。点検後の営業は二十三日から再開する。",
+    "options": [
+      {
+        "id": "A",
+        "text": "休館は二十五日まで続く"
+      },
+      {
+        "id": "B",
+        "text": "入館券の期限は延長される"
+      },
+      {
+        "id": "C",
+        "text": "点検中も通常どおり利用できる"
+      },
+      {
+        "id": "D",
+        "text": "教室は中止され、振替日はない"
+      }
+    ],
+    "contentFingerprint": "4fb063cc54fab9c2819704b6e6988afe524f86bd248adff11a686223e0d6318b"
+  },
+  {
+    "id": "N2_12_M10_05",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-RD-SHORT",
+    "category": "短文読解",
+    "stem": "時刻について変更されるのは何か。",
+    "contextPassage": "移動図書館は、道路工事に合わせ、来月から山側の三地区を回る順番を変える。迂回で移動時間が延びても各地区の到着予定時刻を保てるよう、図書館の出発時刻をこれまでより十五分早める。各地区での滞在時間は変えない。新しい巡回順は停車場所の掲示と市の案内で確認できる。",
+    "options": [
+      {
+        "id": "A",
+        "text": "各地区に着く時刻"
+      },
+      {
+        "id": "B",
+        "text": "図書館を出発する時刻"
+      },
+      {
+        "id": "C",
+        "text": "巡回する地区の数"
+      },
+      {
+        "id": "D",
+        "text": "各地区での滞在時間"
+      }
+    ],
+    "contentFingerprint": "a2a86487e71cc1c087d4ff81dc257699a1f23390fc1e6a8b00fbb7376bea4711"
+  },
+  {
+    "id": "N2_12_M11_01",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-RD-MED",
+    "category": "中文読解",
+    "stem": "市が割引率の表示をそろえたのはなぜか。",
+    "contextPassage": "市の環境課は、家庭ごみの量を減らすため、食品ロス対策の実証事業を始めた。協力店では、閉店前に残った食品を割引して販売する。市は当初、値引きの割合を店ごとに任せていたが、利用者から「どの程度安くなるか分からず、選びにくい」という声が出た。そこで、割引率を三段階の表示にそろえたところ、買い手が比較しやすくなり、店員の説明も短くなった。\nただし、食品ごとに期限や保存状態、売れ残りやすい時間帯は異なる。表示が同じでも値引きの価値が同じように受け取られるとは限らず、値下げだけで需要が生まれるわけでもない。実証事業では、値下げ前後の販売数だけでなく、廃棄量が減ったか、購入者が必要な量を選べたかも店から聞き取る。市は、売れ残りの件数、廃棄量、利用者の意見を合わせて確認し、事業を続けるか判断する予定である。価格表示の分かりやすさと食品ロスの削減効果を分けて評価する必要がある。",
+    "options": [
+      {
+        "id": "A",
+        "text": "値下げ前後の販売数だけで事業の効果を決めるため"
+      },
+      {
+        "id": "B",
+        "text": "店ごとに異なる表示を残し、選び方を店員に任せるため"
+      },
+      {
+        "id": "C",
+        "text": "利用者が値引きの程度を比べやすくするため"
+      },
+      {
+        "id": "D",
+        "text": "すべての商品を同じ価格で販売するため"
+      }
+    ],
+    "contentFingerprint": "297ba7f17d3ac1bae077b6e6e1d42604e0f8101db8924cb703736040c7a7fd5e"
+  },
+  {
+    "id": "N2_12_M11_02",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-RD-MED",
+    "category": "中文読解",
+    "stem": "表示をそろえた後、店員側に起きた変化はどれか。",
+    "contextPassage": "市の環境課は、家庭ごみの量を減らすため、食品ロス対策の実証事業を始めた。協力店では、閉店前に残った食品を割引して販売する。市は当初、値引きの割合を店ごとに任せていたが、利用者から「どの程度安くなるか分からず、選びにくい」という声が出た。そこで、割引率を三段階の表示にそろえたところ、買い手が比較しやすくなり、店員の説明も短くなった。\nただし、食品ごとに期限や保存状態、売れ残りやすい時間帯は異なる。表示が同じでも値引きの価値が同じように受け取られるとは限らず、値下げだけで需要が生まれるわけでもない。実証事業では、値下げ前後の販売数だけでなく、廃棄量が減ったか、購入者が必要な量を選べたかも店から聞き取る。市は、売れ残りの件数、廃棄量、利用者の意見を合わせて確認し、事業を続けるか判断する予定である。価格表示の分かりやすさと食品ロスの削減効果を分けて評価する必要がある。",
+    "options": [
+      {
+        "id": "A",
+        "text": "購入者が値引きの程度を比べる機会がなくなった"
+      },
+      {
+        "id": "B",
+        "text": "店ごとに割引率を独自に決めるようになった"
+      },
+      {
+        "id": "C",
+        "text": "売れ残りや廃棄がなくなった"
+      },
+      {
+        "id": "D",
+        "text": "値引きについての説明が短くなった"
+      }
+    ],
+    "contentFingerprint": "ce64bea8ce5fddac67a591eb931d6d6dceb19008846d51622a6994ba944f0ebb"
+  },
+  {
+    "id": "N2_12_M11_03",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-RD-MED",
+    "category": "中文読解",
+    "stem": "市が販売数だけでなく廃棄量や利用者の意見も見るのはなぜか。",
+    "contextPassage": "市の環境課は、家庭ごみの量を減らすため、食品ロス対策の実証事業を始めた。協力店では、閉店前に残った食品を割引して販売する。市は当初、値引きの割合を店ごとに任せていたが、利用者から「どの程度安くなるか分からず、選びにくい」という声が出た。そこで、割引率を三段階の表示にそろえたところ、買い手が比較しやすくなり、店員の説明も短くなった。\nただし、食品ごとに期限や保存状態、売れ残りやすい時間帯は異なる。表示が同じでも値引きの価値が同じように受け取られるとは限らず、値下げだけで需要が生まれるわけでもない。実証事業では、値下げ前後の販売数だけでなく、廃棄量が減ったか、購入者が必要な量を選べたかも店から聞き取る。市は、売れ残りの件数、廃棄量、利用者の意見を合わせて確認し、事業を続けるか判断する予定である。価格表示の分かりやすさと食品ロスの削減効果を分けて評価する必要がある。",
+    "options": [
+      {
+        "id": "A",
+        "text": "参加店の売上順位で、協力の程度を決めるため"
+      },
+      {
+        "id": "B",
+        "text": "表示が分かりやすければ、廃棄量も必ず減ると示すため"
+      },
+      {
+        "id": "C",
+        "text": "表示の分かりやすさと食品ロス削減の効果を分けて評価するため"
+      },
+      {
+        "id": "D",
+        "text": "利用者全員の希望を一つの商品に反映するため"
+      }
+    ],
+    "contentFingerprint": "a2e85ded546013954d1cc782f202fae85136f96feefafd36febe5686b7497d73"
+  },
+  {
+    "id": "N2_12_M11_04",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-RD-MED",
+    "category": "中文読解",
+    "stem": "町が乗合車を導入した背景は何か。",
+    "contextPassage": "山間部の移動手段を守るため、町は路線バスの一部を予約制の乗合車に切り替えた。従来のバスは決まった時刻に全ての停留所を回るため、利用者が少ない日も運行費がかかっていた。乗合車は予約のあった地区を通り、病院や買い物施設の近くで乗り降りできる。開始直後は予約方法が分かりにくいという声があり、町は電話の受付時間を延ばし、停留所にも説明を掲示した。\n利用者は増えたが、予約が重なる朝には希望時刻から遅れる場合がある。利用者数だけを成果とすると、予約できずにあきらめた人や到着の遅れを見落とす。町は地区別の予約件数、希望時刻との差、通院や通学への影響を記録し、運転手の負担も聞くことにした。朝の便を増やせば遅れを減らせる一方、費用と人員が必要になるため、乗降地点や受付方法を調整する案も比べる。費用だけを基準にせず、必要な時間帯が保てているかを見ながら、利用者と運行担当者の意見をもとに運行範囲を決める考えだ。",
+    "options": [
+      {
+        "id": "A",
+        "text": "病院が町外へ移転し、旧路線を使えなくなったため"
+      },
+      {
+        "id": "B",
+        "text": "利用が少ない日も、決まった路線を運行する費用がかかっていたため"
+      },
+      {
+        "id": "C",
+        "text": "運転手を増やし、全停留所を同時に回るため"
+      },
+      {
+        "id": "D",
+        "text": "すべての停留所をなくす方針になったため"
+      }
+    ],
+    "contentFingerprint": "77645021f1471ab43bd73205416dd75579b9183f425e64d0c10b1c03d1e9635d"
+  },
+  {
+    "id": "N2_12_M11_05",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-RD-MED",
+    "category": "中文読解",
+    "stem": "町が受付時間を延ばしたのは何のためか。",
+    "contextPassage": "山間部の移動手段を守るため、町は路線バスの一部を予約制の乗合車に切り替えた。従来のバスは決まった時刻に全ての停留所を回るため、利用者が少ない日も運行費がかかっていた。乗合車は予約のあった地区を通り、病院や買い物施設の近くで乗り降りできる。開始直後は予約方法が分かりにくいという声があり、町は電話の受付時間を延ばし、停留所にも説明を掲示した。\n利用者は増えたが、予約が重なる朝には希望時刻から遅れる場合がある。利用者数だけを成果とすると、予約できずにあきらめた人や到着の遅れを見落とす。町は地区別の予約件数、希望時刻との差、通院や通学への影響を記録し、運転手の負担も聞くことにした。朝の便を増やせば遅れを減らせる一方、費用と人員が必要になるため、乗降地点や受付方法を調整する案も比べる。費用だけを基準にせず、必要な時間帯が保てているかを見ながら、利用者と運行担当者の意見をもとに運行範囲を決める考えだ。",
+    "options": [
+      {
+        "id": "A",
+        "text": "朝の遅れをなくすため、運転手を増やす"
+      },
+      {
+        "id": "B",
+        "text": "予約を不要にして、当日乗車へ切り替える"
+      },
+      {
+        "id": "C",
+        "text": "運行範囲を縮め、予約できる地区を減らす"
+      },
+      {
+        "id": "D",
+        "text": "予約方法が分かりにくいという声に対応する"
+      }
+    ],
+    "contentFingerprint": "9bf2f7394855dbb06ad2d82df8bc897e8fc4debc876103a6104fe4c828725a51"
+  },
+  {
+    "id": "N2_12_M11_06",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-RD-MED",
+    "category": "中文読解",
+    "stem": "町が運行範囲を調整するとき重視する点はどれか。",
+    "contextPassage": "山間部の移動手段を守るため、町は路線バスの一部を予約制の乗合車に切り替えた。従来のバスは決まった時刻に全ての停留所を回るため、利用者が少ない日も運行費がかかっていた。乗合車は予約のあった地区を通り、病院や買い物施設の近くで乗り降りできる。開始直後は予約方法が分かりにくいという声があり、町は電話の受付時間を延ばし、停留所にも説明を掲示した。\n利用者は増えたが、予約が重なる朝には希望時刻から遅れる場合がある。利用者数だけを成果とすると、予約できずにあきらめた人や到着の遅れを見落とす。町は地区別の予約件数、希望時刻との差、通院や通学への影響を記録し、運転手の負担も聞くことにした。朝の便を増やせば遅れを減らせる一方、費用と人員が必要になるため、乗降地点や受付方法を調整する案も比べる。費用だけを基準にせず、必要な時間帯が保てているかを見ながら、利用者と運行担当者の意見をもとに運行範囲を決める考えだ。",
+    "options": [
+      {
+        "id": "A",
+        "text": "全ての地区を同じ時刻に運行すること"
+      },
+      {
+        "id": "B",
+        "text": "以前の路線を費用に関係なく完全に再現すること"
+      },
+      {
+        "id": "C",
+        "text": "費用を最小にすることだけ"
+      },
+      {
+        "id": "D",
+        "text": "通院や通学に必要な時間帯を保ちつつ、運行範囲を考えること"
+      }
+    ],
+    "contentFingerprint": "3315c91ab2927884ad20a0dd4cb86a79e158c577123c1f28f9ea884b9826bbe6"
+  },
+  {
+    "id": "N2_12_M11_07",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-RD-MED",
+    "category": "中文読解",
+    "stem": "図書館が仕組みを見直した主な目的は何か。",
+    "contextPassage": "市の図書館では、利用者が本を予約して受け取る仕組みを見直した。以前は中央館に届いた本を分館へ運ぶ回数が限られており、受け取りまで長く待つ場合があった。そこで、予約が多い本は複数館に置き、各館の貸し出し状況を共通システムで確認できるようにした。導入後、平均待ち日数は短くなったが、利用が一部の館に集中する本もあり、追加購入の判断が難しい。\n予約が集中する時期には、学校の課題や話題作の需要が短期間に変化する。図書館は館ごとの貸出数を一か月単位で比べ、予約取消しが多い本については、冊数を増やす前に待ち時間や受け取り場所を確かめる。貸し出し件数だけでは、予約を取り消した理由や希望する受取館までは分からないため、利用者の意見も集める方針だ。共通システムは本の所在を探しやすくするが、配送回数を増やせば費用もかかる。便利さだけで運用を決めず、複数の情報を見ながら所蔵数を調整する。",
+    "options": [
+      {
+        "id": "A",
+        "text": "各館の書棚に同じ本をすべてそろえること"
+      },
+      {
+        "id": "B",
+        "text": "予約取消しを防ぐため貸出期間を一律に延ばすこと"
+      },
+      {
+        "id": "C",
+        "text": "配送をなくし、中央館での受け取りに戻すこと"
+      },
+      {
+        "id": "D",
+        "text": "予約した本を受け取るまでの待ち時間を短くすること"
+      }
+    ],
+    "contentFingerprint": "650bc06a2668ba5d4b79910534e542feebe34b55c1a244c1b0ea88ccb8d901c0"
+  },
+  {
+    "id": "N2_12_M11_08",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-RD-MED",
+    "category": "中文読解",
+    "stem": "導入後にも残っている課題は何か。",
+    "contextPassage": "市の図書館では、利用者が本を予約して受け取る仕組みを見直した。以前は中央館に届いた本を分館へ運ぶ回数が限られており、受け取りまで長く待つ場合があった。そこで、予約が多い本は複数館に置き、各館の貸し出し状況を共通システムで確認できるようにした。導入後、平均待ち日数は短くなったが、利用が一部の館に集中する本もあり、追加購入の判断が難しい。\n予約が集中する時期には、学校の課題や話題作の需要が短期間に変化する。図書館は館ごとの貸出数を一か月単位で比べ、予約取消しが多い本については、冊数を増やす前に待ち時間や受け取り場所を確かめる。貸し出し件数だけでは、予約を取り消した理由や希望する受取館までは分からないため、利用者の意見も集める方針だ。共通システムは本の所在を探しやすくするが、配送回数を増やせば費用もかかる。便利さだけで運用を決めず、複数の情報を見ながら所蔵数を調整する。",
+    "options": [
+      {
+        "id": "A",
+        "text": "需要が本や館によって偏り、購入冊数を決めにくい"
+      },
+      {
+        "id": "B",
+        "text": "導入後、平均待ち日数が必ず長くなった"
+      },
+      {
+        "id": "C",
+        "text": "共通システムで各館の所蔵状況を確認できない"
+      },
+      {
+        "id": "D",
+        "text": "利用者の希望を聞けず、配送費だけで決める"
+      }
+    ],
+    "contentFingerprint": "931acb029a8d0d4fdfa6449111503111929c25096a1f1e58f5d5a047c5a8abd4"
+  },
+  {
+    "id": "N2_12_M11_09",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-RD-MED",
+    "category": "中文読解",
+    "stem": "貸出件数だけでは分からないため、図書館が所蔵数の調整に使う情報は何か。",
+    "contextPassage": "市の図書館では、利用者が本を予約して受け取る仕組みを見直した。以前は中央館に届いた本を分館へ運ぶ回数が限られており、受け取りまで長く待つ場合があった。そこで、予約が多い本は複数館に置き、各館の貸し出し状況を共通システムで確認できるようにした。導入後、平均待ち日数は短くなったが、利用が一部の館に集中する本もあり、追加購入の判断が難しい。\n予約が集中する時期には、学校の課題や話題作の需要が短期間に変化する。図書館は館ごとの貸出数を一か月単位で比べ、予約取消しが多い本については、冊数を増やす前に待ち時間や受け取り場所を確かめる。貸し出し件数だけでは、予約を取り消した理由や希望する受取館までは分からないため、利用者の意見も集める方針だ。共通システムは本の所在を探しやすくするが、配送回数を増やせば費用もかかる。便利さだけで運用を決めず、複数の情報を見ながら所蔵数を調整する。",
+    "options": [
+      {
+        "id": "A",
+        "text": "本の大きさと棚の空きだけ"
+      },
+      {
+        "id": "B",
+        "text": "貸出数・予約取消し・待ち時間・希望する受取館など"
+      },
+      {
+        "id": "C",
+        "text": "貸出件数だけ"
+      },
+      {
+        "id": "D",
+        "text": "配送費だけ"
+      }
+    ],
+    "contentFingerprint": "3a3aacac9a31b13a09869f02e8fac420b028cb7246bc114d0aafa6cd87ee3fbc"
+  },
+  {
+    "id": "N2_12_M12_01",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-RD-PAIR",
+    "category": "統合理解",
+    "stem": "意見Aと意見Bに共通している考えは何か。",
+    "contextPassage": "【意見A】\n市は、中心部の駐車場を減らし、その場所を歩行者と自転車が安全に通れる空間に変えるべきだ。短い距離の移動がしやすくなれば、商店に立ち寄る人も増える。駐車場をただなくすのではなく、郊外の駐車施設とバスの接続を整えれば、車が必要な人にも配慮できる。\n\n【意見B】\n中心部の駐車場を急に減らすのは賛成できない。高齢者や荷物を運ぶ人には車が欠かせず、郊外の駐車施設へ移る時間も負担になる。まずは時間帯によって道路を歩行者中心にする試験を行い、売上や交通量への影響を測るべきだ。結果を見てから駐車場の数を決めても遅くない。",
+    "options": [
+      {
+        "id": "A",
+        "text": "駐車場を現在の数より必ず増やすべきだ"
+      },
+      {
+        "id": "B",
+        "text": "車をすぐ全面禁止するべきだ"
+      },
+      {
+        "id": "C",
+        "text": "駐車場のあり方を考える際、車が必要な人への配慮も欠かせない"
+      },
+      {
+        "id": "D",
+        "text": "商店の売上は交通政策と関係がない"
+      }
+    ],
+    "contentFingerprint": "0543d7f9d69e05ec5f20254c35cfbba08569b2dadc207733cac4f7a5f2c5d4eb"
+  },
+  {
+    "id": "N2_12_M12_02",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-RD-PAIR",
+    "category": "統合理解",
+    "stem": "意見Aと意見Bの相違として最も適切なものはどれか。",
+    "contextPassage": "【意見A】\n市は、中心部の駐車場を減らし、その場所を歩行者と自転車が安全に通れる空間に変えるべきだ。短い距離の移動がしやすくなれば、商店に立ち寄る人も増える。駐車場をただなくすのではなく、郊外の駐車施設とバスの接続を整えれば、車が必要な人にも配慮できる。\n\n【意見B】\n中心部の駐車場を急に減らすのは賛成できない。高齢者や荷物を運ぶ人には車が欠かせず、郊外の駐車施設へ移る時間も負担になる。まずは時間帯によって道路を歩行者中心にする試験を行い、売上や交通量への影響を測るべきだ。結果を見てから駐車場の数を決めても遅くない。",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aは郊外施設に反対し、Bは商店街の閉鎖を求める"
+      },
+      {
+        "id": "B",
+        "text": "Aはバスをなくし、Bは全ての車を禁止する"
+      },
+      {
+        "id": "C",
+        "text": "AもBもすぐに駐車場を倍増するよう求める"
+      },
+      {
+        "id": "D",
+        "text": "Aは駐車場削減を進める案を示し、Bは影響を測ってから決める段階的な案を示す"
+      }
+    ],
+    "contentFingerprint": "5f8cc94cea34e7e70a6509dacc895fa573cbefdb5a94690e5ee522997d9d6b50"
+  },
+  {
+    "id": "N2_12_M13_01",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-RD-LONG",
+    "category": "長文読解",
+    "stem": "市が護岸工事を見直すきっかけとなった調査結果は何か。",
+    "contextPassage": "市は、十年前から続けてきた河川沿いの護岸工事を一部見直すことにした。これまでは大雨による浸水を防ぐため、川幅を広げ、岸をコンクリートで固める計画を中心に進めていた。しかし、最近の調査で、工事区間の下流では流れが速くなり、魚が産卵する浅瀬が減っていることが分かった。そこで市は、堤防を高くするだけでなく、川の一部に水が広がる場所を設け、植物が育つ岸辺を残す案を検討している。\n\nこの案に対して、近くに住む人の中には、植物を残すと草刈りの費用が増え、見通しも悪くなるのではないかと心配する声がある。一方、環境団体は、川の流れを複数に分ければ生き物のすみかを守りながら水害に備えられると期待している。市は、どちらか一方の意見だけで決めず、草刈りの頻度や水位の変化を小さな区間で確かめることにした。\n\n試験区間では、地元の住民にも月一回の観察会に参加してもらう。観察会は専門知識を持つ人だけの調査ではなく、普段川を利用する人が変化に気づき、記録を共有する機会でもある。市は、観察結果を工事の設計に反映させるが、参加人数の多さだけで案の良し悪しを判断しない。安全性、維持費、生態系の変化を合わせて評価し、二年後に本格工事の範囲を決める予定だ。\n\n市は試験結果を比較する際、雨量や季節、工事区間の違いを記録し、一度の大雨や一種類の生き物の観察だけで結論を出さない方針だ。水害への備えは住民の安全に関わるため、環境面でよい変化が見られても、避難や堤防の機能を弱める案は採用できない。反対に、短期的な維持費だけを見ると、将来の修繕費や生態系への影響を見落とす可能性がある。観察会で寄せられた意見は、専門家の測定結果と並べて検討し、どの条件で利点と課題が現れたかを設計資料に残す。",
+    "options": [
+      {
+        "id": "A",
+        "text": "護岸工事の結果、避難範囲が広がり、住民から水位を保つよう求められた"
+      },
+      {
+        "id": "B",
+        "text": "市が住民の要望を受け、環境団体に工事中止の判断を任せた"
+      },
+      {
+        "id": "C",
+        "text": "草刈り費用が予想より下がり、植物を残す必要がなくなった"
+      },
+      {
+        "id": "D",
+        "text": "下流の流れが速まり、魚の産卵場所が減っていた"
+      }
+    ],
+    "contentFingerprint": "09cce38694dc00f952bf85fba54fe979fa044d3158ab21545e78af7cb09ae388"
+  },
+  {
+    "id": "N2_12_M13_02",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-RD-LONG",
+    "category": "長文読解",
+    "stem": "市が小さな区間で試験を行う理由は何か。",
+    "contextPassage": "市は、十年前から続けてきた河川沿いの護岸工事を一部見直すことにした。これまでは大雨による浸水を防ぐため、川幅を広げ、岸をコンクリートで固める計画を中心に進めていた。しかし、最近の調査で、工事区間の下流では流れが速くなり、魚が産卵する浅瀬が減っていることが分かった。そこで市は、堤防を高くするだけでなく、川の一部に水が広がる場所を設け、植物が育つ岸辺を残す案を検討している。\n\nこの案に対して、近くに住む人の中には、植物を残すと草刈りの費用が増え、見通しも悪くなるのではないかと心配する声がある。一方、環境団体は、川の流れを複数に分ければ生き物のすみかを守りながら水害に備えられると期待している。市は、どちらか一方の意見だけで決めず、草刈りの頻度や水位の変化を小さな区間で確かめることにした。\n\n試験区間では、地元の住民にも月一回の観察会に参加してもらう。観察会は専門知識を持つ人だけの調査ではなく、普段川を利用する人が変化に気づき、記録を共有する機会でもある。市は、観察結果を工事の設計に反映させるが、参加人数の多さだけで案の良し悪しを判断しない。安全性、維持費、生態系の変化を合わせて評価し、二年後に本格工事の範囲を決める予定だ。\n\n市は試験結果を比較する際、雨量や季節、工事区間の違いを記録し、一度の大雨や一種類の生き物の観察だけで結論を出さない方針だ。水害への備えは住民の安全に関わるため、環境面でよい変化が見られても、避難や堤防の機能を弱める案は採用できない。反対に、短期的な維持費だけを見ると、将来の修繕費や生態系への影響を見落とす可能性がある。観察会で寄せられた意見は、専門家の測定結果と並べて検討し、どの条件で利点と課題が現れたかを設計資料に残す。",
+    "options": [
+      {
+        "id": "A",
+        "text": "草刈りや水位に関する懸念を、小さな区間で確かめるため"
+      },
+      {
+        "id": "B",
+        "text": "本工事の効果を早く確認するため、試験結果を待たずに全区間へ広げる"
+      },
+      {
+        "id": "C",
+        "text": "草刈りの費用だけを比べ、生態系や安全性は試験対象にしない"
+      },
+      {
+        "id": "D",
+        "text": "市民の観察会を開かず、専門家の測定だけで案を決める"
+      }
+    ],
+    "contentFingerprint": "b26aa9b9c00d3bd299044aba9a94c70800429ed31aa5f37ab207eed3acc20ed0"
+  },
+  {
+    "id": "N2_12_M13_03",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-RD-LONG",
+    "category": "長文読解",
+    "stem": "本文から分かる、市の観察会に対する考えはどれか。",
+    "contextPassage": "市は、十年前から続けてきた河川沿いの護岸工事を一部見直すことにした。これまでは大雨による浸水を防ぐため、川幅を広げ、岸をコンクリートで固める計画を中心に進めていた。しかし、最近の調査で、工事区間の下流では流れが速くなり、魚が産卵する浅瀬が減っていることが分かった。そこで市は、堤防を高くするだけでなく、川の一部に水が広がる場所を設け、植物が育つ岸辺を残す案を検討している。\n\nこの案に対して、近くに住む人の中には、植物を残すと草刈りの費用が増え、見通しも悪くなるのではないかと心配する声がある。一方、環境団体は、川の流れを複数に分ければ生き物のすみかを守りながら水害に備えられると期待している。市は、どちらか一方の意見だけで決めず、草刈りの頻度や水位の変化を小さな区間で確かめることにした。\n\n試験区間では、地元の住民にも月一回の観察会に参加してもらう。観察会は専門知識を持つ人だけの調査ではなく、普段川を利用する人が変化に気づき、記録を共有する機会でもある。市は、観察結果を工事の設計に反映させるが、参加人数の多さだけで案の良し悪しを判断しない。安全性、維持費、生態系の変化を合わせて評価し、二年後に本格工事の範囲を決める予定だ。\n\n市は試験結果を比較する際、雨量や季節、工事区間の違いを記録し、一度の大雨や一種類の生き物の観察だけで結論を出さない方針だ。水害への備えは住民の安全に関わるため、環境面でよい変化が見られても、避難や堤防の機能を弱める案は採用できない。反対に、短期的な維持費だけを見ると、将来の修繕費や生態系への影響を見落とす可能性がある。観察会で寄せられた意見は、専門家の測定結果と並べて検討し、どの条件で利点と課題が現れたかを設計資料に残す。",
+    "options": [
+      {
+        "id": "A",
+        "text": "住民の記録を設計に取り入れるが、安全性や維持費の評価とは切り離す"
+      },
+      {
+        "id": "B",
+        "text": "住民の記録も用いるが、複数の基準を合わせて評価する"
+      },
+      {
+        "id": "C",
+        "text": "参加人数の多さを基準に、案の安全性を判断する"
+      },
+      {
+        "id": "D",
+        "text": "専門家の測定と住民の観察のうち、人数の多い側の意見を採用する"
+      }
+    ],
+    "contentFingerprint": "0308bf01fbf112b146658ff9b48c0f6952d98d4ddf4375789da712fdaa9438e1"
+  },
+  {
+    "id": "N2_12_M14_01",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-RD-INFO",
+    "category": "情報検索",
+    "stem": "防災講座に参加するための条件として正しいものはどれか。",
+    "contextPassage": "【地域防災講座】\n日時：6月15日（日）10:00～12:00\n会場：北区民センター 2階講義室\n対象：市内在住・在勤の人（先着40名）\n申込：6月10日までに電話または市ウェブサイト\n内容：避難所の確認、非常持出品の選び方\n※筆記用具を持参。駐車場は利用できません。",
+    "options": [
+      {
+        "id": "A",
+        "text": "当日、駐車場を利用して参加する"
+      },
+      {
+        "id": "B",
+        "text": "筆記用具は会場で配られる"
+      },
+      {
+        "id": "C",
+        "text": "6月10日までに申し込み、先着順で参加する"
+      },
+      {
+        "id": "D",
+        "text": "市外在住者だけが申し込める"
+      }
+    ],
+    "contentFingerprint": "c3d674d018c86f65a48a1e9cca272a3947efde9b15be70772740db135298a1ba"
+  },
+  {
+    "id": "N2_12_M14_02",
+    "examId": "N2-MOCK-12",
+    "section": 1,
+    "typeId": "N2-RD-INFO",
+    "category": "情報検索",
+    "stem": "講座で扱う内容はどれか。",
+    "contextPassage": "【地域防災講座】\n日時：6月15日（日）10:00～12:00\n会場：北区民センター 2階講義室\n対象：市内在住・在勤の人（先着40名）\n申込：6月10日までに電話または市ウェブサイト\n内容：避難所の確認、非常持出品の選び方\n※筆記用具を持参。駐車場は利用できません。",
+    "options": [
+      {
+        "id": "A",
+        "text": "地域の歴史と観光案内"
+      },
+      {
+        "id": "B",
+        "text": "自動車の安全点検"
+      },
+      {
+        "id": "C",
+        "text": "避難所の確認と非常持出品"
+      },
+      {
+        "id": "D",
+        "text": "河川工事の設計方法"
+      }
+    ],
+    "contentFingerprint": "61ad767453054c27aebb191813d269441e70bdafcf4438a6702d8e6bdc966ebb"
+  },
+  {
+    "id": "N2_12_M1_L01",
+    "examId": "N2-MOCK-12",
+    "section": 2,
+    "typeId": "N2-LIS-TASK",
+    "category": "課題理解",
+    "stem": "女性はまず何をしますか。",
+    "contextPassage": "市役所で、職員と係長が歩道工事について話しています。\n女：南通りの工事ですが、予定より早く舗装が終わりそうです。明日から通れると案内してもいいですか。\n男：検査がまだです。まず施工会社に検査の時刻を確認してください。通行再開は安全を確認してから広報に知らせましょう。\n女：分かりました。先に検査予定を聞きます。",
+    "options": [
+      {
+        "id": "A",
+        "text": "南通りの通行再開を発表する"
+      },
+      {
+        "id": "B",
+        "text": "歩道を別の場所に移す"
+      },
+      {
+        "id": "C",
+        "text": "工事を予定より延長する"
+      },
+      {
+        "id": "D",
+        "text": "施工会社に検査時刻を確認する"
+      }
+    ],
+    "contentFingerprint": "201c44b7587597751a241dd85002a916ebe900776aa86fd698d031e83aabdf91"
+  },
+  {
+    "id": "N2_12_M1_L02",
+    "examId": "N2-MOCK-12",
+    "section": 2,
+    "typeId": "N2-LIS-TASK",
+    "category": "課題理解",
+    "stem": "男性はまず何をしますか。",
+    "contextPassage": "町内会で、二人が資源回収の日程について話しています。\n男：来週の古紙回収、いつもの土曜でいいですか。\n女：その日は広場で防災訓練があるそうです。回収車が入れないかもしれないので、先に自治会館の予約状況を確認してください。空いていれば日曜にずらしましょう。\n男：分かりました。まず会館に電話します。",
+    "options": [
+      {
+        "id": "A",
+        "text": "回収車を別の会社に頼む"
+      },
+      {
+        "id": "B",
+        "text": "自治会館の予約状況を確認する"
+      },
+      {
+        "id": "C",
+        "text": "古紙をすぐ広場に運ぶ"
+      },
+      {
+        "id": "D",
+        "text": "防災訓練を中止する"
+      }
+    ],
+    "contentFingerprint": "b4715ea1f5cf1de0700070964a22ef74957b40db5670e605bd9fc6e8834f7f46"
+  },
+  {
+    "id": "N2_12_M1_L03",
+    "examId": "N2-MOCK-12",
+    "section": 2,
+    "typeId": "N2-LIS-TASK",
+    "category": "課題理解",
+    "stem": "女性はこの後、最初に何をしますか。",
+    "contextPassage": "バス会社で、運転手と担当者が運行変更について話しています。\n女：山側の停留所が工事で使えなくなります。明日の朝から臨時の停留所に移していいでしょうか。\n男：市の許可は出ていますが、近くの病院にも知らせる必要があります。まず乗り換え案内を更新し、病院と学校に新しい場所を連絡してください。\n女：案内の更新から始めます。",
+    "options": [
+      {
+        "id": "A",
+        "text": "臨時停留所の使用を取り消す"
+      },
+      {
+        "id": "B",
+        "text": "運行を一日休止する"
+      },
+      {
+        "id": "C",
+        "text": "病院の職員をバスに乗せる"
+      },
+      {
+        "id": "D",
+        "text": "乗り換え案内を更新する"
+      }
+    ],
+    "contentFingerprint": "df5465e2ff29b86a0fb14b441e6b275547540dc6ba0258fd079ae58ff014a05e"
+  },
+  {
+    "id": "N2_12_M1_L04",
+    "examId": "N2-MOCK-12",
+    "section": 2,
+    "typeId": "N2-LIS-TASK",
+    "category": "課題理解",
+    "stem": "男性はまず何をしますか。",
+    "contextPassage": "図書館で、職員二人が子ども向け行事について話しています。\n男：土曜の読み聞かせ、参加者が予定より多くなりそうです。机を増やしますか。\n女：机より、車いすの人が通れる幅を残したいです。まず申込み人数を確認して、定員を超えそうなら隣の部屋を使えるか聞いてください。\n男：はい。人数を数えてから部屋を相談します。",
+    "options": [
+      {
+        "id": "A",
+        "text": "申込み人数を確認する"
+      },
+      {
+        "id": "B",
+        "text": "読み聞かせを中止する"
+      },
+      {
+        "id": "C",
+        "text": "机をすべて片づける"
+      },
+      {
+        "id": "D",
+        "text": "隣の部屋を使えるか先に確認する"
+      }
+    ],
+    "contentFingerprint": "d43ad5277b046fa4d920b11718c85045964e4ce99ef54aaf8cf7a4c4997b3370"
+  },
+  {
+    "id": "N2_12_M1_L05",
+    "examId": "N2-MOCK-12",
+    "section": 2,
+    "typeId": "N2-LIS-TASK",
+    "category": "課題理解",
+    "stem": "女性はまず何をしますか。",
+    "contextPassage": "環境課で、職員と上司が川の観察会について話しています。\n女：明日の観察会は雨の予報ですが、予定どおり河原に集まりますか。\n男：川の水位が上がる可能性があります。まず気象情報と水位の最新値を確認してください。その後、延期するか屋内の説明会に変えるか決めます。\n女：では、最新情報を確認してから連絡します。",
+    "options": [
+      {
+        "id": "A",
+        "text": "参加者に雨具を配る"
+      },
+      {
+        "id": "B",
+        "text": "屋内説明会をすぐ始める"
+      },
+      {
+        "id": "C",
+        "text": "観察会を必ず中止すると発表する"
+      },
+      {
+        "id": "D",
+        "text": "気象情報と川の水位を調べる"
+      }
+    ],
+    "contentFingerprint": "3ccb971fdc566a742160c345e6c06927f9dffe784781589dcb6c5ef896cf0f59"
+  },
+  {
+    "id": "N2_12_M2_L01",
+    "examId": "N2-MOCK-12",
+    "section": 2,
+    "typeId": "N2-LIS-POINT",
+    "category": "ポイント理解",
+    "stem": "液漏れした電池はどうしますか。",
+    "contextPassage": "市の放送で、ごみの出し方について説明しています。\n女：来月から、使い捨て電池は燃えないごみの日ではなく、月二回の回収箱へ入れてください。回収箱は市役所と各地区センターに置きます。液漏れした電池は袋に分け、職員に直接渡してください。",
+    "options": [
+      {
+        "id": "A",
+        "text": "次の燃えないごみの日まで置く"
+      },
+      {
+        "id": "B",
+        "text": "袋に分けて職員に渡す"
+      },
+      {
+        "id": "C",
+        "text": "燃えるごみと一緒に出す"
+      },
+      {
+        "id": "D",
+        "text": "自宅で分解してから出す"
+      }
+    ],
+    "contentFingerprint": "bf5b9795e54cb7d1e48993cd5f9d63c5bf807ce8b9810fb5475a9a0c0538247f"
+  },
+  {
+    "id": "N2_12_M2_L02",
+    "examId": "N2-MOCK-12",
+    "section": 2,
+    "typeId": "N2-LIS-POINT",
+    "category": "ポイント理解",
+    "stem": "ペットを連れている人はどこへ行きますか。",
+    "contextPassage": "町の防災担当者が、避難所の開設について説明しています。\n男：避難所を開ける場合は、正面玄関ではなく体育館の東側入口から入ってください。受付で住所と人数を記入し、ペットを連れている人は建物の外にある専用区画へ案内します。毛布は受付後に配ります。",
+    "options": [
+      {
+        "id": "A",
+        "text": "体育館の正面玄関"
+      },
+      {
+        "id": "B",
+        "text": "毛布を受け取る倉庫"
+      },
+      {
+        "id": "C",
+        "text": "受付の隣にある会議室"
+      },
+      {
+        "id": "D",
+        "text": "建物の外の専用区画"
+      }
+    ],
+    "contentFingerprint": "18d229049ce524345cf555f0e4a2afed28332189ac19050f19fdd78e093d09bc"
+  },
+  {
+    "id": "N2_12_M2_L03",
+    "examId": "N2-MOCK-12",
+    "section": 2,
+    "typeId": "N2-LIS-POINT",
+    "category": "ポイント理解",
+    "stem": "受け取り場所を変えたい場合、いつ手続きしますか。",
+    "contextPassage": "図書館の職員が、予約本の受け取りについて話しています。\n女：予約した本は、到着の連絡を受けてから一週間以内に受け取ってください。期限を過ぎると、次に予約している人へ回します。受け取り場所を変更したい場合は、本が届く前にウェブサイトから手続きしてください。",
+    "options": [
+      {
+        "id": "A",
+        "text": "受け取り期限が過ぎてから"
+      },
+      {
+        "id": "B",
+        "text": "次の人が借りた後"
+      },
+      {
+        "id": "C",
+        "text": "予約を入れる前"
+      },
+      {
+        "id": "D",
+        "text": "本が届く前"
+      }
+    ],
+    "contentFingerprint": "10f6bb174fe31990d05929628713d7d14656ee992dbf539f990e55dbaab40623"
+  },
+  {
+    "id": "N2_12_M2_L04",
+    "examId": "N2-MOCK-12",
+    "section": 2,
+    "typeId": "N2-LIS-POINT",
+    "category": "ポイント理解",
+    "stem": "代理人が払い戻しに行く場合、追加で何が必要ですか。",
+    "contextPassage": "バス会社が、定期券の払い戻しについて案内しています。\n男：定期券を払い戻す場合、窓口へ券と本人確認書類をお持ちください。残り期間が一か月未満の場合は払い戻しできません。代理の方が来る場合は、本人の委任状も必要です。",
+    "options": [
+      {
+        "id": "A",
+        "text": "定期券の残り期間が一か月以上あること"
+      },
+      {
+        "id": "B",
+        "text": "バスの領収書だけ"
+      },
+      {
+        "id": "C",
+        "text": "本人の委任状"
+      },
+      {
+        "id": "D",
+        "text": "新しい定期券"
+      }
+    ],
+    "contentFingerprint": "86a5e0ebf0f13be957dcc9045862327b455911e75884793045149ffae9c00cf6"
+  },
+  {
+    "id": "N2_12_M2_L05",
+    "examId": "N2-MOCK-12",
+    "section": 2,
+    "typeId": "N2-LIS-POINT",
+    "category": "ポイント理解",
+    "stem": "給水所を利用するとき、原則として何を持っていきますか。",
+    "contextPassage": "市の広報で、熱中症対策の給水所について説明しています。\n女：給水所は市民センターと三つの図書館に設置します。利用できるのは開館時間内で、マイボトルを持参してください。容器を忘れた方には紙コップを用意していますが、数に限りがあります。",
+    "options": [
+      {
+        "id": "A",
+        "text": "予約票"
+      },
+      {
+        "id": "B",
+        "text": "紙コップ"
+      },
+      {
+        "id": "C",
+        "text": "マイボトル"
+      },
+      {
+        "id": "D",
+        "text": "身分証明書"
+      }
+    ],
+    "contentFingerprint": "ed9bc61cb16b2ad93b31ecdaab0d55756adcc99d84ab336fa66492ac2b7744ab"
+  },
+  {
+    "id": "N2_12_M2_L06",
+    "examId": "N2-MOCK-12",
+    "section": 2,
+    "typeId": "N2-LIS-POINT",
+    "category": "ポイント理解",
+    "stem": "相談会に申し込む方法はどれですか。",
+    "contextPassage": "町の担当者が、空き家相談会の申込みについて説明しています。\n男：相談会は予約制で、今月二十五日までに電話で申し込んでください。建物の登記簿がなくても相談できますが、固定資産税の通知書や写真があれば、状況を説明しやすくなります。",
+    "options": [
+      {
+        "id": "A",
+        "text": "当日、写真だけを持って行く"
+      },
+      {
+        "id": "B",
+        "text": "登記簿を郵送してから予約する"
+      },
+      {
+        "id": "C",
+        "text": "来月に窓口で申し込む"
+      },
+      {
+        "id": "D",
+        "text": "今月二十五日までに電話する"
+      }
+    ],
+    "contentFingerprint": "e95f00fbdb6d261c25c1ce967a5b50f9816b09896fc12a42bf012d12eafcfc86"
+  },
+  {
+    "id": "N2_12_M3_L01",
+    "examId": "N2-MOCK-12",
+    "section": 2,
+    "typeId": "N2-LIS-SUMM",
+    "category": "概要理解",
+    "stem": "話し手が最も伝えたいことは何ですか。",
+    "contextPassage": "市の交通政策担当者が、自転車の共同利用について話しています。\n共同利用の自転車は、駅前だけに置けば十分だと思われがちです。しかし、駅から少し離れた診療所や公共施設へ行く人もいます。利用記録を調べると、通勤時間以外にも昼間の利用が多い地区がありました。まずは利用目的と時間帯を見ながら、台数を増やす場所を決めることが大切です。",
+    "options": [
+      {
+        "id": "A",
+        "text": "利用記録を基に、駅前以外も含めて配置場所を見直す"
+      },
+      {
+        "id": "B",
+        "text": "診療所や公共施設の利用者向けに、昼間の利用を優先する"
+      },
+      {
+        "id": "C",
+        "text": "利用目的を問わず、すべての地区に同じ台数を置く"
+      },
+      {
+        "id": "D",
+        "text": "通勤時間帯の利用が多い駅前に台数を集中させる"
+      }
+    ],
+    "contentFingerprint": "a87c97b1ff2197f4470f0450f30a32ae2ddce2685ffdd37524cdd4ca8b157f63"
+  },
+  {
+    "id": "N2_12_M3_L02",
+    "examId": "N2-MOCK-12",
+    "section": 2,
+    "typeId": "N2-LIS-SUMM",
+    "category": "概要理解",
+    "stem": "話し手は農園の活動をどうしたいと考えていますか。",
+    "contextPassage": "地域の農園を運営する人が、参加者の募集について話しています。\n農園を始めたころは、収穫した野菜を持ち帰れることを前面に出していました。ところが、参加者の話を聞くと、作業後に近所の人と話せる時間を楽しみにしている人が多いと分かりました。今後は収穫量だけを成果とせず、初めて来た人も自然に会話へ入れる仕組みを考えたいと思います。",
+    "options": [
+      {
+        "id": "A",
+        "text": "作業後の交流を大切にし、初参加者も会話に入れる仕組みを作る"
+      },
+      {
+        "id": "B",
+        "text": "収穫量を主な成果として、持ち帰れる野菜で参加を促す"
+      },
+      {
+        "id": "C",
+        "text": "交流の時間より作業時間を延ばして、収穫量を増やす"
+      },
+      {
+        "id": "D",
+        "text": "初めて来た人には作業を任せず、見学を中心にする"
+      }
+    ],
+    "contentFingerprint": "b47a22216a14096504c24f7e4e67655495bf62673286e72e9812de8b727f93d8"
+  },
+  {
+    "id": "N2_12_M3_L03",
+    "examId": "N2-MOCK-12",
+    "section": 2,
+    "typeId": "N2-LIS-SUMM",
+    "category": "概要理解",
+    "stem": "話し手が強調していることは何ですか。",
+    "contextPassage": "大学の研究者が、太陽光発電の導入について説明しています。\n太陽光パネルを増やせば、昼間の発電量は増えます。ただ、天候によって出力が変わり、電気を使う時間と発電する時間が合わないこともあります。設備の数だけを見るのではなく、蓄電や地域内での電力の使い方も合わせて考えなければ、安定した供給にはつながりません。",
+    "options": [
+      {
+        "id": "A",
+        "text": "太陽光の変動を補うため、太陽光以外の発電設備を優先して導入する"
+      },
+      {
+        "id": "B",
+        "text": "蓄電設備を整えれば、地域内での使い方は検討しなくてよい"
+      },
+      {
+        "id": "C",
+        "text": "発電と消費の時間差を踏まえ、蓄電や地域内利用も組み合わせる"
+      },
+      {
+        "id": "D",
+        "text": "発電量を増やすには、まずパネルの設置数を優先する"
+      }
+    ],
+    "contentFingerprint": "b14f3ee17cf1dafaae184fa2529c7bf60292cf776c49a42de73dbd331b844c40"
+  },
+  {
+    "id": "N2_12_M3_L04",
+    "examId": "N2-MOCK-12",
+    "section": 2,
+    "typeId": "N2-LIS-SUMM",
+    "category": "概要理解",
+    "stem": "話し手は図書館の役割についてどう考えていますか。",
+    "contextPassage": "図書館長が、図書館の役割について話しています。\n図書館は本を貸す場所ですが、それだけではありません。行政の案内や学習相談を必要とする人も来ます。すべての情報を職員が説明するのではなく、信頼できる窓口や資料へ案内する役割を整えれば、利用者が自分で必要な情報を選びやすくなります。",
+    "options": [
+      {
+        "id": "A",
+        "text": "行政や学習の相談会を定期的に開き、専門家に館内で説明してもらう"
+      },
+      {
+        "id": "B",
+        "text": "信頼できる窓口や資料を案内し、利用者が情報を選べるようにする"
+      },
+      {
+        "id": "C",
+        "text": "行政や学習に関する相談は専門機関に任せ、図書館は本の貸出しを主な役割とする"
+      },
+      {
+        "id": "D",
+        "text": "行政や学習相談を受けた職員が、その場ですべて回答する"
+      }
+    ],
+    "contentFingerprint": "e54236318f7bab4d805c19ec48b0cb9a3a994492b33d81511faf31e117b49146"
+  },
+  {
+    "id": "N2_12_M3_L05",
+    "examId": "N2-MOCK-12",
+    "section": 2,
+    "typeId": "N2-LIS-SUMM",
+    "category": "概要理解",
+    "stem": "観光協会が目指していることは何ですか。",
+    "contextPassage": "観光協会の職員が、訪問者の集中について説明しています。\n花の見頃には、特定の展望台へ人が集中します。案内板を増やすだけでは混雑が解消しませんでした。そこで、周辺の散策路や小さな展示施設も紹介し、時間をずらして訪れてもらう情報を発信しています。来訪者を一か所に集めず、地域全体を楽しんでもらうことが目標です。",
+    "options": [
+      {
+        "id": "A",
+        "text": "混雑時には展望台への立入りを一時的に停止する"
+      },
+      {
+        "id": "B",
+        "text": "案内板の数を増やし、展望台への移動を効率化する"
+      },
+      {
+        "id": "C",
+        "text": "見頃の時期は観光情報を控え、来訪を減らす"
+      },
+      {
+        "id": "D",
+        "text": "周辺施設も紹介し、訪問先や時間帯を地域内に分散させる"
+      }
+    ],
+    "contentFingerprint": "814c4a9c3071fb239b64a576c28228c07234aa2b25d0b8057b94ca0576531429"
+  },
+  {
+    "id": "N2_12_M4_L01",
+    "examId": "N2-MOCK-12",
+    "section": 2,
+    "typeId": "N2-LIS-RESP",
+    "category": "即時応答",
+    "stem": "この資料、今日中に市役所へ届けていただけますか。",
+    "contextPassage": "この資料、今日中に市役所へ届けていただけますか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "申し訳ありませんが、担当者が戻り次第こちらからご連絡します。"
+      },
+      {
+        "id": "B",
+        "text": "はい、午後の便でお持ちします。"
+      },
+      {
+        "id": "C",
+        "text": "市役所の担当窓口は、正面玄関を入って右側です。"
+      }
+    ],
+    "contentFingerprint": "86cb07880d4deb2b41106bb9f1ba73be867103ca29c7a066c2274ee781dc5e63"
+  },
+  {
+    "id": "N2_12_M4_L02",
+    "examId": "N2-MOCK-12",
+    "section": 2,
+    "typeId": "N2-LIS-RESP",
+    "category": "即時応答",
+    "stem": "申し訳ありません。申請書の提出が一日遅れてしまいました。",
+    "contextPassage": "申し訳ありません。申請書の提出が一日遅れてしまいました。",
+    "options": [
+      {
+        "id": "A",
+        "text": "ご連絡ありがとうございます。まず申請書を確認し、必要な手続きを改めてご案内します。"
+      },
+      {
+        "id": "B",
+        "text": "申請書の書式は、市のウェブサイトからダウンロードできます。"
+      },
+      {
+        "id": "C",
+        "text": "提出先は本庁の二階ですので、窓口まで直接お持ちください。"
+      }
+    ],
+    "contentFingerprint": "0c93b718c4ba6cbccaa2c65d7fa3aa3c1c7fe169b8bcea15f6a1515503732e6c"
+  },
+  {
+    "id": "N2_12_M4_L03",
+    "examId": "N2-MOCK-12",
+    "section": 2,
+    "typeId": "N2-LIS-RESP",
+    "category": "即時応答",
+    "stem": "この先の道路は工事中ですが、バスは通れますか。",
+    "contextPassage": "この先の道路は工事中ですが、バスは通れますか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "はい、片側交互通行で運行しています。"
+      },
+      {
+        "id": "B",
+        "text": "工事区間の迂回路は、停留所に掲示しています。"
+      },
+      {
+        "id": "C",
+        "text": "通行止めは来週月曜日から始まる予定です。"
+      }
+    ],
+    "contentFingerprint": "8749d87c4b123468e61d955b41a967b03ffe69a3f0f5ffea56ea574e8309a4f3"
+  },
+  {
+    "id": "N2_12_M4_L04",
+    "examId": "N2-MOCK-12",
+    "section": 2,
+    "typeId": "N2-LIS-RESP",
+    "category": "即時応答",
+    "stem": "この市では、古い電池は回収箱に入れるそうですね。燃えないごみの日に出してもいいでしょうか。",
+    "contextPassage": "この市では、古い電池は回収箱に入れるそうですね。燃えないごみの日に出してもいいでしょうか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "この地域では、来月からごみの回収日が変わります。"
+      },
+      {
+        "id": "B",
+        "text": "はい、燃えないごみの日に透明な袋に入れてください。"
+      },
+      {
+        "id": "C",
+        "text": "いいえ、市の案内どおり回収箱に入れてください。"
+      }
+    ],
+    "contentFingerprint": "f0746aa91f1875b77d42591800a8bc656f279020a756399e390ed3a4dc73c9a7"
+  },
+  {
+    "id": "N2_12_M4_L05",
+    "examId": "N2-MOCK-12",
+    "section": 2,
+    "typeId": "N2-LIS-RESP",
+    "category": "即時応答",
+    "stem": "日曜日の清掃活動ですが、子どもも参加できますか。",
+    "contextPassage": "日曜日の清掃活動ですが、子どもも参加できますか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "参加の申込みは金曜日までにお願いします。"
+      },
+      {
+        "id": "B",
+        "text": "軍手はこちらで用意しますので、当日は受付にお越しください。"
+      },
+      {
+        "id": "C",
+        "text": "はい。保護者と一緒なら参加できます。"
+      }
+    ],
+    "contentFingerprint": "1b8917f48729090787140f7bc44cc7288aaf1cea5af32b88ace0459b04316f48"
+  },
+  {
+    "id": "N2_12_M4_L06",
+    "examId": "N2-MOCK-12",
+    "section": 2,
+    "typeId": "N2-LIS-RESP",
+    "category": "即時応答",
+    "stem": "来週の説明会、会場まで車で行っても大丈夫ですか。",
+    "contextPassage": "来週の説明会、会場まで車で行っても大丈夫ですか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "受付は開始時刻の十五分前からです。"
+      },
+      {
+        "id": "B",
+        "text": "駐車場がないので、公共交通をご利用ください。"
+      },
+      {
+        "id": "C",
+        "text": "最寄り駅から会場までは歩いて五分ほどです。"
+      }
+    ],
+    "contentFingerprint": "da5dfcc1e34ecfeff0cf5f3905ccc4e633c4413c86ce28feef9806894a2397bb"
+  },
+  {
+    "id": "N2_12_M4_L07",
+    "examId": "N2-MOCK-12",
+    "section": 2,
+    "typeId": "N2-LIS-RESP",
+    "category": "即時応答",
+    "stem": "予約した本を受け取る場所を、別の図書館に変えられますか。",
+    "contextPassage": "予約した本を受け取る場所を、別の図書館に変えられますか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "受取期限の延長は、予約した図書館の窓口でお申し込みください。"
+      },
+      {
+        "id": "B",
+        "text": "返却ポストの場所は、ウェブサイトでご確認いただけます。"
+      },
+      {
+        "id": "C",
+        "text": "本が届く前なら、ウェブサイトから変更できます。"
+      }
+    ],
+    "contentFingerprint": "f488508bc05c535d35c34b1870c7ab6d4e8557850c2de2480cee769e43b13e43"
+  },
+  {
+    "id": "N2_12_M4_L08",
+    "examId": "N2-MOCK-12",
+    "section": 2,
+    "typeId": "N2-LIS-RESP",
+    "category": "即時応答",
+    "stem": "最近、このバス停を使う人が減っています。利用者を増やすため、まず何を調べればよいでしょうか。",
+    "contextPassage": "最近、このバス停を使う人が減っています。利用者を増やすため、まず何を調べればよいでしょうか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "利用目的や時間帯を調べてから、対応を検討しましょう。"
+      },
+      {
+        "id": "B",
+        "text": "次の便は、あと十分ほどで到着する予定です。"
+      },
+      {
+        "id": "C",
+        "text": "市役所へは、この路線で乗り換えずに行けます。"
+      }
+    ],
+    "contentFingerprint": "7316021db4e25e74c42f4fb2c792d4e17f8dfd8bf3801b7e74b4180181fa86dc"
+  },
+  {
+    "id": "N2_12_M4_L09",
+    "examId": "N2-MOCK-12",
+    "section": 2,
+    "typeId": "N2-LIS-RESP",
+    "category": "即時応答",
+    "stem": "市民農園の申込みは、いつまでに出せばいいですか。",
+    "contextPassage": "市民農園の申込みは、いつまでに出せばいいですか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "申込みは窓口かウェブサイトで受け付けています。"
+      },
+      {
+        "id": "B",
+        "text": "今年度の利用は、四月から始まります。"
+      },
+      {
+        "id": "C",
+        "text": "今月二十五日までにお願いします。"
+      }
+    ],
+    "contentFingerprint": "f25a74bebee610583ef774151329b2eb73101235482efb61d7390378ffeb24f3"
+  },
+  {
+    "id": "N2_12_M4_L10",
+    "examId": "N2-MOCK-12",
+    "section": 2,
+    "typeId": "N2-LIS-RESP",
+    "category": "即時応答",
+    "stem": "すみません、避難所の入口が見つからないのですが。",
+    "contextPassage": "すみません、避難所の入口が見つからないのですが。",
+    "options": [
+      {
+        "id": "A",
+        "text": "体育館の東側にあります。案内表示を見てください。"
+      },
+      {
+        "id": "B",
+        "text": "毛布は受付を済ませた後にお渡しします。"
+      },
+      {
+        "id": "C",
+        "text": "受付では、住所と一緒に避難する人数をご記入ください。"
+      }
+    ],
+    "contentFingerprint": "5e82926385aec27938f3c50585547e252b2c1cb8297d2c319fc197685257cce1"
+  },
+  {
+    "id": "N2_12_M4_L11",
+    "examId": "N2-MOCK-12",
+    "section": 2,
+    "typeId": "N2-LIS-RESP",
+    "category": "即時応答",
+    "stem": "この地域の給水所は、マイボトルがなくても使えますか。",
+    "contextPassage": "この地域の給水所は、マイボトルがなくても使えますか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "持参する容器は、ふた付きのものに限ります。"
+      },
+      {
+        "id": "B",
+        "text": "はい、紙コップを用意していますが、数に限りがあります。"
+      },
+      {
+        "id": "C",
+        "text": "水の補給は、午後五時までにお願いします。"
+      }
+    ],
+    "contentFingerprint": "ba9251ab2f4ca622875ea4a87476d31c15599864fb08aba5316ca18ffd223ebf"
+  },
+  {
+    "id": "N2_12_M5_L01",
+    "examId": "N2-MOCK-12",
+    "section": 2,
+    "typeId": "N2-LIS-INTEG",
+    "category": "統合理解",
+    "stem": "屋台はどこに並べることになりましたか。",
+    "contextPassage": "町役場で、二人の職員が夏祭りの交通整理について話しています。\n女：祭りの日は駅前通りを歩行者天国にする案が出ています。屋台を並べられますが、バスは迂回が必要です。\n男：病院へ行く人が困らないよう、東側の停留所は残せませんか。\n女：警察に確認したところ、東側は通行できます。屋台は西側だけにして、バスの案内を一週間前から出しましょう。\n男：では、その案で警察とバス会社に連絡します。",
+    "options": [
+      {
+        "id": "A",
+        "text": "東側の停留所の前だけ"
+      },
+      {
+        "id": "B",
+        "text": "駅のホーム"
+      },
+      {
+        "id": "C",
+        "text": "西側の通りだけ"
+      },
+      {
+        "id": "D",
+        "text": "病院の入口"
+      }
+    ],
+    "contentFingerprint": "6a087f20dc5eaa0dfc7c896bb919fb2332f66e3f3d22f3e5b72ebe8361306d37"
+  },
+  {
+    "id": "N2_12_M5_L02",
+    "examId": "N2-MOCK-12",
+    "section": 2,
+    "typeId": "N2-LIS-INTEG",
+    "category": "統合理解",
+    "stem": "二人は最初にどのような変更を試すことにしましたか。",
+    "contextPassage": "地域の交通会議で、委員二人が予約制の乗合車について話しています。\n男：利用者アンケートでは、病院へ行く朝の便が足りないという意見が多いですね。\n女：一方で、午後は空席が目立つ便があります。車を増やす前に、朝だけ一便を追加し、午後の便は予約に合わせて小型車に変えるのはどうでしょう。\n男：運転手の勤務時間と車両の都合も確認しておきたいですね。\n女：勤務表を確認したところ、その組み合わせなら調整できそうです。では、まず一か月試して、予約数と乗車できなかった人の数を比べましょう。\n男：それで効果を判断できますね。",
+    "options": [
+      {
+        "id": "A",
+        "text": "すべての便を廃止する"
+      },
+      {
+        "id": "B",
+        "text": "午後の便を増やし、朝の便をなくす"
+      },
+      {
+        "id": "C",
+        "text": "朝の便を一つ増やし、午後は予約に応じて小型車にする"
+      },
+      {
+        "id": "D",
+        "text": "車両を増やして調査はしない"
+      }
+    ],
+    "contentFingerprint": "41c27761fecd7a67d83c357ebc4beac0a4e80d055a4822c3e42272ee352fe8ca"
+  },
+  {
+    "id": "N2_12_M5_L03",
+    "examId": "N2-MOCK-12",
+    "section": 2,
+    "typeId": "N2-LIS-INTEG",
+    "category": "統合理解",
+    "stem": "二人が合意した変更はどれですか。",
+    "contextPassage": "市民センターで、二人が猛暑日の給水所の運営について話しています。\n女：来週は気温が高くなる予報です。給水所を予定どおり午後五時で閉めてもいいでしょうか。\n男：仕事帰りの人も利用します。センターの職員だけで延長できるか確認しましょう。\n女：職員は六時までなら対応できますが、飲み水の補充が必要です。\n男：では、閉館を一時間延ばし、補充の担当を町内会と交代で決めましょう。\n女：分かりました。利用者数も記録します。",
+    "options": [
+      {
+        "id": "A",
+        "text": "給水所を午後三時に閉める"
+      },
+      {
+        "id": "B",
+        "text": "給水所を一時間長く開け、補充担当を決める"
+      },
+      {
+        "id": "C",
+        "text": "飲み水を各家庭へ配達する"
+      },
+      {
+        "id": "D",
+        "text": "職員を減らして利用者数を記録しない"
+      }
+    ],
+    "contentFingerprint": "7c5bed2a46389e10518fff58b724edd84ba2a270f5021c86792ea54d5a42d07f"
+  }
+]

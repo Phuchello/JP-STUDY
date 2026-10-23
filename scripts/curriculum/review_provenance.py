@@ -41,6 +41,7 @@ def compute_file_sha256(file_path: Path) -> str:
     return hasher.hexdigest()
 
 KNOWN_CONTAMINATED_MOCKS = {"N2-MOCK-04", "N2-MOCK-05"}
+_PHASE71_RECEIPT_VALIDATION_CACHE: Dict[int, Tuple[str, List[str]]] = {}
 
 # Reported Sealed Review Batches
 # These references identify the sealed input and reviewer response. They do not
@@ -171,6 +172,85 @@ class ReviewProvenanceValidator:
                 "isCertified": False,
                 "reason": f"Question review belongs to {exam_id} whose review generator was confirmed contaminated with authored keys."
             }
+
+        # A Phase 7.1 receipt binds the exact current candidate row to a
+        # key-free packet and preserved raw response. Validate that evidence
+        # before classifying it as current-version reviewed. This is a content
+        # version claim only; it never implies portable execution attestation.
+        receipt_rel = review_record.get("reviewReceiptPath")
+        expected_receipts = {
+            f"qa/N2_MOCK_{number:02d}_PHASE71_CANDIDATE_RECONCILIATION.json": number
+            for number in (11, 12, 13)
+        }
+        if receipt_rel in expected_receipts:
+            number = expected_receipts[receipt_rel]
+            try:
+                from scripts.curriculum.build_phase_71_candidate_reconciliation import (
+                    response_registry,
+                    validate_receipt as validate_phase71_receipt,
+                )
+                exam_path = ROOT / f"data/mock_exams/n2_mock_{number:02d}.json"
+                report_path = ROOT / receipt_rel
+                report = json.loads(report_path.read_text(encoding="utf-8"))
+                sealed_path = ROOT / f"qa/blind_items_m{number:02d}_phase71_candidate.json"
+                evidence_paths = [
+                    exam_path,
+                    report_path,
+                    sealed_path,
+                    ROOT / f"qa/N2_MOCK_{number:02d}_BLIND_RECONCILIATION.json",
+                    ROOT / f"qa/blind_items_m{number:02d}_final.json",
+                ]
+                baseline_rel = report.get("releasedBaselinePath")
+                if isinstance(baseline_rel, str) and baseline_rel:
+                    baseline_evidence = (ROOT / baseline_rel).resolve()
+                    if ROOT.resolve() in baseline_evidence.parents:
+                        evidence_paths.append(baseline_evidence)
+                for source in report.get("rawEvidence", {}).get("sourceFiles", []):
+                    source_path = (ROOT / str(source.get("path", ""))).resolve()
+                    if ROOT.resolve() in source_path.parents:
+                        evidence_paths.append(source_path)
+                signature_hash = hashlib.sha256()
+                for evidence_path in evidence_paths:
+                    signature_hash.update(evidence_path.relative_to(ROOT).as_posix().encode("utf-8"))
+                    signature_hash.update(compute_file_sha256(evidence_path).encode("ascii"))
+                evidence_signature = signature_hash.hexdigest()
+                cached = _PHASE71_RECEIPT_VALIDATION_CACHE.get(number)
+                if cached is None or cached[0] != evidence_signature:
+                    errors = validate_phase71_receipt(number, response_registry(), source="published")
+                    _PHASE71_RECEIPT_VALIDATION_CACHE[number] = (evidence_signature, errors)
+                errors = _PHASE71_RECEIPT_VALIDATION_CACHE[number][1]
+                row = next((r for r in report.get("rows", []) if r.get("questionId") == qid), None)
+                exact_text = str(review_record.get("selectedText", "")).strip()
+                exact_matches = [str(o.get("text", "")).strip() for o in question_item.get("options", [])
+                                 if str(o.get("text", "")).strip() == exact_text]
+                current_key = str(question_item.get("correctAnswer", "")).strip().upper()
+                if (not errors and row
+                        and row.get("contentFingerprint") == current_fingerprint
+                        and row.get("releaseEligible") is True
+                        and row.get("semanticTextAgreement") is True
+                        and row.get("rawReviewerExactOptionText") == exact_text
+                        and row.get("currentDisplayedOptionId") == current_key
+                        and row.get("authoredCorrectOptionId") == current_key
+                        and len(exact_matches) == 1):
+                    return {
+                        "qid": qid,
+                        "status": "REVIEW_CONTENT_VERSION_VERIFIED",
+                        "isCertified": False,
+                        "reason": "Exact current Phase 7.1 receipt, key-free packet, and preserved raw response validate; portable execution attestation is unavailable."
+                    }
+                return {
+                    "qid": qid,
+                    "status": "REVIEW_TAMPERED" if errors else "STALE_REVIEW",
+                    "isCertified": False,
+                    "reason": "Phase 7.1 receipt or exact current-row binding failed validation."
+                }
+            except Exception as exc:
+                return {
+                    "qid": qid,
+                    "status": "REVIEW_PROVENANCE_PENDING",
+                    "isCertified": False,
+                    "reason": f"Phase 7.1 receipt validation could not be completed: {type(exc).__name__}."
+                }
 
         # 5. Look up positive batch execution evidence
         # An independent certification CANNOT be granted simply because of exam_id or self-declared strings

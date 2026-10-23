@@ -1,0 +1,274 @@
+{
+  "schema": "JP_STUDY_PHASE_7_1_STAR_DELTA_REVIEW_PACKET_V1",
+  "packetId": "PHASE-7.1-M12-M13-STAR-DELTA-2026-10-23-v1",
+  "baseCommit": "1c3a3c99c2c395bf1e1d18e10f4a59161f0e4873",
+  "candidateExamSha256": {
+    "N2-MOCK-12": "432d8f527d40506ffd00f63857d37e89a362a69edc90326aa2263c39722ce575",
+    "N2-MOCK-13": "49668cc39e9aad6ba8748c95e23cddf9aff895dac40720b0531eeab99e7f2f1c"
+  },
+  "keyExcluded": true,
+  "reviewScope": "Only the ten current candidate M12 and M13 STAR items. Assess the displayed four slots, complete sentence reconstruction, answer position at the star, contextual appropriateness, and any alternative semantically valid fragment order.",
+  "reviewInstructions": "Use only the Japanese learner-visible stem, context, and fragments below. For each question, independently determine the most coherent order of all four fragments, the fragment in the ★ slot, and whether another order is grammatically and semantically defensible. Do not infer or request author keys. Record exact option IDs and texts in order, rationale, naturalness concerns, and alternate defensible sequences.",
+  "items": [
+    {
+      "id": "N2_12_M8_01",
+      "typeId": "N2-GR-STAR",
+      "stem": "（　　　）（　　　）（　★　）（　　　）。",
+      "contextPassage": "窓口では、書類に不足があるときの案内方法を統一することになった。",
+      "options": [
+        {
+          "id": "A",
+          "text": "不足があればその場で知らせた"
+        },
+        {
+          "id": "B",
+          "text": "確認し、"
+        },
+        {
+          "id": "C",
+          "text": "申請者が提出した"
+        },
+        {
+          "id": "D",
+          "text": "書類を受付で"
+        }
+      ],
+      "examId": "N2-MOCK-12",
+      "contentFingerprint": "cadc151ea243c22abb9d309785554d2bd4820d4f4295b21364765c8f1b47bd09"
+    },
+    {
+      "id": "N2_12_M8_02",
+      "typeId": "N2-GR-STAR",
+      "stem": "（　　　）（　　　）（　★　）（　　　）。",
+      "contextPassage": "市の広報課は、調査結果を公表する前の確認手順を決めた。",
+      "options": [
+        {
+          "id": "A",
+          "text": "公開前に担当者が確認し、"
+        },
+        {
+          "id": "B",
+          "text": "必要に応じて該当箇所を修正する"
+        },
+        {
+          "id": "C",
+          "text": "まず回答を集計し、"
+        },
+        {
+          "id": "D",
+          "text": "個人情報が含まれていないか"
+        }
+      ],
+      "examId": "N2-MOCK-12",
+      "contentFingerprint": "9be0273df699694ffc4ad4769bbf692dd7c0642de4017a92241e2c37bb4a519e"
+    },
+    {
+      "id": "N2_12_M8_03",
+      "typeId": "N2-GR-STAR",
+      "stem": "（　　　）（　　　）（　★　）（　　　）。",
+      "contextPassage": "地域では災害に備え、各世帯が必要な準備を進めている。",
+      "options": [
+        {
+          "id": "A",
+          "text": "避難場所を"
+        },
+        {
+          "id": "B",
+          "text": "必要な物資を準備しておく"
+        },
+        {
+          "id": "C",
+          "text": "市が指定した"
+        },
+        {
+          "id": "D",
+          "text": "事前に確認し、"
+        }
+      ],
+      "examId": "N2-MOCK-12",
+      "contentFingerprint": "f2bffd78193d6718336e5c96e3914ab300bf4588f769b9f34c1ec25f79a65408"
+    },
+    {
+      "id": "N2_12_M8_04",
+      "typeId": "N2-GR-STAR",
+      "stem": "（　　　）（　　　）（　★　）（　　　）。",
+      "contextPassage": "市は、食料を買いにくい地域の住民を支援する方法を検討した。",
+      "options": [
+        {
+          "id": "A",
+          "text": "買い物が難しい人に"
+        },
+        {
+          "id": "B",
+          "text": "食料品を届けるための移動販売車を導入し、"
+        },
+        {
+          "id": "C",
+          "text": "市は"
+        },
+        {
+          "id": "D",
+          "text": "週に二回運行する"
+        }
+      ],
+      "examId": "N2-MOCK-12",
+      "contentFingerprint": "470dba0e69271f1e68476ba4eb4efcee6cfa8ef6703474e33693dc3421a0fc3b"
+    },
+    {
+      "id": "N2_12_M8_05",
+      "typeId": "N2-GR-STAR",
+      "stem": "（　　　）（　　　）（　★　）（　　　）。",
+      "contextPassage": "複数の公共事業案について、将来の維持費も比べる方針になった。",
+      "options": [
+        {
+          "id": "A",
+          "text": "将来の維持費も"
+        },
+        {
+          "id": "B",
+          "text": "比較したうえで決める"
+        },
+        {
+          "id": "C",
+          "text": "短期的な費用だけでなく"
+        },
+        {
+          "id": "D",
+          "text": "複数の案が出た場合には"
+        }
+      ],
+      "examId": "N2-MOCK-12",
+      "contentFingerprint": "37600bfd723d5de7de19c12d72283644f4a465d7ff1cfb8359fc5efa65e38491"
+    },
+    {
+      "id": "N2_13_M8_01",
+      "typeId": "N2-GR-STAR",
+      "stem": "（　　　）（　　　）（　★　）（　　　）",
+      "contextPassage": "研究成果を読者が検証できるよう、研究室は資料の示し方を改めた。",
+      "options": [
+        {
+          "id": "A",
+          "text": "明示することによって"
+        },
+        {
+          "id": "B",
+          "text": "研究者は"
+        },
+        {
+          "id": "C",
+          "text": "数値の出典を"
+        },
+        {
+          "id": "D",
+          "text": "読者が結果を確かめられるようにした。"
+        }
+      ],
+      "examId": "N2-MOCK-13",
+      "contentFingerprint": "fb622b765da8bd84d90202d0ce3a14fa6ab6dcc80c089f65c9dcd462e18ac50e"
+    },
+    {
+      "id": "N2_13_M8_02",
+      "typeId": "N2-GR-STAR",
+      "stem": "（　　　）（　　　）（　★　）（　　　）",
+      "contextPassage": "授業では、学生の理解度に合わせて説明を工夫することになった。",
+      "options": [
+        {
+          "id": "A",
+          "text": "合わせて"
+        },
+        {
+          "id": "B",
+          "text": "調整する必要がある。"
+        },
+        {
+          "id": "C",
+          "text": "説明の順序を"
+        },
+        {
+          "id": "D",
+          "text": "学生の理解度に"
+        }
+      ],
+      "examId": "N2-MOCK-13",
+      "contentFingerprint": "6900fda3157c90cb55b8d4deab849c876146d6c622bd4deb4b5781fc1427ce8b"
+    },
+    {
+      "id": "N2_13_M8_03",
+      "typeId": "N2-GR-STAR",
+      "stem": "（　　　）（　　　）（　★　）（　　　）",
+      "contextPassage": "編集部は、見出しだけで記事を判断しないよう読者に呼びかけている。",
+      "options": [
+        {
+          "id": "A",
+          "text": "記事の見出しだけで"
+        },
+        {
+          "id": "B",
+          "text": "内容を判断するのではなく"
+        },
+        {
+          "id": "C",
+          "text": "確認したほうがよい。"
+        },
+        {
+          "id": "D",
+          "text": "本文と出典も"
+        }
+      ],
+      "examId": "N2-MOCK-13",
+      "contentFingerprint": "6d955d2ea30355c27298add8799f397f771078d9244e99aae3439997f008e95c"
+    },
+    {
+      "id": "N2_13_M8_04",
+      "typeId": "N2-GR-STAR",
+      "stem": "（　　　）（　　　）（　★　）（　　　）",
+      "contextPassage": "新機能の導入に当たり、利用者への影響を事前に調べることになった。",
+      "options": [
+        {
+          "id": "A",
+          "text": "新しい機能を"
+        },
+        {
+          "id": "B",
+          "text": "利用者の負担が"
+        },
+        {
+          "id": "C",
+          "text": "増えないか検討した。"
+        },
+        {
+          "id": "D",
+          "text": "導入する前に"
+        }
+      ],
+      "examId": "N2-MOCK-13",
+      "contentFingerprint": "3c445d74ab11b3e17a5a05b968f2c6425363216d78cbaf6cf9e5ffc362ed1168"
+    },
+    {
+      "id": "N2_13_M8_05",
+      "typeId": "N2-GR-STAR",
+      "stem": "（　　　）（　　　）（　★　）（　　　）",
+      "contextPassage": "編集部では、記事を公開する前に複数の資料を確認している。",
+      "options": [
+        {
+          "id": "A",
+          "text": "複数の資料を"
+        },
+        {
+          "id": "B",
+          "text": "記事の内容を"
+        },
+        {
+          "id": "C",
+          "text": "照合したうえで"
+        },
+        {
+          "id": "D",
+          "text": "公開することにした。"
+        }
+      ],
+      "examId": "N2-MOCK-13",
+      "contentFingerprint": "575c20e640047ac4b84ab50853161a74d594e755219e01e169bb02929f21af41"
+    }
+  ]
+}

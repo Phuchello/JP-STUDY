@@ -100,8 +100,13 @@ def audit_single_discovered_mock(mock_num_str: str, exam_file: Path, catalog_htm
     else:
         # Generic version-bound reconciliation contract for new review workflows.
         # This is evidence discovery by artifact shape, not a mock-number exemption.
-        report_file = ROOT / f"qa/N2_MOCK_{mock_num_str}_BLIND_RECONCILIATION.json"
-        sealed_file = ROOT / f"qa/blind_items_m{int(mock_num_str)}_final.json"
+        phase71_report = ROOT / f"qa/N2_MOCK_{mock_num_str}_PHASE71_CANDIDATE_RECONCILIATION.json"
+        phase71_sealed = ROOT / f"qa/blind_items_m{int(mock_num_str)}_phase71_candidate.json"
+        if data.get("releaseGateStatus") == "REVIEW_CONTENT_VERSION_VERIFIED" and phase71_report.is_file() and phase71_sealed.is_file():
+            report_file, sealed_file = phase71_report, phase71_sealed
+        else:
+            report_file = ROOT / f"qa/N2_MOCK_{mock_num_str}_BLIND_RECONCILIATION.json"
+            sealed_file = ROOT / f"qa/blind_items_m{int(mock_num_str)}_final.json"
         if report_file.is_file() and sealed_file.is_file():
             try:
                 reconciliation = json.loads(report_file.read_text(encoding="utf-8"))

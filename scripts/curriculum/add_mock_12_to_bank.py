@@ -82,7 +82,10 @@ def main() -> None:
       </div>
     </div>'''
     html = HTML_PATH.read_text(encoding="utf-8")
-    html = replace_html_card(html, "JLPT N2 | Full Mock Exam #12", card)
+    existing_title = next((title for title in ("JLPT N2 | Full Mock Exam #12", "JLPT N2 | Practice Mock Exam #12") if title in html), None)
+    if not existing_title:
+        raise ValueError("Could not locate the current #12 catalog card title")
+    html = replace_html_card(html, existing_title, card)
     HTML_PATH.write_text(html, encoding="utf-8", newline="\n")
     print("Integrated FULL_MOCK N2-MOCK-12 into the playable bank and static catalog.")
 

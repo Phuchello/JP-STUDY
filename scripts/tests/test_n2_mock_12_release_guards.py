@@ -24,6 +24,10 @@ from scripts.curriculum.mock_exam_release_checks import (
     validate_full_mock_blueprint,
     validate_star_fragment_integrity,
 )
+from scripts.curriculum.build_phase_71_candidate_reconciliation import (
+    response_registry,
+    validate_receipt as validate_phase71_receipt,
+)
 from scripts.curriculum.question_fingerprint import compute_spoken_content_fingerprint
 
 
@@ -31,14 +35,27 @@ class TestN2Mock12ReleaseGuards(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.exam = json.loads((ROOT / "data/mock_exams/n2_mock_12.json").read_text(encoding="utf-8"))
-        cls.sealed = json.loads((ROOT / "qa/blind_items_m12_final.json").read_text(encoding="utf-8"))
-        cls.review = json.loads((ROOT / "qa/N2_MOCK_12_BLIND_RECONCILIATION.json").read_text(encoding="utf-8"))
+        if cls.exam.get("releaseGateStatus") == "REVIEW_CONTENT_VERSION_VERIFIED":
+            cls.sealed = json.loads((ROOT / "qa/blind_items_m12_phase71_candidate.json").read_text(encoding="utf-8"))
+            cls.review = json.loads((ROOT / "qa/N2_MOCK_12_PHASE71_CANDIDATE_RECONCILIATION.json").read_text(encoding="utf-8"))
+        else:
+            cls.sealed = json.loads((ROOT / "qa/blind_items_m12_final.json").read_text(encoding="utf-8"))
+            cls.review = json.loads((ROOT / "qa/N2_MOCK_12_BLIND_RECONCILIATION.json").read_text(encoding="utf-8"))
 
     def test_current_review_is_fingerprint_bound_and_key_free(self):
         raw_path = ROOT / self.review["rawEvidence"]["rawOutputFile"]
         self.assertEqual(validate_current_version_reconciliation(
             self.review, self.exam, self.sealed, raw_sha256={"rawOutputSha256": raw_path}
         ), [])
+
+    def test_phase71_packet_and_raw_evidence_bind_each_current_row(self):
+        self.assertEqual(validate_phase71_receipt(12, response_registry(), source="published"), [])
+
+    def test_historical_review_is_preserved_against_its_original_snapshot(self):
+        baseline = json.loads((ROOT / "qa/n2_mock_12_phase71_pre_release_baseline.json").read_text(encoding="utf-8"))
+        old_sealed = json.loads((ROOT / "qa/blind_items_m12_final.json").read_text(encoding="utf-8"))
+        old_review = json.loads((ROOT / "qa/N2_MOCK_12_BLIND_RECONCILIATION.json").read_text(encoding="utf-8"))
+        self.assertEqual(validate_current_version_reconciliation(old_review, baseline, old_sealed), [])
 
     def test_mutated_raw_review_bytes_fail_the_release_digest_check(self):
         raw_path = ROOT / self.review["rawEvidence"]["rawOutputFile"]

@@ -26,8 +26,21 @@ SEALED8 = QA / "blind_items_m11_revision8.json"
 DELTA7 = QA / "blind_items_m11_revision7_delta.json"
 DELTA8 = QA / "blind_items_m11_revision8_delta.json"
 PUBLISHED_EXAM = ROOT / "data/mock_exams/n2_mock_11.json"
-EXAM = PUBLISHED_EXAM if PUBLISHED_EXAM.exists() else ROOT / "tmp/phase7/n2_mock_11_draft.json"
-OUT = QA / "N2_MOCK_11_BLIND_RECONCILIATION.json"
+PHASE71_BASELINE = QA / "n2_mock_11_phase71_pre_release_baseline.json"
+_PUBLISHED_IS_PHASE71 = False
+if PUBLISHED_EXAM.exists():
+    try:
+        _published_exam = json.loads(PUBLISHED_EXAM.read_text(encoding="utf-8"))
+        _candidate_receipt = QA / "N2_MOCK_11_PHASE71_CANDIDATE_RECONCILIATION.json"
+        _candidate_digest_matches = (_candidate_receipt.is_file()
+            and hashlib.sha256(PUBLISHED_EXAM.read_bytes()).hexdigest()
+            == json.loads(_candidate_receipt.read_text(encoding="utf-8")).get("candidateExamSha256AtBuild"))
+        _PUBLISHED_IS_PHASE71 = (_published_exam.get("releaseGateStatus") == "REVIEW_CONTENT_VERSION_VERIFIED"
+            and PHASE71_BASELINE.is_file() and _candidate_digest_matches)
+    except Exception:
+        _PUBLISHED_IS_PHASE71 = False
+EXAM = PHASE71_BASELINE if _PUBLISHED_IS_PHASE71 else (PUBLISHED_EXAM if PUBLISHED_EXAM.exists() else ROOT / "tmp/phase7/n2_mock_11_draft.json")
+OUT = QA / ("N2_MOCK_11_PHASE71_HISTORICAL_RECONCILIATION.json" if _PUBLISHED_IS_PHASE71 else "N2_MOCK_11_BLIND_RECONCILIATION.json")
 EXPECTED_REVISED = {
     "N2_11_M2_01", "N2_11_M2_02", "N2_11_M2_03", "N2_11_M2_04",
     "N2_11_M2_05", "N2_11_M4_07", "N2_11_M6_01",
@@ -286,7 +299,10 @@ def main() -> int:
         "rows": reconciled,
     }
     OUT.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
-    print("PASS M11 blind review: 105 current fingerprints, 96 revision-5 + 7 revision-6 + 1 revision-7 + 1 revision-8 answer rows, 105 exact semantic matches, 120 retained STAR permutation judgments.")
+    if _PUBLISHED_IS_PHASE71:
+        print("PASS M11 historical review-layer replay: exact pre-Phase-7.1 baseline, 96 revision-5 + 7 revision-6 + 1 revision-7 + 1 revision-8 answer rows, 105 exact semantic matches, 120 retained STAR permutation judgments. Current published content is covered by the separate Phase 7.1 315-row receipt validator.")
+    else:
+        print("PASS M11 blind review: 105 current fingerprints, 96 revision-5 + 7 revision-6 + 1 revision-7 + 1 revision-8 answer rows, 105 exact semantic matches, 120 retained STAR permutation judgments.")
     return 0
 
 

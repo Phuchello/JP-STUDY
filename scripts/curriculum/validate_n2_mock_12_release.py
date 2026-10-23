@@ -26,8 +26,12 @@ from scripts.curriculum.mock_exam_release_checks import (
 from scripts.curriculum.question_fingerprint import compute_spoken_content_fingerprint
 
 EXAM_PATH = ROOT / "data/mock_exams/n2_mock_12.json"
-SEALED_PATH = ROOT / "qa/blind_items_m12_final.json"
-REVIEW_PATH = ROOT / "qa/N2_MOCK_12_BLIND_RECONCILIATION.json"
+_EXAM = json.loads(EXAM_PATH.read_text(encoding="utf-8")) if EXAM_PATH.is_file() else {}
+_PHASE71_RECEIPT = ROOT / "qa/N2_MOCK_12_PHASE71_CANDIDATE_RECONCILIATION.json"
+_PHASE71 = (_EXAM.get("releaseGateStatus") == "REVIEW_CONTENT_VERSION_VERIFIED" and _PHASE71_RECEIPT.is_file()
+            and hashlib.sha256(EXAM_PATH.read_bytes()).hexdigest() == json.loads(_PHASE71_RECEIPT.read_text(encoding="utf-8")).get("candidateExamSha256AtBuild"))
+SEALED_PATH = ROOT / ("qa/blind_items_m12_phase71_candidate.json" if _PHASE71 else "qa/blind_items_m12_final.json")
+REVIEW_PATH = ROOT / ("qa/N2_MOCK_12_PHASE71_CANDIDATE_RECONCILIATION.json" if _PHASE71 else "qa/N2_MOCK_12_BLIND_RECONCILIATION.json")
 MANIFEST_PATH = ROOT / "data/mock_exams/n2_mock_12_audio_manifest.json"
 RECEIPT_PATH = ROOT / "qa/N2_MOCK_12_AUDIO_PLAYBACK_RECEIPT.json"
 

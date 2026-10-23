@@ -66,6 +66,7 @@ jobs:
 
       - name: Verify N2-MOCK-11 version-bound blind and originality
         run: |
+          python scripts/curriculum/build_phase_71_candidate_reconciliation.py --validate published
           python scripts/curriculum/validate_n2_mock_11_blind_review.py
           python scripts/curriculum/audit_n2_mock_11_originality.py
 

@@ -35,6 +35,10 @@ def export_fixtures(output_dir: Path = OUTPUT_DIR):
         candidate_items = builder()
         if len(candidate_items) != 75:
             raise ValueError(f"N2-MOCK-{number:02} candidate Section 1 has {len(candidate_items)} items")
+        # Match the promoted full-mock builder's learner-visible skill labels;
+        # raw authoring rows may omit or carry a stale generic label.
+        for item in candidate_items:
+            item["skill"] = "Reading" if str(item.get("typeId", "")).startswith("N2-RD-") else "Language Knowledge"
         ids = [item.get("id") for item in candidate_items]
         if len(ids) != len(set(ids)):
             raise ValueError(f"N2-MOCK-{number:02} candidate question IDs are not unique")
